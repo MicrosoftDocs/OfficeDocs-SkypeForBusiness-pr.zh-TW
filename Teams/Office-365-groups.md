@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61569b2a60bdce188a7ffb75ae6720d4e1e87a3c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637052"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753893"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和 Microsoft 團隊
 =====================================
@@ -43,7 +43,7 @@ Office 365 管理員可以定義 Microsoft 365 群組、新增成員，以及從
 當您建立小組時，請在後端，建立 Microsoft 365 群組，以及關聯的 SharePoint 文件庫和 OneNote 筆記本，以及與其他 Office 365 雲端應用程式之間的關聯。 如果建立小組的人員是現有的 Office 365 公用或私人群組的擁有者，但如果該組的人員少於5000人，也可以新增小組功能給小組。 這會建立一個預設的**一般**頻道，讓聊天訊息、檔、OneNote 及其他物件都駐留在其中。 查看頻道的文件庫會顯示代表小組中頻道的 **[一般**] 資料夾。 更重要的是，如果您在文件庫中建立自己的資料夾結構，**它不會**以頻道傳播給團隊;目前，它只會從小組流向 SharePoint。
 
 > [!NOTE]
-> 根據客戶的意見反應，由於在 Microsoft 團隊中建立小組而產生的新 Microsoft 365 群組，預設不會在 Outlook 中顯示。 針對想要繼續在 Outlook 中顯示這些群組之現有行為的客戶，將會提供 Exchange Online PowerShell Cmdlet，讓您能夠啟用 Outlook 體驗的群組。 透過 Outlook 建立的群組，且稍後啟用的小組將會繼續在 Outlook 和小組中顯示。 此更新將會在未來幾個月內逐步推出給 Outlook 和小組。
+> 根據客戶的意見反應，由於在 Microsoft 團隊用戶端中建立小組而產生的新 Microsoft 365 群組，預設不會在 Outlook 中顯示。 若要開啟或關閉 Outlook 中的群組顯示，請使用[UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 及**HiddenFromExchangeClientsEnabled**參數。 透過 Outlook 建立的群組，且稍後啟用的小組將會繼續在 Outlook 和小組中顯示。 
 
 > [!NOTE]
 > 刪除 Microsoft 365 群組會移除持續性 Outlook/OWA 交談和團隊會議邀請的信箱別名，並標示要刪除的 SharePoint 網站。 在 Outlook 中移除團隊和其效果之間大約需要20分鐘的時間。 從小組用戶端刪除小組後，就會立即將其從 [查看] 移至團隊成員的所有人。 如果您移除已在其上啟用團隊功能的 Microsoft 365 群組成員，則在團隊用戶端中針對已移除的人員在團隊用戶端中移除該小組前，可能會有大約兩小時的延遲。

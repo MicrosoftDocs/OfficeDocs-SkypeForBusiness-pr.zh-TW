@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d14c32357101ef2fe002394046f707445b7c10a6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690939"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756914"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -420,9 +420,9 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 若要指定使用者可以使用的會議增益集，請設定**PreferredMeetingProviderForIslandsMode**參數，如下所示：
 
 - 將參數設定為**TeamsAndSfB** ，以在 Outlook 中同時啟用 [團隊會議增益集] 和 [商務用 Skype] 增益集。 此為預設值。
-- 將參數設定為 [ **TeamsOnly** ]，只會在 Outlook 中啟用 [團隊會議] 增益集。 此原則設定可確保所有未來的會議都有小組會議加入連結。 它不會將現有的商務用 Skype 會議加入連結遷移至團隊。 此原則設定不會影響商務用 Skype 中的目前狀態、聊天、PSTN 通話或任何其他功能，這表示使用者將繼續使用商務用 Skype 來取得這些功能。
+- 將參數設定為 [**團隊**]，只會在 Outlook 中啟用 [團隊會議] 增益集。 此原則設定可確保所有未來的會議都有小組會議加入連結。 它不會將現有的商務用 Skype 會議加入連結遷移至團隊。 此原則設定不會影響商務用 Skype 中的目前狀態、聊天、PSTN 通話或任何其他功能，這表示使用者將繼續使用商務用 Skype 來取得這些功能。
 
-  如果您將參數設定為 [ **TeamsOnly**]，然後切換回**TeamsAndSfB**，則會啟用兩個會議增益集。 不過，請注意，現有的團隊會議加入連結不會遷移到商務用 Skype。 只有在變更之後所排程的商務用 Skype 會議，才會有商務用 Skype 會議加入連結。
+  如果您將參數設定為 [**團隊**]，然後切換回**TeamsAndSfB**，則會啟用兩個會議增益集。 不過，請注意，現有的團隊會議加入連結不會遷移到商務用 Skype。 只有在變更之後所排程的商務用 Skype 會議，才會有商務用 Skype 會議加入連結。
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>會議原則設定-影片篩選模式
 

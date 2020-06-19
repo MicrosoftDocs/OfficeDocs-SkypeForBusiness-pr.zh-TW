@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 本文說明部署 Microsoft 團隊聊天室的下一代 Skype 室系統的相關規劃考慮。
-ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997304"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761461"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>規劃 Microsoft 團隊聊天室
 
@@ -102,8 +102,8 @@ _會議/會議室庫存範例_
 
 | 網站  | 會議室名稱 | 會議室類型 | 人數  | 在範圍中？ | 目前的會議室功能       | 未來的空間功能     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| 倫敦總部 | Curie         | 中型        | 6&ndash;12                  | 是          | 免持聽筒                        | 1畫面、音訊及影片加上簡報<br>PSTN 存取 |
-| 悉尼總部 | 峰          | 大型         | 12&ndash;16                 | 是          | 舊版 AV 裝置，1個畫面與攝影機 | 2個畫面、音訊及影片加上簡報<br>PSTN 存取 |
+| 倫敦總部 | Curie         | 中型        | 6 &ndash; 12                  | 是          | 免持聽筒                        | 1畫面、音訊及影片加上簡報<br>PSTN 存取 |
+| 悉尼總部 | 峰          | 大型         | 12 &ndash; 16                 | 是          | 舊版 AV 裝置，1個畫面與攝影機 | 2個畫面、音訊及影片加上簡報<br>PSTN 存取 |
 
 ## <a name="device-selection"></a>裝置選取 
 
@@ -124,10 +124,10 @@ _針對貴組織的 Microsoft [小組聊天室] 部署範本範例_
 
 | **房間類型/大小** | **人數**  | **Microsoft 團隊聊天室系統** | **週邊裝置**  | **顯示（s）** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| 焦點 10 "x 9"      | 2&ndash;4                   |                                  |                         |                 |
-| 小寫 16 "by 16"     | 4&ndash;6                   |                                  |                         |                 |
-| 中等深淺 18 "x 20"    | 6&ndash;12                  |                                  |                         |                 |
-| 大型 15 "by 32"     | 12&ndash;16                 |                                  |                         |                 |
+| 焦點 10 "x 9"      | 2 &ndash; 4                   |                                  |                         |                 |
+| 小寫 16 "by 16"     | 4 &ndash; 6                   |                                  |                         |                 |
+| 中等深淺 18 "x 20"    | 6 &ndash; 12                  |                                  |                         |                 |
+| 大型 15 "by 32"     | 12 &ndash; 16                 |                                  |                         |                 |
 
 **Pro 提示-** 現在是開始收集您所選之 Microsoft 團隊聊天室方案資訊的絕佳時機。
 
@@ -150,7 +150,7 @@ _針對貴組織的 Microsoft [小組聊天室] 部署範本範例_
 
 許多組織有一個 AV 小組或管理其會議室和裝置的合作夥伴。 本小組應參與將管理 Microsoft 團隊聊天室裝置的人員同意，以進行監控效能，以及部署軟體更新與修復程式。 
 
-考慮哪個支援人員佇列：您可以將 Microsoft 團隊 Rooms֪相關呼叫傳送給您，並提供支援人員小組的常見問題，讓他們能夠更清楚地瞭解如何使用 Microsoft 團隊聊天室，以及他們可以採取的主要疑難排解步驟。 [您的組織中](known-issues.md)的[使用者](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)說明和支援小組就是這個常見問題的最佳起點。
+考慮哪個支援人員佇列：您可以將 Microsoft 團隊 Rooms֪相關呼叫傳送給您，並提供支援人員小組的常見問題，讓他們能夠更清楚地瞭解如何使用 Microsoft 團隊聊天室，以及他們可以採取的主要疑難排解步驟。 此常見問題的良好起點是[使用者](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)說明和[已知問題](known-issues.md)。
 
 |    |     |
 |-----------|------------|

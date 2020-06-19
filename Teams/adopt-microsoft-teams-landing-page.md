@@ -3,8 +3,8 @@ title: 採納 Microsoft 團隊
 ms.reviewer: karuanag
 description: 瞭解可用的資源，協助您規劃及部署貴組織中的 Microsoft 團隊。
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -21,17 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665925"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756512"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
 > [!NOTE]
-> 如需將轉場轉換至遠端學習與資源以協助您快速入門的概況，請參閱我們的[**遠端學習**](https://www.microsoft.com/education/remote-learning)首頁。
+> 如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[**遠端學習首頁**](https://www.microsoft.com/education/remote-learning)。
 
 如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能（例如 Microsoft 365 或 Office 365 通話方案或電話系統），您可以從我們的**入門指南中**開始，但以下是您需要的其他指導方針。
 

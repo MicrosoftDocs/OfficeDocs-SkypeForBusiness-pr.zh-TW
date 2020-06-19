@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心（即 Microsoft 團隊服務（CCaaS）解決方案）的概覽
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dccf00bc362f2404b882eb02cf7f51b532ec9161
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691469"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756824"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -51,6 +51,7 @@ Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模�
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 好 inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 此清單會隨著更多合作夥伴加入並符合認證準則而更新。
 

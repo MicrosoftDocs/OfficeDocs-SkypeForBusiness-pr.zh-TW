@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a12ed5780dd9119f4adc0a7bb77c9c110f533859
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: cb1be3215aff5aa97d97b0bc7cfbb81febd7d7fe
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724921"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804697"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -31,11 +31,13 @@ ms.locfileid: "44724921"
 
 虛擬桌面基礎結構（VDI）是虛擬化技術，可在資料中心的中央伺服器上託管桌面作業系統和應用程式。 這可讓使用者具備完全安全且相容的集中來源，為使用者提供完整的個人化桌面體驗。
  
-虛擬化環境中的 Microsoft 團隊支援聊天與共同作業，而且還支援 Citrix 平臺、通話和會議功能。
+虛擬化環境中的 Microsoft 團隊支援聊天與共同作業。 而且在 Citrix 平臺中，也支援通話和會議功能。
 
-虛擬化環境中的小組支援多種設定。 其中包括 VDI、專用、共用、持久且不持久的模式。 功能在連續開發並定期新增，功能將會在未來的幾個月和幾年中擴充。
+虛擬化環境中的小組支援多種設定。 其中包括 VDI、專用、共用、持久且非持久的模式。 功能在連續開發並定期新增，功能將會在未來的幾個月和幾年中擴充。
  
-在虛擬化環境中使用團隊的方式可能與在非虛擬化環境中使用團隊稍有不同。 例如，某些高級功能可能無法在虛擬化環境中使用，而且可能會有不同的影片解析度。 若要確保最佳的使用者體驗，請遵循本文中的指導方針。
+在虛擬化環境中使用團隊的方式可能與在非虛擬化環境中使用團隊稍有不同。 例如，某些高級功能可能無法在虛擬化的環境中使用，而且可能會有不同的影片解析度。 
+
+若要確保最佳的使用者體驗，請遵循本文中的指導方針。
 
 ## <a name="teams-on-vdi-components"></a>VDI 元件上的小組
 
@@ -44,15 +46,15 @@ ms.locfileid: "44724921"
 - **虛擬化 broker**：虛擬化提供者的資源和連線管理員（例如 Azure）
 - **虛擬桌面**：執行 Microsoft 團隊的虛擬機器（VM）堆疊
 - **瘦用戶端**：使用者使用物理介面的端點
-- **團隊桌面應用程式**：這是團隊桌面用戶端應用程式
+- **團隊桌面應用程式**：團隊桌面用戶端應用程式
 
 ## <a name="teams-on-vdi-requirements"></a>針對 VDI 需求的小組
 
 ### <a name="virtualization-provider-requirements"></a>虛擬化提供者需求
 
-已使用主要的虛擬化解決方案提供者驗證團隊桌面應用程式。 有了多個市場供應商，我們建議您諮詢您的虛擬化解決方案供應商，以確保符合最低需求。
+已使用主要的虛擬化解決方案提供者驗證團隊桌面應用程式。 有了多個市場供應商，我們建議您諮詢您的虛擬化解決方案供應商，以確保您符合最低需求。
   
-目前，具有音訊/視頻（AV）優化的團隊在使用 Citrix 進行認證。 請參閱本節中的資訊，以確保同時滿足 Citrix 與團隊需求，才能正常功能。
+目前，具有音訊/視頻（AV）優化的團隊在使用 Citrix 進行認證。 請參閱本節中的資訊，以確保您符合 Citrix 與團隊對適當功能的需求。
 
 ### <a name="partners-certified-for-teams"></a>針對團隊認證的合作夥伴
 
@@ -66,14 +68,15 @@ ms.locfileid: "44724921"
 
 Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 VDI 上的小組提供 AV 優化。 借助 Citrix 虛擬 App 和電腦版，VDI 的小組除了聊天與共同作業之外，還支援通話和會議功能。
 
-您可以在[這裡](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下載最新版本的 Citrix 虛擬 App 和桌上型電腦。 （您必須先登入。）預設會將必要的元件捆綁到[Citrix 工作區應用程式（CWA）](https://www.citrix.com/downloads/workspace-app/)和虛擬傳遞代理程式（VDA）。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
+您可以在[citrix 下載網站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下載最新版本的 Citrix 虛擬 App 和桌上型電腦。 （您必須先登入。）預設會將必要的元件捆綁到[Citrix 工作區應用程式（CWA）](https://www.citrix.com/downloads/workspace-app/)和虛擬傳遞代理程式（VDA）。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
 
 如需最新的伺服器和用戶端需求，請參閱[此 Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安裝或更新小組桌面應用程式
 
 您可以使用每電腦安裝或使用 MSI 套件的每個使用者安裝，部署 VDI 版團隊桌面應用程式。 決定使用哪種方法，取決於您使用的是持續性或非持續設定，以及貴組織的相關功能需求。
-針對專用的持續設定，這兩種方法都可以運作。  不過，對於非持續性設定，小組需要使用每電腦安裝才能有效運作。 請參閱[非持續性設定](#non-persistent-setup)一節。
+
+針對專用的持續設定，這兩種方法都可以運作。 不過，對於非持續性設定，小組需要每電腦安裝才能有效運作。 請參閱[非持續性設定](#non-persistent-setup)一節。
 
 在安裝每電腦的情況下，自動更新是停用的。 這表示若要更新團隊應用程式，您必須卸載目前的版本，才能更新為較新的版本。 針對每位使用者安裝，會啟用自動更新。 對於大多數的 VDI 部署，我們建議您使用每電腦安裝來部署團隊。
 
@@ -83,7 +86,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 #### <a name="dedicated-persistent-setup"></a>專用持續設定
 
-在專用的持續設定中，使用者會在使用者登出後保留使用者的本機作業系統變更。  針對持續設定，團隊支援每個使用者和每電腦的安裝。
+在專用的持續設定中，使用者會在使用者登出後保留使用者的本機作業系統變更。 針對持續性設定，小組支援針對每位使用者和每電腦安裝。
 
 以下是建議的最低 VM 設定。
 
@@ -97,11 +100,18 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 在非永久性設定中，使用者登出後，使用者的本機作業系統變更就不會保留。 這類設置通常是共用多個使用者會話。 VM 配置會根據使用者數量及可用的物理盒資源而有所不同。
 
-針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。 （若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)）。這可確保在使用者會話期間有效啟動團隊 app。 將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間會快取適當的使用者特定資訊（例如，使用者資料、設定檔和設定）。  有許多可用的緩存管理器解決方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 如需特定的設定指示，請參閱您的快取管理員提供者。
+針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。 （若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)）。這可確保在使用者會話期間有效啟動團隊 app。 
+
+將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間，會緩存適當的使用者特定資訊（例如，使用者資料、設定檔和設定）。 請確定這兩個資料夾中的資料已同步處理。  
+
+- C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+
+有許多可用的緩存管理器解決方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 如需特定的設定指示，請參閱您的快取管理員提供者。
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>小組快取內容排除清單以進行非持續設定
 
-從 [團隊快取] 資料夾（% appdata%/Microsoft/Teams.）中排除下列各項：  排除這些說明可減少使用者的快取大小，進一步優化您的非持久設定。
+從 [團隊快取] 資料夾（% appdata%/Microsoft/Teams.）中排除下列各項： 排除這些專案有助於減少使用者的快取大小，進一步優化您的非持久設定。
 
 - .txt 檔案
 - 媒體堆疊資料夾
@@ -137,7 +147,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
     - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.12058/Teams_windows_x64.msi)
 
 
-    所需的小組桌面應用程式最低版本為版本1.3.00.4461。 （舊版中不支援 PSTN 保留。）
+    所需的小組桌面應用程式最低版本為版本1.3.00.4461。 （較舊的版本不支援 PSTN 保留）。
 
 2. 執行下列其中一項命令，將 MSI 安裝到 VDI VM：
 
@@ -147,7 +157,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
 
-        這是預設安裝，可將團隊安裝至 [% AppData% user] （使用者）資料夾。 此時，黃金影像設定就完成了。 在非持久性設定上，小組將無法與每位使用者安裝正常運作。
+        這個處理常式是預設安裝，可將團隊安裝到% AppData% user 資料夾中。 此時，黃金影像設定就完成了。 在非持續設定上，小組無法針對每位使用者安裝正常運作。
 
     - 每電腦安裝
 
@@ -155,23 +165,24 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        這會將團隊安裝至64位作業系統上的 [程式檔案（x86）] 資料夾，以及32位作業系統上的 [程式] 資料夾。 此時，黃金影像設定就完成了。 針對非持久的安裝，必須針對每台電腦安裝團隊。
+        這個程式會將團隊安裝至64位作業系統上的 [程式檔案（x86）] 資料夾，以及32位作業系統上的 [程式檔案] 資料夾。 此時，黃金影像設定就完成了。 針對非持久的安裝，必須針對每台電腦安裝團隊。
 
         下次互動式登入會話會啟動團隊並要求認證。
 
     > [!NOTE]
-    > 這些範例也會使用**ALLUSERS = 1**參數。 當您設定此參數時，系統會在 [控制台] 的 [程式和功能] 和 [應用程式 & Windows 設定] 中的 [應用程式] 中，顯示「團隊電腦範圍」的安裝程式。 如果有管理員認證，所有使用者都可以卸載小組。 請務必瞭解**ALLUSERS = 1**與**ALLUSER = 1**之間的差異。 **ALLUSERS = 1**參數可以在非 VDI 和 VDI 環境中使用，而**ALLUSER = 1**參數只會在 VDI 環境中用來指定每電腦安裝。
+    > 這些範例也會使用**ALLUSERS = 1**參數。 當您設定此參數時，系統會在 [控制台] 的 [程式和功能] 和 [應用程式 & Windows 設定] 中的 [應用程式] 中，顯示「團隊電腦範圍」的安裝程式。 如果有管理員認證，所有使用者都可以卸載小組。
+    請務必瞭解**ALLUSERS = 1**與**ALLUSER = 1**之間的差異。 您可以在非 VDI 和 VDI 環境中使用**ALLUSERS = 1**參數，而**ALLUSER = 1**參數只會在 VDI 環境中用來指定每電腦安裝。
 
 3. 從 VDI VM 卸載 MSI。
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
-      這會從 [程式檔（x86）] 資料夾或 [Program Files] 資料夾中卸載小組，視作業系統環境而定。
+      這個程式會從 [程式檔（x86）] 資料夾或 [Program Files] 資料夾中卸載小組，視作業系統環境而定。
 
 ## <a name="teams-on-vdi-performance-considerations"></a>VDI 效能考慮的小組
 
-有許多虛擬化設定設定，每個都有不同的焦點可供優化。 例如，使用者密度。 規劃時，請考慮下列事項，以根據貴組織的工作量需求來優化您的設定：
+有多種虛擬化設定設定，每個都有不同的焦點可供優化。 例如，配置可能會將焦點放在使用者密度上。 規劃時，請考慮下列事項，以根據貴組織的工作負載需求來優化您的設定。
 
 - 最低需求：某些工作負載可能需要使用超過最低需求的資源進行設定。 例如，使用需要更多計算資源之應用程式之開發人員的工作負載。
 - 相依性：這些專案包括在小組桌面應用程式以外的基礎結構、工作負載及其他環境考慮因素的相依性。
@@ -198,7 +209,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 > [!IMPORTANT]
 > 如果您目前在 VDI 中執行的團隊沒有 AV 優化，且您使用的功能尚不支援（例如，在應用程式共用時授與控制權），您必須設定 Citrix 原則，以關閉小組重新導向。 這表示小組媒體會話不會進行優化。 如需如何設定原則以關閉小組重新導向的步驟，請參閱此[Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)。
 
-我們正在努力新增目前僅適用于非 VDI 環境中的通話與會議功能。 這些專案可能包含更多系統管理員控制品質、其他螢幕共用案例，以及最近新增至團隊的高級功能。 若要深入瞭解即將推出的功能，請與您的小組代表聯繫。
+我們正在努力新增目前僅適用于非 VDI 環境中的通話與會議功能。 這些可能包括更多系統管理員控制品質、其他螢幕共用案例，以及最近新增至團隊的高級功能。 若要深入瞭解即將推出的功能，請與您的小組代表聯繫。
 
 ### <a name="network-requirements"></a>網路需求
 
@@ -218,7 +229,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Chrome 瀏覽器上的小組與 VDI 的小組桌面應用程式
 
-Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應用程式提供取代。 聊天與共同作業體驗會如期運作。 需要媒體時，有一些經驗可能無法在 Chrome 瀏覽器中滿足使用者的預期：
+Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應用程式提供取代。 聊天與共同作業體驗會如期運作。 需要媒體時，有一些可能無法在 Chrome 瀏覽器中滿足使用者預期的體驗：
 
 - 音訊與視頻資料流程體驗可能不是最佳的。 使用者可能會遇到延遲或降低品質。
 - 在瀏覽器設定中無法使用裝置設定。
@@ -252,7 +263,7 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
 2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。  
+3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。
 
 或者，您也可以執行下列動作：
 
@@ -307,8 +318,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 若要一次將原則指派給多位使用者：
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。  
+2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [ **&#x2713;** （核取符號）。
+3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。
 
 或者，您也可以執行下列動作：
 
@@ -342,22 +353,22 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ### <a name="client-deployment-installation-and-setup"></a>用戶端部署、安裝和設定
 
 - 在每電腦安裝中，VDI 上的團隊不會以非 VDI 團隊用戶端的方式自動更新。 您必須安裝新的 MSI 來更新 VM 影像，如在 VDI 的 [[安裝或更新團隊桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)] 區段中所述。 您必須卸載目前的版本，才能更新為較新的版本。
-- 團隊應該針對每個使用者或每個電腦來部署。 不支援針對每位使用者和每個電腦並行部署團隊。  若要從每個電腦或每位使用者遷移到其中一個模式，請遵循卸載程式，然後重新部署到其中一種模式。
-- 在此時間，Citrix 不支援 MacOs 和 Linux 版用戶端。
-- Citrix 不支援使用在端點上定義的明確 HTTP proxy。 
+- 團隊應該針對每個使用者或每個電腦來部署。 不支援針對每位使用者和每個電腦並行部署團隊。 若要從每個電腦或每位使用者遷移到其中一個模式，請遵循卸載程式，然後重新部署到其中一種模式。
+- Citrix 目前不支援 MacOs 和 Linux 的用戶端。
+- Citrix 不支援使用在端點上定義的明確 HTTP proxy。
 
 ### <a name="calling-and-meetings"></a>通話與會議
 
-- 與商務用 Skype 的互通性限制在音訊通話中，沒有視頻模態。
+- 與商務用 Skype 的互通性限制在音訊通話中;沒有任何視頻模態。
 - 目前不支援雙音調多重頻率（DTMF）與電話系統互動。
 - 以匿名使用者身分加入團隊會議不是 AV 優化的。 使用者可以加入會議，且有未優化的體驗。
-- 在會議或群組通話中只支援單一傳入的視頻資料流程。 當多人傳送影片時，任何指定時間只會顯示主要喇叭的影片。  
+- 在會議或群組通話中只支援單一傳入的視頻資料流程。 當多人傳送影片時，任何指定時間只會顯示主要喇叭的影片。
 - 內送和外寄的視頻資料流程解析度限制為720p 解析度。 這是 WebRTC 的限制。
-- 只支援來自內送相機或畫面共用資料流程的一個影片串流。 當有內送螢幕共用時，就會顯示畫面共用，而不是主要喇叭的影片。
+- 只支援來自內送相機或畫面共用資料流程的一個影片串流。 當有傳入螢幕共用時，會顯示該螢幕共用，而不是主要喇叭的影片。
 - 外寄螢幕共用：
     - 不支援從聊天進行螢幕共用。
     - 不支援應用程式共用。
-- 授與控制權並加以控制：  
+- 授與控制權並加以控制：
     - 在螢幕共用或應用程式共用會話期間不支援。
     - 在 PowerPoint 共用會話期間支援。
 - 在多重監視器設定中進行螢幕共用時，只會共用主要監視器。

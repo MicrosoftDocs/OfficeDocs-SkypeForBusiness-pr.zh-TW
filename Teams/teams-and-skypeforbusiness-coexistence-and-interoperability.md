@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691039"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756844"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
 
@@ -76,7 +76,7 @@ ms.locfileid: "44691039"
 
 
 > [!IMPORTANT]
-> 如果您在將使用者移至 [僅 Teams]**** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office應用程式中的目前狀態將會停止運作。 目前狀態在 Teams 中可正常運作。 解決辦法：若要在 Outlook (和其他 Office 應用程式) 中查看目前狀態，則必須安裝商務用 Skype，即使您在 [僅 Teams]**** 模式中執行 Teams 亦然。 Microsoft 已發現此問題，正在努力解決中。
+> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，您可能需要重新開機 Outlook 和小組（如果目前狀態停止運作）。 
 
 
 **團隊只有**使用者（也稱為已*升級*的使用者）可以存取團隊中的所有功能。 他們可能會保留商務用 Skype 用戶端，以在已由未升級的使用者或外部合作夥伴組織的商務用 Skype 上加入會議。 已升級的使用者可以使用小組與商務用 Skype 之間的互通性功能，繼續與組織中的其他使用者進行通訊（前提是這些商務用 Skype 使用者不是以**孤島**模式提供）。 不過，升級後的使用者無法啟動商務用 Skype 聊天、通話或會議。

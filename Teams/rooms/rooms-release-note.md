@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a4af973e02c8ae3799ee0abe6df5c9694956635
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: f59242fd3877ff1a075668a405a558f0fe18c374
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158950"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761451"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -353,7 +353,7 @@ Microsoft 團隊聊天室版本3.0.12.0 （更新3）不再支援64位版本的 
 
 [Microsoft 團隊會議室目前分支版的支援](rooms-lifecycle-support.md)
 
-[貴組織的支援小組](known-issues.md)
+[已知問題](known-issues.md)
 
 [規劃 Microsoft Teams 會議室](rooms-plan.md)
 

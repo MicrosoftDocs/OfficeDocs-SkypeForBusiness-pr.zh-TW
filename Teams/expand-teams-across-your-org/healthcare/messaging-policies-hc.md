@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 瞭解如何自訂可包含讀信回條及優先順序通知的安全訊息原則。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724888"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755827"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Secure Messaging
 
@@ -53,7 +53,7 @@ ms.locfileid: "44724888"
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>使用優先順序通知傳送緊急郵件
 
-當您傳送聊天訊息給其他使用者時，使用者可以將郵件標示為*緊急*。 這項功能可協助醫院人員在重要事件需要注意時提醒對方。 與一般*重要*的郵件不同，[優先順序通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)會在長達20分鐘的時間內通知使用者，或直到收件者挑選郵件並進行閱讀為止，以及時的方式最大限度地處理郵件的可能性。
+當您傳送聊天訊息給其他使用者時，使用者可以將郵件標示為*緊急*。 這項功能可協助醫院人員在重要事件需要注意時提醒對方。 與一般*重要*的郵件不同，[優先順序通知](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)會在長達20分鐘的時間內通知使用者，或直到收件者挑選郵件並進行閱讀為止，以及時的方式最大限度地處理郵件的可能性。
 
 系統管理員可以啟用或停用指派此原則的使用者傳送優先順序通知的能力。 此功能預設為開啟。 [優先順序] 訊息的收件者可能不具備相同的訊息原則，也不會有停用接收優先順序訊息的選項。 針對醫療保健應用程式，我們建議您至少為部分使用者啟用該功能，但您必須決定這些使用者。
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691229"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799824"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -49,7 +49,7 @@ Microsoft 也提供所有雲端語音解決方案，例如通話方案。 不過
 
 直接路由還支援擁有 Microsoft 通話方案額外授權的使用者。 如需詳細資訊，請參閱[電話系統和通話方案](calling-plan-landing-page.md)。 
 
-透過直接傳送，當使用者參與排程的會議時，Microsoft 音訊會議服務會提供撥入號碼，這需要正確的授權。  當您撥出時，Microsoft 音訊會議服務會使用線上通話功能（需要適當的授權）來放置通話。 （請注意，[撥出] 不會透過 [直接路由] 路由。）如需詳細資訊，請參閱[與團隊進行線上會議](https://products.office.com/microsoft-teams/online-meeting-solutions)。 
+透過直接傳送，當使用者參與排程的會議時，Microsoft 音訊會議服務會提供撥入號碼，這需要正確的授權。  當您撥出時，Microsoft 音訊會議服務會使用線上通話功能（需要適當的授權）來放置通話。 （請注意，如果使用者沒有 Microsoft 音訊會議授權，通話會透過直接路由傳送。）如需詳細資訊，請參閱[與團隊進行線上會議](https://products.office.com/microsoft-teams/online-meeting-solutions)。 
  
 規劃直接路由部署是成功實現的關鍵。 本文將說明基礎結構和授權需求，並提供 SBC 連線性的相關資訊： 
 
@@ -67,7 +67,7 @@ Microsoft 也提供所有雲端語音解決方案，例如通話方案。 不過
 ## <a name="infrastructure-requirements"></a>基礎結構需求
 下表列出支援的 SBCs、網域及其他網路連線需求之基礎結構需求：  
 
-|**基礎結構需求**|**您需要下列各項**|
+|基礎結構需求|您需要下列各項|
 |:--- |:--- |
 |會話邊界控制器（SBC）|受支援的 SBC。 如需詳細資訊，請參閱[支援的 SBCs](#supported-session-border-controllers-sbcs)。|
 |連線至 SBC 的電話語音 trunks|一個或多個連線至 SBC 的電話 trunks。 在一端，SBC 透過直接路由連接到 Microsoft 手機系統。 SBC 也可以連接到協力廠商電話實體，例如 Pbx、類比電話卡等。 任何連接至 SBC 的 PSTN 連接選項都會正常運作。 （如需將 PSTN trunks 設定至 SBC，請參閱 SBC 廠商或主幹提供者）。|
@@ -136,7 +136,7 @@ SBC 網功能變數名稱稱必須來自于租使用者網域中註冊的其中�
 
 下表顯示針對租使用者註冊的 DNS 名稱範例，無論該名稱是否可做為 SBC 的 FQDN，以及有效 FQDN 名稱的範例：
 
-|**DNS 名稱**|**可用於 SBC FQDN**|**FQDN 名稱範例**|
+|DNS 名稱|可用於 SBC FQDN|FQDN 名稱範例|
 |:--- |:--- |:--- |
 contoso.com|是|**有效的名稱：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|否|SBC 名稱不支援使用 *. onmicrosoft.com 網域
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 將解析成下列其中一個 IP 位址
 - Office 365 GCC 高
 - Office 365 DoD
 
-|**頻寬**|**從**|**自**|**來源埠**|**目的地埠**|
+|頻寬|從|自|來源埠|目的地埠|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP Proxy|SBC|1024–65535|在 SBC 上定義（必須使用 Office 365 GCC 高/DoD 專用埠5061）|
 SIP/TLS|SBC|SIP Proxy|在 SBC 上定義|5061|
@@ -269,7 +269,7 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 下表摘要列出主要、次要及三元資料中心之間的關聯：
 
-|**如果主要資料中心是**|**中東**|**NOAM**|**太**|
+|如果主要資料中心是|中東|NOAM|太|
 |:--- |:--- |:--- |:--- |
 |副資料中心（sip2.pstnhub.microsoft.com）|一下|歐洲|一下|
 |第三個資料中心（sip3.pstnhub.microsoft.com）|太|太|歐洲|
@@ -298,7 +298,7 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 ### <a name="port-range-applicable-to-all-environments"></a>埠範圍（適用于所有環境）
 媒體處理器的埠範圍如下表所示： 
 
-|**頻寬**|**從**|**自**|**來源埠**|**目的地埠**|
+|頻寬|從|自|來源埠|目的地埠|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|媒體處理器|SBC|3478-3481 與49152–53247|在 SBC 上定義|
 |UDP/SRTP|SBC|媒體處理器|在 SBC 上定義|3478-3481 與49152–53247|

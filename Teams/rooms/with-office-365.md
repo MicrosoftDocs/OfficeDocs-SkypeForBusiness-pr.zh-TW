@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 如需有關如何使用 Microsoft 365 或 Office 365 （團隊或商務用 Skype 與 Exchange 都在線上）部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
-ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666135"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756794"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft 365 或 Office 365 部署 Microsoft 團隊聊天室
 
 如需瞭解如何使用 Microsoft 365 或 Office 365 （Microsoft 團隊或商務用 Skype 與 Exchange 都在線上）部署 Microsoft 團隊聊天室的相關資訊，請參閱本主題。
 
-設定使用者帳戶最簡單的方法，就是使用遠端 Windows PowerShell 進行設定。 Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105)，此腳本將協助您建立新的使用者帳戶，或驗證您所擁有的現有資源帳戶，以協助您將它們轉換成相容的 Microsoft 團隊聊天室使用者帳戶。 如果您想要的話，您可以依照下列步驟來設定您的 Microsoft 團隊聊天室裝置將會使用的帳戶。
+設定使用者帳戶最簡單的方法，就是使用遠端 Windows PowerShell 進行設定。 Microsoft 提供[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、可協助您建立新使用者帳戶的腳本，或驗證現有的資源帳戶，以協助您將它們轉換成相容的 Microsoft 團隊聊天室使用者帳戶。 如果您想要的話，您可以依照下列步驟來設定您的 Microsoft 團隊聊天室裝置將會使用的帳戶。
 
 ## <a name="requirements"></a>需求
 
@@ -116,53 +116,55 @@ ms.locfileid: "44666135"
 
 5. 如果您不希望密碼到期，請使用下列語法：
 
-    ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-    ```
-<!--
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
+   ```
+   <!--
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
    這個範例會將帳戶 Rigel1@contoso.onmicrosoft.com 的密碼設為永不過期。
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
+   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    您也可以執行下列命令，以設定帳戶的電話號碼：
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
 6. 裝置帳戶必須擁有有效的 Microsoft 365 或 Office 365 授權，或是 Exchange 與 Microsoft 團隊或商務用 Skype 將無法運作。 如果您有授權，您必須將使用位置指派給您的裝置帳戶，這會決定您的帳戶可使用哪些授權 Sku。 您可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 若要為您的 Microsoft 365 或 Office 365 組織取得可用的 Sku 清單，請按照下列步驟操作：
 
-  ``` Powershell
-  Get-MsolAccountSku
-  ```
-<!--
-   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
    接下來，您可以使用`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> Cmdlet. 在此情況下，$strLicense 是您所看到的 SKU 程式碼（例如 contoso： STANDARDPACK）。
 
-  ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-  ``` 
-<!-- 
-   ``` Powershell
+   ``` 
+   <!-- 
+   ```Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
@@ -183,19 +185,19 @@ ms.locfileid: "44666135"
    接下來，請執行下列 Cmdlet，為商務用 Skype Server 啟用您的 Microsoft 團隊房間帳戶：
 
    ``` Powershell
+   $rm="Rigel1@contoso.onmicrosoft.com"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
    從要設定的新使用者帳戶取得 RegistrarPool 資訊，如下例所示：
 
     ``` Powershell
+    $rm="Rigel1@contoso.onmicrosoft.com"
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
     > 可能不會在與租使用者帳戶相同的註冊機構池中建立新的使用者帳戶。 上述命令會防止由於這種情況而導致帳戶設定發生錯誤。
-
-完成上述步驟後，若要啟用 microsoft 團隊或商務用 Skype Online 中的 Microsoft 小組聊天室帳戶，您必須將授權指派給 Microsoft 團隊聊天室裝置。 使用 Microsoft 365 系統管理中心，將商務用 Skype Online （方案2）或商務用 Skype Online （方案3）授權指派到裝置。
 
 ### <a name="assign-a-license-to-your-account"></a>指派授權給您的帳戶
 

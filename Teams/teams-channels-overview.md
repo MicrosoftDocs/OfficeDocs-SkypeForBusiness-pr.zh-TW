@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690009"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753435"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -34,7 +34,7 @@ ms.locfileid: "44690009"
 - **Teams** 是與組織內不同專案和結果有關的人員、內容和工具的集合。
 
     - Teams 可以建立為只有受邀使用者才可加入的形式。
-    - Teams 也可以建立為公開形式，組織內的任何人都可以加入 (最多 5,000 個成員)。
+    - 小組也可以建立為公開及開啟，組織中的任何人都可以加入（最多10000個成員）。
     
     設計團隊的目的是聚集一群人，讓他們以密切合作的方式來完成工作。 專案型工作 (例如啟動產品、建立數位戰情室) 的團隊可以是動態且持續性的，以反映組織的內部結構 (例如部門和辦公室位置)。 團隊中的聊天、檔案和記事只會對團隊成員顯示。
 

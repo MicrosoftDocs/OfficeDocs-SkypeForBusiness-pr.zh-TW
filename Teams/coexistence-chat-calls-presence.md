@@ -1,7 +1,7 @@
 ---
 title: 與商務用 Skype 共存
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 團隊 & 商務用 Skype 的共存行為，包括路線參數、聊天 & 通話路由、聊天 & 來自預先存在的執行緒的通話，& 目前狀態。
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137303"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757234"
 ---
 # <a name="coexistence-with-skype-for-business"></a>與商務用 Skype 共存
 
@@ -65,12 +65,12 @@ ms.locfileid: "43137303"
 
 下表會捕獲受租使用者的聊天和通話的路由，而且對於不是從預先存在的執行緒開始的新通話或聊天而言，都是有效的。 它描述哪個用戶端會收到新的通話或聊天（如果左側的使用者產生）至右側的租使用者收件者。
 
-傳送給 TeamsOnly 使用者的郵件將永遠會傳送給團隊。 傳送給 SfB\*使用者的郵件將會一直路由到商務用 Skype （如果有的話），如上述所述。 傳送給孤島使用者的訊息，永遠會傳送到傳送給他們的同一個用戶端。
+傳送給 TeamsOnly 使用者的郵件將永遠會傳送給團隊。 傳送給 SfB \* 使用者的郵件將會一直路由到商務用 Skype （如果有的話），如上述所述。 傳送給孤島使用者的訊息，永遠會傳送到傳送給他們的同一個用戶端。
 
 下表顯示在指定模式中，哪個用戶端會收到來自始發者的呼叫（三個最左邊的欄），這取決於始發者的模式、用戶端，以及其商務用 Skype 用戶端（在內部部署或線上）的駐留位置。
 
 在下列資料表中： 
-- **SfB\* **代表下列任何一種模式： *SfBOnly*、 *SfBWithTeamsCollab*、 *SfBWithTeamsCollabAndMeetings*。
+- **SfB \* **代表下列任何一種模式： *SfBOnly*、 *SfBWithTeamsCollab*、 *SfBWithTeamsCollabAndMeetings*。
 
 - *斜體文字*會醒目提示交互操作交談。
 
@@ -78,16 +78,16 @@ ms.locfileid: "43137303"
 
 **資料表1a：租使用者新聊天或呼叫路由至孤島模式收件者**
 
-| <br/><br/> 下 | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB&nbsp;宿主 | | 人 <br/><br/> 離島  |
+| <br/><br/> 下 | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 宿主 | | 人 <br/><br/> 離島  |
 |--- |--- |--- |--- |--- |
 | 離島 | Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype| Online<br/> Online<br/> 內部部署<br/>內部部署| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype|
 |SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> |&boxv;<br/>&boxv;|商務用 Skype<br/>商務用 Skype<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**資料表1b：在租使用者的新聊天中，或以 SfB\*模式呼叫路由至收件者**
+**資料表1b：在租使用者的新聊天中，或以 SfB 模式呼叫路由至收件者 \***
 
-| <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB&nbsp;宿主 | |   人 <br/><br/> SfB\*   |
+| <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 宿主 | |   人 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | 離島 |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype  |Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype<br/> **無法進行** <br/>商務用 Skype<br/> |
 |SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> |&boxv;<br/>&boxv; |  商務用 Skype<br/>商務用 Skype<br/> |
@@ -96,7 +96,7 @@ ms.locfileid: "43137303"
 
 **資料表1c：租使用者新聊天或呼叫路由至 TeamsOnly 模式收件者**
 
-| <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB&nbsp;宿主 | |   人 <br/><br/> TeamsOnly  |
+| <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 宿主 | |   人 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | 離島   |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype<br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*團隊* <br/>Teams <br/>*團隊*  |
 |SfB\*  | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> | &boxv;<br/>&boxv; | *團隊*  <br/>*團隊*   |
@@ -107,7 +107,7 @@ ms.locfileid: "43137303"
   
 下表會捕獲同盟通話與聊天的路由，且適用于新的通話或聊天。 它們說明哪個用戶端會收到新的通話或聊天（如果是由左邊的使用者發起）到右側的聯盟目標使用者。
 
-在摘要中，如果可以如上所述進行交談，傳送給 TeamsOnly 使用者的訊息將永遠位於小組中;傳送給 SfB\*使用者的郵件將永遠居住在商務用 Skype 中;傳送給孤島使用者的訊息，無論傳送給您的客戶，都永遠會在商務用 Skype 中進行土地。 聯盟聊天和通話的路由與在該孤島中的租使用者內路由不同，在商務用 Skype 中，將永遠會收到聯盟通訊。
+在摘要中，如果可以如上所述進行交談，傳送給 TeamsOnly 使用者的訊息將永遠位於小組中;傳送給 SfB 使用者的郵件 \* 將永遠位於商務用 skype 中; 傳送給孤島使用者的訊息，無論傳送給您的客戶，都將永遠居住在商務用 skype 中。 聯盟聊天和通話的路由與在該孤島中的租使用者內路由不同，在商務用 Skype 中，將永遠會收到聯盟通訊。
 
 這是因為我們無法假設聯合商務用 Skype 合作夥伴已在使用孤島模式時使用團隊。 [孤島] 是預設模式，但我們無法假設所有孤島使用者都執行團隊。 透過傳送到商務用 Skype，我們可以確保沒有孤島的通訊失敗。 如果我們路由至團隊，如果目標不是使用小組，就可能會錯過該通訊。 [路由到商務用 Skype] 可確保郵件永遠收到。  
 
@@ -125,7 +125,7 @@ ms.locfileid: "43137303"
 | TeamsOnly |Teams |Online| &boxv;|*商務用 Skype* |
 |  | | | | 
 
-**表格2b：同盟新聊天或通話以 SfB\*模式傳送給收件者**
+**表格2b：同盟新聊天或通話以 SfB 模式傳送給收件者 \***
 
 | <br/><br/>下   | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主| |  人<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ ms.locfileid: "43137303"
 若要瞭解預期的行為，您必須瞭解目前狀態是根據使用者的共存模式進行共用：
 
 * 如果使用者是 TeamsOnly 模式，則其他任何使用者（無論是在團隊或商務用 Skype 中），都會看到 TeamsOnly 使用者的小組目前狀態
-* 如果使用者使用的是任何 SfB\*模式（SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings），則其他任何使用者（無論是在團隊或商務用 skype 中），都會看到 SfB\*使用者的商務用 skype 目前狀態
+* 如果使用者使用的是任何 SfB \* 模式（SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings），則其他任何使用者（無論是在團隊或商務用 skype 中），都會看到 SfB \* 使用者的商務用 skype 目前狀態
 * 如果使用者使用的是孤島（或舊版）模式，則團隊中的目前狀態與商務用 Skype 中的目前狀態是獨立的（不需要符合的值），而其他使用者會看到孤島使用者的一或其他存在性，這取決於它們是位於相同的租使用者中，還是在聯盟租使用者中使用的用戶端。
     * 從團隊來看，同一租使用者中的任何其他使用者都會看到孤島使用者的小組目前狀態。這與上述的租使用者路由表對齊
     * 從團隊來看，同盟租使用者中的任何其他使用者都會看到孤島使用者的商務用 Skype 目前狀態;這與上述聯盟路由表對齊
@@ -183,7 +183,7 @@ ms.locfileid: "43137303"
 
 ### <a name="in-tenant-presence"></a>租使用者狀態
 
-傳送給 TeamsOnly 使用者的郵件將永遠位於小組中。 傳送給 SfB\*使用者的郵件永遠會在商務用 Skype 中保持居住，如果可以進行交談，如上述所述。 傳送給孤島使用者的訊息將永遠位於其起源的用戶端。
+傳送給 TeamsOnly 使用者的郵件將永遠位於小組中。 傳送給 SfB \* 使用者的郵件永遠會在商務用 Skype 中保持居住，如果可以進行交談，如上述所述。 傳送給孤島使用者的訊息將永遠位於其起源的用戶端。
 
 此表格說明發行者所看到的發行商目前狀態，視發行者和觀察程式的用戶端（針對新的執行緒）而定。
 

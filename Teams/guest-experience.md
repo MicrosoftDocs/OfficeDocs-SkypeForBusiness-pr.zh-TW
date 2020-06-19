@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637272"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799794"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
 =================================
@@ -32,9 +32,9 @@ ms.locfileid: "44637272"
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面](media/guest-experience-image1.png)
     
-所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 如下列範例小組的螢幕擷取畫面所示，橫幅代表「這個小組有客人」，且每個來賓的名稱旁邊都會出現一個 **（來賓）** 標籤。
-    
-![顯示橫幅通知來賓使用者的螢幕擷取畫面](media/guest-experience-image2.png "螢幕擷取畫面顯示適用于 Northwind 商貿的行銷管道的一部分，並在上方橫幅中發出通知，指出該小組有來賓和來賓的使用者，其名稱旁會出現 [word 來賓]。")
+所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 頻道螺紋右上角的標籤會指出團隊中的來賓人數，以及每個來賓的名稱旁會出現一個 **（來賓）** 標籤。
+
+![螢幕擷取畫面顯示代表小組訪客人數的標記](media/guest-experience-image2.png)
 
 請參閱以下有關團隊訪客體驗的影片：
 - [以來賓身分加入團隊](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

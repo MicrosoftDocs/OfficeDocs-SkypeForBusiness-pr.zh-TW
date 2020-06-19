@@ -1,7 +1,7 @@
 ---
 title: 瞭解如何設定內容攝影機-Microsoft 團隊
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 在 Microsoft 團隊聊天室中使用內容相機，這會與影像處理軟體互動，以允許簡報者在類比白板上繪圖。
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157806"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756894"
 ---
 # <a name="content-cameras"></a>內容相機
 
@@ -87,7 +87,7 @@ ms.locfileid: "43157806"
 
 在房間中安裝攝影機之後，請在該聊天室的 Microsoft 團隊聊天室主控台上進行設定：
 
-1. 選取 [**設定** ![設定](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)] 圖示、[以系統管理員身分登入]，然後選取 [**裝置設定**]。
+1. 選取 [**設定** ![ 設定] 圖示 ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 、[以系統管理員身分登入]，然後選取 [**裝置設定**]。
 2. 在 [**相機預設值**] 區段中，選取 [內容相機]，並確認已選取 [**內容增強功能**] 選項。
 3. 可選如果相機是從天花板掛載，且已倒置安裝攝像頭，請核取 [**旋轉內容相機 180** ] 選項。
 4. 選取 [**儲存並**結束]。
@@ -100,6 +100,6 @@ ms.locfileid: "43157806"
 
 [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](xml-config-file.md)
 
-[Microsoft 團隊會議室需求](requirements.md)
+[Microsoft Teams 會議室需求](requirements.md)
 
 
