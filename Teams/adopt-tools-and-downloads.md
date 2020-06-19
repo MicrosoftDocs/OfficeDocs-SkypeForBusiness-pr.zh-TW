@@ -1,10 +1,10 @@
 ---
 title: 採納的工具和下載
 ms.reviewer: karuanag
-description: 使用這些採納資源，協助您促進 Microsoft 團隊及其他 Office 365 服務的採用。
+description: 使用這些採納資源，協助您促進 Microsoft 團隊及其他 Microsoft 365 或 Office 365 服務的採用。
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551001"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756502"
 ---
 # <a name="tools-for-driving-adoption"></a>推動採用的工具 
 
@@ -148,8 +148,8 @@ ms.locfileid: "42551001"
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Office 365 擁護程式計畫
-Office 365 擁護者程式是一個免費程式，可協助想要從 Microsoft 團隊和其他 Office 365 服務取得更多的使用者。 我們會將我們的線上社區與每月社區通話結合在[Microsoft 專業](https://aka.ms/DriveAdoption)社區中，以強調從管理到最佳做法到新功能的所有元件。 加入我們的社區https://aka.ms/O365Champions ，並取得最早發行的存取權，並聽取其他客戶的聲音，並從 Microsoft 專家學習。  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 或 Office 365 擁護程式計畫
+擁護者程式是一個免費程式，可協助想要從 Microsoft 團隊以及其他 Microsoft 365 或 Office 365 服務取得更多的使用者。 我們會將我們的線上社區與每月社區通話結合在[Microsoft 專業](https://aka.ms/DriveAdoption)社區中，以強調從管理到最佳做法到新功能的所有元件。 加入我們的社區， https://aka.ms/O365Champions 並取得最早發行的存取權，並聽取其他客戶的聲音，並從 Microsoft 專家學習。  
 
 ### <a name="teams-adoption-guide"></a>團隊採用指南
 請參閱[小組採納 flipbook](https://aka.ms/teamstoolkit)，這是可協助您在公司中推出小組的線上指南。 它包含許多可下載的工具、範本及其他資源，可協助您在小組採用歷程中進行。
