@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ba5201781743567d4c94cad3b065f21e6578e9a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 04df18735e04ee4c0fbc29d5cf8b4c2f6148b926
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690539"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753863"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -46,11 +46,11 @@ ms.locfileid: "44690539"
 |私人頻道中的成員數目    |250|
 |頻道交談貼文大小 | 每篇貼文約 28 KB<sup>4</sup> |
 
-&sup1; Azure Active Directory 中的任何目錄物件都會計入此限制。 全域系統管理員不受此限制，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式也不受此限制。
+<sup>1</sup>Azure Active Directory 中的任何目錄物件都會計入此限制。 全域系統管理員不受此限制，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式也不受此限制。
 
-&sup2; 此限制包含已封存的團隊。
+<sup>2</sup>此限制包含已封存的團隊。
 
-&sup3; 已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個團隊 200 個頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，該頻道不再計入每個團隊 200 個頻道的限制。
+<sup>3</sup>已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個團隊 200 個頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，該頻道不再計入每個團隊 200 個頻道的限制。
 
 <sup>4</sup> 28 KB 是大約限制，因為它包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
 
@@ -155,6 +155,9 @@ Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 
 ## <a name="storage"></a>儲存空間
 
 Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個團隊網站，團隊中的每個頻道在預設團隊網站的文件庫中都有一個資料夾。 在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。
+
+> [!NOTE]
+> 每個[私人頻道](https://docs.microsoft.com/microsoftteams/private-channels) 都有自己的 SharePoint 網站集合。
 
 如果您未在您的租用戶中啟用 SharePoint Online，Microsoft Teams 使用者一律無法在團隊中共用檔案。 在私人聊天中的使用者也無法共用檔案，因為該功能需要有 OneDrive for Business (綁定至 SharePoint 授權)。
 

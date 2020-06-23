@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb1be3215aff5aa97d97b0bc7cfbb81febd7d7fe
-ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
+ms.openlocfilehash: 82e7a9af9c8e3fa2374234efbb752682d58d1602
+ms.sourcegitcommit: dad97d53f63e5164095b6d6de2d1b0445e2c10db
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44804697"
+ms.lasthandoff: 06/20/2020
+ms.locfileid: "44820844"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -115,6 +115,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 - .txt 檔案
 - 媒體堆疊資料夾
+- meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache)
 
 ### <a name="microsoft-365-apps-for-enterprise-considerations"></a>適用于企業考慮的 Microsoft 365 應用程式
 

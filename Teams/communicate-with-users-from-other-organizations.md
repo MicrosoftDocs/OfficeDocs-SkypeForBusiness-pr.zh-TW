@@ -17,12 +17,12 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689689"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785275"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
@@ -88,7 +88,7 @@ ms.locfileid: "44689689"
 <sup>2</sup>僅透過電子郵件或工作階段初始通訊協定 (SIP) 位址。<br>
 <sup>3</sup>外部 (同盟) 聊天僅限一對一聊天。<br>
 <sup>4</sup>針對來自兩個不同組織的僅限 Teams 對僅限 Teams 使用者，支援一對一聊天。 <br>
-<sup>5</sup> 依預設，外部參與者無法查看撥入的參與者電話號碼。 如果您想要維護這些電話號碼的隱私權，請對 [進入/退出宣告類型]**** 選取 [色調]**** (這可避免將數字由 Teams 讀出)。如果您不想將外部 PSTN 電話號碼透露給外部使用者，當您開啟 [進入/結束宣告]**** 時，對宣告類型選取 [色調]****。 若要深入了解，請參閱[開啟或關閉 Microsoft Teams 中會議的進入和退出宣告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
+<sup>5</sup> 依預設，外部參與者無法查看撥入的參與者電話號碼。 如果您想要維護這些電話號碼的隱私權，請選取 [進入/退出宣告類型]**** 的 [音調]**** (這可避免 Teams 將號碼朗讀出來)。 若要深入了解，請參閱[開啟或關閉 Microsoft Teams 中會議的進入和退出宣告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
 
 ## <a name="related-topics"></a>相關主題
 

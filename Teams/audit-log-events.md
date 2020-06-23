@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665635"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816624"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -107,7 +107,7 @@ ms.locfileid: "44665635"
 
 ### <a name="alert-and-governance-scenario"></a>警示與管理案例
 
-當觸發活動原則時，您可以設定通知並傳送電子郵件給系統管理員和其他使用者。 您可以設定自動化的管轄動作，例如暫停使用者，或讓使用者以自動方式再次登入。 這個範例說明觸發活動原則時，使用者帳戶如何暫停，並決定使用者在30分鐘內刪除兩個或多個小組。
+當觸發活動原則時，您可以設定通知並傳送電子郵件給系統管理員和其他使用者。 您可以設定自動化的管轄動作，例如暫停使用者，或讓使用者以自動化的方式再次登入。 這個範例說明觸發活動原則時，使用者帳戶如何暫停，並決定使用者在30分鐘內刪除兩個或多個小組。
 
 ![活動原則之警報與管轄動作的螢幕擷取畫面](media/audit-log-governance.png)
 
@@ -121,7 +121,7 @@ ms.locfileid: "44665635"
 
 以下是在 Microsoft 365 審核記錄中針對團隊中的使用者和系統管理活動記錄的所有事件的清單。 此表格包含 [**活動**] 欄中顯示的易記名稱，以及當您匯出搜尋結果時，出現在審計記錄的詳細資訊和 CSV 檔案中的對應作業名稱。
 
-|好記的名稱  |一道|描述 |
+|好記的名稱  |一道|說明 |
 |---------|---------|---------|
 |已在小組中新增 bot   |BotAddedToTeam        |使用者在小組中新增 bot。        |
 |已新增頻道   |ChannelAdded         |使用者將頻道新增至小組。         |
@@ -156,7 +156,7 @@ ms.locfileid: "44665635"
 
 如果您的組織使用的是 [團隊中的倒班] 應用程式，您可以在審核記錄中搜尋與倒班應用程式相關的活動。 以下是在 Microsoft 365 審核記錄中針對團隊中的倒班活動記錄的所有事件的清單。
 
-|好記的名稱  |一道  |描述  |
+|好記的名稱  |一道  |說明  |
 |---------|---------|---------|
 |[新增排程] 群組      |SchedulingGroupAdded          |使用者成功地將新排程群組新增到排程。          |
 |已編輯的排程群組     |SchedulingGroupEdited         |使用者成功地編輯 [排程] 群組。          |
@@ -187,8 +187,8 @@ ms.locfileid: "44665635"
 
 ## <a name="office-365-management-activity-api"></a>Office 365 管理活動 API
 
-您可以使用 Office 365 管理活動 API 來取得小組事件的相關資訊。 若要深入瞭解團隊的管理活動 API 架構，請參閱[團隊架構](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api)。
+您可以使用 Office 365 管理活動 API 來取得小組事件的相關資訊。 若要深入瞭解團隊的管理活動 API 架構，請參閱[團隊架構](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)。
 
 ## <a name="related-topics"></a>相關主題
 
-- [在 Microsoft 365 規範中心搜尋審核記錄](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
+- [在 Microsoft 365 規範中心搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
