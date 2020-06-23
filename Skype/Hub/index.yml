@@ -1,0 +1,59 @@
+### YamlMime:Hub
+title: 商務用 Skype
+summary: 商務用 Skype 技術文件
+brand: m365
+metadata:
+  title: 商務用 Skype
+  description: 商務用 Skype 技術文件
+  ms.service: skype-for-business-online
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
+  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "44805542"
+additionalContent:
+  sections:
+  - title: IT 專業人員適用
+    items:
+    - title: 商務用 Skype Online
+      summary: 在您的 Office 365 作業環境中．尋找商務用 Skype Online 的管理資源。
+      url: /SkypeForBusiness/skype-for-business-online
+    - title: 混合式解決方案
+      summary: 尋找規劃商務用 Skype 混合式部署的資訊。
+      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - title: 商務用 Skype Server
+      summary: 管理及佈署公司的 [商務用 Skype Server]。
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - title: 適用於商務用 Skype 的 PowerShell 參考
+      summary: 瞭解您在管理商務用 Skype 和商務用 Skype Online 所需的 PowerShell Cmdlet。
+      url: /powershell/skype/intro
+    - title: Microsoft Teams
+      summary: 取得成功推出 Microsoft Teams 所需的規劃、作法及實務指導。
+      url: /MicrosoftTeams/
+    - title: 從商務用 Skype 至 Microsoft Teams 的作業過程
+      summary: 查看您可通往 Teams 的最佳路徑，尋找指導方針和工具。
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Microsoft Teams 會議室
+      summary: 瞭解如何規劃、部署及管理 [Microsoft Teams 會議室]。
+      url: /SkypeForBusiness/room-systems/
+    - title: '商務用 Skype 認證計劃 '
+      summary: 瞭解經認證的解決方法和裝置。
+      url: /SkypeForBusiness/certification/overview
+    - title: 疑難排解
+      summary: 尋找適用於 IT 專業人員和系統管理員的疑難排解和支援資源。
+      url: /office/troubleshoot
+  - title: 其他聽眾
+    items:
+    - title: 開發人員
+      summary: 開發商務用 Skype 解決方案的指導方針。
+      url: /skype-sdk/
+    - title: 終端使用者
+      summary: 在 support.office.com 上尋找商務用 Skype 使用者的說明、訓練及技術支援。
+      url: https://support.office.com/skype-for-business

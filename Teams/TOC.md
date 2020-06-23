@@ -354,6 +354,16 @@
 ### [管理緊急電話原則](manage-emergency-calling-policies.md)
 ### [管理緊急電話路由原則](manage-emergency-call-routing-policies.md)
 
+## Contoso 語音遷移案例研究
+### [概觀](voice-case-study-overview.md)
+### [Teams 升級計畫](voice-case-study-migration-plan.md)
+### [電話系統](voice-case-study-phone-system.md)
+### [位置式路由](voice-case-study-location-based-routing.md)
+### [緊急電話](voice-case-study-emergency-calling.md)
+### [音訊會議](voice-case-study-audio-conferencing.md)
+### [自動語音應答和通話佇列](voice-case-study-call-queues.md)
+
+
 
 
 ## 參考
@@ -687,7 +697,6 @@
 
 <!-- ============================================================ -->
 # 監控、維護和疑難排解
-## [貴組織中的支援小組](Known-issues.md)
 ## [監控及管理通話品質](monitor-call-quality-qos.md)
 ### [體驗品質的審查指南](quality-of-experience-review-guide.md)
 ### [在 Teams 中設定 QoS](QoS-in-Teams.md)
@@ -703,6 +712,7 @@
 #### [使用 CQD PSTN 直接路由報告](CQD-PSTN-report.md)
 ### [通話品質儀表板中提供的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [通話品質儀表板中的資料流分類](stream-classification-in-call-quality-dashboard.md)
+## [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [安裝和更新問題疑難排解](troubleshoot-installation.md)
 ## [疑難排解 Teams 用戶端的連線問題](connectivity-issues.md)
 ## [在舊系統上接收訊息和通話的問題](legacy-login-issues.md)
