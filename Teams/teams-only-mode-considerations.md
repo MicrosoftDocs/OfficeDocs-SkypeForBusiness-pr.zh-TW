@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 96ff2652a326e537f200c47495496dd81ea9fd4b
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690919"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854095"
 ---
 # <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
 
@@ -41,9 +41,6 @@ ms.locfileid: "44690919"
 > 如果您剛剛開始升級規劃，請務必參閱我們[的 Microsoft 團隊快速入門升級](upgrade-start-here.md)指南。 
 
 **共存考慮**：已使用商務用 skype Online 和/或商務用 skype 伺服器的組織，會以符合其需求的節奏，將小組引入他們的環境中。 組織可以視需要將團隊逐漸推出給所需的使用者組，而使用團隊的使用者可以與使用商務用 Skype 的使用者通訊，反之亦然。 若要管理此體驗，系統管理員會使用共存模式來定義最終使用者用戶端體驗、傳入聊天和通話的傳送行為，以及是否在團隊或商務用 Skype 中排程新會議。 如果使用者只升級至**團隊**，則使用者可以與其他組織中的使用者聯盟;不過，當兩個使用者都使用團隊時，就會提供最佳體驗。 已升級至團隊的使用者仍然可以加入商務用 Skype 會議。 
-
-> [!NOTE]
-> 已升級至團隊的使用者將無法與使用客戶用 Skype 的使用者進行通訊。
 
 > [!IMPORTANT]
 > 如需有關共存的詳細資訊，請參閱[瞭解 Microsoft 團隊及商務用 Skype 共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 

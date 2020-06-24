@@ -20,19 +20,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0771141955e2641e1cdd261a22b933950e6c3c2e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690239"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44841894"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
 > [!IMPORTANT]
 > 若要深入瞭解如何在**COVID-19 爆發期間，從家用的任何人都**能保證安全性，請閱讀以下文章：
 >  - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
->  - [使用 VPN 分割隧道為遠端使用者優化 Microsoft 365 或 Office 365 連線能力](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - [使用 VPN 分割通道最佳化遠端使用者的 Microsoft 365 或 Office 365 連線能力](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - 更新2020年4月2日：[團隊安全性指南](teams-security-guide.md)
 
 
@@ -104,7 +104,7 @@ Microsoft 團隊中的保留原則可讓您保留貴組織所重要的資料，�
 
 Microsoft 團隊中的資料遺失防護（DLP），以及 Microsoft 365 或 Office 365 較大的 DLP 故事，在保護機密檔和資料時，就會在業務就緒中進行。 無論您是否擔心郵件或檔中的機密資訊，DLP 原則都可以協助確保您的使用者不會與錯誤的人員共用此機密資料。
 
-如需有關團隊資料遺失防範功能的詳細資訊，請參閱[Microsoft 團隊的 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)。 O36 DLP 問題的好文章就是[資料遺失防護的概覽](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
+如需有關團隊資料遺失防範功能的詳細資訊，請參閱[Microsoft 團隊的 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)。 關於 O365 DLP 問題的好文章，就是[資料遺失防護的概況](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
 
 ### <a name="ediscovery"></a>eDiscovery
 

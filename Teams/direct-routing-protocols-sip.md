@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由式通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691219"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859648"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 SIP 通訊協定
 
@@ -44,7 +44,7 @@ ms.locfileid: "44691219"
 | 從頁首 | 從頁首開始： <sip： 7168712781@sbc1. biz; 傳輸 = udp; tag = 1c747237679 |
 | 移至頁首 | 至： sip:+183338006777@sbc1.adatum.biz | 
 | CSeq 頁首 | CSeq：1個邀請 | 
-| 連絡人標題 | 連絡人： <sip： 68712781@sbc1 biz; transport = tls> | 
+| 連絡人標題 | 連絡人： <sip： 68712781@sbc1 biz： 5058; transport = tls> | 
 
 在收到邀請時，SIP proxy 會執行下列步驟：
 
@@ -100,13 +100,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 SIP proxy 需要針對新的對話用戶端事務（例如再見或重新邀請），以及在回復 SIP 選項時，計算下一個躍點 FQDN。 使用連絡人或記錄-路線。 
 
-根據 RFC 3261，任何可能會產生新對話方塊的要求中，都必須有連絡人標頭。 只有在 proxy 想要在對話方塊中保留未來要求的路徑時，才需要記錄路由。 
+根據 RFC 3261，任何可能會產生新對話方塊的要求中，都必須有連絡人標頭。 只有在 proxy 想要在對話方塊中保留未來要求的路徑時，才需要記錄路由。 如果將 proxy SBC 與[本機媒體優化搭配使用以進行直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)，則必須將記錄路由設定為 proxy sbc 必須留在路由中。 
 
-Microsoft 建議只使用連絡人標頭的原因如下：
+如果不使用 proxy SBC，Microsoft 建議只使用連絡人標頭：
 
-- 根據 RFC 3261，如果 proxy 想要在對話方塊中保留未來要求的路徑，這並不重要，就是 Microsoft SIP proxy 與成對的 SBC 之間的所有流量都不是必要的。 在 SBC 與 Microsoft SIP proxy 之間，不需要使用中間 proxy 伺服器。
+- 根據 RFC 3261，如果您的 proxy 想要在對話方塊中保留未來要求的路徑（如果沒有 proxy SBC 已設定為 Microsoft SIP proxy 與成對的 SBC 之間的所有流量），則會使用記錄路由。 
 
-- Microsoft SIP proxy 只會使用連絡人頭（而非記錄路由）來決定傳送輸出 ping 選項時的下一個躍點。 只設定一個參數（連絡人），而不是兩個（連絡人與記錄-路線），可簡化管理。
+- Microsoft SIP proxy 只會使用連絡人頭（而非記錄路由）來決定傳送輸出 ping 選項時的下一個躍點。 如果不使用 proxy SBC，請只設定一個參數（連絡人），而不是使用兩個參數（連絡人與記錄-路線）來簡化管理。 
 
 若要計算下一個躍點，SIP proxy 會使用：
 

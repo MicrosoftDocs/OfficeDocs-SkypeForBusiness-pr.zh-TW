@@ -12,16 +12,14 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的團隊使用者與 Skype （消費者）使用者之間的互通性功能。
 localization_priority: Normal
-ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410428"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859638"
 ---
 # <a name="teams-and-skype-interoperability"></a>團隊與 Skype 互通性
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 本文將提供 Microsoft 團隊與 Skype （消費者）之間的互通性功能概覽。 瞭解團隊使用者與 Skype 使用者如何透過聊天和通話以及適用的管理控制項進行通訊。
 

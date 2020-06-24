@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 由 Microsoft 團隊聊天室裝置使用的預設設定的遠端系統管理，包括套用自訂主題及建立主設定檔案。
-ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230501"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842014"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -30,7 +30,7 @@ ms.locfileid: "44230501"
   
 ## <a name="create-an-xml-configuration-file"></a>建立 XML 設定檔
 
-任何文字編輯器都可以用來建立設定檔。 **Xml 元素**表格說明此範例 SkypeSettings （必要檔案名）設定檔中顯示的元素。
+任何文字編輯器都可以用來建立設定檔。 **XML 元素**表格說明此範例中顯示的元素 SkypeSettings.xml （所需的檔案名）設定檔。
   
 ```XML
 <SkypeSettings>
@@ -90,28 +90,29 @@ ms.locfileid: "44230501"
 |\<ExchangeAddress\> |字串 &#x2778;  ||主機 Exchange 裝置帳戶的登入名稱。 如果省略 ExchangeAddress，則不會自動重複使用 SkypeSignInAddress。 |
 |\<ModernAuthEnabled> |布林值 &#x2777;  |  |預設為停用。 <br/> <br/>當設定為 true 時，Microsoft 團隊聊天室應用程式只會使用新式驗證來連線資源，而且不會回到基本驗證。|
 |\<DomainUsername\> |字串 &#x2778;  ||主控台裝置的網域和使用者名稱，例如 Seattle\RanierConf。 |
-|\<口令\> |字串3  || 密碼參數就是商務用 Skype 裝置帳戶登入所用的密碼。  |
+|\<Password\> |字串3  || 密碼參數就是商務用 Skype 裝置帳戶登入所用的密碼。  |
 | \<ConfigureDomain\>  |字串 &#x2778;  ||您可以列出數個網域，並以逗號分隔。 |
-|\<TeamsMeetingsEnabled\> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 <br/> <br/> 如果 SkypeMeetingsEnabled 和 TeamsMeetingsEnabled 都停用，則 XML 檔案會被視為錯誤的格式 \< \> \< \> ，但同時啟用這兩個設定。 |
+|\<TeamsMeetingsEnabled\> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 <br/> <br/> 如果兩個及都停用，XML 檔案就會被視為錯誤 \<SkypeMeetingsEnabled\> \<TeamsMeetingsEnabled\> 的格式，但在同一時間啟用這兩個設定都是可以接受的。 |
 |\<IsTeamsDefaultClient> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 |
 |\<BluetoothAdvertisementEnabled> |布林值 &#x2777;  |第一 &#x2776;  |預設為啟用。 |
 |\<AutoAcceptProximateMeetingInvitations> |布林值 &#x2777;  |第一 &#x2776;  |如果為 true，則會自動接受鄰近性會議。 預設為停用。 |
 |\<DualScreenMode\>  |布林值 &#x2777;  |第一 &#x2776;  |如果為 true，則會啟用雙螢幕模式。 否則，裝置會使用單一畫面模式。 |
-| \<DuplicateIngestDefault\> |布林值 &#x2777;  |第一 &#x2776; |如果為 true，則在雙螢幕模式中，內容會在兩個畫面上顯示，而不是在會議中。 | 
+| \<DuplicateIngestDefault\> |布林值 &#x2777;  |第一 &#x2776; |如果為 true，則在雙螢幕模式中，內容會在兩個畫面上顯示，而不是在會議中。 |
+|\<DisableTacCommunication\> |布林值 &#x2777;  |第一 &#x2776; |如果為 true，則所有與團隊系統管理中心裝置管理的通訊都會停用。 |
 |\<SendLogs\> |包裝箱 |第一 &#x2776;  |  |
 |\<EmailAddressForLogsAndFeedback\> |字串 &#x2778;  | | 設定當 [提供意見反應] 視窗出現時，可以傳送記錄的選擇性電子郵件地址。 |
 |\<SendLogsAndFeedback\> |布林值 &#x2777;  | | 如果為 true，則會將記錄傳送給系統管理員。如果是 false，則只會傳送意見反應給系統管理員（而非記錄）。  |
-| \<裝置\>  |包裝箱 |第一 &#x2776;  | 子項目中連接的音訊裝置名稱與 [裝置管理器] 應用程式中所列的值相同。 此設定可以包含目前不存在於系統中的裝置，例如目前未連線到主機的 A/V 裝置。 該設定將會保留給個別裝置使用。  |
+| \<Devices\>  |包裝箱 |第一 &#x2776;  | 子項目中連接的音訊裝置名稱與 [裝置管理器] 應用程式中所列的值相同。 此設定可以包含目前不存在於系統中的裝置，例如目前未連線到主機的 A/V 裝置。 該設定將會保留給個別裝置使用。  |
 |\<MicrophoneForCommunication\> |字串 &#x2778;  ||設定在會議中用來做為錄製裝置的麥克風。 |
 |\<SpeakerForCommunication\> |字串 &#x2778;  ||要作為會議演講者使用的裝置。 這個設定是用來設定通話中使用的喇叭裝置。 |
 |\<DefaultSpeaker\> |字串 &#x2778;  ||要用來從 HDMI 攝取來源播放音訊的裝置。 |
 |\<ContentCameraId>  | 字串 &#x2778;  | | 定義會議室中設定的相機實例路徑，在會議中共用模擬白板內容。 請參閱[找出內容相機 USB 實例路徑](#locate-the-content-camera-usb-instance-path)。|
 |\<ContentCameraInverted>  | 布林值 &#x2777; | | 指定是否將 [內容相機] 實際安裝為倒置。 針對支援自動旋轉的內容攝影機，請指定 false。 |
 |\<ContentCameraEnhancement>  | 布林值 &#x2777; | |當設定為 true （預設值）時，會以數位加強內容相機影像：已偵測到白板邊緣，且已選取適當的縮放比例，手寫線已增強，且在白板上撰寫的人員則變成透明。  <br><br> 如果您想要將原始影片摘要傳送給會議參與者，以取得不使用手寫筆繪製白板的空間，而是使用相機來顯示粘滯筆記、海報或其他媒體，請將它設為 false。  |
-| \<主題\>  |包裝箱 |第一 &#x2776;  |可以在 XML 檔案中套用的其中一個功能，就是貴組織的自訂主題。 您可以指定 [主題名稱]、[背景圖像] 和 [色彩]。 |
+| \<Theming\>  |包裝箱 |第一 &#x2776;  |可以在 XML 檔案中套用的其中一個功能，就是貴組織的自訂主題。 您可以指定 [主題名稱]、[背景圖像] 和 [色彩]。 |
 |\<ThemeName\> |字串 &#x2778;  || 用來識別用戶端上的主題。 [主題名稱] 選項為 [預設值]、[提供的其中一個預設主題] 或 [自訂]。 <br/>  自訂主題名稱總是使用 [*自訂*]。 用戶端 UI 可以在主控台上設定為預設或其中一個預設，但使用自訂主題必須由系統管理員進行遠端設定。 <br/>  預設主題包括： <br/>  設置 <br/>  藍波 <br/>  數位目錄林 <br/>  Dreamcatcher <br/>  Limeade <br/>  圖元完美 <br/>  之中 <br/>  斜 <br/>  若要停用目前的主題，請使用「無主題」進行 ThemeName。  |
 |\<CustomThemeImageUrl\> |字串 &#x2778;  ||對於自訂主題是必要的，請選用其他選項。 只輸入檔案名。   |如需自訂主題圖像的詳細資訊，請參閱[自訂主題影像](xml-config-file.md#Themes)區段。
-|\<CustomThemeColor\> |包裝箱 ||[RedComponent] \< 、[GreenComponent] 和 [BlueComponent] 值的容器 \> \< \> \< \> 。 這些值是自訂主題所必需的。 |
+|\<CustomThemeColor\> |包裝箱 ||[] 和 [值] 的容器 \<RedComponent\> \<GreenComponent\> \<BlueComponent\> 。 這些值是自訂主題所必需的。 |
 |\<RedComponent\> |Byte （0-255） ||代表紅色色彩分量。 |
 |\<GreenComponent\> |Byte （0-255） ||代表綠色色彩分量。 |
 |\<BlueComponent\> |Byte （0-255） ||代表藍色色彩分量。 | 
@@ -125,7 +126,7 @@ ms.locfileid: "44230501"
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>使用 XML 設定檔管理主控台設定
 
-在啟動時，如果 Microsoft [團隊聊天室] 主控台找到名為 SkypeSettings 的 XML 檔案 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` ，則會套用 xml 檔案指示的設定設定，然後刪除 xml 檔案。
+在啟動時，如果 Microsoft [團隊聊天室] 主控台找到名為 SkypeSettings.xml 的 XML 檔案 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` ，則會套用 xml 檔案指示的設定設定，然後刪除 xml 檔案。
   
 根據您的企業有多少 Microsoft 團隊房間裝置以及您選擇的管理方式來進行設定，有幾種方式可以放置 XML 設定檔。 將檔案推送到主控台之後，請重新開機該檔案以處理設定變更。 在成功處理 XML 設定檔之後，就會刪除該檔案。 Microsoft 團隊會議室裝置建議的管理方法將在下列專案中討論：
   
@@ -138,7 +139,7 @@ ms.locfileid: "44230501"
 
 <a name="Themes"> </a>
 
-自訂主題圖像檔案必須放在資料夾中 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 。 在 CustomThemeImageUrl 變數中輸入檔案名和副檔名 \< \> 。
+自訂主題圖像檔案必須放在資料夾中 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 。 在變數中輸入檔案名和副檔名 \<CustomThemeImageUrl\> 。
   
 Image 檔案應該是完全3840X1080 的圖元，且必須是下列其中一種檔案格式： jpg、jpeg、png 和 bmp。 如果您的組織想要自訂影像，圖形設計工具可以使用 [[自訂主題 Photoshop] 範本](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)。 它包含有關不同的使用者介面元素相對於其他主題圖像的位置，以及哪些區域出現在主控台和顯示器上的詳細資訊。
   

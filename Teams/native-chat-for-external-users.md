@@ -14,19 +14,19 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 瞭解 Microsoft 團隊中外部存取（同盟）使用者的原生團隊聊天體驗，在兩個使用者都是 TeamsOnly 升級模式的外部使用者之間提供。
-ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832683"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842004"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 團隊外部（同盟）使用者的原生聊天體驗
 ======================================
 
-當 Microsoft 團隊使用者與外部（同盟）使用者聊天時，聊天體驗會限制在文字上。 不過，如果您的小組租使用者與外部使用者都是 TeamsOnly 升級模式，您可以使用「原生團隊聊天體驗」，其中包括豐富的格式設定、@mentions 及其他聊天功能。 換句話說，您可以使用與貴組織中的使用者一樣，與符合資格的外部使用者進行相同的豐富1:1 團隊交談體驗。 原生團隊與外部使用者的聊天，僅限於1:1 聊天（外部使用者無法進行群組聊天）。
+當 Microsoft 團隊使用者與外部（同盟）使用者聊天時，聊天體驗會限制在文字上。 不過，如果您的小組使用者與外部使用者都是 TeamsOnly 升級模式，您可以使用「原生小組聊天體驗」，包括豐富的格式設定、@mentions 及其他聊天功能。 換句話說，您可以使用與貴組織中的使用者一樣，與符合資格的外部使用者進行相同的豐富1:1 團隊交談體驗。 原生團隊與外部使用者的聊天，僅限於1:1 聊天（外部使用者無法進行群組聊天）。
 
-外部使用者的原生聊天體驗已針對所有團隊承租人開啟，但並非所有使用者都符合資格。 若要提供原生聊天體驗，寄件者和收件者都必須在執行 TeamsOnly 升級模式的小組租使用者。 若要深入瞭解升級原則，請參閱[設定您的共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)。
+外部使用者的原生聊天體驗已針對所有團隊承租人開啟，但並非所有使用者都符合資格。 若要提供原生聊天體驗，必須針對 TeamsOnly 升級模式設定傳送者和收件者。 若要深入瞭解升級原則，請參閱[設定您的共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)。
 
 若要查看小組中外部 access 使用者的功能清單，請參閱[比較外部與來賓存取](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。
 
