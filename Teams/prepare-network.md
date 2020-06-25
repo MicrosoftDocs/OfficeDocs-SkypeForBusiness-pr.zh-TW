@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669404"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874245"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -51,8 +51,8 @@ ms.locfileid: "44669404"
     
 2.  您是否有驗證的網域供 Microsoft 365 或 Office 365 （例如 contoso.com）？
     
-      - 如果您的組織尚未推出 Microsoft 365 或 Office 365，請參閱[microsoft 365 或 office 365 商務版快速](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)入門。
-      - 如果您的組織尚未新增或設定 Microsoft 365 或 Office 365 的驗證網域，請參閱[驗證您的 microsoft 365 或 office 365 網域](https://docs.microsoft.com/office365/admin/setup/domains-faq)。
+      - 如果您的組織尚未推出 Microsoft 365 或 Office 365，請參閱[快速入門](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365)。
+      - 如果您的組織尚未新增或設定 Microsoft 365 或 Office 365 的驗證網域，請參閱[網域常見問題](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)。
 
 3.  貴組織已部署 Exchange Online 和 SharePoint Online 嗎？
     
@@ -99,7 +99,7 @@ ms.locfileid: "44669404"
 </tr>
 <tr class="even">
 <td>團隊顧問</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">團隊的 Advisor</a>是<a href="https://admin.teams.microsoft.com">團隊系統管理中心</a>的一部分。 它會評估您的 Microsoft 365 或 Office 365 環境，並識別最常見的設定，您可能需要更新或修改，才能成功地推出小組。</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">團隊的 Advisor</a>是<a href="https://admin.teams.microsoft.com">團隊系統管理中心</a>的一部分。 在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。</td>
 </tr>
 <tr class="odd">
 <td>外部名稱解析</td>

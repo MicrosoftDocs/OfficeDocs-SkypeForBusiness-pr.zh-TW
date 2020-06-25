@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何將團隊附加元件授權指派給使用者，以取得音訊會議、電話系統和通話方案等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c7c455628f7595e1517fbd0cef8d2edc454ffbb
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042771"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868580"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派團隊附加元件授權給使用者
 
@@ -48,7 +48,7 @@ ms.locfileid: "44042771"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
-使用 Microsoft 365 系統管理中心，一次將授權指派給個別的使用者或一組小的使用者。 您可以在 [**授權**] 頁面上指派授權（一次最多20名使用者）或 [作用中的**使用者**] 頁面。 您選擇的方法取決於您是否要管理特定使用者的產品授權，或管理特定產品的使用者授權。 
+使用 Microsoft 365 系統管理中心，一次將授權指派給個別的使用者或一組小的使用者。 您可以在 [**授權**] 頁面上指派授權（一次最多20名使用者）或 [作用中的**使用者**] 頁面。 您選擇的方法取決於您是否要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
 如需逐步指示，請參閱[指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 
@@ -71,7 +71,7 @@ ms.locfileid: "44042771"
         ```
     3. 如果系統提示您安裝 NuGet 提供者，請輸入**Y**，然後按 enter。
     4. 如果系統提示您從 PSGallery 安裝模組，請輸入**Y**，然後按 enter。
-3. 在 Windows PowerShell 命令提示字元中，執行下列腳本來指派授權給您的使用者， \<其中 [公司名稱：授權]> 是您的組織名稱，以及您要指派之授權的識別碼。 例如，litwareinc： MCOMEETADV。
+3. 在 Windows PowerShell 命令提示字元中，執行下列腳本來指派授權給您的使用者，其中 \<CompanyName:License> 是您的組織名稱，以及您要指派之授權的識別碼。 例如，litwareinc： MCOMEETADV。
 
     識別碼與授權的易記名稱不同。 例如，音訊會議的識別碼是 MCOMEETADV。 若要深入瞭解，請參閱[授權的產品名稱和 SKU 識別碼](#product-names-and-sku-identifiers-for-licensing)。
 

@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666215"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868140"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>為您的 Microsoft 團隊準備 IT 員工
 
@@ -42,7 +42,7 @@ ms.locfileid: "44666215"
 與您的 IT 員工成員共用下列資源，並確認他們已準備好支援使用者，然後才能開始升級至團隊：
 
 - [Microsoft 團隊的系統管理訓練](itadmin-readiness.md)
-- [連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [針對 Microsoft Teams 用戶端的連線問題進行疑難排解](connectivity-issues.md)
 - [在 Microsoft 團隊的疑難排解中使用記錄檔](log-files.md)
 

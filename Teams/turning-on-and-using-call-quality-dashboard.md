@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。
-ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8f1bd778cfa24551d90b0186e606235193a47b0d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697443"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874263"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -41,7 +41,7 @@ ms.locfileid: "44697443"
 
 ## <a name="assign-roles-for-accessing-cqd"></a>指派角色以存取 CQD
 
-指派[角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)，以存取 CQD 給需要使用的人員。 
+指派[角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)，以存取 CQD 給需要使用的人員。
 
 下表顯示每個角色可在 CQD 中執行的動作：
 

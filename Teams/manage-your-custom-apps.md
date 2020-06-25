@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何將自訂團隊 app 從開發開發到部署。
-ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 705f5ecf5628dd981a4deb3ded847b3da8e9ea08
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064528"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868510"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>在 Microsoft 團隊中管理您的自訂應用程式
 
@@ -41,7 +41,7 @@ ms.locfileid: "44064528"
 
 ### <a name="create-test-users"></a>建立測試使用者
 
-請確定您的開發人員（無論是內部還是外部）在您的測試租使用者中有帳戶。 <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">深入瞭解如何新增使用者</a>。
+請確定您的開發人員（無論是內部還是外部）在您的測試租使用者中有帳戶。 <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users" target="_blank">深入瞭解如何新增使用者</a>。
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>允許測試租使用者中的自訂應用程式
 
@@ -50,13 +50,13 @@ ms.locfileid: "44064528"
 若要允許使用者上傳自訂應用程式，請依照下列步驟執行：
 
 1. 開啟 [**允許與自訂應用程式互動**] 全組織性應用程式設定。 若要執行此動作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **管理 app**]，然後按一下 [**全組織式應用程式設定**]。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app**  >  **管理 app**]，然後按一下 [**全組織式應用程式設定**]。
     2. 開啟 [**自訂應用程式**] 底下的 [**允許與自訂應用程式互動**]，然後按一下 [**儲存**]。
 
     ![「允許與自訂 app 互動」的螢幕擷取畫面](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. 開啟全域 app 設定原則中的 [上**傳自訂應用程式**] 設定。 若要執行此動作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **設定原則**]，然後按一下 [**全域（組織範圍預設值）** ] 原則。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app**  >  **設定原則**]，然後按一下 [**全域（組織範圍預設值）** ] 原則。
     2. 開啟 **[上傳自訂應用程式**]，然後按一下 [**儲存**]。
 
     ![[上傳自訂應用程式] app 設定策略設定的螢幕擷取畫面](media/manage-your-lob-apps-app-setup-custom-apps.png)
@@ -86,13 +86,13 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 若要允許信任的使用者上傳自訂應用程式，請依照下列步驟執行：
 
 1. 開啟 [**允許與自訂應用程式互動**] 全組織性應用程式設定。 若要執行此動作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **管理 app**]，然後按一下 [**全組織式應用程式設定**]。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app**  >  **管理 app**]，然後按一下 [**全組織式應用程式設定**]。
     2. 開啟 [**自訂應用程式**] 底下的 [**允許與自訂應用程式互動**]，然後按一下 [**儲存**]。
 2. 關閉全域 app 設定原則中的 [**上傳自訂應用程式**] 設定。 若要執行此動作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **設定原則**]，然後按一下 [**全域（組織範圍預設值）** ] 原則。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app**  >  **設定原則**]，然後按一下 [**全域（組織範圍預設值）** ] 原則。
     2. 關閉 **[上傳自訂應用程式**]，然後按一下 [**儲存**]。
 3. 建立新的應用程式設定原則，以允許上傳自訂應用程式，並將它指派給您的一組受信任的使用者。 若要執行此動作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **設定原則**]，然後按一下 [**新增**]。 提供新原則的名稱和描述、開啟 **[上傳自訂應用程式**]，然後按一下 [**儲存**]。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app**  >  **設定原則**]，然後按一下 [**新增**]。 提供新原則的名稱和描述、開啟 **[上傳自訂應用程式**]，然後按一下 [**儲存**]。
     2. 選取您建立的新原則，然後按一下 [**管理使用者**]。 搜尋使用者 **，按一下 [****新增**]，然後按一下 [套用]。 重複此步驟，將原則指派給所有信任的使用者。
 
         ![[新增應用程式設定原則] 頁面的螢幕擷取畫面](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -125,7 +125,7 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 若要更新應用程式，開發人員應該繼續遵循[步驟 1](#step-1-develop-and-test)和[步驟 2](#step-2-validate-in-production)。
 
-您可以透過租使用者應用程式目錄來更新應用程式。 若要這樣做，請在 Microsoft 團隊系統管理中心，移至 [**團隊 app** > **管理應用程式**]。 在應用程式清單中，按一下應用程式名稱，然後按一下 [**更新**]。 這樣做會取代租使用者目錄中現有的 app，而且所有 app 許可權原則和應用程式設定原則都會針對更新的 app 保持強制執行。
+您可以透過租使用者應用程式目錄來更新應用程式。 若要這樣做，請在 Microsoft 團隊系統管理中心，移至 [**團隊 app**  >  **管理應用程式**]。 在應用程式清單中，按一下應用程式名稱，然後按一下 [**更新**]。 這樣做會取代租使用者目錄中現有的 app，而且所有 app 許可權原則和應用程式設定原則都會針對更新的 app 保持強制執行。
 
 ### <a name="end-user-update-experience"></a>最終使用者更新體驗
 

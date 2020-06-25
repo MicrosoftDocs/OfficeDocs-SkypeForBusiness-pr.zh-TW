@@ -17,12 +17,12 @@ description: 瞭解如何使用 PowerShell 來允許或封鎖 Microsoft 團隊�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 8c77b34103913d850b29c84096251b3b2795f684
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637302"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44867980"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制來賓對團隊的存取
 ================================================
@@ -35,7 +35,7 @@ ms.locfileid: "44637302"
 
 - 允許或封鎖來自特定小組或 Microsoft 365 群組的來賓使用者
 
-如需詳細資訊，請參閱[管理 Microsoft 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)中的「使用 PowerShell 控制來賓存取」。
+如需詳細資訊，請參閱[管理 Microsoft 365 群組中的來賓存取](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)中的「使用 PowerShell 控制來賓存取」。
 
   
 您也可以使用 PowerShell 根據其網域來允許或封鎖來賓使用者。 例如，假設您的企業（Contoso）與另一個業務（Fabrikam）有合作關係。 您可以將 Fabrikam 新增至您的允許清單，讓您的使用者可以將這些來賓新增到他們的群組中。 如需詳細資訊，請參閱[允許/封鎖 Microsoft 365 群組的來賓存取權](https://go.microsoft.com/fwlink/?linkid=854001)。

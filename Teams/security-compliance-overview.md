@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841894"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868080"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -45,7 +45,7 @@ Microsoft 團隊是以 Microsoft 365 和 Office 365 超規模、企業級雲端�
 - [Microsoft 團隊控制安全性與合規性](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分鐘）
 
 > [!IMPORTANT]
-> 作為 Microsoft 365 或 Office 365 的客戶，您擁有並控制您的資料。 除了向您提供已訂閱的服務之外，Microsoft 不會將您的資料用於任何其他專案。 身為服務提供者，我們不會掃描您的電子郵件、檔或團隊，以進行廣告或與服務相關的目的。 Microsoft 沒有已上傳內容的存取權。 就像商務用 OneDrive 和 SharePoint Online 一樣，客戶資料仍會留在租使用者中。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)深入瞭解我們與安全性相關的資訊。 小組與 Microsoft 信任中心遵循相同的指導方針與原則。
+> 作為 Microsoft 365 或 Office 365 的客戶，您擁有並控制您的資料。 除了向您提供已訂閱的服務之外，Microsoft 不會將您的資料用於任何其他專案。 身為服務提供者，我們不會掃描您的電子郵件、檔或團隊，以進行廣告或與服務相關的目的。 Microsoft 沒有已上傳內容的存取權。 就像 Microsoft 365 中的 OneDrive 和 SharePoint 一樣，客戶資料仍會留在租使用者內。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)深入瞭解我們與安全性相關的資訊。 小組與 Microsoft 信任中心遵循相同的指導方針與原則。
 
 ## <a name="security"></a>安全性
 
@@ -60,7 +60,7 @@ Microsoft 團隊是以 Microsoft 365 和 Office 365 超規模、企業級雲端�
 
 ### <a name="advanced-threat-protection-atp"></a>高級威脅防護（ATP）
 
-Microsoft 團隊提供高級威脅防護（ATP），以及 SharePoint 和商務用 OneDrive、與團隊進行內容管理的應用程式。 ATP 可讓您判斷這些應用程式中的內容是否具有惡意性質，並封鎖來自使用者存取的內容。
+Microsoft 團隊提供高級威脅防護（ATP），以及 SharePoint 和 OneDrive、與團隊進行內容管理的應用程式。 ATP 可讓您判斷這些應用程式中的內容是否具有惡意性質，並封鎖來自使用者存取的內容。
 
 在檢測到您在 Microsoft 365 或 Office 365 中所選取的設定之後，受影響內容的管理方式。 我們強烈建議您在設定 ATP 時考慮所有應用程式，並進一步閱讀[SharePoint、OneDrive 和 Microsoft 團隊](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)文章的相關詳細資訊，以取得如何開始使用的相關資訊。
 
@@ -70,13 +70,13 @@ Microsoft 團隊提供高級威脅防護（ATP），以及 SharePoint 和商務�
 
 ### <a name="safe-attachments"></a>安全附件
 
-[安全附件] 是專門用來加強使用者安全性的功能，方法是檢查及偵測惡意附件。 全域或安全性系統管理員會建立處理這些可疑的惡意附件的[原則](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)，避免它們被傳送給使用者、按一下，以及採取的動作。 您可以在 SharePoint Online、商務用 OneDrive 和 Microsoft 團隊以及 Microsoft 365 或 Office 365[高級威脅防護方案1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)中使用安全的附件保護功能。 瞭解更多關於安全附件的資訊，以及他們如何協助保護[貴組織。](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+[安全附件] 是專門用來加強使用者安全性的功能，方法是檢查及偵測惡意附件。 全域或安全性系統管理員會建立處理這些可疑的惡意附件的[原則](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)，避免它們被傳送給使用者、按一下，以及採取的動作。 SharePoint、OneDrive 和 Microsoft 團隊都提供安全的附件保護功能，而且 Microsoft 365 或 Office 365[高級威脅防護方案1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)都有這項功能。 瞭解更多關於安全附件的資訊，以及他們如何協助保護[貴組織。](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>條件式存取原則對於團隊的運作方式
 
-Microsoft 團隊大量依賴 Exchange Online、SharePoint Online 和商務用 Skype Online 來取得核心生產力案例，例如會議、行事曆、交互操作聊天和檔案共用。 針對這些雲端應用程式設定的條件式存取原則，在使用者直接登入 Microsoft 團隊時（任何用戶端），都適用于 Microsoft 團隊。
+Microsoft 團隊大量依賴 Exchange Online、SharePoint 及商務用 Skype Online 來取得核心生產力案例，例如會議、行事曆、交互操作聊天和檔案共用。 針對這些雲端應用程式設定的條件式存取原則，在使用者直接登入 Microsoft 團隊時（任何用戶端），都適用于 Microsoft 團隊。
 
-Microsoft 團隊獨立支援在 Azure Active Directory 條件式存取原則中作為雲端 app。 在使用者登入時，針對 Microsoft 團隊雲端 app 設定的條件式存取原則適用于 Microsoft 團隊。 不過，在其他 app （例如 Exchange Online 和 SharePoint Online）上沒有正確的原則，使用者仍然可以直接存取這些資源。 如需在 azure 入口網站中設定條件式存取原則的詳細資訊，請移至： [Azure Active Directory 快速入門](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
+Microsoft 團隊獨立支援在 Azure Active Directory 條件式存取原則中作為雲端 app。 在使用者登入時，針對 Microsoft 團隊雲端 app 設定的條件式存取原則適用于 Microsoft 團隊。 不過，在其他 app （例如 Exchange Online 和 SharePoint）上沒有正確的原則，使用者仍然可以直接存取這些資源。 如需在 azure 入口網站中設定條件式存取原則的詳細資訊，請移至： [Azure Active Directory 快速入門](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
 
 適用于 Windows 和 Mac 的 Microsoft 團隊桌面用戶端支援新式驗證。 新式驗證會根據 Azure Active Directory 驗證程式庫（ADAL），在跨平臺的 Microsoft Office 用戶端應用程式中提供登入。
 
@@ -153,7 +153,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Microsoft 365 或 Off
 
 ### <a name="auditing-and-reporting"></a>審核與報告
 
-在 Microsoft 365 合規性中心直接進行審核記錄搜尋，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以針對 Microsoft 365 合規性中心內的所有審核記錄資料設定警示，並篩選及匯出此資料以進行進一步分析。 請參閱[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，進一步瞭解如何針對 Microsoft 365 或 Office 365 進行審核記錄。 若要深入瞭解在 Microsoft 365 規範中心中搜尋 Microsoft 團隊活動，我們也會在[團隊文章中開啟 [審核](audit-log-events.md)]，讓您複習。
+在 Microsoft 365 合規性中心直接進行審核記錄搜尋，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以針對 Microsoft 365 合規性中心內的所有審核記錄資料設定警示，並篩選及匯出此資料以進行進一步分析。 請參閱[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，進一步瞭解如何執行 Microsoft 365 或 Office 365 的審核記錄搜尋。 若要深入瞭解在 Microsoft 365 規範中心中搜尋 Microsoft 團隊活動，我們也會在[團隊文章中開啟 [審核](audit-log-events.md)]，讓您複習。
 
 ## <a name="privacy"></a>隱私權
 
@@ -197,6 +197,8 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Microsoft 365 或 Off
 
 ## <a name="related-topics"></a>相關主題
 
-[Microsoft 365 安全性](https://docs.microsoft.com/microsoft-365/security/) 
-[Microsoft 365 合規性](https://docs.microsoft.com/microsoft-365/compliance/) 
+[Microsoft 365 安全性](https://docs.microsoft.com/microsoft-365/security/)
+
+[Microsoft 365 合規性](https://docs.microsoft.com/microsoft-365/compliance/)
+
 [Microsoft 合規性產品](https://docs.microsoft.com/microsoft-365/compliance/offering-home)

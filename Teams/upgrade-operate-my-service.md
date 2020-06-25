@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761471"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868500"
 ---
 # <a name="operate-your-service"></a>營運您的服務
 
@@ -437,7 +437,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 4. **造訪 Microsoft 團隊社區：**[Microsoft 團隊社區](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)為團隊提供專用空間。 團隊群組會在團隊周圍提供討論清單、博客文章和公告。 您可以張貼問題或搜尋先前的討論，以解決您的問題。
 
-5. **聯繫 Microsoft 支援人員：** 您可以與 Microsoft 支援人員聯繫，以解決團隊線上或手機的問題。 如需詳細資訊，請參閱[商務用客戶支援](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。 針對 Premier 客戶，您可以依照[Microsoft 團隊的連絡人支援（Premier 客戶）](https://support.microsoft.com/premier/contacts)來啟動支援要求。
+5. **聯繫 Microsoft 支援人員：** 您可以與 Microsoft 支援人員聯繫，以解決團隊線上或手機的問題。 如需詳細資訊，請參閱[商務用客戶支援-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 針對 Premier 客戶，您可以依照[Microsoft 團隊的連絡人支援（Premier 客戶）](https://support.microsoft.com/premier/contacts)來啟動支援要求。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611002"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868700"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 ===========================================
@@ -72,7 +72,7 @@ ms.locfileid: "44611002"
 
 若要還原已刪除的小組，請執行下列步驟，還原與小組相關聯的 Microsoft 365 群組。 還原小組的 Microsoft 365 群組會復原小組內容，包括索引標籤、標準通道、私人頻道以及其相關的網站集合。
 
-根據預設，已刪除的 Microsoft 365 群組會保留30天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱[還原已刪除的 Microsoft 365 群組](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
+根據預設，已刪除的 Microsoft 365 群組會保留30天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱[還原已刪除的群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安裝 AzureADPreview 模組
 

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350157"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868660"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>終止對 Microsoft StaffHub 的支援
 
@@ -133,7 +133,7 @@ ms.locfileid: "44350157"
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以在由 StaffHub 團隊建立的所有 Microsoft 365 群組中，新增特殊的前置詞。 我可以在小組中執行相同的動作嗎？
 
-當您從 StaffHub 移至 [團隊] 時，您將無法使用相同的功能。 如果您需要將名稱一致性套用至所有的 Microsoft 365 群組，您可以使用[Microsoft 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。
+當您從 StaffHub 移至 [團隊] 時，您將無法使用相同的功能。 如果您需要將名稱一致性套用至所有的 Microsoft 365 群組，您可以使用[群組命名原則](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)。
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>小組中的團隊名稱是否相同？
 

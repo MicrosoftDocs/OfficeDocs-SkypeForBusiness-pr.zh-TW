@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何在安裝累積更新1後，使用 PowerShell 以取得商務用 Skype Server 2019 中的 SEFAUtil 功能。
-ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232554"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868550"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在商務用 Skype Server 2019 中使用 SEFAUtil 功能 PowerShell
 
@@ -103,7 +103,7 @@ SEFAUtil （次要分機功能啟用）可讓商務用 Skype 伺服器管理員�
 - 所有 Cmdlet 的 CsHelpDesk-取得
 
 如需這些系統管理員角色的詳細資訊，請參閱[建立商務用 Skype Server 控制台系統管理員](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。 管理員可以直接或遠端登入伺服器電腦，存取這些 Cmdlet。
-若為混合式部署，商務用 Skype 管理員應該可以為所有 Cmdlet 呼叫 Get 及 Set。 如需完整角色清單的詳細資訊，請參閱[關於系統管理員角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
+若為混合式部署，商務用 Skype 管理員應該可以為所有 Cmdlet 呼叫 Get 及 Set。 如需完整角色清單的詳細資訊，請參閱[關於系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)。
 
 > [!NOTE]
 > 必須啟用伺服器自動探索。 不會引入其他授權需求，以供使用 Cmdlet 使用。

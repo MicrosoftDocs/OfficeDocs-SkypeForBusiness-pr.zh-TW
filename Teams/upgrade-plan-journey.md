@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f2a52c9bce6269ec7ddd69e4923a011cf3b6872
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523106"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868450"
 ---
 # <a name="plan-for-your-upgrade"></a>規劃升級
 
@@ -33,9 +33,13 @@ ms.locfileid: "44523106"
 
 良好的技術環境、持續的使用者採納，以及所有您的業務目標都是以適當的規劃開始的方式來實現。 實體方案提供升級專案的架構，並確保所有專案關係人都能達到相同的目標。 只要花時間就能正確定義成功，您就可以在您的部署過程中測量結果，並確認您要達到想要的結果。 規劃您的旅程包括：
 
-- [登記您的專案專案關係人](upgrade-enlist-stakeholders.md)。
-- [定義專案的範圍](https://aka.ms/SkypetoTeams-Scope)。
-- [瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)。
+- [登記專案干係人](upgrade-enlist-stakeholders.md)
+- [定義專案的範圍](https://aka.ms/SkypetoTeams-Scope)
+- [瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
+- [根據您的業務需求選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [規劃使用者試驗](pilot-essentials.md)
+
+規劃歷程後，您將會閱讀在[實施升級](upgrade-to-teams.md)前[準備您的環境](upgrade-prepare-environment.md)並[準備貴組織](upgrade-prepare-organization.md)的相關主題。  
 
 > [!TIP]
 > 加入即時、互動式研討會，我們將分享指導方針、最佳做法，以及專為開始升級規劃與實施方案而設計的資源。

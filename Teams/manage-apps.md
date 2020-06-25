@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: d4abedbd24f9f0211a66b0890fe9d3db2fc977cd
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006039"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868480"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "44006039"
 
 [**管理應用程式**] 頁面可讓您查看租使用者目錄中所有可用的應用程式，為您提供所需的資訊，讓您決定要允許或封鎖整個組織的哪些應用程式。 接著，您可以使用[應用程式許可權原則](teams-app-permission-policies.md)、[應用程式設定原則](teams-app-setup-policies.md)，以及[自訂的 app 原則和設定](teams-custom-app-policies-and-settings.md)，為貴組織中的特定使用者設定 app 體驗。
 
-在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **管理應用程式**]。 您必須是全域系統管理員或團隊服務系統管理員，才能存取該頁面。
+在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。 您必須是全域系統管理員或團隊服務系統管理員，才能存取該頁面。
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>在您的租使用者應用程式目錄中查看應用程式
 
@@ -41,11 +41,12 @@ ms.locfileid: "44006039"
 
 - **Name （名稱**）：應用程式名稱。 按一下應用程式名稱，查看該應用程式的詳細資訊。 這包括應用程式的描述、是否允許或封鎖、版本、套用至應用程式的類別、認證狀態、支援的功能，以及應用程式識別碼。 以下是一個範例：<br> 
 ![應用程式的 [應用程式詳細資料] 頁面的螢幕擷取畫面](media/manage-apps-app-details.png)
-- **認證**：如果 app 已透過認證，您就會看到**Microsoft 365 認證**或**發行商認證**。 按一下連結以查看 app 的認證詳細資料。 如果您看到**--**「」，表示沒有 app 的認證資訊。 若要深入瞭解團隊中的認證應用程式，請參閱[Microsoft 365 App 認證計畫](https://docs.microsoft.com/teams-app-certification/all-apps)。  
+- **認證**：如果 app 已透過認證，您就會看到**Microsoft 365 認證**或**發行商認證**。 按一下連結以查看 app 的認證詳細資料。 如果您看到「」 **--** ，表示沒有 app 的認證資訊。 若要深入瞭解團隊中的認證應用程式，請參閱[Microsoft 365 App 認證計畫](https://docs.microsoft.com/teams-app-certification/all-apps)。  
 - [**類別**]：適用于 app 的類別。
 - **App 狀態**：組織階層的 app 狀態，可能是下列其中一項：
     - **允許**：應用程式可供貴組織中的所有使用者使用。
-    - 已**封鎖**：應用程式遭到封鎖，且無法供貴組織中的任何使用者使用。<br>
+    - 已**封鎖**：應用程式遭到封鎖，且無法供貴組織中的任何使用者使用。
+    - 已**封鎖整個組織**結構：應用程式在整個組織內的應用程式設定中遭到封鎖。 <br>
 請務必注意，此資料行代表原在**整個組織結構設定**窗格中之 app 的「允許」和「封鎖」狀態。 您現在可以在 [**管理應用程式**] 頁面上的整個組織結構中查看、封鎖及允許 app。 
 - **版本**： App 版本。
 
@@ -82,12 +83,12 @@ ms.locfileid: "44006039"
     
 2. 在**協力廠商應用程式**下，關閉或開啟這些設定以控制對協力廠商應用程式的存取：
 
-    - **允許團隊中的協力廠商應用程式**：這可控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何協力廠商應用程式。 針對您允許的應用程式，狀態會顯示為 [允許]，**但已停用整個組織**結構。              
+    - **允許協力廠商應用程式**：控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何協力廠商應用程式，而且這些應用程式的應用程式狀態會在表格中顯示為已**封鎖的組織內**。
 
         > [!NOTE]
         > 在 Microsoft 365 政府版團隊部署中，[**允許團隊中的協力廠商應用程式**] 設定預設為關閉。
 
-        當 [**允許團隊中的協力廠商應用程式**關閉] 時，系統會停用[傳出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，這表示使用者無法建立。 當此設定為 [開啟] 時，無論使用者應用程式許可權原則中的設定為開啟或關閉，所有使用者都能啟用外寄 webhooks。
+        [**允許協力廠商應用程式**] 關閉時，系統會停用[傳出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，這表示使用者無法建立。 當此設定為 [開啟] 時，無論使用者應用程式許可權原則中的設定為開啟或關閉，所有使用者都能啟用外寄 webhooks。
     - **允許預設發佈至商店的任何新的協力廠商應用程式**：這會控制發佈至 [小組] 應用程式商店的新的協力廠商應用程式是否會自動在小組中提供。 如果您允許協力廠商應用程式，則只能設定此選項。
 
 3. 在 [**自訂應用程式**] 底下，關閉或開啟 [**允許與自訂應用程式互動**]。 這個設定控制使用者是否能與自訂 app 互動。 若要深入瞭解，請參閱[管理團隊中的自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)。
