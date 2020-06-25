@@ -269,7 +269,7 @@
 ### [商務用 Skype Online 中的 ExpressRoute 與 QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [媒體品質和網路連線效能](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [商務用 Skype Online 的 Proxy 伺服器](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
-### [使用網路測試小幫手](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
 
 ## [通話分析和通話品質儀表板](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通話品質儀表板中提供的維度和量值](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
