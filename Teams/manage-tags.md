@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中管理組織中使用標記的方式。
-ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b19613268384831aaaa2608fc183b62fdc1b0445
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690851"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877934"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 團隊中的標記
 
@@ -38,6 +38,8 @@ Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通�
 - 群組產品經理想要將頻道中的所有產品經理宣傳。
 - 醫院管理員想要傳送訊息給頻道中的所有 radiologists。
 - 行銷經理想要與所有設計人員一起開始進行群組聊天。
+
+當您在頻道交談中 @mentioned 標籤時，與標籤相關聯的小組成員就會收到通知，就像任何其他的 @mention 一樣。
 
 若要深入瞭解，請參閱[在團隊中使用標記](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 
@@ -77,10 +79,20 @@ Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通�
 
 ![小組層次上的 [標籤] 設定的螢幕擷取畫面](media/manage-tags-team-settings.png)
 
-## <a name="add-tags-in-teams"></a>在團隊中新增標記
+## <a name="use-tags"></a>使用標記
 
-若要管理標記，請選取應用程式左側的 [**管理團隊**]，然後在清單中尋找您的小組。 選取 [**更多選項**]，然後選擇 [**管理**標籤]。
+### <a name="add-tags"></a>新增標記
+
+若要建立並指派標籤，請選取應用程式左側的 [**小組**]，然後在清單中尋找您的小組。 選取 [**更多選項**]，然後選擇 [**管理**標籤]。
 
 您可以在這裡建立標籤，並將其指派給小組中的人員。
 
 ![如何在團隊用戶端套用標記的螢幕擷取畫面 ](media/manage-tags-teams.png)
+
+### <a name="delete-tags"></a>刪除標記
+
+移除所有與標籤相關聯的小組成員，並刪除該標記。
+
+## <a name="related-topics"></a>相關主題
+
+[在團隊中使用標記](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些桌面與會議已認證，讓 Microsoft 團隊能產生最佳結果。
-ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
+ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816814"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877904"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -51,6 +51,7 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 |Crestron M100| 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的[Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 從5/11/2020 終止|
 |Crestron Flex UC-P100 & UC-T  | 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的 [ [UC 電話]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)]。 |從5/11/2020 終止|
 |[聯想 ThinkSmart] 視圖|18781Y 200410.067|2020年4月|
+|Poly 組 C60|5.9.3.6155|2020年4月|
 |Poly CCX400 | 1.0.0.0200 | 2020年1月|
 |Poly CCX600 | 5.9.12.1111| 2020年1月|
 |Poly CCX500 | 5.9.12.1111| 2019年12月|

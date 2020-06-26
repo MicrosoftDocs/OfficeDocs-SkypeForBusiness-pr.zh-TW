@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f59242fd3877ff1a075668a405a558f0fe18c374
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761451"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877914"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -29,6 +29,7 @@ ms.locfileid: "44761451"
 
 |最新發佈 |已發佈至 <br/> Microsoft 網上商店 |
 |--- |--- |
+|4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
@@ -63,6 +64,13 @@ ms.locfileid: "44761451"
 |RTM （1.0.8） |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 團隊聊天室功能簡介和問題解決
+
+### <a name="44630-06252020"></a>4.4.63.0 （06/25/2020）
+
+此更新中引入的專案：
+- 品質與可靠性修正程式
+- 修正「更新至4.4.41.0 之後，應用程式無法啟動」問題
+
 
 ### <a name="44410-05062020"></a>4.4.41.0 （05/06/2020）
 

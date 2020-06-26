@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690959"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889972"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的團隊原則
 
@@ -48,7 +48,7 @@ ms.locfileid: "44690959"
     ![團隊原則設定的螢幕擷取畫面](media/teams-policies.png)
 4. 選擇您想要的設定：
 
-- **探索私人團隊**：<a name="discoverteams"> </a>開啟此設定可讓使用者在搜尋結果和小組圖庫中探索私人小組。
+- **探索私人小組**（在私人預覽版中）<a name="discoverteams"> </a> ：開啟此設定，可讓使用者在搜尋結果和小組圖庫中探索私人小組。
 - **建立私人頻道**： <a name="createchannels"> </a>開啟此設定可允許使用者建立私人頻道。
 
 5. 按一下 [儲存]****。
