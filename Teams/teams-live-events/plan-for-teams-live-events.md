@@ -18,12 +18,12 @@ description: 在本文中，您將了解在 Microsoft Teams 中設定即時活�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689729"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854105"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -67,6 +67,14 @@ ms.locfileid: "44689729"
 
 > [!IMPORTANT]
 > 未經驗證的匿名使用者無法受邀為 Teams 即時活動製作人或簡報者。
+
+若要讓來賓在即時活動中簡報，請執行下列動作：
+
+1. [將使用者新增為團隊的來賓](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
+2. 讓使用者接受來賓邀請並加入團隊。
+3. [排程即時活動，並將來賓新增至您的活動群組](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
+
+最佳做法是，建議您為即時活動的製作人和簡報者建立頻道，使得他們可以在活動前交談和共用資訊。 沒有 Microsoft 365 認證的來賓就不會看到 Teams 中的行事曆。 若要讓他們能夠輕鬆加入活動，製作人可以將活動連結張貼到頻道。 然後，簡報者可以開啟 Teams，前往頻道，然後按一下連結以加入活動。 
 
 ## <a name="who-can-watch-live-events"></a>誰可以觀看即時活動？
 
@@ -117,7 +125,7 @@ ms.locfileid: "44689729"
 |即時輔助字幕和翻譯字幕 |&#x2714; |&#x2714; |&#x274C; |
 |即時活動錄製中的輔助字幕 |&#x2714; |&#x2714; |&#x2714; |
 |出席者 DVR 控制項 (暫停、倒轉) |&#x2714; |&#x2714; |&#x2714; |
-|合作夥伴 eCDN 支援 |&#x2714; (Kollective、Ramp) |&#x2714; (Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |
+|合作夥伴 eCDN 支援 |&#x2714; (Kollective、Hive) |&#x2714; (Kollective、Hive) |&#x2714; (Hive、Kollective、Ramp) |
 |適用於製作人的廣播後出席報告 |&#x2714; |&#x2714; |&#x274C; |
 |對象人氣分析 - 即時投票與票選 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
