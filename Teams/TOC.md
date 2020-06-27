@@ -217,6 +217,7 @@
 ## 即時活動
 ### [什麼是 Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 即時活動的方案](teams-live-events/plan-for-teams-live-events.md)
+### [即時活動中的簡報者、製造者和出席者功能](roles-in-live-events.md)
 ### [設定 Teams 即時活動](teams-live-events/set-up-for-teams-live-events.md)
 ### [使用 PowerShell 設定 Teams 即時活動原則](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [設定 Teams 即時活動設定](teams-live-events/configure-teams-live-events.md)
@@ -508,31 +509,31 @@
 
 ## 規劃您的升級旅程
 
-### [升級規劃概觀](upgrade-plan-journey.md)
-### [列出您的專案關係人](upgrade-enlist-stakeholders.md)
-### [定義專案範圍](upgrade-define-project-scope.md)
-### [了解共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [會議優先](meetings-first.md)
+### 規劃您的專案和需求 
+#### [概觀](upgrade-plan-journey.md)
+#### [列出您的專案關係人](upgrade-enlist-stakeholders.md)
+#### [定義專案範圍](upgrade-define-project-scope.md)
+#### [了解共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [舉辦使用者試驗](pilot-essentials.md)
 
-## 準備 Teams 的環境
-### [技術整備概觀](upgrade-prepare-environment.md)
-### [準備 Teams 的 IT 人員](upgrade-prepare-IT-pros.md)
-### [先決條件](upgrade-plan-journey-prerequisites.md)
-### [評估您的環境](upgrade-plan-journey-evaluate-environment.md)
-### [準備您的服務](upgrade-prepare-environment-prepare-service.md)
 
-## 為貴組織做好使用 Teams 的準備
-### [組織的整備概觀](upgrade-prepare-organization.md)
-### [評估組織的變更整備程度](upgrade-org-change-readiness.md)
-### [準備使用者整備計畫](upgrade-user-readiness.md)
+### 準備 Teams 的環境
+#### [技術整備概觀](upgrade-prepare-environment.md)
+#### [準備 Teams 的 IT 人員](upgrade-prepare-IT-pros.md)
+#### [先決條件](upgrade-plan-journey-prerequisites.md)
+#### [評估您的環境](upgrade-plan-journey-evaluate-environment.md)
+#### [準備您的服務](upgrade-prepare-environment-prepare-service.md)
+
+### 為貴組織做好使用 Teams 的準備
+#### [組織的整備概觀](upgrade-prepare-organization.md)
+#### [評估組織的變更整備程度](upgrade-org-change-readiness.md)
+#### [準備使用者整備計畫](upgrade-user-readiness.md)
 
 
 ## 實施您的升級
 ### [概觀](upgrade-to-Teams.md)
-### [舉辦使用者試驗](pilot-essentials.md)
 ### [將商務用 Skype Online 升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [將商務用 Skype 內部部署升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +552,9 @@
 ### [與商務用 Skype 共存](coexistence-chat-calls-presence.md)
 ### [Teams 用戶端體驗和遵從共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [設定共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [會議優先](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,7 +723,7 @@
 ## [疑難排解 Teams 的問題時使用記錄檔](log-files.md)
 ## [常見問題：支援您的遠端員工](FAQ-support-remote-workforce.md)
 ## [驗證 Teams 的服務健康情況](service-health.md)
-## [Teams 的支援資源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
@@ -738,7 +742,6 @@
 ### [在 Teams 中建立團隊時適用於 Microsoft 365 群組的方案](plan-office-365-groups.md)
 ### [Teams 中的生命週期管理方案](plan-teams-lifecycle.md)
 ### [Teams 中的控管方案](plan-teams-governance.md)
-### [使用網路測試小幫手](use-network-testing-companion.md)
 
 ## 安裝 Teams
 ### [取得 Teams 用戶端](get-clients.md)

@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Teams 升級規劃研討會
+summary: 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的規劃您的升級工作階段開始。 按一下任何要註冊的討論會標題。
+brand: teams
+metadata:
+  title: Teams 升級規劃研討會
+  description: 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的規劃您的升級工作階段開始。 按一下任何要註冊的討論會標題。
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902351"
+productDirectory:
+  items:
+  - title: 規劃您的升級 (從這裡開始！)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: 探索要協助您成功升級至 Teams，您所需的一切。 物件-全部（企業主辦方、IT 管理員、使用者就緒性/變更管理員、專案領導）
+    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+  - title: 讓您的使用者做好準備
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: 設計使用者整備狀況戰略，協助您的使用者喜愛並採用 Teams。 物件-使用者準備就緒/變更管理員
+    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
+  - title: 識別您的升級方法
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: 根據您目前的商務用 Skype 實作和升級目標，判斷最適合的方法。 物件-IT 系統管理員
+    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
+  - title: 實作您的升級方法
+    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
+    summary: 隨著您的正式升級方案執行您定義的升級方法。 物件-IT 系統管理員
+    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+additionalContent:
+  sections:
+  - items:
+    - title: 自行觀看這些討論會
+      summary: 請造訪升級至 YouTube 上的 Microsoft 團隊。
+      url: https://aka.ms/UpgradeOnDemand
+    - title: 展開您的小組案例？
+      summary: 請查看我們的小組專為 IT 專業人員提供的「粉筆交談」討論會。
+      url: https://aka.ms/TeamsChalkTalks
+    - title: Teams 的新使用者嗎？
+      summary: 深入瞭解如何開始使用團隊。
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
