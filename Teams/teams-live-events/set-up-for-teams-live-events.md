@@ -18,12 +18,12 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689669"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902278"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -116,7 +116,7 @@ ms.locfileid: "44689669"
  
 - **Kollective** 是一項雲端式智慧型對等分送平台，其會運用您現有的網路基礎結構，以更多種方式 (即時串流視訊、隨選視訊、軟體更新、安全性修補程式等)、更快速可靠地傳遞內容，並使用更少的頻寬。 我們的安全平台受到世界上最大的金融機構信任，且不需要額外的硬體，且設定和維護極為簡單。 [深入了解](https://kollective.com/microsoft-pilot/)。
  
-- **Ramp OmniCache** 提供下一代的網路發佈方式，並確保在全球 WAN 上順暢地傳送視訊內容，協助活動製作人將網路頻寬最佳化，並支援成功的即時活動廣播和隨選串流處理。 針對在 Teams 中所產生即時活動的 Ramp OmniCache 支援近期推出。 [深入了解](http://www.ramp.com)。 
+- **Ramp OmniCache** 提供下一代的網路發佈方式，並確保在全球 WAN 上順暢地傳送視訊內容，協助活動製作人將網路頻寬最佳化，並支援成功的即時活動廣播和隨選串流處理。 針對在 Teams 中所產生即時活動的 Ramp OmniCache 支援近期推出。 [深入了解](https://rampecdn.com)。 
  
 > [!NOTE] 
 > 您選擇的 SDN 或 eCDN 解決方案受限於選取的**協力廠商提供者的服務條款和隱私權原則**，其將控管您對提供者解決方案的使用方式。 您對提供者解決方案的使用方式將不受限於 Microsoft 大量授權條款或線上服務條款。 如果您不同意**協力廠商提供者的條款**，則不要在 Teams 中啟用該解決方案。 

@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330568"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874422"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 
@@ -158,9 +158,20 @@ Microsoft Teams 目前包含下列原則套件：
 
 ![[遠端學習的教育機構學生] 頁面，其中顯示的 [一般] 區段已關閉所有選項。](media/edu-policy-list-a.png)
 
-- 而在相同頁面上的會議 [參與者與來賓] 區段中：**允許在私人會議中立即開會**：關閉
+- 而在相同頁面上的會議 [參與者與來賓] 區段中:
+  - **允許在私人會議中立即開會**: 關閉
+  - **允許在會議中交談**: 已停用
 
 ![[參與者與來賓] 區段，其中的 [允許在私人會議中立即開會] 選項設為 [關閉]。](media/edu-participants-and-guests.png)
+
+關閉 **在通道中立即開會**、**允許管通道會議排程**、**允許排程私人會議**，以及 **在私人會議中立即開會** 給學生們使用的功能，而且還透過封鎖會議成為召集人，他們也提供下列教育版安全措施：
+
+- 如果學生嘗試在授課者之前加入會議，他們將無法在最新版本的 Teams 應用程式加入會議。
+- 雖然會議建立適用于任何使用者和任何授權，但是上述所述會議聯結區塊的安全性措施只適用于基於使用者授權類型的 Teams 中的教育客戶。
+
+當您將 **允許在會議中交談** 原則設定為停用，並封鎖學生在上方排程會議的時間，並將此原則用於教師（如果會議沒有從頻道排定，或在頻道中立即開會），學生將無法在教師加入會議之前和會議結束之前交談。 在會議前後，他們仍能看到聊天記錄。 例如，他們可以看到來自教師的郵件或會議記錄連結（如果會議已錄製）。
+
+如果學生和授課者都將 **允許在會議中交談** 原則關閉，就無法在會議交談視窗中交談。 以上所述會議交談限制中的安全措施只適用于根據使用者授權類型列出的 Teams 中的教育客戶。
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>控制學生是否可以在通話和會議期間共用其視訊
 

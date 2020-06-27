@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（適用于孟加拉國）。
-ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: e271e0328e787326921d0fe931a643c3b5ba924e
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877990"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902228"
 ---
 # <a name="availability-in-bangladesh"></a>孟加拉國中的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務 Bangladash。
+以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（適用于孟加拉國）。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

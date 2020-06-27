@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689719"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902288"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件？
 
@@ -76,7 +76,7 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的階層，�
 ECDN 的目的是從網際網路取得影片內容，並在整個企業中散佈內容，而不會影響網路效能。 您可以使用下列其中一個認證的 eCDN 合作夥伴來針對貴組織內的即時事件優化您的網路：
 - [一兩](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [向](http://www.ramp.com)
+- [向](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>出席者體驗 
 出席者體驗是即時事件最重要的部分，而且很重要的是，出席者不需要任何問題，也能參與即時事件。 出席者體驗會使用串流播放程式（適用于團隊中產生的事件）和 Azure 媒體播放機（適用于外部 app 或裝置中產生的事件），並可跨桌面、瀏覽器和行動裝置（iOS、Android）運作。 Microsoft 365 和 Office 365 提供 Yammer 和團隊作為兩個共同作業中樞，且即時出席者體驗會整合到這些共同作業工具中。 

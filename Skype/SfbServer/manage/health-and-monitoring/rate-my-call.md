@@ -11,74 +11,74 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 摘要：瞭解商務用 Skype Server 中的通話利率。
-ms.openlocfilehash: ca33e327b7416f18943a425df4ecb0d78d4047c6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解商務用 Skype Server 中的通話功能的速率。
+ms.openlocfilehash: 15f2bcbcf75690baaa350541f5f1da134fb32025
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817732"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902217"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在商務用 Skype Server 中評價我的通話
 
-**摘要：** 瞭解商務用 Skype Server 中我的通話功能的利率。
+**摘要：** 深入瞭解商務用 Skype Server 中的通話功能的速率。
 
-評價我的通話是商務用 Skype 2015 和2016用戶端的新功能，可讓企業取得其最終使用者的意見反應。
+評價我的來電是商務用 Skype 2015 和2016用戶端在 Windows 上的新功能，可讓企業從他們的使用者取得意見反應的方式。
 
-[我的呼叫速度] 視窗會提供「star」評等系統，以及音訊與視頻通話的預先定義權杖。 此外，系統管理員還可以讓自訂欄位提供意見反應。
+「我的呼叫」視窗的速率是「星形」分級系統及音訊及視頻通話的預先定義的標記。 此外，系統管理員可以讓自訂欄位提供意見反應。
 
-收集的費率我的通話資料目前不包含在任何現有的監視報告中，但有個別的監視報告。 資料是在 SQL 資料表中收集，可以透過執行 SQL 查詢來存取。
+收集的速率我的呼叫資料目前不會包含在任何現有的監控報告中，但有個別的監控報告。 在 SQL 資料表中收集的資料可透過執行 SQL 查詢進行存取。
 
-## <a name="rate-my-call-prerequisites"></a>評價我的通話先決條件
+## <a name="rate-my-call-prerequisites"></a>評估我的來電先決條件
 
-在您的商務用 Skype Server 部署中的使用者可以存取我的通話功能之前，必須先部署並設定下列元件：
+在商務用 Skype 伺服器部署中的使用者可以存取我的呼叫功能之前，必須部署及設定下列元件：
 
--  您必須已安裝商務用 Skype Server （版本9160或更新版本）。
+-  您必須已安裝商務用 Skype Server （版本9160或更高版本）。
 
-- 讓您的使用者安裝並更新到最新版本的商務用 Skype，也要求他們使用商務用 Skype UI。
+- 讓您的使用者安裝並更新至最新版本的商務用 Skype，也要求他們使用商務用 Skype UI。
 
-- 使用者必須駐留在商務用 Skype Server 前端池。
+- 使用者必須位於商務用 Skype 伺服器前端集區。
 
-- 您必須已部署商務用 Skype Server 監視資料庫，並將其與您的商務用 Skype 伺服器池相關聯。
+- 您必須已部署商務用 Skype Server 監控資料庫並與商務用 Skype 伺服器集區相關聯。
 
-- 我們建議您部署通話品質儀表板（CQD）。
+- 建議您部署通話品質儀表板（CQD）。
 
-## <a name="configure-rate-my-call"></a>設定通話比率
+## <a name="configure-rate-my-call"></a>設定通話的速率
 
-預設會在用戶端原則中啟用「我的通話」功能，並具有下列設定：
+使用下列設定，用戶端原則中預設會啟用「我的通話」功能：
 
-- 費率通話顯示百分比-10%
+- 將我的通話顯示百分比打分-10%
 
-- 讓我的通話速度允許自訂使用者的意見反應-已停用
+- 對我的呼叫允許自訂使用者的反應率-已停用
 
-不過，如果您想要啟用基本功能，則不需要採取任何動作，但如果您想要自訂的意見反應，您必須單獨啟用它。 下列 Windows PowerShell Cmdlet 是啟用自訂的使用者意見反應，以及將10% 的間隔變更為80% 的範例。
+啟用基本功能沒有必要的動作，但是如果您想要有自訂的意見反應，您必須個別啟用。 下列 Windows PowerShell Cmdlet 是啟用自訂使用者意見反應的範例，並將從10% 到80% 的間隔變更。
 
 ```PowerShell
-Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
+Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>存取通話資料的速度
+## <a name="accessing-rate-my-call-data"></a>存取通話資料的速率
 
-使用者的資料是在監視資料庫的兩個數據表中收集。
+使用者的資料會收集在監控資料庫中的兩個表格中。
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表格包含最終使用者的權杖輪詢結果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表格包含使用者對權杖進行輪詢的結果。
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表格包含標記定義。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表格包含 token 定義。
 
-標記定義的編碼方式如下：
+權杖定義的編碼方式如下：
 
 |||
 |:-----|:-----|
-|1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
-|3  <br/> | BackgroundNoise <br/> |
-|4  <br/> |MuffledSpeech  <br/> |
-|500  <br/> |回應  <br/> |
-|日前  <br/> | FrozenVideo <br/> |
+|1   <br/> |DistortedSpeech  <br/> |
+|2   <br/> | ElectronicFeedback <br/> |
+|3   <br/> | BackgroundNoise <br/> |
+|4   <br/> |MuffledSpeech  <br/> |
+|5   <br/> |回音  <br/> |
+| 21  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
-|日  <br/> | BlurryImage <br/> |
+|至  <br/> | BlurryImage <br/> |
 |24  <br/> | PoorColor <br/> |
-|位  <br/> | DarkVideo <br/> |
+|0.25  <br/> | DarkVideo <br/> |
 |101  <br/> |Audio_SilentLocal  <br/> |
 |102  <br/> |Audio_SilentRemote  <br/> |
 |103  <br/> |Audio_Echo  <br/> |
@@ -108,11 +108,11 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表格包含「星」投票和客戶意見反應（如果已啟用）的輪詢結果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表格包含 "星" 投票和客戶意見反應（若啟用）的輪詢結果。
 
-您可以使用**select \* from [Table.Name]** 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。
+您可以使用** \* [Table.Name]** 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。
 
-您可以使用下列 SQL 查詢：
+下列 SQL 查詢可供使用：
 
  **音訊**
 
@@ -151,7 +151,7 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
- **顯示器**
+ **影片**
 
 ```SQL
 SELECT
@@ -188,9 +188,9 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
-## <a name="updating-token-definitions"></a>更新標記定義
+## <a name="updating-token-definitions"></a>更新權杖定義
 
-最新的商務用 Skype 用戶端會報告您的\> [QoeMetrics] 中可能不存在的新問題標記識別項（100）。[dbo]。[CallQualityFeedbackTokenDef] 表格。 若要使用最新的標記定義來更新資料庫資料表，可以使用 Microsoft SQL Server Management Studio 在監視資料庫上執行下列 SQL 命令。 這個命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
+最新的商務用 Skype 用戶端報告新問題權杖 IDs （ \> 100）可能不會出現在 [QoeMetrics] 中。 [dbo]。[CallQualityFeedbackTokenDef] 表格。 若要以最新的標記定義更新資料庫資料表，可在使用 Microsoft SQL Server Management Studio 的監控資料庫上執行下列 SQL 命令。 此命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

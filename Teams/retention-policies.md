@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666175"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902268"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
@@ -59,7 +59,7 @@ ms.locfileid: "44666175"
 
 ## <a name="how-teams-retention-policies-work"></a>團隊保留原則的運作方式
 
-團隊聊天是儲存在聊天中每位使用者信箱的隱藏 SubstrateHolds 資料夾中，而團隊頻道訊息則會儲存在團隊群組信箱中的隱藏 [SubstratesHolds] 資料夾中。 小組使用一個支援 Azure 的聊天服務來儲存這個資料，而且根據預設，此服務會永久儲存資料。 使用團隊保留原則時，當您刪除資料時，會從 Exchange 信箱和基礎聊天服務中永久刪除該資料。
+團隊聊天是儲存在 Teamschat 中的每位使用者信箱，而團隊頻道訊息則會儲存在隱藏的資料夾中-Teamschat 在小組的群組信箱中。 小組使用一個支援 Azure 的聊天服務來儲存這個資料，而且根據預設，此服務會永久儲存資料。 使用團隊保留原則時，當您刪除資料時，會從 Exchange 信箱和基礎聊天服務中永久刪除該資料。
 
 當您將保留原則套用至團隊聊天和頻道訊息時，會發生下列情況：
 
@@ -83,7 +83,7 @@ ms.locfileid: "44666175"
 
 - 小組不支援 [高級保留] 設定，例如，將原則套用至包含關鍵字或機密資訊的內容。 目前，小組中的保留原則會套用至所有聊天和/或通道郵件內容。
 
-- 小組可能需要最多三到七天的時間來清除過期的訊息。 當保留期間到期時，小組保留原則會刪除聊天和頻道訊息。 不過，您可能需要最多三到七天的時間來清除這些訊息，並將它們永久刪除。 此外，聊天和頻道訊息在保留期到期之後以及永久刪除郵件的時間之間，都能使用 eDiscovery 工具進行搜尋。
+- 團隊保留原則會在一天內觸發一個處理常式，以在保留期間到期時刪除聊天和頻道訊息。 不過，您可能需要最多三到七天的時間來清除這些訊息，並將它們永久刪除。 此外，聊天和頻道訊息在保留期到期之後以及永久刪除郵件的時間之間，都能使用 eDiscovery 工具進行搜尋。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>多種保留原則和保留原則
 

@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0de34afb93093a1385dc8c0e4bca078e485e6887
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691309"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868110"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -128,10 +128,9 @@ Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預�
 |我要自訂組織的 Teams 用戶端設定嗎？|了解如何[使用 MSI 安裝 Teams](msi-deployment.md)。|
 |||
 
-
 ### <a name="teams-usage-reporting"></a>Teams 使用情況報告
 
-全域系統管理員、Teams 服務系統管理員和報告讀取者角色可檢視 Teams 使用情況報告。 若要深入了解，請參閱 [Microsoft 365 使用情況分析文章](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)。
+全域系統管理員、Teams 服務系統管理員和報告讀取者角色可檢視 Teams 使用情況報告。 若要深入瞭解，請參閱 [Microsoft 365 流量分析](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)。
 
 |問問自己|動作 |
 |------------|-------|
