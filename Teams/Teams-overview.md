@@ -32,9 +32,9 @@ ms.locfileid: "44773308"
 
 <span data-ttu-id="bd9f8-108">請勿錯過我們的 Teams 系統管理員適用的「歡迎使用 Teams」影片 (剛好超過 3 分鐘)：</span><span class="sxs-lookup"><span data-stu-id="bd9f8-108">Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vi2L]
 
-<span data-ttu-id="bd9f8-109">如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 [說明]\*\*\*\*，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。</span><span class="sxs-lookup"><span data-stu-id="bd9f8-109">If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).</span></span> <span data-ttu-id="bd9f8-110">如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="bd9f8-110">For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).</span></span> 
+<span data-ttu-id="bd9f8-109">如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 **[說明]**，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。</span><span class="sxs-lookup"><span data-stu-id="bd9f8-109">If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).</span></span> <span data-ttu-id="bd9f8-110">如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="bd9f8-110">For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).</span></span> 
 
 ## <a name="teams-architecture"></a><span data-ttu-id="bd9f8-111">Teams 架構</span><span class="sxs-lookup"><span data-stu-id="bd9f8-111">Teams architecture</span></span>
 
