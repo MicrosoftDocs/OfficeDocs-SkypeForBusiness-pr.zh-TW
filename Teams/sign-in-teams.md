@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868300"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877814"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft Teams
 ==========================
@@ -67,7 +67,11 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
     
 2. 如果使用者未登入其 Microsoft 365 帳戶的其他位置，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，視貴組織針對 [行動裝置登入原則] 設定的內容而定。
 
-### <a name="adding-multiple-accounts-to-teams"></a>新增多個帳戶至 Teams
+> [!NOTE]
+> 若要讓使用者體驗本節所述的 [登入體驗]，他們的裝置必須是能夠執行 iOS 版2.0.13 （組建2020061704）或更新版本，或為 Android 版的 Teams 版本 1416/1.0.0.2020061702 或更新版本。
+
+
+### <a name="adding-multiple-accounts-to-teams"></a>在 Teams 中新增多個帳戶
 
 IOS 和 Android 版的 Teams 支援將多個帳戶從單一裝置新增至 Teams。 下列影像顯示如何在 Teams 中新增多個帳戶。
     
