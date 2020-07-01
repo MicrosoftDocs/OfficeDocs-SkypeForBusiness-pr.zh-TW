@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 系統管理員可以瞭解如何在 Microsoft 團隊會議中開啟或關閉 [進入] 和 [結束公告]。
-ms.openlocfilehash: 824949ea1c212f514830dfad3926444944ac099c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ae2e8936b3fe0dbac0ba0d6ad7bfad3ab2e322ef
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690979"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938552"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>開啟或關閉 Microsoft 團隊中的會議進入與結束宣告
 
@@ -43,7 +43,7 @@ ms.locfileid: "44690979"
 
 您必須是系統管理員，才能進行這些變更。
 
-1. 登入系統管理中心  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
+1. 登入系統管理中心  <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a> 。
 
 2. 在左側導覽中，前往 [**會議**  >  **會議橋**]。 
 
@@ -54,7 +54,7 @@ ms.locfileid: "44690979"
 5. 在 [**進入/結束宣告類型**] 底下，選取 [**名稱或電話號碼**] 或 [**聲音**]。
 
    > [!NOTE]
-   > 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。
+   > 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維護這些電話號碼的隱私權，請選取 [進入/退出宣告類型]**** 的 [音調]**** (這可避免 Teams 將號碼朗讀出來)。
     
 6. 如果您選擇 [**名稱] 或 [電話號碼**]，請在加入會議前，啟用或停用**要求呼叫者記下其名稱**。
     

@@ -1,14 +1,14 @@
 ---
-title: 終止對 Microsoft StaffHub 的支援
+title: Microsoft StaffHub 已停用
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 尋找關於停用 Microsoft StaffHub 及轉換至 Microsoft 團隊中的倒班應用程式之常見問題的解答。
+description: 在 Microsoft 團隊中尋找關於停用 Microsoft StaffHub 和轉場 app 之常見問題的解答。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868660"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938312"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>終止對 Microsoft StaffHub 的支援
+# <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
-2020年6月30日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。
+2020年6月30日生效，Microsoft StaffHub 已停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。
 
 這些變更是我們繼續努力的一部分，可讓每位員工都能使用 Microsoft 365。 在團隊中現在有第一線員工工作的功能時，貴組織中的每個員工都能使用團隊來簡化其 workday、與同事共同作業，以及存取訊號和專業知識，協助他們完成工作。
 
@@ -37,27 +37,27 @@ ms.locfileid: "44868660"
 
 #### <a name="when-will-staffhub-be-retired"></a>何時會停用 StaffHub？
 
-從2019年4月開始，Microsoft StaffHub 將不再提供給新的租使用者，而且您將無法再從現有租使用者的 Microsoft 365 或 Office 365 應用程式啟動器存取 app。 目前的使用者仍然可以使用服務，直到2019年12月31日為止，但不會提供其他功能。
+Microsoft StaffHub 已停用，2020年6月30日生效。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub 停用之後，會發生什麼事？
 
-針對2020年6月30日的所有使用者，Microsoft StaffHub 將停止運作。 任何試圖開啟 app 的人，都會顯示一則訊息，讓他們下載小組。 如果使用者有包含團隊的作用中授權，且組織已採取適當的步驟來啟用團隊，則在其轉至團隊後，他們就可以使用他們的資料和核心功能 StaffHub。
-
-在2019年4月與6月2020之間，StaffHub 使用者將會收到 app 內通知，鼓勵他們使用團隊。
+StaffHub 已停止針對2020年6月30日的所有使用者使用。 嘗試開啟 app 的任何人都會顯示一則訊息，讓他們下載團隊。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>團隊是否會提供目前 StaffHub 中提供的所有功能？
 
 在2019年1月，小組開始提供先前在 Microsoft StaffHub 中提供的倒班。 此功能可讓經理規劃及發佈倒班排程，並讓小組成員能夠查看其排程，並從行動裝置進行排程變更要求。 若要深入瞭解，請參閱[在團隊中管理您組織的倒班應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
-我們承諾提供出色的使用者體驗，並將 StaffHub 的獨特功能帶入小組。 如需可在團隊中提供哪些功能的詳細資訊，請參閱[第一線員工工作的員工功能](firstline-worker-features-coming-to-teams.md)即將在團隊中取得。
-
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>我需要採取什麼動作來準備此變更？
-
-若要瞭解如何準備從 StaffHub 到團隊的轉場作業，請移至 [準備]，[將您的 StaffHub 團隊移至 [倒班](move-staffhub-teams-to-shifts-in-teams.md#prepare)]。
+我們承諾提供出色的使用者體驗，並將 StaffHub 的獨特功能帶入小組。
 
 #### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>為什麼組織中的使用者無法存取小組中的 StaffHub 小組？
 
-使用 StaffHub 建立的團隊只能在 StaffHub 中查看和管理。 將 StaffHub 小組移至團隊之後，使用者就能以倒班的方式來查看他們的時程表。 我們鼓勵您提前溝通此變更，並熟悉現有的使用者與團隊。
+若要從團隊中的倒班存取 StaffHub 小組，您必須先將 StaffHub 團隊移到2020年6月30日（即已退休 StaffHub）的小組。
+
+#### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>如果我沒有將 StaffHub 小組移至團隊倒班，會發生什麼情況？
+
+使用 StaffHub 建立且未移至團隊的小組無法在 StaffHub 終止時，在2020年6月30日生效時不會再查看或移動。 不過，您可以隨時開始使用團隊，並在倒班 app 中建立倒班排程。
+
+如果您有與未移至團隊的 Office 365 群組相關聯的 StaffHub 小組，而您現在想要建立小組與該 Office 365 群組相關聯的排程，請聯絡支援人員。
 
 ### <a name="about-shifts"></a>關於倒班
 
@@ -109,15 +109,9 @@ ms.locfileid: "44868660"
 
 如需最終使用者說明，請移至[第一線員工工人的倒班](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)說明。
 
-### <a name="switch-from-staffhub-to-shifts-in-teams"></a>從 StaffHub 切換至團隊中的倒班
-
 #### <a name="what-licenses-do-i-need-for-teams"></a>我需要哪些團隊授權？
 
-每個使用者都必須從[符合資格的方案](#which-plans-is-shifts-available-in)中擁有有效的 Microsoft 365 或 Office 365 授權，且必須指派團隊授權。 如需詳細資訊，請參閱[將您的 StaffHub 團隊移至團隊中](move-staffhub-teams-to-shifts-in-teams.md)。
-
-#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>我要如何將組織的 StaffHub 團隊移至團隊？
-
-如需如何從 StaffHub 轉至團隊的詳細指導方針，請參閱[將 Microsoft StaffHub 團隊移至團隊中](move-staffhub-teams-to-shifts-in-teams.md)。
+每個使用者都必須從符合資格的方案中擁有有效的 Microsoft 365 或 Office 365 授權，且必須指派團隊授權。 
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>我要如何在組織中啟用團隊？
 
@@ -130,40 +124,6 @@ ms.locfileid: "44868660"
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>每個使用者是否需要擁有 Microsoft 365 或 Office 365 帳戶或 Azure Active Directory （Azure AD）帳戶？
 
 是，使用小組與團隊中的團隊和倒班的每個主管和小組成員，都必須擁有 Microsoft 365 或 Office 365 帳戶（Azure AD），而且必須獲指派有效的授權。
- 
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以在由 StaffHub 團隊建立的所有 Microsoft 365 群組中，新增特殊的前置詞。 我可以在小組中執行相同的動作嗎？
-
-當您從 StaffHub 移至 [團隊] 時，您將無法使用相同的功能。 如果您需要將名稱一致性套用至所有的 Microsoft 365 群組，您可以使用[群組命名原則](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)。
-
-#### <a name="will-team-names-be-the-same-in-teams"></a>小組中的團隊名稱是否相同？
-
-團隊的名稱可能會不同。 小組中的小組名稱會使用 Microsoft 365 群組名稱。 如果 StaffHub 小組名稱與相對應的 Microsoft 365 群組的名稱不同，當您切換到 [小組] 時，您會看到不同的名稱。
-
-#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>團隊成員資格在 StaffHub 小組移至團隊時，會發生什麼情況？
-
-當 StaffHub 小組移至團隊時，會維持團隊成員資格。 小組成員的電話號碼不會顯示在班次中。 如果 StaffHub 電話號碼符合 Azure AD 中的電話號碼，則會將其儲存在該使用者帳戶的 Azure AD 中。 
-
-我們鼓勵您在 StaffHub 上查看現有的小組 rosters，以及將電話號碼調整至相關的 Azure AD 身分識別。
- 
-#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>StaffHub 未提供的小組成員或其狀態為 [非作用中] 時，會發生什麼情況？
-
-使用者的排程會移至班次，不過，使用者不會成為團隊或 Microsoft 365 群組的成員。
-
-對於未連結至 Azure AD 使用者帳戶的非作用中帳戶，管理員可以在 [StaffHub 小組成員] 頁面上新增有效的 Microsoft 365 或 Office 365 電子郵件地址，以確保使用者已連結至其組織中正確的 Azure AD 帳戶。
-
-另一個選項是系統管理員執行**StaffHubMember**及**remove StaffHubUser** Cmdlet，以從 StaffHub 小組中移除未預配的帳戶，然後使用其 UPN 將使用者新增回團隊。
-
-我們建議您確定貴組織中的所有使用者都享有適當的授權，以最小化中斷及服務存取權。
- 
-#### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub 中的聊天會發生什麼情況？
-
-為了協助轉換使用者，我們打算將 StaffHub 中的資料聊天歷程記錄遷移至團隊。 團隊中可使用的聊天歷程記錄數量，取決於您設定組織進行過渡的速度。 我們建議您在2019年6月30日之前採取行動，以提供足夠的時間2020，以在6月30日之後轉換90天的資料。
-
-請確定在開始過渡前，microsoft 365 系統管理中心已啟用 Microsoft 365 群組建立，因為這是您可以將 StaffHub 聊天資料移至團隊的重要功能。 無法在2019年6月30日開啟此服務，將會導致較晚的遷移日期或較少的聊天資料被覆制。
-
-#### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>已上傳至 StaffHub 的檔案會發生什麼情況？
-
-您可以將小組所需的檔案從 StaffHub 移至 [團隊]。 您移動的檔案會儲存在 SharePoint Online 小組網站的 [一般] 資料夾中。 在團隊中，使用者可以從小組 [一般] 頻道中的 [**檔案] 索引**標籤存取檔案。 若要深入瞭解，請參閱[將您的 Microsoft StaffHub 小組移至團隊中](move-staffhub-teams-to-shifts-in-teams.md)。
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>我可以從倒班中匯出倒班排程嗎？
   
@@ -182,10 +142,6 @@ ms.locfileid: "44868660"
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>倒班與 Outlook 行事曆之間是否有整合？ 我可以將排程匯出至行事曆嗎？
  
 第一線員工工人可以一目了然地查看其整個工作排程。 我們將在我們的藍圖中支援原生與 Outlook 行事曆的原始整合。 在這種情況下，使用 Microsoft 流程來設定與團隊和 Outlook 和 Google 日曆中的倒班進行整合。
-
-#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>如果您已經熟悉 StaffHub，我是否需要訓練使用者如何使用倒班？
-
-不需要額外的訓練。 他們可以使用 StaffHub 的方式，以類似方式使用班。 
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>有哪些管理員控制項可供您管理組織中的使用者是否可以使用倒班？  
   
@@ -198,10 +154,6 @@ ms.locfileid: "44868660"
 您可以透過 Microsoft 團隊 PowerShell 模組和商務用 Skype PowerShell 模組管理團隊。 如需詳細資訊，請參閱[團隊 PowerShell 概覽](../../teams-powershell-overview.md)。 目前，沒有可管理倒班的特定 PowerShell Cmdlet。  
 
 如果這是您感興趣的內容，請透過[UserVoice 的小組意見反應入口網站](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)傳送要求。
-
-#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>目前正在使用私人預覽的 StaffHub API 會發生什麼情況？
-
-如果您已建立任何與 StaffHub Api 的整合，這些 Api 將會被否決。 我們發行 Microsoft Graph Api 以支援與您的人力資源、工資或工作力管理解決方案的整合。 若要深入瞭解，請參閱[使用 Microsoft GRAPH API 與團隊共同作業](https://docs.microsoft.com/graph/api/resources/teams-api-overview)。
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>報表是否可供您在組織中查看倒班的使用方式？
 

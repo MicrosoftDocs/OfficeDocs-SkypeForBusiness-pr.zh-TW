@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d521a00389286bf60a42201134a1d9b697a9bfdc
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 9ddbcd1a5110cff52ce518cf052279204fc8e2c9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44890002"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938212"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -45,9 +45,9 @@ ms.locfileid: "44890002"
 
 若要查看其預先安裝的應用程式，請在應用程式行中，按一下 [使用者] **。** 團隊桌面及網頁用戶端中的其他應用程式，並在行動用戶端中向上滑動。
 
-您可以在 Microsoft [團隊管理中心] 管理 app 設定原則。 您可以使用全域 (預設為全組織) 原則或建立自訂原則，並指派給使用者。 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
+您可以在 Microsoft [團隊管理中心] 管理 app 設定原則。 您可以使用全域（組織範圍預設值）原則，或建立並指派自訂原則。  除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
-您可以編輯全域原則中的設定，以包含您想要的 app。 如果您想要針對貴組織中不同的使用者群組自訂小組，請建立並指派一或多個自訂原則。 如果指派給使用者的是自訂原則，該原則會套用給使用者。 如果使用者未獲指派自訂原則，則全域原則會套用至使用者。
+您可以編輯全域原則中的設定，以包含您想要的 app。 如果您想要針對貴組織中不同的使用者群組自訂小組，請建立並指派一或多個自訂原則。
 
 ![顯示 [應用程式設定原則] 頁面的螢幕擷取畫面](media/app-setup-policies.png)
 
@@ -93,52 +93,7 @@ ms.locfileid: "44890002"
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>將自訂應用程式設定原則指派給使用者
 
-您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給個別的使用者或商務用 Skype PowerShell 模組，將自訂原則指派給群組中的使用者，例如安全群組或通訊群組。
-
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>將自訂應用程式設定原則指派給使用者
-
-若要將原則指派給一個使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
-2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
-3. 在 [**應用程式設定原則**] 底下，選取您要指派的 App 設定原則，**然後按一下 [** 套用]。
-
-若要一次將原則指派給多位使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。  
-
-或者，您也可以執行下列動作：
-
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
-2. 按一下原則名稱的左側來選取原則。
-3. 選取 [管理使用者]****。
-4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者之後，請選取 [**儲存**]。
-
-### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>將自訂應用程式設定原則指派給群組中的使用者
-
-您可能會想要將自訂應用程式設定原則指派給已識別的多個使用者。 例如，您可能會想要將原則指派給安全性群組中的所有使用者。 您可以透過連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組來執行此動作。 如需有關使用 PowerShell 來管理團隊的詳細資訊，請參閱[團隊 PowerShell 概覽](teams-powershell-overview.md)。
-
-在這個範例中，我們會將名為「人力資源 App 設定」策略的自訂應用程式設定原則指派給 Contoso 製藥人力資源專案群組中的所有使用者。  
-
-> [!NOTE]
-> 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Microsoft 365] 或 [Office 365 服務](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)] 中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
-
-取得特定群組的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-取得指定群組的成員。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-將群組中的所有使用者指派給特定的 app 設定原則。 在這個範例中，它是 HR App 設定原則。
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
-``` 
-根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="faq"></a>常見問題集
 
@@ -202,5 +157,6 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ## <a name="related-topics"></a>相關主題
 
-- [在 Teams 中的應用程式系統管理設定](admin-settings.md)
-- [指派策略給小組中的使用者](assign-policies.md)
+[在 Teams 中的應用程式系統管理設定](admin-settings.md)
+
+[指派策略給小組中的使用者](assign-policies.md)

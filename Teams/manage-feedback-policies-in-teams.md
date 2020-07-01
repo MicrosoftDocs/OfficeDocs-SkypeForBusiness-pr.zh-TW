@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的小組使用者是否可以將團隊的意見反應提交給 Microsoft。
-ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637952"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938482"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的意見反應原則
 
@@ -46,11 +46,11 @@ ms.locfileid: "44637952"
 
 如果您是系統管理員，您可以控制貴組織中的使用者是否能透過**提供意見**反應，以及他們是否會收到問卷來傳送關於團隊的意見反應給 Microsoft。 根據預設，貴組織中的所有使用者都會自動獲指派全域（組織範圍預設值）原則，並在原則中啟用 [**提供意見**反應] 功能和問卷。 例外狀況是適用于教師的功能，以及學生已停用的功能。
 
-您可以編輯全域原則，或建立並指派自訂原則。 如果指派給使用者的是自訂原則，該原則會套用給使用者。 如果使用者未獲指派自訂原則，則全域原則會套用至使用者。 在您編輯全域原則或指派原則後，可能需要幾個小時的時間，變更才會生效。
+您可以編輯全域原則，或建立並指派自訂原則。 在您編輯全域原則或指派自訂原則後，可能需要幾個小時的時間，變更才會生效。
 
 例如，您想要允許貴組織中的所有使用者傳送意見反應，在訓練中的新員工以外，**提供意見**反應並接收問卷。 在這種情況下，您會建立自訂原則來關閉兩個功能，並將它指派給新的招聘。 貴組織中的所有其他使用者都會在已開啟功能的情況下，取得全域原則。  
 
-您*可以在[這裡找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)***新的 CsTeamsFeedbackPolicy** Cmdlet，以建立自訂原則與**授與 CsTeamsFeedbackPolicy** Cmdlet，以將它指派給一或多個使用者或使用者群組（例如安全群組或通訊群組）。
+您可以使用 PowerShell 來管理意見反應原則。 使用*可在[此找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* 的**新-CsTeamsFeedbackPolicy** Cmdlet 來建立自訂原則，以及**授與 CsTeamsFeedbackPolicy** Cmdlet，以將它指派給一或多個使用者或群組（例如安全群組或通訊群組）。
 
 若要關閉並開啟這些功能，請設定下列參數：
 
@@ -65,35 +65,17 @@ ms.locfileid: "44637952"
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy"></a>指派自訂意見反應原則
+## <a name="assign-a-custom-feedback-policy-to-users"></a>將自訂意見反應原則指派給使用者
 
-### <a name="assign-a-custom-feedback-policy-to-a-user"></a>將自訂意見反應原則指派給使用者
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 在這個範例中，我們會將名為「新增員工意見反應」原則的自訂原則指派給名為 user1 的使用者。
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>將自訂意見反應原則指派給群組中的使用者
-
-您可能會想要將自訂意見反應原則指派給已識別的多位使用者。 例如，您可能會想要將原則指派給安全性群組中的所有使用者。
-
-在這個範例中，我們會將名為「新增員工意見反應」原則的自訂意見反應原則指派給 Contoso 新員工群組中的所有使用者。  
-
-取得特定群組的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso New Hires"
-```
-取得指定群組的成員。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-將群組中的所有使用者指派給特定的意見反應原則。 在這個範例中，它是新的雇用意見反應原則。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
-``` 
-根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 
 ## <a name="related-topics"></a>相關主題
 
 - [團隊 PowerShell 概覽](teams-powershell-overview.md)
+- [指派策略給小組中的使用者](assign-policies.md)

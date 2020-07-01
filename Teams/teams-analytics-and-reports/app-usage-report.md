@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心使用團隊 app 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902311"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938202"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft 團隊 app 使用方式報告
 
@@ -30,7 +30,7 @@ Microsoft [小組] 系統管理中心中的 [小組 app 使用量] 報告，可�
 
 ## <a name="view-the-app-usage-report"></a>查看應用程式使用量報告
 
-1.  在系統管理中心的左側導覽中 <https://teams.admin.microsoft.com> ，按一下 [**分析] & 報告** \> **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [ **app 使用方式**]。
+1.  在系統管理中心的左側導覽中 <https://admin.teams.microsoft.com> ，按一下 [**分析] & 報告** \> **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [ **app 使用方式**]。
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="[使用狀況報告] 功能表項目的螢幕擷取畫面":::
 
@@ -40,7 +40,7 @@ Microsoft [小組] 系統管理中心中的 [小組 app 使用量] 報告，可�
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |您可以針對過去7、30或90天的趨勢，查看團隊 App 使用方式報告。 |
 |**2**   |每個報告都有產生報告的日期。 報告通常會反映來自開啟 app 時間的24小時延遲時間。 <br><br>![顯示日期範圍之 [應用程式使用量] 報告的螢幕擷取畫面](media/app-usage-report3.png)|

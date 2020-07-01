@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4bde860f0f3e64899f4309706575c71862c754a5
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 83a06357402b44c5c15932211e562e488c2a2d5a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889992"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938472"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
 身為系統管理員，您可以使用應用程式權限原則來控制組織中 Microsoft Teams 使用者可使用的應用程式。 您可以允許或封鎖由 Microsoft、協力廠商及貴組織發佈的所有 app 或特定應用程式。 當您封鎖應用程式時，擁有原則的使用者將無法從 Teams 應用程式商店安裝該應用程式。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
-您可以在 Microsoft 團隊系統管理中心管理 app 許可權原則。 您可以使用全域（組織範圍預設值）原則，或建立並指派自訂原則給群組中的個別使用者或使用者。 在您編輯或指派原則之後，可能需要幾個小時的時間，變更才會生效。
+您可以在 Microsoft 團隊系統管理中心管理 app 許可權原則。 您可以使用全域（組織範圍預設值）原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 在您編輯或指派原則之後，可能需要幾個小時的時間，變更才會生效。
 
 ![App 許可權原則的螢幕擷取畫面](media/app-permission-policies.png)
 
 > [!NOTE]
-> 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 整個組織內的應用程式設定會覆寫全域原則和您建立並指派給使用者的任何自訂原則。
+> 整個組織內的應用程式設定會覆寫全域原則和您建立並指派給使用者的任何自訂原則。
 
 如果您的組織已在團隊中，您在 Microsoft 365 系統管理中心的 [整個租使用者]**設定**中所設定的應用程式設定會反映在 [[管理應用程式](manage-apps.md)] 頁面上的 [組織內應用程式設定] 中。 如果您是團隊新手，且剛開始使用，則預設會允許全域原則中的所有 app。 這包含由 Microsoft、協力廠商及貴組織發佈的應用程式。
 
@@ -82,52 +82,7 @@ ms.locfileid: "44889992"
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>將自訂應用程式許可權原則指派給使用者
 
-您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組，將自訂原則指派給群組中的使用者，例如安全群組或通訊群組中的所有使用者。
-
-### <a name="assign-a-custom-app-permission-policy-to-users"></a>將自訂應用程式許可權原則指派給使用者
-
-若要將原則指派給一個使用者：
-
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]。
-2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
-3. 在 [**應用程式許可權原則**] 底下，選取您要指派的 App 許可權原則，**然後按一下 [** 套用]。
-
-若要一次將原則指派給多位使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。  
-
-或者，您也可以執行下列動作：
-
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**]  >  **許可權原則**。
-2. 按一下原則名稱的左側來選取原則。
-3. 選取 [管理使用者]****。
-4. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者後，請按一下 [**儲存**]。
-
-### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>將自訂應用程式許可權原則指派給群組中的使用者
-
-您可能會想要將自訂應用程式許可權原則指派給已識別的多個使用者。 例如，您可能會想要將原則指派給安全性群組中的所有使用者。 您可以透過連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組來執行此動作。 如需有關使用 PowerShell 來管理團隊的詳細資訊，請參閱[團隊 PowerShell 概覽](teams-powershell-overview.md)。
-
-在這個範例中，我們會將名為「人力資源 App」許可權原則的自訂應用程式許可權原則指派給 Contoso 製藥人力資源專案群組中的所有使用者。  
-
-> [!NOTE]
-> 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Microsoft 365] 或 [Office 365 服務](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)] 中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
-
-取得特定群組的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-取得指定群組的成員。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-將群組中的所有使用者指派給特定的 app 許可權原則。 在這個範例中，它是人力資源應用程式許可權原則。
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
-``` 
-根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="app-permission-policies-for-gcc"></a>適用于 GCC 的 App 許可權原則
 
@@ -196,5 +151,6 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 ## <a name="related-topics"></a>相關主題
 
-- [在 Teams 中的應用程式系統管理設定](admin-settings.md)
-- [指派策略給小組中的使用者](assign-policies.md)
+[在 Teams 中的應用程式系統管理設定](admin-settings.md)
+
+[指派策略給小組中的使用者](assign-policies.md)

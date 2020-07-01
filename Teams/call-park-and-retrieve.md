@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何使用通話駐留及取回功能，在雲端的小組服務中保持通話。
-ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042960"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938532"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在 Microsoft 團隊中通話駐留與取回
 
@@ -52,11 +52,11 @@ ms.locfileid: "44042960"
 
 | 功能 | 團隊桌面 | 團隊 Mac 應用程式 | 小組 Web App （邊緣） |團隊行動 iOS/Android 應用程式 | 團隊 IP 電話 | 商務用 Skype IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 寄存通話 | 是 | 是 | 是 | 是 | 即將推出| 否 |
-| 檢索寄存通話 | 是 | 是 | 是 | 是 | 即將推出| 否 |
-| Unretrieved 電話鈴聲傳回 | 是 | 是 | 是 | 是 | 即將推出| 否 |
+| 寄存通話 | 是 | 是 | 是 | 是 | 是 | 否 |
+| 檢索寄存通話 | 是 | 是 | 是 | 是 | 是 | 否 |
+| Unretrieved 電話鈴聲傳回 | 是 | 是 | 是 | 是 | 是 | 否 |
 
-## <a name="configuring-call-park-and-retrieve"></a>設定通話寄存與取回
+## <a name="configure-call-park-and-retrieve"></a>設定通話寄存與取回
 
 您必須是系統管理員，才能設定通話駐留和取回，而且預設是停用此功能。 您可以為使用者啟用它，並使用通話駐留原則來建立使用者群組。 當您將相同的原則套用到一組使用者時，他們可以在自己的情況下寄存和取回通話。 若要設定使用者的通話駐留，並建立通話駐留使用者群組，請遵循下列的[指派通話駐留原則](#assign-a-call-park-policy)程式。
 
@@ -64,33 +64,35 @@ ms.locfileid: "44042960"
 
 ### <a name="enable-a-call-park-policy"></a>啟用通話駐留原則
 
-請依照下列步驟來啟用通話駐留原則：
-
-1. 移至**Microsoft 團隊系統管理中心** > 的 [**語音** > **通話] 寄存原則**。
-2. 選取 [**新增原則**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **通話寄存原則**]。
+2. 選取 [**新增**]。
 3. 為原則命名，然後將 [**允許通話駐留**] 切換為 [**開啟**]。
 4. 選取 [**儲存**]。
 
+#### <a name="using-powershell"></a>使用 PowerShell
+
+請參閱[新-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)。
+
+### <a name="edit-a-call-park-policy"></a>編輯通話寄存原則
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **通話寄存原則**]。
+2. 按一下原則名稱左邊的，然後按一下 [**編輯**]，選取原則。
+3. [**允許通話駐留**] 切換為 [**關閉**] 或 [**開啟**]。
+4. 按一下 [儲存]****。
+
+#### <a name="using-powershell"></a>使用 PowerShell
+
+請參閱[設定 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)。 例如，若要變更預設設定，請執行下列動作：
+
+  ```PowerShell
+  Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
+  ```
+
 ### <a name="assign-a-call-park-policy"></a>指派通話駐留原則
 
-請依照下列步驟，將通話駐留原則指派給一或多位使用者：
-
-1. 移至**Microsoft 團隊系統管理中心** > 的 [**語音** > **通話] 寄存原則**。
-2. 按一下原則名稱的左側來選取原則。
-3. 選取 [管理使用者]****。
-4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者時，選取 **[儲存]**。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>使用 PowerShell 設定通話駐留及檢索
-
-使用[新的-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell Cmdlet 來建立通話駐留原則。
-
-使用[授與 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell Cmdlet 來授與來電寄存原則。
-
-您可以使用 [[設定] CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)來變更預設設定，如下所示：
-
-`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
-
+另請參閱[授與 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)。
 
 ## <a name="troubleshooting"></a>疑難排解
 
@@ -105,6 +107,8 @@ ms.locfileid: "44042960"
 - 孤島模式–在團隊安全島模式中無法使用通話駐留與取回功能。
 - 通話已被檢索或終止。
 
-## <a name="more-information"></a>詳細資訊
+## <a name="related-topics"></a>相關主題
 
-[在團隊中寄存通話](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。
+[在團隊中寄存通話](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+
+[指派策略給小組中的使用者](assign-policies.md)

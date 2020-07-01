@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中建立及管理語音路由原則。
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350187"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938124"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理語音路由策略
 
@@ -65,35 +65,16 @@ ms.locfileid: "44350187"
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>指派自訂的語音路由策略給使用者
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-若要將原則指派給一個使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
-2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
-3. 在 [**語音路由策略**] 底下，選取您要指派的原則，然後按一下 [**儲存**]。
-
-若要一次將原則指派給多位使用者：
-
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**使用者**]，然後搜尋使用者或篩選視圖，以顯示您想要的使用者。
-2. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
-3. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**  
-
-或者，您也可以執行下列動作：
-
-1. 在 Microsoft [團隊管理中心] 的左導覽中，移至 [**語音**  >  **語音路由策略**]。
-2. 按一下原則名稱的左側來選取原則。
-3. 選取 [管理使用者]****。
-4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者後，請按一下 [**儲存**]。
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-請參閱[授與 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
+另請參閱[授與 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
 
 ## <a name="related-topics"></a>相關主題
 
-- [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [設定直接路由的語音路由](direct-routing-voice-routing.md)
-- [啟用直接路由的依位置路由](location-based-routing-enable.md)
-- [指派策略給小組中的使用者](assign-policies.md)
+[Teams PowerShell 概觀](teams-powershell-overview.md)
+
+[設定直接路由的語音路由](direct-routing-voice-routing.md)
+
+[啟用直接路由的依位置路由](location-based-routing-enable.md)
+
+[指派策略給小組中的使用者](assign-policies.md)

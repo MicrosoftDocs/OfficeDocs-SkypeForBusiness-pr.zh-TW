@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何使用 Microsoft 團隊系統管理中心或 Windows PowerShell 來建立及管理撥號方案（PSTN 呼叫撥號方案）。
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691339"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938232"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
@@ -60,13 +60,9 @@ ms.locfileid: "44691339"
 2. 按一下撥號方案名稱左邊的，然後按一下 [**編輯**]，選取撥號方案。
 3. 進行您想要的變更，然後按一下 [**儲存**]。
 
-### <a name="add-users-to-a-dial-plan"></a>將使用者新增至撥號方案
+### <a name="assign-a-dial-plan-to-users"></a>指派撥號方案給使用者
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]。
-2. 按一下 [顯示名稱]，選取使用者。
-3. 選取 [**原則**] 索引標籤。
-4. 按一下指派原則右側的 [**編輯**]。
-5. 從 [**撥號方案**] 下拉式功能表中，選取您要指派給使用者的撥號方案，然後按一下 [套用] **。**
+您指派撥號方案的方式與指派原則的方式相同。 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>使用 PowerShell
   

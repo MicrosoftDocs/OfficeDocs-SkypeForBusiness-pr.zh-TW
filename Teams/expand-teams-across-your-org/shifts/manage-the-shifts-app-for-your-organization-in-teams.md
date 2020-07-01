@@ -2,7 +2,7 @@
 title: 為您的組織管理倒班應用程式
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416883"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938352"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
 > [!IMPORTANT]
-> 2020年6月30日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會針對2020年6月30日的所有使用者停止運作。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。  
+> 2020年6月30日生效，Microsoft StaffHub 已停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 已停止針對2020年6月30日的所有使用者使用。 任何試圖開啟 StaffHub 的人都會顯示一則訊息，讓他們下載團隊。 若要深入瞭解，請參閱[Microsoft StaffHub 已停](microsoft-staffhub-to-be-retired.md)用。  
 
 ## <a name="overview-of-shifts"></a>班次的概覽
 
@@ -65,7 +65,7 @@ Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstlineWorker 應用程式設定原則釘選到團隊
 
-App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者最重要的 app。 原則中設定的應用程式會釘選到應用程式行， &mdash; 以及小組行動用戶端的右側列， &mdash; 使用者可以快速且輕鬆地存取。 
+App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者最重要的 app。 原則中設定的應用程式會釘選到應用程式行， &mdash; 以及小組行動用戶端的右側列， &mdash; 使用者可以快速且輕鬆地存取。
  
 團隊包含內建的 FirstlineWorker 應用程式設定原則，您可以將它指派給貴組織中的第一線員工工作人員。 根據預設，原則包含活動、班次、聊天及呼叫 app。 
 
@@ -73,50 +73,9 @@ App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者�
 
 ![FirstlineWorker 應用程式設定原則的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "Microsoft 團隊系統管理中心的 FirstlineWorker 應用程式設定原則的螢幕擷取畫面")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>指派 FirstlineWorker 原則給使用者
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>將 FirstlineWorker 應用程式設定原則指派給使用者
 
-若要將 FirstlineWorker 應用程式設定原則指派給一個使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
-2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
-3. 在 [**應用程式設定原則**] 底下，選取 [ **FirstlineWorker**]，**然後按一下 [** 套用]。
-
-若要一次將原則指派給多位使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [**編輯設定**]，然後在 [**應用程式設定原則**] 底下選取 [ **FirstlineWorker**]，**然後按一下 [** 套用]。  
-
-或者，您也可以執行下列動作：
-
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
-2. 按一下原則名稱左邊的，以選取 FirstlineWorker 原則。
-3. 選取 [管理使用者]****。
-4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者後，**請選取 [** 套用]。
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>將 FirstlineWorker 應用程式設定原則指派給群組的使用者成員
-
-您可以將 FirstlineWorker 應用程式設定原則指派給群組的使用者成員（例如安全性群組），方法是連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組。 如需有關使用 PowerShell 來管理團隊的詳細資訊，請參閱[團隊 PowerShell 概覽](../../teams-powershell-overview.md)。
-
-在這個範例中，我們會將 FirstlineWorker 應用程式設定原則指派給 Contoso 第一線員工小組群組的所有使用者成員。
-
-> [!NOTE]
-> 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
-
-取得特定群組的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-取得指定群組的成員。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-將 FirstlineWorker 應用程式設定原則指派給群組的所有使用者成員。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>搜尋審核記錄，以取得倒班事件
 

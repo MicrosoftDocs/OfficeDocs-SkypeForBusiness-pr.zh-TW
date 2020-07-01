@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中設定即時活動
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,12 +17,12 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902278"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938502"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -42,20 +41,18 @@ ms.locfileid: "44902278"
 即時活動原則是用來控制組織中的哪些人員可以舉辦即時活動，以及在他們所建立活動中可用的功能。 您可以使用預設原則或建立一或多個自訂即時活動原則。 建立自訂原則之後，請將它指派給組織中一個或一組使用者。
 
 > [!NOTE]
-> 除非您建立並指派自訂原則，否則組織中的使用者將會取得全域原則。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
+> 除非您建立並指派自訂原則，否則貴組織中的使用者將會取得全域（組織範圍預設值）原則。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>建立或編輯即時活動原則
 
 <a name="bkcreatepolicy"> </a>
 
-**![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png)使用 Microsoft Teams 系統管理中心**
-
-1. 在左側導覽中，移至 **[會議]**  >  **[即時活動原則]**。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議**  >  **即時事件] 原則**。
 2. 執行下列其中一項動作：
 
-- 如果要編輯現有的預設原則，請選擇 **[全域 (全組織預設值)]**。
-- 如果要建立新的自訂原則，請選擇 **[新增原則]**。
-- 如果要編輯自訂原則，請選取該原則，然後選擇 **[編輯]**。
+    - 如果要編輯現有的預設原則，請選擇 **[全域 (全組織預設值)]**。
+    - 如果您想要建立新的自訂原則，請選擇 [ **Add**] （新增）。
+    - 如果要編輯自訂原則，請選取該原則，然後選擇 **[編輯]**。
 
     以下是您可以根據組織需求變更的設定。
 
@@ -72,26 +69,9 @@ ms.locfileid: "44902278"
 
 您也可以使用 Windows PowerShell 執行此動作。 如需詳細資訊，請參閱[使用 PowerShell 在 Teams 中設定即時活動原則](set-teams-live-events-policies-using-powershell.md)。 
 
-### <a name="assign-a-live-events-policy-to-users"></a>將即時活動原則指派給使用者 
+### <a name="assign-a-live-events-policy-to-users"></a>將即時活動原則指派給使用者
 
-如果您建立了自訂即時活動原則，請將它指派給使用者，讓原則成為使用中。 
-
-![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
-
-1. 在左側瀏覽中，移至 **[使用者]**，然後選取該使用者。
-2. 在 **[指派的原則]** 旁，選擇 **[編輯]**。 
-3. 選取您要指派的即時活動原則，然後選擇 **[儲存]**。 
-
-您也可以將即時活動原則指派給一或多個使用者，如下所示：
-
-![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
-
-1. 移至 **[會議]**  >  **[即時活動原則]**。
-2. 按一下原則名稱的左側來選取原則。
-3. 選取 **[管理使用者]**。
-4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者時，選取 **[儲存]**。
- 
+如果您建立了自訂即時活動原則，請將它指派給使用者，讓原則成為使用中。 <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>讓使用者能夠排程使用外部應用程式或裝置所產生的活動
 
@@ -106,6 +86,7 @@ ms.locfileid: "44902278"
 3. 確保即時活動召集人已同意 Stream 系統管理員設定的公司原則。如果 Stream 系統管理員已[設定公司指導方針原則](https://docs.microsoft.com/stream/company-policy-and-consent)，並要求員工在儲存內容之前先接受此原則，則使用者必須先接受，才能在 Teams 中建立即時活動 (使用外部應用程式或裝置)。 在組織中推出即時事件功能之前，請確認將建立這些即時活動的使用者已同意該原則。 
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>步驟 4：在 Teams 中針對即時活動設定視訊發佈解決方案
+
 播放即時活動視訊會使用的自適性串流 (ABR)，但它是單點廣播串流，表示每個檢視器都會從網際網路取得自己的視訊。 針對向外傳送給組織中大多數的即時活動或視訊，檢視器可能會明顯耗用大量網際網路頻寬。 針對想要減少即時活動的這項網際網路流量的組織，即時活動解決方案已與 Microsoft 信任的視訊傳遞合作夥伴整合，其提供軟體定義的網路 (SDN) 或企業內容傳遞網路 (eCDN)。 這些 SDN/eCDN 平台能讓組織將網路頻寬最佳化，而不需犧牲使用者的瀏覽體驗。 我們的合作夥伴可協助您在整個商業網路中更具伸縮性且有效率的視訊發佈。
 
 **在 Teams 以外購買和設定您的解決方案** 運用 Microsoft 信任的視訊傳遞合作夥伴，獲得擴大視訊傳遞的專家協助。 在您能夠讓視訊傳遞提供者與 Teams 搭配使用之前，您必須向外部購買並設定 SDN/eCDN 解決方案，並與 Teams 區隔。
@@ -124,9 +105,11 @@ ms.locfileid: "44902278"
 設定了 SDN 或 eCDN 解決方案之後，您就可以開始為 Teams 中的即時活動設定提供者。 
 
 ## <a name="next-steps"></a>後續步驟
+
 前往[在 Teams 中設定即時活動設定](configure-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相關主題
+
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [Teams 即時活動的方案](plan-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)

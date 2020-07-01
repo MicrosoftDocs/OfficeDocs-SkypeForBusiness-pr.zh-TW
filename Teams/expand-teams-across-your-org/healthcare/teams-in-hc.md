@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 瞭解醫療保健的功能，包括護理協調、安全的訊息、telehealth、EHR 整合，以及第一線員工 worker 系統整合。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905735"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938362"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -109,10 +109,4 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工高效地進�
 
 ## <a name="firstline-worker-integration"></a>第一線員工工作人員整合
 
-Microsoft 團隊會與第一線員工工作人員整合，這可以用來共同調整倒班人員的功能。
-
- 請參閱下列文章：
-
-- [將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [在 Microsoft 團隊中為您的組織管理倒班應用程式](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft 團隊會與第一線員工工作人員整合，這可以用來共同調整倒班人員的功能。 請參閱[在 Microsoft 團隊中管理貴組織的倒班應用程式](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。

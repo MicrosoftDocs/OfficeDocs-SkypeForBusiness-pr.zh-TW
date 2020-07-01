@@ -19,17 +19,19 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a67952854f608512e88786c2b49d1e2ad8dfcf9
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 030be626574e7acd3aa2116595acaba757eaa5af
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44593006"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44942038"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>在 Microsoft 團隊中呼叫原則
 ===================================
 
-在 Microsoft 團隊中，通話原則控制使用者可以使用哪些通話和來電轉接功能。 通話原則決定使用者是否可以進行私人通話、使用來電轉接或同時撥打給其他使用者或外部電話號碼、將呼叫路由至語音信箱、傳送來電給通話群組、使用委派撥入和撥出通話等等。 預設的全域原則會自動建立，但系統管理員也可以建立並指派自訂通話原則。
+在 Microsoft 團隊中，通話原則控制使用者可以使用哪些通話和來電轉接功能。 通話原則決定使用者是否可以進行私人通話、使用來電轉接或同時撥打給其他使用者或外部電話號碼、將呼叫路由至語音信箱、傳送來電給通話群組、使用委派撥入和撥出通話等等。
+
+您可以使用自動建立的全域（組織範圍預設值）原則，或建立及指派自訂原則。
 
 ## <a name="create-a-custom-calling-policy"></a>建立自訂通話原則
 
@@ -41,9 +43,9 @@ ms.locfileid: "44593006"
 4. 若要控制使用者是否可以將來電路由到語音信箱，請選取 [**已啟用**] 或 [**使用者控制**]。 若要避免傳送語音信箱，請選取 [**停用**]。
 5. 選取 [**儲存**]。
 
-## <a name="modify-an-existing-calling-policy"></a>修改現有的通話原則
+## <a name="edit-a-calling-policy"></a>編輯通話原則
 
-請依照這些步驟來修改現有的通話原則。
+請依照下列步驟編輯現有的通話原則。
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，選取 [**語音**  >  **通話原則**]。
 2. 按一下您要修改的原則旁邊的，然後選取 [**編輯**]。
@@ -51,25 +53,7 @@ ms.locfileid: "44593006"
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>將自訂通話原則指派給使用者
 
-若要將原則指派給一個使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
-2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
-3. 在 [**呼叫原則**] 底下，選取您要指派的通話原則，然後**按一下 [** 套用]。
-
-若要一次將原則指派給多位使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。  
-
-或者，您也可以執行下列動作：
-
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至**語音**  >  **通話原則**。
-2. 按一下原則名稱的左側來選取原則。
-3. 選取 [管理使用者]****。
-4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者之後，請選取 [**儲存**]。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="calling-policy-settings"></a>通話原則設定
 
@@ -91,8 +75,8 @@ ms.locfileid: "44593006"
 
 此設定可讓撥入呼叫傳送至語音信箱。 有效的選項包括：
 
-- **已啟用**來電時，語音信箱總是可以使用。 
-- **停用** 來電無法使用語音信箱。 
+- **已啟用**來電時，語音信箱總是可以使用。
+- **停用** 來電無法使用語音信箱。
 - **使用者控制**使用者可以決定是否要使用語音信箱。
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>輸入通話可以傳送給通話群組 
@@ -123,6 +107,8 @@ ms.locfileid: "44593006"
 
 此設定可讓您在保留 PSTN 呼叫者時，開啟或關閉 [等候音樂]。 預設為開啟。 此設定不適用於通話駐留和上司委派功能，目前僅可透過 PowerShell 取得。
 
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
 
 [Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+
+[指派策略給小組中的使用者](assign-policies.md)

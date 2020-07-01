@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解如何在埃及中撥打免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
-ms.openlocfilehash: d7302220500a766fb00a6a13ffa0d96b0bbcf184
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140432"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938422"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>埃及式免付費撥號限制
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140432"
 
 |**詳細資料**|**描述**|
 |:-----|:-----|
-|免費通話嗎？  <br/> |是  <br/> |
+|免費通話嗎？  <br/> |否  <br/> |
 |撥號格式（s）  <br/> |0800-XXX-XXXX  <br/> |
 |國家/地區 ISO 代碼  <br/> |例如  <br/> |
 |已覆蓋的島/地區  <br/> |不適用  <br/> |

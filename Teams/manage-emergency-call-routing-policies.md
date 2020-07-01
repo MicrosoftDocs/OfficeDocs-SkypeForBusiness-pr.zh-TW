@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的緊急呼叫路由策略，以設定緊急電話號碼，以及指定如何傳送緊急通話。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 35595d8c3b784b908448eae72013cb8bcf3f37f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638692"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938162"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
 
@@ -74,56 +74,9 @@ ms.locfileid: "44638692"
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>將自訂緊急通話路由原則指派給使用者
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-若要將原則指派給一個使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
-2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
-3. 在 [**緊急呼叫路由策略**] 底下，選取您要指派的原則，然後按一下 [**儲存**]。
-
-若要一次將原則指派給多位使用者：
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。  
-
-或者，您也可以執行下列動作：
-
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **緊急原則**]，然後按一下 [**呼叫路由策略**] 索引標籤。
-2. 按一下原則名稱的左側來選取原則。
-3. 選取 [管理使用者]****。
-4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者後，請按一下 [**儲存**]。
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-#### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>將自訂緊急通話路由原則指派給使用者
-
-請參閱[授與 CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
-
-### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>將自訂緊急通話路由原則指派給群組中的使用者
-
-您可能會想要將自訂緊急呼叫路由策略指派給已識別的多個使用者。 例如，您可能會想要將原則指派給安全性或通訊群組中的所有使用者。 您可以透過連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組來執行此動作。
-
-在這個範例中，我們將稱為 [人力資源緊急呼叫路由策略] 的原則指派給 [Contoso HR] 群組中的所有使用者。  
-
-> [!NOTE]
-> 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Microsoft 365] 或 [Office 365 服務](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)] 中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
-
-取得特定群組的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso HR"
-```
-取得指定群組的成員。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-將群組中的所有使用者指派給特定的團隊原則。 在這個範例中，它是 HR 緊急通話路由原則。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
-``` 
-根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
+另請參閱[授與 CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>將自訂緊急通話路由原則指派給網路網站
 
@@ -137,6 +90,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 ## <a name="related-topics"></a>相關主題
 
-- [管理團隊中的緊急通話原則](manage-emergency-calling-policies.md)
-- [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [指派策略給小組中的使用者](assign-policies.md)
+[管理團隊中的緊急通話原則](manage-emergency-calling-policies.md)
+
+[Teams PowerShell 概觀](teams-powershell-overview.md)
+
+[指派策略給小組中的使用者](assign-policies.md)

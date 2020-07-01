@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698273"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938452"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 團隊中的自訂應用程式原則和設定
 
@@ -132,6 +132,8 @@ ms.locfileid: "44698273"
 | 按     | 按     | 出         | 使用者無法上傳自訂應用程式。       |
 | 按    | 按        | 按        | 無論使用者是否為小組擁有者，使用者都可以將自訂應用程式上傳至團隊。 使用者可以在個人內容中上傳自訂應用程式。       |
 
- ## <a name="related-topics"></a>相關主題
+## <a name="related-topics"></a>相關主題
  
-- [在 Teams 中的應用程式系統管理設定](admin-settings.md)
+[在 Teams 中的應用程式系統管理設定](admin-settings.md)
+
+[指派策略給小組中的使用者](assign-policies.md)
