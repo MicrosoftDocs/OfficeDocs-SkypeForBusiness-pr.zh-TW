@@ -1,0 +1,3 @@
+<span data-ttu-id="ae740-101">您可以將原則直接指派給使用者，或是透過批次指派（如果該原則類型支援）或群組（如果原則類型支援））將原則指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="ae740-101">You can assign a policy directly to users, either individually or at scale through a batch assignment (if supported for the policy type), or to a group that the users are members of (if supported for the policy type).</span></span> 
+
+<span data-ttu-id="ae740-102">若要瞭解您可以將原則指派給使用者的不同方式，請參閱[將原則指派給您的小組中的使用者](../assign-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="ae740-102">To learn about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](../assign-policies.md).</span></span>
