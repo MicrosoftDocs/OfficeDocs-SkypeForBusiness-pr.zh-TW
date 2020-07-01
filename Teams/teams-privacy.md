@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579569"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938492"
 ---
 # <a name="privacy-and-microsoft-teams"></a>隱私權和 Microsoft Teams
 
@@ -58,7 +58,7 @@ Microsoft 不會透露個人資料，除非：
 1. 如「線上服務條款」所述 (例如，使用授權轉包商提供服務的特定元件)；
 1. 法律需求。
 
-如果執法機關與 Microsoft 聯繫，Microsoft 會嘗試重新導向執法機關，讓他們直接向客戶要求個人資料。 如果勒令要將個人資料披露給執法機關，Microsoft 會立即通知客戶並提供要求複本，除非明令禁止。 如需有關我們因應執法機關和其他政府機構要求所披露資料的詳細資訊，請參閱我們的[執法要求報告](https://www.microsoft.com/about/corporate-responsibility/lerr/)。
+如果執法機關與 Microsoft 聯繫，Microsoft 會嘗試重新導向執法機關，讓他們直接向客戶要求個人資料。 如果勒令要將個人資料披露給執法機關，Microsoft 會立即通知客戶並提供要求複本，除非明令禁止。 如需有關我們因應執法機關和其他政府機構要求所披露資料的詳細資訊，請參閱我們的[執法要求報告](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report)。
 
 [Teams 安全性指南](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) (部分機器翻譯) 提供更多有關合規性標準的資訊。
 
