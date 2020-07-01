@@ -131,7 +131,6 @@
 ## [快速入門 - 會議與即時活動](quick-start-meetings-live-events.md)
 ## [規劃您的部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教學課程：Teams 中的會議](Tutorial-Meetings-in-Teams.yml)
-## [Teams 會議中的簡報者和參與者功能](roles-in-meetings.md)
 ## [管理會議原則](meeting-policies-in-teams.md)
 ## [管理會議設定](meeting-settings-in-teams.md)
 ## [在設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [開始使用 Teams 範本](get-started-with-teams-templates.md)
 ## [Bookings App 和虛擬造訪](bookings-app-admin.md)
 ## [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [安裝 Microsoft StaffHub PowerShell 模組](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [執行報告以顯示作用中 StaffHub 的使用情況](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [規劃將 StaffHub 團隊移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [將 StaffHub 團隊移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [傳送給使用者的電子郵件通訊範例](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [已終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [在 Teams 中管理貴組織的 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## 適用於醫療保健的 Teams
