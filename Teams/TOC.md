@@ -780,6 +780,7 @@
 
 ## 支援的裝置
 ### [在 Teams 中管理裝置](devices/device-management.md)
+### [遠端更新裝置](devices/remote-update.md)
 ### [Teams 的電話](devices/phones-for-teams.md)
 ### [USB 音訊和視訊裝置](devices/usb-devices.md)
 ### [為 Microsoft Teams 部署共同作業列](devices/collab-bar-deploy.md)
@@ -790,8 +791,10 @@
 
 ## Teams PowerShell
 ### [概觀](teams-powershell-overview.md)
+### [安裝 Teams PowerShell](teams-powershell-install.md)
+### [使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
+### [Teams PowerShell 版本資訊](teams-powershell-release-notes.md)
 ### [Teams 的 Cmdlet 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [安裝前版 Teams PowerShell 模組](install-prerelease-teams-powershell-module.md)
 
 ## [Teams 開發人員文件](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中取得說明](get-help-in-microsoft-teams.md)
