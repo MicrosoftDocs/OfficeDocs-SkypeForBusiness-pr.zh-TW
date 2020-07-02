@@ -18,19 +18,19 @@ description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938542"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021751"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
 
 > [!NOTE]
 > **請注意以下關于本文所述其中一個功能的事項，以及將原則指派給群組**： 
 > - [使用 Microsoft 團隊系統管理中心將原則指派給群組](#using-the-microsoft-teams-admin-center-3)，尚未解除發佈。 我們已宣佈推出，即將推出。 
-> - [原則指派給使用 PowerShell 的群組](#using-powershell-3)，目前僅提供私人預覽。 此功能的 Powershell Cmdlet 位於預發行團隊 PowerShell 模組中。
+> - [原則指派給使用 PowerShell 的群組](#using-powershell-3)，目前僅提供私人預覽。 此功能的 Cmdlet 位於 [團隊 PowerShell 公用預覽] 模組中。
 >
 > 若要掌握此功能的發行狀態，請參閱[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)。
 
@@ -160,7 +160,7 @@ Import-PSSession -Session $CSSession
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-若要深入瞭解，請參閱透過[PowerShell 管理原則](teams-powershell-overview.md#managing-policies-via-powershell)。
+若要深入瞭解，請透過[PowerShell 閱讀管理原則](teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
 ## <a name="assign-a-policy-package"></a>指派原則套件
 
@@ -315,40 +315,14 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-**此功能目前僅適用于私人預覽。此功能的 Cmdlet 位於預發行團隊 PowerShell 模組中。**
+**此功能目前僅適用于私人預覽。此功能的 Cmdlet 位於 [團隊 PowerShell 公用預覽] 模組中。**
 
 > [!NOTE]
 > 目前，對於所有團隊原則類型，使用 PowerShell 的群組的原則指派都無法使用。 如需支援的原則類型清單，請參閱[新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接至 Microsoft 團隊 PowerShell 模組
 
-Cmdlet 位於團隊 PowerShell 模組的預發行版本本中。 請依照下列步驟，先卸載「通用」團隊 PowerShell 模組（如果已安裝），然後從 PowerShell 測試圖庫安裝該模組最新的預發行版本本。
-
-如果您尚未安裝，請執行下列動作，將 PowerShell 測試圖庫註冊為受信任的來源。
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-如果您已安裝「通用」的小組 PowerShell 模組版本，請執行下列動作加以卸載。
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-執行下列動作，從 PowerShell 測試圖庫安裝最新的 Microsoft 團隊 PowerShell 模組。
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-執行下列動作以連線至團隊並啟動會話。
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-出現提示時，請使用您的系統管理員認證登入。
+這些 Cmdlet 是團隊 PowerShell 公用預覽模組的一部分。 如需逐步指導方針，請參閱[安裝團隊 PowerShell](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-to-a-group"></a>指派原則給群組
 

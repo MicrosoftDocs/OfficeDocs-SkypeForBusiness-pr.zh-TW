@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '瞭解如何試用或購買 Microsoft 365 或 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868530"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021861"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 microsoft 365 for Microsoft 團隊中試用或購買音訊會議
 
@@ -72,7 +72,7 @@ ms.locfileid: "44868530"
 4. [指派授權給](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)貴組織中將要排程或領導會議的使用者。
 
     > [!NOTE]
-    > 如果您有音訊會議每分鐘付費的授權，您就不需要為每位使用者分別指派通訊信用額度授權，以供語音會議使用（您可能仍需要為其他服務指派）。
+    > 如果您有音訊會議每分鐘付費授權，您也必須為每位使用者另行指派通訊信用授權。
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟2：為領導或排程會議的人員設定音訊會議提供者
 

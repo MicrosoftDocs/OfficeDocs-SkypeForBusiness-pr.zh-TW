@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 請依照下列步驟，為呼叫者加入 Microsoft 團隊會議所用的預設電話號碼。
-ms.openlocfilehash: 81624090b1e82bf695f8e558cd55324a45d927e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691109"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021761"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft 團隊中設定邀請中所包含的電話號碼
 
@@ -55,7 +55,7 @@ Microsoft 365 和 Office 365 中的音訊會議可讓貴組織中的使用者建
 
 您必須是系統管理員，才能進行這些變更。
 
-1. 登入系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
+1. 登入 Microsoft 團隊系統管理中心。
 
 2. 在左側導覽中，按一下 [**使用者**]。
 

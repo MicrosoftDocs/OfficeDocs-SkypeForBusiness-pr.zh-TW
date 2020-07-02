@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付款選項。
-ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610508"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021741"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
@@ -39,7 +39,7 @@ ms.locfileid: "44610508"
 
   
 > [!NOTE]
-> 因為這個優惠只適用于大量和授權客戶，所以您必須與您的帳戶代表合作，才能取得授權。 
+> 因為這個優惠只適用于大量和授權客戶，所以您必須與您的帳戶代表合作，才能取得這些授權。 
   
 ## <a name="need-some-details"></a>需要一些詳細資料嗎？
 
@@ -54,7 +54,7 @@ ms.locfileid: "44610508"
 > [!NOTE]
 > 您可以透過 [[音訊會議](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)] 中的 [**查看您要通話的頻率] 區段**，找出與這些通話類型相關聯的撥入和撥出率。
   
-[每分鐘支付] 要求貴組織啟用[通訊點數](what-are-communications-credits.md)，且必須為每位使用者指派授權，才能讓音訊會議正常運作。 如果您需要更多詳細資料，請參閱[為您的組織](set-up-communications-credits-for-your-organization.md)和/或[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)設定通訊點數。
+[每分鐘支付] 要求您的組織設定[通訊信用額度](what-are-communications-credits.md)。 它也要求每個使用者都必須指派每分鐘付費授權和通訊信用權授權，才能使用音訊會議。 如果您需要更多詳細資料，請參閱[為您的組織](set-up-communications-credits-for-your-organization.md)和/或[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)設定通訊點數。
   
 若要讓貴組織中的使用者每分鐘支付一次語音會議，請參閱[在 Microsoft Office 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 

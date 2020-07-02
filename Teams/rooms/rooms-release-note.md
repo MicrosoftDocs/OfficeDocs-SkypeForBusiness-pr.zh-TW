@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877914"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021871"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -71,6 +71,8 @@ ms.locfileid: "44877914"
 - 品質與可靠性修正程式
 - 修正「更新至4.4.41.0 之後，應用程式無法啟動」問題
 
+> [!NOTE]
+> 如果您的裝置無法自動更新至版本4.4.63.0，請遵循 Microsoft 團隊聊天室中的步驟，在[更新至版本4.4.41.0 之後，應用程式無法啟動](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update)，以解決此問題。
 
 ### <a name="44410-05062020"></a>4.4.41.0 （05/06/2020）
 
