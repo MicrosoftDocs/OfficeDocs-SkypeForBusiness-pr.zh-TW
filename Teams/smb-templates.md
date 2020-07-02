@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: 使用 Microsoft 小組預先定義的範本，快速且輕鬆地為中小型企業建立小組。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757054"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944026"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>快速開始使用中小型企業的團隊範本
 
@@ -30,7 +30,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 在中小型企業中，範本特別強大，因為它們可協助管理員快速地在組織中部署團隊。 範本也可協助使用者，並快速開始使用團隊。 如果您負責規劃、部署及管理整個組織中的多個小組，本文適用于您。
 
-我們目前提供了三個第一方的 SMB 範本，您可以在各種情況下利用。 所有範本都會建立*私人*團隊。 在您建立好團隊並準備好要向您的組織中推出後，您就可以視需要將隱私權設定為「*組織內*」或「*公開*」。 若要深入瞭解小組範本的整體資訊，請參閱[開始使用團隊範本](get-started-with-teams-templates.md)。
+我們目前提供三個第一方的 SMB 範本，您可以在各種情況下利用這些範本。 所有範本都會建立*私人*團隊。 在您建立好團隊並準備好要向您的組織中推出後，您就可以視需要將隱私權設定為「*組織內*」或「*公開*」。 若要深入瞭解小組範本的整體資訊，請參閱[開始使用團隊範本](get-started-with-teams-templates.md)。
 
 ## <a name="company-wide-template"></a>整個公司的範本
 公司範圍的範本適用于與整個公司相關的溝通與共同作業。 您可以在全公司的宣告、行業新聞或主管文章中使用 [一般] 頻道。 人力資源通道是合併所有 HR 相關活動（例如作業文章、新員工加入、訓練及開發）的絕佳位置。 [有趣的內容] 頻道可為所有的隨機及趣味文章提供社交平臺。

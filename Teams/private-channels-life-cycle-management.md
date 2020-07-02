@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326690"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012289"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
 您可以在這裡找到在組織中管理[私人頻道](private-channels.md)生命週期所需的指導方針。
 
 > [!IMPORTANT]
-> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從[PowerShell 測試庫](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安裝並使用最新的「團隊 PowerShell」模組的預發行版本本。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell 模組的預發行版本本](install-prerelease-teams-powershell-module.md)。 最新公開提供的團隊 PowerShell 模組版本不支援管理專用通道。
+> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從[PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 [團隊 PowerShell 公用預覽] 模組。 如需如何安裝模組的步驟，請參閱[安裝 Microsoft 團隊 PowerShell](teams-powershell-install.md)。 最新的一般可用性團隊 PowerShell 模組不支援管理專用通道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
 

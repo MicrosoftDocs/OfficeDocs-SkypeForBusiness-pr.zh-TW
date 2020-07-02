@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321742"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944016"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 
@@ -116,7 +116,7 @@ CSV 檔案必須包含下列三個數據行，並以下列順序從第一欄開�
 ## <a name="apply-your-hierarchy"></a>套用您的階層
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從[PowerShell 測試圖庫](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安裝並使用最新版本的團隊 PowerShell 模組。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell 模組的預發行版本本](install-prerelease-teams-powershell-module.md)。
+> 若要執行此步驟，您必須從[PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 [團隊 PowerShell 公用預覽] 模組。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell](teams-powershell-install.md)。
 
 在架構 CSV 檔案中定義階層之後，您就可以將其上傳至團隊。 若要這樣做，請執行下列命令。 您必須是全域管理員或團隊服務系統管理員，才能執行這個步驟。
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>移除階層
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從[PowerShell 測試圖庫](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安裝並使用最新版本的團隊 PowerShell 模組。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell 模組的預發行版本本](install-prerelease-teams-powershell-module.md)。
+> 若要執行此步驟，您必須從[PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 [團隊 PowerShell 公用預覽] 模組。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell](teams-powershell-install.md)。
 
 如果您想要立即停用貴組織中所有使用者的 [**已發佈的清單**] 索引標籤，您可以移除您的階層。 使用者無法存取 [**已發佈的清單**] 索引標籤或 [索引標籤] 上的任何功能。 這包括建立新工作清單以進行發佈、存取草稿清單、發佈、取消發佈及重複清單以及查看報表的功能。 移除階層後，就不會取消發佈先前發佈的工作。 這些工作仍可供收件者團隊完成。 
 

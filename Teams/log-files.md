@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊所產生的調試、媒體和桌面記錄，以及可在哪裡找到這些記錄，以及如何協助疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374201"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012189"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在 Microsoft 團隊的疑難排解中使用記錄檔
 =================================================
@@ -44,6 +44,7 @@ ms.locfileid: "44374201"
 |網站    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,11 +73,17 @@ ms.locfileid: "44374201"
 
       鍵盤快速鍵： Option + Command + Shift + 1
 
+-   Linux
+
+      鍵盤快速鍵： Ctrl + Alt + Shift + 1
+
 調試記錄會自動下載到下列資料夾中。
 
 -   Windows：% userprofile% \\ 下載
 
 -   Mac OSX：下載
+
+-   Linux： ~/Downloads
 
 -   瀏覽器：系統會提示您將調試記錄儲存到預設的儲存位置
 
@@ -93,6 +100,8 @@ ms.locfileid: "44374201"
 |            |%appdata%\Microsoft\Teams\media-stack \\ * .etl         |
 |Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/media-stack/*. 博客         |
 |            |~ 路徑/library/application support 支援/Microsoft/團隊/skylib/*. 博客         |
+|Linux       |~/.config/Microsoft/Microsoft 團隊/media-stack/*. 博客         |
+|            |~/.config/Microsoft/Microsoft 團隊/skylib/*. 博客         |
 
 
 
@@ -103,13 +112,18 @@ ms.locfileid: "44374201"
 
 時間
 
-1.  以滑鼠右鍵按一下系統工作列**中的 [Microsoft 團隊] 圖示**，然後選取 [**取得記錄**]
+1.  以滑鼠右鍵按一下系統工作列中的 [ **Microsoft 團隊**] 圖示，然後選取 [**取得記錄**]
 
 Mac OsX：
 
 1.  從 **[說明] 下拉式功能表**中選擇 [**取得記錄**]
 
+Linux
+
+1.  按一下系統託盤中的 [ **Microsoft 團隊**] 圖示，然後選取 [**取得記錄**]
+
 |用戶端 |位置 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
-|Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/記錄 .txt         |
+|Windows     |% appdata% \Microsoft\Teams\logs.txt         |
+|Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft 小組/logs.txt         |

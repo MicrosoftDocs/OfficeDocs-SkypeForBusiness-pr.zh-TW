@@ -16,12 +16,12 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874410"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012279"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -43,7 +43,7 @@ ms.locfileid: "44874410"
 - 使用者有足夠的 Microsoft Stream 儲存空間以儲存錄製檔案
 - 使用者已將 TeamsMeetingPolicy-AllowCloudRecording 設定設為 true
 - 使用者在會議中不是匿名、來賓或同盟使用者
-- 若要為使用者的會議啟用 [會議]，指派給他們的小組會議原則必須必須設定為 true，才能使用 [AllowTranscription 設定]。
+- 若要為使用者的會議啟用會議，指派給他們的小組會議原則必須將-AllowTranscription 設定設定為 true。
 
 必須授權<sup>1</sup>使用者將會議上傳/下載到 Microsoft Stream，但他們不需要有錄製會議的授權。 如果您想要封鎖使用者不讓他錄製 Microsoft Teams 會議，您必須授予一個將 AllowCloudRecording 設定為 $False 的 TeamsMeetingPolicy。
 
@@ -115,7 +115,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 此設定控制在播放會議錄製期間是否可使用 [標題] 和 [操作模式] 功能。 如果您關閉此功能，則在播放會議錄製期間將無法使用 [**搜尋**] 和 [**抄送**] 選項。 開始錄製需要已開啟此設定的人員，才能讓錄製也包含操作。
 
-請注意，目前只有將團隊中的語言設定為英文，且在會議中朗讀英文的使用者，才支援會議記錄會議。
+**請注意**，目前只有將團隊中的語言設定為英文，且在會議中朗讀英文的使用者，才支援會議記錄會議。
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 

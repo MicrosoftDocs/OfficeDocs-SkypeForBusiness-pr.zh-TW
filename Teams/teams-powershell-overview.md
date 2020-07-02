@@ -1,133 +1,69 @@
 ---
-title: 團隊 PowerShell 概覽
+title: Microsoft 團隊 PowerShell 概覽
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
-ms.date: 09/06/2018
+author: brandber
+ms.author: brandber
+manager: kojiko
+ms.date: 06/30/2020
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-search.appverid: MET150
-f1.keywords:
-- NOCSH
-description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊，包括 PowerShell Cmdlet 的結構化方式。
+description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5385430c7db8aab0adf1efbaec546134e9adf388
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690949"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943986"
 ---
-# <a name="teams-powershell-overview"></a>團隊 PowerShell 概覽
+# <a name="microsoft-teams-powershell-overview"></a>Microsoft 團隊 PowerShell 概覽
 
-Microsoft 團隊有一套豐富的工具，可讓 IT 管理員透過 Microsoft 團隊系統管理中心、PowerShell 控制項及圖形 Api 來管理產品。 本指南說明我們如何組織我們的 PowerShell Cmdlet 供 IT 管理員使用，並提供進一步說明文件的指標。 請注意，不同的團隊管理員角色可以存取不同的 Cmdlet。 如需詳細資訊，請參閱[使用 Microsoft 團隊管理員角色管理團隊](using-admin-roles.md)。
+Microsoft 團隊 PowerShell 是一組用來從 PowerShell 命令列直接管理團隊的 Cmdlet。 在 .NET 標準版中，小組 PowerShell 在 Windows 上的 PowerShell 5.1 上運作，在所有平臺上（包括 Azure Shell）都可以使用。
 
-## <a name="which-modules-do-you-need-to-use"></a>您需要使用哪些模組？
+您必須先[安裝它](teams-powershell-install.md)，才能開始使用 PowerShell。 
 
-管理團隊的 PowerShell 控制項位於兩個不同的 PowerShell 模組中： 
-- [Microsoft 團隊 powershell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)： [團隊 powershell] 模組包含您建立及管理團隊所需的所有 Cmdlet。  
-- [商務用 Skype powershell 模組](https://www.microsoft.com/download/details.aspx?id=39366)：商務用 skype powershell 模組包含管理原則、設定及其他團隊工具的 Cmdlet。 
+> [!WARNING]
+> PowerShell 7 和團隊 PowerShell 存在已知問題。 我們建議您使用 PowerShell 5.1，直到問題解決為止。
 
-PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模組。 （最終會結合兩個模組）。
-
-## <a name="what-can-each-admin-role-do"></a>每個管理員角色可以做什麼？
-
-已閱讀 [[使用 Microsoft 團隊管理員角色] 管理團隊](using-admin-roles.md)，瞭解不同管理員角色可以利用哪些 PowerShell Cmdlet。
-
-## <a name="creating-and-managing-teams-via-powershell"></a>透過 PowerShell 建立及管理團隊
-
-建立及管理團隊的 Cmdlet 位於[Microsoft 團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)中。 
-
-團隊由 Microsoft 365 群組進行支援，因此當您建立小組時，就會建立群組。 提供一組 Cmdlet 來在核心團隊及其設定（ ``new-team`` 、 ``get-team`` 、 ``set-team`` ）、管理團隊使用者（、），以及 ``add-teamuser`` ``remove-teamuser`` 管理團隊通道（ ``new-teamchannel`` 、）的 Cmdlet ``remove-teamchannel`` 中進行操作。 所有這些 Cmdlet 都可以以使用者身分執行，但它們只能在您擁有或隸屬于您擁有的小組中運作。 如果您是全域系統管理員或團隊服務系統管理員，您就可以在組織中的所有團隊進行動作。
-
-> Microsoft 團隊 PowerShell 模組 Cmdlet 中使用的**GroupId**與 Exchange PowerShell 模組中傳回的身分**識別**屬性相同 ``Get-UnifiedGroup`` 。
-
-### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>預覽與一般可用的 Microsoft 團隊 PowerShell 模組間的差異
-
-當我們發佈我們的通用版本的 PowerShell 模組時，只有在 Beta 版模組中留下了幾個 Cmdlet，如下表所述。
-
-| Cmdlet | 可在預覽中使用 | 在1.0 中提供 |
-|------- | -------------------- | ------------------------------ |
-| 附加 TeamUser | 是 | 是 |
-| 連接-MicrosoftTeams | 是 | 是 |
-| 中斷連線-MicrosoftTeams | 是 | 是 |
-| 取得團隊 | 是 | 是 |
-| TeamChannel | 是 | 是 |
-| TeamFunSettings | 僅限1.0 發行之前 | 否 |
-| TeamGuestSettings | 僅限1.0 發行之前 | 否 |
-| TeamHelp | 是 | 是 |
-| TeamMemberSettings | 僅限1.0 發行之前 | 否 |
-| TeamMessagingSettings | 僅限1.0 發行之前 | 否 |
-| TeamUser | 是 | 是 |
-| 新團隊 | 是 | 是 |
-| 新-TeamChannel | 是 | 是 |
-| 移除團隊 | 是 | 是 |
-| 移除-TeamChannel | 是 | 是 |
-| 移除-TeamUser | 是 | 是 |
-| 集-小組 | 是 | 是 |
-| Set-TeamChannel | 是 | 是 |
-| Set-TeamFunSettings | 僅限1.0 發行之前 | 否 |
-| Set-TeamGuestSettings | 僅限1.0 發行之前 | 否 |
-| Set-TeamMemberSettings | 僅限1.0 發行之前 | 否 |
-| Set-TeamMessagingSettings | 僅限1.0 發行之前 | 否 |
-| Set-TeamPicture | 是 | 否，規劃 |
+## <a name="releases"></a>鬆開
 
 
-## <a name="managing-policies-via-powershell"></a>透過 PowerShell 管理原則
+您可以在兩種版本類型中的[PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams)上使用團隊 PowerShell。
 
-在[商務用 Skype Cmdlet 模組](https://www.microsoft.com/download/details.aspx?id=39366)中使用 Cmdlet 來管理個別使用者的原則。
+- **正式供貨（GA）**：已完成生產的 Cmdlet （每月更新）。
+
+- **公用預覽**：提前存取功能。 更新頻率可能比 GA 更新。
+
+如需這兩個版本之功能新增和改良的詳細資訊，請閱讀[團隊 PowerShell 版本](teams-powershell-release-notes.md)資訊。
+
+
+## <a name="manage-teams-with-powershell"></a>使用 PowerShell 管理團隊
+
+您會使用這兩個 PowerShell 模組來完全管理團隊：
+
+- [Microsoft 團隊 powershell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)：團隊 powershell 模組包含管理團隊、聊天和頻道的 Cmdlet。
+
+- [商務用 Skype powershell 模組](https://www.microsoft.com/download/details.aspx?id=39366)：商務用 skype powershell 模組包含管理會議、電話系統及原則功能的 Cmdlet。
+
+如需使用這些模組管理團隊的完整指南，請參閱使用[團隊 PowerShell 管理團隊](teams-powershell-managing-teams.md)。
 
 > [!NOTE]
-> 在您連線到商務用 Skype Online 之後，您的 PowerShell 會話中就會提供 Cmdlet。 如需詳細資訊，請參閱[使用 Microsoft 365 或 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
+> 最新的[團隊 powershell 公開預覽版](https://www.powershellgallery.com/packages/MicrosoftTeams/)已與商務用 Skype Online 連接器整合，提供單一模組供團隊 PowerShell 管理使用。
 
-原則是一組設定，可將它們精確套用至個別使用者。 每個原則類型都有自己的一組 Cmdlet，可用於建立、查看、刪除及更新原則，然後將這些原則指派給使用者。 一般結構如下：
+## <a name="related-topics"></a>相關主題
 
-- 取得命令（例如， ``Get-CsTeamsMeetingPolicy`` ）：傳回您在組織中可指派的原則檔、由 Microsoft 所建立的原則，以及您建立的自訂原則。
-   > 如果您只想尋找您在組織中建立的自訂原則，您可以使用 ``-Filter "tag:*"`` 。
+[安裝團隊 PowerShell](teams-powershell-install.md)
 
-- 新命令（例如 ``New-CsTeamsMeetingPolicy`` ）：讓您為貴組織建立新的原則，然後將其指派給您組織中的使用者。 並非所有原則都支援建立自訂原則。 通常，這是為了確保您在組織中使用的原則具有受支援的設定組合。
+[使用團隊 PowerShell 管理團隊](teams-powershell-managing-teams.md)
 
-- SET 命令（例如 ``Set-CsTeamsMeetingPolicy`` ）：可讓您在指定原則上設定特定值。 有些原則沒有 set 命令可用，或包含無法在原則中自訂的參數。 每個 PowerShell 描述將會找出哪些參數無法自訂。 
-   > 若要編輯預設將指派給貴組織中未指派自訂策略之使用者的原則，請執行 ``Set-Cs<PolicyName> -Identity Global`` 。
+[團隊 PowerShell 版本資訊](teams-powershell-release-notes.md)
 
-- 移除命令（例如 ``Remove-CsTeamsMeetingPolicy`` ）：您可以使用此 Cmdlet 來刪除已在您的租使用者中建立的自訂原則。 如果您刪除已指派給貴組織中至少一個使用者的自訂原則，該使用者會回到全域原則。
-   > 您不能實際移除貴組織中的全域原則，但如果您想要將貴組織中的全域原則重設為 Microsoft 提供的預設設定，您可以執行 ``Remove-Cs<PolicyName> -Identity Global`` 。
+[Microsoft 團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-- GRANT 命令（例如 ``Grant-CsTeamsMeetingPolicy`` ）：可讓您將原則指派給特定的使用者。
-   > 若要移除自訂原則指派，並讓使用者回到貴組織中的預設原則，請執行 ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` 。
+[商務用 Skype Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 
-> [!TIP]
-> 並非所有原則都允許建立自訂原則，而且有些原則擁有您無法自訂的設定（所以您可以在與期間中查看設定，但不能設定自訂值 ``set-`` ``new-`` ）。 如果客戶不能使用參數，則特定 Cmdlet 的檔將會撥出。
-
-一般參數：
-
-- 身分**識別**：對於 ``Get-`` 、、 ``Set-`` ``New-`` 和 ``Remove-`` ，身分**識別**參數會永遠參照特定原則實例。 針對 ``Grant`` ，身分**識別**參數會參照要套用原則的特定使用者物件。
-
-<!--more info here?-->
-
-## <a name="managing-configurations-via-powershell"></a>透過 PowerShell 管理設定
-
-管理您的設定的 Cmdlet 位於商務用[Skype Cmdlet 模組](https://www.microsoft.com/download/details.aspx?id=39366)中。
-
-[配置] 是服務中維護的 [設定] 桶，不能在使用者層級指定。 設定總是在整個組織內套用。 您的全域設定是貴組織中的唯一有效配置。 每個配置類型都有兩個主要的 Cmdlet：
-
-- ``Get-Cs<ConfigurationName>``（例如， ``Get-CsTeamsClientConfiguration`` ）： 
-
-- SET 命令（例如 ``Set-CsTeamsClientConfiguration`` ）：設定該類型的配置中的屬性。 指定您要修改的參數。
-   > 您可以透過兩種方式的其中一種來參考您要修改的設定：指定**全域身分識別**，或執行 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` 。
-
-## <a name="other-powershell-tools"></a>其他 PowerShell 工具
-
-您可以在[microsoft [團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)] 和 [[商務用 skype] Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中，找到有關如何使用所有 PowerShell 控制項來管理 Microsoft 團隊和商務用 skype 的詳細指示，包括每個原則中設定的詳細描述。
-
-## <a name="learn-more"></a>深入了解
-
-- [Microsoft 團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [商務用 Skype Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [使用 Microsoft 團隊管理員角色管理團隊](using-admin-roles.md)
+[使用 Microsoft 團隊管理員角色管理團隊](using-admin-roles.md)

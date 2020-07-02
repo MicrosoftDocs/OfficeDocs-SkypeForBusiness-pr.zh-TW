@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中定義及使用敏感度標籤。
-ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854115"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012309"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 團隊的敏感度標籤
 
@@ -100,6 +100,10 @@ $setting["EnableMIPLabels"] = "False"
 您可以指定使用特定標籤建立的小組是否允許來賓存取。 只有貴組織中的使用者可以使用不允許來賓存取權的標籤建立的團隊。 您組織外部的人員無法新增至小組。
 
 ## <a name="known-issues"></a>已知問題
+
+**在小組建立期間沒有顯示子預設標籤**
+
+目前，在小組建立模型的 [敏感度標籤] 下拉式清單中，會不會在清單的頂端顯示將子標籤設為 [小組] 的預設標籤。 小組創意者仍可以使用下拉式清單來套用子標籤，做為因應措施。
 
 **Microsoft 團隊系統管理中心的敏感度標籤支援**
 
