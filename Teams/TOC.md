@@ -259,6 +259,7 @@
 ### [通話共用和群組來電接聽](call-sharing-and-group-call-pickup.md)
 ### [通話原則](teams-calling-policy.md)
 ### [共用線路外觀](shared-line-appearance.md)
+### [撥號鍵台設定](dial-pad-configuration.md)
 
 
 ## 通話方案
