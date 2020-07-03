@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944006"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028159"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -30,12 +30,12 @@ ms.locfileid: "44944006"
 ## <a name="what-is-vdi"></a>什麼是 VDI？
 
 虛擬桌面基礎結構（VDI）是虛擬化技術，可在資料中心的中央伺服器上託管桌面作業系統和應用程式。 這可讓使用者具備完全安全且相容的集中來源，為使用者提供完整的個人化桌面體驗。
- 
+
 虛擬化環境中的 Microsoft 團隊支援聊天與共同作業。 而且在 Citrix 平臺中，也支援通話和會議功能。
 
 虛擬化環境中的小組支援多種設定。 其中包括 VDI、專用、共用、持久且非持久的模式。 功能在連續開發並定期新增，功能將會在未來的幾個月和幾年中擴充。
- 
-在虛擬化環境中使用團隊的方式可能與在非虛擬化環境中使用團隊稍有不同。 例如，某些高級功能可能無法在虛擬化的環境中使用，而且可能會有不同的影片解析度。 
+
+在虛擬化環境中使用團隊的方式可能與在非虛擬化環境中使用團隊稍有不同。 例如，某些高級功能可能無法在虛擬化的環境中使用，而且可能會有不同的影片解析度。
 
 若要確保最佳的使用者體驗，請遵循本文中的指導方針。
 
@@ -100,12 +100,12 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 在非永久性設定中，使用者登出後，使用者的本機作業系統變更就不會保留。 這類設置通常是共用多個使用者會話。 VM 配置會根據使用者數量及可用的物理盒資源而有所不同。
 
-針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。 （若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)）。這可確保在使用者會話期間有效啟動團隊 app。 
+針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。 （若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)）。這可確保在使用者會話期間有效啟動團隊 app。
 
 將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間，會緩存適當的使用者特定資訊（例如，使用者資料、設定檔和設定）。 請確定這兩個資料夾中的資料已同步處理。  
 
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
-- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 有許多可用的緩存管理器解決方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 如需特定的設定指示，請參閱您的快取管理員提供者。
 
@@ -143,10 +143,8 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 1. 使用下列其中一個連結，下載與您的 VDI VM 作業系統相符的團隊 MSI 套件：
 
-
     - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
     - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
-
 
     所需的小組桌面應用程式最低版本為版本1.3.00.4461。 （較舊的版本不支援 PSTN 保留）。
 
@@ -179,6 +177,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
       這個程式會從 [程式檔（x86）] 資料夾或 [Program Files] 資料夾中卸載小組，視作業系統環境而定。
 
 ## <a name="teams-on-vdi-performance-considerations"></a>VDI 效能考慮的小組
@@ -271,9 +270,9 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
     - 移至 [**語音**  >  **通話原則**]，然後按一下 [ **DisallowCalling**]。
     - 移至 [**會議**  >  **會議原則**]，然後按一下 [ **AllOff**]。
-3. 選取 [管理使用者]****。
-4. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者後，請按一下 [**儲存**]。
+2. 選取 [管理使用者]****。
+3. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
+4. 完成新增使用者後，請按一下 [**儲存**]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
 
@@ -327,9 +326,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
     - 移至 [**語音**  >  **通話原則**]，然後按一下 [ **AllowCalling**]。
     - 移至 [**會議**  >  **會議原則**]，然後按一下 [ **AllOn**]。
-3. 選取 [管理使用者]****。
-4. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者後，請按一下 [**儲存**]。
+2. 選取 [管理使用者]****。
+3. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
+4. 完成新增使用者後，請按一下 [**儲存**]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
 

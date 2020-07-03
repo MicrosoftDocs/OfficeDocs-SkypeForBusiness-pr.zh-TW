@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0d8c8246ef635f860b5cc601613faf5ef1663726
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905095"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028129"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理免費的 Microsoft 團隊版本
 ==========================================
@@ -45,10 +45,6 @@ ms.locfileid: "43905095"
 
 ## <a name="get-the-right-teams-trial"></a>取得正確的團隊試用版
 
-Microsoft 正在製作試用版 Office 365 授權（包括團隊），以回應 COVID-19 （coronavirus）病毒發作所需的員工在家用（WFH）中工作的增加需求。 
-
-- [E1 試用](e1-trial-license.md)：此優惠適用于任何客戶-包括非營利組織-由 Microsoft 帳戶代表進行管理。
-
-- 若是美國政府（GCC），請參閱[Office 365 G1 試用版](g1-trial-license.md)。 
+- 如需免費的團隊替代方案，請查看[團隊探索性](teams-exploratory.md)。
 
 - EDU 客戶應該使用免費的[Office 365 A1 授權](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)。

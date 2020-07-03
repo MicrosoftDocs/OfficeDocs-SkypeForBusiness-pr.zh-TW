@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d4abedbd24f9f0211a66b0890fe9d3db2fc977cd
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868480"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028089"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
@@ -86,7 +86,7 @@ ms.locfileid: "44868480"
     - **允許協力廠商應用程式**：控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何協力廠商應用程式，而且這些應用程式的應用程式狀態會在表格中顯示為已**封鎖的組織內**。
 
         > [!NOTE]
-        > 在 Microsoft 365 政府版團隊部署中，[**允許團隊中的協力廠商應用程式**] 設定預設為關閉。
+        > 在 Microsoft 365 政府版的團隊部署中，[**允許協力廠商應用程式**] 設定預設為關閉。
 
         [**允許協力廠商應用程式**] 關閉時，系統會停用[傳出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，這表示使用者無法建立。 當此設定為 [開啟] 時，無論使用者應用程式許可權原則中的設定為開啟或關閉，所有使用者都能啟用外寄 webhooks。
     - **允許預設發佈至商店的任何新的協力廠商應用程式**：這會控制發佈至 [小組] 應用程式商店的新的協力廠商應用程式是否會自動在小組中提供。 如果您允許協力廠商應用程式，則只能設定此選項。

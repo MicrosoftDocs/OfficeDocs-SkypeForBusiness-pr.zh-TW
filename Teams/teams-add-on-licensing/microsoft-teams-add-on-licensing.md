@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解 Microsoft 團隊的附加元件授權，以及每個授權所取得的功能。
-ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170684"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028179"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 團隊附加元件授權
 
@@ -164,9 +164,9 @@ ms.locfileid: "44170684"
 
 為了回應其他人需要遠端作業（或在家工作）的需求，Microsoft 針對政府、教育機構和非盈利性組織提供了幾個免費的團隊試用版。 以下方案提供試用版：
 
-- Office 365 企業[版 E1 試用版](../e1-trial-license.md)、E3 試用版和 E5 試用版
+- Office 365 企業[版 E1 試用版](../e1-trial-license.md)（從2020年7月1日起已中止）、E3 試用版，以及 E5 試用版
 - Office 365 教育[版 A1 試用版](../teams-edu-licensing.md)
-- Office 365 政府[版 G1 試用版](../g1-trial-license.md)
+- Office 365 政府[版 G1](../g1-trial-license.md) （從2020年7月1日起已中止）
 
 若要註冊試用優惠，請參閱[註冊試用版](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)。
 
@@ -176,7 +176,7 @@ ms.locfileid: "44170684"
 
   ![以試驗為基礎的選項](../media/licensing-trial-offers.png)
 
- 您的基礎方案不一定必須是試用版方案，才能使用這些語音功能的任何實驗。 您可以使用 Microsoft 365 商務方案或企業、政府、教育或非贏利方案，並隨附任何適用于語音功能的試用優惠。 若要查看可用的試用版優惠與附加元件，請在 Microsoft 365 系統管理中心移至 [**帳單** > **購買服務**]，選取**可能感興趣的其他類別**，然後選取 [**附加**元件]。
+ 您的基礎方案不一定必須是試用版方案，才能使用這些語音功能的任何實驗。 您可以使用 Microsoft 365 商務方案或企業、政府、教育或非贏利方案，並隨附任何適用于語音功能的試用優惠。 若要查看可用的試用版優惠與附加元件，請在 Microsoft 365 系統管理中心移至 [**帳單**  >  **購買服務**]，選取**可能感興趣的其他類別**，然後選取 [**附加**元件]。
 
   針對每個語音與會議選項，如果您有免付費電話號碼，或者您需要額外加入從會議撥出或供使用者撥打國內和國際 PSTN 通話的時間，必須有[通訊點數](../set-up-communications-credits-for-your-organization.md)。
 
