@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874422"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021881"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 
@@ -148,6 +148,9 @@ Microsoft Teams 目前包含下列原則套件：
 ### <a name="meeting-policies"></a>會議原則
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>關閉建立及開始會議的功能
+
+> [!NOTE]
+> 您可能不會在您的租用戶中立即發現這項功能。 這是因為這項功能目前正在推出，並會在推出給所有租用戶後，提供給所有使用者使用。 如需相關資訊，請參閱 [Teams 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355)。
 
 若要確保學生無法安排不需出席的會議，請在會議原則中透過下列 [一般] 設定將會議建立功能設為 **[關閉]**：
 
