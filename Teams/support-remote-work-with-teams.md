@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691489"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028119"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -31,7 +31,7 @@ ms.locfileid: "44691489"
 
 ## <a name="it-admin-guidance"></a>IT 系統管理員指導方針
 
-- 確定每個人都能利用免費 6 個月的 **[Office 365 E1](e1-trial-license.md)** 或 **[Teams 免費增值版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 來存取 Teams。 如需協助，請連絡您的 Microsoft 帳戶團隊或合作夥伴。
+- 請確認所有人都能使用[包含 Teams 的付費訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)存取 Teams。 或者，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
 
 -  如果您已擁有包含 Teams 的訂閱，請**[為每個人開啟](user-access.md)**。
     
@@ -81,8 +81,6 @@ ms.locfileid: "44691489"
    - 如果您從事教育工作，而且想要在 Teams 上設定教師、學生和系統管理員，請使用 Office 365 A1。 所有教育機構都能使用這個免費的 Office 365 版本。 在[免費取得全校師生都能使用的 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)註冊。
 
    - 請不要錯過[開始使用 Microsoft Teams 進行遠端學習](remote-learning-edu.md)。
-
-2. 除了 [Office 365 E1 試用版](e1-trial-license.md)和 [Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)，如果您需要免費的 Teams 授權，[Teams Exploratory](teams-exploratory.md) 也可能是一個選項。
 
 1. 確定您的員工擁有足夠的網際網路存取權和頻寬供 Teams 使用。 使用[針對 Teams 準備組織的網路](prepare-network.md)中的指導方針，以了解如何執行此作業。
 

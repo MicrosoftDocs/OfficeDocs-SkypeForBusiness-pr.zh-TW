@@ -15,47 +15,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03544095e5189af2f80714151f31648f79e65c8d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ea7c72e78fe14894678f963f8b876a608f6d6222
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868670"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028149"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 ==============================
 
-2020 年 3 月的新功能，包括 Microsoft Teams 的免費 6 個月 Office 365 E1 試用版現已推出。 Microsoft 提供這個特殊的 E1 試用版授權，以因應 COVID-19 (冠狀病毒) 爆發，員工在家工作 (WFH) 需求增加的情況。 
-
-若要了解隨著 E1 授權提供的功能，請參閱 [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software)。
-
-請勿錯過我們所有 [使用 Teams 支援遠端工作這的指導方針](support-remote-work-with-teams.md)。
-
-## <a name="how-to-get-an-e1-trial-license"></a>如何取得 E1 試用版授權
-
-連絡您的 Microsoft 客戶代表。 他們會提供一個促銷代碼給您，供您用來註冊取得 E1 試用版。 
-
-針對由 Microsoft 合作夥伴提供服務的組織，請與合作夥伴合作以獲得免費 6 個月的 Teams 試用版。 如果您想要與 Microsoft 合作夥伴合作，但尚未擁有合作夥伴，請移至 [Microsoft 解決方案提供者](https://www.microsoft.com/solution-providers/home)，並使用 Teams 內的專業知識搜尋合作夥伴。
+2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 或者，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
 
 
-## <a name="how-to-sign-up-for-e1"></a>如何註冊取得 E1
+如果您是 Teams 教育版客戶，請參閱免費 [Office 365 A1 授權](teams-edu-licensing.md)。
 
-按一下您客戶代表將傳送給您的電子郵件中的促銷代碼。 
+使用本文中的指導方針來管理現有的 Office 365 E1 試用版授權，包括[升級為付費訂閱](#upgrade-users-from-the-office-365-e1-trial-license)。
 
-
-## <a name="whos-eligible"></a>符合使用資格的對象
-
-此方案適用於由 Microsoft 客戶代表所管理的任何客戶。適用在過去未啟用任何其他 Office 365 E1 試用版的組織，包含非營利組織。 
-
-E1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟用另一個 E1 試用版代碼。 在這些情況下，您可以讓員工啟用 [Teams Exploratory 授權](teams-exploratory.md)。
-
-## <a name="who-isnt-eligible"></a>不符合使用資格的對象
-
-- 此方案不適用 GCC、GCC High、DoD 或教育版客戶。 
-
-- 如需適用於 GCC，請參閱 [Office 365 G1 試用版](g1-trial-license.md)。 
-
-- 教育版客戶應該使用免費的 Office 365 A1 授權。
+請勿錯過我們的[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)的所有指導方針。
 
 ## <a name="manage-the-e1-trial"></a>管理 E1 試用版
 

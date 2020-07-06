@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638382"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028169"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何為第一線員工大規模佈建 Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "44638382"
 
 ## <a name="technical-requirements"></a>技術需求
 
-- 您的租用戶必須具備涵蓋 Microsoft Teams 的適當授權數量。 如果您還沒有這些授權，請依照此處的指示來啟動 [Office 365 E1 免費試用](e1-trial-license.md)。
+- 您的租用戶必須具備涵蓋 Microsoft Teams 的適當授權數量。 如果您還沒有這些授權，請參閱 [Teams 探索](teams-exploratory.md)，以取得免費的試用訂閱。
 - 執行這些步驟的使用者必須已獲指派下列角色：全域系統管理員、使用者系統管理員及 Teams 服務系統管理員 (在 Azure AD 中)。
 - 使用者必須有權在其本機電腦上安裝和設定軟體。
 
