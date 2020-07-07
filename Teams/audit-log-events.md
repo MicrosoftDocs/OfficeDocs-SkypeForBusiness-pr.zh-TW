@@ -15,12 +15,11 @@ search.appverid: MET150
 description: 瞭解如何從審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816624"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042875"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -41,7 +40,7 @@ ms.locfileid: "44816624"
 
 ## <a name="turn-on-auditing-in-teams"></a>在團隊中開啟審核
 
-您必須先在[安全性 & 合規性中心](https://protection.office.com)開啟審核，然後才能查看審核資料。 如需有關開啟審核的協助，請參閱[開啟或關閉審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
+您必須先在[安全性 & 合規性中心](https://protection.office.com)開啟審核，然後才能查看審核資料。 如需開啟審計的協助，請參閱[開啟或關閉審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
 
 > [!IMPORTANT]
 > 審核資料只能從您開啟 [審計] 的位置使用。
@@ -97,7 +96,7 @@ ms.locfileid: "44816624"
 
 ![[原則建立] 頁面的螢幕擷取畫面，其中顯示設定大量小組刪除偵測原則的原則](media/TeamsMassDeletePolicy.png)
 
-如螢幕擷取畫面所示，您可以針對此原則設定許多不同的參數來監視團隊刪除，包括嚴重性、單一或重複動作，以及將此限制為小組和網站刪除的參數。 您可以根據組織的需求，從範本中獨立完成此操作，或者您可能會根據貴組織的需求而建立範本來建立基礎。
+如螢幕擷取畫面所示，您可以針對此原則設定許多不同的參數來監視團隊刪除，包括嚴重性、單一或重複動作，以及將此限制為小組和網站刪除的參數。 您可以視貴組織的需求而定，此操作可獨立于範本來完成。
 
 建立適用于您企業的原則之後，您就可以在觸發事件時查看活動記錄中的結果：
 
@@ -121,7 +120,7 @@ ms.locfileid: "44816624"
 
 以下是在 Microsoft 365 審核記錄中針對團隊中的使用者和系統管理活動記錄的所有事件的清單。 此表格包含 [**活動**] 欄中顯示的易記名稱，以及當您匯出搜尋結果時，出現在審計記錄的詳細資訊和 CSV 檔案中的對應作業名稱。
 
-|好記的名稱  |一道|說明 |
+|好記的名稱  |一道|描述 |
 |---------|---------|---------|
 |已在小組中新增 bot   |BotAddedToTeam        |使用者在小組中新增 bot。        |
 |已新增頻道   |ChannelAdded         |使用者將頻道新增至小組。         |
@@ -138,6 +137,7 @@ ms.locfileid: "44816624"
 |已刪除的頻道     |ChannelDeleted         |使用者從小組中刪除頻道。         |
 |已刪除的小組  |TeamDeleted            |小組擁有者會刪除小組。      |
 |已安裝的應用程式 |AppInstalled         |已安裝應用程式。   |
+|已在卡片上執行的動作|PerformedCardAction|使用者在聊天中的彈性卡片上採取行動。 在聊天中，您通常會使用彈性卡來允許資訊的豐富顯示及互動。 <br/><br/>**注意：**[審核記錄] 中只提供在聊天中的 [彈性卡] 上進行內嵌輸入動作。 例如，當使用者在由巡迴檢測 bot 產生的彈性卡上的頻道交談中提交輪詢回應時。 [查看結果] 等使用者動作會開啟對話方塊，或在 [審核記錄] 中不提供 [使用者動作] 對話方塊。|
 |已發佈的應用程式 |AppPublishedToCatalog           |已在目錄中新增應用程式。     |
 |已從團隊中移除機器人   |BotRemovedFromTeam         |使用者移除小組中的 bot。       |
 |已移除連接器     |ConnectorRemoved         |使用者移除頻道的連接器。         |
@@ -156,7 +156,7 @@ ms.locfileid: "44816624"
 
 如果您的組織使用的是 [團隊中的倒班] 應用程式，您可以在審核記錄中搜尋與倒班應用程式相關的活動。 以下是在 Microsoft 365 審核記錄中針對團隊中的倒班活動記錄的所有事件的清單。
 
-|好記的名稱  |一道  |說明  |
+|好記的名稱  |一道  |描述  |
 |---------|---------|---------|
 |[新增排程] 群組      |SchedulingGroupAdded          |使用者成功地將新排程群組新增到排程。          |
 |已編輯的排程群組     |SchedulingGroupEdited         |使用者成功地編輯 [排程] 群組。          |

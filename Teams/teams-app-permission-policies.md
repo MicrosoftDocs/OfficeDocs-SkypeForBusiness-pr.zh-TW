@@ -22,12 +22,11 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 83a06357402b44c5c15932211e562e488c2a2d5a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
-ms.translationtype: MT
+ms.openlocfilehash: 15698c7eeb12187ccc510a42b9a6e2120a7907cc
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938472"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042987"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
@@ -45,7 +44,7 @@ ms.locfileid: "44938472"
 例如，您想要封鎖所有協力廠商應用程式，並允許 Microsoft 針對貴組織中的人力資源小組特定應用程式。 首先，您會移至 [[管理應用程式](manage-apps.md)] 頁面，並確認您想要在人力資源團隊中允許的應用程式可在組織層級使用。 接著，建立名為 HR App 許可權原則的自訂原則，將它設定為 [封鎖] 並允許您想要的 app，然後將它指派給 HR 小組的使用者。
 
 > [!NOTE]
-> 如果您已在 Microsoft 365 政府版的環境中部署團隊，請參閱適用于[gcc 的 App 許可權原則](#app-permission-policies-for-gcc)，以深入瞭解適用于 GCC 的協力廠商應用程式設定。
+> 如果您是在 Microsoft 365 政府社區雲端（GCC）環境中部署團隊，請參閱[管理 microsoft 365 政府的整個組織結構設定](#manage-org-wide-app-settings-for-microsoft-365-government)，以深入瞭解適用于 GCC 的協力廠商應用程式設定。
 
 ## <a name="create-a-custom-app-permission-policy"></a>建立自訂應用程式許可權原則
 
@@ -84,7 +83,7 @@ ms.locfileid: "44938472"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="app-permission-policies-for-gcc"></a>適用于 GCC 的 App 許可權原則
+## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府的整個組織性應用程式設定  
 
 在 Microsoft 365 政府版的團隊部署中，請務必瞭解下列關於適用于 GCC 的協力廠商應用程式設定。
 
@@ -92,19 +91,21 @@ ms.locfileid: "44938472"
 
 ![在 GCC 中應用程式許可權原則的螢幕擷取畫面](media/app-permission-policies-gcc.png)
 
-若要為您組織中的使用者或一組使用者啟用協力廠商應用程式，請執行下列動作：
+使用整個組織的 app 設定來控制使用者是否可以安裝協力廠商應用程式。 全組織式應用程式設定會控制所有使用者的行為，並覆寫指派給使用者的任何其他應用程式許可權原則。 您可以使用它們來控制惡意或有問題的 app。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]，然後在應用程式清單中，確認您要允許一組使用者使用的協力廠商應用程式已設定為 [在組織層級**封鎖**]。
+1. 在 [**許可權原則**] 頁面上，選取 [**全組織式應用程式設定**]。 接著，您可以在面板中設定您想要的設定。
 
-2. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **許可權原則**]，然後編輯全域原則來封鎖協力廠商應用程式。 若要執行此動作：
-    1. 在 [應用程式許可權原則] 頁面上，按一下 [**全域（組織範圍預設值）**]，然後按一下 [**編輯**]。
-    2. 在 [**協力廠商應用程式**] 底下，選取 [**封鎖特定的 app 並允許所有其他**app]，新增應用程式，然後按一下 [**儲存**]。
+    ![整個組織內的應用程式設定的螢幕擷取畫面](media/app-permission-policies-gcc-org-wide.png)
+    
+2. 在**協力廠商應用程式**下，關閉或開啟這些設定以控制對協力廠商應用程式的存取：
 
-    > [!NOTE]
-    > 在您移至下一個步驟之前，請務必先執行此動作，才能允許組織層級的 app。 這是因為如果協力廠商應用程式未封鎖在全域應用程式許可權原則中，則全域原則適用的所有使用者，都可以在組織階層時存取協力廠商 app。
+    - **允許協力廠商應用程式**：控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何協力廠商應用程式。 在 Microsoft 365 政府版的團隊部署中，此設定預設為關閉。
+    - **允許預設發佈至商店的任何新的協力廠商應用程式**：這會控制發佈至 [小組] 應用程式商店的新的協力廠商應用程式是否會自動在小組中提供。 如果您允許協力廠商應用程式，則只能設定此選項。
 
-3. 允許組織階層的協力廠商應用程式。 若要執行此動作，請在左側導覽中，移至 [**團隊 app**  >  **管理應用程式**]。 在應用程式清單中，按一下應用程式名稱的左邊以選取 app，然後選取 [**允許**]。
-4. [建立自訂應用程式許可權原則](#create-a-custom-app-permission-policy)以允許 app，然後[將原則指派](#assign-a-custom-app-permission-policy-to-users)給您想要的使用者。
+3. 在 [**封鎖的應用程式**] 底下，新增您想要封鎖在整個組織中的 app。 在 Microsoft 365 政府版的團隊部署中，所有協力廠商應用程式預設都會新增到此清單。 針對您想要在組織中允許的任何協力廠商應用程式，請從這個封鎖的應用程式清單中移除 app。 當您封鎖 app 的整個應用程式時，系統會自動封鎖所有使用者的 app，不論應用程式許可權原則是否允許該應用程式。
+4. 按一下 [**儲存**以組織範圍內的應用程式設定] 生效。
+
+如前文所述，若要允許協力廠商應用程式，您可以編輯及使用全域（組織範圍預設值）原則，或建立並指派自訂原則。
 
 ## <a name="faq"></a>常見問題集
 

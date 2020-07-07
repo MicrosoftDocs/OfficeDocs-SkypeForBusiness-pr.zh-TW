@@ -17,12 +17,11 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
-ms.translationtype: MT
+ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028089"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042925"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
@@ -77,6 +76,9 @@ ms.locfileid: "45028089"
 
 使用整個組織的 app 設定來控制使用者是否可以安裝協力廠商應用程式，以及使用者是否可以上傳或與您組織中的自訂應用程式互動。 全組織式應用程式設定會控制所有使用者的行為，並覆寫指派給使用者的任何其他應用程式許可權原則。 您可以使用它們來控制惡意或有問題的 app。
 
+> [!NOTE]
+> [**管理應用程式**] 頁面目前尚無法提供給小組的 Microsoft 365 政府版部署。  若要瞭解如何使用整個組織內的應用程式設定來啟用或停用協力廠商應用程式，請參閱[在團隊中管理 app 許可權原則](teams-app-permission-policies.md)。
+
 1. 在 [**管理應用程式**] 頁面上，選取 [**全組織式應用程式設定**]。 接著，您可以在面板中設定您想要的設定。
 
     ![整個組織內的應用程式設定的螢幕擷取畫面](media/manage-apps-org-wide-app-settings.png)
@@ -84,9 +86,6 @@ ms.locfileid: "45028089"
 2. 在**協力廠商應用程式**下，關閉或開啟這些設定以控制對協力廠商應用程式的存取：
 
     - **允許協力廠商應用程式**：控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何協力廠商應用程式，而且這些應用程式的應用程式狀態會在表格中顯示為已**封鎖的組織內**。
-
-        > [!NOTE]
-        > 在 Microsoft 365 政府版的團隊部署中，[**允許協力廠商應用程式**] 設定預設為關閉。
 
         [**允許協力廠商應用程式**] 關閉時，系統會停用[傳出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，這表示使用者無法建立。 當此設定為 [開啟] 時，無論使用者應用程式許可權原則中的設定為開啟或關閉，所有使用者都能啟用外寄 webhooks。
     - **允許預設發佈至商店的任何新的協力廠商應用程式**：這會控制發佈至 [小組] 應用程式商店的新的協力廠商應用程式是否會自動在小組中提供。 如果您允許協力廠商應用程式，則只能設定此選項。

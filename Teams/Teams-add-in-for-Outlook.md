@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689809"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049410"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -133,6 +132,10 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows 版 Outlook 中的 [團隊會議增益集] 不會顯示
 
 如果您無法取得適用於 Outlook 的 Teams 會議增益集，請嘗試這些疑難排解步驟。
+
+[下載](https://aka.ms/SaRA-TeamsAddInScenario)並執行[Microsoft 支援修復](https://aka.ms/SaRA_Home)小幫手，以執行自動疑難排解步驟和修正程式。
+
+或者，您也可以手動執行下列步驟：
 
 - Windows 7 使用者必須[在 Windows 中安裝通用 C 運行](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)時間的更新，小組會議增益集才能運作。
 - 確認使用者擁有小組升級原則，可在小組中排程會議。 如需詳細資訊，請參閱[從商務用 Skype 升級至團隊](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
