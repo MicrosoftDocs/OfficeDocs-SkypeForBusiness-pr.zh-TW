@@ -15,43 +15,21 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 38ffb22e1f1321f7aebffa2ae22bb154bef48ca5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868539"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028099"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
 ==============================
 
-2020 年 3 月的新功能，包括 Microsoft Teams 的免費 6 個月 Office 365 G1 試用版現已推出。 Microsoft 為美國政府提供此特殊的 G1 試用版授權，以因應 COVID-19 (冠狀病毒) 爆發後，員工在家工作 (WFH) 需求增加的情況。
+自 2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 
 
-若要了解 G1 授權提供的功能，請參閱 [Microsoft 365 政府版方案](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) 和[在 GCC 雲端中提供 Microsoft Teams 的功能](plan-for-government-gcc.md)。
+使用本文中的指導方針來管理現有的 Office 365 G1 試用版授權，包括[升級為付費訂閱](#upgrade-users-from-the-office-365-g1-trial-license)。 若要深入了解，請參閱 [Microsoft 365 政府版方案](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) 和 [GCC 雲端中可用的 Microsoft Teams 功能](plan-for-government-gcc.md)。
 
-請勿錯過我們所有 [使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)  的指導方針。
-
-## <a name="how-to-get-an-g1-trial-license"></a>如何取得 G1 試用版授權
-
-連絡您的 Microsoft 客戶代表。 他們會提供您可用來註冊取得 G1 試用版的促銷代碼。
-
-## <a name="how-to-sign-up-for-the-g1-trial"></a>如何註冊取得 G1 試用版
-
-請依照客戶代表傳送給您之電子郵件中的指示進行。。
-
-## <a name="whos-eligible"></a>符合使用資格的對象
-
-此方案適用於將在 GCC 雲端工作並由 Microsoft 客戶代表所管理的美國政府客戶。適用在過去未啟用任何其他 Office 365 G1 試用版的組織。
-
-G1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟用另一個 G1 試用版代碼。
-
-## <a name="who-isnt-eligible"></a>不符合使用資格的對象
-
-  - 此方案不適用於商業、GCC High、DoD 或教育版客戶。
-
-  - 商業客戶應使用 Office 365 E1 試用版。
-
-  - 教育版客戶應該使用免費的 Office 365 A1 授權。
+請勿錯過 [使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)的所有指導方針。
 
 ## <a name="manage-the-g1-trial"></a>管理 G1 試用版
 

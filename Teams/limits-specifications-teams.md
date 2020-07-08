@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 935be9902accbd575c9795a667943a6810aec6e3
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841904"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042795"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -141,7 +141,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 > [!IMPORTANT]
 > **Microsoft 365 的即時活動限制增加**
 > 
-> 為了協助客戶滿足迅速變化的通訊需求，Microsoft 365 即時活動將針對於 Teams 中進行的即時活動暫時提高預設限制，直到 2020 年 7 月 1 日止。 以下限制將於 2020 年 4 月底推出：
+> 為了協助客戶滿足迅速變化的通訊需求，Microsoft 365 即時活動將針對於 Teams 中進行的即時活動暫時提高預設限制，直到 2020 年 10 月 1 日止。 已提高以下限制：
 > - 出席者限制：活動最多可支援 20,000 位出席者
 > - 同時活動：不同租用戶可以同時進行 50 個活動
 > - 活動持續時間：每個廣播的活動長度已增加為 16 小時

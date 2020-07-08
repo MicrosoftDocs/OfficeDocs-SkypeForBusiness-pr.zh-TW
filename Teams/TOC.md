@@ -658,6 +658,7 @@
 ### [適用於第一線員工的快速入門](firstline-workers-quickstart.yml)
 ### [第一線員工編寫指令碼部署](flw-scripted-deployment.md)
 ### [適用於 Microsoft Teams 的 RealWear](flw-realwear.md)
+### [對講機](walkie-talkie.md)
 ### [從 SPO 網站或頁面建立 Teams 內部網路入口網站應用程式](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [適用於零售業的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
