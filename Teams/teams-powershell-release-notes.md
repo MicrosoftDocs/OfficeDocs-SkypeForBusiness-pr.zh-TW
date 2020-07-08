@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解團隊 PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cda7c9db774632317cb568a6b448b4fc04b3b5ff
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 5859aeb74e8966138b91d16e206cbd9d00cf0587
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944097"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077678"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 團隊 PowerShell 版本資訊
 
@@ -31,7 +31,8 @@ ms.locfileid: "44944097"
 
 | 為止 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2020年6月 | [1.1.0-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.0-preview) | <li>商務用 Skype Online 連接器整合<li>取得團隊優化<li>增強的可靠性</li> |
+| 2020年7月 | [類庫](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已新增[群組原則指派 Cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| 2020年6月 | [1.1.3-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>商務用 Skype Online 連接器整合<li>取得團隊優化<li>增強的可靠性</li> |
 | 2020年6月 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>已新增 Cmdlet 預載入<li>.Net Framework 優化</li>   |
 | 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>驗證碼與程式集簽名<li>已新增取得 CsPolicyPackage<li>已新增取得 CsUserPolicyPackage<li>已新增取得 CsUserPolicyPackageRecommendation<li>已新增授與 CsUserPolicyPackage<li>新增 CsBatchPolicyPackageAssignmentOperation<li>已新增設定 TeamArchivedState<li>已新增設定 TeamPicture<li>已移除取得 TeamHelp</li>  |
 | 2020年3月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>新增 CsBatchPolicyAssignmentOperation</li> |
@@ -50,7 +51,7 @@ ms.locfileid: "44944097"
 | [連接-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) | 是 | 是 |
 | [中斷連線-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | 是 | 是 |
 | [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | 是 | 是 |
-| [CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | 是 | **否** |
+| [CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | 是 | 是 |
 | [CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | 是 | **否** |
 | [CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | 是 | 是 |
 | [CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | 是 | 是 |
@@ -64,13 +65,13 @@ ms.locfileid: "44944097"
 | [TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | 是 | 是 |
 | [授與 CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | 是 | 是 |
 | [新-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | 是 | 是 |
-| [新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | 是 | **否** |
+| [新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | 是 | 是 |
 | [新-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | 是 | 是 |
 | [新-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | 是 | **否** |
 | [新團隊](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | 是 | 是 |
 | [新-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | 是 | 是 |
 | [新-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | 是 | 是 |
-| [移除-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | 是 | **否** |
+| [移除-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | 是 | 是 |
 | [移除團隊](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | 是 | 是 |
 | [移除-TeamChannel](https://docs.microsoft.com/powershell/module/teams/remove-teamchannel?view=teams-ps) | 是 | 是 |
 | [移除-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | 是 | 是 |
@@ -78,7 +79,7 @@ ms.locfileid: "44944097"
 | [移除-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | 是 | **否** |
 | [移除-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/remove-teamtargetinghierarchy?view=teams-ps) | 是 | **否**|
 | [移除-TeamUser](https://docs.microsoft.com/powershell/module/teams/remove-teamuser?view=teams-ps) | 是 | 是 |
-| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | 是 | **否** |
+| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | 是 | 是 |
 | [集-小組](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps) | 是 | 是 |
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | 是 | 是 |
 | [Set-TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | 是 | 是 |

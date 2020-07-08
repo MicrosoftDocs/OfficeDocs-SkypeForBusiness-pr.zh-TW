@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊設定電話系統，以提供問候訊息、等候音樂、呼叫重新導向及其他功能。
-ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697421"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077710"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -69,7 +69,7 @@ ms.locfileid: "44697421"
   > 僅限 Microsoft 團隊使用者和代理程式支援電話佇列的直接路由服務號碼。
 
 > [!NOTE]
-> 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用，或是有 Microsoft 365 或 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用，或是有 Microsoft 365 或 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行： ' Move-csuser-身分識別 "Amos 大理石"-EnterpriseVoiceEnabled $true。
 
 - 若要深入瞭解通話方案，請參閱[手機系統和通話方案](calling-plan-landing-page.md)，以及[Microsoft 365 或 Office 365 的通話方案](calling-plans-for-office-365.md)。
 
@@ -174,11 +174,11 @@ ms.locfileid: "44697421"
 - 內部部署商務用 Skype 伺服器使用者
 
   > [!NOTE]
-  > 如果您想要將來電重新導向至組織中線上的人員，也適用這種情況。 這些人必須具備**手機系統**授權和企業語音功能，*或是*有通話方案。 如需詳細資訊，請參閱[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)、[指派 Microsoft 團隊授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)，或適合[您的通話計畫？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > 如果您想要將來電重新導向至組織中線上的人員，也適用這種情況。 這些人必須具備手機系統授權和企業語音功能，*或是*有通話方案。 如需詳細資訊，請參閱[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)、[指派 Microsoft 團隊授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)，或適合[您的通話計畫？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
    若要啟用企業語音的代理程式，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 已加入**手機系統**授權或通話方案（已新增至 Microsoft 365 群組、已啟用郵件功能的通訊群組清單或安全性群組）的使用者。 當您將通訊群組清單或安全群組中的代理程式新增為通話佇列代理程式時，第一次呼叫到貨最多可能需要3小時的時間。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Microsoft 365 群組幾乎會立即提供給您。
+- 已加入手機系統授權或通話方案（已新增至 Microsoft 365 群組、已啟用郵件功能的通訊群組清單或安全性群組）的使用者。 當您將通訊群組清單或安全群組中的代理程式新增為通話佇列代理程式時，第一次呼叫到貨最多可能需要3小時的時間。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Microsoft 365 群組幾乎會立即提供給您。
 
 - 如果您的代理正在使用 Microsoft 團隊 app 進行通話佇列通話，則必須在 TeamsOnly 模式中。
 
@@ -274,11 +274,23 @@ ms.locfileid: "44697421"
 - **中斷**連線通話中斷連線。
 - 重新**導向至**當您選擇此選項時，請選取下列其中一項：
 
-  - **組織中的人員**具備**電話系統**授權且可供企業語音使用或有通話方案的線上使用者。 您可以設定它，讓來電者可以傳送給語音信箱。 若要這樣做，請選取貴組織中的人員，並將其來電設定為直接轉寄給語音信箱。
+  - **組織中的人員**具備電話系統授權且可供企業語音使用或有通話方案的線上使用者。 您可以設定它，讓來電者可以傳送給語音信箱。 若要這樣做，請選取貴組織中的人員，並將其來電設定為直接轉寄給語音信箱。
 
   若要瞭解語音信箱所需的授權，請參閱[設定雲端語音信箱](set-up-phone-system-voicemail.md)。
 
   - **語音應用程式**選取與已建立之通話佇列或自動助理相關聯的資源帳戶名稱。
+
+  - **外部電話號碼**選擇此值以將來電者轉接至您指定的外部電話號碼。 請注意下列事項：
+
+    - 與使 PSTN 向外傳送的應用程式相關聯的資源帳戶，必須有電話號碼，並獲指派虛擬電話系統授權。 不支援電話系統授權。 此外，資源帳戶必須具有下列其中一項：
+        - 針對含有通話方案編號的資源帳戶，請指派[通話方案](calling-plans-for-office-365.md)授權。
+        - 針對有直接傳送號碼的資源帳戶，請指派[線上語音路由策略](manage-voice-routing-policies.md)。
+    - 顯示的輸出電話號碼是由以下所示：
+        - 針對通話方案編號，會顯示原始來電者的電話號碼。
+        - 針對直接路由編號，傳送的數位是以 SBC 上的 P 宣稱身分識別（PAI）設定為基礎，如下所示：
+            - 如果設定為 [停用]，則會顯示原始來電者的電話號碼。 這是預設及建議的設定。
+            - 如果設定為 [啟用]，則會顯示資源帳戶的電話號碼。
+    - 不支援通話方案 trunks 和直接路由 trunks 之間的轉移。
 
 * * *
 
@@ -292,11 +304,23 @@ ms.locfileid: "44697421"
 
 - **中斷**連線通話中斷連線。
 - **將此通話重新導向至**當您選擇此選項時，您可以使用下列選項：
-  - **組織中的人員**具備**電話系統**授權且可供企業語音或有通話方案的線上使用者。 若要進行設定，讓撥入的人能傳送給語音信箱，請選取貴組織中的人員，並將其呼叫設定為直接轉接至語音信箱。
+  - **組織中的人員**具備電話系統授權且可供企業語音或有通話方案的線上使用者。 若要進行設定，讓撥入的人能傳送給語音信箱，請選取貴組織中的人員，並將其呼叫設定為直接轉接至語音信箱。
 
   若要瞭解語音信箱所需的授權，請參閱[設定雲端語音信箱](set-up-phone-system-voicemail.md)。
 
   - **語音應用程式**選取與您已建立之通話佇列或自動助理相關聯之資源帳戶的名稱。
+
+  - **外部電話號碼**選擇此值以將來電者轉接至您指定的外部電話號碼。 請注意下列事項：
+
+    - 與使 PSTN 向外傳送的應用程式相關聯的資源帳戶，必須有電話號碼，並獲指派虛擬電話系統授權。 不支援電話系統授權。 此外，資源帳戶必須具有下列其中一項：
+        - 針對含有通話方案編號的資源帳戶，請指派[通話方案](calling-plans-for-office-365.md)授權。
+        - 針對有直接傳送號碼的資源帳戶，請指派[線上語音路由策略](manage-voice-routing-policies.md)。
+    - 顯示的輸出電話號碼是由以下所示：
+        - 針對通話方案編號，會顯示原始來電者的電話號碼。
+        - 針對直接路由編號，傳送的數位是以 SBC 上的 P 宣稱身分識別（PAI）設定為基礎，如下所示：
+            - 如果設定為 [停用]，則會顯示原始來電者的電話號碼。 這是預設及建議的設定。
+            - 如果設定為 [啟用]，則會顯示資源帳戶的電話號碼。
+    - 不支援通話方案 trunks 和直接路由 trunks 之間的轉移。
 
 ## <a name="change-caller-id-for-outbound-calls"></a>變更撥出電話的本機號碼
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定您的 SBC 並將其連線至手機系統直通路由。
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691259"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077618"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>將您的會話邊界控制器（SBC）連線至直接路由
 
@@ -40,7 +40,7 @@ ms.locfileid: "44691259"
 
 1. 在左側導覽中，移至 [**語音**  >  **直式路由**]，然後按一下 [ **SBCs** ] 索引標籤。
 2. 按一下 [**新增**]。
-3. 輸入 SBC 的 FQDN。 <br><br>確認 FQDN 的功能變數名稱部分符合您在租使用者註冊的網域，並請記住， `*.onmicrosoft.com` SBC FQDN 功能變數名稱不支援該功能變數名稱。 例如，如果您有兩個功能變數名稱， `contoso.com` 且 `contoso.on.microsoft.com` 使用的 `sbc.contoso.com` 是 SBC 名稱。
+3. 輸入 SBC 的 FQDN。 <br><br>確認 FQDN 的功能變數名稱部分符合您在租使用者註冊的網域，並請記住， `*.onmicrosoft.com` SBC FQDN 功能變數名稱不支援該功能變數名稱。 例如，如果您有兩個功能變數名稱， `contoso.com` 且 `contoso.onmicrosoft.com` 使用的 `sbc.contoso.com` 是 SBC 名稱。
 4. 根據貴組織的需求，為 SBC 設定下列設定。 如需這些設定的詳細資料，請參閱[SBC 設定](#sbc-settings)。
 
     ![Microsoft 團隊系統管理中心 [新增 SBC] 頁面的螢幕擷取畫面](media/direct-routing-add-sbc.png)
@@ -158,7 +158,7 @@ Enabled               : True
 
 下表列出您可以在 Microsoft 團隊系統管理中心和使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) Cmdlet 設定的 SBC 選項。
 
-|必填？|Microsoft 團隊系統管理中心設定|PowerShell 參數|說明|設置|可能值|類型與限制|
+|必填？|Microsoft 團隊系統管理中心設定|PowerShell 參數|描述|設置|可能值|類型與限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |是|**為 SBC 新增 FQDN**|稱 |無|FQDN 名稱，限制63字元|字串，請參閱[適用于電腦、網域、網站和組織單位之 Active Directory 中的命名約定](https://support.microsoft.com/help/909264)的允許和禁止字元清單|
 |否|**後**|後|用來針對撥出通話開啟 SBC。 您可以使用此程式在服務更新期間或在維護期間，暫時將 SBC 從服務中移除。 |虛假|滿足<br/>虛假|Boolean|

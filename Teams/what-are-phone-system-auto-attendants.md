@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解雲端自動語音應答，以及如何使用它，讓來電者在功能表系統中移動，找出電話並將來電放入或轉接給使用者或部門。
-ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665185"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077638"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什麼是雲端自動語音應答？
 
@@ -71,8 +71,9 @@ ms.locfileid: "44665185"
     > [!IMPORTANT]
     > 使用者（訂閱者）電話號碼無法指派給自動語音應答服務付費或免費電話號碼。
 
-- 完整的自動語音應答系統通常會涉及多個自動語音應答，而且可能只需要單一指派的電話號碼來用於最上層或進入自動語音應答。 如果您想要在系統中提供多個進入點，則在完整系統中的其他自動語音應答或呼叫佇列將只需要電話號碼。
-- 您可以將多個資源帳戶與自動語音來關聯，以將多個電話號碼套用到自動語音應答。
+- 完整的自動語音應答系統通常會涉及多個自動語音應答。
+- 您可以將一個以上的電話號碼套用至入門級自動語音應答。
+- 如果在整個系統中，非輸入階層的自動語音應答或通話佇列將只需要電話號碼，才能進行呼出 PSTN 通話。
   
 ## <a name="feature-overview"></a>功能概述
 

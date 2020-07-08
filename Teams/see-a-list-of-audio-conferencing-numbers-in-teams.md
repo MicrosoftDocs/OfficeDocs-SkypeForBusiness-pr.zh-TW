@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中查詢音訊會議所能使用的電話撥入式會議號碼。
-ms.openlocfilehash: d7eb7f1e1679e49f6a6e1b09009a6772cf1bc47f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c2d8850ddda3581932565e8d1dc2357c261e4e15
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691179"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077658"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft 團隊中查看音訊會議號碼清單
 
@@ -38,9 +38,6 @@ ms.locfileid: "44691179"
 如果您的組織只有一個可用的電話號碼，則會將它作為所有使用者的預設號碼使用。 如果有多個電話號碼，您可以為每位使用者選取預設的電話號碼。 此預設值會包含在 Microsoft 團隊會議邀請中。
   
 您可以參閱[設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)，以變更單一使用者的撥入電話號碼。
-  
-> [!NOTE]
-> 國內撥入號碼是專供貴組織使用，而且是唯一可設為預設電話號碼的號碼。 不過，國際撥入號碼可能會跨多個組織共用。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
