@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員可以控制使用者可以發出的音訊會議和使用者 PSTN 呼叫類型。
-ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: fd7c30a7561c06dd237bb72b405c8fc5b7b68dcd
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665905"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077668"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
@@ -69,7 +69,7 @@ ms.locfileid: "44665905"
 
 3.    在 [**限制使用此使用者的會議進行撥**出] 底下，選取您想要的撥出限制選項。
 
-    ![撥出選項的限制](media/restrictions-to-dial-outs.png)
+    ![撥出選項的限制](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
 
 5. 按一下 [儲存]****。
 
