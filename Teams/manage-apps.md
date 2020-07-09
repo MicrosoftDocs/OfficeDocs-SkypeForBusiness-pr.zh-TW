@@ -17,11 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042925"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086210"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
@@ -31,6 +32,9 @@ ms.locfileid: "45042925"
 [**管理應用程式**] 頁面可讓您查看租使用者目錄中所有可用的應用程式，為您提供所需的資訊，讓您決定要允許或封鎖整個組織的哪些應用程式。 接著，您可以使用[應用程式許可權原則](teams-app-permission-policies.md)、[應用程式設定原則](teams-app-setup-policies.md)，以及[自訂的 app 原則和設定](teams-custom-app-policies-and-settings.md)，為貴組織中的特定使用者設定 app 體驗。
 
 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。 您必須是全域系統管理員或團隊服務系統管理員，才能存取該頁面。
+
+> [!NOTE]
+> 在團隊的 Microsoft 365 政府社區雲端（GCC）部署中，仍無法使用 [**管理應用程式**] 頁面。
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>在您的租使用者應用程式目錄中查看應用程式
 
@@ -77,7 +81,7 @@ ms.locfileid: "45042925"
 使用整個組織的 app 設定來控制使用者是否可以安裝協力廠商應用程式，以及使用者是否可以上傳或與您組織中的自訂應用程式互動。 全組織式應用程式設定會控制所有使用者的行為，並覆寫指派給使用者的任何其他應用程式許可權原則。 您可以使用它們來控制惡意或有問題的 app。
 
 > [!NOTE]
-> [**管理應用程式**] 頁面目前尚無法提供給小組的 Microsoft 365 政府版部署。  若要瞭解如何使用整個組織內的應用程式設定來啟用或停用協力廠商應用程式，請參閱[在團隊中管理 app 許可權原則](teams-app-permission-policies.md)。
+> 若要瞭解如何在 Microsoft 365 政府版的團隊部署中使用整個組織內的應用程式設定，請參閱[在團隊中管理 app 許可權原則](teams-app-permission-policies.md)。
 
 1. 在 [**管理應用程式**] 頁面上，選取 [**全組織式應用程式設定**]。 接著，您可以在面板中設定您想要的設定。
 

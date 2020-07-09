@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何開發及執行持續進行的維護與作業，以確保您的使用者可以使用您的 Microsoft [小組室] 系統。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905365"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085949"
 ---
 # <a name="management-overview"></a>管理概觀
 
@@ -42,7 +42,7 @@ Microsoft [團隊聊天室] 應用程式和已連接週邊裝置狀態的相關�
 |**設定**|**讓**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （dword）1  <br/> |可讓 Microsoft 團隊聊天室啟動  <br/> |
-|電源管理-\>在 AC 上，10分鐘後關閉螢幕  <br/> 電源管理-\>在交流電上，請勿將系統置於睡眠狀態  <br/> |讓 Microsoft 團隊聊天室關閉附加的顯示，並自動喚醒  <br/> |
+|電源管理- \> 在 AC 上，10分鐘後關閉螢幕  <br/> 電源管理- \> 在交流電上，請勿將系統置於睡眠狀態  <br/> |讓 Microsoft 團隊聊天室關閉附加的顯示，並自動喚醒  <br/> |
 |淨帳戶/maxpwage：無限制  <br/> 或同等的方式，在本機帳戶上停用密碼過期。 如果不這麼做，最終會導致 Skype 帳戶無法針對過期密碼登入。 請注意，這會影響電腦上的所有本機帳戶，因此無法設定這種情況，也會導致盒上的系統管理帳戶最終過期。  <br/> |讓 Skype 帳戶永遠登入  <br/> |
 
 使用群組原則來傳送檔案將在 [[設定檔案專案](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)] 中討論。
@@ -65,7 +65,7 @@ Microsoft [團隊聊天室] 應用程式和已連接週邊裝置狀態的相關�
 
 當您將建築物資訊上傳到 CQD 時，您可以在每個建築物層面上調查通話品質與可靠性趨勢，這可讓您輕鬆比較建築物，並將注意力集中在特定問題上。
 
-我們建議您複習並遵循 [[體驗品質檢查] 指南](https://aka.ms/qerguide)來找出品質與可靠性趨勢，並建立行動方案來解決問題。 
+我們建議您複習並追蹤[小組的通話品質](../monitor-call-quality-qos.md)，以找出品質與可靠性趨勢，並建立行動方案來解決問題。 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>更新 Microsoft 團隊會議室 OS 和 Microsoft 團隊聊天室應用程式
 

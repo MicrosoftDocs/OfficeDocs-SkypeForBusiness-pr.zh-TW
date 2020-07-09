@@ -17,12 +17,12 @@ description: 針對在舊版系統上接收郵件與通話的相關問題進行�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489156"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085149"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在舊版系統上接收郵件和通話的問題
 ==============================================================
@@ -45,3 +45,8 @@ ms.locfileid: "44489156"
 ## <a name="skype-token-revocation"></a>Skype 權杖吊銷
 
 在變更/重設密碼時，舊版用戶端將不會收到長達一小時的訊息和來電。 若要解決此問題，請重新開機應用程式或移至較新的用戶端。
+
+
+## <a name="related-topics"></a>相關主題
+
+[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

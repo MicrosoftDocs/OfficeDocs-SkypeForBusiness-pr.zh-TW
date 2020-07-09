@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868700"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086189"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 ===========================================
@@ -48,7 +48,7 @@ ms.locfileid: "44868700"
 
     ![螢幕擷取畫面：Teams 封存訊息](media/teams-archive-message.png)
 
-4. 如果您想要讓小組的 SharePoint 網站變成唯讀，請選取該核取方塊。
+4. 若要防止使用者編輯 SharePoint 網站與小組相關的 [Wiki] 索引標籤中的內容，請選取 **[將 sharepoint 網站設為唯讀] 給小組成員**。 （團隊擁有者仍能編輯此內容）。
 5. 選取 [封存]**** 以封存小組。 小組的狀態會變更為 [已封存]****。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中

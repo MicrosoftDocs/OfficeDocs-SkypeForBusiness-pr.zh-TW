@@ -16,18 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料。
-ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 3b667bfeea80cc4ba2abe40f71c6ce815bcf38e0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158960"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086179"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
 
 2020年1月[的新功能：下載 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可自訂的 Power BI 範本，您可以用來分析及報告您的 CQD 資料。
 
-針對團隊中的 CQD 報表，如果您想要使用 Power BI 查詢及報告資料，請下載我們的 CQD Power BI 範本。 當您在 Power BI 中開啟範本時，系統會提示您使用 CQD 管理員認證登入。 您可以自訂這些查詢範本，並將它們發佈給貴組織中擁有 Power BI 授權及 CQD 系統管理員許可權的任何人。
+針對團隊中的通話品質儀表板（CQD）報告，如果您想要使用 Power BI 來查詢及報告資料，請下載我們的 CQD Power BI 範本。 當您在 Power BI 中開啟範本時，系統會提示您使用 CQD 管理員認證登入。 您可以自訂這些查詢範本，並將它們發佈給貴組織中擁有 Power BI 授權及 CQD 系統管理員許可權的任何人。
 
 在您可以使用這些 PBIT 檔案之前，您必須使用[下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality Pqx*檔案，[安裝 Microsoft CQD 的 Power BI 連接器](CQD-Power-BI-connector.md)。 
 
@@ -44,7 +44,7 @@ ms.locfileid: "44158960"
 |CQD 使用者意見反應（評級我的通話）報告。 pbit     | 顯示使用您可以輕鬆地協助支援您組織通話的方式，為我的通話資料打分。 與 verbatims 進行交叉參照，以找出使用者的教育機會。        |
 
 > [!TIP]
-> 在您設定 Power BI 報表以取得 CQD 資料後，請將其新增為頻道的索引標籤。 選取**+** 頻道之後，請選取 [ **Power BI** ]，然後尋找您的報表。 若要深入瞭解，請參閱[使用 [POWER BI] 索引標籤針對團隊的內嵌報表](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)。 請記住，只有具備 Power BI 授權及 CQD 管理員認證的人員才能存取這些報告。
+> 在您設定 Power BI 報表以取得 CQD 資料後，請將其新增為頻道的索引標籤。 選取頻道之後 **+** ，請選取 [ **Power BI** ]，然後尋找您的報表。 若要深入瞭解，請參閱[使用 [POWER BI] 索引標籤針對團隊的內嵌報表](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)。 請記住，只有具備 Power BI 授權及 CQD 管理員認證的人員才能存取這些報告。
 
 
 ## <a name="related-topics"></a>相關主題

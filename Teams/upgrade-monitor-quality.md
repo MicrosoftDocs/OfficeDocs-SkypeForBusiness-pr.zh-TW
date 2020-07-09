@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b356d171ee8c1a66de2f69b0b0525c24220755
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522556"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085919"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
@@ -33,7 +33,9 @@ ms.locfileid: "44522556"
 
 本文是您升級歷程的卓越運作階段的一部分，在您完成從商務用 Skype 升級至團隊之後，就會立即開始。
 
-[[體驗品質檢查指南](https://aka.ms/qerguide)] 包含一組活動，可針對改善使用者體驗的重要區域評估並提供修正指導方針，如下所示。
+## <a name="improve-and-monitor-call-quality"></a>改善並監控通話品質
+
+[改善及監視團隊的通話品質](monitor-call-quality-qos.md)，包括一組活動，可在對改善使用者體驗產生最大影響的重要區域中評估和提供修正指導方針，如下所示。
 
 ![在審閱期間要檢查的主要區域圖例。](media/plan-my-service-management-image2.png "體驗品質檢查期間要檢查的主要區域：音訊、可靠性及使用者問卷結果。")
 
@@ -51,8 +53,8 @@ ms.locfileid: "44522556"
 
 - 有問題的子網或網路裝置
 
-體驗品質檢查指南中提供的指導方針主要是使用通話品質儀表板（CQD）作為主要工具來報告和調查所述的每一個區域，並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化，以改善音訊體驗，也會直接翻譯成影片和桌面共用的改良功能。
+[改善及監視團隊通話品質的](monitor-call-quality-qos.md)指導方針重點是使用通話品質儀表板（CQD）作為主要工具來報告和調查所述的每個區域，並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化，以改善音訊體驗，也會直接翻譯成影片和桌面共用的改良功能。
 
-我們強烈建議您提前提名品質擁護者。 命名之後，他們應該開始熟悉[體驗品質檢查指南](https://aka.ms/qerguide)中的內容。
+我們強烈建議您提前提名品質擁護者。 命名之後，他們應該開始熟悉[改善及監視團隊通話品質的](monitor-call-quality-qos.md)內容。
 
 <!--ENDOFSECTION-->

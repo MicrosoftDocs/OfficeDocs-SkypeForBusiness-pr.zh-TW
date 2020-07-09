@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何針對 Windows 上的 Teams 桌面用戶端應用程式進行安裝和更新問題的疑難排解。
-ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
-ms.translationtype: HT
+ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888842"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086139"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解
 
@@ -154,3 +154,4 @@ Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移�
 
 - [取得 Teams 用戶端](get-clients.md)
 - [Teams 用戶端更新](teams-client-update.md)
+- [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 CQD PSTN Direct 路由報告來監控並疑難排解 Microsoft 團隊中的 PSTN 通話。
-ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 使用 Microsoft 團隊通話品質儀表板（CQD） PSTN 直向路由報告來監控並疑難排解 Microsoft 團隊中的 PSTN 通話。
+ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221747"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085339"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN Direct 路由報告
 
-我們已在2020年3月新增 CQD PSTN Direct 路由報告，以供您下載[的 POWER BI 查詢範本 FOR CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
+2020年3月的新功能我們已新增 Microsoft 團隊通話品質儀表板（CQD） PSTN 直接路由報告至我們供您下載[的 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
 
 
 CQD PSTN Direct 路由報告（CQD PSTN 直向路由報告 pbit）可協助您瞭解 PSTN 服務的使用模式與品質。 使用此報告可監視服務使用方式、會話邊界控制器（SBC）、電話語音、網路參數及網路效能比率詳細資料的相關資訊。 此資訊可協助您找出問題，包括中斷通話的原因。 例如，您可以看到 [音量下降]，或多少通話受到影響，以及原因。
@@ -146,3 +146,5 @@ CQD PSTN Direct 路由報告提供下列與服務的整體健康情況相關的�
 ## <a name="related-topics"></a>相關主題
 
 [使用 Power BI 來分析 Microsoft 團隊的 CQD 資料](CQD-PSTN-report.md)
+
+[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

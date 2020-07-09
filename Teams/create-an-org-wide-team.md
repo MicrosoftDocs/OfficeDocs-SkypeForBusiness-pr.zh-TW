@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868120"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086220"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中建立全組織小組
 
@@ -32,7 +32,7 @@ ms.locfileid: "44868120"
 
 ![建立全組織小組的全組織選項螢幕擷取畫面](media/create-org-wide-team.png "建立全組織小組的全組織選項螢幕擷取畫面")
 
-當建立全組織小組時，系統會將所有全域系統管理員新增為小組擁有者，並將所有作用中的使用者新增為小組成員。 未授權的使用者也會新增至小組。 未獲授權的使用者第一次登入 Teams 時，系統會指派給使用者一個 Microsoft Teams 商業雲端試用授權。 若要深入了解試用授權，請參閱[管理 Teams 商業雲端試用供應項目](iw-trial-teams.md)。 
+當建立全組織小組時，系統會將所有全域系統管理員新增為小組擁有者，並將所有作用中的使用者新增為小組成員。 未授權的使用者也會新增至小組。 未授權的使用者第一次登入小組時，系統會為該使用者指派 Microsoft 團隊探索性授權。 若要深入瞭解探索授權，請參閱[管理 Microsoft 團隊探索性授權](teams-exploratory.md)。 
 
 您的全組織小組將不會新增下列帳戶類型：
 

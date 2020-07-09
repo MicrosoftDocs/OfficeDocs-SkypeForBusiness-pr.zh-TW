@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666275"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085969"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -156,6 +156,7 @@ IT 專業人員和支援人員能運用 [Teams IT 架構海報](teams-architectu
 
 其他支援資源包括：
 
+- [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 - [Microsoft Teams 安裝和更新問題的疑難排解](troubleshoot-installation.md)
 - [發出支援票證 (可供教職員使用)](https://aka.ms/edusupport)
 - [適用於使用 Teams 的教育人員的支援和說明中心](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)

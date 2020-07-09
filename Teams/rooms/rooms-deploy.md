@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 閱讀本文以瞭解如何部署 Microsoft 團隊聊天室，包括部署階段。
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905405"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085959"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
@@ -119,7 +119,7 @@ _範例 Microsoft 團隊聊天室服務帳戶規劃表格_
 
 每個 Microsoft 團隊機房裝置都需要具備專用且唯一的資源帳戶，才能在 Microsoft 團隊或商務用 Skype 和 Exchange 中啟用。 此帳戶必須擁有 Exchange 託管的聊天室信箱，並在團隊或商務用 Skype 部署中啟用為會議室。 在 Exchange 端，您必須設定行事曆處理，才能讓裝置自動接受傳入的會議邀請。 如需建立這些帳戶的詳細資訊，請參閱[設定 Microsoft 團隊聊天室的帳戶](rooms-configure-accounts.md)。 
 
-**Pro 提示**：讓這些帳戶的顯示名稱具描述性且易於理解。 這些是使用者在搜尋並新增 Microsoft 團隊聊天室系統至會議時所看到的名稱。 有些組織會使用 [公約]*網站*-的*聊天室名稱*（*最大房間容量*）-RS （例如 Curie），在倫敦有12個人員的會議室，可能會有顯示名稱 LON-Curie （12）-RS。 
+**Pro 提示**：讓這些帳戶的顯示名稱具描述性且易於理解。 這些是使用者在搜尋並新增 Microsoft 團隊聊天室系統至會議時所看到的名稱。 有些組織會使用 [公約]*網站*的 - *聊天室名稱*（*最大房間容量*）-RS （例如 Curie），在倫敦有12個人員的會議室，可能會有顯示名稱 LON-Curie （12）-RS。 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ _範例 Microsoft 團隊聊天室服務帳戶規劃表格_
 | 部署50以上的 Microsoft 團隊會議室裝置、從多個供應商部署裝置，或需要組織特定的代理程式作為部署的一部分。 | 使用以任務排序器為基礎的軟體組建與發佈平臺，例如[Microsoft 端點建構管理員](rooms-scale.md)。  |
 
 
-**Pro 提示**-每個 Microsoft 團隊聊天室都必須在您的網路上擁有有效且唯一的電腦名稱稱。 許多監視及觸發系統會將電腦名稱稱顯示為金鑰識別碼，因此請務必開發 Microsoft 團隊聊天室部署的命名慣例，以讓支援人員輕鬆找出已標記為需要動作的 Microsoft 團隊聊天室。 範例可能是使用 MTR-*網站*-*房間名稱*（MTR-CURIE）的模式。 
+**Pro 提示**-每個 Microsoft 團隊聊天室都必須在您的網路上擁有有效且唯一的電腦名稱稱。 許多監視及觸發系統會將電腦名稱稱顯示為金鑰識別碼，因此請務必開發 Microsoft 團隊聊天室部署的命名慣例，以讓支援人員輕鬆找出已標記為需要動作的 Microsoft 團隊聊天室。 範例可能是使用 MTR-*網站* - *房間名稱*（MTR-CURIE）的模式。 
 
 在部署過程中，您也需要考慮管理和設定由 Microsoft 小組聊天室應用程式安裝程式所建立的[本機帳戶](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)的方案。
 
@@ -188,7 +188,7 @@ _範例部署資料表_
 
 部署 Microsoft 團隊聊天室系統之後，您應該進行測試。 檢查[Microsoft 團隊聊天室](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)中所列的功能是否可協助您在已部署的裝置上運作。 我們強烈建議部署小組驗證 Microsoft [小組] 會議室是否已記錄到 Microsoft 作業管理套件（如果使用）。 您也必須進行一些測試通話和會議，才能檢查品質。 如需詳細資訊，請參閱此[實用的部署檢查清單](console.md#microsoft-teams-rooms-deployment-checklist)。
 
-我們建議您做為 [一般小組] 或 [商務用 Skype] 推出的一部分，您可以設定為通話品質儀表板（CQD）建立檔案、監控品質趨勢，以及參與經驗檢查的品質。 如需詳細資訊，請參閱[體驗檢查指南的品質](https://aka.ms/qerguide)。 
+我們建議您做為 [一般小組] 或 [商務用 Skype] 推出的一部分，您可以設定為通話品質儀表板（CQD）建立檔案、監控品質趨勢，以及參與經驗檢查的品質。 如需詳細資訊，請參閱[改善及監視團隊的通話品質](../monitor-call-quality-qos.md)。 
 
 ### <a name="asset-management"></a>資產管理
 

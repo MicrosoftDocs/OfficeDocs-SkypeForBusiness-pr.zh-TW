@@ -16,12 +16,12 @@ f1.keywords:
 description: 最好的做法是確認團隊服務是否健康，以及其他 Microsoft 365 或 Office 365 元件（例如 Exchange、SharePoint 和商務用 OneDrive）。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690169"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085519"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>驗證 Microsoft 團隊的服務健康情況
 ===========================================
@@ -33,3 +33,8 @@ Microsoft 團隊的服務健康情況會顯示在 Microsoft 365 系統管理中�
 ![[服務健康情況] 頁面的螢幕擷取畫面。](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![顯示 [Microsoft 團隊服務] 正常運行的螢幕擷取畫面。](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## <a name="related-topics"></a>相關主題
+
+[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

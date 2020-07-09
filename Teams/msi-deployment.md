@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: rafarhi, jhreddy
 audience: admin
 description: 使用 Microsoft 端點設定管理員來大量部署 Microsoft 團隊以選取使用者或電腦。
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4d29790994ba155984077ea9046fc6cf097302
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902808"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088191"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
@@ -59,7 +59,7 @@ ms.locfileid: "43902808"
 
 ### <a name="pc-installation"></a>電腦安裝
 
-[團隊 MSI] 會在程式檔案中放置安裝程式。 每當使用者登入新的 Windows 使用者設定檔時，系統就會啟動安裝程式，而且會在該使用者的`AppData`資料夾中安裝 [小組] app 的複本。 如果使用者已在`AppData`資料夾中安裝 [團隊] 應用程式，則 MSI 安裝程式將會略過該使用者的進程。
+[團隊 MSI] 會在程式檔案中放置安裝程式。 每當使用者登入新的 Windows 使用者設定檔時，系統就會啟動安裝程式，而且會在該使用者的資料夾中安裝 [小組] app 的複本 `AppData` 。 如果使用者已在資料夾中安裝 [團隊] 應用程式 `AppData` ，則 MSI 安裝程式將會略過該使用者的進程。
 
 請勿使用 MSI 來部署更新，因為用戶端會在檢測到可從服務取得新版本時自動更新。 若要重新部署最新的安裝程式，請使用以下所述的重新部署 MSI 程式。 如果您部署舊版的 MSI 套件，則用戶端可能會自動更新（在 VDI 環境中除外）。 如果部署的是較舊的版本，MSI 將觸發應用程式更新，讓使用者能夠使用團隊。
 
@@ -85,8 +85,8 @@ ms.locfileid: "43902808"
 > 後續步驟包含如何修改註冊表的相關資訊。 修改之後，請務必先備份註冊表，然後在問題發生時，瞭解如何還原註冊表。 如需如何備份、還原及修改註冊表的詳細資訊，請參閱[適用于高級使用者的 Windows 註冊資訊](https://support.microsoft.com/help/256986)。
 
 1. 卸載針對每個使用者設定檔所安裝的團隊 app。 如需詳細資訊，請參閱[卸載 Microsoft 團隊](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)。
-2. 在下`%localappdata%\Microsoft\Teams\`遞迴刪除目錄。
-3. 刪除`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`註冊表值。
+2. 在下遞迴刪除目錄 `%localappdata%\Microsoft\Teams\` 。
+3. 刪除 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 註冊表值。
 4. 將 MSI 套件重新部署到該特定電腦。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>避免團隊在安裝後自動啟動

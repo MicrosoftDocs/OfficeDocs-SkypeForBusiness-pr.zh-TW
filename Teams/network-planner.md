@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 團隊的網路 Planner
+title: 使用 Microsoft 團隊的網路 planner
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b8c6a59216d1ac04c0e079015aa9de13f8cecb37
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904795"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088231"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 團隊的網路 Planner
+# <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 團隊的網路 planner
 
-網路 Planner 是團隊系統管理中心提供的新工具。 您可以前往**Planner** > **網路 Planner**找到它。 網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。
+網路 Planner 是團隊系統管理中心提供的新工具。 您可以前往**Planner**  >  **網路 Planner**找到它。 網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。
 
-![網路 Planner 的螢幕擷取畫面](media/network-planner.png)
+![網路 planner 的螢幕擷取畫面](media/network-planner.png)
 
-網路 Planner 可讓您：
+網路 planner 可讓您：
 
 - 使用網站與 Microsoft 建議的角色（office 工人、遠端工作人員和團隊房間系統）建立您組織的代表。
 
@@ -43,13 +43,13 @@ ms.locfileid: "43904795"
 
 - 產生報告並計算團隊使用量的頻寬需求。
 
-若要使用網路 Planner，您必須是全域系統管理員、團隊服務系統管理員或團隊通訊系統管理員。
+若要使用網路 planner，您必須是全域系統管理員、團隊服務系統管理員或團隊通訊系統管理員。
 
 ## <a name="create-a-custom-persona"></a>建立自訂角色
 
 請依照下列步驟來建立自訂角色：
 
-1. 移至 Microsoft 團隊系統管理中心的 [網路 Planner]。
+1. 移至 Microsoft 團隊系統管理中心的 [網路 planner]。
 
 2. 在 [**角色**] 索引標籤上，按一下 [ **+ 自訂角色**]。 
 
@@ -63,7 +63,7 @@ ms.locfileid: "43904795"
 
 請依照下列步驟開始建立您的網路方案：
 
-1. 移至 Microsoft 團隊系統管理中心的 [網路 Planner]。
+1. 移至 Microsoft 團隊系統管理中心的 [網路 planner]。
 
 2. 在 [**網路方案**] 索引標籤上，按一下 [**新增網路方案**]。
 
@@ -106,4 +106,4 @@ ms.locfileid: "43904795"
 
 ## <a name="example-scenario"></a>範例案例
 
-如需如何使用網路 Planner 設定網路方案並使用這些步驟產生報告的範例，請下載[網路 Planner 操作說明版 PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)投影片組（僅提供英文版）。
+如需如何使用網路 planner 設定網路方案並使用這些步驟產生報告的範例，請下載[網路 planner 操作說明版 PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)投影片組（僅提供英文版）。

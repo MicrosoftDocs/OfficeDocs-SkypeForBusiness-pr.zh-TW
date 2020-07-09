@@ -1,10 +1,10 @@
 ---
-title: '[尺寸與測量]-通話品質儀表板'
+title: 尺寸與測量-通話品質儀表板（CQD）
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板所使用之尺寸與度量的詳細資訊。
-ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板（CQD）所使用之尺寸與度量的詳細資訊。
+ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938512"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085779"
 ---
-# <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>[通話品質] 儀表板中提供的尺寸與測量
+# <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質儀表板（CQD）中可用的尺寸與量化指標
 
-Microsoft 團隊和商務用 Skype Online 的通話品質儀表板（CQD）可讓您更清楚地瞭解使用這些服務進行通話的通話品質。 本主題提供透過 CQD 顯示之維度與度量的詳細資訊。 若要深入瞭解 CQD，請參閱[開啟與使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)。
+Microsoft 團隊和商務用 Skype Online 的通話品質儀表板（CQD）可讓您更清楚地瞭解使用這些服務進行通話的通話品質。 本主題提供透過 CQD 顯示之維度與度量的詳細資訊。 若要深入瞭解 CQD，請參閱[在 Microsoft 團隊中使用 CQD 來管理通話與會議品質](quality-of-experience-review-guide.md)。
 
 ## <a name="first-and-second-endpoint-classification"></a>第一和第二個端點分類
 
@@ -136,8 +136,8 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 首先是伺服器  | 枚舉 <br/>**可能的值：** <br/>&bull;端 <br/>&bull;伺服器  | 表示第一個端點是伺服器端點（例如會議服務器）（AVMCU、ASMCU）或其他媒體伺服器（中繼伺服器），或是用戶端端點。  **範例值：** 端 | |
 | 第二個是伺服器  | 枚舉 <br/>**可能的值：** <br/>&bull;端 <br/>&bull;伺服器   | 表示第二個端點是伺服器端點，或是用戶端端點。 <br/>  **範例值：** 端 | |
 | 首先是來電者  | Boolean  | 如果第一個端點是啟動會話的呼叫者，則為 True。   | |
-| 第一個網路連線詳細資料  | 枚舉 <br>**可能的值：** <br/>&bull;有線 <br/>&bull;Wifi <br/>&bull;MobileBB <br/>&bull;建立 <br/>&bull;換句話說 | 第一個端點所使用的網路類型。  <br/> **範例值：** 有線  | &bull;端點未報告資料  |
-| 第二個網路連線詳細資料  | 枚舉 <br/>**可能的值：** <br/>&bull;有線 <br/>&bull;Wifi <br/>&bull;MobileBB <br/>&bull;建立 <br/>&bull;換句話說 | 第二個端點所使用的網路類型。  <br/> **範例值：** 有線  | &bull;端點未報告資料  |
+| 第一個網路連線詳細資料  | 枚舉 <br>**可能的值：** <br/>&bull;有線 <br/>&bull;WiFi <br/>&bull;MobileBB <br/>&bull;建立 <br/>&bull;換句話說 | 第一個端點所使用的網路類型。  <br/> **範例值：** 有線  | &bull;端點未報告資料  |
+| 第二個網路連線詳細資料  | 枚舉 <br/>**可能的值：** <br/>&bull;有線 <br/>&bull;WiFi <br/>&bull;MobileBB <br/>&bull;建立 <br/>&bull;換句話說 | 第二個端點所使用的網路類型。  <br/> **範例值：** 有線  | &bull;端點未報告資料  |
 | 資料流程方向  | 枚舉 <br/>**可能的值：** <br/>&bull;第一秒 <br/>&bull;第二個到第一 <br/> | 指示資料流程的方向。 <br/>&bull;**範例值：** 第一秒 | &bull;未報告任何資料來指示資料流程的方向 |
 | [負載描述]  | String  | 資料流程中使用的最後一個編解碼器名稱。 <br/> **範例值：** SILKWide | &bull;沒有可用的資料 |
 | 音訊與視頻通話  | Boolean  | 如果通話同時包含音訊與視頻資料流程，則為 True，否則為 False    | &bull;未報告任何資料來指出資料流程的媒體類型。 |
@@ -170,7 +170,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第一個使用者代理程式  | String  | 第一個端點的使用者代理程式字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （商務用 Skype） | &bull;第一個端點未報告使用者代理   |
 | 第二個使用者代理程式  | String  | 第二個端點的使用者代理字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （商務用 Skype） | &bull;第二個端點未報告任何使用者代理   |
 | 會議類型  | 枚舉 <br/>**可能的值：** <br/>&bull;會議： applicationsharing <br/>&bull;會議：音訊-影片 <br/>&bull;會議：焦點 | 會議 URI 的類型。  <br/> **範例值：** 會議：音訊-影片 | &bull;非會議案例。   |
-| 會議 ID  | String | 與資料流程相關聯的會議 ID （或通話識別碼）。 在 cqd.teams.microsoft.com 中，所有通話都有來電 ID，不論他們是人員對人（P2P）通話還是電話會議。 在 cqd.lync.com 中，此值僅針對商務用 Skype 會議呼叫 avialble。  這個維度可能有太多的資料列，無法做為報表中的維度。 您可以改為使用篩選。  <br/> **範例值（cqd.lync.com）：** 0001P6GK <br/> **範例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| 會議 ID  | String | 與資料流程相關聯的會議 ID （或通話識別碼）。 在 cqd.teams.microsoft.com 中，所有通話都有來電 ID，不論他們是人員對人（P2P）通話還是電話會議。 在 cqd.lync.com 中，此值僅適用于商務用 Skype 會議通話。  這個維度可能有太多的資料列，無法做為報表中的維度。 您可以改為使用篩選。  <br/> **範例值（cqd.lync.com）：** 0001P6GK <br/> **範例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | 第一個用戶端 App 版本  | String  | 第一個端點所用的應用程式版本。 資料是從使用者代理程式字串分析而來。 <br/> **範例值：** 16.0.7766.2047 | &bull;無法解析版本字串 <br/>&bull;未報告值。   |
 | 第二個用戶端 App 版本  | String  | 第二個端點所用的應用程式版本。 資料是從使用者代理程式字串分析而來。 <br/> **範例值：** 16.0.7766.2047 | &bull;無法解析版本字串 <br/>&bull;未報告值。 |
 |會議 Id （在 cqd.teams.microsoft.com 中） <br/> 會議 ID （在 cqd.lync.com 中） |String |會議的識別碼，在建立會議時產生。 <br/> **範例值（商務用 Skype）：** 0001P6GK  <br/> **範例價值（團隊）：** 19： meeting_MzB .。。zIw@thread v2| |
@@ -701,9 +701,18 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 
 ## <a name="related-topics"></a>相關主題
 
-[設定商務用 Skype 通話分析](set-up-call-analytics.md)
+[改善及監視團隊的通話品質](monitor-call-quality-qos.md)
 
-[使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[設定通話品質儀表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+
+[上傳租使用者及組建資料](CQD-upload-tenant-building-data.md)
+
+[CQD 資料和報表](CQD-data-and-reports.md)
+
+[使用 CQD 管理通話與會議品質](quality-of-experience-review-guide.md)
+
+[CQD 中的資料流程分類](stream-classification-in-call-quality-dashboard.md)
+
+[使用 Power BI 來分析 CQD 資料](CQD-Power-BI-query-templates.md)

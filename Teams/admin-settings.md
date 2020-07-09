@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30cbb5a29f88494c24474624a79ffa4ea8004025
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160360"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085679"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft 團隊中應用程式的系統管理設定
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "42160360"
 
 App 提供現成的工具供貴組織用來充分發揮團隊的效用。 這些 app 結合由 Microsoft （由協力廠商或由貴組織的開發人員建立）所提供的索引標籤、訊息擴充、連接器和 bot 功能。
 
-您可以在 Microsoft 團隊系統管理中心的 [**團隊 app** ] 中管理貴組織的應用程式。 例如，您可以允許或封鎖組織階層的 app、設定原則以控制團隊使用者可以使用哪些應用程式，以及將最重要的 app 釘選到您的使用者，來自訂團隊。
+您可以在系統[管理中心](https://admin.teams.microsoft.com/)的 [**團隊 app** ] 中管理貴組織的應用程式。 例如，您可以允許或封鎖組織階層的 app、設定原則以控制團隊使用者可以使用哪些應用程式，以及將最重要的 app 釘選到您的使用者，來自訂團隊。
 
 我們會持續改善團隊中的應用程式體驗，以及新增功能和功能。 隨著時間的推移，我們將會建立其他 app 管理功能，因此請返回有關 app 原則的最新資訊。
 
@@ -46,7 +46,7 @@ App 提供現成的工具供貴組織用來充分發揮團隊的效用。 這些
 
 若要深入瞭解，請參閱[管理團隊中的應用程式](manage-apps.md)。
 
-## <a name="app-permission-policies"></a>App 許可權原則
+## <a name="app-permission-policies"></a>應用程式權限原則
 
 有了 app 許可權原則，您就可以控制貴組織中特定使用者可以使用哪些 app。 您可以允許或封鎖由 Microsoft、協力廠商及貴組織發佈的所有 app 或特定應用程式。
 

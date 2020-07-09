@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c90f5e62dbc3cc4944031eeaa9a19a6fc35bb47f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691319"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085809"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -148,7 +148,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>對會議和通話品質進行疑難排解 
 
-Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)。 通話分析能顯示每位使用者在特定通話和會議的裝置、網路和連線詳細資訊。 通話分析的設計目的在於協助系統管理員和支援人員疑難排解特定通話的通話品質問題，而通話品質儀表板的設計目的則是在協助系統管理員和網路工程師最佳化網路。 通話品質儀表板的重點不在特定使用者身上，而是會查看整個 Teams 組織的匯彙資訊。 
+Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話分析和通話品質儀表板](monitor-call-quality-qos.md)。 通話分析能顯示每位使用者在特定通話和會議的裝置、網路和連線詳細資訊。 通話分析的設計目的在於協助系統管理員和支援人員疑難排解特定通話的通話品質問題，而通話品質儀表板的設計目的則是在協助系統管理員和網路工程師最佳化網路。 通話品質儀表板的重點不在特定使用者身上，而是會查看整個 Teams 組織的匯彙資訊。 
 
 |問問自己|動作 |
 |------------|-------|

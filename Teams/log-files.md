@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊所產生的調試、媒體和桌面記錄，以及可在哪裡找到這些記錄，以及如何協助疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 2303082c4f1c16a28a9116047d904a5d491a535a
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012189"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085749"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在 Microsoft 團隊的疑難排解中使用記錄檔
 =================================================
@@ -127,3 +127,9 @@ Linux
 |Windows     |% appdata% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft 小組/logs.txt         |
+
+
+## <a name="related-topics"></a>相關主題
+
+[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+

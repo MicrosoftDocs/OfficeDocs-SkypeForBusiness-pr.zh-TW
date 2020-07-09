@@ -1,14 +1,13 @@
 ---
-title: 在團隊用戶端中實施服務品質
+title: 在 Microsoft 團隊用戶端中實現服務品質（QoS）
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
-description: 瞭解如何在 Microsoft 團隊中為貴組織的服務品質（QoS）準備網路。
+description: 瞭解如何使用服務品質（QoS）來優化 Microsoft 團隊桌面用戶端的網路流量。
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -18,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904558"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085529"
 ---
-# <a name="set-qos-on-windows-clients"></a>在 Windows 用戶端上設定 QoS
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在 Microsoft 團隊用戶端中實現服務品質（QoS）
 
-您可以在 [群組原則] 中使用原則式 QoS，在團隊用戶端中設定預先定義 DSCP 值的來源埠範圍。 下表中指定的埠範圍是為每個工作負載建立原則的起點。
+您可以在 [群組原則] 中使用原則式服務品質（QoS），在 [團隊用戶端] 中設定預先定義 DSCP 值的來源埠範圍。 下表中指定的埠範圍是為每個工作負載建立原則的起點。
 
 *資料表1。建議的初始埠範圍*
 
@@ -54,7 +53,7 @@ ms.locfileid: "43904558"
 
 1. 在 [**原則式 QoS** ] 對話方塊的 [開始] 頁面上，于 [**名稱**] 方塊中輸入新原則的名稱。 選取 [**指定 DSCP 值**]，然後將值設定為**46**。 [離開]**指定輸出限制率**未選取，然後按 **[下一步]**。
 
-1. 在下一頁中，選取 [**僅限具有此可執行檔名稱的應用程式**]，然後輸入名稱 [**團隊 .exe**]，然後按 **[下一步]**。 此設定會指示原則只會將小組用戶端的流量相符的優先順序。
+1. 在下一頁中，選取 [**僅限具有此可執行檔名稱的應用程式**]，然後輸入**Teams.exe**的名稱，然後按 **[下一步]**。 此設定會指示原則只會將小組用戶端的流量相符的優先順序。
 
 1. 在第三個頁面上，確認已選取 [**所有來源 ip 位址**] 和 [**任何目的地 ip 位址**]，然後按一下 **[下一步]**。 這兩項設定可確保無論哪個電腦（IP 位址）傳送資料包，以及哪台電腦（IP 位址）會接收資料包，都會管理資料包。
 
@@ -86,9 +85,9 @@ ms.locfileid: "43904558"
    gpresult /R > gp.txt
    ```
 
-   這會產生已套用 Gpo 的報告，並將它傳送到名為*gp*的文字檔。
+   這會產生已套用 Gpo 的報告，並將它傳送到名為*gp.txt*的文字檔。
 
-   如需名為*gp*的 html 報表，請輸入下列命令：
+   如需名為*gp.html*的可讀性較強的 HTML 報表，請輸入下列命令：
 
    ```console
    gpresult /H gp.html
@@ -98,7 +97,7 @@ ms.locfileid: "43904558"
 
 1. 開啟 [登錄編輯程式]，然後移至
 
-   HKEY\_本機\_電腦\\軟體\\原則\\Microsoft\\Windows\\QoS
+   HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 原則 \\ Microsoft \\ Windows \\ QoS
 
    確認資料表2中所列的登錄專案值。
 
@@ -106,7 +105,7 @@ ms.locfileid: "43904558"
 
    |          名稱          |  類型  |    資料     |
    |         :---:          | :---:  |    :---:    |
-   |    應用程式名稱    | REG_SZ |  團隊 .exe  |
+   |    應用程式名稱    | REG_SZ |  Teams.exe  |
    |       DSCP 值       | REG_SZ |     46      |
    |        本機 IP        | REG_SZ |     \*      |
    | 本機 IP 前置詞長度 | REG_SZ |     \*      |
@@ -119,3 +118,8 @@ ms.locfileid: "43904558"
    | | | |
 
 1. 針對您正在使用的用戶端，確認 [應用程式名稱] 專案的值正確無誤，然後確認 [DSCP 值] 和 [本機埠] 專案都反映了 [群組原則] 物件中的設定。
+
+
+## <a name="related-topics"></a>相關主題
+
+[在團隊中實現服務品質（QoS）](QoS-in-Teams.md)

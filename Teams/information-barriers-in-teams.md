@@ -16,12 +16,12 @@ description: 本文說明 Microsoft 團隊中的資訊障礙，以及他們會�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021795"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083183"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -143,10 +143,6 @@ Enrico 無法再傳送訊息到群組聊天。
     ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-people-picker.png)
     
 - [**活動]** 索引標籤-如果使用者要造訪封鎖使用者的 [**活動**] 索引標籤，就不會顯示任何文章。 （[**活動**] 索引標籤只會顯示頻道發佈，而在兩個使用者之間則不會有任何常見頻道。）
-
-    以下是 [活動] 索引標籤視圖的範例。
-
-    ![顯示 [活動] 索引標籤的螢幕擷取畫面](media/ib-before-activity-tab-policy.png)
 
     以下是已封鎖之 [活動] 索引標籤視圖的範例。
 

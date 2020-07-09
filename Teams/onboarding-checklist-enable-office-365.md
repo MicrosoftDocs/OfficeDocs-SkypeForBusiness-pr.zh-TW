@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665165"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085169"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>啟用 Microsoft 365 或 Office 365
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665165"
 | utf-7  | 確認租使用者管理員 | 與您的安全小組合作，開發 Microsoft 365 或 Office 365 管理模型。 <br/><br/>請務必識別並記錄所有租使用者與服務管理員。 | | [關於 Microsoft 365 或 Office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 型  | 針對您的租使用者實施管理角色 | 確認您的管理模型符合貴組織的需求，並將 Microsoft 365 或 Office 365 系統管理員角色指派給您的系統管理員。 | | [在 Microsoft 365 或 Office 365 for business 中指派管理員角色](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | 9  | 登入通話品質儀表板（CQD）上傳您的建築物資訊。 | 每個團隊部署都應該利用 CQD，深入瞭解使用團隊之所有通話的品質與可靠性。 <br><br>使用 [**其他資訊**] 欄中所列的 CQD 指南，可充分發揮此工具的益處。 | | [規劃服務管理和品質](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[品質體驗回顧指南](https://aka.ms/qerguide) <br/><br/>[優質體驗回顧範本](https://aka.ms/qertemplates) <br/><br/>[開啟並使用 Microsoft 團隊及商務用 Skype Online 的通話品質儀表板](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[上傳建築物資訊](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 第  | 確認已處理建築物資訊，且通話品質儀表板（CQD）對於您的租使用者可執行。 | | | [通話品質儀表板](https://cqd.lync.com) |
+| 第  | 確認已處理建築物資訊，且通話品質儀表板（CQD）對於您的租使用者可執行。 | | | [通話品質儀表板](https://cqd.teams.microsoft.com) |

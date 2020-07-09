@@ -22,17 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539640"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085289"
 ---
 <a name="add-and-update-reporting-labels"></a>新增和更新報告標籤
 ============================
 
-您的組織會使用報表標籤來指示辦公室、建築物或組織網站的物理位置。 Microsoft [團隊管理中心] 中的 [報告標籤] 頁面可讓您提供內含物理位置及其相關網路子網清單的文字檔（.csv 或 tsv）。 此檔案是由 [通話分析] 和 [通話品質儀表板] 用來產生報告。 當您上傳子網對應時，這些服務所提供的報告也會包含位置名稱，讓報告更容易理解，並用於修正任何潛在問題。
+您的組織會使用報表標籤來指示辦公室、建築物或組織網站的物理位置。 Microsoft [團隊管理中心] 中的 [報告標籤] 頁面可讓您提供內含物理位置及其相關網路子網清單的文字檔（.csv 或 tsv）。 此檔案是由呼叫分析用來產生報告。 當您上傳子網對應時，這些服務所提供的報告也會包含位置名稱，讓報告更容易理解，並用於修正任何潛在問題。
+
+> [!IMPORTANT]
+> 您上傳的報告標籤會在您的 Office 365 協定下作為*支援資料*來處理，包括任何其他應視為*客戶資料*或*個人資料*的資訊。 請勿包含您不想提供給 Microsoft 做為*支援資料*的資料，因為 microsoft 工程師會看到這項資訊以供支援使用。
 
 您所提供的報表標籤和位置資料是單一資料結構，目前沒有可用來對資料進行個別編輯的介面。
 
@@ -57,7 +60,7 @@ ms.locfileid: "44539640"
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
 
-如需格式化資料檔案的詳細資訊，請參閱[租使用者資料檔案格式及建立資料檔案結構](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)。
+如需格式化資料檔案的詳細資訊，請參閱[租使用者資料檔案格式及建立資料檔案結構](CQD-upload-tenant-building-data.md#upload-building-data-file)。
 
 ## <a name="related-topics"></a>相關主題
 

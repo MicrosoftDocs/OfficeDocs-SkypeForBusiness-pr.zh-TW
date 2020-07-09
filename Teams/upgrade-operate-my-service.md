@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868500"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085909"
 ---
 # <a name="operate-your-service"></a>營運您的服務
 
@@ -49,7 +49,9 @@ ms.locfileid: "44868500"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定將如何針對團隊執行作業。</li></ul></td></tr>
+
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>完整回顧 [操作指南]。</li><li>實施與貴組織的目標相符的作業戰略，以提供小組工作負載的品質與可靠性。</li><li>查看體驗檢查指南的品質。</li><li> 實施作業策略，定期執行經驗檢查，以確保您的團隊部署在其峰值功能上運作。</li></ul></td></tr>
+
 </table>
 
 ### <a name="operational-role-mapping"></a>操作角色對應
@@ -147,7 +149,7 @@ Microsoft System Center 是一個整合的管理平臺，可協助您管理資�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 監視服務健康情況 | 使用可用的工具，主動監視 Microsoft 團隊服務健康情況（以及相依服務）。 相依服務包括： Exchange Online、SharePoint Online、商務用 OneDrive、Azure Active Directory。 | 即時 | |
 | 事件通知 | 通知內部干係人影響團隊服務的活動。 內部的專案關係人可加入使用者、服務中心及事件管理器。 | 視需要 | |
@@ -220,7 +222,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動| 說明| 節奏| 指派的小組 |
+| 活動| 描述| 節奏| 指派的小組 |
 |---|---|---|---|
 | 監控變更| 監視 Microsoft 團隊服務即將進行的變更。| 日常||
 | 規劃變更| 評估並規劃新功能，包括溝通方案、線上認知活動，以及訓練。| 視需要 ||
@@ -275,7 +277,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 測量使用量（啟用階段） | 在啟用階段繼續 onboarded 網站時，測量及評估團隊使用方式。 根據需要解決使用方式問題。 | 周更新 | |
 | 測量使用量 | 在「磁片磁碟機價值」階段中測量及評估團隊的使用方式（部署完成後）。 根據需要解決使用方式問題。 | 快遞 | |
@@ -328,7 +330,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/視需要的任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 評估使用者觀點 | 使用問卷調查或訪談，或透過團隊或 Yammer 中的意見反應頻道來捕獲及評估使用者觀點。 | 視需要 | |
 | 更新採納方案 | 根據使用者意見反應，在您的組織中變更磁片磁碟機;這可能包含您的通訊方案變更、訓練程式，或您提供給使用者支援的方式。 | 視需要 | |
@@ -353,7 +355,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 監視 Microsoft 365 或 Office 365 IPs 與 Url | 使用提供的[RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要來監控[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)的任何變更，並啟動適用網路群組的變更要求。 | 日常 | |
 | 根據 Microsoft 365 或 Office 365 IPs 與 Url 的變更來更新網路 | 更新適用的網路元件（防火牆、proxy 伺服器、Vpn、用戶端防火牆等等），以反映[Office 365 url 與 IP 位址範圍](https://aka.ms/o365ips)的變更。 | 視需要 | |
@@ -377,16 +379,16 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 所有組織都需要有一個群組或個人負責品質。 這是服務管理中最重要的角色。 品質擁護者角色會指派給熱情使用者體驗的人員或群組。
 這個角色需要技能來識別環境中的趨勢，以及與其他團隊合作來促進修正的贊助。 品質擁護者的最佳候選人通常是客戶服務擁有者。 根據組織的大小與複雜性，您可以使用熱情的人員或群組，以確保高品質的使用者體驗。
 
-[品質擁護者] 利用現有的工具與已記錄的程式，例如通話品質儀表板（CQD）和體驗品質檢查指南、監控使用者體驗、識別品質趨勢，以及在必要時進行磁片磁碟機修正。
+[品質擁護者] 利用現有的工具與已記錄的程式，例如 [通話品質儀表板] （CQD），並[改善及監視團隊的通話品質](monitor-call-quality-qos.md)、監控使用者體驗、識別品質趨勢，以及在必要時進行磁片磁碟機修正。
 品質擁護者應該與各個小組合作，以促進修正動作並向指導委員會報告進度及任何已開啟的問題。
 
-[經驗品質審查指南](https://aka.ms/qerguide)包括在重要區域中評估並提供修正指導方針的活動，以改善使用者體驗。 [品質體驗回顧指南] 中提供的指導方針主要是使用 CQD Online 作為主要工具來報告並調查每一個區域，並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化，以改善音訊體驗，也會直接翻譯成影片和桌面共用的改良功能。
+[改善及監控小組中的通話品質](monitor-call-quality-qos.md)，包括在改善使用者體驗的重要區域中，評估並提供修正指導方針的活動。 [品質體驗回顧指南] 中提供的指導方針主要是使用 CQD Online 作為主要工具來報告並調查每一個區域，並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化，以改善音訊體驗，也會直接翻譯成影片和桌面共用的改良功能。
 
-我們強烈建議您提前提名品質擁護者。 在進行命名之後，他們應該開始熟悉體驗品質檢查指南中的內容，以及相關的訓練資料。
+我們強烈建議您提前提名品質擁護者。 在進行命名之後，他們應該開始熟悉[改善並監視團隊通話品質](monitor-call-quality-qos.md)及相關訓練資料中的內容。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 提名與訓練品質擁護者（s） | 提名並訓練品質專家。 | 視需要 | |
 | 執行經驗檢查品質審查（QERs） | 執行 QER 以找出品質與可靠性的趨勢、針對已定義的目標進行審查，以及向組織中的主要干係人報告。 | 每月（在部署期間每週） | |
@@ -398,7 +400,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 [上傳建築物資訊](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[體驗品質的審查指南](https://aka.ms/qerguide)
+[改善及監視團隊的通話品質](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -419,7 +421,7 @@ Microsoft 團隊端點可以定義為任何執行團隊用戶端的 PC、Mac、�
 
 ### <a name="wi-fi-drivers"></a>Wi-fi 驅動程式
 
-Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會在存取點之間產生非常嚴格的漫遊行為，可能會造成不必要的存取點切換，從而導致通話品質不佳。 執行品質不佳的 Wi-fi 驅動程式可能會透過經驗檢查（如需詳細資訊，請參閱[經驗品質檢查指南](https://aka.ms/qerguide)）來探索。 必須執行一個品質驅動的程式來監視新的 Wi-fi 驅動程式，並確保在將其部署到一般使用者群體之前，對其進行測試。
+Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會在存取點之間產生非常嚴格的漫遊行為，可能會造成不必要的存取點切換，從而導致通話品質不佳。 執行品質不佳的 Wi-fi 驅動程式可能會透過經驗檢查（如需詳細資訊[，請參閱改善及監視團隊的通話品質](monitor-call-quality-qos.md)）。 必須執行一個品質驅動的程式來監視新的 Wi-fi 驅動程式，並確保在將其部署到一般使用者群體之前，對其進行測試。
 
 ### <a name="endpoint-management"></a>端點管理
 
@@ -441,11 +443,11 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 端點需求 | 確定團隊端點繼續符合在[Microsoft 團隊取得用戶端](get-clients.md)中所列之團隊的所有軟體需求。 | 次 | |
 | 端點防火牆 | 根據[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)中的資訊，在端點防火牆上維護適當的排除。 您的協力廠商廠商將提供有關如何維護排除項的特定指導方針。 訂閱[rss](https://support.office.com/o365ip/rss)摘要，以自動收到變更的通知。 | 視需要 | |
-| Wi-fi 驅動程式 | 在電腦上測試並更新 Wi-fi 驅動程式。 使用 CQD （[經驗檢查指南的品質](https://aka.ms/qerguide)）來驗證結果。 | 視需要 | |
+| Wi-fi 驅動程式 | 在電腦上測試並更新 Wi-fi 驅動程式。 使用 CQD 驗證結果（[改善及監視團隊的通話品質](monitor-call-quality-qos.md)）。 | 視需要 | |
 | 端點管理 | 維護支援的端點和介面裝置的編目（例如耳機）。 管理供應商合約、保修、發行、取代及修復原則。 | 次 | |
 | 端點疑難排解 | 疑難排解工作可以包含驗證連線、查閱已知問題清單、記錄收集、分析，以及升級至 Microsoft 支援或協力廠商廠商。 | 視需要 | |
 
@@ -494,7 +496,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 服務管理 | 管理整個租使用者的團隊設定。 | 視需要 | |
 | 使用者管理 | 在小組中管理使用者的設定和授權。 | 視需要 | |

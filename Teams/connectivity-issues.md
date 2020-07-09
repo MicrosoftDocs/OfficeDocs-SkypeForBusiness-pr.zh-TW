@@ -17,12 +17,12 @@ description: 針對 Microsoft Teams 用戶端的連線問題進行疑難排解�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cef20522784ba2d63d1461104a51f3148f48cf53
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 116ce1afef08a6f1639ed011b799f9ca43ea57f5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689639"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085229"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>針對 Microsoft Teams 用戶端的連線問題進行疑難排解
 ==============================================================
@@ -44,3 +44,8 @@ Microsoft Teams 用戶端所發現的問題大多可以追溯到防火牆或 Pro
 -   商務用 Skype 互通性
 
 -   商務用 Skype 用戶端互通性
+
+
+## <a name="related-topics"></a>相關主題
+
+[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -17,12 +17,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690879"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083153"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -74,6 +74,7 @@ Microsoft 通話方案和電話系統直連路由的動態緊急通話可提供�
 - Apple iOS 用戶端版本1.0.92.2019121004 和 App Store 1.0.92 及更高版本的團隊行動用戶端
 - 適用于 Android 用戶端和 Google Play 商店版本 1416/1.0.0.2019121201 及更高版本的團隊行動用戶端
 - 團隊手機版本 1449/1.0.94.2019110802 及更高版本
+- 團隊聊天室版本4.4.25.0 及更高版本
 
 ## <a name="assign-emergency-addresses"></a>指派緊急位址
 
