@@ -382,7 +382,6 @@
 #### [英國的電話號碼管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [美國的電話號碼管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
-
 ### 免付費電話的撥號限制
 #### [概觀](toll-free-dialing-limitations-and-restrictions.md)
 #### [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -518,7 +517,6 @@
 #### [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [舉辦使用者試驗](pilot-essentials.md)
 
-
 ### 準備 Teams 的環境
 #### [技術整備概觀](upgrade-prepare-environment.md)
 #### [準備 Teams 的 IT 人員](upgrade-prepare-IT-pros.md)
@@ -531,12 +529,10 @@
 #### [評估組織的變更整備程度](upgrade-org-change-readiness.md)
 #### [準備使用者整備計畫](upgrade-user-readiness.md)
 
-
 ## 實施您的升級
 ### [概觀](upgrade-to-Teams.md)
 ### [將商務用 Skype Online 升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [將商務用 Skype 內部部署升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## 營運、採用和最佳化
 ### [營運方案概觀](continue-journey.md)
@@ -553,7 +549,6 @@
 ### [與商務用 Skype 共存](coexistence-chat-calls-presence.md)
 ### [Teams 用戶端體驗和遵從共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [設定共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [會議優先](meetings-first.md)
 
@@ -686,6 +681,7 @@
 ## 合規性
 ### [資訊屏障](information-barriers-in-teams.md)
 ### [保留原則](retention-policies.md)
+### [通訊合規性](communication-compliance.md)
 ### [通話和會議的原則式錄製](teams-recording-policy.md)
 ### [資料遺失防護](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子文件探索
@@ -767,7 +763,6 @@
 ### [訊息原則授權](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 電話系統 - 虛擬使用者授權](teams-add-on-licensing/virtual-user.md)
 
-
 ## Microsoft 365 和 Office 365 的互通性
 
 ### [Microsoft 365 群組與 Teams](office-365-groups.md)
@@ -779,7 +774,6 @@
 ### [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](sharepoint-onedrive-interact.md)
 ### [在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## 支援的裝置
 ### [在 Teams 中管理裝置](devices/device-management.md)
 ### [遠端更新裝置](devices/remote-update.md)
@@ -789,7 +783,6 @@
 ### [會議室裝置和解決方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [通過 Microsoft Teams 認證的 IP 電話](devices/teams-ip-phones.md)
 ### [商務用 Skype Online 的電話](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 ## Teams PowerShell
 ### [概觀](teams-powershell-overview.md)
