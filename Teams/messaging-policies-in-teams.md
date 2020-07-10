@@ -22,6 +22,7 @@ ms.custom:
 description: 在本文中，您將瞭解訊息原則，以及如何使用它們來控制團隊中的聊天訊息。
 ms.openlocfilehash: c29697c8ec4d235ed232616e34590351bea59e9e
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042975"
