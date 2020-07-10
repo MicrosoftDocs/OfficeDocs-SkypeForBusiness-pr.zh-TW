@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中定義及使用敏感度標籤。
-ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
+ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012309"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091266"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 團隊的敏感度標籤
 
@@ -77,7 +77,7 @@ $setting["EnableMIPLabels"] = "False"
 
 ### <a name="privacy-setting-of-teams"></a>團隊的隱私權設定
 
-您可以建立可在小組建立期間套用的敏感度標籤，讓使用者可以建立具備特定隱私權（公開或私人）設定的小組。
+您可以建立可在小組建立期間套用的敏感度標籤，讓使用者能夠在公開或私人) 設定中，建立具有特定隱私權 (小組。
 
 例如，您會在安全性 & 合規性中心建立名為 "機密" 的標籤，並設定團隊，讓使用此標籤建立的任何小組都必須是私人團隊。 當使用者建立新的小組並選取 [**機密**] 標籤時，使用者可以使用的唯一隱私權選項是 [**私人**]。 使用者已停用其他隱私權選項，例如公用與組織範圍。
 
@@ -99,15 +99,15 @@ $setting["EnableMIPLabels"] = "False"
 
 您可以指定使用特定標籤建立的小組是否允許來賓存取。 只有貴組織中的使用者可以使用不允許來賓存取權的標籤建立的團隊。 您組織外部的人員無法新增至小組。
 
+### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心的敏感度標籤
+
+您可以在 Microsoft 團隊系統管理中心建立或編輯小組時，設定敏感度標籤。 在團隊屬性以及 Microsoft 團隊系統管理中心 [管理團隊] 頁面上的 [**分類**] 欄中，也會顯示敏感度標籤。
+
 ## <a name="known-issues"></a>已知問題
 
 **在小組建立期間沒有顯示子預設標籤**
 
 目前，在小組建立模型的 [敏感度標籤] 下拉式清單中，會不會在清單的頂端顯示將子標籤設為 [小組] 的預設標籤。 小組創意者仍可以使用下拉式清單來套用子標籤，做為因應措施。
-
-**Microsoft 團隊系統管理中心的敏感度標籤支援**
-
-目前，Microsoft [團隊管理中心] 不支援敏感度標籤。 如果您使用的是敏感度標籤，當您建立或編輯小組時，將無法設定敏感度標籤。 敏感度標籤在小組屬性中也看不到，而且在 Microsoft 團隊系統管理中心的**分類**欄中不會顯示。
 
 **支援小組圖形 Api、Powershell Cmdlet 及範本中的敏感度標籤**
 
