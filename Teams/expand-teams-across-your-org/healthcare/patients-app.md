@@ -18,26 +18,24 @@ appliesto:
 ms.reviewer: anach
 description: 瞭解如何使用 FHIR Api 將電子醫療保健記錄整合至 Microsoft 團隊患者 app。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905515"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098421"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>將電子醫療保健記錄整合至 Microsoft Teams
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-若要參與私人預覽版，請參閱[註冊私人預覽](#enroll-in-the-private-preview)。
-
 本文適用于使用 FHIR Api 的一般醫療保健 IT 開發人員來連線至 Microsoft 團隊。 這會啟用符合醫療保健組織需求的護理協調案例。
 
 連結的文章：針對 Microsoft 團隊患者應用程式的 FHIR 介面規格，以及下列各節說明在您的開發環境或租使用者中設定 FHIR 伺服器及連線患者 app 所需的內容。 您也需要熟悉已選取的 FHIR 伺服器檔，這必須是支援的其中一個選項：
-- Datica （透過其[CMI](https://datica.com/compliant-managed-integration/)產品）
-- Infor Cloverleaf （透過[INFOR FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)）
-- Redox （透過[R ^ FHIR 伺服器](https://www.redoxengine.com/fhir/)）
-- Dapasoft （透過[Corolar 上的 FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)）
+- 透過其[CMI](https://datica.com/compliant-managed-integration/)提供的 Datica () 
+- Infor Cloverleaf (透過[INFOR FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)) 
+- 透過[R ^ FHIR 伺服器](https://www.redoxengine.com/fhir/)Redox () 
+- Dapasoft (到[COROLAR FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)) 
 
 > [!NOTE]
 > 此程式不包括使用 Microsoft 團隊系統管理中心或 PowerShell Cmdlet 來啟用功能的步驟。 此設定會在 FHIR 伺服器/服務端和患者 app 用戶端中徹底完成。
@@ -46,14 +44,13 @@ ms.locfileid: "43905515"
 
 ![患者 app 架構的圖表](../../media/patients-app-architecture.png)
 
-下列各節說明適用于 FHIR 伺服器（或 EHR 支援的 FHIR Api）的 FHIR 資料存取層級的需求，以便與患者 app 整合，包括下列各項：
+下列各節說明在 FHIR 伺服器 (或 EHR 啟用 FHIR) Api 的患者 app 中，僅限 FHIR 資料存取層級的需求，包括下列專案：
 
 - 關於使用者驗證的預期
 - 整合介面的功能和技術需求
 - 效能與可靠性方面的期望
 - 患者 app 支援的 FHIR 資源期望
 - 整合程式與預期的接洽模型
-- 如何在患者 app 的私人預覽版中自行註冊您的客戶
 - 如何開始使用 FHIR，以及患者 app 所面臨的一些常見挑戰
 - 患者 app 下次反覆運算的未來需求
 
@@ -64,23 +61,23 @@ ms.locfileid: "43905515"
 
 ### <a name="authentication"></a>驗證  
 
-*不支援使用者層級授權*的 App 層級授權，就是執行資料轉換並公開連線來透過 FHIR 來 EHR 資料的最常見方式，即使 EHR 系統可能會執行使用者層級授權也一樣。 互通性服務（合作夥伴）會取得 EHR 資料的提升存取權，當其公開與適當的 FHIR 資源相同的資料時，就不會將授權內容傳遞到互通性服務消費者（患者 app）與互通性服務或平臺整合。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
+*不支援使用者層級授權*的 App 層級授權，就是執行資料轉換並公開連線來透過 FHIR 來 EHR 資料的最常見方式，即使 EHR 系統可能會執行使用者層級授權也一樣。 互通性服務 (的合作夥伴) 能提升對 EHR 資料的存取權，而且當它們公開與適當的 FHIR 資源相同的資料時，不會將授權內容傳遞到互通性服務消費者 (患者 app) 與互通性服務或平臺整合。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
 
 應用程式至應用程式驗證模型的描述如下：
 
 應透過 OAuth 2.0[用戶端認證流程](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)來執行服務驗證。 合作夥伴服務必須提供下列專案：
 
 1. 合作夥伴服務可讓患者 app 建立合作夥伴的帳戶，這可讓患者 app 產生並擁有 client_id 和 client_secret，透過合作夥伴驗證服務器上的驗證登錄入口網站來管理。
-2. 合作夥伴服務擁有驗證/授權系統，可接受並驗證（驗證）提供的用戶端認證，並在範圍中傳回含租使用者的存取權杖，如下所述。
-3. 出於安全考慮或在秘密破壞的情況下，患者應用程式可以重新產生機密，並使密碼失效或刪除舊密碼（例如，Azure 入口網站-AAD App 註冊中提供相同的範例）。
+2. 合作夥伴服務擁有驗證/授權系統，它會接受並驗證 (驗證) 提供的用戶端認證，並在範圍中傳回含租使用者認證的存取權杖，如下所述。
+3. 出於安全考慮或在秘密破壞的情況下，患者應用程式可以重新產生機密，並無效或刪除舊的機密 (在 Azure 入口網站-AAD App 註冊) 中提供相同的範例。
 4. 必須解除驗證託管一致性語句的中繼資料端點，才能無需驗證權杖。
-5. 合作夥伴服務提供患者 app 的權杖端點，以使用用戶端認證流程來要求存取權杖。 每個授權伺服器的權杖 url，都應該是從 FHIR 伺服器上的中繼資料中取得的 FHIR 規範（功能）語句的一部分，如下例所示：
+5. 合作夥伴服務提供患者 app 的權杖端點，以使用用戶端認證流程來要求存取權杖。 每個授權伺服器的權杖 url，都應該是從 FHIR 伺服器上的中繼資料中取得的 FHIR 一致性 (功能) 語句，如下例所示：
 
 * * *
     {"resourceType"： "CapabilityStatement"，。
         .
         .
-        "rest"： [{] mode "：" server "，" security "： {" extension "： [{" extension "： [{" url "：] 權杖"，"valueUri"： "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token" "}，{" url "：" 授權 "，" valueUri "：https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize" ""} "，" url "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris：" "" ""，"服務"： [{"："https://hl7.org/fhir/ValueSet/restful-security-service"" "code"： "OAuth"} "" ""}，）。
+        "rest"： [{] mode "：" server "，" security "： {" extension "： [{" extension "： [{" url "：] 權杖"，"valueUri"： " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token " "}，{" url "：" 授權 "，" valueUri "：" https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize ""} "，" url "：" "" ""，" http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris 服務"： [{"：" https://hl7.org/fhir/ValueSet/restful-security-service "" "Code"： "OAuth"} "" ""}，）。
                 .
                 .
             } ] }
@@ -101,9 +98,9 @@ ms.locfileid: "43905515"
 
 ### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>路由：將 AAD 租使用者對應至提供者端點
 
-患者 app 會透過單一端點連接至合作夥伴服務。 合作夥伴服務擁有及維護將每個 Microsoft 客戶（AAD 租使用者識別碼）對應給合作夥伴服務所使用的各個醫療保健提供者（FHIR 伺服器）的機制。
+患者 app 會透過單一端點連接至合作夥伴服務。 合作夥伴服務擁有並維護一個機制，將每個 Microsoft 客戶 (AAD 租使用者識別碼) 對應到合作夥伴服務所使用的 FHIR 伺服器)  (的各個醫療保健提供者。
 
-將 AAD 租使用者對應至提供者端點會使用 AAD 租使用者識別碼（GUID）。 患者 app 會在範圍中傳遞租使用者識別碼，同時要求每個要求的存取權杖。 夥伴服務會保持租使用者識別碼與提供者端點的對應，並根據租使用者識別碼將要求重新導向至提供者端點。 若要這樣做，合作夥伴就能在其端（無論是提供給提供者組織的互通性平臺）中，以手動或透過入口網站的方式來支援設定。
+將 AAD 租使用者對應至提供者端點使用 AAD 租使用者識別碼 (GUID) 。 患者 app 會在範圍中傳遞租使用者識別碼，同時要求每個要求的存取權杖。 夥伴服務會保持租使用者識別碼與提供者端點的對應，並根據租使用者識別碼將要求重新導向至提供者端點。 若要這樣做，合作夥伴會在其端 (手動或透過入口網站上的設定，做為將提供者組織加入其互通性平臺) 的一部分。
 
 驗證與路由工作流程如下所示：
 
@@ -145,26 +142,4 @@ ms.locfileid: "43905515"
 
 如果您是 FHIR 的新使用者，且需要輕鬆存取可公開給 Microsoft 團隊 EHR 整合介面的 FHIR 伺服器，Microsoft 有可供所有開發人員使用的開放來源 FHIR 伺服器。 請參閱 Azure 文章的[FHIR 伺服器](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server)，以深入瞭解 Microsoft 提供的開放來源 FHIR 伺服器，並針對您的組織進行部署。
 
-您也可以使用 HSPC Open 沙箱 EHR 環境來建立可支援開啟 FHIR 伺服器的 EHR，並使用這種方式來利用患者 app。 我們建議您閱讀[HSPC 沙箱檔](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)。 沙箱不僅提供簡單且 UI 的功能，而且方便使用的建立、新增及編輯患者的方式，也提供了幾個開始使用的範例。  
-
-## <a name="enroll-in-the-private-preview"></a>註冊私人預覽
-
-在您建立開放來源 FHIR 伺服器之後，請遵循下列步驟，在您的租使用者內連線至患者 app 是相當簡單的做法：
-
-1. [請](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview)與下列初始詳細資料與我們聯繫：  
-    - 您的姓名
-    - 您的位置
-    - 您所代表的公司或組織
-    - 為什麼您對 EHR 整合感興趣
-
-    我們會儘快取得您的相關問題，並引導您完成設定私人預覽版的程式。
-
-2. 請確定您要用來嘗試患者 app 的租使用者已啟用自訂應用程式的側載。 請參閱[應用程式許可權原則](../../admin-settings.md)，以瞭解如何從適用于您或客戶租使用者的小組系統管理中心開啟此操作。
-
-3. 側載您將從 Microsoft 取得的患者 app 資訊清單（在我們將您的電子郵件處理至我們之後），移至租使用者用來進行護理與患者化整案例的小組中。 關於如何側載應用程式的詳細指示，請參閱將[應用程式套件上傳到 Microsoft 團隊](/microsoftteams/platform/concepts/apps/apps-upload)
-
-4. 流覽至 [一般] 頻道作為小組擁有者，然後按一下 [患者] 索引標籤。您應該會看到第一個執行體驗，其中會出現兩個選項，例如 EHR 模式和手動模式。 請選取**EHR 模式**，然後複製 FHIR 伺服器端點（您已將上述所需的所有必要資料和資源安裝在 Link 功能變數中，並為連線提供良好的名稱來代表 FHIR 伺服器）。 按一下 [連線]，一切就應該準備就緒即可開始。
-
-    ![患者 app 伺服器設定的螢幕擷取畫面](../../media/patients-server.png)
-
-5. 開始使用 app 從 FHIR Server/EHR 搜尋患者，並將它們新增到清單中，並在問題無法使用時[提供意見反應給我們](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外，若要建立完整的經過驗證的患者應用程式（> FHIR 伺服器流程），請透過舊版的 Microsoft 團隊進行醫療保健產品工程，以 FHIR 介面檔中上述所述的驗證需求為您啟用此功能。  
+您也可以使用 HSPC Open 沙箱 EHR 環境來建立可支援開啟 FHIR 伺服器的 EHR，並使用這種方式來利用患者 app。 我們建議您閱讀[HSPC 沙箱檔](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)。 沙箱不僅提供簡單且 UI 的功能，而且方便使用的建立、新增及編輯患者的方式，也提供了幾個開始使用的範例。 
