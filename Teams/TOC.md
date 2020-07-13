@@ -255,6 +255,7 @@
 #### [建立雲端通話佇列](create-a-phone-system-call-queue.md)
 #### [直接從 Teams 回答自動語音應答和通話佇列的通話](answer-auto-attendant-and-call-queue-calls.md)
 
+### [封鎖撥入通話](block-inbound-calls.md)
 ### [通話駐留和擷取](call-park-and-retrieve.md)
 ### [通話共用和群組來電接聽](call-sharing-and-group-call-pickup.md)
 ### [通話原則](teams-calling-policy.md)
@@ -694,21 +695,29 @@
 
 <!-- ============================================================ -->
 # 監控、維護和疑難排解
-## [監控及管理通話品質](monitor-call-quality-qos.md)
-### [體驗品質的審查指南](quality-of-experience-review-guide.md)
-### [在 Teams 中設定 QoS](QoS-in-Teams.md)
+## 監控及管理通話品質
+### [監控及改善通話品質](monitor-call-quality-qos.md)
+### 通話品質儀表板 (CQD)
+#### [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
+#### [設定 CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [上傳租用戶和建築物資料](CQD-upload-tenant-building-data.md)
+#### [CQD 資料和報告](CQD-data-and-reports.md)
+#### [使用 CQD 管理通話和會議品質](quality-of-experience-review-guide.md)
+#### [常見問題集](CQD-frequently-asked-questions.md)
+#### [CQD 中可用的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [CQD 中的串流分類](stream-classification-in-call-quality-dashboard.md)
+#### [建立建築物地圖](CQD-building-mapping.md)
+#### 使用 Power BI 分析 CQD 資料
+##### [使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
+##### [安裝 Power BI 連接器以使用 CQD 查詢範本](CQD-Power-BI-connector.md)
+##### [取得 Teams 使用狀況的 CQD 資料](CQD-teams-utilization-report.md)
+##### [使用 CQD PSTN 直接路由報告](CQD-PSTN-report.md)
+### 通話分析
+#### [設定通話分析](set-up-call-analytics.md)
+#### [使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### 服務品質 (QoS)
+#### [在 Teams 中設定 QoS](QoS-in-Teams.md)
 #### [在 Windows 用戶端上設定 QoS](QoS-in-Teams-clients.md)
-### [通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [設定通話分析](set-up-call-analytics.md)
-### [使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [開啟和使用通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)
-### 使用 Power BI 分析 CQD 資料
-#### [使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
-#### [安裝 Power BI 連接器以使用 CQD 查詢範本](CQD-Power-BI-connector.md)
-#### [取得 Teams 使用狀況的 CQD 資料](CQD-teams-utilization-report.md)
-#### [使用 CQD PSTN 直接路由報告](CQD-PSTN-report.md)
-### [通話品質儀表板中提供的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [通話品質儀表板中的資料流分類](stream-classification-in-call-quality-dashboard.md)
 ## [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [安裝和更新問題疑難排解](troubleshoot-installation.md)
 ## [疑難排解 Teams 用戶端的連線問題](connectivity-issues.md)
@@ -717,6 +726,7 @@
 ## [常見問題：支援您的遠端員工](FAQ-support-remote-workforce.md)
 ## [驗證 Teams 的服務健康情況](service-health.md)
 ## [連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   

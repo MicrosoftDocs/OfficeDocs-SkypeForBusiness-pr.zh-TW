@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 取得現有的 SharePoint Online 網站或頁面，並建立獨立的靜態索引標籤，以作為組織的內部網路入口網站。
 localization_priority: Priority
-ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326580"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083163"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」
 
@@ -105,7 +105,7 @@ ms.locfileid: "44326580"
 
 ## <a name="a-sample-manifestjson-file"></a>範例 Manifest.JSON 檔案
 
-您所產生的 JSO 檔案會如下所示。
+您所產生的 JSON 檔案會如下所示。
 
 ```JSON'
 {
