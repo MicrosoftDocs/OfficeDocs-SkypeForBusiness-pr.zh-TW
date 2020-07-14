@@ -18,12 +18,12 @@ f1.keywords:
 description: 透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fe067e88fe6e73b16e4296b611e87eb94d7e060c
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689799"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098361"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授權來賓存取
 ===========================================
@@ -104,7 +104,7 @@ Teams 的來賓存取依預設會關閉。 若要開啟來賓存取，請參閱[
 
 這些設定會套用到租用戶層級，控制 Microsoft 365 群組和 Teams 中的來賓體驗。
 
-如需有關群組中的來賓存取，包括來賓存取的運作方式、來賓存取的管理方法以及常見問題的解答等詳細資訊，請參閱 [Microsoft 365 群組的來賓存取權](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+如需有關群組中的來賓存取，包括來賓存取的運作方式、來賓存取的管理方法以及常見問題的解答等詳細資訊，請參閱 [管理 Microsoft 365 群組中的來賓存取權](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#manage-groups-guest-access)以及[Microsoft 365 群組的來賓存取權](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>控制 SharePoint Online 和商務用 OneDrive 的來賓存取
 
