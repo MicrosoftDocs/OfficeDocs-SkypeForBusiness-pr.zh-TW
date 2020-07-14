@@ -1,26 +1,26 @@
 ---
 title: 在法律封存上放置 Microsoft 團隊使用者或團隊
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 瞭解如何使用安全性 & 合規性中心在 Microsoft 團隊使用者或小組中進行法律封存，以及如何根據資料需求來瞭解需要法律封存。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3727ac3f6b9ded4c3dbb34a1977f9b99cbaf15e
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: d11ae740f051d4da2a5e930193797c08451cbe7c
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341631"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121353"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>在法律封存上放置 Microsoft 團隊使用者或團隊
 ==================================================
@@ -56,7 +56,7 @@ ms.locfileid: "42341631"
 
 就像資料需求，您可以使用下表來瞭解必須針對法律封存施加的事項：
 
-|例子  |保留內容  |
+|案例  |保留內容  |
 |---------|---------|
 |**Microsoft 團隊透過使用者聊天內容（在1:1 聊天、1：多或群組聊天、私人頻道交談等）。**     |使用者信箱         |
 |**Microsoft 團隊頻道聊天（不包括私人頻道）**    |小組使用的群組信箱         |

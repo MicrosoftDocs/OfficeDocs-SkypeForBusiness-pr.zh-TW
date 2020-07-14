@@ -1,15 +1,15 @@
 ---
 title: 對內容進行 eDiscovery 調查
-author: LolaJacobsen
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ description: 瞭解當您需要執行 eDiscovery 時要採取的動作，例如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950888"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121393"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 
@@ -54,9 +54,9 @@ ms.locfileid: "43950888"
 
 - 若要使用 Microsoft 團隊內容進行 eDiscovery 調查，請參閱在[安全性 & 合規性中心連結中管理 ediscovery 案例](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)中的步驟1。
 
-- Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交談。 您可以在 Outlook `.pst`中開啟檔案，以在匯出後查看這些郵件。
+- Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交談。 您可以 `.pst` 在 Outlook 中開啟檔案，以在匯出後查看這些郵件。
 
-    當您查看`.pst`小組的檔案時，請注意所有交談都保留在 [交談歷程記錄] 底下的 [小組聊天] 資料夾中。 郵件標題包含團隊名稱和頻道名稱。 例如，下圖顯示的是來自王俊元的訊息，其中 messaged 製造規範小組的專案7標準頻道。
+    當您查看小組的檔案時 `.pst` ，請注意所有交談都保留在 [交談歷程記錄] 底下的 [小組聊天] 資料夾中。 郵件標題包含團隊名稱和頻道名稱。 例如，下圖顯示的是來自王俊元的訊息，其中 messaged 製造規範小組的專案7標準頻道。
 
     ![Outlook 中使用者信箱的小組聊天資料夾螢幕擷取畫面](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -154,7 +154,7 @@ ms.locfileid: "43950888"
 
 在將搜尋新增至審閱集合時，您可以從一般的審閱集或交談審查集合中進行選擇。
 
-標準的審閱集與匯出類似;它提供小組內容`.msg`的個別檔案，並在 [基本視圖] 中呈現內容。 您通常會在規劃使用其他軟體工具以稍後重新處理檔案時，使用一般的審閱集。
+標準的審閱集與匯出類似;它提供小組內容的個別檔案 `.msg` ，並在 [基本視圖] 中呈現內容。 您通常會在規劃使用其他軟體工具以稍後重新處理檔案時，使用一般的審閱集。
 
 交談審查集合提供更直觀、更具執行緒的交談視圖;它會以正確的順序來顯示相關的郵件。
 
@@ -184,7 +184,7 @@ ms.locfileid: "43950888"
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>[摘要] 視圖、[文字視圖] 和 [批註] 視圖
 
-如果您按一下 [審查] 集中的 [小組交談]，就會顯示 [**摘要] 視圖**，將整個小組交談顯示為您可以個別互動的訊息清單。 按一下訊息右邊的向下箭號，以顯示操作功能表，可讓您查看訊息詳細資料或下載個別`.msg`檔案。 按一下 [郵件詳細資料]，就會顯示該郵件的中繼資料或完整中繼資料摘要。
+如果您按一下 [審查] 集中的 [小組交談]，就會顯示 [**摘要] 視圖**，將整個小組交談顯示為您可以個別互動的訊息清單。 按一下訊息右邊的向下箭號，以顯示操作功能表，可讓您查看訊息詳細資料或下載個別檔案 `.msg` 。 按一下 [郵件詳細資料]，就會顯示該郵件的中繼資料或完整中繼資料摘要。
 
 若要下載 PDF，請按一下 [摘要] 視圖右上方的 [下載] 按鈕。
 
@@ -196,7 +196,7 @@ ms.locfileid: "43950888"
 
 #### <a name="action-menu"></a>[動作] 功能表
 
-您可以在 [審閱集合] 視窗中按一下 [**動作** \> **匯出**] 來匯出內容。 匯出時有許多選項可供使用。
+您可以在 [審閱集合] 視窗中按一下 [**動作**匯出] 來匯出內容 \> ** **。 匯出時有許多選項可供使用。
 
 若要匯出包含所有小組郵件之所有中繼資料的檔案，請按一下以選取 [**載入**檔案] 核取方塊。 若要在檔案中包含任何您已套用至內容的標記，請按一下以選取 **[卷**標] 核取方塊。
 
