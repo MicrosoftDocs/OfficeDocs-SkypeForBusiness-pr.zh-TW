@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 使用 [團隊管理中心] 遠端更新 Microsoft 團隊手機和共同作業條
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944089"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125946"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>遠端更新 Microsoft 團隊裝置
 
@@ -32,7 +32,7 @@ ms.locfileid: "44944089"
 裝置固件更新可以自動套用，或排程未來的日期和時間。 其他可用的裝置更新不會自動套用，但可以手動套用或排程未來的日期和時間。
 
 > [!NOTE]
-> 雖然可以排程裝置固件更新，但如果排程的日期和時間低於設定的最大30或90天的延遲，則在達到最大延遲時，就會套用固件更新。 系統會忽略排程的日期和時間。
+> 雖然可以排程裝置固件更新，但如果排程的日期和時間低於設定的最大30或90天的延遲，則在達到最大延遲時，就會套用固件更新。 系統會忽略排程的日期和時間。 此外，您還可以在美國政府雲端租使用者（GCC-High）中使用 [遠端更新 Microsoft 團隊裝置] 功能。
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>選擇自動裝置固件更新行為
 

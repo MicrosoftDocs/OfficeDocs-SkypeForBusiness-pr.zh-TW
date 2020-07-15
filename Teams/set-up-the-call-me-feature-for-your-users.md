@@ -17,19 +17,23 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140856"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138013"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 
-在 Microsoft 團隊中，[**撥號給我**] 功能可讓使用者透過電話加入會議的音訊部分。 這在使用音訊電腦的情況下可能很方便。 使用者透過其手機或土地線，以及會議&mdash;的內容部分（例如其他會議參與者共用螢幕或透過電腦播放影片&mdash;），取得會議的音訊部分。
+在 Microsoft 團隊中，[**撥號給我**] 功能可讓使用者透過電話加入會議的音訊部分。 這在使用音訊電腦的情況下可能很方便。 使用者透過其手機或土地線，以及會議的內容部分 &mdash; （例如當其他會議參與者分享其螢幕或透過其電腦播放影片），來取得會議的音訊部分 &mdash; 。
 
 > [!IMPORTANT]
-> 在 COVID-19 爆發期間，我們建議使用者按一下 [**加入團隊會議**] 按鈕，而不是使用 PSTN 會議號碼撥入，或使用 [**呼叫我**</strong>] 來加入會議。 這主要是因為 COVID-19 所影響之國家/地區的電話架構中的擁塞。 透過避免 PSTN 通話，您可能會遇到較好的音訊品質。 
+> 
+> 在大量會議（我們已與 COVID-19 的病毒發作）期間，我們建議使用者按一下 [<strong>加入團隊會議</strong>] 按鈕，而不是使用 PSTN 會議號碼撥入，或使用 [<strong>呼叫我</strong>] 來加入會議。 這有助於在大量會議造成 PSTN 網路擁塞時確保音訊品質。 
+
+> [!IMPORTANT]
+> 在 COVID-19 疫情爆發期間，我們建議使用者按一下 [加入 Teams 會議]**** 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]****</strong> 來加入會議。 這主要是因為受到 COVID-19 影響的國家/地區電話語音架構擁塞。 藉由避免 PSTN 通話，您可能會體驗到更好的音質。 
 
 ## <a name="the-user-experience"></a>使用者體驗
 

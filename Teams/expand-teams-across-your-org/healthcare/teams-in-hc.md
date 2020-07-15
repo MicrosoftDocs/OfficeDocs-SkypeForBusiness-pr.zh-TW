@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 瞭解醫療保健的功能，包括護理協調、安全的訊息、telehealth、EHR 整合，以及第一線員工 worker 系統整合。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938362"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138103"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -89,9 +89,25 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工高效地進�
 
 如需詳細資訊，請參閱將[電子醫療保健記錄整合至 Microsoft 團隊](patients-app.md)。
 
-## <a name="templates"></a>模版
+## <a name="teams-templates"></a>團隊範本
 
 我們已開發新的範本來建立小組，以套用至醫院設定。 如此一來，您就能更輕鬆地建立可讓醫療保健工人在不同部門或 wards 中與患者共同合作的小組。 請參閱[開始使用醫療保健組織的團隊範本](healthcare-templates.md)。 團隊可以針對內部部門（例如心臟病科）或 [護理 wards] 或 [開發中的其他範本] 進行啟動。
+
+## <a name="lists-app"></a>清單應用程式
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+團隊中的 [清單] 應用程式可協助團隊追蹤資訊並組織工作。 App 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 清單可以從預先定義的範本中從頭開始建立，或是將資料匯入 Excel。
+
+護理小組可以使用患者範本來開始使用。 他們可以建立清單來追蹤患者的需求和狀態。 您可以在 Excel 試算表中加入現有的患者資料，在小組中建立清單。 這些清單可用來進行諸如舍入與患者監視等案例，以協助您共同處理護理。
+
+例如，電荷護士在小組中建立一個患者清單，其中包含所有的護理小組成員。 在舍入期間，護理小組會在行動裝置上存取小組，並更新清單中的患者資訊，讓小組中的每個人都可以查看，以保持同步處理。在您的舍入會話中，護理小組會收集以討論及評估重要健康情況效能指標，以確保患者位於正確的 glide 路徑上以進行放電，他們可以使用大型顯示畫面上的小組共用此資訊。 保護不在網站上的小組成員可以遠端加入。
+
+以下是為患者舍入設定的範例清單。
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者舍入範例清單的螢幕擷取畫面":::
+
+若要深入瞭解，請參閱[在團隊中管理貴組織的清單應用程式](../../manage-lists-app.md)。
 
 ## <a name="secure-messaging"></a>安全訊息
 

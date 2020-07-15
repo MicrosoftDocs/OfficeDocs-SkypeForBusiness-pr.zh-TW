@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中傳送電子郵件給使用者的音訊會議資訊。
-ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042580"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125976"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 團隊中的共用線條外觀
 
@@ -59,7 +59,7 @@ ms.locfileid: "44042580"
 
 | 功能 | 團隊桌面 | 團隊 Mac 應用程式 | 小組 Web App （邊緣） |團隊行動 iOS/Android 應用程式 | 團隊 IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 設定委派 | 是 | 是 | 是 | 否 | 否 |
+| 設定委派 | 是 | 是 | 是 | 否 | 是 |
 | 代表其他方式接聽來電 | 是 | 是 | 是 | 是 | 是 |
 | 代表其他電話撥打電話號碼 | 是 | 是 | 是 | 是 | 是 |
 | 代表其他使用者呼叫團隊使用者 | 是 | 是 | 是 | 是 | 是 |

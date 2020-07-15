@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何準備您的基礎結構以部署 Microsoft 團隊聊天室，讓您充分利用所有的功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735423"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125956"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -36,8 +36,8 @@ ms.locfileid: "44735423"
    - HTTP：80
    - 如果您的網路是透過 proxy 執行，您也需要 proxy 位址或腳本資訊。
     
-     > [!NOTE]
-     > Microsoft 團隊會議室不支援 HDCP 輸入，但已觀察到可導致 HDMI 攝取功能（影片、音訊）的問題。 請務必小心，確定連線至 Microsoft 團隊聊天室的交換器已關閉 HDCP 選項。
+     > [!IMPORTANT]
+     > Microsoft 團隊聊天室不支援 proxy 驗證，因為它可能會干擾聊天室的常規操作。 在進入生產前，請先確認已免除來自 proxy 驗證的 Microsoft 團隊會議室。
   
 3. 為了改善您的體驗，Microsoft 會收集資料。 若要允許 Microsoft 收集資料，請將這些網站白名單：
 
