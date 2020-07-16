@@ -17,20 +17,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0a92835ac9bed704ed82583ab44da58279d74bcc
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: ab917c57578a854ef5bf6c591229ac35a7e98fe9
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042955"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146109"
 ---
 <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心的團隊協力廠商應用程式購買服務
 ======================================================
 
-團隊 app 是免費的，而且這些應用程式的服務訂閱可透過[AppSource](https://appsource.microsoft.com/)購買，並透過 Microsoft 團隊系統管理中心立即購買。 這些服務訂閱稱為「軟體即服務（SaaS）」提供。
+> [!NOTE]
+> 此功能目前僅適用于美國。
 
-Microsoft [團隊系統管理中心] 中的 [[管理應用](manage-apps.md)程式] 頁面是您在組織的應用程式目錄中查看和管理所有團隊應用程式的位置。 例如，您可以查看應用程式的組織層級狀態和屬性、將新的自訂應用程式上傳到您的租使用者應用程式目錄、封鎖或允許組織階層的應用程式，以及管理整個組織的應用程式設定。
+團隊應用程式可以免費安裝，有些可能需要購買服務訂閱才能體驗 app 的完整功能與範圍。 這些服務訂閱稱為「軟體即服務（SaaS）」提供，可透過[AppSource](https://appsource.microsoft.com/)購買，並透過 Microsoft 團隊系統管理中心立即購買。
 
-您也可以在這裡，為貴組織中的使用者購買由協力廠商應用程式提供的服務授權。 資料表中的 [**授權**] 欄會指出 app 是否提供 SaaS 訂閱以進行購買。 此功能目前僅適用于美國。
+Microsoft [團隊系統管理中心] 中的 [[管理應用程式](manage-apps.md)] 頁面是您可在其中查看及管理組織的所有團隊應用程式的位置。 例如，您可以查看應用程式的組織層級狀態和屬性、將新的自訂應用程式上傳到貴組織的 app 商店、封鎖或允許組織階層的應用程式，以及管理整個組織的應用程式設定。
+
+您也可以在這裡，為貴組織中的使用者購買由協力廠商應用程式提供的服務授權。 資料表中的 [**授權**] 欄會指出 app 是否提供 SaaS 訂閱以進行購買。
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>搜尋及購買協力廠商應用程式的服務
 
@@ -43,15 +47,18 @@ Microsoft [團隊系統管理中心] 中的 [[管理應用](manage-apps.md)程�
 4. 若要購買方案，請按一下 [**立即購買**]。 您將會被重新導向到與團隊 app 相關聯之優惠的購買體驗。 您可以在此完成服務或 SaaS 產品的購買。
 5. 選擇您想要的方案。 如果 SaaS 提供包含一個以上的計畫，請按一下 [**變更**]，查看可用方案的清單。
 6. 選取您的帳單期限（[**每月**] 或 [**每年**]），然後輸入您要購買的使用者授權數量。
-7. 當您準備好時，請選取 [**下單**]。
-8. 按一下 [**立即設定**]，在發行商的網站上啟動您的訂閱。
+7. 輸入您的付款條件。
+8. 當您準備好時，請選取 [**下單**]。
+9. 按一下 [**立即設定**]，在發行商的網站上啟動您的訂閱。
 
 在您購買與團隊 app 相關聯的 SaaS 優惠之後，您可以在 [**管理應用程式**] 頁面上查看下列購買詳細資料。
 
 - **授權啟用日期**：啟用授權的日期。 如果您的帳戶尚未設定，這會顯示為 [**訂閱擱置**中的啟用]。
-- **授權**：您購買的授權數量
+- **授權**：您購買的授權數量。
 
 選取 [**管理授權**]，移至 Microsoft 365 系統管理中心，以查看及管理您購買的授權，並管理使用者的授權指派。
+
+全域管理員可以查看組織中任何人所進行的購買，而團隊服務管理員只能查看自己所進行的購買。  
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>您想要在 Microsoft 團隊系統管理中心及 AppSource 中列出並銷售的小組 app 提供 SaaS 優惠嗎？
 

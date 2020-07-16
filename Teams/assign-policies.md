@@ -18,11 +18,12 @@ description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049440"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143844"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
 
@@ -295,7 +296,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 **此功能尚未發佈。我們已宣佈推出，即將推出。**
 
 > [!NOTE]
-> 目前，使用 Microsoft 團隊系統管理中心群組的原則指派只適用于小組通話原則、團隊會議原則和團隊訊息原則。 針對其他原則類型，請使用 PowerShell。
+> 目前，使用 Microsoft 團隊系統管理中心群組的原則指派只適用于小組呼叫原則、小組通話寄存原則、團隊原則、團隊即時事件原則、團隊會議原則和團隊訊息原則。 針對其他原則類型，請使用 PowerShell。
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [原則類型] 頁面。 例如，移至 [**會議**  >  **會議原則**]。
 2. 選取 [**群組原則指派**] 索引標籤。

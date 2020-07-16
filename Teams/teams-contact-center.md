@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心（即 Microsoft 團隊服務（CCaaS）解決方案）的概覽
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756824"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143834"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -49,6 +49,7 @@ Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模�
 | Enghouse Interactive | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
+| Landis 技術 | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 好 inContact | https://www.niceincontact.com/microsoft-teams                                                            |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
@@ -204,11 +205,11 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 </tr>
 <tr class="even">
 <td>服務連線能力</td>
-<td>通<br />
+<td>平台<br />
 （通話方案 + DR）</td>
 <td>直接路由</td>
 <td>直接路由</td>
-<td>通<br />
+<td>平台<br />
 （通話方案 + DR）</td>
 </tr>
 </tbody>
