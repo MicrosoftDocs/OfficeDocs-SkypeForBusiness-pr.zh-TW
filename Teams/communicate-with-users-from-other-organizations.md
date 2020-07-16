@@ -17,12 +17,12 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785275"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125966"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
@@ -47,7 +47,7 @@ ms.locfileid: "44785275"
 使用 [來賓存取]**** 將個別使用者 (不論網域) 新增至團隊，讓他們可以使用 Microsoft 365 或 Office 365 應用程式 (例如 Word、Excel 或 PowerPoint) 來聊天、通話、開會及共同處理組織檔案(儲存在 SharePoint 或商務用 OneDrive 中)。 來賓使用者幾乎擁有與原生團隊成員相同的 Teams 功能。 若要深入了解，請閱讀 [Teams 中的來賓存取](guest-access.md) (英文)。
 
 - 來賓會新增至組織的 Active Directory。
-- 若要與來賓通訊，來賓必須使用其來賓帳戶登入 Teams。 這表示來賓可能必須登出自己的 Teams 帳戶，才能登入您的 Teams 帳戶。
+- 若要與來賓通訊，來賓必須使用其來賓帳戶登入 Teams。 這表示來賓可能必須登出自己的 Teams 帳戶，才能登入您的 Teams 帳戶，或者如果是相同帳戶，才能切換組織。
 - 來賓使用者可以比外部存取 (同盟) 使用者存取 Teams 中的更多資源，例如檔案、團隊和頻道。
 - Teams 系統管理員會控制來賓可以 (或無法) 在 Teams 系統管理中心執行的動作。 若要深入了解，請閱讀[管理來賓存取](manage-guests.md) (英文)。
 

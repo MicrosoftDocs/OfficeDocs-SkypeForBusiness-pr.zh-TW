@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028109"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138003"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 
@@ -103,6 +103,10 @@ Microsoft 提供[適用於 Office 365 的 FastTrack 中心權益](https://docs.m
 
 如果您已經擁有 Microsoft 365 一段時間，但卻是第一次授權或啟用使用者，您可能需要為組織 [開啟 Teams][](Office-365-set-up.md)。 查看本文章中的[我已經有 Microsoft 365，但我沒有使用 Teams。您是否會提供試用版授權？](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)。
 
+### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>在會議中，出席者無法撥打電話而無法加入會議。
+
+在會議密集的時段 (隨著 COVID-19 爆發以來，我們正在經歷的事)，建議使用者按一下 [加入 Teams 會議]<strong></strong> 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]<strong></strong> 來加入會議。 這有助於在會議密集造成 PSTN 網路擁塞時確保音訊品質。 
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>我是否可以使用通話方案搭配 Microsoft 提供的 Office 365 E1 試用版？ 我是否可以將電話號碼指派給我的使用者？ 我要付多少錢？
 
 使用者可以在任何版本的 Teams 中，進行應用程式對應用程式的語音通話和視訊通話。 若要將電話號碼指派給員工，您需要[電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。 若要深入了解，請參閱[使用 Microsoft Teams 進行語音和視訊通話](https://products.office.com/microsoft-teams/voice-calling)。
@@ -119,4 +123,6 @@ IT 系統管理員/IT 專業人員：[使用 Teams 支援遠端工作者](suppor
 
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>在 COVID-19 疫情爆發期間，Microsoft 如何支援自己的員工？
 
-請閱讀 Microsoft 總裁 Brad Smith 於 2020 年 3 月 5 日發表的部落格：[在我們致力於保護公眾健康的同時，我們也需要保護支援校園的時薪員工的收入](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+請閱讀 Microsoft 總裁 Brad Smith 於 2020 年 3 月 5 日發表的部落格：[在我們致力於保護公眾健康的同時，我們也需要保護支援校園的時薪員工的收入](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)。
+
+同時，請務必造訪 Microsoft.com 上的 [共同因應 COVID-19](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom) (英文)。
