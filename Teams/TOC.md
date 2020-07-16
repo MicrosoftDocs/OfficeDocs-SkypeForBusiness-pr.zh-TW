@@ -41,6 +41,7 @@
 ## [適用於 Teams 的敏感度標籤](sensitivity-labels.md)
 ## [在 Teams 中管理私人團隊的探索](manage-discovery-of-private-teams.md)
 ## [在 Teams 中設定頻道裁決](manage-channel-moderation-in-teams.md)
+## [在 Teams 中共用檔案](sharing-files-in-teams.md)
 ## [Teams 和 Outlook 電子郵件整合](teams-outlook-email-integration.md)
 ## [管理訊息原則](messaging-policies-in-teams.md)
 ## [Teams 中使用者的目前狀態](presence-admins.md)
@@ -65,6 +66,7 @@
 ### [管理您的自訂應用程式](manage-your-custom-apps.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
 ### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
 ### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
 ### [設定 Skype 會議應用程式以搭配 Teams 運作](configure-skype-meetings-app-to-work-with-teams.md)
@@ -117,6 +119,7 @@
 #### [概觀](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams 使用報告](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams 使用者活動報告](teams-analytics-and-reports/user-activity-report.md)
+#### [Teams 應用程式使用量報告 ](teams-analytics-and-reports/app-usage-report.md)
 #### [Teams 裝置使用報告](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN 封鎖使用者報告](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [PSTN 分鐘集區報告](teams-analytics-and-reports/pstn-minute-pools-report.md)
@@ -130,7 +133,6 @@
 ## [快速入門 - 會議與即時活動](quick-start-meetings-live-events.md)
 ## [規劃您的部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教學課程：Teams 中的會議](Tutorial-Meetings-in-Teams.yml)
-## [Teams 會議中的簡報者和參與者功能](roles-in-meetings.md)
 ## [管理會議原則](meeting-policies-in-teams.md)
 ## [管理會議設定](meeting-settings-in-teams.md)
 ## [在設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -217,6 +219,7 @@
 ## 即時活動
 ### [什麼是 Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 即時活動的方案](teams-live-events/plan-for-teams-live-events.md)
+### [即時活動中的簡報者、製造者和出席者功能](roles-in-live-events.md)
 ### [設定 Teams 即時活動](teams-live-events/set-up-for-teams-live-events.md)
 ### [使用 PowerShell 設定 Teams 即時活動原則](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [設定 Teams 即時活動設定](teams-live-events/configure-teams-live-events.md)
@@ -254,10 +257,12 @@
 #### [建立雲端通話佇列](create-a-phone-system-call-queue.md)
 #### [直接從 Teams 回答自動語音應答和通話佇列的通話](answer-auto-attendant-and-call-queue-calls.md)
 
+### [封鎖撥入通話](block-inbound-calls.md)
 ### [通話駐留和擷取](call-park-and-retrieve.md)
 ### [通話共用和群組來電接聽](call-sharing-and-group-call-pickup.md)
 ### [通話原則](teams-calling-policy.md)
 ### [共用線路外觀](shared-line-appearance.md)
+### [撥號鍵台設定](dial-pad-configuration.md)
 
 
 ## 通話方案
@@ -354,6 +359,16 @@
 ### [管理緊急電話原則](manage-emergency-calling-policies.md)
 ### [管理緊急電話路由原則](manage-emergency-call-routing-policies.md)
 
+## Contoso 語音遷移案例研究
+### [概觀](voice-case-study-overview.md)
+### [Teams 升級計畫](voice-case-study-migration-plan.md)
+### [電話系統](voice-case-study-phone-system.md)
+### [位置式路由](voice-case-study-location-based-routing.md)
+### [緊急電話](voice-case-study-emergency-calling.md)
+### [音訊會議](voice-case-study-audio-conferencing.md)
+### [自動語音應答和通話佇列](voice-case-study-call-queues.md)
+
+
 
 
 ## 參考
@@ -369,7 +384,6 @@
 #### [荷蘭的電話號碼管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [英國的電話號碼管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [美國的電話號碼管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### 免付費電話的撥號限制
 #### [概觀](toll-free-dialing-limitations-and-restrictions.md)
@@ -498,33 +512,30 @@
 
 ## 規劃您的升級旅程
 
-### [升級規劃概觀](upgrade-plan-journey.md)
-### [列出您的專案關係人](upgrade-enlist-stakeholders.md)
-### [定義專案範圍](upgrade-define-project-scope.md)
-### [了解共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [會議優先](meetings-first.md)
+### 規劃您的專案和需求 
+#### [概觀](upgrade-plan-journey.md)
+#### [列出您的專案關係人](upgrade-enlist-stakeholders.md)
+#### [定義專案範圍](upgrade-define-project-scope.md)
+#### [了解共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [舉辦使用者試驗](pilot-essentials.md)
 
-## 準備 Teams 的環境
-### [技術整備概觀](upgrade-prepare-environment.md)
-### [準備 Teams 的 IT 人員](upgrade-prepare-IT-pros.md)
-### [先決條件](upgrade-plan-journey-prerequisites.md)
-### [評估您的環境](upgrade-plan-journey-evaluate-environment.md)
-### [準備您的服務](upgrade-prepare-environment-prepare-service.md)
+### 準備 Teams 的環境
+#### [技術整備概觀](upgrade-prepare-environment.md)
+#### [準備 Teams 的 IT 人員](upgrade-prepare-IT-pros.md)
+#### [先決條件](upgrade-plan-journey-prerequisites.md)
+#### [評估您的環境](upgrade-plan-journey-evaluate-environment.md)
+#### [準備您的服務](upgrade-prepare-environment-prepare-service.md)
 
-## 為貴組織做好使用 Teams 的準備
-### [組織的整備概觀](upgrade-prepare-organization.md)
-### [評估組織的變更整備程度](upgrade-org-change-readiness.md)
-### [準備使用者整備計畫](upgrade-user-readiness.md)
-
+### 為貴組織做好使用 Teams 的準備
+#### [組織的整備概觀](upgrade-prepare-organization.md)
+#### [評估組織的變更整備程度](upgrade-org-change-readiness.md)
+#### [準備使用者整備計畫](upgrade-user-readiness.md)
 
 ## 實施您的升級
 ### [概觀](upgrade-to-Teams.md)
-### [舉辦使用者試驗](pilot-essentials.md)
 ### [將商務用 Skype Online 升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [將商務用 Skype 內部部署升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## 營運、採用和最佳化
 ### [營運方案概觀](continue-journey.md)
@@ -541,6 +552,8 @@
 ### [與商務用 Skype 共存](coexistence-chat-calls-presence.md)
 ### [Teams 用戶端體驗和遵從共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [設定共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)
+
+### [會議優先](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -611,12 +624,7 @@
 ## [開始使用 Teams 範本](get-started-with-teams-templates.md)
 ## [Bookings App 和虛擬造訪](bookings-app-admin.md)
 ## [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [安裝 Microsoft StaffHub PowerShell 模組](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [執行報告以顯示作用中 StaffHub 的使用情況](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [規劃將 StaffHub 團隊移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [將 StaffHub 團隊移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [傳送給使用者的電子郵件通訊範例](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [已終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [在 Teams 中管理貴組織的 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## 適用於醫療保健的 Teams
@@ -637,6 +645,7 @@
 ### [Teams EDU 原則和原則套件](policy-packages-edu.md)
 ### [將原則指派給大型使用者集合](batch-policy-assignment-edu.md)
 ### [教育版系統管理員的低頻寬指導方針](edu-remote-low-bandwidth.md)
+### [課程深入資訊](class-insights.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
 ### [適用於 Teams 教育版系統管理員的資源](resources-teams-edu.md)
 ### [適用於系統管理員的 Microsoft 教育版控管常見問題集](plan-teams-governance-edu.md)
@@ -648,6 +657,7 @@
 ### [適用於第一線員工的快速入門](firstline-workers-quickstart.yml)
 ### [第一線員工編寫指令碼部署](flw-scripted-deployment.md)
 ### [適用於 Microsoft Teams 的 RealWear](flw-realwear.md)
+### [對講機](walkie-talkie.md)
 ### [從 SPO 網站或頁面建立 Teams 內部網路入口網站應用程式](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [適用於零售業的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -665,16 +675,17 @@
 
 # 安全性、隱私權與合規性
 ## [概觀](security-compliance-overview.md)
-## 安全性及隱私權
+## 安全性
 ### [安全性手冊](teams-security-guide.md)
+### [Azure Sentinel 和 Teams](teams-sentinel-guide.md)
 ### [身分識別和驗證](identify-models-authentication.md)
 ### [使用新式驗證登入 Teams](sign-in-teams.md)
 ### [Teams 中的安全連結](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [隱私權和 Microsoft Teams](teams-privacy.md)
-### [Teams 中的資料位置](location-of-data-in-teams.md)
+### [AppLocker 應用程式控制原則](applocker-in-teams.md)
 ## 合規性
 ### [資訊屏障](information-barriers-in-teams.md)
 ### [保留原則](retention-policies.md)
+### [通訊合規性](communication-compliance.md)
 ### [通話和會議的原則式錄製](teams-recording-policy.md)
 ### [資料遺失防護](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子文件探索
@@ -683,33 +694,44 @@
 ### 內容搜尋
 #### [使用內容搜尋](content-search.md)
 #### [搜尋活動的稽核記錄檔](audit-log-events.md)
-### [AppLocker 應用程式控制原則](applocker-in-teams.md)
+## 隱私權
+### [隱私權和 Microsoft Teams](teams-privacy.md)
+### [Teams 中的資料位置](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # 監控、維護和疑難排解
-## [貴組織中的支援小組](Known-issues.md)
-## [監控及管理通話品質](monitor-call-quality-qos.md)
-### [體驗品質的審查指南](quality-of-experience-review-guide.md)
-### [在 Teams 中設定 QoS](QoS-in-Teams.md)
+## 監控及管理通話品質
+### [監控及改善通話品質](monitor-call-quality-qos.md)
+### 通話品質儀表板 (CQD)
+#### [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
+#### [設定 CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [上傳租用戶和建築物資料](CQD-upload-tenant-building-data.md)
+#### [CQD 資料和報告](CQD-data-and-reports.md)
+#### [使用 CQD 管理通話和會議品質](quality-of-experience-review-guide.md)
+#### [常見問題集](CQD-frequently-asked-questions.md)
+#### [CQD 中可用的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [CQD 中的串流分類](stream-classification-in-call-quality-dashboard.md)
+#### [建立建築物地圖](CQD-building-mapping.md)
+#### 使用 Power BI 分析 CQD 資料
+##### [使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
+##### [安裝 Power BI 連接器以使用 CQD 查詢範本](CQD-Power-BI-connector.md)
+##### [取得 Teams 使用狀況的 CQD 資料](CQD-teams-utilization-report.md)
+##### [使用 CQD PSTN 直接路由報告](CQD-PSTN-report.md)
+### 通話分析
+#### [設定通話分析](set-up-call-analytics.md)
+#### [使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### 服務品質 (QoS)
+#### [在 Teams 中設定 QoS](QoS-in-Teams.md)
 #### [在 Windows 用戶端上設定 QoS](QoS-in-Teams-clients.md)
-### [通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [設定通話分析](set-up-call-analytics.md)
-### [使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [開啟和使用通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)
-### 使用 Power BI 分析 CQD 資料
-#### [使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
-#### [安裝 Power BI 連接器以使用 CQD 查詢範本](CQD-Power-BI-connector.md)
-#### [取得 Teams 使用狀況的 CQD 資料](CQD-teams-utilization-report.md)
-#### [使用 CQD PSTN 直接路由報告](CQD-PSTN-report.md)
-### [通話品質儀表板中提供的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [通話品質儀表板中的資料流分類](stream-classification-in-call-quality-dashboard.md)
+## [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [安裝和更新問題疑難排解](troubleshoot-installation.md)
 ## [疑難排解 Teams 用戶端的連線問題](connectivity-issues.md)
 ## [在舊系統上接收訊息和通話的問題](legacy-login-issues.md)
 ## [疑難排解 Teams 的問題時使用記錄檔](log-files.md)
 ## [常見問題：支援您的遠端員工](FAQ-support-remote-workforce.md)
 ## [驗證 Teams 的服務健康情況](service-health.md)
-## [Teams 的支援資源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
@@ -728,7 +750,6 @@
 ### [在 Teams 中建立團隊時適用於 Microsoft 365 群組的方案](plan-office-365-groups.md)
 ### [Teams 中的生命週期管理方案](plan-teams-lifecycle.md)
 ### [Teams 中的控管方案](plan-teams-governance.md)
-### [使用網路測試小幫手](use-network-testing-companion.md)
 
 ## 安裝 Teams
 ### [取得 Teams 用戶端](get-clients.md)
@@ -757,7 +778,6 @@
 ### [訊息原則授權](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 電話系統 - 虛擬使用者授權](teams-add-on-licensing/virtual-user.md)
 
-
 ## Microsoft 365 和 Office 365 的互通性
 
 ### [Microsoft 365 群組與 Teams](office-365-groups.md)
@@ -769,9 +789,9 @@
 ### [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](sharepoint-onedrive-interact.md)
 ### [在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## 支援的裝置
 ### [在 Teams 中管理裝置](devices/device-management.md)
+### [遠端更新裝置](devices/remote-update.md)
 ### [Teams 的電話](devices/phones-for-teams.md)
 ### [USB 音訊和視訊裝置](devices/usb-devices.md)
 ### [為 Microsoft Teams 部署共同作業列](devices/collab-bar-deploy.md)
@@ -779,11 +799,12 @@
 ### [通過 Microsoft Teams 認證的 IP 電話](devices/teams-ip-phones.md)
 ### [商務用 Skype Online 的電話](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
 ## Teams PowerShell
 ### [概觀](teams-powershell-overview.md)
+### [安裝 Teams PowerShell](teams-powershell-install.md)
+### [使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
+### [Teams PowerShell 版本資訊](teams-powershell-release-notes.md)
 ### [Teams 的 Cmdlet 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [安裝前版 Teams PowerShell 模組](install-prerelease-teams-powershell-module.md)
 
 ## [Teams 開發人員文件](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中取得說明](get-help-in-microsoft-teams.md)
@@ -793,6 +814,7 @@
 
 ## 音訊會議與通話方案的適用國家/地區
 ### [概觀](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [阿爾巴尼亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md)
 ### [阿爾及利亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
 ### [安地卡及巴布達](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md)
 ### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
@@ -800,6 +822,7 @@
 ### [奧地利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
 ### [巴哈馬](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md)
 ### [巴林](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
+### [孟加拉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md)
 ### [巴貝多](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md)
 ### [白俄羅斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 ### [比利時](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
@@ -811,6 +834,7 @@
 ### [汶萊](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 ### [保加利亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
 ### [柬埔寨](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
+### [喀麥隆](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md)
 ### [加拿大](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
 ### [開曼群島](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md)
 ### [智利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
@@ -836,6 +860,7 @@
 ### [希臘](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [格瑞那達](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [關島](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
+### [瓜地馬拉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md)
 ### [宏都拉斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
 ### [香港](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
 ### [匈牙利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
@@ -862,6 +887,7 @@
 ### [荷蘭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [紐西蘭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
 ### [奈及利亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
+### [北馬利安納群島](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md)
 ### [挪威](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
 ### [巴基斯坦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
 ### [巴拿馬](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
@@ -892,6 +918,8 @@
 ### [千里達及托巴哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
 ### [突尼西亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
 ### [土耳其](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
+### [土克斯及開科斯群島](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md)
+### [烏干達](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md)
 ### [烏克蘭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 ### [阿拉伯聯合大公國 (UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
 ### [英國](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
