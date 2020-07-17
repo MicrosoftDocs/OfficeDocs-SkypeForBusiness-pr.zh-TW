@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊中的雲端語音
+title: Microsoft Teams 的雲端語音
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,33 +20,32 @@ search.appverid: MET150
 description: 深入瞭解雲端語音功能，並瞭解您將面臨的必要部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8106e5ef30b71ec82e9b1ae42f785b7a73b170a5
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690789"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158641"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 團隊中的雲端語音
+# <a name="voice---phone-system-and-pstn-connectivity-options"></a>語音電話系統和 PSTN 連接選項
 
-您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在您已經準備好為使用者新增雲端語音功能。 
+您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在，您已經準備好要為使用者新增語音功能。 
 
-雲端語音提供私人分支 Exchange （PBX）功能，以及連線至公用交換電話網絡（PSTN）的選項。
+[語音] 提供私人分支 Exchange （PBX）功能，以及連線至公用交換電話網絡（PSTN）的選項。
 
-本文可協助您決定是否需要根據貴組織的設定檔和業務需求變更任何預設雲端語音設定，然後逐步引導您完成每項變更。 我們已將這些設定分割成兩個群組，從[您更容易進行](#core-deployment-decisions)的核心變更集合開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
+本文可協助您決定是否需要根據貴組織的設定檔和業務需求變更任何預設的語音設定，然後逐步引導您完成每項變更。 我們已將這些設定分割成兩個群組，從[您更容易進行](#core-deployment-decisions)的核心變更集合開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
 
 我們建議所有組織都在核心決策中運作，然後，如果您的組織有其他需求，請參閱下列資料。
 
 
 
-## <a name="learn-more-about-cloud-voice"></a>深入瞭解雲端語音
+## <a name="learn-more-about-voice"></a>深入瞭解語音
 
-下列文章提供在小組中部署和使用雲端語音功能的詳細資訊：
+下列文章提供在小組中部署和使用語音功能的詳細資訊：
 
 - [Microsoft 365 或 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
 - [含有通話方案的電話系統](calling-plan-landing-page.md)
 - [電話系統直接路由](direct-routing-landing-page.md)
-- [雲端語音部署](cloud-voice-deployment.md)
 - [Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 請觀看下列會話，深入瞭解手機系統： [Microsoft 團隊中的電話系統簡介](https://aka.ms/teams-phone-system)
 

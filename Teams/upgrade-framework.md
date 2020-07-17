@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 使用經驗證的成功框架，協助貴組織從商務用 Skype 升級到團隊。
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139652"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158651"
 ---
 # <a name="about-the-upgrade-framework"></a>關於升級架構
 
@@ -42,16 +42,16 @@ ms.locfileid: "43139652"
 當您開始規劃變更時，就會開始升級歷程。 利用成功架構做為指導原則，以下是一個可讓您從升級前階段開始進行升級的範例時程表，您可以透過升級和升級後的操作階段來規劃及自助式您的結果。 
 
 > [!NOTE]
-> 我們瞭解您對團隊的旅程可能會涉及在不同時間利用多種 [模式](https://aka.ms/skypetoteams-coexist) 和升級使用者群組，讓您能夠控制使用者升級體驗，同時維持與團隊的勢頭。  
+> 我們瞭解您對團隊的旅程可能會涉及在不同時間利用多種 [模式](https://aka.ms/skypetoteams-coexist)   和升級使用者群組，讓您能夠控制使用者升級體驗，同時維持與團隊的勢頭。  
 
-為了協助示範升級歷程可能的方式，我們提供了以下的範例方案，可定義從商務用 Skype Online 到僅限團隊的商務用 Skype。 此外，此範例方案還概述已將使用者分成四個升級群組或 cohorts 的組織。 您可以將它做為範本，自訂方案以納入團隊的特定旅程，包括您要使用的各種 [模式](https://aka.ms/skypetoteams-coexist) ，以及將您的使用者劃分成多少個升級群組。 
+為了協助示範升級歷程可能的方式，我們提供了以下的範例方案，可定義從商務用 Skype Online 到僅限團隊的商務用 Skype。 此外，此範例方案還概述已將使用者分成四個升級群組或 cohorts 的組織。 您可以將它做為範本，自訂方案以納入團隊的特定旅程，包括您要使用的各種 [模式](https://aka.ms/skypetoteams-coexist)，   以及將您的使用者劃分成多少個升級群組。 
 
 ## <a name="pre-upgrade"></a>升級前
 
 **為團隊準備您的組織**。 若要協助確保成功升級至小組，請務必指派充足的時間進行準備。 您的組織不僅能快速開始認識團隊的價值，只要團隊準備就緒，您就能加速從商務用 Skype 升級。 如果您已在商務用 Skype 中啟用團隊，請在您將使用者升級至團隊之前，使用這些升級前的活動做為檢查點，以驗證貴組織的就緒性。 
 
 > [!TIP]
-> 除了範例升級專案規劃與試驗測試方案之外，請下載範本使用者就緒性資料（例如通訊與使用者問卷）的 [升級成功套件](https://aka.ms/UpgradeSuccessKit) 。 套件中提供的專案會在下列清單中以星號（*）標示。
+>  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   除了範例升級專案規劃與試驗測試方案之外，請下載範本使用者就緒性資料（例如通訊與使用者問卷）的升級成功套件。 套件中提供的專案會在下列清單中以星號（*）標示。
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>規劃：建立升級方案以協助確保貴組織已設定為長期成功
 
@@ -62,7 +62,7 @@ ms.locfileid: "43139652"
 | **3** | **定義專案目標** | 設定可讓您測量進度及專案成功的目標目標。 | [專案目標](upgrade-define-project-scope.md#project-goals) |
 | **4** | **找出風險與緩解方案** | 建立緩解方案，以確保您能快速地讓您的專案回到正軌，應該會發生問題。 | [風險與緩解措施](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **500** | **定義時程表** | 設定時程表和關鍵里程碑，以協助您的專案及時掌握時間及掌握預算。 | [時間表](upgrade-define-project-scope.md#timeline) <br><br> [升級成功套件](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **定義適當的商務用 Skype 與團隊升級與共存策略** | 對應您的旅程，確保從商務用 Skype 到您組織的小組最佳路徑。 | [瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **定義適當的商務用 Skype 與團隊升級與共存策略** | 對應您的旅程，確保從商務用 Skype 到您組織的小組最佳路徑。 | [瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br>[瞭解電話系統和 PSTN 連接選項](cloud-voice-landing-page.md)<br><br>  [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>準備：評估貴組織的團隊準備情況
@@ -92,7 +92,7 @@ ms.locfileid: "43139652"
 | 循序漸進 |  | 總結 | 資源 |
 |------|--|---------|----------|
 | **1** | **宣告團隊正式啟動** | 在團隊準備好時，傳送正式的啟動宣告來產生驚喜與動量。 | [升級成功套件](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **為使用者啟用適當的共存模式** | 依照步驟為您的組織設定正確的共存模式。 | [設定您的共存與升級設定](setting-your-coexistence-and-upgrade-settings.md) |
+| **2** | **實施您的升級** | 您所採取的步驟取決於您目前的商務用 Skype 部署。 | [實施您的升級](upgrade-to-teams.md) |
 | **3** | **隨時掌握團隊藍圖的相關資訊** | 監控 [團隊藍圖]，找出適合貴組織向小組移動的時間。 | [團隊藍圖](https://aka.ms/teamsroadmap) |
 | **4** | **傳送其他通訊，並讓團隊擁護者推動團隊的驚喜與採納** | 針對持續進行的通訊和擁護程式，鼓勵使用者採用並維持對小組的驚喜。 | [Microsoft 365 擁護程式計畫](https://aka.ms/O365Champions) |
 
@@ -106,7 +106,7 @@ ms.locfileid: "43139652"
 |------|--|---------|----------|
 | **1** | **確認您已完成上述所述的升級前活動** | 透過確認所有規劃及準備活動的完成，協助確保升級成功。 | 上述所有 |
 | **2** | **在第一個升級群組中啟動與使用者的通訊** | 通知使用者正在開始進行升級，並在整個程式中保持它們的通知。 | [準備使用者整備計畫](upgrade-user-readiness.md) <br><br> [升級成功套件](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **僅針對第一個升級群組中的使用者啟用共存模式** | 依照適用于商務用 Skype 環境的步驟執行技術使用者遷移。 | [從商務用 Skype Online 升級至團隊](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[從商務用 Skype 的混合式或內部部署升級至團隊](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **3** | **僅針對第一個升級群組中的使用者啟用共存模式** | 依照適用于商務用 Skype 環境的步驟執行技術使用者遷移。 | [從商務用 Skype Online 升級至團隊](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[從商務用 Skype 內部部署升級至團隊](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4** | **在滾動週期中針對其餘升級群組重複上述升級活動** | 根據您的計畫，繼續針對您正在進行的通訊方案和升級使用者群組進行驅動。 | |
 | **500** | **傳送升級後的意見反應調查給所有使用者** | 使用意見反應問卷來捕獲來自使用者的意見反應與見解。 | [升級成功套件](https://aka.ms/UpgradeSuccessKit) |
 

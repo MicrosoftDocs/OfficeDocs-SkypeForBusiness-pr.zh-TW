@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665415"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158601"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>選擇從商務用 Skype 升級到團隊的升級歷程
 
@@ -56,6 +56,9 @@ ms.locfileid: "44665415"
 若要正式準備貴組織進行團隊的旅程，您必須開始規劃升級案例，以讓您的組織完全接納團隊作為您的唯一溝通與共同作業解決方案。
 
 若要協助引導您的決策過程，請熟悉從商務用 Skype 升級至團隊的各種模式、概念及術語。 如需詳細資訊，請參閱[Microsoft 團隊及商務用 Skype 共存與互通性](https://aka.ms/SkypeToTeams-Coexist)。
+
+> [!NOTE]
+> 您也必須考慮您的語音遷移案例。 [電話系統] 是 Microsoft 在 Microsoft 365 或 Office 365 雲端啟用呼叫控制和私人分支 Exchange （PBX）功能的 Microsoft 技術。 若要將電話系統連線至公用的交換電話網絡（PSTN），讓使用者可以撥打世界各地的電話，您可以根據業務需求選擇一些選項。 如需手機系統和 PSTN 連線選項的詳細資訊，請參閱[語音電話系統和 pstn](cloud-voice-landing-page.md)連線。
 
 已遷移至團隊的使用者將不再使用商務用 Skype 用戶端，除非加入在商務用 Skype 中託管的會議。 無論寄件者是使用小組或商務用 Skype，所有傳入聊天和呼叫使用者團隊用戶端中的土地。 任何由升級的使用者組織的新會議，都會排程為團隊會議。 如果使用者嘗試使用商務用 Skype 用戶端，啟動聊天和通話會封鎖<sup>1</sup>。 不過，使用者可以（且必須）使用商務用 Skype 用戶端加入其受邀的會議。
 

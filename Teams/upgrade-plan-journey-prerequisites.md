@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666065"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158731"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>團隊的先決條件與環境相依性
 
@@ -48,12 +48,16 @@ ms.locfileid: "44666065"
 
 - 如果您的組織尚未將身分識別與 Azure Active Directory 同步處理，請參閱[Microsoft 團隊中的身分識別模型和驗證](identify-models-authentication.md)。
 
-- 如果您的組織是沒有 Exchange Online 的<sup>1</sup>，請參閱[瞭解 Exchange 與 Microsoft 團隊互動的方式](Exchange-Teams-interact.md)。
+- 如果您的組織沒有 Exchange Online，請參閱[瞭解 exchange 與 Microsoft 團隊互動的方式](Exchange-Teams-interact.md)。
 
 - 如果您的組織沒有 SharePoint Online，請參閱[瞭解 Sharepoint online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](SharePoint-OneDrive-interact.md)。
 
 - 瞭解[microsoft 365 群組與 Microsoft 團隊互動](Office-365-groups.md)的方式。
 
-- 如果您的組織是教育機構，且您是使用學生資訊系統，請在部署 Microsoft 團隊之前先[部署學校資料同步](https://docs.microsoft.com/schooldatasync)處理。
+- 如果您的組織是教育機構，且您使用的是學生資訊系統，請參閱在部署 Microsoft 團隊之前[歡迎使用 Microsoft 學校資料同步](https://docs.microsoft.com/schooldatasync)處理。
+
+- 如果您的組織正在考慮公用交換電話網絡（PSTN）通話選項，請參閱[語音電話系統和 PSTN](cloud-voice-landing-page.md)連線，[這是您最適合您](calling-plan-landing-page.md)的通話方案，以及[電話系統直式路由](direct-routing-landing-page.md)。
+
+- 若要確保在推出小組之前已符合所有的網路需求，請參閱[準備貴組織的 Microsoft 團隊網路](prepare-network.md)。
 
 確認您的環境符合所有適用的先決條件之後，請[評估您目前的團隊環境](upgrade-plan-journey-evaluate-environment.md)。

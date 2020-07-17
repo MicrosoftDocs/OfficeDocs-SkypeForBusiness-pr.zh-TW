@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522996"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158631"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>開始升級您的 Microsoft Teams
 
@@ -52,6 +52,14 @@ Microsoft Teams 擴充商務用 Skype 的功能，將聊天、會議、通話、
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>在我們做好準備並升級至 Teams 時，是否能夠繼續使用商務用 Skype Online？
 
 是，Microsoft 提供多種選項，可同時執行商務用 Skype Online 與 Teams。 這些共存模式可讓您的使用者立即熟悉 Teams，同時協助加速升級至只使用 Teams。 如需詳細資訊，請參閱 [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)。
+
+## <a name="is-phone-system-available-for-teams-users"></a>有適用于團隊使用者的電話系統嗎？
+
+是。 在所有團隊使用者移至 TeamsOnly 模式之後，就可以使用電話系統。  此外，Microsoft 還提供連線至公用交換電話網絡（PSTN）的選項，讓使用者可以撥打世界各地的電話。 如需詳細資訊，請參閱[語音電話系統和 PSTN](cloud-voice-landing-page.md)連線。
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>我們可以繼續使用內部部署的電話結構嗎？
+
+是。 透過 [電話系統直接路由]，您可以在幾乎任何電話運營商中使用 [電話系統]。 使用直接路由，您可以直接將自己的會話邊界控制器（SBC）連線至 [電話系統]。 如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)。
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft 如何協助客戶升級至 Teams？ 
 

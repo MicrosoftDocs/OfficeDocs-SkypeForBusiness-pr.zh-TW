@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 17420c93c883054d36c4ae2e1b323be9e589a2c2
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666025"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158671"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>從商務用 Skype 內部部署升級至團隊
 
@@ -69,14 +69,24 @@ ms.locfileid: "44666025"
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>步驟3：將使用者從商務用 Skype 內部部署移至團隊
 
-最後，您會想要將使用者移至 TeamsOnly 模式。 根據您目前的內部部署環境，這可能會涉及一兩個步驟。  
+最後，您會想要將使用者移至 TeamsOnly 模式。 根據您的內部部署環境，這可能會涉及一兩個步驟。  
 
 如需詳細資訊，請參閱 [在內部部署和雲端之間移動使用者](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)，以及[將使用者從內部部署移至團隊](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)。 
 
+## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>步驟4：停用混合式完成您到雲端的遷移
+
+將所有使用者從內部部署移至雲端之後，您就可以停止使用內部部署商務用 Skype 部署。 如需詳細資訊，請參閱[停用混合式以完成到雲端的遷移](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)。
 
 
-## <a name="phone-system-and-teams-upgrade"></a>手機系統與團隊升級
+## <a name="phone-system-and-pstn-connectivity-options"></a>電話系統和 PSTN 連線選項
 
-如果您要將商務用 Skype 部署轉換為含通話方案的電話系統，Microsoft 將是您公用的交換電話網絡（PSTN）提供者。 假設您已完成電話號碼移植，將您的使用者升級至團隊會自動將入站 PSTN 通話轉場給小組。
+在使用者處於 TeamsOnly 模式之後，支援有團隊的電話系統。 （如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。） 
 
-如果您要將商務用 Skype 部署轉換為手機系統，但不是使用通話方案，您必須將企業語音部署轉場至 Microsoft Phone 系統 Direct 路由。 如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)。
+### <a name="pstn-connectivity-options"></a>PSTN 連接選項
+
+考慮公用交換電話網絡（PSTN）連線選項時，從商務用 Skype （在內部部署到 TeamsOnly 模式）中，有兩種可能的案例：
+
+- 在商務用 Skype 內部部署中使用企業語音的使用者，他們將會移至線上並使用 Microsoft 通話方案。 將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移到雲端，並將該使用者的電話號碼的埠與 A 進行協調，以從可用區域指派新的訂閱者號碼。  如需詳細資訊，請參閱[從商務用 Skype 伺服器內部部署到 Microsoft 通話方案](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)。
+
+- 在商務用 Skype 內部部署中使用企業語音的使用者，他們將會移至線上並保留內部部署 PSTN 連線。 將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將使用者的遷移轉移至直接傳送路線。 如需詳細資訊，請參閱[從商務用 Skype 伺服器（含企業語音）到直接路由](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)。
+

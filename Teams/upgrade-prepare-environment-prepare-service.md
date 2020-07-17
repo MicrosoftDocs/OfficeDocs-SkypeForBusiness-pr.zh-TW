@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666055"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158681"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>準備您的服務以升級至小組
 
@@ -40,9 +40,9 @@ ms.locfileid: "44666055"
 
 本文將為您的組織準備與團隊共同作業和雲端語音服務的需求。 透過正確地準備，您可以確定您已準備好將這些功能提供給您的組織。
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Microsoft 團隊推出的加入檢查清單
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Microsoft 團隊推出的 [加入檢查清單] 和 [登陸] 頁面
 
-下列檢查清單會逐步引導您在組織中部署 Microsoft 團隊的步驟：
+下列檢查清單和登陸頁面會逐步引導您在組織中部署 Microsoft 團隊的步驟：
 
 - [為團隊準備 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ ms.locfileid: "44666055"
 
 - [準備您的網路](prepare-network.md)
 
-- [在團隊中設定雲端語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [在團隊中設定直接路由](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [會議與音訊會議](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [電話系統和 PSTN 連線選項](cloud-voice-landing-page.md)
+
 
 這些檢查清單中的工作與活動是「待辦事項」專案，可將共同作業和語音功能部署在小組中。 您可以自訂檢查清單，以包含您自己團隊歷程所特有的活動和工作。
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523166"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158661"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>從商務用 Skype Online 升級至團隊
 
@@ -99,8 +99,16 @@ ms.locfileid: "44523166"
 當您驗證升級至 [僅限團隊] 模式並準備好要展開時，請重複上述步驟，將 TeamsOnly 套用至更多使用者。  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>手機系統與團隊升級
+## <a name="phone-system-and-pstn-connectivity-options"></a>電話系統和 PSTN 連線選項
 
-如果您的商務用 Skype Online 部署包括含有通話方案的電話系統，而 Microsoft 是您的公用交換電話網絡（PSTN）提供者，則將您的使用者升級至團隊會自動將入站 PSTN 通話轉場給小組。
+在使用者處於 TeamsOnly 模式之後，支援有團隊的電話系統。 （如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。）  
 
-如果您的商務用 Skype Online 部署包含含雲端連接器版本的電話系統，請參閱[手機系統直接路由的其他考慮](2-envision-make-my-service-decisions-direct-routing.md)。
+### <a name="pstn-connectivity-options"></a>PSTN 連接選項
+
+考慮公用交換電話網絡（PSTN）連線選項時，從商務用 Skype Online 移至 TeamsOnly 模式時，有兩種可能的案例：
+
+- 商務用 Skype Online 中的使用者，包含 Microsoft 通話方案。 升級時，此使用者將會繼續進行 Microsoft 通話計畫。 這是最簡單的案例，只需要幾個步驟。 如需詳細資訊，請參閱[使用 Microsoft 通話方案從商務用 Skype Online](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans)。
+
+- 商務用 Skype Online 中的使用者，可透過商務用 Skype 內部部署或雲端連接器版本使用內部部署語音功能。 使用者在小組中的升級需要與使用者遷移以直接傳送路由，以確保 TeamsOnly 使用者有 PSTN 功能。  如需詳細資訊，請參閱[從商務用 Skype Online （含內部部署語音](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice)）。
+
+

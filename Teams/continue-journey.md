@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751535"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158501"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 團隊
 
@@ -37,10 +37,10 @@ ms.locfileid: "44751535"
 
 ## <a name="monitor-for-network-health-and-quality"></a>監控網路健康情況和品質
 
-您的網路狀態會影響使用者體驗。 當使用者遇到較差的體驗時（例如，加入會議時的呼叫中斷或延隔時間），他們會將它與技術本身產生關聯，讓他們在技術不起作用且開啟不受支援之 app 的門上。 除了減少呼叫支援中心的需求之外，您還可以針對監視和緩解網路狀況的規劃，協助確保使用者擁有良好的體驗。 如需詳細資訊，請參閱下列文章：
+您的網路狀態會影響使用者體驗。 當使用者遇到較差的體驗時（例如，加入會議時的呼叫中斷或延隔時間），他們會將它與技術本身產生關聯，讓他們在技術不起作用且開啟不受支援之 app 的門上。 除了減少呼叫支援中心的需求之外，您還可以針對監視和緩解網路狀況的規劃，協助確保使用者擁有良好的體驗。 如需詳細資訊，請參閱：
 
 - [營運您的服務](upgrade-operate-my-service.md)
-- [監控品質](upgrade-monitor-quality.md)
+- [監控並改善通話品質](monitor-call-quality-qos.md)
 - [加強您的服務](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>促進使用者動力與採納
