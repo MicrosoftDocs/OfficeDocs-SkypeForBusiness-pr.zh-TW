@@ -25,7 +25,7 @@ ms.locfileid: "44756884"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites"></a><span data-ttu-id="453fa-102">必要條件</span><span class="sxs-lookup"><span data-stu-id="453fa-102">Prerequisites</span></span>
+# <a name="prerequisites"></a><span data-ttu-id="c59dd-102">必要條件</span><span class="sxs-lookup"><span data-stu-id="c59dd-102">Prerequisites</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "44756884"
 
 <span> </span>
 
-<span data-ttu-id="453fa-103">_**主題上次修改日期：** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="453fa-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="c59dd-103">_**主題上次修改日期：** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="c59dd-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="453fa-104">您需要執行 Lync Server 2013 壓力和效能工具，各有不同的硬體、軟體和系統設定需求。</span><span class="sxs-lookup"><span data-stu-id="453fa-104">There are various hardware, software, and system configuration requirements that you’ll need to run the Lync Server 2013 Stress and Performance Tool.</span></span>
+<span data-ttu-id="c59dd-104">您需要執行 Lync Server 2013 壓力和效能工具，各有不同的硬體、軟體和系統設定需求。</span><span class="sxs-lookup"><span data-stu-id="c59dd-104">There are various hardware, software, and system configuration requirements that you’ll need to run the Lync Server 2013 Stress and Performance Tool.</span></span>
 
 <div>
 
-## <a name="client-hardware-requirements"></a><span data-ttu-id="453fa-105">用戶端硬體需求</span><span class="sxs-lookup"><span data-stu-id="453fa-105">Client Hardware Requirements</span></span>
+## <a name="client-hardware-requirements"></a><span data-ttu-id="c59dd-105">用戶端硬體需求</span><span class="sxs-lookup"><span data-stu-id="c59dd-105">Client Hardware Requirements</span></span>
 
-<span data-ttu-id="453fa-106">若要在 Lync Server 2013 部署上執行 Lync Server 2013 壓力和效能工具，針對您想要模擬其負載的每一個4500使用者，您至少需要一部專用電腦，滿足下列基本硬體需求：</span><span class="sxs-lookup"><span data-stu-id="453fa-106">To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013 deployment, for every 4,500 users whose load you want to simulate, you’ll need at least one dedicated computer that meets the following minimum hardware requirements:</span></span>
+<span data-ttu-id="c59dd-106">若要在 Lync Server 2013 部署上執行 Lync Server 2013 壓力和效能工具，針對您想要模擬其負載的每一個4500使用者，您至少需要一部專用電腦，滿足下列基本硬體需求：</span><span class="sxs-lookup"><span data-stu-id="c59dd-106">To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013 deployment, for every 4,500 users whose load you want to simulate, you’ll need at least one dedicated computer that meets the following minimum hardware requirements:</span></span>
 
-  - <span data-ttu-id="453fa-107">1 gb 網路介面卡</span><span class="sxs-lookup"><span data-stu-id="453fa-107">1 gigabit network adapter</span></span>
+  - <span data-ttu-id="c59dd-107">1 gb 網路介面卡</span><span class="sxs-lookup"><span data-stu-id="c59dd-107">1 gigabit network adapter</span></span>
 
-  - <span data-ttu-id="453fa-108">8 GB ram</span><span class="sxs-lookup"><span data-stu-id="453fa-108">8-GB ram</span></span>
+  - <span data-ttu-id="c59dd-108">8 GB ram</span><span class="sxs-lookup"><span data-stu-id="c59dd-108">8-GB ram</span></span>
 
-  - <span data-ttu-id="453fa-109">2顆雙核中央處理單位（CPUs）</span><span class="sxs-lookup"><span data-stu-id="453fa-109">2 dual-core central processing units (CPUs)</span></span>
+  - <span data-ttu-id="c59dd-109">2顆雙核中央處理單位（CPUs）</span><span class="sxs-lookup"><span data-stu-id="c59dd-109">2 dual-core central processing units (CPUs)</span></span>
 
 </div>
 
 <div>
 
-## <a name="client-software-requirements"></a><span data-ttu-id="453fa-110">用戶端軟體需求</span><span class="sxs-lookup"><span data-stu-id="453fa-110">Client Software Requirements</span></span>
+## <a name="client-software-requirements"></a><span data-ttu-id="c59dd-110">用戶端軟體需求</span><span class="sxs-lookup"><span data-stu-id="c59dd-110">Client Software Requirements</span></span>
 
-<span data-ttu-id="453fa-111">若要在 Lync Server 2013 部署上執行 Lync Server 2013 壓力和效能工具，支援的作業系統包括：</span><span class="sxs-lookup"><span data-stu-id="453fa-111">To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013 deployment, the supported operating systems are:</span></span>
+<span data-ttu-id="c59dd-111">若要在 Lync Server 2013 部署上執行 Lync Server 2013 壓力和效能工具，支援的作業系統包括：</span><span class="sxs-lookup"><span data-stu-id="c59dd-111">To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013 deployment, the supported operating systems are:</span></span>
 
-  - <span data-ttu-id="453fa-112">Windows Server 2012 作業系統</span><span class="sxs-lookup"><span data-stu-id="453fa-112">Windows Server 2012 operating system</span></span>
+  - <span data-ttu-id="c59dd-112">Windows Server 2012 作業系統</span><span class="sxs-lookup"><span data-stu-id="c59dd-112">Windows Server 2012 operating system</span></span>
 
-  - <span data-ttu-id="453fa-113">Windows Server 2008 作業系統（64-位版本）</span><span class="sxs-lookup"><span data-stu-id="453fa-113">Windows Server 2008 operating system (64-bit edition)</span></span>
+  - <span data-ttu-id="c59dd-113">Windows Server 2008 作業系統（64-位版本）</span><span class="sxs-lookup"><span data-stu-id="c59dd-113">Windows Server 2008 operating system (64-bit edition)</span></span>
 
-<span data-ttu-id="453fa-114">您的用戶端電腦必須符合下列軟體需求：</span><span class="sxs-lookup"><span data-stu-id="453fa-114">Your client computer must meet the following software requirements:</span></span>
+<span data-ttu-id="c59dd-114">您的用戶端電腦必須符合下列軟體需求：</span><span class="sxs-lookup"><span data-stu-id="c59dd-114">Your client computer must meet the following software requirements:</span></span>
 
-  - <span data-ttu-id="453fa-115">您必須已安裝[Microsoft .Net Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) runtime。</span><span class="sxs-lookup"><span data-stu-id="453fa-115">You must have the [Microsoft .NET Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) runtime installed.</span></span>
+  - <span data-ttu-id="c59dd-115">您必須已安裝[Microsoft .Net Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) runtime。</span><span class="sxs-lookup"><span data-stu-id="c59dd-115">You must have the [Microsoft .NET Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) runtime installed.</span></span>
 
-  - <span data-ttu-id="453fa-116">在 Windows Server 2008/Windows Server 2012 上，必須啟用桌面體驗功能。</span><span class="sxs-lookup"><span data-stu-id="453fa-116">On Windows Server 2008/Windows Server 2012, the Desktop Experience feature must be enabled.</span></span>
+  - <span data-ttu-id="c59dd-116">在 Windows Server 2008/Windows Server 2012 上，必須啟用桌面體驗功能。</span><span class="sxs-lookup"><span data-stu-id="c59dd-116">On Windows Server 2008/Windows Server 2012, the Desktop Experience feature must be enabled.</span></span>
 
-  - <span data-ttu-id="453fa-117">您必須已安裝[Microsoft Visual c + + 2012 可重新發佈套件](https://go.microsoft.com/fwlink/?linkid=143216)（x64）。</span><span class="sxs-lookup"><span data-stu-id="453fa-117">You must have the [Microsoft Visual C++ 2012 redistributable package](https://go.microsoft.com/fwlink/?linkid=143216) (x64) installed.</span></span>
+  - <span data-ttu-id="c59dd-117">您必須已安裝[Microsoft Visual c + + 2012 可重新發佈套件](https://go.microsoft.com/fwlink/?linkid=143216)（x64）。</span><span class="sxs-lookup"><span data-stu-id="c59dd-117">You must have the [Microsoft Visual C++ 2012 redistributable package](https://go.microsoft.com/fwlink/?linkid=143216) (x64) installed.</span></span>
 
-  - <span data-ttu-id="453fa-118">完全設定的 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="453fa-118">A fully configured Lync Server 2013 deployment.</span></span>
+  - <span data-ttu-id="c59dd-118">完全設定的 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="c59dd-118">A fully configured Lync Server 2013 deployment.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="453fa-119">Microsoft 整合通訊 Managed API （UCMA）4.0 文件庫包含在安裝套件中，因此不需要 UCMA，也不應該安裝在用戶端電腦上。</span><span class="sxs-lookup"><span data-stu-id="453fa-119">Microsoft Unified Communications Managed API (UCMA) 4.0 libraries are included in the installation package, so UCMA is not required and should not be installed on client computers.</span></span>
+> <span data-ttu-id="c59dd-119">Microsoft 整合通訊 Managed API （UCMA）4.0 文件庫包含在安裝套件中，因此不需要 UCMA，也不應該安裝在用戶端電腦上。</span><span class="sxs-lookup"><span data-stu-id="c59dd-119">Microsoft Unified Communications Managed API (UCMA) 4.0 libraries are included in the installation package, so UCMA is not required and should not be installed on client computers.</span></span>
 
 
 
@@ -87,17 +87,17 @@ ms.locfileid: "44756884"
 
 <div>
 
-## <a name="configuration-requirements"></a><span data-ttu-id="453fa-120">設定需求</span><span class="sxs-lookup"><span data-stu-id="453fa-120">Configuration Requirements</span></span>
+## <a name="configuration-requirements"></a><span data-ttu-id="c59dd-120">設定需求</span><span class="sxs-lookup"><span data-stu-id="c59dd-120">Configuration Requirements</span></span>
 
-<span data-ttu-id="453fa-121">將執行 Lync Server 2013 壓力和效能工具的電腦必須依照下列需求進行設定：</span><span class="sxs-lookup"><span data-stu-id="453fa-121">The computers that will run the Lync Server 2013 Stress and Performance Tool must be configured according to the following requirements:</span></span>
+<span data-ttu-id="c59dd-121">將執行 Lync Server 2013 壓力和效能工具的電腦必須依照下列需求進行設定：</span><span class="sxs-lookup"><span data-stu-id="c59dd-121">The computers that will run the Lync Server 2013 Stress and Performance Tool must be configured according to the following requirements:</span></span>
 
-1.  <span data-ttu-id="453fa-122">您必須以 Domain 或 Local Admins 群組成員的身分登入。</span><span class="sxs-lookup"><span data-stu-id="453fa-122">You must be logged on as a member of the Domain or Local Admins group.</span></span>
+1.  <span data-ttu-id="c59dd-122">您必須以 Domain 或 Local Admins 群組成員的身分登入。</span><span class="sxs-lookup"><span data-stu-id="c59dd-122">You must be logged on as a member of the Domain or Local Admins group.</span></span>
 
-2.  <span data-ttu-id="453fa-123">Lync Server 2013 應力和效能工具（LyncPerfTool.exe）無法在同時執行 Lync Server 2013 元件的電腦上執行。</span><span class="sxs-lookup"><span data-stu-id="453fa-123">Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe) cannot be run on a computer that is also running Lync Server 2013 components.</span></span>
+2.  <span data-ttu-id="c59dd-123">Lync Server 2013 應力和效能工具（LyncPerfTool.exe）無法在同時執行 Lync Server 2013 元件的電腦上執行。</span><span class="sxs-lookup"><span data-stu-id="c59dd-123">Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe) cannot be run on a computer that is also running Lync Server 2013 components.</span></span>
 
-3.  <span data-ttu-id="453fa-124">您必須在前端伺服器或使用者帳戶所位於的 Standard Edition 伺服器上執行 Lync Server 2013 使用者建立工具（UserProvisioningTool.exe）。</span><span class="sxs-lookup"><span data-stu-id="453fa-124">You must run the Lync Server 2013 User Creation tool (UserProvisioningTool.exe) on the Front End Server or on the Standard Edition server where the user accounts will reside.</span></span> <span data-ttu-id="453fa-125">當該工具執行多次時，每個啟用 Microsoft 整合通訊的使用者都必須有唯一的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="453fa-125">When the tool is run multiple times, each user who is enabled for Microsoft Unified Communications must have a unique phone number.</span></span>
+3.  <span data-ttu-id="c59dd-124">您必須在前端伺服器或使用者帳戶所位於的 Standard Edition 伺服器上執行 Lync Server 2013 使用者建立工具（UserProvisioningTool.exe）。</span><span class="sxs-lookup"><span data-stu-id="c59dd-124">You must run the Lync Server 2013 User Creation tool (UserProvisioningTool.exe) on the Front End Server or on the Standard Edition server where the user accounts will reside.</span></span> <span data-ttu-id="c59dd-125">當該工具執行多次時，每個啟用 Microsoft 整合通訊的使用者都必須有唯一的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="c59dd-125">When the tool is run multiple times, each user who is enabled for Microsoft Unified Communications must have a unique phone number.</span></span>
 
-4.  <span data-ttu-id="453fa-126">頁面檔案大小應為系統管理，或至少應為系統上的 RAM 量的1.5 倍。</span><span class="sxs-lookup"><span data-stu-id="453fa-126">The page file size should be system-managed, or should be at least 1.5 times the amount of RAM on the system.</span></span>
+4.  <span data-ttu-id="c59dd-126">頁面檔案大小應為系統管理，或至少應為系統上的 RAM 量的1.5 倍。</span><span class="sxs-lookup"><span data-stu-id="c59dd-126">The page file size should be system-managed, or should be at least 1.5 times the amount of RAM on the system.</span></span>
 
 </div>
 

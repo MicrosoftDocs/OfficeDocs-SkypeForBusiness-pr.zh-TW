@@ -25,7 +25,7 @@ ms.locfileid: "44755627"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-categories-to-administer-persistent-chat-server"></a><span data-ttu-id="6d4dc-102">使用類別管理 Persistent Chat Server</span><span class="sxs-lookup"><span data-stu-id="6d4dc-102">Using categories to administer Persistent Chat Server</span></span>
+# <a name="using-categories-to-administer-persistent-chat-server"></a><span data-ttu-id="f4109-102">使用類別管理 Persistent Chat Server</span><span class="sxs-lookup"><span data-stu-id="f4109-102">Using categories to administer Persistent Chat Server</span></span>
 
 </div>
 
@@ -35,63 +35,63 @@ ms.locfileid: "44755627"
 
 <span> </span>
 
-<span data-ttu-id="6d4dc-103">_**主題上次修改日期：** 2013-10-01_</span><span class="sxs-lookup"><span data-stu-id="6d4dc-103">_**Topic Last Modified:** 2013-10-01_</span></span>
+<span data-ttu-id="f4109-103">_**主題上次修改日期：** 2013-10-01_</span><span class="sxs-lookup"><span data-stu-id="f4109-103">_**Topic Last Modified:** 2013-10-01_</span></span>
 
-<span data-ttu-id="6d4dc-104">您的持久聊天伺服器部署可以主控許多併發的持久聊天室。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-104">Your Persistent Chat Server deployment can host many concurrent Persistent Chat rooms.</span></span> <span data-ttu-id="6d4dc-105">聊天室可以在伺服器上組織成一組類別。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-105">Chat rooms can be organized into a set of categories on the server.</span></span> <span data-ttu-id="6d4dc-106">每個聊天室各屬於一個類別，並繼承該類別的某些設定。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-106">Each chat room belongs to one category, and inherits some settings from that category.</span></span> <span data-ttu-id="6d4dc-107">這樣的組織會建立一個有用的結構，可用於根據其商業用途來識別交談，並促進委派管理功能和簡化管理。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-107">This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="6d4dc-108">雖然聊天室的許多管理功能是可在使用者執行 Persistent Chat （Lync 用戶端）的電腦上使用，但 Persistent Chat 系統管理員（在<STRONG>cspersistentchatadministrator</STRONG> role 中）必須使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立或管理類別。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-108">Although many of the management features of chat rooms are available in computers running Persistent Chat (Lync client) for the user, Persistent Chat Administrators (in the <STRONG>cspersistentchatadministrator</STRONG> role) must use the Lync Server Control Panel or Windows PowerShell cmdlets to create or manage categories.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="6d4dc-109">Persistent Chat administrator 使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別，以及為組織中的使用者設計聊天室的存取。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-109">Persistent Chat administrators use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage categories, and to design access for chat rooms for the users in their organization.</span></span>
-
-<span data-ttu-id="6d4dc-110">Persistent 聊天室管理員（能夠管理一或多個聊天室）可以使用 Lync 用戶端來啟動聊天室管理 Web 應用程式，以建立及管理聊天室（或客戶可以建立要呼叫的自訂解決方案和工作流程）。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-110">Persistent Chat room managers, who have the ability to manage one or more chat rooms, can use the Lync client to launch a room management Web application to create and manage rooms (or customers can create custom solutions and workflows to be invoked).</span></span> <span data-ttu-id="6d4dc-111">Persistent Chat 系統管理員也可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理聊天室。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-111">Persistent Chat administrators can also use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage rooms.</span></span>
+<span data-ttu-id="f4109-104">您的持久聊天伺服器部署可以主控許多併發的持久聊天室。</span><span class="sxs-lookup"><span data-stu-id="f4109-104">Your Persistent Chat Server deployment can host many concurrent Persistent Chat rooms.</span></span> <span data-ttu-id="f4109-105">聊天室可以在伺服器上組織成一組類別。</span><span class="sxs-lookup"><span data-stu-id="f4109-105">Chat rooms can be organized into a set of categories on the server.</span></span> <span data-ttu-id="f4109-106">每個聊天室各屬於一個類別，並繼承該類別的某些設定。</span><span class="sxs-lookup"><span data-stu-id="f4109-106">Each chat room belongs to one category, and inherits some settings from that category.</span></span> <span data-ttu-id="f4109-107">這樣的組織會建立一個有用的結構，可用於根據其商業用途來識別交談，並促進委派管理功能和簡化管理。</span><span class="sxs-lookup"><span data-stu-id="f4109-107">This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6d4dc-112">Persistent 聊天室的名稱不能與 Persistent 聊天類別相同。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-112">A Persistent Chat room cannot have the same name as a Persistent Chat category.</span></span>
+> <span data-ttu-id="f4109-108">雖然聊天室的許多管理功能是可在使用者執行 Persistent Chat （Lync 用戶端）的電腦上使用，但 Persistent Chat 系統管理員（在<STRONG>cspersistentchatadministrator</STRONG> role 中）必須使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立或管理類別。</span><span class="sxs-lookup"><span data-stu-id="f4109-108">Although many of the management features of chat rooms are available in computers running Persistent Chat (Lync client) for the user, Persistent Chat Administrators (in the <STRONG>cspersistentchatadministrator</STRONG> role) must use the Lync Server Control Panel or Windows PowerShell cmdlets to create or manage categories.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="6d4dc-113">Chat room managers can make changes to all chat room properties, except for changing the category of the room.</span><span class="sxs-lookup"><span data-stu-id="6d4dc-113">Chat room managers can make changes to all chat room properties, except for changing the category of the room.</span></span> <span data-ttu-id="6d4dc-114">They cannot be restricted from performing the following actions:</span><span class="sxs-lookup"><span data-stu-id="6d4dc-114">They cannot be restricted from performing the following actions:</span></span>
+<span data-ttu-id="f4109-109">Persistent Chat administrator 使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別，以及為組織中的使用者設計聊天室的存取。</span><span class="sxs-lookup"><span data-stu-id="f4109-109">Persistent Chat administrators use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage categories, and to design access for chat rooms for the users in their organization.</span></span>
 
-  - <span data-ttu-id="6d4dc-115">停用聊天室</span><span class="sxs-lookup"><span data-stu-id="6d4dc-115">Disabling a chat room</span></span>
-
-  - <span data-ttu-id="6d4dc-116">變更聊天室名稱</span><span class="sxs-lookup"><span data-stu-id="6d4dc-116">Changing a chat room name</span></span>
-
-  - <span data-ttu-id="6d4dc-117">變更聊天室說明</span><span class="sxs-lookup"><span data-stu-id="6d4dc-117">Changing a chat room description</span></span>
-
-  - <span data-ttu-id="6d4dc-118">變更聊天室類型 (視聽形式或是一般形式)</span><span class="sxs-lookup"><span data-stu-id="6d4dc-118">Changing a chat room type (Auditorium versus Normal)</span></span>
-
-  - <span data-ttu-id="6d4dc-119">變更聊天室的隱私權 (開放、關閉或秘密)</span><span class="sxs-lookup"><span data-stu-id="6d4dc-119">Changing the privacy of a room (open versus closed versus secret)</span></span>
-
-  - <span data-ttu-id="6d4dc-120">新增或移除成員</span><span class="sxs-lookup"><span data-stu-id="6d4dc-120">Adding or removing members</span></span>
-
-  - <span data-ttu-id="6d4dc-121">新增或移除聊天室管理員</span><span class="sxs-lookup"><span data-stu-id="6d4dc-121">Adding or removing chat room managers</span></span>
-
-  - <span data-ttu-id="6d4dc-122">新增或移除增益集</span><span class="sxs-lookup"><span data-stu-id="6d4dc-122">Adding or removing an add-in</span></span>
-
-  - <span data-ttu-id="6d4dc-123">變更邀請等設定 (根據類別允許的內容)</span><span class="sxs-lookup"><span data-stu-id="6d4dc-123">Changing settings such as invitations (according to what’s permitted by the category)</span></span>
+<span data-ttu-id="f4109-110">Persistent 聊天室管理員（能夠管理一或多個聊天室）可以使用 Lync 用戶端來啟動聊天室管理 Web 應用程式，以建立及管理聊天室（或客戶可以建立要呼叫的自訂解決方案和工作流程）。</span><span class="sxs-lookup"><span data-stu-id="f4109-110">Persistent Chat room managers, who have the ability to manage one or more chat rooms, can use the Lync client to launch a room management Web application to create and manage rooms (or customers can create custom solutions and workflows to be invoked).</span></span> <span data-ttu-id="f4109-111">Persistent Chat 系統管理員也可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理聊天室。</span><span class="sxs-lookup"><span data-stu-id="f4109-111">Persistent Chat administrators can also use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage rooms.</span></span>
 
 <div>
 
-## <a name="delegated-administration"></a><span data-ttu-id="6d4dc-124">委派管理</span><span class="sxs-lookup"><span data-stu-id="6d4dc-124">Delegated Administration</span></span>
 
-<span data-ttu-id="6d4dc-125">正確使用類別時，建立及管理 Persistent 聊天室的工作會更容易。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-125">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="6d4dc-126">Persistent Chat 管理員可以定義每個類別的**AllowedMembers**和建立**者**，也可以定義將套用到所有在類別中建立之聊天室的預設聊天室設定和行為。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-126">A Persistent Chat Administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="6d4dc-127">Persistent Chat 系統管理員可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-127">Persistent Chat administrators create and manage categories by using Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+> [!NOTE]  
+> <span data-ttu-id="f4109-112">Persistent 聊天室的名稱不能與 Persistent 聊天類別相同。</span><span class="sxs-lookup"><span data-stu-id="f4109-112">A Persistent Chat room cannot have the same name as a Persistent Chat category.</span></span>
 
-<span data-ttu-id="6d4dc-128">使用者、組織單位（Ou）及識別為類別建立者的使用者群組，都是唯一可以在類別中建立聊天室的個人和群組。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-128">Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category.</span></span> <span data-ttu-id="6d4dc-129">在建立類別之後，他們可以從類別的**AllowedMembers**清單選擇使用者、ou 和使用者群組做為聊天室管理員和成員，以管理及參與會議室。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-129">After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.</span></span>
 
-<span data-ttu-id="6d4dc-130">在類別中建立的聊天室遵循類別所強制執行的原則和設定（例如誰可以在會議室的成員資格、誰可以管理該會議室、是否允許檔案上傳，以及是否已傳送邀請）。</span><span class="sxs-lookup"><span data-stu-id="6d4dc-130">Chat rooms that are created in a category adhere to the policies and settings enforced by the category (such as who can be in the room’s membership, who can manage the room, whether file uploads are allowed, whether invitations are sent, and so on).</span></span>
+
+</div>
+
+<span data-ttu-id="f4109-p103">聊天室管理員可以變更所有的聊天室內容，但不能變更聊天室的類別。不能限制聊天室管理員執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="f4109-p103">Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:</span></span>
+
+  - <span data-ttu-id="f4109-115">停用聊天室</span><span class="sxs-lookup"><span data-stu-id="f4109-115">Disabling a chat room</span></span>
+
+  - <span data-ttu-id="f4109-116">變更聊天室名稱</span><span class="sxs-lookup"><span data-stu-id="f4109-116">Changing a chat room name</span></span>
+
+  - <span data-ttu-id="f4109-117">變更聊天室說明</span><span class="sxs-lookup"><span data-stu-id="f4109-117">Changing a chat room description</span></span>
+
+  - <span data-ttu-id="f4109-118">變更聊天室類型 (視聽形式或是一般形式)</span><span class="sxs-lookup"><span data-stu-id="f4109-118">Changing a chat room type (Auditorium versus Normal)</span></span>
+
+  - <span data-ttu-id="f4109-119">變更聊天室的隱私權 (開放、關閉或秘密)</span><span class="sxs-lookup"><span data-stu-id="f4109-119">Changing the privacy of a room (open versus closed versus secret)</span></span>
+
+  - <span data-ttu-id="f4109-120">新增或移除成員</span><span class="sxs-lookup"><span data-stu-id="f4109-120">Adding or removing members</span></span>
+
+  - <span data-ttu-id="f4109-121">新增或移除聊天室管理員</span><span class="sxs-lookup"><span data-stu-id="f4109-121">Adding or removing chat room managers</span></span>
+
+  - <span data-ttu-id="f4109-122">新增或移除增益集</span><span class="sxs-lookup"><span data-stu-id="f4109-122">Adding or removing an add-in</span></span>
+
+  - <span data-ttu-id="f4109-123">變更邀請等設定 (根據類別允許的內容)</span><span class="sxs-lookup"><span data-stu-id="f4109-123">Changing settings such as invitations (according to what’s permitted by the category)</span></span>
+
+<div>
+
+## <a name="delegated-administration"></a><span data-ttu-id="f4109-124">委派管理</span><span class="sxs-lookup"><span data-stu-id="f4109-124">Delegated Administration</span></span>
+
+<span data-ttu-id="f4109-125">正確使用類別時，建立及管理 Persistent 聊天室的工作會更容易。</span><span class="sxs-lookup"><span data-stu-id="f4109-125">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="f4109-126">Persistent Chat 管理員可以定義每個類別的**AllowedMembers**和建立**者**，也可以定義將套用到所有在類別中建立之聊天室的預設聊天室設定和行為。</span><span class="sxs-lookup"><span data-stu-id="f4109-126">A Persistent Chat Administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="f4109-127">Persistent Chat 系統管理員可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別。</span><span class="sxs-lookup"><span data-stu-id="f4109-127">Persistent Chat administrators create and manage categories by using Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+
+<span data-ttu-id="f4109-128">使用者、組織單位（Ou）及識別為類別建立者的使用者群組，都是唯一可以在類別中建立聊天室的個人和群組。</span><span class="sxs-lookup"><span data-stu-id="f4109-128">Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category.</span></span> <span data-ttu-id="f4109-129">在建立類別之後，他們可以從類別的**AllowedMembers**清單選擇使用者、ou 和使用者群組做為聊天室管理員和成員，以管理及參與會議室。</span><span class="sxs-lookup"><span data-stu-id="f4109-129">After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.</span></span>
+
+<span data-ttu-id="f4109-130">在類別中建立的聊天室遵循類別所強制執行的原則和設定（例如誰可以在會議室的成員資格、誰可以管理該會議室、是否允許檔案上傳，以及是否已傳送邀請）。</span><span class="sxs-lookup"><span data-stu-id="f4109-130">Chat rooms that are created in a category adhere to the policies and settings enforced by the category (such as who can be in the room’s membership, who can manage the room, whether file uploads are allowed, whether invitations are sent, and so on).</span></span>
 
 </div>
 

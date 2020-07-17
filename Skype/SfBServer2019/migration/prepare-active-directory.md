@@ -18,18 +18,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752335"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a><span data-ttu-id="52637-105">為商務用 Skype Server 準備 Active Directory</span><span class="sxs-lookup"><span data-stu-id="52637-105">Prepare Active Directory for Skype for Business Server</span></span>
+# <a name="prepare-active-directory-for-skype-for-business-server"></a><span data-ttu-id="f554e-105">為商務用 Skype Server 準備 Active Directory</span><span class="sxs-lookup"><span data-stu-id="f554e-105">Prepare Active Directory for Skype for Business Server</span></span>
 
-<span data-ttu-id="52637-106">在共存狀態中部署商務用 Skype Server 2019 之前，您必須先執行一些其他 Active Directory 工作，才能設定商務用 Skype Server 2019 的架構、樹系和網域。</span><span class="sxs-lookup"><span data-stu-id="52637-106">Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019.</span></span> <span data-ttu-id="52637-107">架構擴充新增商務用 Skype Server 2019 所需的 Active Directory 類別和屬性。</span><span class="sxs-lookup"><span data-stu-id="52637-107">The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019.</span></span> <!-- For additional information, see the topic 
+<span data-ttu-id="f554e-106">在共存狀態中部署商務用 Skype Server 2019 之前，您必須先執行一些其他 Active Directory 工作，才能設定商務用 Skype Server 2019 的架構、樹系和網域。</span><span class="sxs-lookup"><span data-stu-id="f554e-106">Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019.</span></span> <span data-ttu-id="f554e-107">架構擴充新增商務用 Skype Server 2019 所需的 Active Directory 類別和屬性。</span><span class="sxs-lookup"><span data-stu-id="f554e-107">The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019.</span></span> <!-- For additional information, see the topic 
 [Preparing Active Directory Domain Services for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
-### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a><span data-ttu-id="52637-108">為商務用 Skype Server 2019 準備 Active Directory</span><span class="sxs-lookup"><span data-stu-id="52637-108">To prepare Active Directory for Skype for Business Server 2019</span></span>
+### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a><span data-ttu-id="f554e-108">為商務用 Skype Server 2019 準備 Active Directory</span><span class="sxs-lookup"><span data-stu-id="f554e-108">To prepare Active Directory for Skype for Business Server 2019</span></span>
 
-1. <span data-ttu-id="52637-109">在商務用 Skype Server 2019 前端伺服器上，執行商務用 Skype Server 2019 設定。</span><span class="sxs-lookup"><span data-stu-id="52637-109">On the Skype for Business Server 2019 Front End Server, run Skype for Business Server 2019 Setup.</span></span>
+1. <span data-ttu-id="f554e-109">在商務用 Skype Server 2019 前端伺服器上，執行商務用 Skype Server 2019 設定。</span><span class="sxs-lookup"><span data-stu-id="f554e-109">On the Skype for Business Server 2019 Front End Server, run Skype for Business Server 2019 Setup.</span></span>
     
-2. <span data-ttu-id="52637-110">選取 **[準備 Active Directory]**。</span><span class="sxs-lookup"><span data-stu-id="52637-110">Select **Prepare Active Directory**.</span></span>
+2. <span data-ttu-id="f554e-110">選取 **[準備 Active Directory]**。</span><span class="sxs-lookup"><span data-stu-id="f554e-110">Select **Prepare Active Directory**.</span></span>
   
-3. <span data-ttu-id="52637-111">完成嚮導中的步驟1到5。</span><span class="sxs-lookup"><span data-stu-id="52637-111">Complete steps 1 through 5 in the wizard.</span></span>
+3. <span data-ttu-id="f554e-111">完成嚮導中的步驟1到5。</span><span class="sxs-lookup"><span data-stu-id="f554e-111">Complete steps 1 through 5 in the wizard.</span></span>
 
   
 

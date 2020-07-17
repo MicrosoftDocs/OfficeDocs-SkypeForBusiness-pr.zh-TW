@@ -25,7 +25,7 @@ ms.locfileid: "44756632"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a><span data-ttu-id="fec33-102">移除後端伺服器上的 SQL Server 執行個體與資料庫</span><span class="sxs-lookup"><span data-stu-id="fec33-102">Remove SQL Server instances and databases on the Back End Server</span></span>
+# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a><span data-ttu-id="fca96-102">移除後端伺服器上的 SQL Server 執行個體與資料庫</span><span class="sxs-lookup"><span data-stu-id="fca96-102">Remove SQL Server instances and databases on the Back End Server</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "44756632"
 
 <span> </span>
 
-<span data-ttu-id="fec33-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="fec33-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="fca96-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="fca96-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="fec33-104">移除 Microsoft SQL Server 資料庫和實例之後，請移除執行 Lync Server 2010 的伺服器，或重新設定執行 Lync Server 2010 的伺服器以使用另一個資料庫之後。</span><span class="sxs-lookup"><span data-stu-id="fec33-104">You remove the Microsoft SQL Server databases and instances after you remove the servers running Lync Server 2010 that are dependent on them, or after you reconfigure the servers running Lync Server 2010 to use another database.</span></span> <span data-ttu-id="fec33-105">當您淘汰目前的 SQL Server 或重新設定執行 Lync Server 2010 的目前伺服器時，您必須執行本主題中的程式，這樣一來，它會使資料庫過時或無法使用。</span><span class="sxs-lookup"><span data-stu-id="fec33-105">You need to perform the procedure in this topic when you retire the current SQL Server or reconfigure the current server running Lync Server 2010 in such a way that it renders the databases obsolete or unavailable.</span></span>
+<span data-ttu-id="fca96-104">移除 Microsoft SQL Server 資料庫和實例之後，請移除執行 Lync Server 2010 的伺服器，或重新設定執行 Lync Server 2010 的伺服器以使用另一個資料庫之後。</span><span class="sxs-lookup"><span data-stu-id="fca96-104">You remove the Microsoft SQL Server databases and instances after you remove the servers running Lync Server 2010 that are dependent on them, or after you reconfigure the servers running Lync Server 2010 to use another database.</span></span> <span data-ttu-id="fca96-105">當您淘汰目前的 SQL Server 或重新設定執行 Lync Server 2010 的目前伺服器時，您必須執行本主題中的程式，這樣一來，它會使資料庫過時或無法使用。</span><span class="sxs-lookup"><span data-stu-id="fca96-105">You need to perform the procedure in this topic when you retire the current SQL Server or reconfigure the current server running Lync Server 2010 in such a way that it renders the databases obsolete or unavailable.</span></span>
 
-<span data-ttu-id="fec33-106">若要移除封存伺服器或監控伺服器的資料庫或實例，必須先移除伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="fec33-106">To remove the databases or instances for the Archiving Server or Monitoring Server, you must first remove the server role.</span></span> <span data-ttu-id="fec33-107">同樣地，若要移除前端集區的實例或資料庫，您必須先移除或重新設定從屬伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="fec33-107">Similarly, to remove the instances or databases for Front End pool, you must first remove or reconfigure the dependent server role.</span></span> <span data-ttu-id="fec33-108">不論是針對伺服器的組合資料庫或個別執行個體，這些程序都是一樣的。</span><span class="sxs-lookup"><span data-stu-id="fec33-108">These procedures make no distinction between collocated databases or separate instances for servers.</span></span> <span data-ttu-id="fec33-109">組合資料庫並不會影響這些程序。</span><span class="sxs-lookup"><span data-stu-id="fec33-109">The procedures are unaffected by the collocation of databases.</span></span>
+<span data-ttu-id="fca96-106">若要移除封存伺服器或監控伺服器的資料庫或實例，必須先移除伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="fca96-106">To remove the databases or instances for the Archiving Server or Monitoring Server, you must first remove the server role.</span></span> <span data-ttu-id="fca96-107">同樣地，若要移除前端集區的實例或資料庫，您必須先移除或重新設定從屬伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="fca96-107">Similarly, to remove the instances or databases for Front End pool, you must first remove or reconfigure the dependent server role.</span></span> <span data-ttu-id="fca96-108">不論是針對伺服器的組合資料庫或個別執行個體，這些程序都是一樣的。</span><span class="sxs-lookup"><span data-stu-id="fca96-108">These procedures make no distinction between collocated databases or separate instances for servers.</span></span> <span data-ttu-id="fca96-109">組合資料庫並不會影響這些程序。</span><span class="sxs-lookup"><span data-stu-id="fca96-109">The procedures are unaffected by the collocation of databases.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="fec33-110">本章節內容</span><span class="sxs-lookup"><span data-stu-id="fec33-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fca96-110">本章節內容</span><span class="sxs-lookup"><span data-stu-id="fca96-110">In This Section</span></span>
 
-  - [<span data-ttu-id="fec33-111">移除前端集區的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="fec33-111">Remove the SQL Server database for a Front End pool</span></span>](remove-the-sql-server-database-for-a-front-end-pool.md)
+  - [<span data-ttu-id="fca96-111">移除前端集區的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="fca96-111">Remove the SQL Server database for a Front End pool</span></span>](remove-the-sql-server-database-for-a-front-end-pool.md)
 
-  - [<span data-ttu-id="fec33-112">移除監控伺服器的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="fec33-112">Remove the SQL Server database for a Monitoring server</span></span>](remove-the-sql-server-database-for-a-monitoring-server.md)
+  - [<span data-ttu-id="fca96-112">移除監控伺服器的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="fca96-112">Remove the SQL Server database for a Monitoring server</span></span>](remove-the-sql-server-database-for-a-monitoring-server.md)
 
-  - [<span data-ttu-id="fec33-113">移除封存伺服器的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="fec33-113">Remove the SQL Server database for an Archiving server</span></span>](remove-the-sql-server-database-for-an-archiving-server.md)
+  - [<span data-ttu-id="fca96-113">移除封存伺服器的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="fca96-113">Remove the SQL Server database for an Archiving server</span></span>](remove-the-sql-server-database-for-an-archiving-server.md)
 
 </div>
 

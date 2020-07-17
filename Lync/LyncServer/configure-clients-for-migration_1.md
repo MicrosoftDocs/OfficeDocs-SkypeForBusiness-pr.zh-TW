@@ -26,7 +26,7 @@ ms.locfileid: "44754999"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a><span data-ttu-id="cba9a-102">設定用戶端以進行移轉</span><span class="sxs-lookup"><span data-stu-id="cba9a-102">Configure clients for migration</span></span>
+# <a name="configure-clients-for-migration"></a><span data-ttu-id="17a23-102">設定用戶端以進行移轉</span><span class="sxs-lookup"><span data-stu-id="17a23-102">Configure clients for migration</span></span>
 
 </div>
 
@@ -36,25 +36,25 @@ ms.locfileid: "44754999"
 
 <span> </span>
 
-<span data-ttu-id="cba9a-103">_**主題上次修改日期：** 2013-11-21_</span><span class="sxs-lookup"><span data-stu-id="cba9a-103">_**Topic Last Modified:** 2013-11-21_</span></span>
+<span data-ttu-id="17a23-103">_**主題上次修改日期：** 2013-11-21_</span><span class="sxs-lookup"><span data-stu-id="17a23-103">_**Topic Last Modified:** 2013-11-21_</span></span>
 
-<span data-ttu-id="cba9a-104">本主題包含在遷移至 Lync Server 2013 之前，應採取的建議用戶端部署步驟。</span><span class="sxs-lookup"><span data-stu-id="cba9a-104">This topic contains the recommended client deployment steps you should take prior to migrating to Lync Server 2013.</span></span> <span data-ttu-id="cba9a-105">您應該在 Office 通訊伺服器 2007 R2 上進行這些設定變更。</span><span class="sxs-lookup"><span data-stu-id="cba9a-105">These configuration changes should be made on Office Communications Server 2007 R2.</span></span> <span data-ttu-id="cba9a-106">在遷移之前，請務必先執行這些步驟。</span><span class="sxs-lookup"><span data-stu-id="cba9a-106">It is very important that you perform these steps prior to migrating.</span></span> <span data-ttu-id="cba9a-107">如需詳細資訊，請參閱[在 Lync Server 2013 中規劃用戶端和裝置](lync-server-2013-planning-for-clients-and-devices.md)。</span><span class="sxs-lookup"><span data-stu-id="cba9a-107">For details, see [Planning for clients and devices in Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).</span></span>
+<span data-ttu-id="17a23-104">本主題包含在遷移至 Lync Server 2013 之前，應採取的建議用戶端部署步驟。</span><span class="sxs-lookup"><span data-stu-id="17a23-104">This topic contains the recommended client deployment steps you should take prior to migrating to Lync Server 2013.</span></span> <span data-ttu-id="17a23-105">您應該在 Office 通訊伺服器 2007 R2 上進行這些設定變更。</span><span class="sxs-lookup"><span data-stu-id="17a23-105">These configuration changes should be made on Office Communications Server 2007 R2.</span></span> <span data-ttu-id="17a23-106">在遷移之前，請務必先執行這些步驟。</span><span class="sxs-lookup"><span data-stu-id="17a23-106">It is very important that you perform these steps prior to migrating.</span></span> <span data-ttu-id="17a23-107">如需詳細資訊，請參閱[在 Lync Server 2013 中規劃用戶端和裝置](lync-server-2013-planning-for-clients-and-devices.md)。</span><span class="sxs-lookup"><span data-stu-id="17a23-107">For details, see [Planning for clients and devices in Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).</span></span>
 
 <div>
 
-## <a name="to-configure-clients-prior-to-migration"></a><span data-ttu-id="cba9a-108">在遷移之前設定用戶端</span><span class="sxs-lookup"><span data-stu-id="cba9a-108">To configure clients prior to migration</span></span>
+## <a name="to-configure-clients-prior-to-migration"></a><span data-ttu-id="17a23-108">在遷移之前設定用戶端</span><span class="sxs-lookup"><span data-stu-id="17a23-108">To configure clients prior to migration</span></span>
 
-1.  <span data-ttu-id="cba9a-109">部署最近的 Office 通訊伺服器 2007 R2 伺服器、用戶端及裝置更新（修復程式）：</span><span class="sxs-lookup"><span data-stu-id="cba9a-109">Deploy the most recent Office Communications Server 2007 R2 server, client, and device updates (hotfixes):</span></span>
+1.  <span data-ttu-id="17a23-109">部署最近的 Office 通訊伺服器 2007 R2 伺服器、用戶端及裝置更新（修復程式）：</span><span class="sxs-lookup"><span data-stu-id="17a23-109">Deploy the most recent Office Communications Server 2007 R2 server, client, and device updates (hotfixes):</span></span>
     
-      - [<span data-ttu-id="cba9a-110">套用 Office 通訊伺服器 2007 R2 更新</span><span class="sxs-lookup"><span data-stu-id="cba9a-110">Apply Office Communications Server 2007 R2 updates</span></span>](apply-office-communications-server-2007-r2-updates.md)
+      - [<span data-ttu-id="17a23-110">套用 Office 通訊伺服器 2007 R2 更新</span><span class="sxs-lookup"><span data-stu-id="17a23-110">Apply Office Communications Server 2007 R2 updates</span></span>](apply-office-communications-server-2007-r2-updates.md)
     
-      - [<span data-ttu-id="cba9a-111">Communicator 2007 R2 累計更新套件的描述</span><span class="sxs-lookup"><span data-stu-id="cba9a-111">Description of the cumulative update package for Communicator 2007 R2</span></span>](https://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [<span data-ttu-id="17a23-111">Communicator 2007 R2 累計更新套件的描述</span><span class="sxs-lookup"><span data-stu-id="17a23-111">Description of the cumulative update package for Communicator 2007 R2</span></span>](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [<span data-ttu-id="cba9a-112">取得裝置的軟體更新</span><span class="sxs-lookup"><span data-stu-id="cba9a-112">Obtaining Software Updates for Devices</span></span>](https://go.microsoft.com/fwlink/?linkid=335809)
+      - [<span data-ttu-id="17a23-112">取得裝置的軟體更新</span><span class="sxs-lookup"><span data-stu-id="17a23-112">Obtaining Software Updates for Devices</span></span>](https://go.microsoft.com/fwlink/?linkid=335809)
 
-2.  <span data-ttu-id="cba9a-113">在 Office 通訊伺服器 2007 R2 上，使用用戶端版本篩選，只允許安裝了最新更新的 Office 通訊伺服器 2007 R2 用戶端登入。</span><span class="sxs-lookup"><span data-stu-id="cba9a-113">On Office Communications Server 2007 R2, use Client Version Filtering to allow only Office Communications Server 2007 R2 clients with the most current updates installed to sign in.</span></span>
+2.  <span data-ttu-id="17a23-113">在 Office 通訊伺服器 2007 R2 上，使用用戶端版本篩選，只允許安裝了最新更新的 Office 通訊伺服器 2007 R2 用戶端登入。</span><span class="sxs-lookup"><span data-stu-id="17a23-113">On Office Communications Server 2007 R2, use Client Version Filtering to allow only Office Communications Server 2007 R2 clients with the most current updates installed to sign in.</span></span>
 
-3.  <span data-ttu-id="cba9a-114">在 Office 通訊伺服器 2007 R2 上，使用用戶端版本篩選功能封鎖 Lync Server 2013 用戶端登入。</span><span class="sxs-lookup"><span data-stu-id="cba9a-114">On Office Communications Server 2007 R2, use Client Version Filtering to block Lync Server 2013 clients from signing in.</span></span> <span data-ttu-id="cba9a-115">依照設定**用戶端版本篩選**中所述的步驟 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) ，新增下表所列的版本篩選器。</span><span class="sxs-lookup"><span data-stu-id="cba9a-115">Follow the steps described in **Configuring Client Version Filtering** at [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) to add the version filters listed in the following table.</span></span> <span data-ttu-id="cba9a-116">針對每個版本篩選，指派 action**區塊**。</span><span class="sxs-lookup"><span data-stu-id="cba9a-116">For each version filter, assign the action **Block**.</span></span>
+3.  <span data-ttu-id="17a23-114">在 Office 通訊伺服器 2007 R2 上，使用用戶端版本篩選功能封鎖 Lync Server 2013 用戶端登入。</span><span class="sxs-lookup"><span data-stu-id="17a23-114">On Office Communications Server 2007 R2, use Client Version Filtering to block Lync Server 2013 clients from signing in.</span></span> <span data-ttu-id="17a23-115">依照設定**用戶端版本篩選**中所述的步驟 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) ，新增下表所列的版本篩選器。</span><span class="sxs-lookup"><span data-stu-id="17a23-115">Follow the steps described in **Configuring Client Version Filtering** at [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) to add the version filters listed in the following table.</span></span> <span data-ttu-id="17a23-116">針對每個版本篩選，指派 action**區塊**。</span><span class="sxs-lookup"><span data-stu-id="17a23-116">For each version filter, assign the action **Block**.</span></span>
     
     
     <table>
@@ -65,26 +65,26 @@ ms.locfileid: "44754999"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="cba9a-117">用戶端</span><span class="sxs-lookup"><span data-stu-id="cba9a-117">Client</span></span></th>
-    <th><span data-ttu-id="cba9a-118">使用者代理程式標頭</span><span class="sxs-lookup"><span data-stu-id="cba9a-118">User agent header</span></span></th>
-    <th><span data-ttu-id="cba9a-119">版本</span><span class="sxs-lookup"><span data-stu-id="cba9a-119">Version</span></span></th>
+    <th><span data-ttu-id="17a23-117">用戶端</span><span class="sxs-lookup"><span data-stu-id="17a23-117">Client</span></span></th>
+    <th><span data-ttu-id="17a23-118">使用者代理程式標頭</span><span class="sxs-lookup"><span data-stu-id="17a23-118">User agent header</span></span></th>
+    <th><span data-ttu-id="17a23-119">版本</span><span class="sxs-lookup"><span data-stu-id="17a23-119">Version</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="cba9a-120">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cba9a-120">Lync 2013</span></span></p></td>
-    <td><p><span data-ttu-id="cba9a-121">Oc</span><span class="sxs-lookup"><span data-stu-id="cba9a-121">OC</span></span></p></td>
-    <td><p><span data-ttu-id="cba9a-122">15 ...\* \*\*</span><span class="sxs-lookup"><span data-stu-id="cba9a-122">15.*.*.\*</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-120">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="17a23-120">Lync 2013</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-121">Oc</span><span class="sxs-lookup"><span data-stu-id="17a23-121">OC</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-122">15 ...\* \*\*</span><span class="sxs-lookup"><span data-stu-id="17a23-122">15.*.*.\*</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="cba9a-123">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="cba9a-123">Lync Web App</span></span></p></td>
-    <td><p><span data-ttu-id="cba9a-124">NM-CWA-13-NO-VERSION</span><span class="sxs-lookup"><span data-stu-id="cba9a-124">CWA</span></span></p></td>
-    <td><p><span data-ttu-id="cba9a-125">5 ...\* \*\*</span><span class="sxs-lookup"><span data-stu-id="cba9a-125">5.*.*.\*</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-123">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="17a23-123">Lync Web App</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-124">NM-CWA-13-NO-VERSION</span><span class="sxs-lookup"><span data-stu-id="17a23-124">CWA</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-125">5 ...\* \*\*</span><span class="sxs-lookup"><span data-stu-id="17a23-125">5.*.*.\*</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="cba9a-126">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="cba9a-126">Lync Phone Edition</span></span></p></td>
-    <td><p><span data-ttu-id="cba9a-127">OCPhone</span><span class="sxs-lookup"><span data-stu-id="cba9a-127">OCPhone</span></span></p></td>
-    <td><p><span data-ttu-id="cba9a-128">4 ...\* \*\*</span><span class="sxs-lookup"><span data-stu-id="cba9a-128">4.*.*.\*</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-126">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="17a23-126">Lync Phone Edition</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-127">OCPhone</span><span class="sxs-lookup"><span data-stu-id="17a23-127">OCPhone</span></span></p></td>
+    <td><p><span data-ttu-id="17a23-128">4 ...\* \*\*</span><span class="sxs-lookup"><span data-stu-id="17a23-128">4.*.*.\*</span></span></p></td>
     </tr>
     </tbody>
     </table>

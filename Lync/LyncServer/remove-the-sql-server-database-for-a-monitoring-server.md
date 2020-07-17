@@ -25,7 +25,7 @@ ms.locfileid: "44757265"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a><span data-ttu-id="1af89-102">移除監控伺服器的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="1af89-102">Remove the SQL Server database for a Monitoring server</span></span>
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a><span data-ttu-id="aa5c2-102">移除監控伺服器的 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="aa5c2-102">Remove the SQL Server database for a Monitoring server</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "44757265"
 
 <span> </span>
 
-<span data-ttu-id="1af89-103">_**主題上次修改日期：** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="1af89-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="aa5c2-103">_**主題上次修改日期：** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="aa5c2-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="1af89-104">移除 Microsoft Lync Server 2010 監控伺服器之後，您可以移除主控伺服器資料的 SQL Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="1af89-104">After you remove a Microsoft Lync Server 2010 Monitoring Server, you can remove the SQL Server databases that hosted the server data.</span></span> <span data-ttu-id="1af89-105">請使用下列程式，從拓撲產生器移除定義，然後從資料庫伺服器中移除資料庫和記錄檔。</span><span class="sxs-lookup"><span data-stu-id="1af89-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
+<span data-ttu-id="aa5c2-104">移除 Microsoft Lync Server 2010 監控伺服器之後，您可以移除主控伺服器資料的 SQL Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-104">After you remove a Microsoft Lync Server 2010 Monitoring Server, you can remove the SQL Server databases that hosted the server data.</span></span> <span data-ttu-id="aa5c2-105">請使用下列程式，從拓撲產生器移除定義，然後從資料庫伺服器中移除資料庫和記錄檔。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
 
 <div>
 
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="1af89-106">使用拓撲產生器移除 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="1af89-106">To remove the SQL Server database using Topology Builder</span></span>
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="aa5c2-106">使用拓撲產生器移除 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="aa5c2-106">To remove the SQL Server database using Topology Builder</span></span>
 
-1.  <span data-ttu-id="1af89-107">在 Lync Server 2013 前端伺服器上，開啟拓撲產生器。</span><span class="sxs-lookup"><span data-stu-id="1af89-107">On the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+1.  <span data-ttu-id="aa5c2-107">在 Lync Server 2013 前端伺服器上，開啟拓撲產生器。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-107">On the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="1af89-108">在 [拓撲產生器] 中，流覽至 [**共用元件**]，然後按一下 [ **Sql server 存放區**]，以滑鼠右鍵按一下與已移除或已重新設定之監控伺服器關聯的 SQL Server 實例，然後按一下 [**刪除**</span><span class="sxs-lookup"><span data-stu-id="1af89-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Monitoring Server, and then click **Delete**.</span></span>
+2.  <span data-ttu-id="aa5c2-108">在 [拓撲產生器] 中，流覽至 [**共用元件**]，然後按一下 [ **Sql server 存放區**]，以滑鼠右鍵按一下與已移除或已重新設定之監控伺服器關聯的 SQL Server 實例，然後按一下 [**刪除**</span><span class="sxs-lookup"><span data-stu-id="aa5c2-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Monitoring Server, and then click **Delete**.</span></span>
 
-3.  <span data-ttu-id="1af89-109">發行拓撲，然後檢查複寫狀態。</span><span class="sxs-lookup"><span data-stu-id="1af89-109">Publish the topology, and then check replication status.</span></span>
+3.  <span data-ttu-id="aa5c2-109">發行拓撲，然後檢查複寫狀態。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-109">Publish the topology, and then check replication status.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-remove-the-database-files-from-the-sql-server"></a><span data-ttu-id="1af89-110">從 SQL Server 移除資料庫檔案</span><span class="sxs-lookup"><span data-stu-id="1af89-110">To remove the database files from the SQL Server</span></span>
+## <a name="to-remove-the-database-files-from-the-sql-server"></a><span data-ttu-id="aa5c2-110">從 SQL Server 移除資料庫檔案</span><span class="sxs-lookup"><span data-stu-id="aa5c2-110">To remove the database files from the SQL Server</span></span>
 
-1.  <span data-ttu-id="1af89-111">若要移除 SQL Server 之伺服器上的資料庫，您必須是要移除資料庫檔案之 SQL Server 的 SQL server 系統管理員群組成員。</span><span class="sxs-lookup"><span data-stu-id="1af89-111">To remove the databases on the SQL Server-based server, you must be a member of the SQL Server sysadmins group for the SQL Server server where you are removing the database files.</span></span>
+1.  <span data-ttu-id="aa5c2-111">若要移除 SQL Server 之伺服器上的資料庫，您必須是要移除資料庫檔案之 SQL Server 的 SQL server 系統管理員群組成員。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-111">To remove the databases on the SQL Server-based server, you must be a member of the SQL Server sysadmins group for the SQL Server server where you are removing the database files.</span></span>
 
-2.  <span data-ttu-id="1af89-112">開啟 Lync Server 管理命令介面。</span><span class="sxs-lookup"><span data-stu-id="1af89-112">Open the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="aa5c2-112">開啟 Lync Server 管理命令介面。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-112">Open the Lync Server Management Shell.</span></span>
 
-3.  <span data-ttu-id="1af89-113">在命令列輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="1af89-113">At the command line, type the following:</span></span>
+3.  <span data-ttu-id="aa5c2-113">在命令列輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="aa5c2-113">At the command line, type the following:</span></span>
     
         Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    <span data-ttu-id="1af89-114">其中 \<FQDN\> 是資料庫伺服器的完整功能變數名稱（FQDN），也 \<instance\> 就是選用的名稱資料庫實例。</span><span class="sxs-lookup"><span data-stu-id="1af89-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the optional named database instance.</span></span>
+    <span data-ttu-id="aa5c2-114">其中 \<FQDN\> 是資料庫伺服器的完整功能變數名稱（FQDN），也 \<instance\> 就是選用的名稱資料庫實例。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the optional named database instance.</span></span>
 
-4.  <span data-ttu-id="1af89-115">當 **Uninstall-CsDataBase** Cmdlet 提示您確認動作時，請閱讀資訊，然後按 **Y** (或按 Enter) 繼續作業，或是依序按 **N** 及 Enter 停止 Cmdlet (例如發生錯誤時)。</span><span class="sxs-lookup"><span data-stu-id="1af89-115">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
+4.  <span data-ttu-id="aa5c2-115">當 **Uninstall-CsDataBase** Cmdlet 提示您確認動作時，請閱讀資訊，然後按 **Y** (或按 Enter) 繼續作業，或是依序按 **N** 及 Enter 停止 Cmdlet (例如發生錯誤時)。</span><span class="sxs-lookup"><span data-stu-id="aa5c2-115">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
 
 </div>
 

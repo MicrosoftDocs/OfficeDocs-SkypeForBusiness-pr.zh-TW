@@ -25,7 +25,7 @@ ms.locfileid: "44755617"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="a4bf7-102">驗證配置設定的複寫</span><span class="sxs-lookup"><span data-stu-id="a4bf7-102">Validate replication of configuration settings</span></span>
+# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="1794c-102">驗證配置設定的複寫</span><span class="sxs-lookup"><span data-stu-id="1794c-102">Validate replication of configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "44755617"
 
 <span> </span>
 
-<span data-ttu-id="a4bf7-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a4bf7-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="1794c-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="1794c-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="a4bf7-104">您可以在中央管理存放區所在的內部電腦上，或在安裝 Lync Server 2013 核心元件的任何已加入網域的電腦上執行 Lync Server 2013 **Get-CsManagementStoreReplicationStatus** Cmdlet，以驗證將設定資訊複寫至 Edge server。</span><span class="sxs-lookup"><span data-stu-id="a4bf7-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
+<span data-ttu-id="1794c-104">您可以在中央管理存放區所在的內部電腦上，或在安裝 Lync Server 2013 核心元件的任何已加入網域的電腦上執行 Lync Server 2013 **Get-CsManagementStoreReplicationStatus** Cmdlet，以驗證將設定資訊複寫至 Edge server。</span><span class="sxs-lookup"><span data-stu-id="1794c-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
 
-<span data-ttu-id="a4bf7-105">初始結果可能會指出複寫的狀態為 "False"，而非 "True"。</span><span class="sxs-lookup"><span data-stu-id="a4bf7-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="a4bf7-106">若是如此，請執行 **Invoke-CsManagementStoreReplication** Cmdlet，並等候複寫完成，然後再次執行 **Get-CsManagementStoreReplicationStatus** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="a4bf7-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
+<span data-ttu-id="1794c-105">初始結果可能會指出複寫的狀態為 "False"，而非 "True"。</span><span class="sxs-lookup"><span data-stu-id="1794c-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="1794c-106">若是如此，請執行 **Invoke-CsManagementStoreReplication** Cmdlet，並等候複寫完成，然後再次執行 **Get-CsManagementStoreReplicationStatus** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="1794c-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
 
 </div>
 

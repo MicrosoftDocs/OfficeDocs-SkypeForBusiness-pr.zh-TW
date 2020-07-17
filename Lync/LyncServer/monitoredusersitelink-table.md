@@ -25,7 +25,7 @@ ms.locfileid: "44757184"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoredusersitelink-table"></a><span data-ttu-id="a9486-102">MonitoredUserSiteLink 表格</span><span class="sxs-lookup"><span data-stu-id="a9486-102">MonitoredUserSiteLink table</span></span>
+# <a name="monitoredusersitelink-table"></a><span data-ttu-id="f6328-102">MonitoredUserSiteLink 表格</span><span class="sxs-lookup"><span data-stu-id="f6328-102">MonitoredUserSiteLink table</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44757184"
 
 <span> </span>
 
-<span data-ttu-id="a9486-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="a9486-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="f6328-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="f6328-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="a9486-104">The MonitoredUserSiteLink table is a supporting table.</span><span class="sxs-lookup"><span data-stu-id="a9486-104">The MonitoredUserSiteLink table is a supporting table.</span></span> <span data-ttu-id="a9486-105">Each record represents one link between two user sites.</span><span class="sxs-lookup"><span data-stu-id="a9486-105">Each record represents one link between two user sites.</span></span>
+<span data-ttu-id="f6328-p101">MonitoredUserSiteLink 表格是一種支援資料表，其中的每一項記錄都代表兩個使用者網站間的連結。</span><span class="sxs-lookup"><span data-stu-id="f6328-p101">The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "44757184"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a9486-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="a9486-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="a9486-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="a9486-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="a9486-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="a9486-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="a9486-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="a9486-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="f6328-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="f6328-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="f6328-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="f6328-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="f6328-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="f6328-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="f6328-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="f6328-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a9486-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="a9486-110"><strong>UserSite1Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="a9486-111">int</span><span class="sxs-lookup"><span data-stu-id="a9486-111">int</span></span></p></td>
-<td><p><span data-ttu-id="a9486-112">主要、外部</span><span class="sxs-lookup"><span data-stu-id="a9486-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="a9486-113">從<a href="lync-server-2013-usersite-table.md">Lync Server 2013 的 UserSite 表格中</a>參照。</span><span class="sxs-lookup"><span data-stu-id="a9486-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="f6328-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="f6328-110"><strong>UserSite1Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="f6328-111">int</span><span class="sxs-lookup"><span data-stu-id="f6328-111">int</span></span></p></td>
+<td><p><span data-ttu-id="f6328-112">主要、外部</span><span class="sxs-lookup"><span data-stu-id="f6328-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="f6328-113">從<a href="lync-server-2013-usersite-table.md">Lync Server 2013 的 UserSite 表格中</a>參照。</span><span class="sxs-lookup"><span data-stu-id="f6328-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9486-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="a9486-114"><strong>UserSite2Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="a9486-115">int</span><span class="sxs-lookup"><span data-stu-id="a9486-115">int</span></span></p></td>
-<td><p><span data-ttu-id="a9486-116">主要、外部</span><span class="sxs-lookup"><span data-stu-id="a9486-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="a9486-117"><a href="lync-server-2013-usersite-table.md">Lync Server 2013 中 UserSite 表格</a>的參照。</span><span class="sxs-lookup"><span data-stu-id="a9486-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="f6328-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="f6328-114"><strong>UserSite2Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="f6328-115">int</span><span class="sxs-lookup"><span data-stu-id="f6328-115">int</span></span></p></td>
+<td><p><span data-ttu-id="f6328-116">主要、外部</span><span class="sxs-lookup"><span data-stu-id="f6328-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="f6328-117"><a href="lync-server-2013-usersite-table.md">Lync Server 2013 中 UserSite 表格</a>的參照。</span><span class="sxs-lookup"><span data-stu-id="f6328-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

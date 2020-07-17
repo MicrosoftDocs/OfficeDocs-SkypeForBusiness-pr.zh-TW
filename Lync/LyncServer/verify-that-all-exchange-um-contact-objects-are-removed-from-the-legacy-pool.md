@@ -25,7 +25,7 @@ ms.locfileid: "44755547"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="065de-102">確認已移除舊版集區中的所有 Exchange UM 連絡人物件</span><span class="sxs-lookup"><span data-stu-id="065de-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="0d349-102">確認已移除舊版集區中的所有 Exchange UM 連絡人物件</span><span class="sxs-lookup"><span data-stu-id="0d349-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "44755547"
 
 <span> </span>
 
-<span data-ttu-id="065de-103">_**主題上次修改日期：** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="065de-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="0d349-103">_**主題上次修改日期：** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="0d349-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="065de-104">使用**OCSUmUtil**工具或**Get-CsExumContact**指令程式，確認已從舊版 Office 通訊伺服器 2007 R2 集區中移除 Exchange UM 連絡人物件。</span><span class="sxs-lookup"><span data-stu-id="065de-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="065de-105">**OCSUmUtil** 位於下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="065de-105">**OCSUmUtil** is located in the following folder:</span></span>
+<span data-ttu-id="0d349-104">使用**OCSUmUtil**工具或**Get-CsExumContact**指令程式，確認已從舊版 Office 通訊伺服器 2007 R2 集區中移除 Exchange UM 連絡人物件。</span><span class="sxs-lookup"><span data-stu-id="0d349-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="0d349-105">**OCSUmUtil** 位於下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="0d349-105">**OCSUmUtil** is located in the following folder:</span></span>
 
-<span data-ttu-id="065de-106">% Program Files% \\ Common files （ \\ Lync Server 2013 \\ 支援 \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="065de-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
+<span data-ttu-id="0d349-106">% Program Files% \\ Common files （ \\ Lync Server 2013 \\ 支援 \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="0d349-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
 
-<span data-ttu-id="065de-107">用於執行 **OCSUmUtil** 的使用者帳戶必須具備：</span><span class="sxs-lookup"><span data-stu-id="065de-107">**OCSUmUtil** must be run from a user account that has:</span></span>
+<span data-ttu-id="0d349-107">用於執行 **OCSUmUtil** 的使用者帳戶必須具備：</span><span class="sxs-lookup"><span data-stu-id="0d349-107">**OCSUmUtil** must be run from a user account that has:</span></span>
 
-  - <span data-ttu-id="065de-108">RTCUniversalServerAdmins 與 RTCUniversalUserAdmins 群組的成員資格 (包括讀取 Exchange Server Unified Messaging 設定的權限)</span><span class="sxs-lookup"><span data-stu-id="065de-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
+  - <span data-ttu-id="0d349-108">RTCUniversalServerAdmins 與 RTCUniversalUserAdmins 群組的成員資格 (包括讀取 Exchange Server Unified Messaging 設定的權限)</span><span class="sxs-lookup"><span data-stu-id="0d349-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
 
-  - <span data-ttu-id="065de-109">在指定之組織單位 (OU) 容器中建立連絡人物件的網域權限。</span><span class="sxs-lookup"><span data-stu-id="065de-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
+  - <span data-ttu-id="0d349-109">在指定之組織單位 (OU) 容器中建立連絡人物件的網域權限。</span><span class="sxs-lookup"><span data-stu-id="0d349-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
 
-<span data-ttu-id="065de-110">如需使用**Get-CsExumContact** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的[Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。</span><span class="sxs-lookup"><span data-stu-id="065de-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="0d349-110">如需使用**Get-CsExumContact** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的[Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。</span><span class="sxs-lookup"><span data-stu-id="0d349-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

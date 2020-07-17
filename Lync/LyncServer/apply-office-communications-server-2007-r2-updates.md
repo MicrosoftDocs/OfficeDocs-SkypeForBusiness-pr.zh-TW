@@ -26,7 +26,7 @@ ms.locfileid: "44755145"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="apply-office-communications-server-2007-r2-updates"></a><span data-ttu-id="0ad2c-102">套用 Office 通訊伺服器 2007 R2 更新</span><span class="sxs-lookup"><span data-stu-id="0ad2c-102">Apply Office Communications Server 2007 R2 updates</span></span>
+# <a name="apply-office-communications-server-2007-r2-updates"></a><span data-ttu-id="31a94-102">套用 Office 通訊伺服器 2007 R2 更新</span><span class="sxs-lookup"><span data-stu-id="31a94-102">Apply Office Communications Server 2007 R2 updates</span></span>
 
 </div>
 
@@ -36,11 +36,11 @@ ms.locfileid: "44755145"
 
 <span> </span>
 
-<span data-ttu-id="0ad2c-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="0ad2c-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="31a94-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="31a94-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="0ad2c-104">將更新遷移至 Lync Server 2013 之前，必須先將更新套用至您的 Office 通訊伺服器 2007 R2 環境。</span><span class="sxs-lookup"><span data-stu-id="0ad2c-104">Before you migrate to Lync Server 2013, updates must be applied to your Office Communications Server 2007 R2 environment.</span></span> <span data-ttu-id="0ad2c-105">如需有關 Office 通訊伺服器 2007 R2 的最新資訊，請參閱**更新\*\*\*\*通訊伺服器 2007 R2** at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。</span><span class="sxs-lookup"><span data-stu-id="0ad2c-105">For the most up-to-date information about Office Communications Server 2007 R2, see **Updates for** **Communications Server 2007 R2** at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span></span>
+<span data-ttu-id="31a94-104">將更新遷移至 Lync Server 2013 之前，必須先將更新套用至您的 Office 通訊伺服器 2007 R2 環境。</span><span class="sxs-lookup"><span data-stu-id="31a94-104">Before you migrate to Lync Server 2013, updates must be applied to your Office Communications Server 2007 R2 environment.</span></span> <span data-ttu-id="31a94-105">如需有關 Office 通訊伺服器 2007 R2 的最新資訊，請參閱**更新\*\*\*\*通訊伺服器 2007 R2** at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。</span><span class="sxs-lookup"><span data-stu-id="31a94-105">For the most up-to-date information about Office Communications Server 2007 R2, see **Updates for** **Communications Server 2007 R2** at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span></span>
 
-<span data-ttu-id="0ad2c-106">若要安裝 Office 通訊伺服器 2007 R2 的更新，建議您遵循 Microsoft 知識庫文章968802的「通訊伺服器 2007 R2 更新」中所述的**方法1累計伺服器更新安裝程式程式** [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。</span><span class="sxs-lookup"><span data-stu-id="0ad2c-106">To install updates for Office Communications Server 2007 R2, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in Microsoft Knowledge Base article 968802, "Updates for Communications Server 2007 R2," at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span></span>
+<span data-ttu-id="31a94-106">若要安裝 Office 通訊伺服器 2007 R2 的更新，建議您遵循 Microsoft 知識庫文章968802的「通訊伺服器 2007 R2 更新」中所述的**方法1累計伺服器更新安裝程式程式** [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。</span><span class="sxs-lookup"><span data-stu-id="31a94-106">To install updates for Office Communications Server 2007 R2, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in Microsoft Knowledge Base article 968802, "Updates for Communications Server 2007 R2," at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span></span>
 
 </div>
 

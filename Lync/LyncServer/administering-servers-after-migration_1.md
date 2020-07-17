@@ -26,7 +26,7 @@ ms.locfileid: "44755155"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a><span data-ttu-id="c34c6-102">在移轉後管理伺服器</span><span class="sxs-lookup"><span data-stu-id="c34c6-102">Administering servers after migration</span></span>
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="900c3-102">在移轉後管理伺服器</span><span class="sxs-lookup"><span data-stu-id="900c3-102">Administering servers after migration</span></span>
 
 </div>
 
@@ -36,9 +36,9 @@ ms.locfileid: "44755155"
 
 <span> </span>
 
-<span data-ttu-id="c34c6-103">_**主題上次修改日期：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="c34c6-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="900c3-103">_**主題上次修改日期：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="900c3-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="c34c6-104">一般來說，您必須根據所要管理的伺服器版本，使用對應的系統管理工具。</span><span class="sxs-lookup"><span data-stu-id="c34c6-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="c34c6-105">您無法在同一部電腦上安裝 Lync Server 2013 和 Office 通訊伺服器 2007 R2 系統管理工具。</span><span class="sxs-lookup"><span data-stu-id="c34c6-105">You cannot install the Lync Server 2013 and Office Communications Server 2007 R2 administrative tools on the same computer.</span></span> <span data-ttu-id="c34c6-106">此外，在每部伺服器上不會自動安裝 Lync Server 2013 控制台。</span><span class="sxs-lookup"><span data-stu-id="c34c6-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="c34c6-107">若要安裝 Lync Server 2013 控制台，請依照部署檔中的主題[安裝 Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)中的步驟進行。</span><span class="sxs-lookup"><span data-stu-id="c34c6-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="900c3-104">一般來說，您必須根據所要管理的伺服器版本，使用對應的系統管理工具。</span><span class="sxs-lookup"><span data-stu-id="900c3-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="900c3-105">您無法在同一部電腦上安裝 Lync Server 2013 和 Office 通訊伺服器 2007 R2 系統管理工具。</span><span class="sxs-lookup"><span data-stu-id="900c3-105">You cannot install the Lync Server 2013 and Office Communications Server 2007 R2 administrative tools on the same computer.</span></span> <span data-ttu-id="900c3-106">此外，在每部伺服器上不會自動安裝 Lync Server 2013 控制台。</span><span class="sxs-lookup"><span data-stu-id="900c3-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="900c3-107">若要安裝 Lync Server 2013 控制台，請依照部署檔中的主題[安裝 Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)中的步驟進行。</span><span class="sxs-lookup"><span data-stu-id="900c3-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
 
 </div>
 

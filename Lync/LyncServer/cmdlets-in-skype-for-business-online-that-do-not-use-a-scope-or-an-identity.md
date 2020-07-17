@@ -19,26 +19,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44755313"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a><span data-ttu-id="198b3-102">在商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="198b3-102">Cmdlets in Skype for Business Online that do not use a scope or an identity</span></span>
+# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a><span data-ttu-id="8901a-102">在商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="8901a-102">Cmdlets in Skype for Business Online that do not use a scope or an identity</span></span>
 
  
 
 
-<span data-ttu-id="198b3-103">修改允許清單和封鎖清單時所使用的指令程式（決定使用者可以與哪些外部組織通訊的清單）請勿使用範圍或身分識別。</span><span class="sxs-lookup"><span data-stu-id="198b3-103">The cmdlets used when modifying the allowed lists and blocked lists (lists that determine which outside organizations your users are allowed to communicate with) do not use either a scope or an Identity.</span></span> <span data-ttu-id="198b3-104">實際上， **CsEdgeAllowAllKnownDomains** Cmdlet 沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="198b3-104">In fact, the **New-CsEdgeAllowAllKnownDomains** cmdlet does not have any parameters whatsoever.</span></span> <span data-ttu-id="198b3-105">不使用範圍或身分識別的 Cmdlet 如下：</span><span class="sxs-lookup"><span data-stu-id="198b3-105">The cmdlets that do not use either a scope or an Identity are:</span></span>
+<span data-ttu-id="8901a-103">修改允許清單和封鎖清單時所使用的指令程式（決定使用者可以與哪些外部組織通訊的清單）請勿使用範圍或身分識別。</span><span class="sxs-lookup"><span data-stu-id="8901a-103">The cmdlets used when modifying the allowed lists and blocked lists (lists that determine which outside organizations your users are allowed to communicate with) do not use either a scope or an Identity.</span></span> <span data-ttu-id="8901a-104">實際上， **CsEdgeAllowAllKnownDomains** Cmdlet 沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="8901a-104">In fact, the **New-CsEdgeAllowAllKnownDomains** cmdlet does not have any parameters whatsoever.</span></span> <span data-ttu-id="8901a-105">不使用範圍或身分識別的 Cmdlet 如下：</span><span class="sxs-lookup"><span data-stu-id="8901a-105">The cmdlets that do not use either a scope or an Identity are:</span></span>
 
-  - <span data-ttu-id="198b3-106">[新 CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="198b3-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="8901a-106">[新 CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="8901a-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="198b3-107">[新 CsEdgeAllowList](https://technet.microsoft.com/library/jj994023\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="198b3-107">[New-CsEdgeAllowList](https://technet.microsoft.com/library/jj994023\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="8901a-107">[新 CsEdgeAllowList](https://technet.microsoft.com/library/jj994023\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="8901a-107">[New-CsEdgeAllowList](https://technet.microsoft.com/library/jj994023\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="198b3-108">[新 CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="198b3-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="8901a-108">[新 CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="8901a-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))</span></span>
 
-<span data-ttu-id="198b3-109">請注意，使用 CsEdgeAllowList 指令**程式**和**CsEdgeDomainPattern**指令程式時，必須包含 Domain 參數。</span><span class="sxs-lookup"><span data-stu-id="198b3-109">Note that, with both the **New-CsEdgeAllowList** cmdlet and the **New-CsEdgeDomainPattern** cmdlet, you must include the Domain parameter.</span></span> <span data-ttu-id="198b3-110">例如：</span><span class="sxs-lookup"><span data-stu-id="198b3-110">For example:</span></span>
+<span data-ttu-id="8901a-109">請注意，使用 CsEdgeAllowList 指令**程式**和**CsEdgeDomainPattern**指令程式時，必須包含 Domain 參數。</span><span class="sxs-lookup"><span data-stu-id="8901a-109">Note that, with both the **New-CsEdgeAllowList** cmdlet and the **New-CsEdgeDomainPattern** cmdlet, you must include the Domain parameter.</span></span> <span data-ttu-id="8901a-110">例如：</span><span class="sxs-lookup"><span data-stu-id="8901a-110">For example:</span></span>
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
-## <a name="see-also"></a><span data-ttu-id="198b3-111">請參閱</span><span class="sxs-lookup"><span data-stu-id="198b3-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8901a-111">請參閱</span><span class="sxs-lookup"><span data-stu-id="8901a-111">See Also</span></span>
 
 
-[<span data-ttu-id="198b3-112">商務用 Skype Online 中的身分識別、範圍和承租人</span><span class="sxs-lookup"><span data-stu-id="198b3-112">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-<span data-ttu-id="198b3-113">[商務用 Skype Online Cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="198b3-113">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
+[<span data-ttu-id="8901a-112">商務用 Skype Online 中的身分識別、範圍和承租人</span><span class="sxs-lookup"><span data-stu-id="8901a-112">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="8901a-113">[商務用 Skype Online Cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="8901a-113">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
 

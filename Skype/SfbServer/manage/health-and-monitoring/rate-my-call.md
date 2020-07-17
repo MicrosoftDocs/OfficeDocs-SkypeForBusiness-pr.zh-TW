@@ -19,102 +19,102 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/26/2020
 ms.locfileid: "44902217"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a><span data-ttu-id="be2b0-103">在商務用 Skype Server 中評價我的通話</span><span class="sxs-lookup"><span data-stu-id="be2b0-103">Rate my Call in Skype for Business Server</span></span>
+# <a name="rate-my-call-in-skype-for-business-server"></a><span data-ttu-id="13064-103">在商務用 Skype Server 中評價我的通話</span><span class="sxs-lookup"><span data-stu-id="13064-103">Rate my Call in Skype for Business Server</span></span>
 
-<span data-ttu-id="be2b0-104">**摘要：** 深入瞭解商務用 Skype Server 中的通話功能的速率。</span><span class="sxs-lookup"><span data-stu-id="be2b0-104">**Summary:** Learn about the Rate My Call feature in Skype for Business Server.</span></span>
+<span data-ttu-id="13064-104">**摘要：** 深入瞭解商務用 Skype Server 中的通話功能的速率。</span><span class="sxs-lookup"><span data-stu-id="13064-104">**Summary:** Learn about the Rate My Call feature in Skype for Business Server.</span></span>
 
-<span data-ttu-id="be2b0-105">評價我的來電是商務用 Skype 2015 和2016用戶端在 Windows 上的新功能，可讓企業從他們的使用者取得意見反應的方式。</span><span class="sxs-lookup"><span data-stu-id="be2b0-105">Rate My Call was a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.</span></span>
+<span data-ttu-id="13064-105">評價我的來電是商務用 Skype 2015 和2016用戶端在 Windows 上的新功能，可讓企業從他們的使用者取得意見反應的方式。</span><span class="sxs-lookup"><span data-stu-id="13064-105">Rate My Call was a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.</span></span>
 
-<span data-ttu-id="be2b0-106">「我的呼叫」視窗的速率是「星形」分級系統及音訊及視頻通話的預先定義的標記。</span><span class="sxs-lookup"><span data-stu-id="be2b0-106">The Rate My Call window offers a "star" rating system and predefined tokens for audio and video calls.</span></span> <span data-ttu-id="be2b0-107">此外，系統管理員可以讓自訂欄位提供意見反應。</span><span class="sxs-lookup"><span data-stu-id="be2b0-107">In addition, administrators can enable a custom field to provide feedback.</span></span>
+<span data-ttu-id="13064-106">「我的呼叫」視窗的速率是「星形」分級系統及音訊及視頻通話的預先定義的標記。</span><span class="sxs-lookup"><span data-stu-id="13064-106">The Rate My Call window offers a "star" rating system and predefined tokens for audio and video calls.</span></span> <span data-ttu-id="13064-107">此外，系統管理員可以讓自訂欄位提供意見反應。</span><span class="sxs-lookup"><span data-stu-id="13064-107">In addition, administrators can enable a custom field to provide feedback.</span></span>
 
-<span data-ttu-id="be2b0-108">收集的速率我的呼叫資料目前不會包含在任何現有的監控報告中，但有個別的監控報告。</span><span class="sxs-lookup"><span data-stu-id="be2b0-108">Collected Rate My Call data is not currently included in any existing monitoring report, but it has a separate monitoring report.</span></span> <span data-ttu-id="be2b0-109">在 SQL 資料表中收集的資料可透過執行 SQL 查詢進行存取。</span><span class="sxs-lookup"><span data-stu-id="be2b0-109">Data is collected in SQL tables that can be accessed by running SQL queries.</span></span>
+<span data-ttu-id="13064-108">收集的速率我的呼叫資料目前不會包含在任何現有的監控報告中，但有個別的監控報告。</span><span class="sxs-lookup"><span data-stu-id="13064-108">Collected Rate My Call data is not currently included in any existing monitoring report, but it has a separate monitoring report.</span></span> <span data-ttu-id="13064-109">在 SQL 資料表中收集的資料可透過執行 SQL 查詢進行存取。</span><span class="sxs-lookup"><span data-stu-id="13064-109">Data is collected in SQL tables that can be accessed by running SQL queries.</span></span>
 
-## <a name="rate-my-call-prerequisites"></a><span data-ttu-id="be2b0-110">評估我的來電先決條件</span><span class="sxs-lookup"><span data-stu-id="be2b0-110">Rate my Call Prerequisites</span></span>
+## <a name="rate-my-call-prerequisites"></a><span data-ttu-id="13064-110">評估我的來電先決條件</span><span class="sxs-lookup"><span data-stu-id="13064-110">Rate my Call Prerequisites</span></span>
 
-<span data-ttu-id="be2b0-111">在商務用 Skype 伺服器部署中的使用者可以存取我的呼叫功能之前，必須部署及設定下列元件：</span><span class="sxs-lookup"><span data-stu-id="be2b0-111">Before the users in your Skype for Business Server deployment can access Rate My Call functionality, the following set of components must be deployed and configured:</span></span>
+<span data-ttu-id="13064-111">在商務用 Skype 伺服器部署中的使用者可以存取我的呼叫功能之前，必須部署及設定下列元件：</span><span class="sxs-lookup"><span data-stu-id="13064-111">Before the users in your Skype for Business Server deployment can access Rate My Call functionality, the following set of components must be deployed and configured:</span></span>
 
--  <span data-ttu-id="be2b0-112">您必須已安裝商務用 Skype Server （版本9160或更高版本）。</span><span class="sxs-lookup"><span data-stu-id="be2b0-112">You must have Skype for Business Server installed (version 9160 or higher).</span></span>
+-  <span data-ttu-id="13064-112">您必須已安裝商務用 Skype Server （版本9160或更高版本）。</span><span class="sxs-lookup"><span data-stu-id="13064-112">You must have Skype for Business Server installed (version 9160 or higher).</span></span>
 
-- <span data-ttu-id="be2b0-113">讓您的使用者安裝並更新至最新版本的商務用 Skype，也要求他們使用商務用 Skype UI。</span><span class="sxs-lookup"><span data-stu-id="be2b0-113">Have your users install and update to the latest version of Skype for Business and also ask them to use the Skype for Business UI.</span></span>
+- <span data-ttu-id="13064-113">讓您的使用者安裝並更新至最新版本的商務用 Skype，也要求他們使用商務用 Skype UI。</span><span class="sxs-lookup"><span data-stu-id="13064-113">Have your users install and update to the latest version of Skype for Business and also ask them to use the Skype for Business UI.</span></span>
 
-- <span data-ttu-id="be2b0-114">使用者必須位於商務用 Skype 伺服器前端集區。</span><span class="sxs-lookup"><span data-stu-id="be2b0-114">Users must be homed on the Skype for Business Server Front End pool.</span></span>
+- <span data-ttu-id="13064-114">使用者必須位於商務用 Skype 伺服器前端集區。</span><span class="sxs-lookup"><span data-stu-id="13064-114">Users must be homed on the Skype for Business Server Front End pool.</span></span>
 
-- <span data-ttu-id="be2b0-115">您必須已部署商務用 Skype Server 監控資料庫並與商務用 Skype 伺服器集區相關聯。</span><span class="sxs-lookup"><span data-stu-id="be2b0-115">You must have a Skype for Business Server monitoring database deployed and associated to your Skype for Business Server pools.</span></span>
+- <span data-ttu-id="13064-115">您必須已部署商務用 Skype Server 監控資料庫並與商務用 Skype 伺服器集區相關聯。</span><span class="sxs-lookup"><span data-stu-id="13064-115">You must have a Skype for Business Server monitoring database deployed and associated to your Skype for Business Server pools.</span></span>
 
-- <span data-ttu-id="be2b0-116">建議您部署通話品質儀表板（CQD）。</span><span class="sxs-lookup"><span data-stu-id="be2b0-116">We recommend deploying Call Quality Dashboard (CQD).</span></span>
+- <span data-ttu-id="13064-116">建議您部署通話品質儀表板（CQD）。</span><span class="sxs-lookup"><span data-stu-id="13064-116">We recommend deploying Call Quality Dashboard (CQD).</span></span>
 
-## <a name="configure-rate-my-call"></a><span data-ttu-id="be2b0-117">設定通話的速率</span><span class="sxs-lookup"><span data-stu-id="be2b0-117">Configure Rate my Call</span></span>
+## <a name="configure-rate-my-call"></a><span data-ttu-id="13064-117">設定通話的速率</span><span class="sxs-lookup"><span data-stu-id="13064-117">Configure Rate my Call</span></span>
 
-<span data-ttu-id="be2b0-118">使用下列設定，用戶端原則中預設會啟用「我的通話」功能：</span><span class="sxs-lookup"><span data-stu-id="be2b0-118">The Rate My Call feature is enabled by default in the Client policy with the following settings:</span></span>
+<span data-ttu-id="13064-118">使用下列設定，用戶端原則中預設會啟用「我的通話」功能：</span><span class="sxs-lookup"><span data-stu-id="13064-118">The Rate My Call feature is enabled by default in the Client policy with the following settings:</span></span>
 
-- <span data-ttu-id="be2b0-119">將我的通話顯示百分比打分-10%</span><span class="sxs-lookup"><span data-stu-id="be2b0-119">Rate My Call Display Percentage - 10%</span></span>
+- <span data-ttu-id="13064-119">將我的通話顯示百分比打分-10%</span><span class="sxs-lookup"><span data-stu-id="13064-119">Rate My Call Display Percentage - 10%</span></span>
 
-- <span data-ttu-id="be2b0-120">對我的呼叫允許自訂使用者的反應率-已停用</span><span class="sxs-lookup"><span data-stu-id="be2b0-120">Rate My Call Allow Custom User Feedback - disabled</span></span>
+- <span data-ttu-id="13064-120">對我的呼叫允許自訂使用者的反應率-已停用</span><span class="sxs-lookup"><span data-stu-id="13064-120">Rate My Call Allow Custom User Feedback - disabled</span></span>
 
-<span data-ttu-id="be2b0-121">啟用基本功能沒有必要的動作，但是如果您想要有自訂的意見反應，您必須個別啟用。</span><span class="sxs-lookup"><span data-stu-id="be2b0-121">There is no action required to enable the base feature, however but if you want custom feedback you will need to enable it separately.</span></span> <span data-ttu-id="be2b0-122">下列 Windows PowerShell Cmdlet 是啟用自訂使用者意見反應的範例，並將從10% 到80% 的間隔變更。</span><span class="sxs-lookup"><span data-stu-id="be2b0-122">The following Windows PowerShell cmdlet is an example of enabling custom end user feedback and changing the interval from 10% to 80%.</span></span>
+<span data-ttu-id="13064-121">啟用基本功能沒有必要的動作，但是如果您想要有自訂的意見反應，您必須個別啟用。</span><span class="sxs-lookup"><span data-stu-id="13064-121">There is no action required to enable the base feature, however but if you want custom feedback you will need to enable it separately.</span></span> <span data-ttu-id="13064-122">下列 Windows PowerShell Cmdlet 是啟用自訂使用者意見反應的範例，並將從10% 到80% 的間隔變更。</span><span class="sxs-lookup"><span data-stu-id="13064-122">The following Windows PowerShell cmdlet is an example of enabling custom end user feedback and changing the interval from 10% to 80%.</span></span>
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a><span data-ttu-id="be2b0-123">存取通話資料的速率</span><span class="sxs-lookup"><span data-stu-id="be2b0-123">Accessing Rate My Call Data</span></span>
+## <a name="accessing-rate-my-call-data"></a><span data-ttu-id="13064-123">存取通話資料的速率</span><span class="sxs-lookup"><span data-stu-id="13064-123">Accessing Rate My Call Data</span></span>
 
-<span data-ttu-id="be2b0-124">使用者的資料會收集在監控資料庫中的兩個表格中。</span><span class="sxs-lookup"><span data-stu-id="be2b0-124">Data from users is collected in two tables in the monitoring database.</span></span>
+<span data-ttu-id="13064-124">使用者的資料會收集在監控資料庫中的兩個表格中。</span><span class="sxs-lookup"><span data-stu-id="13064-124">Data from users is collected in two tables in the monitoring database.</span></span>
 
- <span data-ttu-id="be2b0-125">**[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表格包含使用者對權杖進行輪詢的結果。</span><span class="sxs-lookup"><span data-stu-id="be2b0-125">**[QoeMetrics].[dbo].[CallQualityFeedbackToken]** - this table contains results of token polling by end users.</span></span>
+ <span data-ttu-id="13064-125">**[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表格包含使用者對權杖進行輪詢的結果。</span><span class="sxs-lookup"><span data-stu-id="13064-125">**[QoeMetrics].[dbo].[CallQualityFeedbackToken]** - this table contains results of token polling by end users.</span></span>
 
- <span data-ttu-id="be2b0-126">**[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表格包含 token 定義。</span><span class="sxs-lookup"><span data-stu-id="be2b0-126">**[QoeMetrics].[dbo].[CallQualityFeedbackTokenDef]** - this table contains token definitions.</span></span>
+ <span data-ttu-id="13064-126">**[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表格包含 token 定義。</span><span class="sxs-lookup"><span data-stu-id="13064-126">**[QoeMetrics].[dbo].[CallQualityFeedbackTokenDef]** - this table contains token definitions.</span></span>
 
-<span data-ttu-id="be2b0-127">權杖定義的編碼方式如下：</span><span class="sxs-lookup"><span data-stu-id="be2b0-127">Token definitions are coded as follows:</span></span>
+<span data-ttu-id="13064-127">權杖定義的編碼方式如下：</span><span class="sxs-lookup"><span data-stu-id="13064-127">Token definitions are coded as follows:</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="be2b0-128">1 </span><span class="sxs-lookup"><span data-stu-id="be2b0-128">1</span></span>  <br/> |<span data-ttu-id="be2b0-129">DistortedSpeech</span><span class="sxs-lookup"><span data-stu-id="be2b0-129">DistortedSpeech</span></span>  <br/> |
-|<span data-ttu-id="be2b0-130">2 </span><span class="sxs-lookup"><span data-stu-id="be2b0-130">2</span></span>  <br/> | <span data-ttu-id="be2b0-131">ElectronicFeedback</span><span class="sxs-lookup"><span data-stu-id="be2b0-131">ElectronicFeedback</span></span> <br/> |
-|<span data-ttu-id="be2b0-132">3 </span><span class="sxs-lookup"><span data-stu-id="be2b0-132">3</span></span>  <br/> | <span data-ttu-id="be2b0-133">BackgroundNoise</span><span class="sxs-lookup"><span data-stu-id="be2b0-133">BackgroundNoise</span></span> <br/> |
-|<span data-ttu-id="be2b0-134">4 </span><span class="sxs-lookup"><span data-stu-id="be2b0-134">4</span></span>  <br/> |<span data-ttu-id="be2b0-135">MuffledSpeech</span><span class="sxs-lookup"><span data-stu-id="be2b0-135">MuffledSpeech</span></span>  <br/> |
-|<span data-ttu-id="be2b0-136">5 </span><span class="sxs-lookup"><span data-stu-id="be2b0-136">5</span></span>  <br/> |<span data-ttu-id="be2b0-137">回音</span><span class="sxs-lookup"><span data-stu-id="be2b0-137">Echo</span></span>  <br/> |
-|<span data-ttu-id="be2b0-138"> 21</span><span class="sxs-lookup"><span data-stu-id="be2b0-138">21</span></span>  <br/> | <span data-ttu-id="be2b0-139">FrozenVideo</span><span class="sxs-lookup"><span data-stu-id="be2b0-139">FrozenVideo</span></span> <br/> |
-|<span data-ttu-id="be2b0-140">22</span><span class="sxs-lookup"><span data-stu-id="be2b0-140">22</span></span>  <br/> | <span data-ttu-id="be2b0-141">PixelatedVideo</span><span class="sxs-lookup"><span data-stu-id="be2b0-141">PixelatedVideo</span></span> <br/> |
-|<span data-ttu-id="be2b0-142">至</span><span class="sxs-lookup"><span data-stu-id="be2b0-142">23</span></span>  <br/> | <span data-ttu-id="be2b0-143">BlurryImage</span><span class="sxs-lookup"><span data-stu-id="be2b0-143">BlurryImage</span></span> <br/> |
-|<span data-ttu-id="be2b0-144">24</span><span class="sxs-lookup"><span data-stu-id="be2b0-144">24</span></span>  <br/> | <span data-ttu-id="be2b0-145">PoorColor</span><span class="sxs-lookup"><span data-stu-id="be2b0-145">PoorColor</span></span> <br/> |
-|<span data-ttu-id="be2b0-146">0.25</span><span class="sxs-lookup"><span data-stu-id="be2b0-146">25</span></span>  <br/> | <span data-ttu-id="be2b0-147">DarkVideo</span><span class="sxs-lookup"><span data-stu-id="be2b0-147">DarkVideo</span></span> <br/> |
-|<span data-ttu-id="be2b0-148">101</span><span class="sxs-lookup"><span data-stu-id="be2b0-148">101</span></span>  <br/> |<span data-ttu-id="be2b0-149">Audio_SilentLocal</span><span class="sxs-lookup"><span data-stu-id="be2b0-149">Audio_SilentLocal</span></span>  <br/> |
-|<span data-ttu-id="be2b0-150">102</span><span class="sxs-lookup"><span data-stu-id="be2b0-150">102</span></span>  <br/> |<span data-ttu-id="be2b0-151">Audio_SilentRemote</span><span class="sxs-lookup"><span data-stu-id="be2b0-151">Audio_SilentRemote</span></span>  <br/> |
-|<span data-ttu-id="be2b0-152">103</span><span class="sxs-lookup"><span data-stu-id="be2b0-152">103</span></span>  <br/> |<span data-ttu-id="be2b0-153">Audio_Echo</span><span class="sxs-lookup"><span data-stu-id="be2b0-153">Audio_Echo</span></span>  <br/> |
-|<span data-ttu-id="be2b0-154">104</span><span class="sxs-lookup"><span data-stu-id="be2b0-154">104</span></span>  <br/> |<span data-ttu-id="be2b0-155">Audio_BackgroundNoise</span><span class="sxs-lookup"><span data-stu-id="be2b0-155">Audio_BackgroundNoise</span></span>  <br/> |
-|<span data-ttu-id="be2b0-156">105</span><span class="sxs-lookup"><span data-stu-id="be2b0-156">105</span></span>  <br/> |<span data-ttu-id="be2b0-157">Audio_LowSound</span><span class="sxs-lookup"><span data-stu-id="be2b0-157">Audio_LowSound</span></span>  <br/> |
-|<span data-ttu-id="be2b0-158">106</span><span class="sxs-lookup"><span data-stu-id="be2b0-158">106</span></span>  <br/> |<span data-ttu-id="be2b0-159">Audio_Dropped</span><span class="sxs-lookup"><span data-stu-id="be2b0-159">Audio_Dropped</span></span>  <br/> |
-|<span data-ttu-id="be2b0-160">107</span><span class="sxs-lookup"><span data-stu-id="be2b0-160">107</span></span>  <br/> |<span data-ttu-id="be2b0-161">Audio_DistortedSpeech</span><span class="sxs-lookup"><span data-stu-id="be2b0-161">Audio_DistortedSpeech</span></span>  <br/> |
-|<span data-ttu-id="be2b0-162">108</span><span class="sxs-lookup"><span data-stu-id="be2b0-162">108</span></span>  <br/> |<span data-ttu-id="be2b0-163">Audio_Interrupted</span><span class="sxs-lookup"><span data-stu-id="be2b0-163">Audio_Interrupted</span></span>  <br/> |
-|<span data-ttu-id="be2b0-164">109</span><span class="sxs-lookup"><span data-stu-id="be2b0-164">109</span></span>  <br/> |<span data-ttu-id="be2b0-165">Audio_Other</span><span class="sxs-lookup"><span data-stu-id="be2b0-165">Audio_Other</span></span>  <br/> |
-|<span data-ttu-id="be2b0-166">201</span><span class="sxs-lookup"><span data-stu-id="be2b0-166">201</span></span>  <br/> |<span data-ttu-id="be2b0-167">Video_NoLocalVideo</span><span class="sxs-lookup"><span data-stu-id="be2b0-167">Video_NoLocalVideo</span></span>  <br/> |
-|<span data-ttu-id="be2b0-168">202</span><span class="sxs-lookup"><span data-stu-id="be2b0-168">202</span></span>  <br/> |<span data-ttu-id="be2b0-169">Video_NoRemoteVideo</span><span class="sxs-lookup"><span data-stu-id="be2b0-169">Video_NoRemoteVideo</span></span>  <br/> |
-|<span data-ttu-id="be2b0-170">203</span><span class="sxs-lookup"><span data-stu-id="be2b0-170">203</span></span>  <br/> |<span data-ttu-id="be2b0-171">Video_LowQuality</span><span class="sxs-lookup"><span data-stu-id="be2b0-171">Video_LowQuality</span></span>  <br/> |
-|<span data-ttu-id="be2b0-172">204</span><span class="sxs-lookup"><span data-stu-id="be2b0-172">204</span></span>  <br/> |<span data-ttu-id="be2b0-173">Video_FrozenVideo</span><span class="sxs-lookup"><span data-stu-id="be2b0-173">Video_FrozenVideo</span></span>  <br/> |
-|<span data-ttu-id="be2b0-174">205</span><span class="sxs-lookup"><span data-stu-id="be2b0-174">205</span></span>  <br/> |<span data-ttu-id="be2b0-175">Video_StoppedUnexpectedly</span><span class="sxs-lookup"><span data-stu-id="be2b0-175">Video_StoppedUnexpectedly</span></span>  <br/> |
-|<span data-ttu-id="be2b0-176">206</span><span class="sxs-lookup"><span data-stu-id="be2b0-176">206</span></span>  <br/> |<span data-ttu-id="be2b0-177">Video_DarkVideo</span><span class="sxs-lookup"><span data-stu-id="be2b0-177">Video_DarkVideo</span></span>  <br/> |
-|<span data-ttu-id="be2b0-178">207</span><span class="sxs-lookup"><span data-stu-id="be2b0-178">207</span></span>  <br/> |<span data-ttu-id="be2b0-179">Video_NoAudioSync</span><span class="sxs-lookup"><span data-stu-id="be2b0-179">Video_NoAudioSync</span></span>  <br/> |
-|<span data-ttu-id="be2b0-180">208</span><span class="sxs-lookup"><span data-stu-id="be2b0-180">208</span></span>  <br/> |<span data-ttu-id="be2b0-181">Video_Other</span><span class="sxs-lookup"><span data-stu-id="be2b0-181">Video_Other</span></span>  <br/> |
-|<span data-ttu-id="be2b0-182">301</span><span class="sxs-lookup"><span data-stu-id="be2b0-182">301</span></span>  <br/> |<span data-ttu-id="be2b0-183">Pstn_DialPad</span><span class="sxs-lookup"><span data-stu-id="be2b0-183">Pstn_DialPad</span></span>  <br/> |
-|<span data-ttu-id="be2b0-184">401</span><span class="sxs-lookup"><span data-stu-id="be2b0-184">401</span></span>  <br/> |<span data-ttu-id="be2b0-185">SS_NoContentLocal</span><span class="sxs-lookup"><span data-stu-id="be2b0-185">SS_NoContentLocal</span></span>  <br/> |
-|<span data-ttu-id="be2b0-186">402</span><span class="sxs-lookup"><span data-stu-id="be2b0-186">402</span></span>  <br/> |<span data-ttu-id="be2b0-187">SS_NoContentRemote</span><span class="sxs-lookup"><span data-stu-id="be2b0-187">SS_NoContentRemote</span></span>  <br/> |
-|<span data-ttu-id="be2b0-188">403</span><span class="sxs-lookup"><span data-stu-id="be2b0-188">403</span></span>  <br/> |<span data-ttu-id="be2b0-189">SS_CantPresent</span><span class="sxs-lookup"><span data-stu-id="be2b0-189">SS_CantPresent</span></span>  <br/> |
-|<span data-ttu-id="be2b0-190">404</span><span class="sxs-lookup"><span data-stu-id="be2b0-190">404</span></span>  <br/> |<span data-ttu-id="be2b0-191">SS_LowQuality</span><span class="sxs-lookup"><span data-stu-id="be2b0-191">SS_LowQuality</span></span>  <br/> |
-|<span data-ttu-id="be2b0-192">405</span><span class="sxs-lookup"><span data-stu-id="be2b0-192">405</span></span>  <br/> |<span data-ttu-id="be2b0-193">SS_Freezing</span><span class="sxs-lookup"><span data-stu-id="be2b0-193">SS_Freezing</span></span>  <br/> |
-|<span data-ttu-id="be2b0-194">406</span><span class="sxs-lookup"><span data-stu-id="be2b0-194">406</span></span>  <br/> |<span data-ttu-id="be2b0-195">SS_StoppedUnexpectedly</span><span class="sxs-lookup"><span data-stu-id="be2b0-195">SS_StoppedUnexpectedly</span></span>  <br/> |
-|<span data-ttu-id="be2b0-196">407</span><span class="sxs-lookup"><span data-stu-id="be2b0-196">407</span></span>  <br/> |<span data-ttu-id="be2b0-197">SS_LargeDelay</span><span class="sxs-lookup"><span data-stu-id="be2b0-197">SS_LargeDelay</span></span>  <br/> |
-|<span data-ttu-id="be2b0-198">408</span><span class="sxs-lookup"><span data-stu-id="be2b0-198">408</span></span>  <br/> |<span data-ttu-id="be2b0-199">SS_Other</span><span class="sxs-lookup"><span data-stu-id="be2b0-199">SS_Other</span></span>  <br/> |
-|<span data-ttu-id="be2b0-200">501</span><span class="sxs-lookup"><span data-stu-id="be2b0-200">501</span></span>  <br/> |<span data-ttu-id="be2b0-201">Reliabilty_Join</span><span class="sxs-lookup"><span data-stu-id="be2b0-201">Reliabilty_Join</span></span>  <br/> |
-|<span data-ttu-id="be2b0-202">502</span><span class="sxs-lookup"><span data-stu-id="be2b0-202">502</span></span>  <br/> |<span data-ttu-id="be2b0-203">Reliabilty_Invite</span><span class="sxs-lookup"><span data-stu-id="be2b0-203">Reliabilty_Invite</span></span>  <br/> |
+|<span data-ttu-id="13064-128">1 </span><span class="sxs-lookup"><span data-stu-id="13064-128">1</span></span>  <br/> |<span data-ttu-id="13064-129">DistortedSpeech</span><span class="sxs-lookup"><span data-stu-id="13064-129">DistortedSpeech</span></span>  <br/> |
+|<span data-ttu-id="13064-130">2 </span><span class="sxs-lookup"><span data-stu-id="13064-130">2</span></span>  <br/> | <span data-ttu-id="13064-131">ElectronicFeedback</span><span class="sxs-lookup"><span data-stu-id="13064-131">ElectronicFeedback</span></span> <br/> |
+|<span data-ttu-id="13064-132">3 </span><span class="sxs-lookup"><span data-stu-id="13064-132">3</span></span>  <br/> | <span data-ttu-id="13064-133">BackgroundNoise</span><span class="sxs-lookup"><span data-stu-id="13064-133">BackgroundNoise</span></span> <br/> |
+|<span data-ttu-id="13064-134">4 </span><span class="sxs-lookup"><span data-stu-id="13064-134">4</span></span>  <br/> |<span data-ttu-id="13064-135">MuffledSpeech</span><span class="sxs-lookup"><span data-stu-id="13064-135">MuffledSpeech</span></span>  <br/> |
+|<span data-ttu-id="13064-136">5 </span><span class="sxs-lookup"><span data-stu-id="13064-136">5</span></span>  <br/> |<span data-ttu-id="13064-137">回音</span><span class="sxs-lookup"><span data-stu-id="13064-137">Echo</span></span>  <br/> |
+|<span data-ttu-id="13064-138"> 21</span><span class="sxs-lookup"><span data-stu-id="13064-138">21</span></span>  <br/> | <span data-ttu-id="13064-139">FrozenVideo</span><span class="sxs-lookup"><span data-stu-id="13064-139">FrozenVideo</span></span> <br/> |
+|<span data-ttu-id="13064-140">22</span><span class="sxs-lookup"><span data-stu-id="13064-140">22</span></span>  <br/> | <span data-ttu-id="13064-141">PixelatedVideo</span><span class="sxs-lookup"><span data-stu-id="13064-141">PixelatedVideo</span></span> <br/> |
+|<span data-ttu-id="13064-142">至</span><span class="sxs-lookup"><span data-stu-id="13064-142">23</span></span>  <br/> | <span data-ttu-id="13064-143">BlurryImage</span><span class="sxs-lookup"><span data-stu-id="13064-143">BlurryImage</span></span> <br/> |
+|<span data-ttu-id="13064-144">24</span><span class="sxs-lookup"><span data-stu-id="13064-144">24</span></span>  <br/> | <span data-ttu-id="13064-145">PoorColor</span><span class="sxs-lookup"><span data-stu-id="13064-145">PoorColor</span></span> <br/> |
+|<span data-ttu-id="13064-146">0.25</span><span class="sxs-lookup"><span data-stu-id="13064-146">25</span></span>  <br/> | <span data-ttu-id="13064-147">DarkVideo</span><span class="sxs-lookup"><span data-stu-id="13064-147">DarkVideo</span></span> <br/> |
+|<span data-ttu-id="13064-148">101</span><span class="sxs-lookup"><span data-stu-id="13064-148">101</span></span>  <br/> |<span data-ttu-id="13064-149">Audio_SilentLocal</span><span class="sxs-lookup"><span data-stu-id="13064-149">Audio_SilentLocal</span></span>  <br/> |
+|<span data-ttu-id="13064-150">102</span><span class="sxs-lookup"><span data-stu-id="13064-150">102</span></span>  <br/> |<span data-ttu-id="13064-151">Audio_SilentRemote</span><span class="sxs-lookup"><span data-stu-id="13064-151">Audio_SilentRemote</span></span>  <br/> |
+|<span data-ttu-id="13064-152">103</span><span class="sxs-lookup"><span data-stu-id="13064-152">103</span></span>  <br/> |<span data-ttu-id="13064-153">Audio_Echo</span><span class="sxs-lookup"><span data-stu-id="13064-153">Audio_Echo</span></span>  <br/> |
+|<span data-ttu-id="13064-154">104</span><span class="sxs-lookup"><span data-stu-id="13064-154">104</span></span>  <br/> |<span data-ttu-id="13064-155">Audio_BackgroundNoise</span><span class="sxs-lookup"><span data-stu-id="13064-155">Audio_BackgroundNoise</span></span>  <br/> |
+|<span data-ttu-id="13064-156">105</span><span class="sxs-lookup"><span data-stu-id="13064-156">105</span></span>  <br/> |<span data-ttu-id="13064-157">Audio_LowSound</span><span class="sxs-lookup"><span data-stu-id="13064-157">Audio_LowSound</span></span>  <br/> |
+|<span data-ttu-id="13064-158">106</span><span class="sxs-lookup"><span data-stu-id="13064-158">106</span></span>  <br/> |<span data-ttu-id="13064-159">Audio_Dropped</span><span class="sxs-lookup"><span data-stu-id="13064-159">Audio_Dropped</span></span>  <br/> |
+|<span data-ttu-id="13064-160">107</span><span class="sxs-lookup"><span data-stu-id="13064-160">107</span></span>  <br/> |<span data-ttu-id="13064-161">Audio_DistortedSpeech</span><span class="sxs-lookup"><span data-stu-id="13064-161">Audio_DistortedSpeech</span></span>  <br/> |
+|<span data-ttu-id="13064-162">108</span><span class="sxs-lookup"><span data-stu-id="13064-162">108</span></span>  <br/> |<span data-ttu-id="13064-163">Audio_Interrupted</span><span class="sxs-lookup"><span data-stu-id="13064-163">Audio_Interrupted</span></span>  <br/> |
+|<span data-ttu-id="13064-164">109</span><span class="sxs-lookup"><span data-stu-id="13064-164">109</span></span>  <br/> |<span data-ttu-id="13064-165">Audio_Other</span><span class="sxs-lookup"><span data-stu-id="13064-165">Audio_Other</span></span>  <br/> |
+|<span data-ttu-id="13064-166">201</span><span class="sxs-lookup"><span data-stu-id="13064-166">201</span></span>  <br/> |<span data-ttu-id="13064-167">Video_NoLocalVideo</span><span class="sxs-lookup"><span data-stu-id="13064-167">Video_NoLocalVideo</span></span>  <br/> |
+|<span data-ttu-id="13064-168">202</span><span class="sxs-lookup"><span data-stu-id="13064-168">202</span></span>  <br/> |<span data-ttu-id="13064-169">Video_NoRemoteVideo</span><span class="sxs-lookup"><span data-stu-id="13064-169">Video_NoRemoteVideo</span></span>  <br/> |
+|<span data-ttu-id="13064-170">203</span><span class="sxs-lookup"><span data-stu-id="13064-170">203</span></span>  <br/> |<span data-ttu-id="13064-171">Video_LowQuality</span><span class="sxs-lookup"><span data-stu-id="13064-171">Video_LowQuality</span></span>  <br/> |
+|<span data-ttu-id="13064-172">204</span><span class="sxs-lookup"><span data-stu-id="13064-172">204</span></span>  <br/> |<span data-ttu-id="13064-173">Video_FrozenVideo</span><span class="sxs-lookup"><span data-stu-id="13064-173">Video_FrozenVideo</span></span>  <br/> |
+|<span data-ttu-id="13064-174">205</span><span class="sxs-lookup"><span data-stu-id="13064-174">205</span></span>  <br/> |<span data-ttu-id="13064-175">Video_StoppedUnexpectedly</span><span class="sxs-lookup"><span data-stu-id="13064-175">Video_StoppedUnexpectedly</span></span>  <br/> |
+|<span data-ttu-id="13064-176">206</span><span class="sxs-lookup"><span data-stu-id="13064-176">206</span></span>  <br/> |<span data-ttu-id="13064-177">Video_DarkVideo</span><span class="sxs-lookup"><span data-stu-id="13064-177">Video_DarkVideo</span></span>  <br/> |
+|<span data-ttu-id="13064-178">207</span><span class="sxs-lookup"><span data-stu-id="13064-178">207</span></span>  <br/> |<span data-ttu-id="13064-179">Video_NoAudioSync</span><span class="sxs-lookup"><span data-stu-id="13064-179">Video_NoAudioSync</span></span>  <br/> |
+|<span data-ttu-id="13064-180">208</span><span class="sxs-lookup"><span data-stu-id="13064-180">208</span></span>  <br/> |<span data-ttu-id="13064-181">Video_Other</span><span class="sxs-lookup"><span data-stu-id="13064-181">Video_Other</span></span>  <br/> |
+|<span data-ttu-id="13064-182">301</span><span class="sxs-lookup"><span data-stu-id="13064-182">301</span></span>  <br/> |<span data-ttu-id="13064-183">Pstn_DialPad</span><span class="sxs-lookup"><span data-stu-id="13064-183">Pstn_DialPad</span></span>  <br/> |
+|<span data-ttu-id="13064-184">401</span><span class="sxs-lookup"><span data-stu-id="13064-184">401</span></span>  <br/> |<span data-ttu-id="13064-185">SS_NoContentLocal</span><span class="sxs-lookup"><span data-stu-id="13064-185">SS_NoContentLocal</span></span>  <br/> |
+|<span data-ttu-id="13064-186">402</span><span class="sxs-lookup"><span data-stu-id="13064-186">402</span></span>  <br/> |<span data-ttu-id="13064-187">SS_NoContentRemote</span><span class="sxs-lookup"><span data-stu-id="13064-187">SS_NoContentRemote</span></span>  <br/> |
+|<span data-ttu-id="13064-188">403</span><span class="sxs-lookup"><span data-stu-id="13064-188">403</span></span>  <br/> |<span data-ttu-id="13064-189">SS_CantPresent</span><span class="sxs-lookup"><span data-stu-id="13064-189">SS_CantPresent</span></span>  <br/> |
+|<span data-ttu-id="13064-190">404</span><span class="sxs-lookup"><span data-stu-id="13064-190">404</span></span>  <br/> |<span data-ttu-id="13064-191">SS_LowQuality</span><span class="sxs-lookup"><span data-stu-id="13064-191">SS_LowQuality</span></span>  <br/> |
+|<span data-ttu-id="13064-192">405</span><span class="sxs-lookup"><span data-stu-id="13064-192">405</span></span>  <br/> |<span data-ttu-id="13064-193">SS_Freezing</span><span class="sxs-lookup"><span data-stu-id="13064-193">SS_Freezing</span></span>  <br/> |
+|<span data-ttu-id="13064-194">406</span><span class="sxs-lookup"><span data-stu-id="13064-194">406</span></span>  <br/> |<span data-ttu-id="13064-195">SS_StoppedUnexpectedly</span><span class="sxs-lookup"><span data-stu-id="13064-195">SS_StoppedUnexpectedly</span></span>  <br/> |
+|<span data-ttu-id="13064-196">407</span><span class="sxs-lookup"><span data-stu-id="13064-196">407</span></span>  <br/> |<span data-ttu-id="13064-197">SS_LargeDelay</span><span class="sxs-lookup"><span data-stu-id="13064-197">SS_LargeDelay</span></span>  <br/> |
+|<span data-ttu-id="13064-198">408</span><span class="sxs-lookup"><span data-stu-id="13064-198">408</span></span>  <br/> |<span data-ttu-id="13064-199">SS_Other</span><span class="sxs-lookup"><span data-stu-id="13064-199">SS_Other</span></span>  <br/> |
+|<span data-ttu-id="13064-200">501</span><span class="sxs-lookup"><span data-stu-id="13064-200">501</span></span>  <br/> |<span data-ttu-id="13064-201">Reliabilty_Join</span><span class="sxs-lookup"><span data-stu-id="13064-201">Reliabilty_Join</span></span>  <br/> |
+|<span data-ttu-id="13064-202">502</span><span class="sxs-lookup"><span data-stu-id="13064-202">502</span></span>  <br/> |<span data-ttu-id="13064-203">Reliabilty_Invite</span><span class="sxs-lookup"><span data-stu-id="13064-203">Reliabilty_Invite</span></span>  <br/> |
 
- <span data-ttu-id="be2b0-204">**[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表格包含 "星" 投票和客戶意見反應（若啟用）的輪詢結果。</span><span class="sxs-lookup"><span data-stu-id="be2b0-204">**[QoeMetrics].[dbo].[CallQualityFeedback]** This table contains polling results from "Star" voting and customer feedback if enabled.</span></span>
+ <span data-ttu-id="13064-204">**[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表格包含 "星" 投票和客戶意見反應（若啟用）的輪詢結果。</span><span class="sxs-lookup"><span data-stu-id="13064-204">**[QoeMetrics].[dbo].[CallQualityFeedback]** This table contains polling results from "Star" voting and customer feedback if enabled.</span></span>
 
-<span data-ttu-id="be2b0-205">您可以使用\*\* \* [Table.Name]\*\* 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。</span><span class="sxs-lookup"><span data-stu-id="be2b0-205">Data from tables can be called by using a **select \* from [Table.Name]** query or by using Microsoft SQL Server Management Studio.</span></span>
+<span data-ttu-id="13064-205">您可以使用\*\* \* [Table.Name]\*\* 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。</span><span class="sxs-lookup"><span data-stu-id="13064-205">Data from tables can be called by using a **select \* from [Table.Name]** query or by using Microsoft SQL Server Management Studio.</span></span>
 
-<span data-ttu-id="be2b0-206">下列 SQL 查詢可供使用：</span><span class="sxs-lookup"><span data-stu-id="be2b0-206">The following SQL queries can be used:</span></span>
+<span data-ttu-id="13064-206">下列 SQL 查詢可供使用：</span><span class="sxs-lookup"><span data-stu-id="13064-206">The following SQL queries can be used:</span></span>
 
- <span data-ttu-id="be2b0-207">**音訊**</span><span class="sxs-lookup"><span data-stu-id="be2b0-207">**Audio**</span></span>
+ <span data-ttu-id="13064-207">**音訊**</span><span class="sxs-lookup"><span data-stu-id="13064-207">**Audio**</span></span>
 
 ```SQL
 SELECT
@@ -151,7 +151,7 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
- <span data-ttu-id="be2b0-208">**影片**</span><span class="sxs-lookup"><span data-stu-id="be2b0-208">**Video**</span></span>
+ <span data-ttu-id="13064-208">**影片**</span><span class="sxs-lookup"><span data-stu-id="13064-208">**Video**</span></span>
 
 ```SQL
 SELECT
@@ -188,9 +188,9 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
-## <a name="updating-token-definitions"></a><span data-ttu-id="be2b0-209">更新權杖定義</span><span class="sxs-lookup"><span data-stu-id="be2b0-209">Updating Token Definitions</span></span>
+## <a name="updating-token-definitions"></a><span data-ttu-id="13064-209">更新權杖定義</span><span class="sxs-lookup"><span data-stu-id="13064-209">Updating Token Definitions</span></span>
 
-<span data-ttu-id="be2b0-210">最新的商務用 Skype 用戶端報告新問題權杖 IDs （ \> 100）可能不會出現在 [QoeMetrics] 中。 [dbo]。[CallQualityFeedbackTokenDef] 表格。</span><span class="sxs-lookup"><span data-stu-id="be2b0-210">The latest Skype for Business clients report new problem token IDs (\> 100) that may not be present in your [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span> <span data-ttu-id="be2b0-211">若要以最新的標記定義更新資料庫資料表，可在使用 Microsoft SQL Server Management Studio 的監控資料庫上執行下列 SQL 命令。</span><span class="sxs-lookup"><span data-stu-id="be2b0-211">To update the database table with the latest token definitions, the below SQL command can be run on the monitoring database using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="be2b0-212">此命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。</span><span class="sxs-lookup"><span data-stu-id="be2b0-212">This command will replace all entries in the [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span>
+<span data-ttu-id="13064-210">最新的商務用 Skype 用戶端報告新問題權杖 IDs （ \> 100）可能不會出現在 [QoeMetrics] 中。 [dbo]。[CallQualityFeedbackTokenDef] 表格。</span><span class="sxs-lookup"><span data-stu-id="13064-210">The latest Skype for Business clients report new problem token IDs (\> 100) that may not be present in your [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span> <span data-ttu-id="13064-211">若要以最新的標記定義更新資料庫資料表，可在使用 Microsoft SQL Server Management Studio 的監控資料庫上執行下列 SQL 命令。</span><span class="sxs-lookup"><span data-stu-id="13064-211">To update the database table with the latest token definitions, the below SQL command can be run on the monitoring database using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="13064-212">此命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。</span><span class="sxs-lookup"><span data-stu-id="13064-212">This command will replace all entries in the [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span>
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
