@@ -38,7 +38,7 @@ ms.locfileid: "44757204"
 
 _**主題上次修改日期：** 2012-10-20_
 
-A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
+*網路區間路由*定義了一組網路地區之間的路由。在您的通話許可控制部署中，每一組網路地區都需要搭配一個網路區間路由，以便讓部署內的每個網路地區都能互相存取。
 
 地區連結會設定地區間連線的頻寬限制，而區間路由會決定從甲地連線到乙地時要採取的連結路徑。
 
@@ -109,7 +109,7 @@ A *network interregion route* defines the route between a pair of network region
     
 
     > [!NOTE]  
-    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
+    > 如果您即將為尚未擁有直接網路地區連結的兩個網路地區建立路由，請新增所有必要的連結以便完成該路由。例如，由於 North America/APAC 網路區間路由之間沒有直接的網路地區連結，因此需要用到兩個網路地區連結。
 
     
     </div>

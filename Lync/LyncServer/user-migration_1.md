@@ -37,7 +37,7 @@ ms.locfileid: "44755637"
 
 _**主題上次修改日期：** 2012-10-19_
 
-A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
+一般可接受的移轉最佳作法是，建立幾位測試使用者，並使用這些使用者進行系統測試。成功移動並測試這些帳戶之後，您應指定一組測試生產使用者，然後移動他們的帳戶並進行驗證測試。當您得到滿意的結果後，就可以將其餘使用者移動至新部署。
 
 </div>
 

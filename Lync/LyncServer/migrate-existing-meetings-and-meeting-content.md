@@ -39,13 +39,13 @@ _**主題上次修改日期：** 2013-02-22_
 
 當使用者帳戶從 Lync Server 2010 移至 Lync Server 2013 伺服器時，下列資訊會隨該使用者帳戶一起移動：
 
-  - **Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.
+  - **使用者已排定的會議**。包含移動會議目錄及會議資料。
 
-  - **User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.
+  - **使用者的個人識別碼 (PIN)**。直到過期或使用者要求新 PIN 前，使用者目前的 PIN 都持續有效。
 
 下列使用者帳戶資訊不會移到新的伺服器。
 
-  - **Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.
+  - **會議內容**。若要移動會議期間分享的內容。例如 PowerPoint、白板、附件或投票資料，請在 **Move-CsUser** Cmdlet 中使用 **-MoveConferenceData** 參數。
 
 </div>
 

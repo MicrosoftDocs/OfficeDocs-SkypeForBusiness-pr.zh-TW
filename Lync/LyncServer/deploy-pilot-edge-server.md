@@ -39,7 +39,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 本主題著重于部署 Lync Server 2013 Edge Server 之前，請先注意您應注意的配置設定。 Lync Server 2013 的部署和設定流程非常類似 Lync Server 2010。 本節只著重在部署試驗集區時應該考量的要點。 如需詳細步驟，請參閱部署檔中的「[部署 Lync Server 2013 中的外部使用者存取](lync-server-2013-deploying-external-user-access.md)」，它會說明部署程式，也會提供外部使用者存取的設定資訊。
 
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
+啟動 [定義新 Edge 集區精靈]**** 逐步完成設定，請檢閱下列步驟中的重要組態設定。請注意，下面只列出了「定義新 Edge 集區精靈」**** 部分頁面而已。
 
 **定義 Edge 集區**
 

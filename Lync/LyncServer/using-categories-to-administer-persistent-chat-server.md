@@ -63,7 +63,7 @@ Persistent 聊天室管理員（能夠管理一或多個聊天室）可以使用
 
 </div>
 
-Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
+聊天室管理員可以變更所有的聊天室內容，但不能變更聊天室的類別。不能限制聊天室管理員執行下列動作：
 
   - 停用聊天室
 

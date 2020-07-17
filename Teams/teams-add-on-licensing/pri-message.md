@@ -22,6 +22,7 @@ ms.custom:
 description: 瞭解 Microsoft 團隊訊息中的優先順序通知。
 ms.openlocfilehash: 0456d93cefbe293e883c23edffe237f11f653fe7
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042905"

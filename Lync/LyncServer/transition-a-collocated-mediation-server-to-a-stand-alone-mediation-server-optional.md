@@ -49,13 +49,13 @@ _**主題上次修改日期：** 2012-10-19_
 
 3.  以滑鼠右鍵按一下 [中繼集區]****，然後選取 [新增中繼伺服器]****。
 
-4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
+4.  在 [定義新的中繼集區]**** 頁面上，輸入新中繼伺服器集區的 FQDN。此外，也可以選擇此集區是獨立伺服器集區或是多伺服器集區，然後按 [下一步]****。
 
 5.  選取新中繼伺服器將要路由傳送撥入通話的下一個躍點前端伺服器集區，然後按 [下一步]****。
 
 6.  選取中繼伺服器要使用的 Edge 集區，然後按 [下一步]****。
 
-7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
+7.  在 [指定 PSTN 閘道]**** 頁面上，將舊的 PSTN 閘道關聯到中繼伺服器。選取閘道，然後按一下 [新增]****。
 
 8.  按一下 [完成]****，以關閉 [定義新的中繼集區精靈]****。
 

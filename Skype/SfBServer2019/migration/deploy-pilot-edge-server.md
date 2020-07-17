@@ -23,7 +23,7 @@ ms.locfileid: "44752865"
 本主題著重于部署商務用 Skype Server 2019 Edge Server 之前，請先注意您應注意的配置設定。 商務用 Skype Server 2019 的部署和設定流程非常類似于商務用 Skype Server 2015。 本節只著重在部署試驗集區時應該考量的要點。 <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+啟動 [定義新 Edge 集區精靈]**** 逐步完成設定，請檢閱下列步驟中的重要組態設定。請注意，下面只列出了「定義新 Edge 集區精靈」**** 部分頁面而已。 
   
 ### <a name="to-define-an-edge-pool"></a>定義 Edge 集區
 

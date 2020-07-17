@@ -87,11 +87,11 @@ ms.locfileid: "44754959"
     
     ![拓撲產生器的 [指定外部 Edge] 頁面](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "拓撲產生器的 [指定外部 Edge] 頁面")
 
-5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
+5.  在 [指定外部 Edge]**** 中，清除 [此 Edge 集區是用於同盟和公用 IM 連線]**** 核取方塊。這樣就會移除與 BackCompatSite 的同盟關聯。
     
 
     > [!IMPORTANT]  
-    > This step is important. You must clear this option to remove the legacy federation association.
+    > 此步驟非常重要。您必須清除這個選項，以移除舊版的同盟關聯。
 
 
 
@@ -123,7 +123,7 @@ ms.locfileid: "44754959"
 
 1.  在 Office 通訊伺服器 2007 R2 Standard Edition server 或前端伺服器上，開啟 Office 通訊伺服器 2007 R2 系統管理工具。
 
-2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
+2.  在左窗格中，展開頂端節點，以滑鼠右鍵按一下 [樹系]**** 節點。選取 [內容]****，然後按一下 [通用內容]****。
 
 3.  按一下 [同盟]**** 索引標籤。
 

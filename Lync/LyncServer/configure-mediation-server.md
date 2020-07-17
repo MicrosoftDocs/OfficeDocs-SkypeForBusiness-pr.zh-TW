@@ -39,7 +39,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 本程式詳細說明設定 Lync Server 2013 集區使用 Lync Server 2013 轉送伺服器的步驟，而非舊版 Office 通訊伺服器的 2007 R2 轉送伺服器。
 
-To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
+若要在新增或移除伺服器角色時順利發行、啟用或停用拓撲，您應該以 RTCUniversalServerAdmins 和 Domain Admins 群組成員的使用者身分登入。您也可以委派適當的系統管理員權限與授權來新增伺服器角色。如需詳細資訊，請參閱 Standard Edition Server 或 Enterprise Edition Server 之部署文件中的委派設定權限。若要變更其他設定，只需具備 RTCUniversalServerAdmins 群組的成員資格即可。
 
 <div>
 
@@ -63,7 +63,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 4.  在 **[定義新的 IP/PSTN 閘道]** 頁面中填入下列資訊：
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - 輸入閘道 FQDN 或 IP 位址。如果閘道使用 TLS 通訊協定，就需要閘道的 FQDN。
     
       - 接受 **[IP/PSTN 閘道的聆聽連接埠]** 的預設值；其如有修改，請輸入新的聆聽連接埠。
     
