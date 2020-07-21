@@ -227,7 +227,7 @@
 <!-- ============================================================ -->
 
 
-# 雲端語音 
+# 語音 - 電話系統與 PSTN 連線 
 
 ## [規劃您的部署](cloud-voice-landing-page.md)
 
@@ -517,6 +517,7 @@
 #### [列出您的專案關係人](upgrade-enlist-stakeholders.md)
 #### [定義專案範圍](upgrade-define-project-scope.md)
 #### [了解共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [瞭解電話系統和 PSTN 連線選項](cloud-voice-landing-page.md)
 #### [選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [舉辦使用者試驗](pilot-essentials.md)
 
@@ -537,11 +538,7 @@
 ### [將商務用 Skype Online 升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [將商務用 Skype 內部部署升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## 營運、採用和最佳化
-### [營運方案概觀](continue-journey.md)
-### [營運您的服務](upgrade-operate-my-service.md)
-### [監控品質](upgrade-monitor-quality.md)
-### [加強您的服務](upgrade-enhance-my-service.md)
+## [操作、採用及優化](continue-journey.md)
 
 ## [終止對商務用 Skype Online 的支援](skype-for-business-online-retirement.md)
 ## [常見問題集](FAQ-journey.md)
@@ -700,6 +697,8 @@
 
 <!-- ============================================================ -->
 # 監控、維護和疑難排解
+## [操作您的服務](upgrade-operate-my-service.md)
+## [加強您的服務](upgrade-enhance-my-service.md)
 ## 監控及管理通話品質
 ### [監控及改善通話品質](monitor-call-quality-qos.md)
 ### 通話品質儀表板 (CQD)
@@ -723,6 +722,9 @@
 ### 服務品質 (QoS)
 #### [在 Teams 中設定 QoS](QoS-in-Teams.md)
 #### [在 Windows 用戶端上設定 QoS](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [安裝和更新問題疑難排解](troubleshoot-installation.md)
 ## [疑難排解 Teams 用戶端的連線問題](connectivity-issues.md)
@@ -934,5 +936,7 @@
 ### [Microsoft 365 的通話方案 - 英國的工作條例規定](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365 的通話方案 - 英國的投訴處理規定](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
+
+## [升級探索問卷](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Teams 系統管理員功能的版本資訊](release-notes/release-notes.md)
