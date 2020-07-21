@@ -1,7 +1,7 @@
 
   
 
-# [商務用 Skype Server 2015](../skype-for-business-server-2015.md)
+# [商務用 Skype Server 2015](../skype-for-business-server-2015.yml)
 ## [技術圖表](../technical-diagrams.md)
 ## [商務用 Skype Server 有哪些新功能？](../what-s-new-in-skype-for-business-server.md)
 
