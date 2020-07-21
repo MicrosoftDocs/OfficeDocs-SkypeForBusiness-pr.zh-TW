@@ -15,14 +15,16 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 758b371594f6bf42c8600028f7801627ca7d0999
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: db4b7e5469608724bb9d147d212a08e6b31957a0
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943936"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185788"
 ---
 # <a name="skype-for-business-online-admin"></a>商務用 Skype Online 系統管理員
+
+商務用 Skype Online 已于2021年7月31日停用，此時將會結束存取服務的時間。 我們鼓勵客戶開始升級至 Microsoft 團隊，即在 Microsoft 365 中進行團隊合作的中心。 <a href=https://aka.ms/sfboannounce>深入了解</a>。 
 
 瞭解如何為您的組織管理商務用 Skype Online。
 
