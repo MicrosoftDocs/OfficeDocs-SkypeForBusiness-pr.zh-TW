@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448534a9cab210be71f36ac034207d35e2b9f5f7
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281698"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170602"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice 的適用國家與地區
 
@@ -36,7 +36,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 - 您不再需要訂閱協力廠商電信業者來管理您的電話號碼。
 - 您不再需要任何內部部署電話設備 (除了電話機等使用者裝置外)。
 
-如果您的租用戶位於支援通話方案和快速入門精靈的國家或地區，請參閱[使用含通話方案的 Microsoft 365 Business Voice 需要購買哪些項目](what-to-buy.md)。
+如果您的租用戶位於支援通話方案和快速入門精靈的國家或地區，請參閱[使用含通話方案的 Microsoft 365 商務語音需要購買哪些項目?](what-to-buy.md)
 
 在**不**支援通話方案和快速入門精靈的國家與地區，您必須從 Microsoft 合作夥伴或轉銷商購買 Business Voice。 購買 Business Voice 後，您必須與合作夥伴或轉銷商及協力廠商電信業者合作，以在內部部署電話語音硬體和 Microsoft 365 之間設定直接路由。
 
@@ -55,6 +55,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 英國       | X                                    | X<sup>1</sup>                                               | X                      |
 | 美國        | X                                    | X<sup>1</sup>                                               | X                      |
 | 阿根廷            |                                      | X                                                           |                        |
+| 澳洲            |                                      | X                                                           |                        |
 | 奧地利              |                                      | X                                                           |                        |
 | 比利時              |                                      | X                                                           |                        |
 | 波士尼亞與赫塞哥維納 |                                      | X                                                           |                        |
