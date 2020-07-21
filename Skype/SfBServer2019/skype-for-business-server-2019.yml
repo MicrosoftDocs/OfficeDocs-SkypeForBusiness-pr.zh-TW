@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: 商務用 Skype Server 2019 檔
+summary: 瞭解如何執行商務用 Skype Server 2019。
+metadata:
+  title: 商務用 Skype Server 2019 檔
+  description: 瞭解如何執行商務用 Skype Server 2019。
+  ms.service: skype-for-business-online
+  ms.topic: landing-page
+  audience: ITPro
+  author: LanaChin
+  ms.author: v-lanac
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 4aa8036644cf6d38e150d458c7ca1645e3d6822e
+  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 07/21/2020
+  ms.locfileid: "45189339"
+landingContent:
+- title: 關於商務用 Skype Server 2019
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: 新增功能
+      url: /skypeforbusiness/whats-new
+  - linkListType: overview
+    links:
+    - text: 系統需求
+      url: /skypeforbusiness/plan/system-requirements
+    - text: 網路需求
+      url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+  - linkListType: download
+    links:
+    - text: 立即下載！
+      url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
+- title: 方案
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 拓撲基本概念
+      url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+    - text: 規劃混合式連線
+      url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+    - text: 規劃 Enterprise Voice
+      url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+- title: 安裝和管理
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: 安裝商務用 Skype Server
+      url: /skypeforbusiness/deploy/install/install
+    - text: 遷移至商務用 Skype 2019
+      url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+    - text: 部署企業語音
+      url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+  - linkListType: how-to-guide
+    links:
+    - text: 管理拓撲
+      url: /skypeforbusiness/manage/topology/topology
+- title: 其他資源
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 商務用 Skype Server 2015 檔
+      url: /SkypeForBusiness/skype-for-business-server-2015
+    - text: Lync Server 2013 檔
+      url: /lyncserver/microsoft-lync-server-2013

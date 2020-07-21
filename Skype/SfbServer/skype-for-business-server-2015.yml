@@ -1,0 +1,76 @@
+### YamlMime:Landing
+title: 商務用 Skype Server 2015 檔
+summary: 瞭解如何執行商務用 Skype Server 2015。
+metadata:
+  title: 商務用 Skype Server 2015 檔
+  description: 瞭解如何執行商務用 Skype Server 2015。
+  ms.service: skype-for-business-online
+  audience: ITPro
+  ms.topic: landing-page
+  ms.collection: collection
+  author: lanachin
+  ms.author: v-lanac
+  ms.date: 06/23/2020
+  ms.openlocfilehash: ec8397ba718cf31a5b92f9b4ce8c26f6e5b709be
+  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 07/21/2020
+  ms.locfileid: "45189342"
+landingContent:
+- title: 關於商務用 Skype Server 2015
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 環境需求
+      url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+    - text: 網路需求
+      url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+    - text: Skype 會議廣播
+      url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
+    - text: 技術圖表
+      url: /SkypeForBusiness/technical-diagrams
+  - linkListType: download
+    links:
+    - text: 立即下載！
+      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
+- title: 方案
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 規劃部署
+      url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+    - text: 規劃混合式連線
+      url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
+    - text: 規劃用戶端和裝置
+      url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
+    - text: 規劃企業語音解決方案
+      url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+- title: 安裝和管理
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: 部署商務用 Skype Server
+      url: /SkypeForBusiness/deploy/deploy
+    - text: 安裝商務用 Skype Server
+      url: /SkypeForBusiness/deploy/install/install
+    - text: 升級為商務用 Skype Server
+      url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+    - text: 部署企業語音
+      url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+    - text: 為 Skype 會議廣播設定內部部署
+      url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+  - linkListType: how-to-guide
+    links:
+    - text: 管理商務用 Skype Server
+      url: /SkypeForBusiness/manage/manage
+- title: 其他資源
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 商務用 Skype 預備系列
+      url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
+    - text: 商務用 Skype Server 2019 檔
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - text: Lync Server 2013 檔
+      url: /lyncserver/microsoft-lync-server-2013
