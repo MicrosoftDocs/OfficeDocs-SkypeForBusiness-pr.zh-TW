@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e2346c8bae770671150edc19416676f38bc1d126
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44874245"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202931"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -173,3 +173,4 @@ ms.locfileid: "44874245"
 
 [如何推出 Teams](How-to-roll-out-teams.md)
 
+[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

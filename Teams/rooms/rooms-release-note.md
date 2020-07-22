@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021871"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201177"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -29,6 +29,7 @@ ms.locfileid: "45021871"
 
 |最新發佈 |已發佈至 <br/> Microsoft 網上商店 |
 |--- |--- |
+|4.5.33.0 |07/20/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -64,6 +65,17 @@ ms.locfileid: "45021871"
 |RTM （1.0.8） |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 團隊聊天室功能簡介和問題解決
+
+### <a name="45330-07202020"></a>4.5.33.0 （07/20/2020）
+此更新中引入的專案：
+- 從具有直接來賓加入的團隊聊天室加入 Cisco Webex 會議
+- 團隊系統管理中心啟用與自動登記
+- Windows 10 1909 版本支援
+- 切換至影片庫版面配置（即使內容存在）
+- 虛擬為簡報者提供出席者與控制項的實習支援
+- 會議與預設喇叭的可調預設音量設定
+- 從團隊聊天室搜尋及呼叫聯盟使用者（租使用者）
+    
 
 ### <a name="44630-06252020"></a>4.4.63.0 （06/25/2020）
 

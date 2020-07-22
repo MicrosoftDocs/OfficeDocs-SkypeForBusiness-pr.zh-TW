@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 583fdf2ba821437d1877036ddafe5cce0a460269
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637292"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201047"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 =========================================
@@ -78,7 +78,7 @@ ms.locfileid: "44637292"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>步驟3：設定 Microsoft 365 群組
 
-1. 在 Microsoft 365 系統管理中心中，移至 [**設定**  >  **設定**]，按一下 [**服務**]，然後選取 [ **Microsoft 365 群組**]。
+1. 在 Microsoft 365 系統管理中心中，移至 [**設定**  >  **組織設定**]，按一下 [**服務**]，然後選取 [ **Microsoft 365 群組**]。
 
      ![螢幕擷取畫面顯示 Microsoft 365 群組設定](media/guest-access-checklist-services-settings.png)
 2. 確認已選取 [**允許組織存取群組內容外的群組成員**] 核取方塊。 如果未選取此設定，來賓將無法存取任何群組內容。
@@ -92,7 +92,7 @@ ms.locfileid: "44637292"
 
 請確定使用者可以新增來賓。 做法如下：
 
-1. 在 Microsoft 365 系統管理中心中，移至 [**設定**  >  **設定**]，按一下 [**安全性 & 隱私權**]，然後選取 [**共用**]。
+1. 在 Microsoft 365 系統管理中心中，移至 [**設定**  >  **組織設定**]，按一下 [**安全性 & 隱私權**]，然後選取 [**共用**]。
 
      ![螢幕擷取畫面顯示服務設定的範例](media/guest-access-checklist-security-privacy-settings.png)
  

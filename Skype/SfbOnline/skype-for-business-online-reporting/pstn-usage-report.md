@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [商務用 Skype PSTN 使用詳細資料] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
-ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 09d372f6526d14a65e878271a1b277fc19d7d3e4
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918511"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201167"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用報告
 
@@ -41,7 +41,7 @@ ms.locfileid: "43918511"
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-- 移至系統管理中心 > 系統**管理中心** > **商務用 Skype 系統管理中心** > **報告** > **PSTN 使用狀況詳細資料**。
+- 移至系統管理中心 > 系統**管理中心**  >  **商務用 Skype 系統管理中心**  >  **報告**  >  **PSTN 使用狀況詳細資料**。
     
     > [!NOTE]
     > 視您擁有的 Microsoft 365 或 Office 365 訂閱而定，您可能不會看到這裡顯示的所有產品和報表。
@@ -52,7 +52,7 @@ ms.locfileid: "43918511"
   
 這就是報表看起來的樣子。
   
-![商務用 Skype PSTN 使用方式報告](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
+[![商務用 SKYPE PSTN 使用方式報告 ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
 ![數位1](../images/sfbcallout1.png)<br/>下表顯示每個使用者的所有 PSTN 使用量明細。 這會顯示已指派商務用 Skype 的所有使用者以及其 PSTN 使用方式。 您可以在資料表中新增/移除資料行。
@@ -103,7 +103,7 @@ ms.locfileid: "43918511"
 > 在某些欄位中，您可能也會看到「沒有資料」。 "無資料" 表示該欄位不適用於呼叫類型或功能。 
 
 > [!NOTE]
-> 如果您有 Telstra 通話方案，就不會在 PSTN 使用狀況報告中看到任何通話詳細資料記錄。 如需報告需求，請與 Telstra。 
+> 如果您有 Telstra 或 Softbank 通話方案，就不會在 PSTN 使用狀況報告中看到任何通話詳細資料記錄。 如需報告需求，請與 Telstra 或 Softbank。 
 ***
 ![數位2](../images/sfbcallout2.png)<br/>按一下以將欄拖曳至依據特定欄進行分組，如果您想要建立一個將一或多個欄中的所有資料組成群組的視圖 **，請在這裡拖曳欄標題**。
  ***
@@ -114,9 +114,9 @@ ms.locfileid: "43918511"
 
 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。
 
-匯出程式可能需要幾秒鐘到數分鐘的時間，才能完成，視資料數量而定。 當伺服器完成匯出時，您會收到名為「通話. 匯出」的 zip 檔案 **。 [[ `identifier`.zip]**，其中識別碼是匯出的唯一識別碼，可以用來進行疑難排解。
+匯出程式可能需要幾秒鐘到數分鐘的時間，才能完成，視資料數量而定。 當伺服器完成匯出時，您會收到名為「**Calls. [] 的 zip 檔案。 `identifier`zip**"，且識別碼是匯出的唯一識別碼，這可以用來進行疑難排解。
 
-如果您同時擁有通話方案和直接路由，匯出的檔案可能會包含這兩個產品的資料。 PSTN 使用狀況報告檔案將會有檔案名 "**PSTN. [" `UTC date`.csv**"。 除了 PSTN 和直接路由檔案之外，封存會包含檔案 "**parameters. json**"，以及所選取的匯出時間範圍和功能（如果有的話）。
+如果您同時擁有通話方案和直接路由，匯出的檔案可能會包含這兩個產品的資料。 PSTN 使用狀況報告檔案將會有檔案名 "**PSTN. [ `UTC date` ]。csv**"。 除了 PSTN 和直接路由檔案之外，封存還包含檔案 "**parameters.js開啟**]，以及所選匯出時間範圍和功能（如果有的話）。
 
 匯出的檔案是與[RFC 4180](https://tools.ietf.org/html/rfc4180)標準相容的逗號分隔值（CSV）檔。 您可以在 Excel 或任何其他符合標準的編輯工具中開啟檔案，而不需要任何轉換。
 
@@ -127,7 +127,7 @@ CSV 的第一列包含資料行名稱。
 匯出的檔案包含無法在線上報表中使用的其他欄位。 這些都可以用來進行疑難排解和自動化工作流程。
 
 > [!div class="has-no-wrap"]  
-> | #  | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
+> | #  | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
 > | 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |

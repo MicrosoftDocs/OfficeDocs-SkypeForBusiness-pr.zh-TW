@@ -17,12 +17,12 @@ description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組 PS
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918571"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201197"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 團隊 PSTN 使用方式報告
 
@@ -30,18 +30,21 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 [**通話方案**] 索引標籤會顯示資訊，包括使用者在輸入和輸出 PSTN 通話中所花費的分鐘數，以及這些通話的成本。 [**直接路由**] 索引標籤會顯示您的資訊，包括 SIP 位址及呼叫開始和結束時間。 使用此報告中的資訊，深入瞭解貴組織中的 PSTN 使用量，並協助您調查、規劃及做出業務決策。
 
+> [!NOTE]
+> 如果您有 Telstra 或 Softbank 通話方案，就不會在 PSTN 使用狀況報告中看到任何通話詳細資料記錄。 如需報告需求，請與 Telstra 或 Softbank。 
+
 ## <a name="view-the-pstn-usage-report"></a>查看 PSTN 使用狀況報告
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [ **PSTN 使用方式報告**]。
+1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告**  >  **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [ **PSTN 使用方式報告**]。
 2. 在 [**日期範圍**] 底下，選取7或28天的預先定義範圍，或設定自訂範圍，然後選取 [**執行報表**]。
 
 ## <a name="interpret-the-report"></a>解讀報表
 
 ### <a name="calling-plans"></a>通話方案
 
-![系統管理中心的通話方案 PSTN 使用報告報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "[Microsoft 團隊系統管理中心] 中含有編號標注的 PSTN 使用狀況報告螢幕擷取畫面")
+[系統![管理中心的通話方案 PSTN 使用報告報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "[Microsoft 團隊系統管理中心] 中含有編號標注的 PSTN 使用狀況報告螢幕擷取畫面")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |您可以在過去7天、28天或您設定的自訂日期範圍中查看趨勢 |
 |**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -54,9 +57,9 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 ### <a name="direct-routing"></a>直接路由
 
-![系統管理中心 [直接路由 PSTN 使用狀況報告] 報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "在 Microsoft 團隊系統管理中心使用編號標注直接路由 PSTN 使用方式報告的螢幕擷取畫面")
+[系統![管理中心 [直接路由 PSTN 使用狀況報告] 報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "在 Microsoft 團隊系統管理中心使用編號標注直接路由 PSTN 使用方式報告的螢幕擷取畫面")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |您可以在過去7天或28天的趨勢中查看報告。 |
 |**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -90,11 +93,11 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 匯出的檔案包含無法在線上報表中使用的其他欄位。 這些都可以用來進行疑難排解和自動化工作流程。
 
- 您會收到名為「**通話. 匯出`[identifier]`」的 zip 檔案。zip**"，且識別碼是匯出的唯一識別碼，可以用來進行疑難排解。
+ 您會收到名為「**通話. 匯出」的 zip `[identifier]` 檔案。zip**"，且識別碼是匯出的唯一識別碼，可以用來進行疑難排解。
 
-如果您同時擁有通話方案和直接路由，匯出的檔案可能會包含這兩個產品的資料。 PSTN 使用狀況報告檔案將會有檔案名 "**PSTN.`[UTC date]`。csv**"與直接路由"**DirectRouting`[UTC date]`。csv**"。
+如果您同時擁有通話方案和直接路由，匯出的檔案可能會包含這兩個產品的資料。 PSTN 使用狀況報告檔案將會有檔案名 "**PSTN. `[UTC date]` 。csv**"與直接路由"**DirectRouting `[UTC date]` 。csv**"。
 
- 除了 PSTN 和直接路由檔案之外，封存還包含檔案 "**parameters. json**"，以及所選取的匯出時間範圍和功能。
+ 除了 PSTN 和直接路由檔案之外，封存還包含檔案 "**parameters.json**"，以及所選匯出時間範圍和功能。
 
 匯出的檔案採用逗號分隔值（CSV）格式，符合[RFC 4180](https://tools.ietf.org/html/rfc4180)標準。 您可以在 Excel 或任何其他符合標準的編輯者中開啟檔案，而不需要任何轉換。
 
@@ -105,7 +108,7 @@ CSV 的第一列包含資料行名稱。 所有日期都是 UTC，且是[ISO 860
  除非國家/地區專用的規章禁止將資料保留12個月，否則您可以從目前日期開始匯出一年的資料。
 
 > [!div class="has-no-wrap"]  
-> | # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
+> | # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
 > | 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |
@@ -133,7 +136,7 @@ CSV 的第一列包含資料行名稱。 所有日期都是 UTC，且是[ISO 860
 除非國家/地區專用的規章禁止保留該期間的資料，否則您最多可以將資料從目前日期匯出到五個月（150天）。
 
 > [!div class="has-no-wrap"]  
-> | # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
+> | # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | Id | `uniqueidentifier` | 唯一的呼叫識別碼 |
 > | 1 | SIP 位址 | `nvarchar(128)` | 撥打或接聽電話的使用者或 bot 的位址。<br/>請注意，這實際上是 Azure Active Directory 中的實際 UserPrincipalName （UPN，登入名稱），通常與 SIP 位址相同 |

@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 1d7aed894724a09f1b3cc352ef3e280cf3ead310
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 6a30843070adc8da14343ad2dc94730a750e1f31
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086159"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201217"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -97,7 +97,7 @@ ms.locfileid: "45086159"
 
     - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]****。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > 開啟 [插入即時媒體流量的服務品質 (QoS) 標記]****，將啟用使用 UDP 連接埠 3479 (音訊)、3480 (視訊) 和 3481 (共用) 對傳輸轉送的通訊。
+        > DSCP 標記通常是透過來源埠完成，而 UDP 流量預設會以3478的目的地埠路由到 Transfport 中轉。  如果您的公司需要在目的地埠上加上標記，請聯絡支援人員，以便使用 UDP 埠3479（音訊）、3480（影片）和3481（共用）來與傳輸中繼進行通訊。
     - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍]**** 旁選取 [指定連接埠範圍]****，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。 若要實作 QoS，需要選取此選項。
         > [!IMPORTANT]
         > 如果您選取 [自動使用任何可用的連接埠]****，則會使用 1024 和 65535 之間的可用連接埠。 只有在不實作 QoS 時才使用此選項。

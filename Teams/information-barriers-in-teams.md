@@ -16,12 +16,12 @@ description: 本文說明 Microsoft 團隊中的資訊障礙，以及他們會�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9bbd3f3ff190eee3aa0b44ba68dfd8eb9aab6a
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121703"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202909"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -31,7 +31,7 @@ ms.locfileid: "45121703"
 > - 資訊屏障群組無法跨承租人建立。
 > - 在版本1中不支援使用 bot 來新增使用者。
 > - 專用通道符合您設定的資訊屏障原則。
-> - [新增]：連線至團隊之 SharePoint 網站的資訊障礙支援現已成為私人預覽。 按一下[這裡](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)以參與私人預覽。
+> - [新增]：如需有關連線至團隊之 SharePoint 網站障礙支援的相關資訊，請按一下[這裡](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
 資訊屏障原則也會防止查閱和探索。 這表示如果您嘗試與您不應該與之通訊的人通訊，就不會在人員選擇器中找到該使用者。
 
@@ -171,6 +171,8 @@ Enrico 無法再傳送訊息到群組聊天。
 
 例如：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。
 當使用者 Sesha 建立投資銀行區段的小組時，只有投資銀行區段使用者才能存取該小組和支援該小組的 SharePoint 網站。 即使她擁有 [網站] 連結，使用者 Nikita 還是無法存取該網站。
+
+按一下[這裡](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)以取得更多詳細資料。
 
 ## <a name="required-licenses-and-permissions"></a>所需的授權和許可權
 

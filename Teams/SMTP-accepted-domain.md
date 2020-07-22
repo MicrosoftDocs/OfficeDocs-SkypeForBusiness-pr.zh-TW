@@ -16,12 +16,12 @@ f1.keywords:
 description: 瞭解如何將 Microsoft 團隊 SMTP 網域新增為 Exchange Online 中的 [允許的寄件者] 網域，以傳送通知給小組成員。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b66b58cb14c5205b0ba4a6ff7e95102dc1584579
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c60620a10bc5bb0cff37547313731ba214944ffc
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689859"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201137"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>在 Exchange Online 中新增 Microsoft 團隊 SMTP 網域作為允許的寄件者網域 
 =============================================================================
@@ -30,7 +30,7 @@ ms.locfileid: "44689859"
 
 ![顯示已新增至群組之使用者之訊息標頭的螢幕擷取畫面。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-小組也會使用 Microsoft Exchange Online 來傳送通知給小組成員（如果已新增）。 這是 SMTP 郵件網域 FQDN 的差異 @email 為「teams.microsoft.com」（針對商業/商業租使用者）和「@GCC-email.teams.com」（適用于政府租使用者），並可透過垃圾郵件篩選功能來捕獲。
+小組也會使用 Microsoft Exchange Online 來傳送通知給小組成員（如果已新增）。 這是 SMTP 郵件網域 FQDN 的差異 @email 為「teams.microsoft.com」（針對商業/商業租使用者）和「@GCC-email.teams.microsoft.com」（適用于政府租使用者），並可透過垃圾郵件篩選功能來捕獲。
 
 ![顯示已新增至群組之使用者之訊息標頭的螢幕擷取畫面。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
