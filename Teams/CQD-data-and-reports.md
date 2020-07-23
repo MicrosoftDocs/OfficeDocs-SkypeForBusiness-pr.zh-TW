@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 通話品質儀表板（CQD）中提供的資料和報表。
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086002"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372162"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質儀表板中的資料和報表（CQD）
 
 Microsoft 通話品質儀表板（CQD）使用近乎即時（NRT）的資料摘要。 通話記錄可在通話結束之30分鐘內的 CQD 中取得。 從資料集移除 NRT 管線中的記錄前，只能有幾個月提供給它。 
 
-
-> [!NOTE]
-> [高級 CQD] （2019年11月的新功能）會從 [高級 CQD] 管線中的 NRT 資料，從較舊的 CQD 管線（讓通話記錄在大約24小時內提供）中合併資料。 針對存檔週期中的資料，在舊版及高級入口網站上的查詢會產生相同的結果。 針對 NRT 資料的任一入口網站上的查詢，以及 NRT 資料 + EUII 期間，會有所不同。
 
 ## <a name="many-ways-to-access-cqd-data"></a>許多存取 CQD 資料的方式
 

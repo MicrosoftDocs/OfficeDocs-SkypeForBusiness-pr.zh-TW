@@ -20,20 +20,18 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
-ms.openlocfilehash: 0fc612f4f04e0a57176ac985b40de029d42c5e9e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669413"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45374361"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
 Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集合，您可以指派給在組織中擁有相似角色的使用者。 我們建立了原則套件，以簡化、簡化，並在管理組織中的使用者群組原則時提供一致性。  
 
 當您將原則套件指派給使用者時，會建立套件中的原則，然後您就可以自訂套件中原則的設定，以符合貴組織的需求。
-
-我們的政府雲端社區（GCC）組織無法使用原則套件。
 
 ## <a name="what-is-a-policy-package"></a>什麼是原則套件
 
@@ -49,6 +47,8 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 |教育版（教師）    |建立適用于教師的一組原則與原則設定。      |
 |教育版（使用遠端學習的主要學校教師）    |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |教育版（使用遠端學習的主要學校學生）    |建立適用於學生的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
+|第一線員工管理員 |建立一組原則，並將這些設定套用到貴組織中的第一線員工管理員。 |
+|第一線員工 worker |建立一組原則，並將這些設定套用到貴組織中的第一線員工工作人員。 |
 |醫療保健臨床工人  |建立一組原則與原則設定，提供臨床工人（例如註冊的護士、充電護士、醫生和社會員工）完整存取聊天、通話、值班管理和會議。 |
 |醫療保健資訊工作者  |建立一組原則與原則設定，以提供資訊工作者，例如 IT 人員、informatics 員工、財務人員及合規性監察官，完整存取聊天、通話及會議。|
 |醫療保健患者機房  |建立一組原則與原則設定，適用于您的保健組織中的患者會議室。|

@@ -17,12 +17,12 @@ description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組使
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903868"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372152"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft 團隊使用者活動報告
 
@@ -30,14 +30,16 @@ ms.locfileid: "43903868"
 
 ## <a name="view-the-user-activity-report"></a>查看使用者活動報告
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊使用者活動**]。
+您必須是團隊服務管理員，才能進行這些變更。 請參閱[使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles)，瞭解如何取得管理員角色和許可權。
+
+1. 在系統管理中心的左側導覽中，按一下 [**分析] & 報告**  >  **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊使用者活動**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
 
     ![[團隊系統管理中心] 的 [小組] 使用者活動報告的螢幕擷取畫面（含標注）](../media/teams-reports-user-activity-with-callouts.png "[團隊系統管理中心] 的 [小組] 使用者活動報告的螢幕擷取畫面（含標注）")
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |您可以針對過去7天、28或90天的趨勢，查看團隊使用者活動報告。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |

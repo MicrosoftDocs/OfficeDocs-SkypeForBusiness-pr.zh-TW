@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 閱讀常見問題（FAQ），以及關於 Microsoft 團隊通話品質儀表板（CQD）的解答。
-ms.openlocfilehash: f33d66d9c8abb465c6680bacbbd2ff200cf930c6
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086169"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372122"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質儀表板（CQD）常見問題（FAQ）
 
@@ -35,8 +35,6 @@ ms.locfileid: "45086169"
 [如果有一個或多個會議參與者的體驗不佳，CQD 會將呼叫標示為「良好」嗎？](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
 [為什麼在 [通話] 和 [使用者計數] 值中看到的0.2% 差異，以及如何取得最精確的磁片容量？](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
-
-[為什麼 CQD v2 報告資料看起來與 CQD v3 報告資料不同？](#why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data)
 
 [為什麼商務用 Skype 的 CQD 資料與來自團隊的 CQD 資料不同？](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
@@ -73,66 +71,17 @@ ms.locfileid: "45086169"
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>為什麼在 [通話] 和 [使用者計數] 值中看到的0.2% 差異，以及如何取得最精確的磁片容量？ 
 若要計算通話計數和使用者計數測量，請針對資料集中的通話或使用者識別碼執行不同的 countif 操作。 在大型資料集上，有多達0.2% 的錯誤是由 distinct countif 操作所固有的。 若要取得最精確的容量，您應該依靠資料流程計數測量，因為它們不依賴這個不同的 countif 操作。 篩選以減少資料量可能會減少錯誤，但在不同的通話和使用者計數中可能不會消除此錯誤來源。 請參閱[通話品質儀表板中可](dimensions-and-measures-available-in-call-quality-dashboard.md)受影響之量值的尺寸與測量。
 
-### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>為什麼 CQD v2 報告資料看起來與 CQD v3 報告資料不同？ 
-
-如果您看到 CQD v2 與 v3 之間的資料差異，請確定資料比較或驗證是在 "蘋果" 和 [窄] 層級完成，而不是 [匯總層級]。 例如，如果您篩選兩個報告以進行 MSIT ' 建築物 30 ' WiFi 小組桌面用戶端資料，那麼在 v2 與 v3 之間，品質較差的百分比應該相同。
-
-CQDv2 的 CallSetup 失敗分類只考慮針對「音訊」模態，在 CQDv3 中，會針對每個模態（音訊、影片和 Appsharing）進行分類，並以各自的模態資料流程表示。 
-
-針對團隊而言，CQDv2 會將相同的使用者意見反應套用至所有形式 CQDv3 針對團隊的模態套用意見反應基礎。
-
-CQD V3 包含 
-1. 商務用 Skype Server 2019 通話， 
-2. Skype Bot 通話，例如：自動語音應答、通話佇列、會議宣告服務、 
-3. 虛擬桌面介面、
-4. 會議影片互通性，
-3. 即時事件發行者與簡報者通話，以及 
-4. PSTN 通話。 
-
-若要瞭解如何使用這些 Power BI 範本來分析及報告您的 CQD 資料，請參閱[使用 POWER bi 進行 CQD 報告](cqd-power-bi-query-templates.md)。
-
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>為什麼商務用 Skype 的 CQD 資料與來自團隊的 CQD 資料不同？ 
 
 
 > [!IMPORTANT]
-> 從2020年7月1日起，較舊的 CQD 會存取最新 CQD 的資料。 較舊的 CQD 資料已不再提供，而且您無法匯出您的建立或報表資料。
+> 自2020年7月1日起，較舊的 CQD （CQD.lync.com）會使用最新 CQD （CQD 中的資料。Teams.microsoft.com）。 較舊的 CQD 資料已不再提供，而且您無法匯出您的建立或報表資料。 您仍然可以使用 CQD.lync.com （在商務用 Skype 系統管理中心提供），但我們會關閉 CQD.lync.com 的存取權，因此您應該移至 CQD。如果您尚未這麼做，請 Teams.microsoft.com。
 
 
 如果您嘗試在舊版 CQD （cqd.lync.com）與來自團隊系統管理中心（cqd.teams.microsoft.com）的最新 CQD 之間進行比較，您會很快發現資料不相符。 這是因為最新的 CQD 會報告許多其他通話案例。 如果您仍在使用較舊 CQD 的報告，請參閱這篇文章以協助您解讀這些報告： [[通話品質] 儀表板（適用于商務用 Skype Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)）。
 
 
-
-以下是套用特定篩選來比較 CQD v2 與 CQD v3 資料的範例：
-
-1. 可用的 QoE 記錄 = True
-
-2. [新增] 是 [伺服器對] 篩選，其值為：用戶端：用戶端和用戶端：伺服器。 大多數租使用者傾向于排除伺服器：伺服器通話。
-
-3. 新增篩選使用者代理類別，並篩選出自動語音應答、通話佇列、Bot、會議室系統、MediationServer、會議發佈服務、VDI 等。
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="在 CQD v3 中套用特定篩選的螢幕擷取畫面":::
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="在 CQD v2 中套用特定篩選的螢幕擷取畫面":::
-
-#### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>CQD v2 與 CQD v3 之間的其他預期差異
-
-若要深入瞭解舊版及最新 CQD 之間的差異，請閱讀2019年11月5日的 [[高級通話品質] 儀表板博客簡介](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586)。
-
-
-> [!IMPORTANT]
-> 從2020年7月1日起，較舊的 CQD 會存取最新 CQD 的資料。 較舊的 CQD 資料已不再提供，而且您無法匯出您的建立或報表資料。
-
-您可能會在 [匯總] 或 [摘要] 層級的較舊與較新的 CQD 報表之間看到更多的資料差異。 如果您以更精細的層次比較資料，您會收到「蘋果對上」的比較。 例如，如果您正在尋找個別建築物的資料，那麼較舊的 CQD 報告的品質百分比必須相同。
-
-- 挑選一個具有緊密焦點的案例，例如公司有線連線、Windows 桌面或單一區域或組建。
-- 檢查 [團隊 MR]、[TR] 或 [MP IP 範圍]。 團隊的範圍與商務用 Skype Online 的版本更新，可能會導致防火牆產生連線問題。
-- 不要比較摘要或最上層的數位。 這些比較將會使您能夠將公司有線連線的大型通話量與商務用 Skype Online 通話數與 LTE 或私人網路上的大量小組通話進行比較。
-- 請注意，位置偏向及人口差異：有許多比較過於不同的比較都很有用：
-  - NOAM： APAC
-  - 紐約州： Goa
-  - 有線： wifi
-  - 公司網路：家用網路
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>為什麼在 CQD 中看不到 EUII？
 

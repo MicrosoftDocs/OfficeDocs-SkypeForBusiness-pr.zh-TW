@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板（CQD）所使用之尺寸與度量的詳細資訊。
-ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 1625a7fcb0de0c2e5ad8586b0985ddb61de5e75b
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085779"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372132"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質儀表板（CQD）中可用的尺寸與量化指標
 
@@ -170,10 +170,10 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第一個使用者代理程式  | String  | 第一個端點的使用者代理程式字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （商務用 Skype） | &bull;第一個端點未報告使用者代理   |
 | 第二個使用者代理程式  | String  | 第二個端點的使用者代理字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （商務用 Skype） | &bull;第二個端點未報告任何使用者代理   |
 | 會議類型  | 枚舉 <br/>**可能的值：** <br/>&bull;會議： applicationsharing <br/>&bull;會議：音訊-影片 <br/>&bull;會議：焦點 | 會議 URI 的類型。  <br/> **範例值：** 會議：音訊-影片 | &bull;非會議案例。   |
-| 會議 ID  | String | 與資料流程相關聯的會議 ID （或通話識別碼）。 在 cqd.teams.microsoft.com 中，所有通話都有來電 ID，不論他們是人員對人（P2P）通話還是電話會議。 在 cqd.lync.com 中，此值僅適用于商務用 Skype 會議通話。  這個維度可能有太多的資料列，無法做為報表中的維度。 您可以改為使用篩選。  <br/> **範例值（cqd.lync.com）：** 0001P6GK <br/> **範例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| 會議 ID  | String | 與資料流程相關聯的會議 ID （或通話識別碼）。 在 cqd.teams.microsoft.com 中，所有通話都有來電 ID，不論他們是人員對人（P2P）通話還是電話會議。 這個維度可能有太多的資料列，無法做為報表中的維度。 您可以改為使用篩選。   <br/> **範例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | 第一個用戶端 App 版本  | String  | 第一個端點所用的應用程式版本。 資料是從使用者代理程式字串分析而來。 <br/> **範例值：** 16.0.7766.2047 | &bull;無法解析版本字串 <br/>&bull;未報告值。   |
 | 第二個用戶端 App 版本  | String  | 第二個端點所用的應用程式版本。 資料是從使用者代理程式字串分析而來。 <br/> **範例值：** 16.0.7766.2047 | &bull;無法解析版本字串 <br/>&bull;未報告值。 |
-|會議 Id （在 cqd.teams.microsoft.com 中） <br/> 會議 ID （在 cqd.lync.com 中） |String |會議的識別碼，在建立會議時產生。 <br/> **範例值（商務用 Skype）：** 0001P6GK  <br/> **範例價值（團隊）：** 19： meeting_MzB .。。zIw@thread v2| |
+|會議 Id |String |會議的識別碼，在建立會議時產生。  <br/> **範例值：** 19： meeting_MzB .。。zIw@thread v2| |
 |**網路**||| 
 | 傳輸  | 枚舉 <br/>**可能的值：** <br/>&bull;UDP-IN <br/>&bull;TCP-OUT <br/>&bull;可識別  | 資料流程使用的網路傳輸類型。  無法辨識：指出系統無法判斷傳輸類型是 TCP 還是 UDP。  | &bull;未報告傳輸類型 <br/>&bull;媒體路徑沒有建立  |
 | 第一次連接 Ice  | 枚舉 <br/>**可能的值：** <br/>&bull;DIRECT = 直接網路路徑 <br/>&bull;繼電器 = 穿越中繼 <br/>&bull;HTTP = 經由 HTTP proxy <br/>&bull;失敗 = 連線失敗 | 第一個端點所使用的 ICE 連線類型。  |&bull;未報告傳輸類型 <br/>&bull;媒體路徑沒有建立   |

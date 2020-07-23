@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f63ff0191518acf72fd3e4c33abe80b819c3db28
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8025467a0581c95a40551244948a8e6b7c0ecbc8
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141276"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372053"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>設定依位置路由的網路設定
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 如果您尚未這麼做，請參閱[直接路由的 [規劃位置] 路由](location-based-routing-plan.md)，以查看在設定位置式路由的網路設定之前，您必須採取的其他步驟。
 

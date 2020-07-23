@@ -29,27 +29,27 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '瞭解如何為商務用 Skype 服務支付通訊點數（PSTN 消費），並查看規劃，讓您的使用者保持不間斷的電話系統存取。 '
-ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610275"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229099"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 
 通訊點數是您在 Microsoft 365 或 Office 365 中支付電話系統和通話方案的便利方式。 通訊點數可協助確保您和您的使用者永遠不會被捕獲，且無法進行下列作業：
   
 - 使用免付費撥入電話號碼撥入音訊會議會議。
-    
+
 - 從音訊會議會議撥出，將其他人從世界各地新增給其他人。
-    
+
 - 在已安裝商務用 Skype 或 Microsoft 團隊 app 的情況下，從音訊會議會議撥出到您的行動電話。
-    
+
 - 當您有**國內通話方案**時，請撥打電話給任何國際電話號碼。
-    
+
 - 當您已用盡每月分鐘服務配額之後，撥出電話並每分鐘支付一次。
-    
+
 > [!NOTE]
 > 如果您想知道其內容和費率，請參閱 [[通話方案](https://go.microsoft.com/fwlink/p/?LinkId=799523)] 頁面上的 [比率] 表格。
   
@@ -62,31 +62,29 @@ ms.locfileid: "44610275"
 使用這些服務時，資金將只會套用到 Microsoft 已發行費率的通訊點數。 購買日期12（12）個月內未使用的任何資金都將到期，並 forfeited。
   
 > [!TIP]
-> 當您透過自動加值來新增資金時（例如，信用卡到期時），以及餘額低於零時，我們會傳送電子郵件通知給您。 
+> 當您透過自動加值來新增資金時（例如，信用卡到期時），以及餘額低於零時，我們會傳送電子郵件通知給您。
   
 如需詳細資訊，請參閱[通訊信用是什麼？](what-are-communications-credits.md)
   
-## <a name="want-to-know-about-plans-and-pricing"></a>想要瞭解方案和價格？
+## <a name="want-to-know-about-plans-and-pricing"></a>想要瞭解方案與價格
 
 您可以造訪下列其中一個連結來查看方案和定價：
   
 - [通話方案](https://go.microsoft.com/fwlink/?LinkId=799761 )
-    
+
 - [音訊會議方案](https://go.microsoft.com/fwlink/?LinkId=799762 )
-    
+
 - [電話系統方案](https://go.microsoft.com/fwlink/?LinkId=799763)
-    
-您也可以登[入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至**帳單**  >  **訂閱**的 [  >  **新增訂閱**]，以查看資訊。
+
+您也可以登入 Microsoft 365 系統管理中心並移至**帳單**  >  **訂閱**的 [  >  **新增訂閱**]，以查看資訊。
   
 若要查看含有每個功能所需的授權或授權的表格，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相關主題
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
-    
+
 - [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
-    
+
 - 設定[Microsoft 365 或 Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)與通話方案
-        
- 
- 
+

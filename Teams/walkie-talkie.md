@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043006"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229049"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 團隊中的 Walkie Talkie 應用程式
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-團隊中的 Walkie Talkie 應用程式會為您的小組提供立即推播（PTT）通訊，並在 Android 上公開預覽版。 Walkie Talkie 可讓使用者使用其成員的相同基礎頻道與其團隊進行連線。 只有在頻道中連接至 Walkie Talkie 的使用者才會成為參與者，而且可以使用推入式交談與對方進行通訊。
+團隊中的 Walkie Talkie 應用程式可為您的小組提供立即推播（PTT）通訊，且可在 Android 上公開預覽。 Walkie Talkie 可讓使用者使用其成員的相同基礎頻道與其團隊進行連線。 只有在頻道中連接至 Walkie Talkie 的使用者才會成為參與者，而且可以使用推入式交談與對方進行通訊。
 
 在團隊中使用 Walkie Talkie，第一線員工工作者現在可以與熟悉的 PTT 體驗安全地溝通，而不需要攜帶容量龐大的無線電，而且 Walkie Talkie 可在任何地方使用 WiFi 或行動電話網際網路連線。
 
@@ -73,9 +73,9 @@ Walkie Talkie 應用程式現在應該會出現在釘選的 app 清單中，而�
 
 第一線員工工人通常需要朗讀並接收 Walkie Talkie 通話，即使他們的手機已鎖定也一樣。 透過專用的 PTT 按鈕，就可以使用這種體驗。
 
-- 現有手機
-  - 有線耳機（[Klein 電子產品](https://www.kleinelectronics.com/)）
-  - 無線耳機（[Jabra BlueParrott](https://www.blueparrott.com/)）
+- 耳機
+  - 有線耳機（[Klein 電子產品](https://www.kleinelectronics.com/poc-accessories/mtwt/)）
+  - 無線耳機（[Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)）
 - 耐用手機
   - Samsung Galaxy XCover Pro
     - [其他資訊](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)。

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201047"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372002"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 =========================================
@@ -31,7 +31,7 @@ ms.locfileid: "45201047"
 使用此檢查清單可協助您開啟並設定 Microsoft 團隊中的來賓存取權。 您必須是全域系統管理員或團隊管理員，才能進行這些變更。
 
 > [!IMPORTANT]
-> 您可能需要等候幾個小時，變更才會生效。 
+> 您可能需要等候幾個小時，變更才會生效。
 
 觀看這段短片（5:31 分鐘），瞭解如何在整個 Microsoft 365 （包括團隊）中開啟來賓存取。
 
@@ -39,7 +39,7 @@ ms.locfileid: "45201047"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>步驟1：在團隊的整個組織層級開啟來賓存取
 
-若要開啟來賓存取，請移至系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 
+您必須是團隊服務管理員，才能進行這些變更。 請參閱[使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles)，瞭解如何取得管理員角色和許可權。
 
 1. 在 [團隊管理中心] 中，選取 [全**組織性設定**  >  **來賓存取**]。
 2. 將 [**允許 Microsoft 團隊中的來賓存取權**] 切換為 [**開啟**]。
@@ -73,7 +73,7 @@ ms.locfileid: "45201047"
      - 共同作業**限制**：如需有關允許或封鎖特定網域之邀請的詳細資訊，請參閱[允許或封鎖來自特定組織的 B2B 使用者邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
         > [!NOTE]
         > 如需共同作業限制，請參閱[啟用 B2B 外部共同作業和管理可邀請來賓的人員](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
-      
+
     如需有關控制誰可以邀請來賓的詳細資訊，請參閱[委派 Azure Active Directory B2B 共同作業邀請](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>步驟3：設定 Microsoft 365 群組
@@ -88,18 +88,18 @@ ms.locfileid: "45201047"
 
 如需設定這些設定的詳細指示，請參閱[管理 microsoft 365 群組中的來賓存取](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)及[控制 microsoft 365 群組中的來賓存取權](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)。
 
-## <a name="step-4-configure-sharing-in-microsoft-365"></a>步驟4：在 Microsoft 365 中設定共用 
+## <a name="step-4-configure-sharing-in-microsoft-365"></a>步驟4：在 Microsoft 365 中設定共用
 
 請確定使用者可以新增來賓。 做法如下：
 
 1. 在 Microsoft 365 系統管理中心中，移至 [**設定**  >  **組織設定**]，按一下 [**安全性 & 隱私權**]，然後選取 [**共用**]。
 
      ![螢幕擷取畫面顯示服務設定的範例](media/guest-access-checklist-security-privacy-settings.png)
- 
+
 2. 選取 [**允許使用者將新的來賓新增至此組織**] 核取方塊，然後按一下 [**儲存變更**]。
 
      ![螢幕擷取畫面顯示共用設定切換的範例](media/guest-access-checklist-sharing-setting.png)
- 
+
     > [!NOTE]
     > 這個設定相當於 Azure AD 中的 [**使用者設定**] 中的 [**成員可以邀請**] 設定  >  **External users** 。  
 

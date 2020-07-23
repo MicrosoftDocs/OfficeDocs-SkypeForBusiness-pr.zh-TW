@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: e4cadbfb700c7478cb77c62f4597c9ae00164b0c
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412640"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372042"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>啟用直接路由的依位置路由
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 在您按照本文中的步驟進行之前，請確定您已閱讀「[規劃位置」路由以進行直接路由](location-based-routing-plan.md)，並已完成[設定位置路由的網路設定](location-based-routing-configure-network-settings.md)中的步驟。
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得新的、埠或轉讓現有的團隊編號，以及如何向使用者顯示變更。 '
-ms.openlocfilehash: 45c0b87d8e208913b9be0d231a8e2ae2e0ebfd5a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691429"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372072"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -34,7 +34,7 @@ ms.locfileid: "44691429"
 有三種方式可以取得使用者號碼：
 
 - **使用 Microsoft 團隊系統管理中心。** 對於某些國家和地區，您可以使用 Microsoft 團隊系統管理中心為使用者取得號碼。 請參閱[為您的使用者取得新的電話號碼](#get-new-phone-numbers-for-your-users)。
-    
+
 - **轉移現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，協助您完成此作業。  
   
 - **使用表單要求新號碼。** 有時候（視您的國家或地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
@@ -46,14 +46,16 @@ ms.locfileid: "44691429"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 移至 Microsoft 團隊系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 
+您必須是團隊服務管理員，才能進行這些變更。 請參閱[使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles)，瞭解如何取得管理員角色和許可權。
+
+1. 移至 Microsoft 團隊系統管理中心。
 2. 在左側導覽中，移至 [**語音**  >  **電話號碼**]，然後按一下 [**新增**]。
 3. 輸入訂單的名稱並新增描述。
 4. 在 [位置及數量] 頁面上，執行下列動作：
     1. 在 [**國家或地區**] 下，選取國家或地區。
     2. 在 [**數位類型**] 底下，選取 **[使用者] （訂閱者）**。
     3. 在 [**位置**] 底下，選取位置。 如果您需要建立新的位置，請按一下 [**新增位置**]。
-    4. 在 [**地區代碼**] 底下，選取區功能變數代碼。 
+    4. 在 [**地區代碼**] 底下，選取區功能變數代碼。
     5. 在 [**數量**] 底下，輸入您想要的組織號碼數目，然後按一下 **[下一步]** ，選取您的號碼。
 5. 選取您想要的數位。 您有10分鐘的時間可以選取您的電話號碼，並放置您的訂單。 如果您需要10分鐘以上的時間，系統會將電話號碼傳回編號池中。
 6. 當您準備好要下訂單時，請按一下 [**下單**]。
@@ -69,9 +71,9 @@ ms.locfileid: "44691429"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看貴組織的電話號碼
 
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心** 
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-在系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>的左側導覽中，移至 [**語音**  >  **電話號碼**] 來查看貴組織的號碼，包括位置、編號類型及狀態資訊。
+在系統管理中心的左側導覽中，移至 [**語音**  >  **電話號碼**] 來查看貴組織的號碼，包括位置、編號類型及狀態資訊。
   
 ## <a name="assign-phone-numbers-to-users"></a>將電話號碼指派給使用者
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086189"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372192"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 ===========================================
@@ -40,9 +40,9 @@ ms.locfileid: "45086189"
 
 ## <a name="archive-a-team"></a>封存小組
 
-按照這些步驟以封存小組。
+按照這些步驟以封存小組。 您必須是團隊服務管理員，才能進行這些變更。 請參閱[使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles)，瞭解如何取得管理員角色和許可權。
 
-1. 在系統管理中心的中 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ，選取 [**團隊**]。
+1. 在系統管理中心中，選取 [**團隊**]。
 2. 按一下小組名稱以選取小組。
 3. 選取 [封存]****。 將會出現下列訊息。
 
@@ -55,7 +55,7 @@ ms.locfileid: "45086189"
 
 按照下列步驟，讓封存的小組成為使用中。
 
-1. 在系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，選取 [**團隊**]。
+1. 在系統管理中心中，選取 [**團隊**]。
 2. 按一下小組名稱以選取小組。
 3. 選取 [解除封存]****。 小組的狀態會變更為 [使用中]****。
 
@@ -63,7 +63,7 @@ ms.locfileid: "45086189"
 
 如果未來不再需要小組，您可以將它刪除，而不只是封存。 按照下列步驟刪除小組。
 
-1.  在系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，選取 [**團隊**]。
+1.  在系統管理中心中，選取 [**團隊**]。
 2.  按一下小組名稱以選取小組。
 3.  選取 [刪除]****。 將會出現確認訊息。
 4.  選取 [刪除]**** 以永久刪除小組。
@@ -79,7 +79,7 @@ ms.locfileid: "45086189"
 1. 以系統管理員身分開啟 Windows PowerShell。
 2. 如果您已安裝舊版 AzureADPreview 模組或 AzureAD 模組，請執行下列其中一項操作將其解除安裝：
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -90,7 +90,7 @@ ms.locfileid: "45086189"
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
 ### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的 Microsoft 365 群組
 
@@ -102,7 +102,7 @@ ms.locfileid: "45086189"
 2. 執行下列動作，以顯示仍在30天保留期間內的所有虛刪除 Microsoft 365 群組清單。 如果有大量群組，請使用 **-All $True** 參數。
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. 尋找您要還原的群組，然後記下識別碼。
 4. 執行下列命令來還原群組，其中 [Id] 是群組識別碼。
     ```PowerShell

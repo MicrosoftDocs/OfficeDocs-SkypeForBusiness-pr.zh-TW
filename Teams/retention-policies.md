@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202950"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247382"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
@@ -154,6 +154,24 @@ ms.locfileid: "45202950"
 1. 在安全性 & 合規性中心的左側導覽中，移至 [**資訊管理**  >  **保留**]。
 2. 在保留原則清單中，選取您要刪除之保留原則旁的核取方塊。
 3. 選取 [**刪除原則**]。
+
+### <a name="end-user-experience"></a>使用者體驗
+
+針對私人聊天（1:1 聊天）或群組聊天，使用者將會看到保留原則設定較舊的聊天，以及「我們已刪除舊 messaged （因貴組織的保留原則而定）」的控制訊息會顯示在 [取消刪除的郵件] 上方。
+:::image type="content" source="media/retention-policies-image1.png" alt-text="聊天保留畫面的螢幕擷取畫面":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="群組聊天保留的螢幕擷取畫面":::
+
+對於頻道訊息，使用者（頻道成員）將會看到郵件過期後，已刪除的郵件會從視野中消失。 如果已刪除的郵件是有線程交談的父郵件，則會顯示一則訊息，指出「此郵件已因保留原則而刪除」。
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="在保留之前先頻道的螢幕擷取畫面":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="保留期間的頻道螢幕擷取畫面":::
+
+> [!NOTE]
+> 使用者目前不能修改使用者或系統管理員。
+
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

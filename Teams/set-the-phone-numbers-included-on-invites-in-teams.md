@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 請依照下列步驟，為呼叫者加入 Microsoft 團隊會議所用的預設電話號碼。
-ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 7dd59950403543074d8428d35270ab963ca824e3
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021761"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372182"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft 團隊中設定邀請中所包含的電話號碼
 
@@ -36,7 +36,7 @@ Microsoft 365 和 Office 365 中的音訊會議可讓貴組織中的使用者建
 「會議橋接」會為您的組織提供一組撥入電話號碼。 所有這些專案都可以用來加入會議召集人所建立的會議，但您可以選取哪些專案會包含在他們的會議邀請中。
   
 > [!NOTE]
-> 在會議召集人的會議邀請中，最多隻能有一個付費電話號碼，還有一個免付費電話號碼，在每個會議邀請的底部，都會開啟完整的清單，其中包含可用於加入會議的所有電話撥入電話號碼。 
+> 在會議召集人的會議邀請中，最多隻能有一個付費電話號碼，還有一個免付費電話號碼，在每個會議邀請的底部，都會開啟完整的清單，其中包含可用於加入會議的所有電話撥入電話號碼。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +53,7 @@ Microsoft 365 和 Office 365 中的音訊會議可讓貴組織中的使用者建
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-您必須是系統管理員，才能進行這些變更。
+您必須是團隊服務管理員，才能進行這些變更。 請參閱[使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles)，瞭解如何取得管理員角色和許可權。
 
 1. 登入 Microsoft 團隊系統管理中心。
 
@@ -63,27 +63,25 @@ Microsoft 365 和 Office 365 中的音訊會議可讓貴組織中的使用者建
 
 3. 按一下可用使用者清單中的使用者名稱。
 
-4. 按一下 [**音訊會議**] 旁的 [**編輯**]。 
-    
+4. 按一下 [**音訊會議**] 旁的 [**編輯**]。
+
     ![按一下 [音訊會議] 旁的 [編輯]](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. 使用 [**付費電話號碼**] 或 [**免付費電話號碼**] 欄位輸入使用者的號碼。
 
-
 > [!IMPORTANT]
-> 當您變更使用者的音訊會議設定時，必須更新定期及未來的 Microsoft 團隊會議，並傳送給出席者。 
+> 當您變更使用者的音訊會議設定時，必須更新定期及未來的 Microsoft 團隊會議，並傳送給出席者。
 
-## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell 嗎？
+## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell
 
 Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
-    
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。 
+
+- [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+
+如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。
   
-    
 ## <a name="related-topics"></a>相關主題
 
 [在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

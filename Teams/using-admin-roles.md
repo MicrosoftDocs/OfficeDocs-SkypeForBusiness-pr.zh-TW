@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: 瞭解如何使用系統管理角色，指派需要不同層級管理團隊的管理員。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665205"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229039"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 團隊管理員角色管理團隊
 
-使用 Azure Active Directory （Azure AD），您可以指定管理員需要不同層級的存取權來管理 Microsoft 團隊。 系統管理員可以管理整個小組的工作負荷，或者他們可以擁有委派許可權，以解決通話品質問題或管理組織的電話需求。 
+使用 Azure Active Directory （Azure AD），您可以指定管理員需要不同層級的存取權來管理 Microsoft 團隊。 系統管理員可以管理整個小組的工作負荷，或者他們可以擁有委派許可權，以解決通話品質問題或管理組織的電話需求。
 
 ## <a name="teams-roles-and-capabilities"></a>小組角色和功能
 
 共有四個團隊管理員角色可供使用：團隊服務管理員、團隊溝通系統管理員、團隊溝通支援專家，以及團隊溝通支援工程師。 請參閱下表，瞭解每個角色可以執行的動作，以及系統管理員可在 Microsoft 團隊系統管理中心和 PowerShell 中使用哪些工具。
 
-若要繼續進行，請移至系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
-
-
+若要一起追蹤，您必須是系統管理員。此文章中提供了取得許可權的指示。
 
 <!-- add Global admin role? -->
 
