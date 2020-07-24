@@ -152,6 +152,7 @@
 #### [使用 Exchange 內部部署 (混合式)](rooms/with-exchange-on-premises.md)
 #### [設定主控台](rooms/console.md)
 #### [設定驗證](rooms/rooms-authentication.md)
+#### [加入第三方會議](rooms/third-party-join.md)
 #### [使用 Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
 #### [使用 Azure 監視器管理](rooms/azure-monitor-deploy.md)
 #### [移轉 SRS v1 或 LRS](rooms/lrs-migration.md)
