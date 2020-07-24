@@ -132,6 +132,38 @@
 # 會議和召集會議
 ## [快速入門 - 會議與即時活動](quick-start-meetings-live-events.md)
 ## [規劃您的部署](deploy-meetings-microsoft-teams-landing-page.md)
+## Microsoft Teams 會議室
+### [概觀](rooms/index.md)
+### 方案
+#### [Microsoft Teams 會議室規劃概觀](rooms/rooms-plan.md)
+#### [版本支援](rooms/rooms-lifecycle-support.md)
+#### [版本資訊](rooms/rooms-release-note.md)
+#### [準備您的環境](rooms/rooms-prep.md)
+#### [需求](rooms/requirements.md)
+#### [線上授權](rooms/rooms-licensing.md)
+#### [使用 Azure 監視器規劃管理](rooms/azure-monitor-plan.md)
+#### [使用 Microsoft Teams Room Premium 計畫管理](rooms/microsoft-teams-rooms-premium.md)
+### 部署
+#### [部署概觀](rooms/rooms-deploy.md)
+#### [設定帳戶](rooms/rooms-configure-accounts.md)
+#### [使用 Office 365](rooms/with-office-365.md)
+#### [使用商務用 Skype Server](rooms/with-skype-for-business-server-2015.md)
+#### [使用 Exchange Online (混合式)](rooms/with-exchange-online.md)
+#### [使用 Exchange 內部部署 (混合式)](rooms/with-exchange-on-premises.md)
+#### [設定主控台](rooms/console.md)
+#### [設定驗證](rooms/rooms-authentication.md)
+#### [使用 Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
+#### [使用 Azure 監視器管理](rooms/azure-monitor-deploy.md)
+#### [移轉 SRS v1 或 LRS](rooms/lrs-migration.md)
+#### [內容相機](rooms/content-camera.md)
+### 管理
+#### [管理概觀](rooms/rooms-manage.md)
+#### [維護和作業](rooms/rooms-operations.md)
+#### [貴組織中的支援小組](rooms/known-issues.md)
+#### [使用 Azure 監視器的裝置](rooms/azure-monitor-manage.md)
+#### [含有 XML 檔案的設定](rooms/xml-config-file.md)
+#### [使用修復工具](rooms/recovery-tool.md)
+
 ## [教學課程：Teams 中的會議](Tutorial-Meetings-in-Teams.yml)
 ## [管理會議原則](meeting-policies-in-teams.md)
 ## [管理會議設定](meeting-settings-in-teams.md)
@@ -147,7 +179,6 @@
 ## [為您的使用者設定語音來電功能](set-up-the-call-me-feature-for-your-users.md)
 ## [取得會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [設定會議移轉服務 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams 會議室](rooms/index.md)
 ## [管理 Teams 中的白板](manage-whiteboard.md)
 
 
