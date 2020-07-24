@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99017e63ae784c7c4271454829198c7c06ecfe8e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868460"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229139"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
@@ -79,9 +79,9 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>防止使用者安裝試用版應用程式和服務
 
-您可以關閉使用者安裝試用版應用程式和服務的功能，即可防止使用者執行 Teams Exploratory 體驗。 您必須具備系統管理員權限。 若要深入了解系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色來管理 Teams](teams-exploratory.md)
+您可以關閉使用者安裝試用版應用程式和服務的功能，即可防止使用者執行 Teams Exploratory 體驗。 
 
-1. 從 [Microsoft 365 系統管理中心][](https://portal.office.com/adminportal/home)，移至 [設定]****  >  [設定]****、選取 [服務]****，然後選取 [使用者所擁有的應用程式與服務]****。
+1. 從 Microsoft 365 系統管理中心，移至 [設定]****  >  [設定]****，選取 [服務]****，然後選取 [使用者所擁有的應用程式與服務]****。
 
     ![系統管理中心的 [服務] 頁面的螢幕擷取畫面](media/iw-trial-services.png)
 
@@ -98,7 +98,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 若要關閉對 Teams 的存取：
 
-1. 在 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)中，選取 [使用者] **** >  [作用中的使用者]****。
+1. 在 Microsoft 365 系統管理中心，選取 [使用者]****  >  [作用中的使用者]****。
 
 2. 選取使用者名稱旁的方塊。
 
