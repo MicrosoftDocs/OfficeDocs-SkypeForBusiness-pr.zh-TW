@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e8b8e8605b5e4f916389109cb611996aa90a895
-ms.sourcegitcommit: 34a30c2c9a8e32bfcb382c3e6e7237f277ec361d
+ms.openlocfilehash: e85ef79247bdf35c3c116504af23728a0d268ca5
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45206761"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429325"
 ---
 # <a name="recommended-methods-and-best-practices-for-creating-class-teams"></a>建立班級團隊的建議方法和最佳做法
 
@@ -60,17 +60,17 @@ Microsoft Teams 教育版提供  [特定團隊類型](https://support.office.c
 
 ### <a name="considerations"></a>考量
 
-SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Directory (Azure AD) 中建立 Microsoft 365 群組，而第二個步驟會自動將該群組轉換成團隊。 建立團隊的第二個步驟在 SDS 中為選擇性。 取決於部署時間和可能造成的未使用團隊數量，系統管理員可能不想要自動建立團隊。 我們建議擁有 50 萬或更多個團隊的機構，在 SDS 中關閉自動團隊建立切換，並使用[由教師引導的團隊建立方法](#teacher-led-team-creation-from-office-365-class-groups)。  
+SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Directory (Azure AD) 中建立 Microsoft 365 群組，而第二個步驟會自動將該群組轉換成團隊。 建立團隊的第二個步驟在 SDS 中為選擇性。 取決於部署時間和可能造成的未使用團隊數量，系統管理員可能不想要自動建立團隊。 我們建議擁有 50 萬或更多個團隊的機構，在 SDS 中關閉自動團隊建立切換，並使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)。  
 
-### <a name="get-started"></a>開始使用
+### <a name="get-started"></a>入門
 
 若要開始使用，請前往[學校資料同步 (SDS)](https://docs.microsoft.com/SchoolDataSync)，並連絡 [https://aka.ms/sdssupport](https://aka.ms/sdssupport) 部署協助。  
 
-## <a name="teacher-led-team-creation-from-office-365-class-groups"></a>透過 Office 365 班級群組由教師引導的團隊建立
+## <a name="educator-led-team-creation-from-office-365-class-groups"></a>來自 Office 365 班級群組之由授課者引導的團隊建立
 
 **此功能即將於 2020 年 8 月中之前推出。**
 
-如果想要讓教師更輕鬆、快速地建立其所需的班級，由教師引導的團隊建立是絕佳的部署選項。 我們也建議擁有超過 50 萬個團隊的機構使用此方法來將外部建立的團隊數量最小化。  
+如果想要讓教師更輕鬆、快速地建立其所需的班級，由授課者引導的團隊建立是絕佳的部署選項。 我們也建議擁有超過 50 萬個團隊的機構使用此方法來將外部建立的團隊數量最小化。  
 
 此混合式方法可讓您使用 SDS 為每個班級建立群組 (建議)，或由您自己使用 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes) 為他們建立群組。 班級群組備妥之後，授課者就能使用 [建議的班級]**** 圖示，將其群組轉換成團隊。
 
@@ -108,7 +108,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 若要使用 Graph API 方法，請參閱 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) 和[建立班級團隊](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)。  
 
 > [!NOTE]
-> 若要使用此方法搭配 SDS，您必須將 SDS 設定檔中的自動團隊切換關閉。 您也可以使用自動與由教師引導的團隊建立組合，使用兩個 SDS 設定檔來建立必要和選用的班級團隊。
+> 若要使用此方法搭配 SDS，您必須將 SDS 設定檔中的自動團隊切換關閉。 您也可以使用自動與由教育工作者引導的團隊建立組合，使用兩個 SDS 設定檔來建立必要和選用的班級團隊。
 
 ## <a name="powershell-script-using-graph-apis"></a>使用 Graph API 的 PowerShell 指令碼
 
@@ -147,6 +147,6 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 ## <a name="recommended-best-practices"></a>建議的最佳做法
 
 - 盡早部署！ 盡早部署，以確保各個項目都能可靠運作，且備妥供學校的第一天使用。 如果您使用 SDS，則不需要完整的學生成員資格就能開始 SDS 部署。 當您的 SIS 中提供該資訊時，即會同步學生。
-- 如果您有超過 50 萬個團隊，建議您使用[由教師引導的團隊建立方法](#teacher-led-team-creation-from-office-365-class-groups)。 透過只建立相關且需要的班級團隊，該方法能夠減少未使用的團隊和雜亂。  
-- 如果 SDS 自動團隊建立發生任何問題 (例如班級遺失)，而教師立即需要這些團隊，則他們可以使用[由教師引導的團隊建立方法](#teacher-led-team-creation-from-office-365-class-groups)來重試。 [手動建立團隊](#manual-team-creation)是另一個解決方案，但是無法保持更新您的團隊成員資格。  
+- 如果您有超過 50 萬個團隊，建議您使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)。 透過只建立相關且需要的班級團隊，該方法能夠減少未使用的團隊和雜亂。  
+- 如果 SDS 自動團隊建立發生任何問題 (例如班級遺失)，而教師立即需要這些團隊，則他們可以使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)來重試。 [手動建立團隊](#manual-team-creation)是另一個解決方案，但是無法保持更新您的團隊成員資格。  
 - 租用戶團隊的限制為 50 萬個團隊。 因此，系統管理員應積極嘗試減少未使用的團隊數量，以避免到達這些限制並延長其設定時間。 如需有關限制的詳細資訊，請參閱 [Microsoft Teams 的限制和規格](limits-specifications-teams.md)。  
