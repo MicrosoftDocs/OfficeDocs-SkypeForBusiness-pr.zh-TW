@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 1ed13f1f85b0c7eccead3737c4549931f016284c
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256571"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429375"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft 團隊中的資源特定同意
 
@@ -95,6 +95,7 @@ Microsoft 團隊中的資源特定同意可讓小組擁有者同意存取小組�
 
 ## <a name="related-topics"></a>相關主題
 
+- [可用的 RSC 許可權](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [在 Microsoft 團隊系統管理中心管理您的應用程式](manage-apps.md)
 - [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)

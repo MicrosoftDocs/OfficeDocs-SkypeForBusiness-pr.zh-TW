@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611012"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429365"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 團隊 app 許可權和考慮
 
@@ -59,7 +59,7 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 
 - 應用程式必須披露它所使用的資料，以及資料在其使用條款和隱私權原則連結中的用途。
 
-- [資源特定的同意](resource-specific-consent.md)提供應用程式可要求的一組許可權，該許可權會出現在 app 的安裝畫面上。 若要深入瞭解資源特定的同意許可權，請參閱[圖表許可權參考](https://docs.microsoft.com/graph/permissions-reference)。
+- [資源特定的同意](resource-specific-consent.md)提供應用程式可要求的一組許可權，該許可權會出現在 app 的安裝畫面上。 若要深入瞭解資源特定的同意許可權，請參閱[圖表許可權參考](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
 - App 也可能需要除資源特定的同意許可權之外的許可權。 安裝應用程式後，應用程式可能會透過同意提示要求圖表許可權。 若要深入瞭解，請參閱[瞭解 AZURE AD 應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 您可以在 Azure 入口網站中設定 API 許可權和同意。 若要深入瞭解，請參閱[Azure Active Directory 同意架構](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
 
@@ -117,7 +117,7 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 
 <sup>1</sup>部分機器人只傳送郵件（POST_MESSAGE_USER）。 它們稱為「只通知」機器人，但該詞彙並未參照允許或不允許 bot 執行的動作，這表示 bot 不想公開會話中的體驗。 團隊使用此欄位來停用通常會啟用的 UI 中的功能;bot 與確實會公開會話體驗的 bot 相比，未受到任何允許的限制。
 
-<sup>2</sup>是由應用程式的資訊清單 .csv 檔案中 bot 物件上的 SupportsFiles 布林值屬性所管轄。
+<sup>2</sup>是由 supportsFiles 的應用程式檔案的 [bot] manifest.js物件上的 [布林值] 屬性所控制。
 
 > [!NOTE]
 > 如果 bot 有自己的登入，在使用者第一次登入時，會有另一個不同的方式：同意體驗。
