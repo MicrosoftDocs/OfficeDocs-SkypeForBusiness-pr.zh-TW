@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊聊天室 Premium。
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201271"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521978"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Microsoft 團隊聊天室 Premium
 
-Microsoft 團隊聊天室 Premium 是一個雲端型 IT 管理和監控服務，可讓 Microsoft 團隊聊天室裝置及其週邊設備保持在最新狀態並經過主動監控，支援針對良好的使用者體驗優化的環境。
+Microsoft 團隊聊天室 Premium 包含雲端型 IT 管理和監控服務，可讓 Microsoft 團隊聊天室裝置及其週邊設備保持在最新狀態並經過主動監控，支援針對良好的使用者體驗優化的環境。
 
 Microsoft 團隊聊天室 Premium 是針對想要改善會議室體驗並透過為 Microsoft 團隊機房裝置提供前瞻性管理而快速調整其需求量的組織。 此服務可讓組織節省時間、資金和專業知識，否則將會花費在「自行動手」的房間管理中。  
 
@@ -62,8 +62,6 @@ Microsoft 團隊聊天室 Premium 服務是以在軟體啟用的端點、電腦�
 |**深入資訊與建議**   |使用量、事件、健康情況及總體報告（歷史視圖）         |
 
 ## <a name="service-prerequisites"></a>服務先決條件
-
-Microsoft 團隊聊天室 Premium 服務是每個會議室授權的附加元件。 Microsoft 團隊聊天室需要個別的使用者或 Microsoft 團隊室授權。
 
 針對 Microsoft 團隊聊天室 Premium，若要維持服務品質，已註冊的會議室必須是[Microsoft 團隊會議室支援的裝置](requirements.md#hardware-requirements)，而且您必須使用所有[必要的 Office 365 url 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)來準備您的環境，以供會議室裝置使用。 若要深入瞭解，請參閱 Microsoft 團隊聊天室檔中的 [[準備您的環境](rooms-prep.md)]。
 

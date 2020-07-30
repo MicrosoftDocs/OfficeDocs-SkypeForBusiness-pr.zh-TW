@@ -13,26 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 部署 Microsoft 團隊聊天室的相關規劃考慮，以及如何部署及管理系統。
-ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
-ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
+ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773378"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521988"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 會議室
 
-將小型 huddle 區域的會議空間轉換成大型的會議室，利用豐富且共同作業的小組體驗，輕鬆使用、部署及管理。
-
-透過單一觸控式加入來開啟會議，然後立即將專案投影到聊天室中的顯示，並與遠端參與者共用。
-
-從其中一個合作夥伴選取正確的系統和音訊視頻外設： Yealink、Logitech、Crestron、Polycom、聯想和 HP。
-
-:::image type="content" source="../media/srs-room.jpg" alt-text="含 Microsoft 團隊聊天室裝置的會議資料表":::
+:::row:::
+    :::column span="2":::
+       將小型 huddle 區域的會議空間轉換成大型的會議室，利用豐富且共同作業的小組體驗，輕鬆使用、部署及管理。 <br> 
+       透過單一觸控式加入來開啟會議，然後立即將專案投影到聊天室中的顯示，並與遠端參與者共用。<br> 
+       從其中一個合作夥伴選取正確的系統和音訊視頻外設： Yealink、Logitech、Crestron、Polycom、聯想和 HP。
+    :::column-end:::
+    :::column:::
+       ![含 Microsoft 團隊聊天室裝置的會議資料表](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![清單符號](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[規劃](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![部署符號](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[部署](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![工具/扳手](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[管理](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| ![清單符號](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[規劃](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![部署符號](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[部署](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![工具/扳手](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[管理](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

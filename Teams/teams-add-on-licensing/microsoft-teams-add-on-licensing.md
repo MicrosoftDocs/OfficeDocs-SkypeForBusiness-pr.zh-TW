@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解 Microsoft 團隊的附加元件授權，以及每個授權所取得的功能。
-ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028179"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522460"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 團隊附加元件授權
 
@@ -41,7 +41,7 @@ ms.locfileid: "45028179"
 |:-----|:-----|:-----|:-----|
 |**功能** <br/> |**描述** <br/> |**小型企業版（<300 使用者）**|**大型企業（>300 使用者）**|
 **Microsoft 365 Business Voice** <br/> | [商務語音](../business-voice/whats-business-voice.md)是一種電話解決方案，專為多達300的使用者（可捆綁電話系統、音訊會議、國內通話方案等等）設計的中小型企業。 您將會收到的電話系統功能包括語音信箱、本機號碼、通話駐留、來電轉接、自動語音應答及通話佇列。 <br> 若要瞭解您的國家或地區是否有可用的商務用語音，請參閱[商務用國家和地區的語音](../business-voice/country-region-availability.md)功能。 如需定價資訊，請參閱[商務用價格語音](https://go.microsoft.com/fwlink/?linkid=2127221)。 <br/> |&#x2713;||
-|**音訊會議** <br/> |有時候，貴組織中的人員將需要使用電話撥入團隊會議，而不是自己的電腦。 針對排程或領導會議的使用者設定[音訊會議](../audio-conferencing-in-office-365.md)。 <br/> 若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 如需定價資訊，請參閱[音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**音訊會議** <br/> |有時候，貴組織中的人員將需要使用電話撥入團隊會議，而不是自己的電腦。 針對排程或領導會議的使用者設定[音訊會議](../audio-conferencing-in-office-365.md)。 <br/> 若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 如需定價資訊，請參閱[音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> |&#x2713;|&#x2713;|
 |**免費電話號碼** |如果您想要免付費電話號碼提供音訊會議、自動語音應答或通話佇列，您必須[設定通訊點數](../set-up-communications-credits-for-your-organization.md)。 <br/> |&#x2713;|&#x2713;|
 |**電話系統** <br/> |[[電話系統](../what-is-phone-system-in-office-365.md)] 是一種託管電話語音，可讓您撥打通話控制和私人分支 EXCHANGE （PBX）功能，並提供連線至公用交換電話網絡（PSTN）的選項。 電話系統功能包括雲端語音信箱、本機號碼、通話駐留、來電轉接、自動語音應答、通話佇列、來電轉接、本機號碼等等。 <br>若要深入瞭解，請參閱[以下是您使用電話系統所取得的結果](../here-s-what-you-get-with-phone-system.md)。 如需定價資訊，請參閱[電話系統價格](https://go.microsoft.com/fwlink/?linkid=799763)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**通話方案** <br/> |如果您想讓使用者能夠撥打貴組織外部的電話號碼，請接聽[通話方案](../calling-plans-for-office-365.md)。 共有國內通話方案和國內和國際通話方案。 如需定價資訊，請參閱[通話方案的價格](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
