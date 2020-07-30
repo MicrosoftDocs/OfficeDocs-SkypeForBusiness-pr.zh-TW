@@ -6,7 +6,7 @@
 
 # [支援遠端工作者 (WFH)](support-remote-work-with-teams.md)
 
-# 訓練 
+# 訓練
 ## [概觀](training-microsoft-teams-landing-page.md)
 ## [Teams 的講師帶領訓練](instructor-led-training-teams-landing-page.md)
 ## [Teams 的管理訓練](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [團隊的到期和更新](team-expiration-renewal.md)
 ## [封存或刪除團隊](archive-or-delete-a-team.md)
 ## [從 Slack 移轉到 Teams](migrate-slack-to-teams.md)
-## [適用於中小型企業的 Teams 範本](smb-templates.md)
+## [為中小型企業建立 Graph 的 Teams 範本](smb-templates.md)
 
 
 
@@ -649,7 +649,7 @@
 
 # 產業和政府指引
 ## [概觀](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [開始使用 Teams 範本](get-started-with-teams-templates.md)
+## [使用 Microsoft Graph 開始使用小組範本](get-started-with-teams-templates.md)
 ## [Bookings App 和虛擬造訪](bookings-app-admin.md)
 ## [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [已終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
