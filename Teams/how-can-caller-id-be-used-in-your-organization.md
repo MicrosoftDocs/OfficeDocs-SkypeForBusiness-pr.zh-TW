@@ -22,18 +22,22 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 您可以使用稱為 CallingLineIdentity 的原則，控制撥打電話給電話系統使用者的撥入和撥出電話的本機號碼。
-ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 5c20f439d156997c89ca54c2a3bf39e9c3a42ae4
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638893"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506196"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在貴組織中使用來電顯示
 
 您可以使用稱為 CallingLineIdentity 的原則，控制撥打電話給電話系統使用者的撥入和撥出電話的本機號碼。
   
 不論 PSTN 連線為何，所有的電話系統使用者都能使用本機號碼功能：
+
+- Microsoft 通話方案 
+
+- 電話系統直接路由 
   
 - 線上 PSTN 連線能力
     

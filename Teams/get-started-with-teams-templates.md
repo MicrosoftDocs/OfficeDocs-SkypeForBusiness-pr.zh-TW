@@ -1,5 +1,5 @@
 ---
-title: 開始使用 Teams 範本
+title: 使用 Microsoft Graph 快速開始使用團隊範本
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用團隊範本建立含頻道的共同作業空間，以提供內容和服務。
+description: 瞭解如何使用 Microsoft Graph 中的團隊範本建立共同作業空間，並提供不同主題的頻道與預先安裝應用程式，以提供內容和服務。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,22 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904618"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506183"
 ---
-# <a name="get-started-with-teams-templates"></a>開始使用 Teams 範本
+# <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 快速開始使用團隊範本
 
 > [!NOTE]
-> 團隊範本目前不支援建立專用頻道。 範本定義中不包含專用通道建立。 
+> 團隊範本目前不支援建立專用頻道。 範本定義中不包含專用通道建立。
 
-團隊範本是預先建立的小組結構定義，它是圍繞業務需求或專案設計的。 您可以使用團隊範本快速建立豐富的共同作業空間，並提供不同主題和預先安裝應用程式的頻道，以納入重要的內容和服務。 團隊範本提供預先定義的小組結構，可協助您在組織中輕鬆建立一致的團隊。 
+團隊範本是預先建立的小組結構定義，它是圍繞業務需求或專案設計的。 您無法建立自己的範本。 相反地，您可以使用 Microsoft Graph 預先建立的範本。 您可以使用團隊範本快速建立豐富的共同作業空間，並提供不同主題和預先安裝應用程式的頻道，以納入重要的內容和服務。 團隊範本提供預先定義的小組結構，可協助您在組織中輕鬆建立一致的團隊。
 
 在本文中，我們將說明可在範本中定義的屬性、基底範本類型，以及如何使用幾個範例要求來從範本建立小組。
- 
+
 本文適用于您（如果您是：
 
 - 負責規劃、部署及管理整個組織中的多個團隊<br>
@@ -58,9 +58,9 @@ ms.locfileid: "43904618"
 > [!NOTE]
 > 我們將在未來版本的 Microsoft 團隊中新增更多範本功能，因此請返回支援屬性的最新資訊。
 
-## <a name="what-are-base-template-types"></a>什麼是基本範本類型？
+## <a name="what-are-base-template-types"></a>什麼是基本範本類型
 
-基底範本類型是 Microsoft 針對特定行業建立的特殊範本。 這些基本範本通常包含無法在 [書店] 和 [小組] 範本中個別不支援的 [店鋪] 和 [團隊屬性] 中提供的專有 app。
+基底範本類型是 Microsoft 針對特定行業建立的特殊範本。 這些基本範本通常包含無法在 [書店] 和 [小組] 範本中個別不支援的 [店鋪] 和 [團隊屬性] 中提供的專有 app。 瞭解如何[在系統管理主控台中使用小組範本](get-started-with-teams-templates.md)。
 
 一旦定義基底範本類型之後，您就可以使用您想要指定的其他屬性來延伸或覆寫這些特殊範本。 但某些基底範本類型包含無法重寫的屬性。
 
@@ -75,7 +75,7 @@ ms.locfileid: "43904618"
 | 面向<br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 管道<ul><li>倒班切換</li><li>教學</li></ul>團隊屬性<ul><li>將團隊可見度設定為 Public</li></ul>成員許可權<ul><li>避免成員建立、更新或移除頻道</li><li>防止成員新增或移除應用程式</li><li>防止成員建立、更新或移除連接器</li></ul> |
 | 面向<br>Manager 共同作業 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 管道<ul><li>倒班切換</li><li>教學</li></ul>團隊屬性：<ul><li>[團隊可見度] 設定為 [私人]</li></ul>成員許可權：<ul><li>避免成員建立、更新或移除頻道</li><li>防止成員新增或移除應用程式</li><li>防止成員建立、更新或移除連接器</li></ul>|
 | 健康<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |管道 <ul><li>公告\*</li><li>Huddles\*</li><li>輪</li><li>人員\*</li><li>訓練\*</li></ul>\*自動將通道 |
-|健康<br>醫院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |管道<ul><li>公告\*</li><li>從屬\*</li><li>Custodial</li><li>人力資源</li></li><li>藥房</li></ul>\*自動將通道|
+|健康<br>醫院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |管道<ul><li>公告\*</li><li>合規性\*</li><li>Custodial</li><li>人力資源</li></li><li>藥房</li></ul>\*自動將通道|
 |||
 
 ## <a name="related-topics"></a>相關主題

@@ -1,5 +1,5 @@
 ---
-title: 中小型企業的團隊範本
+title: 使用 Microsoft Graph 建立的中小型企業團隊範本
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,16 +15,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: 使用 Microsoft 小組預先定義的範本，快速且輕鬆地為中小型企業建立小組。
+description: 使用 microsoft Graph 中建的預先定義範本，快速且輕鬆地為中小型企業建立小組。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944026"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506146"
 ---
-# <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>快速開始使用中小型企業的團隊範本
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>專為中小型企業的 Microsoft Graph 所建的團隊範本
 
 Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預先安裝應用程式範本，快速且輕鬆地建立小組。
 
