@@ -1,0 +1,124 @@
+### YamlMime:Landing
+title: 商務用 Skype Online 系統管理員
+summary: 商務用 Skype Online 已于2021年7月31日停用，此時將會結束存取服務的時間。 我們鼓勵客戶開始升級至 Microsoft 團隊，即在 Microsoft 365 中進行團隊合作的中心。
+metadata:
+  title: 商務用 Skype Online 系統管理員
+  description: 瞭解如何為您的組織管理商務用 Skype Online。
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin
+  ms.topic: landing-page
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit
+  ms.author: tonysmit
+  f1.keywords:
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020
+  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
+  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "46522959"
+landingContent:
+- title: 關於商務用 Skype Online
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: 在2021中停用商務用 Skype Online
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+  - linkListType: get-started
+    links:
+    - text: 開始使用
+      url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+  - linkListType: overview
+    links:
+    - text: 我們在這裡協助您
+      url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+    - text: 需要登入商務用 Skype 的協助嗎？
+      url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+    - text: 疑難排解商務用 Skype Online 的相關問題
+      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+    - text: 從商務用 Skype 旅程移至團隊
+      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+- title: 新功能
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 設定組織的電話系統
+      url: /microsoftteams/setting-up-your-phone-system
+    - text: 與音訊會議進行協力廠商整合
+      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: 設定音訊會議
+      url: /microsoftteams/audio-conferencing-in-office-365
+  - linkListType: overview
+    links:
+    - text: 在加拿大撥打電話方案（一般可用性）
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+    - text: 在澳大利亞通話方案（僅限預覽版）
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+- title: 音訊會議
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 音訊會議的常見問題
+      url: /MicrosoftTeams/audio-conferencing-common-questions
+    - text: 查看您的國家/地區是否有可用的音訊會議
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 管理組織的音訊會議設定
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+    - text: 比較音訊會議提供者
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+- title: 設定
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 設定商務用 Skype Online
+      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: 允許使用者連絡外部商務用 Skype 使用者
+      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: 讓商務用 Skype 使用者新增 Skype 連絡人
+      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+- title: 附加元件授權
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 商務用 Skype 和 Microsoft 團隊附加元件授權
+      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: 什麼是通訊點數？
+      url: /MicrosoftTeams/what-are-communications-credits
+- title: 通話方案
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什麼是通話方案？
+      url: /MicrosoftTeams/calling-plan-landing-page
+    - text: 查看您的國家/地區是否提供通話方案
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 設定通話方案
+      url: /MicrosoftTeams/set-up-calling-plans
+- title: 電話系統
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什麼是電話系統？
+      url: /MicrosoftTeams/what-is-phone-system-in-office-365
+    - text: 以下是可透過電話系統獲得的功能
+      url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+- title: 改善通話與視頻品質
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 疑難排解商務用 Skype 中的連線問題
+      url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+    - text: 疑難排解商務用 Skype 的音訊和影片
+      url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+    - text: 調整商務用 Skype Online 效能
+      url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802
