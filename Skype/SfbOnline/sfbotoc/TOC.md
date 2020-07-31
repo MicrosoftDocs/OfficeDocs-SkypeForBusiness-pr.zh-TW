@@ -1,5 +1,5 @@
 
-# [商務用 Skype Online 系統管理員](../skype-for-business-online.md)
+# [商務用 Skype Online 系統管理員](../skype-for-business-online.yml)
 
 ## [音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [阿根廷](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

@@ -53,7 +53,6 @@
 ## [為中小型企業建立 Graph 的 Teams 範本](smb-templates.md)
 
 
-
 ## 應用程式、Bot 和連接器
 
 ### [概觀](deploy-apps-microsoft-teams-landing-page.md)
