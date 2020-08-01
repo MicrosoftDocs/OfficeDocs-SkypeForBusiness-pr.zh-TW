@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7ce21fb620f37479a051b7ed4467dcc3cd9f6f19
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691519"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533840"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
@@ -48,6 +48,6 @@ ms.locfileid: "44691519"
 - **團隊與 Skype 消費者交互操作**性。 團隊與 Skype 消費者之間的互通性可讓兩個服務的使用者使用聊天與通話進行通訊。  團隊和 Skype 消費者互通性將在第一季的行事歷年2020中提供給小組。
 - **連絡人中心整合與合規性錄製**。 在這個月的早些時候，我們宣佈團隊與 Five9、Genesys，以及支援使用 ASC、NICE 和 Verint 來提供合規性錄製的小組合作關係。   我們也會與其他商務用 Skype Online 認證合作夥伴合作，將其他的連絡人中心與合規性記錄解決方案推向小組的市場。
  
-當您準備好開始使用時，我們會提供[一組完整的技術指導方針和規劃資源](https://aka.ms/SkypeToTeams)，包括經驗證的成功架構、最佳做法、規劃檔、[免費的講師指導訓練](instructor-led-training-teams-landing-page.md)，以及[FastTrack](https://www.microsoft.com/FastTrack)適用于合格訂閱的「加入協助」。
+當您準備好開始使用時，我們會提供[一組完整的技術指導方針和規劃資源](https://aka.ms/SkypeToTeams)，包括經驗證的成功架構、最佳做法、規劃檔、[免費的講師指導訓練](instructor-led-training-teams-landing-page.yml)，以及[FastTrack](https://www.microsoft.com/FastTrack)適用于合格訂閱的「加入協助」。
  
 從2014的簡介來看，商務用 Skype 對於世界各地數百萬人而言是一個重要的工具。  透過將即時消息、呼叫及影片結合在單一 app 中，產品已建立了令人興奮的新商業溝通構想。 Microsoft 團隊是該願景中的下一章，目前我們還不只是宣佈退休商務用 Skype Online 服務，我們也會在團隊中溝通信心。  在市場上有兩年以上的時間後，小組就能為我們需求最苛刻的客戶做好準備，而且我們認為您會喜歡我的愛！  如果您是目前的商務用 Skype Online 客戶，請立即開始規劃您的遷移。  我們承諾協助您處理每個步驟，而且我們無法等到您體驗到新的工作方式。 

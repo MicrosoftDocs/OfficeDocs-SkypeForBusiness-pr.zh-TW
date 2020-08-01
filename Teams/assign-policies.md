@@ -18,18 +18,14 @@ description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: 9d6253645e674d680f86d0b6f89a62968e6c21ba
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143844"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533940"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
-
-> [!NOTE]
-> 本文所述的功能之一，是[使用 Microsoft 團隊系統管理中心的群組的原則指派](#using-the-microsoft-teams-admin-center-3)，尚未解除發佈。 我們已宣佈推出，即將推出。
-> 若要掌握此功能的發行狀態，請參閱[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)。
 
 身為系統管理員，您可以使用原則來控制貴組織中的使用者可以使用的小組功能。 例如，有一些通話原則、會議原則和訊息原則，只會為您命名。
 
@@ -70,7 +66,7 @@ ms.locfileid: "45143844"
 |[指派原則給個別使用者](#assign-a-policy-to-individual-users)    | 您是團隊新手，剛開始使用，或只需要指派一或幾個原則給少數使用者。 |商務用 Skype Online PowerShell 模組中的 Microsoft 團隊管理員中心或 PowerShell Cmdlet
 | [指派原則套件](#assign-a-policy-package)   | 您需要將多個原則指派給貴組織中擁有相同或相似角色的特定使用者組。 例如，將教育版（教師）原則套件指派給學校的教師，讓他們能完全存取聊天、通話及會議，以及將教育（次要學校學生）原則封裝到次要學生，以限制私人電話等特定功能。  |團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心或 PowerShell Cmdlet|
 |[指派原則給一批使用者](#assign-a-policy-to-a-batch-of-users)   | 您必須將原則指派給大型使用者組。 例如，您想要一次將原則指派給組織中的成百上千位使用者。  |團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心或 PowerShell Cmdlet|
-|[指派原則給群組](#assign-a-policy-to-a-group) |您必須根據使用者的群組成員資格指派原則。 例如，您想要將原則指派給安全性群組或組織單位中的所有使用者。| 團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心（即將推出）或 PowerShell Cmdlet|
+|[指派原則給群組](#assign-a-policy-to-a-group) |您必須根據使用者的群組成員資格指派原則。 例如，您想要將原則指派給安全性群組或通訊群組清單中的所有使用者。| 團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心或 PowerShell Cmdlet|
 | [指派原則套件給一批使用者](#assign-a-policy-package-to-a-batch-of-users)|您需要將多個原則指派給組織中擁有相同或相似角色的使用者。 例如，您可以使用批次作業將教育版（教師）原則套件指派給學校中的所有教師，讓他們能完全存取聊天、通話及會議，並將教育（次要學校學生）原則套件指派給一批次要學生，以限制私人通話等特定功能。|團隊 PowerShell 模組中的 PowerShell Cmdlet|
 | 將原則套件指派給群組（即將推出）   | ||
 
@@ -256,7 +252,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="assign-a-policy-to-a-group"></a>指派原則給群組
 
-[群組原則指派] 可讓您將原則指派給使用者群組，例如安全性群組或組織單位。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。
+[群組原則指派] 可讓您將原則指派給使用者群組，例如安全群組或通訊群組清單。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。
 
 建議將原則指派給群組，以適用于最多50000個使用者的群組，但也適用于較大的群組。
 
@@ -289,11 +285,9 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 |商店管理員   |商店管理員通話原則         |1|
 |儲存員工    |儲存員工的通話原則      |2|
 
-如果您沒有指定排名，則會給予原則指派最低等級。
+如果您沒有指定排名，則會給予原則指派最低等級。 
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
-
-**此功能尚未發佈。我們已宣佈推出，即將推出。**
 
 > [!NOTE]
 > 目前，使用 Microsoft 團隊系統管理中心群組的原則指派只適用于小組呼叫原則、小組通話寄存原則、團隊原則、團隊即時事件原則、團隊會議原則和團隊訊息原則。 針對其他原則類型，請使用 PowerShell。
@@ -426,7 +420,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-您可以在團隊 Powershell 模組中使用下列 Cmdlet，透過批次原則指派來執行這項作業，其中 $users 是您指定的使用者清單。
+您可以在團隊 PowerShell 模組中使用下列 Cmdlet，透過批次原則指派來執行這項作業，其中 $users 是您指定的使用者清單。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 列出教育教職員和學生授權方案和 SKU 識別碼。
 f1keywords: ''
-ms.openlocfilehash: 5f382be6aa19cbfef45bc0dcef350e5354df118a
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702698"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533890"
 ---
 # <a name="education-sku-reference"></a>教育版 SKU 參考
 
@@ -71,4 +71,4 @@ ms.locfileid: "44702698"
 
 ## <a name="related-topics"></a>相關主題
 
-- [將原則指派給學校中的大型使用者](batch-policy-assignment-edu.md)
+- [將原則指派給學校中的大型使用者](batch-group-policy-assignment-edu.md)

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938192"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533738"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 腳本範例-建立並指派訊息原則
 
@@ -38,7 +38,6 @@ ms.locfileid: "44938192"
 下載並安裝[商務用 Skype Online PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在出現提示時重新開機電腦。
 
 若要進一步瞭解，請參閱[使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
-
 
 ## <a name="sample-script"></a>範例腳本
 
@@ -62,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 您也可以將訊息原則直接指派給使用者，以進行批原則分派或使用者是其成員的群組。 如需詳細資訊，請參閱[將原則指派給學校中的大型使用者](../batch-policy-assignment-edu.md)，然後[將原則指派給您的小組中的使用者](../assign-policies.md)。
+> 您也可以將訊息原則直接指派給使用者，以進行批原則分派或使用者是其成員的群組。 如需詳細資訊，請參閱[將原則指派給學校中的大型使用者](../batch-group-policy-assignment-edu.md)，然後[將原則指派給您的小組中的使用者](../assign-policies.md)。

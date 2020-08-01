@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何準備您的基礎結構以部署 Microsoft 團隊聊天室，讓您充分利用所有的功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526699"
+ms.locfileid: "46529176"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -39,7 +39,7 @@ ms.locfileid: "46526699"
      > [!IMPORTANT]
      > Microsoft 團隊聊天室不支援 proxy 驗證，因為它可能會干擾聊天室的常規操作。 在進入生產前，請先確認已免除來自 proxy 驗證的 Microsoft 團隊會議室。
   
-3. 為了改善您的體驗，Microsoft 會收集資料。 若要允許 Microsoft 收集資料，請允許列出下列網站：
+3. 為了改善您的體驗，Microsoft 會收集資料。 若要允許 Microsoft 收集資料，請允許下列網站：
 
    - 遙測用戶端端點：https://vortex.data.microsoft.com/
    - [遙測設定] 端點：https://settings.data.microsoft.com/
