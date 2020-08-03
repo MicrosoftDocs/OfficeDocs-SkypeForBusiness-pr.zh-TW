@@ -8,7 +8,7 @@
 
 # 訓練
 ## [概觀](training-microsoft-teams-landing-page.md)
-## [Teams 的講師帶領訓練](instructor-led-training-teams-landing-page.md)
+## [Teams 的講師帶領訓練](instructor-led-training-teams-landing-page.yml)
 ## [Teams 的管理訓練](itadmin-readiness.md)
 ## [Teams 的使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -670,7 +670,8 @@
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
 ### [開始使用遠端學習](remote-learning-edu.md)
 ### [Teams EDU 原則和原則套件](policy-packages-edu.md)
-### [將原則指派給大型使用者集合](batch-policy-assignment-edu.md)
+### [將原則指派給大型使用者集合](batch-group-policy-assignment-edu.md)
+### [建立適用於授課者和學生的安全性群組之 PowerShell 腳本](scripts/powershell-script-security-groups-edu.md)
 ### [教育版系統管理員的低頻寬指導方針](edu-remote-low-bandwidth.md)
 ### [課程深入資訊](class-insights.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
