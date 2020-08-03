@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085969"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533758"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -98,7 +98,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 > [!IMPORTANT]
 > 對於指派給任何使用者的會議原則，我們建議您將 [自動准許人員] 設定設為 [組織中的所有人]。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [[Teams 管理會議原則]](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
 
-**小學教職員和授課者**應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [透過批次原則指派將這些原則大量指派給您的教職員和授課者](batch-policy-assignment-edu.md)。
+**小學教職員和授課者**應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [將這些原則大量指派給您的教職員和授課者](batch-group-policy-assignment-edu.md)。
 
 ## <a name="start-using-teams"></a>開始使用 Teams
 
