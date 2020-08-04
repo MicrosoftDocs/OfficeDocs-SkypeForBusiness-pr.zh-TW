@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有關為位於商務用 Skype Server 上之使用者執行雲端式語音信箱的指示。
-ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 29faba6bf092647f0c55899f013c6b4bf146304f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221457"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552579"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>為內部部署使用者設定雲端語音信箱服務
 
@@ -38,7 +38,7 @@ ms.locfileid: "44221457"
 
 2.  確定您已依照[規劃混合](plan-hybrid-connectivity.md)式連線和設定[混合](configure-hybrid-connectivity.md)式連線中所述的方式設定混合式連線能力。 
 
-3.  如本文所述，[將雲端語音信箱設定為 Edge Server 上的裝載提供者](#configure-cloud-voicemail-as-the-hosting-provider)。
+3.  [將雲端語音信箱設定為前端伺服器上的裝載提供者](#configure-cloud-voicemail-as-the-hosting-provider)，如本文所述。
 
 4.  如本文所述，[設定主控的語音信箱原則](#configure-a-hosted-voicemail-policy)。
 
