@@ -8,12 +8,13 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 瞭解 Microsoft 團隊系統管理中心的稱讚應用程式中的系統管理設定
-ms.openlocfilehash: a61b4236a3c1378cbe4134833ad0f3fcd5b1651c
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
+ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552829"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564074"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中管理稱讚應用程式
 
