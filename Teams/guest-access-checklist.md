@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 4305f8f03f806be1a453e037620c6e16e71ac4dc
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372002"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552261"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 =========================================
@@ -33,7 +33,7 @@ ms.locfileid: "45372002"
 > [!IMPORTANT]
 > 您可能需要等候幾個小時，變更才會生效。
 
-觀看這段短片（5:31 分鐘），瞭解如何在整個 Microsoft 365 （包括團隊）中開啟來賓存取。
+請觀看這段短片 (5:31 分鐘) ，瞭解如何在整個 Microsoft 365 （包括團隊）中開啟來賓存取。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
 
@@ -69,7 +69,7 @@ ms.locfileid: "45372002"
      - **客人可以邀請**：若要讓客人邀請其他客人，請將此原則設定為 **[是]**。
          > [!IMPORTANT]
          > Teams 目前不支援來賓邀請者角色，因此，即使您將 **[來賓可邀請]** 設定為 **[是]**，來賓仍無法在 Teams 中邀請其他來賓。
-     - **啟用電子郵件的一次性密碼（預覽版）**：如需一次性密碼功能的詳細資訊，請參閱[電子郵件一次性密碼驗證（預覽版）](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
+     - 針對**來賓 (預覽) 啟用電子郵件一次性密碼**：如需一次性密碼功能的詳細資訊，請參閱以[電子郵件傳送一次性密碼驗證 (預覽) ](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
      - 共同作業**限制**：如需有關允許或封鎖特定網域之邀請的詳細資訊，請參閱[允許或封鎖來自特定組織的 B2B 使用者邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
         > [!NOTE]
         > 如需共同作業限制，請參閱[啟用 B2B 外部共同作業和管理可邀請來賓的人員](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
@@ -123,6 +123,16 @@ ms.locfileid: "45372002"
 ![螢幕擷取畫面顯示 [團隊/頻道設定] 切換開關的範例](media/guest-access-checklist-TeamsSettings2.png)
 
 若要深入瞭解來賓存取，請參閱[小組中的來賓存取權](guest-access.md)及[開啟或關閉 Microsoft 團隊的來賓存取權](set-up-guests.md)。
+
+## <a name="step-7-turn-on-anonymous-users-can-join-a-meeting-if-you-want-guests-to-join-meetings"></a>步驟7：如果您想要來賓加入會議，請開啟「匿名使用者可以加入會議」
+
+如果您想要來賓加入會議，請開啟 Microsoft 團隊系統管理中心的 [**匿名使用者可以加入會議**] 設定。 
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**會議**  >  **會議設定**]。
+
+2. 在 [參與者]**** 底下，開啟 [匿名使用者可加入會議]****。
+
+若要深入瞭解，請參閱[在團隊中管理會議設定](meeting-settings-in-teams.md)。 
 
 ## <a name="troubleshooting"></a>疑難排解
 

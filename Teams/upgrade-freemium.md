@@ -19,20 +19,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 5a318d59d10b90d5335c84fbbbe6e6e8ae68966d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666005"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552715"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免費升級 Microsoft 團隊訂閱版本
-======================================================
 
 如果您的組織使用的是免費的 Microsoft 團隊版本，您可以透過為使用者購買 Microsoft 365 或 Office 365 訂閱者案，輕鬆升級至完整版本。 完整版本提供了其他團隊功能（例如排程、音訊會議、增強的管理和安全性功能），而免費版本則不提供。 Microsoft 365 和 Office 365 結合了熟悉的 Microsoft Office desktop suite 與雲端版本的 Microsoft 新一代通訊與共同作業服務（包括 Exchange Online、SharePoint Online 和 Office），協助使用者從幾乎任何地方透過網際網路進行生產力。 當您升級團隊時，您現有的團隊資料將不會遺失;您所有的團隊、頻道、聊天、檔案和許可權都會隨附給您。 
 
 > [!NOTE]
-> 如果您已經有 Microsoft 365 或 Office 365 訂閱，就表示您有資格試用版的小組（含公司身分識別），而不是免費版本。 團隊試用版在有限的時間內提供完整的小組。 如需詳細資訊，請參閱[管理 Microsoft 團隊商業版雲端試用優惠](iw-trial-teams.md)。
+> 如果您已經有 Microsoft 365 或 Office 365 訂閱，就可以使用您的公司身分識別) （而非免費版本），為您的 (團隊試用版提供資格。 團隊試用版在有限的時間內提供完整的小組。 如需詳細資訊，請參閱[管理 Microsoft 團隊商業版雲端試用優惠](iw-trial-teams.md)。
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>團隊與團隊的完整版本有何不同？
 
@@ -49,7 +48,7 @@ ms.locfileid: "44666005"
 
 除了團隊提供的功能之外，Microsoft 365 或 Office 365 訂閱隨附的完整團隊也提供下列功能：
 
-- 無使用者限制（含企業版授權）
+-  (使用企業授權) 的使用者數限制
 - Exchange 電子郵件主機託管及自訂電子郵件網域
 - OneDrive、SharePoint、Planner、Yammer，以及更多 Microsoft 365 和 Office 365 服務
 - 每個使用者 1 TB 的儲存空間
@@ -65,7 +64,7 @@ ms.locfileid: "44666005"
 如果您符合下列需求，您可以升級至完整的團隊：
 
 - 您是註冊現有小組免費訂閱的人員。
-- 如果您要引入自己的網域，它還沒有與 Azure Active Directory 相關聯（透過試用版或購買的 Microsoft 365 或 Office 365 訂閱）。
+- 如果您有自己的網域，就不會透過試用版或購買的 Microsoft 365 或 Office 365 訂閱) 與 Azure Active Directory (相關聯。
 
 > [!NOTE]
 > 若要升級及傳輸資料，您必須透過團隊應用程式中的升級程式來購買訂閱。 如果您在未執行升級程式的情況下，透過團隊購買 Microsoft 365 或 Office 365，您就無法傳輸您的資料，因為您已經有一個單獨的租使用者。
@@ -76,7 +75,7 @@ ms.locfileid: "44666005"
 
 - 升級之後，您就無法切換回 [小組]。
 - 您無法將多個團隊的免費租使用者合併為單一付費租使用者。
-- 所有使用者都必須在同一個網域中。 （所有使用者都會在格式*使用者名* @ 中取得登入*domain.com*）。
+- 所有使用者都必須在同一個網域中。  (所有使用者都會在 *[格式]* domain.com 中取得登入 @ * *。 ) 
 - 所有使用者都必須升級：不支援在同一個租使用者中混合使用團隊免費訂閱和付費訂閱。
 
 ## <a name="how-do-i-upgrade-my-organization"></a>我要如何升級我的組織？

@@ -17,14 +17,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何透過團隊專案庫和搜尋結果中的建議，控制 Microsoft 團隊使用者是否可探索私人團隊。
-ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e06a9511d8198a069c3dccfdbbbacf3d3f1b2c42
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836513"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554693"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人小組探索
+
+> [!IMPORTANT]
+> 根據客戶的意見反應，我們停用了2020年8月31日的這項功能。 這表示在2020年8月31日之後，您將無法再將私人團隊設定為可供使用，而且所有現有和新的私人團隊都將無法再探索。 若要深入瞭解，請參閱[Microsoft 365 藍圖](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370)。
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -60,7 +63,7 @@ ms.locfileid: "41836513"
 
 ### <a name="in-team-settings"></a>在團隊設定中
 
-在 [團隊] 中，移至 [私人小組]，按一下 [**更多選項** > **管理團隊**]。 在 [**設定**] 索引標籤上，展開 [**小組探索**]，然後清除或選取 [**開啟**可搜尋專案] 核取方塊。
+在 [團隊] 中，移至 [私人小組]，按一下 [**更多選項**  >  **管理團隊**]。 在 [**設定**] 索引標籤上，展開 [**小組探索**]，然後清除或選取 [**開啟**可搜尋專案] 核取方塊。
 
 ![現有私人團隊探索設定的螢幕擷取畫面](media/private-team-discovery-existing-team.png)
 

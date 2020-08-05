@@ -4,8 +4,7 @@ ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -20,81 +19,26 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9d1e201e6b838abcfc582b0a7d4aaef90493ef
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506744"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554613"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
-
 使用訓練資源來向您自己說明小組、向他人講授或執行討論會。 經常查看這裡的新內容。 
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>使用幾個小組和頻道快速入門</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>在 YouTube 上的雲端頻道中，查看最佳做法以及咖啡中的操作方法影片</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>為您的使用者取得訓練</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
+|               |               |               |
+| ------------- | ------------- | ------------- |
+| ![描述手形和向上箭號的圖示](media/get-started-blue-small.svg)  | [使用幾個小組和頻道快速入門](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述核取記號的圖示](media/success-small.svg)  | [在 YouTube 上的雲端頻道中，查看最佳做法以及咖啡中的操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![描述兩個使用者的圖示](media/users-people-small.svg)  | [為您的使用者取得訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
 
 <h2>技術訓練</h2>
 
 | 模組 | 影片 | PowerPoint 投影片組  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft 結構-IT YouTube 頻道的團隊基本套件](https://aka.ms/MicrosoftTeamsforIT) | [影片：團隊基本](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)版（最小10:13）<br>[影片：部署 & 設定團隊-簡介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分鐘）  <br>[影片：安全性與合規性](https://youtu.be/91lHNKVVvQ4)（12:42 分鐘）<br>[影片：團隊控制安全性與合規性](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分鐘）||
+| [Microsoft 結構-IT YouTube 頻道的團隊基本套件](https://aka.ms/MicrosoftTeamsforIT) | [影片： IT 團隊基本](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)版 (10:13 分鐘) <br>[影片：部署 & 設定團隊-簡介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分鐘)   <br>[影片：安全性與合規性](https://youtu.be/91lHNKVVvQ4) (12:42 分鐘) <br>[影片：適用于安全性與合規性的團隊控制項](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分鐘) ||
 | 地基-核心元件 | [影片](https://aka.ms/teams-foundations) | [文稿](https://aka.ms/teams-foundations-deck) |
 | Windows 桌面用戶端 | [影片](https://aka.ms/teams-clients) | [文稿](https://aka.ms/teams-clients-deck) |
 | 管轄、管理與生命週期 | [影片](https://aka.ms/teams-governance) | [文稿](https://aka.ms/teams-governance-deck) |

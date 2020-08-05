@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "43580701"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552291"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  
@@ -45,9 +45,9 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 將會議室的正面顯示設定為 [延伸] 模式。 如此一來，就能確保當您重新開啟電源時，系統不會在該顯示器上複製主控台 UI。
   
 > [!NOTE]
-> 如果您希望在來源從待機模式喚醒時自動切換到活動影片來源（例如 MTR 主控台），必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 在房間顯示中使用的消費者電視需要支援 HDMI 的消費電子產品控制（CEC）功能。  根據所選的 dock 或主機（可能不支援 CEC，請參閱製造商支援檔），從 Extron Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)中的一個控制器（例如，可能需要從的[hd RX-201-E-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ）來啟用所需的行為。 
+> 如果您想要將房間顯示幕正面自動切換到使用中的影片來源 () 例如，當來源從待機模式喚醒時，必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 用來做為會議室顯示的消費者電視需求支援使用消費電子 (CEC) 功能。  根據所選 (可能不支援 CEC 的固定或主控台，請參閱製造商支援檔) ，例如，從 Extron Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)中的一個控制器（例如[HD RX-201-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ），以啟用所需的行為。 
   
-## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 團隊會議室重設（工廠還原）
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 團隊聊天室重設 (Factory 還原) 
 <a name="Reset"> </a>
 
 如果 Microsoft 團隊聊天室無法正常運作，可能會執行重設回原值。 若要這樣做，請使用[Microsoft 團隊聊天室恢復工具](recovery-tool.md)，並遵循工廠還原指示進行。
@@ -63,7 +63,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作組|未加入網域|已加入網域|
 |:-----|:-----|:-----|
-|重  <br/> |遠端桌面  <br/> 遠端 Powershell  <br/> |遠端桌面（需要進一步配置）  <br/> 遠端 Powershell （需要進一步配置）  <br/> Configuration Manager  <br/> |
+|重  <br/> |遠端桌面  <br/> 遠端 Powershell  <br/> |遠端桌面 (需要進一步的設定)   <br/> 遠端 Powershell (需要進一步的設定)   <br/> Configuration Manager  <br/> |
 |更新作業系統  <br/> |Windows Update  <br/> |Windows Update  <br/> 結合  <br/> |
 |App 更新  <br/> |Windows 網上商店  <br/> |Windows 網上商店  <br/> Configuration Manager  <br/> |
 |Skype 帳戶配置  <br/> |目前不支援  <br/> |目前不支援  <br/> |
@@ -77,26 +77,26 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |設定|讓|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （REG_SZ）1  <br/> |可讓 Microsoft 團隊聊天室啟動  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |可讓 Microsoft 團隊聊天室啟動  <br/> |
 |電源管理- \> 在 AC 上，10分鐘後關閉螢幕  <br/> 電源管理- \> 在交流電上，請勿將系統置於睡眠狀態  <br/> |讓 Microsoft 團隊聊天室關閉附加的顯示，並自動喚醒  <br/> |
 |淨帳戶/maxpwage：無限制  <br/> 或同等的方式，在本機帳戶上停用密碼過期。 如果不這麼做，最終會導致 Skype 帳戶無法針對過期密碼登入。 請注意，這會影響電腦上的所有本機帳戶，因此無法設定這種情況，也會導致盒上的系統管理帳戶最終過期。  <br/> |讓 Skype 帳戶永遠登入  <br/> |
    
 使用群組原則來傳送檔案將在 [[設定檔案專案](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)] 中討論。
 
 > [!NOTE]
-> 當 Microsoft 團隊聊天室裝置與下一版的 Windows 10 OS 相容時，裝置會透過 Windows Update 自動更新至下一個版本。 Microsoft 團隊聊天室裝置不應升級至 Windows 10 的下一次發行，或透過啟用商務用 Windows Update （WUFB）群組原則，選取您想要接收之更新的 Windows 就緒層級，然後透過 GPO 選取何時接收預覽版和功能更新。 已啟用這些群群組原則的裝置已知會遇到 Microsoft 小組聊天室 app 的 Windows 10 OS 更新問題。
+> 當 Microsoft 團隊聊天室裝置與下一版的 Windows 10 OS 相容時，裝置會透過 Windows Update 自動更新至下一個版本。 Microsoft 團隊聊天室裝置不應升級至 Windows 10 的下一次發行，或透過啟用商務用 Windows Update (WUFB) 群組原則]，選取您想要接收之更新的 Windows 準備情況層級，然後透過 GPO 選取 [預覽組建及功能更新何時收到]。 已啟用這些群群組原則的裝置已知會遇到 Microsoft 小組聊天室 app 的 Windows 10 OS 更新問題。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 進行遠端系統管理
 <a name="RemotePS"> </a>
 
-您可以使用 PowerShell 遠端執行下列管理作業（請參閱下表以取得腳本範例）：
+您可以使用 (PowerShell 遠端執行下列管理作業：請參閱下表以取得腳本範例) ：
   
 - 取得連接的裝置
 - 取得 app 狀態
 - 取得系統資訊
 - 重新開機系統
 - 檢索記錄
-- 傳輸檔案（需要加入網域的 Microsoft 團隊會議室）
+- 傳送檔案 (需要加入網域的 Microsoft 團隊聊天室) 
     
 > [!NOTE]
 > 此功能預設為關閉。 您必須在 Microsoft 團隊聊天室系統上為您的環境啟用遠端 PowerShell，才能執行下列作業。 如需有關如何啟用遠端 PowerShell 的資訊，請參閱**[啟用-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** 的相關檔。
@@ -105,7 +105,8 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
   
 1. 以系統管理員身分登入 Microsoft 團隊聊天室裝置。
 2. 開啟提升許可權的 PowerShell 命令提示字元。
-3. 輸入下列命令： Enable-PSRemoting-force
+3. 輸入下列命令：`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. 開啟 [本機安全性原則]，然後將 [*管理員*] 安全性群組新增至 [**安全性設定**  >  指派本機**原則**  >  **User Rights Assignment**  >  **的使用者從網路存取此電腦**]。
 
 若要執行管理作業：
   
@@ -113,7 +114,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 2. 在電腦上開啟一般的 PowerShell 命令提示字元。
 3. 從下表複製命令文字，並在出現提示時貼上。
 4. 以 `<Device fqdn>` 適合您環境的 FQDN 值取代欄位。
-5. 以主 SkypeSettings 配置檔案（或主題圖像）的檔案名和本機路徑取代* \< 路徑 \> * 。
+5. *\<path\>* 使用主版 SkypeSettings.xml 配置檔案 (或主題影像) 的檔案名和本機路徑來取代。
     
 取得連接的裝置
   
@@ -153,7 +154,7 @@ $session = new-pssession -ComputerName $targetDevice
 Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
 ```
 
-推入 XML 設定檔（或主題圖形）
+將 XML 設定檔推 (或主題圖形) 
   
 ```XML
 $movefile = "<path>";
@@ -168,12 +169,12 @@ Copy-Item $movefile $targetDevice
   
 根據預設，Microsoft 球隊聊天室會連線至 Windows Update，以檢索作業系統和 USB 週邊裝置固件更新，並將其安裝在已設定的商務時間以外。 您可以登入管理員帳戶並執行 [設定] 應用程式，來設定上班時間。
   
-如果您想要手動管理更新，且無法遵循[Microsoft 網上商店 For Business](https://businessstore.microsoft.com/store) [發佈離線 app](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的一般程式，您可以從[部署套件](https://go.microsoft.com/fwlink/?linkid=851168)取得適當的 APPX 檔案和相依性（從指示[設定 Microsoft 團隊聊天室主控台](console.md)），可與 Configuration Manager 搭配使用。 部署套件版本滯後于商店發行版本本，因此可能不一定會與最新的可用組建相符。
+如果您想要手動管理更新，且無法遵循[Microsoft 網上商店 For Business](https://businessstore.microsoft.com/store) [發佈離線 app](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的一般程式，您可以從 [[部署套件](https://go.microsoft.com/fwlink/?linkid=851168)] 中取得適當的 APPX 檔案和相依性， (從指示來設定可與 Configuration Manager 搭配使用的[microsoft 團隊聊天室主控台](console.md)) 。 部署套件版本滯後于商店發行版本本，因此可能不一定會與最新的可用組建相符。
   
 ### <a name="to-update-using-powershell"></a>使用 Powershell 更新
 
 1. 從安裝[MSI](https://go.microsoft.com/fwlink/?linkid=851168)將套件解壓縮至裝置可以存取的共用。
-2. 針對 Microsoft 團隊聊天室裝置執行下列腳本， \< 視需要將共用變更 \> 為裝置共用：
+2. 執行下列針對 Microsoft 團隊聊天室裝置設定的腳本， \<share\> 視需要變更為裝置共用：
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -187,9 +188,9 @@ Copy-Item $movefile $targetDevice
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>當 Microsoft 團隊聊天室 app 執行時，切換到 [管理員模式] 並返回 [返回]
 
 1. 掛斷任何正在進行的通話，然後返回主畫面。
-2. 選取齒輪圖示並顯示功能表（選項為 [**設定**]、[**協助工具**] 和 [**重新開機裝置**]）。
+2. 選取齒輪圖示並顯示功能表， (選項包括**設定**、**協助工具**及**重新開機裝置**) 。
 3. 選取 [**設定**]。
-4. 輸入系統管理員密碼。 [設定] 畫面隨即出現。  如果裝置未加入網域，則預設會使用本機系統管理帳戶（username "Admin"）。 此帳戶的預設密碼是 [sfb]，請儘快變更密碼。 如果電腦已加入網域，您可以使用適當許可權的網域帳戶登入。 
+4. 輸入系統管理員密碼。 [設定] 畫面隨即出現。  如果裝置未加入網域，則會預設使用本機系統管理帳戶 (的使用者名稱 "Admin" ) 。 此帳戶的預設密碼是 [sfb]，請儘快變更密碼。 如果電腦已加入網域，您可以使用適當許可權的網域帳戶登入。 
 5. 選取左欄中的 [ **Windows 設定**]。
 6. 選擇 [**移至系統管理員登入**]。
 7. 輸入系統管理員密碼。 這會適當地登出應用程式，並將您帶到 Windows 登入畫面。 
@@ -216,7 +217,7 @@ Copy-Item $movefile $targetDevice
    ## <a name="troubleshooting-tips"></a>疑難排解提示
    <a name="TS"> </a>
 
-- 在跨網域邊界傳送時，會議邀請可能不會出現（例如，在兩個公司之間）。 在這種情況下，IT 系統管理員應該決定是否要允許外部使用者排程會議。
+- 在跨網域邊界傳送時，會議邀請可能不會出現 (例如，兩個公司之間) 。 在這種情況下，IT 系統管理員應該決定是否要允許外部使用者排程會議。
 - Microsoft 團隊聊天室不支援透過 Exchange 2010 的 Exchange 自動探索重新導向。
 - 一般來說，IT 管理員要停用任何不想要使用的音訊端點是一個不錯的做法。
 - 如果在會議室預覽中顯示鏡像影像，IT 系統管理員可以使用相機遙控器來重啟相機電源或翻轉影像方向來修正。

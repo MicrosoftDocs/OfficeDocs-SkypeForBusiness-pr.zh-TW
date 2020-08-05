@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 34d7780e1d10370b78c11c1a8021381aff71f479
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905895"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552589"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
 ============================================
@@ -54,7 +54,7 @@ ms.locfileid: "43905895"
 5. 開啟或關閉下列設定：
 
     - [**允許參與者授與要求控制**]：讓小組成員可以授與要求控制簡報者的桌面或應用程式。
-    - [**允許外部參與者授與要求控制**]：讓來賓與外部（同盟）使用者提供或要求簡報者的桌面或應用程式的控制權。
+    - **允許外部參與者授與要求控制權**（這是每個使用者的原則）。 組織是否有此組使用者無論會議召集人已設定的內容，都不會控制外部參與者所能執行的動作。 這個參數會控制外部參與者是否可以受到控制或要求對共用者的螢幕進行控制，這要視共用資源在組織的會議原則中所設定的內容而定。
     - **允許 PowerPoint 分享**：讓使用者建立可讓 PowerPoint 簡報上傳並共用的會議。
     - **允許使用白板**：讓使用者共用白板。
     - **允許共用記事**：讓使用者記共用記事。

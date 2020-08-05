@@ -21,22 +21,22 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '瞭解如何為大廳、接待區域及會議室設定通用區域電話 '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125986"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552301"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定 Microsoft 團隊的通用區域電話授權
 > [!NOTE]
 > 常見的區域電話不支援語音信箱。
 
-常見的區域手機通常放在大廳或其他區域（可供許多人撥打通話）的區域中。例如，接收區域、會議廳或會議電話。 常見的區域手機是設定為裝置，而不是使用者，而且可以自動登入網路。
+常見的區域手機通常放在大廳或其他區域（可供許多人撥打通話）的區域中。例如，接收區域、會議廳或會議電話。 常見的局域網已登入與通用區域電話授權相關聯的帳戶。 您也必須適當地設定 TeamsIPPhone 原則，才能讓手機擁有共同的區域使用者體驗。
 
 在下列步驟中，我們將協助您設定電話系統帳戶，以便為您的組織部署常見的區域電話。 如需更完整的會議室體驗（包括音訊會議），請考慮使用會議室裝置購買專用的會議室授權。 
 
-首先，您需要購買通用的區域電話（CAP）授權，並確認您有已認證的電話。 若要搜尋並深入瞭解認證的手機，請移至[Microsoft 團隊裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。 
+首先，您需要購買通用的區域電話 (CAP) 授權，並確認您有已認證的電話。 若要搜尋並深入瞭解認證的手機，請移至[Microsoft 團隊裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。 
 
 ## <a name="step-1---buy-the-licenses"></a>步驟 1-購買授權
 

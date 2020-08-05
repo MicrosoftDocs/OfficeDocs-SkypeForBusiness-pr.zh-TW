@@ -16,27 +16,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752975"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552009"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
 > [!Tip]
-> 請觀看下列會話，瞭解團隊與 Azure Active Directory （AAD）、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive 的互動方式： [Microsoft 團隊的基礎](https://aka.ms/teams-foundations)
+> 請觀看下列會話，瞭解團隊如何與 Azure Active Directory 進行互動 (AAD) 、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive： [Microsoft 團隊基礎](https://aka.ms/teams-foundations)
 
 針對完整的團隊體驗，每位使用者都應該啟用 Exchange Online、SharePoint Online 和 Microsoft 365 群組建立。
 
 使用者的 Exchange 信箱可以在線上託管或內部部署。 整合內部部署 Exchange 需要 Exchange 混合式部署。 如需有關設定混合式部署的詳細資訊，請參閱[Exchange 伺服器混合式部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
 
-以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊和頻道、建立及觀看會議、呼叫及聊天、修改使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及新增及設定連接器、索引標籤和 bot。
+以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊和頻道、建立及聊天會議、呼叫及聊天、修改使用者設定檔圖片 (如果 Outlook 網頁版信箱原則允許他們這麼做，請) ，然後新增及設定連接器、索引標籤和 bot。
 
-在 Exchange Online 專用（舊版）中託管的使用者，必須在 Microsoft 365 或 Office 365 上同步處理到 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
+以 Exchange Online 專用 (舊版) 託管的使用者必須同步處理到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
 
-擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議（如果您提供 Exchange Server 2016 （累加更新3）或更新版本），都是在[exchange 與 Exchange Online 組織之間設定 oauth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)的情況下，在內部部署上使用 oauth 設定（最好是透過 exchange 混合式設定向導）。 若要為這些使用者啟用行事曆委派，您也必須按照在商務用[Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。這些步驟會提供小組排程應用程式，以確認委派許可權所需的許可權。
+擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片 (如果 Outlook 網頁版信箱原則允許他們這麼做，且管理會議（提供 exchange Server) 2016 (累加性更新 3) 或更新版本），則會在[exchange 與 Exchange Online 組織之間的 [設定 oauth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)] 中所述，透過 [exchange 混合式設定] 嚮導來執行內部部署與 oauth (。 若要為這些使用者啟用行事曆委派，您也必須按照在商務用[Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。這些步驟會提供小組排程應用程式，以確認委派許可權所需的許可權。
 
 下表提供根據 Exchange 環境的功能可用性的實用快速參考。
 
@@ -45,28 +45,26 @@ ms.locfileid: "44752975"
 
 **支援的動作：**
 
-| 使用者的信箱託管于： | eDiscovery| 法律 &nbsp; 封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
-|**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
-|**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是 <sup> 4|是|否|否|是|是|否|是 <sup> 5|是 <sup> 6|是|是|
-|**Exchange 內部部署**（需要同步處理到 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2</sup> |是 <sup> 4|是|是（Exchange 2016 CU3 +）|否|是|是|否|是 <sup> 5|是 <sup> 6|是|是|
+| 使用者的信箱託管于：                                        | eDiscovery       | 法律 &nbsp; 封存    | 留成  | 團隊和頻道管理 | 在團隊中建立及查看會議 | 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱  | 新增及設定連接器 | 新增及設定索引標籤 | 新增及設定 bot |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | 是<sup>1</sup> | 是<sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是<sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
+| **Exchange Online 專用 vNext**                                 | 是<sup>1</sup> | 是<sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是<sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
+| **Exchange Online 專用-舊版** (同步處理到 Azure AD 所需)   | 是<sup>1</sup> | 是<sup>1、2</sup> | 是 <sup> 3 | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup> 4 | 是 <sup> 5                   | 是                    | 是                    |
+| **Exchange 內部部署** (需要同步處理到 Azure AD & OAuth config)  | 是<sup>1</sup> | 是<sup>1</sup>   | 是 <sup> 3 | 是                   | 是 (Exchange 2016 CU3 +)           | 否                          | 是          | 是             | 否                      | 是 <sup> 4 | 是 <sup> 5                   | 是                    | 是                    |
 
-支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
+所有主機版選項支援<sup>1</sup>個 eDiscovery 與針對通道訊息規範的法定保留。
 
-在所有託管選項中，都支援針對通道訊息的相容性啟用<sup>2</sup>個 EDiscovery 和法律封存。
+<sup>2</sup>團隊私人聊天訊息尚不支援針對此託管選項進行法律封存。
 
-<sup>3</sup>團隊私人聊天訊息尚不支援針對此託管選項進行法律封存。
+<sup>3</sup>保留會針對線上使用者使用陰影信箱來儲存訊息。
 
-<sup>4</sup>保留會針對線上使用者使用陰影信箱來儲存訊息。 [Microsoft 團隊支援針對 Exchange 混合式環境中的團隊使用者使用 eDiscovery](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
+<sup>4</sup>個小組擁有內部部署 Exchange 信箱的使用者可能會在 Outlook 中使用語音信箱及接收語音信箱訊息，但無法在團隊用戶端中查看或播放語音信箱訊息。
 
-具有內部部署 Exchange 信箱的<sup>5 個</sup>小組使用者可能會在 Outlook 中使用語音信箱及接收語音信箱訊息，但無法在團隊用戶端中查看或播放語音信箱訊息。
+<sup>5</sup>如果小組的其中一個擁有者可以新增連接器，該小組中的其他人都能這樣做，即使他們的信箱是內部部署的。
 
-<sup>6</sup>如果小組的其中一個擁有者可以新增連接器，該小組中的其他人都能這樣做，即使他們的信箱是內部部署的。
+只有<sup>6</sup>個 [預設連絡人] 資料夾中的連絡人。 不支援存取其他連絡人資料夾或子資料夾。
 
-只有<sup>7</sup>個 [預設連絡人] 資料夾中的連絡人。 不支援存取其他連絡人資料夾或子資料夾。
-
-<sup>8 個</sup>團隊會將 Outlook 設為租使用者管理員設定的[Outlook 網頁信箱原則](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)設定，以控制使用者是否可以變更其個人檔案圖片。 如果在原則中關閉了 **-SetPhotoEnabled**設定，使用者就無法新增、變更或移除其個人檔案圖片。 例如，如果使用者上傳由貴組織 IT 或人力資源部門核准的個人資料圖片，就不需要採取任何動作。 不過，如果使用者上傳的圖片不適當，請根據貴組織的內部原則變更圖片。
+<sup>7</sup>個小組都是由租使用者管理員設定的[Outlook 網頁信箱原則](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)設定，以控制使用者是否可以變更其個人檔案圖片。 如果在原則中關閉了 **-SetPhotoEnabled**設定，使用者就無法新增、變更或移除其個人檔案圖片。 例如，如果使用者上傳由貴組織 IT 或人力資源部門核准的個人資料圖片，就不需要採取任何動作。 不過，如果使用者上傳的圖片不適當，請根據貴組織的內部原則變更圖片。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 團隊的需求
 
@@ -87,13 +85,13 @@ Microsoft 團隊與數個 Microsoft 365 和 Office 365 服務搭配使用，可�
 > 針對 Exchange 內部部署與團隊整合，必須針對 AAD 同步處理的使用者指派所需的授權。
 
 > [!IMPORTANT]
-> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 目前狀態在 Teams 中可正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [**設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 **[以 Office 聊天應用程式註冊團隊（需要重新開機 office 應用程式）**]。 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
+> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 目前狀態在 Teams 中可正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [**設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 [**註冊團隊] 做為 office (的聊天 app 需要重新開機 office 應用程式) ** 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
 
 ## <a name="additional-considerations"></a>其他考慮
 
 以下是您在組織中實施 Microsoft 團隊時要考慮的一些額外事項。
 
-- 在 Microsoft 團隊中，安全性與合規性功能（例如 eDiscovery、內容搜尋、封存和法律封存）在 Exchange Online 和 SharePoint Online 環境中的運作效果最佳。 在頻道交談中，郵件會在 Exchange Online 中的群組信箱中日記，在這裡可供 eDiscovery 使用。 如果是在整個組織和使用者啟用 SharePoint Online 和商務用 OneDrive （使用公司或學校帳戶），則小組中的所有檔案也都提供這些規範功能。
+- 在 Microsoft 團隊中，安全性與合規性功能（例如 eDiscovery、內容搜尋、封存和法律封存）在 Exchange Online 和 SharePoint Online 環境中的運作效果最佳。 在頻道交談中，郵件會在 Exchange Online 中的群組信箱中日記，在這裡可供 eDiscovery 使用。 如果 SharePoint Online 和商務用 OneDrive (使用公司或學校帳戶) 在整個組織和使用者中都是啟用，則團隊內的所有檔案也都能使用這些相容性功能。
 
 - 使用條件式存取控制並保護團隊和 Exchange 中的合規性原則設定。 如需詳細資訊，請參閱[如何針對團隊使用條件式存取原則？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 
@@ -110,9 +108,9 @@ Microsoft 團隊與數個 Microsoft 365 和 Office 365 服務搭配使用，可�
 
 - 代理人與 delegator 都必須在 Exchange 伺服器上擁有信箱。
 
-- 必須使用自動探索（AutoD） V2，才能讓團隊服務執行使用者信箱的未驗證搜尋。 AutoD V2 在 Exchange 2013 CU19 + 中受到支援。
+- 必須具備自動探索 (AutoD) V2，才能讓團隊服務執行使用者信箱的未驗證搜尋。 AutoD V2 在 Exchange 2013 CU19 + 中受到支援。
 
-- 必須將 Exchange 伺服器設定為 EVOSTS 的認證伺服器。 這會自動設定為 Exchange （HWA）混合式嚮導的一部分。
+- 必須將 Exchange 伺服器設定為 EVOSTS 的認證伺服器。 這會自動設定為 Exchange (HWA) 的混合式嚮導的一部分。
 
     如果您不想執行 HWA，您可以在 Exchange 伺服器上手動建立 EVO STS 的認證伺服器，請依照下列指示[設定 exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 不過，我們建議您使用 HWA。
 
