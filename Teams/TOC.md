@@ -62,11 +62,13 @@
 ### [使用內建和自訂索引標籤](built-in-custom-tabs.md)
 ### [使用 Microsoft 365 或 Office 365 和自訂連接器](Office-365-custom-connectors.md)
 ### [特定於資源的同意](resource-specific-consent.md)
-### [管理您的自訂應用程式](manage-your-custom-apps.md)
+### [發佈透過 Teams 應用程式提交 API 所提交的自訂應用程式](submit-approve-custom-apps.md)
+### [透過上傳應用程式套件發佈自訂應用程式](upload-custom-apps.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
 ### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
+### [管理 Praise 應用程式](manage-praise-app.md)
 ### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
 ### [設定 Skype 會議應用程式以搭配 Teams 運作](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -808,6 +810,7 @@
 ### [管理 Teams Exploratory 體驗](teams-exploratory.md)
 ### [管理 Teams 免費版](manage-freemium.md)
 ### [將 Teams 免費版升級為訂閱版本](upgrade-freemium.md)
+### [進階通訊](teams-add-on-licensing/advanced-communications.md)
 ### [訊息原則授權](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 電話系統 - 虛擬使用者授權](teams-add-on-licensing/virtual-user.md)
 
