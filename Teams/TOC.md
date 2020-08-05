@@ -68,7 +68,6 @@
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
 ### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
-### [管理 Praise 應用程式](manage-praise-app.md)
 ### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
 ### [設定 Skype 會議應用程式以搭配 Teams 運作](configure-skype-meetings-app-to-work-with-teams.md)
 
