@@ -15,16 +15,16 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166741"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572258"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
-外設認證計畫可確保 USB 外設（例如耳機、免持聽筒、網路攝影機和顯示器）能提供豐富的音訊或視頻品質。 已認證的裝置不需要額外設定就能使用方塊（外掛程式 & play），而且您可以使用 Microsoft 團隊和商務用 Skype 提供通話控制。 這些產品可為使用者和管理員提供絕佳的體驗。
+外設認證計畫可確保 USB 外設（例如耳機、免持聽筒、網路攝影機和顯示器）能提供豐富的音訊或視頻品質。 已認證的裝置 ([插拔 & 播放]) ，不需要額外設定，且可使用 Microsoft 團隊和商務用 Skype 提供通話控制。 這些產品可為使用者和管理員提供絕佳的體驗。
 
 若要探索已針對 Microsoft 團隊進行測試和認證的裝置，請前往 [[小組] 商店](https://products.office.com/microsoft-teams/across-devices/devices)。
 
@@ -52,15 +52,15 @@ ms.locfileid: "45166741"
 ### <a name="new-teams-certification-benefits"></a>新的團隊認證權益
 
 - 專用團隊按鈕和 LED 指示燈。
-- 來自團隊用戶端的事件和通知的使用者通知（例如會議開始、語音信箱或未接來電）。
-- 能夠啟用團隊用戶端，或按下按鈕（例如加入會議）來回應通知。
-- 針對擴充性設計的認證（透過固件更新傳遞的新裝置/用戶端功能）。
+- 來自團隊用戶端的事件和通知的使用者通知 (例如會議開始、語音信箱或未接來電) 。
+- 您可以啟用團隊用戶端，或按下按鈕來回應通知 (例如，加入會議) 。
+- 針對擴充性設計的認證 (新的裝置/用戶端功能可透過固件更新) 傳送。
 
 ### <a name="core-certification-benefits"></a>核心認證的好處
 
 - 自動選取預設音訊裝置，如果有多個音訊外設，請確定優先順序。
 - 裝置會自動向小組用戶端註冊，且已準備好使用。
-- 音訊裝置（例如耳機與免持聽筒）提供：
+- 音訊裝置 (例如 [耳機] 和 [免持聽筒]) 優惠：
   - 在與 PC 或 Mac 裝置搭配使用時，可進行基本的呼叫控制。 基本控制項包括 [應答/掛斷]、[靜音]/[取消靜音] 和 [音量控制]。
   - 寬區音訊，不含回音、失真或過多的問題。 跨裝置也支援 Echo 取消。
 - 影片裝置符合雜色、色彩、影像詳細資料、抖動、延遲、畫面播放速率和視野的需求。
@@ -78,8 +78,15 @@ ms.locfileid: "45166741"
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Bose                 |NC 700 耳機                                             |6/8/2020        |針對 Microsoft 團隊認證|
-|Jabra              | 使用 Jabra 連結 370 USB 轉換器來朗讀750話筒       | 5/21/2020 | 針對 Microsoft 團隊認證|
+|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |針對商務用 Skype 認證                        |
+|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |針對商務用 Skype 認證                        |
+|Jabra                |接洽75耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |接洽65耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |接洽50耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Avocor               |WCD-AVW-6555                                              |7/30/2020       |針對 Microsoft 團隊認證                           |
+|Jabra                |Evolve2 85 耳機                                         |7/17/2020       |針對 Microsoft 團隊認證                           |
+|Bose                 |NC 700 耳機                                             |6/8/2020        |針對 Microsoft 團隊認證                           |
+|Jabra                | 使用 Jabra 連結 370 USB 轉換器來朗讀750話筒     | 5/21/2020       | 針對 Microsoft 團隊認證                         |
 | EPOS                | Sennheiser 改編660耳機                              | 5/15/2020      | 針對 Microsoft 團隊認證                          |
 | EPOS                | Sennheiser 改編560耳機                              | 5/15/2020      | 針對 Microsoft 團隊認證                          |
 | EPOS                | Sennheiser 改編460T 耳機                             | 5/15/2020      | 針對 Microsoft 團隊認證                          |

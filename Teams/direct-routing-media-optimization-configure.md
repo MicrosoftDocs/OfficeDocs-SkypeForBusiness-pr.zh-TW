@@ -16,12 +16,12 @@ f1.keywords:
 description: 針對直接路由設定本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53f9156b6ab6d33223c9b1d3e11a604ba0c1c31
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: ecbbb4f01267265f9f1041e7d51652d063ced353
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121603"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576985"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>針對直接路由設定本機媒體優化
 
@@ -31,8 +31,8 @@ ms.locfileid: "45121603"
 
 若要設定本機媒體優化，必須執行下列步驟。 您可以使用 [團隊系統管理中心] 或 [PowerShell]。 如需詳細資訊，請參閱[管理您的網路拓撲](manage-your-network-topology.md)。
 
-1. 設定使用者和 SBC 網站（如本文所述）。
-2. 針對本機媒體優化設定 SBCs （視您的 SBC 供應商規格而有所不同）。
+1. 如本文所述，設定使用者和 SBC 網站 (，請參閱) 。
+2. 根據您的 SBC 供應商規格) ，設定本機媒體優化 (的 SBCs。
 
 下圖顯示本文範例中所用的網路設定。
 
@@ -47,17 +47,17 @@ ms.locfileid: "45121603"
 
 2. 您可以設定網路區域、網路網站和網路子網，以[定義網路拓撲](#define-the-network-topology)。
 
-3. 將 SBC （s）指派給具有相關模式和 proxy SBC 值的網站，以[定義虛擬網路拓撲](#define-the-virtual-network-topology)。
+3. 將 SBC (s) 指派給網站 (s) ，並以相關的模式與 proxy SBC 值來[定義虛擬網路拓撲](#define-the-virtual-network-topology)。
 
 
-## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根據 SBC 廠商的規格，設定用於本機媒體優化的 SBC （s）
+## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根據 SBC 廠商的規格，設定用於本機媒體優化的 SBC (s) 
 
 本文將說明 Microsoft 元件的配置。 如需 SBC 設定的相關資訊，請參閱您的 SBC 供應商檔。
 
 下列 SBC 廠商支援本機媒體優化：
 
 | 那裡 | 產品 |    軟體版本 |
-|:------------|:-------|:-------| :-------|
+|:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20 （256） | 
 |            |  Mediant 800 SBC |   7.20 （256） | 
 |            |  Mediant 2600 SBC |  7.20 （256） | 
@@ -71,7 +71,9 @@ ms.locfileid: "45121603"
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [功能區 SBC 邊緣](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 （組建239） |
+| [功能區 SBC 邊緣](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
 | [TE-系統](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
 | [聯手](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |
@@ -105,7 +107,7 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 本節說明如何為您的網路拓撲定義網路區域、網路網站和網路子網。
 
-所有參數都是區分大小寫的，因此您必須確保您使用的是在安裝期間使用的相同大小寫。  （例如，GatewaySiteID 值 "越南" 和 "越南" 將會被視為不同的網站）。
+所有參數都是區分大小寫的，因此您必須確保您使用的是在安裝期間使用的相同大小寫。   (例如，GatewaySiteID 值 "越南" 和 "越南" 將會被視為不同的網站。 ) 
 
 ### <a name="define-network-regions"></a>定義網路區域
 
@@ -163,10 +165,10 @@ PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -M
 ```
 
 請注意下列事項： 
-   - 如果客戶只有一個 SBC，則-ProxySBC 參數必須是強制性 $null 或 SBC FQDN 值（集中 trunks 案例的中央 SBC）。
+   - 如果客戶擁有單一 SBC，則 ProxySBC 參數必須是強制性 $null 或 SBC FQDN 值， (中央 SBC 與集中式 trunks 案例) 。
    - -MediaBypass 參數必須設定為 $true，才能支援本機媒體優化。
    - 如果 SBC 沒有 BypassMode 參數集，則不會傳送 X MS 標頭。 
-   - 所有參數都區分大小寫，因此您需要確保您使用的是在安裝期間使用的相同大小寫。  （例如，GatewaySiteID 值 "越南" 和 "越南" 將會被視為不同的網站）。
+   - 所有參數都區分大小寫，因此您需要確保您使用的是在安裝期間使用的相同大小寫。   (例如，GatewaySiteID 值 "越南" 和 "越南" 將會被視為不同的網站。 ) 
 
 下列範例會將三個 SBCs 新增到 [APAC] 區域中的 [越南]、[印尼] 和 [新加坡]，且模式總是略過：
 
@@ -178,7 +180,7 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-注意：若要確保在同時設定本機媒體優化和位置式路由（LBR）時不間斷的操作，必須針對每個下游 SBC 將 GatewaySiteLbrEnabled 參數設定為 $true，才能啟用下游 SBCs LBR。 （Proxy SBC 不強制此設定）。
+注意：若要確保不間斷的作業在本機媒體優化和位置式路由 (LBR) 同時進行設定，必須先將 GatewaySiteLbrEnabled 參數設定 $true 為 LBR 每個下游 SBC，才能啟用下游 SBCs。  (對於 proxy SBC 而言，此設定不是強制性的。 ) 
 
 根據上述資訊，直接路由會包含三個專有的 SIP 標頭至 SIP 邀請和重新邀請，如下表所示。
 
@@ -211,7 +213,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 下表顯示範例中使用的 FQDN 和 IP 位址：
 
-| 稱 | SBC 外部 IP 位址 | SBC 內部 IP 位址 | 內部子網 | 位置 | 外部 NAT （信任的 IP） |
+| 稱 | SBC 外部 IP 位址 | SBC 內部 IP 位址 | 內部子網 | 位置 | 外部 NAT (信任的 IP)  |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | VNsbc.contoso.com | 無 | 192.168.1.5 | 192.168.1.0/24 | 越南 | 172.16.240.110 |
 | IDsbc.contoso.com | 無 | 192.168.2.5 | 192.168.2.0/24 | 印尼 | 172.16.240.120 |
@@ -229,7 +231,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 | 使用者物理位置| 使用者撥打或接聽電話號碼 | 使用者電話號碼  | 線上語音路由策略 | 針對 SBC 設定的模式 |
 |:------------|:-------|:-------|:-------|:-------|
-| 越南 | + 84 4 3926 3000 | + 84 4 5555 5555   | 優先順序1： ^ \+ 84 （\d {9} ） $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com   | VNsbc.contoso.com –總是略過 <br> proxysbc.contoso.com –總是略過
+| 越南 | + 84 4 3926 3000 | + 84 4 5555 5555   | 優先順序1： ^ \+ 84 ( \d {9}) $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com   | VNsbc.contoso.com –總是略過 <br> proxysbc.contoso.com –總是略過
 
 
 下圖顯示使用 [永遠繞過] 模式進行出站通話的 SIP 階梯，以及使用者與 SBC 位於相同位置的情況。
@@ -253,7 +255,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 | AlwaysBypass |    內部 | 與 SBC 相同的網站 | 進貨 |
 
 
-在撥入通話中，使用者的位置未知，而且 SBC 必須猜使用者在哪裡。 如果 guess 不正確，就需要重新邀請。 這個案例假設使用者是內部使用者，媒體可以直接流向，而且不需要進一步的動作（重新邀請）。
+在撥入通話中，使用者的位置未知，而且 SBC 必須猜使用者在哪裡。 如果 guess 不正確，就需要重新邀請。 這個案例假設使用者是 internal，媒體可以直接流向，不需要進一步的動作 (重新邀請) 。
 透過提供 Record 路由和連絡人欄位，連線至直接路由服務的 SBC 會報告原始的 SBC 位置。 根據這些欄位，媒體路徑是透過直接路由來計算。
 
 注意：假設使用者可以有多個端點，就不可能支援183。 在這種情況下，直接路由將永遠使用180鈴聲。 
@@ -288,7 +290,7 @@ AlwaysBypass |  外來 |  不適用 | 發 |
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |  外來 |  不適用 |   進貨 |
 
-如果是撥入通話，則連接至直接路由的 SBC 必須傳送重新邀請（預設會提供本機媒體候選人）（如果使用者是外部的位置）。  X-MediaPath 是根據記錄路由與指定的 SBC 使用者來計算。
+在撥入通話中，連接至直接路由的 SBC 必須傳送重新邀請 (預設情況下，如果使用者是外部的位置，就會提供本機媒體候選) 。  X-MediaPath 是根據記錄路由與指定的 SBC 使用者來計算。
 
 下圖顯示使用 AlwaysBypass 模式的入站呼叫的 SIP 階梯，且使用者是外部的。
 
@@ -310,7 +312,7 @@ AlwaysBypass |  外來 |  不適用 |   進貨 |
 
 | 使用者物理位置 |  使用者撥打或接聽電話號碼 |  使用者電話號碼 | 線上語音路由策略 |   針對 SBC 設定的模式 |
 |:------------|:-------|:-------|:-------|:-------|
-| 越南 | + 84 4 3926 3000 |  + 84 4 5555 5555 | 優先順序1： ^ \+ 84 （\d {9} ） $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com-Always 旁路 |
+| 越南 | + 84 4 3926 3000 |  + 84 4 5555 5555 | 優先順序1： ^ \+ 84 ( \d {9}) $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com-Always 旁路 |
 
 #### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>呼出通話，且使用者與 SBC 在相同的位置，且僅適用于本機使用者
 

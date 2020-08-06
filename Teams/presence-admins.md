@@ -17,16 +17,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 249fbd646cf6c01f282fe73b28e9d02ec48db90b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c31439485f245b522a55c2e5e1134ca6cdddbdf7
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665975"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572348"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
-目前狀態是 Microsoft 團隊（以及整個 Microsoft 365 或 Office 365）中使用者設定檔的一部分，指出使用者目前的可用性與其他使用者的狀態。 依預設，貴組織中任何有使用 Teams 的人都可以 (幾乎即時) 查看其他使用者是否在線上。
+[目前狀態] 是 Microsoft 團隊中的使用者設定檔的一部分 (與整個 Microsoft 365 或 Office 365) ，可指出使用者目前的可用性與其他使用者的狀態。 依預設，貴組織中任何有使用 Teams 的人都可以 (幾乎即時) 查看其他使用者是否在線上。
 
 Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 目前狀態。
 
@@ -53,7 +53,7 @@ Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 
 || ![紫色圓圈加箭號，表示外出](media/Presence_OOF.png) 外出|
 |||
 
-App 設定的目前狀態是以使用者活動（可用、離開）、Outlook 行事曆狀態（在會議中）或團隊 app 狀態（在通話中）為基礎。
+App 設定的目前狀態是以使用者活動 (提供，離開) ，Outlook 行事曆狀態 (在會議) 中，或團隊 app 的狀態 (在通話中，提出) 。 請注意，當您是以您的行事曆為基礎的焦點模式時，焦點會是連絡人在 Teans 中看到的狀態，但會在其他產品中顯示為 [請勿打擾]。
 
 當您鎖定電腦或進入 [空閒] 或 [睡眠] 模式時，您的目前狀態會變更為 [離開]。 在行動裝置上，當團隊 app 位於背景時，您的目前狀態會變更為 [離開]。
 

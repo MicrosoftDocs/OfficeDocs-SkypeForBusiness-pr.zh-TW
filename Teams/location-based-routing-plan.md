@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552271"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572238"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
@@ -35,7 +35,7 @@ ms.locfileid: "46552271"
 - [啟用直接路由的依位置路由](location-based-routing-enable.md)
 
 > [!NOTE]
-> Microsoft 365 政府社區雲端 (GCC) 高部署中不提供以位置為基礎的路由。
+> Microsoft 365 政府社區雲端 (GCC) 高或 DoD 部署中，不提供以位置為基礎的路由。
 
 位置式路由是一項功能，可讓您根據原則與使用者在輸入或輸出 PSTN 通話時的地理位置來限制付費旁路。 以位置為基礎的路由，旨在提供防止避開長途電話的機制。 它不應該用來做為根據使用者位置或非預期後果動態路由 PSTN 呼叫的機制。
 
