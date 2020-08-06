@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 1508305fbc1d45caff9306dd5afb01d587df030b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229139"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552281"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
@@ -81,7 +81,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 您可以關閉使用者安裝試用版應用程式和服務的功能，即可防止使用者執行 Teams Exploratory 體驗。 
 
-1. 從 Microsoft 365 系統管理中心，移至 [設定]****  >  [設定]****，選取 [服務]****，然後選取 [使用者所擁有的應用程式與服務]****。
+1. 從 [Microsoft 365 系統管理中心]，移至 **[設定]** > **[組織設定]**、選取 **[服務]**，然後選取 **[使用者所擁有的應用程式與服務]**。
 
     ![系統管理中心的 [服務] 頁面的螢幕擷取畫面](media/iw-trial-services.png)
 
@@ -169,4 +169,3 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 對於沒有周年紀念日或每年續約日期的合約，在第一位使用者啟用 Microsoft Teams Exploratory 體驗授權後的第二年將被視為周年紀念日或續約日期。 根據上述原則，必須在每年的該日期之前將擁有 Microsoft Teams Explorator 授權的使用者轉換為付費授權。
 
 例如，如果第一位使用者在 2020 年 6 月 19 日啟用了 Microsoft Teams Exploratory，則他們和客戶租用戶中的所有其他合格使用者必須在 2021 年 6 月 19 日之前轉換為 Teams 的付費授權。 
-

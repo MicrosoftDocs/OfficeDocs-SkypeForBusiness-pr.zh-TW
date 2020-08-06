@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 9f541eb0bd6970a54bad5272a26ec3a3449d2a13
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868680"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552629"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams 商業雲端試用版方案
 =======================================================
@@ -81,7 +81,7 @@ Teams 試用版旨在由個別使用者起始，因此您可能無法代表使�
 
 您可以關閉使用者安裝試用版應用程式和服務的功能。
 
-1. 從 [Microsoft 365 系統管理中心][](https://portal.office.com/adminportal/home)，移至 [設定]****  >  [設定]****、選取 [服務]****，然後選取 [使用者所擁有的應用程式與服務]****。
+1. 從 [[Microsoft 365 系統管理中心]](https://portal.office.com/adminportal/home)，移至 **[設定]** > **[組織設定]**、選取 **[服務]**，然後選取 **[使用者所擁有的應用程式與服務]**。
 
     ![系統管理中心的 [服務] 頁面的螢幕擷取畫面](media/iw-trial-services.png)
 
