@@ -5,15 +5,15 @@ metadata:
   title: Microsoft Teams 導學型訓練
   description: 了解如何註冊免費、即時且由講師帶領的訓練課程，以全面了解 Microsoft Teams。
   ms.topic: hub-page
-  author: lolajacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 11b6a79428b957680c5a931f062e44f605a6d54c
-  ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+  ms.openlocfilehash: 25fdc132256907e2393ac7a162ea1e1726b998c2
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/31/2020
-  ms.locfileid: "46534082"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583662"
 highlightedContent:
   items:
   - title: 團隊知識檢查
@@ -26,37 +26,37 @@ productDirectory:
   items:
   - title: 向 Microsoft Teams 打聲招呼
     imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
-    summary: 什麼是 Microsoft Teams？ 加入我們的 30 分鐘導覽，探索 Teams 為何，並查看其實際的運作方式。 （物件：全部）
+    summary: '什麼是 Microsoft Teams？ 加入我們的 30 分鐘導覽，探索 Teams 為何，並查看其實際的運作方式。  (物件：所有) '
     url: https://aka.ms/SayhelloTeams
   - title: 開始使用 Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 從聊天和會議到使用小組和頻道，使用者都將離開本次工作階段，帶有滿懷信心使用 Teams 的基礎。 （物件：最終使用者）
+    summary: '從聊天和會議到使用小組和頻道，使用者都將離開本次工作階段，帶有滿懷信心使用 Teams 的基礎。  (物件：結束使用者) '
     url: https://aka.ms/GetstartedwithMSTeams
   - title: 透過 Teams 進行有效會議
     imageSrc: https://docs.microsoft.com/office/media/icons/tasks-teams.svg
-    summary: 了解如何利用 Teams 來進行會議前、中、後的體驗。 （物件：最終使用者）
+    summary: '了解如何利用 Teams 來進行會議前、中、後的體驗。  (物件：結束使用者) '
     url: https://aka.ms/RunmeetingsTeams
   - title: 探索 Teams 中的團隊和頻道
     imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    summary: 了解您如何簡化專案和工作群組共同作業。 （物件：最終使用者）
+    summary: '了解您如何簡化專案和工作群組共同作業。  (物件：結束使用者) '
     url: https://aka.ms/TeamsandchannelsinTeams
   - title: 了解如何使用 Teams 中的應用程式
     imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
-    summary: " 了解如何透過應用程式促進團隊合作。 （物件：最終使用者）"
+    summary: " 了解如何透過應用程式促進團隊合作。  (物件：結束使用者) "
     url: https://aka.ms/IntegrateappsinTeams
   - title: 了解使用 Teams 全面提升的方式
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
-    summary: 了解在日常工作中最佳化和組織 Teams 的創意方法。 （物件：最終使用者）
+    summary: '了解在日常工作中最佳化和組織 Teams 的創意方法。  (物件：結束使用者) '
     url: https://aka.ms/GodeeperwithTeams
   - title: Teams 教育版 - 網路演討會
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 了解在高等教育中如何使用 Teams。 （物件：員工、學生、學術界、研究教職員、IT 專業人員）
+    summary: '了解在高等教育中如何使用 Teams。  (物件：員工、學生、學術界、研究教職員、IT 專業人員) '
     url: https://aka.ms/TeamsEduWebinars
   - title: 精通使用 Teams 在家工作
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: " 新增！ 了解與團隊保持連絡並保有生產力的最佳做法。 （物件：最終使用者、團隊和部門經理）"
+    summary: " 新增！ 了解與團隊保持連絡並保有生產力的最佳做法。  (物件：最終使用者、團隊和部門經理) "
     url: https://aka.ms/WorkathomewithTeams
   - title: 升級規劃研討會
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 規劃並實施成功的小組升級。 （物件： IT 專業人員、採納變更管理員）
+    summary: '規劃並實施成功的小組升級。  (物件： IT 專業人員、採用變更管理員) '
     url: /MicrosoftTeams/upgrade-workshops-landing-page

@@ -7,8 +7,8 @@ metadata:
   description: 專為 IT 專業人員和決策者設計而設計，可提供獨特的機會來掌握最佳做法，以及小組中一些最受歡迎且引人注目的案例的實際指導方針。 透過行業專家的協助工具，這些線上互動式研討會將可與您深入瞭解，以增強您的團隊實現，並為使用者提供額外的價值。 按一下下列任何討論會標題，即可查看可用的日期和時間，並立即註冊！ 按一下任何要註冊的討論會標題。
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 06/17/2020
   ms.reviewer: nsuter
@@ -25,12 +25,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902321"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583462"
 productDirectory:
   items:
   - title: 取得團隊-從零到生產

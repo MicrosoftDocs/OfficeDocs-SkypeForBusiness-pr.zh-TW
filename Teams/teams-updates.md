@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊內容更新
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,15 +18,15 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d8c037be9b1aa55d97e39fc5821d6a4ad87ffaf
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d2094761fbf58bbb084457fb5a75380883d09256
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905627"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583802"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="735b5-103">Microsoft 團隊內容更新</span><span class="sxs-lookup"><span data-stu-id="735b5-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="862f7-103">Microsoft 團隊內容更新</span><span class="sxs-lookup"><span data-stu-id="862f7-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="735b5-104">本主題列出最近變更的 Microsoft 團隊主題。</span><span class="sxs-lookup"><span data-stu-id="735b5-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="862f7-104">本主題列出最近變更的 Microsoft 團隊主題。</span><span class="sxs-lookup"><span data-stu-id="862f7-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

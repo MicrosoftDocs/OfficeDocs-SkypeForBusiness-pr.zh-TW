@@ -7,8 +7,8 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: lolaj
-  author: LolaJacobsen
+  ms.author: serdars
+  author: SerdarSoysal
   ms.reviewer: shalenc
   manager: serdars
   ms.service: msteams
@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: b3b2deccbe49b5fa54ab9825a0d66b74e61917ec
-  ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+  ms.openlocfilehash: b23b4eaa363a0a2d43c911fd0909c99d77a2cd35
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/15/2020
-  ms.locfileid: "45137913"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46582450"
 items:
 - durationInMinutes: 1
   content: >
@@ -70,25 +70,25 @@ items:
     若要向我們的小組提供產品意見反應（例如新功能的想法），請造訪[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
 - title: 團隊中的會議
   durationInMinutes: 16
-  content: "\n若要瞭解團隊中的會議，請參閱下列內容：\n-   [會議和通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)中的「有會議」（估計閱讀時間6分鐘）\n\n-   [[立即開會](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)] 影片（1:45 分鐘）\n\n-   已[排程的會議](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)影片（1:45 分鐘）\n\n-   [與 Microsoft 團隊見面](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)以瞭解會議大廳、匿名加入會議以及其他（估計閱讀時間6分鐘）的9個秘訣\n"
+  content: "\n若要瞭解團隊中的會議，請參閱下列內容：\n-   會議中的「有會議」[和通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (估計的閱讀時間6分鐘) \n\n-   [[立即開會](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)] 影片 (1:45 分鐘) \n\n-   [[排程會議](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)] 影片 (1:45 分鐘) \n\n-   [與 Microsoft 團隊見面](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)以瞭解會議大廳、匿名加入會議，以及 (估計閱讀時間6分鐘的9個秘訣) \n"
 - title: 案例-會議類型
   durationInMinutes: 1
   content: "\n他們適用于 Contoso （擁有多個辦公室的公司）。 他們需要定期連線至其他辦公室位置中的人員：\n\n-  他的專案小組每週一次都要達到一小時的時間。 因為他們已在 Microsoft 團隊中擁有專用的頻道，所以他們會排程「通道會議」以進行定期同步處理。這對他們和其小組有多項好處：\n   -   團隊的所有成員都會自動受到邀請。\n   -   在會議之前、期間或之後的任何會議相關討論，都屬於 [頻道討論] 的一部分。\n   -   小組成員的所有人都能看到會議及討論。\n   -   開啟會議和即時活動的即時輔助字幕。 此外，他們也會開啟 [即時事件] 中的字幕。 這些功能會提高包容性、生產力和理解力。\n-   他們也需要與個別人同步，但不希望其他人看到這些會議。 針對這些用途，他們會安排「私人會議」。\n    私人會議可讓他們在會議召開前開始聊天。 此會議準備工作可讓會議變得更有效率，因為他們可以預先分享資料，或與重要的小組成員討論議程。 在會議期間，您也可以使用相同的聊天功能來捕獲筆記，此後就能在任何後續追蹤中使用。\n-   有時候，小組在他們的頻道中有 lively 討論，而他們需要他們來進行快速決策。 他決定在每個人都輸入的同時，視頻通話可能是更有效率的溝通方式。 在這種情況下，他們在目前交談中選取 [**立即開會**]，即可安排零星會議。\n\n在團隊中，會議召集人可以結束所有會議參與者的會議。 這在以下案例中很有用：\n\n-   在課程完成後，教育者可以確保學生不會繼續會議 unsupervised。\n-   對於錄製的會議（例如網路研討會），會議召集人可以確保錄製在會議結束時結束。\n\n例如，當會議完成時，他們可以在小組中的會議中按一下 [**結束會議**]，以結束會議並移除所有參與者。\n"
 - title: 會議用戶端
   durationInMinutes: 5
-  content: "\n您可以從各種不同的用戶端加入會議。 查看[Microsoft 團隊的 [取得用戶端](https://docs.microsoft.com/MicrosoftTeams/get-clients)] （估計讀取時間為3分鐘），瞭解哪些平臺團隊可供使用。\n\n此外，您也可以使用音訊會議，透過撥入會議或從會議撥出，參與者來從一般手機加入會議。\n有關音訊會議的詳細資料將在專門訓練中講述。\n\n在 Windows 版 Outlook 中，您可以使用增益集直接從您的行事曆排程會議。 複習[在 Outlook 中使用 [團隊會議] 增益集](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)（估計閱讀時間為2分鐘）。\n"
+  content: "\n您可以從各種不同的用戶端加入會議。 審閱 [[取得 Microsoft 團隊的用戶端](https://docs.microsoft.com/MicrosoftTeams/get-clients)] (估計的閱讀時間3分鐘，) 瞭解哪些平臺團隊可供使用。\n\n此外，您也可以使用音訊會議，透過撥入會議或從會議撥出，參與者來從一般手機加入會議。\n有關音訊會議的詳細資料將在專門訓練中講述。\n\n在 Windows 版 Outlook 中，您可以使用增益集直接從您的行事曆排程會議。 [請參閱在 Outlook 中使用團隊會議增益集](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook) (估計的閱讀時間2分鐘) 。\n"
 - title: 會議的需求和考慮
   durationInMinutes: 4
-  content: "\n### <a name=\"licensing\"></a>授權\n雖然您可以在沒有任何額外授權的情況下舉行會議，但您只需要 Microsoft 團隊的授權，有些案例則需要額外的授權。\n\n[音訊會議] 可讓參與者從一般手機加入團隊會議，需要額外的授權。 我們將在專門訓練音訊會議中解決這個問題。\n\n如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>頻寬與媒體流程\n在團隊中，有兩種方式可以啟動即時通訊：\n-   使用者可以直接呼叫其他使用者\n-   使用者可以為通話、媒體（音訊、影片或桌面或應用程式共用）建立會議（臨時或排程），盡可能地直接傳播。 例如，如果兩個使用者之間沒有防火牆（例如，兩者都在同一個網路內），媒體流量會直接從一個使用者傳送到另一個使用者。 如果防火牆封鎖使用者之間的直接流量，流量會透過中繼傳送。\n\n對於會議，所有流量都會先傳送給駐留在 Office 365 的會議服務。 音訊流量會在那裡收集並混合，然後再傳送回去;系統會接收並散佈視頻流量及應用程式或桌面共用給出席者。\n\n<strong>重要!</strong>\n在 COVID-19 疫情爆發期間，我們建議使用者按一下 [加入 Teams 會議]<strong></strong> 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]<strong></strong> 來加入會議。 這主要是因為受到 COVID-19 影響的國家/地區電話語音架構擁塞。 透過避免 PSTN 通話，您可能會遇到較好的音訊品質。 \n\n在此訓練中不涉及規劃頻寬，但對使用者經驗而言，這將是非常重要的。\n\n如需詳細資訊，請參閱為[團隊準備貴組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)。\n\n### <a name=\"exchange-dependencies\"></a>Exchange 相依性\n\n針對使用 Exchange Server 內部部署的客戶，可能會在建立和查看團隊用戶端的會議時，也可能會有一些限制，但在遵守合規性時也會發生這種情況。\n查看[Exchange 與 Microsoft 團隊如何互動](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)（估計讀取時間為3分鐘），以瞭解可能的限制。\n\n### <a name=\"end-meetings-for-all-participants\"></a>針對所有參與者結束會議\n\n會議召集人可以在會議中按一下 [**結束會議**]，結束所有參與者的會議。 這在下列情況下很有用：\n-   在課程完成後，教育者可以確保學生不會繼續會議 unsupervised。\n-   對於錄製的會議（例如網路研討會），會議召集人可以確保錄製在會議結束時結束。  \n\n若要深入瞭解，請參閱[結束參與中每個人的團隊會議](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971)。\n\n### <a name=\"change-participant-settings-for-a-meeting\"></a>變更會議的參與者設定\n\n會議召集人可以在**會議選項**中變更特定會議的預設參與者設定。 有三種方法可取得此功能：\n-   移至 [小組] 中的行事曆，選取會議，然後選取 [**會議選項**]。 \n-   在會議邀請中，選取 [**會議選項**]。\n-   選取 [**顯示參與者**] 以開啟 [**人員**] 窗格，然後選取 [**管理許可權**]。 \n\n若要深入瞭解，請參閱[變更團隊會議的參與者設定](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。\n"
+  content: "\n### <a name=\"licensing\"></a>授權\n雖然您可以在沒有任何額外授權的情況下舉行會議，但您只需要 Microsoft 團隊的授權，有些案例則需要額外的授權。\n\n[音訊會議] 可讓參與者從一般手機加入團隊會議，需要額外的授權。 我們將在專門訓練音訊會議中解決這個問題。\n\n如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>頻寬與媒體流程\n在團隊中，有兩種方式可以啟動即時通訊：\n-   使用者可以直接呼叫其他使用者\n-   使用者可以在通話中建立會議 (ad hoc 或預定) ，媒體 (音訊、影片或桌面或應用程式共用) 盡可能直接地進行傳播。 例如，如果兩個使用者之間沒有防火牆 (例如，兩個使用者都在同一個網路) ，則媒體流量會直接從一個使用者傳送到另一個使用者。 如果防火牆封鎖使用者之間的直接流量，流量會透過中繼傳送。\n\n對於會議，所有流量都會先傳送給駐留在 Office 365 的會議服務。 音訊流量會在那裡收集並混合，然後再傳送回去;系統會接收並散佈視頻流量及應用程式或桌面共用給出席者。\n\n<strong>重要!</strong>\n在 COVID-19 疫情爆發期間，我們建議使用者按一下 [加入 Teams 會議]<strong></strong> 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]<strong></strong> 來加入會議。 這主要是因為受到 COVID-19 影響的國家/地區電話語音架構擁塞。 透過避免 PSTN 通話，您可能會遇到較好的音訊品質。 \n\n在此訓練中不涉及規劃頻寬，但對使用者經驗而言，這將是非常重要的。\n\n如需詳細資訊，請參閱為[團隊準備貴組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)。\n\n### <a name=\"exchange-dependencies\"></a>Exchange 相依性\n\n針對使用 Exchange Server 內部部署的客戶，視 Exchange) Server 的版本而定，您可能 (會在建立及查看團隊用戶端的會議時，以及在合規性方面的情況下，有一些限制。\n查看[Exchange 與 Microsoft 團隊如何](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)將 (估計的閱讀時間（3分鐘）) 的互動，以瞭解可能的限制。\n\n### <a name=\"end-meetings-for-all-participants\"></a>針對所有參與者結束會議\n\n會議召集人可以在會議中按一下 [**結束會議**]，結束所有參與者的會議。 這在下列情況下很有用：\n-   在課程完成後，教育者可以確保學生不會繼續會議 unsupervised。\n-   對於錄製的會議（例如網路研討會），會議召集人可以確保錄製在會議結束時結束。  \n\n若要深入瞭解，請參閱[結束參與中每個人的團隊會議](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971)。\n\n### <a name=\"change-participant-settings-for-a-meeting\"></a>變更會議的參與者設定\n\n會議召集人可以在**會議選項**中變更特定會議的預設參與者設定。 有三種方法可取得此功能：\n-   移至 [小組] 中的行事曆，選取會議，然後選取 [**會議選項**]。 \n-   在會議邀請中，選取 [**會議選項**]。\n-   選取 [**顯示參與者**] 以開啟 [**人員**] 窗格，然後選取 [**管理許可權**]。 \n\n若要深入瞭解，請參閱[變更團隊會議的參與者設定](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。\n"
 - title: 會議配置選項
   durationInMinutes: 20
-  content: "\n做為 IT 系統管理員，您可以設定會議原則和設定來定義會議體驗。\n\n### <a name=\"meeting-policies\"></a>會議原則\n\n使用團隊會議原則來控制會議參與者對於由您組織中的使用者排程之會議所提供的功能。 若要深入瞭解，請參閱[管理團隊中的會議原則](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)（估計閱讀時間16分鐘）。 \n\n### <a name=\"meeting-settings\"></a>會議設定\n\n使用 [團隊會議] 設定來控制匿名使用者是否可以加入團隊會議、自訂會議邀請，以及如果您想要啟用服務品質（QoS），請設定即時流量的埠範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 若要深入瞭解，請參閱[在團隊中管理會議設定](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)。\n（估計時間閱讀時間4分鐘）。\n"
+  content: "\n做為 IT 系統管理員，您可以設定會議原則和設定來定義會議體驗。\n\n### <a name=\"meeting-policies\"></a>會議原則\n\n使用團隊會議原則來控制會議參與者對於由您組織中的使用者排程之會議所提供的功能。 若要深入瞭解，請參閱[在團隊中管理會議原則](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams) (估計的閱讀時間為16分鐘) 。 \n\n### <a name=\"meeting-settings\"></a>會議設定\n\n使用 [團隊會議] 設定來控制匿名使用者是否可以加入團隊會議、自訂會議邀請，以及如果您想要啟用服務品質 (QoS) ，請設定即時流量的埠範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 若要深入瞭解，請參閱[在團隊中管理會議設定](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)。\n (估計的時間閱讀時間) 。\n"
 - title: 練習-設定會議
   durationInMinutes: 20
-  content: "\n在這個練習中，您將有機會在小組中測試會議。 雖然我們並不說明如何執行每個動作，但我們建議您嘗試一些案例。\n\n### <a name=\"requirements\"></a>需求\n-   具備適當授權才能使用小組的 Office 365 組織\n    -   我們強烈建議您使用專用的測試租使用者。\n    -   如果您沒有測試租使用者，您可以在[Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)註冊試用租使用者。\n    -   不要在您的生產環境中執行任何測試。 變更設定或原則可能會對所有使用者造成負面影響，且可能會影響使用者的使用體驗。\n-   至少兩個端點\n   -   這可以是兩台電腦，但是您也可以在您的行動電話上使用用戶端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議的測試案例\n-   在團隊用戶端中排定不同的會議類型：頻道會議、即席會議、私人會議。\n-   使用[Outlook 增益集](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)排程會議。\n-   針對排程的會議，在會議開始前開始聊天（例如討論議程）。\n-   加入會議並測試不同的案例和工作負載：例如，音訊、影片、桌面共用。\n-   不需登入您的租使用者就能從瀏覽器加入會議（您可能會想要使用「InPrivate」流覽）來查看它要匿名加入會議的內容。\n-   登入 Microsoft 團隊系統管理中心並變更某些會議設定（例如，停用私人會議的排程）。 這對使用者體驗有何影響？\n-   在會議召集人中，為所有參與者結束會議。    \n"
+  content: "\n在這個練習中，您將有機會在小組中測試會議。 雖然我們並不說明如何執行每個動作，但我們建議您嘗試一些案例。\n\n### <a name=\"requirements\"></a>需求\n-   具備適當授權才能使用小組的 Office 365 組織\n    -   我們強烈建議您使用專用的測試租使用者。\n    -   如果您沒有測試租使用者，您可以在[Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)註冊試用租使用者。\n    -   不要在您的生產環境中執行任何測試。 變更設定或原則可能會對所有使用者造成負面影響，且可能會影響使用者的使用體驗。\n-   至少兩個端點\n   -   這可以是兩台電腦，但是您也可以在您的行動電話上使用用戶端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議的測試案例\n-   在團隊用戶端中排定不同的會議類型：頻道會議、即席會議、私人會議。\n-   使用[Outlook 增益集](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)排程會議。\n-   對於排程的會議，請在會議開始之前啟動聊天 (，以討論議程，例如) 。\n-   加入會議並測試不同的案例和工作負載：例如，音訊、影片、桌面共用。\n-   不需登入您的租使用者就能從瀏覽器加入會議 (您可能會想要使用「InPrivate」流覽) 來查看它是匿名加入會議。\n-   登入 Microsoft 團隊系統管理中心並變更某些會議設定 (例如，停用私人會議的排程) 。 這對使用者體驗有何影響？\n-   在會議召集人中，為所有參與者結束會議。    \n"
 - title: 報告
   durationInMinutes: 2
-  content: "\n從報表的觀點來看，有兩個區域可供查看：\n-   使用量：有多少會議發生？\n-   品質：會議品質為何？\n\n您應該小心地監視這兩個區域：\n-   [低使用量] 表示使用者，出於其中一個原因，或另一個無法使用該產品。 您只能透過進行其他調查來判斷原因。 原因可能是從認識到會議的使用者需求不短，或因品質問題所造成的意識或訓練不足。\n-   另一方面，低品質是指使用者與 Office 365 之間的連線性問題。 低品質可能會導致使用者體驗不佳及較低的用法。\n    請參閱系統[管理中心的 microsoft 365 報表-Microsoft 團隊使用者活動](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（估計讀取時間為5分鐘），進一步瞭解使用方式報告。\n\n管理品質超出本訓練的範圍，但請參閱以下訓練資料：\n\n-   如需品質擁護者角色的相關資訊，請參閱[品質擁護者角色](https://docs.microsoft.com/microsoftteams/prepare-network)。\n-   如需通話品質儀表板的相關資訊，請參閱[使用 CQD 調查媒體質量](https://aka.ms/sof-cqd)。\n"
+  content: "\n從報表的觀點來看，有兩個區域可供查看：\n-   使用量：有多少會議發生？\n-   品質：會議品質為何？\n\n您應該小心地監視這兩個區域：\n-   [低使用量] 表示使用者，出於其中一個原因，或另一個無法使用該產品。 您只能透過進行其他調查來判斷原因。 原因可能是從認識到會議的使用者需求不短，或因品質問題所造成的意識或訓練不足。\n-   另一方面，低品質是指使用者與 Office 365 之間的連線性問題。 低品質可能會導致使用者體驗不佳及較低的用法。\n    請參閱系統[管理中心的 microsoft 365 報表-Microsoft 團隊使用者活動](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (估計的閱讀時間（5分鐘）) 進一步瞭解使用方式報告。\n\n管理品質超出本訓練的範圍，但請參閱以下訓練資料：\n\n-   如需品質擁護者角色的相關資訊，請參閱[品質擁護者角色](https://docs.microsoft.com/microsoftteams/prepare-network)。\n-   如需通話品質儀表板的相關資訊，請參閱[使用 CQD 調查媒體質量](https://aka.ms/sof-cqd)。\n"
 - title: 後續步驟
   durationInMinutes: 1
   content: >-
