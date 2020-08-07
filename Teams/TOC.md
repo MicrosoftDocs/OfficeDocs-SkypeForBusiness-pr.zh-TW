@@ -660,6 +660,7 @@
 ### [開始使用適用於醫療保健組織的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [開始使用適用於醫療保健組織的 Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [訊息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [適用於醫療保健的 Teams 原則套件](policy-packages-healthcare.md)
 ### [病患應用程式概觀](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [將電子醫療保健記錄整合至 Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 介面規格](expand-teams-across-your-org/healthcare/dstu2-interface.md)
