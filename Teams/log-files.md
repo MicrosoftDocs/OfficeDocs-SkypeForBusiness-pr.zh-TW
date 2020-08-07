@@ -1,8 +1,8 @@
 ---
 title: 在 Microsoft 團隊的疑難排解中使用記錄檔
 ms.reviewer: tejeshs
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊所產生的調試、媒體和桌面記錄，以及可在哪裡找到這些記錄，以及如何協助疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2303082c4f1c16a28a9116047d904a5d491a535a
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085749"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582106"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在 Microsoft 團隊的疑難排解中使用記錄檔
 =================================================

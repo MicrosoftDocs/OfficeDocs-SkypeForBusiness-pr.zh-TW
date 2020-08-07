@@ -1,7 +1,7 @@
 ---
-title: 通話品質儀表板（CQD）常見問題（FAQ）
-ms.author: lolaj
-author: LolaJacobsen
+title: '通話品質儀表板 (CQD) 常見問題 (常見問題) '
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 閱讀常見問題（FAQ），以及關於 Microsoft 團隊通話品質儀表板（CQD）的解答。
-ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+description: 閱讀常見問題 (常見問題) 以及 Microsoft 團隊通話品質儀表板 (CQD) 的解答。
+ms.openlocfilehash: 8ad0a1745799194ec11284f8f7aaabd76bd30d05
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372122"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584022"
 ---
-# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質儀表板（CQD）常見問題（FAQ）
+# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質儀表板 (CQD) 常見問題 (常見問題) 
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
@@ -50,7 +50,7 @@ ms.locfileid: "45372122"
 
 若要判斷是否為網路問題，請查看會話平均值與最大值之間的差異。 [最大值] 是會話期間檢測到和報告的最大值。
  
-以下是如何針對此情況進行疑難排解的範例。 假設您在通話期間進行網路追蹤，並在前20分鐘內沒有遺失的資料包，但接著您有1.5 秒的資料包，然後就能取得其他通話的差距。 即使在 Wireshark 追蹤 RTP 分析中，平均值也會 <10% （0.1）的資料包遺失。 最大的資料包遺失是什麼？ 5秒期間中的1.5 秒是30% （0.3）。 在五個採樣期間內發生（也許可能是在採樣期間進行分割）嗎？
+以下是如何針對此情況進行疑難排解的範例。 假設您在通話期間進行網路追蹤，並在前20分鐘內沒有遺失的資料包，但接著您有1.5 秒的資料包，然後就能取得其他通話的差距。 平均 <10% (0.1) 資料包遺失，即使是在 Wireshark 追蹤 RTP 分析中也一樣。 最大的資料包遺失是什麼？ 5秒期間中的1.5 秒是 30% (0.3) 。 在五個採樣期間內發生的情況 (可能，或是可以在) 的採樣期間分割？
  
 如果網路躍點數在平均和最大值中看起來很好，請查看其他遙測資料： 
 - 檢查 CPU 不足的事件比率，看看檢測到的 CPU 資源是否不足，並導致品質不佳。 
@@ -76,16 +76,16 @@ ms.locfileid: "45372122"
 
 
 > [!IMPORTANT]
-> 自2020年7月1日起，較舊的 CQD （CQD.lync.com）會使用最新 CQD （CQD 中的資料。Teams.microsoft.com）。 較舊的 CQD 資料已不再提供，而且您無法匯出您的建立或報表資料。 您仍然可以使用 CQD.lync.com （在商務用 Skype 系統管理中心提供），但我們會關閉 CQD.lync.com 的存取權，因此您應該移至 CQD。如果您尚未這麼做，請 Teams.microsoft.com。
+> 從2020年7月1日起，較舊的 CQD (CQD.lync.com) 會使用最新 CQD (CQD 的資料。Teams.microsoft.com [) ]。 較舊的 CQD 資料已不再提供，而且您無法匯出您的建立或報表資料。 您仍然可以在商務用 Skype 系統管理中心) 使用 CQD.lync.com (，但我們會關閉 CQD.lync.com 的存取權，因此您應該移至 CQD。如果您尚未這麼做，請 Teams.microsoft.com。
 
 
-如果您嘗試在舊版 CQD （cqd.lync.com）與來自團隊系統管理中心（cqd.teams.microsoft.com）的最新 CQD 之間進行比較，您會很快發現資料不相符。 這是因為最新的 CQD 會報告許多其他通話案例。 如果您仍在使用較舊 CQD 的報告，請參閱這篇文章以協助您解讀這些報告： [[通話品質] 儀表板（適用于商務用 Skype Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)）。
+如果您嘗試在舊版 CQD 之間進行比較，從商務用 Skype 傳統版入口網站 (cqd.lync.com) ，以及團隊系統管理中心的最新 CQD (cqd.teams.microsoft.com) ，您會很快發現資料不相符。 這是因為最新的 CQD 會報告許多其他通話案例。 如果您仍在使用較舊 CQD 的報告，請參閱這篇文章以協助您解讀這些報告： [[通話品質] 儀表板（適用于商務用 Skype Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)）。
 
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>為什麼在 CQD 中看不到 EUII？
 
-這些系統管理員角色可以存取 CQD，但他們無法查看 EUII （使用者可辨識的資訊）：
+這些系統管理員角色可以存取 CQD，但他們無法)  (的使用者身分識別資訊來查看 EUII：
 - Microsoft 365 報告閱讀程式
 - 團隊溝通支援專家
 
@@ -93,13 +93,13 @@ ms.locfileid: "45372122"
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>為什麼我只針對團隊進行篩選時，我會在 CQD 中看到商務用 Skype 資訊？
 
-如果您只在 CQD 報表（isTeams = 1）中篩選團隊，則會針對*第一個端點*為團隊的所有呼叫進行篩選。 如果*第二個端點*是商務用 Skype，該資訊將會顯示在您的 CQD 報告中。
+當您只在 CQD 報表中篩選團隊時 (isTeams = 1) ，您就會篩選*第一個端點*為「團隊」的所有通話。 如果*第二個端點*是商務用 Skype，該資訊將會顯示在您的 CQD 報告中。
 
 CQDv2 和 CQDv3 的總計數會永遠不同，因為 CQDv3 將會有 CQDv2 沒有的新案例。 這就是比較摘要合計或匯總的全部數位不含篩選的原因，將會有這些預期的差異。  
 
-根據客戶的案例，CQDv3 將會包含 SFB 2019 內部部署呼叫（如果 SFB 2019 與資料連線器搭配使用）、Skype Bot 通話（AA、CVI、VDI）、即時事件和 PSTN 通話。 客戶可以使用的案例/功能，但其資料不會在 CQD V2 中。
+根據客戶的案例，CQDv3 將會包含 SFB 2019 內部部署呼叫 (如果 SFB 2019 與資料連線器) 搭配使用，Skype Bot 會呼叫 (AA、CVI、VDI) 、即時事件和 PSTN 通話。 客戶可以使用的案例/功能，但其資料不會在 CQD V2 中。
 
-例如，預期您的客戶和您會看到200000音訊資料流程，且 CQD V2 摘要報告中出現5000個錯誤。在 CQD V3 中，300000音訊資料流程與5500失敗（來自2019內部部署通話、CVI 通話、PSTN 呼叫等）。
+例如，預期您的客戶和您會看到200000音訊資料流程，且 CQD V2 摘要報告中出現5000個錯誤。5500失敗的300000音訊資料流程 (來自 CQD V3 中的2019內部部署通話、CVI 通話、PSTN 通話) 等等。
 
 若要判斷是否有任何意外的差異，您必須查看整體資料的各種細目。  比較與意向。  依使用者代理類別組對資料進行切分是我們建議的第一件事。  *第一個產品*和*第二個產品*也是良好的交叉分析篩選器。  
 
@@ -110,7 +110,7 @@ CQDv2 和 CQDv3 的總計數會永遠不同，因為 CQDv3 將會有 CQDv2 沒�
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[設定通話品質儀表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[設定通話品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [上傳租使用者及組建資料](CQD-upload-tenant-building-data.md)
 

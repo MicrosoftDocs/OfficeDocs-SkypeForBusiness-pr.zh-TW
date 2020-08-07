@@ -1,7 +1,7 @@
 ---
 title: 常見問題 - 支援遠端員工
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: d1d2f627dd3373fcb4475fba2f7f4c90f6d9003e
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138003"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583472"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 

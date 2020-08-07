@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121643"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584082"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 會議的小組原則錄製簡介
 
@@ -36,11 +36,11 @@ ms.locfileid: "45121643"
 
 - 跨裝置的無縫、高品質媒體捕獲，以及音訊、影片、螢幕共用及聊天的所有支援端點。
 
-- 支援小組使用者與支援的呼叫端點之間的互動捕獲（團隊、團隊行動裝置、商務用 Skype、PSTN）
+- 支援小組使用者之間的互動捕獲，以及支援的呼叫端點 (團隊、團隊行動、商務用 Skype、PSTN) 
 
 - 新的合規性記錄管理原則，包括與現有團隊的整合管理通話與會議工具及原則
 
-- 針對有個別授權的小組使用者啟用
+- 需要[高級通訊授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 相容性錄製解決方案整合功能也會在 Ignite 2019 的[<span class="underline">相容性錄製和 Microsoft 團隊會話</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)中進行審查。
 
@@ -54,11 +54,11 @@ ms.locfileid: "45121643"
 
 |                        | 便利性        | 多功能         | 組織-一般      | 組織管制 | 法律截獲   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
-| 發送              | 使用者               | App/解決方案       | 系統管理員（系統）     | 系統管理員（系統）  | LEA                |
+| 發送              | 使用者               | App/解決方案       | 管理員 (系統)      | 管理員 (系統)   | LEA                |
 | 目標                 | 每次通話/會議 | 每次通話/會議 | 每次通話/會議 | 每位使用者        | 每個端點/已執行 |
-| 儲存擁有者          | 使用者               | 適用                | 管理員              | 從屬      | LEA                |
+| 儲存擁有者          | 使用者               | 適用                | 管理員              | 合規性      | LEA                |
 | 需要通知嗎？ | 是                | 是                | 是                | 是             | 否                 |
-| Access 擁有者           | 使用者               | 適用                | 管理員              | 從屬      | LEA                |
+| Access 擁有者           | 使用者               | 適用                | 管理員              | 合規性      | LEA                |
 | 保留原則？      | 選用           | 是                | 是                | 是             | 是                |
 
 小組提供各種功能，可讓會議與即時事件進行[<span class="underline">便利</span>](https://docs.microsoft.com/microsoftteams/cloud-recording)且正常運作。 組織錄製意味著讓使用團隊進行呼叫與會議 stipulate、使用管理原則進行通話與線上會議時，應依相關的公司或法規原則，自動錄製並捕獲進行後續處理及保留的方式。 此原則下的使用者會發現與小組的數位互動正在錄製，但無法停用錄製，而且在互動完成之後就不能存取錄製。 錄製成為組織封存的一部分，可供電子檔探索、法律封存及其他公司留存用途使用。
@@ -114,7 +114,7 @@ ms.locfileid: "45121643"
 ## <a name="recorder"></a>燒錄
 
 [規範錄製] 解決方案的核心元件是錄影機。
-錄影機是以可伸縮的 Azure 服務（bot）建立的，可[<span class="underline">利用 microsoft 的通訊平臺</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview)，並使用 microsoft Graph 將其註冊為應用程式。 記錄器提供與團隊通話與會議[<span class="underline">通訊平臺 api</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的直接互動，並提供媒體攝取的端點。
+錄影機是以可伸縮式 Azure 服務的方式建立， (機器人) [<span class="underline">利用 microsoft 的通訊平臺</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview)，並以 microsoft Graph 的方式註冊為應用程式。 記錄器提供與團隊通話與會議[<span class="underline">通訊平臺 api</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的直接互動，並提供媒體攝取的端點。
 
 [<span class="underline">提供範例規範記錄器應用程式</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot)，說明如何設定 bot、建立 app 實例並指派合規性原則。 此範例也會提供用於錄製特定互動（例如處理[<span class="underline">撥入電話</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)   路由、[<span class="underline">變更錄製狀態</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)，以及[<span class="underline">移除錄製的使用者</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)）的 API 用法範例。
 您可以在這裡找到適用于[<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http)和[<span class="underline">IncomingCoNtext</span>](https://docs.microsoft.com/graph/api/resources/incomingcontext?view=graph-rest-1.0)的特定 api 的圖形檔。
@@ -194,7 +194,7 @@ IT 管理員可以透過建立並指派合規性錄製原則，來判斷要錄�
 
 **團隊用戶端-視覺通知**
 - 桌面/網頁
-- 行動裝置（iOS/Android）
+- Mobile (iOS/Android) 
 - 團隊手機
 - 團隊聊天室
 

@@ -10,19 +10,22 @@ ms.reviewer: anblak
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 整合式連絡人中心（即 Microsoft 團隊服務（CCaaS）解決方案）的概覽
+description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: 3f553c29d2a18816053c28c57a6f0f78b818825a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143834"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583250"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
 將流行的接觸中心解決方案與 Microsoft 團隊整合，對於部署小組通話功能的客戶來說是一個常見的需求。  本文將說明連絡人中心解決方案如何與 Microsoft 團隊整合，以及參與 Microsoft 團隊連線的連絡人中心認證計畫的合作夥伴解決方案的其他資訊。
+
+> [!NOTE]
+> [接觸中心整合] 功能需要高級通訊授權。 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什麼是 Microsoft 團隊的連絡人中心整合？
 
@@ -34,11 +37,11 @@ ms.locfileid: "45143834"
 
 Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模式（包括聊天、視訊會議和通話）中充當內部和外部客戶連線的中心。 針對某些公司，Microsoft 團隊的[雲端語音功能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)，包括[自動](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)語音應答和[通話佇列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)，提供功能與設定以滿足其需求。
 
-如果您想要使用商務工具和工作流程整合解決方案來驅動客戶歷程，Microsoft 團隊也會與一些業界主要的連絡人中心整合為服務（CCaaS）解決方案提供者。
+對於那些想要整合解決方案與商務工具及工作流程以推動客戶歷程的人，Microsoft 團隊也會與一些業界主要的連絡人中心整合，做為服務 (CCaaS) 解決方案提供者。
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft 團隊認證計畫的線上連絡人中心
 
-除了發佈公開提供的 Api，讓合作夥伴能夠開發及整合團隊的 CCaaS 解決方案，我們已開發出 Microsoft 團隊認證計畫的線上連絡人中心，讓客戶能夠保證其在 Microsoft 解決方案中的品質、相容性與可靠性。
+允許合作夥伴開發及整合團隊 CCaaS 方案的 Api 可提供高級通訊授權。 此外，我們已開發 Microsoft 團隊認證計畫的線上連絡人中心，為客戶提供每個參與合作夥伴的解決方案都經過測試和驗證，以提供他們預期的品質、相容性及可靠性（由 Microsoft 解決方案提供）。
 
 下列合作夥伴正在驗證其 Microsoft 團隊的解決方案，且已準備好參與客戶：
 
@@ -70,11 +73,11 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 總之，這些功能可讓3個整合模型：
 
-  - 連線 **（透過**直接路由）
+  - 透過 [直接路由 **]** 連線 () 
 
-  - 連線**並延伸**（直接路由、圖形 Api 與團隊應用程式平臺）
+  - 連線**並延伸** (直接路由、圖形 Api 與團隊 app 平臺) 
 
-  - **延伸及加電**（將團隊 sdk 嵌入至3P 應用程式以進行原生團隊互動）
+  -  (將團隊 Sdk 內嵌到原生團隊互動的3p 應用程式中 **，延伸及加電**) 
 
 ### <a name="connect"></a>至
 
@@ -92,7 +95,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 來自團隊使用者的目前狀態指示 
 
-  - 透過直接路由呼叫流程（如測試方案中所示） 
+  - 透過 [測試方案] 中的指示，透過直接路由 (通話流程)  
 
   - 支援使用團隊使用者轉移和群組通話 
 
@@ -100,7 +103,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 能夠支援多租使用者 SIP 中繼，以支援合作夥伴的 SBC 中的數個客戶。  
 
-  - 實施[ <span class="underline">Microsoft 認證會話邊界控制器（SBC）</span>的合作夥伴](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 要在 SBC 中實現[ <span class="underline">Microsoft 認證會話邊界控制器 (</span>的合作夥伴) ](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>連接並延伸
 
@@ -206,11 +209,11 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 <tr class="even">
 <td>服務連線能力</td>
 <td>平台<br />
-（通話方案 + DR）</td>
+ (通話方案 + DR) </td>
 <td>直接路由</td>
 <td>直接路由</td>
 <td>平台<br />
-（通話方案 + DR）</td>
+ (通話方案 + DR) </td>
 </tr>
 </tbody>
 </table>

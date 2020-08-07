@@ -1,8 +1,8 @@
 ---
 title: 應答自動回應及呼叫佇列通話
 ms.reviewer: waseemh
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190871"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582820"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 ===========================================================
@@ -33,7 +33,7 @@ ms.locfileid: "43190871"
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什麼是自動語音應答及呼叫佇列？
 
-雲端自動語音應答提供一系列的語音提示或音訊檔案，當來電者撥入組織時，會聽到該語音提示，而不是人工操作員。 自動接聽：可讓呼叫者透過功能表系統、撥打電話或使用語音辨識來尋找使用者（使用電話鍵台（DTMF）或語音輸入。
+雲端自動語音應答提供一系列的語音提示或音訊檔案，當來電者撥入組織時，會聽到該語音提示，而不是人工操作員。 自動接聽：讓呼叫者在功能表系統中移動、撥打電話，或使用電話鍵台 (DTMF) 或使用語音辨識的語音輸入來找出使用者。
 
 雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及搜尋下一個可用的呼叫代理程式，以處理通話，而呼叫者正在聆聽音樂的人員。 您可以為組織建立單一或多個通話佇列。
 
@@ -54,7 +54,7 @@ ms.locfileid: "43190871"
 
 在下列用戶端提供自動語音應答及呼叫佇列呼叫支援：
 
--    Microsoft 團隊 Windows 用戶端（32和64位版本）
+-    Microsoft 團隊 Windows 用戶端 (32 和64位版本) 
 -    Microsoft 團隊 Mac 用戶端
 -    Microsoft 團隊 iPhone 應用程式
 -    Microsoft 團隊 Android 應用程式
@@ -65,7 +65,7 @@ ms.locfileid: "43190871"
 
 ## <a name="related-topics"></a>相關主題
 
--    [什麼是 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+-    [什麼是 Microsoft 365 或 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
 -    [建立雲端通話佇列](create-a-phone-system-call-queue.md)
 -    [什麼是雲端自動語音應答？](what-are-phone-system-auto-attendants.md)
 -    [設定雲端自動語音應答](create-a-phone-system-auto-attendant.md)

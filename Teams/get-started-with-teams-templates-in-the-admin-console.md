@@ -19,16 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26f26e869758c06762167731068033acb1707135
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506391"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583170"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>在團隊管理主控台中開始使用團隊範本
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**EDU 客戶尚不支援自訂範本。**
 
 > [!NOTE]
 > 團隊範本目前不支援建立專用頻道。 範本定義中不包含專用通道建立。
@@ -51,8 +53,8 @@ ms.locfileid: "46506391"
 | 基底範本類型 | 團隊成員資格 |
 | 團隊名稱 | 小組圖片 |
 | 團隊描述 | 頻道設定 |
-| 團隊可見度（公開或私人） | 連接器 |
-| 團隊設定（例如 [成員]、[來賓]、[@ 提及]） | 檔案和內容 |
+| 團隊可視性 (公開或私人)  | 連接器 |
+| 小組設定 (例如 [成員]、[來賓]、[@ 提及])  | 檔案和內容 |
 | 自動常用頻道 | |
 | 已安裝的應用程式 | |
 | 釘選索引標籤 | |
@@ -89,6 +91,6 @@ ms.locfileid: "46506391"
 
 ## <a name="related-topics"></a>相關主題
 
-- [建立小組範本](create-a-team-template.md)
-- [從現有的小組範本建立小組](modify-existing-team-template.md)
-- [從現有團隊建立範本](create-team-from-existing-team.md)
+- [建立自訂團隊範本](create-a-team-template.md)
+- [從現有的小組範本建立小組範本](create-template-from-existing-template.md)
+- [從現有團隊建立範本](create-template-from-existing-team.md)

@@ -1,7 +1,7 @@
 ---
 title: 在 Exchange Online 中將團隊 SMTP 網域新增為允許的寄件者網域
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 description: 瞭解如何將 Microsoft 團隊 SMTP 網域新增為 Exchange Online 中的 [允許的寄件者] 網域，以傳送通知給小組成員。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c60620a10bc5bb0cff37547313731ba214944ffc
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 33605a8250c9cd2bdcec90ade7b3fcea536f8977
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201137"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582050"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>在 Exchange Online 中新增 Microsoft 團隊 SMTP 網域作為允許的寄件者網域 
 =============================================================================

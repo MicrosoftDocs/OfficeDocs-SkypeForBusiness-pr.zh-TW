@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊會議出席情況報告
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,16 +17,16 @@ description: 從內部團隊取得會議出席情況報告。 此報告補充團
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b3c7a5fd0bdee38a40ea2ab78afb8af5fd1c616e
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 7a048b3a334f9a70273c7a1b39f888247dbb9596
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256570"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583782"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft 團隊會議出席情況報告
 
-會議召集人可以查看和下載會議出席情況報告。 在會議的 [**參與者**] 窗格中，按一下如下所示的 [下載] 箭號，以尋找此報告。 您可以將報表下載為。CSV 檔（文字格式）。
+會議召集人可以查看和下載會議出席情況報告。 在會議的 [**參與者**] 窗格中，按一下如下所示的 [下載] 箭號，以尋找此報告。 您可以將報表下載為。CSV 檔案 (的文字格式) 。
 
 :::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="在 Microsoft 團隊中下載會議出席情況報告的控制項":::
 

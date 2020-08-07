@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中指派小組擁有者和成員
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 006c1a446708c5773abc2b63720846900051bfdf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610135"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581394"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft 團隊中指派小組擁有者和成員
 =================================================
@@ -29,7 +29,7 @@ ms.locfileid: "44610135"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-在 Microsoft 團隊中，有兩個使用者角色： [**擁有**者] 和 [**成員**]。 根據預設，會將建立新團隊的使用者授與擁有者狀態。 此外，擁有者和成員也可以擁有頻道的仲裁者功能（前提是已設定裁決）。 如果團隊是從現有的 Microsoft 365 群組建立，則會繼承許可權。
+在 Microsoft 團隊中，有兩個使用者角色： [**擁有**者] 和 [**成員**]。 根據預設，會將建立新團隊的使用者授與擁有者狀態。 此外，擁有者和成員可以擁有頻道的仲裁者功能， (提供該裁決已設定) 。 如果團隊是從現有的 Microsoft 365 群組建立，則會繼承許可權。
 
 下表顯示擁有者和成員之間許可權的差異。
 
@@ -63,7 +63,7 @@ ms.locfileid: "44610135"
 
 ## <a name="moderator-capabilities"></a>版主功能
 
-除了其他功能之外，小組擁有者和成員還可以擁有頻道的仲裁者功能（前提是針對團隊開啟裁決）。 版主可以在頻道中開始新的文章，並控制小組成員是否可以回復現有的頻道訊息。 他們也可以控制機器人與連接器是否能提交頻道訊息。
+除了其他功能之外，小組擁有者和成員還可以擁有頻道的仲裁者功能， (假設已開啟針對團隊) 的裁決。 版主可以在頻道中開始新的文章，並控制小組成員是否可以回復現有的頻道訊息。 他們也可以控制機器人與連接器是否能提交頻道訊息。
 
 版主功能是在頻道層級指派。 小組擁有者預設具有仲裁者的功能。 小組成員預設會關閉仲裁者的功能，但小組擁有者可以為小組成員提供頻道的仲裁者功能。 頻道內的版主者可以在該頻道中新增及移除其他版主。
 
@@ -71,7 +71,7 @@ ms.locfileid: "44610135"
 
 ## <a name="assign-a-user-role"></a>指派使用者角色
 
-若要指派使用者角色，請在 [團隊] 中選取團隊名稱，然後按一下 [**更多選項**  >  **管理團隊**]。 您可以在 [**成員**] 索引標籤上新增成員，然後選擇 [擁有人] 和 [版主] （如果您有足夠的許可權）。 如需詳細資訊，請參閱[變更團隊中的團隊設定](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
+若要指派使用者角色，請在 [團隊] 中選取團隊名稱，然後按一下 [**更多選項**  >  **管理團隊**]。 在 [**成員**] 索引標籤上，您可以新增成員，然後選擇 [擁有者] 和 [版主] (如果您擁有足夠的許可權)  如需詳細資訊，請參閱[變更團隊中的團隊設定](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
 
 ## <a name="permissions-to-create-teams"></a>建立小組的許可權
 
@@ -80,5 +80,5 @@ ms.locfileid: "44610135"
 
 ||||
 |---------|---------|---------|
-| ![代表決策點的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |決策點         |所有 Microsoft 團隊使用者都可以建立小組（建議使用）嗎？         |
+| ![代表決策點的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |決策點         |所有 Microsoft 團隊使用者都可以 (建議的) 建立團隊嗎？         |
 | ![代表後續步驟的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |後續步驟         |修改誰可以建立 Microsoft 365 群組的預設許可權（如果您需要限制誰可以建立團隊）         |

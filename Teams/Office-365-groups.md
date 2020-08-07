@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 群組和 Microsoft 團隊
 ms.reviewer: Kyle Blevins
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a44adb84cb6669bb96bd617fb52ea9b5fdceb7af
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753893"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581124"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和 Microsoft 團隊
 =====================================
 
 > [!Tip]
-> 觀看下列會話，瞭解團隊如何與 Azure Active Directory （Azure AD）、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive 進行互動： [Microsoft 團隊基礎](https://aka.ms/teams-foundations)
+> 請觀看下列會話，瞭解團隊如何與 Azure Active Directory (Azure AD) 、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive： [Microsoft 團隊基礎](https://aka.ms/teams-foundations)
 
 Microsoft 365 群組是 Office 365 中的跨應用程式成員資格服務。 在基本層級，Microsoft 365 群組是 Azure Active Directory 中的一個物件，其中包含一份成員清單，以及與相關工作負載鬆散耦合，包括 SharePoint 小組網站、Yammer 群組、共用 Exchange 信箱資源、Planner、Power BI 和 OneNote。 您可以將人員新增或移除至群組，就像在 Active Directory 中的任何其他群組安全物件一樣。
 
@@ -55,7 +55,7 @@ Office 365 管理員可以定義 Microsoft 365 群組、新增成員，以及從
 
 使用者的群組功能和功能取決於您驅動群組成員資格的位置。 例如，如果您移除團隊的成員，也會從 Microsoft 365 群組中移除。 從群組中移除會立即從團隊用戶端移除團隊和頻道。 如果您使用 Microsoft 365 系統管理中心從群組中移除人員，他們將無法存取其他共同作業的內容，例如 SharePoint Online 文件庫、Yammer 群組或共用的 OneNote。 不過，他們仍可存取團隊的聊天功能大約兩小時的時間。
 
-作為管理團隊成員的最佳做法，請在團隊用戶端新增和移除成員，以確保已套用對其他相依雲端應用程式的正確的級聯存取控制。 此外，您也可以避免因您的使用者仍然有權存取其所使用的資源（直到下一個同步處理週期新增或廢除服務特定元件的存取權）時才有脫節的體驗。 如果您在團隊用戶端之外新增或移除團隊成員（使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell），可能需要長達24小時（在某些情況下），才能反映團隊中的變更。
+作為管理團隊成員的最佳做法，請在團隊用戶端新增和移除成員，以確保已套用對其他相依雲端應用程式的正確的級聯存取控制。 此外，您也可以避免因您的使用者在下一個同步處理週期中新增或廢除) 服務特定元件的存取權，而讓人感到不脫節的體驗，讓他們仍能存取 (的資源。 如果您在使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell) 在團隊用戶端 (新增或移除團隊成員，在某些情況) 下，可能需要長達 24 (小時才能反映在團隊中的變更。
 
 <a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>能夠在排程會議時將群組新增為出席者
 ----------------------------------------------------------

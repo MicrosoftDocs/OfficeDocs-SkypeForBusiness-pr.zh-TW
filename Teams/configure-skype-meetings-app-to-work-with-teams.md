@@ -1,8 +1,8 @@
 ---
 title: 設定Skype 會議應用程式以搭配使用 Teams
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: Lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a1b4f05be530e57d11d618ae0489187b65f9e56
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825521"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581664"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>設定Skype 會議應用程式以搭配使用 Teams
 ===================================================
@@ -45,5 +45,5 @@ ms.locfileid: "41825521"
 
 ## <a name="more-information"></a>詳細資訊
 
-- [什麼是 Skype 會議應用程式（商務用 Skype Web App）](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [什麼是 Skype 會議應用程式 (商務用 Skype Web App) ](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Skype 會議 App 最低網路需求](https://technet.microsoft.com/library/mt845808.aspx)

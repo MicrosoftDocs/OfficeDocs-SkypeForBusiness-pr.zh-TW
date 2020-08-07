@@ -1,8 +1,8 @@
 ---
 title: 增強現有的 Microsoft 365 群組
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 38707df888adbd6da61e0e5487e570564ad26cbf
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: d845dff067f23bc923b53a0dcf7ee6351a5d24c7
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349837"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582300"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>使用 Microsoft 團隊增強現有的 Microsoft 365 群組
 =======================================================
@@ -41,7 +41,7 @@ Microsoft 團隊使用者可以使用團隊功能來加強現有的 Microsoft 36
 
 ![[從 Microsoft 365 群組建立小組] 選項的螢幕擷取畫面。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
-您也可以將已啟用郵件功能的安全性群組新增為小組成員。 但是，如果您稍後將更多成員新增至安全性群組，這些成員不會自動新增至小組。 您必須單獨新增成員，或重新新增安全性群組至小組。 （如果您重新新增安全性群組，重復資料刪除會確定成員只新增一次。）
+您也可以將已啟用郵件功能的安全性群組新增為小組成員。 但是，如果您稍後將更多成員新增至安全性群組，這些成員不會自動新增至小組。 您必須單獨新增成員，或重新新增安全性群組至小組。  (如果您重新新增安全性群組，重復資料刪除會確定成員只能新增一次。 ) 
 
 有兩種類型的隱私權設定，包括 Microsoft 365 群組、**公用及私人**。 雖然兩個群組類型都可供團隊使用，但在這種情況下，它會與自助功能稍有不同。
 

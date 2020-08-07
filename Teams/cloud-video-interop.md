@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊的雲端視頻互通性
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905875"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581814"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
-雲端視頻 Interop （CVI）是 Microsoft 合格的協力廠商解決方案，可讓您使用協力廠商的會議會議室（telepresence）和個人視頻裝置（VTCs）加入 Microsoft 團隊會議。
+雲端視頻 Interop (CVI) 是一種 Microsoft 合格的協力廠商解決方案，可讓您 (telepresence) 和個人視頻裝置 (VTCs) 加入 Microsoft 團隊會議。
  
 透過 Microsoft 團隊，您可以在包含音訊、影片和內容共用的會議中，取得豐富的線上內容共同作業。 您可以透過桌面和 web 用戶端，以及透過與 Microsoft 團隊共同整合的許多合作夥伴裝置來欣賞這種情況。 不過，許多客戶已投資 teleconferencing 和個人視頻通訊裝置，這可能會導致升級成本較高。 雲端視頻 Interop 提供簡易的解決方案，可讓您繼續使用現有的解決方案，直到您準備好升級為止。
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905875"
 
 雲端視頻 Interop 適用于符合下列準則的客戶：
 
-- 大型部署會議室裝置和個人視頻裝置部署（50 + 裝置）不符合 Microsoft 團隊直接整合的資格
+- 大型部署會議會議室裝置和個人視頻裝置部署 (50 個裝置) 不符合 Microsoft 團隊直接整合的資格
 - 我們的其中一個雲端視頻互通性合作夥伴支援
 - 在遷移到原生 Microsoft 團隊解決方案期間，想要保留其在目前會議機房裝置和個人視頻裝置中投資的價值
 
@@ -48,7 +48,7 @@ ms.locfileid: "43905875"
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 美國政府與協力廠商服務
 
-Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站、商務用 Skype、團隊、Office 應用365程式（例如 Word、Excel、PowerPoint 和 Outlook）及 Outlook Web App 的功能。 此外，Office 365 支援與協力廠商服務提供者的整合。 這些協力廠商應用程式和服務可能會涉及在 Office 365 基礎結構以外的協力廠商系統上儲存、傳輸及處理貴組織的客戶資料，因此不會受到 Office 365 合規性與資料保護承諾的覆蓋。 **建議您查看協力廠商提供的隱私權與規範聲明，以針對貴組織評估這些服務的適當用途。**
+Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站、商務用 Skype、團隊、Office 應用 (365 程式（例如 Word、Excel、PowerPoint 和 Outlook) 及 outlook Web App）的功能。 此外，Office 365 支援與協力廠商服務提供者的整合。 這些協力廠商應用程式和服務可能會涉及在 Office 365 基礎結構以外的協力廠商系統上儲存、傳輸及處理貴組織的客戶資料，因此不會受到 Office 365 合規性與資料保護承諾的覆蓋。 **建議您查看協力廠商提供的隱私權與規範聲明，以針對貴組織評估這些服務的適當用途。**
 
 
 
@@ -101,13 +101,13 @@ Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站�
 
 視合作夥伴方案而定，有幾種方式可以加入雲端視頻交互操作的會議。 確切的會議加入案例將由您的雲端視頻互通性合作夥伴提供。 我們已在下列範例中列出了一些範例：
 
-- IVR （互動式語音回復） 
+- IVR (互動式語音回應)  
   - 您可以使用 tenantkey@domain 撥入夥伴的 IVR。
   - 當您在合作夥伴 IVR 中時，系統會提示您輸入 VTC conferenceId，這會將您連線至 [團隊會議]。
 - 直接撥號 
   - 您可以直接撥入小組會議，而不需與夥伴的 IVR 互動，只要使用 [直接撥號] 功能，就能使用 tenantkey 的完整字串。VTC [ConferenceId@domain]。
 - 單點觸控撥號 
-  - 如果您有整合的小組聊天室，您可以使用合作夥伴提供的單一觸控式撥號功能（不需要輸入任何撥號字串）。
+  - 如果您有整合的小組聊天室，您可以使用合作夥伴 (提供的單一觸控式撥號功能，而不需要輸入任何撥號字串) 。
 
 ## <a name="manage-cloud-video-interop"></a>管理雲端視頻互通性
 
@@ -123,9 +123,9 @@ Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站�
 
 ## <a name="powershell-for-cloud-video-interop"></a>雲端視頻互通性的 PowerShell
 
-您可以使用下列 PowerShell Cmdlet （部分）自動執行雲端影片互通性部署。
+您可以使用下列 PowerShell Cmdlet 來 (部分) 自動執行雲端視頻交互操作部署。
 
-- **CsTeamsVideoInteropServicepolicy**： Microsoft 針對我們支援的每個合作夥伴提供預先構造的原則，可讓您指定要用於雲端影片互通性的合作夥伴。<br>這個 Cmdlet 可讓您識別您可以在組織中使用的預先構造原則。 您可以利用 Grant CsTeamsVideoInteropServicePolicy Cmdlet，將此原則指派給一或多個使用者。
+- **CsTeamsVideoInteropServicepolicy**： Microsoft 針對我們支援的每個合作夥伴提供預先構造的原則，讓您指定哪個合作夥伴 (s) 用於雲端影片互通性。<br>這個 Cmdlet 可讓您識別您可以在組織中使用的預先構造原則。 您可以利用 Grant CsTeamsVideoInteropServicePolicy Cmdlet，將此原則指派給一或多個使用者。
 - **授與 CsTeamsVideoInteropServicePolicy**：這個 Cmdlet 可讓您指派預先構造的原則供貴組織使用，或將原則指派給特定的使用者。
 - **新-CsVideoInteropServiceProvider**：使用此 Cmdlet 來指定貴組織想要使用之受支援之 CVI 夥伴的相關資訊。
 - **CsVideoInteropServiceProvider**：使用此 Cmdlet 來更新貴組織使用之受支援之 CVI 夥伴的相關資訊。

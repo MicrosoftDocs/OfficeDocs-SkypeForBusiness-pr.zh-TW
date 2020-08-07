@@ -1,7 +1,7 @@
 ---
 title: 管理將團隊轉換成新的團隊系統管理中心
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: dd1a94ab587b21fce5a455300826632ffd508042
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45228889"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581534"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 ======================================================
@@ -44,7 +44,7 @@ ms.locfileid: "45228889"
 
 下表列出已遷移之小組經驗的各個區段，並顯示目前設定與新系統管理入口網站中的原則之間的關係。
 
-|Microsoft 365 系統管理中心的團隊區段  |設定名稱（租使用者層級）  |Microsoft 團隊系統管理中心原則   |階層：租使用者或 User   |
+|Microsoft 365 系統管理中心的團隊區段  | (租使用者層級) 的設定名稱  |Microsoft 團隊系統管理中心原則   |階層：租使用者或 User   |
 |---------|---------|---------|---------|
 |一般     |在個人資料中顯示組織結構        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Tenant       |
 |一般     |針對沒有團隊的收件者使用商務用 Skype         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
@@ -52,12 +52,12 @@ ms.locfileid: "45228889"
 |電子郵件整合     |[允許寄件者] 清單         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Tenant         |
 |自訂雲端儲存空間     |框         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
-|自訂雲端儲存空間     |Egnyte （即將推出）        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
+|自訂雲端儲存空間     |即將推出的 Egnyte ()         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |Google 磁片磁碟機        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |依使用者/授權類型設定     |針對所有使用者開啟或關閉 Microsoft 團隊          |已棄用<sup>1</sup>        |         |
-|團隊和頻道     |         |重新導向至 Azure Active Directory 群組管理（與目前的體驗相同）。              |使用者         |
-|團隊和頻道     |         |重定向至 AAD 群組管理（與目前的經驗相同）。             |使用者          |
+|團隊和頻道     |         |重新導向至 Azure Active Directory 群組管理 (與目前的體驗) 相同。              |使用者         |
+|團隊和頻道     |         |重定向至 AAD 群組管理 (與目前的體驗) 相同。             |使用者          |
 |應用程式|預設啟用新的外部應用程式|整個組織內的應用程式設定|Tenant|
 |應用程式|允許外部應用程式|整個組織內的應用程式設定|Tenant|
 |應用程式|允許側載外部應用程式<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|使用者|
@@ -96,7 +96,7 @@ ms.locfileid: "45228889"
 
 下表顯示您可以在遷移期間管理功能的位置。
 
-|功能  |Microsoft 團隊系統管理中心                      |商務用 Skype 系統管理中心（舊版）  |Microsoft 365 系統管理中心  |
+|功能  |Microsoft 團隊系統管理中心                      |商務用 Skype 系統管理中心 (舊版)   |Microsoft 365 系統管理中心  |
 |---------|:---------:|:---------:|:---------:|
 |團隊訊息、會議及即時事件原則     |     X    |         |         |
 |團隊升級原則     |    X     |         |         |

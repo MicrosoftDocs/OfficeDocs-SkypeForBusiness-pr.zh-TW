@@ -1,7 +1,7 @@
 ---
 title: SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,17 +18,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a66cacf7a60b020b4b56e0824d0a275efdf704f8
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: af9981b1f3cd95d80a72a9e4fa536835d662382d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45140935"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581084"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式
 
 > [!Tip]
-> 請觀看下列會話，瞭解團隊與 Azure Active Directory （AAD）、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive 的互動方式： [Microsoft 團隊的基礎](https://aka.ms/teams-foundations)
+> 請觀看下列會話，瞭解團隊如何與 Azure Active Directory 進行互動 (AAD) 、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive： [Microsoft 團隊基礎](https://aka.ms/teams-foundations)
 
 Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，小組中的每個標準頻道都會在預設的小組網站文件庫中取得一個資料夾。 在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。 若要查看在 SharePoint 中變更網站位址的影響，請參閱[變更網站位址](https://docs.microsoft.com/sharepoint/change-site-address)。
 
@@ -46,7 +46,7 @@ Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，
 
 下列是團隊、標準頻道與文件庫之間的關聯性範例。
 
-針對每個小組，都會建立一個 SharePoint 網站，而 [**共用文件**] 資料夾則是為該小組建立的預設資料夾。 每個標準通道，包括**一般**通道（每個團隊的預設通道）在 [**共用檔**] 中都有一個資料夾。
+針對每個小組，都會建立一個 SharePoint 網站，而 [**共用文件**] 資料夾則是為該小組建立的預設資料夾。 每個標準頻道，包括 **[一般**] 通道 (每個小組的預設頻道) 在 [**共用檔**] 中有一個資料夾。
 
 ![SharePoint Online 中的 [共用文件] 資料夾圖表。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
@@ -59,7 +59,7 @@ Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，
 > 2. 針對現有的文件庫，選取任一**sharepoint**的現有 sharepoint 網站頁面或**文件庫**。
 > 3. 選取適當的頁面或文件庫。
 
-針對每位使用者， **Microsoft 團隊聊天**檔案是用來儲存在私人聊天中與其他使用者共用的所有檔案（1:1 或1：許多），並自動設定許可權，以限制只有預定使用者才能存取。
+針對每位使用者，您可以使用 OneDrive 資料夾**Microsoft 團隊聊天**檔案，將私人聊天中與其他使用者共用的所有檔案，都儲存在 (1:1 或1：許多) ，並自動設定許可權，限制僅限預期使用者的存取權。
 
 ![名為 Microsoft 團隊聊天檔案的 OneDrive 資料夾圖表](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
@@ -81,7 +81,7 @@ Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，
 - 找出需要中繼資料的檔案
 - 從許多其他篩選選項中進行選擇。
 - 根據欄標題來分組檔案。
-- 修改欄設定（向左或向右移動、隱藏）和欄寬。
+- [修改欄設定] ([向左或向右移動]、[隱藏) 及欄寬]。
 
 ## <a name="default-link-type-setting"></a>預設連結類型設定
 

@@ -2,11 +2,10 @@
 title: 採納 Microsoft 團隊
 ms.reviewer: karuanag
 description: 瞭解可用的資源，協助您規劃及部署貴組織中的 Microsoft 團隊。
-ms.topic: landing-page
+ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
@@ -21,196 +20,28 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 038721d887eef7eeb0c52cb82508b271e26dbbdc
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756512"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588277"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
 > [!NOTE]
 > 如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[**遠端學習首頁**](https://www.microsoft.com/education/remote-learning)。
 
-如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能（例如 Microsoft 365 或 Office 365 通話方案或電話系統），您可以從我們的**入門指南中**開始，但以下是您需要的其他指導方針。
+如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能 (例如 Microsoft 365 或 Office 365 通話方案或電話系統) ，您可以從我們的**入門指南中**開始，但以下是您需要的其他指導方針。
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>快速入門</h3>
-                        <p>逐步引導您完成最常見的採用案例</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>團隊和頻道簡介</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>規劃您的第一位團隊</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>為您的擁護程式進行準備</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>訓練 & 認證</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>工具和下載</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px"> | [快速入門](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" width="40 px" height="40 px"> | [團隊和頻道簡介](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [規劃您的第一位團隊](/MicrosoftTeams/teams-adoption-your-first-teams) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" width="40 px" height="40 px"> | [為您的擁護程式進行準備](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px"> | [訓練 & 認證](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> | [工具和下載](/microsoftteams/adopt-tools-and-downloads) |
 
 ### <a name="deeper-adoption-guidance"></a>深入瞭解採用指南
 採納方案可以簡單到複雜，視您的環境而定。 針對大型部署，請逐步完成以下指導方針，以確保您的組織能順暢地轉換至團隊。
 
-<ul class="panelContent cardsF">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始使用</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">快速入門</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">了解小組和頻道</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">建立您的第一個應用程式</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">評估文化與組織就緒性</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">試驗</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">建立您的風雲人物計畫</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">管理快速入門</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">定義使用案例</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">早期採納並收集意見反應</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">快速上手的支援</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">調整</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">定義結果與成功</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">最佳化意見反應和報告</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">促進認知和實施訓練</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">排程服務健康情況審查</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" width="40 px" height="40 px"> | **[開始使用](/MicrosoftTeams/teams-adoption-phase1)** </br> [快速入門](/MicrosoftTeams/teams-adoption-get-started) </br> [了解小組和頻道](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) </br> [建立您的第一個應用程式](/MicrosoftTeams/teams-adoption-your-first-teams) </br> [評估文化與組織就緒性](/MicrosoftTeams/teams-adoption-assess-readiness) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" width="40 px" height="40 px"> | **[試驗](/MicrosoftTeams/teams-adoption-phase2-experiment)** </br> [建立您的風雲人物計畫](/MicrosoftTeams/teams-adoption-create-champions-program) </br> [管理快速入門](/MicrosoftTeams/teams-adoption-governance-quick-start)</br> [定義使用案例](/MicrosoftTeams/teams-adoption-define-usage-scenarios) </br> [讓早期採用者快速上手並收集意見反應](/MicrosoftTeams/teams-adoption-onboard-early-adopters) </br> [快速上手的支援](/MicrosoftTeams/teams-adoption-onboard-support) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" width="40 px" height="40 px"> | **[調整](/MicrosoftTeams/teams-adoption-phase3-enable)** </br> [定義結果與成功](/MicrosoftTeams/teams-adoption-define-outcomes) </br> [最佳化意見反應和報告](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) </br> [促進認知和實施訓練](/MicrosoftTeams/teams-adoption-drive-awareness) </br> [排程服務健康情況審查](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) |

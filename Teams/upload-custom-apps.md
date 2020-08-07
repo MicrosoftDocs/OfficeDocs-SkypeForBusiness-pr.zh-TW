@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何將自訂應用程式上傳到 Microsoft 團隊系統管理中心的組織 app 存放區。
-ms.openlocfilehash: 68d7dbc16ca3aa6258fd5f976688240095226934
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d43b19f4ada3ce6f0424a324cdea6f194575325b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552817"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583642"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>透過上傳應用程式套件發佈自訂應用程式
 
@@ -88,6 +88,12 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>釘選並安裝應用程式供使用者探索
 
 根據預設，使用者可以找到您組織的 app 商店所需的 app，然後流覽或搜尋該應用程式。 若要讓使用者能夠輕鬆存取應用程式，您可以將應用程式釘選到 [團隊] 中的應用程式行。 若要這樣做，請建立應用程式設定原則，並將它指派給使用者。 若要深入瞭解，請參閱<a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">管理團隊中的 app 設定原則</a>。
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>搜尋小組 app 事件的審核記錄
+
+您可以搜尋 [審核記錄]，以查看貴組織中的 [小組 app] 活動。 若要進一步瞭解如何搜尋審核記錄，以及查看在審核記錄中記錄的小組活動清單，請參閱<a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">在審核記錄中搜尋小組中的事件</a>。
+
+在您可以搜尋審核記錄之前，您必須先在<a href="https://protection.office.com" target="_blank">安全性 & 合規性中心</a>開啟審核。 若要深入瞭解，請參閱<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">開啟或關閉審核記錄搜尋</a>。 請記住，審核資料只能從您開啟審核的位置取得。
 
 ## <a name="discover-and-adopt"></a>探索與採納
 

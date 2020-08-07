@@ -1,7 +1,7 @@
 ---
 title: 管理免費的 Microsoft 團隊版本
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d8c8246ef635f860b5cc601613faf5ef1663726
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 7bfd1e9ece85ff6bc5bce0791e1e82225894fdd1
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028129"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583852"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理免費的 Microsoft 團隊版本
 ==========================================
 
-在免費版本的 Microsoft 團隊中，在貴組織中註冊的第一個人員擁有有限的管理員角色。 擁有此有限角色的人員可以新增和移除團隊成員，並指定是否任何人都可以邀請其他成員，但此使用者沒有 [高級管理] 功能，且無法存取 Microsoft 團隊系統管理中心。 若要深入瞭解，請閱讀[邀請人員加入團隊（免費版）](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)。
+在免費版本的 Microsoft 團隊中，在貴組織中註冊的第一個人員擁有有限的管理員角色。 擁有此有限角色的人員可以新增和移除團隊成員，並指定是否任何人都可以邀請其他成員，但此使用者沒有 [高級管理] 功能，且無法存取 Microsoft 團隊系統管理中心。 若要深入瞭解，請參閱[邀請人員加入團隊 (免費) ](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)。
 
 若要取得完整的小組功能，包括增強的管理，您必須為使用者購買適當的 Microsoft 365 或 Office 365 訂閱者案，以[升級至完整版的團隊](upgrade-freemium.md)。 
 

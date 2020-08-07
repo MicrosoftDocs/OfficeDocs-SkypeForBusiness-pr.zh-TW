@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams 的硬體需求
 ms.reviewer: microthk, sthurlow
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: reference
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a61c7338c6a182b6803bf2a302522b7fb97586f
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: b79a9c0ed52ff205f81da8d859cfc9ceaacadd1b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143774"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581554"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -43,8 +43,8 @@ ms.locfileid: "45143774"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    | 
-|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議您使用具有雙核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。 </li><li>在沒有執行 Windows 8.1 或以下的 AVX2 指令集的處理器上，不支援選用的**背景影片效果**。</li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Microsoft Teams 會議室中使用「鄰近偵測」功能加入會議，需要在用戶端裝置上啟用藍芽，且 Windows 用戶端必須有 64 位元 Teams 用戶端。 32 位元 Teams 無此功能。</li></ul> |
-|Teams 即時活動 | 如果您正在產生團隊即時活動，我們建議您使用具有 Core i5 Kaby Lake processor、4.0 GB RAM （或更新版本）及硬體編碼器的電腦。 如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。 |
+|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有雙核處理器和 4.0 GB RAM 的電腦 (或更新版本的) 。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器和 8.0 GB RAM 的電腦 (或更高版本的) 。 </li><li>在沒有執行 Windows 8.1 或以下的 AVX2 指令集的處理器上，不支援選用的**背景影片效果**。</li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Microsoft Teams 會議室中使用「鄰近偵測」功能加入會議，需要在用戶端裝置上啟用藍芽，且 Windows 用戶端必須有 64 位元 Teams 用戶端。 32 位元 Teams 無此功能。</li></ul> |
+|Teams 即時活動 | 如果您正在產生團隊即時活動，我們建議您使用具有 Core i5 Kaby Lake 處理器、4.0 GB RAM (或) 更高版本的電腦，以及硬體編碼器。 如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac 電腦上 Teams 的硬體需求
 
@@ -57,7 +57,7 @@ ms.locfileid: "45143774"
 |作業系統  |    Mac OS X 10.11 El Capitan 或更新版本     |
 |影片  |    相容的網路攝影機     |
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
-|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議您使用具有雙核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。</li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Mac OS 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul> |
+|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有雙核處理器和 4.0 GB RAM 的電腦 (或更新版本的) 。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器和 8.0 GB RAM 的電腦 (或更高版本的) 。</li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Mac OS 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux 電腦上 Teams 的硬體需求
 
@@ -72,7 +72,7 @@ ms.locfileid: "45143774"
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    | 
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
-|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議您使用具有雙核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。</li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Linux 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
+|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有雙核處理器和 4.0 GB RAM 的電腦 (或更新版本的) 。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器和 8.0 GB RAM 的電腦 (或更高版本的) 。</li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Linux 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
 |支援的 Linux 發行版 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>行動裝置上 Teams 的硬體需求
@@ -86,7 +86,7 @@ ms.locfileid: "45143774"
 - iOS：與 iPhone、iPad、iPod Touch 相容。
 
   僅支援 iOS 最新的兩個主要版本。 發行新的 iOS 主要版本時，此新版 iOS 和前一版本都可受到正式支援。
-  [選擇性**模糊**] ios 上的背景視頻效果需要 ios 12 或更新版本的作業系統，且與下列裝置相容： iPhone 7 或更新版本、iPad 2018 （第6代）或更新版本，以及 iPod touch 2019 （第7代）。
+  [選擇性**模糊**] ios 上的背景視頻效果需要 ios 12 或更新版本的作業系統，且與下列裝置相容： iPhone 7 或更新版本、iPad 2018 (第6代) 或更新版本，以及 iPod touch 2019 (7 代) 。
 
 為了獲得最佳的 Teams 使用體驗，請使用最新版的 iOS 和 Android。
 

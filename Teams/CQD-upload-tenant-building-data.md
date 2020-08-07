@@ -1,7 +1,7 @@
 ---
-title: 在通話品質儀表板（CQD）中上傳租使用者和組建資料
-ms.author: lolaj
-author: LolaJacobsen
+title: '在通話品質儀表板中上傳租使用者並建立資料 (CQD) '
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,24 +20,24 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 瞭解如何在通話品質儀表板（CQD）中上傳租使用者和組建資料。
-ms.openlocfilehash: d8a27ab45a01d1b0eccc28716bee9fa838fb8de5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: 瞭解如何在通話品質儀表板 (CQD) 中上傳租使用者和組建資料。
+ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086038"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584062"
 ---
-# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通話品質儀表板（CQD）中上傳租使用者和組建資料
+# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通話品質儀表板中上傳租使用者並建立資料 (CQD) 
 
 
-若要充分利用通話品質儀表板（CQD），建議您上傳租使用者並建立資料。 有2種類型的租使用者資料檔，即[建立](#upload-building-data-file)與[端點](#endpoint-data-file)。
+若要充分利用通話品質儀表板 (CQD) ，建議您上傳租使用者並建立資料。 有2種類型的租使用者資料檔，即[建立](#upload-building-data-file)與[端點](#endpoint-data-file)。
 
 您可以[在這裡](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下載範例租使用者資料範本。 如需有關建立對應的說明，請參閱[建立 CQD 的組建地圖](CQD-building-mapping.md)。
 
-從 [CQD 摘要報告] 儀表板的 [CQD**設定**] 功能表（位於 CQD 頂端的齒輪圖示）中，選取 [**租使用者資料上傳**]。 在此，系統管理員可以上傳其組織的建築物和端點資訊，例如 IP 位址和地理資訊的對應、對應每個無線存取點及其 MAC 位址等。
+從 [CQD 摘要報告] 儀表板中，從 [CQD**設定**] 功能表中選取 **[租使用者資料上傳**]， (位於 [CQD]) 頂端的齒輪圖示。 在此，系統管理員可以上傳其組織的建築物和端點資訊，例如 IP 位址和地理資訊的對應、對應每個無線存取點及其 MAC 位址等。
 
-1. 開啟 CQD （從 [團隊系統管理中心] 或 [至] [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) ），然後選取右上角的齒輪圖示，然後從 [**摘要報告**] 頁面選擇 [**租使用者資料上傳**]。
+1. 從 [團隊系統管理中心] 開啟 [CQD (]，或在 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)) ，選取右上角的齒輪圖示，然後從 [**摘要報告**] 頁面選擇 [**租使用者資料上傳**]。
 
    ![上傳資料時出現之對話方塊的螢幕擷取畫面](media/qerguide-image-tenantdataupload.png)
     
@@ -63,11 +63,11 @@ ms.locfileid: "45086038"
 
 CQD 中的第一個租使用者資料檔類型就是**組建**資料檔案。 [子網] 欄是透過展開 [網路 + NetworkRange] 欄，然後將 [子網] 欄加入通話記錄的第一個子網或 [第二個子網] 欄，來顯示建築物、城市、國家或地區資訊。 您上傳的資料檔案格式，必須符合下列準則，才能在上傳前進行驗證檢查：
   
-- 檔案必須是 tsv 檔案（由索引標籤分隔欄）或 .csv 檔案（欄以逗號分隔）。
+- 檔案必須是 tsv 檔案， (資料行是由索引標籤分隔，) 或 .csv 檔案 (欄之間以) 逗號分隔。
 - 資料檔案不包含表格標題列。 資料檔案的第一行應該是真實資料，而不是標頭標籤（例如「網路」）。
 - 檔案中的資料類型只能是 String、Integer 或 Boolean。 針對整數資料類型，此值必須是一個數值。 布林值必須是0或1。
 - 如果資料行使用 [字串] 資料類型，資料欄位可以是空的，但仍必須以 tab 或逗號分隔。 空白資料欄位只會指派空的字串值。
-- 每個資料列都必須有14個數據行，每一欄都必須具有適當的資料類型，且欄必須按照下表所列的順序（逗號或定位字元分隔）：
+- 每個資料列必須有14個數據行，每一欄都必須具有適當的資料類型，且欄必須按照下表所列的順序 (逗號或定位字元分隔) ：
 
 **建立資料檔案格式**
 
@@ -100,14 +100,14 @@ CQD 中的第一個租使用者資料檔類型就是**組建**資料檔案。 [�
 `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> 網路範圍可用來代表 supernet （多個子網與單一路由前置詞的組合）。 所有新的建築物上傳都會被檢查，以取得任何重迭的範圍。 如果您先前上傳的是組建檔案，您應該下載目前的檔案，然後重新上傳以找出任何重疊，並修正問題，然後再重新上傳。 先前上傳的檔案中的任何交疊，可能會導致無法正確地將子網對應至報表中的建築物。 某些 VPN 實現不會精確地報告子網資訊。 建議將 VPN 子網新增至組建檔案，而不是子網的一個專案時，會針對 VPN 子網中的每個位址，為個別的32位網路新增個別專案。 每個資料列都可以有相同的建築物中繼資料。 例如，172.16.18.0/24 不只一列，您應該有256列，每個位址都有一個資料列，其中每個位址都在 172.16.18.0/32 和 172.16.18.255/32 之間（含）。
+> 網路範圍可以用來代表幾個子網的 (supernet 組合，) 的單一路由前置詞。 所有新的建築物上傳都會被檢查，以取得任何重迭的範圍。 如果您先前上傳的是組建檔案，您應該下載目前的檔案，然後重新上傳以找出任何重疊，並修正問題，然後再重新上傳。 先前上傳的檔案中的任何交疊，可能會導致無法正確地將子網對應至報表中的建築物。 某些 VPN 實現不會精確地報告子網資訊。 建議將 VPN 子網新增至組建檔案，而不是子網的一個專案時，會針對 VPN 子網中的每個位址，為個別的32位網路新增個別專案。 每個資料列都可以有相同的建築物中繼資料。 例如，172.16.18.0/24 不只一列，您應該有256列，每個位址都有一個資料列，其中每個位址都在 172.16.18.0/32 和 172.16.18.255/32 之間（含）。
 >
 > [VPN] 欄是選擇性的，預設為0。 如果 VPN 欄的值設為1，則該資料列所代表的子網將會完全展開，以符合子網中的所有 IP 位址。  請謹慎使用這個方式，然後只針對 VPN 子網，因為完全擴充這些子網會對涉及建立資料之查詢的查詢時間造成負面影響。
 
 
 ### <a name="supernetting"></a>Supernetting
 
-您可以使用 supernetting （通常稱為無類別的網域間路由（CIDR））來取代定義每個子網。 *Supernet*是多個子網的組合，可共用單一路由前置詞。 您可以使用 supernetted 位址，而不是為每個子網新增專案。 支援 Supernetting，但我們不建議使用它。
+您可以使用 supernetting （通常稱為無類別的網域間路由 (CIDR），) 代替定義每個子網。 *Supernet*是多個子網的組合，可共用單一路由前置詞。 您可以使用 supernetted 位址，而不是為每個子網新增專案。 支援 Supernetting，但我們不建議使用它。
 
 例如，Contoso 的行銷大樓是由下列子網組成：
 
@@ -125,7 +125,7 @@ CQD 中的第一個租使用者資料檔類型就是**組建**資料檔案。 [�
 
 -   Supernetting 只能在含有8位到28位元遮罩的子網對應中使用。
 
--   Supernetting 佔用較少的時間，但代價是減少資料的豐富程度。 假設有一個涉及子網10.1.2.0 的品質問題。 如果您已執行 supernetting，就不會知道子網的組建位置或網路類型（例如，lab）。 如果您已定義所有子網，以取得建築物和上傳的樓層位置資訊，您就可以看到這種差異。
+-   Supernetting 佔用較少的時間，但代價是減少資料的豐富程度。 假設有一個涉及子網10.1.2.0 的品質問題。 如果您已執行 supernetting，就不會知道組建子網上的位置，或是它所 (的網路類型（例如，實驗室) ）。 如果您已定義所有子網，以取得建築物和上傳的樓層位置資訊，您就可以看到這種差異。
 
 -   務必確保 supernetted 位址正確無誤，而且不會捕捉不想要的子網。
 
@@ -136,7 +136,7 @@ CQD 中的第一個租使用者資料檔類型就是**組建**資料檔案。 [�
 
 ### <a name="vpn"></a>點對點
 
-用戶端傳送至 Microsoft 365 或 Office 365 的體驗品質（QoE）資料，也就是 CQD 資料來源的位置，包括 VPN 標誌。 CQD 將會看到此為第一個 VPN 和第二個 VPN 維度。 不過，此標記會依賴 VPN 廠商的報告來向 Windows 確認 VPN 網路介面卡已註冊為遠端存取配接器。 並非所有的 VPN 供應商都正確註冊遠端存取配接器。 因此，您可能無法使用內建的 VPN 查詢篩選。 在建立資訊檔案中，有兩種方法可容納 VPN 子網：
+當用戶端傳送至 Microsoft 365 或 Office 365 的 QoE) 資料（包括 VPN 標誌）時， (的體驗品質。 CQD 將會看到此為第一個 VPN 和第二個 VPN 維度。 不過，此標記會依賴 VPN 廠商的報告來向 Windows 確認 VPN 網路介面卡已註冊為遠端存取配接器。 並非所有的 VPN 供應商都正確註冊遠端存取配接器。 因此，您可能無法使用內建的 VPN 查詢篩選。 在建立資訊檔案中，有兩種方法可容納 VPN 子網：
 
 - 在這個 [VPN 子網] 欄位中輸入「VPN」，以定義**網路名稱**。
 
@@ -158,7 +158,7 @@ CQD 中的第一個租使用者資料檔類型就是**組建**資料檔案。 [�
 
 另一種類型的 CQD 租使用者資料檔案是**端點**資料檔。 欄值會用於通話記錄的第一個用戶端端點名稱或第二個用戶端端點名稱欄，以顯示端點、模型或類型資訊。 您上傳的資料檔案格式，必須符合下列準則，才能在上傳前進行驗證檢查：
 
-- 檔案必須是 tsv 檔案（由索引標籤分隔欄）或 .csv 檔案（欄以逗號分隔）。
+- 檔案必須是 tsv 檔案， (資料行是由索引標籤分隔，) 或 .csv 檔案 (欄之間以) 逗號分隔。
 - 資料檔案的內容不會包含表格標題。 資料檔案的第一行應該是真實資料，而不是像是 "終結點" 這樣的標頭標籤。
 - 所有六個數據列都只使用 String 資料類型。 允許的最大長度為64個字元。
 - 資料欄位可以是空的，但仍須以 tab 或逗號分隔。 空白資料欄位只會指派空的字串值。
@@ -219,7 +219,7 @@ CQD 中的第一個租使用者資料檔類型就是**組建**資料檔案。 [�
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[設定通話品質儀表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[設定通話品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [CQD 資料和報表](CQD-data-and-reports.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 小組的動態成員資格概觀
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
@@ -17,21 +17,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 75bd058d79b1f54a40ad0e42207178c9c29d08cd
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691589"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583922"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>小組的動態成員資格概觀
 
-Microsoft 團隊支援使用*動態成員資格*與 microsoft 365 群組相關聯的小組。 動態成員資格可讓團隊的成員資格由一或多個在 Azure Active Directory （Azure AD）中檢查特定使用者屬性的規則所定義。 當使用者屬性變更或使用者加入並離開租使用者時，系統會自動新增或移除正確的團隊。
+Microsoft 團隊支援使用*動態成員資格*與 microsoft 365 群組相關聯的小組。 動態成員資格可讓小組的成員資格由一或多個規則所定義，這些規則會檢查 Azure Active Directory 中的特定使用者屬性 (Azure AD) 。 當使用者屬性變更或使用者加入並離開租使用者時，系統會自動新增或移除正確的團隊。
 
 在動態成員資格中，您可以針對組織中的某些使用者設定小組 cohorts。 可能的案例包括：
 - 醫院可以為護士、醫生和 surgeons 建立獨特的小組來廣播通訊。 如果醫院依賴 temp 員工，這一點尤為重要。
 - 學校可以為特定大學中的所有教職員建立小組，包括經常變更的附屬教職員。
-- 航空公司想要為每個航班建立小組（例如週二下午不停從芝加哥到亞特蘭大），而且經常變更的航班人員會視需要自動指派或移除。
+- 航空公司想要為每個航班建立小組 (例如星期二下午不停從芝加哥到亞特蘭大) ，而且經常變更航班人員會視需要自動指派或移除。
 
 使用此功能時，指定團隊的成員會根據一組特定的準則自動更新，而不是手動管理成員資格。 如果您有租使用者與管理員帳戶，只要擁有 Azure AD Premium P1 授權和團隊成員資格，就可以[由租使用者管理員指派](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)給任何使用者的 Azure ad 屬性。
 

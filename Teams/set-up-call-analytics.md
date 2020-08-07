@@ -1,7 +1,7 @@
 ---
 title: 設定 Microsoft 團隊的呼叫分析
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 設定每個使用者的呼叫分析，以找出並解決 Microsoft 團隊通話品質問題。
-ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f1ea46f275dfbbe5ea7f6cd40d8c06fba2b5e00f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085309"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581104"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>設定 Microsoft 團隊的呼叫分析
 
@@ -39,7 +39,7 @@ ms.locfileid: "45085309"
   
 ## <a name="give-permission-to-support-and-helpdesk-staff"></a>授與支援人員及技術支援人員的許可權
 
-就團隊管理員而言，您擁有所有使用者的呼叫分析資訊的完整存取權。 我們已建立一些專用的 Azure Active Directory 角色，您可以將它指派給支援人員和支援人員的代理，讓他們也能存取每個使用者的呼叫分析（不需存取其他團隊系統管理中心）。 指派**團隊通訊支援專家**角色給應該擁有有限的每個使用者呼叫分析的使用者（第1層支援）。 指派**團隊通訊支援工程師**角色給需要對每個使用者呼叫分析進行完整存取的使用者（第2層支援）。 兩個角色都無法存取其他團隊系統管理中心。
+就團隊管理員而言，您擁有所有使用者的呼叫分析資訊的完整存取權。 我們已建立一些專用的 Azure Active Directory 角色，您可以將它指派給支援人員和支援人員的代理，讓他們也能存取每位使用者的呼叫分析 (，而不需存取團隊系統管理員中心的其他部分) 。 將**團隊通訊支援專家**角色指派給應該擁有有限的每使用者呼叫分析視圖的使用者， (第1層支援) 。 指派**團隊通訊支援工程師**角色給需要對每位使用者呼叫分析進行完整存取的使用者， (第2層支援) 。 兩個角色都無法存取其他團隊系統管理中心。
 
 若要瞭解這些角色的作用，請閱讀[每個團隊支援角色的功能是什麼](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)？
 
@@ -51,7 +51,7 @@ ms.locfileid: "45085309"
 
 您可以透過上傳 .csv 或 tsv 檔案，將建築物、網站和租使用者資訊新增至每個使用者呼叫分析。 在所有這些資訊的情況下，呼叫分析可以將 IP 位址對應至物理位置。 系統管理員和支援人員都可以使用這項資訊來協助找出通話問題的趨勢。 例如，為什麼同一個建築物中的使用者有類似的通話品質問題？ 
 
-如果您是團隊或商務用 Skype 系統管理員，您可以使用現有的租使用者，並從 [小組] 或 [商務用 Skype 通話品質] 儀表板（CQD）建立資料檔案。 首先，您要從 CQD 下載檔案，然後將檔案上傳到 [呼叫分析]。 
+如果您是團隊或商務用 Skype 系統管理員，您可以使用現有的租使用者，並從 [小組] 或 [商務用 Skype 通話品質] 儀表板中建立資料檔， (CQD) ]。 首先，您要從 CQD 下載檔案，然後將檔案上傳到 [呼叫分析]。 
 
 - 若要下載現有的資料檔，請移至**Microsoft 團隊系統管理中心**的  >  **通話品質儀表板**  >  **[立即上傳**]。 在 [**我**的上傳] 清單中，按一下您想要的檔案旁的 [**下載**]。 
 

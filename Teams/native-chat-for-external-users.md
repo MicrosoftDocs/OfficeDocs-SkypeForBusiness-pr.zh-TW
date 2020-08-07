@@ -1,7 +1,7 @@
 ---
-title: Microsoft 團隊外部（同盟）使用者的原生聊天體驗
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft 團隊中的外部 (聯盟) 使用者的原生聊天體驗
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,18 +13,18 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解 Microsoft 團隊中外部存取（同盟）使用者的原生團隊聊天體驗，在兩個使用者都是 TeamsOnly 升級模式的外部使用者之間提供。
-ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+description: 瞭解 Microsoft 團隊中的 [外部存取] (聯盟) 使用者的「本機小組聊天」體驗，在兩個使用者都是 TeamsOnly 升級模式的外部使用者之間提供。
+ms.openlocfilehash: 1274e71f5854e05049c8d766bd3456a0792b1032
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842004"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583842"
 ---
-<a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 團隊外部（同盟）使用者的原生聊天體驗
+<a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 團隊中的外部 (聯盟) 使用者的原生聊天體驗
 ======================================
 
-當 Microsoft 團隊使用者與外部（同盟）使用者聊天時，聊天體驗會限制在文字上。 不過，如果您的小組使用者與外部使用者都是 TeamsOnly 升級模式，您可以使用「原生小組聊天體驗」，包括豐富的格式設定、@mentions 及其他聊天功能。 換句話說，您可以使用與貴組織中的使用者一樣，與符合資格的外部使用者進行相同的豐富1:1 團隊交談體驗。 原生團隊與外部使用者的聊天，僅限於1:1 聊天（外部使用者無法進行群組聊天）。
+當 Microsoft 團隊使用者與外部 (聯盟) 使用者聊天時，聊天體驗會限制為文字。 不過，如果您的小組使用者與外部使用者都是 TeamsOnly 升級模式，您可以使用「原生小組聊天體驗」，包括豐富的格式設定、@mentions 及其他聊天功能。 換句話說，您可以使用與貴組織中的使用者一樣，與符合資格的外部使用者進行相同的豐富1:1 團隊交談體驗。 與外部使用者的原生團隊聊天僅限1:1 聊天 (外部使用者無法進行群組聊天) 。
 
 外部使用者的原生聊天體驗已針對所有團隊承租人開啟，但並非所有使用者都符合資格。 若要提供原生聊天體驗，必須針對 TeamsOnly 升級模式設定傳送者和收件者。 若要深入瞭解升級原則，請參閱[設定您的共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)。
 
@@ -32,7 +32,7 @@ ms.locfileid: "44842004"
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>如何知道我正在使用原生聊天嗎？
 
-如果您只能在聊天中與外部使用者交換文字，則您是使用標準的外部存取（同盟）聊天。 如果您已有所有其他的聊天功能，包括格式設定、@mentions、emoji 等，您就是與外部使用者進行的原生團隊交談。 
+如果您只能在聊天中與外部使用者交換文字，您就可以使用標準的外部存取 (聯盟) 聊天。 如果您已有所有其他的聊天功能，包括格式設定、@mentions、emoji 等，您就是與外部使用者進行的原生團隊交談。 
 
 團隊會定期檢查外部使用者的升級模式，並在 TeamsOnly 升級模式中找到執行團隊的外部使用者時，系統會提示您切換到原生團隊聊天並鎖定原始聊天。
 

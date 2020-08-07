@@ -1,8 +1,8 @@
 ---
 title: 疑難排解團隊用戶端的連線問題
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: troubleshooting
@@ -17,12 +17,12 @@ description: 針對 Microsoft Teams 用戶端的連線問題進行疑難排解�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 116ce1afef08a6f1639ed011b799f9ca43ea57f5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 52097d78a3eae14bcaba98fb1613092af97d302e
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085229"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581134"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>針對 Microsoft Teams 用戶端的連線問題進行疑難排解
 ==============================================================

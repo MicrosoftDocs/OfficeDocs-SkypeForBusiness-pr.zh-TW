@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊系統管理中心管理團隊
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ffc71de13948be077c14699e98fca726bced3eb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638492"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583150"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理團隊
 ==========================================
@@ -44,7 +44,7 @@ ms.locfileid: "44638492"
 
 ## <a name="teams-overview-grid"></a>團隊概覽格線
 
-小組的管理工具位於 Microsoft 團隊系統管理中心的 [**小組**] 節點底下。 （在系統管理中心中，選取 [**團隊**  >  ]**管理團隊**。）每個團隊都是由 Microsoft 365 群組所支援，而這個節點提供已在貴組織中啟用 Microsoft 團隊的群組視圖。
+小組的管理工具位於 Microsoft 團隊系統管理中心的 [**小組**] 節點底下。  (在系統管理中心中，選取 [**團隊**  >  **管理團隊**] ) 。每個團隊都是由 microsoft 365 群組所支援，而這個節點提供已在貴組織中啟用 Microsoft 團隊的群組視圖。
 
 ![[團隊概覽] 格線的螢幕擷取畫面](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -58,7 +58,7 @@ ms.locfileid: "44638492"
 - **隱私權**-支援的 Microsoft 365 群組的可見度/AccessType。
 - [**狀態**]-此小組的已存檔或活動狀態。 進一步瞭解封存[或還原小組中的](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)團隊。
 - **描述**-支援的 Microsoft 365 群組的描述。
-- **分類**-指派給支援 Microsoft 365 群組的分類（如果您的組織使用的話）。 深入瞭解[貴組織中 Office 群組的建立分類](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
+- **分類**-在您的組織中使用的分類 () 指派給支援的 Microsoft 365 群組。 深入瞭解[貴組織中 Office 群組的建立分類](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
 - **GroupID** -支援的 Microsoft 365 群組的唯一 GroupID。
 
 > [!NOTE]
@@ -86,10 +86,10 @@ ms.locfileid: "44638492"
 
 ## <a name="team-profile"></a>小組設定檔
 
-您可以按一下 [團隊名稱]，從 [主要團隊概覽] 格線流覽至任何團隊的 [團隊個人檔案] 頁面。 [小組個人檔案] 頁面會顯示屬於小組（及其支援的 Microsoft 365 群組），以及小組的頻道與設定的成員、擁有者和來賓。 您可以從 [團隊設定檔] 頁面進行下列動作：
+您可以按一下 [團隊名稱]，從 [主要團隊概覽] 格線流覽至任何團隊的 [團隊個人檔案] 頁面。 [小組個人檔案] 頁面會顯示屬於團隊 (及其支援的 Microsoft 365 群組) ，以及小組的頻道與設定的成員、擁有者和來賓。 您可以從 [團隊設定檔] 頁面進行下列動作：
 
 - 新增或移除成員和擁有者。
-- 新增或移除頻道（請注意，您無法移除 [一般] 頻道）。
+- 新增或移除頻道 (請注意，您無法) 中移除 [一般] 頻道。
 - 變更小組和群組設定。
  
 ![範例小組設定檔的螢幕擷取畫面](media/manage-teams-in-modern-portal-team-profile-page.png)
@@ -107,7 +107,7 @@ ms.locfileid: "44638492"
 - [**交談設定**]-設定成員是否可以編輯及刪除已傳送的郵件。
 - **頻道設定**-設定成員是否可以建立新的頻道，以及編輯現有的頻道，以及新增、編輯及移除索引標籤、連接器及應用程式。
 
-您對小組所做的變更會記錄下來。 如果您要修改群組設定（變更名稱、描述、相片、隱私權、分類或團隊成員），這些變更將會透過審核管線進行設定。 如果您要針對特定團隊的設定執行動作，您的變更會在團隊的 [一般] 頻道中追蹤並設定為 [已設定]。
+您對小組所做的變更會記錄下來。 如果您正在修改 [群組設定] (變更名稱、描述、相片、隱私權、分類或團隊成員) ，這些變更會透過審核管線進行變更。 如果您要針對特定團隊的設定執行動作，您的變更會在團隊的 [一般] 頻道中追蹤並設定為 [已設定]。
 
 ## <a name="troubleshooting"></a>疑難排解
 
@@ -115,7 +115,7 @@ ms.locfileid: "44638492"
 
 [團隊概述] 網格中的小組清單中遺失了一些團隊。
 
-**原因**：當小組不正確（或尚未）由系統所分析，可能會導致其無法辨識某個缺少的屬性時，就會發生這個問題。
+**原因**：當小組不正確 (或尚未) 系統所分析，可能會導致它無法辨識的屬性，就會發生此問題。
 
 **解析度：透過 MS Graph 將屬性手動設定為正確的值**
 

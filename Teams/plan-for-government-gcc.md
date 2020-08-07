@@ -1,6 +1,6 @@
 ---
 title: Office 365 政府-GCC 部署
-author: lolajacobsen
+author: SerdarSoysal
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -20,19 +20,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b93762c92d9681074124ba8ddb3fd066bdf8a60a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 2fb916b30a26694debf8d699fc05cc3fcc8c8c77
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665225"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581244"
 ---
 # <a name="plan-for-office-365-government---gcc-deployments"></a>規劃 Office 365 政府版-GCC 部署
 
 本指導方針適用于在美國聯邦、州、當地、tribal 或 territorial 政府機構中的 Office 365 部署，或其他處理受限於政府法規與需求之資料的實體，也就是使用 Office 365 政府-GCC 來符合這些需求的 IT 專業人員。 新的2020年3月26日：請不要錯過我們可下載[的適用于 GCC 的快速入門手冊](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)。
 
 > [!IMPORTANT]
-> Microsoft 團隊在進行線上通話和音訊/視訊會議時，會因為 coronavirus （COVID-19） pandemic 而遭遇大量的高峰。<br/>
+> Microsoft 團隊在線上通話和音訊/視訊會議中遇到大量的高峰，因為 coronavirus (COVID-19) pandemic。<br/>
 > 
 >為了應對通話中的空前增加，並確保連續性和可用性，Microsoft 允許 Microsoft 團隊擁有音訊/視訊伺服器來利用商業資料中心中的處理能力，以及在我們的政府資料中心中。<br/>
 > 
@@ -48,7 +48,7 @@ ms.locfileid: "44665225"
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-and-meets-eligibility-requirements"></a>步驟1。 判斷您的組織是否需要 Office 365 政府-GCC 並符合資格需求。 
 
-Office 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中版，以及刑事審判與聯邦稅務資訊系統的需求（CJI 與 FTI 資料類型）的美國政府需求的規範。
+Office 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中版，以及刑事審判與聯邦稅務資訊系統的需求） (CJI 與 FTI 資料類型) 的符合政府需求。
 
 除了享有 Office 365 的功能和功能之外，組織還能利用 Office 365 政府-GCC 所特有的下列功能帶來的好處：
 

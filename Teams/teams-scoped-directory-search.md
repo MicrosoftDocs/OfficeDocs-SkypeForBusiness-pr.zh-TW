@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 限域目錄搜尋
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 audience: Admin
@@ -19,18 +19,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: d4152a2ac9ee50372dbc0fdb423d0d85c3026433
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326590"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584072"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
 Microsoft 團隊範圍的目錄搜尋可讓組織建立虛擬邊界，以控制使用者如何在組織中找到其他使用者並與之通訊。 
 
-Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft 團隊使用[資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)來支援這些自訂視圖。 啟用原則後，搜尋由其他使用者所傳回的結果（例如，啟動聊天或將成員新增至團隊）將會根據設定的原則來設定範圍。 當作用中的搜尋生效時，使用者將無法搜尋或探索團隊。 
+Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft 團隊使用[資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)來支援這些自訂視圖。 啟用原則後，搜尋由其他使用者所傳回的結果 (例如，啟動聊天或將成員新增至團隊) 將根據設定的原則進行範圍。 當作用中的搜尋生效時，使用者將無法搜尋或探索團隊。 
 
 > [!NOTE]
 > 在 Exchange 混合式環境中，這項功能僅適用于 Exchange Online 信箱，不適用於內部部署信箱。
@@ -53,7 +53,7 @@ Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft
 
 2. 在 Microsoft [團隊管理中心] 中，選取 [全**組織性設定**  >  **團隊設定**]。
 
-3. 在 [**搜尋**] 底下，在**使用 Exchange 通訊錄原則（ABP）的 [小組] 中的 [範圍目錄搜尋**] 旁，開啟 **[開啟]。**
+3. 在 [**搜尋**] 底下，在**使用 Exchange 通訊錄原則的小組中，[範圍目錄搜尋] 旁 (ABP) **，請開啟 **[開啟]。**
 
     ![Microsoft 團隊系統管理中心的作用中目錄搜尋範圍](media/teams-scoped-directory-search-image1.png)
 

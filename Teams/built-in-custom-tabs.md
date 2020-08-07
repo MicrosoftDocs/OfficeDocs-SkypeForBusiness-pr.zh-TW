@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中使用內建和自訂索引標籤
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解如何使用內建和自訂索引標籤來包含交談、檔案、地圖等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824691"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581354"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft 團隊中使用內建和自訂索引標籤
 ==================================================
@@ -41,7 +41,7 @@ ms.locfileid: "41824691"
 
     ![聊天中之索引標籤的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- 擁有者和小組成員可以按一下 [新增索引標籤] 按鈕的 [新增索引標籤 **]** ![螢幕擷取畫面，顯示 + 符號，將更多索引標籤新增到頻道或聊天中。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 在頻道或聊天的頂端。
+- 擁有者和小組成員可以按一下 [新增索引標籤] 按鈕的 [新增索引標籤 **]** ![ 螢幕擷取畫面，顯示 + 符號，將更多索引標籤新增到頻道或聊天中。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 在頻道或聊天的頂端。
 
 - Excel、PowerPoint、Word 和 PDF 檔案**必須上傳至 [檔案**] 索引標籤，才能轉換為索引標籤。 只要按一下，任何現有的上傳檔案就可以轉換成索引標籤，如下所示。
 

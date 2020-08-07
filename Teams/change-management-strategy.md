@@ -1,8 +1,8 @@
 ---
 title: 建立變更管理策略
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -15,12 +15,12 @@ description: 透過找出重要的專案關係人、商業結果、成功的措�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690479"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581784"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立 Microsoft 團隊的變更管理策略
 =======================================================
@@ -43,7 +43,7 @@ ms.locfileid: "44690479"
     
     c-clip.  已定義的意見反應機制
 
-    希望.  預先定義的成功措施（方案採納、主要資料視圖、課程中出席）
+    希望.  預先定義的成功措施 (方案採納、主要資料的視圖、課程) 出席
 
 4.  在您的服務部署之外建立擁護者計畫
 
@@ -101,7 +101,7 @@ ms.locfileid: "44690479"
 
 -   縮短產品開發週期
 
-您的銷售人員是否有問題需要協調才能提供絕佳的體驗？ 您是否需要在交付產品或服務方面有較好的合作？ 對於您自己的員工而言，人力資源（HR）的相關經驗為何？ 每個組織都會找出自己的優先順序。 我們建議您在初始試點中選取不超過三個位址，包括來自這些特定組織的使用者和商業專業人員。 
+您的銷售人員是否有問題需要協調才能提供絕佳的體驗？ 您是否需要在交付產品或服務方面有較好的合作？ 人力資源 (人力資源) 與您自己員工的相關經驗有關的資訊？ 每個組織都會找出自己的優先順序。 我們建議您在初始試點中選取不超過三個位址，包括來自這些特定組織的使用者和商業專業人員。 
 
 您也可以考慮在這些案例中內嵌的使用者。 他們是否已開啟以進行變更？ 他們是行動裝置使用者還是在您的設施內？ 他們對支援人員和擁護者的中樞，以及是否有任何您可以用來 evangelize 此變更的現有社區與通訊方法？  
 

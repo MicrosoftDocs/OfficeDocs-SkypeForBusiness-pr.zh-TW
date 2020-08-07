@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d971a7c9e44e2fbf7c3d2500f237e3755c5f89d0
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522900"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588287"
 ---
 # <a name="use-ndi-in-microsoft-teams"></a>在 Microsoft 團隊中使用 NDI
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
-網路裝置介面（NDI）是一種連線媒體裝置（例如畫室式相機和混音器）的新式方案。 NDI 會透過本機內部網路（包括本機電腦）來啟用連線，而不是使用物理連線。
+網路裝置介面 (NDI) 是一種連線媒體裝置的新式方案， (例如錄音室相機和混音器) 。 NDI 會透過本機內部網路（包括本機電腦）來啟用連線，而不是使用物理連線。
 
 NewTek NDI®已成為一個標準的工業方案，可為數據流製作即時內容，並在專業的廣播世界中取得重要的認識與採納。
 
@@ -40,7 +40,7 @@ NDI 受限於局域網，且只能看作是生產工作流程的一部分，而�
 
 NDI 需要為使用者開啟兩個步驟。
 
-1. 租使用者管理員必須啟用功能標誌 enableStreamingCallsOverNdi。
+1. 租使用者管理員必須在 CsTeamsMeetingPolicy 中啟用 ' AllowNDIStreaming」屬性。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -54,16 +54,16 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 ![顯示在團隊會議中的 NDI 橫幅影像。](media/NDI-disclosure.png)
 
-橫幅有[Microsoft 隱私權原則](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi)的連結。
+橫幅有[Microsoft 隱私權原則](https://aka.ms/teamsprivacy)的連結。
 
 ## <a name="supported-locales-and-user-types"></a>支援的區域設定和使用者類型
 
 NDI 在所有地區設定中都受支援。 NDI 會議支援下列使用者：
 
-- 租使用者-完全支援，根據響鈴/tenantId/userId （由會議原則 + 功能標誌控制）提供。
-- 同盟–否（即使已開啟 NDI）<sup>1</sup>
-- Freemium-否（預設值）
-- 匿名–否（預設值）
-- 來賓–否（預設值）
+- 受租使用者-完整支援，根據會議原則所控制的響鈴/tenantId/userId (傳送) 
+- 同盟–即使在) <sup>1</sup>上有 NDI，也沒有 (
+- Freemium-沒有 (預設值) 
+- 匿名–沒有 (預設值) 
+- 來賓–沒有 (預設值) 
 
 <sup>1</sup>個裝置預設為開啟的 NDI 設定。 如果會議參與者使用的裝置有 NDI [關閉]，就必須開啟 NDI。

@@ -1,13 +1,13 @@
 ---
-title: 在 Microsoft 團隊用戶端中實現服務品質（QoS）
-author: lolajacobsen
-ms.author: lolaj
+title: '在 Microsoft 團隊用戶端中實現服務品質 (QoS) '
+author: SerdarSoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: 瞭解如何使用服務品質（QoS）來優化 Microsoft 團隊桌面用戶端的網路流量。
+description: 瞭解如何使用服務品質 (QoS) 來優化 Microsoft 團隊桌面用戶端的網路流量。
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 77f1754277cfeacd31de28dcee089a8f97991c87
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085529"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583682"
 ---
-# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在 Microsoft 團隊用戶端中實現服務品質（QoS）
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在 Microsoft 團隊用戶端中實現服務品質 (QoS) 
 
-您可以在 [群組原則] 中使用原則式服務品質（QoS），在 [團隊用戶端] 中設定預先定義 DSCP 值的來源埠範圍。 下表中指定的埠範圍是為每個工作負載建立原則的起點。
+您可以在群組原則中使用原則式服務品質 (QoS) ，以在團隊用戶端中設定預先定義之 DSCP 值的來源埠範圍。 下表中指定的埠範圍是為每個工作負載建立原則的起點。
 
 *資料表1。建議的初始埠範圍*
 
@@ -39,7 +39,7 @@ ms.locfileid: "45085529"
 
 請盡可能在群群組原則物件中設定原則式 QoS 設定。 下列步驟與[在商務用 Skype Server 上針對您的用戶端設定埠範圍和服務品質原則](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)非常相似，這也有一些其他可能不必要的詳細資料。
 
-若要為加入網域的 Windows 10 電腦建立 QoS 音訊原則，請先登入已安裝群組原則管理的電腦。 開啟 [群組原則管理] （按一下 [開始]，指向 [系統管理工具]，然後按一下 [群組原則管理]），然後完成下列步驟：
+若要為加入網域的 Windows 10 電腦建立 QoS 音訊原則，請先登入已安裝群組原則管理的電腦。 開啟 [群組原則管理] (按一下 [開始]，指向 [系統管理工具]，然後按一下 [群組原則管理]) ，然後完成下列步驟：
 
 1. 在 [群組原則管理] 中，找出要建立新原則的容器。 例如，如果所有用戶端電腦都位於一個名為「**用戶端**」的 OU 中，則應該在用戶端 OU 中建立新的原則。
 
@@ -55,9 +55,9 @@ ms.locfileid: "45085529"
 
 1. 在下一頁中，選取 [**僅限具有此可執行檔名稱的應用程式**]，然後輸入**Teams.exe**的名稱，然後按 **[下一步]**。 此設定會指示原則只會將小組用戶端的流量相符的優先順序。
 
-1. 在第三個頁面上，確認已選取 [**所有來源 ip 位址**] 和 [**任何目的地 ip 位址**]，然後按一下 **[下一步]**。 這兩項設定可確保無論哪個電腦（IP 位址）傳送資料包，以及哪台電腦（IP 位址）會接收資料包，都會管理資料包。
+1. 在第三個頁面上，確認已選取 [**所有來源 ip 位址**] 和 [**任何目的地 ip 位址**]，然後按一下 **[下一步]**。 這兩項設定可確保資料包會受到管理，不論哪台電腦 (IP 位址) 傳送資料包，以及哪些電腦 (IP 位址) 會接收資料包。
 
-1. 在第四頁，從 [**選取此 QoS 原則套用至下列協定**] 下拉式清單中選取 [ **TCP 和 UDP** ]。 TCP （傳輸控制通訊協定）和 UDP （使用者資料包通訊協定）是兩種最常使用的網路通訊協定。
+1. 在第四頁，從 [**選取此 QoS 原則套用至下列協定**] 下拉式清單中選取 [ **TCP 和 UDP** ]。 TCP (傳輸控制通訊協定) 和 UDP (使用者資料包通訊協定) 是兩種最常使用的網路通訊協定。
 
 1. 在 [標題] 底下，**指定來源埠號**，選取 [**從此來源埠或範圍**]。 在隨附的文字方塊中，輸入為音訊廣播保留的埠範圍。 例如，如果您是透過埠50019將埠50000保留音訊流量，請輸入使用此格式的埠範圍： **50000:50019**。 按一下 **[完成]**。
 
@@ -65,7 +65,7 @@ ms.locfileid: "45085529"
 
 在用戶端電腦上重新整理 [群組原則] 之前，您所建立的新原則將不會生效。 雖然群組原則會定期自行進行重新整理，但是您可以遵循下列步驟強制立即重新整理：
 
-1. 在您要重新整理群組原則的每一台電腦上，以系統管理員身分開啟命令提示字元（*以系統管理員身分執行*）。
+1. 在您要重新整理群組原則的每一台電腦上，以系統管理員身分開啟命令提示字元， (*以系統管理員身分執行*) 。
 
 1. 在命令提示字元中，輸入
 
@@ -77,7 +77,7 @@ ms.locfileid: "45085529"
 
 若要確認已設定群組原則物件的值，請執行下列步驟：
 
-1. 以系統管理員身分開啟命令提示字元（*以系統管理員身分執行*）。
+1. 以系統管理員身分開啟命令提示字元， (*以系統管理員身分執行*) 。
 
 1. 在命令提示字元中，輸入
 
@@ -122,4 +122,4 @@ ms.locfileid: "45085529"
 
 ## <a name="related-topics"></a>相關主題
 
-[在團隊中實現服務品質（QoS）](QoS-in-Teams.md)
+[在團隊中實現服務品質 (QoS) ](QoS-in-Teams.md)

@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Graph 快速開始使用團隊範本
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506183"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583522"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 快速開始使用團隊範本
 
@@ -49,8 +49,8 @@ ms.locfileid: "46506183"
 | 基底範本類型 | 團隊成員資格 |
 | 團隊名稱 | 小組圖片 |
 | 團隊描述 | 頻道設定 |
-| 團隊可見度（公開或私人） | 連接器 |
-| 團隊設定（例如 [成員]、[來賓]、[@ 提及]） | 檔案和內容 |
+| 團隊可視性 (公開或私人)  | 連接器 |
+| 小組設定 (例如 [成員]、[來賓]、[@ 提及])  | 檔案和內容 |
 | 自動常用頻道 | |
 | 已安裝的應用程式 | |
 | 釘選索引標籤 | |
@@ -69,9 +69,9 @@ ms.locfileid: "46506183"
 | 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | 標準 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 沒有其他 app 和屬性 |
-| 學習<br>課程小組 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 應用<ul><li>OneNote 課程筆記本（已固定至 **[一般**] 索引標籤） </li><li>作業應用程式（釘選到 [**一般**] 索引標籤）</li></ul> 團隊屬性：<ul><li>團隊可見度設定為**HiddenMembership** （不能重寫）</li></ul> |
-| 學習<br>員工小組 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 應用<ul><li>OneNote 教職員筆記本（已固定至 **[一般**] 索引標籤）</li></ul> |
-|學習<br>PLC 小組 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 應用<ul><li>OneNote PLC 筆記本（已固定至 **[一般**] 索引標籤）</ul></li>|
+| 學習<br>課程小組 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 應用<ul><li>OneNote 課程筆記本 (釘選到 [**一般**] 索引標籤)  </li><li>[作業] app (釘選到 [**一般**] 索引標籤) </li></ul> 團隊屬性：<ul><li>無法重寫 [團隊可見度] 設定為**HiddenMembership** () </li></ul> |
+| 學習<br>員工小組 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 應用<ul><li>OneNote 員工筆記本 (釘選到 [**一般**] 索引標籤) </li></ul> |
+|學習<br>PLC 小組 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 應用<ul><li>OneNote PLC 筆記本 (釘選到 [**一般**] 索引標籤) </ul></li>|
 | 面向<br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 管道<ul><li>倒班切換</li><li>教學</li></ul>團隊屬性<ul><li>將團隊可見度設定為 Public</li></ul>成員許可權<ul><li>避免成員建立、更新或移除頻道</li><li>防止成員新增或移除應用程式</li><li>防止成員建立、更新或移除連接器</li></ul> |
 | 面向<br>Manager 共同作業 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 管道<ul><li>倒班切換</li><li>教學</li></ul>團隊屬性：<ul><li>[團隊可見度] 設定為 [私人]</li></ul>成員許可權：<ul><li>避免成員建立、更新或移除頻道</li><li>防止成員新增或移除應用程式</li><li>防止成員建立、更新或移除連接器</li></ul>|
 | 健康<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |管道 <ul><li>公告\*</li><li>Huddles\*</li><li>輪</li><li>人員\*</li><li>訓練\*</li></ul>\*自動將通道 |
@@ -80,7 +80,7 @@ ms.locfileid: "46506183"
 
 ## <a name="related-topics"></a>相關主題
 
-- [建立小組](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在預覽中）
+- 在預覽中[建立小組](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) () 
 - [新團隊](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft 團隊的系統管理訓練](itadmin-readiness.md)
 - [開始使用適用於零售業的 Teams 範本](get-started-with-retail-teams-templates.md)

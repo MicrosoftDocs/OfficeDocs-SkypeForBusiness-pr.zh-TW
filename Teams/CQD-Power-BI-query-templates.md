@@ -1,7 +1,7 @@
 ---
 title: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -16,18 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料。
-ms.openlocfilehash: 3b667bfeea80cc4ba2abe40f71c6ce815bcf38e0
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 5ce4aa58033555551c2fa75f3c3eb93068c59601
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086179"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584042"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
 
 2020年1月[的新功能：下載 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可自訂的 Power BI 範本，您可以用來分析及報告您的 CQD 資料。
 
-針對團隊中的通話品質儀表板（CQD）報告，如果您想要使用 Power BI 來查詢及報告資料，請下載我們的 CQD Power BI 範本。 當您在 Power BI 中開啟範本時，系統會提示您使用 CQD 管理員認證登入。 您可以自訂這些查詢範本，並將它們發佈給貴組織中擁有 Power BI 授權及 CQD 系統管理員許可權的任何人。
+如果您想要使用 Power BI 查詢及報告資料，請在 [通話品質儀表板] (CQD [團隊中) 報表]，然後下載我們的 CQD Power BI 範本。 當您在 Power BI 中開啟範本時，系統會提示您使用 CQD 管理員認證登入。 您可以自訂這些查詢範本，並將它們發佈給貴組織中擁有 Power BI 授權及 CQD 系統管理員許可權的任何人。
 
 在您可以使用這些 PBIT 檔案之前，您必須使用[下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality Pqx*檔案，[安裝 Microsoft CQD 的 Power BI 連接器](CQD-Power-BI-connector.md)。 
 
@@ -35,13 +35,13 @@ ms.locfileid: "45086179"
 
 |  |  |
 |---------|---------|
-|CQD 支援人員報告。 pbit     |整合建立與 EUII 資料時，此報告的設計目的是讓您從單一使用者向上切入，找出該使用者的通話品質差的上游根本原因（例如，使用者在遇到網路問題的建築物中）。         |
-|CQD 位置增強的報表。 pbit     | 重新 imagining CQD 的 SPD 位置報告。 包括9個報告、提供通話品質、建立 WiFi、可靠性，以及透過透過建立或使用者進行額外的 thrus 來評價我的通話（RMC）資訊。  請確定您上傳的是組建資料，以最大化您的報表體驗。        |
-|CQD 行動裝置報告。 pbit     | 提供專門針對行動裝置使用者進行調整的深入資訊，包括通話品質、可靠性及評級我的通話。 查看行動網路、WiFi 網路及行動作業系統報告（Android、iOS）。        |
+|CQD 支援人員報告。 pbit     |整合建立與 EUII 資料時，此報告的設計目的是讓您從單一使用者向上切入，以找出該使用者的通話品質差的上游根本原因，例如，使用者在遇到網路問題) 中的 (。         |
+|CQD 位置增強的報表。 pbit     | 重新 imagining CQD 的 SPD 位置報告。 包括9個報告、提供通話品質、建立 WiFi、可靠性，以及使用其他 thrus （透過建立或由使用者）來評價我的通話 () RMC 資訊。  請確定您上傳的是組建資料，以最大化您的報表體驗。        |
+|CQD 行動裝置報告。 pbit     | 提供專門針對行動裝置使用者進行調整的深入資訊，包括通話品質、可靠性及評級我的通話。 在 Android、iOS)  (查看行動網路、WiFi 網路及行動作業系統報告。        |
 |CQD PSTN 直向路由報告。 pbit     |提供穿過直接路由的 PSTN 呼叫的深入見解。 若要深入瞭解，請[使用 CQD PSTN Direct 路由報告](CQD-PSTN-report.md)進行閱讀。         |
-|CQD 摘要報表。 pbit     |更好的視覺效果、改良的簡報、增加的資訊密度，以及滾動日期。 這些報告可讓識別碼的離群更容易。 使用便於使用的互動式地圖，透過位置深化通話品質。 9個新的報表：</p>整體品質<br>-整體可靠性<br>-RMC （費率通話）整體<br>-會議品質<br>-P2P 品質<br>-會議可靠性<br>-P2P 可靠性<br>-會議 RMC<br>-P2P RMC         |
-|<strong>（新增！）</strong>CQD [團隊利用率] 報表。 pbit     | 顯示貴組織中的使用者如何使用團隊以及多少。 請確定您上傳的是組建資料，以最大化您的報表體驗。 若要深入瞭解，請參閱[使用 CQD POWER BI 報表來查看 Microsoft 團隊的利用率](CQD-teams-utilization-report.md)。        |
-|CQD 使用者意見反應（評級我的通話）報告。 pbit     | 顯示使用您可以輕鬆地協助支援您組織通話的方式，為我的通話資料打分。 與 verbatims 進行交叉參照，以找出使用者的教育機會。        |
+|CQD 摘要報表。 pbit     |更好的視覺效果、改良的簡報、增加的資訊密度，以及滾動日期。 這些報告可讓識別碼的離群更容易。 使用便於使用的互動式地圖，透過位置深化通話品質。 9個新的報表：</p>整體品質<br>-整體可靠性<br>-RMC () 整體撥打通話費用<br>-會議品質<br>-P2P 品質<br>-會議可靠性<br>-P2P 可靠性<br>-會議 RMC<br>-P2P RMC         |
+|<strong> (New！ ) </strong>CQD [團隊利用率] 報表。 pbit     | 顯示貴組織中的使用者如何使用團隊以及多少。 請確定您上傳的是組建資料，以最大化您的報表體驗。 若要深入瞭解，請參閱[使用 CQD POWER BI 報表來查看 Microsoft 團隊的利用率](CQD-teams-utilization-report.md)。        |
+|CQD [使用者意見反應] (將我的通話) 報告。 pbit     | 顯示使用您可以輕鬆地協助支援您組織通話的方式，為我的通話資料打分。 與 verbatims 進行交叉參照，以找出使用者的教育機會。        |
 
 > [!TIP]
 > 在您設定 Power BI 報表以取得 CQD 資料後，請將其新增為頻道的索引標籤。 選取頻道之後 **+** ，請選取 [ **Power BI** ]，然後尋找您的報表。 若要深入瞭解，請參閱[使用 [POWER BI] 索引標籤針對團隊的內嵌報表](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)。 請記住，只有具備 Power BI 授權及 CQD 管理員認證的人員才能存取這些報告。

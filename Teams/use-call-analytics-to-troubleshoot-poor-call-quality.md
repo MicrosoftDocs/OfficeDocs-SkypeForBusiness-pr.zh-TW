@@ -1,7 +1,7 @@
 ---
 title: 使用呼叫分析來排查不佳的通話品質問題
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用針對裝置、網路和連線的每個使用者呼叫分析詳細資料，以解決 Microsoft 團隊通話和會議的使用者問題。
-ms.openlocfilehash: fa923a133ac6a56edcbc6f6445d2859692adf351
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 8bee41e79f2610adcb9a1fed3f895c728526f5ea
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085319"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583622"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用呼叫分析來排查不佳的通話品質問題
 
@@ -41,7 +41,7 @@ ms.locfileid: "45085319"
 
 ## <a name="introduction-to-call-analytics"></a>通話分析簡介
 
-[通話分析] 會顯示針對您 Office 365 帳戶中每位使用者的小組通話與會議的詳細資訊。 它包含有關裝置、網路、連線及通話品質的資訊（這些都可能是不佳通話或會議品質的一個因素）。 如果您上傳的是建築物、網站和租使用者資訊，也會針對每個通話和會議顯示此資訊。 使用呼叫分析，協助您找出使用者為何通話或會議體驗不佳的原因。
+[通話分析] 會顯示針對您 Office 365 帳戶中每位使用者的小組通話與會議的詳細資訊。 它包含裝置、網路、連線和通話品質的相關資訊 (其中任何一項都可能是) 通話或會議品質不佳的因素。 如果您上傳的是建築物、網站和租使用者資訊，也會針對每個通話和會議顯示此資訊。 使用呼叫分析，協助您找出使用者為何通話或會議體驗不佳的原因。
 
 [通話分析] 會顯示通話或會議的每個腿，例如，從一個參與者到第二個參與者。 透過分析這些詳細資料，團隊管理員可以隔離問題區域並找出品質欠佳的根本原因。
    
@@ -59,9 +59,9 @@ ms.locfileid: "45085319"
   
 ## <a name="what-does-each-teams-support-role-do"></a>每個團隊支援角色的功能是什麼？
 
-**團隊通訊支援專家**（第1層支援）會處理基本的通話品質問題。 他們不會調查會議的問題。 相反地，他們會收集相關資訊，然後升級至通訊支援工程師。 
+**團隊通訊支援專家** (第1層支援) 處理基本的通話品質問題。 他們不會調查會議的問題。 相反地，他們會收集相關資訊，然後升級至通訊支援工程師。 
 
-**團隊通訊支援工程師**（第2層支援）會查看小組通訊支援專家隱藏的詳細通話記錄中的資訊。 下表列出每個小組通訊支援角色所提供的資訊。
+**團隊通訊支援工程師** (第2層支援) 可在小組通訊支援專家隱藏的詳細通話記錄中查看資訊。 下表列出每個小組通訊支援角色所提供的資訊。
 
 下表說明每個使用者資訊可供每個通訊支援角色使用。
 
@@ -80,7 +80,7 @@ ms.locfileid: "45085319"
   
 ## <a name="troubleshoot-user-call-quality-problems"></a>疑難排解使用者通話品質問題 
 
-1. 開啟 [團隊系統管理中心] （ https://admin.teams.microsoft.com) 並以您的小組通訊支援或團隊管理員認證登入。
+1. 開啟 [團隊管理中心] (https://admin.teams.microsoft.com) 並使用您的小組通訊支援或團隊管理員認證登入。
 
 2. 在**儀表板**上的 [**使用者搜尋**] 中，開始輸入您想要排查其通話問題之使用者的名稱或 SIP 位址，或選取 [**查看使用者**] 來查看使用者清單。
 
@@ -94,12 +94,12 @@ ms.locfileid: "45085319"
       
 在少數情況下，音訊會話的體驗資料品質不會收到。 這通常是由中斷的通話或與用戶端的連線所導致。 發生這種情況時，**無法使用**[會議評等]。
   
-對於有經驗品質（QoE）資料的音訊會話，下表說明將會話限制為**不良**的主要問題。
+對於 (QoE) 資料的音訊會話，您可以使用下清單格來說明將會話限定為**不良**的主要問題。
   
 |**問題**|**圖**|**描述**|
 |:-----|:-----|:-----|
 |撥號設定  <br/> |工作階段  <br/> |錯誤碼 Ms-診斷程式20-29 指出通話設定失敗。 使用者無法加入通話或會議。  <br/> |
-|音訊網路分類不佳通話  <br/> |工作階段  <br/> |遇到網路品質問題（例如資料包遺失、抖動、NMOS 下降、RTT 或隱藏比率）。  <br/> |
+|音訊網路分類不佳通話  <br/> |工作階段  <br/> |網路品質問題 (例如，遇到資料包遺失、抖動、NMOS 下降、RTT 或隱藏比率) 。  <br/> |
 |裝置無法運作  <br/> |裝置  <br/> | 裝置無法正常運作。 裝置的運作比例如下： <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
 

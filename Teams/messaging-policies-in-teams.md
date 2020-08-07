@@ -1,7 +1,7 @@
 ---
 title: 管理小組中的訊息傳遞原則
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解訊息原則，以及如何使用它們來控制團隊中的聊天訊息。
-ms.openlocfilehash: c29697c8ec4d235ed232616e34590351bea59e9e
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042975"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583290"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理小組中的訊息傳遞原則
 
 <!--- Add zone marker here--->
 
-管理原則是用來控制 Microsoft Teams. 中使用者可使用的聊天及頻道訊息功能。 您可以使用 [全域（組織範圍預設值）] 原則，自動建立或建立及指派自訂的訊息原則。
+管理原則是用來控制 Microsoft Teams. 中使用者可使用的聊天及頻道訊息功能。 您可以使用全域 (組織範圍的預設) 原則，此原則會自動建立，或建立及指派自訂的訊息原則。
 
 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 您可以編輯全域原則中的設定，或建立並指派一或多個自訂原則，以開啟或關閉您想要的功能。
 
@@ -80,7 +80,7 @@ ms.locfileid: "45042975"
 - **使用者可以編輯已傳送的郵件**使用此設定可讓使用者編輯其在聊天中傳送的郵件。
 - 已**讀回執**[已讀] 回執可讓聊天訊息的寄件者在1:1 和群組聊天20人或更少的收件者朗讀其郵件時收到通知。 郵件讀信回條移除郵件是否已讀取的 uncertainly，以及改善小組溝通。 請注意，在 eDiscovery 報表中不會捕獲讀信回條。  
     - **使用者控制**這表示使用者可以決定是否要開啟或關閉 [已讀] 回執。 App 內的預設設定為 [開啟]。 然後，使用者就可以將它關閉。
-    - **針對所有人**這表示租使用者中的所有人都可以開啟此功能，沒有任何選項可將其關閉。 請注意，為整個租**使用者**設定回執的唯一方式，就是只針對整個租使用者（名為「全域（組織範圍的預設值）」的預設原則），或在租使用者中的所有訊息原則都使用相同的收據設定。 當**針對所有人**啟用此功能時，[已讀] 的 [已讀] 功能最有效。
+    - **針對所有人**這表示租使用者中的所有人都可以開啟此功能，沒有任何選項可將其關閉。 請注意，為整個租**使用者**設定回執的唯一方式是，只有整個租使用者才能使用單一訊息原則， (名為「全域 (組織範圍預設) 」的預設原則 ) 或讓租使用者中的所有訊息原則都使用相同的收據設定。 當**針對所有人**啟用此功能時，[已讀] 的 [已讀] 功能最有效。
     - **針對所有人關閉**這表示該功能已停用，且租使用者沒有讀信回條，也無法將它開啟。
 <a name="bkchat"> </a>
 

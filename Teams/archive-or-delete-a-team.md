@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中封存或刪除團隊
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372192"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582760"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 ===========================================
@@ -48,7 +48,7 @@ ms.locfileid: "45372192"
 
     ![螢幕擷取畫面：Teams 封存訊息](media/teams-archive-message.png)
 
-4. 若要防止使用者編輯 SharePoint 網站與小組相關的 [Wiki] 索引標籤中的內容，請選取 **[將 sharepoint 網站設為唯讀] 給小組成員**。 （團隊擁有者仍能編輯此內容）。
+4. 若要防止使用者編輯 SharePoint 網站與小組相關的 [Wiki] 索引標籤中的內容，請選取 **[將 sharepoint 網站設為唯讀] 給小組成員**。  (團隊擁有者仍能編輯此內容。 ) 
 5. 選取 [封存]**** 以封存小組。 小組的狀態會變更為 [已封存]****。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中

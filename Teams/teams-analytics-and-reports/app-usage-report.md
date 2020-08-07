@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊 app 使用方式報告
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心使用團隊 app 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 91af37ed9c19a1d3e8d32cdf296cf32e90818564
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938202"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583792"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft 團隊 app 使用方式報告
 

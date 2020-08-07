@@ -1,7 +1,7 @@
 ---
 title: 在零售中開始使用團隊範本
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9b170047a3b8d3218b8e31bdc9d4b1035eb8706c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904658"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583200"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>在零售中開始使用團隊範本 
 
@@ -51,7 +51,7 @@ ms.locfileid: "43904658"
 
 - 如果您的組織在每個商店中都有部門，請為每個部門新增頻道。 這將有利於在部門內進行通訊與共同作業。
 
-- 如果您的組織有任何內部網站（例如，SharePoint 網站），請考慮將其固定為相關團隊頻道中的索引標籤。 請參閱[開始使用團隊範本](get-started-with-teams-templates.md)取得相關指示。
+- 如果您的組織有任何內部網站 (例如，SharePoint 網站) ，請考慮將它們釘選為相關團隊頻道中的索引標籤。 請參閱[開始使用團隊範本](get-started-with-teams-templates.md)取得相關指示。
 
 ## <a name="manager-collaboration-template"></a>Manager 共同工作範本
 
@@ -64,7 +64,7 @@ Manager 共同工作範本是根據零售商的需求而設計的另一個團隊
 
 為您的組織自訂管理員共同工作範本的建議方式：
 
-- 如果您的組織擁有與主管相關的任何內部網站（例如，SharePoint 網站），請考慮將其固定為相關小組頻道中的索引標籤。 您可以參閱[Microsoft 團隊範本檔](get-started-with-teams-templates.md)，以取得相關指示。
+- 如果您的組織有任何內部網站 (例如，與管理員相關的 SharePoint 網站) ，請考慮將其固定為相關團隊頻道中的索引標籤。 您可以參閱[Microsoft 團隊範本檔](get-started-with-teams-templates.md)，以取得相關指示。
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中通話駐留與取回
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何使用通話駐留及取回功能，在雲端的小組服務中保持通話。
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938532"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582650"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在 Microsoft 團隊中通話駐留與取回
 
@@ -48,9 +48,9 @@ ms.locfileid: "44938532"
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>通話駐留及取得功能可用性
 
-下列用戶端和裝置目前支援通話駐留和取回。 （在 [僅限小組] 模式中支援，有或沒有 PSTN 連接）。）
+下列用戶端和裝置目前支援通話駐留和取回。 在只有 PSTN 連線的情況下，在 [僅限團隊] 模式中支援 (。 ) 
 
-| 功能 | 團隊桌面 | 團隊 Mac 應用程式 | 小組 Web App （邊緣） |團隊行動 iOS/Android 應用程式 | 團隊 IP 電話 | 商務用 Skype IP 電話 |
+| 功能 | 團隊桌面 | 團隊 Mac 應用程式 | 團隊 Web App (邊緣)  |團隊行動 iOS/Android 應用程式 | 團隊 IP 電話 | 商務用 Skype IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | 寄存通話 | 是 | 是 | 是 | 是 | 是 | 否 |
 | 檢索寄存通話 | 是 | 是 | 是 | 是 | 是 | 否 |

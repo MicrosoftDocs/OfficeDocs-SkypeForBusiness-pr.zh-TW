@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft 365 和自訂連接器
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -17,12 +17,12 @@ description: 連接器透過將您經常使用的服務中的內容和更新直�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9ea72fbe054e3a6d0e89f87f1a8c23303ef55c5c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637752"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582470"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 團隊中使用 Microsoft 365 和自訂連接器
 =======================================================
@@ -38,7 +38,7 @@ Microsoft 365 連接器可搭配 Microsoft 團隊和 Microsoft 365 群組使用�
 
 目前，您可以使用 Microsoft 團隊桌面與網頁用戶端來新增連接器。 不過，您可以在**所有用戶端**（包括行動裝置）上查看透過這些連接器發佈的資訊。
 
-1. 若要新增連接器至頻道，請按一下頻道名稱右側的**省略號（...）** ，然後按一下 [**連接器**]。
+1. 若要新增連接器至頻道，請按一下頻道名稱右側的**省略號 ( ... ) ** ]，然後按一下 [**連接器**]。
 
     ![已選取 [連接器] 選項的 [小組介面] 螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 

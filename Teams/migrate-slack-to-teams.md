@@ -1,7 +1,7 @@
 ---
 title: 從 Slack 移轉到 Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 從 Slack 移轉到 Microsoft Teams 的完全指引。
-ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 142a573acaaf9b2d7da50ec2516fbc6c30f4ed2b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638642"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581434"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>從 Slack 移轉到 Microsoft Teams
 

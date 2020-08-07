@@ -1,7 +1,7 @@
 ---
 title: 使用 CQD PSTN Direct 路由報告
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article
@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 Microsoft 團隊通話品質儀表板（CQD） PSTN 直向路由報告來監控並疑難排解 Microsoft 團隊中的 PSTN 通話。
-ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: '使用 Microsoft 團隊通話品質儀表板 (CQD) # A2 PSTN Direct 路由報告，以監控並疑難排解 Microsoft 團隊中的 PSTN 通話。'
+ms.openlocfilehash: e4662d80dbba88c1049c7ef98569dae408ca9ba0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085339"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583100"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN Direct 路由報告
 
-2020年3月的新功能我們已新增 Microsoft 團隊通話品質儀表板（CQD） PSTN 直接路由報告至我們供您下載[的 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
+新功能在2020年3月，我們已新增 Microsoft 團隊通話品質儀表板 (CQD) PSTN Direct 路由報告到我們可下載[的 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
 
 
-CQD PSTN Direct 路由報告（CQD PSTN 直向路由報告 pbit）可協助您瞭解 PSTN 服務的使用模式與品質。 使用此報告可監視服務使用方式、會話邊界控制器（SBC）、電話語音、網路參數及網路效能比率詳細資料的相關資訊。 此資訊可協助您找出問題，包括中斷通話的原因。 例如，您可以看到 [音量下降]，或多少通話受到影響，以及原因。
+CQD PSTN Direct 路由報告 (CQD PSTN 直向路由報告。 pbit) 可協助您瞭解 PSTN 服務的使用模式與品質。 使用此報告可監視服務使用方式、有關會話邊界控制器 (SBC) 、電話語音、網路參數和網路效能比率的詳細資訊。 此資訊可協助您找出問題，包括中斷通話的原因。 例如，您可以看到 [音量下降]，或多少通話受到影響，以及原因。
 
 
 CQD PSTN Direct 路由報告有四個區段：
@@ -44,7 +44,7 @@ CQD PSTN Direct 路由報告有四個區段：
 
 1. 依呼叫類型、SBC、來電者和被叫方國家/地區分析
 
-   CQD PSTN Direct 路由報告會針對最近7、30或180天（6個月）的所有半形在您的租使用者上匯總可靠性和使用方式度量單位。 您可以依呼叫類型、SBC、來電者和被叫方國家/地區來分析資料。 如果您對特定的 SBC 或國家/地區感興趣，您可以在選取的時間範圍內，找出趨勢的變更。
+   CQD PSTN Direct 路由報告會針對過去7天、30天或180天 (6 個月) ，為您租使用者的所有半年數。 您可以依呼叫類型、SBC、來電者和被叫方國家/地區來分析資料。 如果您對特定的 SBC 或國家/地區感興趣，您可以在選取的時間範圍內，找出趨勢的變更。
    :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="CQD PSTN Direct 路由報告中可用之篩選的螢幕擷取畫面":::
    
 2. 追蹤趨勢
@@ -71,7 +71,7 @@ CQD PSTN Direct 路由報告提供下列與服務的整體健康情況相關的�
 | 2            | 過去180天的使用量趨勢。 您可以在服務詳細資料頁面找到使用狀況詳細資料包告。                                                                     |
 | 3            | 過去180天后的撥號延遲、延遲、抖動及資料包遺失趨勢。 您可以在 [網路參數] 頁面上找到 [詳細資料包表]。                           |
 | 4            | 過去180天的同時通話和每日作用中使用者趨勢。 此圖表可協助您瞭解服務的最大數量。                            |
-| 500            | 上個通話結束原因在過去的180天中受影響的服務品質。 您可以在 [網路有效比率（NER）] 頁面上找到服務健康情況詳細資料。                    |
+| 500            | 上個通話結束原因在過去的180天中受影響的服務品質。 您可以在 NER) 頁面 (的網路有效比率中找到服務健康情況詳細資料。                    |
 
 ## <a name="service-details"></a>服務詳細資料
 
@@ -83,7 +83,7 @@ CQD PSTN Direct 路由報告提供下列與服務的整體健康情況相關的�
 
   - **總分鐘數–** 該時間範圍內的總分鐘使用量
 
-  - **每日作用中的使用者（DAU）-** 一天中至少進行一個連線通話的每日作用中使用者計數
+  - **每日作用中的使用者 (DAU) –** 一天中至少進行一個連線通話的每日作用中使用者計數
 
   - **同時通話–** 一分鐘內同時進行中的通話最大值
 
@@ -99,9 +99,9 @@ CQD PSTN Direct 路由報告提供下列與服務的整體健康情況相關的�
 
 ## <a name="network-effectiveness-ratio"></a>網路效能比率
 
-這就是顯示在整體健康情況儀表板上的相同指標。 您可以在每小時網路效能比率中，查看含有受影響通話路線的每小時 NER 數的通話指示（入站/出站），並在下方加上通話結束原因圖表。
+這就是顯示在整體健康情況儀表板上的相同指標。 您可以在每小時網路效能比率的 NER 輸入/輸出) 中，查看有受影響通話 (路線的每小時數，並在下方使用 [通話結束原因] 圖表。
 
-  - **NER** -功能（%）透過測量傳送給收件者的呼叫數與傳送給收件者的呼叫次數來傳送通話的網路。
+  - **NER** -透過測量傳送給收件者的呼叫次數，以 (% ) 的網路功能來傳送通話。
 
   - **SIP 回應程式碼**-三位數的整數回應代碼會顯示通話狀態。
 
@@ -127,17 +127,17 @@ CQD PSTN Direct 路由報告提供下列與服務的整體健康情況相關的�
 
 所有網路參數都是從直接路由介面到會話邊界控制器的測量。 如需建議值的相關資訊，請參閱為[Microsoft 團隊準備貴組織的網路](prepare-network.md)，並查看客戶邊緣至 microsoft Edge 的建議值。
 
-  - **抖動**：是在使用 RTCP （RTP 控制通訊協定）的兩個端點之間計算之網路傳播延遲時間變化的毫秒測量。
+  - **抖動**：是在使用 RTCP (RTP 控制通訊協定) 的兩個端點之間，以毫秒為單位變化的時間。
 
   - **資料包遺失**-是一種無法送達資料包的量度，它是在兩個端點之間計算。
 
-  - **滯後**時間（也稱為往返行程時間）是傳送信號所需的時間長度，加上接收該信號所需的確認時間長度。 此時間延遲是由兩個信號點之間的傳播時間所組成。
+  - **延遲**- (也稱為往返行程時間) 是傳送信號所需的時間長度加上接收該信號所需的時間長度。 此時間延遲是由兩個信號點之間的傳播時間所組成。
 
 > ![螢幕擷取畫面： PSTN CQD 報告](media/CQD-PSTN-report6.png)
 
 例如：
 
-如果您在四個圖表的任何一個（延遲、抖動、套件遺失率、Post 延遲）中看到一個峰值，請在02/14/2020 上按一下該日期點。 而底部的每小時趨勢圖將會重新整理，以顯示小時數。 您可以檢查 SBCs，或使用 MS 服務台來提升票證。
+如果您在四個圖表中看到 [波峰]， (延遲、抖動、套件遺失、針對特定日期發佈撥號延遲) （例如，02/14/2020 的延遲），請按一下日期點。 而底部的每小時趨勢圖將會重新整理，以顯示小時數。 您可以檢查 SBCs，或使用 MS 服務台來提升票證。
 
 ![螢幕擷取畫面： PSTN CQD 報告](media/CQD-PSTN-report7.png)
 

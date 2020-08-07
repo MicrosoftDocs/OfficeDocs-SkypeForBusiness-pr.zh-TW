@@ -1,7 +1,7 @@
 ---
 title: 團隊更新
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,18 +16,18 @@ description: 在本文中，您將瞭解更新 Microsoft 團隊桌面用戶端�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 107ef412c7c4faa3e4e0ae3ad9a8539c3bf70dec
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903148"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583270"
 ---
 # <a name="teams-update-process"></a>小組更新流程
 
 團隊 web app 會每週更新一次。
 
-小組的桌面用戶端更新會在經過我們的技術採納計畫（攻絲）嚴格內部測試和驗證之後，每兩周發行一次。 這通常會在星期二進行。 如果需要重要更新，小組會略過此排程，並在更新推出後立即發行更新。
+團隊桌面用戶端更新會在經過我們的技術採納計畫之後，每兩周發行一次， (攻) 。 這通常會在星期二進行。 如果需要重要更新，小組會略過此排程，並在更新推出後立即發行更新。
 
 桌面用戶端會自動更新。 團隊會在幕後每隔幾小時檢查更新、下載更新，然後等到電腦處於空閒狀態，然後才能自行安裝更新。
 
@@ -45,7 +45,7 @@ ms.locfileid: "43903148"
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的小組更新為何？
 
-虛擬桌面基礎結構（VDI）上的團隊用戶端不會自動更新非 VDI 團隊用戶端的方式。 您必須安裝新的 MSI 來更新 VM 影像，如在[VDI 上安裝小組](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)中所述。 您必須卸載目前的版本，才能更新為較新的版本。
+虛擬桌面基礎結構上的團隊用戶端 (VDI) 不會自動更新非 VDI 團隊用戶端的方式。 您必須安裝新的 MSI 來更新 VM 影像，如在[VDI 上安裝小組](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)中所述。 您必須卸載目前的版本，才能更新為較新的版本。
 
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>管理員是否可以部署更新，而不是團隊自動更新？
 
@@ -61,4 +61,4 @@ ms.locfileid: "43903148"
 
 政府群的小組桌面用戶端目前有此服務協定的例外狀況，直到進一步通知。
 
-如需新版版本的詳細資訊，請參閱[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)或移至**協助** > 用戶端**的新增功能**。
+如需新版版本的詳細資訊，請參閱[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)或移至**協助**  >  用戶端**的新增功能**。

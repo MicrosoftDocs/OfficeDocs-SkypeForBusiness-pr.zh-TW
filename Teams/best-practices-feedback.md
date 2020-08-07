@@ -1,8 +1,8 @@
 ---
 title: 使用者意見反應方法的最佳做法
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: conceptual
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a0dcb100ec04a03f48400cbaca01c001a250ffbc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 85a03967b9ea7facb5f7a69090b1b5902b601f64
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136883"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581384"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft 團隊中使用者意見反應方法的最佳做法
 ===========================================================
 
 新的共同作業體驗，就是變更使用者的行為。 人體變更需要訓練、encouragement 和積極的範例。 在轉場期間，人們也很重要。 如果您先前已在貴組織中建立成功的意見反應方法，請考慮將其展開以納入您的團隊實現。 如果您之前沒有這麼做，請考慮下列其中一種方法：
 
--   在 Microsoft 團隊中建立公開小組，任何使用者都可以加入，以提供其體驗的意見反應（請記住，該公用群組受限於5000使用者）。
+-   在 Microsoft 團隊中建立一個公開小組，讓任何使用者都能加入其經驗的意見反應 (請記住，該公用群組5000只能) 的使用者使用。
 
 -   使用 Yammer 提供開放的社區，以取得最佳做法及體驗支援。
 

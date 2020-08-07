@@ -1,7 +1,7 @@
 ---
-title: 什麼是通話品質儀表板（CQD）？
-ms.author: lolaj
-author: LolaJacobsen
+title: 什麼是通話品質儀表板 (CQD) ？
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,26 +22,26 @@ ms.custom:
 - Reporting
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 瞭解通話品質儀表板（CQD），以及如何使用它，在 Microsoft 團隊中查看會議和通話品質的報告。
-ms.openlocfilehash: b7830d60139991b7ccc18679af798c74430e8ed1
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: 瞭解通話品質儀表板 (CQD) ，以及如何使用它在 Microsoft 團隊中查看會議和通話品質的報告。
+ms.openlocfilehash: 9ba1956533887314a9ffa7ad994cbb4c81ffe103
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088241"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583482"
 ---
-# <a name="what-is-call-quality-dashboard-cqd"></a>什麼是通話品質儀表板（CQD）？
+# <a name="what-is-call-quality-dashboard-cqd"></a>什麼是通話品質儀表板 (CQD) ？
 
-Microsoft 通話品質儀表板（CQD）- [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 顯示通話與會議品質，在**組織範圍內**，針對 Microsoft 團隊、商務用 Skype Online 及商務用 skype Server 2019。 
+Microsoft 通話品質儀表板 (CQD) - [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) -顯示通話與會議品質，在**組織範圍內**、Microsoft 團隊、商務用 Skype Online 及商務用 skype Server 2019。 
 
   
-最新版本的 CQD 功能是[近乎即時（NRT）的資料](CQD-data-and-reports.md)摘要，這表示通話記錄在通話結束後的30分鐘內，在 CQD 中都有提供。
+最新版本的 CQD 功能是[近即時 (NRT) 資料](CQD-data-and-reports.md)摘要，這表示在通話結束後的30分鐘內，就能使用 CQD 的通話記錄。
 
-不論 CQD 都包含[使用者的可識別資訊（EUII）資料](CQD-data-and-reports.md#euii-data)，其管理方式都與[Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)中的 EUII 一樣。
+無論是 CQD 包含[使用者可識別資訊 (EUII) 資料](CQD-data-and-reports.md#euii-data)，其管理方式都與[Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)中的 EUII 一樣。
 
 CQD 的設計目的是協助小組系統管理員、商務用 Skype 系統管理員，以及網路工程人員在組織範圍內監視通話與會議品質。 您將會使用 CQD 來協助您**優化網路**，以提高效能品質。 當您需要查看**特定使用者**的通話與會議資訊時，請結合使用 CQD 資料與每個使用者的[呼叫分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
 
-例如，您可以使用 CQD 來判斷使用者的通話品質不佳（您是使用每位使用者通話分析所觀察的），這是因為網路問題也會影響許多其他使用者。 CQD 會捕獲個人通話體驗，以及使用團隊或商務用 Skype 所做的總體通話品質。 使用 CQD 時，整個模式可能會變得很明顯，因此網路工程師可以進行通話品質的及時評估。 CQD 提供通話品質度量的報告，可讓您深入瞭解整個通話品質、伺服器用戶端資料流程、用戶端用戶端資料流程，以及語音品質[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。 
+例如，您可以使用 CQD 來判斷您使用每個使用者的呼叫分析所觀察的使用者不佳通話品質 (，) 是因為網路問題也會影響許多其他使用者。 CQD 會捕獲個人通話體驗，以及使用團隊或商務用 Skype 所做的總體通話品質。 使用 CQD 時，整個模式可能會變得很明顯，因此網路工程師可以進行通話品質的及時評估。 CQD 提供通話品質度量的報告，可讓您深入瞭解整個通話品質、伺服器用戶端資料流程、用戶端用戶端資料流程，以及語音品質[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。 
   
 ![通話品質儀表板的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
@@ -51,12 +51,12 @@ CQD 的設計目的是協助小組系統管理員、商務用 Skype 系統管理
 
 不要錯過我們的 [[管理通話與會議品質](quality-of-experience-review-guide.md)] 文章，這會為負責管理團隊中的服務品質的小組系統管理員或支援工程師提供深入指引。
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>較舊版本的 CQD （CQD.lync.com）
+## <a name="older-version-of-cqd-cqdlynccom"></a>較舊版本的 CQD (CQD.lync.com) 
 
-目前的 CQD 版本（ https://CQD.Teams.microsoft.com) 取代舊版的 CQD （ https://CQD.lync.com) 。 您仍然可以使用 CQD.lync.com （從商務用 Skype 系統管理中心提供），但從2020年7月1日起，就是使用來自 CQD 的資料。Teams.microsoft.com。 我們將關閉 CQD.lync.com 的 access，因此您應該移至 CQD。如果您尚未這麼做，請 Teams.microsoft.com。
+目前版本的 CQD (https://CQD.Teams.microsoft.com) 取代舊版的 CQD (https://CQD.lync.com) 。 您仍然可以使用 CQD.lync.com (從商務用 Skype 系統管理中心) ，但從2020年7月1日起，就是使用來自 CQD 的資料。Teams.microsoft.com。 我們將關閉 CQD.lync.com 的 access，因此您應該移至 CQD。如果您尚未這麼做，請 Teams.microsoft.com。
 
 > [!IMPORTANT]
-> 從2020年7月1日起，您將無法再從舊版 CQD （CQD.lync.com）中查看或修改您的建立或查詢資料。 如果您還沒有從 CQD.lync.com 遷移這些資料，但仍需要，請記錄支援票證。
+> 從2020年7月1日起，您將無法再從舊版 CQD 中查看或修改您的建立或查詢資料)  (CQD.lync.com。 如果您還沒有從 CQD.lync.com 遷移這些資料，但仍需要，請記錄支援票證。
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>使用 Power BI 來分析 CQD 資料
 
@@ -70,7 +70,7 @@ CQD 的設計目的是協助小組系統管理員、商務用 Skype 系統管理
 
 [改善及監視團隊的通話品質](monitor-call-quality-qos.md)
 
-[設定通話品質儀表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[設定通話品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [上傳租使用者及組建資料](CQD-upload-tenant-building-data.md)
 
