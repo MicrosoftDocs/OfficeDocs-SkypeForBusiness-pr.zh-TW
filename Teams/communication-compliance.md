@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊的溝通合規性
+title: 與 Microsoft 團隊進行溝通合規性
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 瞭解溝通合規性，從 Microsoft 小組角度來看「測試人員風險」方案解決方案集的一部分（這是 M365 通訊合規性功能的一部分）。
+description: 瞭解溝通合規性（「測試人員-風險方案」方案集中的一部分）從 Microsoft 小組角度 (這是) 的 M365 通訊合規性功能的一部分。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121693"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597134"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a>Microsoft 團隊的溝通合規性
+# <a name="communication-compliance-with-microsoft-teams"></a>與 Microsoft 團隊進行溝通合規性
 
-[溝通合規性] 是 Microsoft 365 中新的「測試人員-風險」方案集合的一部分，可協助您偵測、捕獲並修正組織中不適當的訊息，以協助將通訊風險降到最低。 在小組頻道或1:1 和群組聊天中，協助識別冒犯性語言與反騷擾。 您也可以設定原則，以查看是否有任何機密資訊是在小組通道或1:1 和群組聊天中共用。 如需不同類型的原則以及如何設定的詳細資訊，請參閱[M365 文章](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
+[溝通合規性] 是 Microsoft 365 中的測試人員風險解決方案，可協助您偵測、捕獲並對組織中不適當的訊息採取行動，協助將溝通風險降到最低。
 
-## <a name="how-to-use-communication-compliance-in-teams"></a>如何在團隊中使用溝通合規性
+針對 Microsoft 團隊，溝通合規性可協助在團隊頻道中或1:1 和群組聊天中找出[以下類型](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)的不適當的內容：
 
-### <a name="identify-inappropriate-messages"></a>找出不適當的訊息
+- 冒犯性、褻瀆及 harassing 語言
+- 成人、racy 和 gory 影像
+- 共用機密資訊
 
-如果您想要識別任何在 Microsoft 團隊（1:1、群組聊天或頻道交談）中傳送的訊息，包括冒犯性語言或反騷擾，您可以啟用原則來識別這項訊息，並採取必要步驟，例如傳送訓練資料或升級至正確的主管機構。
+>[!IMPORTANT]
+>通訊規範不支援私人 Microsoft 團隊頻道。 來賓使用者傳送的聊天通訊，不會監視使用者是否有不適當的內容。
 
-### <a name="identify-sensitive-or-regulatory-information"></a>找出機密或法規資訊
+如需溝通合規性的詳細資訊，以及如何為貴組織設定原則，請參閱[Microsoft 365 中的通訊合規性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
 
-如果您想要掃描 Microsoft 團隊（1:1、群組聊天或頻道交談）中傳送的郵件，瞭解機密資訊或法規類型，您可以選擇支援預先定義的機密或法規類型的原則。
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在 Microsoft 團隊中使用通訊合規性
 
-> [!NOTE]
-> 通訊合規性不支援專用通道。
+溝通合規性與 Microsoft 團隊緊密整合，而且可協助將組織中的溝通風險降至最低。 在您設定第一次通訊合規性原則之後，您可以積極管理不適當的 Microsoft 團隊訊息，以及自動標示為提醒的內容。
 
-### <a name="custom-policy"></a>自訂原則
+### <a name="getting-started"></a>快速入門
 
-您可以使用此範本來設定特定通訊通道、個別偵測條件，以及在您的組織中監視及審查的內容量。
+Microsoft 團隊中的通訊遵從性快速入門開始[規劃](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)及建立預先定義或自訂的原則，以找出小組頻道或1:1 和群組中不適當的使用者活動。 請記住，您必須[設定](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)部分許可權和基本先決條件，才能做為配置程式的一部分。
 
-### <a name="custom-trainable-classifier"></a>自訂 Trainable 分類器
+團隊管理員可以在下列層面設定通訊合規性原則：
 
-當某個現成的分類器不符合您的需求時，請使用 trainable 分類器。 Microsoft 365 分類器是一種工具，可讓您訓練來辨識各種類型的內容，方法是提供其範例來查看。 訓練分類器首先要提供人工挑選的範例，並正確符合類別。 然後，在處理完這些範例之後，請為其提供混合使用正和負樣本的方式來測試預測。 若要進一步瞭解此話題，請參閱[M365 文章](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier)，以取得本主題的詳細資訊。
+- **使用者層級**：此等級的原則適用于個別團隊使用者，或適用于您組織中的所有團隊使用者。 這些原則會涵蓋這些使用者可以在1:1 或群組聊天中傳送的訊息。 在使用者是其成員的所有 Microsoft 團隊中，系統會自動監視使用者的聊天通信。
+- **團隊**階層：此等級的原則適用于 Microsoft 小組頻道。 這些原則只會涵蓋在小組頻道中傳送的訊息。
 
-> [!NOTE]
-> 溝通合規性現在支援 Exchange 混合式部署。
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>針對 Microsoft 團隊中不適當的郵件執行動作
 
-通訊合規性支援與原則相符之任何訊息的交談歷程記錄。 這會提供調查管理員的相關內容。
+在您設定原則並為 Microsoft 團隊訊息收到通訊合規性警報之後，就可以開始針對組織中的合規性審查程式，對這些訊息採取行動。 檢閱者可以在 Microsoft 團隊中查看溝通合規性通知，並移除已標記的郵件，以協助保護您的組織。
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="Microsoft 團隊中的通訊合規性畫面。":::
+![移除團隊中的郵件](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a>可在團隊中套用通訊原則的位置
+已移除的郵件和內容會以通知者的通知取代，說明已移除該郵件或內容，以及適用于移除哪些原則。 已移除的訊息或內容的寄件者也會收到移除狀態的通知，並隨附與移除相關之內容的原始訊息內容。 寄件者也可以查看適用于郵件移除的特定原則情況。
 
-您可以針對在小組中傳送的訊息設定通訊合規性原則，其層級如下：
+由寄件者看到的原則提示範例：
 
-- 使用者層級：管理員可以在個別使用者層級設定原則，或將原則套用到租使用者上的所有使用者。 這只會涵蓋使用者在1:1 或群組聊天中傳送的訊息。
-- 小組層次：管理員也可以在小組上設定原則。 這涵蓋該小組中該頻道所傳送的所有訊息（不支援專用通道訊息）。
+![寄件者的原則提示](./media/communication-compliance-warning-1.png)
+
+寄件者看到的原則狀況通知範例：
+
+![寄件者的原則狀況資訊](./media/communication-compliance-warning-2.png)
+
+收件者看到的原則提示範例：
+
+![[收件者] 的原則提示](./media/communication-compliance-warning-3.png)

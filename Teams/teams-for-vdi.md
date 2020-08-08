@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
-description: 瞭解如何在虛擬化桌面基礎結構（VDI）環境中執行 Microsoft 團隊。
+description: 瞭解如何在 (VDI) 環境的虛擬化桌面基礎結構中執行 Microsoft 團隊。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028159"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597119"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -29,9 +29,9 @@ ms.locfileid: "45028159"
 
 ## <a name="what-is-vdi"></a>什麼是 VDI？
 
-虛擬桌面基礎結構（VDI）是虛擬化技術，可在資料中心的中央伺服器上託管桌面作業系統和應用程式。 這可讓使用者具備完全安全且相容的集中來源，為使用者提供完整的個人化桌面體驗。
+虛擬桌面基礎結構 (VDI) 是虛擬化技術，可在資料中心的中央伺服器上託管桌面作業系統和應用程式。 這可讓使用者具備完全安全且相容的集中來源，為使用者提供完整的個人化桌面體驗。
 
-虛擬化環境中的 Microsoft 團隊支援聊天與共同作業。 而且在 Citrix 平臺中，也支援通話和會議功能。
+虛擬化環境中的 Microsoft 團隊支援聊天與共同作業。 而且使用 Windows 虛擬桌面或 Citrix 平臺，也支援通話和會議功能。
 
 虛擬化環境中的小組支援多種設定。 其中包括 VDI、專用、共用、持久且非持久的模式。 功能在連續開發並定期新增，功能將會在未來的幾個月和幾年中擴充。
 
@@ -44,7 +44,7 @@ ms.locfileid: "45028159"
 在虛擬化環境中使用團隊需要下列元件。
 
 - **虛擬化 broker**：虛擬化提供者的資源和連線管理員（例如 Azure）
-- **虛擬桌面**：執行 Microsoft 團隊的虛擬機器（VM）堆疊
+- **虛擬桌面**：執行 Microsoft 團隊 (VM) 堆疊的虛擬機器
 - **瘦用戶端**：使用者使用物理介面的端點
 - **團隊桌面應用程式**：團隊桌面用戶端應用程式
 
@@ -54,21 +54,26 @@ ms.locfileid: "45028159"
 
 已使用主要的虛擬化解決方案提供者驗證團隊桌面應用程式。 有了多個市場供應商，我們建議您諮詢您的虛擬化解決方案供應商，以確保您符合最低需求。
   
-目前，具有音訊/視頻（AV）優化的團隊在使用 Citrix 進行認證。 請參閱本節中的資訊，以確保您符合 Citrix 與團隊對適當功能的需求。
+目前，使用音訊/視頻 (AV) 優化的小組，都是使用 Windows 虛擬桌面和 Citrix 認證。 請參閱本節中的資訊，以確保您符合所有對適當功能的需求。
 
-### <a name="partners-certified-for-teams"></a>針對團隊認證的合作夥伴
+### <a name="platforms-certified-for-teams"></a>針對團隊認證的平臺
 
-下列合作夥伴擁有小組的虛擬桌面基礎結構解決方案。
+下列平臺擁有小組的虛擬桌面基礎結構解決方案。
 
-|Partner|合作夥伴解決方案|
+|平台|解|
 |----|---|
-|![代表 Citrix 的標誌](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虛擬 App 與桌面</a> |
+|![代表 Microsoft 的標誌](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 虛擬桌面</a> |
+|![代表 Citrix 的標誌](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虛擬 App 與桌面</a> |
+
+### <a name="windows-virtual-desktop"></a>Windows 虛擬桌面
+
+Windows 虛擬桌面電腦為 VDI 上的小組提供 AV 優化。 若要深入瞭解及需求及安裝，請參閱[在 Windows 虛擬桌面電腦上使用團隊](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix 虛擬 App 與桌面需求
 
-Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 VDI 上的小組提供 AV 優化。 借助 Citrix 虛擬 App 和電腦版，VDI 的小組除了聊天與共同作業之外，還支援通話和會議功能。
+Citrix 虛擬 App 和桌面 (先前稱為 XenApp 和 XenDesktop) 為 VDI 上的小組提供 AV 優化。 借助 Citrix 虛擬 App 和電腦版，VDI 的小組除了聊天與共同作業之外，還支援通話和會議功能。
 
-您可以在[citrix 下載網站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下載最新版本的 Citrix 虛擬 App 和桌上型電腦。 （您必須先登入。）預設會將必要的元件捆綁到[Citrix 工作區應用程式（CWA）](https://www.citrix.com/downloads/workspace-app/)和虛擬傳遞代理程式（VDA）。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
+您可以在[citrix 下載網站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下載最新版本的 Citrix 虛擬 App 和桌上型電腦。  (您必須先登入。 ) 必要元件已捆綁到[Citrix 工作區應用程式 (CWA) ](https://www.citrix.com/downloads/workspace-app/)和虛擬傳遞代理程式 (VDA) 預設。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
 
 如需最新的伺服器和用戶端需求，請參閱[此 Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 
@@ -92,7 +97,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 |參數  |工作站作業系統  |伺服器作業系統  |
 |---------|---------|---------|
-|vCPU   |    2個核心     |  4、6或8<br>瞭解基礎非一致性記憶體存取（NUMA）設定並據此設定您的 Vm 非常重要。     |
+|vCPU   |    2個核心     |  4、6或8<br>請務必瞭解基礎非統一記憶體存取 (NUMA) 設定，並據此設定您的 Vm。     |
 |RAM     |   4 GB      | 每位使用者512到 1024 MB        |
 |儲存空間    | 8 GB        | 40到 60 GB        |
 
@@ -100,12 +105,12 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 在非永久性設定中，使用者登出後，使用者的本機作業系統變更就不會保留。 這類設置通常是共用多個使用者會話。 VM 配置會根據使用者數量及可用的物理盒資源而有所不同。
 
-針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。 （若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)）。這可確保在使用者會話期間有效啟動團隊 app。
+針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。  (若要深入瞭解，請參閱[安裝或更新 VDI 區段上的團隊桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)。 ) 這可確保在使用者會話期間有效啟動團隊 app。
 
-將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間，會緩存適當的使用者特定資訊（例如，使用者資料、設定檔和設定）。 請確定這兩個資料夾中的資料已同步處理。  
+將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間，會快取使用者資料、設定檔和設定) 等適當的使用者特定資訊 (範例。 請確定這兩個資料夾中的資料已同步處理。  
 
-- C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
-- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
+- C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache) 
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams) 
 
 有許多可用的緩存管理器解決方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 如需特定的設定指示，請參閱您的快取管理員提供者。
 
@@ -115,7 +120,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 - .txt 檔案
 - 媒體堆疊資料夾
-- meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache)
+- meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache) 
 
 ### <a name="microsoft-365-apps-for-enterprise-considerations"></a>適用于企業考慮的 Microsoft 365 應用程式
 
@@ -146,11 +151,11 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
     - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
     - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
 
-    所需的小組桌面應用程式最低版本為版本1.3.00.4461。 （較舊的版本不支援 PSTN 保留）。
+    所需的小組桌面應用程式最低版本為版本1.3.00.4461。 舊版中不支援 (PSTN 保留。 ) 
 
 2. 執行下列其中一項命令，將 MSI 安裝到 VDI VM：
 
-    - 每位使用者安裝（預設）
+    - 依使用者安裝 (預設) 
   
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
@@ -164,7 +169,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        這個程式會將團隊安裝至64位作業系統上的 [程式檔案（x86）] 資料夾，以及32位作業系統上的 [程式檔案] 資料夾。 此時，黃金影像設定就完成了。 針對非持久的安裝，必須針對每台電腦安裝團隊。
+        此程式會將團隊安裝至64位作業系統上的 [x86) ] 資料夾 (的程式檔案，以及32位作業系統上的 [程式檔案] 資料夾。 此時，黃金影像設定就完成了。 針對非持久的安裝，必須針對每台電腦安裝團隊。
 
         下次互動式登入會話會啟動團隊並要求認證。
 
@@ -178,7 +183,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
 
-      這個程式會從 [程式檔（x86）] 資料夾或 [Program Files] 資料夾中卸載小組，視作業系統環境而定。
+      這個程式會將小組從程式檔案卸載 (x86) 資料夾或 Program Files 資料夾，視作業系統環境而定。
 
 ## <a name="teams-on-vdi-performance-considerations"></a>VDI 效能考慮的小組
 
@@ -202,12 +207,12 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 - 小組 app 與裝置之間的 HID 按鈕和 LED 控制項
 - 背景模糊和效果
 - 廣播/即時事件
-- 以位置為基礎的路由（LBR）
+- 以位置為基礎的路由 (LBR) 
 - 通話駐留
 - 通話佇列
 
 > [!IMPORTANT]
-> 如果您目前在 VDI 中執行的團隊沒有 AV 優化，且您使用的功能尚不支援（例如，在應用程式共用時授與控制權），您必須設定 Citrix 原則，以關閉小組重新導向。 這表示小組媒體會話不會進行優化。 如需如何設定原則以關閉小組重新導向的步驟，請參閱此[Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)。
+> 如果您目前在 VDI 中執行的團隊沒有 AV 優化，且您使用的功能尚不受優化 (例如，在應用程式共用) 中授與控制權，您必須設定 Citrix 原則來關閉小組重新導向。 這表示小組媒體會話不會進行優化。 如需如何設定原則以關閉小組重新導向的步驟，請參閱此[Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)。
 
 我們正在努力新增目前僅適用于非 VDI 環境中的通話與會議功能。 這些可能包括更多系統管理員控制品質、其他螢幕共用案例，以及最近新增至團隊的高級功能。 若要深入瞭解即將推出的功能，請與您的小組代表聯繫。
 
@@ -242,7 +247,7 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>設定原則以關閉通話與會議功能
 
-您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定原則。 策略變更可能需要幾個時間（幾個小時）才能傳播。 如果您沒有立即看到特定帳戶的變更，請在幾個小時後再試一次。
+您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定原則。 可能需要一些時間 (幾個小時) ，原則才能傳播。 如果您沒有立即看到特定帳戶的變更，請在幾個小時後再試一次。
 
 [**通話**](teams-calling-policy.md)原則：團隊包含內建的 DisallowCalling 通話原則，其中所有的通話功能都已關閉。 將 DisallowCalling 原則指派給貴組織中的所有使用虛擬化環境中的小組的使用者。
 
@@ -298,7 +303,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>設定原則以開啟通話與會議功能
 
-您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定通話與會議原則，並指派給您的使用者。 要傳播原則變更，可能需要一些時間（幾個小時）。 如果您沒有立即看到特定帳戶的變更，請在幾個小時後再試一次。
+您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定通話與會議原則，並指派給您的使用者。 可能需要一些時間 (幾個小時) ，才能傳播原則變更。 如果您沒有立即看到特定帳戶的變更，請在幾個小時後再試一次。
 
 [**通話**](teams-calling-policy.md)原則：在團隊中呼叫原則控制使用者可以使用哪些通話功能。 團隊包含內建的 AllowCalling 通話原則，其中所有的通話功能都已開啟。 若要開啟所有通話功能，請指派 AllowCalling 原則。 或者，建立自訂通話原則來開啟您想要的通話功能，並將它指派給使用者。 
 
@@ -318,7 +323,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 若要一次將原則指派給多位使用者：
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [ **&#x2713;** （核取符號）。
+2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [ **&#x2713;** (核取記號) 。
 3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。
 
 或者，您也可以執行下列動作：
@@ -360,19 +365,19 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ### <a name="calling-and-meetings"></a>通話與會議
 
 - 與商務用 Skype 的互通性限制在音訊通話中;沒有任何視頻模態。
-- 目前不支援雙音調多重頻率（DTMF）與電話系統互動。
 - 以匿名使用者身分加入團隊會議不是 AV 優化的。 使用者可以加入會議，且有未優化的體驗。
 - 在會議或群組通話中只支援單一傳入的視頻資料流程。 當多人傳送影片時，任何指定時間只會顯示主要喇叭的影片。
 - 內送和外寄的視頻資料流程解析度限制為720p 解析度。 這是 WebRTC 的限制。
 - 只支援來自內送相機或畫面共用資料流程的一個影片串流。 當有傳入螢幕共用時，會顯示該螢幕共用，而不是主要喇叭的影片。
 - 外寄螢幕共用：
-    - 不支援從聊天進行螢幕共用。
     - 不支援應用程式共用。
 - 授與控制權並加以控制：
     - 在螢幕共用或應用程式共用會話期間不支援。
     - 在 PowerPoint 共用會話期間支援。
-- 在多重監視器設定中進行螢幕共用時，只會共用主要監視器。
-- 不支援 CWA 上的高 DPI 縮放。
+- 僅限 Citrix 限制
+    - 雙音調多重頻率 (DTMF) 目前不支援與電話系統進行互動。
+    - 在多重監視器設定中進行螢幕共用時，只會共用主要監視器。
+    - 不支援 CWA 上的高 DPI 縮放。
 
 針對與 VDI 無關的小組已知問題，請參閱[貴組織中的支援小組](Known-issues.md)。
 

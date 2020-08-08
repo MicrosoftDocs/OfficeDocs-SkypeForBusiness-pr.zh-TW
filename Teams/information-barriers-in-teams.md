@@ -16,12 +16,12 @@ description: 本文說明 Microsoft 團隊中的資訊障礙，以及他們會�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572378"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592907"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -167,12 +167,12 @@ Enrico 無法再傳送訊息到群組聊天。
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>團隊原則與 SharePoint 網站
 
-建立小組後，SharePoint 網站就會提供給小組，並與 [檔案體驗] 相關聯。 此 SharePoint 網站和檔案的存取權會採用組織的 IB，亦即，只有其針對每個 IB 原則的 IB 區段相符的使用者才能存取。 即使在檔案共用時，IB 原則也會生效。
+建立小組後，就會建立 SharePoint 網站，並與 Microsoft 團隊取得檔案體驗的相關專案。 依預設，資訊屏障原則不會在此 SharePoint 網站和檔案上生效。 若要啟用資訊屏障原則，系統管理員已填寫完表單，要求在 SharePoint 和 OneDrive 上啟用 IB 原則 (請參閱[資訊壁壘](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)) 中的*必備*區段。 如果資訊屏障原則已在 SharePoint 和 OneDrive 中開啟，則在使用 Microsoft 團隊建立小組時，IB 原則會在已提供的 SharePoint 網站上運作。
 
-例如：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。
+**小組 SharePoint 網站上的 IB 原則範例**：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。
 當使用者 Sesha 建立投資銀行區段的小組時，只有投資銀行區段使用者才能存取該小組和支援該小組的 SharePoint 網站。 即使她擁有 [網站] 連結，使用者 Nikita 還是無法存取該網站。
 
-按一下[這裡](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)以取得更多詳細資料。
+如需詳細資訊，請參閱[資訊障礙](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)文章。
 
 ## <a name="required-licenses-and-permissions"></a>所需的授權和許可權
 
