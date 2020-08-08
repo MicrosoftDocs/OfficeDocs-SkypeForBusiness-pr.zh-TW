@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊的溝通合規性
+title: 與 Microsoft 團隊進行溝通合規性
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 瞭解溝通合規性，從 Microsoft 小組角度來看「測試人員風險」方案解決方案集的一部分（這是 M365 通訊合規性功能的一部分）。
+description: 瞭解溝通合規性（「測試人員-風險方案」方案集中的一部分）從 Microsoft 小組角度 (這是) 的 M365 通訊合規性功能的一部分。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121693"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597134"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a><span data-ttu-id="a8c57-103">Microsoft 團隊的溝通合規性</span><span class="sxs-lookup"><span data-stu-id="a8c57-103">Communication compliance for Microsoft Teams</span></span>
+# <a name="communication-compliance-with-microsoft-teams"></a><span data-ttu-id="04411-103">與 Microsoft 團隊進行溝通合規性</span><span class="sxs-lookup"><span data-stu-id="04411-103">Communication compliance with Microsoft Teams</span></span>
 
-<span data-ttu-id="a8c57-104">[溝通合規性] 是 Microsoft 365 中新的「測試人員-風險」方案集合的一部分，可協助您偵測、捕獲並修正組織中不適當的訊息，以協助將通訊風險降到最低。</span><span class="sxs-lookup"><span data-stu-id="a8c57-104">Communication compliance is part of the new insider risk solution set in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and take remediation actions for inappropriate messages in your organization.</span></span> <span data-ttu-id="a8c57-105">在小組頻道或1:1 和群組聊天中，協助識別冒犯性語言與反騷擾。</span><span class="sxs-lookup"><span data-stu-id="a8c57-105">It helps in identifying Offensive language and anti-harassment in Team Channels or 1:1 and Group chats.</span></span> <span data-ttu-id="a8c57-106">您也可以設定原則，以查看是否有任何機密資訊是在小組通道或1:1 和群組聊天中共用。</span><span class="sxs-lookup"><span data-stu-id="a8c57-106">You can also set policies to see if any Sensitive information is being shared as part of Team channels or 1:1 and Group chats.</span></span> <span data-ttu-id="a8c57-107">如需不同類型的原則以及如何設定的詳細資訊，請參閱[M365 文章](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。</span><span class="sxs-lookup"><span data-stu-id="a8c57-107">For more information on different types of policies and how to set up refer to the [M365 article](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).</span></span>
+<span data-ttu-id="04411-104">[溝通合規性] 是 Microsoft 365 中的測試人員風險解決方案，可協助您偵測、捕獲並對組織中不適當的訊息採取行動，協助將溝通風險降到最低。</span><span class="sxs-lookup"><span data-stu-id="04411-104">Communication compliance is an insider risk solution in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and act on inappropriate messages in your organization.</span></span>
 
-## <a name="how-to-use-communication-compliance-in-teams"></a><span data-ttu-id="a8c57-108">如何在團隊中使用溝通合規性</span><span class="sxs-lookup"><span data-stu-id="a8c57-108">How to use communication compliance in Teams</span></span>
+<span data-ttu-id="04411-105">針對 Microsoft 團隊，溝通合規性可協助在團隊頻道中或1:1 和群組聊天中找出[以下類型](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)的不適當的內容：</span><span class="sxs-lookup"><span data-stu-id="04411-105">For Microsoft Teams, communication compliance helps identify the [following types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) of inappropriate content in Teams channels or in 1:1 and group chats:</span></span>
 
-### <a name="identify-inappropriate-messages"></a><span data-ttu-id="a8c57-109">找出不適當的訊息</span><span class="sxs-lookup"><span data-stu-id="a8c57-109">Identify inappropriate messages</span></span>
+- <span data-ttu-id="04411-106">冒犯性、褻瀆及 harassing 語言</span><span class="sxs-lookup"><span data-stu-id="04411-106">Offensive, profane, and harassing language</span></span>
+- <span data-ttu-id="04411-107">成人、racy 和 gory 影像</span><span class="sxs-lookup"><span data-stu-id="04411-107">Adult, racy, and gory images</span></span>
+- <span data-ttu-id="04411-108">共用機密資訊</span><span class="sxs-lookup"><span data-stu-id="04411-108">Sharing of sensitive information</span></span>
 
-<span data-ttu-id="a8c57-110">如果您想要識別任何在 Microsoft 團隊（1:1、群組聊天或頻道交談）中傳送的訊息，包括冒犯性語言或反騷擾，您可以啟用原則來識別這項訊息，並採取必要步驟，例如傳送訓練資料或升級至正確的主管機構。</span><span class="sxs-lookup"><span data-stu-id="a8c57-110">If you want to identify any messages that are sent in Microsoft Teams (1:1, Group Chats or Channel conversations) contain Offensive Language or anti-harassment, you can enable policies to identify this and the reviewer can look into the messages and take necessary steps like sending training material or escalate to the right authorities.</span></span>
+>[!IMPORTANT]
+><span data-ttu-id="04411-109">通訊規範不支援私人 Microsoft 團隊頻道。</span><span class="sxs-lookup"><span data-stu-id="04411-109">Private Microsoft Teams channels are not supported by communication compliance.</span></span> <span data-ttu-id="04411-110">來賓使用者傳送的聊天通訊，不會監視使用者是否有不適當的內容。</span><span class="sxs-lookup"><span data-stu-id="04411-110">Chat communications sent by guest users to Teams users aren't monitored for inappropriate content.</span></span>
 
-### <a name="identify-sensitive-or-regulatory-information"></a><span data-ttu-id="a8c57-111">找出機密或法規資訊</span><span class="sxs-lookup"><span data-stu-id="a8c57-111">Identify sensitive or Regulatory information</span></span>
+<span data-ttu-id="04411-111">如需溝通合規性的詳細資訊，以及如何為貴組織設定原則，請參閱[Microsoft 365 中的通訊合規性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。</span><span class="sxs-lookup"><span data-stu-id="04411-111">For more information on communication compliance and how to configure policies for your organization, see [Communication compliance in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).</span></span>
 
-<span data-ttu-id="a8c57-112">如果您想要掃描 Microsoft 團隊（1:1、群組聊天或頻道交談）中傳送的郵件，瞭解機密資訊或法規類型，您可以選擇支援預先定義的機密或法規類型的原則。</span><span class="sxs-lookup"><span data-stu-id="a8c57-112">If you want to scan messages sent in Microsoft Teams (1:1, Group Chats or Channel conversations) for sensitive information or regulatory types, you can choose policies that support predefined sensitive or regulatory types.</span></span>
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a><span data-ttu-id="04411-112">如何在 Microsoft 團隊中使用通訊合規性</span><span class="sxs-lookup"><span data-stu-id="04411-112">How to use communication compliance in Microsoft Teams</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="a8c57-113">通訊合規性不支援專用通道。</span><span class="sxs-lookup"><span data-stu-id="a8c57-113">Private channels are not supported by communication compliance.</span></span>
+<span data-ttu-id="04411-113">溝通合規性與 Microsoft 團隊緊密整合，而且可協助將組織中的溝通風險降至最低。</span><span class="sxs-lookup"><span data-stu-id="04411-113">Communication compliance and Microsoft Teams are tightly integrated and can help minimize communication risks in your organization.</span></span> <span data-ttu-id="04411-114">在您設定第一次通訊合規性原則之後，您可以積極管理不適當的 Microsoft 團隊訊息，以及自動標示為提醒的內容。</span><span class="sxs-lookup"><span data-stu-id="04411-114">After you've configured your first communication compliance policies, you can actively manage inappropriate Microsoft Teams messages and content that is automatically flagged in alerts.</span></span>
 
-### <a name="custom-policy"></a><span data-ttu-id="a8c57-114">自訂原則</span><span class="sxs-lookup"><span data-stu-id="a8c57-114">Custom Policy</span></span>
+### <a name="getting-started"></a><span data-ttu-id="04411-115">快速入門</span><span class="sxs-lookup"><span data-stu-id="04411-115">Getting started</span></span>
 
-<span data-ttu-id="a8c57-115">您可以使用此範本來設定特定通訊通道、個別偵測條件，以及在您的組織中監視及審查的內容量。</span><span class="sxs-lookup"><span data-stu-id="a8c57-115">Use this template to configure specific communication channels, individual detection conditions, and the amount of content to monitor and review in your organization.</span></span>
+<span data-ttu-id="04411-116">Microsoft 團隊中的通訊遵從性快速入門開始[規劃](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)及建立預先定義或自訂的原則，以找出小組頻道或1:1 和群組中不適當的使用者活動。</span><span class="sxs-lookup"><span data-stu-id="04411-116">Getting started with communication compliance in Microsoft Teams begins with [planning](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) and creating pre-defined or custom policies to identify inappropriate user activities in Teams channels or in 1:1 and groups.</span></span> <span data-ttu-id="04411-117">請記住，您必須[設定](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)部分許可權和基本先決條件，才能做為配置程式的一部分。</span><span class="sxs-lookup"><span data-stu-id="04411-117">Keep in mind that you'll need to [configure](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) some permissions and basic prerequisites as part of the configuration process.</span></span>
 
-### <a name="custom-trainable-classifier"></a><span data-ttu-id="a8c57-116">自訂 Trainable 分類器</span><span class="sxs-lookup"><span data-stu-id="a8c57-116">Custom Trainable classifier</span></span>
+<span data-ttu-id="04411-118">團隊管理員可以在下列層面設定通訊合規性原則：</span><span class="sxs-lookup"><span data-stu-id="04411-118">Teams administrators can configure communication compliance policies at the following levels:</span></span>
 
-<span data-ttu-id="a8c57-117">當某個現成的分類器不符合您的需求時，請使用 trainable 分類器。</span><span class="sxs-lookup"><span data-stu-id="a8c57-117">Use trainable classifiers when one of the out of the box classifiers won't meet your needs.</span></span> <span data-ttu-id="a8c57-118">Microsoft 365 分類器是一種工具，可讓您訓練來辨識各種類型的內容，方法是提供其範例來查看。</span><span class="sxs-lookup"><span data-stu-id="a8c57-118">A Microsoft 365 classifier is a tool you can train to recognize various types of content by giving it samples to look at.</span></span> <span data-ttu-id="a8c57-119">訓練分類器首先要提供人工挑選的範例，並正確符合類別。</span><span class="sxs-lookup"><span data-stu-id="a8c57-119">Training the classifier involves first giving it samples that are human picked and positively match the category.</span></span> <span data-ttu-id="a8c57-120">然後，在處理完這些範例之後，請為其提供混合使用正和負樣本的方式來測試預測。</span><span class="sxs-lookup"><span data-stu-id="a8c57-120">Then, after it has processed those samples, you test the predictions by giving it a mix of positive and negative samples.</span></span> <span data-ttu-id="a8c57-121">若要進一步瞭解此話題，請參閱[M365 文章](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier)，以取得本主題的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="a8c57-121">To Lean more about this refer to the [M365 article](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier) for more on this topic.</span></span>
+- <span data-ttu-id="04411-119">**使用者層級**：此等級的原則適用于個別團隊使用者，或適用于您組織中的所有團隊使用者。</span><span class="sxs-lookup"><span data-stu-id="04411-119">**User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization.</span></span> <span data-ttu-id="04411-120">這些原則會涵蓋這些使用者可以在1:1 或群組聊天中傳送的訊息。</span><span class="sxs-lookup"><span data-stu-id="04411-120">These policies cover messages that these users may send in 1:1 or group chats.</span></span> <span data-ttu-id="04411-121">在使用者是其成員的所有 Microsoft 團隊中，系統會自動監視使用者的聊天通信。</span><span class="sxs-lookup"><span data-stu-id="04411-121">Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.</span></span>
+- <span data-ttu-id="04411-122">**團隊**階層：此等級的原則適用于 Microsoft 小組頻道。</span><span class="sxs-lookup"><span data-stu-id="04411-122">**Teams level**: Policies at this level apply to a Microsoft Team channel.</span></span> <span data-ttu-id="04411-123">這些原則只會涵蓋在小組頻道中傳送的訊息。</span><span class="sxs-lookup"><span data-stu-id="04411-123">These policies cover messages sent in the Teams channel only.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="a8c57-122">溝通合規性現在支援 Exchange 混合式部署。</span><span class="sxs-lookup"><span data-stu-id="a8c57-122">Communication compliance now supports Exchange hybrid deployments.</span></span>
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a><span data-ttu-id="04411-124">針對 Microsoft 團隊中不適當的郵件執行動作</span><span class="sxs-lookup"><span data-stu-id="04411-124">Act on inappropriate messages in Microsoft Teams</span></span>
 
-<span data-ttu-id="a8c57-123">通訊合規性支援與原則相符之任何訊息的交談歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="a8c57-123">Communication compliance supports conversation history for any messages that match the polices.</span></span> <span data-ttu-id="a8c57-124">這會提供調查管理員的相關內容。</span><span class="sxs-lookup"><span data-stu-id="a8c57-124">This provides context to the investigating admin.</span></span>
+<span data-ttu-id="04411-125">在您設定原則並為 Microsoft 團隊訊息收到通訊合規性警報之後，就可以開始針對組織中的合規性審查程式，對這些訊息採取行動。</span><span class="sxs-lookup"><span data-stu-id="04411-125">After you have configured your policies and have received communication compliance alerts for Microsoft Teams messages, it's time for compliance reviewers in your organization to take action on these messages.</span></span> <span data-ttu-id="04411-126">檢閱者可以在 Microsoft 團隊中查看溝通合規性通知，並移除已標記的郵件，以協助保護您的組織。</span><span class="sxs-lookup"><span data-stu-id="04411-126">Reviewers can help safeguard your organization by reviewing communication compliance alerts and removing flagged messages from view in Microsoft Teams.</span></span>
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="Microsoft 團隊中的通訊合規性畫面。":::
+![移除團隊中的郵件](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a><span data-ttu-id="a8c57-126">可在團隊中套用通訊原則的位置</span><span class="sxs-lookup"><span data-stu-id="a8c57-126">Where communication policies can be applied in Teams</span></span>
+<span data-ttu-id="04411-128">已移除的郵件和內容會以通知者的通知取代，說明已移除該郵件或內容，以及適用于移除哪些原則。</span><span class="sxs-lookup"><span data-stu-id="04411-128">Removed messages and content are replaced with notifications for viewers explaining that the message or content has been removed and what policy is applicable to the removal.</span></span> <span data-ttu-id="04411-129">已移除的訊息或內容的寄件者也會收到移除狀態的通知，並隨附與移除相關之內容的原始訊息內容。</span><span class="sxs-lookup"><span data-stu-id="04411-129">The sender of the removed message or content is also notified of the removal status and provided with original message content for context relating to its removal.</span></span> <span data-ttu-id="04411-130">寄件者也可以查看適用于郵件移除的特定原則情況。</span><span class="sxs-lookup"><span data-stu-id="04411-130">The sender can also view the specific policy condition that applies to the message removal.</span></span>
 
-<span data-ttu-id="a8c57-127">您可以針對在小組中傳送的訊息設定通訊合規性原則，其層級如下：</span><span class="sxs-lookup"><span data-stu-id="a8c57-127">Communication compliance policies can be setup for messages sent in Teams at the following levels:</span></span>
+<span data-ttu-id="04411-131">由寄件者看到的原則提示範例：</span><span class="sxs-lookup"><span data-stu-id="04411-131">Example of policy tip seen by sender:</span></span>
 
-- <span data-ttu-id="a8c57-128">使用者層級：管理員可以在個別使用者層級設定原則，或將原則套用到租使用者上的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="a8c57-128">User level : An admin can set up policies at an individual user level or apply it to all the users on the tenant.</span></span> <span data-ttu-id="a8c57-129">這只會涵蓋使用者在1:1 或群組聊天中傳送的訊息。</span><span class="sxs-lookup"><span data-stu-id="a8c57-129">This will only covers messages that a user sent in 1:1 or Group chats.</span></span>
-- <span data-ttu-id="a8c57-130">小組層次：管理員也可以在小組上設定原則。</span><span class="sxs-lookup"><span data-stu-id="a8c57-130">Team Level: An admin can also set up policies on a team.</span></span> <span data-ttu-id="a8c57-131">這涵蓋該小組中該頻道所傳送的所有訊息（不支援專用通道訊息）。</span><span class="sxs-lookup"><span data-stu-id="a8c57-131">This covers all the messages sent in the channel in that team (Private channel messages are not supported).</span></span>
+![寄件者的原則提示](./media/communication-compliance-warning-1.png)
+
+<span data-ttu-id="04411-133">寄件者看到的原則狀況通知範例：</span><span class="sxs-lookup"><span data-stu-id="04411-133">Example of policy condition notification seen by the sender:</span></span>
+
+![寄件者的原則狀況資訊](./media/communication-compliance-warning-2.png)
+
+<span data-ttu-id="04411-135">收件者看到的原則提示範例：</span><span class="sxs-lookup"><span data-stu-id="04411-135">Example of policy tip seen by recipient:</span></span>
+
+![[收件者] 的原則提示](./media/communication-compliance-warning-3.png)
