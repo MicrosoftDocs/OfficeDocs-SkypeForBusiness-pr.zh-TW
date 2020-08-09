@@ -675,7 +675,7 @@
 ### [將原則指派給大型使用者集合](batch-group-policy-assignment-edu.md)
 ### [建立適用於授課者和學生的安全性群組之 PowerShell 腳本](scripts/powershell-script-security-groups-edu.md)
 ### [教育版系統管理員的低頻寬指導方針](edu-remote-low-bandwidth.md)
-### [課程深入資訊](class-insights.md)
+### [開始使用深入解析](class-insights.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
 ### [適用於 Teams 教育版系統管理員的資源](resources-teams-edu.md)
 ### [適用於系統管理員的 Microsoft 教育版控管常見問題集](plan-teams-governance-edu.md)
