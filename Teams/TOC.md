@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# 聊天、團隊、頻道和應用程式
+# 聊天、團隊和頻道
 ## [規劃您的部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [使用 Advisor for Teams 來推行 Teams](use-advisor-teams-roll-out.md)
 ## [團隊和頻道概觀](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [封存或刪除團隊](archive-or-delete-a-team.md)
 ## [從 Slack 移轉到 Teams](migrate-slack-to-teams.md)
 ## [為中小型企業建立 Graph 的 Teams 範本](smb-templates.md)
-
-
-## 應用程式、Bot 和連接器
-
-### [概觀](deploy-apps-microsoft-teams-landing-page.md)
-### [應用程式的權限和考量](app-permissions.md)
-### [管理 Teams 應用程式](manage-apps.md)
-### [在 Teams 中的應用程式系統管理設定](admin-settings.md)
-### [使用內建和自訂索引標籤](built-in-custom-tabs.md)
-### [使用 Microsoft 365 或 Office 365 和自訂連接器](Office-365-custom-connectors.md)
-### [特定於資源的同意](resource-specific-consent.md)
-### [發佈透過 Teams 應用程式提交 API 所提交的自訂應用程式](submit-approve-custom-apps.md)
-### [透過上傳應用程式套件發佈自訂應用程式](upload-custom-apps.md)
-### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
-### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
-### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
-### [設定 Skype 會議應用程式以搭配 Teams 運作](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 與外部使用者通訊
 ### [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,26 @@
 
 <!-- ============================================================ -->
 
+# 應用程式、Bot 和連接器
+
+## [概觀](deploy-apps-microsoft-teams-landing-page.md)
+## [應用程式的權限和考量](app-permissions.md)
+## [管理 Teams 應用程式](manage-apps.md)
+## [在 Teams 中的應用程式系統管理設定](admin-settings.md)
+## [使用內建和自訂索引標籤](built-in-custom-tabs.md)
+## [使用 Microsoft 365 或 Office 365 和自訂連接器](Office-365-custom-connectors.md)
+## [特定於資源的同意](resource-specific-consent.md)
+## [發佈透過 Teams 應用程式提交 API 所提交的自訂應用程式](submit-approve-custom-apps.md)
+## [透過上傳應用程式套件發佈自訂應用程式](upload-custom-apps.md)
+## [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
+## [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
+## [設定您的小組目標階層](set-up-your-team-hierarchy.md)
+## [設定Skype 會議應用程式以搭配使用 Teams](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # 會議和召集會議
 ## [快速入門 - 會議與即時活動](quick-start-meetings-live-events.md)
 ## [規劃您的部署](deploy-meetings-microsoft-teams-landing-page.md)
