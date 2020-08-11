@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597119"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46607091"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "46597119"
 
 虛擬桌面基礎結構 (VDI) 是虛擬化技術，可在資料中心的中央伺服器上託管桌面作業系統和應用程式。 這可讓使用者具備完全安全且相容的集中來源，為使用者提供完整的個人化桌面體驗。
 
-虛擬化環境中的 Microsoft 團隊支援聊天與共同作業。 而且使用 Windows 虛擬桌面或 Citrix 平臺，也支援通話和會議功能。
+虛擬化環境中的 Microsoft 團隊支援聊天與共同作業。 而且有了 Windows 虛擬桌面版、Citrix 和 VMware 平臺，也支援通話和會議功能。
 
 虛擬化環境中的小組支援多種設定。 其中包括 VDI、專用、共用、持久且非持久的模式。 功能在連續開發並定期新增，功能將會在未來的幾個月和幾年中擴充。
 
@@ -54,7 +54,7 @@ ms.locfileid: "46597119"
 
 已使用主要的虛擬化解決方案提供者驗證團隊桌面應用程式。 有了多個市場供應商，我們建議您諮詢您的虛擬化解決方案供應商，以確保您符合最低需求。
   
-目前，使用音訊/視頻 (AV) 優化的小組，都是使用 Windows 虛擬桌面和 Citrix 認證。 請參閱本節中的資訊，以確保您符合所有對適當功能的需求。
+目前，使用音訊/視頻 (AV) 優化的小組，都是使用 Windows Virtual Desktop、Citrix 和 VMware 進行認證。 請參閱本節中的資訊，以確保您符合所有對適當功能的需求。
 
 ### <a name="platforms-certified-for-teams"></a>針對團隊認證的平臺
 
@@ -64,6 +64,7 @@ ms.locfileid: "46597119"
 |----|---|
 |![代表 Microsoft 的標誌](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 虛擬桌面</a> |
 |![代表 Citrix 的標誌](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虛擬 App 與桌面</a> |
+|![代表 VMware 的標誌](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware 範圍</a> |
 
 ### <a name="windows-virtual-desktop"></a>Windows 虛擬桌面
 
@@ -76,6 +77,10 @@ Citrix 虛擬 App 和桌面 (先前稱為 XenApp 和 XenDesktop) 為 VDI 上的�
 您可以在[citrix 下載網站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下載最新版本的 Citrix 虛擬 App 和桌上型電腦。  (您必須先登入。 ) 必要元件已捆綁到[Citrix 工作區應用程式 (CWA) ](https://www.citrix.com/downloads/workspace-app/)和虛擬傳遞代理程式 (VDA) 預設。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
 
 如需最新的伺服器和用戶端需求，請參閱[此 Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
+
+### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware 地平線工作區和桌面需求
+
+VMware 橫向針對 VDI 的小組提供優化的 AV 支援，以改善虛擬桌面電腦的生產力。 您可以從 [ [Vmware 下載](https://my.vmware.com/web/vmware/downloads/#all_products)] 頁面下載最新版本的 VMware。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安裝或更新小組桌面應用程式
 
@@ -197,24 +202,12 @@ Citrix 虛擬 App 和桌面 (先前稱為 XenApp 和 XenDesktop) 為 VDI 上的�
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>VDI 上的小組與通話與會議
 
-除了聊天與共同作業之外，您還可以使用 Citrix 與會議支援來使用與客戶進行通話與會議支援的小組。 支援的功能是以 WebRTC 媒體堆疊和 Citrix 專用的實現為基礎。 下圖提供架構的概覽。
+除了聊天與共同作業之外，您還可以使用支援的虛擬化提供者平臺提供通話和會議的 VDI 小組。 支援的功能是以 WebRTC 媒體堆疊和虛擬化提供者實現為基礎。 下圖提供架構的概覽。
 
 ![顯示 VDI 架構小組的圖表](media/teams-on-vdi-architecture.png)
 
-不支援以下通話與會議功能：
-
-- 增強的緊急服務
-- 小組 app 與裝置之間的 HID 按鈕和 LED 控制項
-- 背景模糊和效果
-- 廣播/即時事件
-- 以位置為基礎的路由 (LBR) 
-- 通話駐留
-- 通話佇列
-
 > [!IMPORTANT]
-> 如果您目前在 VDI 中執行的團隊沒有 AV 優化，且您使用的功能尚不受優化 (例如，在應用程式共用) 中授與控制權，您必須設定 Citrix 原則來關閉小組重新導向。 這表示小組媒體會話不會進行優化。 如需如何設定原則以關閉小組重新導向的步驟，請參閱此[Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)。
-
-我們正在努力新增目前僅適用于非 VDI 環境中的通話與會議功能。 這些可能包括更多系統管理員控制品質、其他螢幕共用案例，以及最近新增至團隊的高級功能。 若要深入瞭解即將推出的功能，請與您的小組代表聯繫。
+> 如果您目前在 VDI 中執行的團隊沒有 AV 優化，且您使用的功能尚不受優化 (例如，在應用程式共用) 中授與控制權，您必須設定 [虛擬化提供者原則] 來關閉 [小組重新導向]。 這表示小組媒體會話不會進行優化。 如需如何設定原則以關閉小組重新導向的相關步驟，請聯絡您的虛擬化提供者。
 
 ### <a name="network-requirements"></a>網路需求
 
@@ -243,7 +236,7 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>VDI 上的小組與聊天與共同作業
 
-如果您的組織想要只使用團隊中的聊天與共同作業功能，您可以設定使用者層級原則，以關閉小組中的通話與會議功能。 此功能層級不需要 Citrix 虛擬 App 與桌上型電腦。
+如果您的組織想要只使用團隊中的聊天與共同作業功能，您可以設定使用者層級原則，以關閉小組中的通話與會議功能。 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>設定原則以關閉通話與會議功能
 
@@ -297,9 +290,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 若要深入瞭解如何使用 PowerShell 來管理會議原則，請參閱[設定 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>使用通話與會議，在 VDI 上將團隊遷移到與 Citrix 進行聊天與共同作業
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>使用聊天與共同作業將小組遷移至 VDI，以使用通話與會議優化團隊
 
-如果您在 VDI 上有現有的小組實現，且您已將使用者層級原則設定為關閉通話與會議功能，且您是透過 AV 優化來移植到 Citrix，則您必須設定原則來針對 VDI 使用者的小組開啟與會議功能。
+如果您在 VDI 上有現有的小組實現，且您已將使用者層級原則設定為關閉通話與會議功能，且您是透過 AV 優化來遷移至小組，則您必須設定原則來針對 VDI 使用者上的小組開啟通話和會議功能。
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>設定原則以開啟通話與會議功能
 
@@ -359,13 +352,28 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 - 在每電腦安裝中，VDI 上的團隊不會以非 VDI 團隊用戶端的方式自動更新。 您必須安裝新的 MSI 來更新 VM 影像，如在 VDI 的 [[安裝或更新團隊桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)] 區段中所述。 您必須卸載目前的版本，才能更新為較新的版本。
 - 團隊應該針對每個使用者或每個電腦來部署。 不支援針對每位使用者和每個電腦並行部署團隊。 若要從每個電腦或每位使用者遷移到其中一個模式，請遵循卸載程式，然後重新部署到其中一種模式。
-- Citrix 目前不支援 MacOs 和 Linux 的用戶端。
+- Windows 虛擬桌面及 VMware 目前不支援 MacOS 和 Linux 的用戶端。
+- Citrix 目前不支援 MacOs 用戶端。
 - Citrix 不支援使用在端點上定義的明確 HTTP proxy。
 
 ### <a name="calling-and-meetings"></a>通話與會議
 
+不支援下列通話與會議功能：
+
+- 增強的緊急服務
+- 小組 app 與裝置之間的 HID 按鈕和 LED 控制項
+- 背景模糊和效果
+- 廣播/即時事件
+- 以位置為基礎的路由 (LBR) 
+- 通話駐留
+- 通話佇列
+
+> [!NOTE]
+> 我們正在努力新增目前僅適用于非 VDI 環境中的通話與會議功能。 這些可能包括更多系統管理員控制品質、其他螢幕共用案例，以及最近新增至團隊的高級功能。 若要深入瞭解即將推出的功能，請與您的小組代表聯繫。
+
+下列是通話與會議的已知問題與限制：
+
 - 與商務用 Skype 的互通性限制在音訊通話中;沒有任何視頻模態。
-- 以匿名使用者身分加入團隊會議不是 AV 優化的。 使用者可以加入會議，且有未優化的體驗。
 - 在會議或群組通話中只支援單一傳入的視頻資料流程。 當多人傳送影片時，任何指定時間只會顯示主要喇叭的影片。
 - 內送和外寄的視頻資料流程解析度限制為720p 解析度。 這是 WebRTC 的限制。
 - 只支援來自內送相機或畫面共用資料流程的一個影片串流。 當有傳入螢幕共用時，會顯示該螢幕共用，而不是主要喇叭的影片。

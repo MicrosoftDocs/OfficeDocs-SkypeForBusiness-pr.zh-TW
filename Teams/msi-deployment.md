@@ -17,22 +17,21 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088191"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46606919"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
 > [!Tip]
 > 請觀看下列會話，瞭解 Windows 桌面用戶端的優點，以及如何進行規劃，以及部署方式：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)。
 
-若要使用 Microsoft 端點設定管理員（或群組原則），或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供了 MSI 檔案（32位與64位），管理員可以使用它來大量部署團隊來選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。 （您可以在安裝應用程式後停用自動啟動。 [請參閱下文](#disable-auto-launch-for-the-msi-installer)。）我們建議您將套件部署到電腦，讓電腦的所有新使用者也能從這項部署獲益。
+若要使用 Microsoft 端點設定管理員（或群組原則），或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供的 MSI 檔案 (32 位和64位) ，管理員可以使用它來大量部署團隊來選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。  (您可以在安裝應用程式後停用自動啟動。 [請參閱下方](#disable-auto-launch-for-the-msi-installer)。 ) 建議您將套件部署到電腦，所以電腦的所有新使用者也都能從這個部署獲益。
 
 以下是 MSI 檔案的連結：
-
 
 |實體  |32位      |64位      |
 |---------|---------|---------|
@@ -41,15 +40,17 @@ ms.locfileid: "45088191"
 |聯邦政府-GCC 高    | [32位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |聯邦政府-DoD     | [32位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
-> [!NOTE]
-> 在64位作業系統上安裝64位版本的團隊。 如果您嘗試在32位作業系統上安裝64位版本的團隊，安裝將無法成功完成，而且目前您不會收到錯誤訊息。
+**若要確保成功地進行部署，請注意下列事項：**
 
-團隊也可以包含在企業版 Microsoft 365 應用程式的部署中。 如需詳細資訊，請參閱[使用適用于企業的 microsoft 365 應用程式部署 Microsoft 團隊](https://docs.microsoft.com/deployoffice/teams-install)。
+- 在64位作業系統上安裝64位版本的團隊。 如果您嘗試在32位作業系統上安裝64位版本的團隊，安裝將無法成功完成，而且目前您不會收到錯誤訊息。
 
-> [!Note]
-> 若要深入瞭解 Microsoft Endpoint Configuration Manager，請參閱[何謂 Configuration manager？](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- 如果客戶租使用者是在 GCCH 或 DoD 雲彩，客戶應該在登錄中將**CloudType**值新增到登錄的**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**金鑰中，以設定初始端點。 **CloudType**的類型是**DWORD** ，而值是 (0 = 取消，1 = 商業，2 = GCC，* = GCCH，4 = DOD) 。 使用登錄金鑰設定端點會限制團隊連線至正確的雲端端點，以與團隊進行預先登入連線。
 
-## <a name="deployment-procedure-recommended"></a>部署程式（建議使用）
+- 團隊也可以包含在企業版 Microsoft 365 應用程式的部署中。 如需詳細資訊，請參閱[使用適用于企業的 microsoft 365 應用程式部署 Microsoft 團隊](https://docs.microsoft.com/deployoffice/teams-install)。
+
+- 若要深入瞭解 Microsoft Endpoint Configuration Manager，請參閱[何謂 Configuration manager？](https://docs.microsoft.com/configmgr/core/understand/introduction)
+
+## <a name="deployment-procedure-recommended"></a>建議) 的部署程式 (
 
 1. 取得最新套件。
 2. 使用 MSI 預先填入的預設值。
@@ -61,7 +62,7 @@ ms.locfileid: "45088191"
 
 [團隊 MSI] 會在程式檔案中放置安裝程式。 每當使用者登入新的 Windows 使用者設定檔時，系統就會啟動安裝程式，而且會在該使用者的資料夾中安裝 [小組] app 的複本 `AppData` 。 如果使用者已在資料夾中安裝 [團隊] 應用程式 `AppData` ，則 MSI 安裝程式將會略過該使用者的進程。
 
-請勿使用 MSI 來部署更新，因為用戶端會在檢測到可從服務取得新版本時自動更新。 若要重新部署最新的安裝程式，請使用以下所述的重新部署 MSI 程式。 如果您部署舊版的 MSI 套件，則用戶端可能會自動更新（在 VDI 環境中除外）。 如果部署的是較舊的版本，MSI 將觸發應用程式更新，讓使用者能夠使用團隊。
+請勿使用 MSI 來部署更新，因為用戶端會在檢測到可從服務取得新版本時自動更新。 若要重新部署最新的安裝程式，請使用以下所述的重新部署 MSI 程式。 如果您部署舊版的 MSI 套件，用戶端會自動更新 (但在使用 VDI 環境時，使用者可能會) 。 如果部署的是較舊的版本，MSI 將觸發應用程式更新，讓使用者能夠使用團隊。
 
 > [!Important]
 > 我們不建議您變更預設安裝位置，因為這可能會中斷更新流程。 如果版本太舊，最終會封鎖使用者存取服務。
@@ -71,7 +72,7 @@ ms.locfileid: "45088191"
 - .NET framework 4.5 或更新版本
 - Windows 8.1 或更新版本
 - Windows Server 2012 R2 或更新版本
-- 每個使用者設定檔 3 GB 的磁碟空間（建議使用）
+- 每個使用者設定檔的 3 GB 磁碟空間 (建議) 
 
 ### <a name="vdi-installation"></a>VDI 安裝
 
@@ -93,7 +94,7 @@ ms.locfileid: "45088191"
 
 MSI 的預設行為是在使用者登入後立即安裝 [小組] app，然後自動啟動小組。 如果您不想讓團隊在使用者安裝之後自動開始進行，您可以使用群組原則來設定策略設定，或停用 MSI 安裝程式的自動啟動。
 
-### <a name="use-group-policy-recommended"></a>使用群組原則（建議使用）
+### <a name="use-group-policy-recommended"></a>使用群組原則 (建議的) 
 
 啟用 [在安裝群組原則設定**之後，禁止 Microsoft 小組自動啟動**]。 您可以在 User Configuration\Policies\Administrative Templates\Microsoft 團隊中找到此原則設定。 這是建議的方法，因為您可以根據組織的需求關閉或開啟原則設定。
 
