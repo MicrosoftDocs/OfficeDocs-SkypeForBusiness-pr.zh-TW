@@ -168,6 +168,7 @@
 
 ## [教學課程：Teams 中的會議](Tutorial-Meetings-in-Teams.yml)
 ## [管理會議原則](meeting-policies-in-teams.md)
+## [從使用者移除 RestrictedAnonymousAccess 會議原則](meeting-policies-restricted-anonymous-access.md)
 ## [管理會議設定](meeting-settings-in-teams.md)
 ## [在設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [讓使用者在加入會議時記錄他們的名稱](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)

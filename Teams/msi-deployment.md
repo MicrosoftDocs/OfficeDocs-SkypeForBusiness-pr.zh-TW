@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606919"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640828"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
@@ -44,7 +44,7 @@ ms.locfileid: "46606919"
 
 - 在64位作業系統上安裝64位版本的團隊。 如果您嘗試在32位作業系統上安裝64位版本的團隊，安裝將無法成功完成，而且目前您不會收到錯誤訊息。
 
-- 如果客戶租使用者是在 GCCH 或 DoD 雲彩，客戶應該在登錄中將**CloudType**值新增到登錄的**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**金鑰中，以設定初始端點。 **CloudType**的類型是**DWORD** ，而值是 (0 = 取消，1 = 商業，2 = GCC，* = GCCH，4 = DOD) 。 使用登錄金鑰設定端點會限制團隊連線至正確的雲端端點，以與團隊進行預先登入連線。
+- 如果客戶租使用者是在 GCCH 或 DoD 雲彩，客戶應該在登錄中將**CloudType**值新增到登錄的**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**金鑰中，以設定初始端點。 **CloudType**的類型是**DWORD** ，而值是 (0 = 取消，1 = 商業，2 = GCC，3 = GCCH，4 = DOD) 。 使用登錄金鑰設定端點會限制團隊連線至正確的雲端端點，以與團隊進行預先登入連線。
 
 - 團隊也可以包含在企業版 Microsoft 365 應用程式的部署中。 如需詳細資訊，請參閱[使用適用于企業的 microsoft 365 應用程式部署 Microsoft 團隊](https://docs.microsoft.com/deployoffice/teams-install)。
 

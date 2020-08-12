@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572258"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640908"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -80,8 +80,8 @@ ms.locfileid: "46572258"
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |針對商務用 Skype 認證                        |
 |ViewSonic            |WCD- IFP6570                                               |7/31/2020       |針對商務用 Skype 認證                        |
-|Jabra                |接洽75耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
-|Jabra                |接洽65耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |演化75耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |演化65耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Jabra                |接洽50耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Avocor               |WCD-AVW-6555                                              |7/30/2020       |針對 Microsoft 團隊認證                           |
 |Jabra                |Evolve2 85 耳機                                         |7/17/2020       |針對 Microsoft 團隊認證                           |

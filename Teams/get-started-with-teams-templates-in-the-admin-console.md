@@ -1,5 +1,5 @@
 ---
-title: 在管理員主控台中使用團隊範本
+title: 使用團隊範本建立新團隊
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583170"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634729"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>在團隊管理主控台中開始使用團隊範本
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583170"
 > [!NOTE]
 > 團隊範本目前不支援建立專用頻道。 範本定義中不包含專用通道建立。
 
-團隊範本是預先建立的小組結構定義，它是圍繞業務需求或專案設計的。 使用預先建立的範本或建立您自己的範本。 團隊範本可讓您使用不同主題的頻道快速建立豐富的共同作業空間，並預先安裝 app 來拉入重要的內容和服務。 團隊範本提供預先定義的小組結構，可協助您在組織中輕鬆建立一致的團隊。 目前您可以在系統管理主控台或使用[Microsoft Graph](get-started-with-teams-templates.md)中使用範本。
+團隊範本是預先建立的小組結構定義，它是圍繞業務需求或專案設計的。 使用預先建立的範本或建立您自己的範本。 團隊範本可讓您使用不同主題的頻道快速建立豐富的共同作業空間，並預先安裝 app 來拉入重要的內容和服務。 團隊範本提供預先定義的小組結構，可協助您在組織中輕鬆建立一致的團隊。 目前您可以從小組中的範本或使用[Microsoft Graph](get-started-with-teams-templates.md)來建立小組。
 
 在本文中，我們將說明可在範本中定義的屬性、基底範本類型，以及如何使用幾個範例要求來從範本建立小組。
 
