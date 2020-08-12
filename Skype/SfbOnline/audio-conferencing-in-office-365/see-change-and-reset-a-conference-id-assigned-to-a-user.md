@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在商務用 Skype Online 中將會議 ID 指派給使用者，以及會議 Id 參數的用途。 '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163911"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643603"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中查看及重設指派給使用者的會議 ID
 
@@ -54,7 +54,7 @@ ms.locfileid: "44163911"
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
-3. 在**商務用 Skype 系統管理中心**> **音訊會議** > **使用者**中，選取需要會議 ID 的使用者。
+3. 在**商務用 Skype 系統管理中心** >  **音訊會議**  >  **使用者**中，選取需要會議 ID 的使用者。
 
 4. 在 [動作] 頁面中，查看 [**會議 ID**] 底下。
 
@@ -82,7 +82,7 @@ ms.locfileid: "44163911"
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
-3. 在**商務用 Skype 系統管理中心**> **音訊會議** > **使用者**的 [動作] 窗格中，按一下 [**會議 ID**] 底下的 [**重設**]。
+3. 在**商務用 Skype 系統管理中心** >  **音訊會議**  >  **使用者**的 [動作] 窗格中，按一下 [**會議 ID**] 底下的 [**重設**]。
 
 4. 在 [**重設會議 ID？** ] 視窗中，按一下 **[是]**。 系統會自動建立會議 ID，並以新的會議 ID 傳送給使用者的電子郵件。
 
@@ -97,13 +97,13 @@ ms.locfileid: "44163911"
 ## <a name="what-else-should-you-know"></a>您還應該知道什麼？
 
    > [!IMPORTANT]
-   >  在建立新的會議 ID 或重新設定之後，舊的會議 ID 無法由呼叫者使用。 您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。 使用者可以使用商務用 Skype 會議遷移工具來更新現有的會議。 若要瞭解如何下載、安裝及執行此工具，請參閱：[適用于商務用 skype 和 Lync 的會議更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[商務用 Skype Online、會議遷移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)，以及[商務用 Skype online、會議遷移工具（32位）](https://www.microsoft.com/download/details.aspx?id=54079)。
+   >  在建立新的會議 ID 或重新設定之後，舊的會議 ID 無法由呼叫者使用。 您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。 使用者可以使用商務用 Skype 會議遷移工具來更新現有的會議。 若要瞭解如何下載、安裝及執行此工具，請參閱：[適用于商務用 skype 和 Lync 的會議更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[商務用 Skype Online、會議遷移工具 (64 位) ](https://go.microsoft.com/fwlink/?LinkID=626047)及[商務用 Skype online、會議遷移工具 (32 位) ](https://www.microsoft.com/download/details.aspx?id=54079)。
 
 - 若要深入瞭解 Cmdlet，請參閱[設定 get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 。
 
 - 會議 ID 必須符合在音訊會議橋設定的位數長度。 您不能在會議 Id 中使用字母或特殊字元;只有數位可以使用。
 
-- 每個音訊會議使用者的會議 ID 預設會是7位數，且位數無法變更。
+- 所有音訊會議使用者的會議 ID 預設都會是9位數，且位數無法變更。
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？
