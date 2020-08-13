@@ -12,18 +12,18 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cca8df1ea3c4c2458851da24ab8b39dbbab2d3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8995f47ff1059921c324d71cbaca26fa47c50ca0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734443"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-video-bandwidth-in-lync-server-2013"></a>在 Lync Server 2013 中設定影片頻寬
 
@@ -37,9 +37,9 @@ ms.locfileid: "41734443"
 
 _**主題上次修改日期：** 2012-10-02_
 
-Lync Server 2013 包含數個設定，可用於管理雙方通話和多方會議的影片。 當您部署 Lync Server 2013 時，您應該評估預設設定是否適合您的組織，並視需要加以修改。
+Lync Server 2013 包含數個設定，用來管理兩方通話和多方會議的影片。 當您部署 Lync Server 2013 時，應評估預設設定是否適合您的組織，並視需要加以修改。
 
-本節所述的參數同時適用于雙方通話和多方會議。 使用下列其中一個 Cmdlet 來查看或修改這些設定：
+本節所述的參數適用於雙方通話和多方會議。請使用下列其中一個 Cmdlet 來檢視或修改這些設定：
 
   - **Get-CsConferencingPolicy**
 
@@ -47,72 +47,72 @@ Lync Server 2013 包含數個設定，可用於管理雙方通話和多方會議
 
   - **New-CsConferencingPolicy**
 
-驗證會議原則中的下列設定：
+在您的會議原則中確認下列設定：
 
-  - **VideoBitRateKb**   此設定會指定使用者所傳送之影片的最大視頻位元速率，以千位數/秒（kbps）為單位。 預設值為 50000 kbps。 有效值為0至50000。
+  - **VideoBitRateKb**    此設定指定由使用者所傳送之影片的最高每秒 (kbps) 的影片位元速率。 預設值為 50000 kbps。 有效的值為0到50000。
     
-    此設定會分別適用于主要影片和全景影片。
+    這個設定分別套用至主要視訊和全景視訊。
     
-    範例：如果您指定 2000 kbps，Lync Server 可以傳送 2000 kbps 的主要影片資料流程，以及全景視頻資料流程的 2000 kbps。
+    範例：如果您指定 2000 kbps，Lync Server 可以傳送 2000 kbps 的主要影片資料流程，以及全景影片資料流程的 2000 kbps。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync 2013 端點的 [最大視頻網路頻寬] 是 8000 kbps 的，用於全景影片的主要影片和 2500 kbps。 只有在收到或傳送多個視頻時，才會達到這些最大值。 如需詳細資訊，請參閱<A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 中的媒體流量需求網路頻寬需求</A>中的「媒體流量網路使用量」一節。 本節列出所有受支援之解析度的最大及典型視頻資料流程頻寬。
+    > Lync 2013 端點的最大視頻網路頻寬是 8000 kbps 的主要影片及全景影片的 2500 kbps。 只有當接收或傳送多個視訊時，才會達到上述最大值。 如需詳細資訊，請參閱<A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 中媒體流量的網路頻寬需求</A>中的「媒體流量網路使用量」一節。 這一節列出所有支援的解析度的最大及一般視訊資料流頻寬。
 
     
     </div>
 
-  - **TotalReceiveVideoBitRateKb**   [Lync Server 2013] 中的 [新增] 這項設定，指定用戶端收到的所有影片串流的最大使用率（以千位/秒為單位）。 也就是說，它會為用戶端可以接收的所有視頻資料流程（除了全景視頻資料流程）指定合併總計。 例如，如果您指定 1500 kbps，用戶端最多可以接收 1500 kbps 的視頻，可能由多個視頻資料流程或單一的視頻資料流程所組成。 此設定僅適用于 Lync Server 2013 用戶端。
+  - **TotalReceiveVideoBitRateKb**    此設定是 Lync Server 2013 中的新功能，指定用戶端所收到之所有影片的最大位元速率 (，單位為每秒千位) 。 也就是說，它會指定用戶端可以接收的所有影片資料流程（除了全景影片資料流程以外）的合併總計。 例如，如果您指定 1500 kbps，則用戶端最多可以接收 1500 kbps 的影片，其可能是由多個影片資料流程或單一的視頻資料流程所組成。 此設定僅適用于 Lync Server 2013 用戶端。
     
-    **TotalReceiveVideoBitRateKb**的預設值為 50000 kbps。 如果圖庫視圖的 [ **EnableMultiviewJoin** ] 設定設為 True，則**TotalReceiveVideoBitRateKb**不得將低於 420 kbps。 如果圖庫視圖的**EnableMultiviewJoin**設定設為 False， **TotalReceiveVideoBitRateKb**不得將低於 100 kbps。 如果**EnableMultiviewJoin**設定為 True，且您設定的值低於 420 kbps，則這些值將會預設為 [閾值] 值。 這個閾值可協助防止意外的錯誤配置，可能會導致不佳的使用者體驗。
+    **TotalReceiveVideoBitRateKb** 的預設值為 50000 kbps。如果「圖庫檢視」的 **EnableMultiviewJoin** 設定為 True，**TotalReceiveVideoBitRateKb** 的設定就不得低於 420 kbps。如果「圖庫檢視」的 **EnableMultiviewJoin** 設定為 False，**TotalReceiveVideoBitRateKb** 的設定就不得低於 100 kbps。如果 **EnableMultiviewJoin** 設定為 True，但您將值設定為低於 420 kbps，該值將會預設為臨界值。這個臨界值有助於防止意外的錯誤設定，避免造成不佳的使用者體驗。
     
     <div>
     
 
     > [!NOTE]  
-    > 如需<STRONG>EnableMultiviewJoin</STRONG>設定的詳細資訊，請參閱<A href="lync-server-2013-configuring-gallery-view.md">在 Lync Server 2013 中設定圖庫視圖</A>。
+    > 如需<STRONG>EnableMultiviewJoin</STRONG>設定的詳細資訊，請參閱<A href="lync-server-2013-configuring-gallery-view.md">在 Lync Server 2013 中設定圖庫 View</A>。
 
     
     </div>
 
-  - **MaxVideoConferencingResolution**   此參數已不再用於 lync server 2013 會議中的 lync server 2013 用戶端。 Lync Server 2013 會議使用本節前面所述的位元速率控制。 此設定仍用於加入 Lync Server 2013 會議的舊版用戶端。 這個參數決定由駐留在 Lync Server 2013 的使用者所組織之會議中的舊版用戶端所允許的最大解析度。 也就是說，舊用戶端的處理方式與舊版 Lync Server 或 Office 通訊伺服器相同。
+  - **MaxVideoConferencingResolution**    此參數不再用於 Lync Server 2013 會議中的 Lync Server 2013 用戶端。 Lync Server 2013 會議使用本節先前所述的位元速率控制。 此設定仍用於加入 Lync Server 2013 會議的舊版用戶端。 此參數會決定舊版用戶端對於以 Lync Server 2013 為宿主之使用者所組織的會議中所允許的最大解決方法。 也就是說，舊版用戶端的處理方式與舊版本的 Lync Server 或 Office 通訊伺服器相同。
 
-除了適用于使用者的會議原則設定之外，評估媒體設定。 使用下列其中一個 Cmdlet 來查看或修改這些設定：
+除了套用至使用者的會議原則設定，也要評估媒體組態設定。請使用下列其中一個 Cmdlet 來檢視或修改這些設定：
+
+  - **Get-CsMediaConfiguration**
 
   - **CsMediaConfiguration**
 
-  - **Set-CsMediaConfiguration**
-
-  - **新-CsMediaConfiguration**
+  - **新 CsMediaConfiguration**
 
 確認下列設定：
 
-  - **MaxVideoRateAllowed**   [此每個池] 設定會指定要在用戶端端點傳送視訊訊號的最大速度。 它只適用于舊版的 Lync Server 用戶端。
+  - **MaxVideoRateAllowed**    這個每個集區設定會指定在用戶端端點傳輸的視訊訊號的最大速率。 它只適用于舊版的 Lync Server 用戶端。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 用戶端會忽略此設定，而改為使用會議原則中的 [TotalReceiveVideoBitRateKb] 設定。
+    > Lync Server 2013 用戶端忽略此設定，而改用會議原則中的 [TotalReceiveVideoBitRateKb] 設定。
 
     
     </div>
     
-    預設值為 HD720P。 有效值為 HD720p15M、VGA600K 和 CIF250K。
+    預設值為 HD720P。有效值為 HD720p15M、VGA600K 和 CIF250K。
     
-    範例：如果您指定 1500 kbps，則所有舊版用戶端都可以在兩方或多方會議中接收最多 1500 kbps 的影片。
+    範例：如果您指定 1500 kbps，則集區中所有舊版用戶端在雙方或多方會議中都可以接收高達 1500 kbps 的視訊。
 
 下列程式是使用 Lync Server 管理命令介面來修改本節所述設定的範例。
 
 <div>
 
-## <a name="to-modify-conferencing-policy-for-video-settings"></a>修改影片設定的會議原則
+## <a name="to-modify-conferencing-policy-for-video-settings"></a>修改視訊設定的會議原則
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  在命令列上，執行下列 Cmdlet 來編輯會議原則：
+2.  在命令列上執行下列 Cmdlet 以編輯會議原則：
     
         Set-CsConferencingPolicy -Identity Pool01ConferencingPolicy -VideoBitRateKb 2000 -TotalReceiveVideoBitRateKb 2000 
 
@@ -120,11 +120,11 @@ Lync Server 2013 包含數個設定，可用於管理雙方通話和多方會議
 
 <div>
 
-## <a name="to-modify-media-configuration-for-legacy-clients"></a>若要修改舊版用戶端的媒體配置
+## <a name="to-modify-media-configuration-for-legacy-clients"></a>修改舊版用戶端的媒體組態
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  在命令列上，執行下列 Cmdlet 來編輯媒體設定：
+2.  在命令列上執行下列 Cmdlet 以編輯媒體組態：
     
         Set-CsMediaConfiguration -Identity site:Redmond01 -MaxVideoRateAllowed CIF250K
 

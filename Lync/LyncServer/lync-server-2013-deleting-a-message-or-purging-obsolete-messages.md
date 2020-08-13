@@ -12,18 +12,18 @@ ms:contentKeyID: 48706000
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8040d52690628b6085727d6a1fdac9288b94d5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91254ecffa70944f867f3df3b69290b52d041305
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763235"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deleting-a-message-or-purging-obsolete-messages-in-lync-server-2013"></a>在 Lync Server 2013 中刪除訊息或清除過時的訊息
 
@@ -37,15 +37,15 @@ ms.locfileid: "41763235"
 
 _**主題上次修改日期：** 2014-02-05_
 
-持續聊天系統管理員可以從持續聊天室刪除郵件（也可以選擇是否要將它取代為其他郵件）。 系統管理員也可以清除過時的訊息做為日常維護的一部分，以將資料庫的增長降至最低。 例如，這個 Windows PowerShell 命令會移除使用者 kenmyer@litwareinc.com 張貼的 ITChatRoom 聊天室中的所有訊息：
+Persistent Chat 系統管理員可以從 Persistent 聊天室刪除郵件 (，也可以選擇性地將其取代為另一封郵件) 。 管理員也可以清除過時訊息作為持續維護的一部分，以將資料庫的成長最小化。 例如，此 Windows PowerShell 命令會從使用者 kenmyer@litwareinc.com 所張貼的 ITChatRoom 聊天室中移除所有郵件：
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com"
 
-這個範例會將所有已移除的郵件取代為不能再使用的筆記：
+這個範例會取代所有已移除的郵件，請注意，該郵件已不再可用：
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com" -ReplaceMessage "This message is no longer available."
 
-如需詳細資訊，請參閱[Remove CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) Cmdlet 的說明主題。
+如需詳細資訊，請參閱[test-cspersistentchatmessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) Cmdlet 的 [說明] 主題。
 
 </div>
 

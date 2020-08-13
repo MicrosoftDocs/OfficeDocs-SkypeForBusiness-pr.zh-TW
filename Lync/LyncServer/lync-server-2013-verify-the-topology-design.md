@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：驗證拓撲設計
+title: Lync Server 2013：確認拓撲設計
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85266477df342c16ed69c0507813b905c608745c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 452bd18d19fa61a0479ee8040361290b0b99d702
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742143"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-the-topology-design-in-lync-server-2013"></a>在 Lync Server 2013 中驗證拓撲設計
+# <a name="verify-the-topology-design-in-lync-server-2013"></a>驗證 Lync Server 2013 中的拓撲設計
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41742143"
 
 _**主題上次修改日期：** 2012-01-02_
 
-[拓撲建立器] 會自動驗證拓撲。 任何拓撲錯誤都會被識別為驗證錯誤，並由伺服器角色旁的驗證錯誤圖示所指示。 您也必須確認拓撲正確代表您部署的拓撲。
+拓撲產生器會自動驗證拓撲。 任何拓撲錯誤都會識別為驗證錯誤，由伺服器角色旁邊的驗證錯誤圖示所指示。 此外，驗證此拓撲是否正確表示您的部署拓撲也很重要。
 
 <div>
 
-## <a name="to-verify-the-topology-prior-to-publication"></a>在發佈前驗證拓撲
+## <a name="to-verify-the-topology-prior-to-publication"></a>若要在發行之前驗證拓撲
 
-1.  檢查所有簡單的 Url 是否已正確設定。
+1.  檢查所有簡單 URL 皆已設定正確。
 
-2.  確認 SQL Server 型伺服器已在線上且可供安裝拓撲產生器的電腦使用，包括任何必要的防火牆規則。
+2.  確認以 SQL Server 為基礎的伺服器在線上，且可供安裝拓撲產生器的電腦使用（包括任何必要的防火牆規則）。
 
-3.  確認檔案共用可用，且已定義適當的許可權。
+3.  確認檔案共用可用且具有適當的許可權定義。
 
-4.  確認拓撲中定義符合部署需求的正確伺服器角色。
+4.  確認拓撲中已定義符合部署需求的正確伺服器角色。
 
-5.  確認伺服器存在於 Active Directory 網域服務中。 如果您已將伺服器加入網域，就會自動進行這種情況。
+5.  確認伺服器存在於 Active Directory 網域服務中。 如果您已將伺服器加入至網域，則會自動發生這種情形。
 
-驗證拓朴且沒有驗證錯誤時，您應該準備好發佈拓撲。 如果有驗證錯誤，您必須先更正這些錯誤，才能發佈拓撲。 如需發佈拓撲的詳細資料，請參閱[在 Lync Server 2013 中發佈拓撲](lync-server-2013-publish-the-topology.md)。
+當您已驗證拓撲且沒有驗證錯誤時，您應可準備發行拓撲。 如果有驗證錯誤，您必須先更正錯誤，才可以發行拓撲。 如需有關發佈拓撲的詳細資訊，請參閱[在 Lync Server 2013 中發行拓撲](lync-server-2013-publish-the-topology.md)。
 
 </div>
 

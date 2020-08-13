@@ -12,20 +12,20 @@ ms:contentKeyID: 51541474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 709b27059e1908a45b4b473f5380215bbd499d27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 990e58dc01171001e896b03e5a32fc8175c93b2f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725523"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-autodiscover-in-lync-server-2013"></a>規劃 Lync Server 2013 中的自動探索
+# <a name="planning-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中規劃自動探索
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41725523"
 
 _**主題上次修改日期：** 2013-02-16_
 
-在 Lync server 2010 （2011年11月）累計更新中，會針對 Lync Server 推出自動探索功能。 此初始的自動探索實現的主要用途是提供 Lync Mobile 的一種方法來找出行動服務（Mcx）。 Lync Server 2013 中的自動探索服務現已成為所有用戶端用來尋找伺服器和使用者服務的服務。 Microsoft Lync Server 2013 自動探索服務會在控制器和前端伺服器上執行。
+Lync server 2010：11月2011的累計更新中已引進 Lync Server 的自動探索。 這項初始的自動探索執行的主要目的是提供一種方法，讓 Lync Mobile 能夠找出行動服務 (Mcx) 。 Lync Server 2013 中的自動探索服務現在是所有用戶端用來尋找伺服器和使用者服務的服務。 Microsoft Lync Server 2013 自動探索服務會在 Director 和前端伺服器上執行。
 
 <div>
 
 
 > [!TIP]  
-> 如需深入瞭解自動探索以及傳送給用戶端的內容，請參閱<A href="lync-server-2013-understanding-autodiscover.md">瞭解 Lync Server 2013 中的自動</A>探索。<BR>行動性仍是一個獨特的案例，行動服務仍需要一些特殊規劃。 如需其他詳細資料，請參閱<A href="lync-server-2013-planning-for-mobility.md">在 Lync Server 2013 中規劃行動</A>。
+> 如需更多對自動探索的技術瞭解，以及與用戶端進行通訊的相關資訊，請參閱<A href="lync-server-2013-understanding-autodiscover.md">瞭解 Lync Server 2013 中的自動</A>探索。<BR>行動性仍然是不同的案例，行動服務仍然需要一些特殊的規劃。 如需其他詳細資料，請參閱<A href="lync-server-2013-planning-for-mobility.md">在 Lync Server 2013 中規劃行動</A>。
 
 
 
 </div>
 
-當 [Lync Server 2010] 中推出 [自動探索] 時，需要進行一些折衷，才能實現需要對現有伺服器部署有潛在證書變更的服務。 自動探索可用於 HTTPS 的埠 TCP 443，或經由埠 TCP 80 （針對 HTTP）使用。 如果決定使用 HTTPS，必須重新頒發反向代理、控制器和前端伺服器上的憑證，才能容納必要`lyncdiscover.<domain>`的`lyncdiscoverinternal.<domain>` DNS 記錄。 如果決定要使用 HTTP，您可以使用 DNS CNAME （或別名）記錄來避免重新頒發憑證，以使用憑證上現有的名稱。 使用 HTTP 是指未加密初始通訊。
+在 Lync Server 2010 中引入「自動探索」時，必須採取一些威脅，才可實施對現有伺服器部署有可能的憑證變更所需的服務。 自動探索可用於 HTTPS 的埠 TCP 443，或透過埠 TCP 80 進行 HTTP。 若決定使用 HTTPS，應重新產生反向 proxy、Director 和前端伺服器上的憑證，以容納必要的 `lyncdiscover.<domain>` 和 `lyncdiscoverinternal.<domain>` DNS 記錄。 如果決策使用的是 HTTP，使用 DNS CNAME (或別名) 記錄來使用憑證上的現有名稱，便可避免重新發起憑證。 使用 HTTP 是指未加密初始通訊。
 
-由於 Lync Server 2013 使用所有用戶端的自動探索功能，因此主要案例是使用 HTTPS，並以 lyncdiscover 建立證書。\<[\>網域] 做為反向代理、控制器和前端伺服器的設定的一部分。 如果您要從 Lync Server 2010 將自動探索實現到升級後的部署，您可能會想要使用 HTTP 來避免重新頒發憑證。 下列各節提供這兩個案例的指導方針。
+因為 Lync Server 2013 針對所有用戶端使用自動探索，所以主要案例是以獨佔方式使用 HTTPS，並使用 lyncdiscover 建立憑證。 \<\>反向 proxy、director 及前端伺服器設定的一部分網域。 若要將自動探索從 Lync Server 2010 實施升級的部署，您可能想要使用 HTTP 來避免重新發起憑證。 下列各節提供兩種案例的指導方針。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 外部 web 服務發佈規則所使用的憑證上的 [subject 替換名稱] 清單必須包含<EM>lyncdiscover&lt; 。針對&gt; </EM>貴組織內的每個 SIP 網域 sipdomain 專案。 如需董事、前端伺服器及反向 proxy 所需的主題替換名稱專案的詳細資料，請參閱<A href="lync-server-2013-certificate-summary-autodiscover.md">在 Lync Server 2013 中</A>的 [自動探索]。
+> 外部 web 服務發行規則所使用之憑證上的主體替代名稱清單必須包含<EM>lyncdiscover。 &lt;組織 &gt; </EM>內每個 SIP 網域的 microsoft.rtc.management.xds.sipdomain 專案。 如需 Director、前端伺服器及反向 proxy 所需的主體替代名稱專案的詳細資訊，請參閱<A href="lync-server-2013-certificate-summary-autodiscover.md">Lync Server 2013 中的憑證摘要-自動</A>探索。
 
 
 
@@ -65,15 +65,15 @@ _**主題上次修改日期：** 2013-02-16_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [憑證摘要-Lync Server 2013 中的自動探索](lync-server-2013-certificate-summary-autodiscover.md)
+  - [Lync Server 2013 中的憑證摘要-自動探索](lync-server-2013-certificate-summary-autodiscover.md)
 
-  - [埠摘要-Lync Server 2013 中的自動探索](lync-server-2013-port-summary-autodiscover.md)
+  - [Lync Server 2013 中的埠摘要-自動探索](lync-server-2013-port-summary-autodiscover.md)
 
-  - [DNS 摘要-Lync Server 2013 中的自動探索](lync-server-2013-dns-summary-autodiscover.md)
+  - [Lync Server 2013 中的 DNS 摘要-自動探索](lync-server-2013-dns-summary-autodiscover.md)
 
-  - [Lync Server 2013 中的混合式和剝離網域自動探索](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
+  - [Lync Server 2013 中的混合式和分割網域自動探索](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
 
 </div>
 

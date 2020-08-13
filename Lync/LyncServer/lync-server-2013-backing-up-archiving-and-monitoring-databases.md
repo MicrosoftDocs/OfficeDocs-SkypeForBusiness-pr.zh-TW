@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：備份封存與監控資料庫
+title: Lync Server 2013：備份封存和監控資料庫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,18 +12,18 @@ ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4092ddc3c86496053cc0ebbb367188490096de4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ec4f76c0bea6c9ffd98ec0ce6105698dfd3718e3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740163"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a>在 Lync Server 2013 中備份封存與監控資料庫
 
@@ -37,19 +37,19 @@ ms.locfileid: "41740163"
 
 _**主題上次修改日期：** 2013-02-17_
 
-如果您已部署封存或監視，您必須根據貴組織的 SQL Server 備份原則來備份這些資料庫。
+如果您已部署封存或監控，您必須根據組織的 SQL Server 備份原則備份這些資料庫。
 
 <div>
 
 
 > [!NOTE]  
-> 當您備份中央管理儲存區時，就會備份 [封存及監視] 設定。 如需詳細資訊，請參閱<A href="lync-server-2013-backing-up-core-data-and-settings.md">在 Lync Server 2013 中備份核心資料和設定</A>。
+> 當您備份中央管理存放區時，即會備份封存和監控的設定。 如需詳細資訊，請參閱<A href="lync-server-2013-backing-up-core-data-and-settings.md">在 Lync Server 2013 中備份核心資料和設定</A>。
 
 
 
 </div>
 
-若要封存及監視，您可以使用 sql server Management Studio 等 SQL Server 工具來執行手動備份，或者您可以使用 SQL Server 管理工具來排程定期、自動備份。
+若要進行封存與監控，您可以使用 SQL server 工具（例如 SQL Server Management Studio）執行手動備份，也可以使用 SQL Server 管理工具來排程定期、自動備份。
 
 </div>
 

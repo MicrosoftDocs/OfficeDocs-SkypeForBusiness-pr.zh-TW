@@ -12,18 +12,18 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd960561309bf8d7e82b028b5a2314400763dc4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3190bdd2e3e242716aabbb2dddf1fd9b71518045
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743313"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>在 Lync Server 2013 中管理網路頻寬原則設定檔
 
@@ -37,17 +37,17 @@ ms.locfileid: "41743313"
 
 _**主題上次修改日期：** 2012-10-15_
 
-使用本節中的程式來管理您的網路頻寬原則設定檔。 如需媒體流量的網路頻寬需求的詳細資訊，請參閱[Lync Server 2013 中媒體流量的網路頻寬需求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。
+使用本節中的程式來管理您的網路頻寬原則設定檔。 如需媒體流量之網路頻寬需求的詳細資訊，請參閱[Lync Server 2013 中媒體流量的網路頻寬需求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [在 Lync Server 2013 中查看網路頻寬原則設定檔資訊](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
   - [在 Lync Server 2013 中建立或修改頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
 
-  - [刪除 Lync Server 2013 的網路頻寬原則設定檔](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+  - [在 Lync Server 2013 中刪除網路頻寬原則設定檔](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
 
 </div>
 
@@ -61,7 +61,7 @@ _**主題上次修改日期：** 2012-10-15_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中媒體流量的網路頻寬需求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  

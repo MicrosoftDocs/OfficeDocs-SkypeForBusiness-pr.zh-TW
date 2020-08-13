@@ -12,18 +12,18 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a1ed13a53bdf31c4bee0daaa7489809fd4e6f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f19c7eac607ffcba65435cea2faf53c91e75609c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764349"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-devices-in-lync-server-2013"></a>Lync Server 2013 中支援的裝置
 
@@ -37,19 +37,19 @@ ms.locfileid: "41764349"
 
 _**主題上次修改日期：** 2012-10-08_
 
-Lync Server 支援下表所列的所有電話。 請注意，並非所有受支援的手機都能執行 Lync Phone Edition （有些只能執行較舊的版本）。 使用表格來瞭解哪些電話可以執行 Lync Phone Edition，以及在何處取得所有支援手機的詳細資訊。
+Lync Server 支援下表所列的所有電話。 請注意，並非所有支援的電話都可以執行 Lync Phone Edition (某些可以只執行) 的早期版本。 使用此表格來瞭解哪些電話可以執行 Lync Phone Edition，以及在何處取得所有支援電話的詳細資訊。
 
 <div>
 
 
 > [!NOTE]  
-> 支援三種類型的電話：手機（可供其辦公桌的員工使用的話筒 IP 或 USB 裝置）、會議裝置（專為在會議室中使用的免提 IP 或 USB 手機），以及常見的區域電話（IP 電話專為在共用區域（例如大廳、kitchens、工廠地面和共用工作區）中使用，而且可以自訂，以提供不同的 Lync 手機版本功能集。
+> 支援三種類型的電話：電話 (話筒 IP 或 USB 裝置，其設計目的在於供其書桌) 的員工使用。會議裝置 (用來在會議室) 中使用的免提 IP 或 USB 電話，以及設計用來用於共用區域（如大廳、廚房、factory 地面和共用工作區）的常見區域電話，可供您自訂，以提供不同的 Lync Phone Edition 功能組。 (
 
 
 
 </div>
 
-如需適用于 Lync 之已優化之所有裝置的詳細比較資料表，請參閱「Microsoft Lync 合格的電話和裝置<http://go.microsoft.com/fwlink/p/?linkid=208938>」。 此網站上的 [電話對比] 表格包含定價資訊和技術規格。
+如需有關已優化為搭配 Lync 使用之所有裝置的詳細比較表，請參閱《 Microsoft Lync 的電話和裝置合格」 <https://go.microsoft.com/fwlink/p/?linkid=208938> 。 此網站上的電話比較表包含定價資訊和技術規格。
 
 
 <table>
@@ -62,59 +62,59 @@ Lync Server 支援下表所列的所有電話。 請注意，並非所有受支�
 <tr class="header">
 <th>電話</th>
 <th>執行 Lync Phone Edition</th>
-<th>瞭解更多資訊</th>
+<th>深入了解</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Aastra 6721ip 常見區域電話</p></td>
+<td><p>Aastra 6721ip 公共區域電話</p></td>
 <td><p>X</p></td>
 <td><p>在 Aastra 網站<a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=6074">下載 Aastra 6721ip</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Aastra 6725ip phone</p></td>
+<td><p>Aastra 6725ip 電話機</p></td>
 <td><p>X</p></td>
 <td><p>在 Aastra 網站<a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=12991">下載 Aastra 6725ip</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>HP 4110 IP Phone （通用區域電話）</p></td>
+<td><p>HP 4110 IP 電話 (通用區域電話) </p></td>
 <td><p>X</p></td>
-<td><p>Hp <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">4110 IP 電話系列</a>（位於 hp 網站）</p></td>
+<td><p>HP <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">4110 IP 電話數列</a>（位於 HP 網站）</p></td>
 </tr>
 <tr class="even">
-<td><p>HP 4120 IP Phone （辦公桌電話）</p></td>
+<td><p>HP 4120 IP 電話 (電話機)</p></td>
 <td><p>X</p></td>
-<td><p>Hp <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">4120 IP 電話系列</a>（位於 hp 網站）</p></td>
+<td><p>HP <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">4120 IP 電話數列</a>（位於 HP 網站）</p></td>
 </tr>
 <tr class="odd">
-<td><p>Polycom CX300、CX500 USB 電話機</p></td>
+<td><p>Polycom CX300 USB 電話機</p></td>
 <td></td>
-<td><p>Polycom 網站上的<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a></p></td>
+<td><p>Polycom 網站上的<a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Polycom CX500 IP 常見區域電話</p></td>
+<td><p>Polycom CX500 IP 公共區域電話</p></td>
 <td><p>X</p></td>
-<td><p>Polycom 網站上的<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a></p></td>
+<td><p>Polycom 網站上的<a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX600 IP 電話機</p></td>
 <td><p>X</p></td>
-<td><p>Polycom 網站上的<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a></p></td>
+<td><p>Polycom 網站上的<a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Polycom CX700 IP 電話機</p></td>
+<td><p>Polycom CX700 IP 服務台電話</p></td>
 <td></td>
-<td><p>Polycom 網站上的<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a></p></td>
+<td><p>Polycom 網站上的<a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX3000 IP 會議電話</p></td>
 <td><p>X</p></td>
-<td><p>在 Polycom 網站上<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a></p></td>
+<td><p>Polycom 網站上的<a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Polycom CX5000 USB 會議裝置</p></td>
+<td><p>Polycom CX5000 的 USB 會議裝置</p></td>
 <td></td>
-<td><p>在 Polycom 網站上<a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a></p></td>
+<td><p>Polycom 網站上的<a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +124,7 @@ Lync Server 支援下表所列的所有電話。 請注意，並非所有受支�
 
 
 > [!NOTE]  
-> 同時也提供對類比裝置的支援。 如需詳細資訊，請參閱在 Lync Server 2010 TechNet Library 中<A href="http://go.microsoft.com/fwlink/p/?linkid=257502">部署模擬裝置的規劃</A>。 （Lync Phone Edition 在 Lync Server 2013 和 Lync Server 2010 中的運作方式相同）。
+> 也提供類比裝置的支援。 如需詳細資訊，請參閱規劃如何在 Lync Server 2010 TechNet 程式庫中<A href="https://go.microsoft.com/fwlink/p/?linkid=257502">部署類比裝置</A>。  (lync Phone Edition 在 Lync Server 2013 和 Lync Server 2010) 中的運作方式相同。
 
 
 

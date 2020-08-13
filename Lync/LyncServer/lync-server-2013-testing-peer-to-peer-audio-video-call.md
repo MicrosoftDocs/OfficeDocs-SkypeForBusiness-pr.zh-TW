@@ -12,18 +12,18 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e319ace4ee4cc6613ac5ed29659ac14c5853d7b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea5283f588315d06387ed2d441f138538cd13ca3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745633"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>在 Lync Server 2013 中測試對等音訊/視頻通話
 
@@ -46,16 +46,16 @@ _**主題上次修改日期：** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>驗證排程</p></td>
-<td><p>日常</p></td>
+<td><p>每日</p></td>
 </tr>
 <tr class="even">
 <td><p>測試控管</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要許可權</p></td>
+<td><p>必要的權限</p></td>
 <td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 CsP2PAV Cmdlet 許可權的 RBAC 角色。 若要查看可以使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示執行下列命令：</p>
+<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsP2PAV Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,13 +64,13 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-Test-CsP2PAV 是用來判斷一組測試使用者是否可以參與對等 A/V 交談。 若要測試這種情況，請將兩位使用者登入 Lync Server，然後啟動 Cmdlet。 假設兩次登錄成功，則第一個使用者接著邀請第二位使用者加入 A/V 通話。 第二個使用者接受通話，兩個使用者之間的連線就會得到測試，然後通話就會結束，並從系統登出測試使用者。
+Test-CsP2PAV 是用來判斷一組測試使用者是否可以參與對等 A/V 交談。 若要測試此案例，指令程式會從兩個使用者登入 Lync Server，以啟動 Cmdlet。 假設這兩次登入都成功，則第一位使用者會邀請第二位使用者加入 A/V 呼叫。 第二位使用者接受通話時，會測試兩位使用者之間的連線，然後結束通話，然後從系統中登出測試使用者。
 
-測試 CsP2PAV 並不會實際執行 A/V 通話。 不會在測試使用者之間交換多媒體資訊。 相反地，此 Cmdlet 只會驗證是否可以建立適當的連線，以及兩位使用者可以進行這類通話。
+Test-CsP2PAV 實際上不會進行 A/V 通話。 測試使用者間的多媒體資訊不會互換。 相反地，此 Cmdlet 只會驗證是否可以進行適當的連線，以及兩位使用者是否可以進行這類呼叫。
 
-如需詳細資訊，請參閱[Test CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) Cmdlet 的說明文件。
+如需詳細資訊，請參閱[Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) Cmdlet 的說明文件。
 
 </div>
 
@@ -78,11 +78,11 @@ Test-CsP2PAV 是用來判斷一組測試使用者是否可以參與對等 A/V �
 
 ## <a name="running-the-test"></a>執行測試
 
-CsP2PAV Cmdlet 可以使用一組預先配置的測試帳戶（請參閱設定執行 Lync Server 測試的測試帳戶），或是任何已啟用 Lync Server 的任何兩個使用者的帳戶執行。 若要使用測試帳戶執行此檢查，您只需指定要測試的 Lync 伺服器池的 FQDN 即可。 例如：
+您可以使用一對預先設定的測試帳戶來執行 Test-CsP2PAV Cmdlet (請參閱設定測試帳戶以執行 Lync Server 測試) 或任何兩個已啟用 Lync Server 之使用者的帳戶。 若要使用測試帳戶執行此檢查，您只需要指定所測試之 Lync Server 集區的 FQDN。 例如：
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用實際的使用者帳戶執行這項檢查，您必須為每個帳戶建立兩個 Lync Server 認證物件（包含帳戶名稱和密碼的物件）。 當您呼叫 Test CsP2PAV 時，您必須包含這些認證物件和兩個帳戶的 SIP 位址：
+若要使用實際使用者帳戶執行這項檢查，您必須為每個帳戶 (包含帳戶名稱和密碼) 的物件建立兩個 Lync Server 身分憑證物件。 當您呼叫 Test-CsP2PAV 時，您必須包含這兩個帳戶的認證物件和 SIP 位址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -92,21 +92,21 @@ CsP2PAV Cmdlet 可以使用一組預先配置的測試帳戶（請參閱設定�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>判斷成功或失敗
+## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果兩個測試使用者可以完成對等 A/V 通話，您就會收到類似以下的輸出，並將 Result 屬性標示為**成功：**
+如果兩個測試使用者可以完成對等 A/V 呼叫，則會收到與結果屬性標示為「成功」類似的輸出 **：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
 結果：成功
 
-延隔時間：00：00：06.8630376
+延遲：00：00：06.8630376
 
-出錯
+錯誤：
 
-自檢
+診斷：
 
-如果測試使用者無法完成通話，結果就會顯示為失敗，而其他資訊將會記錄在錯誤與診斷屬性中：
+如果測試使用者無法完成通話，則結果會顯示為 [失敗]，而且會在 [錯誤] 和 [診斷] 屬性中記錄其他資訊：
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -116,23 +116,23 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 錯誤：480，暫時無法使用
 
-診斷： ErrorCode = 15030，Source = atl-cs-001. litwareinc，原因 = 失敗
+診斷： ErrorCode = 15030，Source = atl-cs-001，Reason = Failed
 
-傳送到 Exchange Server
+路由傳送至 Exchange Server
 
-DiagnosticHeader 中的 [Rtc]
+DiagnosticHeader。
 
-例如，由於無法連絡 Microsoft Exchange Server，所以先前的輸出指出測試失敗。 此錯誤訊息通常表示 Exchange 整合訊息設定的問題。
+例如，上一個輸出會指出測試失敗，因為無法與 Microsoft Exchange Server 取得聯繫。 這項錯誤訊息通常表示 Exchange 整合通訊的設定發生問題。
 
-如果測試 CsP2PAV 失敗，您可能會想要重新執行測試，這次包括詳細參數：
+如果 Test-CsP2PAV 失敗，則您可能想要重新執行測試，這次包括 Verbose 參數：
 
-Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-詳細資訊
+Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-在包含詳細參數時，測試 CsP2PAV 會傳回其在檢查指定使用者登入 Lync Server 的能力時所嘗試的每個動作的逐步帳戶。 例如，假設您的測試由於下列診斷而失敗：
+包含 Verbose 參數時，Test-CsP2PAV 將會傳回其嘗試的每個動作的逐步帳戶，以檢查指定使用者登入 Lync 伺服器的能力。 例如，假設測試失敗併發生下列診斷：
 
-ErrorCode = 6003，Source = atl-ws-01 = cs-001. litwareinc，Reason = 不支援的對話方塊要求
+ErrorCode = 6003，Source = atl-ws-01-cs-001，Reason = 不支援的對話方塊要求
 
-如果您重新執行 Test CsP2PAV 並包含 Verbose 參數，就會收到類似以下的輸出：
+如果您重新執行 Test-CsP2PAV 並包含 Verbose 參數，您會收到類似以下的輸出：
 
 詳細：「註冊」活動已開始。
 
@@ -144,11 +144,11 @@ ErrorCode = 6003，Source = atl-ws-01 = cs-001. litwareinc，Reason = 不支援�
 
 註冊機構埠 = 5062。
 
-已選取 Auth 類型 ' IWA」。
+已選取驗證類型 ' IWA '。
 
-無法註冊端點的例外狀況。 請參閱錯誤的特定原因。 在工作流程 SyntheticTransactions STP2PAVWorkflow 執行期間發生。
+無法註冊端點的例外狀況。 如需特定原因，請參閱 ErrorCode。 ' 在工作流程 SyntheticTransactions 中發生 STP2PAVWorkflow 執行。
 
-雖然這可能不會立即明顯，但如果您仔細檢查輸出，您會看到指定的註冊埠（埠5062）不正確。 進而導致測試失敗。
+雖然它可能不會立即顯而易見，但如果您仔細檢查輸出，您會看到不正確的註冊埠 (埠 5062) 指定。 進而又導致測試失敗。
 
 </div>
 
@@ -156,17 +156,17 @@ ErrorCode = 6003，Source = atl-ws-01 = cs-001. litwareinc，Reason = 不支援�
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
 
-以下是測試 CsP2PAV 可能失敗的一些常見原因：
+以下是一些 Test-CsP2PAV 可能失敗的常見原因：
 
-  - 您指定的使用者帳戶無效。 您可以執行如下的命令來確認使用者帳戶已存在：
+  - 您指定的使用者帳戶無效。 您可以執行類似如下的命令，以確認使用者帳戶是否存在：
     
-    Move-csuser "sip:kenmyer@litwareinc.com"
+    Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - 使用者帳戶有效，但目前尚未啟用 Lync Server 的帳戶。 若要確認已啟用 Lync Server 的使用者帳戶，請執行如下所示的命令：
+  - 使用者帳戶有效，但目前未啟用 Lync Server 的帳戶。 若要確認是否已為 Lync Server 啟用使用者帳戶，請執行類似下列的命令：
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    如果 Enabled 屬性設為 False，表示目前尚未啟用 Lync Server 的使用者。
+    如果 Enabled 屬性設定為 False，表示目前未啟用 Lync Server 的使用者。
 
 </div>
 

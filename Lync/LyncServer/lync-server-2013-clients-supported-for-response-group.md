@@ -12,18 +12,18 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1fa7728e0ebee1d12d4cf57fdc7aaaf0abfe410
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a52254b4367f0a51b8061e71b841ae19c6598589
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756437"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204741"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中支援回應群組的用戶端
 
@@ -43,9 +43,9 @@ _**主題上次修改日期：** 2014-03-28_
 
   - Lync 2010 桌面用戶端
 
-  - Lync 2010 助理
+  - Lync 2010 Attendant
 
-  - Office 通訊伺服器 2007 R2 助理
+  - Office 通訊伺服器 2007 R2 語音應答
 
   - Lync Phone Edition
 
@@ -53,21 +53,21 @@ _**主題上次修改日期：** 2014-03-28_
 
 
 > [!NOTE]  
-> Lync 行動用戶端不支援回應群組應用程式。
+> Lync mobile 用戶端不支援回應群組應用程式。
 
 
 
 </div>
 
-如需新功能的詳細資訊，請參閱在「快速入門」檔中的[Lync Server 2013 中的新回應群組應用程式功能](lync-server-2013-new-response-group-application-features.md)。
+如需新功能的詳細資訊，請參閱入門檔中的[新回應群組應用程式功能（Lync Server 2013](lync-server-2013-new-response-group-application-features.md) ）。
 
 您可以使用的特定用戶端取決於您所使用的回應群組使用者類型：
 
-  - **呼叫**者可以使用前面所列的任何用戶端呼叫回應群組，並使用標準電話透過公用交換電話網絡（PSTN）撥打電話。
+  - 來電**者可以使用**之前所列的任何用戶端，以及透過公用交換電話網路 (PSTN) 中的標準電話，撥打回應群組。
 
-  - **非正式代理**（不登入和登出群組即可接受呼叫）的代理可以使用助理、Lync 或 Lync Phone Edition 接受通話。 當使用者使用下列其中一個用戶端登入 Lync Server 2013 時，會自動登入該非正式的代理程式。
+  - 不會登入和登出其群組以接受來電的**非正式代理** (，) 可以使用語音應答、Lync 或 Lync Phone Edition 接受通話。 非正式代理程式會在使用者使用其中一位用戶端登入 Lync Server 2013 時，自動登入他們的群組。
 
-  - **正式代理**（必須登入或登出其群組才能接受呼叫）可以接受使用 Lync 2013 的呼叫，並從功能表項目存取代理程式主控台，或是使用 [助理] 直接從 Internet Explorer 存取代理程式主控台。
+  - 必須使用 Lync 2013 登入和登出其群組的**正式代理** (，以接受來電) 可以接受通話，並從功能表項目存取代理程式主控台，或是使用語音應答直接從 Internet Explorer 存取代理程式主控台。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定外部使用者存取的防火牆和連接埠
+title: Lync Server 2013：設定外部使用者存取的防火牆和埠
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b10ad0826e0b15ff42b47dc6c732b2b60500f8b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e8f8ac768256a45e908905e3eed1c0fc343b6da9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726583"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-firewalls-and-ports-for-external-user-access-in-lync-server-2013"></a>在 Lync Server 2013 設定外部使用者存取的防火牆和連接埠
+# <a name="configure-firewalls-and-ports-for-external-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中設定外部使用者存取的防火牆和埠
 
 </div>
 
@@ -37,14 +37,14 @@ ms.locfileid: "41726583"
 
 _**主題上次修改日期：** 2012-05-21_
 
-若要設定防火牆和埠，您必須針對 Edge 伺服器、反向 proxy 伺服器以及可能的硬體負載平衡器（針對不使用 DNS 負載平衡的縮放部署）來設定它們。 本節提供所有邊緣伺服器元件的防火牆和埠需求，以及邊緣伺服器的防火牆埠設定的相關資訊。 如需有關設定反向 proxy 伺服器埠的詳細資料，請參閱[設定 Lync Server 2013 的反向 proxy 伺服器](lync-server-2013-setting-up-reverse-proxy-servers.md)。 如果您要部署經過比例調整的邊緣拓撲，且使用的是硬體負載平衡（而非 DNS 負載平衡），請參閱在規劃檔中[使用硬體2013負載平衡器調整合並邊緣](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)，以取得有關為硬體負載平衡器設定埠的詳細資料。
+若要設定防火牆及埠，您需要針對不使用 DNS 負載平衡) 的縮放部署，針對 Edge Server、反向 proxy 伺服器及可能的硬體負載 (平衡器進行設定。 本節提供所有 Edge Server 元件的防火牆和埠需求，以及 Edge server 之防火牆埠的設定相關資訊。 如需設定反向 proxy 伺服器埠的詳細資訊，請參閱[設定 Lync Server 2013 的反向 proxy 伺服器](lync-server-2013-setting-up-reverse-proxy-servers.md)。 如果您部署的是調整式 edge 拓撲，而且使用硬體負載平衡，而不是使用 DNS 負載平衡，請參閱規劃檔中的[調整式合併 edge （Lync Server 2013 中的硬體負載](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)平衡器），以取得設定硬體負載平衡器埠的詳細資訊。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[決定 Lync Server 2013 的外部 A/V 防火牆和連接埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[決定 Lync Server 2013 的外部 A/V 防火牆和埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
   
 
 </div>

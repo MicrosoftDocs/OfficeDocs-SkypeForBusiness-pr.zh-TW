@@ -12,20 +12,20 @@ ms:contentKeyID: 48183385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63f2ef304b1a603203d09f260b8d3c7c46e23ccf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 877a9b8519c6c0e8b0c3e4a92d190f5a55d8861e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763687"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197116"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-standard-edition-server-database-for-lync-server-2013"></a>安裝 Lync Server 2013 的 Standard Edition Server 資料庫
+# <a name="install-standard-edition-server-database-for-lync-server-2013"></a>安裝 Lync Server 2013 的 Standard Edition server 資料庫
 
 </div>
 
@@ -37,34 +37,34 @@ ms.locfileid: "41763687"
 
 _**主題上次修改日期：** 2012-10-01_
 
-將標準版伺服器設定為基礎結構中的唯一伺服器，讓總部使用者與其他伺服器安裝不同，因為 [**部署嚮導]** 中有專門用來設定初始伺服器的選項。
+將 Standard Edition server 設定為您基礎結構中的唯一伺服器，而家裡的使用者與其他伺服器安裝不同，在 **部署嚮導** 中特別是用來設定初始伺服器的選項。
 
 <div>
 
-## <a name="to-install-a-standard-edition-server"></a>若要安裝標準版伺服器
+## <a name="to-install-a-standard-edition-server"></a>若要安裝 Standard Edition Server
 
-1.  登入您要將標準版伺服器安裝為本機系統管理員或對等網域的伺服器。
+1.  以本機系統管理員身分或網域對等方式，登入您要安裝 Standard Edition server 的伺服器。
 
-2.  如果您尚未準備 Active Directory 網域服務，請先執行這些程式。 如需詳細資訊，請參閱[準備 Lync Server 2013 的 Active Directory 網域服務](lync-server-2013-preparing-active-directory-domain-services.md)。
+2.  若尚未準備 Active Directory 網域服務，請先執行這些程式。 如需詳細資訊，請參閱 [準備 Active Directory 網域服務 For Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md)。
 
-3.  在 Lync Server 部署嚮導中，按一下 [**準備第一個標準版 Server**]。
+3.  在 [Lync Server 部署嚮導] 中，按一下 [ **準備第一個 Standard Edition Server**]。
 
-4.  在 [**準備單一標準版伺服器**] 頁面上，按一下 **[下一步]**。
+4.  在 **[準備單一 Standard Edition Server]** 頁面上，按 **[下一步]**。
 
-5.  在 [**執行命令**] 頁面上，SQL Server 2012 Express 已安裝為中央管理儲存。 已建立必要的防火牆規則。 完成資料庫與必備軟體的安裝後，按一下 **[完成]**。
+5.  在 [ **執行命令** ] 頁面上，SQL Server 2012 Express 是以中央管理存放區的方式安裝。 已建立所需的防火牆規則。 在完成資料庫和必要軟體的安裝時，請按一下 **[完成]**。
     
     <div>
     
 
     > [!NOTE]  
-    > 初始安裝可能需要一些時間，且 [命令輸出摘要] 畫面沒有顯示更新。 這是由 SQL Server Express 的安裝所造成。 如果您需要監視資料庫的安裝，請使用 [工作管理員] 來監視設定。
+    > 如果命令輸出摘要畫面沒有可見的更新，則初始安裝可能需要一些時間。 這是因為安裝 SQL Server Express。 如果您需要監控資料庫的安裝，請使用 [工作管理員] 來監控安裝程式。
 
     
     </div>
 
-6.  如果您尚未安裝 [管理工具]，請在 [Lync Server 部署嚮導] 頁面上，按一下 [**安裝拓撲**建立器]。 如需詳細資訊，請參閱[安裝 Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)。
+6.  在 [Lync Server 部署嚮導] 頁面上，按一下 [ **安裝拓撲** 產生器] （如果先前尚未安裝系統管理工具）。 如需詳細資訊，請參閱 [Install Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)。
 
-7.  確認 [準備 Active Directory]、「準備第一個標準版 server」和「安裝拓撲建立器」旁邊有綠色的核取記號。
+7.  確認 [準備 Active Directory]、[準備第一個 Standard Edition Server] 和 [安裝拓撲產生器] 旁邊有綠色勾號。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在災害復原期間管理宣告
+title: Lync Server 2013：在災難修復期間管理宣告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc987ea579bef4e2b02c8da210efe9a707c5900
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733423"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>使用 Lync Server 2013 在災害復原期間管理宣告
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理發生嚴重損壞修復期間的宣告
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41733423"
 
 _**主題上次修改日期：** 2013-02-23_
 
-Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。 在中斷期間還原宣告功能是選用的選項。 如果您選擇在中斷期間還原宣告，您需要在備份池中重新建立您的宣告設定。 本節說明在災害復原期間選擇要還原公告時所需執行的動作。
+Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。 在中斷期間還原宣告功能是選用的。 如果您選擇在中斷期間還原宣告，您必須在備份組區中重新建立宣告設定。 本節說明當您選擇在嚴重損壞修復期間還原宣告時，需要執行的動作。
 
-本節適用于使用宣告應用程式的未指派數量範圍。 本節不適用於使用 Exchange 整合通訊（UM）自動語音應答的未指定數位範圍。
+本節適用于使用宣告應用程式的未指派號碼範圍。 本節不適用於使用 Exchange 整合通訊 (UM) 自動語音應答的未指派號碼範圍。
 
 <div>
 
 ## <a name="before-an-outage"></a>中斷前
 
-不論您是否選擇要在中斷期間使用宣告，您都應該對您針對宣告應用程式所設定的任何自訂音訊檔案進行個別備份。 在 Lync Server 災害復原程式中，自訂宣告不會進行備份。 如果您不對檔案進行個別備份，且您上傳到伺服器或池中的檔案遭到損毀、損毀或清除，這些檔案將會遺失。
+不論您選擇是否要在中斷期間使用宣告，您都應該對您為宣告應用程式所設定的任何自訂音訊檔案採取個別備份。 自訂宣告不會做為 Lync Server 嚴重損壞修復程式的一部分進行備份。 如果您不會對檔案進行個別備份，而且您上傳到伺服器或集區的檔案已損毀、損毀或清除，將會遺失檔案。
 
-如果您沒有自訂音訊檔案的備份複本，且原始音訊檔案已無法使用，您可以在檔案存放區中尋找您原本要使用的 [伺服器] 或 [池] 所設定的音訊檔案。已匯入檔案。 您可以從檔案存放區中複製您針對宣告應用程式所設定的所有音訊檔案。
+如果您沒有自訂音訊檔案的備份副本，而且無法再使用原始的音訊檔案，您可以在先前匯入檔案的伺服器或集區中查看檔案存放區，以找到您為宣告應用程式所設定的音訊檔。 您可以從檔案存放區中複製您為宣告應用程式所設定的所有音訊檔案。
 
-**從檔案存放區複製音訊檔案**
+**從檔案存放區複製音訊檔**
 
-1.  在命令列上執行：
+1.  在命令列中執行：
     
         Xcopy <Source: Pool Announcement Service File Store path> <Destination>
     
@@ -59,57 +59,57 @@ Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。 在中�
     
         Xcopy "<Pool File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS" "<Destination: Backup location>"
     
-    其中，X-ApplicationServer 是指池之應用程式伺服器的服務識別碼（例如，1-ApplicationServer-1）
+    其中 X-ApplicationServer-X 參照集區之應用程式伺服器的服務 ID (例如，1-ApplicationServer-1 ") 
 
 
 </div>
 
 <div>
 
-## <a name="during-an-outage"></a>在中斷期間
+## <a name="during-an-outage"></a>中斷期間
 
-若要在中斷期間使用宣告應用程式，您需要執行本節中所述的工作，在備份池中重新建立宣告配置。
-
-<div>
-
-
-> [!NOTE]  
-> 我們建議您在容錯移轉至備份池之後執行這些工作，因為當您執行步驟2之後，備份池就會取得未指派的數位範圍。
-
-
-
-</div>
+若要在中斷期間使用宣告應用程式，您必須執行本節所述的工作，以在備份組區中重新建立宣告設定。
 
 <div>
 
 
 > [!NOTE]  
-> 對於使用 Exchange UM 自動語音應答電話號碼的數位範圍，不需要這些步驟。
+> 我們建議您在容錯移轉至備份組區之後執行這些工作，因為在執行步驟2之後，備份組區便會取得未指派號碼範圍的擁有權。
 
 
 
 </div>
 
-**在備份池中重新建立宣告配置**
+<div>
 
-1.  請執行下列動作，以重新建立您在備份池中的主要池中部署的公告：
+
+> [!NOTE]  
+> 使用 Exchange UM 自動語音應答電話號碼的號碼範圍並非必須執行這些步驟。
+
+
+
+</div>
+
+**在備份組區中重新建立宣告設定**
+
+1.  執行下列動作，以重新建立在備份組區的主要集區中部署的宣告：
     
-    1.  使用**CsAnnouncementFile** Cmdlet 將主要池中使用的任何音訊檔案匯入至備份池，並指定上層參數的備份池。
+    1.  使用**Import-CsAnnouncementFile** Cmdlet 並指定 Parent 參數的備份組區，將主要集區中使用的任何音訊檔案匯入備份組區。
     
-    2.  使用**新的 CsAnnouncement** Cmdlet 來重新建立每個宣告，並指定上層參數的備份池。
+    2.  使用**New-CsAnnouncement** Cmdlet 重新建立每個宣告，並指定 Parent 參數的備份組區。
     
     <div>
     
 
     > [!NOTE]  
-    > 如需使用這些參數在備份池中建立宣告的詳細資料，請參閱<A href="lync-server-2013-create-an-announcement.md">在 Lync Server 2013 中建立公告</A>。
+    > 如需使用這些參數在備份組區中建立宣告的詳細資訊，請參閱<A href="lync-server-2013-create-an-announcement.md">create a 宣告 In Lync Server 2013</A>。
 
     
     </div>
 
-2.  在備份池中重新建立所有宣告之後，請將在主要池中使用宣告的所有未指派數位範圍重定向至 [備份] 池中重新建立的宣告。
+2.  在備份組區中重新建立所有宣告之後，請將使用主要集區中宣告的所有未指派號碼範圍，重新導向至備份組區中重新建立的宣告。
     
-    針對在主要池中使用宣告的每個未指派編號範圍，請執行下列動作：
+    針對使用主要集區中宣告的每個未指派號碼範圍，請執行下列作業：
     
         Set-CsUnassignedNumber -Identity "<name of number range>" -AnnouncementService "<FQDN of backup pool>" -AnnouncementName "<announcement name in backup pool>"
 
@@ -117,29 +117,29 @@ Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。 在中�
 
 <div>
 
-## <a name="after-the-outage"></a>停機後
+## <a name="after-the-outage"></a>中斷後
 
-當主要池可供使用時，您必須將您針對停機變更的未指派數位範圍重新導向到主要池。
+當主要集區可用時，您需要將您為中斷而變更的未指派號碼範圍重新導向至主要集區。
 
 <div>
 
 
 > [!NOTE]  
-> 對於使用 Exchange UM 自動語音應答電話號碼的數位範圍，不需要這些步驟。
+> 使用 Exchange UM 自動語音應答電話號碼的號碼範圍並非必須執行這些步驟。
 
 
 
 </div>
 
-**在主要池中還原宣告**
+**若要還原主要集區中的宣告**
 
-1.  如果您必須在復原期間重建主要池，您需要在主要池中重新建立宣告，方法是匯入音訊檔案並建立宣告，就像您在備份池中所做的一樣，除非您為父級指定主要池參數. 如需詳細資訊，請參閱本主題前面的「停機期間」。
+1.  如果您必須在復原期間重建主要集區，您需要在主要集區中重新建立宣告，方法是匯入音訊檔並建立宣告，就像您為 Parent 參數指定主要集區外。 如需詳細資訊，請參閱本主題前面的「中斷期間」。
 
-2.  針對您針對停機時間變更的每個未指派數量範圍，請執行下列動作：
+2.  針對您為中斷變更而變更的每個未指派號碼範圍，請執行下列作業：
     
         Set-CsUnassignedNumber [-Identity "<name of number range>"] -AnnouncementService "<FQDN of primary pool>" -AnnouncementName "<announcement name in primary pool>"
 
-3.  或者，移除您在備份池中重新建立的公告。 取得備份池宣告應用程式的宣告清單。 在命令列上執行：
+3.  （選用）移除您在備份組區中重新建立的宣告。 取得備份組區宣告應用程式的宣告清單。 在命令列中執行：
     
         Get-CsAnnouncement -Identity "<Service:service ID>"
     
@@ -147,7 +147,7 @@ Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。 在中�
     
         Get-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com
     
-    在產生的清單中，找出您想要移除並複製 Guid 的宣告。 針對您想要移除的每個宣告，執行：
+    在結果清單中，找出您要移除的宣告並複製 Guid。 針對每個您想要移除的宣告，請執行：
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
     

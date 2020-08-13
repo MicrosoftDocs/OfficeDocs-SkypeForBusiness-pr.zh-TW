@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃通話駐留災害復原
+title: Lync Server 2013：規劃通話駐留災難修復
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a76052297e527e24fd3daf0c03d02661c7ddc255
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ae06a3d0e3e404781e2f51ef18e1ba2ca76d72b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754453"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中規劃通話駐留災害復原
+# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中規劃通話駐留災難修復
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41754453"
 
 _**主題上次修改日期：** 2012-10-30_
 
-本節說明準備通話駐留應用程式以進行災害復原的一些方法，以及災害復原程式的一些考慮。
+本節說明一些為災難修復準備通話駐留應用程式的方法，以及有關嚴重損壞修復程式的一些考慮。
 
 <div>
 
-## <a name="preparing-for-call-park-disaster-recovery"></a>準備通話駐留災害復原
+## <a name="preparing-for-call-park-disaster-recovery"></a>準備通話駐留災難修復
 
-在準備及執行災害復原程式時，請記住下列事項。
+在準備及執行嚴重損壞復原程式時，請牢記下列幾點。
 
-  - 在您進行容量規劃時規劃災害復原。 針對災害復原容量，成對的池中的每個池都應該能夠處理兩個池中的通話駐留服務工作負荷。 如需通話寄存容量規劃的詳細資料，請參閱[Lync Server 2013 中的通話駐留的容量規劃](lync-server-2013-capacity-planning-for-call-park.md)。
+  - 在進行容量規劃時，請規劃災害復原。 針對嚴重損壞修復容量，成對集區中的每個集區都應該可以處理兩個集區中通話駐留服務的工作量。 如需通話駐留容量規劃的詳細資訊，請參閱[Lync Server 2013 中的「通話駐留」的容量規劃](lync-server-2013-capacity-planning-for-call-park.md)。
 
-  - 在災害復原期間，已重新導向至備份池的使用者，如果是作為容錯移轉程式的一部分，則會使用在備份池中執行的通話駐留服務。 因此，在災害復原期間對通話駐留的支援，必須在主要池和備份池中部署並啟用呼叫駐留應用程式。
+  - 在嚴重損壞復原期間，已被重新導向至備份組區的使用者，在容錯移轉過程中，會使用在備份組區中執行的通話駐留服務。 因此，在嚴重損壞修復時支援通話駐留應用程式，需要在主要集區和備份組區中部署及啟用通話駐留應用程式。
 
-  - 針對駐留在該池中的使用者，每個泳池必須有有效的軌道編號範圍，才能用於停車通話。
+  - 每個集區都必須有有效的軌道編號範圍，以供位於該集區中的使用者用來進行停車電話。
 
-  - 保留已針對通話駐留上傳的任何自訂音樂保留的個別備份複本。 這些檔案不會作為 Lync Server 2013 災害復原程式的一部分進行備份，如果上傳到該池的檔案遭到損毀、損毀或清除，就會遺失。
+  - 永遠保留為通話駐留上傳的任何自訂音樂保留的個別備份副本。 當您上傳至集區的檔案損毀、損毀或清除時，不會將這些檔案備份成 Lync Server 2013 災難復原程式的一部分，而且將會遺失。
 
 </div>
 
@@ -59,11 +59,11 @@ _**主題上次修改日期：** 2012-10-30_
 
 ## <a name="call-park-disaster-recovery-considerations"></a>通話駐留災害復原考慮
 
-您只能定義一組通話寄存應用程式設定的設定，以及每個池中的一個自訂音樂保留音訊檔案。 這些設定包括超時閾值、暫停的音樂、最大的呼叫挑選嘗試，以及超時 URI。 若要查看這些設定，請執行**CsCpsConfiguration** Cmdlet。 如需**CsCpsConfiguration** Cmdlet 的詳細資訊，請參閱[CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration)。
+您只能為每個集區定義一組通話駐留應用程式設定設定及一個自訂的音樂暫止音訊檔。 這些設定包括超時閾值、等候音樂、來電收取次數上限及超時 URI。 若要查看這些設定設定，請執行**CsCpsConfiguration** Cmdlet。 如需**CsCpsConfiguration** Cmdlet 的詳細資訊，請參閱[CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration)。
 
-在災害復原期間，通話駐留會使用備份池中的通話駐留應用程式，因此不會備份主要池中的設定。 如果無法復原主要池，且您要部署新的池來取代主要池，主要池中的設定會遺失，您需要在新的池中重新設定通話寄存設定及任何自訂的音樂保留音訊檔案。
+在發生嚴重損壞修復時，通話駐留會使用備份組區中的通話駐留應用程式，因此不會備份主要集區中的設定。 如果無法復原主集區，而您部署新集區以取代主要集區，主要集區中的設定會遺失，您必須在新集區中重新設定通話駐留設定和任何自訂的待等候音訊檔案。
 
-如果您使用不同的完整功能變數名稱（FQDN）部署新的資料庫池來取代主要池，您需要將與主要池相關聯的所有通話駐留軌道的範圍重新指派給新的池的 FQDN。 若要將軌道範圍重新指派給新的池子，您可以使用 Lync Server [控制台] 或**CsCallParkOrbit** Cmdlet。 如需**CsCallParkOrbit** Cmdlet 的詳細資訊，請參閱[設定 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
+如果您使用不同的完整功能變數名稱來部署新集區 (FQDN) 取代主要集區，您必須將與主要集區相關聯的所有通話駐留軌道範圍重新指派給新集區的 FQDN。 若要將軌道範圍重新指派至新集區，您可以使用 Lync Server 控制台或**get-cscallparkorbit** Cmdlet。 如需**get-cscallparkorbit** Cmdlet 的詳細資訊，請參閱[set-get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
 
 </div>
 

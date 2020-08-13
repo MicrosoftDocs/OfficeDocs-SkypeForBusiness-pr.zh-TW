@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：PSTN 使用方式記錄
+title: Lync Server 2013： PSTN 使用方式記錄
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,18 +12,18 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5909494b4e4b6901964a7642481302ca221fe086
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 81f459c7ae6b581dedc5843fd2a89568a2f755a5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724673"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 使用方式記錄
 
@@ -37,11 +37,11 @@ ms.locfileid: "41724673"
 
 _**主題上次修改日期：** 2012-09-23_
 
-規劃 PSTN 使用記錄主要包含在您的組織中，從 CEO 到臨時性員工、顧問及臨時員工，列出目前正在進行中的所有呼叫許可權。 此程式也提供重新檢查現有通話許可權及修正它們的機會。 您只能為適用于您預期企業語音使用者的呼叫許可權建立 PSTN 使用記錄，但較好的方案可能是針對所有的呼叫許可權建立 PSTN 使用記錄，不論是否有可能目前已套用至要啟用企業語音的使用者群組。 如果您已新增撥號許可權變更或具有不同呼叫許可權的新使用者，就表示您已經建立所需的 PSTN 使用記錄。
+規劃 PSTN 使用方式記錄，主要是列出組織中目前強制執行的所有呼叫許可權，從 CEO 到暫存工作者、顧問和員工。 此程式也可讓您重新檢查現有的呼叫許可權並加以修正。 您只能為適用于您預期的 Enterprise Voice 使用者的呼叫許可權建立 PSTN 使用方式記錄，但較好的長方案可能是針對所有呼叫許可權建立 PSTN 使用方式記錄，而不論某些可能目前未套用到啟用 Enterprise Voice 的使用者群組。 如果新增了具有不同呼叫許可權的撥號許可權變更或新使用者，您就已建立必要的 PSTN 使用方式記錄。
 
-下表顯示典型的 PSTN 用法資料表。
+下表顯示一般的 PSTN 使用方式表格。
 
-### <a name="pstn-usage-records"></a>PSTN 使用記錄
+### <a name="pstn-usage-records"></a>PSTN 使用方式記錄
 
 <table>
 <colgroup>
@@ -50,34 +50,34 @@ _**主題上次修改日期：** 2012-09-23_
 </colgroup>
 <thead>
 <tr class="header">
-<th>[電話] 屬性</th>
-<th>說明</th>
+<th>Phone 屬性</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>局部</p></td>
-<td><p>當地電話</p></td>
+<td><p>本機</p></td>
+<td><p>本機通話</p></td>
 </tr>
 <tr class="even">
-<td><p>遠距離</p></td>
-<td><p>長途電話</p></td>
+<td><p>長途</p></td>
+<td><p>長途通話</p></td>
 </tr>
 <tr class="odd">
-<td><p>國際</p></td>
+<td><p>International</p></td>
 <td><p>國際通話</p></td>
 </tr>
 <tr class="even">
-<td><p>新德里</p></td>
+<td><p>德里</p></td>
 <td><p>新德里全職員工</p></td>
 </tr>
 <tr class="odd">
-<td><p>Redmond</p></td>
-<td><p>雷德蒙全職員工</p></td>
+<td><p>雷德蒙</p></td>
+<td><p>雷德蒙的全職員工</p></td>
 </tr>
 <tr class="even">
 <td><p>RedmondTemps</p></td>
-<td><p>雷蒙德暫時員工</p></td>
+<td><p>Redmond 臨時員工</p></td>
 </tr>
 <tr class="odd">
 <td><p>蘇黎世</p></td>
@@ -87,13 +87,13 @@ _**主題上次修改日期：** 2012-09-23_
 </table>
 
 
-PSTN 使用量記錄本身不會執行任何動作。 若要讓他們正常運作，您必須將它們與下列專案建立關聯：
+PSTN 使用方式記錄本身不會執行任何動作。 為了讓他們能夠運作，您必須將它們與下列專案產生關聯：
 
   - 指派給使用者的語音原則。
 
-  - 指派給電話號碼的工藝路線。
+  - 指派給電話號碼的路由。
 
-如需語音原則與路線的詳細資料，請參閱 lync server [2013 中的語音原則](lync-server-2013-voice-policies.md)和[lync server 2013 中的語音路由](lync-server-2013-voice-routes.md)。 如需如何建立和設定它們的詳細資料，請參閱[在 Lync Server 2013 中設定出站通話的語音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
+如需語音原則和路由的詳細資訊，請參閱 lync server [2013 中的語音原則](lync-server-2013-voice-policies.md)和[lync server 2013 中的語音路由](lync-server-2013-voice-routes.md)。 如需如何建立及設定的詳細資訊，請參閱[在 Lync Server 2013 中設定撥出電話的語音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
 
 </div>
 

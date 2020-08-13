@@ -1,5 +1,5 @@
 ---
-title: 電話撥入式會議組態先決條件和權限
+title: 電話撥入式會議設定必要條件和許可權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6610272c39583b70c1ab20d8271551796f65372
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762301"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議組態先決條件和權限
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議設定必要條件和許可權
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41762301"
 
 _**主題上次修改日期：** 2012-06-20_
 
-電話撥入式會議是 Lync Server 2013 會議工作負載的選用元件。 在您使用 [拓撲建立器] 設計拓撲，然後設定您的 [前端] 池或標準版伺服器之後，您必須先安裝所需的元件，才能設定電話撥入式會議。 本主題說明您必須先完成的工作，才能設定電話撥入式會議。
+電話撥入式會議是 Lync Server 2013 會議工作負載的選用元件。 在您使用拓撲產生器來設計拓撲，然後設定前端集區或 Standard Edition server 之前，您需要先安裝的元件，才能設定電話撥入式會議。 本主題說明您必須完成的工作，才能設定電話撥入式會議。
 
-本節假設您已閱讀與會議工作負載和電話撥入式會議相關的規劃區段。
+本節假設您已閱讀與會議工作負載和電話撥入式會議具體相關的規劃區段。
 
 <div>
 
-## <a name="dial-in-conferencing-configuration-prerequisites"></a>電話撥入式會議設定的先決條件
+## <a name="dial-in-conferencing-configuration-prerequisites"></a>電話撥入式會議設定必要條件
 
 電話撥入式會議需要下列 Lync Server 2013 元件：
 
-  - 整合通訊應用程式服務（UCAS）（稱為*應用程式服務*）
+  - 整合通訊應用程式服務 (UCAS)  (稱為*Application Service*) 
 
-  - 會議助理應用程式
+  - Conferencing Attendant application
 
-  - 會議公告應用程式
+  - Conferencing Announcement application
 
   - 電話撥入式會議設定網頁
 
-  - 至少有一個 Lync Server 2013 轉送伺服器和至少一個 PSTN 閘道
+  - 至少一部 Lync Server 2013 轉送伺服器和至少一部 PSTN 閘道
 
-當您使用 [拓撲建立器] 定義併發布拓撲，然後部署前端池或標準版伺服器時，就會部署這些元件。 如果您要部署企業語音，您應該先部署它，然後再設定電話撥入式會議。 如果您不是部署企業語音，您可以在部署前端池或標準版伺服器時，部署中繼伺服器和公用交換電話網絡（PSTN）閘道。
+當您使用拓撲產生器來定義及發行拓撲，然後部署前端集區或 Standard Edition server 時，您就可以部署這些元件。 如果您部署的是企業語音，您應該先部署它，再設定電話撥入式會議。 如果您不是部署企業語音，您可以在部署前端集區或 Standard Edition Server 時，部署轉送伺服器和公用交換電話網路 (PSTN) 閘道。
 
 <div>
 
 
 > [!NOTE]
-> 如果您是從 Office 通訊伺服器 2007 R2 升級到 Lync Server 2013，請在您打算用來主持 Lync Server 2013 會議的每個池中部署電話撥入式會議。 如需有關移植電話撥入式會議的詳細資訊，請參閱<A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">從 Office 通訊伺服器 2007 R2 遷移到 Lync Server 2013</A>。
+> 如果您要從 Office 通訊伺服器 2007 R2 升級至 Lync Server 2013，請在您計畫用於主控 Lync Server 2013 會議的每個集區中部署電話撥入式會議。 如需遷移電話撥入式會議的詳細資訊，請參閱<A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013</A>。
 
 
 
@@ -71,17 +71,17 @@ _**主題上次修改日期：** 2012-06-20_
 
 本節假設您已完成下列作業：
 
-  - 將最新的更新套用至您的 Office 通訊伺服器 2007 R2 環境（如果您要遷移至 Lync Server 2013）。
+  - 如果您要遷移至 Lync Server 2013，請將最新的更新套用至 Office 通訊伺服器 2007 R2 環境。
 
-  - 使用 [拓撲建立器] 來設計及設定您的拓撲。 在指定會議工作量時，您已選取 [電話撥入式會議] 選項。 如需定義拓朴的詳細資料，請參閱部署檔中的[Lync Server 2013 中的定義及設定拓撲](lync-server-2013-defining-and-configuring-the-topology.md)。
+  - 使用拓撲產生器來設計及設定拓撲。 在指定會議工作負載時，您已選取 [電話撥入式會議] 選項。 如需定義拓撲的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中定義及設定拓撲](lync-server-2013-defining-and-configuring-the-topology.md)。
 
-  - 已發佈您的拓撲，並設定前端池或標準版伺服器。 如需發佈拓撲及安裝 Lync Server 2013 的詳細資料，請參閱部署檔中的 [[部署 Lync server 2013](lync-server-2013-deploying-lync-server.md) ]。
+  - 已發行您的拓撲，並設定前端集區或 Standard Edition server。 如需發行拓撲及安裝 Lync Server 2013 的詳細資訊，請參閱部署檔中的[部署 Lync server 2013](lync-server-2013-deploying-lync-server.md) 。
     
     <div>
     
 
     > [!NOTE]
-    > 當您安裝已發佈的拓撲時，系統會在前端伺服器或標準版伺服器上安裝 [電話撥入式會議設定] 網頁，成為 Web 服務的一部分。
+    > 當您安裝已發佈的拓撲時，電話撥入式會議設定網頁會安裝在 Web 服務中的前端伺服器或 Standard Edition server 上。
 
     
     </div>
@@ -90,14 +90,14 @@ _**主題上次修改日期：** 2012-06-20_
     
 
     > [!IMPORTANT]
-    > 如果您在部署 Lync Server 2013 之後，在 [拓撲建立器] 中變更了檔案存放區的路徑，您必須重新開機會議助理與會議發佈應用程式，才能使用新的路徑。
+    > 如果您在部署 Lync Server 2013 之後，在拓撲產生器中變更檔存放區的路徑，您必須重新開機會議助理和會議宣告應用程式，才能使用新的路徑。
 
     
     </div>
 
-  - 已部署企業語音。 如果您不是部署企業語音，您可以在企業版前端伺服器或標準版伺服器上 collocated 中繼伺服器，或部署獨立的中繼伺服器，且已部署 PSTN 閘道。 如需部署企業語音的詳細資料，請參閱部署檔中的[Lync Server 2013 中的部署企業語音](lync-server-2013-deploying-enterprise-voice.md)。 如需安裝獨立的中繼伺服器和 PSTN 閘道的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中部署轉送伺服器和定義對等](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)。
+  - 已部署的 Enterprise Voice。 如果您不是部署企業語音，您可以組合 Enterprise Edition 前端伺服器或 Standard Edition server 上的轉送伺服器，或是部署了獨立轉送伺服器，並已部署 PSTN 閘道。 如需部署企業語音的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中部署 Enterprise Voice](lync-server-2013-deploying-enterprise-voice.md) 。 如需安裝獨立轉送伺服器和 PSTN 閘道的詳細資訊，請參閱部署檔中的部署中繼[伺服器及定義 Lync Server 2013 中的對等](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)專案。
 
-下列流程圖顯示您必須執行的步驟，才能設定電話撥入式會議，以及設定電話撥入式會議所需執行的步驟。
+下列流程圖顯示您必須執行的步驟，才能設定電話撥入式會議，以及設定電話撥入式會議所執行的步驟。
 
 **部署電話撥入式會議**
 
@@ -109,30 +109,30 @@ _**主題上次修改日期：** 2012-06-20_
 
 ## <a name="dial-in-conferencing-permissions"></a>電話撥入式會議許可權
 
-若要設定電話撥入式會議，您需要使用下列管理工具：
+若要設定電話撥入式會議，您需要使用下列系統管理工具：
 
-  - Lync Server 2013 [控制台]
+  - Lync Server 2013 控制台
 
   - Lync Server 管理命令介面
 
-您可以使用這些管理工具來設定電話撥入式會議設定，以及撥號方案、原則及其他電話撥入式會議所需的設定。
+您可以使用這些系統管理工具來設定電話撥入式會議設定，以及電話撥入式會議所需的撥號對應表、原則及其他設定。
 
-設定電話撥入式會議需要下列任何一個管理角色，視任務而定：
+設定電話撥入式會議需要下列任何系統管理角色，視任務而定：
 
-  - **CsVoiceAdministrator**   此系統管理員角色可以建立、設定及管理語音相關設定與原則。
+  - **CsVoiceAdministrator**    此系統管理員角色可以建立、設定及管理語音相關的設定和原則。
 
-  - **CsUserAdministrator**   此系統管理員角色可以啟用和停用 Lync Server 的使用者，並將現有的原則（例如會議原則及 PIN 原則）指派給使用者。
+  - **CsUserAdministrator**    此系統管理員角色可以啟用和停用 Lync Server 的使用者，並將現有的原則（例如會議原則和 PIN 碼原則）指派給使用者。
 
-  - **CsAdministrator**   此系統管理員角色可以執行 CsVoiceAdministrator 和 CsUserAdministrator 的所有工作。
+  - **CsAdministrator**    此系統管理員角色可以執行 CsVoiceAdministrator 和 CsUserAdministrator 的所有工作。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中部署企業版語音](lync-server-2013-deploying-enterprise-voice.md)  
+[在 Lync Server 2013 中部署企業語音](lync-server-2013-deploying-enterprise-voice.md)  
   
 
 </div>

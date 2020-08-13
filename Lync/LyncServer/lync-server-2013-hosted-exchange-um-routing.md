@@ -12,18 +12,18 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e04198813f7bb0647671dbb23e12889b108ee846
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bace74b58c706ef58d05e54e31d2f79ab587ba64
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739003"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42198629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange UM 路由
 
@@ -37,42 +37,42 @@ ms.locfileid: "41739003"
 
 _**主題上次修改日期：** 2012-10-01_
 
-Exchange UM 路由應用程式在前端伺服器上執行，以將呼叫路由至內部部署的 Microsoft Exchange Server 整合通訊（UM）部署或託管 Exchange UM 服務。
+Exchange UM 路由應用程式會在前端伺服器上執行，以將通話路由傳送至內部部署 Microsoft Exchange Server 整合通訊 (UM) 部署或主控 Exchange UM 服務。
 
 <div>
 
-## <a name="the-exum-routing-application"></a>ExUM 路由應用程式
+## <a name="the-exum-routing-application"></a>ExUM Routing 應用程式
 
-Lync Server 2013 Exchange UM 路由應用程式使用來自使用者帳戶設定的資訊，以及來自託管的語音信箱原則參數，以判斷如何路由託管語音訊息的呼叫，如下圖所示。
+Lync Server 2013 Exchange UM 路由應用程式使用使用者帳戶設定中的資訊，以及來自裝載的語音信箱原則參數，來決定如何將來電路由傳送到所裝載的語音訊息，如下圖所示。
 
-**混合式部署 Exchange UM 路由的範例**
+**混合部署 Exchange UM 路由範例**
 
 ![內部部署 Lync Server Exchange UM 部署](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "內部部署 Lync Server Exchange UM 部署")
 
-Exchange UM 路由可以設定為將呼叫路由到已啟用內部部署 Exchange um 的使用者，或傳送給已啟用託管 Exchange UM 的使用者，或結合兩個使用者。
+Exchange UM 路由可以設定為將通話路由傳送給已啟用內部部署 Exchange UM 的使用者、已啟用主控 Exchange UM 的使用者，或是二者的組合。
 
 例如，假設 Roy 的信箱和 Exchange UM 服務是駐留在內部部署 Exchange 部署中。
 
-  - 來自 Roy 的使用者帳戶的 proxy 位址資訊，提供 ExUM 路由應用程式用來將自己的呼叫傳送到內部部署 Exchange UM 伺服器的資訊。
+  - Roy 的使用者帳戶的 proxy 位址資訊，提供 ExUM 路由應用程式用來將來電路由傳送至內部部署 Exchange UM 伺服器的資訊。
 
-劉愛琳的信箱和 Exchange UM 服務位於託管 Exchange 服務供應商的資料中心。 Exchange UM 通話的路由設定如下所示：
+Alice 的信箱和 Exchange UM 服務位於主控 Exchange 服務供應商的資料中心。 Exchange UM 通話的路由設定如下：
 
-  - 在 Alice 的使用者帳戶的 msExchUCVoiceMailSettings 屬性中設定的值，會告知 ExUM 路由應用程式在託管的語音信箱原則中檢查路由詳細資料。
+  - Alice 使用者帳戶之 msExchUCVoiceMailSettings 屬性中所設定的值，會告知 ExUM Routing 應用程式檢查裝載語音信箱原則中的路由詳細資料。
     
     <div>
     
 
     > [!NOTE]  
-    > MsExchUCVoiceMailSettings 屬性的值可由 Exchange 服務供應商或 Lync Server 2013 系統管理員來設定。 在前一個圖表所示的範例中，「CsHostedVoiceMail = 1」這個值是由 Lync Server 2013 系統管理員設定，以便為 Alice 啟用託管語音信箱。 如需此屬性的詳細資訊，請參閱<A href="lync-server-2013-hosted-exchange-user-management.md">Lync Server 2013 中的託管 Exchange 使用者管理</A>。
+    > MsExchUCVoiceMailSettings 屬性的值可由 Exchange 服務供應商或 Lync Server 2013 系統管理員設定。 在上述圖表所示的範例中，Lync Server 2013 系統管理員已設定 CsHostedVoiceMail = 1)  (值，以便為 Alice 啟用主控語音信箱。 如需此屬性的詳細資訊，請參閱<A href="lync-server-2013-hosted-exchange-user-management.md">在 Lync Server 2013 中主控 Exchange 使用者管理</A>。
 
     
     </div>
 
-  - 已指派給劉愛琳使用者帳戶的託管語音信箱原則提供路由詳細資料：
+  - 指派給 Alice 使用者帳戶的裝載語音信箱原則提供路由詳細資料：
     
-      - [目的地] 是託管 Exchange UM 服務提供者（ls）。ExUm.\<在\>此範例中為 hostedExchangeServer）。
+      - 目的地是主控 Exchange UM 服務提供者 (ls。ExUm。 \<\>在此範例中，hostedExchangeServer) 。
     
-      - 組織是由租使用者識別碼所標識，這些識別碼是位於 ls 上之 Exchange Server 租使用者的 SIP 訊息的路由 Fqdn。ExUm.\<hostedExchangeServer\>（在此範例中為 corp.contoso.com 和 corp.litwareinc.com）。
+      - 組織是由租使用者識別 IDs，也就是位於 ls 上之 Exchange Server 租使用者的 SIP 郵件的路由 Fqdn。ExUm。 \<\>在此範例中，hostedExchangeServer (corp.contoso.com and corp.litwareinc.com) 。
         
         <div>
         
@@ -83,13 +83,13 @@ Exchange UM 路由可以設定為將呼叫路由到已啟用內部部署 Exchang
         
         </div>
         
-        如需詳細資訊，請參閱[Lync Server 2013 中託管的語音信箱原則](lync-server-2013-hosted-voice-mail-policies.md)。
+        如需詳細資訊，請參閱[Lync Server 2013 中的主控語音信箱原則](lync-server-2013-hosted-voice-mail-policies.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 如果 msExchUCVoiceMailSettings 屬性和 UM proxy 位址設定都存在於使用者帳戶中，則 msExchUCVoiceMailSettings 屬性優先使用。
+> 如果使用者帳戶中同時存在 msExchUCVoiceMailSettings 屬性及 UM Proxy 位址設定，則會優先採用 msExchUCVoiceMailSettings 屬性。
 
 
 

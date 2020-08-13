@@ -1,5 +1,5 @@
 ---
-title: 驗證內部伺服器和 Edge Server 之間的連線
+title: 驗證內部伺服器和 Edge Server 之間的連線能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27ca4874ac8c991828383afb524be1a1868bb7e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7bd749aea86f610cee2671648e4e2ce1486cfba5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763527"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中驗證內部伺服器和 Edge Server 之間的連線
+# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a>驗證 Lync Server 2013 中內部伺服器和 Edge Server 之間的連線能力
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41763527"
 
 _**主題上次修改日期：** 2012-09-08_
 
-在 Lync Server 2013 中，有一個單獨的驗證嚮導可用來協助驗證邊緣伺服器與內部伺服器之間的連線性。 在 Lync Server 2013 中，連線驗證是在您安裝 Edge 伺服器時自動完成。
+在 Lync Server 2013 中，可使用個別驗證嚮導，以協助驗證 Edge Server 與內部伺服器之間的連線能力。 在 [Lync Server 2013] 中，當您安裝 Edge Server 時，會自動進行連線驗證。
 
-您可以在中央管理儲存所在的內部電腦（或已加入任何已安裝 Lync Server 2013 核心元件（OcsCore .msi）的電腦上，執行 Windows PowerShell **CsManagementStoreReplicationStatus** Cmdlet，以驗證將配置資訊複製到 edge。 初始結果可能會指出狀態為「False」，而不是「True」以進行複製。 如果是，請執行**CsManagementStoreReplication** Cmdlet，並允許複製完成時間，然後再次執行**CsManagementStoreReplicationStatus** 。
+您可以在中央管理存放區 (所在的內部電腦上執行 Windows PowerShell **Get-CsManagementStoreReplicationStatus** Cmdlet，以驗證設定資訊的複寫，也可以在已安裝任何已加入網域的電腦上，執行 ( # A0) 之 Lync Server 2013 核心元件的任何已加入網域的電腦。 初始結果可能會指出複寫的狀態為 "False"，而非 "True"。 若是如此，請執行 **Invoke-CsManagementStoreReplication** Cmdlet、等候複寫完成，然後再次執行 **Get-CsManagementStoreReplicationStatus**。
 
-您可以分別驗證外部使用者連線，包括使用 Office 通訊伺服器遠端連線分析程式來驗證遠端使用者的連線性。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證外部使用者的連線能力](lync-server-2013-verify-connectivity-for-external-users.md)。
+您可以單獨驗證外部使用者連線，包括使用 Office Communications Server 遠端連線分析程式來驗證遠端使用者連線。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證外部使用者的連線能力](lync-server-2013-verify-connectivity-for-external-users.md)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定 E9-1-1 個語音路由
+title: Lync Server 2013：設定 E9-1-1 語音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d40d2ee5dcb0dd7f759751bdab0d3e09f4ebc577
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 767f49aa0074e269de386b2db017dc183e4eb92d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757837"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>在 Lync Server 2013 中設定 E9-1-1 的語音路由
+# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>在 Lync Server 2013 中設定 E9-1-1 語音路由
 
 </div>
 
@@ -37,55 +37,55 @@ ms.locfileid: "41757837"
 
 _**主題上次修改日期：** 2012-09-17_
 
-若要部署 E9-1，您必須先設定緊急通話語音路線。 如需建立語音路由的詳細資料，請參閱[在 Lync Server 2013 中建立語音路線](lync-server-2013-create-a-voice-route.md)。 例如，如果您的部署包含主要 SIP 幹線和次要 SIP 主幹，您可以定義多個路由。
+若要部署 E9-1-1，您需要先設定緊急電話語音路由。 如需建立語音路由的詳細資訊，請參閱[Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md)。 例如，如果您的部署包括主要及次要 SIP 主幹，則可以定義多個路由。
 
 <div>
 
 
 > [!NOTE]  
-> 若要在 E9-1 邀請中包含位置資訊，您需要設定連接至 E9-1 服務提供者的 SIP 幹線，以透過閘道路由緊急通話。 若要這樣做，請將<STRONG>new-cstrunkconfiguration</STRONG> Cmdlet 的 EnablePIDFLOSupport 標誌設定為 True。 EnablePIDFLOSupport 的預設值為 False。 例如：<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>您不需要為 fallback 公用交換電話網絡（PSTN）閘道及緊急位置識別號碼（ELIN）閘道啟用接收位置。
+> 若要在 E9-1-1 INVITE 中包括位置資訊，則必須先設定連線至 E9-1-1 服務提供者的 SIP 主幹以透過閘道路由傳送緊急電話。 若要進行這項作業，請將 <STRONG>Set-CsTrunkConfiguration</STRONG> Cmdlet 上的 EnablePIDFLOSupport 旗標設定為 True。 EnablePIDFLOSupport 的預設值是 False。 例如：<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>不需要啟用接收後援公用交換電話網路 (PSTN) 閘道的位置，也不需啟用緊急位置識別號碼 (ELIN) 閘道的位置。
 
 
 
 </div>
 
-如需使用語音路由的詳細資訊，請參閱 Lync Server 管理命令介面檔，瞭解下列 Cmdlet：
+如需使用語音路由的詳細資訊，請參閱 Lync Server 管理命令介面檔中的下列 Cmdlet：
 
-  - **Set-CsPstnUsage**
+  - **Get-cspstnusage**
 
-  - **CsPstnUsage**
+  - **Get-CsPstnUsage**
 
-  - **新-CsVoiceRoute**
+  - **New-CsVoiceRoute**
 
-  - **CsVoiceRoute**
+  - **Get-CsVoiceRoute**
 
-  - **Set-CsVoiceRoute**
+  - **Get-csvoiceroute**
 
-  - **移除-CsVoiceRoute**
+  - **Remove-Get-csvoiceroute**
 
 <div>
 
-## <a name="to-configure-an-e9-1-1-voice-route"></a>若要設定 E9-1-1 的語音路線
+## <a name="to-configure-an-e9-1-1-voice-route"></a>設定 E9-1-1 語音路由
 
-1.  以 RTCUniversalServerAdmins 群組成員或 CsVoiceAdministrator 系統管理角色的成員的帳戶登入電腦。
+1.  使用屬於 RTCUniversalServerAdmins 群組成員或 CsVoiceAdministrator 系統管理角色成員的帳戶登入電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-3.  執行下列 Cmdlet 以建立新的 PSTN 使用記錄。
+3.  執行下列 Cmdlet 來建立新的 PSTN 使用方式記錄。
     
-    此名稱必須與您在位置原則中用於**PSTN**設定的名稱相同。 雖然您的部署會有多個電話使用記錄，但下列範例會將 [緊急使用量] 新增到目前可用 PSTN 用法的清單中。 如需詳細資訊，請參閱設定[語音原則和 PSTN 使用記錄，以在 Lync Server 2013 中授權呼叫功能與許可權](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
+    這必須是用於 [位置原則] 中 **PSTN** 設定的相同名稱。 雖然部署會有多筆電話使用方式記錄，下列範例會將「緊急使用方式」新增至目前可用的 PSTN 使用方式清單。 如需詳細資訊，請參閱設定[語音原則和 PSTN 使用方式記錄，以在 Lync Server 2013 中授權呼叫功能和許可權](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
     
         Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
 
-4.  執行下列 Cmdlet，以使用您在上一個步驟中建立的 PSTN 使用狀況記錄來建立新的語音路由。
+4.  執行下列 Cmdlet，使用上個步驟中所建立的 PSTN 使用方式記錄來建立新的語音路由。
     
-    數位模式必須是在位置原則中的 [**緊急撥號字串**] 設定中所使用的相同數位模式。 [+] 符號是必要的，因為 Lync 會將 "+" 新增到緊急通話。 "Co1-pstngateway-1" 是針對 E9-1 服務提供者或 ELIN 閘道服務 ID 的 SIP 幹線服務識別碼。 下列範例使用「EmergencyRoute」做為語音路由的名稱。
+    數字模式必須是位置原則的**緊急撥號字串**設定中所使用的相同數字模式。 因為 Lync 會將 "+" 新增至緊急通話，所以需要 "+" 符號。 "Co1-pstngateway-1" 是 E9-1-1 服務提供者或 ELIN 閘道服務 ID 的 SIP 主幹服務 ID。 下列範例會使用“EmergencyRoute”作為語音路由的名稱。
     
         New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
 
-5.  或者，對於 SIP 中繼連線，我們建議您執行下列 Cmdlet 來為 E9 建立本機路由，以供-1-1 服務提供者的 SIP 幹線所處理的通話。 如果無法連線至 E9-1-1 服務提供者，就會使用這個路由。
+5.  建議您針對 SIP 主幹連線選擇執行下列 Cmdlet，建立不是由 E9-1-1 伺服器提供者的 SIP 主幹所處理之通話的本機路由。如果與 E9-1-1 服務提供者的連線無法使用，則會使用此路由。
     
-    下列範例假設使用者的語音原則中有「本機」用法。
+    下列範例假設使用者的語音原則有「本機」使用方式。
     
         New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
 

@@ -1,5 +1,5 @@
 ---
-title: 部署 Survivable Branch Appliance 或 Survivable Branch Server - 中央網站工作
+title: 部署 Survivable 分支裝置或伺服器中心網站工作
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9aa6d38ec873652feae6ef6a374ee5b771520b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ced7b5262880b23540bf3465f787f6512781f2e3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729623"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>使用 Lync Server 2013 部署 Survivable Branch Appliance 或 Survivable Branch Server - 中央網站工作
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>使用 Lync Server 2013 部署 Survivable 分支裝置或伺服器-中央網站任務
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41729623"
 
 _**主題上次修改日期：** 2012-10-18_
 
-在中央網站完成本節中的工作。 如果您要部署 Survivable 分支伺服器，請略過第一個工作。
+在中央網站完成本節中的工作。 如果您要部署 Survivable 分支伺服器，請略過第一個任務。
 
 <div>
 
 
 > [!IMPORTANT]
-> 在您執行本節中的工作之前，必須先進行下列條件： 
+> 在您執行本節中的工作時，必須符合下列條件： 
 > <UL>
 > <LI>
-> <P>Lync Server 必須在中央網站上設定。</P>
+> <P>必須在中央網站設定 Lync Server。</P>
 > <LI>
-> <P>分支網站上的安裝技術人員必須新增至 [RTCUniversalSBATechnicians] 群組。</P></LI></UL>此外，我們建議您執行下列動作：
+> <P>必須將分支網站的安裝技術人員加入至 RTCUniversalSBATechnicians 群組。</P></LI></UL>此外，我們建議您執行下列作業：
 > <UL>
 > <LI>
-> <P>在每個分支網站上部署 DHCP 伺服器，以讓用戶端取得 IP 位址。</P>
+> <P>在每個分支網站部署 DHCP 伺服器，讓用戶端能夠取得 IP 位址。</P>
 > <LI>
-> <P>若要在每個分支網站上部署 DHCP 伺服器的替代方案，請使用 Lync Server Management Shell Cmdlet <STRONG>CsRegistrarConfiguration-EnableDHCPServer $true</STRONG>，在 Survivable 分支裝置或 Survivable 分支伺服器上啟用 LYNC server DHCP。 如需詳細資訊，請參閱規劃檔中<A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支網站復原需求</A>的「硬體和軟體需求」一節。</P></LI></UL>
+> <P>在每個分支網站上部署 DHCP 伺服器的替代方法，請使用 Lync Server Management Shell Cmdlet <STRONG>Set-get-csregistrarconfiguration –EnableDHCPServer $true</STRONG>，在 Survivable branch 裝置或 Survivable branch server 上啟用 LYNC server DHCP。 如需詳細資訊，請參閱規劃檔中的「適用于<A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支網站恢復需求</A>」一節中的「硬體和軟體需求」一節。</P></LI></UL>
 
 
 
@@ -61,13 +61,13 @@ _**主題上次修改日期：** 2012-10-18_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中將 Survivable Branch Appliance 新增到 Active Directory](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
+  - [將 Survivable 分支裝置新增至 Active Directory 中的 Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
-  - [在 Lync Server 2013 中新增分支網站至拓撲](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [將分支網站新增至您在 Lync Server 2013 中的拓撲](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [在 Lync Server 2013 中定義 Survivable Branch Appliance 或 Survivable Branch Server](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+  - [在 Lync Server 2013 中定義 Survivable 分支裝置或伺服器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

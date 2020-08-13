@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將 Microsoft SIP 處理語言（MSPL）應用程式標示為重要或不重要
+title: Lync Server 2013：將 Microsoft SIP 處理語言 (MSPL) 應用程式標示為關鍵或非關鍵
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d8b0858145930e0a2144ade55934b39394dcaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31b0b4e532cf79a659dfe2b216815953ab24caf1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757947"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>在 Lync Server 2013 中將 Microsoft SIP 處理語言（MSPL）應用程式標示為重要或不重要
+# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>在 Lync Server 2013 中將 Microsoft SIP 處理語言 (MSPL) 應用程式標示為關鍵或非關鍵
 
 </div>
 
@@ -37,39 +37,39 @@ ms.locfileid: "41757947"
 
 _**主題上次修改日期：** 2012-11-01_
 
-Microsoft SIP 處理語言（MSPL）伺服器應用程式是使用 MSPL 指令碼語言（而不是 Microsoft Lync 2010 API）的腳本式應用程式。 某些 MSPL 伺服器應用程式是指定為重要的。 如果腳本是重要的，則必須在系統啟動期間啟動腳本，才能開始使用 Lync Server 2013。 如果腳本在 Lync Server 執行時失敗，伺服器不會關閉，但會停止傳送資料流程給腳本，而且會在事件記錄檔中寫入錯誤。
+Microsoft SIP 處理語言 (MSPL) 伺服器應用程式是僅限腳本的應用程式，使用 MSPL 指令碼語言，而不是 Microsoft Lync 2010 API。 某些 MSPL 伺服器應用程式會指定為重要。 如果腳本很重要，必須在系統啟動期間啟動腳本，Lync Server 2013 才能啟動。 如果腳本在執行 Lync Server 時失敗，則伺服器不會關機，但是會停止傳送流量至腳本，而且會在事件記錄檔中寫入錯誤。
 
-您可以使用 Lync Server [控制台] 將 Microsoft SIP 處理語言（MSPL）伺服器應用程式標示為重要或解除標記。
+您可以使用 Lync Server 控制台，將 Microsoft SIP 處理語言 (MSPL) 伺服器應用程式標示為關鍵或解除標記。
 
-並非所有的腳本都支援此選項。 例如，DefaultRouting 腳本標示為重要，且此選項無法針對 DefaultRouting 進行變更。
+並非所有腳本都支援此選項。 例如，DefaultRouting 腳本會標示為 [重要]，而且無法為 DefaultRouting 變更此選項。
 
 <div>
 
-## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a>將 MSPL 伺服器應用程式標示或解除標記為重要
+## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a>將 MSPL 伺服器應用程式標示為關鍵或解除標記
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署 Lync Server 2013 的網路中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您已部署 Lync Server 2013 之網路中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**拓撲圖**]，然後按一下 [**伺服器應用程式**]。
+3.  在左導覽列中，按一下 [**拓撲**]，然後按一下 [**伺服器應用程式**]。
 
-4.  如有需要，請在 [**伺服器應用程式**] 頁面上，按一下欄標題來排序應用程式，然後按一下您要修改的伺服器應用程式。
+4.  在 [**伺服器應用程式**] 頁面上，按一下欄標題以排序應用程式（如有需要），然後按一下您要修改的伺服器應用程式。
 
-5.  按一下 [**動作**]。
+5.  按一下 **[動作]**。
 
-6.  按一下 [**標示為重要**] 或 [**取消選取為重要**] （也就是如果腳本支援此選項）。
+6.  按一下 [**標示為緊急**] 或 [**取消選取為重要**的 (，也就是，如果腳本支援此選項) 。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中啟用或停用 Microsoft SIP 處理語言（MSPL）伺服器應用程式](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+[在 Lync Server 2013 中啟用或停用 Microsoft SIP 處理語言 (MSPL) 伺服器應用程式](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
 
 
-[在 Lync Server 2013 中檢視 Microsoft SIP Processing Language (MSPL) 伺服器應用程式](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
+[在 Lync Server 2013 中查看 Microsoft SIP 處理語言 (MSPL) 伺服器應用程式](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
 
 
 [管理 Lync Server 2013 拓撲](lync-server-2013-managing-the-lync-server-topology.md)  

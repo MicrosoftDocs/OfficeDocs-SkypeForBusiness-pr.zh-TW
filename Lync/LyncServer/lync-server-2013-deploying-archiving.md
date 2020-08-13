@@ -12,18 +12,18 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86b1394df9bb52502e1e0c605bedb05a0579042e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d31a4bdf75b649dec1d18a834335b0d47a69a3e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729592"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206748"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中部署封存
 
@@ -37,23 +37,23 @@ ms.locfileid: "41729592"
 
 _**主題上次修改日期：** 2012-09-28_
 
-Lync Server 2013 提供在 Lync Server 中封存立即訊息（IM）內容與會議通訊的方案。 您可以將存檔儲存與 Exchange 2013 儲存整合，方法是使用 SQL Server 資料庫儲存 Lync Server 2013 封存資料，或同時使用 Lync Server 2013 與 Exchange 2013 儲存來實現封存支援。 您可以使用原則與歸檔設定控制資料的歸檔方式。 如需詳細資訊，請參閱規劃檔中的 [[在 Lync server 2013 中進行](lync-server-2013-planning-for-archiving.md)封存]，以及如何在規劃檔、部署檔或作業檔中使用[lync server 2013](lync-server-2013-how-archiving-works.md)中的存檔作業。
+Lync Server 2013 提供在 Lync Server 中封存立即訊息 (IM) 內容和會議通訊的解決方案。 您可以使用 SQL Server 資料庫來儲存 Lync Server 2013 封存資料，或同時使用 Lync Server 2013 和 Exchange 2013 儲存，以整合封存儲存與 Exchange 2013 儲存區，以執行封存支援。 您可以控制使用原則及封存設定來封存資料的方式。 如需詳細資訊，請參閱規劃檔、部署檔或作業檔中的規劃檔和封存在[Lync server 2013 中的運作方式](lync-server-2013-how-archiving-works.md)中的「[在 lync Server 2013 中規劃](lync-server-2013-planning-for-archiving.md)封存」。
 
-您可以使用本節中的資訊來開始設定和設定存檔。 部署之後，您可以變更存檔設定。 如需有關如何針對日常管理執行封存支援或符合貴組織中新需求的詳細資訊，請參閱在作業檔中[管理 Lync Server 2013 存檔](lync-server-2013-managing-archiving.md)。
+您可以使用本節中的資訊，先設定和設定封存。 部署之後，您可以變更封存設定。 如需如何針對日常管理執行封存支援，或符合組織中新需求的詳細資訊，請參閱 Operations 檔中的[管理 Lync Server 2013](lync-server-2013-managing-archiving.md)封存。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [存檔在 Lync Server 2013 中的運作方式](lync-server-2013-how-archiving-works.md)
+  - [Lync Server 2013 中的封存運作方式](lync-server-2013-how-archiving-works.md)
 
-  - [Lync Server 2013 中封存的部署檢查單](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [Lync Server 2013 中封存的部署檢查清單](lync-server-2013-deployment-checklist-for-archiving.md)
 
-  - [在 Lync Server 2013 中設定存檔的系統和基礎結構](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
+  - [在 Lync Server 2013 中設定封存的系統和基礎結構](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
 
-  - [將存檔資料庫新增至現有的 Lync Server 2013 部署](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
+  - [將封存資料庫新增至現有的 Lync Server 2013 部署](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
 
-  - [在 Lync Server 2013 中設定存檔支援](lync-server-2013-configuring-support-for-archiving.md)
+  - [在 Lync Server 2013 中設定封存支援](lync-server-2013-configuring-support-for-archiving.md)
 
 </div>
 

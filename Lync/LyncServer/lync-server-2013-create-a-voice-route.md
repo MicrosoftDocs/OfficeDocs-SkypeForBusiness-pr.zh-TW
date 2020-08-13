@@ -12,18 +12,18 @@ ms:contentKeyID: 48185438
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30a25f9d070c81d45ffc966be49560dc67c292c4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37f62b6ba64456b8e892c94117750bf1bc209bc0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726373"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191746"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-a-voice-route-in-lync-server-2013"></a>在 Lync Server 2013 中建立語音路由
 
@@ -37,89 +37,89 @@ ms.locfileid: "41726373"
 
 _**主題上次修改日期：** 2012-11-01_
 
-下列程式說明如何使用 Lync Server 2013 [控制台] 來建立新的語音路由。 若要編輯現有的路線，請參閱[在 Lync Server 2013 中修改語音路由](lync-server-2013-modify-a-voice-route.md)，以取得程式。
+下列程式說明如何使用 Lync Server 2013 控制台來建立新的語音路由。 若要編輯現有的路由，請參閱[在 Lync Server 2013 中修改語音路由](lync-server-2013-modify-a-voice-route.md)以取得此程式。
 
 <div>
 
-## <a name="to-create-a-voice-route-by-using-the-lync-server-control-panel"></a>使用 Lync Server [控制台] 建立語音路線
+## <a name="to-create-a-voice-route-by-using-the-lync-server-control-panel"></a>使用 Lync Server 控制台建立語音路由
 
-1.  以 RTCUniversalServerAdmins 群組的成員或**CsVoiceAdministrator**、 **CsServerAdministrator**或**CsAdministrator**系統管理角色的成員的身分登入電腦。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是**CsVoiceAdministrator**、 **CsServerAdministrator**或**CsAdministrator**系統管理角色的成員身分登入電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**語音路由**]。
+3.  在左導覽列中，按一下 **[語音路由]**。
 
-4.  按一下 [**傳送**]。
+4.  按一下 **[路由]**。
 
-5.  按一下 [**新增**] 以顯示 [**新增語音路由**] 對話方塊。
+5.  按一下 [**新增**] 顯示 [**新增語音路由**] 對話方塊。
 
-6.  在 [**名稱**] 中，輸入語音路線的描述性名稱。
+6.  在 [**名稱**] 中，輸入語音路由的描述性名稱。
 
-7.  可選在 [**描述**] 中，輸入語音路由的其他描述性資訊。
+7.   (選用) 在 [**描述**] 中，輸入語音路由的其他描述性資訊。
 
-8.  若要指定您想要此路由適應的模式，您可以使用 [**建立模式搭配**工具] 來產生正則運算式，或是手動撰寫正則運算式。
+8.  若要指定您想要此路由容納的模式，您可以使用**Build a pattern to match** tool 以產生正則運算式，或是手動寫入正則運算式。
     
-      - 若要使用 [**建立模式以搭配**工具] 來產生正則運算式，請輸入如下所示的值。 您可以指定兩種模式相符類型：
+      - 若要使用**Build a pattern to match** tool 以產生正則運算式，請輸入下列的值。 您可以指定兩種類型的模式對應：
         
-          - **您想要允許的數位起始位數：** 輸入此路由必須容納的首碼值（包括前置 + 視需要）。 例如，輸入 **+ 425**，然後按一下 [**新增**]。 針對您想要包含在路線中的每一個前置詞值，重複此步驟。
+          - **您想要允許的數位的開始位數：** 輸入此路由必須滿足的首碼值 (包括前置 + if （如有必要）) 。 例如，輸入 **+ 425**，然後按一下 [**新增**]。 針對您想要包含在路由中的每個前置詞值，重複此步驟。
         
-          - **例外狀況：** 如果您想要指定一個或多個 [前置詞] 值的例外狀況，請醒目提示 [首碼]，然後按一下 [**例外**]。 針對您*不*想要此路線容納的相符模式，輸入一或多個值。 例如，若要從路由中排除從 + 425237 開始的數位，請在 [**例外**] 欄位中輸入 **+ 425237**的值，然後按一下 **[確定]**。
+          - **例外狀況：** 如果您想要為前置詞值指定一或多個例外狀況，請反白顯示首碼，然後按一下 [**例外**狀況]。 針對您*不*想要此路由容納的相符模式輸入一個或多個值。 例如，若要從路由中排除從 + 425237 開始的數位，請在 [**例外日期**] 欄位中輸入 **+ 425237**的值，然後按一下 **[確定]**。
     
-      - 若要手動定義 [相符] 模式，請按一下 [**組建符合**工具的模式] 中的 [**編輯**]，然後輸入 .net Framework 一般運算式，以指定要套用路線之目的地電話號碼的相符模式。 如需如何撰寫正則運算式的詳細資料，請參閱 ".NET Framework 正[http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)則運算式"。
+      - 若要手動定義相符的模式，請按一下 [**組建要搭配的模式**] 中的 [**編輯**]，然後輸入 .net Framework 正則運算式，以指定要套用路由之目的地電話號碼的相符模式。 如需如何撰寫正則運算式的詳細資訊，請參閱 .NET Framework 正則運算式 at [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) 。
 
-9.  如果您不想讓撥出通話的電話號碼出現在通話收件者，請選取 [**取消來電**顯示]。 如果您選取此選項，您必須指定將出現在收件者的本機號碼中的**替代呼叫者 id** 。
+9.  如果您不想讓撥出電話的電話號碼對來電收件者顯示，請選取 [**抑制來電者識別碼**]。 如果您選取此選項，則必須指定要在收件者的來電者 ID 顯示上顯示的**替代來電者識別碼**。
 
-10. 若要將一或多個 trunks 與語音路線關聯，請按一下 [**新增**]，然後從清單中選取主幹。
-    
-    <div>
-    
-
-    > [!NOTE]  
-    > 如果您的部署包含任何 Microsoft Office 通訊伺服器 2007 R2 轉送伺服器，則也會出現在清單中。
-
-    
-    </div>
-
-11. 若要將一或多個公開交換的電話網絡（PSTN）用法與語音路線關聯，請按一下 [**選取**]，然後從已針對您的企業語音部署定義的 PSTN 使用狀況記錄清單中，選擇一筆記錄。
+10. 若要將一或多個主幹與語音路由產生關聯，請按一下 [**新增**]，然後從清單中選取一個主幹。
     
     <div>
     
 
     > [!NOTE]  
-    > 若要查看每個可用 PSTN 使用量記錄的屬性，請參閱<A href="lync-server-2013-view-pstn-usage-records.md">在 Lync Server 2013 中查看 PSTN 使用狀況記錄</A>。<BR>若要建立或編輯 PSTN 使用記錄，請參閱<A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">在 Lync server 2013 中建立語音原則和設定 pstn 使用記錄</A>，或<A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">修改語音原則以及在 Lync server 2013 中設定 pstn 使用記錄</A>。
+    > 如果您的部署包含任何 Microsoft Office 通訊伺服器 2007 R2 轉送伺服器，這些伺服器也會出現在清單中。
 
     
     </div>
 
-12. 排列 PSTN 使用狀況記錄，以獲得最佳效能。 若要變更記錄在清單中的位置，請醒目提示記錄名稱，然後按一下向上或向下箭號。
+11. 若要將一或多個公用交換電話網路 (PSTN) 使用方式與語音路由產生關聯，請按一下 [**選取**]，然後從為您的 Enterprise voice 部署定義的 PSTN 使用方式記錄清單中，選擇記錄。
     
     <div>
     
 
     > [!NOTE]  
-    > 與語音原則相反，在其中列出 PSTN 使用記錄的順序非常重要，而 PSTN 使用記錄在語音路由中所處的順序則是無意義的。 不過，我們建議您依使用頻率來整理清單。 例如： RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。 （Lync Server 會從上到下遍歷清單）。
+    > 若要查看每個可用 PSTN 使用方式記錄的屬性，請參閱<A href="lync-server-2013-view-pstn-usage-records.md">在 Lync Server 2013 中查看 PSTN 使用方式記錄</A>。<BR>若要建立或編輯 PSTN 使用方式記錄，請參閱<A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">在 Lync server 2013 中建立語音原則和設定 pstn 使用方式記錄</A>，或<A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">在 lync Server 2013 中修改語音原則和設定 pstn 使用方式記錄</A>。
 
     
     </div>
 
-13. 可選在 [**輸入已翻譯的數位至測試**] 欄位中輸入值，**然後按一下 [** 執行]。 測試結果會顯示在欄位下方。
+12. 排列 PSTN 使用方式記錄，以獲得最佳效能。若要變更清單中某筆記錄的位置，請反白顯示記錄名稱，然後按一下向上或向下箭頭。
     
     <div>
     
 
     > [!NOTE]  
-    > 您可以儲存尚未經過測試的語音路線，稍後再重新設定。 如需詳細資訊，請參閱<A href="lync-server-2013-test-voice-routing.md">在 Lync Server 2013 中測試語音路由</A>。
+    > 與語音原則不同的是，列出 PSTN 使用方式記錄的順序很重要，因此語音路由中列出 PSTN 使用方式記錄的順序是沒有意義的。 不過，我們建議您依使用頻率來組織清單。 例如： RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。  (Lync Server 從左上開始遍歷清單。 ) 
 
     
     </div>
 
-14. 按一下 **[確定]** 儲存語音傳送。
+13.  (選用) 在 [**輸入要測試的轉譯的號碼**] 欄位中輸入值，然後按一下 [**移至**]。 測試結果會顯示在欄位底下。
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > 您可以儲存尚未通過測試的語音路由，然後稍後再加以重新設定。 如需詳細資訊，請參閱<A href="lync-server-2013-test-voice-routing.md">Test voice routing In Lync Server 2013</A>。
+
+    
+    </div>
+
+14. 按一下 **[確定]** 以儲存語音路由。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 每當您建立語音路線時，您都必須執行 [<STRONG>全部提交</STRONG>] 命令來發佈設定變更。 如需詳細資訊，請參閱<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">在 Lync Server 2013 中發佈 [語音路由設定] 的 [待處理變更</A>]。
+> 每當您建立語音路由時，都必須執行「<STRONG>認可全部</STRONG>」命令來發佈設定變更。 如需詳細資訊，請參閱<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">在 Lync Server 2013 中發佈擱置的變更至語音路由</A>設定。
 
 
 
@@ -129,14 +129,14 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中修改語音路線](lync-server-2013-modify-a-voice-route.md)  
-[在 Lync Server 2013 中查看 PSTN 使用狀況記錄](lync-server-2013-view-pstn-usage-records.md)  
-[在 Lync Server 2013 中建立語音原則和設定 PSTN 使用記錄](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
-[在 Lync Server 2013 中修改語音原則和設定 PSTN 使用狀況記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
-[在 Lync Server 2013 中發佈語音路由設定的擱置變更](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[在 Lync Server 2013 中修改語音路由](lync-server-2013-modify-a-voice-route.md)  
+[在 Lync Server 2013 中查看 PSTN 使用方式記錄](lync-server-2013-view-pstn-usage-records.md)  
+[在 Lync Server 2013 中建立語音原則和設定 PSTN 使用方式記錄](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
+[在 Lync Server 2013 中修改語音原則和設定 PSTN 使用方式記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[在 Lync Server 2013 中將擱置的變更發佈至語音路由設定](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 
 [在 Lync Server 2013 中測試語音路由](lync-server-2013-test-voice-routing.md)  

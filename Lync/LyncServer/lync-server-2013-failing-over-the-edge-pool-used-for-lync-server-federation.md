@@ -12,18 +12,18 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f144def3d3a8df9cc63221342a85666eb3c28913
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1589fe63c41cb2c4cbff9b72f42a3cc06b43e5d3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765191"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>在 Lync Server 2013 中容錯移轉用於 Lync Server 同盟的 Edge 集區
 
@@ -37,40 +37,40 @@ ms.locfileid: "41765191"
 
 _**主題上次修改日期：** 2012-09-17_
 
-如果您已將 Lync Server federation 的邊緣池設定為 down，您必須將同盟變更為使用不同的邊緣池才能運作。
+如果在設定 Lync Server 同盟的 Edge 集區發生問題，則必須變更同盟使用不同的 Edge 集區，同盟才能運作。
 
 <div>
 
-## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a>針對 Lync Server Federation 所用的邊緣池進行容錯移轉
+## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a>容錯移轉用於 Lync Server 同盟的 Edge 集區
 
-1.  在前端伺服器上，開啟 [拓撲建立器]。 展開 [**邊緣池**]，然後以滑鼠右鍵按一下目前針對同盟設定的邊緣伺服器或 edge 伺服器池。 選取 [**編輯屬性**]。
+1.  在前端伺服器上，開啟拓撲產生器。展開 **[Edge 集區]**，然後在目前設定用於同盟的 Edge Server 或 Edge Server 集區上按一下滑鼠右鍵。選取 **[編輯內容]**。
 
-2.  在 [**編輯屬性**] 底下的 **[一般**] 底下，清除 **[針對此 Edge 池啟用同盟（埠5061）**]。 按一下 [確定]****。
+2.  在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]****。按一下 [確定]****。
 
-3.  展開 [**邊緣池**]，然後以滑鼠右鍵按一下您要用於同盟的邊緣伺服器或 edge 伺服器池。 選取 [**編輯屬性**]。
+3.  展開 [Edge 集區]****，然後在現在要用於同盟的 Edge Server 或 Edge Server 集區上按一下滑鼠右鍵。選取 [編輯內容]****。
 
-4.  在 [**編輯屬性**] 底下的 **[一般**] 底下，選取 **[針對此 Edge 池啟用同盟（埠5061）**]。 按一下 [確定]****。
+4.  在 [編輯內容]**** 中，選取 [一般]**** 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。按一下 **[確定]**。
 
-5.  按一下 [**動作**]，選取 [**拓撲**]，選取 [**發佈**]。 **發佈拓撲**時出現提示時，請按 **[下一步]**。 發佈完成後，請按一下 **[完成]**。
+5.  按一下 **[動作]**，依序選取 **[拓撲]** 和 **[發行]**。在 **[發行拓撲]** 出現提示時，按 **[下一步]**。發行完成時，按一下 **[完成]**。
 
-6.  在邊緣伺服器上，開啟 Lync Server 部署嚮導。 按一下 [**安裝或更新 Lync Server 系統**]，然後按一下 [**設定] 或 [移除 Lync server 元件**]。 再次按一下 [**執行**]。
+6.  在 Edge Server 上開啟 [Lync Server 部署精靈]。依序按一下 **[安裝或更新 Lync Server 系統]**、**[安裝或移除 Lync Server 元件]**、**[再執行一次]**。
 
-7.  在安裝程式 Lync Server 元件上，按一下 **[下一步]**。 [摘要] 畫面會在執行時顯示動作。 完成部署之後，按一下 [**查看記錄**] 以查看可用的記錄檔。 按一下 **[完成]** 以完成部署。
+7.  在 [安裝 Lync Server 元件] 中，按 **[下一步]**。摘要畫面會隨著動作的執行顯示各個動作。部署完成後，按一下 **[檢視記錄檔]** 檢視可用的記錄檔。按一下 **[完成]** 完成部署。
     
-    如果包含失敗的邊緣池的網站包含仍在執行的前端伺服器，您必須更新這些前端池的 Web 會議服務和 A/V 會議服務，才能在仍在執行的遠端網站中使用 Edge 池。 如需詳細資訊，請參閱[在 Lync Server 2013 中變更與前端池相關聯的邊緣池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。
+    如果失敗 Edge 集區所在的網站包含仍在執行的前端伺服器，則必須更新在這些前端集區上的 Web 會議服務及 A/V 會議服務，以使用遠端網站上仍在執行的 Edge 集區。 如需詳細資訊，請參閱[變更與 Lync Server 2013 中的前端集區相關聯的 Edge 集](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)區。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中容錯移轉用於 XMPP 同盟的 Edge 集區](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
-[在 Lync Server 2013 中容錯回復 Lync Server 同盟或 XMPP 同盟使用的 Edge 集區](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
+[在 Lync Server 2013 中回復用於 Lync Server 同盟或 XMPP 同盟的 Edge 集區](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
 
 
-[Lync Server 2013 中的 Edge Server 災害復原](lync-server-2013-edge-server-disaster-recovery.md)  
+[Lync Server 2013 中的 Edge Server 災難性修復](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

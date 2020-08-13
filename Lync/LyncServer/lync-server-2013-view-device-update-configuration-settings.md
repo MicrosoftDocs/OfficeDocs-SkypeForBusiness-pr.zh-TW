@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：檢視裝置更新組態設定
+title: Lync Server 2013：查看裝置更新設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5cc0ff742c81cb6480df1d4ae8cb83a686c2e8
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731093"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中檢視裝置更新組態設定
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中查看裝置更新設定設定
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41731093"
 
 _**主題上次修改日期：** 2013-02-20_
 
-您可以使用 Lync Server 管理命令介面和**CsDeviceUpdateConfiguration** Cmdlet （您可以從 lync Server 2013 管理命令介面或從 Windows PowerShell 遠端會話執行）來查看裝置更新服務設定設定。
+您可以使用 Lync Server 管理命令介面和**Get-CsDeviceUpdateConfiguration** Cmdlet 來查看裝置更新服務設定設定，您可以從 lync Server 2013 管理命令介面或 Windows 的遠端會話執行該指令程式 PowerShell
 
 <div>
 
 
 > [!NOTE]  
-> 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 。
 
 
 
@@ -55,11 +55,11 @@ _**主題上次修改日期：** 2013-02-20_
 <div>
 
 
-  - 若要查看所有語音路由的相關資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 Enter 鍵：
+  - 若要查看所有語音路由的資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 Enter 鍵：
     
         Get-CsDeviceUpdateConfiguration
     
-    這個命令會傳回如下所示的資訊：
+    此命令會傳回與下列相似的資訊：
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}
@@ -72,7 +72,7 @@ _**主題上次修改日期：** 2013-02-20_
 
 </div>
 
-如需此 Cmdlet 的詳細資訊，請參閱[取得 CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)的說明主題。
+如需此 Cmdlet 的詳細資訊，請參閱[Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)的 Help 主題。
 
 </div>
 

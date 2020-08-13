@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：增強型 9-1-1 (E9-1-1) 和中繼伺服器
+title: Lync Server 2013：增強型 9-1-1 (E9-1-1) 和轉送伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac6d6d7c9dd533d26f2cbf5c5116db7af4424ffe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a84b9eb5579a1f0931f3363e2e4071ea7c8ac5e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735455"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中的增強型 9-1-1 (E9-1-1) 和中繼伺服器
+# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中的增強型 9-1-1 (E9-1-1) 和轉送伺服器
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41735455"
 
 _**主題上次修改日期：** 2012-09-29_
 
-中繼伺服器擁有延伸的功能，讓它能夠正確地與增強型9-1-1 （E9-1）服務提供者互動。 在中繼伺服器上不需要特殊設定;根據預設，E9-1-1 互動所需的 SIP 延伸是包含在與閘道對等方（PSTN 閘道、IP PBX 或網際網路電話服務提供者的 SBC，包括 E9-1-1 服務）的互動。介面
+轉送伺服器具有擴充的功能，可與增強型 9-1-1 (E9-1-1) 服務提供者正確互動。 轉送伺服器上不需要特殊設定;E9-1-1 互動所需的 SIP 擴充預設會包含在轉送伺服器的 SIP 通訊協定中，以用於與閘道對等 (PSTN 閘道、IP-PBX 或內部網際網路電話語音服務提供者（包括 E9-1-1）服務提供者的 SBC 進行互動) 
 
-在現有的轉送伺服器池中，或需要獨立的中繼伺服器的 SIP 主幹是否可在現有的中繼伺服器池上終止，或是否需要獨立的中繼伺服器，取決於 E9 SBC 是否可與中繼伺服器的池互動。 如需詳細資訊，請參閱[Lync Server 2013 中的 M:N 幹線](lync-server-2013-m-n-trunk.md)。
+E9-1-1 服務提供者的 SIP 主幹是否可在現有的轉送伺服器集區上終止，或是否需要獨立轉送伺服器，取決於 E9-1-1 SBC 是否可以與轉送伺服器集區互動。 如需詳細資訊，請參閱[M:N 主幹 In Lync Server 2013](lync-server-2013-m-n-trunk.md)。
 
 </div>
 

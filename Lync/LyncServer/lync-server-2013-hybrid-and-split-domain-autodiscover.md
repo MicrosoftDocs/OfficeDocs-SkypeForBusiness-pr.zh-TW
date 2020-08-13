@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：混合式和分割網域-自動探索
+title: Lync Server 2013：混合式和分割網域自動探索
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541520
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce38bba4717e3340e7eacf33ce67fc357d208b83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fca0097f6ad0264755dd9d0a80a296e9ebf60b9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763011"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的混合式和剝離網域自動探索
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的混合式和分割網域自動探索
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41763011"
 
 _**主題上次修改日期：** 2013-02-14_
 
-共用的 SIP 位址空間（又稱為*分割網域*部署）或*混合*式部署，是在內部部署和線上環境中部署使用者的配置。 您想要的結果是讓使用者無論其主伺服器位於何處（內部部署或線上），都能登入部署，並重新導向到他們的主伺服器位置。 若要完成此作業，Lync Server 2013 的自動探索功能是用來重新導向線上使用者與線上拓撲。 您可以透過使用 Lync Server 管理命令介面、 **CsHostingProvider** Cmdlet 和**CsHostingProvider** Cmdlet 來設定自動探索統一資源定位器（URL）來執行此動作。
+共用 SIP 位址空間（也稱為*分割網域*部署或*混合*式部署）是一種設定，可讓使用者在內部部署部署和線上環境中部署。 想要的結果是讓使用者不論其主伺服器位於何處 (內部部署或線上) ，登入部署並重新導向至其主伺服器位置。 為了達到此目的，Lync Server 2013 的自動探索功能是用來將線上使用者重新導向至線上拓撲。 您可以使用 Lync Server 管理命令介面、 **Get-CsHostingProvider** Cmdlet 和 get-cshostingprovider 指令程式，**設定**自動探索統一資源定位器 (URL) 。
 
 <div>
 
 ## <a name="mobility-for-the-split-domain-deployment"></a>分割網域部署的行動性
 
-您將需要收集並錄製下列已部署的屬性：
+您需要收集和記錄下列部署的屬性：
 
-  - 從 Lync Server 管理命令介面輸入
+  - 從 Lync Server 管理命令介面中，輸入
     
         Get-CsHostingProvider
 
-  - 在結果中，尋找具有屬性**ProxyFQDN**的線上提供者。 例如，sipfed.online.lync.com。
+  - 在結果中尋找具有 **ProxyFQDN** 屬性的線上提供者。 例如，sipfed.online.lync.com。
 
   - 記錄 ProxyFQDN 的值。
 
-  - 在內部部署的 Lync Server [控制台] 中啟用同盟，允許與線上提供者進行同盟。
+  - 在內部部署的 Lync Server 控制台中啟用同盟，允許與線上提供者同盟。
 
-  - 針對線上提供者啟用同盟。 根據預設，所有的線上使用者都會啟用網域聯盟，而且可以與所有網域進行通訊。
+  - 為線上提供者啟用同盟。 根據預設，所有的線上使用者都會啟用網域同盟，而且可以與所有網域通訊。
 
-  - 如果您要定義封鎖和允許的網域，請判斷您將明確允許或明確封鎖的網域。
+  - 如果您會定義封鎖和允許的網域，請決定您要明確允許或明確封鎖的網域。
 
-  - 針對線上同盟，您必須規劃防火牆例外狀況、憑證和 DNS 主機（如果使用 IPv6，則為 A 或 AAAA）。 此外，您必須設定同盟原則。 如需詳細資訊，請參閱[規劃 Lync Server 2013 和 Office 通訊伺服器同盟](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)。
+  - 若要使用線上同盟，您必須規劃防火牆例外狀況、憑證和 DNS 主機 (A 或 AAAA （如果使用 IPv6) 記錄）。 此外，您必須設定同盟原則。 如需詳細資訊，請參閱[規劃 Lync Server 2013 和 Office 通訊伺服器同盟](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)。
 
 </div>
 

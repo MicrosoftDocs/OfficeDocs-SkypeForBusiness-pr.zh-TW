@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將回應群組移至新的池中
+title: Lync Server 2013：移動回應群組至新集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96740d8937f1548952d41d5674ef3e66cd29e2b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73138d5cbde1a835ab632fe98bf57ef58f11c0da
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756707"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>在 Lync Server 2013 中將回應群組移至新的文件庫
+# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>將回應群組移至 Lync Server 2013 中的新集區
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41756707"
 
 _**主題上次修改日期：** 2012-11-01_
 
-Lync Server 2013 引入了新的 Cmdlet 支援，可將回應群組從一個池移到另一個池中，即使完全符合的功能變數名稱（FQDN）不同也一樣。
+Lync Server 2013 引進新的指令程式支援，可將回應群組從一個集區移至另一個集區，即使 (FQDN) 的完整功能變數名稱不同也是一樣。
 
-使用下列程式中的步驟，將回應群組從一個前端池移到另一個具有不同 FQDN 的 [前端] 池。
+使用下列程式中的步驟，將回應群組從一個前端集區移至另一個具有不同 FQDN 的前端集區。
 
 <div>
 
 
 > [!NOTE]  
-> 在共存環境中，您只能在 Lync Server 2013&nbsp;前端池之間移動回應群組。
+> 在共存環境中，您只能移動 Lync Server 2013 前端集區之間的回應群組 &nbsp; 。
 
 
 
@@ -53,11 +53,11 @@ Lync Server 2013 引入了新的 Cmdlet 支援，可將回應群組從一個池�
 
 <div>
 
-## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>若要將回應群組移到具有不同 FQDN 的池
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>將回應群組移至具有不同 FQDN 的集區
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  匯出來源池中的回應群組。 在命令列中，輸入：
+2.  匯出來源集區中的回應群組。 在命令列中輸入：
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
@@ -65,15 +65,15 @@ Lync Server 2013 引入了新的 Cmdlet 支援，可將回應群組從一個池�
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    若要在匯出期間從來源池中移除回應群組，請包括-RemoveExportedConfiguration 參數。 例如：
+    若要在匯出期間從來源集區中移除回應群組，請包括–RemoveExportedConfiguration 參數。 例如：
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  匯入回應群組至目的地池中，並將目的地池指派為新的擁有者。 在命令列中，輸入：
+3.  將回應群組匯入目的地集區，並將目的地集區指派為新的擁有者。 在命令列中輸入：
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    如果您也想要將 [回應] 群組的應用層級設定從來源池複製到目的地池，請包含– ReplaceExistingRgsSettings 參數。 每個 pool 只能定義一組應用層級設定。 如果您將應用程式層級設定從來源池複製到目的地池，來源池中的設定會取代目的地池的設定。 如果您沒有從來源池中複製應用程式層級設定，目的地池中的現有設定就會套用至匯入的回應群組。
+    如果您也想要將來源集區的回應群組應用層級設定複製到目的地集區，請加入– ReplaceExistingRgsSettings 參數。 您只能為每個集區定義一組應用層級的設定。 如果您將應用層級設定從來源集區複製到目的地集區，來源集區的設定會取代目的地集區的設定。 如果您未從來源集區複製應用層級設定，則目的地集區中的現有設定會套用至匯入的回應群組。
     
     例如：
     
@@ -83,38 +83,38 @@ Lync Server 2013 引入了新的 Cmdlet 支援，可將回應群組從一個池�
     
 
     > [!NOTE]  
-    > 應用程式層級設定包括預設的 [隨用音樂保留] 設定、預設的 [音樂保留] 音訊檔案、[代理程式 ringback 寬限期]，以及 [通話內容] 配置。 若要查看這些設定，請執行<STRONG>CsRgsConfiguration</STRONG> Cmdlet。 如需此 Cmdlet 的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">CsRgsConfiguration</A>。
+    > 應用層級設定包括預設的等候音樂設定、預設的等候音樂音訊檔、代理程式回電寬限時間，以及通話內容設定。 若要檢視這些組態設定，請執行 <STRONG>Get-CsRgsConfiguration</STRONG> Cmdlet。 如需此 Cmdlet 的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>。
 
     
     </div>
 
-4.  您可以執行下列動作，透過顯示匯入的回應群組設定來確認匯入成功：
+4.  執行下列動作來顯示匯入的回應群組設定，以確認匯入是否成功：
     
-      - 確認所有工作流程都已匯入。 在命令列中，輸入下列內容：
+      - 確認已匯入所有工作流程。 在命令列輸入下列命令：
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - 確認已匯入所有佇列。 在命令列中，輸入下列內容：
+      - 確認已匯入所有佇列。 在命令列輸入下列命令：
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - 確認已匯入所有的代理程式群組。 在命令列中，輸入下列內容：
+      - 確認已匯入所有代理程式群組。 在命令列輸入下列命令：
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - 確認已匯入所有上班時間。 在命令列中，輸入下列內容：
+      - 確認已匯入商務用時數。 在命令列輸入下列命令：
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<destination pool FQDN>" 
     
-      - 確認所有假日集都已匯入。 在命令列中，輸入下列內容：
+      - 確認已匯入所有假日集。 在命令列輸入下列命令：
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  將呼叫撥到其中一個回應群組，並確認正確處理通話，以確認匯入成功。
+5.  撥打電話給其中一個回應群組，確認是否已正確處理該呼叫，以確認匯入是否成功。
 
-6.  要求是正式代理群組成員的代理，在目的地池中登入其代理群組。
+6.  要求是正式代理群組成員的代理人，以登入目的地集區中的其代理群組。
 
-7.  如果您之前從未從來源池中移除回應群組，請從來源池中移除回應群組。 在命令列中，輸入：
+7.  如果您先前沒有從來源集區移除回應群組，請從來源集區中移除回應群組。 在命令列中輸入：
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：啟用以位置為基礎的路由
+title: Lync Server 2013：啟用位置基礎路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e21e1a285fa5b2129d4d0ed0b5d75e8dcee42f2f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a66ced9530510ade4d91e8d76032a4260870530
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735803"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-location-based-routing-in-lync-server-2013"></a>在 Lync Server 2013 啟用以位置為基礎的路由
+# <a name="enabling-location-based-routing-in-lync-server-2013"></a>在 Lync Server 2013 中啟用以位置為基礎的路由
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41735803"
 
 _**主題上次修改日期：** 2013-04-26_
 
-部署企業語音並定義網路區域、網站和子網之後，您就可以啟用以位置為基礎的路由。 必須針對下列 Enterprise Voice 元素啟用位置路由：
+部署 Enterprise Voice 並定義網路地區、網站和子網之後，您可以啟用位置型路由。 必須啟用下列 Enterprise Voice 元素的位置基礎路由：
 
   - 網路網站
 
-  - 幹線設定
+  - 主幹設定
 
   - 語音原則
 
@@ -49,15 +49,15 @@ _**主題上次修改日期：** 2013-04-26_
 
 <div>
 
-## <a name="enable-location-based-routing-to-network-sites"></a>啟用從位置路由至網路網站
+## <a name="enable-location-based-routing-to-network-sites"></a>啟用網站的位置基礎路由
 
-部署企業語音及設定網路網站之後，您就可以開始設定以位置為基礎的路由。 首先，您要建立語音路由策略，以將網路網站與適當的 PSTN 用途進行關聯。 將 PSTN 用途指派給語音路由策略時，請務必只使用與您在其位置使用 PSTN 閘道的語音路由所關聯的 PSTN 使用，或者是位於不需要以位置為基礎的路由限制的區域中的 PSTN 閘道。使用 Lync Server Windows PowerShell 命令、新 CsVoiceRoutingPolicy 或 Lync Server [控制台] 來建立語音路由策略。
+部署企業語音及設定網路網站之後，即可設定位置基礎路由。 首先，您會建立一個語音路由原則，以將網路網站與適當的 PSTN 使用方式產生關聯。 將 PSTN 使用方式指派至語音路由原則時，請務必只使用與使用 PSTN 閘道（在不需要以位置為基礎的路由限制所在之地區）之語音路由相關聯的 PSTN 使用方式。使用 [Lync Server Windows PowerShell] 命令、New-CsVoiceRoutingPolicy 或 Lync Server 控制台建立語音路由原則。
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-如需詳細資訊，請參閱[新 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy)。
+如需詳細資訊，請參閱[New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy)。
 
-在這個範例中，下清單格和 Windows PowerShell 命令說明在這個案例中定義的兩個語音路由策略及其關聯 PSTN 用法。 只有針對位置式路由的特定設定才會包含在表格中，以供圖例之用。
+在此範例中，下清單格和 Windows PowerShell 命令會說明兩個語音路由策略及其在此案例中定義的關聯 PSTN 使用方式。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
 
     New-CsVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Name "Delhi voice routing policy" -PstnUsages @{add="Delhi usage", "PBX Del usage", "PBX Hyd usage"}
     New-CsVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Name " Hyderabad voice routing policy" -PstnUsages @{add="Hyderabad usage", "PBX Del usage", "PBX Hyd usage"}
@@ -73,30 +73,30 @@ _**主題上次修改日期：** 2013-04-26_
 <tr class="header">
 <th></th>
 <th>語音路由原則1</th>
-<th>語音路由策略2</th>
+<th>語音路由原則2</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>語音原則識別碼</p></td>
 <td><p>新德里語音路由原則</p></td>
-<td><p>Hyderabad 語音路由策略</p></td>
+<td><p>Hyderabad 語音路由原則</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN 用法</p></td>
-<td><p>新德里使用量、PBX Del 用法、PBX Hyd 使用量</p></td>
-<td><p>Hyderabad 使用方式、PBX Hyd 使用量、PBX Del 用法</p></td>
+<td><p>PSTN 使用方式</p></td>
+<td><p>新德里使用狀況，pbx Del 用法，PBX Hyd 使用方式</p></td>
+<td><p>Hyderabad 使用狀況，PBX Hyd 使用狀況，PBX Del 使用方式</p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-接下來，針對適用的網路網站設定以位置為基礎的路由，並將您的語音路由策略與它們建立關聯。 使用 Lync Server Windows PowerShell 命令（CsNetworkSite）啟用以位置為基礎的路由，並將語音路由策略與您必須強制執行路由限制的網路網站產生關聯。
+接下來，針對適用的網站設定位置基礎路由，並將您的語音路由原則與它們關聯。 使用 [Lync Server Windows PowerShell] 命令 New-CsNetworkSite，啟用位置基礎路由，並將語音路由原則與必須強制執行路由限制的網路網站產生關聯。
 
     Set-CsNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -VoiceRoutingPolicy <voice routing policy ID>
 
-在這個範例中，下表說明在這個案例中使用 Lync Server Windows PowerShell 定義的兩個不同網路網站、新德里及 Hyderabad 的位置路由。 只有針對位置式路由的特定設定才會包含在表格中，以供圖例之用。
+在此範例中，下表說明使用 Lync Server Windows PowerShell 于此案例中定義的兩個不同網路網站（新德里和 Hyderabad）的位置基礎路由。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
 
     Set-CsNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "DelhiVoiceRoutingPolicy"
     Set-CsNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "HyderabadVoiceRoutingPolicy"
@@ -111,30 +111,30 @@ _**主題上次修改日期：** 2013-04-26_
 <thead>
 <tr class="header">
 <th></th>
-<th>Site 1 （新德里）</th>
-<th>Site 2 （Hyderabad）</th>
+<th>Site 1 (新德里) </th>
+<th>Site 2 (Hyderabad) </th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>網站名稱</p></td>
-<td><p>Site 1 （新德里）</p></td>
-<td><p>Site 2 （Hyderabad）</p></td>
+<td><p>網站名稱 </p></td>
+<td><p>Site 1 (新德里) </p></td>
+<td><p>Site 2 (Hyderabad) </p></td>
 </tr>
 <tr class="even">
 <td><p>EnableLocationBasedRouting</p></td>
-<td><p>滿足</p></td>
-<td><p>滿足</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 </tr>
 <tr class="odd">
-<td><p>語音路由策略</p></td>
+<td><p>語音路由原則</p></td>
 <td><p>新德里語音路由原則</p></td>
-<td><p>Hyderabad 語音路由策略</p></td>
+<td><p>Hyderabad 語音路由原則</p></td>
 </tr>
 <tr class="even">
-<td><p>網</p></td>
-<td><p>Subnet 1 （新德里）</p></td>
-<td><p>Subnet 2 （Hyderabad）</p></td>
+<td><p>子網路</p></td>
+<td><p>Subnet 1 (新德里) </p></td>
+<td><p>Subnet 2 (Hyderabad) </p></td>
 </tr>
 </tbody>
 </table>
@@ -149,43 +149,43 @@ _**主題上次修改日期：** 2013-04-26_
 
 <div>
 
-## <a name="enable-location-based-routing-to-trunks"></a>啟用以位置為基礎的路由至 Trunks
+## <a name="enable-location-based-routing-to-trunks"></a>啟用主幹的位置基礎路由
 
-在針對位置路由啟用中繼設定之前，您必須為每個幹線或每個網路網站建立幹線設定。 使用 Lync Server Windows PowerShell 命令（New-cstrunkconfiguration）建立幹線設定。 如果有多個 trunks 與指定的系統（亦即閘道或 PBX）相關聯，則必須修改每個中繼設定，才能啟用以位置為基礎的路由限制。
+您必須為每個主幹或每個網站建立主幹設定，才能啟用主幹設定以進行位置基礎路由。 使用 Lync Server Windows PowerShell 命令 Get-cstrunkconfiguration 來建立主幹設定。 如果有多個主幹與指定的系統相關聯 (例如閘道或 PBX) ，必須修改每一個主幹設定以啟用位置型路由限制。
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-如需詳細資訊，請參閱[新 new-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration)。
+如需詳細資訊，請參閱[get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration)。
 
-在這個範例中，下列 Windows PowerShell 命令說明如何針對此案例中定義的部署中的每個主幹建立一個幹線設定。
+在此範例中，下列 Windows PowerShell 命令會說明如何為此案例中定義的部署中的每個主幹建立一個主幹設定。
 
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 1 DEL-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 2 HYD-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-針對每個幹線設定中繼設定之後，您就可以使用 Lync Server Windows PowerShell 命令（New-cstrunkconfiguration），以啟用要強制執行路由限制的 trunks 的位置路由。 啟用以位置為基礎的路由，以便將呼叫路由到 pstn 閘道，並將呼叫路由至 PSTN，並建立閘道所在網路網站的關聯。
+在每個主幹設定主幹設定之後，您可以使用 [Lync Server Windows PowerShell] 命令 Set-CsTrunkConfiguration，以啟用必須強制執行路由限制之主幹的位置基礎路由。 啟用將來電路由傳送至 pstn 閘道的主幹，以將來電路由傳送至 pstn 閘道，並關聯閘道所在的網路網站。
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-如需詳細資訊，請參閱[新 new-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration)。
+如需詳細資訊，請參閱[get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration)。
 
-在這個範例中，對於與新德里及 Hyderabad 中 PSTN 閘道相關聯的每個幹線，都會啟用以位置為基礎的路由：
+在此範例中，會為每個與 Hyderabad 中的 PSTN 閘道相關聯的主幹啟用位置基礎路由：
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
-請勿針對不將呼叫路由至 PSTN 的 trunks 啟用位置式路由;不過，您仍然必須將主幹與系統所處的網路網站進行關聯，以以位置為基礎的路由限制需要針對透過這種幹線連接端點的 PSTN 呼叫強制執行。 在這個範例中，對於與新德里與 Hyderabad 中的 PBX 系統相關聯的每個幹線，都不會啟用位置路由：
+不啟用不將通話路由傳送至 PSTN 之主幹的位置基礎路由;不過，您仍然必須將主幹與系統所在的網路網站產生關聯，因為此網站的位置是以位置為基礎的路由限制，必須針對透過此主幹連線的端點，強制執行 PSTN 通話的強制執行。 在此範例中，不會針對每個與 Hyderabad 中 PBX 系統相關聯的主幹，啟用位置基礎路由：
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
-連接至不將呼叫路由至 PSTN （亦即 PBX）之系統的端點，將會有類似的限制，也就是啟用位置式路由的使用者 Lync 端點。 這表示無論使用者的位置為何，這些使用者都能在 Lync 使用者上撥打和接聽來電。 他們也可以在不將呼叫路由至 PSTN 網路的其他系統（亦即連接至不同 PBX 的端點）上，將接收呼叫與其他系統進行撥打，而不論與系統關聯的網路網站為何。 所有的撥入通話、撥出通話、來電轉接及涉及 PSTN 端點的來電轉接，都會受到位置式路由 enforcements。 此類通話只能使用定義為此類系統的本機的 PSTN 閘道。
+連接至不將通話路由傳送至 PSTN 的系統端點 (亦即，PBX) 會有類似的限制，例如啟用位置型路由之使用者的 Lync 端點。 這表示，不論使用者的位置為何，這些使用者都可以在 Lync 使用者上撥打和接聽電話。 他們也可以在未將通話路由傳送至 PSTN 網路的其他系統上撥打和撥出來電 (亦即，不論系統關聯的網站為何，連接至不同 PBX 的端點) 都會有所不同。 所有撥出電話、撥出電話、涉及 PSTN 端點的來電轉接及來電轉接都會受到位置基礎的路由 enforcements。 這類呼叫只能使用定義為此類系統之本機的 PSTN 閘道。
 
-下表說明兩個不同網路網站中四個 trunks 的主幹設定：兩個已連接至 PSTN 閘道，以及兩個連線至 PBX 系統的兩個。
+下表說明兩個不同網路網站中四個主幹的主幹設定：兩個連接至 PSTN 閘道的兩個，以及兩個連接至 PBX 系統的主幹設定。
 
 
 <table>
@@ -196,31 +196,31 @@ _**主題上次修改日期：** 2013-04-26_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>EnableLocationRestriction</th>
 <th>NetworkSiteID</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PstnGateway：幹線 1 DEL-GW</p></td>
-<td><p>滿足</p></td>
-<td><p>Site 1 （新德里）</p></td>
+<td><p>PstnGateway：主幹 1 DEL-GW</p></td>
+<td><p>對</p></td>
+<td><p>Site 1 (新德里) </p></td>
 </tr>
 <tr class="even">
 <td><p>PstnGateway：主幹 2 HYD-GW</p></td>
-<td><p>滿足</p></td>
-<td><p>Site 2 （Hyderabad）</p></td>
+<td><p>對</p></td>
+<td><p>Site 2 (Hyderabad) </p></td>
 </tr>
 <tr class="odd">
-<td><p>PstnGateway：幹線 3 DEL-PBX</p></td>
-<td><p>虛假</p></td>
-<td><p>Site 1 （新德里）</p></td>
+<td><p>PstnGateway：主幹 3 DEL-PBX</p></td>
+<td><p>錯</p></td>
+<td><p>Site 1 (新德里) </p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway：幹線 4 HYD-PBX</p></td>
-<td><p>虛假</p></td>
-<td><p>Site 2 （Hyderabad）</p></td>
+<td><p>PstnGateway：主幹 4 HYD-PBX</p></td>
+<td><p>錯</p></td>
+<td><p>Site 2 (Hyderabad) </p></td>
 </tr>
 </tbody>
 </table>
@@ -235,15 +235,15 @@ _**主題上次修改日期：** 2013-04-26_
 
 <div>
 
-## <a name="enable-location-based-routing-to-voice-policies"></a>啟用以位置為基礎的路由到語音原則
+## <a name="enable-location-based-routing-to-voice-policies"></a>啟用至語音原則的位置基礎路由
 
-若要強制將位置路由傳送給特定的使用者，請將這些使用者的語音原則設定為避免 PSTN 免付費旁路。 使用 Lync Server Windows PowerShell 命令（CsVoicePolicy）建立新的語音原則，或設定 CsVoicePolicy （如果使用現有的原則），以透過避免 PSTN 免付費旁路來啟用以位置為基礎的路由。
+若要對特定使用者強制進行位置基礎路由，請設定使用者的語音原則，以防止 PSTN 免付費旁路。 使用 [Lync Server Windows PowerShell] 命令 New-CsVoicePolicy，以建立新的語音原則或 Set-CsVoicePolicy （如果使用現有的原則），以透過防止 PSTN 免語音旁路來啟用位置基礎路由。
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-如需詳細資訊，請參閱[新 CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy)。
+如需詳細資訊，請參閱[New-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy)。
 
-在這個範例中，下清單格和 Windows PowerShell 命令說明如何防止在此案例中定義的 Hyderabad 語音原則中避開 PSTN 免付費旁路。 只有針對位置式路由的特定設定才會包含在表格中，以供圖例之用。
+在此範例中，下清單格和 Windows PowerShell 命令可讓您在此案例中所定義的新德里和 Hyderabad 語音原則中預防 PSTN 長途電話旁路。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
 
     Set-CsVoicePolicy -Identity "Delhi voice policy" -PreventPSTNTollBypass $true
     Set-CsVoicePolicy -Identity "Hyderabad voice policy" -PreventPSTNTollBypass $true
@@ -269,14 +269,14 @@ _**主題上次修改日期：** 2013-04-26_
 <td><p>Hyderabad 語音原則</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN 用法</p></td>
-<td><p>新德里使用量、PBX Del 用法、PBX Hyd 使用量</p></td>
-<td><p>Hyderabad 使用方式、PBX Hyd 使用量、PBX Del 用法</p></td>
+<td><p>PSTN 使用方式</p></td>
+<td><p>新德里使用狀況，pbx Del 用法，PBX Hyd 使用方式</p></td>
+<td><p>Hyderabad 使用狀況，PBX Hyd 使用狀況，PBX Del 使用方式</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>滿足</p></td>
-<td><p>滿足</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 </tr>
 </tbody>
 </table>
@@ -291,19 +291,19 @@ _**主題上次修改日期：** 2013-04-26_
 
 <div>
 
-## <a name="enable-location-based-routing-in-the-routing-configuration"></a>在路由設定中啟用以位置為基礎的路由
+## <a name="enable-location-based-routing-in-the-routing-configuration"></a>啟用路由設定中的位置基礎路由
 
-最後，全域啟用路由設定的位置路由。 使用 Lync Server Windows PowerShell 命令（CsRoutingConfiguration）來啟用以位置為基礎的路由。
+最後，全域啟用路由設定的位置基礎路由。 使用 Lync Server Windows PowerShell 命令 CsRoutingConfiguration，以啟用位置基礎路由。
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-如需詳細資訊，請參閱[設定 CsRoutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRoutingConfiguration)。
+如需詳細資訊，請參閱[CsRoutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRoutingConfiguration)。
 
 <div>
 
 
 > [!NOTE]  
-> 雖然必須透過全域設定啟用位置路由，否則將只會針對此檔中已設定其配置的網站、使用者和 trunks，強制執行要套用的一組規則。
+> 在位置基礎路由必須透過全域設定來啟用時，只會針對此檔中所指定的網站、使用者和主幹，強制執行所套用的規則集。
 
 
 
@@ -318,7 +318,7 @@ _**主題上次修改日期：** 2013-04-26_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中設定位置基礎路由](lync-server-2013-configuring-location-based-routing.md)  

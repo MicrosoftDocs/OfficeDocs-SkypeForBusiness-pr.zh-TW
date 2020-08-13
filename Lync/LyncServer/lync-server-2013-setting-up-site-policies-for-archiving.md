@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定用於存檔的網站原則
+title: Lync Server 2013：設定封存的網站原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebb1efdfff09f51b13ada9d1e2aa571ab88c888
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c3845289399c005a7d4d67e07629f71e86b6184
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732103"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中設定用於存檔的網站原則
+# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中設定封存的網站原則
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41732103"
 
 _**主題上次修改日期：** 2012-10-09_
 
-您可以建立並設定每個網站的存檔原則，以啟用或停用特定網站的封存。 網站原則會覆寫全域原則，但使用者原則會覆寫網站原則。 如果您不使用 Microsoft Exchange 整合，或如果您使用的是 Microsoft Exchange 整合，但不是駐留在 Exchange 2013 的部分使用者，且其信箱放在就地保留中，則只適用存檔原則。
+您可以為每個網站建立及設定封存原則，以啟用或停用特定網站的封存。 網站原則會覆寫全域原則，但使用者原則會覆寫網站原則。 封存原則只有在您未使用 Microsoft Exchange 整合時才會套用，否則，如果您使用 Microsoft Exchange 整合，但有部分使用者未位於 Exchange 2013，且其信箱置於 In-Place 保留狀態，則僅適用。
 
-如需有關歸檔原則運作方式的詳細資料，包括全域、網站和使用者原則的階層，請參閱 Lync Server 2013 規劃檔、部署檔或作業檔[中的存檔運作方式](lync-server-2013-how-archiving-works.md)。
+如需有關封存原則如何運作（包括全域、網站及使用者原則的階層）的詳細資訊，請參閱[Lync Server 2013](lync-server-2013-how-archiving-works.md)規劃檔、部署檔或作業檔中的封存運作方式。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您針對您的部署啟用 Microsoft Exchange 整合，Exchange 就地保留原則會控制是否針對託管于 Exchange 2013 的使用者啟用封存，並將其信箱放在就地保留中。 如需詳細資訊，請參閱在部署檔中<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 整合時，在 Lync Server 2013 中設定存檔原則</A>。<BR>您應該先在封存配置中指定所有適當的選項，才能在歸檔原則中封存內部或外部通訊。 如需詳細資訊，請參閱部署檔中的<A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013</A>中的 [設定封存選項]。
+> 如果您為部署啟用 Microsoft Exchange 整合，Exchange In-Place 保留原則會控制是否為位於 Exchange 2013 上的使用者啟用封存，並將其信箱置於 In-Place 保留狀態。 如需詳細資訊，請參閱部署檔中的<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 整合時，在 Lync Server 2013 中設定</A>封存的原則。<BR>您應該先在封存設定中指定所有適當的選項，才能在封存原則中封存內部或外部通訊。 如需詳細資訊，請參閱部署檔中的在<A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013</A>中設定封存選項。
 
 
 
@@ -53,31 +53,31 @@ _**主題上次修改日期：** 2012-10-09_
 
 <div>
 
-## <a name="to-create-an-archiving-policy-for-a-site"></a>建立網站的存檔原則
+## <a name="to-create-an-archiving-policy-for-a-site"></a>若要建立網站的封存原則
 
-1.  從指派給 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+1.  使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server 2013 [控制台]。
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 Lync Server 2013 控制台。
 
-3.  在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [封存**原則**]。
+3.  在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。
     
-    如需有關歸檔原則運作方式的詳細資料，包括全域、網站和使用者原則的階層，請參閱 Lync Server 2013 規劃檔、部署檔或作業檔[中的存檔運作方式](lync-server-2013-how-archiving-works.md)。
+    如需有關封存原則如何運作（包括全域、網站及使用者原則的階層）的詳細資訊，請參閱[Lync Server 2013](lync-server-2013-how-archiving-works.md)規劃檔、部署檔或作業檔中的封存運作方式。
 
 4.  按一下 [新增]****，然後按一下 [站台原則]****。
 
 5.  在 [**選取網站**] 中，按一下要套用原則的網站。
 
-6.  在**新**的 [封存原則] 中，執行下列動作：
+6.  在 **[新增封存原則]** 中，執行下列動作：
     
       - 在 [**名稱**] 中，指定網站原則的名稱。
     
-      - 在 [**描述**] 中，提供網站原則的相關資訊（例如，雷蒙德的網站原則）。
+      - 在 [**描述**] 中，提供網站原則 (的相關資訊（例如，Redmond) 的網站原則）。
     
-      - 若要控制指定網站內部通訊的歸檔，請選取或清除 [封存**內部通訊**] 核取方塊。
+      - 若要控制指定網站的內部通訊封存，請選取或清除 [封存**內部通訊**] 核取方塊。
     
-      - 若要控制指定網站外部通訊的存檔，請選取或清除 [封存**外部通訊**] 核取方塊。
+      - 若要控制指定網站的外部通訊封存，請選取或清除 [封存**外部通訊**] 核取方塊。
 
-7.  按一下 [認可]****。
+7.  按一下 **[認可]**。
 
 </div>
 

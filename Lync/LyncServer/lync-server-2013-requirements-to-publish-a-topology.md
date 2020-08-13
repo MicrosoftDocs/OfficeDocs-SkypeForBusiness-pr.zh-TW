@@ -12,18 +12,18 @@ ms:contentKeyID: 48184688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f1422df35ebbe9f368dc8aa3d121caf740e7033
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf8c36fee84880e5236c5048da35dca38a476eab
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723783"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>在 Lync Server 2013 中發行拓撲的需求
 
@@ -37,39 +37,39 @@ ms.locfileid: "41723783"
 
 _**主題上次修改日期：** 2013-02-21_
 
-本主題描述發佈拓撲（無論是使用拓撲建立器還是 Lync Server 2013 管理命令列介面）所專用的基礎結構和軟體需求。 這些需求除了適用于所有 Lync Server 2013 系統管理工具的一般作業系統、軟體和許可權需求之外。 在發佈拓撲前，請務必先滿足所有管理工具的需求。
+本主題說明使用拓撲產生器或 Lync Server 2013 管理命令介面命令列介面，發佈拓撲特有的基礎結構和軟體需求。 這些需求是除了適用于所有 Lync Server 2013 系統管理工具的一般作業系統、軟體和許可權要求之外。 在發行拓撲之前，請務必先滿足所有的系統管理工具需求。
 
-  - 您必須在已加入 Lync Server 2013 部署之相同網域或林中的電腦上執行拓撲建立器，讓 Active Directory 網域服務準備步驟已完成，讓您可以使用系統管理工具該電腦成功發佈您的拓撲。
+  - 您必須在已加入的電腦上，執行拓撲產生器，以加入您所建立之 Lync Server 2013 部署的相同網域或樹系，以便 Active Directory 網域服務準備步驟已經完成，讓您能夠在該電腦上使用系統管理工具，以順利發行您的拓撲。
 
-  - 在拓撲中定義的電腦，必須加入網域，但邊緣伺服器和 AD DS 中的電腦除外。 不過，當您發佈拓朴時，電腦不需要是線上的。
+  - 拓撲中定義的電腦必須加入網域，而不是 Edge Server 和 AD DS 中。 不過，當您發佈拓撲時，電腦不需要線上。
 
-  - 您必須建立該池的檔案共用，才能供遠端使用者使用。
+  - 您必須建立集區的檔案共用，並可供遠端使用者使用。
 
-  - 若要發佈企業版的 [前端] 池，必須將 SQL Server 的後端伺服器連接至您要部署伺服器的網域、線上，並以適當的防火牆規則加以設定，以便讓遠端使用者使用。 如需指定防火牆例外狀況的詳細資料，請參閱[瞭解使用 Lync Server 2013 的 SQL Server 防火牆需求](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)。 如需有關設定 SQL Server 的其他詳細資料，請參閱[設定 Lync server 2013 的 SQL Server](lync-server-2013-configure-sql-server-for-lync-server.md)。
+  - 為了發佈 Enterprise Edition 前端集區，SQL Server 型後端伺服器必須加入您要在其中部署伺服器的網域，線上，並以適當的防火牆規則加以設定，讓遠端使用者可以使用該伺服器。 如需指定防火牆例外狀況的詳細資訊，請參閱 [瞭解 SQL Server 的防火牆需求（含 Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)）。 如需有關設定 SQL Server 的其他詳細資訊，請參閱 [CONFIGURE Sql Server For Lync Server 2013](lync-server-2013-configure-sql-server-for-lync-server.md)。
     
     <div>
     
 
     > [!NOTE]  
-    > 標準版伺服器具有可接受已發佈設定的 collocated 資料庫。 您必須先在 Lync Server 部署嚮導中執行 [<STRONG>準備第一個標準版伺服器</STRONG>設定] 工作。
+    > Standard Edition server 具有可接受發佈設定的組合資料庫。 您必須先在 Lync Server 部署嚮導中執行 [ <STRONG>準備第一個 Standard Edition server</STRONG> 安裝程式] 工作。
 
     
     </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中發行拓撲](lync-server-2013-publish-the-topology.md)  
-[在 Lync Server 2013 中委派設定權限](lync-server-2013-delegate-setup-permissions.md)  
+[在 Lync Server 2013 中發佈拓撲](lync-server-2013-publish-the-topology.md)  
+[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)  
 
 
 [Lync Server 2013 中的系統管理工具軟體需求](lync-server-2013-administrative-tools-software-requirements.md)  
-[Lync Server 2013 中的伺服器及工具作業系統支援](lync-server-2013-server-and-tools-operating-system-support.md)  
+[Lync Server 2013 中的伺服器和工具作業系統支援](lync-server-2013-server-and-tools-operating-system-support.md)  
 
 
-[設定和管理 Lync Server 2013 所需的系統管理員權限](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+[安裝和管理 Lync Server 2013 時所需的系統管理員許可權](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 
 </div>

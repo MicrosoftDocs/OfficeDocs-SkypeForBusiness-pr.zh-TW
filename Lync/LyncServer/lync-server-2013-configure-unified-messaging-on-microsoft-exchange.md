@@ -12,20 +12,20 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edac9ff9b72c00e7520d80c376e49b03a9e35bab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d05939f9d15f992d350a6bb756fe3c6b9839c37b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733816"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42188586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>在 Microsoft Exchange for Lync Server 2013 中設定整合通訊
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>在 Microsoft Exchange 上設定 Lync Server 2013 的整合通訊
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41733816"
 
 _**主題上次修改日期：** 2013-02-24_
 
-本主題描述如何在 Microsoft Exchange Server 上設定 Exchange 整合通訊（UM），以搭配企業語音使用。
+本主題說明如何在 Microsoft Exchange Server 上設定 Exchange 整合通訊 (UM) ，以與 Enterprise Voice 搭配使用。
 
 <div>
 
 
 > [!NOTE]  
-> 本主題中的 Cmdlet 範例提供 Exchange 2007 版 Exchange 管理命令介面的語法。 如果您執行的是 Exchange 2010 或 Exchange 2013，請參閱參考的相關檔。
+> 本主題中的 Cmdlet 範例會提供 exchange 2007 版本的 Exchange 管理命令介面的語法。 如果您正在執行 Exchange 2010 或 Exchange 2013，請參閱參考的適當檔。
 
 
 
@@ -51,15 +51,15 @@ _**主題上次修改日期：** 2013-02-24_
 
 <div>
 
-## <a name="to-configure-a-server-running-exchange-server-um"></a>若要設定執行 Exchange Server UM 的伺服器
+## <a name="to-configure-a-server-running-exchange-server-um"></a>設定執行 Exchange Server UM 的伺服器
 
-1.  針對您的每個企業語音位置設定檔，建立 UM 會話初始通訊協定（SIP）的統一資源識別項（URI）撥號計畫。 如果您選擇使用 Exchange 管理主控台，請建立一個安全設定為安全的新撥號方案 **（喜好）**。
+1.  針對每個企業語音位置設定檔，建立 UM 會話初始通訊協定 (SIP) 統一資源識別項 (URI) 撥號對應表。 如果您選擇使用 Exchange 管理主控台，請建立新的撥號對應表，安全性設定** (偏好的) **。
     
     <div>
     
 
     > [!WARNING]  
-    > 如果將 [安全設定] 值設定為 [ <STRONG>Sip 安全</STRONG>]，且只需要 sip 流量加密（如前所述），請注意，如果將前端池設定為需要加密，則撥號方案的此安全性設定就不足，這表示該池需要對 SIP 與 RTP 流量進行加密。 當撥號方案和池安全性設定不相容時，從前端池呼叫 Exchange UM 的所有呼叫都會失敗，並產生錯誤，指出您有「不相容的安全性設定」。
+    > 如果您將安全性設定值設定為<STRONG>Sip 安全</STRONG>，只需要加密 sip 流量（先前建議使用），請注意，如果前端集區已設定為需要加密，則此撥號對應表上的此安全性設定是不夠的，這表示集區要求對 SIP 和 RTP 流量進行加密。 當撥號對應表與集區安全性設定不相容時，前端集區中的所有 Exchange UM 呼叫將會失敗，並導致錯誤，指出您具有「不相容的安全性設定」。
 
     
     </div>
@@ -70,22 +70,22 @@ _**主題上次修改日期：** 2013-02-24_
     ```
     如需詳細資訊，請參閱：
     
-      - 若為 Office 通訊伺服器2007，請參閱「如何建立整合通訊 SIP URI 撥號方案」 [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632)和「新-UMDialplan： Exchange 2007 說明」。 [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)
+      - 如需 Office 通訊伺服器2007，請參閱《如何建立整合通訊 SIP URI 撥號對應表》 [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) 和「New-UMDialplan： Exchange 2007 Help」 at [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666) 。
     
-      - 若為 Exchange 2010，請參閱「建立 UM 撥號方案」 [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674)和「新-UMDialplan： Exchange 2010 說明」 [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)。
+      - 若為 Exchange 2010，請參閱 at [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) 和「New-UMDialplan： Exchange 2010 Help "at 中的「建立 UM 撥號對應表」 [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680) 。
     
-      - 如需 Exchange 2013，請參閱的「整合[http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)通訊」。
+      - 若為 Exchange 2013，請參閱的「整合通訊」 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
     
     <div>
     
 
     > [!NOTE]  
-    > 您是否選取 [ <STRONG>SIPSecured</STRONG> ] 或 [安全層級] <STRONG>，取決於</STRONG>是否已啟動或停用安全即時傳輸通訊協定（SRTP）以供媒體加密使用。 針對與 Exchange UM 整合的 Lync Server 2010，這應該會對應到 Lync Server 媒體設定中的加密等級。 您可以透過執行<STRONG>CsMediaConfiguration</STRONG> Cmdlet 來查看 Lync Server 媒體設定。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的 CsMediaConfiguration。<BR>如需有關選取適當的 VoIP 安全性設定的詳細資訊，請參閱<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">整合內部部署整合訊息和 Lync Server 2013 的部署程式</A>。
+    > 您是否選取<STRONG>SIPSecured</STRONG>或安全的安全性層級<STRONG>，取決於</STRONG>是否要啟用或停用 (SRTP) 的安全即時傳輸通訊協定，以進行媒體加密。 對於 Lync Server 2010 與 Exchange UM 的整合，這應該對應至 Lync Server media 設定中的加密層級。 您可以執行<STRONG>Get-CsMediaConfiguration</STRONG> Cmdlet 來查看 Lync Server 媒體設定。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的 Get-CsMediaConfiguration。<BR>如需選擇適當 VoIP 安全性設定的詳細資訊，請參閱<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">整合內部部署整合通訊和 Lync Server 2013 的部署程式</A>。
 
     
     </div>
 
-2.  執行下列 Cmdlet 以取得每個 UM 撥號方案的完整功能變數名稱（FQDN）：
+2.  執行下列 Cmdlet，以取得每個 UM 撥號對應表的完整功能變數名稱 (FQDN) ：
     
     ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
@@ -93,34 +93,34 @@ _**主題上次修改日期：** 2013-02-24_
     
     如需詳細資訊，請參閱：
     
-      - 若為 Exchange 2007，請參閱 "UMDialplan： Exchange 2007 說明" [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)。
+      - 針對 Exchange 2007，請參閱《 Get-UMDialplan： Exchange 2007 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678) 。
     
-      - 若為 Exchange 2010，請參閱 "UMDialplan： Exchange 2010 說明" [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)。
+      - 針對 Exchange 2010，請參閱《 Get-UMDialplan： Exchange 2010 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679) 。
     
-      - 如需 Exchange 2013，請參閱的「整合[http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)通訊」。
+      - 若為 Exchange 2013，請參閱的「整合通訊」 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
 
-3.  錄製每個 UM 撥號方案的撥號方案名稱。 根據您的 Exchange Server 版本而定，您可能需要在每個 UM 撥號方案對應的 Lync Server 撥號方案名稱之後，再使用每個撥號方案名稱的 FQDN，使撥號計畫名稱相符。
+3.  記錄每個 UM 撥號對應表的撥號對應表名稱。 視 Exchange 伺服器的版本而定，您可能需要將每個撥號對應表名稱的 FQDN 當做每個 UM 撥號對應表對應的 Lync Server 撥號對應表的名稱，以便撥號對應表名稱相符。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果 UM 撥號方案是在 Exchange 2010 SP1<EM>之前</EM>的 Exchange 版本上執行，則 Lync Server 撥號方案名稱必須符合 um 撥號方案名稱。
+    > 只有當 UM 撥號對應表在 exchange 2010 SP1<EM>之前</EM>的 exchange 版本上執行時，Lync Server 撥號對應表名稱才必須符合 um 撥號對應表名稱。
 
     
     </div>
 
-4.  將撥號方案新增至執行 Exchange UM 的伺服器，如下所示：
+4.  將撥號對應表新增至執行 Exchange UM 的伺服器，如下所示：
     
-      - 如果您選擇使用 Exchange 管理主控台，您可以從伺服器的屬性工作表中新增撥號方案。 如需特定指示，請參閱 Exchange Server 產品檔。
+      - 如果您選擇使用 Exchange 管理主控台，您可以從伺服器的屬性工作表中新增撥號對應表。 如需詳細指示，請參閱 Exchange Server 產品檔。
         
-        針對 Exchange 2007，請參閱如何將整合通訊伺服器新增至撥號方案」 [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)。
+        如需 Exchange 2007，請參閱如何將整合通訊伺服器新增至撥號對應表 [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681) 。
         
-        若為 Exchange 2010，請參閱「查看或設定 UM 伺服器的屬性」 [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682)。
+        針對 Exchange 2010，請參閱「查看或設定 UM 伺服器的屬性」 [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682) 。
         
-        如需 Exchange 2013，請參閱的「整合[http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)通訊」。
+        若為 Exchange 2013，請參閱的「整合通訊」 [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
     
-      - 如果您使用 Exchange 管理命令介面，請針對您的每個 Exchange UM 伺服器執行下列動作：
+      - 如果您使用 Exchange 管理命令介面，請針對每個 Exchange UM 伺服器執行下列命令：
         ```powershell
         $ums=get-umserver; 
         $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
@@ -131,39 +131,39 @@ _**主題上次修改日期：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 在執行下列步驟之前，請確認所有企業語音使用者都已設定 Exchange 伺服器信箱。<BR>若為 Exchange 2007，請參閱 Exchange Server 2007 TechNet 文檔<A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>庫。<BR>若為 Exchange 2010，請參閱 Exchange Server 2010 TechNet 文檔<A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>庫。<BR>針對您在步驟1中建立的每個撥號方案指定信箱原則時，請選取您已建立的預設原則。
+    > 在執行下列步驟之前，請確定所有的 Enterprise Voice 使用者皆已設定 Exchange Server 信箱。<BR>若為 Exchange 2007，請參閱 Exchange Server 2007 TechNet 程式庫，網址為 <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A> 。<BR>若為 Exchange 2010，請參閱 Exchange Server 2010 TechNet 程式庫，網址為 <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A> 。<BR>為您在步驟1中建立的每個撥號對應表指定信箱原則時，請選取 [預設原則] 或您建立的一個。
 
     
     </div>
 
-5.  流覽至\<exchange 安裝目錄\>\\腳本，然後，如果 Exchange 是在單一目錄林中部署，請輸入：
+5.  流覽至 \< exchange 安裝目錄 \> \\ 腳本，如果 exchange 部署在單一樹系中，請輸入：
     ```console
     exchucutil.ps1
     ```
-    或者，如果 Exchange 是部署在多個目錄林中，請輸入：
+    或者，如果 Exchange 部署在多個樹系中，請輸入：
     ```console
     exchucutil.ps1 -Forest:"<forest FQDN>"
     ```
-    其中，目錄林 FQDN 會指定要在其中部署 Lync Server 的林。
+    其中，樹系 FQDN 會指定要在其中部署 Lync Server 的樹系。
     
-    如果您有一個或多個與多個 IP 閘道相關聯的 UM 撥號方案，請繼續執行步驟6。 如果您的撥號方案只與單一 IP 閘道相關聯，請跳過步驟6。
+    如果您有一個或多個與多個 IP 閘道相關聯的 UM 撥號對應表，請繼續進行步驟6。 如果您的撥號對應表彼此只與單一 IP 閘道相關聯，請跳過步驟6。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 執行 exchucutil<EM>後</EM>，請務必重新開機<STRONG>Lync Server 前端</STRONG>服務（rtcsrv）。 否則，Lync Server 將不會在拓撲中偵測到統一訊息。
+    > 請務必在執行 exchucutil.ps1 之後<EM></EM>，重新啟動 <STRONG>[Lync Server 前端]</STRONG> 服務 (rtcsrv.exe)。 否則，Lync Server 將不會在拓撲中偵測到整合通訊。
 
     
     </div>
 
-6.  使用 Exchange 管理命令介面或 Exchange 管理主控台，除了其中一個與您的撥號方案相關聯的 IP 閘道之外，停用出站通話。
+6.  使用 Exchange 管理命令介面或 Exchange 管理主控台，針對所有與您的撥號對應表相關聯的 IP 閘道，停用撥出電話。
     
     <div>
     
 
     > [!NOTE]  
-    > 您必須執行這個步驟，以確保執行 Exchange Server 的傳出通話與外部使用者（例如，與電話撥打電話案例一樣）可靠地穿越企業防火牆。
+    > 您必須執行此步驟，才能確保執行 Exchange Server 整合通訊的伺服器撥出電話給外部使用者 (例如，在電話上播放案例) 會以可靠的方式流覽公司防火牆。
 
     
     </div>
@@ -172,37 +172,37 @@ _**主題上次修改日期：** 2013-02-24_
     
 
     > [!IMPORTANT]  
-    > 選取要允許撥出電話的 UM IP 閘道時，請選擇可能會處理最大交通的通訊。 不要透過連接至 Lync Server 主管池的 IP 閘道來允許傳出流量。 此外，還要避免在另一個中央網站或分支網站中使用池。 您可以使用下列其中一種方法來封鎖撥出的呼叫，讓它透過 IP 閘道傳遞：
+    > 當您選取允許撥出電話的 UM IP 閘道時，請選擇一種可能處理最多流量的 UM IP 閘道。 不允許透過連接至 Lync Server Director 集區的 IP 閘道來進行傳出流量。 此外，請避免在另一個中央網站或分支網站上的集區。 您可以使用下列任何一種方法來封鎖撥出的來電，使其無法透過 IP 閘道傳遞：
 
     
     </div>
     
-      - 如果您使用 Exchange 管理命令介面，請執行下列命令以停用每個 IP 閘道：
+      - 如果您使用 Exchange 管理命令介面，請執行下列命令來停用每個 IP 閘道：
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        若為 Exchange 2007，請參閱 "UMIPGateway： Exchange 2007 說明" [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)。
+        針對 Exchange 2007，請參閱《 Set-UMIPGateway： Exchange 2007 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687) 。
         
-        若為 Exchange 2010，請參閱 "UMIPGateway： Exchange 2010 說明" [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)。
+        針對 Exchange 2010，請參閱《 Set-UMIPGateway： Exchange 2010 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688) 。
     
-      - 如果您使用 Exchange 管理主控台，請清除 [**允許透過此 IP 閘道撥出電話**] 核取方塊。
+      - 如果您使用 Exchange 管理主控台，請清除 [**允許透過此 IP 閘道的撥出電話**] 核取方塊。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 如果您的 UM SIP URI 撥號方案只與單一 IP 閘道相關聯，請不要透過此閘道禁止撥出通話。
+    > 如果您的 UM SIP URI 撥號對應表只與單一 IP 閘道相關聯，請勿禁止透過此閘道撥出電話。
 
     
     </div>
 
-7.  針對每個 Lync Server 撥號方案建立 UM 自動助理。
+7.  建立每個 Lync Server 撥號對應表的 UM 自動語音應答。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 不要在自動語音應答的名稱中包含任何空格。
+    > 請勿在自動語音應答名稱中包含任何空格。
 
     
     </div>
@@ -212,13 +212,13 @@ _**主題上次修改日期：** 2013-02-24_
     ```
     如需詳細資訊，請參閱：
     
-      - 若為 Exchange 2007，請參閱「新-UMAutoAttendant： Exchange 2007 說明[http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)」。
+      - 針對 Exchange 2007，請參閱《 New-UMAutoAttendant： Exchange 2007 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689) 。
     
-      - 若為 Exchange 2010，請參閱「新-UMAutoAttendant： Exchange 2010 說明[http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)」。
+      - 針對 Exchange 2010，請參閱《 New-UMAutoAttendant： Exchange 2010 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690) 。
     
-    當您已為企業語音啟用 Lync Server 使用者並知道其 SIP Uri 之後，就應該針對每位使用者執行下列步驟。
+    在您為企業語音啟用 Lync Server 使用者並知道其 SIP URIs 後，每個使用者都應該執行下列步驟。
 
-8.  將 Exchange UM 使用者（每位使用者都應該使用 Exchange 信箱設定）與 UM 撥號方案建立關聯，並為每位使用者建立 SIP URI。
+8.  建立 Exchange UM 使用者 (每個使用者都應該設定 Exchange 信箱) 與 UM 撥號對應表，並為每位使用者建立 SIP URI。
     
     <div>
     
@@ -234,9 +234,9 @@ _**主題上次修改日期：** 2013-02-24_
     ```
     如需詳細資訊，請參閱：
     
-      - 若為 Exchange 2007，請參閱 "Enable-UMMailbox： Exchange 2007 說明[http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)"。
+      - 針對 Exchange 2007，請參閱《 Enable-UMMailbox： Exchange 2007 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691) 。
     
-      - 若為 Exchange 2010，請參閱 "Enable-UMMailbox： Exchange 2010 說明[http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)"。
+      - 針對 Exchange 2010，請參閱《 Enable-UMMailbox： Exchange 2010 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692) 。
 
 </div>
 

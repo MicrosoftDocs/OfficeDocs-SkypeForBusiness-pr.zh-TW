@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： SIP 中繼
+title: Lync Server 2013： SIP trunk
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d76907c1868e9fccb1a31e705c73807a8cbe501b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3ee2efb7f1c392b20bdc6b16ff3c7063ebe4759
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764479"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 中繼
+# <a name="sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 主幹
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41764479"
 
 _**主題上次修改日期：** 2012-08-13_
 
-會話初始通訊協定（SIP）是用來啟動及管理基本電話語音的語音 IP （VoIP）通訊會話，以及其他即時通訊服務，例如立即訊息、會議、目前狀態偵測及彩信. 本節提供有關實現*sip trunks*的規劃資訊，這種類型的 sip 連線延伸到您的本機網路邊界以外。
+工作階段初始通訊協定 (SIP) 可用來為基本電話服務與其他即時通訊服務 (如立即訊息、會議、顯示狀態偵測和多媒體等) 啟動及管理 VoIP 通訊工作階段。本節將提供實作「SIP 主幹」** 的規劃資訊，這是一種可延伸到您區域網路邊界以外的 SIP 連線。
 
 <div>
 
-## <a name="what-is-sip-trunking"></a>什麼是 SIP 中繼？
+## <a name="what-is-sip-trunking"></a>何謂 SIP 主幹？
 
-SIP 幹線是一種 IP 連線，可在您的組織與防火牆以外的網際網路電話服務提供者（ITSP）之間建立 SIP 通訊連結。 通常，SIP 幹線是用來將貴組織的中心網站連線至 ITSP。 在某些情況下，您也可以選擇使用 SIP 中繼將分支網站連線至 ITSP。
+SIP 主幹是一種 IP 連線，可在您的組織與網際網路電話語音服務提供者 (ITSP) 之間建立延伸到防火牆以外的 SIP 通訊連結。一般而言，SIP 主幹會用來將組織的中央網站連線至 ITSP。有時候，您也可能會選擇使用 SIP 主幹將分支網站連線至 ITSP。
 
 <div>
 
-## <a name="sip-trunks-vs-direct-sip-connections"></a>SIP Trunks 與直接 SIP 連線
+## <a name="sip-trunks-vs-direct-sip-connections"></a>SIP 主幹與直接 SIP 連線的比較
 
-[*幹線*] 一詞是從電路交換技術衍生而來。 它是指連接電話交換裝置的專用物理線路。 就像其前置任務一樣，時間分割複用（TDM） trunks，SIP trunks 是兩個獨立 SIP 網路之間的連線，即 Lync Server 2013 企業版和 ITSP。 與電路交換 trunks 不同，SIP trunks 是可在任何支援的 SIP 中繼連線類型上建立的虛擬連線。 如需支援的連線類型的詳細資料，請參閱[如何在 Lync Server 2013 中實現 SIP 中繼？](lync-server-2013-how-do-i-implement-sip-trunking.md)。
+「主幹」** 一詞衍生自電路交換技術。 它是指將電話交換設備相連的專門實體線路。 如同前置任務、時間分割多工 (TDM) 主幹、SIP 主幹是兩個獨立 SIP 網路（即 Lync Server 2013 enterprise 和 ITSP）之間的連線。 與電路交換主幹不同之處在於，SIP 主幹是可以透過任何支援的 SIP 主幹連線類型建立的虛擬連線。 如需支援之連線類型的詳細資訊，請參閱 [如何在 Lync Server 2013？中執行 SIP](lync-server-2013-how-do-i-implement-sip-trunking.md)主幹。
 
-另一方面，直接 SIP 連線就是不跨越本機網路邊界的 SIP 連線（也就是，它們會連線到內部網路內的公用交換電話網絡（PSTN）閘道或私人分支 exchange （PBX）。 如需有關如何將直接 SIP 連線搭配 Lync Server 2013 使用的詳細資訊，請參閱[Lync server 2013 中的直接 sip](lync-server-2013-direct-sip-connections.md)連線。
+另一方面，直接 SIP 連線是未穿越區域網路邊界的 SIP 連線 (亦即，它們是連線至位於您內部網路中的公用交換電話網路 (PSTN) 閘道或專用交換機 (PBX))。 如需如何使用與 Lync Server 2013 的直接 SIP 連線的詳細資訊，請參閱 [Lync server 2013 中的直接 sip](lync-server-2013-direct-sip-connections.md)連線。
 
 </div>
 
@@ -59,15 +59,15 @@ SIP 幹線是一種 IP 連線，可在您的組織與防火牆以外的網際網
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的 SIP 主幹連線概觀](lync-server-2013-overview-of-sip-trunking.md)
+  - [Lync Server 2013 中的 SIP 主幹概述](lync-server-2013-overview-of-sip-trunking.md)
 
-  - [如何在 Lync Server 2013 中實作 SIP 主幹？](lync-server-2013-how-do-i-implement-sip-trunking.md)
+  - [如何在 Lync Server 2013 中實施 SIP 主幹？](lync-server-2013-how-do-i-implement-sip-trunking.md)
 
-  - [Lync Server 2013 中的 SIP 主幹連線的元件與拓撲](lync-server-2013-components-and-topologies-for-sip-trunking.md)
+  - [Lync Server 2013 中 SIP 主幹的元件和拓撲](lync-server-2013-components-and-topologies-for-sip-trunking.md)
 
-  - [Lync Server 2013 中的分支網站 SIP 中繼](lync-server-2013-branch-site-sip-trunking.md)
+  - [Lync Server 2013 中的分支網站 SIP 主幹](lync-server-2013-branch-site-sip-trunking.md)
 
   - [Lync Server 2013 的 SIP 主幹部署檢查表](lync-server-2013-sip-trunk-deployment-checklist.md)
 

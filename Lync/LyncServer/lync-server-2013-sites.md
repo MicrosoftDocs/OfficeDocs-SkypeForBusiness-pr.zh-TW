@@ -12,20 +12,20 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37843e85f5da250b3cb3d8e0fa4cdccdf506176d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764469"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server 2013 的 Lync Server 網站
+# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server 2013 的 lync Server 網站
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41764469"
 
 _**主題上次修改日期：** 2012-10-16_
 
-在 Lync Server 中，您會在網路上定義包含 Lync Server 元件的*網站*。 網站是一組由高速、低延遲網路連接的電腦，例如單一局域網（LAN），或由高速光纖光纖網路連接的兩個網路。 請注意，Lync Server 網站是來自 Active Directory 網域服務網站和 Microsoft Exchange Server 網站的個別概念。 您的 Lync Server 網站不需要與 Active Directory 網站相對應。
+在 Lync Server 中，您可以在網路上定義包含 Lync Server 元件的*網站*。 網站是以高速、低延遲網路來妥善連線的一組電腦，例如單一區域網路 (LAN) 或以高速光纖網路連接的兩個網路。 請注意，Lync Server 網站是來自 Active Directory 網域服務網站和 Microsoft Exchange Server 網站的不同概念。 您的 Lync 伺服器網站不需要對應至您的 Active Directory 網站。
 
 <div>
 
 ## <a name="site-types"></a>網站類型
 
-每個網站都是*中央網站*，其中包含至少一個前端池或標準版伺服器，或*分支網站*。 每個分支網站都只會與一個中心網站建立關聯，而分支網站上的使用者就能從關聯的中央網站從伺服器取得大多數的 Lync Server 功能。
+每個網站都是*中央網站*（包含至少一個前端集區或 Standard Edition server），或是一個*分支網站*。 每個分支網站都會與剛好一個中央網站產生關聯，而且分支網站的使用者可以從關聯的中央網站的伺服器取得大多數的 Lync Server 功能。
 
-每個分支網站都包含下列其中一項：
+每一個分支網站都包含下列其中一項：
 
-  - *Survivable 分支裝置（SBA）* 是一種工業標準刀片伺服器，其中包含 Lync Server 註冊機構，以及在 Windows server 上執行的中繼伺服器。 Survivable 分支裝置也包含公用的交換電話網絡（PSTN）閘道。 Survivable 分支裝置專為25與1000使用者之間的分支網站而設計。
+  - *Survivable Branch 裝置 (SBA) *，也就是具有 Lync Server 註冊機構的工業標準刀片式伺服器，以及在 Windows server 上執行的轉送伺服器。 Survivable Branch 裝置也包含公用交換電話網路 (PSTN) 閘道。 Survivable 分支裝置專為25到1000使用者之間的分支網站而設計。
 
-  - *Survivable 分支伺服器（SBS）* 是一種執行 Windows Server 且符合指定硬體需求的伺服器，且已在其中安裝 Lync Server 註冊機構和轉送伺服器軟體。 它必須連線至 PSTN 閘道或 SIP 幹線給電話服務提供者。 Survivable 分支伺服器是針對1000與5000使用者之間的分支網站而設計。
+  - *Survivable Branch Server (SBS) *，也就是執行 Windows Server 符合指定硬體需求，且已安裝 Lync Server 註冊機構和轉送伺服器軟體的伺服器。 該伺服器必須將 PSTN 閘道或 SIP 主幹連線至電話服務提供者。 Survivable Branch 伺服器特別針對具有 1000 至 5000 位用者的分支網站所設計。
 
-  - PSTN 閘道，也可以選擇使用*中繼伺服器*。 如需此與其他伺服器角色的詳細資料，請參閱[Lync server 2013 中的伺服器角色](lync-server-2013-server-roles.md)。
+  - PSTN 閘道和「中繼伺服器」**(選用)。 如需此伺服器及其他伺服器角色的詳細資訊，請參閱[Lync server 2013 中的伺服器角色](lync-server-2013-server-roles.md)。
 
-有彈性廣域網路（WAN）連結至中心網站的分支機搆可以使用第三個選項： PSTN 閘道，以及其他中繼伺服器。 具有較低彈性連結的分支機搆網站應該使用 Survivable 分支裝置或 Survivable 分支伺服器，這會提供廣域網路絡故障的復原時間。 例如，在已部署 Survivable 分支裝置或 Survivable 分支伺服器的網站中，如果將分支網站連接至中心網站的 WAN，使用者仍然可以撥打及接聽企業語音通話。 如需 Survivable 分支裝置的詳細資料，請 Survivable [分支伺服器] 和 [復原]，請參閱規劃檔中的[Lync server 2013 規劃企業語音復原](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
+具有中央網站的可恢復廣域網路 (WAN) 連結的分公司可以使用第三個選項，也就是 PSTN 閘道和中繼伺服器 (選用)。 具有較低彈性連結的分支 office 網站應該使用 Survivable 分支裝置或 Survivable 分支伺服器，這會在廣域網路絡失敗時提供恢復功能。 例如，在已部署 Survivable Branch 裝置或 Survivable Branch 伺服器的網站中，如果將分支網站連接至中央網站的 WAN，使用者仍可撥打及接收企業語音通話。 如需 Survivable 分支裝置、Survivable 分支伺服器及恢復功能的詳細資訊，請參閱規劃檔中的[規劃 Lync server 2013 中的 Enterprise Voice 韌性](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
 
 </div>
 
@@ -61,22 +61,22 @@ _**主題上次修改日期：** 2012-10-16_
 
 ## <a name="site-topologies"></a>網站拓撲
 
-您的部署必須包含至少一個中央網站，而且可以包含零到多個分支網站。 每個分支網站都隸屬于一個中心網站。 中央網站將 Lync Server services 提供給分支網站，而該網站不是在本機主機（例如目前狀態與會議）中託管。
+您的部署必須包含至少一個中央網站，並可以包含零到多個分支網站。 每一個分支網站均隸屬於一個中央網站。 中央網站向分支網站提供 Lync Server 服務，該網站不會在分支網站上的本機主控，例如目前狀態和會議。
 
-如果您有多個網站，您可以將前端池放在不同的網站，以啟用災害復原能力。 如需詳細資訊，請參閱[Lync Server 2013 中的高可用性與災害復原支援](lync-server-2013-high-availability-and-disaster-recovery-support.md)。
+如果您有多個網站，您可以將不同網站的前端集區配對在一起，以啟用嚴重損壞修復功能。 如需詳細資訊，請參閱[Lync Server 2013 中的高可用性和嚴重損壞修復支援](lync-server-2013-high-availability-and-disaster-recovery-support.md)。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的伺服器角色](lync-server-2013-server-roles.md)  
-[Lync Server 2013 中的高可用性和災害復原支援](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
+[Lync Server 2013 的高可用性和嚴重損壞修復支援](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
 
 
-[在 Lync Server 2013 中規劃企業語音復原](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
+[在 Lync Server 2013 中規劃 Enterprise Voice 韌性](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
   
 
 </div>

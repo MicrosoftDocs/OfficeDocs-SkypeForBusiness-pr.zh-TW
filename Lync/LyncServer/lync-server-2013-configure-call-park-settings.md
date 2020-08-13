@@ -12,18 +12,18 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee4f12ccf614816e27262f8b393cdc1dac4a7a5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0b99bc06f22490013dd14dc8527bd3eb88938380
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757777"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205139"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-call-park-settings-in-lync-server-2013"></a>在 Lync Server 2013 中設定通話駐留設定
 
@@ -37,19 +37,19 @@ ms.locfileid: "41757777"
 
 _**主題上次修改日期：** 2012-11-01_
 
-如果您不想使用預設的通話駐留設定，您可以進行自訂。 當您安裝 [通話駐留] 應用程式時，系統會根據預設設定全域設定。 您可以修改全域設定，也可以指定網站專用的設定。 使用**新的 CsCpsConfiguration** Cmdlet 來建立新的網站特定設定。 使用**CsCpsConfiguration** Cmdlet 來修改現有的設定。
+如果您不想要使用預設的通話駐留設定，可以進行自訂。 當您安裝通話駐留應用程式時，系統會預設設定全域設定。 您可以修改全域設定，也可以指定網站特定設定。 使用 **New-CsCpsConfiguration** Cmdlet 可建立新的網站特定設定。 使用 **Set-CsCpsConfiguration** Cmdlet 可修改現有設定。
 
 <div>
 
 
 > [!NOTE]  
-> 我們建議您針對備用目的地設定<STRONG>OnTimeoutURI</STRONG>選項，以便在停用通話超時和 ringback 失敗時使用。
+> 建議您至少設定 <STRONG>OnTimeoutURI</STRONG> 選項，作為當駐留通話逾時且回撥失敗時的後援目的地。
 
 
 
 </div>
 
-使用**新的 CsCpsConfiguration** Cmdlet 或**CsCpsConfiguration** Cmdlet 來設定下列任何設定：
+使用 **New-CsCpsConfiguration** Cmdlet 或 **Set-CsCpsConfiguration** Cmdlet 進行下列任何一項設定：
 
 
 <table>
@@ -66,22 +66,22 @@ _**主題上次修改日期：** 2012-11-01_
 <tbody>
 <tr class="odd">
 <td><p><strong>CallPickupTimeoutThreshold</strong></p></td>
-<td><p>通話結束之後，在撥打電話給接聽電話的電話之前所經過的時間長度。</p>
-<p>此值必須以 hh： mm： ss 格式輸入，以指定小時、分鐘和秒。 最小值為10秒，最大值為10分鐘。 預設值為00:01:30。</p></td>
+<td><p>從駐留通話之後到回撥原先接聽該通話的電話之前，需經過的時間長度。</p>
+<p>此值必須以 hh:mm:ss 格式輸入，以指定小時、分鐘和秒數。最小值為 10 秒，最大值為 10 分鐘。預設值為 00:01:30。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EnableMusicOnHold</strong></p></td>
-<td><p>通話停用時，是否會在來電者中播放音樂。</p>
-<p>值為 True 或 False。 預設值為 True。</p></td>
+<td><p>駐留通話時是否對來電者播放音樂。</p>
+<p>值為 True 或 False。預設為 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MaxCallPickupAttempts</strong></p></td>
-<td><p>寄存來電在轉寄到指定給<strong>OnTimeoutURI</strong>的回退統一資源識別項（URI）之前，響鈴給應答電話的次數。 預設值為1。</p></td>
+<td><p>在將駐留通話轉接至 <strong>OnTimeoutURI</strong> 指定的後援統一資源識別元 (URI) 之前，需將駐留通話回撥至當初接聽該通話的次數。預設值為 1。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OnTimeoutURI</strong></p></td>
-<td><p>在超過<strong>MaxCallPickupAttempts</strong>時傳送未應答之暫停呼叫的使用者或回應群組的 SIP 位址。</p>
-<p>Value 必須是以 [字串 SIP：] 開頭的 SIP URI。 例如，sip:bob@contoso.com。 預設值為 [沒有轉寄位址]。</p></td>
+<td><p>在超過 <strong>MaxCallPickupAttempts</strong> 時，將未接聽的駐留通話路由至的使用者或回應群組的 SIP 位址。</p>
+<p>值必須是以字串 sip: 開頭的 SIP URI。例如，sip:bob@contoso.com。預設沒有轉接位址。</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,13 +89,13 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="to-configure-call-park-settings"></a>若要設定通話寄存設定
+## <a name="to-configure-call-park-settings"></a>設定通話駐留設定
 
-1.  登入 Lync Server 管理命令介面安裝為 RTCUniversalServerAdmins 群組的成員的電腦，或使用[Lync server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)中所述的必要使用者許可權。
+1.  以[Lync server 2013 的委派設定許可權](lync-server-2013-delegate-setup-permissions.md)中所述，登入安裝了 Lync Server 管理命令介面的電腦，以作為 RTCUniversalServerAdmins 群組的成員或必要的使用者權限。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-3.  用盡
+3.  執行：
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
@@ -103,7 +103,7 @@ _**主題上次修改日期：** 2012-11-01_
     
 
     > [!TIP]  
-    > 使用<STRONG>CsSite</STRONG> Cmdlet 來識別網站。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔。
+    > 使用 <STRONG>Get-CsSite</STRONG> Cmdlet 來識別網站。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔。
 
     
     </div>
@@ -119,12 +119,12 @@ _**主題上次修改日期：** 2012-11-01_
 ## <a name="see-also"></a>請參閱
 
 
-[在 Lync Server 2013 中自訂通話寄存音樂暫停](lync-server-2013-customize-call-park-music-on-hold.md)  
+[在 Lync Server 2013 中自訂通話駐留的等候音樂](lync-server-2013-customize-call-park-music-on-hold.md)  
 
 
-[新-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
-[CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
+[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
   
 
 </div>

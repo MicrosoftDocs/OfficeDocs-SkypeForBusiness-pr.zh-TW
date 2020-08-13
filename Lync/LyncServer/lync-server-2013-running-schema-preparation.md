@@ -12,18 +12,18 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06b02981e9baa589801839c8fd8c871ae35b0dde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12dda05b36406e620c08abac494dceecc7d314d0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765041"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42201129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>在 Lync Server 2013 中執行 Active Directory 架構準備
 
@@ -37,101 +37,101 @@ ms.locfileid: "41765041"
 
 _**主題上次修改日期：** 2012-10-29_
 
-您可以使用安裝程式或 Lync Server 管理命令介面 Cmdlet 來準備 Active Directory 架構。 擴展 Active Directory 架構的 Cmdlet 是**安裝-CsAdServerSchema**。
+您可以使用安裝程式或 Lync Server 管理命令介面 Cmdlet 來準備 Active Directory 架構。 擴充 Active Directory 架構的指令程式已**Install-CsAdServerSchema**。
 
 <div>
 
 
 > [!NOTE]  
-> 架構準備 Cmdlet （<STRONG>安裝 CsAdServerSchema</STRONG>）必須存取架構主機，這需要遠端登入服務正在執行，且已啟用遠端登入機碼。 如果無法在架構主機上啟用遠端登入服務，您可以在架構主機上本機執行 Cmdlet。 如需有關登錄遠端存取的詳細資料，請參閱 Microsoft 知識庫文章314837：「如何管理對註冊表的遠端存取」 <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>。
+> 架構準備指令程式 (<STRONG>Install-CsAdServerSchema</STRONG>) 必須存取架構主機，這需要遠端登入服務執行，且已啟用遠端登入機碼。 如果無法在架構主機上啟用遠端登入服務，您可以在架構主機上以本機方式執行 Cmdlet。 如需有關登錄遠端存取的詳細資訊，請參閱 Microsoft 知識庫文章314837：如何管理登錄的遠端存取，位置是 <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A> 。
 
 
 
 </div>
 
-完成架構準備之後，請在繼續進行林準備前，手動確認架構分區已複製。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證 Active Directory 架構複製](lync-server-2013-verifying-schema-replication.md)。
+完成架構準備工作之後，請在繼續進行樹系準備之前，手動驗證架構磁碟分割是否已複製。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證 Active Directory 架構](lync-server-2013-verifying-schema-replication.md)複寫。
 
 <div>
 
-## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a>使用安裝程式準備目前林中的架構
+## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a>若要使用安裝程式來準備目前樹系的架構
 
-1.  以架構管理員群組的成員或架構主機上的系統管理員許可權登入林中的伺服器。
+1.  以架構管理員群組成員的身分，以架構主機上的系統管理員許可權，登入樹系中的伺服器。
 
-2.  從 Lync Server 2013 安裝資料夾或媒體，執行 setup.exe 以啟動部署嚮導。
+2.  從 Lync Server 2013 安裝資料夾或媒體，執行 Setup.exe 以啟動部署嚮導。
 
-3.  如果系統提示您安裝 Microsoft Visual c + + 可轉散發元件，請按一下 **[是]**。
+3.  如果系統提示您安裝 Microsoft Visual C++ 可轉散發套件，請按一下 **[是]**。
 
-4.  [Lync Server 2013 設定] 對話方塊會提示您輸入安裝 Lync Server 檔案的位置。 選擇預設位置，或**流覽**至您選擇的位置，然後按一下 [**安裝**]。
+4.  [Lync Server 2013 設定] 對話方塊會提示您輸入安裝 Lync Server 檔案的位置。 請選擇預設位置或 **[瀏覽]** 至您想要的位置，然後按一下 **[安裝]**。
 
-5.  在 [授權協定] 頁面上，核取 [**我接受授權合約中的條款**]，然後按一下 **[確定]**。
+5.  在 [授權合約] 頁面上，勾選 **[我接受授權合約中的條款]**，然後按 **[確定]**。
 
-6.  安裝程式會安裝 Lync Server Core 元件。
+6.  安裝程式會安裝 Lync Server 核心元件。
 
-7.  當 [部署嚮導] 準備好時，請按一下 [**準備 Active Directory**]，然後等待確定部署狀態。
+7.  當部署嚮導準備好時，請按一下 [**準備 Active Directory**]，然後等候決定部署狀態。
 
-8.  在**步驟1：準備架構**，按一下 [**執行**]。
+8.  在 [**步驟1：準備架構**] 中，按一下 [**執行**]。
 
-9.  在 [**準備架構**] 頁面上，按一下 **[下一步]**。
+9.  在 [**準備架構**] 頁面上，按 **[下一步]**。
 
-10. 在 [執行命令]**** 頁面上，尋找 [工作狀態：完成]****，然後按一下 [檢視記錄檔]****。
+10. 在「執行命令」**** 頁面上，尋找 [工作狀態: 已完成]****，然後按一下 [檢視記錄檔]****。
 
-11. 在 [**動作**] 欄底下，展開 [**架構準備**]，尋找每個工作結尾的** \<成功\> **執行結果，以確認架構準備已順利完成，請關閉記錄，然後按一下 **[完成]**。
+11. 在 [**動作**] 欄下，展開 [**架構準備**]，並在每個工作結束時尋找** \< 成功 \> **執行結果，以確認架構準備順利完成，關閉記錄檔，然後按一下 **[完成]**。
 
-12. 等待 Active Directory 複製完成，或強制進行複製。
+12. 等候 Active Directory 複寫完成或強制複寫。
 
-13. 手動確認架構變更已複製到所有其他網網域控制站。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證 Active Directory 架構複製](lync-server-2013-verifying-schema-replication.md)。
+13. 手動驗證架構變更是否已複寫至其他所有的網域控制站。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證 Active Directory 架構](lync-server-2013-verifying-schema-replication.md)複寫。
 
 </div>
 
 <div>
 
-## <a name="to-use-cmdlets-to-prepare-the-schema-of-the-current-forest"></a>使用 Cmdlet 準備目前林中的架構
+## <a name="to-use-cmdlets-to-prepare-the-schema-of-the-current-forest"></a>若要使用 Cmdlet 準備目前樹系的架構
 
-1.  以架構管理員群組的成員的身分登入林中的電腦，以及在架構主機上擁有系統管理員許可權。
+1.  以架構管理員群組成員的身分，以架構主機上的系統管理員許可權，登入樹系中的電腦。
 
-2.  安裝 Lync Server Core 元件，如下所示：
+2.  安裝 Lync Server 核心元件，如下所示：
     
-    1.  從 Lync Server 2013 安裝資料夾或媒體，執行 setup.exe 以啟動 Lync Server 部署嚮導。
+    1.  從 Lync Server 2013 安裝資料夾或媒體，執行 Setup.exe 以啟動 Lync Server 部署嚮導。
     
-    2.  如果系統提示您安裝 Microsoft Visual c + + 可轉散發元件，請按一下 **[是]**。
+    2.  如果系統提示您安裝 Microsoft Visual C++ 可轉散發套件，請按一下 **[是]**。
     
-    3.  [Lync Server 2013 設定] 對話方塊會提示您輸入安裝 Lync Server 檔案的位置。 選擇預設位置，或**流覽**至您選擇的位置，然後按一下 [**安裝**]。
+    3.  [Lync Server 2013 設定] 對話方塊會提示您輸入安裝 Lync Server 檔案的位置。 請選擇預設位置或 **[瀏覽]** 至您想要的位置，然後按一下 **[安裝]**。
     
-    4.  在 [授權協定] 頁面上，核取 [**我接受授權合約中的條款**]，然後按一下 **[確定]**。 安裝程式會安裝 Lync Server 2013 核心元件。
+    4.  在 [授權合約] 頁面上，勾選 **[我接受授權合約中的條款]**，然後按 **[確定]**。 安裝程式會安裝 Lync Server 2013 核心元件。
 
-3.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+3.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-4.  用盡
+4.  執行：
     
         Install-CsAdServerSchema [-Ldf <directory where the .ldf file is located>] 
     
-    如果您沒有指定 Ldf 參數，預設值是從註冊表讀取的 Lync Server 2013 安裝路徑。
+    如果您未指定 Ldf 參數，則預設值為從登錄讀取的 Lync Server 2013 安裝路徑。
     
     例如：
     
         Install-CsAdServerSchema -Ldf "C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup"
 
-5.  使用下列 Cmdlet 來驗證架構準備已完成。
+5.  使用下列 Cmdlet 來驗證架構準備是否已完成。
     
         Get-CsAdServerSchema 
     
-    如果架構準備成功，此 Cmdlet 會傳回**\_架構版本\_狀態\_** 的值。
+    如果架構準備成功，則此 Cmdlet 會傳回**架構 \_ 版本 \_ 狀態 \_ **的值。
 
-6.  等待 Active Directory 複製完成，或強制進行複製。
+6.  等候 Active Directory 複寫完成或強制複寫。
 
-7.  手動確認架構變更已複製到所有其他網網域控制站。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證 Active Directory 架構複製](lync-server-2013-verifying-schema-replication.md)。
+7.  手動驗證架構變更是否已複寫至其他所有的網域控制站。 如需詳細資訊，請參閱[在 Lync Server 2013 中驗證 Active Directory 架構](lync-server-2013-verifying-schema-replication.md)複寫。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中驗證 Active Directory 結構描述複寫](lync-server-2013-verifying-schema-replication.md)  
+[在 Lync Server 2013 中驗證 Active Directory 架構複寫](lync-server-2013-verifying-schema-replication.md)  
 
 
-[在 Lync Server 2013 中準備 Active Directory 結構描述](lync-server-2013-preparing-the-active-directory-schema.md)  
+[在 Lync Server 2013 中準備 Active Directory 架構](lync-server-2013-preparing-the-active-directory-schema.md)  
   
 
 </div>

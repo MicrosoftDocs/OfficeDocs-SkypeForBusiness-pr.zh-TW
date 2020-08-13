@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：含硬體負載平衡器的調整式合併 Edge
+title: Lync Server 2013：調整式合併 edge （使用硬體負載平衡器）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fe027019953175c0ac6ede51a86ad3a300c2681
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a961b6eabb85e135b1cfb36cf5738cbf757b547
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732663"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200999"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中含硬體負載平衡器的調整式合併 Edge
+# <a name="scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的調整式合併 edge （搭配硬體負載平衡器）
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41732663"
 
 _**主題上次修改日期：** 2012-10-21_
 
-在邊緣池拓撲中，兩個或多個邊緣伺服器會在資料中心的周邊網路中部署為負載平衡的池。 硬體負載平衡用於外部與內部邊緣伺服器介面的流量。
+在 Edge 集區拓撲中，會在資料中心的周邊網路中，將兩個或多個 Edge Server 部署為負載平衡集區。 硬體負載平衡用於外部和內部 Edge Server 介面的流量。
 
-如果您的組織需要支援超過15000的 Access Edge 服務用戶端連線、1000使用中的網路會議 Edge 服務用戶端連線，或500併發的 A/V 邊緣服務會話，而且邊緣伺服器的高可用性很重要，此拓撲提供可伸縮性與容錯移轉支援的優點。
+如果您的組織需要支援15000以上的 Access Edge service 用戶端連線、1000作用中 Web 會議 Edge service 用戶端連線，或500並行 A/V Edge service 會話，而且 Edge Server 的高可用性非常重要，此拓撲提供擴充性和容錯移轉支援的優點。
 
-此圖不會顯示控制器，也就是在邊緣伺服器與您的前端池或伺服器之間部署于內部網路中的選用伺服器角色。 . 如需控制器拓撲結構的詳細資料，請參閱[Lync Server 2013 中主管所需的元件](lync-server-2013-components-required-for-the-director.md)。
+此圖不會顯示 Director，也就是在 Edge server 與前端集區或伺服器之間的內部網路中部署的選用伺服器角色。 . 如需 Director 拓撲的詳細資訊，請參閱[Lync Server 2013 中 Director 所需的元件](lync-server-2013-components-required-for-the-director.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 所示的圖形是針對方向和範例 IP 定址，但不想要以正確的內送和外送流量來代表實際通訊流程。 此圖代表可能流量的高層視圖。 在每個案例的埠摘要圖表中，會顯示通信量與傳入（到偵聽埠）及傳出（目的地伺服器或用戶端）相關的詳細資料。 例如，TCP 443 實際上是入站（到 Edge 伺服器或反向 proxy），而且只是來自通訊協定（TCP）的雙向流程。 此外，此圖顯示的是在發生 NAT （網路位址轉譯）時，通信量變更的性質（在輸入的目的地位址變更時，來源位址會在輸出中變更）。 範例外部與內部防火牆，且伺服器介面僅供參考之用。 最後，會顯示預設閘道與路由關聯的範例（如果適用的話）。 另請注意，圖表會使用<EM>.Com</EM> DNS 區域來代表反向 Proxy 與 Edge 伺服器的外部 DNS 區域，而<EM>.net</EM> DNS 區域則是指內部 dns 區域。
+> 此圖說明 IP 位址定址的方向和範例，但並未嘗試使用正確的傳出和傳入流量來表示實際的通訊流量。 此圖表示的是可能流量的高階檢視。 有關傳入 (至聆聽連接埠) 和傳出 (至目的地伺服器或用戶端) 流量的詳細資訊，會在每個案例中表示於連接埠摘要圖中。 例如，TCP 443 實際上只會輸入 (至 Edge Server 或反向 proxy) ，而且只是從通訊協定 (TCP) 觀點的雙向流程。 另外，此圖也顯示在 NAT (網路位址轉譯) 發生之時 (目的地位址在傳入時變更，來源位址在傳出時變更) 流量在變化時的特性。 外部及內部防火牆和伺服器介面範例僅顯示作為參考之用。 最後，預設閘道和路由關係會視需要顯示。 另請注意，圖表會使用<EM>.Com</EM> dns 區域來代表反向 Proxy 和 Edge server 的外部 DNS 區域，而<EM>.net</EM> DNS 區域則是指內部 DNS 區域。
 
 
 
 </div>
 
-Microsoft Lync Server 2013 的新功能支援 IPv6 位址。 就像 IPv4 定址一樣，IPv6 位址必須以這種方式指派，就是位址是您指派的 IPv6 位址空間的一部分。 本主題中的位址只適用于範例。 您必須取得 IPv6 位址，才能在您的部署中運作，提供正確的範圍，並將與內部和外部定址進行互動。 Windows Server 提供將 IPv6 作業和 IPv4 轉換為稱為*雙重堆疊*之 ipv6 通訊的重要功能。 雙堆疊是 IPv4 與 IPv6 的個別且不同的網路堆疊。 雙重堆疊可讓您同時指派 IPv4 與 IPv6 的定址，並允許伺服器根據其需求與其他主機與用戶端進行通訊。
+Microsoft Lync Server 2013 的新功能支援 IPv6 定址。 和 IPv4 位址指定相近的是，必須以屬於指派之 IPv6 位址空間的位址來指派 IPv6 位址。 本主題中的位址僅為範例。 您必須取得可在您部署中運作的 IPv6 位址，以提供正確的範圍，並和內部及外部位址指定相互溝通。 Windows Server 提供一項功能，對過渡 IPv6 作業和 IPv4 IPv6 稱為*雙重堆疊*的通訊很重要。 雙重堆疊是針對 IPv4 及 IPv6 獨立且獨特的網路堆疊。 雙重堆疊可允許您同時指派 IPv4 及 IPv6 的位址指定，也允許伺服器與其他主機和用戶端，根據其需求為何來進行通訊。
 
-Ipv6 定址所用的一般網址類別型將是 IPv6 全域位址（類似公用 IPv4 位址）、IPv6 唯一本機位址（類似于專用 IPv4 位址範圍）以及 IPv6 連結本機位址（類似自動私人 IP）Windows Server for IPv4 中的位址
+用於 IPv6 定址的一般網址類別型將會是 IPv6 的全域位址 (類似于公用 IPv4 位址) 、IPv6 唯一本機位址 (類似于私人 IPv4 位址範圍) 和 IPv6 連結本機位址 (類似于 Windows Server 中 IPv4 的自動私人 IP 位址) 
 
-IPv6 的網路位址轉譯技術（NAT），可讓 NAT IPv6 至 IPv4 （通常稱為 NAT64），以及 NAT IPv6 至 IPv6 （通常稱為 NAT66）。 NAT 技術的存在表示，提供給 Lync Server Edge 伺服器的五種案例仍然有效。
+IPv6 適用的網路位址轉譯技術 (NAT) 可用於 IPv6 對 IPv4 的 NAT (一般稱為 NAT64) 和 IPv6 對 IPv6 的 NAT (通常稱為 NAT66)。 NAT 技術的存在，表示 Lync Server Edge server 所呈現的五種案例仍有效。
 
 <div>
 
 
 > [!WARNING]  
-> IPv6 是一個複雜的主題，需要謹慎規劃您的網路小組和 Internet 提供者，以確保您在 Windows server 層級和 Lync Server 2013 層級指派的位址會如預期的那樣運作。 如需有關 IPv6 定址與規劃的其他資源，請參閱本主題結尾的連結。
+> IPv6 是一個複雜的主題，需要仔細規劃網路小組和 Internet 供應商，以確保您在 Windows server 層級和 Lync Server 2013 層級所指派的位址如預期般運作。 請參閱此主題末端的連結，以取得 IPv6 位址指定和規劃的其他資源。
 
 
 
@@ -71,9 +71,9 @@ IPv6 的網路位址轉譯技術（NAT），可讓 NAT IPv6 至 IPv4 （通常�
 
 **硬體負載平衡器設定**
 
-如需詳細資訊，請參閱[Lync Server 2013 中外部使用者存取所需的元件](lync-server-2013-components-required-for-external-user-access.md)中的「A/V Edge 的硬體負載平衡器需求」區段。
+如需詳細資訊，請參閱[Lync Server 2013 中的外部使用者存取所需的元件](lync-server-2013-components-required-for-external-user-access.md)中的「A/V Edge 的硬體負載平衡器需求」一節。
 
-**經過調整的合併邊緣拓朴（硬體負載平衡）**
+**調整式合併 Edge 拓撲 (硬體負載平衡)**
 
 ![3a57cd0d-8de4-4ecc-a783-4dff5b3456a2](images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-a783-4dff5b3456a2")
 
@@ -81,7 +81,7 @@ IPv6 的網路位址轉譯技術（NAT），可讓 NAT IPv6 至 IPv4 （通常�
 
 
 > [!IMPORTANT]  
-> 如果您使用的是 [通話許可控制] （CAC），您仍然必須將 IPv4 位址指派給 Edge 伺服器內部介面。 CAC 使用 IPv4 位址，而且必須有它們可供操作。
+> 如果您使用「通話許可控制」 (CAC) ，您仍然必須將 IPv4 位址指派給 Edge Server 內部介面。 CAC 會使用 IPv4 位址，且須讓其得以運作。
 
 
 
@@ -89,24 +89,24 @@ IPv6 的網路位址轉譯技術（NAT），可讓 NAT IPv6 至 IPv4 （通常�
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的憑證摘要 - 調整式合併 Edge (利用硬體負載平衡器)](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 的憑證摘要-調整式合併 edge （含硬體負載平衡器）](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [Lync Server 2013 中的連接埠摘要 - 調整式合併 Edge (利用硬體負載平衡器)](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 中的埠摘要-調整式合併 edge （使用硬體負載平衡器）](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [Lync Server 2013 中的 DNS 摘要 - 調整式合併 Edge (利用硬體負載平衡器)](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 中的 DNS 摘要-調整式合併 edge （使用硬體負載平衡器）](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[IP 版本6定址架構](http://tools.ietf.org/html/rfc4291)  
-[IPv6 全域單播位址格式](http://tools.ietf.org/html/rfc3587)  
-[唯一的局部 IPv6 單播位址](http://tools.ietf.org/html/rfc4193)  
+[IP 版本6定址架構](https://tools.ietf.org/html/rfc4291)  
+[IPv6 全域單路廣播位址格式](https://tools.ietf.org/html/rfc3587)  
+[唯一的本地 IPv6 單播位址](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

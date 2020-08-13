@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃緊急服務 (E9-1-1)
+title: 'Lync Server 2013：規劃緊急服務 (E9-1-1) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183363
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11c6116cc3ad63674acd65e7d2de863e7911bcf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c642fefb7fcaf17422bc292f3ed56516ede206bc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755203"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-emergency-services-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中規劃緊急服務 (E9-1-1)
+# <a name="planning-for-emergency-services-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中規劃緊急服務 (E9-1-1) 
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41755203"
 
 _**主題上次修改日期：** 2012-10-17_
 
-Lync Server 2013 支援在美國內增強9-1-1 （E9-1）服務，成為企業語音部署的一部分。 E9-1-1 是一個緊急派單功能，它會將9-1-1 通話與由市政（也就是街道）位址及其他更多特定位置資訊（例如底價編號）組成的緊急回應位置（例如，來自 office 建築物的通話）進行關聯以及其他多租戶功能。 透過使用隨附的 ERL，公用安全應答點（PSAP）可立即在 distress 中將第一次回應程式傳送給來電者，但不小心會將回應方定向到不正確或不明確的位置。
+Lync Server 2013 支援 E9-1-1) 服務中的增強型 (9-1-1，成為企業語音部署的一部分。 E9-1-1 是一種緊急分派功能，它會針對來自辦公大樓或其他多組織用戶共享設備的電話，將 9-1-1 通話與緊急回應位置 (ERL) (包括市鎮 (街道) 地址和其他更明確的位置資訊，例如樓層) 建立關聯。 利用所提供的 ERL，公共安全勤務中心 (PSAP) 可以立即將首先回應者分派給遇難的來電者，以降低誤將回應者導向錯誤或不明位置的風險。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 有三個高級企業語音功能： [通話許可控制]、[緊急服務] （E9-1-1），以及 [媒體旁路]。 如需所有這三項功能共有的規劃資訊的概覽，請參閱<A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 中的 [高級企業語音功能] 的網路設定</A>。
+> Lync Server 具有三個高級 Enterprise Voice 功能：通話許可控制、緊急服務 (E9-1-1) 和媒體旁路。 如需所有三種功能共同使用的規劃資訊，請參閱<A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 中的「高級 Enterprise Voice 功能」網路設定</A>。
 
 
 
@@ -51,13 +51,13 @@ Lync Server 2013 支援在美國內增強9-1-1 （E9-1）服務，成為企業�
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的 E9-1-1 概觀](lync-server-2013-overview-of-e9-1-1.md)
+  - [Lync Server 2013 中的 E9-1-1 簡介](lync-server-2013-overview-of-e9-1-1.md)
 
-  - [在 Lync Server 2013 中定義緊急通話需求](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
+  - [在 Lync Server 2013 中定義緊急通話的需求](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
 
-  - [Lync Server 2013 的 E9 部署檢查清單-1-1](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+  - [Lync Server 2013 中的 E9-1-1 的部署檢查清單](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
 </div>
 

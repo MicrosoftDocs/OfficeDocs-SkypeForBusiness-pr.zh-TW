@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Public Instant Messaging 支援
+title: Lync Server 2013：公用立即訊息支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3e3207d1a7a12f4db379e4d58615cffdfb45036
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f996e8f15707a0c676ea77a6ffaeb5e6943ac48c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724633"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183496"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Lync Server 2013 中的 Public Instant Messaging 支援
+# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Lync Server 2013 中的公用立即訊息支援
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41724633"
 
 _**主題上次修改日期：** 2013-10-07_
 
-Lync Server 2013 支援使用授權公用立即訊息（IM）連線提供者，以及使用可擴展訊息和目前狀態通訊協定（XMPP）來實現一種特殊類型的同盟，讓 Lync Server 存取已設定的 XMPP使用 Lync 2013 用戶端的網域合作夥伴。
+Lync Server 2013 支援使用已授權的公用立即訊息 (IM) 連線提供者，以及使用可擴展郵件和顯示狀態通訊協定 (XMPP) ，以執行一種特殊類型的同盟，讓 Lync Server 能夠使用 Lync 2013 用戶端來存取已設定的 XMPP 網域協力廠商。
 
 <div>
 
-## <a name="public-im-connectivity-provider-support"></a>公用 IM 連線提供者支援
+## <a name="public-im-connectivity-provider-support"></a>公用 IM 連線供應商支援
 
-目前支援的公用立即訊息連線性合作夥伴包括：
+目前支援的公用立即訊息連線協力廠商包括：
 
-  - 美洲線上
+  - America Online
 
   - Windows Live
 
-  - Yahoo\!
+  - 雅虎\!
 
-若要與 Windows Live 使用者進行通訊，Lync Server 2013 支援對等 IM 和音訊與視頻通話。 若要與 AOL 和 Yahoo\!通訊，Lync Server 2013 支援對等 IM。 可能需要個別的授權。
+若要與 Windows Live 使用者進行通訊，Lync Server 2013 支援對等 IM 和音訊和視頻通話。 若要使用 AOL 和 Yahoo 進行通訊 \! ，Lync Server 2013 支援對等 IM。 通訊方面，nm-server-w15-long 可支援對等 IM，但可能需要個別的授權。
 
 <div>
 
@@ -59,11 +59,11 @@ Lync Server 2013 支援使用授權公用立即訊息（IM）連線提供者，�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>從2012年9月1日起，Microsoft Lync 公用 IM 連線使用者訂閱授權（「PIC USL」）已不再提供購買新或續約協定的功能。 擁有作用中授權的客戶將能夠繼續與 Yahoo！進行聯盟 信使，直到服務關閉日期為止。 AOL 和 Yahoo！的存留期結束日期為2014年6月 已公佈。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公用立即信使連線支援</A>。</P>
+> <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
 > <LI>
-> <P>PIC USL 是 Lync Server 或 Office 通訊伺服器要與 Yahoo！聯盟時所需的每個使用者每月訂閱授權 名單. Microsoft 提供此服務的能力已因 Yahoo！的支援而定，並向下纏繞的基礎協定。</P>
+> <P>PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的個別使用者每個月訂閱授權 信使。 Microsoft 提供此服務的能力已因 Yahoo！中的支援而產生，其所向下纏繞的底層合約。</P>
 > <LI>
-> <P>Lync 是一種功能強大的工具，可跨組織與世界各地的人員連線。 與 Windows Live Messenger 的同盟不需要在 Lync 標準 CAL 以外的其他使用者/裝置授權。 您可以在這個清單中新增 Skype 同盟，讓 Lync 使用者能夠使用 IM 和語音來與成百上千的人取得聯繫。</P></LI></UL>
+> <P>Lync 是一種強大的工具，可跨組織和世界各地的個人進行連線。 與 Windows Live Messenger 的同盟需要 Lync Standard CAL 以外的其他使用者/裝置授權。 隨即會將 Skype 同盟新增至此清單，讓 Lync 使用者可以使用 IM 和語音來傳送成百上千的人員。</P></LI></UL>
 
 
 
@@ -75,7 +75,7 @@ Lync Server 2013 支援使用授權公用立即訊息（IM）連線提供者，�
 
 ## <a name="xmpp-federation-support"></a>XMPP 同盟支援
 
-XMPP 同盟支援使用公用提供者的已設定 XMPP 網域使用者進行 Lync 使用者通訊（例如 GTalk）。 與這些使用者的通訊可能包含下列各項：
+XMPP 同盟可支援 Lync 使用者和設定好的 XMPP 網域使用者 (其使用 GTalk 之類的公用供應商) 進行通訊。這些使用者可進行的通訊包括以下：
 
   - 對等 IM 和目前狀態
 

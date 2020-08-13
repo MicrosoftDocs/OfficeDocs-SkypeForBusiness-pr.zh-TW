@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：高可用性和災害復原支援
+title: Lync Server 2013：高可用性和嚴重損壞修復支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184053
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73f6605f2fff063858a0180d61a306f7dd2d746
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8c526f83929fafe9e61078b3ddb55fa9cc9d5f6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729983"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="high-availability-and-disaster-recovery-support-in-lync-server-2013"></a>Lync Server 2013 中的高可用性和災害復原支援
+# <a name="high-availability-and-disaster-recovery-support-in-lync-server-2013"></a>Lync Server 2013 的高可用性和嚴重損壞修復支援
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41729983"
 
 _**主題上次修改日期：** 2012-09-25_
 
-Lync Server 2013 透過 [彙集]，透過伺服器冗余提供高可用性。 如果執行特定伺服器角色的伺服器失敗，則池中執行相同角色的其他伺服器會載入該伺服器。 這適用于前端伺服器、邊緣伺服器、轉送伺服器和控制器。 如需伺服器角色的詳細資料，請參閱[Lync server 2013 中的伺服器角色](lync-server-2013-server-roles.md)。
+Lync Server 2013 透過 pooling 透過伺服器的冗余度，提供高可用性。 如果執行特定伺服器角色的伺服器失敗，集區中執行相同角色的其他伺服器就會接手該伺服器的負載。 這適用於前端伺服器、Edge Server、中繼伺服器和 Director。 如需伺服器角色的詳細資訊，請參閱[Lync server 2013 中的伺服器角色](lync-server-2013-server-roles.md)。
 
-Lync Server 2013 也會透過啟用池配對來提供災害復原措施。 如果您部署這個拓朴，您將會指定一組前端池，其中每個池都位於另一個資料中心，且位於不同的地理區域中。 如果有一個池或網站停機，您可以重新導向該池的使用者，以使用該集中的其他池，並最少中斷服務。
+Lync Server 2013 也會啟用集區配對，以提供嚴重損壞修復措施。 如果您部署這個拓樸，將會指定前端集區配對，每一對中各個集區都位在不同的資料中心，並且在不同的地理區。 如果一個集區或網站故障，您可以重新導向該集區的使用者，以使用該配對中另一個集區，讓服務中斷時間降至最低。
 
-Lync Server 2013 也支援後端伺服器高可用性。 這是一種選用拓朴，您可以在其中部署前端池的兩個後端伺服器，並針對在後端伺服器上執行的所有 Lync 資料庫，設定同步處理的 SQL Server 鏡像。
+Lync Server 2013 也支援後端伺服器高可用性。 這是選用的拓撲，您可以在其中部署前端集區的兩部後端伺服器，並為在後端伺服器上執行的所有 Lync 資料庫設定同步 SQL Server 鏡像。
 
-如需有關池配對與後端伺服器鏡像的詳細資料，請參閱[在 Lync Server 2013 中規劃高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+如需有關集區配對及後端伺服器鏡像的詳細資訊，請參閱[在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的伺服器角色](lync-server-2013-server-roles.md)  
-[在 Lync Server 2013 中規劃高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
   
 
 </div>

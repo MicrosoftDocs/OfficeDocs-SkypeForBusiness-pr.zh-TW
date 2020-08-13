@@ -12,18 +12,18 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bab5751fc0291047f3795731f379d1e14f5f12b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 762b7a43343e10fe4d6bec601954474ba3a44b90
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739733"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="front-end-server-voip-components-for-lync-server-2013"></a>Lync Server 2013 的前端伺服器 VoIP 元件
 
@@ -37,11 +37,11 @@ ms.locfileid: "41739733"
 
 _**主題上次修改日期：** 2012-10-01_
 
-位於前端伺服器的 VoIP 元件如下所示：
+前端伺服器上的 VoIP 元件如下：
 
-  - 翻譯服務
+  - 轉譯服務
 
-  - 入站路由元件
+  - 輸入路由元件
 
   - 輸出路由元件
 
@@ -49,21 +49,21 @@ _**主題上次修改日期：** 2012-10-01_
 
   - Intercluster 路由元件
 
-  - [Lync Server 2013 中的中繼伺服器元件](lync-server-2013-mediation-server-component.md)
+  - [Lync Server 2013 中的轉送伺服器元件](lync-server-2013-mediation-server-component.md)
 
 <div>
 
-## <a name="translation-service"></a>翻譯服務
+## <a name="translation-service"></a>轉譯服務
 
-翻譯服務是一個伺服器元件，負責根據管理員所定義的正常化規則，將撥入的號碼翻譯成 E. 164 格式或其他格式。 如果您的組織使用的是私人編號系統，或使用不支援 E. 164 的閘道或 PBX，翻譯服務可以翻譯為 E.i 以外的格式。
+「轉譯服務」是負責根據系統管理員定義的正規化規則，將撥打的號碼轉譯成 E.164 格式或其他格式的伺服器元件。如果您的組織使用私人編號系統或使用不支援 E.164 的閘道或 PBX，則「轉譯服務」可以轉譯為 E.164 以外的其他格式。
 
 </div>
 
 <div>
 
-## <a name="inbound-routing-component"></a>入站路由元件
+## <a name="inbound-routing-component"></a>輸入路由元件
 
-入站路由元件會根據使用者在企業語音用戶端所指定的喜好設定，來處理來電的方式。 如果使用者已設定，它也可協助代理人撥打及同時撥打。 例如，使用者指定是否已轉寄未接聽的通話，或只是登入通知。 如果已啟用 [來電轉接]，使用者可以指定是否應將無應答通話轉寄至另一個號碼，或轉接到已設定為提供呼叫應答的 Exchange UM 伺服器。 入站路由元件預設會安裝在所有標準版伺服器和前端伺服器上。
+輸入路由元件主要會根據使用者在其 Enterprise Voice 用戶端所指定的喜好設定來處理來電。 它也有助於代理人響鈴與同時響鈴 (若使用者已設定) 的使用。 例如，使用者可指定未應答的電話是否要轉接，還是只記錄下來進行通知。 如果已啟用來電轉接，使用者可以指定是否要將未應答的呼叫轉寄到另一個號碼，或是已設定為提供呼叫應答的 Exchange UM 伺服器。 預設會在所有 Standard Edition server 和前端伺服器上安裝傳入路由元件。
 
 </div>
 
@@ -71,9 +71,9 @@ _**主題上次修改日期：** 2012-10-01_
 
 ## <a name="outbound-routing-component"></a>輸出路由元件
 
-輸出路由元件會將呼叫傳送到 PBX 或 PSTN 目的地。 它會將呼叫授權規則（由使用者的語音原則所定義）套用至呼叫者，並決定路由每個通話的最佳 PSTN 閘道。 在所有標準版伺服器和前端伺服器上，預設會安裝輸出路由元件。
+輸出路由元件會將電話路由傳送到 PBX 或 PSTN 目的地。 它會對來電者套用使用者的語音原則所定義的電話授權規則，然後決定最適合用來路由每通電話的 PSTN 閘道。 預設會在所有 Standard Edition server 和前端伺服器上安裝輸出路由元件。
 
-輸出路由元件所使用的路由邏輯，是根據組織的需求，由網路或電話系統管理員設定的大型測量。
+輸出路由元件所使用的路由邏輯會使用大的度量 (由網路或電話語音管理員根據其組織的需求而設定)。
 
 </div>
 
@@ -81,19 +81,19 @@ _**主題上次修改日期：** 2012-10-01_
 
 ## <a name="exchange-um-routing-component"></a>Exchange UM 路由元件
 
-Exchange UM 路由元件會處理 Lync Server 與執行 Exchange 整合通訊（UM）的伺服器之間的路由，以整合 Lync Server 與整合的郵件功能。
+Exchange UM 路由元件會處理 Lync Server 與執行 Exchange 整合通訊 (UM) 之間的路由，以整合 Lync Server 與整合通訊功能。
 
-如果 Exchange UM 伺服器無法使用，Exchange UM 路由元件也會處理經由 PSTN 的語音信箱重新路由。 如果您在分支網站上有企業語音使用者，而該使用者沒有指向中央網站的彈性 WAN 連結，您在分支網站部署的 Survivable 分支裝置會在 WAN 停機期間為分支使用者提供語音信箱留存能力。 WAN 連結無法使用時，Survivable 分支裝置會執行下列動作：
+Exchange UM 路由元件也會在 Exchange UM 伺服器無法使用時，處理透過 PSTN 的語音信箱重新路由。 如果您有在分支網站上的 Enterprise Voice 使用者，而該分支網站沒有指向中央網站的彈性 WAN 連結，您在分支網站上部署的 Survivable 分支裝置會在 WAN 中斷期間為分支使用者提供語音信箱留存能力。 當 WAN 連結無法使用時，Survivable 分支裝置會執行下列作業：
 
-  - 將未接聽的電話重新傳送到中央網站的 Exchange 整合訊息伺服器
+  - 透過 PSTN，將未接聽的電話重新路由至中央網站的 Exchange Unified Messaging 伺服器
 
-  - 提供使用者在 PSTN 上檢索語音信箱訊息的能力
+  - 提供使用者透過 PSTN 擷取語音信箱訊息的能力
 
-  - 將未接來電通知列隊，然後在還原 WAN 連結時，將其上傳到 Exchange UM 伺服器。
+  - 將未接來電通知排入佇列，然後在 WAN 連結恢復時將通知上傳至 Exchange UM 伺服器。
 
-若要啟用語音信箱重新路由，建議您的 Exchange 管理員將 Exchange UM 自動語音應答（AA）設定為僅接受郵件。
+為了啟用語音信箱重新路由，我們建議您的 Exchange 管理員設定 Exchange UM 自動語音應答 (AA) 僅接受郵件。
 
-如需這些功能的詳細資訊，請參閱[在 Lync server 2013 規劃 Exchange 整合訊息整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)，以及分別[規劃 lync server 2013 中的企業語音復原](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
+如需這些功能的詳細資訊，請參閱在 lync server [2013 中規劃 Exchange 整合通訊整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)，以及[在 lync Server 2013 中規劃 Enterprise Voice 韌性](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
 
 </div>
 
@@ -101,7 +101,7 @@ Exchange UM 路由元件會處理 Lync Server 與執行 Exchange 整合通訊（
 
 ## <a name="intercluster-routing-component"></a>Intercluster 路由元件
 
-Intercluster 路由元件負責將呼叫路由到被叫方的主要註冊機構池。 如果無法使用，元件會將呼叫路由到被叫方的備份註冊機構池。 如果被呼叫者的主要和備份註冊器池無法在 IP 網路上使用，則 Intercluster 路由元件會將呼叫從 PSTN 重新路由到使用者的電話號碼。
+Intercluster 路由元件負責將電話路由至受話者的主要登錄器集區。如果該集區無法使用，此元件會轉而將電話路由至受話者的備份登錄器集區。如果無法透過 IP 網路聯繫到受話者的主要與備份登錄器集區，Intercluster 路由元件會透過 PSTN 將電話重新路由至使用者的電話號碼。
 
 </div>
 
@@ -109,13 +109,13 @@ Intercluster 路由元件負責將呼叫路由到被叫方的主要註冊機構�
 
 ## <a name="other-front-end-server-components-required-for-voip"></a>VoIP 所需的其他前端伺服器元件
 
-常駐在前端伺服器或控制器上的其他元件，可提供 VoIP 的必要支援，但不是本身的 VoIP 元件，包括下列各項：
+位於前端伺服器或 Director 上的其他元件，可為 VoIP 提供必要的支援，但不是本身 VoIP 元件，包括下列各項：
 
-  - **使用者服務。** 在每個撥入通話的目的地電話號碼上執行 [反向號碼查閱]，並將該號碼與目的地使用者的 SIP URI 相符。 使用此資訊，入站路由元件會將呼叫分發給該使用者的已註冊 SIP 端點。 [使用者服務] 是所有前端伺服器和控制器上的核心元件。
+  - **使用者服務。** 針對每一來電的目的地電話號碼執行反向號碼查閱，並將該號碼與目的地使用者的 SIP URI 相比對。 使用這項資訊，「輸入路由元件」就可將電話分支到該使用者的註冊 SIP 端點。 使用者服務是所有前端伺服器及 Director 上的核心元件。
 
-  - **使用者複製程式。** 從 Active Directory 網域服務提取使用者電話號碼，並將它們寫入 RTC 資料庫中的資料表，這些資料可供使用者服務和通訊錄服務器使用。 使用者複製程式是所有前端伺服器上的核心元件。
+  - **使用者複寫器。** 從 Active Directory 網域服務析取使用者電話號碼，並將它們寫入 RTC 資料庫中的表格，以供使用者服務和通訊錄服務器使用。 使用者複製器是所有前端伺服器上的核心元件。
 
-  - **通訊錄服務器。** 提供從 Active Directory 網域服務到 Lync Server 用戶端的全域通訊清單資訊。 它也會從 RTC 資料庫中檢索使用者與連絡人資訊，並將資訊寫入通訊錄檔案，然後將檔案儲存在由 Lync 用戶端下載的共用資料夾中。 通訊錄服務器會將資訊寫入 RTCAb 資料庫，由通訊錄網頁查詢服務用來回應來自 Microsoft Lync 2010 Mobile 的使用者搜尋查詢。 您也可以選擇將寫入 RTC 資料庫的企業使用者電話號碼標準化，以便在 Lync 中提供使用者連絡人。 通訊錄服務預設會安裝在所有前端伺服器上。 預設會安裝通訊錄 Web 查詢服務與每個前端伺服器上的 Web 服務。
+  - **Address Book Server。** 將 Active Directory 網域服務的全域通訊清單資訊提供給 Lync Server 用戶端。 它也會從 RTC 資料庫中取得使用者和連絡人資訊，並將資訊寫入通訊錄檔案，然後將檔案儲存在 Lync 用戶端下載之共用資料夾上。 Address Book Server 會將資訊寫入 RTCAb 資料庫，而通訊錄 Web 查詢服務會使用該資訊，回應 Microsoft Lync 2010 Mobile 的使用者搜尋查詢。 它會選擇性地正常化要寫入 RTC 資料庫的企業使用者電話號碼，以在 Lync 中布建使用者連絡人的目的。 預設會在所有前端伺服器上安裝通訊錄服務。 預設會隨每一部前端伺服器上的 Web 服務安裝通訊錄 Web 查詢服務。
 
 </div>
 

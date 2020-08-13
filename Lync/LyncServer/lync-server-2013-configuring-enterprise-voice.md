@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置企業語音
+title: Lync Server 2013：設定企業語音
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,18 +12,18 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728933"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中設定企業語音
 
@@ -37,23 +37,23 @@ ms.locfileid: "41728933"
 
 _**主題上次修改日期：** 2013-03-12_
 
-若要部署企業語音，您需要設定下列專案：
+若要部署 Enterprise Voice，您必須設定下列專案：
 
   - 建立主幹
 
   - 定義語音原則
 
-  - 定義語音路線
+  - 定義語音路由
 
-  - 允許使用者使用企業語音
+  - 為使用者啟用企業語音
 
 <div>
 
 ## <a name="create-a-trunk"></a>建立主幹
 
-您必須在企業語音部署中定義 trunks。 對於以位置為基礎的路由，您必須針對每個幹線建立幹線設定。 使用 Lync Server 拓撲建立器來定義您的 trunks，並使用 Lync Server Windows PowerShell 命令、新的 New-cstrunkconfiguration，或 Lync Server 控制台來定義相對應的幹線設定。 在[Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)中啟用位置路由的詳細資訊，請參閱在 Lync 設定上啟用位置路由的方式（在 Trunks 中啟用位置路由）一節。 在這個範例中，下表說明這個案例中使用的 trunks。
+您必須在您的企業語音部署中定義主幹。 針對位置基礎路由，您必須為每個主幹建立主幹設定。 使用 Lync Server 拓撲產生器來定義主幹，並使用 Lync Server Windows PowerShell 命令、Get-cstrunkconfiguration 或 Lync Server 控制台定義對應的主幹設定。 有關如何啟用主幹設定上的位置基礎路由的詳細資訊，請參閱本節中的啟用位置基礎路由至主幹，在 [Lync Server 2013 中啟用位置基礎路由](lync-server-2013-enabling-location-based-routing.md)的主題。 在此範例中，下表說明此案例中使用的主幹。
 
-如需詳細資訊，請參閱[在 Lync Server 2013 的拓撲建立器中定義其他 trunks](lync-server-2013-define-additional-trunks-in-topology-builder.md)。
+如需詳細資訊，請參閱 [在 Lync Server 2013 中的拓撲產生器中定義其他主幹](lync-server-2013-define-additional-trunks-in-topology-builder.md)。
 
 
 <table>
@@ -68,38 +68,38 @@ _**主題上次修改日期：** 2013-03-12_
 <tr class="header">
 <th>主幹名稱</th>
 <th>系統類型</th>
-<th>名稱</th>
+<th>姓名</th>
 <th>位置</th>
 <th>中繼伺服器</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>幹線 1 DEL-GW</p></td>
+<td><p>主幹 1 DEL-GW</p></td>
 <td><p>PSTN 閘道</p></td>
 <td><p>DEL-GW</p></td>
-<td><p>新德里</p></td>
+<td><p>德里</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
 <td><p>主幹 2 HYD-GW</p></td>
 <td><p>PSTN 閘道</p></td>
 <td><p>HYD-GW</p></td>
-<td><p>Hyderabad</p></td>
+<td><p>海德拉巴</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="odd">
-<td><p>幹線 3 DEL-PBX</p></td>
-<td><p>PBX</p></td>
+<td><p>主幹 3 DEL-PBX</p></td>
+<td><p>Pbx</p></td>
 <td><p>DEL-PBX</p></td>
-<td><p>新德里</p></td>
+<td><p>德里</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
 <td><p>主幹 4 HYD-PBX</p></td>
-<td><p>PBX</p></td>
+<td><p>Pbx</p></td>
 <td><p>HYD-PBX</p></td>
-<td><p>Hyderabad</p></td>
+<td><p>海德拉巴</p></td>
 <td><p>MS1</p></td>
 </tr>
 </tbody>
@@ -117,9 +117,9 @@ _**主題上次修改日期：** 2013-03-12_
 
 ## <a name="defines-voice-policies"></a>定義語音原則
 
-您必須為企業語音部署定義語音原則。 如果您只需要使用位置的路由，請定義語音原則，以將位置基礎路由限制強制到使用者的子集。 在這個範例中，下表說明此案例中使用的語音原則。 只有針對位置式路由的特定設定才會包含在表格中，以供圖例之用。
+您必須定義 Enterprise Voice 部署的語音原則。 定義語音原則，以對使用者的子集強制實施位置基礎路由限制（如果只需要使用位置基礎路由的一部分）。 在此範例中，下表說明此案例中使用的語音原則。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
 
-如需詳細資訊，請參閱設定[語音原則和 PSTN 使用記錄，以在 Lync Server 2013 中授權呼叫功能與許可權](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
+如需詳細資訊，請參閱設定 [語音原則和 PSTN 使用方式記錄，以在 Lync Server 2013 中授權呼叫功能和許可權](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
 
 
 <table>
@@ -142,14 +142,14 @@ _**主題上次修改日期：** 2013-03-12_
 <td><p>Hyderabad 語音原則</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN 用法</p></td>
-<td><p>新德里使用量、PBX Del 用法、PBX Hyd 使用量</p></td>
-<td><p>Hyderabad 使用方式、PBX Hyd 使用量、PBX Del 用法</p></td>
+<td><p>PSTN 使用方式</p></td>
+<td><p>新德里使用狀況，pbx Del 用法，PBX Hyd 使用方式</p></td>
+<td><p>Hyderabad 使用狀況，PBX Hyd 使用狀況，PBX Del 使用方式</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>虛假</p></td>
-<td><p>虛假</p></td>
+<td><p>錯</p></td>
+<td><p>錯</p></td>
 </tr>
 </tbody>
 </table>
@@ -166,9 +166,9 @@ _**主題上次修改日期：** 2013-03-12_
 
 ## <a name="define-voice-routes"></a>定義語音路由
 
-您必須為企業語音部署定義語音路由。 在這個範例中，下表說明此案例中使用的語音路線。 只有針對位置式路由的特定設定才會包含在表格中，以供圖例之用。
+您必須定義 Enterprise Voice 部署的語音路由。 在此範例中，下表說明此案例中使用的語音路由。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
 
-如需詳細資訊，請參閱[在 Lync Server 2013 中設定出站通話的語音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
+如需詳細資訊，請參閱 [在 Lync Server 2013 中設定撥出電話的語音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
 
 
 <table>
@@ -190,24 +190,24 @@ _**主題上次修改日期：** 2013-03-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名稱</p></td>
-<td><p>新德里路線</p></td>
-<td><p>Hyderabad 路線</p></td>
+<td><p>姓名</p></td>
+<td><p>新德里路由</p></td>
+<td><p>Hyderabad 路由</p></td>
 <td><p>PBX Del 路由</p></td>
-<td><p>PBX Hyd 路由</p></td>
+<td><p>PBX Hyd route</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN 用法</p></td>
-<td><p>新德里使用量</p></td>
-<td><p>Hyderabad 使用量</p></td>
-<td><p>PBX Del 用法</p></td>
-<td><p>PBX Hyd 使用量</p></td>
+<td><p>PSTN 使用方式</p></td>
+<td><p>新德里使用</p></td>
+<td><p>Hyderabad 使用方式</p></td>
+<td><p>PBX Del 使用方式</p></td>
+<td><p>PBX Hyd 使用方式</p></td>
 </tr>
 <tr class="odd">
-<td><p>去</p></td>
-<td><p>幹線 1 DEL-GW</p></td>
+<td><p>樹幹</p></td>
+<td><p>主幹 1 DEL-GW</p></td>
 <td><p>主幹 2 HYD-GW</p></td>
-<td><p>幹線 3 DEL-PBX</p></td>
+<td><p>主幹 3 DEL-PBX</p></td>
 <td><p>主幹 4 HYD-PBX</p></td>
 </tr>
 </tbody>
@@ -223,11 +223,11 @@ _**主題上次修改日期：** 2013-03-12_
 
 <div>
 
-## <a name="enable-users-for-enterprise-voice"></a>允許使用者使用企業語音
+## <a name="enable-users-for-enterprise-voice"></a>為使用者啟用企業語音
 
-允許使用者使用企業語音，並將您先前定義的語音原則指派給他們。 在這個範例中，下表說明這個案例中所使用的作業。 只有針對位置式路由的特定設定才會包含在表格中，以供圖例之用。
+為使用者啟用企業語音，並將您先前定義的語音原則指派給他們。 在此範例中，下表說明此案例中使用的工作分派。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
 
-如需詳細資訊，請參閱[在 Lync Server 2013 中啟用企業語音的使用者](lync-server-2013-enable-users-for-enterprise-voice.md)。
+如需詳細資訊，請參閱 [Enable users For Enterprise Voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)。
 
 
 <table>
@@ -245,14 +245,14 @@ _**主題上次修改日期：** 2013-03-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>相關的語音原則</p></td>
+<td><p>關聯的語音原則</p></td>
 <td><p>新德里語音原則</p></td>
 <td><p>Hyderabad 語音原則</p></td>
 </tr>
 <tr class="even">
 <td><p>範例使用者</p></td>
-<td><p>DEL-LYNC-1，DEL-LYNC-2，DEL-LYNC-3</p></td>
-<td><p>HYD-LYNC-1，HYD-LYNC-2，HYD-LYNC-3</p></td>
+<td><p>DEL-LYNC-1、DEL-LYNC-2、DEL-3</p></td>
+<td><p>HYD-LYNC-1、HYD-LYNC-2、HYD-LYNC-3</p></td>
 </tr>
 </tbody>
 </table>
@@ -267,7 +267,7 @@ _**主題上次修改日期：** 2013-03-12_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中設定位置基礎路由](lync-server-2013-configuring-location-based-routing.md)  

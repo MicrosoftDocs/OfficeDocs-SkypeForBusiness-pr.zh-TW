@@ -12,18 +12,18 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e551d069da9a3afb7a884c28096dd97ab3702539
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3b5007a1d850e1a271c507290c48a2c8d345c7b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758147"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-default-picture-options-in-lync-server-2013"></a>在 Lync Server 2013 中設定預設圖片選項
 
@@ -37,13 +37,13 @@ ms.locfileid: "41758147"
 
 _**主題上次修改日期：** 2013-03-22_
 
-根據預設，使用者的圖片會自動顯示。 如果使用者想要隱藏其圖片，可以在 Lync 用戶端中選取 [**隱藏我的圖片**] 選項。 不過，某些其他 Office 應用程式會忽略此設定。
+依預設，會自動顯示使用者的圖片。 如果使用者想要隱藏其圖片，可在 Lync 用戶端中選取 [**隱藏我的圖片**] 選項。 不過，有些其他 Office 應用程式會忽略此設定。
 
-如果您想要在使用者關閉時顯示圖片，您可以在全域或網站或服務中變更 Lync 圖片顯示設定，以便預設不會顯示使用者的圖片。 使用下列 Lync Server 管理命令介面 Cmdlet，在用戶端中明確選取 [**顯示我的圖片**] 選項，就不會顯示使用者的圖片：
+如果在使用者關閉時顯示圖片的可能性很重要，您可以變更全域或網站或服務的 Lync 圖片顯示設定，因此預設不會顯示使用者的圖片。 使用下列 Lync Server 管理命令介面 Cmdlet，除非使用者在用戶端明確選取 [**顯示我的圖片**] 選項，否則不會顯示使用者的圖片：
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-如需此 Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的[設定 CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) 。
+如需此 Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的[Set-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) 。
 
 </div>
 

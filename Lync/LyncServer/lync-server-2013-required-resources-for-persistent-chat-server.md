@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：常設聊天室伺服器的必要資源
+title: Lync Server 2013： Persistent Chat Server 所需的資源
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31683641e50a3e3bc898841b0cf4b0911e046262
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c925a695fd856c4e9c2d272d39f18a7c3d1f78c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723823"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中的常設聊天室伺服器的必要資源
+# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天伺服器的必要資源
 
 </div>
 
@@ -37,47 +37,47 @@ ms.locfileid: "41723823"
 
 _**主題上次修改日期：** 2016-02-05_
 
-持續性聊天伺服器的高可用性和災難復原需要額外的資源，超出完整操作所需的資源。 在針對高可用性和災害復原設定持續聊天伺服器前，請確定您有下列資源，以及標準持續聊天伺服器作業所需的內容。 如需其他配置資訊，請參閱[在 Lync server 2013 中設定持久聊天伺服器](lync-server-2013-configuring-persistent-chat-server.md)。
+Persistent Chat Server 的高可用性和嚴重損壞復原需要額外的資源，以超出完整作業的一般需求。 設定持續性聊天伺服器以取得高可用性和嚴重損壞修復之前，請先確定除了標準 Persistent Chat Server 作業所需的資源之外，還具備下列資源。 如需其他設定資訊，請參閱[在 Lync server 2013 中設定 Persistent Chat Server](lync-server-2013-configuring-persistent-chat-server.md)。
 
-  - 一個專用的資料庫實例位於與持久性聊天伺服器服務的主前端相同的物理資料中心。 此資料庫將充當主要持久聊天資料庫的 SQL Server mirror。 或者，如果您想要將自動容錯移轉到鏡像資料庫，請指定額外的 SQL Server 作為鏡像見證。
+  - 一個專用的資料庫實例位於 Persistent Chat Server 服務的主前端所在的相同實體資料中心。 此資料庫會做為主要持久聊天資料庫的 SQL Server 鏡像。 （選用）如果您想要自動容錯移轉至鏡像資料庫，請指定其他 SQL Server 作為鏡像見證。
 
-  - 一個位於另一個物理資料中心的專用資料庫實例。 此資料庫將充當主要資料中心中資料庫的 SQL Server 記錄傳送次要資料庫。
+  - 一個位於其他實體資料中心的專用資料庫實例。 此資料庫會做為主要資料中心資料庫的 SQL Server 記錄傳送次要資料庫。
 
-  - 要作為次要資料庫之 SQL Server mirror 的一個專用資料庫實例。 或者，您也可以將其他 SQL Server 指派給伺服器做為鏡像見證。 這兩者必須位於與次要資料庫相同的物理資料中心。
+  - 一個專用的資料庫實例充當次要資料庫的 SQL Server 鏡像。 （選用）將另一部 SQL Server 指定給伺服器做為鏡像見證。 這兩者都必須與次要資料庫位於相同的實體資料中心。
 
-  - 如果已啟用持續聊天伺服器合規性，則需要額外的三個專用資料庫實例。 其分配與先前在持續聊天資料庫中所述的相同。 雖然合規性資料庫可以與持久聊天資料庫共用相同的 SQL Server 實例，但我們建議獨立的實例提供高可用性和災害復原。
+  - 如果啟用 Persistent Chat Server 相容性，則需要額外三個專用資料庫實例。 其分配與先前對 Persistent 聊天資料庫所述的方式相同。 雖然相容性資料庫可能會與 Persistent 聊天資料庫共用相同的 SQL Server 實例，但我們建議在高可用性和嚴重損壞修復時採用獨立的實例。
 
-  - 必須針對 SQL Server 記錄傳送事務記錄記錄建立並指派檔案共用。 在兩個資料中心中的所有 SQL 伺服器都執行持續聊天資料庫，必須擁有此檔案共用的讀/寫存取權。 此共用沒有定義為 [您的顯示格式] 角色的一部分。
+  - 必須為 SQL Server 記錄傳送交易記錄檔建立及指定檔案共用。 執行持續性聊天資料庫之資料中心內的所有 SQL Server，都必須具有此檔案共用的讀取/寫入權限。 此共用並未定義為 FileStore 角色的一部分。
 
-  - 次要資料庫伺服器上的檔案共用，可作為從主要伺服器檔案共用複製的 SQL Server 事務日誌的目的地資料夾。
+  - 輔助資料庫伺服器上的檔案共用，用作從主要伺服器檔案共用複製之 SQL Server 交易記錄檔的目的地資料夾。
 
 <div>
 
 
 > [!NOTE]  
-> 持續聊天伺服器池中的作用中持續聊天伺服器，必須位於與拓撲中定義的下一個躍點 Lync 池相同的時區中。
+> Persistent Chat Server 集區中的主動持久聊天伺服器必須與拓撲中所定義的下一個躍點 Lync 集區位於相同的時區。
 
 
 
 </div>
 
-下列圖表提供在兩個不同延伸池拓撲中如何設定整個持續聊天伺服器池的範例：
+下圖提供如何在兩個不同的延伸集區拓撲中設定整個 Persistent Chat Server 集區的範例：
 
-  - 當資料中心位於具有高頻寬/低延遲的地理位置時，延伸持久聊天伺服器池。
+  - 當資料中心具有高頻寬/低延遲時，延伸的持久聊天伺服器集區。
 
-  - 當資料中心位於具有低頻寬/高延遲的地理位置時，延伸持久聊天伺服器池。
+  - 資料中心地理位置具有低頻寬/高延遲的延伸 Persistent Chat Server 集區。
 
-下圖顯示延伸持續聊天伺服器池拓撲，其中資料中心是具有高頻寬/低延遲的地理位置。
+下圖顯示資料中心地理位置具有高頻寬/低延遲的延伸持久聊天伺服器集區拓撲。
 
-**當資料中心位於具有高頻寬/低延遲的地理位置時，延伸持久聊天伺服器池。**
+**當資料中心具有高頻寬/低延遲時，延伸的持久聊天伺服器集區。**
 
-![Persistent Chat Server 集區 HBW 組態範例](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Persistent Chat Server 集區 HBW 組態範例")
+![Persistent Chat Server 集區 HBW 設定考試](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Persistent Chat Server 集區 HBW 設定考試")
 
-下圖顯示延伸的持久聊天伺服器池拓撲，其中資料中心是具有低頻寬/高延遲的地理位置。
+下圖顯示資料中心地理位置具有低頻寬/高延遲的延伸持久聊天伺服器集區拓撲。
 
-**當資料中心位於具有低頻寬/高延遲的地理位置時，延伸持久聊天伺服器池。**
+**資料中心地理位置具有低頻寬/高延遲的延伸 Persistent Chat Server 集區。**
 
-![Persistent Chat Server 集區 LBW 組態範例](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Persistent Chat Server 集區 LBW 組態範例")
+![Persistent Chat Server 集區 LBW 設定考試](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Persistent Chat Server 集區 LBW 設定考試")
 
 </div>
 

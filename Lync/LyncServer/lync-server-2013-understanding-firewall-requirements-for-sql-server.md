@@ -12,20 +12,20 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dba3296ee01f997857660d2a3f328f663d32cf99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 57f32d84e4cd08c40f95a47af7c988599678c972
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744813"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>瞭解與 Lync Server 2013 搭配使用時之 SQL Server 的防火牆需求
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>瞭解具有 Lync Server 2013 之 SQL Server 的防火牆需求
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41744813"
 
 _**主題上次修改日期：** 2013-02-21_
 
-針對標準版的部署，系統會在安裝 Lync Server 2013 期間自動建立防火牆例外狀況。 不過，對於企業版部署，您必須在 SQL Server 後端伺服器上手動設定防火牆例外狀況。 TCP/IP 通訊協定可讓特定的埠在指定的 IP 位址中使用一次。 這表示針對 SQL Server 的伺服器，您可以指派預設 TCP 埠1433的預設資料庫實例。 若是任何其他的實例，您必須使用 SQL Server Configuration Manager 來指派唯一且未使用的埠。 本主題涵蓋：
+對於 Standard Edition 部署，在 Lync Server 2013 設定期間會自動建立防火牆例外狀況。 不過，對於 Enterprise Edition 部署，您必須在 SQL Server 後端伺服器上手動設定防火牆例外狀況。 根據 TCP/IP 通訊協定，一個連接埠一次只能供一個 IP 位址使用。 也就是說，對於 SQL Server 型伺服器，您可以為預設的資料庫執行個體指派預設的 TCP 連接埠 1433。 對於任何其他執行個體，您都必須使用 [SQL Server 組態管理員] 指派唯一而未使用的連接埠。 本主題將說明：
 
-  - 使用預設實例時防火牆例外的需求
+  - 使用預設執行個體時的防火牆例外需求
 
   - SQL Server Browser 服務的防火牆例外需求
 
-  - 使用命名實例時靜態偵聽埠的需求
+  - 使用具名執行個體時的靜態聆聽連接埠需求
 
 <div>
 
-## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a>使用預設實例時防火牆例外的需求
+## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a>使用預設執行個體時的防火牆例外需求
 
-如果您在部署 Lync Server 2013 時使用的是任何資料庫的 SQL Server 預設實例，則會使用下列防火牆規則需求，以協助確保從前端池與 SQL Server 的預設實例進行通訊。
+如果您在部署 Lync Server 2013 時對任何資料庫使用 SQL Server 預設實例，則會使用下列防火牆規則需求，協助確保從前端集區到 SQL Server 預設實例的通訊。
 
 
 <table>
@@ -60,16 +60,16 @@ _**主題上次修改日期：** 2013-02-21_
 </colgroup>
 <thead>
 <tr class="header">
-<th>通訊協定</th>
-<th>通道</th>
-<th>發展</th>
+<th>Protocol (通訊協定)</th>
+<th>Port (連接埠)</th>
+<th>方向</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>TCP-OUT</p></td>
+<td><p>TCP</p></td>
 <td><p>1433</p></td>
-<td><p>入站至 SQL Server</p></td>
+<td><p>輸入至 SQL Server</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 ## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>SQL Server Browser 服務的防火牆例外需求
 
-SQL Server Browser 服務會找出資料庫實例，並傳達實例（命名或預設）設定為使用的埠。
+SQL Server Browser 服務會尋找資料庫執行個體，然後與執行個體 (具名或預設) 依設定要使用的連接埠進行通訊。
 
 
 <table>
@@ -92,16 +92,16 @@ SQL Server Browser 服務會找出資料庫實例，並傳達實例（命名或�
 </colgroup>
 <thead>
 <tr class="header">
-<th>通訊協定</th>
-<th>通道</th>
-<th>發展</th>
+<th>Protocol (通訊協定)</th>
+<th>Port (連接埠)</th>
+<th>方向</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UDP-IN</p></td>
+<td><p>Udp</p></td>
 <td><p>1434</p></td>
-<td><p>進貨</p></td>
+<td><p>入境</p></td>
 </tr>
 </tbody>
 </table>
@@ -111,9 +111,9 @@ SQL Server Browser 服務會找出資料庫實例，並傳達實例（命名或�
 
 <div>
 
-## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>使用命名實例時靜態偵聽埠的需求
+## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>使用具名執行個體時的靜態聆聽連接埠需求
 
-在 SQL Server 配置中針對支援 Lync Server 2013 的資料庫使用命名實例時，您可以使用 SQL Server Configuration Manager 來設定靜態埠。 將靜態埠指派給每個命名實例之後，您就會針對防火牆中的每個靜態埠建立例外狀況。
+在 SQL Server 設定中針對支援 Lync Server 2013 的資料庫使用命名實例時，您可以使用 SQL Server Configuration Manager 來設定靜態埠。 在指派靜態連接埠給每個具名執行個體後，您應在防火牆中為每個靜態連接埠建立例外。
 
 
 <table>
@@ -124,16 +124,16 @@ SQL Server Browser 服務會找出資料庫實例，並傳達實例（命名或�
 </colgroup>
 <thead>
 <tr class="header">
-<th>通訊協定</th>
-<th>通道</th>
-<th>發展</th>
+<th>Protocol (通訊協定)</th>
+<th>Port (連接埠)</th>
+<th>方向</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>TCP-OUT</p></td>
+<td><p>TCP</p></td>
 <td><p>靜態定義</p></td>
-<td><p>進貨</p></td>
+<td><p>入境</p></td>
 </tr>
 </tbody>
 </table>
@@ -145,7 +145,7 @@ SQL Server Browser 服務會找出資料庫實例，並傳達實例（命名或�
 
 ## <a name="sql-server-documentation"></a>SQL Server 檔
 
-Microsoft SQL Server 2012 檔提供如何設定資料庫的防火牆存取權的詳細指導方針。 如需 Microsoft SQL Server 2012 的詳細資訊，請參閱「將 Windows 防火牆設定為允許 SQL Server [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)存取」。
+Microsoft SQL Server 2012 檔提供有關如何設定資料庫的防火牆存取的詳細指導方針。 如需 Microsoft SQL Server 2012 的詳細資訊，請參閱設定 Windows 防火牆以允許 SQL Server 存取」 [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031) 。
 
 </div>
 

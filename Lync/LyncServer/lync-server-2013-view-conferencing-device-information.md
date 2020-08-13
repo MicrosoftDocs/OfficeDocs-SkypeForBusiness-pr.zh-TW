@@ -12,18 +12,18 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5355ae418e53c44cc61340b57910993ac2afea2c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4dc0065416582dd87f1c48a2dd051c237fbd6868
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757447"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-conferencing-device-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看會議裝置資訊
 
@@ -37,19 +37,19 @@ ms.locfileid: "41757447"
 
 _**主題上次修改日期：** 2013-02-20_
 
-您可以使用 Windows PowerShell 及**CsMeetingRoom** Cmdlet 來查看已設定為在您的組織中使用之會議裝置的相關資訊。 從 Lync Server 2013 管理命令介面或從 Windows PowerShell 遠端會話執行**CsMeetingRoom** Cmdlet。
+您可以使用 Windows PowerShell 和 **Get-CsMeetingRoom** 指令程式，來查看已設定供組織使用之會議裝置的相關資訊。 從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行 **Get-CsMeetingRoom** Cmdlet。
 
 <div>
 
 
 > [!NOTE]  
-> 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 。
 
 
 
 </div>
 
-如果您使用不含任何參數的**CsMeetingRoom** Cmdlet，則會傳回所有會議裝置的相關資訊。 選用的參數提供不同的方式來篩選資訊。 如需詳細資訊，請參閱[取得 CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)的參數區段。
+如果您使用不含任何參數的 **Get-CsMeetingRoom** Cmdlet，它會傳回所有會議裝置的相關資訊。 選用參數提供不同的篩選資訊的方式。 如需詳細資訊，請參閱 [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)的 [參數] 區段。
 
 <div>
 
@@ -58,11 +58,11 @@ _**主題上次修改日期：** 2013-02-20_
 
 ## <a name="viewing-information-about-all-your-conferencing-devices"></a>查看所有會議裝置的相關資訊
 
-  - 若要查看所有會議裝置的詳細資料，請在 Lync Server 管理命令介面中輸入下列命令，然後按 Enter 鍵：
+  - 若要查看所有會議裝置的詳細資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 Enter：
     
         Get-CsMeetingRoom
     
-    這個 Cmdlet 會針對每個會議裝置傳回如下所示的資訊。 請注意，這個範例只會顯示您執行此 Cmdlet 時所看到的部分資訊：
+    此 Cmdlet 會針對每個會議裝置傳回類似下列的資訊。 請注意，此範例只會顯示您執行此 Cmdlet 時所看到的部分資訊：
     
         ContactOptionFlags                : 64
         OwnerUrn                          : urn:device:roomsystem
@@ -88,13 +88,13 @@ _**主題上次修改日期：** 2013-02-20_
 
 ## <a name="viewing-information-about-a-specific-conferencing-device"></a>查看特定會議裝置的相關資訊
 
-  - 若要查看特定會議裝置的相關資訊，請在身分識別參數後加上會議裝置身分識別（通常是 Active Directory 顯示名稱）。 例如：
+  - 若要查看特定會議裝置的資訊，請在識別參數後面加上會議裝置身分識別 (通常是 Active Directory 顯示名稱) 。 例如：
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
 </div>
 
-如需詳細資訊，請參閱[CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) Cmdlet 的說明主題。
+如需詳細資訊，請參閱 [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) Cmdlet 的 [說明] 主題。
 
 </div>
 

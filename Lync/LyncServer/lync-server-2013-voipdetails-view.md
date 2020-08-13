@@ -12,20 +12,20 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7911a203a46d9bfa5698d01dc43c27c5f789c89a
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758545"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42210911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-view-in-lync-server-2013"></a>Lync Server 2013 中的 [VoIPDetails] 視圖
+# <a name="voipdetails-view-in-lync-server-2013"></a>Lync Server 2013 中的 VoIPDetails 視圖
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41758545"
 
 _**主題上次修改日期：** 2012-10-18_
 
-[VoIPDetails] 視圖儲存點對點工作階段的相關資訊，其中至少有一個使用者是 VoIP 使用者。 此視圖已在 Microsoft Lync Server 2013 中推出。
+VoIPDetails 檢視會儲存對等工作階段的相關資訊，其中至少有一個使用者是 VoIP 使用者。 此視圖已引進于 Microsoft Lync Server 2013。
 
 <div>
 
 
 > [!NOTE]  
-> [VoIPDetails] 視圖會包含 [ <A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013</A> ] 的 [SessionDetails] 視圖中的所有資料行，以及下列所列的欄。
+> VoIPDetails view 包含在<A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 中的 SessionDetails 視圖</A>中的所有欄，此外還會列出下列欄。
 
 
 
@@ -58,7 +58,7 @@ _**主題上次修改日期：** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
 <th>詳細資料</th>
 </tr>
@@ -66,53 +66,53 @@ _**主題上次修改日期：** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><strong>FromPhone</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
-<td><p>啟動會話之使用者的電話 URI。</p></td>
+<td><p>Nvarchar (450) </p></td>
+<td><p>起始工作階段之使用者的電話 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToPhone</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
-<td><p>加入會話之使用者的電話 URI。</p></td>
+<td><p>Nvarchar (450) </p></td>
+<td><p>參加工作階段之使用者的電話 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByUri</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
-<td><p>中斷會話的使用者 URI。</p></td>
+<td><p>Nvarchar (450) </p></td>
+<td><p>中斷連線工作階段之使用者的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByUriType</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>中斷會話的使用者 URI 類型。 如需詳細資訊，請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中</a>的 [UriTypes] 資料表。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>中斷連線工作階段之使用者的 URI 類型。 如需詳細資訊，請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByTenant</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>中斷會話的使用者租使用者。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>中斷連線工作階段之使用者的租用戶。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByPhone</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
-<td><p>中斷會話的使用者的電話 URI。</p></td>
+<td><p>Nvarchar (450) </p></td>
+<td><p>中斷連線工作階段之使用者的電話 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServer</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>啟動會話的使用者所使用的中繼伺服器。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>起始工作階段之使用者所使用的中繼伺服器。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServer</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>加入會話的使用者所使用的中繼伺服器。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>參加工作階段之使用者所使用的中繼伺服器。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGateway</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>啟動會話的使用者所使用的閘道。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>起始工作階段之使用者所使用的閘道。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGateway</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>加入會話的使用者所使用的閘道。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>參加工作階段之使用者所使用的閘道。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d01bdea6efb632d95a15c631715e9ebe0c9a3bd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 460bbda3d9402bd98c83043d51546beb5cdae62f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763031"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-network-bandwidth-policy-profiles-in-lync-server-2013"></a>刪除 Lync Server 2013 的網路頻寬原則設定檔
+# <a name="deleting-network-bandwidth-policy-profiles-in-lync-server-2013"></a>在 Lync Server 2013 中刪除網路頻寬原則設定檔
 
 </div>
 
@@ -37,36 +37,36 @@ ms.locfileid: "41763031"
 
 _**主題上次修改日期：** 2012-11-01_
 
-在呼叫許可控制（CAC）中，頻寬原則是用來定義特定形式的頻寬限制。 在 Microsoft Lync Server 2013 中，只有音訊和視頻形式可獲指派頻寬限制。 您可以設定整體頻寬限制及會話限制。 您可以使用 Lync Server [控制台] 來建立、修改或刪除這些原則的容器設定檔。 使用下列程式刪除網路頻寬原則設定檔。 如需建立或修改網路頻寬原則設定檔的詳細資料，請參閱[在 Lync Server 2013 中建立或修改頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。
+頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在 Microsoft Lync Server 2013 中，只有音訊和影片形式可以獲指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用 Lync Server 控制台建立、修改或刪除這些原則的容器設定檔。 請使用下列程序來刪除網路頻寬原則設定檔。 如需建立或修改網路頻寬原則設定檔的詳細資訊，請參閱[建立或修改 Lync Server 2013 中的頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。
 
 <div>
 
 ## <a name="to-delete-a-bandwidth-policy-profile"></a>刪除頻寬原則設定檔
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**網路**設定]，然後按一下 [**頻寬規則**]。
+3.  在左導覽列中，按一下 **[網路設定]**，再按一下 **[頻寬原則]**。
 
-4.  在 [**頻寬原則**] 頁面上，按一下您要刪除的頻寬原則設定檔。
+4.  在 **[頻寬原則]** 頁面上，按一下您要刪除的頻寬原則設定檔。
     
     <div>
     
 
     > [!NOTE]  
-    > 您可以一次刪除一個以上的設定檔。 若要這樣做，請在按住 CTRL 鍵的同時，按住 CTRL 並選取多個設定檔。 或者，若要選取所有設定檔，請按一下 [<STRONG>編輯</STRONG>] 功能表上的 [全<STRONG>選</STRONG>]。
+    > 您可以一次刪除一個以上的設定檔。若要這麼做，請按住 CTRL 鍵並同時選取多個設定檔。或者，若要選取所有設定檔，請按一下 <STRONG>[編輯]</STRONG> 功能表上的 <STRONG>[全選]</STRONG>。
 
     
     </div>
 
-5.  在 [**編輯**] 功能表上，按一下 [**刪除**]。
+5.  在 **[編輯]** 功能表上，按一下 **[刪除]**。
     
     <div>
     
 
     > [!WARNING]  
-    > 您無法刪除與網路網站相關聯的頻寬原則設定檔。 您必須先移除與網路網站的關聯，然後才能刪除設定檔。 如需如何修改網路網站的詳細資訊，請參閱<A href="lync-server-2013-creating-or-modifying-network-sites.md">在 Lync Server 2013 中建立或修改網路網站</A>。
+    > 您無法刪除與網站關聯的頻寬原則設定檔。 您必須先移除與網站的關聯，才可以刪除設定檔。 如需如何修改網路網站的詳細資訊，請參閱<A href="lync-server-2013-creating-or-modifying-network-sites.md">建立或修改 Lync Server 2013 中的網路網站</A>。
 
     
     </div>
@@ -75,7 +75,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中建立或修改頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
@@ -83,7 +83,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 
 [在 Lync Server 2013 中設定通話許可控制](lync-server-2013-configure-call-admission-control.md)  
-[移除-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
+[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
   
 
 </div>

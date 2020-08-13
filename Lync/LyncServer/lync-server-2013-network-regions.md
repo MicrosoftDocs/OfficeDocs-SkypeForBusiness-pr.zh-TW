@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：網路區域
+title: Lync Server 2013：網路地區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4085b3c554429c960e6f9f558f82366d7b2b2532
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89e1ea12a35b7cf9fd440396369e5217162127b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765884"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-regions-in-lync-server-2013"></a>Lync Server 2013 的網路區域
+# <a name="network-regions-in-lync-server-2013"></a>Lync Server 2013 中的網路地區
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41765884"
 
 _**主題上次修改日期：** 2013-02-21_
 
-*網路區域*是網路中樞或 backbones，用於設定通話許可控制、E9-1 及媒體旁路。 使用下列程式來查看、建立或修改網路區。 例如，如果您已為單一語音功能建立網路區域，就不需要建立新的網路區域;其他高級企業語音功能將會使用相同的網路區域。 不過，您可能需要修改現有的網路區域定義，才能套用特定功能的設定。 例如，如果您已建立 E9 的網路區域（不需要關聯的中央網站），而您想要部署 [呼叫許可控制]，您必須修改網路區域定義，以指定中央網站。 如需詳細資訊，請參閱[在 Lync Server 2013 中設定 CAC 的網路區域](lync-server-2013-configure-network-regions-for-cac.md)。
+「網路區域」** 是用於通話許可控制、E9-1-1 及媒體旁路設定的網路中樞或骨幹。 使用下列程序可以檢視、建立或修改網路區域。 例如，您已為一個語音功能建立網路區域，便不需要建立新的網路區域；其他的進階 Enterprise Voice 功能會使用那些相同的網路區域。 不過，您必須修改現有的網路區域定義，以套用功能特定的設定。 例如，您已為 E9-1-1 (其不需要相關的中央網站) 建立網路區域，而您接著要部署通話許可控制，您便必須修改網路區域定義來指定中央網站。 如需詳細資訊，請參閱[在 Lync Server 2013 中設定 CAC 的網路地區](lync-server-2013-configure-network-regions-for-cac.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 此功能的部署主題中記錄了網路區域定義的任何特定功能需求。
+> 網路地區定義的任何功能特定需求都記載在功能的部署主題中。
 
 
 
@@ -51,13 +51,13 @@ _**主題上次修改日期：** 2013-02-21_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看網路區域資訊](lync-server-2013-viewing-network-region-information.md)
+  - [在 Lync Server 2013 中查看網路地區資訊](lync-server-2013-viewing-network-region-information.md)
 
-  - [在 Lync Server 2013 中建立或修改網路區域](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [在 Lync Server 2013 中建立或修改網路地區](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [在 Lync Server 2013 中刪除現有的網路區域](lync-server-2013-deleting-existing-network-regions.md)
+  - [在 Lync Server 2013 中刪除現有的網路地區](lync-server-2013-deleting-existing-network-regions.md)
 
 </div>
 
@@ -65,7 +65,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 ## <a name="reference"></a>參考
 
-[在 Lync Server 2013 中部署高級企業語音功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[在 Lync Server 2013 中部署高級 Enterprise Voice 功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 

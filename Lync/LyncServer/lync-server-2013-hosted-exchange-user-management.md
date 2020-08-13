@@ -12,18 +12,18 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23289399e4eee4a654b41f2978191a6329739b4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1cceaeaa869d1e058251a62d237c563143a4ae4c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738983"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42198616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange 使用者管理
 
@@ -37,13 +37,13 @@ ms.locfileid: "41738983"
 
 _**主題上次修改日期：** 2012-10-18_
 
-若要為 Lync Server 2013 使用者提供語音信箱服務，而其信箱是位於託管 Exchange 服務的使用者，您必須啟用其使用者帳戶來存放託管的語音信箱。
+若要為 Lync Server 2013 使用者提供語音信箱服務，其信箱位於主控 Exchange 服務上，您必須為主控的語音信箱啟用使用者帳戶。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 使用者可以啟用託管語音信箱之前，必須先部署適用于對應使用者帳戶的託管語音信箱原則。 只要將原則套用到您想要啟用的使用者，原則就可以是全域、網站或每位使用者。 如需詳細資訊，請參閱<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中託管的語音信箱原則</A>。
+> 在 Lync Server 2013 使用者可以啟用裝載的語音信箱之前，必須先部署適用于對應使用者帳戶的主控語音信箱原則。 原則可以是全域、網站或每位使用者在範圍內，只要它套用至您想要啟用的使用者。 如需詳細資訊，請參閱<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的主控語音信箱原則</A>。
 
 
 
@@ -51,15 +51,15 @@ _**主題上次修改日期：** 2012-10-18_
 
 <div>
 
-## <a name="the-msexchucvoicemailsettings-attribute"></a>MsExchUCVoiceMailSettings 屬性
+## <a name="the-msexchucvoicemailsettings-attribute"></a>msExchUCVoiceMailSettings 屬性
 
-Lync Server 2013 引入一個名為**msExchUCVoiceMailSettings**的新使用者屬性，該使用者是作為 Lync Server 2013 Active Directory 架構準備的一部分建立的。 這個多重值屬性可保留 Lync Server 2013 和託管 Exchange 服務所共用的語音信箱設定。
+Lync Server 2013 引進新的使用者屬性，名為**msExchUCVoiceMailSettings**，它是 Lync Server 2013 Active Directory 架構準備的一部分所建立。 此多重值屬性可容納 Lync Server 2013 和主控 Exchange 服務共用的語音信箱設定。
 
-在某些情況下，託管 Exchange 服務可能會在啟用 Exchange UM 的程式中設定 msExchUCVoiceMailSettings 屬性的值，或在將信箱轉移至託管 Exchange 伺服器的程式期間設定。 如果 Exchange 未設定此屬性，則 Lync Server 2013 系統管理員必須執行 Move-csuser Cmdlet 來設定它，如本主題前面所述。
+在某些情況下，裝載 Exchange 服務可能會在啟用 Exchange UM 的程式中設定 msExchUCVoiceMailSettings 屬性的值，或將信箱轉移至主控 Exchange 伺服器的過程中。 如果 Exchange 未設定此屬性，Lync Server 2013 系統管理員必須執行 Set-CsUser Cmdlet 來設定此屬性，如本主題稍早所述。
 
-屬性的鍵/值對及其作者如下表所示。
+下表顯示內容的索引鍵/值對及其作者。
 
-### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>MsExchUCVoiceMailSettings 屬性鍵/值對
+### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>MsExchUCVoiceMailSettings 屬性索引鍵/值組
 
 <table>
 <colgroup>
@@ -70,30 +70,30 @@ Lync Server 2013 引入一個名為**msExchUCVoiceMailSettings**的新使用者�
 <thead>
 <tr class="header">
 <th>值</th>
-<th>撰寫</th>
-<th>意味</th>
+<th>作者</th>
+<th>意義</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ExchangeHostedVoiceMail = 1</p></td>
-<td><p>證券</p></td>
-<td><p>使用者已啟用 Exchange Server 的託管 UM 存取權。 Exchange UM 路由應用程式將會檢查使用者的託管語音信箱原則，以取得路由詳細資料。</p></td>
+<td><p>Exchange</p></td>
+<td><p>Exchange Server 已啟用使用者的裝載 UM 存取。 Exchange UM 路由應用程式會檢查使用者的主控語音信箱原則，以取得路由詳細資料。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExchangeHostedVoiceMail = 0</p></td>
-<td><p>證券</p></td>
-<td><p>已停用 Exchange Server 的託管 UM 存取的使用者。</p></td>
+<td><p>Exchange</p></td>
+<td><p>Exchange Server 已停用使用者的裝載 UM 存取。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsHostedVoiceMail = 1</p></td>
 <td><p>Lync Server</p></td>
-<td><p>使用者已啟用 Lync Server 2013 的託管 UM 存取權。 Lync Server 2013 ExUM 路由應用程式將會檢查使用者的託管語音信箱原則，以取得路由詳細資料。</p></td>
+<td><p>使用者已啟用 Lync Server 2013 的託管 UM 存取。 Lync Server 2013 ExUM 路由應用程式會檢查使用者的主控語音信箱原則，以取得路由詳細資料。</p></td>
 </tr>
 <tr class="even">
 <td><p>CsHostedVoiceMail = 0</p></td>
 <td><p>Lync Server</p></td>
-<td><p>已停用 Lync Server 2013 的託管 UM 存取的使用者。</p></td>
+<td><p>Lync Server 2013 已停用使用者的裝載 UM 存取。</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,7 +103,7 @@ Lync Server 2013 引入一個名為**msExchUCVoiceMailSettings**的新使用者�
 
 
 > [!NOTE]  
-> 如果屬性已有一個 Lync Server 2013 鍵/值對以外的值（CSHostedVoiceMail = 0 或 CSHostedVoiceMail = 1），則會出現警告，指出該屬性可能是由不同的應用程式來管理。 例如，如果鍵/值對 ExchangeHostedVoiceMail = 0 或 ExchangeHostedVoiceMail = 1 已存在，則會顯示警告。 在這種情況下，您可以透過編輯 Active Directory 來變更值，或執行下列 Cmdlet，將此值設定為 null：<BR>Move-csuser –身分識別使用者– HostedVoicemail $null
+> 如果此屬性已有一個不同的 Lync Server 2013 機碼/值組值 (CSHostedVoiceMail = 0 或 CSHostedVoiceMail = 1) ，則警告會指出該屬性可能是由其他應用程式所管理。 例如，如果索引鍵/值組 ExchangeHostedVoiceMail = 0 或 ExchangeHostedVoiceMail = 1 已存在，就會顯示警告。 在此情況下，您可以透過編輯 Active Directory 來變更值，或執行下列 Cmdlet，將值設定為 null：<BR>Set-CsUser –身分識別使用者– HostedVoicemail $null
 
 
 
@@ -113,23 +113,23 @@ Lync Server 2013 引入一個名為**msExchUCVoiceMailSettings**的新使用者�
 
 <div>
 
-## <a name="enabling-users-for-hosted-voice-mail"></a>允許使用者擁有託管的語音信箱
+## <a name="enabling-users-for-hosted-voice-mail"></a>為使用者啟用主控語音信箱
 
-若要讓使用者的語音信箱呼叫路由至託管 Exchange UM，您必須執行 Move-csuser Cmdlet 來設定*HostedVoiceMail*參數的值。 這個參數也會通知 Lync Server 2013，以淺您的「撥號語音信箱」指標。
+若要讓使用者的語音信箱呼叫路由傳送至主控 Exchange UM，您必須執行 Set-CsUser Cmdlet 來設定*HostedVoiceMail*參數的值。 這個參數也會向 Lync Server 2013 發出「呼叫語音信箱」指示器。
 
-  - 下列範例會針對託管語音信箱啟用 Pilar 方的使用者帳戶：
+  - 下列範例會為主控語音信箱啟用 Pilar Ackerman 的使用者帳戶：
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $True
     
-    此 Cmdlet 會驗證託管的語音信箱原則（全域、網站層級或每位使用者）適用于此使用者。 如果沒有套用任何原則，則 Cmdlet 失敗。
+    此 Cmdlet 會驗證主控的語音信箱原則 (全域、網站層級或每位使用者) 適用于此使用者。 若未套用原則，指令 Cmdlet 會失敗。
 
-  - 下列範例會針對託管語音信箱停用 Pilar 方的使用者帳戶：
+  - 下列範例會停用 Pilar Ackerman 的使用者帳戶進行主控語音信箱：
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False
     
-    此 Cmdlet 會確認沒有任何託管的語音信箱原則（全域、網站層級或每位使用者）適用于此使用者。 如果已套用原則，則 Cmdlet 會失敗。
+    此 Cmdlet 會驗證沒有任何主控的語音信箱原則 (全域、網站層級或每位使用者) 適用于此使用者。 若原則已套用，指令 Cmdlet 會失敗。
 
-如需有關使用 Move-csuser Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔。
+如需使用 Set-CsUser Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔。
 
 </div>
 

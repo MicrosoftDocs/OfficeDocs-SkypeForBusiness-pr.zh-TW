@@ -12,18 +12,18 @@ ms:contentKeyID: 49733883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c9c9d9c272a0646395a907976056e460cf8fd84
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baf920b546891d3678086820f95c43bed887b3ba
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730485"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42198836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="av-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 A/V 會議需求
 
@@ -37,19 +37,19 @@ ms.locfileid: "41730485"
 
 _**主題上次修改日期：** 2012-09-30_
 
-Lync Server 2013 的會議基礎結構需求與部署 Lync Server 2013 的需求相同。 如需詳細資訊，請參閱在規劃檔中[判斷 Lync Server 2013 的基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md)。
+Lync Server 2013 會議的基礎結構需求與部署 Lync Server 2013 相同。 如需詳細資訊，請參閱規劃檔中的[判斷您的 Lync Server 2013 基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md)。
 
-您必須具備處理會議所產生媒體流量所需的媒體頻寬，這一點很重要。 如需可用於計算所需頻寬的詳細資料，請參閱[Lync Server 2013 中媒體流量的網路頻寬需求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。 如需有關限制頻寬的詳細資料，請參閱[在 Lync Server 2013 中建立或修改頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。 如需基礎結構需求的詳細資料，請參閱[Lync Server 2013 的網路基礎結構需求](lync-server-2013-network-infrastructure-requirements.md)。
+您必須具備處理會議所產生之媒體流量的必要媒體頻寬，這一點很重要。 如需可用於計算所需頻寬的詳細資訊，請參閱[Lync Server 2013 中媒體流量的網路頻寬需求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。 如需有關限制頻寬的詳細資訊，請參閱[建立或修改 Lync Server 2013 中的頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。 如需基礎結構需求的詳細資訊，請參閱[Lync Server 2013 的網路基礎結構需求](lync-server-2013-network-infrastructure-requirements.md)。
 
-為了使用會議功能，Lync Server 2013 需要開啟特定的埠。 如需有關埠需求的詳細資訊，請參閱[Lync Server 2013 內部伺服器的埠和通訊協定](lync-server-2013-ports-and-protocols-for-internal-servers.md)。 如需有關設定埠的詳細資訊，請參閱[在 Lync Server 2013 中針對您的會議、應用程式及中繼伺服器配置埠範圍](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)。
+為了使用會議功能，Lync Server 2013 需要開啟特定的埠。 如需有關埠需求的詳細資訊，請參閱[Lync Server 2013 中內部伺服器的埠與通訊協定](lync-server-2013-ports-and-protocols-for-internal-servers.md)。 如需設定埠的詳細資訊，請參閱[針對會議、應用程式及轉送伺服器設定 Lync Server 2013 中的埠範圍](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的 A/V 會議概覽](lync-server-2013-a-v-conferencing-overview.md)  
-[Lync Server 2013 中的 A/V 會議部署檢查清單](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)  
+[Lync Server 2013 中的 A/V 會議綜述](lync-server-2013-a-v-conferencing-overview.md)  
+[Lync Server 2013 中 A/V 會議的部署檢查清單](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)  
   
 
 </div>

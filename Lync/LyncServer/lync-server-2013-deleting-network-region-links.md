@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：刪除網路區域連結
+title: Lync Server 2013：刪除網路地區連結
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733712
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 158537f2473beba686daa51c5384a45f01432320
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a19835235921c10c0b3fe2be7d9c269a36dff7b6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763021"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-network-region-links-in-lync-server-2013"></a>刪除 Lync Server 2013 中的 [網路區域] 連結
+# <a name="deleting-network-region-links-in-lync-server-2013"></a>在 Lync Server 2013 中刪除網路地區連結
 
 </div>
 
@@ -37,30 +37,30 @@ ms.locfileid: "41763021"
 
 _**主題上次修改日期：** 2012-11-01_
 
-您可以設定兩個網路區域之間的連結，作為通話許可控制（CAC）的一部分。 網路中的區域是透過物理廣域網路（WAN）連線來連結。 您可以使用 Lync Server [控制台] 來刪除兩個網路區域之間的現有連結。 如需建立或修改網路區域連結的詳細資料，請參閱[在 Lync Server 2013 中設定網路區域連結](lync-server-2013-configuring-network-region-links.md)。
+您可以將兩個網路地區間的連結設定為通話許可控制 (CAC) 的一部分。 網路中的地區是透過實體廣域網路 (WAN) 連線相連結。 您可以使用 Lync Server 控制台刪除兩個網路地區之間的現有連結。 如需建立或修改網路地區連結的詳細資訊，請參閱[在 Lync Server 中設定網路地區連結 2013](lync-server-2013-configuring-network-region-links.md)
 
 <div>
 
-## <a name="to-delete-a-network-region-link"></a>刪除網路區域連結
+## <a name="to-delete-a-network-region-link"></a>刪除網路地區連結
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**網路**設定]，然後按一下 [**地區連結**]。
+3.  按一下左導覽列中的 [網路設定]****，然後按一下 [地區連結]****。
 
-4.  在 [**地區連結**] 頁面上，按一下您要刪除的區域連結。
+4.  在 [地區連結]**** 頁面中，按一下要刪除的地區連結。
     
     <div>
     
 
     > [!NOTE]  
-    > 您可以一次刪除一個以上的區域連結。 若要這樣做，請在按住 CTRL 鍵的同時，按住 CTRL 並選取多個區域連結。 或者，若要選取所有區域連結，請按一下 [<STRONG>編輯</STRONG>] 功能表上的 [全<STRONG>選</STRONG>]。
+    > 您可以一次刪除一個以上的地區連結。若要一次刪除一個以上的地區連結，請按住 CTRL 鍵並同時選取多個地區連結。若要選取多個地區，您也可以按一下 [編輯]<STRONG></STRONG> 功能表中的 [全選]<STRONG></STRONG>。
 
     
     </div>
 
-5.  從 [**編輯**] 功能表中，選取 [**刪除**]。
+5.  選取 [編輯]**** 功能表中的 [刪除]****。
 
 6.  按一下 [確定]****。
 
@@ -68,10 +68,10 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定網路區域連結](lync-server-2013-configuring-network-region-links.md)  
+[在 Lync Server 2013 中設定網路地區連結](lync-server-2013-configuring-network-region-links.md)  
   
 
 </div>

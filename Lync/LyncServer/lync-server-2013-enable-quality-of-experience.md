@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：啟用體驗品質
+title: Lync Server 2013：啟用經驗品質
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dbccfd145ad8143edab10f92a10901e626075e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 539408bfaa32565ef76312e1b0d96767edecc169
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735995"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187866"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-quality-of-experience-in-lync-server-2013"></a>啟用 Lync Server 2013 的體驗品質
+# <a name="enable-quality-of-experience-in-lync-server-2013"></a>在 Lync Server 2013 中啟用經驗品質
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41735995"
 
 _**主題上次修改日期：** 2013-02-23_
 
-經驗品質（QoE）會記錄數位資料，指出媒體質量與參與者的相關資訊、裝置名稱、驅動程式、IP 位址，以及通話和會話中所涉及的端點類型。 如需詳細資訊，請參閱規劃檔中的[Lync Server 2013 規劃監視](lync-server-2013-planning-for-monitoring.md)。
+經驗品質 (QoE) 會記錄數字資料，指出有關通話與工作階段中所包含參與者、裝置名稱、驅動程式、IP 位址和端點類型的媒體品質和資訊。 如需詳細資訊，請參閱規劃檔中的 [規劃在 Lync Server 2013 中的監視](lync-server-2013-planning-for-monitoring.md) 。
 
-使用下列程式為您的整個組織或貴組織中的每個網站啟用 QoE。
+請使用下列程式，為您的整個組織或組織中的每個網站啟用 QoE。
 
 <div>
 
 
 > [!NOTE]  
-> 若要啟用 QoE，您必須先設定監視及監視後端資料庫。 如需詳細資訊，請參閱<A href="lync-server-2013-deploying-monitoring.md">在 Lync Server 2013 中部署監視</A>。
+> 若要啟用 QoE，您必須先設定監控和監控後端資料庫。 如需詳細資訊，請參閱 <A href="lync-server-2013-deploying-monitoring.md">在 Lync Server 2013 中部署監控</A>。
 
 
 
@@ -53,15 +53,15 @@ _**主題上次修改日期：** 2013-02-23_
 
 <div>
 
-## <a name="to-enable-qoe-by-using-lync-server-control-panel"></a>使用 Lync Server [控制台] 啟用 QoE
+## <a name="to-enable-qoe-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台啟用 QoE
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署 Lync Server 2013 的網路中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您已部署 Lync Server 2013 之網路中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [**體驗資料品質**]。
+3.  在左導覽列中，按一下 **[監控和封存]**，然後按一下 **[經驗品質資料]**。
 
-4.  在 [**體驗品質資料**] 頁面上，按一下表格中的適當集合，按一下 [**動作**]，然後按一下 [**啟用 QoE**]。
+4.  在 [ **經驗品質資料** ] 頁面上，按一下表格中的適當集合，按一下 [ **動作**]，然後按一下 [ **啟用 QoE**]。
 
 </div>
 
@@ -69,13 +69,13 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 啟用 QoE
 
-您可以使用 Windows PowerShell 和**CsQoEConfiguration** Cmdlet 來啟用 QoE。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 及 **Set CsQoEConfiguration** Cmdlet 來啟用 QoE。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
-## <a name="to-enable-qoe-for-a-single-location"></a>若要針對單一位置啟用 QoE
+## <a name="to-enable-qoe-for-a-single-location"></a>針對單一位置啟用 QoE
 
-  - 若要啟用 QoE，請將 EnableQoE 參數設定為 True （$True）。
+  - 若要啟用 QoE，請將 EnableQoE 參數設定為 True ($True) 。
     
         Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
 
@@ -83,9 +83,9 @@ _**主題上次修改日期：** 2013-02-23_
 
 <div>
 
-## <a name="to-disable-qoe-for-a-single-location"></a>針對單一位置停用 QoE
+## <a name="to-disable-qoe-for-a-single-location"></a>停用單一位置的 QoE
 
-  - 若要停用 QoE，請將 EnableQoE 參數設定為 False （$False）。 這不會卸載監視。 它會暫停 QoE 資料的收集和儲存。
+  - 若要停用 QoE，請將 EnableQoE 參數設定為 False ($False) 。 這不會卸載監控。 它會暫停 QoE 資料的收集和儲存。
     
         Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
 
@@ -93,25 +93,25 @@ _**主題上次修改日期：** 2013-02-23_
 
 <div>
 
-## <a name="to-use-a-single-command-to-enable-qoe-in-multiple-locations"></a>若要在多個位置使用單一命令來啟用 QoE
+## <a name="to-use-a-single-command-to-enable-qoe-in-multiple-locations"></a>使用單一命令啟用多個位置的 QoE
 
-  - 這個命令會針對貴組織中目前使用的所有 QoE 設定設定啟用 QoE。
+  - 此命令會為組織中目前使用的所有 QoE 設定設定啟用 QoE。
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
 </div>
 
-如需詳細資訊，請參閱[設定 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)。
+如需詳細資訊，請參閱 [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的規劃監控](lync-server-2013-planning-for-monitoring.md)  
-[在 Lync Server 2013 中部署監視](lync-server-2013-deploying-monitoring.md)  
+[在 Lync Server 2013 中規劃監控](lync-server-2013-planning-for-monitoring.md)  
+[在 Lync Server 2013 中部署監控](lync-server-2013-deploying-monitoring.md)  
   
 
 </div>

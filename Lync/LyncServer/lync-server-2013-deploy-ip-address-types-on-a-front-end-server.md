@@ -12,20 +12,20 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f70ff3098f11cbb3d3b04602dca9c12a4998a367
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3e9c2f59cd3ee07e565a984ebb6f19d8ff07f50e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763325"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>針對 Lync Server 2013 在前端伺服器上部署 IP 位址類型
+# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>在 Lync Server 2013 的前端伺服器上部署 IP 位址類型
 
 </div>
 
@@ -37,36 +37,36 @@ ms.locfileid: "41763325"
 
 _**主題上次修改日期：** 2016-07-28_
 
-使用拓撲建立器，執行下列程式中的步驟，在前端伺服器上部署 IP 位址類型。
+使用拓撲產生器，執行下列程式中的步驟，以在前端伺服器上部署 IP 位址類型。
 
 <div>
 
-## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>在前端伺服器上部署 IP 位址類型
+## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>若要在前端伺服器上部署 IP 位址類型
 
-1.  在 [**企業版頂層端池**] 底下，以滑鼠右鍵按一下池中的伺服器，然後選取 [**編輯屬性**]。 （或者，選取伺服器，然後從 [**動作**] 功能表按一下 [**編輯屬性**]。）
+1.  在 [ **Enterprise Edition 前端**集區] 底下的集區中，以滑鼠右鍵按一下伺服器，然後選取 [ **編輯屬性**]。  (或者，選取伺服器，然後按一下 [**動作**] 功能表中的 [**編輯屬性**]。 ) 
 
-2.  在 [**編輯屬性**] 對話方塊中，選取您要設定的 IP 位址類型。 針對雙堆疊設定，請選取 [**啟用 IPv4**並**啟用 IPv6**]，如下圖所示。
+2.  在 **[編輯內容]** 對話方塊中，選取您想要設定的 IP 位址類型。針對雙重堆疊設定，選取 **[啟用 IPv4]** 和 **[啟用 IPv6]**，如下圖所示。
     
-    **前端伺服器池的 [編輯屬性] 對話方塊**
+    **前端伺服器集區的 [編輯內容] 對話方塊**
     
-    ![[前端伺服器編輯內容] 對話方塊](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "[前端伺服器編輯內容] 對話方塊")
+    ![前端伺服器 [編輯內容] 對話方塊](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "前端伺服器 [編輯內容] 對話方塊")
     
-      - **使用所有已設定的 IP 位址**。 如果您想要允許使用電腦上定義的任何 IP 位址，請選取此選項。
+      - **使用所有設定的 IP 位址**。如果您想要提供使用電腦上定義的任何 IP 位址，請選取此選項。
         
         <div>
         
 
         > [!NOTE]  
-        > 這是 IP 版本6（IPv6）配置的建議選項。
+        > 此為 IP 版本 6 (IPv6) 組態的建議選項。
 
         
         </div>
     
-      - **將服務使用限制在選取的 IP 位址**。 選取此選項以指定要在新伺服器上使用的特定位址。 如果您選取此選項，您必須輸入 [**主要 IP 位址**] 的值。
+      - **將服務使用方式限制為選取的 IP 位址**。 選取此選項指定在新伺服器上使用的特定位址。 如果您選取此選項，則必須輸入 **主要 IP 位址**的值。
     
-      - [**主要 IP 位址**]。 輸入一個 IP 位址，伺服器會將它用於除公用交換電話網絡（PSTN）以外的所有通訊。 輸入的 IP 位址必須符合 [選取網址類別型] 的格式。
+      - **主要 IP 位址**。輸入伺服器將用於所有通訊 (公用交換電話網路 (PSTN) 除外) 的 IP 位址。輸入的 IP 位址必須符合選取位址類型的格式。
     
-      - **PSTN IP 位址**。 Collocated 中繼伺服器角色不支援安裝其他的網路介面卡（NIC） s 以支援 Lync Server 2013 的 PSTN IP 位址設定。 如需 Lync Server 2013 支援的 NIC 配置的詳細資訊，請參閱[Lync server 2013 的伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md)。
+      - **PSTN IP 位址**。 安裝額外的網路介面卡 (NIC) s，以支援 Lync Server 2013 的 PSTN IP 位址設定，但不支援組合轉送伺服器角色。 如需 Lync Server 2013 支援的 NIC 設定的詳細資訊，請參閱 [伺服器硬體平臺的 Lync server 2013](lync-server-2013-server-hardware-platforms.md)。
 
 </div>
 

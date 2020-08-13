@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將原則指派給常見的區域電話
+title: Lync Server 2013：將原則指派給公共區域電話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e19e2fccabe4759f8cf4cf5eb55ade7e68e2b560
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67ac175ea9aae83a56bd2706bee3c80418b99ea8
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734043"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>在 Lync Server 2013 中將原則指派至常見的區域電話
+# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>將 Lync Server 2013 中的原則指派給一般區域電話
 
 </div>
 
@@ -37,16 +37,16 @@ ms.locfileid: "41734043"
 
 _**主題上次修改日期：** 2013-02-20_
 
-在您為常用的區域手機建立原則之後（如需詳細資訊，請參閱[在 Lync Server 2013 中建立語音原則和設定 PSTN 使用記錄](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)），您可以使用 Windows PowerShell 和適當的**Grant-Cs** Cmdlet，將原則指派給常見的區域電話。 這些 Cmdlet 都可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+在您建立通用區域電話的原則 (如需詳細資訊，請參閱[在 Lync Server 2013) 中建立語音原則和設定 PSTN 使用方式記錄](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)，您可以使用 Windows PowerShell 和適當的**授與 Cs** Cmdlet，將原則指派給公用區域電話。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話執行這些 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
 
 <div>
 
-## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>將原則指派給單一常見區域電話
+## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>將原則指派給單一公共區域電話
 
-  - 下列命令會將每個使用者的語音原則 RedmondVoice 指派給具有 [建築物 14] 之身分識別的一般區域手機。
+  - 下列命令會將個別使用者的語音原則 RedmondVoice 指派給具有身分識別組建14會議廳的一般區域電話。
     
         Grant-CsVoicePolicy -Identity "Building 14 Lobby" -PolicyName "RedmondVoicePolicy"
 
@@ -54,24 +54,24 @@ _**主題上次修改日期：** 2013-02-20_
 
 <div>
 
-## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>將原則指派給多個常見的區域手機
+## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>將原則指派給多個公共區域電話
 
-  - 在這個範例中，每個使用者的語音原則 RedmondVoice 都指派給所有設定為在組織中使用的通用區域電話。
+  - 在此範例中，會將每位使用者的語音原則 RedmondVoice 指派給所有設定供組織使用的公用區域電話。
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
 </div>
 
-如需詳細資訊，請參閱[授權 CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy)的說明主題。
+如需詳細資訊，請參閱[Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy)的說明主題。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
   
 
 </div>

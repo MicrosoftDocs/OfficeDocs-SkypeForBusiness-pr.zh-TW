@@ -1,5 +1,5 @@
 ---
-title: DNS 摘要 - 調整式合併 Edge (利用硬體負載平衡器)
+title: 使用硬體負載平衡器的 DNS 摘要-調整式合併 edge
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6be703e13ec50eb66ba52c981196df06adc6e5b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5625aa9d6211c703853b110b3fec439113cfa48d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737193"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要 - 調整式合併 Edge (利用硬體負載平衡器)
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-調整式合併 edge （使用硬體負載平衡器）
 
 </div>
 
@@ -37,58 +37,58 @@ ms.locfileid: "41737193"
 
 _**主題上次修改日期：** 2013-01-27_
 
-對 Lync Server 2013 進行遠端存取的 DNS 記錄需求與憑證和埠的遠端存取是相當直接的。 此外，許多記錄都是選擇性的，視您如何設定執行 Lync 2013 的用戶端以及是否啟用同盟而定。
+對 Lync Server 2013 的遠端存取的 DNS 記錄需求，與憑證及埠的遠端存取非常直接。 此外，許多記錄是選用的，取決於如何設定執行 Lync 2013 的用戶端，以及是否啟用同盟。
 
-如需有關 Lync 2013 DNS 需求的詳細資訊，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)。
+如需 Lync 2013 DNS 需求的詳細資訊，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)。
 
-如需有關設定 Lync 2013 用戶端的自動設定的詳細資料，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)（不含分割大腦 dns）一節。
+如需設定如何設定 Lync 2013 用戶端自動設定的詳細資訊，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)中的「自動設定沒有分割的大腦 dns」一節。
 
-下表包含支援經過調整的合併邊緣拓朴（硬體負載平衡）圖所需的 DNS 記錄摘要。 請注意，只有 Lync 用戶端的自動設定需要特定的 DNS 記錄。 如果您打算使用群組原則物件（Gpo）來設定 Lync 用戶端，則不需要相關聯的記錄。
+下表包含支援調整式合併 Edge 拓撲 (硬體負載平衡) 圖所需之 DNS 記錄的摘要。 請注意，只有 Lync 用戶端的自動設定需要某些 DNS 記錄。 如果您打算使用群組原則物件 (Gpo) 設定 Lync 用戶端，則不需要關聯的記錄。
 
 <div>
 
-## <a name="important-edge-server-network-adapter-requirements"></a>重要： Edge 伺服器網路介面卡需求
+## <a name="important-edge-server-network-adapter-requirements"></a>重要： Edge Server 網路介面卡需求
 
-若要避免路由問題，請確認 Edge 伺服器中至少有兩個網路介面卡，且 [預設閘道] 只在與外部介面相關聯的網路介面卡上設定。 例如，如在 Lync Server 2013 中以縮放的合併邊緣案例中所示，在[使用硬體負載平衡器調整合並邊緣](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)的情況圖中，預設閘道會指向外部防火牆。
+若要避免路由問題，請確認 Edge Server 中至少有兩個網路介面卡，且預設閘道只會在與外部介面相關聯的網路介面卡上設定。 例如，在 [調整式合併 edge 案例] 中，在[Lync Server 2013 中使用硬體負載平衡器調整](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)式合併 edge 案例中所顯示的預設閘道會指向外部防火牆。
 
-您可以在每個邊緣伺服器中設定兩個網路介面卡，如下所示：
+您可以在每一部 Edge Server 中設定兩個網路介面卡，如下所示：
 
-  - **網路介面卡1（內部介面）**
+  - **網路介面卡 1 (內部介面)**
     
-    已指派172.25.33.10 的內部介面。
+    已指派 172.25.33.10 的內部介面。
     
-    沒有預設閘道。
+    無預設閘道。
     
-    請確定有來自網路的路由，包含 Edge 伺服器內部介面至任何包含 Lync Server 用戶端或執行 Lync Server 之伺服器的網路（例如從172.25.33.0 到192.168.10.0）。
+    請確定有從包含 Edge Server 內部介面的網路到包含 Lync Server 用戶端或執行 Lync Server 之伺服器的任何網路的路由 (例如，從172.25.33.0 到 192.168.10.0) 。
 
-  - **網路介面卡2（外部介面）**
+  - **網路介面卡 2 (外部介面)**
     
-    系統會將三個公用 IP 位址指派給這個網路介面卡，例如 131.107.155.10 [存取邊緣服務]，131.107.155.20 [網路會議 Edge 服務]，131.107.155.30 提供 A/V 邊緣服務。
+    三個公用 IP 位址會指派給此網路介面卡，例如131.107.155.10 用於 Access Edge service、131.107.155.20 for Web 會議 Edge service、131.107.155.30 for A/V Edge service。
     
     <div>
     
 
     > [!NOTE]
-    > 指派給 Edge 伺服器實際外部網路介面的 IP 位址，可能會視您選擇的硬體負載平衡器而定。 請參閱硬體負載平衡器的相關檔，瞭解實際的 IP 位址需求。<BR>如果不建議這樣做，您可以針對所有三個邊緣服務介面使用單一 IP 位址。 雖然這會儲存 IP 位址，但是它需要每個服務有不同的埠號碼。 預設埠號碼為 443/TCP，可確保大多數的遠端防火牆都能允許流量。 將埠值變更為（例如） [存取邊緣] 服務的 [5061/TCP]、[網路會議邊緣] 服務的 [444/tcp] 和 [A/V 邊緣] 服務的 443/TCP，可能會導致遠端使用者發生問題，而這些使用者的防火牆不允許使用 5061/TCP 和 444/TCP 的流量。 此外，三個不同的 IP 位址可讓疑難排解變得更容易，因為能夠篩選 IP 位址。
+    > 指派給 Edge Server 實際外部網路介面的 IP 位址，可能取決於您所選擇的硬體負載平衡器。 請參閱硬體負載平衡器的檔，以瞭解實際的 IP 位址需求。<BR>將單一 IP 位址用於所有三個 Edge 服務介面是可行的，但不建議這麼做。 雖然這樣會儲存 IP 位址，但每個服務需要不同的連接埠號碼。 預設連接埠號碼為 443/TCP，可確保大部分遠端防火牆都允許該流量。 將埠值變更為 (例如，Access Edge service 的) 5061/tcp; A/V Edge service 的 Web 會議 Edge service 和443/TCP 的 444/TCP）可能會為遠端使用者造成問題，但這些使用者在其背後的防火牆不允許流量超過 5061/TCP 和 444/TCP。 此外，由於可以在 IP 位址上進行篩選，因此三個不同的 IP 位址會讓疑難排解較為容易。
 
     
     </div>
     
-    [存取邊緣服務 IP 位址] 是主要的，預設閘道設定為 [面向網際網路的路由器] （131.107.155.1）。
+    Access Edge service 的 IP 位址為主要位址，且預設閘道設定為網際網路對向路由器 (131.107.155.1) 。
     
-    Web 會議 Edge 服務和 A/V 邊緣服務 IP 位址是副。
+    Web 會議 Edge service 和 A/V Edge service IP 位址次要。
 
 <div>
 
 
 > [!TIP]
-> 將 Edge 伺服器設定成兩個網路介面卡是其中一個選項。 另一個選項是將一個網路介面卡用於內部端，而將三個網路介面卡用於邊緣伺服器的外部端。 此選項的主要優點是每 Edge 伺服器服務有一個獨特的網路介面卡，而且在需要疑難排解時也可能更簡明地收集資料
+> 設定具有兩個網路介面卡的 Edge Server 是兩個選項之一。 另一種方法是針對 Edge Server 的外部端，使用一個網路介面卡作為內部端和三個網路介面卡。 此選項的主要優點是，每個 Edge Server 服務都有不同的網路介面卡，而且在進行疑難排解時，可能會有更簡明的資料收集方式。
 
 
 
 </div>
 
-### <a name="dns-records-required-for-scaled-consolidated-edge-hardware-load-balanced-example"></a>已調整的合併邊緣所需的 DNS 記錄，以及硬體負載平衡（範例）
+### <a name="dns-records-required-for-scaled-consolidated-edge-hardware-load-balanced-example"></a>調整式合併 Edge （硬體負載平衡 (範例）所需的 DNS 記錄) 
 
 <table>
 <colgroup>
@@ -102,7 +102,7 @@ _**主題上次修改日期：** 2013-01-27_
 <th>位置/類型/埠</th>
 <th>FQDN/DNS 記錄</th>
 <th>IP 位址/FQDN</th>
-<th>地圖/批註</th>
+<th>對應至/註解</th>
 </tr>
 </thead>
 <tbody>
@@ -110,37 +110,37 @@ _**主題上次修改日期：** 2013-01-27_
 <td><p>外部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>131.107.155.10</p></td>
-<td><p>Access Edge 服務外部介面（Contoso）。 在已啟用 Lync 功能的使用者的情況中，針對所有 SIP 網域重複上述動作</p></td>
+<td><p>Access Edge service 外部介面 (Contoso) 。 請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
 <td><p>webcon.contoso.com</p></td>
 <td><p>131.107.155.20</p></td>
-<td><p>網路會議 Edge 服務外部介面</p></td>
+<td><p>Web 會議 Edge service 外部介面</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/A</p></td>
 <td><p>av.contoso.com</p></td>
 <td><p>131.107.155.30</p></td>
-<td><p>A/V 邊緣服務外部介面</p></td>
+<td><p>A/V Edge service 外部介面</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/SRV/443</p></td>
-<td><p>_sip. _tls. .com</p></td>
+<td><p>_sip _tls .com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Access Edge 服務外部介面。 需要自動設定 Lync 2013 和 Lync 2010 用戶端才能在外部作業。 在已啟用 Lync 功能的使用者的情況中，針對所有 SIP 網域重複上述步驟。</p></td>
+<td><p>Access Edge service 外部介面。 自動設定 Lync 2013 和 Lync 2010 用戶端時必須執行，以供外部工作。 請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. .com</p></td>
+<td><p>_sipfederationtls _tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>SIP 存取邊緣服務外部介面需要聯盟夥伴的自動 DNS 探索（稱為「允許 SIP 網域」（在舊版發行中稱為「已允許 SIP 網域」）。 在已啟用 Lync 功能的使用者以及使用推播通知服務或 Apple 推播通知服務的 Microsoft Lync 行動用戶端的情況下，對所有 SIP 網域重複上述步驟。</p></td>
+<td><p>需要 SIP Access Edge service 外部介面，以供同盟協力廠商（稱為「允許的 SIP 網域」）自動探索，但在先前版本) 中稱為「增強型同盟」 (。 針對具有啟用 Lync 功能之使用者的所有 SIP 網域和使用推播通知服務或 Apple Push Notification 服務的 Microsoft Lync 行動用戶端，重複此步驟。</p></td>
 </tr>
 <tr class="even">
 <td><p>內部 DNS/A</p></td>
 <td><p>lsedge.contoso.net</p></td>
 <td><p>172.25.33.10</p></td>
-<td><p>整合的邊緣內部介面</p></td>
+<td><p>合併 Edge 內部介面</p></td>
 </tr>
 </tbody>
 </table>

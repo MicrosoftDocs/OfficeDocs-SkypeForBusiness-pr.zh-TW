@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： [高級企業語音功能] 的網路設定
+title: Lync Server 2013：高級 Enterprise Voice 功能的網路設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1ce4983f7744158c9c9ff56cdfdde818fdc8e14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 340a1902137b6c675b154ef9ccf3d9fbcc882e88
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765874"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013 中的 [高級企業語音功能] 的網路設定
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013 中的高級 Enterprise Voice 功能的網路設定
 
 </div>
 
@@ -37,77 +37,77 @@ ms.locfileid: "41765874"
 
 _**主題上次修改日期：** 2012-10-10_
 
-Lync Server 有三個高級企業語音功能： [呼叫許可控制] （CAC）、緊急服務（E9-1-1），以及 [媒體旁路]。 這些功能會在 Lync 伺服器拓撲中與網路網站共用網路區域、網路網站和每個子閘道聯的特定設定需求。 如需規劃部署這些功能的詳細資訊，請參閱：
+Lync Server 具有三個高級 Enterprise Voice 功能：通話許可控制 (CAC) 、緊急服務 (E9-1-1) 和媒體旁路。 這些功能會在 Lync Server 拓撲中，共用網路地區、網路網站及每個子網與網路網站關聯的特定設定需求。 如需這些功能之部署規劃的詳細資訊，請參閱：
 
   - [在 Lync Server 2013 中規劃通話許可控制](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [在 Lync Server 2013 中規劃緊急服務 (E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [在 Lync Server 2013 中規劃緊急服務 (E9-1-1) ](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
   - [在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)
 
-如需有關部署這些功能的詳細資訊，請參閱部署檔中的[Lync Server 2013 中的 [部署高級企業語音功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)]。
+如需有關部署上述各項功能的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中部署 Advanced Enterprise Voice 功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)。
 
-本主題概述所有三個高級企業語音功能通用的配置需求。
-
-<div>
-
-## <a name="network-regions"></a>網路區域
-
-網路區域是網路中樞或網路骨幹，只能在通話許可控制（CAC）、E9-1 及媒體旁路設定中使用。
+本主題概要說明所有三種高級 Enterprise Voice 功能的常見設定需求。
 
 <div>
 
+## <a name="network-regions"></a>網路地區
 
-> [!NOTE]  
-> 網路區域與 Lync Server 電話撥入式會議區域不同，必須將電話撥入式會議存取號碼與一或多個 Lync Server 撥號方案建立關聯。 如需電話撥入式會議區域的詳細資料，請參閱規劃檔中的<A href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 中的電話撥入式會議需求</A>。
-
-
-
-</div>
-
-CAC 需要每個網路區域都有一個相關聯的 Lync Server 中央網站，可管理該區域內的媒體流量（亦即根據已設定的原則作出決策，關於是否有即時音訊或視頻會話可以建立）。 Lync Server 中央網站不代表地理位置，而是設定為一個池或一組池的邏輯伺服器群組。 如需中心網站的詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的參考拓撲](lync-server-2013-reference-topologies.md)。 另請參閱可支援性檔中的[Lync Server 2013 支援的拓撲](lync-server-2013-supported-topologies.md)。
-
-若要設定網路區域，您可以使用 Lync Server [控制台] 的 [**網路**設定] 區段上的 [**區域**] 索引標籤，或執行**新的 CsNetworkRegion**或**CsNetworkRegion 的**Lync server 管理命令介面 Cmdlet。 如需相關指示，請參閱在部署檔中的[Lync server 2013 中建立或修改網路區域](lync-server-2013-create-or-modify-a-network-region.md)，或參閱 Lync Server 管理命令介面檔。
-
-所有三個高級企業語音功能都將共用相同的網路區域定義。 如果您已經為一個功能建立了網路區域，就不需要為其他功能建立新的網路區域。 不過，您可能需要修改現有的網路區域定義，才能套用特定功能的設定。 例如，如果您已建立 E9 的網路區域（不需要關聯的中央網站），且稍後您要部署 [呼叫許可控制]，則您必須修改每個網路區域定義，才能指定中央網站。
-
-若要將 Lync Server 中央網站與網路區域建立關聯，您可以指定中心網站名稱，方法是使用 Lync Server [控制台] 的 [**網路**設定] 區段，或執行**新的 CsNetworkRegion**或**CsNetworkRegion** Lync server 管理命令介面 Cmdlet。 如需相關指示，請參閱在部署檔中的[Lync server 2013 中建立或修改網路區域](lync-server-2013-create-or-modify-a-network-region.md)，或參閱 Lync Server 管理命令介面檔。
-
-</div>
-
-<div>
-
-## <a name="network-sites"></a>網路網站
-
-Network 網站代表地理位置，例如分支機搆、地區辦事處或主辦公室。 每個網路網站都必須與特定的網路區域建立關聯。
+網路地區是一種網路中樞或網路骨幹，只有在通話許可控制 (CAC)、E9-1-1 和媒體旁路的組態中才會使用。
 
 <div>
 
 
 > [!NOTE]  
-> 網路網站只能由高級企業語音功能使用。 它們與您在 Lync Server 拓撲結構中設定的分支網站不同。 如需分支網站的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-reference-topologies.md">Lync Server 2013 中的參考拓撲</A>。 另請參閱可支援性檔中的<A href="lync-server-2013-supported-topologies.md">Lync Server 2013 支援的拓撲</A>。
+> 網路地區與 Lync Server 電話撥入式會議地區不同，後者與一或多部 Lync Server 撥號對應表建立電話撥入式會議存取號碼的要求。 如需電話撥入式會議區域的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 中的電話撥入式會議需求</A>。
 
 
 
 </div>
 
-若要設定網路網站並將它與網路區域建立關聯，您可以使用 Lync Server [控制台] 的 [**網路**設定] 區段，或執行 Lync Server Management Shell **CsNetworkSite**或**CsNetworkSite** Cmdlet。 如需詳細資訊，請參閱在部署檔中的[Lync server 2013 中建立或修改網路網站](lync-server-2013-create-or-modify-a-network-site.md)，或參閱 Lync Server 管理命令介面檔。
+CAC 需要每個網路地區都有相關聯的 Lync Server 中央網站，它會管理地區內的媒體流量 (也就是說，它會根據您設定的原則進行決策，有關是否可以) 建立即時音訊或視頻會話。 Lync Server 中央網站不代表地理位置，而是設定為集區或集區集區的邏輯群組。 如需中央網站的詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的參考拓撲](lync-server-2013-reference-topologies.md)。 另請參閱支援檔中的[Lync Server 2013 中支援的拓撲](lync-server-2013-supported-topologies.md)。
+
+若要設定網路地區，您可以使用 Lync Server 控制台的 [**網路**設定] 區段中的 [**區域**] 索引標籤，或執行**New-CsNetworkRegion**或**Set-CsNetworkRegion** Lync server 管理命令介面 Cmdlet。 如需相關指示，請參閱部署檔中的在[Lync server 2013 中建立或修改網路地區](lync-server-2013-create-or-modify-a-network-region.md)，或參考 Lync Server 管理命令介面檔。
+
+所有三個高級 Enterprise Voice 功能都會共用相同的網路地區定義。 如果您已為其中一項功能建立網路地區，即無須再為其他功能建立新的網路地區。 但您可能需要修改現有的網路地區定義，以套用功能特有的設定。 例如，如果您為 E9-1-1 (不需要有相關聯的中央網站) 建立網路地區後，又部署了通話許可控制，則必須修改每個網路地區定義以指定中央網站。
+
+若要將 Lync Server 中央網站與網路地區產生關聯，您可以使用 Lync Server 控制台的 [**網路**設定] 區段，或是執行**New-CsNetworkRegion**或**Set-CsNetworkRegion** Lync server 管理命令介面 Cmdlet 來指定中央網站名稱。 如需相關指示，請參閱部署檔中的在[Lync server 2013 中建立或修改網路地區](lync-server-2013-create-or-modify-a-network-region.md)，或參考 Lync Server 管理命令介面檔。
 
 </div>
 
 <div>
 
-## <a name="identify-ip-subnets"></a>識別 IP 子網
+## <a name="network-sites"></a>網站
 
-針對每個網路網站，您必須與您的網路系統管理員合作，以判斷指派給每個網路網站的 IP 子網。 如果您的網路系統管理員已經將 IP 子網組織到網路區域和網路網站，您的工作會明顯簡化。
+網路網站代表地理位置，例如分公司、地區辦事處或總公司。每個網路網站都必須與某個網路地區相關聯。
 
-例如，您可以將下列 IP 子網指派給北美地區的紐約網站： 172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果 Bob 通常是在底特律中運作，在紐約辦公室進行訓練，然後開啟他的電腦並聯機到網路上，他的電腦將會取得 IP 位址，並在為紐約所指派的四個範圍中的其中一個，例如172.29.80.103。
+<div>
+
+
+> [!NOTE]  
+> 只有「高級 Enterprise Voice」功能才能使用網路網站。 它們不同于您在 Lync Server 拓撲中設定的分支網站。 如需有關分支網站的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-reference-topologies.md">Lync Server 2013 中的參考拓撲</A>。 另請參閱支援檔中的<A href="lync-server-2013-supported-topologies.md">Lync Server 2013 中支援的拓撲</A>。
+
+
+
+</div>
+
+若要設定網路網站，並將其與網路地區產生關聯，您可以使用 Lync Server 控制台的 [**網路**設定] 區段，或執行 Lync Server 管理命令介面**New-CsNetworkSite**或**Set-CsNetworkSite** Cmdlet。 如需詳細資訊，請參閱部署檔中的[建立或修改 Lync server 2013](lync-server-2013-create-or-modify-a-network-site.md)中的網站，或參考 Lync Server 管理命令介面檔。
+
+</div>
+
+<div>
+
+## <a name="identify-ip-subnets"></a>識別 IP 子網路
+
+對於每一個網站，您需要和網路管理員一同決定要指派給每一個網站的 IP 子網路。如果您的網路管理員已經整理好各個網路地區與網站的 IP 子網路，您的工作將會大幅簡化。
+
+例如，可以將指派以下 IP 子網路給北美洲區域內的紐約網站：172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. 假設平常在 Detroit 工作的 Bob 要到 New York 分公司受訓。當他開啟自己的電腦並連線至網路時，他的電腦會取得分配給紐約的四個範圍內的其中一個 IP 位址，例如，172.29.80.103。
 
 <div>
 
 
 > [!WARNING]  
-> 在伺服器的網路設定期間指定的 IP 子網必須符合用戶端電腦所提供的格式，才能正確地用於媒體旁路。 Lync 用戶端會採用其本機 IP 位址，並使用相關聯的子網路遮罩來遮罩 IP 位址。 在判斷與每個用戶端相關的旁路識別碼時，註冊機構會將與每個網路網站相關聯的 IP 子網清單與用戶端提供的子網進行比較，以取得完全相符的專案。 基於這個原因，在伺服器的網路設定期間輸入的子網很重要，而不是虛擬子網。 （如果您部署 [呼叫許可控制]，但無法使用 [媒體旁路]，即使您設定虛擬子網，也能正常使用通話許可控制功能。）<BR>例如，如果 Lync 用戶端在 IP 位址為172.29.81.57 且 IP 子網路遮罩為255.255.255.0 的電腦上登入，則會要求與子網172.29.81.0 相關聯的旁路 ID。 如果子網是定義為 172.29.0.0/16，雖然用戶端屬於虛擬子網，但註冊機構不會認為這個相符，因為註冊機構特別想要尋找子網172.29.81.0。 因此，系統管理員必須完全按照 Lync 用戶端所提供的方式輸入子網（無論是靜態或由動態主機設定通訊協定（DHCP），都能在網路設定期間由子網進行設定。）
+> 在伺服器上的網路設定期間指定的 IP 子網必須符合用戶端電腦所提供的格式，才能正確用於媒體旁路。 Lync 用戶端會採用其本機 IP 位址，並以關聯的子網路遮罩遮罩 IP 位址。 決定與每一位用戶端相關聯的旁路識別碼時，註冊機構會比較與用戶端所提供之子網相關聯的 IP 子網清單，以取得完全相符的專案。 因此，在伺服器上的網路設定期間輸入的子網，必須是實際的子網，而不是虛擬子網，這一點很重要。  (如果您部署通話許可控制，但沒有媒體旁路，則即使您設定虛擬子網，通話許可控制也會正常運作。 ) <BR>例如，如果 Lync 用戶端在其 IP 位址為172.29.81.57 且 IP 子網路遮罩為255.255.255.0 的電腦上登入，則會要求與子網172.29.81.0 相關聯的旁路識別碼。 如果子網路定義為 172.29.0.0/16，則儘管用戶端屬於虛擬子網路，登錄器仍舊不會將其視為完全相符，因為登錄器所尋找的是真正的子網路 172.29.81.0。 因此，管理員必須嚴格依照 Lync 用戶端所提供的方式輸入子網， (會在網路設定期間（靜態或透過動態主機設定通訊協定 (DHCP) ）輸入子網。 ) 
 
 
 
@@ -117,21 +117,21 @@ Network 網站代表地理位置，例如分支機搆、地區辦事處或主辦
 
 <div>
 
-## <a name="associating-subnets-with-network-sites"></a>將子網與網路網站建立關聯
+## <a name="associating-subnets-with-network-sites"></a>建立子網路與網路網站的關聯
 
-商業網路中的每個子網都必須與網路網站相關聯（也就是說，每個子網上都需要與地理位置相關聯）。 這個子網的關聯性能讓 [高級企業語音] 功能在地理位置找到端點。 例如，找出端點可讓 CAC 從網路網站傳送即時音訊及視頻資料的流程。
+企業網路中的每個子網路都必須與某個網路網站相關聯 (亦即，每個子網路都必須與某個地理位置相關聯)。 這個子閘道聯可讓高級 Enterprise Voice 功能找到地理位置的端點。 例如，找出端點位置後，CAC 可以調節進出該網路網站的即時音訊與視訊資料流量。
 
-若要將子網與網路網站建立關聯，您可以使用 Lync Server [控制台] 的 [**網路**設定] 區段，或者您可以使用 Lync Server 管理命令介面。 如需相關指示，請參閱在部署檔中[將子網與 Lync server 2013 中的網路網站建立關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md)，或參閱 Lync Server 管理命令介面檔。
+若要將子網與網站產生關聯，您可以使用 Lync Server 控制台的 [**網路**設定] 區段，也可以使用 Lync Server 管理命令介面。 如需相關指示，請參閱部署檔中的在[Lync server 2013 中建立子網與網站的關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md)，或參考 Lync Server 管理命令介面檔。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中規劃通話許可控制](lync-server-2013-planning-for-call-admission-control.md)  
-[在 Lync Server 2013 中規劃緊急服務 (E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)  
+[在 Lync Server 2013 中規劃緊急服務 (E9-1-1) ](lync-server-2013-planning-for-emergency-services-e9-1-1.md)  
 [在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
   
 

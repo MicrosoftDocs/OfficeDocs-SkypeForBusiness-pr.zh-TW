@@ -12,20 +12,20 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a6897ae45964f3f179e951916dfb6bf7180641
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21e369c762a1333e92ee91b4240577dc669d82dd
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724943"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42201879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-domains-for-lync-server-2013"></a>針對 Lync Server 2013 準備網域
+# <a name="preparing-domains-for-lync-server-2013"></a>準備 Lync Server 2013 的網域
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724943"
 
 _**主題上次修改日期：** 2012-10-29_
 
-[網域準備] 是為 Lync Server 2013 準備 Active Directory 網域服務的最後一個步驟。 [網域準備] 步驟會將必要的存取控制專案（Ace）新增至通用群組，以便在網域中授與主機及管理使用者的許可權。 [網域準備] 會在網域根目錄和三個內建容器中建立 Ace：使用者、電腦及網網域控制站。
+網域準備是準備 Lync Server 2013 的 Active Directory 網域服務的最後一個步驟。 網域準備步驟會將必要的存取控制項目 (ACE) 新增至萬用群組，而這些群組會授與權限來裝載和管理網域內的使用者。 網域準備作業會在網域根目錄和三個內建容器上建立 ACE：使用者、電腦和網域控制站。
 
-您可以在要部署 Lync Server 的網域中的任何電腦上執行網域準備。 您必須準備將主持 Lync Server 或使用者的每個網域。
+您可以在要部署 Lync Server 的網域中的任何電腦上執行網域準備工作。 您必須準備將主控 Lync Server 或使用者的每個網域。
 
-如果已停用許可權繼承，或在您的組織中停用驗證的使用者許可權，您必須在網域準備期間執行其他步驟。 如需詳細資訊，請參閱[在 Lync Server 2013 中準備鎖定的 Active Directory 網域服務](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
+如果停用許可權繼承或已驗證使用者許可權已在您的組織中停用，您必須在準備網域期間執行其他步驟。 如需詳細資訊，請參閱[在 Lync Server 2013 中準備鎖定的 Active Directory 網域服務](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
 
-如果您的組織使用組織單位（OU），而不是三個內建的容器（也就是使用者、電腦及網網域控制站），則您必須授與已驗證使用者群組的 Ou 讀取權限。 網域準備必須具備容器的讀取權。 如果 [經過驗證的使用者] 群組沒有 OU 的讀取存取權，請執行**CsOuPermission** Cmdlet，如下列程式碼範例所示，以授與每個 OU 的讀取權限。
+如果您的組織使用組織單位 (OU) 而不是三個內建容器 (也就是) 的使用者、電腦和網域控制站，您必須授與已驗證使用者群組之 Ou 的讀取權限。 執行網域準備工作時，必須要有容器的讀取存取權。 如果 [已驗證使用者] 群組沒有 OU 的「讀取」存取權，請執行**Grant-CsOuPermission**指令程式，如下列程式碼範例所示，以授與每個 OU 的讀取權限。
 
    ```PowerShell
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
@@ -53,13 +53,13 @@ _**主題上次修改日期：** 2012-10-29_
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 
-如需**授權 CsOuPermission** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔。
+如需**Grant-CsOuPermission** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔。
 
 <div class="">
 
 
 > [!TIP]  
-> 如需在網域根目錄和 [使用者]、[電腦] 和 [網網域控制站] 容器中建立之 Ace 的詳細資料，請參閱<A href="lync-server-2013-changes-made-by-domain-preparation.md">Lync Server 2013 中的 [由網域準備所做的變更</A>]。
+> 如需在網域根及使用者、電腦和網域控制站容器中建立之 Ace 的詳細資訊，請參閱<A href="lync-server-2013-changes-made-by-domain-preparation.md">Lync Server 2013 中的網域準備所做的變更</A>。
 
 
 
@@ -67,11 +67,11 @@ _**主題上次修改日期：** 2012-10-29_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [為 Lync Server 2013 執行網域準備](lync-server-2013-running-domain-preparation.md)
+  - [對 Lync Server 2013 執行網域準備](lync-server-2013-running-domain-preparation.md)
 
-  - [將 Cmdlet 用於 Lync Server 2013 的反向網域準備](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
+  - [使用 Cmdlet 進行 Lync Server 2013 的反向網域準備](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
 
 </div>
 

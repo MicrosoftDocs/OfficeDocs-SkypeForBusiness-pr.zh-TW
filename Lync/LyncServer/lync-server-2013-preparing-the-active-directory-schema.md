@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：準備 Active Directory 結構描述
+title: Lync Server 2013：準備 Active Directory 架構
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 572f531b57c504bda210f8f21298076428342b62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efabd082fce4dba5cf210e2c0f9c390324474cd2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747393"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42201779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>在 Lync Server 2013 中準備 Active Directory 結構描述
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>在 Lync Server 2013 中準備 Active Directory 架構
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41747393"
 
 _**主題上次修改日期：** 2012-08-27_
 
-在您開始準備 Active Directory 網域服務之前，您可以使用文字編輯器（例如 Windows Notepad）來開啟架構檔案，或參閱 Lync Server 2013 用來檢查將針對 Lync Server 2013 進行修改之所有 Active Directory 網域服務架構擴充的[Active directory 架構副檔名、類別及屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)。 Lync Server 使用四個架構檔：
+在您開始準備 Active Directory 網域服務之前，您可以使用文字編輯器（例如 Windows Notepad）來開啟架構檔案，或查看[Lync server 2013 所使用的 Active directory 架構副檔名、類別和屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)，以查看將針對 Lync server 2013 修改的所有 Active Directory 網域服務架構擴充。 Lync Server 使用四個架構檔案：
 
-  - ExternalSchema，用於與 Microsoft Exchange Server 的互通性
+  - 用於與 Microsoft Exchange Server 進行互通性的 ExternalSchema.ldf
 
-  - ServerSchema，這是主要的 Lync Server 2013 架構檔
+  - ServerSchema.ldf，也就是主要 Lync Server 2013 架構檔案
 
-  - BackCompatSchema，可用於與先前版本中的任何元件進行互通性
+  - BackCompatSchema.ldf，這個檔案用於提供與任何舊版元件的互通性
 
-  - VersionSchema，用於預準備架構的版本資訊
+  - VersionSchema.ldf，這個檔案用於提供預備架構的版本資訊
 
-所有的 .ldf 檔案都會在架構準備期間進行安裝，不論您是從先前的版本進行遷移，還是執行全新安裝。 這些架構檔案是按照前面清單中顯示的順序來安裝，並位於安裝媒體\\上\\的 [支援架構] 資料夾中。
+不論您是從舊版進行移轉或執行全新安裝，所有 .ldf 檔案都是在架構準備期間進行安裝。 這些架構檔案會依上述清單中顯示的順序安裝，並位於 \\ \\ 安裝媒體上的 [支援架構] 資料夾中。
 
-Lync Server 架構擴充功能會在所有網域中複製，這會影響網路流量。 當網路使用量較低時，請一次執行架構準備。
+Lync Server 架構擴充會在所有網域間進行複製，這會影響網路流量。 請在網路使用率較低時執行架構準備作業。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您需要新增 Microsoft® Office Communicator Mobile 2007 R2 for JAVA 及 Microsoft® Office Communicator Mobile for Nokia 1.0 行動用戶端至 Lync Server 2013 部署，您必須準備 Microsoft Office 的 Active Directory 架構在安裝 Lync Server 2013 期間，通訊伺服器 2007 R2。 如需軟體和檔，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>。
+> 如果您需要將 Microsoft® Office Communicator Mobile 2007 R2 for JAVA 和 Microsoft® Office Communicator mobile for Nokia 1.0 行動用戶端新增至您的 Lync Server 2013 部署，您必須在安裝 Lync Server 2013 期間，準備好 Microsoft Office 通訊2007伺服器的 Active Directory 架構。 如需必要的軟體及檔，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A> 。
 
 
 
@@ -63,33 +63,33 @@ Lync Server 架構擴充功能會在所有網域中複製，這會影響網路�
 
 <div>
 
-## <a name="adsi-edit"></a>ADSI 編輯
+## <a name="adsi-edit"></a>ADSI 編輯器
 
-Active Directory 服務介面編輯器（ADSI 編輯）是一個 AD DS 管理工具，可讓您用來驗證架構準備及複製。
+Active Directory 服務介面編輯器 (ADSI 編輯器) 是您可以用於驗證架構準備和複寫的 AD DS 系統管理工具。
 
-當您安裝 AD DS 角色以使伺服器成為網網域控制站時，預設會安裝 ADSI 編輯。 針對 Windows Server 2008 和 Windows Server 2008 R2，ADSI 編輯（adsiedit）包含在遠端伺服器管理工具（RSAT）中。 您也可以在網域成員伺服器或獨立伺服器上安裝 RSAT。 預設會在您安裝 Windows 時將 RSAT 套件複製到這些伺服器，但預設不會安裝。 您可以使用伺服器管理員安裝個別的工具。 ADSI 編輯包含在**角色管理工具**、 **Active Directory 網域服務工具**、 **active directory 網網域控制站工具**底下。
+當您安裝 AD DS 角色以使伺服器成為網域控制站時，預設會安裝 ADSI 編輯器。 若為 Windows Server 2008 和 Windows Server 2008 R2，ADSI Edit (adsi) 隨附 (RSAT) 的遠端伺服器管理工具。 您也可以在網域成員伺服器或獨立伺服器上安裝 RSAT。 RSAT 套件預設會在您安裝 Windows 時複製到這些伺服器，但並不會進行安裝。 您可以使用伺服器管理員來安裝個別的工具。 「ADSI 編輯器」包含在 **[角色管理工具]**、**[Active Directory 網域服務工具]**、**[Active Directory 網域控制站工具]** 之下。
 
-針對 Windows Server 2003，[支援工具] 附帶 ADSI [編輯]。 支援工具可從 [ \\支援\\工具] 資料夾中的 windows server 2003 光碟取得，您也可以從 [Windows server 2003 Service Pack 2 32-位支援工具] 下載。 [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770) 您可以從「安裝 Windows 支援工具」中取得從產品光碟安裝支援工具的指示[http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)。 當您安裝支援工具時，會自動註冊 Adsiedit .dll。 不過，如果您已將檔案複製到您的電腦，您必須先執行**regsvr32**命令來註冊 adsiedit .dll 檔案，然後才能執行此工具。
+如果是 Windows Server 2003，ADSI 編輯器包含在支援工具中。 支援工具可在 [支援工具] 資料夾中的 [Windows Server 2003 CD] 中取得 \\ \\ ，您也可以從「windows Server 2003 Service Pack 2 32-位支援工具」下載這些工具 [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770) 。 您可以從「安裝 Windows 支援工具」中取得安裝產品 CD 支援工具的指示 [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771) 。 當您安裝支援工具時，就會自動登錄 Adsiedit.dll。 不過，若您將檔案複製到電腦，則必須先執行 **regsvr32** 命令來登錄 adsiedit.dll 檔案，才能執行該工具。
 
 </div>
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [在 Lync Server 2013 中執行 Active Directory 架構準備](lync-server-2013-running-schema-preparation.md)
 
-  - [在 Lync Server 2013 中驗證 Active Directory 結構描述複寫](lync-server-2013-verifying-schema-replication.md)
+  - [在 Lync Server 2013 中驗證 Active Directory 架構複寫](lync-server-2013-verifying-schema-replication.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[為 Lync Server 2013 準備樹系](lync-server-2013-preparing-the-forest.md)  
-[針對 Lync Server 2013 準備網域](lync-server-2013-preparing-domains.md)  
+[準備 Lync Server 2013 的樹系](lync-server-2013-preparing-the-forest.md)  
+[準備 Lync Server 2013 的網域](lync-server-2013-preparing-domains.md)  
   
 
 </div>

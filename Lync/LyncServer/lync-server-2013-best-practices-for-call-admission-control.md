@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話許可控制的最佳做法
+title: Lync Server 2013：通話許可控制的最佳作法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d8f75c546b2307de8f55504c2c6ebaab5c48f7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f9c7da9fd484ec0229417233de3f4338dd9f4b4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741673"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中通話許可控制的最佳做法
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中通話許可控制的最佳作法
 
 </div>
 
@@ -37,30 +37,30 @@ ms.locfileid: "41741673"
 
 _**主題上次修改日期：** 2012-09-22_
 
-若要增強效能並簡化部署，請在部署 [通話許可控制] 時套用下列最佳做法：
+若要增強效能及協助部署，請在部署通話許可控制時套用下列最佳作法：
 
-  - 確定 Wan 已充分為目前與預期媒體流量提供適當的配置。
+  - 確定已針對目前和預期的媒體流量充分佈建 Wan。
     
     <div>
     
 
     > [!NOTE]  
-    > 我們建議您將緩衝區中的頻寬限制為 [頻寬限制]。 在某些情況下，會影響頻寬限制所使用的總頻寬，並可能導致超出頻寬限制的情況。 例如，如果兩個來電嘗試在媒體流量接近頻寬限制時開始，可能是其中一個呼叫被拒絕，因為另一個管理的專案會先開始。
+    > 建議您將緩衝區中的頻寬限制考慮在內。 有些案例會影響使用總頻寬的爭用狀況，而且可能會導致超出頻寬限制的情況。 例如，如果兩次來電嘗試在媒體流量接近頻寬限制時啟動，其中一位可能會遭到拒絕，因為另一個管理的功能會先開始。
 
     
     </div>
 
-  - 監控網路使用量和通話詳細資料記錄，讓您可以選擇最佳的 CAC 設定，並在網路使用量變更時更新 CAC 設定。
+  - 監視網路使用量和詳細通話記錄，以便您可以選擇最優 CAC 設定，並在網路使用量變更時更新 CAC 設定。
 
   - 使用 CAC 頻寬原則來補充 QoS 設定。
 
-  - 如果您想要將封鎖的通話重新路由到 PSTN，請驗證 PSTN 功能和容量。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃出站語音路由](lync-server-2013-planning-outbound-voice-routing.md)。
+  - 如果您想要將封鎖的來電重新路由至 PSTN，請驗證 PSTN 功能和容量。 如需詳細資訊，請參閱[規劃 Lync Server 2013 中的外寄語音路由](lync-server-2013-planning-outbound-voice-routing.md)。
     
     <div>
     
 
     > [!NOTE]  
-    > [容量] 指的是您需要開啟以支援 PSTN 重新路由的埠數。
+    > 「容量」指的是您需要開啟以支援潛在 PSTN 重新路由的埠數目。
 
     
     </div>

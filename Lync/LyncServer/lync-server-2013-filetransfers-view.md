@@ -12,20 +12,20 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4469140f7f92c563a594c883d02f3add1e65c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c2bf6f78a564ef1fd526ba8d265bedf81c845810
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743373"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-view-in-lync-server-2013"></a>Lync Server 2013 中的 [FileTransfers] 視圖
+# <a name="filetransfers-view-in-lync-server-2013"></a>Lync Server 2013 中的 FileTransfers 視圖
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41743373"
 
 _**主題上次修改日期：** 2012-10-01_
 
-FileTransfer view 會儲存對等檔案傳輸會話的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
+FileTransfer view 會儲存對等檔案傳輸會話的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
 
 <div>
 
 
 > [!NOTE]  
-> [FileTransfers] 視圖會包含 [ <A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013</A> ] 的 [SessionDetails] 視圖中的所有資料行，以及下列所列的欄。
+> FileTransfers view 包含在<A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 中的 SessionDetails 視圖</A>中的所有欄，此外還會列出下列欄。
 
 
 
@@ -58,41 +58,41 @@ FileTransfer view 會儲存對等檔案傳輸會話的相關資訊。 此視圖�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
 <th>詳細資料</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>副檔名</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>已傳輸檔案的名稱。</p></td>
+<td><p><strong>FileName</strong></p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>已傳輸的檔案名稱。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>C</strong></p></td>
-<td><p>Nvarchar</p></td>
-<td><p>用來識別與此郵件相關聯的每一封後續訊息。</p></td>
+<td><p><strong>Cookie</strong></p></td>
+<td><p>Nvarchar (128) </p></td>
+<td><p>可用來識別與此訊息相關聯的每則後續訊息。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>唯一識別碼，區分涉及相同檔案名的檔案傳輸。</p></td>
+<td><p>唯一</p></td>
+<td><p>唯一識別碼，用於分辨包含相同檔名的檔案傳輸。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>接受</strong></p></td>
-<td><p>稍微</p></td>
-<td><p>可以是 TRUE 或 Null。 如果為 TRUE，則 [拒絕] 和 [取消] 將會是 Null。</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>位</p></td>
+<td><p>可為 TRUE 或 NULL。若為 TRUE，則「拒絕」和「取消」為 NULL。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>否決</strong></p></td>
-<td><p>稍微</p></td>
-<td><p>可以是 TRUE 或 Null。 如果為 TRUE，則 [接受] 和 [取消] 將會是 Null。</p></td>
+<td><p><strong>Reject</strong></p></td>
+<td><p>位</p></td>
+<td><p>可為 TRUE 或 NULL。若為 TRUE，則「接受」和「取消」為 NULL。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>取消</strong></p></td>
-<td><p>稍微</p></td>
-<td><p>可以是 TRUE 或 Null。 如果為 TRUE，則 [接受] 和 [拒絕] 會是 Null。</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>位</p></td>
+<td><p>可為 TRUE 或 NULL。若為 TRUE，則「接受」和「拒絕」為 NULL。</p></td>
 </tr>
 </tbody>
 </table>

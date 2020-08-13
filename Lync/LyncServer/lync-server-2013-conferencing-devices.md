@@ -12,18 +12,18 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1fbe13b788b8add2f609cc59ed832e6bd67dc1d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e477733353567b9877547e92fedca2cfe9a5f988
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741533"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="conferencing-devices-in-lync-server-2013"></a>Lync Server 2013 中的會議裝置
 
@@ -37,15 +37,15 @@ ms.locfileid: "41741533"
 
 _**主題上次修改日期：** 2014-02-05_
 
-會議裝置會將 Lync 手機版功能移至會議室，讓會議室中的人員聽到聲音，而視裝置而定，請參閱其他位置中的人員。
+會議裝置會將 Lync Phone Edition 功能移至會議室，讓會議室中的人員聽到，而且視裝置而定，請參閱其他位置中的人員。
 
-您可以使用本節中的主題來瞭解如何設定及管理您的會議裝置。
+使用本節中的主題，瞭解如何設定及管理會議裝置。
 
 <div>
 
 
 > [!NOTE]  
-> 如需與 Lync Server 2013 搭配使用之會議裝置的詳細資訊，請參閱適用<A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">于 Microsoft lync</A>的 [網頁電話] 和 [裝置]。
+> 如需支援搭配 Lync Server 2013 使用之會議裝置的詳細資訊，請參閱適用<A href="https://technet.microsoft.com/lync/gg278164.aspx">于 Microsoft Lync 的網頁電話和裝置</A>。
 
 
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2014-02-05_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [在 Lync Server 2013 中查看會議裝置資訊](lync-server-2013-view-conferencing-device-information.md)
 
@@ -61,7 +61,7 @@ _**主題上次修改日期：** 2014-02-05_
 
   - [在 Lync Server 2013 中啟用或停用會議裝置](lync-server-2013-enable-or-disable-a-conferencing-device.md)
 
-  - [在 Lync Server 2013 中將會議裝置移至新的註冊機構池](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+  - [在 Lync Server 2013 中將會議裝置移至新的註冊集區](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
 
 </div>
 
@@ -74,4 +74,3 @@ _**主題上次修改日期：** 2014-02-05_
 </div>
 
 </div>
-

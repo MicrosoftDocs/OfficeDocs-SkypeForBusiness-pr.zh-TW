@@ -12,20 +12,20 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cd3c8cf89b9d5e1637db893b57e6b5955fbcee9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be14e3dedf39883a81a040ed31ae38d2966ab647
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764369"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>支援 Lync Server 2013 中的公用立即信使連線
+# <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Lync Server 2013 中的公用立即信使連線支援
 
 </div>
 
@@ -41,33 +41,33 @@ _**主題上次修改日期：** 2013-10-07_
 
 ## <a name="support-for-public-instant-messenger-connectivity"></a>支援公用立即信使連線
 
-本文提供有關公用 IM 連線（PIC）支援的資訊。 PIC 是 Microsoft Lync 的一項功能，可讓組織透過其 Lync 用戶端和身分識別，讓其 Lync 使用者能夠與特定公用立即訊息（IM）服務的使用者連線。
+本文提供 (PIC) 之公用 IM 連線支援的相關資訊。 PIC 是 Microsoft Lync 的一項功能，可讓組織讓其 Lync 使用者能夠透過其 Lync 用戶端和身分識別，透過某些公用立即訊息 (IM) 服務的使用者進行連線。
 
-當使用者與客戶、合作夥伴及廠商的相關產品時，使用者就能獲益。 它的優點在於支援單一即時通訊用戶端，同時維持 Lync 的控制、合規性和歸檔功能。 Lync-Skype 連線（[在2013年5月公開提供](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)）依賴舊版的 Lync/Office 通訊伺服器（OCS）/Live 通訊伺服器（LCS），首先在連線至 MSN/Windows LIVE、AOL 和 Yahoo 時建立與 PIC 的連接。如需 Lync Skype 連線的詳細資訊，請參閱[lync-skype 連線能力](http://office.microsoft.com/en-us/lync/lync-skype-connectivity-fx103789635.aspx)。 與 Windows Live、AOL 和 Yahoo 的同盟，都是以路徑結束的方式進行。此頁面會記錄每個服務的狀態。
+使用者可在其條款中與客戶、合作夥伴及廠商聯繫，以享受相關條款。 其好處是支援單一即時通訊用戶端，同時維持 Lync 的控制、法規遵從性及封存功能。 Lync-Skype 連線，可于[2013 年5月公開](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)取得，依賴舊版的 Lync/Office 通訊伺服器 (OCS) /Live 通訊伺服器 (LCS) ，可在連線至 MSN/Windows LIVE、AOL 和 Yahoo 時，先建立與 PIC 的連接。如需 Lync-Skype 連線的詳細資訊，請參閱[Lync-Skype 連通性](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)。 與 Windows Live、AOL 和 Yahoo 的同盟都是在生命週期結束的路徑上。此頁面會記錄每個服務的狀態。
 
-若要使用 PIC，必須有客戶為每個公用 IM 服務提供者啟用服務。 此做法的需求及詳細資料取決於 IM 服務提供者和客戶的基礎授權計畫。
+若要使用 PIC，客戶必須啟用每個公用 IM 服務提供者的服務。 如何做到這一點的需求和詳細資料，取決於 IM 服務提供者和客戶的基礎授權計畫。
 
 <div>
 
 ## <a name="windows-live-messenger"></a>Windows Live Messenger
 
-Microsoft 會將 Windows 即時信使和 Skype 集中在一起。 在2013年4月，Messenger 使用者已在登入時遷移至 Skype。 依賴同盟與 Messenger 的 Lync 客戶將會繼續與其 Messenger 連絡人通訊，即使在這些連絡人更新到 Skype 之後也一樣。 Lync 系統管理員或 Lync 使用者不需要執行此動作，就能維持服務的連續性，而且在 Lync 中管理這項功能的方式與 Messenger 的通訊是一樣的。 
+Microsoft 會讓 Windows Live Messenger 和 Skype 一起運作。 在4月2013，Messenger 使用者已遷移到登入的 Skype。 依靠同盟與 Messenger 的 Lync 客戶將繼續與其 Messenger 連絡人進行通訊，即使這些連絡人更新至 Skype，也是如此。 Lync 系統管理員或 Lync 使用者不需要執行任何動作來維護服務的連續性，而且 Lync 中此功能的管理仍保持與使用信使進行通訊的方式相同。 
 
-當 Messenger 使用者使用其 Microsoft 帳戶登入 Skype 時（亦即用於 Messenger 的相同認證）所有的 Messenger 連絡人（包括同盟 Lync 連絡人），請依照 Skype 進行。 您可以使用 Skype 和 Lync 之間的目前狀態共用與立即訊息。 
+當 Messenger 使用者使用其 Microsoft 帳戶登入 Skype 時 (亦即，Messenger 所用的相同認證) 所有的信使連絡人-包括同盟 Lync 連絡人-遵循 Skype。 您可以使用 Skype 和 Lync 之間的顯示狀態共用和立即訊息。 
 
-Lync-Skype 連線-連絡人在 Lync 與 Skype 使用者之間的新增、目前狀態共用、立即訊息及語音通話，現在也可供所有 Lync 客戶使用。
+Lync-Skype 連線-連絡人的新增、目前狀態共用、立即訊息，以及 Lync 與 Skype 使用者之間的語音通話-現在，所有的 Lync 客戶皆可使用此功能。
 
 </div>
 
 <div>
 
-## <a name="yahoo-and-aol-instant-messenger"></a>Yahoo\! 以及 AOL 立即 Messenger
+## <a name="yahoo-and-aol-instant-messenger"></a>雅虎\! 和 AOL 立即信使
 
-使用 Yahoo 的同盟\! 而且 AOL 都是在 Lync （以及 Office 通訊伺服器）用戶端的路線中使用。 Microsoft 提供每一項服務的能力都是從 Yahoo 支援。\! 而且 AOL 以及這些專案的基礎協定會向下纏繞。 兩個 Yahoo\! 而且 AOL、服務將在2014年6月後繼續進行。
+使用 Yahoo 的同盟\! 和 AOL 都是在 Lync (和 Office 通訊伺服器) 客戶的使用週期中的路徑。 Microsoft 提供每項服務的能力都是由 Yahoo 的支援所決定\! 和 AOL，以及這些條款的底層合約會向下纏繞。 這兩個 Yahoo\! 和 AOL，服務會在2014年6月繼續。
 
-  - **Yahoo** -服務將在2014年6月後繼續，而且客戶繼續需要使用 Microsoft LYNC 公用 IM 連線使用者訂閱授權（"PIC USL"）。從2012年9月1日起，PIC USL 已不再提供購買新的或續約協定的功能。擁有此日期之前購買之授權的客戶，將能夠繼續與 Yahoo 進行聯盟\! 直到較舊的服務關閉日期或其授權到期日為止。閱讀 Lync 團隊博客上[的公告](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)。如果客戶在2014年6月30日延長的合約上擁有 PIC 授權，將會以比例支付與2014年6月30日之後的付款金額的點數。
+  - **Yahoo** -服務會在2014年6月繼續進行，並且客戶會繼續使用 Microsoft LYNC Public IM 連線使用者訂閱授權 ( "PIC USL" ) 獲得授權。從2012年9月1日起，USL 已無法再購買新的或更新的協定。在此日期之前購買授權的客戶，將可以繼續與 Yahoo 進行同盟\! 直到之前的服務關閉日期或其授權到期為止。閱讀 Lync 小組博客上[的宣告](https://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)。若客戶在已超過6月30日的合約上使用 PIC 授權，將會以支付于2014年6月 30 2014 日的時段的付款金額為比例，取得學分。
 
-  - **AOL** -在2014年6月30日，LYNC 的 IM 連線（"PIC"）服務將不再提供使用。為了在服務結束時限制客戶的中斷，我們已停止提供額外的客戶網域。 除非2014年6月30日，否則客戶就不需要執行任何動作，就能繼續支援與 AIM 進行聯盟通訊。 在此日期之後（或針對想要同時提供其他網域的客戶），可以直接從 AOL 取得替代服務。 如需 AOL 新服務的詳細資訊，請參閱[建立直接同盟與 AIM](http://aimenterprise.aol.com/pic.php)  （在 AOL.com 上開啟新頁面）。  
+  - **AOL** -在2014年6月30日，LYNC 的 IM 連線 ( "PIC" ) 服務將無法再使用。為了在服務結束時限制客戶的中斷，我們已停止提供額外的客戶網域。 在2014年6月30日之前，客戶不需要執行任何動作，就能繼續支援與 AIM 的同盟通訊。 除了這一日期 (或客戶若要在此同時布建其他網域) ，可直接從 AOL 取得替代服務。 如需 AOL 新服務的詳細資訊，請參閱[建立與 AIM 的直接同盟](http://aimenterprise.aol.com/pic.php)    (開啟 AOL.com) 上的新頁面。  
 
 </div>
 
@@ -75,7 +75,7 @@ Lync-Skype 連線-連絡人在 Lync 與 Skype 使用者之間的新增、目前�
 
 ## <a name="public-im-provider-summary"></a>公用 IM 提供者摘要
 
-下表提供公用 IM 服務提供者的摘要、與 Lync 的同盟功能以及授權需求。
+下表提供公用 IM 服務提供者、具有 Lync 的同盟功能及授權需求的摘要。
 
 
 <table>
@@ -94,23 +94,23 @@ Lync-Skype 連線-連絡人在 Lync 與 Skype 使用者之間的新增、目前�
 <tbody>
 <tr class="odd">
 <td><p>Skype</p></td>
-<td><p>IM、目前狀態、音訊</p></td>
+<td><p>IM、顯示狀態、音訊</p></td>
 <td><p>Lync Server 用戶端存取授權，Lync Online 方案1/2/3</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Live Messenger</p></td>
-<td><p>IM、目前狀態、音訊/視頻</p></td>
-<td><p>Lync Server 用戶端存取授權（只要 WLM 為市場，即支援此功能）</p></td>
+<td><p>IM、目前狀態、Audio/Video</p></td>
+<td><p> (支援 Lync Server 用戶端存取授權，只要 WLM 位於市場) </p></td>
 </tr>
 <tr class="odd">
-<td><p>AOL</p></td>
+<td><p>Aol</p></td>
 <td><p>IM、目前狀態</p></td>
-<td><p>Lync Server 用戶端存取授權;支援于現有客戶的2014年6月。</p></td>
+<td><p>Lync Server 用戶端存取授權;支援現有客戶2014年6月。</p></td>
 </tr>
 <tr class="even">
-<td><p>Yahoo</p></td>
+<td><p>雅虎！</p></td>
 <td><p>IM、目前狀態</p></td>
-<td><p>除了 Lync Server 用戶端存取授權之外，還需要額外的 Microsoft Lync 公用 IM 連線使用者訂閱授權（"PIC USL"）。 從2012年9月的價目表，PIC USL 已不再提供購買。 擁有有效授權的客戶可以繼續與 Yahoo！進行聯盟 Messenger，直到服務在2014年6月30日為止關閉。</p></td>
+<td><p>除了 Lync Server 用戶端存取授權之外，還需要額外的 Microsoft Lync Public IM 連線使用者訂閱授權 ( "PIC USL" ) 。 從2012年9月的標價，PIC USL 已無法再供購買。 具有有效授權的客戶可以繼續與 Yahoo！進行同盟 在2014年6月30日，直到服務關閉日期為止。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：IIS 組態
+title: Lync Server 2013： IIS 設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cb8fe023d872ff19e29beb329488304048895b2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2dd96b45105eabe644b86ba5ab3af099ea8e8f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729323"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 組態
+# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 設定
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729323"
 
 _**主題上次修改日期：** 2014-02-17_
 
-若要成功完成此程式，您應該以本機管理員和網域使用者的身分登入伺服器。
+若要順利完成此程式，您應該至少登入至本機系統管理員和網域使用者的伺服器。
 
-在將 Lync Server 2013、標準版或第一個前端伺服器的前端伺服器設定並安裝到池中之前，您必須安裝並設定網際網路資訊服務（IIS）的伺服器角色和 Web 服務。
+設定及安裝 Lync Server 2013、Standard Edition 或集區中第一部前端伺服器的前端伺服器之前，請先針對 Internet information Services (IIS) 安裝及設定伺服器角色和 Web 服務。
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> 如果您的組織要求您在系統磁片磁碟機以外的磁片磁碟機上找到 IIS 和所有 Web 服務，您可以在初次安裝 Lync Server 2013 時，在 [設定] 對話方塊中變更 Lync Server 2013 檔案的安裝位置路徑[管理工具]。 安裝 IIS 之前，請先安裝 [管理工具]。 如果您將安裝檔案安裝到此路徑（包括 OCSCore），其餘的 Lync Server 2013 檔案也會部署到這個磁片磁碟機。 如需 dtails，請參閱<A href="lync-server-2013-install-lync-server-administrative-tools.md">安裝 Lync Server 2013 系統管理工具</A>。 如需有關如何在安裝 IIS 時重新置放由 Windows Server Manager 部署的 INETPUB 的<A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>詳細資訊，請參閱。
+> 如果您的組織需要在系統磁片磁碟機以外的磁片磁碟機上找到 [IIS] 和 [所有 Web 服務]，您可以在初次安裝 Lync Server 2013 系統管理工具時，在 [安裝程式] 對話方塊中，變更 [Lync Server 2013 檔案] 的安裝位置路徑。 安裝 IIS 之前，請先安裝系統管理工具。 若將安裝檔案安裝至此路徑（包括 OCSCore.msi），則其他的 Lync Server 2013 檔案也會同時部署至此磁片磁碟機。 如需 dtails，請參閱<A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 系統管理工具</A>。 如需如何重新置放 Windows Server Manager 在安裝 IIS 時所部署之 INETPUB 的詳細資訊，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> 。
 
 
 
@@ -82,7 +82,7 @@ _**主題上次修改日期：** 2014-02-17_
 <tr class="even">
 <td><p>應用程式開發</p></td>
 <td><p>ASP.NET</p>
-<p>Windows Server 2012 也需要 ASP. NET 4。5</p></td>
+<p>Windows Server 2012 也需要 ASP。 NET 4。5</p></td>
 </tr>
 <tr class="odd">
 <td><p>應用程式開發</p></td>
@@ -90,27 +90,27 @@ _**主題上次修改日期：** 2014-02-17_
 </tr>
 <tr class="even">
 <td><p>應用程式開發</p></td>
-<td><p>網際網路伺服器 API （ISAPI）延伸</p></td>
+<td><p>網際網路伺服器 API (ISAPI) 擴充</p></td>
 </tr>
 <tr class="odd">
 <td><p>應用程式開發</p></td>
 <td><p>ISAPI 篩選</p></td>
 </tr>
 <tr class="even">
-<td><p>健康與診斷</p></td>
+<td><p>健康情況及診斷</p></td>
 <td><p>HTTP 記錄</p></td>
 </tr>
 <tr class="odd">
-<td><p>健康與診斷</p></td>
+<td><p>健康情況及診斷</p></td>
 <td><p>記錄工具</p></td>
 </tr>
 <tr class="even">
-<td><p>健康與診斷</p></td>
-<td><p>診斷</p></td>
+<td><p>健康情況及診斷</p></td>
+<td><p>跟蹤</p></td>
 </tr>
 <tr class="odd">
 <td><p>安全性</p></td>
-<td><p>匿名驗證（預設為已安裝和啟用）</p></td>
+<td><p>預設會安裝並啟用匿名驗證 () </p></td>
 </tr>
 <tr class="even">
 <td><p>安全性</p></td>
@@ -125,7 +125,7 @@ _**主題上次修改日期：** 2014-02-17_
 <td><p>要求篩選</p></td>
 </tr>
 <tr class="odd">
-<td><p>提高</p></td>
+<td><p>效能</p></td>
 <td><p>靜態內容壓縮</p>
 <p>動態內容壓縮</p></td>
 </tr>
@@ -135,13 +135,13 @@ _**主題上次修改日期：** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>管理工具</p></td>
-<td><p>IIS 管理腳本與工具</p></td>
+<td><p>IIS 管理指令碼及工具</p></td>
 </tr>
 </tbody>
 </table>
 
 
-在 Windows Server 2008 R2 SP1 x64 作業系統上，您可以使用 Windows PowerShell 2.0。 您必須先匯入 ServerManager 模組，然後再安裝 IIS 7.5 角色和角色服務。
+在 Windows Server 2008 R2 SP1 x64 作業系統上，您可以使用 Windows PowerShell 2.0。 您必須先匯入 ServerManager 模組，然後安裝 IIS 7.5 角色和角色服務。
 
    ```PowerShell
     Import-Module ServerManager
@@ -155,19 +155,19 @@ _**主題上次修改日期：** 2014-02-17_
 
 
 > [!NOTE]  
-> 預設會安裝匿名驗證與 IIS 伺服器角色。 您可以在安裝 IIS 之後管理匿名驗證。 如需詳細資訊，請參閱「啟用匿名驗證（IIS 7 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>）」。
+> 預設會以 IIS 伺服器角色安裝匿名驗證。 您可以在安裝 IIS 之後管理匿名驗證。 如需詳細資訊，請參閱的「啟用匿名驗證 (IIS 7) 」 <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A> 。
 
 
 
 </div>
 
-下表顯示 Windows Server 2012 和 Windows Server 2012 R2 所需的 IIS 8.0 和 IIS 8.5 角色服務。
+下表指出 Windows Server 2012 和 Windows Server 2012 R2 所需的 IIS 8.0 和 IIS 8.5 角色服務。
 
 <div class=" ">
 
 
 > [!NOTE]  
-> 針對 Windows Server 2012 和 Windows Server 2012 R2，Add-windowsfeature Cmdlet 已由 Install Cmdlet 取代。 如需詳細資訊，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=392274">安裝程式</A>。
+> 若為 Windows Server 2012 和 Windows Server 2012 R2，Add-WindowsFeature Cmdlet 已由 Install-WindowsFeature Cmdlet 所取代。 如需詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>。
 
 
 
@@ -188,44 +188,44 @@ _**主題上次修改日期：** 2014-02-17_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Web 服務器（IIS）</p></td>
+<td><p>網頁伺服器 (IIS) </p></td>
 <td><p>網頁伺服器</p></td>
 </tr>
 <tr class="even">
-<td><p>常見的 HTTP 功能</p></td>
-<td><p>預設檔</p></td>
+<td><p>一般 HTTP 功能</p></td>
+<td><p>預設文件</p></td>
 </tr>
 <tr class="odd">
-<td><p>常見的 HTTP 功能</p></td>
+<td><p>一般 HTTP 功能</p></td>
 <td><p>瀏覽目錄</p></td>
 </tr>
 <tr class="even">
-<td><p>常見的 HTTP 功能</p></td>
+<td><p>一般 HTTP 功能</p></td>
 <td><p>HTTP 錯誤</p></td>
 </tr>
 <tr class="odd">
-<td><p>常見的 HTTP 功能</p></td>
+<td><p>一般 HTTP 功能</p></td>
 <td><p>靜態內容</p></td>
 </tr>
 <tr class="even">
-<td><p>常見的 HTTP 功能</p></td>
+<td><p>一般 HTTP 功能</p></td>
 <td><p>HTTP 重新導向</p></td>
 </tr>
 <tr class="odd">
-<td><p>健康與診斷</p></td>
+<td><p>健康情況及診斷</p></td>
 <td><p>HTTP 記錄</p></td>
 </tr>
 <tr class="even">
-<td><p>健康與診斷</p></td>
+<td><p>健康情況及診斷</p></td>
 <td><p>記錄工具</p></td>
 </tr>
 <tr class="odd">
-<td><p>健康與診斷</p></td>
+<td><p>健康情況及診斷</p></td>
 <td><p>要求監視器</p></td>
 </tr>
 <tr class="even">
-<td><p>健康與診斷</p></td>
-<td><p>診斷</p></td>
+<td><p>健康情況及診斷</p></td>
+<td><p>跟蹤</p></td>
 </tr>
 <tr class="odd">
 <td><p>安全性</p></td>
@@ -261,15 +261,15 @@ _**主題上次修改日期：** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>應用程式開發</p></td>
-<td><p>ISAPI 延伸</p></td>
+<td><p>ISAPI 擴充程式</p></td>
 </tr>
 <tr class="even">
 <td><p>應用程式開發</p></td>
-<td><p>ISAPI 篩選</p></td>
+<td><p>ISAPI 篩選器</p></td>
 </tr>
 <tr class="odd">
 <td><p>應用程式開發</p></td>
-<td><p>伺服器端包含</p></td>
+<td><p>伺服器端包括</p></td>
 </tr>
 <tr class="even">
 <td><p>管理工具</p></td>
@@ -281,7 +281,7 @@ _**主題上次修改日期：** 2014-02-17_
 </tr>
 <tr class="even">
 <td><p>管理工具</p></td>
-<td><p>IIS 管理腳本與工具</p></td>
+<td><p>IIS 管理指令碼及工具</p></td>
 </tr>
 <tr class="odd">
 <td><p>.Net 3.5 Framework 功能</p></td>
@@ -304,46 +304,46 @@ _**主題上次修改日期：** 2014-02-17_
 <td><p>TCP 埠共用</p></td>
 </tr>
 <tr class="even">
-<td><p>背景智慧傳送服務</p></td>
-<td><p>IIS 伺服器延伸</p></td>
+<td><p>背景智慧傳輸服務</p></td>
+<td><p>IIS 伺服器擴充</p></td>
 </tr>
 <tr class="odd">
-<td><p>筆跡與手寫服務</p></td>
-<td><p>筆跡與手寫服務</p></td>
+<td><p>筆跡及手寫服務</p></td>
+<td><p>筆跡及手寫服務</p></td>
 </tr>
 <tr class="even">
 <td><p>媒體基礎</p></td>
 <td><p>媒體基礎</p></td>
 </tr>
 <tr class="odd">
-<td><p>使用者介面與基礎結構</p></td>
-<td><p>圖形管理工具與基礎結構</p></td>
+<td><p>使用者介面和基礎結構</p></td>
+<td><p>圖形管理工具和基礎結構</p></td>
 </tr>
 <tr class="even">
-<td><p>使用者介面與基礎結構</p></td>
+<td><p>使用者介面和基礎結構</p></td>
 <td><p>桌面體驗</p></td>
 </tr>
 <tr class="odd">
-<td><p>使用者介面與基礎結構</p></td>
+<td><p>使用者介面和基礎結構</p></td>
 <td><p>伺服器圖形命令介面</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows 身分識別 Foundation 3。5</p></td>
-<td><p>Windows 身分識別 Foundation 3。5</p></td>
+<td><p>Windows Identity Foundation 3。5</p></td>
+<td><p>Windows Identity Foundation 3。5</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Process Activation Service</p></td>
-<td><p>處理模型</p></td>
+<td><p>Windows 進程啟用服務</p></td>
+<td><p>進程模型</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Process Activation Service</p></td>
-<td><p>配置 Api</p></td>
+<td><p>Windows 進程啟用服務</p></td>
+<td><p>設定 APIs</p></td>
 </tr>
 </tbody>
 </table>
 
 
-在 Windows Server 2012 和 Windows Server 2012 R2 中，您可以使用 Windows PowerShell 3.0 來安裝 IIS 需求。 使用 Windows PowerShell 3.0 中的 ServerManager 模組，請輸入：
+在 Windows Server 2012 和 Windows Server 2012 R2 中，您可以使用 Windows PowerShell 3.0 來安裝 IIS 需求。 使用 Windows PowerShell 3.0 中的 ServerManager 模組，輸入：
 
    ```PowerShell
     Import-Module ServerManager
@@ -357,7 +357,7 @@ _**主題上次修改日期：** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> Windows Server 2012 的新功能是 [來源] 參數，可定義可找到 Windows Server 2012 來源媒體的位置。 媒體可以定義為 DVD 光碟機（例如，D:\Sources\Sxs），或複製媒體檔案的網路共用（例如， \\fileserver\windows2012\sources\Sxs）。
+> Windows Server 2012 的新增功能是定義可在何處找到 Windows Server 2012 來源媒體的–來源參數。 媒體可以定義為 DVD 磁片磁碟機 (例如，D:\Sources\Sxs) 或網路共用（媒體檔案已複製） (例如， \\ fileserver\windows2012\sources\Sxs) 。
 
 
 
@@ -365,10 +365,10 @@ _**主題上次修改日期：** 2014-02-17_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的前端集區與 Standard Edition Server 的 IIS 需求](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
+[Lync Server 2013 中前端集區與 Standard Edition server 的 IIS 需求](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
   
 
 </div>

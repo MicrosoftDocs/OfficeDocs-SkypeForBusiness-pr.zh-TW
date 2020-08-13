@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：整合式 Unified Messaging 的功能
+title: Lync Server 2013：整合式整合通訊的功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69726c614df344c76b06cf68e4d844c0514af7dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55da4422ec0151ddc6638ea21b4a5e1c551541ee
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765141"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>整合式 Unified Messaging 和 Lync Server 2013 的功能
+# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>整合整合通訊和 Lync Server 2013 的功能
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41765141"
 
 _**主題上次修改日期：** 2012-10-01_
 
-Lync Server 2013，企業語音使用 Exchange 整合通訊（UM）基礎結構來提供通話應答、呼叫通知、語音存取（包括語音信箱）及自動助理服務。
+Lync Server 2013，Enterprise Voice 使用 Exchange 整合通訊 (UM) 基礎結構，提供通話回應、來電通知、語音存取 (包括語音信箱) 和自動語音應答服務。
 
 <div>
 
-## <a name="call-answering"></a>呼叫應答
+## <a name="call-answering"></a>來電接聽
 
-[通話接聽] 是代表不接聽或忙碌通話的使用者接收語音訊息。 它包括播放個人問候語、記錄郵件，以及提交郵件以傳送到使用者的信箱，而該信箱會儲存在 Exchange 信箱伺服器上。
+呼叫應答是代表使用者接收語音訊息，但來電並未接聽或占線。 它包含播放個人問候語、錄製郵件，並將郵件送出佇列以傳送至使用者的信箱，該信箱儲存在 Exchange 信箱伺服器上。
 
-如果來電者離開郵件，郵件會傳送到使用者的 [收件匣]。 如果來電者選擇不留下訊息，就會將未接來電通知儲存在使用者的信箱中。 然後，使用者就可以使用 Microsoft Outlook 的訊息與共同作業用戶端、Outlook Web Access、Exchange ActiveSync 技術或 Outlook 語音存取來存取收件匣。 通話的主旨與優先順序可以以與電子郵件類似的方式顯示。
+如果來電者留下訊息，該訊息就會傳送到使用者的收件匣。如果來電者選擇不留下任何訊息，則會在使用者的信箱中儲存未接來電通知。然後使用者可以使用 Microsoft Outlook 訊息和共同作業用戶端、Outlook Web Access、Exchange ActiveSync 技術或 Outlook Voice Access 存取自己的收件匣。可以使用與電子郵件類似的方式來顯示來電的主旨和優先順序。
 
 </div>
 
 <div>
 
-## <a name="outlook-voice-access"></a>Outlook 語音存取
+## <a name="outlook-voice-access"></a>Outlook Voice Access
 
-Outlook 語音存取可讓企業語音使用者存取除語音信箱以外的 [Exchange 收件匣]，包括來自電話介面的電子郵件、行事曆和連絡人。 訂閱者存取號碼是由 Exchange UM 管理員指派。
+Outlook Voice Access 不只可讓企業語音使用者從電話語音介面存取語音信箱，還可以存取 Exchange 收件匣，其中包括電子郵件、行事曆和連絡人。 「使用者存取號碼」是由 Exchange UM 管理員所指派。
 
 </div>
 
@@ -61,7 +61,7 @@ Outlook 語音存取可讓企業語音使用者存取除語音信箱以外的 [E
 
 ## <a name="auto-attendant"></a>自動語音應答
 
-自動語音應答是一種 Exchange UM 功能，可讓您用來設定使用者可以撥打電話給公司代表的電話號碼。 特別是，它提供一系列的語音提示，協助外部呼叫者流覽功能表系統。 可用選項的清單是由 Exchange UM 管理員在 Exchange UM 伺服器上設定。
+自動語音應答是一種 Exchange UM 功能，可用來設定使用者可以撥出的電話號碼，以到達公司代表。 特別是，它提供了一系列的語音提示，可協助外部來電者瀏覽功能表系統。 [可用選項] 清單是由 Exchange um 管理員在 Exchange UM 伺服器上設定。
 
 </div>
 
@@ -69,13 +69,13 @@ Outlook 語音存取可讓企業語音使用者存取除語音信箱以外的 [E
 
 ## <a name="fax-services"></a>傳真服務
 
-Exchange UM 包括 [傳真] 功能，可讓使用者在其 Exchange 信箱中接收傳入的傳真。 如需詳細資訊，請參閱 Microsoft Exchange Server 檔中的「整合[http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)訊息」。
+Exchange UM 包含傳真功能，可讓使用者在其 Exchange 信箱中接收傳入的傳真。 如需詳細資訊，請參閱《 Microsoft Exchange Server 檔》中的「整合通訊」 [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652) 。
 
 <div>
 
 
 > [!NOTE]  
-> Exchange UM 伺服器提供的傳真服務無法在與 Microsoft Exchange Server 2010、Exchange 2010 （含最新 service pack 或 Exchange 2013）整合的 Lync Server 部署中使用。
+> Exchange UM 伺服器所提供的傳真服務無法在與 Microsoft Exchange Server 2010、Exchange 2010 及最新 service pack 或 Exchange 2013 整合的 Lync Server 部署中使用。
 
 
 

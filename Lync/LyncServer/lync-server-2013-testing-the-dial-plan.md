@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：測試撥號計畫
+title: Lync Server 2013：測試撥號對應表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e0e39b88d7b6c90a55d236038d03cc4cc717319
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a83f8058dd761386329c3c0bc58a50c4aef7bdb2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745453"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-dial-plan-in-lync-server-2013"></a>在 Lync Server 2013 中測試撥號方案
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a>在 Lync Server 2013 中測試撥號對應表
 
 </div>
 
@@ -46,16 +46,16 @@ _**主題上次修改日期：** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>驗證排程</p></td>
-<td><p>日常</p></td>
+<td><p>每日</p></td>
 </tr>
 <tr class="even">
 <td><p>測試控管</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要許可權</p></td>
+<td><p>必要的權限</p></td>
 <td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 CsDialPlan Cmdlet 許可權的 RBAC 角色。 若要查看可以使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示執行下列命令：</p>
+<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsDialPlan Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,11 +64,11 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-CsDialPlan Cmdlet 可讓您查看將撥號方案套用到指定電話號碼的結果。 撥號方案提供資訊（例如如何套用正常化規則），而必要的做法是讓企業語音使用者撥打電話。 考慮撥入號碼和撥號方案，這個 Cmdlet 會確認將套用撥號計畫中的哪個正常化規則，以及翻譯後的數位。
+Test-CsDialPlan Cmdlet 可讓您查看將撥號對應表套用至指定電話號碼的結果。 撥號對應表提供的資訊（例如，如何套用正規化規則），讓企業語音使用者撥打電話是必要的。 根據撥打的號碼和撥號對應表，此 Cmdlet 將會確認套用撥號對應表內的哪個正規化規則，以及翻譯後的號碼將是什麼。
 
-您可以使用這個 Cmdlet 來排查數位翻譯的問題，或驗證如何將規則套用至特定的數位。
+您可以使用此 Cmdlet 來疑難排解數位翻譯的問題，或驗證如何套用規則的特定數位。
 
 </div>
 
@@ -76,43 +76,43 @@ CsDialPlan Cmdlet 可讓您查看將撥號方案套用到指定電話號碼的�
 
 ## <a name="running-the-test"></a>執行測試
 
-CsDialPlan Cmdlet 需要您執行兩項操作。 首先，您必須取得正在測試的撥號方案實例;使用 CsDialPlan Cmdlet 即可完成。 其次，您必須指定必須正常化的電話號碼。 電話號碼所用的格式，必須符合使用者撥打電話/輸入的數位。 例如，這個命令會檢索撥號計畫的實例、RedmondDialPlan，並檢查電話號碼12065551219是否可以正常化：
+Test-CsDialPlan 指令指令需要您執行兩項作業。 首先，您必須取得所測試之撥號對應表的實例;可以使用 Get-CsDialPlan Cmdlet 來完成。 其次，您必須指定必須正規化的電話號碼。 電話號碼所用的格式應符合使用者撥打/輸入的號碼。 例如，此命令會檢索撥號對應表的實例，RedmondDialPlan，並檢查電話號碼12065551219是否可以正規化：
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
-如果您有會自動新增國家/地區代碼（在此範例中為1）和區號（206）的正常化規則，您可能會想要檢查電話號碼5551219，如下所示：
+如果您有一個會自動在此範例中新增 country 代碼 (的正規化規則，則會有1個) 和區號 (206) ，您可能想要檢查電話號碼5551219，如下所示：
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-如需詳細資訊，請參閱[Test CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) Cmdlet 的說明文件。
+如需詳細資訊，請參閱[Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) Cmdlet 的說明文件。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>判斷成功或失敗
+## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-Test-CsDialPlan 不同于許多 Lync Server 測試 Cmdlet，因為它只會間接指示測試是否成功或失敗。 使用 Test CsDialPlan 時，您不會收到類似以下所示的輸出結果，並清楚標示結果：
+Test-CsDialPlan 與許多 Lync Server 測試 Cmdlet 不同，因為它只會間接指出測試是否成功或失敗。 使用 Test-CsDialPlan 時，您不會收到類似如下的輸出結果，並以明確標示的結果：
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
 結果：成功
 
-延隔時間：00：00：06.8630376
+延遲：00：00：06.8630376
 
-出錯
+錯誤：
 
-自檢
+診斷：
 
-相反地，如果 Test CsDialPlan 成功，則您會收到可成功翻譯並使用指定電話號碼的正常化規則資訊：
+相反地，如果 Test-CsDialPlan 成功，則會收到可順利翻譯和使用指定電話號碼之正規化規則的相關資訊：
 
 TranslatedNumber： + 12065551219
 
-MatchingRule： Description =;Pattern = ^ （\\d （11）） $;譯文 = + $ 1;
+MatchingRule： Description =;Pattern = ^ (\\ d (11) # B3 $;轉譯 = + $ 1;
 
-Name = Prefix All;IsInternalExtension = False
+Name = Prefix 全部;IsInternalExtension = False
 
-如果 CsDialPlan 測試失敗（也就是，如果撥號方案沒有可翻譯指定之電話號碼的正常化規則），您就會收到如下所示的「空白」輸出：
+如果 Test-CsDialPlan 失敗 (也就是說，如果撥號對應表沒有可轉譯指定電話號碼的正規化規則) ，您只會收到「空白」輸出，如下所示：
 
 TranslatedNumber :
 
@@ -124,13 +124,13 @@ MatchingRule :
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
 
-以下是測試 CsDialPlan 可能失敗的一些常見原因：
+以下是一些 Test-CsDialPlan 可能失敗的常見原因：
 
-  - 指定電話號碼時，可能使用了不正確的格式。 撥號方案包括啟用 Lync Server 來轉譯使用者撥打電話或輸入之電話號碼的正常化規則。 因此，您的撥號方案應該有符合使用者可能撥號的數位的正常化規則。 例如，如果使用者可能先撥打國家/地區代碼、區號，然後撥打電話號碼本身，那表示您的撥號方案應該有一個標準化規則來處理電話號碼，例如：
+  - 指定電話號碼時，您可能使用了不正確的格式。 撥號對應表包含正常化規則，可讓 Lync Server 轉譯使用者撥打或輸入的電話號碼。 因此，您的撥號對應表應該會有符合使用者可能會撥號的數量的正規化規則。 例如，如果使用者可能撥打國家/地區代碼、區號，然後輸入電話號碼，則表示您的撥號對應表應具有標準化規則來處理電話號碼，如下所示：
     
     12065551219
     
-    不過，如果您輸入不正確的電話號碼（例如，離開最後一個數位），則 Test-CsDialPlan 將會失敗。 這不是因為撥號方案有問題，但因為您輸入的是無法轉譯的電話號碼。
+    不過，如果您輸入不正確的電話號碼 (例如，保留最後一位數) ，Test-CsDialPlan 將會失敗。 這不是因為撥號對應表有問題，但您輸入的電話號碼無法轉譯。
 
 </div>
 

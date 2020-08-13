@@ -12,18 +12,18 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2e6516ee1162c02f2bebc8c385c2f41e87d7781
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fd5875dc7e0dd999a1d94e6e7722eeba07c3a37e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724893"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-to-restore-lync-server-2013"></a>準備還原 Lync Server 2013
 
@@ -37,17 +37,17 @@ ms.locfileid: "41724893"
 
 _**主題上次修改日期：** 2013-02-21_
 
-在您開始還原伺服器和資料庫失敗之後，您必須判斷下列事項：
+當您在失敗後開始還原伺服器及資料庫之前，您必須確定下列各項：
 
   - 需要還原的專案。
 
-  - 您需要還原的硬體、軟體、資料及工具。
+  - 還原所需的硬體、軟體、資料及工具。
 
 <div>
 
 ## <a name="determining-what-to-restore"></a>決定要還原的專案
 
-本主題說明如何還原出現在伺服器、pool 或中央管理儲存層級的 Lync Server 中斷。 如果中央管理儲存失敗，您的 Lync Server 部署會繼續運作，但是您無法變更任何設定。 如果後端伺服器或標準版伺服器發生故障，使用者池就會停止運作。 如果任何其他伺服器失敗，失敗的大小取決於伺服器所執行的伺服器角色，以及伺服器是否託管一個或多個資料庫。
+本主題說明如何還原發生在伺服器、集區或中央管理存放區層級的 Lync Server 中斷。 若中央管理存放區失敗，您的 Lync Server 部署仍可運作，但您無法變更任何設定。 如果後端伺服器或 Standard Edition Server 失敗，使用者集區便會停止運作。 如果任何其他伺服器失敗，失敗的程度取決於伺服器執行的伺服器角色，以及伺服器是否主控一或多個資料庫。
 
 ### <a name="what-to-restore"></a>要還原的專案
 
@@ -58,50 +58,50 @@ _**主題上次修改日期：** 2013-02-21_
 </colgroup>
 <thead>
 <tr class="header">
-<th>如果失敗</th>
+<th>若失敗</th>
 <th>請參閱本節內容：</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>標準版伺服器</p></td>
-<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">在 Lync Server 2013 中還原標準版伺服器</a></p></td>
+<td><p>Standard Edition Server</p></td>
+<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">在 Lync Server 2013 中還原 Standard Edition server</a></p></td>
 </tr>
 <tr class="even">
 <td><p>中央管理存放區</p></td>
-<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">在 Lync Server 2013 中還原託管中央管理儲存區的伺服器</a></p></td>
+<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">在 Lync Server 2013 中還原主控中央管理存放區的伺服器</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>企業版後端</p></td>
-<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">在 Lync Server 2013 中還原企業版後端伺服器</a></p></td>
+<td><p>Enterprise Edition 後端</p></td>
+<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">在 Lync Server 2013 中還原 Enterprise Edition 後端伺服器</a></p></td>
 </tr>
 <tr class="even">
-<td><p>企業版鏡像後端主要伺服器</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">在 Lync Server 2013 中還原鏡像企業版後端伺服器-主要</a></p></td>
+<td><p>Enterprise Edition 鏡像後端主伺服器</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-主要</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>企業版鏡像後端副伺服器</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013 中還原鏡像企業版後端伺服器-鏡像</a></p></td>
+<td><p>Enterprise Edition 鏡像後端次要伺服器</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-鏡像</a></p></td>
 </tr>
 <tr class="even">
-<td><p>任何執行伺服器角色的企業版伺服器，例如前端伺服器、Edge 伺服器、控制器、中繼伺服器、或持久聊天伺服器。</p></td>
-<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">在 Lync Server 2013 中還原企業版成員伺服器</a></p></td>
+<td><p>任何執行伺服器角色的 Enterprise Edition 伺服器，例如前端伺服器、Edge Server、Director、轉送伺服器或 Persistent Chat Server。</p></td>
+<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">在 Lync Server 2013 中還原 Enterprise Edition 成員伺服器</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>整個 Lync 伺服器池</p></td>
-<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">在 Lync Server 2013 中還原 Lync Server 文件庫</a></p></td>
+<td><p>整個 Lync 伺服器集區</p></td>
+<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">在 Lync Server 2013 中還原 Lync Server 集區</a></p></td>
 </tr>
 <tr class="even">
-<td><p>企業版檔存放區</p></td>
-<td><p><a href="lync-server-2013-restoring-a-file-store.md">在 Lync Server 2013 中還原檔案存放區</a></p></td>
+<td><p>Enterprise Edition 檔存放區</p></td>
+<td><p><a href="lync-server-2013-restoring-a-file-store.md">在 Lync Server 2013 中還原檔存放區</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>獨立監視資料庫或封存資料庫</p></td>
-<td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">在 Lync Server 2013 中還原監視或封存資料</a></p></td>
+<td><p>獨立監控資料庫或封存資料庫</p></td>
+<td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">在 Lync Server 2013 中還原監控或封存資料</a></p></td>
 </tr>
 <tr class="even">
-<td><p>獨立持續聊天資料庫</p></td>
-<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">在 Lync Server 2013 中還原持續聊天資料</a></p></td>
+<td><p>獨立的持久聊天資料庫</p></td>
+<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">在 Lync Server 2013 中還原 Persistent Chat 資料</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -111,58 +111,58 @@ _**主題上次修改日期：** 2013-02-21_
 
 <div>
 
-## <a name="gathering-hardware-software-and-tools"></a>收集硬體、軟體和工具
+## <a name="gathering-hardware-software-and-tools"></a>收集硬體、軟體及工具
 
-當您還原伺服器時，必須從新的或乾淨的電腦開始。 此外，您必須具備下列硬體和軟體：
+當您還原伺服器時，您必須從新的或全新的電腦開始。 此外，您必須具備下列可用的硬體和軟體：
 
-  - 以相同的完整功能變數名稱（FQDN）為失敗的乾淨或新伺服器。
+  - 具有相同完整功能變數名稱 (FQDN) 伺服器失敗的乾淨或新伺服器。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 當您安裝作業系統時，請確定您沒有刪除 Active Directory 網域服務中的電腦帳戶，並確認該帳戶的群組許可權已保留。
+    > 當您安裝作業系統時，請確定您未刪除 Active Directory 網域服務中的電腦帳戶，並確認已保留帳戶的群組許可權。
 
     
     </div>
 
-  - 作業系統的安裝軟體。 若要安裝作業系統，請使用貴組織建立的伺服器部署程式和配置。 您應該在還原服務時，使用這些程式和設定需求。
+  - 作業系統的安裝軟體。 若要安裝作業系統，請使用伺服器部署程式和組織建立的設定。 當您還原服務時，您應該會有這些程式和設定需求可供使用。
 
-  - SQL Server 2012 或 SQL Server 2008 R2 的安裝軟體。 若要安裝資料庫伺服器，請使用適當版本的 SQL Server 以及由貴組織建立的資料庫伺服器部署程式和設定。 您應該在還原服務時，使用這些程式和設定需求。
+  - SQL Server 2012 或 SQL Server 2008 R2 的安裝軟體。 若要安裝資料庫伺服器，請使用適當版本的 SQL Server，以及組織所建立的資料庫伺服器部署程式和設定。 當您還原服務時，您應該會有這些程式和設定需求可供使用。
     
     <div>
     
 
     > [!NOTE]  
-    > 除非您已預先安裝 SQL Server 2012 或 SQL Server 2008 R2，否則 Lync Server 部署嚮導會在每個標準版 server 和任何其他的 Lync Server 伺服器上自動安裝 SQL Server 2012 Express。伺服器。
+    > 安裝本機設定存放區時，Lync Server 部署嚮導會在每個 Standard Edition 伺服器和任何其他 Lync Server 伺服器上自動安裝 SQL Server 2012 Express，除非您已在伺服器上預先安裝 SQL Server 2012 或 SQL Server 2008 R2。
 
     
     </div>
 
-  - 用來製作系統影像的軟體。
+  - 用來製作系統映射的軟體。
     
     <div>
     
 
     > [!TIP]  
-    > 我們建議您在安裝作業系統與 SQL Server 之後，在開始還原前，拍攝系統的影像複本，以便在還原期間發生問題時，使用這個影像做為回滾點。
+    > 建議您在安裝作業系統和 SQL Server 之後，在您開始還原之前，取得系統的影像複本，如此一來，您就可以使用此映射做為回退點，以防還原期間發生問題。
 
     
     </div>
 
-  - Lync Server 2013 安裝軟體。 Lync Server 部署嚮導位於 [Lync Server 安裝] 資料夾或 [ \\安裝程式\\amd64\\] 的媒體中。
+  - Lync Server 2013 安裝軟體。 Lync Server 部署嚮導位於 Lync Server 安裝資料夾或 media at \\ setup \\ amd64 \\Setup.exe。
 
 在還原期間，您可以使用下列工具：
 
   - Lync Server 管理命令介面 Cmdlet
 
-  - 匯入-CsUserData
+  - Import-CsUserData
 
   - 還原 Windows 資料夾的工具
 
-  - 拓撲建立器
+  - 拓撲產生器
 
-  - SQL Server 資料庫實用程式，例如 SQL Server Management Studio
+  - SQL Server 資料庫公用程式，例如 SQL Server Management Studio
 
 </div>
 
@@ -170,29 +170,29 @@ _**主題上次修改日期：** 2013-02-21_
 
 ## <a name="preparing-to-restore-a-server"></a>準備還原伺服器
 
-在您還原伺服器之前，您必須執行下列步驟：
+在還原伺服器之前，您必須執行下列步驟：
 
 1.  安裝作業系統。
 
 2.  如果伺服器是後端伺服器，請安裝 SQL Server 2012 或 SQL Server 2008 R2。
 
-3.  還原或重新註冊您的憑證。 如需有關憑證的詳細資料，請參閱[Lync Server 2013：資料中的備份和還原需求](lync-server-2013-backup-and-restoration-requirements-data.md)中的「其他備份需求」。
+3.  還原或重新註冊憑證。 如需憑證的詳細資訊，請參閱 [Lync Server 2013： data](lync-server-2013-backup-and-restoration-requirements-data.md)中的「其他備份需求」的備份和還原需求。
 
-4.  開始進行還原前，請先拍攝系統的影像，以做為復原點，以防還原期間發生的問題。
+4.  開始還原之前，請先取得系統的映射，以做為回退點，以防還原期間發生問題。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 部署嚮導與本主題中的程式所述的 Cmdlet，以及相關主題，以設定所有必要的存取控制清單（Acl）。
+> Lync Server 部署嚮導和本主題中的程式所述的指令程式和相關主題，設定所有必要的存取控制清單 (ACLs) 。
 
 
 
 </div>
 
-確認您要還原之元件所需的硬體和軟體在開始還原之前都可以使用。 安裝作業系統與 SQL Server 之後，您可以在遠端執行下列幾個還原程式中的步驟。 程式中會注明例外狀況。
+確認您要還原之元件所需的硬體和軟體是否可供您開始還原。 安裝作業系統和 SQL Server 之後，您可以從遠端執行下列還原程式中的大部分步驟。 例外狀況會注明在程式中。
 
-您也應該擁有貴組織的備份和還原方案，以及上次備份中的資訊（例如此檔中的工作表中的資訊）（如需詳細資訊，請參閱[Lync Server 2013 的備份與還原工作表](lync-server-2013-backup-and-restoration-worksheets.md)），然後再開始還原。
+您也應該將組織的備份及還原計劃及最後一次備份中的資訊，例如本文的工作表中的資訊 (如需詳細資訊，請參閱 [Lync Server 2013) 的備份與還原工作表](lync-server-2013-backup-and-restoration-worksheets.md) （在您開始還原之前）。
 
 </div>
 

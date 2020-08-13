@@ -12,18 +12,18 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b74056587a192ec81f0dffb0044fb76e7698960
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1b3c8ea077b6dee724d131ea117aa7bf304e114
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733803"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196886"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-user-account-settings-in-lync-server-2013"></a>在 Lync Server 2013 中設定使用者帳戶設定
 
@@ -37,36 +37,36 @@ ms.locfileid: "41733803"
 
 _**主題上次修改日期：** 2012-10-05_
 
-[撥入使用者] 輸入他們的電話號碼或分機，以及將會議加入為經過驗證的使用者的 PIN。 需要在 Lync Server 使用者帳戶上指定的電話**線路 URI** ，才能進行驗證。
+撥入使用者輸入他們的電話號碼或分機號碼，以及將會議加入已驗證使用者的 PIN 碼。 驗證需要在 Lync Server 使用者帳戶上指定的電話語音**行 URI** 。
 
-本主題中的程式說明如何為單一使用者帳戶指派**行 URI** 。 如果您需要為多個使用者帳戶指派**行 URI** ，您可以建立使用**move-csuser** Cmdlet 的腳本。 如需使用範例腳本將**行 URI**指派給多個使用者帳戶的詳細資料，請參閱「指派行 Uri 給多位[http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)使用者」。
+本主題中的程式說明如何為單一使用者帳戶指派**行 URI** 。 如果您需要為多個使用者帳戶指派**行 URI** ，您可以建立使用**Set-CsUser** Cmdlet 的腳本。 如需使用範例腳本將**行 URI**指派給多個使用者帳戶的詳細資訊，請參閱的「指派行 URIs 給多位使用者」 [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945) 。
 
 <div>
 
 ## <a name="to-configure-user-account-settings"></a>設定使用者帳戶設定
 
-1.  以 RTCUniversalServerAdmins 群組的成員或**Cs-UserAdministrator**或**CsAdministrator**角色的成員的身分登入電腦。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是**Cs-UserAdministrator**或**CsAdministrator**角色的成員身分登入電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**使用者**]。
+3.  在左導覽列中，按一下 **[使用者]**。
 
-4.  在 [搜尋] 欄位中，輸入您要為電話撥入式會議設定的使用者名稱，或按一下 [**新增篩選**] 以指定搜尋欄位，然後按一下 [**尋找**]。
+4.  在 [搜尋] 欄位中，輸入您要設定電話撥入式會議的使用者名稱，或按一下 [**新增篩選**] 以指定搜尋欄位，然後按一下 [**尋找**]。
 
-5.  按兩下使用者名稱以開啟 [**編輯 Lync Server 使用者**] 對話方塊。
+5.  按兩下使用者名稱，以開啟 [**編輯 Lync Server 使用者**] 對話方塊。
 
-6.  在 [**電話**] 底下的 [**行 URI** ] 欄位中，輸入唯一的、標準化的電話號碼（例如電話： + 14255550200）。
+6.  在 [**電話語音**] 下的 [**線路 URI** ] 欄位中，輸入唯一且正規化的電話號碼 (例如電話： + 14255550200) 。
     
     <div>
     
 
     > [!NOTE]  
-    > 只有將<STRONG>電話</STRONG>設定為 [<STRONG>僅電腦至電腦</STRONG>]、[<STRONG>企業語音</STRONG>]、[<STRONG>遠端通話控制</STRONG>] 或 [<STRONG>遠端通話控制</STRONG>] 時，才能指定 [<STRONG>行 URI</STRONG> ]。
+    > 只有在<STRONG>電話語音</STRONG>設定為<STRONG>僅限 pc 對電腦</STRONG>、 <STRONG>Enterprise Voice</STRONG>、<STRONG>遠端呼叫控制</STRONG>或<STRONG>遠端呼叫控制</STRONG>時，您才可以指定<STRONG>行 URI</STRONG> 。
 
     
     </div>
 
-7.  按一下 [認可]****。
+7.  按一下 **[認可]**。
 
 </div>
 

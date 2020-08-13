@@ -12,18 +12,18 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b20be32ecbc7c3c684009c9c2f928c9dc897cd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03aae75cfdb3e179347d14c6f42a90ffe060fad7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763537"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中驗證與 Lync Online 客戶的通訊
 
@@ -37,15 +37,15 @@ ms.locfileid: "41763537"
 
 _**主題上次修改日期：** 2012-10-08_
 
-若要讓貴組織中的 Lync 使用者與 Microsoft Lync Online 2010 客戶的使用者進行通訊，您必須完成下列步驟：
+若要讓組織中的 Lync 使用者能夠與 Microsoft Lync Online 2010 客戶的使用者進行通訊，您必須完成下列步驟：
 
-  - 符合所有先決條件。 這包括部署您的內部與邊緣伺服器、啟用貴組織的同盟支援，以及設定使用者帳戶。 如需詳細資訊，請參閱[在 Lync Server 2013 中與 Lync Online 客戶進行聯盟的先決條件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)。
+  - 符合所有必要條件。 這包括部署您的內部及 edge 伺服器、啟用組織的同盟支援和設定使用者帳戶。 如需詳細資訊，請參閱 [在 Lync Server 2013 中與 Lync Online 客戶進行同盟的必要條件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)。
 
-  - 在內部部署中設定網域存取支援。 這包括建立主機提供者專案並將您的部署設定為允許從 Lync Online 客戶的網域存取。 如需詳細資訊，請參閱[在 Lync Server 2013 中設定 Lync Online 網域的同盟支援](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)。
+  - 設定內部部署中的網域存取支援。 這包括建立主機提供者專案及設定您的部署，以允許從 Lync Online 客戶的網域存取。 如需詳細資訊，請參閱 [Configure federation support for a Lync Online domain In Lync Server 2013](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)。
 
-  - 已將您的使用者帳戶設定為支援同盟。 如需詳細資訊，請參閱[在 Lync Server 2013 中設定與 Lync Online 客戶的同盟的使用者存取權](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)。
+  - 設定您的使用者帳戶以支援同盟。 如需詳細資訊，請參閱 [Configure user access for 同盟 with a Lync Online 客戶 In Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)。
 
-完成所有這些步驟之後，Lync Online 2010 客戶的所有設定都完成了其線上服務的所有設定，以支援與貴組織的同盟，請透過測試內部網路間的通訊來驗證通訊貴組織中的使用者，以及 Lync Online 客戶的使用者。 如果通訊失敗，請使用邊緣伺服器的記錄工具來捕獲記錄和追蹤檔案，以便對問題進行疑難排解。 如需使用記錄工具的詳細資料，請參閱在作業檔中[開啟 Lync Server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。 如需記錄工具的詳細資訊，請參閱 TechNet Library 上的 Lync Server 2010 記錄工具檔[http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)。
+完成所有這些步驟之後，如果 Lync Online 2010 客戶的所有設定都完成其線上服務的所有設定，以支援與組織的同盟，請測試組織內部使用者與 Lync Online 客戶的使用者之間的通訊，以驗證通訊。 如果通訊不成功，請使用 Edge Server 中的記錄工具來捕獲記錄檔和追蹤檔，以便疑難排解問題。 如需使用記錄工具的詳細資訊，請參閱 Operations 檔中的 [Open Lync Server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md) 。 如需有關記錄工具的詳細資訊，請參閱 TechNet 文件庫上的 Lync Server 2010 記錄工具檔 [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) 。
 
 </div>
 

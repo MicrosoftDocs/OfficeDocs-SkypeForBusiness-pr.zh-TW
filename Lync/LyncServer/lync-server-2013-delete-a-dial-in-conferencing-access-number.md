@@ -12,18 +12,18 @@ ms:contentKeyID: 48183522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d461aafd4f111484faf295bef2dd50685e41e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef5d0e51486ed6dca7c9ac17a991b0154c2f1135
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765221"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>刪除 Lync Server 2013 中的電話撥入式會議存取號碼
 
@@ -37,21 +37,21 @@ ms.locfileid: "41765221"
 
 _**主題上次修改日期：** 2013-02-23_
 
-請依照下列步驟刪除電話撥入式會議存取號碼。
+遵循下列步驟，可刪除電話撥入式會議存取號碼。
 
 <div>
 
 ## <a name="to-delete-a-dial-in-conferencing-access-number"></a>刪除電話撥入式會議存取號碼
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署 Lync Server 2013 的網路中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您已部署 Lync Server 2013 之網路中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**會議**]，然後按一下 [**撥入存取號碼**]。
+3.  在左導覽列中，按一下 [會議]****，然後按一下 [撥入存取號碼]****。
 
-4.  在頁面上，按一下清單中您要刪除的撥入號碼，按一下 [**編輯**]，然後按一下 [**刪除**]。
+4.  在頁面中，按一下清單中要刪除的撥入號碼，按一下 **[編輯]**，再按一下 **[刪除]**。
 
-5.  按一下 [確定]****。
+5.  按一下 **[確定]**。
 
 </div>
 
@@ -59,13 +59,13 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除電話撥入式會議存取號碼
 
-您可以使用 Windows PowerShell 和**CsDialInConferencingAccessNumber** Cmdlet 來刪除電話撥入式會議存取號碼。 這個 Cmdlet 可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和**Remove-CsDialInConferencingAccessNumber** Cmdlet 來刪除電話撥入式會議存取號碼。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
 ## <a name="to-remove-a-specific-dial-in-conferencing-access-number"></a>移除特定的電話撥入式會議存取號碼
 
-  - 這個命令會刪除含身分識別 sip:RedmondDialInAccess@litwareinc.com 的電話撥入式會議存取號碼：
+  - 下列命令會刪除識別碼為 sip:RedmondDialInAccess@litwareinc.com 的電話撥入式會議存取號碼：
     
         Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 
@@ -73,9 +73,9 @@ _**主題上次修改日期：** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a>移除指派給特定區域的所有電話撥入式會議存取號碼
+## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a>移除指派給特定地區的所有電話撥入式會議存取號碼
 
-  - 這個命令會刪除與西北地方相關的所有電話撥入式會議存取號碼：
+  - 下列命令會刪除與西北地區相關聯的所有電話撥入式會議存取號碼：
     
         Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 
@@ -83,7 +83,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a>若要移除以主要語言為基礎的電話撥入式會議存取號碼
+## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a>移除以主要語言為基礎的電話撥入式會議存取號碼
 
   - 這個命令會刪除所有以義大利文為主要語言的電話撥入式會議存取號碼：
     
@@ -91,7 +91,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[Remove CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) Cmdlet 的說明主題。
+如需詳細資訊，請參閱[Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) Cmdlet 的 [說明] 主題。
 
 </div>
 

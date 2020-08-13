@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在 Lync Server 中設定存檔的使用者原則
+title: Lync Server 2013：在 Lync Server 中設定封存的使用者原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa8f377c2a78275419c7d4906a51a9550864b8ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e032dd276ee41a711ded56d33a065d515b182ab
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764529"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-user-policies-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中設定存檔的使用者原則
+# <a name="setting-up-user-policies-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中設定封存的使用者原則
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41764529"
 
 _**主題上次修改日期：** 2012-10-10_
 
-針對駐留在 Lync Server 2013 的特定使用者啟用或停用封存需要建立及設定一或多個使用者原則，然後將適當的原則套用至特定的使用者或使用者群組。 使用者原則會覆寫網站和全域原則，但只適用于駐留在 Lync Server 2013 的使用者。
+啟用或停用駐留在 Lync Server 2013 之特定使用者的封存，需要建立及設定一或多個使用者原則，然後將適當的原則套用至特定使用者或使用者群組。 使用者原則會覆寫網站和全域原則，但僅限於位於 Lync Server 2013 的使用者。
 
-使用者永遠都是在 Lync Server 中託管。 如果已啟用 Microsoft Exchange 整合，則信箱是 Microsoft Exchange Server 2013 的使用者，不需要在 Lync Server 管理中擁有其存檔原則。 這些擁有存檔的使用者將由 Exchange 就地保留進行管理。
+使用者永遠都是在 Lync Server 中託管。 如果啟用 Microsoft Exchange 整合，其信箱在 Microsoft Exchange Server 2013 中的使用者不需要在 Lync Server 中管理其封存原則。 這些具有封存的使用者將由 Exchange In-Place 保留進行管理。
 
-如需有關歸檔原則運作方式的詳細資料，包括全域、網站和使用者原則的階層，請參閱規劃檔、部署檔或作業檔中的 [[在 Lync Server 2013 存檔中的運作方式](lync-server-2013-how-archiving-works.md)]。
+如需有關封存原則如何運作（包括全域、網站及使用者原則的階層）的詳細資訊，請參閱規劃檔、部署檔或作業檔中的封存[在 Lync Server 2013 中的運作方式](lync-server-2013-how-archiving-works.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您已針對您的部署啟用 Microsoft Exchange 整合，請按 Exchange 就地保留原則控制是否已針對託管于 Exchange 2013 的使用者啟用封存。 針對這些使用者的存檔要求他們將其信箱放在就地保留中。 如需詳細資訊，請參閱在部署檔中<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 整合時，在 Lync Server 2013 中設定存檔原則</A>。<BR>在啟用封存前，您應該先在封存配置中指定所有適當的選項。 如需詳細資訊，請參閱部署檔中的<A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013</A>中的 [設定封存選項]。
+> 如果您已針對您的部署啟用 Microsoft Exchange 整合，Exchange In-Place 保留原則會控制是否為位於 Exchange 2013 上的使用者啟用封存功能。 若要針對這些使用者啟用封存，則其信箱必須為就地保留狀態。 如需詳細資訊，請參閱部署檔中的<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 整合時，在 Lync Server 2013 中設定</A>封存的原則。<BR>啟用封存前，應在封存組態中指定所有適當的選項。 如需詳細資訊，請參閱部署檔中的在<A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013</A>中設定封存選項。
 
 
 
@@ -55,11 +55,11 @@ _**主題上次修改日期：** 2012-10-10_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中建立及設定用於存檔的使用者原則](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)
+  - [在 Lync Server 2013 中建立及設定封存的使用者原則](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)
 
-  - [在 Lync Server 2013 中將 Lync Server 存檔原則套用至使用者](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md)
+  - [將 Lync Server 封存原則套用至 Lync Server 2013 中的使用者](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md)
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c15cfad5da4bab441a56d6f13a79121b6e8d87b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d834346ed915b44e5b31ed11a5e05c2c9c084b22
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763767"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="initial-planning-decisions-for-lync-server-2013"></a>Lync Server 2013 的初始規劃決策
 
@@ -37,39 +37,39 @@ ms.locfileid: "41763767"
 
 _**主題上次修改日期：** 2012-10-01_
 
-規劃程式的第一個部分是決定您要用於貴組織的 Lync 伺服器工作負載和主要功能。
+規劃程式的第一個階段是決定您的組織所需的 Lync Server 工作負載和主要功能。
 
-1.  **您想要內部部署或線上部署嗎？**   Lync Server 支援這兩種部署案例。 如需作出此決定的詳細資訊，請參閱此區段前面的[決定如何部署 Lync Server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md)
+1.  **您需要內部部署或線上部署嗎？**    Lync Server 支援這兩種部署案例。 如需作出這項決策的詳細資訊，請參閱本節前面的[決定如何部署 Lync Server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md)。
 
-2.  **您想要使用實體或虛擬化拓撲嗎？**   Lync Server 支援物理與虛擬化拓撲中的所有工作負載和伺服器角色。 使用者的容量和可伸縮性在物理與虛擬拓朴之間可能有所不同。 如需詳細資訊，請參閱[在虛擬伺服器上執行 Lync Server 2013](lync-server-2013-running-lync-server-on-virtual-servers.md)。
+2.  **您需要實體或虛擬化拓撲嗎？**    Lync Server 支援實體和虛擬化拓撲中的所有工作負載和伺服器角色。 實體和虛擬拓朴的使用者容量與擴充性可能不同。 如需詳細資訊，請參閱[在虛擬伺服器上執行 Lync Server 2013](lync-server-2013-running-lync-server-on-virtual-servers.md)。
 
-3.  **[立即訊息 *（IM）* ] 和 [目前*狀態*] 都是啟用的。**   在任何 Lync Server 部署中，立即訊息（IM）與目前狀態的工作負荷預設都會安裝並啟用。 IM 可讓您的使用者與即時文字訊息通訊，並讓他們能夠查看網路上其他使用者的狀態。 使用者的目前狀態會提供資訊，協助其他人決定是否應該嘗試與使用者聯繫，以及有何意義。 如需詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的 [規劃前端伺服器]、[立即訊息] 和](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)[目前狀態]。
+3.  **立即訊息* (IM) *和目前*狀態*，都一定會啟用。**    在任何 Lync Server 部署中，預設會安裝立即訊息 (IM) 和目前狀態工作負載。 IM 可讓您的使用者與即時文字郵件進行通訊，而顯示狀態可讓他們查看網路上其他使用者的狀態。 使用者的目前狀態會提供資訊，以協助其他人決定是否應嘗試聯繫使用者，以及其含義。 如需詳細資訊，請參閱規劃檔中的[規劃 Lync Server 2013 中的前端伺服器、立即訊息及顯示狀態](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)。
 
-4.  **您想要部署任何會議模式嗎？**   [會議] 是 Lync Server 的另一個核心功能。 支援數種會議模式。 您可以選擇部署所有受支援的會議類型，或只是其中一部分。 *網路會議*可讓使用者查看檔案，例如使用 Microsoft PowerPoint 簡報圖形程式建立的投影片組。 [*應用程式共用*] 可讓使用者即時共用全部或部分的桌面。 使用*A/V 會議*，使用者可以在會議和對等通訊中新增音訊（也可能是影片）。 *電話撥入式會議*可讓使用者使用標準的 PSTN 電話來加入您組織內所託管之會議的音訊部分。 如需詳細資訊，請參閱規劃檔中的[Lync Server 2013 規劃會議](lync-server-2013-planning-for-conferencing.md)。
+4.  **您是否要部署任何會議模式？**    會議是 Lync Server 的另一項核心功能。 支援多種會議模式。 您可以選擇部署所有支援的會議類型，或是只部署部分會議。 *Web 會議*可讓使用者看到檔案，例如所呈現的 Microsoft PowerPoint 簡報圖形程式所建立的投影片。 *應用程式共用*可讓使用者即時共用全部或部分的桌面。 透過*A/V 會議*，使用者可以在會議和對等通訊) 中新增音訊 (及可能的影片。 *電話撥入式會議*可讓使用者使用標準 PSTN 電話，加入組織中所主控之會議的音訊部分。 如需詳細資訊，請參閱規劃檔中的在[Lync Server 2013 中規劃會議](lync-server-2013-planning-for-conferencing.md)。
     
-    在 Lync Server 2013 中，如果您要部署 Web 會議，您也必須規劃與 Office Web Apps Server 整合，以便在會議中啟用 Powerpoint 共用及查看。 如需詳細資訊，請參閱設定[與 Office Web Apps server 和 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
+    在 Lync Server 2013 中，如果您要部署 Web 會議，也必須規劃與 Office Web Apps Server 整合，以在會議中啟用 Powerpoint 共用和查看。 如需詳細資訊，請參閱設定[Office Web Apps Server 和 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
 
-5.  **如果您要部署 A/V 會議，您也應該監視這些會議的音訊品質。**   許多因素都會影響 Lync Server A/V 會議的音訊和視頻品質。 透過使用監視，您可以監控通話和會議的 A/V 品質。 您可以偵測到影響媒體質量的問題，並確保您的使用者具備最佳的媒體體驗。 如需詳細資訊，請參閱[在 Lync Server 2013 中進行監視規劃](lync-server-2013-planning-for-monitoring.md)。
+5.  **如果您部署 A/V 會議，也應監視這些會議的音訊品質。**    許多因素會影響 Lync Server A/V 會議的音訊和視頻品質。 透過使用監控，您可以監視 A/V 的通話和會議品質。 您可以偵測影響媒體質量的問題，並確定您的使用者可以獲得最佳的媒體體驗。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃監控](lync-server-2013-planning-for-monitoring.md)。
 
-6.  **您是否想要為 IM、目前狀態及會議服務器提供高可用性？**   如果您在提供 IM、目前狀態與會議功能的網站上只有一個伺服器，則如果該伺服器已停機，您的使用者的生產力將會受到極大的影響。 透過為這些函數部署至少三台伺服器的企業版文檔*庫*，即使伺服器無法使用，也可以讓 Lync Server 繼續正常運作。
+6.  **您的 IM、目前狀態及會議服務器是否需要高可用性？**    如果您在提供 IM、目前狀態和會議功能的網站上只有一部伺服器，當該伺服器停機時，使用者的生產力會大大地影響。 透過為這些功能部署至少三台伺服器的 Enterprise Edition*集*區，即使無法使用伺服器，也可讓 Lync Server 繼續正常運作所有這些功能。
     
-    如果組織使用的是5000或更少的使用者，而想要高可用性，請將兩個伺服器部署在運行 Lync Server 標準版，並將這些伺服器搭配在一起。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+    其他有5000或更少使用者需要高可用性的組織的另一個選項是部署兩部執行 Lync Server Standard Edition 的伺服器，並將這些伺服器結合在一起。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
-7.  **您是否需要災害復原選項？**   如果您有兩個資料中心，且想要讓您的使用者能夠在單一資料中心的所有伺服器或多個伺服器都在使用時繼續運作，您可以使用災害復原來部署伺服器。 針對此部署，您可以將一個資料中心的伺服器池與另一個資料中心的對應池進行配對。 如果一個資料中心出現停機，該配對中的另一個池就可以使用最小的服務中斷來服務于兩個池中的使用者。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+7.  **您是否想要執行嚴重損壞修復選項？**    如果您有兩個資料中心，且想要讓您的使用者能夠繼續運作，而如果一個資料中心的所有伺服器或多部伺服器都在停機，您可以在部署伺服器時考慮使用災害復原。 針對此部署，您可以將一個資料中心的伺服器集區與另一個資料中心的對應集區配對。 如果有一個資料中心停機，該配對中的另一個集區就可以服務于兩個集區中的使用者，最少中斷服務。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
-8.  **您想要讓您的使用者與外部使用者進行通訊及共同作業嗎？**   啟用與外部使用者的通訊與共同作業，可增加您在 Lync Server 中的投資回報。 這可讓貴組織的使用者能從 Lync Server 功能獲益，即使他們在組織的防火牆以外的工作。 您也可以與您的合作夥伴或執行 Lync Server 的客戶組織聯盟。 如此一來，您的使用者與同盟合作夥伴使用者就能輕鬆地傳送及接收 IM 訊息、邀請對方加入會議，以及相互查看彼此的目前狀態。 此外，您的使用者也可以使用電子郵件訊息，邀請特定外部使用者加入他們組織的會議。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃外部使用者存取](lync-server-2013-planning-for-external-user-access.md)。
+8.  **您是否要讓您的使用者能夠與外部使用者通訊及共同作業？**    啟用與外部使用者的通訊及共同作業，可增加您在 Lync Server 中的投資回報率。 這可讓貴組織的使用者在 Lync Server 功能上受益，甚至是在組織的防火牆外工作時。 您也可以與您的合作夥伴或執行 Lync Server 之客戶組織同盟。 如此一來，您的使用者和同盟合作夥伴使用者可以輕鬆地傳送和接收 IM 訊息、邀請對方參加會議，以及彼此查看對方的狀態。 此外，您的使用者也可以使用電子郵件訊息，將特定外部使用者邀請他們組織的會議。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃外部使用者存取](lync-server-2013-planning-for-external-user-access.md)。
 
-9.  **您想要部署企業語音嗎？**    *企業語音*是 Lync Server 所提供的 [語音 over IP （VoIP）] 解決方案。 它為傳統的以 PBX 為基礎的電話提供了極具吸引力的替代方案。 企業語音可讓使用者透過按一下 Outlook 或 Lync Server 中的連絡人，將呼叫從他們的電腦或 VoIP 撥打電話。 它們可將來自電腦的電話撥打電話給電腦、電腦到電話，或撥打電話給電腦。 使用者從其電腦上的所有通訊選項（語音、電子郵件、IM 及會議）都有好處。 如需詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的企業語音規劃](lync-server-2013-planning-for-enterprise-voice.md)。
+9.  **您要部署 Enterprise Voice？**    *Enterprise voice*是 Lync Server 所提供) 方案 VoIP 的 VOICE over IP (。 它為傳統 PBX 型電話語音提供了極具吸引力的替代方案。 Enterprise Voice 可讓使用者透過按一下 Outlook 或 Lync Server 中的連絡人，撥打其電腦或 VoIP 電話。 它們可以透過 IP 網路將電話從電腦移至電腦、電腦到電話，或從電話移至電腦。 使用者可在其電腦上享受所有的通訊選項-語音、電子郵件、IM 和會議，並加以整合。 如需詳細資訊，請參閱規劃檔中的[規劃 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-planning-for-enterprise-voice.md) 。
 
-10. **如果您要部署企業語音，您也應該監視這些通話的音訊品質。**   如果您部署企業語音，我們建議您使用 [監視] 來確保企業語音通話的音訊品質。 如需詳細資訊，請參閱[在 Lync Server 2013 中進行監視規劃](lync-server-2013-planning-for-monitoring.md)。
+10. **如果您部署企業語音，您也應該監視這些通話的音訊品質。**    建議您使用監控功能，以確保企業語音通話的音訊品質（如果您部署企業語音）。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃監控](lync-server-2013-planning-for-monitoring.md)。
 
-11. **您是否需要封存 IM 內容或會議內容以進行合規性用途？**   如果您的組織必須封存 IM 內容或會議內容以進行合規性用途，您可以部署封存。 如需詳細資訊，請參閱[在 Lync Server 2013 中進行存檔規劃](lync-server-2013-planning-for-archiving.md)。
+11. **出於相容性目的，您是否需要封存 IM 內容或會議內容？**    如果您的組織出於相容性目的而必須封存 IM 內容或會議內容，您可以部署封存。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃](lync-server-2013-planning-for-archiving.md)封存。
 
-12. **您想要部署持續聊天嗎？**   如果您想要讓您的使用者擁有可在一段時間內保留的即時交談，您可以部署持續聊天。 如需詳細資訊，請參閱[在 Lync server 2013 中規劃持久聊天伺服器](lync-server-2013-planning-for-persistent-chat-server.md)。
+12. **您想要部署持續性聊天嗎？**    如果您想要讓您的使用者有可在一段時間後持續的即時交談，您可以部署持續聊天。 如需詳細資訊，請參閱[在 Lync server 2013 中規劃 Persistent Chat Server](lync-server-2013-planning-for-persistent-chat-server.md)。
 
-13. **您是否已部署 Microsoft Exchange？**   如果您的組織使用 Microsoft Exchange Server 進行其電子郵件服務，您可以啟用多種功能，加強 Lync Server 和 Microsoft exchange Server 的有用性。 這些功能（稱為 Exchange 整合通訊（UM））包括讓使用者接收語音信箱通知，以及聆聽來自 Outlook 或 Outlook Web Access 的語音信箱、使用電話存取其 Microsoft Exchange 信箱，以及接收傳真其 Microsoft Exchange 信箱。 此外，如果您已部署 Exchange 2013，您可以在兩個系統之間整合使用者的連絡人存放區，使用 Exchange 來儲存較高解析度的連絡人相片，以及整合電子郵件和立即訊息的存檔。 如需詳細資訊，請參閱[規劃與 Lync server 2013 整合 Exchange Server](lync-server-2013-planning-for-exchange-server-integration.md)的功能。
+13. **是否已部署 Microsoft Exchange？**    如果您的組織使用 Microsoft Exchange Server 進行電子郵件服務，您可以啟用多種功能，以加強 Lync Server 和 Microsoft Exchange Server 的有用性。 這些功能（稱為 Exchange 整合通訊 (UM) ）包括讓使用者能夠接收語音信箱通知，以及收聽 Outlook 或 Outlook Web Access 中的語音信箱、使用電話存取其 Microsoft Exchange 信箱，以及在其 Microsoft Exchange 信箱中接收傳真。 此外，如果您已部署 Exchange 2013，您可以整合兩個系統之間使用者的連絡人存放區，並使用 Exchange 來儲存較高解析度的連絡人相片，以及整合電子郵件和立即訊息的封存。 如需詳細資訊，請參閱[規劃 Exchange Server 與 Lync server 的整合 2013](lync-server-2013-planning-for-exchange-server-integration.md)。
 
-14. **您的組織中是否有分支機搆？**   如果您的組織有分支辦公室，Lync Server 支援多種不同的方式來支援它們，並確保其可復原語音及其他功能。 特別是在沒有資料中心彈性 WAN 連結的分支辦公室中，您可以安裝 Survivable 分支裝置或 Survivable 分支伺服器，以維持 [廣域網路（WAN）] 連結的功能。 如需詳細資訊，請參閱[Lync Server 2013 中的分支網站語音復原規劃](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
+14. **您的組織中有分支辦公室嗎？**    如果您的組織有分支辦事處，Lync Server 支援各種方式來支援它們，並確保其語音功能和其他功能的復原能力。 特別是，在分公司沒有資料中心的彈性 WAN 連結時，您可以安裝 Survivable Branch 裝置或 Survivable Branch 伺服器以維護 Enterprise Voice 支援。廣域網路) 連結 (會中斷。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃分支網站語音恢復功能](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
 
 </div>
 

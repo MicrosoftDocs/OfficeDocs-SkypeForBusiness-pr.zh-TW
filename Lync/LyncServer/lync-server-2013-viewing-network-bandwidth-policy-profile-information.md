@@ -12,18 +12,18 @@ ms:contentKeyID: 49733866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c497ad849135e5bdfea4a3f001e86e65c269dca8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2ecfb3e43a817a190e3bee1199164b1eaf0c51e5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757307"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看網路頻寬原則設定檔資訊
 
@@ -37,39 +37,39 @@ ms.locfileid: "41757307"
 
 _**主題上次修改日期：** 2013-02-23_
 
-在呼叫許可控制（CAC）中，頻寬原則是用來定義特定形式的頻寬限制。 在 Microsoft Lync Server 2013 中，只有音訊和視頻形式可獲指派頻寬限制。 您可以設定整體頻寬限制及會話限制。 您可以使用 Lync Server [控制台] 來建立、修改或刪除這些原則的容器設定檔。 每個頻寬原則設定檔都可以與一個或多個網路網站建立關聯。 使用下列程式來查看頻寬原則設定檔。 若要建立或修改頻寬策略設定檔，請參閱[在 Lync Server 2013 中建立或修改頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。
+頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在 Microsoft Lync Server 2013 中，只有音訊和影片形式可以獲指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用 Lync Server 控制台建立、修改或刪除這些原則的容器設定檔。 每個頻寬原則設定檔可以與一或多個網路網站產生關聯。 請使用下列程式來查看頻寬原則設定檔。 若要建立或修改頻寬原則設定檔，請參閱[建立或修改 Lync Server 2013 中的頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。
 
 <div>
 
 ## <a name="to-view-a-bandwidth-policy-profile"></a>若要查看頻寬原則設定檔
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**網路**設定]，然後按一下 [**頻寬規則**]。
+3.  在左導覽列中，按一下 **[網路設定]**，再按一下 **[頻寬原則]**。
 
 4.  在 [**頻寬原則**] 頁面上，按一下您要查看的頻寬原則設定檔。
 
-5.  按一下 [**編輯**] 功能表上的 [**顯示詳細資料**]。
+5.  在 **[編輯]** 功能表上，按一下 **[顯示詳細資料]**。
 
 </div>
 
 <div>
 
-## <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看網路頻寬原則設定檔資訊
+## <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看網路頻寬原則設定檔資訊
 
-您可以使用 Windows PowerShell 和 CsNetworkBandwidthPolicyProfile Cmdlet 來查看網路頻寬設定檔。 這個 Cmdlet 可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和 Get-CsNetworkBandwidthPolicyProfile Cmdlet 來查看網路頻寬設定檔。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
 ## <a name="to-view-network-bandwidth-policy-profile-information"></a>若要查看網路頻寬原則設定檔資訊
 
-  - 若要查看所有網路頻寬策略設定檔的相關資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
+  - 若要查看所有網路頻寬原則設定檔的相關資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
     
         Get-CsNetworkBandwidthPolicyProfile
     
-    這會傳回如下所示的資訊：
+    如此將傳回類似如下的資訊：
     
         Identity          : RedmondBandwidthPolicy
         BWPolicy          : {BWLimit=200;BWSessionLimit=200;
@@ -81,17 +81,17 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) Cmdlet 的說明主題。
+如需詳細資訊，請參閱[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) Cmdlet 的 [說明] 主題。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中建立或修改頻寬原則設定檔](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
-[刪除 Lync Server 2013 的網路頻寬原則設定檔](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
+[在 Lync Server 2013 中刪除網路頻寬原則設定檔](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
 
 
 [在 Lync Server 2013 中設定通話許可控制](lync-server-2013-configure-call-admission-control.md)  

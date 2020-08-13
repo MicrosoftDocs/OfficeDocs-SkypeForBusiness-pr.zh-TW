@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：改善語音路由測試案例
+title: Lync Server 2013：匯入語音路由測試案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184325
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 013860ea52773f4109c56bd71d37a9f4b8938225
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 415cdcd247e815e83d31bd2339363929a5ded04c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763837"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>在 Lync Server 2013 中改善語音路由測試案例
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>在 Lync Server 2013 中匯入語音路由測試案例
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41763837"
 
 _**主題上次修改日期：** 2013-02-21_
 
-測試案例提供您在組織中測試語音路線的方式：您可以定義要撥打的號碼，以及要使用的撥號計畫和語音原則，而 Lync Server 2013 可以在已知這些條件下驗證，提供的號碼可以 successfully 會路由到 PSTN 網路。
+測試案例為您提供測試組織中語音路由的方法：您可以定義要撥打的號碼，以及要採用的撥號對應表和語音原則等事項，而且 Lync Server 2013 可以確認是否已提供的號碼可成功路由傳送至 PSTN 網路。
 
-您可以使用 Lync Server [控制台] 建立的測試案例通常只會儲存在當初建立並執行該案例的伺服器上。 不過，這些測試案例可以匯出為 XML 檔案（副檔名為 vtest），然後匯入到其他伺服器。 這可讓您在拓撲中不同的電腦上執行相同的測試。
+您可以使用 Lync Server 控制台建立的測試案例通常只會儲存在先前建立及執行案例的伺服器上。 不過，這些測試案例可以用 XML 檔案 (副檔名為 .vtest) 的形式匯出，然後匯入到其他伺服器上。 這讓您可以在位於拓撲中不同點之不同電腦上執行相同的測試。
 
 <div>
 
-## <a name="to-import-a-voice-routing-test-case"></a>若要匯入語音路由測試案例
+## <a name="to-import-a-voice-routing-test-case"></a>匯入語音路由測試案例
 
-1.  以 RTCUniversalServerAdmins 群組的成員或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員的身分登入電腦。 如需詳細資訊，請參閱[Lync Server 2013 中的委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**語音路由**]。
+3.  在左導覽列中，按一下 **[語音路由]**。
 
-4.  在 [**動作**] 功能表上，按一下 [匯**入測試案例**]。
+4.  在 **[執行]** 功能表上，按一下 **[匯入測試案例]**。
 
-5.  找出您想要匯入的測試案例檔案（vtest），然後按一下 [**開啟**]。
+5.  尋找想要匯入的測試案例檔案 (.vtest)，然後按一下 **[開啟]**。
 
-6.  按一下 [**認可**]，然後按一下 [**全部確認**]。
+6.  依序按一下 **[認可]** 和 **[全部認可]**。
     
     <div>
     
 
     > [!NOTE]  
-    > 每當您匯入 vtest 檔案時，您都必須執行 [<STRONG>全部提交</STRONG>] 命令才能發佈測試案例。 如需詳細資訊，請參閱在 Operations 檔中<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">發佈 Lync Server 2013 中的語音路由設定的未決變更</A>。
+    > 只要匯入 .vtest 檔案，就必須執行 <STRONG>[全部認可]</STRONG> 命令，來發行測試案例。 如需詳細資訊，請參閱 Operations 檔中的在 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中發佈擱置的變更至語音路由</A> 設定。
 
     
     </div>
@@ -70,7 +70,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中匯出語音路由測試案例](lync-server-2013-export-voice-routing-test-cases.md)  

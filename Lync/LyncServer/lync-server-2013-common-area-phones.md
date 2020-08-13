@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：常見的區域電話
+title: Lync Server 2013：公共區域電話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fa61773a4801d2050d67d4e86458eb5d37759c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 154d079d3a485297dd17239d77cd8aa5e269f365
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742783"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="common-area-phones-in-lync-server-2013"></a>Lync Server 2013 中的常見區域手機
+# <a name="common-area-phones-in-lync-server-2013"></a>Lync Server 2013 中的公共區域電話
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41742783"
 
 _**主題上次修改日期：** 2013-02-20_
 
-常見的區域電話是不與個別使用者相關聯的 IP 電話。 一般的區域手機通常位於建立大廳、cafeterias、員工 lounges、會議室，以及許多人可能收集的其他位置，而不是在某人的辦公室中。 與 Lync Server 中的其他電話不同，通常是使用指派給個別使用者的語音原則和撥號方案進行維護，而一般的區域電話則不會有指派給他們的個別使用者。 這表示它們的管理方式必須與其他手機不同。
+常見的區域電話是與個別使用者沒有關聯的 IP 電話。 一般地區電話通常位於建立大廳、cafeterias、員工 lounges、會議室及其他大量人員可能收集的地方，而不是位於某人的辦公室。 與 Lync Server 中的其他電話不同的是，通常是使用指派給個別使用者的語音原則和撥號對應表來維護，但一般區域電話不會有個別的使用者指派給他們。 這表示它們的管理方式必須不同于其他電話。
 
-若要管理常見的局域網，您可以為所有您的通用區域電話（例如使用者帳戶）建立 Active Directory 網域服務連絡人物件，以獲指派策略和語音方案。 這種方法可讓您維持對常見區域手機的控制權，即使這些手機沒有與個別使用者相關聯也一樣。
+若要管理常見的區號，您可以為所有您可以指派原則及語音方案的一般區域電話建立 Active Directory 網域服務連絡人物件。 這種方法可讓您維護一般區域電話的控制權，即使這些電話不會與個別使用者相關聯也是一樣。
 
-您可以使用本節中的主題來瞭解如何為常用的區域手機建立連絡人物件、修改及刪除它們，以及設定及查看有關部署中常見區域手機的配置資訊。
+使用本節中的主題，瞭解如何建立常見區域電話的連絡人物件、修改和刪除它們，以及設定及查看有關部署中常見區域電話的設定資訊。
 
 <div>
 
 
 > [!NOTE]  
-> 您有三個適用于常見區域手機的選項： Aastra 6721ip 常見區域手機、HP 4110 IP 手機，以及 Polycom CX500 IP 通用區域電話。 Polycom CX3000 IP 會議電話是另一個變種常見的區域電話。 不過，它是用在會議室中。 如需常見區域電話的詳細資料，請參閱<A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">選擇新裝置</A>的 [通用區域電話] 區段。
+> 一般區域電話有三個選項： Aastra 6721ip common area phone、HP 4110 IP Phone 及 Polycom CX500 IP 公共區域電話。 Polycom CX3000 IP 會議電話是另一個變種常見區域電話。 不過，此功能適用于會議室。 如需有關一般區域電話的詳細資訊，請參閱<A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">選擇新裝置</A>的通用區域電話一節。
 
 
 
@@ -55,17 +55,17 @@ _**主題上次修改日期：** 2013-02-20_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看常見區域電話資訊](lync-server-2013-view-common-area-phone-information.md)
+  - [在 Lync Server 2013 中查看共同區域電話資訊](lync-server-2013-view-common-area-phone-information.md)
 
-  - [在 Lync Server 2013 中建立或修改常見的區域電話連絡人物件](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
+  - [在 Lync Server 2013 中建立或修改公共區域電話連絡人物件](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
 
-  - [在 Lync Server 2013 中啟用或停用熱 desking](lync-server-2013-enable-or-disable-hot-desking.md)
+  - [啟用或停用 Lync Server 2013 中的熱 desking](lync-server-2013-enable-or-disable-hot-desking.md)
 
-  - [在 Lync Server 2013 中刪除常見的區域電話連絡人物件](lync-server-2013-delete-a-common-area-phone-contact-object.md)
+  - [在 Lync Server 2013 中刪除公共區域電話連絡人物件](lync-server-2013-delete-a-common-area-phone-contact-object.md)
 
-  - [在 Lync Server 2013 中將原則指派至常見的區域電話](lync-server-2013-assign-policies-to-a-common-area-phone.md)
+  - [將 Lync Server 2013 中的原則指派給一般區域電話](lync-server-2013-assign-policies-to-a-common-area-phone.md)
 
 </div>
 
