@@ -1,5 +1,5 @@
 ---
-title: 針對高可用性和災害復原設定常設聊天室
+title: 設定持久聊天的高可用性和嚴重損壞修復
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f29fa807034a8cdad6fb4bf14526a868e242130f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd941cb3f0b86e1474a2cca8046e6ca621af60cb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728973"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="a38fe-102">在 Lync Server 2013 中針對高可用性和災害復原設定常設聊天室</span><span class="sxs-lookup"><span data-stu-id="a38fe-102">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="ebde8-102">在 Lync Server 2013 中設定持久聊天高可用性和嚴重損壞修復</span><span class="sxs-lookup"><span data-stu-id="ebde8-102">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728973"
 
 <span> </span>
 
-<span data-ttu-id="a38fe-103">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a38fe-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="ebde8-103">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="ebde8-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="a38fe-104">如需有關如何針對高可用性和災害復原設定持續聊天服務的詳細資訊，請參閱[在 Lync server 2013 中部署持久聊天伺服器](lync-server-2013-deploying-persistent-chat-server.md)。</span><span class="sxs-lookup"><span data-stu-id="a38fe-104">For details about how to configure the Persistent Chat services for high availability and disaster recovery, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
+<span data-ttu-id="ebde8-104">如需如何設定持續性聊天服務以取得高可用性和嚴重損壞修復的詳細資訊，請參閱[在 Lync server 2013 中部署 Persistent Chat Server](lync-server-2013-deploying-persistent-chat-server.md)。</span><span class="sxs-lookup"><span data-stu-id="ebde8-104">For details about how to configure the Persistent Chat services for high availability and disaster recovery, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0434e673955729bdfad61d6e205f47dbf7f06577
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 10ca6550cc97516b1f6664a1434b57d8bf5b21a3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757297"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-interface-information-in-lync-server-2013"></a><span data-ttu-id="b71f5-102">在 Lync Server 2013 中查看網路介面資訊</span><span class="sxs-lookup"><span data-stu-id="b71f5-102">Viewing network interface information in Lync Server 2013</span></span>
+# <a name="viewing-network-interface-information-in-lync-server-2013"></a><span data-ttu-id="c349d-102">在 Lync Server 2013 中查看網路介面資訊</span><span class="sxs-lookup"><span data-stu-id="c349d-102">Viewing network interface information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757297"
 
 <span> </span>
 
-<span data-ttu-id="b71f5-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="b71f5-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="c349d-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="c349d-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="b71f5-104">您可以使用 Windows PowerShell 和**CsNetworkInterface** Cmdlet 來查看網路介面資訊。</span><span class="sxs-lookup"><span data-stu-id="b71f5-104">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="b71f5-105">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="b71f5-105">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="b71f5-106">如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="b71f5-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="c349d-104">您可以使用 Windows PowerShell 和**Get-CsNetworkInterface** Cmdlet 來查看網路介面資訊。</span><span class="sxs-lookup"><span data-stu-id="c349d-104">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="c349d-105">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c349d-105">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="c349d-106">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="c349d-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-network-interface-information"></a><span data-ttu-id="b71f5-107">若要查看網路介面資訊</span><span class="sxs-lookup"><span data-stu-id="b71f5-107">To view network interface information</span></span>
+## <a name="to-view-network-interface-information"></a><span data-ttu-id="c349d-107">若要查看網路介面資訊</span><span class="sxs-lookup"><span data-stu-id="c349d-107">To view network interface information</span></span>
 
-  - <span data-ttu-id="b71f5-108">若要查看網路介面資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：</span><span class="sxs-lookup"><span data-stu-id="b71f5-108">To view network interface information, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="c349d-108">若要查看網路介面資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：</span><span class="sxs-lookup"><span data-stu-id="c349d-108">To view network interface information, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkInterface
     
-    <span data-ttu-id="b71f5-109">這個命令會針對每個網路介面傳回類似下列的資訊：</span><span class="sxs-lookup"><span data-stu-id="b71f5-109">This command returns information similar to the following for each network interface:</span></span>
+    <span data-ttu-id="c349d-109">此命令會針對每個網路介面傳回類似下列的資訊：</span><span class="sxs-lookup"><span data-stu-id="c349d-109">This command returns information similar to the following for each network interface:</span></span>
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -59,7 +59,7 @@ ms.locfileid: "41757297"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    <span data-ttu-id="b71f5-110">如需詳細資訊，請參閱[CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface)。</span><span class="sxs-lookup"><span data-stu-id="b71f5-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
+    <span data-ttu-id="c349d-110">如需詳細資訊，請參閱[Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface)。</span><span class="sxs-lookup"><span data-stu-id="c349d-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
 
 </div>
 

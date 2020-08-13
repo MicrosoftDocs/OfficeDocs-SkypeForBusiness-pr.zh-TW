@@ -12,20 +12,20 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff36e17e0add5cdf45347921292dadbdd4d635ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c6c1ae2b19792c89da7462d8a620f501fe19e2a
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725368"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184196"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-mobile-clients-in-lync-server-2013"></a><span data-ttu-id="cc0b8-102">規劃 Lync Server 2013 中的行動用戶端</span><span class="sxs-lookup"><span data-stu-id="cc0b8-102">Planning for mobile clients in Lync Server 2013</span></span>
+# <a name="planning-for-mobile-clients-in-lync-server-2013"></a><span data-ttu-id="1db8d-102">在 Lync Server 2013 中規劃行動用戶端</span><span class="sxs-lookup"><span data-stu-id="1db8d-102">Planning for mobile clients in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41725368"
 
 <span> </span>
 
-<span data-ttu-id="cc0b8-103">_**主題上次修改日期：** 2013-04-02_</span><span class="sxs-lookup"><span data-stu-id="cc0b8-103">_**Topic Last Modified:** 2013-04-02_</span></span>
+<span data-ttu-id="1db8d-103">_**主題上次修改日期：** 2013-04-02_</span><span class="sxs-lookup"><span data-stu-id="1db8d-103">_**Topic Last Modified:** 2013-04-02_</span></span>
 
-<span data-ttu-id="cc0b8-104">Lync 2013 行動用戶端可在網際網路或行動裝置連線中提供增強的目前狀態、IM、Lync 會議以及語音及視頻通話功能。</span><span class="sxs-lookup"><span data-stu-id="cc0b8-104">Lync 2013 mobile clients provide enhanced presence, IM, Lync meetings, and voice and video calls over the Internet or the cellular connection.</span></span> <span data-ttu-id="cc0b8-105">如需列出行動用戶端功能與功能的矩陣，並將它們與桌面用戶端進行比較，請參閱[Lync Server 2013 的行動用戶端比較表](lync-server-2013-mobile-client-comparison-tables.md)。</span><span class="sxs-lookup"><span data-stu-id="cc0b8-105">For a matrix that lists the features and capabilities of mobile clients and compares them to the desktop client, see [Mobile client comparison tables for Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).</span></span>
+<span data-ttu-id="1db8d-104">Lync 2013 行動用戶端透過網際網路或蜂窩連線提供增強型目前狀態、IM、Lync 會議及語音和影片通話。</span><span class="sxs-lookup"><span data-stu-id="1db8d-104">Lync 2013 mobile clients provide enhanced presence, IM, Lync meetings, and voice and video calls over the Internet or the cellular connection.</span></span> <span data-ttu-id="1db8d-105">如需列出行動用戶端功能的矩陣，並將其與桌面用戶端進行比較，請參閱[Lync Server 2013 的行動用戶端比較表](lync-server-2013-mobile-client-comparison-tables.md)。</span><span class="sxs-lookup"><span data-stu-id="1db8d-105">For a matrix that lists the features and capabilities of mobile clients and compares them to the desktop client, see [Mobile client comparison tables for Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cc0b8-106">Lync Server 2013 也支援 Lync 2010 行動用戶端。</span><span class="sxs-lookup"><span data-stu-id="cc0b8-106">Lync Server 2013 also supports Lync 2010 mobile clients.</span></span> <span data-ttu-id="cc0b8-107">如需詳細資訊，請參閱 Lync Server 2010 TechNet 文件庫中的「規劃行動客戶<A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>端」。</span><span class="sxs-lookup"><span data-stu-id="cc0b8-107">For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span></span>
+> <span data-ttu-id="1db8d-106">Lync Server 2013 也支援 Lync 2010 行動用戶端。</span><span class="sxs-lookup"><span data-stu-id="1db8d-106">Lync Server 2013 also supports Lync 2010 mobile clients.</span></span> <span data-ttu-id="1db8d-107">如需詳細資訊，請參閱 Lync Server 2010 TechNet 文件庫中的「規劃行動用戶端」 <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A> 。</span><span class="sxs-lookup"><span data-stu-id="1db8d-107">For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span></span>
 
 
 
@@ -51,17 +51,17 @@ ms.locfileid: "41725368"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cc0b8-108">本節內容</span><span class="sxs-lookup"><span data-stu-id="cc0b8-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1db8d-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="1db8d-108">In This Section</span></span>
 
-  - [<span data-ttu-id="cc0b8-109">Lync Server 2013 行動用戶端比較表</span><span class="sxs-lookup"><span data-stu-id="cc0b8-109">Mobile client comparison tables for Lync Server 2013</span></span>](lync-server-2013-mobile-client-comparison-tables.md)
+  - [<span data-ttu-id="1db8d-109">Lync Server 2013 的行動用戶端比較表</span><span class="sxs-lookup"><span data-stu-id="1db8d-109">Mobile client comparison tables for Lync Server 2013</span></span>](lync-server-2013-mobile-client-comparison-tables.md)
 
-  - [<span data-ttu-id="cc0b8-110">Lync for Lync Server 2013 中的 Windows Phone 需求</span><span class="sxs-lookup"><span data-stu-id="cc0b8-110">Lync for Windows Phone requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-windows-phone-requirements.md)
+  - [<span data-ttu-id="1db8d-110">Lync Server 2013 中的 lync for Windows Phone 需求</span><span class="sxs-lookup"><span data-stu-id="1db8d-110">Lync for Windows Phone requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-windows-phone-requirements.md)
 
-  - [<span data-ttu-id="cc0b8-111">Lync for iPhone 和 iPad 在 Lync Server 2013 中的需求</span><span class="sxs-lookup"><span data-stu-id="cc0b8-111">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-iphone-and-ipad-requirements.md)
+  - [<span data-ttu-id="1db8d-111">Lync Server 2013 中的 lync for iPhone 和 iPad 的需求</span><span class="sxs-lookup"><span data-stu-id="1db8d-111">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-iphone-and-ipad-requirements.md)
 
-  - [<span data-ttu-id="cc0b8-112">Lync Server 2013 中的 lync for Android 需求</span><span class="sxs-lookup"><span data-stu-id="cc0b8-112">Lync for Android requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-android-requirements.md)
+  - [<span data-ttu-id="1db8d-112">Lync Server 2013 中的 lync for Android 需求</span><span class="sxs-lookup"><span data-stu-id="1db8d-112">Lync for Android requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-android-requirements.md)
 
-  - [<span data-ttu-id="cc0b8-113">Lync Server 2013 中的行動用戶端部署程式</span><span class="sxs-lookup"><span data-stu-id="cc0b8-113">Mobile client deployment process in Lync Server 2013</span></span>](lync-server-2013-mobile-client-deployment-process.md)
+  - [<span data-ttu-id="1db8d-113">Lync Server 2013 中的行動用戶端部署程式</span><span class="sxs-lookup"><span data-stu-id="1db8d-113">Mobile client deployment process in Lync Server 2013</span></span>](lync-server-2013-mobile-client-deployment-process.md)
 
 </div>
 

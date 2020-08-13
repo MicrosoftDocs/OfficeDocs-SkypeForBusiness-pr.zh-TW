@@ -12,20 +12,20 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56d594f0bf6e393545f4a7c29785b5f66b328bdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74808a2deae4f7fa52e1a48fcbd415205eca93cf
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758097"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42180080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a><span data-ttu-id="c3428-102">在 Lync Server 2013 中建立或修改會議裝置連絡人物件</span><span class="sxs-lookup"><span data-stu-id="c3428-102">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a><span data-ttu-id="2517f-102">在 Lync Server 2013 中建立或修改會議裝置連絡人物件</span><span class="sxs-lookup"><span data-stu-id="2517f-102">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758097"
 
 <span> </span>
 
-<span data-ttu-id="c3428-103">_**主題上次修改日期：** 2013-10-02_</span><span class="sxs-lookup"><span data-stu-id="c3428-103">_**Topic Last Modified:** 2013-10-02_</span></span>
+<span data-ttu-id="2517f-103">_**主題上次修改日期：** 2013-10-02_</span><span class="sxs-lookup"><span data-stu-id="2517f-103">_**Topic Last Modified:** 2013-10-02_</span></span>
 
-<span data-ttu-id="c3428-104">若要建立會議會議室物件，請先建立 Active Directory 使用者帳戶來代表裝置。</span><span class="sxs-lookup"><span data-stu-id="c3428-104">To create a conferencing room object, first create an Active Directory user account to represent the device.</span></span> <span data-ttu-id="c3428-105">接著，使用**enable-CsMeetingRoom** Cmdlet 來啟用該帳戶作為會議裝置。</span><span class="sxs-lookup"><span data-stu-id="c3428-105">Then, use the **Enable-CsMeetingRoom** cmdlet to enable that account to function as a conferencing device.</span></span> <span data-ttu-id="c3428-106">如果您需要變更現有會議裝置的屬性，請使用**CsMeetingRoom** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c3428-106">If you need to change the properties of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span>
+<span data-ttu-id="2517f-104">若要建立會議聊天室物件，請先建立 Active Directory 使用者帳戶來代表裝置。</span><span class="sxs-lookup"><span data-stu-id="2517f-104">To create a conferencing room object, first create an Active Directory user account to represent the device.</span></span> <span data-ttu-id="2517f-105">然後，使用**Enable-CsMeetingRoom** Cmdlet 以啟用該帳戶充當會議裝置。</span><span class="sxs-lookup"><span data-stu-id="2517f-105">Then, use the **Enable-CsMeetingRoom** cmdlet to enable that account to function as a conferencing device.</span></span> <span data-ttu-id="2517f-106">如果您需要變更現有會議裝置的屬性，請使用**Set-CsMeetingRoom** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="2517f-106">If you need to change the properties of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span>
 
-<span data-ttu-id="c3428-107">這些 Cmdlet 都可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行。</span><span class="sxs-lookup"><span data-stu-id="c3428-107">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="2517f-107">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話執行這些 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="2517f-107">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c3428-108">如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。</span><span class="sxs-lookup"><span data-stu-id="c3428-108">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="2517f-108">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 。</span><span class="sxs-lookup"><span data-stu-id="2517f-108">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -56,9 +56,9 @@ ms.locfileid: "41758097"
 
 <div>
 
-## <a name="creating-a-conferencing-device"></a><span data-ttu-id="c3428-109">建立會議裝置</span><span class="sxs-lookup"><span data-stu-id="c3428-109">Creating a Conferencing Device</span></span>
+## <a name="creating-a-conferencing-device"></a><span data-ttu-id="2517f-109">建立會議裝置</span><span class="sxs-lookup"><span data-stu-id="2517f-109">Creating a Conferencing Device</span></span>
 
-  - <span data-ttu-id="c3428-110">在您建立代表新會議裝置的 Active Directory 使用者帳戶之後，請使用**enable-CsMeetingRoom** Cmdlet 來啟用它。</span><span class="sxs-lookup"><span data-stu-id="c3428-110">After you create the Active Directory user account that represents the new conferencing device, enable it by using the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="c3428-111">請務必包含 a）會議裝置身分識別、b）房間帳戶所在的註冊機構池，以及 c）要指派給該帳戶的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="c3428-111">Be sure to include a) the conferencing device identity, b) the registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span> <span data-ttu-id="c3428-112">例如：</span><span class="sxs-lookup"><span data-stu-id="c3428-112">For example:</span></span>
+  - <span data-ttu-id="2517f-110">在您建立代表新會議裝置的 Active Directory 使用者帳戶之後，使用**Enable-CsMeetingRoom** Cmdlet 來啟用它。</span><span class="sxs-lookup"><span data-stu-id="2517f-110">After you create the Active Directory user account that represents the new conferencing device, enable it by using the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="2517f-111">請務必加入) 會議裝置身分識別、b) 會議室帳戶所在的註冊機構集區，以及 c) 指派給該帳戶的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="2517f-111">Be sure to include a) the conferencing device identity, b) the registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span> <span data-ttu-id="2517f-112">例如：</span><span class="sxs-lookup"><span data-stu-id="2517f-112">For example:</span></span>
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -66,15 +66,15 @@ ms.locfileid: "41758097"
 
 <div>
 
-## <a name="modifying-a-conferencing-device"></a><span data-ttu-id="c3428-113">修改會議裝置</span><span class="sxs-lookup"><span data-stu-id="c3428-113">Modifying a Conferencing Device</span></span>
+## <a name="modifying-a-conferencing-device"></a><span data-ttu-id="2517f-113">修改會議裝置</span><span class="sxs-lookup"><span data-stu-id="2517f-113">Modifying a Conferencing Device</span></span>
 
-  - <span data-ttu-id="c3428-114">若要修改現有會議裝置的屬性值，請使用**CsMeetingRoom** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c3428-114">To modify the property values of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="c3428-115">例如，下列命令會更新與會議裝置相關聯的電話號碼（LineUri）：</span><span class="sxs-lookup"><span data-stu-id="c3428-115">For example, the following command updates the phone number (LineUri) associated with a conferencing device:</span></span>
+  - <span data-ttu-id="2517f-114">若要修改現有會議裝置的屬性值，請使用**Set-CsMeetingRoom** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="2517f-114">To modify the property values of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="2517f-115">例如，下列命令會更新與會議裝置相關聯的電話號碼 (LineUri) ：</span><span class="sxs-lookup"><span data-stu-id="2517f-115">For example, the following command updates the phone number (LineUri) associated with a conferencing device:</span></span>
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
 </div>
 
-<span data-ttu-id="c3428-116">如需詳細資訊，請參閱[Enable CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 和[CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) Cmdlet 的說明主題。</span><span class="sxs-lookup"><span data-stu-id="c3428-116">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) cmdlet.</span></span>
+<span data-ttu-id="2517f-116">如需詳細資訊，請參閱[Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 及[Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) Cmdlet 的說明主題。</span><span class="sxs-lookup"><span data-stu-id="2517f-116">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) cmdlet.</span></span>
 
 </div>
 

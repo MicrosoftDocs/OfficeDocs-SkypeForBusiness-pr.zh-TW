@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定用戶端自動登入以使用 Director
+title: Lync Server 2013：設定自動用戶端 Sign-In 以使用 Director
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a6d9090796b2c6c2271025ed4d17a134943c11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a5aa8f23f40c6d9c7f1edda54b70129ac00cbe7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757797"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a><span data-ttu-id="771ba-102">在 Lync Server 2013 中設定用戶端自動登入以使用 Director</span><span class="sxs-lookup"><span data-stu-id="771ba-102">Configure Automatic Client Sign-In to use the Director in Lync Server 2013</span></span>
+# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a><span data-ttu-id="a4427-102">在 Lync Server 2013 中設定自動用戶端 Sign-In 以使用 Director</span><span class="sxs-lookup"><span data-stu-id="a4427-102">Configure Automatic Client Sign-In to use the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757797"
 
 <span> </span>
 
-<span data-ttu-id="771ba-103">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="771ba-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="a4427-103">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="a4427-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="771ba-104">當您部署 Lync Server 2013、主管或控制器池時，建議您使用自動用戶端登入做為最佳做法。</span><span class="sxs-lookup"><span data-stu-id="771ba-104">When you deploy a Lync Server 2013, Director or a pool of Directors, we recommend that you use Automatic Client Sign-In as a best practice.</span></span> <span data-ttu-id="771ba-105">如需有關如何設定 DNS 伺服器以進行自動用戶端登入的詳細資料，請參閱規劃檔中的[Lync Server 2013 中的自動用戶端登入的 DNS 需求](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)。</span><span class="sxs-lookup"><span data-stu-id="771ba-105">For details about how to configure DNS servers for automatic client sign-in, see [DNS requirements for automatic client sign-in in Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) in the Planning documentation.</span></span>
+<span data-ttu-id="a4427-104">當您部署 Lync Server 2013、Director 或 Director 集區時，建議您使用自動用戶端 Sign-In 做為最佳作法。</span><span class="sxs-lookup"><span data-stu-id="a4427-104">When you deploy a Lync Server 2013, Director or a pool of Directors, we recommend that you use Automatic Client Sign-In as a best practice.</span></span> <span data-ttu-id="a4427-105">如需如何設定 DNS 伺服器以進行自動用戶端登入的詳細資訊，請參閱規劃檔中的[自動用戶端登入的 dns 需求（Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) ）。</span><span class="sxs-lookup"><span data-stu-id="a4427-105">For details about how to configure DNS servers for automatic client sign-in, see [DNS requirements for automatic client sign-in in Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="771ba-106">如果您已經部署了自動用戶端登入，請參閱下列各節，以在您的主管上進行設定。</span><span class="sxs-lookup"><span data-stu-id="771ba-106">If you have already deployed Automatic Client Sign-In, see the following sections to configure it on your Director(s).</span></span>
+<span data-ttu-id="a4427-106">如果您已部署自動用戶端 Sign-In，請參閱下列各節，以在 Director (s) 上加以設定。</span><span class="sxs-lookup"><span data-stu-id="a4427-106">If you have already deployed Automatic Client Sign-In, see the following sections to configure it on your Director(s).</span></span>
 
 <div>
 
-## <a name="single-director-instance"></a><span data-ttu-id="771ba-107">單一控制器實例</span><span class="sxs-lookup"><span data-stu-id="771ba-107">Single Director Instance</span></span>
+## <a name="single-director-instance"></a><span data-ttu-id="a4427-107">單一 Director 實例</span><span class="sxs-lookup"><span data-stu-id="a4427-107">Single Director Instance</span></span>
 
-<span data-ttu-id="771ba-108">如果您已部署自動用戶端登入，且它指向前端伺服器或前端池，您必須將 DNS SRV 記錄變更為指向控制器。</span><span class="sxs-lookup"><span data-stu-id="771ba-108">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director.</span></span>
+<span data-ttu-id="a4427-108">如果您已部署自動用戶端 Sign-In，而且它指向前端伺服器或前端集區，則您必須變更 DNS SRV 記錄，以指向 Director。</span><span class="sxs-lookup"><span data-stu-id="a4427-108">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director.</span></span>
 
 </div>
 
 <div>
 
-## <a name="director-pool"></a><span data-ttu-id="771ba-109">主管池</span><span class="sxs-lookup"><span data-stu-id="771ba-109">Director Pool</span></span>
+## <a name="director-pool"></a><span data-ttu-id="a4427-109">Director 集區</span><span class="sxs-lookup"><span data-stu-id="a4427-109">Director Pool</span></span>
 
-<span data-ttu-id="771ba-110">如果您已部署自動用戶端登入，且它指向前端伺服器或頂層端池，您必須將 DNS SRV 記錄變更為指向主管池。</span><span class="sxs-lookup"><span data-stu-id="771ba-110">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director pool.</span></span>
+<span data-ttu-id="a4427-110">如果您已部署自動用戶端 Sign-In，而且它指向前端伺服器或前端集區，則您需要變更 DNS SRV 記錄以指向 Director 集區。</span><span class="sxs-lookup"><span data-stu-id="a4427-110">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director pool.</span></span>
 
 </div>
 

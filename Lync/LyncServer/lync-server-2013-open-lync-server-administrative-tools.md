@@ -12,20 +12,20 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f3c1b2eec210b22bc45a27c9635507c7ad83553
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 172d448b3967782226335a5a3b9a4066514b7a9b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755827"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216639"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="open-lync-server-2013-administrative-tools"></a><span data-ttu-id="9cbe6-102">開啟 Lync Server 2013 系統管理工具</span><span class="sxs-lookup"><span data-stu-id="9cbe6-102">Open Lync Server 2013 administrative tools</span></span>
+# <a name="open-lync-server-2013-administrative-tools"></a><span data-ttu-id="d74ed-102">開啟 Lync Server 2013 系統管理工具</span><span class="sxs-lookup"><span data-stu-id="d74ed-102">Open Lync Server 2013 administrative tools</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41755827"
 
 <span> </span>
 
-<span data-ttu-id="9cbe6-103">_**主題上次修改日期：** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="9cbe6-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="d74ed-103">_**主題上次修改日期：** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="d74ed-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="9cbe6-104">您可以使用本主題中的程式來開啟 [管理工具] 來部署、設定或疑難排解您的 Lync Server 2013 拓撲。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-104">You can use the procedures in this topic to open administrative tools to deploy, configure, or troubleshoot your Lync Server 2013 topology.</span></span>
+<span data-ttu-id="d74ed-104">您可以使用本主題中的程式來開啟系統管理工具，以部署、設定或疑難排解 Lync Server 2013 拓撲。</span><span class="sxs-lookup"><span data-stu-id="d74ed-104">You can use the procedures in this topic to open administrative tools to deploy, configure, or troubleshoot your Lync Server 2013 topology.</span></span>
 
-  - <span data-ttu-id="9cbe6-105">部署嚮導</span><span class="sxs-lookup"><span data-stu-id="9cbe6-105">Deployment Wizard</span></span>
+  - <span data-ttu-id="d74ed-105">部署嚮導</span><span class="sxs-lookup"><span data-stu-id="d74ed-105">Deployment Wizard</span></span>
 
-  - <span data-ttu-id="9cbe6-106">拓撲建立器</span><span class="sxs-lookup"><span data-stu-id="9cbe6-106">Topology Builder</span></span>
+  - <span data-ttu-id="d74ed-106">拓撲產生器</span><span class="sxs-lookup"><span data-stu-id="d74ed-106">Topology Builder</span></span>
 
-  - <span data-ttu-id="9cbe6-107">Lync Server 控制台</span><span class="sxs-lookup"><span data-stu-id="9cbe6-107">Lync Server Control Panel</span></span>
+  - <span data-ttu-id="d74ed-107">Lync Server 控制台</span><span class="sxs-lookup"><span data-stu-id="d74ed-107">Lync Server Control Panel</span></span>
 
-  - <span data-ttu-id="9cbe6-108">Lync Server 管理命令介面</span><span class="sxs-lookup"><span data-stu-id="9cbe6-108">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="d74ed-108">Lync Server 管理命令介面</span><span class="sxs-lookup"><span data-stu-id="d74ed-108">Lync Server Management Shell</span></span>
 
 <span id="BKMK_OpenDeploymentWizard"></span>
 
 <div>
 
-## <a name="deployment-wizard"></a><span data-ttu-id="9cbe6-109">部署嚮導</span><span class="sxs-lookup"><span data-stu-id="9cbe6-109">Deployment Wizard</span></span>
+## <a name="deployment-wizard"></a><span data-ttu-id="d74ed-109">部署嚮導</span><span class="sxs-lookup"><span data-stu-id="d74ed-109">Deployment Wizard</span></span>
 
-<span data-ttu-id="9cbe6-110">使用下列程式在本機啟動部署嚮導，以新增或移除 Lync Server 2013 元件檔。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-110">Use the following procedure to start the Deployment Wizard locally to add or remove Lync Server 2013 component files.</span></span>
+<span data-ttu-id="d74ed-110">使用下列程式可在本機啟動部署嚮導，以新增或移除 Lync Server 2013 元件檔案。</span><span class="sxs-lookup"><span data-stu-id="d74ed-110">Use the following procedure to start the Deployment Wizard locally to add or remove Lync Server 2013 component files.</span></span>
 
 <div>
 
-## <a name="to-start-lync-server-2013-deployment-wizard"></a><span data-ttu-id="9cbe6-111">啟動 Lync Server 2013 部署嚮導</span><span class="sxs-lookup"><span data-stu-id="9cbe6-111">To start Lync Server 2013 Deployment Wizard</span></span>
+## <a name="to-start-lync-server-2013-deployment-wizard"></a><span data-ttu-id="d74ed-111">啟動 Lync Server 2013 部署嚮導</span><span class="sxs-lookup"><span data-stu-id="d74ed-111">To start Lync Server 2013 Deployment Wizard</span></span>
 
-1.  <span data-ttu-id="9cbe6-112">登入 Lync Server 部署嚮導以 [網域管理員] 群組和 [RTCUniversalServerAdmins] 群組成員的身分安裝的電腦。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-112">Log on to the computer where the Lync Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="d74ed-112">以 Domain Admins 群組和 RTCUniversalServerAdmins 群組成員的身分，登入安裝 Lync Server 部署嚮導的電腦。</span><span class="sxs-lookup"><span data-stu-id="d74ed-112">Log on to the computer where the Lync Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="9cbe6-113">按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 部署嚮導]**。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-113">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Deployment Wizard**.</span></span>
+2.  <span data-ttu-id="d74ed-113">依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 部署嚮導]**。</span><span class="sxs-lookup"><span data-stu-id="d74ed-113">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Deployment Wizard**.</span></span>
 
 </div>
 
@@ -71,26 +71,26 @@ ms.locfileid: "41755827"
 
 <div>
 
-## <a name="topology-builder"></a><span data-ttu-id="9cbe6-114">拓撲建立器</span><span class="sxs-lookup"><span data-stu-id="9cbe6-114">Topology Builder</span></span>
+## <a name="topology-builder"></a><span data-ttu-id="d74ed-114">拓撲產生器</span><span class="sxs-lookup"><span data-stu-id="d74ed-114">Topology Builder</span></span>
 
-<span data-ttu-id="9cbe6-115">使用下列程式開啟 [拓撲建立器]，以定義您要在 Lync Server 2013 拓撲結構中部署的伺服器。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-115">Use the following procedure to open the Topology Builder to define the servers that you want to deploy in your Lync Server 2013 topology.</span></span>
+<span data-ttu-id="d74ed-115">使用下列程式開啟拓撲產生器，以定義您想要在 Lync Server 2013 拓撲中部署的伺服器。</span><span class="sxs-lookup"><span data-stu-id="d74ed-115">Use the following procedure to open the Topology Builder to define the servers that you want to deploy in your Lync Server 2013 topology.</span></span>
 
 <div>
 
-## <a name="to-open-lync-server-2013-topology-builder-to-design-the-topology"></a><span data-ttu-id="9cbe6-116">開啟 Lync Server 2013 拓撲建立器以設計拓撲</span><span class="sxs-lookup"><span data-stu-id="9cbe6-116">To open Lync Server 2013 Topology Builder to design the topology</span></span>
+## <a name="to-open-lync-server-2013-topology-builder-to-design-the-topology"></a><span data-ttu-id="d74ed-116">開啟 Lync Server 2013 拓撲產生器以設計拓撲</span><span class="sxs-lookup"><span data-stu-id="d74ed-116">To open Lync Server 2013 Topology Builder to design the topology</span></span>
 
-1.  <span data-ttu-id="9cbe6-117">登入以 [網域管理員] 群組和 [RTCUniversalServerAdmins] 群組成員身分安裝拓撲建立器的電腦。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-117">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="d74ed-117">以 Domain Admins 群組與 RTCUniversalServerAdmins 群組成員的身分，登入安裝了拓撲產生器的電腦。</span><span class="sxs-lookup"><span data-stu-id="d74ed-117">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="9cbe6-118">您可以使用屬於 [本機使用者] 群組成員的帳戶來定義拓朴，但若要讀取、發佈或啟用拓撲（需要在伺服器上安裝 Lync Server 2013），您必須使用網域系統管理員群組和 RTCUniv 成員的帳戶。ersalServerAdmins 群組，且在您要用於封存檔案存放區的檔案共用上擁有完全控制許可權（也就是讀取、寫入及修改），讓拓撲產生器可以設定必要的隨機存取控制清單（Dacl）。或具有同等使用者權限的帳戶。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-118">You can define a topology by using an account that is a member of the local Users group, but to read, publish, or enable a topology, which is required to install Lync Server 2013 on a server, you must use an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group, and that has full control permissions (that is, read, write, and modify) on the file share that you are going to use for the archiving file store so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent user rights.</span></span>
+    > <span data-ttu-id="d74ed-118">您可以使用本機 Users 群組成員的帳戶來定義拓撲，但可讀取、發佈或啟用拓撲，這是在伺服器上安裝 Lync Server 2013 所需的功能。您必須使用屬於 Domain Admins 群組和 RTCUniversalServerAdmins 群組成員的帳戶，而且在要用於封存檔案存放區的檔案共用上具有「完全控制」許可權 (（即讀取、寫入及修改），讓拓撲產生器可以設定必要的自由存取控制清單 (dacl) ，或具有同等使用者權限的帳戶。) </span><span class="sxs-lookup"><span data-stu-id="d74ed-118">You can define a topology by using an account that is a member of the local Users group, but to read, publish, or enable a topology, which is required to install Lync Server 2013 on a server, you must use an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group, and that has full control permissions (that is, read, write, and modify) on the file share that you are going to use for the archiving file store so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent user rights.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="9cbe6-119">啟動拓撲產生器：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**建立器]。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-119">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+2.  <span data-ttu-id="d74ed-119">啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。</span><span class="sxs-lookup"><span data-stu-id="d74ed-119">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
 </div>
 
@@ -100,15 +100,15 @@ ms.locfileid: "41755827"
 
 <div>
 
-## <a name="lync-server-2013-control-panel"></a><span data-ttu-id="9cbe6-120">Lync Server 2013 [控制台]</span><span class="sxs-lookup"><span data-stu-id="9cbe6-120">Lync Server 2013 Control Panel</span></span>
+## <a name="lync-server-2013-control-panel"></a><span data-ttu-id="d74ed-120">Lync Server 2013 控制台</span><span class="sxs-lookup"><span data-stu-id="d74ed-120">Lync Server 2013 Control Panel</span></span>
 
-<span data-ttu-id="9cbe6-121">使用下列其中一個程式來開啟 Lync Server 2013 [控制台]，管理您環境中伺服器、使用者、用戶端和裝置的設定。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-121">Use one of the following procedures to open Lync Server 2013 Control Panel to manage the configuration of servers, users, clients, and devices in your environment.</span></span>
+<span data-ttu-id="d74ed-121">使用下列其中一個程式開啟 Lync Server 2013 控制台，以管理環境中的伺服器、使用者、用戶端和裝置的設定。</span><span class="sxs-lookup"><span data-stu-id="d74ed-121">Use one of the following procedures to open Lync Server 2013 Control Panel to manage the configuration of servers, users, clients, and devices in your environment.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9cbe6-122">您可以使用指派給 CsAdministrator 角色的使用者帳戶來執行 Lync Server 2013 [控制台] 中的任何任務。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-122">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="9cbe6-123">您可以使用其他角色登入 Lync Server 2013 [控制台] 來執行特定的系統管理工作，視需要執行的工作而定。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-123">You can use other roles to log on to Lync Server 2013 Control Panel to perform specific administration tasks, dependent on the task you need to perform.</span></span> <span data-ttu-id="9cbe6-124">例如，您可以使用 CSArchivingAdministrator 來管理 Lync Server 2013 [控制台] 中的 [存檔]。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-124">For example, you can use CSArchivingAdministrator to administer Archiving in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="9cbe6-125">如需有關角色的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中的角色式存取控制規劃</A>。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-125">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="9cbe6-126">如需可用於執行特定工作之角色的詳細資訊，請參閱該工作的相關檔。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-126">For details about the roles that you can use to perform a specific task, see the documentation for the task.</span></span>
+> <span data-ttu-id="d74ed-122">您可以使用指派給 CsAdministrator 角色的使用者帳戶，在 Lync Server 2013 控制台中執行任何工作。</span><span class="sxs-lookup"><span data-stu-id="d74ed-122">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="d74ed-123">您可以使用其他角色登入 Lync Server 2013 控制台，以執行特定的管理工作，取決於您需要執行的工作。</span><span class="sxs-lookup"><span data-stu-id="d74ed-123">You can use other roles to log on to Lync Server 2013 Control Panel to perform specific administration tasks, dependent on the task you need to perform.</span></span> <span data-ttu-id="d74ed-124">例如，您可以使用 CSArchivingAdministrator 管理 Lync Server 2013 控制台中的封存。</span><span class="sxs-lookup"><span data-stu-id="d74ed-124">For example, you can use CSArchivingAdministrator to administer Archiving in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="d74ed-125">如需角色的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A>。</span><span class="sxs-lookup"><span data-stu-id="d74ed-125">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="d74ed-126">如需您可以用來執行特定工作的角色的詳細資訊，請參閱任務的檔。</span><span class="sxs-lookup"><span data-stu-id="d74ed-126">For details about the roles that you can use to perform a specific task, see the documentation for the task.</span></span>
 
 
 
@@ -116,30 +116,30 @@ ms.locfileid: "41755827"
 
 <div>
 
-## <a name="to-open-lync-server-2013-control-panel-from-any-computer-inside-your-organizations-firewall"></a><span data-ttu-id="9cbe6-127">從組織防火牆內的任何電腦開啟 Lync Server 2013 [控制台]</span><span class="sxs-lookup"><span data-stu-id="9cbe6-127">To open Lync Server 2013 Control Panel from any computer inside your organization’s firewall</span></span>
+## <a name="to-open-lync-server-2013-control-panel-from-any-computer-inside-your-organizations-firewall"></a><span data-ttu-id="d74ed-127">從組織防火牆內部的任何電腦開啟 Lync Server 2013 控制台</span><span class="sxs-lookup"><span data-stu-id="d74ed-127">To open Lync Server 2013 Control Panel from any computer inside your organization’s firewall</span></span>
 
-1.  <span data-ttu-id="9cbe6-128">從指派給 CsAdministrator 角色的使用者帳戶，或其他具有要執行之工作之許可權的角色，請以最小的螢幕解析度 1024 x 768 登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-128">From a user account that is assigned to the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to any computer in your internal deployment with a minimum screen resolution of 1024 x 768.</span></span>
+1.  <span data-ttu-id="d74ed-128">從指派給要執行之工作的 CsAdministrator 角色或其他角色的使用者帳戶，登入內部部署中的任何電腦，最小螢幕解析度為 1024 x 768。</span><span class="sxs-lookup"><span data-stu-id="d74ed-128">From a user account that is assigned to the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to any computer in your internal deployment with a minimum screen resolution of 1024 x 768.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="9cbe6-129">如果您已設定管理簡單的統一資源定位器（URL），您可以從您組織防火牆內任何電腦上執行的網際網路瀏覽器存取 Lync Server 2013 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-129">If you have configured an administration simple uniform resource locator (URL), you can access Lync Server 2013 Control Panel from an Internet browser that is running on any computer within your organization’s firewall.</span></span> <span data-ttu-id="9cbe6-130">如需有關設定管理簡單 URL 的詳細資料，請參閱規劃檔中的<A href="lync-server-2013-planning-for-simple-urls.md">簡單 2013 Url 規劃</A>，以及在部署檔中<A href="lync-server-2013-edit-or-configure-simple-urls.md">編輯或設定 lync server 2013 中的簡單 url</A> 。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-130">For details about configuring the administration simple URL, see <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A> in the Planning documentation and <A href="lync-server-2013-edit-or-configure-simple-urls.md">Edit or configure simple URLs in Lync Server 2013</A> in the Deployment documentation.</span></span>
+    > <span data-ttu-id="d74ed-129">如果您已將管理簡單的統一資源定位器設定 (URL) ，您可以從組織防火牆內任何電腦上執行的網際網路瀏覽器，存取 Lync Server 2013 控制台。</span><span class="sxs-lookup"><span data-stu-id="d74ed-129">If you have configured an administration simple uniform resource locator (URL), you can access Lync Server 2013 Control Panel from an Internet browser that is running on any computer within your organization’s firewall.</span></span> <span data-ttu-id="d74ed-130">如需設定管理簡易 URL 的詳細資訊，請參閱部署檔中的規劃檔及<A href="lync-server-2013-edit-or-configure-simple-urls.md">編輯或設定 [Lync server 2013</A> ] 中的簡易 URLs 中的「<A href="lync-server-2013-planning-for-simple-urls.md">規劃 lync server 2013 中的簡易 URLs</A> 。</span><span class="sxs-lookup"><span data-stu-id="d74ed-130">For details about configuring the administration simple URL, see <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A> in the Planning documentation and <A href="lync-server-2013-edit-or-configure-simple-urls.md">Edit or configure simple URLs in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="9cbe6-131">開啟瀏覽器視窗，然後輸入為貴組織設定的管理員 URL。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-131">Open a browser window, and then enter the Admin URL configured for your organization.</span></span>
+2.  <span data-ttu-id="d74ed-131">開啟瀏覽器視窗，然後輸入為您的組織設定的管理 URL。</span><span class="sxs-lookup"><span data-stu-id="d74ed-131">Open a browser window, and then enter the Admin URL configured for your organization.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a><span data-ttu-id="9cbe6-132">若要在執行 Lync Server 2013 的電腦上開啟 Lync Server 2013 [控制台]</span><span class="sxs-lookup"><span data-stu-id="9cbe6-132">To open Lync Server 2013 Control Panel on a computer running Lync Server 2013</span></span>
+## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a><span data-ttu-id="d74ed-132">在執行 Lync Server 2013 的電腦上開啟 Lync Server 2013 控制台</span><span class="sxs-lookup"><span data-stu-id="d74ed-132">To open Lync Server 2013 Control Panel on a computer running Lync Server 2013</span></span>
 
-1.  <span data-ttu-id="9cbe6-133">如果使用者帳戶是 CsAdministrator 角色的成員或其他角色，且具有適當的使用者權利和許可權，且要執行該工作，請登入您已安裝 Lync Server 2013 的電腦，或者至少 Lync Server 2013 administrat[我的工具]。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-133">From a user account that is a member of the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to a computer on which you have installed Lync Server 2013 or, at a minimum, the Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="9cbe6-134">若要設定設定，電腦的畫面解析度必須達到 1024 x 768 的最小值。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-134">To configure settings, the computer must have a minimum screen resolution of 1024 x 768.</span></span>
+1.  <span data-ttu-id="d74ed-133">從屬於 CsAdministrator 角色的成員或其他角色的使用者帳戶，其具有要執行之工作的適當使用者權限及許可權，登入已安裝 Lync Server 2013 的電腦，或至少是 Lync Server 2013 系統管理工具。</span><span class="sxs-lookup"><span data-stu-id="d74ed-133">From a user account that is a member of the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to a computer on which you have installed Lync Server 2013 or, at a minimum, the Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="d74ed-134">若要設定設定，電腦必須具有 1024 x 768 的最小螢幕解析度。</span><span class="sxs-lookup"><span data-stu-id="d74ed-134">To configure settings, the computer must have a minimum screen resolution of 1024 x 768.</span></span>
 
-2.  <span data-ttu-id="9cbe6-135">啟動 Lync Server 2013 [控制台]：按一下 [**開始**]，按一下 [**所有程式**]，指向 [**管理工具**]，指向 [ **Microsoft Lync Server 2013**]，然後按一下 [ **Lync Server 2013 控制台**]。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-135">Start Lync Server 2013 Control Panel: Click **Start**, click **All Programs**, point to **Administrative Tools**, point to **Microsoft Lync Server 2013**, and then click **Lync Server 2013 Control Panel**.</span></span>
+2.  <span data-ttu-id="d74ed-135">啟動 Lync Server 2013 控制台：按一下 [**開始**]，按一下 [**所有程式**]，指向 [系統**管理工具**]，指向 [ **Microsoft Lync Server 2013**]，然後按一下 [ **Lync Server 2013 控制台**]。</span><span class="sxs-lookup"><span data-stu-id="d74ed-135">Start Lync Server 2013 Control Panel: Click **Start**, click **All Programs**, point to **Administrative Tools**, point to **Microsoft Lync Server 2013**, and then click **Lync Server 2013 Control Panel**.</span></span>
 
 </div>
 
@@ -149,15 +149,15 @@ ms.locfileid: "41755827"
 
 <div>
 
-## <a name="lync-server-2013-management-shell"></a><span data-ttu-id="9cbe6-136">Lync Server 2013 管理命令介面</span><span class="sxs-lookup"><span data-stu-id="9cbe6-136">Lync Server 2013 Management Shell</span></span>
+## <a name="lync-server-2013-management-shell"></a><span data-ttu-id="d74ed-136">Lync Server 2013 管理命令介面</span><span class="sxs-lookup"><span data-stu-id="d74ed-136">Lync Server 2013 Management Shell</span></span>
 
-<span data-ttu-id="9cbe6-137">使用下列程式來開啟 Lync Server 2013 管理命令介面，以在您的環境中使用命令列來管理伺服器、使用者、用戶端和裝置。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-137">Use the following procedure to open Lync Server 2013 Management Shell to administer servers, users, clients, and devices in your environment by using the command line.</span></span>
+<span data-ttu-id="d74ed-137">使用下列程式開啟 Lync Server 2013 管理命令介面，以使用命令列管理環境中的伺服器、使用者、用戶端和裝置。</span><span class="sxs-lookup"><span data-stu-id="d74ed-137">Use the following procedure to open Lync Server 2013 Management Shell to administer servers, users, clients, and devices in your environment by using the command line.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9cbe6-138">您可以使用指派給 CsAdministrator 角色的使用者帳戶來執行 Lync Server 2013 管理命令介面中的任何任務。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-138">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="9cbe6-139">您可以使用其他角色登入，以執行特定的系統管理工作，視您需要執行的任務而定。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-139">You can log on using other roles to perform specific administration tasks, depending on the task you need to perform.</span></span> <span data-ttu-id="9cbe6-140">例如，您可以使用 CSArchivingAdministrator 來執行與封存管理相關的 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-140">For example, you can use CSArchivingAdministrator to run cmdlets related to Archiving administration.</span></span> <span data-ttu-id="9cbe6-141">如需有關角色的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中的角色式存取控制規劃</A>。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-141">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="9cbe6-142">如需可用於執行特定 Cmdlet 之角色的詳細資訊，請參閱 Cmdlet 的相關檔。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-142">For details about the roles that you can use to run a specific cmdlet, see the documentation for the cmdlet.</span></span><BR><span data-ttu-id="9cbe6-143">您也可以使用 [RTCUniversalServerAdmins]、[RTCUniversalUserAdmins] 或 [RTCUniversalReadOnlyAdmins] 群組中的使用者帳戶來執行某些 Cmdlet （視 Cmdlet 而定）。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-143">You can also run certain cmdlets by using a user account in the RTCUniversalServerAdmins, RTCUniversalUserAdmins, or RTCUniversalReadOnlyAdmins groups, depending on the cmdlet.</span></span>
+> <span data-ttu-id="d74ed-138">您可以使用指派給 CsAdministrator 角色的使用者帳戶，在 Lync Server 2013 管理命令介面中執行任何工作。</span><span class="sxs-lookup"><span data-stu-id="d74ed-138">You can use a user account that is assigned to the CsAdministrator role to perform any task in Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="d74ed-139">您可以使用其他角色登入，以執行特定的管理工作，取決於您需要執行的工作。</span><span class="sxs-lookup"><span data-stu-id="d74ed-139">You can log on using other roles to perform specific administration tasks, depending on the task you need to perform.</span></span> <span data-ttu-id="d74ed-140">例如，您可以使用 CSArchivingAdministrator 來執行與封存管理相關的 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="d74ed-140">For example, you can use CSArchivingAdministrator to run cmdlets related to Archiving administration.</span></span> <span data-ttu-id="d74ed-141">如需角色的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A>。</span><span class="sxs-lookup"><span data-stu-id="d74ed-141">For details about roles, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="d74ed-142">如需您可以用來執行特定 Cmdlet 的角色的詳細資訊，請參閱 Cmdlet 的檔。</span><span class="sxs-lookup"><span data-stu-id="d74ed-142">For details about the roles that you can use to run a specific cmdlet, see the documentation for the cmdlet.</span></span><BR><span data-ttu-id="d74ed-143">您也可以使用 RTCUniversalServerAdmins、RTCUniversalUserAdmins 或 RTCUniversalReadOnlyAdmins 群組中的使用者帳戶來執行某些 Cmdlet，視 Cmdlet 而定。</span><span class="sxs-lookup"><span data-stu-id="d74ed-143">You can also run certain cmdlets by using a user account in the RTCUniversalServerAdmins, RTCUniversalUserAdmins, or RTCUniversalReadOnlyAdmins groups, depending on the cmdlet.</span></span>
 
 
 
@@ -165,13 +165,13 @@ ms.locfileid: "41755827"
 
 <div>
 
-## <a name="to-open-the-lync-server-2013-management-shell"></a><span data-ttu-id="9cbe6-144">若要開啟 Lync Server 2013 管理命令介面</span><span class="sxs-lookup"><span data-stu-id="9cbe6-144">To open the Lync Server 2013 Management Shell</span></span>
+## <a name="to-open-the-lync-server-2013-management-shell"></a><span data-ttu-id="d74ed-144">開啟 Lync Server 2013 管理命令介面</span><span class="sxs-lookup"><span data-stu-id="d74ed-144">To open the Lync Server 2013 Management Shell</span></span>
 
-  - <span data-ttu-id="9cbe6-145">如果您開啟的是 Windows PowerShell 視窗，而不是 Lync Server 2013 管理命令介面，預設就是您無法執行 Lync Server 2013 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-145">If you open a Windows PowerShell window rather than the Lync Server 2013 Management Shell, by default you cannot run the Lync Server 2013 cmdlets.</span></span> <span data-ttu-id="9cbe6-146">若要在 Windows PowerShell 中執行 Lync Server 2013 Cmdlet，請在 Windows PowerShell 命令提示字元輸入下列內容：</span><span class="sxs-lookup"><span data-stu-id="9cbe6-146">To run the Lync Server 2013 cmdlets from within Windows PowerShell, type the following at the Windows PowerShell command prompt:</span></span>
+  - <span data-ttu-id="d74ed-145">如果您開啟 Windows PowerShell 視窗，而不是 Lync Server 2013 管理命令介面，則根據預設，您無法執行 Lync Server 2013 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="d74ed-145">If you open a Windows PowerShell window rather than the Lync Server 2013 Management Shell, by default you cannot run the Lync Server 2013 cmdlets.</span></span> <span data-ttu-id="d74ed-146">若要從 Windows PowerShell 內執行 Lync Server 2013 Cmdlet，請在 Windows PowerShell 命令提示字元處，輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="d74ed-146">To run the Lync Server 2013 cmdlets from within Windows PowerShell, type the following at the Windows PowerShell command prompt:</span></span>
     
     `Import-Module Lync`
 
-  - <span data-ttu-id="9cbe6-147">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="9cbe6-147">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+  - <span data-ttu-id="d74ed-147">啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="d74ed-147">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
 </div>
 
@@ -179,13 +179,13 @@ ms.locfileid: "41755827"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9cbe6-148">請參閱</span><span class="sxs-lookup"><span data-stu-id="9cbe6-148">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d74ed-148">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d74ed-148">See Also</span></span>
 
 
-[<span data-ttu-id="9cbe6-149">安裝 Lync Server 2013 系統管理工具</span><span class="sxs-lookup"><span data-stu-id="9cbe6-149">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
+[<span data-ttu-id="d74ed-149">安裝 Lync Server 2013 系統管理工具</span><span class="sxs-lookup"><span data-stu-id="d74ed-149">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
 
 
-[<span data-ttu-id="9cbe6-150">Lync Server 2013 系統管理工具</span><span class="sxs-lookup"><span data-stu-id="9cbe6-150">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
+[<span data-ttu-id="d74ed-150">Lync Server 2013 系統管理工具</span><span class="sxs-lookup"><span data-stu-id="d74ed-150">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
   
 
 </div>

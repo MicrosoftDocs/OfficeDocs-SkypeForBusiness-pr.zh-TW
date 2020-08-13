@@ -12,20 +12,20 @@ ms:contentKeyID: 48185484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0666203c2c6409da871c99aaa85b90240b64d76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fab964026a78a6050489681d6a6a845253ceede
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757207"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="virtualization-support-in-lync-server-2013"></a><span data-ttu-id="8c657-102">Lync Server 2013 中的虛擬化支援</span><span class="sxs-lookup"><span data-stu-id="8c657-102">Virtualization support in Lync Server 2013</span></span>
+# <a name="virtualization-support-in-lync-server-2013"></a><span data-ttu-id="3b701-102">Lync Server 2013 中的虛擬化支援</span><span class="sxs-lookup"><span data-stu-id="3b701-102">Virtualization support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41757207"
 
 <span> </span>
 
-<span data-ttu-id="8c657-103">_**主題上次修改日期：** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="8c657-103">_**Topic Last Modified:** 2014-03-13_</span></span>
+<span data-ttu-id="3b701-103">_**主題上次修改日期：** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="3b701-103">_**Topic Last Modified:** 2014-03-13_</span></span>
 
-<span data-ttu-id="8c657-104">Lync Server 2013 支援支援所有 Lync Server 工作負載的虛擬化拓撲，包括立即訊息（IM）與目前狀態、會議、企業語音、監控、封存和持續聊天。</span><span class="sxs-lookup"><span data-stu-id="8c657-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="8c657-105">請注意，根據所使用的工作負載、使用者數和主機硬體，在虛擬拓朴上進行 Lync Server 效能可能會有很大的差異。</span><span class="sxs-lookup"><span data-stu-id="8c657-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="8c657-106">如需在虛擬伺服器上執行 Lync Server 2013 的詳細指導，請參閱在[虛擬伺服器上規劃 Lync server 2013 部署](http://www.microsoft.com/en-us/download/details.aspx?id=41936)的白皮書。</span><span class="sxs-lookup"><span data-stu-id="8c657-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](http://www.microsoft.com/en-us/download/details.aspx?id=41936).</span></span>
+<span data-ttu-id="3b701-104">Lync Server 2013 支援支援所有 Lync Server 工作負載的虛擬化拓撲，包括立即訊息 (IM) 和目前狀態、會議、企業語音、監控、封存及持續聊天。</span><span class="sxs-lookup"><span data-stu-id="3b701-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="3b701-105">請注意，根據所使用的工作量、使用者數目及主機硬體，虛擬拓撲的 Lync Server 效能可能會有很大的差異。</span><span class="sxs-lookup"><span data-stu-id="3b701-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="3b701-106">如需在虛擬伺服器上執行 Lync Server 2013 的詳細指導，請參閱白皮書在[虛擬伺服器上規劃 Lync server 2013 部署](https://www.microsoft.com/download/details.aspx?id=41936)。</span><span class="sxs-lookup"><span data-stu-id="3b701-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).</span></span>
 
-<span data-ttu-id="8c657-107">在 Hyper-v 平臺上支援 Lync Server 2013，且在 Windows Server 虛擬化驗證程式支援的任何虛擬化平臺上都支援。</span><span class="sxs-lookup"><span data-stu-id="8c657-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="8c657-108">如需此程式的詳細資訊<http://www.windowsservercatalog.com/svvp.aspx>，請參閱。</span><span class="sxs-lookup"><span data-stu-id="8c657-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
+<span data-ttu-id="3b701-107">在 Hyper-V 平臺上，以及 Windows Server 虛擬化驗證方案支援的任何虛擬化平臺上都支援 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="3b701-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="3b701-108">如需此程式的詳細資訊，請參閱 <http://www.windowsservercatalog.com/svvp.aspx> 。</span><span class="sxs-lookup"><span data-stu-id="3b701-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在災害復原期間管理宣告
+title: Lync Server 2013：在災難修復期間管理宣告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc987ea579bef4e2b02c8da210efe9a707c5900
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733423"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="51495-102">使用 Lync Server 2013 在災害復原期間管理宣告</span><span class="sxs-lookup"><span data-stu-id="51495-102">Manage announcements during disaster recovery in Lync Server 2013</span></span>
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="faa62-102">在 Lync Server 2013 中管理發生嚴重損壞修復期間的宣告</span><span class="sxs-lookup"><span data-stu-id="faa62-102">Manage announcements during disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,81 +35,81 @@ ms.locfileid: "41733423"
 
 <span> </span>
 
-<span data-ttu-id="51495-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="51495-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="faa62-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="faa62-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="51495-104">Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。</span><span class="sxs-lookup"><span data-stu-id="51495-104">Lync Server 2013 supports announcements for calls to unassigned numbers during outages.</span></span> <span data-ttu-id="51495-105">在中斷期間還原宣告功能是選用的選項。</span><span class="sxs-lookup"><span data-stu-id="51495-105">Restoring announcement functionality during an outage is optional.</span></span> <span data-ttu-id="51495-106">如果您選擇在中斷期間還原宣告，您需要在備份池中重新建立您的宣告設定。</span><span class="sxs-lookup"><span data-stu-id="51495-106">If you choose to restore announcements during an outage, you need recreate your announcement configuration in the backup pool.</span></span> <span data-ttu-id="51495-107">本節說明在災害復原期間選擇要還原公告時所需執行的動作。</span><span class="sxs-lookup"><span data-stu-id="51495-107">This section describes what you need to do if you choose to restore announcements during disaster recovery.</span></span>
+<span data-ttu-id="faa62-104">Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。</span><span class="sxs-lookup"><span data-stu-id="faa62-104">Lync Server 2013 supports announcements for calls to unassigned numbers during outages.</span></span> <span data-ttu-id="faa62-105">在中斷期間還原宣告功能是選用的。</span><span class="sxs-lookup"><span data-stu-id="faa62-105">Restoring announcement functionality during an outage is optional.</span></span> <span data-ttu-id="faa62-106">如果您選擇在中斷期間還原宣告，您必須在備份組區中重新建立宣告設定。</span><span class="sxs-lookup"><span data-stu-id="faa62-106">If you choose to restore announcements during an outage, you need recreate your announcement configuration in the backup pool.</span></span> <span data-ttu-id="faa62-107">本節說明當您選擇在嚴重損壞修復期間還原宣告時，需要執行的動作。</span><span class="sxs-lookup"><span data-stu-id="faa62-107">This section describes what you need to do if you choose to restore announcements during disaster recovery.</span></span>
 
-<span data-ttu-id="51495-108">本節適用于使用宣告應用程式的未指派數量範圍。</span><span class="sxs-lookup"><span data-stu-id="51495-108">This section applies to unassigned number ranges that use the Announcement application.</span></span> <span data-ttu-id="51495-109">本節不適用於使用 Exchange 整合通訊（UM）自動語音應答的未指定數位範圍。</span><span class="sxs-lookup"><span data-stu-id="51495-109">This section does not apply to unassigned number ranges that use Exchange Unified Messaging (UM) Auto Attendant.</span></span>
+<span data-ttu-id="faa62-108">本節適用于使用宣告應用程式的未指派號碼範圍。</span><span class="sxs-lookup"><span data-stu-id="faa62-108">This section applies to unassigned number ranges that use the Announcement application.</span></span> <span data-ttu-id="faa62-109">本節不適用於使用 Exchange 整合通訊 (UM) 自動語音應答的未指派號碼範圍。</span><span class="sxs-lookup"><span data-stu-id="faa62-109">This section does not apply to unassigned number ranges that use Exchange Unified Messaging (UM) Auto Attendant.</span></span>
 
 <div>
 
-## <a name="before-an-outage"></a><span data-ttu-id="51495-110">中斷前</span><span class="sxs-lookup"><span data-stu-id="51495-110">Before an Outage</span></span>
+## <a name="before-an-outage"></a><span data-ttu-id="faa62-110">中斷前</span><span class="sxs-lookup"><span data-stu-id="faa62-110">Before an Outage</span></span>
 
-<span data-ttu-id="51495-111">不論您是否選擇要在中斷期間使用宣告，您都應該對您針對宣告應用程式所設定的任何自訂音訊檔案進行個別備份。</span><span class="sxs-lookup"><span data-stu-id="51495-111">Regardless of whether you choose to use announcements during outages, you should take separate backups of any customized audio files that you configured for the Announcement application.</span></span> <span data-ttu-id="51495-112">在 Lync Server 災害復原程式中，自訂宣告不會進行備份。</span><span class="sxs-lookup"><span data-stu-id="51495-112">Customized announcements are not backed up as part of the Lync Server disaster recovery process.</span></span> <span data-ttu-id="51495-113">如果您不對檔案進行個別備份，且您上傳到伺服器或池中的檔案遭到損毀、損毀或清除，這些檔案將會遺失。</span><span class="sxs-lookup"><span data-stu-id="51495-113">If you do not take separate backups of the files and the files that you uploaded to the server or pool are damaged, corrupted, or erased, the files will be lost.</span></span>
+<span data-ttu-id="faa62-111">不論您選擇是否要在中斷期間使用宣告，您都應該對您為宣告應用程式所設定的任何自訂音訊檔案採取個別備份。</span><span class="sxs-lookup"><span data-stu-id="faa62-111">Regardless of whether you choose to use announcements during outages, you should take separate backups of any customized audio files that you configured for the Announcement application.</span></span> <span data-ttu-id="faa62-112">自訂宣告不會做為 Lync Server 嚴重損壞修復程式的一部分進行備份。</span><span class="sxs-lookup"><span data-stu-id="faa62-112">Customized announcements are not backed up as part of the Lync Server disaster recovery process.</span></span> <span data-ttu-id="faa62-113">如果您不會對檔案進行個別備份，而且您上傳到伺服器或集區的檔案已損毀、損毀或清除，將會遺失檔案。</span><span class="sxs-lookup"><span data-stu-id="faa62-113">If you do not take separate backups of the files and the files that you uploaded to the server or pool are damaged, corrupted, or erased, the files will be lost.</span></span>
 
-<span data-ttu-id="51495-114">如果您沒有自訂音訊檔案的備份複本，且原始音訊檔案已無法使用，您可以在檔案存放區中尋找您原本要使用的 [伺服器] 或 [池] 所設定的音訊檔案。已匯入檔案。</span><span class="sxs-lookup"><span data-stu-id="51495-114">If you do not have backup copies of customized audio files, and the original audio files are no longer available, you can find the audio files that you configured for an Announcement application by looking in the File Store for the server or pool where you originally imported the files.</span></span> <span data-ttu-id="51495-115">您可以從檔案存放區中複製您針對宣告應用程式所設定的所有音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="51495-115">You can copy all the audio files that you configured for the Announcement application from the File Store.</span></span>
+<span data-ttu-id="faa62-114">如果您沒有自訂音訊檔案的備份副本，而且無法再使用原始的音訊檔案，您可以在先前匯入檔案的伺服器或集區中查看檔案存放區，以找到您為宣告應用程式所設定的音訊檔。</span><span class="sxs-lookup"><span data-stu-id="faa62-114">If you do not have backup copies of customized audio files, and the original audio files are no longer available, you can find the audio files that you configured for an Announcement application by looking in the File Store for the server or pool where you originally imported the files.</span></span> <span data-ttu-id="faa62-115">您可以從檔案存放區中複製您為宣告應用程式所設定的所有音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="faa62-115">You can copy all the audio files that you configured for the Announcement application from the File Store.</span></span>
 
-<span data-ttu-id="51495-116">**從檔案存放區複製音訊檔案**</span><span class="sxs-lookup"><span data-stu-id="51495-116">**To copy audio files from the file store**</span></span>
+<span data-ttu-id="faa62-116">**從檔案存放區複製音訊檔**</span><span class="sxs-lookup"><span data-stu-id="faa62-116">**To copy audio files from the file store**</span></span>
 
-1.  <span data-ttu-id="51495-117">在命令列上執行：</span><span class="sxs-lookup"><span data-stu-id="51495-117">At the command line, run:</span></span>
+1.  <span data-ttu-id="faa62-117">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="faa62-117">At the command line, run:</span></span>
     
         Xcopy <Source: Pool Announcement Service File Store path> <Destination>
     
-    <span data-ttu-id="51495-118">例如：</span><span class="sxs-lookup"><span data-stu-id="51495-118">For example:</span></span>
+    <span data-ttu-id="faa62-118">例如：</span><span class="sxs-lookup"><span data-stu-id="faa62-118">For example:</span></span>
     
         Xcopy "<Pool File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS" "<Destination: Backup location>"
     
-    <span data-ttu-id="51495-119">其中，X-ApplicationServer 是指池之應用程式伺服器的服務識別碼（例如，1-ApplicationServer-1）</span><span class="sxs-lookup"><span data-stu-id="51495-119">Where X-ApplicationServer-X refers to the service ID of the Application Server of the pool (for example, 1-ApplicationServer-1")</span></span>
+    <span data-ttu-id="faa62-119">其中 X-ApplicationServer-X 參照集區之應用程式伺服器的服務 ID (例如，1-ApplicationServer-1 ") </span><span class="sxs-lookup"><span data-stu-id="faa62-119">Where X-ApplicationServer-X refers to the service ID of the Application Server of the pool (for example, 1-ApplicationServer-1")</span></span>
 
 
 </div>
 
 <div>
 
-## <a name="during-an-outage"></a><span data-ttu-id="51495-120">在中斷期間</span><span class="sxs-lookup"><span data-stu-id="51495-120">During an Outage</span></span>
+## <a name="during-an-outage"></a><span data-ttu-id="faa62-120">中斷期間</span><span class="sxs-lookup"><span data-stu-id="faa62-120">During an Outage</span></span>
 
-<span data-ttu-id="51495-121">若要在中斷期間使用宣告應用程式，您需要執行本節中所述的工作，在備份池中重新建立宣告配置。</span><span class="sxs-lookup"><span data-stu-id="51495-121">To use the Announcement application during an outage, you need to recreate the announcement configuration in the backup pool by performing the tasks described in this section.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="51495-122">我們建議您在容錯移轉至備份池之後執行這些工作，因為當您執行步驟2之後，備份池就會取得未指派的數位範圍。</span><span class="sxs-lookup"><span data-stu-id="51495-122">We recommend that you perform these tasks after you fail over to the backup pool, because as soon as you perform step 2, the backup pool takes ownership of the unassigned number ranges.</span></span>
-
-
-
-</div>
+<span data-ttu-id="faa62-121">若要在中斷期間使用宣告應用程式，您必須執行本節所述的工作，以在備份組區中重新建立宣告設定。</span><span class="sxs-lookup"><span data-stu-id="faa62-121">To use the Announcement application during an outage, you need to recreate the announcement configuration in the backup pool by performing the tasks described in this section.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="51495-123">對於使用 Exchange UM 自動語音應答電話號碼的數位範圍，不需要這些步驟。</span><span class="sxs-lookup"><span data-stu-id="51495-123">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
+> <span data-ttu-id="faa62-122">我們建議您在容錯移轉至備份組區之後執行這些工作，因為在執行步驟2之後，備份組區便會取得未指派號碼範圍的擁有權。</span><span class="sxs-lookup"><span data-stu-id="faa62-122">We recommend that you perform these tasks after you fail over to the backup pool, because as soon as you perform step 2, the backup pool takes ownership of the unassigned number ranges.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="51495-124">**在備份池中重新建立宣告配置**</span><span class="sxs-lookup"><span data-stu-id="51495-124">**To recreate the announcement configuration in the backup pool**</span></span>
+<div>
 
-1.  <span data-ttu-id="51495-125">請執行下列動作，以重新建立您在備份池中的主要池中部署的公告：</span><span class="sxs-lookup"><span data-stu-id="51495-125">Recreate the announcements that you deployed in the primary pool in the backup pool by doing the following:</span></span>
+
+> [!NOTE]  
+> <span data-ttu-id="faa62-123">使用 Exchange UM 自動語音應答電話號碼的號碼範圍並非必須執行這些步驟。</span><span class="sxs-lookup"><span data-stu-id="faa62-123">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="faa62-124">**在備份組區中重新建立宣告設定**</span><span class="sxs-lookup"><span data-stu-id="faa62-124">**To recreate the announcement configuration in the backup pool**</span></span>
+
+1.  <span data-ttu-id="faa62-125">執行下列動作，以重新建立在備份組區的主要集區中部署的宣告：</span><span class="sxs-lookup"><span data-stu-id="faa62-125">Recreate the announcements that you deployed in the primary pool in the backup pool by doing the following:</span></span>
     
-    1.  <span data-ttu-id="51495-126">使用**CsAnnouncementFile** Cmdlet 將主要池中使用的任何音訊檔案匯入至備份池，並指定上層參數的備份池。</span><span class="sxs-lookup"><span data-stu-id="51495-126">Import any audio files used in the primary pool to the backup pool by using the **Import-CsAnnouncementFile** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
+    1.  <span data-ttu-id="faa62-126">使用**Import-CsAnnouncementFile** Cmdlet 並指定 Parent 參數的備份組區，將主要集區中使用的任何音訊檔案匯入備份組區。</span><span class="sxs-lookup"><span data-stu-id="faa62-126">Import any audio files used in the primary pool to the backup pool by using the **Import-CsAnnouncementFile** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
     
-    2.  <span data-ttu-id="51495-127">使用**新的 CsAnnouncement** Cmdlet 來重新建立每個宣告，並指定上層參數的備份池。</span><span class="sxs-lookup"><span data-stu-id="51495-127">Recreate each announcement by using the **New-CsAnnouncement** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
+    2.  <span data-ttu-id="faa62-127">使用**New-CsAnnouncement** Cmdlet 重新建立每個宣告，並指定 Parent 參數的備份組區。</span><span class="sxs-lookup"><span data-stu-id="faa62-127">Recreate each announcement by using the **New-CsAnnouncement** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="51495-128">如需使用這些參數在備份池中建立宣告的詳細資料，請參閱<A href="lync-server-2013-create-an-announcement.md">在 Lync Server 2013 中建立公告</A>。</span><span class="sxs-lookup"><span data-stu-id="51495-128">For details about using these parameters to create announcements in the backup pool, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="faa62-128">如需使用這些參數在備份組區中建立宣告的詳細資訊，請參閱<A href="lync-server-2013-create-an-announcement.md">create a 宣告 In Lync Server 2013</A>。</span><span class="sxs-lookup"><span data-stu-id="faa62-128">For details about using these parameters to create announcements in the backup pool, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="51495-129">在備份池中重新建立所有宣告之後，請將在主要池中使用宣告的所有未指派數位範圍重定向至 [備份] 池中重新建立的宣告。</span><span class="sxs-lookup"><span data-stu-id="51495-129">After all announcements are recreated in the backup pool, redirect all the unassigned number ranges that use announcements in the primary pool to the recreated announcements in the backup pool.</span></span>
+2.  <span data-ttu-id="faa62-129">在備份組區中重新建立所有宣告之後，請將使用主要集區中宣告的所有未指派號碼範圍，重新導向至備份組區中重新建立的宣告。</span><span class="sxs-lookup"><span data-stu-id="faa62-129">After all announcements are recreated in the backup pool, redirect all the unassigned number ranges that use announcements in the primary pool to the recreated announcements in the backup pool.</span></span>
     
-    <span data-ttu-id="51495-130">針對在主要池中使用宣告的每個未指派編號範圍，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="51495-130">For each unassigned number range that uses an announcement in the primary pool, run the following:</span></span>
+    <span data-ttu-id="faa62-130">針對使用主要集區中宣告的每個未指派號碼範圍，請執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="faa62-130">For each unassigned number range that uses an announcement in the primary pool, run the following:</span></span>
     
         Set-CsUnassignedNumber -Identity "<name of number range>" -AnnouncementService "<FQDN of backup pool>" -AnnouncementName "<announcement name in backup pool>"
 
@@ -117,41 +117,41 @@ ms.locfileid: "41733423"
 
 <div>
 
-## <a name="after-the-outage"></a><span data-ttu-id="51495-131">停機後</span><span class="sxs-lookup"><span data-stu-id="51495-131">After the Outage</span></span>
+## <a name="after-the-outage"></a><span data-ttu-id="faa62-131">中斷後</span><span class="sxs-lookup"><span data-stu-id="faa62-131">After the Outage</span></span>
 
-<span data-ttu-id="51495-132">當主要池可供使用時，您必須將您針對停機變更的未指派數位範圍重新導向到主要池。</span><span class="sxs-lookup"><span data-stu-id="51495-132">When the primary pool becomes available, you need to redirect the unassigned number ranges that you changed for the outage back to the primary pool.</span></span>
+<span data-ttu-id="faa62-132">當主要集區可用時，您需要將您為中斷而變更的未指派號碼範圍重新導向至主要集區。</span><span class="sxs-lookup"><span data-stu-id="faa62-132">When the primary pool becomes available, you need to redirect the unassigned number ranges that you changed for the outage back to the primary pool.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="51495-133">對於使用 Exchange UM 自動語音應答電話號碼的數位範圍，不需要這些步驟。</span><span class="sxs-lookup"><span data-stu-id="51495-133">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
+> <span data-ttu-id="faa62-133">使用 Exchange UM 自動語音應答電話號碼的號碼範圍並非必須執行這些步驟。</span><span class="sxs-lookup"><span data-stu-id="faa62-133">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="51495-134">**在主要池中還原宣告**</span><span class="sxs-lookup"><span data-stu-id="51495-134">**To restore announcements in the primary pool**</span></span>
+<span data-ttu-id="faa62-134">**若要還原主要集區中的宣告**</span><span class="sxs-lookup"><span data-stu-id="faa62-134">**To restore announcements in the primary pool**</span></span>
 
-1.  <span data-ttu-id="51495-135">如果您必須在復原期間重建主要池，您需要在主要池中重新建立宣告，方法是匯入音訊檔案並建立宣告，就像您在備份池中所做的一樣，除非您為父級指定主要池參數.</span><span class="sxs-lookup"><span data-stu-id="51495-135">If you had to rebuild the primary pool during the recovery, you need to recreate the announcements in the primary pool by importing the audio files and creating announcements, just as you did in the backup pool, except that you specify the primary pool for the Parent parameter.</span></span> <span data-ttu-id="51495-136">如需詳細資訊，請參閱本主題前面的「停機期間」。</span><span class="sxs-lookup"><span data-stu-id="51495-136">For details, see "During an Outage" earlier in this topic.</span></span>
+1.  <span data-ttu-id="faa62-135">如果您必須在復原期間重建主要集區，您需要在主要集區中重新建立宣告，方法是匯入音訊檔並建立宣告，就像您為 Parent 參數指定主要集區外。</span><span class="sxs-lookup"><span data-stu-id="faa62-135">If you had to rebuild the primary pool during the recovery, you need to recreate the announcements in the primary pool by importing the audio files and creating announcements, just as you did in the backup pool, except that you specify the primary pool for the Parent parameter.</span></span> <span data-ttu-id="faa62-136">如需詳細資訊，請參閱本主題前面的「中斷期間」。</span><span class="sxs-lookup"><span data-stu-id="faa62-136">For details, see "During an Outage" earlier in this topic.</span></span>
 
-2.  <span data-ttu-id="51495-137">針對您針對停機時間變更的每個未指派數量範圍，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="51495-137">For each unassigned number range that you changed for the outage, run the following:</span></span>
+2.  <span data-ttu-id="faa62-137">針對您為中斷變更而變更的每個未指派號碼範圍，請執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="faa62-137">For each unassigned number range that you changed for the outage, run the following:</span></span>
     
         Set-CsUnassignedNumber [-Identity "<name of number range>"] -AnnouncementService "<FQDN of primary pool>" -AnnouncementName "<announcement name in primary pool>"
 
-3.  <span data-ttu-id="51495-138">或者，移除您在備份池中重新建立的公告。</span><span class="sxs-lookup"><span data-stu-id="51495-138">Optionally, remove the announcements that you recreated in the backup pool.</span></span> <span data-ttu-id="51495-139">取得備份池宣告應用程式的宣告清單。</span><span class="sxs-lookup"><span data-stu-id="51495-139">Get a list of announcements for the backup pool Announcement application.</span></span> <span data-ttu-id="51495-140">在命令列上執行：</span><span class="sxs-lookup"><span data-stu-id="51495-140">At the command line, run:</span></span>
+3.  <span data-ttu-id="faa62-138">（選用）移除您在備份組區中重新建立的宣告。</span><span class="sxs-lookup"><span data-stu-id="faa62-138">Optionally, remove the announcements that you recreated in the backup pool.</span></span> <span data-ttu-id="faa62-139">取得備份組區宣告應用程式的宣告清單。</span><span class="sxs-lookup"><span data-stu-id="faa62-139">Get a list of announcements for the backup pool Announcement application.</span></span> <span data-ttu-id="faa62-140">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="faa62-140">At the command line, run:</span></span>
     
         Get-CsAnnouncement -Identity "<Service:service ID>"
     
-    <span data-ttu-id="51495-141">例如：</span><span class="sxs-lookup"><span data-stu-id="51495-141">For example:</span></span>
+    <span data-ttu-id="faa62-141">例如：</span><span class="sxs-lookup"><span data-stu-id="faa62-141">For example:</span></span>
     
         Get-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com
     
-    <span data-ttu-id="51495-142">在產生的清單中，找出您想要移除並複製 Guid 的宣告。</span><span class="sxs-lookup"><span data-stu-id="51495-142">In the resulting list, locate the announcements you want to remove and copy the GUIDs.</span></span> <span data-ttu-id="51495-143">針對您想要移除的每個宣告，執行：</span><span class="sxs-lookup"><span data-stu-id="51495-143">For each announcement you want to remove, run:</span></span>
+    <span data-ttu-id="faa62-142">在結果清單中，找出您要移除的宣告並複製 Guid。</span><span class="sxs-lookup"><span data-stu-id="faa62-142">In the resulting list, locate the announcements you want to remove and copy the GUIDs.</span></span> <span data-ttu-id="faa62-143">針對每個您想要移除的宣告，請執行：</span><span class="sxs-lookup"><span data-stu-id="faa62-143">For each announcement you want to remove, run:</span></span>
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
     
-    <span data-ttu-id="51495-144">例如：</span><span class="sxs-lookup"><span data-stu-id="51495-144">For example:</span></span>
+    <span data-ttu-id="faa62-144">例如：</span><span class="sxs-lookup"><span data-stu-id="faa62-144">For example:</span></span>
     
         Remove-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
 

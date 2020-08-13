@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對 VDI 準備環境
+title: Lync Server 2013：為 VDI 準備環境
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185052
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57a3fb2563e287f24d49c23a468b4a44528707b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1797dfb3388b4f443b505eb0a82c75f887e1759c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747273"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a><span data-ttu-id="83401-102">針對 VDI 準備 Lync Server 2013 環境</span><span class="sxs-lookup"><span data-stu-id="83401-102">Preparing your Lync Server 2013 environment for VDI</span></span>
+# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a><span data-ttu-id="ea563-102">為 VDI 準備 Lync Server 2013 環境</span><span class="sxs-lookup"><span data-stu-id="ea563-102">Preparing your Lync Server 2013 environment for VDI</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41747273"
 
 <span> </span>
 
-<span data-ttu-id="83401-103">_**主題上次修改日期：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="83401-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="ea563-103">_**主題上次修改日期：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="ea563-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="83401-104">若要為 Lync VDI 外掛程式準備環境，系統管理員必須執行下列步驟。</span><span class="sxs-lookup"><span data-stu-id="83401-104">To prepare the environment for the Lync VDI plug-in, the administrator must perform the following steps.</span></span>
+<span data-ttu-id="ea563-104">若要準備 Lync VDI 外掛程式的環境，管理員必須執行下列步驟。</span><span class="sxs-lookup"><span data-stu-id="ea563-104">To prepare the environment for the Lync VDI plug-in, the administrator must perform the following steps.</span></span>
 
-1.  <span data-ttu-id="83401-105">在 Lync Server 2013 中，確保所有 VDI 使用者的 EnableMediaRedirection 都設定為 TRUE。</span><span class="sxs-lookup"><span data-stu-id="83401-105">In Lync Server 2013, ensure that EnableMediaRedirection is set to TRUE for all VDI users.</span></span> <span data-ttu-id="83401-106">如需詳細資訊，請參閱[新版 CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) Cmdlet 和[CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) Cmdlet 的說明主題。</span><span class="sxs-lookup"><span data-stu-id="83401-106">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+1.  <span data-ttu-id="ea563-105">在 [Lync Server 2013] 中，確定所有 VDI 使用者的 EnableMediaRedirection 都設為 TRUE。</span><span class="sxs-lookup"><span data-stu-id="ea563-105">In Lync Server 2013, ensure that EnableMediaRedirection is set to TRUE for all VDI users.</span></span> <span data-ttu-id="ea563-106">如需詳細資訊，請參閱[New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) Cmdlet 及[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) Cmdlet 的說明主題。</span><span class="sxs-lookup"><span data-stu-id="ea563-106">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
 
-2.  <span data-ttu-id="83401-107">在資料中心電腦上，在所有虛擬機器上安裝 Lync 2013 用戶端。</span><span class="sxs-lookup"><span data-stu-id="83401-107">On the data center computer, install the Lync 2013 client on all virtual machines.</span></span>
+2.  <span data-ttu-id="ea563-107">在資料中心電腦上，安裝所有虛擬機器上的 Lync 2013 用戶端。</span><span class="sxs-lookup"><span data-stu-id="ea563-107">On the data center computer, install the Lync 2013 client on all virtual machines.</span></span>
 
-3.  <span data-ttu-id="83401-108">在本機電腦上，安裝 Lync VDI 外掛程式。</span><span class="sxs-lookup"><span data-stu-id="83401-108">On the local computers, install the Lync VDI plug-in.</span></span>
+3.  <span data-ttu-id="ea563-108">在本機電腦上，安裝 Lync VDI 外掛程式。</span><span class="sxs-lookup"><span data-stu-id="ea563-108">On the local computers, install the Lync VDI plug-in.</span></span>
 
 </div>
 

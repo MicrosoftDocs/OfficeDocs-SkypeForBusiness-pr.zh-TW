@@ -12,20 +12,20 @@ ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fec3082c172cc9e31d931d1c64ef3eaeccd04b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3531e50efec5d981249e892c692a20095bef9eff
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756157"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="dc32f-102">在 Lync Server 2013 中容錯回復 Lync Server 同盟或 XMPP 同盟使用的 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="dc32f-102">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>
+# <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="dbdcb-102">在 Lync Server 2013 中回復用於 Lync Server 同盟或 XMPP 同盟的 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="dbdcb-102">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "41756157"
 
 <span> </span>
 
-<span data-ttu-id="dc32f-103">_**主題上次修改日期：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="dc32f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="dbdcb-103">_**主題上次修改日期：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="dbdcb-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="dc32f-104">當您用來主持同盟的邊緣池已重新連線之後，請使用此程式來容錯回復 Lync Server 同盟路由和/或 XMPP 同盟路由，以再次使用此已還原的邊緣池。</span><span class="sxs-lookup"><span data-stu-id="dc32f-104">After a failed Edge pool that used to host federation has been brought back online, use this procedure to fail back the Lync Server federation route and/or the XMPP federation route to again use this restored Edge pool.</span></span>
+<span data-ttu-id="dbdcb-104">在用來主控同盟的失敗 Edge 集區回到線上後，請使用此程式來容錯回復 Lync Server 同盟路由和/或 XMPP 同盟路由，以再次使用此還原的 Edge 集區。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-104">After a failed Edge pool that used to host federation has been brought back online, use this procedure to fail back the Lync Server federation route and/or the XMPP federation route to again use this restored Edge pool.</span></span>
 
 <div>
 
-## <a name="failing-back-federation-to-a-restored-edge-pool"></a><span data-ttu-id="dc32f-105">無法將同盟切回已還原的邊緣池</span><span class="sxs-lookup"><span data-stu-id="dc32f-105">Failing Back Federation to a Restored Edge Pool</span></span>
+## <a name="failing-back-federation-to-a-restored-edge-pool"></a><span data-ttu-id="dbdcb-105">將同盟回復至還原的 Edge 集區失敗</span><span class="sxs-lookup"><span data-stu-id="dbdcb-105">Failing Back Federation to a Restored Edge Pool</span></span>
 
-1.  <span data-ttu-id="dc32f-106">在現在可以再次使用的邊緣池中，啟動 Edge 服務。</span><span class="sxs-lookup"><span data-stu-id="dc32f-106">On the Edge pool that is now available again, start the Edge Services.</span></span>
+1.  <span data-ttu-id="dbdcb-106">在現在可以使用的 Edge 集區上，啟動 Edge Services。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-106">On the Edge pool that is now available again, start the Edge Services.</span></span>
 
-2.  <span data-ttu-id="dc32f-107">如果您想要將 Lync Server 同盟路由容錯回復到使用已還原的邊緣伺服器，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="dc32f-107">If you want to fail back the Lync Server federation route to use the restored Edge Server, do the following:</span></span>
+2.  <span data-ttu-id="dbdcb-107">如果您想要容錯回復 Lync Server 同盟路由以使用還原的 Edge Server，請執行下列操作：</span><span class="sxs-lookup"><span data-stu-id="dbdcb-107">If you want to fail back the Lync Server federation route to use the restored Edge Server, do the following:</span></span>
     
-      - <span data-ttu-id="dc32f-108">在前端伺服器上，開啟 [拓撲建立器]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-108">On a Front End server, open Topology Builder.</span></span> <span data-ttu-id="dc32f-109">展開 [**邊緣池**]，然後以滑鼠右鍵按一下目前針對同盟設定的邊緣伺服器或 edge 伺服器池。</span><span class="sxs-lookup"><span data-stu-id="dc32f-109">Expand **Edge pools**, then right click the Edge server or Edge server pool that is currently configured for Federation.</span></span> <span data-ttu-id="dc32f-110">選取 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-110">Select **Edit properties**.</span></span>
+      - <span data-ttu-id="dbdcb-p101">在前端伺服器上，開啟拓撲產生器。展開 **[Edge 集區]**，然後在目前設定用於同盟的 Edge Server 或 Edge Server 集區上按一下滑鼠右鍵。選取 **[編輯內容]**。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-p101">On a Front End server, open Topology Builder. Expand **Edge pools**, then right click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.</span></span>
     
-      - <span data-ttu-id="dc32f-111">在 [**編輯屬性**] 底下的 **[一般**] 底下，清除 **[針對此 Edge 池啟用同盟（埠5061）**]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-111">In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**.</span></span> <span data-ttu-id="dc32f-112">按一下 [確定]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dc32f-112">Click **OK**.</span></span>
+      - <span data-ttu-id="dbdcb-p102">在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]\*\*\*\*。按一下 [確定]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-p102">In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
     
-      - <span data-ttu-id="dc32f-113">展開 [**邊緣池**]，然後以滑鼠右鍵按一下您想要用於同盟的原始邊緣伺服器或 edge 伺服器池。</span><span class="sxs-lookup"><span data-stu-id="dc32f-113">Expand **Edge pools**, then right click the original Edge server or Edge server pool that you again want to use for Federation.</span></span> <span data-ttu-id="dc32f-114">選取 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-114">Select **Edit properties**.</span></span>
+      - <span data-ttu-id="dbdcb-113">展開 [ **Edge**集區]，然後以滑鼠右鍵按一下原始 Edge Server 或 Edge server 集區，以供同盟使用。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-113">Expand **Edge pools**, then right click the original Edge server or Edge server pool that you again want to use for Federation.</span></span> <span data-ttu-id="dbdcb-114">選取 [編輯內容]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-114">Select **Edit properties**.</span></span>
     
-      - <span data-ttu-id="dc32f-115">在 [**編輯屬性**] 底下的 **[一般**] 底下，選取 **[針對此 Edge 池啟用同盟（埠5061）**]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-115">In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**.</span></span> <span data-ttu-id="dc32f-116">按一下 [確定]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dc32f-116">Click **OK**.</span></span>
+      - <span data-ttu-id="dbdcb-p104">在 [編輯內容]\*\*\*\* 中，選取 [一般]\*\*\*\* 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-p104">In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
     
-      - <span data-ttu-id="dc32f-117">按一下 [**動作**]，選取 [**拓撲**]，選取 [**發佈**]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-117">Click **Action**, select **Topology**, select **Publish**.</span></span> <span data-ttu-id="dc32f-118">**發佈拓撲**時出現提示時，請按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="dc32f-118">When prompted on **Publish the topology**, click **Next**.</span></span> <span data-ttu-id="dc32f-119">發佈完成後，請按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="dc32f-119">When the Publish is finished, click **Finish**.</span></span>
+      - <span data-ttu-id="dbdcb-p105">按一下 **[動作]**，依序選取 **[拓撲]** 和 **[發行]**。在 **[發行拓撲]** 出現提示時，按 **[下一步]**。發行完成時，按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-p105">Click **Action**, select **Topology**, select **Publish**. When prompted on **Publish the topology**, click **Next**. When the Publish is finished, click **Finish**.</span></span>
     
-      - <span data-ttu-id="dc32f-120">在邊緣伺服器上，開啟 Lync Server 部署嚮導。</span><span class="sxs-lookup"><span data-stu-id="dc32f-120">On the Edge server, open the Lync Server Deployment wizard.</span></span> <span data-ttu-id="dc32f-121">按一下 [**安裝或更新 Lync Server 系統**]，然後按一下 [**設定] 或 [移除 Lync server 元件**]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-121">Click **Install or Update Lync Server System**, then click **Setup or Remove Lync Server Components**.</span></span> <span data-ttu-id="dc32f-122">再次按一下 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="dc32f-122">Click **Run Again**.</span></span>
+      - <span data-ttu-id="dbdcb-p106">在 Edge Server 上開啟 [Lync Server 部署精靈]。依序按一下 **[安裝或更新 Lync Server 系統]**、**[安裝或移除 Lync Server 元件]**、**[再執行一次]**。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-p106">On the Edge server, open the Lync Server Deployment wizard. Click **Install or Update Lync Server System**, then click **Setup or Remove Lync Server Components**. Click **Run Again**.</span></span>
     
-      - <span data-ttu-id="dc32f-123">在安裝程式 Lync Server 元件上，按一下 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="dc32f-123">At Setup Lync Server components, click **Next**.</span></span> <span data-ttu-id="dc32f-124">[摘要] 畫面會在執行時顯示動作。</span><span class="sxs-lookup"><span data-stu-id="dc32f-124">The summary screen will show actions as they are executed.</span></span> <span data-ttu-id="dc32f-125">完成部署之後，按一下 [**查看記錄**] 以查看可用的記錄檔。</span><span class="sxs-lookup"><span data-stu-id="dc32f-125">Once the deployment is done, click **View Log** to view available log files.</span></span> <span data-ttu-id="dc32f-126">按一下 **[完成]** 以完成部署。</span><span class="sxs-lookup"><span data-stu-id="dc32f-126">Click **Finish** to complete the deployment.</span></span>
+      - <span data-ttu-id="dbdcb-p107">在 [安裝 Lync Server 元件] 中，按 **[下一步]**。摘要畫面會隨著動作的執行顯示各個動作。部署完成後，按一下 **[檢視記錄檔]** 檢視可用的記錄檔。按一下 **[完成]** 完成部署。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-p107">At Setup Lync Server components, click **Next**. The summary screen will show actions as they are executed. Once the deployment is done, click **View Log** to view available log files. Click **Finish** to complete the deployment.</span></span>
 
-3.  <span data-ttu-id="dc32f-127">如果您想要將 XMPP 同盟路由容錯回復到使用已還原的邊緣伺服器，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="dc32f-127">If you want to fail back the XMPP federation route to use the restored Edge Server, do the following:</span></span>
+3.  <span data-ttu-id="dbdcb-127">如果您想要容錯回復 XMPP 同盟路由以使用還原的 Edge Server，請執行下列操作：</span><span class="sxs-lookup"><span data-stu-id="dbdcb-127">If you want to fail back the XMPP federation route to use the restored Edge Server, do the following:</span></span>
     
-      - <span data-ttu-id="dc32f-128">執行下列 Cmdlet，將 XMPP 同盟路由 repoint 到 Edge 池中，這將會立即託管 XMPP 同盟（在此範例中為 EdgeServer1）：</span><span class="sxs-lookup"><span data-stu-id="dc32f-128">Run the following cmdlet to repoint the XMPP federation route to the Edge pool which will now host XMPP federation (in this example, EdgeServer1):</span></span>
+      - <span data-ttu-id="dbdcb-128">執行下列 Cmdlet，將 XMPP 同盟路由 repoint 至 Edge 集區，該集區現在會主控 XMPP 同盟 (在此範例中，EdgeServer1) ：</span><span class="sxs-lookup"><span data-stu-id="dbdcb-128">Run the following cmdlet to repoint the XMPP federation route to the Edge pool which will now host XMPP federation (in this example, EdgeServer1):</span></span>
         
             Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
         
-        <span data-ttu-id="dc32f-129">在這個範例中，Site1 是包含邊緣池的網站，現在將託管 XMPP 同盟路由，而 EdgeServer1.contoso.com 是該池中的邊緣伺服器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="dc32f-129">In this example, Site1 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer1.contoso.com is the FQDN of an Edge Server in that pool.</span></span>
+        <span data-ttu-id="dbdcb-129">在此範例中，Site1 是包含 Edge 集區的網站，它現在會主控 XMPP 同盟路由，而且 EdgeServer1.contoso.com 是該集區中 Edge Server 的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-129">In this example, Site1 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer1.contoso.com is the FQDN of an Edge Server in that pool.</span></span>
     
-      - <span data-ttu-id="dc32f-130">如果您還沒有可解析到 Edge 池的 XMPP 同盟的 DNS SRV 記錄，而該內容現在將託管 XMPP 同盟，您必須新增該記錄，如下列範例所示。</span><span class="sxs-lookup"><span data-stu-id="dc32f-130">If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example.</span></span> <span data-ttu-id="dc32f-131">這個 SRV 記錄的埠值必須是5269。</span><span class="sxs-lookup"><span data-stu-id="dc32f-131">This SRV record must have a port value of 5269.</span></span>
+      - <span data-ttu-id="dbdcb-p108">如果您尚未擁有 XMPP 同盟的 DNS SRV 記錄 (其可解析為現在將裝載 XMPP 同盟的 Edge 集區)，則您必須新增該記錄，如下列範例所示。此 SRV 記錄的連接埠值必須為 5269。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-p108">If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.</span></span>
         
             _xmpp-server._tcp.contoso.com
     
-      - <span data-ttu-id="dc32f-132">在外部 DNS 伺服器上，將 XMPP 同盟的 DNS A 記錄變更為指向 EdgeServer2.contoso.com。</span><span class="sxs-lookup"><span data-stu-id="dc32f-132">On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.</span></span>
+      - <span data-ttu-id="dbdcb-132">在外部 DNS 伺服器上，變更 XMPP 同盟的 DNS A 記錄以指向 EdgeServer2.contoso.com。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-132">On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.</span></span>
     
-      - <span data-ttu-id="dc32f-133">確認現在將由 XMPP 同盟託管的邊緣池已在外部開啟埠5269。</span><span class="sxs-lookup"><span data-stu-id="dc32f-133">Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.</span></span>
+      - <span data-ttu-id="dbdcb-133">確認現在將裝載 XMPP 同盟的 Edge 集區已在外部開放連接埠 5269。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-133">Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.</span></span>
 
-4.  <span data-ttu-id="dc32f-134">如果前端池仍在包含已失敗且已還原的邊緣池的網站中執行，您應該在這些前端池上更新網路會議服務和 A/V 會議服務，以再次使用其本機網站上的邊緣池。</span><span class="sxs-lookup"><span data-stu-id="dc32f-134">If the Front End pools remained running in the site containing the Edge pool that failed and has been restored, you should update the Web Conferencing Service and A/V Conferencing Service on these Front End pools to again use the Edge pools at their local site.</span></span> <span data-ttu-id="dc32f-135">如需詳細資訊，請參閱[在 Lync Server 2013 中變更與前端池相關聯的邊緣池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。</span><span class="sxs-lookup"><span data-stu-id="dc32f-135">For more information, see [Changing the Edge pool associated with a Front End pool in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).</span></span>
+4.  <span data-ttu-id="dbdcb-134">如果前端集區仍在包含失敗且已還原之 Edge 集區的網站中執行，您應該更新這些前端集區上的 Web 會議服務和 A/V 會議服務，以再次使用本機網站上的 Edge 集區。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-134">If the Front End pools remained running in the site containing the Edge pool that failed and has been restored, you should update the Web Conferencing Service and A/V Conferencing Service on these Front End pools to again use the Edge pools at their local site.</span></span> <span data-ttu-id="dbdcb-135">如需詳細資訊，請參閱 [變更與 Lync Server 2013 中的前端集區相關聯的 Edge 集](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)區。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-135">For more information, see [Changing the Edge pool associated with a Front End pool in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).</span></span>
 
-5.  <span data-ttu-id="dc32f-136">如果與失敗的邊緣池位於同一網站的前端池也失敗，您現在可以使用 Invoke-CsPoolFailback 來容錯回復前端池。</span><span class="sxs-lookup"><span data-stu-id="dc32f-136">If the Front End pool at the same site as the failed Edge pool also failed, you can now use Invoke–CsPoolFailback to fail back the Front End pool.</span></span>
+5.  <span data-ttu-id="dbdcb-136">如果與失敗 Edge 集區位於相同網站的前端集區也失敗，您現在可以使用 Invoke–CsPoolFailback 來容錯回前端集區。</span><span class="sxs-lookup"><span data-stu-id="dbdcb-136">If the Front End pool at the same site as the failed Edge pool also failed, you can now use Invoke–CsPoolFailback to fail back the Front End pool.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="dc32f-137">請參閱</span><span class="sxs-lookup"><span data-stu-id="dc32f-137">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dbdcb-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dbdcb-137">See Also</span></span>
 
 
-[<span data-ttu-id="dc32f-138">在 Lync Server 2013 中容錯移轉用於 Lync Server 同盟的 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="dc32f-138">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)  
-[<span data-ttu-id="dc32f-139">在 Lync Server 2013 中容錯移轉用於 XMPP 同盟的 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="dc32f-139">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
+[<span data-ttu-id="dbdcb-138">在 Lync Server 2013 中容錯移轉用於 Lync Server 同盟的 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="dbdcb-138">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)  
+[<span data-ttu-id="dbdcb-139">在 Lync Server 2013 中容錯移轉用於 XMPP 同盟的 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="dbdcb-139">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
 
 
-[<span data-ttu-id="dc32f-140">Lync Server 2013 中的 Edge Server 災害復原</span><span class="sxs-lookup"><span data-stu-id="dc32f-140">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
+[<span data-ttu-id="dbdcb-140">Lync Server 2013 中的 Edge Server 災難性修復</span><span class="sxs-lookup"><span data-stu-id="dbdcb-140">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

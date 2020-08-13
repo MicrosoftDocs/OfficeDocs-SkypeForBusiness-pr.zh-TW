@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：測試使用群組延伸的能力
+title: Lync Server 2013：測試使用群組擴充的能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d79c5432bc2efca0d3a958d3837793eaf227b251
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 358d869f212ac3acef91e28ddb8d08322133970f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745973"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a><span data-ttu-id="0ef4c-102">測試在 Lync Server 2013 中使用群組延伸的能力</span><span class="sxs-lookup"><span data-stu-id="0ef4c-102">Testing ability to employ group expansion in Lync Server 2013</span></span>
+# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a><span data-ttu-id="d12cd-102">在 Lync Server 2013 中測試使用群組擴充的能力</span><span class="sxs-lookup"><span data-stu-id="d12cd-102">Testing ability to employ group expansion in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745973"
 
 <span> </span>
 
-<span data-ttu-id="0ef4c-103">_**主題上次修改日期：** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="0ef4c-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="d12cd-103">_**主題上次修改日期：** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="d12cd-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41745973"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0ef4c-104">驗證排程</span><span class="sxs-lookup"><span data-stu-id="0ef4c-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="0ef4c-105">日常</span><span class="sxs-lookup"><span data-stu-id="0ef4c-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="d12cd-104">驗證排程</span><span class="sxs-lookup"><span data-stu-id="d12cd-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="d12cd-105">每日</span><span class="sxs-lookup"><span data-stu-id="d12cd-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0ef4c-106">測試控管</span><span class="sxs-lookup"><span data-stu-id="0ef4c-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="0ef4c-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="0ef4c-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="d12cd-106">測試控管</span><span class="sxs-lookup"><span data-stu-id="d12cd-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="d12cd-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12cd-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0ef4c-108">需要許可權</span><span class="sxs-lookup"><span data-stu-id="0ef4c-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="0ef4c-109">使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="0ef4c-110">使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 CsGroupExpansion Cmdlet 許可權的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupExpansion cmdlet.</span></span> <span data-ttu-id="0ef4c-111">若要查看可以使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="d12cd-108">必要的權限</span><span class="sxs-lookup"><span data-stu-id="d12cd-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="d12cd-109">使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</span><span class="sxs-lookup"><span data-stu-id="d12cd-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="d12cd-110">使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsGroupExpansion Cmdlet 許可權的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="d12cd-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupExpansion cmdlet.</span></span> <span data-ttu-id="d12cd-111">若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="d12cd-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupExpansion&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,110 +64,110 @@ ms.locfileid: "41745973"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="0ef4c-112">說明</span><span class="sxs-lookup"><span data-stu-id="0ef4c-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="d12cd-112">描述</span><span class="sxs-lookup"><span data-stu-id="d12cd-112">Description</span></span>
 
-<span data-ttu-id="0ef4c-113">CsGroupExpansion Cmdlet 可讓您判斷群組延伸在貴組織內是否正常運作。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-113">The Test-CsGroupExpansion cmdlet lets you determine whether group expansion is working within your organization.</span></span> <span data-ttu-id="0ef4c-114">啟用群組展開時，使用者會將通訊群組設定為連絡人。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-114">When group expansion is enabled, users configure distribution groups as a contact.</span></span> <span data-ttu-id="0ef4c-115">這表示這些使用者只要將訊息定至群組，而不是群組成員，就可以傳送相同的立即訊息給所有的群組成員。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-115">That means that those users can then send the same instant message to all the group members by addressing the message to the group instead of to individual members of that group.</span></span> <span data-ttu-id="0ef4c-116">[群組延伸] 可讓您快速且輕鬆地查看所有群組成員及其目前狀態。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-116">Group expansion enables you to quickly and easily view all the group members and their current status.</span></span>
+<span data-ttu-id="d12cd-113">Test-CsGroupExpansion Cmdlet 可讓您判斷群組擴充是否可在組織內運作。</span><span class="sxs-lookup"><span data-stu-id="d12cd-113">The Test-CsGroupExpansion cmdlet lets you determine whether group expansion is working within your organization.</span></span> <span data-ttu-id="d12cd-114">啟用群組擴充功能時，使用者會將通訊群組設定為連絡人。</span><span class="sxs-lookup"><span data-stu-id="d12cd-114">When group expansion is enabled, users configure distribution groups as a contact.</span></span> <span data-ttu-id="d12cd-115">這表示，使用者可以將郵件定為群組，而不是該群組的個別成員，就能將相同的立即訊息傳送給所有群組成員。</span><span class="sxs-lookup"><span data-stu-id="d12cd-115">That means that those users can then send the same instant message to all the group members by addressing the message to the group instead of to individual members of that group.</span></span> <span data-ttu-id="d12cd-116">群組擴充功能可讓您快速而輕鬆地查看所有群組成員及其目前的狀態。</span><span class="sxs-lookup"><span data-stu-id="d12cd-116">Group expansion enables you to quickly and easily view all the group members and their current status.</span></span>
 
-<span data-ttu-id="0ef4c-117">使用 Test CsGroupExpansion Cmdlet，您可以使用群組的電子郵件地址來指定 Active Directory 通訊群組。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-117">With the Test-CsGroupExpansion cmdlet, you specify an Active Directory distribution group by using the group’s email address.</span></span> <span data-ttu-id="0ef4c-118">CsGroupExpansion 然後使用群組延伸來取得群組成員資格，並將檢索到的清單與您所提供的群組電子郵件地址的成員資格進行比較。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-118">Test-CsGroupExpansion then uses group expansion to retrieve the group membership and compare the retrieved list to the membership of the group email address that you supplied.</span></span> <span data-ttu-id="0ef4c-119">如果兩個清單相符，則群組延伸作業正常運作。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-119">If the two lists match, then group expansion is working correctly.</span></span> <span data-ttu-id="0ef4c-120">請注意，您可以使用兩種方式來測試群組延伸：測試服務本身，或測試相關的 web 服務。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-120">Note that you can test group expansion in two ways: by testing the service itself or by testing the associated web service.</span></span>
+<span data-ttu-id="d12cd-117">使用 Test-CsGroupExpansion Cmdlet，您可以使用群組的電子郵件地址來指定 Active Directory 通訊群組。</span><span class="sxs-lookup"><span data-stu-id="d12cd-117">With the Test-CsGroupExpansion cmdlet, you specify an Active Directory distribution group by using the group’s email address.</span></span> <span data-ttu-id="d12cd-118">Test-CsGroupExpansion 然後使用群組擴充來取得群組成員資格，並將所檢索的清單與所提供之群組電子郵件地址的成員資格進行比較。</span><span class="sxs-lookup"><span data-stu-id="d12cd-118">Test-CsGroupExpansion then uses group expansion to retrieve the group membership and compare the retrieved list to the membership of the group email address that you supplied.</span></span> <span data-ttu-id="d12cd-119">如果兩個清單相符，群組擴充就能正常運作。</span><span class="sxs-lookup"><span data-stu-id="d12cd-119">If the two lists match, then group expansion is working correctly.</span></span> <span data-ttu-id="d12cd-120">請注意，您可以使用兩種方式測試群組擴充：測試服務本身，或測試相關聯的 web 服務。</span><span class="sxs-lookup"><span data-stu-id="d12cd-120">Note that you can test group expansion in two ways: by testing the service itself or by testing the associated web service.</span></span>
 
-<span data-ttu-id="0ef4c-121">如需詳細資訊，請參閱[Test CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-121">For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.</span></span>
+<span data-ttu-id="d12cd-121">如需詳細資訊，請參閱[Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。</span><span class="sxs-lookup"><span data-stu-id="d12cd-121">For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="0ef4c-122">執行測試</span><span class="sxs-lookup"><span data-stu-id="0ef4c-122">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="d12cd-122">執行測試</span><span class="sxs-lookup"><span data-stu-id="d12cd-122">Running the test</span></span>
 
-<span data-ttu-id="0ef4c-123">CsGroupExpansion Cmdlet 可以使用預先配置的測試帳戶（請參閱設定執行 Lync Server 測試的測試帳戶）或任何已啟用 Lync Server 的使用者帳戶執行。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-123">The Test-CsGroupExpansion cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who was enabled for Lync Server.</span></span> <span data-ttu-id="0ef4c-124">若要使用測試帳戶執行這項檢查，您只需指定要測試的 Lync 伺服器池 FQDN，以及有效通訊群組的電子郵件地址即可。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-124">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested and the email address for a valid distribution group.</span></span> <span data-ttu-id="0ef4c-125">例如：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-125">For example:</span></span>
+<span data-ttu-id="d12cd-123">您可以使用預先設定的測試帳戶執行 Test-CsGroupExpansion Cmdlet (請參閱設定測試帳戶以執行 Lync Server 測試) 或任何已啟用 Lync Server 的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="d12cd-123">The Test-CsGroupExpansion cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who was enabled for Lync Server.</span></span> <span data-ttu-id="d12cd-124">若要使用測試帳戶執行這項檢查，您只需要指定所測試之 Lync 伺服器集區的 FQDN 和有效通訊群組的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="d12cd-124">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested and the email address for a valid distribution group.</span></span> <span data-ttu-id="d12cd-125">例如：</span><span class="sxs-lookup"><span data-stu-id="d12cd-125">For example:</span></span>
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com"
 
-<span data-ttu-id="0ef4c-126">若要使用實際的使用者帳戶執行此檢查，您必須先建立一個包含帳戶名稱和密碼的 Lync Server 認證物件。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-126">To run this check using an actual user account, you must first create a Lync Server credentials object that contains the account name and password.</span></span> <span data-ttu-id="0ef4c-127">然後，您必須在系統呼叫 Test-CsGroupExpansion 時包含該認證物件以及指派給該帳戶的 SIP 位址：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-127">You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsGroupExpansion:</span></span>
+<span data-ttu-id="d12cd-126">若要使用實際使用者帳戶執行這種檢查，您必須先建立一個包含帳戶名稱和密碼的 Lync Server 身分憑證物件。</span><span class="sxs-lookup"><span data-stu-id="d12cd-126">To run this check using an actual user account, you must first create a Lync Server credentials object that contains the account name and password.</span></span> <span data-ttu-id="d12cd-127">然後，您必須在系統呼叫 Test-CsGroupExpansion 時，包含該身分憑證物件和指派給該帳戶的 SIP 位址：</span><span class="sxs-lookup"><span data-stu-id="d12cd-127">You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsGroupExpansion:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-<span data-ttu-id="0ef4c-128">如需詳細資訊，請參閱[Test CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-128">For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.</span></span>
+<span data-ttu-id="d12cd-128">如需詳細資訊，請參閱[Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。</span><span class="sxs-lookup"><span data-stu-id="d12cd-128">For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="0ef4c-129">判斷成功或失敗</span><span class="sxs-lookup"><span data-stu-id="0ef4c-129">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="d12cd-129">決定成功或失敗</span><span class="sxs-lookup"><span data-stu-id="d12cd-129">Determining success or failure</span></span>
 
-<span data-ttu-id="0ef4c-130">如果指定的使用者可以使用群組延伸，您會收到類似以下的輸出，並將 Result 屬性標示為**成功：**</span><span class="sxs-lookup"><span data-stu-id="0ef4c-130">If the specified user can use group expansion, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="d12cd-130">如果指定的使用者可以使用群組擴充，您會收到類似下列的輸出，其 Result 屬性標示為 [**成功]：**</span><span class="sxs-lookup"><span data-stu-id="d12cd-130">If the specified user can use group expansion, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="0ef4c-131">TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="0ef4c-131">TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span></span>
+<span data-ttu-id="d12cd-131">TargetUri：https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="d12cd-131">TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span></span>
 
-<span data-ttu-id="0ef4c-132">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="0ef4c-132">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="d12cd-132">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d12cd-132">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="0ef4c-133">結果：成功</span><span class="sxs-lookup"><span data-stu-id="0ef4c-133">Result : Success</span></span>
+<span data-ttu-id="d12cd-133">結果：成功</span><span class="sxs-lookup"><span data-stu-id="d12cd-133">Result : Success</span></span>
 
-<span data-ttu-id="0ef4c-134">延隔時間：00：00：01.1234976</span><span class="sxs-lookup"><span data-stu-id="0ef4c-134">Latency : 00:00:01.1234976</span></span>
+<span data-ttu-id="d12cd-134">延遲：00：00：01.1234976</span><span class="sxs-lookup"><span data-stu-id="d12cd-134">Latency : 00:00:01.1234976</span></span>
 
-<span data-ttu-id="0ef4c-135">出錯</span><span class="sxs-lookup"><span data-stu-id="0ef4c-135">Error :</span></span>
+<span data-ttu-id="d12cd-135">錯誤：</span><span class="sxs-lookup"><span data-stu-id="d12cd-135">Error :</span></span>
 
-<span data-ttu-id="0ef4c-136">自檢</span><span class="sxs-lookup"><span data-stu-id="0ef4c-136">Diagnosis :</span></span>
+<span data-ttu-id="d12cd-136">診斷：</span><span class="sxs-lookup"><span data-stu-id="d12cd-136">Diagnosis :</span></span>
 
-<span data-ttu-id="0ef4c-137">如果指定的使用者無法使用群組延伸，結果就會顯示為失敗，而其他資訊將會記錄在錯誤與診斷屬性中：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-137">If the specified user can't use group expansion, then the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="d12cd-137">如果指定的使用者無法使用群組擴充，則結果會顯示為失敗，而且會在錯誤和診斷屬性中記錄其他資訊：</span><span class="sxs-lookup"><span data-stu-id="d12cd-137">If the specified user can't use group expansion, then the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="0ef4c-138">TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="0ef4c-138">TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span></span>
+<span data-ttu-id="d12cd-138">TargetUri：https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="d12cd-138">TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc</span></span>
 
-<span data-ttu-id="0ef4c-139">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="0ef4c-139">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="d12cd-139">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d12cd-139">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="0ef4c-140">結果：失敗</span><span class="sxs-lookup"><span data-stu-id="0ef4c-140">Result : Failure</span></span>
+<span data-ttu-id="d12cd-140">結果：失敗</span><span class="sxs-lookup"><span data-stu-id="d12cd-140">Result : Failure</span></span>
 
-<span data-ttu-id="0ef4c-141">延遲：00:00:00</span><span class="sxs-lookup"><span data-stu-id="0ef4c-141">Latency : 00:00:00</span></span>
+<span data-ttu-id="d12cd-141">延遲：00:00:00</span><span class="sxs-lookup"><span data-stu-id="d12cd-141">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="0ef4c-142">出錯</span><span class="sxs-lookup"><span data-stu-id="0ef4c-142">Error :</span></span>
+<span data-ttu-id="d12cd-142">錯誤：</span><span class="sxs-lookup"><span data-stu-id="d12cd-142">Error :</span></span>
 
-<span data-ttu-id="0ef4c-143">自檢</span><span class="sxs-lookup"><span data-stu-id="0ef4c-143">Diagnosis :</span></span>
+<span data-ttu-id="d12cd-143">診斷：</span><span class="sxs-lookup"><span data-stu-id="d12cd-143">Diagnosis :</span></span>
 
-<span data-ttu-id="0ef4c-144">測試-CsGroupExpansion：端點無法註冊。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-144">Test-CsGroupExpansion : The endpoint was unable to register.</span></span> <span data-ttu-id="0ef4c-145">請參閱 ErrorCode，瞭解特定原因。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-145">See the ErrorCode for specific reason.</span></span>
+<span data-ttu-id="d12cd-144">Test-CsGroupExpansion：端點無法註冊。</span><span class="sxs-lookup"><span data-stu-id="d12cd-144">Test-CsGroupExpansion : The endpoint was unable to register.</span></span> <span data-ttu-id="d12cd-145">如需特定原因，請參閱 ErrorCode。</span><span class="sxs-lookup"><span data-stu-id="d12cd-145">See the ErrorCode for specific reason.</span></span>
 
-<span data-ttu-id="0ef4c-146">先前的輸出指出測試失敗，因為指定的使用者無法使用 Lync Server 進行註冊。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-146">The previous output states that the test failed because the specified user was unable to register with Lync Server.</span></span> <span data-ttu-id="0ef4c-147">如果測試帳戶不存在，或沒有為 Lync Server 啟用，則通常會發生這種情況。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-147">This will typically occur if the test account does not exist or has not enabled for Lync Server.</span></span> <span data-ttu-id="0ef4c-148">您可以透過執行類似下列的命令，確認帳戶存在，並判斷是否已啟用 nm 版 ocs-14-3 的帳戶：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-148">You can verify that the account exists, and determine whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to the following:</span></span>
+<span data-ttu-id="d12cd-146">先前的輸出表明測試失敗，因為指定的使用者無法使用 Lync Server 註冊。</span><span class="sxs-lookup"><span data-stu-id="d12cd-146">The previous output states that the test failed because the specified user was unable to register with Lync Server.</span></span> <span data-ttu-id="d12cd-147">如果測試帳戶不存在或尚未對 Lync Server 啟用，則通常會發生這種情況。</span><span class="sxs-lookup"><span data-stu-id="d12cd-147">This will typically occur if the test account does not exist or has not enabled for Lync Server.</span></span> <span data-ttu-id="d12cd-148">您可以確認該帳戶是否存在，並執行類似如下的命令，以判斷該帳戶是否已啟用（如有）。</span><span class="sxs-lookup"><span data-stu-id="d12cd-148">You can verify that the account exists, and determine whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to the following:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-<span data-ttu-id="0ef4c-149">如果測試 CsGroupExpansion 失敗，您可能會想要重新執行測試，這次包括詳細參數：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-149">If Test-CsGroupExpansion fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="d12cd-149">如果 Test-CsGroupExpansion 失敗，則您可能想要重新執行測試，這次包括 Verbose 參數：</span><span class="sxs-lookup"><span data-stu-id="d12cd-149">If Test-CsGroupExpansion fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -Verbose
 
-<span data-ttu-id="0ef4c-150">在包含詳細參數的情況下，CsGroupExpansion 會傳回其在檢查指定使用者登入 Lync Server 的能力時所嘗試的每個動作的逐步帳戶。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-150">When the Verbose parameter is included Test-CsGroupExpansion will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="0ef4c-151">例如，此輸出表示找不到指定的通訊群組：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-151">For example, this output indicates that the specified distribution group couldn't be found:</span></span>
+<span data-ttu-id="d12cd-150">包含 Verbose 參數時 Test-CsGroupExpansion 會傳回每個動作的逐步帳戶，檢查所嘗試的特定使用者登入 Lync Server 的能力。</span><span class="sxs-lookup"><span data-stu-id="d12cd-150">When the Verbose parameter is included Test-CsGroupExpansion will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="d12cd-151">例如，下列輸出指出找不到指定的通訊群組：</span><span class="sxs-lookup"><span data-stu-id="d12cd-151">For example, this output indicates that the specified distribution group couldn't be found:</span></span>
 
-<span data-ttu-id="0ef4c-152">正在嘗試取得 web 票證。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-152">Trying to get web ticket.</span></span>
+<span data-ttu-id="d12cd-152">嘗試取得 web 票證。</span><span class="sxs-lookup"><span data-stu-id="d12cd-152">Trying to get web ticket.</span></span>
 
-<span data-ttu-id="0ef4c-153">Web 服務 url：https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc</span><span class="sxs-lookup"><span data-stu-id="0ef4c-153">Web Service url : https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc</span></span>
+<span data-ttu-id="d12cd-153">Web 服務 url：https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc</span><span class="sxs-lookup"><span data-stu-id="d12cd-153">Web Service url : https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc</span></span>
 
-<span data-ttu-id="0ef4c-154">使用 NTLM/Kerb auth。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-154">Using NTLM/Kerb auth.</span></span>
+<span data-ttu-id="d12cd-154">使用 NTLM/Kerb 驗證。</span><span class="sxs-lookup"><span data-stu-id="d12cd-154">Using NTLM/Kerb auth.</span></span>
 
-<span data-ttu-id="0ef4c-155">GetWebTicketActivity 已完成。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-155">GetWebTicketActivity completed.</span></span>
+<span data-ttu-id="d12cd-155">GetWebTicketActivity 已完成。</span><span class="sxs-lookup"><span data-stu-id="d12cd-155">GetWebTicketActivity completed.</span></span>
 
-<span data-ttu-id="0ef4c-156">「VerifyDistributionList」活動已開始。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-156">'VerifyDistributionList' activity started.</span></span>
+<span data-ttu-id="d12cd-156">' VerifyDistributionList ' 活動已開始。</span><span class="sxs-lookup"><span data-stu-id="d12cd-156">'VerifyDistributionList' activity started.</span></span>
 
-<span data-ttu-id="0ef4c-157">DLX Web Services 回應狀態為： NotFound。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-157">DLX Web Service Response Status is: NotFound.</span></span>
+<span data-ttu-id="d12cd-157">DLX Web 服務回應狀態為： NotFound。</span><span class="sxs-lookup"><span data-stu-id="d12cd-157">DLX Web Service Response Status is: NotFound.</span></span>
 
-<span data-ttu-id="0ef4c-158">"VerifyDistributionList" 活動在 "0.2597923" 秒內完成。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-158">'VerifyDistributionList' activity completed in '0.2597923' secs.</span></span>
+<span data-ttu-id="d12cd-158">' VerifyDistributionList ' activity 在 ' 0.2597923 ' 秒內完成。</span><span class="sxs-lookup"><span data-stu-id="d12cd-158">'VerifyDistributionList' activity completed in '0.2597923' secs.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="0ef4c-159">測試可能失敗的原因</span><span class="sxs-lookup"><span data-stu-id="0ef4c-159">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="d12cd-159">測試可能失敗的原因</span><span class="sxs-lookup"><span data-stu-id="d12cd-159">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="0ef4c-160">以下是測試 CsGroupExpansion 可能失敗的一些常見原因：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-160">Here are some common reasons why Test-CsGroupExpansion might fail:</span></span>
+<span data-ttu-id="d12cd-160">以下是一些 Test-CsGroupExpansion 可能失敗的常見原因：</span><span class="sxs-lookup"><span data-stu-id="d12cd-160">Here are some common reasons why Test-CsGroupExpansion might fail:</span></span>
 
-  - <span data-ttu-id="0ef4c-161">您指定的使用者帳戶無效。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-161">You specified an invalid user account.</span></span> <span data-ttu-id="0ef4c-162">您可以執行如下的命令來確認使用者帳戶已存在：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-162">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="d12cd-161">您指定的使用者帳戶無效。</span><span class="sxs-lookup"><span data-stu-id="d12cd-161">You specified an invalid user account.</span></span> <span data-ttu-id="d12cd-162">您可以執行類似如下的命令，以確認使用者帳戶是否存在：</span><span class="sxs-lookup"><span data-stu-id="d12cd-162">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="0ef4c-163">使用者帳戶有效，但目前尚未啟用 Lync Server 的帳戶。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-163">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="0ef4c-164">若要確認使用者帳戶已啟用 Lync Server，請執行類似下列的命令：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-164">To verify that a user account was enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="d12cd-163">使用者帳戶有效，但目前未啟用 Lync Server 的帳戶。</span><span class="sxs-lookup"><span data-stu-id="d12cd-163">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="d12cd-164">若要確認已啟用 Lync Server 的使用者帳戶，請執行類似下列的命令：</span><span class="sxs-lookup"><span data-stu-id="d12cd-164">To verify that a user account was enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="0ef4c-165">如果 Enabled 屬性設為 False，表示目前尚未啟用 Lync Server 的使用者。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-165">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="d12cd-165">如果 Enabled 屬性設定為 False，表示目前未啟用 Lync Server 的使用者。</span><span class="sxs-lookup"><span data-stu-id="d12cd-165">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
-  - <span data-ttu-id="0ef4c-166">[群組延伸] 可能已停用。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-166">Group expansion might be disabled.</span></span> <span data-ttu-id="0ef4c-167">您可以關閉群組延伸。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-167">It is possible to turn off group expansion.</span></span> <span data-ttu-id="0ef4c-168">如果群組延伸已停用，則 CsGroupExpansion Cmdlet 將會失敗。</span><span class="sxs-lookup"><span data-stu-id="0ef4c-168">If group expansion was disabled then the Test-CsGroupExpansion cmdlet will fail.</span></span> <span data-ttu-id="0ef4c-169">若要判斷是否已啟用群組延伸，請使用類似以下的命令：</span><span class="sxs-lookup"><span data-stu-id="0ef4c-169">To determine whether group expansion is enabled, use a command similar to this:</span></span>
+  - <span data-ttu-id="d12cd-166">可能停用群組擴充。</span><span class="sxs-lookup"><span data-stu-id="d12cd-166">Group expansion might be disabled.</span></span> <span data-ttu-id="d12cd-167">可以關閉群組擴充。</span><span class="sxs-lookup"><span data-stu-id="d12cd-167">It is possible to turn off group expansion.</span></span> <span data-ttu-id="d12cd-168">如果停用群組擴充，Test-CsGroupExpansion Cmdlet 會失敗。</span><span class="sxs-lookup"><span data-stu-id="d12cd-168">If group expansion was disabled then the Test-CsGroupExpansion cmdlet will fail.</span></span> <span data-ttu-id="d12cd-169">若要判斷是否已啟用群組擴充，請使用類似下列的命令：</span><span class="sxs-lookup"><span data-stu-id="d12cd-169">To determine whether group expansion is enabled, use a command similar to this:</span></span>
     
         Get-CsWebServiceConfiguration | Select-Object Identity, EnableGroupExpansion
 
