@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8358aaf175536ea567c6972d878466bdb004b660
-ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
+ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588267"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656334"
 ---
-# <a name="microsoft-teams-admin-training"></a>Microsoft Teams 系統管理訓練
+# <a name="microsoft-teams-training"></a>Microsoft Teams 訓練
 
 |               |               |
 | ------------- | ------------- |
 | <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[系統管理訓練](/microsoftteams/itadmin-readiness)** </br> 您可以使用這些教學課程、視訊及其他訓練資源來了解 Teams 並推動其於貴組織中的使用。 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[由講師帶領的訓練課程](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft 舉辦一系列免費的即時線上訓練課程，幫助您快速開始使用 Teams。 加入我們，查看 Teams 的實際功能、獲得問題的解答並與我們的線上講師們互動。 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[終端使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 使用這些訓練資源來幫助貴組織中的使用者充分利用 Teams。 |
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams 即時訓練](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft 舉辦一系列免費的即時線上訓練課程，幫助您快速開始使用 Teams。 加入我們，查看 Teams 的實際功能、獲得問題的解答並與我們的線上講師們互動。 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams 線上訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 使用這些自控進度訓練資源來幫助您的使用者充分利用 Teams。 |
 
 ## <a name="dont-miss-this-key-training"></a>不要錯過這主要訓練
 
@@ -78,5 +78,4 @@ ms.locfileid: "46588267"
    :::column-end:::
 
 :::row-end:::
-
 ---

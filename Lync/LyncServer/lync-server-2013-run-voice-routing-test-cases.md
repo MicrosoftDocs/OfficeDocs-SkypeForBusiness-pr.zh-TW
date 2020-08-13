@@ -12,18 +12,18 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14f2df8a04c5efbf8c62bc4e17bbdd156913daae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0b13ed9c5f9f4e42216877f7d117f5659425848b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732833"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>在 Lync Server 2013 中執行語音路由測試案例
 
@@ -37,39 +37,39 @@ ms.locfileid: "41732833"
 
 _**主題上次修改日期：** 2013-02-24_
 
-您可以在語音路由測試案例套件中執行所有測試案例，或執行一或多個選取的測試案例。
+您可以執行語音路由測試案例套件中的所有測試案例，也可以執行一個或多個選取的測試案例。
 
 <div>
 
 ## <a name="to-run-all-voice-routing-test-cases"></a>若要執行所有語音路由測試案例
 
-1.  以 RTCUniversalServerAdmins 群組的成員或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員的身分登入電腦。 如需詳細資訊，請參閱[Lync Server 2013 中的委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**語音路由**]，然後按一下 [**測試語音路由**]。
+3.  在左側導覽列中，依序按一下 **[語音路由]** 和 **[測試語音路由]**。
 
 4.  在 [**測試語音路由**] 頁面上，按一下 [**動作**]，然後按一下 [**全部執行**]。
     
-    每個測試案例的 [通過] 或 [失敗] 狀態會顯示在 [**通過/失敗**] 欄中。 如果測試案例還沒有執行，則 [**傳遞/失敗**] 欄中會顯示 [暫缺]。
+    每個測試案例的 [通過] 或 [失敗] 狀態會顯示在 [**通過/失敗**] 欄中。 如果測試案例尚未執行，N/A 會顯示在 [**通過/失敗**] 欄中。
 
-5.  可選若要查看每個測試案例的詳細結果，請按兩下測試案例名稱。 結果會顯示在 [**編輯測試案例**] 頁面右側的陰影區域中：
+5.   (選用) 若要查看每個測試案例的詳細結果，請按兩下測試案例名稱。 結果會顯示在 [**編輯測試案例**] 頁面右邊的陰影區域中：
     
-    1.  **測試結果：** 測試案例執行的整體階段或失敗狀態。
+    1.  **測試結果：** 測試案例執行的整體通過或失敗狀態。
     
-    2.  **正常化規則：** 針對此測試案例選取的撥號計畫中的第一個正常化規則，符合撥號號碼（[**要測試的號碼**] 欄位中的值）。
+    2.  正規化**規則：** 為此測試案例選取的撥號對應表中符合撥號號碼的第一個正規化規則 (數值**to test** field) 。
     
-    3.  已**正常化的數位：** 在正常化規則轉譯之後所撥號碼的值。
+    3.  **正規化數目：** 正規化規則轉譯之後的撥號號碼值。
     
-    4.  **第一個 PSTN 使用量：** 在針對此測試案例所選取的語音原則中，第一個與撥號號碼相符的公用交換電話網絡（PSTN）使用量記錄。
+    4.  **第一個 PSTN 使用方式：** 為此測試案例選取的語音原則中，第一部公用交換電話網路 (PSTN) 使用方式記錄符合撥號號碼。
     
-    5.  **第一個路線：** 第一個與撥號號碼相符的 PSTN 使用量記錄中的第一個語音路線。
+    5.  **第一個路由：** 第一個 PSTN 使用方式記錄中符合撥號號碼的第一個語音路由。
         
         <div>
         
 
         > [!NOTE]  
-        > 在語音路由測試案例設定中，<STRONG>預期的 PSTN 使用記錄</STRONG>和<STRONG>預期路由</STRONG>欄位是選擇性的。 如果測試案例沒有指定這些值，測試結果中的對應欄位就會是空白的。
+        > <STRONG>預期的 PSTN 使用方式記錄</STRONG>和<STRONG>預期路由</STRONG>欄位在語音路由測試案例設定中是選用的。 如果測試案例未指定這些值，測試結果中的對應欄位將會是空的。
 
         
         </div>
@@ -78,37 +78,37 @@ _**主題上次修改日期：** 2013-02-24_
 
 <div>
 
-## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>執行一或多個選取的語音路由測試案例
+## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>若要執行一或多個選取的語音路由測試案例
 
-1.  以 RTCUniversalServerAdmins 群組的成員或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員的身分登入電腦。 如需詳細資訊，請參閱[Lync Server 2013 中的委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左側導覽列中，按一下 [**語音路由**]，然後按一下 [**測試語音路由**]。
+3.  在左導覽列中，按一下 [**語音路由**]，然後按一下 [**測試語音路由**]。
 
-4.  在 [**測試語音路由**] 頁面上，按一下您要執行的測試案例的名稱。
+4.  在 [**測試語音路由**] 頁面上，按一下您要執行的測試案例名稱。
 
 5.  在 [**動作**] 功能表上，按一下 [**執行選取**的]。
     
-    每個測試案例的 [通過] 或 [失敗] 狀態會顯示在 [**通過/失敗**] 欄中。 如果測試案例還沒有執行，則 [**傳遞/失敗**] 欄中會顯示 [暫缺]。
+    每個測試案例的 [通過] 或 [失敗] 狀態會顯示在 [**通過/失敗**] 欄中。 如果測試案例尚未執行，N/A 會顯示在 [**通過/失敗**] 欄中。
 
-6.  可選若要查看每個測試案例的詳細結果，請按兩下測試案例名稱。 結果會顯示在 [**編輯測試案例**] 頁面右側的陰影區域中：
+6.   (選用) 若要查看每個測試案例的詳細結果，請按兩下測試案例名稱。 結果會顯示在 [**編輯測試案例**] 頁面右邊的陰影區域中：
     
-    1.  **測試結果：** 測試案例執行的整體階段或失敗狀態。
+    1.  **測試結果：** 測試案例執行的整體通過或失敗狀態。
     
-    2.  **正常化規則：** 針對此測試案例選取的撥號計畫中的第一個正常化規則，符合撥號號碼（[**要測試的號碼**] 欄位中的值）。
+    2.  正規化**規則：** 為此測試案例選取的撥號對應表中符合撥號號碼的第一個正規化規則 (數值**to test** field) 。
     
-    3.  已**正常化的數位：** 在正常化規則轉譯之後所撥號碼的值。
+    3.  **正規化數目：** 正規化規則轉譯之後的撥號號碼值。
     
-    4.  **第一個 PSTN 使用量：** 針對此測試案例所選取的語音原則中，符合撥入號碼的第一個 PSTN 使用記錄。
+    4.  **第一個 PSTN 使用方式：** 為此測試案例選取的語音原則中符合撥號號碼的第一個 PSTN 使用方式記錄。
     
-    5.  **第一個路線：** 第一個與撥號號碼相符的 PSTN 使用量記錄中的第一個語音路線。
+    5.  **第一個路由：** 第一個 PSTN 使用方式記錄中符合撥號號碼的第一個語音路由。
         
         <div>
         
 
         > [!NOTE]  
-        > 在語音路由測試案例設定中，<STRONG>預期的 PSTN 使用記錄</STRONG>和<STRONG>預期路由</STRONG>欄位是選擇性的。 如果測試案例沒有指定這些值，測試結果中的對應欄位就會是空白的。
+        > <STRONG>預期的 PSTN 使用方式記錄</STRONG>和<STRONG>預期路由</STRONG>欄位在語音路由測試案例設定中是選用的。 如果測試案例未指定這些值，測試結果中的對應欄位將會是空的。
 
         
         </div>
@@ -117,7 +117,7 @@ _**主題上次修改日期：** 2013-02-24_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中測試語音路由](lync-server-2013-test-voice-routing.md)  

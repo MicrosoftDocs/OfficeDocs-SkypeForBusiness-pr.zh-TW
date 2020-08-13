@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：備份和還原 Lync Server
+title: Lync Server 2013：備份及還原 Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43a96f47bfe9d28fdbc37eea0ae62ef6cd763098
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 00f2f907c8efb663816ca50152643cea70fcc2ff
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740143"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-and-restoring-lync-server-2013"></a>備份和還原 Lync Server 2013
+# <a name="backing-up-and-restoring-lync-server-2013"></a>備份及還原 Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41740143"
 
 _**主題上次修改日期：** 2013-02-21_
 
-在本節中，您將會發現備份 Lync Server 2013 資料的最佳做法，以及在發生失敗時將它還原。 這些最佳做法適用于下列情況：
+在本節中，您將會發現備份 Lync Server 2013 資料的最佳作法，以及在發生失敗時進行還原。 這些最佳作法適用于下列情況：
 
-  - 整個 Lync Server pool （前端伺服器、Edge 伺服器、中繼伺服器、永久聊天伺服器或控制器），或是其中一個池中的個別伺服器。
+  - 完整的 Lync 伺服器集區，任何類型 (前端伺服器、Edge Server、轉送伺服器、Persistent Chat Server 或 Director) ，或是其中一個集區中的個別伺服器。
 
   - 中央管理伺服器
 
-  - 標準版伺服器
+  - Standard Edition server
 
-  - 企業版後端伺服器
+  - Enterprise Edition 後端伺服器
 
-  - 檔案存放區
+  - 檔存放區
 
-  - 存檔資料庫、監視資料庫或持久聊天資料庫
+  - 封存資料庫、監控資料庫或 Persistent 聊天資料庫
 
-本節不包含還原整個網站或開發備用網站的相關資訊。 如需使用成對的前端池來開發災害復原解決方案的詳細資料，請參閱[在 Lync Server 2013 中規劃高可用性和災難](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)復原。 這是規劃災害復原的建議方法。
+本節不包含還原整個網站或開發待機網站的相關資訊。 如需開發搭配前端集區的嚴重損壞修復解決方案的詳細資訊，請參閱[在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。 這是規劃嚴重損壞修復的建議方法。
 
-如果您已部署成對的前端池，且其中一個池失敗且無法復原，您就可以使用其配對的池中的新完整功能變數名稱（FQDN）來還原此池。 如需執行此復原步驟的詳細資訊，請參閱[在 Lync Server 2013 中轉移池失敗](lync-server-2013-failing-over-a-pool.md)。 此外，如果您稍後想要重新建立屬於前端端對的失敗且無法使用的池，您可以使用在[Lync Server 2013 中執行 ABC 前端池容錯移轉](lync-server-2013-performing-an-abc-front-end-pool-failover.md)的步驟。
+如果您已部署成對的前端集區，當其中一個集區失敗且無法復原時，您可以使用其配對的集區中的新完整功能變數名稱 (FQDN) 還原此集區。 如需執行此復原之步驟的詳細資訊，請參閱[在 Lync Server 2013 中容錯移轉集](lync-server-2013-failing-over-a-pool.md)區。 此外，如果您稍後想要重新建立屬於前端對的失敗和不可復原的集區，您可以使用在[Lync Server 2013 中執行 ABC 前端集區容錯移轉](lync-server-2013-performing-an-abc-front-end-pool-failover.md)的步驟。
 
-本檔中所述的方法涉及規劃階段中的特殊考慮。 如需詳細資訊，請參閱[建立 Lync Server 2013 的備份與還原方案](lync-server-2013-establishing-a-backup-and-restoration-plan.md)。
+本文件中所說明的方法涉及規劃階段的特殊考量。 如需詳細資訊，請參閱[建立 Lync Server 2013 的備份與還原方案](lync-server-2013-establishing-a-backup-and-restoration-plan.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [準備 Lync Server 2013 備份及還原](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
 
@@ -67,7 +67,7 @@ _**主題上次修改日期：** 2013-02-21_
 
   - [在 Lync Server 2013 中還原資料和設定](lync-server-2013-restoring-data-and-settings.md)
 
-  - [Lync Server 2013 的備份和還原工作表](lync-server-2013-backup-and-restoration-worksheets.md)
+  - [Lync Server 2013 的備份及還原工作表](lync-server-2013-backup-and-restoration-worksheets.md)
 
 </div>
 

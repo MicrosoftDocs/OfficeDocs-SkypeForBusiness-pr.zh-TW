@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定調整式 Edge 拓撲的硬體負載平衡器
+title: Lync Server 2013：設定調整式 edge 拓撲的硬體負載平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9fdb64f5e67aec67f3246dc0c1693cf53c0fe09
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41d7fd1fb26e7c44bad7d3c88123f8504ff003c4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764649"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182156"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-hardware-load-balancers-for-scaled-edge-topologies-in-lync-server-2013"></a>在 Lync Server 2013 中設定調整式 Edge 拓撲的硬體負載平衡器
+# <a name="set-up-hardware-load-balancers-for-scaled-edge-topologies-in-lync-server-2013"></a>在 Lync Server 2013 中設定調整式 edge 拓撲的硬體負載平衡器
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764649"
 
 _**主題上次修改日期：** 2012-09-08_
 
-如果您是使用硬體負載平衡器設定縮放的邊緣拓撲，請參閱在規劃檔中使用[Lync Server 2013 中的硬體負載平衡器調整合並邊緣](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)。
+如果您是使用硬體負載平衡器來設定調整式 edge 拓撲，請參閱規劃檔中的[調整式合併 edge （Lync Server 2013 中的硬體負載平衡](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)器）。
 
 </div>
 
