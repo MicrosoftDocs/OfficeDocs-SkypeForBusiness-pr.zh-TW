@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a44adb84cb6669bb96bd617fb52ea9b5fdceb7af
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4861683d3c46eaa6122ffbac0d2ae17b4f3a7979
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581124"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655994"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和 Microsoft 團隊
 =====================================
@@ -40,7 +40,7 @@ Office 365 管理員可以定義 Microsoft 365 群組、新增成員，以及從
 <a name="how-microsoft-365-groups-work"></a>Microsoft 365 群組的運作方式
 --------------------------
 
-當您建立小組時，請在後端，建立 Microsoft 365 群組，以及關聯的 SharePoint 文件庫和 OneNote 筆記本，以及與其他 Office 365 雲端應用程式之間的關聯。 如果建立小組的人員是現有的 Office 365 公用或私人群組的擁有者，但如果該組的人員少於5000人，也可以新增小組功能給小組。 這會建立一個預設的**一般**頻道，讓聊天訊息、檔、OneNote 及其他物件都駐留在其中。 查看頻道的文件庫會顯示代表小組中頻道的 **[一般**] 資料夾。 更重要的是，如果您在文件庫中建立自己的資料夾結構，**它不會**以頻道傳播給團隊;目前，它只會從小組流向 SharePoint。
+當您建立小組時，請在後端，建立 Microsoft 365 群組，以及關聯的 SharePoint 文件庫和 OneNote 筆記本，以及與其他 Office 365 雲端應用程式之間的關聯。 如果建立小組的人員是現有的 Office 365 公用或私人群組的擁有者，則如果群組中的成員數量在[Microsoft 團隊的限制與規格](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)中指定的限制，而該組從未新增至小組，他們就可以將團隊功能新增到群組中。 這會建立一個預設的**一般**頻道，讓聊天訊息、檔、OneNote 及其他物件都駐留在其中。 查看頻道的文件庫會顯示代表小組中頻道的 **[一般**] 資料夾。 更重要的是，如果您在文件庫中建立自己的資料夾結構，**它不會**以頻道傳播給團隊;目前，它只會從小組流向 SharePoint。
 
 > [!NOTE]
 > 根據客戶的意見反應，由於在 Microsoft 團隊用戶端中建立小組而產生的新 Microsoft 365 群組，預設不會在 Outlook 中顯示。 若要開啟或關閉 Outlook 中的群組顯示，請使用[UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 及**HiddenFromExchangeClientsEnabled**參數。 透過 Outlook 建立的群組，且稍後啟用的小組將會繼續在 Outlook 和小組中顯示。 

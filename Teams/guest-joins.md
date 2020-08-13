@@ -1,7 +1,7 @@
 ---
 title: 來賓如何加入小組
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
@@ -18,12 +18,12 @@ description: 瞭解將組織外部的人員新增為 Microsoft 團隊中的團�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 476640953c0b3773fde44727dede6b95e6bf676d
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637222"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655914"
 ---
 <a name="how-a-guest-joins-a-team"></a>來賓如何加入小組
 ========================

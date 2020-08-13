@@ -1,20 +1,19 @@
 ---
 title: 在團隊系統管理中心管理稱讚應用程式
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 瞭解 Microsoft 團隊系統管理中心的稱讚應用程式中的系統管理設定
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564074"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656304"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中管理稱讚應用程式
 
@@ -46,7 +45,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ## <a name="create-your-own-badges"></a>建立您自己的徽章
 
-將**自訂徽章**切換開關切換至 [開啟]，然後選取 [**建立自訂徽章**]。 在該處，您可以在側邊面板中設計自訂徽章。
+將**自訂徽章**切換開關切換至 [開啟]，然後選取 [**建立自訂徽章**]。 在該處，您可以在側邊面板中設計自訂徽章。 您最多可以建立25個自訂徽章。 
 
 1. 輸入徽章名稱。 這是使用者傳送稱讚時，會出現在徽章上的名稱。
 
@@ -55,7 +54,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
    > [!TIP]
    > 如果您是十六進位值的新使用者，本文將說明如何使用它們的[快速簡介](#hex-colors-intro)。
 
-3. 上傳徽章影像。 接受的檔案類型是。PNG. 檔案必須小於25kb。
+3. 上傳徽章影像。 接受的檔案類型是。PNG. 影像檔案必須小於 40 KB，且最大尺寸為 216 X 216 圖元。
 ![標題為 [背景]、[文字] 和 [圖像] 欄位的徽章](media/praise-app-badge-fields.png)
 
 4. 當地語系化徽章名稱：在 [**當地語系化徽章名稱**] 底下，選取 [**新增**]。 從下拉式清單中選取所要的地區設定。 然後以指定的語言輸入徽章名稱。
@@ -98,7 +97,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 **選擇色彩時，請記住協助工具。** 某些色彩比其他色彩更好。  在文字與背景色彩之間建立對比，讓徽章名稱易於閱讀。 例如，如果您選擇深背景色彩，請選擇淺文字色彩。
 
-**選取影像時，請記住徽章尺寸。** 為了獲得最佳品質，建議您上傳216x216 圖元的影像檔。 避免拉伸或扭曲圖像，以符合這些尺寸。
+**選取影像時，請記住徽章尺寸。** 為了獲得最佳品質，建議您上傳 216 x 216 圖元 (的影像檔，這些圖元是) 的最大尺寸。 避免拉伸或扭曲圖像，以符合這些尺寸。
 
 **如果您的徽章影像不是矩形，請將影像設成透明。** 您必須先執行此動作，才能將影像檔案上傳到稱讚。
 

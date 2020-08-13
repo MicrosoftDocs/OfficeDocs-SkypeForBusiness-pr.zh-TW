@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868520"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648584"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 團隊中的小組到期與更新
 
@@ -33,7 +33,7 @@ ms.locfileid: "44868520"
 
 ![[立即更新] 按鈕的螢幕擷取畫面，用來更新小組設定中的小組](media/team-expiration.png "[立即更新] 按鈕的螢幕擷取畫面，用來更新小組設定中的小組")
 
-如果小組擁有者沒有更新小組，則會將小組放在「虛刪除」狀態，這表示它可以在未來30天內還原。
+如果小組擁有者沒有更新小組，而且團隊沒有任何其他活動，直到到期原則結束，該小組會放在 [虛刪除] 狀態，這表示它可以在未來30天內還原。
 
 ## <a name="team-auto-renewal"></a>小組自動續約
 

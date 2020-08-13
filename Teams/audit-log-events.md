@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634609"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648534"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -193,7 +193,7 @@ ms.locfileid: "46634609"
 
 ## <a name="attribution-in-teams-audit-logs"></a>小組審核記錄中的歸屬
 
-目前，小組審核記錄和控制訊息中的歸屬存在已知問題：擁有者可能會在移除或新增使用者時，對擁有者進行錯誤的屬性。 這會在團隊外發生變更時發生。 在這些情況下，建議您使用[Office 365 審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+團隊中的成員資格變更 (例如，透過 Azure Active Directory (Azure AD) 、Microsoft 365 admin 入口網站或 Microsoft 365 群組圖形 API 的新增或刪除) ，就會出現在小組審核訊息中，並在擁有該小組現有擁有者之歸屬的一般頻道中，而不是該動作的實際啟動器。 在這些案例中，請諮詢 Azure AD 或[Microsoft 365 群組審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)，以查看相關資訊。
 
 ## <a name="related-topics"></a>相關主題
 

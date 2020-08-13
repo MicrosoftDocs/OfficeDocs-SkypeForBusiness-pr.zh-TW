@@ -16,24 +16,24 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何啟用使用者 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691369"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656144"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>允許使用者使用直接路由、語音及語音信箱
 
 本文說明如何讓使用者使用電話系統直接路由。  以下是設定直接路由的步驟2：
 
 - 步驟1。 [將 SBC 與 Microsoft Phone 系統連接並驗證連接](direct-routing-connect-the-sbc.md) 
-- **步驟2。允許使用者使用直接路由、語音及語音信箱**（本文）
+- **步驟2。在本文中，讓使用者使用直接路由、語音及語音信箱**    () 
 - 步驟3。 [設定語音路由](direct-routing-voice-routing.md)
 - 步驟4。 [將數位轉換成替換格式](direct-routing-translate-numbers.md) 
 
 
-如需設定直接路由所需的所有步驟的詳細資訊，請參閱設定[直接路由](direct-routing-configure.md)。
+如需設定直接路由所需的所有步驟的詳細資訊，請參閱設定 [直接路由](direct-routing-configure.md)。
 
 當您準備好要讓使用者能夠直接傳送時，請遵循下列步驟： 
 
@@ -46,16 +46,16 @@ ms.locfileid: "44691369"
 
 在 Microsoft 365 或 Office 365 中建立新使用者有兩個選項。 不過，Microsoft 建議您的組織選擇一個選項來避免路由問題： 
 
-- 在內部部署的 Active Directory 中建立使用者，並將使用者同步處理到雲端。 請參閱[將您的內部部署目錄與 Azure Active Directory 整合](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
-- 直接在 Microsoft 365 系統管理中心建立使用者。 請參閱[個別或大量將使用者新增至 Microsoft 365 或 Office 365-系統管理協助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- 在內部部署的 Active Directory 中建立使用者，並將使用者同步處理到雲端。 請參閱 [將您的內部部署目錄與 Azure Active Directory 整合](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
+- 直接在 Microsoft 365 系統管理中心建立使用者。 請參閱 [個別或大量將使用者新增至 Microsoft 365 或 Office 365-系統管理協助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
-如果您的商務用 skype Online 部署 coexists 使用商務用 Skype 2015 或 Lync 2010 或2013內部部署，則唯一支援的選項是在內部部署 Active Directory 中建立使用者，並將使用者同步處理到雲端（選項1）。 
+如果您的商務用 skype Online 部署 coexists 使用商務用 Skype 2015 或 Lync 2010 或2013內部部署，則唯一支援的選項是在內部部署 Active Directory 中建立使用者，並將使用者同步處理到雲端 (選項 1) 。 
 
 如需授權需求的相關資訊，請參閱[規劃直接路由](direct-routing-plan.md)中的[授權和其他需求](direct-routing-plan.md#licensing-and-other-requirements)。
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>確定使用者是在商務用 Skype Online 中託管 
+## <a name="ensure-that-the-user-is-homed-online"></a>確定使用者已在線上 
 
-[直接傳送] 要求使用者駐留在商務用 Skype Online 中。 您可以查看 RegistrarPool 參數，該參數必須在 infra.lync.com 網域中有值。
+[直接傳送] 要求使用者在線上中駐留。 您可以查看 RegistrarPool 參數，該參數必須在 infra.lync.com 網域中有值。
 
 1. [連線至遠端 PowerShell]。
 2. 發出命令： 
@@ -95,7 +95,7 @@ ms.locfileid: "44691369"
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>將 [僅限團隊] 模式指派給使用者，以確保在 Microsoft 團隊中撥打土地
 
-直接路由要求使用者只能在 [僅限團隊] 模式中，以確保來電在團隊用戶端中保持通話。 若要將使用者置於 [僅限團隊] 模式，請將 [UpgradeToTeams] TeamsUpgradePolicy 的實例指派給他們。 如需詳細資訊，請參閱適用[于 IT 系統管理員的升級指導](upgrade-to-teams-on-prem-overview.md)方針。 如果您的組織是使用商務用 Skype Server 或商務用 Skype Online，請參閱下列文章，瞭解 Skype 與團隊之間的互通性資訊：[與商務用 skype 的遷移與互通性](migration-interop-guidance-for-teams-with-skype.md)。
+直接路由要求使用者只能在 [僅限團隊] 模式中，以確保來電在團隊用戶端中保持通話。 若要將使用者置於 [僅限團隊] 模式，請將 [UpgradeToTeams] TeamsUpgradePolicy 的實例指派給他們。 如需詳細資訊，請參閱適用 [于 IT 系統管理員的升級指導](upgrade-to-teams-on-prem-overview.md)方針。 如果您的組織是使用商務用 Skype Server 或商務用 Skype Online，請參閱下列文章，瞭解 Skype 與團隊之間的互通性資訊： [與商務用 skype 的遷移與互通性](migration-interop-guidance-for-teams-with-skype.md)。
 
 ## <a name="see-also"></a>另請參閱
 

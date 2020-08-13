@@ -1,7 +1,7 @@
 ---
 title: 在小組中規劃管理-Microsoft 團隊
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665275"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656354"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
@@ -34,7 +34,7 @@ ms.locfileid: "44665275"
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>群組和小組建立、命名、分類和來賓存取
 
-您的組織可能會要求您在小組命名及分類的方式上執行嚴格的控制，您可以將來賓新增為小組成員，以及誰可以建立團隊。 您可以使用 Azure Active Directory （Azure AD）來設定這些區域中的每一個。 
+您的組織可能會要求您在小組命名及分類的方式上執行嚴格的控制，您可以將來賓新增為小組成員，以及誰可以建立團隊。 您可以使用 Azure Active Directory (Azure AD) 來設定這些區域。 
 
 <br>
 
@@ -74,7 +74,7 @@ ms.locfileid: "44665275"
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>群組和小組到期、保留及封存
 
-您的組織可能對設定到期、保留及封存團隊與團隊資料（頻道訊息和頻道檔案）的需求有額外需求。 您可以設定群組過期原則，以自動管理群組和保留原則的生命週期，以根據需要保留或刪除資訊，而且您可以將團隊封存（將其設為唯讀模式），以保留不在使用中的小組的時間點視圖。
+您的組織可能對設定到期、保留及封存團隊及小組資料 (通道訊息及) 通道檔案的其他需求。 您可以設定群組過期原則來自動管理群組和保留原則的生命週期，以根據需要保留或刪除資訊，而且您可以將團隊封存 (將其設為唯讀模式) ，以保留不在使用中的小組的時間點視圖。
 
 |           |            |
 |-----------|------------|
@@ -103,6 +103,34 @@ ms.locfileid: "44665275"
 
 - 封存[或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。
 
+## <a name="group-and-team-membership-management"></a>群組和小組成員資格管理
+
+在需要快速加入和脫離或使用者和來賓的小組中，始終如一地管理以專案為基礎的成員或受限制的群組是必要的。 貴組織也可能需要確保所有目前成員都能在小組中進行業務調整。 管理成員可能很困難，因為小組擁有者可以離開，而且使用者通常不會在專案結束或變更角色時離開群組本身。 管理群組成員資格的最佳方式，可讓使用者在需要時取得存取權，但確定群組沒有不當存取的風險是透過兩個地區流程： [權利管理與存取權審查]。
+
+[[權利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)] 可讓您委派給某個人（例如專案經理），以便將所需的所有資源（包括團隊成員資格）收集到單一套件中。 他們也可以定義誰可以發出要求：您租使用者中的使用者或來自其他已連接的組織。 專案經理將會在其電子郵件中收到存取要求，並在 MyAccess 入口網站中核准或拒絕要求。 系統管理員可以設定 access 的條件，以包含到期日或期間（除非 access 已更新），否則將會從團隊中移除使用者或來賓。 系統管理員也可以設定與團隊相關聯的群組，以參與 access 評論。 針對[access 評論](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，群組擁有者會收到定期提醒，以查看小組成員。 Access 評論包括建議，讓群組擁有者能更輕鬆地完成標準認證程式。
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 決策點 | 貴組織需要一致的程式來管理一或多位團隊的成員資格嗎？ <br> 貴組織是否需要擁有者或成員本身，以定期向一或多個小組的持續成員資格進行調整？ <br> 您的組織是否需要核准使用者和來賓要求對資源的存取權，包括團隊、群組、SharePoint 網站和應用程式？ |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 後續步驟？ | 針對每個小組或特定小組，為成員資格到期記錄您的組織需求。<br>規劃貴組織可以如何將團隊、群組、SharePoint 網站和應用程式捆綁到 access 套件中。<br>規劃哪些人（例如要求者的管理員）、專案經理、連線組織的主辦人或貴組織中的安全專員，都必須核准或拒絕存取要求。 |
+
+> [!TIP]
+> 使用下表來捕獲貴組織的需求。
+
+| 功能 | 詳細資料 | 需要 Azure AD Premium 授權 | 決議 |
+|:-|:-|:-|:-|
+| Access 評論 | 設定存取權審查，以定期 recertify 特定團隊的成員資格 | 又 | TBD |
+| 權利管理 | 設定存取套件，讓使用者與客人要求對團隊進行存取權 | 又 | TBD |
+
+> [!NOTE]
+> 若要協助您預先規劃，請[進一步瞭解他們所需的授權](https://azure.microsoft.com/pricing/details/active-directory/)。
+
+### <a name="additional-information"></a>其他資訊
+
+如需如何實現這些設定的技術指導方針，請參閱：
+
+- [權利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Access 評論](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>團隊功能管理
 

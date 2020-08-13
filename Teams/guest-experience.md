@@ -1,7 +1,7 @@
 ---
 title: 來賓體驗像什麼
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799794"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655944"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "44799794"
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面](media/guest-experience-image1.png)
     
-所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 頻道螺紋右上角的標籤會指出團隊中的來賓人數，以及每個來賓的名稱旁會出現一個 **（來賓）** 標籤。
+所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 頻道螺紋右上角的標籤會指出小組中的來賓人數，以及每個來賓名稱旁會出現** (來賓) **標籤。
 
 ![螢幕擷取畫面顯示代表小組訪客人數的標記](media/guest-experience-image2.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "44799794"
 |張貼、刪除及編輯郵件  <br/> |&#x2713;|&#x2713;|
 |共用頻道檔案  <br/> |&#x2713;|&#x2713;|
 |共用聊天檔案  <br/> |&#x2713;||
-|新增應用程式（索引標籤、bot 或連接器）  <br/> |&#x2713;||
+|在索引標籤、bot 或連接器上新增應用程式 ()   <br/> |&#x2713;||
 |建立會議或存取排程  <br/> |&#x2713;||
 |存取商務用 OneDrive 儲存空間  <br/> |&#x2713;||
 |建立整個租使用者與團隊/頻道來賓存取原則  <br/> |&#x2713;||
@@ -71,7 +71,7 @@ ms.locfileid: "44799794"
 | --------------- | ----- | -------------- | -------------- |
 | VOIP 通話 | 是 | 是 | 是 |
 | 群組通話 | 是 | 是 | 是 |
-| 核心通話控制支援（保留、靜音、影片開啟/關閉、螢幕共用） | 是 | 是 | 是 |
+| 核心呼叫控制支援的 (保留、靜音、影片開啟/關閉、螢幕共用)  | 是 | 是 | 是 |
 | 轉移目標 | 是 | 是 | 是 |
 | 可以轉接來電 | 是 | 是 | 是 |
 | 可進行諮詢式轉接 | 是 | 是 | 是 |
@@ -113,7 +113,7 @@ ms.locfileid: "44799794"
 不。
 
 ### <a name="do-guests-have-access-to-sharepoint-files"></a>來賓是否有存取 SharePoint 檔案的許可權？
-是。
+是的。
 
 ### <a name="can-guests-search-within-files"></a>來賓可以在檔案中搜尋嗎？
 不。

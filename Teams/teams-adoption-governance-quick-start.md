@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊的管理快速入門
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,26 +21,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 94f7d592c7c983f930e862ab317c88b16225a61f
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350247"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656294"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft 團隊的管理快速入門
 
 下列活動將會同時發生，而且它們可能會涉及全部或部分重要小組。 最佳做法是，在您使用團隊完成初次實驗之後，推遲大型規模的管理和安全性交談。 這將會簡化您在這個後續日期所需作出的決策。 在此階段中，需要進行一些決策。 若要成功進行，您必須先回答下列問題：
 
 - 您先前評等的風險承擔者很適合參與此有限的商務用電腦？
-- 有這個人（或一組人員）建議的使用案例，適合這個階段嗎？  
+- 有這個個別 (或一組人員) 建議的使用案例，適合這個階段嗎？  
 - 他們是否有足夠的興趣，讓組織中的員工能成為早期的人員，並提供有意義且週期性意見反應？ 
 
-若要深入瞭解，請閱讀[小組中的管轄方案](plan-teams-governance.md)，並[規劃團隊中的週期管理](plan-teams-lifecycle.md)。
+若要深入瞭解，請閱讀 [小組中的管轄方案](plan-teams-governance.md) ，並 [規劃團隊中的週期管理](plan-teams-lifecycle.md)。
 
 ## <a name="an-icon-representing-a-decision-pointdecisions"></a>![代表決策點的圖示](media/teams-adoption-decision-icon.png)判斷
 
-進行下列決策（此時，這些決策只適用于階段2）：
+進行下列決策 (此時，這些決策只適用于階段 2) ：
 
 ### <a name="decision-1-who-can-create-teams"></a>決策1：可以建立團隊的人員 
 
@@ -48,7 +48,7 @@ ms.locfileid: "44350247"
 
 ### <a name="decision-2-teams-naming-conventions"></a>決策2：團隊命名慣例 
 
-您可能會想要針對大量的小組部署執行一些命名慣例，並檢查重複的名稱。 在階段2中，我們建議您只為初始專案實現手動命名慣例。 此做法的最佳做法是向先期消費者專案團隊進行互動式加入，並允許他們選取自己的名稱。 這可讓您深入瞭解員工如何思考其工作，並在日後建立較大的規模命名慣例。 （本指南稍後會顯示有關互動式加入之元素的其他資訊。）
+您可能會想要針對大量的小組部署執行一些命名慣例，並檢查重複的名稱。 在階段2中，我們建議您只為初始專案實現手動命名慣例。 此做法的最佳做法是向先期消費者專案團隊進行互動式加入，並允許他們選取自己的名稱。 這可讓您深入瞭解員工如何思考其工作，並在日後建立較大的規模命名慣例。 本指南稍後會顯示有關互動式加入的元素 (其他資訊。 ) 
 
 ### <a name="decision-3-guest-access"></a>決策3：來賓存取
 
@@ -64,10 +64,10 @@ ms.locfileid: "44350247"
 
 ### <a name="decision-6--data-security"></a>決策6：資料安全性
 
-為您廣泛的部署準備，您可以選擇使用 [安全標籤] 來將您環境中的小組類型分類。 針對本次實驗的目的，我們建議您參考[小組中的管轄規劃](plan-teams-governance.md)，並確保已針對 Microsoft 365 或 Office 365 中的小組資料設定基本的保留原則。 您可能需要與技術小組協調此工作，因為需要 Microsoft 365 或 Office 365 系統管理員許可權才能完成此作業。
+為您廣泛的部署準備，您可以選擇使用 [安全標籤] 來將您環境中的小組類型分類。 針對本次實驗的目的，我們建議您參考 [小組中的管轄規劃](plan-teams-governance.md) ，並確保已針對 Microsoft 365 或 Office 365 中的小組資料設定基本的保留原則。 您可能需要與技術小組協調此工作，因為需要 Microsoft 365 或 Office 365 系統管理員許可權才能完成此作業。
 
 ### <a name="decision-7-length-of-your-experiment"></a>決策7：實驗的長度
 
 成功的團隊實現會以良好的速度進行，以確保適當的動量、焦點及學習專案。 我們建議您專案的這個階段為60天，以確保您的早期消費者能完成足夠的商務週期。 延長太長時間的實驗會增加變更計畫失敗的風險;不過，這次會因每個組織而異。  
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ：[定義使用案例](teams-adoption-define-usage-scenarios.md)
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [定義使用案例](teams-adoption-define-usage-scenarios.md)
