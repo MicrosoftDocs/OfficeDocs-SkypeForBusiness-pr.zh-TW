@@ -125,6 +125,7 @@
 ## [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
 ## [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
+## [在 Teams 系統管理中心管理稱讚應用程式](manage-praise-app.md)
 ## [設定您的小組目標階層](set-up-your-team-hierarchy.md)
 ## [設定Skype 會議應用程式以搭配使用 Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -830,6 +831,7 @@
 ## 支援的裝置
 ### [在 Teams 中管理裝置](devices/device-management.md)
 ### [遠端更新裝置](devices/remote-update.md)
+### [管理 Teams 裝置標籤](devices/manage-device-tags.md)
 ### [Teams 的電話](devices/phones-for-teams.md)
 ### [USB 音訊和視訊裝置](devices/usb-devices.md)
 ### [為 Microsoft Teams 部署共同作業列](devices/collab-bar-deploy.md)
