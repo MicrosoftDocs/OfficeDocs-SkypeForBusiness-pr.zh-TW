@@ -3,7 +3,6 @@ title: 在小組中規劃管理-Microsoft 團隊
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,19 +17,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656354"
+ms.locfileid: "46662113"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
 團隊會提供一組豐富的工具來實施貴組織可能需要的任何管轄功能。 本文將指導 IT 專業人員提出正確的問題，以決定其管理需求，以及如何滿足他們的需求。 
 
 > [!Tip] 
-> 請觀看下列會話，深入瞭解 Microsoft 團隊中的管轄：[管理、管理與生命週期](https://aka.ms/teams-governance)
+> 請觀看下列會話，深入瞭解 Microsoft 團隊中的管轄： [管理、管理與生命週期](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>群組和小組建立、命名、分類和來賓存取
 
@@ -55,10 +54,10 @@ ms.locfileid: "46656354"
 |小組建立 |將小組建立限制為安全群組成員。 |P1 |TBD|
 
 > [!NOTE]
-> 若要協助您預先規劃，請[進一步瞭解如何設定這些原則以及他們所需的授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
+> 若要協助您預先規劃，請 [進一步瞭解如何設定這些原則以及他們所需的授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制群組和小組建立可能會降低使用者的生產力，因為許多 Microsoft 365 和 Office 365 服務都需要建立群組才能正常運作。 如需其他資訊，請流覽並展開[控制誰能建立 Microsoft 365 群組的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
+> 限制群組和小組建立可能會降低使用者的生產力，因為許多 Microsoft 365 和 Office 365 服務都需要建立群組才能正常運作。 如需其他資訊，請流覽並展開 [控制誰能建立 Microsoft 365 群組的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
 
 #### <a name="additional-information"></a>其他資訊
@@ -107,7 +106,7 @@ ms.locfileid: "46656354"
 
 在需要快速加入和脫離或使用者和來賓的小組中，始終如一地管理以專案為基礎的成員或受限制的群組是必要的。 貴組織也可能需要確保所有目前成員都能在小組中進行業務調整。 管理成員可能很困難，因為小組擁有者可以離開，而且使用者通常不會在專案結束或變更角色時離開群組本身。 管理群組成員資格的最佳方式，可讓使用者在需要時取得存取權，但確定群組沒有不當存取的風險是透過兩個地區流程： [權利管理與存取權審查]。
 
-[[權利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)] 可讓您委派給某個人（例如專案經理），以便將所需的所有資源（包括團隊成員資格）收集到單一套件中。 他們也可以定義誰可以發出要求：您租使用者中的使用者或來自其他已連接的組織。 專案經理將會在其電子郵件中收到存取要求，並在 MyAccess 入口網站中核准或拒絕要求。 系統管理員可以設定 access 的條件，以包含到期日或期間（除非 access 已更新），否則將會從團隊中移除使用者或來賓。 系統管理員也可以設定與團隊相關聯的群組，以參與 access 評論。 針對[access 評論](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，群組擁有者會收到定期提醒，以查看小組成員。 Access 評論包括建議，讓群組擁有者能更輕鬆地完成標準認證程式。
+[[權利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)] 可讓您委派給某個人（例如專案經理），以便將所需的所有資源（包括團隊成員資格）收集到單一套件中。 他們也可以定義誰可以發出要求：您租使用者中的使用者或來自其他已連接的組織。 專案經理將會在其電子郵件中收到存取要求，並在 MyAccess 入口網站中核准或拒絕要求。 系統管理員可以設定 access 的條件，以包含到期日或期間（除非 access 已更新），否則將會從團隊中移除使用者或來賓。 系統管理員也可以設定與團隊相關聯的群組，以參與 access 評論。 針對 [access 評論](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，群組擁有者會收到定期提醒，以查看小組成員。 Access 評論包括建議，讓群組擁有者能更輕鬆地完成標準認證程式。
 
 ||||
 |:-|:-|:-|
@@ -123,7 +122,7 @@ ms.locfileid: "46656354"
 | 權利管理 | 設定存取套件，讓使用者與客人要求對團隊進行存取權 | 又 | TBD |
 
 > [!NOTE]
-> 若要協助您預先規劃，請[進一步瞭解他們所需的授權](https://azure.microsoft.com/pricing/details/active-directory/)。
+> 若要協助您預先規劃，請 [進一步瞭解他們所需的授權](https://azure.microsoft.com/pricing/details/active-directory/)。
 
 ### <a name="additional-information"></a>其他資訊
 
@@ -153,14 +152,14 @@ ms.locfileid: "46656354"
 - [在團隊中管理會議原則](meeting-policies-in-teams.md)
 - [管理小組中的訊息傳遞原則](messaging-policies-in-teams.md)
 
-此外，您可以為頻道設定裁決，並向特定使用者提供仲裁者的功能，讓他們能夠控制誰可以建立頻道發佈及回復。 如需詳細資訊，請參閱[在 Microsoft 團隊中設定和管理 [頻道裁決](manage-channel-moderation-in-teams.md)]。
+此外，您可以為頻道設定裁決，並向特定使用者提供仲裁者的功能，讓他們能夠控制誰可以建立頻道發佈及回復。 如需詳細資訊，請參閱 [在 Microsoft 團隊中設定和管理 [頻道裁決](manage-channel-moderation-in-teams.md) ]。
 
 ## <a name="security-and-compliance"></a>安全性與合規性
 
 團隊是以 Microsoft 365 和 Office 365 的高級安全性與合規性功能為基礎，並支援審核與報告、合規性內容搜尋、電子探索、法律封存及保留原則。
 
 > [!Important]
-> 如果您的組織具備合規性與安全性需求，請參閱在[Microsoft 團隊中的安全性與合規性一](security-compliance-overview.md)文中所提供的深入閱讀本主題的內容。
+> 如果您的組織具備合規性與安全性需求，請參閱在 [Microsoft 團隊中的安全性與合規性一](security-compliance-overview.md)文中所提供的深入閱讀本主題的內容。
 
 ## <a name="related-topics"></a>相關主題
 

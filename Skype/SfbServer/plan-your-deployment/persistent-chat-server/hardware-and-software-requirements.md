@@ -1,5 +1,5 @@
 ---
-title: 常設聊天室伺服器的硬體與軟體需求
+title: 商務用 Skype 2015 Server 中的 Persistent Chat Server 的硬體和軟體需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,74 +12,74 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-description: 摘要：請閱讀本主題，瞭解商務用 Skype Server 2015 中持續聊天伺服器的硬體和軟體需求。
-ms.openlocfilehash: cba3b340710e4c5ed041c085f39f1a4cc209a789
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器的硬體和軟體需求。
+ms.openlocfilehash: 39204b675feff78fef56ee02e1c7e381eb36f65f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815751"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213229"
 ---
-# <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>常設聊天室伺服器的硬體與軟體需求
+# <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>商務用 Skype 2015 Server 中的 Persistent Chat Server 的硬體和軟體需求
  
-**摘要：** 若要瞭解商務用 Skype Server 2015 中持續聊天伺服器的硬體和軟體需求，請閱讀本主題。
+**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2015 中持續性聊天伺服器的硬體和軟體需求。
   
-永久聊天伺服器可以與商務用 Skype Server 2015 （企業版或標準版）一起安裝。 需求取決於您所安裝的商務用 Skype Server 2015 版本，以及貴企業的效能需求。 企業版最多可支援80000個併發使用者;標準版版本最多可支援20000個併發使用者。 持續聊天是由前端元件以及後端 SQL 資料庫元件所組成。
+Persistent Chat Server 可以與商務用 Skype Server 2015 Enterprise Edition 或 Standard Edition 一起安裝。 需求取決於您已安裝的商務用 Skype Server 2015 版本，以及您的業務效能需求。 Enterprise Edition 最多可支援80000並行使用者。Standard Edition 最多可支援20000並行使用者。 Persistent Chat 是由前端元件及後端 SQL 資料庫元件所組成。
   
-在您部署持久聊天伺服器之前，您必須確保符合下列硬體和軟體需求：
+在您部署 Persistent Chat Server 之前，您必須確定符合下列硬體及軟體需求：
   
-- 符合最低需求以支援商務用 Skype Server 2015、持續聊天伺服器、資料庫伺服器和檔案伺服器的硬體。 如需詳細資訊，請參閱[商務用 Skype server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+- 符合支援商務用 Skype Server 2015、Persistent Chat Server、資料庫伺服器及檔案伺服器的最低需求的硬體。 如需詳細資訊，請參閱 [商務用 Skype server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
     
 - 支援的作業系統和資料庫軟體。
     
-    如需支援的作業系統和資料庫軟體以及 Windows 更新需求的詳細資訊，請參閱[商務用 Skype server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+    如需支援的作業系統和資料庫軟體以及 Windows 更新需求的詳細資訊，請參閱 [商務用 Skype server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
     
-- 商務用 Skype Server 2015 前端伺服器。 前端伺服器是會話初始通訊協定（SIP）路由的基礎，可讓執行持續聊天伺服器的電腦與持久的聊天功能都能正常運作。 
+- 商務用 Skype Server 2015 前端伺服器。 前端伺服器是會話初始通訊協定 (SIP) 路由的基礎，它使得執行持續聊天伺服器的電腦與可能的持久聊天功能之間進行通訊。 
     
-- 訊息佇列軟體。 持續聊天伺服器和持續聊天相容性服務（如果已部署）使用。
+- 訊息佇列軟體。 由 Persistent Chat Server 和 Persistent Chat 規章服務（若已部署）使用。
     
-下列各節說明持續性聊天伺服器和儲存持續聊天資料之資料庫的特定需求。
+下列各節說明 Persistent Chat Server 和儲存 Persistent Chat 資料之資料庫的特定需求。
 
 > [!NOTE] 
-> 商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊，請參閱[Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。 
+> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
   
 ## <a name="front-end-server-requirements"></a>前端伺服器需求
 
-前端伺服器需求取決於您是否要使用商務用 Skype Server 2015 （企業版或標準版）部署持久聊天伺服器。
+前端伺服器需求取決於您是否要使用商務用 Skype Server 2015 Enterprise Edition 或 Standard Edition 部署 Persistent Chat Server。
   
-- 如果您要使用商務用 Skype Server 2015 （企業版）部署持久聊天伺服器，您可以在企業版池中的一或多台獨立電腦上部署持久聊天伺服器前端伺服器。 您無法在商務用 Skype Server 2015 前端伺服器上 collocate 持續聊天前端伺服器。 
+- 若要使用商務用 Skype Server 2015 Enterprise Edition 部署 Persistent Chat Server，您可以在 Enterprise Edition 集區中的一或多台獨立電腦上部署 Persistent Chat Server 前端伺服器。 您無法在商務用 Skype Server 2015 前端伺服器上組合持久聊天前端伺服器。 
     
-    單一持續式聊天伺服器前端伺服器可以支援20000作用中的使用者。 您可以使用最多4個作用中端的持久聊天伺服器池，從而支援總共80000個併發使用者。 
+    單一 Persistent Chat Server 前端伺服器可支援20000作用中的使用者。 您可以有最多4個作用中前端的持久聊天伺服器集區，以支援所有80000並行使用者。 
     
-- 如果您要部署與商務用 Skype Server 2015 標準版的持久聊天伺服器，您可以 collocate 與前端伺服器的持續聊天。 這個單伺服器部署最多可支援20000個使用者。 
+- 若要使用商務用 Skype Server 2015 Standard Edition 部署 Persistent Chat Server，您可以組合與前端伺服器的持久聊天。 這種單一伺服器部署最多可支援20000使用者。 
     
-## <a name="persistent-chat-server-database-requirements"></a>持續聊天伺服器資料庫需求
+## <a name="persistent-chat-server-database-requirements"></a>Persistent Chat Server 資料庫需求
 
-持續聊天伺服器需要 SQL Server 資料庫軟體來儲存聊天室記錄及內容、設定資料、使用者預配資料，以及其他相關的中繼資料。 您也可以使用持續性聊天規範資料庫來儲存合規性資料。 持久聊天資料庫可以在相同的 SQL Server 上 collocated，或甚至與後端資料庫一樣是相同的 SQL 實例。 
+Persistent Chat Server 需要 SQL Server 資料庫軟體，以儲存聊天室記錄和內容、設定資料、使用者布建資料，以及其他相關的中繼資料。 另外，它會使用 Persistent 聊天室規範資料庫來儲存規範資料。 您可以在相同的 SQL Server 上組合持久的聊天室資料庫，也可以在相同的 SQL 實例上，與後端資料庫相同。 
   
-- 如果您要在商務用 Skype Server 2015 企業版中安裝持久聊天伺服器，以確保最佳效能，建議您安裝永久聊天檔案存放區。
+- 若要以商務用 Skype Server 2015 Enterprise Edition 安裝 Persistent Chat Server，以確保取得最佳效能，建議您安裝 Persistent Chat file store。
     
-- 如果您要在商務用 Skype Server 2015 標準版中安裝持久聊天伺服器，您可以在本機 SQL Server Express 實例上部署永久聊天存放後端伺服器。
+- 若要使用商務用 Skype Server 2015 Standard edition 安裝 Persistent Chat Server，您可以在本機 SQL Server Express 實例上部署 Persistent 後端伺服器。
     
-- 持久聊天資料庫（mgc）和規範資料庫（mgccomp）可位於相同的 SQL Server 實例或不同的 SQL 伺服器上。
+- Persistent Chat database (mgc) 與規範資料庫 (mgccomp) 可以位於相同的 SQL Server 實例或不同的 SQL Server 上。
     
-若要準備資料庫伺服器平臺，請確定每個電腦都符合硬體需求，然後再安裝必備軟體。 持續聊天資料庫伺服器的伺服器平臺需要與商務用 Skype Server 2015 後端資料庫伺服器相同的硬體。 如需詳細資訊，請參閱[商務用 Skype server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+若要準備資料庫伺服器平臺，請確定每一部電腦都符合硬體需求，然後安裝必要軟體。 Persistent Chat database servers 的伺服器平臺需要與商務用 Skype Server 2015 後端資料庫伺服器相同的硬體。 如需詳細資訊，請參閱 [商務用 Skype server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
   
-在資料庫伺服器上，請確定已安裝下列其中一個軟體應用程式：
+在資料庫伺服器上，確定已安裝下列其中一個軟體應用程式：
 
-- Microsoft SQL Server 2017 （含最新 service pack）。
+- Microsoft SQL Server 2017 搭配最新的 service pack。
 
-- Microsoft SQL Server 2016 Service Pack 1，而且您必須在商務用 Skype Server 累積更新7或更新版本上執行。 我們建議您使用最新的 service pack 執行 SQL Server 2016。 如需有關如何安裝 Microsoft SQL Server 2016 的詳細資訊，請參閱[安裝 SQL server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)。
+- Microsoft SQL Server 2016 Service Pack 1，您必須使用商務用 Skype Server 累計更新7或更新版本執行。 建議使用最新的 service pack 來執行 SQL Server 2016。 如需如何安裝 Microsoft SQL Server 2016 的詳細資訊，請參閱 [安裝 SQL server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)。
 
-- Microsoft SQL Server 2014，且您必須在商務用 Skype Server 累積更新6或更新版本上執行。 我們建議您使用最新的 service pack 執行 SQL Server 2014。 如需有關如何安裝 Microsoft SQL Server 2014 的詳細資訊，請參閱[安裝 SQL server 2014](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)。
+- Microsoft SQL Server 2014，必須使用商務用 Skype Server 累計更新6或更新版本執行。 建議使用最新的 service pack 來執行 SQL Server 2014。 如需如何安裝 Microsoft SQL Server 2014 的詳細資訊，請參閱 [安裝 SQL server 2014](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)。
 
-- Microsoft SQL Server 2012 （64位版本），我們建議使用最新的 service pack 執行。 如需有關如何安裝 Microsoft SQL Server 2012 的詳細資訊，請參閱[安裝 SQL server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559)。
+- Microsoft SQL Server 2012 (64-位版本) ，我們建議使用最新的 service pack 來執行。 如需如何安裝 Microsoft SQL Server 2012 的詳細資訊，請參閱 [安裝 SQL server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559)。
 
-## <a name="persistent-chat-server-certificate-requirements"></a>持續聊天伺服器憑證需求
+## <a name="persistent-chat-server-certificate-requirements"></a>Persistent Chat Server 憑證需求
 
-如需取得證書、建立 SQL Server 資料庫及建立檔案存放區的詳細資訊，請參閱[部署商務用 Skype Server 2015](../../deploy/deploy.md)。 
+如需取得憑證、建立 SQL Server 資料庫及建立檔案存放區的詳細資訊，請參閱 [部署商務用 Skype Server 2015](../../deploy/deploy.md)。 
   
-## <a name="for-more-information"></a>如需詳細資訊
+## <a name="for-more-information"></a>相關資訊
 
 如需硬體和軟體需求的詳細資訊，請參閱下列主題：
   

@@ -1,7 +1,7 @@
 ---
 title: 什麼是雲端自動語音應答？
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解雲端自動語音應答，以及如何使用它，讓來電者在功能表系統中移動，找出電話並將來電放入或轉接給使用者或部門。
-ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552569"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672834"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什麼是雲端自動語音應答？
 
@@ -37,7 +37,7 @@ ms.locfileid: "46552569"
   
 自動語音應答通常是系統中的節點，提供給呼叫者一系列的語音提示或音訊，而不是人工運算子。 當使用者撥打電話給自動語音應答時，他們的選擇可以將來電重新導向給使用者，或找出您組織中的某個人，然後連線至該使用者。 他們可以使用電話鍵台 (DTMF) 或語音辨識，來表達其選項，並與功能表系統互動。 他們所做的選擇也可以將來電重新導向至另一個自動語音應答或呼叫佇列。
   
-若要為電話系統設定自動語音應答，請移至[設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。
+若要為電話系統設定自動語音應答，請移至 [設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。
   
 雲端自動語音應答具有下列功能：
   
@@ -57,16 +57,16 @@ ms.locfileid: "46552569"
 
 若要開始使用自動語音應答，請務必記住下列事項：
 
-- 必須有一個自動語音應答，才能擁有相關聯的資源帳戶。 如需資源帳戶的詳細資訊，請參閱[管理團隊中的資源帳戶](manage-resource-accounts.md)。 <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
+- 必須有一個自動語音應答，才能擁有相關聯的資源帳戶。 如需資源帳戶的詳細資訊，請參閱 [管理團隊中的資源帳戶](manage-resource-accounts.md) 。 <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
 - 當您將電話號碼指派給自動語音應答時，嚴格來說，您會將它指派給與該自動語音助理相關聯的資源帳戶。 這可讓您有一個以上的電話號碼存取自動語音應答。 通常，資源帳戶將會使用 [免付費電話系統虛擬使用者] 授權。 此授權可在組織階層提供手機系統功能至電話號碼，並可讓您建立自動語音應答及呼叫佇列。
 
 > [!NOTE]
 > 僅限 Microsoft 團隊使用者和呼叫代理程式支援自動語音應答和通話佇列的直接路由服務號碼。
 
    > [!TIP]
-   > 若要將來電重新導向給以**電話系統**授權為線上使用者的操作員或功能表選項，您必須啟用其企業語音帳戶或指派通話方案給他們。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 您也可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > 若要將來電重新導向給以 **電話系統** 授權為線上使用者的操作員或功能表選項，您必須啟用其企業語音帳戶或指派通話方案給他們。 請參閱 [指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 您也可以使用 Windows PowerShell。 例如，執行：  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- 若要取得並使用自動語音應答的免費服務號碼，您必須設定通訊點數。 若要這樣做，請參閱[什麼是通訊信用？](what-are-communications-credits.md) ，並[為您的組織設定通訊點數](set-up-communications-credits-for-your-organization.md)。
+- 若要取得並使用自動語音應答的免費服務號碼，您必須設定通訊點數。 若要這樣做，請參閱 [什麼是通訊信用？](what-are-communications-credits.md) ，並 [為您的組織設定通訊點數](set-up-communications-credits-for-your-organization.md)。
 
     > [!IMPORTANT]
     > 使用者 (訂閱者) 無法將電話號碼指派給自動語音應答服務付費或免費電話號碼。
@@ -81,7 +81,7 @@ ms.locfileid: "46552569"
 
 [依名稱撥號] 是自動語音應答的功能，也稱為目錄搜尋。 它可讓呼叫您自動接聽的人員使用語音 (語音辨識) 或其電話鍵台 (DTMF) 回應，以輸入完整或部分名稱來搜尋公司的目錄、找出該人員，然後將來電轉接給對方。 您想要使用電話撥打電話及接通者的使用者 **，不需要有電話號碼或有指派通話方案，但他們必須具備電話系統授權（如果他們是線上使用者），或是已針對商務用 Skype Server 使用者啟用企業語音功能**。 透過名稱撥號，您甚至可以尋找並將來電轉接給在不同國家或地區的多國組織所託管的 Microsoft 團隊使用者。 考慮到所需的先決條件，您可以在自動語音應答中明確啟用 [透過名稱撥號]。
 
-[透過分機號碼撥號] 是自動語音應答的一項功能，也就是目錄搜尋的一部分。 它可讓呼叫您自動接聽的人員使用語音 (語音辨識) 或他們的電話鍵台 (DTMF) 回應，以輸入他們想要達到的使用者的電話副檔名，然後將來電轉接給對方。 您想要使用電話撥打電話並接通的使用者**不需要有電話號碼或有指派通話方案，但是他們必須有電話系統授權（如果他們是線上使用者），或是為商務用 Skype Server 使用者啟用企業語音功能**。 您也必須為使用者設定適當的撥號方案。 透過分機號碼撥號，您甚至可以尋找並將來電轉接給在不同國家或地區的多國組織所託管的 Microsoft 團隊使用者。 根據所涉及的先決條件，您可以明確啟用自動語音應答中的 [透過分機撥號]。
+[透過分機號碼撥號] 是自動語音應答的一項功能，也就是目錄搜尋的一部分。 它可讓呼叫您自動接聽的人員使用語音 (語音辨識) 或他們的電話鍵台 (DTMF) 回應，以輸入他們想要達到的使用者的電話副檔名，然後將來電轉接給對方。 您想要使用電話撥打電話並接通的使用者  **不需要有電話號碼或有指派通話方案，但是他們必須有電話系統授權（如果他們是線上使用者），或是為商務用 Skype Server 使用者啟用企業語音功能**。 您也必須為使用者設定適當的撥號方案。 透過分機號碼撥號，您甚至可以尋找並將來電轉接給在不同國家或地區的多國組織所託管的 Microsoft 團隊使用者。 根據所涉及的先決條件，您可以明確啟用自動語音應答中的 [透過分機撥號]。
 
 #### <a name="maximum-directory-size"></a>目錄大小上限
 
@@ -192,13 +192,13 @@ ms.locfileid: "46552569"
 
 您可以選擇性地設定自動語音應答，讓來電者選取要與人接線員說話。
   
-Key 0 和 voice 命令 "Operator" 預設會將呼叫指派給指定的操作員。 對於所有語音辨識支援的語言而言，都是這種情況。 您也可以使用 [**設定] 功能表選項**來設定運算子的自訂值。
+Key 0 和 voice 命令 "Operator" 預設會將呼叫指派給指定的操作員。 對於所有語音辨識支援的語言而言，都是這種情況。 您也可以使用 [ **設定] 功能表選項** 來設定運算子的自訂值。
   
 操作員可以設定為：
   
 - 已啟用企業語音功能的 Microsoft 團隊使用者或商務用 Skype Server 使用者。
 - 為您的組織設定的另一個自動語音應答。
-- 您組織中設定的任何現有通話佇列。 若要查看通話佇列的詳細資訊，請參閱[建立雲端通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+- 您組織中設定的任何現有通話佇列。 若要查看通話佇列的詳細資訊，請參閱 [建立雲端通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
 ### <a name="business-hours-and-call-handling"></a>商務時間與通話處理
 
@@ -208,9 +208,9 @@ Key 0 和 voice 命令 "Operator" 預設會將呼叫指派給指定的操作員�
   
 - 在播放問候語之後，通話可能會中斷連線。
 - 您也可以：
-  - 將呼叫重新導向至擁有企業語音功能或已指派通話方案之**電話系統**授權的 Microsoft 團隊使用者。 您可以將它設定為可將呼叫的人傳送給語音信箱。 若要這樣做，請選取**貴公司中的人員**，並將此人的來電設定為自動轉寄到語音信箱。
+  - 將呼叫重新導向至擁有企業語音功能或已指派通話方案之 **電話系統** 授權的 Microsoft 團隊使用者。 您可以將它設定為可將呼叫的人傳送給語音信箱。 若要這樣做，請選取 **貴公司中的人員** ，並將此人的來電設定為自動轉寄到語音信箱。
 
-  - 將來電重新導向至通話佇列。 若要查看通話佇列的詳細資訊，請參閱[建立雲端通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+  - 將來電重新導向至通話佇列。 若要查看通話佇列的詳細資訊，請參閱 [建立雲端通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
   - 將來電重新導向至另一個自動語音應答。
 
@@ -220,25 +220,25 @@ Key 0 和 voice 命令 "Operator" 預設會將呼叫指派給指定的操作員�
 
 雲端自動語音應答可讓您建立功能表提示， ( 「按1進行銷售，按2項服務」 ) ，然後根據使用者的選取設定功能表選項來傳送通話。 自動語音應答的功能表選項可讓組織提供一系列選項，讓呼叫者更快速地引導來電者，而不需依靠人工接線員來處理來電。 功能表提示可以使用文字轉換語音 (系統產生的提示) 或上傳錄製的音訊檔案來建立。 語音辨識接受語音命令以進行無人流覽，但通話中的人員也可以使用電話鍵流覽功能表。
   
-您可以使用商務用 Skype 系統管理中心，在自動語音應答中，將鍵0到9指派給撥號鍵。 您可以在 [工作時間] 和 [時間] 後建立不同的功能表選項組，您可以在**功能表選項**中啟用或停用 [依名稱撥號]。 可將金鑰組應至將來電轉接至：
+您可以使用商務用 Skype 系統管理中心，在自動語音應答中，將鍵0到9指派給撥號鍵。 您可以在 [工作時間] 和 [時間] 後建立不同的功能表選項組，您可以在 **功能表選項**中啟用或停用 [依名稱撥號]。 可將金鑰組應至將來電轉接至：
   
 - 運算子，預設會對應到 key 0。 不過，您可以將它重新指派給任何其他的索引鍵，或從功能表中移除。
 - 通話佇列。
-- 另一個自動語音應答。 您可以透過在單一自動語音應答中將**功能表選項**指向另一個自動語音應答（稱為「嵌套」自動語音應答），來設定多層功能表。
-- 擁有企業語音功能或已指派通話方案之**電話系統**授權的 Microsoft 團隊使用者。 您可以將它設定為可將呼叫的人傳送給語音信箱。 若要這樣做，請選取**貴公司中的人員**，並將此人的來電設定為自動轉寄到語音信箱。
+- 另一個自動語音應答。 您可以透過在單一自動語音應答中將 **功能表選項** 指向另一個自動語音應答（稱為「嵌套」自動語音應答），來設定多層功能表。
+- 擁有企業語音功能或已指派通話方案之 **電話系統** 授權的 Microsoft 團隊使用者。 您可以將它設定為可將呼叫的人傳送給語音信箱。 若要這樣做，請選取 **貴公司中的人員** ，並將此人的來電設定為自動轉寄到語音信箱。
   
 如果已啟用語音辨識功能，則每個功能表選項的名稱就會變成語音辨識關鍵字。 例如，來電者可以說「一」，選取對應至鍵1的功能表選項，或者說「銷售」來選取名為「銷售」的相同功能表選項。
   
-若要設定自動語音應答及功能表選項，請移至[設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。
+若要設定自動語音應答及功能表選項，請移至 [設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>指派自動語音應答的電話號碼
 
-您可以將 Microsoft 服務號碼、直接銀行代號或混合式數位指派給您的自動語音應答連結的資源帳戶 (或幾個資源帳戶（如果有多個需要的電話號碼的話）) 。 如需其他詳細資料，請參閱[規劃直接路由](direct-routing-plan.md)。
+您可以將 Microsoft 服務號碼、直接銀行代號或混合式數位指派給您的自動語音應答連結的資源帳戶 (或幾個資源帳戶（如果有多個需要的電話號碼的話）) 。 如需其他詳細資料，請參閱 [規劃直接路由](direct-routing-plan.md) 。
 
-若要指派服務號碼，您將需要取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後，就會顯示在**商務用 Skype 系統管理中心的**  >  **語音**  >  **電話號碼**。 [**號碼類型**] 是 [**服務-免付費電話**]。 若要取得您的服務號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)，或者，如果您想要轉移與現有的服務號碼，請參閱[將電話號碼轉接至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+若要指派服務號碼，您將需要取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後，就會顯示在**商務用 Skype 系統管理中心的**  >  **語音**  >  **電話號碼**。 [**號碼類型**] 是 [**服務-免付費電話**]。 若要取得您的服務號碼，請參閱 [取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers) ，或者，如果您想要轉移與現有的服務號碼，請參閱 [將電話號碼轉接至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
   
 > [!NOTE]
-> 如果您在美國以外，您就無法使用 Microsoft 團隊系統管理中心來取得服務號碼。 若要瞭解如何操作，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+> 如果您在美國以外，您就無法使用 Microsoft 團隊系統管理中心來取得服務號碼。 若要瞭解如何操作，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 。
   
 ## <a name="related-topics"></a>相關主題
 

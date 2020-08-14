@@ -1,8 +1,8 @@
 ---
 title: 應答自動回應及呼叫佇列通話
 ms.reviewer: waseemh
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582820"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672874"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 ===========================================================
@@ -61,7 +61,7 @@ ms.locfileid: "46582820"
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>針對 Microsoft 團隊設定自動語音應答及呼叫佇列支援
 
-若要在 Microsoft 團隊中接收自動語音應答及呼叫佇列通話，您必須設定您的互通性原則和升級原則。 請參閱[與商務用 Skype 搭配使用團隊之組織的遷移與互通性](migration-interop-guidance-for-teams-with-skype.md)。 如果您沒有設定自動語音應答及/或通話佇列，請參閱[設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答及[建立雲端通話佇列](create-a-phone-system-call-queue.md)。
+若要在 Microsoft 團隊中接收自動語音應答及呼叫佇列通話，您必須設定您的互通性原則和升級原則。 請參閱 [與商務用 Skype 搭配使用團隊之組織的遷移與互通性](migration-interop-guidance-for-teams-with-skype.md)。 如果您沒有設定自動語音應答及/或通話佇列，請參閱 [設定雲端自動](create-a-phone-system-auto-attendant.md) 語音應答及 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
 
 ## <a name="related-topics"></a>相關主題
 

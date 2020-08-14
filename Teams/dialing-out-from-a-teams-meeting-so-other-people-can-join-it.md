@@ -22,41 +22,42 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 會議召集人可以瞭解如何使用 [團隊] 應用程式撥出，讓其他人使用自己的手機加入相同的會議。
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691289"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662103"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft 團隊會議撥出，讓其他人可以加入
 
 就像會議召集人一樣，您可以使用 [小組] 應用程式撥出，讓其他人使用自己的手機加入相同的會議。
 
-當您向某人撥出時，建議您使用完整的電話號碼（包括國家/地區碼-164 格式）來執行此動作。
+當您向某人撥出時，建議您使用完整的電話號碼來執行， (包括國家/地區碼-E. 164 格式) 。
   
   請注意：
 
 - 您只能在使用小組加入會議時撥出。
-- 您（例如會議召集人）已啟用音訊會議。
+- 會議召集人已啟用音訊會議，或者在未指派音訊會議授權的情況下，您可以透過線上通話方案或直接路由撥打電話給公用交換電話網絡。
+- 已授與會議召集人的 [線上撥出原則，允許從會議撥出](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 以下說明如何開始撥出作業：
 
- **步驟1：** 在會議中，使用 [新增人員] 按鈕選項的 [**新增人員**] ![ 螢幕擷取畫面 ](media/add-people-button.png) 撥出電話號碼。
- **步驟2：** 輸入完整的電話號碼，包括 [**邀請某人或撥打電話號碼**] 方塊中的國家/地區碼。
+ **步驟1：** 在會議中，使用 [新增人員] 按鈕選項的 [ **新增人員**] ![ 螢幕擷取畫面 ](media/add-people-button.png) 撥出電話號碼。
+ **步驟2：** 輸入完整的電話號碼，包括 [ **邀請某人或撥打電話號碼** ] 方塊中的國家/地區碼。
   
 ![[邀請某人或撥打電話號碼] 方塊的螢幕擷取畫面](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>支援的國家和地區
 
-撥出功能只適用于部分國家/地區。 如需完整清單，請參閱[音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+撥出功能只適用于部分國家/地區。 如需完整清單，請參閱 [音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 ## <a name="allow-users-to-dial-in"></a>允許使用者撥入
 
-如果您正在尋找如何讓您的使用者撥入團隊會議的指示，請參閱[Microsoft 團隊中的音訊會議電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
+如果您正在尋找如何讓您的使用者撥入團隊會議的指示，請參閱 [Microsoft 團隊中的音訊會議電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要深入瞭解音訊會議嗎？
 
