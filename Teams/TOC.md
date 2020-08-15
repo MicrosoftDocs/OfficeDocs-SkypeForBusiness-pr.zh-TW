@@ -63,8 +63,7 @@
 
 ### 來賓存取
 #### [關於來賓存取](guest-access.md)
-#### [來賓存取檢查清單](guest-access-checklist.md)
-#### [來賓如何加入團隊](guest-joins.md)
+#### [來賓如何加入小組](guest-joins.md)
 #### [來賓體驗像什麼](guest-experience.md)
 #### [在 Teams 中授權來賓存取](teams-dependencies.md)
 #### [在 Teams 中開啟或關閉來賓存取](set-up-guests.md)
@@ -148,6 +147,9 @@
 ### 部署
 #### [部署概觀](rooms/rooms-deploy.md)
 #### [設定帳戶](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [設定協調會議](rooms/coordinated-meetings.md)
+##### [管理 Microsoft Teams 設定](rooms/surface-hub-manage-config.md)
 #### [使用 Office 365](rooms/with-office-365.md)
 #### [使用商務用 Skype Server](rooms/with-skype-for-business-server-2015.md)
 #### [使用 Exchange Online (混合式)](rooms/with-exchange-online.md)
