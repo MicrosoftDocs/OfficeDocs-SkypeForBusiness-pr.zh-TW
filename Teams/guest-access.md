@@ -8,8 +8,7 @@ ms.service: msteams
 ms.reviewer: sbhatta
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-localization_priority: Priority
+localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -18,28 +17,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67ddc045c04c1c3d8cb9bffa0ee15ebf71c70c2f
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
-ms.translationtype: HT
+description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
+ms.openlocfilehash: f04fce7f75df32111b2577119c12b14eadf963b9
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656104"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761239"
 ---
-<a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
-======================================
+# <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
-來賓存取可讓您將組織外部的個別使用者新增至 Microsoft Teams 中的團隊和頻道。 
+來賓存取可將 Teams 中現有團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。 任何擁有商務或消費者電子郵件帳戶的人（例如 Microsoft 365、Outlook、Gmail 或其他人），都可以在擁有小組聊天、會議和檔案的完整存取權的小組中，以來賓的身分參與。 身為 Teams 系統管理員的您可以控制來賓在 Teams 中可以 (和不可以) 使用的功能，請參閱[管理來賓存取](manage-guests.md)。
 
 若要比較外部存取 (同盟) 和來賓存取 (並決定您應使用的方式)，請閱讀[在 Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
 
-如果您已在組織中開啟來賓存取，請從[來賓存取檢查清單](guest-access-checklist.md)開始。
+來賓存取在 Teams 中是全組織設定，依預設為關閉。  (您可以使用 [敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制對個別團隊的來賓存取權。 ) 
 
-## <a name="guest-access-overview"></a>來賓存取概觀
+如果您準備好要開始邀請客人給小組，請閱讀下列其中一項：
 
-來賓存取可將 Teams 中現有團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。 任何擁有商務或消費者電子郵件帳戶的人員 (例如 Outlook、Gmail 或其他)，都能以來賓身分參與 Teams，擁有小組聊天、會議及檔案的完整存取權。 身為 Teams 系統管理員的您可以控制來賓在 Teams 中可以 (和不可以) 使用的功能，請參閱[管理來賓存取](manage-guests.md)。
+- 若要設定供團隊使用的來賓存取權，請參閱 [與團隊中的來賓共同](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)作業。
+- 若要與使用 Azure Active Directory 的合作夥伴組織共同作業，並允許來賓自行註冊小組存取，請參閱 [使用受管理的來賓建立 B2B extranet](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet)。
 
-來賓存取在 Teams 中是全組織設定，依預設為關閉。 來賓存取受到 Azure AD 和 Microsoft 365 或 Office 365 服務的限制。
-
+來賓存取受到 Azure AD 和 Microsoft 365 或 Office 365 服務的限制。
 
 > [!IMPORTANT]
 > 對於共存的升級模式，來賓存取遵循 Teams 的全組織設定。 這項設定無法變更。
@@ -58,17 +57,17 @@ ms.locfileid: "46656104"
 
 若要深入了解來賓可以和不可以使用的功能，請參閱[在 Microsoft Teams 中授權來賓存取](teams-dependencies.md)。 或請查看[比較團隊成員和來賓功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表格。 
 
-最後，Teams 中的所有來賓與其他部分的 Microsoft 365 和 Office 365 一樣，都受到相同的合規性和稽核保護，可在 Azure AD 中安全地管理。
+最後，小組中的所有來賓都涵蓋與 Microsoft 365 其餘的相容性和審核保護，而且可以在 Azure AD 中進行管理。
 
 ## <a name="why-use-guest-access"></a>為什麼要使用來賓存取？
 
-透過來賓存取，使用 Teams 的組織可以向合作夥伴提供團隊、頻道中的文件、資源、聊天和應用程式的存取權，同時又能保有自身公司資料的完整控制權。 Teams 中的所有來賓與其他部分的 Microsoft 365 和 Office 365 一樣，都受到相同的合規性和稽核保護，可在 Azure AD 中安全地管理這些來賓。  
+透過來賓存取，使用 Teams 的組織可以向合作夥伴提供團隊、頻道中的文件、資源、聊天和應用程式的存取權，同時又能保有自身公司資料的完整控制權。 
 
 ## <a name="understand-the-limitations-for-guests"></a>了解來賓的限制
 
-來賓體驗有刻意設計的限制。 請確定您了解來賓體驗，這樣您才不會嘗試修正不是問題的項目。 例如，以下是 Microsoft Teams 來賓無法使用的部分功能清單：
+來賓體驗有刻意設計的限制。 請確定您了解來賓體驗，這樣您才不會嘗試修正不是問題的項目。 以下是 Microsoft 團隊中的來賓無法使用的一些功能清單：
 
-- 商務用 OneDrive
+- OneDrive
 - 在 Teams 外部執行人員搜尋
 - 行事曆、排程會議或會議詳細資料
 - PSTN
@@ -76,13 +75,13 @@ ms.locfileid: "46656104"
 - 建立或修改團隊
 - 瀏覽團隊
 - 將檔案上傳至個人對個人的聊天
-- 目前，Teams 僅支援由 [Azure B2B 所定義](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)來賓使用者的狀態 1 和狀態 2
+- 目前，團隊只支援 [狀態1和省2類型的來賓使用者](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
-如需來賓在 Teams 中可以和不可以使用的功能完整清單，請參閱[比較團隊成員和來賓功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表格。 若要深入了解 Microsoft 365 和 Office 365 層級的來賓存取，請參閱[將來賓新增至 Microsoft 365 群組](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+如需來賓在 Teams 中可以和不可以使用的功能完整清單，請參閱[比較團隊成員和來賓功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表格。 若要深入瞭解 Microsoft 365 層級的來賓存取權，請閱讀 [與組織外部人員](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)共同作業。
 
 
-## <a name="more-information"></a>詳細資訊
+## <a name="related-topics"></a>相關主題
 
-[連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)  
-[Microsoft 365 群組中的來賓存取](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
-  
+[連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
+[使用三層保護層級來設定團隊](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)

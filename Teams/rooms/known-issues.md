@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解 Microsoft 團隊聊天室的已知問題清單，包括更新、使用者介面、硬體、限制及預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1083ceb040f173aeef0a8a60d56a888a6b8fdb17
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: 584b71d39552990b3e4009efb177ef4fee61f1a4
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874450"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761339"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -31,10 +31,10 @@ ms.locfileid: "44874450"
 
 | 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | 知識庫文章 |
 |  ---        |      ---             |   ---            | --- |
-| 應用程式無法啟動 |  更新至應用程式版本4.4.41.0 之後，系統會引導至黑色畫面，或在幾分鐘後移至登入畫面。 | 請遵循 Microsoft 團隊聊天室中的步驟，在[更新至版本4.4.41.0 之後](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)，才能修正這個問題。  | 無 |
+| 應用程式無法啟動 |  更新至應用程式版本4.4.41.0 之後，系統會引導至黑色畫面，或在幾分鐘後移至登入畫面。 | 請遵循 Microsoft 團隊聊天室中的步驟，在 [更新至版本4.4.41.0 之後](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) ，才能修正這個問題。  | 無 |
+|  [SfB 會議內容共用] 不會顯示全螢幕         |    在商務用 Skype 會議中，使用高 DPI 設定顯示房間中的會議室會出現問題，即在會議中共用的內容不會顯示會議室顯示的全螢幕。 這是由於 Windows 10 遠端桌面通訊協定 (RDP) API 中的基礎問題所造成。 | 使用 `<WinRTRdpEnabled>` XML 設定來停用 Windows 10 RDP API 來解決此問題。 若要停用，您必須將值指定為 `false` 。 如需詳細資訊，請參閱 [使用 XML 設定檔管理主控台設定](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)。 | 無 |
 |  App 已過期         |    Microsoft [團隊聊天室] 主控台顯示「系統組態已過期」錯誤。                |   [使用 Microsoft 團隊會議室恢復工具](recovery-tool.md)             |  無 |
-|  裝置更新為不受支援的 Windows 10 版本   |    Windows 10 裝置從版本1803更新至不受支援的版本1809。 支援的版本為1903。 |   如果 DeferFeatureUpdatesPeriodinDays 設定的[群組原則或 MDM](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)設定（可讓您將功能更新推遲至指定的天數），則會發生這種情況，將其設定為最大值365天。 <br><br> Microsoft 團隊聊天室不支援 Windows 10 版本1809，而版本1903則受支援。 不過，從2020年3月27日起，版本1809超過365天。 如果此設定未變更，Windows 會嘗試安裝版本1809，這可能會導致 Microsoft 團隊聊天室發生問題。<br><br>若要避免這種情況，請**移除**任何群組原則或任何推遲更新的 MDM 設定。 這可讓 Windows 更新到最新支援的 OS 版本。 <br><br>**重要**必須**移除**[群組原則] 或 [MDM] 設定（[保留未設定]），且**未設定為 0**。 如果原則設定為0，Windows 會採用可能不受支援的最新可用版本。 |  無 |
-
+|  裝置更新為不受支援的 Windows 10 版本   |    Windows 10 裝置從版本1803更新至不受支援的版本1809。 支援的版本為1903。 |   如果 DeferFeatureUpdatesPeriodinDays 設定的 [群組原則或 MDM](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 設定（可讓您將功能更新推遲至指定的天數），則會發生這種情況，將其設定為最大值365天。 <br><br> Microsoft 團隊聊天室不支援 Windows 10 版本1809，而版本1903則受支援。 不過，從2020年3月27日起，版本1809超過365天。 如果此設定未變更，Windows 會嘗試安裝版本1809，這可能會導致 Microsoft 團隊聊天室發生問題。<br><br>若要避免這種情況，請 **移除** 任何群組原則或任何推遲更新的 MDM 設定。 這可讓 Windows 更新到最新支援的 OS 版本。 <br><br>**重要** 必須 **移除** [群組原則] 或 [MDM] 設定， (保留 **未設定) 且未設定為 0**。 如果原則設定為0，Windows 會採用可能不受支援的最新可用版本。 |  無 |
 
 
 <a name="OS-conflicts"> </a>  
@@ -49,18 +49,18 @@ ms.locfileid: "44874450"
 
 | 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | 知識庫文章 |
 |  ---        |      ---             |   ---            |   --- |
-| 未偵測到監視器 | 當您在 Surface Pro （模型2017）裝置上執行 Microsoft 團隊聊天室時，系統不會偵測到監視器。 |  按住 Surface Pro 電源按鈕20秒以上的時間。 當您這麼做時，裝置會重新開機並清除圖形快取。 |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| 未偵測到監視器 | 當您在 Surface Pro 上執行 Microsoft 團隊聊天室時 (模型 2017) 裝置上，系統不會偵測到監視器。 |  按住 Surface Pro 電源按鈕20秒以上的時間。 當您這麼做時，裝置會重新開機並清除圖形快取。 |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>限制與預期行為
 
 ***
 
-Microsoft 團隊會議室不支援 HDCP 輸入，但已觀察到可導致 HDMI 攝取功能（影片、音訊）的問題。 請務必小心，確定連線至 Microsoft 團隊聊天室的交換器已關閉 HDCP 選項。 
+Microsoft 球隊會議室不支援 HDCP 輸入，但已觀察到的是使用 HDMI 攝取功能 (影片、音訊) 的問題。 請務必小心，確定連線至 Microsoft 團隊聊天室的交換器已關閉 HDCP 選項。 
 
 ***
 
-如果您希望在來源從待機模式喚醒時自動切換到活動影片來源（例如 MTR 主控台），必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 在房間顯示中使用的消費者電視需要支援 HDMI 的消費電子產品控制（CEC）功能。  根據所選的 dock 或 console （可能不支援 CEC，請參閱製造商支援檔），您可能需要使用工作區控制器（例如[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) ）來啟用所需的行為。 
+如果您想要將房間顯示幕正面自動切換到使用中的影片來源 () 例如，當來源從待機模式喚醒時，必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 用來做為會議室顯示的消費者電視需求支援使用消費電子 (CEC) 功能。  根據所選的塢站或主機 (可能不支援 CEC，請參閱製造商支援檔) ，可能需要使用工作區控制器（例如 [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) ）來啟用所需的行為。 
 
 ***
 

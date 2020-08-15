@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 由 Microsoft 團隊聊天室裝置使用的預設設定的遠端系統管理，包括套用自訂主題及建立主設定檔案。
-ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: abf6d93dea4f856f372305fd30b474f72ce47989
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201247"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761329"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -30,7 +30,7 @@ ms.locfileid: "45201247"
   
 ## <a name="create-an-xml-configuration-file"></a>建立 XML 設定檔
 
-任何文字編輯器都可以用來建立設定檔。 **XML 元素**表格說明此範例中顯示的元素 SkypeSettings.xml （所需的檔案名）設定檔。
+任何文字編輯器都可以用來建立設定檔。 **XML 元素**表格說明此範例中顯示的元素 SkypeSettings.xml (需的檔案名) 設定檔。
   
 ```XML
 <SkypeSettings>
@@ -76,10 +76,17 @@ ms.locfileid: "45201247"
             <BlueComponent>100</BlueComponent>
         </CustomThemeColor>
     </Theming>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SkypeSettings>
 ```
 
-如果變數值的類型錯誤，元素沒有順序、元素未閉合，或是發現其他錯誤，則 XML 檔案的*格式*不正確。 在處理格式不正確的 XML 檔案時，會套用到錯誤發生位置的設定，然後略過檔案的其餘部分。 XML 中的任何未知元素都會被忽略。 如果省略某個參數，則會在裝置上保持不變。 如果參數值無效，則其前一個值會保持不變。
+如果變數值的類型錯誤，元素沒有順序、元素未閉合，或是發現其他錯誤，則 XML 檔案的 *格式*不正確。 在處理格式不正確的 XML 檔案時，會套用到錯誤發生位置的設定，然後略過檔案的其餘部分。 XML 中的任何未知元素都會被忽略。 如果省略某個參數，則會在裝置上保持不變。 如果參數值無效，則其前一個值會保持不變。
   
 **XML 元素**
 
@@ -109,22 +116,26 @@ ms.locfileid: "45201247"
 |\<DisableTacCommunication\> |布林值 &#x2777;  |第一 &#x2776; |如果為 true，則所有與團隊系統管理中心裝置管理的通訊都會停用。 |
 |\<SendLogs\> |包裝箱 |第一 &#x2776;  |  |
 |\<EmailAddressForLogsAndFeedback\> |字串 &#x2778;  | | 設定當 [提供意見反應] 視窗出現時，可以傳送記錄的選擇性電子郵件地址。 |
-|\<SendLogsAndFeedback\> |布林值 &#x2777;  | | 如果為 true，則會將記錄傳送給系統管理員。如果是 false，則只會傳送意見反應給系統管理員（而非記錄）。  |
+|\<SendLogsAndFeedback\> |布林值 &#x2777;  | | 如果為 true，則會將記錄傳送給系統管理員。如果是 false，只會傳送意見反應給系統管理員 (而不是記錄) 。  |
 | \<Devices\>  |包裝箱 |第一 &#x2776;  | 子項目中連接的音訊裝置名稱與 [裝置管理器] 應用程式中所列的值相同。 此設定可以包含目前不存在於系統中的裝置，例如目前未連線到主機的 A/V 裝置。 該設定將會保留給個別裝置使用。  |
 |\<MicrophoneForCommunication\> |字串 &#x2778;  ||設定在會議中用來做為錄製裝置的麥克風。 |
 |\<SpeakerForCommunication\> |字串 &#x2778;  ||要作為會議演講者使用的裝置。 這個設定是用來設定通話中使用的喇叭裝置。 |
 |\<DefaultSpeaker\> |字串 &#x2778;  ||要用來從 HDMI 攝取來源播放音訊的裝置。 |
-|\<ContentCameraId>  | 字串 &#x2778;  | | 定義會議室中設定的相機實例路徑，在會議中共用模擬白板內容。 請參閱[找出內容相機 USB 實例路徑](#locate-the-content-camera-usb-instance-path)。|
+|\<ContentCameraId>  | 字串 &#x2778;  | | 定義會議室中設定的相機實例路徑，在會議中共用模擬白板內容。 請參閱 [找出內容相機 USB 實例路徑](#locate-the-content-camera-usb-instance-path)。|
 |\<ContentCameraInverted>  | 布林值 &#x2777; | | 指定是否將 [內容相機] 實際安裝為倒置。 針對支援自動旋轉的內容攝影機，請指定 false。 |
-|\<ContentCameraEnhancement>  | 布林值 &#x2777; | |當設定為 true （預設值）時，會以數位加強內容相機影像：已偵測到白板邊緣，且已選取適當的縮放比例，手寫線已增強，且在白板上撰寫的人員則變成透明。  <br><br> 如果您想要將原始影片摘要傳送給會議參與者，以取得不使用手寫筆繪製白板的空間，而是使用相機來顯示粘滯筆記、海報或其他媒體，請將它設為 false。  |
+|\<ContentCameraEnhancement>  | 布林值 &#x2777; | |當設定為 true (預設) 時，內容相機影像會進行數位增強：已偵測到白板邊緣，且已選取適當的縮放比例，手寫線會得到增強，且在白板上撰寫的人員則變成透明。  <br><br> 如果您想要將原始影片摘要傳送給會議參與者，以取得不使用手寫筆繪製白板的空間，而是使用相機來顯示粘滯筆記、海報或其他媒體，請將它設為 false。  |
 | \<Theming\>  |包裝箱 |第一 &#x2776;  |可以在 XML 檔案中套用的其中一個功能，就是貴組織的自訂主題。 您可以指定 [主題名稱]、[背景圖像] 和 [色彩]。 |
-|\<ThemeName\> |字串 &#x2778;  || 用來識別用戶端上的主題。 [主題名稱] 選項為 [預設值]、[提供的其中一個預設主題] 或 [自訂]。 <br/>  自訂主題名稱總是使用 [*自訂*]。 用戶端 UI 可以在主控台上設定為預設或其中一個預設，但使用自訂主題必須由系統管理員進行遠端設定。 <br/>  預設主題包括： <br/>  設置 <br/>  藍波 <br/>  數位目錄林 <br/>  Dreamcatcher <br/>  Limeade <br/>  圖元完美 <br/>  之中 <br/>  斜 <br/>  若要停用目前的主題，請使用「無主題」進行 ThemeName。  |
-|\<CustomThemeImageUrl\> |字串 &#x2778;  ||對於自訂主題是必要的，請選用其他選項。 只輸入檔案名。   |如需自訂主題圖像的詳細資訊，請參閱[自訂主題影像](xml-config-file.md#Themes)區段。
+|\<ThemeName\> |字串 &#x2778;  || 用來識別用戶端上的主題。 [主題名稱] 選項為 [預設值]、[提供的其中一個預設主題] 或 [自訂]。 <br/>  自訂主題名稱總是使用 [ *自訂*]。 用戶端 UI 可以在主控台上設定為預設或其中一個預設，但使用自訂主題必須由系統管理員進行遠端設定。 <br/>  預設主題包括： <br/>  設置 <br/>  藍波 <br/>  數位目錄林 <br/>  Dreamcatcher <br/>  Limeade <br/>  圖元完美 <br/>  之中 <br/>  斜 <br/>  若要停用目前的主題，請使用「無主題」進行 ThemeName。  |
+|\<CustomThemeImageUrl\> |字串 &#x2778;  ||對於自訂主題是必要的，請選用其他選項。 只輸入檔案名。   |如需自訂主題圖像的詳細資訊，請參閱 [自訂主題影像](xml-config-file.md#Themes) 區段。
 |\<CustomThemeColor\> |包裝箱 ||[] 和 [值] 的容器 \<RedComponent\> \<GreenComponent\> \<BlueComponent\> 。 這些值是自訂主題所必需的。 |
-|\<RedComponent\> |Byte （0-255） ||代表紅色色彩分量。 |
-|\<GreenComponent\> |Byte （0-255） ||代表綠色色彩分量。 |
-|\<BlueComponent\> |Byte （0-255） ||代表藍色色彩分量。 | 
-| | | |
+|\<RedComponent\> |Byte (0-255)  ||代表紅色色彩分量。 |
+|\<GreenComponent\> |Byte (0-255)  ||代表綠色色彩分量。 |
+|\<BlueComponent\> |Byte (0-255)  ||代表藍色色彩分量。 |
+|\<CoordinatedMeetings\>|布林值 &#x2777;|第一 &#x2776; |[協調會議] 配置元素的容器。 這個元素有一個屬性：<ul><li><b>已啟用</b> 決定團隊是否已設定為參與與其他裝置的協同會議。</li></ul>|
+|\<TrustedAccounts\>| String | |這是一個以逗號分隔的 Upn 清單，其中包含裝置應接受會議加入要求的每個小組房間裝置或 Surface Hub，或應傳送給哪個會議連接要求。|
+|\<Settings\>|包裝箱 | |用於協同會議的設定音訊及視頻配置元素的容器。|
+|\<Audio\>| 布林值 &#x2777;| |控制 Surface Hub 上的團隊音訊設定。 這個元素有兩個屬性：<br><ul><li><b>預設值</b> 決定會議開始時麥克風起作用的裝置。 只有一個裝置 (通常是團隊會議室裝置) 可以將此欄位設定為， `true` 而其他裝置必須將此欄位設定為， `false` 以避免音訊回顯和意見反應。</li><li><b>已啟用</b> 決定會議中的參與者是否可以開啟或關閉麥克風。 在其上設定 **音訊預設值** 的裝置， `false` 應該將此設定設定為， `false` 讓參與者不會不小心開啟麥克風並導致音訊回音或意見反應。<p>如果 [ **音訊預設值** ] 設定為 `true` ，則會忽略 [ **啟用音訊** ] 設定，且參與者可以將麥克風設為靜音或取消靜音。</li></ul>|
+|\<Video\>| 布林值 &#x2777;| |控制 Surface Hub 上團隊的影片設定。 這個元素有兩個屬性：<br><ul><li><b>預設值</b> 決定會議開始時，相機在哪一個裝置上起作用。 為了獲得最佳體驗，我們建議您只有在 `true` 所有其他裝置都設定為時，才會將小組聊天室裝置設定為 `false` 。</li><li><b>已啟用</b> 決定會議中的參與者是否可以開啟或關閉相機。 您可以 `true` 在活動參與者中的任何其他裝置上將此設定為 [共用]， (例如參與者使用 Surface Hub 白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將此選項設定為 `false` 。<p> 如果 [ **影片預設值** ] 設定為 `true` ，就會忽略 [ **啟用影片** ] 設定，且參與者可以開啟或關閉相機。</li></ul>|
 
 &#x2776; 所有的第一層元素都是選用的。 如果省略第一層元素，則其所有子參數在裝置上保持不變。
   
@@ -139,7 +150,7 @@ ms.locfileid: "45201247"
 根據您的企業有多少 Microsoft 團隊房間裝置以及您選擇的管理方式來進行設定，有幾種方式可以放置 XML 設定檔。 將檔案推送到主控台之後，請重新開機該檔案以處理設定變更。 在成功處理 XML 設定檔之後，就會刪除該檔案。 Microsoft 團隊會議室裝置建議的管理方法將在下列專案中討論：
   
 - [為 Microsoft 團隊聊天室設定群組原則](rooms-operations.md#GroupPolicy)
-- [使用 PowerShell 進行遠端系統管理](rooms-operations.md#RemotePS)並[設定檔案專案](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [使用 PowerShell 進行遠端系統管理](rooms-operations.md#RemotePS) 並 [設定檔案專案](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
 您可以隨意使用任何您喜歡的方法，只要您使用它來傳輸檔案，然後在主控台裝置上觸發重新開機。 該檔案必須是裝置的本機使用者帳戶可供閱讀、可寫入且可刪除的檔案。 最好是由該使用者所擁有且擁有完整許可權。 如果檔案許可權設定不正確，軟體可能無法套用這些設定、無法在成功處理後刪除檔案，甚至可能會造成損毀。
   
@@ -149,7 +160,7 @@ ms.locfileid: "45201247"
 
 自訂主題圖像檔案必須放在資料夾中 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 。 在變數中輸入檔案名和副檔名 \<CustomThemeImageUrl\> 。
   
-Image 檔案應該是完全3840X1080 的圖元，且必須是下列其中一種檔案格式： jpg、jpeg、png 和 bmp。 如果您的組織想要自訂影像，圖形設計工具可以使用 [[自訂主題 Photoshop] 範本](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)。 它包含有關不同的使用者介面元素相對於其他主題圖像的位置，以及哪些區域出現在主控台和顯示器上的詳細資訊。
+Image 檔案應該是完全3840X1080 的圖元，且必須是下列其中一種檔案格式： jpg、jpeg、png 和 bmp。 如果您的組織想要自訂影像，圖形設計工具可以使用 [ [自訂主題 Photoshop] 範本](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)。 它包含有關不同的使用者介面元素相對於其他主題圖像的位置，以及哪些區域出現在主控台和顯示器上的詳細資訊。
   
 XML 設定檔必須在裝置啟動時更新，才能辨識主題影像。 處理並刪除新的 XML 檔案之後，主題圖形檔案就會從目錄中刪除。
   
@@ -160,10 +171,10 @@ XML 設定檔必須在裝置啟動時更新，才能辨識主題影像。 處理
 1. 移至 Microsoft [團隊聊天室] 主控台上的 [Windows 設定]。
 2. 輸入管理員密碼。
 3. 在命令提示字元中，輸入 `devmgmt.msc` 以顯示 [裝置管理器]。
-4. 在 [**裝置管理器**] 中，查看 [**影像裝置**] 節點並找出 [內容相機]。
-5. 以滑鼠右鍵按一下相機，然後開啟 [**屬性**]。
-6. 選取 [**詳細資料**] 索引標籤，然後找出下拉式清單中的 [**裝置實例路徑**] 屬性。
-7. 顯示的值是要在 XML 設定檔中設定的裝置實例路徑。 在 XML 中指定路徑時，請以 [&] 取代 & 符號（&） `&amp;` 。
+4. 在 [ **裝置管理器**] 中，查看 [ **影像裝置** ] 節點並找出 [內容相機]。
+5. 以滑鼠右鍵按一下相機，然後開啟 [ **屬性**]。
+6. 選取 [ **詳細資料** ] 索引標籤，然後找出下拉式清單中的 [ **裝置實例路徑** ] 屬性。
+7. 顯示的值是要在 XML 設定檔中設定的裝置實例路徑。 在 XML 中指定路徑時，請使用 ( # A0) 取代 [&] 符號 `&amp;` 。
 
 ## <a name="see-also"></a>另請參閱
 
