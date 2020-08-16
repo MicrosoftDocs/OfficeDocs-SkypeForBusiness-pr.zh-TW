@@ -19,17 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121633"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761289"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
 > [!IMPORTANT]
-> Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
+> 為了改善客戶體驗，Teams 服務模型可能會有所變更。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
 
 Microsoft Teams 是 Microsoft 365 和 Office 365 服務的一部分，其會遵循所有安全性最佳做法和程序，例如透過深度防禦達到服務等級的安全性、服務中的客戶控制、強化安全性及最佳營運做法。 如需詳細資訊，請參閱 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
 
@@ -127,7 +127,7 @@ TLS 可讓使用者透過其用戶端軟體來驗證其連線的 Teams 伺服器
 TLS 和 MTLS 可同時防範竊聽和中間人攻擊。 發生中間人攻擊時，攻擊者會在網路實體雙方不知情的情況下，透過攻擊者的電腦來重新路由傳送兩者之間的通訊。 TLS 與 Teams 的信任伺服器規格透過在兩個端點之間使用公開金鑰加密來進行加密協調，部分緩解了應用程式層受到中間人攻擊的風險。 攻擊者必須擁有對應私密金鑰的有效且受信任的憑證，並核發給用戶端正在通訊的服務名稱，才能解密通訊。
 
 > [!NOTE]
-> Teams 資料會在傳輸和待用時加密。 Microsoft 使用了業界標準技術 (例如 TLS 和 SRTP) 來加密在使用者裝置和 Microsoft 資料中心之間，以及在 Microsoft 資料中心之間傳輸的所有資料。 其中包括郵件、檔案、會議及其他內容。 我們也會在 Microsoft 資料中心中加密待用的企業資料，並以一種允許組織根據需要解密內容的方式來履行其安全性和合規性義務，例如電子文件探索。
+> Teams 數據在傳輸過程中以及 Microsoft 數據中心待用數據中皆已加密。 Microsoft 使用了業界標準技術 (例如 TLS 和 SRTP) 來加密在使用者裝置和 Microsoft 資料中心之間，以及在 Microsoft 資料中心之間傳輸的所有資料。 其中包括郵件、檔案、會議及其他內容。 我們也會在 Microsoft 資料中心中加密待用的企業資料，並以一種允許組織根據需要解密內容的方式來履行其安全性和合規性義務，例如電子文件探索。
 
 ### <a name="encryption-for-teams"></a>Teams 的加密
 

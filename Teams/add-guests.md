@@ -18,12 +18,12 @@ description: 系統管理員可以了解如何將新的來賓使用者新增至 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 099e7a0a1fd7368385d564f46e2df12d5aced4b2
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: baac3c7c7e83547672b8baeb0915081523e5bfe8
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656124"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761279"
 ---
 <a name="add-a-guest-to-a-team"></a>將來賓新增至團隊
 =====================
@@ -33,7 +33,7 @@ ms.locfileid: "46656124"
 任何擁有商務或消費者電子郵件帳戶的人員 (例如 Outlook、Gmail 或其他)，都能以來賓身分加入 Teams。
 
 身為系統管理員，您可以透過幾種方式將新來賓使用者新增至組織：
-- 全域系統管理員或 Teams 系統管理員與團隊擁有者可在 Teams 用戶端或 Teams 系統管理中心中，將來賓新增至團隊。 若要深入瞭解，請參閱[將來賓新增至團隊](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。 如果您尚未設定來賓存取，請進行[來賓存取檢查清單](guest-access-checklist.md)中的步驟。
+- 全域系統管理員或 Teams 系統管理員與團隊擁有者可在 Teams 用戶端或 Teams 系統管理中心中，將來賓新增至團隊。 若要深入瞭解，請參閱[將來賓新增至團隊](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。 如果您尚未設定來賓存取，請透過[在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)步驟設定。
 
 > [!NOTE] 
 > 啟用 **[系統管理員和來賓邀請者角色中的使用者可邀請]** 時，則不適用。 這是因為 Teams 不支援來賓邀請者角色。

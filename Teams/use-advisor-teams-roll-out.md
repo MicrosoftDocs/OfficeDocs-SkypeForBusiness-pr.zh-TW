@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648594"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761349"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -91,7 +91,7 @@ Advisor for Teams 目前提供下列方案:
 |Teams 授權     |這是必要條件，您**必須具有** Teams 授權才能推出 Teams。 查詢 Microsoft Graph，查看您是否具有 Teams 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
 |Exchange Online 授權     |您的可用 Exchange Online 授權是否為有效訂閱。 雖然 Exchange 並非 Teams 基本功能的必要項目，但是與 Exchange 整合可以提供最佳的 Teams 體驗。 查詢 Microsoft Graph 以分析與租用戶相關聯的訂閱，並驗證您是否具有合格的 Exchange Online 授權訂閱 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Exchange 和 Teams 如何互動](exchange-teams-interact.md)。    |
 |SharePoint Online 授權     |您的可用 SharePoint Online 授權是否為有效訂閱。 我們建議採用每位使用者 SharePoint Online 授權，以便在聊天中提供商務用 OneDrive 用於檔案儲存。 查詢 Microsoft Graph，查看您是否具有 SharePoint Online 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Sharepoint 和商務用 OneDrive 如何與 Teams 互動](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
-|已啟用來賓存取     |是否已開啟[來賓存取](guest-access.md)。 來賓存取可讓您邀請外部使用者加入您的團隊。 使用 [Teams 來賓存取檢查清單](guest-access-checklist.md)逐步引導您開啟 Teams 中的來賓存取；此檢查清單包含所需的 Azure AD 組態。 |
+|已啟用來賓存取     |是否已開啟[來賓存取](guest-access.md)。 來賓存取可讓您邀請外部使用者加入您的團隊。 查閱 [在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)逐步引導您開啟 Teams 中的來賓存取；此檢查清單包含所需的 Azure AD 設定。 |
 |已設定外部存取     |是否已開啟[外部存取](manage-external-access.md)。 預設為開啟，並採用開放式同盟。 |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>聊天、團隊、頻道和應用程式評估
