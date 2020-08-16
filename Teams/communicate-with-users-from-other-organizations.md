@@ -17,12 +17,12 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 28897d5d94d56a7113fc555e0547192931caf3eb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581794"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761379"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
@@ -51,7 +51,7 @@ ms.locfileid: "46581794"
 - 來賓使用者可以比外部存取 (同盟) 使用者存取 Teams 中的更多資源，例如檔案、團隊和頻道。
 - Teams 系統管理員會控制來賓可以 (或無法) 在 Teams 系統管理中心執行的動作。 若要深入了解，請閱讀[管理來賓存取](manage-guests.md) (英文)。
 
-如果您已在組織中開啟來賓存取，請從[來賓存取檢查清單](guest-access-checklist.md)開始。
+如果您已在組織中開啟來賓存取，請從[小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)開始。
 
 
 ## <a name="compare-external-and-guest-access"></a>比較外部和來賓存取
