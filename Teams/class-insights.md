@@ -1,5 +1,5 @@
 ---
-title: 適用於 IT 系統管理員的 Microsoft Teams 教育版深入解析
+title: Teams 教育版深入解析的IT 系統管理員指南
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -16,29 +16,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e122071a9a4173250a78468126ed576d1e560607
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581494"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778095"
 ---
-# <a name="insights-in-teams-for-education-for-it-admins"></a>適用於 IT 系統管理員 Teams 教育版深入解析
+# <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Teams 教育版深入解析的IT 系統管理員指南
 
-透過 Microsoft Teams 教育版深入解析，授課者可以存取有關數位參與、作業工作負載、成績、通訊等的分析資料。
+透過 Microsoft Teams 教育版深入解析，教育者和領導者可以存取有關數位參與、作業工作負載、成績、通訊等的分析資料。
 
 深入解析會在 Office 365 教育版 SKU A1、A3 和 A5 中使用。
 
 > [!NOTE]
-> 授課者請於[此處](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)了解如何使用深入解析。
+> 授課者請於[此處](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181)了解如何使用深入解析。
 
 ## <a name="permissions"></a>權限
 
-授課者可以透過瀏覽至 Teams 應用程式列中的 [應用程式]，並搜尋「深入解析」，將「深入解析」新增至班級小組內的公開頻道。
+使用者類型: 
+- 學生是由其授權所識別，而無權存取 [深入分析] 索引標籤 （即使他們是小組的擁有者）。 
+- 教育者由教職員授權所識別。 教育者必須擁有教職員授權，並成為課程小組擁有者，以新增和查看 [深入分析] 索引標籤所顯示的資料。 
+- 領導者也由教職員授權所識別，但在某些狀況下，需取得 IT 全域系統管理員的明確授與的權限，才能檢視深入解析應用程式中的報告。
 
-- 學生是由其授權所識別，而 **無權存取 [深入分析] 索引標籤** （即使他們是小組的擁有者）。
-- 授課者是透過教職員授權所定義。
-- 授課者必須擁有教職員授權，並成為班級小組擁有者，才能新增和查看 [深入解析] 索引標籤。該索引標籤會反映來自班級小組中不是擁有者 (包括不是小組擁有者的授課者) 的每個人的活動。
+教育者和領導者擁有不同的權限等級和邏輯:
+- 授課者可以透過瀏覽至 Teams 應用程式列中的 [應用程式]，並搜尋「深入解析」，將「深入解析」應用程式新增至班級小組內的公開頻道。 該索引標籤會反映非擁有者的課程小組中所有人的活動（包括非小組擁有者的教師）。 
+- 領導者可以透過瀏覽至 Teams 應用程式列中的 [應用程式]，並搜尋「深入解析」，將「深入解析」應用程式新增為個人應用程式 (顯示在 Teams 左側功能表上)。 
 
 ## <a name="compliance"></a>合規性
 
@@ -49,7 +52,7 @@ ms.locfileid: "46581494"
 
 ## <a name="privacy"></a>隱私權
 
-透過深入解析收集和顯示的資訊，符合 90 多個監管和產業標準，其中包括 GDPR 和針對學生與兒童的「家庭教育權和隱私權法案 (FERPA)」，以及其他類似的、以隱私權為導向法規。 對於 IT系統管理員來說，重要的是明白在以每個學生為基礎所收集的資訊僅限用於課堂環境，以便教育者決定課堂行為。 收集這些資訊是為了提供有意義的學習活動，例如班級會議出席者、發布訊息、回應同學的貼文、寫作業、編輯檔案等等。 比如，我們不會顯示私人交談或 Teams 登入的資訊。
+透過深入解析收集和顯示的資訊，符合 90 多個監管和產業標準，其中包括 GDPR 和針對學生與兒童的「家庭教育權和隱私權法案 (FERPA)」，以及其他類似的、以隱私權為導向法規。 IT 系統管理員務必知道，以每個學生為基礎所收集的資訊僅限用於班級環境，以允許授課者和領導者判斷學生行為。 收集這些資訊是為了提供有意義的學習活動，例如班級會議出席者、發布訊息、回應同學的貼文、寫作業、編輯檔案等等。 比如，我們不會顯示私人交談或 Teams 登入的資訊。
 
 我們的目標是協助授課者瞭解參與情況，並聚焦在學生學習上。 雖然這些課程活動可以集中到學生層級的動作上，但 Microsoft Teams 對這些動作沒有意見評判，而且也不會根據準則對個別學生有身分判斷識別。 深入解析中的資訊會通知授課者，例如，某個學生在某段期間內未在工具中處於使用中狀態，或他們已準時完成上週的所有作業。 授課者則得負責與學生和學生的家長或監護人進行互動，以找出任何有使用或沒有使用的基本原因。
 
@@ -102,4 +105,4 @@ ms.locfileid: "46581494"
 
 預設會開啟「教育版分析」和「深入解析」。 當您選擇退出 [分析] 時，我們會刪除針對 [深入解析] 索引標籤收集的所有資料。重新開啟 [分析]，我們便會從重新啟用的時間開始收集資料。
 
-深入了解：[適用於授課者的深入解析](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)
+深入了解： [[深入解析] 的教育者指南](https://support.microsoft.com/zh-TW/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)
