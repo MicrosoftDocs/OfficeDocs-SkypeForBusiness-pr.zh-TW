@@ -50,7 +50,7 @@ Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色�
 
 ### <a name="enable-audit-logs-in-m365"></a>啟用 M365 中的稽核記錄
 
-由於 Teams 會透過 M365 記錄活動，因此預設不會收集稽核記錄。 透過[以下步驟](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)開啟此功能。 Teams 資料會在 M365 稽核中的 [Audit.General]** 下進行收集。
+由於 Teams 會透過 M365 記錄活動，因此預設不會收集稽核記錄。 透過[以下步驟](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)開啟此功能。 Teams 資料會在 M365 稽核中的 *[Audit.General]* 下進行收集。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>在 Microsoft Azure 中註冊應用程式以收集記錄
 
@@ -61,24 +61,24 @@ Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色�
 
 驗證並授權 Azure Active Directory (Azure AD) 應用程式，以從 API 收集記錄資料。
 
-1. 瀏覽至 Azure 入口網站中 [Azure AD]** 刀鋒視窗。
-2. 在 [快速啟動] 側邊列中，按一下 [應用程式註冊]**。
-3. 選取 [新增註冊]**。
-4. 為您的 Teams 記錄收集應用程式命名，然後按一下 [註冊]**。
-5. 依以下路徑按一下：[API 權限]** > [新增權限]** > [Office 365 管理 API]** > [應用程式權限]**。
-6. 展開 [活動] 摘要，然後查看 [ActivityFeed.Read]**。
-7. 在這裡選擇 [授與系統管理同意]**。 出現提示時，請按一下 [是]。
-8. 按一下側邊列中的 [憑證和密碼]** > [新增用戶端密碼]** 按鈕。
-9. 在 [新增用戶端密碼] 視窗中，輸入新用戶端密碼的描述、確認在 [到期日] 中選擇 [永不]，然後按一下 [新增]**。
+1. 瀏覽至 Azure 入口網站中 *[Azure AD]* 刀鋒視窗。
+2. 在 [快速啟動] 側邊列中，按一下 *[應用程式註冊]*。
+3. 選取 *[新增註冊]*。
+4. 為您的 Teams 記錄收集應用程式命名，然後按一下 *[註冊]*。
+5. 依以下路徑按一下：*[API 權限]* > *[新增權限]* > *[Office 365 管理 API]* > *[應用程式權限]*。
+6. 展開 [活動] 摘要，然後查看 *[ActivityFeed.Read]*。
+7. 在這裡選擇 *[授與系統管理同意]*。 出現提示時，請按一下 [是]。
+8. 按一下側邊列中的 *[憑證和密碼]* > *[新增用戶端密碼]* 按鈕。
+9. 在 [新增用戶端密碼] 視窗中，輸入新用戶端密碼的描述、確認在 [到期日] 中選擇 [永不]，然後按一下 *[新增]*。
 
 > [!IMPORTANT]
-> 請「務必」**** 將新的用戶端密碼複製到位於新建立應用程式之名稱下的密碼管理器項目。 關閉 Azure 刀鋒視窗 (「刀鋒視窗」** 是 Azure 用來表示視窗的詞彙) 之後，您將無法返回查看此密碼。
+> 請 **「務必」** 將新的用戶端密碼複製到位於新建立應用程式之名稱下的密碼管理器項目。 關閉 Azure 刀鋒視窗 (*「刀鋒視窗」* 是 Azure 用來表示視窗的詞彙) 之後，您將無法返回查看此密碼。
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>使用 PowerShell 註冊 API 來收集 Teams 記錄
 
 設定的最後一個步驟是收集並註冊 API 訂閱，以便收集記錄資料。 這是透過 PowerShell REST 呼叫 M365 管理活動 API 來完成。
 
-請在以下 PowerShell Cmdlet 中準備好提供 [應用程式 (用戶端) 識別碼]****、新的 [用戶端密碼]****、[M365 的 URL 網域]**** 和 [目錄 (租用戶) 識別碼]**** 的值。
+請在以下 PowerShell Cmdlet 中準備好提供 **[應用程式 (用戶端) 識別碼]**、新的 **[用戶端密碼]**、**[M365 的 URL 網域]** 和 **[目錄 (租用戶) 識別碼]** 的值。
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
@@ -148,7 +148,7 @@ Azure Sentinel Playbooks (又稱為邏輯應用程式) 將允許 Azure 擷取您
   </details>
 
 > [!TIP]
-> 您可以選擇使用 [Azure 函數]** 來擷取這些記錄，而如果您要這麼做，請依您的喜好而定，參閱[這裡](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data)或[這裡](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20DataCSharp)的部署資訊。
+> 您可以選擇使用 *[Azure 函數]* 來擷取這些記錄，而如果您要這麼做，請依您的喜好而定，參閱[這裡](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data)或[這裡](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20DataCSharp)的部署資訊。
 
 若執行連接器 (無論您在上方選取哪個選項)，您應該會在 Azure Sentinel 工作區中看到一個名為 O365API_CL 的自訂資料表。 這裡會存放您的 Teams記錄。
 
@@ -165,7 +165,7 @@ Azure Sentinel Playbooks (又稱為邏輯應用程式) 將允許 Azure 擷取您
 > [!NOTE]
 > KQL 函數是 KQL 查詢，但儲存為稱為「函數」的資料類型。 可在 Sentinel 中的查詢方塊輸入 KQL 函數的別名，以便再次快速執行查詢。 如需 KQL 函數以及如何建置剖析器函數的詳細資訊，請參閱[此技術社群文章](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381) (英文)。
  
- 以下剖析器是可自訂的範例，目的在選取與 [Teams]** 相關的 Office 365 管理 API 欄位的子集。 還有一個建議剖析器 [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)，但以下的剖析器可供修改，以符合不同的需求和喜好設定。
+ 以下剖析器是可自訂的範例，目的在選取與 *[Teams]* 相關的 Office 365 管理 API 欄位的子集。 還有一個建議剖析器 [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)，但以下的剖析器可供修改，以符合不同的需求和喜好設定。
 
 ```kusto
 O365API_CL
@@ -188,7 +188,7 @@ O365API_CL
 
 #### <a name="federated-external-users-query"></a>同盟外部使用者查詢
 
-取得擁有同盟外部使用者的 Teams 網站清單。 這些使用者將會有一個網域名稱/UPN 尾碼，這個尾碼「並非」** 貴組織所有。 在此範例查詢中，組織擁有 contoso.com。
+取得擁有同盟外部使用者的 Teams 網站清單。 這些使用者將會有一個網域名稱/UPN 尾碼，這個尾碼 *「並非」* 貴組織所有。 在此範例查詢中，組織擁有 contoso.com。
 
 ```kusto
 TeamsData

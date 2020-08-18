@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解 Microsoft 365 和 Office 365 中的電話系統技術。
-ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666125"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788417"
 ---
 # <a name="what-is-phone-system"></a>什麼是電話系統？
 
-私人分支 Exchange （PBX）是企業內的電話系統。 電話系統提供 PBX 功能，但沒有複雜且昂貴的裝置。 
+ (PBX) 私人分支 Exchange 是企業內的電話系統。 電話系統提供 PBX 功能，但沒有複雜且昂貴的裝置。 
 
-[電話系統] 可讓您將現有的內部部署 PBX 系統取代成一組從 Microsoft 365 或 Office 365 提供的功能，這些功能已緊密整合到您的雲端體驗中。 如需這些功能的詳細資訊，請參閱[以下是您在手機系統中所取得的內容](here-s-what-you-get-with-phone-system.md)。
+[電話系統] 可讓您將現有的內部部署 PBX 系統取代成一組從 Microsoft 365 或 Office 365 提供的功能，這些功能已緊密整合到您的雲端體驗中。 如需這些功能的詳細資訊，請參閱 [以下是您在手機系統中所取得的內容](here-s-what-you-get-with-phone-system.md)。
 
 ## <a name="phone-system-technology"></a>電話系統技術
 
@@ -40,41 +40,41 @@ ms.locfileid: "44666125"
   
 使用電話系統，使用者可以使用小組或商務用 Skype Online 來撥打和接聽通話、轉接通話，以及將通話設為靜音或取消靜音。 電話系統使用者可以按一下其通訊錄中的名稱，然後將小組或商務用 Skype Online 撥打電話給該人。 若要撥打及接聽電話，電話系統使用者可以使用其行動裝置、膝上型電腦或電腦的耳機，或是使用團隊和商務用 Skype Online 的許多 IP 電話之一。 電話系統管理員可以管理在通訊、共同作業等所用的同一個主控台中的呼叫選項和設定。
   
-貴組織中的使用者之間的呼叫是在手機系統內內部處理，而不會移至公用的交換電話網絡（PSTN）。 這適用于您組織中位於不同地理區域的使用者之間的通話，並移除這些內部通話的長途成本。
+貴組織中的使用者之間的呼叫是在手機系統內內部處理，而不會移至公用的交換電話網絡 (PSTN) 。 這適用于您組織中位於不同地理區域的使用者之間的通話，並移除這些內部通話的長途成本。
 
-針對您組織外部的呼叫，Microsoft 會提供多個選項，讓您將電話系統連線至公用交換電話網絡（PSTN）。
+針對您組織外部的呼叫，Microsoft 會提供多個選項，讓您將電話系統連線至公用交換電話網絡 (PSTN) 。
 
-## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>連線至公用的交換電話網絡（PSTN）
+## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>連線到公開交換的電話網絡 (PSTN) 
   
 您可以使用下列兩種方法的其中一種將電話系統連線至 PSTN：
   
-- 購買 Microsoft 通話方案（國內或國內和國際）。 Microsoft 通話方案是一種全式雲端解決方案，擁有 Microsoft 作為 PSTN 運營商。 如需詳細資訊，請參閱[電話系統和通話方案](calling-plan-landing-page.md)。
+- 購買 (國內或國內和國際) 的 Microsoft 通話方案。 Microsoft 通話方案是一種全式雲端解決方案，擁有 Microsoft 作為 PSTN 運營商。 如需詳細資訊，請參閱 [電話系統和通話方案](calling-plan-landing-page.md)。
 
 - 針對內部部署 PSTN 連線使用您現有的電話結構。
 
-  針對您的團隊使用者，您可以使用直接路由將內部部署電話結構連線至電話系統。 如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)。
+  針對您的團隊使用者，您可以使用直接路由將內部部署電話結構連線至電話系統。 如需詳細資訊，請參閱 [手機系統 Direct 路由](direct-routing-landing-page.md)。
 
-  如需所有 Microsoft 電話解決方案的詳細資訊，請參閱[microsoft 電話方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+  如需所有 Microsoft 電話解決方案的詳細資訊，請參閱 [microsoft 電話方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
 
 ## <a name="phone-system-with-services"></a>含服務的電話系統
 
  電話系統可用於服務和語音信箱，例如：
 
-- **自動**語音應答可用來為您的組織建立功能表系統，讓外部和內部呼叫者能在系統中移動，以找出並將來電放到貴組織中的公司使用者或部門。 請參閱[什麼是雲端自動](what-are-phone-system-auto-attendants.md)語音應答？。
+- **自動** 語音應答可用來為您的組織建立功能表系統，讓外部和內部呼叫者能在系統中移動，以找出並將來電放到貴組織中的公司使用者或部門。 請參閱 [什麼是雲端自動](what-are-phone-system-auto-attendants.md)語音應答？。
 
-- **通話**佇列-當某人撥入您組織的電話號碼時，可以使用通話佇列問候語。 這些問候語包括自動保留通話的功能，以及搜尋下一個可用的呼叫代理程式來處理通話，而呼叫者在通話時接聽的電話。 您可以為組織建立單一或多個通話佇列。 請參閱[建立雲端通話佇列](create-a-phone-system-call-queue.md)。
+- **通話** 佇列-當某人撥入您組織的電話號碼時，可以使用通話佇列問候語。 這些問候語包括自動保留通話的功能，以及搜尋下一個可用的呼叫代理程式來處理通話，而呼叫者在通話時接聽的電話。 您可以為組織建立單一或多個通話佇列。 請參閱 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
 
-- **語音信箱**-當您取得使用者的電話系統授權時，該使用者就可以取得來電者所留下的語音信箱。 在您指派電話系統授權及電話號碼之後，就會自動為使用者設定及設定雲端語音信箱。 請參閱[設定雲端語音信箱](set-up-phone-system-voicemail.md)。
+- **語音信箱** -當您取得使用者的電話系統授權時，該使用者就可以取得來電者所留下的語音信箱。 在您指派電話系統授權及電話號碼之後，就會自動為使用者設定及設定雲端語音信箱。 請參閱 [設定雲端語音信箱](set-up-phone-system-voicemail.md)。
 
-如需功能的詳細資訊，請參閱[以下是您在手機系統中所取得的內容](here-s-what-you-get-with-phone-system.md)。 如果您已準備好開始使用，請參閱[在組織中設定電話系統](setting-up-your-phone-system.md)。
+如需功能的詳細資訊，請參閱 [以下是您在手機系統中所取得的內容](here-s-what-you-get-with-phone-system.md)。 如果您已準備好開始使用，請參閱 [在組織中設定電話系統](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 - [電話系統功能](here-s-what-you-get-with-phone-system.md)
-- [Microsoft 團隊中的雲端語音](cloud-voice-landing-page.md)
+- [Microsoft Teams 的雲端語音](cloud-voice-landing-page.md)
 - [設定電話系統](setting-up-your-phone-system.md)
 - [哪一個通話方案適合您？](calling-plan-landing-page.md)
 - [電話系統直接路由](direct-routing-landing-page.md)
-- [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊聊天室 Premium
+title: Microsoft 團隊聊天室管理的服務
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,56 +14,56 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解 Microsoft 團隊聊天室 Premium。
+description: 瞭解 Microsoft 團隊聊天室管理的服務。
 f1keywords: ''
-ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521978"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788327"
 ---
-# <a name="microsoft-teams-rooms-premium"></a>Microsoft 團隊聊天室 Premium
+# <a name="microsoft-teams-rooms-managed-service"></a>Microsoft 團隊聊天室管理的服務
 
-Microsoft 團隊聊天室 Premium 包含雲端型 IT 管理和監控服務，可讓 Microsoft 團隊聊天室裝置及其週邊設備保持在最新狀態並經過主動監控，支援針對良好的使用者體驗優化的環境。
+Microsoft 團隊聊天室管理服務是雲端型 IT 管理和監控服務，可讓 Microsoft 團隊聊天室裝置及其週邊設備保持在最新狀態並經過主動監控，支援針對良好的使用者體驗優化的環境。
 
-Microsoft 團隊聊天室 Premium 是針對想要改善會議室體驗並透過為 Microsoft 團隊機房裝置提供前瞻性管理而快速調整其需求量的組織。 此服務可讓組織節省時間、資金和專業知識，否則將會花費在「自行動手」的房間管理中。  
+Microsoft 團隊聊天室管理服務是針對想要改善其會議室體驗的組織，以及透過為 Microsoft 團隊聊天室裝置提供前瞻性管理來快速調整其需求量。 此服務可讓組織節省時間、資金和專業知識，否則將會花費在「自行動手」的房間管理中。  
 
-Microsoft 團隊聊天室 Premium 服務是以在軟體啟用的端點、電腦學習及智慧自動化管理中，以強大的 Microsoft 專業技能為基礎建立。 Microsoft 團隊聊天室 Premium 可協助組織跨多個遠端網站提供高品質的體驗，且能滿足組織可能需要的增長速度。
+Microsoft 團隊聊天室管理服務是以在軟體支援的端點、機器學習及智慧自動化管理中，以強大的 Microsoft 專業技能為基礎建立。 Microsoft 團隊聊天室管理服務可協助組織跨多個遠端網站提供高品質的體驗，且能滿足組織可能需要的增長速度。
 
 ## <a name="service-capabilities"></a>服務功能
 
-以下概述 Microsoft 團隊聊天室 Premium 服務的功能。
+以下概述 Microsoft 團隊聊天室管理服務的功能。
 
-|功能  |描述  |
+|功能  |說明  |
 |---------|---------|
 |**會議室規劃與推出**   |會議室規劃功能，可讓您瞭解會議室設備庫存，並針對新的房間部署進行設備標準的決定。         |
 |**監控和疑難排解**  |可偵測房間系統和週邊設備問題並提供由 Microsoft 所驅動的前瞻性事件管理回應的會議室健康情況監視。         |
 |**更新管理**    |針對房間系統及其週邊用 Microsoft 所執行的應用程式和固件更新進行管理和傳送。         |
 |**深入資訊與建議**     |深入瞭解客戶的健康情況、使用量、利用率及裝置可靠性。         |
 |**合規性與認證**   |符合 Microsoft Online 服務的所有適用標準。         |
-|**客戶支援**   |透過專用 Microsoft 團隊聊天室 Premium 服務操作中心（SOC）提供24x7x365 支援。 如果適用的話，請您代表其他主要廠商上報。 若要深入瞭解，請參閱[客戶支援](#customer-support)。|
+|**客戶支援**   |您可透過專用 Microsoft 團隊會議室 managed services 服務操作中心 (SOC) 來支援24x7x365 支援。 如果適用的話，請您代表其他主要廠商上報。 若要深入瞭解，請參閱 [客戶支援](#customer-support)。|
 |**支援的裝置**    |已認證的 Microsoft 團隊房間系統及其外設。         |
-|**支援的區域**    |請參閱[支援的地區](#supported-regions)。        |
+|**支援的區域**    |請參閱 [支援的地區](#supported-regions)。        |
 |**結合**    |目前可與客戶託管服務整合的功能。         |
 
 ## <a name="service-features"></a>服務功能
 
-以下是 Microsoft 團隊聊天室 Premium 服務提供的重要功能摘要，可支援上述功能。
+以下摘要說明 Microsoft 團隊聊天室管理服務提供支援上述功能的重要功能。
 
-|功能  |描述  |
+|功能  |說明  |
 |---------|---------|
 |**庫存管理**   |使用大量匯出選項列出會議室裝置、週邊設備、製作及模型的房間庫存追蹤。         |
-|**房間登記**   |在 Microsoft 小組聊天室 Premium 服務中，輕鬆地自行註冊會議室裝置。          |
+|**房間登記**   |在 Microsoft 小組聊天室管理的服務中，輕鬆地自行註冊會議室裝置。          |
 |**聊天室管理**     |受管理的服務功能、洞察力、管理設定及聊天室群組管理的客戶入口網站。         |
-|**監視**    |應用程式、作業系統、週邊和固件健康情況監視。 針對因問題（例如週邊健康情況）而影響會議體驗的問題自動事件檢測。 透過 Microsoft 團隊聊天室 Premium 入口網站的整個聊天室實際房產和事件的健康情況概覽。|
-|**疑難排解與修正**     |在適用的情況下，自動診斷和自動修正。 Microsoft 團隊聊天室高級 SOC-協助事件修正，適用于不自動化的情況。 服務現已整合事件協調。         |
+|**監視**    |應用程式、作業系統、週邊和固件健康情況監視。 針對因問題（例如週邊健康情況）而影響會議體驗的問題自動事件檢測。 透過 Microsoft [小組聊天室] 管理的服務入口網站的整個房間房地產和事件的健康情況概覽。|
+|**疑難排解與修正**     |在適用的情況下，自動診斷和自動修正。 Microsoft 團隊會議室管理服務 SOC-可協助事件修正（適用于非自動化案例）。 服務現已整合事件協調。         |
 |**更新管理**   |根據客戶可設定的部署環，自動進行會議應用程式與固件更新業務流程         |
-|**深入資訊與建議**   |使用量、事件、健康情況及總體報告（歷史視圖）         |
+|**深入資訊與建議**   |[使用方式]、[事件]、[健康情況] 和 [總體報告] (的) 歷史         |
 
 ## <a name="service-prerequisites"></a>服務先決條件
 
-針對 Microsoft 團隊聊天室 Premium，若要維持服務品質，已註冊的會議室必須是[Microsoft 團隊會議室支援的裝置](requirements.md#hardware-requirements)，而且您必須使用所有[必要的 Office 365 url 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)來準備您的環境，以供會議室裝置使用。 若要深入瞭解，請參閱 Microsoft 團隊聊天室檔中的 [[準備您的環境](rooms-prep.md)]。
+針對 Microsoft 團隊聊天室管理的服務若要維持服務品質，已註冊的會議室必須是 [Microsoft 團隊會議室支援的裝置](requirements.md#hardware-requirements)，而且您必須使用所有 [必要的 Office 365 url 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 來準備您的環境，並可透過會議室裝置進行。 若要深入瞭解，請參閱 Microsoft 團隊聊天室檔中的 [ [準備您的環境](rooms-prep.md) ]。
 
 就像受管理的服務提供者，Microsoft 必須與您組織中的會議室共同承擔者合作，讓會議室保持正常運作並從問題中復原。 您負責在會議室、協力廠商或自訂軟體（您已選擇要在會議室裝置中部署）中使用的 uncertified 裝置，以及遵守 Microsoft 建議的變更管理慣例。
 
@@ -71,31 +71,31 @@ Microsoft 團隊聊天室 Premium 服務是以在軟體啟用的端點、電腦�
 
 ## <a name="customer-support"></a>客戶支援
 
-Microsoft 團隊聊天室 Premium 服務是透過專用 Microsoft 團隊聊天室 Premium SOC 支援。 從 Microsoft 團隊聊天室 Premium SOC 到客戶的主要模式是透過 Microsoft 團隊聊天室 Premium 入口網站進行。 Microsoft 團隊聊天室 Premium SOC 會針對系統或您的組織所產生的入場券，提供第一次回應和適當的升級。
+Microsoft 團隊聊天室受管理的服務是透過專用的 Microsoft 團隊會議室 managed service SOC 支援。 從 Microsoft 團隊聊天室管理服務 SOC 到客戶的主要模式是透過 Microsoft 小組聊天室 managed service 入口網站進行通訊。 Microsoft 團隊聊天室管理服務 SOC 提供系統或貴組織所產生之票證的第一次回應和適當的上報。
 
 |  |  |
 |---------|---------|
-|**範圍**   |Microsoft 團隊聊天室 Premium 支援中包含與會議室 app、會議室裝置和週邊設備相關的事件。|
+|**範圍**   |與會議室 app、會議室裝置和週邊設備相關的事件包含在 Microsoft 團隊聊天室管理服務支援中。|
 |**客戶**  |僅限 IT 作業         |
 |**支援的語言**    |英語         |
 |**透過入口網站支援可用性**   | 天      |
-|**Microsoft 團隊聊天室 Premium SOC 的初始回應時間**   |  4 小時       |
+|**Microsoft 團隊聊天室 managed service SOC 的初始回應時間**   |  4 小時       |
 |**在客戶不活動的情況下自動關閉入場券**    |客戶啟動的票證：3個工作日<br>系統啟動的票證：15個工作日</li>   </ul>      |
-|**重新導向至廣泛的 Microsoft 支援服務**   |在 Microsoft 團隊聊天室 Premium 範圍之外的其他 Microsoft 產品相關問題，會導向給適當的支援小組。         |
-|**重定向至原始設備製造商（OEM）支援**    |Microsoft 團隊聊天室 Premium SOC 可協助您瞭解問題及適當位置，以協助與 OEM 協調支援。 在某些情況下，您可能會負責直接與 OEM 直接合作。         |
+|**重新導向至廣泛的 Microsoft 支援服務**   |與其他 Microsoft 產品相關的問題，超出 Microsoft 團隊聊天室管理服務的範圍，會導向給適當的支援小組。         |
+|**重定向至原始設備製造商 (OEM) 支援**    |Microsoft 團隊聊天室管理服務 SOC 可協助您瞭解問題及適當位置，以協助與 OEM 協調支援。 在某些情況下，您可能會負責直接與 OEM 直接合作。         |
 
-此外，請記住，Microsoft 團隊聊天室 Premium SOC 將協助貴組織中的 IT 作業，而不是為您的使用者提供協助桌面服務的取代。
+此外，請記住，Microsoft 團隊聊天室 managed service SOC 將協助貴組織中的 IT 作業，而不是為您的使用者提供協助桌面服務的取代。
 
-如需 Microsoft 團隊聊天室 [特優] 支援範圍的詳細資訊，請參閱[支援包含及排除](#support-inclusions-and-exclusions)。
+如需 Microsoft 團隊聊天室管理服務支援範圍的詳細資訊，請參閱 [支援包含與排除](#support-inclusions-and-exclusions)。
 
 ## <a name="supported-regions"></a>支援的區域
 
-下列國家和地區提供 Microsoft 團隊聊天室 Premium。
+下列國家和地區提供 Microsoft 團隊聊天室 managed 服務。
 
 - 澳洲
 - 奧地利
 - 比利時
-- 加拿大（不包括魁北克）
+- 加拿大 (不包括魁北克) 
 - 丹麥
 - 芬蘭
 - 德國
@@ -130,16 +130,16 @@ Microsoft 團隊聊天室 Premium 服務是透過專用 Microsoft 團隊聊天�
 |**根本原因分析**     |         |         |
 |在會議室體驗中遇到的問題的所有根本原因，都提供，但在您可以隨時執行。     |不包含協力廠商軟體問題的根本原因分析。         |協力廠商標準支援通道         |
 |**會議體驗**   |         |         |
-|調查 Microsoft 團隊聊天室 app 的會議設定中的問題，以及在裝置上正確設定服務品質的指導方針（由要求提供）。      |此範圍不會排除與通話品質問題或網路相關問題的根本原因分析或調查。         |Microsoft 主流支援         |
+|調查 Microsoft 團隊聊天室 app 的會議設定中的問題，以及在裝置上正確設定服務品質的指導方針（依要求提供）。      |此範圍不會排除與通話品質問題或網路相關問題的根本原因分析或調查。         |Microsoft 主流支援         |
 |**修正、加入及例行**     |         |         |
-|客戶會收到指導方針，讓其聊天室成為 Microsoft 團隊聊天室在加入時所建議的標準    |與內部自訂軟體影像有關的調查，或與 Microsoft 團隊聊天室中的建議軟體版本指南不在範圍內。          |         |
+|客戶會收到指導方針，讓其聊天室成為 Microsoft 小組會議室在系統管理服務中推薦的標準    |針對內部自訂軟體影像的調查，或與 Microsoft 團隊聊天室管理服務不在範圍中的相容性軟體版本指導方針。          |         |
 
 ## <a name="data-collection"></a>資料收集
 
-Microsoft 團隊聊天室 Premium 服務會監視裝置、收集裝置資料，並允許 Microsoft 遠端存取及管理會議室裝置。 Microsoft 團隊聊天室 Premium 服務無法存取會議的即時內容。
+Microsoft 團隊聊天室管理服務會監視裝置、收集裝置資料，並允許 Microsoft 遠端存取及管理會議室裝置。 Microsoft 團隊聊天室管理服務無法存取會議的即時內容。
 
-收集的資料只針對房間帳戶，而不是個別使用者。 在裝置使用期間，活動日誌中可能會出現針對個別使用者的偶然參照。 收集的資料是由 Microsoft 根據[Microsoft 隱私權聲明](https://aka.ms/privacy)來處理。  
+收集的資料只針對房間帳戶，而不是個別使用者。 在裝置使用期間，活動日誌中可能會出現針對個別使用者的偶然參照。 收集的資料是由 Microsoft 根據 [Microsoft 隱私權聲明](https://aka.ms/privacy)來處理。  
 
 ## <a name="related-topics"></a>相關主題
 
-- [Microsoft 團隊聊天室 Premium](https://rooms.microsoft.com)
+- [Microsoft 團隊聊天室管理的服務](https://rooms.microsoft.com)

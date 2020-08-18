@@ -26,20 +26,23 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解音訊會議、電話系統、通話方案、通訊點數，以及免付費電話號碼以及免付費電話號碼在國家或地區中都有提供。
-ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230191"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788527"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
 您可以選取國家/地區，以了解貴組織可以使用哪些雲端語音功能。
 ***
+
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>選取您所在的國家/地區，以了解貴組織可以使用的功能
 
 > [!div class="op_single_selector"]
+>
+> - [阿爾巴尼亞](availability-in-albania.md)
 > - [阿爾及利亞](availability-in-algeria.md)
 > - [安地卡及巴布達](availability-in-antigua-and-barbuda.md)
 > - [阿根廷](availability-in-argentina.md)
@@ -47,6 +50,7 @@ ms.locfileid: "44230191"
 > - [奧地利](availability-in-austria.md)
 > - [巴哈馬](availability-in-the-bahamas.md)
 > - [巴林](availability-in-bahrain.md)
+> - [孟加拉](availability-in-bangladesh.md)
 > - [巴貝多](availability-in-barbados.md)
 > - [白俄羅斯](availability-in-belarus.md)
 > - [比利時](availability-in-belgium.md)
@@ -58,6 +62,7 @@ ms.locfileid: "44230191"
 > - [汶萊](availability-in-brunei.md)
 > - [保加利亞](availability-in-bulgaria.md)
 > - [柬埔寨](availability-in-cambodia.md)
+> - [喀麥隆](availability-in-cameroon.md)
 > - [加拿大](availability-in-canada.md)
 > - [開曼群島](availability-in-the-cayman-islands.md)
 > - [智利](availability-in-chile.md)
@@ -82,6 +87,7 @@ ms.locfileid: "44230191"
 > - [希臘](availability-in-greece.md)
 > - [格瑞那達](availability-in-grenada.md)
 > - [關島](availability-in-guam.md)
+> - [瓜地馬拉](availability-in-guatemala.md)
 > - [宏都拉斯](availability-in-honduras.md)
 > - [香港](availability-in-hong-kong.md)
 > - [匈牙利](availability-in-hungary.md)
@@ -110,6 +116,7 @@ ms.locfileid: "44230191"
 > - [紐西蘭](availability-in-new-zealand.md)
 > - [尼加拉瓜](availability-in-nicaragua.md)
 > - [奈及利亞](availability-in-nigeria.md)
+> - [北馬利安納群島](availability-in-northern-mariana-islands.md)  
 > - [挪威](availability-in-norway.md)
 > - [巴基斯坦](availability-in-pakistan.md)
 > - [巴拿馬](availability-in-panama.md)
@@ -140,6 +147,8 @@ ms.locfileid: "44230191"
 > - [千里達及托巴哥](availability-in-trinidad-and-tobago.md)
 > - [突尼西亞](availability-in-tunisia.md)
 > - [土耳其](availability-in-turkey.md)
+> - [特克斯與凱科斯群島](availability-in-turks-and-caicos-islands.md)
+> - [烏干達](availability-in-uganda.md)
 > - [烏克蘭](availability-in-the-ukraine.md)
 > - [阿拉伯聯合大公國 (UAE)](availability-in-the-united-arab-emirates-uae.md)
 > - [英國](availability-in-the-united-kingdom-u-k.md)
@@ -148,18 +157,18 @@ ms.locfileid: "44230191"
 > - [委內瑞拉](availability-in-venezuela.md)
 > - [越南](availability-in-vietnam.md)
 
-**如果您要尋找內含所有國家/地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**。
+**如果您要尋找內含所有國家/地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06242020)-(en-us).xlsx?raw=true)**。
 
 ***
 
-在查看並了解商務用 Skype 或 Microsoft Teams 服務其中之一是否可用之後，您可以參閱[商務用 Skype 和 Microsoft Teams 附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，以便購買授權並指派給使用者。
+在查看並了解商務用 Skype 或 Microsoft Teams 服務其中之一是否可用之後，您可以參閱[商務用 Skype 和 Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)，以便購買授權並指派給使用者。
 
 > [!NOTE]
-> 
+>
 > 如果您需要為使用者取得更多電話號碼，請參閱[為使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)，如果要索取電話號碼要求表單，則請參閱[管理組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 
-## <a name="want-to-learn-more-about-these-services"></a>想要深入了解這些服務嗎？
+## <a name="want-to-learn-more-about-these-services"></a>想要進一步瞭解這些服務
 
 ### <a name="audio-conferencing"></a>音訊會議
 
@@ -172,39 +181,42 @@ ms.locfileid: "44230191"
 
 若要進一步了解音訊會議，請參閱[音訊會議常見問題](../audio-conferencing-common-questions.md)
 
-[音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
+[音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>請使用「打電話給我」功能或將其他人員新增至會議，以讓這些人加入會議
+
 音訊會議中有一個名為「打電話給我」** 的功能，可讓其他人員透過電話來加入會議。 請使用上方的下拉式清單來搜尋國家/地區，並了解這項功能是否可供使用。
 
 > [!CAUTION]
-> 您無法撥出至免付費或免費的電話號碼，因為某些免付費電話號碼只能在國內或國內區域使用。 例如，如果您從美國撥出至巴西的免付費電話號碼，該通話可能不會成功，因為發話方並非位於巴西或巴西境內的特定地區。 是否能撥出至免付費電話號碼會根據所撥打的免付費電話號碼限制而有很大的不同。 遺憾的是，我們無法控制此行為，因此，您的體驗可能會因撥打免付費電話號碼和免付費電話號碼的限制而有所不同。 
+> 您無法撥出至免付費或免費的電話號碼，因為某些免付費電話號碼只能在國內或國內區域使用。 例如，如果您從美國撥出至巴西的免付費電話號碼，該通話可能不會成功，因為發話方並非位於巴西或巴西境內的特定地區。 是否能撥出至免付費電話號碼會根據所撥打的免付費電話號碼限制而有很大的不同。 遺憾的是，我們無法控制此行為，因此，您的體驗可能會因撥打免付費電話號碼和免付費電話號碼的限制而有所不同。
   
-在下列情況下，您可以使用[通訊信用](../what-are-communications-credits.md)，從會議撥出至世界上未列出的其他國家/地區。 針對這些使用者，您必須[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
+在下列情況下，您可以使用 [通訊信用](../what-are-communications-credits.md)，從會議撥出至世界上未列出的其他國家/地區。 針對這些使用者，您必須[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ### <a name="phone-system"></a>電話系統
+
 透過電話系統，您可以建立自動語音應答和通話佇列 (使用付費或免付費電話號碼) 來為貴組織接聽來電，而當您為使用者新增通話方案時，其可以使用商務用 Skype 來處理基本的通話控制工作，例如撥打和接聽電話、轉接電話，以及將通話靜音與取消靜音。 **電話系統**的使用者只要按一下通訊錄中的名稱，商務用 Skype 就會撥打電話給該人員。 若要撥打和接聽電話，**電話系統**的使用者可以使用其行動裝置、耳機與膝上型電腦或桌上型電腦，或其中一種可與商務用 Skype 搭配運作的 IP 電話。
 
-> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了為個別使用者取得電話號碼之外，您也可以在語音會議（適用于會議室）、自動語音應答及呼叫佇列等服務，搜尋及取得付費或免付費電話號碼。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。 您也可以參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
+> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了為個別使用者取得電話號碼之外，您也可以在會議橋接的語音會議 (中搜尋和取得付費或免付費電話號碼，例如) 、自動語音應答及呼叫佇列。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。 您也可以參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 
 [電話系統的定價](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
-> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 
+> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。
 
 請使用頁面頂端的下拉式清單來搜尋國家/地區以及可用的服務。
 
 ### <a name="calling-plans"></a>通話方案
+
 與電話系統一起使用時，通話方案可讓使用者撥打及接聽電話。 您必須先取得要指派給使用者的使用者 (訂閱者) 電話號碼 (不是服務號碼)，然後再指派通話方案。 可用的通話方案有兩種：**國內**與**國內及國際**。 如需詳細資訊，請參閱[電話系統和通話方案](../calling-plan-landing-page.md)。
 
-您也可以參閱[電話系統和通話方案授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)以取得授權資訊。
+您也可以參閱[電話系統和通話方案授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)以取得授權資訊。
 
 > [!NOTE]
-> 國家/地區所根據的是使用者授權在 [Microsoft 365 系統管理中心]**** > [作用中的使用者]**** 中的位置，**而非** [Microsoft 365 系統管理中心]**** 的 [組織設定檔]**** 底下所列的帳單地址。 
+> 國家/地區所根據的是使用者授權在 [Microsoft 365 系統管理中心]**** > [作用中的使用者]**** 中的位置，**而非** [Microsoft 365 系統管理中心]**** 的 [組織設定檔]**** 底下所列的帳單地址。
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服務的付費和免付費電話號碼
 
-除了為個別使用者取得電話號碼之外，也可以搜尋和取得服務的付費或免付費電話號碼，例如音訊會議（適用于會議室）、自動語音應答及通話佇列。 這些電話號碼稱為服務號碼。
+除了為個別使用者取得電話號碼之外，您還可以在會議橋接的語音會議 (中搜尋和取得付費或免付費電話號碼) 、自動語音應答及通話佇列。 這些電話號碼稱為服務號碼。
   
 以下是一份首都和主要城市的清單，您可以從這份清單中取得可與音訊會議和通話方案搭配使用的付費服務號碼。 您可以使用**商務用 Skype 系統管理中心**來取得這些位置的付費服務號碼。
   
@@ -220,7 +232,7 @@ ms.locfileid: "44230191"
 
 
 ## <a name="related-topics"></a>相關主題
+
 [取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
-  
- 
+

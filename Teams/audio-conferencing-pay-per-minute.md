@@ -23,19 +23,19 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付款選項。
-ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021741"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788677"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
 除了標準音訊會議的每個使用者授權之外，大量和授權組織也可以選擇為其組織啟用音訊會議功能的每分鐘付費優惠。
   
 
-您可以瞭解您的[國家/地區是否支援](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)音訊會議。
+您可以瞭解您的 [國家/地區是否支援](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 音訊會議。
 
   
 > [!NOTE]
@@ -43,7 +43,7 @@ ms.locfileid: "45021741"
   
 ## <a name="need-some-details"></a>需要一些詳細資料嗎？
 
-[音訊會議每使用者授權] 提供的電話撥入使用量和一些撥出使用量，語音會議每分鐘支付一次，**就能在不付費每位使用者每月授權的情況下，每分鐘支付一次音訊會議使用方式**。 如此一來，所有撥入和撥出通話都將以每分鐘為單位收取費用，包括：
+[音訊會議每使用者授權] 提供的電話撥入使用量和一些撥出使用量，語音會議每分鐘支付一次， **就能在不付費每位使用者每月授權的情況下，每分鐘支付一次音訊會議使用方式**。 如此一來，所有撥入和撥出通話都將以每分鐘為單位收取費用，包括：
   
 - 您組織的電話撥入式音訊會議號碼。
     
@@ -54,17 +54,17 @@ ms.locfileid: "45021741"
 > [!NOTE]
 > 您可以透過 [[音訊會議](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)] 中的 [**查看您要通話的頻率] 區段**，找出與這些通話類型相關聯的撥入和撥出率。
   
-[每分鐘支付] 要求您的組織設定[通訊信用額度](what-are-communications-credits.md)。 它也要求每個使用者都必須指派每分鐘付費授權和通訊信用權授權，才能使用音訊會議。 如果您需要更多詳細資料，請參閱[為您的組織](set-up-communications-credits-for-your-organization.md)和/或[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)設定通訊點數。
+[每分鐘支付] 要求您的組織設定 [通訊信用額度](what-are-communications-credits.md) 。 它也要求每個使用者都必須指派每分鐘付費授權和通訊信用權授權，才能使用音訊會議。 如果您需要更多詳細資料，請參閱 [為您的組織](set-up-communications-credits-for-your-organization.md) 和/或 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)設定通訊點數。
   
-若要讓貴組織中的使用者每分鐘支付一次語音會議，請參閱[在 Microsoft Office 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+若要讓貴組織中的使用者每分鐘支付一次語音會議，請參閱 [在 Microsoft Office 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 
 ## <a name="why-is-it-best-for-you"></a>為什麼最適合您？
 
-- 每分鐘支付的費用只會針對每個出席者在排程的會議期間發出的每一分鐘，而不是在行動裝置或電腦上使用商務用 Skype 或團隊應用程式，而是有費用變化。
+- 每分鐘支付的費用只會在排程的會議期間根據每個出席者的每一分鐘數收取， (費率會因付費或免付費通話而異) ，而不是在行動裝置或電腦上使用商務用 Skype 或團隊應用程式。
 
-- 管理成本的功能，因為系統管理員可以控制，以限制可從召集人會議完成的撥出（國際及國內）類型。 查看[出站通話限制原則以進行音訊會議與使用者 PSTN 通話](/microsoftteams/outbound-calling-restriction-policies)
+- 管理成本的功能，因為系統管理員可以控制，限制可從召集人會議中完成的 (國際及國內) 的撥出類型。 查看 [出站通話限制原則以進行音訊會議與使用者 PSTN 通話](/microsoftteams/outbound-calling-restriction-policies)
 
-- 如果您有音訊會議每分鐘付費的授權，您就不需要為每位使用者分別指派通訊信用額度授權，以供語音會議使用（您可能仍需要為其他服務指派）。
+- 如果您有音訊會議每分鐘付費的授權，您就不需要為每位使用者分別指派通訊信用額度授權， (您可能仍需要指派其他服務) 。
 
 - 使用通訊點數控制和監控每分鐘付款費用。
 
@@ -84,7 +84,7 @@ ms.locfileid: "45021741"
     
 ## <a name="related-topics"></a>相關主題
   
-[Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
   
  

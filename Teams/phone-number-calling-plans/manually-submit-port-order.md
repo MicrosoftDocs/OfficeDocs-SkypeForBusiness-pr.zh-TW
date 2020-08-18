@@ -18,46 +18,46 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何手動提交埠訂單要求。
-ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: a6eda920def415e61278dc4b3ac20d2f58edbb69
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224216"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788577"
 ---
 # <a name="manually-submit-a-port-order"></a>手動提交移轉訂單
 
-在某些國家和地區，您可能必須手動提交服務要求，才能取得電話號碼、傳送電話號碼、放開電話號碼或變更位址。 若要查看每個國家/地區所需的內容，或深入瞭解編號移植的詳細資訊，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+在某些國家和地區，您可能必須手動提交服務要求，才能取得電話號碼、傳送電話號碼、放開電話號碼或變更位址。 若要查看每個國家/地區所需的內容，或深入瞭解編號移植的詳細資訊，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-如果您的國家或地區未列在[Microsoft 團隊系統管理中心的移植嚮導](transfer-phone-numbers-to-teams.md)中，請使用本文中的步驟，手動建立並提交一個埠順序。
+如果您的國家或地區未列在 [Microsoft 團隊系統管理中心的移植嚮導](transfer-phone-numbers-to-teams.md)中，請使用本文中的步驟，手動建立並提交一個埠順序。
 
 ## <a name="manually-submit-a-new-port-order-request"></a>手動提交新的埠訂單要求
 
-您可以透過建立服務要求來手動提交新的埠順序，方法是將已完成的授權（LOA）表單直接傳送到您所在地區的 PSTN 服務台或 Microsoft 365 系統管理中心。
+您可以透過在您的地區或 Microsoft 365 系統管理中心傳送已完成的授權 (LOA) 表單，手動提交新的埠順序。
 
 ### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>將您的授權信直接傳送給 PSTN 服務台
 
-下載您所在國家或地區的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) ，完成表單，然後將它傳送到區域的[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)：
+下載您所在國家或地區的 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) ，完成表單，然後將它傳送到區域的 [PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) ：
 
-- 在美國及加拿大，請[傳送您的要求](mailto:ptn@microsoft.com)。
-- 在歐洲，[傳送您的要求](mailto:ptneu@microsoft.com)。
-- 在亞洲中，[傳送您的要求](mailto:ptnapac@microsoft.com)。
+- 在美國及加拿大，請 [傳送您的要求](mailto:ptn@microsoft.com)。
+- 在歐洲， [傳送您的要求](mailto:ptneu@microsoft.com)。
+- 在亞洲中， [傳送您的要求](mailto:ptnapac@microsoft.com)。
 
 ### <a name="submit-a-service-request-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 系統管理中心提交服務要求
 
-1. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**支援**  >  **新的服務要求**]。  如果您沒有看到 [**支援**列]，請移至左側導覽中的 [**自訂導覽**]，然後選取 [**支援**] 核取方塊，即可新增。
-2. 在 [**需要協助嗎？** ] 窗格中，選取 [**聯絡客戶支援**]。
-3. 在 [**連絡人支援**] 窗格中，執行下列動作：
+1. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**支援**  >  **新的服務要求**]。  如果您沒有看到 [ **支援** 列]，請移至左側導覽中的 [ **自訂導覽** ]，然後選取 [ **支援** ] 核取方塊，即可新增。
+2. 在 [ **需要協助嗎？** ] 窗格中，選取 [ **聯絡客戶支援**]。
+3. 在 [ **連絡人支援** ] 窗格中，執行下列動作：
 
-    1. 輸入您要求的標題（例如，[埠順序要求]）及描述、確認您的電話號碼和電子郵件地址，然後選取您慣用的聯絡人方法。
-    2. 在 [**附件**] 底下，按一下 [**新增**檔案]，然後上傳已完成的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
-    3. 按一下 [**聯絡**人]。
-    
-## <a name="what-else-should-you-know-about-number-porting"></a>關於數位移植，您還應該知道什麼？
+    1. 輸入標題 (例如，[埠訂單要求]) 與您要求的描述、確認您的電話號碼和電子郵件地址，然後選取您慣用的聯絡人方法。
+    2. 在 [ **附件**] 底下，按一下 [ **新增**檔案]，然後上傳已完成的 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+    3. 按一下 [ **聯絡**人]。
 
-- 若要使用通話方案，您必須購買並指派授權給使用者。 請參閱[小組附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
-    
-- 您必須為每位使用者指派您所擁有的新電話號碼。 請參閱[指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
+## <a name="what-else-should-you-know-about-number-porting"></a>有關數位移植的其他資訊
+
+- 若要使用通話方案，您必須購買並指派授權給使用者。 請參閱 [小組附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+
+- 您必須為每位使用者指派您所擁有的新電話號碼。 請參閱 [指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 ## <a name="related-topics"></a>相關主題
 
