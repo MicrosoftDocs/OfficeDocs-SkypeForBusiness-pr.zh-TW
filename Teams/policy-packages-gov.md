@@ -1,5 +1,5 @@
 ---
-title: 醫療保健的團隊原則套件
+title: 政府團隊原則套件
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用及管理您的保健組織的小組原則套件。
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: 瞭解如何使用及管理您的政府組織的小組原則套件。
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803967"
+ms.locfileid: "46804013"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>醫療保健的團隊原則套件
+# <a name="teams-policy-packages-for-government"></a>政府團隊原則套件
+
+> [!NOTE]
+> 原則套件目前無法在 Microsoft 365 政府版 GCC 或 DoD 部署中使用。
 
 ## <a name="overview"></a>概觀
 
@@ -38,19 +41,19 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 - App 設定
 - 即時活動
 
-團隊目前包含下列醫療保健原則封裝。
+團隊目前包含適用于政府的下列原則套件。
 
 |Microsoft 團隊系統管理中心中的套件名稱|最適合用於|描述 |
 |---------|---------|---------|
-|醫療保健臨床工人  |您的保健組織中的臨床工作者  |建立一組原則與原則設定，提供臨床工人（例如註冊的護士、充電護士、醫生和社會員工）完整存取聊天、通話、值班管理和會議。 |
-|醫療保健資訊工作者  |您的保健組織中的資訊工作者 |建立一組原則與原則設定，以提供資訊工作者，例如 IT 人員、informatics 員工、財務人員及合規性監察官，完整存取聊天、通話及會議。|
-|醫療保健患者機房  |患者房間裝置|建立一組原則與原則設定，適用于您的保健組織中的患者會議室。|
+|公開安全官員  |政府組織中的公用安全官員  |建立一組原則與原則設定，適用于貴組織中的公用安全主管。 |
+|第一線員工管理員  |第一線員工政府組織中的經理 |建立一組原則，並將這些設定套用到貴組織中的第一線員工管理員。|
+|第一線員工 worker  |在您的政府組織中第一線員工工人 |建立一組原則，並將這些設定套用到貴組織中的第一線員工工作人員。|
 
-![醫療保健原則套件的螢幕擷取畫面](media/policy-packages-healthcare.png)
+![醫療保健原則套件的螢幕擷取畫面](media/policy-packages-gov.png)
 
-系統會為每個個別原則指定原則套件的名稱，以便您輕鬆識別連結到原則套件的原則。 例如，當您將醫療保健臨床工人原則套件指派給您組織中的臨床醫師時，會針對套件中的每個原則，建立一個名為 Healthcare_ClinicalWorker 的原則。
+系統會為每個個別原則指定原則套件的名稱，以便您輕鬆識別連結到原則套件的原則。 例如，當您將公用安全專員原則套件指派給貴組織中的使用者時，會針對套件中的每個原則，建立一個名為 PublicSafety_Officer 的原則。
 
-![醫療保健臨床工人套件中的原則的螢幕擷取畫面](media/policy-packages-healthcare-clinical-worker.png)
+![醫療保健臨床工人套件中的原則的螢幕擷取畫面](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>管理原則套件
 
@@ -72,7 +75,7 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 如需如何使用 Microsoft 團隊系統管理中心或 PowerShell 指派原則套件的步驟，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
 
-![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-healthcare-assign.png)
+![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-gov-assign.png)
 
 如果使用者已指派策略，且稍後您指派其他原則，則最近指派的優先順序會較高。
 
@@ -80,4 +83,4 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 [在 Teams 中管理原則套件](manage-policy-packages.md)
 
-[指派策略給小組中的使用者](assign-policies.md)
+[指派策略給小組中的使用者](assign-policies.md) 

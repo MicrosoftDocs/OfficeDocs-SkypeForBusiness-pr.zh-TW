@@ -16,18 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788467"
+ms.locfileid: "46797441"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
 
 ## <a name="august-17-2020"></a>2020年8月17日
+
+### <a name="group-chat-size-increase"></a>群組聊天大小增加
+
+我們新增了在群組聊天中有250參與者的功能。
 
 ### <a name="manage-the-praise-app"></a>管理稱讚應用程式
 
@@ -59,24 +63,29 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 團隊使用者現在可以使用 [清單] 應用程式索引標籤，直接管理、建立和維護其清單。[清單] 應用程式可在所有團隊用戶端上運作，並能在清單專案周圍共同作業及通訊。
 
+## <a name="august-6-2020"></a>2020年8月6日
+
+### <a name="approve-custom-apps"></a>核准自訂應用程式
+
+核准透過團隊 App 提交 API 提交的自訂應用程式。 [深入了解](../submit-approve-custom-apps.md)。
+
 ## <a name="august-3-2020"></a>2020年8月3日
 
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心的團隊協力廠商應用程式購買服務
 
 團隊應用程式可以免費安裝，有些可能需要購買服務訂閱才能體驗 app 的完整功能與範圍。 這些服務訂閱稱為服務 (SaaS) 優惠，可透過 AppSource 購買，並透過 Microsoft 團隊系統管理中心立即購買。 [深入了解](../purchase-third-party-apps.md)。
 
-## <a name="july-31-2020"></a>2020年7月31日
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>系統管理員可以在班次上設定以班次為基礎的狀態 (，而不是針對其第一線員工工作人員的 shift) 
-
-系統管理員可以將他們的第一線員工工作人員設定為使用班式的目前狀態：在 shift 時，在按住 shift) ，然後關閉 shift 鍵，就能切換忙碌的 (。
-[深入了解](../firstline-workers-quickstart.yml)。
-
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用裝置標記功能增強的易管理性
 
 在增強的易管理性中，我們會放開裝置標記功能。 它可讓 IT 管理員將一組特定的裝置與使用者產生的標籤群組，並在相同的情況下執行動作。 [深入了解](/../../manage-device-tags.md)。
+
+## <a name="july-28-2020"></a>2020年7月28日
+
+### <a name="create-your-own-teams-template"></a>建立您自己的團隊範本
+
+您現在可以從管理主控台使用範本來建立您自己的團隊範本，或從現有的範本建立團隊範本。 [深入了解](../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="july-20-2020"></a>2020年7月20日
 
@@ -90,11 +99,23 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 我們新增了可讓 NDI 退出至團隊會議的功能。 NDI 可讓影片製作工具使用會議的音訊和影片。 [深入了解](../use-ndi-in-meetings.md)。
 
+## <a name="july-15-2020"></a>2020年7月15日
+
+### <a name="enable-suggested-replies"></a>啟用建議的回復
+
+開啟此設定以啟用聊天訊息的建議回復。 [深入了解](../messaging-policies-in-teams.md)
+
 ## <a name="july-9-2020"></a>2020年7月9日
 
 ### <a name="voicemail-support-in-call-queues"></a>通話佇列中的語音信箱支援
 
 我們新增了呼叫佇列的支援以使用共用的語音信箱方塊。 [深入了解](../create-a-phone-system-call-queue.md)。
+
+## <a name="july-8-2020"></a>2020年7月8日
+
+### <a name="policy-packaging-batch-assignment"></a>原則封裝批次指派
+
+我們讓您可以使用 PowerShell 來成批指派使用者和群組的原則套件。
 
 ## <a name="july-7-2020"></a>2020年7月7日
 
@@ -116,7 +137,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="install-apps-on-behalf-of-others"></a>代表其他人安裝應用程式
 
-您可以選擇在使用者開始團隊時預設會為使用者安裝哪些 app。 [深入了解](../teams-app-setup-policies.md)
+您可以選擇在使用者開始團隊時預設會為使用者安裝哪些 app。 [深入了解](../teams-app-setup-policies.md)。
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
@@ -124,11 +145,15 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 使用推入式交談立即語音通訊。
 
-## <a name="july-15-2020"></a>2020年7月15日
+## <a name="june-25-2020"></a>2020年6月25日
 
-### <a name="enable-suggested-replies"></a>啟用建議的回復
+### <a name="teams-filter-option"></a>團隊篩選選項
 
-開啟此設定以啟用聊天訊息的建議回復。 [深入了解](../messaging-policies-in-teams.md)
+我們已在命令列中新增篩選選項，讓您可以在搜尋特定團隊時設定特定參數。
+
+### <a name="users-widgets"></a>使用者小工具
+
+我們新增了新的使用者摘要小工具，可在您新增團隊和頻道時使用。
 
 ## <a name="june-21-2020"></a>2020年6月21日
 

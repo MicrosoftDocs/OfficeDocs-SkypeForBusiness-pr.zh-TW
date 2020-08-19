@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 在一部裝置或其他人加入會議時，設定團隊室裝置和 Surface Hub 加入會議。
-ms.openlocfilehash: c1200b4e949cb866440907f8577f61f4528630e2
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: cfd8bd423d8f7765a973d55e42d64773a06bba32
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761431"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803935"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft 團隊聊天室和 Surface Hub 來設定協同會議
 
@@ -52,11 +52,11 @@ ms.locfileid: "46761431"
 
 若要取得團隊聊天室裝置和 Surface Hub 的 Upn，請執行下列動作：
 
-1. 透過造訪登入 Microsoft 365 管理中心 https://admin.microsoft.com
-2. 移至 [**使用者**作用中的  >  **使用者**]
-3. 在 [ **顯示名稱** ] 欄中尋找您團隊聊天室裝置或 Surface Hub 的名稱 (如果您有多個使用者) ，您就可以使用 [ **搜尋** ] 方塊。
-4. 在 [使用者 **名稱** ] 欄中尋找 UPN (它看起來像是 alias@contoso.com 或 alias@contoso.onmicrosoft.com) 
-5. 針對將參與協同會議的每個裝置重複此步驟
+1. 透過造訪登入 Microsoft 365 系統管理中心 https://admin.microsoft.com 。
+2. 移至 [**使用者**作用  >  中的**使用者**]。
+3. 在 [ **顯示名稱** ] 欄中尋找您團隊聊天室裝置或 Surface Hub 的名稱 (如果您有許多使用者) ，您就可以使用 [ **搜尋** ] 方塊。
+4. 在 [使用者 **名稱** ] 欄中尋找 UPN， (它看起來像是 alias@contoso.com 或 alias@contoso.onmicrosoft.com) 。
+5. 針對將參與協同會議的每個裝置，重複此步驟。
 
 ## <a name="step-3-create-a-deployment-worksheet"></a>步驟3：建立部署工作表
 
@@ -71,6 +71,7 @@ ms.locfileid: "46761431"
 | **影片預設值**      | 決定會議開始時，相機在哪一個裝置上起作用。 為了獲得最佳體驗，我們建議您只有在 `true` 所有其他裝置都設定為時，才會將小組聊天室裝置設定為 `false` 。          |
 | **已啟用影片**      | 決定會議中的參與者是否可以開啟或關閉相機。 您可以 `true` 在活動參與者中的任何其他裝置上將此設定為 [共用]， (例如參與者使用 Surface Hub 白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將此選項設定為 `false` 。<p> 如果 [ **影片預設值** ] 設定為 `true` ，則會忽略此設定，且參與者可以開啟或關閉相機。         |
 | **白板預設值** | 判斷小組聊天室裝置是否會顯示由其中一個會議參與者共用的白板。 我們建議您將它設定為 `false` 如果您有 Surface Hub，且您沒有它 `true` 。 此設定不會影響 Surface Hub。 Surface Hub 將永遠顯示由會議參與者共用的白板。         |
+| **已啟用白板** | 決定會議中的參與者是否可以開啟或關閉白板。 如果您不希望參與者在裝置上開啟或關閉白板，請將此選項設定為 `false` 。 <p>如果 [ **白板預設** 設定] 是 [設為] `true` ，則會忽略此設定，且參與者可以開啟或關閉白板。
 | **信任帳戶**   | 這是一個以逗號分隔的 Upn 清單，其中包含裝置應接受會議加入要求的每個小組房間裝置或 Surface Hub，或應傳送給哪個會議連接要求。 |
 
 在後續的欄中，新增每個小組房間裝置和 Surface Hub。 在每一欄中，填入與您想要的會議室相符的值。 以下是一個團隊聊天室裝置和一個 Surface Hub 的範例：
@@ -88,7 +89,7 @@ ms.locfileid: "46761431"
 | **已啟用音訊**      | `true`          | `false`          |
 | **影片預設值**      | `true`          | `false`          |
 | **已啟用影片**      | `true`          | `true`           |
-| **白板預設值** | `false`         | 不適用   |
+| **白板預設值** | `false`         | `false`          |
 | **信任帳戶**   | hub@contoso.com | room@contoso.com |
 
 ## <a name="step-4-configure-teams-rooms-device"></a>步驟4：設定團隊聊天室裝置
@@ -101,17 +102,17 @@ ms.locfileid: "46761431"
 
 若要在裝置上設定協同會議，請執行下列動作：
 
-1. 選取 **.。。其他**  >  **設定**
-2. 輸入系統管理員密碼，然後選取 **[是]**
-3. 選取 [**協調的會議**]
-4. 將 [ **選項**] 底下的 [ **協調會議** ] 設定為 [開啟]
-5. 如果您工作表中的 [ **音訊預設值** ] 是 `true` ，請將 **此裝置的麥克風** 設定為 [開啟]，否則請將其關閉
+1. 選取 **.。。[其他**  >  **設定**]。
+2. 輸入系統管理員密碼，然後選取 **[是]**。
+3. 選取 [ **協調的會議**]。
+4. 在 [ **選項**] 底下，將 [ **協調會議** ] 設定為 [ _開啟_]。
+5. 如果您工作表中的 [ **音訊預設值** ] 是 `true` ，請將 **此裝置的麥克風** 設定為 [開啟]，否則請將其 _關閉_。
 6. 如果您的工作表中**啟用音訊** `true` ，請選取 [**開啟此裝置的麥克風**] 下的 [**讓人員在加入會議時啟用**]。 如果將 **此裝置的麥克風** 設為 [開啟]，則無法關閉此選項。
-7. 如果您工作表中的 [ **影片預設值** ] 是 `true` ，請將 **此裝置的相機** 設定為 [開啟]，否則請將其關閉
-8. 如果您的工作表中啟用了 [**影片**] `true` ，請選取 [**開啟此裝置的相機**] 底下的 [**讓人員在加入會議時啟用**]。 如果將 **此裝置的相機** 設為 [開啟]，則無法關閉此選項。
-9. 如果工作表中的 **白板預設值** 是 `true` ，請將 [ **開啟此裝置上的 whiteboarding** ] 設為 [開啟]，否則請將其關閉
+7. 如果您工作表中的 [ **影片預設值** ] 是 `true` ，請將 **此裝置的相機** 設定為 [開啟]，否則請將其 _關閉_。
+8. 如果您的工作表中啟用了 [**影片**] `true` ，請選取 [**開啟此裝置的相機**] 底下的 [**讓人員在加入會議時啟用**]。 如果將**此裝置的相機**設為 [開啟]，則無法關閉此_選項。_
+9. 如果工作表中的 **白板預設值** 是 `true` ，請將 [ **開啟此裝置上的 whiteboarding** ] 設為 [開啟]，否則 _請_將其 _關閉_。
 10. 在 [ **受信任的裝置帳戶**] 底下，于工作表的 [ **信任帳戶** ] 中，輸入每個 UPN。 使用逗號分隔多個 Upn。
-11. 選取 [**儲存並退出**]
+11. 選取 [ **儲存並**結束]。
 
 在您選取 [ **儲存並**結束] 之後，裝置將會重新開機，並準備好參與協同會議。
 
@@ -126,7 +127,7 @@ ms.locfileid: "46761431"
     <Settings>
         <Audio default="true" enabled="true"/>
         <Video default="true" enabled="true"/>
-        <Whiteboard default="false"/>
+        <Whiteboard default="false" enabled="false"/>
     </Settings>
     <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
@@ -134,15 +135,22 @@ ms.locfileid: "46761431"
 
 若要在裝置上設定協同會議，請執行下列動作：
 
-1. 在文字檔編輯器（例如 Visual Studio 程式碼或記事本）中，將上述 XML 貼到新檔案中
+1. 在文字檔編輯器（例如 Visual Studio 程式碼或記事本）中，將上述 XML 貼到新檔案中。
+
 2. 將每個 XML 元素設定為 `true` `false` 試算表中對應的 or 值。 例如，如果 **音訊預設值** 為 `true` ，請設定 `<Audio default="true">` 。
-3. 請務必變更 `TrustedAccounts` 為您的 upn 清單
-4. 以名稱儲存檔案 `SkypeSettings.xml`
+
+3. 請務必變更 `TrustedAccounts` 為您的 upn 清單。
+
+4. 以名稱儲存檔案 `SkypeSettings.xml` 。
+
 5. 將檔案放在團隊聊天室裝置的 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 資料夾中。 您可以使用下列幾種方法來執行此動作：
+
     - **將檔案複製到您的小組聊天室裝置** 您必須先啟用檔案共用並建立網路共用，才能將檔案複製到您的裝置。 完成之後，您就可以連線到網路共用，並將檔案複製到裝置上。 如需詳細資訊，請參閱 [Microsoft 團隊會議室維護與作業](../rooms/rooms-operations.md)。
     - **使用群組原則** 建立將檔案複製到裝置的群組原則。 如需詳細資訊，請參閱 [群組原則概述](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))。
     - **在團隊聊天室裝置上下載** 檔案您可以使用系統管理模式登入裝置，然後從網路共用或 USB 磁片磁碟機將檔案複製到裝置。 如需詳細資訊，請參閱 [切換到 [管理員模式]](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)。
+    
 6. 重新開機裝置。 您可以透過幾種方式來執行此動作：
+
     - **遠端 PowerShell** 您可以在使用遠端 PowerShell 的裝置上執行 [關閉] 命令。 如需詳細資訊，請參閱 [使用 PowerShell 進行遠端系統管理](../rooms/rooms-operations.md)。
     - **執行重新開機-電腦** 您可以 `Restart-Computer` 在本機電腦上執行 Cmdlet，並指定您想要重新開機之裝置的電腦名稱稱。 如需詳細資訊，請參閱 [重新開機電腦](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7)。
 
@@ -172,15 +180,18 @@ Windows 配置設計工具和 Microsoft Intune 都是用來將 [協調會議] �
 
 請執行下列動作以準備 Windows 配置設計工具或 Microsoft Intune 版 XML：
 
-1. 在文字檔編輯器（例如 Visual Studio 程式碼或記事本）中，將上述 XML 貼到新檔案中
+1. 在文字檔編輯器（例如 Visual Studio 程式碼或記事本）中，將上述 XML 貼到新檔案中。
+
 2. 將每個 XML 元素設定為 `true` `false` 試算表中對應的 or 值。 例如，如果 **音訊預設值** 為 `true` ，請設定 `<Audio default="true">` 。
-3. 請務必變更 `TrustedAccounts` 為您的 upn 清單
+
+3. 請務必變更 `TrustedAccounts` 為您的 upn 清單。
+
 4. Windows 配置設計工具要求 XML 在單一行上。 移除各行之間的所有分行符號，使 XML 看起來像以下這樣：
 
     ```xml
     <SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...
     ```
 
-5. 將檔案儲存在您的電腦上
+5. 將檔案儲存在您的電腦上。
 
 建立 XML 設定檔之後，請使用「 [管理 Surface Hub 上的 Microsoft 團隊設定](surface-hub-manage-config.md) 」中的步驟，將其套用至 surface hub。
