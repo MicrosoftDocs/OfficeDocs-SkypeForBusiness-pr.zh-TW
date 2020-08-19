@@ -143,7 +143,9 @@
 #### [需求](rooms/requirements.md)
 #### [線上授權](rooms/rooms-licensing.md)
 #### [使用 Azure 監視器規劃管理](rooms/azure-monitor-plan.md)
-#### [使用 Microsoft Teams Room Premium 計畫管理](rooms/microsoft-teams-rooms-premium.md)
+#### Microsoft Teams 會議室受管理的服務
+##### [使用 Microsoft Teams 會議室受管理的服務進行規劃管理](rooms/microsoft-teams-rooms-premium.md)
+##### [使用 Microsoft Teams 會議室受管理的服務進行角色型存取控制](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### 部署
 #### [部署概觀](rooms/rooms-deploy.md)
 #### [設定帳戶](rooms/rooms-configure-accounts.md)
