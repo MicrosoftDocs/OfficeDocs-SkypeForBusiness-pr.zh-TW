@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085239"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814099"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -37,8 +37,8 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 ![Outlook 功能區上的 Teams 會議增益集螢幕擷取畫面](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> - 沒有連結至 [團隊] 增益集的**直接 URL** 。
-> - 如果您的組織同時執行 [團隊] 和 [商務用 Skype]，也會有其他的考慮。 在某些情況下，Outlook 中不提供 [團隊] 增益集。 如需詳細資訊，請參閱[從商務用 Skype 升級至小組](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
+> - 沒有連結至 [團隊] 增益集的 **直接 URL** 。
+> - 如果您的組織同時執行 [團隊] 和 [商務用 Skype]，也會有其他的考慮。 在某些情況下，Outlook 中不提供 [團隊] 增益集。 如需詳細資訊，請參閱 [從商務用 Skype 升級至小組](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) 。
 > - 若要在電腦上安裝 Teams 會議增益集，使用者必須具備執行 Regsvr32 .exe 檔案的權限。
 > - 如果使用者沒有看到 Teams 會議增益集，請指示他們關閉 Outlook 和 Teams，然後重新啟動 Teams 用戶端並登入 Teams，接著重新啟動 Outlook 用戶端 (須遵循特定順序)。
 > - 如果您使用的是 Microsoft Store 提供的 Office Outlook 安裝，則不支援 Teams 會議增益集。 針對需要此增益集的使用者，建議您安裝隨選即用的 Office，如 [Windows 10 S 模式上的 Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)一文中所述。
@@ -72,7 +72,7 @@ FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議�
 > [!NOTE]  
 > 如果您已在 [FindTime 儀表板](https://findtime.microsoft.com/UserDashboard)中儲存商務用 Skype 的設定，FindTime 就會使用該設定，而不是使用 Microsoft Teams。 如果您想要使用 Microsoft Teams，請刪除儀表板中的商務用 Skype 設定。
 
-如需詳細資訊，請參閱[使用 FindTime 排程會議](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)。
+如需詳細資訊，請參閱 [使用 FindTime 排程會議](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)。
 
 ## <a name="authentication-requirements"></a>驗證需求
 
@@ -112,14 +112,15 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>設定 [孤島] 模式中的使用者是否只能使用 [團隊會議] 增益集，或同時使用團隊會議增益集及商務用 Skype 會議增益集
 
-身為系統管理員，您可以設定團隊會議原則設定，以控制將哪個 Outlook 會議增益集用於使用*孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
+身為系統管理員，您可以設定團隊會議原則設定，以控制將哪個 Outlook 會議增益集用於使用 *孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
 
-您只能將此原則套用到使用孤島模式的使用者，並在其團隊會議原則中，將**AllowOutlookAddIn**參數設定為**True** 。 如需如何設定此原則的步驟，請參閱以[孤島模式為使用者設定會議提供者](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。
+您只能將此原則套用到使用孤島模式的使用者，並在其團隊會議原則中，將 **AllowOutlookAddIn** 參數設定為 **True** 。 如需如何設定此原則的步驟，請參閱以 [孤島模式為使用者設定會議提供者](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。
 
 ## <a name="other-considerations"></a>其他考量事項
 
 Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
+- [團隊會議] 增益集需要主要使用者排程會議的 Exchange 信箱。 確定您的 Outlook 設定檔中至少有一個 Exchange 信箱已設定，並使用它來安排團隊會議與增益集。 如需 Exchange 需求，請參閱 [exchange 與團隊如何互動](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)。
 - 此增益集適用於具有特定參與者的排程會議 (不適用於頻道中的會議)。 頻道會議必須從 Teams 內排程。
 - 如果驗證 Proxy 位於使用者電腦和團隊服務的網路路徑中，增益集將無法運作。
 - 使用者無法從 Outlook 中安排即時活動。 請移至 Teams 以安排即時活動。 如需詳細資訊，請參閱[什麼是 Microsoft Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)。
@@ -134,13 +135,13 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 如果您無法取得適用於 Outlook 的 Teams 會議增益集，請嘗試這些疑難排解步驟。
 
-[下載](https://aka.ms/SaRA-TeamsAddInScenario)並執行[Microsoft 支援修復](https://aka.ms/SaRA_Home)小幫手，以執行自動疑難排解步驟和修正程式。
+[下載](https://aka.ms/SaRA-TeamsAddInScenario) 並執行 [Microsoft 支援修復](https://aka.ms/SaRA_Home) 小幫手，以執行自動疑難排解步驟和修正程式。
 
 或者，您也可以手動執行下列步驟：
 
-- Windows 7 使用者必須[在 Windows 中安裝通用 C 運行](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)時間的更新，小組會議增益集才能運作。
-- 確認使用者擁有小組升級原則，可在小組中排程會議。 如需詳細資訊，請參閱[從商務用 Skype 升級至團隊](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
-- 確認使用者擁有允許 Outlook 增益集的小組會議原則。 如需詳細資訊，請參閱[在團隊中管理會議原則](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
+- Windows 7 使用者必須 [在 Windows 中安裝通用 C 運行](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) 時間的更新，小組會議增益集才能運作。
+- 確認使用者擁有小組升級原則，可在小組中排程會議。 如需詳細資訊，請參閱 [從商務用 Skype 升級至團隊](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) 。
+- 確認使用者擁有允許 Outlook 增益集的小組會議原則。 如需詳細資訊，請參閱 [在團隊中管理會議原則](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) 。
 - 確定使用者已安裝 [團隊桌面用戶端]。 只有使用團隊網頁用戶端時，才能安裝會議增益集。
 - 確定使用者已安裝 Outlook 2013 或更新版本。
 - 確認使用者擁有執行 regsvr32.exe 的許可權。
@@ -148,18 +149,18 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 - 請遵循下列步驟：
   - 重新啟動 Teams 桌面版用戶端。
   - 登出 Teams 桌面用戶端，然後重新登入。
-  - 重新啟動 Outlook 桌面用戶端。 （請確定 Outlook 未在系統管理員模式下執行）。
+  - 重新啟動 Outlook 桌面用戶端。  (確定 Outlook 未在系統管理員模式下執行。 ) 
 
 如果您仍然沒有看到增益集，請確認它沒有在 Outlook 中停用。
 
-- 在 Outlook 中，**選擇 [檔案]，然後**選擇 [**選項**]。
+- 在 Outlook 中， **選擇 [檔案]，然後** 選擇 [ **選項**]。
 - 選取 [ **Outlook 選項**] 對話方塊的 [**增益集**] 索引標籤。
-- 確認 microsoft **Office 的 Microsoft 團隊會議載入**宏已列于 [作用中的**應用程式增益集**] 清單中
+- 確認 microsoft **Office 的 Microsoft 團隊會議載入** 宏已列于 [作用中的 **應用程式增益集** ] 清單中
 - 如果 [團隊會議] 增益集列于 [**停用的應用程式增益集**] 清單中，請選取 [**管理**] 中**的 [COM 增益集**]，然後選取 [執行 **...** ]。
-- 在**Microsoft Office 的 [Microsoft 團隊會議增益集**] 旁，設定核取方塊。
+- 在 **Microsoft Office 的 [Microsoft 團隊會議增益集**] 旁，設定核取方塊。
 - 在所有對話方塊中選擇 **[確定]** ，然後重新開機 Outlook。
 
-如需有關如何管理增益集的一般指導方針，請參閱[在 Office 程式中查看、管理及安裝增益集](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
+如需有關如何管理增益集的一般指導方針，請參閱 [在 Office 程式中查看、管理及安裝增益集](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
 
 如果該增益集仍未顯示，請使用下列步驟驗證登錄設定。
 

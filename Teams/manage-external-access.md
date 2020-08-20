@@ -20,12 +20,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域的外�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0aa8cd2ac27bac7bf5159512801670270791f903
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e845012b35bddc32c357d416d8fbb2cbe160d84a
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583862"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814189"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 ======================================================
@@ -43,7 +43,7 @@ ms.locfileid: "46583862"
 - 您希望全球的任何其他 Teams 使用者能夠利用您的電子郵件地址找到您並與您連絡。 
 
 > [!IMPORTANT]
-> 目前，要在 Microsoft Teams 應用程式中與不是 Azure Active Directory (Azure AD) 來賓或租用戶的組織外部使用者同盟，您必須正確設定混合式部署並移到商務用 Skype Online。 自 2019 年 2 月 25 日起，如果 SIP 設定檔的使用者不在商務用 Skype Online 中，Teams 將不再支援原生同盟。 如需有關設定混合式部署並移至 Teams 的詳細資訊，請參閱[將商務用 Skype 混合式部署升級至 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
+> 目前，要在 Microsoft Teams 應用程式中與不是 Azure Active Directory (Azure AD) 來賓或租用戶的組織外部使用者同盟，您必須正確設定混合式部署並移到商務用 Skype Online。 從2019年2月25日起，小組不支援 **原生** 同盟，且不需要 SIP 設定檔的使用者駐留在商務用 Skype Online 中。 如需有關設定混合式部署並移至 Teams 的詳細資訊，請參閱[將商務用 Skype 混合式部署升級至 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
 
 ## <a name="plan-for-external-access"></a>規劃外部存取
 
@@ -59,7 +59,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 ## <a name="allow-or-block-domains"></a>允許或封鎖網域
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>步驟 1 - 讓您的組織與其他 Teams 組織通訊
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>步驟 1-讓您的組織與其他小組或商務用 Skype 組織溝通
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
@@ -95,25 +95,6 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 > [!NOTE]
 > 如果您和另一位使用者都開啟外部存取並允許彼此的網域，應該就可以外部存取。 如果行不通，另一位使用者應確定其設定沒有封鎖您的網域。
 
-## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>與商務用 Skype Online 組織中的使用者通訊
-
-如果您要設定外部存取，讓您的 Teams 使用者可以尋找及聯繫商務用 Skype 組織的使用者，但對方組織限制誰可以與他們的使用者聯繫，請按照下列步驟設定從您的網域到對方組織網域的外部存取。 然後要求對方組織的系統管理員按照下列步驟設定商務用 Skype Online 的外部存取。
-
-如需常見商務用 Skype Online 案例的特定指導方針，請參閱下方的[常見的外部存取案例](#common-external-access-scenarios)。
-
-![商務用 Skype 標誌圖示](media/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
-
-請對方組織的系統管理員執行下列步驟：
-
-1. 在 Microsoft 365 系統管理中心，移至 [系統管理中心]****  >  [Teams & Skype]****  >  [舊版入口網站]****。
-  
-2. 在 [商務用 Skype 系統管理中心]****，選擇 [組織]****  >  [外部通訊]****。
-
-3. 若要設定與特定公司或其他網域中的使用者進行通訊，請在下拉式方塊中選擇 [僅對允許的網域開啟]****。
-
-    或者，如果他們想要與世界各地有開啟商務用 Skype 原則的其他人通訊，請選擇 [對封鎖網域以外的網域開啟]****。 這是預設設定。
-
-4. 在 [封鎖或允許的網域]**** 底下，選擇 **+**，然後新增您要允許的網域名稱。
 
 ## <a name="communicate-with-skype-users-in-preview"></a>與 Skype 使用者通訊 (預覽)
 
@@ -125,7 +106,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 2. 開啟 [使用者可以與 Skype 使用者通訊]**** 設定。
 
-    ![螢幕擷取畫面：開啟 [使用者可以與 Skype 使用者通訊] 設定](media/manage-external-access-5.png)。
+    ![螢幕擷取畫面：開啟 [使用者可以與 Skype 使用者通訊] 設定](media/manage-external-access-5.png).
 
 若要深入瞭解 Teams 使用者和 Skype 使用者的通訊方式 (包括通訊的限制)，請參閱 [Teams 和 Skype 的互通性](teams-skype-interop.md)。
 
@@ -136,10 +117,11 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 |讓組織中的 **Teams 使用者**能夠與其他 (外部) 組織中的 **Teams 使用者**通訊。|在 [外部存取] 中，將外部網域新增到 [允許清單] 或使用開放式同盟。 然後請其他 Teams 組織的系統管理員執行相同的動作。      |
 |讓組織中的 **Teams 使用者**能夠與相同組織中的**商務用 Skype Online 使用者**通訊。  |啟用「共存」模式，或選擇 Islands 升級模式來支援貴組織中商務用 Skype 使用者。   |
 |讓組織中的 **Teams 使用者**能夠與其他 (外部) 組織中的**商務用 Skype Online 使用者**通訊。      |在 [外部存取] 中，將外部網域新增到 [允許清單] 或使用開放式同盟。 <br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。 <br><br>**注意**：商務用 Skype 使用者所屬的外部網域必須啟用「共存」模式，或選擇 Islands 升級模式來支援該組織中的商務用 Skype 使用者。|
+|讓您組織中的 **小組使用者** 與其他 (外部) 組織中的 **商務用 Skype 內部部署使用者** 進行通訊。      |在 [外部存取] 中，將外部網域新增到 [允許清單] 或使用開放式同盟。 <br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後讓其他組織中的系統管理員設定商務用 Skype 內部部署伺服器，以允許與您的網域進行同盟。|
 |讓組織中的 **Teams 使用者**能夠與 **Skype** 使用者通訊。<br> (預覽)  |開啟 [外部存取] 中的 [使用者可以與 Skype 使用者通訊]**** 設定。 |
-|讓您的**商務用 Skype Online 使用者**與另一個 Microsoft 365 或 Office 365 中的**小組使用者**進行通訊。| 如果您的使用者屬於下列其中一種升級模式，且其他組織的 Teams 使用者是在 TeamsOnly 模式，您的商務用 Skype Online 使用者就可以與其他組織中的 Teams 使用者通訊：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。 <br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。|
-|讓您的**商務用 Skype online 使用者**與其他 Microsoft 365 或 Office 365 中的**商務用 skype online 使用者**進行通訊。    | 如果您的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，且其他組織的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，您的商務用 Skype Online 使用者就可以與其他組織中的商務用 Skype Online 使用者通訊。<br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。|
-|讓您的**商務用 Skype Online 使用者**與其他內部部署組織的**商務用 Skype 使用者**通訊。     |如果您的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，且其他組織的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，您的商務用 Skype Online 使用者就可以與內部部署組織中的商務用 Skype 使用者通訊。<br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。|
+|讓您的 **商務用 Skype Online 使用者** 與另一個 Microsoft 365 或 Office 365 中的 **小組使用者** 進行通訊。| 如果您的使用者屬於下列其中一種升級模式，且其他組織的 Teams 使用者是在 TeamsOnly 模式，您的商務用 Skype Online 使用者就可以與其他組織中的 Teams 使用者通訊：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。 <br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。|
+|讓您的 **商務用 Skype online 使用者** 與其他 Microsoft 365 或 Office 365 中的 **商務用 skype online 使用者** 進行通訊。    | 如果您的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，且其他組織的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，您的商務用 Skype Online 使用者就可以與其他組織中的商務用 Skype Online 使用者通訊。<br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。|
+|讓您的**商務用 Skype Online 使用者**與其他內部部署組織的**商務用 Skype 使用者**通訊。     |如果您的使用者是下列其中一種升級模式，您的商務用 Skype Online 使用者可以與商務用 Skype 使用者進行通訊： Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。 <br><br> 開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後讓其他組織中的系統管理員設定商務用 Skype 內部部署伺服器，以允許與您的網域進行同盟。|
 |讓您的**商務用 Skype Online 使用者**與貴組織內部或外部的 **Skype 使用者**通訊。   |開啟 [外部存取] 中的 [使用者可以與 Skype 使用者通訊]**** 設定。|
 
 > [!IMPORTANT]
