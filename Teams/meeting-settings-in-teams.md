@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 559dcc8a2f5e38c4c35ba7794241e69402a092ef
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: b1c71c4b22b90c38e4b34eebd745b85f7d27e86c
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526709"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824944"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -38,7 +38,7 @@ ms.locfileid: "46526709"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-您必須是團隊服務管理員，才能進行這些變更。 請參閱[使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles)，瞭解如何取得管理員角色和許可權。
+您必須是團隊服務管理員，才能進行這些變更。 請參閱 [使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，瞭解如何取得管理員角色和許可權。
 
 1. 移至系統管理中心。
 
@@ -85,10 +85,10 @@ ms.locfileid: "46526709"
 
 <a name="bknetwork"> </a>
 
-如果您使用的是服務品質（QoS）來設定網路流量的優先順序，您可以為每種媒體流量啟用 QoS 標記和設定埠範圍。 針對不同流量類型設定連接埠範圍，在處理即時媒體中只需一個步驟；如需更多詳細資訊，請參閱 [Teams 中的服務品質 (QoS)](qos-in-teams.md)。
+如果您使用的是服務品質 (QoS) 來排定網路流量的優先順序，您可以為每種媒體流量啟用 QoS 標記和設定埠範圍。 針對不同流量類型設定連接埠範圍，在處理即時媒體中只需一個步驟；如需更多詳細資訊，請參閱 [Teams 中的服務品質 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
-> 如果您在 [團隊服務] 的 Microsoft [團隊管理中心] 啟用 [QoS] 或 [變更設定]，您也必須[將 [相符] 設定套用到所有的使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，才能完全實現團隊中的 QoS 變更。
+> 如果您在 [團隊服務] 的 Microsoft [團隊管理中心] 啟用 [QoS] 或 [變更設定]，您也必須 [將 [相符] 設定套用到所有的使用者裝置](QoS-in-Teams-clients.md) 和所有內部網路裝置，才能完全實現團隊中的 QoS 變更。
 
  ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 1. 移至系統管理中心。
@@ -99,8 +99,11 @@ ms.locfileid: "46526709"
 
     - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]****。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > DSCP 標記通常是透過來源埠完成，而 UDP 流量預設會以3478的目的地埠路由到傳輸中繼。 如果您的公司需要在目的地埠上加上標記，請聯絡支援人員，以便使用 UDP 埠3479（音訊）、3480（影片）和3481（共用）來與傳輸中繼進行通訊。
-    - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍]**** 旁選取 [指定連接埠範圍]****，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。 若要實作 QoS，需要選取此選項。
+        > DSCP 標記通常是透過來源埠完成，而 UDP 流量預設會以3478的目的地埠路由到傳輸中繼。 如果您的公司需要在目的地埠上加上標記，請聯絡支援人員來啟用傳輸中繼與 UDP 埠 3479 (音訊) 、3480 (視頻) ，以及 3481 (共用) 。
+    - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍]**** 旁選取 [指定連接埠範圍]****，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。 若要實作 QoS，需要選取此選項。 
+        > [!Note]
+        > 如果已開啟 **即時媒體流量的服務品質 (QoS) 標記** ，則您必須管理您的埠設定。 它們不會自動進行管理。
+        
         > [!IMPORTANT]
         > 如果您選取 [自動使用任何可用的連接埠]****，則會使用 1024 和 65535 之間的可用連接埠。 只有在不實作 QoS 時才使用此選項。
         >

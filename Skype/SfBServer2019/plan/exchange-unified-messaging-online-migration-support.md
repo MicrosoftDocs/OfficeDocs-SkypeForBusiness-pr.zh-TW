@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778035"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824894"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -176,6 +176,7 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 | Vm | 租使用者-系統管理功能 | 語音信箱原則    |   | Y | Y    |
 | Vm | 租使用者-系統管理功能 | 網頁入口網站管理   |  | CY19   | Y    |
 | Vm | 租使用者-系統管理功能 | PowerShell   |  | Y | Y    |
+| UM | 使用者功能 | 商務用 Skype 已驗證電話上的訊息等待指示器 (MWI)    |可由電話合作夥伴提供  | 否 | 是    |
 | 機 管 局 | 服務功能 | AA 支援協力廠商 PBX    |  | N | Y    |
 | 機 管 局 | 服務功能 | 支援商務用 Skype Server   |  | Y | Y    |
 | 機 管 局 | 服務功能 | 支援 Microsoft 團隊|  | Y | N    |

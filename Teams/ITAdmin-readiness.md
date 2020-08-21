@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 588142484cbed850f042a1f0b04b862416327eab
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 1e083ee323ba3c4e8c61c9520c56b0d6af261fa6
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672744"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845555"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
@@ -52,6 +52,23 @@ ms.locfileid: "46672744"
 | 電話系統簡介 | [影片](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [影片1：規劃直接在小組中傳送 ](https://aka.ms/teams-dr-plan)<br>[影片2：在團隊中設定和管理直接路由](https://aka.ms/teams-dr-config)<br>[影片3：在團隊中遷移至直接路由](https://aka.ms/teams-dr-migrate)  | [文稿](https://aka.ms/teams-direct-routing-deck) |
 | 從商務用 Skype 升級至 Teams | [影片1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片4：管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
+
+<h3>IT & AV 專業人員的小組房間基礎</h3>
+
+<p>下表包含在 Microsoft 團隊聊天室上隨附 PowerPoint 卡座的完整影片訓練連結。  
+
+| 模組 | 影片 | PowerPoint 投影片組  |
+| ------------ | -------------------- | -------------------- |
+| 模組1： Microsoft 團隊聊天室的簡介 (18:29 分鐘)  | [影片](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| 模組2： Microsoft 團隊網路 (34:10 分鐘)  | [影片](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| 模組3：針對正確的空間選擇正確的裝置 (18:45 分鐘)  | [影片](https://www.youtube.com/watch?v=jUac7mT7xP4) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| 模組4：部署 Microsoft 團隊會議室 (56:36 分鐘)  | [影片](https://www.youtube.com/watch?v=IJZPczMAsEM) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| 模組5：設定和啟動 Microsoft 團隊聊天室 (32:27 分鐘)  | [影片](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| 模組6：管理 Microsoft 團隊聊天室，第 1 (18:31 分鐘)  | [影片](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| 模組7：管理 Microsoft 團隊聊天室，第2部分 (41:06 分鐘)  | [影片](https://www.youtube.com/watch?v=vDCYM5sKylc) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| 模組8： Microsoft 團隊聊天室--提示、訣竅及疑難排解 (18:14 分鐘) |[影片](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 單觸連接指示 |  | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+
 
 <h2>快速入門手冊</h2>
 
