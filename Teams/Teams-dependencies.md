@@ -18,12 +18,12 @@ f1.keywords:
 description: 透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9ecf6893539204909bb6f583bbba982e8ee8d19
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6bf763caf0b44490ee578f0bf130a1d4db56a3b
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656154"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845565"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授權來賓存取
 ===========================================
@@ -60,7 +60,13 @@ ms.locfileid: "46656154"
 
 Azure AD 包含有下列設定可設定外部使用者：
 
-- **[來賓使用者權限受限]**：**[是]** 表示來賓沒有某些目錄工作的權限，例如列舉使用者、群組或其他目錄資源。 此外，來賓不能指派為您目錄中的系統管理角色。 **[否]** 表示來賓與您目錄中的一般使用者一樣，擁有相同的目錄資料存取權。
+- **來賓使用者存取權限制**：此原則會決定來賓在目錄中的權限。 有三個原則選項。
+
+    - **[來賓使用者的存取權和成員相同 (最包容)]** 設定表示來賓擁有的目錄資料存取權，與目錄中的一般使用者相同。
+    - **[來賓使用者對目錄物件的屬性和成員資格擁有有限的存取權]** 設定表示來賓沒有特定目錄工作的權限，例如列舉使用者、群組，或使用 Microsoft Graph 的其他目錄資源。
+    - **[來賓使用者存取權受限於其自身目錄物件的屬性和成員資格 (最受限制)]** 設定表示來賓只能存取自己的目錄物件。
+    
+  若要深入了解，請參閱 [Azure Active Directory 中的預設使用者權限為何？](https://go.microsoft.com/fwlink/?linkid=2135493)
 - **[系統管理員與來賓邀請者角色中的使用者可以邀請]**：**[是]** 表示系統管理員和來賓邀請者角色中的使用者將可以邀請來賓加入租用戶。 **[否]** 表示系統管理員和使用者無法邀請來賓加入租用戶。
 - **成員可邀請**：若要允許您目錄中的非系統管理員成員邀請來賓，請將此原則設定為 **[是]** (建議使用)。 如果您希望只讓系統管理員新增來賓，可以將此原則設定為 **[否]**。 請記住，設定為 **[否]** 將會限制非系統管理員小組擁有者的來賓體驗；他們只能在已由系統管理員在 AAD 中新增的 Teams 中新增來賓。
 - **[來賓可邀請]**：**[是]** 表示目錄中的來賓可以邀請其他來賓，在受 Azure AD 保護的資源 (例如 SharePoint 網站或 Azure 資源) 上共同作業。 **[否]** 表示來賓無法邀請其他來賓與貴組織共同作業。
@@ -76,7 +82,6 @@ Azure AD 包含有下列設定可設定外部使用者：
 
 ### <a name="licensing-for-guest-access"></a>來賓存取的授權
 來賓存取的授權是 Azure AD 授權的一部分。 來賓存取隨附於所有 Microsoft 365 商務標準版和 Office 365 企業版訂閱。 如需有關授權的詳細資訊，請參閱 [Azure Active Directory B2B 共同作業授權指引](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
-
 
 > [!NOTE]
 > 僅擁有獨立版 Office 365 訂閱方案 (例如 Exchange Online Plan 2) 的組織使用者將無法受邀為貴組織的來賓，因為 Teams 認為這些使用者屬於相同的組織。 若要讓這些使用者使用 Teams，這些使用者必須獲派 Microsoft 365 商務標準版、Office 365 企業版或 Office 365 教育版訂閱。 

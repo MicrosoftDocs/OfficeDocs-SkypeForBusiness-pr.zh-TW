@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634729"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860794"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>在團隊管理主控台中開始使用團隊範本
 
@@ -35,7 +35,7 @@ ms.locfileid: "46634729"
 > [!NOTE]
 > 團隊範本目前不支援建立專用頻道。 範本定義中不包含專用通道建立。
 
-團隊範本是預先建立的小組結構定義，它是圍繞業務需求或專案設計的。 使用預先建立的範本或建立您自己的範本。 團隊範本可讓您使用不同主題的頻道快速建立豐富的共同作業空間，並預先安裝 app 來拉入重要的內容和服務。 團隊範本提供預先定義的小組結構，可協助您在組織中輕鬆建立一致的團隊。 目前您可以從小組中的範本或使用[Microsoft Graph](get-started-with-teams-templates.md)來建立小組。
+團隊範本是預先建立的小組結構定義，它是圍繞業務需求或專案設計的。 使用預先建立的範本或建立您自己的範本。 團隊範本可讓您使用不同主題的頻道快速建立豐富的共同作業空間，並預先安裝 app 來拉入重要的內容和服務。 團隊範本提供預先定義的小組結構，可協助您在組織中輕鬆建立一致的團隊。 目前您可以從小組中的範本或使用 [Microsoft Graph](get-started-with-teams-templates.md)來建立小組。
 
 在本文中，我們將說明可在範本中定義的屬性、基底範本類型，以及如何使用幾個範例要求來從範本建立小組。
 
@@ -71,7 +71,6 @@ ms.locfileid: "46634729"
 > [!NOTE]
 > 您可以複製 Microsoft 團隊中提供的預先定義基礎範本，但無法進行編輯。
 
-
 | 基底範本類型 | 此基礎範本隨附的屬性 |
 | ------------------ |----------------------------------------------------- |
 | 採納 Office 365 |  管道 <ul><li>一般</li> <li>公告</li> <li>擁護方角落</li> <li>小組表單</li></ul> 應用 <ul><li>Wiki</li>  <li>行事曆</li> |
@@ -88,6 +87,22 @@ ms.locfileid: "46634729"
 |品質與安全性 |管道 <ul><li>一般<li>公告</li><li>行1</li><li>第2行</li><li>第3行</li><li>安全</li><li>訓練</li><li>保養</li><li>有趣的內容</li></ul> 應用 <ul><li>Wiki</li></ul>|
 |零售經理共同作業 |管道 <ul><li>一般<li>營運</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
 |||
+
+## <a name="template-size-limits"></a>範本大小限制
+
+範本僅限特定數量的頻道、索引標籤和應用程式。
+
+ > [!Note]
+ > 從範本建立之後，您可以在小組中新增更多頻道、索引標籤和應用程式。
+
+|功能 | 期限|
+|-|-|
+|每個範本的頻道 | 工資 |
+|範本中的每個頻道索引標籤 | 20 |
+|每個範本的 app | 50|
+|||
+
+如需詳細資訊，請參閱 [小組的限制與規格](limits-specifications-teams.md) 。
 
 ## <a name="related-topics"></a>相關主題
 
