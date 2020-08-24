@@ -112,7 +112,6 @@
 # 應用程式、Bot 和連接器
 
 ## [概觀](deploy-apps-microsoft-teams-landing-page.md)
-## [應用程式的權限和考量](app-permissions.md)
 ## [管理 Teams 應用程式](manage-apps.md)
 ## [在 Teams 中的應用程式系統管理設定](admin-settings.md)
 ## [使用內建和自訂索引標籤](built-in-custom-tabs.md)
@@ -121,6 +120,8 @@
 ## [發佈透過 Teams 應用程式提交 API 所提交的自訂應用程式](submit-approve-custom-apps.md)
 ## [透過上傳應用程式套件發佈自訂應用程式](upload-custom-apps.md)
 ## [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [應用程式權限和考量](app-permissions.md)
+## [為 Teams 協力廠商應用程式購買服務](purchase-third-party-apps.md)
 ## [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
 ## [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
@@ -707,6 +708,7 @@
 ### [Microsoft 365 政府版的方案 - GCC High](plan-for-government-gcc-high.md)
 ### [Microsoft 365 政府版的方案 - DoD](plan-for-government-dod.md)
 ### [適用於 GCC High 和 DoD 的音訊會議搭配直接路由](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [適用於政府的 Teams 原則套件](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
