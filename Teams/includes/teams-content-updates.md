@@ -3,127 +3,6 @@
 
 
 
-## <a name="week-of-july-06-2020"></a>2020年7月6日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 7/7/2020 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
-| 7/7/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 7/7/2020 | [將會話邊界控制器 (SBC) 連線至直接路由](/MicrosoftTeams/direct-routing-connect-the-sbc) | 日期 |
-| 7/7/2020 | [翻譯直接傳送的電話號碼](/MicrosoftTeams/direct-routing-translate-numbers) | 日期 |
-| 7/7/2020 | [呼出通話限制-語音會議 & PSTN 通話](/MicrosoftTeams/outbound-calling-restriction-policies) | 日期 |
-| 7/7/2020 | [查看音訊會議的號碼清單](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | 日期 |
-| 7/7/2020 | [Microsoft 團隊 PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 日期 |
-| 7/7/2020 | [什麼是雲端自動語音應答？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 日期 |
-| 7/8/2020 | [商務用 Skype Online 和 Microsoft Teams 的輔助工具解決方案](/MicrosoftTeams/accessibility-solutions-in-france) | 日期 |
-| 7/8/2020 | [設定動態緊急電話](/MicrosoftTeams/configure-dynamic-emergency-calling) | 日期 |
-| 7/8/2020 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
-| 7/8/2020 | [Microsoft 團隊中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams) | 日期 |
-| 7/8/2020 | [從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 日期 |
-| 7/8/2020 | [Microsoft 團隊的操作指南](/MicrosoftTeams/1-drive-value-operate-my-service) | 日期 |
-| 7/8/2020 | [使用 CQD PSTN Direct 路由報告](/MicrosoftTeams/cqd-pstn-report) | 日期 |
-| 7/8/2020 | [安裝 Power BI 連接器以使用 CQD 查詢範本](/MicrosoftTeams/cqd-power-bi-connector) | 日期 |
-| 7/8/2020 | [使用 Power BI 來分析 Microsoft 團隊的 CQD 資料](/MicrosoftTeams/cqd-power-bi-query-templates) | 日期 |
-| 7/8/2020 | [在 Power BI 中使用 CQD 資料來查看 Microsoft 團隊利用率](/MicrosoftTeams/cqd-teams-utilization-report) | 日期 |
-| 7/8/2020 | [在 Microsoft 團隊用戶端中實現服務品質 (QoS) ](/MicrosoftTeams/qos-in-teams-clients) | 日期 |
-| 7/8/2020 | [在 Microsoft 團隊中實現服務品質](/MicrosoftTeams/qos-in-teams) | 日期 |
-| 7/8/2020 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 日期 |
-| 7/8/2020 | [Microsoft 團隊中應用程式的系統管理設定](/MicrosoftTeams/admin-settings) | 日期 |
-| 7/8/2020 | [在 Microsoft Teams 中封存或刪除團隊](/MicrosoftTeams/archive-or-delete-a-team) | 日期 |
-| 7/8/2020 | [監控通話品質](/MicrosoftTeams/business-voice/monitor-quality) | 日期 |
-| 7/8/2020 | [疑難排解團隊用戶端的連線問題](/MicrosoftTeams/connectivity-issues) | 日期 |
-| 7/8/2020 | [在 Microsoft Teams 中建立全組織小組](/MicrosoftTeams/create-an-org-wide-team) | 日期 |
-| 7/8/2020 | [Microsoft 團隊中的 app、bot、& 連接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 日期 |
-| 7/8/2020 | [設定音訊會議設定 - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 日期 |
-| 7/8/2020 | [Microsoft Teams 中的會議和召集會議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 日期 |
-| 7/8/2020 | 通話分析和通話品質儀表板 | 移除 |
-| 7/8/2020 | [尺寸與測量-通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
-| 7/8/2020 | [在 Microsoft 團隊中取得協助](/MicrosoftTeams/get-help-in-microsoft-teams) | 日期 |
-| 7/8/2020 | [新增和更新報告標籤](/MicrosoftTeams/learn-more-about-site-upload) | 日期 |
-| 7/8/2020 | [在團隊中接收有關舊版系統的訊息和通話問題](/MicrosoftTeams/legacy-login-issues) | 日期 |
-| 7/8/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 7/8/2020 | [在 Microsoft 團隊的疑難排解中使用記錄檔](/MicrosoftTeams/log-files) | 日期 |
-| 7/8/2020 | [在 Microsoft 團隊系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 日期 |
-| 7/8/2020 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
-| 7/8/2020 | [監控並改善 Microsoft 團隊的通話品質](/MicrosoftTeams/monitor-call-quality-qos) | 日期 |
-| 7/8/2020 | [使用 Microsoft 端點建構管理員安裝團隊](/MicrosoftTeams/msi-deployment) | 日期 |
-| 7/8/2020 | [使用 Microsoft 團隊的網路 planner](/MicrosoftTeams/network-planner) | 日期 |
-| 7/8/2020 | [[加入檢查清單]-啟用 Microsoft 365 或 Office 365 服務](/MicrosoftTeams/onboarding-checklist-enable-office-365) | 日期 |
-| 7/8/2020 | [針對 Teams 準備組織的網路](/MicrosoftTeams/prepare-network) | 日期 |
-| 7/8/2020 | [在 Microsoft 團隊中使用 CQD 管理通話與會議品質](/MicrosoftTeams/quality-of-experience-review-guide) | 日期 |
-| 7/8/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
-| 7/8/2020 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
-| 7/8/2020 | [部署 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-deploy) | 日期 |
-| 7/8/2020 | [Microsoft 團隊聊天室的管理概述](/MicrosoftTeams/rooms/rooms-manage) | 日期 |
-| 7/8/2020 | [驗證 Microsoft 團隊的服務健康情況](/MicrosoftTeams/service-health) | 日期 |
-| 7/8/2020 | [設定 Microsoft 團隊的呼叫分析](/MicrosoftTeams/set-up-call-analytics) | 日期 |
-| 7/8/2020 | [使用新式驗證登入 Teams](/MicrosoftTeams/sign-in-teams) | 日期 |
-| 7/8/2020 | [通話品質儀表板中的資料流程分類 (CQD) ](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 日期 |
-| 7/8/2020 | [安裝 Microsoft 團隊 PowerShell](/MicrosoftTeams/teams-powershell-install) | 日期 |
-| 7/8/2020 | [針對 Microsoft Teams 中的來賓存取問題進行疑難排解](/MicrosoftTeams/troubleshoot-guest-access) | 日期 |
-| 7/8/2020 | [針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解](/MicrosoftTeams/troubleshoot-installation) | 日期 |
-| 7/8/2020 | [設定通話品質儀表板 (CQD) ](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
-| 7/8/2020 | [使用網路 Planner-範例案例](/MicrosoftTeams/tutorial-network-planner-example) | 日期 |
-| 7/8/2020 | [使用者體驗的品質 \| Microsoft 團隊的 [ \| QoS \| 通話品質]](/MicrosoftTeams/upgrade-monitor-quality) | 日期 |
-| 7/8/2020 | [Microsoft 團隊 \| 服務管理品質的 \| 作業](/MicrosoftTeams/upgrade-operate-my-service) | 日期 |
-| 7/8/2020 | [Microsoft 團隊 \| IT 支援管理員問題的訓練](/MicrosoftTeams/upgrade-prepare-it-pros) | 日期 |
-| 7/8/2020 | [使用呼叫分析來排查不佳的通話品質問題](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | 日期 |
-| 7/9/2020 | [Microsoft 團隊的敏感度標籤](/MicrosoftTeams/sensitivity-labels) | 日期 |
-| 7/10/2020 | [在 Microsoft Teams 中授權來賓存取](/MicrosoftTeams/teams-dependencies) | 日期 |
-| 7/10/2020 | [病患應用程式概觀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 日期 |
-
-
-## <a name="week-of-july-13-2020"></a>2020年7月13日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 7/14/2020 | [在 Microsoft Teams 中與其他組織的使用者通訊](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 日期 |
-| 7/14/2020 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
-| 7/14/2020 | [遠端更新 Microsoft 團隊裝置](/MicrosoftTeams/devices/remote-update) | 日期 |
-| 7/14/2020 | [準備您的環境](/MicrosoftTeams/rooms/rooms-prep) | 日期 |
-| 7/14/2020 | [設定通用區域電話授權](/MicrosoftTeams/set-up-common-area-phones) | 日期 |
-| 7/14/2020 | [Microsoft 團隊中的共用線條外觀](/MicrosoftTeams/shared-line-appearance) | 日期 |
-| 7/14/2020 | [小型企業範例-設定自動助手](/MicrosoftTeams/tutorial-org-aa) | 日期 |
-| 7/14/2020 | [安裝 Power BI 連接器以使用 CQD 查詢範本](/MicrosoftTeams/cqd-power-bi-connector) | 日期 |
-| 7/14/2020 | [常見問題 - 支援遠端員工](/MicrosoftTeams/faq-support-remote-workforce) | 日期 |
-| 7/14/2020 | [Microsoft 團隊中的會議](/MicrosoftTeams/tutorial-meetings-in-teams) | 日期 |
-| 7/14/2020 | [開始使用適用於醫療保健組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
-| 7/14/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 7/14/2020 | [為您的使用者設定語音來電功能](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 日期 |
-| 7/14/2020 | [在 Microsoft 團隊中共用檔案](/MicrosoftTeams/sharing-files-in-teams) | 相加 |
-| 7/15/2020 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
-| 7/15/2020 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
-| 7/15/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 7/15/2020 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
-| 7/15/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
-| 7/15/2020 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
-| 7/15/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 7/15/2020 | [在 Microsoft 團隊系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 日期 |
-| 7/15/2020 | [Microsoft 團隊系統管理中心的團隊協力廠商應用程式購買服務](/MicrosoftTeams/purchase-third-party-apps) | 日期 |
-| 7/16/2020 | [什麼是撥號對應表？](/MicrosoftTeams/what-are-dial-plans) | 日期 |
-| 7/16/2020 | [Microsoft Teams 的雲端語音](/MicrosoftTeams/cloud-voice-landing-page) | 日期 |
-| 7/16/2020 | [Microsoft 團隊使用者採用方案 \| 最佳做法](/MicrosoftTeams/continue-journey) | 日期 |
-| 7/16/2020 | [管理貴組織的清單應用程式](/MicrosoftTeams/manage-lists-app) | 日期 |
-| 7/16/2020 | Microsoft 團隊中的保留原則 | 移除 |
-| 7/16/2020 | Teams 會議中的簡報者和參與者功能 | 移除 |
-| 7/16/2020 | [商務用 Skype 與 Microsoft 團隊之間的互通性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 日期 |
-| 7/16/2020 | [Microsoft 團隊從商務用 Skype \| 模式（共存）升級](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 日期 |
-| 7/16/2020 | [關於升級架構](/MicrosoftTeams/upgrade-framework) | 日期 |
-| 7/16/2020 | [Microsoft 團隊升級 \| 環境評估、探索問題](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 日期 |
-| 7/16/2020 | [Microsoft 團隊先決條件相依性 \| 採納升級](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | 日期 |
-| 7/16/2020 | [準備 Microsoft 團隊升級 \| 加入推出檢查清單](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | 日期 |
-| 7/16/2020 | [開始升級您的 Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | 日期 |
-| 7/16/2020 | [將商務用 Skype 內部部署升級為 Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 日期 |
-| 7/16/2020 | [將商務用 Skype Online 升級至 Microsoft 團隊 \| 部署](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 日期 |
-| 7/17/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
-| 7/17/2020 | [Microsoft 團隊適用的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 日期 |
-| 7/17/2020 | [Business Voice 的適用國家與地區](/MicrosoftTeams/business-voice/country-region-availability) | 日期 |
-| 7/17/2020 | [什麼是 Microsoft 365 商務語音？](/MicrosoftTeams/business-voice/whats-business-voice) | 日期 |
-| 7/17/2020 | [Microsoft 團隊 PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 日期 |
-
-
 ## <a name="week-of-july-20-2020"></a>2020年7月20日
 
 
@@ -360,3 +239,104 @@
 | 8/7/2020 | [請與 PSTN 服務服務台聯繫](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 日期 |
 | 8/7/2020 | [終止對商務用 Skype Online 的支援](/MicrosoftTeams/skype-for-business-online-retirement) | 日期 |
 | 8/7/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
+
+
+## <a name="week-of-august-10-2020"></a>2020年8月10日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 8/11/2020 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
+| 8/11/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
+| 8/11/2020 | [Microsoft 團隊適用的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 日期 |
+| 8/11/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 8/11/2020 | [使用 Microsoft 端點建構管理員安裝團隊](/MicrosoftTeams/msi-deployment) | 日期 |
+| 8/12/2020 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
+| 8/12/2020 | [Microsoft 團隊中的小組到期與更新](/MicrosoftTeams/team-expiration-renewal) | 日期 |
+| 8/12/2020 | [將商務用 Skype 內部部署升級為 Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 日期 |
+| 8/12/2020 | [使用 Advisor for Teams 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
+| 8/12/2020 | [在小組中規劃管理-Microsoft 團隊](/MicrosoftTeams/plan-teams-governance) | 日期 |
+| 8/12/2020 | [Microsoft 365 群組和 Microsoft 團隊](/MicrosoftTeams/office-365-groups) | 日期 |
+| 8/12/2020 | [在 Microsoft Teams 中授權來賓存取](/MicrosoftTeams/teams-dependencies) | 日期 |
+| 8/12/2020 | [將來賓新增至小組](/MicrosoftTeams/add-guests) | 日期 |
+| 8/12/2020 | [採納 Microsoft 團隊](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 日期 |
+| 8/12/2020 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/devices/device-management) | 日期 |
+| 8/12/2020 | [允許使用者直接傳送](/MicrosoftTeams/direct-routing-enable-users) | 日期 |
+| 8/12/2020 | [編輯來賓使用者資訊](/MicrosoftTeams/edit-guests-information) | 日期 |
+| 8/12/2020 | [使用 PowerShell 控制來賓對團隊的存取](/MicrosoftTeams/guest-access-powershell) | 日期 |
+| 8/12/2020 | [Microsoft 團隊來賓存取檢查清單](/MicrosoftTeams/guest-access-checklist) | 日期 |
+| 8/12/2020 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
+| 8/12/2020 | [來賓體驗像什麼](/MicrosoftTeams/guest-experience) | 日期 |
+| 8/12/2020 | [來賓如何加入小組](/MicrosoftTeams/guest-joins) | 日期 |
+| 8/12/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 8/12/2020 | [管理 Microsoft 團隊中的來賓存取權](/MicrosoftTeams/manage-guests) | 日期 |
+| 8/12/2020 | [在團隊系統管理中心管理稱讚應用程式](/MicrosoftTeams/manage-praise-app) | 日期 |
+| 8/12/2020 | [在建立團隊時規劃 Microsoft 365 群組](/MicrosoftTeams/plan-office-365-groups) | 日期 |
+| 8/12/2020 | [規劃生命週期管理](/MicrosoftTeams/plan-teams-lifecycle) | 日期 |
+| 8/12/2020 | [開啟或關閉 Microsoft 團隊的來賓存取權](/MicrosoftTeams/set-up-guests) | 日期 |
+| 8/12/2020 | [Microsoft 團隊的管理快速入門](/MicrosoftTeams/teams-adoption-governance-quick-start) | 日期 |
+| 8/12/2020 | [Microsoft Teams 系統管理訓練](/MicrosoftTeams/training-microsoft-teams-landing-page) | 日期 |
+| 8/12/2020 | [針對 Microsoft Teams 中的來賓存取問題進行疑難排解](/MicrosoftTeams/troubleshoot-guest-access) | 日期 |
+| 8/12/2020 | [在 Teams 中檢視來賓使用者](/MicrosoftTeams/view-guests) | 日期 |
+| 8/13/2020 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
+| 8/13/2020 | [從會議撥出，讓其他人可以加入](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | 日期 |
+| 8/13/2020 | [請與 PSTN 服務服務台聯繫](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 日期 |
+| 8/13/2020 | [在小組中規劃管理-Microsoft 團隊](/MicrosoftTeams/plan-teams-governance) | 日期 |
+| 8/13/2020 | [在 Microsoft 團隊中重設使用者的會議 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 日期 |
+| 8/13/2020 | [系統管理訓練資源-Microsoft 團隊](/MicrosoftTeams/itadmin-readiness) | 日期 |
+| 8/13/2020 | [應答自動回應及呼叫佇列通話](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 日期 |
+| 8/13/2020 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 8/13/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 8/13/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 8/13/2020 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
+| 8/13/2020 | [小型企業範例-設定自動助手](/MicrosoftTeams/tutorial-org-aa) | 日期 |
+| 8/13/2020 | [什麼是雲端自動語音應答？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 日期 |
+| 8/14/2020 | [將來賓新增至小組](/MicrosoftTeams/add-guests) | 日期 |
+| 8/14/2020 | [在 Microsoft Teams 中與其他組織的使用者通訊](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 日期 |
+| 8/14/2020 | Microsoft 團隊來賓存取檢查清單 | 移除 |
+| 8/14/2020 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
+| 8/14/2020 | [來賓如何加入小組](/MicrosoftTeams/guest-joins) | 日期 |
+| 8/14/2020 | [管理 Microsoft 團隊中的來賓存取權](/MicrosoftTeams/manage-guests) | 日期 |
+| 8/14/2020 | [已知問題](/MicrosoftTeams/rooms/known-issues) | 日期 |
+| 8/14/2020 | [版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 日期 |
+| 8/14/2020 | [開啟或關閉 Microsoft 團隊的來賓存取權](/MicrosoftTeams/set-up-guests) | 日期 |
+| 8/14/2020 | [Microsoft Teams 的安全性指南](/MicrosoftTeams/teams-security-guide) | 日期 |
+| 8/14/2020 | [使用 Advisor for Teams 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
+| 8/14/2020 | [遠端系統管理 Microsoft 團隊聊天室裝置設定](/MicrosoftTeams/rooms/xml-config-file) | 日期 |
+
+
+## <a name="week-of-august-17-2020"></a>2020年8月17日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 8/18/2020 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
+| 8/18/2020 | [Exchange 與 Microsoft 團隊如何互動](/MicrosoftTeams/exchange-teams-interact) | 日期 |
+| 8/18/2020 | [醫療保健的團隊原則套件](/MicrosoftTeams/policy-packages-healthcare) | 日期 |
+| 8/18/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
+| 8/18/2020 | [使用 Microsoft 團隊聊天室和 Surface Hub 來設定協同會議](/MicrosoftTeams/rooms/coordinated-meetings) | 日期 |
+| 8/18/2020 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
+| 8/18/2020 | [遠端系統管理 Microsoft 團隊聊天室裝置設定](/MicrosoftTeams/rooms/xml-config-file) | 日期 |
+| 8/18/2020 | [Microsoft 團隊即時事件使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 日期 |
+| 8/18/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
+| 8/19/2020 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 日期 |
+| 8/19/2020 | [設定會話邊界控制器-多重承租人](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
+| 8/19/2020 | [對內容進行 eDiscovery 調查](/MicrosoftTeams/ediscovery-investigation) | 日期 |
+| 8/19/2020 | [管理外部存取 (同盟) ](/MicrosoftTeams/manage-external-access) | 日期 |
+| 8/19/2020 | [在 Microsoft 團隊中管理貴組織的任務應用程式](/MicrosoftTeams/manage-tasks-app) | 日期 |
+| 8/19/2020 | [管理小組中的訊息傳遞原則](/MicrosoftTeams/messaging-policies-in-teams) | 日期 |
+| 8/19/2020 | 建立班級團隊的建議方法和最佳做法 | 移除 |
+| 8/19/2020 | [在 Microsoft 團隊系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 日期 |
+| 8/19/2020 | [Microsoft 團隊系統管理中心的團隊協力廠商應用程式購買服務](/MicrosoftTeams/purchase-third-party-apps) | 日期 |
+| 8/19/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
+| 8/20/2020 | [在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意](/MicrosoftTeams/app-permissions-admin-center) | 日期 |
+| 8/20/2020 | [日本的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 日期 |
+| 8/20/2020 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
+| 8/20/2020 | [使用小組 App 提交 API 來提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 日期 |
+| 8/20/2020 | [安裝 Microsoft 團隊 PowerShell](/MicrosoftTeams/teams-powershell-install) | 日期 |
+| 8/20/2020 | [系統管理訓練資源-Microsoft 團隊](/MicrosoftTeams/itadmin-readiness) | 日期 |
+| 8/20/2020 | [在 Microsoft Teams 中授權來賓存取](/MicrosoftTeams/teams-dependencies) | 日期 |
+| 8/20/2020 | [來賓體驗像什麼](/MicrosoftTeams/guest-experience) | 日期 |
+| 8/21/2020 | [在 Microsoft Teams 中建立全組織小組](/MicrosoftTeams/create-an-org-wide-team) | 日期 |
+| 8/21/2020 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
+| 8/21/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
