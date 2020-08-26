@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533900"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868702"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 
@@ -50,7 +50,7 @@ Microsoft Teams 的核心是關於使用者能夠做一些事情，例如參與�
 - 會議
 - 即時活動
 - 通話
-- 傳訊
+- 訊息
 - Teams
 - 應用程式權限
 
@@ -60,7 +60,7 @@ Microsoft Teams 的核心是關於使用者能夠做一些事情，例如參與�
 
 ### <a name="where-to-find-microsoft-teams-policies"></a>哪裡可找到 Microsoft Teams 原則
 
-登入 Teams 系統管理中心後，只要按一下 Teams 系統管理中心左側導覽區中的原則選項，即可移至任何需要管理的 Teams 區域原則設定。 我們已納入傳訊原則位置的螢幕擷取畫面。
+登入 Teams 系統管理中心後，只要按一下 Teams 系統管理中心左側導覽區中的原則選項，即可移至任何需要管理的 Teams 區域原則設定。 我們已納入訊息原則位置的螢幕擷取畫面。
 
 :::image type="content" source="media/edu-messaging-policies.png" alt-text="Teams 系統管理中心的訊息原則位置。":::
 
@@ -74,12 +74,14 @@ Microsoft Teams 的核心是關於使用者能夠做一些事情，例如參與�
 根據預設，每個新使用者 (學生或教師) 都會被指派全域 (全組織預設值) 原則定義。 建議您遵循下列步驟操作：
 
 1. 您可針對每個 Teams 功能區域建立自訂原則定義，然後將其指派給教師 (若未這麼做，您對全域原則所做的變更都會限制教師，直到其擁有自己的原則為止)。
+
 1. 將教師指派至這個新原則定義。
+
 1. 更新全域 (全組織預設值) 原則定義，然後將其指派給學生。
 
-若要建立或編輯原則定義，請移至您要使用的原則功能區域 (例如，傳訊原則)。 如果您想建立新的自訂原則定義，請選取 **[新增]** (您將針對為教師建立的自訂原則定義執行此動作)。 否則，若要變更現有原則定義，請選取 **[編輯]** (如果您選擇為學生更新全域原則，您就會這麼做)。
+若要建立或編輯原則定義，請移至您要使用的原則功能區域 (例如，訊息原則)。 如果您想建立新的自訂原則定義，請選取 **[新增]** (您將針對為教師建立的自訂原則定義執行此動作)。 否則，若要變更現有原則定義，請選取 **[編輯]** (如果您選擇為學生更新全域原則，您就會這麼做)。
 
-:::image type="content" source="media/edu-messaging-policies-add-closeup.png" alt-text="具有 [新增] 按鈕檢視的 [傳訊原則] 區段特寫。":::
+:::image type="content" source="media/edu-messaging-policies-add-closeup.png" alt-text="具有 [新增] 按鈕檢視的 [訊息原則] 區段特寫。":::
 
 無論選擇新增或編輯原則定義，您都會移至一個檢視，其中列出所有與此原則區域相關的原則選項。 使用此清單來選取您要在原則定義中設定的值。
 
@@ -95,7 +97,7 @@ Microsoft Teams 的核心是關於使用者能夠做一些事情，例如參與�
 
 建立或更新原則定義後，您即可在原則頁面中選取 **[管理使用者]**，搜尋所需的使用者，然後套用原則。
 
-![右側的 [管理使用者] 面板 (在 [傳訊原則] 頁面之上)。](media/edu-manage-users-pane.png)
+![右側的 [管理使用者] 面板 (在 [訊息原則] 頁面之上)。](media/edu-manage-users-pane.png)
 
 您也可導覽至 [使用者]，選取您要更新原則的使用者、選取 [原則]，然後選取 [編輯]，進而將原則指派給使用者。 您可以在此選取您要指派給每個功能區域使用者的原則定義。
 
@@ -118,7 +120,7 @@ Teams 中的原則套件會收集您在上述內容中了解的預先定義原�
 - 會議
 - 即時活動
 - 通話
-- 傳訊
+- 訊息
 - Teams
 - 應用程式權限
 
@@ -155,26 +157,52 @@ Microsoft Teams 目前包含下列原則套件：
 若要確保學生無法安排不需出席的會議，請在會議原則中透過下列 [一般] 設定將會議建立功能設為 **[關閉]**：
 
 - **允許在頻道中立即開會**：關閉
+
 - **允許 Outlook 增益集**：關閉
+
 - **允許頻道會議排程**：關閉
+
 - **允許排程私人會議**：關閉
 
-![[遠端學習的教育機構學生] 頁面，其中顯示的 [一般] 區段已關閉所有選項。](media/edu-policy-list-a.png)
+  ![[遠端學習的教育機構學生] 頁面，其中顯示的 [一般] 區段已關閉所有選項。](media/edu-policy-list-a.png)
 
 - 而在相同頁面上的會議 [參與者與來賓] 區段中:
+
   - **允許在私人會議中立即開會**: 關閉
   - **允許在會議中交談**: 已停用
 
-![[參與者與來賓] 區段，其中的 [允許在私人會議中立即開會] 選項設為 [關閉]。](media/edu-participants-and-guests.png)
+  ![[參與者與來賓] 區段，其中的 [允許在私人會議中立即開會] 選項設為 [關閉]。](media/edu-participants-and-guests.png)
 
 關閉 **在通道中立即開會**、**允許管通道會議排程**、**允許排程私人會議**，以及 **在私人會議中立即開會** 給學生們使用的功能，而且還透過封鎖會議成為召集人，他們也提供下列教育版安全措施：
 
 - 如果學生嘗試在授課者之前加入會議，他們將無法在最新版本的 Teams 應用程式加入會議。
+
 - 雖然會議建立適用于任何使用者和任何授權，但是上述所述會議聯結區塊的安全性措施只適用于基於使用者授權類型的 Teams 中的教育客戶。
+
+下表描述用於每個會議建立原則的邏輯：
+
+| 會議建立原則 | 建立會議 | 自動開始會議 | 加入時略過大廳 | 結束會議 |
+| --- | --- | --- | --- | --- |
+| **開啟 (例如授課者)** | 是 | 是 | 由[會議選項](https://go.microsoft.com/fwlink/?linkid=2093366)決定 | 是，以召集人身分
+| **關閉 (例如學生)** | 否 | 否\*\* | 由[會議選項](https://go.microsoft.com/fwlink/?linkid=2093366)決定 | 否
+
+> [!NOTE]
+> \*\* 這僅適用於具有 EDU 授權的使用者，並適用會議、頻道會議、即時會議及即時頻道會議。
 
 當您將 **允許在會議中交談** 原則設定為停用，並封鎖學生在上方排程會議的時間，並將此原則用於教師（如果會議沒有從頻道排定，或在頻道中立即開會），學生將無法在教師加入會議之前和會議結束之前交談。 在會議前後，他們仍能看到聊天記錄。 例如，他們可以看到來自教師的郵件或會議記錄連結（如果會議已錄製）。
 
 如果學生和授課者都將 **允許在會議中交談** 原則關閉，就無法在會議交談視窗中交談。 以上所述會議交談限制中的安全措施只適用于根據使用者授權類型列出的 Teams 中的教育客戶。
+
+下表描述用於在會議中允許聊天的邏輯：
+
+| 「允許在會議中聊天」原則 | 隨時查看聊天記錄 | 在會議期間張貼訊息 | 在會議前或後張貼訊息 |
+| --- | --- | --- | --- | 
+| **全部開啟** | 是 | 是 | 是 |
+| **全部關閉** | 不適用 | N/A | 不適用 |
+| **對授課者開啟和對學生關閉** | 授課者：是<br>學生：是 | 授課者：是<br>學生：是 | 授課者：是<br>學生：否\*\* | 
+
+> [!NOTE]
+> \*\* 這僅適用於具有 EDU 授權的使用者，並適用會議和即時會議。 它不適用於任何頻道會議，也不適用於即時頻道會議。
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>控制學生是否可以在通話和會議期間共用其視訊
 
@@ -204,22 +232,25 @@ Microsoft Teams 目前包含下列原則套件：
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="[進行私人通話] 設為 [關閉] 的 [遠端學習的教育機構學生] 頁面。":::
 
-### <a name="messaging-policies"></a>傳訊原則
+### <a name="messaging-policies"></a>訊息原則
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>關閉刪除或編輯已傳送的訊息功能
 
 - 針對學生：若要確保學生所傳送的訊息不會遭到刪除或更改，學生應將這些設定 **[關閉]**：
+
   - **刪除已傳送的訊息**
   - **編輯已傳送的訊息**
+  
 - 針對教師：若要確保教師可以節制或刪除學生所傳送的不當訊息，教師應將這些設定 **[開啟]**：
+
   - **擁有者可刪除已傳送的訊息** (此設定允許教師刪除不當的學生訊息)
   - **刪除已傳送的訊息**
   - **編輯已傳送的訊息**
 
-![[遠端學習的教育機構學生] 頁面，學生和教師對於已傳送訊息的設定。](media/edu-delete-edit-sent.png)
+  ![[遠端學習的教育機構學生] 頁面，學生和教師對於已傳送訊息的設定。](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
-> 如需本主題的詳細資訊，請參閱[在可成小組中將學生意見設為靜音](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17)。
+> 如需本主題的詳細資訊，請參閱[在課程小組中將學生意見設為靜音](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17)。
 
 #### <a name="control-whether-students-can-chat-privately"></a>控制學生是否可以私下交談
 
@@ -254,7 +285,7 @@ Microsoft Teams 目前包含下列原則套件：
 ![右側覆疊 [新 Teams 原則] 的 [Teams 原則] 頁面，而該面板上的 [建立私人頻道] 設定為 [關閉]。](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> 您可能也想要確保學生無法在 Microsoft Teams 中建立新的小組。 實際上這是 M365 群組的設定，您可以在[這裡](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)了解詳細資訊。
+> 您可能也想要確保學生無法在 Microsoft Teams 中建立新的小組。 實際上這是 M365 群組的設定，而您可以在[管理能建立 Microsoft 365 群組的使用者](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)中了解詳細資訊。
 
 ### <a name="app-permission-policies"></a>應用程式權限原則
 
@@ -312,7 +343,9 @@ Microsoft Teams 目前包含下列原則套件：
 ![[加入 Microsoft Teams 會議] 邀請，[會議選項] 位於該邀請連結底下的最右邊。](media/edu-join-meeting-options.png)
 
 - 控制哪些人可以透過 **[誰無需先在大廳等候]** 選項直接加入會議。 將其設為 **[我組織中的人員]**，讓外部使用者沒辦法直接加入，並將 **[一律讓通話者無需先在大廳等候]** 設為 **[關閉]**，讓參與者等候准許加入會議，而不是立即加入。 您也可以選擇 **[在通話者加入或離開時宣告]**，而這個選項應設為 **[開啟]**，您就能隨時留意參與會議的人員。
+
 - 控制以主持人或出席者身分加入會議的人員。 您可以選取 **[只有我]**，將其他所有參與者指定為出席者。 對於在教室設定中舉行的會議，這是最安全的設定。
+
   - 如果預計會議中有多位主持人，請選取 **[特定人員]** 並挑選其他應該以主持人身分加入的參與者。 如果您希望所有參與者都是以主持人的身分加入會議，請選取 **[每個人]**。
 
 :::image type="content" source="media/edu-meeting-options.png" alt-text="已選取 [我組織中的人員] 的 [誰無需先在大廳等候] 下拉式清單，以及已選取 [只有我] 的 [誰可以主持] 下拉式清單":::
@@ -339,11 +372,11 @@ Microsoft Teams 目前包含下列原則套件：
 
 - 若要變更參與者的角色，請按一下或點選通話控制項中的 **[顯示參與者]**。 以滑鼠右鍵按一下角色需要變更的參與者，然後選取 **[成為出席者]** 或 **[成為主持人]**。
 
-![顯示功能表選項的 [人員] 列，而 [成為出席者] 是功能表上的第四個選項。](media/edu-make-attendee-menu.png)
+  ![顯示功能表選項的 [人員] 列，而 [成為出席者] 是功能表上的第四個選項。](media/edu-make-attendee-menu.png)
 
 - 若要快速存取您的 [會議選項]，並針對目前的參與者和未來加入會議的人員變更其會議角色設定，請按一下或點選通話控制項中的 **[更多動作]**，然後按一下 **[顯示會議詳細資料]**。 您可以在會議的加入連結附近找到 **[會議選項]** 的連結。
 
-:::image type="content" source="media/edu-meeting-details.png" alt-text="右側顯示 [會議詳細資料] 窗格的會議視窗。":::
+  :::image type="content" source="media/edu-meeting-details.png" alt-text="右側顯示 [會議詳細資料] 窗格的會議視窗。":::
 
 ### <a name="mute-student-comments"></a>將學生意見設為靜音
 
@@ -367,4 +400,4 @@ Microsoft Teams 目前包含下列原則套件：
 
 ## <a name="further-reading"></a>深入閱讀
 
-如需保護學生的詳細資訊，請參閱[使用 Teams 中的會議進行遠距教學時確保學生安全](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)。
+如需保護學生的詳細資訊，請參閱[確保學生在 Teams 中使用會議進行遠距學習時的安全](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)。

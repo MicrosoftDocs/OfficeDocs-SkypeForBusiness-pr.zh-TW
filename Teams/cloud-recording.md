@@ -16,12 +16,12 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662083"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897802"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -105,7 +105,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>會議錄製內容的儲存位置
 
-會議的錄製內容會儲存在 Microsoft Stream 雲端儲存空間。 錄製會議之後，Microsoft Stream 會將它永久保留 (或直到錄製擁有者將它刪除) 。 如果錄製未上傳至串流，則會儲存在團隊雲端儲存空間中，可供下載20天。 目前，如果客戶的 Teams 資料是儲存在國內，只要儲存資料的國內資料落地區域沒有提供 Microsoft Stream，客戶的 Teams 會議錄製功能就會關閉。
+會議的錄製內容會儲存在 Microsoft Stream 雲端儲存空間。 錄製會保留，且可供查看並下載21天。 目前，如果客戶的 Teams 資料是儲存在國內，只要儲存資料的國內資料落地區域沒有提供 Microsoft Stream，客戶的 Teams 會議錄製功能就會關閉。 將來，只要客戶的 Teams 資料是儲存在國內，其會議錄製功能就會開啟，即使該國內資料落地區域沒有提供 Microsoft Stream。
+
+當此改變生效時，會議錄製內容預設會儲存在最靠近 Microsoft Stream 的地理區域。 如果您的 Teams 資料是儲存在國內，而且您比較想將會議錄製內容儲存在國內，我們建議您先關閉會議錄製，然後在您將 Microsoft Stream 部署到您的國內資料落地區域後，再將會議錄製開啟。 若要關閉貴組織中所有使用者的功能，請關閉 Microsoft 團隊系統管理中心的 [全域團隊會議原則] 中的 [ **允許雲端錄製** ] 設定。
+
+以下摘要說明在此改變生效後，當您開啟會議錄製會發生什麼情況：
+
+|如果您開啟 [會議錄製 ...]|會議錄製內容會儲存在... |
+|---|---|
+|在您的國內資料派駐區域中提供 Microsoft Stream 之前 |在最接近的 Microsoft 串流區域中|
+|在您的國內資料派駐區域中提供 Microsoft Stream 之後 |在您的國內資料派駐區域中|
+
+針對尚未開啟會議錄製的新的和現有租用戶，在國內資料落地區域提供 Microsoft Stream 之後，新的錄製內容會儲存在國內。 不過，在使用 Microsoft Stream 之前啟用會議錄製的任何租使用者，在國內資料派駐區域中都可以繼續使用 Microsoft 資料流程儲存空間，即使是在國內資料派駐區域中提供 Microsoft stream 之後也一樣。
 
 若要找出您的 Microsoft Stream 資料的儲存區域，請在 Microsoft Stream 中按一下 [?]**** (在右上角)，按一下 [關於 Microsoft Stream]****，然後按一下 [您的資料儲存位置]****。  若要深入瞭解 Microsoft Stream 儲存資料的區域，請參閱 [Microsoft Stream 常見問題集](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 

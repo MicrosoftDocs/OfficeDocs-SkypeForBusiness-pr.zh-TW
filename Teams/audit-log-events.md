@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從 Microsoft 365 規範中心的審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778005"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897703"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -162,9 +162,9 @@ ms.locfileid: "46778005"
 
 |好記的名稱  |一道  |說明  |
 |---------|---------|---------|
-|[新增排程] 群組      |SchedulingGroupAdded          |使用者成功地將新排程群組新增到排程。          |
-|已編輯的排程群組     |SchedulingGroupEdited         |使用者成功地編輯 [排程] 群組。          |
-|已刪除排程群組         |SchedulingGroupDeleted              |使用者成功地從排程中刪除排程群組。|
+|[新增排程] 群組 |ScheduleGroupAdded          |使用者成功地將新排程群組新增到排程。|
+|已編輯的排程群組     |ScheduleGroupEdited         |使用者成功地編輯 [排程] 群組。          |
+|已刪除排程群組         |ScheduleGroupDeleted              |使用者成功地從排程中刪除排程群組。|
 |已新增班次      |ShiftAdded          |使用者成功地加上班次。           |
 |已編輯班次       |ShiftEdited       |使用者成功地編輯班次。        |
 |已刪除班次          |ShiftDeleted          | 使用者成功刪除班次。               |

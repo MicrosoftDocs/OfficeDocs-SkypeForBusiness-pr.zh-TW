@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a723a7300febde4eaa5045b9b1318a3e0cafe779
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860826"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868692"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共用電腦上安全地使用 Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "46860826"
 
 1. 使用作業系統平台安全性功能。
     1. 確保作業系統已設定為透過作業系統提供者安裝自動更新 (若為 Microsoft 系統，可透過 [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq) 來完成此動作)。 
-    2. 確保已啟用任何裝置加密功能 (例如 [**bitlocker**](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption))，以及用來存取裝置的金鑰受到保護。
+    2. 確保已啟用任何裝置加密功能 (例如 [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview))，以及用來存取裝置的金鑰受到保護。  請注意，大多數的 [**Windows 10 裝置支援 BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. 在您的裝置上使用防毒功能，例如 [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 提供的功能。
     1. 強烈建議對系統的每個使用者使用[個別使用者帳戶](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)。
     1. *請勿*對非系統管理功能 (例如瀏覽網頁、執行 Teams 等) 授與或使用系統管理員權限。
@@ -76,6 +76,6 @@ ms.locfileid: "46860826"
 
 [Microsoft Defender 安全性中心文章](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Teams Web 用戶端/Teams Web 應用程式](../get-clients.md#web-client)
+[Teams Web 用戶端/Teams Web 應用程式](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [安全性和 Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)
