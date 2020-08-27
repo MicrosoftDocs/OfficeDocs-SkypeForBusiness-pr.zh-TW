@@ -17,12 +17,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576925"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255376"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -36,11 +36,11 @@ Microsoft 通話方案和電話系統直連路由的動態緊急通話可提供�
 
 1. 網路系統管理員會設定網路設定和 .LIS，以建立網路/緊急位置地圖。
 
-   針對直接路由，需要進行額外的設定，以路由緊急呼叫並可能提供合作夥伴連線。 系統管理員必須設定與緊急路由服務的連線， (ERS) 提供者 (美國) ，**或**針對緊急位置識別編號 (ELIN) 應用程式設定會話框線控制器 (SBC) 。
+   針對直接路由，需要進行額外的設定，以路由緊急呼叫並可能提供合作夥伴連線。 系統管理員必須設定與緊急路由服務的連線， (ERS) 提供者 (美國) ， **或** 針對緊急位置識別編號 (ELIN) 應用程式設定會話框線控制器 (SBC) 。
 
 2. 在啟動期間及之後定期進行，或當網路連線變更時，小組用戶端會將包含其網路連線資訊的位置要求傳送到網路設定和 IIS 類型。
 
-   - 如果網路設定網站相符，緊急通話原則會傳回該網站的小組用戶端。  (如需原則的詳細資訊，請參閱[設定緊急原則](#configure-emergency-policies)) 。
+   - 如果網路設定網站相符，緊急通話原則會傳回該網站的小組用戶端。  (如需原則的詳細資訊，請參閱 [設定緊急原則](#configure-emergency-policies)) 。
 
    - 如果有一個根目錄相符的專案，則會將團隊用戶端連接至的網元中的緊急位置傳回給團隊用戶端。
 
@@ -77,11 +77,11 @@ Microsoft 通話方案和電話系統直連路由的動態緊急通話可提供�
 - 團隊聊天室版本4.4.25.0 及更高版本
 
 > [!NOTE]
-> 小組網頁用戶端不支援動態緊急通話，包括 security 辦公桌通知。 若要防止使用者使用團隊網頁用戶端呼叫 PSTN 號碼，您可以設定小組通話原則，然後關閉 [**允許 WEB PSTN 呼叫**] 設定。 若要深入瞭解，請參閱在團隊和[設定 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)[中呼叫原則](teams-calling-policy.md)。
+> 小組網頁用戶端不支援動態緊急通話，包括 security 辦公桌通知。 若要防止使用者使用團隊網頁用戶端呼叫 PSTN 號碼，您可以設定小組通話原則，然後關閉 [ **允許 WEB PSTN 呼叫** ] 設定。 若要深入瞭解，請參閱在團隊和[設定 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)[中呼叫原則](teams-calling-policy.md)。
 
 ## <a name="assign-emergency-addresses"></a>指派緊急位址
 
-您可以將緊急位址指派給呼叫方案使用者，以及動態取得位置所需的網路識別碼。 支援 (Subnet 和 WiFi AP;針對乙太網路交換器/埠的支援已擱置) 。
+您可以將緊急位址指派給呼叫方案使用者，以及動態取得位置所需的網路識別碼。 支援 (子網和 WiFi 存取點。 在 Windows 8.1 和更新版本上支援乙太網交換器/埠) 。
 
 若要支援在美國的緊急通話自動路由，您必須確認指派給網路識別碼的緊急位置包含關聯的地功能變數代碼。  (沒有地理程式碼的緊急位址無法指派給動態位置所需的網路識別碼。 ) 
 
@@ -93,7 +93,7 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 
 這表示，如果為指派給呼叫計畫使用者的現有緊急位置是針對動態位置所設計，則必須重新建立相同的位址，才能包含 geo 碼。 若要區分兩個位置，您應該包含不同的描述。 新的緊急位置可以指派給擁有舊位置的使用者。 完全遷移後，就可以刪除舊位置。
 
-您可以在 Microsoft [團隊管理中心] 或 [使用 PowerShell] 中新增及指派緊急位址。 如需詳細資訊，請參閱為[您的組織新增緊急位置](add-change-remove-emergency-location-organization.md)，以及為[使用者指派緊急位置](assign-change-emergency-location-user.md)。
+您可以在 Microsoft [團隊管理中心] 或 [使用 PowerShell] 中新增及指派緊急位址。 如需詳細資訊，請參閱為 [您的組織新增緊急位置](add-change-remove-emergency-location-organization.md) ，以及為 [使用者指派緊急位置](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>設定網路設定
 
@@ -104,7 +104,7 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 >[!Note]
 >子網也可以在 .LIS 中定義，而且可以與緊急位置相關聯。  
 
-請牢記下列定義。 如需詳細資訊，請參閱[雲端語音功能的網路設定](cloud-voice-network-settings.md)。
+請牢記下列定義。 如需詳細資訊，請參閱 [雲端語音功能的網路設定](cloud-voice-network-settings.md)。
 
 - [信任的 IP 位址] 包含商業網路的網際網路外部 IP 位址集合，並用來判斷使用者的端點是否在商業網路內。 只要使用者的外部 IP 位址與信任的 IP 位址中的 IP 位址相符，就會嘗試取得動態原則或位置。 您可以針對 IPv4 或 IPv6 IP 位址進行相符，並視傳送至網路設定的 IP 資料包格式而定。   (如果公用 IP 位址同時具有 IPv4 與 IPv6，您必須將兩者都新增為信任的 IP 位址。 ) 
 
@@ -114,7 +114,7 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 
 - 網路子網必須與特定的網路網站相關聯。 用戶端的位置是根據網路子網和相關的網路網站來決定。  
 
-您可以在 Microsoft [團隊管理中心] 或 [使用 PowerShell] 中設定網路設定。 若要深入瞭解，請參閱[管理雲端語音功能的網路拓撲](manage-your-network-topology.md)。
+您可以在 Microsoft [團隊管理中心] 或 [使用 PowerShell] 中設定網路設定。 若要深入瞭解，請參閱 [管理雲端語音功能的網路拓撲](manage-your-network-topology.md)。
 
 請注意，這可能需要一些時間 (幾個小時的時間，) 針對網路設定所做的一些變更 (例如新的位址、網路識別碼) 等），以傳播並供團隊用戶端使用。  
 
@@ -144,17 +144,17 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在左側導覽中，移至 [**地點**  >  **網路] & 位置**。
-2. 按一下代表您要新增之網路識別碼的索引標籤。 例如，按一下 [**子網**]、[ **wi-fi 存取點**]、[**交換器**] 或 [**埠**]。 然後按一下 [**新增**]。
-3. 完成欄位、新增緊急位置，**然後按一下 [** 套用]。
+2. 按一下代表您要新增之網路識別碼的索引標籤。 例如，按一下 [ **子網**]、[ **wi-fi 存取點**]、[ **交換器**] 或 [ **埠**]。 然後按一下 [ **新增**]。
+3. 完成欄位、新增緊急位置， **然後按一下 [** 套用]。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
 使用下列 Cmdlet，將埠、開關、子網及 WAPs 新增至 IIS。
 
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、[設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、[移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps)-CsOnlineLisSubnet
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、[設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、[移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps)-CsOnlineLisPort
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、[設定](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、[移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps)-CsOnlineLisWirelessAccessPoint
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、[設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、[移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps)-CsOnlineLisSwitch
+- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
+- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、 [設定](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、 [移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、 [設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、 [移除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
 >[!Important]
 >如果子網是作為網路網站的一部分使用，則必須在位置資訊服務中重新定義，才能呈現動態位置。
@@ -163,9 +163,9 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 
 使用下列原則設定緊急通話。 您可以在 Microsoft 團隊系統管理中心或使用 PowerShell 管理這些原則。
 
-- **緊急通話路由原則**–只適用于直接路由。 此原則會根據需要設定緊急電話號碼、每個數位的遮罩，以及每個號碼的 PSTN 路由。  您可以將此原則指派給使用者、網路網站，或同時指派給這兩者。  (通話方案團隊用戶端會根據其 Microsoft 365 或 Office 365 使用位置，自動啟用緊急通話的緊急電話號碼。 ) 若要深入瞭解，請參閱[管理直接路由的緊急通話路由原則](manage-emergency-call-routing-policies.md)。
+- **緊急通話路由原則** –只適用于直接路由。 此原則會根據需要設定緊急電話號碼、每個數位的遮罩，以及每個號碼的 PSTN 路由。  您可以將此原則指派給使用者、網路網站，或同時指派給這兩者。  (通話方案團隊用戶端會根據其 Microsoft 365 或 Office 365 使用位置，自動啟用緊急通話的緊急電話號碼。 ) 若要深入瞭解，請參閱 [管理直接路由的緊急通話路由原則](manage-emergency-call-routing-policies.md)。
 
-- **緊急通話原則**-適用于通話方案和直接路由。 此原則會在發出緊急通話時設定 security 辦公桌的通知體驗。 您可以設定要通知的人員，以及通知的方式。 例如，自動通知貴組織的安全服務台，並讓他們聆聽緊急通話。  您可以將此原則指派給使用者或網路網站，或同時指派給這兩者。 若要深入瞭解，請參閱[管理團隊中的緊急通話原則](manage-emergency-calling-policies.md)。
+- **緊急通話原則** -適用于通話方案和直接路由。 此原則會在發出緊急通話時設定 security 辦公桌的通知體驗。 您可以設定要通知的人員，以及通知的方式。 例如，自動通知貴組織的安全服務台，並讓他們聆聽緊急通話。  您可以將此原則指派給使用者或網路網站，或同時指派給這兩者。 若要深入瞭解，請參閱 [管理團隊中的緊急通話原則](manage-emergency-calling-policies.md)。
 
 ## <a name="enable-users-and-sites"></a>啟用使用者和網站
 
@@ -208,15 +208,15 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 某些緊急路由服務提供者在美國 (ERSPs) 提供緊急呼叫測試 bot。
 
-- **在美國撥打電話方案使用者**可以使用預先定義的測試緊急號碼933來驗證緊急通話設定。 這個號碼會傳送到 bot，然後回顯來電者的電話號碼 (呼叫線路識別碼) 、緊急位址或位置，以及是否要先將呼叫自動路由到 PSAP 或篩選。
+- **在美國撥打電話方案使用者** 可以使用預先定義的測試緊急號碼933來驗證緊急通話設定。 這個號碼會傳送到 bot，然後回顯來電者的電話號碼 (呼叫線路識別碼) 、緊急位址或位置，以及是否要先將呼叫自動路由到 PSAP 或篩選。
 
-- **在美國直接傳送路由的客戶**應該與其 ERSP，以進行測試服務。
+- **在美國直接傳送路由的客戶** 應該與其 ERSP，以進行測試服務。
 
  ## <a name="related-topics"></a>相關主題
 
 - [管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)
 - [管理緊急電話原則](manage-emergency-calling-policies.md)
-- [管理緊急呼叫路由策略](manage-emergency-call-routing-policies.md)
+- [管理緊急呼叫路由策略 ](manage-emergency-call-routing-policies.md)
 - [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
 - [指派或變更使用者的緊急位置](assign-change-emergency-location-user.md)
 - [雲端語音功能的網路設定](cloud-voice-network-settings.md)

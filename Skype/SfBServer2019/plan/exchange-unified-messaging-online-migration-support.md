@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897813"
+ms.locfileid: "47255436"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -150,7 +150,6 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 | Vm | 使用者功能 | 停用的使用者設定 |  | N | Y    |
 | Vm | 使用者功能 | 謄寫  |  | Y | Y    |
 | Vm | 使用者功能 | MWI (郵件等候指示器) 使用 SIP 通知訊息 |  | N | Y    |
-| Vm | 使用者功能 | 所有端點上的視覺語音信箱   | 在所有支援的端點上，使用使用者控制項播放、刪除、訊息等待通知和狀態切換  | Y | Y    |
 | Vm | 使用者功能 | Outlook 中 MP3 音訊檔案格式    |  | Y | Y    |
 | Vm | 使用者功能 | 變速播放控制 |  | Y | Y    |
 | Vm | 使用者功能 | 轉寄語音信箱  | 將收到的語音信箱轉寄給其他使用者 | Y | Y    |

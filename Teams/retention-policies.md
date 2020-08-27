@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 0db8b037bdf67f920e1089ae8f67f477e85e3e06
+ms.sourcegitcommit: 39fa1aee7a5e067097b126aa619be5aa099888ff
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864567"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903802"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
@@ -146,6 +146,14 @@ ms.locfileid: "46864567"
 3. 選取您要編輯的專案旁的 [ **編輯** ]，進行變更，按一下 [ **儲存**]，然後按一下 [ **關閉**]。
 
     ![[選擇位置] 頁面上的 [團隊頻道訊息] 和 [團隊聊天] 選項的螢幕擷取畫面](media/retention-policies-edit.png)
+
+> [!WARNING]
+> 如果您已將特定團隊或特定使用者設定為納入團隊頻道訊息或團隊聊天，然後編輯這些專案來移除該位置的最後一個專案，則該位置的設定就會還原為 [ **全部**]。 在儲存原則前，請確定這是您想要的設定。
+> 
+> 例如，如果您指定一個小組聊天使用者，並將它納入已設定為刪除資料的保留原則，然後編輯策略來移除此使用者，預設情況下，所有使用者都會受到永久刪除其小組聊天訊息的保留原則的制約。 對於團隊通道訊息而言，也是如此。
+> 
+> 在這種情況下，如果您不想讓小組頻道訊息或小組聊天訊息的 **所有** 設定都遵守保留原則，請將位置切換為 [關閉]。 或者，請指定 [排除] 以免除原則。
+
 
 #### <a name="delete-a-retention-policy"></a>刪除保留原則
 

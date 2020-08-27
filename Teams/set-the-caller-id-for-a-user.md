@@ -1,7 +1,7 @@
 ---
 title: 設定使用者的來電顯示
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解 Microsoft 365 和 Office 365 預設本機號碼（使用者指派的電話號碼），也稱為呼叫線路 ID。 您可以變更或封鎖使用者的本機號碼。
-ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 瞭解 Microsoft 365 和 Office 365 預設本機號碼 (使用者指派的電話號碼) ，也稱為呼叫線路 ID。 您可以變更或封鎖使用者的本機號碼。
+ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691119"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255426"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
-Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在[您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
+Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖本機號碼 (也稱為使用者的通話行識別碼) 。 若要深入瞭解如何在 [您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
   
 > [!TIP]
 > 您無法在商務用 Skype Online 中封鎖目前的來電。 
@@ -38,28 +38,28 @@ Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼
 您可以變更以下設定：
   
 > [!NOTE]
-> 這**不適**用於使用 Lync 或商務用 Skype Server 的內部部署組織。
+> 這 **不適** 用於使用 Lync 或商務用 Skype Server 的內部部署組織。
   
-- **變更其外寄來電**顯示您可以取代使用者的本機號碼，預設為其電話號碼，也就是其他電話號碼。 例如，您可以將使用者的本機號碼，從其電話號碼變更為公司的主要電話號碼，或將使用者的電話撥打電話號碼從他們的電話號碼變更為法律部門的主要電話號碼。 您可以將通話 ID 號碼變更為任何線上**服務**號碼（付費或免費付費）。
+- **變更其外寄來電** 顯示您可以取代使用者的本機號碼，預設為其電話號碼，也就是其他電話號碼。 例如，您可以將使用者的本機號碼，從其電話號碼變更為公司的主要電話號碼，或將使用者的電話撥打電話號碼從他們的電話號碼變更為法律部門的主要電話號碼。 您可以將通話 ID 號碼變更為任何線上 **服務** 號碼 (付費或免費付費) 。
     
     > [!NOTE]
-    > 如果您想要使用_服務_參數，您必須指定有效的服務號碼。
+    > 如果您想要使用  _服務_ 參數，您必須指定有效的服務號碼。
   
-- **封鎖其輸出來電者識別碼**您可以封鎖外寄本機號碼，不會在使用者的出局 PSTN 通話中傳送出去。 這樣做會封鎖電話號碼無法在通話者的電話上顯示。
+- **封鎖其輸出來電者識別碼** 您可以封鎖外寄本機號碼，不會在使用者的出局 PSTN 通話中傳送出去。 這樣做會封鎖電話號碼無法在通話者的電話上顯示。
     
-- **封鎖來電者識別碼**您可以封鎖使用者在任何打入的 PSTN 電話上接收本機號碼的號碼。
+- **封鎖來電者識別碼** 您可以封鎖使用者在任何打入的 PSTN 電話上接收本機號碼的號碼。
     
 > [!IMPORTANT]
-> 緊急通話總是會傳送使用者的電話號碼（來電者識別碼）。 
+> 緊急通話總是會將使用者的電話號碼傳送 (本機號碼) 。 
   
-根據預設，所有的本機號碼設定都是**關閉**的。 這表示當使用者撥打電話給 PSTN 手機時，可以看到商務用 Skype Online 使用者的電話號碼。
+根據預設，所有的本機號碼設定都是 **關閉**的。 這表示當使用者撥打電話給 PSTN 手機時，可以看到商務用 Skype Online 使用者的電話號碼。
   
-若要深入瞭解這些設定，以及如何使用這些設定，請移至[如何在您的組織中使用來電](how-can-caller-id-be-used-in-your-organization.md)顯示。
+若要深入瞭解這些設定，以及如何使用這些設定，請移至 [如何在您的組織中使用來電](how-can-caller-id-be-used-in-your-organization.md)顯示。
   
 ## <a name="set-your-caller-id-policy-settings"></a>設定您的本機號碼原則設定
 
 > [!NOTE]
-> 針對商務用 Skype Online 中的所有本機號碼設定，您必須使用 Windows PowerShell，而且您**無法使用商務用** **Skype 系統管理中心**。 
+> 針對商務用 Skype Online 中的所有本機號碼設定，您必須使用 Windows PowerShell，而且您 **無法使用商務用** **Skype 系統管理中心**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>驗證並啟動 Windows PowerShell
 
@@ -69,20 +69,20 @@ Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼
     
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
     
-3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
     
-4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
+4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從 [適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱 [在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
 1. 從 [**開始] 功能表**中的 [  >  **Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
+2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
    > [!NOTE]
-   > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
+   > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯 **入模組** 命令。
    > 
    ```PowerShell
     Import-Module -Name SkypeOnlineConnector
@@ -91,7 +91,7 @@ Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼
     Import-PSSession $session
    ```
 
-如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱 [在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx) ，或 [設定您的 windows powershell 電腦](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>查看貴組織中的所有本機號碼原則設定
 
@@ -100,7 +100,7 @@ Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  如需[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx)的詳細資訊，請參閱更多範例和詳細資料。
+  如需 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx)的詳細資訊，請參閱更多範例和詳細資料。
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>為您的組織建立新的本機號碼原則
 
@@ -113,16 +113,16 @@ Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼
   > [!NOTE]  
   > 在任何情況下，「服務編號」欄位不應該包含初始 "+"。
 
-  如需[新的 CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx)，請參閱更多範例和詳細資料。
+  如需 [新的 CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx)，請參閱更多範例和詳細資料。
     
 - 若要將您建立的新原則套用至 Amos 大理石，請執行：
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  如需[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) Cmdlet 的詳細資訊，請參閱。
+  如需 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) Cmdlet 的詳細資訊，請參閱。
     
-如果您已建立原則，您可以使用[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) Cmdlet 將設定套用到您的使用者。
+如果您已建立原則，您可以使用 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) Cmdlet 來變更現有的原則，然後使用 [授與 CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) Cmdlet 將設定套用到您的使用者。
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>將它設定為會封鎖本機號碼來電
 
@@ -131,14 +131,14 @@ Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  如需[設定 CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx)的更多範例和詳細資料，請參閱。
+  如需 [設定 CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx)的更多範例和詳細資料，請參閱。
     
 - 若要將您建立的原則設定套用至貴組織中的使用者，請執行：
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    如需[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) Cmdlet 的詳細資訊，請參閱。
+    如需 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) Cmdlet 的詳細資訊，請參閱。
     
 ### <a name="remove-a-caller-id-policy"></a>移除本機號碼原則
 

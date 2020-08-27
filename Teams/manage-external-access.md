@@ -20,12 +20,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域的外�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b3d6eafe5f2ab5989e5b21a060901dc317332127
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: a8139c01f5e79eab451abc1eb47a97c94849147a
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897823"
+ms.locfileid: "47255416"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 ======================================================
@@ -43,7 +43,7 @@ ms.locfileid: "46897823"
 - 您希望全球的任何其他 Teams 使用者能夠利用您的電子郵件地址找到您並與您連絡。 
 
 > [!IMPORTANT]
-> 目前，要在 Microsoft Teams 應用程式中與不是 Azure Active Directory (Azure AD) 來賓或租用戶的組織外部使用者同盟，您必須正確設定混合式部署並移到商務用 Skype Online。 從2019年2月25日起，小組不支援 **原生** 同盟，且不需要 SIP 設定檔的使用者駐留在商務用 Skype Online 中。 如需有關設定混合式部署並移至 Teams 的詳細資訊，請參閱[將商務用 Skype 混合式部署升級至 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
+> 若要使用團隊用戶端與外部使用者通訊， (使用者是使用團隊或商務用 Skype) ，小組使用者必須駐留在商務用 Skype Online 中。
 
 ## <a name="plan-for-external-access"></a>規劃外部存取
 
@@ -67,7 +67,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 2. 開啟 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。
 
-     ![螢幕擷取畫面：開啟 [使用者可以與其他商務用 Skype 與 Teams 使用者通訊] 設定](media/manage-external-access-2.png)。
+     ![螢幕擷取畫面：開啟 [使用者可以與其他商務用 Skype 與 Teams 使用者通訊] 設定](media/manage-external-access-2.png).
 
 3. 如果您想要讓所有 Teams 組織都能與貴組織中的使用者通訊，請直接跳至步驟 5。
 
@@ -112,17 +112,38 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 ## <a name="common-external-access-scenarios"></a>常見的外部存取案例
 
-|**如果您想要...**  |**請這麼做**  |
-|---------|-----------------------|
-|讓組織中的 **Teams 使用者**能夠與其他 (外部) 組織中的 **Teams 使用者**通訊。|在 [外部存取] 中，將外部網域新增到 [允許清單] 或使用開放式同盟。 然後請其他 Teams 組織的系統管理員執行相同的動作。      |
-|讓組織中的 **Teams 使用者**能夠與相同組織中的**商務用 Skype Online 使用者**通訊。  |啟用「共存」模式，或選擇 Islands 升級模式來支援貴組織中商務用 Skype 使用者。   |
-|讓組織中的 **Teams 使用者**能夠與其他 (外部) 組織中的**商務用 Skype Online 使用者**通訊。      |在 [外部存取] 中，將外部網域新增到 [允許清單] 或使用開放式同盟。 <br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。 <br><br>**注意**：商務用 Skype 使用者所屬的外部網域必須啟用「共存」模式，或選擇 Islands 升級模式來支援該組織中的商務用 Skype 使用者。|
-|讓您組織中的 **小組使用者** 與其他 (外部) 組織中的 **商務用 Skype 內部部署使用者** 進行通訊。      |在 [外部存取] 中，將外部網域新增到 [允許清單] 或使用開放式同盟。 <br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後讓其他組織中的系統管理員設定商務用 Skype 內部部署伺服器，以允許與您的網域進行同盟。|
-|讓組織中的 **Teams 使用者**能夠與 **Skype** 使用者通訊。<br>  |開啟 [外部存取] 中的 [使用者可以與 Skype 使用者通訊]**** 設定。 |
-|讓您的 **商務用 Skype Online 使用者** 與另一個 Microsoft 365 或 Office 365 中的 **小組使用者** 進行通訊。| 如果您的使用者屬於下列其中一種升級模式，且其他組織的 Teams 使用者是在 TeamsOnly 模式，您的商務用 Skype Online 使用者就可以與其他組織中的 Teams 使用者通訊：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。 <br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。|
-|讓您的 **商務用 Skype online 使用者** 與其他 Microsoft 365 或 Office 365 中的 **商務用 skype online 使用者** 進行通訊。    | 如果您的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，且其他組織的商務用 Skype Online 使用者屬於下列其中一種升級模式：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，您的商務用 Skype Online 使用者就可以與其他組織中的商務用 Skype Online 使用者通訊。<br><br>開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後請其他 Teams 組織的系統管理員執行相同的動作。|
-|讓您的**商務用 Skype Online 使用者**與其他內部部署組織的**商務用 Skype 使用者**通訊。     |如果您的使用者是下列其中一種升級模式，您的商務用 Skype Online 使用者可以與商務用 Skype 使用者進行通訊： Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。 <br><br> 開啟 [外部存取] 中的 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊]**** 設定。 然後讓其他組織中的系統管理員設定商務用 Skype 內部部署伺服器，以允許與您的網域進行同盟。|
-|讓您的**商務用 Skype Online 使用者**與貴組織內部或外部的 **Skype 使用者**通訊。   |開啟 [外部存取] 中的 [使用者可以與 Skype 使用者通訊]**** 設定。|
+下列各節說明如何針對常見的外部存取案例啟用同盟，以及 TeamsUpgradePolicy 如何判斷傳入聊天和通話的傳送方式。
+
+### <a name="enable-federation"></a>啟用同盟
+
+若要讓貴組織中的使用者與其他組織中的使用者通訊，雙方都必須啟用同盟。 針對特定組織啟用同盟的步驟，取決於組織純粹是線上、混合式還是純粹內部部署。
+
+|**如果您的組織是** |**啟用同盟，如下所示**  |
+|:---------|:-----------------------|
+|線上，不使用商務用 Skype 內部部署。 這包括擁有 TeamsOnly 使用者和/或商務用 Skype Online 使用者的組織。| 如果使用的是 [團隊] 管理中心： <br>-請確認 **使用者可以與其他商務用 Skype 和團隊進行通訊** 在外部存取中啟用 [使用者] 設定。<br>-如果您不是使用開啟的同盟 (，允許與任何其他網域) 進行聯盟，然後將外部網域新增至允許的清單。<br><br>如果使用 PowerShell：<br>-確保已針對 [同盟] 啟用承租人： [ `Get-CsTenantFederationConfiguration` 必須顯示] `AllowFederatedUsers=true` 。 <br>-確保使用者的有效值為 `CsExternalAccessPolicy` `EnableFederationAccess=true` 。<br>-如果您不是使用開啟的同盟，請確認目標網域已列于中 `AllowedDomains` `CsTenantFederationConfiguration` 。 |
+|純內部部署 | 在內部部署工具中： <br>-確保已啟用同盟 `CsAccessEdgeConfiguration` 。<br>-確保已透過 `ExternalAccessPolicy` [全域原則]、[網站原則] 或 [使用者指派的原則] (啟用使用者的同盟) 。 <br> -如果您不是使用開啟的同盟，請確定目標網域已列于中 `AllowedDomains` 。 |
+|在商務用 Skype 或團隊) 與某些使用者內部部署中，與某些使用者在線上 (混合。 | 針對線上和內部部署的組織執行上述步驟。 |
+
+### <a name="delivery-of-incoming-chats-and-calls"></a>傳送傳入聊天和通話 
+
+根據 TeamsUpgradePolicy 中的收件者使用者模式，來自同盟組織的傳入聊天和通話會位於使用者的小組或商務用 Skype 用戶端。
+
+|**如果您想要** |**請執行下列動作：**  |
+|:---------|:-----------------------|
+| 確保傳入聯盟聊天和通話會送達使用者的團隊用戶端： | 將您的使用者設定為 TeamsOnly。
+| 確保傳入的同盟聊天和通話會送達使用者的商務用 Skype 用戶端 | 將您的使用者設定為 TeamsOnly 以外的任何模式。 |
+
+
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>在貴組織的使用者與 Skype 的消費者使用者之間啟用同盟
+
+若要在貴組織的使用者與 Skype 的消費者使用者之間啟用同盟：
+
+|**如果您的組織是** |**啟用消費者同盟，如下所示**  |
+|:---------|:-----------------------|
+| 純線上，不含商務用 Skype 內部部署。  這包括擁有 TeamsOnly 使用者和/或商務用 Skype Online 使用者的組織。 | 如果使用的是 [團隊] 管理中心： <br>-確定使用者可以在外部存取中啟用 **與 Skype 使用者通訊** 。<br><br>如果使用 PowerShell： <br>-確保已針對 [同盟] 啟用承租人： [ `Get-CsTenantFederationConfiguration` 必須顯示] `AllowPublicUsers=true` 。 <br> -確保使用者的有效值為 `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` 。 |
+| 純內部部署 | 在內部部署工具中： <br> -確保已啟用 Skype 作為聯盟合作夥伴。 <br> - `EnablePublicCloudAccess=true` 透過 [ `ExternalAccessPolicy` 全域原則]、[網站原則] 或 [使用者指派的原則]) ，確保使用者可以透過 (。|
+| 在商務用 Skype 或團隊) 與某些使用者內部部署中，與某些使用者在線上 (混合。| 針對線上和內部部署的組織執行上述步驟。
+
 
 > [!IMPORTANT]
 > 您不需要將任何 ** Skype 網域**新增為允許網域，就能讓 Teams 或商務用 Skype Online 的使用者與組織內部或外部的 Skype 使用者通訊。 所有 **Skype 網域**皆為核准清單，這表示所有這些網域都被視為允許。
