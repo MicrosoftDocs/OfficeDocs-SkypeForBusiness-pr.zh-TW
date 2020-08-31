@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何針對 Windows 上的 Teams 桌面用戶端應用程式進行安裝和更新問題的疑難排解。
-ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086139"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300277"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解
 
@@ -49,7 +49,7 @@ Teams 安裝好後，Teams 安裝程式會將事件順序記錄到 %LocalAppData
 
 ### <a name="troubleshoot-update-issues"></a>更新問題的疑難排解
 
-Teams 成功安裝後，記錄位置會從 %LocalAppData%\SquirrelTemp 切換到 %AppData%\Microsoft\Teams。 這個位置有兩個需要注意的記錄檔：SquirrelSetup.log 和 logs.txt。
+成功安裝團隊後，日誌位置會從%LocalAppData%\SquirrelTemp 切換為%LocalAppData%\Microsoft\Teams。 這個位置有兩個需要注意的記錄檔：SquirrelSetup.log 和 logs.txt。
 
 - 這個位置的 SquirrelSetup.log 檔是由 Update.exe 寫入，這是一個服務 Teams 應用程式的可執行檔。
 - Logs.txt 檔是 Teams 應用程式 (特別是 Teams.exe) 用來記錄重大的應用程式事件。 它可能會包含失敗資訊。

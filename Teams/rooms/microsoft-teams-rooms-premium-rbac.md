@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊聊天室管理服務的角色式存取控制。
 f1keywords: ''
-ms.openlocfilehash: ec8bb770f1dd843c569a98dd909c87ef3ca14dd0
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788779"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300287"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>使用 Microsoft 團隊聊天室管理服務的角色型存取控制
 
@@ -59,12 +59,12 @@ ms.locfileid: "46788779"
 |    |重設金鑰         |&#10004;           |         ||
 |    |下載金鑰         |&#10004;           |&#10004;          |&#10004; |
 |    |取消         |&#10004;           |&#10004;           |&#10004; |
-|群組管理   |建立         |&#10004;           |&#10004;           ||
+|群組管理   |建立         |&#10004;           |           ||
 |    |檢視       |&#10004;          |&#10004;           ||
-|    |修改         |&#10004;           |&#10004;           ||
-|更新振鈴管理    |建立         |&#10004;           |&#10004;           ||
-|    |檢視         |&#10004;           |&#10004;           ||
-|    |修改         |&#10004;           |&#10004;           ||
+|    |修改         |&#10004;           |           ||
+|更新振鈴管理    |建立         |&#10004;           |           ||
+|    |檢視         |&#10004;           |           ||
+|    |修改         |&#10004;           |           ||
 |有關   |檢視        |&#10004;           |&#10004;           ||
 |票證管理   |建立客戶事件         |&#10004;           |&#10004;           |&#10004;  |
 |    |檢視         |&#10004;           |&#10004;           |&#10004;  |
@@ -78,7 +78,7 @@ ms.locfileid: "46788779"
 
 若要指派角色，您必須是全域管理員或受管理的服務系統管理員。
 
-1. 在 Microsoft [團隊聊天室] 管理的服務入口網站左側導覽中，移至 [ **角色**]。
+1. 在 Microsoft 團隊聊天室 managed 服務入口網站的左側導覽中，移至 [**設定**  >  **角色**]。
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="顯示角色之 [存取控制] 頁面的螢幕擷取畫面":::
 
