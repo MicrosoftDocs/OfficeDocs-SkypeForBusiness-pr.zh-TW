@@ -73,7 +73,7 @@
 #### [編輯來賓使用者資訊](edit-guests-information.md)
 #### [使用 PowerShell 控制來賓存取](guest-access-PowerShell.md)
 #### [疑難排解來賓存取](troubleshoot-guest-access.md)
-
+## [Microsoft Teams 的 Cortana](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [小型企業範例 - 設定通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [管理 Teams 資源帳戶](manage-resource-accounts.md)
 #### [建立雲端通話佇列](create-a-phone-system-call-queue.md)
+#### [設定假日](set-up-holidays-in-teams.md)
 #### [直接從 Teams 回答自動語音應答和通話佇列的通話](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [封鎖撥入通話](block-inbound-calls.md)
