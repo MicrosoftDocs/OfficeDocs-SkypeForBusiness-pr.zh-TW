@@ -816,7 +816,6 @@
 ### [指派 Teams 附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [管理 Office 365 E1 試用版方案](e1-trial-license.md)
 ### [管理 Office 365 G1 試用版方案](g1-trial-license.md)
-### [管理 Teams 商業試用版](iw-trial-teams.md)
 ### [管理 Teams Exploratory 體驗](teams-exploratory.md)
 ### [管理 Teams 免費版](manage-freemium.md)
 ### [將 Teams 免費版升級為訂閱版本](upgrade-freemium.md)
