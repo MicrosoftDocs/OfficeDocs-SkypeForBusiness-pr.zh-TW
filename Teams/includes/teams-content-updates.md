@@ -3,55 +3,6 @@
 
 
 
-## <a name="week-of-july-20-2020"></a>2020年7月20日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 7/21/2020 | [在 Exchange Online 中將團隊 SMTP 網域新增為允許的寄件者網域](/MicrosoftTeams/smtp-accepted-domain) | 日期 |
-| 7/21/2020 | Microsoft 團隊 \| 環境就緒性 \| 採納，探索 | 移除 |
-| 7/21/2020 | [Microsoft 團隊來賓存取檢查清單](/MicrosoftTeams/guest-access-checklist) | 日期 |
-| 7/21/2020 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
-| 7/21/2020 | [版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 日期 |
-| 7/21/2020 | [管理 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-manage) | 日期 |
-| 7/21/2020 | [版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 日期 |
-| 7/21/2020 | [遠端系統管理 Microsoft 團隊聊天室裝置設定](/MicrosoftTeams/rooms/xml-config-file) | 日期 |
-| 7/21/2020 | [Microsoft 團隊 PSTN 使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 日期 |
-| 7/21/2020 | [使用適用於 Teams 的建議程式 (公開預覽) 協助您推行 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
-| 7/21/2020 | [Microsoft 團隊 \| 環境就緒性 \| 採納，探索](/MicrosoftTeams/environment-readiness) | 相加 |
-| 7/21/2020 | [Microsoft 團隊 \| 環境就緒性 \| 採納，探索](/MicrosoftTeams/environment-readiness) | 日期 |
-| 7/21/2020 | [Microsoft 團隊中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams) | 日期 |
-| 7/21/2020 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
-| 7/21/2020 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/devices/device-management) | 日期 |
-| 7/21/2020 | [開啟或關閉 Microsoft 團隊的來賓存取權](/MicrosoftTeams/set-up-guests) | 日期 |
-| 7/22/2020 | [加值和管理通訊點數](/MicrosoftTeams/add-funds-and-manage-communications-credits) | 日期 |
-| 7/22/2020 | [Microsoft 團隊中應用程式的系統管理設定](/MicrosoftTeams/admin-settings) | 日期 |
-| 7/22/2020 | [在 Microsoft Teams 中封存或刪除團隊](/MicrosoftTeams/archive-or-delete-a-team) | 日期 |
-| 7/22/2020 | [直接路由的健康情況儀表板](/MicrosoftTeams/direct-routing-health-dashboard) | 日期 |
-| 7/22/2020 | [為您的使用者取得電話號碼](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 日期 |
-| 7/22/2020 | [Microsoft 團隊來賓存取檢查清單](/MicrosoftTeams/guest-access-checklist) | 日期 |
-| 7/22/2020 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
-| 7/22/2020 | [管理將團隊轉換成新的團隊系統管理中心](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 日期 |
-| 7/22/2020 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
-| 7/22/2020 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
-| 7/22/2020 | [設定邀請中包含的電話號碼](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 日期 |
-| 7/22/2020 | [Microsoft 團隊使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 日期 |
-| 7/22/2020 | [管理 Microsoft Teams Exploratory 體驗](/MicrosoftTeams/teams-exploratory) | 日期 |
-| 7/22/2020 | [開啟或關閉小組中會議的進入與結束宣告](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | 日期 |
-| 7/22/2020 | [使用 Microsoft 團隊管理員角色管理團隊](/MicrosoftTeams/using-admin-roles) | 日期 |
-| 7/22/2020 | [Microsoft 團隊中的 Walkie Talkie 應用程式](/MicrosoftTeams/walkie-talkie) | 日期 |
-| 7/22/2020 | [通話品質儀表板中的資料和報表 (CQD) ](/MicrosoftTeams/cqd-data-and-reports) | 日期 |
-| 7/22/2020 | [通話品質儀表板 (CQD) 常見問題 (常見問題) ](/MicrosoftTeams/cqd-frequently-asked-questions) | 日期 |
-| 7/22/2020 | [尺寸與測量-通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
-| 7/22/2020 | [設定網路設定-以位置為基礎的路由](/MicrosoftTeams/location-based-routing-configure-network-settings) | 日期 |
-| 7/22/2020 | [啟用直接路由的依位置路由](/MicrosoftTeams/location-based-routing-enable) | 日期 |
-| 7/22/2020 | [規劃直接路由的依位置路由](/MicrosoftTeams/location-based-routing-plan) | 日期 |
-| 7/23/2020 | [版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 日期 |
-| 7/23/2020 | [巴林中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 日期 |
-| 7/24/2020 | [Microsoft 團隊 app 許可權和考慮](/MicrosoftTeams/app-permissions) | 日期 |
-| 7/24/2020 | [Microsoft 團隊中的資源特定同意](/MicrosoftTeams/resource-specific-consent) | 日期 |
-
-
 ## <a name="week-of-july-27-2020"></a>2020年7月27日
 
 
@@ -340,3 +291,37 @@
 | 8/21/2020 | [在 Microsoft Teams 中建立全組織小組](/MicrosoftTeams/create-an-org-wide-team) | 日期 |
 | 8/21/2020 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
 | 8/21/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
+
+
+## <a name="week-of-august-24-2020"></a>2020年8月24日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 8/25/2020 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
+| 8/25/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 8/25/2020 | [通話品質儀表板中的資料和報表 (CQD) ](/MicrosoftTeams/cqd-data-and-reports) | 日期 |
+| 8/25/2020 | [在通話品質儀表板中上傳租使用者並建立資料 (CQD) ](/MicrosoftTeams/cqd-upload-tenant-building-data) | 日期 |
+| 8/25/2020 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
+| 8/25/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 8/25/2020 | [尺寸與測量-通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
+| 8/25/2020 | [管理外部存取 (同盟) ](/MicrosoftTeams/manage-external-access) | 日期 |
+| 8/25/2020 | [設定通話品質儀表板 (CQD) ](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
+| 8/25/2020 | [Exchange 與 Microsoft 團隊如何互動](/MicrosoftTeams/exchange-teams-interact) | 日期 |
+| 8/25/2020 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
+| 8/26/2020 | [Exchange 與 Microsoft 團隊如何互動](/MicrosoftTeams/exchange-teams-interact) | 日期 |
+| 8/26/2020 | [在 Microsoft 團隊中通話駐留與取回](/MicrosoftTeams/call-park-and-retrieve) | 日期 |
+| 8/26/2020 | [管理 Microsoft 團隊中的呼叫者識別碼原則](/MicrosoftTeams/caller-id-policies) | 日期 |
+| 8/26/2020 | [設定動態緊急電話](/MicrosoftTeams/configure-dynamic-emergency-calling) | 日期 |
+| 8/26/2020 | [Microsoft 團隊中的 Cortana 語音助手](/MicrosoftTeams/cortana-in-teams) | 日期 |
+| 8/26/2020 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 8/26/2020 | [如何在貴組織中使用來電顯示](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 日期 |
+| 8/26/2020 | [管理外部存取 (同盟) ](/MicrosoftTeams/manage-external-access) | 日期 |
+| 8/26/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 8/26/2020 | [深入了解通話線路識別碼和來電方名稱](/MicrosoftTeams/more-about-calling-line-id-and-calling-party-name) | 日期 |
+| 8/26/2020 | [設定使用者的來電顯示](/MicrosoftTeams/set-the-caller-id-for-a-user) | 日期 |
+| 8/26/2020 | [在 Microsoft 團隊中設定假日](/MicrosoftTeams/set-up-holidays-in-teams) | 日期 |
+| 8/27/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 8/28/2020 | 管理商業雲端試用版方案 | 移除 |
+| 8/28/2020 | [使用 Microsoft 團隊聊天室 Premium 服務的角色式存取控制](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium-rbac) | 日期 |
+| 8/28/2020 | [針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解](/MicrosoftTeams/troubleshoot-installation) | 日期 |
