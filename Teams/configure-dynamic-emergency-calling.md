@@ -17,12 +17,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255376"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321736"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -42,7 +42,11 @@ Microsoft 通話方案和電話系統直連路由的動態緊急通話可提供�
 
    - 如果網路設定網站相符，緊急通話原則會傳回該網站的小組用戶端。  (如需原則的詳細資訊，請參閱 [設定緊急原則](#configure-emergency-policies)) 。
 
-   - 如果有一個根目錄相符的專案，則會將團隊用戶端連接至的網元中的緊急位置傳回給團隊用戶端。
+   - 如果有一個根目錄相符的專案，則會將團隊用戶端連接至的網元中的緊急位置傳回給團隊用戶端。 會以下列循序執行相符，且會傳回第一個相符的結果：
+       - WPA
+       - 乙太網路交換器/埠
+       - 乙太網交換器
+       - 子網路
 
 3. 當團隊用戶端進行緊急通話時，緊急位置會傳達給 PSTN 網路。
 

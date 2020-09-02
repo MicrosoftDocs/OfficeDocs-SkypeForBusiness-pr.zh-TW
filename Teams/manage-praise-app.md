@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 瞭解 Microsoft 團隊系統管理中心的稱讚應用程式中的系統管理設定
-ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656304"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324027"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中管理稱讚應用程式
 
 Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的成員顯示感謝。 您可以選擇一組徽章以供選擇，以及建立您自己徽章的選項，稱讚旨在協助您認識到小組使用者所做的大量工作（從教育者到第一行員工）。
 
-系統管理員可以控制哪些徽章可供其組織從 [小組] 系統管理中心中取得。 在左側導覽中，選取 [**團隊 app] > [管理 app**]。 在租使用者的 [[應用程式目錄](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)] 中開啟稱讚，然後移至 [**設定**]。
+系統管理員可以控制哪些徽章可供其組織從 [小組] 系統管理中心中取得。 在左側導覽中，選取 [ **團隊 app] > [管理 app**]。 在租使用者的 [ [應用程式目錄](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)] 中開啟稱讚，然後移至 [ **設定**]。
 
 ## <a name="use-built-in-badge-sets"></a>使用內建徽章集
 
@@ -45,28 +45,28 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ## <a name="create-your-own-badges"></a>建立您自己的徽章
 
-將**自訂徽章**切換開關切換至 [開啟]，然後選取 [**建立自訂徽章**]。 在該處，您可以在側邊面板中設計自訂徽章。 您最多可以建立25個自訂徽章。 
+將 **自訂徽章** 切換開關切換至 [開啟]，然後選取 [ **建立自訂徽章**]。 在該處，您可以在側邊面板中設計自訂徽章。 您最多可以建立25個自訂徽章。 
 
 1. 輸入徽章名稱。 這是使用者傳送稱讚時，會出現在徽章上的名稱。
 
 2. 設定您的徽章色彩。 若要設定徽章的文字和背景色彩，您必須以十六進位) 值的形式輸入 (的色彩。
 
    > [!TIP]
-   > 如果您是十六進位值的新使用者，本文將說明如何使用它們的[快速簡介](#hex-colors-intro)。
+   > 如果您是十六進位值的新使用者，本文將說明如何使用它們的 [快速簡介](#hex-colors-intro) 。
 
 3. 上傳徽章影像。 接受的檔案類型是。PNG. 影像檔案必須小於 40 KB，且最大尺寸為 216 X 216 圖元。
 ![標題為 [背景]、[文字] 和 [圖像] 欄位的徽章](media/praise-app-badge-fields.png)
 
-4. 當地語系化徽章名稱：在 [**當地語系化徽章名稱**] 底下，選取 [**新增**]。 從下拉式清單中選取所要的地區設定。 然後以指定的語言輸入徽章名稱。
+4. 當地語系化徽章名稱：在 [ **當地語系化徽章名稱**] 底下，選取 [ **新增**]。 從下拉式清單中選取所要的地區設定。 然後以指定的語言輸入徽章名稱。
 
-5. 從特定地區設定中排除徽章：在 [**從這些區域設定中排除徽章**] 底下，選取 [**新增**]。 從下拉式清單中選取您要排除的地區。
+5. 從特定地區設定中排除徽章：在 [ **從這些區域設定中排除徽章**] 底下，選取 [ **新增**]。 從下拉式清單中選取您要排除的地區。
 
 6. 選取 **[** 套用]。 您的新徽章現在會出現在 [自訂徽章] 表格中。
 
 > [!NOTE]
 > 如果跳過步驟4和5，徽章將會成為所有地區設定的預設語言。
 >
-> 當您完成變更徽章選取專案時，請務必選取 [**提交**]。 可能需要幾個小時，才能讓您的組織使用這些變更。
+> 當您完成變更徽章選取專案時，請務必選取 [ **提交**]。 可能需要幾個小時，才能讓您的組織使用這些變更。
 
 <a name="hex-colors-intro"></br></a>
 
@@ -76,7 +76,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 例如，紅色的十六進位值是 #FF0000，因為紅色是設定為最高可能值、FF、綠色和藍色，每個值都是以最低的可能值00來設定。
 
-若要探索不同的色彩及其十六進位值，請參閱[Bing 色彩選擇器](https://www.bing.com/search?q=color+picker)。
+若要探索不同的色彩及其十六進位值，請參閱 [Bing 色彩選擇器](https://www.bing.com/search?q=color+picker)。
 
 以下是可供您快速入門的範例色彩清單：
 
@@ -114,13 +114,13 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 |徽章名稱     |影像檔  |文字色彩 | 背景色彩 |
 |---------------|------------|---------- |--------|
 |Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|主要        |[[超想] PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png>Awesome.PNG)</a>|#8283B2    |#D1EFF2|
+|主要        |[[超想] PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |指導          |[[教練] PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |Courage        |[Courage PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |心       |[創造性的 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
 |兩端      |[包含 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |類型心形     |[類型心形（PNG）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|領導     |[[領導] PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership.pn)|#419098    |#D2EAEC|
+|領導     |[[領導] PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
 |Optimism       |[Optimism PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |問題規劃求解 |[問題規劃求解 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |小組玩家    |[小組玩家 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
