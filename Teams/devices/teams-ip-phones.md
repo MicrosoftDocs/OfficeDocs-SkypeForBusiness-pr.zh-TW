@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些桌面與會議已認證，讓 Microsoft 團隊能產生最佳結果。
-ms.openlocfilehash: 6aab0bcb24729dc1e021709563ca1c2dcda5d039
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: d19f3382fd64d48c4fa1067c0a8e6c8749a84596
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576915"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331638"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -49,8 +49,8 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 | Audiocodes C450HD                      | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
 | 僅限 Audiocodes C448HD (CAP 模式)       | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
 |Crestron UC-2                           |1.0.1.46                                                  | 2020年7月                    |
-| Crestron M100                          | 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的[Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 從5/11/2020 終止 |
-| Crestron Flex UC-P100 & UC-T    | 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的 [ [UC 電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)]。                  | 從5/11/2020 終止 |
+| Crestron M100                          | 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的 [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 從5/11/2020 終止 |
+| Crestron Flex UC-P100 & UC-T    | 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的 [ [UC 電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) ]。                  | 從5/11/2020 終止 |
 | [聯想 ThinkSmart] 視圖                 | 18781Y 200410.067                                                                                                                                                                                                                       | 2020年4月                   |
 | Poly 組 C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020年4月                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020年1月                 |
@@ -77,28 +77,32 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 
 以下是最新的團隊 IP phone 應用程式和固件版本。
 
-#### <a name="release-date-june-262020"></a>發行日期：2020年6月26日
+#### <a name="release-date-august-312020"></a>發行日期：2020年8月31日
 
 #### <a name="app-versions"></a>App 版本
 
 | 產品發行 | 發行日期  | Microsoft 團隊 app 版本 | 公司入口網站版本 | 管理代理程式版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 更新 #5       | 2020年8月31日 | 1449/1.0.94.2020071702    | 5.0.4867.0            | 1.0.0.202006290446. 產品 Versioncode：216|
 | 更新 #4       | 2020年6月30日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
 | 更新 #3       | 2020年5月13日  | . 040801                     | . 4715                  | 1.210               |
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以透過在**隨附產品發行**資料行中尋找產品發行資料，來判斷已安裝的 Microsoft 團隊 App、公司入口網站和管理員代理程式版本。 然後查詢上述 [ **App 版本**] 資料表中的 [產品發行]。
+當您在裝置上安裝新的固件版本時，您可以透過在 **隨附產品發行** 資料行中尋找產品發行資料，來判斷已安裝的 Microsoft 團隊 App、公司入口網站和管理員代理程式版本。 然後查詢上述 [ **App 版本** ] 資料表中的 [產品發行]。
 
 | 裝置模型        | 固件版本     | 隨附的產品發行 |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
-| AudioCodes C450HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
-| Poly CCX400         | 1.0.1.0054           | 更新 #3                |
-| Poly CCX500/CCX600  | 5.9.13.0306          | 更新 #3                |
-| Yealink T55/T56/T58 | 58.15.0.107          | 更新 #4                |
-| Yealink VP59        | 91.15.0.42           | 更新 #4                |
-| Yealink CP960       | 73.15.0.103          | 更新 #4                |
+| AudioCodes C448HD   | C450HD_TEAMS_1 5.203 | 更新 #5                |
+| AudioCodes C450HD   | C450HD_TEAMS_1 5.203 | 更新 #5                |
+|[聯想 ThinkSmart] 視圖|18781Y 200809.091 |更新 #5                 |
+| Poly CCX400         | 6.2.21.1198          | 更新 #5                |
+| Poly CCX500/CCX600  | 6.2.21.1198          | 更新 #5                |
+| Poly 組 C60       | 5.9.5.2686           | 更新 #5                |
+| Yealink T55/T56/T58 | 58.15.0.110          | 更新 #5                |
+| Yealink MP56        | 122.15.0.13          | 更新 #5                |
+| Yealink VP59        | 91.15.0.44           | 更新 #5                |
+| Yealink CP960       | 73.15.0.105          | 更新 #5                |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>共同作業橫條圖的產品發行資訊
 
@@ -108,31 +112,34 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 
 | 產品發行 | 發行日期 | Microsoft 團隊 app 版本 | 公司入口網站版本 | 管理代理程式版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 更新 #3       | 2020年5月13日 | . 040901                     | . 4715                  | . 210                |
+| 更新 #2       | 2020年8月24日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. 產品 versioncode：212|
+| 更新 #1       | 2020年5月13日 | . 040901                     | . 4715                  | . 210                |
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以透過在**隨附產品發行**資料行中尋找產品發行資料，來判斷已安裝的 Microsoft 團隊 App、公司入口網站和管理員代理程式版本。 然後查詢上述 [ **App 版本**] 資料表中的 [產品發行]。
+當您在裝置上安裝新的固件版本時，您可以透過在 **隨附產品發行** 資料行中尋找產品發行資料，來判斷已安裝的 Microsoft 團隊 App、公司入口網站和管理員代理程式版本。 然後查詢上述 [ **App 版本** ] 資料表中的 [產品發行]。
 
 | 裝置模型  | 固件版本 | 隨附的產品發行 |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 | 118.15.0.19      | 更新 #3                |
+| Yealink VC210 + CP900 | 118.15.0.32      | 更新 #2         |
+| Poly Studio X30 | 3.2.0.222012          | 更新 #2         |
+| Poly Studio X50 | 3.2.0.222012          | 更新 #2         |
 
-如需這些裝置支援之功能的資訊，請參閱[Microsoft 團隊手機功能集](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)。
+如需這些裝置支援之功能的資訊，請參閱 [Microsoft 團隊手機功能集](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 。
 
-請參閱在行動[裝置上尋找固件版本](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device)，以判斷行動裝置上的裝置固件版本。
+請參閱在行動 [裝置上尋找固件版本](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) ，以判斷行動裝置上的裝置固件版本。
 
-Microsoft 團隊授權可以在[microsoft 365 或 Office 365 訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)中購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft 團隊授權可以在 [microsoft 365 或 Office 365 訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)中購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的 [電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
-如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+如需取得團隊的詳細資訊，請參閱 [如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 * * *
 
-如果您是尋找加入認證計畫的供應商，請參閱[如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)需求與可用的程式。
+如果您是尋找加入認證計畫的供應商，請參閱 [如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 需求與可用的程式。
 
 ## <a name="additional-resources"></a>其他資源
 
-瞭解[商務用 Skype 和 Microsoft 團隊認證計畫](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
+瞭解 [商務用 Skype 和 Microsoft 團隊認證計畫](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
 [探索 Microsoft 團隊手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 

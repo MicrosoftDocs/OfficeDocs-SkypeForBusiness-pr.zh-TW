@@ -15,20 +15,20 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640908"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331628"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
 外設認證計畫可確保 USB 外設（例如耳機、免持聽筒、網路攝影機和顯示器）能提供豐富的音訊或視頻品質。 已認證的裝置 ([插拔 & 播放]) ，不需要額外設定，且可使用 Microsoft 團隊和商務用 Skype 提供通話控制。 這些產品可為使用者和管理員提供絕佳的體驗。
 
-若要探索已針對 Microsoft 團隊進行測試和認證的裝置，請前往 [[小組] 商店](https://products.office.com/microsoft-teams/across-devices/devices)。
+若要探索已針對 Microsoft 團隊進行測試和認證的裝置，請前往 [ [小組] 商店](https://products.office.com/microsoft-teams/across-devices/devices)。
 
-如需團隊通話控制支援的詳細資料，請參閱[在團隊中使用耳機朗讀控制通話](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
+如需團隊通話控制支援的詳細資料，請參閱 [在團隊中使用耳機朗讀控制通話](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
 
 > [!TIP]
 > 您正在尋找認證的商務用 Skype 的裝置嗎？ [針對商務用 Skype 認證的 USB 音訊與視頻裝置](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices)。
@@ -38,14 +38,14 @@ ms.locfileid: "46640908"
 從商務用 Skype 升級至小組時，使用者不需要取代先前認證的裝置。  Microsoft 團隊使用者和商務用 Skype 使用者都支援所有認證的裝置，但功能有幾個不同。  此外，認證還針對特定的裝置類別提供進一步的指定。
 
 - 已**使用團隊升級進行商務用 Skype 認證**認證于這個等級的裝置最初是針對商務用 Skype 認證。 若要盡可能為使用者提供盡可能多的存留期值，Microsoft 必須與裝置製造商合作，以盡可能多地整合這些現有的裝置，而不需對原始硬體進行任何變更。 [ *Hookswitch* ] 按鈕會在不在通話時充當 [小組] 按鈕，並且可能包含一段時間的其他功能。  此類別中的裝置可能會攜帶小組認證徽章給行銷資料。
-- **針對 Microsoft 團隊認證**認證于這個階層的裝置會指出最新的裝置已驗證，以獲得不折不扣的小組體驗。 這些裝置可提供預先認證的所有優點，也包含一個含指示燈指標的專用小組按鈕。 在大部分的表單因素中，[團隊] 按鈕會是一個易於尋找的觸覺按鈕和 [小組標誌]。 Microsoft 會繼續與裝置製造商合作，透過固件更新在一段時間內提供新的價值。
+- **針對 Microsoft 團隊認證** 認證于這個階層的裝置會指出最新的裝置已驗證，以獲得不折不扣的小組體驗。 這些裝置可提供預先認證的所有優點，也包含一個含指示燈指標的專用小組按鈕。 在大部分的表單因素中，[團隊] 按鈕會是一個易於尋找的觸覺按鈕和 [小組標誌]。 Microsoft 會繼續與裝置製造商合作，透過固件更新在一段時間內提供新的價值。
 
 ### <a name="special-usage-designations"></a>特殊用途指定
 
-- **開啟 Office 的 [特優] 麥克風**所有耳機都會經過測試，以提供清晰的音訊，但開啟 office 和其他嘈雜環境會帶來較大的挑戰：您可以清楚地挑選耳機使用者的聲音，但不會傳送其鄰近音效。
+- **開啟 Office 的 [特優] 麥克風** 所有耳機都會經過測試，以提供清晰的音訊，但開啟 office 和其他嘈雜環境會帶來較大的挑戰：您可以清楚地挑選耳機使用者的聲音，但不會傳送其鄰近音效。
 - 會議室**大小**共用裝置（例如免持聽筒和相機）具有受支援的使用距離，且建議的距離可能會依不同的製造商而有所不同。 若要給予客戶明確的指導方針，請對照定義良好的會議室大小與噪音環境，在認證中測試所有共用的裝置。
 
-流覽[裝置認證的 Microsoft 團隊](https://products.office.com/microsoft-teams/across-devices/devices)。
+流覽 [裝置認證的 Microsoft 團隊](https://products.office.com/microsoft-teams/across-devices/devices)。
 
 ## <a name="end-user-experience"></a>最終使用者體驗
 
@@ -70,14 +70,21 @@ ms.locfileid: "46640908"
 - 不需要任何預配
 - 所有裝置都支援固件更新，以允許新功能和效能改善。
 
-如果您是製造商，且想要加入認證計畫，請參閱[如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)需求與可用的程式。
+如果您是製造商，且想要加入認證計畫，請參閱 [如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 需求與可用的程式。
 
 ## <a name="certified-devices"></a>認證的裝置
 
-*資料表2020年7月更新*
+*2020年8月更新的表格*
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |演化80耳機                                          |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |演化40耳機                                          |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |發展30個 II 耳機                                       |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |發展20個耳機                                          |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|EPOS/Sennheiser      |使用 USB ED CC 01 MS connecto 的影響 SC 660                |8/20/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|EPOS/Sennheiser      |使用 USB ED CC 01 MS connecto 的影響 SC 630                |8/20/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|EPOS/Sennheiser      |使用 USB ED CC 01 MS connecto 的影響 SC 260                |8/20/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |針對商務用 Skype 認證                        |
 |ViewSonic            |WCD- IFP6570                                               |7/31/2020       |針對商務用 Skype 認證                        |
 |Jabra                |演化75耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |

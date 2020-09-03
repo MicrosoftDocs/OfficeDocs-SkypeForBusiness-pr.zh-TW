@@ -15,16 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48465336e0c3657b8bfd1d3adb1eb69c239ecdb6
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: d06c42691874b8defa86e993727bc1fe38ee67b3
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814229"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331658"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的任務應用程式
-
-> **此功能目前處於私人預覽中。**
 
 ## <a name="overview-of-tasks"></a>任務概覽
 
