@@ -16,21 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。
-ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220293"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359109"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改現有 Cloud Connector 部署的組態
- 
+
+> [!Important]
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+
 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>修改單一網站的設定
 <a name="BKMK_SIngleSite"> </a>
 
-如果網站中只有一個裝置，當您想要在部署裝置之後變更設定設定時，您可以修改 CloudConnector 檔案，並重新啟動部署。
+如果網站中只有一個裝置，當您想要在部署裝置之後變更設定設定時，您可以修改 CloudConnector.ini 檔案，然後重新開機部署。
   
 1. 執行下列 Cmdlet，以卸載主機伺服器上的所有現有虛擬機器： 
     
@@ -44,9 +47,9 @@ ms.locfileid: "44220293"
    Unregister-CcAppliance
    ```
 
-3. 更新裝置目錄中的 CloudConnector 檔案。
+3. 更新裝置目錄中的 CloudConnector.ini 檔案。
     
-4. 執行下列 Cmdlet 來更新設定：（此步驟僅適用于版本 2; 針對舊版，請跳至下一個步驟）。
+4. 執行下列 Cmdlet 來更新設定： (此步驟僅適用于版本 2;若為舊版，請跳至下一個步驟。 ) 
     
    ```powershell
    Import-CcConfiguration 
@@ -64,7 +67,7 @@ ms.locfileid: "44220293"
    Install-CcAppliance
    ```
 
-如果網站中有一個以上的裝置，您必須遵循下列步驟，修改 CloudConnector 檔案，然後逐個重新部署裝置。
+如果網站中有一個以上的裝置，您必須遵循下列步驟，修改 CloudConnector.ini 檔案，然後逐個重新部署裝置。
   
 1. 執行下列 Cmdlet，以卸載目前裝置上的所有現有虛擬機器： 
     
@@ -78,9 +81,9 @@ ms.locfileid: "44220293"
    Unregister-CcAppliance
    ```
 
-3. 更新裝置目錄中的 CloudConnector 檔案。
+3. 更新裝置目錄中的 CloudConnector.ini 檔案。
     
-4. 執行下列 Cmdlet 來更新設定：（此步驟僅適用于版本 2; 針對舊版，請跳至下一個步驟）。
+4. 執行下列 Cmdlet 來更新設定： (此步驟僅適用于版本 2;若為舊版，請跳至下一個步驟。 ) 
     
    ```powershell
    Import-CcConfiguration 
@@ -116,7 +119,7 @@ ms.locfileid: "44220293"
   
 如果您停用作業系統自動更新或 Bits 自動更新，您的主機和虛擬機器可能會錯過重要的 Windows 更新，而雲端連接器將無法自動升級為新的版本。 強烈建議您啟用自動更新。
   
-1. 網站的 EnableAutoUpdate 屬性必須設定為 true （預設值）。 請執行下列 Cmdlet，確定 EnableAutoUpdate 設定為 true：
+1. 網站的 EnableAutoUpdate 屬性必須設定為 true (預設值) 。 請執行下列 Cmdlet，確定 EnableAutoUpdate 設定為 true：
     
    ```powershell
    Get-CsHybridPSTNSite -Identity <SiteName>
@@ -132,7 +135,7 @@ ms.locfileid: "44220293"
     
    - 在每月的時段中，可能會有兩種類型。 第一種類型是指定一月中的第幾天，也就是一天。 第二種類型是指定每月的周數，也就是一周中的天數，這兩者都可以是單一專案或多個專案。
     
-   - 每個租使用者可定義20個時間視窗。 將新租使用者的預設時段，當作作業系統更新和 Bits 更新的預設時間範圍而建立。 執行下列 Cmdlet 以設定每日、每週或每月時間的時段：
+   - 每個租使用者可定義20個時間視窗。 將新租使用者的預設時段，當作作業系統更新和 Bits 更新的預設時間範圍而建立。 執行下列 Cmdlet (s) 設定每日、每週或每月的時間範圍：
     
    ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
@@ -152,7 +155,7 @@ ms.locfileid: "44220293"
 
    - 將更新時間視窗指派至網站。 
     
-     會個別設定 Bits 更新時間與 OS 更新時間視窗。 這兩者都可以指派一或多個時間視窗。 每個時間範圍可指派給不同的網站和不同的目的（Bits 更新和 OS 更新）。 執行下列 Cmdlet 來設定網站的時間範圍： 
+     會個別設定 Bits 更新時間與 OS 更新時間視窗。 這兩者都可以指派一或多個時間視窗。 每個時段都可以指派至不同的網站，而不同的目的 (Bits 更新和 OS 更新) 。 執行下列 Cmdlet 來設定網站的時間範圍： 
     
    ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
@@ -175,9 +178,9 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本節適用于雲端連接器版本2.0 和更新版本。 
   
-所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
+所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
   
-若要在雲端連接器裝置上更新本機儲存的認證，請使用[CcCredential](get-cccredential.md)和[CcCredential](set-cccredential.md)指令程式，然後遵循下列步驟：
+若要在雲端連接器裝置上更新本機儲存的認證，請使用 [CcCredential](get-cccredential.md) 和 [CcCredential](set-cccredential.md) 指令程式，然後遵循下列步驟：
   
 1. 執行下列命令，以取得稍後需要的密碼： 
     
@@ -191,7 +194,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 重新開機主機伺服器。
     
-4. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "。
+4. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。
     
 5. 以系統管理員身分啟動 PowerShell 主控台，然後執行「Register-CcAppliance-Local」，以在描述之後重新輸入密碼。 請確定輸入的密碼與您在雲端連接器部署之前輸入的密碼相同。
     
@@ -215,7 +218,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本節適用于雲端連接器2.0.1 版及更新版本。 
   
-雲端連接器服務會執行雲端連接器管理服務。 在雲端連接器版本部署期間建立 CceService 帳戶，並儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "和"%SystemDrive%\Programdata\Cloudconnector\credentials。。CceService。
+雲端連接器服務會執行雲端連接器管理服務。 在雲端連接器版本部署期間建立 CceService 帳戶，並儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "和"% 系統磁片% \Programdata\Cloudconnector\credentials..CceService.xml "。
   
 為了確保所有裝置都可以存取網站目錄共用，CceService 帳戶的密碼在網站中部署的所有裝置上都必須相同。 請記住下列事項：
   
@@ -271,18 +274,18 @@ Set-CcCredential -AccountType TenantAdmin
     
     - CcLockFile
     
-    - Site_ \< Edge 外部 Sip 集區 fqdn\>
+    - Site_\<Edge External Sip Pool fqdn\>
     
-    - Tenant_ \< Edge 外部 Sip 集區 fqdn\>
+    - Tenant_\<Edge External Sip Pool fqdn\>
     
-    - TenantConfigLock_ \< Edge 外部 Sip 集區 fqdn\>
+    - TenantConfigLock_\<Edge External Sip Pool fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>新增 SIP 網域
 <a name="BKMK_UpdatePassword"> </a>
 
-若要將新的 SIP 網域（或多個 SIP 網域）新增至現有的雲端連接器部署，請執行下列操作：
+若要將新的 SIP 網域 (或多個 SIP 網域新增至現有的雲端連接器部署) ，請執行下列操作：
   
-1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱[Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱 [Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 網域或網域更新雲端連接器的設定檔。
     
@@ -296,14 +299,14 @@ Set-CcCredential -AccountType TenantAdmin
 
 5. 
     
-    依照指示[修改單一網站的](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite)設定或[修改多個網站的](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)設定。
+    依照指示 [修改單一網站的](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) 設定或 [修改多個網站的](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)設定。
     
 ## <a name="modify-the-primary-sip-domain"></a>修改主要 SIP 網域
 <a name="BKMK_UpdatePassword"> </a>
 
 如果您需要在您的雲端連接器部署中變更主要 SIP 網域，請執行下列操作：
   
-1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱[Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱 [Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 網域更新雲端連接器的設定檔。
     

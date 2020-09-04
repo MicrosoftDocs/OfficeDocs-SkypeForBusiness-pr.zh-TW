@@ -16,18 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 疑難排解 Cloud Connector Edition 部署。
-ms.openlocfilehash: 97ece0ee1bcc11c22fd55709d025169ed95b16ff
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a1caea67c5b5899c2dc0909ef771a57c7c50389
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220223"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359329"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>疑難排解您的 Cloud Connector 部署
+
+> [!Important]
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
  
 疑難排解 Cloud Connector Edition 部署。
   
-本主題說明 Cloud Connector Edition 部署常見問題的解決方案。 如果您遇到從公用交換電話網路（PSTN）撥打和發來的問題，您可以遵循本主題中所述的解決方案來進行調查。
+本主題說明 Cloud Connector Edition 部署常見問題的解決方案。 如果您在撥打/撥出公用交換電話網路 (PSTN) 時遇到問題，您可以遵循本主題中所述的解決方案來進行調查。
   
 雲端連接器提供內建的機制，以自動解決某些問題。 自動偵測程式會尋找雲端連接器裝置的潛在問題，如果可能的話，請採取糾正動作來解決這些問題，而不需要系統管理員介入。 偵測過程的運作方式如下：
   
@@ -107,7 +110,7 @@ ms.locfileid: "44220223"
     > [!NOTE]
     > 此問題只適用于1.4.2 之前的雲端連接器版本。 
   
-    [啟動失敗] 也可能是因為此前端伺服器先前已容錯移轉（使用電腦容錯移轉）。 如果是這種情況，請撥回 fail （使用電腦容錯回復）。
+    [無法啟動] 也可能是因為此前端伺服器先前利用電腦容錯移轉) 進行容錯移轉 (。 如果是這種情況，請使用電腦的容錯回復) 來呼叫回 (。
     
     **解決方法：** 當 Edge Server 未根信任 CA 憑證或中間 CA 憑證時，Edge Server 上便會發生此問題。 即使可匯入外部憑證，但憑證鏈中斷。 在此情況下，RTCMRAUTH 和/或 RTCSRV 服務無法啟動。
     
@@ -121,7 +124,7 @@ ms.locfileid: "44220223"
     
     **問題：已套用 Windows 更新時，主伺服器已重新開機，且伺服器所提供的呼叫會失敗。**
     
-    **解決方法：** 如果您已部署高可用性環境，Microsoft 會提供一個 Cmdlet，協助您在手動檢查及安裝 Windows 更新時，將一部主機（部署實例）移入或移出目前的拓撲。 請使用下列步驟來完成這項作業：
+    **解決方法：** 如果您部署的是高可用性環境，Microsoft 會提供一個 Cmdlet，協助您在檢查並手動安裝 Windows 更新時，將一部主機器 (部署實例) 移入或移出目前的拓撲。 請使用下列步驟來完成這項作業：
     
 1. 在主伺服器上，以系統管理員身分啟動 PowerShell 主控台，然後執行：
     
@@ -141,17 +144,17 @@ ms.locfileid: "44220223"
     
     **問題：從使用 PSTN 號碼的商務用 Skype 用戶端撥出電話時，邀請其他 PSTN 號碼無法將通話呈報給會議。**
     
-    **解決方法：** 若要解決此問題，請參閱[設定線上混合轉送伺服器設定](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)。
+    **解決方法：** 若要解決此問題，請參閱 [設定線上混合轉送伺服器設定](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)。
     
 - **問題：當您安裝 Active Directory 伺服器時，會顯示關於 Windows 更新的警告訊息-「未啟用 Windows 自動更新」。若要確定您新近安裝的角色或功能會自動更新，請開啟 [Windows 更新]。**
     
-    **解決方法：** 使用商務用 Skype 租使用者系統管理員認證啟動租使用者遠端 PowerShell 會話，然後執行下列 Cmdlet 以檢查網站的_EnableAutoUpdate_設定：
+    **解決方法：** 使用商務用 Skype 租使用者系統管理員認證啟動租使用者遠端 PowerShell 會話，然後執行下列 Cmdlet 以檢查網站的 _EnableAutoUpdate_ 設定：
     
   ```powershell
   Get-CsHybridPSTNSite
   ```
 
-    如果_EnableAutoUpdate_設定為**True**，您就可以放心忽略此警告訊息，因為 CCEManagement 服務會同時針對虛擬機器及主機伺服器處理下載及安裝 Windows 更新。 如果_EnableAutoUpdate_設定為**False**，請執行下列 Cmdlet 將它設定為**True**。
+    如果  _EnableAutoUpdate_ 設定為 **True**，您就可以放心忽略此警告訊息，因為 CCEManagement 服務會同時針對虛擬機器及主機伺服器處理下載及安裝 Windows 更新。 如果  _EnableAutoUpdate_ 設定為 **False**，請執行下列 Cmdlet 將它設定為 **True**。
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -159,21 +162,21 @@ ms.locfileid: "44220223"
 
     或者，您也可以手動檢查並安裝更新。 請參閱下一節。
     
-- **問題：您收到錯誤訊息：無法登錄裝置，因為您目前的輸入/設定 \< SiteName \> 或 \< ApplianceName 或中繼 \> \< 伺服器 \> 的 FQDN 或中繼 \< 伺服器 \> 的 IP 位址與現有的裝置相衝突。移除衝突裝置或更新輸入/設定資訊，然後再註冊一次。' 當執行 CcAppliance 註冊目前裝置至線上時。**
+- **問題：您收到錯誤訊息：無法註冊裝置，因為您目前的輸入/ \<SiteName\> 設定 \<ApplianceName\> 或 \<Mediation Server FQDN\> \<Mediation Server IP Address\> 與現有裝置 (s) 有衝突。移除衝突裝置或更新輸入/設定資訊，然後再註冊一次。' 當執行 CcAppliance 註冊目前裝置至線上時。**
     
-    **解決方法：**\<ApplianceName \> ，中繼 \< 伺服器 FQDN \> 和中繼 \< 伺服器 IP 位址的值 \> 必須是唯一的，且僅適用于一個裝置註冊。 根據預設， \< ApplianceName 來自 \> 主機名稱。 \<\> \< \> 在 configuration ini 檔案中定義的轉送伺服器 FQDN 和轉送伺服器 IP 位址。
+    **解決方法：** 的值 \<ApplianceName\> ， \<Mediation Server FQDN\> 且 \<Mediation Server IP Address\> 必須是唯一的，且僅適用于一個裝置註冊。 根據預設，來自 \<ApplianceName\> 主機名稱。 \<Mediation Server FQDN\> 和 \<Mediation Server IP Address\> 定義在設定 ini 檔案中。
     
-    例如，使用（ApplianceName = MyserverNew，轉送伺服器 FQDN = 10.10.10.10）來登錄 SiteName = MySite，但是如果有已註冊的裝置（ApplianceName = Myserver，轉送伺服器 FQDN =，轉送伺服器的 IP 位址 = 10.10.10.10），您就會發生衝突。。
+    例如，使用 (ApplianceName = MyserverNew，轉送伺服器 FQDN = 10.10.10.10) 以登錄 SiteName = MySite，但是如果有已註冊的裝置 (ApplianceName = Myserver，轉送伺服器 FQDN =，轉送伺服器的 IP 位址 = 10.10.10.10) ，您就會發生衝突。。
     
-    首先，請在 ApplianceRoot 目錄區段中檢查您的 CloudConnector 檔案。 您將會 \< 在檔案中取得 SiteName \> ，中繼 \< 伺服器 FQDN \> 和中繼 \< 伺服器的 IP 位址 \> 值。 \<ApplianceName \> 是您的主機伺服器名稱。
+    首先，請在 ApplianceRoot 目錄區段中檢查您的 CloudConnector.ini 檔案。 您將取得 \<SiteName\> 檔案 \<Mediation Server FQDN\> \<Mediation Server IP Address\> 中的和值。 \<ApplianceName\> 是您的主機伺服器名稱。
     
-    其次，使用商務用 Skype 租使用者系統管理員認證來啟動租使用者遠端 PowerShell，然後執行下列 Cmdlet 以檢查已註冊的裝置。
+    其次，使用商務用 Skype 租使用者系統管理員認證來啟動租使用者遠端 PowerShell，然後執行下列 Cmdlet 以檢查註冊的裝置 (s) 。
     
   ```powershell
   Get-CsHybridPSTNAppliance
   ```
 
-    在識別任何衝突之後，您可以使用符合註冊裝置的資訊來更新 CloudConnector .ini 檔案，或取消註冊現有裝置以解決衝突。
+    在識別任何衝突之後，您可以使用符合註冊裝置的資訊來更新 CloudConnector.ini 檔案，或取消註冊現有裝置以解決衝突。
     
   ```powershell
   Unregister-CsHybridPSTNAppliance -Force
@@ -182,13 +185,13 @@ ms.locfileid: "44220223"
     
 - **問題：如果主機上有已部署的裝置，CcRunningVersion Cmdlet 會傳回空值。**
     
-  **解決方法：** 當您從1.3.4 或1.3.8 升級至1.4.1 時，可能會發生這種情況。 使用 .msi 安裝版本1.4.1 之後，您必須先執行， `Register-CcAppliance` 再執行任何其他 Cmdlet。 `Register-CcAppliance`會將%UserProfile%\CloudConnector 的模組 .ini 檔案遷移至%ProgramData%\CloudConnector。 如果您錯過了它，將會在%ProgramData%\CloudConnector 資料夾中建立新的 module，並取代1.3.4 或1.3.8 的執行/備份版本資訊。
+  **解決方法：** 當您從1.3.4 或1.3.8 升級至1.4.1 時，可能會發生這種情況。 使用 .msi 安裝版本1.4.1 之後，您必須先執行， `Register-CcAppliance` 再執行任何其他 Cmdlet。 `Register-CcAppliance` 會將 module.ini 檔案從%UserProfile%\CloudConnector 遷移至%ProgramData%\CloudConnector。 如果您錯過了它，將會在%ProgramData%\CloudConnector 資料夾中建立新的 module.ini，並取代1.3.4 或1.3.8 的執行/備份版本資訊。
     
-  比較%UserProfile%\CloudConnector 和%ProgramData%\CloudConnector 資料夾中的模組 .ini 檔案。 若有差異，請刪除%ProgramData%\CloudConnector 中的模組 .ini 檔案，然後再執行 `Register-CcAppliance` 。 您也可以手動將檔案修改為正確的執行和備份版本。
+  比較%UserProfile%\CloudConnector 和%ProgramData%\CloudConnector 資料夾中的 module.ini 檔案。 如果有差異，請刪除%ProgramData%\CloudConnector 中的 module.ini 檔案，然後重新執行  `Register-CcAppliance` 。 您也可以手動將檔案修改為正確的執行和備份版本。
     
 - **問題：當您執行 CcVersion 指令程式來切換至與目前腳本版本不同的舊版本時，此舊版本沒有高可用性支援。**
     
-    **解決方法：** 例如，您已從1.4.1 升級到1.4.2。 您目前的腳本版本（可以透過執行 `Get-CcVersion` ）和您的執行版本（這 `Get-CcRunningVersion` 兩種都是1.4.2）所決定。 在此情況下，如果您執行將執行 `Switch-CcVersion` 中的版本切換回1.4.1，則此舊版本將無法提供高可用性支援。
+    **解決方法：** 例如，您已從1.4.1 升級到1.4.2。 您目前的腳本版本（可以透過執行 `Get-CcVersion` ）和您的執行版本（這  `Get-CcRunningVersion` 兩種都是1.4.2）所決定。 在此情況下，如果您執行將執行 `Switch-CcVersion` 中的版本切換回1.4.1，則此舊版本將無法提供高可用性支援。
     
     若要取得完整的高可用性支援，請切換回舊版，使執行的版本和腳本版本相同。 如果您遇到1.4.2 部署的問題，請儘快卸載並重新安裝。
     
@@ -203,7 +206,7 @@ ms.locfileid: "44220223"
     
     如果憑證授權單位憑證接近到期，請執行 CcCACertificate 或 Update-CcCACertificate Cmdlet 來更新憑證。
     
-    **如果憑證授權單位憑證遭到損害，且網站中只有一個裝置，請**執行下列步驟：
+    **如果憑證授權單位憑證遭到損害，且網站中只有一個裝置，請** 執行下列步驟：
     
 1. 執行 Enter-CcUpdate 指令程式以排出服務，並將裝置置於維護模式。
    
@@ -242,11 +245,11 @@ ms.locfileid: "44220223"
    ```
 
 
-    **如果憑證授權單位憑證遭到損害，且網站中有多個裝置，請**在網站的每部裝置中執行下列順序步驟。
+    **如果憑證授權單位憑證遭到損害，且網站中有多個裝置，請** 在網站的每部裝置中執行下列順序步驟。
     
     Microsoft 建議您在非峰使用時間內執行這些步驟。
     
-1. 在第一個裝置上，執行 CcCertificationAuthorityFile Cmdlet 以清除 SiteRoot 目錄中的 CA 備份檔案 \< \> 。
+1. 在第一個裝置上，執行 CcCertificationAuthorityFile Cmdlet 以清除目錄中的 CA 備份檔案 \<SiteRoot\> 。
 
      ```powershell
      Remove-CcCertificationAuthorityFile
@@ -276,7 +279,7 @@ ms.locfileid: "44220223"
      Remove-CcLegacyServerCertificate 
      ```
 
-4. 在第一個裝置上，執行下列 Cmdlet，將 CA 檔案備份到 \< SiteRoot \> 資料夾。
+4. 在第一個裝置上，執行下列 Cmdlet，將 CA 檔案備份到 \<SiteRoot\> 資料夾。
     
      ```powershell
      Backup-CcCertificationAuthority
@@ -303,7 +306,7 @@ ms.locfileid: "44220223"
      ```
     
     
-- **問題：您在雲端連接器管理服務記錄中收到下列錯誤訊息：「C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log "： CceService 錯誤：0：向線上報告狀態時出現意外例外狀況： user Global 承租人系統管理員的登入失敗。 \< \>請建立新的身分憑證物件，確定您已使用正確的使用者名稱和密碼。---\>**
+- **問題：您在雲端連接器管理服務記錄中收到下列錯誤訊息：「C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log "： CceService 錯誤：0：向線上報告狀態時出現意外例外狀況：。 CmdletInvocationException： \<Global Tenant Admin\> 為使用者登入失敗。請建立新的身分憑證物件，確定您已使用正確的使用者名稱和密碼。---\>**
     
     **解決方法：** Microsoft 365 或 Office 365 全域租使用者系統管理員認證自雲端連接器裝置註冊後已變更。 若要在雲端連接器裝置上更新本機儲存的認證，請從主機裝置上的系統管理員 PowerShell 執行下列作業：
     
@@ -313,21 +316,21 @@ ms.locfileid: "44220223"
 
 - **問題：在您變更用於部署之主機伺服器帳戶的密碼之後，您會收到下列錯誤訊息：「ConvertTo-SecureString：在指定的狀態中使用的機碼無效。」在%ProgramFiles%\Skype for Business 雲端 Connector Edition\ManagementService\CceManagementService.log 或執行 CcCredential Cmdlet。**
     
-    **解決方法：** 所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
+    **解決方法：** 所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
     
-    **如果您正在執行雲端連接器版本1.4.2，請**遵循下列步驟重新產生所有雲端連接器密碼：
+    **如果您正在執行雲端連接器版本1.4.2，請** 遵循下列步驟重新產生所有雲端連接器密碼：
     
   1. 重新開機主機伺服器。
     
-  2. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "。
+  2. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。
     
   3. 以系統管理員身分啟動 PowerShell 主控台，然後執行「Register-CcAppliance-Local」，以在描述之後重新輸入密碼。 輸入您在雲端連接器部署之前輸入的相同密碼。
     
-     **如果您正在執行 Cloud connector 版本2.0 或更新版本，請**遵循下列步驟來重新產生所有雲端連接器密碼：
+     **如果您正在執行 Cloud connector 版本2.0 或更新版本，請** 遵循下列步驟來重新產生所有雲端連接器密碼：
     
   4. 重新開機主機伺服器。
     
-  5. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "。
+  5. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。
     
   6. 以系統管理員身分啟動 PowerShell 主控台，然後執行「Register-CcAppliance-Local」，以在描述之後重新輸入密碼。 
     
@@ -357,13 +360,13 @@ ms.locfileid: "44220223"
     
 - **問題：使用雲端連接器版本2.1 和更新版本時，在裝置上執行 CcAppliance 或其他 Cmdlet 時，會收到一則錯誤訊息，例如，針對每個物件： "the the the the the property the the the the the the the the the the the the the the the the the the the the確認該屬性存在。C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1： 681 char： 14 "**
     
-    **解決方法：** Cloud Connector 2.1 和更新版本需要 .NET Framework 4.6.1 或更新版本。 請將裝置上的 .NET Framework 更新為4.6.1 或更新版本，然後再次執行 Cmdlet。
+    **解決方法：** Cloud Connector 2.1 和更新版本需要 .NET Framework 4.6.1 或更新版本。 請將裝置上的 .NET Framework 更新為版本4.6.1 或更新版本，然後再次執行 Cmdlet () 。
 
 - **問題：使用雲端連接器 Edition 2.1 時，當執行 CcAppliance 時，會收到錯誤訊息，例如：「未能安裝新的實例，錯誤：無法設定「狀態」，因為只有字串可以做為值以設定 XmlNode 屬性」**
 
-   **解決方法：** 在 Cloudconnector 的 [Common] 區段下，請新增「State」 config，如下所示： CountryCode = US State = 華盛頓市 = Redmond
+   **解決方法：** 在 Cloudconnector.ini 中的 [通用] 區段下，請新增「State」 config，如下所示： CountryCode = US State = 華盛頓市 = Redmond
 
-   「狀態」列必須具有值，但無法從 Cloudconnector 中移除「狀態」行。。
+   「狀態」列必須具有值，但無法從 Cloudconnector.ini 檔移除「狀態」行。
 
 - **問題：您收到下列錯誤訊息：「卸裝-WindowsImage： WindowsImage 失敗」。在安裝或升級 Cloud Connector Edition 時，錯誤代碼 = 0xc1550115 "。**
     
@@ -375,9 +378,9 @@ ms.locfileid: "44220223"
     
   - 如果第一個雲端連接器裝置失敗，而且您無法判斷失敗的原因，則必須重新安裝裝置，直到部署成功為止，然後再安裝其他裝置。
     
-  - 如果第一個雲端連接器裝置因次要問題而失敗，例如外部憑證問題，您可能能夠修正問題，而不需重新安裝裝置。 然後，您可以使用租使用者 remote PowerShell，將部署標示為成功，如下所示。 （您也可以在第一次部署成功時使用下列步驟，但是由於某些原因，Cloud Connector 無法報告部署成功。）
+  - 如果第一個雲端連接器裝置因次要問題而失敗，例如外部憑證問題，您可能能夠修正問題，而不需重新安裝裝置。 然後，您可以使用租使用者 remote PowerShell，將部署標示為成功，如下所示。  (您也可以在第一次部署成功時使用下列步驟，但由於某些原因，Cloud Connector 無法報告部署成功。 ) 
     
-  - 若要取得第一個雲端連接器裝置的身分識別（GUID），請執行 CsHybridPSTNAppliance Cmdlet。
+  - 若要取得第一個雲端連接器裝置的身分識別 (GUID) ，請執行 CsHybridPSTNAppliance Cmdlet。
     
   - 若要將裝置標示為已成功部署，請執行 CsCceApplianceDeploymentStatus，如下所示：
     
@@ -391,7 +394,7 @@ ms.locfileid: "44220223"
     
    如果您需要手動檢查並安裝 Windows 更新，請遵循本節中適用于您的部署類型的步驟。 您應該同時規劃同時更新主機伺服器及同時在其上執行的虛擬機器，以將更新所需的停機時間降至最低。
     
-   如果您願意，您可以使用 Windows Server Update Services （WSUS）伺服器來提供雲端連接器伺服器的更新。 請務必將 Windows 更新設定為**不**會自動安裝。
+   如果您願意，您可以使用 Windows Server Update Services (WSUS) 伺服器來提供雲端連接器伺服器的更新。 請務必將 Windows 更新設定為 **不** 會自動安裝。
     
    如需如何手動更新雲端連接器部署的詳細資訊，請參閱下一節。
     
@@ -417,16 +420,16 @@ PowerShell 會將此檔案建立為其所找到之模組的指令程式快取，
     
      a. 暫時變更：以系統管理員身分啟動 Powershell，並執行下列命令： $env:P SModulePath = $env:P SModulePath + ";C:\Program Files\WindowsPowerShell\Modules\"
         
-     b. 若要持續變更，請以系統管理員身分啟動 PowerShell，並執行下列命令之一： $CurrentValue = [環境]：： GetEnvironmentVariable （"PSModulePath"，"Machine"） SetEnvironmentVariable （"PSModulePath"，$CurrentValue + ";C:\Program Files\WindowsPowerShell\Modules "，" Machine "）
+     b. 針對持續變更，以系統管理員身分啟動 PowerShell，並執行下列命令之一： $CurrentValue = [環境]：： GetEnvironmentVariable ( "PSModulePath"，"Machine" ) SetEnvironmentVariable ( "PSModulePath"，$CurrentValue + ";C:\Program Files\WindowsPowerShell\Modules "，" Machine ") 
 
     
 ## <a name="install-windows-updates-manually"></a>手動安裝 Windows 更新
 
 如果您不想要在環境中使用自動更新，請遵循下列步驟，手動檢查並套用 Windows 更新。 檢查並安裝 Windows 更新可能需要重新開機伺服器。 當主機伺服器重新開機時，使用者將無法使用雲端連接器撥打或接聽電話。 您可以手動檢查並安裝更新，以控制更新何時進行，然後在您選擇避免服務中斷時，視需要重新開機電腦。
   
-若要手動檢查更新，請連線至每個主機伺服器，然後開啟 [**控制台**]。 選取 [**系統及安全性] [ \> Windows 更新**]，然後視您的環境，管理更新和伺服器重新開機。
+若要手動檢查更新，請連線至每個主機伺服器，然後開啟 [ **控制台**]。 選取 [ **系統及安全性] [ \> Windows 更新**]，然後視您的環境，管理更新和伺服器重新開機。
   
-- 如果網站中只有一個裝置，請連接到每一部虛擬機器，然後開啟 [**控制台**]。 選取 [**系統及安全性] [ \> Windows 更新**]，然後視需要設定更新和伺服器重新開機。
+- 如果網站中只有一個裝置，請連接到每一部虛擬機器，然後開啟 [ **控制台**]。 選取 [ **系統及安全性] [ \> Windows 更新**]，然後視需要設定更新和伺服器重新開機。
     
 - 如果網站中有多部裝置，則在更新期間，使用者無法存取已更新並重新啟動的實例。 使用者將會連線至部署中的其他實例，直到更新完成後，所有虛擬機器和商務用 Skype 服務都會在虛擬機器上開始。 若要避免任何可能中斷服務的情況，您可以在應用更新時從 HA 移除實例，然後在完成時還原。 若要這麼做︰
     
@@ -466,4 +469,4 @@ PowerShell 會將此檔案建立為其所找到之模組的指令程式快取，
     
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
-- ManagementService 處理常式的程式。
+- 處理常式 Microsoft.Rtc.CCE.ManagementService.exe。

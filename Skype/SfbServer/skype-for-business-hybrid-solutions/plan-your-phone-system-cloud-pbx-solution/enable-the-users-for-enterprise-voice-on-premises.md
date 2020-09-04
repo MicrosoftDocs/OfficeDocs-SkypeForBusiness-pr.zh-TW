@@ -18,17 +18,20 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: 若要讓使用者使用電話系統（雲端 PBX），您必須先啟用企業語音，並為其指派電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
-ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 若要讓使用者 (Cloud PBX) ，您必須先啟用企業語音，並為其指定電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
+ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221697"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359189"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>為使用者啟用企業語音-內部部署
  
-若要讓使用者使用電話系統（雲端 PBX），您必須先啟用企業語音，並為其指派電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
+若要讓使用者 (Cloud PBX) ，您必須先啟用企業語音，並為其指定電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
+
+> [!Important]
+> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>為使用者啟用企業語音內部部署和指派電話號碼
 
@@ -40,15 +43,15 @@ ms.locfileid: "44221697"
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
-4. 在 [**搜尋使用者**] 方塊中，輸入您要啟用之使用者帳戶的顯示名稱、名字、姓氏、安全性帳戶管理員（SAM）帳戶名稱、SIP 位址或線路統一資源識別元（URI）的全部或第一部分，然後按一下 [**尋找**]。
+4. 在 [ **搜尋使用者** ] 方塊中，輸入全部或部分的顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別項 (URI) 的使用者帳戶，然後按一下 [ **尋找**]。
     
 5. 在表格中，按一下您要啟用 Enterprise Voice 的商務用 Skype Online 使用者帳戶。
     
-6. 在 [**編輯**] 功能表上，按一下 [**顯示詳細資料**]。
+6. 在 [ **編輯** ] 功能表上，按一下 [ **顯示詳細資料**]。
     
-7. 在 [**電話**語音] 下，按一下 [ **Enterprise Voice**]。
+7. 在 [ **電話**語音] 下，按一下 [ **Enterprise Voice**]。
     
-8. 按一下 [**行 URI**]，然後輸入唯一的標準化電話號碼（例如電話： + 14255550200）。 然後按一下 [**認可**]。
+8. 按一下 [ **行 URI**]，然後輸入唯一的標準化電話號碼 (例如電話： + 14255550200) 。 然後按一下 [ **認可**]。
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>讓使用者在內部部署企業語音時的特殊考慮
 

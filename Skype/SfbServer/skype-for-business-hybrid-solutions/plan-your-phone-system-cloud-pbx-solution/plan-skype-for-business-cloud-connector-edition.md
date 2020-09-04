@@ -19,28 +19,31 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
-description: 尋找商務用 Skype 雲端連接器 Edition 的資訊，這是一組封裝虛擬機器（Vm），可搭配電話系統（雲端 PBX）執行內部部署 PSTN 連線。
-ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 尋找適用于商務用 Skype 雲端連接器 Edition 的資訊，一組封裝式虛擬機器 (Vm) ，以 (雲端 PBX) 執行內部部署 PSTN 連線。
+ms.openlocfilehash: ec96662e3dbe432ce8cebe7dc59004350124451e
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220083"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358989"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype Cloud Connector Edition
 
-尋找商務用 Skype 雲端連接器 Edition 的資訊，這是一組封裝虛擬機器（Vm），可搭配電話系統（雲端 PBX）執行內部部署 PSTN 連線。
+> [!Important]
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
-如果您沒有現有的 Lync Server 或商務用 Skype Server 部署，雲端連接器 Edition 可能是貴組織的正確解決方案。 如果您仍在調查哪一個電話系統解決方案適合您的企業，請參閱[Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+尋找適用于商務用 Skype 雲端連接器 Edition 的資訊，一組封裝式虛擬機器 (Vm) ，以 (雲端 PBX) 執行內部部署 PSTN 連線。
 
-這份檔描述 Cloud Connector Edition 需求和支援的拓撲，並協助您規劃雲端連接器 Edition 部署。 在設定雲端連接器環境之前，請務必閱讀本主題。 當您準備好部署及設定 Cloud Connector Edition 時，請參閱[configure and Manage 商務用 Skype Cloud Connector edition](configure-skype-for-business-cloud-connector-edition.md)。
+如果您沒有現有的 Lync Server 或商務用 Skype Server 部署，雲端連接器 Edition 可能是貴組織的正確解決方案。 如果您仍在調查哪一個電話系統解決方案適合您的企業，請參閱 [Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
-現在可以使用雲端連接器 Edition 2.1。 若尚未升級至2.1，請參閱[升級至新版本的雲端連接器](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以在中找到安裝檔 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。
+這份檔描述 Cloud Connector Edition 需求和支援的拓撲，並協助您規劃雲端連接器 Edition 部署。 在設定雲端連接器環境之前，請務必閱讀本主題。 當您準備好部署及設定 Cloud Connector Edition 時，請參閱 [configure and Manage 商務用 Skype Cloud Connector edition](configure-skype-for-business-cloud-connector-edition.md)。
+
+現在可以使用雲端連接器 Edition 2.1。 若尚未升級至2.1，請參閱 [升級至新版本的雲端連接器](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以在中找到安裝檔 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。
 
 > [!NOTE]
 > 在發行新版本之後，Microsoft 支援舊版的雲端連接器 Edition，版本為60天。 在2.1 發行後，Microsoft 會在60天內支援版本2.0.1，以供您升級時間。 已不再支援2.0.1 之前的所有版本。
 
-Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式虛擬機器（Vm），可對電話系統執行內部部署 PSTN 連線。 在虛擬化環境中部署最低的商務用 Skype 伺服器拓撲，組織中的使用者可以從 Microsoft 雲端接收 PBX 服務，但是 PSTN 連線是透過現有的內部部署語音基礎結構提供。
+Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬機器 (Vm) ，可對電話系統執行內部部署 PSTN 連線。 在虛擬化環境中部署最低的商務用 Skype 伺服器拓撲，組織中的使用者可以從 Microsoft 雲端接收 PBX 服務，但是 PSTN 連線是透過現有的內部部署語音基礎結構提供。
 
 ![拓撲圖表顯示將雲端 pbx 連接至內部部署商務用 Skype 的雲端 PBX 閘道。](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
@@ -58,23 +61,23 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 
 - 雲端連接器不需要完整的內部部署商務用 Skype Server 部署。
 
-    目前，Cloud Connector 無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移至 Microsoft 365，並持續為使用者提供內部部署電話語音，請考慮使用現有的商務用 Skype 伺服器部署，使用具有內部部署連線的電話系統。 如需詳細資訊，請參閱[規劃您的電話系統（雲端 PBX）方案](plan-your-phone-system-cloud-pbx-solution.md)，以及在[商務用 Skype Server 中規劃使用內部部署 PSTN 連線的電話系統](plan-phone-system-with-on-premises-pstn-connectivity.md)。
+    目前，Cloud Connector 無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移至 Microsoft 365，並持續為使用者提供內部部署電話語音，請考慮使用現有的商務用 Skype 伺服器部署，使用具有內部部署連線的電話系統。 如需詳細資訊，請參閱[在商務用 Skype Server 中](plan-phone-system-with-on-premises-pstn-connectivity.md)[規劃您的電話系統 (雲端 PBX) 解決方案](plan-your-phone-system-cloud-pbx-solution.md)及規劃使用內部部署 PSTN 連線的電話系統。
 
 - 如果您有舊版商務用 Skype 或 Lync Server 部署，而且您已擴充架構，只要您已從環境中移除所有商務用 Skype 或 Lync Server 元件，便不需要清除雲端連接器部署的架構。
 
 - 您的使用者位於線上。
 
-- 如果您的組織已設定目錄同步處理（DirSync），則必須先在內部部署中建立規劃混合式語音的所有使用者帳戶，然後再同步到雲端。
+- 如果您的組織已設定目錄同步處理 (DirSync) ，則必須先在內部部署部署中建立規劃混合式語音的所有使用者帳戶，然後再同步到雲端。
 
 - 如有必要，您可以保留目前的 PSTN 載體。
 
 - 如果您想要將電話撥入式會議提供給雲端連接器上所裝載的使用者，您可以購買 PSTN 會議許可證或隨您從 Microsoft 前往音訊會議提供付費。
 
-- 通話升級所需的音訊會議許可證（或隨選即付產品）。 如果商務用 Skype 使用者接收來自外部 PSTN 使用者的呼叫，且想要將另一個參與者新增至該通話（將通話升級至會議），則會透過 Microsoft 音訊會議服務執行升級。
+-  (或隨隨選即付的促銷) 也是通話升級所需的。 如果商務用 Skype 使用者接收來自外部 PSTN 使用者的呼叫，且想要將另一個參與者新增至該通話 (將通話提升至會議) ，將透過 Microsoft 音訊會議服務執行升級。
 
-- Cloud Connector 2.0 和更新版本現在支援媒體旁路。 媒體旁路可讓用戶端直接將媒體傳送到公用交換電話網路（PSTN）的下一個躍點：閘道或會話邊界控制器（SBC），並從媒體路徑中消除雲端連接器版本元件。 如需詳細資訊，請參閱[Plan For 雲端 Connector Edition 中的媒體旁路](plan-for-media-bypass-in-cloud-connector-edition.md)。
+- Cloud Connector 2.0 和更新版本現在支援媒體旁路。 媒體旁路可讓用戶端直接將媒體傳送到公用交換電話網路 (PSTN) 下一個躍點（閘道或會話邊界控制器 (SBC) ），並從媒體路徑中消除雲端連接器版本元件。 如需詳細資訊，請參閱 [Plan For 雲端 Connector Edition 中的媒體旁路](plan-for-media-bypass-in-cloud-connector-edition.md)。
 
-- Cloud Connector 2.1 和更新版本支援使用 Operations Management Suite （OMS）監控雲端連接器。 如需詳細資訊，請參閱[使用 Operations Management Suite （OMS）監控 Cloud Connector](monitor-cloud-connector-using-operations-management-suite-oms.md)
+- Cloud Connector 2.1 和更新版本支援使用 Operations Management Suite (OMS) 來監視雲端連接器。 如需詳細資訊，請參閱 [使用 Operations Management Suite Monitor Cloud Connector (OMS) ](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
 - 雲端連接器可用於所有可供 Office 365 企業版 E5 使用的國家/地區。
 
@@ -101,7 +104,7 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 ## <a name="cloud-connector-edition-components"></a>雲端連接器版本元件
 <a name="BKMK_Components"> </a>
 
-使用雲端連接器 Edition，您可以部署一組包含最低商務用 Skype 伺服器拓撲（包含 Edge 元件、中繼元件及中央管理存放區（CMS）角色）的封裝 Vm。 您也會安裝網域控制站，此為雲端連接器的內部運作所需的。 這些服務是針對混合使用的 Microsoft 365 或 Office 365 組織，設定，包含商務用 Skype Online 服務。
+使用雲端連接器 Edition，您可以部署一組包含最低商務用 Skype 伺服器拓撲（包含 Edge 元件、中繼元件，以及中央管理存放區 (CMS) 角色）的集。 您也會安裝網域控制站，此為雲端連接器的內部運作所需的。 這些服務是針對混合使用的 Microsoft 365 或 Office 365 組織，設定，包含商務用 Skype Online 服務。
 
 ![雲端連接器版本元件](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -111,21 +114,21 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 
   - **Access Edge** -提供內部部署和商務用 Skype Online 之間的 SIP 路由。
 
-  - **媒體轉送**-提供中繼元件與其他媒體端點之間的媒體路由。
+  - **媒體轉送** -提供中繼元件與其他媒體端點之間的媒體路由。
 
   - **Media 轉送驗證/MRAS** -產生權杖以供存取媒體轉送。
 
-- **輸出路由**-針對連接至雲端連接器裝置的閘道或 SBCs，提供語音流量的負載平衡。 通話會平均分割所有閘道或連接至雲端連接器裝置 SBCs。
+- **輸出路由** -針對連接至雲端連接器裝置的閘道或 SBCs，提供語音流量的負載平衡。 通話會平均分割所有閘道或連接至雲端連接器裝置 SBCs。
 
-    根據原則提供路由傳送至閘道。 只支援以目的地（輸出） PSTN 號碼為基礎的全域原則。
+    根據原則提供路由傳送至閘道。 只支援以目的地為基礎的全域原則 (輸出) PSTN 號碼。
 
-- **中央管理存放區（CMS） role** -包括拓撲元件的設定存放區，包括 CMS 檔案傳輸。
+- **中央管理存放區 (CMS) role** -包括拓撲元件的設定存放區（包括 CMS 檔案傳輸）。
 
-- **中央管理存放區（CMS）複本**-同步 CMS 角色服務器上全域 CMS 資料庫中的設定資訊。
+- **中央管理存放區 (cms) 複本** -同步 cms 角色服務器上全域 CMS 資料庫的設定資訊。
 
-- **網域控制站**-Cloud Connector Active Directory 網域服務，用來儲存部署雲端連接器元件所需的所有全域設定和群組。 每個雲端連接器裝置都會建立一個樹系。 網域控制站不能與實際執行 Active Directory 的任何連接。 Active Directory 服務包括：
+- **網域控制站** -Cloud Connector Active Directory 網域服務，用來儲存部署雲端連接器元件所需的所有全域設定和群組。 每個雲端連接器裝置都會建立一個樹系。 網域控制站不能與實際執行 Active Directory 的任何連接。 Active Directory 服務包括：
 
-  - Active Directory 網域服務
+  - Active Directory Domain Services
 
   - 發行內部憑證的 Active Directory 憑證服務
 
@@ -142,7 +145,7 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 
 - 在單一 PSTN 網站內部署多個雲端連接器裝置，允許高可用性。
 
-本主題將介紹 PSTN 網站。 如需規劃 PSTN 網站的詳細資訊，請參閱[Plan For Cloud Connector EDITION PSTN sites](plan-for-cloud-connector-edition-pstn-sites.md)。
+本主題將介紹 PSTN 網站。 如需規劃 PSTN 網站的詳細資訊，請參閱 [Plan For Cloud Connector EDITION PSTN sites](plan-for-cloud-connector-edition-pstn-sites.md)。
 
 您可以部署下列 Cloud Connector 拓撲：
 
@@ -160,15 +163,15 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 
   - 較大的版本可以處理大量同時通話，而且在所有類型的實際生產環境中都支援。
 
-  - 較小的版本是要在低端硬體上執行，而且可用於評估用途，或適用于低通話量的網站。 如果您部署的是較小型的雲端連接器版本，您仍然需要注意生產類別的硬體需求（例如雙電源）。
+  - 較小的版本是要在低端硬體上執行，而且可用於評估用途，或適用于低通話量的網站。 如果您部署的是較小型的雲端連接器版本，您仍然需要注意生產類別的硬體需求 (例如雙電源供應) 。
 
-- 如果您有雲端連接器版本2.0 或更新版本，且您部署16裝置的最大設定（較大的硬體），則您的 PSTN 網站可以處理最多8000同時通話。 如果您部署的是較小的版本，支援的限制為800。
+- 如果您有雲端連接器版本2.0 或更新版本，且您使用較大的硬體) 部署16裝置 (的最大設定，則您的 PSTN 網站可以處理最多8000同時通話。 如果您部署的是較小的版本，支援的限制為800。
 
     您也需要專用某些裝置以取得高可用性。 最小建議是一個裝置應該保留以取得高可用性。
 
   - 使用第2版時，如果您部署了 15 + 1 設定，您的 PSTN 網站可以處理最多7500同時通話。
 
-  - 如果您有舊版，且部署的最大 3 + 1 設定（包含較大的硬體），您的 PSTN 網站可以處理最多1500同時通話。 如果您部署的是較小的版本，支援的限制為150。
+  - 如果您有較舊的版本，且使用較大的硬體) 部署最多 3 + 1 設定 (，則您的 PSTN 網站最多可以處理1500同時通話。 如果您部署的是較小的版本，支援的限制為150。
 
 -  如果您需要每個 PSTN 網站有多個通話，您可以在相同位置部署其他 PSTN 網站，以進行擴充。
 
@@ -212,62 +215,62 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 
 部署雲端連接器 Edition 之前，請確定您的環境具備下列各項：
 
-- **針對主機機-** 雲端連接器 Vm 必須部署在已啟用 Hyper-V role 的專用硬體上，且執行 Windows Server 2012 R2 Datacenter edition （英文）。
+- **針對主機機-** 雲端連接器 Vm 必須部署在已啟用 Hyper-V 角色的專屬硬體上，且執行 Windows Server 2012 R2 Datacenter edition (英文) 。
 
     針對版本2.0 和更新版本，系結至商務用 Skype 網路的主機電腦網卡，必須在與雲端連接器公司網路機器相同的子網中設定 IP 位址。
 
 - 針對2.1 和更新版本，主機裝置必須已安裝 .NET Framework 4.6.1 或更新版本。
 
-- **針對虛擬機器-** Windows Server 2012 R2 ISO （英文）映射（.iso）。 ISO 將會轉換成 Vhd，以執行將會執行商務用 Skype 雲端連接器 Edition 的虛擬機器。
+- **針對虛擬機器-** Windows Server 2012 R2 ISO (英文) image ( .iso) 。 ISO 將會轉換成 Vhd，以執行將會執行商務用 Skype 雲端連接器 Edition 的虛擬機器。
 
 - 在您的部署中支援每個雲端連接器 Edition 安裝4個 Vm 所需的硬體。 建議使用下列設定：
 
-  - 64位雙處理器、六個核心（12個實核心）、2.50 十億位元（GHz）或更高版本
+  - 64位雙處理器，六個核心 (12 個實核心) ，2.50 十億位元 (GHz) 或更高版本
 
-  - 64 gb ECC RAM
+  - 64 gb (GB) ECC RAM
 
-  - 4 600 GB （或更佳） 10K RPM 128M 快取 SAS 6Gbps 磁片，在 RAID 5 設定中設定
+  - 4 600 GB (或更好) 10K RPM 128M 快取 SAS 6Gbps 磁片，已在 RAID 5 設定中設定
 
   - 三個 1 Gbps RJ45 高輸送量網路介面卡
 
 - 如果您選擇部署支援高達50同時通話的較小版本的雲端連接器版本，則需要下列硬體：
 
-  - Intel i7 4790 四核（含英特爾4600圖形）（不需要高端圖形）
+  - Intel i7 4790 四核含英特爾4600圖形 (無需高端圖形) 
 
   - 32 GB DDR3-1600 非 ECC
 
-  - 2：在 RAID 0 中 1TB 7200RPM SATA III （6 Gbps）
+  - 2： 1TB 7200RPM SATA III (RAID 0 中的 6 Gbps) 
 
-  - 2: 1 Gbps 乙太網路（RJ45）
+  - 2: 1 Gbps 乙太 (RJ45) 
 
 - 若主機電腦需要有 proxy 伺服器來流覽網際網路，則您必須進行下列設定變更：
 
-  - 若要略過 proxy，請指定使用 proxy 伺服器設定 WinHTTP Proxy 設定，以及包含 " \* 192.168.213" 的旁路清單。您的雲端連接器 Managements 服務和商務用 Skype 網路服務子網所用的網路（如您的 CloudConnector 檔案中所定義）。 否則，管理連線會失敗並避免雲端連接器的部署和自動修復。 以下是一個範例 winHTTP 設定命令： netsh winHTTP set proxy "10.10.10.175： 8080" 旁路-list = " \* local; 1. \* ;172.20. \* ; 192.168.218。 \* ' \<local \> "。
+  - 若要略過 proxy，請指定使用 proxy 伺服器設定 WinHTTP Proxy 設定，以及包含 " \* 192.168.213" 的旁路清單。您的雲端連接器 Managements 服務和商務用 Skype 網路服務子網所用的網路（如您的 CloudConnector.ini 檔案中所定義）。 否則，管理連線會失敗並避免雲端連接器的部署和自動修復。 以下是一個範例 winHTTP 設定命令： netsh winHTTP set proxy "10.10.10.175： 8080" 旁路-list = " \* local; 1. \* ;172.20. \* ; 192.168.218. \* ' \<local\> "。
 
   - 指定每個機器的 proxy 設定，而非每個使用者。 否則 Cloud Connector 下載將會失敗。 您可以使用登錄變更或「群組原則」設定來指定每台電腦的 proxy 設定，如下所示：
 
   - 登錄 **：** HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword：00000000
 
-  - **群組原則：** 電腦系統 \> 管理範本 \> Windows 元件 \> Internet Explorer：以每個機器為單位設定 Proxy （而不是每個使用者）
+  - **群組原則：** 電腦系統 \> 管理範本 \> Windows 元件 \> ： Internet Explorer：以每個機器 (，而不是依據每個使用者來建立 Proxy 設定) 
 
-- 合格的 PBX/主幹或合格的 SBC/閘道（建議至少有兩個閘道）。
+- 合格的 PBX/主幹或合格的 SBC/閘道 () 建議至少兩個閘道。
 
-    雲端連接器支援的會話邊界控制器（SBCs）為商務用 Skype 所驗證。 如需詳細資訊，請參閱[商務用 Skype 的電話語音基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。
+    雲端連接器支援相同的會話邊界控制器 (已驗證商務用 Skype 的 SBCs) 。 如需詳細資訊，請參閱 [商務用 Skype 的電話語音基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。
 
 - 本機伺服器管理員帳戶，具有在主伺服器上安裝及設定 Hyper-V 的許可權。 此帳戶必須在安裝及設定 Hyper-V 的本機伺服器上具有系統管理員許可權。
 
 - 在部署期間，系統會要求您建立具有許可權的網域管理員帳戶，以在雲端連接器網域中建立及發行拓撲。
 
-- 在安裝套件隨附的 CloudConnector 檔案中定義的外部 DNS 記錄：
+- 在安裝套件隨附的 CloudConnector.ini 檔案中定義的外部 DNS 記錄：
 
-  - Edge 元件的 Access Edge service 的外部 DNS 記錄;例如，ap。 \<功能變數名稱 \> 。 您需要每個 PSTN 網站有一筆記錄。 此記錄必須包含該網站所有邊緣的 IP 位址。
+  - Edge 元件的 Access Edge service 的外部 DNS 記錄;例如， \<Domain Name\> ap。 您需要每個 PSTN 網站有一筆記錄。 此記錄必須包含該網站所有邊緣的 IP 位址。
 
 - 建立所有必要的 DNS 和 SRV 記錄的 Microsoft 365 或 Office 365 組織。
 
     > [!IMPORTANT]
-    > 當您將租使用者與 Cloud Connector Edition 整合時，不支援使用預設網域尾碼 onmicrosoft.com，做為組織的 SIP 網域。 > 您無法使用 sip。 \<功能變數名稱命名 \> 為雲端連接器 Edge Access proxy 介面的名稱，因為 Microsoft 365 和 Office 365 使用此 DNS 記錄。
+    > 當您將租使用者與 Cloud Connector Edition 整合時，不支援使用預設網域尾碼 onmicrosoft.com，做為組織的 SIP 網域。 > 您無法使用 sip。\<Domain Name\> 做為您的雲端連接器 Edge Access proxy 介面的名稱，因為 Microsoft 365 和 Office 365 使用此 DNS 記錄。
 
-- 從公用憑證授權單位（CA）取得之外部 Edge 的憑證。
+- 從公用憑證授權單位取得之外部 Edge 的憑證 (CA) 。
 
 - 允許流量已完成之必要端口的防火牆規則。
 
@@ -284,7 +287,7 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 > 僅 Microsoft Hyper-V 虛擬化平臺支援雲端連接器部署。 不支援其他平臺（如 VMware 和 Amazon Web 服務）。
 
 > [!NOTE]
-> 執行雲端連接器的最低硬體指導方針是以基本硬體容量（核心，MHz，gb 等等）為基礎，具有部分緩衝區以容納任何電腦架構中的無形效能損傷。 Microsoft 已于商業用的硬體會議上執行最壞的案例負載測試，這是最低的指導方針。 已驗證媒體質量和系統效能。 官方 Cloud Connector 裝置合作夥伴的 Microsoft 有特定的雲端連接器硬體實施，其具有獨立測試的效能，而且其硬體適用性可滿足負載和品質需求。
+> 執行雲端連接器的最低硬體指引是以基本硬體容量為基礎的 (核心、MHz、gb 等等) ，但有一些緩衝區可容納因在任何電腦架構中的無形效能障礙。 Microsoft 已于商業用的硬體會議上執行最壞的案例負載測試，這是最低的指導方針。 已驗證媒體質量和系統效能。 官方 Cloud Connector 裝置合作夥伴的 Microsoft 有特定的雲端連接器硬體實施，其具有獨立測試的效能，而且其硬體適用性可滿足負載和品質需求。
 
 > [!NOTE]
 > AudioCodes 和 Sonus 所產生的裝置，已修改程式碼，並在 Windows Server Standard edition 的伺服器上執行。 支援這些裝置。
@@ -302,13 +305,13 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 
 針對您計畫要部署的每個 PSTN 網站，您必須：
 
-- 為每個雲端連接器裝置中的所有元件建立名稱（請參閱[判斷 deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)）。
+- 為每個雲端連接器裝置中的所有元件建立名稱 (請參閱 [判斷 deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)) 。
 
-- 定義埠範圍（請參閱[埠和通訊協定](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports)）。
+- 定義埠範圍 (請參閱) 的 [埠和通訊協定](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) 。
 
-- 建立 Edge 元件的外部 DNS 記錄（請參閱[部署的需求](plan-skype-for-business-cloud-connector-edition.md#BKMK_Requirements)）。
+- 建立 Edge 元件的外部 DNS 記錄 (請參閱 [部署](plan-skype-for-business-cloud-connector-edition.md#BKMK_Requirements)) 的需求。
 
-- 決定 Edge 元件的憑證需求（請參閱[憑證需求](plan-skype-for-business-cloud-connector-edition.md#BKMK_Certs)）。
+- 決定 Edge 元件的憑證需求 (請參閱) 的 [憑證需求](plan-skype-for-business-cloud-connector-edition.md#BKMK_Certs) 。
 
 ### <a name="ports-and-protocols"></a>連接埠和通訊協定
 <a name="BKMB_Ports"> </a>
@@ -352,21 +355,21 @@ Cloud Connector Edition 是一組混合式服務，其中包含一組封裝式�
 |內部用戶端  <br/> |雲端連接器轉送元件  <br/> |TCP 50000 50019  <br/> |TCP 49 152-57 500\*  <br/> |
 |內部用戶端  <br/> |雲端連接器轉送元件  <br/> |UDP 50000 50019  <br/> |UDP 49 152-57 500\*  <br/> |
 
-\*這是中繼元件上的預設埠範圍。 為了達到最佳的通話流程，需要每個通話有四個埠。
+\* 這是中繼元件上的預設埠範圍。 為了達到最佳的通話流程，需要每個通話有四個埠。
 
-\*\*此埠必須設定在 SBC/PSTN 閘道上;5060為範例。 您可以在 SBC/PSTN 閘道上設定其他埠。
+\*\* 此埠必須設定在 SBC/PSTN 閘道上;5060為範例。 您可以在 SBC/PSTN 閘道上設定其他埠。
 
-\*\*\*請注意，如果 SBC/閘道製造商允許，您也可以限制 SBC/閘道上的埠範圍。
+\*\*\* 請注意，如果 SBC/閘道製造商允許，您也可以限制 SBC/閘道上的埠範圍。
 
-基於安全性的考慮，您可以使用[Set-CsMediationServer](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) Cmdlet 來限制中繼元件的埠範圍。
+基於安全性的考慮，您可以使用 [Set-CsMediationServer](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) Cmdlet 來限制中繼元件的埠範圍。
 
-例如，下列命令會限制中繼元件將用於多媒體流量為 50 000-51 000 （內和輸出）的埠數目。 中繼元件將可以使用此設定來處理250同時進行的呼叫。 請注意，您也可能想要在 SBC/PSTN 閘道上限制此範圍：
+例如，下列命令會限制在) 中，中繼元件將用於音訊 (的媒體流量為 50 000-51 000 的埠數目。 中繼元件將可以使用此設定來處理250同時進行的呼叫。 請注意，您也可能想要在 SBC/PSTN 閘道上限制此範圍：
 
 ```powershell
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
-若要取得轉送元件的名稱並查看預設埠，您可以使用[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) Cmdlet，如下所示：
+若要取得轉送元件的名稱並查看預設埠，您可以使用 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) Cmdlet，如下所示：
 
 ```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
@@ -382,8 +385,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 |**來源 IP**|**目的地 IP**|**來源埠**|**目的地埠**|
 |:-----|:-----|:-----|:-----|
-|任何  <br/> |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |TCP （MTLS）5061  <br/> |
-|Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |TCP （MTLS）5061  <br/> |
+|任何  <br/> |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |) 5061 的 TCP (MTLS  <br/> |
+|Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |) 5061 的 TCP (MTLS  <br/> |
 |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |TCP 80  <br/> |
 |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |UDP 53  <br/> |
 |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |TCP 53  <br/> |
@@ -404,8 +407,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 |**來源 IP**|**目的地 IP**|**來源連接埠**|**目的地連接埠**|
 |:-----|:-----|:-----|:-----|
-|任何  <br/> |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |TCP （MTLS）5061  <br/> |
-|Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |TCP （MTLS）5061  <br/> |
+|任何  <br/> |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |) 5061 的 TCP (MTLS  <br/> |
+|Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |) 5061 的 TCP (MTLS  <br/> |
 |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |TCP 80  <br/> |
 |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |UDP 53  <br/> |
 |Cloud Connector Edge 外部介面  <br/> |任何  <br/> |任何  <br/> |TCP 53  <br/> |
@@ -422,20 +425,20 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |方向  <br/> |來源 IP  <br/> |目的地 IP  <br/> |來源連接埠  <br/> |目的地連接埠  <br/> |Protocol (通訊協定)  <br/> |用途  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |出境  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
-|出境  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> |憑證吊銷清單（CRL）  <br/> |
+|出境  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> | (CRL) 的憑證吊銷清單  <br/> |
 |出境  <br/> |雲端 Connectorr 主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> |雲端連接器更新  <br/> 商務用 Skype Online  <br/> 系統管理員 PowerShell  <br/> Windows Update  <br/> |
 
 如果需要更嚴格的規則，請參閱下列 whitelisting URLs：
 
 - [URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中 URLs 365 的[憑證吊銷清單](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
-- Windows Update：[如何設定軟體更新的防火牆](https://technet.microsoft.com/library/bb693717.aspx)
+- Windows Update： [如何設定軟體更新的防火牆](https://technet.microsoft.com/library/bb693717.aspx)
 
 - 商務用 Skype Online 系統管理員 PowerShell: \* 。 online.lync.com
 
     如果您需要此目的地的 proxy 排除，您必須將其新增至 WinHTTP 旁路清單。
 
-- 雲端連接器更新：[下載中心](https://aka.ms/CloudConnectorInstaller)、 [https://go.microsoft.com](https://go.microsoft.com) 和[https://download.microsoft.com](https://download.microsoft.com)
+- 雲端連接器更新： [下載中心](https://aka.ms/CloudConnectorInstaller)、 [https://go.microsoft.com](https://go.microsoft.com) 和 [https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>Edge 元件的 DNS 名稱解析
 <a name="BKMB_Ports"> </a>
@@ -444,7 +447,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 每個 Edge 元件都是具有外部及內部介面的多穴電腦。 雲端連接器會在周邊網路中的網域控制站元件上部署 DNS 伺服器。 您可以將 Edge Server 指向周邊中的 DNS 伺服器，以用於所有名稱解析，但是您必須啟用雲端連接器 DNS 伺服器來解析外部名稱，方法是設定 DNS 區域，其中包含一個或多個引用名稱查閱至其他公用 DNS 伺服器的外部查詢的 DNS A 記錄。
 
-在 .ini 檔案中，如果您將閘道的 FQDN 名稱設定為與 SIP 網域來自相同的網域空間，則會在周邊使用者的 DNS 伺服器中建立此 SIP 網域的授權區域。 如果 Edge Server 指向此 DNS 伺服器以解析名稱，則 Edge 永遠不會解析 _sipfederationtls。 \<yourdomain \> DNS 記錄，這是通話流程的必要條件。 在此情況下，Microsoft 建議您在 Edge 外部介面上提供 DNS 伺服器，以解析網際網路名稱查閱，而且每個 Edge 元件都必須使用主機檔來解析其他 Cloud Connector 元件名稱至 IP 位址。
+在 .ini 檔案中，如果您將閘道的 FQDN 名稱設定為與 SIP 網域來自相同的網域空間，則會在周邊使用者的 DNS 伺服器中建立此 SIP 網域的授權區域。 如果 Edge Server 指向此 DNS 伺服器以解析名稱，則 Edge 永遠不會解析 _sipfederationtls。\<yourdomain\> DNS 記錄，這是通話流程的必要條件。 在此情況下，Microsoft 建議您在 Edge 外部介面上提供 DNS 伺服器，以解析網際網路名稱查閱，而且每個 Edge 元件都必須使用主機檔來解析其他 Cloud Connector 元件名稱至 IP 位址。
 
 > [!NOTE]
 > 基於安全性考慮，建議您不要將雲端連接器 DNS 伺服器指向實際執行網域中的內部伺服器，以進行名稱解析。
@@ -460,17 +463,17 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |SIP 網域  <br/> |公司使用者使用的 SIP URI。 提供此部署將服務的所有 SIP 網域。 您可以擁有一個以上的 SIP 網域。  <br/> ||
 |PSTN 網站數目  <br/> |您將部署的 PSTN 網站數目。  <br/> ||
 
-針對您計畫要部署的每個 PSTN 網站，您必須先收集下列資訊，然後再開始部署。 當您更新 CloudConnector 時，您將需要提供此資訊。
+針對您計畫要部署的每個 PSTN 網站，您必須先收集下列資訊，然後再開始部署。 當您更新 CloudConnector.ini 檔時，您將需要提供此資訊。
 
 設定閘道資訊時，請記住下列事項：
 
 - 如果您只有一個閘道，請在 .ini 檔案中移除第二個閘道的區段。 若有兩個以上的閘道，請遵循現有的格式來新增新的。
 
-- 請確定閘道的 IP 位址和埠正確無誤。
+- 請確定閘道 (s) 的 IP 位址與埠是否正確。
 
 - 若要支援 PSTN 閘道層級 HA，請保留輔助閘道或新增其他閘道。
 
-選若要限制撥出電話號碼，請更新 LocalRoute 值。
+ (選用) 若要限制撥出電話號碼，請更新 LocalRoute 值。
 
 
 
@@ -483,63 +486,63 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |SiteName  <br/> |商務用 Skype 網站名稱;例如，西雅圖。  <br/> .Ini 檔案中的名稱： "SiteName"  <br/> 針對發行1.4.1 及更新版本，每個網站的網站名稱必須不同，且名稱必須符合 PSTN 網站（如果存在），且已在 Microsoft 365 或 Office 365 中定義。 請注意，註冊網站中的第一個裝置時，系統會自動建立 PSTN 網站。  <br/> ||
 |HardwareType  <br/> 發行1.4.1 及更新版本  <br/> |硬體類型。 預設值為 Normal。 您也可以設定為 [最小值]。  <br/> ||
 |國碼  <br/> |用於撥號的國家/地區號碼。  <br/> .Ini 檔案中的名稱： "CountryCode"  <br/> ||
-|城市  <br/> |城市（選用）。  <br/> .Ini 檔案中的名稱：「城市」  <br/> ||
-|狀態  <br/> |State （選用）。  <br/> .Ini 檔案中的名稱： "State"  <br/> ||
+|城市  <br/> |城市 (選用) 。  <br/> .Ini 檔案中的名稱：「城市」  <br/> ||
+|狀態  <br/> |狀態 (選用) 。  <br/> .Ini 檔案中的名稱： "State"  <br/> ||
 |基底 VM IP 位址  <br/> |將用來建立所有雲端連接器虛擬機器之 VHDX 的臨時基底 VM 的 IP 位址。 這個 IP 必須在下一個步驟中定義的周邊公司網路子網中，且需要網際網路存取權。 請務必定義公司的預設閘道和可路由傳送至網際網路的 DNS。  <br/> .Ini 檔案中的名稱： "BaseVMIP"  <br/> ||
-|WSUSServer  <br/> WSUSStatusServer  <br/> 發行1.4.1 及更新版本  <br/> |Windows Server Update Services （WSUS）的位址（即內部網路伺服器以主控 Microsoft Update 的更新）。  <br/> 如果不需要 WSUS，您可以保留空白。  <br/> ||
+|WSUSServer  <br/> WSUSStatusServer  <br/> 發行1.4.1 及更新版本  <br/> |Windows Server Update Services (WSUS) （即內部網路伺服器）以從 Microsoft Update 主控更新。  <br/> 如果不需要 WSUS，您可以保留空白。  <br/> ||
 |內部網路的子網路遮罩  <br/> |雲端連接器會設定 IP 網路，以用於雲端連接器元件之間的內部通訊。 Edge 也必須連線到允許網際網路連線的另一個子網。  <br/> 在 .ini 檔案中的名稱： "CorpnetIPPrefixLength" 在 [VM 網路集區的參數] 底下。  <br/> ||
 |外部網路的子網路遮罩  <br/> |針對 Edge 元件的外部網路。  <br/> 在 .ini 檔案中的名稱： "InternetIPPrefix" 在 [VM 網路集區的參數] 底下。  <br/> ||
 |內部網路的切換名稱  <br/> |將用於內部雲端連接器網路的參數名稱。  <br/> 在大多數情況下，您可以使用預設的建議值。  <br/> 在 .ini 檔案中的名稱： "CorpnetSwitchName" 底下的「VM 網路集區」的參數  <br/> ||
 |外部網路的切換名稱  <br/> |將用於外部雲端連接器網路的參數名稱。  <br/> 在大多數情況下，您可以使用預設的建議值。  <br/> 在 .ini 檔案中的名稱： "InternetSwitchName" 底下的「VM 網路集區」的參數  <br/> ||
-|內部網路的預設閘道  <br/> |此閘道必須提供網際網路的存取權（網際網路也需要設定 DNS 伺服器），且會在雲端連接器元件的內部介面上進行設定。  <br/> 在 .ini 檔案中的名稱： "CorpnetDefaultGateway" 底下的「VM 網路集區」的參數  <br/> ||
+|內部網路的預設閘道  <br/> |此閘道必須提供對網際網路的存取。 (網際網路也需要設定 DNS 伺服器) ，且會設定在雲端連接器元件的內部介面上。  <br/> 在 .ini 檔案中的名稱： "CorpnetDefaultGateway" 底下的「VM 網路集區」的參數  <br/> ||
 |Edge 元件外部介面的預設閘道  <br/> |會在 Edge 元件的外部介面上進行設定。  <br/> 在 .ini 檔案中的名稱： "InternetDefaultGateway" 底下的「VM 網路集區」的參數  <br/> ||
 |內部網路的 DNS 伺服器  <br/> |會在臨時 VM 的內部介面上進行設定。 必須為網際網路名稱提供名稱解析。 若未提供 DNS 伺服器，網際網路連線將會失敗，而且不會完成部署。  <br/> 在 .ini 檔案中的名稱： "CorpnetDNSIPAddress" 底下的「VM 網路集區」的參數  <br/> ||
 |Edge 元件外部介面的 DNS 伺服器  <br/> |會在 Edge 的外部介面上進行設定。  <br/> 在 .ini 檔案中的名稱： "InternetDNSIPAddress" 底下的「VM 網路集區」的參數  <br/> ||
 |管理參數名稱  <br/> |管理參數是一種暫存參數，會自動建立，並在部署期間用於雲端連接器的設定。 部署之後，它會自動中斷連線。 它必須與雲端連接器中所用的任何其他網路具有不同的子網。  <br/> 在大多數情況下，您可以使用預設的建議值。  <br/> 在 .ini 檔案中的名稱： "ManagementSwitchName" 底下的「VM 網路集區」的參數  <br/> ||
 |管理子網位址/子網路遮罩  <br/> |管理子網是會自動建立的臨時子網，在部署期間將用來設定雲端連接器。 部署後會自動移除它。 它必須與雲端連接器中所用的任何其他網路具有不同的子網。  <br/> 在 .ini 檔案中的名稱： "ManagementIPPrefix" 和 "ManagementIPPrefixLength" （位於 VM 網路集區的 [參數] 底下）。  <br/> ||
-|中央管理存放區（CMS）機器  <br/> |單一 FQDN 用於中央管理存放區（CMS）。 AD 功能變數名稱將用來產生 FQDN。  <br/> .Ini 檔案中的名稱： "ServerName" （位於 "Primary Central Management Service 的參數] 底下）  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> （CMS 集區名稱 = 伺服器名稱）  <br/> |
-|CMS 電腦 IP 位址  <br/> |CMS 伺服器的 IP 位址（周邊網路內部）。  <br/> INI 檔案中的名稱：「IP」，主要管理中心服務的參數  <br/> ||
-|檔案共用名稱稱  <br/> |要在 CMS 伺服器上為商務用 Skype 複寫資料建立的檔案共用名稱稱（例如，CmsFileStore）。  <br/> 在大多數情況下，您可以使用預設的建議值。  <br/> 在 .ini 檔案中的名稱： "CmsFileStore" 底下的「主要管理中心服務」的參數  <br/> ||
+|中央管理存放區 (CMS) 機器  <br/> |用於中央管理存放區 (CMS) 的單一 FQDN。 AD 功能變數名稱將用來產生 FQDN。  <br/> .Ini 檔案中的名稱： "ServerName" （位於 "Primary Central Management Service 的參數] 底下）  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/>  (CMS 集區名稱 = 伺服器名稱)   <br/> |
+|CMS 電腦 IP 位址  <br/> | (周邊網路) 內部的 CMS 伺服器的 IP 位址。  <br/> INI 檔案中的名稱：「IP」，主要管理中心服務的參數  <br/> ||
+|檔案共用名稱稱  <br/> |要在 CMS server 上為商務用 Skype 複寫資料建立的檔案共用名稱稱 (例如，CmsFileStore) 。  <br/> 在大多數情況下，您可以使用預設的建議值。  <br/> 在 .ini 檔案中的名稱： "CmsFileStore" 底下的「主要管理中心服務」的參數  <br/> ||
 |中繼元件集區名稱  <br/> |中繼元件的集區名稱。 請僅輸入 Netbios 名稱。 AD 功能變數名稱將用來產生 FQDN。  <br/> .Ini 檔案中的名稱： "PoolName" 在 [轉送伺服器集區的參數] 底下。  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> |
 |轉送元件名稱  <br/> |中繼元件1的元件名稱。 請僅輸入 Netbios 名稱。 AD 功能變數名稱將用來產生 FQDN。  <br/> .Ini 檔案中的名稱： "ServerName" 底下的「轉送伺服器集區」的 [參數]  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> |
-|中繼元件電腦 IP 位址  <br/> |中繼元件的內部網路 IP （周邊網路內部）。  <br/> 在 .ini 檔案中的名稱： "IP"，位於 "轉送伺服器集區的參數] 底下。  <br/> ||
+|中繼元件電腦 IP 位址  <br/> |在周邊網路) 中內部的中繼元件 (內部網路的 IP。  <br/> 在 .ini 檔案中的名稱： "IP"，位於 "轉送伺服器集區的參數] 底下。  <br/> ||
 |Edge 集區內部名稱  <br/> |Edge 元件的集區名稱。 請僅輸入 Netbios 名稱。 AD 功能變數名稱將用來產生 FQDN。  <br/> .Ini 檔案中的名稱： "InternalPoolName"，位於 "Edge Servers 集區的參數" 底下。  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> |
 |Edge Server 內部名稱  <br/> |Edge 元件的元件名稱。 請僅輸入 Netbios 名稱。 AD 功能變數名稱將用來產生 FQDN。  <br/> .Ini 檔案中的名稱： "InternalServerName"，位於 "Edge Servers 集區的參數" 底下。  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> |
 |Edge server 內部 IP  <br/> |Edge 元件的內部周邊網路 IP，以與 Cloud Connector 的其他元件通訊。  <br/> .Ini 檔案中的名稱： "InternalServerIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
 |存取集區外部名稱  <br/> |Access Edge 的名稱;例如，AP。 此名稱必須符合為 SSL 憑證所提供的名稱。 請僅輸入 Netbios 名稱。 SIP 功能變數名稱將用來產生 FQDN。 一個外部集區名稱將用於集區中的所有 Edge 元件。 每個 PSTN 網站需要一個 Edge Access 集區。  <br/> .Ini 檔案中的名稱： "ExternalSIPPoolName"，位於 "Edge Servers 集區的參數" 底下。  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> "sip" 是保留的，因此無法用作名稱。  <br/> 產生的 FQDN 名稱必須符合為 SSL 憑證所提供的名稱。  <br/> |
-|Access Edge 的外部 IP  <br/> |Edge 元件的外部 IP （如果沒有 NAT 可用，或已轉譯的 IP，請指定這兩個位址（如果已對應）。  <br/> .Ini 檔案中的名稱： "ExternalSIPIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
+|Access Edge 的外部 IP  <br/> |Edge 元件的外部 IP （如果沒有 NAT 可用，則為公用 IP，或已轉譯的 IP (請在對應) 時指定這兩個位址。  <br/> .Ini 檔案中的名稱： "ExternalSIPIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
 |媒體轉送名稱  <br/> |音訊影片媒體轉送 Edge 的名稱;例如先生。 一個外部集區名稱將用於集區中的所有 Edge 元件。 每個 PSTN 網站需要一個 Edge Media 轉送集區。  <br/> .Ini 檔案中的名稱： "ExternalMRFQDNPoolName"，位於 "Edge Servers 集區的參數" 底下。  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> |
-|媒體轉送 Edge 的外部 IP  <br/> |目前只支援一個 IP，所以這會是與 Access Edge 相同的 IP （公用或對應的 IP）（請指定對應的兩個位址）。 可以是 Access Edge 之 Edge 元件的外部 IP 位址。 附注如果 Edge 位於 NAT 背後，您也必須指定下一個參數的值。  <br/> .Ini 檔案中的名稱： "ExternalMRIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
-|媒體轉送 Edge 的外部 IP （如果 Edge 位於 NAT 後）  <br/> |如果您的 Edge 位於 NAT 之後，您也必須指定 NAT 裝置的公用位址。  <br/> .Ini 檔案中的名稱： "ExternalMRPublicIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
+|媒體轉送 Edge 的外部 IP  <br/> |目前只支援一個 IP，因此這會與 Access Edge 相同（公用或對應的 IP (）請指定對應) 的兩個位址。 可以是 Access Edge 之 Edge 元件的外部 IP 位址。 附注如果 Edge 位於 NAT 背後，您也必須指定下一個參數的值。  <br/> .Ini 檔案中的名稱： "ExternalMRIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
+|Media 轉送 Edge 的外部 IP (如果 Edge 位於 NAT 之後)   <br/> |如果您的 Edge 位於 NAT 之後，您也必須指定 NAT 裝置的公用位址。  <br/> .Ini 檔案中的名稱： "ExternalMRPublicIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
 |語音閘道1制定和模型  <br/> |指定 SBC/Voice 閘道的 make 和 model。 請注意，您可以從已測試裝置清單中連接裝置或 SIP 主幹 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) 。  <br/> ||
-|語音閘道2產生和型號（如果您有超過2個閘道，請複製此列）  <br/> |指定語音閘道的制定和模型。 請注意，您可以從已測試裝置清單中連接裝置 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) 。  <br/> ||
-|語音閘道1名稱  <br/> |用於產生電腦 FQDN 與 AD 網域。 若要在中繼元件和語音閘道之間使用 TLS，則為必要的。 如果您不打算使用 FQDN，例如，不需要 TLS 或語音閘道不支援使用 FQDN （僅限 IP）的連線，請指定。  <br/> ||
-|語音閘道2名稱（如果您有超過2個閘道，請複製此列）  <br/> |用於產生電腦 FQDN 與 AD 網域。 若 TLS 將用於中繼元件和語音閘道，則為必要。 如果您不打算使用 FQDN，例如，不需要 TLS 或語音閘道不支援使用 FQDN （僅限 IP）的連線，請指定。  <br/> ||
+|如果您有兩個以上的閘道，則為語音閘道 2 Make and Model (複製此列)   <br/> |指定語音閘道的制定和模型。 請注意，您可以從已測試裝置清單中連接裝置 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) 。  <br/> ||
+|語音閘道1名稱  <br/> |用於產生電腦 FQDN 與 AD 網域。 若要在中繼元件和語音閘道之間使用 TLS，則為必要的。 如果您不打算使用 FQDN，例如，TLS 不是必要的，或語音閘道不支援使用 FQDN (唯一的 IP) —請指定。  <br/> ||
+|語音閘道2名稱 (複製此列（如果您有超過2個閘道)   <br/> |用於產生電腦 FQDN 與 AD 網域。 若 TLS 將用於中繼元件和語音閘道，則為必要。 如果您不打算使用 FQDN，例如，TLS 不是必要的，或語音閘道不支援使用 FQDN (唯一的 IP) —請指定。  <br/> ||
 |語音閘道 1 IP 位址  <br/> |語音閘道的 IP 位址。  <br/> ||
-|語音閘道 2 IP 位址（如果您有超過2個閘道，請複製此列）  <br/> |語音閘道的 IP 位址。  <br/> ||
-|語音閘道1埠 # （如果您有超過2個閘道，請複製此列）  <br/> |語音閘道 SIP 主幹會接聽的埠，例如5060。  <br/> ||
+|語音閘道 2 IP 位址 (複製此列（如果您有兩個以上的閘道）)   <br/> |語音閘道的 IP 位址。  <br/> ||
+|語音閘道1埠 # (複製此列（如果您有兩個以上的閘道）)   <br/> |語音閘道 SIP 主幹會接聽的埠，例如5060。  <br/> ||
 |語音閘道2埠#  <br/> |語音閘道 SIP 主幹會接聽的埠，例如5060。  <br/> ||
 |適用于 SIP 流量的語音閘道1通訊協定  <br/> |TCP 或 TLS。  <br/> ||
-|語音閘道2通訊協定用於 SIP 流量（如果您有超過2個閘道，請複製此列）  <br/> |TCP 或 TLS。  <br/> ||
+|適用于 SIP 流量的語音閘道2通訊協定 (複製此列（如果您有超過2個閘道）)   <br/> |TCP 或 TLS。  <br/> ||
 |進出 Edge 元件之流量的外部媒體埠範圍  <br/> |TCP/UDP edge 的外部介面的媒體流量的埠範圍。 必須永遠從 50 000 開始。 如需詳細資訊，請參閱「埠和通訊協定」。  <br/> |50000-59 999  <br/> |
-|透過內部防火牆與中繼元件進行通訊的媒體埠範圍  <br/> |中繼元件用來與用戶端和閘道通訊的 UDP 埠範圍（每次通話的建議4埠）。  <br/> ||
+|透過內部防火牆與中繼元件進行通訊的媒體埠範圍  <br/> |中繼元件要用來與用戶端和閘道通訊的 UDP 埠範圍 (每次呼叫的建議4個埠) 。  <br/> ||
 |透過內部防火牆與商務用 Skype 用戶端通訊的媒體埠範圍  <br/> |出於規劃目的，無法變更。 您必須在內部防火牆中開啟埠，以在內部網路中的商務用 Skype 用戶端和中繼元件之間進行通訊。  <br/> |50 000-50 019  <br/> |
 |公用憑證密碼  <br/> |必須在腳本中提供。  <br/> ||
 |安全模式系統管理員密碼  <br/> 僅限版本1.4。2  <br/> |內部 CC 網域的安全模式系統管理員密碼。  <br/> ||
-|雲端連接器網域管理員密碼  <br/> 僅限版本1.4。2  <br/> |雲端連接器域管理員的密碼（與實際執行網域不同）。 使用者名稱為系統管理員。 您無法變更使用者名稱。  <br/> ||
+|雲端連接器網域管理員密碼  <br/> 僅限版本1.4。2  <br/> |雲端連接器網域管理員的密碼 (不同于您的實際執行網域) 。 使用者名稱為系統管理員。 您無法變更使用者名稱。  <br/> ||
 |虛擬機器管理員密碼  <br/> 僅限版本1.4。2  <br/> |在部署期間用來設定管理網路。  <br/> 使用者名稱為系統管理員。 您無法變更使用者名稱。  <br/> ||
 |CABackupFile  <br/> 版本2.0 和更新版本  <br/> |用於在雲端連接器網站中部署多個裝置時，將憑證授權單位服務從 Active Directory 伺服器儲存至檔案。 請務必為一個雲端連接器網站中的所有裝置使用相同的密碼，以便將 CA 備份檔案匯入至已成功新增的裝置。  <br/> ||
 |CCEService  <br/> 版本2.0 和更新版本  <br/> |用於雲端連接器管理服務;需要存取雲端連接器網站目錄。 請務必為一個雲端連接器網站內的所有裝置使用相同的密碼。  <br/> ||
 |Microsoft 365 或 Office 365 租使用者系統管理員  <br/> | 雲端連接器會使用此帳戶來更新及管理雲端連接器的租使用者設定： <br/>  版本2.0 和更新版本：具有商務用 Skype 系統管理員許可權專用 Microsoft 365 或 Office 365 帳戶的認證。 <br/>  2.0 以前的版本：具有全域承租人系統管理員權力之專用 Microsoft 365 或 Office 365 帳戶的認證。 <br/> ||
-|啟用參考支援  <br/> |這會定義在主幹設定上啟用或停用 SIP 對您的 IP/PBX 的 SIP 是否有説明。 預設值為 True。 如果您的 IP/PBX 閘道支援 [參考支援]，請將此值保留為 True。 否則，必須將此值變更為 False。 如果您不確定您的閘道是否支援 [參考]，請參閱[合格的 IP-PBXs 和閘道](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。   <br/> ||
+|啟用參考支援  <br/> |這會定義在主幹設定上啟用或停用 SIP 對您的 IP/PBX 的 SIP 是否有説明。 預設值為 True。 如果您的 IP/PBX 閘道支援 [參考支援]，請將此值保留為 True。 否則，必須將此值變更為 False。 如果您不確定您的閘道是否支援 [參考]，請參閱 [合格的 IP-PBXs 和閘道](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。   <br/> ||
 |EnableFastFailoverTimer  <br/> 版本2.0 和更新版本  <br/> |預設值為 "True" 時，如果閘道不會在10秒內接聽撥出電話，它們會路由傳送至下一個可用的閘道;如果沒有其他主幹，則會自動丟棄通話。  <br/> 不過，在具有慢速網路和閘道回應的組織中，或在建立通話的程式需要超過10秒時，可能會導致通話不必要地中斷。  <br/> 在撥打某些國家/地區的電話時（例如 UAE 或阿富汗），通話建立程式可能需要10秒以上的時間。 如果您遇到類似的問題，您必須將此值變更為 False。 請勿忘記變更所連接的 SBC 或閘道上的對應設定。  <br/> 這個值可以是 True 或 False。 預設值為 True。  <br/> ||
-|ForwardCallHistory  <br/> 版本2.0 和更新版本  <br/> | 此參數是用來開啟 SIP 標頭，用來在同時震鈴、來電轉接及來電轉接案例中報告初始來電者。 將參數設定為 True，會開啟兩個 SIP 標頭： <br/>  History-Info <br/>  稱為 <br/>  History-Info 標頭可用於重新導向 SIP 要求，以及提供一種標準機制，用來捕獲要求的記錄資訊，以便為網路和使用者啟用多種服務（[RFC 4244-區段 1.1](http://www.ietf.org/rfc/rfc4244.txt)）。 在雲端連接器主幹介面中，這是用於 Simulring 和來電轉接案例。  <br/>  這個值可以是 True 或 False。 預設值為 False。 <br/> ||
+|ForwardCallHistory  <br/> 版本2.0 和更新版本  <br/> | 此參數是用來開啟 SIP 標頭，用來在同時震鈴、來電轉接及來電轉接案例中報告初始來電者。 將參數設定為 True，會開啟兩個 SIP 標頭： <br/>  History-Info <br/>  稱為 <br/>  History-Info 標頭可用於重新導向 SIP 要求，以及 "提供 () 標準機制來捕獲要求記錄資訊，以便為網路和使用者啟用多種服務， ([RFC 4244-區段 1.1](http://www.ietf.org/rfc/rfc4244.txt)) 。 在雲端連接器主幹介面中，這是用於 Simulring 和來電轉接案例。  <br/>  這個值可以是 True 或 False。 預設值為 False。 <br/> ||
 |轉寄 PAI  <br/> 版本2.0 和更新版本  <br/> |PAI 是 SIP 的私人擴充，可讓 SIP 伺服器斷言已驗證使用者的身分識別。 若為 SIP 主幹提供者，PAI 可能會用於計費目的，但未出現 History-Info 和「參照方標頭」的事件。 在設定中啟用轉寄 P-Asserted-Identity 時，轉送伺服器會將 SIP &amp; 電話 URI 的 PAI 標頭從雲端連接器轉寄至 SIP 主幹。 轉送伺服器將會轉寄 PAI 標頭，且電話 URI 的 e.164 &amp; 號碼只會在 SIP 主幹與雲端連接器上接收。 轉送伺服器也會轉寄任何方向接收的任何隱私權標頭。 如果轉送伺服器所傳送的 SIP 要求包含表單的隱私權標頭-"隱私權： id" 與 PAI 標頭一起，則宣稱的身分識別應以保密的方式存放在網路信任網域之外。  <br/> 這個值可以是 True 或 False。 預設值為 False。  <br/> ||
 
 ### <a name="certificate-requirements"></a>憑證需求
 <a name="BKMK_Certs"> </a>
 
-每個 Edge 元件都需要公用憑證授權單位單位的憑證。 憑證必須具有可匯出的私密金鑰，才能在 Edge 元件之間進行複製。 若要符合憑證需求，您必須決定下列選項，並提供憑證的主體名稱（SN）和主體替代名稱（SAN）。
+每個 Edge 元件都需要公用憑證授權單位單位的憑證。 憑證必須具有可匯出的私密金鑰，才能在 Edge 元件之間進行複製。 若要符合憑證需求，您必須決定下列選項，並提供憑證的主體名稱 (SN) 和主體替代名稱 (SAN) 。
 
  **如果您有單一 SIP 網域：**
 
@@ -557,14 +560,14 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
   ```
 
 > [!NOTE]
-> 您不能為 sip 建立外部 DNS 專案。 \<microsoft.rtc.management.xds.sipdomain \> ，因為此名稱屬於 Microsoft 365 或 Office 365 部署。
+> 您不能為 sip 建立外部 DNS \<sipdomain\> 專案。因為此名稱屬於 Microsoft 365 或 Office 365 部署，所以為 com。
 
 > [!NOTE]
 > 如果您想要針對組織中部署的所有 Edge 集區使用單一憑證，且無法使用在選項2中所定義的通配憑證，則您需要在憑證中包含 SAN 名稱中所有已部署的 Edge 集區的 FQDN。
 
  **如果您有多個 SIP 網域：**
 
-您將需要為每個 SIP 網域新增 sip.sipdomain.com，以及每個網域的 access Edge 集區名稱（可以是一個實體集區，但名稱不同）。 以下是多個 sip 網域案例中的 SN 和 SAN 專案範例：
+您將需要為每個 SIP 網域新增 sip.sipdomain.com，以及每個網域的 access Edge 集區名稱 ( 它可以是一個實體集區，但名稱) 不同。 以下是多個 sip 網域案例中的 SN 和 SAN 專案範例：
 
 - **選項1。** 主體名稱必須包含您為 Edge 元件所指派的集區名稱。 請注意，由於此名稱是針對線上商務用 Skype Edge 元件保留，所以無法 sip.sipdomain.com 主體名稱。 SAN 必須包含 sip.sipdomain.com 和 access Edge 集區的名稱：
 
@@ -581,7 +584,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
   ```
 
 > [!NOTE]
-> 您不能為 sip 建立外部 DNS 專案。 \<microsoft.rtc.management.xds.sipdomain \> ，因為此名稱屬於 Microsoft 365 或 Office 365 部署。
+> 您不能為 sip 建立外部 DNS \<sipdomain\> 專案。因為此名稱屬於 Microsoft 365 或 Office 365 部署，所以為 com。
 
 針對部署目的，您可以使用下表：
 
@@ -596,12 +599,12 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 ## <a name="dial-plan-considerations"></a>撥號對應表考慮
 <a name="BKMK_DailPlan"> </a>
 
-雲端連接器需要使用線上撥號對應表。 如需如何設定線上撥號對應表的詳細資訊，請參閱[什麼是撥號對應表？](/microsoftteams/what-are-dial-plans) 
+雲端連接器需要使用線上撥號對應表。 如需如何設定線上撥號對應表的詳細資訊，請參閱 [什麼是撥號對應表？](/microsoftteams/what-are-dial-plans) 
   
 ## <a name="high-availability-considerations"></a>高可用性考慮
 <a name="BKMK_HA"> </a>
 
-當您部署雲端連接器 Edition 以取得高可用性時，您可以部署至少兩個裝置，以做為彼此的備份作用。 每個裝置都包含四個元件： Edge、中繼、中央管理存放區（CMS）和網域控制站。
+當您部署雲端連接器 Edition 以取得高可用性時，您可以部署至少兩個裝置，以做為彼此的備份作用。 每個裝置都包含四個元件： Edge、中繼、中央管理存放區 (CMS) 和網域控制站。
 
 一般情況下，如果裝置中的一個元件已停機，雲端連接器版本可以繼續處理呼叫，但是您必須考慮下列事項：
 
@@ -638,7 +641,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 3. 商務用 Skype Online 會對號碼執行反向號碼查閱。 反向號碼查閱失敗，因為此數位不屬於商務用 Skype 組織中的任何人。
 
-4. 呼叫會路由傳送至 Edge 元件（透過線上 Edge 的 SIP 和媒體流程，請先進行。媒體將透過內部防火牆進入中繼元件）。
+4. 呼叫會路由傳送至 Edge 元件 (透過線上 Edge 的 SIP 和媒體流程，請先進行。媒體會透過內部防火牆) 進入中繼元件。
 
 5. 如果路由存在，Edge 元件會將流量轉送至周邊網路的中繼元件。
 
@@ -673,7 +676,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 - 未執行的服務。
 
-  如果偵測到下列其中一項事件，則會耗盡整個雲端連接器裝置，並將其標記為離線狀態，以避免嘗試對無法正常執行的裝置建立呼叫。 雲端連接器自動修復功能會隨後還原服務，並將裝置標示為線上。 若由於某些原因自動復原失敗，請參閱[疑難排解 Cloud Connector deployment](troubleshoot-your-cloud-connector-deployment.md)。
+  如果偵測到下列其中一項事件，則會耗盡整個雲端連接器裝置，並將其標記為離線狀態，以避免嘗試對無法正常執行的裝置建立呼叫。 雲端連接器自動修復功能會隨後還原服務，並將裝置標示為線上。 若由於某些原因自動復原失敗，請參閱 [疑難排解 Cloud Connector deployment](troubleshoot-your-cloud-connector-deployment.md)。
 
   - 在中央管理存放區虛擬機器上：
 
@@ -701,9 +704,9 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 - 已停用轉送伺服器上「cs RTCMEDSRV」之「CS RTCSRV」之 Windows 防火牆的輸入規則。
 
-Cloud Connector 2.1 和更新版本支援使用 Operations Management Suite （OMS）監控雲端連接器。 如需詳細資訊，請參閱[使用 Operations Management Suite （OMS）監控 Cloud Connector](monitor-cloud-connector-using-operations-management-suite-oms.md)
+Cloud Connector 2.1 和更新版本支援使用 Operations Management Suite (OMS) 來監視雲端連接器。 如需詳細資訊，請參閱 [使用 Operations Management Suite Monitor Cloud Connector (OMS) ](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
-## <a name="for-more-information"></a>如需詳細資訊
+## <a name="for-more-information"></a>相關資訊
 <a name="BKMK_MoreInfo"> </a>
 
 如需詳細資訊，請參閱下列各主題：

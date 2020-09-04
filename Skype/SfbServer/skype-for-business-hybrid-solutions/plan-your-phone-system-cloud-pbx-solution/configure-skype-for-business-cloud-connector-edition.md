@@ -19,22 +19,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
-description: 瞭解如何設定商務用 Skype 雲端連接器 Edition，這是一種最小的內部部署拓撲，可讓您的內部部署語音基礎結構與商務用 Skype Online 中的電話系統（Cloud PBX）語音服務整合。
-ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 瞭解如何設定商務用 Skype 雲端連接器 Edition，這是一種最少的內部部署拓撲，可讓您的內部部署語音基礎結構與電話系統 (Cloud PBX) 語音服務的商務用 Skype Online。
+ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219513"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358789"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>設定及管理商務用 Skype 雲端連接器 Edition
  
-瞭解如何設定商務用 Skype 雲端連接器 Edition，這是一種最小的內部部署拓撲，可讓您的內部部署語音基礎結構與商務用 Skype Online 中的電話系統（Cloud PBX）語音服務整合。 
+> [!Important]
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+
+瞭解如何設定商務用 Skype 雲端連接器 Edition，這是一種最少的內部部署拓撲，可讓您的內部部署語音基礎結構與電話系統 (Cloud PBX) 語音服務的商務用 Skype Online。 
   
-開始之前，您應該檢查[規劃商務用 Skype 雲端連接器 Edition](plan-skype-for-business-cloud-connector-edition.md)的必要條件。
+開始之前，您應該檢查 [規劃商務用 Skype 雲端連接器 Edition](plan-skype-for-business-cloud-connector-edition.md)的必要條件。
   
 > [!IMPORTANT]
-> 本主題中的步驟僅適用于 Cloud Connector Edition 1.4.1 及更新版本。 若尚未升級至雲端連接器 Edition 2.1，請參閱[升級至新版本的雲端連接器](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以從下載安裝檔 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
+> 本主題中的步驟僅適用于 Cloud Connector Edition 1.4.1 及更新版本。 若尚未升級至雲端連接器 Edition 2.1，請參閱 [升級至新版本的雲端連接器](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以從下載安裝檔 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
   
 ## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>設定商務用 Skype Cloud Connector Edition 的步驟
 

@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 摘要：閱讀此主題以瞭解如何使用具有內部部署 PSTN 連線功能的電話系統，為使用者指派語音原則。
-ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221857"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359319"
 ---
 # <a name="assign-a-voice-routing-policy"></a>指派語音路由原則
  
+> [!Important]
+> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+
 **摘要：** 閱讀此主題以瞭解如何使用具有內部部署 PSTN 連線功能的電話系統，為使用者指派語音原則。 
   
 一旦使用者位於商務用 Skype Online，並使用具有內部部署 PSTN 連線的電話系統，就會將兩個語音原則套用至他們。 一個是內部部署語音路由原則，您將會指派給內部部署。 這個原則可以是全域或使用者特有的，也可以定義哪些 PSTN 使用方式記錄與使用者相關聯。 本主題說明如何指派此原則。
@@ -49,7 +52,7 @@ ms.locfileid: "44221857"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype 2015**]，然後按一下 [**商務用 skype 伺服器管理命令**介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令**介面]。
     
 3. 將 PSTN 使用方式記錄新增至原則：
     
@@ -69,7 +72,7 @@ ms.locfileid: "44221857"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype 2015**]，然後按一下 [**商務用 skype 伺服器管理命令**介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令**介面]。
     
 3. 建立新的語音路由原則：
     
@@ -93,7 +96,7 @@ ms.locfileid: "44221857"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype 2015**]，然後按一下 [**商務用 skype 伺服器管理命令**介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令**介面]。
     
 3. 將現有的語音原則指派給使用者：
     
@@ -109,6 +112,6 @@ ms.locfileid: "44221857"
 
 在此範例中，具有顯示名稱小明凱利的使用者會指派給先前建立的語音原則，名稱為 HybridVoice。
   
-如需語音路由原則的詳細資訊，請參閱[建立或修改語音原則及設定 PSTN 使用方式記錄 In 商務用 Skype 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)、 [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)及[Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)。
+如需語音路由原則的詳細資訊，請參閱 [建立或修改語音原則及設定 PSTN 使用方式記錄 In 商務用 Skype 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)、 [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)及 [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)。
   
 

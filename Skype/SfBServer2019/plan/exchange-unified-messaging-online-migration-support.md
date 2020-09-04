@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255436"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359299"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -77,7 +77,7 @@ Microsoft 繼續提供額外的自動語音應答功能，讓客戶可能會考�
 語音信箱遷移是指 Microsoft 所導向。 系統管理員不需要執行任何動作，前提是已建立必要條件混合式拓撲。 Microsoft 會執行必要的驗證和測試，確保使用者的語音信箱遷移未中斷。 系統管理員可以在他們的一面執行測試及驗證。 請參閱建議的 [測試計劃與系統管理員的遷移後驗證，](#suggested-test-plan-and-post-migration-validation-for-admins) 以取得建議的測試計劃。
 
 > [!Note]
-> 不支援 Lync Server 2010。 如果您在2010伺服器部署中，您應該規劃伺服器升級，或考慮將使用者遷移至 Microsoft 團隊或商務用 Skype Online。  
+> 不支援 Lync Server 2010。 如果您使用的是2010伺服器部署，您應該規劃伺服器升級或考慮將使用者遷移至 Microsoft 團隊。  
 
 ### <a name="monitor-the-admin-notification-center"></a>監視系統管理員通知中心
 
@@ -129,7 +129,7 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 和 Azure 雲端式服務功能矩陣
 
-| 服務 | 功能層級 | 功能 | 附註  | 雲端 VM/AA  | ExUMO |
+| 服務 | 功能層級 | 功能 | 注意事項  | 雲端 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | Vm  | 服務功能| 支援協力廠商 PBX    | 包括協力廠商 PBX 所提供的所有功能，例如 MWI (訊息等待指示器) 使用來自 Exchange UM Online 的 SIP 通知訊息 | N   | Y    |
 | Vm | 服務功能  | 支援商務用 Skype Server   |  | Y | Y    |
