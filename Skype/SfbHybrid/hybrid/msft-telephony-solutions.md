@@ -18,16 +18,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 說明 Microsoft 電話語音解決方案。
-ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221323"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359099"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft 電話語音解決方案
 
-當您開始將 Microsoft 雲端的團隊旅行時，microsoft 支援多種選項。 本文可協助您決定哪個 Microsoft 電話語音解決方案（雲端或企業語音內部部署中的電話系統）適合組織中的使用者，以及您的組織如何連線到公用交換電話網路（PSTN）。 
+當您開始將 Microsoft 雲端的團隊旅行時，microsoft 支援多種選項。 本文可協助您決定哪個 Microsoft 電話語音方案 (雲端或 Enterprise Voice 內部部署) 中的使用者適合組織中的使用者，以及您的組織如何連線到公用交換電話網路 (PSTN) 。 
 
 您應該將此文章與相關聯的技術圖表搭配使用，以提供視覺説明，讓組織正確地進行決策：
 
@@ -38,44 +38,44 @@ ms.locfileid: "44221323"
 
 
 
-## <a name="private-branch-exchange-pbx-options"></a>專用交換機（PBX）選項
+## <a name="private-branch-exchange-pbx-options"></a>專用交換機 (PBX) 選項
 
-### <a name="phone-system-microsoft-365-or-office-365"></a>電話系統（Microsoft 365 或 Office 365）
+### <a name="phone-system-microsoft-365-or-office-365"></a>電話系統 (Microsoft 365 或 Office 365) 
   
-電話系統是 Microsoft 的技術，可在 Microsoft 365 或 Office 365 cloud 中使用 Microsoft 團隊和/或商務用 Skype Online 來啟用呼叫控制和專用交換機（PBX）功能。 
+電話系統是 Microsoft 的技術，可讓通話控制和專用交換機 (PBX) 使用 microsoft 團隊和/或商務用 Skype Online 的 Microsoft 365 或 Office 365 雲端功能。 
 
-電話系統與小組或商務用 Skype Online 用戶端和認證的裝置搭配使用。 電話系統可讓您將現有的 PBX 系統取代成一組直接從 Microsoft 365 或 Office 365 傳遞的功能，並與公司的雲端生產力經驗緊密整合。 若要將電話系統連線至公用交換電話網路（PSTN），您可以選擇 Microsoft 的通話方案或您自己的電話語音載波。
+電話系統與小組或商務用 Skype Online 用戶端和認證的裝置搭配使用。 電話系統可讓您將現有的 PBX 系統取代成一組直接從 Microsoft 365 或 Office 365 傳遞的功能，並與公司的雲端生產力經驗緊密整合。 若要將電話系統連線到公用交換電話網路 (PSTN) ，您可以選擇 Microsoft 的通話方案或您自己的電話語音載波。
 
-如需詳細資訊，請參閱[什麼是 Microsoft 365 或 Office 365 中的電話系統](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)。
+如需詳細資訊，請參閱 [什麼是 Microsoft 365 或 Office 365 中的電話系統](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)。
 
-### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise Voice （商務用 Skype 伺服器）
+### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise Voice (商務用 Skype Server) 
 
-Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Server 中啟用呼叫控制和專用交換機（PBX）功能。 使用您自己的電話語音載波，此選項只可連接到公用交換電話網路網路。 
+Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Server 中 (PBX) 功能上啟用呼叫控制和專用交換機。 使用您自己的電話語音載波，此選項只可連接到公用交換電話網路網路。 
 
-如需詳細資訊，請參閱[在商務用 Skype Server 中規劃 Enterprise Voice](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
+如需詳細資訊，請參閱 [在商務用 Skype Server 中規劃 Enterprise Voice](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
 
-## <a name="connection-to-the-public-switched-telephone-network-pstn-options"></a>連接到公用交換電話網路（PSTN）選項
+## <a name="connection-to-the-public-switched-telephone-network-pstn-options"></a>連接公用交換電話網路 (PSTN) 選項
 
-您可以選擇連線到公用交換電話網路（PSTN），方法如下：
+您可以選擇連接到公用交換電話網路 (PSTN) ，其方式如下：
 
 - 在 Microsoft 365 或 Office 365 中使用 Microsoft 通話方案 
 - 連接您自己的電話語音載波
 
-### <a name="calling-plan-microsoft-365-or-office-365"></a>通話方案（Microsoft 365 或 Office 365）
+### <a name="calling-plan-microsoft-365-or-office-365"></a>通話方案 (Microsoft 365 或 Office 365) 
 
-此選項會將 Microsoft 365 或 Office 365 電話系統連線至公用交換電話網路（PSTN），以啟用世界各地的呼叫 landlines 和行動電話。 使用通話方案，Microsoft 是您的 PSTN 電信公司。
+此選項會將 Microsoft 365 或 Office 365 電話系統連線至公用交換電話網路 (PSTN) ，以啟用世界各地的呼叫 landlines 和行動電話。 使用通話方案，Microsoft 是您的 PSTN 電信公司。
 
-如需詳細資訊，請參閱[Microsoft 365 或 Office 365 的通話方案](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)。
+如需詳細資訊，請參閱 [Microsoft 365 或 Office 365 的通話方案](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)。
 
-### <a name="connect-your-own-telephony-carrier-microsoft-365-or-office-365-and-skype-for-business-on-premises"></a>連接您自己的電話語音托架（Microsoft 365 或 Office 365 和商務用 Skype 內部部署）
+### <a name="connect-your-own-telephony-carrier-microsoft-365-or-office-365-and-skype-for-business-on-premises"></a>將您自己的電話語音載波 (Microsoft 365 或 Office 365 和商務用 Skype 內部部署) 
 
-此選項會將 Microsoft 365 中的電話系統、Office 365 或 Enterprise Voice system 中的商務用 Skype 內部部署連接至電話語音網路。 此選項需要支援的會話邊界控制器（SBC）。 在某些情況下，此選項可能需要在內部部署其他 Microsoft 軟體。
+此選項會將 Microsoft 365 中的電話系統、Office 365 或 Enterprise Voice system 中的商務用 Skype 內部部署連接至電話語音網路。 此選項需要 (SBC) 支援的會話邊界控制器。 在某些情況下，此選項可能需要在內部部署其他 Microsoft 軟體。
 
 ## <a name="which-solution-is-right-for-your-organization"></a>哪種解決方案適合您的組織？
 
 您可以選擇所有的雲端解決方案、一套連線-您自己的解決方案，或是在所有雲端和協力廠商的電信公司之間混合：
 
-- 具有通話方案的電話系統（全部在雲端中）
+- 具有通話計畫的電話系統 (雲端全部都) 
 
 - 透過直接路由傳送給電信公司的電話系統
 
@@ -114,7 +114,7 @@ Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Ser
 ![具有通話方案的電話系統](../../sfbserver2019/media/msft-telephony-solutions-1.png)
 
 
-- Microsoft 電話系統加入國內或國際通話方案，可讓您撥打世界各地的電話（取決於所授權的服務層級）。 
+- Microsoft 電話系統隨附新增國內或國際通話方案，可讓您撥打世界各地的電話 (，視) 授權的服務層級而定。 
 - 由於 PSTN 通話計畫的運作方式不是 Microsoft 365 或 Office 365，所以此選項不需要部署或維護任何內部部署。
 - 客戶可以透過直接路由連接支援的 SBC，以與 SBC 所支援的協力廠商 PBX、類比裝置及其他協力廠商電話語音設備進行交互操作。
 
@@ -122,22 +122,22 @@ Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Ser
 | :----------------------------------------------------| ---------:|
 | 需要不間斷地連接至 Microsoft 365 或 Office 365 | 是 |
 | 全球可用 *                            | 否  |
-| 需要部署及維護支援的會話邊界控制器（SBC） | 否 |
+| 需要部署及維護支援的會話邊界控制器 (SBC)  | 否 |
 | 需要使用協力廠商載波的合約      | 否   |
 | 需要部署及維護商務用 Skype Server 或雲端連接器 Edition | 否 |
 
-\*如需通話方案所在國家/地區的詳細資訊，請參閱[音訊會議和通話方案的國家和地區可用](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
+\* 如需通話方案所在國家/地區的詳細資訊，請參閱 [音訊會議和通話方案的國家和地區可用](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
 
 
 如果您對下列問題回答是肯定的，則這是正確的解決方案：
 
 - 您的地區提供通話方案。
 - 您不需要保留目前的 PSTN 載體。
-- 您想要使用「公用交換電話網路」（PSTN）的 Microsoft 受管理存取。
+- 您想要使用 Microsoft 受管理的公用交換電話網路 ( PSTN) 的存取。
 - 您不想自行管理會話邊界控制器。
 - 小組和/或商務用 Skype Online 具有您組織所需的所有功能。
 
-如需詳細資訊，請參閱 microsoft [365 和 office 365 中的電話系統是什麼](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)，以及[Microsoft 365 或 Office 365 的通話方案](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)。
+如需詳細資訊，請參閱 microsoft [365 和 office 365 中的電話系統是什麼](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) ，以及 [Microsoft 365 或 Office 365 的通話方案](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)。
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>透過直接路由傳送給電信公司的電話系統
 
@@ -147,18 +147,18 @@ Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Ser
 
 - 將您自己的支援 SBC 直接連接至 Microsoft 電話系統，不需要額外的內部部署軟體。  
 - 使用 Microsoft Phone 系統的任何電話語音載波。
-- 可由客戶或您的運營商或合作夥伴進行設定和管理（詢問您的電信公司或合作夥伴是否提供此選項）。
+- 可由客戶或您的運營商或合作夥伴 (詢問您的電信公司或合作夥伴是否) 提供此選項。
 - 設定電話語音設備（例如協力廠商 PBX 和類比裝置）和 Microsoft Phone 系統之間的互通性。
 
 | 基礎結構需求                   | 必要？|
 | :----------------------------------------------------| ---------:|
 | 需要不間斷地連接至 Microsoft 365 或 Office 365 | 是 |
 | 全球可用                            | 是  |
-| 需要部署及維護支援的會話邊界控制器（SBC） | 是 |
+| 需要部署及維護支援的會話邊界控制器 (SBC)  | 是 |
 | 需要使用協力廠商載體的合約 *      | 是   |
 | 需要部署及維護商務用 Skype Server 或雲端連接器 Edition | 否 |
 
-\*除非部署為選項，以提供連線至協力廠商 PBX、類比裝置或其他電話語音設備的使用者，以供使用通話方案的電話系統。
+\* 除非部署為選項，以提供連線至協力廠商 PBX、類比裝置或其他電話語音設備的使用者，以供使用通話方案的電話系統。
 
 如果您對下列問題回答是肯定的，則這是正確的解決方案：
 
@@ -168,10 +168,13 @@ Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Ser
 - 您需要與協力廠商 PBXs 和/或設備（例如，美國高架傳呼）的互動，類比裝置
 - 團隊具有您組織所需的所有功能。
 
-如需詳細資訊，請參閱[什麼是 Microsoft 365 和 Office 365 的電話系統](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)和[規劃直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)。
+如需詳細資訊，請參閱 [什麼是 Microsoft 365 和 Office 365 的電話系統](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) 和 [規劃直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)。
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>透過商務用 Skype Server 或雲端連接器 Edition 提供電信公司的電話系統
+
+> [!Important]
+> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 此選項會在雲端中為商務用 Skype Online 使用者提供內部部署電話語音網路的連線能力。
 
@@ -186,7 +189,7 @@ Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Ser
 | :----------------------------------------------------| ---------:|
 | 需要不間斷地連接至 Microsoft 365 或 Office 365 | 是 |
 | 全球可用                            | 是  |
-| 需要部署及維護支援的會話邊界控制器（SBC） | 是 |
+| 需要部署及維護支援的會話邊界控制器 (SBC)  | 是 |
 | 需要使用協力廠商載波的合約      | 是   |
 | 需要部署及維護商務用 Skype Server 或雲端連接器 Edition | 是 |
 
@@ -198,7 +201,7 @@ Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Ser
 - 您的地區無法使用 PSTN 通話方案。
 - 您必須保留目前的 PSTN 電信公司。
 
-如需詳細資訊，請參閱[什麼是 Microsoft 365 和 Office 365 中的電話系統](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)、[商務用 skype Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)，以及[規劃商務用 skype Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)。
+如需詳細資訊，請參閱 [什麼是 Microsoft 365 和 Office 365 中的電話系統](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)、 [商務用 skype Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)，以及 [規劃商務用 skype Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)。
 
 建議：當商務狀況變更時--例如，您不再需要保留 PSTN 載體--請考慮使用 options 1 或2移至 Microsoft 小組，以：
 - 將維護成本降至最低
@@ -219,11 +222,11 @@ Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Ser
 | :----------------------------------------------------| ---------:|
 | 需要不間斷地連接至 Microsoft 365 或 Office 365 | 否 |
 | 全球可用                            | 是  |
-| 需要部署及維護支援的會話邊界控制器（SBC） | 是 |
+| 需要部署及維護支援的會話邊界控制器 (SBC)  | 是 |
 | 需要使用協力廠商載波的合約      | 是   |
 | 需要部署及維護商務用 Skype Server | 是 |
 
-如需詳細資訊，請參閱[在商務用 Skype Server 中規劃 Enterprise Voice](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
+如需詳細資訊，請參閱 [在商務用 Skype Server 中規劃 Enterprise Voice](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
 
 建議：當商務狀況變更時--例如，您不再需要保留 PSTN 載體--請考慮使用 options 1 或2移至 Microsoft 小組，以：
 - 將維護成本降至最低

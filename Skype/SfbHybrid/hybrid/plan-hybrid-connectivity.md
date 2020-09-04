@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在商務用 Skype Server 與商務用 Skype Online 或小組之間實施混合式連線的規劃考慮。
-ms.openlocfilehash: 3a7df5ef36a7d0e6bf58c1784edb0bbe0baa9409
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221273"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359059"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線
 
@@ -36,7 +36,10 @@ ms.locfileid: "44221273"
 
 本主題說明在您現有的內部部署商務用 Skype Server 部署與團隊或商務用 Skype Online 之間設定混合式連線時，所需的基礎結構和系統需求。
 
-閱讀本主題並準備好設定混合式連線後，請參閱[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線。 設定主題為設定內部部署與小組或商務用 Skype Online 之間設定混合式連線的逐步指引。
+閱讀本主題並準備好設定混合式連線後，請參閱 [設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線。 設定主題為設定內部部署與小組或商務用 Skype Online 之間設定混合式連線的逐步指引。
+
+> [!Important]
+> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 ## <a name="about-shared-sip-address-space-functionality"></a>關於共用 SIP 位址空間功能
 
@@ -56,7 +59,7 @@ ms.locfileid: "44221273"
 - 這兩種環境中的使用者都可以相互通訊。
 - 內部部署 Active Directory 具有權威性。 所有使用者都應該先在內部部署 Active Directory 中建立，然後同步處理至 Azure AD。 即使您想要讓使用者進入線上狀態，您還是必須先在內部部署環境中建立使用者，然後將使用者移至線上，以確保內部部署使用者可以發現使用者。
 
-使用者必須已獲指派商務用 Skype Online （方案2）授權，使用者才能在線上移動。 如果使用者使用的是小組，也必須指派小組授權（而且商務用 Skype 授權必須保持啟用）。 如果您的使用者想要利用其他線上功能（例如音訊會議或電話系統），您必須在 Microsoft 365 或 Office 365 中指派適當的授權。
+使用者必須已獲指派商務用 Skype Online (方案 2) 授權，使用者才能線上移動。 如果使用者使用的是小組，也必須為使用者指派小組授權 (，商務用 Skype 授權必須保持啟用) 。 如果您的使用者想要利用其他線上功能（例如音訊會議或電話系統），您必須在 Microsoft 365 或 Office 365 中指派適當的授權。
 
 ## <a name="infrastructure-requirements"></a>基礎結構需求
 
@@ -64,25 +67,25 @@ ms.locfileid: "44221273"
 
 若要在您的內部部署環境與 Microsoft 365 或 Office 365 通訊服務之間執行混合式連線，您必須符合下列基礎結構需求：
 
-- 在支援的拓撲中部署的商務用 Skype Server 或 Lync Server 的單一內部部署。 請參閱本主題中的[拓撲需求](plan-hybrid-connectivity.md#BKMK_Topology)。
+- 在支援的拓撲中部署的商務用 Skype Server 或 Lync Server 的單一內部部署。 請參閱本主題中的 [拓撲需求](plan-hybrid-connectivity.md#BKMK_Topology) 。
 
 - 啟用啟用商務用 Skype Online 的 Microsoft 365 或 Office 365 組織。
     > [!NOTE]
     > 您可以使用單一租使用者進行混合式設定與您的內部部署。
     
-- Azure Active Directory Connect 以將您的內部部署目錄與 Microsoft 365 或 Office 365 同步。 如需詳細資訊，請參閱[AZURE AD Connect：帳戶和許可權](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- Azure Active Directory Connect 以將您的內部部署目錄與 Microsoft 365 或 Office 365 同步。 如需詳細資訊，請參閱 [AZURE AD Connect：帳戶和許可權](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
 - 商務用 Skype Server 系統管理工具。  這些是將使用者從內部部署移至雲端的必要條件。 這些工具必須安裝在具有內部部署和網際網路存取權的伺服器上。
 - 線上系統管理工具。  您可以使用團隊系統管理中心或 Windows PowerShell 來管理團隊和商務用 Skype Online。 若要使用 PowerShell 管理小組或商務用 Skype Online，請下載並安裝商務用 Skype Online 連接器。
-- 必須啟用共用 SIP 位址空間，而且您的內部部署部署必須設定為使用 Microsoft 365 或 Office 365 作為主機服務提供者。 如需設定混合式連線所需步驟的詳細資訊，請參閱[設定混合](configure-hybrid-connectivity.md)式連線。
+- 必須啟用共用 SIP 位址空間，而且您的內部部署部署必須設定為使用 Microsoft 365 或 Office 365 作為主機服務提供者。 如需設定混合式連線所需步驟的詳細資訊，請參閱 [設定混合](configure-hybrid-connectivity.md)式連線。
 
-設定混合式連線後，您可以將使用者移至小組或商務用 Skype Online。 如需詳細資訊，請參閱[將使用者從內部部署移至小組](move-users-from-on-premises-to-teams.md)，以及[將使用者從內部部署移至商務用 Skype Online](move-users-from-on-premises-to-skype-for-business-online.md)。
+設定混合式連線後，您可以將使用者移至小組或商務用 Skype Online。 如需詳細資訊，請參閱 [將使用者從內部部署移至小組](move-users-from-on-premises-to-teams.md) ，以及 [將使用者從內部部署移至商務用 Skype Online](move-users-from-on-premises-to-skype-for-business-online.md)。
 
 ## <a name="server-version-requirements"></a>伺服器版本需求
 
 <a name="BKMK_Topology"> </a>
 
-若要設定部署以搭配**小組或商務用 Skype Online**進行混合，您必須具備下列其中一種支援的拓撲：
+若要設定部署以搭配 **小組或商務用 Skype Online**進行混合，您必須具備下列其中一種支援的拓撲：
 
 - 商務用 Skype Server 2019 部署，包含所有執行商務用 Skype Server 2019 的伺服器。
 - 商務用 Skype Server 2015 部署，包含所有執行商務用 Skype Server 2015 的伺服器。
@@ -92,9 +95,9 @@ ms.locfileid: "44221273"
   - Lync Server 2013 和商務用 Skype Server 2019
   - Lync Server 2013 和商務用 Skype Server 2015
 
-*如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱[Plan Phone System WITH PSTN Connectivity In 商務用 Skype Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
+*如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱 [Plan Phone System WITH PSTN Connectivity In 商務用 Skype Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
 
-下列包括 Lync Server 2010 的拓撲支援立即訊息和會議的**商務用 Skype Online** 。  **混合式語音或小組不支援包含 Lync Server 2010**的拓撲。
+下列包括 Lync Server 2010 的拓撲支援立即訊息和會議的 **商務用 Skype Online** 。  **混合式語音或小組不支援包含 Lync Server 2010**的拓撲。
 
 - 混合的 Lync Server 2010 和商務用 Skype Server 2015 部署
 - 混合的 Lync Server 2010 和 Lync Server 2013 部署
@@ -108,16 +111,16 @@ ms.locfileid: "44221273"
 
 Microsoft 支援下列多樹系混合式案例類型：
 
-- **資源樹系拓撲。** 在這種拓撲中，有一個樹系主控商務用 Skype 伺服器（資源樹系），還有一或多個其他樹系主控帳戶身分識別，可在資源樹系中存取商務用 Skype 伺服器。 一般來說，如果符合下列需求，使用者就可以在另一個樹系中存取商務用 Skype 功能：
+- **資源樹系拓撲。** 在這種拓撲中，有一個樹系主控商務用 Skype Server (資源樹系) ，而且還有一或多個其他樹系主控帳戶身分識別，可在資源樹系中存取商務用 Skype 伺服器。 一般來說，如果符合下列需求，使用者就可以在另一個樹系中存取商務用 Skype 功能：
   - 使用者可正確地同步處理到主控商務用 Skype 的樹系中。 在混合式設定中，這表示使用者必須同步處理成停用的使用者物件。
   - 主控商務用 Skype 的樹系必須信任包含使用者的樹系。
-    如需資源樹系混合式案例的詳細資訊，請參閱[部署混合式商務用 Skype 的資源樹系拓撲](configure-a-multi-forest-environment-for-hybrid.md)。
+    如需資源樹系混合式案例的詳細資訊，請參閱 [部署混合式商務用 Skype 的資源樹系拓撲](configure-a-multi-forest-environment-for-hybrid.md)。
 
 - **多個樹系中商務用 Skype Server 的多個部署。** 這項設定會因合併和收購案例，以及更複雜的企業而產生。 若有多個商務用 Skype 部署的組織，您可以在單一 Microsoft 365 或 Office 365 組織中，將所有使用者從內部部署整合至雲端，但前提是符合下列主要需求：
   - 最多隻能有一個 Microsoft 365 或 Office 365 組織參與。 不支援在具有多個組織之案例中進行合併。
-  - 在任何指定時間，只有一個內部部署商務用 Skype 樹系可以處於混合模式（共用 SIP 位址空間）。 其他所有的內部部署商務用 Skype 樹系都必須在內部部署中完全保持（而且大概相互同盟）。 請注意，如有需要，這些其他內部部署組織可以與 AAD 同步處理，以停用於12月2018的[線上 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)。
+  - 在任何指定時間，只有一個內部部署商務用 Skype 樹系可以在混合模式中 (共用 SIP 位址空間) 。 其他所有的內部部署商務用 Skype 樹系都必須完全在內部部署中 (，並將每個其他) 的同盟。 請注意，如有需要，這些其他內部部署組織可以與 AAD 同步處理，以停用於12月2018的 [線上 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) 。
 
-    在多個樹系中部署商務用 Skype 的客戶，必須透過分割網域（共用 SIP 位址空間）功能，將每個商務用 skype 樹系完全遷移到 Microsoft 365 或 Office 365 組織中，然後再停用內部部署的混合式，再繼續遷移下一個內部部署商務用 Skype 部署。 此外，在遷移至雲端之前，內部部署使用者仍保持同盟狀態，而不是在相同使用者的內部部署目錄中呈現任何使用者。 如需詳細資訊，請參閱[Cloud 整合小組和商務用 Skype](cloud-consolidation.md)。
+    在多個樹系中部署商務用 Skype 的客戶，必須透過分割網域 (共用 SIP 位址空間) 功能，將每個商務用 skype 樹系完全遷移到 Microsoft 365 或 Office 365 組織中，然後再停用內部部署的混合式，再繼續遷移下一個內部部署商務用 Skype 部署。 此外，在遷移至雲端之前，內部部署使用者仍保持同盟狀態，而不是在相同使用者的內部部署目錄中呈現任何使用者。 如需詳細資訊，請參閱 [Cloud 整合小組和商務用 Skype](cloud-consolidation.md)。
 
 ## <a name="federation-requirements"></a>同盟需求
 
@@ -143,16 +146,16 @@ Microsoft 支援下列多樹系混合式案例類型：
 
 <a name="BKMK_DNS"> </a>
 
-在建立混合部署的 DNS 記錄時，所有商務用 Skype 外部 DNS 記錄都應該指向內部部署基礎結構。 如需必要 DNS 記錄的詳細資訊，請參閱[商務用 Skype Server 的 DNS 需求](../../sfbserver/plan-your-deployment/network-requirements/dns.md)。
+在建立混合部署的 DNS 記錄時，所有商務用 Skype 外部 DNS 記錄都應該指向內部部署基礎結構。 如需必要 DNS 記錄的詳細資訊，請參閱 [商務用 Skype Server 的 DNS 需求](../../sfbserver/plan-your-deployment/network-requirements/dns.md)。
 
-此外，您必須確定下表中所述的 DNS 解析度可在您的內部部署中運作。 （如果您已經為內部部署設定同盟，您很可能已經有這些。）
+此外，您必須確定下表中所述的 DNS 解析度可在您的內部部署中運作。  (如果您已經為內部部署設定同盟，您很可能已經有這些。 ) 
 
 |DNS 記錄  <br/> |可解析的  <br/> |DNS 需求  <br/> |
 |:-----|:-----|:-----|
-|_Sipfederationtls _tcp 的 DNS SRV 記錄。 \<sipdomain.com \> 用於所有支援的 SIP 網域解析存取 Edge 外部 IP  <br/> |Edge server  <br/> |在混合式設定中啟用同盟通訊。 Edge Server 需要知道如何路由傳送內部部署和線上間的 SIP 網域的同盟流量。  <br/> 必須使用使用者名稱和 SRV 記錄中網域的嚴格 DNS 名稱相符。  <br/> |
-|DNS A Edge Web 會議服務 FQDN 的記錄，例如，webcon.contoso.com 解析為 Web 會議 Edge 外部 IP （s）  <br/> |連線使用者電腦的內部公司網路  <br/> |讓線上使用者可以在內部部署主控會議中呈現或查看內容。 內容包括 PowerPoint 檔案、白板、投票和共用附注。  <br/> |
+|_Sipfederationtls _tcp 的 DNS SRV 記錄。\<sipdomain.com\> 針對所有支援的 SIP 網域，解析為存取 Edge 外部 IP (s)   <br/> |Edge server (s)   <br/> |在混合式設定中啟用同盟通訊。 Edge Server 需要知道如何路由傳送內部部署和線上間的 SIP 網域的同盟流量。  <br/> 必須使用使用者名稱和 SRV 記錄中網域的嚴格 DNS 名稱相符。  <br/> |
+|DNS A 記錄 (s) Edge Web 會議服務 FQDN，例如 webcon.contoso.com 解析為 Web 會議 Edge 外部 IP (s)   <br/> |連線使用者電腦的內部公司網路  <br/> |讓線上使用者可以在內部部署主控會議中呈現或查看內容。 內容包括 PowerPoint 檔案、白板、投票和共用附注。  <br/> |
 
-視您組織中的 DNS 設定方式而定，您可能需要將這些記錄新增至對應 SIP 網域的內部主控 DNS 區域，以提供這些記錄的內部 DNS 解析。
+根據組織中設定 DNS 的方式，您可能需要將這些記錄新增至對應 SIP 網域的內部主控 DNS 區域， (s) 以提供對這些記錄的內部 DNS 解析。
 
 ### <a name="firewall-considerations"></a>防火牆考慮
 
@@ -160,6 +163,6 @@ Microsoft 支援下列多樹系混合式案例類型：
 
 網路上的電腦必須能夠執行標準網際網路 DNS 查閱。 若這些電腦可以搜尋標準網際網路網站，表示您的網路符合此需求。
 
-根據 Microsoft Online Services 資料中心的位置，您也必須設定網路防火牆裝置，以接受以萬用字元功能變數名稱為基礎的連線（例如，所有來自 outlook.com 的流量 \* ）。 如果您組織的防火牆不支援萬用字元名稱設定，您必須手動判斷您要允許的 IP 位址範圍和指定的埠。
+根據您的 Microsoft 線上服務資料中心的位置，您也必須設定網路防火牆裝置，以接受以萬用字元功能變數名稱為基礎的連線 (例如，所有來自 \* outlook.com) 的流量。 如果您組織的防火牆不支援萬用字元名稱設定，您必須手動判斷您要允許的 IP 位址範圍和指定的埠。
 
-如需詳細資訊，包括埠和通訊協定需求的詳細資訊，請參閱[Microsoft 365 和 Office 365 URLs 及 IP 位址範圍](https://go.microsoft.com/fwlink/p/?LinkId=252942)。
+如需詳細資訊，包括埠和通訊協定需求的詳細資訊，請參閱 [Microsoft 365 和 Office 365 URLs 及 IP 位址範圍](https://go.microsoft.com/fwlink/p/?LinkId=252942)。

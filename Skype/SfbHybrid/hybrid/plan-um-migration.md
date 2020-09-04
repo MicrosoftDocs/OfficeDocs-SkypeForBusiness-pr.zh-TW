@@ -1,5 +1,5 @@
 ---
-title: 規劃商務用 Skype Server 和 Exchange Server 遷移
+title: 規劃商務用 Skype 和 Exchange Server 的先決條件的移轉
 ms.reviewer: ''
 author: dstrome
 ms.author: dstrome
@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 本主題涵蓋當您決定將現有的商務用 Skype 伺服器或 Exchange Server 部署遷移至最新版本或商務用 Skype Online 或 Exchange Online 時，需要考慮的事項。
-ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cb6d58cf839b6260bc8889817ea568528e4832f4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221263"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359039"
 ---
-# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>規劃商務用 Skype Server 和 Exchange Server 遷移
+# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>規劃商務用 Skype 和 Exchange Server 的先決條件的移轉
 
-本主題涵蓋當您決定將現有的商務用 Skype 伺服器或 Exchange Server 部署遷移至最新版本或商務用 Skype Online 或 Exchange Online 時，需要考慮的事項。 您可以遷移的功能和時間取決於您已在組織中設定的專案。
+本主題涵蓋當您決定將現有的商務用 Skype 伺服器或 Exchange Server 部署遷移至 Exchange Online 時，需要考慮的事項。 您可以遷移的功能和時間取決於您已在組織中設定的專案。
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Exchange 2019 和商務用 Skype Server 2019 中的功能變更
 
@@ -28,18 +28,18 @@ ms.locfileid: "44221263"
 
 ### <a name="unified-messaging-support-in-exchange-2019"></a>Exchange 2019 中的整合通訊支援
 
-整合通訊（UM）在 Exchange 2019 中已被取代。 這表示 Exchange 2019 不再提供下列功能：
+Exchange 2019 中已棄用整合通訊 (UM) 。 這表示 Exchange 2019 不再提供下列功能：
 
 - 語音信箱
 - 自動語音應答
 
-如果您已在 Exchange 2013 或 Exchange 2016 中的 UM 服務中部署 UM 角色，且您想升級為 Exchange 2019，您必須將語音信箱遷移至 Microsoft 雲端語音信箱服務的 Microsoft 365 或 Office 365。 如果您想要將語音信箱遷移至雲端語音信箱，請參閱以下的[exchange 2013/exchange 2016 和商務用 skype 2015 To exchange 2019 和商務用 skype 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019)區段。
+如果您已在 Exchange 2013 或 Exchange 2016 中的 UM 服務中部署 UM 角色，且您想升級為 Exchange 2019，您必須將語音信箱遷移至 Microsoft 雲端語音信箱服務的 Microsoft 365 或 Office 365。 如果您想要將語音信箱遷移至雲端語音信箱，請參閱以下的 [exchange 2013/exchange 2016 和商務用 skype 2015 To exchange 2019 和商務用 skype 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) 區段。
 > [!IMPORTANT]
 > 如果 Exchange 2013 或 Exchange 2016 伺服器上的使用者有已啟用 UM 的信箱，請不要將商務用 Skype 伺服器升級至 Exchange 2019，然後再將商務用 Skype 伺服器升級至商務用 Skype 伺服器2019，並將使用者移至這些伺服器以避免語音訊息中斷。
 
 ### <a name="pbx-support-in-exchange-2019-and-skype-for-business-server-2019"></a>Exchange 2019 和商務用 Skype Server 2019 中的 PBX 支援
 
-雲端語音信箱不會提供語音訊息功能到私人分支交換（PBXs）。 如果您要將 Exchange Server 整合通訊用於 PBXs，而您想升級至 Exchange Server 2019，您必須採用下列其中一項在博客文章中列出的選項，來終止[Exchange 小組博客](https://blogs.technet.microsoft.com/exchange/)上[Exchange Online 整合通訊中的會話邊界控制器的支援](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/)。
+雲端語音信箱不會提供語音訊息功能到私人分支交換 (PBXs) 。 如果您要將 Exchange Server 整合通訊用於 PBXs，而您想升級至 Exchange Server 2019，您必須採用下列其中一項在博客文章中列出的選項，來終止[Exchange 小組博客](https://blogs.technet.microsoft.com/exchange/)上[Exchange Online 整合通訊中的會話邊界控制器的支援](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/)。
 
 ### <a name="exchange-online-um-support-in-skype-for-business-server-2019"></a>商務用 Skype Server 2019 中的 Exchange Online UM 支援
 
@@ -55,7 +55,7 @@ ms.locfileid: "44221263"
 - Exchange 2013/Exchange 2016 和商務用 Skype Server 2015 至 Exchange 2019 和商務用 Skype Server 2019
 - 商務用 skype Server 2015 至商務用 Skype Server 2019，含 Exchange 2013/Exchange 2016
 
-在下列情況下，您目前的部署中不會存在 PBX 或 SBC 設定，假設您已在內部部署 Exchange 伺服器上設定 UM。 這兩種方案也會假設您已決定在您的內部部署商務用 Skype 伺服器與 Microsoft 365 或 Office 365 之間設定混合式部署。 如需商務用 Skype 混合式部署的詳細資訊，請參閱[規劃混合](plan-hybrid-connectivity.md)式連線。
+在下列情況下，您目前的部署中不會存在 PBX 或 SBC 設定，假設您已在內部部署 Exchange 伺服器上設定 UM。 這兩種方案也會假設您已決定在您的內部部署商務用 Skype 伺服器與 Microsoft 365 或 Office 365 之間設定混合式部署。 如需商務用 Skype 混合式部署的詳細資訊，請參閱 [規劃混合](plan-hybrid-connectivity.md)式連線。
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 和商務用 Skype 2015 至 Exchange 2019 和商務用 Skype 2019
 
@@ -73,7 +73,7 @@ ms.locfileid: "44221263"
 開始遷移至商務用 Skype Server 2019 和 Exchange 2019 之前，請記住下列事項：
 
 - 雲端語音信箱不支援正式發行的組織自動語音應答。 如果您想要將信箱移至雲端語音信箱以透過自動語音應答繼續提供，您必須至少有一個 Exchange 2013 或 Exchange 2016 伺服器執行 UM 角色或服務。
-- 您必須先設定至少一部商務用 Skype 2019 server **，並**將使用者移至該伺服器，再將其信箱移至 Exchange 2019。 若失敗，將會導致這些信箱無法接收語音信箱訊息。
+- 您必須先設定至少一部商務用 Skype 2019 server **，並** 將使用者移至該伺服器，再將其信箱移至 Exchange 2019。 若失敗，將會導致這些信箱無法接收語音信箱訊息。
 - 傳送至語音信箱的來電會轉接至雲端語音信箱，並在其中記錄。 通話結束後，語音信箱訊息會傳送至內部部署 Exchange 2019 伺服器上的收件者信箱。 在判斷您的網際網路連線能力是否足以支援雲端語音信箱時，您需要將這種語音流量納入考慮。
 
 以下是完成此遷移的高層級步驟。
