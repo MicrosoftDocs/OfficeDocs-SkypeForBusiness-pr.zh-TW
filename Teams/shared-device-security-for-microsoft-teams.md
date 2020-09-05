@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: a2d10048cf668c15060147b8426c5226e98fdaa4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868692"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359379"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共用電腦上安全地使用 Microsoft Teams
 
@@ -46,18 +46,20 @@ ms.locfileid: "46868692"
 
 1. 使用作業系統平台安全性功能。
     1. 確保作業系統已設定為透過作業系統提供者安裝自動更新 (若為 Microsoft 系統，可透過 [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq) 來完成此動作)。 
-    2. 確保已啟用任何裝置加密功能 (例如 [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview))，以及用來存取裝置的金鑰受到保護。  請注意，大多數的 [**Windows 10 裝置支援 BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
+    1. 確保已啟用任何裝置加密功能 (例如 [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview))，以及用來存取裝置的金鑰受到保護。  請注意，大多數的 [**Windows 10 裝置支援 BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. 在您的裝置上使用防毒功能，例如 [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 提供的功能。
     1. 強烈建議對系統的每個使用者使用[個別使用者帳戶](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)。
     1. *請勿*對非系統管理功能 (例如瀏覽網頁、執行 Teams 等) 授與或使用系統管理員權限。
 
-2. 運用瀏覽器的安全性功能。
+如果不符合上述指導方針，我們建議使用額外的瀏覽器安全性最佳做法：
+
+1. 運用瀏覽器的安全性功能。
     1. 使用私人瀏覽工作階段，將保存到磁碟的資料和歷程記錄最小化。 例如，[在 Microsoft Edge 中使用 inPrivate 瀏覽](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)、[在 Google Chrome中進行無痕式瀏覽](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用您的特定瀏覽器用於私人瀏覽的功能。 
     1. 建議將系統行為變更為*預設*採用私人瀏覽。 
 
-3. 瀏覽至並使用 [Teams Web 應用程式](https://teams.microsoft.com) (有時稱為 *Web* 用戶端)，而非可下載的Teams 用戶端。
+2. 瀏覽至並使用 [Teams Web 應用程式](https://teams.microsoft.com) (有時稱為 *Web* 用戶端)，而非可下載的Teams 用戶端。
 
-4. 使用共用系統完成之後，您必須： 
+3. 使用共用系統完成之後，您必須： 
     1. [登出 Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)。
     1. 關閉所有瀏覽器索引標籤和視窗。
     1. 從裝置登出。
