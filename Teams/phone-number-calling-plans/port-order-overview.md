@@ -18,26 +18,26 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 瞭解什麼是埠訂單，以及如何將電話號碼從服務提供者轉移至團隊。
-ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ecc14566573cf90d24323e65491851be86252b1a
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665895"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399518"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
-如果您目前有電話服務提供者或運營商，而且您已經有電話號碼供使用者或服務使用，您必須建立「*埠順序*」，將這些電話號碼轉移至 Microsoft 團隊。 當您將號碼移過時，您可以將這些電話號碼指派給使用者和服務，例如音訊會議（適用于會議橋接）、自動語音應答及通話佇列。
+如果您目前有電話服務提供者或運營商，而且您已經有電話號碼供使用者或服務使用，您必須建立「*埠順序*」，將這些電話號碼轉移至 Microsoft 團隊。 當您將號碼移過之後，您可以將這些電話號碼指派給您的使用者和服務，例如「會議橋接」的音訊會議 () 、自動語音應答及通話佇列。
   
 在您將電話號碼移植至團隊之後，Microsoft 會成為您的服務提供者，您可以中斷服務與舊版服務提供者或運營商的連線。
 
-請參閱本文中的資訊，瞭解數位移植的相關資訊。 之後，您應該已準備好建立埠順序並傳送您的電話號碼。 如需逐步指示，請參閱[將電話號碼傳送給團隊](transfer-phone-numbers-to-teams.md)。
+請參閱本文中的資訊，瞭解數位移植的相關資訊。 之後，您應該已準備好建立埠順序並傳送您的電話號碼。 如需逐步指示，請參閱 [將電話號碼傳送給團隊](transfer-phone-numbers-to-teams.md) 。
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些國家或地區支援數位移植？
 
-您可以在所有支援的國家或地區中移植或傳送電話號碼，但提交埠順序要求的方式取決於電話號碼來自哪個國家或地區。 如需支援編號移植的國家和地區清單，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
+您可以在所有支援的國家或地區中移植或傳送電話號碼，但提交埠順序要求的方式取決於電話號碼來自哪個國家或地區。 如需支援編號移植的國家和地區清單，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
 
-目前，Microsoft [團隊管理中心[] 中的 [移植] 嚮導](transfer-phone-numbers-to-teams.md)支援取得英國、美國和加拿大的電話號碼。 若要取得其他國家和地區的電話號碼，您可以[手動提交埠順序](manually-submit-port-order.md)。
+目前，Microsoft [團隊管理中心 [] 中的 [移植] 嚮導](transfer-phone-numbers-to-teams.md) 支援取得英國、美國和加拿大的電話號碼。 若要取得其他國家和地區的電話號碼，您可以 [手動提交埠順序](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些號碼可以轉移？
 
@@ -57,7 +57,7 @@ ms.locfileid: "44665895"
 - 免付費電話號碼。
 
     > [!NOTE]
-    > 通用國際 Freephone 號碼（UIFN）無法傳送給我們。 
+    > 通用國際 Freephone 號碼 (UIFN) 無法傳送給我們。 
   
 - 服務電話號碼，例如用於會議橋接、自動語音應答等。
 
@@ -70,13 +70,13 @@ ms.locfileid: "44665895"
   **您無法傳送：**
   
     > [!NOTE]
-    > 此時，您無法從支援的國家或地區（包括來自 VoIP 電話提供者的電話號碼）中轉移任何不受支援之國家或地區的電話號碼。 如需支援的國家/地區清單，請參閱[音訊會議與通話方案的國家/地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+    > 此時，您無法從支援的國家或地區（包括來自 VoIP 電話提供者的電話號碼）中轉移任何不受支援之國家或地區的電話號碼。 如需支援的國家/地區清單，請參閱 [音訊會議與通話方案的國家/地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - 用於資料連線的電話號碼，例如 DSL 線路或寬頻網際網路連線。
 
 - 專用來傳真的電話號碼。
 
-    如果您的現有專用電話號碼是用來傳送傳真的，您*可以*將這些號碼轉接至小組，但您的傳真服務不會如預期的那樣繼續運作。 [傳真服務] 不提供給小組客戶，即使您有電話系統、國內通話方案或國際通話方案的授權。
+    如果您的現有專用電話號碼是用來傳送傳真的，您  *可以*  將這些號碼轉接至小組，但您的傳真服務不會如預期的那樣繼續運作。 [傳真服務] 不提供給小組客戶，即使您有電話系統、國內通話方案或國際通話方案的授權。
 
     如果您將電話號碼移植至團隊，您可以將此電話號碼指派給組織中的使用者，而不是用來進行傳真。
 
@@ -91,13 +91,13 @@ ms.locfileid: "44665895"
 
 當您將電話號碼移植至團隊時，您可以選擇轉移所有號碼或其中的一部分。
   
-- **全埠**當您將所有數位從目前的服務提供者轉移至團隊時，就是這種情況。 當您要求您要傳送的電話號碼時，您*必須包含*帳單電話號碼（BTN），以及您帳戶上的所有其他電話號碼。
+- **全埠** 當您將所有數位從目前的服務提供者轉移至團隊時，就是這種情況。 當您要求您要轉接的電話號碼時，您必須在 BTN) 中 *包含* 帳單電話 (號碼，以及帳戶上所有其他電話號碼。
 
-    例如，假設您的 BTN 是 *+ 1 425-555-1234* ，而且您想要將25個電話號碼（*+ 1 425-555-1235 到 1259*）全部移植。 當您遵循下列指示來轉接您的數位時，請輸入： **+ 14255551234-+ 14255551259**。
+    例如，假設您的 BTN 是  *+ 1 425-555-1234*  ，而您想要將25個電話號碼全部移植 (*+ 1 425-555-1235 至 1259*) 。 當您遵循下列指示來轉接您的數位時，請輸入： **+ 14255551234-+ 14255551259**。
 
-- **部分埠**這就是當您只將來自目前服務提供者的一些電話號碼傳送給團隊時。 當您想要將部分電話號碼捆綁到同一個 BTN 時，您 * **不得包含** * 與您帳戶上的其他電話號碼搭配的 BTN。
+- **部分埠** 這就是當您只將來自目前服務提供者的一些電話號碼傳送給團隊時。 當您想要將部分電話號碼捆綁到同一個 BTN 時，您 * * *不得包含* * * 與您帳戶上的其他電話號碼搭配的 BTN。
 
-    例如，假設您的 BTN 是 *+ 1 425-555-1234* ，而您想要移植25個電話號碼中的5個（*+ 1 425-555-1235 至 1259*）。 當您遵循下列指示來轉接您的數位時，請輸入： **+ 1 425 555 1235-+ 1 425 555 1239**。
+    例如，假設您的 BTN 是  *+ 1 425-555-1234*  ，而您想要將25個電話號碼中的5個撥入 (*+ 1 425-555-1235 至 1259*) 。 當您遵循下列指示來轉接您的數位時，請輸入： **+ 1 425 555 1235-+ 1 425 555 1239**。
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>我可以一次為所有號碼提交一個數位移植要求嗎？
 <a name="bkmk_type_1"> </a>
@@ -118,25 +118,33 @@ ms.locfileid: "44665895"
   
 - 不同的運營商所提供的**電話號碼**，對於每個運營商而言，都需要有唯一的號碼移植要求。
 
-- 含區號（例如：800、844、855、866、877和888）的**免付費電話號碼**，不能包含其他類型的數位移植要求。 若要移植這些免付費電話號碼，您必須[手動提交一個埠順序](manually-submit-port-order.md)。 您無法將這些號碼移植至 Microsoft 團隊系統管理中心。 如需詳細資訊，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- 含區號（例如：800、844、855、866、877和888）的**免付費電話號碼**，不能包含其他類型的數位移植要求。 若要移植這些免付費電話號碼，您必須 [手動提交一個埠順序](manually-submit-port-order.md)。 您無法將這些號碼移植至 Microsoft 團隊系統管理中心。 如需詳細資訊，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-    請務必針對您想要移植的國家/地區和電話號碼類型使用正確的授權字母（LOA）。 您可以[在這裡下載所需的 LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+    對於您想要移植的國家/地區和電話號碼類型，請務必使用正確的授權 (LOA) 。 您可以 [在這裡下載所需的 LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-- **行動電話號碼**需要 PIN 碼來授權轉接。 因此，它們需要個別的數位移植要求。
+- **行動電話號碼** 需要 PIN 碼來授權轉接。 因此，它們需要個別的數位移植要求。
 
-- **服務編號**移植要求必須自行提交。 它們無法與其他類型的數位一起提交。
+- **服務編號** 移植要求必須自行提交。 它們無法與其他類型的數位一起提交。
 
 ## <a name="how-long-does-it-take-to-port-numbers"></a>埠號碼需要多少時間？
 <a name="bkmk_type_1"> </a>
 
 完成埠訂單要求之後，會在7-14 天前處理。 不過，視您的服務提供者而定，可能需要長達30天的時間。 在撥出電話號碼之後，您會收到一封電子郵件給我們，讓您可以開始使用。
   
-若要檢查您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **電話號碼**]，然後按一下 [**訂購歷程記錄**]。 每個埠訂單狀態都列在 [**狀態**] 欄中。
+若要檢查您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **電話號碼**]，然後按一下 [**訂購歷程記錄**]。 每個埠訂單狀態都列在 [ **狀態** ] 欄中。
   
-## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>使用者（訂閱者）電話號碼可以轉換為服務號碼嗎？
+## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>使用者 (訂閱者) 將電話號碼轉換成服務號碼嗎？
 <a name="bkmk_type_1"> </a>
 
-可以。 您只需要提交服務要求，其中包含您組織的租使用者 GUID 和您想要轉換的電話號碼。 若要這樣做，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+可以。 您只需要提交服務要求，其中包含您組織的租使用者 GUID 和您想要轉換的電話號碼。 若要這樣做，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我是否可以將我的數位從團隊移植至不同的電話服務提供者或電信公司？
+
+若要將團隊中的數位移植至不同的運營商，您必須使用新的電信公司提交申請。 您也需要在 Microsoft 團隊系統管理中心設定移植 PIN 碼。
+
+若要定義您的移植 PIN，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **電話號碼**]，在頁面的右上角選取 [**管理移植 PIN**]，然後輸入10位數的 pin。
+
+當您的新電信公司使用移植要求與我們聯繫時，我們會要求他們提供您定義的 PIN。
 
 ## <a name="common-mistakes-to-watch-out-for"></a>需要注意的常見錯誤
 <a name="bkmk_type_1"> </a>

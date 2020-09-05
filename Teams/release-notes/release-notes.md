@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797441"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399508"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
+
+## <a name="september-3-2020"></a>2020年9月3日
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 團隊中的自訂應用程式商店
+
+現在，您可以新增您的標誌、自訂背景及自訂文字色彩，自訂 [小組 App] 商店與組織品牌，以讓使用者更容易受到使用者的邀請。 [瞭解更多資訊](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>2020年9月1日
+
+### <a name="on-demand-translation-in-android"></a>Android 中的需求翻譯
+
+內嵌郵件翻譯是 Microsoft 團隊的功能，可讓使用者將小組訊息轉換成其個人語言設定所指定的語言。 [翻譯] 設定預設為 [ **開啟** ]。 [深入了解](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams)。
 
 ## <a name="august-17-2020"></a>2020年8月17日
 
@@ -75,6 +87,16 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 團隊應用程式可以免費安裝，有些可能需要購買服務訂閱才能體驗 app 的完整功能與範圍。 這些服務訂閱稱為服務 (SaaS) 優惠，可透過 AppSource 購買，並透過 Microsoft 團隊系統管理中心立即購買。 [深入了解](../purchase-third-party-apps.md)。
 
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過團隊 App 提交 API 提交的自訂應用程式
+
+開發人員可以使用小組 App 提交 API，將自訂應用程式直接提交至 Microsoft 團隊系統管理中心供管理員審閱及核准。 [深入了解](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
+
+## <a name="july-31-2020"></a>2020年7月31日
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>系統管理員可以在班次上設定以班次為基礎的狀態 (，而不是針對其第一線員工工作人員的 shift) 
+
+系統管理員可以將他們的第一線員工工作人員設定為使用班式的目前狀態：在 shift 時，在按住 shift) ，然後關閉 shift 鍵，就能切換忙碌的 (。
+
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用裝置標記功能增強的易管理性
@@ -103,7 +125,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="enable-suggested-replies"></a>啟用建議的回復
 
-開啟此設定以啟用聊天訊息的建議回復。 [深入了解](../messaging-policies-in-teams.md)
+開啟此設定以啟用聊天訊息的建議回復。 [瞭解更多資訊](../messaging-policies-in-teams.md)
 
 ## <a name="july-9-2020"></a>2020年7月9日
 
@@ -139,6 +161,10 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 您可以選擇在使用者開始團隊時預設會為使用者安裝哪些 app。 [深入了解](../teams-app-setup-policies.md)。
 
+### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人共用畫面
+
+許多 IT 管理員都有 complained 在停用 AllowPrivateCalling 原則時，他們無法讓員工從聊天中共用螢幕。 這項功能可讓您從 AllowPrivateCalling 原則啟動 screenshare 的功能，但如果 AllowPrivateCalling 原則已停用，仍會封鎖使用者將音訊/視頻新增至 screenshare 會話。
+
 ## <a name="june-29-2020"></a>2020年6月29日
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 團隊中的 Walkie Talkie 應用程式
@@ -160,6 +186,12 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Android 和 iOS 使用者的登入限制
 
 如果使用者未登入其 Microsoft 365 帳戶的其他位置，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，視貴組織針對 [行動裝置登入原則] 設定的內容而定。 [深入了解](../sign-in-teams.md)。
+
+## <a name="june-15-2020"></a>2020年6月15日
+
+### <a name="monitor-shifts-with-audit-logs"></a>使用審核記錄監視班次
+
+您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。 [深入了解](https://docs.microsoft.com/microsoftteams/audit-log-events)。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 
