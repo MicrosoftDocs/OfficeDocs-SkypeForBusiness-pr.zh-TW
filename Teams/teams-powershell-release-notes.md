@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解團隊 PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09014d3e7deba2797b46031efee81f537d2d6538
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170622"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405810"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 團隊 PowerShell 版本資訊
 
@@ -31,7 +31,8 @@ ms.locfileid: "45170622"
 
 | 為止 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2020年7月 | [類庫](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已新增[群組原則指派 Cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| 2020年9月 | [1.1.5-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>商務用 Skype Online 連接器整合</li> |
+| 2020年7月 | [類庫](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已新增 [群組原則指派 Cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
 | 2020年6月 | [1.1.3-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>商務用 Skype Online 連接器整合<li>取得團隊優化<li>增強的可靠性</li> |
 | 2020年6月 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>已新增 Cmdlet 預載入<li>.Net Framework 優化</li>   |
 | 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>驗證碼與程式集簽名<li>已新增取得 CsPolicyPackage<li>已新增取得 CsUserPolicyPackage<li>已新增取得 CsUserPolicyPackageRecommendation<li>已新增授與 CsUserPolicyPackage<li>新增 CsBatchPolicyPackageAssignmentOperation<li>已新增設定 TeamArchivedState<li>已新增設定 TeamPicture<li>已移除取得 TeamHelp</li>  |
@@ -41,7 +42,7 @@ ms.locfileid: "45170622"
 ### <a name="cmdlet-availability"></a>Cmdlet 可用性
 
 > [!NOTE]
-> 下表中的清單只包含本身屬於團隊 PowerShell 模組的 Cmdlet。 [[商務用 kype For Business Online 連接器] 模組](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中的團隊 Cmdlet 不會顯示。 不過，因為這些 Cmdlet 會以本機方式遷移到團隊 PowerShell 中，所以我們會將它們新增到此資料表中。
+> 下表中的清單只包含本身屬於團隊 PowerShell 模組的 Cmdlet。 [[商務用 kype For Business Online 連接器] 模組](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) 中的團隊 Cmdlet 不會顯示。 不過，因為這些 Cmdlet 會以本機方式遷移到團隊 PowerShell 中，所以我們會將它們新增到此資料表中。
 
 | Cmdlet | 可在公用預覽中使用 | 正式推出 |
 | -| -- | --|

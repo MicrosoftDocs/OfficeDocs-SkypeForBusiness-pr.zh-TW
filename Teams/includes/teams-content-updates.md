@@ -3,43 +3,6 @@
 
 
 
-## <a name="week-of-july-27-2020"></a>2020年7月27日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 7/28/2020 | [安裝 Power BI 連接器以使用 CQD 查詢範本](/MicrosoftTeams/cqd-power-bi-connector) | 日期 |
-| 7/28/2020 | [使用 Microsoft Graph 快速開始使用團隊範本](/MicrosoftTeams/get-started-with-teams-templates) | 日期 |
-| 7/28/2020 | [如何在貴組織中使用來電顯示](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 日期 |
-| 7/28/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 7/28/2020 | [Microsoft 團隊聊天室中的驗證](/MicrosoftTeams/rooms/rooms-authentication) | 日期 |
-| 7/28/2020 | [使用 Microsoft Graph 建立的中小型企業團隊範本](/MicrosoftTeams/smb-templates) | 日期 |
-| 7/29/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 7/29/2020 | [Microsoft Teams 會議室](/MicrosoftTeams/rooms/index) | 日期 |
-| 7/29/2020 | [Microsoft 團隊聊天室 Premium](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 日期 |
-| 7/29/2020 | [30中的團隊](/MicrosoftTeams/teams-in-30-workshops) | 日期 |
-| 7/29/2020 | [Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 日期 |
-| 7/30/2020 | [AppLocker 控制原則](/MicrosoftTeams/applocker-in-teams) | 日期 |
-| 7/30/2020 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
-| 7/30/2020 | [針對 Teams 準備組織的網路](/MicrosoftTeams/prepare-network) | 日期 |
-| 7/30/2020 | [準備您的環境](/MicrosoftTeams/rooms/rooms-prep) | 日期 |
-| 7/31/2020 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
-| 7/31/2020 | 將原則指派給學校中的大型使用者 | 移除 |
-| 7/31/2020 | [支援使用 Microsoft Teams 的遠端政府工作者](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | 日期 |
-| 7/31/2020 | 使用者由講師帶領的訓練課程 | 移除 |
-| 7/31/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 7/31/2020 | [適用於教育界管理員的 Microsoft Teams 原則和原則套件](/MicrosoftTeams/policy-packages-edu) | 日期 |
-| 7/31/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
-| 7/31/2020 | [PowerShell 腳本範例-建立 & 指派訊息傳遞原則](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 日期 |
-| 7/31/2020 | [教育版 SKU 參考](/MicrosoftTeams/sku-reference-edu) | 日期 |
-| 7/31/2020 | [終止對商務用 Skype Online 的支援](/MicrosoftTeams/skype-for-business-online-retirement) | 日期 |
-| 7/31/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
-| 7/31/2020 | [促進認知和實施訓練](/MicrosoftTeams/teams-adoption-drive-awareness) | 日期 |
-| 7/31/2020 | [Microsoft 團隊裝置使用量報告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 日期 |
-| 7/31/2020 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
-| 7/31/2020 | [Microsoft 團隊使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 日期 |
-
-
 ## <a name="week-of-august-03-2020"></a>2020年8月3日
 
 
@@ -325,3 +288,33 @@
 | 8/28/2020 | 管理商業雲端試用版方案 | 移除 |
 | 8/28/2020 | [使用 Microsoft 團隊聊天室 Premium 服務的角色式存取控制](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium-rbac) | 日期 |
 | 8/28/2020 | [針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解](/MicrosoftTeams/troubleshoot-installation) | 日期 |
+
+
+## <a name="week-of-august-31-2020"></a>2020年8月31日的某一周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 9/1/2020 | [設定動態緊急電話](/MicrosoftTeams/configure-dynamic-emergency-calling) | 日期 |
+| 9/1/2020 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
+| 9/1/2020 | [在 Microsoft 團隊中使用 NDI](/MicrosoftTeams/use-ndi-in-meetings) | 日期 |
+| 9/1/2020 | [在團隊系統管理中心管理稱讚應用程式](/MicrosoftTeams/manage-praise-app) | 日期 |
+| 9/1/2020 | [管理 Microsoft 團隊中的標記](/MicrosoftTeams/manage-tags) | 日期 |
+| 9/1/2020 | [使用 Microsoft 端點建構管理員安裝團隊](/MicrosoftTeams/msi-deployment) | 日期 |
+| 9/2/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
+| 9/2/2020 | [Microsoft 團隊適用的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 日期 |
+| 9/2/2020 | [在 Microsoft 團隊中管理貴組織的任務應用程式](/MicrosoftTeams/manage-tasks-app) | 日期 |
+| 9/2/2020 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
+| 9/3/2020 | [移轉至直接路由](/MicrosoftTeams/direct-routing-migrating) | 日期 |
+| 9/3/2020 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
+| 9/3/2020 | [設定直接路由的語音路由](/MicrosoftTeams/direct-routing-voice-routing) | 日期 |
+| 9/3/2020 | [終止對商務用 Skype Online 的支援](/MicrosoftTeams/skype-for-business-online-retirement) | 日期 |
+| 9/3/2020 | [Microsoft Teams 的安全性指南](/MicrosoftTeams/shared-device-security-for-microsoft-teams) | 日期 |
+| 9/3/2020 | [管理和篩選 Microsoft 團隊的裝置標記](/MicrosoftTeams/devices/manage-device-tags) | 日期 |
+| 9/4/2020 | [開啟內聯郵件翻譯](/MicrosoftTeams/inline-message-translation-teams) | 日期 |
+| 9/4/2020 | [管理外部存取 (同盟) ](/MicrosoftTeams/manage-external-access) | 日期 |
+| 9/4/2020 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
+| 9/4/2020 | [Microsoft 團隊 PSTN 使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 日期 |
+| 9/4/2020 | [團隊與 Skype 互通性](/MicrosoftTeams/teams-skype-interop) | 日期 |
+| 9/4/2020 | [美國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 日期 |
+| 9/4/2020 | [什麼是移轉訂單？](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 日期 |

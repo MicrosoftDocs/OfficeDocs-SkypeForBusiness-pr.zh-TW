@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860814"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405790"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中建立全組織小組
 
@@ -56,7 +56,7 @@ ms.locfileid: "46860814"
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>只允許小組擁有者張貼到 [一般] 頻道
 
-只允許小組擁有者張貼到 [一般] 頻道，以減少頻道「紛擾」。 移至小組，然後按一下 [更多選項]****  >  [管理小組]****。 在 [設定]**** 索引標籤上，按一下 [成員權限]**** > 選取 [只有擁有者可以張貼訊息]****。
+只允許小組擁有者張貼到 [一般] 頻道，以減少頻道「紛擾」。 移至團隊，找出 [一般] 頻道，然後選取 [ **̇̇̇其他選項**]  >  **管理頻道**。 按一下 [ **頻道設定** ] 索引標籤上的 [ **許可權**]，然後選取 [ **只有擁有者可以張貼郵件**]。
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>關閉 @team 和 @[小組名稱] 提及項目
 

@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1db113a610c153f821a0d92187744e6ca34e3ce3
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: ec1500d9e7d5896d1b4cd2414355602d7400591a
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951188"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405780"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>設定直接路由的 Ringback bot
 
 本文將說明 Ringback bot，您可以用來協助避免在通話時間較長時可能會發生的意外 silences。 您可以在非媒體旁路模式中直接路由使用 Ringback bot。
 
-有時從公用的交換電話網絡（PSTN）到團隊用戶端的入站呼叫，可能會花費比預期更長的時間來建立。 發生這種情況可能有多種原因。 在這種情況下，來電者可能不會聽到任何問題，小組用戶端就不會響鈴，而且通話可能會被某些電訊提供者取消。
+有時，來自公開交換電話網絡的入站呼叫 (PSTN) 給團隊用戶端可能需要比預期更長的時間才能建立。 發生這種情況可能有多種原因。 在這種情況下，來電者可能不會聽到任何問題，小組用戶端就不會響鈴，而且通話可能會被某些電訊提供者取消。
 
 Ringback bot 可協助避免在此案例中可能發生的意外 silences。 對於從 PSTN 到團隊用戶端的撥入呼叫，Ringback bot 會在來電者中播放獨特的音訊信號，表示小組正在進行通話的過程。
 
@@ -36,11 +36,11 @@ Ringback bot 可協助避免在此案例中可能發生的意外 silences。 對
 
 ## <a name="configure-the-ringback-bot"></a>設定 Ringback bot
 
-使用[CsOnlineGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)和[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) Cmdlet 以及**GenerateRingingWhileLocatingUser**參數，以設定 Ringback bot。
+使用 [CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) 和 [CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) Cmdlet 以及 **GenerateRingingWhileLocatingUser** 參數，以設定 Ringback bot。
 
-若要開啟 Ringback bot，請將**GenerateRingingWhileLocatingUser**參數設定為 [ **$True**]。 此為預設值。 
+若要開啟 Ringback bot，請將 **GenerateRingingWhileLocatingUser** 參數設定為 [ **$True**]。 此為預設值。 
 
-若要關閉 Ringback bot，請將**GenerateRingingWhileLocatingUser**參數設定為 [ **$False**]。 
+若要關閉 Ringback bot，請將 **GenerateRingingWhileLocatingUser** 參數設定為 [ **$False**]。 
 
 ## <a name="related-topics"></a>相關主題
 
