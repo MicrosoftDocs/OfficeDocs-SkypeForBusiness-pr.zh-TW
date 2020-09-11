@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
-ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
+ms.openlocfilehash: 675834cd36c4e86d34d179e91fe66905e3860b32
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420607"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429439"
 ---
 # <a name="teams-and-outlook-email-integration"></a>團隊和 Outlook 電子郵件整合
 
@@ -35,7 +35,10 @@ Microsoft 團隊包含的功能可讓貴組織中的使用者輕鬆地在 Outloo
 
 ## <a name="actionable-activity-emails"></a>可操作的活動電子郵件
 
-使用者會自動取得可操作的未接活動電子郵件，協助他們在團隊中找出未接的交談。 未接的活動電子郵件會顯示交談中的最新回復，包括錯過的郵件之後所傳送的郵件，以及使用者可以按一下 [ **回復** ]，直接在 Outlook 中回復。 若要深入瞭解，請參閱[在 outlook 和 Office 365 群組中](https://docs.microsoft.com/outlook/actionable-messages/)，[從 Outlook 和可操作的訊息回復未接的活動電子郵件](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)。
+使用者會自動取得可操作的未接活動電子郵件，協助他們在團隊中找出未接的交談。 未接的活動電子郵件會顯示交談中的最新回復，包括錯過的郵件之後所傳送的郵件，以及使用者可以按一下 [ **回復** ]，直接在 Outlook 中回復。 若要深入瞭解，請參閱 [從 Outlook 回復未接的活動電子郵件](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)。 
+
+> [!NOTE]
+> Mac 版 Outlook 或某些舊版 Outlook for Windows 不支援此功能。 如需詳細資訊，請參閱 [Outlook 和 Office 365 群組中](https://docs.microsoft.com/outlook/actionable-messages/)的可採取動作的郵件。
 
 ![顯示未接的活動電子郵件的螢幕擷取畫面](media/missed-activity-email.png)
 
