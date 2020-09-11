@@ -773,7 +773,6 @@
 
 ## [Teams 的限制和規格](limits-specifications-teams.md)
 ## [Teams 中的資料位置](location-of-data-in-teams.md)
-## [資料收集方式](data-collection-practices.md)
 
 ## 準備好推出 Teams
 ### [針對 Teams 準備組織的網路](prepare-network.md)
