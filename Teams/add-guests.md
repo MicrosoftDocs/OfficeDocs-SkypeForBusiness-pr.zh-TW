@@ -18,12 +18,12 @@ description: 系統管理員可以了解如何將新的來賓使用者新增至 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baac3c7c7e83547672b8baeb0915081523e5bfe8
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: a67fd7ed111c1020eaf133e96e26ae03d4250637
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761279"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405710"
 ---
 <a name="add-a-guest-to-a-team"></a>將來賓新增至團隊
 =====================
@@ -35,10 +35,9 @@ ms.locfileid: "46761279"
 身為系統管理員，您可以透過幾種方式將新來賓使用者新增至組織：
 - 全域系統管理員或 Teams 系統管理員與團隊擁有者可在 Teams 用戶端或 Teams 系統管理中心中，將來賓新增至團隊。 若要深入瞭解，請參閱[將來賓新增至團隊](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。 如果您尚未設定來賓存取，請透過[在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)步驟設定。
 
-> [!NOTE] 
-> 啟用 **[系統管理員和來賓邀請者角色中的使用者可邀請]** 時，則不適用。 這是因為 Teams 不支援來賓邀請者角色。
-
 - 透過 Azure Active Directory (Azure AD) B2B 共同作業，將來賓新增到您的組織。 全域系統管理員可以利用 Azure AD B2B 共同作業功能邀請並授權多個外部使用者，方法是將逗號分隔值 (CSV) 檔 (列數上限為 2000 列) 上傳到 B2B 共同作業入口網站。 如需詳細資訊，請參閱 [Azure Active Directory B2B 共同作業](https://go.microsoft.com/fwlink/p/?linkid=826383)。
+
+系統管理員還可以透過指派 [來賓邀請者] 角色，將新增來賓到組織的權限委派給其他人。 如需詳細資訊，請參閱[啟用 B2B 外部共同作業和管理可以邀請來賓的使用者](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations) (部分機器翻譯)。
 
 透過 Azure AD B2B 共同作業功能，組織可為 B2B 使用者強制執行條件式存取和多重要素驗證 (MFA) 原則。 這些原則可以在租用戶層級、應用程式或個別使用者層級強制執行，與為組織全職員工和成員啟用原則的方式相同。 這類原則會在資源組織強制執行。 如需詳細資訊，請參閱[適用於 B2B 共同作業使用者的條件式存取](https://go.microsoft.com/fwlink/?linkid=857454)。 無法封鎖個別來賓使用者。
 
