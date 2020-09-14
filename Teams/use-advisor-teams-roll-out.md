@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 4315ab438131e6b7e119a3e0dc48fee661190552
+ms.sourcegitcommit: 272995feb5661712668404ba57ce7afdf3b848be
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788397"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "47474642"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -39,7 +39,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 ## <a name="using-advisor-for-teams"></a>使用 Advisor for Teams
 
-**Teams、Forms 和 Planner 授權是使用適用於 Teams 的建議程式所需的授權。** 不過，若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您必須是 Teams 系統管理員、Teams 服務管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。 不過，若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您必須是 Teams 系統管理員、Teams 服務管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。
+**Teams、Forms 和 Planner 授權是使用適用於 Teams 的建議程式所需的授權。** 不過，若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您必須是 Teams 系統管理員、Teams 服務管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。
 
 > [!IMPORTANT]
 > 如果小組系統管理中心的 [規劃]**** 中遺漏 **Teams 建議程式**，表示該使用者未取得 Teams 的授權。
