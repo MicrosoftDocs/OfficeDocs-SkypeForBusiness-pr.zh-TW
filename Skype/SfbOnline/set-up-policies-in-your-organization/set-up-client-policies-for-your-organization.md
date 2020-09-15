@@ -19,54 +19,56 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 用戶端原則可協助您判斷供使用者使用之商務用 Skype Online 的功能。例如，您可能會為部分使用者提供轉移檔案的許可權，而將此權利拒絕給其他使用者。
-ms.openlocfilehash: b3682b3be9f0820f1e99fdb84f7f7e5155e52df2
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 3a7dd7a2840a4e94abe88c472e6dc5b0e1720704
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164062"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814352"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>設定組織的用戶端原則
 
 用戶端原則可協助您判斷供使用者使用之商務用 Skype Online 的功能。例如，您可能會為部分使用者提供轉移檔案的許可權，而將此權利拒絕給其他使用者。
   
-用戶端原則設定可以在建立原則時設定，或者您可以使用**CsClientPolicy** Cmdlet 來修改現有原則的設定。
+用戶端原則設定可以在建立原則時設定，或者您可以使用 **CsClientPolicy** Cmdlet 來修改現有原則的設定。
   
 ## <a name="set-your-client-policies"></a>設定您的用戶端原則
 
 > [!NOTE]
-> 針對商務用 Skype Online 中的所有用戶端原則設定，您必須使用 Windows PowerShell，而且您**無法使用商務用** **Skype 系統管理中心**。 
+> 針對商務用 Skype Online 中的所有用戶端原則設定，您必須使用 Windows PowerShell，而且您 **無法使用商務用** **Skype 系統管理中心**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>驗證並啟動 Windows PowerShell
 
 - **檢查您執行的是 Windows PowerShell 版本3.0 或更高版本**
     
-    1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表** > **Windows PowerShell**。
+    1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
         
     2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
         
-    3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+    3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
         
-    4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
+    4. 您也需要安裝 Windows PowerShell 模組供團隊使用，讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱 [在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
-    1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
+    1. 從 [**開始] 功能表**中的 [  >  **Windows PowerShell**]。
         
-    2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
+    2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
-        > [!NOTE]
-        > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
+    > [!NOTE]
+    > 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+    >
+    > 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
 
        ```powershell
-        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        Import-Module -Name MicrosoftTeams
         $credential = Get-Credential
         $session = New-CsOnlineSession -Credential $credential
         Import-PSSession $session 
        ```
-如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱 [在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx) ，或 [設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>停用圖釋和目前狀態通知，並防止儲存 Im
 
@@ -77,7 +79,7 @@ ms.locfileid: "44164062"
    New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
    ```
 
-  如需進一步瞭解，請參閱[新版 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) Cmdlet。
+  如需進一步瞭解，請參閱 [新版 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與貴組織中的所有使用者，請執行：
     
@@ -86,9 +88,9 @@ ms.locfileid: "44164062"
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
    ```
 
-  如需[CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的詳細資訊，請參閱。
+  如需 [CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的詳細資訊，請參閱。
     
-如果您已建立原則，您可以使用[CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用到您的使用者。
+如果您已建立原則，您可以使用 [CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 來變更現有的原則，然後使用 [授與 CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用到您的使用者。
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>讓 Url 或超連結在 Im 中可按一下
 
@@ -99,7 +101,7 @@ ms.locfileid: "44164062"
    New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
    ```
 
-  如需進一步瞭解，請參閱[新版 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) Cmdlet。
+  如需進一步瞭解，請參閱 [新版 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與貴組織中的所有使用者，請執行：
     
@@ -108,9 +110,9 @@ ms.locfileid: "44164062"
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
    ```
 
-  如需[CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的詳細資訊，請參閱。
+  如需 [CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的詳細資訊，請參閱。
     
-如果您已建立原則，您可以使用[CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用到您的使用者。
+如果您已建立原則，您可以使用 [CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 來變更現有的原則，然後使用 [授與 CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用到您的使用者。
   
 ### <a name="prevent-showing-recent-contacts"></a>避免顯示最近的連絡人
 
@@ -120,7 +122,7 @@ ms.locfileid: "44164062"
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  如需進一步瞭解，請參閱[新版 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) Cmdlet。
+  如需進一步瞭解，請參閱 [新版 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與 Amos 大理石，請執行：
    
@@ -128,9 +130,9 @@ ms.locfileid: "44164062"
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
    ```
 
-  如需[CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的詳細資訊，請參閱。
+  如需 [CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的詳細資訊，請參閱。
     
-  如果您已建立原則，您可以使用[CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用到您的使用者。
+  如果您已建立原則，您可以使用 [CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 來變更現有的原則，然後使用 [授與 CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用到您的使用者。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 

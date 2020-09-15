@@ -20,24 +20,25 @@ search.appverid: MET150
 description: 深入瞭解雲端語音功能，並瞭解您將面臨的必要部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8106e5ef30b71ec82e9b1ae42f785b7a73b170a5
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158641"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814873"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>語音電話系統和 PSTN 連接選項
 
-您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在，您已經準備好要為使用者新增語音功能。 
+您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將 [會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在，您已經準備好要為使用者新增語音功能。 
 
-[語音] 提供私人分支 Exchange （PBX）功能，以及連線至公用交換電話網絡（PSTN）的選項。
+語音提供私人分支 Exchange (PBX) 功能，以及連線至公用交換電話網絡 (PSTN) 的選項。
 
-本文可協助您決定是否需要根據貴組織的設定檔和業務需求變更任何預設的語音設定，然後逐步引導您完成每項變更。 我們已將這些設定分割成兩個群組，從[您更容易進行](#core-deployment-decisions)的核心變更集合開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
+本文可協助您決定是否需要根據貴組織的設定檔和業務需求變更任何預設的語音設定，然後逐步引導您完成每項變更。 我們已將這些設定分割成兩個群組，從 [您更容易進行](#core-deployment-decisions)的核心變更集合開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
 
 我們建議所有組織都在核心決策中運作，然後，如果您的組織有其他需求，請參閱下列資料。
 
-
+ > [!Note]
+ > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
 
 ## <a name="learn-more-about-voice"></a>深入瞭解語音
 
@@ -54,25 +55,25 @@ ms.locfileid: "45158641"
 
 這些是大部分組織想要變更的設定 (如果 Teams 的預設設定不符合組織的需求)。
 
-## <a name="phone-system-office-365"></a>電話系統（Office 365）
+## <a name="phone-system-office-365"></a>電話系統 (Office 365) 
 
-[電話系統] 是 Microsoft 在 Microsoft 365 或 Office 365 雲端啟用呼叫控制和私人分支 Exchange （PBX）功能的 Microsoft 技術。 [電話系統] 可讓您將現有的私人分支 Exchange （PBX）系統取代成一組直接從 Microsoft 365 或 Office 365 提供的功能，並緊密整合至公司的雲端生產力體驗。
+[電話系統] 是 Microsoft 365 或 Office 365 雲端中啟用呼叫控制和私人分支 Exchange (PBX) 功能的 Microsoft 技術。 [電話系統] 可讓您將現有的私人分支 Exchange (PBX) 系統取代成一組從 Microsoft 365 或 Office 365 直接提供的功能，並緊密整合至公司的雲端生產力體驗。
 
 
 |問問自己|動作 |
 |:------------|:-------|
-|我要在哪個使用者位置或辦公室實現電話系統？ |如需電話系統的詳細資訊，請參閱[Microsoft 365 或 Office 365 中的電話系統是什麼](what-is-phone-system-in-office-365.md)。</li></ul>|
+|我要在哪個使用者位置或辦公室實現電話系統？ |如需電話系統的詳細資訊，請參閱 [Microsoft 365 或 Office 365 中的電話系統是什麼](what-is-phone-system-in-office-365.md)。</li></ul>|
 |||
 
-## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>連線到公用交換電話網絡（PSTN）
+## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>連線到公開交換的電話網絡 (PSTN) 
 
-若要將電話系統連線至公用的交換電話網絡（PSTN），讓使用者可以撥打世界各地的電話，您可以根據業務需求選擇一些選項。  請自問下列事項：
+若要將電話系統連線到公開交換的電話網絡 (PSTN) 讓使用者可以撥打世界各地的電話，您可以根據自己的業務需求選擇一些選項。  請自問下列事項：
 
 
 |問問自己|動作 |
 | :------------|:-------|
-| 我要使用 Microsoft 通話方案做為我的電話語音運營商嗎？ | 如需詳細資訊，請參閱[含有通話方案的電話系統](calling-plan-landing-page.md)。|
-| 我需要使用自己的電話運營商嗎？ | 如需詳細資訊，請參閱[直接路由的電話系統](direct-routing-landing-page.md)。
+| 我要使用 Microsoft 通話方案做為我的電話語音運營商嗎？ | 如需詳細資訊，請參閱 [含有通話方案的電話系統](calling-plan-landing-page.md)。|
+| 我需要使用自己的電話運營商嗎？ | 如需詳細資訊，請參閱 [直接路由的電話系統](direct-routing-landing-page.md)。
 |||
 
 
@@ -93,40 +94,40 @@ ms.locfileid: "45158641"
 
 |問問自己|動作 |
 |:------------|:-------|
-| 我想要啟用雲端語音信箱嗎？ | 如需語音信箱設定程式，請參閱[設定雲端語音信箱](set-up-phone-system-voicemail.md)。
-| 我想要針對部分或所有使用者啟用語音信箱功能嗎？ | 若要關閉語音信箱，請參閱[設定貴組織中的語音信箱原則](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)。</li></ul>|
+| 我想要啟用雲端語音信箱嗎？ | 如需語音信箱設定程式，請參閱 [設定雲端語音信箱](set-up-phone-system-voicemail.md)。
+| 我想要針對部分或所有使用者啟用語音信箱功能嗎？ | 若要關閉語音信箱，請參閱 [設定貴組織中的語音信箱原則](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)。</li></ul>|
 |||
 
 ### <a name="calling-identity"></a>通話身分識別
 
-根據預設，所有出站通話都會將指派的電話號碼做為呼叫身分識別（來電者識別碼）。 通話的收件者可以快速識別來電者，決定是否要接受或拒絕通話。
+根據預設，所有的呼出通話會使用指派的電話號碼來呼叫身分識別 (來電者識別碼) 。 通話的收件者可以快速識別來電者，決定是否要接受或拒絕通話。
 
 |問問自己|動作 |
 |:------------|:-------|
-|我想要遮罩或停用本機號碼嗎？ | 若要變更或封鎖本機號碼，請參閱[設定使用者的本機號碼](set-the-caller-id-for-a-user.md)。 |
+|我想要遮罩或停用本機號碼嗎？ | 若要變更或封鎖本機號碼，請參閱 [設定使用者的本機號碼](set-the-caller-id-for-a-user.md)。 |
 |||
 
 ### <a name="phone-numbers-from-microsoft"></a>Microsoft 的電話號碼
 
-Microsoft 提供兩種電話號碼類型：可指派給您組織中的使用者的*訂閱者*（使用者）號碼，以及*服務*號碼（例如付費和免付費服務號碼），這些號碼的撥打能力比訂閱者號碼更高，而且可以指派給諸如音訊會議、自動語音應答或通話佇列等服務。
+Microsoft 有兩種類型的電話號碼可用： *訂戶* (使用者) 號碼（可指派給您組織中的使用者，以及 *服務* 號碼），提供付費和免付費服務號碼（其併發通話容量高於訂閱者號碼），而且可以指派給諸如音訊會議、自動語音應答或通話佇列等服務。
 
 |問問自己|動作 |
 | :------------|:-------|
-| 哪些使用者位置需要來自 Microsoft 的新電話號碼？ | 如需取得電話號碼的相關資訊，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，以及[為使用者取得電話號碼](getting-phone-numbers-for-your-users.md)。 
-| 我需要哪一種類型的電話號碼（訂閱者或服務）？ | 若要協助您挑選所需的電話號碼類型，請參閱[通話方案所用的不同類型的電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)。
-我要如何將現有的電話號碼移植至團隊？|如需詳細資訊，請參閱[將電話號碼轉移至 Microsoft 團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+| 哪些使用者位置需要來自 Microsoft 的新電話號碼？ | 如需取得電話號碼的相關資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) ，以及 [為使用者取得電話號碼](getting-phone-numbers-for-your-users.md)。 
+|  (訂閱者或服務) 需要哪種電話號碼？ | 若要協助您挑選所需的電話號碼類型，請參閱 [通話方案所用的不同類型的電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)。
+我要如何將現有的電話號碼移植至團隊？|如需詳細資訊，請參閱 [將電話號碼轉移至 Microsoft 團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 |||
 
 ### <a name="dial-plans"></a>撥號對應表
 
-Microsoft 365 或 Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則，可將撥打的電話號碼轉換成替代格式（通常是164個格式），以進行通話授權及呼叫路由。
+Microsoft 365 或 Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則，可將撥打的電話號碼轉換成替代格式 (通常是) 的 E. 164 個格式，用於呼叫授權及呼叫路由。
 
 如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 |問問自己|動作 |
 |:------------|:-------|
-| 我的組織需要自訂的撥號對應表？ | 若要協助判斷您是否需要自訂撥號方案，請參閱[規劃租使用者撥號方案](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
-哪些使用者需要自訂的撥號對應表，以及應指派給每個使用者何種租用戶撥號對應表？ | 若要將使用者新增至 PowerShell 中的自訂撥號方案，請參閱[建立及管理撥號方案](create-and-manage-dial-plans.md)。 |
+| 我的組織需要自訂的撥號對應表？ | 若要協助判斷您是否需要自訂撥號方案，請參閱 [規劃租使用者撥號方案](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
+哪些使用者需要自訂的撥號對應表，以及應指派給每個使用者何種租用戶撥號對應表？ | 若要將使用者新增至 PowerShell 中的自訂撥號方案，請參閱 [建立及管理撥號方案](create-and-manage-dial-plans.md)。 |
 |||
 
 ### <a name="call-queues"></a>通話佇列
@@ -136,7 +137,7 @@ Microsoft 365 或 Office 365 的 [電話系統] 功能中的撥號方案是一�
 
 |問問自己|動作 |
 |:------------|:-------|
-| 我的組織是否需要呼叫佇列？ | 如需詳細資訊，請參閱[建立雲端通話佇列](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)及[設定您的電話系統](setting-up-your-phone-system.md)。 |
+| 我的組織是否需要呼叫佇列？ | 如需詳細資訊，請參閱 [建立雲端通話佇列](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) 及 [設定您的電話系統](setting-up-your-phone-system.md)。 |
 
 ### <a name="auto-attendants"></a>自動語音應答
 
@@ -144,7 +145,7 @@ Microsoft 365 或 Office 365 的 [電話系統] 功能中的撥號方案是一�
 
 |問問自己|動作 |
 |:------------|:-------|
-| 我的組織是否需要自動語音應答？ | 如需詳細資訊，請參閱[什麼是雲端自動](what-are-phone-system-auto-attendants.md)語音應答，以及[設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。 |
+| 我的組織是否需要自動語音應答？ | 如需詳細資訊，請參閱 [什麼是雲端自動](what-are-phone-system-auto-attendants.md) 語音應答，以及 [設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。 |
 
 ### <a name="devices"></a>裝置
 

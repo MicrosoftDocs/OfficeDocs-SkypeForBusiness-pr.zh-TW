@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: f008d154099c57376fca914d576d7c9df4487780
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824934"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814462"
 ---
 # <a name="install-microsoft-teams-powershell"></a>安裝 Microsoft 團隊 PowerShell
 
@@ -82,13 +82,13 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 
 ## <a name="install-the-skype-for-business-online-connector"></a>安裝商務用 Skype Online 連接器
 
-> [!WARNING]
-> 商務用 Skype Online 連接器目前是團隊 PowerShell 公開預覽版的一部分。 我們將此功能匯總至團隊 PowerShell 的 GA 發行中後，商務用 Skype Online 連接器將無法使用。
-
-下載並安裝 [商務用 Skype PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在 PowerShell 中執行下列操作。
+> [!NOTE]
+>
+> 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+> 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
 Import-PSSession $sfbSession

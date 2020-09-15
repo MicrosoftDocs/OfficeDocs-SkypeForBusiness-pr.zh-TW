@@ -19,32 +19,32 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 商務用 Skype Online 可讓您建立其他外部存取原則。 與用戶端或會議原則不同（您可以使用多個組合），有三個預先定義的外部存取原則可涵蓋大部分案例。
-ms.openlocfilehash: 02fba48a6b8acf2a2b66078624ab36eb7453df0c
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 9ec8fbe2e2d1a0d0882a0115bb201021fbbc1a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164642"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814192"
 ---
 # <a name="create-custom-external-access-policies"></a>建立自訂外部存取原則
 
 商務用 Skype Online 可讓您建立其他外部存取原則。 與用戶端或會議原則不同（您可以使用多個組合），有三個預先定義的外部存取原則可涵蓋大部分案例。 這些是：
   
-- 沒有聯盟或 Skype 消費者存取權（_標記： NoFederationAndPIC_ ）
+- 沒有聯盟或 Skype 消費者存取 (_標記： NoFederationAndPIC_ ) 
     
-- 僅限聯盟存取（_Tag： FederationOnly_ ）
+- 僅限聯盟存取 (標籤 _： FederationOnly_ ) 
     
-- 同盟與消費者存取（_FederationAndPICDefault_）
+- 聯盟和消費者存取 (_FederationAndPICDefault_) 
     
-自訂外部原則可讓您建立上述設定未涵蓋的其他原則。 建立原則時，您必須設定所有必要的參數，且稍後無法變更。 建立新的自訂原則可讓您控制諸如 Skype 消費者存取的功能，或用來停用公用雲端音訊/視頻的原則，這是預先定義的設定所涵蓋的內容。 自訂外部存取原則遵循與用戶端、行動性與會議原則相同的語法。 您可以在[這裡](https://technet.microsoft.com/library/mt228132.aspx)找到更多關於這些設定的資訊。
+自訂外部原則可讓您建立上述設定未涵蓋的其他原則。 建立原則時，您必須設定所有必要的參數，且稍後無法變更。 建立新的自訂原則可讓您控制諸如 Skype 消費者存取的功能，或用來停用公用雲端音訊/視頻的原則，這是預先定義的設定所涵蓋的內容。 自訂外部存取原則遵循與用戶端、行動性與會議原則相同的語法。 您可以在 [這裡](https://technet.microsoft.com/library/mt228132.aspx)找到更多關於這些設定的資訊。
   
 若要執行此工作，使用者必須使用受支援版本的2016隨選即用 Skype for business 應用程式（支援它）。 必須使用下列最低版本的商務用 Skype 2016 隨選即用用戶端：
   
 |**類型**|**發行日期**|**版本**|**Build**|
 |:-----|:-----|:-----|:-----|
-|目前通道的初次發行  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本1611（組建7571.2006）  <br/> |
-|目前通道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本1611（組建7571.2072）  <br/> |
-|延遲頻道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本1609（組建7369.2118）  <br/> |
+|目前通道的初次發行  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本 1611 (組建 7571.2006)   <br/> |
+|目前通道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本 1611 (組建 7571.2072)   <br/> |
+|延遲頻道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本 1609 (組建 7369.2118)   <br/> |
    
 > [!CAUTION]
 > 使用較舊版本商務用 Skype Windows 應用程式或 Mac 用戶端的使用者，仍能傳輸檔案。 
@@ -53,33 +53,35 @@ ms.locfileid: "44164642"
 
 - **檢查您執行的是 Windows PowerShell 版本3.0 或更高版本**
     
-1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表** > **Windows PowerShell**。
+1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
     
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
     
-3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://www.microsoft.com/download/details.aspx?id=40855) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://www.microsoft.com/download/details.aspx?id=40855) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
     
-4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
+4. 您也需要安裝 Windows PowerShell 模組供團隊使用，讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱 [在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
-1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
+1. 從 [**開始] 功能表**中的 [  >  **Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
+2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
-    > [!NOTE]
-    > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
+  > [!NOTE]
+  > 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+  >
+  > 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
 
    ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱 [在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx) ，或 [設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>為使用者建立自訂外部存取原則
 

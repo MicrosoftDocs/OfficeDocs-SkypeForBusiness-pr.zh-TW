@@ -21,18 +21,21 @@ description: 瞭解如何在 [教育版團隊中的 Microsoft 團隊系統管理
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 1747075caecdbc4bcd0c83eb037682b023701799
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326760"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814772"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
 作業是指派給課程中的學生或團隊成員的工作或工作單位，成為其研究的一部分。 您可以在團隊類別中建立作業。
 
 [深入瞭解作業](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+
+ > [!Note]
+ > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心中的作業
 
@@ -49,11 +52,11 @@ ms.locfileid: "44326760"
 ### <a name="makecode"></a>MakeCode
 Microsoft MakeCode 是一種區塊式編碼平臺，可讓所有學生都能使用電腦科學。 
 
-MakeCode 是一種受 Microsoft[使用條款](https://go.microsoft.com/fwlink/?LinkID=206977)與[隱私權](https://go.microsoft.com/fwlink/?LinkId=521839)原則制約的 microsoft 產品。
+MakeCode 是一種受 Microsoft [使用條款](https://go.microsoft.com/fwlink/?LinkID=206977) 與 [隱私權](https://go.microsoft.com/fwlink/?LinkId=521839) 原則制約的 microsoft 產品。
 
-此設定預設為關閉。 若要在小組中啟用 MakeCode 作業，請在 [**團隊管理中心**] 中，流覽至 [**作業**] 區段，然後將 [MakeCode 切換] 選項關閉為 [**開啟**]。 按一下 [**儲存**] 並允許幾個小時，這些設定才會生效。
+此設定預設為關閉。 若要在小組中啟用 MakeCode 作業，請在 [ **團隊管理中心**] 中，流覽至 [ **作業** ] 區段，然後將 [MakeCode 切換] 選項關閉為 [ **開啟**]。 按一下 [ **儲存** ] 並允許幾個小時，這些設定才會生效。
 
-如需此功能的運作方式的詳細資訊，請參閱此[視頻示範](https://makecode.com/blog/teams/teams-assignments)。
+如需此功能的運作方式的詳細資訊，請參閱此 [視頻示範](https://makecode.com/blog/teams/teams-assignments)。
 
 [深入瞭解 MakeCode](https://aka.ms/makecode)
 
@@ -76,12 +79,12 @@ TurnitinApiUrl 是系統管理員主控台的主機位址。
 
 系統管理主控台是您可以在其中建立整合與整合相關聯的 API 金鑰。
 
-從側邊功能表選取 [整合]，**然後選取 [** **新增整合**] 並提供名稱的整合。
+從側邊功能表選取 [整合]， **然後選取 [** **新增整合** ] 並提供名稱的整合。
 ![顯示新增整合的螢幕擷取畫面](./educationImages/Assignments_mopo_turnitin2.png)
 
 在您遵循提示之後，系統會為您提供 TurnitinApiKey。 複製 API 金鑰並貼到 Microsoft 團隊系統管理中心。  這只是您可以查看金鑰的唯一時機。
 ![螢幕擷取畫面顯示覆制 API 金鑰](./educationImages/Assignments_mopo_turnitin3.png)
 
-按一下系統管理中心的 [**儲存**] 按鈕時，請等候幾小時，這些設定才會生效。
+按一下系統管理中心的 [ **儲存** ] 按鈕時，請等候幾小時，這些設定才會生效。
 
-準備好開始使用團隊中的 Turnitin 整合了嗎？ 註冊[早期的存取計畫](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)。
+準備好開始使用團隊中的 Turnitin 整合了嗎？ 註冊 [早期的存取計畫](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)。

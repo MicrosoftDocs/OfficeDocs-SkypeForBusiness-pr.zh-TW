@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何啟用使用者 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656144"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814542"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>允許使用者使用直接路由、語音及語音信箱
 
 本文說明如何讓使用者使用電話系統直接路由。  以下是設定直接路由的步驟2：
 
 - 步驟1。 [將 SBC 與 Microsoft Phone 系統連接並驗證連接](direct-routing-connect-the-sbc.md) 
-- **步驟2。在本文中，讓使用者使用直接路由、語音及語音信箱**    () 
+- **步驟2。在本文中，讓使用者使用直接路由、語音及語音信箱**   () 
 - 步驟3。 [設定語音路由](direct-routing-voice-routing.md)
 - 步驟4。 [將數位轉換成替換格式](direct-routing-translate-numbers.md) 
 
@@ -53,16 +53,32 @@ ms.locfileid: "46656144"
 
 如需授權需求的相關資訊，請參閱[規劃直接路由](direct-routing-plan.md)中的[授權和其他需求](direct-routing-plan.md#licensing-and-other-requirements)。
 
-## <a name="ensure-that-the-user-is-homed-online"></a>確定使用者已在線上 
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>確定使用者已託管線上且電話號碼未從內部部署進行同步處理 (適用于商務用 Skype Server 企業語音的使用者已遷移至團隊直接路由) 
 
-[直接傳送] 要求使用者在線上中駐留。 您可以查看 RegistrarPool 參數，該參數必須在 infra.lync.com 網域中有值。
+[直接傳送] 要求使用者在線上中駐留。 您可以查看 RegistrarPool 參數，該參數必須在 infra.lync.com 網域中有值。 OnPremLineUriManuallySet 參數也應該設定為 True。 這是透過設定電話號碼，並使用商務用 Skype Online PowerShell 啟用企業語音及語音信箱來實現。
 
-1. [連線至遠端 PowerShell]。
+1. 連接商務用 Skype Online PowerShell 會話。
+
 2. 發出命令： 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
+    如果將 OnPremLineUriManuallySet 設定為 False，並以 <E. 164 個電話號碼> 填入，請在使用商務用 Skype Online PowerShell 設定電話號碼前，使用內部部署商務用 Skype 管理命令介面清除參數。 
+
+1. 從商務用 Skype 管理 Shell 發出命令： 
+
+   ```PowerShell
+   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+    ``` 
+   在變更已同步處理到 Office 365 之後，預期的輸出為 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` ：
+
+   ```console
+   RegistrarPool                        : pool.infra.lync.com
+   OnPremLineURIManuallySet             : True
+   OnPremLineURI                        : 
+   LineURI                              : 
+   ```
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>設定電話號碼並啟用企業語音及語音信箱 
 
@@ -70,13 +86,14 @@ ms.locfileid: "46656144"
 
 若要新增電話號碼並啟用語音信箱：
  
-1. 連線到遠端 PowerShell 會話。 
-2. 輸入命令： 
+1. 連接商務用 Skype Online PowerShell 會話。 
+
+2. 發出命令： 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
-
+    
     例如，若要將使用者的電話號碼新增至 [Spencer Low]，請輸入下列內容： 
 
     ```PowerShell
@@ -85,8 +102,8 @@ ms.locfileid: "46656144"
 
     所使用的電話號碼必須設定為完整的 E. 164 電話號碼（國家/地區碼）。 
 
-      > [!NOTE]
-      > 如果使用者的電話號碼是在內部部署管理，請使用內部部署商務用 Skype 管理命令介面或 [控制台] 來設定使用者的電話號碼。 
+    > [!NOTE]
+    > 如果使用者的電話號碼是在內部部署管理，請使用內部部署商務用 Skype 管理命令介面或 [控制台] 來設定使用者的電話號碼。 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>設定直接傳送來電至語音信箱

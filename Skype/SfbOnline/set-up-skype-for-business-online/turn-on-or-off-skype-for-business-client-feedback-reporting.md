@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 您可以讓您的商務用 Skype 使用者使用內建的商務用 Skype 應用程式意見反應工具，讓使用者報告問題，並直接向 Microsoft 提供意見反應，以瞭解他們的體驗。
-ms.openlocfilehash: 04dc6ddcb82e40bef2a0aa6a6197566d9dd8a374
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 3b91bc88c20450b7c0d9c5705bceec53af5f9edb
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164542"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814182"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>開啟或關閉商務用 Skype 用戶端意見反應報告
 
@@ -36,7 +36,7 @@ ms.locfileid: "44164542"
   
 ![商務用 Skype 用戶端報告。](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
-您也可以使用 [ _EnableOnlineFeedbackScreenshot_ ] 設定，讓使用者在其意見反應中加入其裝置的螢幕擷取畫面。
+您也可以使用 [  _EnableOnlineFeedbackScreenshot_ ] 設定，讓使用者在其意見反應中加入其裝置的螢幕擷取畫面。
   
 ![商務用 Skype 用戶端報告表單。](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
@@ -47,32 +47,34 @@ ms.locfileid: "44164542"
 
 - **檢查您執行的是 Windows PowerShell 版本3.0 或更高版本**
     
-1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表** > **Windows PowerShell**。
+1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
     
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
     
-3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
     
-4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
+4. 您也需要安裝 Windows PowerShell 模組供團隊使用，讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 
     
-如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
+如果您需要進一步瞭解，請參閱 [在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
-1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
+1. 從 [**開始] 功能表**中的 [  >  **Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
+2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
-    > [!NOTE]
-    > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
+  > [!NOTE]
+  > 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+  >
+  > 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
  
    ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
-   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱 [在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx) ，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>針對貴組織中的所有使用者開啟用戶端 app 意見反應報告
 

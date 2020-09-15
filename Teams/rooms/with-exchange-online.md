@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 請閱讀本主題，瞭解如何使用 Exchange Online 和商務用 Skype Server 內部部署來部署 Microsoft 團隊聊天室。
-ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e39a7f2cde6aef7bdee59f2052c789783d62f905
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666145"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814512"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft 團隊聊天室
 
@@ -28,18 +28,18 @@ ms.locfileid: "44666145"
   
 如果您的組織有混合服務、部分裝載于內部部署和部分託管的網路，則您的設定將取決於託管每個服務的位置。 本主題涵蓋 Microsoft 團隊聊天室的混合式部署，以及 Exchange 託管在線上。 因為這種類型的部署有這麼多不同的變化，所以不可能提供所有專案的詳細指示。 下列處理常式適用于許多設定。 如果程式不適合您的設定，建議您使用 Windows PowerShell 來取得與其他部署選項相同的最終結果。
 
-設定使用者帳戶最簡單的方法，就是使用遠端 Windows PowerShell 進行設定。 Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105)，此腳本將協助您建立新的使用者帳戶，或驗證您所擁有的現有資源帳戶，以協助您將它們轉換成相容的 Microsoft 團隊聊天室使用者帳戶。 如果您想要的話，您可以依照下列步驟來設定您的 Microsoft 團隊聊天室裝置將會使用的帳戶。
+設定使用者帳戶最簡單的方法，就是使用遠端 Windows PowerShell 進行設定。 Microsoft 提供 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、可協助您建立新使用者帳戶的腳本，或驗證現有的資源帳戶，以協助您將它們轉換成相容的 Microsoft 團隊聊天室使用者帳戶。 如果您想要的話，您可以依照下列步驟來設定您的 Microsoft 團隊聊天室裝置將會使用的帳戶。
 
 ## <a name="requirements"></a>需求
 
-在使用 Exchange Online 部署 Microsoft 團隊聊天室之前，請確定您已滿足需求。 如需詳細資訊，請參閱[Microsoft 團隊會議室需求](requirements.md)。
+在使用 Exchange Online 部署 Microsoft 團隊聊天室之前，請確定您已滿足需求。 如需詳細資訊，請參閱 [Microsoft 團隊會議室需求](requirements.md)。
   
 若要使用 Exchange Online 部署 Microsoft 團隊聊天室，請遵循下列步驟。 請確定您有正確的許可權來執行相關的 Cmdlet。 
 
    > [!NOTE]
-   >  此區段中的[Windows PowerShell Cmdlet 的 Azure Active Directory 模組](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)（例如，MsolUser）已在設定 Microsoft 團隊聊天室裝置的帳戶中經過測試。 但其他 Cmdlet 可能可以運作，但在這種特定情況下並未經過測試。
+   >  此區段中 [適用于 Windows PowerShell Cmdlet 的 Azure Active Directory 模組](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) (範例中，已在設定 Microsoft 團隊聊天室裝置的帳戶中測試 MsolUser) 。 但其他 Cmdlet 可能可以運作，但在這種特定情況下並未經過測試。
 
-如果您已部署 Active Directory Federation Services （AD FS），您可能必須先將使用者帳戶轉換為受管理的使用者，然後才能執行這些步驟，然後在完成這些步驟之後，再將使用者轉換回聯盟使用者。
+如果您已部署 Active Directory Federation Services (AD FS) ，您可能必須先將使用者帳戶轉換為受管理的使用者，然後才能執行這些步驟，然後在完成這些步驟之後，再將使用者轉換回聯盟使用者。
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>建立帳戶並設定 Exchange 屬性
 
@@ -76,22 +76,22 @@ ms.locfileid: "44666145"
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>新增內部部署網域帳戶的電子郵件地址
 
-1. 在**Active Directory 使用者和電腦廣告**工具中，以滑鼠右鍵按一下您的 Microsoft 小組會議室帳戶將會在其中建立的容器或組織單位，按一下 [**新增**]，然後按一下 [**使用者**]。
-2. 從先前的 Cmdlet （將 [信箱] 或 [新信箱]）中輸入 [顯示名稱] （身分識別）至 [**完整名稱**] 方塊，然後輸入別名至 [**使用者登入名稱**] 方塊。 按一下 **[下一步]**。
-3. 輸入此帳戶的密碼。 您必須重新輸入，才能進行驗證。 確認 [**密碼永不過期**] 核取方塊是唯一選取的選項。
+1. 在 **Active Directory 使用者和電腦廣告** 工具中，以滑鼠右鍵按一下您的 Microsoft 小組會議室帳戶將會在其中建立的容器或組織單位，按一下 [ **新增**]，然後按一下 [ **使用者**]。
+2. 在 [ **完整名稱** ] 方塊中輸入 [顯示名稱] ( 身分識別 ) ，然後在 [ **使用者登入名稱** ] 方塊中輸入別名 ([信箱] 或 [新增信箱) ]。 按一下 **[下一步]**。
+3. 輸入此帳戶的密碼。 您必須重新輸入，才能進行驗證。 確認 [ **密碼永不過期** ] 核取方塊是唯一選取的選項。
 
     > [!NOTE]
-    > 選取 [**密碼永不過期**] 是 Microsoft 團隊聊天室的商務用 Skype 伺服器需求。 您的網域規則可能會禁止沒有過期的密碼。 如果是這樣，您將需要針對每個 Microsoft 團隊聊天室使用者帳戶建立例外狀況。
+    > 選取 [ **密碼永不過期** ] 是 Microsoft 團隊聊天室的商務用 Skype 伺服器需求。 您的網域規則可能會禁止沒有過期的密碼。 如果是這樣，您將需要針對每個 Microsoft 團隊聊天室使用者帳戶建立例外狀況。
   
 4. 按一下 **[完成]** 來建立帳戶。
-5. 在您建立帳戶之後，請執行目錄同步處理。 這可以透過在 PowerShell 中使用[Set MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)來完成。 完成後，請移至 [使用者] 頁面，確認先前步驟中建立的兩個帳戶已合併。
+5. 在您建立帳戶之後，請執行目錄同步處理。 這可以透過在 PowerShell 中使用 [Set MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 來完成。 完成後，請移至 [使用者] 頁面，確認先前步驟中建立的兩個帳戶已合併。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>指派 Microsoft 365 或 Office 365 授權
 
-1. 首先，連線到 Azure AD 來套用某些帳戶設定。 您可以執行此 Cmdlet 來進行連線。 如需 Active Directory 的詳細資訊，請參閱[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。
+1. 首先，連線到 Azure AD 來套用某些帳戶設定。 您可以執行此 Cmdlet 來進行連線。 如需 Active Directory 的詳細資料，請參閱 [Azure ActiveDirectory (import-module msonline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支援。
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 不受支援。
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -101,8 +101,8 @@ ms.locfileid: "44666145"
      ``` -->
 
 2. 使用者帳戶必須擁有有效的 Microsoft 365 或 Office 365 授權，才能確保 Exchange 和商務用 Skype 伺服器能夠正常運作。 如果您有授權，您必須將使用位置指派給您的使用者帳戶，這會決定您的帳戶可使用哪些授權 Sku。 您將會在下列步驟中進行作業。
-3. 接下來，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 若要為您的 Microsoft 365 或 Office 365 組織取得可用的 Sku 清單。
-4. 當您列出 Sku 之後，您就可以使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. 在此情況下，$strLicense 是您所看到的 SKU 程式碼（例如 contoso： STANDARDPACK）。 
+3. 接下來，使用 `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 若要為您的 Microsoft 365 或 Office 365 組織取得可用的 Sku 清單。
+4. 當您列出 Sku 之後，您就可以使用 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. 在此案例中，$strLicense 是您所看到的 SKU 程式碼 (例如 contoso： STANDARDPACK) 。 
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -119,8 +119,13 @@ ms.locfileid: "44666145"
 
 1. 從電腦建立遠端 Windows PowerShell 會話，如下所示：
 
+> [!NOTE]
+> 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+>
+> 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
+
     ``` Powershell
-    Import-Module SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $cred = Get-Credential
     $cssess = New-CsOnlineSession -Credential $cred  
     Import-PSSession $cssess -AllowClobber
@@ -141,16 +146,16 @@ ms.locfileid: "44666145"
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>將商務用 Skype Server 授權指派給您的 Microsoft 團隊聊天室帳戶
 
 1. 以租使用者管理員身分登入，開啟 Microsoft 365 系統管理中心，然後按一下 [管理] 應用程式。
-2. 按一下 [**使用者和群組**]，然後按一下 [**新增使用者、重設密碼等等**]。
+2. 按一下 [ **使用者和群組** ]，然後按一下 [ **新增使用者、重設密碼等等**]。
 3. 按一下 [Microsoft 團隊聊天室] 帳戶，然後按一下手寫筆圖示，即可編輯帳戶資訊。
-4. 按一下 [**授權**]。
-5. 在 [**指派授權**] 中，選取 [商務用 Skype （方案2）] 或 [商務用 Skype （方案3）]，視您的授權和企業語音需求而定。 如果您想要在 Microsoft 團隊聊天室使用企業語音，就必須使用 [方案3授權]。
+4. 按一下 [ **授權**]。
+5. 在 [ **指派授權**] 中，選取 [商務用 Skype (方案 2]) 或 [商務用 skype] (方案 3) ，視您的授權和企業語音需求而定。 如果您想要在 Microsoft 團隊聊天室使用企業語音，就必須使用 [方案3授權]。
 6. 按一下 [儲存]****。
 
 針對驗證，您應該能夠使用任何商務用 Skype 用戶端登入此帳戶。
 
 > [!NOTE]
-> 如果您目前使用的是 E1、E3、E4 或 E5 Sku，且使用商務用 Skype 方案2搭配音訊會議或使用電話系統方案，則這些將會繼續運作。 不過，在目前的授權到期後，您應該考慮移至 [[團隊會議室授權更新](rooms-licensing.md)] 中所述的更簡單的授權模型。
+> 如果您目前使用的是 E1、E3、E4 或 E5 Sku，且使用商務用 Skype 方案2搭配音訊會議或使用電話系統方案，則這些將會繼續運作。 不過，在目前的授權到期後，您應該考慮移至 [ [團隊會議室授權更新](rooms-licensing.md)] 中所述的更簡單的授權模型。
 
 > [!IMPORTANT]
 > 如果您使用的是商務用 Skype 方案2，您只能在 [僅限商務用 skype] 模式中使用 Microsoft 團隊聊天室，這表示您所有的會議都將是商務用 Skype 會議。 若要為 Microsoft 團隊會議啟用會議室，我們建議您購買會議室授權。

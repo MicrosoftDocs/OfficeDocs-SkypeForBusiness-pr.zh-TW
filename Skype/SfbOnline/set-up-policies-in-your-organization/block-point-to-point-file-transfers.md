@@ -18,35 +18,35 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 在商務用 Skype Online 中，您可以在現有的會議原則設定中，控制點對點（P2P）檔案傳輸。 不過，這會允許或封鎖使用者傳送檔案給同一個組織中的使用者，或其他組織的聯盟使用者。 遵循下列步驟，您可以封鎖與同盟組織或合作夥伴的 P2P 檔案傳輸。
-ms.openlocfilehash: 773feaa97a888bd2063710de9e72f8c7b465a813
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 在商務用 Skype Online 中，您可以在現有的會議原則設定中，控制點對點 (P2P) 檔案傳輸。 不過，這會允許或封鎖使用者傳送檔案給同一個組織中的使用者，或其他組織的聯盟使用者。 遵循下列步驟，您可以封鎖與同盟組織或合作夥伴的 P2P 檔案傳輸。
+ms.openlocfilehash: 150fb02daa1dcd7486a5bb495c7fd74f8d4736a1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164722"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814632"
 ---
 # <a name="block-point-to-point-file-transfers"></a>封鎖點對點檔案傳輸
 
-在商務用 Skype Online 中，您可以在現有的會議原則設定中，控制點對點（P2P）檔案傳輸。 不過，這會允許或封鎖使用者傳送檔案給同一個組織中的使用者，或其他組織的聯盟使用者。 遵循下列步驟，您可以封鎖與同盟組織或合作夥伴的 P2P 檔案傳輸。
+在商務用 Skype Online 中，您可以在現有的會議原則設定中，控制點對點 (P2P) 檔案傳輸。 不過，這會允許或封鎖使用者傳送檔案給同一個組織中的使用者，或其他組織的聯盟使用者。 遵循下列步驟，您可以封鎖與同盟組織或合作夥伴的 P2P 檔案傳輸。
   
  最常見的情況是，您想允許內部使用者使用 P2P 檔案傳輸，但封鎖與聯盟夥伴的檔案傳輸。 在這種情況下，您必須執行下列動作：
   
-- 將已啟用 P2P 檔案傳輸的會議原則（_EnableP2PFileTransfer_設定為_True_）指派給組織中的使用者。
+- 指派已啟用 P2P 檔案傳輸的會議原則 (_EnableP2PFileTransfer_ 設定為 _True_) 給貴組織中的使用者。
     
-- 建立全域外部使用者通訊原則，設定為封鎖外部 P2P 檔案傳輸（_EnableP2PFileTransfer_設為_False_），並將它指派給貴組織中的使用者。 
+- 建立全域外部使用者通訊原則設定來封鎖外部 P2P 檔案傳輸 (_EnableP2PFileTransfer_ 設定為 _False_) 並將它指派給您組織中的使用者。 
     
-您可以在[這裡](https://technet.microsoft.com/library/mt228132.aspx)找到更多關於這些設定的資訊。
+您可以在 [這裡](https://technet.microsoft.com/library/mt228132.aspx)找到更多關於這些設定的資訊。
   
-如果您組織外部的同盟使用者試圖傳送檔案給已套用原則的使用者，他們會收到**傳送失敗**的錯誤。 而且，如果使用者嘗試傳送檔案，他們會收到檔案**傳輸已關閉**的錯誤訊息。
+如果您組織外部的同盟使用者試圖傳送檔案給已套用原則的使用者，他們會收到 **傳送失敗** 的錯誤。 而且，如果使用者嘗試傳送檔案，他們會收到檔案 **傳輸已關閉** 的錯誤訊息。
   
 若要執行此工作，使用者必須使用支援版本的2016隨選即用 Skype for Business 應用程式（支援它）。 必須使用下列最低版本的商務用 Skype 2016 隨選即用用戶端：
   
 |**類型**|**發行日期**|**版本**|**Build**|
 |:-----|:-----|:-----|:-----|
-|目前通道的初次發行  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本1611（組建7571.2006）  <br/> |
-|目前通道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本1611（組建7571.2072）  <br/> |
-|延遲頻道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本1609（組建7369.2118）  <br/> |
+|目前通道的初次發行  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本 1611 (組建 7571.2006)   <br/> |
+|目前通道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本 1611 (組建 7571.2072)   <br/> |
+|延遲頻道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本 1609 (組建 7369.2118)   <br/> |
    
 > [!CAUTION]
 > 使用較舊版本商務用 Skype Windows 應用程式或 Mac 用戶端的使用者，仍能傳輸檔案。 
@@ -55,37 +55,39 @@ ms.locfileid: "44164722"
 
 - **檢查您執行的是 Windows PowerShell 版本3.0 或更高版本**
     
-    1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表** > **Windows PowerShell**。
+    1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
         
     2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
         
-    3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+    3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
         
-    4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
+    4. 您也需要安裝 Windows PowerShell 模組供團隊使用，讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱 [在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
-    1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
+    1. 從 [**開始] 功能表**中的 [  >  **Windows PowerShell**]。
         
-    2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
+    2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
         > [!NOTE]
-        > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
+        > 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+        >
+        > 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
 
        ```PowerShell      
-        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        Import-Module -Name MicrosoftTeams
         $credential = Get-Credential
         $session = New-CsOnlineSession -Credential $credential
         Import-PSSession $session
        ```
 
-   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱 [在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx) ，或 [設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>停用貴組織的 P2P 檔案傳輸
 
-根據預設，會在組織的全域原則上啟用_EnableP2PFileTransfer_ 。 一旦建立，您的使用者就會獲指派_BposSAllModality_原則。
+根據預設，會在組織的全域原則上啟用 _EnableP2PFileTransfer_ 。 一旦建立，您的使用者就會獲指派 _BposSAllModality_ 原則。
   
 若要允許貴組織內的 P2P 傳輸，但封鎖外部檔案傳輸至另一個組織，您只需在全域層面進行變更。 若要執行此動作，請執行：
     

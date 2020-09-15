@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解 Microsoft 365 和 Office 365 預設本機號碼 (使用者指派的電話號碼) ，也稱為呼叫線路 ID。 您可以變更或封鎖使用者的本機號碼。
-ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: ff8355b9435d0a21c032ee90b442884c0319221c
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255426"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814322"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
 Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖本機號碼 (也稱為使用者的通話行識別碼) 。 若要深入瞭解如何在 [您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
@@ -82,10 +82,11 @@ Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼
 2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
    > [!NOTE]
-   > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯 **入模組** 命令。
-   > 
+   >
+   > 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+   > 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
    ```PowerShell
-    Import-Module -Name SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session

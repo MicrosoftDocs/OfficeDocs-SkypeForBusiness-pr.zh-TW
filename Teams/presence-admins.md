@@ -17,18 +17,21 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 5a944616fef0c3fd9821486a41025adf5f0fdbcc
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803905"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814572"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
 [目前狀態] 是 Microsoft 團隊中的使用者設定檔的一部分 (與整個 Microsoft 365 或 Office 365) ，可指出使用者目前的可用性與其他使用者的狀態。 依預設，貴組織中任何有使用 Teams 的人都可以 (幾乎即時) 查看其他使用者是否在線上。
 
 Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 目前狀態。
+
+ > [!Note]
+ > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
 
 ## <a name="presence-states-in-teams"></a>Teams 中的目前狀態
 

@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 瞭解如何使用 Microsoft 團隊系統管理中心或 Windows PowerShell 來建立及管理撥號方案（PSTN 呼叫撥號方案）。
-ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: 瞭解如何使用 Microsoft 團隊系統管理中心或 Windows PowerShell 來建立及管理 (PSTN 呼叫撥號方案) 的撥號方案。
+ms.openlocfilehash: 0655f81df9c8ce25368a281a7f5b3392f7fe6ec3
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938232"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814782"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
@@ -37,28 +37,28 @@ ms.locfileid: "44938232"
 ### <a name="create-a-dial-plan"></a>建立撥號方案
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **撥號方案**]。
-2. 按一下 [**新增**]，然後輸入撥號方案的名稱和描述。
+2. 按一下 [ **新增**]，然後輸入撥號方案的名稱和描述。
     ![顯示建立撥號方案之 [新增] 頁面的螢幕擷取畫面](media/create-dial-plan.png)
-3. 在 [**撥號方案詳細資料**] 底下，如果使用者需要撥一或多個額外的前導數位（例如9）來取得外部線路，請指定外部撥號首碼。 若要執行此動作：
-    1. 在 [**外部撥號首碼**] 方塊中，輸入外部撥號首碼。 前置詞最多可有四個字元（#、* 及0-9）。
-    2. 開啟**優化的裝置撥號**。 如果您指定外部撥號首碼，您也必須開啟此設定以套用首碼，以便在您的組織以外進行通話。
-4. 在 [**正常化規則**] 底下，針對撥號方案設定及建立一或多個[正常化規則](what-are-dial-plans.md#normalization-rules)。 每個撥號方案都必須至少有一個與它相關聯的正常化規則。  若要這樣做，請執行下列其中一項或多項操作：
-    - 若要建立新的正常化規則，並將它與撥號方案建立關聯，請按一下 [**新增**]，然後定義規則。
-    - 若要編輯已經與撥號方案相關聯的正常化規則，請按一下規則名稱左邊的，然後按一下 [**編輯**]，選取規則。 進行您想要的變更，然後按一下 [**儲存**]。
-    - 若要從撥號方案中移除正常化規則，請按一下規則名稱左方，然後按一下 [**移除**]，即可選取規則。
-5. 依您想要的順序排列正常化規則。 按一下 [**上移** **] 或 [下移]** ，即可變更清單中規則的位置。
+3. 在 [ **撥號方案詳細資料**] 底下，如果使用者需要撥一或多個額外的前導數位，請指定外部撥號首碼 (例如，9) 取得外部線路。 若要執行此動作：
+    1. 在 [ **外部撥號首碼** ] 方塊中，輸入外部撥號首碼。 在 #、* 及 0-9) 中，首碼最多可以有四個字元 (。
+    2. 開啟 **優化的裝置撥號**。 如果您指定外部撥號首碼，您也必須開啟此設定以套用首碼，以便在您的組織以外進行通話。
+4. 在 [ **正常化規則**] 底下，針對撥號方案設定及建立一或多個 [正常化規則](what-are-dial-plans.md#normalization-rules) 。 每個撥號方案都必須至少有一個與它相關聯的正常化規則。  若要這樣做，請執行下列其中一項或多項操作：
+    - 若要建立新的正常化規則，並將它與撥號方案建立關聯，請按一下 [ **新增**]，然後定義規則。
+    - 若要編輯已經與撥號方案相關聯的正常化規則，請按一下規則名稱左邊的，然後按一下 [ **編輯**]，選取規則。 進行您想要的變更，然後按一下 [ **儲存**]。
+    - 若要從撥號方案中移除正常化規則，請按一下規則名稱左方，然後按一下 [ **移除**]，即可選取規則。
+5. 依您想要的順序排列正常化規則。 按一下 [ **上移** **] 或 [下移]** ，即可變更清單中規則的位置。
 
     > [!NOTE]
     > 團隊會從上而下遍歷正常化規則清單，並使用與撥號號碼相符的第一個規則。 如果您設定撥號方案，讓撥入的號碼可以符合多個正常化規則，請確定更嚴格的規則排序在限制性較低的規則上方。
 
 6. 按一下 [儲存]****。
-7. 如果您想要測試撥號規劃，請在 [**測試撥號方案**] 下輸入電話號碼，然後按一下 [**測試**]。
+7. 如果您想要測試撥號規劃，請在 [ **測試撥號方案**] 下輸入電話號碼，然後按一下 [ **測試**]。
 
 ### <a name="edit-a-dial-plan"></a>編輯撥號方案
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **撥號方案**]。
-2. 按一下撥號方案名稱左邊的，然後按一下 [**編輯**]，選取撥號方案。
-3. 進行您想要的變更，然後按一下 [**儲存**]。
+2. 按一下撥號方案名稱左邊的，然後按一下 [ **編輯**]，選取撥號方案。
+3. 進行您想要的變更，然後按一下 [ **儲存**]。
 
 ### <a name="assign-a-dial-plan-to-users"></a>指派撥號方案給使用者
 
@@ -74,24 +74,26 @@ ms.locfileid: "44938232"
     
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
     
-3. 如果您沒有版本3.0 或更新版本，請下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+3. 如果您沒有版本3.0 或更新版本，請下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
     
-4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 您可以在[商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上，下載此模組（只有64位電腦支援）。 如果出現提示，請重新開機電腦。
+4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 您可以在 [商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上，下載此模組（只有64位電腦支援）。 如果出現提示，請重新開機電腦。
     
-若要深入瞭解，請參閱[在單一 Windows PowerShell 視窗中連接至所有 Microsoft 365 或 Office 365 服務](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
+若要深入瞭解，請參閱 [在單一 Windows PowerShell 視窗中連接至所有 Microsoft 365 或 Office 365 服務](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
   
  **啟動 Windows PowerShell 會話**
   
 1. 按一下 [**啟動**  >  **Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線至 Microsoft 365 或 Office 365：
+2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至 Microsoft 365 或 Office 365：
     
+ 
     > [!NOTE]
-    > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
-  
+    > 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+    >
+    > 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
 
     ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
@@ -109,7 +111,7 @@ ms.locfileid: "44938232"
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    如需其他範例和參數，請參閱[新 CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan)。
+    如需其他範例和參數，請參閱 [新 CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan)。
     
 - 若要編輯現有撥號方案的設定，請執行：
     
@@ -118,7 +120,7 @@ ms.locfileid: "44938232"
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    如需其他範例和參數，請參閱[設定 CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)。
+    如需其他範例和參數，請參閱 [設定 CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)。
     
 - 若要將使用者新增至撥號方案，請執行：
     
@@ -126,7 +128,7 @@ ms.locfileid: "44938232"
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    如需其他範例和參數，請參閱[授與 CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)。
+    如需其他範例和參數，請參閱 [授與 CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)。
     
 - 若要查看撥號計畫的設定，請執行：
     
@@ -134,7 +136,7 @@ ms.locfileid: "44938232"
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    如需其他範例和參數，請參閱[CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)。
+    如需其他範例和參數，請參閱 [CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)。
     
 - 若要刪除撥號方案，請執行：
     
@@ -142,7 +144,7 @@ ms.locfileid: "44938232"
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    如需其他範例和參數，請參閱[移除-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)。
+    如需其他範例和參數，請參閱 [移除-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)。
     
 - 若要查看有效撥號方案的設定，請執行：
     
@@ -150,7 +152,7 @@ ms.locfileid: "44938232"
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    如需其他範例和參數，請參閱[CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)。
+    如需其他範例和參數，請參閱 [CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)。
     
 - 若要測試撥號方案的有效設定，請執行：
     
@@ -158,7 +160,7 @@ ms.locfileid: "44938232"
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    如需其他範例和參數，請參閱[測試 CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)。
+    如需其他範例和參數，請參閱 [測試 CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)。
     
 #### <a name="using-a-powershell-script"></a>使用 PowerShell 腳本
 

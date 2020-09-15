@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定商務用 Microsoft Phone 系統。 '
-ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788427"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814883"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>以下是可透過電話系統獲得的功能
 
@@ -35,6 +35,8 @@ ms.locfileid: "46788427"
 
 用戶端可在 PC、Mac 和行動裝置上使用，它可提供從平板電腦和手機到 Pc 和桌面 IP 手機的裝置功能。 如需詳細資訊，請參閱 [取得 Microsoft 團隊的用戶端](get-clients.md)。
 
+ > [!Note]
+ > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
   
 ## <a name="phone-system-features"></a>電話系統功能
 

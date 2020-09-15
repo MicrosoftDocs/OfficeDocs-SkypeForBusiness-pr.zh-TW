@@ -18,26 +18,29 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c41c4435877860a2193e6b50f45f714c8c85cb2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938352"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814732"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
 > [!IMPORTANT]
-> 2020年6月30日生效，Microsoft StaffHub 已停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 已停止針對2020年6月30日的所有使用者使用。 任何試圖開啟 StaffHub 的人都會顯示一則訊息，讓他們下載團隊。 若要深入瞭解，請參閱[Microsoft StaffHub 已停](microsoft-staffhub-to-be-retired.md)用。  
+> 2020年6月30日生效，Microsoft StaffHub 已停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 已停止針對2020年6月30日的所有使用者使用。 任何試圖開啟 StaffHub 的人都會顯示一則訊息，讓他們下載團隊。 若要深入瞭解，請參閱 [Microsoft StaffHub 已停](microsoft-staffhub-to-be-retired.md)用。  
 
 ## <a name="overview-of-shifts"></a>班次的概覽
 
 Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保持連線並同步處理。它會先建立行動裝置，以快速且有效地管理和溝通小組的時間。 [倒班] 讓第一線員工工作者及其主管使用行動裝置管理排程，並保持聯繫。
 
-- 管理員建立、更新及管理團隊的倒班排程。 他們可以將訊息傳送給一個人（「在地面有溢出）」或整個小組（「地區 GM 已在20分鐘內抵達」）。 他們也可以傳送原則檔、新聞佈告及影片。 
+- 管理員建立、更新及管理團隊的倒班排程。 他們可以將訊息傳送給一個人， ( 「地面上有溢出」」 ) 或整個團隊 ( 「地區 GM 已超過20分鐘」 ) 。 他們也可以傳送原則檔、新聞佈告及影片。 
 - 員工要查看他們的後續班次，可以查看當天排程的人員、要求交換或提供倒班，以及要求下班時間。 
 
 我們必須知道，倒班目前不支援來賓使用者。 這表示當您在小組中開啟來賓存取功能時，小組中的來賓不能加入或使用倒班排程。 
+
+ > [!Note]
+ > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
 
 ## <a name="availability-of-shifts"></a>倒班的可用性
 
@@ -45,23 +48,23 @@ Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保
 
 ## <a name="location-of-shifts-data"></a>倒班資料的位置
 
-倒班資料目前儲存在北美、西歐及亞太地區資料中心的 Azure 中。 如需有關資料儲存位置的詳細資訊，請參閱[我的資料在哪裡](http://o365datacentermap.azurewebsites.net/)？
+倒班資料目前儲存在北美、西歐及亞太地區資料中心的 Azure 中。 如需有關資料儲存位置的詳細資訊，請參閱 [我的資料在哪裡](http://o365datacentermap.azurewebsites.net/)？
 
 ## <a name="set-up-shifts"></a>設定倒班
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>在組織中啟用或停用倒班
 
-預設會針對貴組織中的所有團隊使用者啟用班次。 您可以在 Microsoft 團隊系統管理中心的 [[管理應用程式](../../manage-apps.md)] 頁面上關閉或開啟組織階層的 app。
+預設會針對貴組織中的所有團隊使用者啟用班次。 您可以在 Microsoft 團隊系統管理中心的 [ [管理應用程式](../../manage-apps.md) ] 頁面上關閉或開啟組織階層的 app。
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
 2. 在應用程式清單中，執行下列其中一項操作：
 
-    - 若要關閉貴組織的倒班，請搜尋 [倒班] app，選取它，然後按一下 [**封鎖**]。
-    - 若要為您的組織開啟倒班，請搜尋 [倒班] app，選取它，然後按一下 [**允許**]。
+    - 若要關閉貴組織的倒班，請搜尋 [倒班] app，選取它，然後按一下 [ **封鎖**]。
+    - 若要為您的組織開啟倒班，請搜尋 [倒班] app，選取它，然後按一下 [ **允許**]。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>針對貴組織中的特定使用者啟用或停用班次
 
-若要允許或封鎖貴組織中的特定使用者使用倒班，請確定您的組織已開啟 [[管理應用程式](../../manage-apps.md)] 頁面上的 [倒班]，然後建立自訂應用程式許可權原則，並將其指派給那些使用者。 若要深入瞭解，請參閱[在團隊中管理 app 許可權原則](../../teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用倒班，請確定您的組織已開啟 [ [管理應用程式](../../manage-apps.md) ] 頁面上的 [倒班]，然後建立自訂應用程式許可權原則，並將其指派給那些使用者。 若要深入瞭解，請參閱 [在團隊中管理 app 許可權原則](../../teams-app-permission-policies.md)。
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstlineWorker 應用程式設定原則釘選到團隊
 
@@ -81,9 +84,9 @@ App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者�
 
 **(預覽)**
 
-您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。  若要深入瞭解如何搜尋審核記錄，以及查看已記錄在審核記錄中的[倒班活動](../../audit-log-events.md#shifts-in-teams-activities)清單，請參閱[搜尋小組中事件的審核記錄](../../audit-log-events.md)。
+您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。  若要深入瞭解如何搜尋審核記錄，以及查看已記錄在審核記錄中的 [倒班活動](../../audit-log-events.md#shifts-in-teams-activities) 清單，請參閱 [搜尋小組中事件的審核記錄](../../audit-log-events.md)。
 
-在您可以搜尋審核記錄之前，您必須先在[安全性 & 合規性中心](https://protection.office.com)開啟審核。 若要深入瞭解，請參閱[開啟或關閉審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。 請記住，審核資料只能從您開啟審核的位置取得。
+在您可以搜尋審核記錄之前，您必須先在 [安全性 & 合規性中心](https://protection.office.com)開啟審核。 若要深入瞭解，請參閱 [開啟或關閉審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。 請記住，審核資料只能從您開啟審核的位置取得。
 
 ## <a name="related-topics"></a>相關主題
 

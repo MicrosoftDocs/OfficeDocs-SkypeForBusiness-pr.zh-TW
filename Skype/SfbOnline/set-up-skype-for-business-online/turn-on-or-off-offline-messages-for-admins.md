@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 瞭解如何傳送商務用 Skype 立即訊息，即使您的連絡人未使用 PowerShell 登入也一樣。
-ms.openlocfilehash: 4af24f66aa82bbd0f0099e062981157b08c639db
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164092"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814602"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>開啟或關閉系統管理員的離線訊息
 
@@ -36,9 +36,9 @@ ms.locfileid: "44164092"
 
 - [離線郵件] 會傳送到使用者的信箱，當使用者登入商務用 Skype 時，系統會收到通知。
 
-- 如果郵件收件者的狀態設定為 [**請勿打擾**]**或 [** 簡報]，他們會收到從收件者的商務用 Skype 用戶端傳送的未接訊息。
+- 如果郵件收件者的狀態設定為 [ **請勿打擾** ] **或 [** 簡報]，他們會收到從收件者的商務用 Skype 用戶端傳送的未接訊息。
 
-如需詳細資訊，請參閱[在商務用 Skype 中使用離線訊息](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)。
+如需詳細資訊，請參閱 [在商務用 Skype 中使用離線訊息](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)。
 
 ## <a name="to-get-you-started"></a>若要入門
 
@@ -46,51 +46,52 @@ ms.locfileid: "44164092"
 
  **檢查您執行的是 Windows PowerShell 版本3.0 或更高版本**
 
-1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表** > **Windows PowerShell**。
+1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
 
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
 
-3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
 
-4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
+4. 您也需要安裝 Windows PowerShell 模組供團隊使用，讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。
 
-如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
+如果您需要進一步瞭解，請參閱 [在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
 
 ## #
 
  **啟動 Windows PowerShell 會話**
 
-1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
+1. 從 [**開始] 功能表**中的 [  >  **Windows PowerShell**]。
 
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
+2. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
 
-    > [!NOTE]
-    > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
+   > [!NOTE]
+   > 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+   >
+   > 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
 
->
   ```PowerShell
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+  Import-Module -Name MicrosoftTeams
   $credential = Get-Credential
   $session = New-CsOnlineSession -Credential $credential
   Import-PSSession $session
   ```
 
-如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱 [在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx) ，或 [設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
 
 ## <a name="turning-on-or-off-offline-im"></a>開啟或關閉離線 IM
 
 > [!NOTE]
-> 離線訊息**只能**在最新版的隨選即用 skype 用戶端版本中使用，當您使用較舊的隨選即用 skype 或 * .msi 檔案來安裝商務用 skype 用戶端時，就無法使用。
+> 離線訊息 **只能** 在最新版的隨選即用 skype 用戶端版本中使用，當您使用較舊的隨選即用 skype 或 * .msi 檔案來安裝商務用 skype 用戶端時，就無法使用。
 
-若要啟用或停用離線訊息針對貴組織中的使用者傳送離線訊息， `True`請`False`將_EnableIMAutoArchiving_設定為或。 根據預設，這會設定為`True`。
+若要啟用或停用離線訊息針對貴組織中的使用者傳送離線訊息，請將  _EnableIMAutoArchiving_ 設定為 `True` 或 `False` 。 根據預設，這會設定為 `True` 。
 
-若要關閉此功能，請使用**CsClientPolicy** Cmdlet 並執行：
+若要關閉此功能，請使用 **CsClientPolicy** Cmdlet 並執行：
 
 ```PowerShell
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-若要啟用或停用離線訊息，請為使用者傳送離線訊息， `True`將`False`[ _EnableIMAutoArchiving_ ] 設定為 [或]。 根據預設，這會設定為`True`。 您可以使用現有的原則，或如下例所示建立一個。
+若要啟用或停用離線訊息，請為使用者傳送離線訊息，將 [  _EnableIMAutoArchiving_ ] 設定為 [ `True` 或] `False` 。 根據預設，這會設定為  `True` 。 您可以使用現有的原則，或如下例所示建立一個。
 
 
   ```PowerShell
