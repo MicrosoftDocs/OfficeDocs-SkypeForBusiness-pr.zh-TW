@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的團隊使用者與 Skype (消費者) 使用者之間的互通性功能。
 localization_priority: Normal
-ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
-ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
+ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651202"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766897"
 ---
 # <a name="teams-and-skype-interoperability"></a>團隊與 Skype 互通性
 
@@ -45,7 +45,7 @@ Skype 使用者可以選擇不顯示在搜尋結果中。 在這種情況下，�
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 使用者與團隊使用者開始聊天或通話
 
-Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團隊使用者交談。 小組使用者會收到來自 Skype 使用者的新訊息通知。 小組使用者必須先接受郵件，才能回復。
+Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團隊使用者交談。 小組使用者會收到通知，告知他們有來自 Skype 使用者的新訊息，而且必須先接受郵件，才能回復。
 
 - 如果團隊使用者選取 [ **接受**]，就會接受該交談，且兩個使用者都可以相互聊天和呼叫對方。
 - 如果團隊使用者選取 [ **封鎖**]，就會封鎖交談，隨後就會封鎖該 Skype 使用者的後續訊息和通話。

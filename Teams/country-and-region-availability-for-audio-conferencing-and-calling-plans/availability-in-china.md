@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務。
-ms.openlocfilehash: d0629cfe16e5e917a358c55d0b6ec6b78bfbcf29
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230571"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766887"
 ---
 # <a name="availability-in-china"></a>中國的可用性
 
@@ -42,17 +42,17 @@ ms.locfileid: "44230571"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |否  <br/> |
+|音訊會議是否可供購買？  <br/> |是，供位於中國以外的使用者使用。 請與您的帳戶小組取得其他資訊。  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> | 非地理位置。 電話號碼未連結至特定的城市或位置。 <br/>  如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> |有空  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> | 是的，除了從中國購買服務的客戶以外。 對於購買中國服務的客戶，將停用撥出功能。   <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-| 自動語音應答 <br/> |有空  <br/> |
-|通話佇列  <br/> |有空  <br/> |
+| 自動語音應答 <br/> |可用  <br/> |
+|通話佇列  <br/> |可用  <br/> |
 |語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
@@ -71,7 +71,7 @@ ms.locfileid: "44230571"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？  <br/> |首都  <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
-|是否提供免付費電話號碼？  <br/> |是（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|是否提供免付費電話號碼？  <br/> |是 ([要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) ，除了從中國購買服務的客戶以外。 購買中國服務的客戶不提供免付費電話號碼。 <br/> |
    
  如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
@@ -81,7 +81,6 @@ ms.locfileid: "44230571"
 |:-----|:-----|
 |可使用通訊點數嗎？  <br/> |否  <br/> |
    
-如果您想要設定通訊點數，請參閱[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

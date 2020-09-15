@@ -16,12 +16,12 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897802"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766907"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -36,8 +36,8 @@ ms.locfileid: "46897802"
 
 若要錄製小組使用者的會議，必須針對租使用者啟用 Microsoft Stream。 此外，會議召集人和啟動錄製的人員都需要符合下列必要條件：
 
-- 使用者擁有 Office 365 E1、E3、E5、A1、A3、A5、M365 Business Premium、M365 Business Standard 或 M365 Business Basic。
-- 使用者需要獲得 Microsoft Stream 的授權<sup>1</sup> 
+- 使用者擁有 Office 365 E1、E3、E5、A1、A3、A5、Microsoft 365 Business Premium、商務標準版或 Business Basic<sup>1</sup>
+- 使用者需要取得 Microsoft Stream<sup>2</sup>的授權 
 - 使用者擁有 Microsoft Stream 上傳影片的權限
 - 使用者已同意遵守由系統管理員設定 (如果有) 的公司方針
 - 使用者有足夠的 Microsoft Stream 儲存空間以儲存錄製檔案
@@ -45,7 +45,9 @@ ms.locfileid: "46897802"
 - 使用者在會議中不是匿名、來賓或同盟使用者
 - 若要為使用者的會議啟用會議，指派給他們的小組會議原則必須將-AllowTranscription 設定設定為 true。
 
-必須授權<sup>1</sup>使用者將會議上傳/下載到 Microsoft Stream，但他們不需要有錄製會議的授權。 如果您想要封鎖使用者不讓他錄製 Microsoft Teams 會議，您必須授予一個將 AllowCloudRecording 設定為 $False 的 TeamsMeetingPolicy。
+<sup>1</sup> 截止2020年8月20日，對於有 A1 的使用者，會議錄製檔案的存取權會在21天后到期。 如需詳細資訊，請參閱 [上傳 Microsoft 團隊會議錄製以進行串流](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording)。
+
+<sup>2</sup> 使用者必須有授權，才能將會議上傳/下載到 Microsoft Stream，但他們不需要錄製會議的授權。 如果您想要封鎖使用者不讓他錄製 Microsoft Teams 會議，您必須授予一個將 AllowCloudRecording 設定為 $False 的 TeamsMeetingPolicy。
 
 > [!IMPORTANT] 
 > 如果您只想讓使用者錄影及下載錄製內容，則使用者不必獲派 Microsoft Stream 授權。 這會代表錄製不會儲存在 Microsoft Stream 中，而是儲存在 Azure 媒體服務 (的 AMS) 中，在刪除前會有21天的限制。 目前系統管理員並無法控制或管理此機制，包括加以刪除的能力。
@@ -126,7 +128,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 此設定控制在播放會議錄製期間是否可使用 [標題] 和 [操作模式] 功能。 如果您關閉此功能，則在播放會議錄製期間將無法使用 [ **搜尋** ] 和 [ **抄送** ] 選項。 開始錄製需要已開啟此設定的人員，才能讓錄製也包含操作。
 
-**請注意** ，目前只有將團隊中的語言設定為英文，且在會議中朗讀英文的使用者，才支援會議記錄會議。
+> [!NOTE]
+> 目前僅支援將小組中的語言設定為英文，且在會議中朗讀英文的使用者，才能使用該會議。 它們會與 Microsoft Stream 雲端儲存中的會議錄製一起儲存在一起。
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 
