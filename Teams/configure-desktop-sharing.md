@@ -17,17 +17,22 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
+ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581744"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47652468"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
 ============================================
 
-桌面共用可讓使用者在會議或聊天時顯示螢幕畫面或應用程式。 系統管理員可以在 Microsoft Teams 中設定螢幕畫面共用，讓使用者共用整個畫面、應用程式或檔案。 您可以讓使用者授與或要求控制權、允許 PowerPoint 共用、新增白板，並允許共用筆記。 您也可以設定匿名或外部使用者是否可以要求共用畫面的控制權。
+桌面共用可讓使用者在會議或聊天時顯示螢幕畫面或應用程式。 系統管理員可以在 Microsoft Teams 中設定螢幕畫面共用，讓使用者共用整個畫面、應用程式或檔案。 您可以讓使用者授與或要求控制權、允許 PowerPoint 共用、新增白板，並允許共用筆記。 您也可以設定匿名或外部使用者是否可以要求共用畫面的控制權。 團隊會議中的外部參與者可以分類如下：
+
+- 匿名使用者
+- 來賓使用者
+- B2B 使用者
+- 聯盟使用者
 
 若要設定螢幕畫面共用，請建立新的會議原則，然後將它指派給您要管理的使用者。
 
@@ -35,11 +40,11 @@ ms.locfileid: "46581744"
 
 1. 選取 [會議]**** > [會議原則]****。
 
-    ![顯示已選取會議原則的螢幕擷取畫面](media/configure-desktop-sharing-image1.png)
+    ![已選取會議原則](media/configure-desktop-sharing-image1.png)
 
-2. 在 [會議原則]**** 頁面上，選取 [新原則]****。
+2. 在 [ **會議原則** ] 頁面上，選取 [ **新增**]。
 
-    ![顯示已選取會議原則訊息的螢幕擷取畫面](media/configure-desktop-sharing-image2.png)
+    ![會議原則訊息](media/addMeeting.png)
 
 3. 為您的原則指定唯一的標題，然後輸入簡短的描述。
 
@@ -49,12 +54,15 @@ ms.locfileid: "46581744"
    - **單一應用程式**：讓使用者將螢幕畫面分享限制在單一使用中的應用程式。
    - **已停用**：關閉螢幕畫面分享。
 
-    ![顯示共用模式選項的螢幕擷取畫面](media/configure-desktop-sharing-image3.png)
+    ![共用模式選項](media/configure-desktop-sharing-image3.png)
+
+  > [!Note]
+  > 您不需要啟用呼叫原則，就能讓使用者從聊天中使用螢幕共用。 不過，他們的音訊會關閉，直到他們自行取消靜音。 此外，共用螢幕的使用者也可以按一下 [ **新增音訊** ] 來啟用音訊。 如果通話原則已停用，使用者將無法從聊天會話將音訊新增至螢幕共用。
 
 5. 開啟或關閉下列設定：
 
     - [**允許參與者授與要求控制**]：讓小組成員可以授與要求控制簡報者的桌面或應用程式。
-    - **允許外部參與者授與要求控制權**（這是每個使用者的原則）。 組織是否有此組使用者無論會議召集人已設定的內容，都不會控制外部參與者所能執行的動作。 這個參數會控制外部參與者是否可以受到控制或要求對共用者的螢幕進行控制，這要視共用資源在組織的會議原則中所設定的內容而定。
+    - **允許外部參與者授與要求控制權** （這是每個使用者的原則）。 組織是否有此組使用者無論會議召集人已設定的內容，都不會控制外部參與者所能執行的動作。 這個參數會控制外部參與者是否可以受到控制或要求對共用者的螢幕進行控制，這要視共用資源在組織的會議原則中所設定的內容而定。
     - **允許 PowerPoint 分享**：讓使用者建立可讓 PowerPoint 簡報上傳並共用的會議。
     - **允許使用白板**：讓使用者共用白板。
     - **允許共用記事**：讓使用者記共用記事。
@@ -67,6 +75,7 @@ ms.locfileid: "46581744"
 
 - 描述
 - ScreenSharingMode
+- AllowPrivateCalling
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
 - AllowPowerPointSharing
@@ -74,4 +83,3 @@ ms.locfileid: "46581744"
 - AllowSharedNotes
 
 [深入了解如何使用 csTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) (英文)。
-

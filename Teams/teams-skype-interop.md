@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的團隊使用者與 Skype (消費者) 使用者之間的互通性功能。
 localization_priority: Normal
-ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
+ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395362"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47651202"
 ---
 # <a name="teams-and-skype-interoperability"></a>團隊與 Skype 互通性
 
@@ -28,7 +28,10 @@ ms.locfileid: "47395362"
 - 團隊使用者可以使用 Skype 使用者搜尋並開始一對一的純文字交談或音訊/視頻通話。
 - Skype 使用者可以搜尋並開始與小組使用者進行一對一的單一文字交談或音訊/視頻通話。
 
-此功能可在桌上型電腦、web 版和行動裝置 (Android 和 iOS 上使用，以供團隊和 Skype) 用戶端使用。 為了獲得最佳體驗，我們建議使用 Skype 版本8.58 及更新版本。
+您可以在桌上型電腦、web 版和行動裝置 (Android 和 iOS 上使用這些功能，以供團隊和 Skype) 用戶端使用。 為了獲得最佳體驗，我們建議使用 Skype 版本8.58 及更新版本。
+
+> [!NOTE]
+> 在 GCC、GCC 高或 DOD 部署或私人雲端環境中，本文中討論的小組和 Skype 交互操作功能無法使用。
 
 ## <a name="chat-and-calling-experience"></a>聊天和通話體驗
 
@@ -42,7 +45,7 @@ Skype 使用者可以選擇不顯示在搜尋結果中。 在這種情況下，�
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 使用者與團隊使用者開始聊天或通話
 
-Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團隊使用者交談。 小組使用者會收到通知，告知他們有來自 Skype 使用者的新訊息，且必須先接受郵件，才能回復。
+Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團隊使用者交談。 小組使用者會收到來自 Skype 使用者的新訊息通知。 小組使用者必須先接受郵件，才能回復。
 
 - 如果團隊使用者選取 [ **接受**]，就會接受該交談，且兩個使用者都可以相互聊天和呼叫對方。
 - 如果團隊使用者選取 [ **封鎖**]，就會封鎖交談，隨後就會封鎖該 Skype 使用者的後續訊息和通話。
@@ -53,7 +56,7 @@ Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團�
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>小組使用者封鎖或解除封鎖 Skype 使用者
 
-在團隊使用者接受或封鎖來自 Skype 使用者的初始交談要求之後，他們就可以隨時選擇封鎖或解除封鎖該人員，不論是在交談中或在小組的隱私權設定中。 Skype 使用者不會知道他們已被封鎖。
+在團隊使用者接受或封鎖來自 Skype 使用者的初始交談要求之後，就可以隨時選擇封鎖或解除封鎖該人員。 他們可以在交談中或在小組中的隱私權設定中執行此動作。 Skype 使用者不會知道他們已被封鎖。
 
 已封鎖的 Skype 使用者以及其他人和公開交換的電話網絡 (PSTN) 小組使用者封鎖的電話號碼，會列在使用者的 [小組中的封鎖式連絡人] 清單中。
 
@@ -80,7 +83,7 @@ Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團�
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-搭配使用 [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與 ```EnablePublicCloudAccess``` 參數，以控制團隊使用者是否可與 Skype 使用者通訊。 設定參數以 ```true``` 允許團隊使用者與 Skype 使用者通訊。 請注意，您 ```EnablePublicCloudAudioVideoAccess``` 可以使用此參數來啟用/停用音訊/視頻通話。
+搭配使用 [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與 ```EnablePublicCloudAccess``` 參數，以控制團隊使用者是否可與 Skype 使用者通訊。 設定參數以 ```true``` 允許團隊使用者與 Skype 使用者通訊。 您可以使用 ```EnablePublicCloudAudioVideoAccess``` 參數來啟用/停用音訊/視頻通話。
 
 ## <a name="related-topics"></a>相關主題
 
