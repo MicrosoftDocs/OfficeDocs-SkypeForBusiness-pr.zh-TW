@@ -1,5 +1,5 @@
 ---
-title: 使用會議遷移服務（MMS）
+title: '使用會議遷移服務 (MMS) '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '[會議遷移服務（MMS）] 是在背景執行的服務，會自動更新使用者的商務用 Skype 和 Microsoft 團隊會議。 MMS 的設計目的是要讓使用者不需要執行會議遷移工具來更新其商務用 Skype 和 Microsoft 團隊會議。'
-ms.openlocfilehash: da04e98269f20eca327b30c2bd40f3e5181523d0
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+description: 會議遷移服務 (MMS) 是在背景執行的服務，會自動更新使用者的商務用 Skype 和 Microsoft 團隊會議。 MMS 的設計目的是要讓使用者不需要執行會議遷移工具來更新其商務用 Skype 和 Microsoft 團隊會議。
+ms.openlocfilehash: 9223102ef9c264fdafdb9f52ec74d6edb383f987
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012179"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47765345"
 ---
-# <a name="using-the-meeting-migration-service-mms"></a>使用會議遷移服務（MMS）
+# <a name="using-the-meeting-migration-service-mms"></a>使用會議遷移服務 (MMS) 
 
-會議遷移服務（MMS）是在下列案例中更新使用者現有會議的服務：
+在下列情況下，會議遷移服務 (MMS) 是一個更新使用者現有會議的服務：
 
-- 當使用者從內部部署到雲端時（無論是商務用 Skype Online 或 TeamsOnly）。
+- 當使用者從內部部署移至雲端時 (是使用商務用 Skype Online，還是要 TeamsOnly) 。
 - 當系統管理員變更使用者的 [音訊會議] 設定時 
 - 線上使用者只升級至小組，或 TeamsUpgradePolicy 中的使用者模式設定為 SfBwithTeamsCollabAndMeetings
 - 當您使用 PowerShell 時 
@@ -47,7 +47,7 @@ ms.locfileid: "45012179"
 - 使用者的信箱託管于 Exchange 內部部署中。
 - 使用者正從雲端遷移到商務用 Skype Server 內部部署。
 
-在這些情況下，最終使用者可以使用[會議遷移工具](https://www.microsoft.com/download/details.aspx?id=51659)來遷移自己的會議。
+在這些情況下，最終使用者可以使用 [會議遷移工具](https://www.microsoft.com/download/details.aspx?id=51659) 來遷移自己的會議。
 
 ## <a name="how-mms-works"></a>彩信的運作方式
 
@@ -65,10 +65,10 @@ ms.locfileid: "45012179"
 **附注**：
 
 - 當您遷移會議時，MMS 會取代線上會議資訊區塊中的所有專案。 因此，如果使用者已編輯該區塊，就會覆寫他們的變更。 他們在線上會議資訊區塊以外的會議詳細資料中所擁有的任何內容不會受到影響。 這代表附加到會議邀請的任何檔案仍會包含在其中。 
-- 只要按一下 Outlook 網頁版中的 [**新增 skype 會議**] 按鈕，或使用 Outlook 的 skype 會議增益集，就能遷移已排程的商務用 Skype 或 Microsoft 團隊會議。 如果使用者將 Skype online 會議資訊從一個會議複製並貼到新的會議中，新的會議將無法更新，因為原始服務中沒有會議。
-- 已建立或附加至會議的會議內容（白板、投票等）不會在 MMS 執行後保留。 如果您的會議召集人已提前將內容附加到會議，則在 MMS 執行之後，就必須重新建立內容。
+- 只要按一下 Outlook 網頁版中的 [ **新增 skype 會議** ] 按鈕，或使用 Outlook 的 skype 會議增益集，就能遷移已排程的商務用 Skype 或 Microsoft 團隊會議。 如果使用者將 Skype online 會議資訊從一個會議複製並貼到新的會議中，新的會議將無法更新，因為原始服務中沒有會議。
+- 已建立或附加至會議的會議內容 (白板、投票等) 在 MMS 執行後將無法保留。 如果您的會議召集人已提前將內容附加到會議，則在 MMS 執行之後，就必須重新建立內容。
 - [行事曆] 專案中的共用會議筆記連結以及來自 Skype 會議的連結也會覆寫。 請注意，儲存在 OneNote 中的實際會議筆記仍會保留在其中;只會覆蓋共用筆記的連結。
-- 超過250個出席者（包括召集人）的會議將不會被遷移。
+- 出席者數超過250的會議 (包括召集人) 不會被遷移。
 - 邀請內文中的部分 UNICODE 字元可能會不正確地更新為下列其中一個特殊字元：ï、¿、1/2。
 
 ## <a name="triggering-mms-for-a-user"></a>觸發彩信給使用者
@@ -77,12 +77,12 @@ ms.locfileid: "45012179"
 
 - 當使用者從內部部署遷移到雲端時
 - 當系統管理員變更使用者的 [音訊會議] 設定時 
-- 當 TeamsUpgradePolicy 中的使用者模式設定為 TeamsOnly 或 SfBWithTeamsCollabAndMeetings 時（使用 Powershell 或團隊管理入口網站）
+- 使用 Powershell 或團隊管理入口網站，將 TeamsUpgradePolicy 中的使用者模式設定為 TeamsOnly 或 SfBWithTeamsCollabAndMeetings () 
 - 當您使用 PowerShell Cmdlet 時，啟動-CsExMeetingMigration
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>當您將內部部署使用者移至雲端時更新會議
 
-這是最常見的情況，在這種情況下，MMS 可協助為您的使用者建立更順暢的轉場 若沒有會議遷移，當使用者在線上移動時，在商務用 Skype Server 內部網路中由使用者組織的現有會議將無法再運作。 因此，當您使用內部部署系統管理工具（ `Move-CsUser` 或 [系統管理] 控制台）將使用者移至雲端時，現有的會議會自動移至雲端，如下所示：
+這是最常見的情況，在這種情況下，MMS 可協助為您的使用者建立更順暢的轉場 若沒有會議遷移，當使用者在線上移動時，在商務用 Skype Server 內部網路中由使用者組織的現有會議將無法再運作。 因此，當您使用內部部署系統管理工具 (`Move-CsUser` 或 [系統管理] 面板) 將使用者移至雲端時，現有的會議會自動移至雲端，如下所示：
 
 - 如果指定了 [ `MoveToTeams` 切換] `Move-CsUser` ，會議會直接遷移至 [小組]，而使用者將處於 TeamsOnly 模式。 使用此開關需要使用商務用 Skype Server 2015 搭配 CU8 或更新版本。 這些使用者仍然可以使用商務用 Skype 用戶端或 Skype 會議應用程式，加入他們可能受邀的任何商務用 Skype 會議。
 - 否則，會議會遷移到商務用 Skype Online。
@@ -95,21 +95,21 @@ ms.locfileid: "45012179"
 在下列情況下，MMS 會更新現有的商務用 Skype 和 Microsoft 團隊會議，以新增、移除或修改撥入座標：
 
 - 當您指派或移除 Microsoft 音訊會議服務授權給使用者時，該使用者並未啟用協力廠商音訊會議提供者。
-- 當您將使用者的音訊會議提供者從任何其他提供者變更為 Microsoft 時，前提是該使用者已獲指派 Microsoft 音訊會議授權。 如需詳細資訊，請參閱[將 Microsoft 指派為音訊會議提供者](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另請注意，對於協力廠商音訊會議提供者 [ACP] 的支援，在2019年4月1日（如前所述）[推出](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)。
+- 當您將使用者的音訊會議提供者從任何其他提供者變更為 Microsoft 時，前提是該使用者已獲指派 Microsoft 音訊會議授權。 如需詳細資訊，請參閱 [將 Microsoft 指派為音訊會議提供者](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另請注意，對於協力廠商音訊會議提供者 [ACP] 的支援，在2019年4月1日（如前所述） [推出](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)。
 - 當您啟用或停用使用者的音訊會議時。
 - 變更或重設已設定為使用公用會議之使用者的會議 ID。
 - 當您將使用者移至新的音訊會議橋接器時。
-- 從音訊會議橋中取消指派電話號碼時。 這是一個需要額外步驟的複雜情況。 如需詳細資訊，請參閱[在音訊會議橋中變更電話號碼](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+- 從音訊會議橋中取消指派電話號碼時。 這是一個需要額外步驟的複雜情況。 如需詳細資訊，請參閱 [在音訊會議橋中變更電話號碼](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 並非對使用者的音訊會議設定所做的所有變更都會觸發 MMS。 具體說來，下列兩項變更不會導致 MMS 更新會議：
 
-- 當您變更會議召集人的 SIP 位址時（即其 SIP 使用者名稱或 SIP 網域）
+- 當您變更會議召集人的 SIP 位址時 (其 SIP 使用者名稱或 SIP 網域) 
 - 當您使用命令變更組織的會議 URL 時 `Update-CsTenantMeetingUrl` 。
 
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>指派 TeamsUpgradePolicy 時更新會議
 
-根據預設，當使用者被授與或的情況下，系統會自動觸發會議遷移 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode= SfBWithTeamsCollabAndMeetings` 。 如果您不想要在授與授與會議中的任何一種模式時遷移會議，請指定 `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy` （如果使用 PowerShell）或取消核取在設定使用者的共存模式時（如果使用 [團隊管理員入口網站]）來遷移會議的方塊。
+根據預設，當使用者被授與或的情況下，系統會自動觸發會議遷移 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode= SfBWithTeamsCollabAndMeetings` 。 如果您不想要在授與任何模式時都遷移會議，請 `MigrateMeetingsToTeams $false` 在 (中指定 `Grant-CsTeamsUpgradePolicy` 是否要使用 PowerShell) 或取消核取在設定使用者的共存模式時，將會議設為 (（如果使用 [團隊管理員入口網站) ]）。
 
 另請注意下列事項：
 
@@ -127,7 +127,7 @@ ms.locfileid: "45012179"
 - 使用 [指定無論是否要 `TargetMeetingType Teams` 在商務用 Skype online 或內部部署] 中託管會議，無論是否需要進行任何音訊會議更新，都必須將任何現有的會議遷移至團隊。 
 
 **SourceMeetingType:**
-- [使用] `SourceMeetingType SfB` 表示只需要更新商務用 Skype 會議（無論是內部部署或線上）。
+- 使用 `SourceMeetingType SfB` 指示只有商務用 Skype 會議 (是要更新內部部署或線上) 。
 - [使用] `SourceMeetingType Teams` 表示只應更新團隊會議。
 - 使用 `SourceMeetingType All` 指示必須更新商務用 Skype 會議和團隊會議。 這是 SourceMeetingType 的預設值。
     

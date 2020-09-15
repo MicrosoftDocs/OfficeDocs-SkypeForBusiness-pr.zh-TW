@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672874"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766857"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 ===========================================================
@@ -62,6 +62,11 @@ ms.locfileid: "46672874"
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>針對 Microsoft 團隊設定自動語音應答及呼叫佇列支援
 
 若要在 Microsoft 團隊中接收自動語音應答及呼叫佇列通話，您必須設定您的互通性原則和升級原則。 請參閱 [與商務用 Skype 搭配使用團隊之組織的遷移與互通性](migration-interop-guidance-for-teams-with-skype.md)。 如果您沒有設定自動語音應答及/或通話佇列，請參閱 [設定雲端自動](create-a-phone-system-auto-attendant.md) 語音應答及 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
+
+## <a name="known-issues"></a>已知問題
+
+當通話佇列代理程式在其行動裝置上接聽來電時，如果裝置已鎖定，通話可能會繼續保留。 使用者必須先解除鎖定裝置，然後接聽來電。
+
 
 ## <a name="related-topics"></a>相關主題
 
