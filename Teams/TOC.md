@@ -63,7 +63,8 @@
 
 ### 來賓存取
 #### [關於來賓存取](guest-access.md)
-#### [來賓如何加入小組](guest-joins.md)
+#### [來賓存取檢查清單](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+#### [來賓如何加入團隊](guest-joins.md)
 #### [來賓體驗像什麼](guest-experience.md)
 #### [在 Teams 中授權來賓存取](teams-dependencies.md)
 #### [在 Teams 中開啟或關閉來賓存取](set-up-guests.md)
@@ -773,6 +774,7 @@
 
 ## [Teams 的限制和規格](limits-specifications-teams.md)
 ## [Teams 中的資料位置](location-of-data-in-teams.md)
+## [資料收集方式](data-collection-practices.md)
 
 ## 準備好推出 Teams
 ### [針對 Teams 準備組織的網路](prepare-network.md)
