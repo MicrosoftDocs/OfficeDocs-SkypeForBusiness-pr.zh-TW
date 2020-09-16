@@ -7,7 +7,7 @@ Teams 完全支援以下網際網路瀏覽器，但通話和會議例外。 此�
 |Microsoft Edge、RS2 或更新版本     |完全支援，傳出共用<sup>4</sup> 除外         |完全支援，傳出共用除外         |
 |Microsoft Edge (Chromium 型) 最新版本加上兩個先前的版本     | 完全支援    |完全支援         |
 |Google Chrome 最新版本加上兩個先前的版本       |完全支援 |完全支援 <br> <br>在沒有任何外掛程式或擴充的 Chrome 版本 72 或更新版本上支援共用。       |
-|Safari 13+     |不支援一對一通話。 支援全音訊的群組通話。<br><br>視訊：不支援<br><br>共用：僅限傳入共用 (非傳出)         |支援完整音訊的會議。<br><br>視訊：不支援<br><br>共用：僅限傳入共用 (非傳出)     |
+|Safari 13+     |不支援一對一通話。 支援全音訊的群組通話。<br><br>視訊：僅限傳入<br><br>共用：僅限傳入共用 (非傳出)         |支援完整音訊的會議。<br><br>視訊：僅限傳入<br><br>共用：僅限傳入共用 (非傳出)     |
 |Firefox 最新版本加上兩個先前的版本     |不支援         |只在會議包含 PSTN 座標時，才支援會議。 若要在沒有 PSTN 座標的 Firefox 上出席會議，使用者必須下載 Teams 桌面用戶端。<br><br>視訊：不支援<br><br>共用：僅限傳入共用 (非傳出)     |
 |Safari 13 之前的版本     | 不支援        |只在會議包含 PSTN 座標時，才支援會議。 若要在沒有 PSTN 座標的 Safari 上出席會議，使用者必須下載 Teams 桌面用戶端。<br><br>視訊：不支援<br><br>共用：僅限傳入共用 (非傳出)<br><br>在預覽版的版本高於 11.1 時，Safari 就會啟用。 但是在預覽版中，Safari 的智慧型追蹤防護有[已知問題](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df)。      |
 

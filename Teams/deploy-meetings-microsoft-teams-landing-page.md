@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5dea8846815f052099193f03f4f90aaf951de6
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583962"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814762"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -43,6 +43,9 @@ ms.locfileid: "46583962"
 *2020 年 4 月新增功能*：會議召集人可以在會議期間按一下會議控制項中的 [結束會議]****，結束 Teams 中所有會議參與者的會議。  
 
 *2019 年 11 月中的新功能*：您現在可以[使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams (預覽) 會引導您完成 Teams 的推出，包括會議和召集會議。 在您於 Teams 中成功推出會議和召集會議之前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。
+
+ > [!Note]
+ > 如需詳細資料，請參閱[依平台的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>會議和召集會議部署決策
 
