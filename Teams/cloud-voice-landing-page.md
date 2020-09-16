@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 深入瞭解雲端語音功能，並瞭解您將面臨的必要部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5a05ba72f52d4131229b28072a615bf12f6b5930
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814873"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820497"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>語音電話系統和 PSTN 連接選項
 
@@ -38,7 +38,7 @@ ms.locfileid: "47814873"
 我們建議所有組織都在核心決策中運作，然後，如果您的組織有其他需求，請參閱下列資料。
 
  > [!Note]
- > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
+> 如需不同平臺上的電話系統功能的詳細資訊，請參閱 [依平臺的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="learn-more-about-voice"></a>深入瞭解語音
 

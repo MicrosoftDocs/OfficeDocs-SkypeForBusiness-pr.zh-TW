@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a944616fef0c3fd9821486a41025adf5f0fdbcc
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814572"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820517"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -31,7 +31,7 @@ ms.locfileid: "47814572"
 Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 目前狀態。
 
  > [!Note]
- > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
+ > 如需不同平臺上團隊使用者設定檔的詳細資訊，請參閱 [依平臺的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="presence-states-in-teams"></a>Teams 中的目前狀態
 

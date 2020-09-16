@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 至 Microsoft Phone System。
-ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359399"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820637"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -230,7 +230,7 @@ Fqdn （sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.
 - 52.114.16.74
 - 52.114.20.29
 
-您必須在防火牆中開啟所有這些 IP 位址的埠，以允許傳入及傳出流量進出位址來傳送信號。  如果您的防火牆支援 DNS 名稱，FQDN sip-all.pstnhub.microsoft.com 會解析為所有這些 IP 位址。 
+您必須在防火牆中開啟所有這些 IP 位址的埠，以允許傳入及傳出流量進出位址來傳送信號。  如果您的防火牆支援 DNS 名稱，FQDN **sip-all.pstnhub.microsoft.com** 會解析為所有這些 IP 位址。 
 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 將解析成下列其中一個 IP 位址
 - 52.127.88.59
 - 52.127.92.64
 
-您必須在防火牆中開啟所有這些 IP 位址的埠，以允許傳入及傳出流量進出位址來傳送信號。
+您必須在防火牆中開啟所有這些 IP 位址的埠，以允許傳入及傳出流量進出位址來傳送信號。 如果您的防火牆支援 DNS 名稱，FQDN **sip-all.pstnhub.gov.teams.microsoft.us** 會解析為所有這些 IP 位址。 此 FQDN 也可以作為入站通話分類的同盟 FQDN 使用。
 
 ## <a name="sip-signaling-ports"></a>SIP 信號：埠
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc59616cb882897447dac35f33cf197e6e8fe143
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814372"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820607"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "47814372"
 若要確保最佳的使用者體驗，請遵循本文中的指導方針。
 
  > [!Note]
- > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
+> 如需有關不同平臺上的團隊 VDI 的詳細資訊，請參閱 [依平臺的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="teams-on-vdi-components"></a>VDI 元件上的小組
 

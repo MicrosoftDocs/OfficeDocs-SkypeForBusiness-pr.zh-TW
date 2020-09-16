@@ -17,12 +17,12 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938502"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820527"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -41,7 +41,7 @@ ms.locfileid: "44938502"
 即時活動原則是用來控制組織中的哪些人員可以舉辦即時活動，以及在他們所建立活動中可用的功能。 您可以使用預設原則或建立一或多個自訂即時活動原則。 建立自訂原則之後，請將它指派給組織中一個或一組使用者。
 
 > [!NOTE]
-> 除非您建立並指派自訂原則，否則貴組織中的使用者將會取得全域（組織範圍預設值）原則。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
+> 除非您建立並指派自訂原則，否則貴組織中的使用者將會取得全域 (組織範圍的預設) 原則。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>建立或編輯即時活動原則
 
@@ -79,7 +79,7 @@ ms.locfileid: "44938502"
 
 1. 為組織中的使用者啟用 Microsoft Stream。 資料流程是以合格的 Microsoft 365 或 Office 365 訂閱或獨立服務的形式提供。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](https://docs.microsoft.com/stream/license-overview)。
 
-      進一步瞭解您可以如何[指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，讓使用者可以存取資料流程。 確保未針對使用者封鎖 Stream，如[本文章](https://docs.microsoft.com/stream/disable-user-organization)所定義。
+      進一步瞭解您可以如何 [指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者可以存取資料流程。 確保未針對使用者封鎖 Stream，如[本文章](https://docs.microsoft.com/stream/disable-user-organization)所定義。
 
 2. 確保使用者擁有在 Stream 中建立即時活動的權限。 根據預設，系統管理員可以使用外部應用程式或裝置來建立活動。 Stream 系統管理員可以在 Stream 中[為額外的使用者啟用即時活動建立](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)。  
 
@@ -98,6 +98,8 @@ ms.locfileid: "44938502"
 - **Kollective** 是一項雲端式智慧型對等分送平台，其會運用您現有的網路基礎結構，以更多種方式 (即時串流視訊、隨選視訊、軟體更新、安全性修補程式等)、更快速可靠地傳遞內容，並使用更少的頻寬。 我們的安全平台受到世界上最大的金融機構信任，且不需要額外的硬體，且設定和維護極為簡單。 [深入了解](https://kollective.com/microsoft-pilot/)。
  
 - **Ramp OmniCache** 提供下一代的網路發佈方式，並確保在全球 WAN 上順暢地傳送視訊內容，協助活動製作人將網路頻寬最佳化，並支援成功的即時活動廣播和隨選串流處理。 針對在 Teams 中所產生即時活動的 Ramp OmniCache 支援近期推出。 [深入了解](https://rampecdn.com)。 
+
+- **Riverbed**是網路優化中的業界標準，延伸到 Microsoft 團隊和串流的加速解決方案。  現在 Microsoft 365 客戶可以滿懷信心地加速365流量，包括小組和資料流程以及大量的其他主要企業 SaaS 服務，以提高員工的工作效率。 您可以透過 Riverbed 的世界一流支援及持續投資，輕鬆設定來啟用團隊和資料流程加速。
  
 > [!NOTE] 
 > 您選擇的 SDN 或 eCDN 解決方案受限於選取的**協力廠商提供者的服務條款和隱私權原則**，其將控管您對提供者解決方案的使用方式。 您對提供者解決方案的使用方式將不受限於 Microsoft 大量授權條款或線上服務條款。 如果您不同意**協力廠商提供者的條款**，則不要在 Teams 中啟用該解決方案。 

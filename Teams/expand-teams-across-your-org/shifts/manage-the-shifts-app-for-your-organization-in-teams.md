@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c41c4435877860a2193e6b50f45f714c8c85cb2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814732"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820467"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
@@ -39,8 +39,8 @@ Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保
 
 我們必須知道，倒班目前不支援來賓使用者。 這表示當您在小組中開啟來賓存取功能時，小組中的來賓不能加入或使用倒班排程。 
 
- > [!Note]
- > 如需詳細資訊，請參閱 [小組功能（依平臺](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) ）。
+> [!Note]
+> 如需在不同平臺上移動功能的詳細資訊，請參閱 [依平臺的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="availability-of-shifts"></a>倒班的可用性
 
