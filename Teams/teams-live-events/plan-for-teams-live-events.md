@@ -18,19 +18,19 @@ description: 在本文中，您將了解在 Microsoft Teams 中設定即時活�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efde7de344d03ae41ac577f4c44e3b72ee76a9f5
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 2258103e73b13a22965e0fbf7749d012e09ed485
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814302"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820487"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
 當您規劃 Teams 即時活動來舉辦貴組織大型會議時，必須先考量幾個因素，再開始進行設定。
 
  > [!Note]
- > 如需詳細資料，請參閱[依平台的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 如需有關不同平台上 Teams 即時活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>哪些人可以參加、建立及排定即時活動？
 
