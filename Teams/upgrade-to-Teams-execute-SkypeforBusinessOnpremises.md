@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: f88d3ee5fb4d953fb1516fc19d559d2ad9c5e36a
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666015"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940473"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從商務用 Skype 內部部署升級到團隊
 
@@ -50,7 +50,7 @@ ms.locfileid: "44666015"
 
 將您的使用者升級至小組所需的主要先決條件就是部署混合式連線性。
 
-如需詳細資訊，請參閱[在商務用 Skype Server 和商務用 Skype Online 之間部署混合式連接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+如需詳細資訊，請參閱 [在商務用 Skype Server 和商務用 Skype Online 之間部署混合式連接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步驟2：針對您的組織執行您選擇的升級歷程
 
@@ -58,14 +58,14 @@ ms.locfileid: "44666015"
 
 如需詳細資訊，請參閱：
 
-- [TeamsUpgradePolicy：管理遷移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+- [TeamsUpgradePolicy：管理遷移和共存](upgrade-to-teams-on-prem-tools.md)。
 
 - [將使用者從內部部署移至商務用 Skype Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
 
 ## <a name="phone-system-and-teams-upgrade"></a>手機系統與團隊升級
 
-從內部部署的電話系統過渡至團隊可讓您充分利用手機系統直通路由（「直接路由」），或是 microsoft 365 或 Office 365 的 Microsoft 提供的通話方案。
+從內部部署的電話系統過渡至團隊可讓您充分利用手機系統直通路由 ( 「直接路由」 ) 或 microsoft 提供的 Microsoft 365 或 Office 365 通話方案。
 
 如果您不是使用通話方案，您必須將企業語音部署轉場轉換為「手機系統」直接路由，成為團隊升級的一部分。
 
-如需詳細資訊，請參閱[手機系統直接路由的其他考慮](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。 如果您打算使用通話方案，請參閱我們關於將[您的電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)的指導方針。
+如需詳細資訊，請參閱 [手機系統直接路由的其他考慮](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。 如果您打算使用通話方案，請參閱我們關於將 [您的電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)的指導方針。

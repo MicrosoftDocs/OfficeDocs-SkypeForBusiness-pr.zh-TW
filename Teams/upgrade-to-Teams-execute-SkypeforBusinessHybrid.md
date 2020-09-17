@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2866ae5bdaf38c0269efda13beed98982a057a4d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 72786dc2ef5cefe7c3c87c5a376cc01d93a2c22c
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666035"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940513"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>從商務用 Skype 混合式部署升級至團隊
 
@@ -41,24 +41,24 @@ ms.locfileid: "44666035"
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 - [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
 
-如果您已部署商務用 Skype 或 Microsoft Lync 內部部署，且已在與您的 Microsoft 365 或 Office 365 組織進行混合式部署中進行設定，且您的組織想要使用多個共存模式（或全式），將其升級至團隊，請遵循本文中的指導方針。 針對升級歷程，您必須將使用者移至商務用 Skype Online （如果尚未在線上），然後指派適當的共存與升級模式。
+如果您已部署商務用 Skype 或 Microsoft Lync 內部部署，且已在與您的 Microsoft 365 或 Office 365 組織進行混合式部署中進行設定，且您的組織想要使用多個共存模式（或全式），將其升級至團隊，請遵循本文中的指導方針。 針對升級歷程，您必須將使用者移至商務用 Skype Online (（如果尚未在) 線上進行），然後再指派適當的共存與升級模式。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 ## <a name="step-1-move-users-to-skype-for-business-online"></a>步驟1：將使用者移至商務用 Skype Online
 
-此步驟適用于目前駐留內部部署的使用者。 如需將這些使用者移至商務用 Skype Online 的詳細資訊，請參閱[將使用者從內部部署移至商務用 Skype online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
+此步驟適用于目前駐留內部部署的使用者。 如需將這些使用者移至商務用 Skype Online 的詳細資訊，請參閱 [將使用者從內部部署移至商務用 Skype online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>步驟2：指派共存與升級模式
 
-將使用者移至商務用 Skype Online 之後，您就可以根據貴組織所選擇的升級歷程，指派適當的共存模式。 如需詳細資訊，請參閱[設定您的共存與升級設定](https://aka.ms/SkypeToTeams-SetCoexistence)及[TeamsUpgradePolicy：管理移植與共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+將使用者移至商務用 Skype Online 之後，您就可以根據貴組織所選擇的升級歷程，指派適當的共存模式。 如需詳細資訊，請參閱 [設定您的共存與升級設定](https://aka.ms/SkypeToTeams-SetCoexistence) 及 [TeamsUpgradePolicy：管理移植與共存](upgrade-to-teams-on-prem-tools.md)。
 
 > [!NOTE]
-> 在商務用 Skype Server 2019 以及未來的商務用 skype Server 2015 累積更新中，您將能夠執行步驟1（將使用者移至商務用 Skype Online），並在單一步驟中執行步驟2（升級使用者至小組）。 在發行商務用 Skype Server 2019 之後，將會提供更多相關資訊。
+> 在商務用 Skype Server 2019 以及未來的商務用 skype Server 2015 累積更新中，您就可以執行步驟 1 (將使用者移至商務用 Skype Online) 並步驟 2 (將使用者升級至團隊) 一步。 在發行商務用 Skype Server 2019 之後，將會提供更多相關資訊。
 
 ## <a name="phone-system-and-teams-upgrade"></a>手機系統與團隊升級
 
-如果您要將商務用 Skype 混合式部署轉換為含有通話方案的電話系統，Microsoft 將是您的公用交換電話網絡（PSTN）提供者，並假設您已完成電話號碼移植：將您的使用者升級至團隊會自動將入站 PSTN 通話轉場給小組。
+如果您要將商務用 Skype 混合式部署轉換為含有通話方案的電話系統，Microsoft 將是您的公開交換電話網絡 (PSTN) 提供者—並假設您已完成電話號碼移植，將您的使用者升級至團隊後，就會自動將入站 PSTN 通話轉場給小組。
 
-如果通話方案無法使用，或您想要使用現有的 PSTN 連線提供者，您必須將企業語音部署（或使用您現有內部部署或雲端連接器版本的混合式語音部署）轉換為 Microsoft 手機系統 Direct 路由。 若要將您的使用者升級至小組，請參閱[手機系統直接路由的其他考慮](2-envision-make-my-service-decisions-direct-routing.md)。
+如果通話方案無法使用，或您想要使用現有的 PSTN 連線提供者，您必須將企業語音部署（或使用您現有內部部署或雲端連接器版本的混合式語音部署）轉換為 Microsoft 手機系統 Direct 路由。 若要將您的使用者升級至小組，請參閱 [手機系統直接路由的其他考慮](2-envision-make-my-service-decisions-direct-routing.md)。

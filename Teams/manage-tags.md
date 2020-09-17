@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中管理組織中使用標記的方式。
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324010"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940523"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 團隊中的標記
 
@@ -94,11 +94,11 @@ Microsoft 團隊中的標記可讓使用者快速且輕鬆地與團隊中的部�
 
 ### <a name="create-and-assign-custom-tags"></a>建立及指派自訂標記
 
-若要建立及指派自訂標籤，請選取應用程式左側的 [ **小組** ]，然後在清單中尋找您的小組。 選取 [ **更多選項**]，然後選擇 [ **管理**標籤]。 您可以在這裡建立標籤，並將其指派給小組中的人員。
+若要建立及指派自訂標籤，請選取應用程式左側的 [ **小組** ]，然後在清單中尋找您的小組。 選取 [ **̇̇̇其他選項**]，然後選擇 [ **管理**標籤]。 您可以在這裡建立標籤，並將其指派給小組中的人員。
 
 ![如何在團隊用戶端套用標記的螢幕擷取畫面 ](media/manage-tags-teams.png)
 
-若要刪除標記，請移除與標籤相關聯的所有小組成員。
+若要刪除標籤，請選取標籤旁的 [ **̇̇̇其他選項** ]，然後選取 [ **刪除標記**]。
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>在即將推出的情況中設定標記 () 
 

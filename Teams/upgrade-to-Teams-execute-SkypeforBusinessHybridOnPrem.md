@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1981640ab06d00e7895e11c0e15adf7555577908
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 0b63473dcb07c5fcac49902ced6d11777217a0c5
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648604"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940593"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>從商務用 Skype 內部部署升級至團隊
 
@@ -51,7 +51,7 @@ ms.locfileid: "46648604"
 
 將內部部署使用者升級至團隊的主要必要，就是針對您的商務用 Skype Server 內部部署設定混合式連線性。 
 
-首先，請閱讀 [規劃混合式連接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)，然後依照[設定混合式連接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)中所述的工作。
+首先，請閱讀 [規劃混合式連接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) ，然後依照 [設定混合式連接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)中所述的工作。
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>步驟2：設定 [過渡] 共存模式 (選用]) 
@@ -71,11 +71,11 @@ ms.locfileid: "46648604"
 
 最後，您會想要將使用者移至 TeamsOnly 模式。 根據您的內部部署環境，這可能會涉及一兩個步驟。  
 
-如需詳細資訊，請參閱 [在內部部署和雲端之間移動使用者](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)，以及[將使用者從內部部署移至團隊](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)。 
+如需詳細資訊，請參閱 [在內部部署和雲端之間移動使用者](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) ，以及 [將使用者從內部部署移至團隊](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)。 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>步驟4：停用混合式完成您到雲端的遷移
 
-將所有使用者從內部部署移至雲端之後，您就可以停止使用內部部署商務用 Skype 部署。 如需詳細資訊，請參閱[停用混合式以完成到雲端的遷移](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。
+將所有使用者從內部部署移至雲端之後，您就可以停止使用內部部署商務用 Skype 部署。 如需詳細資訊，請參閱 [停用混合式以完成到雲端的遷移](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。
 
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>電話系統和 PSTN 連線選項
@@ -86,6 +86,6 @@ ms.locfileid: "46648604"
 
 考慮公用交換電話網絡 (PSTN) 連線選項時，從商務用 Skype 開始移至 TeamsOnly 模式時，有兩種可能的案例：
 
-- 在商務用 Skype 內部部署中使用企業語音的使用者，他們將會移至線上並使用 Microsoft 通話方案。 將此使用者遷移至小組需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將該使用者電話號碼的埠與) 的埠進行協調，) 從可用的地區指派新的訂閱者號碼。  如需詳細資訊，請參閱[從商務用 Skype 伺服器內部部署到 Microsoft 通話方案](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)。
+- 在商務用 Skype 內部部署中使用企業語音的使用者，他們將會移至線上並使用 Microsoft 通話方案。 將此使用者遷移至小組需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將該使用者電話號碼的埠與) 的埠進行協調，) 從可用的地區指派新的訂閱者號碼。  如需詳細資訊，請參閱 [從商務用 Skype 伺服器內部部署到 Microsoft 通話方案](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)。
 
-- 在商務用 Skype 內部部署中使用企業語音的使用者，他們將會移至線上並保留內部部署 PSTN 連線。 將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將使用者的遷移轉移至直接傳送路線。 如需詳細資訊，請參閱[從商務用 Skype 伺服器（含企業語音）到直接路由](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)。
+- 在商務用 Skype 內部部署中使用企業語音的使用者，他們將會移至線上並保留內部部署 PSTN 連線。 將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將使用者的遷移轉移至直接傳送路線。 如需詳細資訊，請參閱 [從商務用 Skype 伺服器（含企業語音）到直接路由](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)。

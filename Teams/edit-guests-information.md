@@ -18,16 +18,33 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e36c23c9c462a70a42b92046b5f7d91c9f8c49f9
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6add221744234d8169b7b602d3fb46dff91a093
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656074"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950829"
 ---
-<a name="edit-guest-user-information"></a>編輯來賓使用者資訊
-===========================
+# <a name="edit-guest-user-information"></a>編輯來賓使用者資訊
 
-若要編輯來賓帳戶 (例如顯示名稱或設定檔相片) ，請移至您的 Azure Active Directory 入口網站。 如需詳細資訊，請參閱[瞭解身分識別與 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)。
+您可以從 Microsoft 365 系統管理中心或 Azure Directory 入口網站編輯來賓資訊。
 
-您目前無法從 Microsoft 團隊系統管理中心、Microsoft 365 管理中心或 Exchange 系統管理中心編輯來賓資訊。
+## <a name="guest-users-in-the-microsoft-365-admin"></a>Microsoft 365 系統管理員中的來賓使用者
+
+1. 若要從 Microsoft 365 系統管理中心編輯來賓資訊，請選取 [**使用者**  >  **來賓使用者**]。
+
+   ![正在編輯的來賓使用者資訊](media/access-guest-user.png)
+
+2. 選取 [ **來賓使用者**] 中的使用者。
+
+3. 在 [來賓使用者資訊] 中，選取 [ **管理連絡人資訊**]。
+
+   ![管理連絡人資訊 ](media/guest-user-data1.png)
+
+4. 編輯您選擇的任何欄位（除了 [**管理連絡人資訊**] 中的 [**顯示名稱**] 以外），然後選取 [**儲存變更**]。
+
+   ![編輯來賓使用者連絡人資訊](media/manage-guest-contact.png)
+
+## <a name="guest-users-in-the-azure-active-directory"></a>Azure Active Directory 中的來賓使用者
+
+您可以選擇從 Azure Active Directory 入口網站編輯來賓使用者。 如需詳細資訊，請參閱 [瞭解身分識別與 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)。
