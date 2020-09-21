@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何封鎖特定使用者對 SharePoint 的存取權
-ms.openlocfilehash: 959de8c06e26d2d12c3a3698375b11d373392447
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955984"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135927"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>封鎖特定使用者對 SharePoint 的存取權
 
-在 SharePoint Online (SPO) 原則上套用任何條件式存取 (CA]) 也會套用至小組。 不過，某些組織想要封鎖 SharePoint 檔案的存取權 (上傳、下載、查看、編輯、建立) 但仍允許員工在未受管理的裝置上使用小組桌面、行動裝置和 web 用戶端。 在 CA 原則規則底下，封鎖 SPO 也會導致封鎖小組。 本文說明如何解決這項限制，並允許員工繼續使用團隊，同時完全封鎖對儲存在 SPO 中的檔案的存取權。
+在 Microsoft 365 的 SharePoint 中，將任何條件式存取 (CA) 原則，也會套用至小組。 不過，某些組織想要封鎖 SharePoint 檔案的存取權 (上傳、下載、查看、編輯、建立) 但仍允許員工在未受管理的裝置上使用小組桌面、行動裝置和 web 用戶端。 在 CA 原則規則底下，封鎖 Sharepoint 也會導致封鎖小組。 本文說明如何解決這項限制，並允許員工繼續使用團隊，同時完全封鎖對儲存在 SharePoint 中的檔案的存取權。
 
 > [!Note]
-> 受管理的裝置上的封鎖或限制存取依賴于 Azure AD 條件式存取原則。 瞭解 [AZURE AD 授權](https://azure.microsoft.com/pricing/details/active-directory/)。 如需 Azure AD 中的條件式存取權概覽，請參閱 [Azure Active Directory 中的條件式存取](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)。 如需建議的 SharePoint 訪問原則的相關資訊，請參閱 [保護 sharepoint 網站和檔案的原則建議](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)。 如果您在未受管理的裝置上限制存取，受管理的裝置上的使用者必須使用其中一個 [受支援的作業系統和瀏覽器混合](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)，否則它們也會有有限的存取權。
+> 受管理的裝置上的封鎖或限制存取依賴于 Azure AD 條件式存取原則。 瞭解 [AZURE AD 授權](https://azure.microsoft.com/pricing/details/active-directory/)。 如需 Azure AD 中的條件式存取權概覽，請參閱 [Azure Active Directory 中的條件式存取](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)。 如需建議的 SharePoint Online 存取原則的相關資訊，請參閱 [保護 sharepoint 網站和檔案的原則建議](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)。 如果您在未受管理的裝置上限制存取，受管理的裝置上的使用者必須使用其中一個 [受支援的作業系統和瀏覽器混合](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)，否則它們也會有有限的存取權。
 
 您可以封鎖或限制存取：
 
@@ -61,9 +61,9 @@ ms.locfileid: "47955984"
   > [!Note]
 > 設定此原則將會切斷您對 SharePoint 系統管理入口網站的存取權。 建議您設定排除原則，並選取全域和 SharePoint 系統管理員。
 
-6. 確認只選取 [SharePoint Online] 作為 [目標雲端] App
+6. 確認只選取 [SharePoint] 作為 [目標雲端] App
 
-    ![已選取 [Sharepoint online] 做為 [目標應用程式]。](media/no-sharepoint-access3.png)
+    ![已選取 [Sharepoint] 作為目標 app。](media/no-sharepoint-access3.png)
 
 7. 更新 **條件** 以包含桌面用戶端。
 
@@ -79,11 +79,11 @@ ms.locfileid: "47955984"
 
     ![已啟用應用程式強制執行限制。](media/no-sharepoint-access6.png)
 
-若要測試您的原則，您必須從任何用戶端（例如團隊桌面應用程式或 OneDrive 同步處理用戶端）登出，然後再次登入，以查看原則是否正常運作。 如果您的存取權遭到封鎖，就會在小組中看到一則訊息，指出該專案可能不存在。
+若要測試原則，您必須從任何用戶端（例如團隊桌面應用程式或商務用 OneDrive 同步處理用戶端）登出，然後再次登入，以查看原則是否正常運作。 如果您的存取權遭到封鎖，就會在小組中看到一則訊息，指出該專案可能不存在。
 
  ![[找不到專案] 訊息。](media/access-denied-sharepoint.png)
 
-在 Sharepoint 中，您會收到「拒絕存取」的訊息。 
+在 Sharepoint 中，您會收到「拒絕存取」的訊息。
 
 ![[拒絕存取] 訊息。](media/blocked-access-warning.png)
 

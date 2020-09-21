@@ -85,7 +85,6 @@
 ### [將原則指派給使用者](assign-policies.md)
 ### [在活動記錄中查看您的原則指派](activity-log.md)
 ### [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
-### [封鎖特定使用者對 Sharepoint 的存取](block-access-sharepoint.md)
 ### [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)
 ### [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
 ### [在 Teams 中意見反應原則](manage-feedback-policies-in-teams.md)
@@ -733,7 +732,12 @@
 #### [搜尋活動的稽核記錄檔](audit-log-events.md)
 ## 隱私權
 ### [隱私權和 Microsoft Teams](teams-privacy.md)
+### [資料收集方式](data-collection-practices.md)
 ### [Teams 中的資料位置](location-of-data-in-teams.md)
+### [封鎖特定使用者對 Sharepoint Online 的存取](block-access-sharepoint.md)
+### [原則控制概覽](policy-control-overview.md)
+### [行動裝置診斷資料](policy-control-diagnostic-data-mobile.md)
+### [桌面用戶端診斷資料](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # 監控、維護和疑難排解
@@ -780,8 +784,6 @@
 # 參考
 
 ## [Teams 的限制和規格](limits-specifications-teams.md)
-## [Teams 中的資料位置](location-of-data-in-teams.md)
-## [資料收集方式](data-collection-practices.md)
 
 ## 準備好推出 Teams
 ### [針對 Teams 準備組織的網路](prepare-network.md)
