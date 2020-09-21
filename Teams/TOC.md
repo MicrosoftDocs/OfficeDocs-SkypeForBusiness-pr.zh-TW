@@ -76,8 +76,6 @@
 #### [疑難排解來賓存取](troubleshoot-guest-access.md)
 ## [Microsoft Teams 的 Cortana](cortana-in-teams.md)
 
-
-
 ## 管理 Teams
 ### [系統管理員角色](using-admin-roles.md)
 ### [管理貴組織的 Teams 設定](enable-features-office-365.md)
@@ -87,6 +85,7 @@
 ### [將原則指派給使用者](assign-policies.md)
 ### [在活動記錄中查看您的原則指派](activity-log.md)
 ### [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
+### [封鎖特定使用者對 Sharepoint 的存取](block-access-sharepoint.md)
 ### [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)
 ### [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
 ### [在 Teams 中意見反應原則](manage-feedback-policies-in-teams.md)
@@ -719,6 +718,7 @@
 ### [使用新式驗證登入 Teams](sign-in-teams.md)
 ### [Teams 中的安全連結](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [AppLocker 應用程式控制原則](applocker-in-teams.md)
+### [封鎖對 Sharepoint 的存取](block-access-sharepoint.md)
 ## 合規性
 ### [資訊屏障](information-barriers-in-teams.md)
 ### [保留原則](retention-policies.md)

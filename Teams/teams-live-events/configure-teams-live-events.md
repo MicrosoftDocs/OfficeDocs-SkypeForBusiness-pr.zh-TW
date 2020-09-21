@@ -19,20 +19,20 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f118585b28edaea63b3416aa4671337ee436345
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820587"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962854"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件設定
 
-使用 [團隊即時事件] 設定來設定貴組織中的即時事件設定。 您可以設定支援 URL，並設定協力廠商的影片發佈提供者。 這些設定適用于您組織中建立的所有即時事件。 
+使用 [團隊即時事件] 設定來設定貴組織中的即時事件設定。 您可以設定支援 URL，並設定協力廠商的影片發佈提供者。 這些設定適用于您組織中建立的所有即時事件。
 
-您可以在 Microsoft 團隊系統管理中心輕鬆管理這些設定。 在左側導覽中，移至 [**會議**  >  **即時事件] 設定**。 
+您可以在 Microsoft 團隊系統管理中心輕鬆管理這些設定。 在左側導覽中，移至 [**會議**  >  **即時事件] 設定**。
 
-![小組 [即時事件] 設定的螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在 Microsoft 團隊系統管理中心設定的小組即時事件設定的螢幕擷取畫面") 
+![小組 [即時事件] 設定的螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在 Microsoft 團隊系統管理中心設定的小組即時事件設定的螢幕擷取畫面")
 
 ## <a name="set-up-event-support-url"></a>設定事件支援 URL
 
@@ -41,14 +41,16 @@ ms.locfileid: "47820587"
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
 1. 在左側導覽中，移至 [**會議**  >  **即時事件設定**]。
-2. 在 [ **支援 url**] 底下，輸入您組織的支援 url。 
+2. 在 [ **支援 url**] 底下，輸入您組織的支援 url。
 
     ![系統管理中心的即時事件支援 URL 設定](../media/teams-live-events-settings-supporturl.png "小組即時事件之支援 URL 設定的螢幕擷取畫面")
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
+
 執行下列動作：
+
 ```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
+Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
 如需詳細資訊，請參閱 [設定 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
 ## <a name="configure-a-third-party-video-distribution-provider"></a>設定協力廠商的影片發佈提供者 

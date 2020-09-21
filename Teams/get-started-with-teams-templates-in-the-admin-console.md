@@ -19,14 +19,14 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860794"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135867"
 ---
-# <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>在團隊管理主控台中開始使用團隊範本
+# <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理主控台中的團隊範本快速入門
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
@@ -71,22 +71,31 @@ ms.locfileid: "46860794"
 > [!NOTE]
 > 您可以複製 Microsoft 團隊中提供的預先定義基礎範本，但無法進行編輯。
 
-| 基底範本類型 | 此基礎範本隨附的屬性 |
-| ------------------ |----------------------------------------------------- |
-| 採納 Office 365 |  管道 <ul><li>一般</li> <li>公告</li> <li>擁護方角落</li> <li>小組表單</li></ul> 應用 <ul><li>Wiki</li>  <li>行事曆</li> |
-| 管理專案 | 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
-| 管理活動 | 管道 <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與 PR</li></ul> 應用<ul><li>Wiki</li><li>Web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|板載員工 | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li>|</ul>
-|組織技術支援中心| 管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li></ul> |
-| 在患者治療上共同作業 | 管道<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人員</li><li>訓練</li></ul> 應用 <ul><li>Wiki</li>|
-| 在全球危機或活動上共同作業 |管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li></ul>|
-|在銀行分支機搆內共同作業 |管道 <ul><li>一般<li>公告</li><li>Huddles</li><li>客戶會議</li><li>警告</li><li>技能開發</li><li>貸款處理</li><li>客戶投訴</li><li>Kudos</li><li>有趣的內容</li><li>合規性</li></ul>|
-|協調事件回應 |管道 <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>修復</li><li>非常</li></ul> 應用 <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|醫院 |管道 <ul><li>一般<li>公告</li><li>合規性</li><li>Custodial/li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li></ul>|
-|整理商店 |管道 <ul><li>一般<li>倒班切換</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
-|品質與安全性 |管道 <ul><li>一般<li>公告</li><li>行1</li><li>第2行</li><li>第3行</li><li>安全</li><li>訓練</li><li>保養</li><li>有趣的內容</li></ul> 應用 <ul><li>Wiki</li></ul>|
-|零售經理共同作業 |管道 <ul><li>一般<li>營運</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
-|||
+| 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
+| ------------------ |----|----------------------------------------------------- |
+| 採納 Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  管道 <ul><li>一般</li> <li>公告</li> <li>擁護方角落</li> <li>小組表單</li></ul> 應用 <ul><li>Wiki</li>  <li>行事曆</li> |
+| 管理專案 |`com.microsoft.teams.template.ManageAnEvent`| 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+| 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 管道 <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與 PR</li></ul> 應用<ul><li>Wiki</li><li>Web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|板載員工|`com.microsoft.teams.template.OnboardEmployees` | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li></ul>|
+|組織技術支援中心| `com.microsoft.teams.template.OrganizeHelpDesk`|管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+| 在患者治療上共同作業| `healthcareWard `| 管道<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人員</li><li>訓練</li></ul> 應用 <ul><li>Wiki</li>|
+| 在全球危機或活動上共同作業 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li></ul>|
+|在銀行分支機搆內共同作業| `com.microsoft.teams.template.CollaborateWithinABankBranch `|管道 <ul><li>一般<li>公告</li><li>Huddles</li><li>客戶會議</li><li>警告</li><li>技能開發</li><li>貸款處理</li><li>客戶投訴</li><li>Kudos</li><li>有趣的內容</li><li>合規性</li></ul>|
+|協調事件回應| `com.microsoft.teams.template.CoordinateIncidentResponse`|管道 <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>修復</li><li>非常</li></ul> 應用 <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|醫院| `healthcareHospita`左 |管道 <ul><li>一般<li>公告</li><li>合規性</li><li>Custodial</li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|整理商店| `retailStore` |管道 <ul><li>一般<li>倒班切換</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|品質與安全性 |`com.microsoft.teams.template.QualitySafety`|管道 <ul><li>一般<li>公告</li><li>行1</li><li>第2行</li><li>第3行</li><li>安全</li><li>訓練</li><li>保養</li><li>有趣的內容</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|零售經理共同作業| `retailManagerCollaboration` |管道 <ul><li>一般<li>營運</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
+||||
+
+如需範本類別的詳細資訊，請參閱下列內容：
+
+- [財務範本](financial-teams-templates-in-the-admin-console.md)
+- [一般範本](general-teams-templates-in-the-admin-console.md)
+- [政府範本](government-teams-templates-in-the-admin-console.md)
+- [醫療保健範本](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+- [製造範本](manufacturing-teams-templates-in-the-admin-console.md)
+- [零售範本](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="template-size-limits"></a>範本大小限制
 

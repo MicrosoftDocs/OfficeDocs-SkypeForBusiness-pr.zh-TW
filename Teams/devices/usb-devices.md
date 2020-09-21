@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: 90c97ffb98fafa8908c2e746487d5ffca7412282
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331628"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962914"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -85,8 +85,6 @@ ms.locfileid: "47331628"
 |EPOS/Sennheiser      |使用 USB ED CC 01 MS connecto 的影響 SC 660                |8/20/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |EPOS/Sennheiser      |使用 USB ED CC 01 MS connecto 的影響 SC 630                |8/20/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |EPOS/Sennheiser      |使用 USB ED CC 01 MS connecto 的影響 SC 260                |8/20/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
-|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |針對商務用 Skype 認證                        |
-|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |針對商務用 Skype 認證                        |
 |Jabra                |演化75耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Jabra                |演化65耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Jabra                |接洽50耳機                                          |7/31/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |

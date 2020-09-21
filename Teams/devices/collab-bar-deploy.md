@@ -15,20 +15,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 閱讀本文以瞭解如何針對 Microsoft 團隊部署共同作業條。
-ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 41eb3335eef78f1da2c64b1df65443ba93d40159
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410448"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962904"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>為 Microsoft 團隊部署共同作業橫條圖
 
 Microsoft 團隊的共同作業橫條圖部署可分為下列階段：
 
-- **網站準備**確認您的部署位置（會議室）符合部署需求。
-- **服務就緒**性建立資源帳戶並將其指派給裝置（[請參閱使用 Microsoft 365 系統管理中心建立資源帳戶](resource-account-ui.md)）。 雖然我們建議使用專用的聊天室授權，但授權的最終使用者帳戶也可以登入共同作業條。
-- **配置和部署**在會議室中設定共同作業橫條圖，並連接您所需的週邊裝置（請參閱您的共同作業條的製造商檔）。
+- **網站準備** 確認您的部署位置 (會議室) 符合部署需求。
+- **服務就緒** 性建立資源帳戶並將其指派至 [裝置] ([請參閱使用 Microsoft 365 系統管理中心) 建立資源帳戶](resource-account-ui.md) 。 雖然我們建議使用專用的聊天室授權，但授權的最終使用者帳戶也可以登入共同作業條。
+- **配置和部署** 在會議室中設定共同作業橫條圖，並連接您需要的週邊裝置， (請參閱) 的共同作業條的製造商說明文件。
+
+若要管理共同作業列，您必須是全域系統管理員、團隊服務系統管理員或團隊裝置系統管理員。如需管理員角色的詳細資訊，請參閱 [使用 Microsoft 團隊管理員角色管理團隊](../using-admin-roles.md)。
 
 ## <a name="site-readiness"></a>網站準備
 
@@ -40,14 +42,14 @@ Microsoft 團隊的共同作業橫條圖部署可分為下列階段：
 - 專用資源帳戶
 - 支援觸控的顯示器
 - 乙太網佈線
-- 在網路上為 Microsoft 團隊媒體啟用的服務品質（QoS）
+- 在 Microsoft 團隊媒體的網路上啟用的服務品質 (QoS) 
 
 如需實際安裝的考慮，請參閱製造商的檔，如果有的話，請在安裝並安裝螢幕並執行佈線前，先利用音訊視覺小組的體驗。
 
 > [!TIP]
-> 請務必參閱[準備您的網路供小組](../prepare-network.md)進行頻寬規劃，並評估您的網路對即時流量的適用性。
+> 請務必參閱 [準備您的網路供小組](../prepare-network.md) 進行頻寬規劃，並評估您的網路對即時流量的適用性。
 >
-> 我們不建議您將 proxy 伺服器放在團隊裝置與網際網路之間。 如需 proxy 伺服器與團隊的詳細資訊，請參閱[小組的 proxy 伺服器](../proxy-servers-for-skype-for-business-online.md)。
+> 我們不建議您將 proxy 伺服器放在團隊裝置與網際網路之間。 如需 proxy 伺服器與團隊的詳細資訊，請參閱 [小組的 proxy 伺服器](../proxy-servers-for-skype-for-business-online.md)。
 
 |    |     |
 |-----------|------------|
@@ -62,13 +64,13 @@ Microsoft 團隊的共同作業橫條圖部署可分為下列階段：
 
 如果您決定要設定 Microsoft 365 資源帳戶，您必須為其購買會議室授權。 [會議室授權] 包含的資源信箱可讓貴組織中的人員透過 Outlook 或團隊預訂會議室。 授權也能在會議參與者之間啟用影片和音訊會議以及螢幕共用。
 
-如果您需要接收或撥打電話給外部電話號碼，您可能需要通話方案或 Microsoft 365 商務語音[附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果您的組織已啟用直接路由，您只需要會議室 SKU。
+如果您需要接收或撥打電話給外部電話號碼，您可能需要通話方案或 Microsoft 365 商務語音 [附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果您的組織已啟用直接路由，您只需要會議室 SKU。
 
 當您建立資源帳戶時，您可以選擇是否要讓帳戶自動接受或拒絕會議邀請、允許週期性會議，指定提前的人員預訂資源的進度。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-如需 Microsoft 365 資源帳戶共同作業列的詳細資訊，請參閱[使用 microsoft 365 系統管理中心建立資源帳戶](resource-account-ui.md)。
+如需 Microsoft 365 資源帳戶共同作業列的詳細資訊，請參閱 [使用 microsoft 365 系統管理中心建立資源帳戶](resource-account-ui.md)。
 
 |    |     |
 |-----------|------------|
@@ -87,12 +89,12 @@ Microsoft 團隊的共同作業橫條圖部署可分為下列階段：
 
 ### <a name="account-provisioning"></a>帳戶預配
 
-如果您打算使用 Microsoft 365 資源帳戶來讓使用者預訂共同作業列，請依照[使用 microsoft 365 系統管理中心建立資源帳戶](resource-account-ui.md)中的指示，為每一個需要的共同作業列建立 Microsoft 365 資源帳戶。 您也可以將會議室授權新增至資源帳戶，如果您想要撥打或接聽外部電話號碼的來電、通話方案或商務語音授權（如果您的組織未使用直接傳送）。
+如果您打算使用 Microsoft 365 資源帳戶來讓使用者預訂共同作業列，請依照 [使用 microsoft 365 系統管理中心建立資源帳戶](resource-account-ui.md) 中的指示，為每一個需要的共同作業列建立 Microsoft 365 資源帳戶。 您也可以將會議室授權新增至資源帳戶，如果您想要撥打或接聽外部電話號碼的來電、通話方案或商務語音授權（如果您的組織未使用直接傳送）。
 
 如果您想要將共同作業條指派給個別的使用者，您不需要設定任何其他帳戶。 使用者可以使用個人帳戶登入共同作業列。
 
 > [!TIP]
-> 讓您的 Microsoft 365 資源帳戶顯示名稱具描述性且易於理解。 這些是使用者在搜尋並新增 Microsoft 團隊共同作業橫條圖時所看到的名稱。 您可以使用諸如*網站* - *會議室名稱*（*最大房間容量*）等慣例，例如 Curie，倫敦的4人會議室，可能會有顯示名稱 LON-Curie （4）。
+> 讓您的 Microsoft 365 資源帳戶顯示名稱具描述性且易於理解。 這些是使用者在搜尋並新增 Microsoft 團隊共同作業橫條圖時所看到的名稱。 您可以使用諸如*網站* - *會議室名稱* (*最大會議室容量*) 的慣例，例如 Curie （倫敦的4人會議室）可能會有顯示名稱 LON-Curie (4) 。
 
 |    |     |
 |-----------|------------|
@@ -112,7 +114,7 @@ Microsoft 團隊的共同作業橫條圖部署可分為下列階段：
 
 在已部署 Microsoft 團隊的共同作業條之後，您應該測試它們。 登入裝置，並檢查所需的功能是否在已部署的裝置上運作。 我們強烈建議您確認裝置出現在 Microsoft 團隊系統管理中心的 [**裝置**] 索引標籤底下的 [共同作業**條**] 區段中。 您也必須進行一些測試通話和會議，才能檢查品質與效能。
 
-我們建議您做為 [一般 Microsoft 團隊推出] 的一部分，您可以設定為通話品質儀表板（CQD）建立檔案、監控品質趨勢，以及參與經驗審查程式的品質。 如需詳細資訊，請參閱[體驗檢查指南的品質](https://aka.ms/qerguide)。
+我們建議您做為 [一般 Microsoft 團隊推出] 的一部分，將 [為通話品質儀表板建立檔案] (CQD) 、監控品質趨勢，以及參與經驗審查程式的品質。 如需詳細資訊，請參閱 [體驗檢查指南的品質](https://aka.ms/qerguide)。
 
 ### <a name="asset-management"></a>資產管理
 

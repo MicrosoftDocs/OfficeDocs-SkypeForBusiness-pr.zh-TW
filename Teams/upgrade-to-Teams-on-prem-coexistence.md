@@ -1,29 +1,29 @@
 ---
-title: 從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊
+title: 與 Microsoft 團隊和商務用 Skype 共存
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 從商務用 Skype 升級至 Teams
+description: 從商務用 Skype 升級至團隊-共存
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11252c916224393c19ebc11c4c40faceab02342c
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940666"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955960"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>與團隊和商務用 Skype 共存
 

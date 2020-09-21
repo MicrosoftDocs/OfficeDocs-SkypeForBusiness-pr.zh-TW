@@ -3,7 +3,7 @@ title: 從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: 從商務用 Skype 升級至 Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a7071cf6adbfa423e4c0fa12ac21a5bc777268
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2a6c4fb2e2f6433b21972a3c5e5c324d0c3d78f3
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940652"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955939"
 ---
 # <a name="upgrade-methods-mdash-for-it-administrators"></a>&mdash;IT 系統管理員的升級方法
 
@@ -45,7 +45,7 @@ ms.locfileid: "47940652"
 
 ## <a name="upgrade-methods"></a>升級方法
 
-有兩種方法可升級現有的組織與商務用 Skype (無論是線上或內部部署) 至團隊：重迭的功能方法，以及 [選取功能] 方法。  本文將說明這兩種方法，並提供每個方法的優缺點，協助您為您的組織選擇正確的方法。 
+有兩種方法可升級現有的組織與商務用 Skype (無論是線上或內部部署) 至團隊：重迭的功能方法，以及 [選取功能] 方法。 本文將說明這兩種方法，並提供每個方法的優缺點，協助您為您的組織選擇正確的方法。 
 
 - [使用孤島模式 (重迭的功能方法) ](#overlapping-capabilities-method-using-islands-mode)
 
@@ -82,7 +82,7 @@ ms.locfileid: "47940652"
 
 當您準備好要將使用者升級至 TeamsOnly 模式之後，您可以個別升級使用者，或者您可以使用租使用者的原則一次升級整個租使用者。 一旦使用者升級至 TeamsOnly 模式，就會在團隊中收到所有傳入聊天和通話。  (請注意，只有當您將 TeamsUpgradePolicy 套用至個別使用者，而不是每個租使用者時，才會觸發將商務用 Skype 會議遷移至團隊會議。 請參閱 [會議遷移](upgrade-to-teams-on-prem-tools.md#meeting-migration) 以取得詳細資料。 ) 
 
-不過，在孤島模式中未升級的收件者，可能會繼續在其商務用 Skype 或團隊用戶端的 TeamsOnly 使用者中接收聊天和通話。  這是因為小組用戶端會針對小組與團隊成員以及商務用 Skype 通訊（即使是針對相同的使用者），為小組對等小組的交談進行單獨的交談執行緒。   (查看 [團隊交談-互通性與原生執行緒](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)。 ) 例如，假設 Islands 使用者 A 使用團隊來 TeamsOnly 使用者 B 的訊息。當使用者 B 回復該聊天時，該通訊將會集中在使用者 A 的團隊用戶端中。 現在假設使用者 A 使用其商務用 Skype 用戶端到郵件 TeamsOnly 使用者 B。使用者 B 將會在團隊中收到聊天，但這將是與其他交談相比，在使用者 B 的團隊用戶端中相互獨立的交談。 如果使用者 B 與使用者 A 回復此交談，則會將它集中在使用者 A 的商務用 Skype 用戶端。 
+不過，在孤島模式中未升級的收件者，可能會繼續在其商務用 Skype 或團隊用戶端的 TeamsOnly 使用者中接收聊天和通話。  這是因為小組用戶端會針對小組與團隊成員以及商務用 Skype 通訊（即使是針對相同的使用者），為小組對等小組的交談進行單獨的交談執行緒。   (查看 [團隊交談-互通性與原生執行緒](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)。 ) 例如，假設 Islands 使用者 A 使用團隊來 TeamsOnly 使用者 B 的訊息。當使用者 B 回復該聊天時，該通訊將會集中在使用者 A 的團隊用戶端中。 現在假設使用者 A 使用商務用 Skype 用戶端到郵件 TeamsOnly 使用者 B。使用者 B 將會在團隊中收到聊天，但這將是與其他交談相比，在使用者 B 的團隊用戶端中相互獨立的交談。 如果使用者 B 與使用者 A 回復此交談，則會將它集中在使用者 A 的商務用 Skype 用戶端。 
 
 下表摘要列出了孤島模式與 TeamsOnly 模式的團隊體驗：  
 
@@ -98,7 +98,7 @@ ms.locfileid: "47940652"
 | 專業人員     |       利弊 |
 | :------------------ | :---------------- |
 | 可在組織內快速採用。| 因為有兩個用戶端具有相似的功能，但使用者介面不同，所以可能造成使用者混淆。 此外，他們也無法控制傳入聊天/呼叫居住在哪個用戶端。 |
-| 允許使用者在仍擁有商務用 Skype 的完整存取權的情況下，瞭解並熟悉團隊。 | 如果使用者不是同時執行這兩個用戶端，可能會造成使用者不滿意的可能性。 使用者可能會抱怨沒有收到訊息。|
+| 允許使用者在仍擁有商務用 Skype 的完整存取權的情況下，瞭解並熟悉團隊。 | 當使用者未執行這兩個用戶端時，因未接的訊息而造成的最終使用者不滿意的可能性。 使用者可能會抱怨沒有收到訊息。|
 | 在團隊中開始使用最少的管理工作量。 | 如果不是組織中的所有人都使用團隊，則可以使用「使用孤島」模式並移至 TeamsOnly 模式，特別是在團隊中的所有使用者都不是使用中時。 例如，當使用者子集升級為 TeamsOnly 模式之後，這些使用者就只能在小組中傳送。 針對 [孤島] 模式中的其他人口，這些訊息將永遠位於小組中。 但如果其中一些總體不是執行團隊，他們將會認為這些訊息是未接的。 |
 |  | 在使用團隊時，在商務用 Skype 伺服器中擁有內部部署帳戶的使用者，沒有互通性或同盟支援。  如果您有混合式的孤島使用者，這可能會造成混淆，因為有些人是駐留在商務用 Skype Online 中，還有一些是在商務用 Skype 內部部署中。   |
 
@@ -106,7 +106,7 @@ ms.locfileid: "47940652"
 
 有些組織可能想要讓使用者在組織從商務用 Skype 轉換為小組時，為他們的使用者提供更簡單且更具預見性的體驗。 在這個模型中，IT 系統管理員會在 TeamsUpgradePolicy 中使用其中一個商務用 Skype 模式，以明確指定哪些使用者在遷移到 TeamsOnly 模式之前仍在商務用 Skype 中。 當他們準備好將選取的使用者移至 TeamsOnly 模式時，系統管理員會更新這些使用者的 TeamsOnly 模式。 隨著部署的進展，越來越多的使用者會從商務用 Skype 轉換成 TeamsOnly 模式。  在此轉換期間：
 
-- 無論是來自其他使用者的小組或商務用 Skype 用戶端，仍在商務用 Skype 中的使用者都會收到其商務用 Skype 用戶端的所有傳入聊天和通話。 此外，對於這些商務用 Skype 使用者，小組用戶端中的 [通話與聊天] 功能已停用，以協助避免使用者混淆，並確保正確地進行路由。 
+- 無論是來自其他使用者的小組或商務用 Skype 用戶端，仍在商務用 Skype 中的使用者都會收到其商務用 Skype 用戶端的所有傳入聊天和通話。 此外，對於這些商務用 Skype 使用者，小組用戶端中的通話與聊天功能已停用，以協助避免使用者混淆，並確保正確地進行路由。 
 
 - 在 TeamsOnly 模式中的使用者會收到其團隊用戶端中的所有傳入聊天和通話，而不管通訊來自何處：團隊、商務用 Skype 或任何類型的同盟使用者。 
 
