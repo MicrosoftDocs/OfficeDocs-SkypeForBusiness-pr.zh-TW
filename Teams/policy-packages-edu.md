@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868702"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135877"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 
@@ -147,7 +147,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>為了學生安全所應指派的原則
 
-### <a name="meeting-policies"></a>會議原則
+### <a name="meeting-policies-for-students"></a>適用於學生的會議原則
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>關閉建立及開始會議的功能
 
@@ -216,7 +216,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="其中顯示視訊選項的 [遠端學習的教育機構學生] 頁面。":::
 
-### <a name="live-events-policies"></a>即時活動原則
+### <a name="live-events-policies-for-students"></a>適用於學生的即時活動原則
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>關閉建立及開始即時活動的功能
 
@@ -224,7 +224,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="已關閉 [允許排程] 選項的 [遠端學習的教育機構學生] 頁面。":::
 
-### <a name="calling-policies"></a>通話原則
+### <a name="calling-policies-for-students"></a>適用於學生的通話原則
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>關閉進行私人通話的功能
 
@@ -232,7 +232,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="[進行私人通話] 設為 [關閉] 的 [遠端學習的教育機構學生] 頁面。":::
 
-### <a name="messaging-policies"></a>訊息原則
+### <a name="messaging-policies-for-students"></a>適用於學生的訊息原則
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>關閉刪除或編輯已傳送的訊息功能
 
@@ -276,7 +276,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 ![[遠端學習的教育機構學生] 頁面，其中的 [從群組交談中移除使用者] 選項設為 [關閉]。](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Teams 原則
+### <a name="teams-policies-for-students"></a>適用於學生的 Teams 原則
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>關閉探索及建立私人頻道的功能
 
@@ -287,7 +287,7 @@ Microsoft Teams 目前包含下列原則套件：
 > [!IMPORTANT]
 > 您可能也想要確保學生無法在 Microsoft Teams 中建立新的小組。 實際上這是 M365 群組的設定，而您可以在[管理能建立 Microsoft 365 群組的使用者](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)中了解詳細資訊。
 
-### <a name="app-permission-policies"></a>應用程式權限原則
+### <a name="app-permission-policies-for-students"></a>適用於學生的應用程式權限原則
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>控制學生是否可以在 Teams 中新增應用程式
 
@@ -309,7 +309,7 @@ Microsoft Teams 目前包含下列原則套件：
 > [!NOTE]
 > 相較於您會在底下看到的教師章節，學生的原則建議中包含更多資訊。 雖然您可遵循您教育機構的自有原則和程序來進行原則設定，但此處提供的建議與學生的安全及安全性息息相關。
 
-### <a name="meeting-policies"></a>會議原則
+### <a name="meeting-policies-for-educators"></a>適用於教師的會議原則
 
 這些設定可讓教師控制其會議的存取權。
 
