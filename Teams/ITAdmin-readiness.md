@@ -19,16 +19,16 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e083ee323ba3c4e8c61c9520c56b0d6af261fa6
-ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
+ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845555"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48170957"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
-使用訓練資源來向您自己說明小組、向他人講授或執行討論會。 經常查看這裡的新內容。 
+使用訓練資源來向您自己說明小組、向他人講授或執行討論會。 經常查看這裡的新內容。
 
 |               |               |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -50,10 +50,10 @@ ms.locfileid: "46845555"
 | 動態緊急通話 | [影片](https://aka.ms/teams-dec) |  [文稿](https://aka.ms/teams-dec-deck) |
 | 即時事件 | [影片](https://aka.ms/teams-live-events-session) | [文稿](https://aka.ms/teams-live-events-deck) |
 | 電話系統簡介 | [影片](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
-| 直接路由 | [影片1：規劃直接在小組中傳送 ](https://aka.ms/teams-dr-plan)<br>[影片2：在團隊中設定和管理直接路由](https://aka.ms/teams-dr-config)<br>[影片3：在團隊中遷移至直接路由](https://aka.ms/teams-dr-migrate)  | [文稿](https://aka.ms/teams-direct-routing-deck) |
+| 直接路由 | [影片1：規劃直接在小組中傳送](https://aka.ms/teams-dr-plan)<br>[影片2：在團隊中設定和管理直接路由](https://aka.ms/teams-dr-config)<br>[影片3：在團隊中遷移至直接路由](https://aka.ms/teams-dr-migrate)  | [文稿](https://aka.ms/teams-direct-routing-deck) |
 | 從商務用 Skype 升級至 Teams | [影片1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片4：管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
 
-<h3>IT & AV 專業人員的小組房間基礎</h3>
+<h2>IT & AV 專業人員的小組房間基礎</h2>
 
 <p>下表包含在 Microsoft 團隊聊天室上隨附 PowerPoint 卡座的完整影片訓練連結。  
 
@@ -69,6 +69,21 @@ ms.locfileid: "46845555"
 | 模組8： Microsoft 團隊聊天室--提示、訣竅及疑難排解 (18:14 分鐘) |[影片](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | 單觸連接指示 |  | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>互動式輔助線</h2>
+
+| 標題                                                                       | 概要                                                                                                                                                                                                               |  連結至指南                             |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| 小組的身分識別、存取管理 & 威脅防護                   | 瞭解如何使用 Microsoft 系統管理中心及 PowersShell 來設定存取及身分識別原則，以及為小組啟用 Office 365 高級威脅防護                                                            | [團隊安全性指南](https://aka.ms/teamsesecurityinteractiveguide)         |
+| 管理小組中的合規性                                                | 使用 Microsoft 365 安全性、Microsoft 365 合規性及 Microsoft 團隊系統管理中心，以及 Windows PowerShell 來管理和設定 Office 365 組織的 Microsoft 團隊原則與設定。 | [在團隊指南中管理合規性](https://aka.ms/complianceinteamsinteractiveguide)      |
+| 團隊顧問：在 Microsoft 團隊中部署聊天、團隊、頻道和應用程式 | 瞭解如何利用團隊顧問來評估您的環境，並建立部署聊天、團隊、頻道和應用程式的方案。                                                                                         |  [團隊顧問指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| 使用 PowerShell 和動態群組簡化團隊管理        | 將 Office 365 群組從靜態成員資格轉換成動態，然後使用 Windows PowerShell 將新的應用程式許可權原則指派給所有成員。                                                                         |  [精簡團隊管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
+| 在 Microsoft 團隊系統管理中心管理團隊和來賓存取權         | 瞭解如何為您的組織設定及管理 Microsoft 團隊和來賓存取權。                                                                                                                              | [管理團隊和來賓存取指南](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
+| 設定團隊電話系統：自動語音助理 & 通話佇列                   | 逐步完成建立和部署通話佇列和自動語音應答的程式，做為 Microsoft 團隊在使用 Microsoft 團隊系統管理中心進行呼叫的一部分。                                                          |  [[設定團隊電話系統指南]](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| 設定直接路由：連接半形和語音路由                 | 使用 Microsoft 團隊手機系統直向路由與您現有的電話結構整合。                                                                                                              | [設定直接傳送指南](https://aka.ms/DirectRoutingInteractiveGuide)          |
+| 在 Microsoft 團隊中設定管轄                                     | 瞭解如何為您的組織建立團隊訊息保留原則，以及如何封存、刪除及還原個別團隊                                                                                   |  [在 Microsoft 團隊指南中設定管轄](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| 設定和部署 Microsoft 團隊會議                          | 逐步完成針對 Microsoft 團隊部署會議工作負載的程式。                                                                                                                                       |  [設定和部署 Microsoft 團隊會議指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
+| 設定 Microsoft 團隊的音訊會議                            | 探索小組中音訊會議的功能，並瞭解如何指派會議橋接和撥入電話號碼。                                                                                          |  [設定 Microsoft 團隊版語音會議指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| 為 Fisrtline 工作者設定 Microsoft 團隊                           | 瞭解如何針對您的第一線員工工作力設定和部署正確的 Microsoft 團隊環境。                                                                                                                  | [為第一線員工工作人員配置 Microsoft 團隊指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>快速入門手冊</h2>
 

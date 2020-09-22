@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820327"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177223"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端 
 
@@ -78,7 +78,7 @@ Windows 用戶端會部署至使用者設定檔中的 [AppData] 資料夾。 部
 ![Windows 安全性警示對話方塊的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> 即使您選取「取消」來忽略提示，Windows 防火牆設定仍會變更。 針對 TCP 和 UDP 通訊協定，系統會為 teams.exe 建立包含封鎖動作的兩個輸入規則。
+> 即使您選取「取消」來忽略提示，Windows 防火牆設定仍會變更。 將使用 TCP 和 UDP 通訊協定的 [允許] 動作來建立 teams.exe 的兩個入站規則。
 
 如果您想要防止團隊在使用者第一次從團隊撥打電話時，提示使用者建立防火牆規則，請使用下列 [範例 PowerShell 腳本-入站防火牆規則](#sample-powershell-script---inbound-firewall-rule) 。 
 

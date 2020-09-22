@@ -19,12 +19,12 @@ ms.reviewer: ''
 description: 在管理員主控台中使用 Microsoft 團隊範本，透過提供預先定義的設定、頻道和應用程式範本，快速且輕鬆地建立小組。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25d9fb2d59eb272220813de8ae7749f9911b8da6
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136032"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171087"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>在管理員主控台中使用團隊醫療保健範本
 
@@ -40,7 +40,6 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
  在 ward、pod 或部門中簡化醫療保健溝通與共同作業。 範本可用於協助患者管理，以及 ward 的運作需求。
 
-
 | 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------ |---|----------------------------------------------------- |
 | 在患者治療上共同作業 |`healthcareWard` | 管道<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人員</li><li>訓練</li></ul> 應用 <ul><li>Wiki</li>|
@@ -52,7 +51,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 | 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|醫院|` healthcareHospital`|管道 <ul><li>一般<li>公告</li><li>合規性</li><li>Custodial</li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|醫院|`healthcareHospital`|管道 <ul><li>一般<li>公告</li><li>合規性</li><li>Custodial</li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li></ul>|
 ||||
 
 ## <a name="related-topics"></a>相關主題

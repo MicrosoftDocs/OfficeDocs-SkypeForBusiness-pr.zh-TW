@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359299"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177423"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -129,7 +129,7 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 和 Azure 雲端式服務功能矩陣
 
-| 服務 | 功能層級 | 功能 | 注意事項  | 雲端 VM/AA  | ExUMO |
+| 服務 | 功能層級 | 功能 | 附註  | 雲端 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | Vm  | 服務功能| 支援協力廠商 PBX    | 包括協力廠商 PBX 所提供的所有功能，例如 MWI (訊息等待指示器) 使用來自 Exchange UM Online 的 SIP 通知訊息 | N   | Y    |
 | Vm | 服務功能  | 支援商務用 Skype Server   |  | Y | Y    |
@@ -158,7 +158,7 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 | Vm | 使用者功能 | 支援的問候語語言 | 詳細資料： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | Vm | 使用者功能 | 自動答錄規則 |  | Y | Y    |
 | Vm | 使用者功能 | 在電話上播放 (PSTN) -播放郵件 | 在我的儲存格呼叫我收聽語音訊息  | N | Y    |
-| Vm | 使用者功能 | 在電話上播放 (Auth) -播放郵件 | 在我的已驗證裝置上呼叫我  | Y | Y    |
+| Vm | 使用者功能 | 在電話上播放 (Auth) -播放郵件 | 在我的已驗證裝置上呼叫我  | N | Y    |
 | Vm | 使用者功能 | 多個使用者間的共用信箱 |  | Y | Y    |
 | Vm | 來電者功能  | 來電者體驗-受保護的語音信箱 | 來電者可以選擇將錄製的郵件標記為受保護的選項| N | Y    |
 | Vm | 來電者功能  | 來電者體驗-私人語音信箱 | 來電者可以選擇將錄製的郵件標記為私人的選項  | N | Y    |

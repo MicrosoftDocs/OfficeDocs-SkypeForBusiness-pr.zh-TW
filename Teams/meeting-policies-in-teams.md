@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135967"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177403"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -116,7 +116,7 @@ ms.locfileid: "48135967"
 
 ### <a name="allow-meet-now-in-channels"></a>允許頻道中的 [立即開會]
 
-這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中啟動零星會議。 如果您開啟此選項，當使用者在團隊頻道中張貼訊息時，使用者可以按一下撰寫方塊下的 [ **立即開會** ]，以在頻道中啟動零星會議。 預設值為 True。
+這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中啟動零星會議。 如果您開啟此選項，使用者可以按一下 [ **開會** ] 按鈕來啟動即席會議，或在頻道中排程會議。 預設值為 True。
 
 [![顯示郵件 ](media/meeting-policies-meet-now.png) 下方 [立即開會] 圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png#lightbox)
 
@@ -407,7 +407,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 ### <a name="allow-chat-in-meetings"></a>允許在會議中聊天
 
-這是每個召集人原則。 此設定控制是否允許在使用者的會議中使用會議聊天。
+這是每個參與者的設定。 此設定控制是否允許在使用者的會議中使用會議聊天。
 
 <a name="bkparticipantsandguests"> </a>
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f553c29d2a18816053c28c57a6f0f78b818825a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583250"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177373"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583250"
 
 2. 此延伸的客戶互動範圍需要能協助磁片一致性、持續改進及規模的工具。
 
-Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模式（包括聊天、視訊會議和通話）中充當內部和外部客戶連線的中心。 針對某些公司，Microsoft 團隊的[雲端語音功能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)，包括[自動](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)語音應答和[通話佇列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)，提供功能與設定以滿足其需求。
+Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模式（包括聊天、視訊會議和通話）中充當內部和外部客戶連線的中心。 針對某些公司，Microsoft 團隊的 [雲端語音功能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)，包括 [自動](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) 語音應答和 [通話佇列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)，提供功能與設定以滿足其需求。
 
 對於那些想要整合解決方案與商務工具及工作流程以推動客戶歷程的人，Microsoft 團隊也會與一些業界主要的連絡人中心整合，做為服務 (CCaaS) 解決方案提供者。
 
@@ -48,6 +48,7 @@ Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模�
 | **Partner**                                                                                                                              | **解決方案網站**                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | Enghouse Interactive | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
@@ -107,7 +108,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 ### <a name="connect-and-extend"></a>連接並延伸
 
-此模型透過在 Microsoft Graph 中使用[團隊用戶端平臺](https://docs.microsoft.com/microsoftteams/platform/overview)、[團隊圖表 Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)和[雲端通訊 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)與團隊用戶端整合，並使用團隊電話系統進行所有聯絡人通話和通話控制體驗，來延伸連絡人中心人員和代理程式體驗。 在此模型中，連絡人中心合作夥伴就像 Microsoft 365 一樣充當電話運營商。
+此模型透過在 Microsoft Graph 中使用 [團隊用戶端平臺](https://docs.microsoft.com/microsoftteams/platform/overview)、 [團隊圖表 Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 和 [雲端通訊 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 與團隊用戶端整合，並使用團隊電話系統進行所有聯絡人通話和通話控制體驗，來延伸連絡人中心人員和代理程式體驗。 在此模型中，連絡人中心合作夥伴就像 Microsoft 365 一樣充當電話運營商。
 
 您可以利用連線與擴充的解決方案，從多個系統開始預訂，然後在內部共同作業和外部通訊的小組中，以無成本的內容切換來獲益。
 
@@ -139,7 +140,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 透過直接在 Azure 上建立，合作夥伴可以在所有團隊地區與地域中快速部署和提供其解決方案，benefitting 從我們的共用全域通訊網路，然後充分利用 Azure 的儲存空間、計算、分析 & 認知服務。
 
-透過 [延伸] 與 [電源整合] 模型，合作夥伴可提供含全通道通訊體驗的連絡人中心代理程式，同時結合了人工智慧，來自訂參與者或其他服務在使用[Microsoft Graph 中的雲端通訊 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)進行通話的方式和時機。
+透過 [延伸] 與 [電源整合] 模型，合作夥伴可提供含全通道通訊體驗的連絡人中心代理程式，同時結合了人工智慧，來自訂參與者或其他服務在使用 [Microsoft Graph 中的雲端通訊 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)進行通話的方式和時機。
 
 **功能重點：**
 

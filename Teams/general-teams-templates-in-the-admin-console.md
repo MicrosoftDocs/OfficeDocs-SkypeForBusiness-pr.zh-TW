@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9138c1e1222f106c9eaf67b44bf7deca0a250790
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136012"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171117"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>在管理員主控台中使用一般團隊範本
 
@@ -45,28 +45,28 @@ ms.locfileid: "48136012"
 
 針對您的危機小組集中共同作業，協助建立業務連續性方案、共用遠端工作秘訣、追蹤客戶通訊，以及使用宣告和新聞讓每個人都保持在迴圈中。
 
-| 基底範本類型 | 此基礎範本隨附的屬性 |
-| ------------------ |----------------------------------------------------- |
-| 在全球危機或活動上共同作業 |管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li></ul>|
-|||
+| 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
+| ------------------ |--|----------------------------------------------------- |
+| 在全球危機或活動上共同作業 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li></ul>|
+||||
 
-## <a name="adopt-officd-365"></a>採納 Officd 365
+## <a name="adopt-office-365"></a>採納 Office 365
 
 透過宣揚及協助對等新技術，協助您建立、擴大及維持您的擁護者社區推出。
 
-| 基底範本類型 | 此基礎範本隨附的屬性 |
-| ------------------ |----------------------------------------------------- |
-| 採納 Office 365 |  管道 <ul><li>一般</li> <li>公告</li> <li>擁護方角落</li> <li>小組表單</li></ul> 應用 <ul><li>Wiki</li>  <li>行事曆</li> |li><li>技能開發</li><li>貸款處理</li><li>客戶投訴</li><li>Kudos</li><li>有趣的內容</li><li>合規性</li></ul>|
-|||
+| 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
+| ------------------|-- |----------------------------------------------------- |
+| 採納 Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  管道 <ul><li>一般</li> <li>公告</li> <li>擁護方角落</li> <li>小組表單</li></ul> 應用 <ul><li>Wiki</li>  <li>行事曆</li> |li><li>技能開發</li><li>貸款處理</li><li>客戶投訴</li><li>Kudos</li><li>有趣的內容</li><li>合規性</li></ul>|
+||||
 
-## <a name="manage-a-project"></a>管理專案 
+## <a name="manage-a-project"></a>管理專案
 
 使用此範本管理一般專案管理的工作、共用文件、執行專案會議及記錄風險與決策。
 
-| 基底範本類型 | 此基礎範本隨附的屬性 |
-| ------------------ |----------------------------------------------------- |
-| 管理專案 | 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
-|||
+| 基底範本類型| baseTemplateId | 此基礎範本隨附的屬性 |
+| ------------------|-- |----------------------------------------------------- |
+| 管理專案| ManageAProject 中的 [.com] 範本  | 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+||||
 
 ## <a name="manage-an-event"></a>管理活動
 
@@ -74,24 +74,25 @@ ms.locfileid: "48136012"
 
 您可能無法以您的應用程式許可權原則存取某些應用程式。
 
-| 基底範本類型 | 此基礎範本隨附的屬性 |
-| ------------------ |----------------------------------------------------- |
-| 管理活動 | 管道 <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與 PR</li></ul> 應用<ul><li>Wiki</li><li>Web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|||
+| 基底範本類型 | baseTemplateId| 此基礎範本隨附的屬性 |
+| ------------------ |--|----------------------------------------------------- |
+| 管理活動| `com.microsoft.teams.template.ManageAnEvent` | 管道 <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與 PR</li></ul> 應用<ul><li>Wiki</li><li>Web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+||||
 
 ## <a name="onboard-employees"></a>板載員工
+
 利用此中心小組的資源、問題及有趣的方式，改善您的文化，並簡化您的員工加入。
 
-| 基底範本類型 | 此基礎範本隨附的屬性 |
-| ------------------ |----------------------------------------------------- |
-|板載員工 | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li></ul>|
-|||
+| 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
+| ------------------|- |----------------------------------------------------- |
+|板載員工|`com.microsoft.teams.template.OnboardEmployees`  | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li></ul>|
+||||
 
 ## <a name="organize-a-help-desk"></a>組織技術支援中心
 
 在支援您的支援人員的檔、原則與流程上共同作業。 整合現有的票證發放系統，或使用我們的範本來管理要求。
 
-| 基底範本類型 | 此基礎範本隨附的屬性 |
-| ------------------ |----------------------------------------------------- |
-|組織技術支援中心| 管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li></ul> |
-|||
+| 基底範本類型 | | 此基礎範本隨附的屬性 |
+| ------------------|-- |----------------------------------------------------- |
+|組織技術支援中心|`com.microsoft.teams.template.OrganizeHelpDesk`| 管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+||||

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581814"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177386"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
@@ -61,6 +61,7 @@ Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站�
 |![代表 Polycom RealConnect 的標誌](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
 |![代表 Pexip 無窮大的標誌](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 團隊的 Pexip 無窮大</a> | 
 |![代表 BlueJeans 閘道的標誌](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 團隊的 BlueJeans 閘道</a> |
+|![代表 Cisco CVI 的標誌](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft 團隊適用的 Cisco Webex 影片整合</a>|
 
 ### <a name="cloud-video-interop-overview"></a>雲端視頻互通性概述
 
@@ -91,7 +92,7 @@ Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站�
 
 ### <a name="provision"></a>布建  
 
-在預置階段中，您將根據合作夥伴設定指南，將授權指派給適當的使用者。 您也需要完成 Azure 同意程式，才能提供合作夥伴對您團隊環境的存取權。 如需有關 Azure 同意程式的詳細資訊，請參閱[Microsoft 身分識別平臺端點中的許可權和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。
+在預置階段中，您將根據合作夥伴設定指南，將授權指派給適當的使用者。 您也需要完成 Azure 同意程式，才能提供合作夥伴對您團隊環境的存取權。 如需有關 Azure 同意程式的詳細資訊，請參閱 [Microsoft 身分識別平臺端點中的許可權和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) 。
 
 ### <a name="schedule"></a>表
 

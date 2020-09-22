@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解 Microsoft 團隊聊天室的已知問題清單，包括更新、使用者介面、硬體、限制及預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 584b71d39552990b3e4009efb177ef4fee61f1a4
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761339"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177362"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -60,7 +60,7 @@ Microsoft 球隊會議室不支援 HDCP 輸入，但已觀察到的是使用 HDM
 
 ***
 
-如果您想要將房間顯示幕正面自動切換到使用中的影片來源 () 例如，當來源從待機模式喚醒時，必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 用來做為會議室顯示的消費者電視需求支援使用消費電子 (CEC) 功能。  根據所選的塢站或主機 (可能不支援 CEC，請參閱製造商支援檔) ，可能需要使用工作區控制器（例如 [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) ）來啟用所需的行為。 
+如果您想要將房間顯示幕正面自動切換到使用中的影片來源 () 例如，當來源從待機模式喚醒時，必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 用來做為會議室顯示的消費者電視需求支援使用消費電子 (CEC) 功能。  根據所選 (可能不支援 CEC 的固定或主控台，請參閱製造商支援檔) ，例如，從 Extron Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)中的一個控制器（例如[HD RX-201-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ），以啟用所需的行為。 
 
 ***
 

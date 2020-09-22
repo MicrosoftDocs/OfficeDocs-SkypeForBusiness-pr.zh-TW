@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135867"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171097"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理主控台中的團隊範本快速入門
 
@@ -74,7 +74,7 @@ ms.locfileid: "48135867"
 | 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------ |----|----------------------------------------------------- |
 | 採納 Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  管道 <ul><li>一般</li> <li>公告</li> <li>擁護方角落</li> <li>小組表單</li></ul> 應用 <ul><li>Wiki</li>  <li>行事曆</li> |
-| 管理專案 |`com.microsoft.teams.template.ManageAnEvent`| 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+| 管理專案 |`com.microsoft.teams.template.ManageAProject`| 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
 | 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 管道 <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與 PR</li></ul> 應用<ul><li>Wiki</li><li>Web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 |板載員工|`com.microsoft.teams.template.OnboardEmployees` | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li></ul>|
 |組織技術支援中心| `com.microsoft.teams.template.OrganizeHelpDesk`|管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li></ul> |
