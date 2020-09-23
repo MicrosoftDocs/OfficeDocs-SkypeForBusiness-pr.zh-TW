@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeServerAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
-description: 指定您想要在此池中將其新增為邊緣伺服器的每個電腦的完整功能變數名稱（FQDN）。 將電腦新增至清單後，您可以在發佈拓朴前的任何時間更新電腦的 FQDN，或從池中移除。 發佈拓撲之後，變更 FQDN 需要先刪除拓撲建立器中的伺服器，然後使用新的 FQDN 將新的伺服器新增到該池。 如需針對邊緣池設計拓撲的詳細資料，請參閱在 Edge 部署檔中定義您的邊緣拓撲。
-ms.openlocfilehash: b268edd89a841fdbce6c5f31c7834a3d1b68f8a3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 指定您要在此集區中，新增為 Edge Server 之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以隨時更新電腦的 FQDN 或從集區中移除該電腦，然後再發佈拓撲。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需設計 Edge 集區之拓撲的詳細資訊，請參閱 Edge 部署檔中的定義 Edge 拓撲。
+ms.openlocfilehash: a71f54debfdabab6705924c491f92d3ff0e8e241
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820065"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218264"
 ---
 # <a name="edge-server-add-machine"></a>Edge Server 新增電腦
 
-指定您想要在此池中將其新增為邊緣伺服器的每個電腦的完整功能變數名稱（FQDN）。 將電腦新增至清單後，您可以在發佈拓朴前的任何時間更新電腦的 FQDN，或從池中移除。 發佈拓撲之後，變更 FQDN 需要先刪除拓撲建立器中的伺服器，然後使用新的 FQDN 將新的伺服器新增到該池。 如需針對邊緣池設計拓撲的詳細資料，請參閱在 Edge 部署檔中[定義您的邊緣拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
+指定您要在此集區中，新增為 Edge Server 之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以隨時更新電腦的 FQDN 或從集區中移除該電腦，然後再發佈拓撲。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需設計 Edge 集區之拓撲的詳細資訊，請參閱 Edge 部署檔中的 [定義 Edge 拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) 。
 
 

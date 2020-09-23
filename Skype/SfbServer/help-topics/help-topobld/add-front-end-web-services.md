@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndWebServicesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
-description: 基底 URL 是 URL 的 Web 服務身分識別，而不是 HTTPs://。 例如，如果該池的 Web 服務的完整 URL 是https://pool01.contoso.net，則基底 url 是 pool01.contoso.net。
-ms.openlocfilehash: 6e5f9211f35f4e58621deb0a714df8587675f26c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集區的 Web 服務完整 URL 為 https://pool01.contoso.net ，則基本 url 為 pool01.contoso.net。
+ms.openlocfilehash: 45705ea940fa0f43f600546a680d76b41b645e59
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820785"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217934"
 ---
 # <a name="add-front-end-web-services"></a>新增前端 Web 服務
  
-基底 URL 是 URL 的 Web 服務身分識別，而不是 HTTPs://。 例如，如果該池的 Web 服務的完整 URL 是https://pool01.contoso.net，則基底 url 是 pool01.contoso.net。
+基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集區的 Web 服務完整 URL 為 https://pool01.contoso.net ，則基本 url 為 pool01.contoso.net。
   
-您無法覆寫標準版伺服器的內部 Web 服務池完整功能變數名稱（FQDN）。 如果您要為企業版前端池設定網域名稱系統（DNS）負載平衡，您可以指定不同的內部基 URL，這種 URL 必須與 [池 FQDN] 不同（例如，內部-\<您的基本 URL\>）。
+您無法覆寫 Standard Edition Server 的內部 Web 服務集區完整網域名稱 (FQDN)。 若要設定網域名稱系統 (DNS) Enterprise Edition 前端集區的負載平衡，您可以指定不同的內部基礎 URL，其必須不同于集區 FQDN (例如，internal \<your base URL\>) 。
   
-您可以指定與內部基底 URL 不同的外部基底 URL，以區別網域命名。 例如，您的內部網域是 contoso.net，但是您的外部功能變數名稱是 contoso.com。 您可以使用 contoso.com 功能變數名稱定義外部基底 URL。 對於邊緣部署的反向 proxy 伺服器而言，這是很重要的。 外部基底 URL 網功能變數名稱稱應該與反向 proxy 的 FQDN 功能變數名稱相同。 立即訊息和目前狀態需要對前端池的 HTTP 存取權。
+您可以指定與內部基礎 URL 不同的外部基底 URL，以區別網域命名。例如，您的內部網域是 contoso.net，但外部網域名稱是 contoso.com。您會使用 contoso.com 網域名稱來定義外部基底 URL。這對 Edge 部署的反向 Proxy 伺服器而言很重要。外部基底 URL 網域名稱應該與反向 Proxy 的 FQDN 網域名稱相同。立即訊息和目前狀態需要對前端集區的 HTTP 存取。
   
 

@@ -8,28 +8,28 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: 您可以使用 [定義新的持久性聊天池] 嚮導來建立新的持久聊天伺服器或持久聊天伺服器池。 請選取 [多部電腦集區] 或 [單一電腦集區]。 如果選取 [單一電腦集區] 並在稍後需要多部電腦集區，則必須移除單一電腦集區，再定義多部電腦集區。
-ms.openlocfilehash: 12b5a648de211086d33624afad56ce069493b135
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以使用 [定義新的持久聊天集區] 嚮導來建立新的 Persistent Chat Server 或 Persistent Chat Server 集區。 選取 [多部電腦集區] 或 [單一電腦集區]。 如果您選取單一電腦集區，後來需要多部電腦集區，則必須移除單一電腦集區，然後再定義多部電腦集區。
+ms.openlocfilehash: 61851656b70b85db47fdad01dff0101217262dda
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820195"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217546"
 ---
 # <a name="define-persistent-chat-fqdn"></a>定義常設聊天室 FQDN
  
-您可以使用 [**定義新的持久性聊天池**] 嚮導來建立新的持久聊天伺服器或持久聊天伺服器池。 請選取 [多部電腦集區]**** 或 [單一電腦集區]****。 如果選取 [單一電腦集區] 並在稍後需要多部電腦集區，則必須移除單一電腦集區，再定義多部電腦集區。
+您可以使用 [ **定義新的持久聊天集** 區] 嚮導來建立新的 Persistent chat Server 或 Persistent chat server 集區。 選取 [ **多部電腦集** 區] 或 [ **單一電腦集**區]。 如果您選取單一電腦集區，後來需要多部電腦集區，則必須移除單一電腦集區，然後再定義多部電腦集區。
   
-您也必須為持續聊天伺服器或持久聊天伺服器池定義一個**池 FQDN** 。 單一電腦集區的集區完整網域名稱 (FQDN) 必須與構成單一伺服器集區之電腦的 FQDN 相同。 若是多部電腦集區，FQDN 必須是您選擇代表此多部電腦集區的名稱，並由主機 A (如果使用 IPv6，則為 AAAA) 記錄在 DNS 中定義。
+您也必須定義 Persistent Chat Server 或 Persistent Chat Server 集區的 **集區 FQDN** 。 單一電腦集區的集區完整功能變數名稱 (FQDN) 必須與組成單一伺服器集區之電腦的 FQDN 相同。 如果是多部電腦集區，FQDN 必須是您選擇用來代表此多部電腦集區的名稱，而且會由主機 A (和 AAAA （如果 IPv6) record）加以定義。
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
-[在商務用 Skype Server 2015 中規劃常設聊天室伺服器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[在商務用 Skype Server 2015 中規劃 Persistent Chat Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[在商務用 Skype Server 2015 拓撲中新增持久聊天伺服器](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

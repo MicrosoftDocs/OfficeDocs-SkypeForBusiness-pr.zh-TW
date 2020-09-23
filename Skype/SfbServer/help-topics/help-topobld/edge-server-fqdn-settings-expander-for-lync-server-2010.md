@@ -8,38 +8,38 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
-description: 若要在 [外部設定] 底下定義屬性，請設定下列專案：
-ms.openlocfilehash: 95e55625ec698d8762832e812a79547daf4d2bcf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要定義 [外部設定] 底下的屬性，請進行下列設定：
+ms.openlocfilehash: 2de4b562d5b6a8b8ef9707d603fe5f4667893ba4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820055"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218244"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)
  
-若要在 [**外部設定**] 底下定義屬性，請設定下列專案：
+若要定義 [ **外部設定**] 底下的屬性，請進行下列設定：
   
-如果您想要為 web 會議和音訊/視頻定義不同的池 FQDN 和 IP 位址，請選取 [**針對 web 會議與 A/V 啟用個別的 FQDN 和 ip 位址**] 核取方塊。
+如果您想為 web 會議及音訊/視頻定義不同的集區 FQDN 和 IP 位址，請選取 [ **為 web 會議和 A/V 啟用個別 FQDN 和 ip 位址** ] 核取方塊。
   
 > [!NOTE]
-> 如果您選擇不選取個別 FQDN 和 IP 位址的核取方塊，您必須針對 Edge 伺服器所提供的三種服務分別提供不同的埠。 唯一要設定的完整功能變數名稱是與存取邊緣服務相關聯的 FQDN。 
+> 如果您選擇不選取個別 FQDN 和 IP 位址的核取方塊，則必須為 Edge Server 所提供的三種服務提供不同的埠。 要設定的唯一完整功能變數名稱是與 Access Edge service 相關聯的 FQDN。 
   
-如果您希望 A/V 邊緣服務使用網路位址轉譯（NAT） IP 位址和設定，請選取 [ **a/v edge 服務已啟用 NAT** ] 核取方塊。
+如果您希望 A/V Edge service 使用網路位址轉譯 (NAT) IP 位址和設定，請選取 [ **A/V Edge service 為已啟用 NAT** ] 核取方塊。
   
-針對已啟用的邊緣服務，您可以在 [**埠**] 底下輸入 [**池 FQDN** ] 和 [埠]
+在 [已啟用的 Edge service] 中，在 [**埠**] 底下輸入**集區 FQDN**和埠
   
-- 定義**存取邊緣服務**池 FQDN，以及唯一識別該服務的埠。
+- 定義 **Access Edge service** 集區 FQDN 及可唯一識別服務的埠。
     
-- 定義**網路會議 Edge 服務**池 FQDN （如果未選取 [web 會議] 和 [a/V] 的不同 FQDN 和 IP 位址）以及唯一識別該服務的埠。
+- 若未選取 [為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址]，請定義 **Web 會議 Edge service** 集區 FQDN () 和唯一識別服務的埠。
     
-- 定義**A/V Edge 服務**池 FQDN （如果未選取 [web 會議] 和 [a/v] 的不同 FQDN 和 IP 位址）以及唯一識別該服務的埠。
+- 若未選取 [為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址]) 及可唯一識別服務的埠，請定義 **A/V Edge service** 集區 FQDN (。
     
   **確定**：接受並認可對話方塊的變更。
   

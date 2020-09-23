@@ -8,26 +8,26 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
-description: 這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
-ms.openlocfilehash: 3ebf1094151d4a2ee48bd23e51e09a61ad650119
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
+ms.openlocfilehash: 5420fae0974a39730663fd7f80267ae497200647
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819375"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217274"
 ---
 # <a name="publish-topology-reset-pool-page"></a>發行拓撲重設集區頁面
  
-這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
+這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
   
-若要將新電腦新增至現有的集區，您必須重設集區，以允許 Windows Fabric 重新定義該集區之所有成員間的連線。若要執行這項操作，請選取已新增伺服器的集區，然後按 [下一步]****。
+若要將新電腦新增至現有的集區，您必須重設集區，讓 Windows Fabric 重新定義集區所有成員之間的連線。 若要這麼做，請選取您已新增伺服器的集區，然後按 **[下一步]**。
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
-[在商務用 Skype Server 2015 中建立和發佈新的拓撲](../../deploy/install/create-and-publish-new-topology.md)
+[在商務用 Skype Server 2015 中建立及發行新的拓撲](../../deploy/install/create-and-publish-new-topology.md)

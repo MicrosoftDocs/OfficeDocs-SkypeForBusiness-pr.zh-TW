@@ -8,23 +8,23 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.ArchivingGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
-description: 在拓撲產生器中，您可以編輯執行封存之個別伺服器的內容，方法是在主控台樹狀目錄中執行封存的伺服器上按右鍵，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，再按一下 [編輯內容] 並變更下列任一選項：
-ms.openlocfilehash: 4a838b6b6246ae99de7ff5ff3d84603a0f25c2ed
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 在 [拓撲產生器] 中，您可以編輯執行封存之個別伺服器的屬性，方法是在主控台樹中以滑鼠右鍵按一下執行封存的伺服器，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容] 並變更下列任一選項：
+ms.openlocfilehash: d160b9e7294719ff2251e95e5cc2ab72dd3a6ffd
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820485"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216894"
 ---
 # <a name="archiving-server-general-settings-expander"></a>封存伺服器一般設定展開工具
  
-在拓撲產生器中，您可以編輯執行封存之個別伺服器的內容，方法是在主控台樹狀目錄中執行封存的伺服器上按右鍵，然後按一下工具列中的 [動作]****，或是按一下 [動作] 窗格中的工作，再按一下 [編輯內容] **** 並變更下列任一選項：
+在 [拓撲產生器] 中，您可以編輯執行封存之個別伺服器的屬性，方法是在主控台樹中以滑鼠右鍵按一下執行封存的伺服器，然後按一下工具列中的 [ **動作** ]，或是按一下 [動作] 窗格中的工作，然後按一下 [ **編輯** 內容] 並變更下列任一選項：
   
 - **FQDN**，以變更您要部署為執行封存之伺服器的原有伺服器完整網域名稱 (FQDN)。
     
@@ -36,6 +36,6 @@ ms.locfileid: "41820485"
 > 若要變更與執行封存之伺服器關聯的集區，請針對目前與執行封存之伺服器關聯的個別前端集區節點或 Survivable Branch Appliance 節點，選取 [編輯內容]**** 選項。
   
 > [!NOTE]
-> 如果您先前已在拓撲產生器中將執行封存的伺服器新增至拓撲，則 [封存] 節點會包含執行封存的伺服器。您可以編輯清單中的任何一部執行封存的伺服器內容。不過，除非您也已安裝執行封存之伺服器的服務，否則無法封存立即訊息或 Web 會議 (訊息)。 
+> 如果您先前已在拓撲產生器中將執行封存的伺服器新增至拓撲，則 [封存] 節點會包含執行封存的伺服器。 您可以編輯清單中的任何一部執行封存的伺服器內容。 不過，直到您也為執行封存的伺服器設定服務後，才能封存立即訊息或 web 會議 (郵件) 。 
   
 

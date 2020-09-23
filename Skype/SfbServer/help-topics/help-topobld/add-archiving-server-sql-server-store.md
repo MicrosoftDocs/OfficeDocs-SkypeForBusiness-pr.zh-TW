@@ -1,5 +1,5 @@
 ---
-title: 新增封存伺服器 SQL Server 存放區
+title: 新增封存伺服器 SQL Server 儲存區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,28 +8,28 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
-description: 封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體，才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫來進行封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫將駐留之伺服器的完整功能變數名稱（FQDN），以及 SQL Server 實例（您想要用於新的 SQL Server 資料庫（可以是您指定的預設實例或命名實例）。
-ms.openlocfilehash: d4fcb526abf0eb1ef961f5790b574a9f30a80b87
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫來封存，或定義新的 SQL server 資料庫，方法是指定 SQL Server 資料庫所在伺服器的完整功能變數名稱 (FQDN) ，以及您想要用於新 SQL Server 資料庫的 SQL Server 實例 (（可以是) 指定的預設實例或命名實例）。
+ms.openlocfilehash: eb25152916c61ff40274705a408fe0a7a618cbcc
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821285"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217434"
 ---
-# <a name="add-archiving-server-sql-server-store"></a>新增封存伺服器 SQL Server 存放區
+# <a name="add-archiving-server-sql-server-store"></a>新增封存伺服器 SQL Server 儲存區
 
-封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體，才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫來進行封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫將駐留之伺服器的完整功能變數名稱（FQDN），以及 SQL Server 實例（您想要用於新的 SQL Server 資料庫（可以是您指定的預設實例或命名實例）。
-
-> [!NOTE]
-> 如果用於發佈拓朴的帳戶具有適當的使用者權利和許可權，您可以在發佈拓撲時建立封存資料庫（LcsLog）。 您也可以日後建立資料庫，做為安裝程式的一部分，或其他方式。
+封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫來封存，或定義新的 SQL server 資料庫，方法是指定 SQL Server 資料庫所在伺服器的完整功能變數名稱 (FQDN) ，以及您想要用於新 SQL Server 資料庫的 SQL Server 實例 (（可以是) 指定的預設實例或命名實例）。
 
 > [!NOTE]
-> 若要在要存檔的 SQL Server server 伺服器上安裝及部署資料庫，您必須是安裝資料庫檔案之 SQL server 系統管理員群組的成員。 如果您不是 SQL Server 系統管理員群組的成員，您必須要求將資料庫檔案部署之後，才能將其新增至群組中。 如果您無法成為系統管理員群組的成員，您應該使用腳本來提供您的 SQL Server 資料庫系統管理員，以設定及部署資料庫。 如需有關完成程式所需的使用者權利和許可權的詳細資訊，請參閱部署檔中的[SQL Server 部署許可權](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)。
+> 如果用來發行拓撲的帳戶有適當的使用者權利和權限，您可以在發行拓撲時建立封存資料庫 (LcsLog)。您也可以之後再建立資料庫，作為安裝程序或其他程序的一部分。
+
+> [!NOTE]
+> 若要在以 SQL Server 為基礎的伺服器上安裝及部署資料庫，您必須是要安裝資料庫檔案之 SQL server 的伺服器的 SQL Server 系統管理員群組成員。 如果您不是 SQL Server 系統管理員群組的成員，則必須要求加入至群組，直到部署資料庫檔案為止。 如果您無法成為系統管理員群組的成員，則應該為 SQL Server 資料庫管理員提供腳本，以設定及部署資料庫。 如需您完成程序所需之使用者權利和權限的詳細資訊，請參閱部署文件中的＜[Deployment Permissions for SQL Server](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)＞。
 
 

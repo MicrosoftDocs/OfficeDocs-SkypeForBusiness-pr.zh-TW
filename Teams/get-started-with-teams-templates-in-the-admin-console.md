@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171097"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218574"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理主控台中的團隊範本快速入門
 
@@ -88,7 +88,7 @@ ms.locfileid: "48171097"
 |零售經理共同作業| `retailManagerCollaboration` |管道 <ul><li>一般<li>營運</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
 ||||
 
-如需範本類別的詳細資訊，請參閱下列內容：
+如需範本類別的詳細資訊，請參閱下列類別：
 
 - [財務範本](financial-teams-templates-in-the-admin-console.md)
 - [一般範本](general-teams-templates-in-the-admin-console.md)
