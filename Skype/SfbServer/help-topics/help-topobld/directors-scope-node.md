@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: '[Director 集區] 節點會列出您的拓撲中的 Director 集區。 您可以執行下列動作：'
-ms.openlocfilehash: 802cf2161ede835c58b94d0bbde34f4a1edd2916
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 81945ff70a46bd0507cc5ff8c8d463a2b66f0ebe
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820105"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218974"
 ---
 # <a name="directors-scope-node"></a>Director 範圍節點
  
@@ -30,7 +30,7 @@ ms.locfileid: "41820105"
     
 除了 Director 集區選項之外，您還可以執行下列一般工作：
   
-- **拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併來自舊版的元件，或是移除部署。
+- **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，從舊版中合併元件，或移除部署。
     
 - **檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。
     

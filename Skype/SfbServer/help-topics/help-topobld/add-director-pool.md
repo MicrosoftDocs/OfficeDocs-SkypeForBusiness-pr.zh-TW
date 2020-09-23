@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
-description: 若要定義控制器池 FQDN，請選取多個電腦池，其中包含負載平衡池中的兩個或多個控制器，或是單一電腦池。 您也必須輸入要用來連線到主管池或單一控制器 FQDN 的完整功能變數名稱（FQDN）。 對於控制器電腦池，這會是硬體負載平衡器之虛擬 IP 的網域名稱系統（DNS）專案，或是 DNS 負載平衡的共用 DNS 專案。
-ms.openlocfilehash: 1a419c6a27118cbdf7ffe841a39b9b60e6e84577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要定義 Director 集區 FQDN，請選取要包含在負載平衡集區中的兩個或多個 Director 或單一電腦集區的多部電腦集區。 您也必須輸入要用來連接 Director 集區的完整功能變數名稱 (FQDN) 或單一 Director 的 FQDN。 針對 Director 電腦的集區，這會是網域名稱系統 (DNS) 專案，以供硬體負載平衡器的虛擬 IP 或 DNS 負載平衡的共用 DNS 專案使用。
+ms.openlocfilehash: 9209fa9e4417644b20b95668b05e660114414efc
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821185"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219484"
 ---
 # <a name="add-director-pool"></a>新增 Director 集區
  
-若要**定義控制器池 FQDN**，請選取**多個電腦池**，其中包含負載平衡池中的兩個或多個控制器，或是**單一電腦池**。 您也必須輸入要用來連線到主管池或單一控制器 FQDN 的完整功能變數名稱（FQDN）。 對於控制器電腦池，這會是硬體負載平衡器之虛擬 IP 的網域名稱系統（DNS）專案，或是 DNS 負載平衡的共用 DNS 專案。
+若要**定義 Director 集區 FQDN**，請選取要包含在負載平衡集區中的兩個或多個 Director 或**單一電腦集**區的**多部電腦集**區。 您也必須輸入要用來連接 Director 集區的完整功能變數名稱 (FQDN) 或單一 Director 的 FQDN。 針對 Director 電腦的集區，這會是網域名稱系統 (DNS) 專案，以供硬體負載平衡器的虛擬 IP 或 DNS 負載平衡的共用 DNS 專案使用。
   
 > [!TIP]
-> 如果您打算在將來實施控制器池，請選取 [**多個電腦池**]。 即使某個池已定義為兩個以上的負載平衡電腦，您也可以建立單一電腦池，並為單一電腦建立一個池 FQDN。 當您準備好要稍後再新增更多電腦至池中時，您必須再次執行拓撲建立器，以定義新的池成員、發佈新的拓撲，然後透過商務用 Skype Server 部署嚮導來設定新的控制器池成員。 您也必須將新的池成員新增到該池的適當負載平衡器、[網域名稱系統（DNS）負載平衡] 或 [硬體負載平衡器]。 在許多情況下，系統會同時進行兩個負載平衡系統。 請確定您要將新的成員伺服器新增到兩者中。 
+> 如果您打算未來實作 Director 集區，請選取 [多部電腦集區]****。 即使集區定義為兩部以上負載平衡的電腦，您仍可建立單一電腦集區，並為單一電腦建立集區 FQDN。 當您準備好將更多電腦新增至集區之後，您必須再次執行拓撲產生器以定義新的集區成員、發佈新的拓撲，然後透過商務用 Skype Server 部署嚮導設定新的 Director 集區成員。 您也必須新增集區成員至集區的適當負載平衡器、網域名稱系統 (DNS) 負載平衡或硬體負載平衡器。 在許多情況下，您會同時具有兩種負載平衡系統。 請務必將新成員伺服器同時新增到這兩種系統。 
   
 

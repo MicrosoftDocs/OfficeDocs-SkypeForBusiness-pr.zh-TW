@@ -8,64 +8,64 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
-description: 若要編輯一或多個現有服器 Edge 集區的設定，請參考下列區段：
-ms.openlocfilehash: 963d396705bb2bc692cdd22e8857f23d351a95b0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要編輯現有單一或多部伺服器 Edge 集區的設定，您會看到下列各節：
+ms.openlocfilehash: c2d4ec8e97557a584821bb82ef1d24b9bfa7a9bb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820015"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218894"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 
-若要編輯一或多個現有服器 Edge 集區的設定，請參考下列區段：
+若要編輯現有單一或多部伺服器 Edge 集區的設定，您會看到下列各節：
 
 - 一般設定
 
-- 下一個躍點選取範圍設定
+- 下一個躍點選取設定
 
-- Edge Server 組態
+- Edge Server 設定
 
 
 
 ## <a name="general-settings"></a>一般設定
 
-Edge Server 集區的內部集區完整網域名稱 (FQDN)。編輯集區的 FQDN 以變更此設定。
+Edge Server 集區的內部集區完整功能變數名稱 (FQDN) 。 編輯集區的 FQDN，以變更此設定。
 
-如果您要將同盟設定為使用 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office 通訊伺服器 2007 R2 信任合作夥伴，請選取 [**針對此 Edge 池啟用同盟（埠5061）** ] 核取方塊。
+選取 [啟用此 Edge 集區的同盟] 核取方塊。如果您要設定與 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office 通訊伺服器 2007 R2 信任的同盟搭配使用，請 ** (埠 5061) ** 。
 
-選取 [啟用此 Edge 集區的 XMPP 同盟]****，啟用 XMPP 同盟。
+選取 [ **啟用此 Edge 集區的 XMPP 同盟** ] 以啟用 XMPP 同盟。
 
-指定 [內部組態複寫連接埠 (HTTPS)]**** 的連接埠號碼。
+指定內部配置複寫埠的埠號碼 ** (HTTPS) **。
 
-## <a name="next-hop-selection-settings"></a>下一個躍點選取範圍設定
+## <a name="next-hop-selection-settings"></a>下一個躍點選取設定
 
-若要設定或修改 Edge Server 用來與內部基礎結構進行通訊的 [下一個躍點集區]****，請從下拉式清單方塊中，選取 Director、Director 集區、前端伺服器或前端伺服器集區。 只有已在拓撲結構建立器中設定的控制器或端點會顯示選取範圍。
+若要設定或修改 Edge server 將用來與內部基礎結構通訊的 **下一個躍點** 集區，請從下拉式清單方塊中選取 Director、director 集區、前端伺服器或前端伺服器集區。 只會顯示已在拓撲產生器中設定的 Director 或前端，以供選取。
 
-## <a name="edge-server-configuration"></a>Edge Server 組態
+## <a name="edge-server-configuration"></a>Edge Server 設定
 
-若要為 Edge Server 編輯或指定 [外部設定]**** 的相關設定，必須先判定是否要針對 SIP 存取、Web 會議與音訊/視訊服務使用個別的 IP 位址。
+若要編輯或指定 Edge Server 的 **外部設定** 設定，您必須先決定是否要針對 SIP 存取、web 會議和 Audio/Video 服務使用個別的 IP 位址。
 
-如果您想要讓每一項使用個別 IP 位址，請選取 [為 Web 會議和 A/V 啟用個別 FQDN 和 IP 位址]****。每一項服務必須具有專為其建立的對應 DNS 主機 (A) 記錄。
+如果您想要讓每一項使用個別 IP 位址，請選取核取方塊 **[為 Web 會議和 A/V 啟用個別 FQDN 和 IP 位址]**。 每個服務都必須有對應的 DNS 主機 (為它建立的) 記錄。
 
-您必須針對每一個對外服務指定 FQDN 以及相關聯的連接埠。例如，[SIP 存取]**** 會使用 sip.contoso.com 以及相關聯的連接埠 5061。
-
-> [!IMPORTANT]
-> 如果您為每個對外的服務選取個別 FQDN，則每個服務必須有相關聯的唯一連接埠值。根據預設，SIP 位於連接埠 5061/TLS，Web Conferencing Edge Service 則位於連接埠 444/TLS，而 A/V 會議伺服器則位於連接埠 443/TLS。如果您變更以上任何設定，包括使用個別 FQDN 和 IP 位址或連接埠，即必須更新依賴初始設定值的所有其他服務。
-
-如果您決定讓組織的對外服務使用單一 FQDN 和 IP 位址，請清除 [為 Web 會議和 A/V 啟用個別 FQDN 和 IP 位址]**** 核取方塊。接著就可以根據需要，編輯 [SIP 存取]**** 集區 FQDN 和連接埠值。
+針對每個對外服務，您可以指定 FQDN 和關聯的埠。 例如， **SIP 存取** 將使用 sip.contoso.com 與關聯的埠5061。
 
 > [!IMPORTANT]
-> 如果您變更其中任何設定，包括使用個別 FQDN 和 IP 位址或連接埠，您必須更新其他所有依賴初始設定值的服務。
+> 如果您為每個對外的服務選取個別 FQDN，則每個服務必須有關聯的唯一連接埠值。 根據預設，SIP 位於埠5061/TLS 上，web 會議 edge service 位於埠444/TLS 上，而 A/V 會議伺服器位於埠443/TLS 上。 如果您變更其中任何設定，包括使用個別 FQDN 和 IP 位址或埠，您必須更新其他所有依賴初始設定值的服務。
 
-## <a name="see-also"></a>另請參閱
+如果您決定讓組織的對外服務使用單一 FQDN 和 IP 位址，請清除 **[為 Web 會議和 A/V 啟用個別 FQDN 和 IP 位址]** 核取方塊。然後您就可以視需要編輯 **[SIP 存取]** 集區 FQDN 和連接埠值。
 
-如需詳細瞭解定義和設定 Edge Service 的設定，請參閱〈[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)〉。
+> [!IMPORTANT]
+> 如果您變更其中任何設定，包括使用個別 FQDN 和 IP 位址或埠，您必須更新其他所有依賴初始設定值的服務。
+
+## <a name="see-also"></a>請參閱
+
+如需定義及設定 Edge Service 設定的詳細資訊，請參閱 [定義您的 Edge 拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
 
 

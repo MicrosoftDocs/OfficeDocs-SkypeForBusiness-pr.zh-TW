@@ -20,22 +20,39 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
-ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47327226"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48220231"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
+> [!NOTE]
+> 本文中討論的其中一個功能， [自訂原則套件](#custom-policy-packages)尚未發佈。 我們即將推出私人預覽版。
+
 Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集合，您可以指派給在組織中擁有相似角色的使用者。 我們建立了原則套件，以簡化、簡化，並在管理組織中的使用者群組原則時提供一致性。  
 
-當您將原則套件指派給使用者時，會建立套件中的原則，然後您就可以自訂套件中原則的設定，以符合貴組織的需求。
+您可以使用 [小組所包含的原則套件](#policy-packages-included-in-teams) ，或 [建立您自己的自訂原則套件](#custom-policy-packages) (即將推出私人預覽版) 。
 
-## <a name="what-is-a-policy-package"></a>什麼是原則套件
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="系統管理中心 [原則套件] 頁面的螢幕擷取畫面":::
+
+您可以自訂原則套件中原則的設定，以符合您的使用者需求。 當您變更套件中的原則設定時，指派給該套件的所有使用者都會取得更新的設定。 您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來管理原則套件。
+
+## <a name="what-is-a-policy-package"></a>什麼是原則套件？
 
 [原則套件] 可讓您控制您想要允許或限制整個組織中特定人員組的小組功能。 團隊中的每個原則套件都是圍繞使用者角色來設計，包含預先定義的原則與原則設定，可支援該角色的共同作業及通訊活動。
+
+原則套件支援下列團隊原則類型：
+
+- 訊息原則
+- 會議原則
+- App 設定原則
+- 通話原則
+- 即時活動原則
+
+## <a name="policy-packages-included-in-teams"></a>團隊中包含的原則套件
 
 團隊目前包含下列原則套件。
 
@@ -64,26 +81,54 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 ![教育版 (教師) 原則套件的螢幕擷取畫面](media/policy-packages-education_teacher.png)
 
+## <a name="custom-policy-packages"></a>自訂原則套件
+
+**此功能即將推出至私人預覽版**
+
+自訂原則套件可讓您將自己的一組原則與組織中相似角色的使用者捆綁。 新增您所需的原則類型和原則，建立您自己的原則套件。
+
+若要建立新的自訂策略套件：
+
+1. 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **原則套件**]，然後按一下 [ **新增**]。
+    :::image type="content" source="media/policy-packages-add.png" alt-text="系統管理中心 [原則套件] 頁面上的 [新增] 按鈕的螢幕擷取畫面":::
+2. 輸入套件的名稱和描述。
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="新增自訂策略套件的螢幕擷取畫面":::
+3. 選取要包含在套件中的原則類型和原則名稱。
+4. 按一下 [儲存]****。
+
 ## <a name="how-to-use-policy-packages"></a>如何使用原則套件
 
 下列概要說明如何在您的組織中使用原則套件。
 
 ![使用原則套件的概覽](media/manage-policy-packages-overview.png)
 
-- [**[查看](#view-the-settings-of-a-policy-in-a-policy-package)**]：在指派套件前，請先查看原則套件中每個原則的設定。 請確定您已瞭解每個設定，然後決定預先定義的值是否適合您的組織，或者您是否需要根據貴組織的需求將它們變更為更具限制性或 lenient。
+- [**[查看](#view-the-settings-of-a-policy-in-a-policy-package)**]：在原則套件中查看原則。 然後，在指派套件之前，先查看套件中每個原則的設定。 請務必瞭解每個設定。 決定預先定義的值是否適合您的組織，或是否需要根據貴組織的需求將其變更為更具限制或 lenient。
 
     如果刪除策略，您仍然可以查看設定，但無法變更任何設定。 當您指派原則套件時，會使用預先定義的設定來重新建立已刪除的原則。
 
-- **[指派](#assign-a-policy-package)**：將原則套件指派給使用者。 請記住，在您指派套件前，不會建立原則套件中的原則，在您指派套件之前，您可以變更套件中個別原則的設定。  
+- **[自訂](#customize-policies-in-a-policy-package)**：自訂原則套件中的原則設定，以符合貴組織的需求。
 
-- **[自訂](#customize-policies-in-a-policy-package)**：自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。
+- **[指派](#assign-a-policy-package)**：將原則套件指派給使用者。  
+
+> [!NOTE]
+> 您也可以在指派套件後，變更原則套件中的原則設定。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。
 
 以下是如何在 Microsoft 團隊系統管理中心中查看、指派及自訂策略套件的步驟。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>在原則套件中查看原則的設定
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [ **原則套件**]，然後按一下套件名稱左邊的，選取 [原則套件]。
+1. 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **原則套件**]，然後按一下套件名稱左邊的，選取 [原則套件]。
 2. 按一下您要查看的原則。
+
+### <a name="customize-policies-in-a-policy-package"></a>在原則套件中自訂策略
+
+您可以透過 [ **原則套件** ] 頁面編輯原則設定，或是直接移至 Microsoft [小組管理中心] 中的 [原則] 頁面。
+
+1. 在 Microsoft [團隊管理中心] 的左導覽中，執行下列其中一項操作：
+    - 按一下 [ **原則套件**]，然後按一下套件名稱左方，選取 [原則套件]。
+    - 按一下原則類型。  例如，按一下 [ **訊息原則**]。
+2. 選取您要編輯的原則。 連結至原則套件的原則與原則套件的名稱相同。
+3. 進行您想要的變更，然後按一下 [ **儲存**]。
 
 ### <a name="assign-a-policy-package"></a>指派原則套件
 
@@ -106,24 +151,6 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 批次最多可包含5000個使用者。 您可以依物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入瞭解，請參閱 [將原則套件指派給一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 
-### <a name="customize-policies-in-a-policy-package"></a>在原則套件中自訂策略
-
-您可以透過 [ **原則套件** ] 頁面編輯原則設定，或是直接移至 Microsoft [小組管理中心] 中的 [原則] 頁面。
-
-1. 在 Microsoft [團隊管理中心] 的左導覽中，執行下列其中一項操作：
-    - 按一下 [ **原則套件**]，然後按一下套件名稱左方，選取 [原則套件]。
-    - 按一下原則類型。  例如，按一下 [ **訊息原則**]。
-2. 按一下您要編輯的原則。 連結至原則套件的原則與原則套件的名稱相同。
-3. 進行您想要的變更，然後按一下 [ **儲存**]。
-
-## <a name="supported-policy-types"></a>支援的原則類型
-
-- 訊息傳送
-- 會議
-- 通話
-- App 設定
-- 即時活動
-
 ## <a name="troubleshooting"></a>疑難排解
 
 **當您指派原則套件時，收到錯誤訊息**
@@ -132,4 +159,10 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 ## <a name="related-topics"></a>相關主題
 
-[適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
+[指派策略給小組中的使用者](assign-policies.md)
+
+[EDU 管理員的團隊原則套件](policy-packages-edu.md)
+
+[醫療保健的團隊原則套件](policy-packages-healthcare.md)
+
+[政府團隊原則套件](policy-packages-gov.md)

@@ -8,23 +8,23 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-description: 您可以使用編輯現有部署下列區段的內容：
-ms.openlocfilehash: 972abaf61a481ae21ea87e09b8355b4481c7f1c1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以使用下列區段編輯現有部署的屬性：
+ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820145"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219064"
 ---
 # <a name="deployment-settings-expander"></a>部署設定展開工具
 
-您可以使用編輯現有部署下列區段的內容：
+您可以使用下列區段編輯現有部署的屬性：
 
 - SIP 網域
 
@@ -42,7 +42,7 @@ ms.locfileid: "41820145"
 
 若要移除已定義的其他 SIP 網域名稱，請選取網域名稱，然後按一下 [移除]****。
 
-當您在「編輯內容」頁面上完成所有變更時，按一下 [確定]**** 以儲存變更。 按一下 [取消]**** 捨棄任何變更。
+當您在 [編輯內容] 頁面上完成所有變更時，按一下 [確定]**** 以儲存變更。按一下 [取消]**** 捨棄任何變更。
 
 ## <a name="simple-urls"></a>簡單 URL
 
@@ -64,7 +64,7 @@ ms.locfileid: "41820145"
 
 若要編輯或變更系統管理存取 URL，請編輯項目。
 
-當您在「編輯內容」頁面上完成所有變更時，按一下 [確定]**** 以儲存變更。按一下 [取消]**** 捨棄任何變更。
+當您在 [編輯內容] 頁面上完成所有變更時，按一下 [確定]**** 以儲存變更。按一下 [取消]**** 捨棄任何變更。
 
 ## <a name="central-management-server"></a>中央管理伺服器
 
@@ -73,10 +73,10 @@ ms.locfileid: "41820145"
 > [!IMPORTANT]
 > 定義、發行及部署基礎結構的中央管理存放區之後，必須以外部程序將中央管理存放區重新放置到另一個前端，才能變更中央管理存放區的位置。
 
-如需移動中央管理存放區的詳細資訊，請參閱 Windows PowerShell Cmdlet 參考的 [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)。
+如需移動中央管理存放區的詳細資訊，請參閱 Windows PowerShell Cmdlet 參考中的 [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
-如需定義和設定這些設定的詳細資訊，請參閱〈[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)〉。
+如需定義和設定這些設定的詳細資訊，請參閱＜[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)＞。
 
 

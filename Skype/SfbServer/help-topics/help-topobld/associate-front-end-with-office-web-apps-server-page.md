@@ -8,34 +8,34 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-description: Office Web Apps 伺服器提供的服務與簡報者上傳檔以供在會議中使用，但卻啟用先前版本所沒有的其他功能。
-ms.openlocfilehash: 97c9a98220c8166c9817b4f287389061a8a2a6ec
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Office Web Apps Server 提供的服務類似于簡報者上傳檔，以用於會議，但是會啟用先前版本沒有的其他功能。
+ms.openlocfilehash: 68897287041afd23a75d8564d2fed24004313b34
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820375"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219524"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>建立前端與 Office Web Apps Server 的關聯頁面
 
-Office Web Apps 伺服器提供的服務與簡報者上傳檔以供在會議中使用，但卻啟用先前版本所沒有的其他功能。
+Office Web Apps Server 提供的服務類似于簡報者上傳檔，以用於會議，但是會啟用先前版本沒有的其他功能。
 
-如果您已選取 [會議] 做為商務用 Skype Server 2015 設定的其中一個功能選項，請為您的部署選取 [Office Web Apps 伺服器]。
+如果您已選擇會議做為商務用 Skype Server 2015 設定的其中一個功能選項，請選取您部署的 Office Web Apps Server。
 
 此對話方塊的選項提供您下列選擇：
 
-1. 將**pool 與 Office Web Apps 伺服器建立關聯**-如果您要為您的會議使用者提供並部署 Office Web apps 伺服器，請選取此核取方塊。
+1. **建立集區與 Office Web Apps server 的關聯** -如果您將為會議使用者提供及部署 Office Web apps server，請選取此核取方塊。
 
 2. 如果未選取此核取方塊，您可以使用清單選取已定義的 Office Web Apps Server。
 
 3. 按一下 [新增]**** 定義用於部署的新 Office Web Apps Server。
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
-[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[使用反向 Proxy 伺服器發佈 Office Web Apps Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

@@ -8,41 +8,41 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
-description: 若要將 Edge 伺服器電腦的屬性編輯為單一邊緣伺服器或邊緣池中的成員電腦，請設定伺服器名稱和 IP 位址設定設定：
-ms.openlocfilehash: b90a3a00dcb1198e696112fc3d3ded08ff00060d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要以單一 Edge Server 或 Edge 集區中的成員電腦的身分編輯 Edge Server 電腦的屬性，請設定伺服器名稱及 IP 位址設定設定：
+ms.openlocfilehash: eb2135391791fdb915578fe9938329b56c85908c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820095"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218924"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edge 電腦設定展開工具 (適用於 Lync Server 2010)
  
-若要將 Edge 伺服器電腦的屬性編輯為單一邊緣伺服器或邊緣池中的成員電腦，請設定**伺服器名稱和 IP 位址**設定設定：
+若要以單一 Edge Server 或 Edge 集區中的成員電腦的身分編輯 Edge Server 電腦的屬性，請設定 **伺服器名稱及 IP 位址** 設定設定：
   
-- **內部名稱或 FQDN**：請輸入在網域名稱系統（DNS）中參照的電腦名稱稱。 
+- **內部名稱或 FQDN**：輸入網域名稱系統 (DNS) 中所參照的電腦名稱稱。 
     
-- **內部 IPv4 位址**：輸入此電腦內部網路介面卡（NIC）的 IPv4 位址。
+- **Internal IPv4 address**：輸入這部電腦之內部網路介面卡 (NIC) 的 IPv4 位址。
     
-- 您可以設定與此電腦關聯的 [**存取邊緣服務****外部 IPv4 位址**]
+- 設定與此電腦相關聯的**Access Edge service** **外部 IPv4 位址**
     
     > [!IMPORTANT]
-    > 如果您已選取針對 Edge 伺服器設定使用單一 IP 位址，您將只能編輯存取邊緣服務的外部 IPv4 位址。 其他邊緣服務將與存取邊緣服務共用相同的 IPv4 位址。 
+    > 如果您選擇使用單一 IP 位址進行 Edge Server 設定，則只能編輯 Access Edge service 的外部 IPv4 位址。 其他 Edge 服務會與 Access Edge service 共用相同的 IPv4 位址。 
   
-- 如果可供編輯，您可以設定**網路會議服務**與此電腦相關聯的**外部 IPv4 位址**
+- 若可編輯，請設定**Web 會議服務**與此電腦相關聯的**外部 IPv4 位址**
     
-- 如果可供編輯，您可以設定與此電腦相關聯**的 A/V Edge 服務****外部 IPv4 位址**
+- 若可供編輯，您可以設定與此電腦相關聯的**A/V Edge service** **外部 IPv4 位址**
     
-- 如果可供編輯，您可以設定與此電腦關聯的**NAT 啟用公用 IPv4 位址**。
+- 若可供編輯，請設定與此電腦相關聯且 **已啟用 NAT 的公用 IPv4 位址** 。
     
     > [!IMPORTANT]
-    > 如果您選擇為 A/V 邊緣服務提供網路位址轉譯（NAT），就可以編輯**支援 NAT 之公用 IPv4 位址**的 configuration 屬性
+    > 只有在您選擇為 A/V Edge service 提供網路位址轉譯 (NAT) 時，才可編輯 **啟用 NAT 之公開 IPv4 位址** 的 configuration 屬性。
   
   **確定**：接受並認可對話方塊的變更。
   

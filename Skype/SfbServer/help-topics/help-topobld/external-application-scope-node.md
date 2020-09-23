@@ -8,33 +8,33 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
-description: 此節點會顯示此信任的應用程式集區的集區完整網域名稱 (FQDN)、複寫設定和下一個躍點集區。您可以執行下列動作：
-ms.openlocfilehash: 1f92255c156cd7845385ae7368916177d4cbd2ca
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此節點會顯示此信任的應用程式集區的集區完整功能變數名稱 (FQDN) 、複寫設定和下一個躍點集區。 您可以執行下列動作：
+ms.openlocfilehash: e913a227b3d5a16384b7f7503ae6e7be693c1736
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819965"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218824"
 ---
 # <a name="external-application-scope-node"></a>外部應用程式範圍節點
  
-此節點會顯示此信任的應用程式集區的集區完整網域名稱 (FQDN)、複寫設定和下一個躍點集區。您可以執行下列動作：
+此節點會顯示此信任的應用程式集區的集區完整功能變數名稱 (FQDN) 、複寫設定和下一個躍點集區。 您可以執行下列動作：
   
-- **新增伺服器**。啟動 [定義新的伺服器精靈]****，以便將其他伺服器新增到此信任的應用程式集區。
+- **新增伺服器**。 啟動 [ **定義新的伺服器** ] 嚮導，您可以用來將另一部伺服器新增至此信任的應用程式集區。
     
-- **編輯內容**。開啟此伺服器的「編輯內容」**** 頁面，在此設定內部與外部集區 FQDN 及連接埠，啟用與停用同盟關係及 NAT，並指定下一個躍點集區。
+- **編輯內容**。 開啟此伺服器的「 **編輯** 內容」頁面，您可以在其中設定內部和外部集區 FQDN 和埠、啟用及停用同盟及網路位址轉譯 (NAT) ，以及指定下一個躍點集區。
     
-- **刪除**。可從拓撲刪除集區。
+- **刪除**。從拓撲刪除集區。
     
 除了這些選項之外，您也可以執行下列一般工作：
   
-- **拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併元件或是移除部署。
+- **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，或移除部署。
     
 - **檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。
     

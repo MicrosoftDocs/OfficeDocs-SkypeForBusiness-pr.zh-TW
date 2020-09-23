@@ -8,28 +8,28 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
-description: 這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
-ms.openlocfilehash: 33768e7e3d95d75018efeac81393465932d2b81b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
+ms.openlocfilehash: c60871e5ec094c878c9ed093022c88a714cbe3be
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819395"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219114"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>發行拓撲建立鏡像資料庫頁面
  
-這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
+這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
   
-拓撲建立器會分析您定義的拓撲檔中的所有設定。 如果您已設定鏡像的 SQL Server 資料庫，您會看到顯示鏡像儲存體、主要商店、檔案共用路徑和資料庫路徑的畫面。 您可以選取與資料庫鏡像存放區相關聯的核取方塊，以建立鏡像資料庫及檔案共用路徑。 如果您不想要建立資料庫並將其部署到已定義的 SQL Server，請清除資料庫鏡像的核取方塊。
+拓撲產生器會分析定義的拓撲檔中的所有設定設定。 如果您已設定鏡像的 SQL Server 資料庫，則會呈現一個畫面，顯示鏡像存放區、主要儲存區、檔案共用路徑及資料庫路徑。 您可以選取與資料庫鏡像儲存區相關聯的核取方塊，以建立鏡像資料庫及檔共用路徑。 如果您不想要建立資料庫並將其部署至已定義的 SQL Server，請清除資料庫鏡像的核取方塊。
   
- 如果您在目前選取 [不安裝其中一個或所有的資料庫]，請清除您不會安裝的資料庫。 稍後，您可以在拓撲建立器中，以滑鼠右鍵按一下大多數節點專案，選擇使用 [**安裝資料庫**]。
+ 如果您選取 [不要此時安裝這兩個資料庫中的一或全部]，請清除不會安裝的資料庫。 稍後，您可以選擇在拓撲產生器中，以滑鼠右鍵按一下大多數節點專案，以使用 [ **安裝資料庫** ]。
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
-[在商務用 Skype Server 2015 中部署適用于後端伺服器高可用性的 SQL 鏡像](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[為商務用 Skype Server 2015 中的後端伺服器高可用性部署 SQL 鏡像](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

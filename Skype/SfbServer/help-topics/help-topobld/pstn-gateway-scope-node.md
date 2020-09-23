@@ -8,31 +8,31 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 這個節點會顯示完整的功能變數名稱（FQDN）、關聯的中繼伺服器，以及此公用交換電話網絡（PSTN）閘道的其他基本資訊。 您可以執行下列動作：
-ms.openlocfilehash: a67af588713cafe50b5b0849eb444afbafb791c2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此節點會顯示完整功能變數名稱 (FQDN) 、關聯的轉送伺服器，以及此公用交換電話網路 (PSTN) 閘道的其他基本資訊。 您可以執行下列動作：
+ms.openlocfilehash: a1b3fc93bba9eef9f46108d3dd5c368f7e0b8de5
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819425"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219738"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 閘道範圍節點
  
-這個節點會顯示完整的功能變數名稱（FQDN）、關聯的中繼伺服器，以及此公用交換電話網絡（PSTN）閘道的其他基本資訊。 您可以執行下列動作：
+此節點會顯示完整功能變數名稱 (FQDN) 、關聯的轉送伺服器，以及此公用交換電話網路 (PSTN) 閘道的其他基本資訊。 您可以執行下列動作：
   
-- **編輯內容**。開啟此閘道的「編輯內容」**** 頁面，以供您變更其 FQDN (如果尚未發行拓撲)、聆聽連接埠、傳輸通訊協定和其他媒體 IP 位址。
+- **編輯內容**。 開啟此閘道的 [ **編輯** 內容] 頁面，您可以在其中變更其 FQDN (若尚未發行拓撲，) 、聆聽埠、傳輸通訊協定和備用媒體 IP 位址。
     
 - **刪除**。從拓撲中刪除伺服器。
     
 除了這些選項之外，您也可以執行下列一般工作：
   
-- **拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併元件，或是移除部署。
+- **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，合併元件，或移除部署。
     
 - **檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。
     
