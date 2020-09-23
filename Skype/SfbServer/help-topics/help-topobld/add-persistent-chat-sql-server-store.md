@@ -1,5 +1,5 @@
 ---
-title: 新增常設聊天室 SQL Server 儲存區
+title: 新增常設聊天室 SQL Server 存放區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,56 +8,56 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
-description: 您設定的 SQL Server 存儲將提供持久聊天伺服器或持久聊天伺服器池的資料庫。
-ms.openlocfilehash: 36939e6192b8d26e5fa84c3c2fe5ef4efe45b577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 設定會為 Persistent Chat Server 或 Persistent Chat Server 集區提供資料庫的 SQL Server 存放區。
+ms.openlocfilehash: 2771b63063e155973cd711c4b80f06dee46e1865
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820655"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216324"
 ---
-# <a name="add-persistent-chat-sql-server-store"></a><span data-ttu-id="6282e-103">新增常設聊天室 SQL Server 儲存區</span><span class="sxs-lookup"><span data-stu-id="6282e-103">Add Persistent Chat SQL Server Store</span></span>
+# <a name="add-persistent-chat-sql-server-store"></a><span data-ttu-id="35b63-103">新增常設聊天室 SQL Server 存放區</span><span class="sxs-lookup"><span data-stu-id="35b63-103">Add Persistent Chat SQL Server Store</span></span>
  
-<span data-ttu-id="6282e-104">您設定的 SQL Server 存儲將提供持久聊天伺服器或持久聊天伺服器池的資料庫。</span><span class="sxs-lookup"><span data-stu-id="6282e-104">You configure the SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server pool.</span></span>
+<span data-ttu-id="35b63-104">設定會為 Persistent Chat Server 或 Persistent Chat Server 集區提供資料庫的 SQL Server 存放區。</span><span class="sxs-lookup"><span data-stu-id="35b63-104">You configure the SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server pool.</span></span>
   
- <span data-ttu-id="6282e-105">**SQL server store**：選取現有的 SQL Server，並選擇性地使用持久聊天的實例。</span><span class="sxs-lookup"><span data-stu-id="6282e-105">**SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.</span></span>
+ <span data-ttu-id="35b63-105">**SQL server 儲存區**：選取現有的 SQL Server，並選擇性地選取持久聊天的實例。</span><span class="sxs-lookup"><span data-stu-id="35b63-105">**SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.</span></span>
   
-<span data-ttu-id="6282e-106">按一下 [**新增**] 以定義新的 SQL Server，以及可選擇的持續聊天資料的新實例。</span><span class="sxs-lookup"><span data-stu-id="6282e-106">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat data.</span></span>
+<span data-ttu-id="35b63-106">按一下 [ **新增** ] 可定義新的 SQL Server，並選擇性地定義持久聊天資料的新實例。</span><span class="sxs-lookup"><span data-stu-id="35b63-106">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat data.</span></span>
   
-<span data-ttu-id="6282e-107">選取 [**啟用 SQL server store 鏡像**] 核取方塊，以設定 sql Server 資料庫及可為持續聊天資料提供鏡像資料庫的選用實例。</span><span class="sxs-lookup"><span data-stu-id="6282e-107">Select the **Enable SQL Server store mirroring** checkbox to configure a SQL Server database and optional instance that will provide a mirrored database for the Persistent Chat data.</span></span>
+<span data-ttu-id="35b63-107">選取 [ **啟用 SQL server 儲存區鏡像** ] 核取方塊可設定 sql server 資料庫和選用實例，為持久聊天資料提供鏡像資料庫。</span><span class="sxs-lookup"><span data-stu-id="35b63-107">Select the **Enable SQL Server store mirroring** checkbox to configure a SQL Server database and optional instance that will provide a mirrored database for the Persistent Chat data.</span></span>
   
-<span data-ttu-id="6282e-108">從清單中選取 [**鏡像 Sql server** ]，將 sql server 和選用實例當作持久聊天 sql SERVER 的 sql server 鏡像。</span><span class="sxs-lookup"><span data-stu-id="6282e-108">Select from the list **Mirroring SQL Server store** a SQL Server and optional instance to act as the SQL Server mirror for the Persistent Chat SQL Server.</span></span>
+<span data-ttu-id="35b63-108">從 [ **鏡像 Sql server 儲存區** ] 清單中，選取要充當 PERSISTENT Chat sql SERVER 之 sql server 鏡像的 sql server 和選用實例。</span><span class="sxs-lookup"><span data-stu-id="35b63-108">Select from the list **Mirroring SQL Server store** a SQL Server and optional instance to act as the SQL Server mirror for the Persistent Chat SQL Server.</span></span>
   
-<span data-ttu-id="6282e-109">按一下 [**新增**] 來定義新的 SQL server，也可以選擇使用持久聊天 SQL server 鏡像的新實例。</span><span class="sxs-lookup"><span data-stu-id="6282e-109">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat SQL Server mirroring.</span></span>
+<span data-ttu-id="35b63-109">按一下 [ **新增** ] 可定義新的 SQL server，並選擇性地定義 PERSISTENT Chat SQL server 鏡像的新實例。</span><span class="sxs-lookup"><span data-stu-id="35b63-109">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat SQL Server mirroring.</span></span>
   
-<span data-ttu-id="6282e-110">選取 [使用 SQL Server 鏡像見證啟用自動容錯移轉]\*\*\*\* 清單，此 SQL Server 會在容錯移轉案例中擔任見證伺服器。</span><span class="sxs-lookup"><span data-stu-id="6282e-110">Select the list **Use SQL Server mirroring witness to enable automatic failover** a SQL Server that will act as the witness server in failover scenarios.</span></span> <span data-ttu-id="6282e-111">見證伺服器不會針對持久聊天伺服器進行鏡像或主機資料，但可確保鏡像配置中只有一個 SQL Server 在任何時候都是作用中的 SQL 伺服器。</span><span class="sxs-lookup"><span data-stu-id="6282e-111">The witness server does not mirror or host data for the Persistent Chat servers, but ensures that only one SQL Server in a mirrored configuration is the active SQL Server at any time.</span></span>
+<span data-ttu-id="35b63-110">選取 [使用 SQL Server 鏡像見證啟用自動容錯移轉]\*\*\*\* 清單，此 SQL Server 會在容錯移轉案例中擔任見證伺服器。</span><span class="sxs-lookup"><span data-stu-id="35b63-110">Select the list **Use SQL Server mirroring witness to enable automatic failover** a SQL Server that will act as the witness server in failover scenarios.</span></span> <span data-ttu-id="35b63-111">見證伺服器不會鏡像或裝載 Persistent 聊天伺服器的資料，但可確保鏡像設定中每次只有一部 SQL Server 成為使用中的 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="35b63-111">The witness server does not mirror or host data for the Persistent Chat servers, but ensures that only one SQL Server in a mirrored configuration is the active SQL Server at any time.</span></span>
   
-<span data-ttu-id="6282e-112">按一下 [**新增**] 以定義新的 SQL Server 見證（可選擇永久聊天 sql server 鏡像見證的實例）。</span><span class="sxs-lookup"><span data-stu-id="6282e-112">Click **New** to define a new SQL Server witness optionally an instance for the Persistent Chat SQL Server mirroring witness.</span></span>
+<span data-ttu-id="35b63-112">按一下 [ **新增** ] 可定義新的 SQL server 見證，並選擇性地定義 PERSISTENT Chat SQL server 鏡像見證的實例。</span><span class="sxs-lookup"><span data-stu-id="35b63-112">Click **New** to define a new SQL Server witness optionally an instance for the Persistent Chat SQL Server mirroring witness.</span></span>
   
-<span data-ttu-id="6282e-113">按 [上一步] \*\*\*\* 回到上一個集區定義對話方塊。</span><span class="sxs-lookup"><span data-stu-id="6282e-113">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="35b63-113">按 [上一步]\*\*\*\* 回到上一個集區定義對話方塊。</span><span class="sxs-lookup"><span data-stu-id="35b63-113">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="6282e-114">當您完成輸入此池之 SQL Server store 設定的選項並繼續進行持續聊天伺服器池定義時，請按 **[下一步]** 。</span><span class="sxs-lookup"><span data-stu-id="6282e-114">Click **Next** after you have finished entering the options for this pool's SQL Server store configuration and to proceed with the Persistent Chat Server pool definition.</span></span>
+<span data-ttu-id="35b63-114">完成輸入集區之 SQL Server 儲存區設定的選項之後，按 **[下一步]** ，繼續執行 Persistent Chat Server 集區定義。</span><span class="sxs-lookup"><span data-stu-id="35b63-114">Click **Next** after you have finished entering the options for this pool's SQL Server store configuration and to proceed with the Persistent Chat Server pool definition.</span></span>
   
-<span data-ttu-id="6282e-115">按一下 [取消]\*\*\*\* 捨棄所有變更，並結束 [定義新的常設聊天室集區精靈]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="6282e-115">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+<span data-ttu-id="35b63-115">按一下 [取消]\*\*\*\* 捨棄所有變更，並結束 [定義新的常設聊天室集區精靈]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="35b63-115">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
   
-<span data-ttu-id="6282e-116">按一下 [說明]\*\*\*\* 存取即時線上說明，例如此頁面。</span><span class="sxs-lookup"><span data-stu-id="6282e-116">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="35b63-116">按一下 [說明]\*\*\*\* 存取即時線上說明，例如此頁面。</span><span class="sxs-lookup"><span data-stu-id="35b63-116">Click **Help** to access context sensitive help, such as this page.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="6282e-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6282e-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="35b63-117">請參閱</span><span class="sxs-lookup"><span data-stu-id="35b63-117">See also</span></span>
 
-[<span data-ttu-id="6282e-118">在商務用 Skype Server 2015 中規劃常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="6282e-118">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="35b63-118">在商務用 Skype Server 2015 中規劃 Persistent Chat Server</span><span class="sxs-lookup"><span data-stu-id="35b63-118">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="6282e-119">在商務用 Skype Server 2015 拓撲中新增持久聊天伺服器</span><span class="sxs-lookup"><span data-stu-id="6282e-119">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="35b63-119">將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲</span><span class="sxs-lookup"><span data-stu-id="35b63-119">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[<span data-ttu-id="6282e-120">常設聊天室伺服器的硬體與軟體需求</span><span class="sxs-lookup"><span data-stu-id="6282e-120">Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[<span data-ttu-id="35b63-120">商務用 Skype 2015 Server 中的 Persistent Chat Server 的硬體和軟體需求</span><span class="sxs-lookup"><span data-stu-id="35b63-120">Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[<span data-ttu-id="6282e-121">商務用 Skype Server 2015 的伺服器需求</span><span class="sxs-lookup"><span data-stu-id="6282e-121">Server requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[<span data-ttu-id="35b63-121">商務用 Skype Server 2015 的伺服器需求</span><span class="sxs-lookup"><span data-stu-id="35b63-121">Server requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[<span data-ttu-id="6282e-122">商務用 Skype Server 2015 的拓撲基本知識</span><span class="sxs-lookup"><span data-stu-id="6282e-122">Topology Basics for Skype for Business Server 2015</span></span>](../../plan-your-deployment/topology-basics/topology-basics.md)
+[<span data-ttu-id="35b63-122">商務用 Skype Server 2015 的拓撲基礎</span><span class="sxs-lookup"><span data-stu-id="35b63-122">Topology Basics for Skype for Business Server 2015</span></span>](../../plan-your-deployment/topology-basics/topology-basics.md)
   
-[<span data-ttu-id="6282e-123">設定常設聊天室伺服器的高可用性和災害復原</span><span class="sxs-lookup"><span data-stu-id="6282e-123">Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[<span data-ttu-id="35b63-123">在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復</span><span class="sxs-lookup"><span data-stu-id="35b63-123">Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

@@ -8,28 +8,28 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-description: 這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
-ms.openlocfilehash: d47234fdea6cc8323462aef26e99449c53895620
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
+ms.openlocfilehash: feed152cb42bece0abffd62d781a10836109475e
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819505"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215574"
 ---
-# <a name="office-communications-server-scope-node"></a><span data-ttu-id="84349-104">Office Communications Server 範圍節點</span><span class="sxs-lookup"><span data-stu-id="84349-104">Office Communications Server Scope Node</span></span>
+# <a name="office-communications-server-scope-node"></a><span data-ttu-id="d2de9-104">Office Communications Server 範圍節點</span><span class="sxs-lookup"><span data-stu-id="d2de9-104">Office Communications Server Scope Node</span></span>
 
-<span data-ttu-id="84349-105">這是初步檔，可能會變更。</span><span class="sxs-lookup"><span data-stu-id="84349-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="84349-106">空白主題是以預留位置形式提供。</span><span class="sxs-lookup"><span data-stu-id="84349-106">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="d2de9-105">這是初步檔，而且可能會變更。</span><span class="sxs-lookup"><span data-stu-id="d2de9-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="d2de9-106">空白主題會以預留位置形式包含。</span><span class="sxs-lookup"><span data-stu-id="d2de9-106">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="84349-107">您可以按一下 [ **Office 通訊伺服器 2007 R2** ]，展開節點底下的區段，或以滑鼠右鍵按一下以存取**拓撲**選項，或**使用此說明**頁面。</span><span class="sxs-lookup"><span data-stu-id="84349-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
+<span data-ttu-id="d2de9-107">您可以按一下 [ **Office 通訊伺服器 2007 R2** ] 展開節點底下的區段，或以滑鼠右鍵按一下以存取 **拓撲** 選項，或存取 **此 [** 說明] 頁面。</span><span class="sxs-lookup"><span data-stu-id="d2de9-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="84349-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="84349-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d2de9-108">請參閱</span><span class="sxs-lookup"><span data-stu-id="d2de9-108">See also</span></span>
 
-[<span data-ttu-id="84349-109">使用拓撲產生器合併嚮導進行合併</span><span class="sxs-lookup"><span data-stu-id="84349-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[<span data-ttu-id="d2de9-109">使用拓撲產生器合併精靈進行合併</span><span class="sxs-lookup"><span data-stu-id="d2de9-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
-[<span data-ttu-id="84349-110">驗證拓撲資訊</span><span class="sxs-lookup"><span data-stu-id="84349-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[<span data-ttu-id="d2de9-110">驗證拓撲資訊</span><span class="sxs-lookup"><span data-stu-id="d2de9-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
