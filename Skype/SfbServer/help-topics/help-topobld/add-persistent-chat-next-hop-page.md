@@ -8,22 +8,22 @@ ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
-description: 使用此頁面來定義您部署中持續聊天伺服器伺服器的下一個躍點。 如需有關如何部署持久聊天伺服器的詳細資訊，請參閱在商務用 Skype Server 2015 中部署持久聊天伺服器。
-ms.openlocfilehash: f223fb727fd858f103982009aaa0773343d2b5aa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 使用此頁面可在部署中定義 Persistent Chat Server server 的下一個躍點。 如需如何部署 Persistent Chat Server 的詳細資訊，請參閱 Deploy Persistent Chat Server in 商務用 Skype Server 2015。
+ms.openlocfilehash: 03984d6086ad9f6f7c3d8dbd16f10fd4b425c223
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820665"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218664"
 ---
-# <a name="add-persistent-chat-next-hop-page"></a><span data-ttu-id="bff7a-104">新增常設聊天室下一個躍點頁面</span><span class="sxs-lookup"><span data-stu-id="bff7a-104">Add Persistent Chat Next Hop Page</span></span>
+# <a name="add-persistent-chat-next-hop-page"></a><span data-ttu-id="15899-104">新增常設聊天室下一個躍點頁面</span><span class="sxs-lookup"><span data-stu-id="15899-104">Add Persistent Chat Next Hop Page</span></span>
  
-<span data-ttu-id="bff7a-105">使用此頁面來定義您部署中持續聊天伺服器伺服器的下一個躍點。</span><span class="sxs-lookup"><span data-stu-id="bff7a-105">Use this page to define the Next Hop from the Persistent Chat Server server in your deployment.</span></span> <span data-ttu-id="bff7a-106">如需有關如何部署持久聊天伺服器的詳細資訊，請參閱[在商務用 Skype server 2015 中部署持久聊天伺服器](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)。</span><span class="sxs-lookup"><span data-stu-id="bff7a-106">For more information about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md).</span></span> 
+<span data-ttu-id="15899-105">使用此頁面可在部署中定義 Persistent Chat Server server 的下一個躍點。</span><span class="sxs-lookup"><span data-stu-id="15899-105">Use this page to define the Next Hop from the Persistent Chat Server server in your deployment.</span></span> <span data-ttu-id="15899-106">如需如何部署 Persistent Chat Server 的詳細資訊，請參閱 [Deploy Persistent Chat server In 商務用 Skype server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)。</span><span class="sxs-lookup"><span data-stu-id="15899-106">For more information about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md).</span></span> 
   
 

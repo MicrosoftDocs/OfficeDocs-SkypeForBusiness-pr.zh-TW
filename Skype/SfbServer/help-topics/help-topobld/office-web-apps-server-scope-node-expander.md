@@ -8,32 +8,32 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 您以滑鼠右鍵按一下拓撲建立器中的 Office Web Apps 伺服器來執行下列動作：
-ms.openlocfilehash: b4c6fcd522b3a49375794023a0600447c6c70c1d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以在拓撲產生器中以滑鼠右鍵按一下 Office Web Apps Server，以執行下列作業：
+ms.openlocfilehash: cea7b34e8d5a34fa16a335a839ac9a2a48046257
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819495"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217614"
 ---
-# <a name="office-web-apps-server-scope-node-expander"></a><span data-ttu-id="d598a-103">Office Web Apps Server 範圍節點展開工具</span><span class="sxs-lookup"><span data-stu-id="d598a-103">Office Web Apps Server Scope Node Expander</span></span>
+# <a name="office-web-apps-server-scope-node-expander"></a><span data-ttu-id="4ba01-103">Office Web Apps Server 範圍節點展開工具</span><span class="sxs-lookup"><span data-stu-id="4ba01-103">Office Web Apps Server Scope Node Expander</span></span>
  
-<span data-ttu-id="d598a-104">您以滑鼠右鍵按一下拓撲建立器中的**Office Web Apps 伺服器**來執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="d598a-104">You right click on **Office Web Apps Servers** in Topology Builder to perform the following:</span></span>
+<span data-ttu-id="4ba01-104">您可以在拓撲產生器中以滑鼠右鍵按一下 **Office Web Apps server** ，以執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="4ba01-104">You right click on **Office Web Apps Servers** in Topology Builder to perform the following:</span></span>
   
-- <span data-ttu-id="d598a-105">**新的 Office Web Apps server**：啟動**定義新的 Office web apps 伺服器**嚮導，用來定義新的 office web apps 伺服器。</span><span class="sxs-lookup"><span data-stu-id="d598a-105">**New Office Web Apps Server**: Starts the **Define New Office Web Apps Server** wizard used to define a new Office Web Apps Server.</span></span>
+- <span data-ttu-id="4ba01-105">**新的 Office Web Apps server**：啟動用來定義新 Office Web apps server 的 [ **定義新的 Office web apps server** ] 嚮導。</span><span class="sxs-lookup"><span data-stu-id="4ba01-105">**New Office Web Apps Server**: Starts the **Define New Office Web Apps Server** wizard used to define a new Office Web Apps Server.</span></span>
     
-<span data-ttu-id="d598a-106">除了 [新的 Office Web Apps 伺服器] 選項之外，您還可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="d598a-106">In addition to the New Office Web Apps Server option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="4ba01-106">除了 [新增 Office Web Apps Server] 選項，您還可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="4ba01-106">In addition to the New Office Web Apps Server option, you can perform the following general tasks:</span></span>
   
-![Office WebApps Server Scope 節點](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps 伺服器範圍節點](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- <span data-ttu-id="d598a-p101">**拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併來自舊版的元件，或是移除部署。</span><span class="sxs-lookup"><span data-stu-id="d598a-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="4ba01-108">**拓撲**。</span><span class="sxs-lookup"><span data-stu-id="4ba01-108">**Topology**.</span></span> <span data-ttu-id="4ba01-109">您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，從舊版中合併元件，或移除部署。</span><span class="sxs-lookup"><span data-stu-id="4ba01-109">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="d598a-p102">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="d598a-p102">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="4ba01-p102">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="4ba01-p102">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
