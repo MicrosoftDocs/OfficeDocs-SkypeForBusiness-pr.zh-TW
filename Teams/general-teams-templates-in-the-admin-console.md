@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171117"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216694"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>在管理員主控台中使用一般團隊範本
 
@@ -81,7 +81,7 @@ ms.locfileid: "48171117"
 
 ## <a name="onboard-employees"></a>板載員工
 
-利用此中心小組的資源、問題及有趣的方式，改善您的文化，並簡化您的員工加入。
+利用此中心小組的資源、問題及有趣的樂趣，改善您的文化，並簡化您的員工加入。
 
 | 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------|- |----------------------------------------------------- |
@@ -90,7 +90,7 @@ ms.locfileid: "48171117"
 
 ## <a name="organize-a-help-desk"></a>組織技術支援中心
 
-在支援您的支援人員的檔、原則與流程上共同作業。 整合現有的票證發放系統，或使用我們的範本來管理要求。
+在支援您的支援人員的檔、原則及流程上共同作業。 整合現有的票證發放系統，或使用我們的範本來管理要求。
 
 | 基底範本類型 | | 此基礎範本隨附的屬性 |
 | ------------------|-- |----------------------------------------------------- |

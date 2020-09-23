@@ -8,19 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 您可以透過定義下列內容來編輯中繼服務的內容：
-ms.openlocfilehash: d5f46fb269925ace53a317caec4d9b75b3c4bbe4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 51fbd889d7e9d673fb75b1062a70ae55a9f8585c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819565"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215104"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>中繼服務設定展開工具 (適用於 Lync Server 2010)
  
@@ -37,7 +37,7 @@ ms.locfileid: "41819565"
     
 - 目前相關聯及現有的 [主幹]**** (亦即工作階段初始通訊協定 (SIP) 主幹)、[閘道]**** (PSTN 閘道或 IP-PBX) 及 [網站]**** (為主幹和閘道設定的網站) 清單。
     
-- 您可以選取 [主幹]、[閘道] 及 [站台]，然後按一下 [成為預設]**** 將這些選項設為此中繼服務的預設值。您也可以選取目前的預設值，然後按一下 [取消預設]**** 移除這些選項，使其不再是目前的預設值，然後選取新的預設值，再按一下 [成為預設]****。
+- 您可以選取 [主幹]、[閘道] 及 [網站]，然後按一下 [成為預設]**** 將這些選項設為此中繼服務的預設值。您也可以選取目前的預設值，然後按一下 [取消預設]**** 移除這些選項，使其不再是目前的預設值，然後選取新的預設值，再按一下 [成為預設]****。
     
   **確定**：接受並認可對話方塊的變更。
   

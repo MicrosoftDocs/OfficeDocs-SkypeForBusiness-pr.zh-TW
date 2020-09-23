@@ -8,29 +8,29 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FileStoresScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: '[檔案存放區] 節點會列出您拓撲中的檔案存放區。 您可以執行下列動作：'
-ms.openlocfilehash: dfd87c83a3922f6500f4e5e65ef7e938fd5f381b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e981659b585cf340128eceb7b0c17b03169a2129
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819915"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216574"
 ---
 # <a name="file-stores-scope-node"></a>檔案存放區範圍節點
  
-[檔案存放區]**** 節點會列出您拓撲中的檔案存放區。您可以執行下列動作：
+**[檔案存放區]** 節點會列出您拓撲中的檔案存放區。您可以執行下列動作：
   
-- **新增檔案存放區**。啟動「定義新的檔案存放區」**** 頁面，以供您將新的檔案存放區新增至拓撲。
+- **新增檔案存放區**。啟動 **[定義新的檔案存放區]** 頁面，以供您將新的檔案存放區新增至拓撲。
     
 除了檔案存放區選項，您還可以執行下列一般工作：
   
-- **拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併來自舊版的元件，或是移除部署。
+- **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，從舊版中合併元件，或移除部署。
     
 - **檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。
     

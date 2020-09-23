@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
-description: 每個前端池和 Survivable 分支裝置只能有一個與它相關聯的監視伺服器。 針對網站啟用監視時，監視伺服器會提供通話詳細資料錄製（CDR）和體驗品質（QoE）資料收集與報告。
-ms.openlocfilehash: 6773d419fa5f38e7f3f2faada9f1d533493c1133
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 每個前端集區和 Survivable Branch Appliance 只能有一個相關聯的監控伺服器。當網站啟用監控時，監控伺服器會提供詳細通話記錄 (CDR) 和經驗品質 (QoE) 的資料收集與報告。
+ms.openlocfilehash: e40ab549a207a78e11979e84c0da1338f4a72c26
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820385"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216304"
 ---
 # <a name="associate-front-end-with-monitoring"></a>建立前端與監視的關聯
  
-每個前端池和 Survivable 分支裝置只能有一個與它相關聯的監視伺服器。 針對網站啟用監視時，監視伺服器會提供通話詳細資料錄製（CDR）和體驗品質（QoE）資料收集與報告。
+每個前端集區和 Survivable Branch Appliance 只能有一個相關聯的監控伺服器。當網站啟用監控時，監控伺服器會提供詳細通話記錄 (CDR) 和經驗品質 (QoE) 的資料收集與報告。
   
-如果使用方式不超過監視伺服器的容量，則在網站和多個中央網站的池中的所有池都可以使用相同的監視伺服器。 
+只要使用量不超出監控伺服器的容量，一個網站的所有集區和多個中央網站的集區可以使用同一個監控伺服器。 
   
 

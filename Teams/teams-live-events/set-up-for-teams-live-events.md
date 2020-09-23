@@ -17,12 +17,12 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 0e2d35152ae8a840a6e0c0943144380e7169fe8b
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820527"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203936"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -79,7 +79,10 @@ ms.locfileid: "47820527"
 
 1. 為組織中的使用者啟用 Microsoft Stream。 資料流程是以合格的 Microsoft 365 或 Office 365 訂閱或獨立服務的形式提供。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](https://docs.microsoft.com/stream/license-overview)。
 
-      進一步瞭解您可以如何 [指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者可以存取資料流程。 確保未針對使用者封鎖 Stream，如[本文章](https://docs.microsoft.com/stream/disable-user-organization)所定義。
+>[!Note]
+> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](../tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
+
+      Learn more about how you can [assign licenses to users](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. 確保使用者擁有在 Stream 中建立即時活動的權限。 根據預設，系統管理員可以使用外部應用程式或裝置來建立活動。 Stream 系統管理員可以在 Stream 中[為額外的使用者啟用即時活動建立](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)。  
 

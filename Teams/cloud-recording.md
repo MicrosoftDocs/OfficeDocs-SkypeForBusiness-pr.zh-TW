@@ -16,18 +16,21 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766907"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203966"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
 在 Microsoft Teams 中，使用者可以錄製其 Teams 會議和群組通話，擷取音訊、視訊和螢幕共用的活動。 您也可以使用自動轉錄的錄製選項，便於使用者播放具有隱藏式輔助字幕的會議錄製，並在文字記錄中搜尋重要的討論項目。 錄製會在雲端進行，並儲存到 [Microsoft Stream](https://docs.microsoft.com/stream/)，使用者可以因此安全地在整個組織內共用檔案。
 
 相關：[Teams 會議錄製使用者文件](https://aka.ms/recordmeeting)
+
+>[!Note]
+> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中需要一些時間，我們會要求所有客戶在商務用 OneDrive 和 SharePoint 中錄製會議錄製。
 
 > [!NOTE]
 > 如需在團隊會議中使用角色的相關資訊，以及如何變更使用者的角色，請參閱 [小組會議中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。

@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PstnGatewaysScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: '[PSTN 閘道] 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。 您可以執行下列動作：'
-ms.openlocfilehash: 2a95efef9a9e9809b026efca79f13900af7ae7ba
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b3ab796accbf4a51f958c41096c485db8c7c0f58
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819405"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216554"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 閘道範圍節點
  
@@ -30,7 +30,7 @@ ms.locfileid: "41819405"
     
 除了 PSTN 閘道選項，您還可以執行下列一般工作：
   
-- **拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併來自舊版的元件，或是移除部署。
+- **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，從舊版中合併元件，或移除部署。
     
 - **檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。
     

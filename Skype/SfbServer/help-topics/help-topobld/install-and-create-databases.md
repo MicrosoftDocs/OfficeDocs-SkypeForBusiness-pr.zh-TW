@@ -8,37 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
-description: 選取您要為您的部署建立的資料庫。 根據預設，資料庫會在定義的網站中的定義 SQL 伺服器上建立，並將根據您要放置資料庫的 SQL Server，自動部署及設定資料庫檔案。
-ms.openlocfilehash: 72eebc4523eb538762adcfd3c2ee7138853a80ac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站中已定義的 SQL Server 上建立資料庫，而且會根據您放置資料庫所在的 SQL Server，自動部署及設定資料庫檔案。
+ms.openlocfilehash: ade264fcda73df408f6bb323dd1e3733ccdd45f1
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819825"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215384"
 ---
 # <a name="install-and-create-databases"></a>安裝及建立資料庫
 
-選取您要為您的部署建立的資料庫。 根據預設，資料庫會在定義的網站中的定義 SQL 伺服器上建立，並將根據您要放置資料庫的 SQL Server，自動部署及設定資料庫檔案。
+您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站中已定義的 SQL Server 上建立資料庫，而且會根據您放置資料庫所在的 SQL Server，自動部署及設定資料庫檔案。
 
- **選取您要建立的資料庫**：選取您想要部署及設定的任何資料庫的核取方塊。 選取您將部署之任何或所有資料庫的核取方塊。
+ **選取要建立的資料庫**：選取要部署及設定之任何資料庫的核取方塊。選取要部署之任何或所有資料庫的核取方塊。
 
 > [!CAUTION]
-> 必須已針對實例（如果有的話）設定 SQL Server，而且必須開啟防火牆埠，才能容納您要部署資料庫的實例。 如需詳細資訊，請參閱為[Lync server 2013 Preview 設定 SQL Server](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> 如果必須開啟任何) 和防火牆埠以容納要部署資料庫的實例，則必須已為實例設定 SQL Server (。 如需詳細資訊，請參閱＜[Configure SQL Server for Lync Server 2013 Preview](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)＞
 
- [**高級**]：按一下 sql Server，然後按一下 [**高級**] 按鈕，為您的 SQL server 上的資料庫檔案位置選擇選項。 如需高級資料庫檔案放置的詳細資料，請參閱[使用 Lync Server 管理命令介面的資料庫安裝](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
+ **Advanced**：按一下 sql server，然後按一下 [ **高級** ] 按鈕，為 SQL server 上的資料庫檔案位置選擇選項。 如需進階資料庫檔案位置的詳細資訊，請參閱＜[Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)＞
 
- **返回**：按一下此按鈕會將您移至前一個畫面（可能不一定會顯示，視您在這個對話方塊中到達的方式而定）。
+ **上一步**：按一下此按鈕可回到上一個畫面 (根據您抵達此對話方塊的方式，有時可能無法使用)。
 
- **下一步**：按一下此按鈕會在目前的對話方塊中提交您的選取範圍，並將您帶到下一個對話方塊來設定其他資訊
+ **下一步**：按一下此按鈕可認可您在目前對話方塊上的選項，並前往下一個對話方塊以設定其他資訊
 
- [**取消**]：按一下此按鈕將會結束設定並捨棄您所做的變更。 部分（但不是所有配置畫面）會在您想要結束並放棄變更時提示您。 選取 **[是]** 會關閉目前的設定並關閉目前的設定，並將您傳回拓撲建立器。 選取 [**否**] 會將您返回 [目前的設定] 對話方塊，並允許您繼續設定。
+ **取消**：按一下此按鈕可結束設定並捨棄變更。 如果您想結束並捨棄變更，其中一些設定畫面 (並非所有設定畫面) 會出現提示。 選取 **[是]** 會關閉目前的設定並關閉目前的設定，並傳回拓撲產生器。 選取 [否]**** 可回到目前的設定對話方塊，以供您繼續進行設定。
 
- 說明 **：按一下**[**說明**] 按鈕會顯示與 [目前設定] 對話方塊相關聯的說明資訊。
+ **說明**：按一下 [說明]**** 按鈕可顯示與目前設定對話方塊相關的說明資訊。
 
 

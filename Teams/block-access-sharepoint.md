@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何封鎖特定使用者對 SharePoint 的存取權
-ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135927"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203836"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>封鎖特定使用者對 SharePoint 的存取權
 
@@ -40,7 +40,7 @@ ms.locfileid: "48135927"
 
 當存取權封鎖時，使用者會看到錯誤訊息。 封鎖存取可協助提供安全性並保護安全的資料。 當存取權封鎖時，使用者會看到錯誤訊息。
 
-1. 開啟 SharePoint 系統 [管理中心](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)。
+1. 開啟 SharePoint 系統管理中心。
 
 2. 展開 [**原則**  >  **存取原則**]。
 

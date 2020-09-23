@@ -8,19 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PstnGatewaySettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 若要編輯或修改公用交換電話網路 (PSTN) 閘道的設定，請修改下列欄位：
-ms.openlocfilehash: 1fa72dfc91f75994be4afadfea1d6f526af5607f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 10669d4355acc8d2ea1a8546275116660c1ac7a7
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819415"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216584"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 閘道設定展開工具
  
@@ -32,6 +32,6 @@ ms.locfileid: "41819415"
   
 選取是否針對閘道啟用 IPv4 和 IPv6。
   
-**備用媒體 IP 位址**是對中繼伺服器的定義，其已部署的 PSTN 閘道與預設設定的 ip 位址（通常專用於 SIP 流量）不同。 如果您定義此參數，則 PSTN 閘道支援針對媒體使用不同的網路介面或路徑。 如果此位址保留空白，則 PSTN 閘道不支援針對媒體使用替代路徑。
+[其他媒體 IP 位址]**** 是中繼伺服器適用的定義，表示部署的 PSTN 閘道用於媒體流量的 IP 位址與預設 IP 位址 (通常專用於 SIP 流量) 不同。如果您定義此參數，則 PSTN 閘道支援針對媒體使用不同的網路介面或路徑。如果此位址保留空白，則 PSTN 閘道不支援針對媒體使用替代路徑。
   
 

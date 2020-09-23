@@ -8,44 +8,44 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
-description: 您可以設定下列屬性來定義監視 SQL Server 存放區：
-ms.openlocfilehash: a424cb7ae23688224d52510df5db793b3348a176
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以透過設定下列屬性來定義監控 SQL Server 存放區：
+ms.openlocfilehash: 48a626483da0dd69f46eca9740b0a9b224218f4d
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821195"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215494"
 ---
 # <a name="add-director-monitoring"></a>新增 Director 監視
  
-您可以設定下列屬性來**定義監視 SQL Server 存放區**：
+您可以透過設定下列屬性來 **定義監控 SQL Server 存放區** ：
   
-- **[監視 SQL server store**]：從清單中選取 sql Server 完整功能變數名稱（FQDN）（以及（選擇性）命名的 sql Server 實例）。
+- **監視 SQL server 儲存區**：選取 sql server 完整功能變數名稱 (FQDN)  (，並選擇性地從清單) 命名的 SQL Server 實例。
     
-    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義，以及（您也可以選擇） [監視伺服器] 存放區的實例名稱。
+    按一下 [ **新增** ] 建立新的 SQL Server FQDN 定義，並選擇性地建立監控伺服器存放區的實例名稱。
     
-- 如果您想要新增監視伺服器的資料庫鏡像，請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
+- 如果您想要新增監控伺服器的資料庫鏡像，請選取 [ **啟用 SQL Server 儲存區鏡像** ] 核取方塊。
     
-    從清單中選取現有的**監視 SQL Server store 鏡像**。
+    從清單中選取現有的 [監控 SQL Server 儲存區鏡像]****。
     
-    按一下 [**新增**]，建立新的 SQL Server FQDN 定義，以及（您也可以選擇）鏡像存放區的實例名稱。
+    按一下 [ **新增** ] 建立新的 SQL Server FQDN 定義，並選擇性地建立鏡像儲存區的實例名稱。
     
-- 如果您已選取 **[啟用 Sql server store 鏡像**]，請選擇性地選取 [**使用 SQL server 鏡像見證來啟用自動容錯移轉**]，從清單中選取 SQL Server 鏡像存儲區。
+- 如果您選取 **[啟用 Sql server 儲存區鏡像**]，請選擇 [ **使用 sql server 鏡像見證啟用自動容錯移轉** ]，從清單中選取 SQL server 鏡像見證存放區。
     
-    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義，以及（您也可以選擇）鏡像見證存儲的實例名稱。
+    按一下 [ **新增** ] 建立新的 SQL Server FQDN 定義，並選擇性地建立鏡像見證儲存區的實例名稱。
     
-按 [上一步] **** 回到上一個集區定義對話方塊。
+按 [上一步]**** 回到上一個集區定義對話方塊。
   
-完成輸入此對話方塊的選項後，請按 **[下一步**] 以繼續進行設定。
+完成輸入此對話方塊的選項之後，按 [下一步]**** 繼續進行設定。
   
-按一下 [**取消**] 放棄所有變更並結束嚮導。
+按一下 [取消]**** 捨棄所有變更，並結束精靈。
   
-按一下 **[說明]，存取**內容相關的說明，例如此頁面。
+按一下 **[** 說明] 存取內容相關説明，例如此頁面。
   
 

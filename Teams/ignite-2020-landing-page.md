@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 1740e36c496b4df4df796d00d2be6a644ae0933b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177434"
+ms.locfileid: "48209482"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 上的小組會話2020
 
@@ -23,7 +23,7 @@ ms.locfileid: "48177434"
 |[使用 Microsoft 團隊建立具彈性、包含及混合式工作場所](https://aka.ms/DB156) |組織要移至混合式工作區，以支援遠端和現場員工的需求。 我們將在兩個部分系列中的第一個部分示範團隊如何透過團隊會議、虛擬事件和通話，以及新的裝置體驗來保持連線。 我們也會顯示團隊平臺如何協助簡化工作流程、改善決策制定，以及直接在團隊中整合您的應用程式生態系統。 <br> 此外，請參閱此系列的第2部分，即會話程式碼 DB158。|Nicole Herskowitz                 |
 |[更聰明、保持專注，並利用 Microsoft 團隊會議實現更多工](https://aka.ms/DB151)  |[會議] 是如何完成工作的基礎。 瞭解團隊會議如何協助您和您的組織提高生產力，同時調整為新的工作方式。  |Shiraz Cupala|
 |[Microsoft 團隊通話變得簡單](https://aka.ms/DB149)  |小組中的企業通話很容易部署和使用。 瞭解小組通話的基本知識，在通話中尋找最新的電話經驗及共同通話。 |Paul 無法、劉娜 Kramer、Barbara Kim|
-|[單一位置供管理員管理 Microsoft 團隊：團隊可管理性的新功能](https://aka.ms/DB144) |[團隊管理員] 具有靈活且精細的管理功能，可為組織提供最符合企業需求的自訂體驗。 在這個會話中，我們將介紹小組系統管理中心入口網站的最新功能和最大能力，討論原則、應用程式管理、裝置管理、報告、分析及疑難排解及 Powershell 的新增功能。 |Ronit Ben-Sheffer，曉明 Stark|
+|[單一位置供管理員管理 Microsoft 團隊：團隊可管理性的新功能](https://aka.ms/DB144) |[團隊管理員] 具有靈活且精細的管理功能，可為組織提供最符合企業需求的自訂體驗。 在這個會話中，我們將介紹小組系統管理中心入口網站的最新功能和最大能力，討論原則、應用程式管理、裝置管理、報告、分析及疑難排解及 PowerShell 的新增功能。 |Ronit Ben-Sheffer，曉明 Stark|
 |[使用 Microsoft 團隊縮放及自訂虛擬會議與活動](https://aka.ms/DB138) |會議有所有的圖形和大小-瞭解如何充分利用團隊來構造及管理您的下一個大型活動。 團隊可以與貴組織的需求無縫地伸縮，提供自訂和提供最佳出席者經驗的方式，以取得各種規模的活動。  |Christina Torok, Ashwin Appiah|
 |[使用 Microsoft 團隊裝置跨混合式工作區進行 Power 現代會議體驗](https://aka.ms/DB147) |Microsoft 團隊裝置簡介。 團隊裝置的設計目的是協助人員充分發揮團隊威力，並填補遠端與共享工作區之間的差距。 瞭解專為提供以人員為中心的會議室體驗並重新想像個人工作區的裝置，讓 Microsoft 團隊裝置能更具包容性與共同作業體驗。  |Kendra 麵包師，Greg Baribault|
 |[使用 Microsoft 團隊平臺來轉換現代工作場所](https://aka.ms/DB157) |瞭解小組平臺中所有新的和現有的擴充性點，以及如何建立功能強大的 app 與解決方案，以解決您的業務需求。|Archana Saseetharan, Michal Lesiczka|
@@ -55,7 +55,7 @@ ms.locfileid: "48177434"
 | 標題 | 概要            | 層級| 者 |
 |---|----------|---|---|---|
 |[使用虛擬事件促進採納：召集人與發生器的最佳做法](https://aka.ms/PR101)|這個實際的教學課程講座將回顧我們針對活動召集人和 IT 專業人員的虛擬活動行動手冊。  瞭解在 pandemic 的初始階段中，您必須從 Karuana Gatimu、Microsoft 團隊工程人員的主要旗艦活動的技術發生器。   聽取從 Microsoft 轉換到虛擬事件所收集的指引，以及如何使用團隊會議與即時事件，傳送可讓組織保持連線的引人注目事件。  |300|Karuana Gatimu, Ashwin Appiah|
-|[深入瞭解 Office 365 群組和 Microsoft 團隊的管理](https://aka.ms/PR102)|您可以觀看這個參與的管理 capabilties 和工具，讓您能管理 Microsoft 團隊的使用者體驗，並讓您對資訊的安全性和合規性感到自信。 包含 Azure Active Director 附加元件功能的設定。 |300|Karuana Gatimu|
+|[深入瞭解 Office 365 群組和 Microsoft 團隊的管理](https://aka.ms/PR102)|您可以在此動手示範管理功能與工具，以管理 Microsoft 團隊的使用者體驗，並讓您對資訊的安全性和合規性感到自信。 包含 Azure Active Director 附加元件功能的設定。 |300|Karuana Gatimu|
 |[促進業界採用-適用于第一線員工、不盈利性、醫療保健及其他方面的特殊案例和功能。](https://aka.ms/PR121)|在這個案例中，我們將會在必須在其上交付的 IT 專業人員的內容中，查看現有和新的功能。  包括最終使用者和 ITPro 範本、行動裝置功能|200|Karuana Gatimu, Kathy Minnis|
 |[您準備好要部署 Microsoft 團隊嗎？](https://aka.ms/PR127) |我們將在這個會話中逐步說明所有主要產品和資源，協助您確保您的團隊推出順利完成。 從工具和資源到最佳做法，如果小組的規劃與部署是在您的待辦事項清單上，此會議必須出席！|300|Stephen 玫瑰|
 |[團隊部署與 Microsoft 端點管理員](https://aka.ms/PR122)|觀看最佳做法的示範說明，以協助您透過端點管理員部署及管理 Microsoft 團隊|300|Mayunk Jain, Mayank Verma|

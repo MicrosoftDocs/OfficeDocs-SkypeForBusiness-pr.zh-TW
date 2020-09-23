@@ -8,37 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
-description: 若要編輯已定義之 A/V 會議伺服器池的屬性，請執行下列動作：
-ms.openlocfilehash: 81746baeec304fd04cb612144ad0aaafb04e07dc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要編輯您已定義的 A/V 會議伺服器集區的屬性，請執行下列動作：
+ms.openlocfilehash: afb85c1248de7a145ba412c66763193d80a12eb4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820325"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216184"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 設定展開工具
  
-若要編輯已定義之 A/V 會議伺服器池的屬性，請執行下列動作：
+若要編輯您已定義的 A/V 會議伺服器集區的屬性，請執行下列動作：
   
 ## <a name="general-settings"></a>一般設定
 
-若要更新 A/V 會議伺服器池的完整功能變數名稱（FQDN），請輸入在網域名稱系統（DNS）中定義的該池的名稱。 您必須擁有與 A/V 會議伺服器池名稱相對應的 DNS 主機（A）記錄。
+若要更新 A/V 會議伺服器集區的完整功能變數名稱 (FQDN) ，請輸入在網域名稱系統中所定義的集區名稱 (DNS) 。 您必須有對應於 A/V 會議伺服器集區名稱的 DNS 主機 (A) 記錄。
   
-## <a name="av-conferencing-service"></a>A/V 會議服務
+## <a name="av-conferencing-service"></a>會議服務 A/V
 
-若要關聯 A/V 會議伺服器池，請選取您必須與 A/V 會議伺服器池建立關聯的前端池或池。
+若要與 A/V 會議伺服器集區建立關聯，請選取必須與 A/V 會議伺服器集區建立關聯的一或多個前端集區。
   
 > [!NOTE]
-> 如果在 [**選取要與此 A/v 會議池] 窗格建立關聯**的 [前端] 池] 中沒有顯示 [前端] 池，就表示您已 collocated 具有 [前端] 池的 A/v 會議服務器，或未選取在 [前端] 池屬性的 [**功能與功能**] 區段中新增會議。
+> 如果 [ **選取要與此 A/V 會議集** 區] 窗格相關聯的前端集區沒有顯示前端集區，請組合 A/V 會議伺服器與前端集區，或在前端集區內容的 [ **功能** ] 區段中未選擇新增會議。
   
 
 
-完成後，按一下 **[確定]** 以完成 [A/V 會議伺服器池設定] 的編輯作業。 按一下 [取消]**** 捨棄任何變更。
+完成時，按一下 [確定]**** 完成 A/V 會議伺服器集區設定的編輯。按一下 [取消]**** 捨棄任何變更。
   
 

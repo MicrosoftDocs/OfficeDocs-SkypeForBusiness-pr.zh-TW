@@ -8,33 +8,33 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
-description: 若要編輯此電腦的屬性，請執行下列動作：
-ms.openlocfilehash: 0f8a1a31c593c792ff4872d0e104c6aadabcd819
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要編輯這部電腦的屬性，請執行下列動作：
+ms.openlocfilehash: c0eb39a516cbcce18940abe7936747fc18db9761
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819295"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215694"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>伺服器設定展開工具 (適用於 Lync Server 2010)
  
-若要編輯此電腦的屬性，請執行下列動作：
+若要編輯這部電腦的屬性，請執行下列動作：
   
-- 編輯此電腦的**完整功能變數名稱（FQDN）** 。 此專案必須符合在網域名稱系統（DNS）中定義的電腦名稱稱，以及與此電腦相關聯之憑證的消費者備用名稱（SAN）或主旨名稱（SN.EXE）。
+- 編輯此電腦 ** (FQDN) 的完整功能變數名稱 ** 。 此專案必須符合在網域名稱系統 (DNS) 中定義的電腦名稱稱，以及與此電腦相關聯的主體替代名稱 (SAN) 或主體名稱 (SN) 。
     
-- 選取下列其中一項：
+- 您可以選取下列其中一項：
     
-    **使用所有已設定的 ip 位址**：選取此專案即可使用電腦上所有已設定的 ip 位址。
+    **使用所有設定的 ip 位址**：選取此專案即可使用電腦上所有已設定的 ip 位址。
     
     > [!IMPORTANT]
-    > 如果電腦有多個 IP 位址，您必須知道與此電腦關聯的服務會將所有服務的 IP 位址都使用。 如果偵聽伺服器或服務預期要通訊特定的 IP 位址和埠，則服務可能無法讓最佳選取要監聽的 IP 位址。 
+    > 如果電腦有多個 IP 位址，您必須注意，與此電腦相關聯的服務將使用所有服務的所有 IP 位址。 如果聆聽伺服器或服務要求通訊特定的 IP 位址與通訊埠，則服務可能無法對要接聽的 IP 位址進行最佳選擇。 
   
-    **將服務使用限制為選取的 IP 位址**：如果您想要針對此電腦將偵聽的**主要 ip 位址**定義特定 ip 位址，以便與部署中其他電腦和池進行通訊，請選取此選項。 針對特定 IP 位址定義**PSTN IP 位址**，電腦與服務將偵聽通訊並傳送與已定義 PSTN 閘道或 IP PBX 的通訊。
+    **將服務使用方式限制為選取的 IP 位址**：如果您想要針對來自部署中其他電腦及集區的通訊，定義此電腦要接聽的 **主要 ip 位址** 的特定 ip 位址，請選取此選項。 針對電腦及服務要接聽通訊的特定 IP 位址，定義 **PSTN IP 位址** ，並將通訊傳送至已定義的 PSTN 閘道或 IP-PBX。
     
 

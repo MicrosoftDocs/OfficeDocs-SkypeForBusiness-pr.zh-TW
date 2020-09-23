@@ -23,13 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 description: 瞭解雲端自動語音應答，以及如何使用它，讓來電者在功能表系統中移動，找出電話並將來電放入或轉接給使用者或部門。
-ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: c4bfbd8e56a64105fe1ee00409cf016976c8bb81
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672834"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48209492"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什麼是雲端自動語音應答？
 

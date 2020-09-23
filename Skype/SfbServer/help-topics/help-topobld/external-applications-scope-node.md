@@ -8,31 +8,31 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: '[信任的應用程式伺服器] 節點列出在此網站的信任應用程式集區。 受信任的應用程式池包含的伺服器會執行受信任的 Microsoft 整合通訊應用程式，但不會執行商務用 Skype 伺服器角色。 您可以執行下列動作：'
-ms.openlocfilehash: 4d56facba5bda2207c8110b5c3f39ab4a701e350
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[信任的應用程式伺服器] 節點列出在此網站的信任應用程式集區。 [信任的應用程式集區] 包含執行「信任的 Microsoft 整合通訊」應用程式，但不會執行商務用 Skype 伺服器角色的伺服器。 您可以執行下列動作：'
+ms.openlocfilehash: b426578e6478bc68919c0c81f916cd243a5f119a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819955"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215564"
 ---
 # <a name="external-applications-scope-node"></a>外部應用程式範圍節點
  
-[信任的應用程式伺服器]**** 節點列出在此網站的信任應用程式集區。 受信任的應用程式池包含的伺服器會執行受信任的 Microsoft 整合通訊應用程式，但不會執行商務用 Skype 伺服器角色。 您可以執行下列動作：
+[信任的應用程式伺服器]**** 節點列出在此網站的信任應用程式集區。 [信任的應用程式集區] 包含執行「信任的 Microsoft 整合通訊」應用程式，但不會執行商務用 Skype 伺服器角色的伺服器。 您可以執行下列動作：
   
 - **新增信任的應用程式集區**。啟動 [定義新信任的應用程式集區精靈]****，它讓您用來新增信任的應用程式集區到拓撲中。
     
 除了信任的應用程式集區選項之外，您也可以執行下列一般工作：
   
-- **拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併來自舊版的元件，或是移除部署。
+- **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，從舊版中合併元件，或移除部署。
     
-- **檢視**。 您可以使用這個選項，透過選取要顯示的專案，並在主控台樹狀檢視中隱藏，來自訂拓撲建立器的視圖。
+- **View**。 您可以使用這個選項來自訂拓撲產生器的視圖，方法是選取要在主控台樹狀檢視中顯示及隱藏的專案。
     
 - **說明**。您可以使用這個選項，存取作用中節點的說明。
     

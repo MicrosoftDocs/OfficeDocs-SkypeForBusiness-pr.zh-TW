@@ -8,61 +8,61 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
-description: 您可以設定下列屬性來編輯 Edge 伺服器或 Edge 池的設定：
-ms.openlocfilehash: f483f87ad6c7ba6fa8cfc89e0b5d11899a68119a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以透過設定下列屬性來編輯 Edge Server 或 Edge 集區的設定：
+ms.openlocfilehash: ab558edd16370d46d452f4e3d146dbf2153f3d9e
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820005"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216114"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>編輯 Edge 設定展開工具 (適用於 Lync Server 2010)
  
-您可以設定下列屬性來編輯 Edge 伺服器或 Edge 池的設定： 
+您可以透過設定下列屬性來編輯 Edge Server 或 Edge 集區的設定： 
   
  **一般**
   
-- **內部池 FQDN**：內部池的完整功能變數名稱是 edge 伺服器或 edge 池的身分識別，如在網域名稱系統（DNS）主機（A 或 AAAA IPv6）記錄中定義。
+- **內部集區 FQDN**：內部集區完整功能變數名稱為 edge Server 或 edge 集區的身分識別，如網域名稱系統中所定義的 (DNS) 主機 (A 或 AAAA 為 IPv6) 記錄。
     
-- 如果您想要將 Edge 伺服器或 Edge 池與其他會話初始通訊協定夥伴啟用聯盟，請選取 **[針對此 Edge 池啟用同盟（埠5061）** ]。
+- 如果您想要啟用 Edge Server 或 Edge 集區以進行與其他會話初始通訊協定夥伴的同盟，請選取 [ **啟用此 Edge 集區的同盟 (埠 5061) ** 。
     
     > [!IMPORTANT]
-    > 您只能針對同盟定義一台邊緣伺服器或邊緣池。 相關聯的螢幕擷取畫面中所顯示的設定會指出已針對同盟設定其他邊緣伺服器或邊緣池。 同盟（_sipfederationtls _tcp 的外部 DNS SRV 記錄。\<外部功能變數名稱\>）會指向 [聯盟] 的邊緣伺服器或邊緣池。 
+    > 您只能為同盟定義一部 Edge Server 或 Edge 集區。 關聯的螢幕擷取畫面所顯示的設定會指出已經為同盟設定其他 Edge Server 或 Edge 集區。 同盟 (_sipfederationtls ._tcp 的外部 DNS SRV 記錄。 \<external domain name\>) 會指向同盟的 Edge Server 或 Edge 集區。 
   
-- 預設情況下，**內部配置複製埠（HTTPS）** 是在 TCP 埠4443上，會複製中央管理儲存區的本機（也就是本機的邊緣伺服器）複本。 中央管理存放區的本機複本位於每一部電腦上的 SQL Server **RTCLOCAL**資料庫中。 從中央管理伺服器（或擁有中央管理伺服器角色的前端伺服器或前端池）開始，到邊緣伺服器且是內部介面埠，複製是單向的。
+- 內部設定複寫 **埠 (HTTPS) **（預設在 TCP 埠4443上）是本機 (的埠，也就是對中央管理存放區) 副本的本機伺服器進行複製。 中央管理存放區的本機複本位於每一部電腦上的 SQL Server 中的 **RTCLOCAL** 資料庫。 複製是從中央管理伺服器 (，或是將中央管理伺服器角色) 至 Edge server 的前端伺服器或前端集區，也是一個內部介面埠。
     
-  **下一個躍點選取**
+  **下一個躍點選取範圍**
   
-- 選取您**下一個躍點數池**的清單。 您可以定義 Director、主管池、前端伺服器或前端池來擔當此角色。 下一個躍點池是伺服器或伺服器池，可接受來自 Edge 伺服器或 Edge 池內部介面的入站 SIP 訊息，並將輸出 SIP 傳送到 Edge 內部介面。
+- 從清單中選取 [下一個躍點集區]****。 您可以定義 Director、Director 集區、前端伺服器或前端集區，以承擔此角色。 下一個躍點集區是伺服器或伺服器集區，可接受來自 Edge Server 或 Edge 集區內部介面的輸入 SIP 訊息，並將輸出 SIP 傳送至 Edge internal interface。
     
     > [!NOTE]
-    > 主管是一個選用的角色，如果您決定不部署控制器，前端伺服器（單一電腦或池中）會假設主管角色。 
+    > Director 是選用的角色，如果您決定不部署 Director，則 (單一電腦或集區) 的前端伺服器會承擔 Director 角色。 
   
   **外部設定**
   
-此區段的屬性可讓您編輯 Edge 伺服器或 Edge 池外部設定的屬性。 下列屬性可供編輯：
+您可以在此區段的屬性中編輯 Edge Server 或 Edge 集區的外部設定屬性。 您可以編輯下列內容：
   
-- 如果您想要為每個 Edge 伺服器服務指派不同的 IP 位址及完整的功能變數名稱，請選取 [**針對 web 會議與 A/V 啟用個別的 FQDN 和 IP 位址**] 核取方塊。
+- 如果您想要將獨特的 IP 位址和完整功能變數名稱指派給每個 Edge Server 服務，請選取 [ **為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址** ] 核取方塊。
     
     > [!NOTE]
-    > 如果您選擇不選取此核取方塊，則必須針對每個 Edge 服務使用不同的埠。 每個 Edge 服務都會共用為存取邊緣服務定義的 FQDN，因此會使用相同的 IP 位址。 每個 Edge 服務必須由不同的 IP 位址和相同的埠，或是相同的 IP 位址和唯一的埠值來唯一識別。 
+    > 如果選擇不選取核取方塊，則必須為每個 Edge Service 使用不同的連接埠。 每個 Edge service 會共用針對 Access Edge service 定義的 FQDN，因此會使用相同的 IP 位址。 每個 Edge 服務必須由不同的 IP 位址搭配相同的連接埠，或相同的 IP 位址搭配唯一的連接埠值唯一識別。 
   
-- 如果您想要將 A/V Edge 服務設定為使用私人位址或其他將隱藏在網路位址轉譯（NAT）裝置後面的位址，請選取**a/v 邊緣服務**。
+- 如果您想要將 A/V Edge service 設定為使用專用位址或其他在網路位址轉譯 (NAT) 裝置後隱藏的其他位址，請選取 [ **A/V Edge service 為 NAT** ]。
     
-- 若要編輯**存取邊緣服務**，請根據主機（A 和 AAAA If 使用 IPv6）中定義的存取邊緣服務定義**池 FQDN** ，並將埠值
+- 若要編輯 **Access edge service**，請定義 access edge Service 的 **集區 FQDN** （如 DNS 中所定義的主機 (A）和 AAAA （如果) 記錄和埠值使用 IPv6）
     
-- 若要編輯**網路會議 edge 服務**，請根據主機（a 和 AAAA if IPv6）中的定義，為網路會議 edge 服務定義一個**池 FQDN** （a），並使用埠值
+- 若要編輯 **Web 會議 edge service**，請定義 Web 會議 edge Service 的 **集區 FQDN** （如 DNS 中所定義的主機 (a）和 AAAA （如果) 記錄及埠值使用 IPv6）。
     
-- 若要編輯**a/v 邊緣服務**，請根據主機（a 和 AAAA If 使用 IPv6）的定義，為 a/v edge 服務定義一個**池 FQDN** （a），以及一個埠值
+- 若要編輯 **A/V Edge service**，請依主機 (A 定義 A/V Edge Service 的 **集區 FQDN** ，以及在) 記錄及埠值時使用 IPv6 時 AAAA。
     
     > [!IMPORTANT]
-    > 如果您已選取 [**啟用 web 會議的個別 FQDN 和 IP 位址] 和 [A/V** ] 核取方塊，則只有存取邊緣服務池 FQDN 可供編輯。 為三個邊緣服務中的每一個指派不同的埠。
+    > 如果您已選取 [ **為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址** ] 核取方塊，則只有 Access Edge service 集區 FQDN 可供編輯。 請為這三個 Edge Service 各自指派不同的連接埠。
   
   **確定**：接受並認可對話方塊的變更。
   

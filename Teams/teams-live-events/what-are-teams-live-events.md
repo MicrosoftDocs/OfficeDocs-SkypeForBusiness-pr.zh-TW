@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902288"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203956"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件？
 
@@ -42,7 +42,7 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的階層，�
 ![圖表顯示即時事件的主要元件](../media/teams-live-events.png  "圖表顯示即時事件、排程、生產、資料流程平臺、經過認證的協力廠商 eCDN 提供者的主要元件")
 
 ### <a name="event-group-roles"></a>事件群組角色
-團隊中的即時事件可讓多個角色（召集人、製造者、簡報者和出席者）順利廣播並參與活動。 若要深入瞭解，請參閱[事件群組角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
+團隊中的即時活動可讓您在召集人、製造者、簡報者和出席者) 中進行多個角色 (，以順利廣播並參與活動。 若要深入瞭解，請參閱 [事件群組角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
 
 ## <a name="key-components"></a>主要元件
 您可以從上述圖片看到，有四個主要元件與團隊中的即時事件搭配使用。
@@ -62,36 +62,39 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的階層，�
 
     ![螢幕擷取畫面顯示使用「快速入門」方法產生的即時事件](../media/teams-live-events-quick-start.png "螢幕擷取畫面顯示使用「快速入門」製作方法所產生的即時事件")
 
-- **外部 app 或裝置**：外部編碼器可讓使用者直接從含[資料流程](https://stream.microsoft.com)的外部硬體或軟體編碼器產生即時事件。 如果您已經有錄音室品質的裝置（例如媒體 mixers），且支援資料流程到即時訊息通訊協定（RTMP）服務，則此選項是最佳做法。 這種類型的生產通常用於大型小性事件（例如 executive 城鎮 halls），其中單一資料流程會將媒體混音器廣播給物件。 
+- **外部 app 或裝置**：外部編碼器可讓使用者直接從含 [資料流程](https://stream.microsoft.com)的外部硬體或軟體編碼器產生即時事件。 如果您已經擁有錄音室品質的裝置，此選項就是最佳做法 (例如，媒體 mixers) 可支援資料流程到即時訊息通訊協定 (RTMP) service。 這種類型的生產通常用於大型小性事件（例如 executive 城鎮 halls），其中單一資料流程會將媒體混音器廣播給物件。 
 
     ![螢幕擷取畫面顯示使用外部 app 或裝置產生的即時事件](../media/teams-live-events-external-encoder.png "螢幕擷取畫面顯示使用外部 app 或裝置生產方法所產生的即時事件")
+
+>[!Note]
+> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](../tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
 
 ### <a name="streaming-platform"></a>流式平臺
 即時事件流程平臺是由下列各部分組成：
 
-- **Azure 媒體服務**： [azure 媒體服務](https://docs.microsoft.com/azure/media-services/previous/)可讓您在當今最受歡迎的行動裝置上，為您提供廣播品質的視頻流式處理服務，以達到較大的目標。 媒體服務可增強協助工具、發佈和伸縮性，並能讓您輕鬆且經濟高效地將內容資料流程傳遞給您當地或全球的目標物件，同時保護您的內容。
-- **Azure 內容傳遞網路（CDN）**：一旦您的資料流程生效，就會透過[Azure 內容傳遞網路（CDN）](https://docs.microsoft.com/azure/cdn/)傳送。 Azure 媒體服務提供整合式 CDN 以進行流式處理端點。 這可讓資料流程在全球查看，不含緩衝。
+- **Azure 媒體服務**：  [azure 媒體服務](https://docs.microsoft.com/azure/media-services/previous/) 可讓您在當今最受歡迎的行動裝置上，為您提供廣播品質的視頻流式處理服務，以達到較大的目標。 媒體服務可增強協助工具、發佈和伸縮性，並能讓您輕鬆且經濟高效地將內容資料流程傳遞給您當地或全球的目標物件，同時保護您的內容。
+- **Azure 內容傳遞網路 (CDN) **：當您的資料流程生效之後，就會透過 [Azure 內容傳遞網路 (CDN) ](https://docs.microsoft.com/azure/cdn/)來傳送。 Azure 媒體服務提供整合式 CDN 以進行流式處理端點。 這可讓資料流程在全球查看，不含緩衝。
 
-### <a name="enterprise-content-delivery-network-ecdn"></a>企業內容傳遞網路（eCDN）
+### <a name="enterprise-content-delivery-network-ecdn"></a>企業內容傳遞網路 (eCDN) 
 ECDN 的目的是從網際網路取得影片內容，並在整個企業中散佈內容，而不會影響網路效能。 您可以使用下列其中一個認證的 eCDN 合作夥伴來針對貴組織內的即時事件優化您的網路：
 - [一兩](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [向](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>出席者體驗 
-出席者體驗是即時事件最重要的部分，而且很重要的是，出席者不需要任何問題，也能參與即時事件。 出席者體驗會使用串流播放程式（適用于團隊中產生的事件）和 Azure 媒體播放機（適用于外部 app 或裝置中產生的事件），並可跨桌面、瀏覽器和行動裝置（iOS、Android）運作。 Microsoft 365 和 Office 365 提供 Yammer 和團隊作為兩個共同作業中樞，且即時出席者體驗會整合到這些共同作業工具中。 
+出席者體驗是即時事件最重要的部分，而且很重要的是，出席者不需要任何問題，也能參與即時事件。 出席者體驗會針對團隊) 和 Azure 媒體 (播放機中產生的事件使用串流播放程式 () 並在桌面、瀏覽器以及行動裝置 (iOS、Android) 中運作。 Microsoft 365 和 Office 365 提供 Yammer 和團隊作為兩個共同作業中樞，且即時出席者體驗會整合到這些共同作業工具中。 
 
 ![顯示即時事件出席者體驗的螢幕擷取畫面](../media/teams-live-events-attendee.png "顯示即時事件出席者體驗的螢幕擷取畫面")
 
 ### <a name="live-event-usage-report"></a>即時事件使用量報告 
-租使用者管理員可以在 Microsoft 團隊系統管理中心中查看即時事件的即時使用狀況分析。  [[即時事件使用量] 報告](../teams-analytics-and-reports/teams-live-event-usage-report.md)會顯示組織中的即時事件的活動概覽。  系統管理員可以查看事件使用量資訊，包括事件狀態、開始時間、視圖和生產類型。  
+租使用者管理員可以在 Microsoft 團隊系統管理中心中查看即時事件的即時使用狀況分析。  [ [即時事件使用量] 報告](../teams-analytics-and-reports/teams-live-event-usage-report.md) 會顯示組織中的即時事件的活動概覽。  系統管理員可以查看事件使用量資訊，包括事件狀態、開始時間、視圖和生產類型。  
 
 ## <a name="next-steps"></a>後續步驟
-移至 [[規劃小組即時事件](plan-for-teams-live-events.md)]。
+移至 [ [規劃小組即時事件](plan-for-teams-live-events.md)]。
 
 ### <a name="related-topics"></a>相關主題
 - [在 Yammer、Microsoft 團隊及 Microsoft Stream 中跨 Microsoft 365 的即時事件](https://docs.microsoft.com/stream/live-event-m365)
-- [Microsoft 團隊即時活動快速入門](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
+- [從 Microsoft Teams 五場即時活動開始](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer 中的即時事件](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Microsoft Stream 中的即時事件](https://docs.microsoft.com/stream/live-event-overview)
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962854"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203946"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件設定
 
@@ -89,6 +89,9 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 
 > [!NOTE]
 > 如果您打算使用外部應用程式或裝置建立即時事件，您也需要 [使用 Microsoft Stream 來設定 eCDN 提供者](https://docs.microsoft.com/stream/network-caching)。 
+
+>[!Note]
+> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](../tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
 
 ### <a name="related-topics"></a>相關主題
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)

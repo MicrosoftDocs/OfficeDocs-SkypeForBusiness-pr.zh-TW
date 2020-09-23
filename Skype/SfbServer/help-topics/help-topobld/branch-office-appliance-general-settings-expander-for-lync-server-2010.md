@@ -8,27 +8,27 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: 若要編輯 Survivable 分支裝置或 Survivable 分支伺服器的屬性，請在 [一般] 底下設定：
-ms.openlocfilehash: 5aa8a41cbe6c73cd103810c2661979cbba6bbdd5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要編輯 Survivable Branch 裝置或 Survivable Branch 伺服器的屬性，請在 [一般] 下設定：
+ms.openlocfilehash: 5bdcc283ce9f503af307e37a7c2f76c922d5facb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820305"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216154"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Branch Office Appliance 一般設定展開工具 (適用於 Lync Server 2010)
  
-若要編輯 Survivable 分支裝置或 Survivable 分支伺服器的屬性，請在 **[一般**] 底下設定：
+若要編輯 Survivable Branch 裝置或 Survivable Branch 伺服器的屬性，請在 **[一般**] 下設定：
   
-- **FQDN**：請輸入 Survivable 分支裝置或 Survivable 分支伺服器的完整功能變數名稱。
+- **FQDN**：您可以輸入 Survivable branch 裝置或 Survivable branch 伺服器的完整功能變數名稱。
     
-    **使用所有已設定的 ip 位址**，會使用 Survivable 分支裝置或 Survivable 分支伺服器上設定的 ip 位址來取得所有用途。
+    **使用「所有設定的 ip 位址** 」會使用 Survivable Branch 裝置或 Survivable Branch Server 上所設定的 ip 位址，以取得所有用途。
     
     **將服務使用方式限制為選取的 IP 位址**：您可以設定不同的位址，以定義要用於 PSTN 的伺服器和 IP 位址。
     
@@ -36,17 +36,17 @@ ms.locfileid: "41820305"
     
     **PSTN IP 位址**：與公用交換電話網路 (PSTN) 功能相關聯的 IP 位址。
     
-- 您可以設定**關聯**，以確保其他伺服器角色已設定，且與 Survivable 分支裝置或 Survivable 分支伺服器相關聯。
+- 您可以設定 **關聯** 性，以確保已設定其他伺服器角色，並與 Survivable branch 裝置或 Survivable branch 伺服器相關聯。
     
-    **關聯存檔伺服器**從清單中選取您要與 Survivable 分支裝置或 Survivable 分支伺服器相關聯的存檔伺服器
+    **關聯封存伺服器** 從清單中選取您要與 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的封存伺服器
     
-    如果您尚未建立要與此 Survivable 分支裝置或 Survivable 分支伺服器關聯的存檔伺服器，請按一下 [**新增**]。
+    如果尚未建立要與此 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的封存伺服器，請按一下 [ **新增** ]。
     
-    **關聯監視伺服器**從清單中選取您要與 Survivable 分支裝置或 Survivable 分支伺服器關聯的監視伺服器
+    **關聯監控伺服器** 從清單中選取您要與 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的監控伺服器
     
-    如果您尚未建立要與此 Survivable 分支裝置或 Survivable 分支伺服器關聯的監視伺服器，請按一下 [**新增**]。
+    如果尚未建立要與此 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的監控伺服器，請按一下 [ **新增** ]。
     
-    **關聯邊緣池（適用于媒體元件）** 從清單中選取您要與 Survivable 分支裝置或 Survivable 分支伺服器相關聯的邊緣伺服器或 Edge 池
+    **關聯媒體元件的 Edge 集區 () ** 從清單中，選取您要與 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的 Edge Server 或 Edge 集區。
     
   **確定**：接受並認可對話方塊的變更。
   

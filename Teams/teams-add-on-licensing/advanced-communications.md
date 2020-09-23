@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f330b183a02654f6c56cad27332fcc9ed81d93f4
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542865"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203816"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft 團隊的高級通訊附加元件
 
@@ -41,15 +41,15 @@ ms.locfileid: "46542865"
 在所有 Microsoft 365 市場中，都提供高級通訊，作為任何付費 Microsoft 365 或 Office 365 訂閱的附加元件。 [高級通訊] 中包含的功能不會新增至其他 Microsoft 365 或 Office 365 方案，也不能另行購買。 若要取得這些功能，您必須購買附加元件。
 
 > [!NOTE]
-> Microsoft 365 政府社區雲端（GCC）、GCC 高或國防（DoD）環境尚不提供高級通訊。 我們正在規劃如何讓它在稍後推出。
+> Microsoft 365 政府社區 (GCC) 、GCC 高或國防 (DoD) 環境中尚不提供高級通訊。 我們正在規劃如何讓它在稍後推出。
 
 ## <a name="feature-availability"></a>功能可用性
 
 在2020年8月1日發行時，提供下列功能：
 
 - 即時事件支援最多20000個參與者、50個併發事件，每個廣播的事件持續時間為16個小時
-- 合規性錄製整合（ISV）
-- 連絡人中心解決方案整合（ISV）
+- 相容性錄製整合 (ISV) 
+- 連絡人中心解決方案整合 (ISV) 
 
 今年稍後將提供下列功能：
 
@@ -59,7 +59,7 @@ ms.locfileid: "46542865"
 
 我們將在未來幾個月內新增更多自訂、工具和通訊增強功能。 
 
-請注意，高級通訊不包含通信合規性與通訊資料遺失防護（DLP）。
+請注意，高級通訊不包含通信合規性與通訊資料遺失防護 (DLP) 。
 
 ## <a name="pricing"></a>特價
 
@@ -71,7 +71,10 @@ ms.locfileid: "46542865"
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>[溢流會議] 與 [即時事件] 間的差異
 
-透過高級通訊，任何超過300個出席者的會議都會提供一種方式，讓多達1000參與者都能使用互動式體驗，以及最多20000個參與者加入會議的方式只提供一個僅供查看的體驗。 [即時事件] 可啟用其他功能。 在即時活動中，20000出席者可以觀看廣播，並與 Q&團隊中的會議、Yammer 中的交談，或僅限 Microsoft Stream 中的 [僅限視圖] 進行互動。 此外，我們還會將即時事件的長度從4小時增加到16小時，並為每個租使用者啟用最多50併發即時事件。  
+透過高級通訊，任何超過300個出席者的會議都會提供一種方式，讓多達1000參與者都能使用互動式體驗，以及最多20000個參與者加入會議的方式只提供一個僅供查看的體驗。 [即時事件] 可啟用其他功能。 在即時活動中，20000出席者可以觀看廣播，並與 Q&團隊中的會議、Yammer 中的交談，或僅限 Microsoft Stream 中的 [僅限視圖] 進行互動。 此外，我們還會將即時事件的長度從4小時增加到16小時，並為每個租使用者啟用最多50併發即時事件。 
+
+>[!Note]
+> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](../tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
 
 > [!NOTE]
 > 企業版和教育版 Sku 可以暫時保留最多20000個出席者的即時活動，每個廣播的事件持續時間為16小時，而在租使用者中為50個併發事件，直到2020年10月1日為止。
