@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820447"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203826"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -148,6 +148,9 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 ### <a name="meeting-recording-and-archiving"></a>會議錄製和封存
 
 使用者可以記錄其會議和群組通話，以擷取音訊、視訊和螢幕共用的活動。 您也可以使用自動轉錄的錄製選項，便於使用者播放具有隱藏式輔助字幕的會議錄製，並在文字記錄中搜尋重要的討論項目。 錄製會在雲端中進行，並儲存到 Microsoft Stream，因此使用者可以安全地在整個組織內共用檔案。 若要尋找會議的錄製，請前往會議交談。
+
+>[!Note]
+> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 年初的某刻，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
 
 若要深入了解，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 

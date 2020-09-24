@@ -18,12 +18,12 @@ description: 在本文中，您將了解在 Microsoft Teams 中設定即時活�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962814"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203916"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -45,6 +45,9 @@ ms.locfileid: "47962814"
 - Microsoft Stream 授權 - 如果您打算將內容共用給外部應用程式或裝置，就必須有此授權；請參閱 [Microsoft Stream 授權](https://docs.microsoft.com/stream/license-overview)。 
 
   如果您只想讓使用者錄影及下載錄製內容，則使用者不必獲派 Microsoft Stream 授權。 這表示錄製內容不會儲存在 Microsoft Stream 中，而是會儲存在 Azure 媒體服務 (AMS) 中，並有會在 30 天後遭到刪除的時間限制。 目前系統管理員並無法控制或管理此機制，包括加以刪除的能力。
+
+>[!Note]
+> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 年初的某刻，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行會議錄製。
 
 > [!NOTE]
 > 目前，沒有任何 Microsoft 365 小型企業方案可供用來建立及保留 Teams 即時活動。
