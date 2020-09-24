@@ -17,37 +17,38 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820617"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235841"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
-Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文章來快速推出和設定貴組織的會議和即時活動。 
+Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文章來快速推出和設定貴組織的會議和即時活動。
 
 > [!Note]
 > 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
- - Teams 的**會議**包括音訊、視訊，且畫面可共用人數最多可達 300 人。 這些是在 Teams 中共同作業的重要方法之一。 而且，您不必一定要具備組織的成員資格 (或甚至不需要 Teams 帳戶！) 才能加入 Teams 會議，只要查看邀請中有關撥入會議的指示即可。 
+ - Teams 的**會議**包括音訊、視訊，且畫面可共用人數最多可達 300 人。 這些是在 Teams 中共同作業的重要方法之一。 而且，您不必一定要具備組織的成員資格 (或甚至不需要 Teams 帳戶！) 才能加入 Teams 會議，只要查看邀請中有關撥入會議的指示即可。
 
  - **即時活動**是 Teams 會議的延伸，可讓您排程並產生活動，向大量線上觀眾串流播放，最多可讓 10,000 人參與。 如果您的會議參與人數會超過 300 人，請使用即時活動。
-<br><br>**附註：** 針對政府用 Teams (GCC、GCC、DoD)，其限制仍為 250。 當政府用雲端限制從 250 增加至 300，我們就會更新本文章。
+<br><br>**附註：** 針對政府用 Teams (GCC、GCC、DoD)，其限制仍為 250。 當政府用雲端限制從 250 增加至 300，我們就會更新本文章。 如需有關 Teams 會議限制的最新資訊，請參閱[限制和規格](limits-specifications-teams.md)。
+
 ## <a name="get-licenses-for-meetings-and-live-events"></a>取得會議和即時活動的授權
 
-任何人都可以免費參加 Teams 會議或公開即時活動，不需要授權。 出席者按一下 Teams 或會議邀請中的 [加入]**** 就能加入 Teams 會議。 會議的音訊是 Teams 會議的一部分，但是如果您希望人員能夠以電話撥入會議，則您必須提供撥入號碼。 
+任何人都可以免費參加 Teams 會議或公開即時活動，不需要授權。 出席者按一下 Teams 或會議邀請中的 [加入]**** 就能加入 Teams 會議。 會議的音訊是 Teams 會議的一部分，但是如果您希望人員能夠以電話撥入會議，則您必須提供撥入號碼。
 
-若是召集、排程和舉辦會議或即時活動的人員，這些人員需要下表列出的 Microsoft 365 或 Office 365 授權之一。 如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議和即時活動所需的授權。 
+若是召集、排程和舉辦會議或即時活動的人員，這些人員需要下表列出的 Microsoft 365 或 Office 365 授權之一。 如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議和即時活動所需的授權。
 
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Teams 會議和即時活動所需授權的表格":::
 
 > <sup>1</sup>  會議召集人必須擁有[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)才能傳送內含電話撥入式會議的邀請。
 >
-> <sup>2</sup>  若是撥出至[**用下列電話號碼連絡我**號碼](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 [撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。 
+> <sup>2</sup>  若是撥出至[**用下列電話號碼連絡我**號碼](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 [撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。
 
-若要深入瞭解授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 
+若要深入瞭解授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="make-sure-your-networks-ready"></a>確定網路已準備就緒
 
@@ -55,7 +56,7 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文
 
 ## <a name="meetings-and-conferencing"></a>會議和召集會議
 
-- 身為系統管理員，您要設定每個人的[會議設定](meeting-settings-in-teams.md)。 接著，您可以使用[會議原則](meeting-policies-in-teams.md)控制使用者可以使用 (和不可以使用) 哪些會議功能。 
+- 身為系統管理員，您要設定每個人的[會議設定](meeting-settings-in-teams.md)。 接著，您可以使用[會議原則](meeting-policies-in-teams.md)控制使用者可以使用 (和不可以使用) 哪些會議功能。
 
 - 若要了解如何管理會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 

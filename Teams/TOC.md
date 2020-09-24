@@ -113,6 +113,7 @@
 # 應用程式、Bot 和連接器
 
 ## [概觀](deploy-apps-microsoft-teams-landing-page.md)
+## [與 Power Platform 整合](teams-power-platfom-integration.md)
 ## [管理 Teams 應用程式](manage-apps.md)
 ## [在 Teams 中的應用程式系統管理設定](admin-settings.md)
 ## [使用內建和自訂索引標籤](built-in-custom-tabs.md)
@@ -186,6 +187,7 @@
 ## [在不支援的瀏覽器上進行 Teams 會議](unsupported-browsers.md)
 ## [在 Teams 中設定桌面共用](configure-desktop-sharing.md)
 ## [Teams 雲端會議錄製](cloud-recording.md)
+## [使用商務用 OneDrive 和 SharePoint 或 Stream 進行會議錄製](tmr-meeting-recording-change.md)
 ## [連絡中心整合](teams-contact-center.md)
 ## [在 Outlook 中使用 Teams 會議增益集](teams-add-in-for-outlook.md)
 ## [為您的使用者設定語音來電功能](set-up-the-call-me-feature-for-your-users.md)
@@ -258,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [雲端視訊 Interop](cloud-video-interop.md)
 
 ## 即時活動
@@ -293,14 +294,15 @@
 #### [深入了解通話線路識別碼和來電方名稱](more-about-calling-line-id-and-calling-party-name.md)
 
 ### 自動語音應答和通話佇列 
-#### [什麼是雲端自動語音應答](what-are-phone-system-auto-attendants.md)
-#### [設定雲端自動語音應答](create-a-phone-system-auto-attendant.md)
+#### [規劃](plan-auto-attendant-call-queue.md)
+#### [自動語音應答設定](create-a-phone-system-auto-attendant.md)
+#### [通話佇列設定](create-a-phone-system-call-queue.md)
 #### [小型企業範例 - 設定自動語音應答](tutorial-org-aa.yml)
 #### [小型企業範例 - 設定通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [管理 Teams 資源帳戶](manage-resource-accounts.md)
-#### [建立雲端通話佇列](create-a-phone-system-call-queue.md)
 #### [設定假日](set-up-holidays-in-teams.md)
 #### [直接從 Teams 回答自動語音應答和通話佇列的通話](answer-auto-attendant-and-call-queue-calls.md)
+#### [撥號和語音參考](dial-voice-reference.md)
 
 ### [封鎖撥入通話](block-inbound-calls.md)
 ### [通話駐留和擷取](call-park-and-retrieve.md)
