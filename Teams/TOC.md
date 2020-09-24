@@ -8,9 +8,11 @@
 
 # 訓練
 ## [概觀](training-microsoft-teams-landing-page.md)
-## [Teams 的講師帶領訓練](instructor-led-training-teams-landing-page.yml)
 ## [Teams 的管理訓練](itadmin-readiness.md)
 ## [Teams 的使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Ignite 2020 中的 Teams 工作階段](ignite-2020-landing-page.md)
+## [Teams 即時訓練](instructor-led-training-teams-landing-page.yml)
+## [Teams 線上訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [如何推出 Teams](How-to-roll-out-teams.md)
@@ -116,16 +118,18 @@
 ## [使用內建和自訂索引標籤](built-in-custom-tabs.md)
 ## [使用 Microsoft 365 或 Office 365 和自訂連接器](Office-365-custom-connectors.md)
 ## [特定於資源的同意](resource-specific-consent.md)
-## [發佈透過 Teams 應用程式提交 API 所提交的自訂應用程式](submit-approve-custom-apps.md)
-## [透過上傳應用程式套件發佈自訂應用程式](upload-custom-apps.md)
+## 自訂應用程式
+### [發佈透過 Teams 應用程式提交 API 發布的自訂應用程式](submit-approve-custom-apps.md)
+### [在 Microsoft Teams 系統管理中心管理 Power Platform ](manage-power-platform-apps.md)
+### [透過上傳應用程式套件發佈自訂應用程式](upload-custom-apps.md)
 ## [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [應用程式權限和考量](app-permissions.md)
 ## [為 Teams 協力廠商應用程式購買服務](purchase-third-party-apps.md)
 ## [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中管理貴組織的清單應用程式](manage-lists-app.md)
 ## [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
-## [在 Teams 系統管理中心管理稱讚應用程式](manage-praise-app.md)
 ## [設定您的小組目標階層](set-up-your-team-hierarchy.md)
+## [在 Teams 系統管理中心管理稱讚應用程式](manage-praise-app.md)
 ## [設定Skype 會議應用程式以搭配使用 Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -619,7 +623,7 @@
 
 <!-- ============================================================ -->
 
-# Microsoft 365 Business Voice
+# Microsoft 365 商務語音
 ## [什麼是 Microsoft 365 Business Voice？](business-voice/whats-business-voice.md)
 ## [適用國家與地區](business-voice/country-region-availability.md)
 ## 購買前應了解的事項
@@ -981,5 +985,5 @@
 ### [緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
 
 ## [升級探索問卷](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [使用 Microsoft Teams API 匯出內容](export-teams-content.md)
 ## [Teams 系統管理員功能的版本資訊](release-notes/release-notes.md)
