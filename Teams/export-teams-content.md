@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7849892870f54f43f0fda16564ad472426d46cd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 2932488128ccf6f0bff12f3aad39181ed56c1cd0
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171435"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235811"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用 Microsoft 團隊匯出 Api 匯出內容
 
@@ -31,8 +31,8 @@ ms.locfileid: "48171435"
 
 以下是如何使用這些匯出 Api 的一些範例：
 
-- **範例 1**：如果您已在貴組織中啟用 microsoft 團隊，且想要將所有 microsoft 團隊郵件以程式設計方式匯出至「日期」，請傳送指定使用者的資料範圍。
-- **範例 2**：如果您想要以程式設計方式透過提供資料範圍來以程式設計方式匯出所有的使用者郵件。 匯出 Api 可以檢索在指定日期範圍內建立或更新的所有訊息。
+- **範例 1**：如果您已在貴組織中啟用 microsoft 團隊，並想要以程式設計方式將所有 microsoft 團隊郵件匯出至 [日期]，請傳送指定使用者的日期範圍。
+- **範例 2**：如果您想要以程式設計方式將所有使用者郵件匯出為每天，請提供日期範圍。 匯出 Api 可以檢索在指定日期範圍內建立或更新的所有訊息。
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>團隊匯出 Api 支援哪些專案？
 
@@ -50,13 +50,13 @@ ms.locfileid: "48171435"
 - **範例 1** 是一個簡單查詢，可在沒有任何篩選的情況下，檢索使用者的所有訊息：
 
     ```HTTP
-    GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
 
 - **範例 2** 是一個範例查詢，可透過指定日期時間篩選與前50封郵件來檢索使用者的所有訊息：
 
     ```HTTP
-    https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 
 >[!NOTE]
@@ -64,7 +64,7 @@ ms.locfileid: "48171435"
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>存取團隊匯出 Api 的先決條件 
 
-- 團隊匯出 Api 目前在預覽中，但受 Microsoft Api 使用條款的制約使用。  只有擁有所需授權的使用者和承租人才能使用它。 嘗試存取沒有適當授權的 Api 將會導致403錯誤。
+- 團隊匯出 Api 目前在預覽中。 只有具備 Api [所需授權](https://aka.ms/teams-changenotification-licenses) 的使用者和承租人才能使用它。 在將來，Microsoft 可能會要求您或您的客戶根據透過 API 存取的資料量來支付額外費用。
 - Microsoft Graph 中的 microsoft 團隊 Api （可存取機密資料）會被視為受保護的 Api。 匯出 Api 需要您在使用前進行額外的驗證（除了許可權和同意），才能使用它們。 若要要求存取這些受保護的 Api，請完成 [ [要求] 表單](https://aka.ms/teamsgraph/requestaccess)。
 - 在沒有登入使用者的情況下執行的 app 會使用應用程式許可權;只有系統管理員才能同意應用程式許可權。 需要下列許可權：
 
