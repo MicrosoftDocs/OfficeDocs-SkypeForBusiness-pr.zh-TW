@@ -16,22 +16,22 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583812"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235821"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
-貴組織想要開始使用 Microsoft Teams 來支援遠端工作或在家工作的使用者嗎？ 使用本文中的指導方針快速啟動及執行。
+貴組織想要使用 Microsoft Teams 來支援遠端工作或在家工作的使用者嗎？ 使用本文中的指導方針快速啟動及執行。
 
 如果您是小型或中型企業，請不要錯過[使用遠端工作為小型企業提供協助](https://aka.ms/remote-business)。
 
 ## <a name="it-admin-guidance"></a>IT 系統管理員指導方針
 
-- 請確認所有人都能使用[包含 Teams 的付費訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)存取 Teams。 或者，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
+- 請確認所有人都能使用[包含 Teams 的付費訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)存取 Teams。 作為選擇，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
 
 -  如果您已擁有包含 Teams 的訂閱，請**[為每個人開啟](user-access.md)**。
     
@@ -50,7 +50,7 @@ ms.locfileid: "46583812"
 
 - 幾天後，傳送**秘訣和訣竅電子郵件**，以協助使用者充分利用 Teams。
 
-## <a name="end-user-guidance"></a>使用者指導方針
+## <a name="end-user-guidance"></a>終端使用者指導方針
 
 與使用者共用這些資產與影片，以協助他們快速入門：
 
@@ -74,15 +74,15 @@ ms.locfileid: "46583812"
    - [Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (英文)
    - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/) (英文)
 
-   - [Microsoft IT 為其員工啟用遠端作業的最熱門 9 種方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/) (英文)
+   - [Microsoft IT 為其員工啟用遠端作業最熱門的九種方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. Microsoft Teams 教育版 
+1. 適用於教育的 Teams 
    - 如果您從事教育工作，而且想要在 Teams 上設定教師、學生和系統管理員，請使用 Office 365 A1。 所有教育機構都能使用這個免費的 Office 365 版本。 在[免費取得全校師生都能使用的 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)註冊。
 
    - 請不要錯過[開始使用 Microsoft Teams 進行遠端學習](remote-learning-edu.md)。
 
-1. 確定您的員工擁有足夠的網際網路存取權和頻寬供 Teams 使用。 使用[針對 Teams 準備組織的網路](prepare-network.md)中的指導方針，以了解如何執行此作業。
+1. 確定您的員工擁有足夠的網際網路存取權和頻寬供 Teams 使用。 使用 [針對 Teams 準備組織的網路](prepare-network.md) 中的指導方針，以了解如何確保具有適當的頻寬。
 
    - 有限的頻寬會影響 Teams 會議中的音訊品質。 為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。 
 
@@ -92,7 +92,7 @@ ms.locfileid: "46583812"
    
    - 如果您在中國，請參閱 [Microsoft 365 或 Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china) (部分機器翻譯)。
 
-   - 如果您需要協助有關通話或會議品質的疑難排解或問題修正，請遵循本文最下方的[已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。
+   - 如果您需要有關通話或會議品質的疑難排解或問題修正之協助，則請遵循本文最下方的[已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。
 
 1. 大家在家中工作時的安全性
 
@@ -128,13 +128,13 @@ ms.locfileid: "46583812"
       
       - [使用 Teams 遠端作業](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (英文)
+      - Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的四個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [使用 Microsoft 365 或 Office 365 共同作業](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [使用 Microsoft 365 或 Office 365 遠端工作](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
-      - [遠端工作的 9 個秘訣](https://www.microsoft.com/tips/home/working-remotely)
+      - [遠端工作的九個秘訣](https://www.microsoft.com/tips/home/working-remotely)
 
       - Satya Nadella 及 Teams 產品行銷經理 Aya Tange 關於[使用 Teams 遠端工作](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) 的影片 ( 2020 年 3 月 20 日)
 
@@ -150,7 +150,7 @@ ms.locfileid: "46583812"
     
    - 傳送有關組織的在家工作以及健康和安全原則資訊。
     
-   - 在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。 如果您的會議有超過 250 個參與者，請將它設為即時活動。 開啟[會議](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[即時活動](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的即時輔助字幕。 此外，在即時活動中開啟翻譯字幕。 這些功能會提高包容性、生產力和理解力。 
+   - 在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。 如果您的會議達到 Teams 一般會議的 [限制和規格](limits-specifications-teams.md) ，則請將之改為即時活動。 開啟[會議](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[即時活動](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的即時輔助字幕。 在即時活動中開啟翻譯字幕。 這些功能會提高包容性、生產力和理解力。 
 
 4.  設置[技術服務人員](troubleshoot-installation.md)以處理使用者查詢。
 
@@ -164,12 +164,12 @@ ms.locfileid: "46583812"
 
 以下是 2020 年 2 月 7 日訊息中心文章 (MC203397) 的摘要：
 
-Microsoft 知道，中國地區的部分使用者在撥入商務用 Skype 或 Teams 會議識別碼時發生問題。 在多數情況下，這些問題在於我們無法控制的外部系統。 問題往往在於當地行動電話和電話語音的通信業者。 
+Microsoft 瞭解，中國地區的部分使用者在撥入商務用 Skype 或 Teams 會議識別碼時發生問題。 在多數情況下，這些問題在於我們無法控制的外部系統。 問題往往在於當地行動電話和電話語音的通信業者。 
 
 如果您遇到音訊會議問題，建議您執行下列動作：
 
 - 要求來電者或會議召集人撥打您的 PSTN 或行動電話號碼。
-- 從桌面或行動裝置用戶端透過 VoIP 加入通話或會議。
+- 從桌上型電腦或行動裝置用戶端透過 VoIP 加入通話或會議。
 
 如果您需要記錄支援票證，請包含下列項目：
     

@@ -17,23 +17,23 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8db647d5021aee124dec794e8711662de9f0a1c
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 02c5889752ca730de84f8ca7bbaf240d30df63a2
+ms.sourcegitcommit: 70ceb3a3c3483234ec9f3fed6117144abf59ca75
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121363"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48246130"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft Teams
 ==========================
 
-Microsoft 建議組織使用最新版本的 Windows 10，內含有混合式網域加入或 Azure AD 加入設定。 這可確保在 Windows 網頁帳戶管理員中已將使用者的帳戶準備好，進而讓您以單一的方式登入 Teams 和其他 Microsoft 應用程式。 這可提供更好的使用者體驗 (無訊息式登入) 和加強的安全性狀況。
+Microsoft 建議組織使用最新版本的 Windows 10，內含有混合式網域加入或 Azure AD 加入設定。 使用最近的版本能確保在 Windows 網頁帳戶管理員中已將使用者的帳戶準備好，進而讓您以單一的方式登入 Teams 和其他 Microsoft 應用程式。 單一登入可提供更好的使用者體驗 (無訊息式登入) 和加強的安全性狀況。
 
 Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭解使用者如何登入 Teams，請閱讀[登入 Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
 ## <a name="how-modern-authentication-works"></a>新式驗證的運作方式
 
-新式驗證是一種程序，可讓 Teams 知道使用者已經在別處輸入其認證 (例如他們的工作電子郵件和密碼)，因此不需要再次輸入就能啟動應用程式。 這項體驗會根據幾項因素而有所不同，例如使用者是在 Windows 或在 Mac 上工作。 它也會根據您的組織是啟用單一要素驗證還是多重要素驗證而有所不同 (多重要素驗證通常牽涉到透過手機，提供唯一的驗證碼、輸入 PIN 或呈現指紋來驗證認證)。 以下是每個新式驗證案例的摘要。
+新式驗證是一種程序，可讓 Teams 知道使用者已經在別處輸入其認證 (例如，他們的工作電子郵件和密碼)，因此不需要再次輸入就能啟動應用程式。 這項體驗會根據幾項因素而有所不同，例如使用者是在 Windows 或在 Mac 上工作。 它也會根據您的組織啟用單要素驗證或多重要素驗證而有所不同。 多重要素驗證通常涉及透過手機驗證認證、提供唯一的代碼、輸入 PIN，或顯示指紋。 以下是每個新式驗證案例的摘要。
 
 ### <a name="windows-users"></a>Windows 使用者
 
@@ -41,7 +41,7 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
 
 - Microsoft 建議使用 Windows 10 版本 1903 或更新版本，以獲得最佳的單一登入體驗。
 
-- 如果使用者未登入他們的 Microsoft 公司或學校帳戶，當他們啟動 Teams 時，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，取決於您的組織決定要採取的程序。
+- 如果使用者未登入他們的 Microsoft 公司或學校帳戶，當他們啟動 Teams 時，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)。 此程序取決於貴組織決定登入程式所需的方式。
 
 - 如果使用者登入加入網域的電腦，當他們啟動 Teams 時，系統可能會要求他們執行一個進一步的驗證步驟，視您的組織是否選擇要求 MFA 或他們的電腦是否要求 MFA 才能登入而定。 如果使用者的電腦要求 MFA 才能登入，當他們開啟 Teams 時，應用程式會自動啟動。
 
@@ -54,27 +54,25 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
     > [!NOTE]
     > 針對以 ".local" 或 ".corp" 結尾的使用者名稱，略過或忽略使用者名稱預先填入的功能依預設會開啟，因此您不需要設定登錄機碼就能關閉此功能。
 
-
 ### <a name="mac-users"></a>Mac 使用者
 
-在 MacOS 上，Teams 會提示使用者輸入其使用者名稱和認證，並根據貴組織的設定，可能會提示多重要素驗證。 使用者輸入認證後，就不需要再次提供這些認證。 從這時起，只要他們在同一部電腦上工作，Teams 就會自動啟動。
+在 macOS 上，Teams 會提示使用者輸入其使用者名稱和認證，並根據貴組織的設定，可能會提示多重要素驗證。 使用者輸入認證後，就不需要再次提供這些認證。 從這時起，只要他們在同一部電腦上工作，Teams 就會自動啟動。
 
 ## <a name="teams-for-ios-and-android-users"></a>適合 iOS 和 Android 使用者的 Teams
 
 登入後，行動使用者將會看到目前登入或先前已在其裝置上登入的所有 Microsoft 365 帳戶清單。 使用者可以點擊任何帳戶登入。 以行動裝置登入會有下列兩種案例：
-    
+
 1. 如果選取的帳戶目前已登入其他 Office 365 或 Microsoft 365 app，系統會將該使用者直接移至 Teams。 使用者不需要再輸入認證。
-    
+
 2. 如果使用者未登入其 Microsoft 365 帳戶的其他位置，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，視貴組織針對 [行動裝置登入原則] 設定的內容而定。
 
 > [!NOTE]
 > 若要讓使用者體驗本節所述的 [登入體驗]，他們的裝置必須是能夠執行 iOS 版2.0.13 （組建2020061704）或更新版本，或為 Android 版的 Teams 版本 1416/1.0.0.2020061702 或更新版本。
 
-
 ### <a name="adding-multiple-accounts-to-teams"></a>在 Teams 中新增多個帳戶
 
 IOS 和 Android 版的 Teams 支援將多個帳戶從單一裝置新增至 Teams。 下列影像顯示如何在 Teams 中新增多個帳戶。
-    
+
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="在 Teams 中新增多個帳戶":::
 
 ### <a name="use-enterprise-mobility-management-to-control-which-accounts-can-sign-in-to-teams"></a>使用企業行動管理來控制哪些帳戶可以登入 Teams
@@ -87,19 +85,17 @@ IOS 和 Android 版 Teams 提供 IT 系統管理員將帳戶設定推入 Microso
 
 在受管理的裝置的 Azure Intune 入口網站中設定下列設定參數。
 
-
 |平台 |機碼  |值  |
 |---------|---------|---------|
 |iOS     |  **IntuneMAMAllowedAccountsOnly**       | **已啟用**: 唯一允許的帳戶是由 IntuneMAMUPN 機碼所定義的受管用戶帳戶。<br> **已停用** (或與 **啟用**不區分大小寫的任何值): 允許任何帳戶。        |
 |iOS     |   **IntuneMAMUPN**      |   允許登入 Teams 的帳戶 UPN。<br> 如果您是 Intune 註冊的裝置，可以使用 {{userprincipalname}} 符號來代表已註冊的使用者帳戶。       |
-|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    只有允許帳戶是由此編碼定義的受管用戶帳戶。<br> 一或多個分號 [;]- delmited UPNs。<br> 如果您是 Intune 註冊的裝置，可以使用 {{userprincipalname}} 符號來代表已註冊的使用者帳戶。
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    只有允許帳戶是由此編碼定義的受管用戶帳戶。<br> 一或多個分號 ;]- delmited UPN。<br> 如果您是 Intune 註冊的裝置，可以使用 {{userprincipalname}} 符號來代表已註冊的使用者帳戶。
 
 當帳戶設定完成之後， Teams 會限制登入的能力，因此只有登入的裝置上允許的帳戶才能取得存取權。
 
 若要為受管理的 iOS/iPadOS 裝置建立應用程式設定原則，請參閱 [新增受管理的 iOS/iPadOS 裝置 app 設定原則](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)。
 
 若要為受管理的 Android 裝置建立應用程式設定原則，請參閱 [新增受管理的 Android 裝置應用程式設定原則](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)。
-
 
 ## <a name="switching-accounts-after-completing-modern-authentication"></a>完成新式驗證後切換帳戶
 
@@ -111,10 +107,18 @@ IOS 和 Android 版 Teams 提供 IT 系統管理員將帳戶設定推入 Microso
 
 ### <a name="signing-out-of-teams-for-ios-and-android"></a>登出 iOS 和 Android 的 Teams
 
-行動使用者可以移至功能表，並選擇 **[更多]** 功能表，然後選擇 **[登出]**，以登出 Teams。一旦登出，使用者則需在下一次啟動該應用程式時，重新輸入認證。
+行動使用者可以移至功能表，選取 **[更多]** 功能表，然後選取 **[登出]**，以登出 Teams。一旦登出，使用者則需在下一次啟動該應用程式時，重新輸入認證。
 
 > [!NOTE]
 > Android 版 Teams 使用單一登入（SSO）來簡化登入體驗。 使用者除了 Team 以外，還應務必登出 **所有** 的 Microsoft 應用程式，以便完全登出 Android 平臺。
+
+## <a name="global-sign-in-and-sign-out"></a>全域登入和登出
+
+Teams Android 應用程式現在支援全域登入和登出，為第一線工作者提供輕鬆便利的登入和登出體驗。 員工可以從共用裝置池中挑選一個裝置，並執行單一登入，以在其班次期間將之作為自己的裝置。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 這會自裝置移除其個人與公司資訊，這樣他們便能將裝置歸還回裝置池。 若要取得這項功能，裝置必須處於共用模式。 若要瞭解如何設定共用裝置，請參閱[如何在 Android 上使用共用裝置模式](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
+
+登入體驗看起來類似我們的標準 Teams 登入體驗，而登出功能看起來則類似於以下兩個影像：
+
+![顯示登出的行動電話](media/global-SignOut.png)  
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 位址範圍
 
@@ -125,10 +129,9 @@ Teams 需要連線到網際網路。 若要瞭解客戶在 Office 365 方案、�
 
 ## <a name="troubleshooting-modern-authentication"></a>疑難排解新式驗證
 
-每個使用 Teams 的組織都能使用新式驗證，因此如果使用者無法完成程序，您的網域或組織的 Microsoft 公司或學校帳戶可能有問題。
+使用 Teams 的每一個組織都能使用新式驗證。 如果使用者無法完成程序，則您的網域或組織的 Microsoft 公司或學校帳戶可能有問題。
 
 如需詳細資訊，請參閱[為何我無法登入 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
-
 
 ## <a name="related-topics"></a>相關主題
 
