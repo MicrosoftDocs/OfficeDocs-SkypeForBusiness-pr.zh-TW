@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 至 Microsoft Phone System。
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820637"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262530"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -189,7 +189,9 @@ Microsoft 建議您在 (CSR) 中產生認證簽署要求，以要求 SBC 的憑�
 - T 系統國際 GmbH (德國 Telekom) 
 - QuoVadis
 
-
+針對 Office 365 GCC DoD 環境中的直接路由，證書需要由下列其中一個根憑證授權單位產生：
+- DigiCert 全域根 CA
+- DigiCert 高確定性 EV 根 CA
 
 > [!NOTE]
 > * 如果在 SBC 上針對團隊連結啟用了相互 TLS (MTLS) 支援，則您必須在 SBC 信任的團隊 TLS 內容根存放區中安裝巴爾的摩 CyberTrust 根憑證。  (這是因為 Microsoft 服務憑證使用巴爾的摩根憑證。 ) 若要下載巴爾的摩根憑證，請參閱 [Office 365 加密鏈](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)。

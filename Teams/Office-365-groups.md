@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 群組和 Microsoft 團隊
-ms.reviewer: Kyle Blevins
-author: SerdarSoysal
-ms.author: serdars
+ms.reviewer: kblevins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
@@ -18,37 +18,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4861683d3c46eaa6122ffbac0d2ae17b4f3a7979
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 2b76dd455aa2ec4e478254f6a4dbaceefc57562b
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655994"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262380"
 ---
-<a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和 Microsoft 團隊
-=====================================
+# <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和 Microsoft 團隊
 
 > [!Tip]
 > 請觀看下列會話，瞭解團隊如何與 Azure Active Directory (Azure AD) 、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive： [Microsoft 團隊基礎](https://aka.ms/teams-foundations)
 
 Microsoft 365 群組是 Office 365 中的跨應用程式成員資格服務。 在基本層級，Microsoft 365 群組是 Azure Active Directory 中的一個物件，其中包含一份成員清單，以及與相關工作負載鬆散耦合，包括 SharePoint 小組網站、Yammer 群組、共用 Exchange 信箱資源、Planner、Power BI 和 OneNote。 您可以將人員新增或移除至群組，就像在 Active Directory 中的任何其他群組安全物件一樣。
 
-Office 365 管理員可以定義 Microsoft 365 群組、新增成員，以及從功能（例如 Exchange 共用信箱、SharePoint 文件庫、Yammer 群組等）獲益。 如需有關 Microsoft 365 群組的詳細資訊，請參閱[瞭解 microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+Office 365 管理員可以定義 Microsoft 365 群組、新增成員，以及從功能（例如 Exchange 共用信箱、SharePoint 文件庫、Yammer 群組等）獲益。 如需有關 Microsoft 365 群組的詳細資訊，請參閱 [瞭解 microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 [在 Microsoft 365 中，不要錯過 IT 架構師](teams-architecture-solutions-posters.md#groups-in-microsoft-365)的海報群組。
 
 <a name="how-microsoft-365-groups-work"></a>Microsoft 365 群組的運作方式
 --------------------------
 
-當您建立小組時，請在後端，建立 Microsoft 365 群組，以及關聯的 SharePoint 文件庫和 OneNote 筆記本，以及與其他 Office 365 雲端應用程式之間的關聯。 如果建立小組的人員是現有的 Office 365 公用或私人群組的擁有者，則如果群組中的成員數量在[Microsoft 團隊的限制與規格](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)中指定的限制，而該組從未新增至小組，他們就可以將團隊功能新增到群組中。 這會建立一個預設的**一般**頻道，讓聊天訊息、檔、OneNote 及其他物件都駐留在其中。 查看頻道的文件庫會顯示代表小組中頻道的 **[一般**] 資料夾。 更重要的是，如果您在文件庫中建立自己的資料夾結構，**它不會**以頻道傳播給團隊;目前，它只會從小組流向 SharePoint。
+當您建立小組時，請在後端，建立 Microsoft 365 群組，以及關聯的 SharePoint 文件庫和 OneNote 筆記本，以及與其他 Office 365 雲端應用程式之間的關聯。 如果建立小組的人員是現有的 Office 365 公用或私人群組的擁有者，則如果群組中的成員數量在 [Microsoft 團隊的限制與規格](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 中指定的限制，而該組從未新增至小組，他們就可以將團隊功能新增到群組中。 這會建立一個預設的 **一般** 頻道，讓聊天訊息、檔、OneNote 及其他物件都駐留在其中。 查看頻道的文件庫會顯示代表小組中頻道的 **[一般** ] 資料夾。 更重要的是，如果您在文件庫中建立自己的資料夾結構， **它不會** 以頻道傳播給團隊;目前，它只會從小組流向 SharePoint。
 
 > [!NOTE]
-> 根據客戶的意見反應，由於在 Microsoft 團隊用戶端中建立小組而產生的新 Microsoft 365 群組，預設不會在 Outlook 中顯示。 若要開啟或關閉 Outlook 中的群組顯示，請使用[UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 及**HiddenFromExchangeClientsEnabled**參數。 透過 Outlook 建立的群組，且稍後啟用的小組將會繼續在 Outlook 和小組中顯示。 
+> 根據客戶的意見反應，由於在 Microsoft 團隊用戶端中建立小組而產生的新 Microsoft 365 群組，預設不會在 Outlook 中顯示。 若要開啟或關閉 Outlook 中的群組顯示，請使用 [UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 及 **HiddenFromExchangeClientsEnabled** 參數。 透過 Outlook 建立的群組，且稍後啟用的小組將會繼續在 Outlook 和小組中顯示。 
 
 > [!NOTE]
 > 刪除 Microsoft 365 群組會移除持續性 Outlook/OWA 交談和團隊會議邀請的信箱別名，並標示要刪除的 SharePoint 網站。 在 Outlook 中移除團隊和其效果之間大約需要20分鐘的時間。 從小組用戶端刪除小組後，就會立即將其從 [查看] 移至團隊成員的所有人。 如果您移除已在其上啟用團隊功能的 Microsoft 365 群組成員，則在團隊用戶端中針對已移除的人員在團隊用戶端中移除該小組前，可能會有大約兩小時的延遲。
 >
->若要瞭解如何還原已刪除的 Microsoft 365 群組，請閱讀[此](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)資訊。
+>若要瞭解如何還原已刪除的 Microsoft 365 群組，請閱讀 [此](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) 資訊。
 
 <a name="group-membership"></a>群組成員資格
 ----------------

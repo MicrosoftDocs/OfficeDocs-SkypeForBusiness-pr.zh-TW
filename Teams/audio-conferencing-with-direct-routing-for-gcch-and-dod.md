@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 系統管理員可以瞭解如何在 GCCH 和 DoD 環境中搭配直接路由使用音訊會議。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55efdc0c79f80a2a7b7ca44fd9c80481b163c63f
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34fcb84ee0e5126188f47a4ccc231c04ffd093b2
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868590"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262490"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>適用於 GCC High 和 DoD 的音訊會議搭配直接路由
 
@@ -91,25 +91,79 @@ ms.locfileid: "44868590"
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>步驟4：使用針對 GCC 高或 DoD 授權的直接路由指派音訊會議給您的使用者
 
-若要為您的使用者指派可直接傳送給 GCC 高或 DoD 授權的音訊會議，請參閱[指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>步驟4：定義全域語音路由策略以啟用從會議傳送傳出通話的功能
 
-### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>步驟5：（選用）查看團隊中的音訊會議號碼清單
+由貴組織中的使用者組織的會議對 PSTN 所做的撥出通話路由，是由貴組織的全域語音路由策略所定義。 如果您的組織已定義全域語音路由策略，請確認 [全域語音路由原則] 允許從組織中的使用者所組織的會議開始，對預期啟動的 PSTN 進行撥出通話。 如果您的組織沒有定義全域語音路由策略，您將需要定義一個，才能從組織中的使用者組織的會議中，將撥出電話路由至 PSTN。 請注意，貴組織的全域語音路由策略也適用于您組織中的使用者對 PSTN 所做的一對一通話。 如果針對您組織中的使用者啟用對 PSTN 的一對一呼叫，請確定全域語音路由策略符合您組織的兩種通話類型的需求。 
 
-若要查看貴組織的音訊會議號碼清單，請移至[在 Microsoft 團隊中查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+> [!NOTE]
+> Microsoft 365 政府社區雲端 (GCC) 高或 DoD 部署中，不提供以位置為基礎的路由。 啟用音訊會議時，請確認不在 GCC 或 DoD 環境中的音訊會議使用者已啟用位置路由。
 
-### <a name="step-6-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>步驟6：（選用）為貴組織的音訊會議撥入號碼設定自動助理語言
+#### <a name="defining-a-global-voice-routing-policy"></a>定義全域語音路由策略
 
-若要變更貴組織之音訊會議撥入號碼的語言，請參閱[在 Microsoft 團隊中設定音訊會議的自動助理語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+您可以透過定義 PSTN 使用量、語音路線、語音路由策略，以及將新的語音路由策略指派為貴組織的全域語音路由策略，來定義全域語音路由策略。
 
-### <a name="step-7-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>步驟7：（選用）變更組織的音訊會議橋設定
+下列步驟說明如何為組織定義新的全域語音路由策略（無人）。 如果您的組織已定義 [語音路由策略]，請確認下列設定沒有與貴組織的現有語音路由策略發生衝突。
 
-若要變更貴組織的音訊會議橋設定，請參閱[變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)
+若要在商務用 Skype Online 的遠端 PowerShell 會話中建立新的 PSTN 使用量，請使用下列命令：
 
-### <a name="step-8-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>步驟8：（選用）設定您組織中的使用者在會議邀請中所包含的電話號碼
+  ```PowerShell
+  Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+  ```
 
-若要變更您的組織在會議邀請中所包含的一組電話號碼，請參閱[在 Microsoft 團隊中設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)
+如需其他資訊，請參閱 [設定 CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage)。
+
+若要建立新的語音路線，請使用下列命令：
+
+  ```PowerShell
+  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
+  ```
+
+為您的組織定義新的語音路線時，請指定直接路由設定期間，為您的組織定義的一或多個 PSTN 線上 PSTN 閘道。 
+
+數位模式指定哪些通話會透過指定的閘道清單來傳送，這些呼叫是依據通話的目的地電話號碼。 在上述範例中，對世界上的任何目的地的呼叫都會與語音路線相符。 如果您想要限制可從組織中的使用者的會議撥打電話的電話號碼，您可以變更 [數位] 模式，讓語音路線只符合所允許的目的地數位模式。 請注意，如果沒有符合指定通話目的地電話號碼之數位模式的語音路由，該通話就不會傳送。
+
+如需其他資訊，請參閱 [新 CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute)。
+
+若要建立新的語音路由策略，請使用下列命令：
+
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
+  ```
+
+如果在 [語音路由原則] 中定義了多個 PSTN 用法，就會按照定義的順序來評估它們。 根據與 PSTN 使用相關的語音路由的數位模式，建議 PSTN 使用的順序是從最具體到更一般的順序來定義。 例如，如果 PSTN 使用量已定義為將呼叫路由至美國，而另一個 PSTN 使用量已定義為將呼叫路由至世界上的任何其他位置，則撥打至美國的 PSTN 使用量應列在全球的語音路由原則中，以將呼叫路由至世界上的任何其他位置。
+
+如需其他資訊，請參閱 [新 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
+
+若要將新的語音路由指派給貴組織的全域語音路由策略，請使用下列命令：
+
+  ```PowerShell
+  Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
+  ```
+
+如需其他資訊，請參閱 [授與 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
+
+在已定義全域語音路由策略之後，您組織中的使用者所做的任何出站通話，都將會針對與全域語音路由策略的 PSTN 使用相關的語音路由進行評估。 [撥出電話] 會根據與撥打的電話號碼之數位模式相符的第一個語音路線來傳送。
+
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>步驟5：使用適用于 GCC 的直接路由或 DoD 授權向使用者指派音訊會議
+
+若要為您的使用者指派可直接傳送給 GCC 高或 DoD 授權的音訊會議，請參閱 [指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+
+### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>步驟6： (選用) 在團隊中查看音訊會議號碼清單
+
+若要查看貴組織的音訊會議號碼清單，請移至 [在 Microsoft 團隊中查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+
+### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>步驟7： (選用) 設定您組織之音訊會議撥入號碼的自動助理語言
+
+若要變更貴組織之音訊會議撥入號碼的語言，請參閱 [在 Microsoft 團隊中設定音訊會議的自動助理語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。
+
+### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>步驟8： (選用) 變更貴組織的音訊會議橋接設定
+
+若要變更貴組織的音訊會議橋設定，請參閱 [變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)。
+
+### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>步驟9： (選用) 設定您組織中的使用者在會議邀請中所包含的電話號碼
+
+若要變更您的組織在會議邀請中所包含的一組電話號碼，請參閱 [在 Microsoft 團隊中設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>在適用于 GCC 高和 DoD 的直接佈線中，音訊會議不支援音訊會議功能
 
