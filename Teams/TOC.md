@@ -9,7 +9,6 @@
 # 訓練
 ## [概觀](training-microsoft-teams-landing-page.md)
 ## [Teams 的管理訓練](itadmin-readiness.md)
-## [Teams 的使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 ## [Ignite 2020 中的 Teams 工作階段](ignite-2020-landing-page.md)
 ## [Teams 即時訓練](instructor-led-training-teams-landing-page.yml)
 ## [Teams 線上訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
@@ -367,7 +366,6 @@
 ##### [定義和 RFC 標準](direct-routing-protocols.md)
 ##### [SIP 通訊協定](direct-routing-protocols-SIP.md)
 ##### [媒體通訊協定](direct-routing-protocols-media.md)
-#### [設定回電機器人](direct-routing-ringback-bot.md)
 #### [管理語音路由原則](manage-voice-routing-policies.md)
 
 
