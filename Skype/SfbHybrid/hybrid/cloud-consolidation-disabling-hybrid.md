@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本附錄包含針對團隊和商務用 Skype 進行雲合併時，停用混合的詳細步驟。
-ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269657"
+ms.locfileid: "48277260"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>停用混合式以完成移轉至雲端
 
@@ -46,9 +46,6 @@ ms.locfileid: "48269657"
 >您應該繼續讓 Active Directory 同步處理中的 msRTCSIP 屬性，透過 Azure AD 連接至 Azure AD。  除非受到支援，否則請勿清除任何這些屬性。  請勿在內部部署環境中執行 Disable-Get-csuser。 如果您需要修改使用者的 SIP 位址，請在您的內部部署 Active Directory 中執行這項作業，並透過 Azure AD Connect 將此變更同步處理到 Azure AD Connect，如下所述。 同樣地，如果您需要變更電話號碼，且已在內部部署中定義使用者的 LineURI，您應該在內部部署 Active Directory 中修改此值。
 >在您從內部部署遷移之後清除內部部署 msRTCSIP 屬性，可能會導致使用者的服務遺失！
 
-> [!Note] 
-> 在極少的情況下，將 DNS 從指向 Microsoft 365 或 Office 365 的內部部署變更為組織可能會造成其他一些組織的同盟停止運作，直到其他組織更新其同盟設定為止：<ul><li>
-任何使用舊版直接同盟模型的同盟組織 (又稱為允許的夥伴伺服器) ，都必須更新其組織的允許網域專案，以移除 proxy FQDN。 這種舊版同盟模型不是以 DNS SRV 記錄為基礎，因此當您的組織移至雲端時，此設定將會到期。 </li><li>任何沒有啟用 sipfed <span> 之主機服務提供者的同盟組織。com 必須更新其設定，才能啟用該功能。 只有在同盟組織完全位於內部部署，且決不會與任何混合式或線上租使用者同盟時，才可以使用此狀況。 在此情況下，與這些組織的同盟必須啟用其主機服務提供者後，才能運作。</li></ul>如果您懷疑任何同盟協力廠商都可能使用直接同盟或與任何線上或混合組織同盟，我們建議您在準備完成對雲端的遷移時，向其傳送有關此資訊的通訊。
 
 1.  *將 DNS 更新為指向 Microsoft 365 或 Office 365。*
 組織的外部 DNS 必須更新內部部署組織，以便商務用 Skype 記錄指向 Microsoft 365 或 Office 365，而不是內部部署。 特別是：

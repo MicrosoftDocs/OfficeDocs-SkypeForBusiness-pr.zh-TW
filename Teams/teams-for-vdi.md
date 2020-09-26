@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
+ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820607"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286109"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -413,7 +413,13 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 ### <a name="troubleshoot-citrix-components"></a>Citrix 元件疑難排解
 
-如需如何針對 VDA 和 CWA 問題進行疑難排解的資訊，請參閱 [此 Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>團隊當機或團隊登入畫面為空白
+
+這是 Citrix VDA 版本1906和1909的已知問題。 若要解決此問題，請新增下列登錄 DWORD 值，並將它設為 204 (十六進位) 。
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+然後，重新開機 VDA。 若要深入瞭解，請參閱此 Citrix 支援文章、 [疑難排解 HDX 優化小組](https://support.citrix.com/article/CTX253754)。
 
 ## <a name="related-topics"></a>相關主題
 
