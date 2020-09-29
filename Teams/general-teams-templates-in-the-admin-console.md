@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216694"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294449"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>在管理員主控台中使用一般團隊範本
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 
 團隊範本有預先建立的小組結構定義，專為圍繞財務需求而設計。 您也可以延伸團隊範本，建立專為您特定組織需求量身定制的小組。
 
-在本文中，我們將介紹每個團隊範本，以及我們建議使用這些範本的方式。
+在本文中，我們將介紹每個團隊範本，並建議如何使用它們。
 
-如果您負責規劃、部署及管理整個財務組織中的多個小組，本文將適合您。 我們假設您已在貴組織中已部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
+如果您負責規劃、部署及管理整個財務組織中的多個小組，本文將適合您。 您已在組織中部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
 
 若要深入瞭解小組範本的整體資訊，請參閱 [開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
@@ -70,9 +67,9 @@ ms.locfileid: "48216694"
 
 ## <a name="manage-an-event"></a>管理活動
 
-管理工作、檔，以及在您所需的所有專案上共同作業，以傳送引人注目的活動。 邀請來賓使用者在貴公司內部和外部都能安全地共同作業。
+管理工作、檔，以及共同作業，以提供引人注目的活動所需的所有專案。 邀請來賓使用者在貴公司內部和外部都能安全地共同作業。
 
-您可能無法以您的應用程式許可權原則存取某些應用程式。
+您可能無法以應用程式許可權原則存取某些應用程式。
 
 | 基底範本類型 | baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------ |--|----------------------------------------------------- |

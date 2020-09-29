@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 7dd598d92ab935ed8221258c386e87788d38f92c
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135857"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294589"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft 團隊中建立自訂團隊範本
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **EDU 客戶尚不支援自訂範本。**
 
@@ -65,6 +62,9 @@ ms.locfileid: "48135857"
 8. 完成後，按一下 [ **提交** ]。
 
 您的新範本會顯示在 [ **團隊範本** ] 清單中。 範本可用於在團隊中建立團隊。
+
+> [!Note]
+> 團隊使用者可能需要長達24小時的時間，才能看到圖庫中的自訂範本。
 
 ## <a name="related-topics"></a>相關主題
 

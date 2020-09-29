@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b170047a3b8d3218b8e31bdc9d4b1035eb8706c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 33be31797833152aea9dd477698be56884a5aa0b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583200"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294629"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>在零售中開始使用團隊範本 
+# <a name="get-started-with-teams-templates-in-retail"></a>在零售中開始使用團隊範本
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 
 團隊範本擁有圍繞零售商需求設計之小組結構的預先建立的定義。 您可以使用團隊範本快速建立適用于零售商的團隊類型，並在整個組織中進行部署。 您也可以延伸團隊範本，建立專為您特定組織需求量身定制的小組。
 
-在本文中，我們將介紹每個團隊範本，以及我們建議使用這些範本的方式。
+在本文中，我們將介紹每個團隊範本，並建議如何使用它們。
 
-如果您負責規劃、部署及管理多個零售組織中的多個小組，本文適用于您。 我們假設您已在貴組織中已部署團隊服務。 如果您還沒有推出小組，請先閱讀[如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
+如果您負責規劃、部署及管理多個零售組織中的多個小組，本文適用于您。 您已在組織中部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
 
-若要深入瞭解小組範本的整體資訊，請參閱[開始使用團隊範本](get-started-with-teams-templates.md)。
+若要深入瞭解小組範本的整體資訊，請參閱 [開始使用團隊範本](get-started-with-teams-templates.md)。
 
 ## <a name="store-template"></a>商店範本
 
@@ -49,13 +49,13 @@ ms.locfileid: "46583200"
 
 為您的組織自訂商店範本的建議方式：
 
-- 如果您的組織在每個商店中都有部門，請為每個部門新增頻道。 這將有利於在部門內進行通訊與共同作業。
+- 如果您的組織在每個商店中都有部門，請為每個部門新增頻道。 新增通道有利於在部門中進行通訊與共同作業。
 
-- 如果您的組織有任何內部網站 (例如，SharePoint 網站) ，請考慮將它們釘選為相關團隊頻道中的索引標籤。 請參閱[開始使用團隊範本](get-started-with-teams-templates.md)取得相關指示。
+- 如果您的組織有任何內部網站 (例如，SharePoint 網站) ，請考慮將它們釘選為相關團隊頻道中的索引標籤。 請參閱 [開始使用團隊範本](get-started-with-teams-templates.md) 取得相關指示。
 
 ## <a name="manager-collaboration-template"></a>Manager 共同工作範本
 
-Manager 共同工作範本是根據零售商的需求而設計的另一個團隊範本。 Manager 共同工作範本適用于為一組主管建立小組，以便在商店/地區等共同作業。例如，如果您的組織有地區，您可以為加利福尼亞地區建立經理共同作業小組，並包含該地區的所有書店管理員，以及該地區的地區經理。
+Manager 共同工作範本是根據零售商的需求而設計的另一個團隊範本。 管理員共同工作範本適用于為一組主管建立小組，以便在各個商店/地區共同作業等等。 例如，如果您的組織有地區，您可以為加利福尼亞地區建立經理共同作業小組，並包含該地區的所有書店管理員，以及該地區的地區經理。
 
 | 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -64,11 +64,11 @@ Manager 共同工作範本是根據零售商的需求而設計的另一個團隊
 
 為您的組織自訂管理員共同工作範本的建議方式：
 
-- 如果您的組織有任何內部網站 (例如，與管理員相關的 SharePoint 網站) ，請考慮將其固定為相關團隊頻道中的索引標籤。 您可以參閱[Microsoft 團隊範本檔](get-started-with-teams-templates.md)，以取得相關指示。
+- 如果您的組織有任何內部網站（例如 SharePoint 網站）與管理員相關，請考慮將其固定為相關小組頻道中的索引標籤。 您可以參閱 [Microsoft 團隊範本檔](get-started-with-teams-templates.md) ，以取得相關指示。
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 
-若要使用這些範本，只要將申請主體中的 [template@odata. bind] 屬性從 [標準] 變更為上述 TemplateIDs 即可。  如需如何部署團隊範本的詳細資訊，請參閱 Microsoft Graph 文章，瞭解如何[建立團隊](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要使用這些範本，請將申請主體中的 [template@odata. bind "屬性從 [標準] 變更為上述 TemplateIDs。  如需如何部署團隊範本的詳細資訊，請參閱 Microsoft Graph 文章，瞭解如何 [建立團隊](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 範本中的頻道會自動建立在 [一般] 索引標籤底下。
@@ -88,3 +88,6 @@ Manager 共同工作範本是根據零售商的需求而設計的另一個團隊
   ]
 }
 ```
+## <a name="relate-topic"></a>關聯主題
+
+[管理主控台中的團隊範本快速入門](get-started-with-teams-templates-in-the-admin-console.md)

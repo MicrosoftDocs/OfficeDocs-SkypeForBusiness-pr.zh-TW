@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用 [團隊範本]，透過使用管理主控台提供預先定義的設定、通道及預先安裝的應用程式，來建立專為製造業需求設計的小組結構。
+description: 瞭解如何使用。 團隊範本可透過使用管理主控台提供預先定義的設定、通道及預先安裝的應用程式，來建立專為製造業需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 919bfc1bc3e13985ac90484cd203bf93201babd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 3ebbf765373699d07f96d11fff66e9677213bdb8
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171027"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294431"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>在管理員主控台中使用小組製造範本
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 
 團隊範本有預先建立的小組結構定義，專門圍繞車間需求而設計。 您也可以延伸團隊範本，建立專為您特定組織需求量身定制的小組。
 
-在本文中，我們將介紹每個團隊範本，以及我們建議使用這些範本的方式。
+在本文中，我們將介紹每個團隊範本，並建議如何使用它們。
 
-如果您負責規劃、部署及管理多個生產組織中的多個小組，本文適用于您。 我們假設您已在貴組織中已部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
+如果您負責規劃、部署及管理多個生產組織中的多個小組，本文適用于您。 您已在組織中部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
 
 若要深入瞭解小組範本的整體資訊，請參閱 [開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 

@@ -18,17 +18,14 @@ appliesto:
 ms.reviewer: ''
 description: 在管理員主控台中使用 Microsoft 團隊範本，透過提供預先定義的設定、頻道和應用程式範本，快速且輕鬆地建立小組。
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171087"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294579"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>在管理員主控台中使用團隊醫療保健範本
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預先安裝應用程式範本，快速且輕鬆地建立小組。
 
@@ -38,7 +35,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 ## <a name="collaborate-on-patient-care"></a>在患者治療上共同作業
 
- 在 ward、pod 或部門中簡化醫療保健溝通與共同作業。 範本可用於協助患者管理，以及 ward 的運作需求。
+ 在 ward、pod 或部門中簡化醫療保健溝通與共同作業。 範本可用於協助患者管理和 ward 的操作需求。
 
 | 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------ |---|----------------------------------------------------- |
@@ -47,7 +44,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 ## <a name="hospital"></a>醫院
 
-在醫院中的多個 wards、箱與部門之間簡化溝通與共同作業。 此範本包含一組醫院作業的基底頻道，可自行延伸以納入專業、零星。
+在醫院中的多個 wards、箱與部門之間簡化溝通與共同作業。 此範本包含一組醫院作業的基底頻道，而且可以自行延伸以納入專業、零星。
 
 | 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------|-- |----------------------------------------------------- |
