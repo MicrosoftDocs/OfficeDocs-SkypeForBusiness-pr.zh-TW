@@ -51,7 +51,15 @@
 ## [團隊的到期和更新](team-expiration-renewal.md)
 ## [封存或刪除團隊](archive-or-delete-a-team.md)
 ## [從 Slack 移轉到 Teams](migrate-slack-to-teams.md)
-## [為中小型企業建立 Graph 的 Teams 範本](smb-templates.md)
+## 使用 Teams 範本
+### [在系統管理主控台中使用 Teams 範本](get-started-with-teams-templates-in-the-admin-console.md)
+### [為中小型企業建立 Graph 的 Teams 範本](smb-templates.md)
+### [建立自訂 Teams 範本](create-a-team-template.md)
+### [從現有團隊建立範本](create-template-from-existing-team.md)
+### [從現有範本建立範本](create-template-from-existing-template.md)
+### [財務類別 Teams 範本](financial-teams-templates-in-the-admin-console.md)
+### [一般類別 Teams 範本](general-teams-templates-in-the-admin-console.md)
+### [製造類別 Teams 範本](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## 與外部使用者通訊
 ### [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## 適用於醫療保健的 Teams
 ### [開始使用適用於醫療保健組織的 Teams](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [在系統管理主控台中開始使用適用於醫療保健組織的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [開始使用適用於醫療保健組織的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [開始使用適用於醫療保健組織的 Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [訊息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [從 SPO 網站或頁面建立 Teams 內部網路入口網站應用程式](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [適用於零售業的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [在系統管理主控台中開始使用適用於零售業的 Teams 範本](retail-teams-templates-in-the-admin-console.md)
 ### [開始使用適用於零售業的 Teams 範本](get-started-with-retail-teams-templates.md)
 
 ## [適用於政府機關的 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [支援遠端工作者 (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [開始使用適用於政府的 Teams 範本](government-teams-templates-in-the-admin-console.md)
 ### [管理 Office 365 G1 試用版方案](g1-trial-license.md)
 ### [Microsoft 365 政府版的方案 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版的方案 - GCC High](plan-for-government-gcc-high.md)
