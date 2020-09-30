@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9e0a75c558888fcd1c558eb3f87718a85e22471
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 77411e734ebbcfaea4d3e2a0454f48e43a8b8a7d
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294539"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308326"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>在管理員主控台中使用團隊零售範本
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 

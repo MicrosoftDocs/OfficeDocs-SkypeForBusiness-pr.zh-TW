@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177373"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308386"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -195,7 +195,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 <td>有團隊通話的使用者？</td>
 <td>非正式、SME</td>
 <td>非正式、SME</td>
-<td>非正式、SME、正式 *</td>
+<td>非正式、SME、正式</td>
 <td>非正式、SME、正式</td>
 </tr>
 <tr class="odd">

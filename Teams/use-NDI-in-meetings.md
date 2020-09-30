@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323987"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308166"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>在 Microsoft 團隊中使用 NDI®技術
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ NewTek NDI® (網路裝置介面) 技術是一種連線媒體裝置的新式方案， (例如畫室式相機和混音器) 。 NDI®技術不是使用物理連線，而是透過本機內部網路（包括本機電腦）來實現連線。
 
- NDI® (網路裝置介面) 技術是一種連線媒體裝置的新式方案， (例如畫室式相機和混音) 。 NDI®技術不是使用物理連線，而是透過本機內部網路（包括本機電腦）來實現連線。
+NDI®技術已成為一個標準的工業方案，可為數據流製作即時內容，並在專業的廣播世界中取得重要的認識與採納。
 
-NewTek NDI®技術已成為一個標準的工業方案，可為數據流製作即時內容，並在專業廣播世界取得重要的認識與採納。
-
-Skype 先前已在2018中新增 NDI® out 功能至 Skype。 Microsoft 團隊利用此功能來改善會議體驗。
+Skype 先前已在2018中新增 NDI® out 功能至 Skype。 Microsoft 團隊使用這個功能來改善會議體驗。
 
 NDI®技術受限於局域網，且只能看作是生產工作流程的一部分，而不是廣播方案。
 

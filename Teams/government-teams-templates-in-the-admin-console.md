@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7e0949360ce72dce7a2e587c5621070d70e1a0e
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294619"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308136"
 ---
 # <a name="use-teams-government-templates-in-the-admin-console"></a>在管理員主控台中使用團隊政府範本
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 

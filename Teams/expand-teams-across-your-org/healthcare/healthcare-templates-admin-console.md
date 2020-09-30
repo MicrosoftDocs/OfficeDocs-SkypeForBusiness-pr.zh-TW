@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: 在管理員主控台中使用 Microsoft 團隊範本，透過提供預先定義的設定、頻道和應用程式範本，快速且輕鬆地建立小組。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294579"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308276"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>在管理員主控台中使用團隊醫療保健範本
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預先安裝應用程式範本，快速且輕鬆地建立小組。
 
