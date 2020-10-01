@@ -1,5 +1,5 @@
 ---
-title: 瑞典的免付費撥號限制
+title: 義大利免付費電話撥號限制
 ms.author: v-lanac
 author: LanaChin
 manager: serdars
@@ -21,15 +21,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
+description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家或地區顯示所需的存取代碼，以撥打免費的免費電話號碼。
+ms.openlocfilehash: b55de2a46ea1eb64f277d56de0fb18d7073c7aa3
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321896"
+ms.locfileid: "48322272"
 ---
-# <a name="toll-free-dialing-restrictions-in-sweden"></a>瑞典的免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-italy"></a>義大利免付費電話撥號限制
 
 [尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
 
@@ -37,19 +37,16 @@ ms.locfileid: "48321896"
 |**詳細資料**|**描述**|
 |:-----|:-----|
 |免費通話嗎？  <br/> |是  <br/> |
-| (s) 撥號格式  <br/> | 020 <br/> |
-|國家/地區 ISO 代碼  <br/> |本身  <br/> |
+| (s) 撥號格式  <br/> | 800 <br>803 <br>|
+|國家/地區 ISO 代碼  <br/> |其  <br/> |
 |已覆蓋的島/地區  <br/> |不適用  <br/> |
-|未涵蓋的島/區域  <br/> |不適用  <br/> |
+|未涵蓋的島/區域  <br/> | 不適用  <br/>  |
 |有線/固定線路可用性  <br/> |是  <br/> |
-|行動網路可用性  <br/> |否  <br/> |
+|行動網路可用性  <br/> | 是 (某些數位可能是 [特優])  <br/> |
 |批註、限制及存取問題  <br/> |無  <br/> |
-   
+
 ## <a name="related-topics"></a>相關主題
 
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
-
-  
- 
+[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)

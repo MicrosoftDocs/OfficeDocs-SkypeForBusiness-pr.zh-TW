@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解音訊會議、電話系統、通話方案、通訊點數，以及免付費電話號碼以及免付費電話號碼在國家或地區中都有提供。
-ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 0a8c444a62570d287c016076f20844389aa3a2d5
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788527"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321676"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -157,7 +157,7 @@ ms.locfileid: "46788527"
 > - [委內瑞拉](availability-in-venezuela.md)
 > - [越南](availability-in-vietnam.md)
 
-**如果您要尋找內含所有國家/地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06242020)-(en-us).xlsx?raw=true)**。
+**如果您要尋找內含所有國家/地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-10012020)-(en-us).xlsx?raw=true)**。
 
 ***
 

@@ -18,12 +18,12 @@ description: 如何使用 PowerShell 來設定小組中的原則，以控制哪�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d83dd66914c835f62028fc4941da34646c75411d
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691569"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320798"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft 團隊中設定即時事件原則
 
@@ -32,20 +32,21 @@ ms.locfileid: "44691569"
 - [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [新-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [授與 CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
 
 以下是一些範例。
 
 > [!NOTE]
-> 您必須先連線到商務用 Skype Online PowerShell，才能執行這些 Cmdlet。 如需詳細資訊，請參閱[使用 Microsoft 365 或 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> 您必須先連線到商務用 Skype Online PowerShell，才能執行這些 Cmdlet。 如需詳細資訊，請參閱 [使用 Microsoft 365 或 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允許使用者排程即時事件 
 
 > [!NOTE]
-> 這些範例適用于小組中產生的活動。 對於使用外部 app 或裝置所產生的事件，您必須執行其他步驟。 如需詳細資訊，請參閱[讓使用者排程由外部 app 或裝置產生的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
+> 這些範例適用于小組中產生的活動。 對於使用外部 app 或裝置所產生的事件，您必須執行其他步驟。 如需詳細資訊，請參閱 [讓使用者排程由外部 app 或裝置產生的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
 
 **允許使用者排程即時事件**
 
-如果使用者指派了全域原則，請執行並確認*AllowBroadcastScheduling*參數設定為*True*：
+如果使用者指派了全域原則，請執行並確認 *AllowBroadcastScheduling* 參數設定為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -57,11 +58,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>使用者案例
 **您希望貴組織中的所有使用者都能夠排程即時事件**
 
-如果使用者指派了全域原則，請執行並確認*AllowBroadcastScheduling* * 設定為*True*：
+如果使用者指派了全域原則，請執行並確認 *AllowBroadcastScheduling* * 設定為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-如果使用者指派了全域原則以外的原則，請執行並確認 *-AllowBroadcastScheduling*已設定為*True*：
+如果使用者指派了全域原則以外的原則，請執行並確認 *-AllowBroadcastScheduling* 已設定為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -78,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **您想要有大量的使用者能夠排程即時事件，並防止一組使用者進行排程**
 
-執行並確認*AllowBroadcastScheduling*已設定為*True*：
+執行並確認 *AllowBroadcastScheduling* 已設定為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
@@ -139,7 +140,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 > [!NOTE]
 > 此設定僅適用于小組中產生的活動。 
 
-設定 [全域原則]，為活動出席者開啟即時輔助字幕和字幕（會議）：
+設定 [全域原則]，為活動出席者開啟即時輔助字幕和字幕 (會議) ：
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

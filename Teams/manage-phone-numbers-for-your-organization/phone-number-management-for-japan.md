@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 您可以在 Microsoft 團隊取得與管理日本電話號碼的相關資訊中使用此表格。
-ms.openlocfilehash: ad21620896800411f72a699d19cf9704485d0207
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824924"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322252"
 ---
 # <a name="phone-number-management-for-japan"></a>日本的電話號碼管理
 
@@ -43,7 +43,8 @@ ms.locfileid: "46824924"
 |針對日本的 **使用者** 取得轉接至 Microsoft 365 或 Office 365 的電話號碼。|請聯絡 [SoftBank 通話](https://aka.ms/SoftBankVoicePlan) 以傳送使用者電話號碼。 然後，他們會將這些號碼新增到您的組織。  <br/> |
 |在日本將電話號碼轉接至 Microsoft 365 或 Office 365 以取得 **呼叫佇列** 。|請聯絡 [SoftBank 通話](https://aka.ms/SoftBankVoicePlan) 以傳送服務電話號碼。 然後，他們會將這些號碼新增到您的組織。|
 |變更指派給有通話方案電話號碼之使用者的緊急位址。|請與 [SoftBank 通話](https://aka.ms/SoftBankVoicePlan) 以進行緊急位址變更。 他們可以為您更新此資訊。|
-|將使用者號碼變更為服務號碼。 |使用 SoftBank 通話時目前不支援。
+|將使用者號碼變更為服務號碼。 |使用 SoftBank 通話時目前不支援。|
+|將目錄服務更新設為通話佇列或自動語音應答號碼|若要新增或變更通話佇列或自動語音應答號碼，請聯絡 [PSTN 服務服務台](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
 

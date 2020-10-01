@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: 瞭解如何在國家/地區撥打免付費電話號碼，包括可用性、有線/固定線及行動網路可用性，以及限制。
-ms.openlocfilehash: e987a392be81178a043835f44e34c67143609244
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140552"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322302"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免付費電話的撥號限制
 
@@ -41,6 +41,7 @@ ms.locfileid: "43140552"
 > [!div class="op_single_selector"]    
 > - [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 > - [澳洲](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [奧地利](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
 > - [白俄羅斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [比利時](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [貝里斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -68,6 +69,7 @@ ms.locfileid: "43140552"
 > - [印尼](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 > - [愛爾蘭](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 > - [以色列](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+> - [義大利](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 > - [日本](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 > - [肯亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 > - [盧森堡](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -93,6 +95,7 @@ ms.locfileid: "43140552"
 > - [南韓](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
 > - [西班牙](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 > - [瑞典](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+> - [瑞士](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 > - [台灣](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [泰國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 > - [土耳其](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
@@ -106,7 +109,7 @@ ms.locfileid: "43140552"
 
 - **免費電話號碼只能在每個國家/地區內運作。** 例如，您的使用者將無法撥打澳大利亞以外的澳大利亞免付費電話號碼。
     
-- **不支援取得或移植通用國際 Freephone 號碼（UIFN）。**
+- **不支援取得或移植通用國際 Freephone 號碼 (UIFN) 。**
     
 - **在多個國家/地區，國家/地區的調壓器/電信機構需要每個免付費免費電話號碼，才能維持該號碼，每個月至少要有100分鐘的使用量。**
     
@@ -118,7 +121,7 @@ ms.locfileid: "43140552"
 - **北美編號方案免費電話號碼：** 北美編號方案的每分鐘工資費用是由來源國家/地區的電話號碼決定。 從美國地圖到定義為「北美」的工資，每分鐘免費通話的工資率。 不過，來自其他北美國家/地區（例如加拿大、波多黎各等）的通話是免費的。
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> 如果您需要取得更多的電話號碼，請 [聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## <a name="related-topics"></a>相關主題
 [取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)

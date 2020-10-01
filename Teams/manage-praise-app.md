@@ -8,18 +8,21 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 瞭解 Microsoft 團隊系統管理中心的稱讚應用程式中的系統管理設定
-ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324027"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328202"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中管理稱讚應用程式
 
 Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的成員顯示感謝。 您可以選擇一組徽章以供選擇，以及建立您自己徽章的選項，稱讚旨在協助您認識到小組使用者所做的大量工作（從教育者到第一行員工）。
 
 系統管理員可以控制哪些徽章可供其組織從 [小組] 系統管理中心中取得。 在左側導覽中，選取 [ **團隊 app] > [管理 app**]。 在租使用者的 [ [應用程式目錄](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)] 中開啟稱讚，然後移至 [ **設定**]。
+
+> [!Note]
+> 美國政府群無法使用稱讚應用程式功能。
 
 ## <a name="use-built-in-badge-sets"></a>使用內建徽章集
 

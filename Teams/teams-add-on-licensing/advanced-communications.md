@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 3d596bb890ad2976ec16179f845397df5e27bc38
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203816"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321656"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft 團隊的高級通訊附加元件
 
 2020年8月1日，高級通訊可作為 Microsoft 團隊附加元件 SKU 提供給任何付費的 Microsoft 365 或 Office 365 訂閱。
 
-如果您的組織想要進一步增強您的通訊體驗，請在電話與會議功能中取得高級通訊，包括大型會議、會議自訂、通訊整合與工作流程，以及管理組織溝通原則的工具。
+如果您的組織想要進一步增強您的通訊體驗，請在電話與會議功能中取得高級通訊，包括大型會議、會議自訂以及管理組織溝通原則的工具。
 
 ## <a name="what-is-advanced-communications"></a>何謂 [高級通訊]？
 
@@ -35,7 +35,6 @@ ms.locfileid: "48203816"
 
 - **吸引更**多的物件：協助您的使用者與即時事件保持聯繫，以供1000參與者使用，且20000最多可在僅供查看的會議體驗中提供最多20000參與者的功能。
 - 針對您的內部與自訂案例，在會議中**調整及自訂會議**，包括自訂品牌會議大廳等功能。 在您組織的各個部門中，都能靈活地執行。 
-- **將會議與通話連接至工作流程**：將工作流程整合至您的通訊系統。 例如，將合規性錄製原則自動化並成為通訊工作流程的一部分，而不需要手動干預。  
 - **管理您的組織溝通**：監視、追蹤及分析使用者和裝置上的資料，以確保順暢的體驗。
 
 在所有 Microsoft 365 市場中，都提供高級通訊，作為任何付費 Microsoft 365 或 Office 365 訂閱的附加元件。 [高級通訊] 中包含的功能不會新增至其他 Microsoft 365 或 Office 365 方案，也不能另行購買。 若要取得這些功能，您必須購買附加元件。
@@ -48,8 +47,6 @@ ms.locfileid: "48203816"
 在2020年8月1日發行時，提供下列功能：
 
 - 即時事件支援最多20000個參與者、50個併發事件，每個廣播的事件持續時間為16個小時
-- 相容性錄製整合 (ISV) 
-- 連絡人中心解決方案整合 (ISV) 
 
 今年稍後將提供下列功能：
 
@@ -74,7 +71,7 @@ ms.locfileid: "48203816"
 透過高級通訊，任何超過300個出席者的會議都會提供一種方式，讓多達1000參與者都能使用互動式體驗，以及最多20000個參與者加入會議的方式只提供一個僅供查看的體驗。 [即時事件] 可啟用其他功能。 在即時活動中，20000出席者可以觀看廣播，並與 Q&團隊中的會議、Yammer 中的交談，或僅限 Microsoft Stream 中的 [僅限視圖] 進行互動。 此外，我們還會將即時事件的長度從4小時增加到16小時，並為每個租使用者啟用最多50併發即時事件。 
 
 >[!Note]
-> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](../tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
+> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 年初的某刻，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
 
 > [!NOTE]
 > 企業版和教育版 Sku 可以暫時保留最多20000個出席者的即時活動，每個廣播的事件持續時間為16小時，而在租使用者中為50個併發事件，直到2020年10月1日為止。

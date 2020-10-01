@@ -1,11 +1,10 @@
 ---
 title: 丹麥的免付費撥號限制
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,14 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: 瞭解如何在中國南部撥打免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
-ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
+ms.openlocfilehash: c3db94798c56ca35886992d8d4c3496b45b258a7
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140442"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320768"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>丹麥的免付費撥號限制
 
@@ -39,18 +37,18 @@ ms.locfileid: "43140442"
 |**詳細資料**|**描述**|
 |:-----|:-----|
 |免費通話嗎？  <br/> |是  <br/> |
-|撥號格式（s）  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+| (s) 撥號格式  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |國家/地區 ISO 代碼  <br/> |深  <br/> |
 |已覆蓋的島/地區  <br/> |不適用  <br/> |
 |未涵蓋的島/區域  <br/> | 沒有來自法羅群島或格陵蘭的存取權。 <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
-|行動網路可用性  <br/> | 是。 在特優比率中提供。 <br/> |
+|行動網路可用性  <br/> | 是的。 在特優比率中提供。 <br/> |
 |批註、限制及存取問題  <br/> |無  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得服務電話 numberss](/microsoftteams/getting-service-phone-numbers)
 
   
  

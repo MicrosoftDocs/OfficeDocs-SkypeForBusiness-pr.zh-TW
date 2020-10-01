@@ -16,27 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597134"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328252"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>與 Microsoft 團隊進行溝通合規性
 
 [溝通合規性] 是 Microsoft 365 中的測試人員風險解決方案，可協助您偵測、捕獲並對組織中不適當的訊息採取行動，協助將溝通風險降到最低。
 
-針對 Microsoft 團隊，溝通合規性可協助在團隊頻道中或1:1 和群組聊天中找出[以下類型](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)的不適當的內容：
+針對 Microsoft 團隊，溝通合規性可協助在團隊頻道中或1:1 和群組聊天中找出 [以下類型](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) 的不適當的內容：
 
 - 冒犯性、褻瀆及 harassing 語言
 - 成人、racy 和 gory 影像
 - 共用機密資訊
 
->[!IMPORTANT]
->通訊規範不支援私人 Microsoft 團隊頻道。 來賓使用者傳送的聊天通訊，不會監視使用者是否有不適當的內容。
-
-如需溝通合規性的詳細資訊，以及如何為貴組織設定原則，請參閱[Microsoft 365 中的通訊合規性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
+如需溝通合規性的詳細資訊，以及如何為貴組織設定原則，請參閱 [Microsoft 365 中的通訊合規性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在 Microsoft 團隊中使用通訊合規性
 
@@ -44,7 +41,7 @@ ms.locfileid: "46597134"
 
 ### <a name="getting-started"></a>快速入門
 
-Microsoft 團隊中的通訊遵從性快速入門開始[規劃](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)及建立預先定義或自訂的原則，以找出小組頻道或1:1 和群組中不適當的使用者活動。 請記住，您必須[設定](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)部分許可權和基本先決條件，才能做為配置程式的一部分。
+Microsoft 團隊中的通訊遵從性快速入門開始 [規劃](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) 及建立預先定義或自訂的原則，以找出小組頻道或1:1 和群組中不適當的使用者活動。 請記住，您必須 [設定](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) 部分許可權和基本先決條件，才能做為配置程式的一部分。
 
 團隊管理員可以在下列層面設定通訊合規性原則：
 

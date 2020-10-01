@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e146394b5f000ce984d7bfaff5e6674c2c091b98
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8030f1504e56fb6bd9aee528e7969c9d66bf8c96
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955883"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328232"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至 &mdash; 適用于 IT 系統管理員的小組
 
@@ -52,6 +52,9 @@ ms.locfileid: "47955883"
 在您開始之前，請注意，已遷移至團隊的使用者不再使用商務用 Skype 用戶端，除非加入在商務用 Skype 中託管的會議。  無論寄件者是使用小組或商務用 Skype，所有傳入聊天和呼叫使用者團隊用戶端中的土地。 由遷移使用者組織的任何新會議，都會排程為團隊會議。 如果使用者嘗試使用商務用 Skype 用戶端，就會封鎖聊天和通話的啟動。  不過，使用者可以 (，而且必須) 使用商務用 Skype 用戶端來加入受邀的商務用 Skype 會議。  (在2017之前隨附的舊版商務用 Skype 用戶端不提供 TeamsUpgradePolicy。 請確定您使用的是最新的商務用 Skype 用戶端。 ) 
  
 您可以使用 [模式](migration-interop-guidance-for-teams-with-skype.md)的概念（ [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)的屬性）來管理您的使用者對團隊的轉場。 如上述所述，按照上述方式遷移至團隊的使用者，請參閱「TeamsOnly」模式。  對於遷移至團隊的組織而言，最終目標是將所有使用者移至 TeamsOnly 模式。
+
+>[!NOTE]
+>擁有商務用 Skype 內部部署帳戶的使用者無法 TeamsOnly。 雖然這些使用者可以 [在孤島模式中使用團隊](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)，但這不會提供完整的小組功能（在 TeamsOnly 模式中提供）。 若要讓這些使用者 TeamsOnly，必須 `Move-CsUser` 在內部部署商務用 Skype Server 工具中將其移至雲端。
 
 還行。 讓我們開始吧。  第一個步驟是瞭解 [您可以使用的升級方法](upgrade-to-teams-on-prem-upgrade-methods.md)。
 

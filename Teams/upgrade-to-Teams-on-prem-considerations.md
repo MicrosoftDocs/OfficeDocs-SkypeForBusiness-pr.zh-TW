@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955910"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328212"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>針對 IT 系統管理員使用商務用 Skype Server 內部部署之組織的升級考慮事項 &mdash;
 
@@ -52,7 +52,7 @@ ms.locfileid: "47955910"
 
 - 擁有商務用 Skype 帳戶內部部署 (的小組使用者，尚未使用移動瀏覽器將其移到雲端，) 無法與任何商務用 Skype 使用者進行交互操作，也無法與外部使用者聯盟。 此功能只有在使用者移到雲端 (以孤島模式或 TeamsOnly 使用者) 時才可使用。 
 
-- 如果您擁有內部部署商務用 Skype 帳戶的任何使用者，則不能在租使用者層級指派 TeamsOnly 模式，除非您明確地將部分其他模式指派給使用內部部署商務用 Skype 帳戶的所有使用者。 
+- 如果您有任何使用者使用商務用 Skype 帳戶內部部署，您就無法在租使用者層級指派 TeamsOnly 模式。 您必須先使用內部部署商務用 Skype 帳戶將所有使用者移至雲端，然後 `Move-CsUser` 停用 [混合式來完成到雲端的遷移](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` 如果偵測到的 lyncdiscover DNS 記錄指向 Office 365 以外的位置，就不會在租使用者層級運作。
 
 - 您必須確保您的使用者能以正確的商務用 Skype 屬性正確地同步處理到 Azure AD。 這些屬性都是含 "msRTCSIP-" 的所有首碼。 如果使用者未正確地同步處理到 Azure AD，小組中的管理工具將無法管理這些使用者。  (例如，除非正確同步處理這些屬性，否則您無法將團隊原則指派給內部部署使用者 ) 。如需詳細資訊，請參閱 [設定團隊與商務用 Skype 的 AZURE AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
 
@@ -64,12 +64,6 @@ ms.locfileid: "47955910"
 
 >[!NOTE]
 > 2019在9月3日之後建立的任何新租使用者都會建立為 TeamsOnly 租使用者，除非組織已有內部部署的商務用 Skype 伺服器。 Microsoft 會使用 DNS 記錄來識別內部部署商務用 Skype 伺服器組織。 如果您的組織有內部部署商務用 Skype Server （沒有公用 DNS 專案），您必須致電 Microsoft 支援人員來降級新的租使用者。 
-
-
-
-
-
-
 
 
 
