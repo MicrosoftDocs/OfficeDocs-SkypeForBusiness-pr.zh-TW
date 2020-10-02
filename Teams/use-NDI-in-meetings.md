@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308166"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337012"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>在 Microsoft 團隊中使用 NDI®技術
 
@@ -50,7 +49,7 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 下圖顯示使用者在團隊會議中看到的橫幅訊息。
 
-![在團隊會議中顯示的 NDI®技術橫幅的影像。](media/NDI-disclosure.png)
+![他 NDI 在團隊會議中顯示的®技術橫幅。](media/NDI-disclosure.png)
 
 橫幅有 [Microsoft 隱私權原則](https://aka.ms/teamsprivacy)的連結。
 
@@ -60,7 +59,7 @@ NDI®技術在所有地區設定中都受到支援。 下列使用者包含在 N
 
 - 受租使用者-完整支援，根據會議原則所控制的響鈴/tenantId/userId (傳送) 
 - 同盟-即使在) <sup>1</sup>上有 NDI®技術，也沒有資料流程存取 (
-- Freemium-沒有資料流程存取權
+- Premium-無資料流程存取
 - 匿名–無資料流程存取
 - 來賓–無資料流程存取  
 

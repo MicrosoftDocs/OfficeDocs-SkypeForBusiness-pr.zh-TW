@@ -17,24 +17,21 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761149"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333243"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft 團隊的來賓存取權
-===================================================
+# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft 團隊的來賓存取權
 
-根據預設，來賓存取權會關閉。 如果您是 Microsoft 365 或 Office 365 系統管理員，您必須先開啟團隊的來賓存取權，管理員或團隊擁有者才能新增來賓。 若要開啟來賓存取，請 [與團隊中的來賓共同](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)作業。 
+根據預設，來賓存取權會關閉。 如果您是 Microsoft 365 或 Office 365 系統管理員，您必須先開啟團隊的來賓存取權，管理員或團隊擁有者才能新增來賓。
 
 開啟來賓存取後，可能需要幾個小時的時間，變更才會生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」訊息，可能是因為來賓存取尚未開啟，或是設定尚未生效。
 
 > [!IMPORTANT]
-> 開啟來賓存取權視 Azure Active Directory、Microsoft 365 或 Office 365、SharePoint Online 和團隊中的設定而定。 如需詳細資訊，請參閱 [核准團隊中的來賓存取權](Teams-dependencies.md)。
-
-
+> 開啟來賓存取權視 Azure Active Directory、Microsoft 365、SharePoint 和團隊中的設定而定。 如需詳細資訊，請參閱 [與團隊中的來賓共同](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)作業。
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>在團隊系統管理中心設定來賓存取
 
@@ -68,10 +65,12 @@ ms.locfileid: "46761149"
 
 5. 按一下 [儲存]****。
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 開啟或關閉來賓存取
-
-已閱讀 [ [使用 PowerShell] 可開啟或關閉來賓存取](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)。
-
 ## <a name="external-access-federation-vs-guest-access"></a>外部存取 (同盟) 與來賓存取
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="see-also"></a>另請參閱
+
+[封鎖特定團隊的來賓使用者](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)

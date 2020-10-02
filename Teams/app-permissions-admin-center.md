@@ -13,17 +13,14 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6aafd5cbdd1ae44844f69b78234f10a54abe7b85
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824904"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336840"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Microsoft [團隊系統管理中心] 中的 [ [管理應用程式](manage-apps.md) ] 頁面是您可在其中查看及管理組織的所有團隊應用程式的位置。 例如，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至組織的 app 商店、封鎖或允許組織階層的應用程式，以及管理整個組織的應用程式設定。
 

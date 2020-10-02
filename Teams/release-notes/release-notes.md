@@ -16,22 +16,75 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
-ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
+ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399508"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336992"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
 
+## <a name="october-1-2020"></a>2020年10月1日
+
+### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
+
+現在，在團隊系統管理中心全域管理員將能在 Azure Active Directory 中審查並授與已註冊的圖形 API 許可權，代表整個租使用者所要求的許可權，例如讀取儲存在團隊中的資訊，或代表使用者傳送電子郵件。 現在，IT 系統管理員將能夠在團隊系統管理中心中查看應用程式的資源特定同意 (RSC) 許可權。 有了該系統管理員就能解除封鎖他們的使用者，以取得他們已在組織中已審閱及已核准使用的協力廠商應用程式。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+## <a name="september-29-2020"></a>2020年9月29日
+
+### <a name="meeting-policy-settings"></a>會議原則設定
+
+在團隊會議原則中新增兩個策略設定以取得 IP 音訊和 IP 影片： ip 音訊的模式和 IP 影片的模式。 您現在可以在 [團隊會議原則] 中設定內送和外寄 IP 音訊與 IP 影片。 [深入了解](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
+
+## <a name="september-27-2020"></a>2020年9月27日
+
+### <a name="simplified-notification-setting"></a>簡化的通知設定
+
+使用者現在可以使用增強的功能，以更簡單的方式管理他們的通知設定。
+
+## <a name="september-24-2020"></a>2020年9月24日
+
+### <a name="teams-integration-with-android-contacts"></a>團隊與 Android 連絡人整合
+
+透過您的 Android 電話簿直接呼叫使用團隊。
+
+## <a name="september-21-2020"></a>2020年9月21日
+
+### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft [團隊管理中心] 中管理 Microsoft Power Platform 應用程式
+
+以管理員身分，您可以控制使用者是否能在小組中的 [應用程式] 頁面上，查看和安裝您同事所建的 Microsoft Power Platform app。 您可以在 [ [管理應用程式](../manage-apps.md) ] 頁面上的 [管理 app] 頁面上，或針對特定使用者使用 [app 許可權原則](../teams-app-permission-policies.md)，綜合封鎖或允許在 power Virtual agent 中建立的所有 app。 [深入了解](../manage-power-platform-apps.md)。
+
+## <a name="september-19-2020"></a>2020年9月19日
+
+### <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft 團隊中共用檔案
+
+在 Microsoft 團隊中，使用者可以與組織內部和外部的其他團隊使用者共用內容。 [在小組中共用] 是以 SharePoint 和 OneDrive 中所設定的設定為基礎，因此您針對 SharePoint 和 OneDrive 設定的任何內容，都會同時控制小組中的共用功能。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)。
+
+## <a name="september-16-2020"></a>2020年9月16日
+
+### <a name="new-third-party-video-provider-riverbed"></a>新的協力廠商影片提供者 Riverbed
+
+使用 [團隊即時事件] 設定來設定貴組織中的即時事件設定。 您可以設定支援 URL，並設定協力廠商的影片發佈提供者。 這些設定適用于您組織中建立的所有即時事件。 Riverbed 是新的協力廠商提供者。 [深入了解](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)。
+
+## <a name="september-15-2020"></a>2020年9月15日
+
+### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>整合至團隊 PowerShell 模組的商務用 Skype Online 連接器
+
+最新的團隊 PowerShell 公開發行與商務用 Skype Online 連接器整合，提供單一模組供團隊 PowerShell 管理使用。 [深入了解](../teams-powershell-overview.md#manage-teams-with-powershell)。
+
+## <a name="september-8-2020"></a>2020年9月8日
+
+### <a name="porting-pin"></a>移植 PIN
+
+我們新增了設定及管理用於移植或轉移電話號碼的 PIN 的功能。 當您想要將數位從 Microsoft 移植到服務提供者時，您會將此 PIN 提供給 PSTN 服務台。 [深入了解](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。
+
 ## <a name="september-3-2020"></a>2020年9月3日
 
 ### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 團隊中的自訂應用程式商店
 
-現在，您可以新增您的標誌、自訂背景及自訂文字色彩，自訂 [小組 App] 商店與組織品牌，以讓使用者更容易受到使用者的邀請。 [瞭解更多資訊](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+現在，您可以新增您的標誌、自訂背景及自訂文字色彩，自訂 [小組 App] 商店與組織品牌，以讓使用者更容易受到使用者的邀請。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)。
 
 ## <a name="september-1-2020"></a>2020年9月1日
 
@@ -43,17 +96,17 @@ ms.locfileid: "47399508"
 
 ### <a name="group-chat-size-increase"></a>群組聊天大小增加
 
-我們新增了在群組聊天中有250參與者的功能。
+我們新增了在群組聊天中有250參與者的功能。 [深入了解](../limits-specifications-teams.md)。
 
 ### <a name="manage-the-praise-app"></a>管理稱讚應用程式
 
-Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的成員顯示感謝。 您可以選擇一組徽章以供選擇，以及建立您自己徽章的選項，稱讚旨在協助您認識到小組使用者所做的大量工作（從教育者到第一行員工）。 [深入了解](../manage-praise-app.md)。
+Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的成員顯示感謝。 稱讚應用程式會選取供您選擇的徽章集，並提供建立您自己徽章的選項。 稱讚的設計目的是協助您認識到小組使用者在團隊使用者所做的大量工作（從教育者到第一線員工員工）所做的努力。 [深入了解](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft 團隊聊天室和 Surface Hub 來設定協同會議
 
 如果您在會議室中有一個或多個 Microsoft 團隊聊天室裝置或 Surface Hub，您可以設定協同會議。 [協調式會議] 可讓您設定小組室裝置和 Surface Hub，這樣當您在一部裝置上加入會議時，會議室中的其他裝置也會加入相同的會議。 [深入了解](../rooms/coordinated-meetings.md)。
 
-### <a name="tagging-by-shift"></a>使用 Shift 進行標記
+### <a name="tagging-by-shift"></a>使用 shift 進行標記
 
 使用此功能時，系統會在團隊中的 [倒班] 應用程式中，自動指派符合其排程和班次群組名稱的標記。 [深入了解](../manage-tags.md)。
 
@@ -61,7 +114,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="cortana-voice-skills-in-teams"></a>小組中的 Cortana 語音技能
 
-在團隊行動應用程式中使用 Cortana 語音技能，可協助使用者執行會議、通訊與共同作業，只要使用語音的自然語言即可。 使用者可以按一下 [小組] 應用程式中的 [麥克風] 按鈕，併發出「呼叫 Megan」或「傳送訊息至我的下一次會議」等要求，如果他們需要與某人進行連線，而不需要與其他人聯繫，或是想在旅途中進行。 使用者只需說「加入我的下一筆會議」就能加入會議，或詢問「我現在該怎麼辦」。 在會議或通話中，他們可以從會議階段中的 [溢位] 功能表呼叫 Cortana，並執行一般的會議工作，例如依名稱或編號新增人員 ( 「新增 Megan 至通話」 ) 、投影片簡報 ( 「顯示季度回顧投影片」 ) 或流覽投影片 ( 「移至附錄投影片」 ) 。 此功能支援的其他事項是尋找及共用檔案、搜尋，以及通常在 [小組] app 內流覽 ( 「開啟與 John 的聊天，請移至我的提及活動，請移至我的提示等。 ) 。
+在團隊行動應用程式中使用 Cortana 語音技能，可協助使用者執行會議、通訊及共同作業工作，只需使用語音的自然語言即可。 使用者可以按一下 [小組] 應用程式中的 [麥克風] 按鈕，併發出「呼叫 Megan」或「傳送訊息至我的下一次會議」等要求，如果他們需要與某人進行連線，而不需要與其他人聯繫，或是想在旅途中進行。 使用者只需說「加入我的下一筆會議」就能加入會議，或詢問「我現在該怎麼辦」。 在會議或通話中，他們可以從會議階段中的 [溢位] 功能表呼叫 Cortana，並執行一般的會議工作，例如依名稱或編號新增人員 ( 「新增 Megan 至通話」 ) 、投影片簡報 ( 「顯示季度回顧投影片」 ) 或流覽投影片 ( 「移至附錄投影片」 ) 。 此功能支援的其他專案包括在 [小組] app 中尋找及共用檔案、搜尋及流覽 ( [與 John 開啟我的聊天]，移至我的提及活動，請移至我的提示等。 ) 。
 
 小組中的 cortana 符合對 Cortana enterprise 服務的企業層級隱私權、安全性和合規性承諾，如 [線上服務條款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)所示。
 
@@ -73,7 +126,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="lists-app-in-teams"></a>小組中的 [清單] 應用程式
 
-團隊使用者現在可以使用 [清單] 應用程式索引標籤，直接管理、建立和維護其清單。[清單] 應用程式可在所有團隊用戶端上運作，並能在清單專案周圍共同作業及通訊。
+團隊使用者現在可以使用 [清單] 應用程式索引標籤，直接管理、建立和維護他們的清單。[清單] 應用程式可在所有團隊用戶端上運作，並能在清單專案周圍共同作業及通訊。 如需如何管理清單應用程式的詳細資訊，請參閱 [管理貴組織的清單應用程式](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
 
 ## <a name="august-6-2020"></a>2020年8月6日
 
@@ -101,7 +154,11 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用裝置標記功能增強的易管理性
 
-在增強的易管理性中，我們會放開裝置標記功能。 它可讓 IT 管理員將一組特定的裝置與使用者產生的標籤群組，並在相同的情況下執行動作。 [深入了解](/../../manage-device-tags.md)。
+在增強的易管理性中，我們會放開裝置標記功能。 它可讓 IT 系統管理員使用使用者產生的標籤，並在一組特定的裝置上執行，並在相同的裝置上執行動作。 [深入了解](/../../manage-device-tags.md)。
+
+### <a name="view-only-in-meetings"></a>在會議中僅供查看
+
+[查看]-僅允許最多20000個偵聽參與者加入會議，其中召集人擁有高級通訊附加元件 SKU 的授權。1這是預覽或較早的版本功能。 [瞭解更多資訊](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
 
 ## <a name="july-28-2020"></a>2020年7月28日
 
@@ -163,7 +220,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人共用畫面
 
-許多 IT 管理員都有 complained 在停用 AllowPrivateCalling 原則時，他們無法讓員工從聊天中共用螢幕。 這項功能可讓您從 AllowPrivateCalling 原則啟動 screenshare 的功能，但如果 AllowPrivateCalling 原則已停用，仍會封鎖使用者將音訊/視頻新增至 screenshare 會話。
+許多 IT 管理員都有 complained 在停用 AllowPrivateCalling 原則時，他們無法讓員工從聊天中共用螢幕。 這項功能可讓您從 AllowPrivateCalling 原則開始從聊天啟動畫面 hare 的功能，但如果已停用其 AllowPrivateCalling 原則，仍會封鎖使用者將音訊/影片新增至螢幕共用會話。
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
@@ -185,13 +242,13 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Android 和 iOS 使用者的登入限制
 
-如果使用者未登入其 Microsoft 365 帳戶的其他位置，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，視貴組織針對 [行動裝置登入原則] 設定的內容而定。 [深入了解](../sign-in-teams.md)。
+如果使用者未在任何位置登入其 Microsoft 365 帳戶，系統會根據貴組織針對行動裝置登入原則設定的內容，要求他們提供單一因素或多重因素驗證 (SFA 或 MFA) 。 [深入了解](../sign-in-teams.md)。
 
 ## <a name="june-15-2020"></a>2020年6月15日
 
 ### <a name="monitor-shifts-with-audit-logs"></a>使用審核記錄監視班次
 
-您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。 [深入了解](https://docs.microsoft.com/microsoftteams/audit-log-events)。
+您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。 [深入瞭解] (<https://docs.microsoft.com/microsoftteams/audit-log-events> 。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 

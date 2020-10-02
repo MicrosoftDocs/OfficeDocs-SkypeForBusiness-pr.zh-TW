@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220049"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48337597"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -175,7 +175,7 @@ ms.locfileid: "48220049"
 
 *撥號作用*中定義來電者使用按名稱撥號或撥號延伸時，在目錄中可使用的使用者。 **所有線上使用者**的預設值都是您組織中所有以電話系統授權或主機內部部署的使用者（使用商務用 Skype 伺服器）。
 
-您可以選取 [**包括**] 或 [**排除**] 底下的 [**自訂使用者組**]，然後選擇一或多個 Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定的使用者。 例如，您可能想要將貴組織中的主管從撥號目錄中排除。
+您可以選取 [**包括**] 或 [**排除**] 底下的 [**自訂使用者組**]，然後選擇一或多個 Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定的使用者。 例如，您可能想要將貴組織中的主管從撥號目錄中排除。  (如果使用者同時位於兩個清單中，則會將其從目錄中排除。 ) 
 
 > [!NOTE]
 > 最多可能需要36小時，才能讓新使用者將其名稱列在目錄中。
