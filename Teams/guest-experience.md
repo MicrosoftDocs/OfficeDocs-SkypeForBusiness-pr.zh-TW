@@ -1,14 +1,13 @@
 ---
-title: 來賓體驗像什麼
+title: Microsoft 團隊中的來賓體驗
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: 本文將說明來賓使用者提供的 Microsoft 團隊功能，也會回答與它相關的一些最常見的常見問題。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,15 +17,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 591cd6447f9430905fce1e84f22708d19adf70c5
-ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
+description: 本文將說明來賓使用者提供的 Microsoft 團隊功能。
+ms.openlocfilehash: 95d0fec7a1af8f735c66cc76fc27ecd3cf8bf956
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845575"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346204"
 ---
-<a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
-=================================
+# <a name="guest-experience-in-teams"></a>團隊中的來賓體驗
 
 當客人邀請您加入小組時，他們會收到歡迎電子郵件訊息。 此訊息包含小組的一些相關資訊，以及該小組所預期的成員。 來賓必須先選取電子郵件訊息中的 [ **開啟 Microsoft 團隊** ]，然後才能存取團隊和其頻道，以接受邀請。
     
@@ -40,12 +39,9 @@ ms.locfileid: "46845575"
 - [以來賓身分加入團隊](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [使用來賓加入團隊會議](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
-> [!NOTE]
-> Microsoft 365 和 Office 365 系統管理員可控制來賓可用的功能。
-
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>比較小組成員與來賓的功能
 
-下表比較組織小組成員及其來賓的可用團隊功能。
+下表比較組織小組成員及其來賓的可用團隊功能。 [團隊管理員] 控制來賓可用的功能。
 
 |**團隊中的功能**|**組織中的小組使用者**|**來賓使用者**|
 |:-----|:-----|:-----|
@@ -54,6 +50,10 @@ ms.locfileid: "46845575"
 |參與頻道交談  <br/> |&#x2713;|&#x2713;|
 |張貼、刪除及編輯郵件  <br/> |&#x2713;|&#x2713;|
 |共用頻道檔案  <br/> |&#x2713;|&#x2713;|
+|存取 SharePoint 檔案<br/> |&#x2713;|&#x2713;|
+|附加檔案<br/> |&#x2713;|&#x2713;|
+|下載私人聊天檔案<br/> |&#x2713;|&#x2713;|
+|在檔案中搜尋<br/> |&#x2713;||
 |共用聊天檔案  <br/> |&#x2713;||
 |在索引標籤、bot 或連接器上新增應用程式 ()   <br/> |&#x2713;||
 |建立會議或存取排程  <br/> |&#x2713;||
@@ -100,42 +100,12 @@ ms.locfileid: "46845575"
 
 > [!NOTE]
 > Azure Active Directory 中的 **來賓使用者存取限制** 原則 (azure AD) 決定目錄中來賓的許可權。 有三個原則選項。
->  - **來賓使用者擁有與成員相同的存取權， (最包含的) **設定表示來賓與您目錄中的一般使用者有相同的目錄資料存取權。
->  - **來賓使用者對目錄物件設定的屬性和成員資格的存取權有限**，表示來賓沒有特定目錄工作的許可權，例如使用 Microsoft Graph 列舉使用者、群組或其他目錄資源。
->  - **來賓使用者存取權受限於其本身目錄物件的屬性和成員資格 (最嚴格的) **設定表示來賓只能存取自己的目錄物件。
+>  - **[來賓使用者的存取權和成員相同 (最包容)]** 設定表示來賓擁有的目錄資料存取權，與目錄中的一般使用者相同。
+>  - **[來賓使用者對目錄物件的屬性和成員資格擁有有限的存取權]** 設定表示來賓沒有特定目錄工作的權限，例如列舉使用者、群組，或使用 Microsoft Graph 的其他目錄資源。
+>  - **[來賓使用者存取權受限於其自身目錄物件的屬性和成員資格 (最受限制)]** 設定表示來賓只能存取自己的目錄物件。
 >
->若要深入瞭解，請參閱 [Azure Active Directory 中的預設使用者許可權為何？](https://go.microsoft.com/fwlink/?linkid=2135493)
+>若要深入了解，請參閱 [Azure Active Directory 中的預設使用者權限為何？](https://go.microsoft.com/fwlink/?linkid=2135493)
 
-## <a name="frequently-asked-questions"></a>常見問題集
+## <a name="related-topics"></a>相關主題
 
-### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>如何離開受邀者的組織？
-
-如果您受邀您不想成為客人的組織，您可以選擇離開該組織。 如需詳細資訊，請移至 [將組織設為來賓使用者](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)。 或者，您也可以要求組織管理員將您從其租使用者中移除。 請注意，如果您想要在將來存取組織，您在任何一種情況下都必須重新受邀租使用者。
-
-### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>來賓與團隊成員的功能是否相同？
-
-不。 如需訪客可以與不能執行哪些動作的詳細資訊，請參閱本文中 [的小組成員和來賓功能比較](#comparison-of-team-member-and-guest-capabilities) 。
-
-### <a name="do-guests-have-access-to-onedrive-for-business"></a>來賓是否有權存取商務用 OneDrive？
-
-不。
-
-### <a name="do-guests-have-access-to-sharepoint-files"></a>來賓是否有存取 SharePoint 檔案的許可權？
-
-是的。
-
-### <a name="can-guests-search-within-files"></a>來賓可以在檔案中搜尋嗎？
-
-不。
-
-### <a name="can-guests-attach-files"></a>來賓可以附加檔案嗎？
-
-是的，來賓可以透過以下兩種方式附加檔案：
-
-  - 在左窗格 **中選取 [** 檔案]，然後流覽至檔案位置。
-  - 從電腦上傳檔案。
-
-### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>來賓可以在私人聊天中下載檔案嗎？
-
-是的，他們可以在私人聊天中接收成員的檔案，然後將檔案下載到他們的桌面。
-
+[將組織保留為來賓使用者](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

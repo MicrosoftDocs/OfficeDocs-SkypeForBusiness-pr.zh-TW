@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269637"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346334"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -126,3 +126,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 從資料流程出發
 **如何播放團隊會議錄製？**
 
 您的影片將會在商務用 OneDrive 或 SharePoint 的影片播放機上播放，視您存取該檔案的位置而定。
+
+**如果您打算 deprecating 新增至串流，現有的影片會持續保持不變嗎？**
+
+在不久的將來，不會棄用作為平臺的資料流程。 目前在資料流程中的影片會一直留在這裡，直到我們開始進行遷移為止。 遷移時，這些影片也會同時遷移至 ODSP。 若要瞭解詳細資訊，請參閱 [這裡](https://docs.microsoft.com/stream/streamnew/classic-migration) 。

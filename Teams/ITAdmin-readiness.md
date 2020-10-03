@@ -19,20 +19,21 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48170957"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346194"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
 使用訓練資源來向您自己說明小組、向他人講授或執行討論會。 經常查看這裡的新內容。
 
-|               |               |               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![描述手形和向上箭號的圖示](media/get-started-blue-small.svg)  | [使用幾個小組和頻道快速入門](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述核取記號的圖示](media/success-small.svg)  | [在 YouTube 上的雲端頻道中，查看最佳做法以及咖啡中的操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![描述兩個使用者的圖示](media/users-people-small.svg)  | [為您的使用者取得訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![[作業] 剪貼簿符號](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30中的團隊： IT 系統管理員的訓練系列，以及變更管理領導人在30天內實現團隊](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+| ![描述手形和向上箭號的圖示](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [使用幾個小組和頻道快速入門](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述兩個使用者的圖示](https://docs.microsoft.com/office/media/icons/users-people.png) | [為您的使用者取得訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![描述核取記號的圖示](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 上的雲端頻道中，查看最佳做法以及咖啡中的操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![[作業] 剪貼簿符號](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30中的團隊： IT 系統管理員的訓練系列，以及變更管理領導人在30天內實現團隊](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>技術訓練</h2>
 
@@ -73,7 +74,7 @@ ms.locfileid: "48170957"
 
 | 標題                                                                       | 概要                                                                                                                                                                                                               |  連結至指南                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 小組的身分識別、存取管理 & 威脅防護                   | 瞭解如何使用 Microsoft 系統管理中心及 PowersShell 來設定存取及身分識別原則，以及為小組啟用 Office 365 高級威脅防護                                                            | [團隊安全性指南](https://aka.ms/teamsesecurityinteractiveguide)         |
+| 小組的身分識別、存取管理 & 威脅防護                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取與身分識別原則，以及為小組啟用 Office 365 高級威脅防護                                                            | [團隊安全性指南](https://aka.ms/teamsesecurityinteractiveguide)         |
 | 管理小組中的合規性                                                | 使用 Microsoft 365 安全性、Microsoft 365 合規性及 Microsoft 團隊系統管理中心，以及 Windows PowerShell 來管理和設定 Office 365 組織的 Microsoft 團隊原則與設定。 | [在團隊指南中管理合規性](https://aka.ms/complianceinteamsinteractiveguide)      |
 | 團隊顧問：在 Microsoft 團隊中部署聊天、團隊、頻道和應用程式 | 瞭解如何利用團隊顧問來評估您的環境，並建立部署聊天、團隊、頻道和應用程式的方案。                                                                                         |  [團隊顧問指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | 使用 PowerShell 和動態群組簡化團隊管理        | 將 Office 365 群組從靜態成員資格轉換成動態，然後使用 Windows PowerShell 將新的應用程式許可權原則指派給所有成員。                                                                         |  [精簡團隊管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -83,7 +84,7 @@ ms.locfileid: "48170957"
 | 在 Microsoft 團隊中設定管轄                                     | 瞭解如何為您的組織建立團隊訊息保留原則，以及如何封存、刪除及還原個別團隊                                                                                   |  [在 Microsoft 團隊指南中設定管轄](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | 設定和部署 Microsoft 團隊會議                          | 逐步完成針對 Microsoft 團隊部署會議工作負載的程式。                                                                                                                                       |  [設定和部署 Microsoft 團隊會議指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | 設定 Microsoft 團隊的音訊會議                            | 探索小組中音訊會議的功能，並瞭解如何指派會議橋接和撥入電話號碼。                                                                                          |  [設定 Microsoft 團隊版語音會議指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 為 Fisrtline 工作者設定 Microsoft 團隊                           | 瞭解如何針對您的第一線員工工作力設定和部署正確的 Microsoft 團隊環境。                                                                                                                  | [為第一線員工工作人員配置 Microsoft 團隊指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 為第一線員工工作者設定 Microsoft 團隊                           | 瞭解如何針對您的第一線員工工作力設定和部署正確的 Microsoft 團隊環境。                                                                                                                  | [為第一線員工工作人員配置 Microsoft 團隊指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>快速入門手冊</h2>
 
@@ -98,5 +99,5 @@ ms.locfileid: "48170957"
 
 <h2>門</h2>
 
-- [支援與 Microsoft 團隊進行團隊合作](https://aka.ms/edx-cld267x-about)
+- [支援與 Microsoft 團隊進行團隊合作](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
 - [Microsoft Service 採納專家](https://aka.ms/AdoptionCert)
