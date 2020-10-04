@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308196"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333263"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -119,7 +119,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 >- 每個 Teams 租用戶最多可同時舉行 50 個活動
 >- 每個廣播最多 16 個小時
 >
-> 此外，可透過 Microsoft 即時活動輔助計畫來規劃最多 100,000 位出席者參與的現場活動。 [深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日之後，需要這些限制增加的客戶必須購買 [[進階通訊附加元件]](teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 100,000 位出席者參與的即時活動。 小組會評估每個要求，並與您一起判斷可用的選項。 [深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日之後，需要這些限制增加的客戶必須購買 [[進階通訊附加元件]](teams-add-on-licensing/advanced-communications.md)。**
 
 
 |功能     | 最大限制 |

@@ -3,8 +3,8 @@ title: Microsoft Teams 系統管理訓練
 ms.reviewer: ''
 description: 使用這些使用者、系統管理員和由講師帶領的訓練資源，幫助您充分利用貴組織中的 Microsoft Teams。
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656334"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336972"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 訓練
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656334"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams 即時訓練](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft 舉辦一系列免費的即時線上訓練課程，幫助您快速開始使用 Teams。 加入我們，查看 Teams 的實際功能、獲得問題的解答並與我們的線上講師們互動。 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams 線上訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 使用這些自控進度訓練資源來幫助您的使用者充分利用 Teams。 |
 
-## <a name="dont-miss-this-key-training"></a>不要錯過這主要訓練
+## <a name="dont-miss-these-key-training-offerings"></a>不要錯過這些重要的訓練課程
 
 請常回來查看，我們將持續更新此清單，以便您永遠知道最新、最酷以及最重要的 Teams 訓練。
 
@@ -51,7 +51,7 @@ ms.locfileid: "46656334"
    :::column-end:::
 
    :::column:::
-   **[團隊合作](https://aka.ms/edx-cld267x-about)** </br>
+   **[團隊合作](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    課程：使用 Teams 啟用團隊工作
 
    :::column-end:::

@@ -18,12 +18,12 @@ description: 在本文中，您將了解在 Microsoft Teams 中設定即時活�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308316"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333511"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -107,7 +107,7 @@ ms.locfileid: "48308316"
 >- 每個 Teams 租用戶最多可同時舉行 50 個活動
 >- 每個廣播最多 16 個小時
 >
-> 此外，可透過 Microsoft 即時活動輔助計畫來規劃最多 100,000 位出席者參與的現場活動。 [深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021年1月1日之後，需要這些限制增加的客戶必須購買 [[高級通訊附加元件]](../teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可透過 Microsoft 365 即時活動輔助計畫來規劃最多 100,000 位出席者參與的即時活動。 小組會評估每個要求，並與您一起判斷可用的選項。 [深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021年1月1日之後，需要這些限制增加的客戶必須購買 [[高級通訊附加元件]](../teams-add-on-licensing/advanced-communications.md)。**
 
 
 |**功能**   |**Skype 會議廣播** |**Teams 中產生的活動** |**在外部應用程式或裝置中生產的活動** |
