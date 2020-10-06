@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格，找出在 Microsoft 團隊中取得及管理瑞典電話號碼的相關資訊。
-ms.openlocfilehash: ac412a38b0e92981a48b1a6144d7061983552356
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: bcd94680a7f03818c2b127aeb898390f12b77323
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324089"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361683"
 ---
 # <a name="phone-number-management-for-sweden"></a>瑞典的電話號碼管理
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324089"
   
 |**您想要做什麼？**|**下載正確的表單，並將其傳送給我們**|
 |:-----|:-----|
-|取得 Microsoft 團隊系統管理中心未列出的新使用者或服務電話號碼。   <br/> |下載此表單。 <br/>  [新的瑞典 (的電話號碼要求，)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。|
+|取得 Microsoft 團隊系統管理中心未列出的新使用者或服務電話號碼。   <br/> |下載其中一個表單。 <br/>  [新的瑞典 (的電話號碼要求，)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [ ()  (en-us) 的新電話號碼要求 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。|
 取得傳送給我們的電話號碼。  <br/> |下載此表單。 <br/>[ (LOA) 的授權信件 ()  () 的所有數位 () sv-se ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf?raw=true)<br/><br/> 填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/> |
 |在國內電話目錄中發佈/取消發佈電話號碼 (s) 。  <br/> |[傳送](mailto:ptneu@microsoft.com) 您想要發佈/取消發佈的電話號碼清單給我們。      <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[向我們傳送](mailto:ptneu@microsoft.com) 您想要轉換成服務號碼的使用者號碼清單。 <br/> |

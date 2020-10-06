@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328222"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361493"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -74,6 +74,10 @@ ms.locfileid: "48328222"
 - 在會議室上方顯示更多含3x3 影片庫的影片  
 - 從 MTR 啟動本機即時隱藏式輔助字幕 
 - 從具有直接來賓加入的團隊聊天室加入縮放會議 (預覽) 
+
+> [!NOTE]
+> [3x3 影片] 圖庫和 [本機即時] 隱藏式輔助字幕是透過 Microsoft 團隊服務傳送。 在應用程式版本4.5.37.0 及更新版本中，所有的小組聊天室都能使用這些功能。 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020) 
 

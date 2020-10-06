@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
+ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209482"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357601"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 上的小組會話2020
 
@@ -40,9 +40,9 @@ ms.locfileid: "48209482"
 |---|----------|---|---|---|
 |[團隊會議和裝置中的創新與情報](https://aka.ms/PR104) |我們持續不斷地進行創新與重新影像會議。 請加入我們，瞭解我們如何持續在會議中不斷提供更多智慧，以及如何在裝置中輕鬆運用智慧。  |200|Shalendra Chhabra|
 |[高級通話功能](https://aka.ms/OD265)|深入瞭解新的通話體驗，進一步瞭解合作通話、e911、位置路由及其他功能。 瞭解您的高級案例的通話方式（不論貴公司的規模為何）。 |200|Alan Xie, Roy Kuntz|
-|[共用空間的 Microsoft 團隊裝置](https://aka.ms/OD261) |Microsoft 團隊裝置的設計目的是協助人員充分發揮團隊威力，並彌補遠端與共享工作區之間的差距。 透過團隊會議功能、以客戶為中心的房間體驗，以及業界領先的硬體，使用者無論是遠端加入還是在會議室，都能從低摩擦、包含及互動式會議中獲益。 瞭解共用空間裝置（例如 Microsoft 團隊聊天室、共同作業條和 Surface Hub）如何協助您的團隊在混合式工作區間保持連線並共同作業。|200|Greg Baribault、Kendra 麵包師、Sandhya Shahdeo|
+|[共用空間的 Microsoft 團隊裝置](https://aka.ms/OD261) |Microsoft 團隊裝置的設計目的是協助人員充分發揮團隊威力，並彌補遠端與共享工作區之間的差距。 透過團隊會議功能、以客戶為中心的房間體驗，以及業界領先的硬體，使用者無論是遠端加入還是在會議室，都能從低摩擦、包含及互動式會議中獲益。 瞭解共用空間裝置（例如 Microsoft 團隊聊天室、共同作業條和 Surface Hub）如何協助您的團隊在混合式工作區間保持連線並共同作業。|200|Greg Baribault、Kendra 麵包師、Sandhya Rao|
 |[在商務用 Skype 中？設計您的 Microsoft 團隊路徑](https://aka.ms/OD251)|加入此會話，以根據您目前的商務用 Skype 部署和商業目標，瞭解並判斷最適合的方法。 無論您是商務用 Skype Online 或伺服器客戶，我們都會分享最佳做法、資源與指導方針，以立即取得 Microsoft 團隊。 |200|Lisa McKee，Laszlo Somi
-|[團隊個人裝置中的新式創新](https://aka.ms/PR108)  |客戶正在尋找適合團隊的個人裝置，尤其是他們的員工在遠端作業。 請加入我們，瞭解團隊個人裝置的新創新、功能和認證裝置的發展勢頭，以及我們的遠端作業最佳做法。 |200|Sandhya Rao, Arash Ghanaje-Sichanie|
+|[團隊個人裝置中的新式創新](https://aka.ms/PR108)  |客戶正在尋找適合團隊的個人裝置，尤其是他們的員工在遠端作業。 請加入我們，瞭解團隊個人裝置的新創新、功能和認證裝置的發展勢頭，以及我們的遠端作業最佳做法。 |200|Sandhya Rao, Arash Ghanaie-Sichanie, Kruthika Ponnusamy|
 |[Microsoft 團隊會議中的主要虛擬專題會議室](https://aka.ms/PR109) |請加入我們，瞭解如何在團隊中使用虛擬的專題會議室來瞭解最新的創新。 在這個會話中，我們將醒目提示使用案例和最佳做法，以利用虛擬的群組 ideation、靈感觸發、學習及討論。 |200|James Skay，Nakul Madaan|
 |[讓您的小組與會議與視訊會議控制項進行安全與包含的會議](https://aka.ms/PR110) |加入此會話以深入瞭解會議安全、安全性和裁決，包括將所有出席者硬靜音、要求朗讀功能和設定專題討論會的功能。 我們也會涵蓋反應與舉手的功能，可協助讓會議更具包容性。|200|Nakul Madaan, Rajiv Ramaiah|
 |[Microsoft 團隊作為平臺進行通話與會議](https://aka.ms/PR111) |瞭解小組通話和會議平臺功能，包括 Microsoft Graph 雲端通訊 Api、連絡人中心、相容性錄製，以及其他平臺體驗中的新功能。 |200|Srividhya Chandrasekaran, Mansoor Malik|

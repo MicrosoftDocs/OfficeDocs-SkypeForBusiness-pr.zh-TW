@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322282"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361463"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -38,7 +38,7 @@ Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft 團隊認證計畫的線上連絡人中心
 
-允許合作夥伴開發及整合團隊 CCaaS 方案的 Api 可提供高級通訊授權。 此外，我們已開發 Microsoft 團隊認證計畫的線上連絡人中心，為客戶提供每個參與合作夥伴的解決方案都經過測試和驗證，以提供他們預期的品質、相容性及可靠性（由 Microsoft 解決方案提供）。
+Api 可讓合作夥伴開發並整合小組的 CCaaS 方案。 此外，我們已開發 Microsoft 團隊認證計畫的線上連絡人中心，為客戶提供每個參與合作夥伴的解決方案都經過測試和驗證，以提供他們預期的品質、相容性及可靠性（由 Microsoft 解決方案提供）。
 
 下列合作夥伴正在驗證其 Microsoft 團隊的解決方案，且已準備好參與客戶：
 

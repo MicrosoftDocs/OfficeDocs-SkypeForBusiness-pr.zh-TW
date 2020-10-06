@@ -277,3 +277,112 @@
 | 9/25/2020 | [Microsoft 團隊的身分識別模型和驗證](/MicrosoftTeams/identify-models-authentication) | 日期 |
 | 9/25/2020 | [管理貴組織的清單應用程式](/MicrosoftTeams/manage-lists-app) | 日期 |
 | 9/25/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
+
+
+## <a name="week-of-september-28-2020"></a>2020年9月28日的周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 9/28/2020 | [在 Microsoft 團隊中建立自訂團隊範本](/MicrosoftTeams/create-a-team-template) | 日期 |
+| 9/28/2020 | [從 Microsoft 團隊中的現有小組建立範本](/MicrosoftTeams/create-template-from-existing-team) | 日期 |
+| 9/28/2020 | [從 Microsoft 團隊中的現有小組範本建立新範本](/MicrosoftTeams/create-template-from-existing-template) | 日期 |
+| 9/28/2020 | [在管理員主控台中使用團隊醫療保健範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 日期 |
+| 9/28/2020 | [醫療保健組織的範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 日期 |
+| 9/28/2020 | [使用系統管理主控台快速開始使用團隊財務範本](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | 日期 |
+| 9/28/2020 | [在管理員主控台中使用一般團隊範本](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 日期 |
+| 9/28/2020 | [在零售中開始使用團隊範本](/MicrosoftTeams/get-started-with-retail-teams-templates) | 日期 |
+| 9/28/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
+| 9/28/2020 | [使用 Microsoft Graph 快速開始使用團隊範本](/MicrosoftTeams/get-started-with-teams-templates) | 日期 |
+| 9/28/2020 | [在管理員主控台中使用團隊政府範本](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 日期 |
+| 9/28/2020 | [在系統管理主控台中開始使用小組製造範本](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 日期 |
+| 9/28/2020 | [在管理員主控台中使用團隊零售範本](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 日期 |
+| 9/28/2020 | [設定通用區域電話授權](/MicrosoftTeams/set-up-common-area-phones) | 日期 |
+| 9/28/2020 | [使用 Microsoft Graph 建立的中小型企業團隊範本](/MicrosoftTeams/smb-templates) | 日期 |
+| 9/28/2020 | [在 Microsoft 團隊中管理私人小組探索](/MicrosoftTeams/manage-discovery-of-private-teams) | 日期 |
+| 9/28/2020 | [管理 Microsoft 團隊中的團隊原則](/MicrosoftTeams/teams-policies) | 日期 |
+| 9/29/2020 | [在 Microsoft 團隊中管理雲端語音功能的網路拓撲](/MicrosoftTeams/manage-your-network-topology) | 日期 |
+| 9/29/2020 | [Microsoft 團隊中的語音功能](/MicrosoftTeams/cloud-voice-landing-page) | 日期 |
+| 9/29/2020 | [在 Microsoft 團隊中建立自訂團隊範本](/MicrosoftTeams/create-a-team-template) | 日期 |
+| 9/29/2020 | [從 Microsoft 團隊中的現有小組建立範本](/MicrosoftTeams/create-template-from-existing-team) | 日期 |
+| 9/29/2020 | [從 Microsoft 團隊中的現有小組範本建立新範本](/MicrosoftTeams/create-template-from-existing-template) | 日期 |
+| 9/29/2020 | [在管理員主控台中使用團隊醫療保健範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 日期 |
+| 9/29/2020 | [在管理員主控台中使用一般團隊範本](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 日期 |
+| 9/29/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
+| 9/29/2020 | [在管理員主控台中使用團隊政府範本](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 日期 |
+| 9/29/2020 | [Microsoft 團隊管理員說明文件 # < 60 字元](/MicrosoftTeams/index) | 日期 |
+| 9/29/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 9/29/2020 | [在系統管理主控台中開始使用小組製造範本](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 日期 |
+| 9/29/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 9/29/2020 | [在管理員主控台中使用團隊零售範本](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 日期 |
+| 9/29/2020 | [Microsoft 團隊聊天室中的驗證](/MicrosoftTeams/rooms/rooms-authentication) | 日期 |
+| 9/29/2020 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
+| 9/29/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 9/29/2020 | [在 Microsoft 團隊中使用 NDI](/MicrosoftTeams/use-ndi-in-meetings) | 日期 |
+| 9/30/2020 | [從商務用 Skype 升級至 Teams 的常見問題集](/MicrosoftTeams/faq-journey) | 日期 |
+| 9/30/2020 | [在奧地利提供的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | 日期 |
+| 9/30/2020 | [比利時中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | 日期 |
+| 9/30/2020 | [丹麥中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | 日期 |
+| 9/30/2020 | [在華北中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | 日期 |
+| 9/30/2020 | [在德國提供的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | 日期 |
+| 9/30/2020 | [義大利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 日期 |
+| 9/30/2020 | [葡萄牙中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | 日期 |
+| 9/30/2020 | [瑞典中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | 日期 |
+| 9/30/2020 | [瑞士的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | 日期 |
+| 9/30/2020 | [國家/地區可用性-音訊會議，通話方案](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 日期 |
+| 9/30/2020 | [管理貴組織的電話號碼](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 日期 |
+| 9/30/2020 | [澳洲的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 日期 |
+| 9/30/2020 | [比利時的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 日期 |
+| 9/30/2020 | [加拿大的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 日期 |
+| 9/30/2020 | [法國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 日期 |
+| 9/30/2020 | [德國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 日期 |
+| 9/30/2020 | [愛爾蘭的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 日期 |
+| 9/30/2020 | [日本的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 日期 |
+| 9/30/2020 | [西班牙的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 日期 |
+| 9/30/2020 | [荷蘭的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 日期 |
+| 9/30/2020 | [英國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 日期 |
+| 9/30/2020 | [美國電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 日期 |
+| 9/30/2020 | [Microsoft 團隊的高級通訊附加元件](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 日期 |
+| 9/30/2020 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
+| 9/30/2020 | [使用 PowerShell 設定即時事件原則](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 日期 |
+| 9/30/2020 | [呼叫 & 會議的小組原則錄製簡介](/MicrosoftTeams/teams-recording-policy) | 日期 |
+| 9/30/2020 | [免付費電話的撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 日期 |
+| 9/30/2020 | [丹麥的免付費撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | 日期 |
+| 9/30/2020 | [在葡萄牙中免付費撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | 日期 |
+| 9/30/2020 | [瑞典的免付費撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | 日期 |
+| 9/30/2020 | [與 Microsoft 團隊進行溝通合規性](/MicrosoftTeams/communication-compliance) | 日期 |
+| 9/30/2020 | [在團隊系統管理中心管理稱讚應用程式](/MicrosoftTeams/manage-praise-app) | 日期 |
+| 9/30/2020 | [版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 日期 |
+| 9/30/2020 | [Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 日期 |
+| 9/30/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-considerations) | 日期 |
+| 9/30/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 日期 |
+| 9/30/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | 日期 |
+| 10/1/2020 | [為 Microsoft 團隊設定自動助手](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 10/1/2020 | [使用 Microsoft 團隊匯出 Api 匯出內容](/MicrosoftTeams/export-teams-content) | 日期 |
+| 10/1/2020 | 使用 PowerShell 控制來賓對團隊的存取 | 移除 |
+| 10/1/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 10/1/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 10/1/2020 | [開啟或關閉 Microsoft 團隊的來賓存取權](/MicrosoftTeams/set-up-guests) | 日期 |
+| 10/1/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 10/1/2020 | [在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意](/MicrosoftTeams/app-permissions-admin-center) | 日期 |
+| 10/1/2020 | [在 Microsoft 團隊系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 日期 |
+| 10/1/2020 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
+| 10/1/2020 | [版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 日期 |
+| 10/1/2020 | [Microsoft Teams 系統管理訓練](/MicrosoftTeams/training-microsoft-teams-landing-page) | 日期 |
+| 10/1/2020 | [在 Microsoft 團隊中使用 NDI](/MicrosoftTeams/use-ndi-in-meetings) | 日期 |
+| 10/2/2020 | [系統管理訓練資源-Microsoft 團隊](/MicrosoftTeams/itadmin-readiness) | 日期 |
+| 10/2/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 10/2/2020 | [在 Microsoft 團隊中管理 app 設定原則](/MicrosoftTeams/teams-app-setup-policies) | 日期 |
+| 10/2/2020 | [什麼是通訊點數？](/MicrosoftTeams/what-are-communications-credits) | 日期 |
+| 10/2/2020 | [在 Microsoft Teams 中授權來賓存取](/MicrosoftTeams/teams-dependencies) | 日期 |
+| 10/2/2020 | [將來賓新增至小組](/MicrosoftTeams/add-guests) | 日期 |
+| 10/2/2020 | [編輯來賓使用者資訊](/MicrosoftTeams/edit-guests-information) | 日期 |
+| 10/2/2020 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
+| 10/2/2020 | [Microsoft 團隊中的來賓體驗](/MicrosoftTeams/guest-experience) | 日期 |
+| 10/2/2020 | 來賓如何加入小組 | 移除 |
+| 10/2/2020 | 管理 Microsoft 團隊中的來賓存取權 | 移除 |
+| 10/2/2020 | [比利時的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 日期 |
+| 10/2/2020 | [開啟或關閉 Microsoft 團隊的來賓存取權](/MicrosoftTeams/set-up-guests) | 日期 |
+| 10/2/2020 | [使用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 10/2/2020 | [針對 Microsoft Teams 中的來賓存取問題進行疑難排解](/MicrosoftTeams/troubleshoot-guest-access) | 日期 |
+| 10/2/2020 | [在 Teams 中檢視來賓使用者](/MicrosoftTeams/view-guests) | 日期 |

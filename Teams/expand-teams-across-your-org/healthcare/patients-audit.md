@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 2b61f7a923d863086b09d240230a0eb8e5ca897b
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: c35f9a42cd950676a449608f192ca4100d981c72
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277234"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361573"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
 > [!IMPORTANT]
-> **2020年9月30日生效，患者 app 將會被否決，且使用者將無法從 [小組] app store 進行安裝。我們鼓勵您立即開始使用團隊中的 [ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
+> **2020年10月15日生效，患者應用程式將會被否決，且使用者將無法從 [小組 app store] 進行安裝。我們鼓勵您立即開始使用團隊中的 [ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
 >
 >患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 當患者 app 停用時，所有與它相關聯的資料都會保留在這個群組中，但不能再透過使用者介面存取。 目前的使用者可以使用 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
 >
@@ -61,7 +61,7 @@ ms.locfileid: "48277234"
 
 患者 app 有自己的記錄活動，列在下表中：
 
-|好記的名稱 |一道|描述|
+|好記的名稱 |一道|說明|
 |:---|:---|:---|
 | 已查看患者清單 | PatientListView | 使用者已查看患者清單。|
 | 已刪除的患者清單 | PatientListDelete | 使用者已刪除患者清單。|
