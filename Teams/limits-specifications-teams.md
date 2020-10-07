@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333263"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361643"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -34,7 +34,7 @@ ms.locfileid: "48333263"
 |功能    | 最大限制 |
 |-----------|---------------|
 |一位使用者可以建立的小組數目 | 受限於 250 的物件限制&sup1;         |
-|一位使用者可以加入成為成員的團隊數目|1,000|
+|一位使用者可以加入成為成員的小組數目|1,000&sup2;|
 |一個小組中的成員數目 | 10,000       |
 |每個小組擁有者人數 | 100   |
 |一個租用戶中允許的全組織小組數目 | 5     |
@@ -49,7 +49,7 @@ ms.locfileid: "48333263"
 
 <sup>1</sup>Azure Active Directory 中的任何目錄物件都會計入此限制。 全域系統管理員不受此限制，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式也不受此限制。
 
-<sup>2</sup>此限制包含已封存的小組。
+<sup>2</sup>此限制包含已封存的小組。 若要超出上限，您必須與 Microsoft 支援服務聯繫。
 
 <sup>3</sup>已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，該頻道不再計入每個小組 200 個頻道的限制。
 
