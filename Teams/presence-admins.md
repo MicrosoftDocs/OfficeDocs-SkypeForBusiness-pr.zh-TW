@@ -1,7 +1,7 @@
 ---
 title: Teams 中使用者的目前狀態
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820517"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369208"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -49,22 +49,32 @@ Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 
 | ![黃色時鐘圖示，表示離開](media/Presence_Away.png) 離開| ![黃色時鐘圖示，表示離開](media/Presence_Away.png) 離開|
 || ![黃色時鐘圖示，表示離開](media/Presence_Away.png)上次看到的*時間*|
 |![黃色時鐘圖示，表示離開，馬上回來](media/Presence_Away.png) 馬上回來| |
-|| ![黃色時鐘圖示，表示離開，下班](media/Presence_Away.png)  下班|
-|| ![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線 |
+|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 顯示為離線 | ![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線| |
 || ![空心灰色圓圈，表示狀態不明](media/Presence_Unknown.png) 狀態不明|
-||![空心紅色圓圈加對角斜線，表示已封鎖](media/Presence_Blocked.png) 已封鎖 |
 || ![紫色圓圈加箭號，表示外出](media/Presence_OOF.png) 外出|
 |||
 
-App 設定的目前狀態是以使用者活動 (提供，離開) ，Outlook 行事曆狀態 (在會議) 中，或團隊 app 的狀態 (在通話中，提出) 。 請注意，當您是以您的行事曆為基礎的焦點模式時，焦點會是人員在團隊中看到的狀態，但在其他產品中會顯示為 [請勿打擾]。
+App 設定的目前狀態是以使用者活動 (提供，離開) ，Outlook 行事曆狀態 (在會議) 中，或團隊 app 的狀態 (在通話中，提出) 。 請注意，當您是以您的行事曆為基礎的焦點模式時，焦點會是人員在團隊中看到的狀態，但會在其他產品中顯示為 [請勿打擾]。
 
-當您鎖定電腦或進入 [空閒] 或 [睡眠] 模式時，您的目前狀態會變更為 [離開]。 在行動裝置上，當團隊 app 位於背景時，您的目前狀態會變更為 [離開]。
+當您鎖定電腦或電腦進入 [空閒] 或 [睡眠] 模式時，您的目前狀態會變更為 [離開]。 在行動裝置上，只要團隊 app 在背景中，您的目前狀態就會變更為 [離開]。
 
-不管使用者目前狀態為何，都會收到所有在 Teams 中傳送給他們的聊天訊息。 如果他人傳送郵件給使用者時使用者已離線，聊天訊息會在使用者下次上線時顯示在 Teams 中。 如果使用者在 [請勿打擾] 中，使用者仍會收到聊天訊息，但不會顯示橫幅通知。
+不管使用者目前狀態為何，都會收到所有在 Teams 中傳送給他們的聊天訊息。 如果他人傳送郵件給使用者時使用者已離線，聊天訊息會在使用者下次上線時顯示在 Teams 中。 如果使用者狀態設定為 [請勿打擾]，使用者仍會收到聊天訊息，但不會顯示橫幅通知。
 
 使用者會在除了 [請勿打擾] 以外的所有目前狀態狀態中接收來電，讓來電移至語音信箱。 如果受話方封鎖來電者，通話將不會傳送，且來電者看到的受話方目前狀態是「離線」。
 
-使用者可以到 Teams 的 [設定]****  >  [隱私權]****，將人員新增至其優先存取清單。 即使使用者在 [請勿打擾] 時，擁有優先順序存取權的人員也可以與使用者取得聯繫。
+使用者可以到 Teams 的 [設定]****  >  [隱私權]****，將人員新增至其優先存取清單。 即使使用者的狀態設定為 [請勿打擾]，擁有優先順序存取權的人員也可以與使用者聯繫。
+
+## <a name="user-configured-states-expiration"></a>使用者設定的狀態到期日
+當使用者選取特定的目前狀態時，它會優先于任何 app 活動更新。 例如，如果使用者將自己設為 [請勿打擾]，即使她出席會議或接聽電話，她的目前狀態仍會保留為 [請勿打擾]。
+
+使用者設定的狀態在 [團隊] 中有預設的到期設定，以避免使用者顯示在一段時間之後可能不相關的狀態。
+
+|使用者設定的狀態|預設到期日|
+|:--- |:---|
+| 忙碌|1天|
+| 請勿打擾|1天|
+| 公司|7天|
+|||
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>比較商務用 Skype 與 Teams 中的管理設定
 

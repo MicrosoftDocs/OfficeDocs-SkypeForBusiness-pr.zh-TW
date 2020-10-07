@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下列描述音訊會議的 [在網路上開啟預覽] 功能。
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321789"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369178"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>開啟音訊會議的網路會議預覽
 
@@ -38,7 +38,7 @@ ms.locfileid: "47321789"
 
 在設定網路會議之前，請確定貴組織符合下列先決條件： 
 
-- 確定您組織中已啟用或將要啟用音訊會議的所有使用者都只使用 [小組] 模式。 只有在小組會議中才支援透過網路會議傳送入站與 outboud 音訊會議通話。
+- 確定您組織中已啟用或將要啟用音訊會議的所有使用者都只使用 [小組] 模式。 只有小組會議才支援透過網路會議傳送入站和出站音訊會議通話。
 
 - 將音訊會議授權指派給所有將使用網路會議的使用者。
 
@@ -56,6 +56,8 @@ ms.locfileid: "47321789"
 
 您可以在 [ **會議-> 會議橋** 接或使用商務用 Skype Online PowerShell Cmdlet CsOnlineDialInConferencingBridge，找到 [團隊系統管理中心] 中的服務號碼。 如需其他資訊，請參閱 [Microsoft 團隊中的音訊會議號碼](see-a-list-of-audio-conferencing-numbers-in-teams.md)清單。
 
+> [!NOTE]
+> 此功能不適用於具有每分鐘付費音訊會議授權的使用者。
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>透過直接路由啟用團隊會議撥出通話的路由
 

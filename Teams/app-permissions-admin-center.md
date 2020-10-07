@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336840"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367593"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
 
@@ -32,7 +32,7 @@ Microsoft [團隊系統管理中心] 中的 [ [管理應用程式](manage-apps.m
 
 應用程式要求的許可權範例包括讀取儲存在小組中的資訊、讀取使用者的設定檔，以及代表使用者傳送電子郵件的能力。 若要深入瞭解，請參閱 [Microsoft 身分識別平臺端點中的許可權和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 
 
-[ **許可權** ] 欄會指出 app 是否擁有需要同意的許可權。 您會看到在 Azure AD 中註冊的每個應用程式的 [ **查看詳細資料** ] 連結，該 app 具有需要同意的許可權。 請記住，這只適用于自訂和協力廠商應用程式和。 您不會看到此連結，或需要為 Microsoft 發佈的 app 授與系統管理員的同意。
+[ **許可權** ] 欄會指出 app 是否擁有需要同意的許可權。 您會看到在 Azure AD 中註冊的每個應用程式的 [ **查看詳細資料** ] 連結，該 app 具有需要同意的許可權。 請記住，這只適用于自訂和協力廠商應用程式。 您不會看到此連結，或需要為 Microsoft 發佈的 app 授與系統管理員的同意。
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="[管理應用程式] 頁面上 [許可權] 欄的螢幕擷取畫面":::
 

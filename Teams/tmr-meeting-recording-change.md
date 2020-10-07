@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361333"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369168"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -95,7 +95,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 從資料流程出發
 
 **會議錄製將儲存在哪裡？**
 
-- 對於非頻道會議，錄製會儲存在名為的資料夾中。 [錄製 * *] 位於 OneDrive 的最上層，且屬於開始會議錄製的人員。 範例
+- 對於非頻道會議，錄製會儲存在 OneDrive 中名為 [ **錄製** ] 的資料夾中，該資料夾屬於開始會議錄製的人員。 範例
 
   <i>錄影機的商務</i> / 用 OneDrive**錄製**
 

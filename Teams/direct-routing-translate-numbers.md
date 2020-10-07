@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: 545d6a77fd9b3ee0462437b5b710d1d4eb782138
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 7d48e9163dd5927cbeddf4a4104d2382e69e7e2b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077648"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369158"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>將電話號碼轉譯成替換格式
 
@@ -30,25 +30,25 @@ ms.locfileid: "45077648"
 - 步驟1。 [將 SBC 與 Microsoft Phone 系統連接並驗證連接](direct-routing-connect-the-sbc.md) 
 - 步驟2。 [允許使用者使用直接路由、語音及語音信箱](direct-routing-enable-users.md)   
 - 步驟3。 [設定語音路由](direct-routing-voice-routing.md)
-- **步驟4。將數位轉換成替代格式**（本文）
+- **步驟4。將數位轉換成替代格式**   (本文) 
 
-如需設定直接路由所需的所有步驟的詳細資訊，請參閱設定[直接路由](direct-routing-configure.md)。
+如需設定直接路由所需的所有步驟的詳細資訊，請參閱設定 [直接路由](direct-routing-configure.md)。
 
-有時候，租使用者管理員可能會根據其建立的模式，變更輸出與/或撥入通話的號碼，以確保與會話邊界控制器（SBCs）的互通性。 本文說明如何指定數位翻譯規則原則，以將數位轉換成替代格式。 
+有時候，租使用者管理員可能會根據其建立的模式變更輸出和/或撥出通話的號碼，以確保與會話邊界控制器 (SBCs) 之間的互通性。 本文說明如何指定數位翻譯規則原則，以將數位轉換成替代格式。 
 
 您可以使用 [數位翻譯規則] 原則來轉譯下列各項的數位：
 
-- 入站通話：從 PSTN 端點（來電者）到團隊用戶端的呼叫（被叫方）
-- [呼出通話]：從團隊用戶端（來電者）到 PSTN 端點的呼叫（被叫方）
+- 入站通話：從 PSTN 端點 (來電者) 至團隊用戶端 (被呼叫者) 
+- [呼出通話]：來自團隊用戶端的呼叫 (呼叫者) 至 PSTN 端點 (被呼叫方) 
 
 原則會套用到 SBC 層級。 您可以將多個翻譯規則指派給 SBC，這些規則會依您在 PowerShell 中列出它們時的出現順序來套用。 您也可以在原則中變更規則的順序。
 
-若要建立、修改、查看及刪除數位處理規則，請使用[新的 CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)及[Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) Cmdlet。
+若要建立、修改、查看及刪除數位處理規則，請使用 [新的 CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)及 [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) Cmdlet。
 
-若要在 SBCs 上指派、設定及列出編號操作規則，請使用[新的 CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)和[CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) Cmdlet 以及 InboundTeamsNumberTranslationRules、InboundPSTNNumberTranslationRules、OutboundTeamsNumberTranslationRules、OutboundPSTNNumberTranslationRules、InboundTeamsNumberTranslationRulesList、InboundPSTNNumberTranslationRulesList、OutboundTeamsNumberTranslationRulesList、OutboundPSTNNumberTranslationRulesList、、、
+若要在 SBCs 上指派、設定及列出編號操作規則，請使用 [新的 CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) 和 [CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) Cmdlet 以及 InboundTeamsNumberTranslationRules、InboundPSTNNumberTranslationRules、OutboundTeamsNumberTranslationRules、OutboundPSTNNumberTranslationRules、InboundTeamsNumberTranslationRules、InboundPSTNNumberTranslationRules、OutboundTeamsNumberTranslationRules、OutboundPSTNNumberTranslationRules、、、
 
->[!NOTE]
-> 翻譯規則的總數目為400，翻譯參數的最大長度為100符號，最大翻譯參數模式長度是1024符號，而翻譯參數的最大翻譯長度是256符號。
+> [!NOTE]
+> 翻譯規則的總數量為400，最大翻譯參數名稱長度為100符號，最大翻譯參數模式長度為1024符號，而翻譯參數翻譯長度上限為256符號。
 
 
 ## <a name="example-sbc-configuration"></a>SBC 範例配置
@@ -56,17 +56,17 @@ ms.locfileid: "45077648"
 在這種情況下， ```New-CsOnlinePSTNGateway``` 會執行此 Cmdlet 來建立下列 SBC 配置：
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 指派給 SBC 的翻譯規則摘要如下表所示：
 
 |名稱  |模式 |翻譯  |
 |---------|---------|---------|
-|AddPlus1     |^ （\d {10} ） $          |+ 1 $ 1          |
-|AddE164SeattleAreaCode      |^ （\d {4} ） $          | + 1206555 $ 1         |
-|AddSeattleAreaCode    |^ （\d {4} ） $          | 425555 $ 1         |
-|StripPlus1    |^ + 1 （\d {10} ） $          | $1         |
+|AddPlus1     |^ ( \d {10}) $          |+ 1 $ 1          |
+|AddE164SeattleAreaCode      |^ ( \d {4}) $          | + 1206555 $ 1         |
+|AddSeattleAreaCode    |^ ( \d {4}) $          | 425555 $ 1         |
+|StripPlus1    |^ + 1 ( \d {10}) $          | $1         |
 
 在下列範例中，有兩個使用者： Alice 和 Bob。 劉愛琳是一個編號為 + 1 206 555 0100 的團隊使用者。 Bob 是一個數位為 + 1 425 555 0100 的 PSTN 使用者。
 
@@ -78,9 +78,9 @@ SBC 在 RequestURI 中使用2065550100，並在 [寄件者] 標題中使用 [標
 
 |資料  |來源語言 |已翻譯的頁首 |已套用參數及規則  |
 |---------|---------|---------|---------|
-|RequestURI  |邀請 sip:2065550100@sbc.contoso.com|邀請 sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
-|自    |自：\<sip:2065550100@sbc.contoso.com>|自：\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
-|從   |從：\<sip:4255550100@sbc.contoso.com>|從：\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+|RequestURI  |邀請 sip:2065550100@sbc.contoso.com|邀請 sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
+|自    |自： \<sip:2065550100@sbc.contoso.com>|自： \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
+|從   |從： \<sip:4255550100@sbc.contoso.com>|從： \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>範例2：撥入至四位數的電話號碼
 
@@ -90,9 +90,9 @@ SBC 在 RequestURI 中使用0100，並在 [寄件者] 標題中使用 [標題] �
 
 |資料  |來源語言 |已翻譯的頁首 |已套用參數及規則  |
 |---------|---------|---------|---------|
-|RequestURI  |邀請 sip:0100@sbc.contoso.com          |邀請 sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
-|自    |自：\<sip:0100@sbc.contoso.com>|自：\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
-|從   |從：\<sip:4255550100@sbc.contoso.com>|從：\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+|RequestURI  |邀請 sip:0100@sbc.contoso.com          |邀請 sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
+|自    |自： \<sip:0100@sbc.contoso.com>|自： \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
+|從   |從： \<sip:4255550100@sbc.contoso.com>|從： \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>範例3：使用10位數的非 E. 164 號碼撥出通話
 
@@ -104,9 +104,9 @@ SBC 針對團隊和 PSTN 使用者設定為使用非 E. 164 10 位數的數位�
 
 |資料  |來源語言 |已翻譯的頁首 |已套用參數及規則  |
 |---------|---------|---------|---------|
-|RequestURI  |邀請 sip:+14255550100@sbc.contoso.com          |邀請 sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
-|自    |自：\<sip:+14255550100@sbc.contoso.com>|自：\<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
-|從   |從：\<sip:+12065550100@sbc.contoso.com>|從：\<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRulesList 'StripPlus1'         |
+|RequestURI  |邀請 sip:+14255550100@sbc.contoso.com          |邀請 sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
+|自    |自： \<sip:+14255550100@sbc.contoso.com>|自： \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
+|從   |從： \<sip:+12065550100@sbc.contoso.com>|從： \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>範例4：使用四位數的非 E. 164 號碼撥出通話
 
@@ -116,9 +116,9 @@ SBC 設定為使用非 E. 164 個4位數的團隊使用者，以及十位數的 
 
 |資料  |來源語言 |已翻譯的頁首 |已套用參數及規則  |
 |---------|---------|---------|---------|
-|RequestURI  |邀請 sip:0100@sbc.contoso.com           |邀請 sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
-|自    |自：\<sip:0100@sbc.contoso.com>|自：\<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
-|從   |從：\<sip:+12065550100@sbc.contoso.com>|從：\<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
+|RequestURI  |邀請 sip:0100@sbc.contoso.com           |邀請 sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
+|自    |自： \<sip:0100@sbc.contoso.com>|自： \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|從   |從： \<sip:+12065550100@sbc.contoso.com>|從： \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
 
 ## <a name="see-also"></a>另請參閱
 
