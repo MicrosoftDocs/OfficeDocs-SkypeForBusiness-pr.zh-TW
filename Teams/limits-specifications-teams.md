@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361643"
+ms.locfileid: "48367563"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -42,7 +42,7 @@ ms.locfileid: "48361643"
 |一位全域系統管理員可以建立的小組數目        |  500,000   |
 |一個 Microsoft 365 或 Office 365 組織可以擁有的小組數目    | 500,000&sup2;     |
 |每個小組的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
-|每個小組的私人頻道數量    |30|
+|每個小組的私人頻道數量    |30| (包含已刪除的頻道)&sup3;
 |私人頻道中的成員數目    |250|
 |Office 365 群組中可轉換成小組的成員數目上限    |10,000|
 |頻道交談貼文大小 | 每篇貼文約 28 KB<sup>4</sup> |
@@ -51,7 +51,7 @@ ms.locfileid: "48361643"
 
 <sup>2</sup>此限制包含已封存的小組。 若要超出上限，您必須與 Microsoft 支援服務聯繫。
 
-<sup>3</sup>已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，該頻道不再計入每個小組 200 個頻道的限制。
+<sup>3</sup> 已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道或 30 個私人頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，且該頻道不再會計入每個小組頻道的限制。
 
 <sup>4</sup> 28 KB 是大約限制，因為它包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
 
@@ -94,7 +94,9 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 如需詳細資訊，請參閱 [Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
 > [!NOTE]
-> 所有 Microsoft 365 和 Office 365 授權的郵件大小、檔案附件和內嵌影像的限制都相同。
+> 所有 Microsoft 365 和 Office 365 授權的郵件大小、檔案附件和內嵌影像的限制都相同。 在 Teams 中寄送電子郵件給頻道的功能不適用 Office GCC/GCCH/DOD 組織。
+
+
 
 ## <a name="channel-names"></a>頻道名稱
 
