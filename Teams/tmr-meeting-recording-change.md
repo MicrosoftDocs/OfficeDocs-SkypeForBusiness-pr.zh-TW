@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369168"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389931"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
 > [!Note]
 > 從使用 Microsoft Stream 到變更為使用商務用 OneDrive 和 OneDrive 來進行會議錄製，將會採取階段性的方式。 在啟動時，租使用者系統管理員可以在10月2020中選擇這個新的工作流程選項，並開始查看錄製自動上傳至商務用 OneDrive 和 SharePoint 的功能。 在11月，如果您想要繼續使用串流，且在早期的2021中還有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
 
-Microsoft 團隊有一個儲存會議錄製的新方法。 從資料流程出發，此方法會在 Microsoft 365 中使用 Microsoft OneDrive 和 SharePoint，並提供許多好處。
+Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Microsoft Stream 轉換到 [新串流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一個階段，此方法會將錄製儲存在 microsoft 365 中的 microsoft OneDrive 和 SharePoint，並提供許多好處。
 
 使用商務用 OneDrive 和 SharePoint 儲存錄製的好處包括：
 
@@ -61,7 +61,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 從資料流程出發
 
 1. 安裝商務用 Skype Online PowerShell 管理主控台。
 
-    a. 下載 [商務用 Skype Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)。
+    a. 下載 [商務用 Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)。
 
     b. 依照提示進行安裝。
 
@@ -102,6 +102,10 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 從資料流程出發
 - 對於頻道會議，錄製會儲存在名為 [ **錄製**] 資料夾的 [小組網站] 文件庫中。 範例
 
   <i>團隊名稱-頻道名稱</i> /**檔** /**錄製**
+
+**我要如何處理來自離職員工的錄製？**
+
+因為影片與 OneDrive 和 SharePoint 中的任何其他檔案一樣，所以在員工離職之後，處理擁有權及保留期將遵循正常的 [OneDrive 和 sharepoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)程式。
 
 **誰有權查看會議錄製？**
 
