@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0555296da359a916b512bde878d5c87207a6e549
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389881"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416858"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -54,7 +54,7 @@ ms.locfileid: "48389881"
 |記憶體     |   4.0 GB RAM      |
 |硬碟    |   1.5 GB 的可用磁碟空間      |
 |顯示器    | 1280 x 800 或更高解析度    |
-|作業系統  |    三個最新版本的 macOS 中的一個。 您可以在 [這裡](https://support.apple.com/en-us/HT201260)找到最新版本的 macOS。 例如，當發行新版本的 macOS 時，新的版本及前面緊鄰的兩個版本即成為支援的版本。      |
+|作業系統  |    三個最新版本的 macOS 中的一個。 您可以在 [此](https://support.apple.com/en-us/HT201260)找到最新 macOS 版本的相關資訊，以及如何升級您的 macOS 版本。 例如，當發行新版本的 macOS 時，新的版本及前面緊鄰的兩個版本即成為支援的版本。      |
 |影片  |    相容的網路攝影機     |
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
 |視訊通話和會議 | <ul><li>需要2核處理器。 若要獲得較高的影片/畫面共用解析度和畫面播放速率，建議使用4核處理器或更佳的速度。 </li><li>在 macOS 上無法使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議。</li></ul>

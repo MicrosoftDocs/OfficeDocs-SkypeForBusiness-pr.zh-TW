@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: 388fb68196a6e68c13066b7b94a1b24a31834b37
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346164"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416848"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
@@ -33,7 +33,7 @@ ms.locfileid: "48346164"
 
 就像團隊管理員一樣，您可以 [控制來賓可以 (且無法) 在團隊中使用的功能](manage-guests.md)。 團隊中的來賓與其他 Microsoft 365 的相容性和審核保護功能所涵蓋，且可在 Azure AD 中進行管理。 來賓存取受到 Azure AD 和 Microsoft 365 或 Office 365 服務的限制。
 
-來賓體驗有刻意設計的限制。 如需訪客在小組中能及不能執行之動作的完整清單，請參閱[比較小組成員和來賓的功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
+來賓體驗有刻意設計的限制。 如需訪客在小組中能及不能執行之動作的完整清單，請參閱 [比較小組成員和來賓的功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
 
 > [!IMPORTANT]
 > 對於共存的升級模式，來賓存取遵循 Teams 的全組織設定。 這項設定無法變更。
@@ -66,7 +66,7 @@ ms.locfileid: "48346164"
 
 ## <a name="licensing-for-guest-access"></a>來賓存取的授權
 
-來賓存取包含在所有 Microsoft 365 商務標準版、Microsoft 365 企業版及 Microsoft 365 教育版訂閱中。 不需要額外的 Microsoft 365 授權。 Teams 未限制您可以新增的來賓數量。 不過，可新增至您租用戶的來賓總數可能受到 Azure AD 的付費功能限制。 如需詳細資訊，請參閱 [Azure AD B2B 共同作業授權](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
+來賓存取包含在所有 Microsoft 365 商務標準版、Microsoft 365 企業版及 Microsoft 365 教育版訂閱中。 不需要額外的 Microsoft 365 授權。 Teams 未限制您可以新增的來賓數量。 不過，可新增至您租用戶的來賓總數可能受到 Azure AD 的付費功能限制。 如需詳細資訊，請參閱 [AZURE AD 外部身分識別的計費模型](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 > [!NOTE]
 > 貴組織中擁有獨立 Microsoft 365 訂閱者案（例如 Exchange Online 方案2）的使用者，不能受到受邀者對您組織的訪客，因為小組會認為這些使用者屬於同一個組織。 若要讓這些使用者使用 Teams，這些使用者必須獲派 Microsoft 365 商務標準版、Office 365 企業版或 Office 365 教育版訂閱。 

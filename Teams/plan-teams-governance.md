@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 2180c819491b3067225ada993aec60ec052bc69f
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662113"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416911"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
@@ -33,7 +33,7 @@ ms.locfileid: "46662113"
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>群組和小組建立、命名、分類和來賓存取
 
-您的組織可能會要求您在小組命名及分類的方式上執行嚴格的控制，您可以將來賓新增為小組成員，以及誰可以建立團隊。 您可以使用 Azure Active Directory (Azure AD) 來設定這些區域。 
+您的組織可能會要求您在小組命名及分類的方式上執行嚴格的控制，您可以將來賓新增為小組成員，以及誰可以建立團隊。 您可以使用 Azure Active Directory (Azure AD) 及敏感度標籤來設定這些區域。 
 
 <br>
 
@@ -52,6 +52,7 @@ ms.locfileid: "46662113"
 |小組來賓存取 |允許或禁止將來賓新增至小組。 |否 |TBD |
 |小組建立 |將小組建立限制為管理員。 |否 |TBD|
 |小組建立 |將小組建立限制為安全群組成員。 |P1 |TBD|
+|敏感度標籤|設定隱私權與來賓共用|否|TBD|
 
 > [!NOTE]
 > 若要協助您預先規劃，請 [進一步瞭解如何設定這些原則以及他們所需的授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
@@ -64,16 +65,19 @@ ms.locfileid: "46662113"
 
 在您決定需求之後，您可以使用 Azure AD 控制項來實現它們。 如需如何實現這些設定的技術指導方針，請參閱：
 
-- [Azure Active Directory Cmdlet，用於設定群組設定](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
+- [Azure Active Directory Cmdlet 用於配置群組設定](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [在 Azure Active Directory 中強制執行 Microsoft 365 群組的命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
+- [在 Azure Active Directory 中強制執行 Microsoft 365 群組的命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Microsoft 365 群組命名原則](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+- [Microsoft 365 群組命名原則](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
+- [使用敏感度標籤來保護 Microsoft 團隊、Microsoft 365 群組和 SharePoint 網站中的內容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+
+- [群組、團隊和 Yammer 的生命週期選項結束時間](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>群組和小組到期、保留及封存
 
-您的組織可能對設定到期、保留及封存團隊及小組資料 (通道訊息及) 通道檔案的其他需求。 您可以設定群組過期原則來自動管理群組和保留原則的生命週期，以根據需要保留或刪除資訊，而且您可以將團隊封存 (將其設為唯讀模式) ，以保留不在使用中的小組的時間點視圖。
+您的組織可能對設定到期、保留及封存團隊及小組資料 (通道訊息及) 通道檔案的其他需求。 您可以設定群組過期原則來自動管理群組和保留原則的生命週期，以根據需要保留或刪除資訊，而且您可以將團隊封存 (將其設為唯讀模式) ，以保留不在使用中的小組的時間點視圖。 請注意，已封存的小組會繼續套用過期原則，除非排除或續約，否則可能會被刪除。
 
 |           |            |
 |-----------|------------|
@@ -149,8 +153,10 @@ ms.locfileid: "46662113"
 
 - [管理組織的 Microsoft Teams 設定](enable-features-office-365.md)
 - [在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Microsoft Teams 中的私人頻道](private-channels.md)
 - [在團隊中管理會議原則](meeting-policies-in-teams.md)
 - [管理小組中的訊息傳遞原則](messaging-policies-in-teams.md)
+- [在 Microsoft 團隊系統管理中心管理您的應用程式](manage-apps.md)
 
 此外，您可以為頻道設定裁決，並向特定使用者提供仲裁者的功能，讓他們能夠控制誰可以建立頻道發佈及回復。 如需詳細資訊，請參閱 [在 Microsoft 團隊中設定和管理 [頻道裁決](manage-channel-moderation-in-teams.md) ]。
 
