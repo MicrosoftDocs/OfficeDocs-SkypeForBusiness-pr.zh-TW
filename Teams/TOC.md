@@ -693,6 +693,14 @@
 ### Teams 中的 Shifts
 #### [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [管理 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### 病患應用程式
+#### [病患應用程式概觀](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### 將電子醫療保健記錄整合至 [病患] 應用程式
+##### [使用 FHIR API 將電子醫療保健記錄整合至 [病患] 應用程式](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [病患應用程式的 DSTU2 介面規格](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [病患應用程式的 STU3 介面規格](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [將病患應用程式連線至 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [病患應用程式的稽核記錄](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
