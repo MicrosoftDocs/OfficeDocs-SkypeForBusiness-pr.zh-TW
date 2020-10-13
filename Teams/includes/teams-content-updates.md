@@ -386,3 +386,65 @@
 | 10/2/2020 | [使用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
 | 10/2/2020 | [針對 Microsoft Teams 中的來賓存取問題進行疑難排解](/MicrosoftTeams/troubleshoot-guest-access) | 日期 |
 | 10/2/2020 | [在 Teams 中檢視來賓使用者](/MicrosoftTeams/view-guests) | 日期 |
+
+
+## <a name="week-of-october-05-2020"></a>2020年10月5日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 10/5/2020 | [Ignite 上的小組會話2020](/MicrosoftTeams/ignite-2020-landing-page) | 日期 |
+| 10/5/2020 | [使用 Microsoft 團隊管理員角色管理團隊](/MicrosoftTeams/using-admin-roles) | 日期 |
+| 10/5/2020 | [在 Microsoft Teams 中建立全組織小組](/MicrosoftTeams/create-an-org-wide-team) | 日期 |
+| 10/5/2020 | [患者 App 與 EHR 整合 DSTU2 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 日期 |
+| 10/5/2020 | [將病患應用程式連線至 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 日期 |
+| 10/5/2020 | [適用于團隊管理員的患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 日期 |
+| 10/5/2020 | [病患應用程式概觀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 日期 |
+| 10/5/2020 | [針對小組 IT 與合規性管理員審核患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 日期 |
+| 10/5/2020 | [患者 App 與 EHR 整合 STU3 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 日期 |
+| 10/5/2020 | [開始使用適用於醫療保健組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
+| 10/5/2020 | [使用 Microsoft Graph 快速開始使用團隊範本](/MicrosoftTeams/get-started-with-teams-templates) | 日期 |
+| 10/5/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 10/5/2020 | [針對奧地利的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | 日期 |
+| 10/5/2020 | [比利時的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 日期 |
+| 10/5/2020 | [丹麥的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | 日期 |
+| 10/5/2020 | [法國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 日期 |
+| 10/5/2020 | [德國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 日期 |
+| 10/5/2020 | [愛爾蘭的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 日期 |
+| 10/5/2020 | [義大利電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 日期 |
+| 10/5/2020 | [葡萄牙的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | 日期 |
+| 10/5/2020 | [西班牙的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 日期 |
+| 10/5/2020 | [瑞典的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | 日期 |
+| 10/5/2020 | [瑞士的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 日期 |
+| 10/5/2020 | [荷蘭的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 日期 |
+| 10/5/2020 | [版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 日期 |
+| 10/5/2020 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
+| 10/5/2020 | [使用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 10/6/2020 | [在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意](/MicrosoftTeams/app-permissions-admin-center) | 日期 |
+| 10/6/2020 | [患者 App 與 EHR 整合 DSTU2 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 日期 |
+| 10/6/2020 | [將病患應用程式連線至 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 日期 |
+| 10/6/2020 | [適用于團隊管理員的患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 日期 |
+| 10/6/2020 | [病患應用程式概觀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 日期 |
+| 10/6/2020 | [針對小組 IT 與合規性管理員審核患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 日期 |
+| 10/6/2020 | [患者 App 與 EHR 整合 STU3 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 日期 |
+| 10/6/2020 | [開始使用適用於醫療保健組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
+| 10/6/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 10/6/2020 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
+| 10/6/2020 | [什麼是 Microsoft 團隊即時事件？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 日期 |
+| 10/6/2020 | [音訊會議的網路會議](/MicrosoftTeams/audio-conferencing-on-network) | 日期 |
+| 10/6/2020 | [直接路由-連接類比裝置](/MicrosoftTeams/direct-routing-analog-devices) | 日期 |
+| 10/6/2020 | [翻譯直接傳送的電話號碼](/MicrosoftTeams/direct-routing-translate-numbers) | 日期 |
+| 10/6/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
+| 10/6/2020 | [使用 PowerShell 設定即時事件原則](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 日期 |
+| 10/6/2020 | [使用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 10/6/2020 | [Microsoft 團隊需求 \| 加強服務](/MicrosoftTeams/upgrade-enhance-my-service) | 日期 |
+| 10/8/2020 | [針對中小型企業設定音訊會議](/MicrosoftTeams/audio-conferencing-smb) | 日期 |
+| 10/8/2020 | [取得 Microsoft Teams 用戶端](/MicrosoftTeams/get-clients) | 日期 |
+| 10/8/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 10/8/2020 | [使用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 10/8/2020 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 10/9/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 10/9/2020 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
+| 10/9/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 10/9/2020 | [在小組中規劃管理-Microsoft 團隊](/MicrosoftTeams/plan-teams-governance) | 日期 |
+| 10/9/2020 | [規劃生命週期管理](/MicrosoftTeams/plan-teams-lifecycle) | 日期 |

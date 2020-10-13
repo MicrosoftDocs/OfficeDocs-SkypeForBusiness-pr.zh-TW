@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 50a9abbd7e5872229c09d7d80c00c5d432723da1
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367593"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433046"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
 
@@ -94,5 +94,6 @@ RSC 許可權是在應用程式資訊清單中定義，而不是在 Azure AD 中
 - [Microsoft 身分識別平臺端點的許可權和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [小組中的資源特定同意](resource-specific-consent.md)
 - [ (RSC) 的資源特定同意 ](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- [流覽團隊 app 週期](https://aka.ms/PR132) (Ignite 2020 會話) 
 
 

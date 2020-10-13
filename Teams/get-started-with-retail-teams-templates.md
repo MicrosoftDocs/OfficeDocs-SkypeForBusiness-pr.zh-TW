@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33be31797833152aea9dd477698be56884a5aa0b
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294629"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424633"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>在零售中開始使用團隊範本
 
@@ -90,4 +90,4 @@ Manager 共同工作範本是根據零售商的需求而設計的另一個團隊
 ```
 ## <a name="relate-topic"></a>關聯主題
 
-[管理主控台中的團隊範本快速入門](get-started-with-teams-templates-in-the-admin-console.md)
+[在系統管理中心快速開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)

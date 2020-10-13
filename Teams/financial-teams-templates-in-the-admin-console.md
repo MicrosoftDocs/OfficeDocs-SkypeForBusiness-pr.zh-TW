@@ -1,5 +1,5 @@
 ---
-title: 使用系統管理主控台快速開始使用團隊財務範本
+title: 使用系統管理中心快速開始使用團隊財務範本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用。 團隊範本可透過使用管理主控台提供預先定義的設定、通道及預先安裝的應用程式，來建立專為財務需求而設計的小組結構。
+description: 瞭解如何使用。 團隊範本：透過使用系統管理中心提供預先定義的設定、通道及預先安裝的應用程式，來建立專為財務需求而設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294409"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424603"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-console"></a>在管理員主控台中使用團隊財務範本
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>在系統管理中心使用團隊財務範本
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 

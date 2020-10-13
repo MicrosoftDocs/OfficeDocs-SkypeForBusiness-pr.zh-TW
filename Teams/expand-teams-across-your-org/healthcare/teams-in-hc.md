@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 瞭解醫療保健的功能，包括護理協調、安全的訊息、telehealth、EHR 整合，以及第一線員工 worker 系統整合。
+description: 瞭解衛生保健的功能，包括護理協調、安全訊息、虛擬造訪、EHR 整合，以及第一線員工工作人員系統整合。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2654eab71d240a12f544fbee3521dacd2c49a17
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367663"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433056"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -31,9 +31,9 @@ Microsoft 團隊提供許多適用于醫院和其他醫療保健組織的功能�
 
 - 護理協調與共同作業
 - 安全訊息
-- Telehealth
-- 電子醫療保健記錄 (EHR) 整合 
-- 第一線員工 Worker 系統整合 
+- 虛擬造訪
+- 電子醫療保健記錄 (EHR) 整合
+- 第一線員工 Worker 系統整合
 
 本節內容是以小組的基本功能為基礎，例如會議、通話和訊息，並假設您已在組織中部署團隊。 如果您尚未推出小組，請先閱讀 [瞭解如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)。
 
@@ -46,8 +46,6 @@ Microsoft 團隊提供許多適用于醫院和其他醫療保健組織的功能�
 >
 >[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 透過清單，護理小組可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
 Microsoft 團隊現在有一個專門針對醫療保健組織的護理協調解決方案，可協助他們提供最佳的患者治療。 Crux 的 [護理協調] 解決方案是「Microsoft 團隊患者 app」，它是一種與電子健康情況)  (記錄整合的第一個參與方索引標籤 app，可使用快速的醫療保健互通性資源 ([FHIR](https://www.hl7.org/fhir/)) 介面，讓 Microsoft 團隊在內容中進行臨床共同作業及通訊。  
 
 您可以使用 HL7v2 和 FHIR 等現有的健康資料標準，將患者 app 連線至您的 EHR 系統，以與主要獨立軟體廠商 (Isv) 連線，來與主流獨立軟體廠商進行介面。 具備下列業界領袖的 Microsoft 合作夥伴，可與團隊建立電子健康情況記錄整合：
@@ -58,12 +56,6 @@ Microsoft 團隊現在有一個專門針對醫療保健組織的護理協調解�
 - Dapasoft (到 [COROLAR FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)) 
 
 嘗試針對醫療保健提供者組織實施 Microsoft 團隊的 EHR 整合與互通性合作夥伴，必須為患者 app 提供與醫療保健供應商組織 EHR 系統的安全且驗證的連線。 這可讓單向 (只會將相關患者記錄的) 流程讀入患者 app。 患者 app 可瞭解 FHIR 格式，因此合作夥伴也負責將匯總資料從各種其他格式（例如 HL7v2 等）轉換成 FHIR DSTU2 或 STU3。
-
-<br>
-
-![圖示醒目提示護理協調與共同作業](../../media/ehr-1.png)
-
-<br>
 
 患者 app 整合了電子醫療記錄 (EHR) 系統，並能讓護理提供者在小組的安全平臺中即時與患者護理進行溝通。 患者 app 是護理協調區域中的第一項主要投資，目的是解決下列難題：
 
@@ -79,13 +71,12 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工高效地進�
 - 使用頻道搭配索引標籤來組織其工作，並提供可讓他們釘選資訊來源之索引標籤的其他說明
 - 將頻道會議與團隊的威力、影片、螢幕共用、錄製和工具功能配合使用，以管理每日會議
 - 使用患者 app 來彙整必須監視的高風險患者清單，並從 EHR 系統中拉回其最新詳細資料。 患者 app 本身會將下列功能新增至 Microsoft 團隊：
-
-    - 能夠在單一頻道中建立多個患者清單。
-    - 透過可設定的欄來查看和排序顯示的患者資訊的功能。
-    - 透過小組範本自動進行應用程式的功能。
-    - 可在 iOS 版和 Android 版的團隊 App 中使用，可在適用于 iOS 和 Android 的小組應用程式中，使用 Microsoft 團隊網頁與桌面用戶端。
-    - 透過分析一致性語句來支援 FHIR DSTU2 和 STU3 版本。
-    - 針對其使用者介面上的所有視圖和搜尋動作的審核記錄，以保護每個 HIPAA 指引中的 PHI。
+  - 能夠在單一頻道中建立多個患者清單。
+  - 透過可設定的欄來查看和排序顯示的患者資訊的功能。
+  - 透過小組範本自動進行應用程式的功能。
+  - 可在 iOS 版和 Android 版的團隊 App 中使用，可在適用于 iOS 和 Android 的小組應用程式中，使用 Microsoft 團隊網頁與桌面用戶端。
+  - 透過分析一致性語句來支援 FHIR DSTU2 和 STU3 版本。
+  - 針對其使用者介面上的所有視圖和搜尋動作的審核記錄，以保護每個 HIPAA 指引中的 PHI。
 
 患者 app 是在小組擴充性平臺上建立，並利用 [定位點架構] 在頻道中顯示豐富的患者內容。 若要深入瞭解其他團隊 app 和平臺本身，請參閱 [Microsoft 團隊相關應用程式](/microsoftteams/platform/concepts/apps/apps-overview)。  
 
@@ -122,7 +113,6 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工高效地進�
 
 - 郵件寄件者可以為郵件設定特殊的優先順序，所以收件者會反復收到通知，直到他們閱讀郵件為止。
 - 郵件寄件者可以要求讀信回條，當郵件收件者閱讀郵件時，就會收到通知。
-
 
 總之，這些功能可讓您更快速地注意到緊急訊息，並確信郵件已被接收和讀取。 使用這些功能的新的護理團隊可以在每個患者上建立。 這些功能都是以原則為基礎，而且可以指派給個人或整個團隊。
 

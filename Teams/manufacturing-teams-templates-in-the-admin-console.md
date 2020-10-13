@@ -1,5 +1,5 @@
 ---
-title: 在系統管理主控台中開始使用小組製造範本
+title: 在系統管理中心快速開始使用團隊生產範本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用。 團隊範本可透過使用管理主控台提供預先定義的設定、通道及預先安裝的應用程式，來建立專為製造業需求設計的小組結構。
+description: 瞭解如何使用。 團隊範本：透過使用系統管理中心提供預先定義的設定、通道及預先安裝的應用程式，來建立專為製造業需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308396"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424613"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>在管理員主控台中使用小組製造範本
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在系統管理中心使用小組製造範本
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

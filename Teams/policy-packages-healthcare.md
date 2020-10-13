@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理您的保健組織的小組原則套件。
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: e55102e07f7ffc77dc67c5d6697cb754c398cc40
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803967"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427168"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>醫療保健的團隊原則套件
 
@@ -51,6 +51,16 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 系統會為每個個別原則指定原則套件的名稱，以便您輕鬆識別連結到原則套件的原則。 例如，當您將醫療保健臨床工人原則套件指派給您組織中的臨床醫師時，會針對套件中的每個原則，建立一個名為 Healthcare_ClinicalWorker 的原則。
 
 ![醫療保健臨床工人套件中的原則的螢幕擷取畫面](media/policy-packages-healthcare-clinical-worker.png)
+
+## <a name="get-started-with-policy-packages"></a>開始使用原則套件
+
+若要開始使用醫療保健原則套件，請在 Microsoft 系統管理中心加入中樞上，選取 [ **醫療保健基礎**產品]，然後選取 [ **依角色指派原則設定**]。 準備好開始使用之後，請決定您要將組織中的個別人指派給哪個原則套件。
+
+選取 [ **查看原則詳細資料** ]，進一步瞭解套件中的特定原則及其各自的設定。 在團隊系統管理中心中作業分派之後， [就可以自訂](manage-policy-packages.md#customize-policies-in-a-policy-package) 這些功能。
+
+選擇一或多個要指派的套件，然後按一下 **[下一步]**。 您可以搜尋並將人員新增至最適合自己角色的原則套件中。 一次無法將一個人指派給多個原則套件。
+
+將人員新增至正確的原則套件後，請 **完成** 您的選取專案。 您可以繼續自訂及管理 Microsoft 團隊系統管理中心的原則套件。
 
 ## <a name="manage-policy-packages"></a>管理原則套件
 

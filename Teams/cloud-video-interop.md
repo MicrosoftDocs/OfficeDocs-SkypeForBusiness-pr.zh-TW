@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: srividhc
+ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: 使用雲端視頻 Interop 作為中間方案，以允許協力廠商會議室的裝置加入 Microsoft 團隊會議。
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 7f812d27b07dadb2f60bf77302e18eb0879f977e
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177386"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433069"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
@@ -126,7 +126,7 @@ Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站�
 
 您可以使用下列 PowerShell Cmdlet 來 (部分) 自動執行雲端視頻交互操作部署。
 
-- **CsTeamsVideoInteropServicepolicy**： Microsoft 針對我們支援的每個合作夥伴提供預先構造的原則，讓您指定哪個合作夥伴 (s) 用於雲端影片互通性。<br>這個 Cmdlet 可讓您識別您可以在組織中使用的預先構造原則。 您可以利用 Grant CsTeamsVideoInteropServicePolicy Cmdlet，將此原則指派給一或多個使用者。
+- **CsTeamsVideoInteropServicepolicy**： Microsoft 針對我們支援的每個合作夥伴提供預先構造的原則，讓您指定哪個合作夥伴 (s) 用於雲端影片互通性。<br>這個 Cmdlet 可讓您識別您可以在組織中使用的預先構造原則。 您可以利用 Grant-CsTeamsVideoInteropServicePolicy Cmdlet，將此原則指派給一或多個使用者。
 - **授與 CsTeamsVideoInteropServicePolicy**：這個 Cmdlet 可讓您指派預先構造的原則供貴組織使用，或將原則指派給特定的使用者。
 - **新-CsVideoInteropServiceProvider**：使用此 Cmdlet 來指定貴組織想要使用之受支援之 CVI 夥伴的相關資訊。
 - **CsVideoInteropServiceProvider**：使用此 Cmdlet 來更新貴組織使用之受支援之 CVI 夥伴的相關資訊。

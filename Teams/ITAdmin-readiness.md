@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346194"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426928"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
@@ -56,9 +56,9 @@ ms.locfileid: "48346194"
 
 <h2>IT & AV 專業人員的小組房間基礎</h2>
 
-<p>下表包含在 Microsoft 團隊聊天室上隨附 PowerPoint 卡座的完整影片訓練連結。  
+<p>下表包含完整的影片訓練的連結，在 [PDF 格式]) 的 [Microsoft 團隊會議室] 中 (隨附的 PowerPoint 卡片卡座。  
 
-| 模組 | 影片 | PowerPoint 投影片組  |
+| 模組 | 影片 | PowerPoint 投影片組 (PDF)   |
 | ------------ | -------------------- | -------------------- |
 | 模組1： Microsoft 團隊聊天室的簡介 (18:29 分鐘)  | [影片](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | 模組2： Microsoft 團隊網路 (34:10 分鐘)  | [影片](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [文稿](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

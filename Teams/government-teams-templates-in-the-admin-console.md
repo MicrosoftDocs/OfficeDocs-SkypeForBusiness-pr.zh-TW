@@ -1,5 +1,5 @@
 ---
-title: 在管理員主控台中使用團隊政府範本
+title: 在系統管理中心使用團隊政府範本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用。 團隊範本可透過使用管理主控台提供預先定義的設定、通道及預先安裝的應用程式，來建立專為政府需求設計的小組結構。
+description: 瞭解如何使用。 團隊範本：使用系統管理中心提供預先定義的設定、頻道及預先安裝的 app，以建立專為政府需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308136"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424713"
 ---
-# <a name="use-teams-government-templates-in-the-admin-console"></a>在管理員主控台中使用團隊政府範本
+# <a name="use-teams-government-templates-in-the-admin-center"></a>在系統管理中心使用團隊政府範本
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
