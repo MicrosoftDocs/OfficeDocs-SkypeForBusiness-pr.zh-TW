@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的自訂應用程式商店。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fcfaee55f73ef86f1a03e99364fde1aaa306ed8a
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359884"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456147"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 團隊中的自訂應用程式商店
 
@@ -43,7 +43,7 @@ ms.locfileid: "47359884"
 
 您可以在這裡上傳您的組織標誌。 選取的標誌將會出現在 [ **Apps**  >  **針對您的租使用者建立的**應用程式] 的 [團隊用戶端] 頁面。
 
-當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 標誌應該是240x60，否則將會縮放至該大小。 它不應大於5MB。 支援的格式為：
+當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 標誌應該是240x60，否則將會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
 
 - svg
 - .png
@@ -57,9 +57,9 @@ ms.locfileid: "47359884"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您的組織 logomark 或小型標誌是代表您組織品牌的影像或符號，不會包含您的公司名稱。 Logomark 可協助小組成員識別應用程式存放區。 選取的標誌會出現在 [應用程式] 頁面的 [團隊用戶端] 中。
+您的組織 lovemark 或小型標誌是代表您組織品牌的影像或符號，不會包含您的公司名稱。 Logomark 可協助小組成員識別應用程式存放區。 選取的標誌會出現在 [應用程式] 頁面的 [團隊用戶端] 中。
 
-當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 Logomark 應該是32x32 圖元，否則將會調整成該大小。 它不應大於5MB。 支援的格式為：
+當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 Logomark 應該是32x32 圖元，否則將會調整成該大小。 它不應大於 5 MB。 支援的格式為：
 
 - svg
 - .png
@@ -78,7 +78,7 @@ ms.locfileid: "47359884"
 您的選擇包括︰
 
 - 使用團隊用戶端預設背景主題
-- 選擇一張圖片。 當您選取背景圖片時，您可以上傳您所選擇的檔案。 背景應該是1212x100 圖元，否則將會縮放至該大小。 它不應大於5MB。 支援的格式為：
+- 選擇一張圖片。 當您選取背景圖片時，您可以上傳您所選擇的檔案。 背景應該是1212x100 圖元，否則將會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
   - svg
   - .png
   - .jpg
@@ -100,8 +100,8 @@ ms.locfileid: "47359884"
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>完成您的小組 app 商店的自訂
 
-完成自訂應用程式商店之後，請務必按一下 [ **儲存** ] 以儲存您所做的變更。
-若要預覽您的變更，請按一下 [ **預覽 app store** ]，查看您的自訂應用程式存放區的外觀。
+完成自訂應用程式商店之後，請務必選取 [ **儲存** ] 以儲存您的變更。
+若要預覽您的變更，請選取 [ **預覽 app store** ] 來查看您的自訂應用程式存放區的外觀。
 
 > [!Note]
 > 這種方式可能會與自訂的應用程式存放區的最終版本不同，因為有些預設色彩是以使用者的團隊用戶端版本為基礎。

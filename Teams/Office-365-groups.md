@@ -4,11 +4,9 @@ ms.reviewer: kblevins
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 04/16/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-description: 在本文中，您將瞭解 Microsoft 365 群組與群組成員資格如何與 Microsoft 團隊搭配使用。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,48 +16,44 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b76dd455aa2ec4e478254f6a4dbaceefc57562b
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+description: 瞭解 Microsoft 365 群組與群組成員資格如何與 Microsoft 團隊搭配使用。
+ms.openlocfilehash: a4227432ab3557ca5e74ee5a769641185c1e432c
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262380"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456077"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和 Microsoft 團隊
 
-> [!Tip]
-> 請觀看下列會話，瞭解團隊如何與 Azure Active Directory (Azure AD) 、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive： [Microsoft 團隊基礎](https://aka.ms/teams-foundations)
+Microsoft 365 群組是 Microsoft 365 中的跨應用程式成員資格服務。 在基本層面上，Microsoft 365 群組是 Azure Active Directory 中的一個物件，其中包含一份成員清單，以及與相關工作負載耦合，包括 SharePoint 小組網站、共用 Exchange 信箱、Planner 及 Power BI 工作區。 您可以將人員新增或移除至群組，就像在 Active Directory 中的任何其他群組安全物件一樣。
 
-Microsoft 365 群組是 Office 365 中的跨應用程式成員資格服務。 在基本層級，Microsoft 365 群組是 Azure Active Directory 中的一個物件，其中包含一份成員清單，以及與相關工作負載鬆散耦合，包括 SharePoint 小組網站、Yammer 群組、共用 Exchange 信箱資源、Planner、Power BI 和 OneNote。 您可以將人員新增或移除至群組，就像在 Active Directory 中的任何其他群組安全物件一樣。
+![顯示 Microsoft 365 群組和相關服務的圖表](https://docs.microsoft.com/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
-Office 365 管理員可以定義 Microsoft 365 群組、新增成員，以及從功能（例如 Exchange 共用信箱、SharePoint 文件庫、Yammer 群組等）獲益。 如需有關 Microsoft 365 群組的詳細資訊，請參閱 [瞭解 microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+根據預設，Microsoft 365 中的使用者可以建立及管理群組。 如需有關 Microsoft 365 群組的詳細資訊，請參閱 [瞭解 microsoft 365 群組](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) ，以及 [適用于 IT 架構師海報的 microsoft 365 中的群組](teams-architecture-solutions-posters.md#groups-in-microsoft-365) 。
 
-[在 Microsoft 365 中，不要錯過 IT 架構師](teams-architecture-solutions-posters.md#groups-in-microsoft-365)的海報群組。
+## <a name="how-microsoft-365-groups-work-with-teams"></a>Microsoft 365 群組如何與團隊搭配運作
 
-<a name="how-microsoft-365-groups-work"></a>Microsoft 365 群組的運作方式
---------------------------
+建立小組時，會建立 Microsoft 365 群組以管理團隊成員資格。 群組的相關服務（例如 SharePoint 網站、Power BI 工作區等）是同時建立的。
 
-當您建立小組時，請在後端，建立 Microsoft 365 群組，以及關聯的 SharePoint 文件庫和 OneNote 筆記本，以及與其他 Office 365 雲端應用程式之間的關聯。 如果建立小組的人員是現有的 Office 365 公用或私人群組的擁有者，則如果群組中的成員數量在 [Microsoft 團隊的限制與規格](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 中指定的限制，而該組從未新增至小組，他們就可以將團隊功能新增到群組中。 這會建立一個預設的 **一般** 頻道，讓聊天訊息、檔、OneNote 及其他物件都駐留在其中。 查看頻道的文件庫會顯示代表小組中頻道的 **[一般** ] 資料夾。 更重要的是，如果您在文件庫中建立自己的資料夾結構， **它不會** 以頻道傳播給團隊;目前，它只會從小組流向 SharePoint。
+如果使用者是群組的擁有者，則建立小組的人員可以選擇使用現有的 Microsoft 365 群組。 小組中的每個頻道在文件庫中都有一個獨立的資料夾。 直接在文件庫中建立資料夾，不會在團隊中建立頻道。
 
-> [!NOTE]
-> 根據客戶的意見反應，由於在 Microsoft 團隊用戶端中建立小組而產生的新 Microsoft 365 群組，預設不會在 Outlook 中顯示。 若要開啟或關閉 Outlook 中的群組顯示，請使用 [UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 及 **HiddenFromExchangeClientsEnabled** 參數。 透過 Outlook 建立的群組，且稍後啟用的小組將會繼續在 Outlook 和小組中顯示。 
+在 Outlook 或 SharePoint 中建立 Microsoft 365 群組時，會在 Outlook 中看到群組信箱。 在小組中建立小組時，預設會隱藏群組信箱。 您可以將 [UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 與 **HiddenFromExchangeClientsEnabled** 參數搭配使用，以顯示信箱。
 
-> [!NOTE]
-> 刪除 Microsoft 365 群組會移除持續性 Outlook/OWA 交談和團隊會議邀請的信箱別名，並標示要刪除的 SharePoint 網站。 在 Outlook 中移除團隊和其效果之間大約需要20分鐘的時間。 從小組用戶端刪除小組後，就會立即將其從 [查看] 移至團隊成員的所有人。 如果您移除已在其上啟用團隊功能的 Microsoft 365 群組成員，則在團隊用戶端中針對已移除的人員在團隊用戶端中移除該小組前，可能會有大約兩小時的延遲。
->
->若要瞭解如何還原已刪除的 Microsoft 365 群組，請閱讀 [此](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) 資訊。
+## <a name="group-membership"></a>群組成員資格
 
-<a name="group-membership"></a>群組成員資格
-----------------
+如果您移除團隊的成員，也會從 Microsoft 365 群組中移除。 從群組中移除會立即從團隊用戶端移除團隊和頻道。 如果您使用 Microsoft 365 系統管理中心從群組中移除人員，他們將無法存取其他共同作業的內容，例如 SharePoint Online 文件庫、Yammer 群組或共用的 OneNote。 不過，他們仍可存取團隊的聊天功能大約兩小時的時間。
 
-使用者的群組功能和功能取決於您驅動群組成員資格的位置。 例如，如果您移除團隊的成員，也會從 Microsoft 365 群組中移除。 從群組中移除會立即從團隊用戶端移除團隊和頻道。 如果您使用 Microsoft 365 系統管理中心從群組中移除人員，他們將無法存取其他共同作業的內容，例如 SharePoint Online 文件庫、Yammer 群組或共用的 OneNote。 不過，他們仍可存取團隊的聊天功能大約兩小時的時間。
+作為管理團隊成員的最佳做法，您可以在團隊用戶端新增及移除這些成員，以確保其他群組連線工作負載的許可權更新很快就會發生。 如果您是使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell) 在團隊用戶端 (新增或移除團隊成員，可能需要長達24小時才能反映在團隊中的變更。
 
-作為管理團隊成員的最佳做法，請在團隊用戶端新增和移除成員，以確保已套用對其他相依雲端應用程式的正確的級聯存取控制。 此外，您也可以避免因您的使用者在下一個同步處理週期中新增或廢除) 服務特定元件的存取權，而讓人感到不脫節的體驗，讓他們仍能存取 (的資源。 如果您在使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell) 在團隊用戶端 (新增或移除團隊成員，在某些情況) 下，可能需要長達 24 (小時才能反映在團隊中的變更。
+## <a name="deleting-groups-and-teams"></a>刪除群組和小組
 
-<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>能夠在排程會議時將群組新增為出席者
-----------------------------------------------------------
+刪除 Microsoft 365 群組會移除持續性 Outlook/OWA 交談和團隊會議邀請的信箱別名，並標示要刪除的 SharePoint 網站。 在 Outlook 中移除團隊和其效果之間大約需要20分鐘的時間。 從小組用戶端刪除小組後，就會立即將其從 [查看] 移至團隊成員的所有人。 如果您移除已在其上啟用團隊功能的 Microsoft 365 群組成員，則在團隊用戶端中針對已移除的人員在團隊用戶端中移除該小組前，可能會有大約兩小時的延遲。
 
-從 5 2020 月起開始，您現在可以邀請群組加入排程的會議，但請注意下列事項：
-1. 從現有的 Microsoft 365 群組建立的所有現有 Microsoft 365 群組和團隊都可供搜尋，而且可以新增至會議。 不過，成員會根據其在群組中的訂閱來接收會議邀請。
-2. 從頭2018開始建立的團隊也會可供搜尋，但由於他們的預設群組訂閱是「只回復給您」，因此成員不會收到會議邀請。 這可以透過修改群組設定，從 Outlook 變更
-3. 在5月2018後從頭開始建立的小組無法進行搜尋，而且會使用屬性「HiddenFromAddressListsEnabled」加以隱藏。 這是管理員控制的設定，可由系統管理員進行修改。
+如需群組和小組的相關詳細資料，請參閱  [群組、團隊和 Yammer 的週期選項結束](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) ，以及 [在 Microsoft 團隊中封存或刪除小組](https://docs.microsoft.com/microsoftteams/archive-or-delete-a-team)。
+
+## <a name="related-topics"></a>相關主題
+
+[Microsoft 團隊 (影片的基礎) ](https://aka.ms/teams-foundations)
+
+[還原已刪除的群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)

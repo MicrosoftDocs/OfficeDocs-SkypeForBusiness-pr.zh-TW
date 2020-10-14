@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下列描述音訊會議的 [在網路上開啟預覽] 功能。
-ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369178"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444209"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>開啟音訊會議的網路會議預覽
 
@@ -38,7 +38,7 @@ ms.locfileid: "48369178"
 
 在設定網路會議之前，請確定貴組織符合下列先決條件： 
 
-- 確定您組織中已啟用或將要啟用音訊會議的所有使用者都只使用 [小組] 模式。 只有小組會議才支援透過網路會議傳送入站和出站音訊會議通話。
+- 請確定您組織中所有已啟用（或將啟用）音訊會議的使用者都使用團隊進行所有會議。 只有小組會議才支援透過網路會議傳送入站和出站音訊會議通話。
 
 - 將音訊會議授權指派給所有將使用網路會議的使用者。
 
@@ -67,11 +67,11 @@ ms.locfileid: "48369178"
 
 OnlineAudioConferencingRoutingPolicy 原則相當於經由直接路由的 1:1 PSTN 呼叫 CsOnlineVoiceRoutingPolicy。 您可以使用下列 Cmdlet 來管理 OnlineAudioConferencingRoutingPolicy 原則：
 
--   新-CsOnlineAudioConferencingRoutingPolicy
+-   New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
-- CsOnlineAudioConferencingRoutingPolicy
-- 授與 CsOnlineAudioConferencingRoutingPolicy
-- 移除-CsOnlineAudioConferencingRoutingPolicy
+- Get-CsOnlineAudioConferencingRoutingPolicy
+- Grant-CsOnlineAudioConferencingRoutingPolicy
+- Remove-CsOnlineAudioConferencingRoutingPolicy
 
 如需直接路由路由的詳細資訊，請參閱 [設定直接路由的語音路由](direct-routing-voice-routing.md)。
 
@@ -101,7 +101,7 @@ PSTN 用法是語音路由的集合。 從指定召集人的會議啟動撥出�
 
 您可以使用「CsOnlinePstnUsage」 Cmdlet 來建立 PSTN 使用量。 例如：
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -111,7 +111,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 您可以使用「新-CsOnlineVoiceRoute」 Cmdlet，建立語音路由並定義要與語音路由相關聯的 RegEx 和閘道。 例如：
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -121,7 +121,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7}
 
 您可以使用「新-CsOnlineAudioConferencingRoutingPolicy」 Cmdlet 來建立音訊會議語音路由原則。 例如：
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -133,14 +133,14 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 
 您可以使用「授與 CsOnlineAudioConferencingRoutingPolicy」 Cmdlet，將音訊會議語音路由原則指派給使用者。 例如：
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>在組織的電話語音裝置上設定路由
 
-在貴組織的電話裝置上，您必須確認透過直接路由路由的會議撥出電話會傳送到預定的目的地。
+在貴組織的電話裝置上，您必須確保透過直接路由路由的會議撥出電話會路由至預期的網路目標。
 
 
 ### <a name="optional-configure-a-dial-plan"></a> (選用) 設定撥號方案
