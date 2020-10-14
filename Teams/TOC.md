@@ -52,7 +52,7 @@
 ## [封存或刪除團隊](archive-or-delete-a-team.md)
 ## [從 Slack 移轉到 Teams](migrate-slack-to-teams.md)
 ## 使用 Teams 範本
-### [在系統管理主控台中使用 Teams 範本](get-started-with-teams-templates-in-the-admin-console.md)
+### [在系統管理中心中使用 Teams 範本](get-started-with-teams-templates-in-the-admin-console.md)
 ### [為中小型企業建立 Graph 的 Teams 範本](smb-templates.md)
 ### [建立自訂 Teams 範本](create-a-team-template.md)
 ### [從現有團隊建立範本](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [適用於醫療保健組織的 Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [訊息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### 適用於醫療保健組織的 Teams 範本
-#### [在系統管理主控台中使用 Teams 醫療保健範本](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [在系統管理中心中使用 Teams 醫療保健範本](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [開始使用適用於醫療保健組織的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [管理 [清單] 應用程式](manage-lists-app.md)
 ### Teams 中的 Shifts
@@ -725,7 +725,7 @@
 ### [從 SPO 網站或頁面建立 Teams 內部網路入口網站應用程式](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [適用於零售業的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [在系統管理主控台中開始使用適用於零售業的 Teams 範本](retail-teams-templates-in-the-admin-console.md)
+### [在系統管理中心中開始使用適用於零售業的 Teams 範本](retail-teams-templates-in-the-admin-console.md)
 ### [開始使用適用於零售業的 Teams 範本](get-started-with-retail-teams-templates.md)
 
 ## [適用於政府機關的 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
