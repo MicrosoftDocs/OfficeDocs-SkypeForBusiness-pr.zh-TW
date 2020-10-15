@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 瞭解衛生保健的功能，包括護理協調、安全訊息、虛擬造訪、EHR 整合，以及第一線員工工作人員系統整合。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+ms.openlocfilehash: 07f5e87a454091319775bf5e1124e2c4651ea736
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433056"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469549"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -92,8 +92,6 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工高效地進�
 我們已開發新的範本來建立小組，以套用至醫院設定。 如此一來，您就能更輕鬆地建立可讓醫療保健工人在不同部門或 wards 中與患者共同合作的小組。 請參閱 [開始使用醫療保健組織的團隊範本](healthcare-templates.md)。 團隊可以針對內部部門（例如心臟病科）或 [護理 wards] 或 [開發中的其他範本] 進行啟動。
 
 ## <a name="lists-app"></a>清單應用程式
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 團隊中的 [清單] 應用程式可協助團隊追蹤資訊並組織工作。 App 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 清單可以從預先定義的範本中從頭開始建立，或是將資料匯入 Excel。
 
