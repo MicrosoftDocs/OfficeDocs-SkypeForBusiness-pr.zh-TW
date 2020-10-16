@@ -770,7 +770,7 @@
 ### [原則控制概覽](policy-control-overview.md)
 ### [行動裝置診斷資料](policy-control-diagnostic-data-mobile.md)
 ### [桌面用戶端診斷資料](policy-control-diagnostic-data-desktop.md)
-### [Microsoft Teams 中選擇性連線體驗的概觀](teams-privacy-oce-overview.md)
+### [選擇性連線體驗](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # 監控、維護和疑難排解
@@ -882,8 +882,8 @@
 ### [安裝 Teams PowerShell](teams-powershell-install.md)
 ### [使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
 ### [Teams PowerShell 版本資訊](teams-powershell-release-notes.md)
+### [自商務用 Skype Online 連接器移至 Teams PowerShell 模組](teams-powershell-move-from-sfbo.md)
 ### [Teams 的 Cmdlet 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Teams 開發人員文件](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中取得說明](get-help-in-microsoft-teams.md)
 ## [Teams 內容更新](teams-updates.md)
