@@ -3,6 +3,7 @@ title: Microsoft Teams 的安全性指南
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486798"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
@@ -239,7 +240,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 召集人也可以進行設定，讓撥入的來電者成為第一個進入會議的人。 您可以在 [音訊會議] 設定中為使用者進行這項設定，並套用至該使用者所排程的所有會議。
 
 > [!NOTE]
-> 如需 Teams 中來賓和外部存取的詳細資訊，請參閱這篇[文章](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)。 文中會討論來賓或外部使用者在登入 Teams 時可以看到和使用的功能。
+> 如需 Teams 中來賓和外部存取的詳細資訊，請參閱這篇[文章](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)。 文中會討論來賓或外部使用者在登入 Teams 時可以看到和使用的功能。 <p> 如果您正在錄製會議，並想要查看存取內容的權限矩陣，請查閱[此文章](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)及其矩陣。
 
 ### <a name="participant-roles"></a>參與者角色
 
@@ -305,3 +306,5 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 [使用 VPN 分割通道最佳化遠端使用者的 Microsoft 365 或 Office 365 連線能力](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [實作 VPN 分割通道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Teams 中的會議錄製內容，錄製內容的儲存位置及哪些人可以存取](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) (英文)
