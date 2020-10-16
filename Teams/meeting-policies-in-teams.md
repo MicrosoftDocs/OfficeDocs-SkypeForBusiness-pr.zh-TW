@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308415"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486818"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -40,7 +40,7 @@ ms.locfileid: "48308415"
 
 您可以透過下列方式來實施原則，這會影響使用者在會議開始之前、會議期間或會議之後的會議體驗。
 
-|實現類型  |描述  |
+|實現類型  |說明  |
 |---------|---------|
 |每個召集人    |當您實施每個召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動承認人員** 是每個召集人原則，並控制使用者是否要直接加入會議，或在會議廳中等待指派原則的使用者所排程的會議。          |
 |每位使用者    |當您執行每個使用者的原則時，只會套用每個使用者的原則，以限制召集人和/或會議參與者的特定功能。 例如，[ **允許在頻道中立即開會** ] 是每個使用者的原則。     |
@@ -161,9 +161,9 @@ ms.locfileid: "48308415"
 
 在系統管理中心：
 
-[頻道行事曆] app 會顯示在 [管理員] 面板中的 [ **Microsoft app** ] 區段底下，以取得許可權原則。
+[頻道行事曆] app 會顯示在 [應用程式許可權原則] 頁面上的 [ **Microsoft** app] 區段中。
 
-![螢幕擷取畫面顯示 [團隊管理] 主控台中的 Microsoft app 原則。](media/manage-microsoft-apps-policy.png)
+![螢幕擷取畫面顯示 [團隊管理中心] 中的應用程式許可權原則。](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>允許排程私人會議
 
@@ -227,6 +227,8 @@ ms.locfileid: "48308415"
 
 此設定不適用於1:1 通話。 若要限制1:1 通話，請設定團隊 [呼叫原則](teams-calling-policy.md) ，然後關閉 [ **設為私人通話** ] 設定。 此設定也不適用於會議室裝置，例如 Surface Hub 和 Microsoft 團隊機房裝置。
 
+此設定尚未提供給 Microsoft 365 政府社區 (GCC) 、GCC 高或國防 (DoD) 環境。
+
 若要深入瞭解，請參閱 [管理會議參與者的音訊/視頻](#manage-audiovideo-for-meeting-participants)。
 
 ### <a name="mode-for-ip-video"></a>[IP 影片] 模式
@@ -240,10 +242,14 @@ ms.locfileid: "48308415"
 
 如果使用者設定為 [ **停用** ]，該使用者就無法開啟影片，或查看其他會議參與者所共用的影片。 沒有指派任何原則的會議參與者 (例如，匿名參與者) 會將此設定為預設 **啟用的外寄及內向影片** 。
 
-此設定不會套用到會議室裝置，例如 Surface Hub 和 Microsoft 團隊聊天室裝置。
+此設定不會套用到會議室裝置，例如 Surface Hub 和 Microsoft 團隊聊天室裝置。 
+
+此設定尚未提供給 Microsoft 365 政府社區 (GCC) 、GCC 高或國防 (DoD) 環境。
 
 > [!NOTE]
 > 請記住，此設定會控制外寄和內送的影片，而 [ **允許 IP 視頻** ] 設定會控制外寄影片。 若要深入瞭解，請參閱 [哪些 IP 影片原則設定優先？](#which-ip-video-policy-setting-takes-precedence) 以及 [管理會議參與者的音訊/視頻](#manage-audiovideo-for-meeting-participants)。
+
+若要深入瞭解，請參閱 [管理會議參與者的音訊/視頻](#manage-audiovideo-for-meeting-participants)。
 
 ### <a name="allow-ip-video"></a>允許 IP 視訊
 
@@ -258,7 +264,6 @@ ms.locfileid: "48308415"
 |:-------:|:-------:|
 |![螢幕擷取畫面顯示在桌上型電腦上使用音訊/視頻設定的會議加入](media/meeting-policies-audio-video-settings.png)    |![螢幕擷取畫面顯示在行動裝置上使用音訊/視頻設定的會議加入 sreen](media/meeting-policies-mobile-join.png)          |
 
-
 我們來看看下列範例。
 
 |使用者 |會議原則  |允許 IP 視訊 |
@@ -271,6 +276,8 @@ ms.locfileid: "48308415"
 在由 Amanda 託管的會議中，任何人都無法開啟影片，不論指派的是何種影片原則。 這表示 Daniela 無法在 Amanda 的會議中開啟影片。  
 
 如果 Daniela 呼叫 Amanda 的 [影片]，Amanda 只能以音訊接聽通話。  通話連線時，Amanda 可以看到 Daniela 的影片，但無法開啟影片。 如果 Amanda 呼叫 Daniela，Daniela 可以使用影片和音訊接聽通話。 當通話連線時，Daniela 可以視需要開啟或關閉她的影片。
+
+若要深入瞭解，請參閱 [管理會議參與者的音訊/視頻](#manage-audiovideo-for-meeting-participants)。
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>[哪些 IP 影片原則] 設定具有優先權？
 

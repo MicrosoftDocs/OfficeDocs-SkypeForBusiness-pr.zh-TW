@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '瞭解如何為大廳、接待區域及會議室設定通用區域電話 '
-ms.openlocfilehash: dfde8c601c0a52dc56a3d76903b788400a5b299a
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: f940ea7c14ad55c8cd3842e9830eb82da0d8867f
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294459"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476708"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定 Microsoft 團隊的通用區域電話授權
 > [!NOTE]
@@ -67,7 +67,7 @@ ms.locfileid: "48294459"
 |Microsoft Teams |   &#x2714; |
 |電話系統 |    &#x2714; |
 |音訊會議 |       &#x2718; &sup1;  |
-|Microsoft Intune |    &#x2714; |
+|Microsoft Intune |    &#x2718; |
 |全球可用性 |       &#x2718; &sup2;  |
 |頻道可用性 |    EA、EAS、CSP、GCC、EES、Web Direct  |
 |      |         |

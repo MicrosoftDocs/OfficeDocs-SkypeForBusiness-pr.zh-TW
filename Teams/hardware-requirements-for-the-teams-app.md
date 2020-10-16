@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416858"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476648"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -43,7 +43,7 @@ ms.locfileid: "48416858"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    |
-|視訊通話和會議|<ul><li>需要2核處理器。 若要獲得較高的影片/畫面共用解析度和畫面播放速率，建議使用4核處理器或更佳的速度。</li> <li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議需要藍牙 LE （需要在用戶端裝置上啟用藍牙），而且 Windows 用戶端也需要64位的團隊用戶端。 此功能不適用於32位團隊用戶端。</li></ul> |
+|視訊通話和會議|<ul><li>需要2核處理器。 若要獲得較高的影片/畫面共用解析度和畫面播放速率，建議使用4核處理器或更佳的速度。</li> <li>背景影片效果需要 Windows 10 或含 AVX2 指令集的處理器。</li> <li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議需要藍牙 LE （需要在用戶端裝置上啟用藍牙），而且 Windows 用戶端也需要64位的團隊用戶端。 此功能不適用於32位團隊用戶端。</li></ul> |
 |Teams 即時活動 | 如果您正在產生團隊即時活動，我們建議您使用的電腦具有 Core i5 Kaby Lake processor、4.0 GB RAM (或更高版本的) ，以及硬體編碼器。 如需**不支援**的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac 電腦上 Teams 的硬體需求

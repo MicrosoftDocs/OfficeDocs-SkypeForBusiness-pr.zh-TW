@@ -20,17 +20,17 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
-ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48370598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48488406"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
 > [!NOTE]
-> 本文中討論的其中一個功能， [自訂原則套件](#custom-policy-packages)尚未發佈。 我們即將推出私人預覽版。
+> 此文章中所討論的其中一個功能（ [自訂原則套件](#custom-policy-packages)）目前是私人預覽。
 
 Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集合，您可以指派給在組織中擁有相似角色的使用者。 我們建立了原則套件，以簡化、簡化，並在管理組織中的使用者群組原則時提供一致性。  
 

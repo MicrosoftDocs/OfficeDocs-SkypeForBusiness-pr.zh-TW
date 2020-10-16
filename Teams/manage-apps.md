@@ -17,17 +17,17 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336947"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486778"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
 
-做為管理員，Microsoft [團隊管理中心] 中的 [管理應用程式] 頁面是您在其中查看及管理組織的所有團隊應用程式的位置。 在這裡，您可以查看應用程式的組織層級狀態和屬性，將新的自訂應用程式核准或上傳到組織的 app 存放區、封鎖或允許組織結構中的應用程式、將 app 新增至 [預覽]) 中的小組 (、針對協力廠商應用程式的購買服務、授與應用程式的管理員同意，以及管理整個組織的
+做為管理員，Microsoft [團隊管理中心] 中的 [管理應用程式] 頁面是您在其中查看及管理組織的所有團隊應用程式的位置。 在這裡，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至組織的 app 存放區、封鎖或允許組織階層的應用程式、將應用程式新增至團隊、針對協力廠商應用程式提供的許可權、授與管理應用程式的管理員同意，以及管理整個組織的應用程式設定。
 
 [管理應用程式] 頁面可讓您查看所有可用的應用程式，為您提供決定要允許或封鎖整個組織的 app 所需的資訊。 接著，您可以使用 [應用程式許可權原則](teams-app-permission-policies.md)、 [應用程式設定原則](teams-app-setup-policies.md)，以及 [自訂的 app 原則和設定](teams-custom-app-policies-and-settings.md) ，為貴組織中的特定使用者設定 app 體驗。
 
@@ -108,8 +108,6 @@ ms.locfileid: "48336947"
  > 若要卸載應用程式，請以滑鼠右鍵按一下該應用程式，然後按一下左側的 [ **卸載** ] 或 [使用 **其他 app** ] 功能表。
 
 ## <a name="add-an-app-to-a-team"></a>將應用程式新增至團隊
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 您可以使用 [ **新增至小組** ] 按鈕，將應用程式安裝至小組。 請記住，這只適用于可在團隊範圍中安裝的 app。 [ **新增至小組** ] 按鈕不適用於只能安裝在個人範圍中的 app。
 

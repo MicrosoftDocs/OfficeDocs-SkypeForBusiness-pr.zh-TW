@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955882"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486758"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>升級至 &mdash; IT 系統管理員小組的 PSTN 考慮
 
@@ -44,7 +44,8 @@ ms.locfileid: "47955882"
 
 
  > [!NOTE]
- > 只有在使用者處於 TeamsOnly 模式時，才會支援將電話系統與團隊一起使用。  如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。 
+ > - 只有在使用者處於 TeamsOnly 模式時，才會支援將電話系統與團隊一起使用。  如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。 
+ > - 商務用 Skype 的任何來電轉接和委派設定都不會被遷移，且需要為小組重新建立。
 
 
 ## <a name="pstn-calling-scenarios"></a>PSTN 通話案例
@@ -109,7 +110,7 @@ ms.locfileid: "47955882"
 
 6. 升級使用者：必須協調這些步驟。 
 
-   - 使用內部部署商務用 Skype 工具，以-MoveToTeams 開關執行移動 Move-csuser。 如果您使用的是不支援-MoveToTeams 開關的商務用 Skype Server 版本，請先執行 Move-Move-csuser，然後在租使用者遠端 PowerShell 或團隊管理主控台中指派 TeamsOnly 模式。
+   - 使用內部部署商務用 Skype 工具，以-MoveToTeams 開關執行 Move-CsUser。 如果您使用的是不支援-MoveToTeams 開關的商務用 Skype Server 版本，請先執行 Move-CsUser 然後在租使用者遠端 PowerShell 或團隊管理主控台中指派 TeamsOnly 模式。
 
    - 在 SBC 中，將語音路由設定為直接路由（而不是內部部署的中繼伺服器）傳送呼叫來啟用撥入通話。 
 
@@ -135,7 +136,7 @@ ms.locfileid: "47955882"
    - 如果您要重複使用這些號碼，請將移植要求提交給您的運營商。  
    - 或者，您也可以直接從 Microsoft 取得新號碼。 
 
-6. 升級使用者並視需要指派 LineUri。 使用內部部署商務用 Skype 工具，以-MoveToTeams 開關執行移動 Move-csuser。  
+6. 升級使用者並視需要指派 LineUri。 使用內部部署商務用 Skype 工具，以-MoveToTeams 開關執行 Move-CsUser。  
 
     - 如果您要將號碼移植到 Microsoft，您應該將這個作業的時間調整為在埠出現時進行。 
 

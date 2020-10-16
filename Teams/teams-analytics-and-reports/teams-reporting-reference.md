@@ -16,12 +16,12 @@ description: 在本文中，您將瞭解 Microsoft 團隊系統管理中心提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 027be1837f7a3761a7e1bf97489c49d900173663
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690969"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476698"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
 
@@ -29,9 +29,9 @@ Microsoft 團隊系統管理中心提供 Microsoft 團隊的新分析與報告�
 
 ## <a name="how-to-access-the-reports"></a>如何存取報表
 
-若要存取報表，您必須是 Microsoft 365 或 Office 365、團隊服務管理員、團隊通訊系統管理員或商務用 Skype 系統管理員的全域系統管理員。若要深入瞭解團隊管理員角色，以及每個管理員角色可以存取哪些報表，請參閱[使用團隊管理員角色管理團隊](../using-admin-roles.md)。
+若要存取報表，您必須是 Microsoft 365 或 Office 365、團隊服務系統管理員或商務用 Skype 系統管理員的全域系統管理員。若要深入瞭解團隊管理員角色，以及每個管理員角色可以存取哪些報表，請參閱 [使用團隊管理員角色管理團隊](../using-admin-roles.md)。
 
-移至 [Microsoft 團隊系統管理中心]，在左側導覽中，選取 [**分析] & 報表**]，然後在 [**報表**] 底下，選擇您要執行的報表。
+移至 [Microsoft 團隊系統管理中心]，在左側導覽中，選取 [ **分析] & 報表**]，然後在 [ **報表**] 底下，選擇您要執行的報表。
 
 > [!NOTE]
 > Microsoft [團隊管理中心] 中的報表與 Microsoft 365 系統管理中心的 Microsoft 365 報表中的團隊活動報告是分開的。 如需 Microsoft 365 系統管理中心的活動報告的詳細資訊，請參閱[microsoft 365 系統管理中心的團隊活動報告](../teams-activity-reports.md)。
@@ -49,8 +49,8 @@ Microsoft 團隊系統管理中心提供 Microsoft 團隊的新分析與報告�
 |[Teams 裝置使用報告](device-usage-report.md)   |  Windows 使用者<br/>Mac 使用者<br/>iOS 使用者<br/>Android 手機使用者     |
 |[Teams 即時活動使用報告](teams-live-event-usage-report.md)   |  總計視圖<br>開始時間<br>事件狀態<br>召集人<br>代表<br>方<br>錄製設定<br>生產類型    |
 |[團隊 PSTN 封鎖的使用者報告](pstn-blocked-users-report.md)   |  顯示名稱<br>電話號碼<br>不必<br>動作類型<br>動作日期和時間   |
-|[團隊 PSTN 分鐘池報告](pstn-minute-pools-report.md) |  國家或地區<br>功能（授權） <br>總分鐘數<br>使用的分鐘數<br>可用分鐘數|
-|[團隊 PSTN 使用方式報告-通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話號碼<br>通話類型 <br>呼叫給<br>移至國家或地區 <br>呼叫來源 <br>從國家或地區<br>收費<br>貨幣<br>內<br>國內/國際<br>通話 ID<br>數位類型<br>國家或地區<br>會議 ID<br>功能（授權）|
+|[團隊 PSTN 分鐘池報告](pstn-minute-pools-report.md) |  國家或地區<br> (授權) 的功能 <br>總分鐘數<br>使用的分鐘數<br>可用分鐘數|
+|[團隊 PSTN 使用方式報告-通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話號碼<br>通話類型 <br>呼叫給<br>移至國家或地區 <br>呼叫來源 <br>從國家或地區<br>收費<br>貨幣<br>內<br>國內/國際<br>通話 ID<br>數位類型<br>國家或地區<br>會議 ID<br> (授權) 的功能|
 |[團隊 PSTN 使用方式報告-直接路由](pstn-usage-report.md#direct-routing)  |  時間戳記<br>顯示名稱<br>SIP 位址<br>電話號碼 <br>通話類型<br>呼叫給<br>開始時間<br>邀請時間<br>失敗時間<br>結束時間<br>內<br>數位類型<br>媒體旁路<br>SBC FQDN<br>Azure 區域<br>事件種類<br>最終 SIP 代碼<br>最終的 Microsoft 子代碼<br>最終 SIP 片語<br>相關識別碼  |
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 624dcb4f99bc8ae2b83a1b8f62917ac0a5701888
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444229"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486768"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
 > [!Note]
 > 使用 Microsoft Stream to 商務用 OneDrive 和 Microsoft SharePoint for meeting 錄製所做的變更將是一種分階段的方法。
 
-|||
-|---|-----------------|
+
 |為止|引發|
+|---|-----------------|
 |CY20 年4月初|**商務用 OneDrive 和 SharePoint 上的小組會議錄製可供自願加入或退出宣告。**<br> 租使用者管理員可以加入宣告或退出宣告商務用 OneDrive 和 SharePoint 設定 PowerShell 中的團隊原則|
 |第4季度中旬 CY20|**在商務用 OneDrive 上的小組會議錄製，以及 SharePoint 設定為未選擇的租使用者的預設值**<br> 這是大多數客戶的建議路徑|
-Q1 CY21|**已不再允許將團隊會議錄製儲存至傳統資料流程**<br>所有承租人都會將團隊會議記錄儲存至商務用 OneDrive 和 SharePoint|
-|||
+|Q1 CY21|**已不再允許將團隊會議錄製儲存至傳統資料流程**<br>所有承租人都會將團隊會議記錄儲存至商務用 OneDrive 和 SharePoint|
+
 
 Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Microsoft Stream 轉換到 [新串流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一個階段，此方法會將錄製儲存在 microsoft 365 中的 microsoft OneDrive 和 SharePoint，並提供許多好處。
 
@@ -98,6 +98,23 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
+
+## <a name="permissions-or-role-based-access"></a>許可權或以角色為基礎的存取權
+
+
+|會議類型                               | 按一下 [記錄] 的人員| 錄製的土地在哪裡？                               |誰有存取權？ R/W、R 或共用                                                                                                                                                                                                                                                     |
+|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|與內部合作夥伴的1:1 通話             |呼叫                 |來電者的商務用 OneDrive 帳戶                        |-來電者為擁有者，擁有完全許可權被叫方 (if) 具有唯讀存取權，但如果在不同的租使用者中) 沒有存取權，就不會有共用存取被叫用的 (。 來電者必須將它共用給被叫方|
+|與內部合作夥伴的1:1 通話             |方                 |被呼叫者的商務用 OneDrive 帳戶                        |被叫人為擁有者、擁有完全許可權的呼叫者 (如果在同一個租使用者中有唯讀存取權，則在不同的租使用者中，就不會 (共用存取-呼叫者) 沒有存取權。 被呼叫方必須將它共用給被呼叫者|
+|使用外部通話的1:1 通話             |呼叫                 |來電者的商務用 OneDrive 帳戶                        |-呼叫者為擁有者，擁有完全許可權被叫方沒有存取權。 來電者必須將它共用給被叫方|
+|使用外部通話的1:1 通話             |方                 |來電者的商務用 OneDrive 帳戶                        |被叫方為擁有者，擁有完整許可權-來電者沒有存取權。 被叫方必須將它共用給來電者|
+|群組通話                                 |通話的任何成員 |按一下記錄的商務用 OneDrive 帳戶的成員  |-按一下記錄的成員具有完整的許可權-來自相同租使用者的其他成員都有讀取權限，而其他成員則沒有許可權。|
+|即席/排程會議                    |召集人              |召集人的商務用 OneDrive 帳戶                     |-召集人擁有錄製的完整許可權，會議的所有其他成員都有讀取權限|
+|即席/排程會議                    |其他會議成員   |按一下 [記錄] 的成員                                  |-按一下記錄的成員對錄製有完整的許可權，且可以共用-所有其他成員都有讀取權限|
+|與外部使用者進行即席/排程的會議|召集人              |召集人的商務用 OneDrive 帳戶                     |-召集人對錄製有完整的許可權，與召集人相同的租使用者中的所有其他成員都有讀取存取權，且召集人必須將其共用給他們|
+|與外部使用者進行即席/排程的會議|其他會議成員   |按一下 [記錄] 的成員                                  |-按一下 [記錄] 的成員對錄製擁有完整的許可權，且可以與召集人相同的租使用者擁有 [讀取存取權]，而且所有其他外部成員都無法存取，且召集人必須將其共用給他們|
+|頻道會議                            |頻道成員         |團隊在該頻道中的 SharePoint 位置                   |-按一下記錄的成員擁有錄製的編輯許可權，而其他成員的許可權都是以頻道 SharePoint 許可權為基礎。|
+
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
