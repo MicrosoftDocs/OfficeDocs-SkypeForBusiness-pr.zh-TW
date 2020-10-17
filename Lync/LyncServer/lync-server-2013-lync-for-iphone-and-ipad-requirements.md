@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync for iPhone 和 iPad 需求'
+title: Lync Server 2013： Lync for iPhone 和 Lync for iPad 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc713d996fecb5d185796ad5345a176725eee698
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b3fd74aaedab7c3d65728641675672bbdb266883
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186306"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506030"
 ---
+# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a><span data-ttu-id="dbd2a-102">Lync Server 2013 中的 lync for iPhone 和 iPad 的需求</span><span class="sxs-lookup"><span data-stu-id="dbd2a-102">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a><span data-ttu-id="88250-102">Lync for iPhone 和 iPad Lync Server 2013 中的需求</span><span class="sxs-lookup"><span data-stu-id="88250-102">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42186306"
 
 <span> </span>
 
-<span data-ttu-id="88250-103">_**主題上次修改日期：** 2015年-06-01_</span><span class="sxs-lookup"><span data-stu-id="88250-103">_**Topic Last Modified:** 2015-06-01_</span></span>
+<span data-ttu-id="dbd2a-103">_**主題上次修改日期：** 2015-06-01_</span><span class="sxs-lookup"><span data-stu-id="dbd2a-103">_**Topic Last Modified:** 2015-06-01_</span></span>
 
-<span data-ttu-id="88250-104">若要支援 Microsoft Lync 2013 for iPhone 或 Microsoft Lync 2013 for iPad，裝置必須符合下列需求：</span><span class="sxs-lookup"><span data-stu-id="88250-104">To support Microsoft Lync 2013 for iPhone or Microsoft Lync 2013 for iPad, the device must meet the following requirements:</span></span>
+<span data-ttu-id="dbd2a-104">若要支援 Microsoft Lync 2013 for iPhone 或 Microsoft Lync 2013 for iPad，裝置必須符合下列需求：</span><span class="sxs-lookup"><span data-stu-id="dbd2a-104">To support Microsoft Lync 2013 for iPhone or Microsoft Lync 2013 for iPad, the device must meet the following requirements:</span></span>
 
-  - <span data-ttu-id="88250-105">iPhone 6 行動數位裝置，含 Apple iOS 8 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="88250-105">iPhone 6 mobile digital device with Apple iOS 8 or the latest version.</span></span>
+  - <span data-ttu-id="dbd2a-105">iPhone 6 行動數位裝置，含 Apple iOS 8 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="dbd2a-105">iPhone 6 mobile digital device with Apple iOS 8 or the latest version.</span></span>
 
-  - <span data-ttu-id="88250-106">iPhone 5 行動數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="88250-106">iPhone 5 mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="dbd2a-106">iPhone 5 行動數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="dbd2a-106">iPhone 5 mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="88250-107">iPhone 4 行動數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="88250-107">iPhone 4 mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="dbd2a-107">iPhone 4 行動電話數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="dbd2a-107">iPhone 4 mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="88250-108">iPad 2 或更新版本行動數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="88250-108">iPad 2 or a later version mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="dbd2a-108">iPad 2 或更新版本的行動電話數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="dbd2a-108">iPad 2 or a later version mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="88250-109">iPad 迷你行動數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="88250-109">iPad mini mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="dbd2a-109">iPad 迷你行動數位裝置，含 Apple iOS 7 或最新版本。</span><span class="sxs-lookup"><span data-stu-id="dbd2a-109">iPad mini mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
 </div>
 

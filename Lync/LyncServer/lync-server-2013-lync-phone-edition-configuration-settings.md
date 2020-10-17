@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Phone Edition 組態設定'
+title: Lync Server 2013： Lync Phone Edition 配置設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afd0845366471c94ba8afaeb1e8ae05ff604f54f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 705c2887456c501bad8a2d593883c52c727c6a87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186216"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505970"
 ---
+# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="32ac5-102">Lync Server 2013 中的 lync Phone Edition 配置設定</span><span class="sxs-lookup"><span data-stu-id="32ac5-102">Lync Phone Edition configuration settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="c46e6-102">Lync Server 2013 中的 Lync Phone Edition 組態設定</span><span class="sxs-lookup"><span data-stu-id="c46e6-102">Lync Phone Edition configuration settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42186216"
 
 <span> </span>
 
-<span data-ttu-id="c46e6-103">_**主題上次修改日期：** 2012年-10-10_</span><span class="sxs-lookup"><span data-stu-id="c46e6-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="32ac5-103">_**主題上次修改日期：** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="32ac5-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="c46e6-104">執行 Lync Phone Edition 裝置的組態設定套用全域，或您可以建立新的設定，套用至特定網站集合。</span><span class="sxs-lookup"><span data-stu-id="c46e6-104">Configuration settings for devices running Lync Phone Edition apply globally, or you can create new collections of settings that apply to a particular site.</span></span> <span data-ttu-id="c46e6-105">集合包含 SIP 安全性、 裝置鎖定設定，以及更多。</span><span class="sxs-lookup"><span data-stu-id="c46e6-105">Collections include SIP security, device lock settings, and more.</span></span>
+<span data-ttu-id="32ac5-104">執行 Lync Phone Edition 裝置的設定設定會全域性套用，您也可以建立適用于特定網站的新設定集合。</span><span class="sxs-lookup"><span data-stu-id="32ac5-104">Configuration settings for devices running Lync Phone Edition apply globally, or you can create new collections of settings that apply to a particular site.</span></span> <span data-ttu-id="32ac5-105">集合包含 SIP 安全性、裝置鎖定設定等等。</span><span class="sxs-lookup"><span data-stu-id="32ac5-105">Collections include SIP security, device lock settings, and more.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c46e6-106">本章節內容</span><span class="sxs-lookup"><span data-stu-id="c46e6-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="32ac5-106">本章節內容</span><span class="sxs-lookup"><span data-stu-id="32ac5-106">In This Section</span></span>
 
-  - [<span data-ttu-id="c46e6-107">Lync Server 2013 中檢視 Lync Phone Edition 組態設定資訊</span><span class="sxs-lookup"><span data-stu-id="c46e6-107">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+  - [<span data-ttu-id="32ac5-107">在 Lync Server 2013 中查看 Lync Phone Edition 設定資訊</span><span class="sxs-lookup"><span data-stu-id="32ac5-107">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
 
-  - [<span data-ttu-id="c46e6-108">建立或修改的 Lync Server 2013 中的 Lync Phone Edition 組態設定集合</span><span class="sxs-lookup"><span data-stu-id="c46e6-108">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="32ac5-108">在 Lync Server 2013 中建立或修改 Lync Phone Edition 設定的集合</span><span class="sxs-lookup"><span data-stu-id="32ac5-108">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="c46e6-109">刪除現有的 Lync Server 2013 中的 Lync Phone Edition 組態設定集合</span><span class="sxs-lookup"><span data-stu-id="c46e6-109">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="32ac5-109">在 Lync Server 2013 中刪除現有的 Lync Phone Edition 配置設定集合</span><span class="sxs-lookup"><span data-stu-id="32ac5-109">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="c46e6-110">在 Lync Server 2013 中設定 Lync Phone Edition 的安全性設定</span><span class="sxs-lookup"><span data-stu-id="c46e6-110">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+  - [<span data-ttu-id="32ac5-110">在 Lync Server 2013 中設定 Lync Phone Edition 的安全性設定</span><span class="sxs-lookup"><span data-stu-id="32ac5-110">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
 
-  - [<span data-ttu-id="c46e6-111">強制執行電話鎖定在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c46e6-111">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
+  - [<span data-ttu-id="32ac5-111">在 Lync Server 2013 中強制執行電話鎖定</span><span class="sxs-lookup"><span data-stu-id="32ac5-111">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 
