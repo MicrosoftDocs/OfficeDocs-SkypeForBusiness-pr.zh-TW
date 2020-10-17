@@ -12,20 +12,22 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 41d89241cdddd129ea5e7fad38e7a3d761fb220b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756472"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514970"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>將單一使用者移至試驗集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>將單一使用者移至試驗集區
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 6.  建立篩選，其中的 [Office Communications Server 使用者]**** 等於 [True]****。
 
-7.  按一下 [**尋找**] 搜尋舊版 Office 通訊伺服器 2007 R2 使用者。
+7.  按一下 [ **尋找** ] 搜尋舊版 Office 通訊伺服器 2007 R2 使用者。
     
     ![在 Lync Server 控制台中搜尋 OCS 使用者](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "在 Lync Server 控制台中搜尋 OCS 使用者")  
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2012-09-28_
     
     ![在 [移動使用者] 對話方塊中設定目的地集區](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "在 [移動使用者] 對話方塊中設定目的地集區")  
 
-12. 確認使用者的 [**報名者集**區] 欄現在包含 Lync Server 2013 集區，這表示使用者已成功移動
+12. 確認使用者的 [ **報名者集** 區] 欄現在包含 Lync Server 2013 集區，這表示使用者已成功移動
 
 </div>
 

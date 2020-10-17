@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 大型會議支援常見問題集
+title: Lync Server 2013：大型會議支援常見問題
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514000"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013 的大型會議支援常見問題
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013 的大型會議支援常見問題集
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42186696"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-22_
+_**主題上次修改日期：** 2012-10-22_
 
 下列各節提供建立與舉行大型會議的常見問題解答。
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012年-10-22_
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>問：大型會議中可以有多少使用者參與？
 
-Lync Server 使用者模型指定限制 250 位使用者的共用集區或大型會議專屬的集區中的 1000 個使用者，但這些數字僅表示我們測試的使用者及僅適用於特定一組硬體中我們的測試所用的數字。 我們是根據測試來建議這些大小上限的限制。 不過，您可以控制藉由設定一或多個會議原則允許在會議中您組織中的參與者的實際數目 (您設定 Lync Server 管理命令介面中使用 Windows PowerShell 指令程式，或使用 Lync Server[控制台])。 您在會議原則中指定的數目可以是介於 1 和 4,294,967,295 之間的任一個 32 位元整數，但建議的人數為 2 到 250 (含) 位參與者；預設值為 250。
+Lync Server 使用者模型會在專用於大型會議的集區中指定共用集區或1000使用者中的250使用者限制，但這些號碼只代表我們所測試的使用者人數，而且只代表我們用於測試的特定硬體集。 我們是根據測試來建議這些大小上限的限制。 不過，您可以在您的組織中，透過設定一或多個會議原則 (，使用 Lync Server 管理命令介面中的 Windows PowerShell 指令程式，或使用 Lync Server 控制台) 來控制實際的參與者人數。 您在會議原則中指定的數目可以是介於 1 和 4,294,967,295 之間的任一個 32 位元整數，但建議的人數為 2 到 250 (含) 位參與者；預設值為 250。
 
 </div>
 
@@ -75,7 +77,7 @@ Lync Server 使用者模型指定限制 250 位使用者的共用集區或大型
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>問：我可以在大型會議中使用群組立即訊息 (IM) 嗎？
 
-是。 但是，大量的立即訊息 (特別是在大量與會者進行傳送時) 會因為在 IM 視窗中快速捲動文字的問題而影響到使用者經驗。 將大量立即訊息傳遞給最多 1000 位使用者也會引發顯著的伺服器負載，這會影響到效能。 一般而言，IM 只有所需的問題和解答 (Q\&為)。
+是。 但是，大量的立即訊息 (特別是在大量與會者進行傳送時) 會因為在 IM 視窗中快速捲動文字的問題而影響到使用者經驗。 將大量立即訊息傳遞給最多 1000 位使用者也會引發顯著的伺服器負載，這會影響到效能。 一般來說，只有問題和解答 (Q 為) 時，才需要 IM \& 。
 
 </div>
 
@@ -83,7 +85,7 @@ Lync Server 使用者模型指定限制 250 位使用者的共用集區或大型
 
 ## <a name="can-users-join-large-meetings-by-dialing-in-from-a-phone"></a>使用者可以從電話撥入來加入大型會議嗎？
 
-是。 如果 Lync Server 2013 集區是正確部署和啟用電話撥入式會議，使用者將無法撥入來加入大型會議。 我們的測試顯示 1000 位使用者中最多有 15% 的使用者可以在 10 分鐘內加入大型會議。
+是。 如果已正確部署 Lync Server 2013 集區，且已啟用電話撥入式會議，使用者將可以撥號加入大型會議。 我們的測試顯示 1000 位使用者中最多有 15% 的使用者可以在 10 分鐘內加入大型會議。
 
 </div>
 

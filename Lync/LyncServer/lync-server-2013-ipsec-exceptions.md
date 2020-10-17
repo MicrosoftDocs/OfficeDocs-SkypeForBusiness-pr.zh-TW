@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 IPsec 例外
+title: Lync Server 2013 IPsec 例外狀況
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd649cea823ce13460de924ffc49741b3ca5c6d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ee06e4b7f3cabc606a612cd0f332aed47b46823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514150"
 ---
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 中的 IPsec 例外狀況
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 中的 IPsec 例外
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42186786"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 06 月 27 日_
+_**主題上次修改日期：** 2012-06-27_
 
 對於已經部署 Internet Protocol Security (IPsec，請參閱 IETF RFC 4301-4309) 的企業網路而言，用於傳送音訊、視訊與全景視訊的連接埠範圍，必須停用 IPSec。為了避免在媒體連接埠分配期間，因為 IPSec 交涉而導致出現延遲現象，建議您這麼做。
 
@@ -104,8 +106,8 @@ _**主題上次修改日期：** 2012 年 06 月 27 日_
 <tr class="odd">
 <td><p>中繼伺服器 (輸入流量)</p></td>
 <td><p>任何</p></td>
-<td><p>中繼</p>
-<p>伺服器</p></td>
+<td><p>調解</p>
+<p>伺服器 (s) </p></td>
 <td><p>UDP 和 TCP</p></td>
 <td><p>任何</p></td>
 <td><p>任何</p></td>
@@ -113,8 +115,8 @@ _**主題上次修改日期：** 2012 年 06 月 27 日_
 </tr>
 <tr class="even">
 <td><p>中繼伺服器 (輸出流量)</p></td>
-<td><p>中繼</p>
-<p>伺服器</p></td>
+<td><p>調解</p>
+<p>伺服器 (s) </p></td>
 <td><p>任何</p></td>
 <td><p>UDP 和 TCP</p></td>
 <td><p>任何</p></td>
@@ -197,7 +199,7 @@ _**主題上次修改日期：** 2012 年 06 月 27 日_
 <td><p>用戶端</p></td>
 <td><p>任何</p></td>
 <td><p>任何</p></td>
-<td><p>UDP</p></td>
+<td><p>Udp</p></td>
 <td><p>指定的媒體連接埠範圍</p></td>
 <td><p>任何</p></td>
 <td><p>不要驗證</p></td>

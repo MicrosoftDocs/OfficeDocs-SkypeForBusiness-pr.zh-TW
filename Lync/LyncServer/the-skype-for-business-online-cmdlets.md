@@ -12,20 +12,22 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8ee2e51d9554e4c986bacdcb876fc5b42464477f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755707"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514960"
 ---
+# <a name="the-skype-for-business-online-cmdlets"></a>商務用 Skype Online Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-cmdlets"></a>商務用 Skype Online Cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755707"
 
 _**主題上次修改日期：** 2013-07-05_
 
-當您使用 Windows PowerShell 連線到商務用 Skype Online 時，會將商務用 Skype Online Cmdlet 的集合複製到電腦的記憶體中。 這些 Cmdlet，除了您在本機電腦上已有的任何其他 Cmdlet （包括安裝 Windows PowerShell 時安裝的核心 Cmdlet）之外，還可供您用來管理商務用 Skype Online 部署和商務用 Skype Online 使用者帳戶。 下列主題將引進商務用 Skype Online Cmdlet：
+當您使用 Windows PowerShell 連線到商務用 Skype Online 時，會將商務用 Skype Online Cmdlet 的集合複製到電腦的記憶體中。 除了您在本機 (電腦上已有的任何其他 Cmdlet 之外，這些指令程式也可用於管理您的商務用 Skype Online 部署和商務用 Skype Online 使用者帳戶，在您安裝 Windows PowerShell) 時所安裝的核心 Cmdlet。 下列主題將引進商務用 Skype Online Cmdlet：
 
   - [管理商務用 Skype Online 承租人](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 

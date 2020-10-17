@@ -1,5 +1,5 @@
 ---
-title: 環境測試的 Lync Server 2013： 問題
+title: Lync Server 2013：環境測試的問題
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c96bae1a917efa52dfc25639d7e46fc1b7e2142e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 812796be0589342f346cfc6755ace64cb402f63a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514080"
 ---
+# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>Lync Server 2013 中環境測試的問題
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>環境測試 Lync Server 2013 中的問題
+
 
 </div>
 
@@ -35,33 +37,33 @@ ms.locfileid: "42186756"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
-最佳做法分析程式可讓您確認您的 Lync Server 2013 環境是支援的組態。 [Active Directory 網域服務檢查的一部分，最佳做法分析程式會執行下列作業：
+最佳做法分析程式為您提供一種方法，讓您能夠驗證 Lync Server 2013 環境是否支援設定。 在 Active Directory 網域服務檢查過程中，最佳做法分析器會執行下列作業：
 
-  - 驗證的 Active Directory 網域服務樹系和結構描述準備工作。
+  - 驗證 Active Directory 網域服務樹系和架構準備。
 
-  - 識別 Active Directory 網域服務網站及網域中部署的數目。
+  - 識別部署中的 Active Directory 網域服務網站和網域數目。
 
-  - 檢查樹系與網域層級。
+  - 檢查樹系和網域層級。
 
-  - 檢查網域控制器版本。
+  - 檢查網域控制站版本。
 
-  - 識別網域、 設定及 schema 命名內容。
+  - 識別網域、設定和架構命名內容。
 
-  - 會識別已啟用的使用者數目。
+  - 識別啟用的使用者數目。
 
-  - 檢查儲存全域 Active Directory 網域服務設定。
+  - 檢查全域 Active Directory 網域服務設定的儲存位置。
 
-  - Lync Server 的服務連線點 (Scp) 檢查。
+  - 檢查 Lync Server (Scp) 的服務連線點。
 
   - 識別資料庫版本。
 
 <div>
 
-## <a name="resolving-issues-with-the-environment"></a>解決環境問題。
+## <a name="resolving-issues-with-the-environment"></a>解決環境中的問題
 
-如果環境測試找到您的環境的問題，這些問題都可能會因您的 Active Directory 設定] 或 [特定伺服器上執行的軟體的層級的問題。 例如，如果最佳做法分析程式識別正在執行 Windows Server 2000 任何網域控制站您環境中的，它會發出警告和您想要將這些網域控制站升級至支援的 Windows Server 版本。
+如果環境測試發現環境有問題，這些問題可能是由您的 Active Directory 設定或特定伺服器上執行的軟體層級問題所造成。 例如，如果最佳做法分析器識別出執行 Windows Server 2000 環境中的任何網域控制站，將會發出警告，而且您必須將這些網域控制站升級為支援的 Windows Server 版本。
 
 </div>
 

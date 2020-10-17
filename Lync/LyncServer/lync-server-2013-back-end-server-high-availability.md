@@ -12,20 +12,22 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f7680a98eb53414a8b438975d79327b515946
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515750"
 ---
+# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 中的後端伺服器高可用性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 中的後端伺服器高可用性
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2013-08-12_
 
 如果您使用見證，您可以對多組的後端伺服器使用單一見證。 Witnesses 和後端伺服器對之間沒有嚴格的1:1 對應。 對多對後端伺服器使用單一見證的部署，並不像拓撲搭配每一組後端伺服器對具有個別的見證。
 
-如需 SQL 群集支援的詳細資訊，請參閱[Lync Server 2013 中的資料庫軟體支援](lync-server-2013-database-software-support.md)。 如需部署 SQL 叢集的詳細資訊，請參閱[CONFIGURE Sql Server 叢集 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
+如需 SQL 群集支援的詳細資訊，請參閱 [Lync Server 2013 中的資料庫軟體支援](lync-server-2013-database-software-support.md)。 如需部署 SQL 叢集的詳細資訊，請參閱 [CONFIGURE Sql Server 叢集 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
 
 <div>
 

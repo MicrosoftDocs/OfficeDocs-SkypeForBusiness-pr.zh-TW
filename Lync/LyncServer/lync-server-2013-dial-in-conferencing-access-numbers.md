@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 撥入會議存取號碼
+title: Lync Server 2013：電話撥入式會議存取號碼
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcd8b7e4c3efa24c4279c6d5d2b7420b5ac2f6af
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 220c9cb510a755784f4712d0a4a06bba08bcbb2b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213479"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514500"
 ---
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議存取號碼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議存取號碼
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42213479"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-18_
+_**主題上次修改日期：** 2012-09-18_
 
 若要讓使用者透過從公用交換電話網路 (PSTN) 撥入的方式加入內部部署會議的音訊部分，您必須設定電話撥入式會議存取號碼。電話撥入式會議存取號碼是指使用者撥打以加入會議的號碼。
 
@@ -55,11 +57,11 @@ _**主題上次修改日期：** 2012年-09-18_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中檢視電話撥入式會議存取號碼](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [在 Lync Server 2013 中查看電話撥入式會議存取號碼](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
-  - [建立或修改 Lync Server 2013 中的撥入式會議存取號碼](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+  - [在 Lync Server 2013 中建立或修改電話撥入式會議存取號碼](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [刪除電話撥入式會議存取號碼在 Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [刪除 Lync Server 2013 中的電話撥入式會議存取號碼](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 
 </div>
 

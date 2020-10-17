@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 失敗清單報告
+title: Lync Server 2013：失敗清單報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 010e8314eb7d2cbb33354461bdc2a1eb2c5b2cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 467dbfe14cbcbe7a032439fd437d3ce2c58c6d46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515380"
 ---
+# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013 的失敗清單報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013 中的失敗清單報告
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42204345"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-07-02_
+_**主題上次修改日期：** 2012-07-02_
 
-失敗清單報告提供參與失敗對等端對端或會議工作階段之個別參與者的相關資訊。 此資訊包括遇到問題，以及 SIP 回應碼之使用者的 URI，並診斷識別碼相關聯失敗。
+「失敗清單報告」會提供參與「對等」或「會議」會話失敗之人員的相關資訊。 此資訊包含發生問題之使用者的 URI，以及與失敗相關聯的 SIP 回應碼和診斷識別碼。
 
 <div>
 
 ## <a name="accessing-the-failure-list-report"></a>存取失敗清單報告
 
-按一下任何[失敗散佈報告在 Lync Server 2013](lync-server-2013-failure-distribution-report.md)上的下列計量來存取失敗清單報告：
+若要存取失敗清單報告，請在 [ [Lync Server 2013] 中的 [失敗] 散佈報告](lync-server-2013-failure-distribution-report.md)上，按一下下列任一度量值：
 
   - 前幾名診斷原因 (工作階段)
 
@@ -61,24 +63,24 @@ _**主題上次修改日期：** 2012年-07-02_
 
   - 最常見來源使用者代理程式 (工作階段)
 
-您可以從 Failure List Report]，即可工作階段詳細資料] 計量端對端工作階段存取[Lync Server 2013 中的端對端工作階段詳細資料報告](lync-server-2013-peer-to-peer-session-detail-report.md)。 您也可以藉由按一下 [會議] 計量的會議存取會議詳細資料報告。
+在 [失敗清單] 報告中，您可以按一下點對點工作階段的會話詳細資料計量， [以在 Lync Server 2013 中存取 Peer-to-Peer 會話詳細資料包告](lync-server-2013-peer-to-peer-session-detail-report.md) 。 您也可以按一下會議的會議度量來存取會議詳細資料包告。
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-failure-list-report"></a>失敗清單報告的最佳用法
+## <a name="making-the-best-use-of-the-failure-list-report"></a>讓 [失敗清單] 報告的最佳用法
 
-在失敗清單報告中，您可以檢視每個回應程式碼或每個診斷識別碼的描述，只要該值上按住滑鼠。 例如，如果將滑鼠停留診斷識別碼 7025 您會看到下列工具提示中顯示：
+在 [失敗清單] 報告中，只要將滑鼠停留在該值上，您就可以查看每個回應代碼或每個診斷識別碼的描述。 例如，如果您將滑鼠停留在診斷 ID 7025 上，您會看到工具提示中顯示下列內容：
 
-建立使用者的媒體的內部伺服器錯誤。
+為使用者建立媒體時發生內部伺服器錯誤。
 
-請務必注意 Failure List Report 不提供直接的方法，以直接擷取清單中的所有使用者參與至少一個與失敗工作階段，也不會提供方法來決定哪些使用者最常有關的失敗工作階段。 （第一，Failure List Report 有無篩選功能）。不過，如果您將資料匯出，然後將它轉換成逗點分隔值檔案，您可以使用 Windows PowerShell 來尋找類似這些問題的答案。 例如，假設您儲存的資料。CSV 檔名為 c:\\資料\\失敗\_List.csv。 根據儲存在該檔案中的資料，此命令會列出所有已至少一個失敗工作階段相關的使用者：
+請務必注意，失敗清單報告並未提供直接找回至少參與一則失敗之會話之所有使用者的清單，也不會提供一種方法來判斷失敗的會話中最常參與的使用者。  (一件事，失敗清單報告沒有篩選功能。 ) 不過，如果您匯出資料，然後將其轉換成逗號分隔值檔案，您可以使用 Windows PowerShell 尋找類似問題的答案。 例如，假設您將資料儲存到。名為 C： \\ 資料 \\ 失敗 \_List.csv 的 CSV 檔案。 根據儲存在該檔案中的資料，此命令會列出至少包含一個失敗會話的所有使用者：
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
-該命令會傳回清單類似這樣：
+該命令會傳回類似以下的清單：
 
     From user
     ----
@@ -88,7 +90,7 @@ _**主題上次修改日期：** 2012年-07-02_
     David.Ahs@litwareinc.com
     Ken.Myer@litwareinc.com
 
-這兩個命令可回報告每位使用者遭遇的失敗工作階段總數：
+這兩個命令傳回每位使用者參與的失敗會話總數：
 
     $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
     $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
@@ -109,15 +111,15 @@ _**主題上次修改日期：** 2012年-07-02_
 
 ## <a name="filters"></a>篩選
 
-無。 您無法篩選 Failure List Report。
+無。 您無法篩選失敗清單報告。
 
 </div>
 
 <div>
 
-## <a name="metrics"></a>計量
+## <a name="metrics"></a>指標
 
-下表列出失敗清單報告針對每通失敗通話所提供的資訊。
+下表列出每個失敗通話的失敗清單報告中提供的資訊。
 
 ### <a name="failure-list-report-metrics"></a>失敗清單報告計量
 
@@ -129,21 +131,21 @@ _**主題上次修改日期：** 2012年-07-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>報告的時間</strong></p></td>
+<td><p><strong>報告時間</strong></p></td>
 <td><p>否</p></td>
-<td><p>日期和時間報告的記錄。</p></td>
+<td><p>報告的記錄日期與時間。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>要求</strong></p></td>
+<td><p><strong>請求</strong></p></td>
 <td><p>否</p></td>
-<td><p>SIP 失敗的要求類型。 例如，邀請或 BYE。</p></td>
+<td><p>失敗的 SIP 要求類型。 例如，INVITE 或再見。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>回應碼</strong></p></td>
@@ -153,12 +155,12 @@ _**主題上次修改日期：** 2012年-07-02_
 <tr class="even">
 <td><p><strong>診斷識別碼</strong></p></td>
 <td><p>否</p></td>
-<td><p>唯一識別項 （以毫秒診斷標頭的形式） 附加在 SIP 訊息通常提供在疑難排解錯誤很有用的資訊。</p></td>
+<td><p>附加至 SIP 郵件（通常會在疑難排解錯誤中提供有用資訊) ）的表單中的唯一識別碼 (。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>加入時間 （毫秒）</strong></p></td>
+<td><p><strong>加入成本時間 (毫秒) </strong></p></td>
 <td><p>否</p></td>
-<td><p>量所需的使用者加入會議的時間 （以毫秒為單位）。</p></td>
+<td><p>使用者加入會議所需的時間長度 (（毫秒）) 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>來源使用者</strong></p></td>
@@ -166,14 +168,14 @@ _**主題上次修改日期：** 2012年-07-02_
 <td><p>撥打通話之使用者的 SIP 位址。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>來源使用者代理程式</strong></p></td>
+<td><p><strong>從使用者代理程式</strong></p></td>
 <td><p>否</p></td>
-<td><p>撥打通話之使用者端點所用的軟體。</p></td>
+<td><p>起始通話之使用者端點所使用的軟體。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>目標使用者</strong></p></td>
 <td><p>否</p></td>
-<td><p>要呼叫之使用者的 SIP 位址。</p></td>
+<td><p>呼叫之使用者的 SIP 位址。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33f84ec3cb900b4283f30d67e318ab10d3625326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c42084f2e5ed8acceb73b4f417d8205b78b4b56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204929"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515710"
 ---
+# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>在 Lync Server 2013 中設定電話撥入式會議原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>在 Lync Server 2013 中設定電話撥入式會議原則
+
 
 </div>
 
@@ -58,7 +60,7 @@ _**主題上次修改日期：** 2014-03-21_
     
     </div>
 
-本節中的程式說明如何修改會議原則。 如需如何設定所有設定以定義預設會議原則中的參與者經驗的詳細資訊，請參閱在[Lync Server 2013 中建立或修改會議配置設定的集合](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)。 如需如何為特定使用者或使用者群組建立會議原則的詳細資訊，請參閱[建立或修改 Lync Server 2013 中的會議原則](lync-server-2013-create-or-modify-a-conferencing-policy.md)。 如需所有可用之會議原則設定的清單，請參閱[Lync Server 2013 的會議原則設定參考](lync-server-2013-conferencing-policy-settings-reference.md)。
+本節中的程式說明如何修改會議原則。 如需如何設定所有設定以定義預設會議原則中的參與者經驗的詳細資訊，請參閱在 [Lync Server 2013 中建立或修改會議配置設定的集合](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)。 如需如何為特定使用者或使用者群組建立會議原則的詳細資訊，請參閱 [建立或修改 Lync Server 2013 中的會議原則](lync-server-2013-create-or-modify-a-conferencing-policy.md)。 如需所有可用之會議原則設定的清單，請參閱 [Lync Server 2013 的會議原則設定參考](lync-server-2013-conferencing-policy-settings-reference.md)。
 
 <div>
 
@@ -66,11 +68,11 @@ _**主題上次修改日期：** 2014-03-21_
 
 1.  以 RTCUniversalServerAdmins 群組成員或 **Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左側導覽列中，按一下 **[會議]**。
 
-4.  在 [**會議原則**] 索引標籤上，按兩下會議原則名稱，以開啟 [**編輯會議原則**] 對話方塊。
+4.  在 [ **會議原則** ] 索引標籤上，按兩下會議原則名稱，以開啟 [ **編輯會議原則** ] 對話方塊。
 
 5.  確認電話撥入式會議的欄位適用于您的組織，必要時會修改設定。
 

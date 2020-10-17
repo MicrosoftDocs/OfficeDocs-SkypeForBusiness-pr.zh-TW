@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 電話撥入式會議 cmdlet
+title: Lync Server 2013：電話撥入式會議 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 854616a22d340f2c81ae4214b3d2b87cd5469082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63b24ad9b6203f3b73033e1c4f80dc8252d0f67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514540"
 ---
+# <a name="dial-in-conferencing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議 cmdlet
+
 
 </div>
 
@@ -35,81 +37,81 @@ ms.locfileid: "42213469"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-03-21_
+_**主題上次修改日期：** 2012-03-21_
 
-電話撥入式會議提供方法，讓使用者可使用 「 一般 」 電話 （亦即是公用交換的電話網路上的裝置） 加入會議的音訊部分。
+電話撥入式會議提供一種方法，讓使用者可以使用「一般」電話 (，也就是公用交換電話網路上的裝置) 加入會議的音訊部分。
 
 <div>
 
 ## <a name="dial-in-conferencing-cmdlets"></a>Dial-In Conferencing Cmdlets
 
-如果您不想要允許撥入式會議您可以停用此功能使用 Set-csmonitoringserver 指令程式，並將 EnableDialInConferencing 屬性設定為 False。 根據預設，包含電話撥入式會議的主機會議允許所有使用者。
+如果您不想要允許電話撥入式會議，您可以使用 Set-CsConferencingPolicy Cmdlet 來停用此功能，並將 EnableDialInConferencing 屬性設定為 False。 根據預設，允許所有使用者主控包含電話撥入式會議的會議。
 
-**電話撥入式會議**
-
-  - <span></span>  
-    [Get-csconferencedirectory](https://technet.microsoft.com/library/Gg425771(v=OCS.15))
+**會議 Dial-In**
 
   - <span></span>  
-    [Move-csconferencedirectory](https://technet.microsoft.com/library/Gg412968(v=OCS.15))
+    [Get-CsConferenceDirectory](https://technet.microsoft.com/library/Gg425771(v=OCS.15))
 
   - <span></span>  
-    [新 CsConferenceDirectory](https://technet.microsoft.com/library/Gg413080(v=OCS.15))
+    [Move-CsConferenceDirectory](https://technet.microsoft.com/library/Gg412968(v=OCS.15))
 
   - <span></span>  
-    [Remove-csconferencedirectory](rehttps://technet.microsoft.com/library/Gg412968(v=OCS.15))
+    [New-CsConferenceDirectory](https://technet.microsoft.com/library/Gg413080(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsConferenceDirectory](rehttps://technet.microsoft.com/library/Gg412968(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-csdialinconferencing](https://technet.microsoft.com/library/Gg399013(v=OCS.15))
+    [Test-CsDialInConferencing](https://technet.microsoft.com/library/Gg399013(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg413015(v=OCS.15))
+    [Get-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg413015(v=OCS.15))
 
   - <span></span>  
-    [New-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg398818(v=OCS.15))
+    [New-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg398818(v=OCS.15))
 
   - <span></span>  
-    [Remove-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg412782(v=OCS.15))
+    [Remove-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg412782(v=OCS.15))
 
   - <span></span>  
-    [Set-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg425770(v=OCS.15))
+    [Set-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg425770(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csdialinconferencingconfiguration](https://technet.microsoft.com/library/Gg398575(v=OCS.15))
+    [Get-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg398575(v=OCS.15))
 
   - <span></span>  
     [新 CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg412816(v=OCS.15))
 
   - <span></span>  
-    [移除 CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg398174(v=OCS.15))
+    [Remove-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg398174(v=OCS.15))
 
   - <span></span>  
-    [Set-csdialinconferencingconfiguration](https://technet.microsoft.com/library/Gg425825(v=OCS.15))
+    [CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg425825(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg398578(v=OCS.15))
+    [Get-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg398578(v=OCS.15))
 
   - <span></span>  
-    [新 CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg425792(v=OCS.15))
+    [新 Set-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg425792(v=OCS.15))
 
   - <span></span>  
-    [移除 CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg425894(v=OCS.15))
+    [Remove-Set-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg425894(v=OCS.15))
 
   - <span></span>  
-    [Set-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg398860(v=OCS.15))
+    [Set-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg398860(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csdialinconferencinglanguagelist](https://technet.microsoft.com/library/Gg425869(v=OCS.15))
+    [Get-CsDialInConferencingLanguageList](https://technet.microsoft.com/library/Gg425869(v=OCS.15))
 
 </div>
 
@@ -118,7 +120,7 @@ _**主題上次修改日期：** 2012年-03-21_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

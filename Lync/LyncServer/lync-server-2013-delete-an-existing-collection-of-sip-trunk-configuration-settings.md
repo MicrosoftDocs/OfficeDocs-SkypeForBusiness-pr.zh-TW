@@ -1,5 +1,5 @@
 ---
-title: 刪除現有的 SIP 主幹組態設定集合
+title: 刪除現有的 SIP 主幹配置設定集合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733614
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f80192db366f5a691724078ba8f8c6948b3472f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9bd2dd62116f0d48a2a3169c91d8d04486c86418
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202679"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514670"
 ---
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中刪除現有的 SIP 主幹設定的集合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>刪除現有的 Lync Server 2013 中的 SIP 主幹組態設定集合
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42202679"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-22_
+_**主題上次修改日期：** 2013-02-22_
 
 SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。這些設定將指定下列項目：
 
@@ -45,7 +47,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
   - 每個主幹是否需要安全即時通訊協定 (SRTP) 加密。
 
-當您安裝 Microsoft Lync Server 2013 時，為您建立的 SIP 主幹組態設定全域集合。 此設定的全域集合無法刪除。 不過，您可以使用 Lync Server Control Panel 或[Remove-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) cmdlet 」 重設 」 為其預設值的全域集合中的屬性。 例如，如果已將 Enable3pccRefer 屬性設為 True，則在重設全域集合時，Enable3pccRefer 屬性會還原為預設值 False。
+當您安裝 Microsoft Lync Server 2013 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此設定的全域集合無法刪除。 不過，您可以使用 Lync Server 控制台或 [get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) Cmdlet，將全域集合中的屬性「重設」為其預設值。 例如，如果已將 Enable3pccRefer 屬性設為 True，則在重設全域集合時，Enable3pccRefer 屬性會還原為預設值 False。
 
 管理員也可建立網站範圍或服務範圍 (針對個別 PSTN 閘道) 的自訂主幹組態設定；這些自訂設定是可移除的。移除這些自訂設定時，請注意下列事項：
 
@@ -55,9 +57,9 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
 <div>
 
-## <a name="to-remove-trunk-configuration-settings-with-lync-server-control-panel"></a>若要移除主幹組態設定與 Lync Server Control Panel
+## <a name="to-remove-trunk-configuration-settings-with-lync-server-control-panel"></a>使用 Lync Server 控制台移除主幹設定設定
 
-1.  在 Lync Server 控制台]，按一下 [**語音路由**，然後按一下 [**主幹組態**。
+1.  在 [Lync Server 控制台] 中，按一下 [ **語音路由** ]，然後按一下 [ **主幹**設定]。
 
 2.  在 **[主幹組態]** 索引標籤中，選取要刪除的 SIP 主幹組態設定集合，然後按一下 **[編輯]**，再按一下 **[刪除]**。如要在同一個操作中刪除多個集合，先按一下要刪除的第一個集合，然後按住 Ctrl 鍵，再按一下其他任何要移除的集合。
 
@@ -73,13 +75,13 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
 <div>
 
-## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除主幹組態設定
+## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除主幹設定設定
 
-您可以使用 Windows PowerShell 和**Remove-cstrunkconfiguration** cmdlet 來刪除主幹組態設定。 從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端工作階段，您可以執行此 cmdlet。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 部落格文章 「 快速開始:: 管理 Microsoft Lync Server 2010 使用遠端 PowerShell 」 在[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和 **get-cstrunkconfiguration** Cmdlet 來刪除主幹設定設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-settings"></a>若要移除指定的設定集合
+## <a name="to-remove-a-specified-collection-of-settings"></a>移除指定的設定集合
 
   - 以下命令會移除已套用至 Redmond 網站的主幹組態設定：
     
@@ -99,7 +101,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
 <div>
 
-## <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>若要移除所有媒體旁路的集合是已啟用
+## <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>移除啟用媒體旁路的所有集合
 
   - 以下命令會移除所有已啟用媒體旁路的主幹組態設定：
     
@@ -107,7 +109,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
 </div>
 
-如需詳細資訊，請參閱[Remove-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) cmdlet 的說明主題。
+如需詳細資訊，請參閱 [get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) Cmdlet 的 [說明] 主題。
 
 </div>
 

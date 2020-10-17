@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 的法律資訊
+title: Lync Server 2013 法律資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b786cfe0c2adea3237ac02c69e2a3381e160e3c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8e4705a2c48de3707deca5508417d039de2ff45
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186646"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513986"
 ---
+# <a name="legal-information-for-lync-server-2013"></a>Lync Server 2013 的法律資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a>Lync Server 2013 的法律資訊
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42186646"
 
 <span> </span>
 
-_**主題上次修改日期：** 2011年-02-22_
+_**主題上次修改日期：** 2011-02-22_
 
 本文件係依「現狀」提供。 本文件所陳述的資訊及觀點 (包括 URL 及其他網際網路網站參考) 如有變更，恕不另行通知。
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2011年-02-22_
 
 本文件不提供貴用戶對任何 Microsoft 產品之任何智慧財產的法定權利。貴用戶可以複製本文件，並將其用為內部參考。
 
-著作權所有 © 2013 Microsoft Corporation。 All rights reserved.
+版權所有© 2013 Microsoft Corporation。 All rights reserved.
 
 </div>
 

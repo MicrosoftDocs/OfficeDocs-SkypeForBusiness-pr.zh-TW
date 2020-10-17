@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: CallPriorities 表格'
+title: Lync Server 2013： CallPriorities 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7804a02995550a550c2916db20f12367466efe4c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b44b48cbe23ae004211e4ca6f29b1afc434af1e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514830"
 ---
+# <a name="callpriorities-table-in-lync-server-2013"></a>Lync Server 2013 中的 CallPriorities 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="callpriorities-table-in-lync-server-2013"></a>Lync Server 2013 中的 CallPriorities 表格
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42198526"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
 CallPriorities 表格是靜態表格，可儲存通話可能優先順序的清單 (如「緊急」、「急」或「一般」)。
 
@@ -51,20 +53,20 @@ CallPriorities 表格是靜態表格，可儲存通話可能優先順序的清�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>PriorityId</strong></p></td>
-<td><p>tinyint</p></td>
+<td><p>Tinyint</p></td>
 <td><p>主要</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>優先順序</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td></td>
 <td><p>允許的值：</p>
 <ul>

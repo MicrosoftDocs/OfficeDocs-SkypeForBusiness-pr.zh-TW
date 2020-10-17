@@ -12,20 +12,22 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec6c3ada06312f816a75f5539593336addc8d2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cf4a26c9f0b36cd239daabbc2538716e2bcd3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515770"
 ---
+# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Lync Server 2013 的自動探索服務需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Lync Server 2013 的自動探索服務需求
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**主題上次修改日期：** 2013-02-25_
 
 在 Director 和前端集區伺服器上執行的 Microsoft Lync Server 2013 自動探索服務，以及在 DNS 中發佈時，可供執行 Lync Mobile 的行動裝置使用，以找出行動性服務。 在執行 Lync Mobile 的行動裝置可以充分利用自動探索之前，您必須在執行自動探索服務的任何 Director 和前端伺服器上修改憑證主體替代名稱清單。 此外，可能還需要針對在反向 Proxy 上用於外部 Web 服務發行規則的憑證，修改主體替代名稱清單。
 
-如需 Director、前端伺服器及反向 proxy 所需的主體替代名稱專案的詳細資訊，請參閱規劃行動性時，[在 Lync Server 2013 中行動的技術需求](lync-server-2013-technical-requirements-for-mobility.md)。
+如需 Director、前端伺服器及反向 proxy 所需的主體替代名稱專案的詳細資訊，請參閱規劃行動性時， [在 Lync Server 2013 中行動的技術需求](lync-server-2013-technical-requirements-for-mobility.md) 。
 
 有關在反向 Proxy 上使用主體替代名稱清單的決策，取決於您是在連接埠 80 還是連接埠 443 上發行自動探索服務：
 
   - **已在埠 80**     上發行如果自動探索服務的初始查詢發生在埠80上，則不需要憑證變更。 這是因為執行 Lync 的行動裝置會在外部存取埠80上的反向 proxy，然後再重新導向埠8080上的 Director 或前端伺服器。 如需詳細資訊，請參閱本主題稍後的＜使用連接埠 80 的初始自動探索程序＞。
 
-  - **已在埠 443**     上發行外部 web 服務發行規則所使用之憑證上的主體替代名稱清單必須包含*lyncdiscover。 \<組織 \> *內每個 SIP 網域的 microsoft.rtc.management.xds.sipdomain 專案。
+  - **已在埠 443**     上發行外部 web 服務發行規則所使用之憑證上的主體替代名稱清單必須包含*lyncdiscover。 \<sipdomain\> * 組織內每個 SIP 網域的專案。
 
 使用內部憑證授權單位來重新發出憑證通常是個簡單的程序，但是針對用於 Web 服務發行規則的公用憑證，新增多個主體替代名稱項目會變得很昂貴。 若要解決此問題，我們支援經由埠80的初始自動探索連線，然後重新導向 Director 或前端伺服器上的埠8080。
 
@@ -100,7 +102,7 @@ _**主題上次修改日期：** 2013-02-25_
 
 ## <a name="mobility-for-the-split-domain-deployment"></a>分割網域部署的行動性
 
-共用 SIP 位址空間 (也稱為「分割網域」**) 或「混合式部署」** 是一種跨內部部署與線上環境來部署使用者的設定。 預期的結果是要讓使用者 (無論其主伺服器是位在內部部署或線上) 登入部署，並重新導向至其主伺服器位置。 為了達到此目的，Microsoft Lync Server 2013 的自動探索功能是用來將線上使用者重新導向至線上拓撲。 這是透過使用 Lync Server 管理命令介面和 Cmdlet **Get-CsHostingProvider**和**Get-cshostingprovider，設定**自動探索統一資源定位器 (URL) 來完成。
+共用 SIP 位址空間 (也稱為「分割網域」**) 或「混合式部署」** 是一種跨內部部署與線上環境來部署使用者的設定。 預期的結果是要讓使用者 (無論其主伺服器是位在內部部署或線上) 登入部署，並重新導向至其主伺服器位置。 為了達到此目的，Microsoft Lync Server 2013 的自動探索功能是用來將線上使用者重新導向至線上拓撲。 這是透過使用 Lync Server 管理命令介面和 Cmdlet **Get-CsHostingProvider** 和 **Get-cshostingprovider，設定**自動探索統一資源定位器 (URL) 來完成。
 
 您需要收集和記錄下列部署的屬性：
 
@@ -118,7 +120,7 @@ _**主題上次修改日期：** 2013-02-25_
 
   - 如果您將會定義封鎖及允許的網域，請決定您要明確允許或封鎖的網域
 
-  - 若為線上同盟，您必須規劃防火牆例外、憑證及 DNS 主機 (若使用 IPv6，則為 A 或 AAAA) 記錄。 此外，您必須設定同盟原則。 如需詳細資訊，請參閱[規劃 Lync Server 2013 和 Office 通訊伺服器同盟](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)
+  - 若為線上同盟，您必須規劃防火牆例外、憑證及 DNS 主機 (若使用 IPv6，則為 A 或 AAAA) 記錄。 此外，您必須設定同盟原則。 如需詳細資訊，請參閱 [規劃 Lync Server 2013 和 Office 通訊伺服器同盟](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)
 
 </div>
 

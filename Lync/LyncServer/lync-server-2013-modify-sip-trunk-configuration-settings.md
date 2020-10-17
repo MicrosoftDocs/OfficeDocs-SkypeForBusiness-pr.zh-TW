@@ -12,20 +12,22 @@ ms:contentKeyID: 49733703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5eb0d3d535a4ba5b3e8ffd9a9c712edd601fbbbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 356c418c620cbbf38a97da2df652b5767f9fced9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515320"
 ---
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中修改 SIP 主幹設定設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中修改 SIP 主幹設定設定
+
 
 </div>
 
@@ -82,7 +84,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 <tr class="even">
 <td><p>加密支援等級</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>指出支援等級，以保護中繼伺服器和服務提供者之 PSTN 閘道、IP-PBX 或 SBC 之間的媒體流量。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用<a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">新的-CsMediaConfiguration</a>及<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">CsMediaConfiguration</a> Cmdlet 來設定。</p>
+<td><p>指出支援等級，以保護中繼伺服器和服務提供者之 PSTN 閘道、IP-PBX 或 SBC 之間的媒體流量。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">新的-CsMediaConfiguration</a> 及 <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">CsMediaConfiguration</a> Cmdlet 來設定。</p>
 <p>允許的值為：</p>
 <ul>
 <li><p>Required：必須使用 SRTP 加密。</p></li>
@@ -171,7 +173,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
 
 > [!NOTE]  
-> Lync Server Get-cstrunkconfiguration Cmdlet 支援未顯示在 Lync Server 控制台中的其他屬性。 如需詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A> Cmdlet 的 [說明] 主題。
+> Lync Server Get-cstrunkconfiguration Cmdlet 支援未顯示在 Lync Server 控制台中的其他屬性。 如需詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A> Cmdlet 的 [說明] 主題。
 
 
 
@@ -181,11 +183,11 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
 ## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台修改 SIP 主幹設定設定
 
-1.  在 [Lync Server 控制台] 中，按一下 [**語音路由**]，然後按一下 [**主幹**設定]。
+1.  在 [Lync Server 控制台] 中，按一下 [ **語音路由**]，然後按一下 [ **主幹**設定]。
 
 2.  在 [主幹組態]**** 索引標籤上，連按兩下要修改的主幹組態設定。請注意，一次只能編輯一個集合的設定。如果要針對多個集合進行相同的變更，請改用 Windows PowerShell。
 
-3.  在 [**編輯主幹**設定] 對話方塊中，進行適當的選擇，然後按一下 **[確定]**。
+3.  在 [ **編輯主幹** 設定] 對話方塊中，進行適當的選擇，然後按一下 **[確定]**。
 
 4.  集合的 **[狀態]** 屬性將會更新為 **[未認可]**。如要認可變更並刪除集合，請按一下 **[認可]**，然後按一下 **[全部認可]**。
 

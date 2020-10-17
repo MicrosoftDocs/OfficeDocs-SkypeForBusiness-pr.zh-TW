@@ -12,20 +12,22 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f3bd233f610d340c1854cf18337183e5f988426
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: af6c9892b717b43d3f19804b640245bc8d183b76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755837"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514980"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>將單一使用者移至試驗集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>將單一使用者移至試驗集區
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755837"
 
 _**主題上次修改日期：** 2012-09-26_
 
-您可以使用 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面，將您的 Lync Server 2010 集區中的使用者移至 Lync Server 2013 試驗集區。 在下列範例中，在 [報名者集區] 欄中， **pool01.contoso.net**是 Lync Server 2010 集區，而這六個使用者都連接至此集區。 使用下列程式，使用 Lync Server 2013 控制台和 Lync Server 管理命令介面，將使用者移至您的 Lync Server 2013 集區。
+您可以使用 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面，將您的 Lync Server 2010 集區中的使用者移至 Lync Server 2013 試驗集區。 在下列範例中，在 [報名者集區] 欄中， **pool01.contoso.net** 是 Lync Server 2010 集區，而這六個使用者都連接至此集區。 使用下列程式，使用 Lync Server 2013 控制台和 Lync Server 管理命令介面，將使用者移至您的 Lync Server 2013 集區。
 
 <div>
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012-09-26_
 
 2.  開啟 [ **Lync Server 控制台**]。
 
-3.  按一下 [**使用者**]，按一下 [搜尋]，然後按一下 [**尋找**]。
+3.  按一下 [ **使用者**]，按一下 [搜尋]，然後按一下 [ **尋找**]。
 
 4.  選取您要移至 Lync Server 2013 集區的使用者。 在這個範例中，將移動使用者 Sara Davis。
 
@@ -63,7 +65,7 @@ _**主題上次修改日期：** 2012-09-26_
     
     ![移動使用者、目的地註冊集區] 對話方塊](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "移動使用者、目的地註冊集區] 對話方塊")  
 
-8.  確認使用者的 [**報名者集**區] 欄現在包含 Lync Server 2013 集區，這表示使用者已順利移動。
+8.  確認使用者的 [ **報名者集** 區] 欄現在包含 Lync Server 2013 集區，這表示使用者已順利移動。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: QoE 表格清單'
+title: Lync Server 2013： QoE 表格清單
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29ccbf0340a68a1f03908ebe25b86abfc04d0114
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2c5078ac2e8e97364455d88d32c79a03c58f0c2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513830"
 ---
+# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 表格清單
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 表格清單
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42186566"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
 資料庫結構描述由下列表格所組成。
 
@@ -55,35 +57,35 @@ _**主題上次修改日期：** 2012年-10-02_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-appsharingmetricsthreshold-table.md">Lync Server 2013 中的 AppSharingMetricsThreshold 表</a></p></td>
+<td><p><a href="lync-server-2013-appsharingmetricsthreshold-table.md">Lync Server 2013 中的 AppSharingMetricsThreshold 表格</a></p></td>
 <td><p>針對用於應用程式共用的經驗品質計量，儲存最佳且可接受的值。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 中的 CodecDescription 表</a></p></td>
+<td><p><a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 中的 CodecDescription 表格</a></p></td>
 <td><p>將唯一轉碼器識別碼對應至其相對應的轉碼器。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表</a></p></td>
+<td><p><a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a></p></td>
 <td><p>將 IP 位址對應至用在經驗品質資料庫其他地方的唯一 IP 位址識別碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表</a></p></td>
+<td><p><a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表格</a></p></td>
 <td><p>將網路連線類型對應至用在經驗品質資料庫其他地方的網路連線識別碼。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Lync Server 2013 中的 PurgeSettings 表 (QoE)</a></p></td>
+<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">在 Lync Server 2013 中 PurgeSettings table (QoE) </a></p></td>
 <td><p>儲存指定是否 (何時) 要從 QoE 資料庫中自動刪除過期經驗品質記錄的資訊。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-traceroute-table.md">Lync Server 2013 中的 TraceRoute 表</a></p></td>
+<td><p><a href="lync-server-2013-traceroute-table.md">Lync Server 2013 中的 TraceRoute 表格</a></p></td>
 <td><p>儲存通話的路由資訊。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 資料表 (QoE)</a></p></td>
+<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">在 Lync Server 2013 中 UserAgentDef table (QoE) </a></p></td>
 <td><p>將使用者代理程式識別碼對應至代理程式的描述性名稱。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videometricsthreshold-table.md">Lync Server 2013 中的 VideoMetricsThreshold 表</a></p></td>
+<td><p><a href="lync-server-2013-videometricsthreshold-table.md">Lync Server 2013 中的 VideoMetricsThreshold 表格</a></p></td>
 <td><p>針對用於視訊通話的經驗品質計量，儲存最佳且可接受的值。</p></td>
 </tr>
 <tr class="odd">
@@ -95,11 +97,11 @@ _**主題上次修改日期：** 2012年-10-02_
 <td><p>儲存音訊和視訊工作階段中所用的使用者、會議以及電話 URI。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的 endpoint 表格</a></p></td>
+<td><p><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的端點表格</a></p></td>
 <td><p>儲存參與音訊和視訊工作階段之端點的 FQDN 電腦名稱。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-pool-table.md">Lync Server 2013 中的集區表格</a></p></td>
+<td><p><a href="lync-server-2013-pool-table.md">Lync Server 2013 中的 Pool 表格</a></p></td>
 <td><p>儲存計量資料所屬之集區的名稱。</p></td>
 </tr>
 <tr class="odd">
@@ -107,7 +109,7 @@ _**主題上次修改日期：** 2012年-10-02_
 <td><p>儲存音訊/視訊通話中所用的擷取裝置和轉換裝置。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-devicedriver-table.md">在 [Lync Server 2013: DeviceDriver 表格</a></p></td>
+<td><p><a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 中的 DeviceDriver 表格</a></p></td>
 <td><p>儲存音訊/視訊通話中所用的擷取裝置和轉換裝置驅動程式。</p></td>
 </tr>
 <tr class="odd">
@@ -119,7 +121,7 @@ _**主題上次修改日期：** 2012年-10-02_
 <td><p>儲存 PSTN 通話的 CorrelationID。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中為 PayloadDescription table</a></p></td>
+<td><p><a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表格</a></p></td>
 <td><p>儲存音訊/視訊通話中所用的轉碼器。</p></td>
 </tr>
 <tr class="even">
@@ -131,19 +133,19 @@ _**主題上次修改日期：** 2012年-10-02_
 <td><p>儲存參與音訊和視訊工作階段之端點的 MAC 位址。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-dialog-table.md">Lync Server 2013 中的 dialog 表格</a></p></td>
+<td><p><a href="lync-server-2013-dialog-table.md">Lync Server 2013 中的對話方塊表格</a></p></td>
 <td><p>儲存音訊和視訊工作階段的對話方塊 ID。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 中的區域資料表</a></p></td>
+<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 中的地區表格</a></p></td>
 <td><p>儲存 NCS 設定中所定義的網路地區。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-usersite-table.md">在 [Lync Server 2013: UserSite 表格</a></p></td>
+<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013 中的 UserSite 表格</a></p></td>
 <td><p>儲存 NCS 設定中所定義的網站。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-subnet-table.md">Lync Server 2013 中的子網路表格</a></p></td>
+<td><p><a href="lync-server-2013-subnet-table.md">Lync Server 2013 中的子網表格</a></p></td>
 <td><p>儲存 NCS 設定中所定義的子網路。</p></td>
 </tr>
 <tr class="even">
@@ -159,7 +161,7 @@ _**主題上次修改日期：** 2012年-10-02_
 <td><p>儲存參與音訊和視訊工作階段之端點的子網路。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-server-table.md">Lync Server 2013 中的 server 表格</a></p></td>
+<td><p><a href="lync-server-2013-server-table.md">Lync Server 2013 中的伺服器表格</a></p></td>
 <td><p>儲存媒體通過之伺服器的 FQDN 或 IP 位址。</p></td>
 </tr>
 </tbody>
@@ -182,15 +184,15 @@ _**主題上次修改日期：** 2012年-10-02_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-appsharingstream-table.md">Lync Server 2013 中的 AppSharingStream 表</a></p></td>
+<td><p><a href="lync-server-2013-appsharingstream-table.md">Lync Server 2013 中的 AppSharingStream 表格</a></p></td>
 <td><p>儲存用於應用程式共用之網路串流的經驗品質計量。用於應用程式共用之網路串流的經驗品質計量。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-table.md">Lync Server 2013 中的工作階段表格</a></p></td>
+<td><p><a href="lync-server-2013-session-table.md">Lync Server 2013 中的會話表格</a></p></td>
 <td><p>儲存音訊或音訊/視訊工作階段的整體資訊。 工作階段定義為兩個端點之間的音訊或視訊 SIP 對話。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 中為 MediaLine 表格</a></p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表格</a></p></td>
 <td><p>儲存工作階段中每個媒體行的相關資訊。媒體行為一或多個音訊及視訊資料流的集合。一般來說，單一媒體行會有兩個音訊或視訊資料流。</p></td>
 </tr>
 <tr class="even">

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 位置趨勢報告
+title: Lync Server 2013：位置趨勢報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef6c2905bbba3edfcdaba08746a8331b02881320
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: df3896704565a617ae4f50cfcc9afee29f5f098e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186416"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513770"
 ---
+# <a name="location-trend-report-in-lync-server-2013"></a>Lync Server 2013 中的位置趨勢報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-trend-report-in-lync-server-2013"></a>Lync Server 2013 中的位置趨勢報告
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42186416"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-06_
+_**主題上次修改日期：** 2012-06-06_
 
 位置趨勢報告提供網路位置的通話品質趨勢資訊。
 
@@ -66,9 +68,9 @@ _**主題上次修改日期：** 2012年-06-06_
 <td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -76,9 +78,9 @@ _**主題上次修改日期：** 2012年-06-06_
 <td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
@@ -95,16 +97,16 @@ _**主題上次修改日期：** 2012年-06-06_
 <td><p><strong>存取類型</strong></p></td>
 <td><p>指出撥打電腦時，用戶端是否登入內部網路或外部網路。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
+<li><p>一切</p></li>
 <li><p>內部</p></li>
-<li><p>External</p></li>
+<li><p>外部</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>網路類型</strong></p></td>
 <td><p>指出當撥打電話時，用戶端連線的網路類型。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
+<li><p>一切</p></li>
 <li><p>有線</p></li>
 <li><p>無線</p></li>
 </ul></td>
@@ -113,7 +115,7 @@ _**主題上次修改日期：** 2012年-06-06_
 <td><p><strong>VPN</strong></p></td>
 <td><p>指出當撥打電話時，外部用戶端是否使用虛擬私人網路 (VPN) 連線。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
+<li><p>一切</p></li>
 <li><p>VPN</p></li>
 <li><p>非 VPN</p></li>
 </ul></td>

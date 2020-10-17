@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS 摘要-單一 Director'
+title: Lync Server 2013： DNS 摘要-單一 Director
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692cfd5f04a80a674fffb5e3a0f2f1890309c371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1eaaebf1fb695bc1ee6ea1b86f980a666cf0a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515530"
 ---
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-單一 Director
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的單一 Director
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42192836"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-20 個_
+_**主題上次修改日期：** 2012-10-20_
 
-下表包含支援單一 Director 所需的 DNS 記錄摘要。 Director 角色為前端伺服器需要類似的 DNS 記錄。 Director 憑證上所需的主體替代名稱會反映所需的記錄筆數。 不同於前端伺服器，Director 不會主控使用者帳戶或裝載行動服務。
+下表包含支援單一 Director 所需之 DNS 記錄的摘要。 Director 的角色需要與前端伺服器類似的 DNS 記錄。 所需的記錄數目會反映在 Director 憑證所需的主體替代名稱中。 與前端伺服器不同的是，Director 不會主控使用者帳戶或主控行動性服務。
 
-### <a name="dns-records-required-for-the-director"></a>Director 的必要的 DNS 記錄
+### <a name="dns-records-required-for-the-director"></a>Director 所需的 DNS 記錄
 
 <table>
 <colgroup>
@@ -50,7 +52,7 @@ _**主題上次修改日期：** 2012年-10-20 個_
 </colgroup>
 <thead>
 <tr class="header">
-<th>位置/類型/連接埠</th>
+<th>位置/類型/埠</th>
 <th>FQDN/DNS 記錄</th>
 <th>IP 位址/FQDN</th>
 <th>對應至/註解</th>
@@ -61,13 +63,13 @@ _**主題上次修改日期：** 2012年-10-20 個_
 <td><p>內部 DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Director</p></td>
-<td><p>用於複寫及伺服器對伺服器的 director 主機記錄</p></td>
+<td><p>用於複寫和伺服器對伺服器的 Director 主機記錄</p></td>
 </tr>
 <tr class="even">
 <td><p>內部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Director</p></td>
-<td><p>輸入工作階段初始通訊協定 (SIP) 從 Edge Server 的內部 Edge 介面</p></td>
+<td><p>從 Edge Server 的內部 Edge 介面 (SIP) 的輸入會話初始通訊協定</p></td>
 </tr>
 <tr class="odd">
 <td><p>內部 DNS/A</p></td>
@@ -85,7 +87,7 @@ _**主題上次修改日期：** 2012年-10-20 個_
 <td><p>內部 DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
 <td><p>Director</p></td>
-<td><p>發行和定義反向 proxy Web 票證外部 web 服務的 Director</p></td>
+<td><p>由 Director 的反向 proxy Web 票證外部 Web 服務所發行及定義</p></td>
 </tr>
 </tbody>
 </table>

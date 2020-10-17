@@ -12,20 +12,22 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7252b2cda2f957dc72e006b7ce298bc5dd87fd5a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4409a0c5688d131b34c792230c992142dd4f9c51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206299"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514680"
 ---
+# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改未指派號碼範圍
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改未指派號碼範圍
+
 
 </div>
 
@@ -53,15 +55,15 @@ _**主題上次修改日期：** 2012-11-01_
 
 ## <a name="to-use-lync-server-control-panel-to-configure-unassigned-phone-numbers"></a>使用 Lync Server 控制台設定未指派的電話號碼
 
-1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左導覽列中，依序按一下 [**語音功能**] 和 [**未指派的號碼**]。
+3.  在左導覽列中，依序按一下 [ **語音功能**] 和 [ **未指派的號碼**]。
 
-4.  在 [**未指派的號碼**] 頁面上，執行下列其中一項操作：
+4.  在 [ **未指派的號碼** ] 頁面上，執行下列其中一項操作：
     
-      - 若要建立新的號碼範圍，請按一下 [**新增**]。 在 **[名稱]** 中，輸入此號碼範圍的識別名稱。
+      - 若要建立新的號碼範圍，請按一下 [ **新增**]。 在 **[名稱]** 中，輸入此號碼範圍的識別名稱。
         
         <div>
         
@@ -72,7 +74,7 @@ _**主題上次修改日期：** 2012-11-01_
         
         </div>
     
-      - 若要修改現有的號碼範圍，請在 [搜尋] 欄位中輸入編號範圍的全部或部分名稱。 在產生的號碼範圍清單中，按一下您想要的名稱，然後按一下 [**編輯**]，再按一下 [**顯示詳細資料**]。
+      - 若要修改現有的號碼範圍，請在 [搜尋] 欄位中輸入編號範圍的全部或部分名稱。 在產生的號碼範圍清單中，按一下您想要的名稱，然後按一下 [ **編輯**]，再按一下 [ **顯示詳細資料**]。
 
 5.  在第一個 **[號碼範圍]** 欄位中輸入範圍的開始號碼，在第二個 **[號碼範圍]** 欄位中輸入範圍的結束號碼。
     
@@ -107,7 +109,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 9.  按一下 **[確定]**。
 
-10. 在 [**未指派的號碼**] 頁面上，確定未指派的號碼範圍以您想要的順序排列。 若要變更某個範圍在表格中的位置，請在範圍清單中按一下一個或多個連續的名稱，然後按一下向上鍵或向下箭號。
+10. 在 [ **未指派的號碼** ] 頁面上，確定未指派的號碼範圍以您想要的順序排列。 若要變更某個範圍在表格中的位置，請在範圍清單中按一下一個或多個連續的名稱，然後按一下向上鍵或向下箭號。
     
     <div>
     
@@ -118,7 +120,7 @@ _**主題上次修改日期：** 2012-11-01_
     
     </div>
 
-11. 當您以您想要的順序排列未指派的號碼範圍時，請按一下 [**全部認可**]。
+11. 當您以您想要的順序排列未指派的號碼範圍時，請按一下 [ **全部認可**]。
 
 </div>
 
@@ -126,11 +128,11 @@ _**主題上次修改日期：** 2012-11-01_
 
 ## <a name="to-use-windows-powershell-to-configure-unassigned-phone-numbers"></a>使用 Windows PowerShell 設定未指派的電話號碼
 
-1.  以[Lync server 2013 的委派設定許可權](lync-server-2013-delegate-setup-permissions.md)中所述，登入安裝了 Lync Server 管理命令介面的電腦，以作為 RTCUniversalServerAdmins 群組的成員或必要的使用者權限。
+1.  以 [Lync server 2013 的委派設定許可權](lync-server-2013-delegate-setup-permissions.md)中所述，登入安裝了 Lync Server 管理命令介面的電腦，以作為 RTCUniversalServerAdmins 群組的成員或必要的使用者權限。
 
-2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-3.  使用**New-CsUnassignedNumber**建立新的未指派號碼範圍。 使用**Set-CsUnassignedNumber**修改現有的未指派號碼範圍。
+3.  使用 **New-CsUnassignedNumber** 建立新的未指派號碼範圍。 使用 **Set-CsUnassignedNumber** 修改現有的未指派號碼範圍。
     
     <div>
     

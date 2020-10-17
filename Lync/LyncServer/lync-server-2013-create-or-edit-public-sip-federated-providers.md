@@ -12,20 +12,22 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8a8da9937e31f0544dd93b1994745dc3a9eb10b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 58b0ffdc009d48ef82d1bdf3ba8662cd4072ea1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514850"
 ---
+# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>在 Lync Server 2013 中建立或編輯公用 SIP 同盟提供者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>在 Lync Server 2013 中建立或編輯公用 SIP 同盟提供者
+
 
 </div>
 

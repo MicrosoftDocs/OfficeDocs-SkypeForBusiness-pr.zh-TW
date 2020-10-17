@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 安裝 Lync for iPhone 和 iPad
+title: Lync Server 2013：安裝 Lync for iPhone 和 iPad 版
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91d8f26e0ae1b0777823380ca4888cad4c13ee90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 42d83536b3fac3f4050ce76015ce69a6a28522a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197016"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514190"
 ---
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>在 Lync Server 2013 中安裝 Lync for iPhone 和 iPad
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>安裝 Lync for iPhone 和 Lync Server 2013 中的 iPad
+
 
 </div>
 
@@ -35,30 +37,30 @@ ms.locfileid: "42197016"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-03-10_
+_**主題上次修改日期：** 2014-03-10_
 
-Lync 2013 for iPhone 和 iPad 版的 Lync 2013 是 Apple App Store 中可用的使用者安裝應用程式。
+Lync 2013 for iPhone 和 Lync 2013 for iPad 是可供使用者安裝的應用程式，可在 Apple 應用程式存放區中使用。
 
 <div>
 
 ## <a name="installing-lync-for-iphone-and-lync-for-ipad"></a>安裝 Lync for iPhone 和 Lync for iPad
 
-您可以指示使用者從他們的裝置導向至應用程式市集安裝 Lync 2013 for iPhone 和 iPad 版的 Lync 2013。 每個裝置的應用程式市集也有提供的線上。
+您可以指示您的使用者安裝 Lync 2013 for iPhone 和 Lync 2013 for iPad，方法是將其導向裝置中的應用程式存放區。 您也可以在線上使用每個裝置的應用程式存放區。
 
-  - Lync for iPhone 可在 [應用程式商店\<h<span></span>ttp://www.apple.com/iphone/from-the-app-store/>
+  - Lync for iPhone 可在 ttp://www.apple.com/iphone/from-the-app-store/的應用程式存放區中取得 \< h<span> </span> >
 
-  - Lync for iPad 可在 [應用程式商店\<ht<span></span>tp: / / www.apple.com/ipad/from-the-app-store/>
+  - Lync for iPad 可在 tp://www.apple.com/ipad/from-the-app-store/的應用程式存放區中取得 \< ht<span> </span> >
 
 <div>
 
 
 > [!IMPORTANT]  
-> iPhone 使用者誰未安裝 Lync 2013 應用程式和使用者嘗試加入會議邀請的 Lync 會議會重新導向至 Join Launcher 頁面。 此頁面包含安裝 Lync 2013 應用程式的連結。 不過，而不是將導向應用程式市集使用者，此連結會開啟空白的 Safari 瀏覽器] 頁面。 使用者可以執行下列其中一個兩件事，若要解決此問題： 
+> 尚未安裝 Lync 2013 應用程式的 iPhone 使用者，以及嘗試加入來自會議邀請之 Lync 會議的使用者，將會重新導向至 [加入啟動器] 頁面。 此頁面包含安裝 Lync 2013 應用程式的連結。 不過，此連結會開啟空白的 Safari 瀏覽器頁面，而不是將使用者導向至應用程式存放區。 使用者可以執行下列兩項操作以解決此問題： 
 > <UL>
 > <LI>
-> <P>傳送至背景中，[Safari] 頁面上使用 [<STRONG>家用</STRONG>] 按鈕，然後重新開啟 Safari。 「 應用程式存放區中開啟這個頁面 」 的通知出現時，點選 [<STRONG>開啟</STRONG>導引至應用程式存放區中的 Lync 2013 下載。</P>
+> <P>使用 [ <STRONG>主</STRONG> ] 按鈕，將 safari 頁面傳送至背景，然後重新開啟 safari。 出現 [在應用程式存放區中開啟此頁面] 的通知時，按一下 [ <STRONG>開啟</STRONG> ]，即可將其導向至應用程式存放區中的 Lync 2013 下載。</P>
 > <LI>
-> <P>以手動方式開啟應用程式市集、 搜尋 「 Lync 2013 」，並下載應用程式。</P></LI></UL>
+> <P>手動開啟應用程式存放區，搜尋 "Lync 2013"，然後下載應用程式。</P></LI></UL>
 
 
 
@@ -70,21 +72,21 @@ Lync 2013 for iPhone 和 iPad 版的 Lync 2013 是 Apple App Store 中可用的�
 
 ## <a name="verifying-mobile-client-installation"></a>確認行動用戶端安裝
 
-之後您設定用戶端並登入成功，使用下列測試來確認您的 Lync 安裝您的行動裝置上正確運作。
+在您設定用戶端並登入成功之後，請使用下列測試來確認您的 Lync 安裝在行動裝置上正常運作。
 
-**搜尋在公司目錄中的連絡人**
+**在公司目錄中搜尋連絡人**
 
-1.  在 [連絡人] 清單頂端的 [搜尋] 列中點一下並開始輸入存在連絡人的名稱只能在全域通訊清單 (GAL)。
+1.  在 [連絡人] 清單中，依序按一下上方的搜尋列，然後開始輸入只存在於全域通訊清單 (GAL) 中的連絡人名稱。
 
 2.  確認連絡人名稱出現在搜尋結果中。
 
-**測試 im 和目前狀態**
+**測試立即訊息和目前狀態**
 
-1.  在 [連絡人] 清單中，點選 [連絡人]。
+1.  在 [連絡人] 清單中，按一下連絡人。
 
-2.  連絡人卡片中點選**IM**圖示。
+2.  在連絡人卡片中，按一下 [ **IM** ] 圖示。
 
-3.  請確認立即訊息 (IM) 視窗隨即出現，而且您可以輸入及傳送 IM。
+3.  確認立即訊息 (IM) ] 視窗隨即出現，而且您可以輸入及傳送 IM。
 
 **測試電話撥出式會議**
 
@@ -96,15 +98,15 @@ Lync 2013 for iPhone 和 iPad 版的 Lync 2013 是 Apple App Store 中可用的�
 
 4.  從會議服務接聽來電，並確認您已連線至會議音訊。
 
-**測試推入通知**
+**測試推播通知**
 
-1.  在使用者 A 的行動裝置上登入 Lync 使用者 A 的帳戶。
+1.  在使用者 A 的行動裝置上，使用使用者 A 的帳戶登入 Lync。
 
-2.  開啟 [行動裝置上的另一個應用程式]。
+2.  在行動裝置上開啟另一個應用程式。
 
-3.  在不同的用戶端上登入 Lync 使用者 B 的帳戶。
+3.  在不同的用戶端上，使用使用者 B 的帳戶登入 Lync。
 
-4.  從使用者 B 傳送 IM 給使用者 a。
+4.  從使用者 B 傳送 IM 給使用者 A。
 
 5.  確認 IM 通知出現在使用者 A 的行動裝置上。
 

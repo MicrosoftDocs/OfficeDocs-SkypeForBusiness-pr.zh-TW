@@ -12,20 +12,22 @@ ms:contentKeyID: 48184959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 256962ace879c9d418d877b94f15227959177407
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 940470dc8b6ccb7563dede6e3deaa4f123d88858
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206939"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515720"
 ---
+# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中設定含媒體旁路的主幹
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中設定含媒體旁路的主幹
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42206939"
 
 _**主題上次修改日期：** 2014-02-07_
 
-請遵循下列步驟，設定啟用媒體旁路的主幹。 若要設定停用媒體旁路的主幹，請參閱[在 Lync Server 2013 中設定無媒體旁路的主幹](lync-server-2013-configure-a-trunk-without-media-bypass.md)。 當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 一般來說，轉送伺服器集區會部署在中央網站，它會控制分支網站上的閘道。 啟用媒體旁路允許公用交換電話網路的媒體 (PSTN) 來自分支網站用戶端的呼叫，以直接透過這些網站上的閘道來流向。 Lync Server 2013 輸出呼叫路由和 Enterprise Voice 原則必須正確設定，才能讓來自分支網站之用戶端的 PSTN 呼叫路由傳送至適當的閘道。
+請遵循下列步驟，設定啟用媒體旁路的主幹。 若要設定停用媒體旁路的主幹，請參閱 [在 Lync Server 2013 中設定無媒體旁路的主幹](lync-server-2013-configure-a-trunk-without-media-bypass.md)。 當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 一般來說，轉送伺服器集區會部署在中央網站，它會控制分支網站上的閘道。 啟用媒體旁路允許公用交換電話網路的媒體 (PSTN) 來自分支網站用戶端的呼叫，以直接透過這些網站上的閘道來流向。 Lync Server 2013 輸出呼叫路由和 Enterprise Voice 原則必須正確設定，才能讓來自分支網站之用戶端的 PSTN 呼叫路由傳送至適當的閘道。
 
-強烈建議您啟用媒體旁路。 不過，在 SIP 主幹上啟用媒體旁路之前，請先確認您合格的 SIP 主幹提供者支援媒體旁路，而且能夠滿足成功啟用此案例的需求。 具體而言，提供者必須具有組織內部網路中伺服器的 IP 位址。 如果提供者無法支援此案例，媒體旁路將會失敗。 如需詳細資訊，請參閱規劃檔中的[規劃 Lync Server 2013 中的媒體旁路](lync-server-2013-planning-for-media-bypass.md)。
+強烈建議您啟用媒體旁路。 不過，在 SIP 主幹上啟用媒體旁路之前，請先確認您合格的 SIP 主幹提供者支援媒體旁路，而且能夠滿足成功啟用此案例的需求。 具體而言，提供者必須具有組織內部網路中伺服器的 IP 位址。 如果提供者無法支援此案例，媒體旁路將會失敗。 如需詳細資訊，請參閱規劃檔中的 [規劃 Lync Server 2013 中的媒體旁路](lync-server-2013-planning-for-media-bypass.md) 。
 
 <div>
 
@@ -59,9 +61,9 @@ _**主題上次修改日期：** 2014-02-07_
 
 ## <a name="to-configure-a-trunk-with-media-bypass"></a>使用媒體旁路設定主幹
 
-1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[語音路由]**，再按一下 **[主幹組態]**。
 
@@ -71,9 +73,9 @@ _**主題上次修改日期：** 2014-02-07_
     
       - 按一下 **[新增]**，然後選取新主幹組態：
         
-          - **網站主幹：** 從 [**選取網站**] 選擇此主幹設定的網站，然後按一下 **[確定]**。 請注意，如果已為某個網站建立主幹組態，則該網站不會出現在 **[選取站台]** 中。 此主幹組態將套用至網站中的所有主幹。
+          - **網站主幹：** 從 [ **選取網站**] 選擇此主幹設定的網站，然後按一下 **[確定]**。 請注意，如果已為某個網站建立主幹組態，則該網站不會出現在 **[選取站台]** 中。 此主幹組態將套用至網站中的所有主幹。
         
-          - **集區主幹：** 選擇此主幹設定適用的主幹名稱。 這個主幹可以是根主幹或在拓撲產生器中定義的任何其他主幹。 從 [**選取服務**] 中，按一下 **[確定]**。 請注意，如果已經針對特定主幹建立主幹組態，則該主幹就不會顯示在 **[選取服務]** 中。
+          - **集區主幹：** 選擇此主幹設定適用的主幹名稱。 這個主幹可以是根主幹或在拓撲產生器中定義的任何其他主幹。 從 [ **選取服務**] 中，按一下 **[確定]**。 請注意，如果已經針對特定主幹建立主幹組態，則該主幹就不會顯示在 **[選取服務]** 中。
     
     <div>
     
@@ -84,7 +86,7 @@ _**主題上次修改日期：** 2014-02-07_
     
     </div>
 
-5.  在**支援的最大早期對話方塊**中指定一個值。 這是公用交換電話網路 (PSTN) 閘道、IP-PBX 或 ITSP 會話邊界控制器 (SBC) 可以接收到它傳送給轉送伺服器的邀請數目上限。 預設值是 20。
+5.  在 **支援的最大早期對話方塊**中指定一個值。 這是公用交換電話網路 (PSTN) 閘道、IP-PBX 或 ITSP 會話邊界控制器 (SBC) 可以接收到它傳送給轉送伺服器的邀請數目上限。 預設值是 20。
     
     <div>
     
@@ -103,33 +105,33 @@ _**主題上次修改日期：** 2014-02-07_
     
       - **不支援：** SRTP 不支援服務提供者或設備製造商的加密，因此不會使用此加密。
 
-7.  如果您想讓媒體略過轉送伺服器，以供主幹對等處理，請選取 [**啟用媒體旁路**] 核取方塊。
+7.  如果您想讓媒體略過轉送伺服器，以供主幹對等處理，請選取 [ **啟用媒體旁路** ] 核取方塊。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 若要讓媒體旁路順利運作，PSTN 閘道、IP-PBX 或 ITSP 會話邊界控制器必須支援某些功能。 如需詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-media-bypass.md">規劃 Lync Server 2013 中的媒體旁路</A>。
+    > 若要讓媒體旁路順利運作，PSTN 閘道、IP-PBX 或 ITSP 會話邊界控制器必須支援某些功能。 如需詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-media-bypass.md">規劃 Lync Server 2013 中的媒體旁路</A> 。
 
     
     </div>
 
-8.  如果有已知的媒體終端 (點，請選取 [**集中式媒體處理**] 核取方塊（例如，媒體端接系的 IP 位址與「終止」) 相同）。 如果主幹沒有已知的媒體終端點，請清除此核取方塊。
+8.  如果有已知的媒體終端 (點，請選取 [ **集中式媒體處理** ] 核取方塊（例如，媒體端接系的 IP 位址與「終止」) 相同）。 如果主幹沒有已知的媒體終端點，請清除此核取方塊。
 
-9.  如果主幹對等支援從轉送伺服器接收 SIP 參考要求，請選取 [**啟用傳送參照至閘道**] 核取方塊。
+9.  如果主幹對等支援從轉送伺服器接收 SIP 參考要求，請選取 [ **啟用傳送參照至閘道** ] 核取方塊。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果在選取 [<STRONG>啟用媒體旁路</STRONG>] 選項時停用此選項，則需要其他設定。 若主幹對等不支援從轉送伺服器接收 SIP 參考要求和媒體旁路，您也必須執行<STRONG>Set-CsTrunkConfiguration</STRONG> Cmdlet 以停用使用中和保留通話的 RTCP，以便支援媒體旁路的適當狀況。 如需詳細資訊，請參閱<A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 管理命令</A>介面檔。<BR>或者，您也可以選取 [<STRONG>使用協力廠商通話控制啟用參考</STRONG>]，如果您想要將轉接來電轉接到媒體略過，而閘道不支援 SIP 參考要求。
+    > 如果在選取 [ <STRONG>啟用媒體旁路</STRONG> ] 選項時停用此選項，則需要其他設定。 若主幹對等不支援從轉送伺服器接收 SIP 參考要求和媒體旁路，您也必須執行 <STRONG>Set-CsTrunkConfiguration</STRONG> Cmdlet 以停用使用中和保留通話的 RTCP，以便支援媒體旁路的適當狀況。 如需詳細資訊，請參閱 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 管理命令</A> 介面檔。<BR>或者，您也可以選取 [ <STRONG>使用協力廠商通話控制啟用參考</STRONG> ]，如果您想要將轉接來電轉接到媒體略過，而閘道不支援 SIP 參考要求。
 
     
     </div>
 
 10. (選用) 若要啟用主幹間的路由，請關聯至此主幹組態並設定其 PSTN 使用方式記錄。與此主幹組態相關聯的 PSTN 使用方式，將會套用至整個主幹中並非由 Lync 端點產生的所有來電。若要管理與主幹組態關聯的 PSTN 使用方式記錄，請使用下列其中一種方法：
     
-      - 若要從 Enterprise Voice 部署中所有可用的 PSTN 使用方式記錄清單中選取一或多筆記錄，請按一下 [**選取**]。 反白顯示您要與此主幹組態建立關聯的記錄，然後按一下 **[確定]**。
+      - 若要從 Enterprise Voice 部署中所有可用的 PSTN 使用方式記錄清單中選取一或多筆記錄，請按一下 [ **選取**]。 反白顯示您要與此主幹組態建立關聯的記錄，然後按一下 **[確定]**。
     
       - 若要從此主幹組態移除 PSTN 使用方式記錄，請選取該記錄然後按一下 **[移除]**。
     
@@ -150,13 +152,13 @@ _**主題上次修改日期：** 2014-02-07_
         
         3.  使用下列其中一種方法，關聯至此 PSTN 使用方式記錄並設定其路由：
             
-              - 若要從 Enterprise Voice 部署中所有可用路由的清單中選取一個或多個路由，請按一下 [**選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
+              - 若要從 Enterprise Voice 部署中所有可用路由的清單中選取一個或多個路由，請按一下 [ **選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
             
               - 若要從 PSTN 使用方式記錄移除路由，請選取該路由，然後按一下 **[移除]**。
             
-              - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md)。
+              - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md)。
             
-              - 若要編輯與此 PSTN 使用方式記錄相關聯的路由，請選取該路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱[Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)。
+              - 若要編輯與此 PSTN 使用方式記錄相關聯的路由，請選取該路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)。
         
         4.  按一下 **[確定]**。
     
@@ -166,13 +168,13 @@ _**主題上次修改日期：** 2014-02-07_
         
         2.  使用下列其中一種方法，關聯至此 PSTN 使用方式記錄並設定其路由：
             
-              - 若要從 Enterprise Voice 部署中所有可用路由的清單中選取一個或多個路由，請按一下 [**選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
+              - 若要從 Enterprise Voice 部署中所有可用路由的清單中選取一個或多個路由，請按一下 [ **選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
             
               - 若要從 PSTN 使用方式記錄移除路由，請選取該路由，然後按一下 **[移除]**。
             
-              - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md)。
+              - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md)。
             
-              - 若要編輯與此 PSTN 使用方式記錄相關聯的路由，請選取該路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱[Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)。
+              - 若要編輯與此 PSTN 使用方式記錄相關聯的路由，請選取該路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)。
         
         3.  按一下 [確定]****。
     
@@ -206,13 +208,13 @@ _**主題上次修改日期：** 2014-02-07_
 
 16. (選用) 建立與主幹的關聯並設定其 **[撥號轉譯規則]**。 這些轉譯規則適用於撥出電話的撥打號碼
     
-      - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [**選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
+      - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
     
-      - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
+      - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md) 。
     
-      - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署檔中的在[Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
+      - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md) 。
     
-      - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，請參閱[在 Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
+      - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，請參閱 [在 Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
     
       - 若要從主幹移除轉譯規則，請反白顯示該規則名稱並按一下 **[移除]**。
     
@@ -227,13 +229,13 @@ _**主題上次修改日期：** 2014-02-07_
 
 17. (選用) 建立與主幹的關聯並設定其 **[撥號轉譯規則]**。這些轉譯規則適用於撥出電話的撥打號碼。
     
-      - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [**選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
+      - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
     
-      - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
+      - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md) 。
     
-      - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署檔中的在[Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
+      - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md) 。
     
-      - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，請參閱[在 Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
+      - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，請參閱 [在 Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)。
     
       - 若要從主幹移除轉譯規則，請反白顯示該規則名稱並按一下 **[移除]**。
     
@@ -265,12 +267,12 @@ _**主題上次修改日期：** 2014-02-07_
     
 
     > [!NOTE]  
-    > 只要建立或修改主幹組態後，都應執行 <STRONG>[全部認可]</STRONG> 命令以發行組態變更。 如需詳細資訊，請參閱 Operations 檔中的在<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中發佈擱置的變更至語音路由</A>設定。
+    > 只要建立或修改主幹組態後，都應執行 <STRONG>[全部認可]</STRONG> 命令以發行組態變更。 如需詳細資訊，請參閱 Operations 檔中的在 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中發佈擱置的變更至語音路由</A> 設定。
 
     
     </div>
 
-設定主幹之後，請選擇通用媒體旁路選項，繼續設定媒體旁路，如部署檔中的 [ [Lync Server 2013 中的全域媒體旁路選項](lync-server-2013-global-media-bypass-options.md)所述。
+設定主幹之後，請選擇通用媒體旁路選項，繼續設定媒體旁路，如部署檔中的 [ [Lync Server 2013 中的全域媒體旁路選項](lync-server-2013-global-media-bypass-options.md) 所述。
 
 </div>
 

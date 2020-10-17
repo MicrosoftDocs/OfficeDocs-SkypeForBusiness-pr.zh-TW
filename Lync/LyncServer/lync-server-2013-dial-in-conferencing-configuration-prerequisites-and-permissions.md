@@ -12,20 +12,22 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213449"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514506"
 ---
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議設定必要條件和許可權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013 中的電話撥入式會議設定必要條件和許可權
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2012-06-20_
 
 電話撥入式會議需要下列 Lync Server 2013 元件：
 
-  - 整合通訊應用程式服務 (UCAS)  (稱為*Application Service*) 
+  - 整合通訊應用程式服務 (UCAS)  (稱為 *Application Service*) 
 
   - Conferencing Attendant application
 
@@ -63,7 +65,7 @@ _**主題上次修改日期：** 2012-06-20_
 
 
 > [!NOTE]
-> 如果您要從 Office 通訊伺服器 2007 R2 升級至 Lync Server 2013，請在您計畫用於主控 Lync Server 2013 會議的每個集區中部署電話撥入式會議。 如需遷移電話撥入式會議的詳細資訊，請參閱<A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013</A>。
+> 如果您要從 Office 通訊伺服器 2007 R2 升級至 Lync Server 2013，請在您計畫用於主控 Lync Server 2013 會議的每個集區中部署電話撥入式會議。 如需遷移電話撥入式會議的詳細資訊，請參閱 <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013</A>。
 
 
 
@@ -73,9 +75,9 @@ _**主題上次修改日期：** 2012-06-20_
 
   - 如果您要遷移至 Lync Server 2013，請將最新的更新套用至 Office 通訊伺服器 2007 R2 環境。
 
-  - 使用拓撲產生器來設計及設定拓撲。 在指定會議工作負載時，您已選取 [電話撥入式會議] 選項。 如需定義拓撲的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中定義及設定拓撲](lync-server-2013-defining-and-configuring-the-topology.md)。
+  - 使用拓撲產生器來設計及設定拓撲。 在指定會議工作負載時，您已選取 [電話撥入式會議] 選項。 如需定義拓撲的詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中定義及設定拓撲](lync-server-2013-defining-and-configuring-the-topology.md) 。
 
-  - 已發行您的拓撲，並設定前端集區或 Standard Edition server。 如需發行拓撲及安裝 Lync Server 2013 的詳細資訊，請參閱部署檔中的[部署 Lync server 2013](lync-server-2013-deploying-lync-server.md) 。
+  - 已發行您的拓撲，並設定前端集區或 Standard Edition server。 如需發行拓撲及安裝 Lync Server 2013 的詳細資訊，請參閱部署檔中的 [部署 Lync server 2013](lync-server-2013-deploying-lync-server.md) 。
     
     <div>
     
@@ -95,7 +97,7 @@ _**主題上次修改日期：** 2012-06-20_
     
     </div>
 
-  - 已部署的 Enterprise Voice。 如果您不是部署企業語音，您可以組合 Enterprise Edition 前端伺服器或 Standard Edition server 上的轉送伺服器，或是部署了獨立轉送伺服器，並已部署 PSTN 閘道。 如需部署企業語音的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中部署 Enterprise Voice](lync-server-2013-deploying-enterprise-voice.md) 。 如需安裝獨立轉送伺服器和 PSTN 閘道的詳細資訊，請參閱部署檔中的部署中繼[伺服器及定義 Lync Server 2013 中的對等](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)專案。
+  - 已部署的 Enterprise Voice。 如果您不是部署企業語音，您可以組合 Enterprise Edition 前端伺服器或 Standard Edition server 上的轉送伺服器，或是部署了獨立轉送伺服器，並已部署 PSTN 閘道。 如需部署企業語音的詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中部署 Enterprise Voice](lync-server-2013-deploying-enterprise-voice.md) 。 如需安裝獨立轉送伺服器和 PSTN 閘道的詳細資訊，請參閱部署檔中的部署中繼 [伺服器及定義 Lync Server 2013 中的對等](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) 專案。
 
 下列流程圖顯示您必須執行的步驟，才能設定電話撥入式會議，以及設定電話撥入式會議所執行的步驟。
 

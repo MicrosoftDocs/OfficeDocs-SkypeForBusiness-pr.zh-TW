@@ -12,20 +12,22 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54e1e8e130374e296d18680cf5d82001e55b68af
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 016ace11375483fbeaa59199e9f1cdae23654cd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513820"
 ---
+# <a name="load-balancing-requirements-for-lync-server-2013"></a>Lync Server 2013 的負載平衡需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="load-balancing-requirements-for-lync-server-2013"></a>Lync Server 2013 的負載平衡需求
+
 
 </div>
 
@@ -47,9 +49,9 @@ Lync Server 2013 支援用戶端對伺服器流量的兩種負載平衡解決方
 
   - 某些類型的流量需要硬體負載平衡器。 例如，HTTP 流量需要硬體負載平衡器，而不是使用 DNS 負載平衡。 DNS 負載平衡無法搭配用戶端對伺服器的 web 流量使用。
 
-如需選擇硬體負載平衡器解決方案的詳細資訊，請參閱[Lync Server 2013 的硬體負載平衡器需求](lync-server-2013-hardware-load-balancer-requirements.md)。
+如需選擇硬體負載平衡器解決方案的詳細資訊，請參閱 [Lync Server 2013 的硬體負載平衡器需求](lync-server-2013-hardware-load-balancer-requirements.md)。
 
-如果您選擇針對集區使用 DNS 負載平衡，但仍需要針對流量（例如 HTTP 流量）執行硬體負載平衡器，則可大幅簡化硬體負載平衡器的管理。 例如，設定硬體負載平衡器會變得更簡單，因為它只會管理 HTTP 和 HTTPS 流量，而所有其他通訊協定都會透過 DNS 負載平衡來管理。 如需詳細資訊，請參閱[Lync Server 2013 中的 DNS 負載平衡](lync-server-2013-dns-load-balancing.md)。
+如果您選擇針對集區使用 DNS 負載平衡，但仍需要針對流量（例如 HTTP 流量）執行硬體負載平衡器，則可大幅簡化硬體負載平衡器的管理。 例如，設定硬體負載平衡器會變得更簡單，因為它只會管理 HTTP 和 HTTPS 流量，而所有其他通訊協定都會透過 DNS 負載平衡來管理。 如需詳細資訊，請參閱 [Lync Server 2013 中的 DNS 負載平衡](lync-server-2013-dns-load-balancing.md)。
 
 針對伺服器對伺服器流量，Lync Server 2013 使用拓撲感知負載平衡。 伺服器讀取中央管理存放區中已發佈的拓撲，以取得拓撲中的伺服器 Fqdn，並在伺服器間自動散佈流量。 管理員不需要設定或管理這種類型的負載平衡。
 

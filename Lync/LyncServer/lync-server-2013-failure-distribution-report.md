@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 失敗散佈報告
+title: Lync Server 2013：失敗散佈報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1531b7b103e3df6f2d165a4fd6fcd3abf100132
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65735c6b5eba4ff8d15aced6fcc94e38591bdb3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179620"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515390"
 ---
+# <a name="failure-distribution-report-in-lync-server-2013"></a>Lync Server 2013 的失敗散佈報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-distribution-report-in-lync-server-2013"></a>Lync Server 2013 中的失敗散佈報告
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42179620"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-21_
+_**主題上次修改日期：** 2012-10-21_
 
 失敗散佈報告會在下列類別中為失敗的工作階段進行排名：
 
@@ -63,13 +65,13 @@ _**主題上次修改日期：** 2012年-10-21_
 
 您可以按一下 **[預期失敗次數]** 或 **[未預期失敗次數]** 計量，從下列任一個報告存取失敗散佈報告：
 
-  - [Lync Server 2013 中的最大失敗報告](lync-server-2013-top-failures-report.md)
+  - [Lync Server 2013 的最大失敗報告](lync-server-2013-top-failures-report.md)
 
   - [Lync Server 2013 中的會議診斷報告](lync-server-2013-conference-diagnostic-report.md)
 
-  - [Lync Server 2013 中的對等活動診斷報告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
+  - [Lync Server 2013 中的 Peer-to-Peer 活動診斷報告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-從失敗散佈報告中，您可以按一下下列計量，以檢視[Failure List Report Lync Server 2013 中](lync-server-2013-failure-list-report.md)的任何：
+在 [失敗散佈報告] 中，您可以按一下下列任何度量，以 [在 Lync Server 2013 中查看失敗清單報告](lync-server-2013-failure-list-report.md)：
 
   - 前幾名診斷原因 (工作階段)
 
@@ -130,9 +132,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 <td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -140,21 +142,21 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 <td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部]<strong></strong> 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>活動類型</strong></p></td>
 <td><p>篩選的活動類型。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
-<li><p>端對端</p></li>
+<li><p>一切</p></li>
+<li><p>對等</p></li>
 <li><p>會議</p></li>
 </ul></td>
 </tr>
@@ -162,12 +164,12 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 <td><p><strong>工作階段類別</strong></p></td>
 <td><p>指出有疑問的活動為成功或失敗。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
+<li><p>一切</p></li>
 <li><p>成功</p></li>
 <li><p>預期的失敗</p></li>
 <li><p>未預期的失敗</p></li>
 </ul>
-<p>&quot;預期失敗&quot;是預期會發生的失敗。 例如，當使用者將其狀態設為「勿打擾」時，即應預期所有撥話給該使用者的通話皆會失敗。 &quot;未預期的失敗&quot;是在項目會顯示為否則狀況良好的系統，就會發生的失敗。 例如，當發話者處於保留狀態時，不應掛斷通話。 當發生此狀況時，會將其標幟為未預期的失敗。</p></td>
+<p>&quot;預期的失敗 &quot; 是預期會發生的失敗。 例如，當使用者將其狀態設為「勿打擾」時，即應預期所有撥話給該使用者的通話皆會失敗。 未 &quot; 預期的失敗 &quot; 是指出現在其他狀況良好之系統上的失敗。 例如，當發話者處於保留狀態時，不應掛斷通話。 當發生此狀況時，會將其標幟為未預期的失敗。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>診斷識別碼</strong></p></td>
@@ -195,9 +197,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -238,9 +240,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -281,26 +283,26 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Rank</strong></p></td>
 <td><p>否</p></td>
-<td><p>登錄器集區或 Edge Server 已在單獨執行的工作階段為基礎的失敗工作階段相對排名。</p></td>
+<td><p>根據執行會話之註冊集區或 Edge Server 之失敗會話的相對排名。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>前幾名集區</strong></p></td>
 <td><p>否</p></td>
-<td><p>登錄器集區或 Edge Server 的名稱。</p></td>
+<td><p>註冊機構集區或 Edge Server 的名稱。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>工作階段</strong></p></td>
 <td><p>否</p></td>
-<td><p>每個登錄器集區或 Edge Server 的失敗工作階段總數。</p></td>
+<td><p>每個註冊集區或 Edge Server 的失敗會話總數。</p></td>
 </tr>
 </tbody>
 </table>
@@ -324,9 +326,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -355,7 +357,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 ## <a name="metrics-for-top-components"></a>前幾名元件的計量
 
-下表列出根據最常發生失敗的 Microsoft Lync Server 2010 元件失敗散佈報告中提供的資訊。
+下表根據最近失敗的 Microsoft Lync Server 2010 元件，列出失敗散佈報告中提供的資訊。
 
 ### <a name="metrics-for-top-components"></a>前幾名元件的計量
 
@@ -367,16 +369,16 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Rank</strong></p></td>
 <td><p>否</p></td>
-<td><p>Lync Server 2010 元件 （例如 ExumRouting、 GroupChat 或 MediationServer） 為基礎的失敗工作階段相對排名。</p></td>
+<td><p>根據 Lync Server 2010 元件的失敗會話的相對排名 (例如，ExumRouting、GroupChat 或 MediationServer) 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>前幾名元件</strong></p></td>
@@ -410,9 +412,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -452,9 +454,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -495,9 +497,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

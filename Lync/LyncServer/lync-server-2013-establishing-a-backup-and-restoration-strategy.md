@@ -12,20 +12,22 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a65dd081cacd9952ce1b9a7f0917209532a28cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e281b85879063cacb9538d03fe221a4bf96b6bc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514210"
 ---
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>建立 Lync Server 2013 的備份與還原策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>建立 Lync Server 2013 的備份與還原策略
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2013-03-26_
 
   - **備份頻率**    如需有關備份頻率之最佳作法的詳細資訊，請參閱[Lync Server 2013 備份與還原的最佳作法](lync-server-2013-best-practices-for-backup-and-restoration.md)。
 
-  - **備份及還原工具**    包含誰要使用工具，以及在哪些電腦上使用。 如需本主題所討論之工具的詳細資訊，請參閱[Lync Server 2013 中的備份和還原需求：工具和許可權](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。
+  - **備份及還原工具**    包含誰要使用工具，以及在哪些電腦上使用。 如需本主題所討論之工具的詳細資訊，請參閱 [Lync Server 2013 中的備份和還原需求：工具和許可權](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。
 
   - **備份位置**    識別備份是否要在本機或從遠端保存，以進行安全性及可存取性考慮。 指定備份所使用的媒體。
 

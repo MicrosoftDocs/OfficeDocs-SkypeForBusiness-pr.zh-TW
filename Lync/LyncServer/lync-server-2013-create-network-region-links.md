@@ -12,20 +12,22 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1af9c2d6b651fd127986d89d521e99745e1af384
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e8c3d0fd254ba780b91d554402ca38d30f7073
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515560"
 ---
+# <a name="create-network-region-links-in-lync-server-2013"></a>在 Lync Server 2013 中建立網路地區連結
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a>在 Lync Server 2013 中建立網路地區連結
+
 
 </div>
 
@@ -49,15 +51,15 @@ _**主題上次修改日期：** 2012-10-19_
 
   - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
 
-這個範例拓撲有一個北美和 APAC 地區之間的連結，以及 EMEA 和 APAC 地區之間的連結。 每個地區連結都受 WAN 頻寬限制，如範例中的地區連結頻寬資訊表格所述：在規劃檔的 [ [Lync Server 2013] 區段中收集通話許可控制需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。
+這個範例拓撲有一個北美和 APAC 地區之間的連結，以及 EMEA 和 APAC 地區之間的連結。 每個地區連結都受 WAN 頻寬限制，如範例中的地區連結頻寬資訊表格所述：在規劃檔的 [ [Lync Server 2013] 區段中收集通話許可控制需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 。
 
 <div>
 
 ## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a>使用 Lync Server 管理命令介面建立網路地區連結
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  執行 CsNetworkRegionLink Cmdlet 來建立地區連結，並套用適當的頻寬原則設定檔。 例如，執行：
+2.  執行 New-CsNetworkRegionLink Cmdlet 來建立地區連結，並套用適當的頻寬原則設定檔。 例如，執行：
     
       ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -73,21 +75,21 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台建立網路地區連結
 
-1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左導覽列中，按一下 **[網路組態]**。
 
-3.  按一下 [**地區連結**] 導覽按鈕。
+3.  按一下 [ **地區連結** ] 導覽按鈕。
 
 4.  按一下 [ **新增**]。
 
-5.  在 [**新增地區連結**] 頁面上，按一下 [**名稱**]，然後輸入網路地區連結的名稱。
+5.  在 [ **新增地區連結** ] 頁面上，按一下 [ **名稱** ]，然後輸入網路地區連結的名稱。
 
-6.  按一下 [**網路地區 \# 1**]，然後按一下清單中要連結至 [網路地區 2] 的網路地區 \# 。
+6.  按一下 [ **網路地區 \# 1**]，然後按一下清單中要連結至 [網路地區 2] 的網路地區 \# 。
 
-7.  按一下 [**網路地區 \# 2**]，然後按一下清單中要連結至 [網路地區 1] 的網路地區 \# 。
+7.  按一下 [ **網路地區 \# 2**]，然後按一下清單中要連結至 [網路地區 1] 的網路地區 \# 。
 
-8.  （選用）按一下 [**頻寬原則**]，然後選取您要套用到網路地區連結的頻寬原則設定檔。
+8.  （選用）按一下 [ **頻寬原則**]，然後選取您要套用到網路地區連結的頻寬原則設定檔。
     
     <div class=" ">
     
