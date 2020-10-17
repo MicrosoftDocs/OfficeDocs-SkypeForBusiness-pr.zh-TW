@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 用於備份及還原的最佳作法
+title: Lync Server 2013：備份及還原的最佳作法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30dd3345545ae8c77c4ebfcece7154e91059f9aa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca14913d063a8691d0477af912e70e72b91143fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191576"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535200"
 ---
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a><span data-ttu-id="07dcf-102">Lync Server 2013 備份及還原的最佳作法</span><span class="sxs-lookup"><span data-stu-id="07dcf-102">Best practices for backup and restoration for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a><span data-ttu-id="dbcbe-102">備份及還原 Lync Server 2013 的最佳作法</span><span class="sxs-lookup"><span data-stu-id="dbcbe-102">Best practices for backup and restoration for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,59 +37,59 @@ ms.locfileid: "42191576"
 
 <span> </span>
 
-<span data-ttu-id="dbcbe-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="dbcbe-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="07dcf-103">_**主題上次修改日期：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="07dcf-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="dbcbe-104">本節包含兩種類型的最佳作法：</span><span class="sxs-lookup"><span data-stu-id="dbcbe-104">This section includes two types of best practices:</span></span>
+<span data-ttu-id="07dcf-104">本節包含兩種最佳作法類型：</span><span class="sxs-lookup"><span data-stu-id="07dcf-104">This section includes two types of best practices:</span></span>
 
-  - <span data-ttu-id="dbcbe-105">用於備份及還原的最佳作法。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-105">Best practices for backup and restoration.</span></span>
+  - <span data-ttu-id="07dcf-105">備份及還原的最佳作法。</span><span class="sxs-lookup"><span data-stu-id="07dcf-105">Best practices for backup and restoration.</span></span>
 
-  - <span data-ttu-id="dbcbe-106">降低災害影響程度的最佳作法。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-106">Best practices for minimizing the impact of a disaster.</span></span>
+  - <span data-ttu-id="07dcf-106">使災難影響降至最低的最佳作法。</span><span class="sxs-lookup"><span data-stu-id="07dcf-106">Best practices for minimizing the impact of a disaster.</span></span>
 
 <div>
 
-## <a name="best-practices-for-backup-and-restoration"></a><span data-ttu-id="dbcbe-107">備份及還原的最佳作法</span><span class="sxs-lookup"><span data-stu-id="dbcbe-107">Best Practices for Backup and Restoration</span></span>
+## <a name="best-practices-for-backup-and-restoration"></a><span data-ttu-id="07dcf-107">備份及還原的最佳作法</span><span class="sxs-lookup"><span data-stu-id="07dcf-107">Best Practices for Backup and Restoration</span></span>
 
-<span data-ttu-id="dbcbe-108">當您備份或還原您的資料，以利您備份和還原程序，套用下列最佳作法：</span><span class="sxs-lookup"><span data-stu-id="dbcbe-108">To facilitate your backup and restoration process, apply the following best practices when you back up or restore your data:</span></span>
+<span data-ttu-id="07dcf-108">若要協助您的備份與還原程式，請在備份或還原資料時套用下列最佳作法：</span><span class="sxs-lookup"><span data-stu-id="07dcf-108">To facilitate your backup and restoration process, apply the following best practices when you back up or restore your data:</span></span>
 
-  - <span data-ttu-id="dbcbe-109">在適當的時間間隔執行定期備份。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-109">Perform regular backups at appropriate intervals.</span></span> <span data-ttu-id="dbcbe-110">簡單且最常使用的備份類型和旋轉排程是完整、 夜間整個 SQL Server 資料庫的備份。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-110">The simplest and most commonly used backup type and rotation schedule is a full, nightly backup of the entire SQL Server database.</span></span> <span data-ttu-id="dbcbe-111">然後，如果需要還原，復原程序需要只有一個備份，並不超過一天的資料不會遺失。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-111">Then, if restoration is necessary, the restoration process requires only one backup, and no more than a day’s data should be lost.</span></span>
+  - <span data-ttu-id="07dcf-109">以適當的間隔執行定期備份。</span><span class="sxs-lookup"><span data-stu-id="07dcf-109">Perform regular backups at appropriate intervals.</span></span> <span data-ttu-id="07dcf-110">最簡單且最常使用的備份類型和輪替排程是完整、晚上備份整個 SQL Server 資料庫的完整備份。</span><span class="sxs-lookup"><span data-stu-id="07dcf-110">The simplest and most commonly used backup type and rotation schedule is a full, nightly backup of the entire SQL Server database.</span></span> <span data-ttu-id="07dcf-111">這樣一來，如果需要還原，還原程式只需要一個備份，而且不會有超過一天的資料遺失。</span><span class="sxs-lookup"><span data-stu-id="07dcf-111">Then, if restoration is necessary, the restoration process requires only one backup, and no more than a day’s data should be lost.</span></span>
 
-  - <span data-ttu-id="dbcbe-112">如果您使用 cmdlet 或 Lync Server Control Panel 以進行組態變更，使用**Export-csconfiguration** cmdlet 之後要採取的拓撲組態檔 (Xds.mdf) 快照備份進行的變更，使您不會遺失所做的變更，如果您需要還原資料庫。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-112">If you use cmdlets or the Lync Server Control Panel to make configuration changes, use the **Export-CsConfiguration** cmdlet to take a snapshot backup of the topology configuration file (Xds.mdf) after you make the changes, so that you won't lose the changes if you need to restore your databases.</span></span> <span data-ttu-id="dbcbe-113">請注意，此組態是以 XML 格式，備份壓縮的 ZIP 檔案。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-113">Note that this configuration is backed up in XML format and compressed as a ZIP file.</span></span>
+  - <span data-ttu-id="07dcf-112">如果您使用 Cmdlet 或 Lync Server 控制台進行設定變更，請在進行變更之後，使用 **Export-CsConfiguration** 指令程式對拓撲設定檔進行快照備份，以 () Xds，這樣就不會在您需要還原資料庫時丟失變更。</span><span class="sxs-lookup"><span data-stu-id="07dcf-112">If you use cmdlets or the Lync Server Control Panel to make configuration changes, use the **Export-CsConfiguration** cmdlet to take a snapshot backup of the topology configuration file (Xds.mdf) after you make the changes, so that you won't lose the changes if you need to restore your databases.</span></span> <span data-ttu-id="07dcf-113">請注意，這項設定會以 XML 格式備份，並壓縮成 ZIP 檔案。</span><span class="sxs-lookup"><span data-stu-id="07dcf-113">Note that this configuration is backed up in XML format and compressed as a ZIP file.</span></span>
 
-  - <span data-ttu-id="dbcbe-114">請確定您計劃要用於備份 Lync 伺服器之共用的資料夾有足夠的磁碟空間可容納所有備份的資料。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-114">Make sure that the shared folder you plan to use for backing up Lync Server has sufficient disk space to hold all the backed up data.</span></span>
+  - <span data-ttu-id="07dcf-114">確定您計畫用於備份 Lync 伺服器的共用資料夾具有足夠的磁碟空間，可容納所有備份的資料。</span><span class="sxs-lookup"><span data-stu-id="07dcf-114">Make sure that the shared folder you plan to use for backing up Lync Server has sufficient disk space to hold all the backed up data.</span></span>
 
-  - <span data-ttu-id="dbcbe-115">排程備份 Lync Server 使用狀況通常較低，以改善伺服器效能及提升使用者經驗時。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-115">Schedule backups when Lync Server usage is typically low, to improve server performance and user experience.</span></span>
+  - <span data-ttu-id="07dcf-115">當 Lync Server 的使用量一般很低時，排程備份，以提升伺服器效能和使用者經驗。</span><span class="sxs-lookup"><span data-stu-id="07dcf-115">Schedule backups when Lync Server usage is typically low, to improve server performance and user experience.</span></span>
 
-  - <span data-ttu-id="dbcbe-116">請確定備份資料的位置是安全 （建議使用遠端位置）。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-116">Make sure that the location where you back up data is secure (we recommend a remote location).</span></span>
+  - <span data-ttu-id="07dcf-116">請確定備份資料的位置是否安全 (建議) 遠端位置。</span><span class="sxs-lookup"><span data-stu-id="07dcf-116">Make sure that the location where you back up data is secure (we recommend a remote location).</span></span>
 
-  - <span data-ttu-id="dbcbe-117">保留他們將可使用位置，以便在需要時還原資料的備份檔案。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-117">Keep the backup files where they will be available, in case you need to restore the data.</span></span>
+  - <span data-ttu-id="07dcf-117">保留可供使用的備份檔案，以備您需要還原資料時使用。</span><span class="sxs-lookup"><span data-stu-id="07dcf-117">Keep the backup files where they will be available, in case you need to restore the data.</span></span>
 
-  - <span data-ttu-id="dbcbe-118">規劃及排程定期測試組織所支援的還原程序。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-118">Plan for and schedule periodic testing of the restoration processes that are supported by your organization.</span></span>
+  - <span data-ttu-id="07dcf-118">規劃及排程定期測試組織所支援的還原程式。</span><span class="sxs-lookup"><span data-stu-id="07dcf-118">Plan for and schedule periodic testing of the restoration processes that are supported by your organization.</span></span>
 
-  - <span data-ttu-id="dbcbe-119">驗證事先以確保其運作如預期般您備份和還原程序。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-119">Validate your backup and restoration processes in advance to make sure that they work as expected.</span></span>
+  - <span data-ttu-id="07dcf-119">請事先驗證備份與還原程式，以確定其運作如預期。</span><span class="sxs-lookup"><span data-stu-id="07dcf-119">Validate your backup and restoration processes in advance to make sure that they work as expected.</span></span>
 
 </div>
 
 <div>
 
-## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a><span data-ttu-id="dbcbe-120">降低災害影響程度的最佳作法</span><span class="sxs-lookup"><span data-stu-id="dbcbe-120">Best Practices for Minimizing the Impact of a Disaster</span></span>
+## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a><span data-ttu-id="07dcf-120">最小化災難影響的最佳作法</span><span class="sxs-lookup"><span data-stu-id="07dcf-120">Best Practices for Minimizing the Impact of a Disaster</span></span>
 
-<span data-ttu-id="dbcbe-121">（例如電力中斷或突然硬體故障不事件所造成） 的慘服務中斷的處理的最佳策略是假設他們將會發生，並據此規劃。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-121">The best strategy for dealing with disastrous service interruptions (caused by unmanageable events such as power outages or sudden hardware failures) is to assume they will happen, and to plan accordingly.</span></span>
+<span data-ttu-id="07dcf-121">處理災難性服務中斷的最佳策略， (因無法管理事件（例如電源中斷或突然硬體失敗）所造成，請) 假設會發生這些事件，並據此進行規劃。</span><span class="sxs-lookup"><span data-stu-id="07dcf-121">The best strategy for dealing with disastrous service interruptions (caused by unmanageable events such as power outages or sudden hardware failures) is to assume they will happen, and to plan accordingly.</span></span>
 
-<span data-ttu-id="dbcbe-122">如果 Lync 服務，最少的干擾及中斷，商務關鍵的組織，您應該考慮實作的前端伺服器，配對集區中[的高可用性和災害復原 Lync Server 2013 中的規劃](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-122">If Lync services, with a minimum of disruption and outage, are business-critical for your organization, you should consider implementing paired pools of Front End Servers, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="dbcbe-123">然後，如果其中一個這些集區有災害時，系統管理員可以切換至其他集區，最少的停機時間由該集區的使用者。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-123">Then, if one of these pools has a disaster, an administrator can switch the users of that pool to be served by the other pool, with a minimum of downtime.</span></span>
+<span data-ttu-id="07dcf-122">如果 Lync 服務具有最低中斷和停機時間，對您的組織而言是至關重要的，您應該考慮實施前端伺服器的配對集區（如在 [Lync Server 2013 中規劃高可用性和嚴重損壞修復中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述）。</span><span class="sxs-lookup"><span data-stu-id="07dcf-122">If Lync services, with a minimum of disruption and outage, are business-critical for your organization, you should consider implementing paired pools of Front End Servers, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="07dcf-123">然後，如果其中一個集區發生災難，系統管理員可以將該集區的使用者切換為由其他集區所提供，至少停機時間。</span><span class="sxs-lookup"><span data-stu-id="07dcf-123">Then, if one of these pools has a disaster, an administrator can switch the users of that pool to be served by the other pool, with a minimum of downtime.</span></span>
 
-<span data-ttu-id="dbcbe-124">您開發以備份和還原策略的一部分的嚴重損壞管理計劃應包含下列：</span><span class="sxs-lookup"><span data-stu-id="dbcbe-124">The disaster management plans that you develop as part of your backup and restoration strategy should include the following:</span></span>
+<span data-ttu-id="07dcf-124">您在備份與還原策略中所制定的災難管理計畫應包含下列專案：</span><span class="sxs-lookup"><span data-stu-id="07dcf-124">The disaster management plans that you develop as part of your backup and restoration strategy should include the following:</span></span>
 
-  - <span data-ttu-id="dbcbe-125">追蹤您的軟體媒體，以及軟體與韌體更新，隨時可用。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-125">Keeping your software media, and your software and firmware updates, readily available.</span></span>
+  - <span data-ttu-id="07dcf-125">讓您的軟體媒體和您的軟體和固件更新，都能隨時使用。</span><span class="sxs-lookup"><span data-stu-id="07dcf-125">Keeping your software media, and your software and firmware updates, readily available.</span></span>
 
-  - <span data-ttu-id="dbcbe-126">維護硬體與軟體記錄。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-126">Maintaining hardware and software records.</span></span>
+  - <span data-ttu-id="07dcf-126">維護硬體和軟體記錄。</span><span class="sxs-lookup"><span data-stu-id="07dcf-126">Maintaining hardware and software records.</span></span>
 
-  - <span data-ttu-id="dbcbe-127">定期備份資料和監控備份的完整性。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-127">Backing up your data regularly and monitoring the integrity of your backups.</span></span>
+  - <span data-ttu-id="07dcf-127">定期備份資料，並監視備份的完整性。</span><span class="sxs-lookup"><span data-stu-id="07dcf-127">Backing up your data regularly and monitoring the integrity of your backups.</span></span>
 
-  - <span data-ttu-id="dbcbe-128">訓練人員相關的嚴重損壞修復、 記載的程序，以及實作災害復原模擬操演。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-128">Training your staff in disaster recovery, documenting procedures, and implementing disaster recovery simulation drills.</span></span>
+  - <span data-ttu-id="07dcf-128">訓練您的員工在嚴重損壞修復、記錄程式及實施嚴重損壞修復類比訓練。</span><span class="sxs-lookup"><span data-stu-id="07dcf-128">Training your staff in disaster recovery, documenting procedures, and implementing disaster recovery simulation drills.</span></span>
 
-  - <span data-ttu-id="dbcbe-129">預留備用硬體，或者，如果您有服務層級協議 (SLA)，與硬體廠商與供應商的提示取代訂立。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-129">Keeping spare hardware available, or, if you have a service level agreement (SLA), contracting with hardware vendors and suppliers for prompt replacements.</span></span>
+  - <span data-ttu-id="07dcf-129">讓備用硬體可用，或者，如果您有服務層級協定 (SLA) ，請與硬體廠商和廠商簽定，以進行提示取代。</span><span class="sxs-lookup"><span data-stu-id="07dcf-129">Keeping spare hardware available, or, if you have a service level agreement (SLA), contracting with hardware vendors and suppliers for prompt replacements.</span></span>
 
-  - <span data-ttu-id="dbcbe-130">分開保存交易記錄檔 （.ldf 檔案） 與資料庫檔案 （.mdf 檔案）。</span><span class="sxs-lookup"><span data-stu-id="dbcbe-130">Separating the location of your transaction log files (.ldf files) and database files (.mdf files).</span></span>
+  - <span data-ttu-id="07dcf-130">將交易記錄檔的位置分開 ( .ldf 檔案中) 和資料庫檔案)  ( .mdf 檔案。</span><span class="sxs-lookup"><span data-stu-id="07dcf-130">Separating the location of your transaction log files (.ldf files) and database files (.mdf files).</span></span>
 
 </div>
 
