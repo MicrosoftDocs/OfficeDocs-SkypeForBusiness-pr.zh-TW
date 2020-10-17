@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：管理 Lync Server 驗證
+description: Lync Server 2013：管理 Lync Server 驗證。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d49d1f318e41941bce029705c4e8042f5aba812c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f37a41ca3f4c84dead78d0bbdcacdfc139b522cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498140"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557459"
 ---
 # <a name="managing-lync-server-2013-authentication"></a>管理 Lync Server 2013 驗證
 
