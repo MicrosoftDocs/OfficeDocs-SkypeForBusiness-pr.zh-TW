@@ -1,5 +1,6 @@
 ---
 title: 埠摘要-可延伸的訊息和顯示狀態通訊協定 (XMPP) 同盟
+description: 埠摘要-可延伸的訊息和顯示狀態通訊協定 (XMPP) 同盟。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c8d7f99b4a7c72b9eb039fb7447397e711caa36
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9508bc8b9fbcca6fb6a37478def258a9fa52c373
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527920"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543089"
 ---
 # <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中，埠摘要-可延伸的訊息和顯示狀態通訊協定 (XMPP) 同盟
 

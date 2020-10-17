@@ -1,5 +1,6 @@
 ---
 title: 設定語音原則、PSTN 使用方式記錄和語音路由
+description: 設定語音原則、PSTN 使用方式記錄和語音路由。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e749419cf84303cfef9d4718488a4483adecb97
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 94306e5c4d773a83fa6bfe3eec2857279e235642
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537000"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542229"
 ---
 # <a name="configuring-voice-policies-pstn-usage-records-and-voice-routes-in-lync-server-2013"></a>在 Lync Server 2013 中設定語音原則、PSTN 使用方式記錄和語音路由
 

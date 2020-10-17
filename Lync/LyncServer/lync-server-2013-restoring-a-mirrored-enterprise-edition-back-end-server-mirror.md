@@ -1,5 +1,6 @@
 ---
 title: 還原鏡像的 Enterprise Edition 後端伺服器-鏡像
+description: 還原鏡像的 Enterprise Edition 後端伺服器-鏡像。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e4bbb7d74c6bf660c69a15ff8250d95f04fed98
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 011c0aaa10ffed6fef7d579dbc16993fd3341070
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511580"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543799"
 ---
 # <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---mirror"></a>在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-鏡像
 
