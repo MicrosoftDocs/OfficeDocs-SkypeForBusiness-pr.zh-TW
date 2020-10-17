@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 更新 Outlook 啟用清單
+title: Lync Server 2013：更新 Outlook 啟用清單
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193116"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506660"
 ---
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>在 Lync Server 2013 中更新 Outlook 啟用清單
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>更新 Lync Server 2013 中的 Outlook 啟用清單
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42193116"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-07_
+_**主題上次修改日期：** 2013-01-07_
 
-您可以確保，Online Meeting add-in for Microsoft Lync 2013 永遠保持啟用的使用者所建立的原則，包括其增益集管理清單中的 Outlook。 「增益集管理清單」原則包含在「群組原則管理主控台」的 Office 系統管理範本檔案中。 它會建立登錄機碼下 HKCU\\軟體\\原則\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList。 您可以 ucaddin.dll 值加入此機碼，並設定 ucaddin.dll 值，使它一律會啟用，以便讓使用者無法手動予以停用
+您可以在 Outlook 的增益集管理清單中建立一個原則，以確保 Microsoft Lync 2013 的線上會議增益集永遠保持啟用狀態，以供使用者使用。 「增益集管理清單」原則包含在「群組原則管理主控台」的 Office 系統管理範本檔案中。 它會在 [HKCU 軟體原則] 下的 [ \\ \\ \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 恢復 \\ AddinList] 底下建立登錄機碼。 您可以將 ucaddin.dll 的值加入至此機碼，並設定 ucaddin.dll 值，使其永遠啟用，且使用者無法手動加以停用。
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>若要將 ucaddin.dll 新增至 Outlook 增益集清單
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>將 ucaddin.dll 新增至 Outlook 增益集清單
 
-  - AddinList 登錄機碼，位於 [HKCU\\軟體\\原則\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList，新增下列值：
+  - 在 [AddinList] 登錄機碼（位於 [HKCU \\ 軟體 \\ 原則] \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 恢復 \\ AddinList）下，新增下列值：
     
-      - 登錄類型 = 登錄\_Linkid
+      - 登錄類型 = REG \_ SZ
     
       - 名稱 = ucaddin.dll
     

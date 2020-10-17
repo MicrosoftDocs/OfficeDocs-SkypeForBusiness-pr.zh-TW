@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理企業語音的使用者
+title: Lync Server 2013：管理使用者的企業語音
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7676e665368ccfcef2008e0cee2204ddc4f20c11
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37ae4d72e3a8d7f17fe42cba207e98750cf91c2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505770"
 ---
+# <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>在 Lync Server 2013 中管理使用者的企業語音
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>管理企業語音的 Lync Server 2013 中的使用者
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42185736"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-11_
+_**主題上次修改日期：** 2012-10-11_
 
-您可依個別使用者啟用 Enterprise Voice。 使用本節中的程序來管理企業語音使用 Lync Server 2013 控制台] 及 [Lync Server 2013 管理命令介面。
+您可依個別使用者啟用 Enterprise Voice。 使用本節中的程式來管理使用 Lync Server 2013 控制台和 Lync Server 2013 管理命令介面的 Enterprise Voice。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [啟用使用者的 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [在 Lync Server 2013 中啟用使用者的 Enterprise Voice](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [停用 Lync Server 2013 中的 Enterprise Voice 的使用者](lync-server-2013-disable-a-user-for-enterprise-voice.md)
+  - [停用 Lync Server 2013 的 Enterprise Voice 使用者](lync-server-2013-disable-a-user-for-enterprise-voice.md)
 
 </div>
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012年-10-11_
 
 ## <a name="related-sections"></a>相關各節
 
-[管理 Lync Server 2013 中的語音路由](lync-server-2013-managing-voice-routing.md)
+[在 Lync Server 2013 中管理語音路由](lync-server-2013-managing-voice-routing.md)
 
 </div>
 

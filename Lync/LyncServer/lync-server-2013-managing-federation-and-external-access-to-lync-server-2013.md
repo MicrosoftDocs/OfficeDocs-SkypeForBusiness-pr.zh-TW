@@ -12,20 +12,22 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155ee98a7386368d90fd549d920cdfe77c05cb6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5853578ed55f5a5461b5fbb8c1ce3c2dda8b0e5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221617"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505750"
 ---
+# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>管理 Lync Server 2013 的同盟與外部存取
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>管理 Lync Server 2013 的同盟與外部存取
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "44221617"
 
 _**主題上次修改日期：** 2013-10-07_
 
-支援外部使用者的首要步驟，是部署 Edge Server 或 Edge 集區。 如需部署 Edge Server 的詳細資訊，請參閱部署檔中的部署[Lync Server 2013 中的外部使用者存取](lync-server-2013-deploying-external-user-access.md)。
+支援外部使用者的首要步驟，是部署 Edge Server 或 Edge 集區。 如需部署 Edge Server 的詳細資訊，請參閱部署檔中的部署 [Lync Server 2013 中的外部使用者存取](lync-server-2013-deploying-external-user-access.md) 。
 
-在安裝和設定 Lync Server 2013 的內部部署之後，您組織中的內部使用者可以與在您的 Active Directory 網域服務（AD DS）中具有 SIP 帳戶的其他內部使用者共同作業。 共同作業可包含傳送和接收立即訊息，以及會議中目前狀態與參加情況的更新。 您可以啟用和設定外部使用者存取，以控制是否支援的外部使用者能夠與內部 Lync Server 使用者共同作業。 外部使用者可能包含您部署的遠端使用者、同盟使用者 (包括公用立即訊息 (IM) 服務提供者的支援使用者)、XMPP 同盟與會議的匿名參與者。
+在安裝並設定 Lync Server 2013 的內部部署後，您組織中的內部使用者可以與其他內部使用者共同作業，而這些使用者在您的 Active Directory 網域服務中有 SIP 帳戶 (AD DS) 。 共同作業可包含傳送和接收立即訊息，以及會議中目前狀態與參加情況的更新。 您可以啟用和設定外部使用者存取，以控制是否支援的外部使用者能夠與內部 Lync Server 使用者共同作業。 外部使用者可能包含您部署的遠端使用者、同盟使用者 (包括公用立即訊息 (IM) 服務提供者的支援使用者)、XMPP 同盟與會議的匿名參與者。
 
-如果您的部署包含安裝 Lync Server 2013 Edge Server 或 Edge 集區，則可能的通訊類型的範圍會大大擴充，具有許多選項可供外部使用者存取、與其他 SIP 同盟網域的成員進行通訊、SIP 同盟提供者，以及 XMPP 同盟使用者。 在設定 Edge Server 或 Edge 集區之後，請啟用您要提供的外部使用者存取類型，並設定原則以控制外部存取。 在 Lync Server 2013 中，您可以根據任務需求，使用 Lync Server 控制台、Lync Server 管理命令介面或兩者來啟用及設定外部使用者存取和原則。 如需這些管理工具的詳細資訊，請參閱 operations 檔中的[lync server 2013](lync-server-2013-lync-server-administrative-tools.md)系統管理工具、 [Lync Server 2013 管理命令](lync-server-2013-lync-server-management-shell.md)介面，並安裝 Operations 檔中的[lync server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)。
+如果您的部署包含安裝 Lync Server 2013 Edge Server 或 Edge 集區，則可能的通訊類型的範圍會大大擴充，具有許多選項可供外部使用者存取、與其他 SIP 同盟網域的成員進行通訊、SIP 同盟提供者，以及 XMPP 同盟使用者。 在設定 Edge Server 或 Edge 集區之後，請啟用您要提供的外部使用者存取類型，並設定原則以控制外部存取。 在 Lync Server 2013 中，您可以根據任務需求，使用 Lync Server 控制台、Lync Server 管理命令介面或兩者來啟用及設定外部使用者存取和原則。 如需這些管理工具的詳細資訊，請參閱 operations 檔中的 [lync server 2013](lync-server-2013-lync-server-administrative-tools.md) 系統管理工具、 [Lync Server 2013 管理命令](lync-server-2013-lync-server-management-shell.md) 介面，並安裝 Operations 檔中的 [lync server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md) 。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 當您設計外部使用者存取的組態和原則時，必須知道原則的優先順序以及原則的套用方式。 套用於一個原則層級的 Lync Server 原則設定可以覆寫在另一個原則層級套用的設定。 Lync Server 原則優先順序是：使用者原則（影響最大）會覆寫網站原則，然後網站原則會覆寫全域原則（影響最小）。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
+> 當您設計外部使用者存取的組態和原則時，必須知道原則的優先順序以及原則的套用方式。 套用於一個原則層級的 Lync Server 原則設定可以覆寫在另一個原則層級套用的設定。 Lync Server 原則優先順序是：使用者原則 (最大的影響) 覆寫網站原則，然後網站原則會覆寫全域原則 (最小影響) 。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
 
 
 
@@ -73,19 +75,19 @@ _**主題上次修改日期：** 2013-10-07_
 
 **您是否要允許使用者與 SIP 同盟網域連絡人進行通訊？**
 
-設定各主題的詳細資訊，請在 lync server [2013 中設定控制同盟使用者存取的原則](lync-server-2013-configure-policies-to-control-federated-user-access.md)、[啟用或停用 lync server 2013 中的同盟和公用 IM](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)連線，以及[在 lync server 2013 中管理組織的 SIP 同盟網域](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
+設定各主題的詳細資訊，請在 lync server [2013 中設定控制同盟使用者存取的原則](lync-server-2013-configure-policies-to-control-federated-user-access.md)、 [啟用或停用 lync server 2013 中的同盟和公用 IM](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)連線，以及 [在 lync server 2013 中管理組織的 SIP 同盟網域](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
 
 **若您已啟用與 SIP 同盟網域的通訊，您是否還要啟用與 XMPP 同盟協力廠商連絡人的通訊？**
 
-設定如需在[Lync server 2013 中設定原則以控制 XMPP 同盟使用者存取](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)，以及[管理 lync server 2013 中的 XMPP](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)同盟協力廠商，請設定詳細資訊。
+設定如需在 [Lync server 2013 中設定原則以控制 XMPP 同盟使用者存取](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md) ，以及 [管理 lync server 2013 中的 XMPP](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)同盟協力廠商，請設定詳細資訊。
 
 **若您已啟用與 SIP 同盟網域的通訊，您是否要啟用 SIP 同盟自動探索？**
 
-設定在[Lync Server 2013 中啟用或停用同盟](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)協力廠商探索主題的詳細資訊。
+設定在 [Lync Server 2013 中啟用或停用同盟](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)協力廠商探索主題的詳細資訊。
 
 **若您已啟用與 SIP 同盟網域的通訊，您是否還要啟用傳送免責聲明給同盟連絡人，以通知他們您使用了封裝功能，且可能會封裝通訊內容？**
 
-設定如需在[Lync Server 2013 中啟用或停](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)用傳送封存免責聲明至同盟合作夥伴的詳細資訊，請設定相關設定。
+設定如需在 [Lync Server 2013 中啟用或停](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)用傳送封存免責聲明至同盟合作夥伴的詳細資訊，請設定相關設定。
 
 **您是否要允許使用者與使用公用提供者通訊的 SIP 同盟提供者（例如 Windows Live Messenger、AOL 和 Yahoo）進行通訊 \! ？**
 
@@ -97,7 +99,7 @@ _**主題上次修改日期：** 2013-10-07_
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>從2012年9月1日起，Microsoft Lync 公開 IM 連線使用者訂閱授權（「PIC USL」）已不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
+> <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的個別使用者每個月訂閱授權 信使。 Microsoft 提供此服務的能力已因 Yahoo！中的支援而產生，其所向下纏繞的底層合約。</P>
 > <LI>
@@ -109,11 +111,11 @@ _**主題上次修改日期：** 2013-10-07_
 
 **您是否要允許使用者與執行 Microsoft 365、Microsoft Lync Online 及 Microsoft Lync Online 2010 之主控供應商的 SIP 同盟提供者通訊？**
 
-設定如需詳細資訊，請在[lync server 2013 中建立或編輯公用 SIP 同盟提供者](lync-server-2013-create-or-edit-public-sip-federated-providers.md)、[啟用或停用 lync server 2013 中的同盟和公用 IM](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)連線，以及[建立或編輯主控的 Sip 同盟提供者 Lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+設定如需詳細資訊，請在 [lync server 2013 中建立或編輯公用 SIP 同盟提供者](lync-server-2013-create-or-edit-public-sip-federated-providers.md)、 [啟用或停用 lync server 2013 中的同盟和公用 IM](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) 連線，以及 [建立或編輯主控的 Sip 同盟提供者 Lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 **您是否將部署設定在分割 (也稱為混合) 網域中，且該網域的某些使用者在內部部署中具有自己的主伺服器，而其他使用者則是透過線上環境中的主伺服器加以設定？**
 
-設定各主題的詳細資訊在[Lync server 2013 中設定用來控制同盟使用者存取的原則](lync-server-2013-configure-policies-to-control-federated-user-access.md)、[啟用或停用 lync server 2013 中的同盟和公用 IM](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)連線，以及[建立或編輯主控的 SIP 同盟提供者 lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+設定各主題的詳細資訊在 [Lync server 2013 中設定用來控制同盟使用者存取的原則](lync-server-2013-configure-policies-to-control-federated-user-access.md)、 [啟用或停用 lync server 2013 中的同盟和公用 IM](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) 連線，以及 [建立或編輯主控的 SIP 同盟提供者 lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 若您偏好以表格列出需求：
 
@@ -129,7 +131,7 @@ _**主題上次修改日期：** 2013-10-07_
 </colgroup>
 <thead>
 <tr class="header">
-<th>同盟和外部存取（透過）同盟或外部存取類型（向內）中的 Tab 鍵</th>
+<th>) 同盟或外部存取類型的 [同盟和外部存取] (中的索引標籤 (向內) </th>
 <th>外部存取原則</th>
 <th>Access Edge 設定</th>
 <th>SIP 同盟網域</th>
@@ -188,7 +190,7 @@ _**主題上次修改日期：** 2013-10-07_
 <div>
 
 > [!NOTE]  
-> 您也必須考慮下列設定設定：在 [會議原則] 下<A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">建立或修改 lync server 2013 的會議原則</A>，以及<A href="lync-server-2013-conferencing-policy-settings-reference.md">lync Server 2013 的會議原則設定參考</A>
+> 您也必須考慮下列設定設定：在 [會議原則] 下 <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">建立或修改 lync server 2013 的會議原則</A> ，以及 <A href="lync-server-2013-conferencing-policy-settings-reference.md">lync Server 2013 的會議原則設定參考</A>
 
 
 </div></td>

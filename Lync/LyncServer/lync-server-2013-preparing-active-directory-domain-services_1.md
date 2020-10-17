@@ -12,20 +12,22 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c5d83acbe32d33a235e7c2918663340a3ac7ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b3af3ce7940b8d0fb58a74b4a8f7bb0a21c5e2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506990"
 ---
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>在 Lync Server 2013 中準備 Active Directory 網域服務
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>在 Lync Server 2013 中準備 Active Directory 網域服務
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 部署嚮導會引導您完成每個 Active Directory 準備工作�
 
 
 > [!IMPORTANT]  
-> 您可以在樹系或網域中部署 Lync Server，其中的網域控制站會執行32位版本的部分作業系統 (如需詳細資訊，請參閱<A href="lync-server-2013-active-directory-infrastructure-requirements.md">Lync server 2013) 的 Active Directory 基礎結構需求</A>。 不過，您無法使用 Lync Server 部署嚮導執行這些環境中的架構、樹系和網域準備工作，因為部署嚮導和支援檔只是64位。 但您可以在 32 位元的網域控制站上使用 ldifde.exe 與相關聯的 .ldf 檔案，進行架構、樹系與網域的準備工作。 請參閱本主題稍後的＜使用 Cmdlet 和 Ldifde.exe＞一節。
+> 您可以在樹系或網域中部署 Lync Server，其中的網域控制站會執行32位版本的部分作業系統 (如需詳細資訊，請參閱 <A href="lync-server-2013-active-directory-infrastructure-requirements.md">Lync server 2013) 的 Active Directory 基礎結構需求</A> 。 不過，您無法使用 Lync Server 部署嚮導執行這些環境中的架構、樹系和網域準備工作，因為部署嚮導和支援檔只是64位。 但您可以在 32 位元的網域控制站上使用 ldifde.exe 與相關聯的 .ldf 檔案，進行架構、樹系與網域的準備工作。 請參閱本主題稍後的＜使用 Cmdlet 和 Ldifde.exe＞一節。
 
 
 
@@ -78,7 +80,7 @@ Lync Server 部署嚮導會引導您完成每個 Active Directory 準備工作�
     
 
     > [!NOTE]  
-    > 若為 Windows Server 2012 和 Windows Server 2012 R2，您可以使用伺服器管理員安裝和啟動 .NET Framework 4.5。 如需詳細資訊，請參閱<A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 的其他軟體需求</A>中的「Microsoft .net Framework 4.5」。 若為 Windows Server &nbsp; 2008 &nbsp; R2，請從 Microsoft 網站下載並安裝<A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 。
+    > 若為 Windows Server 2012 和 Windows Server 2012 R2，您可以使用伺服器管理員安裝和啟動 .NET Framework 4.5。 如需詳細資訊，請參閱 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 的其他軟體需求</A>中的「Microsoft .net Framework 4.5」。 若為 Windows Server &nbsp; 2008 &nbsp; R2，請從 Microsoft 網站下載並安裝 <A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 。
 
     
     </div>
@@ -107,7 +109,7 @@ Lync Server 部署嚮導會引導您完成每個 Active Directory 準備工作�
 
   - Windows PowerShell 3.0 (64-位) 
     
-    若為 Windows Server 2012 和 Windows Server 2012 R2，Windows PowerShell 3.0 應隨附在 Lync Server 2013 安裝中。 若為 Windows Server 2008 R2，您必須安裝或升級至 Windows PowerShell 3.0。 如需詳細資訊，請參閱[安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)
+    若為 Windows Server 2012 和 Windows Server 2012 R2，Windows PowerShell 3.0 應隨附在 Lync Server 2013 安裝中。 若為 Windows Server 2008 R2，您必須安裝或升級至 Windows PowerShell 3.0。 如需詳細資訊，請參閱 [安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 
@@ -126,7 +128,7 @@ Lync Server 部署嚮導會引導您完成每個 Active Directory 準備工作�
 </colgroup>
 <thead>
 <tr class="header">
-<th>程式</th>
+<th>程序</th>
 <th>權限或角色</th>
 </tr>
 </thead>
@@ -211,7 +213,7 @@ Lync Server 部署嚮導會引導您完成每個 Active Directory 準備工作�
 
 ## <a name="locked-down-active-directory-requirements"></a>鎖定 Active Directory 的需求
 
-如果您的組織中已停用權限繼承，或必須停用已驗證的使用者權限，則您在進行網域準備時需要執行額外的步驟。 如需詳細資訊，請參閱[在 Lync Server 2013 中準備鎖定的 Active Directory 網域服務](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
+如果您的組織中已停用權限繼承，或必須停用已驗證的使用者權限，則您在進行網域準備時需要執行額外的步驟。 如需詳細資訊，請參閱 [在 Lync Server 2013 中準備鎖定的 Active Directory 網域服務](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
 
 </div>
 
@@ -219,7 +221,7 @@ Lync Server 部署嚮導會引導您完成每個 Active Directory 準備工作�
 
 ## <a name="custom-container-permissions"></a>自訂容器權限
 
-如果您的組織使用的是自訂容器，而非三個內建的容器 (也就是使用者、電腦和網域控制站)，您就必須將自訂容器的讀取存取權授與 Authenticated Users 群組。 執行網域準備工作時，必須要有容器的讀取存取權。 如需詳細資訊，請參閱[準備 Lync Server 2013 的網域](lync-server-2013-preparing-domains.md)。
+如果您的組織使用的是自訂容器，而非三個內建的容器 (也就是使用者、電腦和網域控制站)，您就必須將自訂容器的讀取存取權授與 Authenticated Users 群組。 執行網域準備工作時，必須要有容器的讀取存取權。 如需詳細資訊，請參閱 [準備 Lync Server 2013 的網域](lync-server-2013-preparing-domains.md)。
 
 </div>
 

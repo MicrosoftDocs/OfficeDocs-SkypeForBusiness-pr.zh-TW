@@ -12,20 +12,22 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4eb457dbaee5e91b7b4f408018242384cd8992c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a76f3bb2a3ccc182f16e2e1416bdec00aefe3e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506090"
 ---
+# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Persistent Chat Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Persistent Chat Server
+
 
 </div>
 
@@ -47,11 +49,11 @@ Lync Server 2013，Persistent Chat Server 是 Lync Server 2013 基礎結構的�
 
   - 為您的部署安裝及設定 Persistent Chat Server 元件。
 
-Persistent Chat Server 可搭配 Lync Server 2013 Enterprise Edition 做為個別集區 (不會與 Enterprise Edition 前端伺服器) 進行組合。 Persistent Chat Server 要求企業版集區中的 SQL Server 後端伺服器，以儲存聊天室內容及其他相關的中繼資料。 建議您將**PersistentChatStore**安裝在專用的 Sql Server 後端伺服器上，不過在相同的 sql server 實例上，組合 Lync Server 2013 後端伺服器和**PersistentChatStore**皆受支援。
+Persistent Chat Server 可搭配 Lync Server 2013 Enterprise Edition 做為個別集區 (不會與 Enterprise Edition 前端伺服器) 進行組合。 Persistent Chat Server 要求企業版集區中的 SQL Server 後端伺服器，以儲存聊天室內容及其他相關的中繼資料。 建議您將 **PersistentChatStore** 安裝在專用的 Sql Server 後端伺服器上，不過在相同的 sql server 實例上，組合 Lync Server 2013 後端伺服器和 **PersistentChatStore** 皆受支援。
 
-Persistent Chat Server 也可以與 Lync Server 2013 Standard Edition 一起部署。 在此情況下，Standard Edition 電腦上的**PersistentChatService**前端伺服器是組合， **PersistentChatStore**後端伺服器可部署在本機 SQL Server Express 實例上。
+Persistent Chat Server 也可以與 Lync Server 2013 Standard Edition 一起部署。 在此情況下，Standard Edition 電腦上的 **PersistentChatService** 前端伺服器是組合， **PersistentChatStore** 後端伺服器可部署在本機 SQL Server Express 實例上。
 
-如需支援的 colocation 設定的詳細資訊，請參閱[Lync server 2013 中的支援伺服器組合](lync-server-2013-supported-server-collocation.md)。
+如需支援的 colocation 設定的詳細資訊，請參閱 [Lync server 2013 中的支援伺服器組合](lync-server-2013-supported-server-collocation.md)。
 
 <div>
 
@@ -67,11 +69,11 @@ Persistent Chat Server 也可以與 Lync Server 2013 Standard Edition 一起部�
 
 每個拓撲至少需要安裝 Lync Server 2013 的伺服器，以及已安裝 SQL Server 資料庫軟體的伺服器。
 
-使用拓撲產生器，將 Persistent Chat Server 新增至您的 Lync Server 2013 部署。 您可以選擇使用拓撲產生器來新增一或多個 Persistent Chat Server 集區。 遵循部署多個 Persistent Chat Server 集區的相同部署指示。 如需詳細資訊，請參閱部署檔中的[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
+使用拓撲產生器，將 Persistent Chat Server 新增至您的 Lync Server 2013 部署。 您可以選擇使用拓撲產生器來新增一或多個 Persistent Chat Server 集區。 遵循部署多個 Persistent Chat Server 集區的相同部署指示。 如需詳細資訊，請參閱部署檔中的 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
 
 如需有關安裝 Persistent Chat Server 的可用拓撲及技術和軟體需求的詳細資訊，請參閱規劃檔、部署檔或作業檔中的「在 lync server [2013](lync-server-2013-how-persistent-chat-server-works.md)中[規劃 Persistent chat 2013 server](lync-server-2013-planning-for-persistent-chat-server.md) 」，以及支援檔中的[lync server 2013 的支援硬體](lync-server-2013-supported-hardware.md)。
 
-如需取得憑證、建立 SQL Server 資料庫及建立檔案存放區的詳細資訊，請參閱部署檔中的[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
+如需取得憑證、建立 SQL Server 資料庫及建立檔案存放區的詳細資訊，請參閱部署檔中的 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
 
 單一 Persistent Chat Server 前端伺服器可支援20000作用中的使用者。 您最多可以有最多4個作用中前端伺服器的持久聊天伺服器集區，以支援所有80000並行使用者。
 

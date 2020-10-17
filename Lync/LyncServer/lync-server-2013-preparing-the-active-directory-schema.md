@@ -12,20 +12,22 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efabd082fce4dba5cf210e2c0f9c390324474cd2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27c785596d1fe994e3156eb0e52ed840609a5c26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201779"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506850"
 ---
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>在 Lync Server 2013 中準備 Active Directory 架構
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>在 Lync Server 2013 中準備 Active Directory 架構
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201779"
 
 _**主題上次修改日期：** 2012-08-27_
 
-在您開始準備 Active Directory 網域服務之前，您可以使用文字編輯器（例如 Windows Notepad）來開啟架構檔案，或查看[Lync server 2013 所使用的 Active directory 架構副檔名、類別和屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)，以查看將針對 Lync server 2013 修改的所有 Active Directory 網域服務架構擴充。 Lync Server 使用四個架構檔案：
+在您開始準備 Active Directory 網域服務之前，您可以使用文字編輯器（例如 Windows Notepad）來開啟架構檔案，或查看 [Lync server 2013 所使用的 Active directory 架構副檔名、類別和屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) ，以查看將針對 Lync server 2013 修改的所有 Active Directory 網域服務架構擴充。 Lync Server 使用四個架構檔案：
 
   - 用於與 Microsoft Exchange Server 進行互通性的 ExternalSchema.ldf
 

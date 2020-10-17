@@ -12,20 +12,22 @@ ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c84fe2400b3ac7ed1b8dded2ab26646c48a2c232
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b2619e204bf538963818bf48967459fe434c2db4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505630"
 ---
+# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>流覽 Lync Server 2013 中的規劃工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>流覽 Lync Server 2013 中的規劃工具
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**主題上次修改日期：** 2013-02-21_
 
 您可以使用工具列、頁面特定按鈕和連結的組合，以及內容特有的窗格，流覽 Microsoft Lync Server 2013、規劃工具。 內容特有的窗格提供規劃與容量相關的設計資訊，與特定頁面上的選取選項有關。
 
-開始規劃工具時，設計人員會先看到 [**歡迎使用 Microsoft Lync Server 2013 的規劃工具**] 頁面。
+開始規劃工具時，設計人員會先看到 [ **歡迎使用 Microsoft Lync Server 2013 的規劃工具** ] 頁面。
 
 ![規劃工具歡迎頁面](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "規劃工具歡迎頁面")
 
-在 [歡迎] 頁面上，設計工具會選擇 [**開始**]、[**設計網站**] 或 [**顯示**]。 如需詳細資訊，請參閱[建立 Lync Server 2013 的初始拓撲設計](lync-server-2013-create-the-initial-topology-design.md)。
+在 [歡迎] 頁面上，設計工具會選擇 [ **開始**]、[ **設計網站**] 或 [ **顯示**]。 如需詳細資訊，請參閱 [建立 Lync Server 2013 的初始拓撲設計](lync-server-2013-create-the-initial-topology-design.md)。
 
 在規劃工具的最上層是一個工具列，可讓您輕鬆存取常用的功能。 工具列會顯示為參考，而每個函數將會在相關主題中討論。
 

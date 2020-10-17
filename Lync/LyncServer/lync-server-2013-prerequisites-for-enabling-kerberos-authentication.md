@@ -1,5 +1,5 @@
 ---
-title: 啟用 Kerberos 驗證的 Lync Server 2013： 必要條件
+title: Lync Server 2013：啟用 Kerberos 驗證的必要條件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dd399ef7a0ed2dd6609fe0455d9593e1e567b3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0be98112431b9e57486bb33e0eab84eada94e50
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183636"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506780"
 ---
+# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中啟用 Kerberos 驗證的先決條件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>啟用 Lync Server 2013 中的 Kerberos 驗證的必要條件
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42183636"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
-之前啟用 Kerberos 驗證，請確定您完成所有必要的組態和基礎結構的準備工作：
+在啟用 Kerberos 驗證之前，請確定您已完成所有必要的設定和基礎結構準備工作：
 
-  - 針對 Lync Server 2013 會延伸 active Directory 架構。
+  - 已擴充 Lync Server 2013 的 Active Directory 架構。
 
-  - Lync Server 2013 已完成 active Directory 樹系準備。
+  - 已完成 Lync Server 2013 的 Active Directory 樹系準備。
 
-  - Lync Server 2013 已完成 active Directory 網域準備工作。
+  - 已完成 Lync Server 2013 的 Active Directory 網域準備工作。
 
-  - 中央管理存放區已成功安裝且可用。
+  - 已成功安裝中央管理存放區及可供使用。
 
-  - 建立並發佈使用拓撲產生器拓樸。
+  - 已使用拓撲產生器建立及發行拓撲。
 
-  - 伺服器需要 Web 服務的角色已定義並部署，包括前端伺服器、 Standard Edition server 和 Director。
+  - 已定義及部署需要 Web 服務的伺服器和角色，包括前端伺服器、Standard Edition 伺服器及 Director。
 
-  - 網際網路資訊服務 (IIS) 是設定及部署以支援 Lync Server 2013 中的 Web 服務的建議的角色服務。
+  - Internet Information Services (IIS) 會以建議的角色服務設定及部署，以支援 Lync Server 2013 中的 Web 服務。
 
-在符合必要條件之後，您應該可以準備建立要用於部署的 Kerberos 驗證的 Web 服務的一或多個帳戶。 每個部署應至少建立一個 Kerberos 驗證帳戶。 不過，您可以為每個網站各建立一個帳戶，以在該網站提供本機 Kerberos 驗證。 每個網站只能指定一個 Kerberos 驗證帳戶。
+符合先決條件後，您應該準備好建立一或多個帳戶，以供部署的 Kerberos 驗證使用之 Web 服務。 每個部署應至少建立一個 Kerberos 驗證帳戶。 不過，您可以為每個網站各建立一個帳戶，以在該網站提供本機 Kerberos 驗證。 每個網站只能指定一個 Kerberos 驗證帳戶。
 
 </div>
 

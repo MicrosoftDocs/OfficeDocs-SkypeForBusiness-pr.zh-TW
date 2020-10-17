@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217139"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507050"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中將使用者移至企業語音
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中將使用者移至企業語音
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217139"
 
 _**主題上次修改日期：** 2012-10-18_
 
-如果您要將使用者從現有的 PBX 電話語音基礎結構移至 Enterprise Voice，部署程式會包含一些步驟，這些步驟並非在[Lync Server 2013 中規劃 Enterprise Voice](lync-server-2013-planning-for-enterprise-voice.md)時所述的規劃程式中的部分。 如需從舊版 Enterprise Voice 部署遷移使用者的詳細資訊，請參閱安裝媒體隨附的遷移檔。
+如果您要將使用者從現有的 PBX 電話語音基礎結構移至 Enterprise Voice，部署程式會包含一些步驟，這些步驟並非在 [Lync Server 2013 中規劃 Enterprise Voice](lync-server-2013-planning-for-enterprise-voice.md)時所述的規劃程式中的部分。 如需從舊版 Enterprise Voice 部署遷移使用者的詳細資訊，請參閱安裝媒體隨附的遷移檔。
 
 將使用者從現有電話語音基礎結構移至 Enterprise Voice 的套裝程式含下列步驟：
 
@@ -79,32 +81,32 @@ Enterprise Voice 會與其他郵件媒體整合語音，如此一來，當來電
 
   - 盡可能正常化為 e.164 格式。
 
-  - 複製到 Active Directory **msRTCSIP-line**屬性。
+  - 複製到 Active Directory **msRTCSIP-line** 屬性。
     
     <div>
     
 
     > [!NOTE]  
-    > <STRONG>與遠端呼叫控制共存 (RCC) </STRONG><BR>RCC 是使用 Lync Server 來監控及控制桌面 PBX 電話的功能。 控制是透過伺服器進行路由傳送，其充當 PBX 的閘道。 雖然您無法同時為 RCC 和 Enterprise Voice 設定使用者，但是行 URI 設定會指定使用者的主要電話號碼（以任一種情況為單位）。<BR>如果您有現有的 PBX 基礎結構，讓選取的使用者繼續使用，您可以將企業語音逐步引入您的組織。 如需此部署案例的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-direct-sip-deployment-options.md">Lync Server 2013 中的直銷 SIP 部署選項</A>。<BR>在舊版中，您可以為使用者同時啟用 RCC 和 Enterprise Voice，但只有在您也為雙重分叉設定使用者時，撥入電話會同時撥打使用者 PBX 電話和 Communicator 的功能。 在 Lync Server 2010 中，不支援雙重分叉。
+    > <STRONG>與遠端呼叫控制共存 (RCC) </STRONG><BR>RCC 是使用 Lync Server 來監控及控制桌面 PBX 電話的功能。 控制是透過伺服器進行路由傳送，其充當 PBX 的閘道。 雖然您無法同時為 RCC 和 Enterprise Voice 設定使用者，但是行 URI 設定會指定使用者的主要電話號碼（以任一種情況為單位）。<BR>如果您有現有的 PBX 基礎結構，讓選取的使用者繼續使用，您可以將企業語音逐步引入您的組織。 如需此部署案例的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-direct-sip-deployment-options.md">Lync Server 2013 中的直銷 SIP 部署選項</A> 。<BR>在舊版中，您可以為使用者同時啟用 RCC 和 Enterprise Voice，但只有在您也為雙重分叉設定使用者時，撥入電話會同時撥打使用者 PBX 電話和 Communicator 的功能。 在 Lync Server 2010 中，不支援雙重分叉。
 
     
     </div>
 
-可用於填入**msRTCSIP-line**屬性的方法有三種：
+可用於填入 **msRTCSIP-line** 屬性的方法有三種：
 
   - 建議的 Microsoft Identity Integration Server () 
 
-  - Lync Server 控制台中的 [**使用者**] 頁面
+  - Lync Server 控制台中的 [ **使用者** ] 頁面
 
-必須處理的電話號碼數目，組織所開發的腳本是比較好的選擇。 根據您的組織在 Active Directory 網域服務中表示電話號碼的方式，腳本可能必須先將主要電話號碼正常化為 e.164 格式，再將其複製到**msRTCSIP-line**屬性。
+必須處理的電話號碼數目，組織所開發的腳本是比較好的選擇。 根據您的組織在 Active Directory 網域服務中表示電話號碼的方式，腳本可能必須先將主要電話號碼正常化為 e.164 格式，再將其複製到 **msRTCSIP-line** 屬性。
 
-  - 如果您的組織在 Active Directory 網域服務中以單一格式維護所有的電話號碼，且該格式為 e.164，則您的腳本只需要將每個主要電話號碼寫入**msRTCSIP-line**屬性。
+  - 如果您的組織在 Active Directory 網域服務中以單一格式維護所有的電話號碼，且該格式為 e.164，則您的腳本只需要將每個主要電話號碼寫入 **msRTCSIP-line** 屬性。
 
-  - 如果您的組織在 Active Directory 網域服務中以單一格式維護所有的電話號碼，但該格式不是 e.164，您的腳本應定義適當的正規化規則，以便將主要電話號碼從現有的格式轉換為 e.164，然後再將主要電話號碼寫入**msRTCSIP-line**屬性。
+  - 如果您的組織在 Active Directory 網域服務中以單一格式維護所有的電話號碼，但該格式不是 e.164，您的腳本應定義適當的正規化規則，以便將主要電話號碼從現有的格式轉換為 e.164，然後再將主要電話號碼寫入 **msRTCSIP-line** 屬性。
 
-  - 如果您的組織未在 Active Directory 網域服務中強制使用電話號碼的標準格式，則您的腳本應該定義適當的正規化規則，以便將主要電話號碼從其各種格式轉換為 e.164 相容性，然後再將主要電話號碼寫入**msRTCSIP-line**屬性。
+  - 如果您的組織未在 Active Directory 網域服務中強制使用電話號碼的標準格式，則您的腳本應該定義適當的正規化規則，以便將主要電話號碼從其各種格式轉換為 e.164 相容性，然後再將主要電話號碼寫入 **msRTCSIP-line** 屬性。
 
-您的腳本也必須先插入首碼**電話：** 在每個主要號碼之前，再將它寫入**msRTCSIP-line**屬性。
+您的腳本也必須先插入首碼 **電話：** 在每個主要號碼之前，再將它寫入 **msRTCSIP-line** 屬性。
 
 此屬性中指定的數位預期格式為：
 
@@ -116,7 +118,7 @@ Enterprise Voice 會與其他郵件媒體整合語音，如此一來，當來電
     
 
     > [!IMPORTANT]  
-    > 由 Address Book Service () ABS 所執行的正規化，不會取代或不再需要正常化 Active Directory 網域服務中每個使用者的主要電話號碼，因為 ABS 沒有 Active Directory 網域服務的存取權，因此無法將主要號碼複製到<STRONG>msRTCSIP-line</STRONG>屬性。
+    > 由 Address Book Service () ABS 所執行的正規化，不會取代或不再需要正常化 Active Directory 網域服務中每個使用者的主要電話號碼，因為 ABS 沒有 Active Directory 網域服務的存取權，因此無法將主要號碼複製到 <STRONG>msRTCSIP-line</STRONG> 屬性。
 
     
     </div>
@@ -137,7 +139,7 @@ Enterprise Voice 會與其他郵件媒體整合語音，如此一來，當來電
 
 已啟用 Enterprise Voice 的使用者將無法在未設定撥號對應表的情況下撥打 PSTN 電話。 撥號對應表是一個具名的正規化規則集，可將具名位置、個別使用者或連絡人物件的電話號碼轉譯成單一標準 (E.164) 格式，以便進行電話授權和電話路由傳送。 正規化規則會針對每個指定位置、使用者或連絡人物件，定義要如何路由傳送以各種格式表達的電話號碼。
 
-如需有關準備撥號對應表的詳細資訊，請參閱[Lync Server 2013 中的撥號對應表和正常化規則](lync-server-2013-dial-plans-and-normalization-rules.md)。
+如需有關準備撥號對應表的詳細資訊，請參閱 [Lync Server 2013 中的撥號對應表和正常化規則](lync-server-2013-dial-plans-and-normalization-rules.md)。
 
 </div>
 
@@ -145,7 +147,7 @@ Enterprise Voice 會與其他郵件媒體整合語音，如此一來，當來電
 
 ## <a name="step-4-plan-user-voice-policies"></a>步驟 4： 規劃使用者語音原則
 
-在舊版 PBX 上的服務類別設定（例如從公司電話撥打長途電話或國際電話的權利）必須重新設定為 VoIP 原則，以供使用者移至 Enterprise Voice。 如需規劃及建立 Enterprise Voice 之原則的詳細資訊，請參閱[Lync Server 2013 中的語音原則](lync-server-2013-voice-policies.md)。
+在舊版 PBX 上的服務類別設定（例如從公司電話撥打長途電話或國際電話的權利）必須重新設定為 VoIP 原則，以供使用者移至 Enterprise Voice。 如需規劃及建立 Enterprise Voice 之原則的詳細資訊，請參閱 [Lync Server 2013 中的語音原則](lync-server-2013-voice-policies.md)。
 
 </div>
 
@@ -155,7 +157,7 @@ Enterprise Voice 會與其他郵件媒體整合語音，如此一來，當來電
 
 通話路由會指定 Lync Server 如何處理 Enterprise Voice 使用者撥出的電話。 當使用者撥打號碼時，如果有必要，伺服器會將撥號字串標準化為 e.164 格式，並嘗試將撥號字串與 SIP URI 相符。 如果伺服器無法進行相符，它會根據數目來套用傳出的呼叫路由邏輯。 定義該邏輯的最後一個步驟是針對每一組每個撥號對應表中所列的目的地電話號碼，建立個別的命名呼叫路由。
 
-如需規劃通話路由的詳細資訊，請參閱[Lync Server 2013 中的語音路由](lync-server-2013-voice-routes.md)。
+如需規劃通話路由的詳細資訊，請參閱 [Lync Server 2013 中的語音路由](lync-server-2013-voice-routes.md)。
 
 </div>
 

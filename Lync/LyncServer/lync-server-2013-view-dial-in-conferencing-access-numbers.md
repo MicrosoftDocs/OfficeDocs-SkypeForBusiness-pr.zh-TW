@@ -12,20 +12,22 @@ ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58f897e773390cc894b3d9718b5eb354d1d4547a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6794eee3015aca9a7f0d5281be5db10d87d833ab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211459"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506440"
 ---
+# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中查看電話撥入式會議存取號碼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中查看電話撥入式會議存取號碼
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[會議]**，然後按一下 **[撥入存取號碼]**。
 
@@ -86,7 +88,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) Cmdlet 的 [說明] 主題。
 
 </div>
 

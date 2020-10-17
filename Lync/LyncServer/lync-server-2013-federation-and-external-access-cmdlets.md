@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 同盟和外部存取 cmdlet
+title: Lync Server 2013：同盟及外部訪問 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de54627a1effa25c6dbf16944c933c8d01441e4a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4f02160ad9991905bf0f149a2beb72ef21169e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507290"
 ---
+# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的同盟與外部訪問 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>同盟和 Lync Server 2013 中的外部存取 cmdlet
+
 
 </div>
 
@@ -35,88 +37,88 @@ ms.locfileid: "42179504"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-26_
+_**主題上次修改日期：** 2012-06-26_
 
-同盟和外部存取提供兩個重要功能： 同盟可讓使用者能夠與組織外的人員時外部存取可讓使用者連線到 Microsoft Lync Server 2013 中從內部網路之外。 可用於管理同盟與外部存取 Lync Server 2013 中的 cmdlet 可讓您決定您的使用者可以 （而且也無法） 通訊，並決定這些使用者可以連線至 Lync Server 而不必登入內部網路。
+同盟和外部存取提供兩項重要功能：同盟可讓使用者與組織外部的人員進行通訊，而外部存取可讓使用者從內部網路以外的地方連接至 Microsoft Lync Server 2013。 在 Lync Server 2013 中可用於管理同盟和外部存取的 Cmdlet，可讓您判斷使用者可以 (且無法與) 通訊，以及決定使用者是否可以連線至 Lync Server，而不必登入內部網路。
 
 <div>
 
 ## <a name="federation-and-external-access-cmdlets"></a>同盟和外部存取 Cmdlet
 
-從 Lync Server Control Panel 可執行大部分適用於同盟和外部存取的管理工作。 這些相同的工作可以使用 cmdlet 從 Lync Server 管理命令介面或從內執行的指令碼;使用指令碼，可讓您自動執行特定工作。 以下列出與管理同盟和外部存取直接相關的 Cmdlet：
+您可以從 Lync Server 控制台執行大多數適用于同盟與外部存取的管理工作。 您可以使用 Lync Server 管理命令介面或腳本中的 Cmdlet 執行這些相同的工作。使用腳本可讓您自動執行某些工作。 以下列出與管理同盟和外部存取直接相關的 Cmdlet：
 
   - <span></span>  
-    [Get-csalloweddomain](https://technet.microsoft.com/library/Gg398164(v=OCS.15))
+    [Get-CsAllowedDomain](https://technet.microsoft.com/library/Gg398164(v=OCS.15))
 
   - <span></span>  
-    [新 CsAllowedDomain](https://technet.microsoft.com/library/Gg398628(v=OCS.15))
+    [New-CsAllowedDomain](https://technet.microsoft.com/library/Gg398628(v=OCS.15))
 
   - <span></span>  
-    [移除 CsAllowedDomain](https://technet.microsoft.com/library/Gg398913(v=OCS.15))
+    [Remove-CsAllowedDomain](https://technet.microsoft.com/library/Gg398913(v=OCS.15))
 
   - <span></span>  
-    [Set-csalloweddomain](https://technet.microsoft.com/library/Gg398931(v=OCS.15))
+    [Set-CsAllowedDomain](https://technet.microsoft.com/library/Gg398931(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csblockeddomain](https://technet.microsoft.com/library/Gg398424(v=OCS.15))
+    [Get-CsBlockedDomain](https://technet.microsoft.com/library/Gg398424(v=OCS.15))
 
   - <span></span>  
-    [新 New-csblockeddomain](https://technet.microsoft.com/library/Gg398822(v=OCS.15))
+    [New-CsBlockedDomain](https://technet.microsoft.com/library/Gg398822(v=OCS.15))
 
   - <span></span>  
-    [移除 New-csblockeddomain](https://technet.microsoft.com/library/Gg425832(v=OCS.15))
+    [Remove-CsBlockedDomain](https://technet.microsoft.com/library/Gg425832(v=OCS.15))
 
   - <span></span>  
-    [設定 New-csblockeddomain](https://technet.microsoft.com/library/Gg398090(v=OCS.15))
+    [CsBlockedDomain](https://technet.microsoft.com/library/Gg398090(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))
+    [Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))
 
   - <span></span>  
-    [Grant-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))
+    [授與 Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))
 
   - <span></span>  
-    [新 CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398441(v=OCS.15))
+    [新 Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg398441(v=OCS.15))
 
   - <span></span>  
-    [Remove-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg399057(v=OCS.15))
+    [Remove-Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg399057(v=OCS.15))
 
   - <span></span>  
-    [設定 CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg398916(v=OCS.15))
+    [Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg398916(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-csfipsconfiguration](https://technet.microsoft.com/library/JJ204904(v=OCS.15))
+  - [Get-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ204904(v=OCS.15))
 
-  - [New-csfipsconfiguration](https://technet.microsoft.com/library/JJ205114(v=OCS.15))
+  - [New-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205114(v=OCS.15))
 
-  - [Remove-csfipsconfiguration](https://technet.microsoft.com/library/JJ205201(v=OCS.15))
+  - [Remove-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205201(v=OCS.15))
 
-  - [Set-csfipsconfiguration](https://technet.microsoft.com/library/JJ205084(v=OCS.15))
+  - [Set-CsFIPSConfiguration](https://technet.microsoft.com/library/JJ205084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [停用 CsHostingProvider](https://technet.microsoft.com/library/Gg398481(v=OCS.15))
+    [停用 Get-cshostingprovider](https://technet.microsoft.com/library/Gg398481(v=OCS.15))
 
   - <span></span>  
-    [啟用 CsHostingProvider](https://technet.microsoft.com/library/Gg398166(v=OCS.15))
+    [Enable-Get-cshostingprovider](https://technet.microsoft.com/library/Gg398166(v=OCS.15))
 
   - <span></span>  
-    [Get-cshostingprovider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))
+    [Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))
 
   - <span></span>  
-    [新 CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))
+    [New-CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))
 
   - <span></span>  
-    [移除 CsHostingProvider](https://technet.microsoft.com/library/Gg425809(v=OCS.15))
+    [Remove-Get-cshostingprovider](https://technet.microsoft.com/library/Gg425809(v=OCS.15))
 
   - <span></span>  
-    [設定 CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))
+    [Get-cshostingprovider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))
 
 <!-- end list -->
 
@@ -124,44 +126,44 @@ _**主題上次修改日期：** 2012年-06-26_
     [停用 CsPublicProvider](https://technet.microsoft.com/library/Gg398984(v=OCS.15))
 
   - <span></span>  
-    [啟用 CsPublicProvider](https://technet.microsoft.com/library/Gg398780(v=OCS.15))
+    [Enable-CsPublicProvider](https://technet.microsoft.com/library/Gg398780(v=OCS.15))
 
   - <span></span>  
-    [取得 CsPublicProvider](https://technet.microsoft.com/library/Gg412945(v=OCS.15))
+    [CsPublicProvider](https://technet.microsoft.com/library/Gg412945(v=OCS.15))
 
   - <span></span>  
     [新 CsPublicProvider](https://technet.microsoft.com/library/Gg398161(v=OCS.15))
 
   - <span></span>  
-    [移除 CsPublicProvider](https://technet.microsoft.com/library/Gg412906(v=OCS.15))
+    [Remove-CsPublicProvider](https://technet.microsoft.com/library/Gg412906(v=OCS.15))
 
   - <span></span>  
-    [設定 CsPublicProvider](https://technet.microsoft.com/library/Gg413087(v=OCS.15))
+    [CsPublicProvider](https://technet.microsoft.com/library/Gg413087(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-csfederatedpartner](https://technet.microsoft.com/library/Gg398281(v=OCS.15))
+    [Test-CsFederatedPartner](https://technet.microsoft.com/library/Gg398281(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-csxmppallowedpartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))
+  - [Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))
 
-  - [New-csxmppallowedpartner](https://technet.microsoft.com/library/JJ204631(v=OCS.15))
+  - [New-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204631(v=OCS.15))
 
-  - [Remove-csxmppallowedpartner](https://technet.microsoft.com/library/JJ205055(v=OCS.15))
+  - [Remove-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ205055(v=OCS.15))
 
-  - [Set-csxmppallowedpartner](https://technet.microsoft.com/library/JJ204686(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-csxmppgatewayconfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))
-
-  - [Set-csxmppgatewayconfiguration](https://technet.microsoft.com/library/JJ204769(v=OCS.15))
+  - [Set-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204686(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-csxmppim](https://technet.microsoft.com/library/JJ205423(v=OCS.15))
+  - [Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))
+
+  - [Set-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204769(v=OCS.15))
+
+<!-- end list -->
+
+  - [Test-CsXmppIM](https://technet.microsoft.com/library/JJ205423(v=OCS.15))
 
 </div>
 
@@ -170,7 +172,7 @@ _**主題上次修改日期：** 2012年-06-26_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

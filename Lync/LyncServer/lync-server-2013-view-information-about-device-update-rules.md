@@ -12,20 +12,22 @@ ms:contentKeyID: 51803988
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa10335c21a943c90937306a39262e651c392a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79fef5d58116da6b8cbc07ce2b16f3dd4f6b28ac
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211419"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506380"
 ---
+# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>在 Lync Server 2013 中查看裝置更新規則的相關資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>在 Lync Server 2013 中查看裝置更新規則的相關資訊
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 
 > [!NOTE]  
-> 如需如何匯入、核准、重設、還原及移除規則的詳細資訊，請參閱<A href="lync-server-2013-device-update-rules.md">Lync Server 2013 中列出的裝置更新規則</A>主題。
+> 如需如何匯入、核准、重設、還原及移除規則的詳細資訊，請參閱 <A href="lync-server-2013-device-update-rules.md">Lync Server 2013 中列出的裝置更新規則</A>主題。
 
 
 
@@ -55,9 +57,9 @@ _**主題上次修改日期：** 2013-02-23_
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左導覽列中，按一下 [**用戶端**]，然後按一下 [**裝置更新**] 導覽按鈕。 匯入的規則會列在 [**裝置更新**] 頁面上。
+3.  在左導覽列中，按一下 [ **用戶端**]，然後按一下 [ **裝置更新** ] 導覽按鈕。 匯入的規則會列在 [ **裝置更新** ] 頁面上。
 
 </div>
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="viewing-device-update-rules-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看裝置更新規則
 
-您也可以使用 Windows PowerShell 和**Get-CsDeviceUpdateRule** Cmdlet 來查看所有裝置更新規則的詳細資訊。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
+您也可以使用 Windows PowerShell 和 **Get-CsDeviceUpdateRule** Cmdlet 來查看所有裝置更新規則的詳細資訊。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
 
 <div>
 
@@ -111,7 +113,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[Get-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateRule) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Get-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateRule) Cmdlet 的 [說明] 主題。
 
 </div>
 

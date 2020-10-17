@@ -12,20 +12,22 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4034bf512a27bed194dd702ef6e4106b10a3dd1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505690"
 ---
+# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的行動用戶端比較表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的行動用戶端比較表
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2015-09-21_
 
   - 連絡人和連絡人群組
 
-  - 立即訊息（IM）
+  - 立即訊息 (IM) 
 
   - Lync-to-Lync 音訊和影片
 
@@ -65,13 +67,13 @@ _**主題上次修改日期：** 2015-09-21_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>尋找商務用 Skype 的行動用戶端比較表？ 請參閱適用于商務用 Skype 的行動<A href="https://technet.microsoft.com/library/dn951412.aspx">用戶端比較表</A>。</P>
+> <P>尋找商務用 Skype 的行動用戶端比較表？ 請參閱適用于商務用 Skype 的行動 <A href="https://technet.microsoft.com/library/dn951412.aspx">用戶端比較表</A>。</P>
 > <LI>
-> <P>如需使用者的線上說明和資源，請參閱適用于行動<A href="https://go.microsoft.com/fwlink/?linkid=286237">用戶端的 Microsoft Lync 2013</A>。</P>
+> <P>如需使用者的線上說明和資源，請參閱適用于行動 <A href="https://go.microsoft.com/fwlink/?linkid=286237">用戶端的 Microsoft Lync 2013</A>。</P>
 > <LI>
-> <P>若要比較其他 Lync 2013 用戶端中可用的功能，請參閱<A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 的用戶端比較表</A>。</P>
+> <P>若要比較其他 Lync 2013 用戶端中可用的功能，請參閱 <A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 的用戶端比較表</A>。</P>
 > <LI>
-> <P>Lync Server 2013 也支援 Lync 2010 行動應用程式。 如需詳細資訊，請參閱 Lync Server 2010 檔中的行動<A href="https://go.microsoft.com/fwlink/p/?linkid=234777">用戶端比較表</A>。</P></LI></UL>
+> <P>Lync Server 2013 也支援 Lync 2010 行動應用程式。 如需詳細資訊，請參閱 Lync Server 2010 檔中的行動 <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">用戶端比較表</A> 。</P></LI></UL>
 
 
 
@@ -153,7 +155,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>行動用戶端的憑證和被動式驗證支援（僅限 Lync Server）</p></td>
+<td><p>僅 (Lync Server 的行動用戶端的憑證和被動式驗證支援) </p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -264,7 +266,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>設定手動顯示狀態（如忙碌、請勿打擾等等）</p></td>
+<td><p>設定手動顯示狀態 (例如忙碌、請勿打擾等等) </p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -441,7 +443,7 @@ _**主題上次修改日期：** 2015-09-21_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>使用連絡人啟動立即訊息（IM）</p></td>
+<td><p>使用連絡人啟動立即訊息 (IM) </p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -601,7 +603,7 @@ _**主題上次修改日期：** 2015-09-21_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>按一下會議提醒中的連結以加入會議（公用交換電話網路（PSTN））</p></td>
+<td><p>按一下會議提醒中的連結，以加入會議 (公用交換電話網路 (PSTN) # A3</p></td>
 <td><p>●</p></td>
 <td><p>●1</p></td>
 <td><p>●1</p></td>
@@ -625,7 +627,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>使用電話撥出式會議（伺服器呼叫行動裝置）</p></td>
+<td><p>使用電話撥出式會議 (伺服器呼叫行動裝置) </p></td>
 <td><p>●</p></td>
 <td><p>●2</p></td>
 <td><p>●2</p></td>
@@ -649,7 +651,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>流覽多方影片（圖庫視圖）</p></td>
+<td><p>查看多方影片 (圖庫 view) </p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -713,7 +715,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>使用會議工具（呈現 Microsoft PowerPoint 檔案、使用白板、執行投票、共用檔）</p></td>
+<td><p>使用會議工具 (呈現 Microsoft PowerPoint 檔案、使用白板、執行投票、共用檔) </p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -756,7 +758,7 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1對於 Office 365 和 Microsoft 365 使用者而言，此功能僅適用于音訊會議提供者（ACP）啟用的會議。
+1對於 Office 365 和 Microsoft 365 使用者而言，此功能僅適用于音訊會議提供者 (ACP 啟用) 啟用的會議。
 
 2不適用於 Microsoft 365 或 Office 365 使用者。
 
@@ -864,7 +866,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●3</p></td>
 </tr>
 <tr class="even">
-<td><p>使用 [從公司來電] （Lync Server 2013 會將您的撥出電話，讓收件者的來電者識別碼顯示您的工作號碼，而不是您的行動電話號碼）</p></td>
+<td><p>使用 [從公司來電] (Lync Server 2013 可將您的撥出電話，讓接收方的來電者識別碼顯示您的工作號碼，而不是行動電話號碼) </p></td>
 <td></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>

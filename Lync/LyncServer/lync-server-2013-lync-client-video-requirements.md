@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync 用戶端視訊需求'
+title: Lync Server 2013： Lync 用戶端影片需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c15eb698babcce1cd104dd7206c037b95d402992
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506060"
 ---
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013 的 lync 用戶端影片需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013 的 Lync 用戶端視訊需求
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42186346"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016年-01-29_
+_**主題上次修改日期：** 2016-01-29_
 
-本節說明 Lync 2013 視訊撥號的視訊硬體支援，並說明如何判斷預期的視訊品質的各種電腦、 平板電腦及行動裝置設定。
-
-<div>
-
-## <a name="windows-desktop-and-tablet-video-requirements-and-capabilities"></a>Windows 桌上型電腦和平板電腦視訊的需求和功能
-
-Lync 2013 引進硬體加速的視訊編碼和解碼根據 H.264/mpeg-4 組件 10 進階視訊編碼標準。 這項功能可讓具有較低的 CPU 時脈速度，來編碼和解碼高解析度的視訊的電腦。 視訊硬體需求而異 「 電腦設定和視訊解析度原本。
+本節說明 Lync 2013 影片通話的影片硬體支援，並說明如何判斷各種電腦、平板電腦及行動裝置設定的預期影片品質。
 
 <div>
 
-## <a name="video-hardware-requirements"></a>視訊硬體需求
+## <a name="windows-desktop-and-tablet-video-requirements-and-capabilities"></a>Windows 桌面和平板電腦影片需求和功能
+
+Lync 2013 針對根據 H-p/MPEG-4 第10部分的先進視頻編碼標準，引入影片編碼和解碼的硬體加速。 此功能可讓具有較低 CPU 時脈速度的電腦編碼和解碼較高解析度的影片。 影片硬體需求會因電腦設定和影片解析度的需要而異。
+
+<div>
+
+## <a name="video-hardware-requirements"></a>影片硬體需求
 
 
 <table>
@@ -63,41 +65,41 @@ Lync 2013 引進硬體加速的視訊編碼和解碼根據 H.264/mpeg-4 組件 1
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>硬體加速 H.264 解碼使用 DirectX 視訊加速 (DXVA)</p></td>
+<td><p>使用 DirectX 影片加速 (DXVA) 硬體加速的 .H 解碼</p></td>
 <td><ul>
-<li><p>圖形卡必須支援 DirectX 9.0，而且必須公開 DXVA2_ModeH264_VLD_NoFGT 解碼模式。</p></li>
+<li><p>圖形卡必須支援 DirectX 9.0，且必須公開 DXVA2_ModeH264_VLD_NoFGT 解碼模式。</p></li>
 <li><p>必須安裝最新的圖形卡驅動程式。</p></li>
 </ul>
 <div>
 
 > [!NOTE]  
-> 如需關於解碼模式的詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>。
+> 如需有關解碼模式的詳細資訊，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A> 。
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p>硬體加速的 H.264 編碼： 晶片組需求</p></td>
-<td><p>支援下列 Intel 硬體加速的視訊編碼解決方案：</p>
+<td><p>硬體加速的 H-p 編碼：晶片組需求</p></td>
+<td><p>下列為支援的 Intel 硬體加速視頻編碼方案：</p>
 <ul>
-<li><p>第二個和第三代 Intel HD Graphics 2000、 2500、 3000 及 4000 晶片組 （或更新版本） 與整合的硬體視訊編碼器。 是需要安裝的 Intel HD Graphics 驅動程式 15.28.9.2884 或最新驅動程式包含下列：</p>
+<li><p>第二和第三代 Intel HD Graphics 2000、2500、3000及4000晶片組 (或更新版本) 整合的硬體視頻編碼器。 需要安裝 Intel HD Graphics 驅動程式15.28.9.2884 或最新的驅動程式，其中包含下列各項：</p>
 <ul>
-<li><p>顯示驅動程式 9.17.10.2884 或最新的驅動程式</p></li>
-<li><p>硬體媒體 foundation 轉換 (HMFT) 版本 3.12.10.31 或最新的 HMFT</p></li>
+<li><p>顯示驅動程式9.17.10.2884 或最新的驅動程式</p></li>
+<li><p>硬體媒體基礎轉換 (HMFT) 版本3.12.10.31 或最新的 HMFT</p></li>
 </ul></li>
 </ul>
-<p>下列的 AMD 硬體支援加速的視訊編碼解決方案 （需要 CU1 更新 Lync Server 2013）：</p>
+<p>以下是支援的 AMD 硬體加速視頻編碼方案 (需要 Lync Server 2013) CU1 更新：</p>
 <ul>
-<li><p>AMD 視訊轉碼器引擎，也就是可在多個不連續的圖形卡和整合式加速處理的 AMD 的數列加速處理器的單位。 AMD 視訊轉碼器引擎驅動程式 9.12.0.0 或更高版本必須安裝。</p></li>
+<li><p>AMD Video 編解碼器引擎，可在許多獨立的圖形卡中，以及 AMD A Series 加速處理器的整合式加速處理單位。 9.12.0.0 或更新版本必須安裝 AMD Video 編解碼器引擎驅動程式。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>硬體加速的 H.264 編碼： 相機需求</p></td>
-<td><p>符合到 USB 視訊類別 (UVC) 規格版本 1.5 的整合式 H.264 硬體編碼器的 USB 攝影機。</p>
+<td><p>硬體加速的 H-p 編碼：攝像頭需求</p></td>
+<td><p>帶有整合的 H-p 硬體編碼器的 USB 影片相機，其符合 USB Video 類別 (UVC) 規格版本1.5。</p>
 <div>
 
 > [!NOTE]  
-> Lync 2013 支援與 Windows 8 或 Windows 8.1，包含支援 UVC 1.5 UVC 1.5 相機。 Windows 7 不會納入 UVC 1.5 的支援，因為 Lync 2013 會視為一般相機 UVC 1.5 相機與不支援的編碼方式的硬體。
+> Lync 2013 支援具有 Windows 8 或 Windows 8.1 的 UVC 1.5 攝像頭，這包括支援 UVC 1.5。 由於 Windows 7 不包含支援 UVC 1.5，所以 Lync 2013 會將 UVC 1.5 相機視為不含硬體編碼支援的一般攝像頭。
 
 
 </div></td>
@@ -110,27 +112,27 @@ Lync 2013 引進硬體加速的視訊編碼和解碼根據 H.264/mpeg-4 組件 1
 
 <div>
 
-## <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>判斷 H.264 視訊編碼與解碼功能
+## <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>決定 H-p 影片的編碼和解碼功能
 
-一般而言，有四個主要因素可判斷編碼與解碼功能的特定電腦設定最大值：
+一般來說，有四個主要因素會決定特定電腦設定的最大編碼和解碼功能：
 
-  - 支援硬體加速解碼使用 DXVA
+  - 使用 DXVA 支援硬體加速解碼
 
-  - 支援硬體加速編碼
+  - 硬體加速編碼支援
 
-  - 實際核心數
+  - 實體核心數目
 
-  - Windows 體驗指數 (WEI)
+  - Windows 經驗索引 (WEI) 
 
-Windows 系統評估工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具時，它就會產生 Formal.Assessment XML 文件的電腦上 %exchangeinstallpath%windir %\\效能\\WinSAT\\資料存放區目錄。 此 XML 檔案包含下列兩個分數屬於特定重要性判斷編碼與解碼功能：
+Windows 系統評定工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具時，它會在% windir% \\ 效能的 \\ WinSAT 資料目錄中產生電腦上的正規評估 XML 檔 \\ 。 此 XML 檔包含下列兩個分數，尤其是決定編碼和解碼功能的特別重要性：
 
-  - VideoEncodeScore 表示軟體為主的視訊編碼功能的電腦。
+  - VideoEncodeScore 指出電腦的軟體型影片功能。
 
-  - GraphicsScore 值表示硬體加速編碼功能的電腦。
+  - GraphicsScore 值表示電腦的硬體加速編碼功能。
 
-下列三個表格說明編碼與解碼功能根據它們支援哪些硬體加速的不同的電腦類型的最大值。 為 640 x 360 和更高解析度，最多支援的畫面播放速率是 30 每秒畫面數 (fps)。 For 解析度低於 640 x 360，最多支援的畫面播放速率是 15 fps。
+下列三個表格針對不同的電腦類型，根據其所支援的硬體加速度，說明其編碼和解碼功能的上限。 針對640x360 及更高版本，支援的框架速率上限為每秒30個畫面 (fps) 。 對於低於640x360 的解析度，支援的最大畫面播放速率為 15 fps。
 
-### <a name="computer-without-dxva-and-without-hardware-accelerated-encoder"></a>電腦不含 DXVA 且不含硬體加速編碼器
+### <a name="computer-without-dxva-and-without-hardware-accelerated-encoder"></a>沒有 DXVA 且不含硬體加速編碼器的電腦
 
 <table>
 <colgroup>
@@ -140,52 +142,52 @@ Windows 系統評估工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具�
 </colgroup>
 <thead>
 <tr class="header">
-<th>可使用編碼器的解析度</th>
-<th>可使用解碼器的解析度</th>
+<th>支援的編碼器解析</th>
+<th>支援的解碼器解析度</th>
 <th>需求</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>424 x 240</p></td>
-<td><p>424 x 240 （640 x 360，15 fps，如接收僅案例）</p></td>
-<td><p>1 核心且 VideoEncodeScore ≥ 4.0</p></td>
+<td><p>424x240</p></td>
+<td><p>424x240 (640x360 at 15fps 僅限接收案例) </p></td>
+<td><p>1核心和 VideoEncodeScore ≧4。0</p></td>
 </tr>
 <tr class="even">
-<td><p>640 x 360</p></td>
-<td><p>640 x 360</p></td>
-<td><p>2 核心且 VideoEncodeScore ≥ 4.5</p></td>
+<td><p>640x360</p></td>
+<td><p>640x360</p></td>
+<td><p>2核心和 VideoEncodeScore ≧4。5</p></td>
 </tr>
 <tr class="odd">
-<td><p>640 x 360</p></td>
-<td><p>1280 x 720</p></td>
-<td><p>2 核心且 VideoEncodeScore ≥ 4.5</p></td>
+<td><p>640x360</p></td>
+<td><p>1280x720</p></td>
+<td><p>2核心和 VideoEncodeScore ≧4。5</p></td>
 </tr>
 <tr class="even">
-<td><p>640 x 360</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>4 核心且 VideoEncodeScore ≥ 4.5</p></td>
+<td><p>640x360</p></td>
+<td><p>1920x1080</p></td>
+<td><p>4核心和 VideoEncodeScore ≧4。5</p></td>
 </tr>
 <tr class="odd">
-<td><p>1280 x 720</p></td>
-<td><p>1280 x 720</p></td>
-<td><p>4 核心且 VideoEncodeScore ≥ 7.3</p></td>
+<td><p>1280x720</p></td>
+<td><p>1280x720</p></td>
+<td><p>4核心和 VideoEncodeScore ≧7。3</p></td>
 </tr>
 <tr class="even">
-<td><p>1280 x 720</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>4 核心且 VideoEncodeScore ≥ 7.3</p></td>
+<td><p>1280x720</p></td>
+<td><p>1920x1080</p></td>
+<td><p>4核心和 VideoEncodeScore ≧7。3</p></td>
 </tr>
 <tr class="odd">
-<td><p>1920 x 1080</p></td>
-<td><p>1920 x 1080</p></td>
+<td><p>1920x1080</p></td>
+<td><p>1920x1080</p></td>
 <td><p>不適用</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="computer-with-dxva-but-without-hardware-accelerated-encoder"></a>電腦含 DXVA 但不含硬體加速編碼器
+### <a name="computer-with-dxva-but-without-hardware-accelerated-encoder"></a>具有 DXVA 但不含硬體加速編碼器的電腦
 
 <table>
 <colgroup>
@@ -195,36 +197,36 @@ Windows 系統評估工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具�
 </colgroup>
 <thead>
 <tr class="header">
-<th>可使用編碼器的解析度</th>
-<th>可使用解碼器的解析度</th>
+<th>支援的編碼器解析</th>
+<th>支援的解碼器解析度</th>
 <th>需求</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>424 x 240</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>1 核心且 VideoEncodeScore ≥ 3.0</p></td>
+<td><p>424x240</p></td>
+<td><p>1920x1080</p></td>
+<td><p>1核心和 VideoEncodeScore ≧3。0</p></td>
 </tr>
 <tr class="even">
-<td><p>640 x 360</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>2 核心且 VideoEncodeScore ≥ 4.5</p></td>
+<td><p>640x360</p></td>
+<td><p>1920x1080</p></td>
+<td><p>2核心和 VideoEncodeScore ≧4。5</p></td>
 </tr>
 <tr class="odd">
-<td><p>高 960 x 540</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>2 核心且 VideoEncodeScore ≥ 6.0</p></td>
+<td><p>960x540</p></td>
+<td><p>1920x1080</p></td>
+<td><p>2核心和 VideoEncodeScore ≧6。0</p></td>
 </tr>
 <tr class="even">
-<td><p>1280 x 720</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>4 核心且 VideoEncodeScore ≥ 6.7</p></td>
+<td><p>1280x720</p></td>
+<td><p>1920x1080</p></td>
+<td><p>4核心和 VideoEncodeScore ≧6。7</p></td>
 </tr>
 <tr class="odd">
-<td><p>1920 x 1080</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>4 核心且 VideoEncodeScore ≥ 8.2</p></td>
+<td><p>1920x1080</p></td>
+<td><p>1920x1080</p></td>
+<td><p>4核心和 VideoEncodeScore ≧8。2</p></td>
 </tr>
 </tbody>
 </table>
@@ -234,13 +236,13 @@ Windows 系統評估工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具�
 
 
 > [!NOTE]  
-> 在 Windows 7 上的 WinSAT 分數僅限於 7.9 的最大值。 因此，不含硬體加速編碼器的電腦的編碼功能只可在 Windows 8 或 Windows 8.1，其中的最大 WinSAT 分數是 9.9 達成。
+> Windows 7 上的 WinSAT 分數限制為最大值7.9。 因此，沒有硬體加速編碼器的電腦編碼功能只能在 Windows 8 或 Windows 8.1 （最大的 WinSAT 分數為9.9）上完成。
 
 
 
 </div>
 
-### <a name="computer-with-dxva-and-with-intel-hd-graphics-hardware-accelerated-encoder"></a>電腦含 DXVA 且含 Intel HD Graphics 硬體加速編碼器
+### <a name="computer-with-dxva-and-with-intel-hd-graphics-hardware-accelerated-encoder"></a>具有 DXVA 且具有英特爾 HD 圖形硬體加速編碼器的電腦
 
 <table>
 <colgroup>
@@ -250,21 +252,21 @@ Windows 系統評估工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具�
 </colgroup>
 <thead>
 <tr class="header">
-<th>可使用編碼器的解析度</th>
-<th>可使用解碼器的解析度</th>
+<th>支援的編碼器解析</th>
+<th>支援的解碼器解析度</th>
 <th>需求</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1280 x 720</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>所有第 2 個和第 3 層代 Intel HD Graphics</p></td>
+<td><p>1280x720</p></td>
+<td><p>1920x1080</p></td>
+<td><p>所有第二個和第三代的 Intel HD 顯卡</p></td>
 </tr>
 <tr class="even">
-<td><p>1920 x 1080</p></td>
-<td><p>1920 x 1080</p></td>
-<td><p>第 2 個和第 3 代 Intel HD Graphics 且 GraphicsScore ≥ 5.0</p></td>
+<td><p>1920x1080</p></td>
+<td><p>1920x1080</p></td>
+<td><p>第二和第三代 Intel HD Graphics 和 GraphicsScore ≧5。0</p></td>
 </tr>
 </tbody>
 </table>
@@ -276,9 +278,9 @@ Windows 系統評估工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具�
 
 <div>
 
-## <a name="mobile-device-video-capabilities"></a>行動裝置視訊功能
+## <a name="mobile-device-video-capabilities"></a>行動裝置影片功能
 
-下表說明支援的行動裝置的最大視訊功能。 如需有關行動裝置支援，請參閱[Planning for Lync Server 2013 中的行動用戶端](lync-server-2013-planning-for-mobile-clients.md)。
+下表說明支援的行動裝置的最大視頻功能。 如需行動裝置支援的詳細資訊，請參閱 [在 Lync Server 2013 中規劃行動用戶端](lync-server-2013-planning-for-mobile-clients.md)。
 
 
 <table>
@@ -293,31 +295,31 @@ Windows 系統評估工具 (WinSAT) 會決定 WEI。 當您執行 WinSAT 工具�
 <tr class="header">
 <th>功能</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>H.264 編碼最大解析度</p></td>
-<td><p>VGA</p></td>
-<td><p>QVGA: iPhone 4S</p>
-<p>VGA: iPhone 5</p>
-<p>720 p: iPhone 5S 和更新版本</p></td>
-<td><p>VGA: iPad 2 和更新版本/iPad 浮動 1 和更新版本</p>
-<p>720 p: iPad 空調/iPad 迷你 2/iPad 專業版和更新版本</p></td>
-<td><p>最多 VGA 根據裝置型號</p></td>
+<td><p>最高解析度的264編碼</p></td>
+<td><p>Vga</p></td>
+<td><p>QVGA： iPhone 4S</p>
+<p>VGA： iPhone 5</p>
+<p>720p： iPhone 5S 及更新版本</p></td>
+<td><p>VGA： iPad 2 和更新版本/iPad 迷你1和更新版本</p>
+<p>720p： iPad Air/iPad 迷你 2/iPad Pro 和更新版本</p></td>
+<td><p>取決於裝置模型，最多 VGA</p></td>
 </tr>
 <tr class="even">
-<td><p>H.264 解碼最大解析度</p></td>
-<td><p>VGA</p></td>
-<td><p>QVGA: iPhone 4S</p>
-<p>VGA: iPhone 5</p>
-<p>720 p: iPhone 5S 和更新版本</p></td>
-<td><p>VGA: iPad 2 和更新版本/iPad 浮動 1 和更新版本</p>
-<p>720 p: iPad 空調/iPad 迷你 2/iPad 專業版和更新版本</p></td>
-<td><p>最多 VGA 根據裝置型號</p></td>
+<td><p>-264 解碼最大解析度</p></td>
+<td><p>Vga</p></td>
+<td><p>QVGA： iPhone 4S</p>
+<p>VGA： iPhone 5</p>
+<p>720p： iPhone 5S 及更新版本</p></td>
+<td><p>VGA： iPad 2 和更新版本/iPad 迷你1和更新版本</p>
+<p>720p： iPad Air/iPad 迷你 2/iPad Pro 和更新版本</p></td>
+<td><p>取決於裝置模型，最多 VGA</p></td>
 </tr>
 </tbody>
 </table>

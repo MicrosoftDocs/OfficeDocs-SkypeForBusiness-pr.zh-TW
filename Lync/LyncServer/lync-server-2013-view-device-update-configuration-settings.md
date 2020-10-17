@@ -12,20 +12,22 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b5cc0ff742c81cb6480df1d4ae8cb83a686c2e8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7f3d6ae80aa83d7edcf6d64a13c4cbda90c9ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211489"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506450"
 ---
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中查看裝置更新設定設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中查看裝置更新設定設定
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211489"
 
 _**主題上次修改日期：** 2013-02-20_
 
-您可以使用 Lync Server 管理命令介面和**Get-CsDeviceUpdateConfiguration** Cmdlet 來查看裝置更新服務設定設定，您可以從 lync Server 2013 管理命令介面或 Windows 的遠端會話執行該指令程式 PowerShell
+您可以使用 Lync Server 管理命令介面和 **Get-CsDeviceUpdateConfiguration** Cmdlet 來查看裝置更新服務設定設定，您可以從 lync Server 2013 管理命令介面或 Windows 的遠端會話執行該指令程式 PowerShell
 
 <div>
 
@@ -72,7 +74,7 @@ _**主題上次修改日期：** 2013-02-20_
 
 </div>
 
-如需此 Cmdlet 的詳細資訊，請參閱[Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)的 Help 主題。
+如需此 Cmdlet 的詳細資訊，請參閱 [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)的 Help 主題。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 檢視已啟用 Lync server 的使用者帳戶的相關資訊
+title: 查看啟用 Lync Server 之使用者帳戶的相關資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e710e1e8eb49eb9a7f11ed92dcacd3b450debbf0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7ba7d088da2e3843a6e1c49b100f05ac7f8431ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211229"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506310"
 ---
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>查看啟用 Lync Server 2013 之使用者帳戶的相關資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>檢視使用者帳戶啟用 Lync Server 2013 的相關資訊
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42211229"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-18_
+_**主題上次修改日期：** 2012-10-18_
 
-請遵循此區段可以檢視的設定和原則資訊 Lync Server 2013 的使用者帳戶中的程序。
+遵循本節中的程式，以查看 Lync Server 2013 使用者帳戶的設定和原則資訊。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [搜尋 Lync Server 2013 中的 Lync Server 使用者](lync-server-2013-search-for-lync-server-users.md)
+  - [在 Lync Server 2013 中搜尋 Lync Server 使用者](lync-server-2013-search-for-lync-server-users.md)
 
 </div>
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012年-10-18_
 
 ## <a name="related-sections"></a>相關各節
 
-[指派 Lync Server 2013 中的個別使用者原則](lync-server-2013-assigning-per-user-policies.md)
+[在 Lync Server 2013 中指派每一使用者原則](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

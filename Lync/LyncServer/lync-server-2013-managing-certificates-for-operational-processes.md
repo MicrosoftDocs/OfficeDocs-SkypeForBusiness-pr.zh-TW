@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理營運程序的憑證
+title: Lync Server 2013：管理操作程式的憑證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1cbdb0e253d5f9747b403ad765bded608f30698
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4339a19d58494079d7d8349359c614e7ebf141e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505860"
 ---
+# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a>在 Lync Server 2013 中管理工作處理的憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a>管理 Lync Server 2013 中的作業程序的憑證
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42185786"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-使用下列程序來使用 Lync Server 管理命令介面 cmdlet 管理憑證。
+使用下列程式，透過 Lync Server 管理命令介面 Cmdlet 來管理憑證。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的預備 AV 與 OAuth 憑證使用-Roll 在 Set-cscertificate 中](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
+  - [在 Lync Server 2013 中使用-滾 Set-CsCertificate 中的 AV 和 OAuth 憑證進行暫存](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b7f20857eded55c2488582c4b228bf0a53905c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bf1bf0ce10281bf4d31fc8fdb1be9251b72caf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507020"
 ---
+# <a name="planning-for-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中規劃會議
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中規劃會議
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**主題上次修改日期：** 2013-01-29_
 
 Lync Server 2013 提供一組豐富的會議功能：
 
-  - Web 會議，包含檔共同作業、應用程式共用和桌面共用。 Lync Server 2013 使用 Office Web Apps 與 Office Web apps Server 來處理 PowerPoint 簡報的共用及呈現。 如需安裝及設定 Office Web Apps Server 的詳細資訊，請參閱設定[Office Web Apps server 與 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
+  - Web 會議，包含檔共同作業、應用程式共用和桌面共用。 Lync Server 2013 使用 Office Web Apps 與 Office Web apps Server 來處理 PowerPoint 簡報的共用及呈現。 如需安裝及設定 Office Web Apps Server 的詳細資訊，請參閱設定 [Office Web Apps server 與 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
 
   - 音訊/視頻 (A/V) 會議，可讓使用者進行即時音訊或視訊會議，而不需要使用 Microsoft Live Meeting 服務或協力廠商音訊橋的外部服務。
 
   - 電話撥入式會議，可讓使用者使用公用交換電話網路 (PSTN) 電話加入 Lync Server 2013 會議的音訊部分，而不需要協力廠商音訊會議提供者。
 
-  - 立即訊息 (IM) 會議，其中有兩部以上的參與方在單一 IM 會話中進行通訊。 如需 IM 會議的詳細資訊，請參閱[在 Lync Server 2013 中規劃前端伺服器、立即訊息及顯示狀態](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)。
+  - 立即訊息 (IM) 會議，其中有兩部以上的參與方在單一 IM 會話中進行通訊。 如需 IM 會議的詳細資訊，請參閱 [在 Lync Server 2013 中規劃前端伺服器、立即訊息及顯示狀態](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)。
 
 Lync Server 2013 支援排程會議和即時會議。
 
