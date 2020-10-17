@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：取得 Persistent Chat Server 集區可用性
+description: Lync Server 2013：取得 Persistent Chat Server 集區可用性。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c6acc9e2ffb3ef4e636383f91e1e4c81a37ac6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 835f4b6008e61a46fa3969b4d09f76ee7c1533ff
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512610"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554609"
 ---
-# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a><span data-ttu-id="99189-102">在 Lync Server 2013 中取得 Persistent Chat Server 集區可用性</span><span class="sxs-lookup"><span data-stu-id="99189-102">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>
+# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a><span data-ttu-id="d1dcc-103">在 Lync Server 2013 中取得 Persistent Chat Server 集區可用性</span><span class="sxs-lookup"><span data-stu-id="d1dcc-103">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48512610"
 
 <span> </span>
 
-<span data-ttu-id="99189-103">_**主題上次修改日期：** 2012-03-23_</span><span class="sxs-lookup"><span data-stu-id="99189-103">_**Topic Last Modified:** 2012-03-23_</span></span>
+<span data-ttu-id="d1dcc-104">_**主題上次修改日期：** 2012-03-23_</span><span class="sxs-lookup"><span data-stu-id="d1dcc-104">_**Topic Last Modified:** 2012-03-23_</span></span>
 
-<span data-ttu-id="99189-104">取得持久聊天伺服器集區可用性</span><span class="sxs-lookup"><span data-stu-id="99189-104">To get Persistent Chat Server pool availability</span></span>
+<span data-ttu-id="d1dcc-105">取得持久聊天伺服器集區可用性</span><span class="sxs-lookup"><span data-stu-id="d1dcc-105">To get Persistent Chat Server pool availability</span></span>
 
     Get-CsService -PersistentChatServer
 

@@ -1,5 +1,6 @@
 ---
 title: 確認已移除舊版集區中的所有 Exchange UM 連絡人物件
+description: 確認已移除舊版集區中的所有 Exchange UM 連絡人物件。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eae8f82016f8dd78c3ecd568e34c3cc408a204ae
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8af5dea6cf746c55d8fecf074e132f721c380de1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515950"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555509"
 ---
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="901af-102">確認已移除舊版集區中的所有 Exchange UM 連絡人物件</span><span class="sxs-lookup"><span data-stu-id="901af-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="4f9c5-103">確認已移除舊版集區中的所有 Exchange UM 連絡人物件</span><span class="sxs-lookup"><span data-stu-id="4f9c5-103">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48515950"
 
 <span> </span>
 
-<span data-ttu-id="901af-103">_**主題上次修改日期：** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="901af-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="4f9c5-104">_**主題上次修改日期：** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="4f9c5-104">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="901af-104">使用 **OCSUmUtil** 工具或 **Get-CsExumContact** 指令程式，確認已從舊版 Office 通訊伺服器 2007 R2 集區中移除 Exchange UM 連絡人物件。</span><span class="sxs-lookup"><span data-stu-id="901af-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="901af-105">**OCSUmUtil** 位於下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="901af-105">**OCSUmUtil** is located in the following folder:</span></span>
+<span data-ttu-id="4f9c5-105">使用 **OCSUmUtil** 工具或 **Get-CsExumContact** 指令程式，確認已從舊版 Office 通訊伺服器 2007 R2 集區中移除 Exchange UM 連絡人物件。</span><span class="sxs-lookup"><span data-stu-id="4f9c5-105">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="4f9c5-106">**OCSUmUtil** 位於下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="4f9c5-106">**OCSUmUtil** is located in the following folder:</span></span>
 
-<span data-ttu-id="901af-106">% Program Files% \\ Common files （ \\ Lync Server 2013 \\ 支援 \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="901af-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
+<span data-ttu-id="4f9c5-107">% Program Files% \\ Common files （ \\ Lync Server 2013 \\ 支援 \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="4f9c5-107">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
 
-<span data-ttu-id="901af-107">用於執行 **OCSUmUtil** 的使用者帳戶必須具備：</span><span class="sxs-lookup"><span data-stu-id="901af-107">**OCSUmUtil** must be run from a user account that has:</span></span>
+<span data-ttu-id="4f9c5-108">用於執行 **OCSUmUtil** 的使用者帳戶必須具備：</span><span class="sxs-lookup"><span data-stu-id="4f9c5-108">**OCSUmUtil** must be run from a user account that has:</span></span>
 
-  - <span data-ttu-id="901af-108">RTCUniversalServerAdmins 與 RTCUniversalUserAdmins 群組的成員資格 (包括讀取 Exchange Server Unified Messaging 設定的權限)</span><span class="sxs-lookup"><span data-stu-id="901af-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
+  - <span data-ttu-id="4f9c5-109">RTCUniversalServerAdmins 與 RTCUniversalUserAdmins 群組的成員資格 (包括讀取 Exchange Server Unified Messaging 設定的權限)</span><span class="sxs-lookup"><span data-stu-id="4f9c5-109">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
 
-  - <span data-ttu-id="901af-109">在指定之組織單位 (OU) 容器中建立連絡人物件的網域權限。</span><span class="sxs-lookup"><span data-stu-id="901af-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
+  - <span data-ttu-id="4f9c5-110">在指定之組織單位 (OU) 容器中建立連絡人物件的網域權限。</span><span class="sxs-lookup"><span data-stu-id="4f9c5-110">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
 
-<span data-ttu-id="901af-110">如需使用 **Get-CsExumContact** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的 [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。</span><span class="sxs-lookup"><span data-stu-id="901af-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="4f9c5-111">如需使用 **Get-CsExumContact** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的 [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。</span><span class="sxs-lookup"><span data-stu-id="4f9c5-111">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 
