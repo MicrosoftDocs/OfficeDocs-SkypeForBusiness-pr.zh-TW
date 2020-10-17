@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 委派
+title: Lync Server 2013：委派
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57de37ff1ef0b43a8a6ea9c03b715d3ebe570a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190906"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516301"
 ---
+# <a name="delegation-in-lync-server-2013"></a><span data-ttu-id="306fc-102">Lync Server 2013 中的委派</span><span class="sxs-lookup"><span data-stu-id="306fc-102">Delegation in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a><span data-ttu-id="1a484-102">Lync Server 2013 中的委派</span><span class="sxs-lookup"><span data-stu-id="1a484-102">Delegation in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,24 +37,24 @@ ms.locfileid: "42190906"
 
 <span> </span>
 
-<span data-ttu-id="1a484-103">_**上次修改主題：** 2013年-03-09_</span><span class="sxs-lookup"><span data-stu-id="1a484-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="306fc-103">_**主題上次修改日期：** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="306fc-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="1a484-104">在 Lync 中的委派功能都受到位置型的路由，以下列方式：</span><span class="sxs-lookup"><span data-stu-id="1a484-104">The delegation capabilities in Lync are affected by Location-Based Routing in the following manner:</span></span>
+<span data-ttu-id="306fc-104">Lync 的委派功能會受到以下列方式 Location-Based 路由的影響：</span><span class="sxs-lookup"><span data-stu-id="306fc-104">The delegation capabilities in Lync are affected by Location-Based Routing in the following manner:</span></span>
 
-  - <span data-ttu-id="1a484-105">當委派啟用位置型路由 places 代表管理員在呼叫時，代理人的語音原則用來授權通話和代理人的站台語音路由原則會用來路由傳送來電</span><span class="sxs-lookup"><span data-stu-id="1a484-105">When a delegate enabled for Location-Based Routing places a call on behalf of a manager, the delegate’s voice policy is used to authorize the call and the delegate’s site voice routing policy will be used to route the call</span></span>
+  - <span data-ttu-id="306fc-105">啟用 Location-Based 路由的代理人代表管理員撥打電話時，代理人的語音原則會用來授權通話，並使用代理人的網站語音路由原則路由傳送通話</span><span class="sxs-lookup"><span data-stu-id="306fc-105">When a delegate enabled for Location-Based Routing places a call on behalf of a manager, the delegate’s voice policy is used to authorize the call and the delegate’s site voice routing policy will be used to route the call</span></span>
 
-  - <span data-ttu-id="1a484-106">傳入 PSTN 通話的管理員，適用於相同規則來電轉接或同時響鈴會套用在來電轉接和轉寄和 Simultaneous 響鈴主題所述。</span><span class="sxs-lookup"><span data-stu-id="1a484-106">For incoming PSTN calls to a manager, the same rules applicable for call forwarding or simultaneously ringing will apply as described in the Call transfers and forwarding and Simultaneous ringing topics.</span></span>
+  - <span data-ttu-id="306fc-106">針對主管的內送 PSTN 電話，可依照通話轉接及轉接及同時響鈴的主題所述，套用適用于來電轉接或同時振鈴的相同規則。</span><span class="sxs-lookup"><span data-stu-id="306fc-106">For incoming PSTN calls to a manager, the same rules applicable for call forwarding or simultaneously ringing will apply as described in the Call transfers and forwarding and Simultaneous ringing topics.</span></span>
 
-  - <span data-ttu-id="1a484-107">當委派設定 PSTN 端點做為管理員] 中的內送呼叫的同時響鈴目標給傳入主幹相關聯之網站的語音路由原則將用來將呼叫路由至代理人的 PSTN 端點。</span><span class="sxs-lookup"><span data-stu-id="1a484-107">When a delegate sets a PSTN endpoint as a simultaneous ring target, for an incoming call to the manager, the voice routing policy of the site that is associated to the incoming trunk will be used to route the call to the delegate’s PSTN endpoint.</span></span>
+  - <span data-ttu-id="306fc-107">當代理人將 PSTN 端點設定為同時振鈴目標時，如果是對管理員的來電，就會使用與傳入主幹相關聯之網站的語音路由原則，將通話路由傳送至代理人的 PSTN 端點。</span><span class="sxs-lookup"><span data-stu-id="306fc-107">When a delegate sets a PSTN endpoint as a simultaneous ring target, for an incoming call to the manager, the voice routing policy of the site that is associated to the incoming trunk will be used to route the call to the delegate’s PSTN endpoint.</span></span>
 
-  - <span data-ttu-id="1a484-108">委派，建議您，主管和其相關聯的代理人，通常位於相同的網路網站。</span><span class="sxs-lookup"><span data-stu-id="1a484-108">For delegation, it’s recommended that the manager and his associated delegates to be usually located in the same network site.</span></span>
+  - <span data-ttu-id="306fc-108">為了進行委派，建議管理員和其相關聯的代理人通常位於相同的網路網站。</span><span class="sxs-lookup"><span data-stu-id="306fc-108">For delegation, it’s recommended that the manager and his associated delegates to be usually located in the same network site.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1a484-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1a484-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="306fc-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="306fc-109">See Also</span></span>
 
 
-[<span data-ttu-id="1a484-110">依位置路由 Lync Server 2013 中的案例</span><span class="sxs-lookup"><span data-stu-id="1a484-110">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="306fc-110">Lync Server 2013 中的 Location-Based 路由案例</span><span class="sxs-lookup"><span data-stu-id="306fc-110">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

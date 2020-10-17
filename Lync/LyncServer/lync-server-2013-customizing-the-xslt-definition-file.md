@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 自訂 XSLT 定義檔
+title: Lync Server 2013：自訂 XSLT 定義檔案
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516630"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="cb085-102">在 Lync Server 2013 中自訂 XSLT 定義檔案</span><span class="sxs-lookup"><span data-stu-id="cb085-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="f03b6-102">自訂 Lync Server 2013 中的 XSLT 定義檔</span><span class="sxs-lookup"><span data-stu-id="f03b6-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42191696"
 
 <span> </span>
 
-<span data-ttu-id="f03b6-103">_**上次修改主題：** 2014年-09-11_</span><span class="sxs-lookup"><span data-stu-id="f03b6-103">_**Topic Last Modified:** 2014-09-11_</span></span>
+<span data-ttu-id="cb085-103">_**主題上次修改日期：** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="cb085-103">_**Topic Last Modified:** 2014-09-11_</span></span>
 
-<span data-ttu-id="f03b6-104">規範服務記錄及封存與每個 Lync Server 2013，Persistent Chat Server 交談，包括參與者相關的資料：</span><span class="sxs-lookup"><span data-stu-id="f03b6-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
+<span data-ttu-id="cb085-104">規範服務會記錄和封存與每個 Lync Server 2013 和 Persistent Chat Server 交談相關的資料，包括參與者：</span><span class="sxs-lookup"><span data-stu-id="cb085-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
 
-  - <span data-ttu-id="f03b6-105">聯結常設聊天室會議室</span><span class="sxs-lookup"><span data-stu-id="f03b6-105">Joins a Persistent Chat room</span></span>
+  - <span data-ttu-id="cb085-105">加入 Persistent 聊天室</span><span class="sxs-lookup"><span data-stu-id="cb085-105">Joins a Persistent Chat room</span></span>
 
-  - <span data-ttu-id="f03b6-106">離開聊天室</span><span class="sxs-lookup"><span data-stu-id="f03b6-106">Leaves a chat room</span></span>
+  - <span data-ttu-id="cb085-106">離開聊天室</span><span class="sxs-lookup"><span data-stu-id="cb085-106">Leaves a chat room</span></span>
 
-  - <span data-ttu-id="f03b6-107">張貼訊息</span><span class="sxs-lookup"><span data-stu-id="f03b6-107">Posts a message</span></span>
+  - <span data-ttu-id="cb085-107">張貼訊息</span><span class="sxs-lookup"><span data-stu-id="cb085-107">Posts a message</span></span>
 
-  - <span data-ttu-id="f03b6-108">檢視聊天歷程記錄</span><span class="sxs-lookup"><span data-stu-id="f03b6-108">Views chat history</span></span>
+  - <span data-ttu-id="cb085-108">查看聊天記錄</span><span class="sxs-lookup"><span data-stu-id="cb085-108">Views chat history</span></span>
 
-  - <span data-ttu-id="f03b6-109">上傳檔案</span><span class="sxs-lookup"><span data-stu-id="f03b6-109">Uploads a file</span></span>
+  - <span data-ttu-id="cb085-109">上傳檔案</span><span class="sxs-lookup"><span data-stu-id="cb085-109">Uploads a file</span></span>
 
-  - <span data-ttu-id="f03b6-110">下載檔案</span><span class="sxs-lookup"><span data-stu-id="f03b6-110">Downloads a file</span></span>
+  - <span data-ttu-id="cb085-110">下載檔案</span><span class="sxs-lookup"><span data-stu-id="cb085-110">Downloads a file</span></span>
 
-<span data-ttu-id="f03b6-p101">資料會以 XML 提供，您可以使用 XSLT 定義檔，將其轉換成最適合您組織的格式。本主題說明規範服務所建立的 XML 檔案。另外也有提供 XSLT 定義及輸出檔範例。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
+<span data-ttu-id="cb085-p101">資料會以 XML 提供，您可以使用 XSLT 定義檔，將其轉換成最適合您組織的格式。本主題說明規範服務所建立的 XML 檔案。另外也有提供 XSLT 定義及輸出檔範例。</span><span class="sxs-lookup"><span data-stu-id="cb085-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
 
 <div>
 
-## <a name="output-format"></a><span data-ttu-id="f03b6-114">輸出格式</span><span class="sxs-lookup"><span data-stu-id="f03b6-114">Output Format</span></span>
+## <a name="output-format"></a><span data-ttu-id="cb085-114">輸出格式</span><span class="sxs-lookup"><span data-stu-id="cb085-114">Output Format</span></span>
 
-<span data-ttu-id="f03b6-115">規範服務輸出會先依交談 (Conversation 元素) 分類，再依訊息 (Messages 元素) 分類，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="f03b6-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
+<span data-ttu-id="cb085-115">規範服務輸出會先依交談 (Conversation 元素) 分類，再依訊息 (Messages 元素) 分類，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="cb085-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,23 +74,23 @@ ms.locfileid: "42191696"
       </Conversation>
     </Conversations>
 
-<span data-ttu-id="f03b6-p102">Conversation 元素包含四個元素 (Channel、FirstMessage、StartTimeUTC 及 EndTimeUTC)。Channel 元素包含聊天室的統一資源識別項 (URI)，而 FirstMessage 元素會描述 Messages 元素中的第一則訊息。StartTimeUTC 及 EndTimeUTC 元素提供交談的開始和結束時間，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
+<span data-ttu-id="cb085-p102">Conversation 元素包含四個元素 (Channel、FirstMessage、StartTimeUTC 及 EndTimeUTC)。Channel 元素包含聊天室的統一資源識別項 (URI)，而 FirstMessage 元素會描述 Messages 元素中的第一則訊息。StartTimeUTC 及 EndTimeUTC 元素提供交談的開始和結束時間，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="cb085-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-<span data-ttu-id="f03b6-p103">Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type、Content 和 ID)。Sender 元素代表傳送訊息的使用者，而 DateTimeUTC 元素代表事件發生的時間，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
+<span data-ttu-id="cb085-p103">Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type、Content 和 ID)。Sender 元素代表傳送訊息的使用者，而 DateTimeUTC 元素代表事件發生的時間，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="cb085-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-<span data-ttu-id="f03b6-121">下表描述訊息屬性 Type、 Content 及 id。</span><span class="sxs-lookup"><span data-stu-id="f03b6-121">The following table describes the message attributes Type, Content, and ID.</span></span>
+<span data-ttu-id="cb085-121">下表說明郵件屬性類型、內容及識別碼。</span><span class="sxs-lookup"><span data-stu-id="cb085-121">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-### <a name="messages-element-attributes"></a><span data-ttu-id="f03b6-122">Messages 元素屬性</span><span class="sxs-lookup"><span data-stu-id="f03b6-122">Messages Element Attributes</span></span>
+### <a name="messages-element-attributes"></a><span data-ttu-id="cb085-122">Messages 元素屬性</span><span class="sxs-lookup"><span data-stu-id="cb085-122">Messages Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -98,34 +100,34 @@ ms.locfileid: "42191696"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f03b6-123">屬性</span><span class="sxs-lookup"><span data-stu-id="f03b6-123">Attribute</span></span></th>
-<th><span data-ttu-id="f03b6-124">描述</span><span class="sxs-lookup"><span data-stu-id="f03b6-124">Description</span></span></th>
-<th><span data-ttu-id="f03b6-125">選用/必要</span><span class="sxs-lookup"><span data-stu-id="f03b6-125">Optional/Required</span></span></th>
+<th><span data-ttu-id="cb085-123">屬性</span><span class="sxs-lookup"><span data-stu-id="cb085-123">Attribute</span></span></th>
+<th><span data-ttu-id="cb085-124">描述</span><span class="sxs-lookup"><span data-stu-id="cb085-124">Description</span></span></th>
+<th><span data-ttu-id="cb085-125">選用/必要</span><span class="sxs-lookup"><span data-stu-id="cb085-125">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-126">Type</span><span class="sxs-lookup"><span data-stu-id="f03b6-126">Type</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-p104">指定訊息類型。訊息類型描述在「訊息元素訊息類型」表格中。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-129">必要</span><span class="sxs-lookup"><span data-stu-id="f03b6-129">Required</span></span></p></td>
+<td><p><span data-ttu-id="cb085-126">類型</span><span class="sxs-lookup"><span data-stu-id="cb085-126">Type</span></span></p></td>
+<td><p><span data-ttu-id="cb085-p104">指定訊息類型。訊息類型描述在「訊息元素訊息類型」表格中。</span><span class="sxs-lookup"><span data-stu-id="cb085-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-129">必要</span><span class="sxs-lookup"><span data-stu-id="cb085-129">Required</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f03b6-130">內容</span><span class="sxs-lookup"><span data-stu-id="f03b6-130">Content</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-p105">包含訊息內容。Type 為 Join 或 Part 的訊息不使用此屬性。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-133">選用</span><span class="sxs-lookup"><span data-stu-id="f03b6-133">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cb085-130">內容</span><span class="sxs-lookup"><span data-stu-id="cb085-130">Content</span></span></p></td>
+<td><p><span data-ttu-id="cb085-p105">包含訊息內容。Type 為 Join 或 Part 的訊息不使用此屬性。</span><span class="sxs-lookup"><span data-stu-id="cb085-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-133">選用</span><span class="sxs-lookup"><span data-stu-id="cb085-133">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-134">ID</span><span class="sxs-lookup"><span data-stu-id="f03b6-134">ID</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-p106">指定內容的唯一識別碼。此屬性僅用於 Type 為 Chat 的訊息。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-137">選用</span><span class="sxs-lookup"><span data-stu-id="f03b6-137">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cb085-134">ID</span><span class="sxs-lookup"><span data-stu-id="cb085-134">ID</span></span></p></td>
+<td><p><span data-ttu-id="cb085-p106">指定內容的唯一識別碼。此屬性僅用於 Type 為 Chat 的訊息。</span><span class="sxs-lookup"><span data-stu-id="cb085-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-137">選用</span><span class="sxs-lookup"><span data-stu-id="cb085-137">Optional</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f03b6-p107">每個 Sender 元素都包含五個屬性：user name、ID、email、internal 和 URI。這些屬性的說明如下表。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
+<span data-ttu-id="cb085-p107">每個 Sender 元素都包含五個屬性：user name、ID、email、internal 和 URI。這些屬性的說明如下表。</span><span class="sxs-lookup"><span data-stu-id="cb085-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
 
-### <a name="sender-element-attributes"></a><span data-ttu-id="f03b6-140">Sender 元素屬性</span><span class="sxs-lookup"><span data-stu-id="f03b6-140">Sender Element Attributes</span></span>
+### <a name="sender-element-attributes"></a><span data-ttu-id="cb085-140">Sender 元素屬性</span><span class="sxs-lookup"><span data-stu-id="cb085-140">Sender Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -135,44 +137,44 @@ ms.locfileid: "42191696"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f03b6-141">屬性</span><span class="sxs-lookup"><span data-stu-id="f03b6-141">Attribute</span></span></th>
-<th><span data-ttu-id="f03b6-142">描述</span><span class="sxs-lookup"><span data-stu-id="f03b6-142">Description</span></span></th>
-<th><span data-ttu-id="f03b6-143">選用/必要</span><span class="sxs-lookup"><span data-stu-id="f03b6-143">Optional/Required</span></span></th>
+<th><span data-ttu-id="cb085-141">屬性</span><span class="sxs-lookup"><span data-stu-id="cb085-141">Attribute</span></span></th>
+<th><span data-ttu-id="cb085-142">描述</span><span class="sxs-lookup"><span data-stu-id="cb085-142">Description</span></span></th>
+<th><span data-ttu-id="cb085-143">選用/必要</span><span class="sxs-lookup"><span data-stu-id="cb085-143">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-144">使用者名稱</span><span class="sxs-lookup"><span data-stu-id="f03b6-144">Username</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-145">傳送者的名稱。</span><span class="sxs-lookup"><span data-stu-id="f03b6-145">The name of the sender.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-146">選用</span><span class="sxs-lookup"><span data-stu-id="f03b6-146">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cb085-144">使用者名稱</span><span class="sxs-lookup"><span data-stu-id="cb085-144">Username</span></span></p></td>
+<td><p><span data-ttu-id="cb085-145">傳送者的名稱。</span><span class="sxs-lookup"><span data-stu-id="cb085-145">The name of the sender.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-146">選用</span><span class="sxs-lookup"><span data-stu-id="cb085-146">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f03b6-147">ID</span><span class="sxs-lookup"><span data-stu-id="f03b6-147">ID</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-148">傳送者的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="f03b6-148">The sender’s unique ID.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-149">必要</span><span class="sxs-lookup"><span data-stu-id="f03b6-149">Required</span></span></p></td>
+<td><p><span data-ttu-id="cb085-147">ID</span><span class="sxs-lookup"><span data-stu-id="cb085-147">ID</span></span></p></td>
+<td><p><span data-ttu-id="cb085-148">傳送者的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="cb085-148">The sender’s unique ID.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-149">必要</span><span class="sxs-lookup"><span data-stu-id="cb085-149">Required</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-150">電子郵件</span><span class="sxs-lookup"><span data-stu-id="f03b6-150">Email</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-151">傳送者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="f03b6-151">The sender’s email address.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-152">選用</span><span class="sxs-lookup"><span data-stu-id="f03b6-152">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cb085-150">電子郵件</span><span class="sxs-lookup"><span data-stu-id="cb085-150">Email</span></span></p></td>
+<td><p><span data-ttu-id="cb085-151">傳送者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="cb085-151">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-152">選用</span><span class="sxs-lookup"><span data-stu-id="cb085-152">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f03b6-153">內部</span><span class="sxs-lookup"><span data-stu-id="f03b6-153">Internal</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-p108">決定使用者為內部使用者或同盟使用者。如果該值設為 true，則為內部使用者。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-156">選用</span><span class="sxs-lookup"><span data-stu-id="f03b6-156">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cb085-153">內部</span><span class="sxs-lookup"><span data-stu-id="cb085-153">Internal</span></span></p></td>
+<td><p><span data-ttu-id="cb085-p108">決定使用者為內部使用者或同盟使用者。如果該值設為 true，則為內部使用者。</span><span class="sxs-lookup"><span data-stu-id="cb085-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-156">選用</span><span class="sxs-lookup"><span data-stu-id="cb085-156">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-157">Uri</span><span class="sxs-lookup"><span data-stu-id="f03b6-157">Uri</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-158">使用者的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="f03b6-158">The user’s SIP URI.</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-159">必要</span><span class="sxs-lookup"><span data-stu-id="f03b6-159">Required</span></span></p></td>
+<td><p><span data-ttu-id="cb085-157">Uri</span><span class="sxs-lookup"><span data-stu-id="cb085-157">Uri</span></span></p></td>
+<td><p><span data-ttu-id="cb085-158">使用者的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="cb085-158">The user’s SIP URI.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-159">必要</span><span class="sxs-lookup"><span data-stu-id="cb085-159">Required</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f03b6-p109">下表說明 Messages 元素可包含的訊息類型。其中也提供各元素的用法範例。</span><span class="sxs-lookup"><span data-stu-id="f03b6-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
+<span data-ttu-id="cb085-p109">下表說明 Messages 元素可包含的訊息類型。其中也提供各元素的用法範例。</span><span class="sxs-lookup"><span data-stu-id="cb085-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
 
-### <a name="message-element-message-types"></a><span data-ttu-id="f03b6-162">Message 元素訊息類型</span><span class="sxs-lookup"><span data-stu-id="f03b6-162">Message Element Message Types</span></span>
+### <a name="message-element-message-types"></a><span data-ttu-id="cb085-162">Message 元素訊息類型</span><span class="sxs-lookup"><span data-stu-id="cb085-162">Message Element Message Types</span></span>
 
 <table>
 <colgroup>
@@ -182,55 +184,55 @@ ms.locfileid: "42191696"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f03b6-163">如果郵件類型</span><span class="sxs-lookup"><span data-stu-id="f03b6-163">Message Type</span></span></th>
-<th><span data-ttu-id="f03b6-164">說明</span><span class="sxs-lookup"><span data-stu-id="f03b6-164">Description</span></span></th>
-<th><span data-ttu-id="f03b6-165">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="f03b6-165">Code example</span></span></th>
+<th><span data-ttu-id="cb085-163">郵件類型</span><span class="sxs-lookup"><span data-stu-id="cb085-163">Message Type</span></span></th>
+<th><span data-ttu-id="cb085-164">描述</span><span class="sxs-lookup"><span data-stu-id="cb085-164">Description</span></span></th>
+<th><span data-ttu-id="cb085-165">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="cb085-165">Code example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-166">加入</span><span class="sxs-lookup"><span data-stu-id="f03b6-166">Join</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-167">使用者加入聊天室。</span><span class="sxs-lookup"><span data-stu-id="f03b6-167">A user joins a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-166">加入</span><span class="sxs-lookup"><span data-stu-id="cb085-166">Join</span></span></p></td>
+<td><p><span data-ttu-id="cb085-167">使用者加入聊天室。</span><span class="sxs-lookup"><span data-stu-id="cb085-167">A user joins a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206211842612&quot; string=&quot;2008-03-22T18:50:42.6127374Z&quot; long=&quot;633418086426127374&quot; /&gt; 
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f03b6-168">部分</span><span class="sxs-lookup"><span data-stu-id="f03b6-168">Part</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-169">使用者離開聊天室。</span><span class="sxs-lookup"><span data-stu-id="f03b6-169">A user leaves a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-168">部分</span><span class="sxs-lookup"><span data-stu-id="cb085-168">Part</span></span></p></td>
+<td><p><span data-ttu-id="cb085-169">使用者離開聊天室。</span><span class="sxs-lookup"><span data-stu-id="cb085-169">A user leaves a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212610602532&quot; string=&quot;2008-06-04T20:16:42.5324614Z&quot; long=&quot;633482074025324614&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-170">聊天</span><span class="sxs-lookup"><span data-stu-id="f03b6-170">Chat</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-171">傳送者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="f03b6-171">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-170">聊天</span><span class="sxs-lookup"><span data-stu-id="cb085-170">Chat</span></span></p></td>
+<td><p><span data-ttu-id="cb085-171">傳送者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="cb085-171">The sender’s email address.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351800522&quot; string=&quot;2008-03-12T19:56:40.522264Z&quot; long=&quot;633409486005222640&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f03b6-172">討論串</span><span class="sxs-lookup"><span data-stu-id="f03b6-172">Backchat</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-173">使用者要求聊天歷程記錄中的內容。</span><span class="sxs-lookup"><span data-stu-id="f03b6-173">A user requests content from chat history.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-172">Backchat</span><span class="sxs-lookup"><span data-stu-id="cb085-172">Backchat</span></span></p></td>
+<td><p><span data-ttu-id="cb085-173">使用者要求聊天歷程記錄中的內容。</span><span class="sxs-lookup"><span data-stu-id="cb085-173">A user requests content from chat history.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206034385284&quot; string=&quot;2008-03-20T17:33:05.2841594Z&quot; long=&quot;633416311852841594&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f03b6-174">File upload</span><span class="sxs-lookup"><span data-stu-id="f03b6-174">File upload</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-175">使用者上傳檔案。</span><span class="sxs-lookup"><span data-stu-id="f03b6-175">A user uploads a file.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-174">File upload</span><span class="sxs-lookup"><span data-stu-id="cb085-174">File upload</span></span></p></td>
+<td><p><span data-ttu-id="cb085-175">使用者上傳檔案。</span><span class="sxs-lookup"><span data-stu-id="cb085-175">A user uploads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEUPLOAD&quot; content=&quot;0988239a-bb66-4616-90a4-b07771a2097c.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351828975&quot; string=&quot;2008-03-12T19:57:08.9755711Z&quot; long=&quot;633409486289755711&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f03b6-176">File download</span><span class="sxs-lookup"><span data-stu-id="f03b6-176">File download</span></span></p></td>
-<td><p><span data-ttu-id="f03b6-177">使用者下載檔案。</span><span class="sxs-lookup"><span data-stu-id="f03b6-177">A user downloads a file.</span></span></p></td>
+<td><p><span data-ttu-id="cb085-176">File download</span><span class="sxs-lookup"><span data-stu-id="cb085-176">File download</span></span></p></td>
+<td><p><span data-ttu-id="cb085-177">使用者下載檔案。</span><span class="sxs-lookup"><span data-stu-id="cb085-177">A user downloads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEDOWNLOAD&quot; content=&quot;006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;kazuto@litwareinc.com&quot; id=&quot;10&quot; email=&quot;&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212611141851&quot; string=&quot;2008-06-04T20:25:41.8518646Z&quot; long=&quot;633482079418518646&quot; /&gt; 
@@ -242,9 +244,9 @@ ms.locfileid: "42191696"
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="f03b6-178">預設常設聊天輸出 XSD 及 XSL 轉換範例</span><span class="sxs-lookup"><span data-stu-id="f03b6-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="cb085-178">預設持續性聊天輸出 XSD 和範例 XSL 轉換</span><span class="sxs-lookup"><span data-stu-id="cb085-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
 
-<span data-ttu-id="f03b6-179">下列程式碼範例包含規範伺服器中的預設輸出。</span><span class="sxs-lookup"><span data-stu-id="f03b6-179">The following code sample contains the default output from the Compliance Server.</span></span>
+<span data-ttu-id="cb085-179">下列程式碼範例包含規範伺服器中的預設輸出。</span><span class="sxs-lookup"><span data-stu-id="cb085-179">The following code sample contains the default output from the Compliance Server.</span></span>
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +343,7 @@ ms.locfileid: "42191696"
       </xs:element>
     </xs:schema>
 
-<span data-ttu-id="f03b6-180">下列程式碼範例包含 XSL 轉換範例。</span><span class="sxs-lookup"><span data-stu-id="f03b6-180">The following code sample contains a sample XSL transform.</span></span>
+<span data-ttu-id="cb085-180">下列程式碼範例包含 XSL 轉換範例。</span><span class="sxs-lookup"><span data-stu-id="cb085-180">The following code sample contains a sample XSL transform.</span></span>
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />

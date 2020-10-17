@@ -12,20 +12,22 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 170c7564e53680f3c6971894ceee9997d20e63ef
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ed219dcc90ffb6527a25a39af9fcb8c4ba172d75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517320"
 ---
+# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="9b160-102">在 Lync Server 2013 中設定雙因素驗證</span><span class="sxs-lookup"><span data-stu-id="9b160-102">Configuring two-factor authentication in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="07dee-102">在 Lync Server 2013 中設定雙因素驗證</span><span class="sxs-lookup"><span data-stu-id="07dee-102">Configuring two-factor authentication in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,31 +37,31 @@ ms.locfileid: "44221807"
 
 <span> </span>
 
-<span data-ttu-id="07dee-103">_**主題上次修改日期：** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="07dee-103">_**Topic Last Modified:** 2013-07-03_</span></span>
+<span data-ttu-id="9b160-103">_**主題上次修改日期：** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="9b160-103">_**Topic Last Modified:** 2013-07-03_</span></span>
 
-<span data-ttu-id="07dee-104">下列各節說明為您的部署設定雙因素驗證所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="07dee-104">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> 
+<span data-ttu-id="9b160-104">下列各節說明為您的部署設定雙因素驗證所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="9b160-104">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> 
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="07dee-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="07dee-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9b160-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="9b160-105">In This Section</span></span>
 
-[<span data-ttu-id="07dee-106">在 Lync Server 2013 中設定企業 CA 以進行智慧卡驗證</span><span class="sxs-lookup"><span data-stu-id="07dee-106">Configuring Enterprise CA for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
+[<span data-ttu-id="9b160-106">在 Lync Server 2013 中設定企業 CA 以進行智慧卡驗證</span><span class="sxs-lookup"><span data-stu-id="9b160-106">Configuring Enterprise CA for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
 
-[<span data-ttu-id="07dee-107">設定使用虛擬智慧卡搭配 Lync Server 2013 的 Windows 8</span><span class="sxs-lookup"><span data-stu-id="07dee-107">Configuring Windows 8 for using Virtual Smart Cards with Lync Server 2013</span></span>](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
+[<span data-ttu-id="9b160-107">設定使用虛擬智慧卡搭配 Lync Server 2013 的 Windows 8</span><span class="sxs-lookup"><span data-stu-id="9b160-107">Configuring Windows 8 for using Virtual Smart Cards with Lync Server 2013</span></span>](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
 
-[<span data-ttu-id="07dee-108">在 Lync Server 2013 中登記智慧卡驗證的使用者</span><span class="sxs-lookup"><span data-stu-id="07dee-108">Enrolling users for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
+[<span data-ttu-id="9b160-108">在 Lync Server 2013 中登記智慧卡驗證的使用者</span><span class="sxs-lookup"><span data-stu-id="9b160-108">Enrolling users for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
 
-[<span data-ttu-id="07dee-109">為 Lync Server 2013 設定 Active Directory Federation Services （AD FS 2.0）</span><span class="sxs-lookup"><span data-stu-id="07dee-109">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+[<span data-ttu-id="9b160-109">為 Lync Server 2013 設定 Active Directory Federation Services (AD FS 2.0) </span><span class="sxs-lookup"><span data-stu-id="9b160-109">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
-[<span data-ttu-id="07dee-110">設定 AD FS 2.0 以支援 Lync Server 2013 中的用戶端驗證</span><span class="sxs-lookup"><span data-stu-id="07dee-110">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+[<span data-ttu-id="9b160-110">設定 AD FS 2.0 以支援 Lync Server 2013 中的用戶端驗證</span><span class="sxs-lookup"><span data-stu-id="9b160-110">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 
-[<span data-ttu-id="07dee-111">設定 Lync Server 2013 被動驗證</span><span class="sxs-lookup"><span data-stu-id="07dee-111">Configuring Lync Server 2013 passive authentication</span></span>](lync-server-2013-configuring-passive-authentication.md)
+[<span data-ttu-id="9b160-111">設定 Lync Server 2013 被動驗證</span><span class="sxs-lookup"><span data-stu-id="9b160-111">Configuring Lync Server 2013 passive authentication</span></span>](lync-server-2013-configuring-passive-authentication.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="07dee-112">相關各節</span><span class="sxs-lookup"><span data-stu-id="07dee-112">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="9b160-112">相關各節</span><span class="sxs-lookup"><span data-stu-id="9b160-112">Related Sections</span></span>
 
 </div>
 
