@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 部署程序的群組來電接聽
+title: Lync Server 2013：群組呼叫收取的部署程式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ed92300ae3445019b7b6fc0bba4d73b91c980e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52f7646010e4048d135e11c98d06a651f923d633
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522610"
 ---
+# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="676a4-102">Lync Server 2013 中群組呼叫收取的部署程式</span><span class="sxs-lookup"><span data-stu-id="676a4-102">Deployment process for Group Call Pickup in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="0ae43-102">部署程序的 Lync Server 2013 中的 [群組來電接聽</span><span class="sxs-lookup"><span data-stu-id="0ae43-102">Deployment process for Group Call Pickup in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42213529"
 
 <span> </span>
 
-<span data-ttu-id="0ae43-103">_**上次修改主題：** 2013年-02-25_</span><span class="sxs-lookup"><span data-stu-id="0ae43-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+<span data-ttu-id="676a4-103">_**主題上次修改日期：** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="676a4-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
-<span data-ttu-id="0ae43-104">本節提供部署群組來電接聽的相關步驟的概觀。</span><span class="sxs-lookup"><span data-stu-id="0ae43-104">This section provides an overview of the steps involved in deploying Group Call Pickup.</span></span> <span data-ttu-id="0ae43-105">設定群組來電接聽之前，您必須部署 Enterprise Edition 或 Standard Edition 與 Enterprise Voice。</span><span class="sxs-lookup"><span data-stu-id="0ae43-105">You must deploy Enterprise Edition or Standard Edition with Enterprise Voice before you configure Group Call Pickup.</span></span> <span data-ttu-id="0ae43-106">群組來電接聽所需的元件會安裝並啟用當您部署企業語音。</span><span class="sxs-lookup"><span data-stu-id="0ae43-106">The components required by Group Call Pickup are installed and enabled when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="676a4-104">本節提供部署群組呼叫收取相關步驟的概述。</span><span class="sxs-lookup"><span data-stu-id="676a4-104">This section provides an overview of the steps involved in deploying Group Call Pickup.</span></span> <span data-ttu-id="676a4-105">您必須先部署 Enterprise Edition 或 Standard Edition 搭配 Enterprise Voice，才能設定群組呼叫收取。</span><span class="sxs-lookup"><span data-stu-id="676a4-105">You must deploy Enterprise Edition or Standard Edition with Enterprise Voice before you configure Group Call Pickup.</span></span> <span data-ttu-id="676a4-106">當您部署企業語音時，會安裝及啟用群組通話收取所需的元件。</span><span class="sxs-lookup"><span data-stu-id="676a4-106">The components required by Group Call Pickup are installed and enabled when you deploy Enterprise Voice.</span></span>
 
-### <a name="group-call-pickup-deployment-process"></a><span data-ttu-id="0ae43-107">群組通話收取部署程序</span><span class="sxs-lookup"><span data-stu-id="0ae43-107">Group Call Pickup Deployment Process</span></span>
+### <a name="group-call-pickup-deployment-process"></a><span data-ttu-id="676a4-107">群組呼叫收取部署程式</span><span class="sxs-lookup"><span data-stu-id="676a4-107">Group Call Pickup Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -50,65 +52,65 @@ ms.locfileid: "42213529"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0ae43-108">階段</span><span class="sxs-lookup"><span data-stu-id="0ae43-108">Phase</span></span></th>
-<th><span data-ttu-id="0ae43-109">步驟</span><span class="sxs-lookup"><span data-stu-id="0ae43-109">Steps</span></span></th>
-<th><span data-ttu-id="0ae43-110">所需群組和角色</span><span class="sxs-lookup"><span data-stu-id="0ae43-110">Required groups and roles</span></span></th>
-<th><span data-ttu-id="0ae43-111">部署文件</span><span class="sxs-lookup"><span data-stu-id="0ae43-111">Deployment documentation</span></span></th>
+<th><span data-ttu-id="676a4-108">階段</span><span class="sxs-lookup"><span data-stu-id="676a4-108">Phase</span></span></th>
+<th><span data-ttu-id="676a4-109">步驟</span><span class="sxs-lookup"><span data-stu-id="676a4-109">Steps</span></span></th>
+<th><span data-ttu-id="676a4-110">所需群組和角色</span><span class="sxs-lookup"><span data-stu-id="676a4-110">Required groups and roles</span></span></th>
+<th><span data-ttu-id="676a4-111">部署文件</span><span class="sxs-lookup"><span data-stu-id="676a4-111">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0ae43-112">啟用拓撲的 SEFAUtil resource kit 工具</span><span class="sxs-lookup"><span data-stu-id="0ae43-112">Enable the SEFAUtil resource kit tool in the topology</span></span></p></td>
+<td><p><span data-ttu-id="676a4-112">啟用拓撲中的 SEFAUtil resource 工具組工具</span><span class="sxs-lookup"><span data-stu-id="676a4-112">Enable the SEFAUtil resource kit tool in the topology</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="0ae43-113">使用<strong>New-cstrustedapplicationpool</strong> cmdlet 來建立新的受信任的應用程式集區。</span><span class="sxs-lookup"><span data-stu-id="0ae43-113">Use the <strong>New-CsTrustedApplicationPool</strong> cmdlet to create a new trusted application pool.</span></span></p></li>
-<li><p><span data-ttu-id="0ae43-114">若要指定 SEFAUtil 工具為信任的應用程式使用<strong>New-cstrustedapplication</strong> cmdlet。</span><span class="sxs-lookup"><span data-stu-id="0ae43-114">Use the <strong>New-CsTrustedApplication</strong> cmdlet to specify the SEFAUtil tool as trusted application.</span></span></p></li>
-<li><p><span data-ttu-id="0ae43-115">執行<strong>Enable-cstopology</strong> cmdlet 來啟用拓撲。</span><span class="sxs-lookup"><span data-stu-id="0ae43-115">Run the <strong>Enable-CsTopology</strong> cmdlet to enable the topology.</span></span></p></li>
-<li><p><span data-ttu-id="0ae43-116">在步驟 1 中建立信任的應用程式集區中以前端伺服器上安裝 resource kit 工具。</span><span class="sxs-lookup"><span data-stu-id="0ae43-116">Install the resource kit tools on a Front End Server that is in the trusted application pool created in step 1.</span></span></p></li>
-<li><p><span data-ttu-id="0ae43-117">確認 SEFAUtil 正常執行藉由執行以顯示來電轉接的部署中的使用者設定。</span><span class="sxs-lookup"><span data-stu-id="0ae43-117">Verify that SEFAUtil is running correctly by running it to display the call forwarding settings of a user in the deployment.</span></span></p></li>
+<li><p><span data-ttu-id="676a4-113">使用 <strong>New-CsTrustedApplicationPool</strong> Cmdlet 來建立新的受信任應用程式集區。</span><span class="sxs-lookup"><span data-stu-id="676a4-113">Use the <strong>New-CsTrustedApplicationPool</strong> cmdlet to create a new trusted application pool.</span></span></p></li>
+<li><p><span data-ttu-id="676a4-114">使用 <strong>New-CsTrustedApplication</strong> Cmdlet，將 SEFAUtil 工具指定為信任的應用程式。</span><span class="sxs-lookup"><span data-stu-id="676a4-114">Use the <strong>New-CsTrustedApplication</strong> cmdlet to specify the SEFAUtil tool as trusted application.</span></span></p></li>
+<li><p><span data-ttu-id="676a4-115">執行 <strong>Enable-CsTopology</strong> Cmdlet 以啟用拓撲。</span><span class="sxs-lookup"><span data-stu-id="676a4-115">Run the <strong>Enable-CsTopology</strong> cmdlet to enable the topology.</span></span></p></li>
+<li><p><span data-ttu-id="676a4-116">在步驟1中建立的受信任應用程式集區中的前端伺服器上安裝資源工具組工具。</span><span class="sxs-lookup"><span data-stu-id="676a4-116">Install the resource kit tools on a Front End Server that is in the trusted application pool created in step 1.</span></span></p></li>
+<li><p><span data-ttu-id="676a4-117">執行該 SEFAUtil 以在部署中顯示使用者的「來電轉接」設定，以確認是否正常運作。</span><span class="sxs-lookup"><span data-stu-id="676a4-117">Verify that SEFAUtil is running correctly by running it to display the call forwarding settings of a user in the deployment.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="0ae43-118">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="0ae43-118">RTCUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="0ae43-119"><a href="lync-server-2013-deploy-the-sefautil-tool.md">部署 Lync Server 2013 的 SEFAUtil 工具</a></span><span class="sxs-lookup"><span data-stu-id="0ae43-119"><a href="lync-server-2013-deploy-the-sefautil-tool.md">Deploy the SEFAUtil tool in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="676a4-118">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="676a4-118">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="676a4-119"><a href="lync-server-2013-deploy-the-sefautil-tool.md">在 Lync Server 2013 中部署 SEFAUtil 工具</a></span><span class="sxs-lookup"><span data-stu-id="676a4-119"><a href="lync-server-2013-deploy-the-sefautil-tool.md">Deploy the SEFAUtil tool in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0ae43-120">設定通話駐留軌道表中的呼叫收取的號碼範圍</span><span class="sxs-lookup"><span data-stu-id="0ae43-120">Configure call pickup number ranges in the call park orbit table</span></span></p></td>
-<td><p><span data-ttu-id="0ae43-121">使用<strong>New-cscallparkorbit</strong> cmdlet 來建立通話駐留軌道表中的通話收取] 目錄的數字範圍和指派通話收取範圍類型 GroupPickup。</span><span class="sxs-lookup"><span data-stu-id="0ae43-121">Use the <strong>New-CSCallParkOrbit</strong> cmdlet to create call pickup number ranges in the call park orbit table and assign the call pickup ranges the type GroupPickup.</span></span></p>
+<td><p><span data-ttu-id="676a4-120">設定通話駐留軌道表格中的呼叫收取號碼範圍</span><span class="sxs-lookup"><span data-stu-id="676a4-120">Configure call pickup number ranges in the call park orbit table</span></span></p></td>
+<td><p><span data-ttu-id="676a4-121">使用 <strong>New-CSCallParkOrbit</strong> Cmdlet 來建立通話駐留軌道表格中的呼叫收取號碼範圍，並將類型 GroupPickup 指派給電話收取範圍。</span><span class="sxs-lookup"><span data-stu-id="676a4-121">Use the <strong>New-CSCallParkOrbit</strong> cmdlet to create call pickup number ranges in the call park orbit table and assign the call pickup ranges the type GroupPickup.</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="0ae43-122">您必須使用 Lync Server 管理命令介面來建立、 修改、 移除和檢視通話駐留軌道表中的群組來電接聽的號碼範圍。</span><span class="sxs-lookup"><span data-stu-id="0ae43-122">You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table.</span></span> <span data-ttu-id="0ae43-123">群組呼叫收取號碼範圍不在 Lync Server Control Panel 中使用。</span><span class="sxs-lookup"><span data-stu-id="0ae43-123">Group Call Pickup number ranges are not available in Lync Server Control Panel.</span></span>
+> <span data-ttu-id="676a4-122">您必須使用 Lync Server 管理命令介面來建立、修改、移除及查看通話駐留軌道表格中的群組呼叫收取號碼範圍。</span><span class="sxs-lookup"><span data-stu-id="676a4-122">You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table.</span></span> <span data-ttu-id="676a4-123">在 Lync Server 控制台中無法使用群組呼叫收取號碼範圍。</span><span class="sxs-lookup"><span data-stu-id="676a4-123">Group Call Pickup number ranges are not available in Lync Server Control Panel.</span></span>
 
 
 </div>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="0ae43-124">與現有的撥號對應表計劃的緊密整合，針對號碼範圍通常設定為虛擬分機區塊。</span><span class="sxs-lookup"><span data-stu-id="0ae43-124">For seamless integration with existing dial plans, number ranges are typically configured as a block of virtual extensions.</span></span> <span data-ttu-id="0ae43-125">不支援將直接向內撥號 (DID) 號碼指派為通話駐留軌道表中的 range 數字。</span><span class="sxs-lookup"><span data-stu-id="0ae43-125">Assigning Direct Inward Dialing (DID) numbers as range numbers in the call park orbit table is not supported.</span></span>
+> <span data-ttu-id="676a4-124">為了與現有撥號對應表無縫整合，號碼範圍通常會設定為虛擬擴充區塊。</span><span class="sxs-lookup"><span data-stu-id="676a4-124">For seamless integration with existing dial plans, number ranges are typically configured as a block of virtual extensions.</span></span> <span data-ttu-id="676a4-125">指派直接向內撥號 (，不支援通話駐留軌道表格中的範圍編號) 數位。</span><span class="sxs-lookup"><span data-stu-id="676a4-125">Assigning Direct Inward Dialing (DID) numbers as range numbers in the call park orbit table is not supported.</span></span>
 
 
 </div></td>
-<td><p><span data-ttu-id="0ae43-126">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="0ae43-126">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="0ae43-127">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="0ae43-127">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="0ae43-128">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="0ae43-128">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="0ae43-129">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="0ae43-129">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="0ae43-130"><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Lync Server 2013 中設定呼叫收取群組號碼</a></span><span class="sxs-lookup"><span data-stu-id="0ae43-130"><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Configure call pickup group numbers in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="676a4-126">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="676a4-126">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="676a4-127">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="676a4-127">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="676a4-128">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="676a4-128">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="676a4-129">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="676a4-129">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="676a4-130"><a href="lync-server-2013-configure-call-pickup-group-numbers.md">在 Lync Server 2013 中設定呼叫收取群組號碼</a></span><span class="sxs-lookup"><span data-stu-id="676a4-130"><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Configure call pickup group numbers in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0ae43-131">呼叫收取號碼指派給使用者，並為使用者啟用群組來電接聽</span><span class="sxs-lookup"><span data-stu-id="0ae43-131">Assign a call pickup number to users, and enable Group Call Pickup for the users</span></span></p></td>
-<td><p><span data-ttu-id="0ae43-132">若要啟用群組來電接聽，並指派使用者的通話收取數字，SEFAUtil resource kit 工具中使用 /enablegrouppickup 參數。</span><span class="sxs-lookup"><span data-stu-id="0ae43-132">Use the /enablegrouppickup parameter in the SEFAUtil resource kit tool to enable Group Call Pickup and assign a call pickup number for users.</span></span></p></td>
+<td><p><span data-ttu-id="676a4-131">將來電收取號碼指派給使用者，並為使用者啟用群組呼叫收取功能</span><span class="sxs-lookup"><span data-stu-id="676a4-131">Assign a call pickup number to users, and enable Group Call Pickup for the users</span></span></p></td>
+<td><p><span data-ttu-id="676a4-132">使用 SEFAUtil resource 成套工具中的/enablegrouppickup 參數，啟用群組呼叫收取，並為使用者指派呼叫收取號碼。</span><span class="sxs-lookup"><span data-stu-id="676a4-132">Use the /enablegrouppickup parameter in the SEFAUtil resource kit tool to enable Group Call Pickup and assign a call pickup number for users.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><span data-ttu-id="0ae43-133"><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">啟用群組來電接聽 Lync Server 2013 中的使用者並指派群組編號</a></span><span class="sxs-lookup"><span data-stu-id="0ae43-133"><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">Enable Group Call Pickup for users in Lync Server 2013 and assign a group number</a></span></span></p></td>
+<td><p><span data-ttu-id="676a4-133"><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">為 Lync Server 2013 中的使用者啟用群組呼叫收取，並指派群組號碼</a></span><span class="sxs-lookup"><span data-stu-id="676a4-133"><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">Enable Group Call Pickup for users in Lync Server 2013 and assign a group number</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0ae43-134">通知使用者其指派的通話收取] 目錄的數字和其他任何數字的利息</span><span class="sxs-lookup"><span data-stu-id="0ae43-134">Notify users of their assigned call pickup number and any other number of interest</span></span></p></td>
-<td><p><span data-ttu-id="0ae43-135">因為任何使用者可以擷取對群組來電接聽使用者的呼叫，使用者可能會想要監視多個群組。</span><span class="sxs-lookup"><span data-stu-id="0ae43-135">Because any user can retrieve a call made to a Group Call Pickup user, users may want to monitor more than one group.</span></span></p></td>
+<td><p><span data-ttu-id="676a4-134">通知使用者他們所指派的來電收取號碼和其他相關數目</span><span class="sxs-lookup"><span data-stu-id="676a4-134">Notify users of their assigned call pickup number and any other number of interest</span></span></p></td>
+<td><p><span data-ttu-id="676a4-135">由於任何使用者都可以取回對群組呼叫收取使用者所撥打的電話，因此使用者可能會想要監視一個以上的群組。</span><span class="sxs-lookup"><span data-stu-id="676a4-135">Because any user can retrieve a call made to a Group Call Pickup user, users may want to monitor more than one group.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><span data-ttu-id="0ae43-136"><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">通訊群組來電接聽指派給 Lync Server 2013 中的使用者</a></span><span class="sxs-lookup"><span data-stu-id="0ae43-136"><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">Communicate Group Call Pickup assignments to users in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="676a4-136"><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">在 Lync Server 2013 中通訊群組呼叫收取指派給使用者</a></span><span class="sxs-lookup"><span data-stu-id="676a4-136"><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">Communicate Group Call Pickup assignments to users in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0ae43-137">確認群組來電接聽部署</span><span class="sxs-lookup"><span data-stu-id="0ae43-137">Verify your Group Call Pickup deployment</span></span></p></td>
-<td><p><span data-ttu-id="0ae43-138">測試放置，並擷取通話，請確定您的設定如預期般運作。</span><span class="sxs-lookup"><span data-stu-id="0ae43-138">Test placing and retrieving calls to make sure that your configuration works as expected.</span></span></p></td>
+<td><p><span data-ttu-id="676a4-137">驗證群組是否呼叫收取部署</span><span class="sxs-lookup"><span data-stu-id="676a4-137">Verify your Group Call Pickup deployment</span></span></p></td>
+<td><p><span data-ttu-id="676a4-138">測試放入和取回通話，以確保您的設定如預期般運作。</span><span class="sxs-lookup"><span data-stu-id="676a4-138">Test placing and retrieving calls to make sure that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><span data-ttu-id="0ae43-139"><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">（選用）確認 Lync Server 2013 中的群組來電接聽部署</a></span><span class="sxs-lookup"><span data-stu-id="0ae43-139"><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="676a4-139"><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md"> (選用) 驗證 Lync Server 2013 中的群組呼叫收取部署</a></span><span class="sxs-lookup"><span data-stu-id="676a4-139"><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

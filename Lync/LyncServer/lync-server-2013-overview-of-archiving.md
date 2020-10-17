@@ -1,5 +1,5 @@
 ---
-title: 封存的 Lync Server 2013： 概觀
+title: Lync Server 2013：封存簡介
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 224d5100721e08f8b6681058de712ad6b13ea125
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1bbb6e5a94aad896e977145df56ea196277adf9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522227"
 ---
+# <a name="overview-of-archiving-in-lync-server-2013"></a><span data-ttu-id="ca563-102">Lync Server 2013 中的封存綜述</span><span class="sxs-lookup"><span data-stu-id="ca563-102">Overview of Archiving in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-archiving-in-lync-server-2013"></a><span data-ttu-id="c6b45-102">Lync Server 2013 中封存概觀</span><span class="sxs-lookup"><span data-stu-id="c6b45-102">Overview of Archiving in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42216384"
 
 <span> </span>
 
-<span data-ttu-id="c6b45-103">_**上次修改主題：** 2013年-09-30_</span><span class="sxs-lookup"><span data-stu-id="c6b45-103">_**Topic Last Modified:** 2013-09-30_</span></span>
+<span data-ttu-id="ca563-103">_**主題上次修改日期：** 2013-09-30_</span><span class="sxs-lookup"><span data-stu-id="ca563-103">_**Topic Last Modified:** 2013-09-30_</span></span>
 
-<span data-ttu-id="c6b45-104">Lync Server 2013 中的封存可讓您封存透過 Lync Server 2013 傳送的通訊。</span><span class="sxs-lookup"><span data-stu-id="c6b45-104">Archiving in Lync Server 2013 provides a way for you to archive communications that are sent through Lync Server 2013.</span></span>
+<span data-ttu-id="ca563-104">在 Lync Server 2013 中封存可讓您封存透過 Lync Server 2013 傳送的通訊。</span><span class="sxs-lookup"><span data-stu-id="ca563-104">Archiving in Lync Server 2013 provides a way for you to archive communications that are sent through Lync Server 2013.</span></span>
 
-<span data-ttu-id="c6b45-105">您可以實作封存初始 Lync Server 2013 部署的一部分，或您可以將它新增至現有的部署。</span><span class="sxs-lookup"><span data-stu-id="c6b45-105">You can implement Archiving as part of your initial Lync Server 2013 deployment, or you can add it to an existing deployment.</span></span> <span data-ttu-id="c6b45-106">若要使用 Lync Server 2013 封存資料庫 （SQL Server 資料庫） 來儲存封存資料，您可以使用拓撲產生器將資料庫新增至您的拓撲，並再一次發行拓撲。</span><span class="sxs-lookup"><span data-stu-id="c6b45-106">To use Lync Server 2013 Archiving databases (SQL Server databases) for storage of archiving data, you use Topology Builder to add the databases to your topology, and then publish the topology again.</span></span> <span data-ttu-id="c6b45-107">如果您的所有使用者都位於 Exchange 2013，且其信箱放在原有範圍暫止，您不需要更新您的拓撲，但只需要啟用封存的資料儲存在 Exchange 2013 的 Microsoft Exchange 整合。</span><span class="sxs-lookup"><span data-stu-id="c6b45-107">If all your users are homed on Exchange 2013 and have their mailboxes put on In-Place Hold, you do not have to update your topology, but only need to enable Microsoft Exchange integration to store archived data in Exchange 2013.</span></span>
+<span data-ttu-id="ca563-105">您可以在初始 Lync Server 2013 部署中執行封存，也可以將其新增至現有的部署。</span><span class="sxs-lookup"><span data-stu-id="ca563-105">You can implement Archiving as part of your initial Lync Server 2013 deployment, or you can add it to an existing deployment.</span></span> <span data-ttu-id="ca563-106">若要使用 Lync Server 2013 封存資料庫 (SQL Server 資料庫) 以儲存封存資料，您可以使用拓撲產生器將資料庫新增至您的拓撲，然後再發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="ca563-106">To use Lync Server 2013 Archiving databases (SQL Server databases) for storage of archiving data, you use Topology Builder to add the databases to your topology, and then publish the topology again.</span></span> <span data-ttu-id="ca563-107">如果您的所有使用者都位於 Exchange 2013，而且其信箱置於 In-Place 保留狀態，您就不需要更新拓撲，但只需要啟用 Microsoft Exchange 整合，即可將封存的資料儲存在 Exchange 2013 中。</span><span class="sxs-lookup"><span data-stu-id="ca563-107">If all your users are homed on Exchange 2013 and have their mailboxes put on In-Place Hold, you do not have to update your topology, but only need to enable Microsoft Exchange integration to store archived data in Exchange 2013.</span></span>
 
-<span data-ttu-id="c6b45-108">當您實作封存時，您將其設定為指定封存的項目。</span><span class="sxs-lookup"><span data-stu-id="c6b45-108">When you implement Archiving, you configure it to specify what is archived.</span></span> <span data-ttu-id="c6b45-109">根據預設，不被封存。</span><span class="sxs-lookup"><span data-stu-id="c6b45-109">By default, nothing is archived.</span></span> <span data-ttu-id="c6b45-110">您設定及管理封存使用 Lync Server 2013 控制台。</span><span class="sxs-lookup"><span data-stu-id="c6b45-110">You configure and manage Archiving by using Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="c6b45-111">您可以實作封存內部通訊、 外部通訊或兩者。</span><span class="sxs-lookup"><span data-stu-id="c6b45-111">You can implement Archiving for internal communications, external communications, or both.</span></span> <span data-ttu-id="c6b45-112">您可以設定封存設定整個組織和 （選擇性） 針對特定網站、 特定集區]，和特定使用者和使用者群組。</span><span class="sxs-lookup"><span data-stu-id="c6b45-112">You can configure archiving settings your entire organization and, optionally, for specific sites, specific pools, and specific users and user groups.</span></span> <span data-ttu-id="c6b45-113">如需決定貴組織的適當選項的詳細資訊，請參閱規劃文件中的[定義 Lync Server 2013 中的封存需求](lync-server-2013-defining-your-requirements-for-archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="c6b45-113">For details about determining the appropriate options for your organization, see [Defining your requirements for Archiving in Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md) in the Planning documentation.</span></span> <span data-ttu-id="c6b45-114">詳細如何實作封存原則和設定，與何種資訊可以或無法封存相關的詳細資訊，請參閱[如何封存適用於 Lync Server 2013 中](lync-server-2013-how-archiving-works.md)規劃文件、 部署文件或作業文件中。</span><span class="sxs-lookup"><span data-stu-id="c6b45-114">For details about how Archiving policies and configurations are implemented, and details about what information can or cannot be archived, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="ca563-108">當您執行封存時，可將其設定為指定封存的內容。</span><span class="sxs-lookup"><span data-stu-id="ca563-108">When you implement Archiving, you configure it to specify what is archived.</span></span> <span data-ttu-id="ca563-109">根據預設，不會封存任何專案。</span><span class="sxs-lookup"><span data-stu-id="ca563-109">By default, nothing is archived.</span></span> <span data-ttu-id="ca563-110">您可以使用 Lync Server 2013 控制台來設定及管理封存。</span><span class="sxs-lookup"><span data-stu-id="ca563-110">You configure and manage Archiving by using Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="ca563-111">您可以對內部通訊、外部通訊或兩者執行封存。</span><span class="sxs-lookup"><span data-stu-id="ca563-111">You can implement Archiving for internal communications, external communications, or both.</span></span> <span data-ttu-id="ca563-112">您可以設定整個組織的封存設定，也可以為特定網站、特定集區和特定使用者和使用者群組設定封存設定。</span><span class="sxs-lookup"><span data-stu-id="ca563-112">You can configure archiving settings your entire organization and, optionally, for specific sites, specific pools, and specific users and user groups.</span></span> <span data-ttu-id="ca563-113">如需決定組織的適當選項的詳細資訊，請參閱規劃檔中的在 [Lync Server 2013 中定義您的封存需求](lync-server-2013-defining-your-requirements-for-archiving.md) 。</span><span class="sxs-lookup"><span data-stu-id="ca563-113">For details about determining the appropriate options for your organization, see [Defining your requirements for Archiving in Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md) in the Planning documentation.</span></span> <span data-ttu-id="ca563-114">如需如何執行封存原則及設定的詳細資訊，以及哪些資訊可或無法封存的詳細資訊，請參閱規劃檔、部署檔或作業檔中的封存 [在 Lync Server 2013 中的運作方式](lync-server-2013-how-archiving-works.md) 。</span><span class="sxs-lookup"><span data-stu-id="ca563-114">For details about how Archiving policies and configurations are implemented, and details about what information can or cannot be archived, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 </div>
 
