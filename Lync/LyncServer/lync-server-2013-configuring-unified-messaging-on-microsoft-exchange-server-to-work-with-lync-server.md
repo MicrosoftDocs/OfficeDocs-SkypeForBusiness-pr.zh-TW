@@ -12,20 +12,22 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3d90f738741c2815d01041a7d2293e978cd2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 462252b1826802ec424c6684e3a6347754095508
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517050"
 ---
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>在 Microsoft Exchange Server 上設定整合通訊以搭配 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>在 Microsoft Exchange Server 上設定整合通訊以搭配 Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**主題上次修改日期：** 2012-10-11_
 
 
 > [!IMPORTANT]  
-> 如果您想要使用 Exchange 整合通訊 (UM) 提供適用于 Enterprise Voice 使用者的呼叫回應、Outlook Voice Access 或自動語音應答服務，請參閱規劃檔中的<A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Exchange 整合通訊（Lync Server 2013</A> ）中的 [規劃 Exchange 整合通訊整合]，然後依照本節中的指示進行。
+> 如果您想要使用 Exchange 整合通訊 (UM) 提供適用于 Enterprise Voice 使用者的呼叫回應、Outlook Voice Access 或自動語音應答服務，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Exchange 整合通訊（Lync Server 2013</A> ）中的 [規劃 Exchange 整合通訊整合]，然後依照本節中的指示進行。
 
 
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2012-10-11_
 
   - 視需要建立一個或多個 UM SIP URI 撥號對應表，以及訂閱者存取電話號碼，然後建立對應的 Lync Server 撥號對應表。
 
-  - 使用**exchucutil.ps1**腳本執行下列作業：
+  - 使用 **exchucutil.ps1** 腳本執行下列作業：
     
       - 建立 UM IP 閘道。
     
@@ -82,7 +84,7 @@ _**主題上次修改日期：** 2012-10-11_
 
 在您開始之前，本節中的檔會假設您已部署下列 Exchange 2013 角色： Client Access 和信箱。 在 Microsoft Exchange Server 2013 中，Exchange UM 會在這些伺服器上以服務的身分執行。
 
-如需部署 Exchange 2013 的詳細資訊，請參閱 Exchange 2013 TechNet 程式庫，網址為[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
+如需部署 Exchange 2013 的詳細資訊，請參閱 Exchange 2013 TechNet 程式庫，網址為 [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 也請注意以下事項：
 
@@ -94,7 +96,7 @@ _**主題上次修改日期：** 2012-10-11_
     
 
     > [!NOTE]  
-    > 若要查看在哪些伺服器及系統管理員角色上執行哪些整合步驟，請參閱<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">整合內部部署整合通訊和 Lync Server 2013 的部署程式</A>。
+    > 若要查看在哪些伺服器及系統管理員角色上執行哪些整合步驟，請參閱 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">整合內部部署整合通訊和 Lync Server 2013 的部署程式</A>。
 
     
     </div>

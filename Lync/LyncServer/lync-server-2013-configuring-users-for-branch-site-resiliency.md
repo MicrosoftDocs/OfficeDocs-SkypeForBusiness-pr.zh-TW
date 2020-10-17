@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定分支網站恢復能力的使用者
+title: Lync Server 2013：為分支網站恢復設定使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36ddc8629d1d3ed303e45f6fe864e9d54b323674
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9984cb01635095d53240891c04352012f5d0fa76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195666"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517030"
 ---
+# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中為分支網站恢復設定使用者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中設定分支網站恢復能力的使用者
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42195666"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-11_
+_**主題上次修改日期：** 2012-10-11_
 
-成功完成之後[部署 Survivable Branch Appliance 或 Server 與 Lync Server 2013-分支網站工作](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)中的工作，請執行下列程序的使用者啟用 Enterprise Voice，請將它們指派語音原則和語音信箱設定。 然後在[Survivable Branch Appliance 或 Lync Server 2013 中的伺服器上的常用使用者](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)，您將首頁上的 Survivable Branch Appliance 或 Server 這些使用者。
+在 [ [部署 Survivable 分支裝置] 或 [含 Lync server 2013 的伺服器](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)] 中的工作成功完成後，請執行下列程式，以啟用使用者的 Enterprise Voice，並指派語音原則及語音信箱設定。 然後在 [Lync Server 2013 中的 Survivable 分支裝置或伺服器上](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)，將這些使用者回家到 Survivable Branch 裝置或伺服器上。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [啟用使用者的 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [在 Lync Server 2013 中啟用使用者的 Enterprise Voice](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [在 Lync Server 2013 中建立分支使用者 VoIP 路由原則](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
+  - [在 Lync Server 2013 中建立分支使用者的 VoIP 路由原則](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
 
-  - [設定語音信箱重新路由設定 Lync Server 2013 中](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+  - [在 Lync Server 2013 中設定語音信箱重新路由設定](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 
 </div>
 

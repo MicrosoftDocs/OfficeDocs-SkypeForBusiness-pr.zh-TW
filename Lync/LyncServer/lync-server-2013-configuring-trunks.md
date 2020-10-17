@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定主幹
+title: Lync Server 2013：設定主幹
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80f5bf646dbed73beb7d9dd102e7e7b2bf802e49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c2fd4a79937477edbe01f5550a81e92a663d3d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209299"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517340"
 ---
+# <a name="configuring-trunks-in-lync-server-2013"></a>在 Lync Server 2013 中設定主幹
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-trunks-in-lync-server-2013"></a>在 Lync Server 2013 中設定主幹
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42209299"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-Enterprise Voice 部署的一部分，您可以設定中繼伺服器與一或多個下列同儕 Enterprise Voice 用戶端和組織中的裝置提供公用交換的電話網路 (PSTN) 連線能力之間的主幹：
+在企業語音部署中，您可以設定轉送伺服器與一或多個下列對等間的主幹，為組織中的 Enterprise Voice 用戶端和裝置提供公用交換電話網路 (PSTN) 連線能力：
 
   - 網際網路電話語音服務提供者 (ITSP) 的 SIP 主幹連線
 
@@ -45,13 +47,13 @@ Enterprise Voice 部署的一部分，您可以設定中繼伺服器與一或多
 
   - 專用交換機 (Private branch exchange，PBX)
 
-如需詳細資訊，請參閱規劃文件中的[Planning for Lync Server 2013 中的 PSTN 連線能力](lync-server-2013-planning-for-pstn-connectivity.md)。
+如需詳細資訊，請參閱規劃檔中的 [規劃 Lync Server 2013 中的 PSTN 連線能力](lync-server-2013-planning-for-pstn-connectivity.md) 。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在您開始進行主幹設定之前，請確認已建立拓撲，而且中繼伺服器及其對等已設定好，並彼此產生關聯。 如需詳細資訊，請參閱部署文件中的<A href="lync-server-2013-define-a-gateway-in-topology-builder.md">定義在 Lync Server 2013 中的拓撲產生器的閘道</A>。
+> 在您開始進行主幹設定之前，請確認已建立拓撲，而且中繼伺服器及其對等已設定好，並彼此產生關聯。 如需詳細資訊，請參閱部署檔中的在 <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Lync Server 2013 中定義拓撲</A> 產生器中的閘道。
 
 
 
@@ -61,7 +63,7 @@ Enterprise Voice 部署的一部分，您可以設定中繼伺服器與一或多
 
 
 > [!NOTE]  
-> 主幹組態的一部分，您可以啟用 Lync Server 2013 媒體旁路功能，可讓媒體略過中繼伺服器。 不論是否啟用媒體旁路功能，都可以設定主幹，但強烈建議您啟用該功能。 如需詳細資訊，請參閱<A href="lync-server-2013-planning-for-media-bypass.md">Planning for 媒體旁路 Lync Server 2013 中規劃文件。</A>
+> 作為主幹設定的一部分，您可以啟用 Lync Server 2013 媒體旁路功能，讓媒體略過轉送伺服器。 不論是否啟用媒體旁路功能，都可以設定主幹，但強烈建議您啟用該功能。 如需詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-media-bypass.md">規劃 Lync Server 2013 中的媒體旁路</A> 。
 
 
 
@@ -75,21 +77,21 @@ Enterprise Voice 部署的一部分，您可以設定中繼伺服器與一或多
 
   - [Lync Server 2013 中的主幹間路由](lync-server-2013-inter-trunk-routing.md)
 
-  - [Lync Server 2013 中檢視主幹組態資訊](lync-server-2013-view-trunk-configuration-information.md)
+  - [在 Lync Server 2013 中查看主幹設定資訊](lync-server-2013-view-trunk-configuration-information.md)
 
-  - [設定與 Lync Server 2013 中的媒體旁路的主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [在 Lync Server 2013 中設定含媒體旁路的主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [沒有媒體旁路 Lync Server 2013 中設定主幹](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [在 Lync Server 2013 中設定無媒體旁路的主幹](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-  - [在 Lync Server 2013 中建立新的主幹集合組態設定](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
+  - [在 Lync Server 2013 中建立主幹設定的新集合](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
 
-  - [刪除現有的 Lync Server 2013 中的 SIP 主幹組態設定集合](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
+  - [在 Lync Server 2013 中刪除現有的 SIP 主幹設定的集合](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
 
-  - [修改 Lync Server 2013 中的 SIP 主幹組態設定](lync-server-2013-modify-sip-trunk-configuration-settings.md)
+  - [在 Lync Server 2013 中修改 SIP 主幹設定設定](lync-server-2013-modify-sip-trunk-configuration-settings.md)
 
-  - [在 Lync Server 2013 中測試 SIP 主幹組態設定](lync-server-2013-test-sip-trunk-configuration-settings.md)
+  - [在 Lync Server 2013 中測試 SIP 主幹設定設定](lync-server-2013-test-sip-trunk-configuration-settings.md)
 
-  - [檢視 Lync Server 2013 中的個別 SIP 主幹的相關資訊](lync-server-2013-view-information-about-individual-sip-trunks.md)
+  - [在 Lync Server 2013 中查看個別 SIP 主幹的相關資訊](lync-server-2013-view-information-about-individual-sip-trunks.md)
 
 </div>
 
@@ -101,8 +103,8 @@ Enterprise Voice 部署的一部分，您可以設定中繼伺服器與一或多
 [在 Lync Server 2013 中的拓撲產生器中定義閘道](lync-server-2013-define-a-gateway-in-topology-builder.md)  
 
 
-[規劃 Lync Server 2013 中的 PSTN 連線](lync-server-2013-planning-for-pstn-connectivity.md)  
-[規劃 Lync Server 2013 中的媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
+[在 Lync Server 2013 中規劃 PSTN 連線能力](lync-server-2013-planning-for-pstn-connectivity.md)  
+[在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

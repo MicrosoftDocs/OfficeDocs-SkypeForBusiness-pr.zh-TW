@@ -12,20 +12,22 @@ ms:contentKeyID: 48183943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33ca4ebfd56407bfd162bd7df76be98c890e2fbf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2eaa9da579561464c46776662cacaca80dafe016
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517680"
 ---
+# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>在 Lync Server 2013 中為允許的外部網域設定支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>在 Lync Server 2013 中為允許的外部網域設定支援
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 
 > [!NOTE]  
-> 此程序說明如何設定特定網域的支援，但實作同盟使用者的支援還需要您的組織啟用同盟使用者的支援，以及設定和套用原則以控制哪些使用者可以與同盟使用者共同作業。 如需啟用同盟使用者支援的詳細資訊，請參閱<A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access In Lync Server 2013</A>。 如需設定控制同盟之原則的詳細資訊，請參閱<A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">在 Lync Server 2013 中設定控制同盟使用者存取的原則</A>。
+> 此程序說明如何設定特定網域的支援，但實作同盟使用者的支援還需要您的組織啟用同盟使用者的支援，以及設定和套用原則以控制哪些使用者可以與同盟使用者共同作業。 如需啟用同盟使用者支援的詳細資訊，請參閱 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access In Lync Server 2013</A>。 如需設定控制同盟之原則的詳細資訊，請參閱 <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">在 Lync Server 2013 中設定控制同盟使用者存取的原則</A>。
 
 
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，依序按一下 **[外部使用者存取]** 和 **[同盟網域]**。
 
@@ -82,9 +84,9 @@ _**主題上次修改日期：** 2012-10-19_
 
 7.  為您要允許的每個同盟協力廠商網域重複步驟 4 到 6。
 
-若要啟用同盟使用者存取，您也必須在組織中啟用對同盟使用者存取的支援。 如需詳細資訊，請參閱[Enable or disable remote user access In Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md)。
+若要啟用同盟使用者存取，您也必須在組織中啟用對同盟使用者存取的支援。 如需詳細資訊，請參閱 [Enable or disable remote user access In Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md)。
 
-此外，您還必須設定原則，並將原則套用至您希望能與同盟使用者共同作業的使用者。 如需詳細資訊，請參閱[Configure 原則 to control 同盟 user access In Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)。
+此外，您還必須設定原則，並將原則套用至您希望能與同盟使用者共同作業的使用者。 如需詳細資訊，請參閱 [Configure 原則 to control 同盟 user access In Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)。
 
 </div>
 

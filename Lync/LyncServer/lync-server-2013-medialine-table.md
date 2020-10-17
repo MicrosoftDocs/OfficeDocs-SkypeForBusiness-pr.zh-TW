@@ -12,20 +12,22 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84aa652a51934a8b513392869a0875f60689f759
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03f967b50c2fa9eae4f2599ce96dc9c592a57006
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516140"
 ---
+# <a name="medialine-table-in-lync-server-2013"></a>Lync Server 2013 中的 MediaLine 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-table-in-lync-server-2013"></a>Lync Server 2013 中的 MediaLine 表格
+
 
 </div>
 
@@ -60,13 +62,13 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主要</p></td>
-<td><p>從<a href="lync-server-2013-session-table.md">Lync Server 2013 中的會話表</a>參考。</p></td>
+<td><p>從 <a href="lync-server-2013-session-table.md">Lync Server 2013 中的會話表</a>參考。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>從<a href="lync-server-2013-session-table.md">Lync Server 2013 中的會話表</a>參考。</p></td>
+<td><p>從 <a href="lync-server-2013-session-table.md">Lync Server 2013 中的會話表</a>參考。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
@@ -84,13 +86,13 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CallerIceWarningFlags</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>有關互動式連線建立 (冰) 程式的資訊，請參閱 bits 旗中所述的處理常式。 如需詳細資訊，請參閱可供下載的<em>經驗品質監控伺服器通訊協定規格</em>。</p></td>
+<td><p>有關互動式連線建立 (冰) 程式的資訊，請參閱 bits 旗中所述的處理常式。 如需詳細資訊，請參閱可供下載的 <em>經驗品質監控伺服器通訊協定規格</em>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeIceWarningFlags</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>與 CallerIceWarningFlags 相同，但在被呼叫者的一端。 如需詳細資訊，請參閱可供下載的<em>經驗品質監控伺服器通訊協定規格</em>。</p></td>
+<td><p>與 CallerIceWarningFlags 相同，但在被呼叫者的一端。 如需詳細資訊，請參閱可供下載的 <em>經驗品質監控伺服器通訊協定規格</em>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>安全性</strong></p></td>
@@ -108,7 +110,7 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CallerIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>來電者的 IP 位址。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>來電者的 IP 位址。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPort</strong></p></td>
@@ -120,7 +122,7 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CallerSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p> 外國</p></td>
-<td><p>來電者的子網。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>來電者的子網。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerInside</strong></p></td>
@@ -132,13 +134,13 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CallerMacAddress</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>來電者的 mac 位址（從<a href="lync-server-2013-macaddress-table.md">Lync Server 2013 的 MacAddress 表格中</a>參照）。</p></td>
+<td><p>來電者的 mac 位址（從 <a href="lync-server-2013-macaddress-table.md">Lync Server 2013 的 MacAddress 表格中</a>參照）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>呼叫者使用之 Lync Server A/V Edge service 的 IP 位址。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>呼叫者使用之 Lync Server A/V Edge service 的 IP 位址。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRelayPort</strong></p></td>
@@ -150,25 +152,25 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CallerCaptureDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>呼叫者使用的捕獲裝置。 從<a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
+<td><p>呼叫者使用的捕獲裝置。 從 <a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRenderDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>由來電者使用的呈現裝置。 從<a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
+<td><p>由來電者使用的呈現裝置。 從 <a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerCaptureDevDriver</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>呼叫者的捕獲裝置的驅動程式，從<a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 的 DeviceDriver 表格中</a>參照。</p></td>
+<td><p>呼叫者的捕獲裝置的驅動程式，從 <a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 的 DeviceDriver 表格中</a>參照。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRenderDevDriver</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>呼叫者的轉譯裝置的驅動程式，從<a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 的 DeviceDriver 表格中</a>參照。</p></td>
+<td><p>呼叫者的轉譯裝置的驅動程式，從 <a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 的 DeviceDriver 表格中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerNetworkConnectionType</strong></p></td>
@@ -198,7 +200,7 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CalleeIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>通話接收器的 IP 位址。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>通話接收器的 IP 位址。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleePort</strong></p></td>
@@ -210,7 +212,7 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CalleeSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>被呼叫者的子網。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>被呼叫者的子網。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeInside</strong></p></td>
@@ -222,13 +224,13 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CalleeMacAddress</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>被呼叫者的 Mac 位址。 從<a href="lync-server-2013-macaddress-table.md">Lync Server 2013 的 MacAddress 表格中</a>參照。</p></td>
+<td><p>被呼叫者的 Mac 位址。 從 <a href="lync-server-2013-macaddress-table.md">Lync Server 2013 的 MacAddress 表格中</a>參照。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>呼叫接收器所使用之 A/V Edge service 的 IP 位址。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>呼叫接收器所使用之 A/V Edge service 的 IP 位址。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRelayPort</strong></p></td>
@@ -240,13 +242,13 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>CalleeCaptureDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>外國</p></td>
-<td><p>用於呼叫接收器的捕獲裝置。 從<a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
+<td><p>用於呼叫接收器的捕獲裝置。 從 <a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRenderDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>會呈現呼叫接收器所使用的裝置。 從<a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
+<td><p>會呈現呼叫接收器所使用的裝置。 從 <a href="lync-server-2013-device-table.md">Lync Server 2013 的裝置資料表中</a>參照。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeCaptureDevDriver</strong></p></td>
@@ -300,7 +302,7 @@ _**主題上次修改日期：** 2014-02-21_
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>Smallint</p></td>
 <td></td>
-<td><p>這是所採用的頻寬容量來源。 它說明頻寬限制來自 ( "Policy Server"、"輪流伺服器"、"模態" 等) 。 從<a href="lync-server-2013-appliedbandwidthsource-table.md">Lync Server 2013 的 AppliedBandwidthSource 表格中</a>參照。</p></td>
+<td><p>這是所採用的頻寬容量來源。 它說明頻寬限制來自 ( "Policy Server"、"輪流伺服器"、"模態" 等) 。 從 <a href="lync-server-2013-appliedbandwidthsource-table.md">Lync Server 2013 的 AppliedBandwidthSource 表格中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Caller</strong></p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516500"
 ---
+# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013 中的資料庫軟體支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013 中的資料庫軟體支援
+
 
 </div>
 
@@ -53,7 +55,7 @@ Lync Server 2013 支援下列資料庫管理系統：
     
       - Microsoft SQL Server 2012 Express (64-位版本) 。 建議您另外執行最新的 service pack。
         
-        我們支援在前端伺服器和 Standard Edition server 上修補及升級 Microsoft SQL Server。 不過，當您在前端伺服器上進行任何類型的升級或修補程式時，您必須考慮仲裁需求。 如需詳細資訊，請參閱[Upgrade or Update 前端伺服器 In Lync server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)和[拓撲及元件中的前端伺服器、立即訊息及顯示狀態在 lync server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)中。
+        我們支援在前端伺服器和 Standard Edition server 上修補及升級 Microsoft SQL Server。 不過，當您在前端伺服器上進行任何類型的升級或修補程式時，您必須考慮仲裁需求。 如需詳細資訊，請參閱 [Upgrade or Update 前端伺服器 In Lync server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) 和 [拓撲及元件中的前端伺服器、立即訊息及顯示狀態在 lync server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)中。
     
     <div>
     
@@ -118,7 +120,7 @@ SQL 叢集支援適用于主動/被動設定。 基於效能考慮，被動節�
     
       - Microsoft SQL Server 2008 R2 Enterprise database 軟體 (64-位版本) 。 建議您另外執行最新的 service pack。
 
-如需 SQL 鏡像的詳細資訊，請參閱[Lync server 2013 中的後端伺服器高可用性](lync-server-2013-back-end-server-high-availability.md)。 如需如何部署 SQL 叢集的詳細資訊，請參閱[CONFIGURE Sql Server 叢集 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
+如需 SQL 鏡像的詳細資訊，請參閱 [Lync server 2013 中的後端伺服器高可用性](lync-server-2013-back-end-server-high-availability.md)。 如需如何部署 SQL 叢集的詳細資訊，請參閱 [CONFIGURE Sql Server 叢集 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
 
 如需 SQL Server 2012 中容錯移轉叢集的詳細資訊與最佳作法，請參閱 <https://technet.microsoft.com/library/hh231721.aspx> 。 如需 SQL Server 2008 中的容錯移轉叢集，請參閱 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> 。
 

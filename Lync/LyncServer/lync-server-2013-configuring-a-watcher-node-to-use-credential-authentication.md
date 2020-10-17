@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定監看員節點以使用認證驗證
+title: Lync Server 2013：設定監視節點以使用憑證驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ee0d5a07ebd04e6eec585c79eb13b9be7fe98a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e05ac48896b50b4b83e4211a5036f6a6d513d43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199506"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517686"
 ---
+# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中設定監視節點以使用憑證驗證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>設定監看員節點以使用 Lync Server 2013 中的認證驗證
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42199506"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-20 個_
+_**主題上次修改日期：** 2012-10-20_
 
 如果您的監看員節點電腦位於周邊網路外部，則必須遵循稍微不同的程序，以設定監看員節點執行綜合交易。具體而言，您不應該建立信任的應用程式集區和信任的應用程式，且您必須安裝憑證，讓監看員節點能夠將通知傳送至周邊網路內的電腦。這表示您必須完成下列兩項工作：
 
@@ -73,7 +75,7 @@ _**主題上次修改日期：** 2012年-10-20 個_
 
 ## <a name="installing-the-watcher-node-configuration-files"></a>安裝監看員節點設定檔案
 
-重新啟動監看員節點電腦之後，下一個步驟是執行 Watchernode.msi 檔案。 若要執行此檔案，請按一下 [**開始**，按一下 [**所有程式]**、 按一下 [ **Lync Server 2013**中，，然後按一下 [ **Lync Server 管理命令介面**就可以開啟 Lync Server 2013 管理命令介面。 在 [Lync Server 管理命令介面中，輸入下列命令並按 ENTER （務必和指定 Watchernode.msi 副本的實際路徑）：
+重新啟動監看員節點電腦之後，下一個步驟是執行 Watchernode.msi 檔案。 若要執行這個檔案，請依序按一下 [ **開始**]、[ **所有程式**]、[ **lync server 2013**]，然後按一下 [ **lync server 管理命令**介面]，以開啟 lync server 2013 管理命令介面。 在 Lync Server 管理命令介面中，輸入下列命令，然後按 ENTER (確定並指定您 Watchernode.msi) 副本的實際路徑：
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 

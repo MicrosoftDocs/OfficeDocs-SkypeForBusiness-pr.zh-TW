@@ -12,20 +12,22 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 522f1d1240e73775ae1f0976556b882ba00fe1d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dc01c8bed503f06806c873431ef201e03c31811
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180070"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516890"
 ---
+# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改會議原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改會議原則
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180070"
 
 _**主題上次修改日期：** 2013-02-07_
 
-請遵循下列步驟建立使用者層級或網站層級會議原則。 如需如何將使用者層級原則指派給使用者的詳細資訊，請參閱[在 Lync Server 2013 中指派每個使用者的會議原則](lync-server-2013-assign-a-per-user-conferencing-policy.md)。 如需所有可用之會議原則設定的清單，請參閱[Lync Server 2013 的會議原則設定參考](lync-server-2013-conferencing-policy-settings-reference.md)。
+請遵循下列步驟建立使用者層級或網站層級會議原則。 如需如何將使用者層級原則指派給使用者的詳細資訊，請參閱 [在 Lync Server 2013 中指派每個使用者的會議原則](lync-server-2013-assign-a-per-user-conferencing-policy.md)。 如需所有可用之會議原則設定的清單，請參閱 [Lync Server 2013 的會議原則設定參考](lync-server-2013-conferencing-policy-settings-reference.md)。
 
 <div>
 
@@ -45,15 +47,15 @@ _**主題上次修改日期：** 2013-02-07_
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  請在左導覽列中按一下 **[會議]**，然後按一下 **[會議原則]**。
 
 4.  按一下 **[新增]**，然後執行下列其中一項作業：
     
-      - 若要建立使用者層級原則，請按一下 [**使用者原則**]。 在 [**新的會議原則**] 的 [**名稱**] 中，輸入原則的描述性名稱。
+      - 若要建立使用者層級原則，請按一下 [ **使用者原則**]。 在 [ **新的會議原則**] 的 [ **名稱**] 中，輸入原則的描述性名稱。
     
-      - 若要建立網站層級原則，請按一下 [**網站原則**]。 在 [**選取網站**] 搜尋欄位中，輸入您要建立原則的網站名稱全部或部分名稱。 在網站清單中，按一下您想要的網站，然後按一下 **[確定]**。
+      - 若要建立網站層級原則，請按一下 [ **網站原則**]。 在 [ **選取網站** ] 搜尋欄位中，輸入您要建立原則的網站名稱全部或部分名稱。 在網站清單中，按一下您想要的網站，然後按一下 **[確定]**。
         
         <div>
         
@@ -64,7 +66,7 @@ _**主題上次修改日期：** 2013-02-07_
         
         </div>
 
-5.  在 [**描述**] 中，輸入原則的描述。
+5.  在 [ **描述**] 中，輸入原則的描述。
 
 6.  在 **[召集人原則]** 下方的 **[最大會議大小]** 中，輸入您想要允許的會議使用者數量上限。最大會議大小預設為 250。
 
@@ -92,7 +94,7 @@ _**主題上次修改日期：** 2013-02-07_
     
       - 如果您允許使用者撥入會議，而且想要允許未經驗證 (匿名) 的使用者透過撥出電話來加入會議，則選取 **[允許匿名參與者撥出]** 核取方塊。透過撥出電話，會議伺服器會呼叫使用者，這時使用者可以接聽電話以加入會議。根據預設，匿名使用者無法透過撥出電話方式來加入會議。
 
-12. 如果您選擇允許在**音訊/視頻**中使用影片，請選取 [**允許多個影片資料流程**]。
+12. 如果您選擇允許在 **音訊/視頻**中使用影片，請選取 [ **允許多個影片資料流程** ]。
 
 13. 在 **[資料共同作業]** 中，執行下列其中一項：
     
@@ -106,7 +108,7 @@ _**主題上次修改日期：** 2013-02-07_
     
       - 若要防止進行檔案傳輸，請清除 **[允許參與者傳輸檔案]** 核取方塊。根據預設，使用者可以傳輸檔案。
     
-      - 若要防止使用註釋，請清除 **[啟用註釋]** 核取方塊。 若要在 shard PowerPoint 簡報中使用批註，請清除 [**啟用 PowerPoint 批註**]。 預設允許使用註釋。
+      - 若要防止使用註釋，請清除 **[啟用註釋]** 核取方塊。 若要在 shard PowerPoint 簡報中使用批註，請清除 [ **啟用 PowerPoint 批註**]。 預設允許使用註釋。
     
       - 若要防止使用投票，請清除 **[啟用投票]** 核取方塊。預設允許使用投票。
 
@@ -134,7 +136,7 @@ _**主題上次修改日期：** 2013-02-07_
 
 19. 若要允許進行點對點錄製作業，選取 **[啟用點對點錄製]** 核取方塊。預設不允許進行點對點錄製。
 
-20. 若要允許參與者與多個影片資料流程加入，請選取 [**啟用參與者以多個影片加入**] 核取方塊。 根據預設，允許多個影片資料流程。
+20. 若要允許參與者與多個影片資料流程加入，請選取 [ **啟用參與者以多個影片加入** ] 核取方塊。 根據預設，允許多個影片資料流程。
 
 21. 按一下 **[認可]**。
 
@@ -146,13 +148,13 @@ _**主題上次修改日期：** 2013-02-07_
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  請在左導覽列中按一下 **[會議]**，然後按一下 **[會議原則]**。
 
-4.  在會議原則清單中，按一下您要變更的原則，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。
+4.  在會議原則清單中，按一下您要變更的原則，按一下 [ **編輯**]，然後按一下 [ **顯示詳細資料**]。
 
-5.  在 [**編輯會議原則**] 中，修改原則名稱以外的任何原則設定，但無法修改。
+5.  在 [ **編輯會議原則**] 中，修改原則名稱以外的任何原則設定，但無法修改。
 
 6.  按一下 **[認可]**。
 

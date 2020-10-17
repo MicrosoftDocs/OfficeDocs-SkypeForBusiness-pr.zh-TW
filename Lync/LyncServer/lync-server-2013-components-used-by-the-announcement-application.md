@@ -1,5 +1,5 @@
 ---
-title: 宣告應用程式所使用的 Lync Server 2013： 元件
+title: Lync Server 2013：宣告應用程式所使用的元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61f0de957889f108ff7b7cec3ad71e984fd61f11
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 84fb2d57e03965acff9d647854b86d7a5a528246
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517710"
 ---
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 的宣告應用程式所使用的元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 中的宣告應用程式所使用的元件
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42213159"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-13_
+_**主題上次修改日期：** 2012-09-13_
 
-在 Lync Server 2013 中，宣告應用程式是回應群組應用程式的元件。 當您部署企業語音時，宣告應用程式會自動安裝及啟動以及回應群組應用程式。 本節說明支援宣告應用程式的元件。
+在 Lync Server 2013 中，宣告應用程式是回應群組應用程式的元件。 當您部署企業語音時，會自動安裝宣告應用程式，並隨回應群組應用程式一起啟用。 本節說明支援宣告應用程式的元件。
 
 <div>
 
 ## <a name="announcement-application-components"></a>宣告應用程式元件
 
-宣告應用程式支援下列的 Lync Server 元件：
+下列 Lync Server 元件支援宣告應用程式：
 
-  - **應用程式服務**   應用程式服務提供的平台的部署，裝載，及管理整合通訊應用程式。 在每個前端伺服器上的前端集區中，每個 Standard Edition server 上，會自動安裝應用程式服務。
+  - **應用程式服務**    Application service 提供平臺，用以部署、裝載和管理整合通訊應用程式。 應用程式服務會自動安裝在前端集區和每個 Standard Edition server 上的每一部前端伺服器上。
 
-  - **回應群組應用程式**   回應群組應用程式是下列其中一個裝載的應用程式服務的整合的通訊應用程式。 當設定未指派的電話號碼範圍來路由傳送的通知，回應群組應用程式，才能路由傳送至電話號碼所進行的呼叫。 (如果已設定所有的範圍，不需要回應群組應用程式來路由傳送至 Exchange 整合通訊 (UM)。)
+  - **回應群組應用程式**    回應群組應用程式是由應用程式服務主控的整合通訊應用程式之一。 當未指派的電話號碼範圍設定為路由傳送至宣告時，需要回應群組應用程式，才能將撥打給電話號碼的電話傳送給電話號碼。 如果所有範圍都設定為路由傳送至 Exchange 整合通訊 (UM) ，則不需要 (回應群組應用程式。 ) 
 
-  - **音訊檔案**   音訊檔案用於宣告。
+  - **音訊檔**    音訊檔案用於宣告。
 
-  - **檔案存放區**   宣告應用程式使用檔案存放區儲存其音訊檔。
+  - **檔存放區**    宣告應用程式會使用檔案存放區儲存其音訊檔。
 
-  - **Lync Server Control Panel**   您可以使用 Lync Server 控制台來設定未指派號碼表。
+  - **Lync Server 控制台**    您可以使用 Lync Server 控制台設定未指派的號碼表。
 
-  - **Lync Server 管理命令介面**   您可以使用 Lync Server 管理命令介面 cmdlet 來設定宣告設定和未指派號碼表。
+  - **Lync Server 管理命令**     介面您可以使用 Lync Server 管理命令介面 Cmdlet 來設定宣告設定及未指派號碼表格。
 
 </div>
 

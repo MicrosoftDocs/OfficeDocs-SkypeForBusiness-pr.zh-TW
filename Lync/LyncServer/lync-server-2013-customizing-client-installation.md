@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 自訂用戶端安裝
+title: Lync Server 2013：自訂用戶端安裝
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da27eed81ea63db059a23baad511471cbe31cfe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 755a53b6afc089093f5efbfd2a90699e12e66b8f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200106"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516690"
 ---
+# <a name="customizing-client-installation-in-lync-server-2013"></a>在 Lync Server 2013 中自訂用戶端安裝
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-client-installation-in-lync-server-2013"></a>自訂 Lync Server 2013 中的用戶端安裝
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42200106"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-03_
+_**主題上次修改日期：** 2012-10-03_
 
-企業系統管理員可以使用本章節所討論的方法，以自訂 Office 2013 Windows Installer 型 (.msi) 安裝。 因為沒有單一工具提供所有的自訂選項，您可能將 Lync 2013 部署中使用這些方法的組合。 您至少需要使用下列章節中說明的工具：
+企業系統管理員可以使用本節所述的方法，自訂 Office 2013 Windows Installer 型 ( .msi) 安裝。 由於沒有任何單一工具提供所有自訂選項，因此您可能會在 Lync 2013 部署中結合使用這些方法。 您至少需要使用下列章節中說明的工具：
 
-  - [在 Lync Server 2013 中使用 Office 自訂工具 (OCT)](lync-server-2013-using-the-office-customization-tool-oct.md)來針對 Lync 及其他 Office 程式自訂安裝選項及功能。
+  - [在 Lync Server 2013 中使用 Office 自訂工具 (OCT) ](lync-server-2013-using-the-office-customization-tool-oct.md) ，來自訂 Lync 和其他 Office 程式的安裝選項及功能。
 
-  - [使用 Config.xml 執行 Lync Server 2013 中的安裝工作](lync-server-2013-using-config-xml-to-perform-installation-tasks.md)來指定網路安裝點的路徑，並執行無訊息安裝。
+  - [在 Lync Server 2013 中使用 Config.xml 執行安裝](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) 工作，以指定網路安裝點的路徑，並執行無訊息安裝。
 
-  - [Lync Server 2013 中的使用安裝程式命令列選項](lync-server-2013-using-setup-command-line-options.md)來指定要在安裝期間使用的 Config.xml 檔案。
+  - [使用 Lync Server 2013 中的安裝程式命令列選項](lync-server-2013-using-setup-command-line-options.md) ，指定要在安裝期間使用的 Config.xml 檔案。
 
-  - [設定 Lync Server 2013 中的用戶端啟動載入原則](lync-server-2013-configuring-client-bootstrapping-policies.md)使用 [群組原則物件編輯器 MMC 嵌入式管理單元。
+  - 使用群組原則物件編輯器 MMC 嵌入式管理單元，[在 Lync Server 2013 中設定用戶端引導原則](lync-server-2013-configuring-client-bootstrapping-policies.md)。
 
 您在部署 Office 產品套件時，可能會想設定其他選項。本節中的主題提供這些自訂工具的概觀，並說明 Lync 特定的考量。包含的連結為每個工具的詳細 Office 說明。
 

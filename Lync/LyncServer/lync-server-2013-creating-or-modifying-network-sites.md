@@ -12,20 +12,22 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d95073a590b9e5ddde54df4f77cd15e936234d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c88ca28478cbd9d38e9e85c5a852fb93b49c0df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200139"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516720"
 ---
+# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改網路網站
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改網路網站
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200139"
 
 _**主題上次修改日期：** 2012-10-08_
 
-網路網站是設定在通話許可控制 (CAC) 或增強型 9-1-1 部署之每一個地區內部的辦公室或位置。 您可以使用 Microsoft Lync Server 2013 控制台來設定網站，並將其與區域產生關聯。 例如，北美洲的網路區域可能會和 Chicago、Redmond 及 Vancouver 等網路網站相關聯。 您必須為組織內的每個網站建立 CAC 網路網站，即使該網站沒有頻寬限制。 您可以從 Lync Server 控制台建立、修改和刪除網路網站。 請使用下列程序來建立或修改網站。 如需刪除現有的網路網站的詳細資訊，請參閱[在 Lync Server 2013 中刪除現有的網路網站](lync-server-2013-deleting-an-existing-network-site.md)。
+網路網站是設定在通話許可控制 (CAC) 或增強型 9-1-1 部署之每一個地區內部的辦公室或位置。 您可以使用 Microsoft Lync Server 2013 控制台來設定網站，並將其與區域產生關聯。 例如，北美洲的網路區域可能會和 Chicago、Redmond 及 Vancouver 等網路網站相關聯。 您必須為組織內的每個網站建立 CAC 網路網站，即使該網站沒有頻寬限制。 您可以從 Lync Server 控制台建立、修改和刪除網路網站。 請使用下列程序來建立或修改網站。 如需刪除現有的網路網站的詳細資訊，請參閱 [在 Lync Server 2013 中刪除現有的網路網站](lync-server-2013-deleting-an-existing-network-site.md)。
 
 <div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012-10-08_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，依序按一下 **[網路設定]** 和 **[網站]**。
 
@@ -70,7 +72,7 @@ _**主題上次修改日期：** 2012-10-08_
     
 
     > [!NOTE]  
-    > 您可以在 <STRONG>[網路設定]</STRONG> 群組的 <STRONG>[原則設定檔]</STRONG> 頁面上，檢視可用頻寬原則設定檔的詳細資訊，或是建立新的頻寬原則設定檔。 如需詳細資訊，請參閱<A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">建立或修改 Lync Server 2013 中的頻寬原則設定檔</A>。
+    > 您可以在 <STRONG>[網路設定]</STRONG> 群組的 <STRONG>[原則設定檔]</STRONG> 頁面上，檢視可用頻寬原則設定檔的詳細資訊，或是建立新的頻寬原則設定檔。 如需詳細資訊，請參閱 <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">建立或修改 Lync Server 2013 中的頻寬原則設定檔</A>。
 
     
     </div>
@@ -81,7 +83,7 @@ _**主題上次修改日期：** 2012-10-08_
     
 
     > [!NOTE]  
-    > 此位置原則將特定的增強型 9-1-1 (E9-1-1) 功能和用戶端位置設定指派給網站。 您可以在 <STRONG>[網路設定]</STRONG> 群組的 <STRONG>[位置原則]</STRONG> 頁面上，檢視可用位置原則的詳細資訊，或是建立新的位置原則。 如需詳細資訊，請參閱<A href="lync-server-2013-viewing-location-policy-information.md">在 Lync Server 2013 中查看位置原則資訊</A>。
+    > 此位置原則將特定的增強型 9-1-1 (E9-1-1) 功能和用戶端位置設定指派給網站。 您可以在 <STRONG>[網路設定]</STRONG> 群組的 <STRONG>[位置原則]</STRONG> 頁面上，檢視可用位置原則的詳細資訊，或是建立新的位置原則。 如需詳細資訊，請參閱 <A href="lync-server-2013-viewing-location-policy-information.md">在 Lync Server 2013 中查看位置原則資訊</A>。
 
     
     </div>
@@ -94,7 +96,7 @@ _**主題上次修改日期：** 2012-10-08_
     
 
     > [!NOTE]  
-    > 建立新的網路網站時不會使用 <STRONG>[關聯的子網路]</STRONG> 表格。 建立或修改子網路時才會讓子網路與網站相關聯。 如需詳細資訊，請參閱<A href="lync-server-2013-create-or-modify-network-subnets.md">Create or modify network subnet In Lync Server 2013</A>。
+    > 建立新的網路網站時不會使用 <STRONG>[關聯的子網路]</STRONG> 表格。 建立或修改子網路時才會讓子網路與網站相關聯。 如需詳細資訊，請參閱 <A href="lync-server-2013-create-or-modify-network-subnets.md">Create or modify network subnet In Lync Server 2013</A>。
 
     
     </div>
@@ -107,7 +109,7 @@ _**主題上次修改日期：** 2012-10-08_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，依序按一下 **[網路設定]** 和 **[網站]**。
 
@@ -129,7 +131,7 @@ _**主題上次修改日期：** 2012-10-08_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，依序按一下 [網路設定]**** 和 [網站]****。
 

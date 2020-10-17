@@ -12,20 +12,22 @@ ms:contentKeyID: 48183946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2a84b07821601b82e0268c6f5f167105f7d55c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ed1a67fbc037f0828b386bf1339d59851e13680
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209379"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517400"
 ---
+# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>在 Lync Server 2013 中設定行動的反向 proxy
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>在 Lync Server 2013 中設定行動的反向 proxy
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**主題上次修改日期：** 2014-03-20_
 
 如果您想要將自動探索用於行動裝置用戶端，無論您是否更新反向 Proxy 憑證上的主體替代名稱清單，都需要為反向 Proxy 修改現有的 Web 發行規則或建立新的 Web 發行規則。
 
-如果您決定針對初始 Lync Server 2013 自動探索服務要求使用 HTTPS，並更新反向 proxy 憑證上的主體替代名稱清單，您必須將更新的公用憑證指派給反向 proxy 上的安全通訊端層 (SSL) 偵聽程式。 如需必要的主體替代名稱專案的詳細資訊，請參閱[Lync Server 2013 中行動的技術需求](lync-server-2013-technical-requirements-for-mobility.md)。 然後您需要為外部 Web 服務修改現有的接聽程式，或者為外部自動探索服務 URL 建立新的 Web 發行規則。 如果您沒有前端集區之外部 Lync Server 2013 Web 服務 URL 的 web 發行規則，您也需要為該伺服器發佈規則。
+如果您決定針對初始 Lync Server 2013 自動探索服務要求使用 HTTPS，並更新反向 proxy 憑證上的主體替代名稱清單，您必須將更新的公用憑證指派給反向 proxy 上的安全通訊端層 (SSL) 偵聽程式。 如需必要的主體替代名稱專案的詳細資訊，請參閱 [Lync Server 2013 中行動的技術需求](lync-server-2013-technical-requirements-for-mobility.md)。 然後您需要為外部 Web 服務修改現有的接聽程式，或者為外部自動探索服務 URL 建立新的 Web 發行規則。 如果您沒有前端集區之外部 Lync Server 2013 Web 服務 URL 的 web 發行規則，您也需要為該伺服器發佈規則。
 
 <div>
 
 
 > [!NOTE]  
-> 反向 Proxy 發行規則與接聽程式可服務外部 Web 服務及自動探索服務，只要指派給接聽程式的憑證包含兩服務之必要的主體名稱和主體替代名稱。 如需網頁接聽程式和發行規則之預設設定的詳細資料，請參閱<A href="lync-server-2013-setting-up-reverse-proxy-servers.md">設定 Lync Server 2013 的反向 proxy 伺服器</A>以取得詳細資訊。
+> 反向 Proxy 發行規則與接聽程式可服務外部 Web 服務及自動探索服務，只要指派給接聽程式的憑證包含兩服務之必要的主體名稱和主體替代名稱。 如需網頁接聽程式和發行規則之預設設定的詳細資料，請參閱 <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">設定 Lync Server 2013 的反向 proxy 伺服器</A> 以取得詳細資訊。
 
 
 
@@ -81,17 +83,17 @@ _**主題上次修改日期：** 2014-03-20_
 
 6.  在 [伺服器連線安全性]**** 頁面上，選取 [使用 SSL 連線到發行的 Web 伺服器或伺服器陣列]****。
 
-7.  在 [**內部發行詳細資料**] 頁面的 [**內部網站名稱**] 中，輸入 Director 集區的完整功能變數名稱 (FQDN)  (例如，lyncdir01) 。 若要為前端集區上的外部 Web 服務 URL 建立規則，請在前端集區前面輸入硬體負載平衡器 (HLB) 的 VIP 位址。
+7.  在 [ **內部發行詳細資料** ] 頁面的 [ **內部網站名稱**] 中，輸入 Director 集區的完整功能變數名稱 (FQDN)  (例如，lyncdir01) 。 若要為前端集區上的外部 Web 服務 URL 建立規則，請在前端集區前面輸入硬體負載平衡器 (HLB) 的 VIP 位址。
 
-8.  在 [**內部發行詳細資料**] 頁面的 [**路徑 (選用) **中，輸入 **/\*** 要發佈的資料夾路徑，然後選取 **[轉寄原始主機標頭**]。
+8.  在 [ **內部發行詳細資料** ] 頁面的 [ **路徑 (選用) **中，輸入 **/\*** 要發佈的資料夾路徑，然後選取 **[轉寄原始主機標頭**]。
 
 9.  在 [公用名稱詳細資料]**** 頁面上，執行下列作業：
     
       - 在 [為右列接受要求]**** 底下，選取 [這個網域名稱]****。
     
-      - 在 [**公用名稱**] 中，輸入**lyncdiscover。** \<microsoft.rtc.management.xds.sipdomain \> (外部自動探索服務 URL) 。 若要為前端集區上的外部 Web 服務 URL 建立規則，請在前端集區上輸入外部 Web 服務的 FQDN (例如，lyncwebextpool01.contoso.com) 。
+      - 在 [ **公用名稱**] 中，輸入 **lyncdiscover。**\<sipdomain\>  (外部自動探索服務 URL) 。 若要為前端集區上的外部 Web 服務 URL 建立規則，請在前端集區上輸入外部 Web 服務的 FQDN (例如，lyncwebextpool01.contoso.com) 。
     
-      - 在 [**路徑**] 中輸入 **/\*** 。
+      - 在 [ **路徑**] 中輸入 **/\*** 。
 
 10. 在 [選取網頁接聽程式]**** 頁面上的 [網頁接聽程式]**** 中，選取具有更新公用憑證的現存 SSL 接聽程式。
 
@@ -170,17 +172,17 @@ _**主題上次修改日期：** 2014-03-20_
 
 6.  在 [伺服器連線安全性]**** 頁面上，選取 [使用不安全的連線以連線到發行的 Web 伺服器或伺服器陣列]****。
 
-7.  在 [**內部發行詳細資料**] 頁面的 [**內部網站名稱**] 中，輸入硬體負載平衡器 (HLB) 前端集區前面的 VIP 位址。
+7.  在 [ **內部發行詳細資料** ] 頁面的 [ **內部網站名稱**] 中，輸入硬體負載平衡器 (HLB) 前端集區前面的 VIP 位址。
 
-8.  在 [**內部發行詳細資料**] 頁面的 [**路徑 (選用) **中，輸入 **/\*** 要發佈的資料夾路徑，然後選取 **[轉寄原始主機標頭，而不是在內部網站名稱] 欄位中指定**的。
+8.  在 [ **內部發行詳細資料** ] 頁面的 [ **路徑 (選用) **中，輸入 **/\*** 要發佈的資料夾路徑，然後選取 **[轉寄原始主機標頭，而不是在內部網站名稱] 欄位中指定**的。
 
 9.  在 [公用名稱詳細資料]**** 頁面上，執行下列作業：
     
       - 在 [為右列接受要求]**** 底下，選取 [這個網域名稱]****。
     
-      - 在 [**公用名稱**] 中，輸入**lyncdiscover。** \<microsoft.rtc.management.xds.sipdomain \> (外部自動探索服務 URL) 。
+      - 在 [ **公用名稱**] 中，輸入 **lyncdiscover。**\<sipdomain\>  (外部自動探索服務 URL) 。
     
-      - 在 [**路徑**] 中輸入 **/\*** 。
+      - 在 [ **路徑**] 中輸入 **/\*** 。
 
 10. 在 [選取網頁接聽程式]**** 頁面上的 [網頁接聽程式]**** 中，選取接聽程式，或是使用 [新增網頁接聽程式定義精靈] 來建立新的接聽程式。
 

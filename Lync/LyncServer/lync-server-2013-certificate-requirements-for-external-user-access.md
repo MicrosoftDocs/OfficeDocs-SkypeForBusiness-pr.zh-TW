@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 外部使用者存取的憑證需求
+title: Lync Server 2013：外部使用者存取的憑證需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dda45706b8c55bf99120ec3776702060998a6921
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37494b3f8389709681ffc92a17d388b71baddd70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517950"
 ---
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中外部使用者存取的憑證需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部使用者存取的憑證需求
+
 
 </div>
 
@@ -35,86 +37,86 @@ ms.locfileid: "42190996"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016年-03-29_
+_**主題上次修改日期：** 2016-03-29_
 
-Microsoft Lync Server 2013 通訊軟體支援單一公用憑證使用的存取權和 web 會議 Edge 外部介面以及 A / V 驗證服務。 Edge 內部介面通常使用內部憑證授權單位 (CA) 所發出的私人憑證，但前提是它是來自受信任的公用 CA，則也可以使用公用憑證。 您的部署中的反向 proxy 使用公用憑證，並使用 HTTP （亦即傳輸層安全性 over HTTP） 來加密來自反向 proxy 通訊用戶端和反向 proxy 內部伺服器。
+Microsoft Lync Server 2013 通訊軟體支援使用單一公用憑證進行存取和 web 會議 Edge 外部介面，以及 A/V 驗證服務。 Edge 內部介面一般會使用內部憑證授權單位單位 (CA) 所發行的私人憑證，但也可以使用公用憑證，但前提是該憑證來自于信任的公用 CA。 您部署中的反向 proxy 會使用公用憑證，並使用 HTTP (，也就是透過 HTTP) 傳輸層安全性，將反向 proxy 中的通訊與用戶端和反向 proxy 加密為內部伺服器。
 
-以下是用來存取與 web 會議 Edge 外部介面以及 A 的公用憑證的需求 / V 驗證服務：
+以下是用於 access 和 web 會議 Edge 外部介面及 A/V 驗證服務之公用憑證的需求：
 
-  - 憑證必須支援主體替代名稱核准公用 CA 所發出。 如需詳細資訊，請參閱 Microsoft 知識庫文件 929395，「 整合通訊憑證合作夥伴的 Exchange Server 和 Communications Server，" [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)。
+  - 憑證必須由支援主體替代名稱的已核准公用 CA 所發出。 如需詳細資訊，請參閱 Microsoft 知識庫文章929395：「Exchange Server 和通訊伺服器的整合通訊憑證合作夥伴」，網址為 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
-  - 如果憑證將用於 Edge 集區上，則必須加以建立為可匯出私密金鑰，與 Edge 集區中每部 Edge Server 上使用的同一個憑證。 可匯出私密金鑰的重要需求是基於的 A / V 驗證服務，必須跨所有 Edge Server 集區中使用相同的私密金鑰。
+  - 若要在 Edge 集區上使用此憑證，該憑證必須建立為可匯出，並在 Edge 集區中的每個 Edge Server 上使用相同的憑證。 可匯出的私密金鑰需求是用於 A/V 驗證服務，此服務必須在集區中所有 Edge Server 上使用相同的私密金鑰。
 
-  - 如果您要最大化音訊/視訊服務的執行時間，請檢閱實作低耦合的憑證需求 A / V Edge service 憑證 (也就是個別的 A / V Edge service 憑證從其他外部邊緣憑證用途)。 如需詳細資訊，請參閱[影響 Edge Server 規劃的 Lync Server 2013 中變更](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)、 [Lync Server 2013 中的 Edge Server 憑證的計劃](lync-server-2013-plan-for-edge-server-certificates.md)和[Lync Server 2013 中的預備 AV 與 OAuth 憑證使用-Roll 在 Set-cscertificate 中](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)。
+  - 如果您想要最大化 Audio/Video 服務的正常運作時間，請複查憑證需求，以實現與其他外部 Edge 憑證) 目的不同的另 A/V 一個 A/V Edge 服務憑證， (也就是另一個 Edge service 憑證。 如需詳細資訊，請參閱在 lync server 2013 中的 [變更會影響 Edge server 規劃](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)、 [在 lync server 2013 中規劃 edge server 憑證](lync-server-2013-plan-for-edge-server-certificates.md) ，以及在 [lync Server 2013 中使用-擲入 Set-CsCertificate 中的 OAuth 憑證](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)。
 
-  - 憑證的主體名稱是 Access Edge service 外部介面完整的網域名稱 (FQDN) 或硬體負載平衡器 VIP (例如，access.contoso.com)。 ). 主體名稱不能有萬用字元，它必須是明確的名稱。
+  - 憑證的主體名稱是 Access Edge service 外部介面的完整功能變數名稱 (FQDN) 或硬體負載平衡器 VIP (例如，access.contoso.com) 。 ). 主體名稱不能包含萬用字元，它必須是明確的名稱。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 中，這已不再是必要條件，但仍建議與 Office Communications Server 的相容性。
+    > 對於 Lync Server 2013，這已不再是必要的需求，但仍建議用於與 Office 通訊伺服器相容。
 
     
     </div>
 
-  - 主體替代名稱清單包含下列 Fqdn:
+  - 主體替代名稱清單包含下列的 Fqdn：
     
-      - Access Edge service 外部介面或硬體負載平衡器 VIP (例如 sip.contoso.com)。
+      - Access Edge service 外部介面或硬體負載平衡器 VIP (例如，sip.contoso.com) 。
         
         <div>
         
 
         > [!NOTE]  
-        > 即使憑證主體名稱相當於存取 Edge FQDN，主體替代名稱也必須包含存取 Edge FQDN 因為傳輸層安全性 (TLS) 會忽略主體名稱，並使用的主體替代名稱項目驗證。
+        > 雖然憑證主體名稱等於 access Edge FQDN，但主體替代名稱也必須包含 access Edge FQDN，因為傳輸層安全性 (TLS) 會忽略主體名稱，並使用主體替代名稱專案進行驗證。
 
         
         </div>
     
-      - Web 會議 Edge 外部介面或硬體負載平衡器 VIP (例如，webcon.contoso.com)。
+      - Web 會議 Edge 外部介面或硬體負載平衡器 VIP (例如，webcon.contoso.com) 。
     
-      - 如果您使用用戶端自動設定或同盟，也包含任何 SIP 網域 （例如 sip.contoso.com、 sip.fabrikam.com） 公司內使用的 Fqdn。
+      - 如果您使用的是用戶端自動設定或同盟，也請包含您公司內使用的任何 SIP 網域 Fqdn (例如，sip.contoso.com、sip.fabrikam.com) 。
     
-      - A / V Edge service 不會使用主體名稱或主體替代名稱項目。
+      - A/V Edge service 不使用主體名稱或主體替代名稱專案。
     
     <div>
     
 
     > [!NOTE]  
-    > 在主體替代名稱清單中 Fqdn 的順序不拘。
+    > 主體替代名稱清單中的 Fqdn 順序無關緊要。
 
     
     </div>
 
-如果您要部署多個、 負載平衡 Edge Server，在網站、 A / V 驗證服務的憑證安裝在每部 Edge Server 上必須從同一個 CA，且必須使用相同的私密金鑰。 請注意，憑證的私密金鑰必須可匯出私密金鑰，不論是否在一部 Edge Server 或多個 Edge Server 上使用。 它也必須可匯出如果您要求憑證從 Edge Server 以外的任何電腦。 因為 A / V 驗證服務不會使用主體名稱或主體替代名稱，您可以重複使用邊緣憑證，只要主體名稱與主體別名需求都符合適用於 access Edge 和 web 會議 Edge 的存取權和憑證的私密金鑰為可匯出。
+如果您要在網站上部署多個負載平衡 Edge server，則每台 Edge Server 上安裝的 A/V 驗證服務憑證必須來自同一個 CA，而且必須使用相同的私密金鑰。 請注意，不論該憑證是用於一部 Edge Server，還是在許多 Edge Server 上，其私密金鑰都必須可匯出。 如果您從 Edge Server 之外的任何電腦要求憑證，也必須可匯出。 因為 A/V 驗證服務不使用主體名稱或主體替代名稱，您可以重複使用 access Edge 憑證，只要訪問 Edge 和 web 會議 Edge 符合主體名稱和主體替代名稱的需求，即可匯出憑證的私密金鑰。
 
-用於 Edge 內部介面的私人 （或公用） 憑證的需求如下所示：
+Edge 內部介面所使用之私人 (或公開) 憑證的需求如下：
 
-  - 憑證可以由內部 CA 或認可的公用憑證 CA 發行。
+  - 憑證可以由內部 CA 或核准的公用憑證 CA 所發出。
 
-  - 憑證的主體名稱通常是 Edge 內部介面 FQDN 或硬體負載平衡器 VIP (例如，lsedge.contoso.com)。 不過，您可以使用萬用字元憑證上的內部邊緣。
+  - 憑證的主體名稱通常是 Edge 內部介面 FQDN 或硬體負載平衡器 VIP (例如，lsedge.contoso.com) 。 不過，您可以在 Edge internal 上使用萬用字元憑證。
 
-  - 需要沒有主體替代名稱清單。
+  - 不需要主體替代名稱清單。
 
-您的部署中的反向 proxy 服務要求：
+您的部署服務要求中的反向 proxy：
 
-  - 外部使用者存取會議的會議內容
+  - 外部使用者存取會議內容的會議
 
-  - 外部使用者存取展開並顯示通訊群組的成員
+  - 外部使用者存取可展開及顯示通訊群組的成員
 
-  - 可下載的檔案從通訊錄服務的外部使用者存取
+  - 外部使用者從通訊錄服務存取可下載的檔案
 
-  - Lync Web App 用戶端的外部使用者存取
+  - 對 Lync Web App 用戶端的外部使用者存取
 
-  - 電話撥入式會議設定網頁的外部使用者存取
+  - 外部使用者存取電話撥入式會議設定網頁
 
-  - 外部使用者存取位置資訊服務
+  - 存取位置資訊服務的外部使用者
 
   - 外部裝置存取裝置更新服務並取得更新
 
-反向 proxy 發佈的內部伺服器 Web 元件 Url。 Web 元件 Url 會定義 Director、 前端伺服器或前端集區上，為 [拓撲產生器中的**外部 web 服務**。
+反向 proxy 會將內部伺服器 Web 元件發佈 URLs。 Web 元件 URLs 會在 Director、前端伺服器或前端集區上定義為拓撲產生器中的 **外部 Web 服務** 。
 
-指派給反向 proxy 憑證的主體替代名稱欄位支援萬用字元項目。 如需如何設定反向 proxy 的憑證要求的詳細資訊，請參閱[要求並設定憑證以供您在 Lync Server 2013 中的反向 HTTP proxy](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md)。
+在指派給反向 proxy 之憑證的主體替代名稱欄位中，支援萬用字元專案。 如需如何設定反向 proxy 之憑證要求的詳細資訊，請參閱 [在 Lync Server 2013 中要求和設定反向 HTTP proxy 的憑證](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md)。
 
 <div>
 

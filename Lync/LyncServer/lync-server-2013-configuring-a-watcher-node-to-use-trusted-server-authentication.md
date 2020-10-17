@@ -1,5 +1,5 @@
 ---
-title: 設定監看員節點以使用信任的伺服器驗證
+title: 設定監視節點以使用受信任的伺服器驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8272dc0097205749ca3c0e5d613bc3da853fc7ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1478e2b2153c1b6834629ab41ccd6cde5b272430
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517700"
 ---
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>在 Lync Server 2013 中設定監視節點以使用受信任的伺服器驗證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>若要使用信任的伺服器驗證的 Lync Server 2013 中設定監看員節點
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42191976"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-22_
+_**主題上次修改日期：** 2012-10-22_
 
 如果您的監看員節點電腦位於周邊網路內，使用受信任的伺服器驗證可大幅減少管理負擔，僅需維護單一憑證即可，不必再維護許多使用者帳戶密碼。
 
@@ -45,13 +47,13 @@ _**主題上次修改日期：** 2012年-10-22_
 
 
 > [!NOTE]
-> 信任的應用程式是應用程式的指定受信任的狀態] 以執行 Lync Server 2013 的一部分，但不是可以是內建的組件的產品。 信任狀態表示每次執行應用程式時，其驗證不會受到質疑。
+> 信任的應用程式是一種具有「信任的狀態」的應用程式，可作為 Lync Server 2013 的一部分來執行，但這不是產品的內建部分。 信任狀態表示每次執行應用程式時，其驗證不會受到質疑。
 
 
 
 </div>
 
-若要建立受信任的應用程式集區，請開啟 Lync Server 2013 管理命令介面並執行如下的命令：
+若要建立信任的應用程式集區，請開啟 Lync Server 2013 管理命令介面，並執行類似以下的命令：
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012年-10-22_
 
 
 > [!NOTE]
-> 如需在上述命令中使用的參數的詳細資訊，在 Lync Server 管理命令介面提示字元處輸入下列命令：<BR>Get-Help New-CsTrustedApplicationPool -Full | more
+> 如需前述命令中所用參數的詳細資訊，請在 Lync Server 管理命令介面提示字元處，輸入下列命令：<BR>Get-Help New-CsTrustedApplicationPool -Full | more
 
 
 
@@ -75,7 +77,7 @@ _**主題上次修改日期：** 2012年-10-22_
 
 執行 Enable-CsTopology 後，建議重新啟動電腦。
 
-若要確認已建立新的受信任應用程式，在 Lync Server 管理命令介面提示字元處輸入下列命令：
+若要確認是否已建立新的受信任應用程式，請在 Lync Server 管理命令介面提示字元處輸入下列命令：
 
     Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 
@@ -83,13 +85,13 @@ _**主題上次修改日期：** 2012年-10-22_
 
 ## <a name="configuring-a-default-certificate-on-the-watcher-node"></a>在監看員節點上設定預設憑證
 
-每個監看員節點必須使用 Lync Server 部署精靈指派預設憑證。
+每個監看員節點都必須有使用 Lync Server 部署嚮導指派的預設憑證。
 
 **指派預設憑證**
 
-1.  按一下 [**開始]**、 [**所有程式]**、 [ **Lync Server**]，然後按一下**Lync Server 部署精靈**。
+1.  依序按一下 [ **開始**]、[ **所有程式**]、[ **lync server**]，然後按一下 [ **lync server 部署嚮導]**。
 
-2.  在 Lync Server 部署精靈中，按一下 [**安裝或更新 Lync Server 系統**，然後按一下 [**要求、 安裝或指派憑證**] 標題下的 [**執行**。
+2.  在 [Lync Server 部署嚮導] 中，按一下 [**安裝或更新 Lync Server 系統**]，然後按一下 [標題**要求、安裝或指派憑證**] 底下的 [**執行**]。
     
     <div>
     
@@ -112,13 +114,13 @@ _**主題上次修改日期：** 2012年-10-22_
 
 ## <a name="installing-and-configuring-a-watcher-node"></a>安裝與設定監看員節點
 
-您必須重新啟動監看員節點電腦，並設定憑證之後，您需要執行 Watchernode.msi 的檔案。 （您必須執行 Watchernode.msi 的電腦上安裝 Operations Manager 代理程式檔案和 Lync Server 2013 核心元件的位置）。
+重新開機監看員節點電腦及設定憑證之後，您必須執行 Watchernode.msi 的檔案。  (您必須在同時安裝 Operations Manager 代理程式檔案和 Lync Server 2013 核心元件的電腦上執行 Watchernode.msi。 ) 
 
 **安裝與設定監看員節點**
 
-1.  按一下 [**開始**，按一下 [**所有程式]**、 [ **Lync Server**，，然後按一下 [ **Lync Server 管理命令介面**來開啟 Lync Server 管理命令介面。
+1.  依序按一下 [ **開始**]、[ **所有程式**]、[ **lync server**]，然後按一下 [ **lync server 管理命令**介面]，以開啟 lync server 管理命令介面。
 
-2.  在 Lync Server 管理命令介面中，輸入下列命令，然後按 ENTER 鍵 （指定 Watchernode.msi 副本的實際路徑）：
+2.  在 Lync Server 管理命令介面中，輸入下列命令，然後按 ENTER (指定 Watchernode.msi) 副本的實際路徑：
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
@@ -133,7 +135,7 @@ _**主題上次修改日期：** 2012年-10-22_
 
 請注意，以上命令 Authentication=TrustedServer 的名稱/值對區分大小寫。必須確實鍵入顯示的內容。下列命令因未使用正確的大小寫字母而導致失敗：
 
-C:\\工具\\Watchernode.msi 驗證 = trustedserver
+C： \\ Tools \\Watchernode.msi authentication = trustedserver
 
 只有在周邊網路內的電腦上才能使用 TrustedServer 模式。在 TrustedServer 模式下執行監看員節點時，系統管理員便無須維護電腦的測試使用者密碼。
 

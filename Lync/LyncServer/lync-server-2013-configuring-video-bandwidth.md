@@ -12,20 +12,22 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8995f47ff1059921c324d71cbaca26fa47c50ca0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3e1c4b0dab165c43e873c49039896f0af80f7f3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195646"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516980"
 ---
+# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>在 Lync Server 2013 中設定影片頻寬
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>在 Lync Server 2013 中設定影片頻寬
+
 
 </div>
 
@@ -59,7 +61,7 @@ Lync Server 2013 包含數個設定，用來管理兩方通話和多方會議的
     
 
     > [!NOTE]  
-    > Lync 2013 端點的最大視頻網路頻寬是 8000 kbps 的主要影片及全景影片的 2500 kbps。 只有當接收或傳送多個視訊時，才會達到上述最大值。 如需詳細資訊，請參閱<A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 中媒體流量的網路頻寬需求</A>中的「媒體流量網路使用量」一節。 這一節列出所有支援的解析度的最大及一般視訊資料流頻寬。
+    > Lync 2013 端點的最大視頻網路頻寬是 8000 kbps 的主要影片及全景影片的 2500 kbps。 只有當接收或傳送多個視訊時，才會達到上述最大值。 如需詳細資訊，請參閱 <A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 中媒體流量的網路頻寬需求</A>中的「媒體流量網路使用量」一節。 這一節列出所有支援的解析度的最大及一般視訊資料流頻寬。
 
     
     </div>
@@ -72,7 +74,7 @@ Lync Server 2013 包含數個設定，用來管理兩方通話和多方會議的
     
 
     > [!NOTE]  
-    > 如需<STRONG>EnableMultiviewJoin</STRONG>設定的詳細資訊，請參閱<A href="lync-server-2013-configuring-gallery-view.md">在 Lync Server 2013 中設定圖庫 View</A>。
+    > 如需 <STRONG>EnableMultiviewJoin</STRONG> 設定的詳細資訊，請參閱 <A href="lync-server-2013-configuring-gallery-view.md">在 Lync Server 2013 中設定圖庫 View</A>。
 
     
     </div>
@@ -110,7 +112,7 @@ Lync Server 2013 包含數個設定，用來管理兩方通話和多方會議的
 
 ## <a name="to-modify-conferencing-policy-for-video-settings"></a>修改視訊設定的會議原則
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  在命令列上執行下列 Cmdlet 以編輯會議原則：
     
@@ -122,7 +124,7 @@ Lync Server 2013 包含數個設定，用來管理兩方通話和多方會議的
 
 ## <a name="to-modify-media-configuration-for-legacy-clients"></a>修改舊版用戶端的媒體組態
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  在命令列上執行下列 Cmdlet 以編輯媒體組態：
     

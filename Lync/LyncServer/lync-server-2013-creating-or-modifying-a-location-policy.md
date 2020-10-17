@@ -12,20 +12,22 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a2f2d5575bee6e6b29b6a5c289cfa589a33c411
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f87bf9aff433b70bc50b3fcff209ecd14ea268e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213199"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516780"
 ---
+# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改位置原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改位置原則
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 在 Lync Server 2013 中，您可以使用位置原則，套用與增強型 9-1-1 (E9-1-1) 功能及使用者或連絡人的位置設定相關的設定。 位置原則會判斷使用者是否已啟用 E9-1-1，如果是，則會決定緊急電話的行為。 例如，您可以使用位置原則來定義組成緊急電話的數字 (例如，在美國為 911)、是否應自動告知公司的安全部門，以及應如何路由傳送來電。
 
-您可以在 Lync Server 2013 [控制台] 中的 [**網路**設定] 群組設定位置原則。 從 Lync Server 控制台，您可以查看、建立、修改或刪除位置原則。 本節中的程序可用來建立或修改位置原則。 如需刪除位置原則的詳細資訊，請參閱[刪除位置原則中的 Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)。
+您可以在 Lync Server 2013 [控制台] 中的 [ **網路** 設定] 群組設定位置原則。 從 Lync Server 控制台，您可以查看、建立、修改或刪除位置原則。 本節中的程序可用來建立或修改位置原則。 如需刪除位置原則的詳細資訊，請參閱 [刪除位置原則中的 Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)。
 
 在 Lync Server 2013 中，您可以從位置資訊服務覆寫用戶端要求位置更新之間的預設時間長度。 預設值為 4 小時。 使用 **Set-CsLocationPolicy** Cmdlet 搭配 LocationRefreshInterval 參數可以覆寫預設值。
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中按一下 [網路設定]****，然後按一下 [位置原則]****。
 
@@ -69,7 +71,7 @@ _**主題上次修改日期：** 2012-11-01_
         
           - **不需要**    不會提示使用者輸入位置。 當通話沒有地點資訊時，緊急服務提供者會接聽來電，並要求地點。
         
-          - **免責聲明**    此選項與**必要條件**相同，只是使用者無法在未輸入位置資訊的情況下關閉提示。 使用者仍可完成緊急通話，但沒有輸入資訊，可以完成其他電話。 此外，還會向使用者顯示免責聲明文字，以提醒他們拒絕輸入位置資訊的後果。 若要設定免責聲明文字，您必須使用 Lync Server 管理命令介面來執行**CsLocationPolicy** Cmdlet，或使用 EnhancedEmergencyServiceDisclaimer 參數**New-CsLocationPolicy** Cmdlet。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)或[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) 。
+          - **免責聲明**    此選項與**必要條件**相同，只是使用者無法在未輸入位置資訊的情況下關閉提示。 使用者仍可完成緊急通話，但沒有輸入資訊，可以完成其他電話。 此外，還會向使用者顯示免責聲明文字，以提醒他們拒絕輸入位置資訊的後果。 若要設定免責聲明文字，您必須使用 Lync Server 管理命令介面來執行 **CsLocationPolicy** Cmdlet，或使用 EnhancedEmergencyServiceDisclaimer 參數 **New-CsLocationPolicy** Cmdlet。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 或 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) 。
             
             <div>
             
@@ -92,14 +94,14 @@ _**主題上次修改日期：** 2012-11-01_
         
 
         > [!IMPORTANT]  
-        > 確保指定的撥號遮罩值與通話保留範圍中的數字不同。 通話保留路由優先於緊急撥號字串轉換。 若要檢視現有的通話駐留範圍，請按一下左導覽列中的 [語音功能]<STRONG></STRONG>，然後按一下 [通話駐留]<STRONG></STRONG>。 如需詳細資訊，請參閱<A href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">在 Lync Server 2013 中設定休止通話的電話號碼分機</A>。
+        > 確保指定的撥號遮罩值與通話保留範圍中的數字不同。 通話保留路由優先於緊急撥號字串轉換。 若要檢視現有的通話駐留範圍，請按一下左導覽列中的 [語音功能]<STRONG></STRONG>，然後按一下 [通話駐留]<STRONG></STRONG>。 如需詳細資訊，請參閱 <A href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">在 Lync Server 2013 中設定休止通話的電話號碼分機</A>。
 
         
         </div>
     
       - **通知 URI**    進行緊急通話時， (URIs) 的一或多個 SIP 統一資源識別項。 例如，每次有人撥打緊急電話時，就會透過立即訊息通知公司的安全部門。 如果可以使用來電者的位置，通知中會包含該位置的資訊。 可以使用逗號分隔的清單包含多個 SIP URI。 例如，"sip： security@litwareinc .com"，"sip： kmyer@litwareinc .com"。 支援通訊群組清單。 字串長度必須介於1到256個字元之間，且必須以前置詞 "sip：" 開頭。 在您按一下 [通知 URI] 欄位之前，會顯示範例。
     
-      - **會議 URI**    在此案例中，將警衛至所撥打之任何緊急通話的協力廠商的 SIP URI （此為電話號碼）。 例如，公司的安全性辦公室可在緊急通話時接聽來電，並根據**會議模式**欄位) 中提供的值接聽或參與通話 (。 字串長度必須為 1 到 256 字元，且開頭必須為首碼 sip:。 會顯示範例，直到您在此欄位內按一下。
+      - **會議 URI**    在此案例中，將警衛至所撥打之任何緊急通話的協力廠商的 SIP URI （此為電話號碼）。 例如，公司的安全性辦公室可在緊急通話時接聽來電，並根據 **會議模式** 欄位) 中提供的值接聽或參與通話 (。 字串長度必須為 1 到 256 字元，且開頭必須為首碼 sip:。 會顯示範例，直到您在此欄位內按一下。
     
       - **會議模式**    [！注意] 如果您在 [**會議 URI** ] 欄位中指定值，則**會議模式**會決定協力廠商是否可以參與通話或只能接聽。 指定下列其中一個選項：
         
@@ -126,7 +128,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中按一下 **[網路設定]**，然後按一下 **[位置原則]**。
 

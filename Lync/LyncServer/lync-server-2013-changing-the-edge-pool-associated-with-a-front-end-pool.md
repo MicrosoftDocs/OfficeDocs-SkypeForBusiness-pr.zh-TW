@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 變更與前端集區相關聯的 Edge 集區
+title: Lync Server 2013：變更與前端集區相關聯的 Edge 集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73d28a6641df35ac1de29fb1f6668e628e8e0ec9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 32404f911766da3ea0f47b74011b4806edbca231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191336"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517880"
 ---
+# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a>在 Lync Server 2013 中變更與前端集區相關聯的 Edge 集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a>變更與 Lync Server 2013 中的前端集區相關聯的 Edge 集區
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42191336"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
 如果 Edge 集區失效但相同網站上的前端集區仍在執行，您將需要設定前端集區來使用其他網站上的 Edge 集區，直到失敗的 Edge 集區還原為止。
 
@@ -58,7 +60,7 @@ _**主題上次修改日期：** 2012年-09-21_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的 edge Server 災害復原](lync-server-2013-edge-server-disaster-recovery.md)  
+[Lync Server 2013 中的 Edge Server 災難性修復](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

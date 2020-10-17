@@ -12,20 +12,22 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c534aa912e2564f8a8934aafa75bc52b76600795
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3eecf3d55ba3bb8e8629d41a9a924c65ac7a4c0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516130"
 ---
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Lync Server 2013 中的行動功能與功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Lync Server 2013 中的行動功能與功能
+
 
 </div>
 
@@ -99,7 +101,7 @@ Apple iPad 使用者將可存取增強型功能。 使用音訊來電加入會�
 
 
 > [!NOTE]  
-> 並非所有功能都會在所有行動裝置上以完全相同的方式運作。 如需行動裝置上支援之功能的詳細資訊，請參閱 at Mobile Client Comparison Tables <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A> 。 如需支援的裝置和作業系統的詳細資訊，請參閱<A href="lync-server-2013-planning-for-mobile-clients.md">規劃 Lync Server 2013 中行動用戶端</A>的需求主題。
+> 並非所有功能都會在所有行動裝置上以完全相同的方式運作。 如需行動裝置上支援之功能的詳細資訊，請參閱 at Mobile Client Comparison Tables <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A> 。 如需支援的裝置和作業系統的詳細資訊，請參閱 <A href="lync-server-2013-planning-for-mobile-clients.md">規劃 Lync Server 2013 中行動用戶端</A>的需求主題。
 
 
 

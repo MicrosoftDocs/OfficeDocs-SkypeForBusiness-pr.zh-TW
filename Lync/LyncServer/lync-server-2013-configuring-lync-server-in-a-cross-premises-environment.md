@@ -12,20 +12,22 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6f6399185e045afb56231550abc33ab514db0d04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221727"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517380"
 ---
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>在跨部署環境中設定 Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>在跨部署環境中設定 Microsoft Lync Server 2013
+
 
 </div>
 
@@ -95,7 +97,7 @@ _**主題上次修改日期：** 2017-02-21_
 
 在您設定 Microsoft 365，並在您建立了 Lync Server 2013 和 Exchange 2013 的 Microsoft 365 或 Office 365 服務主體之後，您將需要使用這些服務主體註冊您的認證。 為了完成這項作業，您首先必須取得副檔名為 .CER 的 X.509 Base64 檔案。 然後將此憑證套用至 Microsoft 365 或 Office 365 服務主體。
 
-當您取得 x.509 憑證之後，請啟動 Microsoft Online Services 模組（按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **microsoft online 服務**]，然後按一下 [ **Windows PowerShell 的 microsoft online services 模組**]）。 在 [服務] 模組開啟之後，請輸入下列命令，以匯入 Microsoft Online Windows PowerShell 模組，其中包含可用於管理服務主體的 Cmdlet：
+當您取得 x.509 憑證之後，請啟動 Microsoft Online Services 模組 (依序按一下 [ **開始**]、[ **所有程式**]、[ **microsoft online 服務**]，然後按一下 [ **Windows PowerShell) 的 microsoft online services 模組** ]。 在 [服務] 模組開啟之後，請輸入下列命令，以匯入 Microsoft Online Windows PowerShell 模組，其中包含可用於管理服務主體的 Cmdlet：
 
     Import-Module MSOnlineExtended
 
@@ -127,7 +129,7 @@ _**主題上次修改日期：** 2017-02-21_
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-在匯入並編碼憑證之後，您可以將憑證指派給您的 Microsoft 365 服務主體。 若要執行該動作，首先，請使用 Get-MsolServicePrincipal 擷取 Lync Server 與 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值；AppPrincipalId 屬性值將會用來識別指派憑證的服務主體。 使用 Lync Server 2013 的 AppPrincipalId 屬性值手頭，使用下列命令將憑證指派給 Microsoft 365 版本的 Lync Server （StartDate 和 EndDate 屬性應對應至憑證的有效期限）：
+在匯入並編碼憑證之後，您可以將憑證指派給您的 Microsoft 365 服務主體。 若要執行該動作，首先，請使用 Get-MsolServicePrincipal 擷取 Lync Server 與 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值；AppPrincipalId 屬性值將會用來識別指派憑證的服務主體。 使用 Lync Server 2013 的 AppPrincipalId 屬性值，使用下列命令將憑證指派給 Microsoft 365 版本的 Lync Server (StartDate 及 EndDate 屬性應該對應至憑證) 的有效期限：
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 

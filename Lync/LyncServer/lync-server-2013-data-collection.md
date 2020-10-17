@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Data collection'
+title: Lync Server 2013：資料收集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e6ef9454912b2d421302d7e696350a6f83bc9fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01e6c75a4a557ff44d626f006210bec3a3c38472
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516570"
 ---
+# <a name="data-collection-in-lync-server-2013"></a>Lync Server 2013 中的資料收集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="data-collection-in-lync-server-2013"></a>Lync Server 2013 中的資料收集
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42206949"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
-在 Microsoft Lync Server 2013 通訊軟體，您可以執行 Microsoft Lync Server 2013 規劃工具沒有記載您現有和建議的 IP 位址和 Edge Server 的完整網域名稱 (Fqdn)，但很明顯地較難執行動作這不會導致組態錯誤。 例如，如果共存所需的一段時間，常見的錯誤是從現有 Edge 部署 Lync Server 2013 Edge 部署重複使用 Fqdn。 透過具有現有和建議的 IP 位址和 Fqdn 試算表、 表格或其他 visual 表單以撰寫向下，您協助防止在安裝期間安裝問題。
+在 Microsoft Lync Server 2013 通訊軟體中，您可以執行 Microsoft Lync Server 2013、規劃工具，但不會將現有和擬議的 IP 位址及 Edge Server 的完整功能變數名稱記錄 (Fqdn) 中，但這樣做非常難，但不會造成設定錯誤。 例如，如果在一段時間內需要共存，則常見的錯誤是針對您的 Lync Server 2013 Edge 部署重用現有 Edge 部署中的 Fqdn。 將現有和擬議的 IP 位址和 Fqdn 記入試算表、表格或其他視覺表單中，可協助避免安裝時出現安裝問題。
 
 <div>
 
 
 > [!WARNING]  
-> 如果您已使用舊版的規劃工具，您可能是使用工具來建立您的拓撲和匯出拓撲文件中的使用中拓撲產生器來發行拓撲。 若要匯出之拓撲的功能已移除規劃工具。 使用舊版的規劃工具來建立拓撲文件以供 Lync Server 2013 強烈建議不要，並將會產生無法預期的結果。
+> 如果您已使用舊版本的規劃工具，您可能已使用工具來建立拓撲，並匯出拓撲檔，以供拓撲產生器用來發行您的拓撲。 已從規劃工具中移除匯出拓撲的功能。 強烈建議您不要使用舊版本的規劃工具建立 Lync Server 2013 的拓撲檔，否則會產生意外的結果。
 
 
 
 </div>
 
-因此，建議的方法是使用下列的資料收集範本，以對應至您的 Edge 拓撲，以收集各種 FQDN 和 IP 位址，您必須將輸入規劃工具。 所記載的目前和建議的組態，您可以為您的實際執行環境中適當的內容放置值。 和，強制您考慮如何設定共存和功能，例如簡單 Url、 檔案共用及負載平衡。
+因此，建議的方法是使用下列對應至 Edge 拓撲的資料收集範本，以收集您需要在規劃工具中輸入的各種 FQDN 和 IP 位址。 透過記錄目前和擬議中的設定，您可以將值放在實際執行環境的適當內容中。 而且，您會被迫考慮如何設定共存和功能，例如簡易 URLs、檔案共用及負載平衡。
 
-若要順利部署 Microsoft Lync Server 2013，您需要了解依賴個別元件與之間的互動。 藉由收集資料從您現有的網路和伺服器基礎結構，並套用以下各節中的規劃指引，您可以將 Lync Server 2013 Edge Server 元件整合到您的基礎結構。
+若要順利部署 Microsoft Lync Server 2013，您需要瞭解個別元件的互動和依賴性。 透過收集現有網路和伺服器基礎結構中的資料，並套用這些區段中的計畫指導方針，您可以將 Lync Server 2013 Edge Server 元件整合至您的基礎結構。
 
-引進中[選擇 [Lync Server 2013 中的拓撲](lync-server-2013-choosing-a-topology.md)，有兩個變化，五個可能的部署案例總計與三個主要架構。 這些案例的其中一個會收集您資料的起始點。 IP 位址、 伺服器名稱和網域名稱會與一致相符的憑證、 防火牆和 DNS 圖表詳細說明，完整的規劃解決方案所需的資訊的範例。 圖表和填寫您所需的憑證、 DNS 和防火牆值是特別重要跨小組通訊中由團隊以外的小組受管理的憑證授權單位、 防火牆設定資料庫和 DNS 管理，計劃部署。 圖表提供所需的元件，可用來進行通訊的跨小組共同作業這些需求的資訊。
+在 [Lync Server 2013 中選擇拓撲](lync-server-2013-choosing-a-topology.md)時所引進，有三個主要架構有兩個變化，共五種可能的部署案例。 其中一種案例將會是您的資料收集的起始點。 IP 位址、伺服器名稱和功能變數名稱是相符的憑證、防火牆和 DNS 圖表的範例，可詳述完整規劃解決方案所需的資訊。 圖表和填入您所需的憑證中，DNS 及防火牆值對於跨小組通訊尤其重要，在這種情況下，在跨小組通訊中管理憑證授權單位單位，防火牆設定和 DNS 是由計畫部署的小組以外的小組所管理。 這兩個圖表提供必要元件的資訊，這些元件可用於通告跨小組共同作業的需求。
 
-提供的圖表是刻意通用的但是允許的集合，其中網路可能需要進行通訊的需求跨小組案例中的所有相關資料、 防火牆、 憑證建立和管理伺服器部署和伺服器管理是由不同的群組處理。 需要的網路、 防火牆、 連接埠和通訊協定、 憑證和伺服器組態的必要詳細資料時，重要的 Lync Server 部署正在進行中。
+所提供的圖表是特意通用的，但是允許所有相關資料的集合，這些資料對於跨小組案例中的需求通訊是必要的，在此案例中，網路、防火牆、憑證的建立和管理、伺服器部署和伺服器管理都是由不同的群組來處理。 在進行 Lync Server 的部署時，有必要的網路、防火牆、埠和通訊協定、憑證和伺服器設定的詳細資料，都是非常重要的。
 
-**Edge Server 及 Edge 集區**
+**Edge Server 和 Edge 集區**
 
 ![7624717a-ce99-4ae8-a929-2c4d74a2e47d](images/Gg399008.7624717a-ce99-4ae8-a929-2c4d74a2e47d(OCS.15).jpg "7624717a-ce99-4ae8-a929-2c4d74a2e47d")
 

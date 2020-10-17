@@ -1,5 +1,5 @@
 ---
-title: 回應群組所使用的 Lync Server 2013： 元件
+title: Lync Server 2013：回應群組使用的元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bfefeabc1c9f64a4f1bf9fa794b269fbdcb0650
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b59f96175925c427f77880012f804daf20bf751
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213169"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517770"
 ---
+# <a name="components-used-by-response-group-in-lync-server-2013"></a>Lync Server 2013 中回應群組使用的元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-response-group-in-lync-server-2013"></a>Lync Server 2013 中的回應群組所使用的元件
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "42213169"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-11_
+_**主題上次修改日期：** 2012-09-11_
 
-當您部署企業語音時，會自動啟用回應群組應用程式。 本節說明支援的回應群組應用程式的元件。
+當您部署企業語音時，回應群組應用程式會自動啟用。 本節說明支援回應群組應用程式的元件。
 
 <div>
 
 ## <a name="response-group-components"></a>回應群組元件
 
-回應群組應用程式支援下列的 Microsoft Lync Server 2013 元件：
+下列 Microsoft Lync Server 2013 元件支援回應群組應用程式：
 
-  - **應用程式服務**   應用程式服務提供的平台的部署，裝載，及管理整合通訊應用程式，例如回應群組。 在每個前端伺服器上的前端集區中，每個 Standard Edition server 上，會自動安裝的應用程式服務。
+  - **應用程式服務**    Application service 提供一個平臺，用以部署、裝載和管理整合通訊應用程式，例如回應群組。 應用程式服務會自動安裝在前端集區和每個 Standard Edition server 上的每一部前端伺服器上。
 
-  - **回應群組應用程式**   回應群組應用程式是下列其中一個裝載的應用程式服務的整合的通訊應用程式。 自動部署回應群組時，它是包含。 回應群組應用程式的路由和佇列的來電給代理群組。
+  - **回應群組應用程式**    回應群組應用程式是由應用程式服務主控的整合通訊應用程式之一。 當您部署回應群組時，會自動包含它。 回應群組應用程式會將傳入的呼叫路由傳送至代理群組。
 
-  - **語言套件**   語言套件，才能支援文字轉語音和語音辨識。 在您設定訊息 (如歡迎訊息與其他提示) 以及互動式語音回應 (IVR) 的問題與回答時，都會用到這些語音技術。 依預設，26 支援部署 Lync Server 2013 安裝套件的語言。
+  - **語言套件**    需要有語言套件，才能支援文字語音轉換和語音辨識。 在您設定訊息 (如歡迎訊息與其他提示) 以及互動式語音回應 (IVR) 的問題與回答時，都會用到這些語音技術。 根據預設，當您部署 Lync Server 2013 時，會安裝26個支援的語言套件。
 
-  - **音訊檔案**   音訊檔可用於訊息和音樂。
+  - **音訊檔**    音訊檔案用於郵件和等候音樂。
 
-  - **檔案存放區**   回應群組使用的檔案存放區儲存音訊檔案。 多個回應群組集區可以使用相同的檔案存放區的執行個體。
+  - **檔存放區**    回應群組會使用檔案存放區來儲存音訊檔。 多個回應群組集區可以使用相同的檔案存放區實例。
 
-  - **回應群組組態工具**   回應群組組態工具是用來建立和設定回應群組的 web 式工具。 當您安裝 Web 服務包含回應群組組態工具。
+  - **回應群組設定工具**    回應群組設定工具是用來建立和設定回應群組的 web 式工具。 當您安裝 Web 服務時，會包含回應群組設定工具。
 
-  - **Microsoft Lync Server 2013 控制台**   您可以使用 Lync Server 控制台來安裝及設定代理群組以及回應群組的佇列。
+  - **Microsoft Lync Server 2013 控制台**    您可以使用 Lync Server 控制台來設定和設定回應群組的代理人群組和佇列。
 
-  - **Lync Server 管理命令介面**   可以使用 Lync Server 管理命令介面 cmdlet 來設定所有回應群組設定。
+  - **Lync Server 管理命令**     介面您可以使用 Lync Server 管理命令介面 Cmdlet 來設定所有回應群組設定。
 
-  - **Microsoft Lync 2013**   正式代理 （給需要登入群組他們可以接受來電的群組之前） 使用 Lync 2013 登入和登出群組。 如果專員群組設定為正式代理程式時，代理程式按一下 [Lync 2013 開啟 Internet Explorer，並顯示出群組簽章的網頁主控台中的功能表項目。
+  - **Microsoft Lync 2013**    正式代理 (代理程式必須先登入群組，才可接受群組的呼叫) 使用 Lync 2013 登入和登出群組。 如果代理群組是針對正式代理程式設定，則代理程式會按一下 Lync 2013 中的功能表項目，以開啟 Internet Explorer，並顯示網頁主控台以供登入和登出群組。
 
-  - **Web 服務**   Web 服務所需的回應群組組態工具、 代理的登入與登出主控台、 Lync Server Control Panel，以及回應群組用戶端 web 服務。
+  - **Web 服務**    回應群組設定工具、代理程式的登入和登出主控台、Lync Server 控制台及回應群組用戶端 web 服務是必要的 web 服務。
 
-  - **回應群組用戶端 Web 服務**   回應群組應用程式提供用戶端 web 服務、 協力廠商應用程式可以用來擷取代理程式、 代理程式群組成員資格、 代理程式登入狀態、 群組、 通話狀態及支援匿名通話群組的相關資訊。 Lync 2013 和 Lync 2010 Attendant 可用於回應群組用戶端 Web 服務擷取的回應群組代理程式可以用來進行匿名呼叫清單。 用戶端 Web 服務會在您安裝 Web 服務時納入。
+  - **回應群組用戶端 Web 服務**    回應群組應用程式提供用戶端 web 服務，可供協力廠商應用程式使用，以取得代理程式、代理群組成員資格、代理登入狀態、群組的通話狀態，以及支援匿名呼叫的群組的相關資訊。 Lync 2013 和 Lync 2010 語音應答使用回應群組用戶端 Web 服務，以取得代理人可用於進行匿名呼叫的回應群組清單。 用戶端 Web 服務會在您安裝 Web 服務時納入。
 
 </div>
 

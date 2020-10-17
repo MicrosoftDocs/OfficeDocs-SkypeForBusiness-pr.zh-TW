@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定視訊範例案例
+title: Lync Server 2013：設定影片範例案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 128703a39563124f6abfc4ae44143d274fd3a7c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf9570f3df344c26da3296904a8394f59f8a907d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195636"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516970"
 ---
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>設定 Lync Server 2013 的影片範例案例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Lync Server 2013 設定視訊範例案例
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42195636"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與圖庫檢視視訊。 根據客戶資料的度量單位顯示一般的視訊頻寬增加僅稍微相較於 Lync 2010，但最大視訊資料流頻寬已經增加由於完整 HD 支援 （如需詳細資訊，請參閱中[的 Lync Server 2013 中的媒體流量網路頻寬需求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)的 「 媒體流量網路使用率 」 一節）。 因此，系統管理員可能會想要限制特定使用者 （例如中具有較少的網路容量的分公司的使用者） 的視訊頻寬及協助確保最佳視訊品質的其他使用者 （例如主管）。
+Lync 2013 新增影片功能以支援 1920 x 1080 完整高清晰度 (HD) 影片和圖庫 View 影片。 以客戶資料為基礎的度量顯示一般的影片流量只會稍微增加至 Lync 2010，但是影片的最大頻寬已增加由於完整 HD 支援 (如需詳細資訊，請參閱 [Lync Server 2013) 中媒體流量需求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md) 的「媒體流量網路使用量」一節。 因此，系統管理員可能會想要限制某些使用者 (的影片頻寬，例如分支辦公室中具有較少網路容量的使用者) 並協助確保其他 (使用者（例如「行政人員) ）的最佳顯示品質。
 
-下表提供建議設定的清單設定不同的網路容量的影片。 這些設定會傳送及接收較高 （請參閱右方的欄） 的解析度的視訊限制某些使用者的案例。 最小的設定會導致無法使用的圖庫影片，由於低的最大值會收到的網路頻寬。
+下表提供設定不同網路容量影片的建議設定清單。 這些設定會限制部分使用者案例傳送和接收較高解析度的影片 (請參閱最右邊的欄) 。 最小設定會導致圖庫影片無法使用，原因是低的接收網路頻寬上限。
 
-### <a name="recommended-video-settings"></a>建議的視訊設定
+### <a name="recommended-video-settings"></a>建議的影片設定
 
 <table style="width:100%;">
 <colgroup>
@@ -59,7 +61,7 @@ Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與
 <th>EnableMultiViewJoin</th>
 <th>VideoBitRateKB</th>
 <th>TotalReceiveVideoBitRateKB</th>
-<th>預期的品質良好視訊解析度的視訊</th>
+<th>預期的影片解析度以取得優質影片</th>
 </tr>
 </thead>
 <tbody>
@@ -69,8 +71,8 @@ Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與
 <td><p>True</p></td>
 <td><p>8000</p></td>
 <td><p>8000</p></td>
-<td><p>若要對等： 最 1920 x 1080 的視訊解析度</p>
-<p>圖庫檢視： 最多兩個 1920 x 1080 的視訊或多個較小解析度的視訊</p></td>
+<td><p>對等：最高 1920 x 1080 影片解析度</p>
+<p>圖庫 View：最多 2 1920 x 1080 個影片或多個較小的解析度影片</p></td>
 </tr>
 <tr class="even">
 <td><p>良好</p></td>
@@ -78,8 +80,8 @@ Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與
 <td><p>True</p></td>
 <td><p>2500</p></td>
 <td><p>2500</p></td>
-<td><p>若要對等： 最高 1280 x 720 的視訊解析度</p>
-<p>圖庫檢視： 最多五個 640 x 360 解析度的視訊</p></td>
+<td><p>對等：最高 1280 x 720 影片解析度</p>
+<p>圖庫 View：最多 5 640 x 360 解析度的視頻</p></td>
 </tr>
 <tr class="odd">
 <td><p>中</p></td>
@@ -87,27 +89,27 @@ Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與
 <td><p>True</p></td>
 <td><p>1000</p></td>
 <td><p>1000</p></td>
-<td><p>若要對等： 最高 960 x 540 的視訊解析度</p>
-<p>圖庫檢視： 最多五個 424 x 240 解析度的視訊</p></td>
+<td><p>對等：最高 960 x 540 影片解析度</p>
+<p>圖庫 View：最多 5 424 x 240 解析度的視頻</p></td>
 </tr>
 <tr class="even">
 <td><p>最小值</p></td>
-<td><p>True</p></td>
+<td><p>是</p></td>
 <td><p>False</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>
-<td><p>若要對等： 最高 424 x 240 的視訊解析度</p>
-<p>圖庫檢視： 無法使用</p></td>
+<td><p>對等：最高 424 x 240 影片解析度</p>
+<p>圖庫 View：無法使用</p></td>
 </tr>
 </tbody>
 </table>
 
 
-您可以使用上表中的資訊來部署新的 HD 視訊與圖庫檢視 」 視訊會議功能，部分使用者在您組織中，同時允許其他人的不同的視訊解析度。
+您可以使用上表中的資訊，針對組織中的某些使用者部署新的 HD 影片和畫廊查看影片功能，同時允許其他人使用不同的影片解析度。
 
-在下列範例中，系統管理員可用的最高視訊品質新視訊功能回復才能主管。 低網路容量遠端分公司中的員工，就會部署只從上表的最小設定。 其他所有員工，就會部署上述表格中的 「 良好 」 設定。
+在下列範例中，系統管理員只會以最高的視頻品質來推出新的影片功能，僅供主管人員使用。 對於位於網路容量低的遠端分支辦公室員工，只會部署前述表格的最小設定。 對於所有其他員工，會部署上表中的「正確」設定。
 
-若要推行至高階主管的新功能，系統管理員會建立名為 ExecutiveVideo 會議原則。 此會議原則具有下列設定：
+若要將新功能推廣至主管，系統管理員會建立名為 ExecutiveVideo 的會議原則。 此會議原則具有下列設定：
 
   - VideoBitRateKB 設定為 8000 Kbps
 
@@ -117,7 +119,7 @@ Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與
 
   - EnableMultiviewJoin 設定為 True
 
-在分公司員工，系統管理員會建立名為 BranchOfficeVideo 會議原則。 此會議原則具有下列設定：
+針對分公司中的員工，系統管理員會建立名為 BranchOfficeVideo 的會議原則。 此會議原則具有下列設定：
 
   - VideoBitRateKB 設定為 350 Kbps
 
@@ -127,7 +129,7 @@ Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與
 
   - EnableMultiviewJoin 設定為 False
 
-其他所有員工，系統管理員會建立名為 StandardVideo 會議原則。 此會議原則具有下列設定：
+對於所有其他員工，系統管理員會建立名為 StandardVideo 的會議原則。 此會議原則具有下列設定：
 
   - VideoBitRateKB 設定為 2500 Kbps
 
@@ -137,23 +139,23 @@ Lync 2013 新增視訊功能以支援 1920 x 1080 全彩高畫質 (HD) 視訊與
 
   - EnableMultiviewJoin 設定為 True
 
-系統管理員會將會議原則給使用者，如下所示：
+管理員會將會議原則指派給使用者，如下所示：
 
-  - 將 ExecutiveVideo 會議原則指派給高階主管。
+  - ExecutiveVideo 會議原則指派給主管人員。
 
-  - 將 BranchOfficeVideo 會議原則指派給分公司中的所有員工。
+  - BranchOfficeVideo 會議原則會指派給分支機搆中的所有員工。
 
-  - 將 StandardVideo 會議原則指派給所有其他員工。
+  - StandardVideo 會議原則會指派給所有其他員工。
 
-這些會議原則指派產生下列使用者體驗：
+這些會議原則指派會導致下列使用者體驗：
 
-  - 任何使用者召集的所有會議都支援圖庫檢視，但分公司員工無法體驗圖庫檢視。
+  - 所有使用者支援函式庫視圖所組織的所有會議，但分支機搆中的員工無法體驗圖庫 View。
 
-  - 針對任何雙方或多方會議，主管可以傳送 1920 x 1080 全彩 HD 視訊，如果其硬體與網路連結支援，而且可接收 1920 x 1080 全 HD 視訊其中其他參與者用戶端支援。
+  - 對於任何雙方或多方會議，主管可以傳送 1920 x 1080 完整 HD 影片（如果其硬體和網路連結支援），而且可以接收其他參與者用戶端支援的 1920 x 1080 完整 HD 影片。
 
-  - 非高階主管的員工體驗的解析度低於高階主管在雙方或多方會議，但仍屬良好解析度。
+  - 非執行官員的員工體驗的解決方案低於雙方或多方會議中的主管，但仍然可獲得良好的解決方法。
 
-  - 在分公司員工會良好視訊品質在雙方通話時取得 Lync 顯示預設的視訊視窗大小;不過，如果 Lync 視窗最大化至全螢幕，將不會增加的視訊解析度。 多方會議，在分公司員工將會看到只能有一個作用中的影片。
+  - 當 Lync 顯示預設的影片視窗大小時，位於分支辦公室的員工會在兩方通話中取得良好的視頻品質;不過，如果 Lync 視窗最大化為全螢幕，影片解析度將不會增加。 對於多方會議，分支辦公室中的員工只會看到一個使用中影片。
 
 </div>
 

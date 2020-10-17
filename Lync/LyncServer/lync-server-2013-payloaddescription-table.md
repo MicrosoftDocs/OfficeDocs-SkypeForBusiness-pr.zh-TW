@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: PayloadDescription 表格'
+title: Lync Server 2013： PayloadDescription 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5be1cf7f086e6466176071f6ec061fe225a0250d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b0dfab1a848e711a5010400f323d9caef189266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515980"
 ---
+# <a name="payloaddescription-table-in-lync-server-2013"></a>Lync Server 2013 中的 PayloadDescription 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="payloaddescription-table-in-lync-server-2013"></a>Lync Server 2013 中為 PayloadDescription table
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42215769"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-: PayloadDescription 表格是一種支援資料表。 每筆記錄代表一個轉碼器，使用音訊或視訊工作階段中。
+PayloadDescription 表格是支援的表格。 每筆記錄代表一個編解碼器，在音訊或視頻會話中使用。
 
 
 <table>
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012年-10-02_
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -60,13 +62,13 @@ _**主題上次修改日期：** 2012年-10-02_
 <td><p><strong>PayloadDescriptionKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>用於識別轉碼器的唯一號碼。</p></td>
+<td><p>識別編解碼器的唯一號碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>: PayloadDescription</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>PayloadDescription</strong></p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p>Unique</p></td>
-<td><p>轉碼器名稱。</p></td>
+<td><p>編解碼器名稱。</p></td>
 </tr>
 </tbody>
 </table>

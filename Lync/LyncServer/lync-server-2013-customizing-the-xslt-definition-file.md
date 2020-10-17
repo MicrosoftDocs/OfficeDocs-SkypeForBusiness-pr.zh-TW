@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 自訂 XSLT 定義檔
+title: Lync Server 2013：自訂 XSLT 定義檔案
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516630"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>在 Lync Server 2013 中自訂 XSLT 定義檔案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>自訂 Lync Server 2013 中的 XSLT 定義檔
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42191696"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-09-11_
+_**主題上次修改日期：** 2014-09-11_
 
-規範服務記錄及封存與每個 Lync Server 2013，Persistent Chat Server 交談，包括參與者相關的資料：
+規範服務會記錄和封存與每個 Lync Server 2013 和 Persistent Chat Server 交談相關的資料，包括參與者：
 
-  - 聯結常設聊天室會議室
+  - 加入 Persistent 聊天室
 
   - 離開聊天室
 
   - 張貼訊息
 
-  - 檢視聊天歷程記錄
+  - 查看聊天記錄
 
   - 上傳檔案
 
@@ -86,7 +88,7 @@ Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type�
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-下表描述訊息屬性 Type、 Content 及 id。
+下表說明郵件屬性類型、內容及識別碼。
 
 ### <a name="messages-element-attributes"></a>Messages 元素屬性
 
@@ -105,7 +107,7 @@ Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Type</p></td>
+<td><p>類型</p></td>
 <td><p>指定訊息類型。訊息類型描述在「訊息元素訊息類型」表格中。</p></td>
 <td><p>必要</p></td>
 </tr>
@@ -182,8 +184,8 @@ Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type�
 </colgroup>
 <thead>
 <tr class="header">
-<th>如果郵件類型</th>
-<th>說明</th>
+<th>郵件類型</th>
+<th>描述</th>
 <th>程式碼範例</th>
 </tr>
 </thead>
@@ -213,7 +215,7 @@ Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type�
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>討論串</p></td>
+<td><p>Backchat</p></td>
 <td><p>使用者要求聊天歷程記錄中的內容。</p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -242,7 +244,7 @@ Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type�
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>預設常設聊天輸出 XSD 及 XSL 轉換範例
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>預設持續性聊天輸出 XSD 和範例 XSL 轉換
 
 下列程式碼範例包含規範伺服器中的預設輸出。
 

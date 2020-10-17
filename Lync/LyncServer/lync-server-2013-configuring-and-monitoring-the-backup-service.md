@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定和監控備份服務
+title: Lync Server 2013：設定及監視備份服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a14e7a451b6d28df2663498e64cf2fb85c818352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b3df8f2208566ed89feda0a06c4cce8f699d130d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207559"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517560"
 ---
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>在 Lync Server 2013 中設定及監視備份服務
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>設定和監控 Lync Server 2013 中備份服務
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42207559"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-您可以使用下列的 Lync Server 管理命令介面命令來設定和監控備份服務。
+您可以使用下列 Lync Server 管理命令介面命令來設定及監視備份服務。
 
 <div>
 
 
 > [!NOTE]  
-> 以 RTCUniversalServerAdmins 群組是具有執行<STRONG>Get-csbackupservicestatus</STRONG>預設權限的唯一群組。 若要使用此指令程式，此群組的成員身分登入。 或者，您可以存取權授與此命令 (例如，CSAdministrator) 的其他群組使用<STRONG>Set-csbackupserviceconfiguration</STRONG> cmdlet。
+> 根據預設，RTCUniversalServerAdmins 群組是具有執行 <STRONG>Get-CsBackupServiceStatus</STRONG> 許可權的唯一群組。 若要使用此 Cmdlet，請以此群組的成員身分登入。 或者，您可以將此命令的存取權授與其他群組 (例如，使用 <STRONG>Set-CsBackupServiceConfiguration</STRONG> 指令程式 CSAdministrator) 。
 
 
 
@@ -51,25 +53,25 @@ _**主題上次修改日期：** 2012年-11-01_
 
 <div>
 
-## <a name="to-see-the-backup-service-configuration"></a>若要查看備份服務組態
+## <a name="to-see-the-backup-service-configuration"></a>若要查看備份服務設定
 
 執行下列 Cmdlet：
 
     Get-CsBackupServiceConfiguration
 
-SyncInterval 的預設值為 2 分鐘。
+SyncInterval 的預設值是兩分鐘。
 
 </div>
 
 <div>
 
-## <a name="to-set-the-backup-service-sync-interval"></a>若要設定的備份服務同步處理間隔
+## <a name="to-set-the-backup-service-sync-interval"></a>設定備份服務同步處理間隔
 
 執行下列 Cmdlet：
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-例如，下列設定的間隔為 3 分鐘。
+例如，下列會將間隔設定為3分鐘。
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
@@ -77,7 +79,7 @@ SyncInterval 的預設值為 2 分鐘。
 
 
 > [!IMPORTANT]  
-> 雖然您可以使用此 cmdlet 變更備份服務的預設同步間隔，您不應執行因此若非絕對必要，因為同步間隔具有極大影響備份服務的效能和復原點目標 (RPO)。
+> 雖然您可以使用此 Cmdlet 變更備份服務的預設同步處理間隔，但除非完全必要，否則不應這麼做，因為同步處理間隔對備份服務效能具有極大的影響，而且復原點目標 (RPO) 。
 
 
 
@@ -87,7 +89,7 @@ SyncInterval 的預設值為 2 分鐘。
 
 <div>
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>若要取得特定集區的備份服務狀態
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>取得特定集區的備份服務狀態
 
 執行下列 Cmdlet：
 
@@ -97,7 +99,7 @@ SyncInterval 的預設值為 2 分鐘。
 
 
 > [!NOTE]  
-> 備份服務同步處理的狀態定義 unidirectionally 從集區 (P1) 至其備份集區 (P2)。 可以不同於另一條從 P2 到 P1 P2 從 P1 同步處理狀態。 P1 至 P2，備份服務處於 「 穩定 」 狀態如果所有 P1 所做的變更會完全透過都複寫至 P2 內的同步處理間隔。 它是在 「 最終 」 狀態有必須從 P1 同步處理至 P2 沒有更多的變更。 這兩種狀態指出備份服務的快照集在執行指令程式時的時間。 並不表示傳回的狀態會保持為先。 特別是，「 最終 」 狀態會繼續保留如果 P1 不會產生任何變更之後執行指令程式。 這是在容錯 P1 移轉，至 P2 P1 一部分<STRONG>Invoke-cspoolfailover</STRONG>執行邏輯放入唯讀模式之後的情況下，則為 true。
+> 備份服務同步處理狀態是從 (P1) 集區 unidirectionally 至其備份組區 (P2) 所定義。 從 P1 到 P2 的同步處理狀態可能不同于從 P2 到 P1 的狀態。 若為 P1，當 P1 中所做的所有變更都會在同步處理間隔內完全複寫至 P2 時，備份服務處於「穩定」狀態。 如果沒有其他要從 P1 同步處理的變更，則為 "final" 狀態。 這兩種狀態都會指出執行 Cmdlet 時備份服務的快照。 這並不表示傳回的狀態會在此後保留。 特別是，當執行 Cmdlet 後，如果 P1 不會產生任何變更，則 "final" 狀態會繼續保留。 當 p1 成為 <STRONG>CsPoolfailover</STRONG> 執行邏輯的一部分時，p1 被置於唯讀模式後，就會發生失敗的情況。
 
 
 
@@ -107,7 +109,7 @@ SyncInterval 的預設值為 2 分鐘。
 
 <div>
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>若要取得特定集區的備份關係的相關資訊
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>若要取得特定集區之備份關係的相關資訊
 
 執行下列 Cmdlet：
 
@@ -117,7 +119,7 @@ SyncInterval 的預設值為 2 分鐘。
 
 <div>
 
-## <a name="to-force-a-backup-service-sync"></a>若要強制備份服務同步處理
+## <a name="to-force-a-backup-service-sync"></a>強制執行備份服務同步處理
 
 執行下列 Cmdlet：
 

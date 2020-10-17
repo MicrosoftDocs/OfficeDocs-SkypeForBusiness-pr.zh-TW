@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定位置型的路由
+title: Lync Server 2013：設定 Location-Based 路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b88df8bf0b8362a09ea2e5b779b7fa9d789a0a48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b703aa084204a2c103e02ebff5f913a6647ae94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517411"
 ---
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Location-Based 路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a>設定 Lync Server 2013 中的位置型路由
+
 
 </div>
 
@@ -35,18 +37,18 @@ ms.locfileid: "42206359"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-12_
+_**主題上次修改日期：** 2013-03-12_
 
-Lync Server 2013 CU1、 位置型的路由是企業語音功能。 位置型路由會控制如何來電會路由傳送的 Lync Server 2013 CU1 通話管理功能。 它會強制執行是否來電可被路由傳送至 PBX 或 PSTN 目的地取決於 Lync 發話者的位置的限制。 位置型路由將通話授權規則套用至發話者的網路位置為基礎的 PSTN 通話。 發話者的位置取決於來電者連接的網路網站的網路子網路相關聯。 若要設定位置型的路由需要先部署 Enterprise Voice，然後再設定網路地區、 網站及子網路。 這會啟用位置型路由 foundation 設定。
+Lync Server 2013 CU1，Location-Based 路由是 Enterprise Voice 的功能。 Location-Based 路由是通話管理功能，可控制 Lync Server 2013 CU1 路由傳送通話的方式。 它會根據 Lync 來電者的位置，強制限制通話是否可路由傳送至 PBX 或 PSTN 目的地。 Location-Based 路由根據來電者的網路位置，對 PSTN 通話套用呼叫授權規則。 來電者的位置取決於與來電者相連之網路子網相關聯的網路網站。 設定 Location-Based 路由需要先部署企業語音，然後設定網路地區、網站和子網。 這會設定啟用 Location-Based 路由的基礎。
 
-之前部署位置型的路由，您必須先部署 Enterprise Voice、 網路地區、 網站，並設定網路子網路關聯至您的網路網站。 完成之後，您可以設定位置型的路由。 如需如何設定網路地區、 網站及子步驟，請參閱[部署進階 Enterprise Voice 功能在 Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+在部署 Location-Based 路由之前，您必須先部署 Enterprise Voice，並設定網路地區、網站，並將網路子網與網路網站產生關聯。 完成後，您可以設定 Location-Based 路由。 如需如何設定網路地區、網站及子網的步驟，請參閱 [在 Lync Server 2013 中部署高級 Enterprise Voice 功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
-本節會引導您完成位置型的路由，請使用下列範例為圖例的組態。
+本節會逐步引導您使用下列範例做為 Location-Based 路由的設定，如圖所示。
 
-![Enterprise Voice 位置型的路由範例](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Enterprise Voice 位置型的路由範例")
+![Enterprise Voice 位置-基礎路由範例](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Enterprise Voice 位置-基礎路由範例")
 
   
-下表代表此範例中所定義的使用者。
+下表代表本範例中定義的使用者。
 
 
 <table>
@@ -65,40 +67,40 @@ Lync Server 2013 CU1、 位置型的路由是企業語音功能。 位置型路�
 <tbody>
 <tr class="odd">
 <td><p>Lync</p></td>
-<td><p>德里的公司辦公室</p></td>
-<td><p>DEL-LYNC-1,DEL-LYNC-2,DEL-LYNC-3</p></td>
+<td><p>新德里公司辦公室</p></td>
+<td><p>DEL-LYNC-1、DEL-LYNC-2、DEL-3</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync</p></td>
 <td><p>Hyderabad 公司辦公室</p></td>
-<td><p>HYD-LYNC-1、 HYD-LYNC-2、 HYD-LYNC-3</p></td>
+<td><p>HYD-LYNC-1、HYD-LYNC-2、HYD-LYNC-3</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync</p></td>
-<td><p>未知 （亦即旅館）</p></td>
+<td><p>未知的 (，例如旅館) </p></td>
 <td><p>UNK-LYNC-1</p></td>
 </tr>
 <tr class="even">
-<td><p>PBX</p></td>
-<td><p>德里的公司辦公室</p></td>
-<td><p>DEL-PBX-1、 DEL-PBX-2</p></td>
+<td><p>Pbx</p></td>
+<td><p>新德里公司辦公室</p></td>
+<td><p>DEL-PBX-1、DEL-PBX-2</p></td>
 </tr>
 <tr class="odd">
-<td><p>PBX</p></td>
+<td><p>Pbx</p></td>
 <td><p>Hyderabad 公司辦公室</p></td>
-<td><p>HYD-PBX-1、 HYD-PBX-2</p></td>
+<td><p>HYD-PBX-1、HYD-PBX-2</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN</p></td>
+<td><p>Pstn</p></td>
 <td><p>Unknown</p></td>
-<td><p>PSTN-1、 PSTN-2、 PSTN-3</p></td>
+<td><p>PSTN-1、PSTN-2、PSTN-3</p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-下表代表此範例環境中所示的系統。
+下表代表此範例環境中所述的系統。
 
 
 <table>
@@ -111,39 +113,39 @@ Lync Server 2013 CU1、 位置型的路由是企業語音功能。 位置型路�
 <tr class="header">
 <th>系統</th>
 <th>位置</th>
-<th>名稱</th>
+<th>姓名</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync Server 2013 CU1 集區</p></td>
 <td><p>任何</p></td>
-<td><p>LS PL1</p></td>
+<td><p>LS-PL1</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 CU1，中繼伺服器</p></td>
+<td><p>Lync Server 2013 CU1，轉送伺服器</p></td>
 <td><p>任何</p></td>
-<td><p>MS PL1</p></td>
+<td><p>毫秒-PL1</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN 閘道 1</p></td>
+<td><p>PSTN 閘道1</p></td>
 <td><p>德里</p></td>
-<td><p>DEL GW</p></td>
+<td><p>DEL-GW</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN 閘道 2</p></td>
-<td><p>Hyderabad</p></td>
-<td><p>HYD GW</p></td>
+<td><p>PSTN 閘道2</p></td>
+<td><p>海德拉巴</p></td>
+<td><p>HYD-GW</p></td>
 </tr>
 <tr class="odd">
 <td><p>PBX 1</p></td>
 <td><p>德里</p></td>
-<td><p>DEL PBX</p></td>
+<td><p>DEL-PBX</p></td>
 </tr>
 <tr class="even">
 <td><p>PBX 2</p></td>
-<td><p>Hyderabad</p></td>
-<td><p>紅色 PBX</p></td>
+<td><p>海德拉巴</p></td>
+<td><p>RED PBX</p></td>
 </tr>
 </tbody>
 </table>
@@ -155,9 +157,9 @@ Lync Server 2013 CU1、 位置型的路由是企業語音功能。 位置型路�
 
   - [在 Lync Server 2013 中設定企業語音](lync-server-2013-configuring-enterprise-voice.md)
 
-  - [部署網路地區、 網站及 Lync Server 2013 中的子網路](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
+  - [在 Lync Server 2013 中部署網路地區、網站和子網](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
 
-  - [啟用 Lync Server 2013 中依位置路由](lync-server-2013-enabling-location-based-routing.md)
+  - [在 Lync Server 2013 中啟用 Location-Based 路由](lync-server-2013-enabling-location-based-routing.md)
 
 </div>
 
@@ -166,7 +168,7 @@ Lync Server 2013 CU1、 位置型的路由是企業語音功能。 位置型路�
 ## <a name="see-also"></a>另請參閱
 
 
-[部署 Lync Server 2013 中的進階的 Enterprise Voice 功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
+[在 Lync Server 2013 中部署高級 Enterprise Voice 功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
   
 
 </div>
