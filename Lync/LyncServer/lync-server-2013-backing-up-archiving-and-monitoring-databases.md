@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：備份封存和監控資料庫
+description: Lync Server 2013：備份封存和監控資料庫。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08eea156d1b12f607270ea3b6d7472519128e472
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 49b4fa194bffa27a52f32d61a729eeaa31cc0ad3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523170"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543759"
 ---
-# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a><span data-ttu-id="f120e-102">在 Lync Server 2013 中備份封存與監控資料庫</span><span class="sxs-lookup"><span data-stu-id="f120e-102">Backing up Archiving and Monitoring databases in Lync Server 2013</span></span>
+# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a><span data-ttu-id="cb7c1-103">在 Lync Server 2013 中備份封存與監控資料庫</span><span class="sxs-lookup"><span data-stu-id="cb7c1-103">Backing up Archiving and Monitoring databases in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48523170"
 
 <span> </span>
 
-<span data-ttu-id="f120e-103">_**主題上次修改日期：** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="f120e-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="cb7c1-104">_**主題上次修改日期：** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="cb7c1-104">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="f120e-104">如果您已部署封存或監控，您必須根據組織的 SQL Server 備份原則備份這些資料庫。</span><span class="sxs-lookup"><span data-stu-id="f120e-104">If you deployed Archiving or Monitoring, you need to back up these databases according to your organization's SQL Server backup policy.</span></span>
+<span data-ttu-id="cb7c1-105">如果您已部署封存或監控，您必須根據組織的 SQL Server 備份原則備份這些資料庫。</span><span class="sxs-lookup"><span data-stu-id="cb7c1-105">If you deployed Archiving or Monitoring, you need to back up these databases according to your organization's SQL Server backup policy.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f120e-105">當您備份中央管理存放區時，即會備份封存和監控的設定。</span><span class="sxs-lookup"><span data-stu-id="f120e-105">The settings for Archiving and Monitoring are backed up when you back up the Central Management store.</span></span> <span data-ttu-id="f120e-106">如需詳細資訊，請參閱 <A href="lync-server-2013-backing-up-core-data-and-settings.md">在 Lync Server 2013 中備份核心資料和設定</A>。</span><span class="sxs-lookup"><span data-stu-id="f120e-106">For details, see <A href="lync-server-2013-backing-up-core-data-and-settings.md">Backing up core data and settings in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="cb7c1-106">當您備份中央管理存放區時，即會備份封存和監控的設定。</span><span class="sxs-lookup"><span data-stu-id="cb7c1-106">The settings for Archiving and Monitoring are backed up when you back up the Central Management store.</span></span> <span data-ttu-id="cb7c1-107">如需詳細資訊，請參閱 <A href="lync-server-2013-backing-up-core-data-and-settings.md">在 Lync Server 2013 中備份核心資料和設定</A>。</span><span class="sxs-lookup"><span data-stu-id="cb7c1-107">For details, see <A href="lync-server-2013-backing-up-core-data-and-settings.md">Backing up core data and settings in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="f120e-107">若要進行封存與監控，您可以使用 SQL server 工具（例如 SQL Server Management Studio）執行手動備份，也可以使用 SQL Server 管理工具來排程定期、自動備份。</span><span class="sxs-lookup"><span data-stu-id="f120e-107">For Archiving and Monitoring, you can use a SQL Server tool such as SQL Server Management Studio to perform a manual backup, or you can use SQL Server management tools to schedule regular, automatic backups.</span></span>
+<span data-ttu-id="cb7c1-108">若要進行封存與監控，您可以使用 SQL server 工具（例如 SQL Server Management Studio）執行手動備份，也可以使用 SQL Server 管理工具來排程定期、自動備份。</span><span class="sxs-lookup"><span data-stu-id="cb7c1-108">For Archiving and Monitoring, you can use a SQL Server tool such as SQL Server Management Studio to perform a manual backup, or you can use SQL Server management tools to schedule regular, automatic backups.</span></span>
 
 </div>
 
