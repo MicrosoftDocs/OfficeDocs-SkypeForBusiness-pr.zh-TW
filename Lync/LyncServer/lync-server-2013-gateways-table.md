@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：閘道表格
+description: Lync Server 2013：閘道表格。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b43adbf088e696b38ff8159e87e2b5b4e8608d38
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 869aee0227c64c17f7bdbbfd82acbd43ae029bac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512660"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567039"
 ---
-# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="8327e-102">Lync Server 2013 中的閘道表格</span><span class="sxs-lookup"><span data-stu-id="8327e-102">Gateways table in Lync Server 2013</span></span>
+# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="79160-103">Lync Server 2013 中的閘道表格</span><span class="sxs-lookup"><span data-stu-id="79160-103">Gateways table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48512660"
 
 <span> </span>
 
-<span data-ttu-id="8327e-103">_**主題上次修改日期：** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="8327e-103">_**Topic Last Modified:** 2010-11-05_</span></span>
+<span data-ttu-id="79160-104">_**主題上次修改日期：** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="79160-104">_**Topic Last Modified:** 2010-11-05_</span></span>
 
-<span data-ttu-id="8327e-104">閘道表格是支援的表格。</span><span class="sxs-lookup"><span data-stu-id="8327e-104">The Gateways table is a supporting table.</span></span> <span data-ttu-id="8327e-105">每筆記錄都儲存在公用交換電話網路 (PSTN) 具有資料庫中記錄的電話所涉及的一個閘道的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="8327e-105">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
+<span data-ttu-id="79160-105">閘道表格是支援的表格。</span><span class="sxs-lookup"><span data-stu-id="79160-105">The Gateways table is a supporting table.</span></span> <span data-ttu-id="79160-106">每筆記錄都儲存在公用交換電話網路 (PSTN) 具有資料庫中記錄的電話所涉及的一個閘道的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="79160-106">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48512660"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8327e-106">欄</span><span class="sxs-lookup"><span data-stu-id="8327e-106">Column</span></span></th>
-<th><span data-ttu-id="8327e-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="8327e-107">Data Type</span></span></th>
-<th><span data-ttu-id="8327e-108">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="8327e-108">Key/Index</span></span></th>
-<th><span data-ttu-id="8327e-109">詳細資料</span><span class="sxs-lookup"><span data-stu-id="8327e-109">Details</span></span></th>
+<th><span data-ttu-id="79160-107">欄</span><span class="sxs-lookup"><span data-stu-id="79160-107">Column</span></span></th>
+<th><span data-ttu-id="79160-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="79160-108">Data Type</span></span></th>
+<th><span data-ttu-id="79160-109">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="79160-109">Key/Index</span></span></th>
+<th><span data-ttu-id="79160-110">詳細資料</span><span class="sxs-lookup"><span data-stu-id="79160-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8327e-110"><strong>GatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="8327e-110"><strong>GatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="8327e-111">int</span><span class="sxs-lookup"><span data-stu-id="8327e-111">int</span></span></p></td>
-<td><p><span data-ttu-id="8327e-112">主要</span><span class="sxs-lookup"><span data-stu-id="8327e-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="8327e-113">用於識別此閘道的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="8327e-113">Unique number identifying this gateway.</span></span></p></td>
+<td><p><span data-ttu-id="79160-111"><strong>GatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="79160-111"><strong>GatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="79160-112">int</span><span class="sxs-lookup"><span data-stu-id="79160-112">int</span></span></p></td>
+<td><p><span data-ttu-id="79160-113">主要</span><span class="sxs-lookup"><span data-stu-id="79160-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="79160-114">用於識別此閘道的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="79160-114">Unique number identifying this gateway.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8327e-114"><strong>閘道</strong></span><span class="sxs-lookup"><span data-stu-id="8327e-114"><strong>Gateway</strong></span></span></p></td>
-<td><p><span data-ttu-id="8327e-115">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="8327e-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="79160-115"><strong>閘道</strong></span><span class="sxs-lookup"><span data-stu-id="79160-115"><strong>Gateway</strong></span></span></p></td>
+<td><p><span data-ttu-id="79160-116">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="79160-116">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="8327e-116">閘道名稱。</span><span class="sxs-lookup"><span data-stu-id="8327e-116">Gateway name.</span></span></p></td>
+<td><p><span data-ttu-id="79160-117">閘道名稱。</span><span class="sxs-lookup"><span data-stu-id="79160-117">Gateway name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
