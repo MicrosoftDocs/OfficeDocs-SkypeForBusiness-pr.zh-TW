@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：指派每位使用者的位置原則
+description: Lync Server 2013：指派每位使用者的位置原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,107 +13,107 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 81631740e0a6c908c392ccacb6b37d7033d9224c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134429"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559879"
 ---
-# <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a><span data-ttu-id="08ebc-102">在 Lync Server 2013 中指派每位使用者的位置原則</span><span class="sxs-lookup"><span data-stu-id="08ebc-102">Assign a per-user location policy in Lync Server 2013</span></span>
+# <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a><span data-ttu-id="c7783-103">在 Lync Server 2013 中指派每位使用者的位置原則</span><span class="sxs-lookup"><span data-stu-id="c7783-103">Assign a per-user location policy in Lync Server 2013</span></span>
 
  
 
 
-<span data-ttu-id="08ebc-103">位置原則是您可以在 Lync Server 控制台中設定之使用者帳戶的其中一個個別設定。</span><span class="sxs-lookup"><span data-stu-id="08ebc-103">The location policy is one of the individual settings of a user account that you can configure in the Lync Server Control Panel.</span></span>
+<span data-ttu-id="c7783-104">位置原則是您可以在 Lync Server 控制台中設定之使用者帳戶的其中一個個別設定。</span><span class="sxs-lookup"><span data-stu-id="c7783-104">The location policy is one of the individual settings of a user account that you can configure in the Lync Server Control Panel.</span></span>
 
-<span data-ttu-id="08ebc-p101">您可以選擇部署一或多個個別使用者位置原則。您也可以只部署一個全域層級位置原則或子網路層級位置原則。如果您選擇部署個別使用者原則，則必須明確指派原則給使用者、群組或連絡人物件。如果沒有特別指定子網路層級或個別使用者原則，增強型 9-1-1 (E9-1-1) 設定會自動預設給全域層級位置原則中定義的項目。</span><span class="sxs-lookup"><span data-stu-id="08ebc-p101">Deploying one or more per-user location policies is optional. You can also deploy only a global-level location policy or subnet-level location policy. If you do deploy per-user policies, you must explicitly assign them to users, groups, or contact object. Enhanced 9-1-1 (E9-1-1) settings automatically default to those defined in the global-level location policy when no specific subnet-level or per-user policy is assigned.</span></span>
+<span data-ttu-id="c7783-p101">您可以選擇部署一或多個個別使用者位置原則。您也可以只部署一個全域層級位置原則或子網路層級位置原則。如果您選擇部署個別使用者原則，則必須明確指派原則給使用者、群組或連絡人物件。如果沒有特別指定子網路層級或個別使用者原則，增強型 9-1-1 (E9-1-1) 設定會自動預設給全域層級位置原則中定義的項目。</span><span class="sxs-lookup"><span data-stu-id="c7783-p101">Deploying one or more per-user location policies is optional. You can also deploy only a global-level location policy or subnet-level location policy. If you do deploy per-user policies, you must explicitly assign them to users, groups, or contact object. Enhanced 9-1-1 (E9-1-1) settings automatically default to those defined in the global-level location policy when no specific subnet-level or per-user policy is assigned.</span></span>
 
-<span data-ttu-id="08ebc-108">至少建立一個個別使用者位置原則後，即可使用本主題中的程序指派原則，以指定您希望伺服器針對特定使用者所撥打之緊急電話而套用的設定。</span><span class="sxs-lookup"><span data-stu-id="08ebc-108">After creating at least one per-user location policy, use the procedures in this topic to assign to the policy that specifies the settings that you want the server to apply for emergency calls placed by a particular user.</span></span>
+<span data-ttu-id="c7783-109">至少建立一個個別使用者位置原則後，即可使用本主題中的程序指派原則，以指定您希望伺服器針對特定使用者所撥打之緊急電話而套用的設定。</span><span class="sxs-lookup"><span data-stu-id="c7783-109">After creating at least one per-user location policy, use the procedures in this topic to assign to the policy that specifies the settings that you want the server to apply for emergency calls placed by a particular user.</span></span>
 
-<span data-ttu-id="08ebc-109">如需所有可用位置原則設定的清單，請參閱[定義 Lync Server 2013 的位置原則](lync-server-2013-defining-the-location-policy.md)。</span><span class="sxs-lookup"><span data-stu-id="08ebc-109">For a list of all available location policy settings, see [Defining the location policy for Lync Server 2013](lync-server-2013-defining-the-location-policy.md).</span></span>
+<span data-ttu-id="c7783-110">如需所有可用位置原則設定的清單，請參閱 [定義 Lync Server 2013 的位置原則](lync-server-2013-defining-the-location-policy.md)。</span><span class="sxs-lookup"><span data-stu-id="c7783-110">For a list of all available location policy settings, see [Defining the location policy for Lync Server 2013](lync-server-2013-defining-the-location-policy.md).</span></span>
 
-<span data-ttu-id="08ebc-110">如需建立位置原則的詳細資訊，請參閱[在 Lync Server 2013 中建立位置原則](lync-server-2013-create-location-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="08ebc-110">For details about creating location policies, see [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md).</span></span>
+<span data-ttu-id="c7783-111">如需建立位置原則的詳細資訊，請參閱 [在 Lync Server 2013 中建立位置原則](lync-server-2013-create-location-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="c7783-111">For details about creating location policies, see [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md).</span></span>
 
-## <a name="to-assign-a-per-user-location-policy-with-the-lync-server-control-panel"></a><span data-ttu-id="08ebc-111">使用 Lync Server 控制台指派每位使用者的位置原則</span><span class="sxs-lookup"><span data-stu-id="08ebc-111">To assign a per-user location policy with the Lync Server Control Panel</span></span>
+## <a name="to-assign-a-per-user-location-policy-with-the-lync-server-control-panel"></a><span data-ttu-id="c7783-112">使用 Lync Server 控制台指派每位使用者的位置原則</span><span class="sxs-lookup"><span data-stu-id="c7783-112">To assign a per-user location policy with the Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="08ebc-112">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="08ebc-112">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="c7783-113">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="c7783-113">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="08ebc-113">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="08ebc-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="08ebc-114">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="08ebc-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="c7783-114">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="c7783-114">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c7783-115">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="c7783-115">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="08ebc-115">在左導覽列中，按一下 **[使用者]**。</span><span class="sxs-lookup"><span data-stu-id="08ebc-115">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="c7783-116">在左導覽列中，按一下 **[使用者]**。</span><span class="sxs-lookup"><span data-stu-id="c7783-116">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="08ebc-116">使用下列其中一種方法，找到使用者：</span><span class="sxs-lookup"><span data-stu-id="08ebc-116">Use one of the following methods to locate a user:</span></span>
+4.  <span data-ttu-id="c7783-117">使用下列其中一種方法，找到使用者：</span><span class="sxs-lookup"><span data-stu-id="c7783-117">Use one of the following methods to locate a user:</span></span>
     
-      - <span data-ttu-id="08ebc-117">在 **[搜尋使用者]** 方塊中，輸入該使用者帳戶的顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別項 (URI) 的全部或頭幾個字，然後按一下 **[尋找]**。</span><span class="sxs-lookup"><span data-stu-id="08ebc-117">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
+      - <span data-ttu-id="c7783-118">在 **[搜尋使用者]** 方塊中，輸入該使用者帳戶的顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別項 (URI) 的全部或頭幾個字，然後按一下 **[尋找]**。</span><span class="sxs-lookup"><span data-stu-id="c7783-118">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
     
-      - <span data-ttu-id="08ebc-118">如果有儲存的查詢，請按一下 **[開啟查詢]** 圖示、使用 **[開啟]** 對話方塊擷取查詢 (.usf 檔)，然後按一下 **[尋找]**。</span><span class="sxs-lookup"><span data-stu-id="08ebc-118">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
+      - <span data-ttu-id="c7783-119">如果有儲存的查詢，請按一下 **[開啟查詢]** 圖示、使用 **[開啟]** 對話方塊擷取查詢 (.usf 檔)，然後按一下 **[尋找]**。</span><span class="sxs-lookup"><span data-stu-id="c7783-119">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
 
-5.  <span data-ttu-id="08ebc-119">(選用) 指定其他搜尋條件，縮減結果：</span><span class="sxs-lookup"><span data-stu-id="08ebc-119">(Optional) Specify additional search criteria to narrow the results:</span></span>
+5.  <span data-ttu-id="c7783-120">(選用) 指定其他搜尋條件，縮減結果：</span><span class="sxs-lookup"><span data-stu-id="c7783-120">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  <span data-ttu-id="08ebc-120">按一下 **[新增篩選]**。</span><span class="sxs-lookup"><span data-stu-id="08ebc-120">Click **Add Filter**.</span></span>
+    1.  <span data-ttu-id="c7783-121">按一下 **[新增篩選]**。</span><span class="sxs-lookup"><span data-stu-id="c7783-121">Click **Add Filter**.</span></span>
     
-    2.  <span data-ttu-id="08ebc-121">輸入使用者內容，您可以自行輸入或按一下下拉式清單的箭頭以選取內容。</span><span class="sxs-lookup"><span data-stu-id="08ebc-121">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
+    2.  <span data-ttu-id="c7783-122">輸入使用者內容，您可以自行輸入或按一下下拉式清單的箭頭以選取內容。</span><span class="sxs-lookup"><span data-stu-id="c7783-122">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
     
-    3.  <span data-ttu-id="08ebc-122">在 **[等於]** 下拉式清單中，按一下運算子 (例如**等於**或**不等於**)。</span><span class="sxs-lookup"><span data-stu-id="08ebc-122">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
+    3.  <span data-ttu-id="c7783-123">在 **[等於]** 下拉式清單中，按一下運算子 (例如**等於**或**不等於**)。</span><span class="sxs-lookup"><span data-stu-id="c7783-123">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
     
-    4.  <span data-ttu-id="08ebc-123">依據您選取的使用者內容，輸入您要用來篩選搜尋結果的條件，您可以自行輸入或按一下下拉式清單的箭頭。</span><span class="sxs-lookup"><span data-stu-id="08ebc-123">Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
+    4.  <span data-ttu-id="c7783-124">依據您選取的使用者內容，輸入您要用來篩選搜尋結果的條件，您可以自行輸入或按一下下拉式清單的箭頭。</span><span class="sxs-lookup"><span data-stu-id="c7783-124">Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
         
 
         > [!TIP]  
-        > <span data-ttu-id="08ebc-124">若要將更多搜尋子句加入至查詢，請按一下 <STRONG>[新增篩選]</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="08ebc-124">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
+        > <span data-ttu-id="c7783-125">若要將更多搜尋子句加入至查詢，請按一下 <STRONG>[新增篩選]</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="c7783-125">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
 
     
-    5.  <span data-ttu-id="08ebc-125">按一下 **[尋找]**。</span><span class="sxs-lookup"><span data-stu-id="08ebc-125">Click **Find**.</span></span>
+    5.  <span data-ttu-id="c7783-126">按一下 **[尋找]**。</span><span class="sxs-lookup"><span data-stu-id="c7783-126">Click **Find**.</span></span>
 
-6.  <span data-ttu-id="08ebc-126">依序按一下搜尋結果中的某個使用者、**[動作]** 和 **[指派原則]**。</span><span class="sxs-lookup"><span data-stu-id="08ebc-126">Click a user in the search results, click **Action**, and then click **Assign policies**.</span></span>
+6.  <span data-ttu-id="c7783-127">依序按一下搜尋結果中的某個使用者、**[動作]** 和 **[指派原則]**。</span><span class="sxs-lookup"><span data-stu-id="c7783-127">Click a user in the search results, click **Action**, and then click **Assign policies**.</span></span>
     
 
     > [!TIP]  
-    > <span data-ttu-id="08ebc-127">如果想將同一個個別使用者位置原則套用至多位使用者，請在搜尋結果中選取多位使用者，然後依序按一下<STRONG>[動作]</STRONG> 和 <STRONG>[指派原則]</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="08ebc-127">If you want the same per-user location policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.</span></span>
+    > <span data-ttu-id="c7783-128">如果想將同一個個別使用者位置原則套用至多位使用者，請在搜尋結果中選取多位使用者，然後依序按一下<STRONG>[動作]</STRONG> 和 <STRONG>[指派原則]</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="c7783-128">If you want the same per-user location policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.</span></span>
 
 
 
-7.  <span data-ttu-id="08ebc-128">在 **[指派原則]** 的 **[位置原則]** 下方，執行下列其中一項動作：</span><span class="sxs-lookup"><span data-stu-id="08ebc-128">In **Assign Policies**, under **Location policy**, do one of the following:</span></span>
+7.  <span data-ttu-id="c7783-129">在 **[指派原則]** 的 **[位置原則]** 下方，執行下列其中一項動作：</span><span class="sxs-lookup"><span data-stu-id="c7783-129">In **Assign Policies**, under **Location policy**, do one of the following:</span></span>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="08ebc-129">因為有多種可使用 [<STRONG>指派原則</STRONG>] 對話方塊進行設定的原則，所以對話方塊中的每個原則預設會選取 [ <STRONG> &lt; &gt; 保留</STRONG>為]。</span><span class="sxs-lookup"><span data-stu-id="08ebc-129">Because there are multiple policies that you can configure by using the <STRONG>Assign Policies</STRONG> dialog box, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box.</span></span> <span data-ttu-id="08ebc-130">不變更此設定，即可繼續沿用先前指派給使用者的原則。</span><span class="sxs-lookup"><span data-stu-id="08ebc-130">Continue using the policy previously assigned to the user by making no changes to this setting.</span></span>
+    > <span data-ttu-id="c7783-130">因為有多種可使用 [<STRONG>指派原則</STRONG>] 對話方塊進行設定的原則，所以對話方塊中的每個原則預設會選取 [ <STRONG> &lt; &gt; 保留</STRONG>為]。</span><span class="sxs-lookup"><span data-stu-id="c7783-130">Because there are multiple policies that you can configure by using the <STRONG>Assign Policies</STRONG> dialog box, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box.</span></span> <span data-ttu-id="c7783-131">不變更此設定，即可繼續沿用先前指派給使用者的原則。</span><span class="sxs-lookup"><span data-stu-id="c7783-131">Continue using the policy previously assigned to the user by making no changes to this setting.</span></span>
 
     
-      - <span data-ttu-id="08ebc-131">允許 Lync Server 2013 自動選擇全域層級原則，或在子網層級原則（如果有定義）。</span><span class="sxs-lookup"><span data-stu-id="08ebc-131">Allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the subnet-level policy.</span></span>
+      - <span data-ttu-id="c7783-132">允許 Lync Server 2013 自動選擇全域層級原則，或在子網層級原則（如果有定義）。</span><span class="sxs-lookup"><span data-stu-id="c7783-132">Allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the subnet-level policy.</span></span>
     
-      - <span data-ttu-id="08ebc-132">按一下先前執行 **New-CsLocationPolicy** Cmdlet 所定義之個別使用者位置原則的名稱。</span><span class="sxs-lookup"><span data-stu-id="08ebc-132">Click the name of a per-user location policy you previously defined by running the **New-CsLocationPolicy** cmdlet.</span></span>
+      - <span data-ttu-id="c7783-133">按一下先前執行 **New-CsLocationPolicy** Cmdlet 所定義之個別使用者位置原則的名稱。</span><span class="sxs-lookup"><span data-stu-id="c7783-133">Click the name of a per-user location policy you previously defined by running the **New-CsLocationPolicy** cmdlet.</span></span>
         
 
         > [!TIP]  
-        > <span data-ttu-id="08ebc-133">為了協助您判斷應指派哪個原則，在按下原則名稱後，按一下 <STRONG>[檢視]</STRONG> 可以檢視該原則所定義的使用者權限。</span><span class="sxs-lookup"><span data-stu-id="08ebc-133">To help you decide the policy that you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.</span></span>
+        > <span data-ttu-id="c7783-134">為了協助您判斷應指派哪個原則，在按下原則名稱後，按一下 <STRONG>[檢視]</STRONG> 可以檢視該原則所定義的使用者權限。</span><span class="sxs-lookup"><span data-stu-id="c7783-134">To help you decide the policy that you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.</span></span>
 
 
 
-8.  <span data-ttu-id="08ebc-134">完成時，請按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="08ebc-134">When you are finished, click **OK**.</span></span>
+8.  <span data-ttu-id="c7783-135">完成時，請按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="c7783-135">When you are finished, click **OK**.</span></span>
 
-## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a><span data-ttu-id="08ebc-135">使用 Lync Server 管理命令介面 Cmdlet 指派 Per-User 位置原則</span><span class="sxs-lookup"><span data-stu-id="08ebc-135">Assigning a Per-User Location Policy by Using Lync Server Management Shell Cmdlets</span></span>
+## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a><span data-ttu-id="c7783-136">使用 Lync Server 管理命令介面 Cmdlet 指派 Per-User 位置原則</span><span class="sxs-lookup"><span data-stu-id="c7783-136">Assigning a Per-User Location Policy by Using Lync Server Management Shell Cmdlets</span></span>
 
-<span data-ttu-id="08ebc-136">您可以使用 Grant-CsLocationPolicy Cmdlet 指派每個使用者的位置原則。</span><span class="sxs-lookup"><span data-stu-id="08ebc-136">You can assign per-user location policies by using the Grant-CsLocationPolicy cmdlet.</span></span> <span data-ttu-id="08ebc-137">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="08ebc-137">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="08ebc-138">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="08ebc-138">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="c7783-137">您可以使用 Grant-CsLocationPolicy Cmdlet 指派每個使用者的位置原則。</span><span class="sxs-lookup"><span data-stu-id="c7783-137">You can assign per-user location policies by using the Grant-CsLocationPolicy cmdlet.</span></span> <span data-ttu-id="c7783-138">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c7783-138">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="c7783-139">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="c7783-139">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a><span data-ttu-id="08ebc-139">將個別使用者位置原則指派給單一使用者</span><span class="sxs-lookup"><span data-stu-id="08ebc-139">To assign a per-user location policy to a single user</span></span>
+## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a><span data-ttu-id="c7783-140">將個別使用者位置原則指派給單一使用者</span><span class="sxs-lookup"><span data-stu-id="c7783-140">To assign a per-user location policy to a single user</span></span>
 
-  - <span data-ttu-id="08ebc-140">下列命令會將個別使用者位置原則 RedmondLocationPolicy 指派給使用者 Ken Myer。</span><span class="sxs-lookup"><span data-stu-id="08ebc-140">The following command assigns the per-user location policy RedmondLocationPolicy to the user Ken Myer.</span></span>
+  - <span data-ttu-id="c7783-141">下列命令會將個別使用者位置原則 RedmondLocationPolicy 指派給使用者 Ken Myer。</span><span class="sxs-lookup"><span data-stu-id="c7783-141">The following command assigns the per-user location policy RedmondLocationPolicy to the user Ken Myer.</span></span>
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName "RedmondLocationPolicy"
 
-## <a name="to-assign-a-per-user-location-policy-to-multiple-users"></a><span data-ttu-id="08ebc-141">將個別使用者位置原則指派給多位使用者</span><span class="sxs-lookup"><span data-stu-id="08ebc-141">To assign a per-user location policy to multiple users</span></span>
+## <a name="to-assign-a-per-user-location-policy-to-multiple-users"></a><span data-ttu-id="c7783-142">將個別使用者位置原則指派給多位使用者</span><span class="sxs-lookup"><span data-stu-id="c7783-142">To assign a per-user location policy to multiple users</span></span>
 
-  - <span data-ttu-id="08ebc-142">此命令會將個別使用者位置原則 AccountingDepartmentLocationPolicy 指派給所有在 Accounting 部門工作的使用者。</span><span class="sxs-lookup"><span data-stu-id="08ebc-142">This command assigns the per-user location policy AccountingDepartmentLocationPolicy to all the users who work for the Accounting department.</span></span> <span data-ttu-id="08ebc-143">如需此命令中所用 LdapFilter 參數的詳細資訊，請參閱[Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。</span><span class="sxs-lookup"><span data-stu-id="08ebc-143">For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet.</span></span>
+  - <span data-ttu-id="c7783-143">此命令會將個別使用者位置原則 AccountingDepartmentLocationPolicy 指派給所有在 Accounting 部門工作的使用者。</span><span class="sxs-lookup"><span data-stu-id="c7783-143">This command assigns the per-user location policy AccountingDepartmentLocationPolicy to all the users who work for the Accounting department.</span></span> <span data-ttu-id="c7783-144">如需此命令中所用 LdapFilter 參數的詳細資訊，請參閱 [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。</span><span class="sxs-lookup"><span data-stu-id="c7783-144">For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet.</span></span>
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
-## <a name="to-unassign-a-per-user-location-policy"></a><span data-ttu-id="08ebc-144">取消指派個別使用者位置原則</span><span class="sxs-lookup"><span data-stu-id="08ebc-144">To unassign a per-user location policy</span></span>
+## <a name="to-unassign-a-per-user-location-policy"></a><span data-ttu-id="c7783-145">取消指派個別使用者位置原則</span><span class="sxs-lookup"><span data-stu-id="c7783-145">To unassign a per-user location policy</span></span>
 
-  - <span data-ttu-id="08ebc-p106">下列命令會取消指派任何先前指派給 Ken Myer 的個別使用者位置原則。取消指派個別使用者原則之後，系統將自動使用全域原則或 Ken Myer 的本機網站原則 (如果有的話) 來管理他。網站原則的優先順序高於全域原則。</span><span class="sxs-lookup"><span data-stu-id="08ebc-p106">The following command unassigns any per-user location policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.</span></span>
+  - <span data-ttu-id="c7783-p106">下列命令會取消指派任何先前指派給 Ken Myer 的個別使用者位置原則。取消指派個別使用者原則之後，系統將自動使用全域原則或 Ken Myer 的本機網站原則 (如果有的話) 來管理他。網站原則的優先順序高於全域原則。</span><span class="sxs-lookup"><span data-stu-id="c7783-p106">The following command unassigns any per-user location policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-<span data-ttu-id="08ebc-148">如需詳細資訊，請參閱[Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="08ebc-148">For more information, see the help topic for the [Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) cmdlet.</span></span>
+<span data-ttu-id="c7783-149">如需詳細資訊，請參閱 [Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="c7783-149">For more information, see the help topic for the [Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) cmdlet.</span></span>
 
