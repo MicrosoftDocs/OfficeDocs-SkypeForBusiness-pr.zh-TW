@@ -4,13 +4,16 @@ description: 尋找所有適用于商務的學習中心。
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514940"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 上的小組會話2020
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357601"
 |[使用低代碼功能建立 Microsoft 團隊的自訂應用程式、機器人及自動化](https://aka.ms/PR134)|瞭解如何開始建立適用于團隊的自訂解決方案。  我們將深入探討 [團隊 + 電源平臺整合]，以顯示使用者如何建立自訂數位工具，即使他們沒有開發人員的經驗|300|Pete Daderko, Geneve Estrada|
 |[利用團隊和彈性卡片提升使用者體驗](https://aka.ms/PR135)|含彈性卡片的小組平臺可讓您在小組中建立經過整合和可操作的使用者體驗。 在這個講座中，我們將說明開發人員如何利用新的功能來建立可提升團隊共同作業的內容和合規性體驗。|300|Suryamanohar Mallela, Shubham Chauhan|
 |[秘訣和訣竅：建立 Microsoft 團隊 app 時的最佳做法及常見挑戰](https://aka.ms/PR136) |加入我們所涵蓋的會話，其中包含開發人員在建立團隊 app 時所面臨的一些常見問題。 當您繼續其小組 app 開發歷程時，開發人員將會離開此會話，讓他們可以使用秘訣和深入見解。|400|Adrien Solis，Erin Bailie|
-|[使用授權與驗證功能及 Microsoft Graph 來建立無摩擦應用程式 & 啟用無縫採用](https://aka.ms/PR137)|使用強大的功能（例如單一登入 (SSO) 、特定于資源的同意 (RSC) 、精細的許可權，以及 IT 管理員可以如何利用圖形 Api 來自動化 app 週期/管理）來開發 app。|400|Nick Kramer|
+|[使用授權與驗證功能及 Microsoft Graph 來建立無摩擦應用程式 & 啟用無縫採用](https://aka.ms/PR137)|使用功能強大的功能（例如單一 Sign-On (SSO) 、Resource-Specific 同意 (RSC) 、細微性許可權，以及 IT 管理員可以如何利用圖形 Api 來自動化 app 生命週期/管理的方式，來開發 app。|400|Nick Kramer|
 ||||||
 
 ### <a name="industry"></a>產業

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a5aa8f23f40c6d9c7f1edda54b70129ac00cbe7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e174e55a2564dcf60b0405819e2996e4bf3d8f95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522960"
 ---
+# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中設定自動用戶端 Sign-In 以使用 Director
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中設定自動用戶端 Sign-In 以使用 Director
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205069"
 
 _**主題上次修改日期：** 2012-09-08_
 
-當您部署 Lync Server 2013、Director 或 Director 集區時，建議您使用自動用戶端 Sign-In 做為最佳作法。 如需如何設定 DNS 伺服器以進行自動用戶端登入的詳細資訊，請參閱規劃檔中的[自動用戶端登入的 dns 需求（Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) ）。
+當您部署 Lync Server 2013、Director 或 Director 集區時，建議您使用自動用戶端 Sign-In 做為最佳作法。 如需如何設定 DNS 伺服器以進行自動用戶端登入的詳細資訊，請參閱規劃檔中的 [自動用戶端登入的 dns 需求（Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) ）。
 
 如果您已部署自動用戶端 Sign-In，請參閱下列各節，以在 Director (s) 上加以設定。
 

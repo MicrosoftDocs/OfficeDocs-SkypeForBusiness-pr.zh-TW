@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 的協助工具
+title: Lync Server 2013 協助工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dab7c088e0850e455d12c2ca83e04994666269a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d3e374825b762d059cc4b56a232d8e8b518319bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523230"
 ---
+# <a name="accessibility-in-lync-server-2013"></a>Lync Server 2013 中的協助工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="accessibility-in-lync-server-2013"></a>Lync Server 2013 中的協助工具
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42199286"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-10-09_
+_**主題上次修改日期：** 2014-10-09_
 
-Microsoft 致力於讓每個人都能更輕鬆地使用其產品及服務。 下列各節提供功能、 產品及服務，可協助讓殘障人士更容易存取 Lync Server 2013 的相關資訊。
+Microsoft 致力於讓每個人都能更輕鬆地使用其產品及服務。 下列各節提供功能、產品及服務的相關資訊，可協助殘疾人士更輕鬆地使用 Lync Server 2013。
 
 <div>
 
 ## <a name="accessibility-features-of-lync-server-2013"></a>Lync Server 2013 的協助工具功能
 
-Lync Server 2013 中的下列功能可協助讓殘障人士更易於存取：
+Lync Server 2013 中的下列功能可讓殘疾人士更易於存取：
 
   - 快速鍵
 
   - 圖表的替代文字
 
-此外，某些協助工具功能和工具的 Windows 可能獲益行動不便人士的 Lync Server 使用者。 使用 Lync Server 管理命令介面時，Windows PowerShell 大小及色彩變更會提供協助工具選項。 如需 Windows PowerShell 協助工具選項的詳細資訊，請參閱 」 中的協助工具中使用 Windows PowerShell 2.0 「 TechNet Library [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964)。
+此外，Windows 的某些協助工具功能和 Windows 工具可能會有益於 Lync Server 使用者的殘疾。 當使用 Lync Server 管理命令介面時，Windows PowerShell 大小和色彩變更提供協助工具選項。 如需 Windows PowerShell 協助工具選項的詳細資訊，請參閱 TechNet 文件庫中的「Windows PowerShell 2.0 中的協助工具」 [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964) 。
 
 </div>
 
@@ -59,7 +61,7 @@ Lync Server 2013 中的下列功能可協助讓殘障人士更易於存取：
 
 ## <a name="keyboard-shortcuts"></a>快速鍵
 
-您可以使用鍵盤快速鍵與 Lync Server 系統管理工具中的使用者介面和其他功能互動。
+您可以使用 [快速鍵]，在 Lync Server 系統管理工具和其他功能中與使用者介面互動。
 
 藉由使用快速鍵，您可以快速完成下列常見工作。
 
@@ -90,7 +92,7 @@ Lync Server 2013 中的下列功能可協助讓殘障人士更易於存取：
 </tr>
 <tr class="even">
 <td><p>在頁面上將選取項目變更為上一個項目。</p></td>
-<td><p>Shift + Tab</p></td>
+<td><p>Shift+Tab</p></td>
 </tr>
 <tr class="odd">
 <td><p>在頁面或功能表上將選取項目向上、向下、向左或向右變更。</p></td>
@@ -98,11 +100,11 @@ Lync Server 2013 中的下列功能可協助讓殘障人士更易於存取：
 </tr>
 <tr class="even">
 <td><p>展開樹狀目錄中選取的節點。</p></td>
-<td><p>+索引鍵</p></td>
+<td><p>+ 關鍵</p></td>
 </tr>
 <tr class="odd">
 <td><p>摺疊樹狀目錄中選取的節點。</p></td>
-<td><p>-索引鍵</p></td>
+<td><p>- 關鍵</p></td>
 </tr>
 <tr class="even">
 <td><p>存取功能表列。</p></td>
@@ -140,7 +142,7 @@ Lync Server 2013 中的下列功能可協助讓殘障人士更易於存取：
 
 ## <a name="alternate-text-for-figures"></a>圖表的替代文字
 
-在 [Lync Server 2013 說明，包括螢幕擷取畫面、 圖表、 流程圖表，以及其他圖表目錄中，每個圖有相關聯的替代文字。 對於檢視圖表有困難的使用者，可以將游標停留在圖表上，以閱讀替代文字。 替代文字會說明圖表中顯示的內容為何。
+Lync Server 2013 中的每個圖（包括螢幕擷取畫面、圖表、流程圖和其他圖形）都具有相關聯的替代文字。 對於檢視圖表有困難的使用者，可以將游標停留在圖表上，以閱讀替代文字。 替代文字會說明圖表中顯示的內容為何。
 
 </div>
 
@@ -150,13 +152,13 @@ Lync Server 2013 中的下列功能可協助讓殘障人士更易於存取：
 
 ## <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft 的協助工具產品及服務
 
-下列各節提供的功能、 產品和服務，讓殘障人士更容易存取 Windows 的相關資訊。
+下列各節提供功能、產品及服務的相關資訊，讓殘疾人士更能使用 Windows。
 
 <div>
 
 
 > [!NOTE]  
-> 此章節中的資訊僅適用於在美國中授權 Microsoft 產品的使用者。 如果您取得此產品美國以外，您可以使用您的軟體套件所隨附的子公司資訊卡片或請造訪 Microsoft 協助工具網站在<A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A>清單中的電話號碼及地址的 Microsoft 支援服務。 您可以連絡子公司，以查明您的地區是否有提供本章節中所述的產品及服務類型。 您可以在 Microsoft 產品網站的 Accessibility 中，深入了解 Microsoft 產品中包含的協助工具功能。
+> 此章節中的資訊僅適用於在美國中授權 Microsoft 產品的使用者。 如果您已在美國以外地區取得此產品，您可以使用軟體套件隨附的子公司資訊卡片，或流覽 Microsoft 協助工具網站， <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> 以取得 microsoft 支援服務的電話號碼和地址清單。 您可以連絡子公司，以查明您的地區是否有提供本章節中所述的產品及服務類型。 您可以在 Microsoft 產品網站的 Accessibility 中，深入了解 Microsoft 產品中包含的協助工具功能。
 
 
 
@@ -166,13 +168,13 @@ Lync Server 2013 中的下列功能可協助讓殘障人士更易於存取：
 
 ## <a name="accessibility-features-of-windows"></a>Windows 的協助工具功能
 
-Windows 作業系統有許多內建的協助工具功能或找出適合有困難，輸入或使用滑鼠、 視力不佳的個人或擁有低視障、 聽障或聽障。 這些功能會在安裝程式期間加以安裝。 如需這些功能的詳細資訊，請參閱 Windows 說明或 Microsoft 協助工具在[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)。
+Windows 作業系統具有許多內建的協助工具功能，可用於輸入或使用滑鼠很困難的個人、盲人或具有弱視或聽覺障礙的人士。 這些功能會在安裝程式期間加以安裝。 如需這些功能的詳細資訊，請參閱 Windows Help or Microsoft 協助工具 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。
 
-  - **釋放的逐步教學課程**   Microsoft 提供了一系列的調整的協助工具選項及設定您的電腦上提供的詳細程序的逐步教學課程。 此資訊會以並排格式加以顯示，讓您學習如何使用滑鼠、鍵盤或結合使用兩者。
+  - **免費的逐步教學**     課程Microsoft 提供一系列逐步教程，提供在電腦上調整協助工具選項及設定的詳細程式。 此資訊會以並排格式加以顯示，讓您學習如何使用滑鼠、鍵盤或結合使用兩者。
     
-    若要尋找 Microsoft 產品的逐步教學課程，請參閱 Microsoft Accessibility，在[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)。
+    若要尋找 Microsoft 產品的逐步教學課程，請參閱 Microsoft 協助工具 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。
 
-  - **Windows 版的輔助技術產品**   各種不同的輔助技術產品，可方便行動不便人士使用的電腦。 您可以搜尋的 Windows 執行在 Microsoft Accessibility 網站的輔助技術產品目錄[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)。
+  - Windows 的輔助**技術產品**    您可以使用各種各樣的輔助技術產品，讓電腦更易於供殘疾人士使用。 您可以在 Microsoft 協助工具網站上，搜尋在 Windows 上執行之輔助技術產品的目錄 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。
     
     若您要使用輔助技術，請務必先連絡輔助技術廠商，確認是否有可能的相容性問題，才能升級軟體或硬體。
 
@@ -182,9 +184,9 @@ Windows 作業系統有許多內建的協助工具功能或找出適合有困難
 
 ## <a name="documentation-in-alternative-formats"></a>替代格式中的文件
 
-若您有閱讀或處理列印資料的困難，可以透過更方便的格式取得許多 Microsoft 產品的文件。 您可以取得在 Microsoft Accessibility 網站上的可存取的產品文件索引[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)。
+若您有閱讀或處理列印資料的困難，可以透過更方便的格式取得許多 Microsoft 產品的文件。 您可以在 Microsoft 協助工具網站上取得可存取產品檔的索引 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。
 
-此外，，您可以從錄製取得其他 Microsoft 出版物密件 & Dyslexic，Inc 的 (RFB\&D)。 RFB\&D 分散至註冊的合格的成員，其通訊服務的這些文件。 如需可用性的 Microsoft 產品文件和 Microsoft Press 中的活頁簿的資訊，請連絡 RFB\&d。
+此外，您還可以從錄製中取得其他 Microsoft 出版物，以供盲人 & Dyslexic，Inc. (RFB \& D) 。 RFB \& D 會將這些檔散佈至其發佈服務的已註冊、合格的成員。 如需 microsoft 產品檔的可用性和 Microsoft 出版社的圖書資訊，請與 RFB \& D 聯繫。
 
 
 <table>
@@ -193,11 +195,11 @@ Windows 作業系統有許多內建的協助工具功能或找出適合有困難
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>錄製盲目&amp;Dyslexic，inc.</p>
+<td><p>針對盲 &amp; Dyslexic，inc. 的錄製。</p>
 <p>20 Roszel Road</p>
 <p>Princeton, NJ 08540</p>
 <p>美國境內的電話號碼：(800) 221-4792</p>
-<p>網站： Recording for 盲目&amp;閱讀有困難，<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<p>網站：在下列位置錄製盲人 &amp; Dyslexic： <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -207,19 +209,19 @@ Windows 作業系統有許多內建的協助工具功能或找出適合有困難
 
 <div>
 
-## <a name="customer-service-for-people-with-disabilities"></a>殘障人士的客戶服務
+## <a name="customer-service-for-people-with-disabilities"></a>殘疾人士的客戶服務
 
-Microsoft 想要為我們的客戶，包括行動不便人士提供最佳的體驗。 如果您需要協助，請連絡我們的協助工具支援小組，人員接受過訓練，協助殘障人士透過電話或電子郵件。
+Microsoft 想要為我們的所有客戶（包括殘疾人士）提供最佳的體驗。 如果您需要協助，請與我們的協助工具支援小組聯繫，以協助行動殘疾人員的電話或電子郵件。
 
-[連絡 Disability Answer Desk](https://support.microsoft.com/gp/contact-microsoft-accessibility)
+[與殘疾人士應答台聯繫](https://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-直接電話線： 1-800-936-5900
+直連電話線：1-800-936-5900
 
-TTY: 1-800-892-5234
+TTY：1-800-892-5234
 
-Weekdays: 5 a.m. -9 P.M. （太平洋時間）
+工作日： 5 A.M。 -9 P.M。  (太平洋時間) 
 
-週末： 6 a.m. -3 P.M. （太平洋時間）
+週末： 6 A.M。 -3 P.M。  (太平洋時間) 
 
 </div>
 
@@ -233,7 +235,7 @@ Weekdays: 5 a.m. -9 P.M. （太平洋時間）
 
   - 如果在美國需要技術輔助，請在節日以外的星期一至星期五，於太平洋時間的早上 6:00 至下午 6:00 間，撥打 (800) 892-5234，連絡 Microsoft 產品支援服務。若是在加拿大，請在節日以外的星期一至星期五，於東部時間的早上 8:00 至下午 8:00 間，撥打 (905) 568-9641。
 
-Microsoft 支援服務會受限於使用該服務時的金額、條款及當時的情況。 如需詳細資訊，請參閱 Microsoft 支援服務在[https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142)。
+Microsoft 支援服務會受限於使用該服務時的金額、條款及當時的情況。 如需詳細資訊，請參閱 Microsoft Support at [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142) 。
 
 </div>
 
@@ -241,9 +243,9 @@ Microsoft 支援服務會受限於使用該服務時的金額、條款及當時�
 
 <div>
 
-## <a name="for-more-information"></a>如需詳細資訊
+## <a name="for-more-information"></a>相關資訊
 
-如需如何存取技術的詳細資訊的電腦可協助改進殘障人士生活，請參閱 Microsoft Accessibility， [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)。
+如需電腦可供使用的技術如何協助改善殘疾人士生活的詳細資訊，請參閱 Microsoft 協助工具 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。
 
 </div>
 

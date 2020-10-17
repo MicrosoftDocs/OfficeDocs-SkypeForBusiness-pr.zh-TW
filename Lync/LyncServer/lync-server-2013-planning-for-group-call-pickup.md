@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 規劃群組來電接聽
+title: Lync Server 2013：規劃群組通話收取
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 054363afb8b797ad492a4c9f2ab71bc09229ce1e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b3cf5c8e340b552a2e0915575293d63e902e66f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184306"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522130"
 ---
+# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中規劃群組呼叫收取
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>規劃 Lync Server 2013 中的群組來電接聽
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42184306"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-01_
+_**主題上次修改日期：** 2013-02-01_
 
-Lync Server 2013 的累計更新： 2 月 2013年引進為新 Enterprise Voice 功能的群組來電接聽。 群組來電接聽可讓使用者揀選響鈴另一位使用者，撥出通話收取群組號碼的來電。 此區段包含規劃是專屬於群組來電接聽的資訊。
+Lync Server 2013 的累計更新：2月2013將群組呼叫收取引進為新的 Enterprise Voice 功能。 群組呼叫收取可讓使用者透過撥打呼叫收取群組號碼來挑選撥打給另一位使用者的通話。 本節包含群組通話收取特有的規劃資訊。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [群組來電接聽 Lync Server 2013 中的概觀](lync-server-2013-overview-of-group-call-pickup.md)
+  - [Lync Server 2013 中的群組呼叫收取概覽](lync-server-2013-overview-of-group-call-pickup.md)
 
-  - [群組來電接聽 Lync Server 2013 中所使用的元件](lync-server-2013-components-used-by-group-call-pickup.md)
+  - [Lync Server 2013 中群組呼叫收取所使用的元件](lync-server-2013-components-used-by-group-call-pickup.md)
 
-  - [群組來電接聽 Lync Server 2013 中的技術需求](lync-server-2013-technical-requirements-for-group-call-pickup.md)
+  - [Lync Server 2013 中群組呼叫收取的技術需求](lync-server-2013-technical-requirements-for-group-call-pickup.md)
 
-  - [群組來電接聽 Lync Server 2013 中支援的用戶端](lync-server-2013-clients-supported-for-group-call-pickup.md)
+  - [Lync Server 2013 中支援群組呼叫收取的用戶端](lync-server-2013-clients-supported-for-group-call-pickup.md)
 
-  - [部署程序的 Lync Server 2013 中的 [群組來電接聽](lync-server-2013-deployment-process-for-group-call-pickup.md)
+  - [Lync Server 2013 中群組呼叫收取的部署程式](lync-server-2013-deployment-process-for-group-call-pickup.md)
 
 </div>
 

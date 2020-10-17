@@ -3,7 +3,7 @@ title: 30中的團隊
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 7/1/19
+ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -19,18 +19,18 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e108db74324deef93b2306e1d0fda8a8c69ad3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f87375db770db8ef6df85989dd228a4ccb376b02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584102"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515870"
 ---
 # <a name="teams-in-30"></a>30中的團隊
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 相當喜歡<strong>在30天內</strong>，邀請您加入團隊，這是一系列的即時、互動式討論會，旨在協助您在 Microsoft 團隊中 (500-5000 員工在30天內就能) 與執行。 加入我們以瞭解經過時間檢驗的指導方針和最佳做法，並讓您的小組提出問題。 討論會參與者也會針對使用團隊專家的開放麥克風 office 時間收到專屬邀請。
-           <p><font color="#6264A7">準備好要開始進行嗎？</font> 我們鼓勵您的專案小組中的所有成員從30個會話<i>中開始使用團隊</i>。 按一下下方的會話標題以進行註冊。
+        <p>Microsoft 相當喜歡 <strong>在30天內</strong>，邀請您加入團隊，這是一系列的即時、互動式討論會，旨在協助您在 Microsoft 團隊中 (500-5000 員工在30天內就能) 與執行。 加入我們以瞭解經過時間檢驗的指導方針和最佳做法，並讓您的小組提出問題。 討論會參與者也會針對使用團隊專家的開放麥克風 office 時間收到專屬邀請。
+           <p><font color="#6264A7">準備好要開始進行嗎？</font> 我們鼓勵您的專案小組中的所有成員從30個會話 <i>中開始使用團隊</i> 。 按一下下方的會話標題以進行註冊。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">

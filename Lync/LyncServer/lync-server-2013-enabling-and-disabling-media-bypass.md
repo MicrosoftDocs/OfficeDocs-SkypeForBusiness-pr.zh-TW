@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 啟用及停用媒體旁路
+title: Lync Server 2013：啟用和停用媒體旁路
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5228e2137e813b02b97e89b349f8e913ad3c7628
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a108635471bda126343d7b3f49248d920732498
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522380"
 ---
+# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中啟用和停用媒體旁路
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a>啟用和停用媒體旁路 Lync Server 2013 中
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42187776"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-使用本節中的程序，來啟用或停用媒體旁路使用 Lync Server Control Panel。 如需詳細資訊何時使用媒體旁路，請參閱[規劃媒體旁路 Lync Server 2013 中](lync-server-2013-planning-for-media-bypass.md)。
+使用本節中的程式，使用 Lync Server 控制台來啟用或停用媒體旁路。 如需有關何時使用媒體旁路的詳細資訊，請參閱 [在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [啟用網路媒體旁路 Lync Server 2013 中](lync-server-2013-enabling-network-media-bypass.md)
+  - [在 Lync Server 2013 中啟用網路媒體旁路](lync-server-2013-enabling-network-media-bypass.md)
 
-  - [停用網路媒體旁路 Lync Server 2013 中](lync-server-2013-disabling-network-media-bypass.md)
+  - [停用 Lync Server 2013 中的網路媒體旁路](lync-server-2013-disabling-network-media-bypass.md)
 
 </div>
 
@@ -54,10 +56,10 @@ _**主題上次修改日期：** 2012年-11-01_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的媒體旁路概觀](lync-server-2013-overview-of-media-bypass.md)  
+[Lync Server 2013 中的媒體旁路概述](lync-server-2013-overview-of-media-bypass.md)  
 
 
-[規劃 Lync Server 2013 中的媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
+[在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

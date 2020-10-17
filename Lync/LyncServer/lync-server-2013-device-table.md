@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 裝置表格
+title: Lync Server 2013： Device 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1040642874d2963292744eb2543c9ee265440fd2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bd5b62059329d9a2277e28f1a2ae08c25384bde
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522430"
 ---
+# <a name="device-table-in-lync-server-2013"></a>Lync Server 2013 中的裝置表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-table-in-lync-server-2013"></a>Lync Server 2013 中的裝置表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42197976"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-裝置表格是儲存資訊的各種擷取一種支援資料表，或轉換裝置。 在資料表中的每一筆記錄代表一個裝置。
+Device 表是一種支援資料表，可儲存各種捕獲或呈現裝置的相關資訊。 資料表中的每一筆記錄都代表一個裝置。
 
 
 <table>
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012年-10-02_
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -64,15 +66,15 @@ _**主題上次修改日期：** 2012年-10-02_
 </tr>
 <tr class="even">
 <td><p><strong>DeviceName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>DeviceName + DeviceType 是唯一</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>DeviceName + DeviceType 是唯一的</p></td>
 <td><p>裝置名稱。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceType</strong></p></td>
-<td><p>位元</p></td>
-<td><p>DeviceName + DeviceType 是唯一</p></td>
-<td><p>裝置類型。 1 是擷取裝置，0 轉換裝置。</p></td>
+<td><p>位</p></td>
+<td><p>DeviceName + DeviceType 是唯一的</p></td>
+<td><p>裝置類型。 1是捕獲裝置，0代表呈現裝置。</p></td>
 </tr>
 </tbody>
 </table>

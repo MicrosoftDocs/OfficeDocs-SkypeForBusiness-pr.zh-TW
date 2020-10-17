@@ -4,7 +4,7 @@ ms.reviewer: corbinm
 ms.author: v-cichur
 author: cichur
 manager: serdars
-ms.date: 06/04/20
+ms.date: 06/04/2020
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：瞭解商務用 Skype Server 2019 的虛擬化支援。
-ms.openlocfilehash: b4524b1284a85e7ab372b415d45c2005f8212887
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: edced9b0f884cbf76b224c9049cf3498c8f8b45c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509030"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的虛擬化支援
 
@@ -38,10 +38,10 @@ ms.locfileid: "44755807"
 
 Windows Server 2016 和 Windows Server 2019 支援 SfB Server 2019。
 
-針對協力廠商虛擬機器管理器，您需要已超過伺服器虛擬化驗證方案（SVVP）測試（適用于相關作業系統）的虛擬機器監控程式。
+針對協力廠商虛擬機器管理器，您需要已超過伺服器虛擬化驗證方案的虛擬機器監控程式， (SVVP) 測試相關作業系統。
 
-- 請參閱 SVVP 清單中的[Windows Server 2016 版本](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25)。
-- 請參閱 SVVP 清單中的[Windows Server 2019 版本](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25)。
+- 請參閱 SVVP 清單中的 [Windows Server 2016 版本](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) 。
+- 請參閱 SVVP 清單中的 [Windows Server 2019 版本](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) 。
 
 ## <a name="stress-and-performance-tool"></a>壓力和效能工具
 
@@ -51,4 +51,4 @@ Windows Server 2016 和 Windows Server 2019 支援 SfB Server 2019。
 - 為您提供更多有關效能調整的知識和最佳作法
 - 衡量預定商務用 Skype Server 2019 部署的效能
  
-您可以從[這裡](https://www.microsoft.com/download/details.aspx?id=101447)下載工具。
+您可以從 [這裡](https://www.microsoft.com/download/details.aspx?id=101447)下載工具。

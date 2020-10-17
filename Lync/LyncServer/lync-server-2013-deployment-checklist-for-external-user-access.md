@@ -12,20 +12,22 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f2897434eb275b82ef9ab4ef78e32e99e8d0a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213909"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522770"
 ---
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中外部使用者存取的部署檢查清單
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中外部使用者存取的部署檢查清單
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213909"
 
 _**主題上次修改日期：** 2014-02-04_
 
-在您部署周邊網路並為外部使用者執行支援之前，您必須已部署 Microsoft Lync Server 2013 內部伺服器，包括前端集區或 Standard Edition Server。 如果您打算在內部網路中部署選用的 Director，您也應該在部署 Edge Server 之前加以部署。 如需 Director 部署程式的詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的 Director 案例](lync-server-2013-scenarios-for-the-director.md)。
+在您部署周邊網路並為外部使用者執行支援之前，您必須已部署 Microsoft Lync Server 2013 內部伺服器，包括前端集區或 Standard Edition Server。 如果您打算在內部網路中部署選用的 Director，您也應該在部署 Edge Server 之前加以部署。 如需 Director 部署程式的詳細資訊，請參閱規劃檔中的 [Lync Server 2013 中的 Director 案例](lync-server-2013-scenarios-for-the-director.md) 。
 
 Microsoft Lync Server 2013 包含一些工具，可協助您規劃及部署內部伺服器和 Edge Server。 拓撲完成之後，將產生的拓撲定義發行至生產環境。 若要進行這項作業，您必須是 **Domain Admins** 群組及 **RTCUniversalServerAdmins** 群組的成員。
 
@@ -45,17 +47,17 @@ Microsoft Lync Server 2013 包含一些工具，可協助您規劃及部署內�
 
   - **拓撲產生器**    Lync Server 2013 拓撲產生器可協助您定義拓撲和元件。 拓撲產生器對部署執行 Lync Server 2013 的伺服器而言是必要的。 拓撲產生器會將結果發佈至中央管理存放區，以用於設定組織中所有執行 Lync Server 2013 的伺服器。 您無法在不使用拓撲產生器的伺服器上安裝 Lync Server 2013。
 
-如果您在規劃程式期間設計了 edge 拓撲，包括執行拓撲產生器以定義 edge 拓撲，則可以使用這些結果來開始 Edge Server 部署。 如果您先前未完成建立 edge 拓撲，或想變更您先前所指定的資訊，必須先完成執行拓撲產生器，再繼續進行其他部署步驟。 如需如何建立拓撲的詳細資訊，請參閱[Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)。
+如果您在規劃程式期間設計了 edge 拓撲，包括執行拓撲產生器以定義 edge 拓撲，則可以使用這些結果來開始 Edge Server 部署。 如果您先前未完成建立 edge 拓撲，或想變更您先前所指定的資訊，必須先完成執行拓撲產生器，再繼續進行其他部署步驟。 如需如何建立拓撲的詳細資訊，請參閱 [Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)。
 
-如需規劃工具和拓撲產生器的詳細資訊，請參閱規劃檔中的[開始進行 Lync Server 2013 的規劃程式](lync-server-2013-beginning-the-planning-process.md)。
+如需規劃工具和拓撲產生器的詳細資訊，請參閱規劃檔中的 [開始進行 Lync Server 2013 的規劃程式](lync-server-2013-beginning-the-planning-process.md) 。
 
-下表提供 Edge Server 部署程序的概觀。 若要查看部署外部使用者存取之前必須進行的規劃決策，請參閱[Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)。
+下表提供 Edge Server 部署程序的概觀。 若要查看部署外部使用者存取之前必須進行的規劃決策，請參閱 [Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)。
 
 <div>
 
 
 > [!WARNING]  
-> 下表的資訊以全新部署為主。 如果您已在 Lync Server 2010、Office 通訊伺服器 2007 R2 或 Office 通訊伺服器2007環境中部署 Edge Server，請參閱<A href="migration.md">遷移</A>以瞭解遷移至 Lync Server 2013 的詳細資料。 Office 通訊伺服器 2007 R2 之前的任何版本都不支援遷移，包括 Office 通訊伺服器2007、即時通訊伺服器2005和即時通訊伺服器2003。
+> 下表的資訊以全新部署為主。 如果您已在 Lync Server 2010、Office 通訊伺服器 2007 R2 或 Office 通訊伺服器2007環境中部署 Edge Server，請參閱 <A href="migration.md">遷移</A> 以瞭解遷移至 Lync Server 2013 的詳細資料。 Office 通訊伺服器 2007 R2 之前的任何版本都不支援遷移，包括 Office 通訊伺服器2007、即時通訊伺服器2005和即時通訊伺服器2003。
 
 
 
@@ -95,7 +97,7 @@ Microsoft Lync Server 2013 包含一些工具，可協助您規劃及部署內�
 <td><ul>
 <li><p>執行拓撲產生器以設定 Edge Server 設定，以及建立及發行拓撲，然後使用 Lync Server 管理命令介面來匯出拓撲設定檔。</p></li>
 </ul></td>
-<td><p><strong>Domain Admins</strong>群組和<strong>RTCUniversalServerAdmins</strong>或<strong>CsAdmins</strong>群組</p>
+<td><p><strong>Domain Admins</strong> 群組和 <strong>RTCUniversalServerAdmins</strong> 或 <strong>CsAdmins</strong> 群組</p>
 <div>
 
 > [!NOTE]  
@@ -118,7 +120,7 @@ Microsoft Lync Server 2013 包含一些工具，可協助您規劃及部署內�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
+> <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的個別使用者每個月訂閱授權 信使。 Microsoft 提供此服務的能力已因 Yahoo！中的支援而產生，其所向下纏繞的底層合約。</P>
 > <LI>
@@ -185,7 +187,7 @@ Microsoft Lync Server 2013 包含一些工具，可協助您規劃及部署內�
 <td><ol>
 <li><p>驗證伺服器連線以及內部伺服器組態資料的複寫是否正確。</p></li>
 <li><p>驗證外部使用者 (包括遠端使用者、同盟網域的使用者、公用 IM 使用者和匿名使用者，視您的部署而定) 是否能連線。</p></li>
-<li><p>使用 Lync Server Remote Connectivity Analyzer 驗證設定和通訊<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>使用 Lync Server Remote Connectivity Analyzer 驗證設定和通訊 <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
 <li><p>疑難排解設定及通訊問題</p></li>
 </ol></td>
 <td><p>若為驗證複寫，為指派給 <strong>CSAdministrator</strong> 角色的 <strong>RTCUniversalServerAdmins</strong> 群組或使用者帳戶</p>

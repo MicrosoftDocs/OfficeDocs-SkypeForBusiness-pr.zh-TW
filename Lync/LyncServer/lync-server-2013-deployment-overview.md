@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 部署概觀
+title: Lync Server 2013：部署概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b21d6c6a977fbb94a54114753f32c022aa5e713
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3600df130f0159df0945edb25d72059bb4bcb8a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522660"
 ---
+# <a name="deployment-overview-for-lync-server-2013"></a>Lync Server 2013 的部署概況
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-overview-for-lync-server-2013"></a>Lync Server 2013 的部署概觀
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42213789"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-12_
+_**主題上次修改日期：** 2013-03-12_
 
-Lync Server 2013 Enterprise Edition 與 Lync Server 2013 Standard Edition 的主要差異是，Standard Edition 不支援 Enterprise Edition 隨附的高可用性功能。 高可用性，您需要部署多部前端伺服器集區，然後您可以鏡像執行 SQL Server 的伺服器。 企業版，您可以選擇將組合在一起，或定義獨立中繼伺服器。 監控伺服器和封存伺服器可以使用執行 SQL Server 在獨立伺服器。 或者，他們可以執行資料庫伺服器上的前端伺服器和集區的 SQL Server 執行個體。
+Lync Server 2013 Enterprise Edition 和 Lync Server 2013 Standard Edition 兩者之間的主要差異是，Standard Edition 不支援 Enterprise Edition 中包含的高可用性功能。 若要取得高可用性，您必須將多部前端伺服器部署至集區，然後才能鏡像執行 SQL Server 的伺服器。 搭配 Enterprise Edition，您可以選擇組合或定義獨立的轉送伺服器。 監控伺服器和封存伺服器可以使用執行 SQL Server 的獨立伺服器。 您也可以在資料庫伺服器上執行前端伺服器及集區的 SQL Server 實例。
 
-執行 Lync Server 2013 Standard Edition 伺服器被適用於小型組織和遠端位置] 中，依地理位置移除組織的主要部署。 成對發生災害時容錯移轉的兩個 Standard Edition server 伺服器可支援最多 5000 個使用者。 您無法在像可以中 Enterprise Edition 前端伺服器集區 Standard Edition server。 此外，Standard Edition 使用 SQL Server 資料庫已組合的伺服器執行 SQL Server Express 是設計用來處理 Standard Edition server 工作負載。 這並不是說的所有角色都必須都位於 Standard Edition server 上。 您可以獨立中繼伺服器和 Edge Server。 都必須位於 Standard Edition 伺服器組合與執行 SQL Server 之伺服器上的 SQL Server 資料庫的中央管理存放區和 Lync Server 2013 的目的。 封存伺服器與監控伺服器搭配 SQL Server 資料庫的獨立伺服器。
+執行 Lync Server 2013 Standard Edition 的伺服器是針對小型組織和遠端位置所設計，其地理位置是從組織的主要部署中移除。 兩個搭配搭配搭配進行容錯移轉的 Standard Edition server servers，在發生災難時，可支援最多5000的使用者。 您無法將 Standard Edition 伺服器集在一起，像是 Enterprise Edition 前端伺服器。 此外，Standard Edition 所用的 SQL Server 資料庫也是一個執行 SQL Server Express 的組合伺服器，其設計目的是用來處理 Standard Edition Server 工作負載。 這不是說所有角色都必須位於 Standard Edition server 上。 您可以有獨立的轉送伺服器和 Edge Server。 中央管理存放區的 SQL Server 資料庫和 Lync Server 2013 的目的，必須位於執行 SQL Server 之伺服器的 Standard Edition Server 組合上。 監控伺服器和封存伺服器會搭配使用 SQL Server 資料庫的獨立伺服器。
 
 </div>
 

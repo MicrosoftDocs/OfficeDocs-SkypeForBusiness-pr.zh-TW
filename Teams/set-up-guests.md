@@ -11,19 +11,22 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+ms.custom:
+- NewAdminCenter_Update
+- seo-marvel-apr2020
+- ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
 description: 瞭解如何開啟或關閉 Microsoft 團隊中的來賓存取功能做為 Office 365 系統管理員。
-ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 54d7461e9e03cd22900e07aca7ad2d12712faab7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346324"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508060"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft 團隊的來賓存取權
 

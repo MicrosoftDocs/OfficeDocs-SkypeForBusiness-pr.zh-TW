@@ -3,10 +3,10 @@ title: 適用於 Microsoft Teams 教育版管理員的資源
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
+ms.reviewer: olbesede
 description: 教育系統管理員可以瞭解 Microsoft 團隊中的可用資源，以啟用遠端學習。
 localization_priority: Normal
 search.appverid: MET150
@@ -17,37 +17,37 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3c34fa27053e83b9c9d05f9ab4f6e8fb4222cd7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9af89101620902c86ba52dfb986f54a8637ce097
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905505"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518030"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>適用於 Microsoft Teams 教育版管理員的資源
 ==============================================
 
 ## <a name="resources-for-remote-learning"></a>遠端學習的資源
 
-您的學校或大學是否需要啟用 Microsoft 團隊進行遠端學習？ 快速開始使用「快速入門」，以及下列任何[一](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)項採用的資料！
+您的學校或大學是否需要啟用 Microsoft 團隊進行遠端學習？ 快速開始使用「快速入門」，以及下列任何 [一](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) 項採用的資料！
 
 ## <a name="adoption-content"></a>採用內容
 
 透過電子郵件、海報、講義及其他您可以免費使用的資源，讓您的學校感到興奮。 您也可以透過含橫幅、Gif 及影片的新數位工具台，在整個校園中與學生進行線上與進行。 今天就開始吧！
 
-在使用這些材料前，請先閱讀[條款與條件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true)。
+在使用這些材料前，請先閱讀 [條款與條件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 。
 
 ### <a name="physical-assets"></a>實物資產
 
 | |  |
 |---------|---------|
-|海報-[可自訂](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)且[列印就緒](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![標牌的螢幕擷取畫面](media/edu-adoption-posters.png)     |[演講](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![講義的螢幕擷取畫面](media/edu-adoption-handouts.png)|
+|海報- [可自訂](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 且 [列印就緒](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![標牌的螢幕擷取畫面](media/edu-adoption-posters.png)     |[演講](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![講義的螢幕擷取畫面](media/edu-adoption-handouts.png)|
 |[單](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![傳單的螢幕擷取畫面](media/edu-adoption-flyers.png)   |[書籍 adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![書籍啟用廣告的螢幕擷取畫面](media/edu-adoption-book-adverts.png)         |
 |[秘訣和訣竅手冊](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![螢幕擷取畫面](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>數位資產
 
-請務必查看[數位工具組](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)的相關指南，讓您的團隊開始發揮最大的效用！ 
+請務必查看 [數位工具組](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) 的相關指南，讓您的團隊開始發揮最大的效用！ 
 
 |  |  |
 |---------|---------|
@@ -57,10 +57,10 @@ ms.locfileid: "43905505"
 
 ## <a name="call-to-action"></a>行動信號
 
-- 請流覽[教育版團隊頁面](https://www.microsoft.com/en-us/education/products/teams/default.aspx)，以取得訓練、影片和互動式示範
-- 在[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)開啟團隊（以 Office 365 系統管理員身分登入）
-- 下載團隊用戶端：[在您的所有裝置上取得團隊](https://teams.microsoft.com/downloads)
-- 深入瞭解 Office 365 教育版說明[中心](https://support.office.com/education)
+- 請流覽 [教育版團隊頁面](https://www.microsoft.com/en-us/education/products/teams/default.aspx) ，以取得訓練、影片和互動式示範
+- 在 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) 開啟團隊 (以 Office 365 系統管理員身分登入) 
+- 下載團隊用戶端： [在您的所有裝置上取得團隊](https://teams.microsoft.com/downloads)
+- 深入瞭解 Office 365 教育版說明 [中心](https://support.office.com/education)
 
 ## <a name="additional-resources"></a>其他資源
 

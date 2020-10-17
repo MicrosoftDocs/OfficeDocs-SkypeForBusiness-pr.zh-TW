@@ -12,20 +12,22 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c6a56f1a622aca4d3f50565bc86528cf474c845
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1163a8abc54f60d55f1042d6d82552ca9f133a60
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756532"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523390"
 ---
+# <a name="import-policies-and-settings"></a>匯入原則及設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-policies-and-settings"></a>匯入原則及設定
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 3.  按一下 [會議]****，然後檢視匯入的原則。
 
-4.  按一下 [**同盟和外部存取**]，然後查看已匯入的原則。
+4.  按一下 [ **同盟和外部存取** ]，然後查看已匯入的原則。
 
 5.  按一下 [監控和封存]****，然後檢視匯入的原則。
 

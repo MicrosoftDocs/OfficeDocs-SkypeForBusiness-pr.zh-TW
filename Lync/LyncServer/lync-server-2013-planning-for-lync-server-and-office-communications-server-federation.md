@@ -12,20 +12,22 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad03a196b6909d2657b7dbc8463653bb004a310
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 801237e4390cd81ac634a928f4963be1c930d01e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221507"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522020"
 ---
+# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>規劃 Lync Server 2013 和 Office 通訊伺服器同盟
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>規劃 Lync Server 2013 和 Office 通訊伺服器同盟
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2013-02-13_
 
 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通訊伺服器之間的同盟可支援對等與多方通訊。 對等交談可以呈報給多方交談，以允許點對點會議。 會議– Web 會議或音訊/視頻/視覺會議–可以排定在組織內的連絡人，以及您同盟的夥伴中的連絡人。
 
-同盟會先出現在 Microsoft Office Live 通訊伺服器2005中，並支援一種同盟、直接同盟。 直接同盟需要您知道同盟協力廠商的會話初始通訊協定（SIP）網域，以及夥伴的 Edge Server 的完整功能變數名稱（FQDN）。 Live 通訊伺服器2005與 SP1 引進其他的同盟類型，同盟協力廠商所需要的網域名稱系統（DNS） SRV 記錄，以找出其 Edge Server。 該版本的術語如下：
+同盟會先出現在 Microsoft Office Live 通訊伺服器2005中，並支援一種同盟、直接同盟。 直接同盟需要您知道同盟協力廠商的會話初始通訊協定 (SIP) 網域和夥伴的 Edge Server 的完整功能變數名稱 (FQDN) 。 Live 通訊伺服器2005與 SP1 引進其他的同盟類型，所有必要的網域名稱系統都 (DNS) 可供同盟協力廠商用來找到其 Edge Server 的 SRV 記錄。 該版本的術語如下：
 
   - *開啟增強型同盟*：接受任何 SIP 功能變數名稱，並使用 DNS SRV 尋找合作夥伴 Edge Server
 
@@ -47,15 +49,15 @@ Microsoft Lync Server 2013、Lync Server 2010 和 Office 通訊伺服器之間�
 
   - *直接同盟*：設定夥伴的 SIP 功能變數名稱和 FQDN 至夥伴的 Edge Server
 
-  - *伺服器允許清單*：接受任何網域，使用 DNS SRV 尋找主機服務提供者或公用立即訊息（IM）連線提供者的 Edge Server
+  - *伺服器允許清單*：接受任何網域，使用 DNS SRV 尋找主機服務或公用立即訊息 (IM) 連線提供者的 Edge Server
 
 Microsoft Office 通訊伺服器2007引進同盟類型的更新命名，以更好地定義每個同盟類型實際完成的專案：
 
-  - 開啟增強型同盟成為所謂的已*探索夥伴網域*
+  - 開啟增強型同盟成為所謂的已 *探索夥伴網域*
 
-  - 增強型同盟成為所謂的*允許夥伴網域*
+  - 增強型同盟成為所謂的 *允許夥伴網域*
 
-  - 直接同盟成為所謂的*允許夥伴伺服器*
+  - 直接同盟成為所謂的 *允許夥伴伺服器*
 
   - 伺服器允許清單被稱為「*裝載提供者*」和「*公用 IM 提供者*」
 
@@ -63,12 +65,12 @@ Microsoft Lync Server 2010 會依照 Microsoft Lync Online 2010 和 Microsoft Of
 
 在 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通訊伺服器之間啟用同盟，即可使用 Edge server 和反向 proxy 來強制執行所定義的規則及允許的夥伴網域。 從規劃的觀點來看，與其他 Lync Server 同盟，Office 通訊伺服器需要下列各項：
 
-  - 在拓撲產生器中啟用同盟。 如需詳細資訊，請參閱部署主題設定[SIP 同盟、XMPP 同盟和 public 立即訊息 In Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)。
+  - 在拓撲產生器中啟用同盟。 如需詳細資訊，請參閱部署主題設定 [SIP 同盟、XMPP 同盟和 public 立即訊息 In Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)。
 
   - 決定同盟網域探索的需求：
     
       - <span></span>  
-        若要手動設定同盟，您必須具有夥伴之 Edge Server 和功能變數名稱的完整功能變數名稱（FQDN），或在 Lync Server 控制台、**同盟和外部存取**（ **SIP 同盟網域**）中輸入的線上功能變數名稱。 建立**新**原則或**編輯**現有原則，以允許或封鎖 FQDN 的網域。
+        若要手動設定同盟，您必須具有夥伴之 Edge Server 和功能變數名稱（或線上功能變數名稱）的功能變數名稱 (FQDN) ，該名稱會在 Lync Server 控制台、 **同盟及外部存取**、 **SIP 同盟網域**中輸入。 建立 **新** 原則或 **編輯** 現有原則，以允許或封鎖 FQDN 的網域。
         
         <div>
         
@@ -83,26 +85,26 @@ Microsoft Lync Server 2010 會依照 Microsoft Lync Online 2010 和 Microsoft Of
         
 
         > [!NOTE]
-        > 針對<STRONG>新的 SIP 同盟網域</STRONG>，您必須提供 Microsoft Lync Online 和 microsoft 365 或 Office 365 的<STRONG>功能變數名稱（或 FQDN）</STRONG> 。 針對 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通訊伺服器，您也必須提供<STRONG>Access Edge service （FQDN）</STRONG>
+        > 若為 <STRONG>新的 SIP 同盟網域</STRONG>，您必須提供 <STRONG>功能變數名稱 (或 FQDN) </STRONG> ，以供 Microsoft Lync Online 和 microsoft 365 或 Office 365。 針對 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通訊伺服器，您也必須提供 <STRONG>Access Edge service (FQDN) </STRONG>
 
         
         </div>
     
       - <span></span>  
-        在已探索的夥伴同盟中，協力廠商可以探索您的 Edge Server，您可以在外部 DNS sipfederationtls 中建立 SRV 記錄 \_ 。 \_tcp.contoso.com –哪些指向您 Edge Server 的埠5061和主機（A）記錄
+        在已探索的夥伴同盟中，協力廠商可以探索您的 Edge Server，您可以在外部 DNS sipfederationtls 中建立 SRV 記錄 \_ 。 \_tcp.contoso.com –哪些指向埠5061，而主機 (Edge Server 的) 記錄
         
         <div>
         
 
         > [!IMPORTANT]
-        > 如果您要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 裝置上支援 Microsoft Lync 行動用戶端，且使用推播通知服務或推播通知服務，您必須規劃 _sipfederationtls。 _tcp。 &lt;&gt;您擁有 Lync Mobile 用戶端之每個 sip 網域的 SIP 網域 SRV 記錄。 Android 和 Nokia Symbian Lync Mobile 不會使用推播通知，也不會受到此項需求的制約。
+        > 如果您要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 裝置上支援 Microsoft Lync 行動用戶端，且使用推播通知服務或推播通知服務，您必須規劃 _sipfederationtls _tcp。 &lt;&gt;您擁有 Lync Mobile 用戶端之每個 sip 網域的 SIP 網域 SRV 記錄。 Android 和 Nokia Symbian Lync Mobile 不會使用推播通知，也不會受到此項需求的制約。
 
         
         </div>
 
   - 設定外部使用者存取原則以支援同盟網域
 
-  - 開啟防火牆埠的會話初始通訊協定（SIP）、web 會議與音訊/視覺效果，以容納您要啟用的同盟或連絡人。 如需詳細資訊，請參閱：[判斷 Lync Server 2013 的外部 A/V 防火牆和埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - 針對會話初始通訊協定開啟防火牆埠 (SIP) 、web 會議與音訊/視覺效果，以容納您要啟用的同盟或連絡人。 如需詳細資訊，請參閱： [判斷 Lync Server 2013 的外部 A/V 防火牆和埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
 下列資訊可協助您為與 Microsoft Lync Server 2013 和 Lync Server 2010 的同盟定義憑證、埠/通訊協定和 DNS 需求。
 

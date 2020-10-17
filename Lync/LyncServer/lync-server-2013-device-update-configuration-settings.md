@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 裝置更新組態設定
+title: Lync Server 2013：裝置更新設定設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed58e9a3b352464933282ce464d8c36bfbf326e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a240df948f7c37fb32d455ce4689a9256eeafd1b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522400"
 ---
+# <a name="device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 中的裝置更新設定設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 中的裝置更新組態設定
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42197946"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-20 個_
+_**主題上次修改日期：** 2013-02-20_
 
-裝置更新 Web 服務的管理方式使用裝置的組態設定。 可套用這些設定，在全域範圍，或在網站範圍。
+裝置更新 Web 服務是使用 [裝置設定] 進行管理。 這些設定可以套用於全域範圍或網站範圍。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中檢視裝置更新組態設定](lync-server-2013-view-device-update-configuration-settings.md)
+  - [在 Lync Server 2013 中查看裝置更新設定設定](lync-server-2013-view-device-update-configuration-settings.md)
 
-  - [建立或修改 Lync Server 2013 中的裝置更新組態設定集合](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
+  - [在 Lync Server 2013 中建立或修改裝置更新配置設定的集合](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
 
-  - [刪除 Lync Server 2013 中的裝置更新組態設定的集合](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
+  - [在 Lync Server 2013 中刪除裝置更新設定的集合](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
 
 </div>
 

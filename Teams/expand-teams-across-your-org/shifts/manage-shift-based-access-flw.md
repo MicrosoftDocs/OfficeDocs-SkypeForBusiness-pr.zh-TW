@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01180f95766412b82d9df7986c3667298f24d5b4
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 9ec470422e402da07171bef627d1592c73d6c12f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486851"
+ms.locfileid: "48514130"
 ---
 # <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>針對團隊中的第一線員工工作者管理以倒班為基礎的存取權
 
@@ -114,7 +114,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> 使用 **ShiftNoticeMessageType** 參數來設定您要顯示的訊息。 若要查看您可以為此參數選擇的預先定義訊息清單，請參閱新 TeamsShiftPolicy。
+> 使用 **ShiftNoticeMessageType** 參數來設定您要顯示的訊息。 若要查看您可以為此參數選擇的預先定義訊息清單，請參閱 [新 CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-4"></a>範例 4
 

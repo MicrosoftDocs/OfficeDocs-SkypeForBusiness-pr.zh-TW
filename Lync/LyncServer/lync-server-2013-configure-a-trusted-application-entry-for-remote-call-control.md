@@ -12,20 +12,22 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0135d26f0483b10752c8a823fdbda15ab9ba37b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f8175a351d13675c048efce7a2f831af7ab2c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523060"
 ---
+# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中為遠端呼叫控制設定信任的應用程式專案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中為遠端呼叫控制設定信任的應用程式專案
+
 
 </div>
 
@@ -43,7 +45,7 @@ SIP/CSTA 閘道必須設定為信任的應用程式，Lync 伺服器才能套用
 
 
 > [!IMPORTANT]
-> 如果您要從舊版的 Lync Server 部署遷移使用者，請確定您已移除所有現有的受信任應用程式專案 (先前稱為已授權的主項目目) 您在執行本主題中的程式之前，您已為 SIP/CSTA 閘道建立。 如需詳細資訊，請參閱<A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remove a 舊版授權主機 In Lync Server 2013 (選用) </A>。<BR>如果您打算使用傳輸控制通訊協定 (TCP) 連線來部署新的遠端呼叫控制，您必須在現有信任的應用程式和集區上，確認必須在現有信任的應用程式和集區上設定 [<STRONG>限制服務使用方式</STRONG>]，如果您想要對新的受信任應用程式使用相同的 TCP 通訊埠。
+> 如果您要從舊版的 Lync Server 部署遷移使用者，請確定您已移除所有現有的受信任應用程式專案 (先前稱為已授權的主項目目) 您在執行本主題中的程式之前，您已為 SIP/CSTA 閘道建立。 如需詳細資訊，請參閱 <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Remove a 舊版授權主機 In Lync Server 2013 (選用) </A>。<BR>如果您打算使用傳輸控制通訊協定 (TCP) 連線來部署新的遠端呼叫控制，您必須在現有信任的應用程式和集區上，確認必須在現有信任的應用程式和集區上設定 [ <STRONG>限制服務使用方式</STRONG> ]，如果您想要對新的受信任應用程式使用相同的 TCP 通訊埠。
 
 
 
@@ -53,9 +55,9 @@ SIP/CSTA 閘道必須設定為信任的應用程式，Lync 伺服器才能套用
 
 ## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>若要設定 SIP/CSTA 閘道的受信任應用程式項目
 
-1.  登入安裝了 Lync Server 管理命令介面的電腦，做為 RTCUniversalServerAdmins 群組的成員或以角色為基礎的存取控制 (RBAC) 角色（已指派**New-CsTrustedApplicationPool** Cmdlet）。
+1.  登入安裝了 Lync Server 管理命令介面的電腦，做為 RTCUniversalServerAdmins 群組的成員或以角色為基礎的存取控制 (RBAC) 角色（已指派 **New-CsTrustedApplicationPool** Cmdlet）。
 
-2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  若要建立受信任應用程式項目，請執行下列其中一項作業：
     

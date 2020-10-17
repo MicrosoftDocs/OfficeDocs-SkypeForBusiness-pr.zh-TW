@@ -9,30 +9,31 @@ manager: serdars
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.adoption
-- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
+- seo-marvel-apr2020
+- Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d6e00077b3d3d563ab35358ab93942db4fa5aa4
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 14738e22293dfb543cf49019a5df6a4539c8e251
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503480"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
 > [!NOTE]
 > 如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[遠端學習首頁](https://www.microsoft.com/education/remote-learning)。
 
-如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能 (例如 Microsoft 365 或 Office 365 通話方案或電話系統) ，您可以從我們的[入門指南中](https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=pr-en-us-5567#deeper-adoption-guidance)開始，但以下是您需要的其他指導方針。
+如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性 [入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能 (例如 Microsoft 365 或 Office 365 通話方案或電話系統) ，您可以從我們的 [入門指南中](https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=pr-en-us-5567#deeper-adoption-guidance)開始，但以下是您需要的其他指導方針。
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

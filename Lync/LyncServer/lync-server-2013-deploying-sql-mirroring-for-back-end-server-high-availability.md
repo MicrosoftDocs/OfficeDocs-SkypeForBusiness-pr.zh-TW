@@ -12,20 +12,22 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 577d6bb312ae2b31f96fed5f3e5b02e84844adf6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 085b7c10416fddefa8b869bbb617160f03b1e89a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188186"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522940"
 ---
+# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>在 Lync Server 2013 中針對後端伺服器高可用性部署 SQL 鏡像
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>在 Lync Server 2013 中針對後端伺服器高可用性部署 SQL 鏡像
+
 
 </div>
 
@@ -55,11 +57,11 @@ _**主題上次修改日期：** 2014-01-08_
 
 有了 SQL 鏡像，資料庫復原模式會一律設為 **[完整]**，這表示您必須密切監控交易紀錄的大小並定期備份交易紀錄，以避免用盡後端伺服器上的磁碟機空間。交易記錄的備份頻率取決於記錄的成長率，即根據使用者在前端集區上活動所發生的資料庫交易。建議您針對 Lync 部署工作負載判斷交易記錄的預期成長率，以便進行相應的規劃。下列文章提供 SQL 備份以及記錄管理的其他資訊：
 
-  - 資料庫復原模型： "Recovery 模型 (SQL Server) "，網址為[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
+  - 資料庫復原模型： "Recovery 模型 (SQL Server) "，網址為 [https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - 備份概述：「備份概述 (SQL Server) "[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
+  - 備份概述：「備份概述 (SQL Server) " [https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - 備份交易記錄檔：「備份 SQL Server (的交易記錄檔) 」[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
+  - 備份交易記錄檔：「備份 SQL Server (的交易記錄檔) 」 [https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 有了 SQL 鏡像，您可在建立集區時或在建立集區後設定鏡像的拓撲。
 
@@ -123,7 +125,7 @@ _**主題上次修改日期：** 2014-01-08_
 
 ## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>在拓撲產生器中將 SQL 鏡像新增至現有前端集區
 
-1.  在 [拓撲產生器] 中，以滑鼠右鍵按一下集區，然後按一下 [**編輯屬性**]。
+1.  在 [拓撲產生器] 中，以滑鼠右鍵按一下集區，然後按一下 [ **編輯屬性**]。
 
 2.  選取 **[啟用 SQL 存放區鏡像]**，然後按一下 **[鏡像 SQL 存放區]** 旁邊的 **[新增]**。
 
@@ -151,9 +153,9 @@ _**主題上次修改日期：** 2014-01-08_
 
   - 在相同伺服器上為其他應用程式配置的連接埠 (包含為其他 SQL 執行個體配置的)，均不應用於隨時可取用的已安裝 SQL 執行個體。這表示，如果您有一個以上的 SQL 執行個體安裝於相同的伺服器上，不得使用相同的連接埠進行鏡像處理。如需詳細資訊，請參閱以下文章：
     
-      - 在 MSDN Library 中的「指定伺服器網路位址 (資料庫鏡像) 」[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
+      - 在 MSDN Library 中的「指定伺服器網路位址 (資料庫鏡像) 」 [https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - 「資料庫鏡像端點 (SQL Server) "[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
+      - 「資料庫鏡像端點 (SQL Server) " [https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定 SNMP 應用程式
+title: Lync Server 2013：設定 SNMP 應用程式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 252b6ec99d19b88259aacc2fc5681b585ae1bef2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48ef29fdf87dd25365a5aae69cb4c8115e410025
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522990"
 ---
+# <a name="configure-an-snmp-application-in-lync-server-2013"></a>在 Lync Server 2013 中設定 SNMP 應用程式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-snmp-application-in-lync-server-2013"></a>在 Lync Server 2013 中設定 SNMP 應用程式
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42205289"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-03_
+_**主題上次修改日期：** 2012-10-03_
 
-Lync Server 2013 包含可用來以比對 MAC 位址與連接埠和交換器資訊的簡易網路管理通訊協定 (SNMP) 應用程式連線的位置資訊服務的標準 web 服務介面。
+Lync Server 2013 包含標準的 web 服務介面，可讓您用來將位置資訊服務連線至簡易網路管理通訊協定 (SNMP) 應用程式，該應用程式會與埠及切換資訊相符的 MAC 位址。
 
-如果安裝 SNMP 應用程式和位置資訊服務無法在位置資料庫中尋找相符項目，將位置資訊服務自動查詢應用程式使用用戶端所提供的 MAC 位址。 位置資訊服務然後使用 SNMP 應用程式所傳回的連接埠和交換器資訊來重新查詢位置資料庫。
+如果已安裝 SNMP 應用程式，且 Location 資訊服務無法在位置資料庫中找到相符的位置，則位置資訊服務會自動使用用戶端所提供的 MAC 位址來查詢應用程式。 然後，位置資訊服務會使用 SNMP 應用程式傳回的埠及切換資訊，以重新查詢位置資料庫。
 
-如需詳細資訊，請參閱[Set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)。
+如需詳細資訊，請參閱 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)。
 
 <div>
 
 
 > [!NOTE]  
-> MAC 位址不提供在執行 Windows 8 的電腦上。
+> MAC 位址無法在執行 Windows 8 的電腦上使用。
 
 
 
@@ -55,11 +57,11 @@ Lync Server 2013 包含可用來以比對 MAC 位址與連接埠和交換器資�
 
 <div>
 
-## <a name="to-configure-the-snmp-application-url"></a>若要設定 SNMP 應用程式 URL
+## <a name="to-configure-the-snmp-application-url"></a>設定 SNMP 應用程式 URL
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  執行下列 cmdlet 以設定 SNMP 應用程式的 URL。
+2.  執行下列 Cmdlet 來設定 SNMP 應用程式的 URL。
     
         Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
 

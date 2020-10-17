@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定現有的中央管理伺服器
+title: Lync Server 2013：設定現有的中央管理伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09c4102008eca37d79d2862a3ede8b1498899511
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7bfcd872f765e4a2ee69b09c4f1328125bc581d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205149"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523000"
 ---
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>在 Lync Server 2013 中設定現有的中央管理伺服器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>在 Lync Server 2013 中設定現有的中央管理伺服器
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42205149"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
-如果您重複使用現有的 Lync Server 2013 部署從中央管理伺服器，您必須執行來讓確定該 Lync Server 控制台] 及 [Windows PowerShell 正確運作，如下所述的程序。
+如果您從現有的 Lync Server 2013 部署重用中央管理伺服器，則必須執行下列所述的程式，以確保 Lync Server 控制台和 Windows PowerShell 正常運作。
 
 <div>
 
-## <a name="to-configure-an-existing-central-management-server"></a>若要設定現有的中央管理伺服器
+## <a name="to-configure-an-existing-central-management-server"></a>設定現有的中央管理伺服器
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  使用**Update-csadminrole** cmdlet 來更新儲存在中央管理伺服器的角色型存取控制 (RBAC) 角色。
+2.  使用 **Update-CsAdminRole** Cmdlet 來更新儲存在中央管理伺服器中的角色型存取控制 (RBAC) 角色。
     
     <div>
     
 
     > [!NOTE]  
-    > 除非發生錯誤，被不預期任何輸出。
+    > 除非發生錯誤，否則不會輸出。
 
     
     </div>

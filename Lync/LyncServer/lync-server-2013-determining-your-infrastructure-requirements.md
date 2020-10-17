@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 決定您的基礎結構需求
+title: Lync Server 2013：判斷基礎結構需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0782fd4a533df54d3ead70346144c270a63f49f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56bdb5545c9bb77bc1240c3b9f451ffa138943a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198086"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522560"
 ---
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>決定 Lync Server 2013 的基礎結構需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>決定針對 Lync Server 2013 基礎結構需求
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42198086"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-10_
+_**主題上次修改日期：** 2012-09-10_
 
-您必須識別並了解您的部署的基礎結構需求，以便您可以規劃如何符合這些需求，才能部署 Lync Server。
+您必須識別並瞭解部署的基礎結構需求，這樣您就可以在部署 Lync Server 之前，規劃如何符合這些需求。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [決定您的 Lync Server 2013 的系統需求](lync-server-2013-determining-your-system-requirements.md)
+  - [決定 Lync Server 2013 的系統需求](lync-server-2013-determining-your-system-requirements.md)
 
-  - [Lync Server 2013 的 active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Lync Server 2013 的 Active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)
 
   - [Lync Server 2013 的憑證基礎結構需求](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [在 [Lync Server 2013 的網際網路資訊服務 (IIS) 需求](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [Lync Server 2013 中的網際網路資訊服務 (IIS) 需求](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 

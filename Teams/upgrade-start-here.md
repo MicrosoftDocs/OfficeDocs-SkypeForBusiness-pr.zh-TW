@@ -10,6 +10,12 @@ audience: admin
 description: 本文將協助您快速開始從商務用 Skype 升級至 Microsoft 團隊。
 localization_priority: Normal
 search.appverid: MET150
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
+ms.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
 - ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
@@ -20,20 +26,15 @@ f1.keywords:
 - ms.teamsadmincenter.users.teamsupgradepage
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
-ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
-ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 6c955d0f104dc9aef476c9252a78cc2bfd2bc6f9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158631"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497290"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>開始升級您的 Microsoft Teams
 
@@ -55,11 +56,11 @@ Microsoft Teams 擴充商務用 Skype 的功能，將聊天、會議、通話、
 
 ## <a name="is-phone-system-available-for-teams-users"></a>有適用于團隊使用者的電話系統嗎？
 
-是。 在所有團隊使用者移至 TeamsOnly 模式之後，就可以使用電話系統。  此外，Microsoft 還提供連線至公用交換電話網絡（PSTN）的選項，讓使用者可以撥打世界各地的電話。 如需詳細資訊，請參閱[語音電話系統和 PSTN](cloud-voice-landing-page.md)連線。
+是的。 在所有團隊使用者移至 TeamsOnly 模式之後，就可以使用電話系統。  此外，Microsoft 還提供連線到公用交換電話網絡 (PSTN) 的選項，讓使用者可以在世界任何地方撥打電話。 如需詳細資訊，請參閱 [語音電話系統和 PSTN](cloud-voice-landing-page.md)連線。
 
 ## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>我們可以繼續使用內部部署的電話結構嗎？
 
-是。 透過 [電話系統直接路由]，您可以在幾乎任何電話運營商中使用 [電話系統]。 使用直接路由，您可以直接將自己的會話邊界控制器（SBC）連線至 [電話系統]。 如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)。
+是的。 透過 [電話系統直接路由]，您可以在幾乎任何電話運營商中使用 [電話系統]。 使用直接路由，您可以將自己的會話邊界控制器 (SBC) 直接連到 [電話系統]。 如需詳細資訊，請參閱 [手機系統 Direct 路由](direct-routing-landing-page.md)。
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft 如何協助客戶升級至 Teams？ 
 

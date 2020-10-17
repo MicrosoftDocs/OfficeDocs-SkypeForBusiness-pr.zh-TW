@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下列描述音訊會議的 [在網路上開啟預覽] 功能。
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444209"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503470"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>開啟音訊會議的網路會議預覽
 
@@ -63,7 +63,7 @@ ms.locfileid: "48444209"
 
 團隊會議撥出通話是從貴組織中的會議開始，到 PSTN 號碼，包括呼叫我接聽電話和通話，讓新參與者加入會議。 
 
-若要讓團隊透過直接路由來會議撥出路由，您需要建立並指派音訊會議路由策略，名為「OnlineAudioConferencingRoutingPolicy」。 
+若要讓團隊會議透過直接路由至網路使用者的撥出路由，您需要建立並指派音訊會議路由策略，名為「OnlineAudioConferencingRoutingPolicy」。 
 
 OnlineAudioConferencingRoutingPolicy 原則相當於經由直接路由的 1:1 PSTN 呼叫 CsOnlineVoiceRoutingPolicy。 您可以使用下列 Cmdlet 來管理 OnlineAudioConferencingRoutingPolicy 原則：
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3f1bc8cd839b986a4830ad32f797835c56e9ebd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d00f86eb437f673e83e2ea2e610ad9b35dbea082
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522600"
 ---
+# <a name="determine-dns-requirements-for-lync-server-2013"></a>決定 Lync Server 2013 的 DNS 需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determine-dns-requirements-for-lync-server-2013"></a>決定 Lync Server 2013 的 DNS 需求
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2013-02-22_
 
 
 > [!IMPORTANT]  
-> 依預設，未加入網域之電腦的電腦名稱稱為主機名稱，而不是完整功能變數名稱 (FQDN) 。 拓撲產生器使用 Fqdn，而非主機名稱。 因此，在未加入網域但要部署為 Edge Server 電腦的電腦名稱中，您必須設定 DNS 尾碼。 當您為 Lync Server、Edge Server 以及集區指派 FQDN 時，只能使用標準字元<STRONG></STRONG> (包括 A–Z、a–z、0–9 與連字號)。 請勿使用 Unicode 字元或底線。 也就是當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。 如需其他詳細資料，請參閱<A href="lync-server-2013-configure-dns-host-records.md">設定 Lync Server 2013 的 DNS 主機記錄</A>
+> 依預設，未加入網域之電腦的電腦名稱稱為主機名稱，而不是完整功能變數名稱 (FQDN) 。 拓撲產生器使用 Fqdn，而非主機名稱。 因此，在未加入網域但要部署為 Edge Server 電腦的電腦名稱中，您必須設定 DNS 尾碼。 當您為 Lync Server、Edge Server 以及集區指派 FQDN 時，只能使用標準字元<STRONG></STRONG> (包括 A–Z、a–z、0–9 與連字號)。 請勿使用 Unicode 字元或底線。 也就是當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。 如需其他詳細資料，請參閱 <A href="lync-server-2013-configure-dns-host-records.md">設定 Lync Server 2013 的 DNS 主機記錄</A>
 
 
 
@@ -69,29 +71,29 @@ _**主題上次修改日期：** 2013-02-22_
 
 Microsoft Lync 2010、Lync 2013 和 Lync Mobile 類似于用戶端在 Lync Server 2013 中尋找和存取服務的方式。 值得注意的例外狀況是 Lync Windows Store 應用程式使用不同的服務位置處理常式。 本節詳細說明用戶端如何尋找服務的兩種情形，先使用一系列 SRV 和主機記錄的傳統方法，第二個是使用自動探索服務記錄。 對桌面用戶端的累計更新會變更所有用戶端之 Lync Server 2010 的 DNS 位置進程; DNS 查詢程式會繼續，直到傳回成功的查詢或可能的 DNS 記錄清單已耗盡，最後的錯誤會傳回給用戶端。
 
-針對所有用戶端（DNS 查閱期間的 Lync Windows Store 應用程式**除外**），會依下列順序查詢和傳回用戶端的 SRV 記錄：
+針對所有用戶端（DNS 查閱期間的 Lync Windows Store 應用程式 **除外** ），會依下列順序查詢和傳回用戶端的 SRV 記錄：
 
-1.  lyncdiscoverinternal。 \<網域 \> A 為內部 Web 服務上的自動探索服務 (主機) 記錄
+1.  lyncdiscoverinternal。 \<domain\>    內部 Web 服務上的自動探索服務的 (主機) 記錄
 
-2.  lyncdiscover。 \<網域 \> A (主 Web 服務上自動探索服務的主機) 記錄
+2.  lyncdiscover。 \<domain\>    外部 Web 服務上的自動探索服務的 (主機) 記錄
 
-3.  \_sipinternaltls。 \_tcp。 \<\>內部 TLS 連線的網域 SRV (服務定位器) 記錄
+3.  \_sipinternaltls。 \_tcp。 \<domain\>    內部 TLS 連線的 SRV (服務定位器) 記錄
 
-4.  \_sipinternal。 \_tcp。 \<\>只有在允許 TCP 時，才會 (執行內部 tcp 連線的網域 SRV (服務定位器) 記錄) 
+4.  \_sipinternal。 \_tcp。 \<domain\>    僅當允許 TCP 時，才 (執行內部 TCP 連線的 SRV (服務定位器) 記錄) 
 
-5.  \_sip。 \_tls。 \<\>外部 TLS 連線的網域 SRV (服務定位器) 記錄
+5.  \_sip。 \_tls。 \<domain\>    適用于外部 TLS 連線的 SRV (服務定位器) 記錄
 
-6.  sipinternal。 \<網域 \> A (主機) 記錄的前端集區或 Director，只可在內部網路上加以解析
+6.  sipinternal。 \<domain\>    前端集區或 Director 的 (主機) 記錄，只可在內部網路上加以解析
 
-7.  sip。 \<網域 \> A (主機在內部網路上的前端集區或 Director) 記錄，或用戶端為外部用戶端時的 Access Edge service。
+7.  sip。 \<domain\>    用於內部網路上前端集區或 Director 的 (主機) 記錄，或當用戶端為外部用戶端時的 Access Edge service。
 
-8.  sipexternal。 \<網域 \> A 當用戶端為外部用戶端時，存取 Edge service 的 (主機) 記錄
+8.  sipexternal。 \<domain\>    當用戶端為外部用戶端時，Access Edge service 的 (主機) 記錄
 
 「Lync Windows Store」應用程式會完全變更該處理常式，因為它使用兩筆記錄：
 
-1.  lyncdiscoverinternal。 \<網域 \> A 為內部 Web 服務上的自動探索服務 (主機) 記錄
+1.  lyncdiscoverinternal。 \<domain\>    內部 Web 服務上的自動探索服務的 (主機) 記錄
 
-2.  lyncdiscover。 \<網域 \> A (主 Web 服務上自動探索服務的主機) 記錄
+2.  lyncdiscover。 \<domain\>    外部 Web 服務上的自動探索服務的 (主機) 記錄
 
 其他記錄類型都沒有任何回退。
 
@@ -115,7 +117,7 @@ Microsoft Lync 2010、Lync 2013 和 Lync Mobile 類似于用戶端在 Lync Serve
 
 
 > [!TIP]  
-> 預設設定是透過外部網站指引所有行動用戶端流量。 您可以修改設定以只傳回內部 URL （如果這對您的需求更可取）。 透過這種設定，使用者只有在公司網路內部時，才可以在其行動裝置上使用 Lync 行動應用程式。 若要定義此設定，您可以使用<STRONG>Set-CsMcxConfiguration</STRONG> Cmdlet。
+> 預設設定是透過外部網站指引所有行動用戶端流量。 您可以修改設定以只傳回內部 URL （如果這對您的需求更可取）。 透過這種設定，使用者只有在公司網路內部時，才可以在其行動裝置上使用 Lync 行動應用程式。 若要定義此設定，您可以使用 <STRONG>Set-CsMcxConfiguration</STRONG> Cmdlet。
 
 
 
@@ -133,9 +135,9 @@ Microsoft Lync 2010、Lync 2013 和 Lync Mobile 類似于用戶端在 Lync Serve
 
 行動裝置支援手動探索服務。 在此情況下，每一位使用者都必須使用完整的內部及外部自動探索服務 URIs （包括通訊協定和路徑）設定行動裝置設定，如下所示：
 
-  - HTTPs:// \< ExtPoolFQDN \> /Autodiscover/autodiscoverservice.svc/Root for external access
+  - HTTPs:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root 用於外部存取
 
-  - HTTPs:// \< IntPoolFQDN \> /AutoDiscover/AutoDiscover.svc/Root for internal access
+  - \<IntPoolFQDN\>供內部存取使用的 Https:///AutoDiscover/AutoDiscover.svc/Root
 
 建議您使用自動探索，而不是手動探索。 不過，手動設定可用於疑難排解行動裝置連線問題。
 
@@ -159,7 +161,7 @@ Split-大腦 DNS 是以許多名稱命名，例如分割 DNS 或分割水準的 
 
 針對這些主題的目的，將會使用「分裂大腦型 DNS」。
 
-如果您正在設定分裂大腦 DNS，下列內部及外部區域會包含每個區域中所需之 DNS 記錄類型的摘要。 如需詳細資訊，請參閱[Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)。
+如果您正在設定分裂大腦 DNS，下列內部及外部區域會包含每個區域中所需之 DNS 記錄類型的摘要。 如需詳細資訊，請參閱 [Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)。
 
 **內部 DNS：**
 
