@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 伺服器軟體和基礎結構支援
+title: Lync Server 2013：伺服器軟體和基礎結構支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92794db01db02ec8c9413fdab8c2c31cc624dfaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7906d381c49fe3514683989fd725d9d29802f81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510240"
 ---
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的伺服器軟體和基礎結構支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的伺服器軟體和基礎結構支援
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42182386"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-29_
+_**主題上次修改日期：** 2012-06-29_
 
-伺服器元件，包括所有 Lync Server 2013 伺服器角色與儲存裝置的軟體支援包括支援的作業系統、 資料庫軟體、 基礎結構軟體和其他支援特定功能所需的軟體。 也包括伺服器元件的虛擬化。
+伺服器元件的軟體支援（包括所有的 Lync Server 2013 伺服器角色及儲存體）包括支援的作業系統、資料庫軟體、基礎結構軟體，以及支援特定功能所需的其他軟體。 也包括伺服器元件的虛擬化。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的伺服器及工具作業系統支援](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [Lync Server 2013 中的伺服器和工具作業系統支援](lync-server-2013-server-and-tools-operating-system-support.md)
 
   - [Lync Server 2013 中的資料庫軟體支援](lync-server-2013-database-software-support.md)
 
-  - [Lync Server 2013 中的 Exchange Server 與 SharePoint 整合支援](lync-server-2013-exchange-and-sharepoint-integration-support.md)
+  - [Lync Server 2013 中的 Exchange Server 和 SharePoint 整合支援](lync-server-2013-exchange-and-sharepoint-integration-support.md)
 
   - [Lync Server 2013 中的憑證基礎結構支援](lync-server-2013-certificate-infrastructure-support.md)
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012年-06-29_
 
   - [Lync Server 2013 中的 IP 和網路通訊協定支援](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [Lync Server 2013 中的 public instant messaging 支援](lync-server-2013-public-instant-messaging-support.md)
+  - [Lync Server 2013 中的公用立即訊息支援](lync-server-2013-public-instant-messaging-support.md)
 
   - [Lync Server 2013 控制台的瀏覽器支援](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 

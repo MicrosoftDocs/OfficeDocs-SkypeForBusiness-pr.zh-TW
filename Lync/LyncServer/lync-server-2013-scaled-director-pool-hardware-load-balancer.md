@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 調整式 Director 集區-硬體負載平衡器
+title: Lync Server 2013：調整式 Director 集區-硬體負載平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185585
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 178408e29e794fe39241920d715e271fc84f1c17
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c812f1276a4f8ac9a23298e3b747e9ba97085378
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510950"
 ---
+# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的調整式 Director 集區-硬體負載平衡器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a>調整式的 Director 集區-Lync Server 2013 中的硬體負載平衡器
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42200949"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
-調整式的 Director 集區，其中有一個以上的處理更大的容量，並提供高可用性部署 Director 需要負載平衡來發佈至的集區的所有成員的用戶端和伺服器通訊。 Director 主機 web 服務非常類似的前端集區。 硬體負載平衡是必要的 web 服務。
+調整式 Director 集區，其中有多個 Director 可用於處理其他容量並提供高可用性，需要負載平衡才能將用戶端和伺服器通訊散佈至集區中的所有成員。 Director 主控 web 服務的方式很像前端集區。 Web 服務需要硬體負載平衡。
 
-下列主題說明部署 Director 集區使用硬體負載平衡規劃的考量。 如果您想要使用硬體負載平衡和 DNS 負載平衡的 Director 集區，請參閱主題[調整式 Director 集區-DNS 負載平衡與硬體負載平衡器 Lync Server 2013 中的](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)，描述該拓撲的規劃需求。
+下列主題說明使用硬體負載平衡來部署 Director 集區的規劃考慮。 如果您想要使用硬體負載平衡及 Director 集區的 DNS 負載平衡，請參閱 [Lync Server 2013 中的「調整式 Director 集區-DNS 負載平衡與硬體負載平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) 」，描述該拓撲的規劃需求。
 
 ![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")
 
@@ -47,11 +49,11 @@ _**主題上次修改日期：** 2012年-09-08_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [憑證摘要-調整式 Director 集區、 Lync Server 2013 中的硬體負載平衡器](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Lync Server 2013 中的憑證摘要-調整式 Director 集區（硬體負載平衡器）](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [連接埠摘要-調整式 Director 集區、 Lync Server 2013 中的硬體負載平衡器](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Lync Server 2013 中的埠摘要-調整式 Director 集區（硬體負載平衡器）](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [DNS 摘要-調整式 Director 集區、 硬體負載平衡器在 Lync Server 2013](lync-server-2013-dns-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Lync Server 2013 中的 DNS 摘要-調整式 Director 集區（硬體負載平衡器）](lync-server-2013-dns-summary-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

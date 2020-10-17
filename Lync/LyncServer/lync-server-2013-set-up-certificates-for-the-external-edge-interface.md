@@ -12,20 +12,22 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2bad8f01e773d50f8d722ddbbf4be0757cb31d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200602"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509880"
 ---
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>為 Lync Server 2013 設定外部 edge 介面的憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>為 Lync Server 2013 設定外部 edge 介面的憑證
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2012-09-08_
 
 每一台 Edge Server 都需要在周邊網路與網際網路之間的介面上放置一個公用憑證，而該憑證的主體替代名稱必須包含 Access Edge Service 的外部名稱與 Web Conferencing Edge Service 完整網域名稱 (FQDN)。
 
-如需此和其他憑證需求的詳細資訊，請參閱[Lync Server 2013 中外部使用者存取的憑證需求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
+如需此和其他憑證需求的詳細資訊，請參閱 [Lync Server 2013 中外部使用者存取的憑證需求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
 
 如需公開憑證授權單位清單 (CAs) 提供符合整合通訊憑證之特定需求的憑證，並與 Microsoft 合作，以確保其與 Lync Server 2013 憑證嚮導搭配運作，請參閱 Microsoft 知識庫文章929395：「Exchange Server 和通訊伺服器的整合通訊憑證合作夥伴」，「at」 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
@@ -96,7 +98,7 @@ _**主題上次修改日期：** 2012-09-08_
 
 4.  在 **[延遲或立即要求]** 頁面上，選取 **[立即準備此要求，但稍後再傳送]** 核取方塊。
 
-5.  在 [**憑證要求**檔案] 頁面上，輸入要儲存要求的檔案完整路徑和檔案名 (例如，c： \\ cert \_ 外部 \_ edge) 。
+5.  在 [ **憑證要求** 檔案] 頁面上，輸入要儲存要求的檔案完整路徑和檔案名 (例如，c： \\ cert \_ 外部 \_ edge) 。
 
 6.  若要使用預設 WebServer 範本之外的其他範本，請在 **[指定其他憑證範本]** 頁面上，選取 **[將其他憑證範本用於所選的憑證授權單位]** 核取方塊。
 
@@ -114,7 +116,7 @@ _**主題上次修改日期：** 2012-09-08_
 
 10. 在 **[主體名稱/主體別名]** 頁面上，會顯示精靈將自動填入的資訊。如果您還需要其他主體別名，請在後續兩個步驟中指定。
 
-11. 在 [**主體別名 (SANs) ** ] 頁面上的 [SIP 網域設定] 上，選取 [網域] 核取方塊以新增 SIP。 \<將 \> 專案 microsoft.rtc.management.xds.sipdomain 至主體替代名稱清單。
+11. 在 [ **主體別名 (SANs) ** ] 頁面上的 [SIP 網域設定] 上，選取 [網域] 核取方塊以新增 SIP。\<sipdomain\> 專案的主體替代名稱清單。
 
 12. 在 **[設定其他主體別名]** 頁面上，指定任何需要的其他主體別名。
 
@@ -144,7 +146,7 @@ _**主題上次修改日期：** 2012-09-08_
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Lync Server 2013 中提供之範本的預設憑證名稱是網頁伺服器。 只有在 \< \> 您需要使用與預設範本不同的範本時，才指定範本名稱。
+    Lync Server 2013 中提供之範本的預設憑證名稱是網頁伺服器。 只有在 \<template name\> 您需要使用不同于預設範本的範本時，才指定。
     
     <div>
     
@@ -239,7 +241,7 @@ _**主題上次修改日期：** 2012-09-08_
     
     </div>
 
-9.  在 [匯出檔案格式] 對話方塊中，選取 [**個人資訊交換– PKCS \# 12] (。PFX) **然後選取下列各項：
+9.  在 [匯出檔案格式] 對話方塊中，選取 [ **個人資訊交換– PKCS \# 12] (。PFX) ** 然後選取下列各項：
     
       - 盡可能在憑證路徑中包含所有憑證
     
@@ -272,7 +274,7 @@ _**主題上次修改日期：** 2012-09-08_
 
 ## <a name="to-assign-the-certificate-for-the-external-interface-of-the-edge-server"></a>若要指派 Edge Server 外部介面的憑證
 
-1.  在每一部 Edge Server 的 [部署嚮導] 中，按一下 [**步驟3：要求、安裝或指派憑證**] 旁邊的 [**再執行**一次]。
+1.  在每一部 Edge Server 的 [部署嚮導] 中，按一下 [ **步驟3：要求、安裝或指派憑證**] 旁邊的 [ **再執行**一次]。
 
 2.  在 **[可用憑證工作]** 頁面上，按一下 **[指派現有的憑證]**。
 

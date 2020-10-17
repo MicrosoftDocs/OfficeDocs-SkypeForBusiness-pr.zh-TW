@@ -12,20 +12,22 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 757091b8f3c8155134fa1cc3e984e28093d49843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 495ac4ba1b09b6a58a146882d54e17a8f3dd70bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182426"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510370"
 ---
+# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a>Lync Server 2013 中的伺服器和工具作業系統支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a>Lync Server 2013 中的伺服器和工具作業系統支援
+
 
 </div>
 
@@ -85,11 +87,11 @@ Lync Server 2013 預設會在執行 Lync Server 2013 的伺服器上安裝系統
 
 ## <a name="operating-systems-for-other-servers-in-your-deployment"></a>部署中其他伺服器的作業系統
 
-  - 如需有關後端伺服器與其他資料庫伺服器需求的詳細資訊，請參閱[Lync Server 2013 中的資料庫軟體支援](lync-server-2013-database-software-support.md)。
+  - 如需有關後端伺服器與其他資料庫伺服器需求的詳細資訊，請參閱 [Lync Server 2013 中的資料庫軟體支援](lync-server-2013-database-software-support.md)。
 
-  - 如需對 Edge 部署)  (的反向 proxy 伺服器需求的詳細資訊，請參閱[Lync Server 2013 中的 IIS 支援](lync-server-2013-iis-support.md)。
+  - 如需對 Edge 部署)  (的反向 proxy 伺服器需求的詳細資訊，請參閱 [Lync Server 2013 中的 IIS 支援](lync-server-2013-iis-support.md)。
 
-  - 如需其他軟體需求（包括基礎結構和虛擬化支援）的詳細資訊，請參閱[Lync server 2013 中的伺服器軟體和基礎結構支援](lync-server-2013-server-software-and-infrastructure-support.md)中的其他主題。
+  - 如需其他軟體需求（包括基礎結構和虛擬化支援）的詳細資訊，請參閱 [Lync server 2013 中的伺服器軟體和基礎結構支援](lync-server-2013-server-software-and-infrastructure-support.md)中的其他主題。
 
 </div>
 

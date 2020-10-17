@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 排程會議詳細資料
+title: Lync Server 2013：會議的排程詳細資料
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dd61ce47daf1898afd1fb654493ef12ebee9ff1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54b1756d61ce2e21def08b28d5f08adc658e2983
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510790"
 ---
+# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Lync Server 2013 中會議的排程詳細資料
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Lync Server 2013 中的會議排程詳細資料
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42200970"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-04_
+_**主題上次修改日期：** 2012-10-04_
 
-在檢查確認於要求的時間沒有排程其他會議之後，處理該要求的大型會議支援人員會在大型會議集區中排程會議。 使用 Lync Server 2013 用戶端執行這項工作，以安裝使用的專用的大型會議集區中的 Lync Server 啟用的使用者認證的 Lync 線上會議增益集。
+在檢查確認於要求的時間沒有排程其他會議之後，處理該要求的大型會議支援人員會在大型會議集區中排程會議。 使用以 Lync Server 2013 用戶端安裝之 Lync 的線上會議增益集，以使用在專屬大型會議集區中啟用 Lync Server 之使用者的認證，以執行這項工作。
 
-為了確保最佳使用者體驗，排程大型會議時，請務必以適合會議召集人之需求的適當存取層級及會議設定。 我們建議下列排程中的設定 Lync 會議選項：
+為了確保最佳使用者體驗，排程大型會議時，請務必以適合會議召集人之需求的適當存取層級及會議設定。 建議您在 Lync 會議選項中設定下列排程設定：
 
   - 針對每場大型會議使用新的會議空間，而非重複使用專用會議空間。
 
@@ -94,7 +96,7 @@ _**主題上次修改日期：** 2012年-10-04_
 
   - 核取 **[封鎖出席者的視訊]** 設定，確保只有簡報者能在會議中廣播視訊。
 
-下圖顯示 Lync 線上會議增益集的建議的設定。
+下圖顯示 Lync 之線上會議增益集的建議設定。
 
 ![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")
 

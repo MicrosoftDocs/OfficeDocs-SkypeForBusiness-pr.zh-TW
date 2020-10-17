@@ -12,20 +12,22 @@ ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad28eb7214cb6762e8b0941f22da8b97966e9024
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d63156f0eae10d71e0af7721f4e69fe6e2bd8fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200679"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510020"
 ---
+# <a name="set-a-users-dial-in-conferencing-pin-in-lync-server-2013"></a>在 Lync Server 2013 中設定使用者的電話撥入式會議 PIN
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-a-users-dial-in-conferencing-pin-in-lync-server-2013"></a>在 Lync Server 2013 中設定使用者的電話撥入式會議 PIN
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2014-06-10_
 
 
 > [!NOTE]  
-> PIN 碼的特定特性（如其最小長度）可以設定為原則。 除了通用原則之外，您還可以為個別網站或使用者設定 PIN 原則。 如需設定 PIN 原則的詳細資訊，請參閱<A href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">在 Lync Server 2013 中設定電話撥入式會議個人身分識別號碼 (PIN) 規則</A>。
+> PIN 碼的特定特性（如其最小長度）可以設定為原則。 除了通用原則之外，您還可以為個別網站或使用者設定 PIN 原則。 如需設定 PIN 原則的詳細資訊，請參閱 <A href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">在 Lync Server 2013 中設定電話撥入式會議個人身分識別號碼 (PIN) 規則</A>。
 
 
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2014-06-10_
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[使用者]**。
 
@@ -95,23 +97,23 @@ _**主題上次修改日期：** 2014-06-10_
     
     </div>
 
-6.  按一下搜尋結果中的使用者，按一下 [**動作**]，然後按一下 [**設定 PIN**]。
+6.  按一下搜尋結果中的使用者，按一下 [ **動作**]，然後按一下 [ **設定 PIN**]。
 
-7.  在 [**設定 PIN** ] 對話方塊中，執行下列其中一項動作：
+7.  在 [ **設定 PIN** ] 對話方塊中，執行下列其中一項動作：
     
-      - 若要允許 Lync Server 2013 產生使用者的 PIN，請選取 [**自動產生有效的 pin** (預設) 。
+      - 若要允許 Lync Server 2013 產生使用者的 PIN，請選取 [ **自動產生有效的 pin** (預設) 。
     
-      - 若要建立您自己的 PIN，請按一下 [**手動輸入特定的 pin**]，然後按一下文字方塊，然後輸入符合 pin 原則設定中所指定之 pin 碼需求的 pin 碼。
+      - 若要建立您自己的 PIN，請按一下 [ **手動輸入特定的 pin**]，然後按一下文字方塊，然後輸入符合 pin 原則設定中所指定之 pin 碼需求的 pin 碼。
 
 8.  按一下 [確定]****。
 
-9.  在 [**設定 PIN**] 中，執行下列其中一項動作：
+9.  在 [ **設定 PIN**] 中，執行下列其中一項動作：
     
-      - 選取 [**顯示 pin** ] 核取方塊以查看 pin，然後複製 pin 碼，並使用組織的慣用方法將其傳送給使用者。
+      - 選取 [ **顯示 pin** ] 核取方塊以查看 pin，然後複製 pin 碼，並使用組織的慣用方法將其傳送給使用者。
     
-      - 按一下 [**開啟我的電子郵件應用程式]，將新的 PIN 碼傳送給使用者**，以便透過電子郵件傳送 pin 碼。 如果 Microsoft Office Outlook 是您的電子郵件用戶端，則 PIN 碼會自動複製到新的電子郵件中。 如果您使用不同的電子郵件用戶端，請選取 [**顯示 pin** ] 核取方塊以查看 pin 碼，然後將其複製到您的電子郵件訊息中。
+      - 按一下 [ **開啟我的電子郵件應用程式]，將新的 PIN 碼傳送給使用者** ，以便透過電子郵件傳送 pin 碼。 如果 Microsoft Office Outlook 是您的電子郵件用戶端，則 PIN 碼會自動複製到新的電子郵件中。 如果您使用不同的電子郵件用戶端，請選取 [ **顯示 pin** ] 核取方塊以查看 pin 碼，然後將其複製到您的電子郵件訊息中。
 
-10. 按一下 [關閉]****。
+10. 按一下 **[關閉]**。
 
 </div>
 
@@ -119,7 +121,7 @@ _**主題上次修改日期：** 2014-06-10_
 
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派使用者 PIN
 
-您也可以使用 Unlock-csclientpin 指令程式指派 PIN 碼號碼。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+您也可以使用 Set-CsClientPin Cmdlet 來指派 PIN 碼號碼。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -141,7 +143,7 @@ _**主題上次修改日期：** 2014-06-10_
 
 </div>
 
-如需詳細資訊，請參閱[unlock-csclientpin](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPin) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [unlock-csclientpin](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPin) Cmdlet 的 [說明] 主題。
 
 </div>
 

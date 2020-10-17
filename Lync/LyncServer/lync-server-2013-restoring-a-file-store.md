@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 還原檔案存放區
+title: Lync Server 2013：還原檔存放區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73ba97ccadcc5cb34a5dbc3963d80620da8e516
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd1984c6e51866b1ace707f305fb2a6cc356a132
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214819"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511610"
 ---
+# <a name="restoring-a-file-store-in-lync-server-2013"></a>在 Lync Server 2013 中還原檔存放區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-file-store-in-lync-server-2013"></a>還原 Lync Server 2013 中的檔案存放區
+
 
 </div>
 
@@ -35,26 +37,26 @@ ms.locfileid: "42214819"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-18_
+_**主題上次修改日期：** 2013-02-18_
 
-Standard Edition 的檔案存放區通常位於 Standard Edition server 上。 Enterprise Edition 的檔案存放區通常位於檔案伺服器或叢集。 下列程序說明如何還原檔案存放區。
+Standard Edition 的檔案存放區通常位於 Standard Edition server 上。 Enterprise Edition 的檔案存放區一般位於檔案伺服器或叢集上。 下列程式說明如何還原檔存放區。
 
 <div>
 
 ## <a name="to-restore-a-file-store"></a>還原檔案存放區
 
-1.  如果檔案存放區失敗，則將適當的檔案存放區複製 $Backup\\到檔案伺服器或 Standard Edition server]，然後共用資料夾的檔案存放區位置。
+1.  如果檔案存放區失敗，請將適當的檔案存放區從 $Backup 複製 \\ 到檔案伺服器或 Standard Edition server 上的檔案存放區位置，然後再共用該資料夾。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 還原檔案存放區的路徑和檔案名稱應該是完全相同備份檔案存放區，以便使用檔案的元件可以存取它們。
+    > 還原的檔案存放區的路徑和檔案名應該與備份的檔案存放區完全相同，因此使用該檔案的元件可以存取這些檔。
 
     
     </div>
 
-2.  如有必要，設定存取控制清單 (Acl) 檔案存放區。 在命令列中輸入：
+2.  如有必要，請設定檔案存放區 (ACLs) 的存取控制清單。 在命令列中輸入：
     
         Enable-CsTopology
     
@@ -62,7 +64,7 @@ Standard Edition 的檔案存放區通常位於 Standard Edition server 上。 E
     
 
     > [!NOTE]  
-    > 您需要執行此步驟中，只有當您未執行拓撲產生器的還原程序期間。
+    > 只有在還原程式中未以其他方式執行拓撲產生器時，才需要執行此步驟。
 
     
     </div>

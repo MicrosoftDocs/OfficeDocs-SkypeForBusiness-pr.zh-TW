@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Roles 表格'
+title: Lync Server 2013： Roles 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8ab10dd6c0bb52de206268f051f2b1ed78e05e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d779e5baf1e96848f7b3957a2aeae1b823d1cf30
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511270"
 ---
+# <a name="roles-table-in-lync-server-2013"></a>Lync Server 2013 中的 Roles 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="roles-table-in-lync-server-2013"></a>Lync Server 2013 中的 [角色] 資料表
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42201179"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
-Roles 表格是靜態表格儲存可能之會議角色 （例如出席者和簡報者） 的清單。
+Roles 表格是一個靜態表格，用來儲存可能的會議角色（例如出席者和簡報者）的清單。
 
 
 <table>
@@ -51,20 +53,20 @@ Roles 表格是靜態表格儲存可能之會議角色 （例如出席者和簡�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>RoleId</strong></p></td>
-<td><p>tinyint</p></td>
+<td><p>Tinyint</p></td>
 <td><p>主要</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>角色</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Role</strong></p></td>
+<td><p>Nvarchar (256) </p></td>
 <td></td>
 <td><p>允許的值：</p>
 <ul>

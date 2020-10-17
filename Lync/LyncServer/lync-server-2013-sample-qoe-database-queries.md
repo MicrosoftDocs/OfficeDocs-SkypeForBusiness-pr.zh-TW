@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 範例 QoE 資料庫查詢
+title: Lync Server 2013：範例 QoE 資料庫查詢
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71084419fb2e598e7c0292d5987200edf219edc5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 441384c2ed8dae6f03aa6034ceba2248710e9d3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511020"
 ---
+# <a name="sample-qoe-database-queries-in-lync-server-2013"></a>Lync Server 2013 中的範例 QoE 資料庫查詢
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sample-qoe-database-queries-in-lync-server-2013"></a>Lync Server 2013 中的範例 QoE 資料庫查詢
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42201069"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-17_
+_**主題上次修改日期：** 2012-10-17_
 
 本節包含經驗品質 (QoE) 資料庫的範例查詢。
 

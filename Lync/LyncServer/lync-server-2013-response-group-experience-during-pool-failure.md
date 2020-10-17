@@ -1,5 +1,5 @@
 ---
-title: 集區失敗期間的 Lync Server 2013 回應群組經驗
+title: Lync Server 2013 集區失敗期間的回應群組經驗
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2beb0a914fe5a2880926872ed1cab365fac988f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 684d33219bb6146a0c5dc85894c060affd6745a2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511640"
 ---
+# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>在集區失敗期間，Lync Server 2013 的回應群組經驗
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Lync Server 2013 中遇到集區失敗期間的回應群組
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42182946"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-30_
+_**主題上次修改日期：** 2012-10-30_
 
 本節詳細說明回應群組活動在下列階段所受到的影響：
 
@@ -100,8 +102,8 @@ _**主題上次修改日期：** 2012年-10-30_
 <tr class="odd">
 <td><p>代理人登入與代理人資訊</p></td>
 <td><ul>
-<li><p>由主要集區擁有的代理群組可在代理主控台上檢視，但代理無法登入。</p></li>
-<li><p>備用集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
+<li><p>主要集區所擁有的代理人群組可在代理人主控台上檢視，但代理人無法登入。</p></li>
+<li><p>備份集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
 <li><p>匯入的代理人群組未顯示在代理人主控台上。</p></li>
 </ul></td>
 </tr>
@@ -110,7 +112,7 @@ _**主題上次修改日期：** 2012年-10-30_
 <td><ul>
 <li><p>主要集區所擁有的回應群組可以檢視，視主要集區後端資料庫的可用性而定，但無法修改。</p></li>
 <li><p>備份集區所擁有的回應群組可以檢視及修改。</p></li>
-<li><p>匯入的回應群組無法與 Lync Server Control Panel 或 [回應群組組態工具] 中，檢視，但可使用 Lync Server 管理命令介面指令程式來設定。</p></li>
+<li><p>無法使用 Lync Server 控制台或回應群組設定工具來查看已匯入的回應群組，但可使用 Lync Server 管理命令介面 Cmdlet 進行設定。</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -192,13 +194,13 @@ _**主題上次修改日期：** 2012年-10-30_
 <tr class="odd">
 <td><p>代理登入與代理資訊</p></td>
 <td><ul>
-<li><p>由主要集區擁有的代理群組可在代理主控台上檢視，但代理無法登入。</p></li>
-<li><p>備用集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
+<li><p>主要集區所擁有的代理人群組可在代理人主控台上檢視，但代理人無法登入。</p></li>
+<li><p>備份集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
 <li><p>匯入的代理人群組顯示在代理人主控台上，且代理人可以登入。</p></li>
 </ul></td>
 <td><ul>
 <li><p>主要集區所擁有的代理人群組可在代理人主控台上檢視，但代理人無法登入。</p></li>
-<li><p>備用集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
+<li><p>備份集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
 <li><p>匯入的代理人群組顯示在代理人主控台上，且代理人可以登入。</p></li>
 </ul></td>
 </tr>
@@ -207,12 +209,12 @@ _**主題上次修改日期：** 2012年-10-30_
 <td><ul>
 <li><p>主要集區所擁有的回應群組可以檢視，視主要集區後端資料庫的可用性而定，但無法修改。</p></li>
 <li><p>備份集區所擁有的回應群組可以檢視及修改。</p></li>
-<li><p>匯入的回應群組無法與 Lync Server Control Panel 或 [回應群組組態工具] 中，檢視，但可使用 Lync Server 管理命令介面指令程式來設定。</p></li>
+<li><p>無法使用 Lync Server 控制台或回應群組設定工具來查看已匯入的回應群組，但可使用 Lync Server 管理命令介面 Cmdlet 進行設定。</p></li>
 </ul></td>
 <td><ul>
 <li><p>主要集區所擁有的回應群組可以檢視，視主要集區後端資料庫的可用性而定，但無法修改。</p></li>
 <li><p>備份集區所擁有的回應群組可以檢視及修改。</p></li>
-<li><p>匯入的回應群組無法與 Lync Server Control Panel 或 [回應群組組態工具] 中，檢視，但可使用 Lync Server 管理命令介面指令程式來設定。</p></li>
+<li><p>無法使用 Lync Server 控制台或回應群組設定工具來查看已匯入的回應群組，但可使用 Lync Server 管理命令介面 Cmdlet 進行設定。</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -290,8 +292,8 @@ _**主題上次修改日期：** 2012年-10-30_
 <tr class="odd">
 <td><p>代理人登入與代理人資訊</p></td>
 <td><ul>
-<li><p>由主要集區擁有的代理群組可在代理主控台上檢視，但代理無法登入。</p></li>
-<li><p>備用集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
+<li><p>主要集區所擁有的代理人群組可在代理人主控台上檢視，但代理人無法登入。</p></li>
+<li><p>備份集區所擁有的代理人群組可在代理人主控台上檢視，且代理人可以登入。</p></li>
 <li><p>匯入的代理人群組顯示在代理人主控台上，且代理人可以登入。</p></li>
 </ul></td>
 <td><ul>
@@ -305,12 +307,12 @@ _**主題上次修改日期：** 2012年-10-30_
 <td><ul>
 <li><p>主要集區所擁有的回應群組可以檢視，視主要集區後端資料庫的可用性而定，但無法修改。</p></li>
 <li><p>備份集區所擁有的回應群組可以檢視及修改。</p></li>
-<li><p>匯入的回應群組無法與 Lync Server Control Panel 或 [回應群組組態工具] 中，檢視，但可使用 Lync Server 管理命令介面指令程式來設定。</p></li>
+<li><p>無法使用 Lync Server 控制台或回應群組設定工具來查看已匯入的回應群組，但可使用 Lync Server 管理命令介面 Cmdlet 進行設定。</p></li>
 </ul></td>
 <td><ul>
 <li><p>主要集區所擁有的回應群組可以檢視及修改。</p></li>
 <li><p>備份集區所擁有的回應群組可以檢視及修改。</p></li>
-<li><p>匯入的回應群組無法與 Lync Server Control Panel 或 [回應群組組態工具] 中，檢視，但可使用 Lync Server 管理命令介面指令程式來設定。</p></li>
+<li><p>無法使用 Lync Server 控制台或回應群組設定工具來查看已匯入的回應群組，但可使用 Lync Server 管理命令介面 Cmdlet 進行設定。</p></li>
 </ul></td>
 </tr>
 </tbody>

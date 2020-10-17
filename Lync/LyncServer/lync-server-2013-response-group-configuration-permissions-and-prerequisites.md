@@ -12,20 +12,22 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e27d3495ce2152dee67a5f176c4a0d9f7e7f82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7289b8818a6193efa867ab0a8671abf6d4701f7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182962"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511740"
 ---
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013 的回應群組設定許可權和必要條件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013 的回應群組設定許可權和必要條件
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2012-10-05_
 
 「回應群組」是企業語音的一項通話管理功能。本主題說明設定回應群組之前需要具有的項目，以及執行設定工作所需的系統管理認證和權限。
 
-本節假設您已閱讀與回應群組相關的規劃文件。 如需詳細資訊，請參閱規劃檔中的[規劃 Lync Server 2013 中的通話管理功能](lync-server-2013-planning-for-call-management-features.md)。
+本節假設您已閱讀與回應群組相關的規劃文件。 如需詳細資訊，請參閱規劃檔中的 [規劃 Lync Server 2013 中的通話管理功能](lync-server-2013-planning-for-call-management-features.md) 。
 
 <div>
 
@@ -138,7 +140,7 @@ _**主題上次修改日期：** 2012-10-05_
 
 
 > [!NOTE]  
-> <STRONG> (1) </STRONG>Active Directory 網域服務使用者物件必須是所列指定之 Active Directory 安全性群組的成員。 具有適當許可權的系統管理員或其他委派的 Active Directory 群組成員，可將使用者新增至安全性群組中 (例如，系統管理員、帳戶操作員) 必須將使用者物件新增至所列的安全性群組或群組，使用者才能執行所列的功能。 <STRONG> (2) </STRONG>僅適用于 CsResponseGroupAdministrator 已指定給 CsResponseGroupManager 的工作流程。 <STRONG> (3) </STRONG>回應群組管理員可以將 CsResponseGroupManager 的另一個成員指派給目前管理員已管理的工作流程。 <STRONG> (4) </STRONG>CsViewOnlyAdministrator 只能執行動詞 "Get" Lync Server 管理命令介面 Cmdlet。
+> <STRONG> (1) </STRONG> Active Directory 網域服務使用者物件必須是所列指定之 Active Directory 安全性群組的成員。 具有適當許可權的系統管理員或其他委派的 Active Directory 群組成員，可將使用者新增至安全性群組中 (例如，系統管理員、帳戶操作員) 必須將使用者物件新增至所列的安全性群組或群組，使用者才能執行所列的功能。 <STRONG> (2) </STRONG> 僅適用于 CsResponseGroupAdministrator 已指定給 CsResponseGroupManager 的工作流程。 <STRONG> (3) </STRONG> 回應群組管理員可以將 CsResponseGroupManager 的另一個成員指派給目前管理員已管理的工作流程。 <STRONG> (4) </STRONG> CsViewOnlyAdministrator 只能執行動詞 "Get" Lync Server 管理命令介面 Cmdlet。
 
 
 
@@ -176,7 +178,7 @@ _**主題上次修改日期：** 2012-10-05_
 
 ## <a name="enabling-users"></a>啟用使用者
 
-設定回應群組的第一個步驟是建立代理人群組。 在您可以建立代理人群組之前，您必須啟用將成為 Lync Server 2013 和 Enterprise Voice 之回應群組之代理人的使用者。 為 Lync Server 2013 啟用使用者通常是 Enterprise Edition server 或 Standard Edition server 部署中的一個步驟。 如需對 Lync Server 2013 啟用使用者的詳細資訊，請參閱[Disable or 重新啟用 Lync server 2013 的使用者帳戶](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 啟用使用者的企業語音一般是企業語音部署中的步驟。 如需詳細資訊，請參閱[Enable users For Enterprise Voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)。
+設定回應群組的第一個步驟是建立代理人群組。 在您可以建立代理人群組之前，您必須啟用將成為 Lync Server 2013 和 Enterprise Voice 之回應群組之代理人的使用者。 為 Lync Server 2013 啟用使用者通常是 Enterprise Edition server 或 Standard Edition server 部署中的一個步驟。 如需對 Lync Server 2013 啟用使用者的詳細資訊，請參閱 [Disable or 重新啟用 Lync server 2013 的使用者帳戶](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 啟用使用者的企業語音一般是企業語音部署中的步驟。 如需詳細資訊，請參閱 [Enable users For Enterprise Voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)。
 
 </div>
 

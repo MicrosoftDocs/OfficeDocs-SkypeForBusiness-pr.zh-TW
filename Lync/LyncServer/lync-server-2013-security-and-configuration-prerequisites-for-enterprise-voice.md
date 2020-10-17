@@ -12,20 +12,22 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8aec487e2ef5c6f5a756305a6e44df0c31cbec0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa8f0f3dd113b10a01f18a0542561de946d4acd0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200929"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510470"
 ---
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的 Enterprise Voice 安全性和設定先決條件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的 Enterprise Voice 安全性和設定先決條件
+
 
 </div>
 
@@ -70,7 +72,7 @@ _**主題上次修改日期：** 2012-10-18_
     
 
     > [!NOTE]
-    > 如需 Lync Server 中憑證需求的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-certificate-infrastructure-requirements.md">Lync Server 2013 的憑證基礎結構需求</A>。
+    > 如需 Lync Server 中憑證需求的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-certificate-infrastructure-requirements.md">Lync Server 2013 的憑證基礎結構需求</A> 。
 
     
     </div>
@@ -83,7 +85,7 @@ _**主題上次修改日期：** 2012-10-18_
 
 如果您組合轉送伺服器與每個前端集區或 Standard Edition Server 的前端部署期間，則在安裝這些伺服器角色的檔案時，會自動設定企業語音所需的使用者設定。
 
-如果您此時是全新部署 Enterprise Voice 工作量，在開始部署程序前，請先為每個您計畫要啟用 Enterprise Voice 的使用者指定主要電話號碼。 身為系統管理員，您要負責確認這個號碼是唯一的。 在執行之前，所有的主要電話號碼都必須正規化 (正確格式化) ，並使用 Lync Server 控制台將其複製到每個使用者的**行 URI**屬性。
+如果您此時是全新部署 Enterprise Voice 工作量，在開始部署程序前，請先為每個您計畫要啟用 Enterprise Voice 的使用者指定主要電話號碼。 身為系統管理員，您要負責確認這個號碼是唯一的。 在執行之前，所有的主要電話號碼都必須正規化 (正確格式化) ，並使用 Lync Server 控制台將其複製到每個使用者的 **行 URI** 屬性。
 
 <div>
 
@@ -103,9 +105,9 @@ _**主題上次修改日期：** 2012-10-18_
 
 確定 Enterprise Voice 的軟體和環境先決條件後，可以遵循下列內容進行：
 
-  - 如在[Lync server 2013 中安裝轉送伺服器](lync-server-2013-install-the-files-for-mediation-server.md)的檔案所述，安裝轉送伺服器，但只有在您想要部署獨立轉送伺服器或集區時，因為在組合時已將轉送伺服器安裝為前端集區或 Standard Edition Server 部署程式的一部分。
+  - 如在 [Lync server 2013 中安裝轉送伺服器](lync-server-2013-install-the-files-for-mediation-server.md)的檔案所述，安裝轉送伺服器，但只有在您想要部署獨立轉送伺服器或集區時，因為在組合時已將轉送伺服器安裝為前端集區或 Standard Edition Server 部署程式的一部分。
 
-  - 或者，開始設定設定以路由傳送 Enterprise Voice 使用者的通話，如在[Lync Server 2013 中設定主幹中](lync-server-2013-configuring-trunks.md)所述。
+  - 或者，開始設定設定以路由傳送 Enterprise Voice 使用者的通話，如在 [Lync Server 2013 中設定主幹中](lync-server-2013-configuring-trunks.md)所述。
 
 </div>
 

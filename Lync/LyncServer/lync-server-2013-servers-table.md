@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 伺服器表格
+title: Lync Server 2013： Servers 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3732c96fb28660609aa013909f0d29ee28d8ef74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27f9c3df0533cb3987239f9845296f954802aff1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510170"
 ---
+# <a name="servers-table-in-lync-server-2013"></a>Lync Server 2013 中的 Servers 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="servers-table-in-lync-server-2013"></a>Lync Server 2013 中的伺服器表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42182356"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010年-11-05_
+_**主題上次修改日期：** 2010-11-05_
 
-伺服器表格是一種支援資料表儲存的各種伺服器的相關資訊。 在資料表中的每一筆記錄代表一部伺服器。
+Servers 表格是一種支援資料表，可儲存各種伺服器的相關資訊。 資料表中的每一筆記錄都代表一部伺服器。
 
 
 <table>
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2010年-11-05_
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -64,7 +66,7 @@ _**主題上次修改日期：** 2010年-11-05_
 </tr>
 <tr class="even">
 <td><p><strong>ServerFQDN</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p> </p></td>
 <td><p>伺服器 FQDN。</p></td>
 </tr>

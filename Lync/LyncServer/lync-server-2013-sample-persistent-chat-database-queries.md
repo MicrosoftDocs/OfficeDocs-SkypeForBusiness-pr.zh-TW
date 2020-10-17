@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 範例常設聊天室資料庫查詢
+title: Lync Server 2013：持久聊天資料庫查詢範例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0b9bab437d34ca6b095050fa6536f32c07b64b3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbe31844e0ca78a3f9b133bde96f2a6f625f759
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201079"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511030"
 ---
+# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Lync Server 2013 的持久聊天資料庫查詢範例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>常設聊天室資料庫查詢範例針對 Lync Server 2013
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42201079"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-本節包含常設聊天室資料庫的範例查詢。
+本節包含 Persistent Chat 資料庫的範例查詢。
 
-使用下列範例來取得特定日期之後最活躍的常設聊天室會議室清單。
+使用下列範例來取得特定日期之後最活躍的持久聊天室清單。
 
     SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
       FROM tblChat, tblNode

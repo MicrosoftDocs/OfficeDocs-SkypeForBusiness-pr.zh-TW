@@ -12,20 +12,22 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a961b6eabb85e135b1cfb36cf5738cbf757b547
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 125f9a598d2d768a7417489f1e2004a1cbb17cf8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200999"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510996"
 ---
+# <a name="scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的調整式合併 edge （搭配硬體負載平衡器）
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的調整式合併 edge （搭配硬體負載平衡器）
+
 
 </div>
 
@@ -41,19 +43,19 @@ _**主題上次修改日期：** 2012-10-21_
 
 如果您的組織需要支援15000以上的 Access Edge service 用戶端連線、1000作用中 Web 會議 Edge service 用戶端連線，或500並行 A/V Edge service 會話，而且 Edge Server 的高可用性非常重要，此拓撲提供擴充性和容錯移轉支援的優點。
 
-此圖不會顯示 Director，也就是在 Edge server 與前端集區或伺服器之間的內部網路中部署的選用伺服器角色。 . 如需 Director 拓撲的詳細資訊，請參閱[Lync Server 2013 中 Director 所需的元件](lync-server-2013-components-required-for-the-director.md)。
+此圖不會顯示 Director，也就是在 Edge server 與前端集區或伺服器之間的內部網路中部署的選用伺服器角色。 . 如需 Director 拓撲的詳細資訊，請參閱 [Lync Server 2013 中 Director 所需的元件](lync-server-2013-components-required-for-the-director.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 此圖說明 IP 位址定址的方向和範例，但並未嘗試使用正確的傳出和傳入流量來表示實際的通訊流量。 此圖表示的是可能流量的高階檢視。 有關傳入 (至聆聽連接埠) 和傳出 (至目的地伺服器或用戶端) 流量的詳細資訊，會在每個案例中表示於連接埠摘要圖中。 例如，TCP 443 實際上只會輸入 (至 Edge Server 或反向 proxy) ，而且只是從通訊協定 (TCP) 觀點的雙向流程。 另外，此圖也顯示在 NAT (網路位址轉譯) 發生之時 (目的地位址在傳入時變更，來源位址在傳出時變更) 流量在變化時的特性。 外部及內部防火牆和伺服器介面範例僅顯示作為參考之用。 最後，預設閘道和路由關係會視需要顯示。 另請注意，圖表會使用<EM>.Com</EM> dns 區域來代表反向 Proxy 和 Edge server 的外部 DNS 區域，而<EM>.net</EM> DNS 區域則是指內部 DNS 區域。
+> 此圖說明 IP 位址定址的方向和範例，但並未嘗試使用正確的傳出和傳入流量來表示實際的通訊流量。 此圖表示的是可能流量的高階檢視。 有關傳入 (至聆聽連接埠) 和傳出 (至目的地伺服器或用戶端) 流量的詳細資訊，會在每個案例中表示於連接埠摘要圖中。 例如，TCP 443 實際上只會輸入 (至 Edge Server 或反向 proxy) ，而且只是從通訊協定 (TCP) 觀點的雙向流程。 另外，此圖也顯示在 NAT (網路位址轉譯) 發生之時 (目的地位址在傳入時變更，來源位址在傳出時變更) 流量在變化時的特性。 外部及內部防火牆和伺服器介面範例僅顯示作為參考之用。 最後，預設閘道和路由關係會視需要顯示。 另請注意，圖表會使用 <EM>.Com</EM> dns 區域來代表反向 Proxy 和 Edge server 的外部 DNS 區域，而 <EM>.net</EM> DNS 區域則是指內部 DNS 區域。
 
 
 
 </div>
 
-Microsoft Lync Server 2013 的新功能支援 IPv6 定址。 和 IPv4 位址指定相近的是，必須以屬於指派之 IPv6 位址空間的位址來指派 IPv6 位址。 本主題中的位址僅為範例。 您必須取得可在您部署中運作的 IPv6 位址，以提供正確的範圍，並和內部及外部位址指定相互溝通。 Windows Server 提供一項功能，對過渡 IPv6 作業和 IPv4 IPv6 稱為*雙重堆疊*的通訊很重要。 雙重堆疊是針對 IPv4 及 IPv6 獨立且獨特的網路堆疊。 雙重堆疊可允許您同時指派 IPv4 及 IPv6 的位址指定，也允許伺服器與其他主機和用戶端，根據其需求為何來進行通訊。
+Microsoft Lync Server 2013 的新功能支援 IPv6 定址。 和 IPv4 位址指定相近的是，必須以屬於指派之 IPv6 位址空間的位址來指派 IPv6 位址。 本主題中的位址僅為範例。 您必須取得可在您部署中運作的 IPv6 位址，以提供正確的範圍，並和內部及外部位址指定相互溝通。 Windows Server 提供一項功能，對過渡 IPv6 作業和 IPv4 IPv6 稱為 *雙重堆疊*的通訊很重要。 雙重堆疊是針對 IPv4 及 IPv6 獨立且獨特的網路堆疊。 雙重堆疊可允許您同時指派 IPv4 及 IPv6 的位址指定，也允許伺服器與其他主機和用戶端，根據其需求為何來進行通訊。
 
 用於 IPv6 定址的一般網址類別型將會是 IPv6 的全域位址 (類似于公用 IPv4 位址) 、IPv6 唯一本機位址 (類似于私人 IPv4 位址範圍) 和 IPv6 連結本機位址 (類似于 Windows Server 中 IPv4 的自動私人 IP 位址) 
 
@@ -71,7 +73,7 @@ IPv6 適用的網路位址轉譯技術 (NAT) 可用於 IPv6 對 IPv4 的 NAT (�
 
 **硬體負載平衡器設定**
 
-如需詳細資訊，請參閱[Lync Server 2013 中的外部使用者存取所需的元件](lync-server-2013-components-required-for-external-user-access.md)中的「A/V Edge 的硬體負載平衡器需求」一節。
+如需詳細資訊，請參閱 [Lync Server 2013 中的外部使用者存取所需的元件](lync-server-2013-components-required-for-external-user-access.md)中的「A/V Edge 的硬體負載平衡器需求」一節。
 
 **調整式合併 Edge 拓撲 (硬體負載平衡)**
 

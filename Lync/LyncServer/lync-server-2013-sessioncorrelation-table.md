@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SessionCorrelation 表格'
+title: Lync Server 2013： SessionCorrelation 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0f3f7636354915e858016a55389a993f16ec988
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4be49e052dc7ffd431e980d1a3f969bfffdfce8c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200729"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510100"
 ---
+# <a name="sessioncorrelation-table-in-lync-server-2013"></a>Lync Server 2013 中的 SessionCorrelation 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessioncorrelation-table-in-lync-server-2013"></a>Lync Server 2013 中的 SessionCorrelation 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42200729"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-SessionCorrelation 表格是一種支援資料表。 每筆記錄代表一個 CorrelationID 是用來建立多個工作階段之間的關係。
+SessionCorrelation 表格是支援的表格。 每筆記錄代表一個用於關聯多個會話的 CorrelationID。
 
 
 <table>
@@ -51,13 +53,13 @@ SessionCorrelation 表格是一種支援資料表。 每筆記錄代表一個 Co
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>總和檢查碼</strong></p></td>
+<td><p><strong>校驗</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td></td>
@@ -66,13 +68,13 @@ SessionCorrelation 表格是一種支援資料表。 每筆記錄代表一個 Co
 <td><p><strong>CorrelationKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>唯一的數字識別這部 A / V 會議伺服器。</p></td>
+<td><p>用於識別此 A/V 會議伺服器的唯一號碼。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>相互關聯識別碼</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>CorrelationID</strong></p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p>Unique</p></td>
-<td><p>相互關聯的工作階段會有相同的相互關聯識別碼。</p></td>
+<td><p>關聯的會話會有相同的相互關聯識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>

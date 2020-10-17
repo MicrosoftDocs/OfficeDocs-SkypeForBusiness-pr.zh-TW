@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 結構描述參考
+title: Lync Server 2013：架構參考
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184191
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20c730e2363186a929e2c59ccbd4e01863bc8ffa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28090bc4a391ce46cee4103ba09a03535425ee1e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510480"
 ---
+# <a name="schema-reference-for-lync-server-2013"></a>Lync Server 2013 的架構參考
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-reference-for-lync-server-2013"></a>Lync Server 2013 的結構描述參考
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42200959"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-29_
+_**主題上次修改日期：** 2012-06-29_
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [詳細通話記錄 (CDR) 資料庫結構描述在 Lync Server 2013](lync-server-2013-call-detail-recording-cdr-database-schema.md)
+  - [Lync Server 2013 中的詳細通話記錄 (CDR) 資料庫架構](lync-server-2013-call-detail-recording-cdr-database-schema.md)
 
-  - [Lync Server 2013 中的經驗 (QoE) 資料庫結構描述的品質](lync-server-2013-quality-of-experience-qoe-database-schema.md)
+  - [在 Lync Server 2013 中 (QoE) 資料庫架構的經驗品質](lync-server-2013-quality-of-experience-qoe-database-schema.md)
 
-  - [在 [Lync Server 2013 常設聊天室資料庫結構描述](lync-server-2013-persistent-chat-database-schema.md)
+  - [Lync Server 2013 中的持久聊天資料庫架構](lync-server-2013-persistent-chat-database-schema.md)
 
-  - [Active Directory 架構延伸模組、 類別及 Lync Server 2013 所使用的屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
+  - [Lync Server 2013 使用的 Active Directory 架構擴充功能、類別及屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
 
 </div>
 

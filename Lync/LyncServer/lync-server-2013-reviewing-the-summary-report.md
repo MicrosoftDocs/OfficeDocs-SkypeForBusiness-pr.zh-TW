@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 檢閱摘要報告
+title: Lync Server 2013：檢查摘要報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06cac750e1f63ab580cb771b201a8614e2eaa687
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 63b500fba5b93cf0503b115458d38616b74ddf09
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511290"
 ---
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>在 Lync Server 2013 中查看摘要報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>檢閱 Lync Server 2013 中的摘要報告
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42201219"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
 Lync Server 系統管理員報告是第一份珍貴報告 (共有 4 份)，用於記錄您的設計細節。本報告中的資訊以及其他 3 份相關報告可為您的資訊技術團隊提供珍貴記錄：
 
@@ -47,16 +49,16 @@ Lync Server 系統管理員報告是第一份珍貴報告 (共有 4 份)，用�
 
   - DNS 報告
 
-摘要報告列出與 Edge 網路相關的一般設定資訊。 位置、 完整的網域名稱 (FQDN) 及 IP 位址類型的網路，並記載專屬於特定角色的註解。
+摘要報告列出與 Edge 網路相關的一般設定資訊。 會記錄位置、完整功能變數名稱 (FQDN) 和 IP 位址、網路類型，以及特定角色特有的批註。
 
-設計師與負責將部署、 管理和維護基礎結構小組應詳細檢閱摘要報告的正確性，並確保錯誤會在最低限度下。
+設計人員和部署、管理及維護基礎結構的每一個小組，都應該檢查摘要報告的準確性，並確認至少有錯誤。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[檢閱 Lync Server 2013 中的系統管理員報告](lync-server-2013-reviewing-the-administrator-reports.md)  
+[在 Lync Server 2013 中審閱管理員報告](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

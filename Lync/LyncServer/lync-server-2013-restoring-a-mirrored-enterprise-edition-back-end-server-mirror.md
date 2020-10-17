@@ -12,20 +12,22 @@ ms:contentKeyID: 51541471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 658b271bc71a78c564c42fc96126ce276071709c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e4bbb7d74c6bf660c69a15ff8250d95f04fed98
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201419"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511580"
 ---
+# <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---mirror"></a>在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-鏡像
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---mirror"></a>在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-鏡像
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201419"
 
 _**主題上次修改日期：** 2013-02-19_
 
-如果您在鏡像設定中有 Enterprise Edition 後端伺服器，且只有鏡像失敗，請遵循本節中的程式。 如果主資料庫和鏡像都失敗，請參閱[在 Lync Server 2013 中還原 Enterprise Edition 後端伺服器](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)。 若只有主要的失敗，請參閱[在 Lync server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-主要](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md)。 若主控中央管理存放區的資料庫失敗，請參閱[在 Lync server 2013 中還原主控中央管理存放區的伺服器](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)。 如果不是後端伺服器的 Enterprise Edition 成員伺服器失敗，請參閱[在 Lync server 2013 中還原 Enterprise edition 成員伺服器](lync-server-2013-restoring-an-enterprise-edition-member-server.md)。
+如果您在鏡像設定中有 Enterprise Edition 後端伺服器，且只有鏡像失敗，請遵循本節中的程式。 如果主資料庫和鏡像都失敗，請參閱 [在 Lync Server 2013 中還原 Enterprise Edition 後端伺服器](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)。 若只有主要的失敗，請參閱 [在 Lync server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-主要](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md)。 若主控中央管理存放區的資料庫失敗，請參閱 [在 Lync server 2013 中還原主控中央管理存放區的伺服器](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)。 如果不是後端伺服器的 Enterprise Edition 成員伺服器失敗，請參閱 [在 Lync server 2013 中還原 Enterprise edition 成員伺服器](lync-server-2013-restoring-an-enterprise-edition-member-server.md)。
 
 建議您先取得系統的影像複本，再開始還原。 您可以使用這個影像做為復原點，以防還原期間發生問題。 在您安裝作業系統和 SQL Server 之後，您可能會想要使用影像副本，並還原或重新註冊憑證。
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2013-02-19_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶，登入前端伺服器。
 
-2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  卸載鏡像。 首先，輸入下列 Cmdlet：
     
@@ -69,19 +71,19 @@ _**主題上次修改日期：** 2013-02-19_
 
 8.  使用拓撲產生器來安裝鏡像資料庫。 請執行下列步驟：
     
-      - 啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
+      - 啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
     
-      - 以滑鼠右鍵按一下 [Lync Server 2013] 節點，按一下 [**拓撲**]，然後按一下 [**安裝資料庫**]。
+      - 以滑鼠右鍵按一下 [Lync Server 2013] 節點，按一下 [ **拓撲**]，然後按一下 [ **安裝資料庫**]。
     
-      - 遵循 [**安裝資料庫**] 嚮導。 在 [**建立資料庫**] 頁面上，選取您要重新建立的資料庫。
+      - 遵循 [ **安裝資料庫** ] 嚮導。 在 [ **建立資料庫** ] 頁面上，選取您要重新建立的資料庫。
     
-      - 依照嚮導執行，直到出現 [**建立鏡像資料庫**] 的提示。 選取您要安裝的資料庫並完成此程式。
+      - 依照嚮導執行，直到出現 [ **建立鏡像資料庫** ] 的提示。 選取您要安裝的資料庫並完成此程式。
         
         <div>
         
 
         > [!TIP]
-        > 您可以使用<STRONG>Install-CsMirrorDatabase</STRONG> Cmdlet 來設定鏡像，而不是執行拓撲產生器。 如需詳細資料，請參閱＜Lync Server 管理命令介面＞文件。
+        > 您可以使用 <STRONG>Install-CsMirrorDatabase</STRONG> Cmdlet 來設定鏡像，而不是執行拓撲產生器。 如需詳細資料，請參閱＜Lync Server 管理命令介面＞文件。
 
         
         </div>

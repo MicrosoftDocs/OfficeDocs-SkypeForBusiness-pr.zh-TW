@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182666"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510870"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013 中的架構屬性和描述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013 中的架構屬性和描述
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182666"
 
 _**主題上次修改日期：** 2012-10-06_
 
-本節說明 Lync Server 2013 所使用的所有架構屬性。 如需與屬性相關聯的類別，請參閱[在 Lync Server 2013 中依類別的架構屬性](lync-server-2013-schema-attributes-by-class.md)。 如需 Lync Server 2013 中新的類別和屬性清單，請參閱[Lync server 2013 中的架構變更](lync-server-2013-schema-changes-in-lync-server-2013.md)。
+本節說明 Lync Server 2013 所使用的所有架構屬性。 如需與屬性相關聯的類別，請參閱 [在 Lync Server 2013 中依類別的架構屬性](lync-server-2013-schema-attributes-by-class.md)。 如需 Lync Server 2013 中新的類別和屬性清單，請參閱 [Lync server 2013 中的架構變更](lync-server-2013-schema-changes-in-lync-server-2013.md)。
 
 連結成對的屬性會指定為正向連結或反向連結。 參照至另一個物件的屬性是轉寄連結;參照至第一個物件的另一個物件的屬性是 back 連結。 轉寄連結是可更新的，而 back 連結是唯讀的。
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2012-10-06_
 <tbody>
 <tr class="odd">
 <td><p>dnsHostName</p></td>
-<td><p>現在與<strong>MsRTCSIP 集</strong>區及<strong>msRTCSIP MonitoringServer</strong>類別相關聯之 Active Directory 網域服務中的現有屬性。 此屬性會指定集區或監控伺服器的完整功能變數名稱 (FQDN) 。</p>
+<td><p>現在與 <strong>MsRTCSIP 集</strong> 區及 <strong>msRTCSIP MonitoringServer</strong> 類別相關聯之 Active Directory 網域服務中的現有屬性。 此屬性會指定集區或監控伺服器的完整功能變數名稱 (FQDN) 。</p>
 <p>每個區段的有效值為63個字元;整個 FQDN 的有效值為255個字元。</p></td>
 <td><p>Microsoft Office Live 通訊伺服器2005中的新功能。</p></td>
 </tr>
@@ -123,12 +125,12 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP ApplicationServerBL</p></td>
-<td><p>此屬性包含隸屬于此集區的應用程式伺服器清單。 此反向連結屬性的對應正向連結是<strong>msRTCSIP-ApplicationServerPoolLink</strong>。</p></td>
+<td><p>此屬性包含隸屬于此集區的應用程式伺服器清單。 此反向連結屬性的對應正向連結是 <strong>msRTCSIP-ApplicationServerPoolLink</strong>。</p></td>
 <td><p>Office 通訊伺服器 2007 R2 中的新功能。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP ApplicationServerPoolLink</p></td>
-<td><p>此屬性指向此應用程式伺服器所屬的集區。 這是轉寄連結。 對應的 [反向] 連結是<strong>msRTCSIP-ApplicationServerBL</strong>。</p></td>
+<td><p>此屬性指向此應用程式伺服器所屬的集區。 這是轉寄連結。 對應的 [反向] 連結是 <strong>msRTCSIP-ApplicationServerBL</strong>。</p></td>
 <td><p>Office 通訊伺服器 2007 R2 中的新功能。</p></td>
 </tr>
 <tr class="odd">
@@ -198,7 +200,7 @@ _**主題上次修改日期：** 2012-10-06_
 </ul>
 <p>Live 迅 Server 2005 中先前有效的值如下：</p>
 <ul>
-<li><p>0：使用依下列優先順序<strong>msRTCSIP-ArchiveDefault</strong>和<strong>msRTCSIP-ArchiveFederation</strong>所定義的預設值：</p>
+<li><p>0：使用依下列優先順序 <strong>msRTCSIP-ArchiveDefault</strong> 和 <strong>msRTCSIP-ArchiveFederation</strong> 所定義的預設值：</p>
 <ul>
 <li><p>1：封存</p></li>
 <li><p>2：不要封存</p></li>
@@ -248,7 +250,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-預設值</p></td>
-<td><p>這個 Boolean 屬性定義電話使用方式是否為預設使用量。 如果此屬性設定為<strong>TRUE</strong>，則系統會使用電話的預設值，且無法由系統管理員刪除。 如果此屬性設為<strong>FALSE</strong>，則可刪除使用方式。</p></td>
+<td><p>這個 Boolean 屬性定義電話使用方式是否為預設使用量。 如果此屬性設定為 <strong>TRUE</strong>，則系統會使用電話的預設值，且無法由系統管理員刪除。 如果此屬性設為 <strong>FALSE</strong>，則可刪除使用方式。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
@@ -264,13 +266,13 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-DefaultLocationProfileLink (過時) </p></td>
 <td><p>這個單一值屬性包含指派給它的位置設定檔類別物件 (DN) 的辨識名稱。</p>
-<p>轉寄連結：<strong>連結 ID 11036</strong></p>
-<p>對應的反向連結<strong>msRTCSIP-ServerReferenceBL</strong>。</p></td>
+<p>轉寄連結： <strong>連結 ID 11036</strong></p>
+<p>對應的反向連結 <strong>msRTCSIP-ServerReferenceBL</strong>。</p></td>
 <td><p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-DefaultPolicy (過時) </p></td>
-<td><p>這個布林值屬性指定原則是否為預設原則。 原則是設定為<strong>TRUE</strong>時的預設原則。</p></td>
+<td><p>這個布林值屬性指定原則是否為預設原則。 原則是設定為 <strong>TRUE</strong>時的預設原則。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能</p>
 <p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
@@ -338,11 +340,11 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-EnableBestEffortNotify (過時) </p></td>
 <td><p>此屬性會控制伺服器是否會產生最佳的努力，以回應用戶端的訂閱要求 (BENOTIFY) 要求，而不是通知要求。 BENOTIFY 是對訂閱通知握手的效能擴充擴充，伺服器會產生 BENOTIFY 要求，而不是一般通知要求。 效能好處是 BENOTIFY 要求不需要用戶端的 200 OK 回應，因為 NOTIFY 要求會執行。</p>
-<p>有效值為<strong>TRUE</strong>或<strong>FALSE</strong>。</p>
+<p>有效值為 <strong>TRUE</strong> 或 <strong>FALSE</strong>。</p>
 <div>
 
 > [!NOTE]  
-> 即時通訊伺服器2003不支援 BENOTIFY 要求。 若要與使用 live 迅 Server 2005 和協力廠商伺服器上執行的即時通訊伺服器2003伺服器 API 撰寫的伺服器應用程式互動，可將其值設為<STRONG>FALSE</STRONG>，以停用 BENOTIFY 要求。 BENOTIFY 目前不屬於 IETF (網際網路工程工作小組) SIP 標準化處理常式。
+> 即時通訊伺服器2003不支援 BENOTIFY 要求。 若要與使用 live 迅 Server 2005 和協力廠商伺服器上執行的即時通訊伺服器2003伺服器 API 撰寫的伺服器應用程式互動，可將其值設為 <STRONG>FALSE</STRONG>，以停用 BENOTIFY 要求。 BENOTIFY 目前不屬於 IETF (網際網路工程工作小組) SIP 標準化處理常式。
 
 
 </div></td>
@@ -351,7 +353,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-EnableFederation (過時) </p></td>
-<td><p>此屬性是一種全域參數，由 IT 系統管理員用來設定是否允許使用者與其他組織的使用者進行通訊。 它可讓系統管理員覆寫個別使用者的<strong>FederationEnabled</strong>屬性。 此屬性可用來協助保護內部網路免受來自公司的蠕蟲、病毒或目標攻擊可能造成的網際網路攻擊。</p>
+<td><p>此屬性是一種全域參數，由 IT 系統管理員用來設定是否允許使用者與其他組織的使用者進行通訊。 它可讓系統管理員覆寫個別使用者的 <strong>FederationEnabled</strong> 屬性。 此屬性可用來協助保護內部網路免受來自公司的蠕蟲、病毒或目標攻擊可能造成的網際網路攻擊。</p>
 <p>有效值 (和相關聯的位位置) 如下：</p>
 <ul>
 <li><p>1：啟用公用 IM 連線 (位位置 0) </p></li>
@@ -385,14 +387,14 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP FederationEnabled</p></td>
 <td><p>此屬性控制是否為單一使用者啟用同盟。 它會由企業服務層強制執行。 它會標示為進行通用類別目錄複寫。</p>
-<p>有效值為<strong>TRUE</strong>或<strong>FALSE</strong>。</p></td>
+<p>有效值為 <strong>TRUE</strong> 或 <strong>FALSE</strong>。</p></td>
 <td><p>在即時通訊伺服器2005中新增。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-FrontEndServers</p></td>
 <td><p>此屬性是與集區相關聯之所有 Enterprise Edition 伺服器的功能變數名稱的多重值清單。</p>
-<p>反向連結：<strong>連結 ID 11023</strong></p>
-<p>此反向連結的對應正向連結是<strong>msRTCSIP-PoolAddress</strong>。</p></td>
+<p>反向連結： <strong>連結 ID 11023</strong></p>
+<p>此反向連結的對應正向連結是 <strong>msRTCSIP-PoolAddress</strong>。</p></td>
 <td><p>在即時通訊伺服器2005中新增。</p></td>
 </tr>
 <tr class="odd">
@@ -402,7 +404,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-GlobalSettingsData (過時) </p></td>
-<td><p>此屬性會儲存 [名稱：值] 配對。 已定義的 name： value 對適用于<strong>允許輪詢顯示狀態</strong>設定。</p></td>
+<td><p>此屬性會儲存 [名稱：值] 配對。 已定義的 name： value 對適用于 <strong>允許輪詢顯示狀態</strong> 設定。</p></td>
 <td><p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
 <tr class="odd">
@@ -431,7 +433,7 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP InternetAccessEnabled</p></td>
 <td><p>此屬性控制是否單一使用者啟用外部使用者存取。 它會由企業服務層強制執行。 它會標示為進行通用類別目錄複寫。</p>
-<p>有效值為<strong>TRUE</strong>或<strong>FALSE</strong>。</p></td>
+<p>有效值為 <strong>TRUE</strong> 或 <strong>FALSE</strong>。</p></td>
 <td><p>在即時通訊伺服器2005中新增。</p></td>
 </tr>
 <tr class="even">
@@ -459,8 +461,8 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-LocalNormalizationLinks (過時) </p></td>
 <td><p>此多重值屬性包含本機正規化辨別名稱的清單，這些名稱是 (DN) 與此位置設定檔相關聯。 此屬性的類型是 DN 二進位。 位置設定檔和本機正規化規則之間有一對多的關聯性。 本機正規化 DNs 清單的順序必須依管理員所指定的順序來維護。 順序保留是由 DN 二進位的二進位部分所維護，它會指定順序索引。</p>
-<p>轉寄連結：<strong>連結 ID 11034</strong></p>
-<p>此 forward link 屬性的對應反向連結是<strong>msRTCSIP-LocationProfileBL</strong>。</p></td>
+<p>轉寄連結： <strong>連結 ID 11034</strong></p>
+<p>此 forward link 屬性的對應反向連結是 <strong>msRTCSIP-LocationProfileBL</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p>
 <p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
@@ -478,8 +480,8 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-locationProfileBL (過時) </p></td>
 <td><p>此多重值屬性包含位置設定檔辨別名稱的清單。 此屬性指定指向一或多個位置設定檔的後退連結。</p>
-<p>反向連結：<strong>連結 ID 11035</strong></p>
-<p>此屬性會對應至 [轉寄] 連結<strong>msRTCSIP-LocalNormalizationLinks</strong>。</p></td>
+<p>反向連結： <strong>連結 ID 11035</strong></p>
+<p>此屬性會對應至 [轉寄] 連結 <strong>msRTCSIP-LocalNormalizationLinks</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p>
 <p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
@@ -538,8 +540,8 @@ _**主題上次修改日期：** 2012-10-06_
 <td><p>msRTCSIP-MCUFactoryAddress</p></td>
 <td><p>此屬性是電腦類別下的服務控制點屬性，可指定回其所屬的 multipoint 控制項單位 (MCU) 的連結。 這種服務控制點和屬性是針對每家 Microsoft MCU 而建立的。 每個 Microsoft MCU 都必須尋找所屬集區的後端伺服器，以便從該伺服器中取得集區層級設定。</p>
 <p>此屬性的值是 MCU 工廠 (DN) 的辨別名稱。 這是單一值屬性，並標示為進行通用類別目錄複寫。</p>
-<p>轉寄連結：<strong>連結 ID 11026</strong></p>
-<p>此 forward link 屬性的對應反向連結是<strong>msRTCSIP-MCUServers</strong>。</p></td>
+<p>轉寄連結： <strong>連結 ID 11026</strong></p>
+<p>此 forward link 屬性的對應反向連結是 <strong>msRTCSIP-MCUServers</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
@@ -553,20 +555,20 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-MCUFactoryPath</p></td>
 <td><p>這是單一值屬性，包含與集區相關聯之單一 MCU 工廠 (DN) 的辨識名稱。</p>
-<p>轉寄連結：<strong>連結 ID 11024</strong></p>
-<p>此 forward link 屬性的對應反向連結是<strong>msRTCSIP-PoolAddresses</strong>。</p></td>
+<p>轉寄連結： <strong>連結 ID 11024</strong></p>
+<p>此 forward link 屬性的對應反向連結是 <strong>msRTCSIP-PoolAddresses</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP MCUFactoryProviderID</p></td>
-<td><p>此屬性是單一值字串，用來指定 MCU 工廠提供者的 GUID。 根據 GUID 值，MCU 出廠過程會決定是否要為此 MCU 類型服務。 如果 GUID 值為<strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>，則預設會在 Lync Server 中使用 MCU factory 程式 () 將會處理該流程。 對於任何其他 GUID 值，MCU 工廠處理常式將不會為 MCU 類型提供服務。</p></td>
+<td><p>此屬性是單一值字串，用來指定 MCU 工廠提供者的 GUID。 根據 GUID 值，MCU 出廠過程會決定是否要為此 MCU 類型服務。 如果 GUID 值為 <strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>，則預設會在 Lync Server 中使用 MCU factory 程式 () 將會處理該流程。 對於任何其他 GUID 值，MCU 工廠處理常式將不會為 MCU 類型提供服務。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-MCUServers</p></td>
 <td><p>此屬性是多值的辨識名稱清單 (DN) 。 此屬性包含與這個 MCU 工廠相關聯之相同類型及廠商的所有 MCU 伺服器清單。 每個區段的有效值為63個字元;整個 FQDN 的有效值為255個字元。</p>
 <p>反向連結：連結 ID 11027</p>
-<p>此反向連結的對應正向連結是<strong>msRTCSIP-MCUFactoryAddress</strong>。</p></td>
+<p>此反向連結的對應正向連結是 <strong>msRTCSIP-MCUFactoryAddress</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
@@ -583,7 +585,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP MCUVendor</p></td>
-<td><p>此屬性是單一值字串，用來指定 MCU 廠商的名稱。 所有 Microsoft MCUs 都會將此屬性指定為<strong>Microsoft Corporation</strong>。</p></td>
+<td><p>此屬性是單一值字串，用來指定 MCU 廠商的名稱。 所有 Microsoft MCUs 都會將此屬性指定為 <strong>Microsoft Corporation</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
@@ -679,8 +681,8 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-PhoneRouteBL (過時) </p></td>
 <td><p>此多重值屬性包含電話路由辨別名稱 (DN) 清單。 此屬性指定指向一或多個電話路由的反向連結。</p>
-<p>反向連結：<strong>連結 ID 11033</strong></p>
-<p>此屬性會對應至 [轉寄] 連結<strong>msRTCSIP-RouteUsageLinks</strong>。</p></td>
+<p>反向連結： <strong>連結 ID 11033</strong></p>
+<p>此屬性會對應至 [轉寄] 連結 <strong>msRTCSIP-RouteUsageLinks</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p>
 <p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
@@ -745,15 +747,15 @@ _**主題上次修改日期：** 2012-10-06_
 <td><p>msRTCSIP-PoolAddress</p></td>
 <td><p>此屬性指定的連結會傳回電腦所屬的集區。 不論電腦正在執行 Standard Edition 還是 Lync Server Enterprise Edition，都設定此屬性。 此屬性標示為進行通用類別目錄複寫。</p>
 <p>有效的值是集區的功能變數名稱。</p>
-<p>轉寄連結：<strong>連結 ID 11022</strong></p>
-<p>此 forward link 屬性的對應反向連結是<strong>msRTCSIP-FrontEndServers</strong>。</p></td>
+<p>轉寄連結： <strong>連結 ID 11022</strong></p>
+<p>此 forward link 屬性的對應反向連結是 <strong>msRTCSIP-FrontEndServers</strong>。</p></td>
 <td><p>在即時通訊伺服器2005中新增。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-PoolAddresses</p></td>
 <td><p>此多重值屬性包含與 MCU 工廠關聯之集區 (DN) 的辨識名稱清單。</p>
-<p>反向連結：<strong>連結 ID 11025</strong></p>
-<p>此反向連結的對應正向連結是<strong>msRTCSIP-MCUFactoryPath</strong>。</p></td>
+<p>反向連結： <strong>連結 ID 11025</strong></p>
+<p>此反向連結的對應正向連結是 <strong>msRTCSIP-MCUFactoryPath</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
@@ -770,7 +772,7 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP PoolDomainFQDN</p></td>
 <td><p>此屬性是單一值字串值。 當此屬性的值為時，如果系統管理員想要建立前端集區的 FQDN 不符合建立前端集區的 Active Directory 網域結構，則此屬性的值會代表集區的網域 FQDN (例如，SIP 命名空間會從網域名稱系統中脫離 (DNS) 命名空間) 。</p>
-<p>建議您將前端集區域 FQDN 對應到功能變數名稱部分，以作為集區所在的 Active Directory 網域。 因此，當此屬性沒有任何值時，前端集區 FQDN 會預設為 Active Directory 功能變數名稱結構（由<strong>dnsHostName</strong>屬性工作表示）。</p></td>
+<p>建議您將前端集區域 FQDN 對應到功能變數名稱部分，以作為集區所在的 Active Directory 網域。 因此，當此屬性沒有任何值時，前端集區 FQDN 會預設為 Active Directory 功能變數名稱結構（由 <strong>dnsHostName</strong> 屬性工作表示）。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="even">
@@ -843,7 +845,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP 路由</p></td>
-<td><p>此屬性是 Boolean 屬性，用來判斷是否已授權 Lync Server 使用其 GRUU 位址路由傳送至此服務。 如果此值設為<strong>TRUE</strong>，則會授權 Lync Server 路由傳送至此服務。 如果此值設為<strong>FALSE</strong>，Lync Server 就不會獲得路由傳送到此服務的授權。</p></td>
+<td><p>此屬性是 Boolean 屬性，用來判斷是否已授權 Lync Server 使用其 GRUU 位址路由傳送至此服務。 如果此值設為 <strong>TRUE</strong>，則會授權 Lync Server 路由傳送至此服務。 如果此值設為 <strong>FALSE</strong>，Lync Server 就不會獲得路由傳送到此服務的授權。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
@@ -855,8 +857,8 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-RouteUsageLinks (過時) </p></td>
 <td><p>此多重值辨別名稱 (DN) 屬性包含路由流量辨別名稱的清單。</p>
-<p>轉寄連結：<strong>連結 ID 11032</strong></p>
-<p>此屬性是對應的反向連結<strong>msRTCSIP-PhoneRouteBL</strong>的向前連結。</p></td>
+<p>轉寄連結： <strong>連結 ID 11032</strong></p>
+<p>此屬性是對應的反向連結 <strong>msRTCSIP-PhoneRouteBL</strong>的向前連結。</p></td>
 <td><p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
 <tr class="odd">
@@ -887,8 +889,8 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-ServerBL</p></td>
-<td><p>此多重值屬性是一個 back 連結，其中包含可辨識名稱清單 (DN) 。 這些 DNs 指向集區或<strong>TrustedService</strong>物件。</p>
-<p>此屬性會對應至 [轉寄] 連結<strong>msRTCSIP-TrustedServiceLinks</strong>。</p></td>
+<td><p>此多重值屬性是一個 back 連結，其中包含可辨識名稱清單 (DN) 。 這些 DNs 指向集區或 <strong>TrustedService</strong> 物件。</p>
+<p>此屬性會對應至 [轉寄] 連結 <strong>msRTCSIP-TrustedServiceLinks</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
@@ -899,8 +901,8 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-ServerReferenceBL (過時) </p></td>
 <td><p>此多重值屬性包含辨識名稱的清單。 這些辨別名稱是指參照其他可指派預設位置設定檔之伺服器物件的連結。</p>
-<p>反向連結：<strong>連結 ID 11037</strong></p>
-<p>此反向連結的對應正向連結是<strong>msRTCSIP-DefaultLocationProfileLink</strong>。</p>
+<p>反向連結： <strong>連結 ID 11037</strong></p>
+<p>此反向連結的對應正向連結是 <strong>msRTCSIP-DefaultLocationProfileLink</strong>。</p>
 <p>此反向連結屬性只會參照集區和轉送伺服器。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p>
 <p>在 Lync Server 2010 中已過時。</p></td>
@@ -922,7 +924,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP SourceObjectType</p></td>
-<td><p>整數類型的這個單一值屬性指定<strong>msDS-SourceObjectDN</strong>指向的物件類型，如下所示：</p>
+<td><p>整數類型的這個單一值屬性指定 <strong>msDS-SourceObjectDN</strong> 指向的物件類型，如下所示：</p>
 <ul>
 <li><p>null |0x00000001：代表來自不同樹系的 Windows NT 伺服器主體使用者物件</p></li>
 <li><p>下列屬性代表通訊群組擴充的不同樹系中的群組類型：</p>
@@ -951,7 +953,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-TargetPhoneNumber (過時) </p></td>
-<td><p>這個單一值字串屬性包含電話號碼模式或範圍，以路由傳送至<strong>msRTCSIP-Gateways</strong>中定義的指定閘道。</p></td>
+<td><p>這個單一值字串屬性包含電話號碼模式或範圍，以路由傳送至 <strong>msRTCSIP-Gateways</strong>中定義的指定閘道。</p></td>
 <td><p>在 Lync Server 2010 中已過時。</p></td>
 </tr>
 <tr class="even">
@@ -1022,7 +1024,7 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-TrustedServiceLinks</p></td>
 <td><p>此多重值屬性包含辨識名稱清單 (DN) 參考信任的服務物件，例如媒體轉送驗證服務。 執行 A/V 會議服務之 Edge Server 上的媒體轉送驗證服務 (實際組合) 必須與集區相關聯，以支援遠端使用者的音訊案例。</p>
-<p>此 forward link 屬性的對應反向連結是<strong>msRTCSIP-ServerBL</strong>。</p></td>
+<p>此 forward link 屬性的對應反向連結是 <strong>msRTCSIP-ServerBL</strong>。</p></td>
 <td><p>Uc</p></td>
 </tr>
 <tr class="even">
@@ -1082,7 +1084,7 @@ _**主題上次修改日期：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP UserExtension</p></td>
-<td><p>此多重值屬性以 name = value 的格式包含名稱-值對的清單 &quot; 。 &quot;此屬性標示為進行通用類別目錄複寫。</p></td>
+<td><p>此多重值屬性以 name = value 的格式包含名稱-值對的清單 &quot; 。 &quot; 此屬性標示為進行通用類別目錄複寫。</p></td>
 <td><p>使用 SP1 即時通訊伺服器2005中的新功能。</p></td>
 </tr>
 <tr class="odd">
@@ -1119,15 +1121,15 @@ _**主題上次修改日期：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-WebComponentsPoolAddress</p></td>
 <td><p>這個單一值屬性會指向網頁元件所屬的集區或 Standard Edition server。</p>
-<p>轉寄連結：<strong>連結 ID 11028</strong></p>
-<p>此 forward link 屬性的對應反向連結是<strong>msRTCSIP-WebComponentsServers</strong>。</p></td>
+<p>轉寄連結： <strong>連結 ID 11028</strong></p>
+<p>此 forward link 屬性的對應反向連結是 <strong>msRTCSIP-WebComponentsServers</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-WebComponentsServers</p></td>
 <td><p>此屬性是多重值的辨識名稱清單。 此屬性包含與此集區相關聯之所有網頁伺服器的清單。</p>
-<p>反向連結：<strong>連結 ID 11029</strong></p>
-<p>此反向連結的對應正向連結是<strong>msRTCSIP-WebComponentsPoolAddress</strong>。</p></td>
+<p>反向連結： <strong>連結 ID 11029</strong></p>
+<p>此反向連結的對應正向連結是 <strong>msRTCSIP-WebComponentsPoolAddress</strong>。</p></td>
 <td><p>Office 通訊伺服器2007的新增功能。</p></td>
 </tr>
 <tr class="even">

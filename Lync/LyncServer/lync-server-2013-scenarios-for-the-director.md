@@ -1,5 +1,5 @@
 ---
-title: Director 的 Lync Server 2013： 案例
+title: Lync Server 2013： Director 的案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e82794de791ce53e3a87dce374cbdc860f27040
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 00e2b91607a89756b42586c060b5950675994201
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510820"
 ---
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Lync Server 2013 中的 Director 案例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Lync Server 2013 中 Director 的案例
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42182676"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-22_
+_**主題上次修改日期：** 2012-10-22_
 
-Director 是執行 Microsoft Lync Server 2013 通訊軟體，可以驗證使用者要求，但不會主控任何使用者帳戶的伺服器。 Director 也主控 web 服務類似於前端伺服器會驗證的 web 票證要求並提供其他服務。
+Director 是執行 Microsoft Lync Server 2013 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。 Director 也會主控類似前端伺服器的 web 服務，並會驗證 web 票證要求並提供其他服務。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果您部署 Director 時，您必須發佈外部通過反向 proxy 的 Director web 服務以及前端伺服器 web 服務。 下列主題將說明可能的 Director 拓撲的規劃程序。
+> 如果您要部署 Director，必須透過反向 proxy 和前端伺服器的 web 服務，從外部發佈 Director web 服務。 下列主題描述可能的 Director 拓撲的規劃程式。
 
 
 
@@ -53,15 +55,15 @@ Director 是執行 Microsoft Lync Server 2013 通訊軟體，可以驗證使用�
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中 Director 概觀](lync-server-2013-overview-of-the-director.md)
+  - [Lync Server 2013 中的 Director 概述](lync-server-2013-overview-of-the-director.md)
 
-  - [Lync Server 2013 中 Director 的必要元件](lync-server-2013-components-required-for-the-director.md)
+  - [Lync Server 2013 中的 Director 所需的元件](lync-server-2013-components-required-for-the-director.md)
 
-  - [Lync Server 2013 中 director 的硬體和軟體需求](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [Lync Server 2013 中 Director 的硬體和軟體需求](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
   - [Lync Server 2013 中的單一 Director](lync-server-2013-single-director.md)
 
-  - [Lync Server 2013 中的調整式的 Director 集區](lync-server-2013-scaled-director-pool.md)
+  - [Lync Server 2013 中的調整式 Director 集區](lync-server-2013-scaled-director-pool.md)
 
 </div>
 
@@ -71,7 +73,7 @@ Director 是執行 Microsoft Lync Server 2013 通訊軟體，可以驗證使用�
 
 
 [Lync Server 2013 中支援的拓撲](lync-server-2013-supported-topologies.md)  
-[Lync Server 2013 的伺服器硬體平台](lync-server-2013-server-hardware-platforms.md)  
+[Lync Server 2013 的伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md)  
   
 
 </div>

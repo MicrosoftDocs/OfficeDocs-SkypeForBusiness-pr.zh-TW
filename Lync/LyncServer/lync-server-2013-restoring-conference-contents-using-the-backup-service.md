@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 還原會議內容使用備份服務
+title: Lync Server 2013：使用備份服務還原會議內容
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22159536999c06c992ace25df51ad6e869e0fd40
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 252cdf6713db7fcb3c4658cc4adb0eb51905c1ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511446"
 ---
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>在 Lync Server 2013 中使用備份服務還原會議內容
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>使用 Lync Server 2013 中備份服務還原會議內容
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42208589"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
 如果儲存在前端集區之檔案存放區中的會議資訊變成無法使用，則必須還原該資訊，讓位於集區的使用者得以保留其會議資料。如果遺失會議資料的前端集區有跟其他前端集區配對，則可以使用備份服務還原資料。
 
 如果整個集區失敗，而必須將使用者容錯移轉至備份集區，也必須執行此工作。當這些使用者容錯移轉回原始集區時，也必須使用此程序，將會議內容複製回原始集區。
 
-假設 Pool1 與 Pool2 配對，而 Pool1 中的會議資料遺失。 您可以使用下列 cmdlet 來叫用的內容還原備份服務：
+假設 Pool1 與 Pool2 配對，而 Pool1 中的會議資料遺失。 您可以使用下列 Cmdlet 來調用備份服務，以還原內容：
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 

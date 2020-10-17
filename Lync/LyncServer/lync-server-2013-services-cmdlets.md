@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 服務 cmdlet
+title: Lync Server 2013：服務 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da116d47d423b1bbbc7be1b84f08f05a40ae83cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 71f0173472acffaea435eaf7858b45cefd2f0e56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510070"
 ---
+# <a name="services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的服務 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的服務 cmdlet
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42182346"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-20 個_
+_**主題上次修改日期：** 2012-06-20_
 
-運送與 Microsoft Lync Server 2013 的伺服器角色和服務 cmdlet 可讓您傳回已安裝 Lync Server 2013 部署的一部分的各項元件的相關資訊。 此外，這些 cmdlet 讓您輕鬆停止及啟動 Lync Server 服務。
+Microsoft Lync Server 2013 隨附的伺服器角色和服務 Cmdlet 可讓您傳回已安裝為 Lync Server 2013 部署之一部分之各種元件的資訊。 此外，這些 Cmdlet 可讓您輕鬆地停止和啟動 Lync Server 服務。
 
 <div>
 
@@ -48,18 +50,18 @@ _**主題上次修改日期：** 2012年-06-20 個_
 **服務**
 
   - <span></span>  
-    [Get-csservice](https://technet.microsoft.com/library/Gg413038(v=OCS.15))
+    [Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-cswindowsservice](https://technet.microsoft.com/library/Gg398803(v=OCS.15))
+    [Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))
 
   - <span></span>  
-    [使用 Start-cswindowsservice](https://technet.microsoft.com/library/Gg398561(v=OCS.15))
+    [Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))
 
   - <span></span>  
-    [Stop-cswindowsservice](https://technet.microsoft.com/library/Gg398426(v=OCS.15))
+    [Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))
 
 </div>
 
@@ -68,7 +70,7 @@ _**主題上次修改日期：** 2012年-06-20 個_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

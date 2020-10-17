@@ -12,20 +12,22 @@ ms:contentKeyID: 51803972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0ca4874e7ec0ae462be7360ad62e18cfbdcf018
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20c6b6084577979264648e706c70fb6387b47971
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511630"
 ---
+# <a name="restore-a-device-update-rule-in-lync-server-2013"></a>在 Lync Server 2013 中還原裝置更新規則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restore-a-device-update-rule-in-lync-server-2013"></a>在 Lync Server 2013 中還原裝置更新規則
+
 
 </div>
 
@@ -47,17 +49,17 @@ _**主題上次修改日期：** 2013-02-23_
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左導覽列中，按一下 [**用戶端**]，然後按一下 [**裝置更新**] 導覽按鈕。
+3.  在左導覽列中，按一下 [ **用戶端**]，然後按一下 [ **裝置更新** ] 導覽按鈕。
 
-4.  在 [**裝置更新**] 頁面上，執行下列其中一項操作：
+4.  在 [ **裝置更新** ] 頁面上，執行下列其中一項操作：
     
       - 若要還原一個規則，請選取該規則。
     
-      - 若要還原所有規則，請按一下 [**編輯**]，然後按一下 [**全選**]。
+      - 若要還原所有規則，請按一下 [ **編輯**]，然後按一下 [ **全選**]。
 
-5.  按一下 [**動作**] 功能表，然後按一下 [**還原**]。
+5.  按一下 [ **動作** ] 功能表，然後按一下 [ **還原**]。
 
 </div>
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="restoring-device-update-rules-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 還原裝置更新規則
 
-您也可以使用 Windows PowerShell 和**CsDeviceUpdateRule** Cmdlet 來還原裝置更新規則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
+您也可以使用 Windows PowerShell 和 **CsDeviceUpdateRule** Cmdlet 來還原裝置更新規則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
 
 <div>
 
@@ -97,7 +99,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) Cmdlet 的說明主題。
+如需詳細資訊，請參閱 [CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) Cmdlet 的說明主題。
 
 </div>
 

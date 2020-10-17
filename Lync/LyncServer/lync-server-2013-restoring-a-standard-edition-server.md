@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201389"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511560"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中還原 Standard Edition server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中還原 Standard Edition server
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201389"
 
 _**主題上次修改日期：** 2013-02-21_
 
-若未裝載中央管理存放區的 Standard Edition 伺服器失敗，請遵循本節中的程式。 若中央管理存放區失敗，請參閱[在 Lync server 2013 中還原主控中央管理存放區的伺服器](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)。
+若未裝載中央管理存放區的 Standard Edition 伺服器失敗，請遵循本節中的程式。 若中央管理存放區失敗，請參閱 [在 Lync server 2013 中還原主控中央管理存放區的伺服器](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)。
 
 <div>
 
@@ -79,7 +81,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 4.  執行拓撲產生器：
     
-    1.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
+    1.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
     
     2.  按一下 [從現有部署下載拓撲]****，然後按一下 [確定]****。
     
@@ -89,7 +91,7 @@ _**主題上次修改日期：** 2013-02-21_
     
     1.  執行 [步驟 1: 安裝本機組態存放區]****，以安裝本機設定檔。
     
-    2.  執行**步驟2：安裝或移除 Lync Server 元件**，以安裝 lync server 伺服器角色。
+    2.  執行 **步驟2：安裝或移除 Lync Server 元件** ，以安裝 lync server 伺服器角色。
     
     3.  執行 [步驟 3: 要求、安裝或指派憑證]****，以指派憑證。
     
@@ -117,7 +119,7 @@ _**主題上次修改日期：** 2013-02-21_
         
             Start-CsWindowsService
 
-7.  如果您已在此 Standard Edition server 上部署回應群組，請還原回應群組設定資料。 如需詳細資訊，請參閱[在 Lync Server 2013 中還原回應群組設定](lync-server-2013-restoring-response-group-settings.md)。
+7.  如果您已在此 Standard Edition server 上部署回應群組，請還原回應群組設定資料。 如需詳細資訊，請參閱 [在 Lync Server 2013 中還原回應群組設定](lync-server-2013-restoring-response-group-settings.md)。
 
 8.  如果您已在此 Standard Edition server 上部署持續性聊天，請還原 Persistent Chat database (mgc) 。
     

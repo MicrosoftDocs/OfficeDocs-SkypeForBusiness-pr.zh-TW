@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定邊際伺服器的網路介面
+title: Lync Server 2013：設定 Edge server 的網路介面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 267db7062c19a0b1344d11f27205a51bf1e750ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b7eee448ffd5176797ebfbb0fb43afc4c9e41a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509820"
 ---
+# <a name="set-up-network-interfaces-for-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Edge server 的網路介面
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-network-interfaces-for-edge-servers-in-lync-server-2013"></a>設定 Lync Server 2013 中的 Edge server 的網路介面
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42182146"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
-在每部 Edge Server 是多重主機電腦與外部及內部對外的介面。 介面卡的網域名稱系統 (DNS) 設定值取決於是否在周邊網路中有 DNS 伺服器。 如果周邊網路中 DNS 伺服器，則必須區域，其中包含一或多個 DNS A 記錄下, 一個躍點伺服器或集區 （也就是 Director 或指定的前端集區），且外部查詢其參照至其他公用 DNS 伺服器的名稱查閱。 如果沒有 DNS 伺服器周邊網路中，Edge server 使用的外部 DNS 伺服器來解析網際網路名稱查閱，並在每部 Edge Server 使用主機來解析成 IP 位址的下一個躍點伺服器名稱。
+每一部 Edge Server 都是具有外部及內部介面的多主機電腦。 DNS) 設定 (的「配接器網域名稱系統」，取決於周邊網路中是否有 DNS 伺服器。 如果周邊中已存在 DNS 伺服器，則他們必須具有一個區域，其中包含下一個躍點伺服器或集區 (的一個或多個 DNS A 記錄，也就是 Director 或指定的前端集區) ，以及它們參照其他公用 DNS 伺服器名稱查閱的外部查詢。 若周邊中沒有 DNS 伺服器，Edge Server (s) 使用外部 DNS 伺服器來解析網際網路名稱查閱，而每個 Edge Server 會使用主機將下一個躍點伺服器名稱解析為 IP 位址。
 
 <div>
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="安全性" alt="security" />安全性附註：</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="安全" alt="security" />安全性附注：</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>基於安全性考量，建議您不需要 Edge Server 存取位於內部網路的 DNS 伺服器。</td>
+<td>基於安全性考慮，建議您不要讓 Edge Server 存取位於內部網路中的 DNS 伺服器。</td>
 </tr>
 </tbody>
 </table>
@@ -59,67 +61,67 @@ _**主題上次修改日期：** 2012年-09-08_
 
 <div>
 
-## <a name="to-configure-interfaces-with-dns-servers-in-the-perimeter-network"></a>若要設定的介面與周邊網路中的 DNS 伺服器
+## <a name="to-configure-interfaces-with-dns-servers-in-the-perimeter-network"></a>在周邊網路中使用 DNS 伺服器設定介面
 
-1.  每個 Edge Server，一個用於向內介面，另一個用於向外介面安裝兩個網路介面卡。
+1.  為每一部 Edge Server 安裝兩個網路介面卡，一個用於內部對向介面，另一個用於外部介面。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 內部和外部子網路必須不是路由傳送給對方。
+    > 內部和外部子網不得彼此路由傳送。
 
     
     </div>
 
-2.  在外部介面，設定 [外部周邊網路 （也稱為 DMZ、 非軍事區和遮蔽式子網路） 上的三個靜態 IP 位址子網路及外部防火牆的點至內部介面的預設閘道。 設定介面卡的 DNS 設定以指向周邊 DNS 伺服器的一組。
+2.  在外部介面上，設定外部周邊網路上的三個靜態 IP 位址 (也稱為 DMZ、隔離區域和遮罩式子網) 子網，然後將預設閘道指向外部防火牆的內部介面。 設定介面卡 DNS 設定，以指向一對周邊 DNS 伺服器。
     
     <div>
     
 
     > [!NOTE]  
-    > 就此介面中，使用最少一個 IP 位址，不過，若要這麼做您需要變更連接埠指派為非標準的值。 在拓撲產生器建立拓撲時，判斷這。
+    > 您可以只使用此介面的一個 IP 位址，但若要這麼做，您必須將埠指派變更為非標準值。 您可以在拓撲產生器中建立拓撲時加以判斷。
 
     
     </div>
 
-3.  在內部介面，設定一個靜態 IP 位址內部周邊網路子網路上並沒有設定預設閘道。 設定介面卡的 DNS 設定以指向至少一部 DNS 伺服器，最好是一組的周邊 DNS 伺服器。
+3.  在 internal 介面上，在內部周邊網路子網上設定一個靜態 IP 位址，而不要設定預設閘道。 設定介面卡 DNS 設定，使其指向至少一部 DNS 伺服器，最好是一對周邊 DNS 伺服器。
 
-4.  在用戶端、 Lync Server 2013 和 Exchange 整合通訊 (UM) 伺服器所在的內部介面所有內部網路上建立持續性靜態路由。
+4.  在內部介面上建立持續性靜態路由，以傳送用戶端、Lync Server 2013 和 Exchange 整合通訊 (UM) 伺服器所在的所有內部網路。
 
 </div>
 
 <div>
 
-## <a name="to-configure-interfaces-without-dns-servers-in-the-perimeter-network"></a>若要設定周邊網路中沒有 DNS 伺服器的介面
+## <a name="to-configure-interfaces-without-dns-servers-in-the-perimeter-network"></a>在周邊網路中設定沒有 DNS 伺服器的介面
 
-1.  每個 Edge Server，一個用於向內介面，另一個用於向外介面安裝兩個網路介面卡。
+1.  為每一部 Edge Server 安裝兩個網路介面卡，一個用於內部對向介面，另一個用於外部介面。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 內部和外部子網路必須不是路由傳送給對方。
+    > 內部和外部子網不得彼此路由傳送。
 
     
     </div>
 
-2.  在外部介面，設定外部周邊網路子網路上的三個靜態 IP 位址。 您也可以設定預設閘道上的外部介面。 例如，定義為網際網路對向路由器或外部防火牆作為預設閘道。 設定 DNS 以指向 DNS 伺服器上，preferably to 一組的外部 DNS 伺服器。
+2.  在外部介面上，設定外部周邊網路子網上的三個靜態 IP 位址。 您也可以在外部介面上設定預設閘道。 例如，將網際網路對向路由器或外部防火牆定義為預設閘道。 設定 DNS 設定以指向 DNS 伺服器，最好是一對外部 DNS 伺服器。
     
     <div>
     
 
     > [!NOTE]  
-    > 它是可行的但不是建議使用，以使用最少一個 IP 位址的外部介面。 若要允許此功能才能運作，您需要變更連接埠指派，為非標準的值，及開通常是 「 易記 」 的防火牆用戶端通訊的預設連接埠 443。 當您在拓撲產生器建立拓撲時決定的 IP 位址設定及連接埠設定。
+    > 您可以使用但不建議使用，只使用外部介面的一個 IP 位址。 若要讓這種方式可以運作，您必須將埠指派變更為非標準值，並從預設埠443（通常為「防火牆友好」）變更為用戶端通訊。 您可以在拓撲產生器中建立拓撲時決定 IP 位址設定及埠設定。
 
     
     </div>
 
-3.  在內部介面，設定一個靜態 IP 位址內部周邊網路子網路上並沒有設定預設閘道。 配接器 DNS 設定保留空白。
+3.  在 internal 介面上，在內部周邊網路子網上設定一個靜態 IP 位址，而不要設定預設閘道。 將配接器 DNS 設定保留空白。
 
-4.  在 Lync 用戶端或執行 Lync Server 2013 的伺服器所在的內部介面到所有的內部網路上建立持續性靜態路由。
+4.  在內部介面上建立持續性靜態路由，以傳送 Lync 用戶端或執行 Lync Server 2013 之伺服器所在的所有內部網路。
 
-5.  編輯主機上的檔案包含的下一個躍點伺服器的記錄每部 Edge Server 或虛擬 IP (VIP) （Director、 Standard Edition server 或前端集區已設定為在拓撲產生器中的 Edge Server 下一個躍點地址，可能會記錄）。 如果您使用 DNS 負載平衡，包括行的下一個躍點集區的每個成員。
+5.  編輯每一部 Edge Server 上的主機檔案，以包含下一個躍點伺服器或虛擬 IP (VIP) 的記錄， (該記錄將是 Director、Standard Edition Server 或前端集區，其設定為拓撲產生器) 中已設定為 Edge Server 下一個躍點位址的前端集區。 如果您使用 DNS 負載平衡，請在下一個躍點集區的每個成員中包含一行。
 
 </div>
 

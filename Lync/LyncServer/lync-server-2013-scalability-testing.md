@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 延展性測試
+title: Lync Server 2013 可擴充性測試
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be4dc8d08b9d8b1363af67af1a12aa56b59f0b9a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41e23cd1bf0382a392cba951d90cd9dfa80c4880
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511010"
 ---
+# <a name="scalability-testing-in-lync-server-2013"></a>Lync Server 2013 的可擴充性測試
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scalability-testing-in-lync-server-2013"></a>在 Lync Server 2013 中進行測試的延展性
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42201009"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-01_
+_**主題上次修改日期：** 2012-10-01_
 
-Lync Server 2013 提供的伺服器基礎結構的所有 Lync Server 即時通訊，包括立即訊息 (IM) 和目前狀態、 會議以及 Enterprise Voice。 這包括任何功能會使用 Lync Server 2013 集區的硬體資源，並且因此，會影響效能和規模。 所有組織同樣也無法使用所有功能。
+Lync Server 2013 提供所有 Lync Server 即時通訊的伺服器基礎結構，包括立即訊息 (IM) 和目前狀態、會議及 Enterprise Voice。 這包括任何使用 Lync Server 2013 集區之硬體資源的功能，因此會影響效能及規模。 所有組織都不會平等使用所有功能。
 
-例如，某些組織可能使用視訊在會議中非常嚴重時其他人可能會很少或沒有視訊流量。 有些組織偏好共用應用程式共用，而其他人偏好相反的 PowerPoint 投影片。 部署 Enterprise Voice 這些組織可能或可能不常使用的回應群組應用程式。 大多數的組織部署監控伺服器，但不是許多部署封存伺服器。 此外，組織並非所有沒有相同的基礎結構，包括硬體容量、 網路容量及集區的數目和部署的集區的大小。 功能和基礎結構的多樣性帶來的挑戰延展性測試 – 不能以模擬的功能和基礎結構中的所有可能組合。
+例如，有些組織可能會在會議中經常使用影片，有些人可能會有很少或無影片的使用方式。 有些組織喜歡 PowerPoint 的幻燈片共用應用程式共用，其他組織則喜歡相反的工作。 部署企業語音的組織可能會有或不會大量使用回應群組應用程式。 大多陣列織會部署監控伺服器，但不是許多部署封存伺服器。 此外，組織沒有相同的基礎結構，包括硬體容量、網路容量，以及已部署集區的集區數量和大小。 功能和基礎結構的多樣性對可擴充性測試面臨挑戰–無法模擬所有可能的功能和基礎結構組合。
 
-若要判斷延展性支援 Lync server，我們進行測試同時，使用 Lync Server 的所有功能的平均使用量模型 （使用者模型） 為基礎。 若要判斷適用於 Lync Server 工作負載的適當的使用者模型，我們分析多個資料點，包括客戶問卷調查、 來自 Microsoft 客戶經驗改進計畫的意見反應、 內部 IT 部門 microsoft Lync Server 使用狀況資料並從我們 Live Meeting 服務探索的資料。 在許多情況下，使用者模型有偏差向粗的負載，以針對組織內的使用狀況提供不感到安心邊界。
+為判斷 Lync Server 的可伸縮性支援，我們會根據平均使用模式 (使用者模型) ，以並行方式使用所有 Lync 伺服器功能進行測試。 若要判斷 Lync Server 工作負載的適當使用者模型，我們會分析許多資料點，包括客戶問卷調查、Microsoft 客戶經驗改進計畫的回饋、microsoft 的內部 IT 部門的 Lync Server 使用方式資料，以及從 Live Meeting 服務挖掘的資料。 在許多情況下，使用者模型有一個偏向的負載，可為組織內的使用提供舒適的邊界。
 
-在我們的延展性測試，我們將設定 Lync Server 2013 集區，根據建議的硬體和軟體規格，包括基礎結構元件，例如 Active Directory 網域服務，硬體負載平衡器和防火牆。 我們將設定 Lync Server 環境盡可能將一般的真實環境。 我們接著會使用 [Lync Server 2013 壓力及效能工具來模擬 Lync Server 2013 負載 （以我們使用者模型為基礎）。 .
+在我們的可擴充性測試中，我們會根據建議的硬體和軟體規格（包括基礎結構元件，例如 Active Directory 網域服務、硬體負載平衡器和防火牆）設定 Lync Server 2013 集區。 我們將 Lync Server 環境盡可能與一般的實際環境緊密地設定。 然後，我們會使用 Lync Server 2013 壓力和效能工具，根據我們的使用者模型) ，模擬 Lync Server 2013 的負載 (。 .
 
-我們執行動作延展性測試 （包括多個三週測試回合） 的多個反覆運算的次數。 協助符合效能調整以及驗證我們的使用者模型中的延展性數字的支援，我們會使用所有測試的結果。
+我們會執行多個可伸縮性測試的反覆運算 (包括多個三周的測試執行) 。 我們會使用所有測試的結果來協助效能調整，並確認對我們使用者模型中的可伸縮性數目的支援。
 
 </div>
 

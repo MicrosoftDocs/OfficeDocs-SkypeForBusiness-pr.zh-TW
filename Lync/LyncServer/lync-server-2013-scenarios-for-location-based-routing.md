@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 案例依位置路由
+title: Lync Server 2013： Location-Based 路由的案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 702c777219346af1b35bc70e0fd88a09ad07dae9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f896340a97b9d61ab9b463061d135a9871940335
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182656"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510840"
 ---
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 中的 Location-Based 路由案例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>依位置路由 Lync Server 2013 中的案例
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42182656"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-08-11_
+_**主題上次修改日期：** 2014-08-11_
 
-在下列案例中路由傳送來電時，位置型路由適用於下列一般規則。
+Location-Based 路由會在下列情況下路由呼叫時套用下列一般規則。
 
 <div>
 
@@ -45,15 +47,15 @@ _**上次修改主題：** 2014年-08-11_
 
   - [Lync Server 2013 中的撥出電話](lync-server-2013-outgoing-calls.md)
 
-  - [Lync Server 2013 中的來電](lync-server-2013-incoming-calls.md)
+  - [Lync Server 2013 中的傳入通話](lync-server-2013-incoming-calls.md)
 
-  - [來電轉接和 Lync Server 2013 中來電轉接](lync-server-2013-call-transfers-and-call-forwarding.md)
+  - [Lync Server 2013 中的來電轉接和來電轉接](lync-server-2013-call-transfers-and-call-forwarding.md)
 
-  - [同時響鈴的 Lync Server 2013](lync-server-2013-simultaneous-ringing.md)
+  - [Lync Server 2013 中同時震鈴](lync-server-2013-simultaneous-ringing.md)
 
   - [Lync Server 2013 中的委派](lync-server-2013-delegation.md)
 
-  - [使用 Lync Server 2013 中的位置 Routing 而直接呼叫的小組](lync-server-2013-team-calling-with-location-based-routing.md)
+  - [在 Lync Server 2013 中使用 Location-Based 路由的小組通話](lync-server-2013-team-calling-with-location-based-routing.md)
 
 </div>
 
@@ -62,7 +64,7 @@ _**上次修改主題：** 2014年-08-11_
 ## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中依位置路由](lync-server-2013-planning-for-location-based-routing.md)  
+[在 Lync Server 2013 中規劃 Location-Based 路由](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>
