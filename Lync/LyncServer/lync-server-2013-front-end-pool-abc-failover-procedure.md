@@ -12,20 +12,22 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60ded6539f6d984662449562d0f978e98dc3078
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa82180853e8835782d1e39d56fe595e5c7b09b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206549"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500800"
 ---
+# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Lync Server 2013 中的前端集區 ABC 容錯移轉程式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Lync Server 2013 中的前端集區 ABC 容錯移轉程式
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2014-05-22_
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    執行這項作業之後，建議您將 CMS 從集區 B 移至另一個現有的配對集區，以取得額外的復原能力。 如需詳細資訊，請參閱[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)。
+    執行這項作業之後，建議您將 CMS 從集區 B 移至另一個現有的配對集區，以取得額外的復原能力。 如需詳細資訊，請參閱 [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)。
 
 3.  如果集區 A 包含 CMS，請將 .LIS 設定從集區 A 匯入集區 B 的 .LIS 資料庫 (.Lis) 中。 只有在您已定期備份 .LIS 資料時，才可使用此功能。 若要匯入 .LIS 設定，請執行下列 Cmdlet：
     
@@ -70,7 +72,7 @@ _**主題上次修改日期：** 2014-05-22_
     
 
     > [!NOTE]  
-    > 目前， <STRONG>Import-CsRgsConfiguration</STRONG> Cmdlet 要求集區 a 上的佇列和工作流程名稱與集區 B 上的佇列和工作流程名稱不同。如果名稱不具差異，當您執行<STRONG>Import-CsRgsConfiguration</STRONG> Cmdlet 時，將會發生錯誤，而且在繼續進行<STRONG>Import-CsRgsConfiguration</STRONG> Cmdlet 之前，必須先在集區 B 中重新命名佇列和工作流程。
+    > 目前， <STRONG>Import-CsRgsConfiguration</STRONG> Cmdlet 要求集區 a 上的佇列和工作流程名稱與集區 B 上的佇列和工作流程名稱不同。如果名稱不具差異，當您執行 <STRONG>Import-CsRgsConfiguration</STRONG> Cmdlet 時，將會發生錯誤，而且在繼續進行 <STRONG>Import-CsRgsConfiguration</STRONG> Cmdlet 之前，必須先在集區 B 中重新命名佇列和工作流程。
 
     
     </div>
@@ -104,7 +106,7 @@ _**主題上次修改日期：** 2014-05-22_
 
 6.  若未指派號碼，請將使用「宣告」的未指派號碼範圍，移至集區 A 至集區 B 的選取宣告服務。若要執行此動作：
     
-      - 重新建立部署于集區 B 上集區 A 中的所有宣告。如果在集區 A 中部署宣告時使用任何音訊檔案，則需要這些檔案，以在集區 B 中重新建立宣告。若要在集區 B 中重新建立宣告，請使用**New-CsAnnouncement** Cmdlet，搭配集區 b 做為上級服務。
+      - 重新建立部署于集區 B 上集區 A 中的所有宣告。如果在集區 A 中部署宣告時使用任何音訊檔案，則需要這些檔案，以在集區 B 中重新建立宣告。若要在集區 B 中重新建立宣告，請使用 **New-CsAnnouncement** Cmdlet，搭配集區 b 做為上級服務。
     
       - 將所有以集區 A 宣告為宣告的未指派號碼範圍，都重新導向至集區 B 中新近部署的宣告。針對針對集區 A 宣告的每個未指派號碼範圍，執行下列 Cmdlet：
         
@@ -162,11 +164,11 @@ _**主題上次修改日期：** 2014-05-22_
         
             Xcopy "Source Path" "<Pool C File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"
     
-      - 最後，使用**Set-CsCpsConfiguration** Cmdlet 重新設定集區 C 上的通話駐留設定。 通話駐留應用程式只能為每個集區儲存一組設定及一個自訂的音樂暫止音訊檔，而且在發生嚴重損壞時，不會備份或保留這些設定。
+      - 最後，使用 **Set-CsCpsConfiguration** Cmdlet 重新設定集區 C 上的通話駐留設定。 通話駐留應用程式只能為每個集區儲存一組設定及一個自訂的音樂暫止音訊檔，而且在發生嚴重損壞時，不會備份或保留這些設定。
 
 15. 如果持續性聊天的下一個躍點集區指向集區 A，請建立併發行拓撲變更，使下一個躍點伺服器指向集區 C。
     
-      - 在 [拓撲產生器] 中，將 Persistent Chat 集區變更為指向 [集區 C] 做為下一個躍點。 若要這麼做，請在 Persistent Chat 集區上按一下滑鼠右鍵，然後按一下 [**一般**] 索引標籤，然後在 **[下一個躍點集區]** 中輸入集區 C 的名稱。
+      - 在 [拓撲產生器] 中，將 Persistent Chat 集區變更為指向 [集區 C] 做為下一個躍點。 若要這麼做，請在 Persistent Chat 集區上按一下滑鼠右鍵，然後按一下 [ **一般** ] 索引標籤，然後在 **[下一個躍點集區]** 中輸入集區 C 的名稱。
     
       - 執行下列 Cmdlet，以在集區 C 上啟動服務：
         
@@ -213,13 +215,13 @@ _**主題上次修改日期：** 2014-05-22_
 
 20. 移至集區 C 從集區 A 移至集區 B 的未指派號碼範圍。
     
-      - 在集區 C 中重新建立從集區 B 的集區 A 重新建立的所有宣告。如果在部署要移動的宣告時使用任何音訊檔案，您必須使用這些檔案，以在集區 C 中重新建立宣告。若要在集區 C 中重新建立宣告，請使用**New-CsAnnouncement** Cmdlet 搭配集區 c 做為上級服務。
+      - 在集區 C 中重新建立從集區 B 的集區 A 重新建立的所有宣告。如果在部署要移動的宣告時使用任何音訊檔案，您必須使用這些檔案，以在集區 C 中重新建立宣告。若要在集區 C 中重新建立宣告，請使用 **New-CsAnnouncement** Cmdlet 搭配集區 c 做為上級服務。
     
       - 重新定向至集區 C 從集區 A 重新置放至集區 B 的所有未指派號碼範圍。請針對需要重新置放的每個未指派號碼範圍，執行下列 Cmdlet：
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool C FQDN>" -AnnouncementName "<New Announcement in pool C>"
     
-      -  (選用) 從集區 B 中移除如果已不再在集區 B 中使用，則會在集區 C 中重新建立的宣告。若要移除宣告，請使用**remove-CsAnnouncement** Cmdlet。
+      -  (選用) 從集區 B 中移除如果已不再在集區 B 中使用，則會在集區 C 中重新建立的宣告。若要移除宣告，請使用 **remove-CsAnnouncement** Cmdlet。
         
         <div>
         
@@ -238,11 +240,11 @@ _**主題上次修改日期：** 2014-05-22_
     
       - Unpair 集區 A 及集區 B。對集區 B 和集區 C。然後從拓撲移除集區 A，然後發佈它。 若要這麼做︰
         
-          - 在 [拓撲產生器] 中，以滑鼠右鍵按一下 [集區 B]，然後按一下 [**編輯屬性**]。
+          - 在 [拓撲產生器] 中，以滑鼠右鍵按一下 [集區 B]，然後按一下 [ **編輯屬性**]。
         
-          - 按一下左窗格中的 [**復原**]。
+          - 按一下左窗格中的 [ **復原** ]。
         
-          - 在 [**關聯備份組**區] 下方的方塊中，選取 [集區 C]。請注意，關聯的備份組區選擇方塊最初會顯示集區 A，因為集區 B 先前與此集區相關聯。
+          - 在 [ **關聯備份組**區] 下方的方塊中，選取 [集區 C]。請注意，關聯的備份組區選擇方塊最初會顯示集區 A，因為集區 B 先前與此集區相關聯。
         
           - 選取 [語音自動容錯移轉和容錯回復]****，然後按一下 [確定]****。
             
@@ -310,9 +312,9 @@ _**主題上次修改日期：** 2014-05-22_
 
 28. 在 [拓撲產生器] 中，針對先前與集區 A 相關聯的每個 SBA X 執行下列作業：
     
-      - 變更與集區 C 的關聯。若要這麼做，請按一下分支網站，展開 [Survivable 分支裝置] 或 [伺服器] 節點，然後按一下 [ **Survivable Branch 裝置**]。 然後選取前端集區，此 Survivable Branch 裝置將會連線至集區 C 的**使用者服務集**區，然後按 **[下一步]**。
+      - 變更與集區 C 的關聯。若要這麼做，請按一下分支網站，展開 [Survivable 分支裝置] 或 [伺服器] 節點，然後按一下 [ **Survivable Branch 裝置**]。 然後選取前端集區，此 Survivable Branch 裝置將會連線至集區 C 的 **使用者服務集** 區，然後按 **[下一步]**。
     
-      - 發行拓撲。 若要執行此動作，請在主控台樹中，以滑鼠右鍵按一下新的**Survivable Branch 裝置**，按一下 [**拓撲**]，然後按一下 [**發佈**]。
+      - 發行拓撲。 若要執行此動作，請在主控台樹中，以滑鼠右鍵按一下新的 **Survivable Branch 裝置**，按一下 [ **拓撲**]，然後按一下 [ **發佈**]。
 
 29. 對於現在與集區 C 相關聯的每個 SBA X：
     

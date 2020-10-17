@@ -12,20 +12,22 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72e52927b8c84f5ad9cb869cd680f057e1618f8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc30b787d938825f229f28b10d54907ad26a4d35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501320"
 ---
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-自動探索
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-自動探索
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42199896"
 
 _**主題上次修改日期：** 2013-02-13_
 
-自動探索是一種彈性服務，它會接受透過 HTTP 或 HTTPS 的通訊。 為了達到此目的，網域名稱系統 (DNS) ，而且必須正確地設定裝載自動探索服務之伺服器所使用的憑證。 憑證需求會在[Lync Server 2013 的憑證摘要-自動](lync-server-2013-certificate-summary-autodiscover.md)探索中講述。
+自動探索是一種彈性服務，它會接受透過 HTTP 或 HTTPS 的通訊。 為了達到此目的，網域名稱系統 (DNS) ，而且必須正確地設定裝載自動探索服務之伺服器所使用的憑證。 憑證需求會在 [Lync Server 2013 的憑證摘要-自動](lync-server-2013-certificate-summary-autodiscover.md)探索中講述。
 
 <div>
 
@@ -125,7 +127,7 @@ _**主題上次修改日期：** 2013-02-13_
 
 
 > [!NOTE]  
-> 行動裝置用戶端不支援來自不同網域的多個 Secure Sockets Layer (SSL) 憑證。 因此，不支援透過 HTTPS 將 CNAME 重新導向至不同的網域。 例如，不支援透過 HTTPS 將 lyncdiscover.contoso.com 的 DNS CNAME 記錄重新導向至 director.contoso.net 的位址。 在這樣的拓撲中，行動裝置用戶端需要使用 HTTP 來進行第一個要求，以透過 HTTP 來解析 CNAME 重新導向。 後續的要求則會使用 HTTPS。 若要支援此案例，您需要以連接埠 80 的 Web 發行規則來設定反向 Proxy (HTTP)。 如需詳細資訊，請參閱在<A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 中設定行動的反向 proxy</A>中的「為埠80建立 web 發行規則」。 支援透過 HTTPS 將 CNAME 重新導向至相同網域。 在此情況下，目的網域的憑證會涵蓋原始網域。
+> 行動裝置用戶端不支援來自不同網域的多個 Secure Sockets Layer (SSL) 憑證。 因此，不支援透過 HTTPS 將 CNAME 重新導向至不同的網域。 例如，不支援透過 HTTPS 將 lyncdiscover.contoso.com 的 DNS CNAME 記錄重新導向至 director.contoso.net 的位址。 在這樣的拓撲中，行動裝置用戶端需要使用 HTTP 來進行第一個要求，以透過 HTTP 來解析 CNAME 重新導向。 後續的要求則會使用 HTTPS。 若要支援此案例，您需要以連接埠 80 的 Web 發行規則來設定反向 Proxy (HTTP)。 如需詳細資訊，請參閱在 <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 中設定行動的反向 proxy</A>中的「為埠80建立 web 發行規則」。 支援透過 HTTPS 將 CNAME 重新導向至相同網域。 在此情況下，目的網域的憑證會涵蓋原始網域。
 
 
 

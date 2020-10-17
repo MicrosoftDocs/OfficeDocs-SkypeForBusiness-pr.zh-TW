@@ -12,20 +12,22 @@ ms:contentKeyID: 48184177
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd64239460d76d63b28bb3a3abeb8c5cc8bb97d9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1bad444821c352991c1befd184d91920dcd5d147
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500100"
 ---
+# <a name="remove-an-authorized-host-entry"></a>移除授權主項目目
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-an-authorized-host-entry"></a>移除授權主項目目
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44757134"
 
 _**主題上次修改日期：** 2012-09-26_
 
-本主題說明如何移除舊版授權主項目目（稱為 Lync Server 2013 中的*信任應用程式專案*）。 當您將遠端呼叫控制遷移至 Lync Server 2013 部署時，您必須移除 Office 通訊伺服器 2007 R2 部署中任何 SIP/CSTA 閘道的現有授權主項目目。 您必須使用 Office 通訊伺服器 2007 R2 隨附的系統管理工具，才能移除現有的授權主項目目。
+本主題說明如何在 Lync Server 2013) 中移除舊版授權主項目目 (稱為「 *信任的應用程式」專案* 。 當您將遠端呼叫控制遷移至 Lync Server 2013 部署時，您必須移除 Office 通訊伺服器 2007 R2 部署中任何 SIP/CSTA 閘道的現有授權主項目目。 您必須使用 Office 通訊伺服器 2007 R2 隨附的系統管理工具，才能移除現有的授權主項目目。
 
 <div>
 

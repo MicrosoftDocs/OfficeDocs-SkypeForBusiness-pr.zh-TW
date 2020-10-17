@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: FocusJoinsAndLeaves 表格'
+title: Lync Server 2013： FocusJoinsAndLeaves 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e8d37023d30784d07d9ac74ce89aa8cc1fb43a9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f7691a008dae1fc822b6632a60f5324bb4e80fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207309"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500830"
 ---
+# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Lync Server 2013 中的 FocusJoinsAndLeaves 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Lync Server 2013 中的 FocusJoinsAndLeaves 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42207309"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
-此表格中的每一筆記錄含有一位使用者加入 CDR 資訊以及離開一場會議資訊。 每個會議代表此表格中一筆記錄的每個使用者加入和離開會議的時間。
+此表格中的每一筆記錄都包含有關一位使用者的加入的 CDR 資訊，並留下一次會議的資訊。 每個會議都會在每次使用者加入和離開會議時，以一筆記錄呈現在此表格中。
 
 
 <table>
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012年-09-28_
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -59,50 +61,50 @@ _**主題上次修改日期：** 2012年-09-28_
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主要、外部</p></td>
-<td><p>會議執行個體的時間。 <strong>SessionIdSeq</strong>搭配使用來唯一地識別會議執行個體。 請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的會議表格</a>如需詳細資訊。</p></td>
+<td><p>主要，外部</p></td>
+<td><p>會議執行個體的時間。 與 <strong>SessionIdSeq</strong> 搭配使用，以唯一識別會議實例。 如需詳細資訊，請參閱 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 [會議] 表格。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要、外部</p></td>
-<td><p>用於辨識執行個體的 ID 號碼。 搭配<strong>SessionIdTime</strong>用來唯一地識別會議執行個體。 請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的會議表格</a>如需詳細資訊。</p></td>
+<td><p>用於辨識執行個體的 ID 號碼。 與 <strong>SessionIdTime</strong> 搭配使用，以唯一識別會議實例。 如需詳細資訊，請參閱 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 [會議] 表格。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主要、外部</p></td>
-<td><p>工作階段要求的時間。 其會與 <strong>SessionIdSeq</strong> 搭配使用，專門用於識別工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
+<td><p>主要，外部</p></td>
+<td><p>工作階段要求的時間。 其會與 <strong>SessionIdSeq</strong> 搭配使用，專門用於識別工作階段。 如需詳細資訊，請參閱 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的對話方塊表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要，外部</p></td>
-<td><p>用來識別工作階段的識別碼。 會與 <strong>SessionIdTime</strong> 搭配使用，專門用於識別工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
+<td><p>用來識別工作階段的識別碼。 會與 <strong>SessionIdTime</strong> 搭配使用，專門用於識別工作階段。 如需詳細資訊，請參閱 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的對話方塊表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>用於識別此使用者，參考來源：<a href="lync-server-2013-users-table.md">使用者在 Lync Server 2013 中資料表</a>的唯一號碼。</p></td>
+<td><p>用於識別此使用者的唯一號碼， <a href="lync-server-2013-users-table.md">在 Lync Server 2013 的 [使用者] 表格中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>如果使用者登入多部電腦或裝置在此同時，會使用<strong>UserInstance</strong>專門識別使用者/裝置組合。</p></td>
+<td><p>如果使用者同時在多部電腦或裝置上登入，則會使用 <strong>UserInstance</strong> 來唯一地識別使用者/裝置組合。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsUserInternal</strong></p></td>
-<td><p>位元</p></td>
+<td><p>位</p></td>
 <td><p> </p></td>
-<td><p>是否使用者登入從內部或不。</p></td>
+<td><p>使用者是否從內部登入。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserRole</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>此使用者的會議中角色，例如簡報者或是出席者。</p></td>
+<td><p>此使用者在會議中的角色，例如簡報者或出席者。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
@@ -120,14 +122,14 @@ _**主題上次修改日期：** 2012年-09-28_
 <td><p><strong>ClientVerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>使用者的用戶端軟體，參照到<a href="lync-server-2013-clientversions-table.md">ClientVersions 表格 Lync Server 2013 中的</a>使用的版本。</p></td>
+<td><p>使用者的用戶端軟體版本，參考 <a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表格</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>
 <td><p>唯一</p></td>
 <td></td>
-<td><p>會議中使用之端點的全域唯一識別碼 (GUID)。</p>
-<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
+<td><p>會議中所使用之端點的全域唯一識別碼 (GUID) 。</p>
+<p>此欄位是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 </tbody>
 </table>

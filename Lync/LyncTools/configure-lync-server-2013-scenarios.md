@@ -12,20 +12,22 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f05039aab6d09fe498ffce465554d6bbbbbebaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d108cc3a2c49c40eb04c9039c83689fb8c5abf4c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499940"
 ---
+# <a name="configure-lync-server-2013-scenarios"></a>設定 Lync Server 2013 案例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-scenarios"></a>設定 Lync Server 2013 案例
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f3a15880de861b850d3e0355491e85219ba3579d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755467"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499910"
 ---
+# <a name="interpreting-the-results"></a>解讀結果
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="interpreting-the-results"></a>解讀結果
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755467"
 
 _**主題上次修改日期：** 2013-02-24_
 
-Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數器，您可以用來瞭解用戶端的執行狀況及是否發生問題。
+Lync Server 2013 應力和效能工具 ( # A0) 有許多計數器可供您用來瞭解用戶端的執行狀況及是否發生問題。
 
 <div>
 
@@ -113,7 +115,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 <tbody>
 <tr class="odd">
 <td><p>SetPresence 通話</p></td>
-<td><p>目前狀態變更嘗試的總數。 針對不同類型的狀態變更，請參閱 SetPresence （顯示狀態類型） [呼叫效能計數器]。</p></td>
+<td><p>目前狀態變更嘗試的總數。 針對不同類型的狀態變更，請參閱 SetPresence (目前狀態類型) 通話效能計數器。</p></td>
 </tr>
 <tr class="even">
 <td><p>SetPresence 的 NNN 回應</p></td>
@@ -133,7 +135,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 
 **通訊錄服務資訊**
 
-此類別包含用於監視通訊錄服務（ABS）檔案下載和通訊錄 Web 查詢服務要求的計數器。
+此類別包含用於監視通訊錄服務 (ABS) 檔案下載和通訊錄 Web 查詢服務要求的計數器。
 
 
 <table>
@@ -176,7 +178,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 </table>
 
 
-**通訊群組清單（DL）資訊**
+**通訊群組清單 (DL) 資訊**
 
 
 <table>
@@ -193,7 +195,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 <tbody>
 <tr class="odd">
 <td><p>嘗試的來電</p></td>
-<td><p>嘗試的通訊群組清單擴充（DLX） web 服務要求總數。</p></td>
+<td><p>嘗試之通訊群組清單擴充 (DLX) web 服務要求的總數。</p></td>
 </tr>
 <tr class="even">
 <td><p>通話成功</p></td>
@@ -209,7 +211,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 
 **VoIP 基本資訊**
 
-在啟用這些案例時，下列的效能計數器會列出所有 Voice over IP （VoIP）通話（包括對轉送伺服器的呼叫、A/V 會議伺服器、Edge Server、回應群組應用程式和會議自動語音應答）。
+在啟用這些案例時，所有 Voice over IP (VoIP) 通話（包括對轉送伺服器的呼叫、A/V 會議伺服器、Edge Server、回應群組應用程式和會議自動語音應答）的報告編號，均會列出下列效能計數器。
 
 
 <table>
@@ -249,7 +251,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 <td><p>從伺服器接收的 nnn 回應碼總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>VoIP 通過率（%）</p></td>
+<td><p>VoIP 通率 (% ) </p></td>
 <td><p>已建立的通話總數/嘗試的總通話數。</p></td>
 </tr>
 </tbody>
@@ -283,7 +285,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 </table>
 
 
-**立即訊息（IM）通話資訊**
+**立即訊息 (IM) 呼叫資訊**
 
 
 <table>
@@ -386,7 +388,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 <tbody>
 <tr class="odd">
 <td><p>主動通話</p></td>
-<td><p>目前正在進行的內送/撥出公用電話網絡（PSTN）通話總數。</p></td>
+<td><p>目前 (PSTN) 通話的內送/撥出公用交換電話網路 PSTN 總數。</p></td>
 </tr>
 <tr class="even">
 <td><p>來電終止</p></td>
@@ -425,7 +427,7 @@ Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數�
 </tr>
 <tr class="even">
 <td><p>活躍 Audio/Video 會議</p></td>
-<td><p>進行中音訊/視頻（A/V）會議的總數。</p></td>
+<td><p>A/V) 會議的日常音訊/視頻 (總數。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Active Application 共用會議</p></td>

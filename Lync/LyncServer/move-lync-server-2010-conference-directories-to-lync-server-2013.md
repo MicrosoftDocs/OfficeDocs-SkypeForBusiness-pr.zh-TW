@@ -12,20 +12,22 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049472022a26d7a3a6e8e78e20a20ccaa46ff5fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d1a080f7183bbab62cae679c911c76261694406
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500270"
 ---
+# <a name="move-conference-directories"></a>移動會議目錄
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a>移動會議目錄
+
 
 </div>
 
@@ -35,48 +37,48 @@ ms.locfileid: "42209760"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-05-28_
+_**主題上次修改日期：** 2014-05-28_
 
-解除委任集區之前您必須針對每個會議目錄執行下列程序 Lync Server 2010 集區中。
+在解除委任集區之前，必須對 Lync Server 2010 集區中的每個會議目錄執行下列程式。
 
 <div>
 
-## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>若要將會議目錄移至 Lync Server 2013
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>將會議目錄移至 Lync Server 2013
 
 1.  開啟 Lync Server 管理命令介面。
 
-2.  若要取得您的組織中會議目錄的身分識別，請執行下列命令：
+2.  若要取得組織中會議目錄的身分識別，請執行下列命令：
     
         Get-CsConferenceDirectory
     
-    上述命令會傳回您組織中的所有會議目錄。 因此，您可能想要限制結果，以解除委任集區。 比方說，如果您打算解除委任集區與完整的網域名稱 (FQDN) pool01.contoso.net，使用此命令來限制傳回的資料會議目錄從該集區：
+    上述命令會傳回組織中的所有會議目錄。 因此，您可能會想要將結果限制在解除委任的集區。 例如，如果您要將集區的完整功能變數名稱解除委任 (FQDN) pool01.contoso.net，請使用下列命令，將傳回的資料限制為該集區的會議目錄：
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    該命令會傳回會議目錄 ServiceID 屬性包含 FQDN pool01.contoso.net 的位置。
+    該命令只會傳回 ServiceID 屬性包含 FQDN pool01.contoso.net 的會議目錄。
 
-3.  若要移動會議目錄，請執行下列命令以取得每個會議目錄集區中：
+3.  若要移動會議目錄，請針對集區中的每個會議目錄執行下列命令：
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
-    例如，若要移動會議目錄 3，請使用此命令中，指定為 TargetPool 的 Lync Server 2013 集區：
+    例如，若要移動會議目錄3，請使用此命令，將 Lync Server 2013 集區指定為 Microsoft.rtc.management.writableconfig.settings.watchernode.targetpool：
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
     
-    如果您想要移動的集區上的所有會議目錄，然後使用類似下列的命令：
+    如果您想要移動集區上的所有會議目錄，請使用類似下列的命令：
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-請參閱 「 解除安裝 Microsoft Lync Server 2010 及移除伺服器角色 」 的文件 (這可以從下載[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)) 如需在解除委任 Lync 2010 集區的完整、 逐步指示。
+請參閱檔「卸載 Microsoft Lync Server 2010 及移除伺服器角色」 (可從 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)) 下載，以取得解除委任 Lync 2010 集區的完整、逐步指示。
 
-移動會議目錄時您可能會發生下列錯誤：
+移動會議目錄時，您可能會遇到下列錯誤：
 
     WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
     WARNING: Before using the -Force parameter, ensure that you have exported the conference directory data using DBImpExp.exe and imported the data on the target pool. Refer to the DBImpExp-Readme.htm file for more information.
     Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObject' to interface type 'Microsoft.Rtc.Interop.User.IRtcConfDirManagement'. 
     This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 
-Lync Server 管理命令介面需要更新的組 Active Directory 權限，才能完成工作時，通常就會發生此錯誤。 若要解決此問題，請關閉目前的執行個體的管理命令介面中，然後開啟命令介面的新執行個體並重新執行命令以將會議目錄移。
+當 Lync Server 管理命令介面需要更新的一組 Active Directory 許可權才能完成工作時，通常會發生此錯誤。 若要解決此問題，請關閉目前的管理命令介面實例，然後開啟命令介面的新實例，然後重新執行命令，以便移動會議目錄。
 
 </div>
 

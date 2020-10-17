@@ -1,5 +1,5 @@
 ---
-title: 變更語音路由以使用新的 Lync Server 2013 中繼伺服器
+title: 變更語音路由以使用新的 Lync Server 2013 轉送伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,20 +13,22 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4998057543f6695104ecbe759135b6735160c23
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34c4ea975225eb685acaa1843e324ffa720a93e9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181005"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499660"
 ---
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>變更語音路由以使用新的 Lync Server 2013 轉送伺服器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>變更語音路由以使用新的 Lync Server 2013 中繼伺服器
+
 
 </div>
 
@@ -36,9 +38,9 @@ ms.locfileid: "42181005"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
-此程序會變更語音路由以使用 Lync Server 2013 中繼伺服器，而不是舊版 Office Communications Server 2007 R2 中繼伺服器。
+此程式會變更語音路由以使用 Lync Server 2013 轉送伺服器，而不是舊版 Office 通訊伺服器 2007 R2 轉送伺服器。
 
 <div>
 
@@ -46,27 +48,27 @@ _**主題上次修改日期：** 2012年-09-28_
 
 1.  Lync Server 2013 控制台
 
-2.  在左窗格中，選取 [**語音路由]** ，然後**路由**]。
+2.  在左窗格中，選取 [ **語音路由** ]，然後選取 [ **路由**]。
 
 3.  按一下 [新增]****，以建立新的語音路由。
 
 4.  填寫下列欄位：
     
-      - **名稱**：輸入語音路由的描述性名稱。 這份文件中，我們將使用**W15PSTNRoute**。
+      - **名稱**：輸入語音路由的描述性名稱。 若為此檔，我們會使用 **W15PSTNRoute**。
     
       - **描述**：輸入語音路由的簡短描述。
 
-5.  略過後續的所有區段，直到 [關聯的閘道]**** 出現為止。 按一下 **[新增]**。 選取新的預設閘道，然後按一下 [**確定]**。
+5.  略過後續的所有區段，直到 [關聯的閘道]**** 出現為止。 按一下 **[新增]**。 選取新的預設閘道，然後按一下 **[確定]**。
 
 6.  在 [關聯的 PSTN 使用方式]**** 底下，按一下 [選取]****。
 
-7.  從 [**選取 PSTN 使用方式記錄**] 頁面上，選取記錄名稱，然後按一下 [**確定]**。
+7.  從 [ **選取 PSTN 使用方式記錄** ] 頁面中，選取記錄名稱，然後按一下 **[確定]**。
 
 8.  在 [新增語音路由]**** 頁面中，按一下 [確定]****，以建立**語音路由**。
 
 9.  在 [語音路由]**** 頁面中，選取 [路由]****。
 
-10. 將新建的路由移至清單頂端，然後選取 [**認可]**。
+10. 將新建立的路由移至清單的頂端，然後選取 [ **認可**]。
 
 </div>
 

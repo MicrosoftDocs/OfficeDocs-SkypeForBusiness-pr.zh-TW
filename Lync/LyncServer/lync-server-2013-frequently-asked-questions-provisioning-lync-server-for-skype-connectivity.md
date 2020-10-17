@@ -12,20 +12,22 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0315104e4bbbd2d8741d5bc011455be2d28191dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221777"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500810"
 ---
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>常見問題：布建 Lync Server 2013 for Skype connectivity
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>常見問題：布建 Lync Server 2013 for Skype connectivity
+
 
 </div>
 
@@ -59,9 +61,9 @@ _**主題上次修改日期：** 2019-03-22_
 
 **A：** 如果您有下列其中一項，您就可以使用 Skype connectivity 授權：
 
-  - Lync Server （2010或2013）外加 Lync Server 標準版用戶端存取授權（「Cal」; 2010 或2013），適用于您的組織中將會連接到 Skype 的使用者和/或裝置。 
+  - Lync Server (2010 或 2013) 加上 Lync Server Standard Client Access 授權 ( "Cal";2010或 2013) ，適用于您組織中將會連線到 Skype 的使用者和/或裝置。 
 
-  - Lync Online （為獨立授權或 Office 365 套件的一部分）。不過，此服務（pic.lync.com）只是用於布建 Lync Server 和混合 Lync Server 和 Lync Online 部署。Lync Online PIC 布建是在 Lync Online 控制台（LOCP）中完成。
+  - Lync Online (為獨立授權或 Office 365 套件的一部分) 。不過，此服務 (pic.lync.com) 僅用於布建 Lync Server 和混合 Lync Server 和 Lync Online 部署。Lync Online PIC 布建是在 Lync Online 控制台中執行 (LOCP) 。
 
 **問： Lync 使用者必須執行哪些動作才能連線到 Skype 連絡人？**
 
@@ -73,7 +75,7 @@ _**主題上次修改日期：** 2019-03-22_
 
 **Q：是否仍可與 Windows Live 進行同盟？**
 
-**A：** 從2012年10月開始，Microsoft 開始協助 Windows Live Messenger （WLM）使用者移到 Skype，途中最後再淘汰 WLM。只要 WLM 位於市場，Lync 便會繼續支援與 WLM 的同盟，但不允許額外的 Windows Live domain 啟用。WLM 使用者的移動是透過 Skype 6.0 for Mac 和 Windows （發佈10月 25 2012 日發佈）來啟用，這可讓您使用 Microsoft 帳戶登入（亦即，與 WLM 相同的認證）。 登入 Skype 後，WLM 好友清單便會自動填入 Skype，而且使用者可以利用 Skype 已擴充的通訊功能（例如呼叫 landlines 和 mobiles、螢幕共用、群組影片通話，以及支援多種裝置）。此外，WLM 使用者的同盟 Lync 連絡人會依照其他人的連絡人清單的方式轉換為 Skype，而且可以立即使用 Skype 和 Lync 之間的 IM。 Lync 客戶不需要執行任何動作，即可啟用這項服務的連續性。
+**A：** 從2012年10月開始，Microsoft 開始協助 Windows Live Messenger (WLM) 使用者移至 Skype，途中最後淘汰 WLM。只要 WLM 位於市場，Lync 便會繼續支援與 WLM 的同盟，但不允許額外的 Windows Live domain 啟用。WLM 使用者的移動是由 Skype 6.0 for Mac 和 Windows 2012 (啟用。) 這允許以 Microsoft 帳戶登入， (也就是與 WLM) 相同的認證。 登入 Skype 後，WLM 好友清單便會自動填入 Skype，而且使用者可以利用 Skype 已擴充的通訊功能（例如呼叫 landlines 和 mobiles、螢幕共用、群組影片通話，以及支援多種裝置）。此外，WLM 使用者的同盟 Lync 連絡人會依照其他人的連絡人清單的方式轉換為 Skype，而且可以立即使用 Skype 和 Lync 之間的 IM。 Lync 客戶不需要執行任何動作，即可啟用這項服務的連續性。
 
 **Q：是否 \! 仍可使用 Yahoo 或 AOL 進行同盟？**
 
@@ -97,13 +99,13 @@ _**主題上次修改日期：** 2019-03-22_
     
       - 大量服務：產品註冊號碼
 
-  - Access Edge service 的完整功能變數名稱（Fqdn）。
+  - Access Edge service 的完整功能變數名稱 (Fqdn) 。
     
       - 至少需要一個 Access Edge service 的 FQDN。
     
       - 如果您的組織有多部執行 Access Edge service 的伺服器，請為每一個額外的 Access Edge service 指定 Fqdn。 重要事項：如果您先前已指定 Access Edge service 的 FQDN，而且想變更它，則變更的布建可能需要數天才能完成，而且可能會造成服務中斷。 為了避免服務中斷，建議您維護先前指定的 Access Edge service FQDN。
 
-  - 會話初始通訊協定（SIP）網域。 這是使用者目前用於立即訊息的 SIP URI 的網域尾碼。 如果您的組織有一個以上的 SIP 網域，請為用於立即訊息的每個網域指定網域尾碼。 例如，若為 user1@contoso.com，請指定 SIP 網域的 contoso.com;若為 user1@example.fabrikam.com，請將 example.fabrikam.com 指定為 SIP 網域。
+  - 會話初始通訊協定 () 網域 (s) 的 SIP。 這是使用者目前用於立即訊息的 SIP URI 的網域尾碼。 如果您的組織有一個以上的 SIP 網域，請為用於立即訊息的每個網域指定網域尾碼。 例如，若為 user1@contoso.com，請指定 SIP 網域的 contoso.com;若為 user1@example.fabrikam.com，請將 example.fabrikam.com 指定為 SIP 網域。
     
     <div>
     
@@ -118,13 +120,13 @@ _**主題上次修改日期：** 2019-03-22_
 
 **問：如何在分割網域案例中啟用 Lync-Skype 連線功能？**
 
-**A：** 如果您有 Lync Online 2013 和 Lync Server 內部部署分割網域案例（讓使用者在線上和內部部署上使用相同的 SIP 網域），請依下列循序執行這兩個步驟，以啟用 Lync-Skype 連線能力。
+**A：** 如果您有 Lync Online 2013 和 Lync Server 內部部署分割網域案例 (與使用相同 SIP 網域的線上和內部部署使用者) ，請依下列循序執行這兩個步驟以啟用 Lync-Skype 連線能力。
 
 1.  如 PIC 布建指南所述，設定內部部署 Lync-Skype 連線。
 
 2.  請稍候，直到您看到您的網域已由 Microsoft 提供的確認。
 
-3.  在您看到確認之後，請使用 Lync 系統管理中心開啟「外部通訊」。 如需詳細資訊，請參閱[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  在您看到確認之後，請使用 Lync 系統管理中心開啟「外部通訊」。 如需詳細資訊，請參閱 [https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 這種順序很重要。在 Lync Online 中啟用通訊之前，您必須先設定內部部署連線能力。 若反轉順序，輸入內部部署的資訊 <https://pic.lync.com> 將不會經過。 如果您已經為與此網域的外部通訊設定 Lync Online，您必須將它關閉、等候24小時，然後重新開始，請先在中輸入您的內部部署資訊，然後 <https://pic.lync.com> 開啟 Lync Online 的外部通訊。
 
@@ -138,7 +140,7 @@ _**主題上次修改日期：** 2019-03-22_
 
 **問：如何新增 Windows Live Messenger 連絡人，其識別碼包含 Windows Live 所支援的網域以外的其他網域？**
 
-**A：** 若要以非 Windows Live 網域的帳戶或 ID 來新增 Windows Live Messenger 使用者，請以下列格式輸入該位址： \< user name \> （ \< domain name \> ） @msn .com，其中的 \< 功能變數名稱 \> 是使用者電子郵件地址中的功能變數名稱。 例如，如果您想要新增 ted@contoso.com，您可以使用下列格式：李小明（contoso .com） @msn .com。 如需 Windows Live 所管理的網域清單，請參閱「支援的網域」區段中的「在您安裝 Live 通訊伺服器 Service Pack 1 後，公用立即訊息所發生的已知問題」 https://support.microsoft.com/?kbid=897567 。
+**A：** 若要使用非 Windows Live 網域來新增具有帳戶或 ID 的 Windows Live Messenger 使用者，請以下列格式輸入該位址： \<user name\> (\<domain name\>) @msn .com，其中 \<domain name\> 是使用者電子郵件地址中的功能變數名稱。 例如，如果您想要新增 ted@contoso.com，您可以使用下列格式：李小明 (contoso.com) @msn .com。 如需 Windows Live 所管理的網域清單，請參閱「支援的網域」區段中的「在您安裝 Live 通訊伺服器 Service Pack 1 後，公用立即訊息所發生的已知問題」 https://support.microsoft.com/?kbid=897567 。
 
 **問：布建過程需要多久時間？**
 

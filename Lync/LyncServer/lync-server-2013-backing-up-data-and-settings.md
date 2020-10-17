@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 備份資料和設定
+title: Lync Server 2013：備份資料和設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38b0abd6f48de37fe08bac700bee7267ae11fb50
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 406520cc404d182c63bc7f44b14def0c67b80ac9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499360"
 ---
+# <a name="backing-up-data-and-settings-in-lync-server-2013"></a>在 Lync Server 2013 中備份資料和設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-data-and-settings-in-lync-server-2013"></a>備份資料和 Lync Server 2013 中設定
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42205840"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-17_
+_**主題上次修改日期：** 2013-02-17_
 
-下列主題所述的備份程序適用於所有 Enterprise Edition 伺服器和 Standard Edition 伺服器，不論其位置為何。
+下列主題中所述的備份程式適用于所有 Enterprise Edition server 和 Standard Edition server，不論其位置為何。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [備份核心資料和 Lync Server 2013 中的設定](lync-server-2013-backing-up-core-data-and-settings.md)
+  - [在 Lync Server 2013 中備份核心資料和設定](lync-server-2013-backing-up-core-data-and-settings.md)
 
-  - [備份封存及監控 Lync Server 2013 中的資料庫](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)
+  - [在 Lync Server 2013 中備份封存與監控資料庫](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)
 
-  - [備份 Lync Server 2013 常設聊天室資料庫](lync-server-2013-backing-up-persistent-chat-databases.md)
+  - [在 Lync Server 2013 中備份 Persistent 聊天室資料庫](lync-server-2013-backing-up-persistent-chat-databases.md)
 
-  - [備份 Lync Server 2013 中的檔案存放區](lync-server-2013-backing-up-file-stores.md)
+  - [在 Lync Server 2013 中備份檔案存放區](lync-server-2013-backing-up-file-stores.md)
 
 </div>
 

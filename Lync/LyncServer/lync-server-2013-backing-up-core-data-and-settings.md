@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205859"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499380"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>在 Lync Server 2013 中備份核心資料和設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>在 Lync Server 2013 中備份核心資料和設定
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205859"
 
 _**主題上次修改日期：** 2014-04-23_
 
-下列程式會使用 Lync Server 管理命令介面 Cmdlet，為核心服務的設定和資料建立備份檔案。 如需本節所用工具（包括其所在位置）的詳細資訊，請參閱[Lync Server 2013 中的備份和還原需求：工具和許可權](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。 如需備份封存與監控資料的詳細資訊，請參閱[在 Lync Server 2013 中備份封存和監控資料庫](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)。
+下列程式會使用 Lync Server 管理命令介面 Cmdlet，為核心服務的設定和資料建立備份檔案。 如需本節所用工具（包括其所在位置）的詳細資訊，請參閱 [Lync Server 2013 中的備份和還原需求：工具和許可權](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。 如需備份封存與監控資料的詳細資訊，請參閱 [在 Lync Server 2013 中備份封存和監控資料庫](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)。
 
 <div>
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2014-04-23_
 
 2.  若要儲存您在下列步驟中所建立的備份，請建立新的共用資料夾，並將 **$Backup** 所參照的路徑更新為新的共用資料夾。
 
-3.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+3.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 4.  備份中央管理存放區設定檔。 在命令列輸入下列命令：
     

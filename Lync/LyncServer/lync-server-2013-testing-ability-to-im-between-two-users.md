@@ -12,20 +12,22 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500490"
 ---
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>在 Lync Server 2013 中測試兩個使用者之間的 IM 功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>在 Lync Server 2013 中測試兩個使用者之間的 IM 功能
+
 
 </div>
 
@@ -68,7 +70,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 Test-CsIM Cmdlet 會驗證一對測試使用者是否可以 exchange 立即訊息。 呼叫時，Test-CsIM Cmdlet 會從嘗試將一組測試使用者登入 Lync Server 開始。 假設兩次登入都成功，則 Cmdlet 會在兩個測試使用者之間啟動 IM 會話。  (使用者1邀請使用者2到 IM 會話，而使用者2接受邀請。 ) 之後，請確認郵件可以在兩個使用者之間交換，Test-CsIM 然後結束 IM 會話，並將這兩位使用者從系統登出。
 
-如需詳細資訊，請參閱[Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的說明文件。
 
 </div>
 
@@ -86,7 +88,7 @@ Test-CsIM Cmdlet 會驗證一對測試使用者是否可以 exchange 立即訊�
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-如需詳細資訊，請參閱[Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的說明文件。
 
 </div>
 
@@ -94,7 +96,7 @@ Test-CsIM Cmdlet 會驗證一對測試使用者是否可以 exchange 立即訊�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果這兩個使用者可以完成立即訊息會話，則會收到類似下列的輸出，並將 Result 屬性標示為 [**成功]：**
+如果這兩個使用者可以完成立即訊息會話，則會收到類似下列的輸出，並將 Result 屬性標示為 [ **成功]：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

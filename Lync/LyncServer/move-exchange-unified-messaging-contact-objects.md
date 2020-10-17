@@ -12,20 +12,22 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 42abb209eaf59be66c8516401616dcac4f1c94ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756612"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500290"
 ---
+# <a name="move-exchange-unified-messaging-contact-objects"></a>移動 Exchange 整合通訊連絡人物件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-exchange-unified-messaging-contact-objects"></a>移動 Exchange 整合通訊連絡人物件
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756612"
 
 _**主題上次修改日期：** 2012-10-19_
 
-若要將自動語音應答（AA）和訂閱者存取（SA）連絡人物件遷移至新的 Lync Server 2013 部署，您必須先使用**Get-CsExUmContact**和**Move-CsExUmContact** Cmdlet，將物件從舊版 Office 通訊伺服器 2007 R2 部署移至新的 lync server 2013 部署。 在 Exchange 伺服器上，您可以執行**ExchUCUtil** Windows PowerShell 腳本，針對新部署的 Lync 集區執行下列作業：
+若要將自動語音應答 (AA) 和使用者存取 (SA) 連絡人物件遷移至新的 Lync Server 2013 部署，您必須先使用 **Get-CsExUmContact** 和 **Move-CsExUmContact** Cmdlet，將物件從舊版 Office 通訊伺服器 2007 R2 部署移至新的 lync server 2013 部署。 在 Exchange 伺服器上，您可以執行 **ExchUCUtil** Windows PowerShell 腳本，針對新部署的 Lync 集區執行下列作業：
 
   - 將其新增至整合通訊 IP 閘道。
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 1.  開啟 Lync Server 管理命令介面。
 
-2.  針對每個使用 Exchange UM 註冊的集區（其中 pool1.contoso.net 是 Office 通訊伺服器 2007 R2 部署的集區，而 pool2.contoso.net 是 Lync Server 2013 部署的集區），請輸入下列命令：
+2.  針對每個註冊于 Exchange UM (的集區，其中 pool1.contoso.net 是 Office 通訊伺服器 2007 R2 部署的集區，而 pool2.contoso.net 是來自 Lync Server 2013) 部署的集區，請在命令列中輸入下列命令：
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     

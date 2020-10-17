@@ -13,20 +13,22 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 476ff46829a0b303c5a9316be1e9a6fcc931099e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5dfc5162e2a624f1937e4d1b2751398f57ba8e21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499850"
 ---
+# <a name="administering-servers-after-migration"></a>在移轉後管理伺服器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a>在移轉後管理伺服器
+
 
 </div>
 
@@ -38,7 +40,7 @@ ms.locfileid: "44755165"
 
 _**主題上次修改日期：** 2012-09-29_
 
-一般來說，您必須根據所要管理的伺服器版本，使用對應的系統管理工具。 您無法在同一部電腦上安裝 Lync Server 2010 和 Lync Server 2013 系統管理工具。 此外，在每部伺服器上不會自動安裝 Lync Server 2013 控制台。 若要安裝 Lync Server 2013 控制台，請依照部署檔中的主題[安裝 Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)中的步驟進行。
+一般來說，您必須根據所要管理的伺服器版本，使用對應的系統管理工具。 您無法在同一部電腦上安裝 Lync Server 2010 和 Lync Server 2013 系統管理工具。 此外，在每部伺服器上不會自動安裝 Lync Server 2013 控制台。 若要安裝 Lync Server 2013 控制台，請依照部署檔中的主題 [安裝 Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md) 中的步驟進行。
 
 <div>
 

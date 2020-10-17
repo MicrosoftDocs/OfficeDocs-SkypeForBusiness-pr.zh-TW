@@ -12,20 +12,22 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 792fcf29033a7495a7da340decb561e25084612d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ba13ec0bf942298748b18ac1c94418275c728949
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757124"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500090"
 ---
+# <a name="remove-backcompatsite"></a>移除 BackCompatSite
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-backcompatsite"></a>移除 BackCompatSite
+
 
 </div>
 
@@ -49,13 +51,13 @@ _**主題上次修改日期：** 2012-09-28_
 
 3.  按 [下一步]**** 繼續。
 
-4.  在 [**指定舊版 Edge** ] 頁面上，確定 Edge server 的清單是空的。 若不是空的，請使用 [移除]**** 按鈕移除所有舊版的 Edge Server，然後按 [下一步]****。
+4.  在 [ **指定舊版 Edge** ] 頁面上，確定 Edge server 的清單是空的。 若不是空的，請使用 [移除]**** 按鈕移除所有舊版的 Edge Server，然後按 [下一步]****。
     
     ![合併拓撲嚮導的 [指定 Edge 安裝] 頁面](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "合併拓撲嚮導的 [指定 Edge 安裝] 頁面")  
 
 5.  在 [指定內部 SIP 連接埠]**** 設定頁面中按 [下一步]****。
 
-6.  在 [**摘要**] 頁面上，按一下 **[下一步]** ，以開始合併拓撲，以移除舊版網站。
+6.  在 [ **摘要** ] 頁面上，按一下 **[下一步]** ，以開始合併拓撲，以移除舊版網站。
 
 7.  在 [狀態]**** 欄中，檢查其值是否為 [成功]****，然後按一下 [完成]****，以關閉精靈。
 

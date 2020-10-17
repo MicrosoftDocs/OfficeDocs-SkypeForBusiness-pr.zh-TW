@@ -12,20 +12,22 @@ ms:contentKeyID: 51803934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79ac6a28c475c8ec08584788fdb868d2ce30e143
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef15dec14266d4813ecc11624caa4c11906e7329
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500509"
 ---
+# <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>在 Lync Server 2013 中將會議裝置移至新的註冊集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>在 Lync Server 2013 中將會議裝置移至新的註冊集區
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184606"
 
 _**主題上次修改日期：** 2013-02-20_
 
-使用**Move-CsMeetingRoom** Cmdlet，將會議裝置從一個註冊集區移至另一個。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
+使用 **Move-CsMeetingRoom** Cmdlet，將會議裝置從一個註冊集區移至另一個。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
 
 <div>
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2013-02-20_
 
 </div>
 
-如需詳細資訊，請參閱[Move-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Move-CsMeetingRoom) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Move-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Move-CsMeetingRoom) Cmdlet 的 [說明] 主題。
 
 </div>
 

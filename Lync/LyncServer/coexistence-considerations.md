@@ -13,20 +13,22 @@ ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7052042afbc3927e1047a9c2fbb30a71168f317
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: cdad93eaf8debbc616099c1454d5e39438a63474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755029"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499670"
 ---
+# <a name="coexistence-considerations"></a>共存考慮
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="coexistence-considerations"></a>共存考慮
+
 
 </div>
 
@@ -50,9 +52,9 @@ _**主題上次修改日期：** 2012-10-06_
 
 這些部署可能並排存在。 不過，一個部署中的類別、聊天室及增益集不會與伴隨之部署中的增益集進行互動。
 
-使用手動設定時，舊版用戶端（群組聊天用戶端）可以一次連線至一個集區，以進行 Office 通訊伺服器 2007 R2、Lync Server 2010、群組聊天或 Lync Server 2013。
+使用手動設定時，舊版用戶端 (群組聊天用戶端) 可以一次連線至一個集區，以進行 Office 通訊伺服器 2007 R2、Lync Server 2010、群組聊天或 Lync Server 2013。
 
-Lync 2013 （用戶端）只能與 Lync Server 2013、Persistent Chat Server 集區互動，而不能與舊版群組聊天伺服器集區互動。 若要在 Lync 2013 （用戶端）中使用持續性聊天，使用者必須位於 Lync 2013，並由原則啟用。
+Lync 2013 (用戶端) 只能與 Lync Server 2013、Persistent Chat Server 集區互動，而不能與舊版群組聊天伺服器集區互動。 若要在 Lync 2013 (用戶端) 中使用持續性聊天，使用者必須在 Lync 2013 上，並由原則啟用。
 
 </div>
 

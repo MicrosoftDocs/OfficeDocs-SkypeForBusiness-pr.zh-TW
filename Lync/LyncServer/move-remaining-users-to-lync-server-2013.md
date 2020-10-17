@@ -12,20 +12,22 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e01f5b0fb07477437de9af2acd7ad58e946e6c32
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 966182705fd3f18bfa10d1d6042e1c3c94204e9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500210"
 ---
+# <a name="move-remaining-users-to-lync-server-2013"></a>將剩餘的使用者移至 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-remaining-users-to-lync-server-2013"></a>將剩餘的使用者移至 Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42189786"
 
 _**主題上次修改日期：** 2012-09-29_
 
-您可以使用 Lync Server 控制台或 Lync Server 管理命令介面，將使用者移至新的 Lync Server 2013 部署。 您必須符合某些需求，以確保順利轉換至 Lync Server 2013。 如需完成本主題中程式之必要條件的詳細資訊，請參閱[設定用戶端進行遷移](configure-clients-for-migration.md)。 如需移動使用者的詳細步驟，請參閱[第4階段：將測試使用者移至試驗集](phase-4-move-test-users-to-the-pilot-pool.md)區。
+您可以使用 Lync Server 控制台或 Lync Server 管理命令介面，將使用者移至新的 Lync Server 2013 部署。 您必須符合某些需求，以確保順利轉換至 Lync Server 2013。 如需完成本主題中程式之必要條件的詳細資訊，請參閱 [設定用戶端進行遷移](configure-clients-for-migration.md)。 如需移動使用者的詳細步驟，請參閱 [第4階段：將測試使用者移至試驗集](phase-4-move-test-users-to-the-pilot-pool.md)區。
 
 <div>
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 
 > [!IMPORTANT]  
-> 這包括由舊使用者所建立之作用中的會議。 例如，如果舊版使用者已設定「我的<STRONG>會議</STRONG>會議」，該會議在使用者移動之後仍會在新的 Lync Server 2013 集區中使用。 存取該會議的詳細資料仍為相同的 <STRONG>[會議 URL 及會議 ID]</STRONG>。 唯一的差別在於會議現在是主控于 Lync Server 2013 集區，而不是 Lync Server 2010 集區。
+> 這包括由舊使用者所建立之作用中的會議。 例如，如果舊版使用者已設定「我的 <STRONG>會議</STRONG> 會議」，該會議在使用者移動之後仍會在新的 Lync Server 2013 集區中使用。 存取該會議的詳細資料仍為相同的 <STRONG>[會議 URL 及會議 ID]</STRONG>。 唯一的差別在於會議現在是主控于 Lync Server 2013 集區，而不是 Lync Server 2010 集區。
 
 
 
@@ -81,7 +83,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 3.  允許匿名參與者的會議原則**允許參與者邀請**lync Server 2013 控制台中所選取的匿名使用者，而且**AllowAnonymousParticipantsInMeetings**在 lync server 管理命令介面中從**Get-CsConferencingPolicy** Cmdlet 的輸出中，設定為**True** 。
 
-4.  如需使用 Lync Server 管理命令介面設定會議原則的詳細資訊，請參閱 Lync Server 管理命令介面檔中的[CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 。
+4.  如需使用 Lync Server 管理命令介面設定會議原則的詳細資訊，請參閱 Lync Server 管理命令介面檔中的 [CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 。
 
 </div>
 

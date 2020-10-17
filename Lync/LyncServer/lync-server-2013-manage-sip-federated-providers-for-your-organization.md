@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理組織的 SIP 同盟提供者
+title: Lync Server 2013：管理組織的 SIP 同盟提供者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48679566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e32788625fbbc5bf2892b1a24728790ddfafbc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab021f95a8bb2fede5a8ce496063d9e25a8ebf4e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500680"
 ---
+# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a>在 Lync Server 2013 中管理組織的 SIP 同盟提供者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a>管理 Lync Server 2013 中組織的 SIP 同盟提供者
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42185886"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
-這是初步文件，後續有可能變更。 空白主題會以預留位置的形式。
+這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
 
-若要設定使用者的 SIP 同盟提供者支援，您需要執行下列動作：
+若要為 SIP 同盟提供者的使用者設定支援，您需要執行下列作業：
 
-  - 設定一或多個外部使用者存取原則，以支援與 SIP 同盟提供者連絡人進行通訊
+  - 設定一或多個外部使用者存取原則，以支援與 SIP 同盟提供者連絡人的通訊
 
-  - 指定您想要支援的裝載提供者
+  - 指定您要支援的主控提供者
 
-  - 指定您想要支援的公用 IM 提供者
+  - 指定您要支援的公用 IM 提供者
 
-若要執行這些工作，請使用本節中的程序。
+若要執行這些工作，請使用本節中的程式。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [建立或編輯 Lync Server 2013 中的公用 SIP 同盟提供者](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+  - [在 Lync Server 2013 中建立或編輯公用 SIP 同盟提供者](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
 
   - [建立或編輯主控的 SIP 同盟提供者 Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 

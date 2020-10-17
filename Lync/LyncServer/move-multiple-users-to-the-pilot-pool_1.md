@@ -12,20 +12,22 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ffd0fbebffea5553cc461f71cf67843dae0a8ae6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756462"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500220"
 ---
+# <a name="move-multiple-users-to-the-pilot-pool"></a>將多個使用者移至試驗集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a>將多個使用者移至試驗集區
+
 
 </div>
 
@@ -51,13 +53,13 @@ _**主題上次修改日期：** 2012-10-02_
 
 4.  建立篩選，其中的 [Office Communications Server 使用者]**** 等於 [True]****。
 
-5.  按一下 [**尋找**] 搜尋舊版 Office 通訊伺服器 2007 R2 使用者。
+5.  按一下 [ **尋找** ] 搜尋舊版 Office 通訊伺服器 2007 R2 使用者。
 
 6.  選取兩個要移至 Lync Server 2013 集區的使用者。 在此範例中，我們會將使用者移 Chen 陽和聖誕老人聖誕 Hansen。
     
     ![從搜尋 OCS 使用者顯示的使用者清單](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "從搜尋 OCS 使用者顯示的使用者清單")  
 
-7.  從 [**動作**] 功能表中，選取 [**將選取的使用者移至集**區]。
+7.  從 [ **動作** ] 功能表中，選取 [ **將選取的使用者移至集**區]。
 
 8.  從下拉式清單中，選取 [Lync Server 2013 集區]。
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012-10-02_
     
     ![移動使用者、目的地註冊集區] 對話方塊](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "移動使用者、目的地註冊集區] 對話方塊")  
 
-10. 確認使用者的 [**報名者集**區] 欄現在包含 Lync Server 2013 集區，這表示使用者已順利移動。
+10. 確認使用者的 [ **報名者集** 區] 欄現在包含 Lync Server 2013 集區，這表示使用者已順利移動。
 
 </div>
 
@@ -85,7 +87,7 @@ _**主題上次修改日期：** 2012-10-02_
     
         Get-CsUser -Identity "User1"
 
-4.  **註冊機構集**區的身分識別現在應該指向您在上一個步驟中指定為**集區 \_ FQDN**的集區。 這個身分識別的出現表示已成功移動使用者。 重複步驟**以驗證使用者2是否已移動**。
+4.  **註冊機構集**區的身分識別現在應該指向您在上一個步驟中指定為**集區 \_ FQDN**的集區。 這個身分識別的出現表示已成功移動使用者。 重複步驟 **以驗證使用者2是否已移動** 。
     
     ![PowerShell Get-UsUser 識別指令程式的輸出](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser 識別指令程式的輸出")  
 
@@ -95,7 +97,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a>使用 Lync Server 2013 管理命令介面同時移動所有使用者
 
-在此範例中，所有使用者都已傳回 Office 通訊伺服器 2007 R2 集區（pool01.contoso.net）。 使用 Lync Server 2013 管理命令介面時，我們會同時將所有使用者同時移至 Lync Server 2013 集區（pool02.contoso.net）。
+在此範例中，所有使用者都已傳回 Office 通訊伺服器 2007 R2 集區 (pool01.contoso.net) 。 使用 Lync Server 2013 管理命令介面，我們會同時將所有使用者同時移至 Lync Server 2013 集區 (pool02.contoso.net) 。
 
 1.  開啟 [ **Lync Server 2013 管理命令**介面]。
 
@@ -105,11 +107,11 @@ _**主題上次修改日期：** 2012-10-02_
     
     ![移動集區中所有舊版使用者的範例 Cmdlet](images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "移動集區中所有舊版使用者的範例 Cmdlet")  
 
-3.  接下來，針對其中一位試驗使用者執行**Get-CsUser** 。
+3.  接下來，針對其中一位試驗使用者執行 **Get-CsUser** 。
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  每個使用者的**註冊區集**區身分識別，都指向您 \_ 在上一個步驟中指定為「集區 FQDN」的集區。 這個身分識別的出現表示已成功移動使用者。
+4.  每個使用者的 **註冊區集** 區身分識別，都指向您 \_ 在上一個步驟中指定為「集區 FQDN」的集區。 這個身分識別的出現表示已成功移動使用者。
 
 5.  此外，我們可以在 Lync Server 2013 控制台中查看使用者清單，並確認 [註冊機集區] 值現在是否指向 Lync Server 2013 集區。
     

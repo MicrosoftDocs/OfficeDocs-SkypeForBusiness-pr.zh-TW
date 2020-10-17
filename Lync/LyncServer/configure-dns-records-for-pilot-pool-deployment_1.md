@@ -13,20 +13,22 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3388fb148b4d4f4825432e6168b657405e337c35
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 63348a4e092953beede96a10d109ee5ba23daba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499530"
 ---
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>為試驗集區部署設定 DNS 記錄
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-for-pilot-pool-deployment"></a>為試驗集區部署設定 DNS 記錄
+
 
 </div>
 
@@ -44,7 +46,7 @@ _**主題上次修改日期：** 2012-09-24_
 
 1.  在網域名稱系統 (DNS) 伺服器上，依序按一下 **[開始]**、**[系統管理工具]** 和 **[DNS]**。
 
-2.  在您網域的主控台樹中，展開 [**正向對應區域**]，然後在將安裝 Lync Server 2013 的網域上按一下滑鼠右鍵。
+2.  在您網域的主控台樹中，展開 [ **正向對應區域**]，然後在將安裝 Lync Server 2013 的網域上按一下滑鼠右鍵。
 
 3.  按一下 **[新增主機 (A 或 AAAA)]**。
 

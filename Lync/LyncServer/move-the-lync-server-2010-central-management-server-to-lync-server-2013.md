@@ -12,20 +12,22 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90af32fce28d87b211a0829c5c863c9277129c86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53251e03c55d6d61ae360d7b0739c07ac44dccdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209729"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500130"
 ---
+# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>將 Lync Server 2010 中央管理伺服器移至 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>將 Lync Server 2010 中央管理伺服器移至 Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**主題上次修改日期：** 2013-11-25_
 
 中央管理伺服器是單一主/多個複本系統，其中包含中央管理伺服器的前端伺服器會持有資料庫的讀/寫副本。 拓撲中的每一部電腦（包括包含中央管理伺服器的前端伺服器）在安裝及部署期間，RTCLOCAL 會在電腦上安裝的預設) SQL Server (資料庫中的中央管理存放區資料的唯讀副本。 本機資料庫會透過 Lync Server 複本複製器代理程式，以在所有電腦上執行為服務的方式接收復本更新。 中央管理伺服器及本機複本上之實際資料庫的名稱是 XDS，這是由 XDS 及 XDS 檔所組成。 Master 資料庫位置是由 Active Directory 網域服務中 (SCP) 的服務控制點所參照。 所有使用中央管理伺服器來管理及設定 Lync Server 的工具，都使用 SCP 來尋找中央管理存放區。
 
-順利移動中央管理伺服器後，應從原始前端伺服器移除中央管理伺服器資料庫。 如需移除中央管理伺服器資料庫的詳細資訊，請參閱[移除前端集區的 SQL Server 資料庫](remove-the-sql-server-database-for-a-front-end-pool.md)。
+順利移動中央管理伺服器後，應從原始前端伺服器移除中央管理伺服器資料庫。 如需移除中央管理伺服器資料庫的詳細資訊，請參閱 [移除前端集區的 SQL Server 資料庫](remove-the-sql-server-database-for-a-front-end-pool.md)。
 
 您可以使用 Lync Server 管理命令介面中的 [Windows PowerShell Cmdlet **Move-CsManagementServer** ，將資料庫從 lync SERVER 2010 sql server 資料庫移至 lync SERVER 2013 sql server 資料庫，然後將 SCP 更新為指向 lync Server 2013 中央管理伺服器位置。
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2013-11-25_
 
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>準備 Enterprise Edition 前端集區
 
-1.  在您想要重新放置中央管理伺服器的 Lync Server 2013 Enterprise Edition 前端集區上，登入安裝了 Lync Server 管理命令介面的電腦做為**RTCUniversalServerAdmins**群組的成員。 您也必須在您要安裝中央管理存放區的資料庫上，具有 SQL Server 資料庫的 sysadmin 使用者權利和許可權。
+1.  在您想要重新放置中央管理伺服器的 Lync Server 2013 Enterprise Edition 前端集區上，登入安裝了 Lync Server 管理命令介面的電腦做為 **RTCUniversalServerAdmins** 群組的成員。 您也必須在您要安裝中央管理存放區的資料庫上，具有 SQL Server 資料庫的 sysadmin 使用者權利和許可權。
 
 2.  開啟 Lync Server 管理命令介面。
 
@@ -71,13 +73,13 @@ _**主題上次修改日期：** 2013-11-25_
 
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>準備 Standard Edition 前端伺服器
 
-1.  在您想要重新放置中央管理伺服器的 Lync Server 2013 Standard Edition 前端伺服器上，登入安裝了 Lync Server 管理命令介面的電腦做為**RTCUniversalServerAdmins**群組的成員。
+1.  在您想要重新放置中央管理伺服器的 Lync Server 2013 Standard Edition 前端伺服器上，登入安裝了 Lync Server 管理命令介面的電腦做為 **RTCUniversalServerAdmins** 群組的成員。
 
 2.  開啟 Lync Server 部署嚮導。
 
-3.  在 [Lync Server 部署嚮導] 中，按一下 [**準備第一個 Standard Edition Server**]。
+3.  在 [Lync Server 部署嚮導] 中，按一下 [ **準備第一個 Standard Edition Server**]。
 
-4.  在 [**執行命令**] 頁面上，SQL Server Express 是以中央管理伺服器的方式安裝。 已建立所需的防火牆規則。 在完成資料庫和必要軟體的安裝時，請按一下 **[完成]**。
+4.  在 [ **執行命令** ] 頁面上，SQL Server Express 是以中央管理伺服器的方式安裝。 已建立所需的防火牆規則。 在完成資料庫和必要軟體的安裝時，請按一下 **[完成]**。
     
     <div>
     
@@ -102,7 +104,7 @@ _**主題上次修改日期：** 2013-11-25_
 
 ## <a name="to-move-the-lync-server-2010central-management-server-to-lync-server-2013"></a>將 Lync Server 2010 中央管理伺服器移至 Lync Server 2013
 
-1.  在將成為中央管理伺服器的 Lync Server 2013 伺服器上，登入安裝了 Lync Server 管理命令介面的電腦做為**RTCUniversalServerAdmins**群組的成員。 您也必須具有 SQL Server 資料庫管理員使用者權限。
+1.  在將成為中央管理伺服器的 Lync Server 2013 伺服器上，登入安裝了 Lync Server 管理命令介面的電腦做為 **RTCUniversalServerAdmins** 群組的成員。 您也必須具有 SQL Server 資料庫管理員使用者權限。
 
 2.  開啟 Lync Server 管理命令介面。
 
@@ -114,7 +116,7 @@ _**主題上次修改日期：** 2013-11-25_
     
 
     > [!WARNING]  
-    > 若 <CODE>Enable-CsTopology</CODE> 未成功，請解決問題，使命令無法完成，再繼續進行。 如果<STRONG>Enable-CsTopology</STRONG>不成功，移動會失敗，而且可能會使拓撲處於沒有中央管理存放區的狀態。
+    > 若 <CODE>Enable-CsTopology</CODE> 未成功，請解決問題，使命令無法完成，再繼續進行。 如果 <STRONG>Enable-CsTopology</STRONG> 不成功，移動會失敗，而且可能會使拓撲處於沒有中央管理存放區的狀態。
 
     
     </div>
@@ -129,11 +131,11 @@ _**主題上次修改日期：** 2013-11-25_
 
 7.  在 Lync Server 2013 伺服器上，開啟 [Lync Server 部署嚮導]。
 
-8.  在 [Lync Server 部署嚮導] 中，按一下 [**安裝或更新 Lync Server 系統**]，按一下 [**步驟2：安裝或移除 lync server 元件**]，按 **[下一步]**，查看摘要，然後按一下 **[完成]**。
+8.  在 [Lync Server 部署嚮導] 中，按一下 [ **安裝或更新 Lync Server 系統**]，按一下 [ **步驟2：安裝或移除 lync server 元件**]，按 **[下一步]**，查看摘要，然後按一下 **[完成]**。
 
 9.  在 Lync Server 2010 伺服器上，開啟 [Lync Server 部署嚮導]。
 
-10. 在 [Lync Server 部署嚮導] 中，按一下 [**安裝或更新 Lync Server 系統**]，按一下 [**步驟2：安裝或移除 lync server 元件**]，按 **[下一步]**，查看摘要，然後按一下 **[完成]**。
+10. 在 [Lync Server 部署嚮導] 中，按一下 [ **安裝或更新 Lync Server 系統**]，按一下 [ **步驟2：安裝或移除 lync server 元件**]，按 **[下一步]**，查看摘要，然後按一下 **[完成]**。
 
 11. 重新開機 Lync Server 2013 伺服器。 因為存取中央管理伺服器資料庫的群組成員資格變更，所以需要這麼做。
 
@@ -156,7 +158,7 @@ _**主題上次修改日期：** 2013-11-25_
 
 ## <a name="to-remove-lync-server-2010central-management-store-files-after-a-move"></a>移動後移除 Lync Server 2010 中央管理存放區檔案
 
-1.  在 Lync Server 2010 Server 上：登入安裝了 Lync Server 管理命令介面的電腦做為**RTCUniversalServerAdmins**群組的成員。 您也必須具有 SQL Server 資料庫管理員使用者權限。
+1.  在 Lync Server 2010 Server 上：登入安裝了 Lync Server 管理命令介面的電腦做為 **RTCUniversalServerAdmins** 群組的成員。 您也必須具有 SQL Server 資料庫管理員使用者權限。
 
 2.  開啟 Lync Server 管理命令介面
     
@@ -177,7 +179,7 @@ _**主題上次修改日期：** 2013-11-25_
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
     
-    其中， \< SQL Server 的 FQDN \> 是 Enterprise edition 部署的 Lync Server 2010 後端伺服器，或 Standard Edition SERVER 的 fqdn。
+    在 \<FQDN of SQL Server\> 企業版部署中的 Lync server 2010 後端伺服器或 Standard edition Server 的 FQDN。
 
 </div>
 

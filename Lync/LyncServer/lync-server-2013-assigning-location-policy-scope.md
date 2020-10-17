@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 指派位置原則範圍
+title: Lync Server 2013：指派位置原則範圍
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b436c52b89ce9e396d93669c09cdadeef10260e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 090c0d4e7ce65f633458860f0c488e4257d15b5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499420"
 ---
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>在 Lync Server 2013 中指派位置原則範圍
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>指派 Lync Server 2013 中的位置原則範圍
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42203289"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-06_
+_**主題上次修改日期：** 2012-06-06_
 
-為以其他 Lync Server 的原則，可以位置原則指派多個範圍層級： 全域、 網站及使用者。 不過，使用者層級位置原則範圍行為與其他 Lync Server 原則元方式不同。 不僅可以個別使用者位置原則套用至端點物件 （例如使用者和一般區域電話連絡人物件），它們也可以套用至 Lync Server 的網路網站。 網路網站相關聯的地理位置的子網路會分組的用戶端 （但不是一定是在整個中央站台或分支網站中的所有子網路）。 自動連線至網路網站中的子網路的任何用戶端中挑選指派給該網路站台的位置原則。 在使用者層級位置原則指派給使用者與網路網站的情況下，網路網站為基礎的位置原則會覆寫任何個別使用者原則設定。
+與其他 Lync Server 原則一樣，位置原則可以指派于多個範圍層級：全域、網站和使用者。 不過，使用者層級位置原則的範圍會與其他 Lync Server 原則的行為稍有不同。 每位使用者的位置原則不僅可以套用至端點物件 (例如使用者和公共區域電話連絡人物件) ，也可以套用至 Lync Server 網路網站。 網路網站是與地理位置相關聯之用戶端子網的群組 (但不一定是整個中央網站或分支網站) 中的所有子網。 任何連接至網路網站之子網的用戶端，都會自動挑選指派給該網路網站的位置原則。 在將使用者層級位置原則指派給使用者和網路網站時，網路網站型位置原則會覆寫任何個別使用者原則設定。
 
-各網站皆位置原則指派給它，而每個原則會有不同的 PSTN 使用方式、 通知 Uri、 以及會議 Uri 值指派給它。
+每個網站都有指派的位置原則，且每個原則都具有指派給它的不同 PSTN 使用方式、通知 URIs 和會議 URIs 值。
 
 <div>
 
 
 > [!NOTE]  
-> 此特殊原則範圍行為是，這樣當使用者某一集區在某辦公室網站瀏覽其他網站且需撥打緊急電話，E9-1-1 通話路由設定適用於該網路站台的原因會套用不論何種集區或網站 user 為指派給。
+> 這種特殊原則範圍行為的原因在於，當位於一個 office 網站上的集區的使用者要訪問另一個網站並必須撥打緊急電話時，就會套用適當于該網路網站的 E9-1-1 通話路由設定，不論使用者指派的集區或網站為何。
 
 
 

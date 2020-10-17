@@ -12,20 +12,22 @@ ms:contentKeyID: 48183228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 857dce2203bf9713676113ba4fa0e8b6f4ec5a60
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfe6ae76fd1f6b89178d101337f24ba0089dd35b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500980"
 ---
+# <a name="enabling-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中啟用通話許可控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中啟用通話許可控制
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[網路設定]**，然後按一下 **[全域]**。
 

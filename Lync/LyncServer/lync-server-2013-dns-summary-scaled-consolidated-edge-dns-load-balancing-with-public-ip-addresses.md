@@ -12,20 +12,22 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48dab867ac7ae408f544e4dbc6bc55ff555e20a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eaa466792de1adcd3d048c946c7b36803fbaab63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501300"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-調整式合併 edge （透過公用 IP 位址進行 DNS 負載平衡）
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-調整式合併 edge （透過公用 IP 位址進行 DNS 負載平衡）
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**主題上次修改日期：** 2017-03-09_
 
 對 Lync Server 2013 的遠端存取的 DNS 記錄需求，與憑證及埠的遠端存取非常直接。 此外，許多記錄是選用的，取決於如何設定執行 Lync 2013 的用戶端，以及是否啟用同盟。
 
-如需 Lync 2013 DNS 需求的詳細資訊，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)。
+如需 Lync 2013 DNS 需求的詳細資訊，請參閱 [決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)。
 
-如需設定如何設定 Lync 2013 用戶端自動設定的詳細資訊，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)中的「自動設定沒有分割的大腦 dns」一節。
+如需設定如何設定 Lync 2013 用戶端自動設定的詳細資訊，請參閱 [決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)中的「自動設定沒有分割的大腦 dns」一節。
 
 下表包含用以支援單一合併 Edge 拓撲 (如單一合併 Edge 拓撲圖表中所示) 所需的 DNS 記錄摘要。 請注意，只有在自動設定 Lync 2013 用戶端時，才需要特定的 DNS 記錄。 如果您打算使用群組原則物件 (Gpo) 設定 Lync 用戶端，則不需要關聯的記錄。
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2017-03-09_
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>重要： Edge Server 網路介面卡需求
 
-若要避免路由問題，請確認 Edge Server 中至少有兩個網路介面卡，且預設閘道只會在與外部介面相關聯的網路介面卡上設定。 例如，如調整式合併 edge 案例中的調整式合併 Edge 案例中所示，在[Lync Server 2013 中使用公用 IP 位址進行 DNS 負載平衡](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)，預設閘道會指向外部防火牆。
+若要避免路由問題，請確認 Edge Server 中至少有兩個網路介面卡，且預設閘道只會在與外部介面相關聯的網路介面卡上設定。 例如，如調整式合併 edge 案例中的調整式合併 Edge 案例中所示，在 [Lync Server 2013 中使用公用 IP 位址進行 DNS 負載平衡](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md) ，預設閘道會指向外部防火牆。
 
 您可以在每部 Edge Server 中設定兩個網路介面卡，如下所示：
 
@@ -142,13 +144,13 @@ _**主題上次修改日期：** 2017-03-09_
 </tr>
 <tr class="even">
 <td><p>外部 DNS/SRV/443</p></td>
-<td><p>_sip _tls .com</p></td>
+<td><p>_sip _sip._tls .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Access Edge service 外部介面。 自動設定 Lync 2013 和 Lync 2010 用戶端時必須執行，以供外部工作。 請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp .com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>「Access Edge service」的自動 DNS 探索（稱為「允許的 SIP 網域」）所需的外部介面，稱為「允許的 SIP 網域」 (稱為「增強型同盟」) 。 請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p></td>
 </tr>
@@ -187,7 +189,7 @@ _**主題上次修改日期：** 2017-03-09_
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp .com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP Access Edge service 外部介面，可自動將同盟的 DNS 探索至其他潛在同盟協力廠商，也稱為「允許的 SIP 網域」 (在舊版版本) 中稱為「增強型同盟」。</p>
 <div>
@@ -227,9 +229,9 @@ _**主題上次修改日期：** 2017-03-09_
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-_tcp .com</p></td>
+<td><p>_xmpp-server._tcp .com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Access Edge service 或 Edge 集區上的 XMPP proxy 外部介面。針對所有內部 SIP 網域，針對所有內部 SIP 網域，依需要重複此步驟：透過全域原則、使用者所在的網站原則，或套用到啟用 Lync 功能之使用者的使用者原則，可透過外部存取原則的設定允許與 XMPP 聯繫。 您也必須在 XMPP 同盟協力廠商原則中設定允許的 XMPP 網域。 如需其他詳細資料，請參閱另<strong>請</strong>參閱主題</p></td>
+<td><p>Access Edge service 或 Edge 集區上的 XMPP proxy 外部介面。針對所有內部 SIP 網域，針對所有內部 SIP 網域，依需要重複此步驟：透過全域原則、使用者所在的網站原則，或套用到啟用 Lync 功能之使用者的使用者原則，可透過外部存取原則的設定允許與 XMPP 聯繫。 您也必須在 XMPP 同盟協力廠商原則中設定允許的 XMPP 網域。 如需其他詳細資料，請參閱另 <strong>請</strong> 參閱主題</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>

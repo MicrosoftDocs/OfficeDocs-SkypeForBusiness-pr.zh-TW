@@ -13,20 +13,22 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a8f8cfcab36c1bfa47eb8ee4a24ebe683398707
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 99a0b7bfead8f74e27d8539038cf768b1a85b72e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754999"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499560"
 ---
+# <a name="configure-clients-for-migration"></a>設定用戶端以進行移轉
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a>設定用戶端以進行移轉
+
 
 </div>
 
@@ -38,13 +40,13 @@ ms.locfileid: "44754999"
 
 _**主題上次修改日期：** 2013-11-21_
 
-本主題包含在遷移至 Lync Server 2013 之前，應採取的建議用戶端部署步驟。 您應該在 Office 通訊伺服器 2007 R2 上進行這些設定變更。 在遷移之前，請務必先執行這些步驟。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃用戶端和裝置](lync-server-2013-planning-for-clients-and-devices.md)。
+本主題包含在遷移至 Lync Server 2013 之前，應採取的建議用戶端部署步驟。 您應該在 Office 通訊伺服器 2007 R2 上進行這些設定變更。 在遷移之前，請務必先執行這些步驟。 如需詳細資訊，請參閱 [在 Lync Server 2013 中規劃用戶端和裝置](lync-server-2013-planning-for-clients-and-devices.md)。
 
 <div>
 
 ## <a name="to-configure-clients-prior-to-migration"></a>在遷移之前設定用戶端
 
-1.  部署最近的 Office 通訊伺服器 2007 R2 伺服器、用戶端及裝置更新（修復程式）：
+1.  在 (修復程式) 上部署最近的 Office 通訊伺服器 2007 R2 伺服器、用戶端及裝置更新：
     
       - [套用 Office 通訊伺服器 2007 R2 更新](apply-office-communications-server-2007-r2-updates.md)
     
@@ -54,7 +56,7 @@ _**主題上次修改日期：** 2013-11-21_
 
 2.  在 Office 通訊伺服器 2007 R2 上，使用用戶端版本篩選，只允許安裝了最新更新的 Office 通訊伺服器 2007 R2 用戶端登入。
 
-3.  在 Office 通訊伺服器 2007 R2 上，使用用戶端版本篩選功能封鎖 Lync Server 2013 用戶端登入。 依照設定**用戶端版本篩選**中所述的步驟 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) ，新增下表所列的版本篩選器。 針對每個版本篩選，指派 action**區塊**。
+3.  在 Office 通訊伺服器 2007 R2 上，使用用戶端版本篩選功能封鎖 Lync Server 2013 用戶端登入。 依照設定 **用戶端版本篩選** 中所述的步驟 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) ，新增下表所列的版本篩選器。 針對每個版本篩選，指派 action **區塊**。
     
     
     <table>

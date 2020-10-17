@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS 摘要-調整式 Director 集區、 硬體負載平衡器'
+title: Lync Server 2013： DNS 摘要-調整式 Director 集區（硬體負載平衡器）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10c742d8d58392b06bc563cd0a947d46243703d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7755acc815da690312d2f60c2348076b2231cc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192916"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501260"
 ---
+# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-調整式 Director 集區（硬體負載平衡器）
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>DNS 摘要-調整式 Director 集區、 硬體負載平衡器在 Lync Server 2013
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42192916"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-20 個_
+_**主題上次修改日期：** 2012-10-20_
 
-下表包含摘要的 DNS 記錄所需支援的硬體負載平衡 Director。 Director 角色為前端伺服器需要類似的 DNS 記錄。 Director 憑證上所需的主體替代名稱會反映所需的記錄筆數。 不同於前端伺服器，Director 集區不會主控使用者帳戶或裝載行動服務。
+下表包含支援硬體負載平衡 Director 所需之 DNS 記錄的摘要。 Director 的角色需要與前端伺服器類似的 DNS 記錄。 所需的記錄數目會反映在 Director 憑證所需的主體替代名稱中。 與前端伺服器不同的是，Director 集區不會主控使用者帳戶或主控行動性服務。
 
-### <a name="dns-records-required-for-the-director-pool-using-a-hardware-load-balancer-and-dns-load-balancing"></a>使用硬體負載平衡器和 DNS 負載平衡的 Director 集區所需的 DNS 記錄
+### <a name="dns-records-required-for-the-director-pool-using-a-hardware-load-balancer-and-dns-load-balancing"></a>使用硬體負載平衡器和 DNS 負載平衡之 Director 集區所需的 DNS 記錄
 
 <table>
 <colgroup>
@@ -50,7 +52,7 @@ _**主題上次修改日期：** 2012年-10-20 個_
 </colgroup>
 <thead>
 <tr class="header">
-<th>位置/類型/連接埠</th>
+<th>位置/類型/埠</th>
 <th>FQDN/DNS 記錄</th>
 <th>IP 位址/FQDN</th>
 <th>對應至/註解</th>
@@ -61,19 +63,19 @@ _**主題上次修改日期：** 2012年-10-20 個_
 <td><p>內部 DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Director</p></td>
-<td><p>用於複寫及伺服器對伺服器通訊的 director 主機記錄</p></td>
+<td><p>用於複寫和伺服器對伺服器通訊的 Director 主機記錄</p></td>
 </tr>
 <tr class="even">
 <td><p>內部 DNS/A</p></td>
 <td><p>dirpool01.contoso.net</p></td>
 <td><p>Director 集區 HLB VIP</p></td>
-<td><p>主機記錄，DNS 負載平衡 Director 集區</p></td>
+<td><p>DNS 負載平衡 Director 集區的主機記錄</p></td>
 </tr>
 <tr class="odd">
 <td><p>內部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Director 集區 HLB VIP</p></td>
-<td><p>輸入工作階段初始通訊協定 (SIP) 從 Edge Server 內部介面</p></td>
+<td><p>來自 Edge Server 內部介面的輸入會話初始通訊協定 (SIP) </p></td>
 </tr>
 <tr class="even">
 <td><p>內部 DNS/A</p></td>
@@ -91,7 +93,7 @@ _**主題上次修改日期：** 2012年-10-20 個_
 <td><p>內部 DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
 <td><p>Director 集區 HLB VIP</p></td>
-<td><p>硬體負載平衡、 發行和定義反向 proxy Web 票證外部 web 服務的 Director 集區</p></td>
+<td><p>針對 Director 集區的反向 proxy Web 票證外部 Web 服務發行及定義的硬體負載平衡</p></td>
 </tr>
 </tbody>
 </table>

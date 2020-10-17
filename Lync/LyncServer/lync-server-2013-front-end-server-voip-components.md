@@ -12,20 +12,22 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 762b7a43343e10fe4d6bec601954474ba3a44b90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 62261a4d4651e38941f5068b58636b82d0151965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206489"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500700"
 ---
+# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Lync Server 2013 的前端伺服器 VoIP 元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Lync Server 2013 的前端伺服器 VoIP 元件
+
 
 </div>
 
@@ -93,7 +95,7 @@ Exchange UM 路由元件也會在 Exchange UM 伺服器無法使用時，處理�
 
 為了啟用語音信箱重新路由，我們建議您的 Exchange 管理員設定 Exchange UM 自動語音應答 (AA) 僅接受郵件。
 
-如需這些功能的詳細資訊，請參閱在 lync server [2013 中規劃 Exchange 整合通訊整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)，以及[在 lync Server 2013 中規劃 Enterprise Voice 韌性](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
+如需這些功能的詳細資訊，請參閱在 lync server [2013 中規劃 Exchange 整合通訊整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) ，以及 [在 lync Server 2013 中規劃 Enterprise Voice 韌性](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
 
 </div>
 

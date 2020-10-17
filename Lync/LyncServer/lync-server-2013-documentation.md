@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 文件
+title: Lync Server 2013：檔
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969609
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2705cd5d2dd473fa98ae44398b2d1eb0c812c9f8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2785391f93f2844809aaad06e4efff9c2e86505d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501170"
 ---
+# <a name="documentation-in-lync-server-2013"></a>Lync Server 2013 中的檔
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="documentation-in-lync-server-2013"></a>Lync Server 2013 中的文件
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42192776"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015年-05-15_
+_**主題上次修改日期：** 2015-05-15_
 
-MOF 模型是由許多服務管理功能所組成。 使用相同的小組的成員，或與其他小組可以共用文件中的有關如何及何時執行工作。 儲存與共用文件的方法可以因函數的類型。 例如，進行系統管理工作的程序可能會儲存為 Word 文件因為它們可能會列印及經常參照。 組態管理資訊可能會自動產生並儲存在資料庫中的簡單搜尋與編製索引。 某個文件中可能敏感，而且應該限制。
+MOF 模型是由許多服務管理功能所組成。 有關如何以及何時執行工作的檔，可以與相同小組的成員或其他小組共用。 儲存和共用檔的方法可能會因函數類型而異。 例如，系統管理的程式可能會儲存為 Word 檔，因為它們可能會經常列印和參照。 設定管理資訊可能會自動產生，並儲存在資料庫中，以方便搜尋和編制索引。 有些檔可能是保密的，應加以限制。
 
 <div>
 
-## <a name="document-management-systems"></a>文件管理系統
+## <a name="document-management-systems"></a>檔管理系統
 
-文件管理系統作為文件的集中存放庫，以協助確保只有最新的修訂的文件，均提供。 您也可以考慮封存參考文件的舊版本。 Lync Server 提供更適合這項工作的功能。
+檔管理系統充當檔的中央存放庫，並協助確保只有最新的檔版本可供使用。 您也可以考慮封存檔的舊版本以供參考。 Lync Server 提供此工作適用的功能。
 
 </div>
 
@@ -51,9 +53,9 @@ MOF 模型是由許多服務管理功能所組成。 使用相同的小組的成
 
 ## <a name="databases"></a>資料庫
 
-數個工具和管理功能所討論，適用於使用的資料庫。 設定管理程序是可能會使用儲存大量的資料需要編製索引和搜尋功能的自動化處理程序。 支援人員可能會搜尋過去的問題與解決方案的資料庫，當新的問題的疑難排解。
+討論的一些工具和管理功能與使用資料庫非常相關。 設定管理程式可能會使用儲存大量資料的自動化程式，而這些資料需要編制索引及搜尋。 支援人員在疑難排解新問題時，可能會搜尋過去問題和解決方法的資料庫。
 
-很可能會有不同的資料庫正在用於不同用途。 決定是否應連結或結合這些資料庫。 例如，如果服務台具有共通主題 （例如特定網路介面卡造成此問題： 新的軟體） 識別幾個問題，支援人員可以查詢要預測多少電腦可能會受到影響的設定資料庫。
+在不同的情況中，可能會使用不同的資料庫。 決定是否應該連結或合併這些資料庫。 例如，如果服務台發現一般主題 (的幾個問題，例如新的軟體導致特定網路介面卡發生問題) ，支援人員就可以查詢設定資料庫，以預測可能影響的電腦數目。
 
 </div>
 

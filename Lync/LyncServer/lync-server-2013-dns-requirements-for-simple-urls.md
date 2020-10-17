@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：簡單 URL 的 DNS 需求
+title: Lync Server 2013：簡易 URLs 的 DNS 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 98db338c48bbb764aefe3d5cab4bcba58b2b23c4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888712"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501370"
 ---
+# <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Lync Server 2013 中簡易 URLs 的 DNS 需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Lync Server 2013 中簡單 URL 的 DNS 需求
+
 
 </div>
 
@@ -37,27 +39,27 @@ ms.locfileid: "41888712"
 
 _**主題上次修改日期：** 2013-02-22_
 
-Lync Server 2013 支援簡單的 Url，讓您的使用者更容易加入會議，並讓您能更輕鬆地進入 Lync Server 管理工具給您的系統管理員。 如需簡單 Url 的詳細資料，請參閱[規劃 Lync Server 2013 中的簡單 url](lync-server-2013-planning-for-simple-urls.md)。
+Lync Server 2013 支援簡單的 URLs，讓使用者加入會議變得更容易，並讓系統管理員更輕鬆取得 Lync Server 系統管理工具。 如需簡單 URLs 的詳細資訊，請參閱 [在 Lync Server 2013 中規劃簡易 URLs](lync-server-2013-planning-for-simple-urls.md)。
 
-Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理員]。您必須設定適用于 [開會及撥入] 的簡單 Url，且 [管理員簡易 URL] 是選擇性的。 您需要支援簡單 Url 的網域名稱系統（DNS）記錄，取決於您如何定義這些簡單的 Url，以及是否要支援簡單 Url 的災害復原。
+Lync Server 支援下列三個簡單 URLs：「開會」、「Dial-In」和「系統管理」。您必須設定「符合」和「Dial-In」的簡易 URLs，且 Admin 簡易 URL 是選用的。 需要用來支援簡單 URL 的網域名稱系統 (DNS) 記錄，視您定義這些簡單 URL 的方式而定，以及是否要支援簡單 URL 的災害復原。
 
 <div>
 
-## <a name="simple-url-option-1"></a>簡單的 URL 選項1
+## <a name="simple-url-option-1"></a>簡單 URL 選項 1
 
-在選項1中，您為每個簡單的 URL 建立新的基 URL。
+在選項 1 中，您為每個簡單 URL 各建立一個新的基底 URL。
 
 <div class="">
 
 
 > [!NOTE]  
-> 當使用者按一下簡單的 URL 會議連結時，DNS A 記錄所解析的伺服器會決定要啟動的正確用戶端軟體。 用戶端軟體啟動之後，就會自動與該會議的主機池進行通訊。 如此一來，無論簡單的 URL DNS A 記錄解析到哪個伺服器或池中，使用者都會被導向會議內容的適當伺服器。
+> 當使用者按一下簡單 URL 會議連結時，DNS A 記錄解析為的伺服器會判斷要啟動的正確用戶端軟體。用戶端軟體啟動後，便會自動與裝載會議的集區進行通訊。透過這個方式，無論簡單 URL DNS A 記錄是解析為哪個伺服器或集區，都會將使用者導向至包含會議內容的正確伺服器。
 
 
 
 </div>
 
-### <a name="simple-url-option-1"></a>簡單的 URL 選項1
+### <a name="simple-url-option-1"></a>簡單 URL 選項 1
 
 <table>
 <colgroup>
@@ -66,48 +68,48 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><strong>簡單的 URL</strong></p></td>
+<td><p><strong>簡單 URL</strong></p></td>
 <td><p><strong>範例</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>符合</p></td>
-<td><p>https://meet.contoso.comhttps://meet.fabrikam.com等等（針對貴組織中的每個 SIP 網域一個）</p></td>
+<td><p>滿足</p></td>
+<td><p>https://meet.contoso.com、等等 https://meet.fabrikam.com 等等 (組織中的每個 SIP 網域) </p></td>
 </tr>
 <tr class="odd">
 <td><p>撥入</p></td>
 <td><p>https://dialin.contoso.com</p></td>
 </tr>
 <tr class="even">
-<td><p>管理員</p></td>
+<td><p>系統管理員</p></td>
 <td><p>https://admin.contoso.com</p></td>
 </tr>
 </tbody>
 </table>
 
 
-如果您使用選項1，您必須定義下列各項：
+如果使用選項 1，您必須定義下列項目：
 
-  - 針對每個符合簡單的 URL，您需要一個 DNS A 記錄，將 URL 解析為主管的 IP 位址（如果您已部署）。 否則，它應該解析為前端池負載平衡器的 IP 位址。 如果您沒有部署某個池，且使用的是標準版 server 部署，則 DNS A 記錄必須解析為貴組織中某個標準版伺服器的 IP 位址。
+  - 對於每個 Meet 簡單 URL，如果您已部署 Director，則需要有一筆 DNS A 記錄，並讓其將 URL 解析為 Director 的 IP 位址。否則，即應解析為前端集區的負載平衡器的 IP 位址。如果您未部署集區，且使用 Standard Edition Server 部署，則 DNS A 記錄必須解析為組織中某部 Standard Edition Server 的 IP 位址。
     
-    如果您的組織中有多個 SIP 網域，且您使用這個選項，您必須為每個 SIP 網域建立符合簡單的 Url，且您需要每個符合簡單 URL 的 DNS A 記錄。 例如，如果您同時擁有 contoso.com 和 fabrikam.com，您將會建立https://meet.contoso.com與https://meet.fabrikam.com的 DNS A 記錄。
+    如果組織中有多個 SIP 網域而您使用此選項，您必須為每個 SIP 網域建立 Meet 簡單 URL，且每個 Meet 簡單 URL 各需有一筆 DNS A 記錄。 例如，如果您同時有 contoso.com 和 fabrikam.com，您會同時為和建立 DNS A 記錄 https://meet.contoso.com https://meet.fabrikam.com 。
     
-    或者，如果您有多個 SIP 網域，而且想要將這些簡單 Url 的 DNS 記錄與證書需求減到最小，請使用 Option 3，如本主題稍後所述。
+    或者，如果您有多個 SIP 網域且想減少這些簡單 URL 的 DNS 記錄和憑證需求，請使用本主題稍後所述的選項 3。
 
-  - 若是撥入式簡易 URL，您需要 DNS A 記錄，將 URL 解析為主管的 IP 位址（如果您已部署的話）。 否則，它應該解析為前端池負載平衡器的 IP 位址。 如果您沒有部署某個池，且使用的是標準版 server 部署，則 DNS A 記錄必須解析為貴組織中某個標準版伺服器的 IP 位址。
+  - 對於 Dial-in 簡單 URL，如果您已部署 Director，則需要有一筆 DNS A 記錄，並讓其將 URL 解析為 Director 的 IP 位址。否則，即應解析為前端集區的負載平衡器的 IP 位址。如果您未部署集區，且使用 Standard Edition Server 部署，則 DNS A 記錄必須解析為組織中某部 Standard Edition Server 的 IP 位址。
 
-  - [管理員] 簡單 URL 僅限內部版本。 它需要一個 DNS A 記錄，將 URL 解析為主管的 IP 位址（如果您已部署）。 否則，它應該解析為前端池負載平衡器的 IP 位址。 如果您沒有部署某個池，且使用的是標準版 server 部署，則 DNS A 記錄必須解析為貴組織中某個標準版伺服器的 IP 位址。
+  - Admin 簡單 URL 僅限內部使用。如果您已部署 Director，則需要有一筆 DNS A 記錄，並讓其將 URL 解析為 Director 的 IP 位址。否則，即應解析為前端集區的負載平衡器的 IP 位址。如果您未部署集區，且使用 Standard Edition Server 部署，則 DNS A 記錄必須解析為組織中某部 Standard Edition Server 的 IP 位址。
 
 </div>
 
 <div>
 
-## <a name="simple-url-option-2"></a>簡單的 URL 選項2
+## <a name="simple-url-option-2"></a>簡單 URL 選項 2
 
-有了選項2、[開會]、[撥入] 和 [系統管理] 的簡單 Url，都有共同的基底 URL，例如 lync.contoso.com。 因此，對於這些簡單的 Url，只需要一個 DNS A 記錄，即可將 lync.contoso.com 解析為主管池或頂層端池的 IP 位址。 如果您沒有部署某個池，且使用的是標準版 server 部署，則 DNS A 記錄必須解析為貴組織中某個標準版伺服器的 IP 位址。
+在選項 2 中，Meet、Dial-in 和 Admin 簡單 URL 全都使用同一個基底 URL，例如 lync.contoso.com。因此，這些簡單 URL 只需要有一筆 DNS A 記錄，並讓其將 lync.contoso.com 解析為 Director 集區或前端集區的 IP 位址即可。如果您未部署集區，且使用 Standard Edition Server 部署，則 DNS A 記錄必須解析為組織中某部 Standard Edition Server 的 IP 位址。
 
-請注意，如果您的組織中有多個 SIP 網域，您仍然必須建立符合每個 SIP 網域的簡單 Url，而且您需要每個符合簡單 URL 的 DNS A 記錄。 在這個範例中，雖然三個簡單的 Url 都是以 lync.contoso.com 為基礎，但 fabrikam.com 的另一個基本 url 是以不同的基 URL 來設定。 在這個範例中，您必須同時為兩個和https://lync.contoso.com https://lync.fabrikam.com兩個都建立 DNS A 記錄。 如果您有多個 SIP 網域，則簡單的 URL 選項3會顯示另一個處理命名和 DNS A 記錄的方式。
+請注意，如果組織中有多個 SIP 網域，您仍必須為每個 SIP 網域建立 Meet 簡單 URL，且每個 Meet 簡單 URL 各需有一筆 DNS A 記錄。 在此範例中，除了有三個全都以 lync.contoso.com 為基礎的簡單 URL 外，還有一個針對 fabrikam.com 所設定，使用不同基底 URL 的 Meet 簡單 URL。 在此範例中，您必須建立和的 DNS A https://lync.contoso.com 記錄 https://lync.fabrikam.com 。 簡單 URL 選項 3 顯示當有多個 SIP 網域時，另一個處理命名和 DNS A 記錄的方式。
 
-### <a name="simple-url-option-2"></a>簡單的 URL 選項2
+### <a name="simple-url-option-2"></a>簡單 URL 選項 2
 
 <table>
 <colgroup>
@@ -116,19 +118,19 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><strong>簡單的 URL</strong></p></td>
+<td><p><strong>簡單 URL</strong></p></td>
 <td><p><strong>範例</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>符合</p></td>
-<td><p>https://lync.contoso.com/Meethttps://lync.fabrikam.com/Meet等等（針對貴組織中的每個 SIP 網域一個）</p></td>
+<td><p>滿足</p></td>
+<td><p>https://lync.contoso.com/Meet、等等 https://lync.fabrikam.com/Meet 等等 (組織中的每個 SIP 網域) </p></td>
 </tr>
 <tr class="odd">
 <td><p>撥入</p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>管理員</p></td>
+<td><p>系統管理員</p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
@@ -139,11 +141,11 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 
 <div>
 
-## <a name="simple-url-option-3"></a>簡單的 URL 選項3
+## <a name="simple-url-option-3"></a>簡單 URL 選項 3
 
-如果您有許多 SIP 網域，而您想要讓它們擁有不同的簡單 Url，但想要將這些簡單 Url 的 DNS 記錄與證書需求減至最少，選項3就是最實用的方法。 在這個範例中，您只需要一個 DNS A 記錄，該記錄會將 lync.contoso.com 解析為主管池或頂層端池的 IP 位址。
+如果您有許多 SIP 網域，且想要每個網域各有不同的簡單 URL，但想要減少這些簡單 URL 的 DNS 記錄和憑證需求，則採用選項 3 最適合。在此範例中，您僅需要有一筆 DNS A 記錄，並讓其將 lync.contoso.com 解析為 Director 集區或前端集區的 IP 位址。
 
-### <a name="simple-url-option-3"></a>簡單的 URL 選項3
+### <a name="simple-url-option-3"></a>簡單 URL 選項 3
 
 <table>
 <colgroup>
@@ -152,11 +154,11 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><strong>簡單的 URL</strong></p></td>
+<td><p><strong>簡單 URL</strong></p></td>
 <td><p><strong>範例</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>符合</p></td>
+<td><p>滿足</p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Meet</p>
 <p>https://lync.contoso.com/fabrikamSIPdomain/Meet</p></td>
 </tr>
@@ -165,7 +167,7 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 <td><p>https://lync.contoso.com/contosoSIPdomain/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>管理員</p></td>
+<td><p>系統管理員</p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Admin</p></td>
 </tr>
 </tbody>
@@ -176,11 +178,11 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 
 <div>
 
-## <a name="disaster-recovery-option-for-simple-urls"></a>簡單 Url 的災害復原選項
+## <a name="disaster-recovery-option-for-simple-urls"></a>簡單 URL 的災害復原選項
 
-如果您有多個包含前端池的網站，而且您的 DNS 提供者支援 GeoDNS，您可以針對簡單的 Url 設定您的 DNS 記錄，以支援災害復原，因此即使一個完整的前端池已停止，簡單的 URL 功能仍會繼續。 這個災害復原功能支援 [開會] 和 [撥入] 簡單的 Url。
+如果您有多個網站包含前端集區，而您的 DNS 提供者支援 GeoDNS，您可以設定您的 DNS 記錄以進行簡單的 URLs 以支援嚴重損壞修復，這樣一來，即使一部整個前端集區已停機，也能繼續簡易 URL 功能。 此災害復原功能支援 Meet 及 Dial-In 簡單 URL。
 
-若要設定這一點，請建立兩個 GeoDNS 位址。 每個位址都有兩個 DNS A 或 CNAME 記錄，可解析成成對組成的兩個池以進行災害復原。 一個 GeoDNS 位址用於內部存取，並解析為兩個池的內部網路 FQDN 或負載平衡器 IP 位址。 其他 GeoDNS 位址是用於外部存取，並解析為兩個池的外部 web FQDN 或負載平衡器 IP 位址。 下列是使用池之 Fqdn 的 [符合簡單 URL] 的範例。
+如要如此設定，請建立兩個 GeoDNS 位址。每個位址都包含兩個 DNS A 或 CNAME 記錄，這兩個記錄會解析為針對災害復原目的而配對的兩個集區。一個 GeoDNS 位址用於內部存取，並解析為該兩個集區的內部 Web FQDN 或負載平衡器 IP 位址。另一個 GeoDNS 位址用於外部存取，並解析為該兩個集區的外部 Web FQDN 或負載平衡器 IP 位址。下列範例針對 Meet 簡單 URL，並使用集區的 FQDN。
 
    ```console
     Meet-int.geolb.contoso.com
@@ -194,30 +196,30 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
          Pool2ExternalWebFQDN.contoso.com
    ``` 
 
-然後建立可將您的符合簡單 URL （例如 meet.contoso.com）解析成兩個 GeoDNS 位址的 CNAME 記錄。
+然後建立 CNAME 記錄，其中會將 Meet 簡單 URL (例如 meet.contoso.com) 解析為兩個 GeoDNS 位址。
 
 <div class="">
 
 
 > [!NOTE]  
-> 如果您的網路使用的是<EM>hairpinning</EM> （透過外部連結路由所有簡單的 URL 流量，包括來自貴組織內部的流量），則您可以只設定外部 GeoDNS 位址，並將您的 [符合簡單 url] 解析為僅限外部地址。
+> 如果網路使用<EM>「髮夾」</EM> (將所有簡單 URL 流量透過外部連結路由，包括來自組織內的流量)，則可僅設定外部 GeoDNS 位址，並將 Meet 簡單 URL 僅解析為該外部位址。
 
 
 
 </div>
 
-當您使用此方法時，您可以設定每個 GeoDNS 位址，以使用迴圈複用方法將要求發佈到兩個池，或主要連線到一個池（例如位於地理位置較近的池中），並使用其他池（例如連接失敗。
+使用此方法時，可設定每個 GeoDNS 位址使用循環配置資源方法來散發要求至兩個集區，或者主要連線至一個集區 (例如地理位置上較近的集區)，然後僅在連線失敗時才使用另一個集區。
 
-您可以針對撥入簡易 URL 設定相同的配置。 若要這樣做，請建立如先前範例中的其他記錄， `dialin`並`meet`在 DNS 記錄中取代。 針對系統管理員簡易 URL，請使用本節前面所列的三個選項之一。
+針對 Dial-In 簡單 URL 也可以設定相同的組態。 若要這麼做，請建立如先前範例中的其他記錄，並以 `dialin` `meet` DNS 記錄取代。 針對 Admin 簡單 URL，請使用本節中先前列出的三個選項。
 
-設定此設定之後，您必須使用監視應用程式來設定 HTTP 監視來監視失敗。 針對外部存取，請務必確認 HTTPS 取得對外部網路 FQDN 的自動探索要求，或兩個池的負載平衡器 IP 位址成功。 例如，下列要求不能包含任何**ACCEPT**標頭，而且必須傳回**200 OK**。
+此組態一旦設定，就必須使用監控應用程式，設定 HTTP 監控以監看失敗。 若要進行外部存取，請確定 HTTPS 對兩個集區的外部 web FQDN 或負載平衡器 IP 位址的 HTTPS GET 自動探索要求成功。 例如，下列要求不得包含任何 **ACCEPT** 標頭且必須傳回 **200 OK**。
 
 ```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-針對內部存取，您必須在兩個池的內部網路 FQDN 或負載平衡器 IP 位址上，監視埠5061。 如果偵測到任何連線失敗，這些池的 VIP 必須關閉埠80、443和444。
+針對內部存取，則必須監控該兩個集區之內部 Web FQDN 或負載平衡器 IP 位址的連接埠 5061。如果偵測到任何連線失敗，這些集區的 VIP 必須關閉連接埠 80、443 及 444。
 
 </div>
 

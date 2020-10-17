@@ -12,20 +12,22 @@ ms:contentKeyID: 48185025
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9737824248ea9f7d11803be14f1c008cc51261
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f97c44b0d199ec257b6e8b8e1d5f4c6d7fa307b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501240"
 ---
+# <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-單一合併 edge （使用 NAT 透過私人 IP 位址）
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-單一合併 edge （使用 NAT 透過私人 IP 位址）
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**主題上次修改日期：** 2017-03-09_
 
 對 Lync Server 2013 的遠端存取的 DNS 記錄需求，與憑證及埠的遠端存取非常直接。 此外，許多記錄是選用的，取決於如何設定執行 Lync 2013 的用戶端，以及是否啟用同盟。
 
-如需 Lync 2013 DNS 需求的詳細資訊，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)。
+如需 Lync 2013 DNS 需求的詳細資訊，請參閱 [決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)。
 
-如需有關執行 Lync 2013 之用戶端自動設定的詳細資訊，請參閱[決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)中的「沒有 Split-Brain DNS 的自動設定」。
+如需有關執行 Lync 2013 之用戶端自動設定的詳細資訊，請參閱 [決定 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)中的「沒有 Split-Brain DNS 的自動設定」。
 
 下表包含用以支援單一合併 Edge 拓撲 (如單一合併 Edge 拓撲圖表中所示) 所需的 DNS 記錄摘要。 請注意，只有在自動設定 Lync 2013 和 Lync 2010 用戶端時，才需要特定的 DNS 記錄。 如果您打算使用群組原則物件 (Gpo) 設定 Lync 用戶端，則不需要關聯的自動設定記錄。
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2017-03-09_
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>重要： Edge Server 網路介面卡需求
 
-若要避免路由問題，請確認 Edge Server 中至少有兩個網路介面卡，且預設閘道只會在與外部介面相關聯的網路介面卡上設定。 例如，如在 Lync Server 2013 的單一合併 edge 拓撲中，以[私人 IP 位址與 NAT](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)為單位的單一合併 edge 拓撲圖中所示，預設閘道會指向外部防火牆 (10.45.16.1) 。
+若要避免路由問題，請確認 Edge Server 中至少有兩個網路介面卡，且預設閘道只會在與外部介面相關聯的網路介面卡上設定。 例如，如在 Lync Server 2013 的單一合併 edge 拓撲中，以 [私人 IP 位址與 NAT](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)為單位的單一合併 edge 拓撲圖中所示，預設閘道會指向外部防火牆 (10.45.16.1) 。
 
 您可以在 Edge Server 中設定兩個網路介面卡，如下所示：
 
@@ -126,13 +128,13 @@ _**主題上次修改日期：** 2017-03-09_
 </tr>
 <tr class="even">
 <td><p>外部 DNS/SRV/443</p></td>
-<td><p>_sip _tls .com</p></td>
+<td><p>_sip _sip._tls .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Access Edge 外部介面。 自動設定 Lync 2013 和 Lync 2010 用戶端時必須執行，以供外部工作。 請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp .com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>DNS 自動探索同盟合作夥伴 (亦稱為「允許的 SIP 網域」，先前版本稱為增強型同盟) 需要 SIP Access Edge 外部介面。對於存在 Lync 啟用的使用者在其中的所有 SIP 網路必須重複</p></td>
 </tr>
@@ -150,7 +152,7 @@ _**主題上次修改日期：** 2017-03-09_
 
 
 > [!IMPORTANT]
-> 上表所列記錄內含 <EM>.net</EM> 延伸網址或 <EM>.com</EM> 延伸網址，以強調在您未使用 split-brain DNS 時這些項目應該歸屬的區域。 如果您使用的是「分裂大腦」 DNS，所有記錄都會位於相同的<EM>.com</EM>區域中，唯一的區別是其位於內部或外部 DNS 區域的版本。 如需詳細資訊，請參閱<A href="lync-server-2013-determine-dns-requirements.md">決定 Lync Server 2013 的 dns 需求</A>中的「Split-Brain DNS」。
+> 上表所列記錄內含 <EM>.net</EM> 延伸網址或 <EM>.com</EM> 延伸網址，以強調在您未使用 split-brain DNS 時這些項目應該歸屬的區域。 如果您使用的是「分裂大腦」 DNS，所有記錄都會位於相同的 <EM>.com</EM> 區域中，唯一的區別是其位於內部或外部 DNS 區域的版本。 如需詳細資訊，請參閱 <A href="lync-server-2013-determine-dns-requirements.md">決定 Lync Server 2013 的 dns 需求</A>中的「Split-Brain DNS」。
 
 
 
@@ -181,7 +183,7 @@ _**主題上次修改日期：** 2017-03-09_
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp .com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP Access Edge 外部介面。DNS 自動探索同盟至其他潛在同盟協力廠商 (亦稱為「允許的 SIP 網域」，先前版本稱為增強型同盟) 所需。請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p>
 
@@ -221,9 +223,9 @@ _**主題上次修改日期：** 2017-03-09_
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-_tcp .com</p></td>
+<td><p>_xmpp-server._tcp .com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Access Edge service 或 Edge 集區上的 XMPP proxy 外部介面。針對所有內部 SIP 網域，針對所有內部 SIP 網域，依需要重複此步驟：透過全域原則、使用者所在的網站原則，或套用到啟用 Lync 功能之使用者的使用者原則，可透過外部存取原則的設定允許與 XMPP 聯繫。 您也必須在 XMPP 同盟協力廠商原則中設定允許的 XMPP 網域。 如需其他詳細資料，請參閱另<strong>請</strong>參閱主題</p></td>
+<td><p>Access Edge service 或 Edge 集區上的 XMPP proxy 外部介面。針對所有內部 SIP 網域，針對所有內部 SIP 網域，依需要重複此步驟：透過全域原則、使用者所在的網站原則，或套用到啟用 Lync 功能之使用者的使用者原則，可透過外部存取原則的設定允許與 XMPP 聯繫。 您也必須在 XMPP 同盟協力廠商原則中設定允許的 XMPP 網域。 如需其他詳細資料，請參閱另 <strong>請</strong> 參閱主題</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>

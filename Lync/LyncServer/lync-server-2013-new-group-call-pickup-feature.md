@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 新的群組來電接聽功能
+title: Lync Server 2013：新增「群組呼叫收取」功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cdab88634cb0687efbe5012d841b19f4bba6b31
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89e7c8f096c7cfabd1a46a67c91b9514d73055ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500500"
 ---
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 中的新組呼叫收取功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 中的新群組來電接聽功能
+
 
 </div>
 
@@ -35,18 +37,18 @@ ms.locfileid: "42192346"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-12_
+_**主題上次修改日期：** 2013-02-12_
 
-Lync Server 2013 的累計更新： 2 月 2013年引進為新 Enterprise Voice 功能的群組來電接聽。 使用群組來電接聽，可以將使用者指派給群組，讓其他使用者可以接聽來電給他們自己的電話從群組中的使用者。
+Lync Server 2013 的累計更新：2月2013將群組呼叫收取引進為新的 Enterprise Voice 功能。 透過「群組呼叫收取」，您可以將使用者指派給群組，讓其他使用者可以從自己的電話向群組中的使用者接聽來電。
 
-群組來電接聽為基礎的通話駐留應用程式。 群組來電接聽，如為使用通話駐留您設定虛擬號碼範圍以做為群組數字。 使用者撥打要揀選響鈴群組中的另一個使用者的呼叫的群組數字。
+群組呼叫收取是以通話駐留應用程式為基礎。 對於群組呼叫收取（與通話駐留一樣），您可以設定要用來做為群組數目的虛擬號碼範圍。 使用者撥打群組號碼來接聽來電，該呼叫是群組中的另一位使用者。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中的群組來電接聽](lync-server-2013-planning-for-group-call-pickup.md)  
+[在 Lync Server 2013 中規劃群組呼叫收取](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>
