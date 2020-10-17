@@ -12,20 +12,22 @@ ms:contentKeyID: 48183276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8225d5be1582add6a7dfd1a025b53da7c9b403b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e8057dec3bb12fd2e51ecc85b177c83d08bb182
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525780"
 ---
+# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a>在 Lync Server 2013 中手動建立或修改轉譯規則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a>在 Lync Server 2013 中手動建立或修改轉譯規則
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42186976"
 
 _**主題上次修改日期：** 2012-08-06_
 
-若要撰寫相符樣式及轉譯規則的規則運算式以定義轉譯規則，請遵循下列步驟。 或者，您也可以在**組建轉譯規則**工具中輸入一組值，並讓 Lync Server 控制台為您產生對應的符合模式和轉譯規則。 如需詳細資訊，請參閱[使用 Lync Server 2013 中的組建轉譯規則工具建立或修改轉譯規則](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)。
+若要撰寫相符樣式及轉譯規則的規則運算式以定義轉譯規則，請遵循下列步驟。 或者，您也可以在 **組建轉譯規則** 工具中輸入一組值，並讓 Lync Server 控制台為您產生對應的符合模式和轉譯規則。 如需詳細資訊，請參閱 [使用 Lync Server 2013 中的組建轉譯規則工具建立或修改轉譯規則](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)。
 
 <div>
 
 ## <a name="to-define-a-translation-rule-manually"></a>若要手動定義轉譯規則
 
-1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  若要開始定義轉譯規則，請遵循在 lync server 2013 中的「透過[媒體旁路」設定主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)中的步驟，或在[lync Server 2013 中設定](lync-server-2013-configure-a-trunk-without-media-bypass.md)具有媒體旁路的主幹（透過步驟9）。
+3.  若要開始定義轉譯規則，請遵循在 lync server 2013 中的「透過 [媒體旁路」設定主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md) 中的步驟，或在 [lync Server 2013 中設定](lync-server-2013-configure-a-trunk-without-media-bypass.md) 具有媒體旁路的主幹（透過步驟9）。
 
 4.  在 **[新增轉譯規則]** 或 **[編輯轉譯規則]** 頁面的 **[名稱]** 欄位中，輸入可描述所轉譯號碼模式的名稱。
 
@@ -73,7 +75,7 @@ _**主題上次修改日期：** 2012-08-06_
     
 
     > [!NOTE]  
-    > 當您建立或修改轉譯規則時，您都必須執行 [全部認可]<STRONG></STRONG> 命令才能發行組態變更。 如需詳細資訊，請參閱 Operations 檔中的在<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中發佈擱置的變更至語音路由</A>設定。
+    > 當您建立或修改轉譯規則時，您都必須執行 [全部認可]<STRONG></STRONG> 命令才能發行組態變更。 如需詳細資訊，請參閱 Operations 檔中的在 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中發佈擱置的變更至語音路由</A> 設定。
 
     
     </div>

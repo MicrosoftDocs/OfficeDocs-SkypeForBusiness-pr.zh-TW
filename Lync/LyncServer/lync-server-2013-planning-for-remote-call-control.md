@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 規劃遠端通話控制
+title: Lync Server 2013：規劃遠端呼叫控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184371
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35b8586df49eb1dd7a10e94d3231cc2fdc082353
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 99cf4d98f02554e7de344ded843b60406e755a3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184106"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526450"
 ---
+# <a name="planning-for-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中規劃遠端呼叫控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-remote-call-control-in-lync-server-2013"></a>規劃 Lync Server 2013 中的遠端呼叫控制
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42184106"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-05_
+_**主題上次修改日期：** 2012-09-05_
 
-在 [Lync Server 2013 支援遠端呼叫控制案例可讓使用者在其桌面的電腦上使用 Lync 2013 控制其專用交換機 (pbx) 電話。 本節說明遠端呼叫控制功能，以及部署遠端呼叫控制的需求。
+在 Lync Server 2013 中，支援遠端呼叫控制案例，可讓使用者在其桌上型電腦上使用 Lync 2013 來控制其專用的分支 exchange (PBX) 電話。 本節說明遠端呼叫控制功能，以及部署遠端呼叫控制的需求。
 
-PBX 與 Lync Server 2013 之間的整合可讓使用者啟用遠端呼叫控制，可使用 Lync 2013 使用者介面 (UI) 以下列方式控制 PBX 電話上的通話：
+PBX 和 Lync Server 2013 之間的整合，可讓啟用遠端呼叫控制的使用者使用 Lync 2013 使用者介面 (UI) 以下列方式控制 PBX 電話上的通話：
 
 <div>
 
@@ -61,7 +63,7 @@ PBX 與 Lync Server 2013 之間的整合可讓使用者啟用遠端呼叫控制�
     
 
     > [!NOTE]  
-    > 也就是說，當來電者的電話號碼可以是貴組織的全域通訊清單 (GAL)、 在受話者的 Lync 連絡人清單中，或同盟的協力廠商組織中的立即訊息位址相關聯。
+    > 亦即，當來電者的電話號碼可以與您組織的全域通訊清單中的立即訊息位址相關聯 (GAL) 、被叫用的 Lync 連絡人清單，或同盟協力廠商的組織中。
 
     
     </div>
@@ -80,23 +82,23 @@ PBX 與 Lync Server 2013 之間的整合可讓使用者啟用遠端呼叫控制�
 
   - 在 [交談] 視窗中，於 Microsoft Office OneNote 筆記記錄程式中輸入記事
 
-此外，當使用者啟用遠端呼叫控制，Lync 2013 提供使用者，並將下列通話資訊：
+此外，當使用者啟用遠端呼叫控制時，Lync 2013 會為使用者提供下列呼叫資訊：
 
-  - 識別來電者依名稱當來電者的電話號碼存在於 [連絡人] 清單的遠端呼叫控制功能之使用者的 Microsoft Office Outlook 訊息和共同作業用戶端、 Lync 連絡人] 清單中或貴組織的 GAL。
+  - 來電者的電話號碼存在於啟用遠端呼叫控制功能之使用者的 Microsoft Office Outlook 郵件和共同作業用戶端、Lync 連絡人清單或您組織的 GAL 中的連絡人清單中時，會以名稱識別來電者。
 
   - 過去的來電及撥出電話 (儲存至 Outlook 的 [交談記錄] 資料夾中)。
 
-  - 未接來電通知傳送給使用者的 Outlook 收件匣] 資料夾，但是 Lync 正在執行時接收到來電時，才會產生。
+  - 未接來電通知，它會傳送至使用者的 Outlook [收件匣] 資料夾，但只有在接收來電時，才會產生 Lync。
 
 <div>
 
 ## <a name="remote-call-control-and-enterprise-voice"></a>遠端呼叫控制及　Enterprise Voice
 
-雖然遠端呼叫控制功能是分開 Enterprise Voice 功能，且使用者無法啟用兩者皆適用，Enterprise Voice 會提供功能也可設定已啟用遠端呼叫控制使用者的子集。 如果部署企業語音時，已啟用遠端呼叫控制使用者可以使用 Lync 來存取下列 Enterprise Voice 功能：
+雖然遠端呼叫控制功能與 Enterprise Voice 功能不同，而且不能同時啟用使用者，但 Enterprise Voice 提供的功能子集也可供啟用遠端呼叫控制的使用者使用。 如果部署了 Enterprise Voice，已啟用遠端呼叫控制的使用者可以使用 Lync 來存取下列 Enterprise Voice 功能：
 
-  - 撥打及接聽另一個 Lync 用戶端的音訊通話
+  - 撥打和接收其他 Lync 用戶端的音訊通話
 
-  - 加入啟用 Enterprise voice 使用者所建立會議的音訊部分
+  - 加入由已啟用 Enterprise Voice 之使用者所建立之會議的音訊部分
 
 </div>
 
@@ -104,7 +106,7 @@ PBX 與 Lync Server 2013 之間的整合可讓使用者啟用遠端呼叫控制�
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的遠端呼叫控制的部署工作](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+  - [Lync Server 2013 中遠端呼叫控制的部署工作](lync-server-2013-deployment-tasks-for-remote-call-control.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 從 Lync Server 2010 移轉至 Lync Server 2013
+title: 從 Lync Server 2010 遷移至 Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ea588abf4018ab06a415d4aa5ef7decf5f93996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89bc70635ac941398a71515e77dd1a792973fc35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527300"
 ---
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>從 Lync Server 2010 遷移至 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>從 Lync Server 2010 移轉至 Lync Server 2013
+
 
 </div>
 
@@ -35,41 +37,41 @@ ms.locfileid: "42189986"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-17_
+_**主題上次修改日期：** 2012-09-17_
 
-本節中的主題會引導您完成從 Lync Server 2010 移轉至 Lync Server 2013 的程序。
+本節中的主題將引導您完成從 Lync Server 2010 遷移至 Lync Server 2013 的程式。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 本文件說明通常完成移轉的每個階段所需的步驟。 它並未涵蓋每個可能的舊版部署拓樸或每個可能的移轉案例。 因此，您可能不需要執行每個步驟所述，或您可能需要執行額外步驟，根據您的部署。 這份文件也提供驗證步驟的範例。 下列驗證步驟提供可協助您了解您要尋找以確保，每個階段成功完成為您的進行移轉。 調整您的特定移轉程序下列驗證步驟。
+> 本檔說明執行每個遷移階段時，通常需要執行的步驟。 它不會解決每一個可能的舊版部署拓撲或每一種可能的遷移案例。 因此，您可能不需要執行所述的每一個步驟，否則您可能需要執行其他步驟，視您的部署而定。 這份檔也提供驗證步驟的範例。 提供這些驗證步驟是為了協助您瞭解需要尋找哪些專案，以確保每個階段在您完成遷移時順利完成。 將這些驗證步驟調整為您特定的遷移程式。
 
 
 
 </div>
 
-本指南提供將升級的現有部署的特定資訊。 它不會說明如何變更您現有的拓樸。 本指南並未涵蓋實作的新功能。 時的詳細程序會說明在其他地方，則本指南會引導您到適當的文件或文件] 區段中。
+本指南提供升級現有部署的相關資訊。 它不會說明如何變更現有的拓撲。 本指南並未涵蓋新功能的實施。 在其他地方記錄詳細的程式時，本指南會指引您使用適當的檔或檔區段。
 
-本文件定義字詞指定下列清單中。
+這份檔會定義下列清單中所指定的字詞。
 
-  - *移轉*  
-    將實際執行的部署從舊版 Lync Server 2010 移至 Lync Server 2013。
+  - *遷移*  
+    將實際執行的部署從舊版的 Lync Server 2010 移至 Lync Server 2013。
 
 <!-- end list -->
 
   - *升級*  
-    伺服器或用戶端電腦上安裝較新版的軟體。
+    在伺服器或用戶端電腦上安裝較新版本的軟體。
 
 <!-- end list -->
 
   - *共存*  
-    暫時環境，在移轉期間存在於，當某些功能會已移轉至 Lync Server 2013，以及其他功能則仍停留在前版的 Lync Server 2010。
+    在遷移期間，當某些功能已遷移至 Lync Server 2013，而其他功能仍保留在舊版的 Lync Server 2010 時，便會存在的臨時環境。
 
 <!-- end list -->
 
-  - *互通性*  
-    共存期間順利運作您部署的能力。
+  - *互 操作 性*  
+    您的部署在共存期間順利運作的能力。
 
 <div>
 
@@ -77,21 +79,21 @@ _**主題上次修改日期：** 2012年-09-17_
 
   - [開始移轉之前](before-you-begin-the-migration.md)
 
-  - [階段 1： 規劃從 Lync Server 2010 移轉](phase-1-plan-your-migration-from-lync-server-2010.md)
+  - [階段1：規劃從 Lync Server 2010 進行遷移](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-  - [階段 2： 準備移轉](phase-2-prepare-for-migration.md)
+  - [階段 2：準備移轉](phase-2-prepare-for-migration.md)
 
-  - [階段 3： 部署 Lync Server 2013 試驗集區](phase-3-deploy-lync-server-2013-pilot-pool.md)
+  - [階段3：部署 Lync Server 2013 試驗集區](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
-  - [階段 4： 將測試使用者移至試驗集區](phase-4-move-test-users-to-the-pilot-pool.md)
+  - [階段4：將測試使用者移至試驗集區](phase-4-move-test-users-to-the-pilot-pool.md)
 
-  - [階段 5： 將 Lync Server 2013 Edge Server 新增至試驗集區](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [第5階段：將 Lync Server 2013 Edge Server 新增至試驗集區](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [階段 6： 從試驗部署移至實際執行環境](phase-6-move-from-pilot-deployment-into-production.md)
+  - [階段 6：從試驗部署移至生產](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [階段 7： 完成移轉後工作](phase-7-complete-post-migration-tasks.md)
+  - [階段 7：完成移轉後的工作](phase-7-complete-post-migration-tasks.md)
 
-  - [第 8 階段： 解除委任舊版的集區](phase-8-decommission-legacy-pools.md)
+  - [階段 8：解除委任舊版集區](phase-8-decommission-legacy-pools.md)
 
 </div>
 

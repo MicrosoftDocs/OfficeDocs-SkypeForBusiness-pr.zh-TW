@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IMReportSummary 表'
+title: Lync Server 2013： IMReportSummary 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d13401f38677d75bc40cbb4c1bd56f2fbb7fbb4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e750da3fd42a726012f089291d3e2c770e52b44
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526630"
 ---
+# <a name="imreportsummary-table-in-lync-server-2013"></a>Lync Server 2013 中的 IMReportSummary 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="imreportsummary-table-in-lync-server-2013"></a>Lync Server 2013 中的 IMReportSummary 表
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42196686"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-08-20 個_
+_**主題上次修改日期：** 2012-08-20_
 
-IMReportSummaryTable 會提供組織中保留之立即訊息工作階段的整體報告。 Microsoft Lync Server 2013 中已採用此表格。
+IMReportSummaryTable 會提供組織中保留之立即訊息工作階段的整體報告。 此表格已引進 Microsoft Lync Server 2013。
 
 
 <table>
@@ -51,7 +53,7 @@ IMReportSummaryTable 會提供組織中保留之立即訊息工作階段的整�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -64,31 +66,31 @@ IMReportSummaryTable 會提供組織中保留之立即訊息工作階段的整�
 </tr>
 <tr class="even">
 <td><p><strong>TimePeriod</strong></p></td>
-<td><p>char(1)</p></td>
+<td><p>char (1) </p></td>
 <td><p>主要</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PoolFQDN</strong></p></td>
-<td><p>nvarchar(257)</p></td>
+<td><p>Nvarchar (257) </p></td>
 <td><p>主要</p></td>
 <td><p>裝載此工作階段之集區的完整網域名稱。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>A</strong></p></td>
+<td><p><strong>AuthType</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>電話的優先順序 (例如，緊急或非緊急)。 優先順序資訊都會儲存在<a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 中的 CallPriorities 表格</a>。</p></td>
+<td><p>電話的優先順序 (例如，緊急或非緊急)。 優先順序資訊會儲存在 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 的 CallPriorities 表格</a>中。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SessionCount</strong></p></td>
-<td><p>bigint</p></td>
+<td><p>Bigint</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>MsgCount</strong></p></td>
-<td><p>bigint</p></td>
+<td><p>Bigint</p></td>
 <td></td>
 <td><p>工作階段期間交換的立即訊息總數。</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a157d5492378771cf40a6438bbf8672efd01412
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213369"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526770"
 ---
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中登記智慧卡驗證的使用者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中登記智慧卡驗證的使用者
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2013-07-03_
 
 2.  啟動 Internet Explorer。
 
-3.  流覽至 [**憑證授權單位 Web 登記**] 頁面 (https://MyCA.contoso.com/certsrv) 例如，
+3.  流覽至 [ **憑證授權單位 Web 登記** ] 頁面 (https://MyCA.contoso.com/certsrv) 例如，
     
     <div>
     
@@ -60,39 +62,39 @@ _**主題上次修改日期：** 2013-07-03_
     
     </div>
 
-4.  在 [**歡迎**] 頁面上，選取 [**要求憑證**]。
+4.  在 [ **歡迎** ] 頁面上，選取 [ **要求憑證**]。
 
-5.  接下來，選取 [**高級要求**]。
+5.  接下來，選取 [ **高級要求**]。
 
-6.  選取 [**建立並提交此 CA 的要求**]。
+6.  選取 [ **建立並提交此 CA 的要求**]。
 
 7.  在 [**憑證範本**] 區段中選取 [**智慧卡使用者**]，並以下列值完成「高級憑證要求」：
     
-      - **主要選項**確認他的下列設定：
+      - **主要選項** 確認他的下列設定：
         
-          - 選取 [**建立新的按鍵集**] 選項按鈕
+          - 選取 [ **建立新的按鍵集** ] 選項按鈕
         
           - 若為**CSP**，請選取 [ **Microsoft 基本智慧卡加密提供者**]
         
-          - 如需**主要用法**，請選取 [ **Exchange** (這是唯一可用的選項) 。
+          - 如需 **主要用法**，請選取 [ **Exchange** (這是唯一可用的選項) 。
         
-          - 若為**金鑰大小**，請輸入**2048**
+          - 若為 **金鑰大小**，請輸入 **2048**
         
-          - 確認已選取 [**自動機碼容器名稱**]
+          - 確認已選取 [ **自動機碼容器名稱** ]
         
           - 請不要選取其他方塊。
     
-      - 在 [**其他選項**] 下，確認下列值：
+      - 在 [ **其他選項** ] 下，確認下列值：
         
-          - 若為**要求格式**，請選取**CMC**。
+          - 若為 **要求格式** ，請選取 **CMC**。
         
-          - 若為**雜湊演算法**，請選取**sha1**。
+          - 若為 **雜湊演算法** ，請選取 **sha1**。
         
-          - 若為**易記名稱**，請輸入**Smardcard 憑證**。
+          - 若為 **易記名稱** ，請輸入 **Smardcard 憑證**。
 
 8.  如果您使用的是實體智慧卡讀卡機，請將智慧卡插入裝置中。
 
-9.  按一下 [**提交**] 提交憑證要求。
+9.  按一下 [ **提交** ] 提交憑證要求。
 
 10. 出現提示時，請輸入用來建立虛擬智慧卡的 PIN 碼。
     
@@ -105,7 +107,7 @@ _**主題上次修改日期：** 2013-07-03_
     
     </div>
 
-11. 簽發憑證後，按一下 [**安裝此憑證**] 以完成註冊程式。
+11. 簽發憑證後，按一下 [ **安裝此憑證** ] 以完成註冊程式。
     
     <div>
     

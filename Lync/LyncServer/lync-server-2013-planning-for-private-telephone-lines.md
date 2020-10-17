@@ -12,20 +12,22 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8051fc18fd42c2c9773d4e0b8904f2923687fe2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a5381d0f71dd6e15a3b4b6d76f2a03be558b9d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184136"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526520"
 ---
+# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>使用 Lync Server 2013 規劃私人電話線
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>使用 Lync Server 2013 規劃私人電話線
+
 
 </div>
 
@@ -106,7 +108,7 @@ Lync Server 2013 引進除了主要電話線之外，也可為使用者提供第
     
 
     > [!NOTE]  
-    > 從會議到私人電話線的呼叫，在傳入系統通知中不會有<EM>私密金鑰</EM>指示。
+    > 從會議到私人電話線的呼叫，在傳入系統通知中不會有 <EM>私密金鑰</EM> 指示。
 
     
     </div>
@@ -137,11 +139,11 @@ Lync Server 2013 引進除了主要電話線之外，也可為使用者提供第
 
 使用 Lync Server 控制台或 Lync Server 管理命令介面，以與不含私人電話線的帳戶相同的方式，建立需要私人電話線之新使用者的帳戶。
 
-使用 Lync Server 管理命令介面中的**Set-CsUser** Cmdlet，將電話號碼指派給使用者的私人電話線，例如**Set-CsUser 身分 "sip:joe@contoso.com"-PrivateLine "電話： + 14255551212"**。
+使用 Lync Server 管理命令介面中的 **Set-CsUser** Cmdlet，將電話號碼指派給使用者的私人電話線，例如 **Set-CsUser 身分 "sip:joe@contoso.com"-PrivateLine "電話： + 14255551212"**。
 
 私人電話線的電話號碼長度可以介於3到15個數字之間，且前面必須加上 "TEL:" 前置詞。 只要您的組織對該區號和國家/地區碼進行直接撥號，他們就可以擁有任何區功能變數代碼和任何國家/地區碼。
 
-如需 Cmdlet 和 Lync Server 管理命令介面的詳細資訊，請參閱[Lync server 2013 管理命令](lync-server-2013-lync-server-management-shell.md)介面檔。
+如需 Cmdlet 和 Lync Server 管理命令介面的詳細資訊，請參閱 [Lync server 2013 管理命令](lync-server-2013-lync-server-management-shell.md) 介面檔。
 
 </div>
 

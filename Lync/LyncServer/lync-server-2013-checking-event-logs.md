@@ -12,20 +12,22 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8574681353a6082ce46efb514923871a01c1427d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: edbd977eb8023d5001a5b8e4a6a1c706eea84fc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526190"
 ---
+# <a name="checking-event-logs-in-lync-server-2013"></a>在 Lync Server 2013 中檢查事件記錄檔
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-event-logs-in-lync-server-2013"></a>在 Lync Server 2013 中檢查事件記錄檔
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42206750"
 
 _**主題上次修改日期：** 2014-08-06_
 
-您可以使用[Windows 事件檢視器](https://go.microsoft.com/fwlink/p/?linkid=314067)來查看事件記錄，並取得有關服務失敗的資訊、AD DS 中的複寫錯誤，以及有關系統資源（如虛擬記憶體和磁碟空間）的警告。 事件檢視器隨附于 Windows Server 2008 和2012。
+您可以使用 [Windows 事件檢視器](https://go.microsoft.com/fwlink/p/?linkid=314067) 來查看事件記錄，並取得有關服務失敗的資訊、AD DS 中的複寫錯誤，以及有關系統資源（如虛擬記憶體和磁碟空間）的警告。 事件檢視器隨附于 Windows Server 2008 和2012。
 
-在 Lync Server 2013 記錄工具中，當您結束調試會話時，請按一下 [**分析記錄**檔] 以使用 Snooper 工具來查看記錄檔。
+在 Lync Server 2013 記錄工具中，當您結束調試會話時，請按一下 [ **分析記錄** 檔] 以使用 Snooper 工具來查看記錄檔。
 
 事件檢視器會維護電腦上的應用程式、安全性和系統事件記錄。 Lync Server 2013 和 Windows 報告警告和錯誤狀況的事件記錄。 因此，請每天複查事件記錄。
 
@@ -91,11 +93,11 @@ _**主題上次修改日期：** 2014-08-06_
 
   - 產品知識：發現問題的原因和解決方法
 
-如需 Lync Server 2013 管理元件的詳細資訊，請參閱[使用 System Center Operations Manager 監視 Lync Server 2013](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)。
+如需 Lync Server 2013 管理元件的詳細資訊，請參閱 [使用 System Center Operations Manager 監視 Lync Server 2013](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)。
 
-**事件梳紋**    事件梳紋工具會將多部電腦之事件記錄檔中的特定事件，從一個集中位置收集。 它可讓您僅報告其所指定的事件 IDs 或事件來源。 如需事件梳紋的詳細資訊，請參閱[帳戶鎖定和管理工具](https://go.microsoft.com/fwlink/?linkid=35607)網站。
+**事件梳紋**    事件梳紋工具會將多部電腦之事件記錄檔中的特定事件，從一個集中位置收集。 它可讓您僅報告其所指定的事件 IDs 或事件來源。 如需事件梳紋的詳細資訊，請參閱 [帳戶鎖定和管理工具](https://go.microsoft.com/fwlink/?linkid=35607) 網站。
 
-**事件觸發器**    在 Windows Server 2012 中，您可以在 Windows 事件檢視器中「將工作附加到這個事件」，讓系統管理員可以執行程式、傳送電子郵件訊息或顯示幕幕郵件。 如需此功能的相關資訊，請參閱 Windows Server 2008 R2 主題[執行工作以回應指定的事件](https://technet.microsoft.com/library/cc748900.aspx)。 您也可以使用命令列工具（如 ' Eventtrigger.exe '）來建立及查詢事件記錄，並將程式與特定記錄的事件關聯。 透過使用 Eventtriggers.exe，您可以建立在特定事件發生時執行程式的事件觸發器。
+**事件觸發器**    在 Windows Server 2012 中，您可以在 Windows 事件檢視器中「將工作附加到這個事件」，讓系統管理員可以執行程式、傳送電子郵件訊息或顯示幕幕郵件。 如需此功能的相關資訊，請參閱 Windows Server 2008 R2 主題 [執行工作以回應指定的事件](https://technet.microsoft.com/library/cc748900.aspx)。 您也可以使用命令列工具（如 ' Eventtrigger.exe '）來建立及查詢事件記錄，並將程式與特定記錄的事件關聯。 透過使用 Eventtriggers.exe，您可以建立在特定事件發生時執行程式的事件觸發器。
 
 <div>
 

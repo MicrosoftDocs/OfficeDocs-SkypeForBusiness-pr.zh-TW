@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 內送呼叫
+title: Lync Server 2013：傳入通話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5a6cd54732bb6c33e358eeb1a5dbb72a1a4e789
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05147e469ce120663992e5ae7b8a3ee59acaf78c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204742"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526610"
 ---
+# <a name="incoming-calls-in-lync-server-2013"></a>Lync Server 2013 中的傳入通話
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a>Lync Server 2013 中的來電
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42204742"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-09_
+_**主題上次修改日期：** 2013-03-09_
 
-路由傳送來電至使用者啟用位置型的路由，取決於使用者的端點的位置。 以下列方式，受影響的內送呼叫路由。 如果使用者有來電轉接至位於位置型的路由端點已啟用的網路網站，並端點位於相同網路網站與 PSTN 閘道，來電會路由傳送。 如果使用者有來電轉接至位於位置型的路由端點已啟用的網路網站，並端點位於不同的網路站台比 PSTN 閘道，不會路由傳送來電。 當使用者不具有位於相同的網路網站與 PSTN 閘道來電源自其中任何端點時，來電會被直接路由傳送至使用者的語音信箱和未接的來電通知會傳送給受話方。
+對啟用 Location-Based 路由的使用者進行撥入電話的路由，取決於使用者端點的位置。 傳入通話的路由會以下列方式受到影響。 如果使用者對位於啟用網路功能的 Location-Based 路由的網站中的端點進行來電，而該端點位於與 PSTN 閘道相同的網路網站中，則會路由傳送通話。 如果使用者對位於啟用 Location-Based 路由的網路網站中的端點進行來電，而該端點位於與 PSTN 閘道不同的網路網站中，則不會路由呼叫。 當使用者沒有與撥入電話來源所在的 PSTN 閘道位於相同網路網站時，撥入電話會直接路由傳送至使用者的語音信箱，而且會將未接來電通知傳送給呼叫方。
 
-來電轉接設定已啟用位置型路由的使用者仍可強制執行，不過，轉接電話會受到位置型路由限制的使用者。
+已啟用 Location-Based 路由之使用者的「來電轉接」設定會繼續強制執行，不過轉接的來電會受到使用者 Location-Based 路由限制的制約。
 
-下表說明如何以位置為主的路由會影響根據受話者端點的位置的撥入通話路由傳送。 PSTN 閘道的網路網站啟用位置型的路由，以及位置型路由只允許路由傳送至相同的網路站台內的端點的 PSTN 通話。
+下表說明 Location-Based 路由會如何影響傳入通話的路由，視受話者端點的位置而定。 PSTN 閘道的網路網站會為 Location-Based 路由啟用，而且 Location-Based 路由只允許將 PSTN 呼叫路由傳送至相同網路網站內的端點。
 
-### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>受話者接收來自 PSTN 的輸入的呼叫
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>被呼叫者從 PSTN 接收輸入呼叫
 
 <table>
 <colgroup>
@@ -55,17 +57,17 @@ _**上次修改主題：** 2013年-03-09_
 <thead>
 <tr class="header">
 <th></th>
-<th>位於相同網路網站與 PSTN 閘道的受話者端點</th>
-<th>並非位於相同網路網站與 PSTN 閘道的受話者端點</th>
-<th>受話者端點位於不明的網路網站，或未啟用位置型的路由</th>
+<th>被呼叫者的端點位於與 PSTN 閘道相同的網路網站中</th>
+<th>受話者的端點與 PSTN 閘道不位於相同的網路網站</th>
+<th>受話者的端點位於未知的網路網站中，或是未啟用 Location-Based 路由</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>路由傳送內送 PSTN 通話</p></td>
-<td><p>來電會路由傳送至受話者端點</p></td>
-<td><p>來電不會路由至受話者端點</p></td>
-<td><p>來電不會路由至受話者端點</p></td>
+<td><p>傳入 PSTN 通話的路由</p></td>
+<td><p>撥入電話會路由傳送至受話者的端點</p></td>
+<td><p>傳入的呼叫未路由至受話者的端點</p></td>
+<td><p>傳入的呼叫未路由至受話者的端點</p></td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +79,7 @@ _**上次修改主題：** 2013年-03-09_
 ## <a name="see-also"></a>另請參閱
 
 
-[依位置路由 Lync Server 2013 中的案例](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 中的 Location-Based 路由案例](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定 Lync Online 網域同盟支援
+title: Lync Server 2013：設定 Lync Online 網域的同盟支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99c3dd2d1a8ea2027b7007d9a05a4c3ec8357a15
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27780806e064aae82aa36cee96d9fafcdba2eddb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191486"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525970"
 ---
+# <a name="configure-federation-support-for-a-lync-online-domain-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Lync Online 網域的同盟支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-support-for-a-lync-online-domain-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Lync Online 網域同盟支援
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42191486"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-與 Microsoft Lync Online 2010 客戶同盟需要完成下列步驟：
+與 Microsoft Lync Online 2010 客戶同盟需要您完成下列步驟：
 
-  - 設定 Lync Online 2010 customer (例如，contoso.onmicrosoft.com) 的網域的支援。 指定此文件[與 Lync Server 2013 中的 Lync Online 客戶同盟的先決條件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)區段中，您應該已為您的組織啟用同盟。 啟用同盟需要指定同盟網域用來控制存取的方法。 如果您將組織設定成使用探索，則可選擇是否將網域新增至組織的允許清單中。 如果您未啟用網域探索，您必須將 Lync Online 客戶的網域名稱新增至允許的網域清單。 使用 Lync Server Control Panel，或執行**New-csalloweddomain**指令程式，您可以新增的網域名稱。 如需使用 Lync Server Control Panel，包括啟用探索的網域，請參閱作業文件中的[管理 SIP 同盟提供者在 Lync Server 2013 組織](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)。 如需使用**New-csalloweddomain**指令程式來新增網域的詳細資訊，請參閱作業文件中的[New-csalloweddomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) 。
+  - 為 Lync Online 2010 客戶 (的網域設定支援，例如，contoso.onmicrosoft.com) 。 如您在本檔的 [與 lync Online 客戶進行同盟的 [必要條件2013中](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) 所指定，您應該已經為您的組織啟用同盟。 啟用同盟需要指定同盟網域用來控制存取的方法。 如果您將組織設定成使用探索，則可選擇是否將網域新增至組織的允許清單中。 如果您未啟用網域探索，您必須將 Lync Online 客戶的功能變數名稱新增至您的允許網域清單。 您可以使用 Lync Server 控制台或執行 **CSAllowedDomain** Cmdlet 來新增功能變數名稱。 如需使用 Lync Server 控制台（包括啟用網域探索）的詳細資訊，請參閱 Operations 檔中的 [管理您組織的 SIP 同盟提供者（Lync server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) ）。 如需使用 **CSAllowedDomain** Cmdlet 新增網域的詳細資訊，請參閱 Operations 檔中的 [New-CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) 。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Online 客戶可以有多個網域。 如果您想要同盟與一個以上的網域，您必須設定為每個個別的網域與您想要支援同盟，以及 Lync Online 客戶的系統管理員必須啟用每個為同盟網域同盟的支援。
+    > Lync Online 客戶可以有多個網域。 如果您想要與一個以上的網域同盟，您必須為想要支援同盟的各個個別網域設定支援，並且 Lync Online 客戶的系統管理員必須啟用每個網域的同盟。
 
     
     </div>
 
-  - 設定您想要同盟的 Lync Online 2010 客戶網域的裝載提供者的支援。 請使用本節中的程序，為裝載提供者設定相關支援。
+  - 針對您要與其同盟的 Lync Online 2010 客戶網域，設定支援的主機提供者。 請使用本節中的程序，為裝載提供者設定相關支援。
     
     <div>
     
 
     > [!NOTE]  
-    > 僅適用於與網域同盟的 Lync Online 客戶，則不是內部部署同盟的協力廠商位置任何網域同盟時才需要此步驟。
+    > 此步驟僅適用于與 Lync Online 客戶網域的同盟，而不是用於同盟協力廠商所在位置之任何部署于內部部署的網域的同盟。
 
     
     </div>
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012年-11-01_
 
 ## <a name="to-configure-support-for-a-hosting-provider"></a>針對裝載提供者設定支援
 
-1.  從前端伺服器上，啟動 [Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  在前端伺服器上，啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  執行 **New-CsHostingProvider** Cmdlet，以建立和設定裝載提供者。 例如，執行：
     
@@ -83,11 +85,11 @@ _**主題上次修改日期：** 2012年-11-01_
     
       - **EnabledSharedAddressSpace** 會指出裝載提供者是否已在共用 SIP 位址空間 (分割網域) 案例中使用。
     
-      - **HostsOCSUsers**指出裝載提供者是否用來裝載 Lync Server 帳戶。 如果**為 False**，提供者主控其他帳戶類型，例如 Microsoft Exchange 帳戶。
+      - **HostsOCSUsers** 會指出裝載提供者是否是用來裝載 Lync Server 帳戶。 若 **為 False**，則提供者會主控其他帳戶類型，例如 Microsoft Exchange 帳戶。
     
-      - **IsLocal**指出裝載提供者所使用的 proxy 伺服器是否包含在您的 Lync Server 拓撲內。
+      - **IsLocal** 指出主控提供者所使用的 proxy 伺服器是否包含在 Lync server 拓撲中。
     
-    如需有關使用此 cmdlet 的詳細資訊，請參閱作業文件中的[New-cshostingprovider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) 。
+    如需使用此 Cmdlet 的詳細資訊，請參閱 Operations 檔中的 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) 。
 
 </div>
 

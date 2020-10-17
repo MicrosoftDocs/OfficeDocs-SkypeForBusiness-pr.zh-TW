@@ -12,20 +12,22 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cfeffc8a72d26167b9771e6437d21ba55c8f5636
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525950"
 ---
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>設定 Lync Server 2013 與 Lync Online 的同盟
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>設定 Lync Server 2013 與 Lync Online 的同盟
+
 
 </div>
 
@@ -63,9 +65,9 @@ _**主題上次修改日期：** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>設定共用 SIP 位址空間的商務用 Skype Online 租使用者
 
-會話初始通訊協定（SIP）位址是網路上每位使用者的唯一識別碼，類似于電話號碼或電子郵件地址。 在您嘗試將 Lync 使用者從內部部署移至商務用 Skype Online 之前，您必須設定 Microsoft 365 或 Office 365 組織，以與您的內部部署共用共用會話初始通訊協定（SIP）位址空間。 若未設定此設定，您可能會看到下列錯誤訊息：
+會話初始通訊協定 (SIP) 位址是網路上每位使用者的唯一識別碼，類似于電話號碼或電子郵件地址。 在您嘗試將 Lync 使用者從內部部署移至商務用 Skype Online 之前，您必須設定 Microsoft 365 或 Office 365 組織，以共用內部部署的共用會話初始通訊協定 (SIP) 位址空間。 若未設定此設定，您可能會看到下列錯誤訊息：
 
-Move-CsUser： HostedMigration fault： Error = （510），Description = （此使用者的租使用者未啟用共用 sip 位址空間。）
+Move-CsUser： HostedMigration fault： Error = (510) ，描述 = (此使用者的租使用者未啟用共用 sip 位址空間。 ) 
 
 若要設定共用 SIP 位址空間，使用商務用 Skype Online 建立遠端 PowerShell 會話，然後執行下列 Cmdlet：
 ```powershell
@@ -91,9 +93,9 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
     Import-PSSession $CSSession -AllowClobber
    ```
 
-如需如何使用商務用 Skype Online 建立遠端 PowerShell 會話的詳細資訊，請參閱[使用 Windows PowerShell 連線到商務用 Skype Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如需如何使用商務用 Skype Online 建立遠端 PowerShell 會話的詳細資訊，請參閱 [使用 Windows PowerShell 連線到商務用 Skype Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
-如需使用商務用 Skype Online PowerShell 模組的詳細資訊，請參閱[使用 Windows PowerShell 管理商務用 Skype online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如需使用商務用 Skype Online PowerShell 模組的詳細資訊，請參閱 [使用 Windows PowerShell 管理商務用 Skype online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
 </div>
 

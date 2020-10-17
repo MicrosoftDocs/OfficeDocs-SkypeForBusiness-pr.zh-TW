@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 會議活動報告
+title: Lync Server 2013：會議活動報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cb548ad27e61284f5bc5f3fff1718faa20ef0e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe99c67faa5cc9d0fadd2bdabd260c9d40091303
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213149"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526040"
 ---
+# <a name="conference-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的會議活動報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的會議活動報告
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42213149"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-22_
+_**主題上次修改日期：** 2012-10-22_
 
-「會議活動報告」可讓您輕鬆回答下列問題：每天舉行了幾場會議？ 這些會議的舉行時間為何？ 這類資訊不只具備本質的意義，也是非常實用的疑難排解工具。 快速檢視會議活動報告可能建議可能的原因之一： 遠會議排定之間的上午 10:00 的時間，然後在任何其他階段 2:00 PM。
+「會議活動報告」可讓您輕鬆回答下列問題：每天舉行了幾場會議？ 這些會議的舉行時間為何？ 這類資訊不只具備本質的意義，也是非常實用的疑難排解工具。 在會議活動報告中，您可能會建議一個可能的原因：目前在 10:00 AM 和 2:00 PM 的下班時間之間排程的會議，在任何其他時間。
 
 若網路太慢導致了問題，您就可以鼓勵使用者將部分會議重新排程在較為離峰流量的時段。
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012年-10-22_
 
 ## <a name="accessing-the-conference-activity-report"></a>存取會議活動報告
 
-從[Lync Server 2013 中的會議摘要報告](lync-server-2013-conference-summary-report.md)存取會議活動報告按一下下列計量之一：
+您可以按一下下列其中一個計量， [以在 Lync Server 2013 中的會議摘要報告中](lync-server-2013-conference-summary-report.md) 存取會議活動報告：
 
   - 會議總數
 
@@ -92,9 +94,9 @@ _**主題上次修改日期：** 2012年-10-22_
 <td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -102,9 +104,9 @@ _**主題上次修改日期：** 2012年-10-22_
 <td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
@@ -149,14 +151,14 @@ _**主題上次修改日期：** 2012年-10-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>否</p></td>
 <td><p>會議中所使用的登錄器集區或 Edge Server 名稱。</p></td>
 </tr>
@@ -192,9 +194,9 @@ _**主題上次修改日期：** 2012年-10-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

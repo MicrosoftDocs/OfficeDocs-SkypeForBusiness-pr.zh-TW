@@ -12,20 +12,22 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 63f789abee1949f7fae5a7a3d7dcdc03c86dc352
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527220"
 ---
+# <a name="migration-phases"></a>遷移階段
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-phases"></a>遷移階段
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756814"
 
 _**主題上次修改日期：** 2012-09-17_
 
-在 Lync Server 2013 中，您可以在網路上定義包含 Lync Server 2013 元件的網站。 網站是一組電腦，其連線速度很快，低延遲網路，例如單一局域網（LAN）或由高速光纖網路連接的兩個網路。
+在 Lync Server 2013 中，您可以在網路上定義包含 Lync Server 2013 元件的網站。 網站是以高速度、低延遲網路連接的一組電腦，例如單一區域網路 (LAN) 或由高速光纖網路連接的兩個網路。
 
 *前端集*區是一組前端伺服器，其設定方式相同，並且共同運作，為一般使用者群組提供服務。 集區可為您的使用者提供延展性及容錯移轉功能。 集區中的每部伺服器都必須執行一或多個相同的伺服器角色。 專為小型組織設計的 Standard Edition 伺服器也會定義集區，並在單一伺服器上執行。 這可讓您將 Lync Server 2013 功能設為較低的成本，但不會提供真正的高可用性解決方案。
 

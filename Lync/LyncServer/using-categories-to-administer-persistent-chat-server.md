@@ -12,20 +12,22 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6d008e77df49dcfb2875923575c5d0c2acb1d1dd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526410"
 ---
+# <a name="using-categories-to-administer-persistent-chat-server"></a>使用類別管理 Persistent Chat Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-categories-to-administer-persistent-chat-server"></a>使用類別管理 Persistent Chat Server
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2013-10-01_
 
 
 > [!NOTE]  
-> 雖然聊天室的許多管理功能是可在使用者執行 Persistent Chat （Lync 用戶端）的電腦上使用，但 Persistent Chat 系統管理員（在<STRONG>cspersistentchatadministrator</STRONG> role 中）必須使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立或管理類別。
+> 雖然聊天室的許多管理功能均可在執行 Persistent Chat (Lync 用戶端) 的電腦上使用，但在 <STRONG>cspersistentchatadministrator</STRONG> role 中) 的持續性聊天系統管理員 (，必須使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立或管理類別。
 
 
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2013-10-01_
 
 Persistent Chat administrator 使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別，以及為組織中的使用者設計聊天室的存取。
 
-Persistent 聊天室管理員（能夠管理一或多個聊天室）可以使用 Lync 用戶端來啟動聊天室管理 Web 應用程式，以建立及管理聊天室（或客戶可以建立要呼叫的自訂解決方案和工作流程）。 Persistent Chat 系統管理員也可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理聊天室。
+Persistent 聊天室管理員（能夠管理一或多個聊天室）可以使用 Lync 用戶端來啟動聊天室管理 Web 應用程式，以建立及管理會議室 (或客戶可以建立自訂的解決方案和工作流程以) 進行呼叫。 Persistent Chat 系統管理員也可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理聊天室。
 
 <div>
 
@@ -87,11 +89,11 @@ Persistent 聊天室管理員（能夠管理一或多個聊天室）可以使用
 
 ## <a name="delegated-administration"></a>委派管理
 
-正確使用類別時，建立及管理 Persistent 聊天室的工作會更容易。 Persistent Chat 管理員可以定義每個類別的**AllowedMembers**和建立**者**，也可以定義將套用到所有在類別中建立之聊天室的預設聊天室設定和行為。 Persistent Chat 系統管理員可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別。
+正確使用類別時，建立及管理 Persistent 聊天室的工作會更容易。 Persistent Chat 管理員可以定義每個類別的 **AllowedMembers** 和建立 **者** ，也可以定義將套用到所有在類別中建立之聊天室的預設聊天室設定和行為。 Persistent Chat 系統管理員可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別。
 
-使用者、組織單位（Ou）及識別為類別建立者的使用者群組，都是唯一可以在類別中建立聊天室的個人和群組。 在建立類別之後，他們可以從類別的**AllowedMembers**清單選擇使用者、ou 和使用者群組做為聊天室管理員和成員，以管理及參與會議室。
+使用者、組織單位 (Ou) ，以及識別為類別建立者的使用者群組，都是唯一可以在類別中建立聊天室的個人和群組。 在建立類別之後，他們可以從類別的 **AllowedMembers** 清單選擇使用者、ou 和使用者群組做為聊天室管理員和成員，以管理及參與會議室。
 
-在類別中建立的聊天室遵循類別所強制執行的原則和設定（例如誰可以在會議室的成員資格、誰可以管理該會議室、是否允許檔案上傳，以及是否已傳送邀請）。
+在類別中建立的聊天室遵循類別 (所強制執行的原則和設定，例如誰可以在會議室的成員資格、誰可以管理該會議室、是否允許檔案上傳、是否已傳送邀請，等等) 。
 
 </div>
 

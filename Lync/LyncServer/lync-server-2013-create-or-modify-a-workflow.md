@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 建立或修改工作流程
+title: Lync Server 2013：建立或修改工作流程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19fa6bc4d4b3ca60ad7a9d540251489005a23255
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b79e4be39f461364b43efa9c3420cd8f4aa3eac0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525770"
 ---
+# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改工作流程
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a>建立或修改 Lync Server 2013 中的工作流程
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42186966"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-Lync Server 2013 支援兩種類型的工作流程： 搜尋群組與互動語音回應 (IVR)。 當您建立工作流程時，您可以使用的回應群組設定工具若要指定佇列，以便使用及其他設定，例如歡迎訊息，音樂保留、 上班時間] 和回應群組應用程式會詢問來電者的問題。
+Lync Server 2013 支援兩種類型的工作流程：群組搜尋與互動語音回應 (IVR) 。 當您建立工作流程時，您可以使用回應群組設定工具來指定要使用的佇列及其他設定，例如歡迎訊息、等候音樂、上班時間，以及回應群組應用程式詢問來電者的問題。
 
 <div>
 
@@ -53,9 +55,9 @@ Lync Server 2013 支援兩種類型的工作流程： 搜尋群組與互動語�
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [建立或修改群組搜尋工作流程在 Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [在 Lync Server 2013 中建立或修改群組搜尋工作流程](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [建立或修改互動工作流程在 Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)
+  - [在 Lync Server 2013 中建立或修改互動式工作流程](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
 </div>
 
@@ -64,12 +66,12 @@ Lync Server 2013 支援兩種類型的工作流程： 搜尋群組與互動語�
 ## <a name="see-also"></a>另請參閱
 
 
-[建立或修改 Lync Server 2013 中的代理程式群組](lync-server-2013-create-or-modify-an-agent-group.md)  
-[建立或修改 Lync Server 2013 中的佇列](lync-server-2013-create-or-modify-a-queue.md)  
-[（選用）Lync Server 2013 中的定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+[在 Lync Server 2013 中建立或修改代理程式群組](lync-server-2013-create-or-modify-an-agent-group.md)  
+[在 Lync Server 2013 中建立或修改佇列](lync-server-2013-create-or-modify-a-queue.md)  
+[ (選用) 在 Lync Server 2013 中定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)  
 
 
-[（選用）Lync Server 2013 中的定義回應群組營業時間](lync-server-2013-optional-define-response-group-business-hours.md)  
+[ (選用) 在 Lync Server 2013 中定義回應群組上班時間](lync-server-2013-optional-define-response-group-business-hours.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6efbad7107109096a5f17d82912353e6f8a1a14a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: e9de4309f114b712a8ea575f42499922e75f5d8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756492"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527340"
 ---
+# <a name="migrating-multiple-sites-and-pools"></a>移轉多個網站與集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a>移轉多個網站與集區
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 支援多個網站和多個集區的部署。 將多個集區�
 
 5.  確認 Office 通訊伺服器 2007 R2 集區是空的之後，即可停用該集區。
     
-    如需如何停用舊版 Office 通訊伺服器 2007 R2 集區和伺服器的詳細資訊，請參閱第[10 階段：解除委任舊版網站](phase-10-decommission-legacy-site.md)。
+    如需如何停用舊版 Office 通訊伺服器 2007 R2 集區和伺服器的詳細資訊，請參閱第 [10 階段：解除委任舊版網站](phase-10-decommission-legacy-site.md)。
 
 </div>
 

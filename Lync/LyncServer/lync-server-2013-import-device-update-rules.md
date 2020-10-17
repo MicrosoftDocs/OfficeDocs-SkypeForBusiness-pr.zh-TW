@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 匯入裝置更新規則
+title: Lync Server 2013：匯入裝置更新規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5436be837af75045d75b8feee31886aaaf324f0b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ddeb9d37d36d6ab18467e04e4a7c46b9b8576fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526720"
 ---
+# <a name="import-device-update-rules-in-lync-server-2013"></a>在 Lync Server 2013 中匯入裝置更新規則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-device-update-rules-in-lync-server-2013"></a>匯入 Lync Server 2013 中的裝置更新規則
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42196726"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-23_
+_**主題上次修改日期：** 2013-02-23_
 
-只能透過使用 Windows PowerShell 和**Import-csdeviceupdate** cmdlet 可以匯入裝置更新規則。 從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端工作階段，可以執行此 cmdlet。
+只能使用 Windows PowerShell 和 **Import-CsDeviceUpdate** Cmdlet 匯入裝置更新規則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
 
 <div>
 
 
 > [!NOTE]  
-> 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 部落格文章 「 快速開始:: 管理 Microsoft Lync Server 2010 使用遠端 PowerShell 」 在<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 。
 
 
 
@@ -54,9 +56,9 @@ _**上次修改主題：** 2013年-02-23_
 
 <div>
 
-## <a name="to-import-device-update-rules-to-a-single-web-server"></a>若要匯入裝置更新規則的單一網頁伺服器
+## <a name="to-import-device-update-rules-to-a-single-web-server"></a>將裝置更新規則匯入到單一網頁伺服器
 
-  - 下列命令會將裝置更新規則匯入網頁伺服器 atl-edge-001.litwareinc.com-atl-cs-001.litwareinc.com:
+  - 下列命令會將裝置更新規則匯入至網頁伺服器 atl-cs-001.litwareinc.com：
     
         Import-CsDeviceUpdate -Identity "service:WebServer:atl-cs-001.litwareinc.com" -FileName C:\Updates\UCUpdates.cab
 
@@ -64,15 +66,15 @@ _**上次修改主題：** 2013年-02-23_
 
 <div>
 
-## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>若要匯入裝置更新規則至所有網頁伺服器
+## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>將裝置更新規則匯入至所有網頁伺服器
 
-  - 在這個範例中，在組織中部署的所有網頁伺服器都會匯都入裝置更新規則。 此命令可工作時，該資料夾的\\ \\atl-fs-001.litwareinc.com\\更新必須是共用，並可供所有網頁伺服器。
+  - 在此範例中，裝置更新規則會匯入到組織中部署的所有網頁伺服器。 若要使用此命令， \\ \\ \\ 必須共用資料夾 atl-fs-001.litwareinc.com 更新，而且所有網頁伺服器皆可使用該資料夾。
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
 </div>
 
-如需詳細資訊，請參閱[Import-csdeviceupdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet 的說明主題。
+如需詳細資訊，請參閱 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) Cmdlet 的 [說明] 主題。
 
 </div>
 
@@ -81,7 +83,7 @@ _**上次修改主題：** 2013年-02-23_
 ## <a name="see-also"></a>另請參閱
 
 
-[檢視 Lync Server 2013 中的裝置更新規則的相關資訊](lync-server-2013-view-information-about-device-update-rules.md)  
+[在 Lync Server 2013 中查看裝置更新規則的相關資訊](lync-server-2013-view-information-about-device-update-rules.md)  
 [核准 Lync Server 2013 中的裝置更新規則](lync-server-2013-approve-a-device-update-rule.md)  
   
 

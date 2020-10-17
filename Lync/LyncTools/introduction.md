@@ -12,20 +12,22 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 354f28948578be528787928fd4e0874f6ff8e5fa
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f217ec7d39134dcb8d6000de33b3d0c17aeb033d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755457"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527150"
 ---
+# <a name="introduction"></a>簡介
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction"></a>簡介
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755457"
 
 _**主題上次修改日期：** 2013-02-24_
 
-Lync Server 2013 應力和效能工具（稱為 LyncPerfTool）可以模擬下列類型的使用者負載：
+Lync Server 2013 應力和效能工具 (稱為 LyncPerfTool) 可以模擬下列類型的使用者負載：
 
 
 <table>
@@ -52,7 +54,7 @@ Lync Server 2013 應力和效能工具（稱為 LyncPerfTool）可以模擬下�
 </tr>
 <tr class="even">
 <td><p>應用程式共用</p></td>
-<td><p>Voice over IP （VoIP），包含公用交換電話網路（PSTN）類比</p></td>
+<td><p>Voice over IP (VoIP) ，包括公用交換電話網路 (PSTN) 模擬</p></td>
 </tr>
 <tr class="odd">
 <td><p>Web Access 用戶端會議</p></td>
@@ -64,7 +66,7 @@ Lync Server 2013 應力和效能工具（稱為 LyncPerfTool）可以模擬下�
 </tr>
 <tr class="odd">
 <td><p>通訊錄下載和通訊錄查詢</p></td>
-<td><p>增強型9-1-1 （E9-1-1）通話和位置設定檔（撥號對應表）</p></td>
+<td><p>增強型 9-1-1 (E9-1-1) 通話和位置設定檔 (撥號對應表) </p></td>
 </tr>
 <tr class="even">
 <td><p>重視</p></td>

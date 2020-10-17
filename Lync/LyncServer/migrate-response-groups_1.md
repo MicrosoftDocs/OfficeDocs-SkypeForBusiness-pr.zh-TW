@@ -12,20 +12,22 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7e06b7cec1b02a194b1bb892af0e60771a15ebd5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756934"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527450"
 ---
+# <a name="migrate-response-groups"></a>移轉回應群組
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a>移轉回應群組
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 </div>
 
-在遷移回應群組之前，您必須已部署包含回應群組應用程式的 Lync Server 2013 集區。 當您部署企業語音時，預設會安裝及啟用回應群組應用程式。 您可以執行**Get-CsService – ApplicationServer** Cmdlet 來確定是否已安裝回應群組應用程式。
+在遷移回應群組之前，您必須已部署包含回應群組應用程式的 Lync Server 2013 集區。 當您部署企業語音時，預設會安裝及啟用回應群組應用程式。 您可以執行 **Get-CsService – ApplicationServer** Cmdlet 來確定是否已安裝回應群組應用程式。
 
 <div>
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 </div>
 
-若要將回應群組從舊版集區遷移至 Lync Server 2013，您需要執行**Move-CsRgsConfiguration** Cmdlet。 在執行 **Move-CsRgsConfiguration** 之前，必須先安裝 Windows Management Instrumentation (WMI) 回溯相容性介面套件。 執行 OCSWMIBC.msi 即可安裝此應用程式。 您可在安裝媒體的安裝資料夾中找到 OCSWMIBC.msi。
+若要將回應群組從舊版集區遷移至 Lync Server 2013，您需要執行 **Move-CsRgsConfiguration** Cmdlet。 在執行 **Move-CsRgsConfiguration** 之前，必須先安裝 Windows Management Instrumentation (WMI) 回溯相容性介面套件。 執行 OCSWMIBC.msi 即可安裝此應用程式。 您可在安裝媒體的安裝資料夾中找到 OCSWMIBC.msi。
 
 <div>
 
@@ -144,7 +146,7 @@ _**主題上次修改日期：** 2012-10-19_
     
 
     > [!NOTE]  
-    > URL 通常 https://webpoolFQDN/RgsClients/Tab.aspx ，其中 webpoolFQDN 是與您剛才遷移至 Lync Server 2013 之集區相關聯之網頁集區的完整功能變數名稱（FQDN）。
+    > URL 通常是指 https://webpoolFQDN/RgsClients/Tab.aspx 與您剛才遷移至 Lync Server 2013 之集區相關聯之網頁集區的完整功能變數名稱 (FQDN) 的 webpoolFQDN。
 
     
     </div>
@@ -153,7 +155,7 @@ _**主題上次修改日期：** 2012-10-19_
     
 
     > [!NOTE]  
-    > 在使用者升級至 Lync 2013 之後，不需要此步驟，因為您可以從 Lync 的 [<STRONG>工具</STRONG>] 功能表中取得 URL。
+    > 在使用者升級至 Lync 2013 之後，不需要此步驟，因為您可以從 Lync 的 [ <STRONG>工具</STRONG> ] 功能表中取得 URL。
 
     
     </div>
@@ -168,11 +170,11 @@ _**主題上次修改日期：** 2012-10-19_
 
 2.  在左導覽列中，按一下 **[回應群組]**。
 
-3.  在 [**工作流程**] 索引標籤上，確認您的 Office 通訊伺服器 2007 R2 環境中的所有工作流程都包含在清單中。
+3.  在 [ **工作流程** ] 索引標籤上，確認您的 Office 通訊伺服器 2007 R2 環境中的所有工作流程都包含在清單中。
 
-4.  按一下 [**佇列**] 索引標籤，確認清單中包含 Office 通訊伺服器 2007 R2 環境中的所有佇列。
+4.  按一下 [ **佇列** ] 索引標籤，確認清單中包含 Office 通訊伺服器 2007 R2 環境中的所有佇列。
 
-5.  按一下 [**群組**] 索引標籤，並確認您的 Office 通訊伺服器 2007 R2 環境中的所有代理程式群組都包含在清單中。
+5.  按一下 [ **群組** ] 索引標籤，並確認您的 Office 通訊伺服器 2007 R2 環境中的所有代理程式群組都包含在清單中。
 
 </div>
 

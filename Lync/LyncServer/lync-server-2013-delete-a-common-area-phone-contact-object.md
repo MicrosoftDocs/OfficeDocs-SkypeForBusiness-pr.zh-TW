@@ -12,20 +12,22 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e0bd9d635cc745c10836c58a331d2e36380e446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38126f54e02738b1f48b42022a9061055e271d18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525720"
 ---
+# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>在 Lync Server 2013 中刪除公共區域電話連絡人物件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>在 Lync Server 2013 中刪除公共區域電話連絡人物件
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42190796"
 
 _**主題上次修改日期：** 2013-02-20_
 
-您可能想要刪除與公共區域電話相關聯的連絡人物件。 例如，如果您移除員工前往中的電話，則不需要有與該電話相關聯的 contact 物件。 **Remove-CsCommonAreaPhone** Cmdlet 提供一種方法，讓您刪除公用區域電話帳戶。 當您執行此 Cmdlet 時，系統會從**Get-CsCommonAreaPhone**傳回的常見區域電話清單中刪除電話。 此外，會從 Active Directory 網域服務中刪除與該電話相關聯的連絡人物件。
+您可能想要刪除與公共區域電話相關聯的連絡人物件。 例如，如果您移除員工前往中的電話，則不需要有與該電話相關聯的 contact 物件。 **Remove-CsCommonAreaPhone** Cmdlet 提供一種方法，讓您刪除公用區域電話帳戶。 當您執行此 Cmdlet 時，系統會從 **Get-CsCommonAreaPhone**傳回的常見區域電話清單中刪除電話。 此外，會從 Active Directory 網域服務中刪除與該電話相關聯的連絡人物件。
 
-使用**Remove-CsCommonAreaPhone**來移除一個共同區域電話或所有具有共同元素的公共區域電話，例如顯示名稱或國家/地區碼和區號。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+使用 **Remove-CsCommonAreaPhone** 來移除一個共同區域電話或所有具有共同元素的公共區域電話，例如顯示名稱或國家/地區碼和區號。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -74,7 +76,7 @@ _**主題上次修改日期：** 2013-02-20_
 
 </div>
 
-如需詳細資訊，請參閱[Remove-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Remove-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) Cmdlet 的 [說明] 主題。
 
 </div>
 

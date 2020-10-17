@@ -12,20 +12,22 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf5b2b6e707820986b20f0592d2f2051e6f47bc5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8431e16e976f0ad189205f0c42c04d50e6936e90
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196046"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527040"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Lync Server 2013 中的備份和還原需求：資料
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Lync Server 2013 中的備份和還原需求：資料
+
 
 </div>
 

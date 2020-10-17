@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 通訊群組來電接聽指派給使用者
+title: Lync Server 2013：將群組呼叫收取指派給使用者的通訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bce34eb1ad3c2b0b2d0e4b8b09b16e3ea6f398e7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e45ff57a20a4b0455b534d69f35c1f6b7f9b2bcd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526060"
 ---
+# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a>在 Lync Server 2013 中通訊群組呼叫收取指派給使用者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a>通訊群組來電接聽指派給 Lync Server 2013 中的使用者
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42190926"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-30_
+_**主題上次修改日期：** 2013-01-30_
 
-為使用者啟用群組來電接聽之後，使用電子郵件或其他某種機制來通知使用者他們的通話收取群組號碼。 通知使用者他們可能會想要監視的任何群組的通話收取群組編號。 使用者可以擷取其他使用者的呼叫，即使它們不在相同的群組，因為使用者可能需要呼叫收取的群組數目的多個群組。
+在您為使用者啟用群組呼叫收取後，請使用電子郵件或其他一些機制通知使用者他們的呼叫收取群組號碼。 通知使用者他們可能想要監視的任何群組的呼叫收取群組號碼。 因為使用者可以為其他使用者取回來電，即使這些使用者不在相同的群組中，使用者可能需要多個群組的呼叫收取群組號碼。
 
 </div>
 

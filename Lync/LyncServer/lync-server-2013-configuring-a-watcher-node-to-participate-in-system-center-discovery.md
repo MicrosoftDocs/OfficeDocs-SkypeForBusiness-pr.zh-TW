@@ -1,5 +1,5 @@
 ---
-title: 設定監看員節點以參與 System Center 搜索
+title: 設定監視節點以參與 System Center 探索
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5167ae007379bed9212651eaabfbca7ac7217ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 49b34e623b885bb7e85afc258c1d533c2a8feb46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527000"
 ---
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>設定 Lync Server 2013 中的監看員節點，以參與 System Center 探索
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>設定監看員節點以參與 System Center 搜索的 Lync Server 2013 中
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42208009"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-22_
+_**主題上次修改日期：** 2012-10-22_
 
-若要確保您的監看員節點參與探索程序中的 System Center Operations Manager，您必須完成下列程序已安裝 System Center Operations Manager 主控台的電腦上：
+為了確保您的監看員節點參與 System Center Operations Manager 的探索程式，您必須在已安裝 System Center Operations Manager 主控台的電腦上完成下列程式：
 
 1.  在 [管理]**** 索引標籤上，按一下 [代理程式管理]****。
 
 2.  用滑鼠右鍵按一下監看員節點電腦的名稱，然後按一下 [內容]****。在 [內容]**** 對話方塊中的 [安全性]**** 索引標籤上，選取 [允許此代理程式作為 Proxy 並探索其他電腦中的受管理物件]****，然後按一下 [確定]****。
 
-將監看員節點設為 Proxy 之後，重新啟動監看員節點電腦。 電腦重新開機之後，請確認沒有錯誤事件會被記錄在 Operations Manager 事件記錄檔，該電腦上。 已經執行之電腦的 15 分鐘左右之後，使用 Operations Manager 主控台中若要確認您的 Lync Server 電腦會列在**Lync**類別下。
+將監看員節點設為 Proxy 之後，重新啟動監看員節點電腦。 重新開機電腦之後，請確認該電腦上的 Operations Manager 事件記錄中未記錄任何錯誤事件。 在電腦執行15分鐘之後，請使用 Operations Manager 主控台驗證 lync Server 電腦是否列在 **lync** 類別底下。
 
 </div>
 
