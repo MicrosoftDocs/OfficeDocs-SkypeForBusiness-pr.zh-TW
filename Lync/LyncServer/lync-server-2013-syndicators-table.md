@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Syndicators 表格
+description: Lync Server 2013： Syndicators 表格。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5aa9c6c41da7d2dc62d615a5838213ac82a66c01
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 97368512f9c90157a10f1ed71a04011244e974a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523860"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550869"
 ---
-# <a name="syndicators-table-in-lync-server-2013"></a><span data-ttu-id="319a3-102">Lync Server 2013 中的 Syndicators 表格</span><span class="sxs-lookup"><span data-stu-id="319a3-102">Syndicators table in Lync Server 2013</span></span>
+# <a name="syndicators-table-in-lync-server-2013"></a><span data-ttu-id="5f9c8-103">Lync Server 2013 中的 Syndicators 表格</span><span class="sxs-lookup"><span data-stu-id="5f9c8-103">Syndicators table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48523860"
 
 <span> </span>
 
-<span data-ttu-id="319a3-103">_**主題上次修改日期：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="319a3-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="5f9c8-104">_**主題上次修改日期：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="5f9c8-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="319a3-104">SyndicatorsTable 只供內部使用。</span><span class="sxs-lookup"><span data-stu-id="319a3-104">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="319a3-105">此表格已引進 Microsoft Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="319a3-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="5f9c8-105">SyndicatorsTable 只供內部使用。</span><span class="sxs-lookup"><span data-stu-id="5f9c8-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="5f9c8-106">此表格已引進 Microsoft Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="5f9c8-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 
