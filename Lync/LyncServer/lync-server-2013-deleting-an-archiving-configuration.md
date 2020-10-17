@@ -12,20 +12,22 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b864bb96ea7d342dbfd449cc9a151b0d7c2dee6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: acca3c362a5e0a2a8a6198d156c24be47884d70a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525440"
 ---
+# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a><span data-ttu-id="8950c-102">在 Lync Server 2013 中刪除封存設定</span><span class="sxs-lookup"><span data-stu-id="8950c-102">Deleting an Archiving configuration in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a><span data-ttu-id="577aa-102">在 Lync Server 2013 中刪除封存設定</span><span class="sxs-lookup"><span data-stu-id="577aa-102">Deleting an Archiving configuration in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "42202469"
 
 <span> </span>
 
-<span data-ttu-id="577aa-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="577aa-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="8950c-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="8950c-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="577aa-104">您可以刪除網站設定或集區設定。</span><span class="sxs-lookup"><span data-stu-id="577aa-104">You can delete a site configuration or pool configuration.</span></span> <span data-ttu-id="577aa-105">無法移除全域設定。</span><span class="sxs-lookup"><span data-stu-id="577aa-105">The global configuration cannot be removed.</span></span> <span data-ttu-id="577aa-106">如果您刪除全域設定，它會自動重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="577aa-106">If you delete the global configuration, it is automatically reset to the default values.</span></span> <span data-ttu-id="577aa-107">如需如何執行封存設定的詳細資訊，包括您可以指定哪些選項以及封存設定的階層，請參閱規劃檔、部署檔或作業檔中的封存[如何在 Lync Server 2013 中運作](lync-server-2013-how-archiving-works.md)。</span><span class="sxs-lookup"><span data-stu-id="577aa-107">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="8950c-104">您可以刪除網站設定或集區設定。</span><span class="sxs-lookup"><span data-stu-id="8950c-104">You can delete a site configuration or pool configuration.</span></span> <span data-ttu-id="8950c-105">無法移除全域設定。</span><span class="sxs-lookup"><span data-stu-id="8950c-105">The global configuration cannot be removed.</span></span> <span data-ttu-id="8950c-106">如果您刪除全域設定，它會自動重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="8950c-106">If you delete the global configuration, it is automatically reset to the default values.</span></span> <span data-ttu-id="8950c-107">如需如何執行封存設定的詳細資訊，包括您可以指定哪些選項以及封存設定的階層，請參閱規劃檔、部署檔或作業檔中的封存 [如何在 Lync Server 2013 中運作](lync-server-2013-how-archiving-works.md) 。</span><span class="sxs-lookup"><span data-stu-id="8950c-107">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
-## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a><span data-ttu-id="577aa-108">若要刪除封存的網站或集區設定</span><span class="sxs-lookup"><span data-stu-id="577aa-108">To delete a site or pool configuration for archiving</span></span>
+## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a><span data-ttu-id="8950c-108">若要刪除封存的網站或集區設定</span><span class="sxs-lookup"><span data-stu-id="8950c-108">To delete a site or pool configuration for archiving</span></span>
 
-1.  <span data-ttu-id="577aa-109">使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="577aa-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="8950c-109">使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="8950c-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="577aa-110">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="577aa-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="577aa-111">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="577aa-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="8950c-110">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="8950c-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8950c-111">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="8950c-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="577aa-112">在左導覽列中 **，按一下 [\*\*\*\*監視與**封存]，然後按一下 [封存設定]。</span><span class="sxs-lookup"><span data-stu-id="577aa-112">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3.  <span data-ttu-id="8950c-112">在左導覽列中 **，按一下 [\*\*\*\*監視與**封存]，然後按一下 [封存設定]。</span><span class="sxs-lookup"><span data-stu-id="8950c-112">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
 
-4.  <span data-ttu-id="577aa-113">在封存設定清單中，按一下您要刪除的網站或集區設定，然後按一下 [**編輯**]，再按一下 [**刪除**]。</span><span class="sxs-lookup"><span data-stu-id="577aa-113">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="8950c-113">在封存設定清單中，按一下您要刪除的網站或集區設定，然後按一下 [ **編輯**]，再按一下 [ **刪除**]。</span><span class="sxs-lookup"><span data-stu-id="8950c-113">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
-5.  <span data-ttu-id="577aa-114">按一下 **[認可]**。</span><span class="sxs-lookup"><span data-stu-id="577aa-114">Click **Commit**.</span></span>
+5.  <span data-ttu-id="8950c-114">按一下 **[認可]**。</span><span class="sxs-lookup"><span data-stu-id="8950c-114">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="577aa-115">使用 Windows PowerShell Cmdlet 移除封存配置設定</span><span class="sxs-lookup"><span data-stu-id="577aa-115">Removing Archiving Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="8950c-115">使用 Windows PowerShell Cmdlet 移除封存配置設定</span><span class="sxs-lookup"><span data-stu-id="8950c-115">Removing Archiving Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="577aa-116">使用 Windows PowerShell 和**Remove-CsArchivingConfiguration** Cmdlet 可刪除封存設定設定。</span><span class="sxs-lookup"><span data-stu-id="577aa-116">Archiving configuration settings can be deleted by using Windows PowerShell and the **Remove-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="577aa-117">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="577aa-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="577aa-118">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="577aa-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="8950c-116">使用 Windows PowerShell 和 **Remove-CsArchivingConfiguration** Cmdlet 可刪除封存設定設定。</span><span class="sxs-lookup"><span data-stu-id="8950c-116">Archiving configuration settings can be deleted by using Windows PowerShell and the **Remove-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="8950c-117">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="8950c-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="8950c-118">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="8950c-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a><span data-ttu-id="577aa-119">移除指定的封存配置設定集合</span><span class="sxs-lookup"><span data-stu-id="577aa-119">To remove a specified collection of archiving configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a><span data-ttu-id="8950c-119">移除指定的封存配置設定集合</span><span class="sxs-lookup"><span data-stu-id="8950c-119">To remove a specified collection of archiving configuration settings</span></span>
 
-  - <span data-ttu-id="577aa-120">下列命令會移除套用至 Redmond 網站的封存設定設定：</span><span class="sxs-lookup"><span data-stu-id="577aa-120">The following command removes the archiving configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="8950c-120">下列命令會移除套用至 Redmond 網站的封存設定設定：</span><span class="sxs-lookup"><span data-stu-id="8950c-120">The following command removes the archiving configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsArchivingConfiguration -Identity "site:Redmond"
 
@@ -73,9 +75,9 @@ ms.locfileid: "42202469"
 
 <div>
 
-## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="577aa-121">移除所有套用至網站範圍的封存設定設定</span><span class="sxs-lookup"><span data-stu-id="577aa-121">To remove all the archiving configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="8950c-121">移除所有套用至網站範圍的封存設定設定</span><span class="sxs-lookup"><span data-stu-id="8950c-121">To remove all the archiving configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="577aa-122">此命令會移除套用至服務範圍的所有封存設定：</span><span class="sxs-lookup"><span data-stu-id="577aa-122">This command removes all the archiving configuration settings applied to the service scope:</span></span>
+  - <span data-ttu-id="8950c-122">此命令會移除套用至服務範圍的所有封存設定：</span><span class="sxs-lookup"><span data-stu-id="8950c-122">This command removes all the archiving configuration settings applied to the service scope:</span></span>
     
         Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 
@@ -83,27 +85,27 @@ ms.locfileid: "42202469"
 
 <div>
 
-## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a><span data-ttu-id="577aa-123">根據指定的屬性值移除封存設定設定</span><span class="sxs-lookup"><span data-stu-id="577aa-123">To remove archiving configuration settings based on a specified property value</span></span>
+## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a><span data-ttu-id="8950c-123">根據指定的屬性值移除封存設定設定</span><span class="sxs-lookup"><span data-stu-id="8950c-123">To remove archiving configuration settings based on a specified property value</span></span>
 
-  - <span data-ttu-id="577aa-124">此命令會移除已停用 Exchange 封存的所有封存設定設定：</span><span class="sxs-lookup"><span data-stu-id="577aa-124">This command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
+  - <span data-ttu-id="8950c-124">此命令會移除已停用 Exchange 封存的所有封存設定設定：</span><span class="sxs-lookup"><span data-stu-id="8950c-124">This command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
 </div>
 
-<span data-ttu-id="577aa-125">如需詳細資訊，請參閱[Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="577aa-125">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.</span></span>
+<span data-ttu-id="8950c-125">如需詳細資訊，請參閱 [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="8950c-125">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="577aa-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="577aa-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8950c-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8950c-126">See Also</span></span>
 
 
-[<span data-ttu-id="577aa-127">Lync Server 2013 中的封存運作方式</span><span class="sxs-lookup"><span data-stu-id="577aa-127">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
+[<span data-ttu-id="8950c-127">Lync Server 2013 中的封存運作方式</span><span class="sxs-lookup"><span data-stu-id="8950c-127">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
 
 
-[<span data-ttu-id="577aa-128">在 Lync Server 2013 中管理內部和外部通訊的封存</span><span class="sxs-lookup"><span data-stu-id="577aa-128">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[<span data-ttu-id="8950c-128">在 Lync Server 2013 中管理內部和外部通訊的封存</span><span class="sxs-lookup"><span data-stu-id="8950c-128">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
   
 
 </div>

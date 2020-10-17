@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理監看員節點
+title: Lync Server 2013：管理觀察程式節點
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f01d1375890d632052ee9b6110cf64111a6bdd20
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94c1e056200a7fc1afec930b7548cfd018c1aa9d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217719"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524800"
 ---
+# <a name="managing-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="4d273-102">在 Lync Server 2013 中管理觀察程式節點</span><span class="sxs-lookup"><span data-stu-id="4d273-102">Managing watcher nodes in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="4c568-102">管理 Lync Server 2013 中的監看員節點</span><span class="sxs-lookup"><span data-stu-id="4c568-102">Managing watcher nodes in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42217719"
 
 <span> </span>
 
-<span data-ttu-id="4c568-103">_**主題上次修改日期：** 2012年-10-20 個_</span><span class="sxs-lookup"><span data-stu-id="4c568-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="4d273-103">_**主題上次修改日期：** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="4d273-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="4c568-104">除了修改在監看員節點上執行的綜合交易之外，系統管理員也可以使用 **Set-CsWatcherNodeConfiguration** Cmdlet 來執行其他兩項重要工作：啟用與停用監看員節點，以及設定監看員節點於執行測試時使用內部 URL 或外部 URL。</span><span class="sxs-lookup"><span data-stu-id="4c568-104">In addition to modifying the synthetic transactions that are executed on a watcher node, administrators can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal URLs or external URLs when running its tests.</span></span>
+<span data-ttu-id="4d273-104">除了修改在監看員節點上執行的綜合交易之外，系統管理員也可以使用 **Set-CsWatcherNodeConfiguration** Cmdlet 來執行其他兩項重要工作：啟用與停用監看員節點，以及設定監看員節點於執行測試時使用內部 URL 或外部 URL。</span><span class="sxs-lookup"><span data-stu-id="4d273-104">In addition to modifying the synthetic transactions that are executed on a watcher node, administrators can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal URLs or external URLs when running its tests.</span></span>
 
-<span data-ttu-id="4c568-105">根據預設，監看員節點的設計是會定時執行所有啟用的綜合交易。</span><span class="sxs-lookup"><span data-stu-id="4c568-105">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="4c568-106">不過有時候可能需要暫停那些交易。</span><span class="sxs-lookup"><span data-stu-id="4c568-106">Sometimes, however, you may need to suspend those transactions.</span></span> <span data-ttu-id="4c568-107">例如，如果監看員節點暫時與網路中斷連線，則沒有必要執行綜合交易。</span><span class="sxs-lookup"><span data-stu-id="4c568-107">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="4c568-108">沒有網路連線，那些交易一定會失敗。</span><span class="sxs-lookup"><span data-stu-id="4c568-108">Without network connectivity, those transactions are guaranteed to fail.</span></span> <span data-ttu-id="4c568-109">如果您想要暫時停用監看員節點，請執行類似從 Lync Server 管理命令介面命令：</span><span class="sxs-lookup"><span data-stu-id="4c568-109">If you want to temporarily disable a watcher node, run a command similar to this from the Lync Server Management Shell:</span></span>
+<span data-ttu-id="4d273-105">根據預設，監看員節點的設計是會定時執行所有啟用的綜合交易。</span><span class="sxs-lookup"><span data-stu-id="4d273-105">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="4d273-106">不過有時候可能需要暫停那些交易。</span><span class="sxs-lookup"><span data-stu-id="4d273-106">Sometimes, however, you may need to suspend those transactions.</span></span> <span data-ttu-id="4d273-107">例如，如果監看員節點暫時與網路中斷連線，則沒有必要執行綜合交易。</span><span class="sxs-lookup"><span data-stu-id="4d273-107">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="4d273-108">沒有網路連線，那些交易一定會失敗。</span><span class="sxs-lookup"><span data-stu-id="4d273-108">Without network connectivity, those transactions are guaranteed to fail.</span></span> <span data-ttu-id="4d273-109">如果您想要暫時停用監看員節點，請從 Lync Server 管理命令介面執行類似以下的命令：</span><span class="sxs-lookup"><span data-stu-id="4d273-109">If you want to temporarily disable a watcher node, run a command similar to this from the Lync Server Management Shell:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 
-<span data-ttu-id="4c568-p102">此命令會停用監看員節點 atl-watcher- 001.litwareinc.com 上的綜合交易執行。若要恢復綜合交易的執行，請將 Enabled 屬性回復至 True ($True) 設定：</span><span class="sxs-lookup"><span data-stu-id="4c568-p102">This command will disable the execution of synthetic transactions on the watcher node atl-watcher- 001.litwareinc.com. To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
+<span data-ttu-id="4d273-p102">此命令會停用監看員節點 atl-watcher- 001.litwareinc.com 上的綜合交易執行。若要恢復綜合交易的執行，請將 Enabled 屬性回復至 True ($True) 設定：</span><span class="sxs-lookup"><span data-stu-id="4d273-p102">This command will disable the execution of synthetic transactions on the watcher node atl-watcher- 001.litwareinc.com. To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
@@ -51,17 +53,17 @@ ms.locfileid: "42217719"
 
 
 > [!NOTE]  
-> <span data-ttu-id="4c568-112">Enabled 屬性可用於開啟或關閉監看員節點。</span><span class="sxs-lookup"><span data-stu-id="4c568-112">The Enabled property can be used to turn watcher nodes on or off.</span></span> <span data-ttu-id="4c568-113">如果要永久刪除監看員節點，請使用 <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="4c568-113">If you want to permanently delete a watcher node, use the <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> cmdlet:</span></span><BR><span data-ttu-id="4c568-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="4c568-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span></span><BR><span data-ttu-id="4c568-115">此命令會移除指定電腦上所有的監看員節點組態設定，這樣就會防止電腦自動執行綜合交易。</span><span class="sxs-lookup"><span data-stu-id="4c568-115">That command removes all the watcher node configuration settings from the specified computer, which prevents the computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="4c568-116">不過，此命令不會解除安裝 System Center 代理程式檔或 Lync Server 2013 系統檔案。</span><span class="sxs-lookup"><span data-stu-id="4c568-116">However, the command does not uninstall the System Center agent files or the Lync Server 2013 system files.</span></span>
+> <span data-ttu-id="4d273-112">Enabled 屬性可用於開啟或關閉監看員節點。</span><span class="sxs-lookup"><span data-stu-id="4d273-112">The Enabled property can be used to turn watcher nodes on or off.</span></span> <span data-ttu-id="4d273-113">如果要永久刪除監看員節點，請使用 <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="4d273-113">If you want to permanently delete a watcher node, use the <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> cmdlet:</span></span><BR><span data-ttu-id="4d273-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="4d273-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span></span><BR><span data-ttu-id="4d273-115">此命令會移除指定電腦上所有的監看員節點組態設定，這樣就會防止電腦自動執行綜合交易。</span><span class="sxs-lookup"><span data-stu-id="4d273-115">That command removes all the watcher node configuration settings from the specified computer, which prevents the computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="4d273-116">不過，此命令不會卸載 System Center 代理檔或 Lync Server 2013 系統檔案。</span><span class="sxs-lookup"><span data-stu-id="4d273-116">However, the command does not uninstall the System Center agent files or the Lync Server 2013 system files.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="4c568-p105">根據預設，監看員節點在進行測試時，會使用組織的外部 URL。不過也可以設定監看員節點使用組織的內部 URL。這讓系統管理員可以驗證位於周邊網路內之使用者的 URL 存取。若要設定監看員節點使用內部 URL 而非外部 URL，請將 UseInternalWebUrls 屬性設為 True ($True)：</span><span class="sxs-lookup"><span data-stu-id="4c568-p105">By default, watcher nodes use an organization's external URLs when conducting their tests. However, watcher nodes can also be configured to use the organization's internal URLs. This enables administrators to verify URL access for users located inside the perimeter network. To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebUrls property to True ($True):</span></span>
+<span data-ttu-id="4d273-p105">根據預設，監看員節點在進行測試時，會使用組織的外部 URL。不過也可以設定監看員節點使用組織的內部 URL。這讓系統管理員可以驗證位於周邊網路內之使用者的 URL 存取。若要設定監看員節點使用內部 URL 而非外部 URL，請將 UseInternalWebUrls 屬性設為 True ($True)：</span><span class="sxs-lookup"><span data-stu-id="4d273-p105">By default, watcher nodes use an organization's external URLs when conducting their tests. However, watcher nodes can also be configured to use the organization's internal URLs. This enables administrators to verify URL access for users located inside the perimeter network. To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebUrls property to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 
-<span data-ttu-id="4c568-121">如果重設此屬性為預設值 False ($False)，監看員就會使用外部 URL：</span><span class="sxs-lookup"><span data-stu-id="4c568-121">If you reset this property to the default value of False ($False), the watcher will then use the external URLs:</span></span>
+<span data-ttu-id="4d273-121">如果重設此屬性為預設值 False ($False)，監看員就會使用外部 URL：</span><span class="sxs-lookup"><span data-stu-id="4d273-121">If you reset this property to the default value of False ($False), the watcher will then use the external URLs:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 
