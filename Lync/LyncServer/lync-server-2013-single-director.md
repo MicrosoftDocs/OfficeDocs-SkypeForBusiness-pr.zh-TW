@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 單一 Director
+title: Lync Server 2013：單一 Director
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9795754f12af467ea23944028bf17047087afc17
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92870654872dd207130fa76a02f6ad8f206e3ec2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519730"
 ---
+# <a name="single-director-in-lync-server-2013"></a>Lync Server 2013 中的單一 Director
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="single-director-in-lync-server-2013"></a>Lync Server 2013 中的單一 Director
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42181846"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-22_
+_**主題上次修改日期：** 2012-10-22_
 
-可以部署 Director，在單一 Director 設定，或為 Director 集區。 本節定義的拓撲和設定單一 Director。 如果您打算部署 Director 集區，目的為，處理較高的容量和高可用性，請參閱主題[Lync Server 2013 中的調整式 Director 集區](lync-server-2013-scaled-director-pool.md)的拓撲的規劃考量。
+Director 可以以單一 Director 設定或 Director 集區的方式部署。 本節定義單一 Director 的拓撲和設定。 如果您打算為處理較高容量和高可用性的目的而部署 Director 集區，請參閱 [Lync Server 2013 中的「調整式 Director 集](lync-server-2013-scaled-director-pool.md) 區」主題，以進行該拓撲的規劃考慮。
 
 ![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")
 
@@ -45,11 +47,11 @@ _**主題上次修改日期：** 2012年-10-22_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [憑證摘要-Lync Server 2013 中的單一 Director](lync-server-2013-certificate-summary-single-director.md)
+  - [Lync Server 2013 中的憑證摘要-單一 Director](lync-server-2013-certificate-summary-single-director.md)
 
-  - [連接埠摘要-Lync Server 2013 中的單一 Director](lync-server-2013-port-summary-single-director.md)
+  - [Lync Server 2013 中的埠摘要-單一 Director](lync-server-2013-port-summary-single-director.md)
 
-  - [DNS 摘要-Lync Server 2013 中的單一 Director](lync-server-2013-dns-summary-single-director.md)
+  - [Lync Server 2013 中的 DNS 摘要-單一 Director](lync-server-2013-dns-summary-single-director.md)
 
 </div>
 

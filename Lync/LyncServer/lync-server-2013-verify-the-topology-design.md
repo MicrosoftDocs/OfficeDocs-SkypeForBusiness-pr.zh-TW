@@ -12,20 +12,22 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 452bd18d19fa61a0479ee8040361290b0b99d702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e8dae20a945194fb4fda2bcc84eab232d9b34e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211739"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518590"
 ---
+# <a name="verify-the-topology-design-in-lync-server-2013"></a>驗證 Lync Server 2013 中的拓撲設計
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-the-topology-design-in-lync-server-2013"></a>驗證 Lync Server 2013 中的拓撲設計
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012-01-02_
 
 5.  確認伺服器存在於 Active Directory 網域服務中。 如果您已將伺服器加入至網域，則會自動發生這種情形。
 
-當您已驗證拓撲且沒有驗證錯誤時，您應可準備發行拓撲。 如果有驗證錯誤，您必須先更正錯誤，才可以發行拓撲。 如需有關發佈拓撲的詳細資訊，請參閱[在 Lync Server 2013 中發行拓撲](lync-server-2013-publish-the-topology.md)。
+當您已驗證拓撲且沒有驗證錯誤時，您應可準備發行拓撲。 如果有驗證錯誤，您必須先更正錯誤，才可以發行拓撲。 如需有關發佈拓撲的詳細資訊，請參閱 [在 Lync Server 2013 中發行拓撲](lync-server-2013-publish-the-topology.md)。
 
 </div>
 

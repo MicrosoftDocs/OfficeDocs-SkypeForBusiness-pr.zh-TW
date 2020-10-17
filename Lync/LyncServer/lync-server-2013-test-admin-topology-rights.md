@@ -12,20 +12,22 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 050ba83b4598fc5ed8ed3d40d0b1aa02ba9356b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e17b4a4e3550ea5af665c78b40039dcbd56facdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519360"
 ---
+# <a name="test-admin-topology-rights-in-lync-server-2013"></a>在 Lync Server 2013 中測試系統管理員拓撲許可權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-admin-topology-rights-in-lync-server-2013"></a>在 Lync Server 2013 中測試系統管理員拓撲許可權
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**主題上次修改日期：** 2016-12-08_
 
 ## <a name="description"></a>描述
 
-根據預設，只有網域管理員可以啟用 Lync Server 拓撲，並對 Lync Server 基礎結構進行大型變更。 只要您的網域管理員和您的 Lync 伺服器管理員是同一個，這就不是問題。在許多組織中，Lync Server 系統管理員不會保留整個網域的系統管理許可權。 根據預設，這表示這些管理員 (定義為 RTCUniversalServerAdmins 群組的成員) 無法進行 Lync Server 拓撲變更。 若要授與 RTCUniversalServerAdmins 群組的成員進行拓撲變更，您必須使用[Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) Cmdlet 指派必要的 Active Directory 許可權。
+根據預設，只有網域管理員可以啟用 Lync Server 拓撲，並對 Lync Server 基礎結構進行大型變更。 只要您的網域管理員和您的 Lync 伺服器管理員是同一個，這就不是問題。在許多組織中，Lync Server 系統管理員不會保留整個網域的系統管理許可權。 根據預設，這表示這些管理員 (定義為 RTCUniversalServerAdmins 群組的成員) 無法進行 Lync Server 拓撲變更。 若要授與 RTCUniversalServerAdmins 群組的成員進行拓撲變更，您必須使用 [Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) Cmdlet 指派必要的 Active Directory 許可權。
 
 Test-CsSetupPermission Cmdlet 會驗證安裝 Lync Server 或其其中一個元件所需的必要許可權是否已在指定的 Active Directory 容器上進行設定。 若未指派許可權，您可以執行 Grant-CsSetupPermission 指令指令，讓 RTCUniversalServerAdmins 群組的成員能安裝及啟用 Lync Server。
 
@@ -74,7 +76,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝 Lync Server 或其其中一個元�
 
 
 > [!NOTE]  
-> 如需 Grant-CsSetupPermission 所指派許可權的詳細清單，請參閱博客文章<A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">Grant-CsSetupPermission 和 Grant-CsOUPermission</A>。
+> 如需 Grant-CsSetupPermission 所指派許可權的詳細清單，請參閱博客文章 <A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">Grant-CsSetupPermission 和 Grant-CsOUPermission</A>。
 
 
 
@@ -90,7 +92,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝 Lync Server 或其其中一個元�
 
     Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"
 
-如需詳細資訊，請參閱[Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。
 
 </div>
 
@@ -100,7 +102,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝 Lync Server 或其其中一個元�
 
 如果 Test-CsSetupPermission 判斷已經在 Active Directory 容器上設定必要的許可權，則 Cmdlet 會傳回值 True：
 
-對
+是
 
 如果未設定許可權，Test-CsSetupPermission 會傳回值 False。 請注意，此值通常會包含在許多警告訊息中。 例如：
 
@@ -108,7 +110,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝 Lync Server 或其其中一個元�
 
 警告：物件 "CN = 電腦，DC = litwareinc，DC=com" 的存取控制專案 (Ace) 尚未就緒。
 
-錯
+False
 
 警告： "Test-CsSetupPermission" 處理已完成，但有警告。 在此執行期間，記錄了 "2" 個警告。
 
@@ -124,7 +126,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝 Lync Server 或其其中一個元�
 
     Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"
 
-如需詳細資訊，請參閱[Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。
 
 </div>
 

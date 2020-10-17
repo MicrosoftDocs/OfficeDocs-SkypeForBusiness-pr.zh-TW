@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 疑難排解 Lync VDI 外掛程式
+title: Lync Server 2013：疑難排解 Lync VDI 外掛程式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddc58629ea7c641427347600be48538cd555022c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe652a2a378759584b8d855cdcdc7790b622ad02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518960"
 ---
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Lync Server 2013 中的 Lync VDI 外掛程式疑難排解
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>疑難排解 Lync VDI 外掛程式 Lync Server 2013 中
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42193347"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-10_
+_**主題上次修改日期：** 2012-10-10_
 
 <div>
 
-## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a>疑難排解在精簡型用戶端上安裝 Lync VDI 外掛程式的問題
+## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a>疑難排解在瘦用戶端上安裝 Lync VDI 外掛程式的問題
 
 如果在精簡型用戶端上安裝 VDI 外掛程式時發生問題，請檢查下列各項：
 
@@ -61,11 +63,11 @@ _**主題上次修改日期：** 2012年-10-10_
 
   - **使用者在登入時輸入不正確的憑證。**
     
-    使用者應該登出 Lync，然後再使用正確的認證登入。 配對對話方塊會重新出現，並顯示配對是否成功。
+    使用者應登出 Lync，然後使用正確的認證重新登入。 配對對話方塊會重新出現，並顯示配對是否成功。
 
   - **有另一個遠端桌面用戶端執行個體正在執行中。**
     
-    如果他們在 Windows 中使用遠端桌面連線，使用者應該執行下列命令：
+    如果他們使用 Windows 中的遠端桌面連線，則使用者應該執行下列作業：
     
     1.  啟動工作管理員：按 **Alt+Ctrl+Delete** 鍵，然後按一下 [啟動工作管理員]****。
     
@@ -77,7 +79,7 @@ _**主題上次修改日期：** 2012年-10-10_
 
   - **必要檔案安裝不正確。**
     
-    外掛程式安裝在本機電腦上之後，下列檔案應出現 [c:\\Program Files\\Microsoft Office\\Office15 （或適當的磁碟機代號）：
+    在本機電腦上安裝外掛程式之後，下列檔案應該會出現在 [C： Program Files] 的 [ \\ \\ Microsoft Office (Office15] 下， \\ 或是適當的磁碟機號) ：
     
       - LyncVdiPlugin.dll
     
@@ -87,7 +89,7 @@ _**主題上次修改日期：** 2012年-10-10_
 
   - **Lync 用戶端正在本機電腦上執行。**
     
-    若要使用的 Lync VDI 外掛程式，Lync 用戶端必須未執行的本機電腦，否則配對將會失敗。 最佳作法是，使用者不應該安裝 Lync 用戶端的本機電腦上。
+    若要使用 Lync VDI 外掛程式，您必須在本機電腦上執行 Lync 用戶端，否則配對會失敗。 最佳作法是，使用者不應該在本機電腦上安裝 Lync 用戶端。
 
 </div>
 

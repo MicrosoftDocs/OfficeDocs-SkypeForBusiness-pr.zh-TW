@@ -12,20 +12,22 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a723c17e5c909ba0313b962cf97a508b17487309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518220"
 ---
+# <a name="weekly-tasks-in-lync-server-2013"></a>Lync Server 2013 中的每週工作
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="weekly-tasks-in-lync-server-2013"></a>Lync Server 2013 中的每週工作
+
 
 </div>
 
@@ -81,7 +83,7 @@ _**主題上次修改日期：** 2015-08-17_
 
 ## <a name="check-iis-logs-and-performance"></a>檢查 IIS 記錄和效能
 
-每週執行網際網路資訊服務的複查 (IIS) 記錄與效能。 如需如何監視 IIS 記錄與效能的詳細資訊，請參閱[Windows Server 2003 Internet Information Services (IIS) 事件記錄概述](https://go.microsoft.com/fwlink/?linkid=36077)。 評審應包含下列專案：
+每週執行網際網路資訊服務的複查 (IIS) 記錄與效能。 如需如何監視 IIS 記錄與效能的詳細資訊，請參閱 [Windows Server 2003 Internet Information Services (IIS) 事件記錄概述](https://go.microsoft.com/fwlink/?linkid=36077)。 評審應包含下列專案：
 
   - 用於監視 WWW 服務快取的 Web 服務快取計數器。
 
@@ -97,19 +99,19 @@ _**主題上次修改日期：** 2015-08-17_
 
 1.  開啟 Lync Server 2013。
 
-2.  在主控台樹中，依序展開 [樹系] 節點及 [**企業版**集區]，然後按一下您要產生資料庫報告的集區。
+2.  在主控台樹中，依序展開 [樹系] 節點及 [ **企業版**集區]，然後按一下您要產生資料庫報告的集區。
 
-3.  在詳細資料窗格中，按一下 [**資料庫**] 索引標籤。
+3.  在詳細資料窗格中，按一下 [ **資料庫** ] 索引標籤。
 
-4.  在 [**資料庫**] 索引標籤上，執行下列動作：
+4.  在 [ **資料庫** ] 索引標籤上，執行下列動作：
     
     1.  若要查看資料庫的名稱，請展開 **[一般設定**]，然後查看資料庫名稱。
     
-    2.  若要取得集區的目前使用者摘要統計資料，請展開 [**使用者摘要報告**]，按一下 [**前往**]，然後查看結果。
+    2.  若要取得集區的目前使用者摘要統計資料，請展開 [ **使用者摘要報告**]，按一下 [ **前往**]，然後查看結果。
     
-    3.  若要針對集區的單一使用者取得目前的每一使用者資料，請展開**Per-User 報告**]，輸入使用者的 SIP URI，按一下 [**前往**]，然後查看結果。
+    3.  若要針對集區的單一使用者取得目前的每一使用者資料，請展開 **Per-User 報告**]，輸入使用者的 SIP URI，按一下 [ **前往**]，然後查看結果。
 
-若要取得集區的目前會議摘要統計資料，請展開 [**會議摘要報告**]，按一下 [**前往**]，然後查看結果。
+若要取得集區的目前會議摘要統計資料，請展開 [ **會議摘要報告**]，按一下 [ **前往**]，然後查看結果。
 
 </div>
 
@@ -125,7 +127,7 @@ _**主題上次修改日期：** 2015-08-17_
 
 ## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>執行 Lync Server 2013 最佳作法分析程式
 
-Lync Server 2013 最佳做法分析工具是一種診斷工具，可收集設定資訊，並決定是否要根據 Microsoft 最佳作法設定設定。 此工具的檔是[Lync Server 2013 最佳做法分析器](lync-server-2013-lync-server-best-practices-analyzer.md)。
+Lync Server 2013 最佳做法分析工具是一種診斷工具，可收集設定資訊，並決定是否要根據 Microsoft 最佳作法設定設定。 此工具的檔是 [Lync Server 2013 最佳做法分析器](lync-server-2013-lync-server-best-practices-analyzer.md)。
 
 該工具會比較您的部署的設定資料與 Lync Server 的一組預先定義的規則，並報告潛在的問題。 針對每個報告的問題，此工具會在 Lync Server 環境中提供目前的設定，以及建議的設定。
 
@@ -173,21 +175,21 @@ Lync Server 2013 最佳做法分析工具是一種診斷工具，可收集設定
 
 1.  開啟 Lync Server 2013。
 
-2.  在主控台樹中，依序展開 [樹系] 節點及 [**企業版**集區]，然後按一下您要產生資料庫報告的集區。
+2.  在主控台樹中，依序展開 [樹系] 節點及 [ **企業版**集區]，然後按一下您要產生資料庫報告的集區。
 
-3.  在詳細資料窗格中，按一下 [**資料庫**] 索引標籤。
+3.  在詳細資料窗格中，按一下 [ **資料庫** ] 索引標籤。
 
-4.  在 [**資料庫**] 索引標籤上，執行下列動作：
+4.  在 [ **資料庫** ] 索引標籤上，執行下列動作：
     
     1.  若要查看資料庫的名稱，請展開 **[一般設定**]，然後查看資料庫名稱。
     
-    2.  若要取得集區的目前使用者摘要統計資料，請展開 [**使用者摘要報告**]，按一下 [**前往**]，然後查看結果。
+    2.  若要取得集區的目前使用者摘要統計資料，請展開 [ **使用者摘要報告**]，按一下 [ **前往**]，然後查看結果。
     
-    3.  若要針對集區的單一使用者取得目前的每一使用者資料，請展開**Per-User 報告**]，輸入使用者的 SIP URI，按一下 [**前往**]，然後查看結果。
+    3.  若要針對集區的單一使用者取得目前的每一使用者資料，請展開 **Per-User 報告**]，輸入使用者的 SIP URI，按一下 [ **前往**]，然後查看結果。
 
-若要取得集區的目前會議摘要統計資料，請展開 [**會議摘要報告**]，按一下 [**前往**]，然後查看結果。
+若要取得集區的目前會議摘要統計資料，請展開 [ **會議摘要報告**]，按一下 [ **前往**]，然後查看結果。
 
-系統管理員可以使用 [**資料庫**] 索引標籤來查看資料庫名稱，以及從資料庫中取得及查看報告。
+系統管理員可以使用 [ **資料庫** ] 索引標籤來查看資料庫名稱，以及從資料庫中取得及查看報告。
 
 ### <a name="database-reports-and-descriptions"></a>資料庫報告和描述
 
@@ -258,7 +260,7 @@ Lync Server 2013 最佳做法分析工具是一種診斷工具，可收集設定
 
   - 依網路地區篩選
 
-在[Lync Server 2013 資源套件工具檔](https://go.microsoft.com/fwlink/?linkid=623245)上提供此工具的檔。
+在 [Lync Server 2013 資源套件工具檔](https://go.microsoft.com/fwlink/?linkid=623245)上提供此工具的檔。
 
 </div>
 

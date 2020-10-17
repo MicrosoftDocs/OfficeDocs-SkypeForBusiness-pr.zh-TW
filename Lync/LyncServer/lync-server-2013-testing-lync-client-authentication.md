@@ -12,20 +12,22 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 490068a9c9eec3e582471d9ff228b9bbccad43bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 308bb50e5365cd45c993875ea503b33b32617397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194086"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519030"
 ---
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Lync 用戶端驗證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Lync 用戶端驗證
+
 
 </div>
 
@@ -79,7 +81,7 @@ Test-CsClientAuth Cmdlet 可讓您判斷使用者是否可以使用用戶端憑�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) Cmdlet 的說明文件。
 
 </div>
 
@@ -87,7 +89,7 @@ Test-CsClientAuth Cmdlet 可讓您判斷使用者是否可以使用用戶端憑�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以使用用戶端憑證登入 Lync Server，則會收到類似下列的輸出，並將 Result 屬性標示為 [**成功]：**
+如果指定的使用者可以使用用戶端憑證登入 Lync Server，則會收到類似下列的輸出，並將 Result 屬性標示為 [ **成功]：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -126,17 +128,17 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 嘗試為使用者下載 CS 憑證： kenmyer@litwareinc.com 端點： STEpid
 
-Web 服務 url：https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
+Web 服務 url： https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
 
 無法從 web 服務下載 CS 憑證。
 
 檢查：
 
-\-Web 服務 url 有效且 web 服務可運作
+\- Web 服務 url 有效且 web 服務可運作
 
 \-若要使用 PhoneNo \\ \\ Pin 來驗證，請確定它們符合使用者 uri
 
-\-若要使用 NTLM \\ Kerberos 驗證，請確定您提供有效的認證
+\- 若要使用 NTLM \\ Kerberos 驗證，請確定您提供有效的認證
 
 </div>
 

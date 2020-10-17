@@ -12,20 +12,22 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4330d31b0cdaf10a3586324711aed98ab541b6eb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7ef4c2884d9810793b6431c9d518c92bdcd1a3a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518040"
 ---
+# <a name="verify-topology-information"></a>確認拓撲資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-topology-information"></a>確認拓撲資訊
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755537"
 
 _**主題上次修改日期：** 2012-09-26_
 
-成功完成合併的第一個步驟，就是查看您與 Lync Server 2013 合併的 Office 通訊伺服器 2007 R2 拓撲資訊。 在 [拓撲產生器] 中， **BackCompatSite**節點會顯示每個 Office 通訊伺服器 2007 R2 集區和您合併之伺服器的完整功能變數名稱（FQDN）。
+成功完成合併的第一個步驟，就是查看您與 Lync Server 2013 合併的 Office 通訊伺服器 2007 R2 拓撲資訊。 在 [拓撲產生器] 中， **BackCompatSite** 節點會顯示所合併之每個 Office 通訊伺服器 2007 R2 集區和伺服器的完整功能變數名稱 (FQDN) 。
 
 <div>
 
@@ -53,14 +55,14 @@ _**主題上次修改日期：** 2012-09-26_
     
 
     > [!NOTE]  
-    > 對於組合在前端伺服器或 Standard Edition server 上的伺服器角色，您不會看到<STRONG>BackCompatSite</STRONG>中的任何資訊。 只會顯示 Office 通訊伺服器 2007 R2 和 Lync Server 2013 之間互通性所需的伺服器角色。
+    > 對於組合在前端伺服器或 Standard Edition server 上的伺服器角色，您不會看到 <STRONG>BackCompatSite</STRONG> 中的任何資訊。 只會顯示 Office 通訊伺服器 2007 R2 和 Lync Server 2013 之間互通性所需的伺服器角色。
 
     
     </div>
 
 ![[拓撲產生器 BackCompatSite] 對話方塊](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "[拓撲產生器 BackCompatSite] 對話方塊")
 
-您也可以使用 Lync Server 2013 控制台，以查看合併的拓撲。 在 [Lync Server 2013 控制台] 中，您可以看到合併的拓撲的每一個伺服器 FQDN、集區 FQDN 及網站名稱。 合併伺服器的**網站**名稱為**BackCompatSite**。
+您也可以使用 Lync Server 2013 控制台，以查看合併的拓撲。 在 [Lync Server 2013 控制台] 中，您可以看到合併的拓撲的每一個伺服器 FQDN、集區 FQDN 及網站名稱。 合併伺服器的 **網站** 名稱為 **BackCompatSite**。
 
 </div>
 
@@ -76,13 +78,13 @@ _**主題上次修改日期：** 2012-09-26_
 
 ![顯示合併拓撲的 Lync Server 控制台](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "顯示合併拓撲的 Lync Server 控制台")
 
-若要查看有關合併集區的更多詳細資料，請使用**Get-CsPool** Cmdlet。 除了拓撲產生器和 Lync Server 2013 控制台中提供的資訊之外，此 Cmdlet 還會顯示在 Lync Server 2013 集區上執行的服務。
+若要查看有關合併集區的更多詳細資料，請使用 **Get-CsPool** Cmdlet。 除了拓撲產生器和 Lync Server 2013 控制台中提供的資訊之外，此 Cmdlet 還會顯示在 Lync Server 2013 集區上執行的服務。
 
 <div>
 
 
 > [!NOTE]  
-> 當您在拓撲產生器中執行合併嚮導後發行拓撲時，會將會議目錄合併至 Lync Server 2013。 您可以執行<STRONG>Get-CsConferenceDirectory</STRONG> Cmdlet 來驗證會議目錄。
+> 當您在拓撲產生器中執行合併嚮導後發行拓撲時，會將會議目錄合併至 Lync Server 2013。 您可以執行 <STRONG>Get-CsConferenceDirectory</STRONG> Cmdlet 來驗證會議目錄。
 
 
 

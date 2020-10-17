@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 使用監控報告
+title: Lync Server 2013：使用監控報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582554c8f744c48b3eadab58359b965f910152f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ae3182dd6129d9ce797739220faeef0cd97a3a92
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212739"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518810"
 ---
+# <a name="using-monitoring-reports-in-lync-server-2013"></a>在 Lync Server 2013 中使用監控報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a>Lync Server 2013 中使用監控報告
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42212739"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-21_
+_**主題上次修改日期：** 2012-10-21_
 
-Lync Server 2013 包含一組標準發佈的 Microsoft SQL Server Reporting Service 的報告。 這些可透過網頁瀏覽器存取的報告，會根據詳細通話記錄 (CDR) 和經驗品質 (QoE) 資料庫中儲存的 CDR 和 QoE 記錄，提供使用情況、通話診斷資訊況及媒體品質資訊。
+Lync Server 2013 包含一組 Microsoft SQL Server Reporting Service 所發佈的標準報告。 這些可透過網頁瀏覽器存取的報告，會根據詳細通話記錄 (CDR) 和經驗品質 (QoE) 資料庫中儲存的 CDR 和 QoE 記錄，提供使用情況、通話診斷資訊況及媒體品質資訊。
 
-才能使用這些報告，您必須執行 SQL Server 執行個體的電腦上安裝監控報告。
+為了使用這些報告，您必須在執行 SQL Server 實例的電腦上安裝監控報告。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中使用監控儀表板](lync-server-2013-using-the-monitoring-dashboard.md)   提供系統管理員其系統運作情況與系統使用狀況的快速概觀。
+  - [在 Lync Server 2013 中使用監控儀表板](lync-server-2013-using-the-monitoring-dashboard.md)    為系統管理員提供系統健康情況和系統使用狀況的快速綜述。
 
-  - [Lync Server 2013 中的系統使用量報告](lync-server-2013-system-usage-reports.md)   提供 Lync Server 所收集的 CDR 資料為基礎的系統使用狀況資訊。
+  - [Lync Server 2013](lync-server-2013-system-usage-reports.md)     中的系統使用方式報告提供根據 Lync Server 收集之 CDR 資料的系統使用資訊。
 
-  - [Lync Server 2013 中 call Diagnostic Reports (per user)](lync-server-2013-call-diagnostic-reports-per-user.md)   提供每位使用者失敗的對等和會議工作階段的資訊。
+  - [在 Lync Server 2013 中 (每位使用者) 的通話診斷報告](lync-server-2013-call-diagnostic-reports-per-user.md)    提供失敗的對等和會議會話的每一使用者相關資訊。
 
-  - [Lync Server 2013 中通話診斷報告](lync-server-2013-call-diagnostic-reports.md)   失敗的對等和會議工作階段提供摘要資訊與診斷資料。
+  - [在 Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)     中呼叫診斷報告提供失敗的對等和會議會話的摘要資訊和診斷資料。
 
-  - [Lync Server 2013 中的媒體品質診斷報告](lync-server-2013-media-quality-diagnostic-reports.md)   提供通話品質的相關資訊以及失敗通話的診斷與疑難排解資訊。
+  - [Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)     中的媒體質量診斷報告提供通話品質的相關資訊，以及失敗通話的診斷與疑難排解資訊。
 
 </div>
 

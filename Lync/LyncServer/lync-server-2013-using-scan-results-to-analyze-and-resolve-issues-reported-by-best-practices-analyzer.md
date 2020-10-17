@@ -12,20 +12,22 @@ ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca12d6a2d41a8787baa8f665014bcf8b77ec3e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4bee21cc0d9065868c03467b53d991baba1190d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518780"
 ---
+# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>使用掃描結果來分析和解決 Lync Server 2013 中的最佳做法分析程式所報告的問題
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>使用掃描結果來分析和解決 Lync Server 2013 中的最佳做法分析程式所報告的問題
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012-06-14_
 
 
 > [!NOTE]  
-> Lync Server 2013，最佳做法分析程式會掃描並報告僅限 Lync Server 2013 元件的問題。 如果您的部署包含 Microsoft Lync Server 2010 或 Office 通訊伺服器 2007 R2 元件，請使用舊版的最佳做法分析程式來分析這些元件。 如需詳細資訊，請參閱<A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中執行最佳做法分析程式的需求</A>。
+> Lync Server 2013，最佳做法分析程式會掃描並報告僅限 Lync Server 2013 元件的問題。 如果您的部署包含 Microsoft Lync Server 2010 或 Office 通訊伺服器 2007 R2 元件，請使用舊版的最佳做法分析程式來分析這些元件。 如需詳細資訊，請參閱 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中執行最佳做法分析程式的需求</A>。
 
 
 

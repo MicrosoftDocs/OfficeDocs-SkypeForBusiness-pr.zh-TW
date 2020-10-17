@@ -12,20 +12,22 @@ ms:contentKeyID: 63969607
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cdb56dd75c168731ee386236302732088351e39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1653f2287e06db71f6e971a0a4f483b810734f2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519380"
 ---
+# <a name="test-admin-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中測試系統管理員許可權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-admin-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中測試系統管理員許可權
+
 
 </div>
 
@@ -68,11 +70,11 @@ _**主題上次修改日期：** 2014-08-18_
 
 當您安裝 Lync Server 2013 1 的安裝程式所執行的工作時，會讓 RTCUniversalUserAdmins 群組管理使用者、電腦、連絡人、應用程式連絡人及 InetOrg 人員所需的 Active Directory 許可權。 如果您已在 Active Directory 中停用許可權繼承，安裝程式將無法指派這些許可權。 因此，RTCUniversalUserAdmins 群組的成員將無法管理 Lync Server 實體。 只有網域系統管理員可以使用這些管理許可權。
 
-Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所需的必要許可權是否已在 Active Directory 容器上設定。 若未設定這些許可權，您可以執行[Grant-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission) Cmdlet 來解決此問題。
+Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所需的必要許可權是否已在 Active Directory 容器上設定。 若未設定這些許可權，您可以執行 [Grant-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission) Cmdlet 來解決此問題。
 
 請注意，Grant-CsOUPermission 只能將許可權指派給 RTCUniversalUserAdmins 群組的成員。 您無法使用此 Cmdlet 將許可權授與任意使用者或群組。 若要讓不同的使用者或群組擁有使用者管理許可權，您應該將該使用者 (或群組) 新增至 RTCUniversalUserAdmins 群組。
 
-如需有關 OU 許可權的詳細資訊，請參閱在[Lync Server 2013 中的電腦、使用者或 InetOrgPerson 容器上，已停用許可權繼承](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)。
+如需有關 OU 許可權的詳細資訊，請參閱在 [Lync Server 2013 中的電腦、使用者或 InetOrgPerson 容器上，已停用許可權繼承](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)。
 
 </div>
 
@@ -88,7 +90,7 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
     Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"
 
-如需詳細資訊，請參閱[Test-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsOUPermission) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsOUPermission) Cmdlet 的 [說明] 主題。
 
 </div>
 
@@ -98,7 +100,7 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
 如果已設定必要的許可權，則 Test-CsOUPermission 會傳回一個單字回應：
 
-對
+是
 
 如果未設定必要的許可權，則 Test-CsOUPermission 會傳回值 False。 您可能需要搜尋一會兒，以找出此值。 它通常會內嵌在數個伴隨的警告內。 例如：
 
@@ -106,7 +108,7 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
 警告：物件 "OU = NorthAmerica，DC = atl-cs-001 \\ dc = litwareinc，DC=com" 的存取控制專案 (ace) 尚未就緒。
 
-錯
+False
 
 警告： "Test-CsOUPermission" 處理已完成，但有警告。 在此執行期間，記錄了 "2" 個警告。
 

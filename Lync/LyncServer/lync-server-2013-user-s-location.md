@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 使用者的位置
+title: Lync Server 2013：使用者位置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2e0454b5f8fc891aa878623575ee3850050ba28
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 854e887605cc1d3d2b6d394228ebd3e8059644ee
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212999"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518830"
 ---
+# <a name="users-location-in-lync-server-2013"></a>Lync Server 2013 中的使用者位置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="users-location-in-lync-server-2013"></a>Lync Server 2013 中的使用者的位置
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42212999"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-09_
+_**主題上次修改日期：** 2013-03-09_
 
-位置型路由的利用相同網路地區、 網站及子 E9-1-1 所使用的 Lync 伺服器中所定義，CAC 以及媒體旁路，將通話路由限制套用防範 PSTN 通話費略過。 使用者的位置取決於使用者的 Lync 從連線端點的 IP 子網路。 每個 IP 子網路是與網路網站，這會彙總成管理員所定義的網路地區相關聯。 位置型路由會強制執行根據使用者的網路網站。
+Location-Based 路由利用 E9-1-1、CAC 和媒體旁路所用的 Lync Server 中所定義的相同網路地區、網站和子網，以避免 PSTN 免付費旁路。 使用者的位置取決於使用者 (s) 所連線的 Lync 端點的 IP 子網。 每個 IP 子網都會與網路網站產生關聯，該網站會匯總成系統管理員所定義的網路地區。 Location-Based 會根據使用者的網路網站強制進行路由傳送。
 
-位置型的路由規則會套用在每個網路網站為基礎，這表示一組指定的規則，將會套用至所有的端點啟用位置型路由位於相同的網路站台內。 系統管理員可以套用至需要的網路網站的位置型的路由。
+Location-Based 路由規則會依每個網路網站套用，這表示一組指定的規則會套用至位於相同網路網站中 Location-Based 路由的所有啟用端點。 管理員可以將 Location-Based 路由套用到需要該網站的網站。
 
-語音路由原則可定義統計網路站台定義特定的 PSTN 閘道應該位於網路網站的所有使用者用來呼叫 PSTN 電話號碼。 這類語音路由原則會優先於使用者位於網路網站啟用位置型的路由，而它會防止透過已啟用其他 PSTN 閘道的通話路由傳送時，使用者的語音原則所定義的路由依位置路由。 Lync 使用者將置於 PSTN 通話，當使用者的語音原則會決定使用者是否可以被授權撥打電話。 如果使用者的語音原則允許使用者撥打電話，位置型路由會決定從應該 egress 通話的 PSTN 閘道。 位置型路由會判斷根據使用者的位置。
+您可以在每個網路網站上定義語音路由策略，以定義特定的 PSTN 閘道，以供位於網路網站中的所有使用者用來呼叫 PSTN 電話號碼。 這類語音路由原則會優先于使用者語音原則所定義的路由，當使用者位於啟用 Location-Based 路由的網路網站時，它會防止透過已啟用 Location-Based 路由的其他 PSTN 閘道路由呼叫。 當 Lync 使用者撥打 PSTN 電話時，使用者的語音原則會決定使用者是否有權進行通話。 如果使用者的語音原則允許使用者撥打電話，Location-Based 路由決定來電應來自哪個 PSTN 閘道。 Location-Based 路由會根據使用者的位置來決定這種情況。
 
-使用者的位置可以分類方式如下：
+使用者位置可依下列方式分類：
 
-  - 使用者位於啟用位置型路由已知的網路網站，其 DID （直接向內撥號對應表） 號碼終止上放置在相同的網路網站 （亦即辦公室） 的 PSTN 閘道。 路由撥出通話將會透過使用者所在的網路網站的語音路由原則。 給使用者的傳入 PSTN 通話路由傳送至位於與 PSTN 閘道位於相同網路站台的端點。
+  - 使用者位於為 Location-Based 路由啟用的已知網路網站，而且他 (直接向內撥號) 號碼會在置於相同網路網站 (的 PSTN 閘道上終止例如，office) 。 撥出電話的路由會透過使用者所在之網站的語音路由原則進行。 對使用者的傳入 PSTN 呼叫會路由至位於與 PSTN 閘道位於相同網路網站的端點。
 
-  - 使用者位於已知的網路網站，位於不同的 PSTN 閘道的所在位置的網路網站。 （亦即使用者間傳送至其他公司辦公室）。 撥出電話路由傳送。 會使用使用者所在的網路網站的語音路由原則。 給使用者的傳入 PSTN 通話不會路由傳送至位於不同的站台比 PSTN 閘道，以避免 PSTN 通話費略過的端點。
+  - 使用者位於與 PSTN 閘道所在之網路網站不同的已知網路網站。  (，亦即，使用者已前往另一部公司辦公室) 。 撥出電話的路由將使用使用者所在之網路網站的語音路由原則。 對使用者的內送 PSTN 通話不會路由到位於不同于 PSTN 閘道的端點，以避免 PSTN 收費繞過。
 
-  - 當使用者位於未知至 Lync Server 部署的網路網站時的撥出電話路由會根據指派給使用者未繫結至位置型路由限制的 PSTN 閘道的語音原則。 傳入 PSTN 通話不會路由傳送至位於不明的網路網站，以防止 PSTN 通話費略過的端點。
+  - 當使用者位於 Lync 伺服器部署無法識別的網站時，撥出電話的路由會根據指派給使用者的語音原則，而不是系結至 Location-Based 路由限制的 PSTN 閘道。 傳入 PSTN 通話不會路由至位於未知網路網站的端點，以避免 PSTN 收費繞過。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[依位置路由 Lync Server 2013 中的指引](lync-server-2013-guidance-for-location-based-routing.md)  
+[在 Lync Server 2013 中 Location-Based 路由的指導方針](lync-server-2013-guidance-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5f899fd36a985c124d5b0bfca899592eb9b7a17
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: dda833bd188eeaa2b969e8748bffb87944c5dc59
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757265"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518110"
 ---
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>移除監控伺服器的 SQL Server 資料庫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>移除監控伺服器的 SQL Server 資料庫
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**主題上次修改日期：** 2012-10-04_
     
         Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    其中 \<FQDN\> 是資料庫伺服器的完整功能變數名稱（FQDN），也 \<instance\> 就是選用的名稱資料庫實例。
+    其中 \<FQDN\> 是資料庫伺服器的 FQDN) 的完整功能變數名稱 (，也 \<instance\> 就是選用的命名資料庫實例。
 
 4.  當 **Uninstall-CsDataBase** Cmdlet 提示您確認動作時，請閱讀資訊，然後按 **Y** (或按 Enter) 繼續作業，或是依序按 **N** 及 Enter 停止 Cmdlet (例如發生錯誤時)。
 

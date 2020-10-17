@@ -12,20 +12,22 @@ ms:contentKeyID: 63969644
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98c5f39a636eb300f19cd42131fc42d2480bbf14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e74a24818094d7de0edc4627f987464df048315f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194066"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519010"
 ---
+# <a name="testing-lync-server-services-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Lync Server 服務
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-server-services-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Lync Server 服務
+
 
 </div>
 
@@ -68,7 +70,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 Test-CsComputer 驗證本機電腦上執行的所有 Lync Server 2013 服務的狀態。  (Test-CsComputer 只能在本機執行，所以無法從 Windows PowerShell 的遠端實例執行。 ) 指令程式也會檢查是否已在電腦上開啟適當的防火牆埠，並決定當您安裝 Lync Server 2013 時所建立的 Active Directory 群組是否已新增至對應的本地群組。 例如，Test-CsComputer 會驗證是否已將 Active Directory 群組 RTCUniversalUserAdmins 新增至 Administrators 群組。
 
-如需詳細資訊，請參閱[Test-CsComputer](https://docs.microsoft.com/powershell/module/skype/Test-CsComputer) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsComputer](https://docs.microsoft.com/powershell/module/skype/Test-CsComputer) Cmdlet 的說明文件。
 
 </div>
 
@@ -82,7 +84,7 @@ Test-CsComputer Cmdlet 只能在本機電腦上執行，所以您無法從 Windo
 
     Test-CsComputer -Report "C:\Logs\ComputerTest.html" -Verbose
 
-如需詳細資訊，請參閱[Test-CsComputer](https://docs.microsoft.com/powershell/module/skype/Test-CsComputer) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsComputer](https://docs.microsoft.com/powershell/module/skype/Test-CsComputer) Cmdlet 的說明文件。
 
 </div>
 
@@ -90,7 +92,7 @@ Test-CsComputer Cmdlet 只能在本機電腦上執行，所以您無法從 Windo
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-因為執行的驗證檢查數目，所以 Test-CsComputer 不會傳回簡單的**是，測試成功**或**否，測試失敗**。 相反地，您必須使用 Internet Explorer 來查看所產生的 HTML 檔案，以判斷每項測試的成功或失敗。
+因為執行的驗證檢查數目，所以 Test-CsComputer 不會傳回簡單的 **是，測試成功** 或 **否，測試失敗**。 相反地，您必須使用 Internet Explorer 來查看所產生的 HTML 檔案，以判斷每項測試的成功或失敗。
 
 </div>
 

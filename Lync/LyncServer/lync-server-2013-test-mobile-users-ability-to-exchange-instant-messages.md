@@ -12,20 +12,22 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194548"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519220"
 ---
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>在 Lync Server 2013 中測試行動使用者的 exchange 立即訊息能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>在 Lync Server 2013 中測試行動使用者的 exchange 立即訊息能力
+
 
 </div>
 
@@ -74,7 +76,7 @@ _**主題上次修改日期：** 2014-06-07_
 
 3.  利用 Lync Server 功能（例如透過工作和撥出會議進行通話）。
 
-CsMxcP2PIM Cmdlet 提供一種快速而簡單的方法，可驗證使用者是否可以使用行動服務來交換立即訊息。
+Test-CsMxcP2PIM Cmdlet 提供一種快速快捷的方式，可驗證使用者是否可以使用行動服務來交換立即訊息。
 
 </div>
 
@@ -89,7 +91,7 @@ CsMxcP2PIM Cmdlet 提供一種快速而簡單的方法，可驗證使用者是�
     
     Test-CsMcxP2PIM -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -SenderSipAddres "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:packerman@litwareinc.com" -ReceiverCredential $credential2
 
-如需詳細資訊，請參閱[Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) Cmdlet 的 [說明] 主題。
 
 </div>
 
@@ -101,7 +103,7 @@ CsMxcP2PIM Cmdlet 提供一種快速而簡單的方法，可驗證使用者是�
 
 目標 Fqdn： atl-cs-001.litwareinc.com
 
-目標 Uri：http://atl-cs-001.litwareinc.com:443/mcx
+目標 Uri： http://atl-cs-001.litwareinc.com:443/mcx
 
 結果：成功
 
@@ -115,13 +117,13 @@ CsMxcP2PIM Cmdlet 提供一種快速而簡單的方法，可驗證使用者是�
 
 目標 Fqdn： atl-cs-001.litwareinc.com
 
-目標 Uri：https://atl-cs-001.litwareinc.com:443/mcx
+目標 Uri： https://atl-cs-001.litwareinc.com:443/mcx
 
 結果：失敗
 
 延遲：00:00:00
 
-錯誤訊息： Web 票證服務沒有收到任何回應。
+錯誤訊息：沒有為 Web-Ticket 服務接收任何回應。
 
 內部例外狀況： HHTP 要求未經授權使用
 
@@ -139,13 +141,13 @@ CsMxcP2PIM Cmdlet 提供一種快速而簡單的方法，可驗證使用者是�
 
 001.litwareinc.com
 
-快取控制：私人
+Cache-Control： private
 
 Content-Type：文字/html;字元集 = utf-8。
 
 伺服器： Microsoft-IIS/8。5
 
-WWW-驗證：協商，NTLM
+WWW-Authenticate：協商、NTLM
 
 X-供電方式： ASP.NET
 
@@ -179,7 +181,7 @@ X-Content-Type-選項： nosniff
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-如果您收到錯誤訊息及驗證標頭，這通常表示您未指定有效的使用者帳戶。 請確認使用者名稱和密碼，然後再試一次測試。 如果您確信使用者帳戶是有效的，請使用 Get-CsWebServiceConfiguration Cmdlet，並檢查 UseWindowsAuth 屬性的值。 這會告訴您您的組織中已啟用哪種驗證方法。如需如何疑難排解行動性服務的更多秘訣，請參閱博客文章[疑難排解外部 Lync 行動連線問題逐步](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)執行。
+如果您收到錯誤訊息及驗證標頭，這通常表示您未指定有效的使用者帳戶。 請確認使用者名稱和密碼，然後再試一次測試。 如果您確信使用者帳戶是有效的，請使用 Get-CsWebServiceConfiguration Cmdlet，並檢查 UseWindowsAuth 屬性的值。 這會告訴您您的組織中已啟用哪種驗證方法。如需如何疑難排解行動性服務的更多秘訣，請參閱博客文章 [疑難排解外部 Lync 行動連線問題逐步](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)執行。
 
 </div>
 

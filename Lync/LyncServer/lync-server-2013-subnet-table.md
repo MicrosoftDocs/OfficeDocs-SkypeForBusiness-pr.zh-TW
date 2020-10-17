@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Subnet 表格'
+title: Lync Server 2013：子網表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19c52c923a1180b475afea764717b0af85a90985
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d684efa2d4bd68880a3838893e5c5cfe2a1a3cc2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181626"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519430"
 ---
+# <a name="subnet-table-in-lync-server-2013"></a>Lync Server 2013 中的子網表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="subnet-table-in-lync-server-2013"></a>Lync Server 2013 中的子網路表格
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42181626"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
 Subnet 表格是一種支援資料表。每筆記錄代表在網路組態設定中定義的一個子網路。
 
@@ -51,7 +53,7 @@ Subnet 表格是一種支援資料表。每筆記錄代表在網路組態設定�
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -63,7 +65,7 @@ Subnet 表格是一種支援資料表。每筆記錄代表在網路組態設定�
 <td><p>子網路 IP 的整數表示。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>子網路遮罩</strong></p></td>
+<td><p><strong>SubnetMask</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>子網路遮罩。</p></td>
@@ -72,11 +74,11 @@ Subnet 表格是一種支援資料表。每筆記錄代表在網路組態設定�
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>參考來源<a href="lync-server-2013-usersite-table.md">: UserSite table Lync Server 2013 中</a>。</p></td>
+<td><p>從 <a href="lync-server-2013-usersite-table.md">Lync Server 2013 的 UserSite 表格中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SubnetDescription</strong></p></td>
-<td><p>nvarchar(512)</p></td>
+<td><p>Nvarchar (512) </p></td>
 <td></td>
 <td><p>子網路的描述。</p></td>
 </tr>

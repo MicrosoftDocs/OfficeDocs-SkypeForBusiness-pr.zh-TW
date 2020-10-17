@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SIPResponseMetaData 資料表'
+title: Lync Server 2013： SIPResponseMetaData 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0143bdd74b955f2cba5f68540be7c969f748aa47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2418851ed66500937dab92f2820c36a8d1afac3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519630"
 ---
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a>Lync Server 2013 中的 SIPResponseMetaData 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sipresponsemetadata-table-in-lync-server-2013"></a>Lync Server 2013 中的 SIPResponseMetaData 資料表
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42181796"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
-SIPResponseMetaDataTable 包含 SIP 回應碼的分類和定義每個這些代碼的清單。 這些代碼而產生的影響 SIP 裝置的事件回應及的 SIP 通訊工作階段;例如，SIP 裝置提出要求，但伺服器拒絕以受限於該要求時，都會產生回應碼 403。
+SIPResponseMetaDataTable 包含 SIP 回應碼的清單，以及每個代碼的分類和定義。 這兩個代碼會在回應影響 SIP 裝置和 SIP 通訊會話的事件時產生;例如，回應碼403是在 SIP 裝置提出要求時產生，但是伺服器會謝絕該要求。
 
-Microsoft Lync Server 2013 中已採用此表格。
+此表格已引進 Microsoft Lync Server 2013。
 
 
 <table>
@@ -53,7 +55,7 @@ Microsoft Lync Server 2013 中已採用此表格。
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -65,25 +67,25 @@ Microsoft Lync Server 2013 中已採用此表格。
 <td><p>代表 SIP 回應碼的數值。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>類別</strong></p></td>
+<td><p><strong>Class</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>一般的回應碼的分類。 分類包括：</p>
+<td><p>回應碼的一般分類。 分類包括：</p>
 <ul>
-<li><p>1 – 資訊回應</p></li>
-<li><p>2 – 成功回應</p></li>
-<li><p>3 – 重新導向回應</p></li>
-<li><p>4 – 用戶端失敗回應</p></li>
-<li><p>5 – 伺服器失敗回應</p></li>
-<li><p>6 – 全域失敗回應</p></li>
+<li><p>1–資訊性回應</p></li>
+<li><p>2–成功的回應</p></li>
+<li><p>3–重新導向回應</p></li>
+<li><p>4-用戶端失敗回應</p></li>
+<li><p>5--伺服器失敗回應</p></li>
+<li><p>6–全域失敗回應</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>描述</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td></td>
-<td><p>SIP 回應碼的描述。 例如，回應碼 181 有下列描述：</p>
-<p>已轉接通話</p></td>
+<td><p>SIP 回應碼的描述。 例如，回應碼181的描述如下：</p>
+<p>轉接來電</p></td>
 </tr>
 </tbody>
 </table>

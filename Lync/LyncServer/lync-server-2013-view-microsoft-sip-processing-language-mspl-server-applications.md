@@ -12,20 +12,22 @@ ms:contentKeyID: 48185202
 ms.date: 09/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582c48cfbd276778b1d22c3bec17a5c0106d8a30
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22a4098ed36be274f31aaeebb381654595884377
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211379"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518460"
 ---
+# <a name="view-microsoft-sip-processing-language-mspl-server-applications-in-lync-server-2013"></a>在 Lync Server 2013 中查看 Microsoft SIP 處理語言 (MSPL) 伺服器應用程式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-microsoft-sip-processing-language-mspl-server-applications-in-lync-server-2013"></a>在 Lync Server 2013 中查看 Microsoft SIP 處理語言 (MSPL) 伺服器應用程式
+
 
 </div>
 
@@ -45,13 +47,13 @@ Microsoft SIP 處理語言 (MSPL) server 應用程式是一種僅限腳本的應
 
   - ClientVersionFilter 為系統管理員提供一種方法，用以指定集區支援的用戶端版本。 用戶端版本篩選器會檢查用戶端版本，並可防止用戶端登入或向使用者顯示訊息，指出其使用的是不支援的用戶端。 用戶端版本篩選也可以設定為向使用者顯示一則訊息，該使用者包含最新可下載版本用戶端的 URL。
 
-  - TranslationService 會轉譯使用者根據系統管理員所定義的正規化規則，撥打 e.164 號碼的數位。 如需詳細資訊，請參閱[Lync Server 2013 中的轉譯規則](lync-server-2013-translation-rules.md)。
+  - TranslationService 會轉譯使用者根據系統管理員所定義的正規化規則，撥打 e.164 號碼的數位。 如需詳細資訊，請參閱 [Lync Server 2013 中的轉譯規則](lync-server-2013-translation-rules.md)。
 
   - IncomingFederation 會針對租使用者和來自外部部署的內送郵件，強制執行租使用者層級的同盟驗證。
 
   - UserServices 是前端伺服器的 SIP 註冊、目前狀態及會議元件。 它提供了緊密整合的 IM、目前狀態及會議功能（建立于 SIP Proxy 之上）。
 
-  - InterClusterRouting 負責將通話路由傳送至被呼叫者的主要註冊集區。 如需詳細資訊，請參閱[Lync server 2013 的前端伺服器 VoIP 元件](lync-server-2013-front-end-server-voip-components.md)。
+  - InterClusterRouting 負責將通話路由傳送至被呼叫者的主要註冊集區。 如需詳細資訊，請參閱 [Lync server 2013 的前端伺服器 VoIP 元件](lync-server-2013-front-end-server-voip-components.md)。
 
   - IIMFilter (智慧 IM 篩選) 會封鎖包含可按一下 URLs 或嘗試初始化檔案傳輸的郵件。 IIMFilter 也會代表伺服器檢查用戶端版本。 IIMFilter 會影響使用 Lync Server 或 Communicator 所初始化的檔案傳輸。 根據預設，會在連結的第一個字元之前新增底線字元，以停用可按一下的連結。 管理員可以變更此行為，讓連結遭到封鎖，在這種情況下，包含可按一下的 URLs 或嘗試初始化檔案傳輸的郵件會遭到伺服器封鎖，無法到達其預定目的地。 IIMFilter 已安裝在所有執行 Lync Server 的伺服器上，但 Proxy 伺服器和封存伺服器除外。
 
@@ -63,7 +65,7 @@ Microsoft SIP 處理語言 (MSPL) server 應用程式是一種僅限腳本的應
 
   - OutboundRouting 會根據撥打的號碼和使用者的撥號授權，決定將通話路由傳送至電話號碼的閘道。 如果閘道無法處理呼叫，OutboundRouting 也會處理呼叫的重新路由。
 
-  - QoEAgent 會收到經驗品質 (QoE 透過 SIP 服務要求從端點) 資料包表，並將資料傳送至監控伺服器上的目的地佇列，或是使用 HTTP POST 將資料傳送至協力廠商消費者。 如需詳細資訊，請參閱[在 Lync Server 2013 中部署監控](lync-server-2013-deploying-monitoring.md)。
+  - QoEAgent 會收到經驗品質 (QoE 透過 SIP 服務要求從端點) 資料包表，並將資料傳送至監控伺服器上的目的地佇列，或是使用 HTTP POST 將資料傳送至協力廠商消費者。 如需詳細資訊，請參閱 [在 Lync Server 2013 中部署監控](lync-server-2013-deploying-monitoring.md)。
 
   - OutgoingFederation 會對傳送至目標外部部署的郵件強制執行租使用者層級同盟驗證。
 

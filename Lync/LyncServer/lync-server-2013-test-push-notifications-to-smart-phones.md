@@ -12,20 +12,22 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06684665819e14540628e5cd45309ef2c920b227
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0e8d6198fc022c03e69e68475d77f513d577ad4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194518"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519200"
 ---
+# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>在 Lync Server 2013 中測試向智慧型電話的推播通知
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>在 Lync Server 2013 中測試向智慧型電話的推播通知
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**主題上次修改日期：** 2017-03-15_
 
     Test-CsMcxPushNotification -AccessEdgeFqdn "atl-edge-001.litwareinc.com"
 
-如需詳細資訊，請參閱[Test-CsMcxPushNotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsMcxPushNotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification) Cmdlet 的 [說明] 主題。
 
 </div>
 
@@ -106,9 +108,9 @@ Test-CsMcxPushNotification：從網路接收到 504 (伺服器超時的回應) �
 
 \+Test-CsMcxPushNotification \< \< \< \< AccessEdgeFqdn lyncedge.mydomain.com
 
-\+CategoryInfo： OperationStopped： (： ) \[ Test-CsMcxPushNotification \] ，FailureResponseException
+\+ CategoryInfo： OperationStopped： (： ) \[ Test-CsMcxPushNotification \] ，FailureResponseException
 
-\+FullyQualifiedErrorId： WorkflowNotCompleted、SyntheticTransactions、TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId： WorkflowNotCompleted、SyntheticTransactions、TestMcxPushNotificationCmdlet
 
 </div>
 
@@ -128,27 +130,27 @@ Test-CsMcxPushNotification：從網路接收到 504 (伺服器超時的回應) �
 
     Get-CsMcxConfiguration
 
-如果 PushNotificationProxyUri 屬性設定為 sip:push@push.lync.com 以外的任何專案，您可以使用 Microsoft.rtc.management.writeableconfig.settings.mcxconfiguration.mcxconfiguration Cmdlet 修正該問題。 例如，此命令會正確地設定整個組織的 URI：
+如果 PushNotificationProxyUri 屬性設定為 sip:push@push.lync.com 以外的任何專案，您可以使用 Set-McxConfiguration Cmdlet 修正該問題。 例如，此命令會正確地設定整個組織的 URI：
 
     Get-CsMcxConfiguration | Set-CsMcxConfiguration -PushNotificationProxyUri "sip:push@push.lync.com"
 
-如需詳細資訊，請參閱[Set-CsMcxConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMcxConfiguration) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Set-CsMcxConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMcxConfiguration) Cmdlet 的 [說明] 主題。
 
 如果 URI 設定正確，下一個步驟應該是驗證您是否有解析為 SIP 網域和 Edge server 的 DNS SRV 記錄。 如需如何設定這些記錄的詳細資訊，請參閱協助主題行動的 DNS 需求。 請注意，下列錯誤訊息通常會指出 DNS 記錄的問題：
 
 從網路接收到 504 (伺服器超時) 回應，但作業失敗。 如需詳細資訊，請參閱例外狀況詳細資料。
 
-Set-csmcxconfiguration 也可能會失敗，並顯示此錯誤訊息：
+您也可以使用此錯誤訊息 Test-CsMcxConfiguration 會失敗：
 
 Test-CsMcxPushNotification：推播通知要求遭到拒絕。
 
 線上：1個字元：27
 
-\+Test-CsMcxPushNotification\<\<\<\<
+\+ Test-CsMcxPushNotification \<\<\<\<
 
-\+CategoryInfo： OperationStopped： (： ) \[ Test-CsMcxPushNotification \] ，SyntheticTransactionException
+\+ CategoryInfo： OperationStopped： (： ) \[ Test-CsMcxPushNotification \] ，SyntheticTransactionException
 
-\+FullyQualifiedErrorId： WorkflowNotCompleted、SyntheticTransactions、TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId： WorkflowNotCompleted、SyntheticTransactions、TestMcxPushNotificationCmdlet
 
 如果您已啟用 URL 篩選並封鎖 HTTP：及 HTTPs：首碼，則通常會發生「推入通知要求」訊息。 您可以使用類似下列的命令，判斷封鎖哪些首碼：
 
@@ -161,7 +163,7 @@ Test-CsMcxPushNotification：推播通知要求遭到拒絕。
     Set-CsImFilterConfiguration -Identity site:Redmond -Prefixes @{remove="http:"}
     Set-CsImFilterConfiguration -Identity site:Redmond -Prefixes @{remove="https:"}
 
-如需詳細資訊，請參閱[CsImFilterConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsImFilterConfiguration)Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [CsImFilterConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsImFilterConfiguration)Cmdlet 的 [說明] 主題。
 
 </div>
 

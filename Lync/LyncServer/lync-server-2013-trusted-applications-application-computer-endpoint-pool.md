@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 信任的應用程式 （應用程式/電腦/端點/集區）
+title: 'Lync Server 2013：信任的應用程式 (application/computer/endpoint/pool) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 708a98a6c1e9d0ff2d0d499b439127afea64b3ff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cccfa4125327ee2077878fdbaf74d23f5388414e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518910"
 ---
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 中的受信任應用程式 (應用程式/電腦/端點/集區) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 中有信任的應用程式 （應用程式/電腦/端點/集區）
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42193326"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-使用本節中的程序，來管理 Lync Server 2013 的信任的應用程式。
+使用本節中的程式來管理 Lync Server 2013 的受信任應用程式。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中管理信任的應用程式](lync-server-2013-managing-trusted-applications.md)
+  - [在 Lync Server 2013 中管理信任的應用程式](lync-server-2013-managing-trusted-applications.md)
 
 </div>
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012年-11-01_
 
 ## <a name="related-sections"></a>相關各節
 
-[Lync Server 2013 的信任的應用程式 cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[Lync Server 2013 中的受信任應用程式 Cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
 </div>
 
@@ -60,7 +62,7 @@ _**主題上次修改日期：** 2012年-11-01_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中管理信任的應用程式](lync-server-2013-managing-trusted-applications.md)  
+[在 Lync Server 2013 中管理信任的應用程式](lync-server-2013-managing-trusted-applications.md)  
   
 
 </div>

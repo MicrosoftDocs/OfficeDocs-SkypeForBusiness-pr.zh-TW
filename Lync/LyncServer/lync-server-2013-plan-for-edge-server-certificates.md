@@ -12,20 +12,22 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47ac330914a0d748c366d2a6e40ac0ad9f03543d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3fc6ab9bfb6d145b324c079e4bf746354e7329f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215479"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519850"
 ---
+# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>在 Lync Server 2013 中規劃 Edge Server 憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>在 Lync Server 2013 中規劃 Edge Server 憑證
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012-11-05_
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 中引入，在目前憑證到期時間之前，暫存 Audio/Video 驗證憑證需要進行一些額外的規劃。 除了一個憑證的外部 Edge 介面具有多種用途之外，您還需要兩個憑證，一個憑證會指派給 Access Edge service 和 Web 會議 Edge service，另一個憑證用於 A/V Edge service。 如需詳細資訊，請參閱<A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">在 Lync Server 2013 中使用-擲入的暫存 AV 和 OAuth 憑證 Set-CsCertificate</A>
+> 在 Lync Server 2013 中引入，在目前憑證到期時間之前，暫存 Audio/Video 驗證憑證需要進行一些額外的規劃。 除了一個憑證的外部 Edge 介面具有多種用途之外，您還需要兩個憑證，一個憑證會指派給 Access Edge service 和 Web 會議 Edge service，另一個憑證用於 A/V Edge service。 如需詳細資訊，請參閱 <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">在 Lync Server 2013 中使用-擲入的暫存 AV 和 OAuth 憑證 Set-CsCertificate</A>
 
 
 
@@ -77,15 +79,15 @@ _**主題上次修改日期：** 2012-11-05_
 
   - 確定您已為憑證指派可匯出的私密金鑰
 
-  - Access Edge service (稱為憑證嚮導中的「**外部 SIP 存取 Edge** 」) 
+  - Access Edge service (稱為憑證嚮導中的「 **外部 SIP 存取 Edge** 」) 
 
-  - Web 會議 Edge service (稱為憑證嚮導中的「 **Web 會議 Edge 外部**」) 
+  - Web 會議 Edge service (稱為憑證嚮導中的「 **Web 會議 Edge 外部** 」) 
 
-  - A/V 驗證服務 (稱為憑證嚮導中的**A/V Edge 外部**) 
+  - A/V 驗證服務 (稱為憑證嚮導中的 **A/V Edge 外部**) 
 
 使用可匯出的私密金鑰建立單一的內部憑證，將其複製並指派給每個 Edge Server 內部介面：
 
-  - Edge Server (稱為憑證嚮導中的**Edge Internal**) 
+  - Edge Server (稱為憑證嚮導中的 **Edge Internal**) 
 
 <div>
 

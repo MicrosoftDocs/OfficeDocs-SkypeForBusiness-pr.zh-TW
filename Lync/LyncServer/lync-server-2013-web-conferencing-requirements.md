@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Web 會議需求'
+title: Lync Server 2013： Web 會議需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56a030329f9d69a3748b2b76179c7a783b13cb0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 404ce93e841bbbefd62498a1dbb3da664eb927ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518250"
 ---
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 Web 會議需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 web 會議需求
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42210979"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-30_
+_**主題上次修改日期：** 2013-01-30_
 
 如果您已選擇要啟用 Web 會議，則需規劃下列事項：
 
@@ -43,15 +45,15 @@ _**上次修改主題：** 2013年-01-30_
     存取檔案存放區，以用來儲存 Web 會議內容。
 
   - <span></span>  
-    與 Office Web Apps Server，也就是在會議期間共用 PowerPoint 檔案所需的整合。
+    與 Office Web Apps Server 整合，以便在會議期間共用 PowerPoint 檔案。
 
 <div>
 
 ## <a name="file-store"></a>檔案存放區
 
-Lync Server 2013 web 會議服務儲存的檔案存放區中的會議期間共用的內容。 部署的一部分，您必須指定檔案共用，以做為檔案存放區的 [Standard Edition server 或 Enterprise Edition 前端集區。 您可以使用現有的檔案共用的檔案存放區，或您可以指定新的檔案共用，藉由指定所在的檔案共用，就是位於檔案伺服器的完整的網域名稱 (FQDN) 和新的檔案共用的資料夾名稱。如需詳細資訊，請參閱定義前端的檔案存放區拓撲產生器 –。 Web 會議服務加密內容之前它的檔案存放區中儲存的內容。
+Lync Server 2013 web 會議服務會儲存檔存放區中會議期間共用的內容。 在部署過程中，您必須指定要用來做為 Standard Edition server 或 Enterprise Edition 前端集區之檔案存放區的檔案共用。 您可以使用檔案存放區現有的檔案共用，也可以指定新的檔案共用，方法是指定檔案共用所在的檔案伺服器的完整功能變數名稱 (FQDN) ，以及新檔案共用的資料夾名稱。如需詳細資訊，請參閱拓撲產生器–定義前端的檔案存放區。 Web 會議服務會先對內容進行加密，然後才會將內容儲存在檔案存放區中。
 
-Lync Server 2013 支援在直接附加儲存裝置 (DAS) 或儲存區域網路 (SAN)，包括分散式檔案系統 (DFS) 和備援獨立磁碟陣列 (RAID) 上使用檔案共用的檔案存放區。 Lync Server 部署精靈已定義的檔案共用位置之後，Lync Server 會建立內的檔案共用資料夾結構如下：
+Lync Server 2013 支援在直接連接儲存區 (DAS) 或儲存區域網路 (SAN) 上使用檔案共用，包括分散式檔案系統 (DFS) ，以及獨立磁碟容錯陣列 (RAID) 為檔案存放區。 在 Lync Server 部署嚮導定義檔案共用的位置之後，Lync Server 會在檔案共用中建立資料夾結構，類似下列所示：
 
   - 1-ApplicationServer-1
 
@@ -81,11 +83,11 @@ Lync Server 2013 支援在直接附加儲存裝置 (DAS) 或儲存區域網路 (
 
 您可以使用下列設定來管理儲存會議內容的方式：
 
-  - **ContentGracePeriod**，位於[Set-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)，設定多久 web 會議內容會保留在伺服器上的會議結束之後。
+  - **ContentGracePeriod**，位於 [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)中，會設定在會議結束後，web 會議內容保留在伺服器上的時間。
 
-  - **MaxContentStorageMb**，位於[Set-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)，設定單一會議期間所允許的儲存內容的檔案空間的量上限。
+  - **MaxContentStorageMb**，位於 [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)中，會設定單一會議期間允許儲存內容的最大檔空間量。
 
-**MaxUploadFileSizeMb**就不會限制設定 Lync Web App 的檔案上傳。 Lync Web App 的檔案大小上傳限制設為大約 30 MB，而由 IIS 的 web.config 檔案所控制: / DataCollabWeb/Int\[Ext\]/Handler/web.config。若要設定 Lync Web App 的檔案大小上傳限制，請更新`maxRequestLength`和`maxAllowedContentLength`在 web.config 檔案中，如下所示。
+**MaxUploadFileSizeMb** 不會限制 Lync Web App 的檔案上傳設定。 Lync Web App 的檔案大小上傳限制設定為大約30MB，且由 IIS web.config 檔案：/DataCollabWeb/Int \[ Ext \] /Handler/web.config 所控制。若要設定 Lync Web App 的檔案大小上傳限制，請更新， `maxRequestLength` 並 `maxAllowedContentLength` 在 web.config 檔中，如下所示。
 
     <system.web>
         <!-- 
@@ -105,7 +107,7 @@ Lync Server 2013 支援在直接附加儲存裝置 (DAS) 或儲存區域網路 (
                     </requestFiltering>
                     </security>
 
-您必須更新 web.config 檔案的每個前端伺服器。
+您必須更新每一部前端伺服器的 web.config 檔案。
 
 </div>
 
@@ -113,7 +115,7 @@ Lync Server 2013 支援在直接附加儲存裝置 (DAS) 或儲存區域網路 (
 
 ## <a name="office-web-apps-server"></a>Office Web Apps Server
 
-若要使用這些新功能的系統管理員必須安裝 Office Web Apps Server，他們必須設定 Lync Server 2013 與 Office Web Apps Server 通訊。 這份文件提供如何設定為搭配 Office Web Apps Server 的 Lync Server 2013 的資訊。 未提供什麼這份文件是有關如何安裝 Office Web Apps Server 的資訊。 安裝的詳細資訊，請參閱 Microsoft Office Web Apps 部署網站， <https://go.microsoft.com/fwlink/p/?linkid=257525>。 該指南包括完整的 Office Web Apps Server 的必要資訊。 請注意，應該不執行 Lync Server、 SQL Server 或任何其他伺服器應用程式的獨立電腦上安裝 Office Web Apps Server。 （您必須不會有任何版本的 Office 安裝在該電腦上。）用來執行 Office Web Apps Server 的任何電腦也必須有一組特定的軟體安裝 （包括.NET Framework 4.5 和 Windows PowerShell 3.0）。 在 Microsoft Office Web Apps 部署網站中的詳細討論這些需求，以及設定憑證及網際網路資訊服務 (IIS) 的相關資訊<https://go.microsoft.com/fwlink/p/?linkid=257525>。
+若要使用這些新功能，管理員必須安裝 Office Web Apps Server，而且必須設定 Lync Server 2013，以與 Office Web Apps Server 通訊。 本檔提供如何設定 Lync Server 2013 以搭配 Office Web Apps Server 使用的資訊。 本檔不提供的資訊，是有關如何安裝 Office Web Apps Server 的資訊。 如需安裝詳細資訊，請參閱 Microsoft Office Web Apps 部署網站 <https://go.microsoft.com/fwlink/p/?linkid=257525> 。 該指南包含 Office Web Apps Server 的完整必要資訊。 請注意，Office Web Apps Server 應該安裝在未執行 Lync Server、SQL Server 或任何其他伺服器應用程式的獨立電腦上。  (您不能在該電腦上安裝任何版本的 Office。 ) 任何用來執行 Office Web Apps Server 的電腦也必須有一組特定的軟體安裝 (（包括 .NET Framework 4.5 和 Windows PowerShell 3.0) ）。 Microsoft Office Web Apps 部署網站會詳細討論這些需求，以及設定憑證和 Internet Information Services (IIS) 的相關資訊 <https://go.microsoft.com/fwlink/p/?linkid=257525> 。
 
 </div>
 
@@ -122,8 +124,8 @@ Lync Server 2013 支援在直接附加儲存裝置 (DAS) 或儲存區域網路 (
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的 web 會議概觀](lync-server-2013-web-conferencing-overview.md)  
-[Lync Server 2013 中的 web 會議的部署檢查表](lync-server-2013-deployment-checklist-for-web-conferencing.md)  
+[Lync Server 2013 中的 web 會議概述](lync-server-2013-web-conferencing-overview.md)  
+[Lync Server 2013 中的 web 會議部署檢查清單](lync-server-2013-deployment-checklist-for-web-conferencing.md)  
   
 
 </div>

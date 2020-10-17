@@ -12,20 +12,22 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d5b3b276d93fc0f09ad42be9448dc87eb1ba049
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 52a54a44b862cb067639e20ab59446e4b9cb24a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519860"
 ---
+# <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 混合式部署的概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 混合式部署的概述
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 混合式部署是一種部署方式，使用者可以使用 Lync Se
 
   - [設定 Lync Server 2013 混合式部署](lync-server-2013-configuring-hybrid-deployments.md)
 
-如需商務用 Skype Online 的詳細資訊，請參閱[Lync online](https://go.microsoft.com/fwlink/p/?linkid=282396)。
+如需商務用 Skype Online 的詳細資訊，請參閱 [Lync online](https://go.microsoft.com/fwlink/p/?linkid=282396)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 主幹組態 cmdlet
+title: Lync Server 2013：中繼設定 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fddc847e329ef17f6aab0909e3f0b9cf5dd5995
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a734e8fdc169740cfe54282994e63190d63065a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518920"
 ---
+# <a name="trunking-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的中繼設定 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="trunking-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的主幹組態 cmdlet
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42193316"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-08_
+_**主題上次修改日期：** 2012-10-08_
 
 主幹組態 Cmdlet 可用以定義主幹對等實體 (例如，服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段界限控制器 (SBC)) 的設定。這些設定所設定的項目包括此主幹是否啟用媒體旁路、是否在特定情況下傳送即時傳輸控制通訊協定 (RTCP) 封包，以及是否需要安全即時通訊協定 (SRTP) 加密。
 
@@ -47,52 +49,52 @@ _**主題上次修改日期：** 2012年-10-08_
 
 **主幹組態**
 
-  - [Test-csintertrunkrouting](https://technet.microsoft.com/library/JJ204741(v=OCS.15))
+  - [Test-CsInterTrunkRouting](https://technet.microsoft.com/library/JJ204741(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ204962(v=OCS.15))
+  - [Get-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ204962(v=OCS.15))
 
-  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ205097(v=OCS.15))
+  - [New-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ205097(v=OCS.15))
 
-  - [Remove-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ204836(v=OCS.15))
+  - [Remove-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ204836(v=OCS.15))
 
-  - [Set-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ205400(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [取得 CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398104(v=OCS.15))
-
-  - <span></span>  
-    [新 CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg412803(v=OCS.15))
-
-  - <span></span>  
-    [移除 CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398556(v=OCS.15))
-
-  - <span></span>  
-    [設定 CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg413073(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-cstrunk](https://technet.microsoft.com/library/JJ205244(v=OCS.15))
+  - [Set-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ205400(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398224(v=OCS.15))
+    [CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398104(v=OCS.15))
 
   - <span></span>  
-    [新 Test-cstrunkconfiguration](https://technet.microsoft.com/library/Gg413021(v=OCS.15))
+    [New-CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg412803(v=OCS.15))
 
   - <span></span>  
-    [Remove-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))
+    [Remove-CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398556(v=OCS.15))
 
   - <span></span>  
-    [Set-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398238(v=OCS.15))
+    [CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg413073(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsTrunk](https://technet.microsoft.com/library/JJ205244(v=OCS.15))
+
+<!-- end list -->
 
   - <span></span>  
-    [測試 Test-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398137(v=OCS.15))
+    [Get-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398224(v=OCS.15))
+
+  - <span></span>  
+    [新 Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg413021(v=OCS.15))
+
+  - <span></span>  
+    [Remove-Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398238(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398137(v=OCS.15))
 
 <!-- end list -->
 
@@ -106,7 +108,7 @@ _**主題上次修改日期：** 2012年-10-08_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

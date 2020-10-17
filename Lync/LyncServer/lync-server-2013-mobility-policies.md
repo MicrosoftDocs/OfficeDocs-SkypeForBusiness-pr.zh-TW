@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 行動性原則
+title: Lync Server 2013：行動性原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f92b6cd69ce8063c22f1892d34545700abaf519a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18df28fec6d7e38dd58aa2c9e9068bb2dee4b731
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217459"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519890"
 ---
+# <a name="mobility-policies-in-lync-server-2013"></a>Lync Server 2013 中的行動原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-policies-in-lync-server-2013"></a>Lync Server 2013 中的行動性原則
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42217459"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-18_
+_**主題上次修改日期：** 2012-10-18_
 
-使用下列程序來設定 Lync Server 2013 的行動性原則。
+使用下列程式可設定 Lync Server 2013 的行動性原則。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [建立或修改 Lync Server 2013 中的行動性原則](lync-server-2013-create-or-modify-a-mobility-policy.md)
+  - [在 Lync Server 2013 中建立或修改行動性原則](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
-  - [Lync Server 2013 中的每一使用者行動性原則指派](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [在 Lync Server 2013 中指派每個使用者的行動性原則](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [強制執行電話鎖定在 Lync Server 2013](lync-server-2013-enforce-phone-locking.md)
+  - [在 Lync Server 2013 中強制執行電話鎖定](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 
@@ -56,7 +58,7 @@ _**主題上次修改日期：** 2012年-10-18_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的行動規劃](lync-server-2013-planning-for-mobility.md)  
+[在 Lync Server 2013 中規劃行動性](lync-server-2013-planning-for-mobility.md)  
   
 
 </div>

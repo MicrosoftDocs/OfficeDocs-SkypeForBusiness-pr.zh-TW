@@ -12,20 +12,22 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1e7acf5fa315e566094728066bbc798267f029ed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780172"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519450"
 ---
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>準備及部署 Lync Server 2013 混合式環境的步驟
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>準備及部署 Lync Server 2013 混合式環境的步驟
+
 
 </div>
 
@@ -58,15 +60,15 @@ _**主題上次修改日期：** 2016-12-08_
 <td></td>
 <td><p>建立 Office 365 的租使用者帳戶並啟用 Lync Online</p></td>
 <td><p>深入瞭解 Office 365 和 Lync Online （ <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>）。</p>
-<p>若要確定您的環境已準備好用於 Office 365，請參閱<a href="https://go.microsoft.com/fwlink/p/?linkid=401408">系統需求</a>。</p>
-<p>如需設定 Office 365 的詳細資訊，請參閱<a href="https://go.microsoft.com/fwlink/p/?linkid=254982">office 365 快速入門</a>和<a href="https://go.microsoft.com/fwlink/p/?linkid=254979">設定 Office 365</a>。</p></td>
+<p>若要確定您的環境已準備好用於 Office 365，請參閱 <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">系統需求</a>。</p>
+<p>如需設定 Office 365 的詳細資訊，請參閱 <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">office 365 快速入門</a> 和 <a href="https://go.microsoft.com/fwlink/p/?linkid=254979">設定 Office 365</a>。</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>新增您的網域並驗證擁有權</p></td>
-<td><p>您的網域有時也稱為您的<em>虛名網域</em>。 您必須將您的網域新增至 Office 365 組織，然後依照步驟驗證使用 Office 365 的網域。 這是確認您是網域的擁有者。</p>
-<p>若要將您的網域新增至 Office 365 組織，請遵循在 [<a href="https://go.microsoft.com/fwlink/p/?linkid=254983">將您的網域新增至 office 365</a>] 中所述的步驟。</p>
-<p>完成主題中每一個區段中的所有步驟，包括&quot;為您的 Office 365 服務編輯 DNS 記錄。&quot;</p></td>
+<td><p>您的網域有時也稱為您的 <em>虛名網域</em>。 您必須將您的網域新增至 Office 365 組織，然後依照步驟驗證使用 Office 365 的網域。 這是確認您是網域的擁有者。</p>
+<p>若要將您的網域新增至 Office 365 組織，請遵循在 [ <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">將您的網域新增至 office 365</a>] 中所述的步驟。</p>
+<p>完成主題中每一個區段中的所有步驟，包括 &quot; 為您的 Office 365 服務編輯 DNS 記錄。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -77,7 +79,7 @@ _**主題上次修改日期：** 2016-12-08_
 <tr class="even">
 <td></td>
 <td><p>準備 Active Directory 同步處理</p></td>
-<td><p>Active Directory 同步處理會使您的內部部署 Active Directory 持續與 Office 365 保持同步。 這可讓您建立每個使用者帳戶和群組的同步處理版本，也可讓您的本機 Microsoft Exchange Server 環境與 Microsoft Exchange Online 之間的全域通訊清單（GAL）同步處理。</p>
+<td><p>Active Directory 同步處理會使您的內部部署 Active Directory 持續與 Office 365 保持同步。 這可讓您建立每個使用者帳戶和群組的同步處理版本，也可讓全域通訊清單 (GAL) 從您當地的 Microsoft Exchange Server 環境同步處理至 Microsoft Exchange Online。</p>
 <div>
 
 > [!IMPORTANT]  
@@ -85,12 +87,12 @@ _**主題上次修改日期：** 2016-12-08_
 
 
 </div>
-<p>若要準備環境以進行 Active Directory 同步處理，請遵循<a href="https://go.microsoft.com/fwlink/p/?linkid=254988">目錄同步處理藍圖</a>中所述的步驟，包括設定單一登入。</p></td>
+<p>若要準備環境以進行 Active Directory 同步處理，請遵循 <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">目錄同步處理藍圖</a>中所述的步驟，包括設定單一登入。</p></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>建立 Active Directory Federation Services （AD FS）的憑證</p></td>
-<td><p>您將需要建立憑證，以用於與 Office 365 的身分識別同盟。 如需詳細資訊，請參閱規劃及部署 AD FS 的「同盟伺服器憑證」一節，以與單一登入主題搭配使用，<a href="https://go.microsoft.com/fwlink/p/?linkid=285376">檢查清單：使用 AD fs 來執行和管理單一登入</a>。</p></td>
+<td><p>建立 Active Directory Federation Services (AD FS 的憑證) </p></td>
+<td><p>您將需要建立憑證，以用於與 Office 365 的身分識別同盟。 如需詳細資訊，請參閱規劃及部署 AD FS 的「同盟伺服器憑證」一節，以與單一登入主題搭配使用， <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">檢查清單：使用 AD fs 來執行和管理單一登入</a>。</p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -101,12 +103,12 @@ _**主題上次修改日期：** 2016-12-08_
 <td></td>
 <td><p>將試驗使用者移至商務用 Skype Online</p></td>
 <td><p>在您完成準備及設定商務用 Skype Online 環境的步驟之後，您可以開始將試驗使用者移至 Lync Online。</p>
-<p>請參閱<a href="lync-server-2013-move-users-to-lync-online.md">在 Lync Server 2013 中將使用者移至 Lync Online</a>。</p></td>
+<p>請參閱 <a href="lync-server-2013-move-users-to-lync-online.md">在 Lync Server 2013 中將使用者移至 Lync Online</a>。</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>在混合式部署中管理使用者</p></td>
-<td><p>如需如何在混合式部署中管理使用者的詳細資訊，請參閱<a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">在混合 Lync Server 2013 部署中管理使用者</a>。</p></td>
+<td><p>如需如何在混合式部署中管理使用者的詳細資訊，請參閱 <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">在混合 Lync Server 2013 部署中管理使用者</a>。</p></td>
 </tr>
 </tbody>
 </table>

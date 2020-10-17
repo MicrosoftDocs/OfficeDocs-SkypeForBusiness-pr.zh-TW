@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 確認外部使用者的連線
+title: Lync Server 2013：驗證外部使用者的連線能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf4798c154b240a6048840a819c35d39f5ffc9d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8d85b72572ba065f52e93ee34e6cb9324c2f647
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518640"
 ---
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>在 Lync Server 2013 中驗證外部使用者的連線能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>確認 Lync Server 2013 中的外部使用者的連線
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42211769"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
 要驗證外部使用者連線能力，必須先確保從使用者至伺服器，以及 Access Edge Service 連接埠的連線能力。
 
-重要資源的外部使用者存取的案例中確認您的設定，以及連線、 傳送及接收正確的郵件需要是 Remote Connectivity Analyzer 網站 (<http://www.testocsconnectivity.com>)。 網站是由管理和維護 Microsoft 支援服務。 如要瀏覽遠端連線分析程式，請在瀏覽器中開啟該網站，然後遵循指示來選取案例。
+一種有價值的資源可確認您的設定，以及連線、傳送及接收外部使用者存取所需之案例的正確訊息，都是 Remote Connectivity Analyzer 網站 () 的功能 <http://www.testocsconnectivity.com> 。 網站由 Microsoft 支援服務管理及維護。 如要瀏覽遠端連線分析程式，請在瀏覽器中開啟該網站，然後遵循指示來選取案例。
 
 <div>
 

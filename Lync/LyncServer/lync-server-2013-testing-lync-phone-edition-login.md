@@ -12,20 +12,22 @@ ms:contentKeyID: 63969583
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce22e6c7f5fb48132f3f67c79c33daaa568d93ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b55ef9024caedaecb27bba3e01eb2bde5181fca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194056"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519020"
 ---
+# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Lync Phone Edition 登入
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Lync Phone Edition 登入
+
 
 </div>
 
@@ -68,7 +70,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 Test-CsPhoneBootstrap Cmdlet 可讓系統管理員使用 Lync 2013 Phone Edition 相容裝置登入系統，以驗證指定的使用者（使用指派的電話號碼和 PIN 碼）。  (實際執行測試時，不需要裝置。 ) 
 
-為了讓 Test-CsPhoneBootstrap 進行檢查，主控所測試之使用者帳戶的註冊集區集區必須可透過 DHCP 來探索。 若要判斷註冊機構是否以這種方式被探索，請使用 Cmdlet Get-CsRegistrarConfiguration，並檢查 EnableDHCPServer 屬性的值。 如果此屬性設定為 False，您必須使用 Get-csregistrarconfiguration 將屬性值設定為 True，並讓註冊機構可使用 DHCP 加以探索。 您也可以使用企業 DHCP 伺服器及設定 Lync Server 特有的選項來執行此動作。
+為了讓 Test-CsPhoneBootstrap 進行檢查，主控所測試之使用者帳戶的註冊集區集區必須可透過 DHCP 來探索。 若要判斷註冊機構是否以這種方式被探索，請使用 Cmdlet Get-CsRegistrarConfiguration，並檢查 EnableDHCPServer 屬性的值。 如果此屬性設為 False，則必須使用 Set-CsRegistrarConfiguration 將屬性值設定為 True，並讓註冊機構可使用 DHCP 加以探索。 您也可以使用企業 DHCP 伺服器及設定 Lync Server 特有的選項來執行此動作。
 
 </div>
 
@@ -84,7 +86,7 @@ Test-CsPhoneBootstrap Cmdlet 可讓系統管理員使用 Lync 2013 Phone Edition
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -UserSipAddress "sip:kenmyer@litwareinc.com"
 
-如需詳細資訊，請參閱[Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) Cmdlet 的說明文件。
 
 </div>
 
@@ -92,9 +94,9 @@ Test-CsPhoneBootstrap Cmdlet 可讓系統管理員使用 Lync 2013 Phone Edition
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者能夠連線至 Lync 伺服器，則會收到類似下列的輸出，並將 Result 屬性標示為 [**成功]：**
+如果指定的使用者能夠連線至 Lync 伺服器，則會收到類似下列的輸出，並將 Result 屬性標示為 [ **成功]：**
 
-TargetUri：https://atl-cs-001.litwareinc.com:443/CertProv/
+TargetUri： https://atl-cs-001.litwareinc.com:443/CertProv/
 
 CertProvisioningService
 
@@ -116,7 +118,7 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延遲：00：00：04.1993845
 
-錯誤：錯誤-沒有為 Web 票證服務接收任何回應。
+錯誤：錯誤-沒有為 Web-Ticket 服務接收任何回應。
 
 診斷：
 
@@ -140,11 +142,11 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 檢查：
 
-\-Web 服務 url 有效且 web 服務可運作
+\- Web 服務 url 有效且 web 服務可運作
 
-\-若要使用 PhoneNo \\ PIN 來驗證，請確定它們符合使用者 uri
+\- 若要使用 PhoneNo \\ PIN 來驗證，請確定它們符合使用者 uri
 
-\-若要使用 NTLM \\ Kerberos 驗證，請確定您提供有效的認證
+\- 若要使用 NTLM \\ Kerberos 驗證，請確定您提供有效的認證
 
 </div>
 

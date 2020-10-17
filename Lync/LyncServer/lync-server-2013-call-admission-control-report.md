@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 通話許可控制報告
+title: Lync Server 2013：通話許可控制報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d61e01574945fe090d3fd9425133f9569bd111
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1c1ff2b667c0529dfb7a90291dba7ad5ab154a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199536"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517960"
 ---
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 中的通話許可控制報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 中通話許可控制報告
+
 
 </div>
 
@@ -35,31 +37,31 @@ ms.locfileid: "42199536"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-29_
+_**主題上次修改日期：** 2012-06-29_
 
-通話許可控制報告提供的端對端的相關資訊和 [限制] 下所進行的會議工作階段設定中的通話許可控制的地方。 通話許可控制，在 Microsoft Lync Server 2010 中引進，讓系統管理員允許 （或不允許） 的通訊工作階段為基礎的頻寬限制。 例如，管理員可以建立加諸的適用於語音和視訊通話頻寬限制的原則。 如果已達到該頻寬限制，然後沒有新的語音或視訊通話可以放直到下列其中一個目前的呼叫已結束並釋出所需的網路資源。
+通話許可控制報告可提供對等和會議會話的相關資訊，這些會話是在「通話許可控制」設定的限制下進行的。 Microsoft Lync Server 2010 所引進的通話許可控制可讓系統管理員允許 (或不允許根據頻寬限制進行) 通訊會話。 例如，系統管理員可以建立原則限制可用於語音和影片通話的頻寬量。 如果已達到頻寬限制，則直到其中一個目前的通話結束並釋放必要的網路資源時，才可以放入新的語音或視頻通話。
 
 <div>
 
 ## <a name="accessing-the-call-admission-control-report"></a>存取通話許可控制報告
 
-通話許可控制報告是從監視報告首頁存取。 從 [通話許可控制報告中您可以向下其中一個下列報告切入：
+通話許可控制報告可從監控報告的首頁進行存取。 從通話許可控制報告中，您可以深入查看下列任一報告：
 
-  - 會議詳細資料報告： 要存取這份報告，請按一下 [從會議工作階段的詳細資料計量。
+  - 會議詳細資料包告–若要存取此報告，請按一下會議會話中的詳細資料度量。
 
-  - 端對端工作階段詳細資料報告： 要存取這份報告，請按一下 [詳細資料] 計量的端對端工作階段。
+  - Peer-to-Peer 會話詳細資料包告–若要存取此報告，請按一下點對點工作階段的詳細資料度量。
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-admission-control-report"></a>通話許可控制報告的最佳用法
+## <a name="making-the-best-use-of-the-call-admission-control-report"></a>充分利用通話許可控制報告
 
-若要取得的失敗，因為沒有足夠的頻寬的呼叫清單，選取 [因為呼叫類別下拉式清單中的通話許可控制而拒絕通話]。 大部分的傳回呼叫可能會有 5 的診斷識別碼：
+若要取得因頻寬不足而失敗的來電清單，請在 [呼叫類別] 下拉式清單中，選取 [通話許可控制拒絕的來電]。 大多數傳回的呼叫可能會有5個診斷識別碼：
 
-若要建立工作階段的頻寬不足。 嘗試 PSTN 重新路由傳送。
+沒有足夠的頻寬來建立會話。 嘗試 PSTN 重新路由傳送。
 
-這表示該通話許可控制限制所導致無法從 VoIP 網路上進行呼叫。
+這表示通話許可控制限制阻礙在 VoIP 網路上進行呼叫。
 
 </div>
 
@@ -67,9 +69,9 @@ _**主題上次修改日期：** 2012年-06-29_
 
 ## <a name="filters"></a>篩選
 
-篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。 例如，通話許可控制報告可讓您篩選由撥打通話之使用者或已被呼叫使用者的呼叫。 您也可以選擇資料的分組方式。 在這種情況下，通話會按照小時、日、星期或月而加以分組。
+篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。 例如，通話許可控制報告可讓您篩選撥打通話之使用者的電話，或由呼叫的使用者來篩選來電。 您也可以選擇資料的分組方式。 在這種情況下，通話會按照小時、日、星期或月而加以分組。
 
-下表列出您可以搭配通話許可控制報告的篩選器。
+下表列出您可以搭配通話許可控制報告使用的篩選器。
 
 ### <a name="call-admission-control-report-filters"></a>通話許可控制報告篩選器
 
@@ -92,7 +94,7 @@ _**主題上次修改日期：** 2012年-06-29_
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
 <p>7/17/12012</p>
 <p>若要按星期或月份查看，請輸入當週或該月您想查看的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/13</p>
+<p>7/13/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -102,29 +104,29 @@ _**主題上次修改日期：** 2012年-06-29_
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
 <p>7/17/12012</p>
 <p>若要按星期或月份查看，請輸入當週或該月您想查看的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/13</p>
+<p>7/13/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部]<strong></strong> 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>活動類型</strong></p></td>
-<td><p>活動的類型。 選取下列其中一個下列活動：</p>
+<td><p>活動的類型。 選取下列其中一個活動：</p>
 <ul>
-<li><p>[全部]</p></li>
-<li><p>端對端</p></li>
+<li><p>一切</p></li>
+<li><p>Peer-to-Peer</p></li>
 <li><p>會議</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>通話類別</strong></p></td>
-<td><p>會指出 CAC 已用於通話的原因。 請選取下列其中一項：</p>
+<td><p>指出用於通話的 CAC 的原因。 請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
+<li><p>一切</p></li>
 <li><p>因通話許可控制而拒絕通話</p></li>
-<li><p>因通話許可控制而透過 PSTN 重新路由</p></li>
+<li><p>通話透過 PSTN 重新路由傳送，因為通話許可控制</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -135,11 +137,11 @@ _**主題上次修改日期：** 2012年-06-29_
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a>端對端工作階段的計量
+## <a name="metrics-for-peer-to-peer-sessions"></a>Peer-to-Peer 會話的計量
 
-下表列出對等端對端工作階段 （也就是工作階段只有兩個參與者） 通話許可控制報告內所提供的資訊。
+下表列出點對點工作階段的通話許可控制報告中所提供的資訊 (也就是說，只涉及兩位參與者的會話) 。
 
-### <a name="metrics-for-peer-to-peer-sessions"></a>端對端工作階段的計量
+### <a name="metrics-for-peer-to-peer-sessions"></a>Peer-to-Peer 會話的計量
 
 <table>
 <colgroup>
@@ -149,16 +151,16 @@ _**主題上次修改日期：** 2012年-06-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Detail</strong></p></td>
 <td><p>否</p></td>
-<td><p>當您按一下此項目時，報告顯示您對等工作階段詳細資料報告的指定的工作階段。</p></td>
+<td><p>當您按一下此專案時，報告會顯示指定之會話的 Peer-to-Peer 會話詳細資料包告。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>來源使用者</strong></p></td>
@@ -168,27 +170,27 @@ _**主題上次修改日期：** 2012年-06-29_
 <tr class="odd">
 <td><p><strong>目標使用者</strong></p></td>
 <td><p>是</p></td>
-<td><p>獲邀加入工作階段之使用者的 SIP 位址。</p></td>
+<td><p>獲邀加入會話之使用者的 SIP 位址。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>形式</strong></p></td>
+<td><p><strong>方式</strong></p></td>
 <td><p>是</p></td>
-<td><p>溝通形式 （如音訊或視訊） 工作階段期間所用。</p></td>
+<td><p>通訊形式 (例如在會話期間使用的音訊和影片) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>邀請時間</strong></p></td>
 <td><p>是</p></td>
-<td><p>日期和時間初始工作階段邀請傳送至 「 從 」 使用者。</p></td>
+<td><p>初始會話邀請傳送給寄件者的日期和時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>回應時間</strong></p></td>
 <td><p>是</p></td>
-<td><p>日期和時間收到的邀請接受度。</p></td>
+<td><p>收到邀請接受的日期和時間。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>結束時間</strong></p></td>
 <td><p>是</p></td>
-<td><p>日期和工作階段結束的時間。</p></td>
+<td><p>會話結束的日期和時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>診斷識別碼</strong></p></td>
@@ -203,11 +205,11 @@ _**主題上次修改日期：** 2012年-06-29_
 
 <div>
 
-## <a name="metrics-for-conferencing-sessions"></a>會議工作階段的計量
+## <a name="metrics-for-conferencing-sessions"></a>會議會話的計量
 
-下表列出會議工作階段 （也就是參與者的工作階段三個或多個） 的通話許可控制報告內所提供的資訊。
+下表列出會議會話的通話許可控制報告中所提供的資訊 (也就是說，涉及三個或更多參與者) 的會話。
 
-### <a name="metrics-for-conferencing-sessions"></a>會議工作階段的計量
+### <a name="metrics-for-conferencing-sessions"></a>會議會話的計量
 
 <table>
 <colgroup>
@@ -217,16 +219,16 @@ _**主題上次修改日期：** 2012年-06-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>會議 URI</strong></p></td>
 <td><p>是</p></td>
-<td><p>會議的唯一識別碼。 當您按一下此項目時，「 報告 」 顯示個別參與者。</p></td>
+<td><p>會議的唯一識別碼。 當您按一下此專案時，報表會顯示個別的會議參與者。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>召集人</strong></p></td>
@@ -234,9 +236,9 @@ _**主題上次修改日期：** 2012年-06-29_
 <td><p>召開會議之使用者的 SIP 位址。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>是</p></td>
-<td><p>會議中使用的 edge Server。</p></td>
+<td><p>會議中所使用的 Edge Server。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>開始時間</strong></p></td>
@@ -258,7 +260,7 @@ _**主題上次修改日期：** 2012年-06-29_
 
 ## <a name="metrics-for-individual-conference-participants"></a>個別會議參與者的計量
 
-下表列出個別參與者的通話許可控制報告內所提供的資訊。
+下表列出個別會議參與者通話許可控制報告中提供的資訊。
 
 ### <a name="metrics-for-individual-conference-participants"></a>個別會議參與者的計量
 
@@ -270,14 +272,14 @@ _**主題上次修改日期：** 2012年-06-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>角色</strong></p></td>
+<td><p><strong>Role</strong></p></td>
 <td><p>否</p></td>
 <td><p>會議參與者所扮演的角色 (例如，簡報者)。</p></td>
 </tr>
@@ -292,9 +294,9 @@ _**主題上次修改日期：** 2012年-06-29_
 <td><p>參與者的網路連線 (一般來說是從內部或從外部)。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>形式</strong></p></td>
+<td><p><strong>形態</strong></p></td>
 <td><p>否</p></td>
-<td><p>會議類型 (例如，A / V 會議)。</p></td>
+<td><p>會議類型 (例如，A/V 會議) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>加入時間</strong></p></td>

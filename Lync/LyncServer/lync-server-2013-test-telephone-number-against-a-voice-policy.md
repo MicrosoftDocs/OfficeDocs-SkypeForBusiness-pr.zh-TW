@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 測試的語音原則針對電話號碼
+title: Lync Server 2013：對照語音原則測試電話號碼
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d22c801c7d08c3df663f69df07a6c73a5f17f858
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2ac10938dbbc2810e5b43aae85711bf8413ad27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194519"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519160"
 ---
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>在 Lync Server 2013 中對照語音原則測試電話號碼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>針對 Lync Server 2013 中的語音原則測試電話號碼
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42194519"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-05-20 個_
+_**主題上次修改日期：** 2014-05-20_
 
 
 <table>
@@ -49,13 +51,13 @@ _**上次修改主題：** 2014年-05-20 個_
 <td><p>每月</p></td>
 </tr>
 <tr class="even">
-<td><p>測試工具</p></td>
+<td><p>測試控管</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>必要的權限</p></td>
-<td><p>當執行在本機上使用 Lync Server 管理命令介面，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>當執行使用 Windows PowerShell 的遠端執行個體時，使用者必須被指派具有可執行此測試 CsVoicePolicy cmdlet 的權限的 RBAC 角色。 若要查看可以使用此 cmdlet 的所有 RBAC 角色的清單，請在 Windows PowerShell 命令提示執行下列命令：</p>
+<td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
+<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsVoicePolicy Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoicePolicy&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,19 +66,19 @@ _**上次修改主題：** 2014年-05-20 個_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-Enterprise Voice 使用者能夠透過公用交換電話網路 (PSTN) 撥出電話電話取決，在大型組件，下列三個動作：
+企業語音使用者透過公用交換電話網路撥打撥出電話的能力 (PSTN) 樞，在很大的情況下，有三種情況：
 
   - 指派給使用者的語音原則。
 
-  - 從 Lync 伺服器用來將通話路由傳送至 PSTN 網路的語音路由。
+  - 用於將呼叫從 Lync Server 路由傳送至 PSTN 網路的語音路由。
 
-  - PSTN 使用方式中，按一下 [連線到語音路由的語音原則的 Lync Server 屬性。
+  - PSTN 使用方式，即將語音原則連線至語音路由的 Lync Server 屬性。
 
-PSTN 使用方式，請務必特別是： 它是連線到語音路由的語音原則的屬性。 （語音原則和語音路由稱為有至少一個 PSTN 使用方式共通連接。）可以設定語音原則，但未指定 PSTN 使用方式。 在此情況下，被指派該原則的使用者將無法透過 PSTN 網路撥出電話。 同樣地，語音路由，不需要至少一個指定的 PSTN 使用方式將無法將通話路由傳送至 PSTN 網路。
+PSTN 使用方式尤為重要：它是將語音原則連線到語音路由的屬性。  (語音原則和語音路由稱為已連接，但其共有至少一個 PSTN 使用情形。 ) 語音原則可以設定，但不指定 PSTN 使用方式。 在此情況下，已獲指派該原則的使用者將無法透過 PSTN 網路撥出電話。 同樣地，沒有至少一個指定 PSTN 使用方式的語音路由，也無法將通話路由傳送至 PSTN 網路。
 
-測試 CsVoicePolicy cmdlet 會驗證指定的語音原則有 PSTN 使用方式和流量由至少一個語音路由共用。 如果驗證執行測試 CsVoicePolicy 成功，cmdlet 會回報它找到的第一個有效的語音路由的名稱以及 PSTN 使用方式路由所連線之原則的名稱。
+Test-CsVoicePolicy Cmdlet 會驗證指定的語音原則是否有 PSTN 使用狀況，以及其使用方式是否至少由一個語音路由所共用。 如果 Test-CsVoicePolicy 成功執行驗證，指令程式會傳回找到的第一個有效語音路由的名稱，也會傳回將原則連接至路由的 PSTN 使用名稱。
 
 </div>
 
@@ -84,21 +86,21 @@ PSTN 使用方式，請務必特別是： 它是連線到語音路由的語音�
 
 ## <a name="running-the-test"></a>執行測試
 
-若要執行測試 CsVoicePolicy 指令程式，您必須先使用 Get-csvoicepolicy cmdlet 擷取執行個體要測試; 的語音原則該執行個體必須接著會以管線傳輸至測試 CsVoicePolicy。 例如：
+若要執行 Test-CsVoicePolicy 指令程式，您必須先使用 Get-CsVoicePolicy Cmdlet，以找回要測試之語音原則的實例;然後，必須將該實例管線傳送至 Test-Set-csvoicepolicy。 例如：
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-請注意，此命令，它不會使用 Get-csvoicepolicy 擷取語音原則執行個體，將會失敗：
+請注意，此命令不會使用 Get-CsVoicePolicy 來取得語音原則實例，否則會失敗：
 
 `Test-CsVoicePolicy -TargetNumber "+12065551219" -VoicePolicy "Global"`
 
-如果您想要檢查針對指定的電話號碼的所有語音原則，然後使用類似如下的命令：
+如果您想要根據指定的電話號碼檢查所有語音原則，請使用類似下列的命令：
 
 `Get-CsVoicePolicy | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-請注意，必須使用 E.164 格式來指定 TargetNumber。 測試 CsVoicePolicy 不會嘗試正規化的需求，或將電話號碼轉譯成 E.164 格式。
+請注意，必須使用 e.164 格式來指定 TargetNumber。 Test-CsVoicePolicy 不會嘗試將電話號碼正常化或轉譯為 e.164 格式。
 
-如需詳細資訊，請參閱 < 測試 CsVoicePolicy cmdlet 的說明 」 文件。
+如需詳細資訊，請參閱 Test-CsVoicePolicy Cmdlet 的說明文件。
 
 </div>
 
@@ -106,7 +108,7 @@ PSTN 使用方式，請務必特別是： 它是連線到語音路由的語音�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果語音原則可以找到相符的語音路由和相符的 PSTN 使用方式，然後將螢幕上顯示的路由與用法：
+若語音原則可以找到相符的語音路由和相符的 PSTN 使用，則會在螢幕上顯示路由和使用狀況：
 
 FirstMatchingRoute MatchingUsage
 
@@ -114,7 +116,7 @@ FirstMatchingRoute MatchingUsage
 
 RedmondVoiceRoute RedmondPstnUsage
 
-如果適當的語音路由或適當的 PSTN 使用方式找不到然後空白將螢幕上顯示屬性值：
+如果找不到適當的語音路由或適當的 PSTN 使用方式，將會在螢幕上顯示空白的屬性值：
 
 FirstMatchingRoute MatchingUsage
 
@@ -124,17 +126,17 @@ FirstMatchingRoute MatchingUsage
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>測試可能有為何失敗的原因
+## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
 
-如果測試 CsVoicePolicy 不會傳回表示的比對的語音原則不共用 PSTN 使用方式與語音路由。 若要確認，請使用類似下列的指令程式來驗證 PSTN 使用方式指派給語音原則：
+如果 Test-CsVoicePolicy 未傳回可能表示語音原則與語音路由不共用 PSTN 使用狀況的相符。 若要驗證，請使用類似下列的指令程式，以驗證指派給語音原則的 PSTN 使用方式：
 
 `Get-CsVoicePolicy -Identity "Global" | Select-Object PstnUsages | Format-List`
 
-接著，執行此命令，以決定 PSTN 使用方式將指派給每個語音路由：
+接下來，執行此命令以判斷 PSTN 使用方式指派給每個語音路由：
 
 `Get-CsVoiceRoute | Select-Object Identity, PstnUsages`
 
-如果您看到任何符合項目 （亦即，如果您看到您的語音原則和共用至少一個 PSTN 使用方式的一或多個語音路由），您應該再執行測試 CsVoiceRoute cmdlet 確認語音路由可以撥號對應表提供的電話號碼。
+如果您看到任何相符 (，也就是，如果您看到一或多個語音路由，其至少共用一個 PSTN 使用方式與您的語音原則) ，則應該執行 Test-CsVoiceRoute Cmdlet，以確認語音路由可以撥打所提供的電話號碼。
 
 </div>
 
@@ -143,7 +145,7 @@ FirstMatchingRoute MatchingUsage
 ## <a name="see-also"></a>另請參閱
 
 
-[測試 CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsVoicePolicy)  
+[測試-Set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsVoicePolicy)  
   
 
 </div>

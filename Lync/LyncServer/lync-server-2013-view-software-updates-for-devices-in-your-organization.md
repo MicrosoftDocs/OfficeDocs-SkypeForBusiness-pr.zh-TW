@@ -12,20 +12,22 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce1940f92860d5ccd2d66c53a0a4da16cebada24
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3141f08e7973b123b8c8ee0fe9b9c3c93c8e752
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518400"
 ---
+# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>在 Lync Server 2013 中查看裝置的軟體更新
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>在 Lync Server 2013 中查看裝置的軟體更新
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211359"
 
 _**主題上次修改日期：** 2012-11-01_
 
-使用 Lync Server 2013，您可以使用裝置更新 Web 服務來查看及管理組織裝置的軟體更新。 您可以從 Microsoft 支援網站的 .cab (機櫃) 檔案中取得這些更新 [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091) 。 下載 .cab 檔案之後，請執行**Import-CSDeviceUpdate** Cmdlet 以從 .cab 檔案匯入裝置更新規則。 如需**Import-CSDeviceUpdate** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的[Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 。
+使用 Lync Server 2013，您可以使用裝置更新 Web 服務來查看及管理組織裝置的軟體更新。 您可以從 Microsoft 支援網站的 .cab (機櫃) 檔案中取得這些更新 [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091) 。 下載 .cab 檔案之後，請執行 **Import-CSDeviceUpdate** Cmdlet 以從 .cab 檔案匯入裝置更新規則。 如需 **Import-CSDeviceUpdate** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 。
 
 <div>
 
@@ -67,17 +69,17 @@ _**主題上次修改日期：** 2012-11-01_
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-3 -ByteInput C:\Updates\UCUpdates.cab
 
-4.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+4.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-5.  在左導覽列中，按一下 [**用戶端**]，然後按一下 [**裝置更新**]。
+5.  在左導覽列中，按一下 [ **用戶端**]，然後按一下 [ **裝置更新**]。
 
-6.  在 [**裝置更新**] 頁面上，按一下清單中的更新，然後執行下列其中一項操作：
+6.  在 [ **裝置更新** ] 頁面上，按一下清單中的更新，然後執行下列其中一項操作：
     
-      - **取消暫止的更新。** 若要防止選取的更新部署至您組織的裝置，請按一下 [**動作**] 功能表，然後按一下 [**解除擱置的更新**]。
+      - **取消暫止的更新。** 若要防止選取的更新部署至您組織的裝置，請按一下 [ **動作** ] 功能表，然後按一下 [ **解除擱置的更新**]。
     
-      - **核准更新。** 若要允許選取的更新部署至您組織的裝置，請按一下 [**動作**] 功能表，然後按一下 [**核准**]。
+      - **核准更新。** 若要允許選取的更新部署至您組織的裝置，請按一下 [ **動作** ] 功能表，然後按一下 [ **核准**]。
     
-      - **還原更新。** 若要允許先前核准的更新部署至您組織的裝置，請按一下 [**動作**] 功能表，然後按一下 [**還原**]。
+      - **還原更新。** 若要允許先前核准的更新部署至您組織的裝置，請按一下 [ **動作** ] 功能表，然後按一下 [ **還原**]。
 
 </div>
 
