@@ -1,5 +1,6 @@
 ---
 title: 規劃 Lync Server 和 Office 通訊伺服器同盟
+description: 規劃 Lync Server 和 Office 通訊伺服器同盟。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 801237e4390cd81ac634a928f4963be1c930d01e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5d7385b8fde27446fb0648802544a8840a0f6276
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522020"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552369"
 ---
 # <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>規劃 Lync Server 2013 和 Office 通訊伺服器同盟
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：建立新的 Web 服務設定
+description: Lync Server 2013：建立新的 Web 服務設定。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d44e86ad1d587bd3dddb921cdeea3ed2a65ea26
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc66b0c8f394260fbe30e444f800640c774b6bcf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515570"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553959"
 ---
 # <a name="create-new-web-service-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中建立新的 Web 服務設定
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：啟用或停用電話撥入式會議
+description: Lync Server 2013：針對會議啟用或停用電話撥入式會議。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d23187c76a0e8711340f68e75a422a20ea7588
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3caa7b8cee14ca8471e7b7e42af7f7398e3b6c2d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532100"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552442"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a>在 Lync Server 2013 中啟用或停用電話撥入式會議
 
