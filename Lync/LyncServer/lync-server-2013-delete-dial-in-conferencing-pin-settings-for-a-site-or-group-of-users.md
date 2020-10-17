@@ -1,5 +1,6 @@
 ---
 title: 刪除網站或使用者群組的電話撥入式會議 PIN 設定
+description: 刪除網站或使用者群組的電話撥入式會議 PIN 設定。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c217f86d9f453199ce55571bf2d2b674e7f0ff93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a40168780d5ac5f37ceb33dfaacd25b492d6307a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525590"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564249"
 ---
 # <a name="delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users-in-lync-server-2013"></a>在 Lync Server 2013 中刪除網站或使用者群組的電話撥入式會議 PIN 設定
 

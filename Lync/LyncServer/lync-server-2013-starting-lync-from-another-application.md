@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：從其他應用程式啟動 Lync
+description: Lync Server 2013：從其他應用程式啟動 Lync。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d10e70615083796baa0934c6291b377dcd18005
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fd64b8b9f335638b54a0bf6473b5d159c97a0e7f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519510"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562699"
 ---
 # <a name="starting-lync-from-another-application"></a>從另一個應用程式啟動 Lync
 

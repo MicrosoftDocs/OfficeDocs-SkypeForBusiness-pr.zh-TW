@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：指派每個使用者的 PIN 原則
+description: Lync Server 2013：指派每個使用者的 PIN 原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 889fbc962654edbd7b6d13523fc5dc43dc426de2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6b1148a015ba9b2c173f6e23ceeb4d3b37c6ac55
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134399"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563589"
 ---
 # <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a>在 Lync Server 2013 中指派每個使用者的 PIN 原則
 
@@ -30,13 +31,13 @@ ms.locfileid: "42134399"
 
 在建立至少一個個別使用者 PIN 原則之後，請使用本主題中的程式來指派原則，以指定您想要讓伺服器強加于特定使用者所建立及使用之 Pin 的限制。
 
-如需建立個別使用者電話撥入式會議 PIN 原則的詳細資訊，請參閱[在 Lync Server 2013 中建立或修改電話撥入式會議 pin 設定（適用于網站或使用者群組](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)）。
+如需建立個別使用者電話撥入式會議 PIN 原則的詳細資訊，請參閱 [在 Lync Server 2013 中建立或修改電話撥入式會議 pin 設定（適用于網站或使用者群組](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)）。
 
 ## <a name="to-assign-a-per-user-pin-policy"></a>若要指派每個使用者的 PIN 原則
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[使用者]**。
 
@@ -67,11 +68,11 @@ ms.locfileid: "42134399"
     
 
     > [!TIP]  
-    > 如果您要將相同的個別使用者 PIN 原則套用至多位使用者，請在搜尋結果中選取多位使用者，然後按一下 [<STRONG>動作</STRONG>]，再按一下 [<STRONG>指派原則</STRONG>]。
+    > 如果您要將相同的個別使用者 PIN 原則套用至多位使用者，請在搜尋結果中選取多位使用者，然後按一下 [ <STRONG>動作</STRONG>]，再按一下 [ <STRONG>指派原則</STRONG>]。
 
 
 
-7.  在 [**指派原則**] 的 [ **PIN 原則**] 底下，執行下列其中一項動作：
+7.  在 [ **指派原則**] 的 [ **PIN 原則**] 底下，執行下列其中一項動作：
     
 
     > [!NOTE]  
@@ -80,7 +81,7 @@ ms.locfileid: "42134399"
     
       - 允許 Lync Server 2013 自動選擇全域層級原則，或網站層級原則（如果已定義）。
     
-      - 按一下您先前在 [ **PIN 原則**] 頁面上定義之個別使用者 PIN 原則的名稱。
+      - 按一下您先前在 [ **PIN 原則** ] 頁面上定義之個別使用者 PIN 原則的名稱。
         
 
         > [!TIP]  
@@ -92,7 +93,7 @@ ms.locfileid: "42134399"
 
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派 Per-User PIN 原則
 
-您可以使用 Windows PowerShell 和**get-cspinpolicy 指令程式**指派每個使用者的 PIN 原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+您可以使用 Windows PowerShell 和 **get-cspinpolicy 指令程式** 指派每個使用者的 PIN 原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 ## <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>將每一使用者 PIN 原則指派給單一使用者
 
@@ -102,7 +103,7 @@ ms.locfileid: "42134399"
 
 ## <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>將每一使用者 PIN 原則指派給多個使用者
 
-  - 下列命令會將個別使用者 PIN 原則 RedmondUsersPinPolicy 指派給 Redmond 的城市中所有工作的使用者。 如需此命令中使用之 LdapFilter 參數的詳細資訊，請參閱[Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))。
+  - 下列命令會將個別使用者 PIN 原則 RedmondUsersPinPolicy 指派給 Redmond 的城市中所有工作的使用者。 如需此命令中使用之 LdapFilter 參數的詳細資訊，請參閱 [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))。
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -112,7 +113,7 @@ ms.locfileid: "42134399"
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-如需詳細資訊，請參閱[授與 get-cspinpolicy](https://technet.microsoft.com/library/gg398871\(v=ocs.15\))。
+如需詳細資訊，請參閱 [授與 get-cspinpolicy](https://technet.microsoft.com/library/gg398871\(v=ocs.15\))。
 
 ## <a name="see-also"></a>另請參閱
 

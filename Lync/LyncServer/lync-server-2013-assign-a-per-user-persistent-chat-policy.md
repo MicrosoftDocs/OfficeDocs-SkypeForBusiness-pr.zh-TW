@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：指派每位使用者的持續性聊天原則
+description: Lync Server 2013：指派每位使用者的持續性聊天原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,25 +13,25 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e06d6c7403bd348b44c6ab36216ed7ee9a1c6d02
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 637f1947fff7f4e919e5f9c252c047b2d0e60392
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134409"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563599"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>在 Lync Server 2013 中指派每一使用者的持續性聊天原則
 
  
 
 
-您可以以 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面指派每個使用者的持續聊天原則。 如需建立 Persistent Chat Server 使用者原則的詳細資訊，請參閱[Create a user policy For Persistent chat In Lync server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)。
+您可以以 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面指派每個使用者的持續聊天原則。 如需建立 Persistent Chat Server 使用者原則的詳細資訊，請參閱 [Create a user policy For Persistent chat In Lync server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)。
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-with-lync-server-control-panel"></a>使用 Lync Server 控制台指派每位使用者的持續聊天原則
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[使用者]**。
 
@@ -61,20 +62,20 @@ ms.locfileid: "42134409"
     
 
     > [!TIP]  
-    > 如果您要將相同的個別使用者持久聊天原則套用至多位使用者，請在搜尋結果中選取多位使用者，然後按一下 [<STRONG>動作</STRONG>]，再按一下 [<STRONG>指派原則</STRONG>]。
+    > 如果您要將相同的個別使用者持久聊天原則套用至多位使用者，請在搜尋結果中選取多位使用者，然後按一下 [ <STRONG>動作</STRONG>]，再按一下 [ <STRONG>指派原則</STRONG>]。
 
 
 
-7.  在 [**指派原則**] 的 [ **Persistent Chat policy**] 底下，執行下列其中一項動作：
+7.  在 [ **指派原則**] 的 [ **Persistent Chat policy**] 底下，執行下列其中一項動作：
     
 
     > [!NOTE]  
     > 因為有多種可使用 [<STRONG>指派原則</STRONG>] 對話方塊進行設定的原則，所以對話方塊中的每個原則預設會選取 [ <STRONG> &lt; &gt; 保留</STRONG>為]。 不變更此設定，即可繼續沿用先前指派給使用者的原則。
 
     
-      - 選取 [ ** \< 自動 \> ** ] 以允許 Lync Server 2013 自動選擇全域層級原則，或網站層級原則（如果已定義）。
+      - 選取 **\<Automatic\>** 此項可讓 Lync Server 2013 自動選擇全域層級原則或網站層級原則（如果已定義）。
     
-      - 按一下您先前在 [**持續性聊天原則**] 頁面上定義之個別使用者持續性聊天原則的名稱。
+      - 按一下您先前在 [ **持續性聊天原則** ] 頁面上定義之個別使用者持續性聊天原則的名稱。
         
 
         > [!TIP]  
@@ -86,7 +87,7 @@ ms.locfileid: "42134409"
 
 ## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派 Per-User 持續性聊天原則
 
-您也可以使用**Grant-CsPersistentChatPolicy** Cmdlet 指派每位使用者的持續性聊天原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+您也可以使用 **Grant-CsPersistentChatPolicy** Cmdlet 指派每位使用者的持續性聊天原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>將每一使用者的持續聊天原則指派給單一使用者
 
@@ -96,7 +97,7 @@ ms.locfileid: "42134409"
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-multiple-users"></a>將每一使用者的持續聊天原則指派給多個使用者
 
-  - 這個命令會將個別使用者的 Persistent 聊天原則 RedmondUsersPersistentChatPolicy 指派給所有為 IT 部門工作的使用者。 如需此命令中所用 LdapFilter 參數的詳細資訊，請參閱[Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。
+  - 這個命令會將個別使用者的 Persistent 聊天原則 RedmondUsersPersistentChatPolicy 指派給所有為 IT 部門工作的使用者。 如需此命令中所用 LdapFilter 參數的詳細資訊，請參閱 [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -106,7 +107,7 @@ ms.locfileid: "42134409"
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-如需詳細資訊，請參閱[Grant-CsPersistentChatPolicy](https://technet.microsoft.com/library/jj204907\(v=ocs.15\)) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Grant-CsPersistentChatPolicy](https://technet.microsoft.com/library/jj204907\(v=ocs.15\)) Cmdlet 的 [說明] 主題。
 
 ## <a name="see-also"></a>另請參閱
 

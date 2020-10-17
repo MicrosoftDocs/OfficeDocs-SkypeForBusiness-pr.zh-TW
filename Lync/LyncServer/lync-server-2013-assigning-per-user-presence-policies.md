@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：指派每個使用者的目前狀態原則
+description: Lync Server 2013：指派每個使用者的目前狀態原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4f561189b72cf19fad28879711e3a1da0da8fb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c3d4b4bda0c4bb85065d546fdbb4b2578db0e3f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527120"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563369"
 ---
 # <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>在 Lync Server 2013 中指派每一使用者的目前狀態原則
 

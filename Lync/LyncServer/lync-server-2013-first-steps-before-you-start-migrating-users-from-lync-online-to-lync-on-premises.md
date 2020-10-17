@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：開始將使用者從 Lync Online 遷移至 Lync 內部部署之前的第一個步驟
+description: Lync Server 2013：開始將使用者從 Lync Online 遷移至 Lync 內部部署之前的第一步。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8065d1c09ab48b1b3a874fd11d7f8fcad298bfcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 408820e461c0a9f7c0beaaaae3a502802048d3f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500840"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564199"
 ---
 # <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>在 Lync Server 2013 中開始將使用者從 Lync Online 遷移至 Lync 內部部署之前的第一個步驟
 

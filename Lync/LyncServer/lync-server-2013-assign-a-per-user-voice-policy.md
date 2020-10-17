@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：指派每位使用者的語音原則
+description: Lync Server 2013：指派每位使用者的語音原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: e7ea0b171e10302b4c466187c54324cc2548e821
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943926"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563559"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>在 Lync Server 2013 中指派每位使用者的語音原則
 
@@ -30,7 +31,7 @@ ms.locfileid: "44943926"
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[使用者]**，然後搜尋想要設定的使用者帳戶。
 
@@ -46,7 +47,7 @@ ms.locfileid: "44943926"
 
 ## <a name="assign-per-user-voice-policies"></a>指派每位使用者的語音原則
 
-您可以使用 Windows PowerShell 和**Grant-CsVoicePolicy** Cmdlet 指派每位使用者的語音原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 若要瞭解如何使用遠端 Windows PowerShell 連接至 Lync Server，請閱讀此 Lync Server Windows PowerShell 博客文章：[快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)。
+您可以使用 Windows PowerShell 和 **Grant-CsVoicePolicy** Cmdlet 指派每位使用者的語音原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 若要瞭解如何使用遠端 Windows PowerShell 連接至 Lync Server，請閱讀此 Lync Server Windows PowerShell 博客文章： [快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)。
 
 ### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>將每一使用者語音原則指派給單一使用者
 
@@ -56,7 +57,7 @@ ms.locfileid: "44943926"
 
 ## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>將每一使用者語音原則指派給多位使用者
 
-  - 這個命令會將個別使用者的語音原則 FinanceVoicePolicy 指派給在 Active Directory 之財務 OU 中具有帳戶的所有使用者。 如需此命令中所使用之 OU 參數的詳細資訊，請參閱[Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。
+  - 這個命令會將個別使用者的語音原則 FinanceVoicePolicy 指派給在 Active Directory 之財務 OU 中具有帳戶的所有使用者。 如需此命令中所使用之 OU 參數的詳細資訊，請參閱 [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -66,7 +67,7 @@ ms.locfileid: "44943926"
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-如需詳細資訊，請參閱[Grant-CsVoicePolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\)) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Grant-CsVoicePolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\)) Cmdlet 的 [說明] 主題。
 
 ## <a name="see-also"></a>另請參閱
 

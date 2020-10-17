@@ -1,5 +1,6 @@
 ---
 title: 階段9：完成遷移後工作
+description: 階段9：完成遷移後工作。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33e4b97e0290ef14acda9201bb25897d7a517113
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1448f2ca399fdd31f914a55d2940f41624a9794e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532810"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563739"
 ---
 # <a name="phase-9-complete-post-migration-tasks"></a>階段9：完成遷移後工作
 
@@ -45,25 +46,25 @@ _**主題上次修改日期：** 2012-10-15_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [移轉回應群組](migrate-response-groups_1.md)
+  - [移轉回應群組](migrate-response-groups.md)
 
-  - [移轉撥入存取號碼](migrate-dial-in-access-numbers_1.md)
+  - [移轉撥入存取號碼](migrate-dial-in-access-numbers.md)
 
   - [啟用 Exchange 2013 Outlook Web App 與 IM 整合](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [移轉通訊錄](migrate-address-book_1.md)
+  - [移轉通訊錄](migrate-address-book.md)
 
   - [啟用遠端呼叫控制](enable-remote-call-control.md)
 
-  - [移除舊版封存和監控伺服器](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [移除舊版封存和監控伺服器](remove-legacy-archiving-and-monitoring-servers.md)
 
   - [移轉中繼伺服器](migrate-mediation-server.md)
 
-  - [設定信任的應用程式伺服器](configure-trusted-application-servers_1.md)
+  - [設定信任的應用程式伺服器](configure-trusted-application-servers.md)
 
-  - [設定會議加入頁面](configure-the-meeting-join-page_1.md)
+  - [設定會議加入頁面](configure-the-meeting-join-page.md)
 
-  - [部署 Lync Server 2013 用戶端](deploy-lync-server-2013-clients_1.md)
+  - [部署 Lync Server 2013 用戶端](deploy-lync-server-2013-clients.md)
 
   - [移動 Exchange 整合通訊連絡人物件](move-exchange-unified-messaging-contact-objects.md)
 
