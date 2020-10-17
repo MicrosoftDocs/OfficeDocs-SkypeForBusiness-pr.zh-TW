@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：作業檢查清單
+description: Lync Server 2013：作業檢查清單。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,37 +13,37 @@ ms:contentKeyID: 63969588
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13d3ddce01fb172aa03134a48c40cdd43573f369
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ce6fc8a17c4b661737d014b5d1abf20731e39d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755797"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565885"
 ---
-# <a name="operations-checklists-for-lync-server-2013"></a><span data-ttu-id="11323-102">Lync Server 2013 的作業檢查清單</span><span class="sxs-lookup"><span data-stu-id="11323-102">Operations checklists for Lync Server 2013</span></span> 
+# <a name="operations-checklists-for-lync-server-2013"></a><span data-ttu-id="08108-103">Lync Server 2013 的作業檢查清單</span><span class="sxs-lookup"><span data-stu-id="08108-103">Operations checklists for Lync Server 2013</span></span> 
 
 
-<span data-ttu-id="11323-103">_**主題上次修改日期：** 2019-06-03_</span><span class="sxs-lookup"><span data-stu-id="11323-103">_**Topic Last Modified:** 2019-06-03_</span></span>
+<span data-ttu-id="08108-104">_**主題上次修改日期：** 2019-06-03_</span><span class="sxs-lookup"><span data-stu-id="08108-104">_**Topic Last Modified:** 2019-06-03_</span></span>
 
-<span data-ttu-id="11323-104">此處所述的檢查清單適用于您的內部記錄，如有需要，您可以根據貴組織的需求加以變更。</span><span class="sxs-lookup"><span data-stu-id="11323-104">The checklists mentioned here are for your internal record keeping, and if necessary you can change them to meet your organization’s needs.</span></span>
-
-<br>
-
-## <a name="daily-task-checklist"></a><span data-ttu-id="11323-105">每日工作檢查清單</span><span class="sxs-lookup"><span data-stu-id="11323-105">Daily task checklist</span></span>
-
-<span data-ttu-id="11323-106">[每日工作] 檢查清單會顯示在這個[Excel 試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)中。</span><span class="sxs-lookup"><span data-stu-id="11323-106">The Daily Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true).</span></span>
+<span data-ttu-id="08108-105">此處所述的檢查清單是用於您的內部記錄，必要時您可以變更它們，以符合組織的需求。</span><span class="sxs-lookup"><span data-stu-id="08108-105">The checklists mentioned here are for your internal record keeping, and if necessary you can change them to meet your organization’s needs.</span></span>
 
 <br>
 
-## <a name="weekly-task-checklist"></a><span data-ttu-id="11323-107">每週任務檢查清單</span><span class="sxs-lookup"><span data-stu-id="11323-107">Weekly task checklist</span></span>
+## <a name="daily-task-checklist"></a><span data-ttu-id="08108-106">每日工作檢查清單</span><span class="sxs-lookup"><span data-stu-id="08108-106">Daily task checklist</span></span>
 
-<span data-ttu-id="11323-108">此[Excel 試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)中顯示每週任務檢查清單。</span><span class="sxs-lookup"><span data-stu-id="11323-108">The Weekly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).</span></span>
+<span data-ttu-id="08108-107">這個 [Excel 試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)會顯示每日工作檢查清單。</span><span class="sxs-lookup"><span data-stu-id="08108-107">The Daily Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true).</span></span>
+
+<br>
+
+## <a name="weekly-task-checklist"></a><span data-ttu-id="08108-108">每週任務檢查清單</span><span class="sxs-lookup"><span data-stu-id="08108-108">Weekly task checklist</span></span>
+
+<span data-ttu-id="08108-109">此 [Excel 試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)中會顯示每週任務檢查清單。</span><span class="sxs-lookup"><span data-stu-id="08108-109">The Weekly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).</span></span>
 
 
 <br>
 
-## <a name="monthly-task-checklist"></a><span data-ttu-id="11323-109">每月任務檢查清單</span><span class="sxs-lookup"><span data-stu-id="11323-109">Monthly task checklist</span></span>
+## <a name="monthly-task-checklist"></a><span data-ttu-id="08108-110">每月任務檢查清單</span><span class="sxs-lookup"><span data-stu-id="08108-110">Monthly task checklist</span></span>
 
 
-<span data-ttu-id="11323-110">此[Excel 試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)中顯示每月任務檢查清單。</span><span class="sxs-lookup"><span data-stu-id="11323-110">The Monthly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true).</span></span>
+<span data-ttu-id="08108-111">這個 [Excel 試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)會顯示每月任務檢查清單。</span><span class="sxs-lookup"><span data-stu-id="08108-111">The Monthly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true).</span></span>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013：行動電話 (原則/推播通知) '
+description: Lync Server 2013：行動電話 (原則/推播通知) 。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dc176adef1f08e54ec0fa56aa55ad16ead0a3b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f29f96c75abb8f510a1265daa3ec88a5d061ad7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505660"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564599"
 ---
-# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a><span data-ttu-id="40ec6-102">Lync Server 2013 中的行動電話 (原則/推播通知) </span><span class="sxs-lookup"><span data-stu-id="40ec6-102">Mobile phones (policy/push notification) in Lync Server 2013</span></span>
+# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a><span data-ttu-id="61ac9-103">Lync Server 2013 中的行動電話 (原則/推播通知) </span><span class="sxs-lookup"><span data-stu-id="61ac9-103">Mobile phones (policy/push notification) in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48505660"
 
 <span> </span>
 
-<span data-ttu-id="40ec6-103">_**主題上次修改日期：** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="40ec6-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="61ac9-104">_**主題上次修改日期：** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="61ac9-104">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="40ec6-104">您可以從 Lync Server 2013 控制台的 [ **用戶端** ] 區段中，設定 [lync server 2013] 的行動原則及推播通知。</span><span class="sxs-lookup"><span data-stu-id="40ec6-104">You can configure mobility policies and push notifications for Lync Server 2013 from the **Clients** section of Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="40ec6-105">使用本節中的程序可進行行動電話設定。</span><span class="sxs-lookup"><span data-stu-id="40ec6-105">Use the procedures in this section to configure your mobile phone settings.</span></span>
+<span data-ttu-id="61ac9-105">您可以從 Lync Server 2013 控制台的 [ **用戶端** ] 區段中，設定 [lync server 2013] 的行動原則及推播通知。</span><span class="sxs-lookup"><span data-stu-id="61ac9-105">You can configure mobility policies and push notifications for Lync Server 2013 from the **Clients** section of Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="61ac9-106">使用本節中的程序可進行行動電話設定。</span><span class="sxs-lookup"><span data-stu-id="61ac9-106">Use the procedures in this section to configure your mobile phone settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="40ec6-106">本章節內容</span><span class="sxs-lookup"><span data-stu-id="40ec6-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="61ac9-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="61ac9-107">In This Section</span></span>
 
-  - [<span data-ttu-id="40ec6-107">Lync Server 2013 中的行動原則</span><span class="sxs-lookup"><span data-stu-id="40ec6-107">Mobility policies in Lync Server 2013</span></span>](lync-server-2013-mobility-policies.md)
+  - [<span data-ttu-id="61ac9-108">Lync Server 2013 中的行動原則</span><span class="sxs-lookup"><span data-stu-id="61ac9-108">Mobility policies in Lync Server 2013</span></span>](lync-server-2013-mobility-policies.md)
 
-  - [<span data-ttu-id="40ec6-108">在 Lync Server 2013 中推播通知</span><span class="sxs-lookup"><span data-stu-id="40ec6-108">Push notifications in Lync Server 2013</span></span>](lync-server-2013-push-notifications.md)
+  - [<span data-ttu-id="61ac9-109">在 Lync Server 2013 中推播通知</span><span class="sxs-lookup"><span data-stu-id="61ac9-109">Push notifications in Lync Server 2013</span></span>](lync-server-2013-push-notifications.md)
 
 </div>
 
