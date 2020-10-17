@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 重設或刪除外部使用者存取原則
+title: Lync Server 2013：重設或刪除外部使用者存取原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1de7dc52331a384131d6d88185c2e7619d924a25
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 255b71a02fdd9b395a7b218fcfc4b22218309a46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214939"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511770"
 ---
+# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="b7ef0-102">在 Lync Server 2013 中重設或刪除外部使用者存取原則</span><span class="sxs-lookup"><span data-stu-id="b7ef0-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="a302a-102">重設或刪除 Lync Server 2013 中的外部使用者存取原則</span><span class="sxs-lookup"><span data-stu-id="a302a-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42214939"
 
 <span> </span>
 
-<span data-ttu-id="a302a-103">_**主題上次修改日期：** 2012年-09-08_</span><span class="sxs-lookup"><span data-stu-id="a302a-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="b7ef0-103">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="b7ef0-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="a302a-104">如果您已建立或設定不想再使用的外部使用者存取原則，則可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="a302a-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
+<span data-ttu-id="b7ef0-104">如果您已建立或設定不想再使用的外部使用者存取原則，則可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="b7ef0-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
 
-  - <span data-ttu-id="a302a-105">刪除任何已建立的網站或使用者原則。</span><span class="sxs-lookup"><span data-stu-id="a302a-105">Delete any site or user policy that you created.</span></span>
+  - <span data-ttu-id="b7ef0-105">刪除任何已建立的網站或使用者原則。</span><span class="sxs-lookup"><span data-stu-id="b7ef0-105">Delete any site or user policy that you created.</span></span>
 
-  - <span data-ttu-id="a302a-p101">將全域原則重設為預設設定。預設全域原則設定拒絕任何外部使用者存取。全域原則無法刪除。</span><span class="sxs-lookup"><span data-stu-id="a302a-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
+  - <span data-ttu-id="b7ef0-p101">將全域原則重設為預設設定。預設全域原則設定拒絕任何外部使用者存取。全域原則無法刪除。</span><span class="sxs-lookup"><span data-stu-id="b7ef0-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a302a-109">本章節內容</span><span class="sxs-lookup"><span data-stu-id="a302a-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b7ef0-109">本章節內容</span><span class="sxs-lookup"><span data-stu-id="b7ef0-109">In This Section</span></span>
 
-  - [<span data-ttu-id="a302a-110">刪除外部使用者存取 Lync Server 2013 中的網站或使用者原則</span><span class="sxs-lookup"><span data-stu-id="a302a-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
+  - [<span data-ttu-id="b7ef0-110">在 Lync Server 2013 中刪除外部使用者存取的網站或使用者原則</span><span class="sxs-lookup"><span data-stu-id="b7ef0-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
 
-  - [<span data-ttu-id="a302a-111">Lync Server 2013 中的外部使用者存取的全域原則重設</span><span class="sxs-lookup"><span data-stu-id="a302a-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
+  - [<span data-ttu-id="b7ef0-111">在 Lync Server 2013 中重設外部使用者存取的全域原則</span><span class="sxs-lookup"><span data-stu-id="b7ef0-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 安全性設定] 精靈關閉 IIS 中的連接埠之後會重新啟動伺服器
+title: 安全性設定向導在 IIS 中關閉埠後重新開機伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74e1f773f449c139beeb1819d69ba77e92c500e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a72bfcf9facfeaa3ca943275d9cdcb3b1ac7705
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183376"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512040"
 ---
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a><span data-ttu-id="807f0-102">安全性設定向導在 IIS 中關閉埠後重新開機伺服器</span><span class="sxs-lookup"><span data-stu-id="807f0-102">Re-activate server after Security Configuration Wizard closes ports in IIS</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a><span data-ttu-id="e6cdb-102">安全性設定] 精靈關閉 IIS 中的連接埠之後會重新啟動伺服器</span><span class="sxs-lookup"><span data-stu-id="e6cdb-102">Re-activate server after Security Configuration Wizard closes ports in IIS</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42183376"
 
 <span> </span>
 
-<span data-ttu-id="e6cdb-103">_**主題上次修改日期：** 2012年-10-01_</span><span class="sxs-lookup"><span data-stu-id="e6cdb-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="807f0-103">_**主題上次修改日期：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="807f0-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="e6cdb-104">某些 Lync Server 2013 角色執行網際網路資訊服務 (IIS) 連接埠 4443 上的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-104">Some Lync Server 2013 roles run Web Services on Internet Information Services (IIS) port 4443.</span></span> <span data-ttu-id="e6cdb-105">執行 Lync Server 部署精靈，Bootstrapper.exe，或使用**Enable-cscomputer**指令程式會建立例外狀況防火牆中並開啟連接埠。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-105">Running the Lync Server Deployment Wizard, Bootstrapper.exe, or using the **Enable-CsComputer** cmdlet creates an exception in the firewall and opens the port.</span></span> <span data-ttu-id="e6cdb-106">如果您再執行 Windows Server 2008 R2 的安全性設定精靈 （或其他強化指令碼），將會封鎖連接埠 4443，與外部用戶端將無法連絡 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-106">If you then run the Windows Server 2008 R2 Security Configuration Wizard (or other hardening scripts), port 4443 will be blocked, and external clients will not be able to contact Web Services.</span></span> <span data-ttu-id="e6cdb-107">若要重新開啟連接埠您可以直接修改防火牆例外狀況，或重新啟動伺服器。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-107">To reopen the port you can either modify the firewall exception directly or re-activate the server.</span></span>
+<span data-ttu-id="807f0-104">某些 Lync Server 2013 角色會在網際網路資訊服務（) 埠4443）上執行 Web 服務 (IIS。</span><span class="sxs-lookup"><span data-stu-id="807f0-104">Some Lync Server 2013 roles run Web Services on Internet Information Services (IIS) port 4443.</span></span> <span data-ttu-id="807f0-105">執行 Lync Server 部署嚮導、Bootstrapper.exe 或使用 **Enable-CsComputer** Cmdlet 會在防火牆中建立例外狀況，並開啟埠。</span><span class="sxs-lookup"><span data-stu-id="807f0-105">Running the Lync Server Deployment Wizard, Bootstrapper.exe, or using the **Enable-CsComputer** cmdlet creates an exception in the firewall and opens the port.</span></span> <span data-ttu-id="807f0-106">如果您接著執行 Windows Server 2008 R2 安全性設定向導 (或其他強化腳本) ，將會封鎖埠4443，而且外部用戶端將無法連絡 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="807f0-106">If you then run the Windows Server 2008 R2 Security Configuration Wizard (or other hardening scripts), port 4443 will be blocked, and external clients will not be able to contact Web Services.</span></span> <span data-ttu-id="807f0-107">若要重新開啟埠，您可以直接修改防火牆例外狀況，也可以重新開機伺服器。</span><span class="sxs-lookup"><span data-stu-id="807f0-107">To reopen the port you can either modify the firewall exception directly or re-activate the server.</span></span>
 
 <div>
 
-## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a><span data-ttu-id="e6cdb-108">使用 [部署精靈重新啟動伺服器</span><span class="sxs-lookup"><span data-stu-id="e6cdb-108">To re-activate the server by using the Deployment Wizard</span></span>
+## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a><span data-ttu-id="807f0-108">使用部署嚮導重新開機伺服器</span><span class="sxs-lookup"><span data-stu-id="807f0-108">To re-activate the server by using the Deployment Wizard</span></span>
 
-1.  <span data-ttu-id="e6cdb-109">在 [Lync Server 部署精靈] 頁面上，按一下 [**執行**下一步] 為**步驟 2： 安裝或移除 Lync Server 元件**。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-109">On the Lync Server Deployment Wizard page, click **Run** next to **Step 2: Setup or Remove Lync Server Components**.</span></span>
+1.  <span data-ttu-id="807f0-109">在 [Lync Server 部署嚮導] 頁面上，按一下 [**步驟2：安裝或移除 Lync Server 元件**] 旁邊的 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="807f0-109">On the Lync Server Deployment Wizard page, click **Run** next to **Step 2: Setup or Remove Lync Server Components**.</span></span>
 
-2.  <span data-ttu-id="e6cdb-110">在 **[安裝 Lync Server 元件]** 頁面上，按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-110">On **Setup Lync Server components** page, click **Next**.</span></span>
+2.  <span data-ttu-id="807f0-110">在 **[安裝 Lync Server 元件]** 頁面上，按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="807f0-110">On **Setup Lync Server components** page, click **Next**.</span></span>
 
-3.  <span data-ttu-id="e6cdb-111">在 **[執行命令]** 頁面上，當工作狀態顯示為完成後，按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-111">On the **Executing Commands** page, when the task status is shown as completed, click **Finish**.</span></span>
+3.  <span data-ttu-id="807f0-111">在 **[執行命令]** 頁面上，當工作狀態顯示為完成後，按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="807f0-111">On the **Executing Commands** page, when the task status is shown as completed, click **Finish**.</span></span>
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="e6cdb-112">您也可以使用 bootstrapper.exe 或<STRONG>Enable-cscomputer</STRONG>重新啟動伺服器。</span><span class="sxs-lookup"><span data-stu-id="e6cdb-112">You can also use bootstrapper.exe or <STRONG>Enable-CsComputer</STRONG> to re-activate the server.</span></span>
+    > <span data-ttu-id="807f0-112">您也可以使用 bootstrapper.exe 或 <STRONG>Enable-CsComputer</STRONG> ，以重新開機伺服器。</span><span class="sxs-lookup"><span data-stu-id="807f0-112">You can also use bootstrapper.exe or <STRONG>Enable-CsComputer</STRONG> to re-activate the server.</span></span>
 
     
     </div>

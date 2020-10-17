@@ -1,5 +1,5 @@
 ---
-title: 集區容錯移轉和集區容錯回復 Lync Server 2013 復原時間
+title: Lync Server 2013 集區容錯移轉及集區容錯移轉的復原時間
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb165fa762b23bd271dde56c0846ccb18adfbf7f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c1221d145951b4f780638cc2681f6d6cff822a4e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183246"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512020"
 ---
+# <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a><span data-ttu-id="90823-102">Lync Server 2013 的集區容錯移轉及集區回復器恢復時間</span><span class="sxs-lookup"><span data-stu-id="90823-102">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a><span data-ttu-id="2bf6d-102">集區容錯移轉和集區容錯回復 Lync Server 2013 中的復原時間</span><span class="sxs-lookup"><span data-stu-id="2bf6d-102">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42183246"
 
 <span> </span>
 
-<span data-ttu-id="2bf6d-103">_**主題上次修改日期：** 2012年-09-10_</span><span class="sxs-lookup"><span data-stu-id="2bf6d-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="90823-103">_**主題上次修改日期：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="90823-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="2bf6d-104">集區容錯移轉和集區容錯回復，工程目標復原時間目標 (RTO) 會是 30 分鐘。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-104">For pool failover and pool failback, the engineering target for recovery time objective (RTO) is 30 minutes.</span></span> <span data-ttu-id="2bf6d-105">這是發生容錯移轉所需的時間，系統管理員已決定那里之後已損毀，並將起始容錯移轉程序。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-105">This is the time required for the failover to happen, after administrators have determined there was a disaster and initiated the failover procedures.</span></span> <span data-ttu-id="2bf6d-106">它不包含評估這種情況，並進行決策，系統管理員的時間，也不會包含使用者重新登入容錯移轉完成後的時間。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-106">It does not include the time for administrators to assess the situation and make a decision, nor does it include the time for users to sign in again after failover is complete.</span></span>
+<span data-ttu-id="90823-104">針對集區容錯移轉及集區容錯移轉，「恢復時間目標」的工程目標 (RTO) 30 分鐘。</span><span class="sxs-lookup"><span data-stu-id="90823-104">For pool failover and pool failback, the engineering target for recovery time objective (RTO) is 30 minutes.</span></span> <span data-ttu-id="90823-105">這是容錯移轉所需的時間，在管理員決定發生災難並初始化容錯移轉程式之後。</span><span class="sxs-lookup"><span data-stu-id="90823-105">This is the time required for the failover to happen, after administrators have determined there was a disaster and initiated the failover procedures.</span></span> <span data-ttu-id="90823-106">它不包括管理員評估情況和作出決定的時間，也不包括使用者在容錯移轉完成後再次登入的時間。</span><span class="sxs-lookup"><span data-stu-id="90823-106">It does not include the time for administrators to assess the situation and make a decision, nor does it include the time for users to sign in again after failover is complete.</span></span>
 
-<span data-ttu-id="2bf6d-107">集區容錯移轉和集區容錯回復，復原點目標 (RPO) 的工程目標會是 30 分鐘。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-107">For pool failover and pool failback, the engineering target for recovery point objective (RPO) is 30 minutes.</span></span> <span data-ttu-id="2bf6d-108">這表示可能會由於災害時，因為備份服務的複寫延遲而遺失資料的時間量值。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-108">This represents the time measure of data that could be lost due to the disaster, due to replication latency of the Backup Service.</span></span> <span data-ttu-id="2bf6d-109">例如，如果集區失效 10:00 a.m.，而 RPO 是 30 分鐘，資料寫入到 9:30 A.M.之間的集區</span><span class="sxs-lookup"><span data-stu-id="2bf6d-109">For example, if a pool goes down at 10:00 A.M., and the RPO is 30 minutes, data written to the pool between 9:30 A.M.</span></span> <span data-ttu-id="2bf6d-110">和 10:00 A.M.might 不具有複寫至備份集區]，並可能會遺失。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-110">and 10:00 A.M.might not have replicated to the backup pool, and would be lost.</span></span>
+<span data-ttu-id="90823-107">針對集區容錯移轉及集區回復，復原點目標的工程目標 (RPO) 為30分鐘。</span><span class="sxs-lookup"><span data-stu-id="90823-107">For pool failover and pool failback, the engineering target for recovery point objective (RPO) is 30 minutes.</span></span> <span data-ttu-id="90823-108">這代表由於備份服務的複寫延遲而因災難而遺失的資料時間量。</span><span class="sxs-lookup"><span data-stu-id="90823-108">This represents the time measure of data that could be lost due to the disaster, due to replication latency of the Backup Service.</span></span> <span data-ttu-id="90823-109">例如，如果集區在 10:00 A.M. 時停機，RPO 為30分鐘，將資料寫入至集區的 9:30 A.M.。</span><span class="sxs-lookup"><span data-stu-id="90823-109">For example, if a pool goes down at 10:00 A.M., and the RPO is 30 minutes, data written to the pool between 9:30 A.M.</span></span> <span data-ttu-id="90823-110">和 10:00 A.M。可能尚未複製到備份組區，將會遺失。</span><span class="sxs-lookup"><span data-stu-id="90823-110">and 10:00 A.M.might not have replicated to the backup pool, and would be lost.</span></span>
 
-<span data-ttu-id="2bf6d-111">本文件中的所有 RTO 和 RPO 號碼假設兩個資料中心位於高速、 低延遲傳輸的兩個站台之間的相同世界區域內。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-111">All RTO and RPO numbers in this document assume that the two data centers are located within the same world region with high-speed, low-latency transport between the two sites.</span></span> <span data-ttu-id="2bf6d-112">這些數字的計算單位是集區 40000 同時作用中的使用者與 200000 位使用者啟用 lync 有關預先定義的使用者模型中的資料複寫是沒有待處理項目。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-112">These numbers are measured for a pool with 40,000 concurrently active users and 200,000 users enabled for Lync with respect to a pre-defined user model where there is no backlog in data replication.</span></span> <span data-ttu-id="2bf6d-113">他們受限於根據效能測試和驗證變更。</span><span class="sxs-lookup"><span data-stu-id="2bf6d-113">They are subject to change based on performance testing and validation.</span></span>
+<span data-ttu-id="90823-111">本檔中的所有 RTO 和 RPO 都是以兩個網站之間的高速度、低延遲傳輸的方式，假設兩個資料中心位於相同的世界地區內。</span><span class="sxs-lookup"><span data-stu-id="90823-111">All RTO and RPO numbers in this document assume that the two data centers are located within the same world region with high-speed, low-latency transport between the two sites.</span></span> <span data-ttu-id="90823-112">這些數位是針對包含40000個同時作用中使用者的集區200000，以及在資料複寫中未進行待辦事項的預先定義使用者模型啟用 Lync 的使用者。</span><span class="sxs-lookup"><span data-stu-id="90823-112">These numbers are measured for a pool with 40,000 concurrently active users and 200,000 users enabled for Lync with respect to a pre-defined user model where there is no backlog in data replication.</span></span> <span data-ttu-id="90823-113">它們可能會根據效能測試和驗證而變更。</span><span class="sxs-lookup"><span data-stu-id="90823-113">They are subject to change based on performance testing and validation.</span></span>
 
 </div>
 
