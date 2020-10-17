@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： VideoStreamDetail view
+description: Lync Server 2013： VideoStreamDetail view。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9b6cc13721ff249d9f8bd8bc0c38260c4ca7f55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3f420c292627d15fd0d54f2eba01c565a49a72d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211619"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567969"
 ---
+# <a name="videostreamdetail-view-in-lync-server-2013"></a>Lync Server 2013 中的 VideoStreamDetail 視圖
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostreamdetail-view-in-lync-server-2013"></a>Lync Server 2013 中的 VideoStreamDetail 視圖
+
 
 </div>
 
@@ -57,17 +60,17 @@ VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 �
 <tr class="odd">
 <td><p>SessionTime</p></td>
 <td><p>datetime</p></td>
-<td><p>從<a href="lync-server-2013-medialine-table.md">Lync Server 2013 的 MediaLine 表格中</a>參照。</p></td>
+<td><p>從 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 的 MediaLine 表格中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionSeq</p></td>
 <td><p>int</p></td>
-<td><p>從<a href="lync-server-2013-medialine-table.md">Lync Server 2013 的 MediaLine 表格中</a>參照。</p></td>
+<td><p>從 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 的 MediaLine 表格中</a>參照。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediaLineLabel</p></td>
 <td><p>Tinyint</p></td>
-<td><p>從<a href="lync-server-2013-medialine-table.md">Lync Server 2013 的 MediaLine 表格中</a>參照。</p></td>
+<td><p>從 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 的 MediaLine 表格中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p>StreamId</p></td>
@@ -117,12 +120,12 @@ VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 �
 <tr class="odd">
 <td><p>CallerUserAgentType</p></td>
 <td><p>Smallint</p></td>
-<td><p>發話者的使用者代理程式類型。 如需詳細資訊，請參閱<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表格</a>。</p></td>
+<td><p>發話者的使用者代理程式類型。 如需詳細資訊，請參閱 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentCategory</p></td>
 <td><p>Nvarchar (64) </p></td>
-<td><p>發話者的使用者代理程式類別。 如需詳細資訊，請參閱<a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef 表格 (Lync Server 2013 中的 QoE) </a> 。</p></td>
+<td><p>發話者的使用者代理程式類別。 如需詳細資訊，請參閱 <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef 表格 (Lync Server 2013 中的 QoE) </a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgent</p></td>
@@ -132,12 +135,12 @@ VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 �
 <tr class="even">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>Smallint</p></td>
-<td><p>被呼叫者之使用者代理程式的類型。 如需詳細資訊，請參閱<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表格</a>。</p></td>
+<td><p>被呼叫者之使用者代理程式的類型。 如需詳細資訊，請參閱 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentCategory</p></td>
 <td><p>Nvarchar (64) </p></td>
-<td><p>被呼叫者之使用者代理程式的類別。 如需詳細資訊，請參閱<a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) 中的 Lync Server 2013</a> 。</p></td>
+<td><p>被呼叫者之使用者代理程式的類別。 如需詳細資訊，請參閱 <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) 中的 Lync Server 2013</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerEndpoint</p></td>
@@ -192,17 +195,17 @@ VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 �
 <tr class="even">
 <td><p>CallerVirtualizationFlag</p></td>
 <td><p>Tinyint</p></td>
-<td><p>會指出來電者的系統是否在虛擬化環境中執行。 如需詳細資訊，請參閱<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的端點表格</a>。</p></td>
+<td><p>會指出來電者的系統是否在虛擬化環境中執行。 如需詳細資訊，請參閱 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的端點表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeVirtualizationFlag</p></td>
 <td><p>Tinyint</p></td>
-<td><p>會指出受話者的系統是否正在虛擬環境中執行。 如需詳細資訊，請參閱<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的端點表格</a>。</p></td>
+<td><p>會指出受話者的系統是否正在虛擬環境中執行。 如需詳細資訊，請參閱 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的端點表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>ConnectivityIce</p></td>
 <td><p>Tinyint</p></td>
-<td><p>媒體路徑的相關資訊，例如 direct 或中繼。 如需詳細資訊，請參閱<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表格</a>。</p></td>
+<td><p>媒體路徑的相關資訊，例如 direct 或中繼。 如需詳細資訊，請參閱 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerIceWarningFlags</p></td>
@@ -272,7 +275,7 @@ VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 �
 <tr class="even">
 <td><p>CallerRelayIPAddr</p></td>
 <td><p>var (50) </p></td>
-<td><p>發話者使用之 A/V Edge Service 的 IP 位址。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>發話者使用之 A/V Edge Service 的 IP 位址。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerRelayPort</p></td>
@@ -282,7 +285,7 @@ VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 �
 <tr class="even">
 <td><p>CalleeRelayIPAddr</p></td>
 <td><p>var (50) </p></td>
-<td><p>被呼叫者所使用之 A/V Edge service 的 IP 位址金鑰。 如需詳細資訊，請參閱<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a>。</p></td>
+<td><p>被呼叫者所使用之 A/V Edge service 的 IP 位址金鑰。 如需詳細資訊，請參閱 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
@@ -412,7 +415,7 @@ VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 �
 <tr class="even">
 <td><p>PayloadDescription</p></td>
 <td><p>int</p></td>
-<td><p>用於通話的音訊編解碼器，從<a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 的 PayloadDescription 表格中</a>參照。</p></td>
+<td><p>用於通話的音訊編解碼器，從 <a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 的 PayloadDescription 表格中</a>參照。</p></td>
 </tr>
 <tr class="odd">
 <td><p>VideoResolution</p></td>

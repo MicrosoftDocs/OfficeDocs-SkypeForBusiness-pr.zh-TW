@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：新增來電者識別碼功能
+description: Lync Server 2013：新增來電者識別碼功能。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc5f1b2d5160134bafb04e345a57be90be51d77e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eeb13e2b61c0df565691d6e2c1f7f9e1eb1cc281
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505320"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568129"
 ---
 # <a name="new-caller-id-feature-in-lync-server-2013"></a>Lync Server 2013 中的新來電者識別碼功能
 

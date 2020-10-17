@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：定義位置原則
+description: Lync Server 2013：定義位置原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bdb3b556f5b9a8d552a3c48e300b8c4b7b19f5f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fddd5b2ce34e44240162e886672a236789857e7b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504520"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567535"
 ---
 # <a name="defining-the-location-policy-for-lync-server-2013"></a>定義 Lync Server 2013 的位置原則
 

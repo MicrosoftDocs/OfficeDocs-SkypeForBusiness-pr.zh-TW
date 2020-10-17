@@ -1,5 +1,6 @@
 ---
 title: 容錯回復 Lync Server 同盟或 XMPP 同盟使用的 Edge 集區
+description: 容錯回復 Lync Server 同盟或 XMPP 同盟使用的 Edge 集區。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2fc24adb8808eae3d3152b74e29426b2facecfb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 137910d71de1d6177356e0b7bacbd6d17022d71d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530990"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567719"
 ---
 # <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中回復用於 Lync Server 同盟或 XMPP 同盟的 Edge 集區
 
