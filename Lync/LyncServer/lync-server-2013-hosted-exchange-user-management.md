@@ -12,20 +12,22 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cceaeaa869d1e058251a62d237c563143a4ae4c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4a54c4a7a3833fdd31999d7613659f9a35f9732
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504200"
 ---
+# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange 使用者管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange 使用者管理
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012-10-18_
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 使用者可以啟用裝載的語音信箱之前，必須先部署適用于對應使用者帳戶的主控語音信箱原則。 原則可以是全域、網站或每位使用者在範圍內，只要它套用至您想要啟用的使用者。 如需詳細資訊，請參閱<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的主控語音信箱原則</A>。
+> 在 Lync Server 2013 使用者可以啟用裝載的語音信箱之前，必須先部署適用于對應使用者帳戶的主控語音信箱原則。 原則可以是全域、網站或每位使用者在範圍內，只要它套用至您想要啟用的使用者。 如需詳細資訊，請參閱 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的主控語音信箱原則</A>。
 
 
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012-10-18_
 
 ## <a name="the-msexchucvoicemailsettings-attribute"></a>msExchUCVoiceMailSettings 屬性
 
-Lync Server 2013 引進新的使用者屬性，名為**msExchUCVoiceMailSettings**，它是 Lync Server 2013 Active Directory 架構準備的一部分所建立。 此多重值屬性可容納 Lync Server 2013 和主控 Exchange 服務共用的語音信箱設定。
+Lync Server 2013 引進新的使用者屬性，名為 **msExchUCVoiceMailSettings**，它是 Lync Server 2013 Active Directory 架構準備的一部分所建立。 此多重值屬性可容納 Lync Server 2013 和主控 Exchange 服務共用的語音信箱設定。
 
 在某些情況下，裝載 Exchange 服務可能會在啟用 Exchange UM 的程式中設定 msExchUCVoiceMailSettings 屬性的值，或將信箱轉移至主控 Exchange 伺服器的過程中。 如果 Exchange 未設定此屬性，Lync Server 2013 系統管理員必須執行 Set-CsUser Cmdlet 來設定此屬性，如本主題稍早所述。
 
@@ -115,7 +117,7 @@ Lync Server 2013 引進新的使用者屬性，名為**msExchUCVoiceMailSettings
 
 ## <a name="enabling-users-for-hosted-voice-mail"></a>為使用者啟用主控語音信箱
 
-若要讓使用者的語音信箱呼叫路由傳送至主控 Exchange UM，您必須執行 Set-CsUser Cmdlet 來設定*HostedVoiceMail*參數的值。 這個參數也會向 Lync Server 2013 發出「呼叫語音信箱」指示器。
+若要讓使用者的語音信箱呼叫路由傳送至主控 Exchange UM，您必須執行 Set-CsUser Cmdlet 來設定 *HostedVoiceMail* 參數的值。 這個參數也會向 Lync Server 2013 發出「呼叫語音信箱」指示器。
 
   - 下列範例會為主控語音信箱啟用 Pilar Ackerman 的使用者帳戶：
     

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 主控的語音信箱原則
+title: Lync Server 2013：主控語音信箱原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee078a96350b2796cb3535ee4099a075cc0f622
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e72fd57b05e618f03382a19995beaf9c542dc859
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504170"
 ---
+# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 中的主控語音信箱原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 中的主控的語音信箱原則
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "42198586"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-01_
+_**主題上次修改日期：** 2012-10-01_
 
-*裝載語音信箱原則*提供資訊給 Lync Server 2013 ExUM Routing 應用程式的使用者信箱位於裝載 Exchange 服務的電話路由至何處。
-
-<div>
-
-
-> [!NOTE]  
-> 主控的語音信箱原則所需僅適用於 Lync Server 2013 整合與裝載 Exchange UM。 不需要進行與內部部署 Exchange UM 整合。
-
-
-
-</div>
-
-<div>
-
-## <a name="hosted-voice-mail-policy-scope"></a>裝載的語音信箱原則範圍
-
-裝載的語音信箱原則範圍會決定在套用原則的階層式層級。 您可以使用下列範圍層級設定主控的語音信箱原則：
-
-  - *全域*原則可能會影響在 Lync Server 2013 部署中的所有使用者。 如果使用者的裝載 Exchange UM 存取已啟用，且未被指派個別使用者原則，且網站原則不已指派給使用者的網站，適用於全域原則。 使用 Lync Server 2013 安裝的全域原則。 您可加以修改以符合您的需求，但您無法重新命名或刪除它。
-
-  - *網站*原則可能會影響所有使用者都位於其定義原則的網站。 如果使用者的裝載 Exchange UM 存取設定，且未被指派個別使用者原則，適用於站台原則。
-
-  - *每位使用者*的原則可能會影響僅限個別使用者或群組。 強制執行的每一使用者原則，您必須明確地將原則指派給個別使用者、 群組和連絡人物件。
+「裝載 *語音信箱原則* 」會為 Lync Server 2013 ExUM 路由應用程式提供資訊，告知其信箱位於裝載 Exchange 服務上之使用者的通話位置。
 
 <div>
 
 
 > [!NOTE]  
-> 在大多數情況下，只有一個裝載的語音信箱原則是必要的。 您通常可以修改全域原則以符合您的需求。 如果您部署多個託管的語音信箱原則時，所有這類原則有每個使用者範圍。
+> 主控的語音信箱原則只有在 Lync Server 2013 與主控 Exchange UM 的整合時才需要。 與內部部署 Exchange UM 的整合不需要這些功能。
+
+
+
+</div>
+
+<div>
+
+## <a name="hosted-voice-mail-policy-scope"></a>主控語音信箱原則範圍
+
+「主控語音信箱原則」範圍決定原則適用的階層層級。 您可以設定具有下列範圍層級的主控語音信箱原則：
+
+  - *全域*原則可能會影響 Lync Server 2013 部署中的所有使用者。 如果使用者已啟用主控 Exchange UM 存取，但尚未被指派個別使用者原則，而且尚未將網站原則指派給使用者的網站，則會套用全域原則。 通用原則是隨 Lync Server 2013 一起安裝。 您可以修改它以符合您的需求，但是您無法重新命名或刪除。
+
+  - *網站*原則可能會影響位於已定義原則之網站上的所有使用者。 若使用者已設定為主控 Exchange UM 存取，但尚未指派個別使用者原則，則會套用網站原則。
+
+  - *每一使用者*原則只會影響個別的使用者或群組。 若要強制執行個別使用者原則，您必須將原則明確指派給個別的使用者、群組和連絡人物件。
+
+<div>
+
+
+> [!NOTE]  
+> 在大多數情況下，只需要一個主控語音信箱原則。 您通常可以修改全域原則，以符合您的所有需求。 如果您部署多個主控的語音信箱原則，則所有此類原則都具有每一使用者範圍。
 
 
 
@@ -75,11 +77,11 @@ _**主題上次修改日期：** 2012年-10-01_
 
 <div>
 
-## <a name="hosted-voice-mail-policy-attributes"></a>裝載的語音信箱原則屬性
+## <a name="hosted-voice-mail-policy-attributes"></a>主控語音信箱原則屬性
 
-「 語音信箱原則會定義 Lync Server 2013 ExUM Routing 應用程式插入要求 URI，傳送至裝載的 Exchange UM 實作此 INVITE 訊息中的兩個屬性：
+語音信箱原則定義兩個屬性，Lync Server 2013 ExUM 路由應用程式會在傳送至主控 Exchange UM 實現的 INVITE 郵件要求 URI 中插入：
 
-  - **目的地：** 主控 Exchange UM 服務的完整的網域名稱 (FQDN)。 這個值是由內部部署 Lync Server Edge Server 用於路由用途。
+  - **目的地：** 主控 Exchange UM 服務的完整功能變數名稱 (FQDN) 。 內部部署 Lync Server Edge Server 會使用此值進行路由傳送。
     
     <div>
     
@@ -90,39 +92,39 @@ _**主題上次修改日期：** 2012年-10-01_
     
     </div>
 
-  - **組織：** 在主控 Exchange UM 服務所在 Lync Server 2013 使用者信箱上的租用戶 FQDN。 「 語音信箱原則可以包含多個組織。 如果在原則中包含了一個以上的組織，這個屬性必須以逗號分隔清單中的 Exchange 伺服器 tenant 該首頁 Lync Server 2013 使用者信箱。
+  - **組織：** 主控您的 Lync Server 2013 使用者信箱之主控 Exchange UM 服務上租使用者的 FQDN。 語音信箱原則可以包含多個組織。 若原則中包含多個組織，此屬性必須是以逗號分隔的 Exchange 伺服器租使用者，該清單會家用您的 Lync Server 2013 使用者信箱。
 
 <div>
 
 
 > [!NOTE]  
-> 您的託管式 Exchange UM 服務租用戶系統管理員會提供您的目的地和組織屬性設定必要的值。 若要設定您的原則，您必須執行新增 CsHostedVoicemailPolicy 指令程式，或使用 Set-cshostedvoicemailpolicy cmdlet 來修改其中存在 （例如，全域原則）。
+> 您裝載的 Exchange UM 服務的租使用者系統管理員會提供必要的目的地和組織屬性設定值。 若要設定原則，您必須執行 New-CsHostedVoicemailPolicy Cmdlet，或使用 Set-CsHostedVoicemailPolicy Cmdlet 來修改存在 (例如，全域原則) 。
 
 
 
 </div>
 
-如需管理裝載的語音信箱原則的詳細資訊，請參閱 Lync Server 管理命令介面文件的下列 cmdlet:
+如需管理主控語音信箱原則的詳細資訊，請參閱 Lync Server 管理命令介面檔中的下列 Cmdlet：
 
-  - 新 CsHostedVoicemailPolicy
+  - New-CsHostedVoicemailPolicy
 
-  - Set-cshostedvoicemailpolicy
+  - Set-CsHostedVoicemailPolicy
 
-  - Get-cshostedvoicemailpolicy
+  - Get-CsHostedVoicemailPolicy
 
 </div>
 
 <div>
 
-## <a name="per-user-voice-mail-policy-assignment"></a>每位使用者的語音信箱原則指派
+## <a name="per-user-voice-mail-policy-assignment"></a>Per-User 語音信箱原則指派
 
-如果您的裝載的語音信箱原則定義每個使用者範圍，您必須明確地將授權指派。 您可以執行授與 CsHostedVoicemailPolicy 指令程式將原則指派給個別使用者或群組。
+如果您裝載的語音信箱原則是以每個使用者範圍定義，您必須明確指派它。 您可以執行 Grant-CsHostedVoicemailPolicy Cmdlet，將原則指派給個別使用者或群組。
 
-如需指派或移除個別使用者裝載語音信箱原則的詳細資訊，請參閱 Lync Server 管理命令介面文件的下列 cmdlet:
+如需指派或移除個別使用者的主控語音信箱原則的詳細資訊，請參閱 Lync Server 管理命令介面檔中的下列 Cmdlet：
 
-  - 授與 CsHostedVoicemailPolicy
+  - Grant-CsHostedVoicemailPolicy
 
-  - 移除 CsHostedVoicemailPolicy
+  - Remove-CsHostedVoicemailPolicy
 
 </div>
 

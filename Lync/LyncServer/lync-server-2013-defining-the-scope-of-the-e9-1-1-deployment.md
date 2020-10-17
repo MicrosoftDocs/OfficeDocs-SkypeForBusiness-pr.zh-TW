@@ -12,20 +12,22 @@ ms:contentKeyID: 48183707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed4a5fb3e34192aab9c94d72a3bc79b733828e3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27d280580f4d9cae1f6240b554be760d1689daa3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504480"
 ---
+# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中定義 E9-1-1 部署的範圍
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中定義 E9-1-1 部署的範圍
+
 
 </div>
 
@@ -50,7 +52,7 @@ _**主題上次修改日期：** 2012-06-06_
 <!-- end list -->
 
   - **您要如何將 E9-1-1 部署至分支網站？**  
-    在分支網站部署 E9-1-1 時，語音恢復能力是必須要了解的重要概念。 如果您已集中式電子 9-1-1 SIP 主幹，且發生 WAN 中斷，則登入的用戶端可能無法從位置資訊服務取得位置，或無法連線至緊急服務服務提供者。 Lync Server 提供數個策略，用來處理分支辦公室中的語音彈性，包括：具有可恢復的資料網路、在每個分支部署 SIP 主幹，或在中斷期間將緊急呼叫推出至本機閘道。 如需詳細資訊，請參閱[在 Lync Server 2013 中規劃分支網站語音恢復功能](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
+    在分支網站部署 E9-1-1 時，語音恢復能力是必須要了解的重要概念。 如果您已集中式電子 9-1-1 SIP 主幹，且發生 WAN 中斷，則登入的用戶端可能無法從位置資訊服務取得位置，或無法連線至緊急服務服務提供者。 Lync Server 提供數個策略，用來處理分支辦公室中的語音彈性，包括：具有可恢復的資料網路、在每個分支部署 SIP 主幹，或在中斷期間將緊急呼叫推出至本機閘道。 如需詳細資訊，請參閱 [在 Lync Server 2013 中規劃分支網站語音恢復功能](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
 
 <!-- end list -->
 

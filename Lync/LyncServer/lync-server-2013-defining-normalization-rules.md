@@ -12,20 +12,22 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 712e4cec9be89894b391ba940f054bc121e4acea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 935df08bd1ede124b048427de21594aa6e727e7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208939"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504510"
 ---
+# <a name="defining-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定義正常化規則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定義正常化規則
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**主題上次修改日期：** 2014-04-22_
 
 Lync Server 2013 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換成 Lync Server 內部所用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
 
-如需正規化規則的詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的撥號對應表和正常化規則](lync-server-2013-dial-plans-and-normalization-rules.md)。
+如需正規化規則的詳細資訊，請參閱規劃檔中的 [Lync Server 2013 中的撥號對應表和正常化規則](lync-server-2013-dial-plans-and-normalization-rules.md) 。
 
 如需如何撰寫正則運算式的詳細資訊，請參閱 .NET Framework 正則運算式 at [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) 。
 
 您可以使用下列其中一種方法來定義或編輯正規化規則：
 
-  - 使用 [**建立正規化規則**] 工具來指定起始數位、長度、要移除的數位和要加入的數位的值，然後讓 Lync Server 控制台產生對應的符合模式和轉譯規則。
+  - 使用 [ **建立正規化規則** ] 工具來指定起始數位、長度、要移除的數位和要加入的數位的值，然後讓 Lync Server 控制台產生對應的符合模式和轉譯規則。
 
   - 手動撰寫規則運算式來定義符合模式和轉譯規則。
 

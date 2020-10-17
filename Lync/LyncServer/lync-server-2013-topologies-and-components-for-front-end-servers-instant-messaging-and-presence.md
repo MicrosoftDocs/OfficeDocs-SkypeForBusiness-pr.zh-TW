@@ -12,20 +12,22 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4abe15d3884bc24d4facb26e2fc0c2df9e31bdcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 103d03920df57023ae7dbb953beb0c426d0a43df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503750"
 ---
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 中的前端伺服器、立即訊息及顯示狀態的拓撲和元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 中的前端伺服器、立即訊息及顯示狀態的拓撲和元件
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**主題上次修改日期：** 2014-10-24_
 
   - 您組織的前端伺服器或 Standard Edition server。 IM 和目前狀態功能在這些伺服器上一定會啟用。
 
-  - 負載平衡器（如果您有 Enterprise Edition 前端集區）。 如需詳細資訊，請參閱[Lync Server 2013 的負載平衡需求](lync-server-2013-load-balancing-requirements.md)。
+  - 負載平衡器（如果您有 Enterprise Edition 前端集區）。 如需詳細資訊，請參閱 [Lync Server 2013 的負載平衡需求](lync-server-2013-load-balancing-requirements.md)。
 
 <div>
 
@@ -49,9 +51,9 @@ _**主題上次修改日期：** 2014-10-24_
 
 在 Lync Server 2013 中，前端集區架構已變更，這些變更會影響您應如何規劃及維護前端集區。
 
-建議您的所有 Enterprise Edition 前端集區至少包含三部前端伺服器。 在 Lync Server 中，前端集區的架構使用分散式系統模型，而每個使用者的資料都保存在集區中的三部前端伺服器上。 如需此新架構的相關資訊，請參閱[Lync Server 2013 中的拓撲變更](lync-server-2013-topology-changes.md)。
+建議您的所有 Enterprise Edition 前端集區至少包含三部前端伺服器。 在 Lync Server 中，前端集區的架構使用分散式系統模型，而每個使用者的資料都保存在集區中的三部前端伺服器上。 如需此新架構的相關資訊，請參閱 [Lync Server 2013 中的拓撲變更](lync-server-2013-topology-changes.md)。
 
-如果您不想部署三個 Enterprise Edition 前端伺服器並想要進行嚴重損壞修復，建議您使用 Lync Server Standard Edition，並建立具有成對備份關聯的兩個集區。 這將會提供僅含兩部伺服器的嚴重損壞修復解決方案。 如需詳細資訊，請參閱高可用性和嚴重損壞修復拓撲及功能，請參閱在[Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+如果您不想部署三個 Enterprise Edition 前端伺服器並想要進行嚴重損壞修復，建議您使用 Lync Server Standard Edition，並建立具有成對備份關聯的兩個集區。 這將會提供僅含兩部伺服器的嚴重損壞修復解決方案。 如需詳細資訊，請參閱高可用性和嚴重損壞修復拓撲及功能，請參閱在 [Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
 </div>
 
@@ -91,8 +93,8 @@ _**主題上次修改日期：** 2014-10-24_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
+<td><p>第</p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>個</p></td>
@@ -138,13 +140,13 @@ _**主題上次修改日期：** 2014-10-24_
 </table>
 
 
-每次後續的集區啟動時，應啟動85% 的伺服器 (，如上表) 所示。 若無法啟動此伺服器數目 (但是可以啟動足夠的伺服器，以致于您不會在集區層級仲裁遺失) ，您可以使用**Reset-CsPoolRegistrarState – ResetType QuorumLossRecovery** Cmdlet，讓集區能夠從此路由群組層級仲裁遺失中復原，並取得進展。 如需如何使用此 Cmdlet 的詳細資訊，請參閱[Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState)。
+每次後續的集區啟動時，應啟動85% 的伺服器 (，如上表) 所示。 若無法啟動此伺服器數目 (但是可以啟動足夠的伺服器，以致于您不會在集區層級仲裁遺失) ，您可以使用 **Reset-CsPoolRegistrarState – ResetType QuorumLossRecovery** Cmdlet，讓集區能夠從此路由群組層級仲裁遺失中復原，並取得進展。 如需如何使用此 Cmdlet 的詳細資訊，請參閱 [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState)。
 
 <div>
 
 
 > [!NOTE]  
-> 由於 Lync Server 使用主要 SQL 資料庫做為見證，所以如果您關閉主資料庫並切換至鏡像副本，並關閉足夠的前端伺服器，以便根據上表上的表格執行不夠的狀態，則整個集區將會關閉。 如需詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/?linkid=393672">資料庫鏡像見證</A>。
+> 由於 Lync Server 使用主要 SQL 資料庫做為見證，所以如果您關閉主資料庫並切換至鏡像副本，並關閉足夠的前端伺服器，以便根據上表上的表格執行不夠的狀態，則整個集區將會關閉。 如需詳細資訊，請參閱 <A href="https://go.microsoft.com/fwlink/?linkid=393672">資料庫鏡像見證</A>。
 
 
 
@@ -172,8 +174,8 @@ _**主題上次修改日期：** 2014-10-24_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
+<td><p>第</p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
@@ -231,7 +233,7 @@ _**主題上次修改日期：** 2014-10-24_
 
   - 當您第一次將使用者移至集區時，請確定至少有三部前端伺服器正在執行。
 
-  - 如果您在此集區與其他集區之間建立配對關係，以進行嚴重損壞修復，則必須確定此集區在一段時間內有三部前端伺服器同時執行，才能正確地同步處理資料與備份組區。 如需有關集區配對和嚴重損壞修復功能的詳細資訊，請參閱[在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+  - 如果您在此集區與其他集區之間建立配對關係，以進行嚴重損壞修復，則必須確定此集區在一段時間內有三部前端伺服器同時執行，才能正確地同步處理資料與備份組區。 如需有關集區配對和嚴重損壞修復功能的詳細資訊，請參閱 [在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
 </div>
 
@@ -241,13 +243,13 @@ _**主題上次修改日期：** 2014-10-24_
 
 ## <a name="improving-the-reliability-of-pool-upgrades"></a>改善集區升級的可靠性
 
-當您需要升級或修補前端集區中的伺服器時，請遵循在[Lync Server 2013 的升級或更新前端伺服器中](lync-server-2013-upgrade-or-update-front-end-servers.md)顯示的工作流程，以及下列指導方針：
+當您需要升級或修補前端集區中的伺服器時，請遵循在 [Lync Server 2013 的升級或更新前端伺服器中](lync-server-2013-upgrade-or-update-front-end-servers.md)顯示的工作流程，以及下列指導方針：
 
-  - 當您從一個升級網域移至另一個升級網域以進行升級時 (請在[升級或更新 Lync Server 2013) 中的前端伺服器](lync-server-2013-upgrade-or-update-front-end-servers.md)之後，使用**Get-CsPoolUpgradeReadinessState** Cmdlet 並檢查 [就緒] 狀態。 在每個升級網域達到「就緒」狀態時，新增20分鐘的等待時間，可使升級更為可靠。 如果在此20分鐘內**未準備好**，請重新開機20分鐘計時器。 此外，您也可以在啟動20分鐘的間隔前後執行**Get-CsPoolFabricState** Cmdlet，並確定路由群組的 primaries 和輔助副本沒有任何變更。
+  - 當您從一個升級網域移至另一個升級網域以進行升級時 (請在 [升級或更新 Lync Server 2013) 中的前端伺服器](lync-server-2013-upgrade-or-update-front-end-servers.md) 之後，使用 **Get-CsPoolUpgradeReadinessState** Cmdlet 並檢查 [就緒] 狀態。 在每個升級網域達到「就緒」狀態時，新增20分鐘的等待時間，可使升級更為可靠。 如果在此20分鐘內 **未準備好** ，請重新開機20分鐘計時器。 此外，您也可以在啟動20分鐘的間隔前後執行 **Get-CsPoolFabricState** Cmdlet，並確定路由群組的 primaries 和輔助副本沒有任何變更。
 
-  - 若最後一次修補的升級網域中的任何伺服器都停滯或未重新開機，請勿移至下一個升級網域。 如果升級內的任何伺服器都無法啟動，也會套用這種情況。 請執行**Get-CsPoolFabricState** ，確定所有路由群組都有主要和至少一個次要;這會確認所有使用者是否都有服務。
+  - 若最後一次修補的升級網域中的任何伺服器都停滯或未重新開機，請勿移至下一個升級網域。 如果升級內的任何伺服器都無法啟動，也會套用這種情況。 請執行 **Get-CsPoolFabricState** ，確定所有路由群組都有主要和至少一個次要;這會確認所有使用者是否都有服務。
 
-  - 如果有些使用者有服務，但其他使用者卻沒有服務，請以– Verbose 選項執行**Get-CsPoolFabricState** ，檢查是否有遺失複本的路由群組。 請不要重新開機整個集區做為第一個疑難排解步驟。 如需此 Cmdlet 的詳細資訊，請參閱[Get-CsPoolFabricState](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState)。
+  - 如果有些使用者有服務，但其他使用者卻沒有服務，請以– Verbose 選項執行 **Get-CsPoolFabricState** ，檢查是否有遺失複本的路由群組。 請不要重新開機整個集區做為第一個疑難排解步驟。 如需此 Cmdlet 的詳細資訊，請參閱 [Get-CsPoolFabricState](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState)。
 
   - 請確定已關閉事件檢視器或效能監視器視窗的所有實例，以進行 windows fabric 安裝/卸載。
 

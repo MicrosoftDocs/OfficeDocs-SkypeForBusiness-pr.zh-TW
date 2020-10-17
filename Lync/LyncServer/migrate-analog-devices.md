@@ -12,20 +12,22 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70e756fdaa49fc4c825a2c8548eb2c7f2e4acab2
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: feb0f29f9a217676829ff3869fcda3759359944b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757014"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503610"
 ---
+# <a name="migrate-analog-devices"></a>移轉類比裝置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-analog-devices"></a>移轉類比裝置
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 提供類比裝置的支援。 具體而言，支援的類比裝置�
 
 ## <a name="to-migrate-analog-devices"></a>遷移類比裝置
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  在命令列中輸入：
     

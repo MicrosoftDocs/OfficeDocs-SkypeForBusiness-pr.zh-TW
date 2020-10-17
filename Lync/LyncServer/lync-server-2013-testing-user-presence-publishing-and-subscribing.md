@@ -12,20 +12,22 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f6dcc7461362129df72eefd0fd1ab3f5dd809b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 335ad014595f855c1ccefab363f3cf34ad7c282b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503850"
 ---
+# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>在 Lync Server 2013 中測試使用者的狀態發佈和訂閱
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>在 Lync Server 2013 中測試使用者的狀態發佈和訂閱
+
 
 </div>
 
@@ -84,7 +86,7 @@ Test-CsPresence 是用來判斷一組測試使用者是否可以登入 Lync Serv
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -PublisherSipAddress "sip:kenmyer@litwareinc.com" -PublisherCredential $credential1 -SubscriberSipAddress "sip:davidlongmire@litwareinc.com" -SubscriberCredential $credential2
 
-如需詳細資訊，請參閱[Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) Cmdlet 的說明文件。
 
 </div>
 
@@ -92,7 +94,7 @@ Test-CsPresence 是用來判斷一組測試使用者是否可以登入 Lync Serv
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以交換顯示狀態資訊，則會收到類似以下的輸出，其 Result 屬性標示為 [**成功]：**
+如果指定的使用者可以交換顯示狀態資訊，則會收到類似以下的輸出，其 Result 屬性標示為 [ **成功]：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

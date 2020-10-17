@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 新的來電者識別碼功能
+title: Lync Server 2013：新增來電者識別碼功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d671d7b94e82285ee33afef841b7ce10607857f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc5f1b2d5160134bafb04e345a57be90be51d77e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217029"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505320"
 ---
+# <a name="new-caller-id-feature-in-lync-server-2013"></a>Lync Server 2013 中的新來電者識別碼功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-caller-id-feature-in-lync-server-2013"></a>Lync Server 2013 中新的來電者識別碼功能
+
 
 </div>
 
@@ -35,18 +37,18 @@ ms.locfileid: "42217029"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-05_
+_**主題上次修改日期：** 2012-10-05_
 
-Lync Server 2013 提供系統管理員的彈性來修改的呼叫方的電話號碼格式。 這個發話者 ID 簡報功能，可讓系統管理員依需要將發話方電話號碼修改成對等主幹了解的撥號格式。 例如，您可以撰寫轉譯規則，將撥號字串開頭的 +44 移除，並替換成 0144。
+Lync Server 2013 為管理員提供修改呼叫者電話號碼格式的彈性。 這個發話者 ID 簡報功能，可讓系統管理員依需要將發話方電話號碼修改成對等主幹了解的撥號格式。 例如，您可以撰寫轉譯規則，將撥號字串開頭的 +44 移除，並替換成 0144。
 
-現在，與 Lync Server 2013 中，來電者的電話號碼和受話者的電話號碼可先翻譯成不同的格式，視需要。 這種彈性可讓 Lync Server 2013，以做為不同的電話語音系統之間的主幹轉譯器。
+現在，使用 Lync Server 2013，來電者的電話號碼和被呼叫者的電話號碼，都可以視需要轉譯成不同的格式。 這種彈性可讓 Lync Server 2013 成為不同電話語音系統之間的主幹翻譯器。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中新的 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

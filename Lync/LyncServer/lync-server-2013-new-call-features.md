@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 新的通話功能
+title: Lync Server 2013：新通話功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbc83cc1aa1b772ca310a9710d4f5329b4ca8edb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48c11645cfe624d2dd877023784d105d636d6b04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505370"
 ---
+# <a name="new-call-features-in-lync-server-2013"></a>Lync Server 2013 中的新通話功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-call-features-in-lync-server-2013"></a>Lync Server 2013 中的新通話功能
+
 
 </div>
 
@@ -35,18 +37,18 @@ ms.locfileid: "42192526"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-10_
+_**主題上次修改日期：** 2012-10-10_
 
-Lync Server 2013 提供大幅廣泛的來電轉接和同時響鈴的組態選項。 比方說，如果組織不想從外部轉送到公用交換的電話網路 (PSTN) 的傳入呼叫，系統管理員可以將套用的特殊的語音原則，以部署此限制。
+Lync Server 2013 為來電轉接和同時響鈴的設定選項提供了極大範圍的設定。 例如，如果組織不想要將來電轉送到外部的公用交換電話網路 (PSTN) 上，系統管理員可以套用特殊的語音原則來部署此限制。
 
-此外，代理人可以立即設定同時響鈴來電給其主管其行動裝置。 這提供更多的彈性，讓他們能而不必受限於電話機接聽來電代表其管理員的代理人。
+此外，代理人現在可以為其主管的來電設定同時撥打給其行動裝置的電話。 這可讓代理人獲得更大的彈性，讓他們可以代表其主管接聽來電，而不受限於桌上電話。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中新的 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

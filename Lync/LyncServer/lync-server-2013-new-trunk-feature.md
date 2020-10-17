@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 新主幹功能
+title: Lync Server 2013：新主幹功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 693b228eb0065375bd01cb9eedabed46ec1833a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0feda45fd6c035209783d173da3a85dec3876e50
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216749"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505280"
 ---
+# <a name="new-trunk-feature-in-lync-server-2013"></a>Lync Server 2013 中的新主幹功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-trunk-feature-in-lync-server-2013"></a>Lync Server 2013 中的新主幹功能
+
 
 </div>
 
@@ -35,16 +37,16 @@ ms.locfileid: "42216749"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
-在 Microsoft Lync Server 2013 中，您可以定義中繼伺服器和閘道之間的多個主幹。 Microsoft Lync Server 2010 只允許單一中繼伺服器和 PSTN 閘道之間主幹。 這項功能提供的彈性來定義其他主幹。 主幹是邏輯之間的關聯性中繼伺服器 FQDN 和聆聽連接埠與 PSTN 閘道 FQDN 的聆聽連接埠。 這項新功能可讓簡單主幹定義恢復能力 （其中多部中繼伺服器可用來將通話路由傳送至相同的 PSTN 閘道），PBX 交互操作性，之間可以使用多個主幹與不同相關聯的原則和IP PBX 和中繼伺服器，以及在不同站台的中繼伺服器必須參照相同電訊廠商 FQDN 電訊廠商 SIP 主幹的位置的 SIP 主幹組態。
+在 Microsoft Lync Server 2013 中，您可以定義多個轉送伺服器與閘道之間的主幹。 僅允許對轉送伺服器和 PSTN 閘道之間的單一主幹使用 Microsoft Lync Server 2010。 這項功能可讓您靈活地定義其他主幹。 主幹是轉送伺服器 FQDN 和接聽埠與 PSTN 閘道 FQDN 和聆聽埠之間的邏輯關聯。 這項新功能可讓您輕鬆地進行恢復 (的主幹定義，在此情況下，可使用多個轉送伺服器將通話路由傳送至相同的 PSTN 閘道) ，以進行 PBX 互通性，其中有多個具有不同相關原則的主幹可以在和 IP-PBX 和轉送伺服器之間使用，也就是不同網站上的轉送伺服器具有 SIP 主幹的 SIP
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中新的 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

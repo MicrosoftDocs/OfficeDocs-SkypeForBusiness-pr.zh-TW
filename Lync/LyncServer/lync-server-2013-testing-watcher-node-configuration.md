@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 測試監看員節點組態
+title: Lync Server 2013：測試監視器節點設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503810"
 ---
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中測試監視器節點設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Lync Server 2013 中的測試監看員節點組態
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42193686"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-11-03_
+_**主題上次修改日期：** 2014-11-03_
 
 
 <table>
@@ -49,13 +51,13 @@ _**上次修改主題：** 2014年-11-03_
 <td><p>每日</p></td>
 </tr>
 <tr class="even">
-<td><p>測試工具</p></td>
+<td><p>測試控管</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>必要的權限</p></td>
-<td><p>當執行在本機上使用 Lync Server 管理命令介面，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>當執行使用 Windows PowerShell 的遠端執行個體時，使用者必須被指派具有執行<strong>Test-cswatchernodeconfiguration</strong> cmdlet 的權限的 RBAC 角色。 若要查看可以使用此 cmdlet 的所有 RBAC 角色的清單，請在 Windows PowerShell 命令提示執行下列命令：</p>
+<td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
+<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 <strong>Test-CsWatcherNodeConfiguration</strong> Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,11 +66,11 @@ _**上次修改主題：** 2014年-11-03_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-如果您使用 Microsoft System Center Operations Manager 監視 Lync Server 2013，則您可以設定 「 監看員節點 」 的選擇： 定期，並自動執行綜合交易，若要驗證為正常到 Lync Server 的電腦預期的。 監看員節點指派給集區]，並使用**CsWatcherNodeConfiguration** cmdlet 所管理。 請注意，您不需要安裝監看員節點，如果您使用 System Center Operations Manager。 您仍然可以監視您的系統，而不需使用監看員節點。 唯一的差別在於，任何您想要執行的綜合交易必須叫用手動方式而不是自動叫用 Operations Manager。
+如果您使用 Microsoft System Center Operations Manager 來監視 Lync Server 2013，您可以選擇設定「觀察程式節點」：定期及自動執行綜合交易的電腦，以驗證 Lync Server 是否如預期般運作。 觀察程式節點會指派給集區，並使用 **CsWatcherNodeConfiguration** Cmdlet 進行管理。 請注意，如果您使用 System Center Operations Manager，便不需要安裝觀察程式節點。 您仍可監控系統，而不需要使用監視程式節點。 唯一不同之處在于，您要執行的任何綜合交易都必須手動呼叫，而不是由 Operations Manager 自動呼叫。
 
-**Test-cswatchernodeconfiguration** cmdlet 可讓您確認監看員節點已正確設定，並指派給有效的 Lync Server 2013 集區。 請注意，必須在本身的監看員節點上執行**Test-cswatchernodeconfiguration** cmdlet。 此 cmdlet 無法執行對遠端電腦。
+**Test-CsWatcherNodeConfiguration** Cmdlet 可讓您確認是否已正確設定或指派給有效的 Lync Server 2013 集區的監看員節點。 請注意，必須在監看員節點本身上執行 **Test-CsWatcherNodeConfiguration** Cmdlet。 無法對遠端電腦執行 Cmdlet。
 
 </div>
 
@@ -76,7 +78,7 @@ _**上次修改主題：** 2014年-11-03_
 
 ## <a name="running-the-test"></a>執行測試
 
-下列命令會確認已採用組織中每個監看員節點組態設定。
+下列命令會驗證組織中所使用之每個監看員節點的設定設定。
 
     Test-CsWatcherNodeConfiguration
 
@@ -86,45 +88,45 @@ _**上次修改主題：** 2014年-11-03_
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-下列成功的範例輸出顯示具有四個 edge server 的系統。
+下列成功的範例輸出會顯示具有四部 edge 伺服器的系統。
 
-驗證目標集區 atl-cs-001.litwareinc.com 針對拓樸。
+對照拓撲驗證目標集區 atl-cs-001.litwareinc.com。
 
-成功： 目標集區 atl-cs-001.litwareinc.com 存在於拓撲中。
+成功：目標集區 atl-cs-001.litwareinc.com 存在於拓撲中。
 
-成功： 目標集區 atl-cs-001.litwareinc.com 已安裝登錄器角色。
+成功：目標集區 atl-cs-001.litwareinc.com 已安裝註冊機構角色。
 
-成功： 目標集區 atl-cs-001.litwareinc.com 是支援的版本。
+成功：目標集區 atl-cs-001.litwareinc.com 為支援的版本。
 
-成功： 5061 目標集區 atl-cs-001.litwareinc.com 的連接埠號碼正確。
+成功：5061目標集區 atl-cs-001.litwareinc.com 的埠號碼是正確的。
 
-檢查監看員節點設定中遺漏的集區已啟動。 如果偵測到任何錯誤，它將會列印。
+已啟動在觀察者節點設定中檢查遺失的集區。 如果偵測到任何錯誤，就會將它列印出來。
 
-檢查遺漏的集區在監看員節點組態便已完成。
+在觀察者節點設定中檢查遺失的集區已完成。
 
-檢查安裝監看員節點所建立的監看員節點登錄機碼，便會啟動。 如果偵測到任何錯誤，它將會列印。
+已啟動透過檢查監視節點安裝所建立的監看員節點登錄機碼。 如果偵測到任何錯誤，就會將它列印出來。
 
-檢查安裝監看員節點所建立的監看員節點登錄機碼，已完成。 偵測到的驗證類型是交涉。
+檢查監視節點安裝所建立的監看員節點登錄機碼已完成。 偵測到驗證類型為 [協商]。
 
-在成功驗證測試使用者的認證 sip: user1 @ atl-cs-001.litwareinc.com 認證管理存放區中存在。
+已成功驗證測試使用者的身分憑證 sip 是否存在： user1@ atl-cs-001.litwareinc.com in 認證管理存放區。
 
-在成功驗證測試使用者的認證 sip: user2 @ atl-cs-001.litwareinc.com 認證管理存放區中存在。
+已成功驗證測試使用者的身分憑證 sip 是否存在： user2@ atl-cs-001.litwareinc.com in 認證管理存放區。
 
-檢查監看員節點設定中遺漏的集區已啟動。 如果偵測到任何錯誤，它將會列印。
+已啟動在觀察者節點設定中檢查遺失的集區。 如果偵測到任何錯誤，就會將它列印出來。
 
-警告： 集區 atl-cs-001.litwareinc.com 已註冊機構
+警告：集區 atl-cs-001.litwareinc.com 有註冊機構
 
-角色安裝，但沒有測試使用者為其設定。
+已安裝角色，但沒有為其設定的測試使用者。
 
-檢查遺漏的集區在監看員節點組態便已完成。
+在觀察者節點設定中檢查遺失的集區已完成。
 
-檢查安裝監看員節點所建立的監看員節點登錄機碼，是
+檢查監視節點安裝所建立的監看員節點登錄機碼，是
 
-啟動。 如果偵測到任何錯誤，它將會列印。
+開始。 如果偵測到任何錯誤，就會將它列印出來。
 
-Test-cswatchernodeconfiguration： 找不到健康情況登錄機碼
+Test-CsWatcherNodeConfiguration：在中找不到健康情況登錄機碼
 
-軟體\\Microsoft\\即時通訊。 請確定監看員節點.msi 是
+軟體 \\ Microsoft \\ 即時通訊。 確定 [監看員] 節點 .msi 是
 
 正確安裝。
 
@@ -132,13 +134,13 @@ Test-cswatchernodeconfiguration： 找不到健康情況登錄機碼
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>測試可能有為何失敗的原因
+## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
 
-以下是一些常見的原因為何**Test-cswatchernodeconfiguration**可能會失敗：
+以下是一些 **Test-CsWatcherNodeConfiguration** 可能失敗的常見原因：
 
-  - 未正確地安裝監看員節點。
+  - 未正確安裝觀察器節點。
 
-  - 沒有測試使用者的設定。
+  - 未設定測試使用者。
 
 </div>
 
@@ -147,10 +149,10 @@ Test-cswatchernodeconfiguration： 找不到健康情況登錄機碼
 ## <a name="see-also"></a>另請參閱
 
 
-[Get-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
-[New-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
-[Remove-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
-[Set-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
+[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
+[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
+[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
+[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
   
 
 </div>

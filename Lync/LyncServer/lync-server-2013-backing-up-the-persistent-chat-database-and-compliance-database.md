@@ -1,5 +1,5 @@
 ---
-title: 備份常設聊天室資料庫及規範資料庫
+title: 備份 Persistent Chat database 和合規性資料庫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bcbea0dd4cd9bce2c394e02bca70080ab7e2133
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e1b498c0f34ebd361f390be732684f3b03f6b93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206059"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504900"
 ---
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a>在 Lync Server 2013 中備份 Persistent 聊天室資料庫及規範資料庫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a>備份常設聊天室資料庫及 Lync Server 2013 中的規範資料庫
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42206059"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-08-01_
+_**主題上次修改日期：** 2012-08-01_
 
-您應該定期備份常設聊天室資料庫及規範資料庫。 請與您的資料庫管理員連絡，以決定在您的環境中進行備份的最佳方式。
+您應該定期備份 Persistent Chat database 及規範資料庫。 請與您的資料庫管理員連絡，以決定在您的環境中進行備份的最佳方式。
 
 </div>
 

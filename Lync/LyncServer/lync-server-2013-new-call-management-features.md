@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 新通話管理功能
+title: Lync Server 2013：新通話管理功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87fa18755a4ee3d6ee963346ae26adadb459946a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 61d00a0ddfb0cbd8278171201cc2fd5e79df5254
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217053"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505340"
 ---
+# <a name="new-call-management-features-in-lync-server-2013"></a>Lync Server 2013 中的新通話管理功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-call-management-features-in-lync-server-2013"></a>Lync Server 2013 中的新通話管理功能
+
 
 </div>
 
@@ -35,22 +37,22 @@ ms.locfileid: "42217053"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-12-18_
+_**主題上次修改日期：** 2012-12-18_
 
-下列各節說明 Lync Server 2013 中的通話管理功能的變更。
+下列各節說明 Lync Server 2013 中通話管理功能的變更。
 
-  - [Lync Server 2013 中的新回應群組應用程式功能](lync-server-2013-new-response-group-application-features.md)
+  - [Lync Server 2013 中新的回應群組應用程式功能](lync-server-2013-new-response-group-application-features.md)
 
-  - [Lync Server 2013 中的新通話駐留應用程式功能](lync-server-2013-new-call-park-application-features.md)
+  - [Lync Server 2013 中新的通話駐留應用程式功能](lync-server-2013-new-call-park-application-features.md)
 
-  - [Lync Server 2013 中的新群組來電接聽功能](lync-server-2013-new-group-call-pickup-feature.md)
+  - [Lync Server 2013 中的新組呼叫收取功能](lync-server-2013-new-group-call-pickup-feature.md)
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中新的 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5857e979b48dd3fee5f19016a7109eb15584b83f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33aa0447c90ea9c76a1956cb817f0e61ce0d626e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504040"
 ---
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>在 Lync Server 2013 中測試 PSTN 對等通話
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>在 Lync Server 2013 中測試 PSTN 對等通話
+
 
 </div>
 
@@ -86,7 +88,7 @@ Test-CsPstnPeerToPeerCall 會撥打實際電話，一部驗證可以進行連線
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-如需詳細資訊，請參閱[Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) Cmdlet 的說明文件。
 
 </div>
 
@@ -94,7 +96,7 @@ Test-CsPstnPeerToPeerCall 會撥打實際電話，一部驗證可以進行連線
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以完成對等通話，您會收到類似以下的輸出，其 Result 屬性標示為「**成功」：**
+如果指定的使用者可以完成對等通話，您會收到類似以下的輸出，其 Result 屬性標示為「 **成功」：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

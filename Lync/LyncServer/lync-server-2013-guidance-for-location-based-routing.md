@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 指導依位置路由
+title: Lync Server 2013： Location-Based 路由的指導方針
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88fa6a4f711803b916224efcb77f9f32a039ba22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8167f7501866186dd5a5d8f395e4def6cc15dafe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214233"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504240"
 ---
+# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>在 Lync Server 2013 中 Location-Based 路由的指導方針
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>依位置路由 Lync Server 2013 中的指引
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42214233"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
-可套用位置型的路由，視情況而定，在使用者的端點的網路站台位置或位於 PSTN 閘道的網路站台位置。 本主題提供指導方針如何以位置為主的路由會套用。
+根據情況而定，您可以在使用者的端點網路網站位置或 PSTN 閘道的網路網站位置上套用此 Location-Based 路由。 本主題提供如何套用 Location-Based 路由的指導方針。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的使用者的位置](lync-server-2013-user-s-location.md)
+  - [Lync Server 2013 中的使用者位置](lync-server-2013-user-s-location.md)
 
-  - [Lync Server 2013 中的 PSTN 閘道的位置](lync-server-2013-pstn-gateway-s-location.md)
+  - [Lync Server 2013 中的 PSTN 閘道位置](lync-server-2013-pstn-gateway-s-location.md)
 
 </div>
 
@@ -54,7 +56,7 @@ _**上次修改主題：** 2013年-02-21_
 ## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中依位置路由](lync-server-2013-planning-for-location-based-routing.md)  
+[在 Lync Server 2013 中規劃 Location-Based 路由](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

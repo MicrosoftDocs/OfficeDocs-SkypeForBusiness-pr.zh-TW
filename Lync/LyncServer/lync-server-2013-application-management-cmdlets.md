@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 應用程式管理 cmdlet
+title: Lync Server 2013：應用程式管理 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183917
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fbf48ae254ec68a32e28f92ff681dd97fc23b90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51e5bc4bb3a0949ad0c8095ef580365a8c0274d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187176"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505050"
 ---
+# <a name="application-management-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的應用程式管理 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="application-management-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的應用程式管理 cmdlet
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42187176"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-20 個_
+_**主題上次修改日期：** 2012-06-20_
 
-Microsoft Lync Server 2013 提供 cmdlet 可讓您管理 Lync Server 應用程式與信任的協力廠商應用程式。
+Microsoft Lync Server 2013 提供的 Cmdlet 可讓您管理 Lync Server 應用程式和受信任的協力廠商應用程式。
 
 <div>
 
@@ -45,85 +47,85 @@ Microsoft Lync Server 2013 提供 cmdlet 可讓您管理 Lync Server 應用程�
 
 請使用以下類別的 Cmdlet 來管理應用程式。
 
-**[Lync Server 2013 中的應用程式端點 cmdlet](lync-server-2013-application-endpoints-cmdlets.md)**
+**[Lync Server 2013 中的應用程式端點 Cmdlet](lync-server-2013-application-endpoints-cmdlets.md)**
 
   - <span></span>  
-    [取得 CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))
+    [CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))
 
   - <span></span>  
-    [Move-csapplicationendpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
+    [Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
-**[Lync Server 2013 中的應用程式伺服器和服務 cmdlet](lync-server-2013-application-server-and-services-cmdlets.md)**
+**[Lync Server 2013 中的應用程式伺服器和服務 Cmdlet](lync-server-2013-application-server-and-services-cmdlets.md)**
 
   - <span></span>  
-    [設定 CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))
+    [Set-CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csserverapplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))
+    [Get-CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))
 
   - <span></span>  
-    [New-csserverapplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))
+    [New-CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))
 
   - <span></span>  
-    [Remove-csserverapplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))
+    [Remove-CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))
 
   - <span></span>  
-    [設定 CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))
+    [Get-csserverapplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))
 
-**[Lync Server 2013 的信任的應用程式 cmdlet](lync-server-2013-trusted-applications-cmdlets.md)**
-
-  - <span></span>  
-    [Get-cstrustedapplication](https://technet.microsoft.com/library/Gg399025(v=OCS.15))
+**[Lync Server 2013 中的受信任應用程式 Cmdlet](lync-server-2013-trusted-applications-cmdlets.md)**
 
   - <span></span>  
-    [新 CsTrustedApplication](https://technet.microsoft.com/library/Gg398259(v=OCS.15))
+    [Get-CsTrustedApplication](https://technet.microsoft.com/library/Gg399025(v=OCS.15))
 
   - <span></span>  
-    [Remove-cstrustedapplication](https://technet.microsoft.com/library/Gg398176(v=OCS.15))
+    [New-CsTrustedApplication](https://technet.microsoft.com/library/Gg398259(v=OCS.15))
 
   - <span></span>  
-    [設定 CsTrustedApplication](https://technet.microsoft.com/library/Gg425840(v=OCS.15))
+    [Remove-CsTrustedApplication](https://technet.microsoft.com/library/Gg398176(v=OCS.15))
+
+  - <span></span>  
+    [CsTrustedApplication](https://technet.microsoft.com/library/Gg425840(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [取得 CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg425843(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg425843(v=OCS.15))
 
   - <span></span>  
     [新 CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398405(v=OCS.15))
 
   - <span></span>  
-    [移除 CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398838(v=OCS.15))
+    [Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398838(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [取得 CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg413035(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg413035(v=OCS.15))
 
   - <span></span>  
     [新 CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398594(v=OCS.15))
 
   - <span></span>  
-    [移除 CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398837(v=OCS.15))
+    [Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398837(v=OCS.15))
 
   - <span></span>  
-    [設定 CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398509(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398509(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [取得 CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg413055(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg413055(v=OCS.15))
 
   - <span></span>  
-    [新 CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg425804(v=OCS.15))
+    [New-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg425804(v=OCS.15))
 
   - <span></span>  
-    [移除 CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg398750(v=OCS.15))
+    [Remove-New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg398750(v=OCS.15))
 
   - <span></span>  
-    [設定 CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg398187(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg398187(v=OCS.15))
 
 </div>
 
@@ -132,7 +134,7 @@ Microsoft Lync Server 2013 提供 cmdlet 可讓您管理 Lync Server 應用程�
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

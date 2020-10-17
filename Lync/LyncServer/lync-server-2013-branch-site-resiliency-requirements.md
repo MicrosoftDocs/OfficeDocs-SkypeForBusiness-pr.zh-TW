@@ -12,20 +12,22 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e8fb2cdbf2b9192411f74c5099930d8bd7d7a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d76107fc419891561b8c98cf0989bbb0cbddbee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504840"
 ---
+# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Lync Server 2013 的分支網站恢復需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Lync Server 2013 的分支網站恢復需求
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**主題上次修改日期：** 2014-02-25_
 
 ## <a name="voice-routing-for-branch-users"></a>分支使用者的語音路由
 
-建議您建立個別的使用者層級語音 over 網際網路通訊協定 (VoIP 分支網站中使用者的) 原則。 這個原則應包含使用 Survivable Branch 裝置或 Branch server 閘道的主要路由，以及一個或多個在中央網站上使用具有公用電話 (交換網之公用電話) 閘道的主幹的備份路由。 如果主要路由無法使用，則改為使用使用一或多部中央網站閘道的備份路由。 這種方式不論登錄使用者的位置為何（位於中央網站的分支網站註冊機構或備份註冊機構集區），使用者的 VoIP 原則都是有效的。 這是容錯移轉案例的重要考慮。 例如，如果您需要重新命名 Survivable 分支裝置，或重新設定 Survivable Branch 裝置以連線至中央網站的備份註冊機構集區，則必須將分支網站使用者移至中央網站的持續時間。  (如需重新命名或重新配置 Survivable 分支裝置的詳細資訊，請參閱部署檔中的[附錄 B：管理 Lync Server 2013 中的 Survivable Branch 裝置](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)。 ) 如果這些使用者沒有使用者層級 VoIP 原則或使用者層級撥號對應表，當使用者移至另一個網站時，中心網站的網站層級 VoIP 原則和網站層級撥號對應表預設會套用至使用者，而不是分支網站網站層級 VoIP 原則及撥號對應表。 在此情況下，除非備份註冊機構集區所使用的網站層級 VoIP 原則和網站層級撥號對應表也可以套用至分支網站使用者，否則他們的呼叫將會失敗。 例如，如果位於日本的分支網站中的使用者已移至 Redmond 中的中央網站，則在其上預置 + 1425 至所有7位數通話的正規化規則的撥號對應表，將不會適當地為這些使用者轉譯來電。
+建議您建立個別的使用者層級語音 over 網際網路通訊協定 (VoIP 分支網站中使用者的) 原則。 這個原則應包含使用 Survivable Branch 裝置或 Branch server 閘道的主要路由，以及一個或多個在中央網站上使用具有公用電話 (交換網之公用電話) 閘道的主幹的備份路由。 如果主要路由無法使用，則改為使用使用一或多部中央網站閘道的備份路由。 這種方式不論登錄使用者的位置為何（位於中央網站的分支網站註冊機構或備份註冊機構集區），使用者的 VoIP 原則都是有效的。 這是容錯移轉案例的重要考慮。 例如，如果您需要重新命名 Survivable 分支裝置，或重新設定 Survivable Branch 裝置以連線至中央網站的備份註冊機構集區，則必須將分支網站使用者移至中央網站的持續時間。  (如需重新命名或重新配置 Survivable 分支裝置的詳細資訊，請參閱部署檔中的 [附錄 B：管理 Lync Server 2013 中的 Survivable Branch 裝置](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) 。 ) 如果這些使用者沒有使用者層級 VoIP 原則或使用者層級撥號對應表，當使用者移至另一個網站時，中心網站的網站層級 VoIP 原則和網站層級撥號對應表預設會套用至使用者，而不是分支網站網站層級 VoIP 原則及撥號對應表。 在此情況下，除非備份註冊機構集區所使用的網站層級 VoIP 原則和網站層級撥號對應表也可以套用至分支網站使用者，否則他們的呼叫將會失敗。 例如，如果位於日本的分支網站中的使用者已移至 Redmond 中的中央網站，則在其上預置 + 1425 至所有7位數通話的正規化規則的撥號對應表，將不會適當地為這些使用者轉譯來電。
 
 <div>
 
@@ -75,7 +77,7 @@ _**主題上次修改日期：** 2014-02-25_
 
 </div>
 
-若要協助確定分支網站使用者的來電網關或 Survivable 分支裝置網站的 Windows 元件無法使用時，是否會到達這些使用者， (會發生此情況。例如，如果 Survivable 分支裝置或分支閘道停機以進行維護) ，請在閘道上建立容錯移轉路由 (或使用直接向內撥號 (已) 提供者) 將來電重新導向至中央網站的備份註冊機構集區。 在此，來電會透過 WAN 連結路由傳送至分支使用者。 請確定路由會轉譯數位，使其符合 PSTN 閘道或其他主幹對等公認的電話號碼格式。 如需建立容錯移轉路由的詳細資訊，請參閱[在 Lync Server 2013 中設定容錯移轉路由](lync-server-2013-configuring-a-failover-route.md)。 另外，也為分支網站上與閘道相關聯的主幹建立服務層級撥號對應表，以正常化來電。 如果您有兩個 Survivable 分支裝置在分支網站上，您可以為這兩種方案建立一個網站層級撥號對應表，除非每個必要都要有個別的服務層級計畫。
+若要協助確定分支網站使用者的來電網關或 Survivable 分支裝置網站的 Windows 元件無法使用時，是否會到達這些使用者， (會發生此情況。例如，如果 Survivable 分支裝置或分支閘道停機以進行維護) ，請在閘道上建立容錯移轉路由 (或使用直接向內撥號 (已) 提供者) 將來電重新導向至中央網站的備份註冊機構集區。 在此，來電會透過 WAN 連結路由傳送至分支使用者。 請確定路由會轉譯數位，使其符合 PSTN 閘道或其他主幹對等公認的電話號碼格式。 如需建立容錯移轉路由的詳細資訊，請參閱 [在 Lync Server 2013 中設定容錯移轉路由](lync-server-2013-configuring-a-failover-route.md)。 另外，也為分支網站上與閘道相關聯的主幹建立服務層級撥號對應表，以正常化來電。 如果您有兩個 Survivable 分支裝置在分支網站上，您可以為這兩種方案建立一個網站層級撥號對應表，除非每個必要都要有個別的服務層級計畫。
 
 <div>
 
@@ -87,7 +89,7 @@ _**主題上次修改日期：** 2014-02-25_
 
 </div>
 
-此外，我們也建議您建立使用者層級撥號對應表和語音原則，然後將其指派給分支網站使用者。 如需詳細資訊，請參閱部署檔中的在 lync server [2013 中建立撥號](lync-server-2013-create-a-dial-plan.md)對應表，並在[lync Server 2013 中建立分支使用者的 VoIP 路由原則](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)。
+此外，我們也建議您建立使用者層級撥號對應表和語音原則，然後將其指派給分支網站使用者。 如需詳細資訊，請參閱部署檔中的在 lync server [2013 中建立撥號](lync-server-2013-create-a-dial-plan.md) 對應表，並在 [lync Server 2013 中建立分支使用者的 VoIP 路由原則](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md) 。
 
 <div>
 
@@ -97,7 +99,7 @@ _**主題上次修改日期：** 2014-02-25_
 
 包含分機號碼之行 URIs 的正規化規則和轉譯規則，不論是獨佔還是除了完整的 e.164 電話號碼，都有額外的需求。 本節說明使用分機號碼來路由傳送電話 URIs 的幾個範例案例。
 
-如果您的組織沒有直接向內撥號 () 為個別使用者設定的電話號碼，且每位使用者的線路 URI*只*會以分機號碼來設定，則內部使用者可以只撥打分機號碼撥打一個分機號碼。 不過，您必須設定標準化規則，以套用至分支網站使用者的呼叫與分機號碼相符的中央網站使用者。
+如果您的組織沒有直接向內撥號 () 為個別使用者設定的電話號碼，且每位使用者的線路 URI *只* 會以分機號碼來設定，則內部使用者可以只撥打分機號碼撥打一個分機號碼。 不過，您必須設定標準化規則，以套用至分支網站使用者的呼叫與分機號碼相符的中央網站使用者。
 
 在分支網站與中央網站之間的 WAN 連結可供使用的情況下，分支網站使用者對中央網站使用者的呼叫不需要符合的正規化規則來轉譯號碼，因為通話不會透過 PSTN 路由傳送。 例如：
 
@@ -217,9 +219,9 @@ Survivable 分支裝置 (Sba) 和 Survivable 分支伺服器在 WAN 中斷期間
 
   - Microsoft Exchange 管理員應該設定 Exchange UM 自動語音應答 (AA) 只接受郵件。 此設定會停用所有其他一般功能，例如轉接至使用者或轉接至操作員，並且限制 AA 只接受郵件。 此外，Exchange 系統管理員可以使用一般 AA 或自訂的 AA，將通話路由傳送至操作員。
 
-  - Lync Server 管理員應該取得 AA 電話號碼，並使用該電話號碼做為 Survivable 分支裝置或分支伺服器之語音信箱重新路由設定中的**exchange um 自動**語音應答編號。
+  - Lync Server 管理員應該取得 AA 電話號碼，並使用該電話號碼做為 Survivable 分支裝置或分支伺服器之語音信箱重新路由設定中的 **exchange um 自動** 語音應答編號。
 
-  - Lync Server 系統管理員應取得 Exchange UM 訂戶存取電話號碼，並使用該號碼做為 Survivable Branch 裝置或 Survivable Branch 伺服器之語音信箱重新路由設定中的**訂戶訪問**號碼。
+  - Lync Server 系統管理員應取得 Exchange UM 訂戶存取電話號碼，並使用該號碼做為 Survivable Branch 裝置或 Survivable Branch 伺服器之語音信箱重新路由設定中的 **訂戶訪問** 號碼。
 
   - Lync Server 管理員應該設定 Exchange UM，以便在 WAN 中斷期間，只有一個撥號對應表與需要存取語音信箱的所有分支使用者相關聯。
 
@@ -267,15 +269,15 @@ Lync 用戶端可以使用 DHCP 選項 120 (SIP 註冊器選項) 探索 Lync Ser
 
 ## <a name="requirements-for-survivable-branch-servers"></a>Survivable 分支伺服器的需求
 
-Survivable 分支伺服器的需求與前端伺服器的需求相同。 如需詳細資訊，請參閱規劃檔中的[Lync server 2013 伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md)。
+Survivable 分支伺服器的需求與前端伺服器的需求相同。 如需詳細資訊，請參閱規劃檔中的 [Lync server 2013 伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md) 。
 
 </div>
 
 <div>
 
-## <a name="requirements-for-full-scale-lync-server-branch-site-deployments"></a>完全縮放 Lync Server Branch-Site 部署的需求
+## <a name="requirements-for-full-scale-lync-server-branch-site-deployments"></a>Full-Scale Lync Server Branch-Site 部署的需求
 
-如需詳細資訊，請參閱規劃檔中的[判斷您的 Lync Server 2013 基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md)。
+如需詳細資訊，請參閱規劃檔中的 [判斷您的 Lync Server 2013 基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md) 。
 
 </div>
 

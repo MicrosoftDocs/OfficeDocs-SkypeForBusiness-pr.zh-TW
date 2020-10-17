@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: NetworkConfigurationSettings 檢視'
+title: Lync Server 2013： NetworkConfigurationSettings view
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3415656f884584a850a4b57df7c0a8baa0c10e5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b2a08fdc55158bf2266d6be75859477075fe91f2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192516"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505450"
 ---
+# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Lync Server 2013 中的 NetworkConfigurationSettings 視圖
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Lync Server 2013 中的 NetworkConfigurationSettings 檢視
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42192516"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-03_
+_**主題上次修改日期：** 2012-10-03_
 
-NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 Microsoft Lync Server 2013 中已採用此檢視。
+NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
 
 
 <table>
@@ -61,12 +63,12 @@ NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 Microsoft L
 </tr>
 <tr class="even">
 <td><p>UserSiteName</p></td>
-<td><p>nvarchar(128)</p></td>
+<td><p>Nvarchar (128) </p></td>
 <td><p>使用者的網站名稱。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RegionName</p></td>
-<td><p>nvarchar(128)</p></td>
+<td><p>Nvarchar (128) </p></td>
 <td><p>使用者的國家/地區名稱。</p></td>
 </tr>
 </tbody>

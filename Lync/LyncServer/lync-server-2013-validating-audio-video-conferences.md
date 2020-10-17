@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503700"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中驗證音訊/視訊會議
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中驗證音訊/視訊會議
+
 
 </div>
 
@@ -74,7 +76,7 @@ Test-CsAVConference Cmdlet 會檢查是否有兩個測試使用者可以參與�
 
 請注意，Test-CsAVConference 不會在兩個測試使用者之間進行實際的 A/V 會議。 相反地，指令程式會驗證這兩個使用者是否可以進行所有必要的連線，以進行這類會議。
 
-您可以在[Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)找到此命令的進一步範例。
+您可以在 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)找到此命令的進一步範例。
 
 </div>
 
@@ -92,7 +94,7 @@ Test-CsAVConference Cmdlet 會檢查是否有兩個測試使用者可以參與�
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-如需詳細資訊，請參閱[Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) Cmdlet 的說明文件。
 
 </div>
 
@@ -100,7 +102,7 @@ Test-CsAVConference Cmdlet 會檢查是否有兩個測試使用者可以參與�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以成功完成 A/V 會議，您會收到類似下列的輸出，並將 Result 屬性標示為 [**成功]：**
+如果指定的使用者可以成功完成 A/V 會議，您會收到類似下列的輸出，並將 Result 屬性標示為 [ **成功]：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

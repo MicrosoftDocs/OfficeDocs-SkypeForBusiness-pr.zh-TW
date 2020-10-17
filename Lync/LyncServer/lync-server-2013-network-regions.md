@@ -12,20 +12,22 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89e1ea12a35b7cf9fd440396369e5217162127b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541beafe32dcfbe830573ae5954f81ee7febe8de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505490"
 ---
+# <a name="network-regions-in-lync-server-2013"></a>Lync Server 2013 中的網路地區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-regions-in-lync-server-2013"></a>Lync Server 2013 中的網路地區
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184583"
 
 _**主題上次修改日期：** 2013-02-21_
 
-「網路區域」** 是用於通話許可控制、E9-1-1 及媒體旁路設定的網路中樞或骨幹。 使用下列程序可以檢視、建立或修改網路區域。 例如，您已為一個語音功能建立網路區域，便不需要建立新的網路區域；其他的進階 Enterprise Voice 功能會使用那些相同的網路區域。 不過，您必須修改現有的網路區域定義，以套用功能特定的設定。 例如，您已為 E9-1-1 (其不需要相關的中央網站) 建立網路區域，而您接著要部署通話許可控制，您便必須修改網路區域定義來指定中央網站。 如需詳細資訊，請參閱[在 Lync Server 2013 中設定 CAC 的網路地區](lync-server-2013-configure-network-regions-for-cac.md)。
+「網路區域」** 是用於通話許可控制、E9-1-1 及媒體旁路設定的網路中樞或骨幹。 使用下列程序可以檢視、建立或修改網路區域。 例如，您已為一個語音功能建立網路區域，便不需要建立新的網路區域；其他的進階 Enterprise Voice 功能會使用那些相同的網路區域。 不過，您必須修改現有的網路區域定義，以套用功能特定的設定。 例如，您已為 E9-1-1 (其不需要相關的中央網站) 建立網路區域，而您接著要部署通話許可控制，您便必須修改網路區域定義來指定中央網站。 如需詳細資訊，請參閱 [在 Lync Server 2013 中設定 CAC 的網路地區](lync-server-2013-configure-network-regions-for-cac.md)。
 
 <div>
 

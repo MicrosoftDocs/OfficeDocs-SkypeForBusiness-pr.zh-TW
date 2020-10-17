@@ -12,20 +12,22 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c9c0b0441ea31e2419101aba188c33b0bbfd70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abc46703118d27533ac2afd2b4b448ad9516bdd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193918"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503970"
 ---
+# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>在 Lync Server 2013 中測試 PSTN 通話
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>在 Lync Server 2013 中測試 PSTN 通話
+
 
 </div>
 
@@ -85,7 +87,7 @@ Test-CsPstnOutboundCall Cmdlet 會測試使用者撥打位於 PSTN 之電話號�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall) Cmdlet 的說明文件。
 
 </div>
 
@@ -93,7 +95,7 @@ Test-CsPstnOutboundCall Cmdlet 會測試使用者撥打位於 PSTN 之電話號�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以撥打電話，且接聽來電，您會收到類似以下的輸出，並將 Result 屬性標示為 [**成功]：**
+如果指定的使用者可以撥打電話，且接聽來電，您會收到類似以下的輸出，並將 Result 屬性標示為 [ **成功]：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

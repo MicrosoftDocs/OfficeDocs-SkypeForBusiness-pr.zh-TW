@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 最大失敗報告
+title: Lync Server 2013：熱門失敗報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 972c9e97015f5a39ace3cf1fc68051cc0afcc988
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 47bb2a36d3d165150735a4b0e4b44907a0d86011
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193636"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503760"
 ---
+# <a name="top-failures-report-in-lync-server-2013"></a>Lync Server 2013 的最大失敗報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="top-failures-report-in-lync-server-2013"></a>Lync Server 2013 中的最大失敗報告
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42193636"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-01_
+_**主題上次修改日期：** 2012-10-01_
 
 Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢。
 
   - **診斷 ID**。附加在 SIP 訊息中的唯一識別碼 (採用 ms-diagnostics 標頭的格式)。診斷 ID 可以在疑難排解通話相關錯誤時提供實用的資訊。
 
-  - **回應碼**。 回應碼適用於 SIP 通訊工作階段來回應 SIP 要求。 例如，假設 Ken 邀請將要求傳送至為 Pilar Ackerman （也就是假設 Ken Myer 呼叫為 Pilar Ackerman）。 如果 Pilar 接聽，其電話將傳送給您知道有回答 Pilar Ken 的電話，讓回應碼 200 (OK)。 最大失敗報告只包含已傳送回應通話失敗; 回應碼Lync Server 不會不追蹤的發出的通話過程中的所有回應碼。
+  - **回應碼**。 回應碼用於 SIP 通訊會話中，以回應 SIP 要求。 例如，當 Ken 將 INVITE 要求傳送給 Pilar Ackerman (也就是說，假設 Ken Myer 呼叫 Pilar Ackerman) 。 如果 Pilar 答案，她的電話會傳送回應碼 200 (確定) ，讓 Ken 電話知道 Pilar 已應答。 最上層失敗報告只包含回應通話失敗時傳送的回應碼。Lync Server 不會追蹤通話期間發出的所有回應碼。
 
 資訊回報內容不僅有發生失敗的工作階段總數，還有因失敗受到影響的使用者總數。
 
@@ -49,7 +51,7 @@ Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢�
 
 ## <a name="accessing-the-top-failures-report"></a>存取最大失敗報告
 
-可以從監視報告首頁存取最大失敗報告。 按一下 [Reported 工作階段計量，將帶您前往[Lync Server 2013 中的失敗散佈報告](lync-server-2013-failure-distribution-report.md)。
+可以從監視報告首頁存取最大失敗報告。 按一下已報告的會話度量將會帶您前往 [Lync Server 2013 的失敗散佈報告](lync-server-2013-failure-distribution-report.md)。
 
 </div>
 
@@ -96,9 +98,9 @@ Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢�
 <td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -106,26 +108,26 @@ Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢�
 <td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>活動類型</strong></p></td>
 <td><p>活動的類型。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
-<li><p>端對端</p></li>
+<li><p>一切</p></li>
+<li><p>對等</p></li>
 <li><p>會議</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>形式</strong></p></td>
+<td><p><strong>形態</strong></p></td>
 <td><p>目前唯一可用的選項是 [全部]<strong></strong>。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部]<strong></strong> 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。</p></td>
 </tr>
 <tr class="even">
@@ -135,7 +137,7 @@ Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢�
 <li><p>預期及未預期的失敗</p></li>
 <li><p>未預期的失敗</p></li>
 </ul>
-<p>&quot;預期失敗&quot;是預期會發生的失敗。 例如，當使用者將其狀態設為「勿打擾」時，即應預期所有撥話給該使用者的通話皆會失敗。 &quot;未預期的失敗&quot;是在項目會顯示為否則狀況良好的系統，就會發生的失敗。 例如，當發話者處於保留狀態時，不應掛斷通話。 當發生此狀況時，會將其標幟為未預期的失敗。</p></td>
+<p>&quot;預期的失敗 &quot; 是預期會發生的失敗。 例如，當使用者將其狀態設為「勿打擾」時，即應預期所有撥話給該使用者的通話皆會失敗。 未 &quot; 預期的失敗 &quot; 是指出現在其他狀況良好之系統上的失敗。 例如，當發話者處於保留狀態時，不應掛斷通話。 當發生此狀況時，會將其標幟為未預期的失敗。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>回應碼</strong></p></td>
@@ -154,7 +156,7 @@ Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢�
 
 <div>
 
-## <a name="metrics"></a>計量
+## <a name="metrics"></a>指標
 
 下表列出前幾名失敗報告提供的資訊。
 
@@ -168,9 +170,9 @@ Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢�
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

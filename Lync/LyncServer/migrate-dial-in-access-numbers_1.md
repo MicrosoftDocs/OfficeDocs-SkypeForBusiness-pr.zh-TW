@@ -12,20 +12,22 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6654c084be4915d48c4148c90b3888295c887f08
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: bc96ef027d63c5d2020bd52d55f378fcf7dacf51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756974"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503520"
 ---
+# <a name="migrate-dial-in-access-numbers"></a>移轉撥入存取號碼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>移轉撥入存取號碼
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756974"
 
 _**主題上次修改日期：** 2012-09-26_
 
-遷移撥入存取號碼需要兩個步驟：執行**Import-CsLegacyConfiguration**指令程式（在匯[入原則及設定](import-policies-and-settings.md)中完成）以遷移撥號對應表及其他撥入存取號碼設定，以及執行**Move-CsApplicationEndpoint** Cmdlet 以遷移連絡人物件。
+若要遷移撥入存取號碼，需要兩個步驟：執行 **Import-CsLegacyConfiguration** Cmdlet (在匯 [入原則和設定](import-policies-and-settings.md) 中完成，) 遷移撥號對應表及其他撥入存取號碼設定，以及執行 **Move-CsApplicationEndpoint** 指令程式以遷移連絡人物件。
 
 <div>
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2012-09-26_
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  在 [Office 通訊伺服器 2007 R2 系統管理工具] 的 [**存取電話號碼**] 索引標籤上，確認您要遷移的 Office 通訊伺服器 2007 R2 集區沒有任何撥入存取號碼。
+7.  在 [Office 通訊伺服器 2007 R2 系統管理工具] 的 [ **存取電話號碼** ] 索引標籤上，確認您要遷移的 Office 通訊伺服器 2007 R2 集區沒有任何撥入存取號碼。
 
 </div>
 

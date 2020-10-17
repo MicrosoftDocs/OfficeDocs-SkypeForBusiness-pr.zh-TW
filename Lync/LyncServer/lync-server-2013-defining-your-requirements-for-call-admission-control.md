@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 定義通話許可控制需求
+title: Lync Server 2013：定義通話許可控制需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6de02e10f884bf35c87ec8147c66bb720ad39c89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 13a06cfc55481fcfada5782fcbedbac52e6a7660
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213919"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504420"
 ---
+# <a name="defining-your-requirements-for-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中定義通話許可控制需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-call-admission-control-in-lync-server-2013"></a>定義 Lync Server 2013 中的 [通話許可控制需求
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42213919"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-10-28_
+_**主題上次修改日期：** 2013-10-28_
 
 規劃通話許可控制 (CAC) 時，需要您的企業網路拓撲詳細資訊。為了協助規劃您的通話許可控制原則，請遵循下列步驟。
 
@@ -51,7 +53,7 @@ _**上次修改主題：** 2013年-10-28_
     
 
     > [!NOTE]  
-    > 頻寬限制，請參閱在 WAN 連結的頻寬中有多少配置給 Enterprise Voice 和音訊/視訊流量。 因此，若有某個 WAN 連結有「頻寬限制」，代表該 WAN 連結的頻寬限制低於透過該連結傳送的預期尖峰流量。
+    > 頻寬限制是指 WAN 連結上的多少頻寬已分配給企業語音和音訊/視頻流量。 因此，若有某個 WAN 連結有「頻寬限制」，代表該 WAN 連結的頻寬限制低於透過該連結傳送的預期尖峰流量。
 
     
     </div>
@@ -62,7 +64,7 @@ _**上次修改主題：** 2013年-10-28_
 
 **通話許可控制範例拓撲**
 
-![Litware Inc.網路拓撲範例](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc.網路拓撲範例")
+![Litware Inc. 網路拓朴範例](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc. 網路拓朴範例")
 
 <div>
 
@@ -74,7 +76,7 @@ _**上次修改主題：** 2013年-10-28_
 
 </div>
 
-以下各節將說明此範例拓撲的各個元件。 如需如何這種拓撲已計劃中，包括頻寬限制的詳細資訊，請參閱[範例： 收集您的 Lync Server 2013 中的通話許可控制需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。
+以下各節將說明此範例拓撲的各個元件。 如需有關如何規劃此拓撲的詳細資訊，包括頻寬限制，請參閱 [範例：在 Lync Server 2013 中收集通話許可控制的需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。
 
 <div>
 
@@ -92,13 +94,13 @@ _**上次修改主題：** 2013年-10-28_
 
 ## <a name="associating-a-central-site-with-each-network-region"></a>關聯中央網站與個別網路地區
 
-CAC 要求每個網路地區定義 Lync Server 中央站台。 中央網站係以與該網路地區內所有其他網站相較之下，具有最佳網路連線和最高頻寬作為選擇依據。 先前的範例網路拓撲顯示三個網路地區，每一個都具備中央網站以負責管理 CAC 決策。 下表顯示先前範例中適當的關聯關係。
+CAC 需要為每個網路地區定義 Lync Server 中央網站。 中央網站係以與該網路地區內所有其他網站相較之下，具有最佳網路連線和最高頻寬作為選擇依據。 先前的範例網路拓撲顯示三個網路地區，每一個都具備中央網站以負責管理 CAC 決策。 下表顯示先前範例中適當的關聯關係。
 
 <div>
 
 
 > [!NOTE]  
-> 中央網站不一定會對應至網站。 在此文件，某些中央網站中的範例 — 芝加哥、 倫敦和北京-共用的網路網站相同的名稱。 不過，即使中央網站及網站共用相同的名稱，中央站台是元素的 Lync Server 拓撲，而網路站台是整體所在的網路時的 Lync Server 拓撲的一部分。
+> 中央網站不一定會對應至網路網站。 在本檔的範例中，有些中央網站（芝加哥、倫敦及北京）與網站共用相同的名稱。 不過，即使中央網站與網路網站共用相同名稱，中央網站還是 Lync Server 拓撲的元素，而網路網站是 Lync Server 拓撲所在整體網路的一部分。
 
 
 
@@ -127,20 +129,20 @@ CAC 要求每個網路地區定義 Lync Server 中央站台。 中央網站係�
 <p>紐約</p>
 <p>底特律</p>
 <p>波特蘭</p>
-<p>Reno</p>
-<p>阿布</p></td>
+<p>雷諾</p>
+<p>阿爾伯克爾基</p></td>
 </tr>
 <tr class="even">
-<td><p>EMEA</p></td>
+<td><p>Emea</p></td>
 <td><p>倫敦</p></td>
 <td><p>倫敦</p>
-<p>Cologne</p></td>
+<p>科隆</p></td>
 </tr>
 <tr class="odd">
-<td><p>亞太地區</p></td>
+<td><p>亞太</p></td>
 <td><p>北京</p></td>
 <td><p>北京</p>
-<p>Manila</p></td>
+<p>馬尼拉</p></td>
 </tr>
 </tbody>
 </table>
@@ -202,7 +204,7 @@ CAC 頻寬原則可定義下列任一或所有項目：
 
 
 > [!NOTE]  
-> Lync Server 2013 語音原則功能提供給使用者 （不會放置在使用者的撥出電話） 的傳入呼叫會檢查能夠覆寫頻寬原則。 工作階段建立完畢後，便可準確地計算頻寬使用量。 為順利做出適宜的通話許可控制決策，請勿頻繁使用此設定，能不用就不用。 如需詳細資訊，請參閱部署文件中<A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">建立的語音原則和設定 Lync Server 2013 中的 PSTN 使用方式記錄</A>，或<A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">修改語音原則和設定 Lync Server 2013 中的 PSTN 使用方式記錄</A>。
+> Lync Server 2013 語音原則功能可讓使用者在來電時，將來電的頻寬原則檢查功能覆寫至使用者 (，而不是用於使用者) 所撥打的撥出電話。 工作階段建立完畢後，便可準確地計算頻寬使用量。 為順利做出適宜的通話許可控制決策，請勿頻繁使用此設定，能不用就不用。 如需詳細資訊，請參閱部署檔中的在 lync server <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">2013 中建立語音原則和設定 pstn 使用方式記錄</A> 或 <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">修改語音原則，以及在 lync server 2013 中設定 pstn 使用方式記錄</A> 。
 
 
 
@@ -210,11 +212,11 @@ CAC 頻寬原則可定義下列任一或所有項目：
 
 若要最佳化個別工作階段的頻寬使用，請斟酌要使用的音訊與視訊轉碼器類型。具體地說，請避免分配過少的頻寬給預期將頻繁使用的轉碼器。相反地，如果您想要防止媒體使用會消耗大量頻寬的轉碼器，請儘可能將每個工作階段的最大頻寬設為最小值以抑制此類用途。對音訊而言，並非每一種情況都有可用的轉碼器。例如：
 
-  - 當您因素頻寬與優先轉碼器，Lync 端點之間的對等音訊通話會使用 RTAudio (8khz) 或 RTAudio (16khz)。
+  - 當您考慮編解碼器的頻寬和優先順序時，Lync 端點之間的對等音訊通話會使用 RTAudio (8kHz) 或 RTAudio (16kHz) 。
 
-  - 電話會議之間 Lync 端點和 A / V 會議服務將使用 G.722 或 Siren。
+  - Lync 端點和 A/V 會議服務之間的電話會議會使用 g.722 或 Siren。
 
-  - 呼叫公用交換的電話網路 (PSTN) 至或來自 Lync 端點將使用 G.711 或 RTAudio (8khz)。
+  - 撥打給公用交換電話網路 (PSTN) 或從 Lync 端點撥打的電話，將會使用 g.711 或 RTAudio (8kHz) 。
 
 使用下表有助於最佳化每個工作階段的最大頻寬設定。
 
@@ -245,17 +247,17 @@ CAC 頻寬原則可定義下列任一或所有項目：
 <td><p>96 kbps</p></td>
 </tr>
 <tr class="odd">
-<td><p>Siren</p></td>
+<td><p>警笛</p></td>
 <td><p>57.6 kbps</p></td>
 <td><p>73.6 kbps</p></td>
 </tr>
 <tr class="even">
-<td><p>G.711</p></td>
+<td><p>G. g.711</p></td>
 <td><p>102 kbps</p></td>
 <td><p>166 kbps</p></td>
 </tr>
 <tr class="odd">
-<td><p>G.722</p></td>
+<td><p>G. g.722</p></td>
 <td><p>105.6 kbps</p></td>
 <td><p>169.6 kbps</p></td>
 </tr>
@@ -285,13 +287,13 @@ CAC 頻寬原則可定義下列任一或所有項目：
 
 雖然 G.722.1 與 Siren 轉碼器很相近，但其位元速率卻不相同。
 
-G.722，Lync Server 會議的預設轉碼器是截然不同 G.722.1 和 Siren 轉碼器。
+G.722 （Lync Server 會議的預設編解碼器）與722.1 和 Siren 編解碼器完全不同。
 
-Siren 轉碼器用於 Lync Server，在下列情況：
+在下列情況下，Lync Server 會使用 Siren 編解碼器：
 
   - 當頻寬原則設得太低，以致於無法使用 G.722 時。
 
-  - 如果 Communications Server 2007 或 Communications Server 2007 R2 的用戶端連線至 Lync Server 會議服務 （因為這些用戶端不支援 G.722 轉碼器）。
+  - 如果通訊伺服器2007或通訊伺服器 2007 R2 用戶端連接至 Lync Server 會議服務， (因為這些用戶端不支援 g.722 編解碼器) 。
 
 ### <a name="bandwidth-utilization-by-scenario"></a>依案例的頻寬使用
 
@@ -324,28 +326,28 @@ Siren 轉碼器用於 Lync Server，在下列情況：
 <td><p>165 kbps</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN 通話 （Lync 2013 與 PSTN 閘道之間透過媒體旁路）</p></td>
+<td><p>在 Lync 2013 與 PSTN 閘道之間的 PSTN 通話 (，具有媒體旁路) </p></td>
 <td><p>97 kbps</p></td>
 <td><p>97 kbps</p></td>
 <td><p>161 kbps</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN 通話 （Lync 2013 和中繼伺服器之間，不透過媒體旁路）</p></td>
+<td><p>在 Lync 2013 和轉送伺服器之間 (PSTN 通話，但沒有媒體旁路) </p></td>
 <td><p>45 kbps</p></td>
 <td><p>97 kbps</p></td>
 <td><p>161 kbps</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN 通話 （中繼伺服器與 PSTN 閘道之間不透過媒體旁路）</p></td>
+<td><p>PSTN 通話 (轉送伺服器和 PSTN 閘道之間，未使用媒體旁路) </p></td>
 <td><p>97 kbps</p></td>
 <td><p>97 kbps</p></td>
 <td><p>161 kbps</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync-Polycom 電話</p></td>
-<td><p>101 kbps</p></td>
-<td><p>101 kbps</p></td>
-<td><p>101 kbps</p></td>
+<td><p>Lync-Polycom 通話</p></td>
+<td><p>101 Kbps</p></td>
+<td><p>101 Kbps</p></td>
+<td><p>101 Kbps</p></td>
 </tr>
 </tbody>
 </table>
@@ -365,7 +367,7 @@ Siren 轉碼器用於 Lync Server，在下列情況：
 
 
 > [!WARNING]  
-> 在伺服器上的網路組態期間指定的 IP 子網路必須相符才能正確地使用媒體旁路的用戶端電腦所提供的格式。 Lync 用戶端會採用其本機 IP 位址，並與相關聯的子網路遮罩遮罩的 IP 位址。 當決定旁路 ID 與每個用戶端相關聯時，登錄器會比較用戶端提供完全符合的子網路對每個網路網站相關聯的 IP 子網路的清單。 基於這個理由，請務必在伺服器上的網路設定期間輸入的子網路會實際的子網路，而不是虛擬的子網路。 （如果您部署通話許可控制，但不是媒體旁路，通話許可控制會正常運作，即使您設定虛擬子網路）。<BR>例如，如果用戶端登入與 IP 子網路遮罩 255.255.255.0 172.29.81.57 IP 位址的電腦上，Lync 2013 會要求 172.29.81.0 的子網路相關聯的旁路識別碼。 如果子網路定義為 172.29.0.0/16，則儘管用戶端屬於虛擬子網路，登錄器仍舊不會將其視為完全相符，因為登錄器所尋找的是真正的子網路 172.29.81.0。 因此，是很重要系統管理員輸入完全 Lync 用戶端 （這佈建的子網路與網路組態期間靜態或 DHCP。） 所提供的子網路
+> 在伺服器上的網路設定期間指定的 IP 子網必須符合用戶端電腦提供的格式，才能正確用於媒體旁路。 Lync 用戶端會採用其本機 IP 位址，並以關聯的子網路遮罩遮罩 IP 位址。 決定與每個用戶端相關聯的旁路識別碼時，註冊機構會比較與用戶端所提供之子網相關聯的 IP 子網清單，以完全符合。 因此，在伺服器上的網路設定期間輸入的子網，必須是實際的子網，而不是虛擬子網，這一點很重要。  (如果您部署通話許可控制，但沒有媒體旁路，則即使您設定虛擬子網，通話許可控制也會正常運作。 ) <BR>例如，如果用戶端登入的 IP 位址為172.29.81.57 且 IP 子網路遮罩為255.255.255.0 的電腦，Lync 2013 會要求與子網172.29.81.0 相關聯的旁路識別碼。 如果子網路定義為 172.29.0.0/16，則儘管用戶端屬於虛擬子網路，登錄器仍舊不會將其視為完全相符，因為登錄器所尋找的是真正的子網路 172.29.81.0。 因此，管理員必須嚴格依照 Lync 用戶端所提供的方式輸入子網， (在設定網路設定（靜態或透過 DHCP）時，管理員必須輸入子網。 ) 
 
 
 

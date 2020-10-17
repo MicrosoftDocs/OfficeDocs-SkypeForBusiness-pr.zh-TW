@@ -12,20 +12,22 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a608f84c3c302c503450bfe1c763aebacc269e96
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08477e9902a1410a98516a79fe5fdd01c5e94214
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194166"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504120"
 ---
+# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>在 Lync Server 2013 中測試指派給網站之 Kerberos 帳戶的設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>在 Lync Server 2013 中測試指派給網站之 Kerberos 帳戶的設定
+
 
 </div>
 
@@ -68,7 +70,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 Test-CsKerberosAccountAssignment Cmdlet 可讓您驗證 Kerberos 帳戶是否與指定的網站相關聯、已正確設定此帳戶，以及該帳戶是否如預期般運作。 Kerberos 帳戶是電腦帳戶，可充當執行 Internet information Server 之網站中所有電腦的驗證主體，)  (IIS。 因為這些帳戶使用 Kerberos 驗證通訊協定，所以帳戶稱為 Kerberos 帳戶，而新的驗證處理常式稱為 Kerberos web 驗證。 這可讓您使用單一帳戶管理所有 IIS 伺服器。
 
-如需詳細資訊，請參閱[Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) Cmdlet 的說明文件。
 
 </div>
 
@@ -84,7 +86,7 @@ Test-CsKerberosAccountAssignment Cmdlet 可讓您驗證 Kerberos 帳戶是否與
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
-如需詳細資訊，請參閱[Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) Cmdlet 的說明文件。
 
 </div>
 
@@ -120,7 +122,7 @@ Test-CsKerberosAccountAssignment Cmdlet 不會傳回成功或失敗的簡單指�
     
     InvalidKerberosConfiguration： atl-cs001.litwareinc.com 上的 Kerberos 設定無效。 期望的指派帳戶為 litwareinc \\ kerberostest。 確定帳戶未到期，且電腦上所設定的密碼與帳戶的 Active Directory 密碼相符。
     
-    您可以使用[Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) Cmdlet 來設定密碼。
+    您可以使用 [Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) Cmdlet 來設定密碼。
 
 </div>
 

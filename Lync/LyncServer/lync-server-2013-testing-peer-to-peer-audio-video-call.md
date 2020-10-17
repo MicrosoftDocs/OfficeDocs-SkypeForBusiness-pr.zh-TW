@@ -12,20 +12,22 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea5283f588315d06387ed2d441f138538cd13ca3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8522a1f3a8aedd44a6d39faa0ba6f59ba773677
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504080"
 ---
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>在 Lync Server 2013 中測試對等音訊/視頻通話
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>在 Lync Server 2013 中測試對等音訊/視頻通話
+
 
 </div>
 
@@ -70,7 +72,7 @@ Test-CsP2PAV 是用來判斷一組測試使用者是否可以參與對等 A/V �
 
 Test-CsP2PAV 實際上不會進行 A/V 通話。 測試使用者間的多媒體資訊不會互換。 相反地，此 Cmdlet 只會驗證是否可以進行適當的連線，以及兩位使用者是否可以進行這類呼叫。
 
-如需詳細資訊，請參閱[Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) Cmdlet 的說明文件。
 
 </div>
 

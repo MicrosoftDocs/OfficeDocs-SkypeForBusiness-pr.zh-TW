@@ -12,20 +12,22 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88d6f6f6f5578994831fd15329988d963a295832
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9b77d515ebe743b038f3f0099a9702a383e7b797
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505150"
 ---
+# <a name="how-user-photos-are-displayed-in-lync"></a>Lync 中使用者相片的顯示方式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-user-photos-are-displayed-in-lync"></a>Lync 中使用者相片的顯示方式
+
 
 </div>
 
@@ -51,13 +53,13 @@ Lync 2010 引進的功能可加入具有 Lync 設定檔的相片，以顯示給�
 
   - 只有在使用 Lync Server 2013 和 Exchange 2013 的環境中，才支援高定義使用者相片。
 
-  - 信箱在 Exchange 2010 上的使用者，將永遠使用來自 AD DS 的**thumbnailPhoto**屬性做為使用者相片的來源。
+  - 信箱在 Exchange 2010 上的使用者，將永遠使用來自 AD DS 的 **thumbnailPhoto** 屬性做為使用者相片的來源。
 
-  - 從 AD DS 儲存為**thumbnailPhoto**屬性的使用者相片不會顯示在外部/同盟連絡人。
+  - 從 AD DS 儲存為 **thumbnailPhoto** 屬性的使用者相片不會顯示在外部/同盟連絡人。
 
   - 如果使用者連絡人的相片儲存在 AD DS 中，則所使用的圖像檔案限制為96×96圖元，且不得超過 100 KB 的檔案大小。
 
-  - 如果 Lync Server 與 Exchange Server 之間的連線已遺失，將會顯示使用者的低解析度**thumbnailPhoto** ，並只會顯示給內部使用者。
+  - 如果 Lync Server 與 Exchange Server 之間的連線已遺失，將會顯示使用者的低解析度 **thumbnailPhoto** ，並只會顯示給內部使用者。
 
   - 當使用中的音箱未啟用影片時，會在 Lync 2013 會議中顯示高解析度的使用者相片。 此外，將滑鼠移到圖庫中的縮圖照片上方，會顯示高解析度的相片。
 
@@ -67,19 +69,19 @@ Lync 2010 引進的功能可加入具有 Lync 設定檔的相片，以顯示給�
 
 ## <a name="user-photos-in-lync-2010"></a>Lync 2010 中的使用者相片
 
-在 Lync 2010 用戶端中，您可以從兩個選項中選擇顯示設定檔的相片、**預設的公司圖片**及**顯示網址中的圖片**。
+在 Lync 2010 用戶端中，您可以從兩個選項中選擇顯示設定檔的相片、 **預設的公司圖片** 及 **顯示網址中的圖片**。
 
 <div>
 
 ## <a name="default-corporate-picture"></a>預設公司圖片
 
-當您選擇 [**預設公司圖片**] 選項時，Lync 會從 Active Directory 網域服務中取得為您顯示的相片。 使用的影像是定義為 Active Directory 網域服務中**thumbnailPhoto**屬性值的影像。 這是 Exchange 在 Outlook 中顯示圖像時所使用的相同檔案。
+當您選擇 [ **預設公司圖片** ] 選項時，Lync 會從 Active Directory 網域服務中取得為您顯示的相片。 使用的影像是定義為 Active Directory 網域服務中 **thumbnailPhoto** 屬性值的影像。 這是 Exchange 在 Outlook 中顯示圖像時所使用的相同檔案。
 
 使用 Active Directory 網域服務中的影像的考慮包括下列各項：
 
   - 只支援最高96圖元至96圖元的影像。 影像的檔案大小限制為 100 KB。
 
-  - 根據預設，使用者可以變更用於**thumbnailPhoto**屬性的影像，但不能直接透過 Lync 用戶端進行。 您可以透過 Active Directory 網域服務停用此。
+  - 根據預設，使用者可以變更用於 **thumbnailPhoto** 屬性的影像，但不能直接透過 Lync 用戶端進行。 您可以透過 Active Directory 網域服務停用此。
 
   - 儲存在 Active Directory 網域服務中的圖像不會顯示給組織外部的連絡人，即使他們是同盟連絡人也是一樣。
 
@@ -109,7 +111,7 @@ Lync 2010 引進的功能可加入具有 Lync 設定檔的相片，以顯示給�
 
 ## <a name="show-a-picture-from-a-web-address"></a>顯示網址中的圖片
 
-當您選擇 [**顯示網址中的圖片**] 選項時，lync 會在您所輸入的位址取得影像，並在 Lync 中為您的使用者相片顯示此圖像。
+當您選擇 [ **顯示網址中的圖片** ] 選項時，lync 會在您所輸入的位址取得影像，並在 Lync 中為您的使用者相片顯示此圖像。
 
 使用網址中的圖像的考慮包括下列各項：
 
@@ -123,7 +125,7 @@ Lync 2010 引進的功能可加入具有 Lync 設定檔的相片，以顯示給�
 
 ## <a name="managing-users-photo-with-client-policy-cmdlets"></a>使用用戶端原則 Cmdlet 來管理使用者相片
 
-在 Lync Server 2010 中，用戶端原則設定會以 CsClientPolicy Cmdlet 進行設定。 設定的原則設定會透過帶內布建來傳送給用戶端。 CsClientPolicy Cmdlet 的兩個參數，可判斷使用者的照片體驗**DisplayPhoto**和**MaxPhotoSizeKB**。 對應**DisplayPhoto**和**MaxPhotoSizeKB**的內帶內布布建參數稱為**PhotoUsage**。 **PhotoUsage**參數的值會透過**endpointConfiguration** **provisionGroup**傳送給用戶端。 如需詳細資訊，請參閱[用戶端原則和設定的概述](https://go.microsoft.com/fwlink/?linkid=507470)。
+在 Lync Server 2010 中，用戶端原則設定會以 CsClientPolicy Cmdlet 進行設定。 設定的原則設定會透過帶內布建來傳送給用戶端。 CsClientPolicy Cmdlet 的兩個參數，可判斷使用者的照片體驗 **DisplayPhoto** 和 **MaxPhotoSizeKB**。 對應 **DisplayPhoto** 和 **MaxPhotoSizeKB** 的內帶內布布建參數稱為 **PhotoUsage**。 **PhotoUsage**參數的值會透過**endpointConfiguration** **provisionGroup**傳送給用戶端。 如需詳細資訊，請參閱 [用戶端原則和設定的概述](https://go.microsoft.com/fwlink/?linkid=507470) 。
 
 **DisplayPhoto**參數值會決定使用者相片影像的來源。 下表包含支援的值。
 
@@ -167,7 +169,7 @@ Lync 2010 引進的功能可加入具有 Lync 設定檔的相片，以顯示給�
 
 ## <a name="how-lync-2010-client-gets-photos"></a>Lync 2010 用戶端如何取得相片
 
-在 Lync 2010 中，使用者相片是透過通訊錄服務在伺服器上管理。 Lync 用戶端會先查詢伺服器上的通訊錄 Web 查詢（ABWQ）服務（透過通訊群組清單擴充 Web 服務公開），以取得使用者相片。 用戶端會接收圖像檔案，然後將它複製到使用者的快取，以避免每次需要顯示圖像時進行下載。 從查詢傳回的屬性值也會儲存在使用者的快取通訊錄服務專案中。 通訊錄服務每24小時就會刪除所有快取的影像，這表示在伺服器的快取中，新使用者影像的更新最多可能需要24小時。 您可以使用[Update-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook) Cmdlet 強制更新快取。
+在 Lync 2010 中，使用者相片是透過通訊錄服務在伺服器上管理。 Lync 用戶端會先查詢伺服器上的通訊錄 Web 查詢 (ABWQ) 服務（透過通訊群組清單擴充 Web 服務公開），以取得使用者照片。 用戶端會接收圖像檔案，然後將它複製到使用者的快取，以避免每次需要顯示圖像時進行下載。 從查詢傳回的屬性值也會儲存在使用者的快取通訊錄服務專案中。 通訊錄服務每24小時就會刪除所有快取的影像，這表示在伺服器的快取中，新使用者影像的更新最多可能需要24小時。 您可以使用 [Update-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook) Cmdlet 強制更新快取。
 
 「目前狀態」中包含的使用者相片也有一個相關聯的雜湊值，Lync 用戶端使用該雜湊值來判斷是否有更新的影像可用。 用戶端會自動向顯示狀態中所用之圖像檔案的變更通知。
 
@@ -175,7 +177,7 @@ Lync 2010 引進的功能可加入具有 Lync 設定檔的相片，以顯示給�
 
 
 > [!NOTE]  
-> 因為相片未儲存在 GalContacts 資料庫中，所以下載使用者相片不會依存于用戶端原則（<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>）中的 [ <STRONG>AddressBookAvailability</STRONG> ] 設定。
+> 因為相片未儲存在 GalContacts 資料庫中，所以下載使用者相片與用戶端原則 (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>) 上的<STRONG>AddressBookAvailability</STRONG>設定無關。
 
 
 
@@ -193,7 +195,7 @@ ABWQ 服務的查詢包含下列屬性：
 
 接下來，在檢索影像檔之後，Lync 2010 用戶端會將從查詢所傳回的屬性值與用戶端從頻帶所接收的屬性值進行比較，以查看兩者是否不同。 如果這些值不同，用戶端會使用 HTTP GET 要求來檢索已登入使用者的影像檔。
 
-此外，用戶端會每隔24小時從該伺服器的快取版本所建立的時間，與用戶端上的值進行比較，以比較伺服器上的**PhotoHash**屬性值。 如果值不同，用戶端就會知道圖像檔已變更。 若要取得更新的映射檔，用戶端會重新查詢 ABWQ 服務，以使用伺服器上的映射檔更新用戶端快取中的映射檔，也就是在用戶端快取中重設檔上的**時間戳記**。
+此外，用戶端會每隔24小時從該伺服器的快取版本所建立的時間，與用戶端上的值進行比較，以比較伺服器上的 **PhotoHash** 屬性值。 如果值不同，用戶端就會知道圖像檔已變更。 若要取得更新的映射檔，用戶端會重新查詢 ABWQ 服務，以使用伺服器上的映射檔更新用戶端快取中的映射檔，也就是在用戶端快取中重設檔上的 **時間戳記** 。
 
 以下是對 ABWQ 服務的查詢回應範例：
 ```xml
@@ -226,13 +228,13 @@ ABWQ 服務的查詢包含下列屬性：
 
 Lync 2013 為使用者相片引進高解析度影像的支援。 Lync 2013 也包含支援在 Exchange 2013 上的使用者信箱中儲存使用者相片，這會移除 Lync 2010 中所提供的影像解析度和大小限制。 Lync 2013 中的使用者相片可以是最高648圖元的648圖元，檔案大小最高為 20 MB。 Lync 2013 中的高解析度相片必須位於 Exchange 2013 的使用者信箱中，而且只支援 Lync 2013 用戶端。 這種與 Exchange 的整合利用2013版本的 Lync、Exchange 及 SharePoint 稱為 Oauth 所包含的新授權架構。
 
-如果部署中未使用 Exchange 2013，則對使用者相片的支援與 Lync 2010 相同。 不過，在 Lync 2013 用戶端中，選擇要使用的相片的使用者選項是不同的。 在 Lync 2013 用戶端中，使用者可以選擇 [**隱藏我的圖片**] 或 [**顯示我的圖片**]。 預設不提供**從網站顯示圖片**的選項，但可透過指派用戶端原則來啟用。
+如果部署中未使用 Exchange 2013，則對使用者相片的支援與 Lync 2010 相同。 不過，在 Lync 2013 用戶端中，選擇要使用的相片的使用者選項是不同的。 在 Lync 2013 用戶端中，使用者可以選擇 [ **隱藏我的圖片** ] 或 [ **顯示我的圖片**]。 預設不提供 **從網站顯示圖片** 的選項，但可透過指派用戶端原則來啟用。
 
 <div>
 
 ## <a name="hide-my-picture"></a>隱藏我的圖片
 
-使用者相片的設定是在 Lync 2013 的 [**選項**] 對話方塊中。 當您選擇 [**隱藏我的圖片**] 時，不會在 lync 用戶端中為您顯示任何使用者相片，但您的相片仍會顯示在連絡人卡片上和 Lync 以外的地方。
+使用者相片的設定是在 Lync 2013 的 [ **選項** ] 對話方塊中。 當您選擇 [ **隱藏我的圖片**] 時，不會在 lync 用戶端中為您顯示任何使用者相片，但您的相片仍會顯示在連絡人卡片上和 Lync 以外的地方。
 
 </div>
 
@@ -240,7 +242,7 @@ Lync 2013 為使用者相片引進高解析度影像的支援。 Lync 2013 也�
 
 ## <a name="show-my-picture"></a>顯示我的圖片
 
-當您選擇 [**顯示我的圖片**] 選項時，您的使用者相片會顯示在您的 lync 用戶端，以及 lync 交談中的其他使用者。 使用的圖像是儲存在 AD DS 中的圖像。
+當您選擇 [ **顯示我的圖片** ] 選項時，您的使用者相片會顯示在您的 lync 用戶端，以及 lync 交談中的其他使用者。 使用的圖像是儲存在 AD DS 中的圖像。
 
 </div>
 
@@ -248,7 +250,7 @@ Lync 2013 為使用者相片引進高解析度影像的支援。 Lync 2013 也�
 
 ## <a name="show-a-picture-from-a-website"></a>顯示網站中的圖片
 
-在設定了用戶端原則加以啟用之後，Lync 2013 中的 [**顯示來自網站的圖片**] 選項便可供使用。 用戶端版本必須比15.0.4535.1002 （隨[Lync 累積更新安裝）：2013年11月](https://go.microsoft.com/fwlink/p/?linkid=509908)更新。 使用者可能需要登出後再重新登入，以查看用戶端中的變更。
+在設定了用戶端原則加以啟用之後，Lync 2013 中的 [ **顯示來自網站的圖片** ] 選項便可供使用。 用戶端版本必須比15.0.4535.1002 （隨 [Lync 累積更新安裝）：2013年11月](https://go.microsoft.com/fwlink/p/?linkid=509908)更新。 使用者可能需要登出後再重新登入，以查看用戶端中的變更。
 
 您可以在 Lync Server 管理命令介面中執行[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)原則，將用戶端原則設定為啟用**從網站設定來顯示圖片**。 下列 Cmdlet 範例會示範如何針對您部署中的所有使用者，全域設定原則：
 
@@ -297,7 +299,7 @@ Lync 2013 為使用者相片引進高解析度影像的支援。 Lync 2013 也�
 </colgroup>
 <thead>
 <tr class="header">
-<th>圖像解析度（圖元）</th>
+<th>圖像解析度 (圖元) </th>
 <th>應用程式</th>
 </tr>
 </thead>

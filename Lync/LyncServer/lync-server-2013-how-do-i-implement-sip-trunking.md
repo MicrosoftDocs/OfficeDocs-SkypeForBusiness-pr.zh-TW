@@ -12,20 +12,22 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28d9b55dff41e0013852b52eee97eb26fef3997e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ecd89ce28f1565e44c92ba543ccf992bb2a3c811
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204545"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504140"
 ---
+# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>如何在 Lync Server 2013 中實施 SIP 主幹？
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>如何在 Lync Server 2013 中實施 SIP 主幹？
+
 
 </div>
 
@@ -51,15 +53,15 @@ _**主題上次修改日期：** 2013-03-18_
 
 </div>
 
-如需有關轉送伺服器的詳細資訊，請參閱[Lync server 2013 中的轉送伺服器元件](lync-server-2013-mediation-server-component.md)。
+如需有關轉送伺服器的詳細資訊，請參閱 [Lync server 2013 中的轉送伺服器元件](lync-server-2013-mediation-server-component.md)。
 
 <div>
 
 ## <a name="centralized-vs-distributed-sip-trunking"></a>集中式與分散式 SIP 主幹的比較
 
-*集中式*SIP 主幹會將所有 Voice over Internet Protocol (VoIP) 流量，包括分支網站流量（透過您的中央網站）。 集中式部署模型是簡單、經濟划算的，通常是以 Lync Server 2013 實施 SIP 主幹的建議方法。
+*集中式* SIP 主幹會將所有 Voice over Internet Protocol (VoIP) 流量，包括分支網站流量（透過您的中央網站）。 集中式部署模型是簡單、經濟划算的，通常是以 Lync Server 2013 實施 SIP 主幹的建議方法。
 
-*分散式*SIP 主幹是一種部署模型，您可以在其中執行一或多個分支網站上的本機 SIP 主幹。 VoIP 流量會從分支網站直接路由傳送至服務提供者，而不需要透過中央網站。
+*分散式* SIP 主幹是一種部署模型，您可以在其中執行一或多個分支網站上的本機 SIP 主幹。 VoIP 流量會從分支網站直接路由傳送至服務提供者，而不需要透過中央網站。
 
 只有下列情況才必須使用分散式 SIP 主幹：
 
@@ -81,7 +83,7 @@ _**主題上次修改日期：** 2013-03-18_
 
 
 > [!NOTE]  
-> 如需有關分散式 SIP trunk 的詳細資訊，請參閱<A href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 中的分支網站 SIP</A>主幹。
+> 如需有關分散式 SIP trunk 的詳細資訊，請參閱 <A href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 中的分支網站 SIP</A>主幹。
 
 
 
@@ -153,7 +155,7 @@ Lync Server 2013 僅支援下列編解碼器：
 
 ## <a name="internet-telephony-service-provider"></a>網際網路電話語音服務提供者
 
-SIP 主幹連線之服務提供者端的實作方式，會根據 ITSP 而不同。 如需部署資訊，請連絡服務提供者。 如需認證 SIP 主幹服務提供者的清單，請參閱[Microsoft 整合通訊開啟互通性計畫網站](https://go.microsoft.com/fwlink/?linkid=287029)。
+SIP 主幹連線之服務提供者端的實作方式，會根據 ITSP 而不同。 如需部署資訊，請連絡服務提供者。 如需認證 SIP 主幹服務提供者的清單，請參閱 [Microsoft 整合通訊開啟互通性計畫網站](https://go.microsoft.com/fwlink/?linkid=287029)。
 
 如需 Microsoft 認證 SIP 主幹提供者的詳細資訊，請連絡 Microsoft 代表。
 

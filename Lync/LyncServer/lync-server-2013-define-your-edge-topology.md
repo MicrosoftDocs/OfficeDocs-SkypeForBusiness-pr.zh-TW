@@ -12,20 +12,22 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dec463e960a60e1c6d0251bf0c77300626e57c66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ceba1f397493ac0ef6961099877643f802c11d93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504560"
 ---
+# <a name="define-your-edge-topology-in-lync-server-2013"></a>在 Lync Server 2013 中定義您的 edge 拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-your-edge-topology-in-lync-server-2013"></a>在 Lync Server 2013 中定義您的 edge 拓撲
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42209144"
 
 _**主題上次修改日期：** 2012-09-28_
 
-您必須使用拓撲產生器來建立拓撲，而且必須先設定至少一個內部前端集區或 Standard Edition server，才能部署 Edge Server。 使用下列程式可定義單一 Edge Server 的 edge 拓撲，然後使用在[Lync server 2013 中發佈拓撲中](lync-server-2013-publish-your-topology.md)的程式，並[將 lync server 2013 拓撲複製到外部媒體以進行 edge 安裝](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)，以發行拓撲，並使其可供 edge Server 使用。
+您必須使用拓撲產生器來建立拓撲，而且必須先設定至少一個內部前端集區或 Standard Edition server，才能部署 Edge Server。 使用下列程式可定義單一 Edge Server 的 edge 拓撲，然後使用在 [Lync server 2013 中發佈拓撲中](lync-server-2013-publish-your-topology.md) 的程式，並 [將 lync server 2013 拓撲複製到外部媒體以進行 edge 安裝](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) ，以發行拓撲，並使其可供 edge Server 使用。
 
 <div>
 
@@ -49,9 +51,9 @@ _**主題上次修改日期：** 2012-09-28_
 
 </div>
 
-若要在新增或移除伺服器角色時，成功發行、啟用或停用拓撲，您必須以 RTCUniversalServerAdmins 和 Domain Admins 群組成員的使用者身分登入。 您也可以授與當伺服器角色新增至使用者帳戶時所需的管理員權限。 如需詳細資訊，請參閱 Standard Edition server 或 Enterprise Edition server 部署檔中的[Lync server 2013 中的委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。 若要進行其他組態變更，則僅需要 RTCUniversalServerAdmins 群組的成員資格。
+若要在新增或移除伺服器角色時，成功發行、啟用或停用拓撲，您必須以 RTCUniversalServerAdmins 和 Domain Admins 群組成員的使用者身分登入。 您也可以授與當伺服器角色新增至使用者帳戶時所需的管理員權限。 如需詳細資訊，請參閱 Standard Edition server 或 Enterprise Edition server 部署檔中的 [Lync server 2013 中的委派設定許可權](lync-server-2013-delegate-setup-permissions.md) 。 若要進行其他組態變更，則僅需要 RTCUniversalServerAdmins 群組的成員資格。
 
-如果您已在定義及發行內部拓撲時定義 Edge 拓撲，而且不需要對先前所定義的 Edge 拓撲進行變更，則不需要再定義和發行它一次。 只有需要對 Edge 拓撲進行變更時，才要使用下列程序。 您必須讓先前定義及發佈的拓撲可供 Edge Server 使用，您可以使用[匯出 Lync Server 2013 拓撲中的程式，並將它複製到 edge 安裝的外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)。
+如果您已在定義及發行內部拓撲時定義 Edge 拓撲，而且不需要對先前所定義的 Edge 拓撲進行變更，則不需要再定義和發行它一次。 只有需要對 Edge 拓撲進行變更時，才要使用下列程序。 您必須讓先前定義及發佈的拓撲可供 Edge Server 使用，您可以使用 [匯出 Lync Server 2013 拓撲中的程式，並將它複製到 edge 安裝的外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)。
 
 <div>
 
@@ -75,11 +77,11 @@ _**主題上次修改日期：** 2012-09-28_
 
 ## <a name="to-define-the-topology-for-a-single-edge-server"></a>若要定義單一 Edge Server 的拓撲
 
-1.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
+1.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
 
 2.  在主控台樹狀目錄中，展開想要部署 Edge Server 的網站。
 
-3.  以滑鼠右鍵按一下 [ **Edge**集區]，然後按一下 [**新增 edge 集**區]。
+3.  以滑鼠右鍵按一下 [ **Edge**集區]，然後按一下 [ **新增 edge 集**區]。
 
 4.  在 **[定義新的 Edge 集區]** 中，按 **[下一步]**。
 
@@ -91,7 +93,7 @@ _**主題上次修改日期：** 2012-09-28_
         
 
         > [!IMPORTANT]  
-        > 您指定的名稱必須與伺服器上設定的電腦名稱一模一樣。 根據預設，未加入網域的電腦，其電腦名稱是簡稱，而不是 FQDN。 拓撲產生器使用 Fqdn，而非短名稱。 因此，在要部署為 Edge Server 的電腦 (未加入網域) 名稱中，您必須設定 DNS 尾碼。 當您為 Lync Server、Edge Server 及集區指派 FQDN 時，只能使用標準字元 (包括 A–Z、a–z、0–9 與連字號)。 請勿使用 Unicode 字元或底線。 當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。 如需將 DNS 尾碼新增至電腦名稱稱的詳細資訊，請參閱<A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中設定 edge 支援的 dns</A>。
+        > 您指定的名稱必須與伺服器上設定的電腦名稱一模一樣。 根據預設，未加入網域的電腦，其電腦名稱是簡稱，而不是 FQDN。 拓撲產生器使用 Fqdn，而非短名稱。 因此，在要部署為 Edge Server 的電腦 (未加入網域) 名稱中，您必須設定 DNS 尾碼。 當您為 Lync Server、Edge Server 及集區指派 FQDN 時，只能使用標準字元 (包括 A–Z、a–z、0–9 與連字號)。 請勿使用 Unicode 字元或底線。 當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。 如需將 DNS 尾碼新增至電腦名稱稱的詳細資訊，請參閱 <A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中設定 edge 支援的 dns</A>。
 
         
         </div>
@@ -100,7 +102,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 6.  在 **[選取功能]** 中，執行下列動作：
     
-      - 如果您打算針對 SIP 存取服務、Lync Server 2013 Web 會議服務，以及 A/V Edge service 使用單一 FQDN 和 IP 位址，請選取 [**使用單一 fqdn 和 Ip 位址**] 核取方塊。
+      - 如果您打算針對 SIP 存取服務、Lync Server 2013 Web 會議服務，以及 A/V Edge service 使用單一 FQDN 和 IP 位址，請選取 [ **使用單一 fqdn 和 Ip 位址** ] 核取方塊。
     
       - 如果您打算啟用同盟，請選取 [啟用此 Edge 集區的同盟 (連接埠 5061)]**** 核取方塊。
         
@@ -210,7 +212,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 ## <a name="to-define-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>為 DNS 負載平衡 Edge Server 集區定義拓撲
 
-1.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
+1.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
 
 2.  在主控台樹狀目錄中，展開想要部署 Edge Server 的網站。
 
@@ -235,7 +237,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 6.  在 [選取功能]**** 中，執行下列動作：
     
-      - 如果您打算針對 SIP 存取、Lync Server 2013 Web 會議服務和 A/V Edge service 使用單一 FQDN 和 IP 位址，請選取 [**使用單一 fqdn 和 Ip 位址**] 核取方塊。
+      - 如果您打算針對 SIP 存取、Lync Server 2013 Web 會議服務和 A/V Edge service 使用單一 FQDN 和 IP 位址，請選取 [ **使用單一 fqdn 和 Ip 位址** ] 核取方塊。
     
       - 如果您打算啟用同盟，請選取 [啟用此 Edge 集區的同盟 (連接埠 5061)]**** 核取方塊。按 [下一步]****。
         
@@ -293,7 +295,7 @@ _**主題上次修改日期：** 2012-09-28_
         
 
         > [!NOTE]  
-        > 您指定的名稱必須與伺服器上設定的電腦名稱一模一樣。 根據預設，未加入網域的電腦，其電腦名稱是簡短名稱，而不是 FQDN。 拓撲產生器使用 Fqdn，而非短名稱。 因此，在要部署為 Edge Server 的電腦 (未加入網域) 名稱中，您必須設定 DNS 尾碼。 當您為 Lync Server、Edge Server、集區及陣列指派 FQDN 時，只能使用標準字元 (包括 A–Z、a–z、0–9 與連字號)。 請勿使用 Unicode 字元或底線。 當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。 如需將 DNS 尾碼新增至電腦名稱稱的詳細資訊，請參閱<A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中設定 edge 支援的 dns</A>。
+        > 您指定的名稱必須與伺服器上設定的電腦名稱一模一樣。 根據預設，未加入網域的電腦，其電腦名稱是簡短名稱，而不是 FQDN。 拓撲產生器使用 Fqdn，而非短名稱。 因此，在要部署為 Edge Server 的電腦 (未加入網域) 名稱中，您必須設定 DNS 尾碼。 當您為 Lync Server、Edge Server、集區及陣列指派 FQDN 時，只能使用標準字元 (包括 A–Z、a–z、0–9 與連字號)。 請勿使用 Unicode 字元或底線。 當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。 如需將 DNS 尾碼新增至電腦名稱稱的詳細資訊，請參閱 <A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中設定 edge 支援的 dns</A>。
 
         
         </div>
@@ -381,11 +383,11 @@ _**主題上次修改日期：** 2012-09-28_
 
 ## <a name="to-define-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>定義硬體負載平衡 Edge Server 集區的拓撲
 
-1.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
+1.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
 
 2.  在主控台樹狀目錄中，展開想要部署 Edge Server 的網站。
 
-3.  以滑鼠右鍵按一下 [ **Edge**集區]，然後選取 [**新增 edge 集**區]。
+3.  以滑鼠右鍵按一下 [ **Edge**集區]，然後選取 [ **新增 edge 集**區]。
 
 4.  在 **[定義新的 Edge 集區]** 中，按 **[下一步]**。
 
@@ -404,11 +406,11 @@ _**主題上次修改日期：** 2012-09-28_
     
     <!-- end list -->
     
-      - 按一下 [**多部電腦集**區]，然後按一下 **[下一步]**。
+      - 按一下 [ **多部電腦集**區]，然後按一下 **[下一步]**。
 
 6.  在 **[選取功能]** 中，執行下列動作：
     
-      - 如果您打算針對 SIP 存取服務、Lync Server Web 會議服務和 A/V Edge service 使用單一 FQDN 和 IP 位址，請選取 [**使用單一 fqdn & IP 位址**] 核取方塊。
+      - 如果您打算針對 SIP 存取服務、Lync Server Web 會議服務和 A/V Edge service 使用單一 FQDN 和 IP 位址，請選取 [ **使用單一 fqdn & IP 位址** ] 核取方塊。
     
       - 如果您打算啟用同盟，請選取 **[啟用此 Edge 集區的同盟 (連接埠 5061)]** 核取方塊。
         

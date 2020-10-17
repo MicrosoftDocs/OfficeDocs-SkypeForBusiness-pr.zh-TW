@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 委派設定權限
+title: Lync Server 2013：委派設定許可權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0fcf148e5e3cc4003dac97e8ef5ca9f1b2e678a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 453da166895c79cafe9f9637163e93a63ebccd75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504280"
 ---
+# <a name="delegate-setup-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中委派設定許可權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegate-setup-permissions-in-lync-server-2013"></a>Lync Server 2013 中的委派設定權限
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42204599"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-02-05_
+_**主題上次修改日期：** 2014-02-05_
 
-如果您不想要授與使用者或群組，已部署 Lync Server 2013 中的 Domain Admins 群組的成員資格，您可以啟用要執行**Enable-cstopology**的 RTCUniversalServerAdmins 群組的成員 執行 Lync Server 2013 的伺服器上的 Windows PowerShell cmdlet。 根據預設，以 RTCUniversalServerAdmins 群組的成員沒有執行此 cmdlet 的功能。 您系統管理員權限授與的權限執行 Lync Server 使用**Grant-cssetuppermission** cmdlet 並指定組織單位 (OU) 執行 Lync Server 2013 之伺服器的電腦物件的所在位置的伺服器上執行**Enable-cstopology** 。
+如果您不想要將 Domain Admins 群組的成員資格授與部署 Lync Server 2013 的使用者或群組，您可以啟用 RTCUniversalServerAdmins 群組的成員，以**Enable-CsTopology**   在執行 lync server 2013 的伺服器上執行 Enable-CsTopology Windows PowerShell Cmdlet。 根據預設，RTCUniversalServerAdmins 群組的成員不具備執行此 Cmdlet 的能力。 在執行 Lync Server 的伺服器上，使用**Grant-CsSetupPermission**指令程式，並指定組織單位 (OU) （位於執行 lync server 2013 之伺服器的電腦物件所在的位置），授與系統管理員的許可權，以執行**Enable-CsTopology** 。
 
-當您安裝 Lync Server 的網域準備工作不會自動新增權限可讓執行 Enable-cstopology 指令程式，以 RTCUniversalServerAdmins 群組的成員。 這代表根據預設，您必須為網域系統管理員才能啟用拓樸。 您必須執行 Grant-CsSetupPermissions Cmdlet，才能給予 RTCUniversalServerAdmins 群組成員權限以啟用拓樸。 此外，您必須針對每一個 Active Directory 容器中會存放在執行 Lync Server 的電腦執行此 cmdlet。
+安裝 Lync Server 時所進行的網域準備不會自動新增允許 RTCUniversalServerAdmins 群組成員執行 Enable-CsTopology Cmdlet 的許可權。 這代表根據預設，您必須為網域系統管理員才能啟用拓樸。 您必須執行 Grant-CsSetupPermissions Cmdlet，才能給予 RTCUniversalServerAdmins 群組成員權限以啟用拓樸。 此外，您需要針對駐留執行 Lync Server 之電腦的每個 Active Directory 容器執行此 Cmdlet。
 
 請記住，這個 Cmdlet 只會將權限授與 RTCUniversalServerAdmins 群組；您無法使用這個 Cmdlet 將權限授與其他安全性群組或個別使用者。
 
@@ -47,7 +49,7 @@ _**上次修改主題：** 2014年-02-05_
 
 
 > [!NOTE]  
-> <STRONG>Enable-cstopology</STRONG>是允許 RTCUniversalServerAdmins 群組成員設定及部署 Lync Server 2013 的主要 cmdlet。
+> <STRONG>Enable-CsTopology</STRONG> 是允許 RTCUniversalServerAdmins 群組成員設定及部署 Lync Server 2013 的金鑰 Cmdlet。
 
 
 
@@ -55,13 +57,13 @@ _**上次修改主題：** 2014年-02-05_
 
 <div>
 
-## <a name="to-add-the-ability-to-run-enable-cstopology-to-the-rtcuniversalserveradmins-group"></a>若要新增至 RTCUniversalServerAdmins 群組執行 Enable-cstopology 的能力
+## <a name="to-add-the-ability-to-run-enable-cstopology-to-the-rtcuniversalserveradmins-group"></a>新增執行 Enable-CsTopology 至 RTCUniversalServerAdmins 群組的能力
 
-1.  委派的使用者將執行**Enable-cstopology**的網域之 Domain Admins 群組成員身分登入伺服器。
+1.  以委派使用者將在其上執行之網域的 Domain Admins 群組成員身分登入伺服器 **Enable-CsTopology**。
 
-2.  開啟 [Lync Server 2013 管理命令介面]。 Lync Server 2013 管理命令介面會自動安裝在每部前端伺服器或 Lync Server 2013 系統管理工具必須已安裝的任何電腦上。 如需 Lync Server 2013 管理命令介面的詳細資訊，請參閱作業文件中的[Lync Server 2013 管理命令介面](lync-server-2013-lync-server-management-shell.md)。
+2.  開啟 [Lync Server 2013 管理命令介面]。 Lync Server 2013 管理命令介面會自動安裝在每一部前端伺服器或已安裝 Lync Server 2013 系統管理工具的任何電腦上。 如需 Lync Server 2013 管理命令介面的詳細資訊，請參閱 Operations 檔中的 [Lync server 2013 管理命令](lync-server-2013-lync-server-management-shell.md) 介面。
 
-3.  從 Lync Server 2013 管理命令介面中執行下列 cmdlet:
+3.  從 Lync Server 2013 管理命令介面執行下列 Cmdlet：
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
@@ -69,12 +71,12 @@ _**上次修改主題：** 2014年-02-05_
     
 
     > [!NOTE]  
-    > 如果 OU 不是最上層網站，您必須提供的完整網域名稱。
+    > 如果 OU 不是最上層，您必須提供完整的功能變數名稱。
 
     
     </div>
     
-    在下列範例中，OU 為"Lync Servers 」，也就是 contoso.com 網域中。
+    在下列範例中，OU 為 "Lync Servers" （位於 contoso.com 網域中）。
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com
 
