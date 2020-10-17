@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 媒體品質比較報告
+title: Lync Server 2013：媒體質量比較報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3be8be9c600fced3087f20fe70d137d759fb9d29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05b157be6cc94f0b01dbefadfd89041118b944e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217669"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500660"
 ---
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a><span data-ttu-id="4898d-102">Lync Server 2013 中的媒體質量比較報告</span><span class="sxs-lookup"><span data-stu-id="4898d-102">Media Quality Comparison Report in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a><span data-ttu-id="bd36b-102">Lync Server 2013 中的媒體品質比較報告</span><span class="sxs-lookup"><span data-stu-id="bd36b-102">Media Quality Comparison Report in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42217669"
 
 <span> </span>
 
-<span data-ttu-id="bd36b-103">_**上次修改主題：** 2014年-04-22_</span><span class="sxs-lookup"><span data-stu-id="bd36b-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="4898d-103">_**主題上次修改日期：** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="4898d-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="bd36b-104">媒體品質比較報告可讓您比較不同類型的音訊通話 （例如，透過無線網路與有線連線之間進行的呼叫進行的通話） 的通話品質值。</span><span class="sxs-lookup"><span data-stu-id="bd36b-104">The Media Quality Comparison Report enables you to compare call quality values for different types of audio calls (for example, calls made over a wireless network vs. calls made across a wired connection).</span></span>
+<span data-ttu-id="4898d-104">媒體質量比較報告可讓您比較不同音訊通話類型的通話品質值 (例如，透過無線網路撥打的通話，以及透過有線連線進行的通話) 。</span><span class="sxs-lookup"><span data-stu-id="4898d-104">The Media Quality Comparison Report enables you to compare call quality values for different types of audio calls (for example, calls made over a wireless network vs. calls made across a wired connection).</span></span>
 
 <div>
 
-## <a name="accessing-the-media-quality-comparison-report"></a><span data-ttu-id="bd36b-105">存取媒體品質比較報告</span><span class="sxs-lookup"><span data-stu-id="bd36b-105">Accessing the Media Quality Comparison Report</span></span>
+## <a name="accessing-the-media-quality-comparison-report"></a><span data-ttu-id="4898d-105">存取媒體質量比較報告</span><span class="sxs-lookup"><span data-stu-id="4898d-105">Accessing the Media Quality Comparison Report</span></span>
 
-<span data-ttu-id="bd36b-106">從監視報告首頁存取媒體品質比較報告。</span><span class="sxs-lookup"><span data-stu-id="bd36b-106">The Media Quality Comparison Report is accessed from the Monitoring Reports home page.</span></span>
+<span data-ttu-id="4898d-106">媒體質量比較報告可從監控報告的首頁進行存取。</span><span class="sxs-lookup"><span data-stu-id="4898d-106">The Media Quality Comparison Report is accessed from the Monitoring Reports home page.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="bd36b-107">篩選</span><span class="sxs-lookup"><span data-stu-id="bd36b-107">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="4898d-107">篩選</span><span class="sxs-lookup"><span data-stu-id="4898d-107">Filters</span></span>
 
-<span data-ttu-id="bd36b-108">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="bd36b-108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="bd36b-109">下表列出您可以搭配媒體品質比較報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="bd36b-109">The following table lists the filters that you can use with the Media Quality Comparison Report.</span></span>
+<span data-ttu-id="4898d-108">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="4898d-108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="4898d-109">下表列出您可以搭配媒體質量比較報告使用的篩選器。</span><span class="sxs-lookup"><span data-stu-id="4898d-109">The following table lists the filters that you can use with the Media Quality Comparison Report.</span></span>
 
-### <a name="media-quality-comparison-report-filters"></a><span data-ttu-id="bd36b-110">媒體品質比較報告篩選器</span><span class="sxs-lookup"><span data-stu-id="bd36b-110">Media Quality Comparison Report Filters</span></span>
+### <a name="media-quality-comparison-report-filters"></a><span data-ttu-id="4898d-110">媒體質量比較報表篩選</span><span class="sxs-lookup"><span data-stu-id="4898d-110">Media Quality Comparison Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -62,78 +64,78 @@ ms.locfileid: "42217669"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bd36b-111">名稱</span><span class="sxs-lookup"><span data-stu-id="bd36b-111">Name</span></span></th>
-<th><span data-ttu-id="bd36b-112">描述</span><span class="sxs-lookup"><span data-stu-id="bd36b-112">Description</span></span></th>
+<th><span data-ttu-id="4898d-111">名稱</span><span class="sxs-lookup"><span data-stu-id="4898d-111">Name</span></span></th>
+<th><span data-ttu-id="4898d-112">描述</span><span class="sxs-lookup"><span data-stu-id="4898d-112">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-113"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-113"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-p102">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="bd36b-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="bd36b-116">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="bd36b-116">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="bd36b-p103">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="bd36b-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="bd36b-119">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="bd36b-119">7/7/2012</span></span></p>
-<p><span data-ttu-id="bd36b-120">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="bd36b-120">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="bd36b-121">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="bd36b-121">7/3/2012</span></span></p>
-<p><span data-ttu-id="bd36b-122">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="bd36b-122">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-113"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-113"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-p102">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="4898d-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="4898d-116">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="4898d-116">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="4898d-p103">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="4898d-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="4898d-119">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="4898d-119">7/7/2012</span></span></p>
+<p><span data-ttu-id="4898d-120">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="4898d-120">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="4898d-121">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="4898d-121">7/3/2012</span></span></p>
+<p><span data-ttu-id="4898d-122">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="4898d-122">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bd36b-123"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-123"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-p104">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="bd36b-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="bd36b-126">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="bd36b-126">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="bd36b-p105">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="bd36b-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="bd36b-129">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="bd36b-129">7/7/2012</span></span></p>
-<p><span data-ttu-id="bd36b-130">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="bd36b-130">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="bd36b-131">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="bd36b-131">7/3/2012</span></span></p>
-<p><span data-ttu-id="bd36b-132">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="bd36b-132">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-123"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-123"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-p104">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="4898d-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="4898d-126">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="4898d-126">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="4898d-p105">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="4898d-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="4898d-129">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="4898d-129">7/7/2012</span></span></p>
+<p><span data-ttu-id="4898d-130">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="4898d-130">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="4898d-131">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="4898d-131">7/3/2012</span></span></p>
+<p><span data-ttu-id="4898d-132">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="4898d-132">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-133"><strong>通話</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-133"><strong>Calls</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-134">呼叫，以做為主要比較項目類型。</span><span class="sxs-lookup"><span data-stu-id="bd36b-134">Type of call to be used as the main comparison item.</span></span> <span data-ttu-id="bd36b-135">允許的值為：</span><span class="sxs-lookup"><span data-stu-id="bd36b-135">Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="4898d-133"><strong>調用</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-133"><strong>Calls</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-134">要用來做為主要比較專案的呼叫類型。</span><span class="sxs-lookup"><span data-stu-id="4898d-134">Type of call to be used as the main comparison item.</span></span> <span data-ttu-id="4898d-135">允許的值為：</span><span class="sxs-lookup"><span data-stu-id="4898d-135">Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="bd36b-136">[全部]</span><span class="sxs-lookup"><span data-stu-id="bd36b-136">[All]</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-137">External</span><span class="sxs-lookup"><span data-stu-id="bd36b-137">External</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-138">內部</span><span class="sxs-lookup"><span data-stu-id="bd36b-138">Internal</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-139">VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-139">VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-140">非 VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-140">Non-VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-141">有線</span><span class="sxs-lookup"><span data-stu-id="bd36b-141">Wired</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-142">無線</span><span class="sxs-lookup"><span data-stu-id="bd36b-142">Wireless</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-143">外部和有線</span><span class="sxs-lookup"><span data-stu-id="bd36b-143">External and wired</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-144">外部和無線</span><span class="sxs-lookup"><span data-stu-id="bd36b-144">External and wireless</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-145">外部和 VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-145">External and VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-146">外部和非 VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-146">External and non-VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-147">內部和有線</span><span class="sxs-lookup"><span data-stu-id="bd36b-147">Internal and wired</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-148">內部和無線</span><span class="sxs-lookup"><span data-stu-id="bd36b-148">Internal and wireless</span></span></p></li>
+<li><p><span data-ttu-id="4898d-136">一切</span><span class="sxs-lookup"><span data-stu-id="4898d-136">[All]</span></span></p></li>
+<li><p><span data-ttu-id="4898d-137">外部</span><span class="sxs-lookup"><span data-stu-id="4898d-137">External</span></span></p></li>
+<li><p><span data-ttu-id="4898d-138">內部</span><span class="sxs-lookup"><span data-stu-id="4898d-138">Internal</span></span></p></li>
+<li><p><span data-ttu-id="4898d-139">VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-139">VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-140">非 VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-140">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-141">有線</span><span class="sxs-lookup"><span data-stu-id="4898d-141">Wired</span></span></p></li>
+<li><p><span data-ttu-id="4898d-142">無線</span><span class="sxs-lookup"><span data-stu-id="4898d-142">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="4898d-143">外部和有線</span><span class="sxs-lookup"><span data-stu-id="4898d-143">External and wired</span></span></p></li>
+<li><p><span data-ttu-id="4898d-144">外部和無線</span><span class="sxs-lookup"><span data-stu-id="4898d-144">External and wireless</span></span></p></li>
+<li><p><span data-ttu-id="4898d-145">外部和 VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-145">External and VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-146">外部和非 VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-146">External and non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-147">內部和有線</span><span class="sxs-lookup"><span data-stu-id="4898d-147">Internal and wired</span></span></p></li>
+<li><p><span data-ttu-id="4898d-148">內部和無線</span><span class="sxs-lookup"><span data-stu-id="4898d-148">Internal and wireless</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bd36b-149"><strong>比較通話</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-149"><strong>Compare with calls</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-150">呼叫，以做為次要比較項目類型。</span><span class="sxs-lookup"><span data-stu-id="bd36b-150">Type of call to be used as the secondary comparison item.</span></span> <span data-ttu-id="bd36b-151">允許的值為：</span><span class="sxs-lookup"><span data-stu-id="bd36b-151">Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="4898d-149"><strong>與通話比較</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-149"><strong>Compare with calls</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-150">要用來做為次要比較專案的呼叫類型。</span><span class="sxs-lookup"><span data-stu-id="4898d-150">Type of call to be used as the secondary comparison item.</span></span> <span data-ttu-id="4898d-151">允許的值為：</span><span class="sxs-lookup"><span data-stu-id="4898d-151">Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="bd36b-152">[全部]</span><span class="sxs-lookup"><span data-stu-id="bd36b-152">[All]</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-153">External</span><span class="sxs-lookup"><span data-stu-id="bd36b-153">External</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-154">內部</span><span class="sxs-lookup"><span data-stu-id="bd36b-154">Internal</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-155">VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-155">VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-156">非 VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-156">Non-VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-157">有線</span><span class="sxs-lookup"><span data-stu-id="bd36b-157">Wired</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-158">無線</span><span class="sxs-lookup"><span data-stu-id="bd36b-158">Wireless</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-159">外部和有線</span><span class="sxs-lookup"><span data-stu-id="bd36b-159">External and wired</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-160">外部和無線</span><span class="sxs-lookup"><span data-stu-id="bd36b-160">External and wireless</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-161">外部和 VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-161">External and VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-162">外部和非 VPN</span><span class="sxs-lookup"><span data-stu-id="bd36b-162">External and non-VPN</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-163">內部和有線</span><span class="sxs-lookup"><span data-stu-id="bd36b-163">Internal and wired</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-164">內部和無線</span><span class="sxs-lookup"><span data-stu-id="bd36b-164">Internal and wireless</span></span></p></li>
+<li><p><span data-ttu-id="4898d-152">一切</span><span class="sxs-lookup"><span data-stu-id="4898d-152">[All]</span></span></p></li>
+<li><p><span data-ttu-id="4898d-153">外部</span><span class="sxs-lookup"><span data-stu-id="4898d-153">External</span></span></p></li>
+<li><p><span data-ttu-id="4898d-154">內部</span><span class="sxs-lookup"><span data-stu-id="4898d-154">Internal</span></span></p></li>
+<li><p><span data-ttu-id="4898d-155">VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-155">VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-156">非 VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-156">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-157">有線</span><span class="sxs-lookup"><span data-stu-id="4898d-157">Wired</span></span></p></li>
+<li><p><span data-ttu-id="4898d-158">無線</span><span class="sxs-lookup"><span data-stu-id="4898d-158">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="4898d-159">外部和有線</span><span class="sxs-lookup"><span data-stu-id="4898d-159">External and wired</span></span></p></li>
+<li><p><span data-ttu-id="4898d-160">外部和無線</span><span class="sxs-lookup"><span data-stu-id="4898d-160">External and wireless</span></span></p></li>
+<li><p><span data-ttu-id="4898d-161">外部和 VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-161">External and VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-162">外部和非 VPN</span><span class="sxs-lookup"><span data-stu-id="4898d-162">External and non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="4898d-163">內部和有線</span><span class="sxs-lookup"><span data-stu-id="4898d-163">Internal and wired</span></span></p></li>
+<li><p><span data-ttu-id="4898d-164">內部和無線</span><span class="sxs-lookup"><span data-stu-id="4898d-164">Internal and wireless</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-165"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-165"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-p108">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="bd36b-p108">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="4898d-165"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-165"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-p108">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="4898d-p108">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="bd36b-168">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="bd36b-168">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-169">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="bd36b-169">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="bd36b-170">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="bd36b-170">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="4898d-168">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="4898d-168">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="4898d-169">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="4898d-169">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="4898d-170">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="4898d-170">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="bd36b-p109">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="bd36b-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="4898d-p109">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="4898d-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -143,11 +145,11 @@ ms.locfileid: "42217669"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="bd36b-173">計量</span><span class="sxs-lookup"><span data-stu-id="bd36b-173">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="4898d-173">指標</span><span class="sxs-lookup"><span data-stu-id="4898d-173">Metrics</span></span>
 
-<span data-ttu-id="bd36b-174">下表列出媒體品質比較報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="bd36b-174">The following table lists the information provided in the Media Quality Comparison Report.</span></span>
+<span data-ttu-id="4898d-174">下表列出媒體質量比較報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="4898d-174">The following table lists the information provided in the Media Quality Comparison Report.</span></span>
 
-### <a name="media-quality-comparison-report-metrics"></a><span data-ttu-id="bd36b-175">媒體品質比較報告計量</span><span class="sxs-lookup"><span data-stu-id="bd36b-175">Media Quality Comparison Report Metrics</span></span>
+### <a name="media-quality-comparison-report-metrics"></a><span data-ttu-id="4898d-175">媒體質量比較報告度量</span><span class="sxs-lookup"><span data-stu-id="4898d-175">Media Quality Comparison Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -157,58 +159,58 @@ ms.locfileid: "42217669"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bd36b-176">名稱</span><span class="sxs-lookup"><span data-stu-id="bd36b-176">Name</span></span></th>
-<th><span data-ttu-id="bd36b-177">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="bd36b-177">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="bd36b-178">說明</span><span class="sxs-lookup"><span data-stu-id="bd36b-178">Description</span></span></th>
+<th><span data-ttu-id="4898d-176">姓名</span><span class="sxs-lookup"><span data-stu-id="4898d-176">Name</span></span></th>
+<th><span data-ttu-id="4898d-177">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="4898d-177">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="4898d-178">描述</span><span class="sxs-lookup"><span data-stu-id="4898d-178">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-179"><strong>[通話數</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-179"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-180">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-180">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-181">通話總數。</span><span class="sxs-lookup"><span data-stu-id="bd36b-181">Total number of calls.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-179"><strong>通話數量</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-179"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-180">否</span><span class="sxs-lookup"><span data-stu-id="4898d-180">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-181">通話總數。</span><span class="sxs-lookup"><span data-stu-id="4898d-181">Total number of calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bd36b-182"><strong>降低 (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-182"><strong>Degradation (MOS)</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-183">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-183">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-184">平均量 MOS （平均意見分數） 降低在通話期間發生的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bd36b-184">Average amount of MOS (mean opinion score) degradation experienced during a call.</span></span> <span data-ttu-id="bd36b-185">降低值可介於 0.0 的低到高的 5.0;為 0.5 或更低的值代表可接受的效能下降。</span><span class="sxs-lookup"><span data-stu-id="bd36b-185">Degradation values can range from a low of 0.0 to a high of 5.0; a value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="bd36b-186">在過去，平均意見分數已計算方式是讓使用者在 1 到 5 的小數位數率通話品質。</span><span class="sxs-lookup"><span data-stu-id="bd36b-186">Historically, mean opinion scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="bd36b-187">Lync Server 使用一組演算法來預測如何使用者會有分級通話。</span><span class="sxs-lookup"><span data-stu-id="bd36b-187">Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
-<p><span data-ttu-id="bd36b-188">高的效能下降值會造成壅塞;缺少的頻寬;無線壅塞干擾，或已多載的媒體伺服器或端點。</span><span class="sxs-lookup"><span data-stu-id="bd36b-188">High degradation values can be caused by congestion; lack of bandwidth; wireless congestion or interference, or an overloaded media server or endpoint.</span></span> <span data-ttu-id="bd36b-189">高降低的情形會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="bd36b-189">High degradation results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-182"><strong>MOS) 降級 (</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-182"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-183">否</span><span class="sxs-lookup"><span data-stu-id="4898d-183">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-184">平均 MOS 金額 (平均平均觀點) 通話期間的效能。</span><span class="sxs-lookup"><span data-stu-id="4898d-184">Average amount of MOS (mean opinion score) degradation experienced during a call.</span></span> <span data-ttu-id="4898d-185">降級值的範圍從低0.0 到高 5.0;值0.5 或更少代表可接受的降級。</span><span class="sxs-lookup"><span data-stu-id="4898d-185">Degradation values can range from a low of 0.0 to a high of 5.0; a value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="4898d-186">從過去開始，平均觀點是透過讓使用者以1到5的比例來評分呼叫的品質來計算。</span><span class="sxs-lookup"><span data-stu-id="4898d-186">Historically, mean opinion scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="4898d-187">Lync Server 會使用一組演算法來預測使用者對通話的評分方式。</span><span class="sxs-lookup"><span data-stu-id="4898d-187">Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="4898d-188">嚴重降級值可能是由於擁塞所造成;缺乏頻寬;無線擁塞或干擾，或超載的媒體伺服器或端點。</span><span class="sxs-lookup"><span data-stu-id="4898d-188">High degradation values can be caused by congestion; lack of bandwidth; wireless congestion or interference, or an overloaded media server or endpoint.</span></span> <span data-ttu-id="4898d-189">高降級導致音訊失真或遺失。</span><span class="sxs-lookup"><span data-stu-id="4898d-189">High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-190"><strong>通話不良百分比</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-190"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-191">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-191">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-192">歸類為不良的通話總數。</span><span class="sxs-lookup"><span data-stu-id="bd36b-192">The total number of calls classified as poor.</span></span> <span data-ttu-id="bd36b-193">通話不良是指至少一項計算超出允許的值 （例如，通話過多的抖動） 任何來電。</span><span class="sxs-lookup"><span data-stu-id="bd36b-193">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="4898d-190"><strong>通話百分比不佳</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-190"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-191">否</span><span class="sxs-lookup"><span data-stu-id="4898d-191">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-192">分類為不良的呼叫總數。</span><span class="sxs-lookup"><span data-stu-id="4898d-192">The total number of calls classified as poor.</span></span> <span data-ttu-id="4898d-193">不佳的來電是指至少有一個衡量的衡量值超出允許的值 (例如，來電已有過高的抖動) 。</span><span class="sxs-lookup"><span data-stu-id="4898d-193">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bd36b-194"><strong>往返時間 （毫秒）</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-194"><strong>Round trip (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-195">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-195">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-196">平均量 （以毫秒為單位） 所需的即時傳輸通訊協定封包傳輸至另一個端點，再重新。</span><span class="sxs-lookup"><span data-stu-id="bd36b-196">Average amount of (in milliseconds) required for a Real-Time Transport Protocol packet to travel to another endpoint and then back.</span></span> <span data-ttu-id="bd36b-197">200 毫秒或更低的來回行程時間會被視為的可接受的品質。</span><span class="sxs-lookup"><span data-stu-id="bd36b-197">Round-trip times of 200 milliseconds or less are considered of acceptable quality.</span></span></p>
-<p><span data-ttu-id="bd36b-198">高的來回行程值可能被因國際電話路由;路由設定錯誤;或超載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="bd36b-198">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server.</span></span> <span data-ttu-id="bd36b-199">高的來回行程時間會導致雙向、 即時音訊交談的問題。</span><span class="sxs-lookup"><span data-stu-id="bd36b-199">High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-194"><strong>來回行程 (毫秒) </strong></span><span class="sxs-lookup"><span data-stu-id="4898d-194"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-195">否</span><span class="sxs-lookup"><span data-stu-id="4898d-195">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-196">Real-Time 傳輸通訊協定封包傳送到另一個端點後再回的平均 (量（毫秒）) 所需。</span><span class="sxs-lookup"><span data-stu-id="4898d-196">Average amount of (in milliseconds) required for a Real-Time Transport Protocol packet to travel to another endpoint and then back.</span></span> <span data-ttu-id="4898d-197">在200毫秒或更少的來回行程時間，會考慮可接受的品質。</span><span class="sxs-lookup"><span data-stu-id="4898d-197">Round-trip times of 200 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="4898d-198">高來回行程值可能是由國際通話路由所造成;路由傳送錯誤;或重載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="4898d-198">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server.</span></span> <span data-ttu-id="4898d-199">較高的往返時間會導致使用雙向即時音訊交談的困難。</span><span class="sxs-lookup"><span data-stu-id="4898d-199">High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-200"><strong>封包遺失</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-200"><strong>Packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-201">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-201">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-202">即時傳輸通訊協定 (RTP) 封包遺失平均速率。</span><span class="sxs-lookup"><span data-stu-id="bd36b-202">Average rate of Real-Time Transport Protocol (RTP) packet loss.</span></span> <span data-ttu-id="bd36b-203">（封包遺失發生於 RTP 封包，用於傳輸音訊和視訊在網際網路上的通訊協定無法到達其目的地）。高遺失率是通常會因壅塞;缺少的頻寬;無線壅塞或干擾;或超載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="bd36b-203">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server.</span></span> <span data-ttu-id="bd36b-204">封包遺失通常會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="bd36b-204">Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-200"><strong>封包遺失</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-200"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-201">否</span><span class="sxs-lookup"><span data-stu-id="4898d-201">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-202"> (RTP) 封包遺失 Real-Time 傳輸通訊協定的平均速率。</span><span class="sxs-lookup"><span data-stu-id="4898d-202">Average rate of Real-Time Transport Protocol (RTP) packet loss.</span></span> <span data-ttu-id="4898d-203">當 RTP 封包（用於透過網際網路傳送音訊和影片的通訊協定）無法抵達目的地時，就會發生 (封包遺失。 ) 高遺失率通常是由擁塞所造成;缺乏頻寬;無線擁塞或干擾;或重載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="4898d-203">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server.</span></span> <span data-ttu-id="4898d-204">封包遺失通常會導致音訊失真或遺失。</span><span class="sxs-lookup"><span data-stu-id="4898d-204">Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bd36b-205"><strong>抖動 (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-205"><strong>Jitter (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-206">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-206">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-207">偵測到之間 RTP 封包抵達的平均抖動值。</span><span class="sxs-lookup"><span data-stu-id="bd36b-207">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="bd36b-208">(抖動是評量&quot;shakiness&quot;的呼叫。)高抖動值通常是造成壅塞或超載的媒體伺服器，並導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="bd36b-208">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-205"><strong>抖動 (毫秒) </strong></span><span class="sxs-lookup"><span data-stu-id="4898d-205"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-206">否</span><span class="sxs-lookup"><span data-stu-id="4898d-206">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-207">在 RTP 封包抵達之間偵測到的平均抖動。</span><span class="sxs-lookup"><span data-stu-id="4898d-207">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="4898d-208"> (抖動是指 &quot; 通話的 shakiness 量 &quot; 。 ) 高抖動值通常是由擁塞或超載的媒體伺服器所造成，而且會產生失真或遺失的音訊。</span><span class="sxs-lookup"><span data-stu-id="4898d-208">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-209"><strong>修復隱藏比率</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-209"><strong>Healer concealed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-210">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-210">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-211">之隱藏樣本總數總計的音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="bd36b-211">Average ratio of concealed audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="bd36b-212">（隱藏的音訊取樣是用來平滑出通常會因首的網路封包突然轉換技術）。高的值可指出重大的層級套用的遺失隱藏聲音因封包遺失及抖動，導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="bd36b-212">(A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-209"><strong>修復隱藏比率</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-209"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-210">否</span><span class="sxs-lookup"><span data-stu-id="4898d-210">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-211">隱藏音訊樣本的平均比率與樣本總數總數。</span><span class="sxs-lookup"><span data-stu-id="4898d-211">Average ratio of concealed audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="4898d-212"> (隱藏的音訊範例是一種技術，它通常是因丟棄網路資料包而造成的強烈轉換。 ) 高值表示因封包遺失或抖動所造成的 concealment 損毀，並產生失真或遺失的音訊。</span><span class="sxs-lookup"><span data-stu-id="4898d-212">(A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bd36b-213"><strong>修復延伸的比率</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-213"><strong>Healer stretched ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-214">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-214">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-215">範例總數總計的延伸音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="bd36b-215">Average ratio of stretched audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="bd36b-216">（延伸的音訊是已擴充為維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例拉長因抖動，而導致音訊發音機械或扭曲。</span><span class="sxs-lookup"><span data-stu-id="bd36b-216">(Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-213"><strong>修復延伸比率</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-213"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-214">否</span><span class="sxs-lookup"><span data-stu-id="4898d-214">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-215">延伸音訊樣本的平均比例與樣本總數總數。</span><span class="sxs-lookup"><span data-stu-id="4898d-215">Average ratio of stretched audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="4898d-216"> (延伸的音訊是已展開的音訊，可在偵測到網路封包時，維持通話品質。 ) 高值會指出抖動所造成的大量樣本拉伸層級，並導致音訊的自動或失真。</span><span class="sxs-lookup"><span data-stu-id="4898d-216">(Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bd36b-217"><strong>修復壓縮的比率</strong></span><span class="sxs-lookup"><span data-stu-id="bd36b-217"><strong>Healer compressed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="bd36b-218">否</span><span class="sxs-lookup"><span data-stu-id="bd36b-218">No</span></span></p></td>
-<td><p><span data-ttu-id="bd36b-219">範例總數的壓縮音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="bd36b-219">Average ratio of compressed audio samples to the total number of samples.</span></span> <span data-ttu-id="bd36b-220">（壓縮的音訊是已壓縮，並維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例壓縮因抖動，而導致音訊發音加速或失真。</span><span class="sxs-lookup"><span data-stu-id="bd36b-220">(Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="4898d-217"><strong>修復壓縮比例</strong></span><span class="sxs-lookup"><span data-stu-id="4898d-217"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="4898d-218">否</span><span class="sxs-lookup"><span data-stu-id="4898d-218">No</span></span></p></td>
+<td><p><span data-ttu-id="4898d-219">壓縮音訊樣本的平均比率與樣本總數。</span><span class="sxs-lookup"><span data-stu-id="4898d-219">Average ratio of compressed audio samples to the total number of samples.</span></span> <span data-ttu-id="4898d-220"> (壓縮音訊是一種已壓縮的音訊，可在偵測到網路資料包時，維持通話品質。 ) 高值表示減少抖動所造成的範例壓縮層級，並導致音訊的快向或失真。</span><span class="sxs-lookup"><span data-stu-id="4898d-220">(Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 文件
+title: Lync Server 2013：檔
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969609
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2705cd5d2dd473fa98ae44398b2d1eb0c812c9f8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2785391f93f2844809aaad06e4efff9c2e86505d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501170"
 ---
+# <a name="documentation-in-lync-server-2013"></a><span data-ttu-id="564bd-102">Lync Server 2013 中的檔</span><span class="sxs-lookup"><span data-stu-id="564bd-102">Documentation in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="documentation-in-lync-server-2013"></a><span data-ttu-id="a9d11-102">Lync Server 2013 中的文件</span><span class="sxs-lookup"><span data-stu-id="a9d11-102">Documentation in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42192776"
 
 <span> </span>
 
-<span data-ttu-id="a9d11-103">_**主題上次修改日期：** 2015年-05-15_</span><span class="sxs-lookup"><span data-stu-id="a9d11-103">_**Topic Last Modified:** 2015-05-15_</span></span>
+<span data-ttu-id="564bd-103">_**主題上次修改日期：** 2015-05-15_</span><span class="sxs-lookup"><span data-stu-id="564bd-103">_**Topic Last Modified:** 2015-05-15_</span></span>
 
-<span data-ttu-id="a9d11-104">MOF 模型是由許多服務管理功能所組成。</span><span class="sxs-lookup"><span data-stu-id="a9d11-104">The MOF model is composed of many service management functions.</span></span> <span data-ttu-id="a9d11-105">使用相同的小組的成員，或與其他小組可以共用文件中的有關如何及何時執行工作。</span><span class="sxs-lookup"><span data-stu-id="a9d11-105">Documentation about how and when tasks are performed can be shared with members of the same team or with other teams.</span></span> <span data-ttu-id="a9d11-106">儲存與共用文件的方法可以因函數的類型。</span><span class="sxs-lookup"><span data-stu-id="a9d11-106">The method of storing and sharing documentation can vary according to the type of function.</span></span> <span data-ttu-id="a9d11-107">例如，進行系統管理工作的程序可能會儲存為 Word 文件因為它們可能會列印及經常參照。</span><span class="sxs-lookup"><span data-stu-id="a9d11-107">For example, the procedures for system administration may be stored as Word documents because they are likely to be printed and referenced frequently.</span></span> <span data-ttu-id="a9d11-108">組態管理資訊可能會自動產生並儲存在資料庫中的簡單搜尋與編製索引。</span><span class="sxs-lookup"><span data-stu-id="a9d11-108">Configuration management information may be automatically generated and stored in a database for easy searching and indexing.</span></span> <span data-ttu-id="a9d11-109">某個文件中可能敏感，而且應該限制。</span><span class="sxs-lookup"><span data-stu-id="a9d11-109">Some documentation may be sensitive and should be restricted.</span></span>
+<span data-ttu-id="564bd-104">MOF 模型是由許多服務管理功能所組成。</span><span class="sxs-lookup"><span data-stu-id="564bd-104">The MOF model is composed of many service management functions.</span></span> <span data-ttu-id="564bd-105">有關如何以及何時執行工作的檔，可以與相同小組的成員或其他小組共用。</span><span class="sxs-lookup"><span data-stu-id="564bd-105">Documentation about how and when tasks are performed can be shared with members of the same team or with other teams.</span></span> <span data-ttu-id="564bd-106">儲存和共用檔的方法可能會因函數類型而異。</span><span class="sxs-lookup"><span data-stu-id="564bd-106">The method of storing and sharing documentation can vary according to the type of function.</span></span> <span data-ttu-id="564bd-107">例如，系統管理的程式可能會儲存為 Word 檔，因為它們可能會經常列印和參照。</span><span class="sxs-lookup"><span data-stu-id="564bd-107">For example, the procedures for system administration may be stored as Word documents because they are likely to be printed and referenced frequently.</span></span> <span data-ttu-id="564bd-108">設定管理資訊可能會自動產生，並儲存在資料庫中，以方便搜尋和編制索引。</span><span class="sxs-lookup"><span data-stu-id="564bd-108">Configuration management information may be automatically generated and stored in a database for easy searching and indexing.</span></span> <span data-ttu-id="564bd-109">有些檔可能是保密的，應加以限制。</span><span class="sxs-lookup"><span data-stu-id="564bd-109">Some documentation may be sensitive and should be restricted.</span></span>
 
 <div>
 
-## <a name="document-management-systems"></a><span data-ttu-id="a9d11-110">文件管理系統</span><span class="sxs-lookup"><span data-stu-id="a9d11-110">Document management systems</span></span>
+## <a name="document-management-systems"></a><span data-ttu-id="564bd-110">檔管理系統</span><span class="sxs-lookup"><span data-stu-id="564bd-110">Document management systems</span></span>
 
-<span data-ttu-id="a9d11-111">文件管理系統作為文件的集中存放庫，以協助確保只有最新的修訂的文件，均提供。</span><span class="sxs-lookup"><span data-stu-id="a9d11-111">A documentation management system acts as a central repository for documents and helps ensure that only the latest revision of a document is available.</span></span> <span data-ttu-id="a9d11-112">您也可以考慮封存參考文件的舊版本。</span><span class="sxs-lookup"><span data-stu-id="a9d11-112">You can also consider archiving the older version of the document for reference.</span></span> <span data-ttu-id="a9d11-113">Lync Server 提供更適合這項工作的功能。</span><span class="sxs-lookup"><span data-stu-id="a9d11-113">Lync Server provides functionality suitable to this task.</span></span>
+<span data-ttu-id="564bd-111">檔管理系統充當檔的中央存放庫，並協助確保只有最新的檔版本可供使用。</span><span class="sxs-lookup"><span data-stu-id="564bd-111">A documentation management system acts as a central repository for documents and helps ensure that only the latest revision of a document is available.</span></span> <span data-ttu-id="564bd-112">您也可以考慮封存檔的舊版本以供參考。</span><span class="sxs-lookup"><span data-stu-id="564bd-112">You can also consider archiving the older version of the document for reference.</span></span> <span data-ttu-id="564bd-113">Lync Server 提供此工作適用的功能。</span><span class="sxs-lookup"><span data-stu-id="564bd-113">Lync Server provides functionality suitable to this task.</span></span>
 
 </div>
 
 <div>
 
-## <a name="databases"></a><span data-ttu-id="a9d11-114">資料庫</span><span class="sxs-lookup"><span data-stu-id="a9d11-114">Databases</span></span>
+## <a name="databases"></a><span data-ttu-id="564bd-114">資料庫</span><span class="sxs-lookup"><span data-stu-id="564bd-114">Databases</span></span>
 
-<span data-ttu-id="a9d11-115">數個工具和管理功能所討論，適用於使用的資料庫。</span><span class="sxs-lookup"><span data-stu-id="a9d11-115">Several tools and management functions were discussed that are suited to using databases.</span></span> <span data-ttu-id="a9d11-116">設定管理程序是可能會使用儲存大量的資料需要編製索引和搜尋功能的自動化處理程序。</span><span class="sxs-lookup"><span data-stu-id="a9d11-116">The configuration management process is likely to use automated processes that store large amounts of data that require indexing and searching.</span></span> <span data-ttu-id="a9d11-117">支援人員可能會搜尋過去的問題與解決方案的資料庫，當新的問題的疑難排解。</span><span class="sxs-lookup"><span data-stu-id="a9d11-117">Support staff may search a database of past issues and resolutions when troubleshooting new issues.</span></span>
+<span data-ttu-id="564bd-115">討論的一些工具和管理功能與使用資料庫非常相關。</span><span class="sxs-lookup"><span data-stu-id="564bd-115">Several tools and management functions were discussed that are suited to using databases.</span></span> <span data-ttu-id="564bd-116">設定管理程式可能會使用儲存大量資料的自動化程式，而這些資料需要編制索引及搜尋。</span><span class="sxs-lookup"><span data-stu-id="564bd-116">The configuration management process is likely to use automated processes that store large amounts of data that require indexing and searching.</span></span> <span data-ttu-id="564bd-117">支援人員在疑難排解新問題時，可能會搜尋過去問題和解決方法的資料庫。</span><span class="sxs-lookup"><span data-stu-id="564bd-117">Support staff may search a database of past issues and resolutions when troubleshooting new issues.</span></span>
 
-<span data-ttu-id="a9d11-118">很可能會有不同的資料庫正在用於不同用途。</span><span class="sxs-lookup"><span data-stu-id="a9d11-118">It is likely that there will be different databases being used for different purposes.</span></span> <span data-ttu-id="a9d11-119">決定是否應連結或結合這些資料庫。</span><span class="sxs-lookup"><span data-stu-id="a9d11-119">Decide if these databases should be linked or combined.</span></span> <span data-ttu-id="a9d11-120">例如，如果服務台具有共通主題 （例如特定網路介面卡造成此問題： 新的軟體） 識別幾個問題，支援人員可以查詢要預測多少電腦可能會受到影響的設定資料庫。</span><span class="sxs-lookup"><span data-stu-id="a9d11-120">For example, if the service desk identifies several issues with a common theme (such as new software causing an issue with a particular network adapter), the support staff can query the configuration database to predict how many computers might be affected.</span></span>
+<span data-ttu-id="564bd-118">在不同的情況中，可能會使用不同的資料庫。</span><span class="sxs-lookup"><span data-stu-id="564bd-118">It is likely that there will be different databases being used for different purposes.</span></span> <span data-ttu-id="564bd-119">決定是否應該連結或合併這些資料庫。</span><span class="sxs-lookup"><span data-stu-id="564bd-119">Decide if these databases should be linked or combined.</span></span> <span data-ttu-id="564bd-120">例如，如果服務台發現一般主題 (的幾個問題，例如新的軟體導致特定網路介面卡發生問題) ，支援人員就可以查詢設定資料庫，以預測可能影響的電腦數目。</span><span class="sxs-lookup"><span data-stu-id="564bd-120">For example, if the service desk identifies several issues with a common theme (such as new software causing an issue with a particular network adapter), the support staff can query the configuration database to predict how many computers might be affected.</span></span>
 
 </div>
 

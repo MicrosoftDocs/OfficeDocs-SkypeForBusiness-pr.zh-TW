@@ -13,20 +13,22 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb167b56d201ff6215c45c10628b3c88be046041
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 813d49d61b4a85bc974763cd53f9edfebc234ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499570"
 ---
+# <a name="configure-clients-for-migration"></a><span data-ttu-id="58959-102">設定用戶端以進行移轉</span><span class="sxs-lookup"><span data-stu-id="58959-102">Configure clients for migration</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a><span data-ttu-id="d1af6-102">設定用戶端以進行移轉</span><span class="sxs-lookup"><span data-stu-id="d1af6-102">Configure clients for migration</span></span>
+
 
 </div>
 
@@ -36,30 +38,30 @@ ms.locfileid: "44755009"
 
 <span> </span>
 
-<span data-ttu-id="d1af6-103">_**主題上次修改日期：** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="d1af6-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="58959-103">_**主題上次修改日期：** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="58959-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="d1af6-104">本主題包含在遷移至 Lync Server 2013 之前，您應該採取的建議用戶端部署步驟。</span><span class="sxs-lookup"><span data-stu-id="d1af6-104">This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013.</span></span> <span data-ttu-id="d1af6-105">您應該在 Lync Server 2010 上進行這些設定變更。</span><span class="sxs-lookup"><span data-stu-id="d1af6-105">These configuration changes should be made on Lync Server 2010.</span></span>
+<span data-ttu-id="58959-104">本主題包含在遷移至 Lync Server 2013 之前，您應該採取的建議用戶端部署步驟。</span><span class="sxs-lookup"><span data-stu-id="58959-104">This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013.</span></span> <span data-ttu-id="58959-105">您應該在 Lync Server 2010 上進行這些設定變更。</span><span class="sxs-lookup"><span data-stu-id="58959-105">These configuration changes should be made on Lync Server 2010.</span></span>
 
 <div>
 
-## <a name="to-configure-clients-before-migration"></a><span data-ttu-id="d1af6-106">在遷移之前設定用戶端</span><span class="sxs-lookup"><span data-stu-id="d1af6-106">To configure clients before migration</span></span>
+## <a name="to-configure-clients-before-migration"></a><span data-ttu-id="58959-106">在遷移之前設定用戶端</span><span class="sxs-lookup"><span data-stu-id="58959-106">To configure clients before migration</span></span>
 
-1.  <span data-ttu-id="d1af6-107">部署 Lync Server 2010 的最新伺服器、用戶端及裝置更新（修復程式）。</span><span class="sxs-lookup"><span data-stu-id="d1af6-107">Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010.</span></span> <span data-ttu-id="d1af6-108">如需有關 Lync Server 2010 的最新資訊，請參閱更新資源中心的 Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630> 。</span><span class="sxs-lookup"><span data-stu-id="d1af6-108">For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
+1.  <span data-ttu-id="58959-107">針對 Lync Server 2010，部署最新的伺服器、用戶端及裝置更新 (修復程式) 。</span><span class="sxs-lookup"><span data-stu-id="58959-107">Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010.</span></span> <span data-ttu-id="58959-108">如需有關 Lync Server 2010 的最新資訊，請參閱更新資源中心的 Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630> 。</span><span class="sxs-lookup"><span data-stu-id="58959-108">For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
 
-2.  <span data-ttu-id="d1af6-109">在 Lync Server 2010 上，使用用戶端版本篩選，只允許安裝了最新更新的用戶端。</span><span class="sxs-lookup"><span data-stu-id="d1af6-109">On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.</span></span>
+2.  <span data-ttu-id="58959-109">在 Lync Server 2010 上，使用用戶端版本篩選，只允許安裝了最新更新的用戶端。</span><span class="sxs-lookup"><span data-stu-id="58959-109">On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d1af6-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d1af6-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="58959-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="58959-110">See Also</span></span>
 
 
-[<span data-ttu-id="d1af6-111">Lync 2013 的新增及變更的設定</span><span class="sxs-lookup"><span data-stu-id="d1af6-111">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
-[<span data-ttu-id="d1af6-112">Lync 2013 中的用戶端互通性</span><span class="sxs-lookup"><span data-stu-id="d1af6-112">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)  
+[<span data-ttu-id="58959-111">Lync 2013 的新增及變更的設定</span><span class="sxs-lookup"><span data-stu-id="58959-111">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
+[<span data-ttu-id="58959-112">Lync 2013 中的用戶端互通性</span><span class="sxs-lookup"><span data-stu-id="58959-112">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
 
-[<span data-ttu-id="d1af6-113">在 Lync Server 2013 中規劃用戶端和裝置</span><span class="sxs-lookup"><span data-stu-id="d1af6-113">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)  
+[<span data-ttu-id="58959-113">在 Lync Server 2013 中規劃用戶端和裝置</span><span class="sxs-lookup"><span data-stu-id="58959-113">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)  
   
 
 </div>
