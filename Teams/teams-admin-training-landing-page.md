@@ -5,7 +5,6 @@ description: 取得管理組織中 Microsoft 小組所需的系統管理員訓�
 author: lanachin
 manager: serdars
 audience: admin
-ms.custom: seo-marvel-mar2020
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: ''
@@ -14,17 +13,19 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection:
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: d6d6588e07d9ccf0a9e649a9086f3100a0af6115
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 8fac3f019a4fb5379e11c6afd09c51363f598ad7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534070"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535171"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
 
@@ -158,8 +159,8 @@ ms.locfileid: "46534070"
                     </div>
                     <div class="cardText">
                         <h3>新功能</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">在加拿大撥打電話方案（一般可用性）</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">在澳大利亞通話方案（僅限預覽版）</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通話方案 (一般可用性) </a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">在澳大利亞通話方案 (僅供預覽) </a></p>
                     </div>
                 </div>
             </div>

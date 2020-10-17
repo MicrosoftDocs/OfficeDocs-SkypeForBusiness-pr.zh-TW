@@ -12,20 +12,22 @@ ms:contentKeyID: 49733636
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c61c6c9c27fb6ba642a8996588dc2e4a3c3c42d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 453d66d35d02d6b0e91f0c6b82b1ccfe71f149b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535600"
 ---
+# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看網路子網資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看網路子網資訊
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211269"
 
 _**主題上次修改日期：** 2013-02-23_
 
-您可以使用下列程序來檢視網路子網路。 在 [Lync Server 控制台] 中，您可以建立、修改或刪除網路子網。 如需建立或修改網路子網的詳細資訊，請參閱[在 Lync Server 2013 中建立或修改網路子網](lync-server-2013-create-or-modify-network-subnets.md)。
+您可以使用下列程序來檢視網路子網路。 在 [Lync Server 控制台] 中，您可以建立、修改或刪除網路子網。 如需建立或修改網路子網的詳細資訊，請參閱 [在 Lync Server 2013 中建立或修改網路子網](lync-server-2013-create-or-modify-network-subnets.md)。
 
 <div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，依序按一下 **[網路設定]** 和 **[子網路]**。
 

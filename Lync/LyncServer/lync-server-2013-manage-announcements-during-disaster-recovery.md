@@ -12,20 +12,22 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534541"
 ---
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理發生嚴重損壞修復期間的宣告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理發生嚴重損壞修復期間的宣告
+
 
 </div>
 
@@ -94,15 +96,15 @@ Lync Server 2013 支援在中斷期間呼叫未指派號碼的宣告。 在中�
 
 1.  執行下列動作，以重新建立在備份組區的主要集區中部署的宣告：
     
-    1.  使用**Import-CsAnnouncementFile** Cmdlet 並指定 Parent 參數的備份組區，將主要集區中使用的任何音訊檔案匯入備份組區。
+    1.  使用 **Import-CsAnnouncementFile** Cmdlet 並指定 Parent 參數的備份組區，將主要集區中使用的任何音訊檔案匯入備份組區。
     
-    2.  使用**New-CsAnnouncement** Cmdlet 重新建立每個宣告，並指定 Parent 參數的備份組區。
+    2.  使用 **New-CsAnnouncement** Cmdlet 重新建立每個宣告，並指定 Parent 參數的備份組區。
     
     <div>
     
 
     > [!NOTE]  
-    > 如需使用這些參數在備份組區中建立宣告的詳細資訊，請參閱<A href="lync-server-2013-create-an-announcement.md">create a 宣告 In Lync Server 2013</A>。
+    > 如需使用這些參數在備份組區中建立宣告的詳細資訊，請參閱 <A href="lync-server-2013-create-an-announcement.md">create a 宣告 In Lync Server 2013</A>。
 
     
     </div>

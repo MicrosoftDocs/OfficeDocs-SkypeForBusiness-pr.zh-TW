@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync server 的 Windows 更新'
+title: Lync Server 2013： Lync Server 的 Windows 更新
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ad3a87c865b987e73c78192b3b2bfc719777cf7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f537e8cea8f3bf4cc08afe89de21e06f1c671d52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535290"
 ---
+# <a name="windows-update-for-lync-server-2013"></a>Lync Server 2013 的 Windows 更新
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-update-for-lync-server-2013"></a>Lync Server 2013 的 Windows 更新
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42210205"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-12-05_
+_**主題上次修改日期：** 2013-12-05_
 
-經常使用 Windows Update Services 檢查並套用更新和安全性修補程式。 這樣才能協助避免可能導致攻擊者能夠存取系統管理員權限執行 Microsoft Lync Server 2013 的伺服器，進而危害 Lync Server 2013 的其他系統元件的弱點。
+經常使用 Windows Update Services 檢查並套用更新和安全性修補程式。 這樣做可協助避免其他系統元件中的漏洞，這可能會導致攻擊者能夠透過系統管理員許可權取得執行 Microsoft Lync Server 2013 之伺服器的存取權，進而危及 Lync Server 2013。
 
-Microsoft SQL Server 2008 Express （64 位元版本） 的更新在執行每個 Lync Server 2013 Standard Edition （後端資料庫伺服器），在其他所有 Lync Server 2013 伺服器角色 （適用於本機設定存放區），除非您已升級這些SQL Server 2008 R2 express 資料庫。 您應將這些資料庫，包括前端集區之後端資料庫上的 SQL Server、監控資料庫以及封存資料庫，都視為例行安全性更新維護的一部分。
+在每個 Lync Server 2013 Standard Edition server (上的後端資料庫) 和所有其他 Lync Server 2013 server (role 上，如果您已將這些資料庫升級至 SQL Server 2008 R2 Express，則 Microsoft SQL Server 2008 Express (64-bit edition) 會在每個 Lync Server Standard Edition server 上執行的更新。 您應將這些資料庫，包括前端集區之後端資料庫上的 SQL Server、監控資料庫以及封存資料庫，都視為例行安全性更新維護的一部分。
 
 <div>
 

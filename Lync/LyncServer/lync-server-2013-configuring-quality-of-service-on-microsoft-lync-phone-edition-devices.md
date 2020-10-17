@@ -1,5 +1,5 @@
 ---
-title: Microsoft Lync Phone Edition 裝置上設定服務品質
+title: 在 Microsoft Lync Phone Edition 裝置上設定服務品質
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e154df7c71b32e9f5f1c1440707511bc91c3117
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c69bf438965c536a3ba424699a7109308368397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534960"
 ---
+# <a name="configuring-quality-of-service-on-microsoft-lync-phone-edition-devices-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Microsoft Lync Phone Edition 裝置上的服務品質
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-quality-of-service-on-microsoft-lync-phone-edition-devices-in-lync-server-2013"></a>在 Lync Server 2013 的 Microsoft Lync Phone Edition 裝置上設定服務品質
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42213109"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-雖然例如 Iphone 裝置的預設不會啟用服務品質 (QoS)，執行 Lync Phone Edition 裝置的預設會啟用 QoS。 （在這些裝置是通常稱為 UC 或整合通訊的電話。）若要確認此，請執行 Lync Server 管理命令介面中的從下列 Windows PowerShell 命令：
+雖然服務品質 (QoS 不會為 Iphone 等裝置啟用) ，但預設為執行 Lync Phone Edition 的裝置啟用 QoS。  (這些裝置通常稱為 UC 或整合通訊電話。 ) 若要確認這一點，請從 Lync Server 管理命令介面中執行下列 Windows PowerShell 命令：
 
     Get-CsUCPhoneConfiguration
 
-如果您不具有 UC 電話組態設定進行任何變更然後您會得到如下所示的資訊：
+如果您未對 UC 電話設定設定進行任何變更，就會得到如下所示的資訊：
 
     Identity             : Global
     CalendarPollInterval : 00:03:00
@@ -53,43 +55,43 @@ _**主題上次修改日期：** 2012年-11-01_
     Voice8021p           : 0
     LoggingLevel         : Off
 
-以服務品質來說，只有其中一個這些屬性會感興趣的： VoiceDiffServTag。 VoiceDiffServTag 代表指派給 emanating 從 Lync Phone Edition 裝置的語音流量的 DSCP 值。
+出於服務品質目的，只有其中一項屬性為相關事項： VoiceDiffServTag。 VoiceDiffServTag 代表指派給 Lync Phone Edition 裝置之語音流量 emanating 的 DSCP 值。
 
 <div>
 
 
 > [!NOTE]
-> Lync Server 2013 中已不再支援 Voice8021p 參數。 參數是仍適用於與 Microsoft Lync Server 2010; 回溯相容性不過，它就與 Lync Server 2013 搭配使用的裝置上沒有作用。
+> Lync Server 2013 中已不再支援 Voice8021p 參數。 參數仍然有效，可與 Microsoft Lync Server 2010 保持回溯相容性;不過，它不會影響 Lync Server 2013 使用的裝置。
 
 
 
 </div>
 
-在大部分的網路中，標示為 40 VoiceDiffServTag 與 Lync Phone Edition 封包應該不會造成任何問題。 不過，40 不是通常用於音訊流量; 值相反地，DSCP 程式碼 46 幾乎都已標示音訊的流量。 為了維持整個網路的一致性，您可能想要變更為 [46 UC 電話的 VoiceDiffServTag 屬性。
+在大部分的網路中，使用 VoiceDiffServTag 40 來標示 Lync Phone Edition 的資料包不會造成任何問題。 不過，40不是一般用於音訊流量的值;相反地，音訊流量幾乎都是以 DSCP 碼46標示。 為了維持整個網路的一致性，您可能想要將 UC 電話的 VoiceDiffServTag 屬性變更為46。
 
-若要這樣做，您可以使用 Windows PowerShell 或 Lync Server Control Panel。 若要使用 Windows PowerShell 修改 VoiceDiffServTag 值，執行從 Lync Server 管理命令介面中的下列命令：
+若要這麼做，您可以使用 [Windows PowerShell] 或 [Lync Server] 控制台。 若要使用 Windows PowerShell 來修改 VoiceDiffServTag 值，請在 Lync Server 管理命令介面中執行下列命令：
 
     Set-CsUCPhoneConfiguration -VoiceDiffServTag 46
 
-上述命令會修改全域 UC 電話組態設定的集合。 不過請注意，也可以將 UC 電話設定指派至網站範圍。 若要修改在網站範圍的 UC 電話組態設定，您必須指定身分識別的網站。 例如：
+上述命令會修改 UC 電話設定的全域集合。 不過，請注意，也可以將 UC 電話設定指派給網站範圍。 若要修改網站範圍的 UC 電話設定設定，您必須指定網站身分識別。 例如：
 
     Set-CsUCPhoneConfiguration -Identity "site:Redmond" -VoiceDiffServTag 46
 
-您也可以使用下列命令同時修改所有 UC 電話組態設定：
+您也可以使用下列命令同時修改所有的 UC 電話設定：
 
     Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -VoiceDiffServTag 46
 
-如果您想要使用 Lync Server Control Panel 此變更，然後啟動 [控制台]，然後完成下列程序：
+如果您想要使用 Lync Server 控制台進行此變更，請啟動 [控制台]，然後完成下列程式：
 
-1.  按一下 [**用戶端**，然後按一下 [**裝置組態**。
+1.  按一下 [ **用戶端** ]，然後按一下 [ **裝置**設定]。
 
-2.  在 [**裝置組態**] 索引標籤中，按兩下您想要修改 （例如，**全域**） 設定的集合。
+2.  在 [ **裝置** 設定] 索引標籤上，按兩下您要修改的設定集合 (例如「 **全域**) 」。
 
-3.  在 [**編輯裝置設定**] 對話方塊中，將**語音服務品質 (QoS)** ] 方塊的值設定為 [ **46** ，然後按一下 [**認可]**。
+3.  在 [ **編輯裝置** 設定] 對話方塊中，將 [ **語音服務品質 (QoS) ** ] 方塊的值設為 **46** ，然後按一下 [ **認可**]。
 
-如果您有多個您想要重複此程序，針對每個集合的 UC 電話設定的集合。 Lync Server 控制台不允許您同時修改多個設定集合。
+如果您有多個集合，則每個 UC 電話設定集合都需要重複此程式。 Lync Server 控制台不會允許您同時修改多個設定集合。
 
-如果您有不採用 Windows 作業系統 （例如 Iphone) 在組織中的裝置這些裝置不會受到變更 VoiceDiffServTag 設定的影響。 如果您想要變更這些裝置上的 DSCP 值必須為每個裝置類型參照的管理手冊。
+如果您有不是以 Windows 作業系統為基礎的裝置 (例如組織中的 Iphone) ，這些裝置將不會受到變更 VoiceDiffServTag 設定的影響。 如果您想要在這些裝置上變更 DSCP 值，您將需要參照每種裝置類型的管理手冊。
 
 </div>
 

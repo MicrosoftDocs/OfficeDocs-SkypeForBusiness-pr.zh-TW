@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定會議、 應用程式及中繼伺服器的連接埠範圍
+title: Lync Server 2013：設定會議、應用程式及轉送伺服器的埠範圍
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3c1666e0f1c6f4c208cf5664741ca7cedbe6a1f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b3df859017ca54d32ad56580c842f748114166d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535060"
 ---
+# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>針對會議、應用程式及轉送伺服器設定 Lync Server 2013 中的埠範圍
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013 中設定的連接埠範圍，會議、 應用程式及中繼伺服器
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42207589"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015年-04-30_
+_**主題上次修改日期：** 2015-04-30_
 
 為了實作服務品質 (QoS) ，您應該為在會議、應用程式和中繼伺服器上共用的音訊、視訊和應用程式共用，設定完全相同的連接埠範圍；此外，這些連接埠範圍不得以任何方式重疊。舉個簡單的例子，假設您針對會議伺服器上的視訊使用連接埠 10000 到 10999。這表示您也必須為應用程式和中繼伺服器上的視訊保留連接埠 10000 到 10999。如果沒有，服務品質 (QoS) 將無法如預期般運作。
 
 同樣地，假設您為視訊保留連接埠 10000 到 10999，但接著為音訊保留連接埠 10500 到 11999。這樣會造成服務品質的問題，因為連接埠範圍重疊。使用服務品質 (QoS) 時，每一種模式都必須有一組唯一的連接埠：如果您對視訊使用連接埠 10000 到 10999，則必須使用不同的範圍 (例如，對音訊使用 11000 到 11999)。
 
-根據預設，音訊和視訊的連接埠範圍中不會重疊 Microsoft Lync Server 2013;不過，連接埠範圍指派給應用程式共用與這兩個音訊和視訊的連接埠範圍重疊。 （，接著，表示沒有任何這些範圍特有）。您可以執行從 Lync Server 2013 管理命令介面中的下列三個命令，會議、 應用程式及中繼伺服器驗證的現有的連接埠範圍：
+依預設，Microsoft Lync Server 2013 中的音訊和視訊連接埠範圍不會重疊;不過，指派給應用程式共用的埠範圍會與音訊和視訊連接埠範圍重疊。  (，這表示這些範圍都不是唯一的。 ) 您可以從 Lync Server 2013 管理命令介面中執行下列三個命令，以驗證會議、應用程式及轉送伺服器的現有埠範圍。
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2015年-04-30_
 
 </div>
 
-如果您執行上述的三個命令，您會看到 Lync Server 2013 的預設連接埠值的設定如下：
+如果您執行上述三個命令，您會看到 Lync Server 2013 的預設埠值設定如下：
 
 
 <table>
@@ -118,11 +120,11 @@ _**主題上次修改日期：** 2015年-04-30_
 </table>
 
 
-如前所述，當 QoS 設定 Lync Server 連接埠，則您應該確保： 1) 音訊連接埠設定都是相同其他會議、 應用程式及中繼伺服器;和，2） 的連接埠範圍不會重疊。 如果您仔細查看上述表格中，您會看到的連接埠範圍皆相同，不同的三種伺服器類型。 例如，起始音訊連接埠設為每個伺服器類型] 上的連接埠 49152 和音訊每部伺服器中已保留連接埠總數也是相同： 8348。 不過，連接埠範圍重疊： 音訊連接埠從 49152，開始，但是這樣執行動作的連接埠設定放在一旁應用程式共用。 若要讓服務品質的最佳使用方式，應用程式共用應該會重新設定為使用唯一的連接埠範圍。 例如，您可以設定應用程式共用連接埠 40803 處開始，並使用 8348 連接埠。 (為什麼 8348 連接埠嗎？ 如果您將這些值相加-40803 + 8348-表示的應用程式共用將使用連接埠 40803 透過連接埠 49150。 因為音訊連接埠開始時沒有 49152 之前，您將不再有任何重疊的連接埠範圍。）
+如先前所述，設定 QoS 的 Lync 伺服器埠時，應確定在您的會議、應用程式及轉送伺服器上，： 1) 音訊埠設定都相同。而且，2) 埠範圍不會重疊。 如果您仔細查看前面的表格，您會看到埠範圍在三個伺服器類型中皆相同。 例如，在每個伺服器類型上，啟動音訊埠設定為埠49152，而在每個伺服器上為音訊保留的埠總數也相同：8348。 不過，埠範圍會重迭：音訊埠會從埠49152開始，但也會為應用程式共用設定埠。 為了讓服務品質獲得最佳的使用，應將應用程式共用重新設定為使用唯一的埠範圍。 例如，您可以將應用程式共用設定為從埠40803開始，並使用8348埠。  (為何8348埠？ 如果您將這些值一起新增--40803 + 8348--這表示應用程式共用將使用埠40803透過埠49150。 因為音訊埠不會開始，直到埠49152，您就不會再有任何重疊的埠範圍。 ) 
 
 在為應用程式共用選取新的連接埠範圍之後，可以使用 Set-CsConferencingServer Cmdlet 進行變更。您不需要在應用程式伺服器或中繼伺服器上進行這項變更，因為這些伺服器不會處理應用程式共用流量。如果您決定要重新指派用於音效流量的連接埠，只要在這些伺服器上變更連接埠值即可。
 
-若要修改單一會議伺服器上共用的應用程式的連接埠值會執行 Lync Server 管理命令介面從如下的命令：
+若要在單一會議服務器上修改應用程式共用的埠值，請在 Lync Server 管理命令介面中執行類似下列的命令：
 
     Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
 

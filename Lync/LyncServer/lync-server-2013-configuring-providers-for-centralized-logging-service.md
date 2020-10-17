@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定集中式記錄服務提供的者
+title: Lync Server 2013：設定集中式記錄服務的提供者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bc8ad2f5372ee9b434a1236e9d0cbba0f34a5de
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec5d280d05089c4f1efc4fd8c54ab4841d24621d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204869"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535000"
 ---
+# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中設定集中式記錄服務的提供者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中設定集中式記錄服務提供的者
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42204869"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-03-19_
+_**主題上次修改日期：** 2014-03-19_
 
-概念和集中式記錄服務中*提供者*的設定是 providers 的下列其中一個要掌握最重要。 *提供者*直接要對應的 Lync Server 追蹤模型中的 Lync Server 伺服器角色元件。 提供者定義的 Lync Server 2013，將會追蹤的郵件 （例如嚴重、 錯誤或警告） 來收集和旗標類型的元件 (例如，TF\_連線或 TF\_Diag)。 提供者是在每個 Lync Server 伺服器角色中的追蹤元件。 藉由使用提供者，可讓您定義在元件上追蹤的層級和類型 (例如 S4、SIPStack、IM 和目前狀態)。 定義的提供者會用於案例中，以針對處理特定問題狀況的某個邏輯集合來對所有提供者進行分組。
+集中式記錄服務中 *提供者* 的概念和設定是最重要的一點。 *提供者*會直接對應至 lync server 追蹤模型中的 lync server server 角色元件。 提供者會定義將要追蹤的 Lync Server 2013 元件、郵件類型 (例如，要收集的郵件類型、嚴重、錯誤、警告) ，以及旗標 (例如 TF \_ Connection 或 tf the \_) 。 提供者是每個 Lync Server server role 中可追蹤的元件。 藉由使用提供者，可讓您定義在元件上追蹤的層級和類型 (例如 S4、SIPStack、IM 和目前狀態)。 定義的提供者會用於案例中，以針對處理特定問題狀況的某個邏輯集合來對所有提供者進行分組。
 
-若要執行使用 Lync Server 管理命令介面的集中式記錄服務功能，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組或包含任一的自訂 RBAC 角色的成員這兩個群組。 若要傳回的所有清單 （包括您自行建立的任何自訂 RBAC 角色），獲指派此 cmdlet 的角色型存取控制 (RBAC) 角色會從 Lync Server 管理命令介面或 Windows PowerShell 提示字元執行下列命令：
+若要使用 Lync Server 管理命令介面來執行集中式記錄服務功能，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組的成員，或是包含這兩個群組之一的自訂 RBAC 角色。 若要傳回所有角色型存取控制的清單 (RBAC) role 此 Cmdlet 已指派給 (包括您) 自行建立的任何自訂 RBAC 角色，請從 [Lync Server 管理命令介面] 或 [Windows PowerShell] 提示字元執行下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -47,55 +49,55 @@ _**上次修改主題：** 2014年-03-19_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-本主題的其餘內容將特別針對定義提供者、修改提供者的方式，及提供者定義所包含的內容做討論，以使您的疑難排解作業獲得最佳成效。 有兩種方式來發出 Centralized Logging Service 命令。 您可以使用位於，根據預設，在目錄 c: CLSController.exe\\Program Files\\通用檔案\\Microsoft Lync Server 2013\\clsagent 的通訊。 或者，您可以使用 Lync Server 管理命令介面來發出 Windows PowerShell 命令。 其中重要區別在於，當您在命令列上使用 CLSController.exe 時，選擇會侷限於提供者已定義好而無法變更的可用案例中，但您可以定義記錄層級。 使用 Windows PowerShell，您可以定義新的提供者使用您記錄工作階段中並具有完全控制權其建立、 項目會收集，並在哪些層級會收集資料。
+本主題的其餘內容將特別針對定義提供者、修改提供者的方式，及提供者定義所包含的內容做討論，以使您的疑難排解作業獲得最佳成效。 有兩種方式可發出集中式記錄服務命令。 在下列目錄中，您可以使用 \\ \\ \\ Microsoft Lync Server 2013 CLSAgent 中的目錄 C： Program Files 通用檔案中所 CLSController.exe 的預設值 \\ 。 或者，您可以使用 Lync Server 管理命令介面來發出 Windows PowerShell 命令。 其中重要區別在於，當您在命令列上使用 CLSController.exe 時，選擇會侷限於提供者已定義好而無法變更的可用案例中，但您可以定義記錄層級。 使用 Windows PowerShell，您可以定義在記錄會話中使用的新提供者，並對其建立、他們收集的內容，以及收集資料的層級有完全的控制權。
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> 如前所述，提供者的功能強大。不過，案例的作用卻更為強大，因為它們包含全部所需具體資訊，可用以在提供者代表的元件上設定和執行追蹤作業。若與做為提供者集合的案例進行約略比較，它就像執行包含數百個命令的批次檔，可用來收集大量資訊，而非在命令列上以一次一個的方式發行數百個命令。<BR>而不需要您深度深入的提供者的詳細資料，the Centralized Logging Service 會為您提供了數已定義的案例。 所提供的案例涵蓋您可能會遭遇的絕大多數問題。 在一些罕見的情況下，您可能需建立並定義提供者，並將其指派給案例。 我們強烈建議您在調查需求以建立新提供者和案例前，先熟悉所提供的每個案例。 您可在這裡找到建立提供者的資訊，以熟悉案例使用提供者元素收集追蹤資訊的方式，而此時並不會提供提供者本身的詳細資料。
+> 如前所述，提供者的功能強大。不過，案例的作用卻更為強大，因為它們包含全部所需具體資訊，可用以在提供者代表的元件上設定和執行追蹤作業。若與做為提供者集合的案例進行約略比較，它就像執行包含數百個命令的批次檔，可用來收集大量資訊，而非在命令列上以一次一個的方式發行數百個命令。<BR>集中式記錄服務會提供許多已經為您定義的案例，而不需要您深入瞭解提供者的詳細資料。 所提供的案例涵蓋您可能會遭遇的絕大多數問題。 在一些罕見的情況下，您可能需建立並定義提供者，並將其指派給案例。 我們強烈建議您在調查需求以建立新提供者和案例前，先熟悉所提供的每個案例。 您可在這裡找到建立提供者的資訊，以熟悉案例使用提供者元素收集追蹤資訊的方式，而此時並不會提供提供者本身的詳細資料。
 
 
 
 </div>
 
-[Overview of the Centralized Logging Service 中 Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)中引進，定義案例中的 [使用的提供者的主要元素為：
+簡介：在 [Lync Server 2013 中引入集中式記錄服務](lync-server-2013-overview-of-the-centralized-logging-service.md)，定義提供者以用於案例中的主要元素包括：
 
-  - **提供者**   提供者如果您已熟悉 OCSLogger，是您選擇要告訴 OCSLogger 追蹤引擎應從中收集記錄的元件。 提供者是相同的元件，以及在許多情況下元件相同的名稱中包含 OCSLogger。 如果您不熟悉 OCSLogger，提供者是伺服器角色，the Centralized Logging Service 可以收集特定元件的記錄。 若是 the Centralized Logging Service，clsagent 的通訊是 the Centralized Logging Service，所做的動作，您定義的提供者設定中的元件追蹤架構的一部分。
+  - **提供者**    如果您熟悉 OCSLogger，提供者就是您所選擇的元件，以告知 OCSLogger 追蹤引擎應從何處收集記錄。 提供者是相同的元件，在許多情況下，與 OCSLogger 中的元件具有相同的名稱。 如果您不熟悉 OCSLogger，提供者是集中式記錄服務可從中收集記錄的伺服器角色特定元件。 在集中式記錄服務的情況下，CLSAgent 是集中式記錄服務的架構元件，它會執行您在提供者設定中所定義的元件追蹤。
 
-  - **記錄層級**   OCSLogger 提供選擇的詳細資料收集的資料層級數目。 這項功能是不可或缺的一部分的集中式記錄服務和案例中，與**Type**參數所定義。 您可以選擇下列項目：
+  - **記錄層級**    OCSLogger 提供選擇所收集資料的詳細資料層級的選項。 這項功能是集中式記錄服務和案例中不可或缺的一部分，並由 **Type** 參數定義。 您可以選擇下列項目：
     
-      - **所有**   記錄檔收集追蹤郵件類型為嚴重、 錯誤、 警告及資訊已定義的提供者。
+      - **全部**    針對已定義的提供者，將類型為嚴重、錯誤、警告和資訊的追蹤訊息收集到記錄檔。
     
-      - **嚴重**   收集僅針對已定義的提供者表示失敗的追蹤訊息。
+      - **致命**    只收集指出定義的提供者失敗的追蹤訊息。
     
-      - **錯誤**   收集只定義的提供者，表示錯誤的追蹤訊息以及嚴重訊息。
+      - **錯誤**    只收集指出已定義提供者的錯誤的追蹤訊息，以及致命的訊息。
     
-      - **警告**   收集只追蹤訊息，指出一則警告，已定義的提供者，以及嚴重和錯誤訊息。
+      - **警告**    只收集表示已定義提供者的警告的追蹤訊息，以及致命錯誤和錯誤訊息。
     
-      - **資訊**   收集只追蹤訊息，指出資訊訊息已定義的提供者，以及嚴重、 錯誤和警告訊息。
+      - **資訊**    只收集表明已定義的提供者的資訊訊息的追蹤訊息，加上嚴重、錯誤和警告訊息。
     
-      - **Verbose**   已定義的提供者會收集所有的類型為嚴重、 錯誤、 警告和資訊的追蹤訊息。
+      - **Verbose**    針對已定義的提供者，收集類型為嚴重、錯誤、警告和資訊的所有追蹤訊息。
 
-  - **Flags**   OCSLogger 所提供的選項的定義哪些類型的資訊您每個提供者無法擷取追蹤檔案中，選擇 [旗標。 您可以依據提供者選擇下列旗標：
+  - **旗標**    OCSLogger 提供的選項可為定義您從追蹤檔案中取得的資訊類型的每個提供者選擇旗標。 您可以依據提供者選擇下列旗標：
     
-      - **TF\_連線**   提供連線相關的記錄項目。 這些記錄檔包含建立到及傳送自特定元件的連線資訊。 這也可能包含重要的網路層級資訊 (也就是沒有連線的概念的元件)。
+      - **TF \_Connection**     提供連線相關的記錄專案。 這些記錄檔包含與特定元件建立之連接的相關資訊。 這也可能包括大量的網路層級資訊 (，也就是針對不含 connection) 概念的元件。
     
-      - **TF\_安全性**   提供安全性相關的所有事件/記錄項目。 例如，如裡包含 SipStack，這些是安全性事件，例如網域驗證失敗和用戶端驗證和授權失敗。
+      - **TF \_安全性**     提供所有與安全性相關的事件/記錄專案。 例如，針對 SipStack，這些是安全性事件，例如網域驗證失敗，以及用戶端驗證/授權失敗。
     
-      - **TF\_Diag**   提供您可用於診斷或疑難排解元件的診斷事件。 例如，如裡包含 SipStack，這些是憑證失敗或 DNS 警告/錯誤。
+      - **TF \_診斷**     程式提供診斷事件，可供您用來診斷或疑難排解元件。 例如，針對 SipStack，這些是憑證失敗或 DNS 警告/錯誤。
     
-      - **TF\_通訊協定**   提供 SIP 和結合社群轉碼器套件訊息等通訊協定訊息。
+      - **TF \_通訊協定**     提供通訊協定和組合的群組編解碼器封包訊息。
     
-      - **TF\_元件**   可登入指定做為提供者的一部分的元件。
+      - **TF \_元件**     可對指定為提供者一部分的元件進行記錄。
     
-      - **所有**   設定提供者可用的所有可用旗標。
+      - **全部**    設定提供者可使用的所有可用旗標。
 
 <div>
 
-## <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>若要檢閱現有的集中式記錄服務案例提供者的資訊
+## <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>若要查看現有集中式記錄服務案例提供者的相關資訊
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  若要檢視現有提供者的設定，請輸入下列項目：
     
@@ -105,7 +107,7 @@ _**上次修改主題：** 2014年-03-19_
     
         Get-CsClsScenario -Identity "global/CAA"
     
-    命令會顯示內含相關旗標、設定和元件的提供者清單。 如果顯示的資訊不足或清單的預設 Windows PowerShell 的清單格式太長，您可以藉由定義不同的輸出方法來顯示其他資訊。 若要進行這項作業，請輸入：
+    命令會顯示內含相關旗標、設定和元件的提供者清單。 如果顯示的資訊不夠，或是預設 Windows PowerShell 清單格式的清單過長，您可以透過定義不同的輸出方法來顯示其他資訊。 若要進行這項作業，請輸入：
     
         Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
     
@@ -117,7 +119,7 @@ _**上次修改主題：** 2014年-03-19_
 
 ## <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>若要定義新的集中式記錄服務案例提供者
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  案例提供者是由待追蹤的元件、要使用的旗標和收集的詳細資料等級所組成。若要進行這項作業，請輸入：
     
@@ -127,7 +129,7 @@ _**上次修改主題：** 2014年-03-19_
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
-–Level 會收集嚴重、錯誤、警告和資訊訊息。 使用的旗標所定義之 Lyss 提供者的所有且包含 TF\_連線、 TF\_Diag 和 TF\_通訊協定。
+–Level 會收集嚴重、錯誤、警告和資訊訊息。 使用的旗標全都為 Lyss 提供者所定義，並包含 TF \_ Connection、tf \_ 診斷和 TF \_ Protocol。
 
 在定義變數 $LyssProvider 之後，您可以透過 **New-CsClsScenario** Cmdlet 加以使用，以便收集來自 Lyss 提供者的追蹤。 若要完成建立提供者，或將其指派給新案例，請輸入：
 
@@ -139,9 +141,9 @@ _**上次修改主題：** 2014年-03-19_
 
 <div>
 
-## <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>若要變更現有的集中式記錄服務案例提供者
+## <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>變更現有的集中式記錄服務案例提供者
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  若要更新或變更現有提供者的設定，請輸入：
     
@@ -175,9 +177,9 @@ _**上次修改主題：** 2014年-03-19_
 
 ## <a name="to-remove-a-scenario-provider"></a>移除案例提供者
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  所提供的 Cmdlet 可讓您新增現有的提供者以及建立新的提供者。 若要移除提供者，您必須針對 **Set-CsClsScenario** 的 Provider 參數使用 Replace 指示詞。 完全移除提供者的唯一方式，是以相同名稱之重新定義的提供者來加以取代，並使用 Update 指示詞。 例如，我們 LyssProvider 以 WPP 做為記錄類型定義的提供者，level 設為偵錯]，且旗標設定 TF\_連線和 TF\_斜筆 您需將旗標變更為“All”。 若要變更提供者，請輸入下列項目：
+2.  所提供的 Cmdlet 可讓您新增現有的提供者以及建立新的提供者。 若要移除提供者，您必須針對 **Set-CsClsScenario** 的 Provider 參數使用 Replace 指示詞。 完全移除提供者的唯一方式，是以相同名稱之重新定義的提供者來加以取代，並使用 Update 指示詞。 例如，我們的提供者 LyssProvider 會定義為 WPP 為記錄類型、設定為調試的層級，而旗標為 TF \_ CONNECTION 和 tf the \_ 。 您需將旗標變更為“All”。 若要變更提供者，請輸入下列項目：
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 
@@ -211,11 +213,11 @@ _**上次修改主題：** 2014年-03-19_
 ## <a name="see-also"></a>另請參閱
 
 
-[Get-csclsscenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)  
-[New-csclsscenario](https://docs.microsoft.com/powershell/module/skype/New-CsClsScenario)  
-[Remove-csclsscenario](https://docs.microsoft.com/powershell/module/skype/Remove-CsClsScenario)  
-[Set-csclsscenario](https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario)  
-[New-csclsprovider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider)  
+[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)  
+[New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/New-CsClsScenario)  
+[Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Remove-CsClsScenario)  
+[Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario)  
+[New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 安裝 SQL Server Reporting Services
+title: Lync Server 2013：安裝 SQL Server Reporting Services
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0448802e7de2c00b5c57730c5e95fb99b21b237e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9044f90146b604f0277b0a5b815c6540849d58b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187596"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534930"
 ---
+# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>在 Lync Server 2013 中安裝 SQL Server Reporting Services
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>Lync Server 2013 中安裝 SQL Server Reporting Services
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42187596"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-20 個_
+_**主題上次修改日期：** 2012-06-20_
 
-如果您想要使用 Microsoft Lync Server 2013 監視報告 （請參閱此文件的詳細資訊的下一節） 您必須先安裝 SQL Server Reporting Services;Reporting Services 可以安裝在您安裝 Microsoft SQL Server 的同一時間或之後安裝 SQL 伺服器的任何時間。 如果尚未安裝 SQL Server，請遵循本文件中先前提供的指示。 安裝 SQL Server 時，請務必在 [特徵選取] 頁面選取 [Reporting Services]。 如此會安裝 SQL Server Reporting Services。
+如果您想要使用 Microsoft Lync Server 2013 監控報告 (請參閱本檔的下一節，以取得詳細資訊) 您必須先安裝 SQL Server Reporting Services;在安裝 SQL Server 時，或在安裝 SQL Server 之後的任何時間，都可以安裝 Reporting Services。 如果尚未安裝 SQL Server，請遵循本文件中先前提供的指示。 安裝 SQL Server 時，請務必在 [特徵選取] 頁面選取 [Reporting Services]。 如此會安裝 SQL Server Reporting Services。
 
 若已安裝 SQL Server 但未安裝 SQL Server Reporting Services，您可以視情況遵循針對 SQL Server 2008 R2 或 SQL Server 2012 的一組適當指示，新增該特徵。
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2012年-06-20 個_
 
 2.  在 **[Reporting Services 組態連接]** 對話方塊中，確認您伺服器的名稱顯示在 **[伺服器名稱]** 方塊中，而儲存您監控資料之 SQL Server 執行個體的名稱顯示在 **[報表伺服器執行個體]** 方塊中，然後按一下 **[連接]**。
 
-Reporting Service 設定管理員] 中，[報表伺服器狀態窗格應會顯示已安裝 SQL Server Reporting Services 與 Reporting Services 目前正在執行： 將報表伺服器狀態應顯示為 [**已啟動**並**開始**] 按鈕應該灰色，而且無法使用。 如果 Reporting Service 未執行，請按一下 **[啟動]** 以啟動服務。
+在 [Reporting Service 設定管理員] 中，報表伺服器狀態窗格應該會顯示已安裝 SQL Server Reporting Services，且 Reporting Services 目前正在執行中：報表伺服器狀態應該顯示為 [ **已啟動** ]，而且 [ **開始** ] 按鈕應該會顯示為灰色且無法使用。 如果 Reporting Service 未執行，請按一下 **[啟動]** 以啟動服務。
 
 如果 [報表伺服器資料庫名稱] 標籤旁未列出資料庫，請執行下列作業：
 

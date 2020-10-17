@@ -12,20 +12,22 @@ ms:contentKeyID: 51541455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f58894a00c853f04d5d4c6f995edc17683b12e9f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d181570b55ce175a63ac1ac1f218ee99aec7a5a0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218249"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534530"
 ---
+# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理「在災難修復」期間收取的群組呼叫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理「在災難修復」期間收取的群組呼叫
+
 
 </div>
 
@@ -49,9 +51,9 @@ _**主題上次修改日期：** 2013-01-30_
 
 在嚴重損壞復原期間，已被重新導向至備份組區的使用者，在容錯移轉過程中，會使用在備份組區中為呼叫收取群組號碼執行的通話駐留應用程式。 因此，在嚴重損壞修復過程中支援群組呼叫收取，需要在主要集區和備份組區中部署及啟用通話駐留應用程式。
 
-備份組區的容錯移轉程式完成後，必須將通話駐留軌道表格中的群組呼叫收取號碼範圍重新導向至備份組區。 當主要集區的回切處理常式完成後，必須重新導向主要集區的號碼範圍。 若要重新導向群組呼叫收取範圍，請使用**get-cscallparkorbit** Cmdlet。
+備份組區的容錯移轉程式完成後，必須將通話駐留軌道表格中的群組呼叫收取號碼範圍重新導向至備份組區。 當主要集區的回切處理常式完成後，必須重新導向主要集區的號碼範圍。 若要重新導向群組呼叫收取範圍，請使用 **get-cscallparkorbit** Cmdlet。
 
-如果您使用不同的完整功能變數名稱來部署新集區 (FQDN) 取代主要集區，您必須將與主要集區相關聯的所有群組呼叫收取號碼範圍重新指派給新集區的 FQDN。 若要將號碼範圍重新指派給新的集區，您可以使用**get-cscallparkorbit 指令程式**。 如需**get-cscallparkorbit** Cmdlet 的詳細資訊，請參閱[set-get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
+如果您使用不同的完整功能變數名稱來部署新集區 (FQDN) 取代主要集區，您必須將與主要集區相關聯的所有群組呼叫收取號碼範圍重新指派給新集區的 FQDN。 若要將號碼範圍重新指派給新的集區，您可以使用 **get-cscallparkorbit 指令程式** 。 如需 **get-cscallparkorbit** Cmdlet 的詳細資訊，請參閱 [set-get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
 
 </div>
 

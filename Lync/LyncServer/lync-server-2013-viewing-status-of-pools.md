@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 檢視狀態的集區
+title: Lync Server 2013：查看集區的狀態
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969579
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eff882d58b1bdbec9920f7ea5b8bf099b986e83c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 06415d68a468a45ae849b27b7f57cba502d64cbf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211139"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535560"
 ---
+# <a name="viewing-status-of-pools-in-lync-server-2013"></a>在 Lync Server 2013 中查看集區的狀態
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-status-of-pools-in-lync-server-2013"></a>Lync Server 2013 中檢視狀態的集區
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42211139"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-05-01_
+_**主題上次修改日期：** 2014-05-01_
 
-對於每個 Enterprise 集區和每一部 Standard Edition server 的集區，您可以檢視集區狀態和透過 Lync Server 2013 控制台的集區所使用的其他元件的狀態資訊。 我們建議您實作 System Center Operations Manager 2012 與 Lync Server 控制台，以協助系統管理員檢視其環境內的集區的健康狀況。
+針對每個 Enterprise 集區和每個 Standard Edition Server 的集區，您可以查看集區狀態的相關資訊，以及集區透過 Lync Server 2013 控制台所使用之其他元件的狀態。 建議您使用 Lync Server 控制台來執行 System Center Operations Manager 2012，以協助系統管理員在其環境中查看集區的健康情況。
 
 <div>
 
-## <a name="view-pools"></a>檢視集區
+## <a name="view-pools"></a>View pool
 
-1.  使用 Lync Server Control Panel，開啟 Lync Server Control Panel。
+1.  使用 Lync Server 控制台，開啟 Lync Server 控制台。
 
-2.  按一下 [拓撲]，並檢查拓撲中的所有伺服器的狀態。
+2.  按一下 [拓撲]，然後檢查拓撲中所有伺服器的狀態。
 
 </div>
 

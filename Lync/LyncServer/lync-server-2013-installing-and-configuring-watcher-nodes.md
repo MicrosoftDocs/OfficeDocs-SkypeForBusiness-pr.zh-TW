@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197056"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534940"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>在 Lync Server 2013 中安裝及設定觀察程式節點
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>在 Lync Server 2013 中安裝及設定觀察程式節點
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42197056"
 
 _**主題上次修改日期：** 2013-11-07_
 
-*觀察程式節點*是定期執行 Lync Server 綜合交易的電腦。 *綜合交易*是 Windows PowerShell Cmdlet，用來驗證重要的使用者案例，例如登入系統的功能，或 exchange 立即訊息的功能會如預期般運作。 對於 Lync Server 2013，System Center Operations Manager 可以執行下表所示的綜合交易。 表中顯示三種不同綜合交易類型：
+*觀察程式節點* 是定期執行 Lync Server 綜合交易的電腦。 *綜合交易* 是 Windows PowerShell Cmdlet，用來驗證重要的使用者案例，例如登入系統的功能，或 exchange 立即訊息的功能會如預期般運作。 對於 Lync Server 2013，System Center Operations Manager 可以執行下表所示的綜合交易。 表中顯示三種不同綜合交易類型：
 
-  - **預設值**。 這些是監看員節點預設會執行的綜合交易。 建立新的監看員節點時，可以選擇指定節點會執行的綜合交易。  (**New-CsWatcherNodeConfiguration**指令程式所使用之測試參數的目的。 ) 如果在建立監看員節點時未使用 [測試] 參數，它會自動執行所有預設的綜合交易，而且不會執行任何非預設的綜合交易。 舉例而言，這表示監看員節點會設定執行 Test-CsAddressBookService 測試，但是不會設定執行 Test-CsExumConnectivity 測試。
+  - **預設值**。 這些是監看員節點預設會執行的綜合交易。 建立新的監看員節點時，可以選擇指定節點會執行的綜合交易。  (**New-CsWatcherNodeConfiguration** 指令程式所使用之測試參數的目的。 ) 如果在建立監看員節點時未使用 [測試] 參數，它會自動執行所有預設的綜合交易，而且不會執行任何非預設的綜合交易。 舉例而言，這表示監看員節點會設定執行 Test-CsAddressBookService 測試，但是不會設定執行 Test-CsExumConnectivity 測試。
 
-  - **非預設值**。 如名稱所指，非預設綜合交易為監看員節點依預設不會執行的測試。 不過，可以啟用監看員節點來執行任何非預設綜合交易。 您可以在建立監看員節點時 (透過使用 **New-CsWatcherNodeConfiguration** Cmdlet)，或在建立後的任何時點進行啟用。 許多非預設綜合交易需要額外的設定步驟。 如需詳細資訊，請參閱[Lync Server 2013 中的綜合交易的特殊安裝指示](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)。
+  - **非預設值**。 如名稱所指，非預設綜合交易為監看員節點依預設不會執行的測試。 不過，可以啟用監看員節點來執行任何非預設綜合交易。 您可以在建立監看員節點時 (透過使用 **New-CsWatcherNodeConfiguration** Cmdlet)，或在建立後的任何時點進行啟用。 許多非預設綜合交易需要額外的設定步驟。 如需詳細資訊，請參閱 [Lync Server 2013 中的綜合交易的特殊安裝指示](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)。
 
   - **擴充**。 延伸測試為非預設綜合交易的特別類型。 與其他綜合交易不同的是，延伸測試在每個行程中可以執行多次。 在驗證如集區的多重公用電話交換網路 (PSTN) 語音路由時，這就非常有用。 只要在監看員節點中新增延伸測試的多個執行個體，即可設定。
 
-如需將其他綜合交易新增至監看員節點程式的詳細資訊，請參閱[管理 Lync Server 2013 中的](lync-server-2013-managing-watcher-nodes.md)監看員節點。 您可以使用 Lync Server 管理命令介面，從監看員節點中移除綜合交易。
+如需將其他綜合交易新增至監看員節點程式的詳細資訊，請參閱 [管理 Lync Server 2013 中的](lync-server-2013-managing-watcher-nodes.md)監看員節點。 您可以使用 Lync Server 管理命令介面，從監看員節點中移除綜合交易。
 
 監看員節點可用的綜合交易包括下列：
 
@@ -135,7 +137,7 @@ _**主題上次修改日期：** 2013-11-07_
 <td><p>非預設</p></td>
 </tr>
 <tr class="odd">
-<td><p>測試-Test-csmcxp2pim (MCXP2PIM) </p></td>
+<td><p>Test-CsMCXP2PIM (MCXP2PIM) </p></td>
 <td><p>確認行動裝置使用者可以註冊並傳送立即訊息。</p></td>
 <td><p>非預設</p></td>
 </tr>
@@ -164,7 +166,7 @@ _**主題上次修改日期：** 2013-11-07_
 
 
 > [!NOTE]  
-> 系統管理員也不需要使用或安裝 Operations Manager，就可以手動執行綜合交易。 如需各種 Test-Cs Cmdlet 的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 Cmdlet 索引</A>。
+> 系統管理員也不需要使用或安裝 Operations Manager，就可以手動執行綜合交易。 如需各種 Test-Cs Cmdlet 的詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 Cmdlet 索引</A>。
 
 
 
@@ -196,7 +198,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
   - <span></span>  
     企業內和周邊網路中的 Lync Server 2010 的連線能力。
 
-對於簡化管理，企業內外有不同的驗證選項。 如需詳細資訊，請參閱設定[監視節點以在 Lync Server 2013 中執行綜合交易](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)。
+對於簡化管理，企業內外有不同的驗證選項。 如需詳細資訊，請參閱設定 [監視節點以在 Lync Server 2013 中執行綜合交易](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)。
 
 若要將電腦設定為監視節點，您必須在安裝 System Center Operations Manager 並匯入 Lync Server 2013 管理套件之後，完成下列步驟。
 

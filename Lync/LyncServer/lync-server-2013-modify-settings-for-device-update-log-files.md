@@ -12,20 +12,22 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112f9e5a90e0b7b73acc40c6c7ec9d68b256d45d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2118cac5e8380d27e8f273f5cb469efdbddfd9bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184906"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534330"
 ---
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>在 Lync Server 2013 中修改裝置更新記錄檔的設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>在 Lync Server 2013 中修改裝置更新記錄檔的設定
+
 
 </div>
 
@@ -57,25 +59,25 @@ _**主題上次修改日期：** 2013-02-23_
 <tr class="odd">
 <td><p>記錄檔的大小上限 () ）</p></td>
 <td><p>Lync Server 控制台</p>
-<p>-或-</p>
+<p>- 或 -</p>
 <p>Lync Server 管理命令介面</p></td>
 </tr>
 <tr class="even">
 <td><p>可保留在快取中 (以位元組為單位的最大資訊量) </p></td>
 <td><p>Lync Server 控制台</p>
-<p>-或-</p>
+<p>- 或 -</p>
 <p>Lync Server 管理命令介面</p></td>
 </tr>
 <tr class="odd">
 <td><p> (分鐘內) 將快取的資訊寫入記錄檔的頻率</p></td>
 <td><p>Lync Server 控制台</p>
-<p>-或-</p>
+<p>- 或 -</p>
 <p>Lync Server 管理命令介面</p></td>
 </tr>
 <tr class="even">
 <td><p> (保留記錄檔的天數) 多久</p></td>
 <td><p>Lync Server 控制台</p>
-<p>-或-</p>
+<p>- 或 -</p>
 <p>Lync Server 管理命令介面</p></td>
 </tr>
 <tr class="odd">
@@ -98,13 +100,13 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台變更記錄設定
 
-1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-2.  在左導覽列中，按一下 [**用戶端**]，然後按一下 [**裝置記錄**檔設定]。
+2.  在左導覽列中，按一下 [ **用戶端**]，然後按一下 [ **裝置記錄**檔設定]。
 
-3.  在 [**裝置記錄**檔設定] 頁面上，按兩下您要變更的設定。
+3.  在 [ **裝置記錄** 檔設定] 頁面上，按兩下您要變更的設定。
 
-4.  在 [**編輯記錄檔設定**] 對話方塊中，變更下列其中一個設定：
+4.  在 [ **編輯記錄檔設定** ] 對話方塊中，變更下列其中一個設定：
     
       - ** (位元組的檔案大小上限) **    指定在清除記錄檔之前，記錄檔可成為的大小上限。 預設值為1024000位元組 (1 MB) 。
     
@@ -122,7 +124,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 變更記錄設定
 
-您可以使用 Windows PowerShell 和**CsDeviceUpdateConfiguration**指令程式來修改裝置更新記錄檔的設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
+您可以使用 Windows PowerShell 和 **CsDeviceUpdateConfiguration** 指令程式來修改裝置更新記錄檔的設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
 
 <div>
 
@@ -156,7 +158,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration)指令程式的說明主題。
+如需詳細資訊，請參閱 [CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) 指令程式的說明主題。
 
 </div>
 

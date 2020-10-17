@@ -12,20 +12,22 @@ ms:contentKeyID: 59893869
 ms.date: 07/20/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c24a94bf74b2ecf911179d64691e95153acceeeb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1acd743d3737232c6e6681b84e524549258d5ffe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210200"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535340"
 ---
+# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Windows PowerShell 和 Lync Server 2013 管理工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Windows PowerShell 和 Lync Server 2013 管理工具
+
 
 </div>
 

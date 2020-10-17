@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 web 會議概觀
+title: Lync Server 2013 web 會議概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a37578840191e8905827727e91665fc7a7512d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6287b5edd711df845b862b49bc15adb8405e8587
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535360"
 ---
+# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 會議概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 會議概觀
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42210948"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-30_
+_**主題上次修改日期：** 2012-09-30_
 
 透過 Web 會議，使用者可以在會議期間共用文件 (例如 PowerPoint 簡報) 並以文件進行共同作業。此外，使用者也能與其他人即時共用自己整個或部分桌面，看起來就像所有會議參與者都聚集在同一張會議桌前。
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012年-09-30_
 
 ## <a name="application-sharing-and-desktop-sharing"></a>應用程式共用和桌面共用
 
-您可以在會議期間共用整個桌面、 個別的應用程式或在多重監視環境中的個別監視器。 除了單純檢視內容之外，其他會議參與者也可要求控制您的螢幕，並且在取得許可的情況下，與內容互動 (包括捲動及編輯)。
+在會議期間，您可以在多部監視器環境中共用整個桌面、個別應用程式或個別監視器。 除了單純檢視內容之外，其他會議參與者也可要求控制您的螢幕，並且在取得許可的情況下，與內容互動 (包括捲動及編輯)。
 
 <div>
 
@@ -77,19 +79,19 @@ _**主題上次修改日期：** 2012年-09-30_
 
 ## <a name="powerpoint-sharing"></a>PowerPoint 共用
 
-Lync 2010 PowerPoint 中的簡報已中下列其中一種檢視。 執行 Lync 2010 的使用者，PowerPoint 簡報所使用的 PowerPoint 97-2003年格式來顯示，並且已檢視使用 PowerPoint 檢視器內嵌的副本。 執行 Lync Web App 的使用者，PowerPoint 簡報轉換成動態 HTML 檔案，然後使用這些自訂的 DHTML 檔案和 Silverlight 的組合來檢視。 雖然一般而言效果不錯，此方法確實有些限制：
+在 Lync 2010 中，以兩種方式中的其中一種方式來查看 PowerPoint 簡報。 針對執行 Lync 2010 的使用者，使用 PowerPoint 97-2003 格式顯示 PowerPoint 簡報，並使用 PowerPoint 檢視器的內嵌副本來查看。 針對執行 Lync Web App 的使用者，PowerPoint 簡報轉換成動態 HTML 檔案，然後使用這些自訂的 DHTML 檔和 Silverlight 的組合來查看。 雖然一般而言效果不錯，此方法確實有些限制：
 
-  - 內嵌式的 PowerPoint Viewer （可提供最佳檢視體驗） 僅有 Windows 平台上。
+  -  (提供最佳觀賞體驗) 的內嵌 PowerPoint 檢視器，只適用于 Windows 平臺。
 
-  - 許多行動裝置 （包括某些較熱門的行動電話） 不支援 Silverlight。
+  - 許多行動裝置 (包含某些較流行的行動電話) 不支援 Silverlight。
 
-  - PowerPoint 檢視器] 和 [DHTML/Silverlight 方法不支援所有較新版 PowerPoint 中找到的功能 （這類的投影片切換效果及內嵌的視訊）。
+  - PowerPoint 檢視器和 DHTML/Silverlight 方法並不支援在 PowerPoint 的最新版本中找到的所有功能 (這類幻燈片切換效果和內嵌的影片) 。
 
-若要協助的解決這些問題，並以改善使用者呈現，或檢視 PowerPoint 簡報的整體經驗，Lync Server 2013 會採用 Office Web Apps 與 Office Web Apps Server 來處理 PowerPoint 簡報。 此新方法的主要優勢如下：
+為了協助解決這些問題，以及改善使用者呈現或查看 PowerPoint 簡報的整體體驗，Lync Server 2013 使用 Office Web Apps 與 Office Web Apps Server 來處理 PowerPoint 簡報。 此新方法的主要優勢如下：
 
   - 更高的顯示解析度，更佳的 PowerPoint 功能支援，例如動畫、投影片切換及內嵌影片。
 
-  - 更多行動裝置可存取這些簡報。 這是因為 Lync Server 2013 使用標準 DHTML 和 JavaScript 到廣播，而不是自訂 DHTML 和 Silverlight 的 PowerPoint 簡報。
+  - 更多行動裝置可存取這些簡報。 這是因為 Lync Server 2013 使用 standard DHTML 和 JavaScript 來廣播 PowerPoint 簡報，而不是自訂的 DHTML 和 Silverlight。
 
   - 擁有適當權限的使用者可以不影響簡報本身，自行捲動 PowerPoint 簡報。例如，當 Ken Myer 在進行投影片放映時，Pilar Ackerman 可以檢視任何想看的投影片，而不會影響 Ken 的簡報。
 

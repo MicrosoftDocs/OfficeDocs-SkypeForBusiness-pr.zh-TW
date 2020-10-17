@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理主控語音信箱原則
+title: Lync Server 2013：管理主控語音信箱原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a49cdc3b1eee2a7a5fe176512f729902288f84e8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 315bd908b8369a107c4c9ddedcf5ce9911fc48f0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534500"
 ---
+# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>在 Lync Server 2013 中管理主控語音信箱原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>管理 Lync Server 2013 中的主控的語音信箱原則
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42185896"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-20 個_
+_**主題上次修改日期：** 2012-09-20_
 
-*裝載語音信箱原則*提供資訊給 Lync Server 2013 ExUM Routing 應用程式的使用者信箱位於裝載 Exchange 服務的電話路由至何處。
+「裝載 *語音信箱原則* 」會為 Lync Server 2013 ExUM 路由應用程式提供資訊，告知其信箱位於裝載 Exchange 服務上之使用者的通話位置。
 
 <div>
 
@@ -49,19 +51,19 @@ _**主題上次修改日期：** 2012年-09-20 個_
 
 </div>
 
-如需規劃裝載語音信箱原則，請參閱[主控語音信箱原則在 Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md)中規劃文件。
+如需規劃主控語音信箱原則的詳細資訊，請參閱規劃檔中的 [hosted voice mail 原則 In Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) 。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [修改全域裝載的語音信箱原則在 Lync Server 2013](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+  - [在 Lync Server 2013 中修改全域主控語音信箱原則](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
 
-  - [在 Lync Server 2013 中建立的網站層級的主控的語音信箱原則](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+  - [在 Lync Server 2013 中建立網站層級主控語音信箱原則](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
 
-  - [在 Lync Server 2013 中建立個別使用者裝載語音信箱原則](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+  - [在 Lync Server 2013 中建立個別使用者的主控語音信箱原則](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
 
-  - [指派 Lync Server 2013 中的個別使用者裝載語音信箱原則](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+  - [在 Lync Server 2013 中指派每位使用者的主控語音信箱原則](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
 
 </div>
 

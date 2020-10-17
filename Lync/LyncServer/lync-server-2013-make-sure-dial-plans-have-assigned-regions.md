@@ -12,20 +12,22 @@ ms:contentKeyID: 48183937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a1982a3625fce40eee9b46036fa4e294ed75edd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f9f9a67a65b870edd75259bca7c74a1fae2749f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534560"
 ---
+# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>確定撥號對應表 Lync Server 2013 具有指派的區域
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>確定撥號對應表 Lync Server 2013 具有指派的區域
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**主題上次修改日期：** 2010-11-02_
 
 因為替所有撥號對應表指定區域十分重要，因此建議您使用以下程序來確認所有撥號對應表都具有區域。這是選用步驟。
 
-使用 **Get-CsDialPlan** Cmdlet 確認是否已為所有電話撥入式會議撥號對應表設定區域。 如果撥號對應表缺少區域，您可以使用 **Set-CsDialPlan** Cmdlet 來設定區域。 您也可以使用 Lync Server 控制台更新現有撥號對應表中的區域。 如需使用 Lync Server 控制台的詳細資訊，請參閱[在 Lync server 2013 中修改撥號](lync-server-2013-modify-a-dial-plan.md)對應表。
+使用 **Get-CsDialPlan** Cmdlet 確認是否已為所有電話撥入式會議撥號對應表設定區域。 如果撥號對應表缺少區域，您可以使用 **Set-CsDialPlan** Cmdlet 來設定區域。 您也可以使用 Lync Server 控制台更新現有撥號對應表中的區域。 如需使用 Lync Server 控制台的詳細資訊，請參閱 [在 Lync server 2013 中修改撥號](lync-server-2013-modify-a-dial-plan.md)對應表。
 
 <div>
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2010-11-02_
 
 1.  以 RTCUniversalServerAdmins 群組成員或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
 
-2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  在命令提示字元中執行下列命令：
     
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2010-11-02_
 
 1.  以 RTCUniversalServerAdmins 群組成員或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
 
-2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  針對任何缺少電話撥入式會議區域的撥號對應表，執行：
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93ce3e013f5c0578c78db3ceee8ab1d65481efbb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ffa6108760955de643b7ffa4afe841464ae140f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211107"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535590"
 ---
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中查看最佳做法分析器的報表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中查看最佳做法分析器的報表
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2012-09-21_
 
   - 其他報告
 
-這些報告包括錯誤、警告及其他資訊。 如需每種報告及問題類型的詳細資訊，請參閱[瞭解 Lync Server 2013 中的最佳做法分析程式所建立的報告](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)。
+這些報告包括錯誤、警告及其他資訊。 如需每種報告及問題類型的詳細資訊，請參閱 [瞭解 Lync Server 2013 中的最佳做法分析程式所建立的報告](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)。
 
 使用下列程序檢視最佳做法分析程式先前產生的掃描結果。
 
@@ -58,9 +60,9 @@ _**主題上次修改日期：** 2012-09-21_
 1.  使用本機使用者帳戶之成員的帳戶登入已安裝最佳做法分析程式的電腦。
     
     > [!NOTE]  
-    > 您可使用本機系統管理員群組成員的帳戶檢視掃描結果，但無法執行掃描，除非您具有適當的使用者權利與權限。 如需詳細資訊，請參閱<A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 中的最佳作法分析群組成員資格和使用者權限需求</A>。
+    > 您可使用本機系統管理員群組成員的帳戶檢視掃描結果，但無法執行掃描，除非您具有適當的使用者權利與權限。 如需詳細資訊，請參閱 <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 中的最佳作法分析群組成員資格和使用者權限需求</A>。
 
-2.  按一下 [**開始**]，依序指向 [**所有程式**]、[ **Microsoft Lync Server 2013**]，然後按一下 [**最佳做法分析**程式]。
+2.  按一下 [ **開始**]，依序指向 [ **所有程式**]、[ **Microsoft Lync Server 2013**]，然後按一下 [ **最佳做法分析**程式]。
 
 3.  在 **[歡迎]** 畫面上按一下 **[選取要檢視的掃描結果]**。
 
@@ -85,7 +87,7 @@ _**主題上次修改日期：** 2012-09-21_
       - 若要檢視其他報告，請按一下 **[其他報告]**。
     
     > [!NOTE]  
-    > 如需最佳作法分析報告及其所識別問題的詳細資訊，請參閱<A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 lync server 2013 中查看和使用最佳做法分析程式建立的報表</A>，以及<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">分析和解決 lync server 2013 中的最佳做法分析程式所識別的問題</A>。
+    > 如需最佳作法分析報告及其所識別問題的詳細資訊，請參閱 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 lync server 2013 中查看和使用最佳做法分析程式建立的報表</A> ，以及 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">分析和解決 lync server 2013 中的最佳做法分析程式所識別的問題</A>。
 
 </div>
 

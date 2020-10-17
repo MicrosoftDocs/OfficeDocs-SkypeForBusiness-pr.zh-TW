@@ -12,20 +12,22 @@ ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2c4f922565b5b3af5613de4a5e43c79cf573410
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db84f9b353450419a8cc8029e4a24d01f0df76b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217391"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534410"
 ---
+# <a name="modify-a-dial-plan-in-lync-server-2013"></a>在 Lync Server 2013 中修改撥號對應表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-dial-plan-in-lync-server-2013"></a>在 Lync Server 2013 中修改撥號對應表
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42217391"
 
 _**主題上次修改日期：** 2012-11-01_
 
-若要修改現有的撥號對應表，請執行下列程式中的步驟。 如果您想要建立新的撥號對應表，請參閱[在 Lync Server 2013 中建立撥號](lync-server-2013-create-a-dial-plan.md)對應表。
+若要修改現有的撥號對應表，請執行下列程式中的步驟。 如果您想要建立新的撥號對應表，請參閱 [在 Lync Server 2013 中建立撥號](lync-server-2013-create-a-dial-plan.md)對應表。
 
 <div>
 
 ## <a name="to-modify-a-dial-plan"></a>修改撥號對應表
 
-1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，依序按一下 [語音路由]**** 和 [撥號對應表]****。
 
@@ -60,20 +62,20 @@ _**主題上次修改日期：** 2012-11-01_
     
     </div>
 
-5.   (選用) 在 [**編輯撥號**對應表] 中，編輯 [**簡易名稱**] 欄位（預先填入**名稱**] 欄位中顯示的相同名稱），以指定反映撥號對應表所套用之網站、服務或使用者的更具描述性名稱。
+5.   (選用) 在 [ **編輯撥號**對應表] 中，編輯 [ **簡易名稱** ] 欄位（預先填入 **名稱** ] 欄位中顯示的相同名稱），以指定反映撥號對應表所套用之網站、服務或使用者的更具描述性名稱。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 在 Lync Server 2013 部署內的所有撥號對應表中，<STRONG>簡單名稱</STRONG>必須是唯一的。 它不得超過256的 Unicode 字元，每個字元可以是字母或數位字元、連字號 ( ) 、句點 ( ) 、正負號 (+) 或底線 (_) 。<BR>[<STRONG>簡單名稱</STRONG>] 欄位中不允許使用空格。
+    > 在 Lync Server 2013 部署內的所有撥號對應表中， <STRONG>簡單名稱</STRONG> 必須是唯一的。 它不得超過256的 Unicode 字元，每個字元可以是字母或數位字元、連字號 ( ) 、句點 ( ) 、正負號 (+) 或底線 (_) 。<BR>[ <STRONG>簡單名稱</STRONG> ] 欄位中不允許使用空格。
 
     
     </div>
 
-6.   (選用) 在 [**描述**] 欄位中，輸入撥號對應表的描述資訊。
+6.   (選用) 在 [ **描述** ] 欄位中，輸入撥號對應表的描述資訊。
 
-7.   (選用) 若您要使用此撥號對應表作為撥入存取號碼的地區，請指定**電話撥入式會議區域**。 如果您不想要將此撥號對應表用於撥入存取號碼，請將此欄位保留空白。
+7.   (選用) 若您要使用此撥號對應表作為撥入存取號碼的地區，請指定 **電話撥入式會議區域**。 如果您不想要將此撥號對應表用於撥入存取號碼，請將此欄位保留空白。
     
     <div>
     
@@ -84,7 +86,7 @@ _**主題上次修改日期：** 2012-11-01_
     
     </div>
 
-8.   (選用) 在 [**外部存取前置**詞] 欄位中，只有在使用者需要撥打一或多個其他前導數位以取得外部行時，才指定值 (例如，9) 。 您可以輸入最多四個字元的前置詞值 (，也就是，，， \# \* 及 0-9) 。
+8.   (選用) 在 [ **外部存取前置** 詞] 欄位中，只有在使用者需要撥打一或多個其他前導數位以取得外部行時，才指定值 (例如，9) 。 您可以輸入最多四個字元的前置詞值 (，也就是，，， \# \* 及 0-9) 。
     
     <div>
     
@@ -97,21 +99,21 @@ _**主題上次修改日期：** 2012-11-01_
 
 9.  關聯及設定撥號對應表的正規化規則：
     
-      - 若要從 Enterprise Voice 部署中所有可用的正規化規則清單中選擇一個或多個規則，請按一下 [**選取**]。 在 [**選取正規化規則**] 對話方塊中，反白顯示您想要與撥號對應表產生關聯的規則，然後按一下 **[確定]**。
+      - 若要從 Enterprise Voice 部署中所有可用的正規化規則清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 [ **選取正規化規則** ] 對話方塊中，反白顯示您想要與撥號對應表產生關聯的規則，然後按一下 **[確定]**。
     
-      - 若要定義新的正規化規則，並將它與撥號對應表產生關聯，請按一下 [**新增**]。 如需定義新規則的詳細資訊，請參閱[在 Lync Server 2013 中定義正常化規則](lync-server-2013-defining-normalization-rules.md)。
+      - 若要定義新的正規化規則，並將它與撥號對應表產生關聯，請按一下 [ **新增**]。 如需定義新規則的詳細資訊，請參閱 [在 Lync Server 2013 中定義正常化規則](lync-server-2013-defining-normalization-rules.md)。
     
-      - 若要編輯已與撥號對應表相關聯的正規化規則，請反白顯示規則名稱，然後按一下 [**顯示詳細資料**]。 如需編輯規則的詳細資訊，請參閱[在 Lync Server 2013 中定義正常化規則](lync-server-2013-defining-normalization-rules.md)。
+      - 若要編輯已與撥號對應表相關聯的正規化規則，請反白顯示規則名稱，然後按一下 [ **顯示詳細資料**]。 如需編輯規則的詳細資訊，請參閱 [在 Lync Server 2013 中定義正常化規則](lync-server-2013-defining-normalization-rules.md)。
     
-      - 若要複製現有的正規化規則，以做為定義新規則的起點，請反白顯示規則名稱，然後按一下 [**複製**]，然後按一下 [**貼**上]。 如需編輯複本的詳細資訊，請參閱[在 Lync Server 2013 中定義正常化規則](lync-server-2013-defining-normalization-rules.md)。
+      - 若要複製現有的正規化規則，以做為定義新規則的起點，請反白顯示規則名稱，然後按一下 [ **複製**]，然後按一下 [ **貼**上]。 如需編輯複本的詳細資訊，請參閱 [在 Lync Server 2013 中定義正常化規則](lync-server-2013-defining-normalization-rules.md)。
     
-      - 若要從撥號對應表中移除正規化規則，請反白顯示規則名稱，然後按一下 [**移除**]。
+      - 若要從撥號對應表中移除正規化規則，請反白顯示規則名稱，然後按一下 [ **移除**]。
     
     <div>
     
 
     > [!NOTE]  
-    > 每個撥號對應表至少必須有一個相關聯的正常化規則。 如需如何判斷撥號對應表所需之所有正規化規則的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 中的撥號對應表和正常化規則</A>。
+    > 每個撥號對應表至少必須有一個相關聯的正常化規則。 如需如何判斷撥號對應表所需之所有正規化規則的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 中的撥號對應表和正常化規則</A> 。
 
     
     </div>
@@ -122,31 +124,31 @@ _**主題上次修改日期：** 2012-11-01_
     
 
     > [!IMPORTANT]  
-    > Lync Server 會從左上部遍歷正規化規則清單，並使用符合撥號號碼的第一個規則。 如果您設定撥號對應表，讓已撥號的號碼可以比對多個正規化規則，請確定限制性以上的規則排序的限制性較低。<BR>預設<STRONG>保持所有</STRONG>正規化規則<STRONG>^ ( \d {11}) $</STRONG>符合任何11位數的數位。 例如，如果您新增的正規化規則符合11位數的開始1425的數位，請確定 [<STRONG>全部保留</STRONG>] 的專案排序低於較嚴格的<STRONG>^ (1425 {7}) $</STRONG> rule。
+    > Lync Server 會從左上部遍歷正規化規則清單，並使用符合撥號號碼的第一個規則。 如果您設定撥號對應表，讓已撥號的號碼可以比對多個正規化規則，請確定限制性以上的規則排序的限制性較低。<BR>預設 <STRONG>保持所有</STRONG> 正規化規則 <STRONG>^ ( \d {11}) $</STRONG> 符合任何11位數的數位。 例如，如果您新增的正規化規則符合11位數的開始1425的數位，請確定 [ <STRONG>全部保留</STRONG> ] 的專案排序低於較嚴格的 <STRONG>^ (1425 {7}) $</STRONG> rule。
 
     
     </div>
 
-11.  (選用) 請輸入號碼以測試撥號對應表，然後按一下 [**移至**]。 測試結果會顯示在 [**輸入要測試的號碼**] 底下。
+11.  (選用) 請輸入號碼以測試撥號對應表，然後按一下 [ **移至**]。 測試結果會顯示在 [ **輸入要測試的號碼**] 底下。
     
     <div>
     
 
     > [!NOTE]  
-    > 您可以儲存尚未通過測試的撥號對應表，然後再加以重新設定。 如需詳細資訊，請參閱<A href="lync-server-2013-test-voice-routing.md">Test voice routing In Lync Server 2013</A>。
+    > 您可以儲存尚未通過測試的撥號對應表，然後再加以重新設定。 如需詳細資訊，請參閱 <A href="lync-server-2013-test-voice-routing.md">Test voice routing In Lync Server 2013</A>。
 
     
     </div>
 
 12. 按一下 [確定]****。
 
-13. 在 [**撥號**對應表] 頁面上，按一下 [**認可**]，然後按一下 [**全部認可**]。
+13. 在 [ **撥號** 對應表] 頁面上，按一下 [ **認可**]，然後按一下 [ **全部認可**]。
     
     <div>
     
 
     > [!NOTE]  
-    > 每當您建立或修改撥號對應表時，都必須執行「<STRONG>認可全部</STRONG>」命令來發佈設定變更。 如需詳細資訊，請參閱 Operations 檔中的在<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中發佈擱置的變更至語音路由</A>設定。
+    > 每當您建立或修改撥號對應表時，都必須執行「 <STRONG>認可全部</STRONG> 」命令來發佈設定變更。 如需詳細資訊，請參閱 Operations 檔中的在 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中發佈擱置的變更至語音路由</A> 設定。
 
     
     </div>

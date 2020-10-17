@@ -12,20 +12,22 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d2ba284f64b311ad48191cf251d1b3d903f595a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f0d1b609f7e053823de68363059d7c8b35c0659
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194956"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533930"
 ---
+# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中封存的技術需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中封存的技術需求
+
 
 </div>
 
@@ -63,7 +65,7 @@ Lync Server 2013 技術需求包括下列各項：
 
 ## <a name="infrastructure-requirements"></a>基礎結構需求
 
-Lync Server 2013 封存基礎結構需求與部署 Lync Server 2013 相同。 如需詳細資訊，請參閱規劃檔中的[判斷您的 Lync Server 2013 基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md)。
+Lync Server 2013 封存基礎結構需求與部署 Lync Server 2013 相同。 如需詳細資訊，請參閱規劃檔中的 [判斷您的 Lync Server 2013 基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md) 。
 
 </div>
 
@@ -103,7 +105,7 @@ Lync Server 2013 簡化封存的必要條件，原因如下：
     
 
     > [!NOTE]  
-    > Microsoft SQL Server 2008 R2 Express 和 Microsoft SQL Server 2012 Express 不支援封存。 不支援32位版本的 SQL Server。 如需其他 SQL Server 需求和限制，請參閱規劃檔或支援檔中的<A href="lync-server-2013-database-software-support.md">Lync Server 2013 中的資料庫軟體支援</A>。
+    > Microsoft SQL Server 2008 R2 Express 和 Microsoft SQL Server 2012 Express 不支援封存。 不支援32位版本的 SQL Server。 如需其他 SQL Server 需求和限制，請參閱規劃檔或支援檔中的 <A href="lync-server-2013-database-software-support.md">Lync Server 2013 中的資料庫軟體支援</A> 。
 
     
     </div>

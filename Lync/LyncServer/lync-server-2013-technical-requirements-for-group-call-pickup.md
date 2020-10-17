@@ -1,5 +1,5 @@
 ---
-title: 群組來電接聽 Lync Server 2013： 技術需求
+title: Lync Server 2013：群組呼叫收取的技術需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5f16f36e29665f12d45ad9390b5d7a53ae30941
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0ec4c050cd513450cfd0a179dc4264bff605062
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194916"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533870"
 ---
+# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中群組呼叫收取的技術需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a>群組來電接聽 Lync Server 2013 中的技術需求
+
 
 </div>
 
@@ -35,16 +37,16 @@ ms.locfileid: "42194916"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-30_
+_**主題上次修改日期：** 2013-01-30_
 
-群組來電接聽的通話駐留應用程式有相同的硬體、 軟體和連接埠需求。 群組來電接聽不使用的音訊檔案。
+群組呼叫收取具有與通話駐留應用程式相同的硬體、軟體和埠需求。 群組呼叫收取不使用音訊檔。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的通話駐留的技術需求](lync-server-2013-technical-requirements-for-call-park.md)  
+[Lync Server 2013 中通話駐留的技術需求](lync-server-2013-technical-requirements-for-call-park.md)  
   
 
 </div>

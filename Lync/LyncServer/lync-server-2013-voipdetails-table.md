@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: VoipDetails 表格'
+title: Lync Server 2013： VoipDetails 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d459262d5126dc6d55f930b20e54cbb1e69e04e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26feac5b9995aa1a8444029442adcb9c935083d3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210912"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535410"
 ---
+# <a name="voipdetails-table-in-lync-server-2013"></a>Lync Server 2013 中的 VoipDetails 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-table-in-lync-server-2013"></a>Lync Server 2013 中的 VoipDetails 表格
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42210912"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
 每筆記錄代表一通雙方通話，其中至少一位使用者為 VoIP 使用者。
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012年-09-28_
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -60,61 +62,61 @@ _**主題上次修改日期：** 2012年-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主要</p></td>
-<td><p>工作階段要求的時間。 其會與 <strong>SessionIdSeq</strong> 搭配使用，專門用於識別工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
+<td><p>工作階段要求的時間。 其會與 <strong>SessionIdSeq</strong> 搭配使用，專門用於識別工作階段。 如需詳細資訊，請參閱 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的對話方塊表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>用來識別工作階段的識別碼。 會與 <strong>SessionIdTime</strong> 搭配使用，專門用於識別工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
+<td><p>用來識別工作階段的識別碼。 會與 <strong>SessionIdTime</strong> 搭配使用，專門用於識別工作階段。 如需詳細資訊，請參閱 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的對話方塊表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromNumberId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>發話者的 <strong>PhoneId</strong>。 請參閱<a href="lync-server-2013-phones-table.md">Lync Server 2013 中的 Phones 表格</a>如需詳細資訊。 若非 NULL，且 <strong>FromGatewayId</strong> 亦非 NULL，代表發話者為 PSTN 使用者。</p></td>
+<td><p>發話者的 <strong>PhoneId</strong>。 如需詳細資訊，請參閱 <a href="lync-server-2013-phones-table.md">Lync Server 2013 中</a> 的 [電話] 表格。 若非 NULL，且 <strong>FromGatewayId</strong> 亦非 NULL，代表發話者為 PSTN 使用者。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConnectedNumberId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>受話者的 <strong>PhoneId</strong>。 請參閱<a href="lync-server-2013-phones-table.md">Lync Server 2013 中的 Phones 表格</a>如需詳細資訊。 若非 NULL，且 <strong>ToGatewayId</strong> 亦非 NULL，代表受話者為 PSTN 使用者。</p></td>
+<td><p>受話者的 <strong>PhoneId</strong>。 如需詳細資訊，請參閱 <a href="lync-server-2013-phones-table.md">Lync Server 2013 中</a> 的 [電話] 表格。 若非 NULL，且 <strong>ToGatewayId</strong> 亦非 NULL，代表受話者為 PSTN 使用者。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>通話的來源中繼伺服器。 請參閱<a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表格</a>如需詳細資訊。</p></td>
+<td><p>通話的來源中繼伺服器。 如需詳細資訊，請參閱 <a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>通話的目標中繼伺服器。 請參閱<a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表格</a>如需詳細資訊。</p></td>
+<td><p>通話的目標中繼伺服器。 如需詳細資訊，請參閱 <a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>通話的來源閘道。 請參閱<a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 Gateways 表格</a>如需詳細資訊。</p></td>
+<td><p>通話的來源閘道。 如需詳細資訊，請參閱 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的閘道表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>通話的目標閘道。 請參閱<a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 Gateways 表格</a>如需詳細資訊。</p></td>
+<td><p>通話的目標閘道。 如需詳細資訊，請參閱 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的閘道表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedbyURIId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>中斷通話之使用者的 URI (若該使用者有 URI 的話)。 請參閱如需詳細資訊，<a href="lync-server-2013-users-table.md">使用者在 Lync Server 2013 中的表格</a>。</p></td>
+<td><p>中斷通話之使用者的 URI (若該使用者有 URI 的話)。 如需詳細資訊，請參閱 <a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedbyPhoneId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>中斷通話之電話的識別碼 (若通話是從電話所中斷的話)。 請參閱<a href="lync-server-2013-phones-table.md">Lync Server 2013 中的 Phones 表格</a>如需詳細資訊。</p></td>
+<td><p>中斷通話之電話的識別碼 (若通話是從電話所中斷的話)。 如需詳細資訊，請參閱 <a href="lync-server-2013-phones-table.md">Lync Server 2013 中</a> 的 [電話] 表格。</p></td>
 </tr>
 </tbody>
 </table>
