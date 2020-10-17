@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：開始將使用者從 Lync Online 遷移至 Lync 內部部署之前的第一個步驟
+description: Lync Server 2013：開始將使用者從 Lync Online 遷移至 Lync 內部部署之前的第一步。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8065d1c09ab48b1b3a874fd11d7f8fcad298bfcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 408820e461c0a9f7c0beaaaae3a502802048d3f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500840"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564199"
 ---
-# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="ca92d-102">在 Lync Server 2013 中開始將使用者從 Lync Online 遷移至 Lync 內部部署之前的第一個步驟</span><span class="sxs-lookup"><span data-stu-id="ca92d-102">First steps before you start migrating users from Lync Online to Lync on-premises in Lync Server 2013</span></span>
+# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="b3459-103">在 Lync Server 2013 中開始將使用者從 Lync Online 遷移至 Lync 內部部署之前的第一個步驟</span><span class="sxs-lookup"><span data-stu-id="b3459-103">First steps before you start migrating users from Lync Online to Lync on-premises in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48500840"
 
 <span> </span>
 
-<span data-ttu-id="ca92d-103">_**主題上次修改日期：** 2014-05-08_</span><span class="sxs-lookup"><span data-stu-id="ca92d-103">_**Topic Last Modified:** 2014-05-08_</span></span>
+<span data-ttu-id="b3459-104">_**主題上次修改日期：** 2014-05-08_</span><span class="sxs-lookup"><span data-stu-id="b3459-104">_**Topic Last Modified:** 2014-05-08_</span></span>
 
-<span data-ttu-id="ca92d-104">在您開始將 Lync Online 使用者移至您的內部部署環境之前，請檢查下列所有專案皆為真：</span><span class="sxs-lookup"><span data-stu-id="ca92d-104">Before you start moving Lync Online users to your on-premises environment, check that all of the following are true:</span></span>
+<span data-ttu-id="b3459-105">在您開始將 Lync Online 使用者移至您的內部部署環境之前，請檢查下列所有專案皆為真：</span><span class="sxs-lookup"><span data-stu-id="b3459-105">Before you start moving Lync Online users to your on-premises environment, check that all of the following are true:</span></span>
 
-  - <span data-ttu-id="ca92d-105">您的 Lync Server 內部部署環境必須完全部署及驗證。</span><span class="sxs-lookup"><span data-stu-id="ca92d-105">Your Lync Server on-premises environment must be fully deployed and validated.</span></span> <span data-ttu-id="ca92d-106">如需詳細資訊，請參閱 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)。</span><span class="sxs-lookup"><span data-stu-id="ca92d-106">For more information, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span></span>
+  - <span data-ttu-id="b3459-106">您的 Lync Server 內部部署環境必須完全部署及驗證。</span><span class="sxs-lookup"><span data-stu-id="b3459-106">Your Lync Server on-premises environment must be fully deployed and validated.</span></span> <span data-ttu-id="b3459-107">如需詳細資訊，請參閱 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)。</span><span class="sxs-lookup"><span data-stu-id="b3459-107">For more information, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span></span>
 
-  - <span data-ttu-id="ca92d-107">您的 Lync Online 租使用者必須針對遠端 PowerShell 存取進行設定。</span><span class="sxs-lookup"><span data-stu-id="ca92d-107">Your Lync Online tenant must be configured for remote PowerShell Access.</span></span>
+  - <span data-ttu-id="b3459-108">您的 Lync Online 租使用者必須針對遠端 PowerShell 存取進行設定。</span><span class="sxs-lookup"><span data-stu-id="b3459-108">Your Lync Online tenant must be configured for remote PowerShell Access.</span></span>
     
-    <span data-ttu-id="ca92d-108">若要這麼做，請先安裝適用于 Windows PowerShell 的 Lync Online 模組，您可以在這裡找到： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) 。</span><span class="sxs-lookup"><span data-stu-id="ca92d-108">To do this, first install the Lync Online module for Windows PowerShell, which you can get here: [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911).</span></span>
+    <span data-ttu-id="b3459-109">若要這麼做，請先安裝適用于 Windows PowerShell 的 Lync Online 模組，您可以在這裡找到： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) 。</span><span class="sxs-lookup"><span data-stu-id="b3459-109">To do this, first install the Lync Online module for Windows PowerShell, which you can get here: [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911).</span></span>
     
-    <span data-ttu-id="ca92d-109">安裝模組之後，您可以在 Lync Server 管理命令介面中輸入下列 Cmdlet 來建立遠端會話：</span><span class="sxs-lookup"><span data-stu-id="ca92d-109">After you install the module, you can establish a remote session by typing the following cmdlets in the Lync Server Management Shell:</span></span>
+    <span data-ttu-id="b3459-110">安裝模組之後，您可以在 Lync Server 管理命令介面中輸入下列 Cmdlet 來建立遠端會話：</span><span class="sxs-lookup"><span data-stu-id="b3459-110">After you install the module, you can establish a remote session by typing the following cmdlets in the Lync Server Management Shell:</span></span>
     
        ```PowerShell
         Import-Module LyncOnlineConnector
@@ -65,15 +66,15 @@ ms.locfileid: "48500840"
         Import-PSSession $CSSession -AllowClobber
        ```
     
-    <span data-ttu-id="ca92d-110">如需如何使用 Lync Online 建立遠端 PowerShell 會話的相關資訊，請參閱 [使用 Windows PowerShell 連線到 Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。</span><span class="sxs-lookup"><span data-stu-id="ca92d-110">For more information about how to establish a remote PowerShell session with Lync Online, see [Connecting to Lync Online by using Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+    <span data-ttu-id="b3459-111">如需如何使用 Lync Online 建立遠端 PowerShell 會話的相關資訊，請參閱 [使用 Windows PowerShell 連線到 Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。</span><span class="sxs-lookup"><span data-stu-id="b3459-111">For more information about how to establish a remote PowerShell session with Lync Online, see [Connecting to Lync Online by using Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
   
-    <span data-ttu-id="ca92d-111">如需使用 Lync Online PowerShell 模組的詳細資訊，請參閱 [使用 Windows PowerShell 管理 Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。</span><span class="sxs-lookup"><span data-stu-id="ca92d-111">For more information about using the Lync Online PowerShell module, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+    <span data-ttu-id="b3459-112">如需使用 Lync Online PowerShell 模組的詳細資訊，請參閱 [使用 Windows PowerShell 管理 Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。</span><span class="sxs-lookup"><span data-stu-id="b3459-112">For more information about using the Lync Online PowerShell module, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
-  - <span data-ttu-id="ca92d-112">您的 Lync Online 必須設定共用 SIP 位址空間。</span><span class="sxs-lookup"><span data-stu-id="ca92d-112">Your Lync Online must be configured for Shared SIP Address Space.</span></span> <span data-ttu-id="ca92d-113">若要這麼做，請先啟動與 Lync Online 的遠端 Powershell 會話。</span><span class="sxs-lookup"><span data-stu-id="ca92d-113">To do this, first start a remote Powershell session with Lync Online.</span></span> <span data-ttu-id="ca92d-114">然後執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="ca92d-114">Then run the following cmdlet:</span></span>
+  - <span data-ttu-id="b3459-113">您的 Lync Online 必須設定共用 SIP 位址空間。</span><span class="sxs-lookup"><span data-stu-id="b3459-113">Your Lync Online must be configured for Shared SIP Address Space.</span></span> <span data-ttu-id="b3459-114">若要這麼做，請先啟動與 Lync Online 的遠端 Powershell 會話。</span><span class="sxs-lookup"><span data-stu-id="b3459-114">To do this, first start a remote Powershell session with Lync Online.</span></span> <span data-ttu-id="b3459-115">然後執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="b3459-115">Then run the following cmdlet:</span></span>
     
         Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 
-<span data-ttu-id="ca92d-115">完成這些步驟之後，您可以在 [Lync Server 2013 中，移至將 Lync Online 使用者遷移至 lync 內部部署](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)。</span><span class="sxs-lookup"><span data-stu-id="ca92d-115">After you’ve finished these steps, you can move on to [Migrating Lync Online users to Lync on-premises in Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span></span>
+<span data-ttu-id="b3459-116">完成這些步驟之後，您可以在 [Lync Server 2013 中，移至將 Lync Online 使用者遷移至 lync 內部部署](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)。</span><span class="sxs-lookup"><span data-stu-id="b3459-116">After you’ve finished these steps, you can move on to [Migrating Lync Online users to Lync on-premises in Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span></span>
 
 </div>
 
