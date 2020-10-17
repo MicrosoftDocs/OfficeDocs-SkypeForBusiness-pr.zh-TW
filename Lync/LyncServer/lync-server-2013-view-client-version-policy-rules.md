@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看用戶端版本原則規則
+description: Lync Server 2013：查看用戶端版本原則規則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 50675350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6a269ff6a90f95d76ddc9c230a3ce8a769977dc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0e04075f136d53fe149c6b0655699324a99e0a52
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506550"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572479"
 ---
-# <a name="view-client-version-policy-rules-in-lync-server-2013"></a><span data-ttu-id="548e1-102">在 Lync Server 2013 中查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="548e1-102">View client version policy rules in Lync Server 2013</span></span>
+# <a name="view-client-version-policy-rules-in-lync-server-2013"></a><span data-ttu-id="7e7eb-103">在 Lync Server 2013 中查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="7e7eb-103">View client version policy rules in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,41 +38,41 @@ ms.locfileid: "48506550"
 
 <span> </span>
 
-<span data-ttu-id="548e1-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="548e1-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="7e7eb-104">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="7e7eb-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="548e1-104">用戶端版本原則是由一組用戶端版本原則規則所組成。</span><span class="sxs-lookup"><span data-stu-id="548e1-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="548e1-105">當使用者嘗試以特定用戶端及用戶端版本登入時，這些規則會定義所要採取的動作。</span><span class="sxs-lookup"><span data-stu-id="548e1-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="548e1-106">您可以從 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面，查看用戶端版本原則規則。</span><span class="sxs-lookup"><span data-stu-id="548e1-106">You can view client version policy rules from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="7e7eb-105">用戶端版本原則是由一組用戶端版本原則規則所組成。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-105">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="7e7eb-106">當使用者嘗試以特定用戶端及用戶端版本登入時，這些規則會定義所要採取的動作。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-106">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="7e7eb-107">您可以從 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面，查看用戶端版本原則規則。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-107">You can view client version policy rules from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policy-rules-by-using-lync-server-control-panel"></a><span data-ttu-id="548e1-107">使用 Lync Server 控制台查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="548e1-107">To view client version policy rules by using Lync Server Control Panel</span></span>
+## <a name="to-view-client-version-policy-rules-by-using-lync-server-control-panel"></a><span data-ttu-id="7e7eb-108">使用 Lync Server 控制台查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="7e7eb-108">To view client version policy rules by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="548e1-108">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="548e1-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="7e7eb-109">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="548e1-109">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="548e1-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="548e1-110">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="548e1-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="7e7eb-110">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="7e7eb-111">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="548e1-111">在左導覽列中，按一下 [ **用戶端**]，然後按一下 [ **用戶端版本原則** ] 導覽按鈕。</span><span class="sxs-lookup"><span data-stu-id="548e1-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="7e7eb-112">在左導覽列中，按一下 [ **用戶端**]，然後按一下 [ **用戶端版本原則** ] 導覽按鈕。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-112">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="548e1-112">在 [ **用戶端版本原則** ] 頁面上，按兩下您要查看的用戶端版本原則。</span><span class="sxs-lookup"><span data-stu-id="548e1-112">On the **Client Version Policy** page, double-click a client version policy you want to view.</span></span>
+4.  <span data-ttu-id="7e7eb-113">在 [ **用戶端版本原則** ] 頁面上，按兩下您要查看的用戶端版本原則。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-113">On the **Client Version Policy** page, double-click a client version policy you want to view.</span></span>
 
-5.  <span data-ttu-id="548e1-113">規則會出現在 [ **編輯用戶端版本原則** ] 頁面上。</span><span class="sxs-lookup"><span data-stu-id="548e1-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="548e1-114">若要查看規則的詳細資料，請選取規則，然後按一下 [ **顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="548e1-114">To view the details for a rule, select the rule, and then click **Show details**.</span></span>
+5.  <span data-ttu-id="7e7eb-114">規則會出現在 [ **編輯用戶端版本原則** ] 頁面上。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-114">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="7e7eb-115">若要查看規則的詳細資料，請選取規則，然後按一下 [ **顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-115">To view the details for a rule, select the rule, and then click **Show details**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="548e1-115">使用 Windows PowerShell Cmdlet 來查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="548e1-115">Viewing Client Version Policy Rules by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="7e7eb-116">使用 Windows PowerShell Cmdlet 來查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="7e7eb-116">Viewing Client Version Policy Rules by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="548e1-116">您可以使用 Lync Server 管理命令介面和 **Get-CsClientVersionPolicyRule** Cmdlet 來查看用戶端版本原則規則。</span><span class="sxs-lookup"><span data-stu-id="548e1-116">You can view client version policy rules by using Lync Server Management Shell and the **Get-CsClientVersionPolicyRule** cmdlet.</span></span> <span data-ttu-id="548e1-117">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="548e1-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="548e1-118">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="548e1-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="7e7eb-117">您可以使用 Lync Server 管理命令介面和 **Get-CsClientVersionPolicyRule** Cmdlet 來查看用戶端版本原則規則。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-117">You can view client version policy rules by using Lync Server Management Shell and the **Get-CsClientVersionPolicyRule** cmdlet.</span></span> <span data-ttu-id="7e7eb-118">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="7e7eb-119">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policy-rules"></a><span data-ttu-id="548e1-119">若要查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="548e1-119">To view client version policy rules</span></span>
+## <a name="to-view-client-version-policy-rules"></a><span data-ttu-id="7e7eb-120">若要查看用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="7e7eb-120">To view client version policy rules</span></span>
 
-  - <span data-ttu-id="548e1-120">若要查看用戶端版本原則規則，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：</span><span class="sxs-lookup"><span data-stu-id="548e1-120">To view the client version policy rules, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="7e7eb-121">若要查看用戶端版本原則規則，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：</span><span class="sxs-lookup"><span data-stu-id="7e7eb-121">To view the client version policy rules, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionPolicyRule
     
-    <span data-ttu-id="548e1-121">這樣會針對每個設定的規則傳回類似下列的資訊：</span><span class="sxs-lookup"><span data-stu-id="548e1-121">That will return information similar to this for each configured rule:</span></span>
+    <span data-ttu-id="7e7eb-122">這樣會針對每個設定的規則傳回類似下列的資訊：</span><span class="sxs-lookup"><span data-stu-id="7e7eb-122">That will return information similar to this for each configured rule:</span></span>
     
         Identity          : Global/2336c611-a243-4c5d-994b-eea8a524d0e4
         Priority          : 0
@@ -90,7 +91,7 @@ ms.locfileid: "48506550"
 
 </div>
 
-<span data-ttu-id="548e1-122">如需詳細資訊，請參閱 [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="548e1-122">For details, see the help topic for the [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) cmdlet.</span></span>
+<span data-ttu-id="7e7eb-123">如需詳細資訊，請參閱 [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="7e7eb-123">For details, see the help topic for the [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) cmdlet.</span></span>
 
 </div>
 

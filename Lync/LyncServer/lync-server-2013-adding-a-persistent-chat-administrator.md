@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：新增 Persistent Chat 系統管理員
+description: Lync Server 2013：新增 Persistent Chat administrator。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2caffd50fb904ebb93a789278ece9f13665ca4b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d98ef6420ce976cd983b287a0f7c63b514d083d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521430"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572399"
 ---
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="a11d2-102">在 Lync Server 2013 中新增 Persistent Chat 系統管理員</span><span class="sxs-lookup"><span data-stu-id="a11d2-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="1d6e9-103">在 Lync Server 2013 中新增 Persistent Chat 系統管理員</span><span class="sxs-lookup"><span data-stu-id="1d6e9-103">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48521430"
 
 <span> </span>
 
-<span data-ttu-id="a11d2-103">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a11d2-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="1d6e9-104">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="1d6e9-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="a11d2-104">在 Lync Server 2013 中，執行特定工作的使用者必須指派為一或多個特定群組的成員。</span><span class="sxs-lookup"><span data-stu-id="a11d2-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="a11d2-105">以角色為基礎的存取控制 (RBAC) 也可以用來授與許可權，方法是將使用者指派至預先定義的 Lync Server 2013 系統管理角色。</span><span class="sxs-lookup"><span data-stu-id="a11d2-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
+<span data-ttu-id="1d6e9-105">在 Lync Server 2013 中，執行特定工作的使用者必須指派為一或多個特定群組的成員。</span><span class="sxs-lookup"><span data-stu-id="1d6e9-105">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="1d6e9-106">以角色為基礎的存取控制 (RBAC) 也可以用來授與許可權，方法是將使用者指派至預先定義的 Lync Server 2013 系統管理角色。</span><span class="sxs-lookup"><span data-stu-id="1d6e9-106">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
 
-<span data-ttu-id="a11d2-106">在設定及管理 Persistent Chat Server 之前，請確定適當的使用者權限及許可權已存在，而且任何歸類為 Persistent Chat 系統管理員的使用者都會新增至 CsPersistentChatAdministrator 安全性群組。</span><span class="sxs-lookup"><span data-stu-id="a11d2-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
+<span data-ttu-id="1d6e9-107">在設定及管理 Persistent Chat Server 之前，請確定適當的使用者權限及許可權已存在，而且任何歸類為 Persistent Chat 系統管理員的使用者都會新增至 CsPersistentChatAdministrator 安全性群組。</span><span class="sxs-lookup"><span data-stu-id="1d6e9-107">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
 
 </div>
 
