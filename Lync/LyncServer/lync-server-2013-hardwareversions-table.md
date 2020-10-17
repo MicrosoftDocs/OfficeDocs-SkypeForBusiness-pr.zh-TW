@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： HardwareVersions 表格
+description: Lync Server 2013： HardwareVersions 表格。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185406
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a0e312d2f74409617c5173686f9b6acf0587f07
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7bc93938451f0093dae1b4c037040350cc7f45cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528310"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552899"
 ---
-# <a name="hardwareversions-table-in-lync-server-2013"></a><span data-ttu-id="e8feb-102">Lync Server 2013 中的 HardwareVersions 表格</span><span class="sxs-lookup"><span data-stu-id="e8feb-102">HardwareVersions table in Lync Server 2013</span></span>
+# <a name="hardwareversions-table-in-lync-server-2013"></a><span data-ttu-id="d2e9a-103">Lync Server 2013 中的 HardwareVersions 表格</span><span class="sxs-lookup"><span data-stu-id="d2e9a-103">HardwareVersions table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48528310"
 
 <span> </span>
 
-<span data-ttu-id="e8feb-103">_**主題上次修改日期：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="e8feb-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="d2e9a-104">_**主題上次修改日期：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="d2e9a-104">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="e8feb-104">HardwareVersions 表格是支援的表格。</span><span class="sxs-lookup"><span data-stu-id="e8feb-104">The HardwareVersions table is a supporting table.</span></span> <span data-ttu-id="e8feb-105">每個記錄儲存一個裝置硬體版本的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="e8feb-105">Each record stores information about one device hardware version.</span></span>
+<span data-ttu-id="d2e9a-105">HardwareVersions 表格是支援的表格。</span><span class="sxs-lookup"><span data-stu-id="d2e9a-105">The HardwareVersions table is a supporting table.</span></span> <span data-ttu-id="d2e9a-106">每個記錄儲存一個裝置硬體版本的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="d2e9a-106">Each record stores information about one device hardware version.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48528310"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e8feb-106">欄</span><span class="sxs-lookup"><span data-stu-id="e8feb-106">Column</span></span></th>
-<th><span data-ttu-id="e8feb-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="e8feb-107">Data Type</span></span></th>
-<th><span data-ttu-id="e8feb-108">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="e8feb-108">Key/Index</span></span></th>
-<th><span data-ttu-id="e8feb-109">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e8feb-109">Details</span></span></th>
+<th><span data-ttu-id="d2e9a-107">欄</span><span class="sxs-lookup"><span data-stu-id="d2e9a-107">Column</span></span></th>
+<th><span data-ttu-id="d2e9a-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="d2e9a-108">Data Type</span></span></th>
+<th><span data-ttu-id="d2e9a-109">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="d2e9a-109">Key/Index</span></span></th>
+<th><span data-ttu-id="d2e9a-110">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d2e9a-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e8feb-110"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="e8feb-110"><strong>VersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8feb-111">int</span><span class="sxs-lookup"><span data-stu-id="e8feb-111">int</span></span></p></td>
-<td><p><span data-ttu-id="e8feb-112">主要</span><span class="sxs-lookup"><span data-stu-id="e8feb-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="e8feb-113">用於識別此硬體版本的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="e8feb-113">Unique number identifying this hardware version.</span></span></p></td>
+<td><p><span data-ttu-id="d2e9a-111"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="d2e9a-111"><strong>VersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d2e9a-112">int</span><span class="sxs-lookup"><span data-stu-id="d2e9a-112">int</span></span></p></td>
+<td><p><span data-ttu-id="d2e9a-113">主要</span><span class="sxs-lookup"><span data-stu-id="d2e9a-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="d2e9a-114">用於識別此硬體版本的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="d2e9a-114">Unique number identifying this hardware version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8feb-114"><strong>版本</strong></span><span class="sxs-lookup"><span data-stu-id="e8feb-114"><strong>Version</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8feb-115">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="e8feb-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2e9a-115"><strong>版本</strong></span><span class="sxs-lookup"><span data-stu-id="d2e9a-115"><strong>Version</strong></span></span></p></td>
+<td><p><span data-ttu-id="d2e9a-116">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="d2e9a-116">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="e8feb-116">硬體版本。</span><span class="sxs-lookup"><span data-stu-id="e8feb-116">Hardware version.</span></span></p></td>
+<td><p><span data-ttu-id="d2e9a-117">硬體版本。</span><span class="sxs-lookup"><span data-stu-id="d2e9a-117">Hardware version.</span></span></p></td>
 </tr>
 </tbody>
 </table>
