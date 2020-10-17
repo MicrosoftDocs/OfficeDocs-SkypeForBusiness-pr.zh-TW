@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ErrorReport 檢視'
+title: Lync Server 2013： ErrorReport view
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e635cd289f0224a7f8d4106cecc3d8b047e9bb92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8792154c88c74049a785ddfb9ebbca55a52bc26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514450"
 ---
+# <a name="errorreport-view-in-lync-server-2013"></a><span data-ttu-id="35a00-102">Lync Server 2013 中的 ErrorReport 視圖</span><span class="sxs-lookup"><span data-stu-id="35a00-102">ErrorReport view in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-view-in-lync-server-2013"></a><span data-ttu-id="bf562-102">Lync Server 2013 中的 ErrorReport 檢視</span><span class="sxs-lookup"><span data-stu-id="bf562-102">ErrorReport view in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42207529"
 
 <span> </span>
 
-<span data-ttu-id="bf562-103">_**上次修改主題：** 2013年-01-22_</span><span class="sxs-lookup"><span data-stu-id="bf562-103">_**Topic Last Modified:** 2013-01-22_</span></span>
+<span data-ttu-id="35a00-103">_**主題上次修改日期：** 2013-01-22_</span><span class="sxs-lookup"><span data-stu-id="35a00-103">_**Topic Last Modified:** 2013-01-22_</span></span>
 
-<span data-ttu-id="bf562-104">ErrorReport 檢視儲存錯誤報告的資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-104">The ErrorReport view stores information about errors reported.</span></span> <span data-ttu-id="bf562-105">每一筆記錄就是一個錯誤發生。</span><span class="sxs-lookup"><span data-stu-id="bf562-105">Each record is one error occurrence.</span></span> <span data-ttu-id="bf562-106">錯誤捕捉; 或是在前端伺服器上執行的 CDR 代理程式或寄件者用戶端。</span><span class="sxs-lookup"><span data-stu-id="bf562-106">The errors are captured either by the CDR agent running on the front-end server or sent from the client.</span></span> <span data-ttu-id="bf562-107">Microsoft Lync Server 2013 中已採用此檢視。</span><span class="sxs-lookup"><span data-stu-id="bf562-107">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="35a00-104">ErrorReport view 會儲存所報告錯誤的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="35a00-104">The ErrorReport view stores information about errors reported.</span></span> <span data-ttu-id="35a00-105">每個記錄是一個錯誤發生。</span><span class="sxs-lookup"><span data-stu-id="35a00-105">Each record is one error occurrence.</span></span> <span data-ttu-id="35a00-106">這兩個錯誤是由前端伺服器上執行的 CDR 代理程式所捕獲，或是從用戶端傳送。</span><span class="sxs-lookup"><span data-stu-id="35a00-106">The errors are captured either by the CDR agent running on the front-end server or sent from the client.</span></span> <span data-ttu-id="35a00-107">此視圖已引進于 Microsoft Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="35a00-107">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -48,164 +50,164 @@ ms.locfileid: "42207529"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bf562-108">欄</span><span class="sxs-lookup"><span data-stu-id="bf562-108">Column</span></span></th>
-<th><span data-ttu-id="bf562-109">資料類型</span><span class="sxs-lookup"><span data-stu-id="bf562-109">Data Type</span></span></th>
-<th><span data-ttu-id="bf562-110">詳細資料</span><span class="sxs-lookup"><span data-stu-id="bf562-110">Details</span></span></th>
+<th><span data-ttu-id="35a00-108">欄</span><span class="sxs-lookup"><span data-stu-id="35a00-108">Column</span></span></th>
+<th><span data-ttu-id="35a00-109">資料類型</span><span class="sxs-lookup"><span data-stu-id="35a00-109">Data Type</span></span></th>
+<th><span data-ttu-id="35a00-110">詳細資料</span><span class="sxs-lookup"><span data-stu-id="35a00-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-111"><strong>ErrorTime</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-111"><strong>ErrorTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-112">datetime</span><span class="sxs-lookup"><span data-stu-id="bf562-112">datetime</span></span></p></td>
-<td><p><span data-ttu-id="bf562-113">發生錯誤的時間。</span><span class="sxs-lookup"><span data-stu-id="bf562-113">Time of error occurred.</span></span> <span data-ttu-id="bf562-114">搭配 ErrorReportSeq 用來唯一地識別錯誤。</span><span class="sxs-lookup"><span data-stu-id="bf562-114">Used in conjunction with ErrorReportSeq to uniquely identify an error.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-111"><strong>ErrorTime</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-111"><strong>ErrorTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-112">datetime</span><span class="sxs-lookup"><span data-stu-id="35a00-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="35a00-113">發生錯誤的時間。</span><span class="sxs-lookup"><span data-stu-id="35a00-113">Time of error occurred.</span></span> <span data-ttu-id="35a00-114">與 ErrorReportSeq 搭配使用，以唯一識別錯誤。</span><span class="sxs-lookup"><span data-stu-id="35a00-114">Used in conjunction with ErrorReportSeq to uniquely identify an error.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-115"><strong>ErrorReportSeq</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-115"><strong>ErrorReportSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-116">int</span><span class="sxs-lookup"><span data-stu-id="bf562-116">int</span></span></p></td>
-<td><p><span data-ttu-id="bf562-117">若要識別錯誤的識別碼。</span><span class="sxs-lookup"><span data-stu-id="bf562-117">ID number to identify the error.</span></span> <span data-ttu-id="bf562-118">ErrorTime 搭配使用來唯一地識別錯誤。</span><span class="sxs-lookup"><span data-stu-id="bf562-118">Used in conjunction with ErrorTime to uniquely identify an error.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-115"><strong>ErrorReportSeq</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-115"><strong>ErrorReportSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-116">int</span><span class="sxs-lookup"><span data-stu-id="35a00-116">int</span></span></p></td>
+<td><p><span data-ttu-id="35a00-117">用以識別錯誤的 ID 號碼。</span><span class="sxs-lookup"><span data-stu-id="35a00-117">ID number to identify the error.</span></span> <span data-ttu-id="35a00-118">與 ErrorTime 搭配使用，以唯一識別錯誤。</span><span class="sxs-lookup"><span data-stu-id="35a00-118">Used in conjunction with ErrorTime to uniquely identify an error.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-119"><strong>MsDiagId</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-119"><strong>MsDiagId</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-120">int</span><span class="sxs-lookup"><span data-stu-id="bf562-120">int</span></span></p></td>
-<td><p><span data-ttu-id="bf562-121">錯誤報告的診斷識別碼。</span><span class="sxs-lookup"><span data-stu-id="bf562-121">Diagnostic ID for the error report.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-119"><strong>MsDiagId</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-119"><strong>MsDiagId</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-120">int</span><span class="sxs-lookup"><span data-stu-id="35a00-120">int</span></span></p></td>
+<td><p><span data-ttu-id="35a00-121">錯誤報表的診斷識別碼。</span><span class="sxs-lookup"><span data-stu-id="35a00-121">Diagnostic ID for the error report.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-122"><strong>FromUri</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-122"><strong>FromUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-123">nvarchar(450)</span><span class="sxs-lookup"><span data-stu-id="bf562-123">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-124">錯誤源自的使用者 URI。</span><span class="sxs-lookup"><span data-stu-id="bf562-124">URI of the user who originated the error.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-122"><strong>FromUri</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-122"><strong>FromUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-123">Nvarchar (450) </span><span class="sxs-lookup"><span data-stu-id="35a00-123">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-124">產生錯誤之使用者的 URI。</span><span class="sxs-lookup"><span data-stu-id="35a00-124">URI of the user who originated the error.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-125"><strong>FromUriType</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-125"><strong>FromUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-126">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-126">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-127">錯誤源自使用者的 URI 類型。</span><span class="sxs-lookup"><span data-stu-id="bf562-127">Type of URI of the user who originated the error.</span></span> <span data-ttu-id="bf562-128">請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-128">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-125"><strong>FromUriType</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-125"><strong>FromUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-126">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-126">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-127">產生錯誤之使用者的 URI 類型。</span><span class="sxs-lookup"><span data-stu-id="35a00-127">Type of URI of the user who originated the error.</span></span> <span data-ttu-id="35a00-128">如需詳細資訊，請參閱 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-128">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-129"><strong>FromTenant</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-129"><strong>FromTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-130">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-130">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-131">租用戶的使用者錯誤源自。</span><span class="sxs-lookup"><span data-stu-id="bf562-131">Tenant of the user who originated the error.</span></span> <span data-ttu-id="bf562-132">請參閱<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租用戶表</a>如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-132">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-129"><strong>FromTenant</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-129"><strong>FromTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-130">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-130">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-131">產生錯誤之使用者的租使用者。</span><span class="sxs-lookup"><span data-stu-id="35a00-131">Tenant of the user who originated the error.</span></span> <span data-ttu-id="35a00-132">如需詳細資訊，請參閱 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的承租人資料表</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-132">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-133"><strong>ToUri</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-133"><strong>ToUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-134">nvarchar(450)</span><span class="sxs-lookup"><span data-stu-id="bf562-134">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-135">錯誤報告的目標使用者的 URI。</span><span class="sxs-lookup"><span data-stu-id="bf562-135">URI of the user who was the target of the error report.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-133"><strong>ToUri</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-133"><strong>ToUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-134">Nvarchar (450) </span><span class="sxs-lookup"><span data-stu-id="35a00-134">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-135">錯誤報表之目標之使用者的 URI。</span><span class="sxs-lookup"><span data-stu-id="35a00-135">URI of the user who was the target of the error report.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-136"><strong>ToUriType</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-136"><strong>ToUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-137">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-137">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-138">目標使用者的 URI 類型的錯誤報告。</span><span class="sxs-lookup"><span data-stu-id="bf562-138">Type of URI of the user who target of the error report.</span></span> <span data-ttu-id="bf562-139">如需詳細資訊，請參閱＜UriTypes Table＞。</span><span class="sxs-lookup"><span data-stu-id="bf562-139">See the UriTypes Table for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-136"><strong>ToUriType</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-136"><strong>ToUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-137">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-137">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-138">錯誤報表目標使用者的 URI 類型。</span><span class="sxs-lookup"><span data-stu-id="35a00-138">Type of URI of the user who target of the error report.</span></span> <span data-ttu-id="35a00-139">如需詳細資訊，請參閱＜UriTypes Table＞。</span><span class="sxs-lookup"><span data-stu-id="35a00-139">See the UriTypes Table for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-140"><strong>ToTenant</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-140"><strong>ToTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-141">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-141">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-142">目標使用者的租用戶的錯誤報告。</span><span class="sxs-lookup"><span data-stu-id="bf562-142">Tenant of the user who target of the error report.</span></span> <span data-ttu-id="bf562-143">請參閱<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租用戶表</a>如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-143">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-140"><strong>ToTenant</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-140"><strong>ToTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-141">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-141">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-142">目標為錯誤報表之使用者的租使用者。</span><span class="sxs-lookup"><span data-stu-id="35a00-142">Tenant of the user who target of the error report.</span></span> <span data-ttu-id="35a00-143">如需詳細資訊，請參閱 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的承租人資料表</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-143">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-144"><strong>ConferenceUri</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-144"><strong>ConferenceUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-145">nvarchar(450)</span><span class="sxs-lookup"><span data-stu-id="bf562-145">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-146">錯誤報告的目標會議 URI。</span><span class="sxs-lookup"><span data-stu-id="bf562-146">URI of the conference that was the target of the error report.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-144"><strong>ConferenceUri</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-144"><strong>ConferenceUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-145">Nvarchar (450) </span><span class="sxs-lookup"><span data-stu-id="35a00-145">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-146">錯誤報表目標的會議 URI。</span><span class="sxs-lookup"><span data-stu-id="35a00-146">URI of the conference that was the target of the error report.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-147"><strong>ConferenceUriType</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-147"><strong>ConferenceUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-148">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-148">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-149">錯誤報告的目標會議 URI 類型。</span><span class="sxs-lookup"><span data-stu-id="bf562-149">URI type of the conference that was the target of the error report.</span></span> <span data-ttu-id="bf562-150">請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-150">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-147"><strong>ConferenceUriType</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-147"><strong>ConferenceUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-148">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-148">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-149">錯誤報表目標的會議 URI 類型。</span><span class="sxs-lookup"><span data-stu-id="35a00-149">URI type of the conference that was the target of the error report.</span></span> <span data-ttu-id="35a00-150">如需詳細資訊，請參閱 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-150">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-151"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-151"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-152">datetime</span><span class="sxs-lookup"><span data-stu-id="bf562-152">datetime</span></span></p></td>
-<td><p><span data-ttu-id="bf562-153">來自錯誤報告的工作階段要求的時間。</span><span class="sxs-lookup"><span data-stu-id="bf562-153">Time of session request that originated the error report.</span></span> <span data-ttu-id="bf562-154">與 SessionIdSeq 搭配使用，以唯一識別工作階段。</span><span class="sxs-lookup"><span data-stu-id="bf562-154">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="bf562-155"><a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</span><span class="sxs-lookup"><span data-stu-id="bf562-155">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-151"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-151"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-152">datetime</span><span class="sxs-lookup"><span data-stu-id="35a00-152">datetime</span></span></p></td>
+<td><p><span data-ttu-id="35a00-153">發出錯誤報表之會話要求的時間。</span><span class="sxs-lookup"><span data-stu-id="35a00-153">Time of session request that originated the error report.</span></span> <span data-ttu-id="35a00-154">與 SessionIdSeq 搭配使用，以唯一識別工作階段。</span><span class="sxs-lookup"><span data-stu-id="35a00-154">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="35a00-155">如需詳細資訊，請參閱 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的對話方塊表格</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-155">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-156"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-156"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-157">int</span><span class="sxs-lookup"><span data-stu-id="bf562-157">int</span></span></p></td>
-<td><p><span data-ttu-id="bf562-158">若要識別來自錯誤報告的工作階段要求的識別碼。</span><span class="sxs-lookup"><span data-stu-id="bf562-158">ID number to identify the session request that originated the error report.</span></span> <span data-ttu-id="bf562-159">與 SessionIdTime 搭配使用，以唯一識別工作階段。</span><span class="sxs-lookup"><span data-stu-id="bf562-159">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="bf562-160"><a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</span><span class="sxs-lookup"><span data-stu-id="bf562-160">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-156"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-156"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-157">int</span><span class="sxs-lookup"><span data-stu-id="35a00-157">int</span></span></p></td>
+<td><p><span data-ttu-id="35a00-158">識別產生錯誤報表之會話要求的識別碼編號。</span><span class="sxs-lookup"><span data-stu-id="35a00-158">ID number to identify the session request that originated the error report.</span></span> <span data-ttu-id="35a00-159">與 SessionIdTime 搭配使用，以唯一識別工作階段。</span><span class="sxs-lookup"><span data-stu-id="35a00-159">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="35a00-160">如需詳細資訊，請參閱 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的對話方塊表格</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-160">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-161"><strong>DialogId</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-161"><strong>DialogId</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-162">varstring(775)</span><span class="sxs-lookup"><span data-stu-id="bf562-162">varstring(775)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-163">錯誤源自的工作階段 SIP 對話方塊 ID。</span><span class="sxs-lookup"><span data-stu-id="bf562-163">SIP dialog ID of session that originated the error.</span></span> <span data-ttu-id="bf562-164">格式為：</span><span class="sxs-lookup"><span data-stu-id="bf562-164">The format is:</span></span></p>
-<p><span data-ttu-id="bf562-165">對話方塊; 從標籤; 來標記</span><span class="sxs-lookup"><span data-stu-id="bf562-165">dialog;from-tag;to-tag</span></span></p>
-<p><span data-ttu-id="bf562-166">可以使用下列語法，將此資料轉換成文字格式：</span><span class="sxs-lookup"><span data-stu-id="bf562-166">This data can be converted to text format by using this syntax:</span></span></p>
-<p><span data-ttu-id="bf562-167">轉換 （轉換 (ExternalId 做為 varchar(max)) varbinary(max))</span><span class="sxs-lookup"><span data-stu-id="bf562-167">cast(cast(ExternalId as varbinary(max)) as varchar(max))</span></span></p></td>
+<td><p><span data-ttu-id="35a00-161"><strong>DialogId</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-161"><strong>DialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-162">varstring (775) </span><span class="sxs-lookup"><span data-stu-id="35a00-162">varstring(775)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-163">發出錯誤之會話的 SIP 對話方塊識別碼。</span><span class="sxs-lookup"><span data-stu-id="35a00-163">SIP dialog ID of session that originated the error.</span></span> <span data-ttu-id="35a00-164">格式為：</span><span class="sxs-lookup"><span data-stu-id="35a00-164">The format is:</span></span></p>
+<p><span data-ttu-id="35a00-165">dialog; 從-標籤; to-標記</span><span class="sxs-lookup"><span data-stu-id="35a00-165">dialog;from-tag;to-tag</span></span></p>
+<p><span data-ttu-id="35a00-166">您可以使用下列語法將此資料轉換成文字格式：</span><span class="sxs-lookup"><span data-stu-id="35a00-166">This data can be converted to text format by using this syntax:</span></span></p>
+<p><span data-ttu-id="35a00-167">cast (cast (ExternalId 為 Varbinary (max) # A4 做為 Varchar (最大) # A7</span><span class="sxs-lookup"><span data-stu-id="35a00-167">cast(cast(ExternalId as varbinary(max)) as varchar(max))</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-168"><strong>ClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-168"><strong>ClientVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-169">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-169">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-170">錯誤源自之使用者所用戶端版本。</span><span class="sxs-lookup"><span data-stu-id="bf562-170">Version of client used by the user who originated the error.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-168"><strong>Microsoft.rtc.management.writableconfig.policy.clientversion.rule</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-168"><strong>ClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-169">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-169">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-170">產生錯誤之使用者所使用的用戶端版本。</span><span class="sxs-lookup"><span data-stu-id="35a00-170">Version of client used by the user who originated the error.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-171"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-171"><strong>ClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-172">int</span><span class="sxs-lookup"><span data-stu-id="bf562-172">int</span></span></p></td>
-<td><p><span data-ttu-id="bf562-173">用戶端之使用者所使用源自錯誤。</span><span class="sxs-lookup"><span data-stu-id="bf562-173">Client used by the user who originated the error.</span></span> <span data-ttu-id="bf562-174">請參閱<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-174">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-171"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-171"><strong>ClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-172">int</span><span class="sxs-lookup"><span data-stu-id="35a00-172">int</span></span></p></td>
+<td><p><span data-ttu-id="35a00-173">產生錯誤之使用者所使用的用戶端。</span><span class="sxs-lookup"><span data-stu-id="35a00-173">Client used by the user who originated the error.</span></span> <span data-ttu-id="35a00-174">如需詳細資訊，請參閱 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表格</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-174">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-175"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-175"><strong>ClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-176">nvarchar(64)</span><span class="sxs-lookup"><span data-stu-id="bf562-176">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-177">錯誤源自用戶端之使用者所使用的類別名稱。</span><span class="sxs-lookup"><span data-stu-id="bf562-177">Name of the category of the client used by the user who originated the error.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-175"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-175"><strong>ClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-176">Nvarchar (64) </span><span class="sxs-lookup"><span data-stu-id="35a00-176">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-177">產生錯誤之使用者所使用的用戶端類別名稱。</span><span class="sxs-lookup"><span data-stu-id="35a00-177">Name of the category of the client used by the user who originated the error.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-178"><strong>Source</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-178"><strong>Source</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-179">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-179">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-180">錯誤源自 （如果報告從伺服器元件傳送） 的伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="bf562-180">Name of server that originated the error (if report was sent from a server component).</span></span></p></td>
+<td><p><span data-ttu-id="35a00-178"><strong>Source</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-178"><strong>Source</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-179">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-179">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-180">起源錯誤的伺服器名稱 (如果報告是從伺服器元件傳送) 中。</span><span class="sxs-lookup"><span data-stu-id="35a00-180">Name of server that originated the error (if report was sent from a server component).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-181"><strong>應用程式</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-181"><strong>Application</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-182">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-182">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-183">錯誤源自 （如果報告從伺服器元件傳送） 的應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="bf562-183">Name of application that originated the error (if report was sent from a server component).</span></span></p></td>
+<td><p><span data-ttu-id="35a00-181"><strong>應用程式</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-181"><strong>Application</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-182">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-182">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-183">起源錯誤的應用程式名稱 (如果報告是從伺服器元件傳送) 。</span><span class="sxs-lookup"><span data-stu-id="35a00-183">Name of application that originated the error (if report was sent from a server component).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-184"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-184"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-185">int</span><span class="sxs-lookup"><span data-stu-id="bf562-185">int</span></span></p></td>
-<td><p><span data-ttu-id="bf562-186">SIP 回應碼的 SIP 訊息包含錯誤報告的工作階段。</span><span class="sxs-lookup"><span data-stu-id="bf562-186">SIP response code to the session of the SIP message containing the error report.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-184"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-184"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-185">int</span><span class="sxs-lookup"><span data-stu-id="35a00-185">int</span></span></p></td>
+<td><p><span data-ttu-id="35a00-186">包含錯誤報表之 SIP 郵件會話的 SIP 回應碼。</span><span class="sxs-lookup"><span data-stu-id="35a00-186">SIP response code to the session of the SIP message containing the error report.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-187"><strong>RequestType</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-187"><strong>RequestType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-188">varchar(max)</span><span class="sxs-lookup"><span data-stu-id="bf562-188">varchar(max)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-189">失敗之要求的類型。</span><span class="sxs-lookup"><span data-stu-id="bf562-189">Type of request that failed.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-187"><strong>RequestType</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-187"><strong>RequestType</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-188">Varchar (max) </span><span class="sxs-lookup"><span data-stu-id="35a00-188">varchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-189">失敗的要求類型。</span><span class="sxs-lookup"><span data-stu-id="35a00-189">Type of request that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-190"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-190"><strong>ContentType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-191">varchar(max)</span><span class="sxs-lookup"><span data-stu-id="bf562-191">varchar(max)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-192">失敗之要求的內容類型。</span><span class="sxs-lookup"><span data-stu-id="bf562-192">Content type of the request that failed.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-190"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-190"><strong>ContentType</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-191">Varchar (max) </span><span class="sxs-lookup"><span data-stu-id="35a00-191">varchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-192">失敗之要求的內容類型。</span><span class="sxs-lookup"><span data-stu-id="35a00-192">Content type of the request that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-193"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-193"><strong>CallType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-194">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bf562-194">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-195">工作階段的類型。</span><span class="sxs-lookup"><span data-stu-id="bf562-195">Type of session.</span></span> <span data-ttu-id="bf562-196">請參閱<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表格</a>如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-196">See the <a href="lync-server-2013-calltype-table.md">CallType table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-193"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-193"><strong>CallType</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-194">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="35a00-194">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-195">會話類型。</span><span class="sxs-lookup"><span data-stu-id="35a00-195">Type of session.</span></span> <span data-ttu-id="35a00-196">如需詳細資訊，請參閱 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表格</a> 。</span><span class="sxs-lookup"><span data-stu-id="35a00-196">See the <a href="lync-server-2013-calltype-table.md">CallType table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-197"><strong>TelemetryId</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-197"><strong>TelemetryId</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-198">唯一</span><span class="sxs-lookup"><span data-stu-id="bf562-198">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="bf562-199">相互關聯參與會議之不同元件的加入時間資訊的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="bf562-199">Unique identifier correlating join time information for the different components involved in a conference.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-197"><strong>TelemetryId</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-197"><strong>TelemetryId</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-198">唯一</span><span class="sxs-lookup"><span data-stu-id="35a00-198">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="35a00-199">與會議相關聯之不同元件的加入時間資訊的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="35a00-199">Unique identifier correlating join time information for the different components involved in a conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-200"><strong>SetupTime</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-200"><strong>SetupTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-201">int</span><span class="sxs-lookup"><span data-stu-id="bf562-201">int</span></span></p></td>
-<td><p><span data-ttu-id="bf562-202">時間 （以毫秒為單位） 所需的特定元件加入會議。</span><span class="sxs-lookup"><span data-stu-id="bf562-202">Time (in milliseconds) required for a specific component to join a conference.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-200"><strong>SetupTime</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-200"><strong>SetupTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-201">int</span><span class="sxs-lookup"><span data-stu-id="35a00-201">int</span></span></p></td>
+<td><p><span data-ttu-id="35a00-202">特定元件加入會議所需的時間 (（毫秒）) 。</span><span class="sxs-lookup"><span data-stu-id="35a00-202">Time (in milliseconds) required for a specific component to join a conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-203"><strong>IsCapturedByServer</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-203"><strong>IsCapturedByServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-204">位元</span><span class="sxs-lookup"><span data-stu-id="bf562-204">bit</span></span></p></td>
-<td><p><span data-ttu-id="bf562-205">會指出錯誤報告是否已在前端伺服器上，執行的 CDR 代理程式所擷取，或用戶端所傳送。</span><span class="sxs-lookup"><span data-stu-id="bf562-205">Indicates whether the error report was captured by the CDR agent running on the Front End server, or sent by the client.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-203"><strong>IsCapturedByServer</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-203"><strong>IsCapturedByServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-204">位</span><span class="sxs-lookup"><span data-stu-id="35a00-204">bit</span></span></p></td>
+<td><p><span data-ttu-id="35a00-205">會指出是否是由前端伺服器上執行的 CDR 代理程式所捕獲，或是由用戶端所傳送的錯誤報表。</span><span class="sxs-lookup"><span data-stu-id="35a00-205">Indicates whether the error report was captured by the CDR agent running on the Front End server, or sent by the client.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-206"><strong>Flag</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-206"><strong>Flag</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-207">smallint</span><span class="sxs-lookup"><span data-stu-id="bf562-207">smallint</span></span></p></td>
-<td><p><span data-ttu-id="bf562-208">保留供日後使用。</span><span class="sxs-lookup"><span data-stu-id="bf562-208">Reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-206"><strong>Flag</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-206"><strong>Flag</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-207">Smallint</span><span class="sxs-lookup"><span data-stu-id="35a00-207">smallint</span></span></p></td>
+<td><p><span data-ttu-id="35a00-208">保留供日後使用。</span><span class="sxs-lookup"><span data-stu-id="35a00-208">Reserved for future use.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-209"><strong>MsDiagHeader</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-209"><strong>MsDiagHeader</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-210">varchar(max)</span><span class="sxs-lookup"><span data-stu-id="bf562-210">varchar(max)</span></span></p></td>
-<td><p><span data-ttu-id="bf562-211">錯誤的相關的其他資訊。</span><span class="sxs-lookup"><span data-stu-id="bf562-211">Additional information about the error.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-209"><strong>MsDiagHeader</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-209"><strong>MsDiagHeader</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-210">Varchar (max) </span><span class="sxs-lookup"><span data-stu-id="35a00-210">varchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="35a00-211">有關錯誤的其他資訊。</span><span class="sxs-lookup"><span data-stu-id="35a00-211">Additional information about the error.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf562-212"><strong>前端</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-212"><strong>FrontEnd</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-213">nvarchar</span><span class="sxs-lookup"><span data-stu-id="bf562-213">nvarchar</span></span></p></td>
-<td><p><span data-ttu-id="bf562-214">送出報表的前端伺服器的完整的網域名稱。</span><span class="sxs-lookup"><span data-stu-id="bf562-214">Fully qualified domain name of the Front End server that submitted the report.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-212"><strong>FrontEnd</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-212"><strong>FrontEnd</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-213">Nvarchar</span><span class="sxs-lookup"><span data-stu-id="35a00-213">nvarchar</span></span></p></td>
+<td><p><span data-ttu-id="35a00-214">提交報告之前端伺服器的完整功能變數名稱。</span><span class="sxs-lookup"><span data-stu-id="35a00-214">Fully qualified domain name of the Front End server that submitted the report.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf562-215"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="bf562-215"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="bf562-216">nvarchar</span><span class="sxs-lookup"><span data-stu-id="bf562-216">nvarchar</span></span></p></td>
-<td><p><span data-ttu-id="bf562-217">完整網域名稱包含送出報表的前端伺服器集區。</span><span class="sxs-lookup"><span data-stu-id="bf562-217">Fully qualified domain name of the pool containing the Front End server that submitted the report.</span></span></p></td>
+<td><p><span data-ttu-id="35a00-215"><strong>集區</strong></span><span class="sxs-lookup"><span data-stu-id="35a00-215"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="35a00-216">Nvarchar</span><span class="sxs-lookup"><span data-stu-id="35a00-216">nvarchar</span></span></p></td>
+<td><p><span data-ttu-id="35a00-217">包含提交報告之前端伺服器集區的完整功能變數名稱。</span><span class="sxs-lookup"><span data-stu-id="35a00-217">Fully qualified domain name of the pool containing the Front End server that submitted the report.</span></span></p></td>
 </tr>
 </tbody>
 </table>
