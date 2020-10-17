@@ -12,20 +12,22 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9f81299b2efdde3be262439528409d89abf369f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509130"
 ---
+# <a name="prerequisites"></a>先決條件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites"></a>必要條件
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2013-02-19_
 
   - 8 GB ram
 
-  - 2顆雙核中央處理單位（CPUs）
+  - 2顆雙核中央處理單位 (CPUs) 
 
 </div>
 
@@ -61,15 +63,15 @@ _**主題上次修改日期：** 2013-02-19_
 
   - Windows Server 2012 作業系統
 
-  - Windows Server 2008 作業系統（64-位版本）
+  - Windows Server 2008 作業系統 (64-位版本) 
 
 您的用戶端電腦必須符合下列軟體需求：
 
-  - 您必須已安裝[Microsoft .Net Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) runtime。
+  - 您必須已安裝 [Microsoft .Net Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) runtime。
 
   - 在 Windows Server 2008/Windows Server 2012 上，必須啟用桌面體驗功能。
 
-  - 您必須已安裝[Microsoft Visual c + + 2012 可重新發佈套件](https://go.microsoft.com/fwlink/?linkid=143216)（x64）。
+  - 您必須安裝 [Microsoft Visual c + + 2012 可轉散發元件套件](https://go.microsoft.com/fwlink/?linkid=143216) (x64) 。
 
   - 完全設定的 Lync Server 2013 部署。
 
@@ -77,7 +79,7 @@ _**主題上次修改日期：** 2013-02-19_
 
 
 > [!IMPORTANT]  
-> Microsoft 整合通訊 Managed API （UCMA）4.0 文件庫包含在安裝套件中，因此不需要 UCMA，也不應該安裝在用戶端電腦上。
+> Microsoft 整合通訊 Managed API (UCMA) 4.0 文件庫會包含在安裝套件中，因此不需要 UCMA，也不應該安裝在用戶端電腦上。
 
 
 
@@ -93,9 +95,9 @@ _**主題上次修改日期：** 2013-02-19_
 
 1.  您必須以 Domain 或 Local Admins 群組成員的身分登入。
 
-2.  Lync Server 2013 應力和效能工具（LyncPerfTool.exe）無法在同時執行 Lync Server 2013 元件的電腦上執行。
+2.  Lync Server 2013 應力和效能工具 ( # A0) 無法在同時執行 Lync Server 2013 元件的電腦上執行。
 
-3.  您必須在前端伺服器或使用者帳戶所位於的 Standard Edition 伺服器上執行 Lync Server 2013 使用者建立工具（UserProvisioningTool.exe）。 當該工具執行多次時，每個啟用 Microsoft 整合通訊的使用者都必須有唯一的電話號碼。
+3.  您必須在前端伺服器或使用者帳戶所在的 Standard Edition 伺服器上，執行 [Lync Server 2013] 使用者建立工具 ( # A0) 。 當該工具執行多次時，每個啟用 Microsoft 整合通訊的使用者都必須有唯一的電話號碼。
 
 4.  頁面檔案大小應為系統管理，或至少應為系統上的 RAM 量的1.5 倍。
 

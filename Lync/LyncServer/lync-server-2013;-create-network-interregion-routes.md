@@ -13,20 +13,22 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 2890d903df512e2f7eef26e6d1c22fa5bc029839
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508530"
 ---
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a>在 Lync Server 2013 中建立網路區間路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-interregion-routes-in-lync-server-2013"></a>在 Lync Server 2013 中建立網路區間路由
+
 
 </div>
 
@@ -58,7 +60,7 @@ _**主題上次修改日期：** 2012-10-20_
 
 ## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>使用 Lync Server 管理命令介面建立網路區間路由
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  執行 **New-CsNetworkInterRegionRoute** Cmdlet 以定義所需的路由。 例如，執行：
     
@@ -89,7 +91,7 @@ _**主題上次修改日期：** 2012-10-20_
 
 ## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台建立網路區間路由
 
-1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左導覽列中，按一下 **[網路組態]**。
 
@@ -99,9 +101,9 @@ _**主題上次修改日期：** 2012-10-20_
 
 5.  按一下 **[新的地區路由]** 頁面上的 **[名稱]**，然後輸入網路區間路由的名稱。
 
-6.  按一下 [**網路地區 \# 1**]，然後按一下清單中您要路由傳送至 [網路地區 2] 的網路地區 \# 。
+6.  按一下 [ **網路地區 \# 1**]，然後按一下清單中您要路由傳送至 [網路地區 2] 的網路地區 \# 。
 
-7.  按一下 [**網路地區 \# 2**]，然後按一下清單中您要路由傳送至網路地區1的網路地區 \# 。
+7.  按一下 [ **網路地區 \# 2**]，然後按一下清單中您要路由傳送至網路地區1的網路地區 \# 。
 
 8.  按一下 **[網路地區連結]** 欄位旁邊的 **[新增]**，接著新增將用於網路區間路由的網路地區連結。
     

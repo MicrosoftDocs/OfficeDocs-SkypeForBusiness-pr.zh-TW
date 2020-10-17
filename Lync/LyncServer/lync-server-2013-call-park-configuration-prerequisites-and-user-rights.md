@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 通話駐留組態先決條件和使用者權限
+title: Lync Server 2013：通話駐留設定必要條件和使用者權限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f357a840c4fdb08ea63e24b3a80394030dfbcb6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 809f39bd78d4c04ffef6763e3d1f48e40ca55089
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205207"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508260"
 ---
+# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Lync Server 2013 中的通話駐留設定必要條件和使用者權限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>通話駐留組態先決條件和 Lync Server 2013 中的使用者權限
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42205207"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-10_
+_**主題上次修改日期：** 2012-09-10_
 
-通話駐留是當您部署企業語音時，會將預設安裝的通話管理功能。 本主題說明您需要備妥之前您可以設定通話駐留以及您需要先執行組態工作的使用者權限。
+通話駐留是當您部署企業語音時，預設會安裝的通話管理功能。 本主題說明您必須準備好的功能，才能設定通話駐留和執行設定工作所需的使用者權限。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 通話駐留應用程式的自訂等候音樂上保留檔案不會備份 Lync Server 2013 災害復原程序的一部分，如果損毀、 損毀，或清除上傳至集區的檔案，檔案將會遺失。 永遠保持個別檔案的備份自訂等候音樂上保留已上傳的通話駐留。
+> 通話駐留應用程式的自訂封存暫止檔案不會做為 Lync Server 2013 嚴重損壞修復程式的一部分，而且如果上傳至集區的檔案損毀、損毀或清除，檔案也會遺失。 請永遠為通話保留，保留您為通話保留所上傳之自訂音樂暫止檔案的個別備份副本。
 
 
 
 </div>
 
-本節假設您已閱讀規劃通話駐留與相關的文件 （請參閱[Planning for Lync Server 2013 中的通話管理功能](lync-server-2013-planning-for-call-management-features.md)）。
+本節假設您已閱讀與通話駐留相關的規劃檔 (請參閱 [在 Lync Server 2013) 中規劃通話管理功能](lync-server-2013-planning-for-call-management-features.md) 。
 
 <div>
 
-## <a name="call-park-configuration-prerequisites"></a>通話駐留組態先決條件
+## <a name="call-park-configuration-prerequisites"></a>通話駐留設定必要條件
 
 通話駐留需要下列元件：
 
@@ -61,9 +63,9 @@ _**主題上次修改日期：** 2012年-09-10_
 
   - Call Park application
 
-當您部署企業語音時，都會自動安裝這些元件。
+當您部署企業語音時，會自動安裝這些元件。
 
-如果希望來電者在通話駐留時可以聽到音樂，則需要等候音樂檔案。 當您部署企業語音時，會自動安裝預設的等候音樂上保留檔案。 您可以用自己的等候音樂檔案取代預設檔案。 通話駐留使用檔案存放區來保留音訊檔案。
+如果希望來電者在通話駐留時可以聽到音樂，則需要等候音樂檔案。 當您部署企業語音時，會自動安裝預設的等候音樂檔案。 您可以用自己的等候音樂檔案取代預設檔案。 通話駐留使用檔案存放區以保留音訊檔。
 
 </div>
 
@@ -77,23 +79,23 @@ _**主題上次修改日期：** 2012年-09-10_
 
   - Lync Server 管理命令介面
 
-若要設定通話駐留軌道表，並設定通話保留所使用的其他設定，您可以使用這些工具。
+您可以使用這些工具來設定通話駐留軌道表格，並設定通話駐留使用的其他設定。
 
-設定通話駐留要求任何下列系統管理角色，視工作而定：
+設定通話駐留需要下列任何系統管理角色，視任務而定：
 
-  - **CsVoiceAdministrator:** 此系統管理員角色可以建立、 設定及管理所有語音相關設定和原則。
+  - **CsVoiceAdministrator：** 此系統管理員角色可以建立、設定及管理所有語音相關設定和原則。
 
-  - **CsUserAdministrator:** 此系統管理員角色可以在語音原則中啟用通話駐留。 其也具有所有語音設定的唯讀檢視存取權。
+  - **CsUserAdministrator：** 此系統管理員角色可以啟用語音原則中的通話駐留。 其也具有所有語音設定的唯讀檢視存取權。
 
-  - **CsServerAdministrator:** 此系統管理員角色可以管理、 監控及疑難排解伺服器和服務。
+  - **CsServerAdministrator：** 此系統管理員角色可以管理、監控及疑難排解伺服器和服務。
 
-  - **CsAdministrator:** 此系統管理員角色可以執行所有 CsVoiceAdministrator、 CsServerAdministrator 和 CsUserAdministrator 的工作。
+  - **CsAdministrator：** 此系統管理員角色可以執行 CsVoiceAdministrator、CsServerAdministrator 及 CsUserAdministrator 的所有工作。
 
 <div>
 
 
 > [!NOTE]  
-> 如需系統管理權限的詳細資訊，請參閱規劃文件中的<A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Lync Server 2013 中角色型存取控制</A>。
+> 如需系統管理許可權的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A> 。
 
 
 
@@ -106,10 +108,10 @@ _**主題上次修改日期：** 2012年-09-10_
 ## <a name="see-also"></a>另請參閱
 
 
-[部署 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-deploying-enterprise-voice.md)  
+[在 Lync Server 2013 中部署企業語音](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[規劃 Lync Server 2013 中的通話管理功能](lync-server-2013-planning-for-call-management-features.md)  
+[在 Lync Server 2013 中規劃通話管理功能](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

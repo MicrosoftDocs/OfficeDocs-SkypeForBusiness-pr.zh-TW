@@ -12,20 +12,22 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7665a8edb5e77514633de5e66a063ab509fdd821
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d315de4f8b18a5ecbeabe7ba29231c70ff893e8a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508140"
 ---
+# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>使用使用者模型進行 Lync Server 2013 的容量規劃
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>使用使用者模型進行 Lync Server 2013 的容量規劃
+
 
 </div>
 
@@ -495,18 +497,18 @@ Microsoft 使用下表中的硬體，以在其效能測試期間監控和封存�
 </tr>
 <tr class="odd">
 <td><p>CDR 資料庫記錄檔</p></td>
-<td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>1 </p></td>
+<td><p>第</p></td>
 </tr>
 <tr class="even">
 <td><p>QoE 資料庫記錄檔</p></td>
-<td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>1 </p></td>
+<td><p>第</p></td>
 </tr>
 <tr class="odd">
 <td><p>封存資料庫記錄檔</p></td>
-<td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>1 </p></td>
+<td><p>第</p></td>
 </tr>
 </tbody>
 </table>

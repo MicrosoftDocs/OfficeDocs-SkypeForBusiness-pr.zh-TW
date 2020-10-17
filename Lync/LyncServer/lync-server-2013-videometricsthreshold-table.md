@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: VideoMetricsThreshold 表'
+title: Lync Server 2013： VideoMetricsThreshold 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58a054ba58ff7e1e839b0aeca88d0e61164e30b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f1f1fc7ca86c10fa9c409c73c2f4b54ee2777a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211642"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508510"
 ---
+# <a name="videometricsthreshold-table-in-lync-server-2013"></a>Lync Server 2013 中的 VideoMetricsThreshold 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videometricsthreshold-table-in-lync-server-2013"></a>Lync Server 2013 中的 VideoMetricsThreshold 表
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42211642"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
 VideoMetricsThreshold 資料表包含了最佳且可接受的值，供經驗品質搭配視訊通話使用。
 
@@ -51,7 +53,7 @@ VideoMetricsThreshold 資料表包含了最佳且可接受的值，供經驗品�
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -64,61 +66,61 @@ VideoMetricsThreshold 資料表包含了最佳且可接受的值，供經驗品�
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 0.05。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPostFECPLRAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 0.10。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 5.0。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 10.0。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverageOptimal</strong></p></td>
-<td><p>decimal(9,4)</p></td>
+<td><p>十進位 (9，4) </p></td>
 <td></td>
 <td><p>預設值為 12.0000。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvFramerateAverageAcceptable</strong></p></td>
-<td><p>decimal(9,4)</p></td>
+<td><p>十進位 (9，4) </p></td>
 <td></td>
 <td><p>預設值為 7.0000。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercentOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 5.0。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 10.0/。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 5.0。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercentAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 10.0。</p></td>
 </tr>
@@ -148,13 +150,13 @@ VideoMetricsThreshold 資料表包含了最佳且可接受的值，供經驗品�
 </tr>
 <tr class="even">
 <td><p><strong>DynamicCapabilityPercentOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 5.00。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercentAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>預設值為 10.00。</p></td>
 </tr>

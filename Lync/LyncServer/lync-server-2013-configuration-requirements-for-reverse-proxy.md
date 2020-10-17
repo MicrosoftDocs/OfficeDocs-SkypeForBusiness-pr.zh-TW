@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定反向 proxy 需求
+title: Lync Server 2013：反向 proxy 的設定需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13026da5515615610c960fe4648d5c58f64f99fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 555169f6de67ae23bc63d81aad549b0033a6696c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195956"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507740"
 ---
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中反向 proxy 的設定需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的反向 proxy 的設定需求
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42195956"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-05_
+_**主題上次修改日期：** 2013-03-05_
 
-Lync Server 2013 施加在從外部用戶端的通訊，然後傳遞至 Director 集區、 前端伺服器或前端集區裝載在 Director 上的外部 Web 服務上的一些需求。 如果您為使用者提供了會議，也是負責發佈 Office Web Apps Server，反向 proxy。
+Lync Server 2013 對從外部用戶端進行通訊的需求，對傳送到 Director、Director 集區、前端伺服器或前端集區上的外部 Web 服務很有一定的需求。 反向 proxy 也負責發佈 Office Web Apps Server （如果您為使用者提供會議）。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 不指定特定的反向 proxy，您必須使用。 Lync Server 2013 只定義反向 proxy 必須能夠執行的作業需求。 一般而言，您已部署在您的基礎結構中的反向 proxy 可能無法符合需求。
+> Lync Server 2013 未指定您必須使用的特定反向 proxy。 Lync Server 2013 僅定義反向 proxy 必須能夠執行的運作需求。 一般來說，您已部署在基礎結構中的反向 proxy 可能能夠符合需求。
 
 
 
@@ -53,29 +55,29 @@ Lync Server 2013 施加在從外部用戶端的通訊，然後傳遞至 Director
 
 ## <a name="reverse-proxy-requirements"></a>反向 Proxy 需求
 
-Lync Server 2013 預期的反向 proxy，以執行的功能作業包括：
+Lync Server 2013 預期反向 proxy 執行的功能作業如下：
 
-  - 使用安全通訊端層 (SSL) 和傳輸層安全性 (TLS) 連線至已發行外部 Web 服務 Director 的 Director 集區、 前端伺服器或前端集區使用公用憑證授權單位取得憑證來實作。 Director 與前端伺服器可以使用硬體負載平衡器是負載平衡集區中。
+  - 使用安全通訊端層 (SSL) 和傳輸層安全性 (TLS) ，其使用從公用憑證授權單位取得的憑證來連線至 Director、Director 集區、前端伺服器或前端集區的已發佈外部 Web 服務。 Director 和前端伺服器可以使用硬體負載平衡器在負載平衡集區中。
 
-  - 能夠發佈內部網路網站使用的憑證進行加密，或將它們發行透過未加密的方法，如有需要。
+  - 可以使用憑證來發佈內部網站，也可以在必要時以未加密的方式發佈。
 
-  - 用以發佈內部代管的網站外部使用的完整的網域名稱 (FQDN)。
+  - 可以使用完整功能變數名稱 (FQDN) ，從外部發佈內部主控的網站。
 
-  - 用以發佈主控網站的所有內容。 根據預設，您可以使用**/** 指示詞，大部分的網頁伺服器辨識表示 「 發佈網頁伺服器上的所有內容 」。 您也可以修改指示詞 — 例如， **/Uwca/\***，這表示 「 發佈虛擬目錄 Ucwa 下的所有內容。 」
+  - 能夠發佈主控網站的所有內容。 根據預設，您可以使用 **/\*** 大多數網頁伺服器所識別的指令，以表示「在網頁伺服器上發行所有內容」。 您也可以修改此指令，例如， **/Uwca/ \* **，這表示「發行虛擬目錄 Ucwa 下的所有內容」。
 
-  - 必須是可設定為需要與用戶端要求內容從發佈網站的 Secure Sockets Layer (SSL) 和/或傳輸層安全性 (TLS) 連線。
+  - 必須可設定為需要安全通訊端層 (SSL) 和/或傳輸層安全性 (TLS) 與要求來自已發佈網站之內容的用戶端的連線。
 
-  - 必須接受憑證主體替代名稱 (SAN) 項目。
+  - 必須接受主體替代名稱 (SAN) 專案的憑證。
 
-  - 必須能夠允許的接聽程式或外部 web 服務 FQDN 會解析透過的介面的憑證繫結。 接聽程式的設定會優先於介面。 許多接聽程式可以在單一介面上設定。
+  - 必須能夠將憑證系結至攔截器或介面，以供外部 web 服務 FQDN 解析。 監聽器設定優於介面。 在單一介面上可以設定許多監聽器。
 
-  - 必須允許主機標頭處理的設定。 通常，必須無障礙，傳遞要求的用戶端所傳送的原始主機標頭而非要修改的反向 proxy。
+  - 必須允許設定主機標頭處理。 通常會以透明的方式傳遞要求用戶端所傳送的原始主機標頭，而不是反向 proxy 進行修改。
 
-  - 從一個的 SSL 和 TLS 流量的外部橋接至另一個定義的連接埠 (例如，TCP 4443) 定義連接埠 (例如，TCP 443)。 反向 proxy 可能解密在收到封包，然後重新加密上傳送的封包。
+  - 橋接從外部定義埠 (的 SSL 和 TLS 流量，例如，TCP 443) 至另一個已定義的埠 (例如，TCP 4443) 。 反向 proxy 可能會解密資料包上的封包，然後在傳送時重新加密此封包。
 
-  - 從一個連接埠 (例如，TCP 80) 未加密的 TCP 流量，（例如，TCP 8080） 之間的橋接。
+  - 橋接單一端口 (的未加密 TCP 流量例如，TCP 80) 到另一個 (例如，TCP 8080) 。
 
-  - 允許組態，或接受，NTLM 驗證不驗證並通過驗證。
+  - 允許設定或接受 NTLM 驗證，不具驗證及透過驗證。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblComplianceState'
+title: Lync Server 2013： tblComplianceState
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 051f9929c7728db4b1e6e55b061098211bbc11ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 84608b7cb701fe4c394ed413539759d9469a5a4e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207199"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509410"
 ---
+# <a name="tblcompliancestate-in-lync-server-2013"></a>Lync Server 2013 中的 tblComplianceState
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancestate-in-lync-server-2013"></a>Lync Server 2013 中的 tblComplianceState
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42207199"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-28_
+_**主題上次修改日期：** 2012-06-28_
 
-tblComplianceState 包含整個集區的規範狀態資訊。
+tblComplianceState 包含集區範圍的相容性狀態資訊。
 
 ### <a name="columns"></a>Columns
 
@@ -50,7 +52,7 @@ tblComplianceState 包含整個集區的規範狀態資訊。
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -58,17 +60,17 @@ tblComplianceState 包含整個集區的規範狀態資訊。
 <tr class="odd">
 <td><p>lastProcessedEntryID</p></td>
 <td><p>bigint，非 null</p></td>
-<td><p>上次處理的規範事件的識別碼。</p></td>
+<td><p>最新處理的相容性事件的識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>activeServerID</p></td>
 <td><p>int，非 null</p></td>
-<td><p>若無保留資料庫，則為-1 上的獨佔鎖定之規範伺服器的識別碼。</p></td>
+<td><p>在資料庫上保留獨佔鎖定之規範伺服器的識別碼，如果沒有，則為-1。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockExpirationTime</p></td>
 <td><p>datetime2，非 null</p></td>
-<td><p>鎖定到期時間 （如果 activeServerID 不是-1）。</p></td>
+<td><p>如果 activeServerID 不是-1) ，則鎖定到期時間 (。</p></td>
 </tr>
 </tbody>
 </table>

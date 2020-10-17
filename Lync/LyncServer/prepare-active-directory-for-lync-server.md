@@ -12,20 +12,22 @@ ms:contentKeyID: 49733653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7342f3f1179a0bd27eb94e8eea66eb4e31411d45
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 604d44eba22caf38bc55c788d67efb120a7abc3b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756482"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509300"
 ---
+# <a name="prepare-active-directory-for-lync-server"></a>準備 Lync Server 的 Active Directory
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prepare-active-directory-for-lync-server"></a>準備 Lync Server 的 Active Directory
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756482"
 
 _**主題上次修改日期：** 2012-09-17_
 
-在採用 Lync Server 2010 的共存狀態中部署 Lync Server 2013 之前，您必須先執行一些其他 Active Directory 工作，以設定 Lync Server 2013 的架構、樹系和網域。 架構擴充新增 Lync Server 2013 所需的 Active Directory 類別和屬性。 如需其他資訊，請參閱[準備 Active Directory 網域服務以進行 Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md)的主題。
+在採用 Lync Server 2010 的共存狀態中部署 Lync Server 2013 之前，您必須先執行一些其他 Active Directory 工作，以設定 Lync Server 2013 的架構、樹系和網域。 架構擴充新增 Lync Server 2013 所需的 Active Directory 類別和屬性。 如需其他資訊，請參閱 [準備 Active Directory 網域服務以進行 Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md)的主題。
 
 **準備 Lync Server 2013 的 Active Directory**
 

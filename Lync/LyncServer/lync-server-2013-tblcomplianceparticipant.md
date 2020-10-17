@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblComplianceParticipant'
+title: Lync Server 2013： tblComplianceParticipant
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d4a47f3778e2343685a993378d97cc37c827a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d6ce992f7a36bd5ce731f26dcb5dbfac0e2acae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509430"
 ---
+# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>Lync Server 2013 中的 tblComplianceParticipant
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>Lync Server 2013 中的 tblComplianceParticipant
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42207219"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
 tblComplianceParticipant 包含每個通道和每部伺服器的目前參與者。
 
@@ -50,7 +52,7 @@ tblComplianceParticipant 包含每個通道和每部伺服器的目前參與者�
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -61,7 +63,7 @@ tblComplianceParticipant 包含每個通道和每部伺服器的目前參與者�
 <td><p>通道統一資源識別項 (URI)。</p></td>
 </tr>
 <tr class="even">
-<td><p>使用者識別碼</p></td>
+<td><p>userId</p></td>
 <td><p>int，非 null</p></td>
 <td><p>參與者的主體識別碼 (對應至 tblPrincipal.prinID 表格)。</p></td>
 </tr>
@@ -72,7 +74,7 @@ tblComplianceParticipant 包含每個通道和每部伺服器的目前參與者�
 </tr>
 <tr class="even">
 <td><p>partedAt</p></td>
-<td><p>bigint</p></td>
+<td><p>Bigint</p></td>
 <td><p>如果參與者仍加入，則為 Null。如果不是 Null，則是通道離開事件的時間戳記。</p>
 <p>當所有轉譯器處理事件時，這些項目最後都會移除。</p></td>
 </tr>
@@ -88,7 +90,7 @@ tblComplianceParticipant 包含每個通道和每部伺服器的目前參與者�
 </tr>
 <tr class="odd">
 <td><p>sessionId</p></td>
-<td><p>bigint</p></td>
+<td><p>Bigint</p></td>
 <td><p>伺服器工作階段。這是聊天服務每次啟動時，所產生的隨機號碼。在識別孤立的參與者時，可使用此號碼來區別工作階段。</p></td>
 </tr>
 </tbody>
@@ -110,7 +112,7 @@ tblComplianceParticipant 包含每個通道和每部伺服器的目前參與者�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;channelUri，userId joinedAt&gt;</p></td>
+<td><p>&lt;channelUri、userId、joinedAt&gt;</p></td>
 <td><p>主索引鍵。</p></td>
 </tr>
 </tbody>

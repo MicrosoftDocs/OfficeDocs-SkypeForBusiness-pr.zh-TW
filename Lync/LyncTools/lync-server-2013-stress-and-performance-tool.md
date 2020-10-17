@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 壓力及效能工具
+title: Lync Server 2013 應力和效能工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46854a6cb81c636acc334c01054474483f965302
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c9a5195269b68a9f2e1df49c3af40267b5c4db3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196176"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509170"
 ---
+# <a name="lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 應力和效能工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 壓力及效能工具
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42196176"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-25_
+_**主題上次修改日期：** 2013-01-25_
 
-Lync Server 2013 壓力及效能工具包括工具可簡化 Lync Server 2013 的容量計劃。 Lync Server 2013 壓力及效能工具可協助您：
+Lync Server 2013 應力和效能工具組含的工具可簡化 Lync Server 2013 的容量規劃。 Lync Server 2013 的壓力和效能工具可協助您：
 
-  - 簡化您規劃 Lync Server 2013 的硬體。
+  - 簡化 Lync Server 2013 的硬體規劃。
 
-  - 會提供增強的知識和最佳作法與效能調整。
+  - 為您提供增強效能調整的知識和最佳作法。
 
-  - 測量預定 Lync Server 2013 部署的效能。
+  - 衡量預定 Lync Server 2013 部署的效能。
 
 <div>
 
@@ -63,9 +65,9 @@ Lync Server 2013 壓力及效能工具包括工具可簡化 Lync Server 2013 的
 
 7.  [執行 LyncPerfTool](run-lyncperftool.md)
 
-8.  [解譯結果](interpreting-the-results.md)
+8.  [解讀結果](interpreting-the-results.md)
 
-9.  [Lync Server 2013 壓力及效能工具常見問題集](lync-server-2013-stress-and-performance-tool-faq.md)
+9.  [Lync Server 2013 應力和效能工具常見問題](lync-server-2013-stress-and-performance-tool-faq.md)
 
 </div>
 

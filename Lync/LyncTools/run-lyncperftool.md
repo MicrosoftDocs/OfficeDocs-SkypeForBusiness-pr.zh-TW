@@ -12,20 +12,22 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82df3ee8cfccb91aec4e284674ace72e23a202c4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 4221eaf042fcaee163491d7688b7097e9bcca7a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756864"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509106"
 ---
+# <a name="run-lyncperftool"></a>執行 LyncPerfTool
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-lyncperftool"></a>執行 LyncPerfTool
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756864"
 
 _**主題上次修改日期：** 2013-02-24_
 
-在執行 Lync Server 2013 壓力和效能工具（LyncPerfTool.exe）之前，您必須建立使用者、連絡人及案例。 如需使用工具來執行這些動作的詳細資訊，請參閱[建立使用者和連絡人](create-users-and-contacts.md)及[設定使用者設定檔](configure-user-profile.md)。 執行這些工具也會產生檔案，該檔案會在批次檔案中執行 LyncPerfTool.exe，並包含必要的參數。
+在執行 Lync Server 2013 的壓力和效能工具之前 ( # A0) ，您必須建立使用者、連絡人及案例。 如需使用工具來執行這些動作的詳細資訊，請參閱 [建立使用者和連絡人](create-users-and-contacts.md) 及 [設定使用者設定檔](configure-user-profile.md)。 執行這些工具也會產生檔案，該檔案會在批次檔案中執行 LyncPerfTool.exe，並包含必要的參數。
 
 <div>
 
@@ -45,14 +47,14 @@ _**主題上次修改日期：** 2013-02-24_
 
 UserProfileGenerator.exe 工具會建立批次處理檔案，可讓您註冊 LyncPerfTool 效能計數器及載入 XML 設定檔，以執行 LyncPerfTool.exe。 批次檔案會針對每個設定檔執行 LyncPerfTool.exe 的一個實例。 若要執行批次檔，請執行下列動作：
 
-1.  將包含設定資料夾和檔案的資料夾，複製到每一部用戶端電腦上包含 LyncStressTool.exe 的目錄。 （例如，如果您在名為 1.28 13.16.16 的資料夾中產生設定檔 \_ ，請將該資料夾複製到每個用戶端上包含 LyncPerfTool.exe 的資料夾中。）
+1.  將包含設定資料夾和檔案的資料夾，複製到每一部用戶端電腦上包含 LyncStressTool.exe 的目錄。  (例如，如果在名為 1.28 13.16.16 的資料夾中產生設定檔 \_ ，請將該資料夾複製到每個用戶端上包含 LyncPerfTool.exe 的資料夾。 ) 
 
 2.  流覽至正確編號的用戶端資料夾，並執行 RunClient 批次腳本。 您只要按兩下 [Windows Explorer] 中的批次處理檔案，它就會執行該用戶端號碼的所有設定檔案。 您也可以使用下列語法，從適當的用戶端資料夾執行腳本：
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-若要直接執行 LyncPerfTool.exe，請開啟命令提示字元，然後在命令列中輸入下列命令（在第一次執行這項時，請務必註冊效能計數器 regsvr32/i/n/s LyncPerfToolPerf.dll，如本主題稍後的附注所示） :LyncPerfTool.exe/file：\<configXML\>
+若要直接執行 LyncPerfTool.exe，請開啟命令提示字元，然後在命令列中輸入下列命令 (當您第一次執行這項時，請務必註冊效能計數器 regsvr32/i/n/s LyncPerfToolPerf.dll，如本主題稍後的附注所示) # A2/file：\<configXML\>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```

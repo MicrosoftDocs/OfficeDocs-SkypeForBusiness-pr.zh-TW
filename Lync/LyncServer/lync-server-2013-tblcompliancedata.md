@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblComplianceData'
+title: Lync Server 2013： tblComplianceData
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f159a71469335cfb2af1401e8693802b3c8d1870
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 162676768c3cb358db436dc2ba40ce378a31ba6c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207189"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509450"
 ---
+# <a name="tblcompliancedata-in-lync-server-2013"></a>Lync Server 2013 中的 tblComplianceData
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancedata-in-lync-server-2013"></a>Lync Server 2013 中的 tblComplianceData
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42207189"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
 tblComplianceData 包含法規相符性介面卡尚未處理的規範事件。
 
@@ -50,7 +52,7 @@ tblComplianceData 包含法規相符性介面卡尚未處理的規範事件。
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -91,7 +93,7 @@ tblComplianceData 包含法規相符性介面卡尚未處理的規範事件。
 </tr>
 <tr class="even">
 <td><p>cmplChatID</p></td>
-<td><p>bigint</p></td>
+<td><p>Bigint</p></td>
 <td><p>聊天識別碼 (對應至 tblChat.chatId 表格)。</p></td>
 </tr>
 <tr class="odd">

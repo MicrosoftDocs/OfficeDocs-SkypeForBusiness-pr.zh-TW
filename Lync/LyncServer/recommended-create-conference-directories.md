@@ -1,5 +1,5 @@
 ---
-title: 推薦建立會議目錄
+title: " (建議) 建立會議目錄"
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,20 +12,22 @@ ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5ce338c6eb67f545439bfe1e9f2134cd7f1e6d1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6b053e4f09bdf5c497e1cbf929698c7084111cc7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757164"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509250"
 ---
+# <a name="recommended-create-conference-directories"></a> (建議) 建立會議目錄
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="recommended-create-conference-directories"></a>推薦建立會議目錄
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**主題上次修改日期：** 2014-10-03_
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-建立多個會議目錄可確保會議 IDs 持續縮短，直到建立大量會議為止。 在組織中，每位使用者的會議數目為典型，我們建議您針對集區中的每個999使用者建立一個會議目錄。 使用此指導方針時，會議 IDs 通常可以保持很小。 不過，當會議目錄的數目（跨集區）超過9時，會議識別碼長度會成長以支援其他會議。
+建立多個會議目錄可確保會議 IDs 持續縮短，直到建立大量會議為止。 在組織中，每位使用者的會議數目為典型，我們建議您針對集區中的每個999使用者建立一個會議目錄。 使用此指導方針時，會議 IDs 通常可以保持很小。 不過，一旦集區 (的會議目錄數目) 超過9，會議識別碼長度就會成長以支援其他會議。
 
 <div>
 

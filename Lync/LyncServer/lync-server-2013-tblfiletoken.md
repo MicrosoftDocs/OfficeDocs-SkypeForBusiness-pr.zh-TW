@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblFileToken'
+title: Lync Server 2013： tblFileToken
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23240588fae3895c7d4aa5b0ecbf642bd2db51a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 47531c91ec7fed7e758bd73285f4e995afa65941
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509330"
 ---
+# <a name="tblfiletoken-in-lync-server-2013"></a>Lync Server 2013 中的 tblFileToken
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblfiletoken-in-lync-server-2013"></a>Lync Server 2013 中的 tblFileToken
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42208109"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
 tblFileToken 包含用於檔案傳輸的臨時權杖。
 
@@ -50,7 +52,7 @@ tblFileToken 包含用於檔案傳輸的臨時權杖。
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -77,12 +79,12 @@ tblFileToken 包含用於檔案傳輸的臨時權杖。
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p>已傳輸檔案的 URL (供 Compliance Service 使用)。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p>已傳輸檔案的縮圖 URL (供 Compliance Service 使用)。</p></td>
 </tr>
 <tr class="odd">
@@ -92,7 +94,7 @@ tblFileToken 包含用於檔案傳輸的臨時權杖。
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
-<td><p>位元</p></td>
+<td><p>位</p></td>
 <td><p>若上傳則為 True；若下載則為 False (供 Compliance Service 使用)。</p></td>
 </tr>
 <tr class="odd">

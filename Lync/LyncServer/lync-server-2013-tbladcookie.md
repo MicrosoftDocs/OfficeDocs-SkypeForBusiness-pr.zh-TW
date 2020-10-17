@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblADCookie'
+title: Lync Server 2013： tblADCookie
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02995141dfad6e91089fb80c7e9b09e4ef554edb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bf372f3dfc39f3ca90cbe0019af09e8d9dd33d26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192106"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509510"
 ---
+# <a name="tbladcookie-in-lync-server-2013"></a>Lync Server 2013 中的 tblADCookie
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbladcookie-in-lync-server-2013"></a>Lync Server 2013 中的 tblADCookie
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42192106"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-25_
+_**主題上次修改日期：** 2012-06-25_
 
 tblADCookie 包含目前的輕量型目錄存取通訊協定 (LDAP) 同步處理 Cookie。
 
@@ -50,7 +52,7 @@ tblADCookie 包含目前的輕量型目錄存取通訊協定 (LDAP) 同步處理
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -63,7 +65,7 @@ tblADCookie 包含目前的輕量型目錄存取通訊協定 (LDAP) 同步處理
 <tr class="even">
 <td><p>prinDCHost</p></td>
 <td><p>nvarchar(255)</p></td>
-<td><p>用於 Active Directory 網域服務同步處理的目前網域控制站的完整的網域名稱 (FQDN)。具有資訊性的值。</p></td>
+<td><p>用於 Active Directory 網域服務同步處理的目前網域控制站 (FQDN) 的完整功能變數名稱。具有資訊性值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>adcContent</p></td>
@@ -93,8 +95,8 @@ tblADCookie 包含目前的輕量型目錄存取通訊協定 (LDAP) 同步處理
 </colgroup>
 <thead>
 <tr class="header">
-<th>資料欄</th>
-<th>說明</th>
+<th>欄 (s) </th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

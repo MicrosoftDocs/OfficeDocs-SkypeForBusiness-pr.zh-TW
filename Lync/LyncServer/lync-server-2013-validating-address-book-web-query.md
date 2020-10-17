@@ -12,20 +12,22 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 548ec62a56de829955647a696e33578b9ab3dfd8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ae10fa68703393459a72eaab7236f214502a614
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508550"
 ---
+# <a name="validating-address-book-web-query-in-lync-server-2013"></a>在 Lync Server 2013 中驗證通訊錄 web 查詢
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-web-query-in-lync-server-2013"></a>在 Lync Server 2013 中驗證通訊錄 web 查詢
+
 
 </div>
 
@@ -68,7 +70,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 Test-CsAddressBookWebQuery Cmdlet 可讓系統管理員驗證使用者是否可以使用通訊錄 Web 查詢服務來搜尋特定的連絡人。 當您執行 Cmdlet 時，Test-CsAddressBookWebQuery 會先連線至 Web 票證服務，以進行驗證。 如果驗證成功，則 Cmdlet 會連接到通訊錄 Web 查詢服務，並搜尋指定的連絡人。 如果找到該連絡人，Cmdlet 會嘗試將該資訊傳回本機電腦。 只有在所有這些步驟都可以完成時，才會將測試標記為成功。
 
-如需詳細資訊，請參閱[Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) Cmdlet 的說明文件。
 
 </div>
 
@@ -85,7 +87,7 @@ Test-CsAddressBookWebQuery Cmdlet 可讓系統管理員驗證使用者是否可�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) Cmdlet 的說明文件。
 
 </div>
 
@@ -95,7 +97,7 @@ Test-CsAddressBookWebQuery Cmdlet 可讓系統管理員驗證使用者是否可�
 
 如果指定的使用者可以連線到通訊錄服務並取得目標使用者位址，則會以標記為 [成功] 的 Result 屬性傳回類似下列輸出：
 
-TargetUri：https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri： https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -109,7 +111,7 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 如果指定的使用者無法連線，或無法檢索目標使用者位址，則結果會顯示為 [失敗]，而且會在 [錯誤及診斷] 屬性中記錄其他資訊：
 
-TargetUri：https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri： https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

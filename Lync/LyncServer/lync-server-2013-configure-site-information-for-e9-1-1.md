@@ -12,20 +12,22 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d51a43d65624aad696f052254bc89aeae001493e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce9a6f9b24256bdc577e02ceb41bd3f67601e74e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197646"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508910"
 ---
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中設定 E9-1-1 的網站資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中設定 E9-1-1 的網站資訊
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012-10-03_
 
   - 將子網路新增至網站。
 
-如需網站的詳細資訊，請參閱 lync server[的 Lync server 網站（適用于 Lync server 2013](lync-server-2013-sites.md)）。
+如需網站的詳細資訊，請參閱 lync server [的 Lync server 網站（適用于 Lync server 2013](lync-server-2013-sites.md)）。
 
 <div>
 

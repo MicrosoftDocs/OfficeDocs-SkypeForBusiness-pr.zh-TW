@@ -12,20 +12,22 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ae9bfa8be276cccc6f31def6fb7014e417841d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23b77f246398ab47002ddef38e804419ffa4f5bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507610"
 ---
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>在 Lync Server 2013 中設定媒體旁路，以永遠略過轉送伺服器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>在 Lync Server 2013 中設定媒體旁路，以永遠略過轉送伺服器
+
 
 </div>
 
@@ -49,13 +51,13 @@ _**主題上次修改日期：** 2013-02-25_
 
 除了針對與中繼伺服器的對等相關聯的個別主幹連線啟用媒體旁路，您還必須設定全域的媒體旁路設定。 如果您使用本主題中的步驟來設定媒體旁路的全域設定，假設您在 Lync 端點和任何對等的使用者之間，您已在主幹連線上設定媒體旁路。
 
-如果 Lync Server 端點和所有對等的轉送伺服器都未啟用媒體旁路之各自的主幹連線，您必須設定全域媒體旁路設定，以在使用媒體旁路時使用網站與地區資訊。 如此可對媒體略過中繼伺服器的時機有更精確的控制。 若要這麼做，請使用在[lync server 2013 中設定媒體旁路全域設定中的步驟，使用網站與地區資訊](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)，並[在 lync Server 2013 中將子網與網路網站產生關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md)。
+如果 Lync Server 端點和所有對等的轉送伺服器都未啟用媒體旁路之各自的主幹連線，您必須設定全域媒體旁路設定，以在使用媒體旁路時使用網站與地區資訊。 如此可對媒體略過中繼伺服器的時機有更精確的控制。 若要這麼做，請使用在 [lync server 2013 中設定媒體旁路全域設定中的步驟，使用網站與地區資訊](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) ，並 [在 lync Server 2013 中將子網與網路網站產生關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md) 。
 
 <div>
 
 ## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>全面啟用媒體旁路以永遠略過中繼伺服器
 
-1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左導覽列中，按一下 **[網路組態]**。
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblADUpdates'
+title: Lync Server 2013： tblADUpdates
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3ef2afaa162219d140a4eaef204dc6e1e2ab02
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27fbbc6bb2fe68c2f4bfff91b999934069548d00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192086"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509480"
 ---
+# <a name="tbladupdates-in-lync-server-2013"></a>Lync Server 2013 中的 tblADUpdates
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbladupdates-in-lync-server-2013"></a>Lync Server 2013 中的 tblADUpdates
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42192086"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
-tblADUpdates 表格包含的更新版本的 Active Directory 同步處理步驟尚未處理的 Active Directory 網域服務變更。
+tblADUpdates 包含後續 Active Directory 同步步驟尚未處理的 Active Directory 網域服務變更。
 
 ### <a name="columns"></a>Columns
 
@@ -50,7 +52,7 @@ tblADUpdates 表格包含的更新版本的 Active Directory 同步處理步驟�
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -58,22 +60,22 @@ tblADUpdates 表格包含的更新版本的 Active Directory 同步處理步驟�
 <tr class="odd">
 <td><p>prinGuid</p></td>
 <td><p>GUID，非 null</p></td>
-<td><p>已變更物件的主體 GUID。</p></td>
+<td><p>已變更之物件的主體 GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar (384)，非 null</p></td>
-<td><p>物件的辨別的名稱。</p></td>
+<td><p>Nvarchar (384) ，非 null</p></td>
+<td><p>物件的辨別名稱。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesChanged</p></td>
 <td><p>位元，非 null</p></td>
-<td><p>如果至少一個物件的屬性變更，則為 true。</p></td>
+<td><p>True 是表示如果物件的至少一個屬性已變更。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
 <td><p>位元，非 null</p></td>
-<td><p>如果成員資格變更，則為 true。</p></td>
+<td><p>True 是表示如果成員資格變更。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
@@ -83,7 +85,7 @@ tblADUpdates 表格包含的更新版本的 Active Directory 同步處理步驟�
 <tr class="even">
 <td><p>prinDeleted</p></td>
 <td><p>位元，非 null</p></td>
-<td><p>如果物件已被刪除，則為 true。</p></td>
+<td><p>True 是表示如果物件已刪除。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lastUpdated</p></td>

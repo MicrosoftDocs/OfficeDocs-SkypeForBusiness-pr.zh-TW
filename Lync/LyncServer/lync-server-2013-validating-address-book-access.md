@@ -12,20 +12,22 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 665ee384afd85c4be5c82182691953e1c78c9659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea3344c0a0a4f1992cc9ef67cd14bc2321419307
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508580"
 ---
+# <a name="validating-address-book-access-in-lync-server-2013"></a>驗證 Lync Server 2013 中的通訊錄存取權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-access-in-lync-server-2013"></a>驗證 Lync Server 2013 中的通訊錄存取權
+
 
 </div>
 
@@ -83,7 +85,7 @@ Test-CsAddressBookService Cmdlet 為您提供一種方法，讓您確認使用�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsAddressBookService](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsAddressBookService](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService) Cmdlet 的說明文件。
 
 </div>
 
@@ -91,9 +93,9 @@ Test-CsAddressBookService Cmdlet 為您提供一種方法，讓您確認使用�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以連線到通訊錄服務，您會收到類似如下的輸出，並將 Result 屬性標示為 [**成功**]：
+如果指定的使用者可以連線到通訊錄服務，您會收到類似如下的輸出，並將 Result 屬性標示為 [ **成功**]：
 
-TargetUri：https://lync-se.fabrikam.com:443/abs/handler
+TargetUri： https://lync-se.fabrikam.com:443/abs/handler
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -135,13 +137,13 @@ Test-CsAddressBookService-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
 傳送 Http GET 要求。
 
-檔路徑 =https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+檔路徑 = https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 嘗試次數 = 1
 
 TimeOut (毫秒) = 60000
 
-成功下載 ABS 檔https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+成功下載 ABS 檔 https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 </div>
 

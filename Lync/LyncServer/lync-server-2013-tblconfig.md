@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblConfig'
+title: Lync Server 2013： tblConfig
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85d0c571ba4e206dc825784c2aaea1c6ceddbf89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2efbed57d88e7312bc1da3a9da8f8057fd6696a5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207132"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509370"
 ---
+# <a name="tblconfig-in-lync-server-2013"></a>Lync Server 2013 中的 tblConfig
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblconfig-in-lync-server-2013"></a>Lync Server 2013 中的 tblConfig
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42207132"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
-tblConfig 包含部分 Persistent Chat Server 不支援的組態，其中一個資料列。
+tblConfig 包含一些持久聊天伺服器不支援的設定，一列。
 
 ### <a name="columns"></a>Columns
 
@@ -50,7 +52,7 @@ tblConfig 包含部分 Persistent Chat Server 不支援的組態，其中一個�
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -58,7 +60,7 @@ tblConfig 包含部分 Persistent Chat Server 不支援的組態，其中一個�
 <tr class="odd">
 <td><p>configLabel</p></td>
 <td><p>nvarchar (255)，非 null</p></td>
-<td><p>包含&quot;集區。&quot;</p></td>
+<td><p>包含 &quot; 集區。&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>configContent</p></td>

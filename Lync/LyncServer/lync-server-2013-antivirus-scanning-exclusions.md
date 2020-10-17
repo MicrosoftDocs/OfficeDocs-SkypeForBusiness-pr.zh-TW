@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 防毒掃描排除項目
+title: Lync Server 2013：防病毒掃描排除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508970"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 的防病毒掃描排除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>防毒掃描排除的 Lync Server 2013
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42187256"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015年-11-02_
+_**主題上次修改日期：** 2015-11-02_
 
-若要確保防毒掃描程式不干擾 Lync Server 2013 的作業，您必須排除特定處理程序和每個 Lync Server 2013 伺服器或伺服器角色您用來執行防毒掃描程式的目錄。 應該排除下列程序及目錄：
+為了確保防病毒掃描程式不會干擾 Lync Server 2013 的運作，您必須針對每個執行防病毒掃描程式的 Lync Server 2013 伺服器或伺服器角色排除特定的程式和目錄。 應該排除下列程式和目錄：
 
 <div>
 
 
 > [!NOTE]  
-> 以下列出的資料夾和檔案位置是 Lync Server 2013 的預設位置。 沒有使用預設的任何位置，但不包括為您的組織，而不在本主題中所指定的預設位置是您所指定的位置。
+> 下列列出的資料夾和檔案位置是 Lync Server 2013 的預設位置。 針對您未使用預設值的任何位置，請排除您為組織所指定的位置，而不是本主題中指定的預設位置。
 
 
 
@@ -53,13 +55,13 @@ _**主題上次修改日期：** 2015年-11-02_
 
 
 > [!IMPORTANT]  
-> 請注意，某些防毒程式可能需要絕對、 而非相對路徑，其排除項目清單。
+> 請注意，某些防毒程式可能需要絕對的相對路徑，其排除清單。
 
 
 
 </div>
 
-  - Lync Server 2013 的程序：
+  - Lync Server 2013 處理常式：
     
       - ABServer.exe
     
@@ -107,7 +109,7 @@ _**主題上次修改日期：** 2015年-11-02_
     
       - XmppTGW.exe
 
-  - Windows Fabric 主機服務處理程序：
+  - Windows Fabric 主機服務處理常式：
     
       - Fabric.exe
     
@@ -115,47 +117,47 @@ _**主題上次修改日期：** 2015年-11-02_
     
       - FabricHost.exe
 
-  - IIS 程序：
+  - IIS 處理常式：
     
-      - %systemroot%\\system32\\inetsrv\\w3wp.exe
+      - % systemroot% \\ system32 \\ inetsrv \\w3wp.exe
     
-      - %systemroot%\\SysWOW64\\inetsrv\\w3wp.exe
+      - % systemroot% \\ SysWOW64 \\ inetsrv \\w3wp.exe
 
-  - SQL Server 後端程序：
+  - SQL Server Back-End 處理常式：
     
-      - %Programfiles%\\Microsoft SQL Server\\MSSQL11。MSSQLSERVER\\MSSQL\\Binn\\SQLServr.exe
+      - %ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。MSSQLSERVER \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - %Programfiles%\\Microsoft SQL Server\\MSRS11。MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService.exe
+      - %ProgramFiles% \\ MICROSOFT SQL Server \\ MSRS11。MSSQLSERVER \\ Reporting Services \\ ReportServer \\ Bin \\ReportingServicesService.exe
     
-      - %Programfiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\MSMDSrv.exe
+      - %ProgramFiles% \\ MICROSOFT SQL Server \\ MSAS11。MSSQLSERVER \\ OLAP \\ Bin \\MSMDSrv.exe
 
-  - SQL Server 前端程序：
+  - SQL Server Front-End 處理常式：
     
-      - %Programfiles%\\Microsoft SQL Server\\MSSQL11。LYNCLOCAL\\MSSQL\\Binn\\SQLServr.exe
+      - %ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。LYNCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - %Programfiles%\\Microsoft SQL Server\\MSSQL11。RTCLOCAL\\MSSQL\\Binn\\SQLServr.exe
+      - %ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。RTCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
 
-  - 目錄和檔案：
+  - 目錄及檔案：
     
-      - %systemroot%\\System32\\記錄檔
+      - % systemroot% \\ System32 \\ 日誌
     
-      - %systemroot%\\SysWow64\\記錄檔
+      - % systemroot% \\ SysWow64 \\ 日誌
     
-      - %systemroot%\\Microsoft.NET\\組件\\GAC\_MSIL
+      - % systemroot% \\ Microsoft.NET \\ 元件 \\ GAC \_ MSIL
     
-      - %programfiles%\\Microsoft Lync Server 2013
+      - % programfiles% \\ Microsoft Lync Server 2013
     
-      - %programfiles%\\通用檔案\\Microsoft Lync Server 2013\\監看員節點
+      - % programfiles% \\ Common Files \\ Microsoft Lync Server 2013 監看員 \\ 節點
     
-      - %programfiles%\\通用檔案\\Microsoft Lync Server 2013
+      - % programfiles% \\ Common Files \\ Microsoft Lync Server 2013
     
-      - %Systemdrive%並\\RtcReplicaRoot
+      - % 系統磁片% \\ RtcReplicaRoot
     
-      - 檔案共用存放區 （在拓撲產生器中指定）。 拓撲產生器] 中，會指定檔案存放區。
+      - 在拓撲產生器) 中指定的檔案共用儲存區 (。 檔存放區是在拓撲產生器中指定的。
     
-      - SQL Server 資料和記錄檔，包括後端資料庫、 使用者存放區、 封存存放區、 監控存放區和應用程式存放區。 在拓撲產生器可以指定資料庫和記錄檔。 如需每個資料庫的資料與記錄檔的詳細資訊，包括預設名稱，請參閱[Lync Server 2013 的 SQL Server 資料和記錄檔位置](lync-server-2013-sql-server-data-and-log-file-placement.md) 部署 > 文件中。
+      - SQL Server 資料和記錄檔，包括後端資料庫、使用者存放區、封存儲存區、監控儲存區及應用程式存放區的檔案。 您可以在拓撲產生器中指定資料庫和記錄檔。 如需每個資料庫之資料和記錄檔（包括預設名稱）的詳細資訊，請參閱部署檔中的 [SQL Server 資料和記錄檔位置（適用于 Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) ）。
     
-      - SQL Server 資料和記錄檔，包括前端資料庫、 Lync 存放區中，與 RtcDatabase 存放區。 它們通常是在 %localdrive%下\\CSData。
+      - SQL Server 資料和記錄檔，包括前端資料庫、Lync 存放區和 RtcDatabase 存放區的檔案。 它們一般位於% localdrive% \\ CSData。
 
 </div>
 

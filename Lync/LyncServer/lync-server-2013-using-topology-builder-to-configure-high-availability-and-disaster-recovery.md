@@ -1,5 +1,5 @@
 ---
-title: 使用拓撲產生器設定高可用性與災害復原
+title: 使用拓撲產生器來設定高可用性和嚴重損壞修復
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56f74465ecba83ec2d4f857a504952a1ed271fb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21e240e8fd597f1fe8a2669df45d674be7a7bef1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212619"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508650"
 ---
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中使用拓撲產生器來設定高可用性和嚴重損壞修復
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>使用拓撲產生器 Lync Server 2013 中設定高可用性與災害復原
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42212619"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-執行下列步驟在拓撲產生器來設定 for Persistent Chat Server 的高可用性和災害復原。
+在拓撲產生器中執行下列步驟，以設定 Persistent Chat Server 的高可用性和嚴重損壞修復。
 
-1.  新增鏡像資料庫與記錄傳送次要資料庫 SQL Server 儲存區。
+1.  新增鏡像資料庫和記錄傳送次要資料庫 SQL Server 儲存區。
 
-2.  編輯 Persistent Chat Server 服務屬性：
+2.  編輯 Persistent Chat Server 服務屬性，使其：
     
-    1.  啟用主要資料庫的鏡像。
+    1.  啟用主資料庫的鏡像。
     
     2.  新增主要鏡像 SQL Server 儲存區。
     
     3.  啟用 SQL Server 記錄傳送資料庫。
     
-    4.  新增 SQL Server 記錄傳送次要 SQL Server 存放區。
+    4.  新增 SQL Server 記錄傳送次要 SQL Server 儲存區。
     
     5.  新增次要資料庫的 SQL Server 儲存區鏡像。
     

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 來電轉接和來電轉接
+title: Lync Server 2013：通話轉移和來電轉接
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78332e2fa24c4f718cb3cdb3cbc9dc93a03601d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4bb2be4efad0467efafca88da8e0e1e627addb21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188026"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508240"
 ---
+# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Lync Server 2013 中的來電轉接和來電轉接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>來電轉接和 Lync Server 2013 中來電轉接
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42188026"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-09_
+_**主題上次修改日期：** 2013-03-09_
 
-如果包含 PSTN 端點，位置型路由會分析 calle 端點及傳送或轉寄給 （亦即傳輸/順向目標） 通話的結束點的位置。 位置型路由會決定在呼叫是否應該轉接或轉寄根據這兩個端點的位置。
+當涉及 PSTN 端點時，Location-Based 路由會分析 calle 端點的位置，以及將來電轉接或轉接至 (（例如，傳輸/轉送目標) ）的端點。 Location-Based 路由決定是否應該根據這兩個端點的位置來轉移或轉寄通話。
 
-下表說明的案例中使用 PSTN 端點，呼叫 Lync 使用者與 Lync 使用者將轉接至另一位 Lync 使用者的呼叫。 未經的端點的網路站台位置，根據位置型路由會影響路由的來電轉接或轉寄。
+下表說明 Lync 使用者在使用 PSTN 端點的呼叫中的情形，以及 Lync 使用者將通話轉接至另一個 Lync 使用者的情形。 根據 transferee 端點的網路網站位置，Location-Based 路由會影響來電轉接或轉寄的路由。
 
-### <a name="initiating-call-transfer-or-forward"></a>起始通話轉接或轉寄
+### <a name="initiating-call-transfer-or-forward"></a>開始來電轉接或轉寄
 
 <table>
 <colgroup>
@@ -52,27 +54,27 @@ _**上次修改主題：** 2013年-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>使用者初始化通話轉接/轉寄</th>
-<th>目標端點位於相同的網路網站，以初始化來電轉接或順向使用者</th>
-<th>目標端點以初始化來電轉接或順向使用者位於不同的網路網站</th>
-<th>目標端點無法辨識的網路站台或網路網站中未啟用位置型的路由</th>
+<th>使用者啟動通話轉接/轉寄</th>
+<th>目標端點位於與使用者起始來電轉接或轉寄相同的網路網站</th>
+<th>目標端點位於不同的網路網站中，以供使用者開始來電轉接或轉寄</th>
+<th>目標端點位於未知的網路網站，或未啟用 Location-Based 路由的網路網站</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync 使用者</p></td>
-<td><p>轉接通話] 或 [允許傳輸</p></td>
-<td><p>轉接通話] 或 [不允許轉接</p></td>
-<td><p>轉接通話] 或 [不允許轉接</p></td>
+<td><p>允許來電轉接或轉接</p></td>
+<td><p>不允許來電轉接或轉接</p></td>
+<td><p>不允許來電轉接或轉接</p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-例如： 與 PSTN 端點的呼叫中的 Lync 使用者將在相同的網路站台的另一位 Lync 使用者通話轉接。 在此情況下，允許通話轉接。
+例如：使用 PSTN 端點通話中的 Lync 使用者，可將來電轉接至位於相同網路網站中的其他 Lync 使用者。 在此情況下，允許通話轉接。
 
-下表說明的另一位 Lync 使用者，在呼叫 Lync 使用者的案例，並有一位使用者轉接至 PSTN 端點的呼叫。 視呼叫會轉接至表格詳細資料如何之使用者的位置而定位置型路由會影響通話。
+下表說明 Lync 使用者與其他 Lync 使用者通話的情況，以及其中一位使用者將來電轉接至 PSTN 端點。 根據通話的轉接使用者位置，表格會詳細說明 Location-Based 路由會如何影響通話。
 
 ### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>來電轉接或轉接至 PSTN 端點
 
@@ -85,31 +87,31 @@ _**上次修改主題：** 2013年-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>呼叫傳輸/順向端點目標</th>
-<th>Lync 使用者在相同的網路網站</th>
-<th>Lync 使用者在不同的網路網站</th>
-<th>不明的網路站台或未啟用位置型路由的網路網站中的一或兩個 Lync 使用者</th>
+<th>來電轉接/轉寄端點目標</th>
+<th>相同網路網站中的 Lync 使用者</th>
+<th>不同網路網站中的 Lync 使用者</th>
+<th>未啟用 Location-Based 路由的未知網路網站或網站中的一或兩個 Lync 使用者</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>PSTN 端點</p></td>
-<td><p>轉接通話] 或 [傳送的使用者的網站語音路由原則所允許的轉接</p></td>
-<td><p>轉接通話] 或 [傳送的使用者的網站語音路由原則所允許的轉接</p></td>
-<td><p>轉接通話] 或 [只能透過主幹傳送的使用者的語音原則允許傳輸未啟用位置型的路由</p></td>
+<td><p>轉接使用者的網站語音路由原則所允許的呼叫轉寄或轉接</p></td>
+<td><p>轉接使用者的網站語音路由原則所允許的呼叫轉寄或轉接</p></td>
+<td><p>轉接使用者的語音原則所允許的呼叫轉寄或轉接只能透過主幹未啟用 Location-Based 路由</p></td>
 </tr>
 </tbody>
 </table>
 
   
-例如： Lync 使用者的呼叫中具有相同的網路站台中的另一位 Lync 使用者轉接至 PSTN 端點的呼叫，並允許來電轉接。
+例如：通話中的 Lync 使用者與另一個位於相同網路網站的 Lync 使用者，將來電轉接至 PSTN 端點，並且允許通話轉接。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[依位置路由 Lync Server 2013 中的案例](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 中的 Location-Based 路由案例](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

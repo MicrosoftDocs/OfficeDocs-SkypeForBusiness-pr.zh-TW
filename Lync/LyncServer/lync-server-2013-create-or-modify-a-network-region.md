@@ -12,20 +12,22 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417fece34f8e5177760e470083cd929cbddaab60
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2ddd7a64da7d0939b7b97099cb12878c272766d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197426"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508850"
 ---
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改網路地區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改網路地區
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197426"
 
 _**主題上次修改日期：** 2012-10-19_
 
-「網路區域」** 是用於通話許可控制、E9-1-1 及媒體旁路設定的網路中樞或骨幹。 請使用下列程式來建立或修改網路地區。 例如，您已為一個語音功能建立網路區域，便不需要建立新的網路區域；其他的進階 Enterprise Voice 功能會使用那些相同的網路區域。 不過，您必須修改現有的網路區域定義，以套用功能特定的設定。 例如，您已為 E9-1-1 (其不需要相關的中央網站) 建立網路區域，而您接著要部署通話許可控制，您便必須修改網路區域定義來指定中央網站。 如需詳細資訊，請參閱[在 Lync Server 2013 中設定 CAC 的網路地區](lync-server-2013-configure-network-regions-for-cac.md)。
+「網路區域」** 是用於通話許可控制、E9-1-1 及媒體旁路設定的網路中樞或骨幹。 請使用下列程式來建立或修改網路地區。 例如，您已為一個語音功能建立網路區域，便不需要建立新的網路區域；其他的進階 Enterprise Voice 功能會使用那些相同的網路區域。 不過，您必須修改現有的網路區域定義，以套用功能特定的設定。 例如，您已為 E9-1-1 (其不需要相關的中央網站) 建立網路區域，而您接著要部署通話許可控制，您便必須修改網路區域定義來指定中央網站。 如需詳細資訊，請參閱 [在 Lync Server 2013 中設定 CAC 的網路地區](lync-server-2013-configure-network-regions-for-cac.md)。
 
 <div>
 
@@ -69,7 +71,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="to-create-a-network-region-using-lync-server-management-shell"></a>使用 Lync Server 管理命令介面建立網路地區
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  執行 New-CsNetworkRegion Cmdlet 來建立網路地區：
     
@@ -89,17 +91,17 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="to-create-a-network-region-using-lync-server-control-panel"></a>使用 Lync Server 控制台建立網路地區
 
-1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左導覽列中，按一下 **[網路組態]**。
 
-3.  按一下 [**地區**]。
+3.  按一下 [ **地區**]。
 
 4.  按一下 [ **新增**]。
 
-5.  在 [**新地區**] 頁面上，按一下 [**名稱**]，然後輸入網路地區的名稱。
+5.  在 [ **新地區** ] 頁面上，按一下 [ **名稱** ]，然後輸入網路地區的名稱。
 
-6.  按一下 [**中央網站**]，然後按一下清單中的中央網站。
+6.  按一下 [ **中央網站**]，然後按一下清單中的中央網站。
 
 7.  (選用) 按一下 **[描述]**，然後輸入用來描述此網站的其他資訊。
 
@@ -121,7 +123,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a>使用 Lync Server 管理命令介面來修改網路地區
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  執行 Set-CsNetworkRegion Cmdlet 以修改現有的網路地區：
     
@@ -141,17 +143,17 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a>使用 Lync Server 控制台修改網路地區
 
-1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左導覽列中，按一下 **[網路組態]**。
 
-3.  按一下 [**地區**] 導覽按鈕。
+3.  按一下 [ **地區** ] 導覽按鈕。
 
 4.  在表格中，按一下您要修改的網路地區。
 
 5.  按一下 **[編輯]**，然後按一下 **[顯示詳細資料...]**。
 
-6.  在 [**編輯地區**] 頁面上，視需要變更此網路地區的設定值。
+6.  在 [ **編輯地區** ] 頁面上，視需要變更此網路地區的設定值。
 
 7.  按一下 **[認可]**。
 

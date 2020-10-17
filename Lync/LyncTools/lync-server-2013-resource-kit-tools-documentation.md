@@ -12,20 +12,22 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 496d1c5e420ab20787d526f1a9fa93070e9eafb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60c2260f5729c45455596f0ab2477f7a190ef520
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206499"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509220"
 ---
+# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Lync Server 2013 資源工具組工具檔
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Lync Server 2013 資源工具組工具檔
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42206499"
 
 _**主題上次修改日期：** 2014-01-09_
 
-本主題說明屬於 Lync Server 2013 資源套件的工具，包含每個工具的用途，以及其用途的範例。Lync Server 2013，資源工具組工具可協助您簡化部署及管理 Lync Server 2013 的 IT 系統管理員的日常工作。 例如，網路會議**資料**工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil**工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效率地管理 Lync Server 2013。
+本主題說明屬於 Lync Server 2013 資源套件的工具，包含每個工具的用途，以及其用途的範例。Lync Server 2013，資源工具組工具可協助您簡化部署及管理 Lync Server 2013 的 IT 系統管理員的日常工作。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil**工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效率地管理 Lync Server 2013。
 
 <div>
 
 ## <a name="installation-of-the-resource-kit-tools"></a>安裝資源工具組工具
 
-若要安裝 Lync Server 2013，資源工具組工具，請下載**OCSReskit.msi**。 您可以從下載中心下載 Resource 工具組工具安裝程式 [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429) 。
+若要安裝 Lync Server 2013，資源工具組工具，請下載 **OCSReskit.msi**。 您可以從下載中心下載 Resource 工具組工具安裝程式 [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429) 。
 
-執行**OCSResKit.msi**以執行簡單安裝。 .Msi 會安裝下列路徑中的所有工具： **% Program Files% \\ Microsoft Lync Server 2013 \\ ResKit**。 屬於自包含可執行檔的工具位於此資料夾中。 也有檔案的工具位於自己的子資料夾中。
+執行 **OCSResKit.msi** 以執行簡單安裝。 .Msi 會安裝下列路徑中的所有工具： **% Program Files% \\ Microsoft Lync Server 2013 \\ ResKit**。 屬於自包含可執行檔的工具位於此資料夾中。 也有檔案的工具位於自己的子資料夾中。
 
 </div>
 
@@ -117,7 +119,7 @@ ABSConfig 是一種圖形使用者介面應用程式，可讓系統管理員設�
 
   - 讓系統管理員能夠還原預設的通訊錄服務設定。
 
-您可以使用 absConfig.exe 檔啟動 ABSConfig 工具。 工具隨即開啟至 [**設定屬性**] 索引標籤。此表格中的選項可將 Active Directory 網域服務屬性對應至 Lync Server 2013 的屬性欄位，並指定哪些使用者要在通訊錄服務檔案中包含或排除，以特定的屬性篩選器為基礎。 也可以選擇自訂要包含在通訊錄檔案中的電話號碼值。 [**還原預設**值] 選項可讓系統管理員將通訊錄服務設定還原為預設值。
+您可以使用 absConfig.exe 檔啟動 ABSConfig 工具。 工具隨即開啟至 [ **設定屬性** ] 索引標籤。此表格中的選項可將 Active Directory 網域服務屬性對應至 Lync Server 2013 的屬性欄位，並指定哪些使用者要在通訊錄服務檔案中包含或排除，以特定的屬性篩選器為基礎。 也可以選擇自訂要包含在通訊錄檔案中的電話號碼值。 [ **還原預設** 值] 選項可讓系統管理員將通訊錄服務設定還原為預設值。
 
 </div>
 
@@ -201,7 +203,7 @@ ABSConfig 只能從已安裝 Lync Server 2013 的已加入網域的電腦執行�
 
 ## <a name="examples"></a>範例
 
-您可以在命令提示字元處輸入**ABSConfig.exe** ，以啟動 ABSConfig。 如下所示為 ABSConfig 工具使用者介面。
+您可以在命令提示字元處輸入 **ABSConfig.exe** ，以啟動 ABSConfig。 如下所示為 ABSConfig 工具使用者介面。
 
 ![ABSConfig.exe 工具。](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "ABSConfig.exe 工具。")
 
@@ -243,7 +245,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 ## <a name="machine-info-tab"></a>電腦資訊] 索引標籤
 
-[**機器資訊**] 索引標籤會顯示所選頻寬原則服務的詳細資料，以及選取的頻寬原則服務對其他服務所做的所有連線清單和狀態。
+[ **機器資訊** ] 索引標籤會顯示所選頻寬原則服務的詳細資料，以及選取的頻寬原則服務對其他服務所做的所有連線清單和狀態。
 
 </div>
 
@@ -257,7 +259,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 
 > [!NOTE]  
-> 如果頻寬原則服務監視工具在連線至任何設定的頻寬原則服務時失敗，將不會填入<STRONG>機器資訊</STRONG>和<STRONG>拓撲資訊</STRONG>索引標籤中的資訊。 不過，此工具最初可能會連線，但後來會失去與服務的連線。 在這種情況下，系統管理員可能會看到過時的資訊。 每個索引標籤上都有最後一次<STRONG>更新</STRONG>的時間戳記，可讓系統管理員看到上次更新特定頻寬原則服務的資料的時間。
+> 如果頻寬原則服務監視工具在連線至任何設定的頻寬原則服務時失敗，將不會填入 <STRONG>機器資訊</STRONG> 和 <STRONG>拓撲資訊</STRONG> 索引標籤中的資訊。 不過，此工具最初可能會連線，但後來會失去與服務的連線。 在這種情況下，系統管理員可能會看到過時的資訊。 每個索引標籤上都有最後一次 <STRONG>更新</STRONG> 的時間戳記，可讓系統管理員看到上次更新特定頻寬原則服務的資料的時間。
 
 
 
@@ -405,9 +407,9 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 記錄時程表可讓工具使用者指定下列，如下圖所示。
 
-1.  **開始日期**這是要產生報告的時程表開始日期;例如，2010年8月1日。
+1.  **開始日期** 這是要產生報告的時程表開始日期;例如，2010年8月1日。
 
-2.  **結束日期**這是要產生報告的時程表結束日期;例如，2010年9月30日。
+2.  **結束日期** 這是要產生報告的時程表結束日期;例如，2010年9月30日。
     
     ![頻寬使用狀況 A 的開始和結束日期](images/JJ945604.2c597cfc-3372-4d41-816b-26202f607ad8(OCS.15).jpg "頻寬使用狀況 A 的開始和結束日期")  
 
@@ -419,9 +421,9 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 下列是使用者可以指定的檔案目錄，如圖所示。
 
-  - **伺服器記錄檔位置**儲存頻寬原則伺服器記錄的資料夾位置。 這通常是以 \< \> \\ \< 選擇的 FE \> \\ AppServerFiles PDP 的功能 \\ 。
+  - **伺服器記錄檔位置** 儲存頻寬原則伺服器記錄的資料夾位置。 這通常是在 \<fileserver\> \\ \<choice of FE\> \\ AppServerFiles \\ PDP 中。
 
-  - **暫存檔儲存位置**產生報告時儲存中間檔案的暫存檔案位置。
+  - **暫存檔儲存位置** 產生報告時儲存中間檔案的暫存檔案位置。
 
 ![頻寬使用量分析中的檔案目錄](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "頻寬使用量分析中的檔案目錄")
 
@@ -441,7 +443,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 ## <a name="step-3---collect-the-logs-and-start-the-report-viewer"></a>步驟 3-收集記錄檔並啟動報告檢視器
 
-若要收集記錄檔並啟動報告檢視器，請按一下 [**執行**]，如下所示。 此步驟會收集必要的資料。
+若要收集記錄檔並啟動報告檢視器，請按一下 [ **執行** ]，如下所示。 此步驟會收集必要的資料。
 
 ![在頻寬利用率 Analy 中收集資料](images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "在頻寬利用率 Analy 中收集資料")
 
@@ -449,7 +451,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 ![在頻寬 Utili 中收集的記錄通知](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "在頻寬 Utili 中收集的記錄通知")
 
-按一下 [確定]****。 BandwidthUtilizationAnalyzer.xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的**Using BandwidthUtilizationAnalyzer.xlsm** 。
+按一下 [確定]****。 BandwidthUtilizationAnalyzer.xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的 **Using BandwidthUtilizationAnalyzer.xlsm** 。
 
 </div>
 
@@ -458,15 +460,15 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 **使用 BandwidthUtilizationAnalyzer.xlsm**
 
-1.  自動啟動 BandwidthUtilizationAnalyzer.xlsm 時，請按一下 [重新整理] **，如下所**示。
+1.  自動啟動 BandwidthUtilizationAnalyzer.xlsm 時，請按一下 [重新整理] **，如下所** 示。
     
     ![BandwidthUtilizationAnalyzer.xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
-2.  開啟檔案資料夾時，請選取訊息方塊中所指定的位置 consolidated.csv，如下所示。 它也會顯示**C： \\ Temp**的位置。
+2.  開啟檔案資料夾時，請選取訊息方塊中所指定的位置 consolidated.csv，如下所示。 它也會顯示 **C： \\ Temp**的位置。
     
     ![在 BandwidthUtilizationAnalyzer 中開啟資料夾。](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "在 BandwidthUtilizationAnalyzer 中開啟資料夾。")
 
-3.  按一下 [匯入]****。
+3.  按一下 **[匯入]**。
 
 4.  會自動產生圖形化圖形。 當工作的背景指標消失時，即可使用此功能。
     
@@ -482,53 +484,53 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 ![在報表檢視中套用篩選器。](images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "在報表檢視中套用篩選器。")
 
-1.  **名稱**依 WAN 連結篩選 (篩選位於圖形) 右側。前置詞表示下列連結類型;請參閱垂直 (blue) 方塊：
+1.  **名稱** 依 WAN 連結篩選 (篩選位於圖形) 右側。前置詞表示下列連結類型;請參閱垂直 (blue) 方塊：
     
-      - **S 網站**從網路網站到網路地區的 WAN 連結
+      - **S 網站** 從網路網站到網路地區的 WAN 連結
     
-      - **為網站間**兩個網路網站間的 WAN 連結
+      - **為網站間** 兩個網路網站間的 WAN 連結
     
-      - **R 區域間**兩個網路地區之間的 WAN 連結
+      - **R 區域間** 兩個網路地區之間的 WAN 連結
 
-2.  **超出限制**依頻寬使用量超過頻寬容量的 WAN 連結篩選
+2.  **超出限制** 依頻寬使用量超過頻寬容量的 WAN 連結篩選
 
-3.  **重要層級**依頻寬利用率達到90% 或以上頻寬容量的 WAN 連結篩選
+3.  **重要層級** 依頻寬利用率達到90% 或以上頻寬容量的 WAN 連結篩選
 
-4.  **低利用率**依頻寬利用率低於頻寬容量25% 的 WAN 連結篩選
+4.  **低利用率** 依頻寬利用率低於頻寬容量25% 的 WAN 連結篩選
 
-5.  **連結類型**依下列 WAN 連結類型進行篩選：
+5.  **連結類型** 依下列 WAN 連結類型進行篩選：
     
-      - **網路網站**類型
+      - **網路網站** 類型
     
-      - **網站間**類型
+      - **網站間** 類型
     
-      - **地區間連結**類型
+      - **地區間連結** 類型
 
-6.  **地區**依網路地區篩選
+6.  **地區** 依網路地區篩選
 
 下圖顯示先前所述的篩選。
 
-依**名稱**篩選。 選取需要顯示在圖表中的連結清單。
+依 **名稱**篩選。 選取需要顯示在圖表中的連結清單。
 
 ![在 BandwidthUtilizationAnalyzer 中以名稱篩選。](images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "在 BandwidthUtilizationAnalyzer 中以名稱篩選。")
 
-篩選依據**超出限制**。 選取 [ **True** ] 以強制執行篩選。
+篩選依據 **超出限制**。 選取 [ **True** ] 以強制執行篩選。
 
 ![以超出限制篩選。](images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "以超出限制篩選。")
 
-依**重要層級**篩選。 選取 [ **True** ] 以強制執行篩選。
+依 **重要層級**篩選。 選取 [ **True** ] 以強制執行篩選。
 
 ![依重要層級篩選。](images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "依重要層級篩選。")
 
-根據**使用**中的篩選。 選取 [ **True** ] 以強制執行篩選。
+根據 **使用**中的篩選。 選取 [ **True** ] 以強制執行篩選。
 
 ![按使用中的篩選。](images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "按使用中的篩選。")
 
-依**連結類型**篩選。 選取需要顯示的類型或類型。
+依 **連結類型**篩選。 選取需要顯示的類型或類型。
 
 ![依連結類型篩選。](images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "依連結類型篩選。")
 
-依**地區**篩選。 選取需要顯示其連結的區域清單。
+依 **地區**篩選。 選取需要顯示其連結的區域清單。
 
 ![依地區篩選。](images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "依地區篩選。")
 
@@ -572,9 +574,9 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
 
 所有選項都是互斥的。 命令列語法如下：
 
-  - **– o**參數--列出為此集區設定的所有軌道範圍。
+  - **– o** 參數--列出為此集區設定的所有軌道範圍。
 
-  - **– n**參數-列出此集區中所有目前使用的軌道。 顯示的資訊如下：
+  - **– n** 參數-列出此集區中所有目前使用的軌道。 顯示的資訊如下：
     
       - SIP 統一資源識別項 (parkee 和 parker 的 URI) 。
     
@@ -582,9 +584,9 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
     
       - 寄存通話的時間戳記。
 
-  - **– f**參數-列出集區中目前可用的軌道的數目。
+  - **– f** 參數-列出集區中目前可用的軌道的數目。
 
-  - **– r \< n \> **參數-列出 \< n \> 最後一個寄存的呼叫。 顯示的資訊如下：
+  - **– r \<n\> **參數-列出 \<n\> 最後一個寄存的呼叫。 顯示的資訊如下：
     
       - Parkee SIP URI。
     
@@ -594,7 +596,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂 Lyn
     
       - 檢索或丟棄通話的時間戳記。
 
-  - **-t \< n \> **參數-測試在資料庫中保留軌道，以顯示所指派軌道編號的隨機性。
+  - **-t \<n\> **參數-測試在資料庫中保留軌道，以顯示指定之軌道編號的隨機性。
 
 </div>
 
@@ -628,7 +630,7 @@ CPS 工具的目的是提供 CPS 資料庫的命令列存取權。 管理員可�
 
 ## <a name="requirements"></a>需求
 
-如果此工具在執行 CPS 的同一部電腦上執行，則不會有任何需求。 若要在遠端電腦上執行此工具，Lync Server 2013 所使用的 SQL Server 資料庫必須設定為允許遠端存取。 必須使用 SQL Server 資料庫連接字串設定 Call parkometer，以連線至集區的 SQL Server。 此 SQL Server 資料庫連接字串是定義在設定檔案中**parkometer.exe.config**。它必須放在 parkometer.exe 所在的相同目錄中。 下列 XML 檔案是 parkometer.exe.config 的範例。必須設定的參數是「使用者名稱」 (例如，mydomain \\ 系統管理員) 、密碼 (例如，mypassword) 及主機名稱 (例如 myserver) 。
+如果此工具在執行 CPS 的同一部電腦上執行，則不會有任何需求。 若要在遠端電腦上執行此工具，Lync Server 2013 所使用的 SQL Server 資料庫必須設定為允許遠端存取。 必須使用 SQL Server 資料庫連接字串設定 Call parkometer，以連線至集區的 SQL Server。 此 SQL Server 資料庫連接字串是定義在設定檔案中 **parkometer.exe.config**。它必須放在 parkometer.exe 所在的相同目錄中。 下列 XML 檔案是 parkometer.exe.config 的範例。必須設定的參數是「使用者名稱」 (例如，mydomain \\ 系統管理員) 、密碼 (例如，mypassword) 及主機名稱 (例如 myserver) 。
 
 ```xml
     <?xml version="1.0" encoding="utf-8" ?>
@@ -661,11 +663,11 @@ CPS 工具的目的是提供 CPS 資料庫的命令列存取權。 管理員可�
 
 ![空閒的軌道式按呼叫 Call parkometer。](images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "空閒的軌道式按呼叫 Call parkometer。")
 
-最近寄存的通話：-r \< n \> 參數會列出 \< n \> 最後一個寄存的呼叫（如圖所示）。
+最近寄存的通話：-r \<n\> 參數會列出 \<n\> 最後一個寄存的呼叫，如圖所示。
 
 ![通話 Call parkometer 中最近寄存的通話。](images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "通話 Call parkometer 中最近寄存的通話。")
 
-測試軌道保留：– t \< n \> 參數測試在資料庫中保留軌道（如圖所示）
+測試軌道保留：– t \<n\> 參數會測試在資料庫中保留軌道（如圖所示）。
 
 ![在 [呼叫 Call parkometer] 中測試軌道保留。](images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "在 [呼叫 Call parkometer] 中測試軌道保留。")
 
@@ -699,7 +701,7 @@ CleanupStorageServiceData resource 工具組工具可讓您從 Lync Server Stora
 
 ## <a name="requirements"></a>需求
 
-安裝 Lync Server 2013，資源工具組工具。 在已加入網域的機器上，此工具會在安裝 Lync Server 和 Lync Server 2013 管理命令介面的機器上執行。 此工具使用管理命令介面中的 Cmdlet 來識別集區中的所有前端伺服器。 其次，必須從已安裝**RtcLocal**資料庫的集區中的機器執行工具。 CleanupStorageServiceData 工具使用此資料庫來取得與 Lync Server 路由服務通訊所需的連線詳細資料。最後，呼叫工具的帳戶或憑證必須具有要寫入其輸出記錄檔之檔案共用的讀取/寫入權限。此外，此工具也取決於集區處於穩定狀態。 實質上，這表示每一部前端伺服器都預計會啟動並執行，則 SQL Server LYNCLOCAL 實例和 LYSS 資料庫必須能夠連線，且每個路由群組都必須有一組完整的1部前端伺服器和2個次要前端伺服器。
+安裝 Lync Server 2013，資源工具組工具。 在已加入網域的機器上，此工具會在安裝 Lync Server 和 Lync Server 2013 管理命令介面的機器上執行。 此工具使用管理命令介面中的 Cmdlet 來識別集區中的所有前端伺服器。 其次，必須從已安裝 **RtcLocal** 資料庫的集區中的機器執行工具。 CleanupStorageServiceData 工具使用此資料庫來取得與 Lync Server 路由服務通訊所需的連線詳細資料。最後，呼叫工具的帳戶或憑證必須具有要寫入其輸出記錄檔之檔案共用的讀取/寫入權限。此外，此工具也取決於集區處於穩定狀態。 實質上，這表示每一部前端伺服器都預計會啟動並執行，則 SQL Server LYNCLOCAL 實例和 LYSS 資料庫必須能夠連線，且每個路由群組都必須有一組完整的1部前端伺服器和2個次要前端伺服器。
 
 </div>
 
@@ -828,11 +830,11 @@ Dbanalyze.exe 是一種命令列工具，可協助系統管理員收集 Lync Ser
 
 ## <a name="requirements"></a>需求
 
-**電腦**Dbanalyze.exe 只能從已安裝 Lync Server 2013 的已加入網域的電腦執行。
+**電腦** Dbanalyze.exe 只能從已安裝 Lync Server 2013 的已加入網域的電腦執行。
 
-**網路**電腦應該可以連接至後端資料庫。
+**網路** 電腦應該可以連接至後端資料庫。
 
-**軟體**在執行 Dbanalyze.exe 之前，必須先安裝 Lync Server 2013 軟體元件。
+**軟體** 在執行 Dbanalyze.exe 之前，必須先安裝 Lync Server 2013 軟體元件。
 
 **使用者**下表顯示具有存取 Lync Server 2013 資料庫之必要許可權的系統管理員。
 
@@ -903,7 +905,7 @@ ImportStorageServiceData 資源工具組工具可讓您重新匯入儲存服務 
 
 ## <a name="requirements"></a>需求
 
-安裝 Lync Server 2013，資源工具組工具。 工具會在安裝了 Lync Server 和 Lync Server 管理命令介面的已加入網域的機器上執行。 該工具會使用來自管理命令介面的 Cmdlet，識別集區中的所有前端伺服器。 其次，必須從已安裝**RtcLocal**資料庫的集區中的機器執行工具。 此資料庫由工具使用，以取得集區的 WEBSERVICE 檔案共用的位置。此外，在使用此工具之前，每一部前端伺服器都必須先在每一部前端伺服器上使用**Enable-PSRemoting**啟用 Windows PowerShell 遠端處理，以及執行該工具的機器。 否則，來自此工具的遠端 Windows PowerShell 命令將會失敗。 在集區完成後，您可以在集區中的所有前端伺服器上關閉 Windows PowerShell 遠端處理。 最後，開啟工具的帳戶或憑證必須具有可讀取/寫入權限給其在其上執行此工具的集區。 否則，該工具會失敗，並顯示 IO 許可權錯誤。
+安裝 Lync Server 2013，資源工具組工具。 工具會在安裝了 Lync Server 和 Lync Server 管理命令介面的已加入網域的機器上執行。 該工具會使用來自管理命令介面的 Cmdlet，識別集區中的所有前端伺服器。 其次，必須從已安裝 **RtcLocal** 資料庫的集區中的機器執行工具。 此資料庫由工具使用，以取得集區的 WEBSERVICE 檔案共用的位置。此外，在使用此工具之前，每一部前端伺服器都必須先在每一部前端伺服器上使用 **Enable-PSRemoting** 啟用 Windows PowerShell 遠端處理，以及執行該工具的機器。 否則，來自此工具的遠端 Windows PowerShell 命令將會失敗。 在集區完成後，您可以在集區中的所有前端伺服器上關閉 Windows PowerShell 遠端處理。 最後，開啟工具的帳戶或憑證必須具有可讀取/寫入權限給其在其上執行此工具的集區。 否則，該工具會失敗，並顯示 IO 許可權錯誤。
 
 <div>
 
@@ -1116,7 +1118,7 @@ LookupUserConsole 工具會顯示特定使用者的內部 Lync Server 路由資�
 
 ## <a name="description"></a>描述
 
-執行 LookupUserConsole.exe 會開啟接收 SIP 位址的命令提示字元，並嘗試顯示與其相關的內部 Lync Server 路由資訊。 若要結束 LookupUserConsole 工具，請輸入**exit** 。
+執行 LookupUserConsole.exe 會開啟接收 SIP 位址的命令提示字元，並嘗試顯示與其相關的內部 Lync Server 路由資訊。 若要結束 LookupUserConsole 工具，請輸入 **exit** 。
 
 </div>
 
@@ -1210,13 +1212,13 @@ MSTurnPing 工具可讓 Lync Server 2013 通訊軟體的系統管理員檢查執
 
 工具會輸出每個作業的結果。
 
-  - 如果執行**AudioVideoEdgeServer**測試，則會輸出下列工具：
+  - 如果執行 **AudioVideoEdgeServer** 測試，則會輸出下列工具：
     
       - 在拓撲中提供 Lync Server Audio/Video 驗證服務之電腦的測試結果
     
       - 在拓撲中提供 Lync Server Audio/Video Edge service 之電腦的測試結果
 
-  - 如果執行**BandwidthPolicyServer**測試，則會輸出下列工具：
+  - 如果執行 **BandwidthPolicyServer** 測試，則會輸出下列工具：
     
       - 在拓撲中提供 Lync Server 頻寬原則服務 (驗證) 的電腦測試結果
     
@@ -1298,19 +1300,19 @@ Microsoft Lync Server 2013 通訊軟體管理員可以使用網路設定檢視�
 
 ## <a name="examples"></a>範例
 
-**從 Lync Server 2013 部署中，以圖形格式載入和查看 CAC 網路拓撲：** Lync Server 2013 系統管理員可以使用 [**下載網路**設定] 選項，在任何 Lync server 2013 電腦上載入及流覽 CAC 網路拓撲設定，如下圖所示。 在未連接至 Lync 設定存放區的電腦上部署時，工具將無法下載或查看此類設定。
+**從 Lync Server 2013 部署中，以圖形格式載入和查看 CAC 網路拓撲：** Lync Server 2013 系統管理員可以使用 [ **下載網路** 設定] 選項，在任何 Lync server 2013 電腦上載入及流覽 CAC 網路拓撲設定，如下圖所示。 在未連接至 Lync 設定存放區的電腦上部署時，工具將無法下載或查看此類設定。
 
 ![下載網路設定。](images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "下載網路設定。")
 
-**從頻寬原則伺服器記錄檔以圖形格式載入和查看 CAC 網路拓撲：** Lync Server 2013 頻寬原則伺服器會將 CAC 網路拓撲儲存為 Lync Server 2013 檔案共用位置的記錄機制的一部分。 Lync Server 系統管理員可以使用如下所示的「**開放網路**設定」選項，以圖形格式來查看這類檔案。
+**從頻寬原則伺服器記錄檔以圖形格式載入和查看 CAC 網路拓撲：** Lync Server 2013 頻寬原則伺服器會將 CAC 網路拓撲儲存為 Lync Server 2013 檔案共用位置的記錄機制的一部分。 Lync Server 系統管理員可以使用如下所示的「 **開放網路** 設定」選項，以圖形格式來查看這類檔案。
 
 ![開啟頻寬原則伺服器記錄檔。](images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "開啟頻寬原則伺服器記錄檔。")
 
-在磁片上以 XML 格式儲存及儲存 CAC 網路拓撲： Lync Server 2013 系統管理員可以使用 [**儲存網路設定的副本**] 選項，以 xml 格式儲存 cac 網路拓撲設定檔，如下所示。 然後，已儲存的設定檔便可供離線使用，以供圖形化查看之用。
+在磁片上以 XML 格式儲存及儲存 CAC 網路拓撲： Lync Server 2013 系統管理員可以使用 [ **儲存網路設定的副本** ] 選項，以 xml 格式儲存 cac 網路拓撲設定檔，如下所示。 然後，已儲存的設定檔便可供離線使用，以供圖形化查看之用。
 
 ![將網路設定儲存為 XML 檔案。](images/JJ945604.6eeef3b0-78b5-4ee6-8d94-1a4ddf3d8676(OCS.15).jpg "將網路設定儲存為 XML 檔案。")
 
-以 JPG 或 BMP 格式儲存及儲存 CAC 網路拓撲圖表： Lync Server 2013 系統管理員可以使用 [**另存網路設定圖表為圖片**] 選項，將 cac 網路拓撲設定儲存為圖形格式 (JPG 及 bmp 檔案格式) ，如下所示。
+以 JPG 或 BMP 格式儲存及儲存 CAC 網路拓撲圖表： Lync Server 2013 系統管理員可以使用 [ **另存網路設定圖表為圖片** ] 選項，將 cac 網路拓撲設定儲存為圖形格式 (JPG 及 bmp 檔案格式) ，如下所示。
 
 ![將網路設定儲存為圖片。](images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "將網路設定儲存為圖片。")
 
@@ -1322,11 +1324,11 @@ Microsoft Lync Server 2013 通訊軟體管理員可以使用網路設定檢視�
 
 ![以樹狀目錄查看網路設定資料。](images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "以樹狀目錄查看網路設定資料。")
 
-**針對 CAC 網路拓撲連結定義自訂連接器， (例如「點對點」、「地區對**地區」及「點對點」連結) ：Lync Server 2013 系統管理員可以使用如下所示的 [設定] 選項，定義 CAC 網路設定 WAN 連結的自訂圖形連接器。 這有助於區分網路設定中布建的各種網路連結類型。
+**針對 CAC 網路拓撲連結定義自訂連接器， (例如「點對點」、「地區對** 地區」及「點對點」連結) ：Lync Server 2013 系統管理員可以使用如下所示的 [設定] 選項，定義 CAC 網路設定 WAN 連結的自訂圖形連接器。 這有助於區分網路設定中布建的各種網路連結類型。
 
 ![定義 CAC 網路拓朴的自訂連接器](images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "定義 CAC 網路拓朴的自訂連接器")
 
-**查看 CAC 網路拓撲網站資訊、區域資訊，以及布建的頻寬原則：** Lync Server 2013 系統管理員可以使用如下所示的選項，查看相關 CAC 網路地區資訊、網站資訊和 CAC 頻寬布建資訊。  (例如，按一下 [網路地區] 或 [網路網站物件] 中的 [**資訊**]。 ) 
+**查看 CAC 網路拓撲網站資訊、區域資訊，以及布建的頻寬原則：** Lync Server 2013 系統管理員可以使用如下所示的選項，查看相關 CAC 網路地區資訊、網站資訊和 CAC 頻寬布建資訊。  (例如，按一下 [網路地區] 或 [網路網站物件] 中的 [ **資訊** ]。 ) 
 
 ![為您的網路定義自訂連接器。](images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "為您的網路定義自訂連接器。")
 
@@ -1601,7 +1603,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 
 > [!NOTE]  
-> 本範例會使用<STRONG>/server</STRONG>參數來指定要連接的 Lync server。
+> 本範例會使用 <STRONG>/server</STRONG> 參數來指定要連接的 Lync server。
 
 
 
@@ -1740,7 +1742,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 <div>
 
-## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>新增代理人並設定對代理人規則的呼叫轉寄
+## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>新增代理人並設定 Call-Forward 至代理人規則
 
 這則範例會新增代理人，並設定「呼叫轉寄至代理人規則。
 
@@ -1804,7 +1806,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 <div>
 
-## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>新增小組通話的小組成員，並設定同時響鈴至「小組來電成員群組」
+## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>新增 Team-Call 的團隊成員，並設定同時響鈴至 Team-Call 成員群組
 
 這則範例會將小組成員新增至使用者的「小組通話群組」，並啟用對小組通話群組的同時震鈴。
 
@@ -1831,7 +1833,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 <div>
 
-## <a name="remove-a-member-from-the-team-call-group"></a>從小組通話群組中移除成員
+## <a name="remove-a-member-from-the-team-call-group"></a>從 Team-Call 群組中移除成員
 
 此範例會移除使用者之團隊通話群組的小組成員。
 
@@ -1859,7 +1861,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 <div>
 
-## <a name="set-the-delayed-ring-to-the-team-call-group"></a>將延遲的環設定為小組通話群組
+## <a name="set-the-delayed-ring-to-the-team-call-group"></a>將延遲的環設定為 Team-Call 群組
 
 本範例會將延遲的環變更為「小組通話群組時間」設定。
 
@@ -1876,7 +1878,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 <div>
 
-## <a name="enable-team-call"></a>啟用小組通話
+## <a name="enable-team-call"></a>啟用 Team-Call
 
 本範例會為指定的使用者啟用小組通話。
 
@@ -1898,7 +1900,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 <div>
 
-## <a name="disable-team-call"></a>停用小組通話
+## <a name="disable-team-call"></a>停用 Team-Call
 
 本範例會停用指定使用者的「小組通話」。
 
@@ -1991,7 +1993,7 @@ SYSPrep.ps1 是一種 Windows PowerShell 腳本，可在您的 Windows Server 20
 
 ## <a name="requirements"></a>需求
 
-在執行 SYSPrep.ps1 腳本之前，您必須將必要條件檔案複製到 Windows Server 2008 作業系統電腦上的本機資料夾中 (例如**D： \\ Setup) **。 此資料夾也必須包含 Lync Server 2013 檔案的複本，尤其是**Setup.exe。** 您可以從下列位置下載必要檔：
+在執行 SYSPrep.ps1 腳本之前，您必須將必要條件檔案複製到 Windows Server 2008 作業系統電腦上的本機資料夾中 (例如 **D： \\ Setup) **。 此資料夾也必須包含 Lync Server 2013 檔案的複本，尤其是 **Setup.exe。** 您可以從下列位置下載必要檔：
 
 
 <table>
@@ -2191,7 +2193,7 @@ Web 會議資料工具可讓 Lync Server 2013 通訊軟體的管理員能夠更�
 
 
 > [!NOTE]  
-> Lync Server 2010 的資源工具組工具支援在使用者從一個集區移至另一個集區時，移動所有與單一使用者相關聯的 Web 會議資料。 這項功能現在已被取代為此工具，取而代之的<STRONG>MoveConferenceData</STRONG>參數。 如需此參數的詳細資訊，請參閱<A href="https://technet.microsoft.com/library/gg398528(v=ocs.15)">Move-CsUser</A> Cmdlet。
+> Lync Server 2010 的資源工具組工具支援在使用者從一個集區移至另一個集區時，移動所有與單一使用者相關聯的 Web 會議資料。 這項功能現在已被取代為此工具，取而代之的 <STRONG>MoveConferenceData</STRONG> 參數。 如需此參數的詳細資訊，請參閱 <A href="https://technet.microsoft.com/library/gg398528(v=ocs.15)">Move-CsUser</A> Cmdlet。
 
 
 

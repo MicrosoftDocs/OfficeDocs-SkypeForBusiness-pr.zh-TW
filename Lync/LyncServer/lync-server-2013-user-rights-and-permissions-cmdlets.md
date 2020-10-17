@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 使用者權利和權限指令程式
+title: Lync Server 2013：使用者權利和許可權 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5f618e79d46a076f6217af4e7903d4e9c4a4ebf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2db174c6bd50bee3904267790127c9d2845b1dd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213019"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508690"
 ---
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的使用者權限與許可權 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的使用者權利和權限 cmdlet
+
 
 </div>
 
@@ -35,59 +37,59 @@ ms.locfileid: "42213019"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-26_
+_**主題上次修改日期：** 2012-06-26_
 
-使用者權限指令程式主要用於管理角色型存取控制 (RBAC)，委派系統管理控制權的 Microsoft Lync Server 2013 的新技術。
+使用者許可權 Cmdlet 主要是用來管理以角色為基礎的存取控制 (RBAC) （即委派 Microsoft Lync Server 2013 管理控制權的新技術）。
 
 <div>
 
-## <a name="user-permission-cmdlets"></a>使用者權限指令程式
+## <a name="user-permission-cmdlets"></a>使用者許可權 Cmdlet
 
-以下是 cmdlet 的與管理使用者權限直接相關清單：
+以下是與管理使用者許可權直接相關的 Cmdlet 清單：
 
 **使用者權限**
 
   - <span></span>  
-    [Get-csadminrole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))
+    [Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))
 
   - <span></span>  
-    [New-csadminrole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))
+    [New-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))
 
   - <span></span>  
-    [Remove-csadminrole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))
+    [Remove-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))
 
   - <span></span>  
-    [設定 Get-csadminrole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))
+    [Get-csadminrole where-object](https://technet.microsoft.com/library/Gg399066(v=OCS.15))
 
   - <span></span>  
-    [Update-csadminrole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))
+    [Update-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-csadminroleassignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))
+    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Grant-csoupermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))
+    [Grant-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))
 
   - <span></span>  
-    [Revoke-csoupermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))
+    [Revoke-CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))
 
   - <span></span>  
-    [Test-csoupermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))
+    [Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Grant-cssetuppermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))
+    [Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))
 
   - <span></span>  
-    [Revoke-cssetuppermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))
+    [Revoke-CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))
 
   - <span></span>  
-    [Test-cssetuppermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))
+    [Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))
 
 </div>
 
@@ -96,7 +98,7 @@ _**主題上次修改日期：** 2012年-06-26_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

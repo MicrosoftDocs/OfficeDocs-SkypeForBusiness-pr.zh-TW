@@ -12,20 +12,22 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d1532acc21bc788adc8e52bfd1d562509e105ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7c7b08d22933947c2f8079a2713fd134feb4629
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509040"
 ---
+# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013 中的系統管理工具軟體需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013 中的系統管理工具軟體需求
+
 
 </div>
 
@@ -51,7 +53,7 @@ Lync Server 2013 需要64位版本的 Microsoft .NET Framework 4.5。
 
 ## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-若要執行 Microsoft Lync Server 2013 的任何元件，都需要有 Windows PowerShell 3.0。 如需詳細資訊，請參閱[安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)。
+若要執行 Microsoft Lync Server 2013 的任何元件，都需要有 Windows PowerShell 3.0。 如需詳細資訊，請參閱 [安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)。
 
 </div>
 
