@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：建立回應群組工作流程
+description: Lync Server 2013：建立回應群組工作流程。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe0ca786aea0f3c6fab0da95700bd6fa9bb5f21e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7082295eeca45c4dac76d68ef54b5c32fafb25d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504720"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548649"
 ---
-# <a name="create-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="5f80a-102">在 Lync Server 2013 中建立回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="5f80a-102">Create Response Group workflows in Lync Server 2013</span></span>
+# <a name="create-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="0d74c-103">在 Lync Server 2013 中建立回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="0d74c-103">Create Response Group workflows in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48504720"
 
 <span> </span>
 
-<span data-ttu-id="5f80a-103">_**主題上次修改日期：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="5f80a-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="0d74c-104">_**主題上次修改日期：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="0d74c-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="5f80a-p101">工作流程會定義從電話鈴聲開始響起到有人接聽該通電話這段時間的呼叫行為。工作流程指定了用於保留通話的佇列，並指定用於群組搜尋的路由方法，或讓互動回應群組使用的問題和回答。工作流程也定義歡迎訊息、等候音樂、上班時間和假日之類的設定值。</span><span class="sxs-lookup"><span data-stu-id="5f80a-p101">A workflow defines the behavior of a call from the time that the phone rings to the time that someone answers the call. The workflow specifies the queue to use for holding the call, and specifies the routing method to use for hunt groups or the questions and answers to use for interactive response groups. A workflow also defines settings such as a welcome message, music on hold, business hours, and holidays.</span></span>
+<span data-ttu-id="0d74c-p101">工作流程會定義從電話鈴聲開始響起到有人接聽該通電話這段時間的呼叫行為。工作流程指定了用於保留通話的佇列，並指定用於群組搜尋的路由方法，或讓互動回應群組使用的問題和回答。工作流程也定義歡迎訊息、等候音樂、上班時間和假日之類的設定值。</span><span class="sxs-lookup"><span data-stu-id="0d74c-p101">A workflow defines the behavior of a call from the time that the phone rings to the time that someone answers the call. The workflow specifies the queue to use for holding the call, and specifies the routing method to use for hunt groups or the questions and answers to use for interactive response groups. A workflow also defines settings such as a welcome message, music on hold, business hours, and holidays.</span></span>
 
-<span data-ttu-id="5f80a-107">您可以使用回應群組設定工具來建立工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f80a-107">You use the Response Group Configuration Tool to create workflows.</span></span> <span data-ttu-id="5f80a-108">您可以從 Lync Server 控制台的 [回應群組] 頁面，存取回應群組設定工具。</span><span class="sxs-lookup"><span data-stu-id="5f80a-108">You can access the Response Group Configuration Tool from the Response Group page of Lync Server Control Panel.</span></span>
+<span data-ttu-id="0d74c-108">您可以使用回應群組設定工具來建立工作流程。</span><span class="sxs-lookup"><span data-stu-id="0d74c-108">You use the Response Group Configuration Tool to create workflows.</span></span> <span data-ttu-id="0d74c-109">您可以從 Lync Server 控制台的 [回應群組] 頁面，存取回應群組設定工具。</span><span class="sxs-lookup"><span data-stu-id="0d74c-109">You can access the Response Group Configuration Tool from the Response Group page of Lync Server Control Panel.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5f80a-109">您必須先建立代理群組和佇列，再建立使用這些項目的工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f80a-109">You must create agent groups and queues before you create a workflow that uses them.</span></span>
+> <span data-ttu-id="0d74c-110">您必須先建立代理群組和佇列，再建立使用這些項目的工作流程。</span><span class="sxs-lookup"><span data-stu-id="0d74c-110">You must create agent groups and queues before you create a workflow that uses them.</span></span>
 
 
 
@@ -55,23 +56,23 @@ ms.locfileid: "48504720"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5f80a-110">本章節內容</span><span class="sxs-lookup"><span data-stu-id="5f80a-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0d74c-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0d74c-111">In This Section</span></span>
 
-  - [<span data-ttu-id="5f80a-111">在 Lync Server 2013 中建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="5f80a-111">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [<span data-ttu-id="0d74c-112">在 Lync Server 2013 中建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="0d74c-112">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [<span data-ttu-id="5f80a-112">在 Lync Server 2013 中設計互動語音回應通話流程</span><span class="sxs-lookup"><span data-stu-id="5f80a-112">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [<span data-ttu-id="0d74c-113">在 Lync Server 2013 中設計互動語音回應通話流程</span><span class="sxs-lookup"><span data-stu-id="0d74c-113">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [<span data-ttu-id="5f80a-113">在 Lync Server 2013 中建立或修改互動式工作流程</span><span class="sxs-lookup"><span data-stu-id="5f80a-113">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)
+  - [<span data-ttu-id="0d74c-114">在 Lync Server 2013 中建立或修改互動式工作流程</span><span class="sxs-lookup"><span data-stu-id="0d74c-114">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="5f80a-114">相關各節</span><span class="sxs-lookup"><span data-stu-id="5f80a-114">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="0d74c-115">相關各節</span><span class="sxs-lookup"><span data-stu-id="0d74c-115">Related Sections</span></span>
 
-  - [<span data-ttu-id="5f80a-115">建立回應群組代理群組 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f80a-115">Create Response Group agent groups Lync Server 2013</span></span>](lync-server-2013-create-response-group-agent-groups.md)
+  - [<span data-ttu-id="0d74c-116">建立回應群組代理群組 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d74c-116">Create Response Group agent groups Lync Server 2013</span></span>](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [<span data-ttu-id="5f80a-116">在 Lync Server 2013 中建立回應群組佇列</span><span class="sxs-lookup"><span data-stu-id="5f80a-116">Create Response Group queues in Lync Server 2013</span></span>](lync-server-2013-create-response-group-queues.md)
+  - [<span data-ttu-id="0d74c-117">在 Lync Server 2013 中建立回應群組佇列</span><span class="sxs-lookup"><span data-stu-id="0d74c-117">Create Response Group queues in Lync Server 2013</span></span>](lync-server-2013-create-response-group-queues.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：建立回應群組佇列
+description: Lync Server 2013：建立回應群組佇列。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184070
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44dabaa6e1fd014933859c516cc305e8582655ab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74f61aeef06b430cea20f509445c220b53fc6891
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514710"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548659"
 ---
-# <a name="create-response-group-queues-in-lync-server-2013"></a><span data-ttu-id="c0c7c-102">在 Lync Server 2013 中建立回應群組佇列</span><span class="sxs-lookup"><span data-stu-id="c0c7c-102">Create Response Group queues in Lync Server 2013</span></span>
+# <a name="create-response-group-queues-in-lync-server-2013"></a><span data-ttu-id="ab127-103">在 Lync Server 2013 中建立回應群組佇列</span><span class="sxs-lookup"><span data-stu-id="ab127-103">Create Response Group queues in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48514710"
 
 <span> </span>
 
-<span data-ttu-id="c0c7c-103">_**主題上次修改日期：** 2012-01-18_</span><span class="sxs-lookup"><span data-stu-id="c0c7c-103">_**Topic Last Modified:** 2012-01-18_</span></span>
+<span data-ttu-id="ab127-104">_**主題上次修改日期：** 2012-01-18_</span><span class="sxs-lookup"><span data-stu-id="ab127-104">_**Topic Last Modified:** 2012-01-18_</span></span>
 
-<span data-ttu-id="c0c7c-104">佇列會使來電者等候，直到代理接聽電話為止。</span><span class="sxs-lookup"><span data-stu-id="c0c7c-104">Queues hold callers until an agent answers the call.</span></span> <span data-ttu-id="c0c7c-105">當回應群組應用程式搜尋可用的代理程式時，它會依照列出的順序來搜尋代理人群組。</span><span class="sxs-lookup"><span data-stu-id="c0c7c-105">When the Response Group application searches for an available agent, it searches agent groups in the order that you list them.</span></span> <span data-ttu-id="c0c7c-106">您可以選取指派給佇列的代理群組，並指定佇列行為，例如限制佇列中可以包含的電話數目，以及限制在代理接聽電話之前，電話等候的時間長度。</span><span class="sxs-lookup"><span data-stu-id="c0c7c-106">You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.</span></span>
+<span data-ttu-id="ab127-105">佇列會使來電者等候，直到代理接聽電話為止。</span><span class="sxs-lookup"><span data-stu-id="ab127-105">Queues hold callers until an agent answers the call.</span></span> <span data-ttu-id="ab127-106">當回應群組應用程式搜尋可用的代理程式時，它會依照列出的順序來搜尋代理人群組。</span><span class="sxs-lookup"><span data-stu-id="ab127-106">When the Response Group application searches for an available agent, it searches agent groups in the order that you list them.</span></span> <span data-ttu-id="ab127-107">您可以選取指派給佇列的代理群組，並指定佇列行為，例如限制佇列中可以包含的電話數目，以及限制在代理接聽電話之前，電話等候的時間長度。</span><span class="sxs-lookup"><span data-stu-id="ab127-107">You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c0c7c-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="c0c7c-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ab127-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="ab127-108">In This Section</span></span>
 
-[<span data-ttu-id="c0c7c-108">在 Lync Server 2013 中建立或修改佇列</span><span class="sxs-lookup"><span data-stu-id="c0c7c-108">Create or modify a queue in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-queue.md)
+[<span data-ttu-id="ab127-109">在 Lync Server 2013 中建立或修改佇列</span><span class="sxs-lookup"><span data-stu-id="ab127-109">Create or modify a queue in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-queue.md)
 
 </div>
 
