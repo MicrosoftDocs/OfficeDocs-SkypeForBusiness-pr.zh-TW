@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 容量規劃通話駐留
+title: Lync Server 2013：通話駐留的容量規劃
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dd9ba479fff51491c1240ec42941615f7c476da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 079d1517afa72eeff607920d86b093ac01d673de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512830"
 ---
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中通話駐留的容量規劃
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>容量規劃的 Lync Server 2013 中的通話駐留
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42199526"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-13_
+_**主題上次修改日期：** 2012-09-13_
 
 <div id="sectionSection0" class="section">
 
-下表說明您可以使用容量規劃需求為基礎的通話駐留使用者模型。
+下表說明您可以用來作為容量規劃需求基礎的通話駐留使用者模型。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 請記住，災害復原容量規劃，配對集區的每個集區應該能夠處理兩個集區中的通話駐留服務的工作負載。
+> 請記住，針對嚴重損壞修復容量規劃，配對集區的每個集區都應該可以處理兩個集區中的通話駐留服務工作負載。
 
 
 
@@ -61,9 +63,9 @@ _**主題上次修改日期：** 2012年-09-13_
 </colgroup>
 <thead>
 <tr class="header">
-<th>評量</th>
-<th>每個前端集區 （使用 8 前端伺服器）</th>
-<th>每個 Standard Edition 伺服器</th>
+<th>計量</th>
+<th>每個前端伺服器集區 (8 部前端伺服器) </th>
+<th>每個 Standard Edition server</th>
 </tr>
 </thead>
 <tbody>

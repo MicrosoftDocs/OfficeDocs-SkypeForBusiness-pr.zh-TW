@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Capacity planning for Persistent Chat Server'
+title: Lync Server 2013： Persistent Chat Server 的容量規劃
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f24d99a8b22c78acd32efdb5867c92a5621fe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c6bb3c7dcd8d03ffb0a57fb165fe1dba4ee933d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191246"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512800"
 ---
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中的持久聊天伺服器容量規劃
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Persistent Chat Server in Lync Server 2013 的容量規劃
+
 
 </div>
 
@@ -35,31 +37,31 @@ ms.locfileid: "42191246"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-05_
+_**主題上次修改日期：** 2012-10-05_
 
-Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室未來擷取與搜尋。 不同於群組立即訊息 (IM)，會儲存在使用者的信箱如果交談歷程記錄設定，Persistent Chat Server 的工作階段保持開啟更久，且內容儲存在伺服器上，以及郵件、 檔案、 Url 和屬於其他資料進行中的交談。
+Persistent Chat Server 可以執行多使用者即時聊天，可保留以供未來檢索及搜尋。 與群組立即訊息 (IM) 會儲存在使用者的信箱中如果已設定交談記錄，則 Persistent Chat Server 會話會保持開啟的狀態，而且內容會儲存在伺服器上，以及郵件、檔案、URLs 和其他屬於進行中交談的資料。
 
-容量規劃是準備部署 Persistent Chat Server 的重要部分。 本主題提供有關支援的常設聊天室伺服器拓撲和容量規劃表格可用來判斷您的部署的最佳組態的詳細資訊。 它也說明如何以最佳管理 Persistent Chat Server 部署在尖峰時間需要更多的容量。
+容量規劃是準備部署 Persistent Chat Server 的重要部分。 本主題提供支援的持續性聊天伺服器拓撲及容量規劃表格的詳細資料，您可以用來判斷部署的最佳設定。 此外，本文也說明如何在高峰時進行需要較高容量的持久聊天伺服器部署的最佳管理。
 
-若要下載 Persistent Chat Server，請參閱 「 Microsoft Lync Server 13 Persistent Chat Server" [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)。
+若要下載 Persistent Chat Server，請參閱《 Microsoft Lync Server 13 Persistent Chat Server 》，網址為 [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539) 。
 
-如需安裝 Persistent Chat Server 的詳細資訊，請參閱部署文件中的[安裝 Persistent Chat Server in Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md)和[Configuring Persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) 。
+如需安裝 Persistent Chat Server 的詳細資訊，請參閱部署檔中的在 lync server [2013 中安裝 Persistent Chat server](lync-server-2013-installing-persistent-chat-server.md) 和設定 [persistent chat server 2013](lync-server-2013-configuring-persistent-chat-server.md) 中的功能。
 
-支援的工具，例如 [Lync Server 規劃工具，可進一步協助您進行容量規劃。 如需規劃工具的詳細資訊，請參閱規劃文件的[開頭 Lync Server 2013 的規劃程序](lync-server-2013-beginning-the-planning-process.md)。
+支援工具（例如 Lync Server 規劃工具）可進一步協助您進行容量規劃。 如需規劃工具的詳細資訊，請參閱規劃檔中的 [開始進行 Lync Server 2013 的規劃程式](lync-server-2013-beginning-the-planning-process.md) 。
 
 <div>
 
-## <a name="persistent-chat-server-supported-topologies"></a>常設聊天室伺服器支援的拓撲
+## <a name="persistent-chat-server-supported-topologies"></a>Persistent Chat Server 支援的拓撲
 
-您可以部署 Persistent Chat Server 在單一伺服器或多部伺服器集區，並與集區的單一或多個集區的拓撲。
+您可以在單一伺服器或多部伺服器集區中部署 Persistent Chat Server，並使用單一集區或多集區拓撲。
 
-我們現在也支援 Persistent Chat Server 的新的 Lync Server 2013 部署的 Standard Edition server 上。 不過，會影響效能和規模，並沒有這個新部署的高可用性選項，因為我們希望您可以使用此功能主要是基於證明概念、 評估，依此類推。
+現在，我們也會在 Standard Edition server 上為新的 Lync Server 2013 部署支援 Persistent Chat Server。 不過，效能及規模會受到影響，而且由於這項新的部署沒有高可用性選項，因此我們預計您主要是用來進行概念證明、評估等等的目的。
 
 <div>
 
 
 > [!NOTE]  
-> 如需這兩種拓撲的詳細資訊，請參閱<A href="lync-server-2013-planning-for-persistent-chat-server.md">Planning for Persistent Chat Server in Lync Server 2013</A>中此文件組與<A href="lync-server-2013-deploying-persistent-chat-server.md">Deploying Persistent Chat Server in Lync Server 2013</A>部署文件中。
+> 如需這兩種拓撲的詳細資訊，請參閱部署檔中的 [在 lync Server <A href="lync-server-2013-planning-for-persistent-chat-server.md">2013 中規劃 Persistent Chat server</A> ] 和 [在 <A href="lync-server-2013-deploying-persistent-chat-server.md">lync Server 2013 中部署 persistent chat server</A> ]。
 
 
 
@@ -69,18 +71,18 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 
 ## <a name="single-server-topology"></a>單一伺服器拓撲
 
-最小的設定資料庫和 for Persistent Chat Server 的最簡單部署是單一常設聊天室伺服器前端伺服器的拓撲。 此部署需要執行常設聊天室伺服器 （如果啟用規範，選擇性地執行規範服務，）、 主控這兩個 SQL Server 資料庫伺服器的單一伺服器和合規性是否有需要，要儲存的 SQL Server 資料庫規範資料。
+Persistent Chat Server 的最小設定和最簡單部署是單一持久聊天伺服器前端伺服器拓撲。 此部署需要執行 Persistent Chat Server (的單一伺服器，如果符合性已啟用) 、主控 SQL Server 資料庫的伺服器及相容性（若有必要），則會執行該程式，以儲存相容性資料。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 您無法新增其他伺服器至已啟動拓撲產生器中的單一伺服器部署為 Persistent Chat Server 集區。 我們建議使用多部伺服器集區的拓撲，即使您使用單一伺服器。 這是這樣您就可以新增更多伺服器更新版本中，視需要。 
+> 您無法將其他伺服器新增至 Persistent Chat Server 集區，此集區在拓撲產生器中以單一伺服器部署的方式啟動。 我們建議使用多伺服器集區拓撲，即使您使用單一伺服器也是一樣。 如此一來，您就可以在必要時新增更多的伺服器。 
 
 
 </div>
 
-下圖顯示內含規範單一常設聊天室伺服器前端伺服器拓撲的所有必要與選用元件。
+下圖顯示單一 Persistent Chat Server 前端伺服器及規範的拓撲的所有必要和選用元件。
 
 **單一常設聊天室伺服器**
 
@@ -92,15 +94,15 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 
 ## <a name="multiple-server-topology"></a>多部伺服器拓撲
 
-若要提供更大的容量及可靠性，您可以部署多部伺服器拓撲，[規劃 Persistent Chat Server in Lync Server 2013 ](lync-server-2013-planning-for-persistent-chat-server.md)中所述。 多部伺服器拓撲可以包含多達四個作用中的電腦執行 Persistent Chat Server （高可用性和災害復原設定會允許最多第八個，但只有四個可以是作用中，其餘四處於待命狀態）。 每個伺服器可支援多達 20000 位並行使用者，總共為 80000 位並行使用者連線到具有 4 部伺服器 Persistent Chat Server 集區。 在多部伺服器拓撲是單一伺服器拓撲相同之處在於多部伺服器主控 Persistent Chat Server，並可將其調整更高版本。 執行 Persistent Chat Server 的多部電腦應該位於相同的 Active Directory 網域服務網域 Lync 伺服器和規範服務。
+若要提供更大的容量與可靠性，您可以部署多伺服器拓撲，如在 [Lync server 2013 中規劃 Persistent Chat server](lync-server-2013-planning-for-persistent-chat-server.md)所述。 多重伺服器拓撲可包含多達四部使用中持久聊天伺服器的使用中電腦 (高可用性和嚴重損壞修復設定允許最多八個，但只有四個可以使用中，而在待機) 仍可使用。 每一部伺服器最多可支援20000並行使用者，共連接至具有4部伺服器的持久聊天伺服器集區的併發使用者總數為80000。 多伺服器拓撲與單一伺服器拓撲相同，只是多部伺服器主控 Persistent Chat Server，而且可以擴充更高。 多部執行 Persistent Chat Server 的電腦應該位於與 Lync Server 和合規性服務相同的 Active Directory 網域服務網域中。
 
-下圖顯示所有的元件的多部伺服器拓撲與執行 Persistent Chat Server、 選用的 Compliance service 和獨立的規範資料庫的多部電腦。
+下圖顯示多部伺服器拓撲的所有元件，包含多部執行 Persistent Chat Server 的電腦、選用的規範服務和個別的規範資料庫。
 
 **多部常設聊天室伺服器**
 
-![多伺服器拓撲](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多伺服器拓撲")
+![多部伺服器拓撲](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多部伺服器拓撲")
 
-在有四部伺服器 Persistent Chat Server 部署中，可以 80000 位使用者同時登入，並使用常設聊天室，負載平均分配在每個伺服器 20000 位使用者。 如果一部伺服器變成無法使用，連線至該伺服器的使用者都將遺失其存取至 Persistent Chat Server。 連線遭中斷的使用者會自動被轉接到其餘伺服器，直到無法使用的伺服器還原為止。 在網路上的常設聊天室傳輸量，根據此傳輸可能需要數分鐘或更久。 因為每個剩餘伺服器可能會主控多達 30000 位使用者，我們建議您以避免發生效能問題儘速還原無法使用的伺服器。 否則，您可以提供另一部常設聊天室伺服器使用拓撲產生器或 Windows PowerShell cmdlet， **Set-cspersistentchatactiveserver**。
+在四部伺服器的持續聊天伺服器部署中，80000使用者可以同時登入和使用持續性聊天，在每個伺服器的20000使用者之間平均分配負載。 如果一部伺服器無法使用，連接至該伺服器的使用者將無法存取其 Persistent Chat Server。 連線遭中斷的使用者會自動被轉接到其餘伺服器，直到無法使用的伺服器還原為止。 根據網路上的持續性聊天流量數量，此傳輸可能需要數分鐘或更長的時間。 因為剩下的每一部伺服器都可能裝載為30000個使用者，所以建議您儘快還原無法使用的伺服器，以避免效能問題。 否則，您可以使用拓撲產生器或 Windows PowerShell Cmdlet，將另一部 Persistent 聊天伺服器設定為可用， **CsPersistentChatActiveServer**。
 
 </div>
 
@@ -108,17 +110,17 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 
 <div>
 
-## <a name="persistent-chat-server-capacity-planning"></a>常設聊天室伺服器容量規劃
+## <a name="persistent-chat-server-capacity-planning"></a>持久聊天伺服器容量規劃
 
-下表可協助您使用的容量規劃 Persistent Chat Server。 他們建立模型如何變更各種 Persistent Chat Server 設定會影響容量功能。
+下表可協助您使用 Persistent Chat Server 的容量規劃。 其模型變更各種持久聊天伺服器設定對容量功能的影響。
 
 <div>
 
-## <a name="planning-your-maximum-capacity-for-persistent-chat-server"></a>規劃常設聊天室伺服器的最大容量
+## <a name="planning-your-maximum-capacity-for-persistent-chat-server"></a>規劃 Persistent Chat Server 的最大容量
 
 使用下列範例表格，來判斷您可以支援的使用者數目。
 
-### <a name="persistent-chat-server-pool-maximum-capacity-sample"></a>Persistent Chat Server 集區最大容量範例
+### <a name="persistent-chat-server-pool-maximum-capacity-sample"></a>Persistent Chat Server 集區的最大容量範例
 
 <table>
 <colgroup>
@@ -127,19 +129,19 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>作用中的常設聊天室服務執行個體</p></td>
-<td><p><em>4</em></p></td>
+<td><p>主動 Persistent Chat service 實例</p></td>
+<td><p><em>dmx-4</em></p></td>
 </tr>
 <tr class="even">
-<td><p>常設聊天室服務執行個體</p></td>
-<td><p><em>8 （4 必須是不在作用中; 只有最大值為 4，可在作用中）</em></p></td>
+<td><p>Persistent Chat service 實例</p></td>
+<td><p><em>8 (4 必須是非使用中的;最多隻能使用4個作用中) </em></p></td>
 </tr>
 <tr class="odd">
-<td><p>作用中的使用者連線</p></td>
+<td><p>已連線的作用中使用者</p></td>
 <td><p><em>80000</em></p></td>
 </tr>
 <tr class="even">
-<td><p>已佈建的使用者總數</p></td>
+<td><p>布建使用者總數</p></td>
 <td><p>150000</p></td>
 </tr>
 <tr class="odd">
@@ -150,15 +152,15 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </table>
 
 
-在上述範例中，該計劃是要支援，Persistent Chat Server 可讓使用者的數目上限: （可以有四部執行 Persistent Chat Server 的高可用性和災害復原的多個被動伺服器） 的常設聊天室的服務和 20000 位使用者每個伺服器，80000 位作用中的使用者，總共四個伺服器/執行個體。
+在上述範例中，方案是支援 Persistent Chat Server 所允許的最大使用者數目：「持久聊天」服務 (四個伺服器/實例可以有四個以上的被動式伺服器執行 Persistent Chat Server，以進行高可用性) 和嚴重損壞復原，以及每一部伺服器的20000使用者，共80000個作用中的使用者。
 
 </div>
 
 <div>
 
-## <a name="capacity-planning-for-managing-persistent-chat-room-access"></a>管理常設聊天室存取的容量規劃
+## <a name="capacity-planning-for-managing-persistent-chat-room-access"></a>管理持續聊天室存取的容量規劃
 
-下列範例表格可協助您管理常設聊天室 Persistent Chat Server 集區中的聊天室存取的計劃。
+下列範例表可協助您規劃如何在 Persistent Chat Server 集區中管理持續性聊天室存取。
 
 ### <a name="managing-chat-room-access-sample"></a>聊天室存取管理範例
 
@@ -173,67 +175,67 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <thead>
 <tr class="header">
 <th></th>
-<th>小型聊天室數</th>
-<th>中型聊天室數</th>
-<th>大型聊天室數</th>
+<th>小型聊天室</th>
+<th>中型聊天室</th>
+<th>大聊天室</th>
 <th>總計</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>大小的聊天室 （已連線的使用者數目）</p></td>
-<td><p>每個聊天室 30</p></td>
-<td><p>每個聊天室 150</p></td>
-<td><p>每個聊天室 16000</p></td>
+<td><p>聊天室大小 (連接的使用者人數) </p></td>
+<td><p>每個會議室30個</p></td>
+<td><p>每個會議室150</p></td>
+<td><p>每個會議室16000</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>聊天室數</p></td>
 <td><p>32000</p></td>
-<td><p>1,067</p></td>
+<td><p>1067</p></td>
 <td><p>10 </p></td>
-<td><p>33,077</p></td>
+<td><p>33077</p></td>
 </tr>
 <tr class="odd">
-<td><p>%of 所視聽中心聊天室</p></td>
-<td><p>1%</p></td>
-<td><p>1%</p></td>
+<td><p>視聽中心的會議室%</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
 <td><p>50%</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>%的已開啟的聊天室</p></td>
-<td><p>3%</p></td>
-<td><p>3%</p></td>
+<td><p>開啟的會議室%</p></td>
+<td><p>個</p></td>
+<td><p>個</p></td>
 <td><p>50%</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>開啟的聊天室 （沒有明確的成員資格）</p></td>
+<td><p>開啟會議室 (沒有明確的成員資格) </p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
-<td><p>非開啟聊天室 （使用明確的成員資格的一般聊天室）</p></td>
-<td><p>31,040</p></td>
+<td><p>使用明確成員資格的非開啟聊天室 (一般會議室) </p></td>
+<td><p>31040</p></td>
 <td><p>1.035</p></td>
-<td><p>5</p></td>
-<td><p>32,080</p></td>
+<td><p>5 </p></td>
+<td><p>32080</p></td>
 </tr>
 <tr class="odd">
-<td><p>視聽中心聊天室 （其他簡報者項目）</p></td>
+<td><p>視聽中心聊天室 (其他簡報者專案) </p></td>
 <td><p>0</p></td>
 <td><p>32</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>直接成員資格所管理的聊天室</p></td>
+<td><p>由直接成員資格管理的聊天室</p></td>
 <td><p>50%</p></td>
-<td><p>10%</p></td>
-<td><p>0%</p></td>
+<td><p>十進位</p></td>
+<td><p>0</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -244,87 +246,87 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <td></td>
 </tr>
 <tr class="even">
-<td><p>開啟的聊天室 （未明確指定） 的每個聊天室的成員資格清單中的使用者群組</p></td>
+<td><p>開啟之聊天室之每個聊天室的成員資格清單中的使用者群組 (未明確指定) </p></td>
 <td><p>0</p></td>
 <td><p>0</p></td>
 <td><p>0</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>非開啟會議室的每個聊天室的成員資格清單中的使用者</p></td>
-<td><p>30</p></td>
+<td><p>非開啟會議室之每個聊天室成員資格清單中的使用者</p></td>
+<td><p>大約</p></td>
 <td><p>150</p></td>
 <td><p>16000</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>非開啟會議室的每個聊天室的成員資格清單中的使用者群組</p></td>
-<td><p>3</p></td>
-<td><p>5</p></td>
+<td><p>非開啟會議室之每個聊天室成員資格清單中的使用者群組</p></td>
+<td><p>個</p></td>
+<td><p>5 </p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>使用者與 （適用於開啟和非開啟的聊天室） 的每個聊天室的管理員清單中的使用者群組</p></td>
+<td><p>每個聊天室的管理員清單中的使用者與使用者群組 (開放和非開啟的會議室) </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>使用者和 （適用於開啟和非開啟會議室） 每個視聽中心聊天室的 [主持人] 清單中的使用者群組</p></td>
+<td><p>每個視聽中心聊天室的簡報者清單中的使用者與使用者群組 (開啟和非開啟的會議室) </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>使用者型成員資格實體數所有非開啟會議室</p></td>
-<td><p>465,600</p></td>
-<td><p>15,520</p></td>
+<td><p>跨所有非開啟聊天室的使用者型成員資格實體</p></td>
+<td><p>465600</p></td>
+<td><p>15520</p></td>
 <td><p>-</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>使用者群組型成員資格實體數所有非開啟會議室</p></td>
-<td><p>46,560</p></td>
+<td><p>跨所有非開啟會議室的使用者群組型成員資格實體</p></td>
+<td><p>46560</p></td>
 <td><p>4656</p></td>
 <td><p>50</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>使用者與使用者群組型實體之間所有視聽中心聊天室</p></td>
+<td><p>所有視聽中心聊天室中的使用者和使用者群組基礎實體</p></td>
 <td><p>0</p></td>
 <td><p>192</p></td>
 <td><p>50</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>使用者和使用者群組為主管理員實體的跨所有聊天室管理員清單</p></td>
-<td><p>192,000</p></td>
+<td><p>所有聊天室管理員清單中的使用者與使用者群組管理員實體</p></td>
+<td><p>192000</p></td>
 <td><p>6400</p></td>
 <td><p>60</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>每個聊天室的作用中使用者數</p></td>
-<td><p><em>30</em></p></td>
+<td><p><em>大約</em></p></td>
 <td><p><em>150</em></p></td>
 <td><p><em>16000</em></p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>每位使用者的聊天室數</p></td>
-<td><p><em>12</em></p></td>
+<td><p><em>英寸</em></p></td>
 <td><p><em>2</em></p></td>
 <td><p><em>2</em></p></td>
 <td><p><em>16</em></p></td>
 </tr>
 <tr class="odd">
 <td><p>每個聊天室之成員資格清單中的使用者群組數</p></td>
-<td><p><em>10</em></p></td>
-<td><p><em>10</em></p></td>
-<td><p><em>15</em></p></td>
+<td><p><em>十進位</em></p></td>
+<td><p><em>十進位</em></p></td>
+<td><p><em>8</em></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -336,16 +338,16 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="odd">
 <td><p>所有聊天室的使用者群組型成員資格實體數</p></td>
-<td><p>155,200</p></td>
+<td><p>155200</p></td>
 <td><p>5173</p></td>
 <td><p>68</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>所有聊天室的使用者型成員資格實體數</p></td>
-<td><p>465,600</p></td>
-<td><p>77,600</p></td>
-<td><p>72,000</p></td>
+<td><p>465600</p></td>
+<td><p>77600</p></td>
+<td><p>72000</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -356,33 +358,33 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <td></td>
 </tr>
 <tr class="even">
-<td><p>使用者與使用者群組，跨所有聊天室的管理員、 簡報者和範圍清單</p></td>
-<td><p>192,000</p></td>
+<td><p>所有聊天室的管理員、簡報者和範圍清單之間的使用者和使用者群組</p></td>
+<td><p>192000</p></td>
 <td><p>6400</p></td>
 <td><p>60</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>存取控制項目數</p></td>
-<td><p>704,160</p></td>
-<td><p>26,768</p></td>
+<td><p>704160</p></td>
+<td><p>26768</p></td>
 <td><p>160</p></td>
-<td><p>731,088</p></td>
+<td><p>731088</p></td>
 </tr>
 <tr class="even">
 <td><p>最大存取控制項目數</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>每 2000000 個</p></td>
+<td><p>2000000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-在上述範例中，當您部署的建議準則，根據常設聊天室伺服器時所能處理最多 80000 位作用中使用者之間有四部伺服器集區與已啟用的規範。
+在上述範例中，當您根據建議的指導方針來部署 Persistent Chat server 時，可在啟用規範的情況下，處理跨越四個伺服器集區的最多80000個活躍使用者。
 
-此範例會示範聊天室分類為 「 小 （30 作用中的使用者在任何指定時間），中型 （150 主動使用者），以及大型 （16000 活躍的使用者）。 特定大小聊天室的數目是依下列項目的總數計算而來：
+這個範例會顯示在任何指定時間) 、中型 (150 作用中使用者) 及大型 (16000 作用中使用者) ，歸類為小型 (30 作用中使用者的聊天室。 特定大小聊天室的數目是依下列項目的總數計算而來：
 
   - 系統中的作用中使用者
 
@@ -390,13 +392,13 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 
   - 單一使用者加入的特定大小聊天室
 
-針對每個聊天室，上述的容量規劃的表格會指定與聊天室，包括直接指派給該聊天室的項目相關聯的存取控制項目數目。 您可以使用存取控制清單 (ACL)，控制對個別聊天室的存取。 您也可以在類別層級控制存取。 在 ACL 中的個別存取控制項目可以是使用者群組 — 例如，[安全性] 群組、 通訊群組清單或單一使用者。 您可以定義聊天室管理員、簡報者和成員的存取控制項目。
+針對每個聊天室，先前的容量規劃表格會指定與聊天室相關聯的存取控制專案數目（包括直接指派給聊天室的專案）。 您可以使用存取控制清單 (ACL)，控制對個別聊天室的存取。 您也可以在類別層級控制存取。 在 ACL 中，個別的存取控制專案可以是使用者群組（例如，安全性群組、通訊群組清單或單一使用者）。 您可以定義聊天室管理員、簡報者和成員的存取控制項目。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 規劃策略管理聊天室，請記住，允許的存取控制項目總數是 2 百萬。 如果計算的存取控制項目超過 2 百萬個，伺服器的效能可能會大幅降低。 若要避免此問題，可能的話，請務必您存取控制項目會而不是個別使用者的使用者群組。
+> 在規劃管理聊天室的策略時，請記住允許的存取控制專案總數為2000000。 如果計算出的存取控制專案超過2000000，伺服器效能可能會大幅降低。 若要避免此問題，請盡可能確定您的存取控制專案是使用者群組，而非個別使用者。
 
 
 
@@ -408,15 +410,15 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 
 ## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a>邀請式聊天室存取的容量管理規劃
 
-您可以使用下列的容量規劃的表格以了解邀請 Persistent Chat Server 建立，並將儲存在常設聊天室資料庫時就會設成傳送邀請的數目。 使用 Lync Server 控制台] 中的**聊天室類別設定**] 頁面上或使用 Windows PowerShell cmdlet，**設定 csPersistentChatCategory**，您可以管理類別上的邀請。 使用 Lync 用戶端上，從啟動 「**聊天室管理**」 頁面或使用 Windows PowerShell cmdlet，**設定 csPersistentChatRoom**，您可以管理聊天室時亦可 （內嵌類別的讓） 上的邀請。
+您可以使用下列容量規劃表格來瞭解 Persistent Chat Server 在設定成傳送邀請時，在 Persistent Chat 資料庫中建立及儲存的邀請數目。 您可以使用 Lync Server 控制台中的 **聊天室類別設定** 頁面或使用 Windows PowerShell Cmdlet **CsPersistentChatCategory**，管理類別上的邀請。 您可以使用 Lync 用戶端（或使用 Windows PowerShell Cmdlet）從 Lync 用戶端（ **clear-cspersistentchatroom**）中所) 提供的「**會議室管理**」頁面來管理聊天室上的邀請函 (線上。
 
-下表中的範例資料假設，在所有聊天室的 50%的**聊天室設定**] 頁面上，[**邀請**] 選項設為 **[是]**。
+下表中的範例資料假設，在 [ **聊天室設定** ] 頁面上的50% 的所有聊天室中，[ **邀請** ] 選項會設定為 **[是]**。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果伺服器所產生的邀請數的計算的值超過 1 千萬個，伺服器的效能可能會大幅降低。 若要避免此問題，請務必您最小化設定為傳送邀請] 或 [限制可以加入已設成傳送邀請的聊天室的使用者數目的聊天室數。
+> 如果伺服器所產生之邀請數目的計算值超過1000000，伺服器效能可能會大幅降低。 若要避免此問題，請確定您將設定為傳送邀請的聊天室數目降至最低，或限制可加入已設定為傳送邀請之聊天室的使用者人數。
 
 
 
@@ -435,22 +437,22 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <thead>
 <tr class="header">
 <th></th>
-<th>小型聊天室數</th>
-<th>中型聊天室數</th>
-<th>大型聊天室數</th>
+<th>小型聊天室</th>
+<th>中型聊天室</th>
+<th>大聊天室</th>
 <th>總計</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>使用者可以存取聊天室</p></td>
-<td><p>每個聊天室 30</p></td>
-<td><p>每個聊天室 150</p></td>
-<td><p>每個聊天室 16000</p></td>
+<td><p>可以存取聊天室的使用者</p></td>
+<td><p>每個會議室30個</p></td>
+<td><p>每個會議室150</p></td>
+<td><p>每個會議室16000</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>具有邀請的聊天室的百分比</p></td>
+<td><p>具有邀請的會議室百分比</p></td>
 <td><p>50%</p></td>
 <td><p>50%</p></td>
 <td><p>50%</p></td>
@@ -460,7 +462,7 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <td><p>設成傳送邀請的聊天室數</p></td>
 <td><p><em>16000</em></p></td>
 <td><p><em>533</em></p></td>
-<td><p><em>5</em></p></td>
+<td><p><em>位</em></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -471,63 +473,63 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Persistent Chat Server 所產生的邀請</p></td>
-<td><p>960,000</p></td>
+<td><p>Persistent Chat Server 產生的邀請</p></td>
+<td><p>960000</p></td>
 <td><p>120000</p></td>
 <td><p>80000</p></td>
-<td><p>1,160,000</p></td>
+<td><p>1160000</p></td>
 </tr>
 <tr class="even">
 <td><p>最大允許的邀請數</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>每 2000000 個</p></td>
+<td><p>2000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>模型 1-預期的每個聊天室每日的郵件數目的開頭</p></td>
+<td><p>模型 1-以預期的每天每個會議室的郵件數目為起始單位</p></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>速率每個聊天室 （每日）</p></td>
+<td><p>每個會議室 (每日聊天速度) </p></td>
 <td><p>50</p></td>
 <td><p>500</p></td>
 <td><p>100</p></td>
 <td><p>650</p></td>
 </tr>
 <tr class="odd">
-<td><p>跨所有聊天室的聊天速率 （每秒）</p></td>
+<td><p>所有會議室每秒 (的交談率) </p></td>
 <td><p>55.56</p></td>
 <td><p>18.52</p></td>
 <td><p>0.03</p></td>
 <td><p>74</p></td>
 </tr>
 <tr class="even">
-<td><p>模型 2-開頭的每位使用者每天張貼的訊息數目</p></td>
+<td><p>模型 2-從每位使用者每天發佈的郵件數目開始</p></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>每位使用者每天的聊天速率</p></td>
+<td><p>每天每位使用者的聊天室速度</p></td>
 <td><p>15 </p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>0.1</p></td>
-<td><p>20</p></td>
+<td><p>共</p></td>
 </tr>
 <tr class="even">
-<td><p>每個 （每日） 的聊天室的聊天速率</p></td>
+<td><p>每個會議室 (每日聊天速度) </p></td>
 <td><p>38</p></td>
 <td><p>375</p></td>
 <td><p>800</p></td>
-<td><p>1,213</p></td>
+<td><p>1213</p></td>
 </tr>
 <tr class="odd">
-<td><p>跨所有聊天室的聊天速率 （每秒）</p></td>
+<td><p>所有會議室每秒 (的交談率) </p></td>
 <td><p>41.67</p></td>
 <td><p>13.89</p></td>
 <td><p>0.28</p></td>
@@ -541,11 +543,11 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 
 <div>
 
-## <a name="persistent-chat-server-performance-user-model"></a>常設聊天室伺服器效能使用者模型
+## <a name="persistent-chat-server-performance-user-model"></a>Persistent Chat Server 效能使用者模型
 
-下表說明 for Persistent Chat Server 的使用者模型。 它提供的容量規劃需求之基礎，代表含有四部伺服器上的 80000 位並行使用者的典型組織。
+下表說明 Persistent Chat Server 的使用者模型。 它會提供容量規劃需求的基礎，並代表四部伺服器上具有80000並行使用者的一般組織。
 
-### <a name="persistent-chat-server-performance-user-model"></a>常設聊天室伺服器效能使用者模型
+### <a name="persistent-chat-server-performance-user-model"></a>Persistent Chat Server 效能使用者模型
 
 <table>
 <colgroup>
@@ -554,12 +556,12 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>連線的作用中使用者數</p></td>
+<td><p>連接的使用中使用者數目</p></td>
 <td><p>80000</p></td>
 </tr>
 <tr class="even">
-<td><p>Persistent Chat Server 服務執行個體數</p></td>
-<td><p>4</p></td>
+<td><p>Persistent Chat Server 服務實例數目</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>小型聊天室大小</p></td>
@@ -571,11 +573,11 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="odd">
 <td><p>大型聊天室大小</p></td>
-<td><p>16000 名使用者</p></td>
+<td><p>16000使用者</p></td>
 </tr>
 <tr class="even">
 <td><p>聊天室總數</p></td>
-<td><p>33,077</p></td>
+<td><p>33077</p></td>
 </tr>
 <tr class="odd">
 <td><p>小型聊天室數</p></td>
@@ -583,7 +585,7 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="even">
 <td><p>中型聊天室數</p></td>
-<td><p>1,067</p></td>
+<td><p>1067</p></td>
 </tr>
 <tr class="odd">
 <td><p>大型聊天室數</p></td>
@@ -595,18 +597,18 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="odd">
 <td><p>每位使用者的小型聊天室數</p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 </tr>
 <tr class="even">
 <td><p>每位使用者的中型聊天室數</p></td>
-<td><p>2</p></td>
+<td><p>第</p></td>
 </tr>
 <tr class="odd">
 <td><p>每位使用者的大型聊天室數</p></td>
-<td><p>2</p></td>
+<td><p>第</p></td>
 </tr>
 <tr class="even">
-<td><p>每個使用者加入的聊天室數</p></td>
+<td><p>每位使用者加入的會議室數目</p></td>
 <td><p>24</p></td>
 </tr>
 <tr class="odd">
@@ -627,7 +629,7 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="odd">
 <td><p>大型聊天室的聊天速率</p></td>
-<td><p>~0.15/second</p></td>
+<td><p>大約 0.15/秒</p></td>
 </tr>
 <tr class="even">
 <td><p>設成傳送邀請的聊天室百分比</p></td>
@@ -642,7 +644,7 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <td><p>50%</p></td>
 </tr>
 <tr class="odd">
-<td><p>在 Active Directory 網域服務中的上階聯盟的平均數目</p></td>
+<td><p>Active Directory 網域服務中的平均祖先隸屬關係數目</p></td>
 <td><p>100 - 200</p></td>
 </tr>
 <tr class="even">
@@ -650,20 +652,20 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <td><p>80</p></td>
 </tr>
 <tr class="odd">
-<td><p>平均每位使用者的端點數目</p></td>
+<td><p>每位使用者的平均端點數目</p></td>
 <td><p>1.5</p></td>
 </tr>
 <tr class="even">
-<td><p>每個端點的可見聊天室的平均數目</p></td>
+<td><p>每個端點的可見聊天室平均數目</p></td>
 <td><p>1.5</p></td>
 </tr>
 <tr class="odd">
-<td><p>平均每位使用者的可見聊天室數</p></td>
-<td><p>2.25 （50 %1 的會議室而 50%為 2 的聊天室）;最多 6 個聊天室開啟時，監視每一個</p></td>
+<td><p>每位使用者的可見聊天室平均數目</p></td>
+<td><p>2.25 (50% 的1個會議室和50% 的2個會議室) ;開啟6個會議室，每個監視器一個</p></td>
 </tr>
 <tr class="even">
 <td><p>每段間隔輪詢的參與者數</p></td>
-<td><p>每個可見聊天室 25</p></td>
+<td><p>每個可見聊天室25個</p></td>
 </tr>
 <tr class="odd">
 <td><p>輪詢間隔的長度</p></td>

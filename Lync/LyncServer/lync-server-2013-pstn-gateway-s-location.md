@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: PSTN 閘道的位置'
+title: Lync Server 2013： PSTN 閘道的位置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803940
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 505f3c35abb9e2af2c9510b1b4b30a638b6137e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29898244dc0e54da2586d0a58212148c493b96db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215209"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512440"
 ---
+# <a name="pstn-gateways-location-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 閘道位置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateways-location-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 閘道的位置
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42215209"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-09_
+_**主題上次修改日期：** 2013-03-09_
 
-透過 PSTN 閘道的通話路由傳送，且 Pbx 可能需要根據這類系統的位置的位置型路由限制。 在每個主幹為基礎的資料粒度，可以啟用位置型的路由。
+透過 PSTN 閘道路由傳送的來電和 PBXs 可能需要 Location-Based 路由限制，視這類系統的位置而定。 您可以在每個主幹基礎上啟用 Location-Based 路由的細微性。
 
-位置型路由引進下列一組規則在主幹上啟用時：
+當主幹上啟用時，Location-Based 路由會引進下列一組規則：
 
-  - 每個主幹根據啟用位置型路由時，規則會定義上的主幹將只會套用至來電路由傳送到該主幹。
+  - 以每個主幹為基礎啟用 Location-Based 路由時，在該主幹上定義的規則只會套用到透過該主幹路由傳送的來電。
 
-  - 若要防止 PSTN tolls 略過其中呼叫源自網路網站不同的 PSTN 閘道的所在位置的網路網站，位置型路由會介紹指定主幹網路網站的關聯。 這是定義網路網站，可讓呼叫路由傳送至指定的主幹。
+  - 若要防止 PSTN 電話費旁路，其中的呼叫來自 PSTN 閘道所在的網路網站不同的網站，Location-Based 路由會引入網路網站與指定主幹的關聯。 這會定義允許通話路由傳送至指定主幹的網路網站。
 
-主幹可以啟用位置型的路由，以兩種方式：
+您可以透過兩種方式，為 Location-Based 路由啟用主幹：
 
-  - 主幹被定義 PSTN 閘道 egresses 撥打至 PSTN。 這種類型的主幹路由傳送來電會路由傳送僅至位於相同網路站台為主幹的端點。
+  - 骨幹關是針對 egresses 對 PSTN 進行呼叫的 PSTN 閘道所定義。 以這種類型的主幹路由傳送的來電，只會路由傳送到與主幹位於相同網路網站內的端點。
 
-  - 主幹被定義中繼伺服器對等不會輸出通話的 PSTN 和服務的使用者與舊版電話靜態位置 （亦即 PBX 電話）。 此特定的組態，這種類型的主幹路由傳送所有來電會被都視為至源自於相同的網路站主幹。 PBX 使用者的來電將會有相同的位置型路由強制執行為 Lync 使用者都位於相同網路站台為主幹。 如果兩個位於不同的網路站台的 PBX 系統連線到 Lync Server，位置型路由會允許從一個網路站台中的一個 PBX 端點路由傳送至其他網路站台中的另一個 PBX 端點。 此案例不會遭到位置型的路由。 除了此案例中，為 Lync 使用者在相同位置以類似方式連線至與此組態的中繼伺服器對等的端點將能夠撥打或接聽電話到及傳送自其他中繼伺服器對等網路，請勿不將通話路由傳送至 PSTN (i。e.端點連接至不同的 PBX) 不論要將中繼伺服器對等網路相關聯的網站。 所有撥入的通話，撥出通話，通話轉接和通話的轉寄涉及 PSTN 端點會受到位置型路由傳送至使用這類中繼伺服器對等的本機定義的 PSTN 閘道。
+  - 主幹的定義是針對不會向 PSTN 和服務使用者提供靜態位置之舊版電話的轉送伺服器對等 (，例如 PBX 電話) 。 針對此特殊設定，所有由這種類型的主幹路由傳送的來電都會被視為與主幹產生來自相同的網路網站。 從 PBX 使用者撥打的 Location-Based 路由執行方式，會與與主幹位於相同網路網站的 Lync 使用者相同。 如果位於不同網路網站的兩個 PBX 系統是透過 Lync Server 連線，Location-Based 路由將允許從一個網路網站的一個 PBX 端點路由傳送到另一個網路網站中的另一個 PBX 端點。 Location-Based 路由將不會封鎖此案例。 除了這種情況，以及以相同位置的 Lync 使用者類似的方式，連接至具有此設定之轉送伺服器的端點，也可以撥打或接聽其他轉送伺服器對等的來電，而不是將通話路由傳送至 PSTN (亦即，不論轉送伺服器對等項的網路網站為何，都連接至不同 PBX 的端點) 。 涉及 PSTN 端點的所有撥入通話、撥出電話、來電轉接及來電，都要視位置為基礎，僅使用定義為本機至此類轉送伺服器對等的 PSTN 閘道。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[依位置路由 Lync Server 2013 中的指引](lync-server-2013-guidance-for-location-based-routing.md)  
+[在 Lync Server 2013 中 Location-Based 路由的指導方針](lync-server-2013-guidance-for-location-based-routing.md)  
   
 
 </div>

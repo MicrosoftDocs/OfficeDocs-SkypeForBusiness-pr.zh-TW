@@ -1,5 +1,5 @@
 ---
-title: 使用反向 proxy 伺服器發行的 Office Web Apps Server
+title: 使用反向 proxy 伺服器發佈 Office Web Apps Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a2bc53d306b51bd6aa681ccb4aa6747f38eac7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb200204cc96d40d66d0546c86687fb0e1c48de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201682"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512230"
 ---
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>使用反向 proxy 伺服器在 Lync Server 2013 中發佈 Office Web Apps Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>使用反向 proxy 伺服器的 Lync Server 2013 中發佈 Office Web Apps Server
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42201682"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-25_
+_**主題上次修改日期：** 2013-02-25_
 
-如果要讓外部使用者 (亦即，從組織防火牆外部登入的使用者) 能夠存取 Office Web Apps Server PowerPoint 簡報，您需要使用 Office Web Apps Server 及反向 Proxy 伺服器，例如 Microsoft Forefront Threat Management Gateway。 這也表示您將需要建立和設定網站發行規則;該規則可協助確保使用者能夠連線至伺服器。 如果您不需要提供存取權給外部使用者，則不需要設定網站發行規則。
+如果要讓外部使用者 (亦即，從組織防火牆外部登入的使用者) 能夠存取 Office Web Apps Server PowerPoint 簡報，您需要使用 Office Web Apps Server 及反向 Proxy 伺服器，例如 Microsoft Forefront Threat Management Gateway。 這也表示您將需要建立及設定網站發行規則;該規則會協助確保使用者能夠連接到伺服器。 如果您不需要提供存取權給外部使用者，則不需要設定網站發行規則。
 
 若要在 Forefront Threat Management Gateway 中設定網站發行規則，請完成下列程序：
 
@@ -55,9 +57,9 @@ _**上次修改主題：** 2013年-02-25_
 
 7.  在「內部發行詳細資料」**** 頁面上的 [內部網站名稱]**** 方塊中，輸入 Office Web Apps 伺服器的 FQDN (例如，**officewebapps01.contoso.com**)，然後按 [下一步]****。在 [內部網站名稱]**** 方塊中輸入的名稱，必須出現在您指派給 Office Web Apps Server 之憑證的 [主體] 欄位或 [主體替代名稱] 欄位中。
 
-8.  在 [**內部發行詳細資料**] 頁面上，輸入**/****路徑 （選用）** 在] 方塊中，然後按一下 [**下一步**。 /\*語法可協助確保所發行的所有資料夾與子網站。
+8.  在 [ **內部發行詳細資料** ] 頁面上，輸入 **/\*** ** (選用) ** ] 方塊中的路徑，然後按 **[下一步]**。 / \* 語法會協助確保發佈網站的所有資料夾與子資料夾。
 
-9.  在「公用名稱詳細資料」**** 頁面上，從 [為右列接受要求]**** 下拉式清單中選取 [這個網域名稱 (在下方鍵入)]****，然後在 [公用名稱] 方塊中輸入 Office Web Apps Server 的完整名稱。 此名稱應該是用來存取網站的名稱。 例如，如果您的網站會存取使用 URLhttp://officewebapps01.contoso.com接著您應該在 [**公用名稱**] 方塊中輸入**officewebapps01.contoso.com** 。
+9.  在「公用名稱詳細資料」**** 頁面上，從 [為右列接受要求]**** 下拉式清單中選取 [這個網域名稱 (在下方鍵入)]****，然後在 [公用名稱] 方塊中輸入 Office Web Apps Server 的完整名稱。 此名稱應該是用來存取網站的名稱。 例如，如果您的網站是使用 URL 來存取，則 http://officewebapps01.contoso.com 您應該在 [**公用名稱**] 方塊中輸入**officewebapps01.contoso.com** 。
 
 10. 按 [下一步]****。
 
@@ -91,7 +93,7 @@ _**上次修改主題：** 2013年-02-25_
 
 請注意，按一下 [完成]**** 並不表示您已完成程序；也就是說，這並不會自動套用或及啟用新規則。您必須按一下出現在 Forefront TMG 使用者介面中的 [套用]**** 按鈕。當您按一下 [套用]**** 時，會出現 [設定變更說明]**** 對話方塊。按一下該對話方塊中的 [套用]****，以啟用新的發行規則。
 
-在套用您的新規則之後，然後您必須進行一些次要修改的規則，以確保使用者可以使用新的 PowerPoint 簡報功能。 若要執行這項作業，請完成下列程序：
+套用您的新規則之後，您將需要對規則進行一些次要修改，以確保使用者可以使用新的 PowerPoint 簡報功能。 若要執行這項作業，請完成下列程序：
 
 1.  在 Forefront TMG 中，以滑鼠右鍵按一下新發行規則的名稱，然後按一下 [內容]****。
 
@@ -105,7 +107,7 @@ _**上次修改主題：** 2013年-02-25_
 
 6.  在 Forefront TMG 中，按一下 [套用]****，以啟用變更。[設定變更說明]**** 對話方塊出現時，按一下 [套用]****。
 
-完成安裝之後，您可以測試您使用[驗證的 Lync Server 2013 中的 Office Web Apps Server 設定](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md)主題中的程序的 Office Web Apps Server。
+完成安裝之後，您可以使用在 [Lync Server 2013 中驗證 Office Web Apps server](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md)的主題中的程式，測試您的 Office Web apps server。
 
 </div>
 

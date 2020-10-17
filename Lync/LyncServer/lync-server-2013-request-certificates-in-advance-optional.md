@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 預先要求憑證 （選用）
+title: 'Lync Server 2013：事先要求憑證 (選用) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184915
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 691efbbc1adad91ce63cfa0bca5fba6f11b5aea2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d7e671fe61f5d8b9e43593bf99e0ecf0e1e37109
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183129"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511960"
 ---
+# <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a>在 Lync Server 2013 的預先 (選用) 中預先要求憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a>針對 Lync Server 2013 （選用） 的預先要求憑證
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42183129"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
-憑證所需的所有執行 Lync Server 2013，包括每個 Enterprise Edition 前端伺服器、 Standard Edition server、 Director、 Edge Server 和獨立中繼伺服器的內部伺服器。 雖然建議內部伺服器使用內部企業憑證授權單位 (CA)，但您也可以使用公用 CA。 憑證需求，以及使用公用 CA 的詳細資訊，請參閱規劃文件中的[Lync Server 2013 中的內部伺服器的憑證需求](lync-server-2013-certificate-requirements-for-internal-servers.md)。
+所有執行 Lync Server 2013 的內部伺服器都必須有憑證，包含每個 Enterprise Edition 前端伺服器、Standard Edition Server、Director、Edge Server 和獨立轉送伺服器。 雖然建議內部伺服器使用內部企業憑證授權單位 (CA)，但您也可以使用公用 CA。 如需憑證需求的詳細資訊，以及使用公用 CA，請參閱規劃檔中的 [Lync Server 2013 內部伺服器的憑證需求](lync-server-2013-certificate-requirements-for-internal-servers.md) 。
 
-Lync Server 2013 安裝程式包含 [憑證] 精靈，以方便您的要求、 指派和憑證安裝在部署期間的工作。 如果您想要要求之前安裝伺服器憑證 (例如，以節省時間期間實際部署的伺服器)，您可以這麼做所使用的電腦上安裝 Lync Server 2013 系統管理工具或使用的憑證要求只要您確定有可匯出的憑證，且包含所有必要的主體替代名稱，組織中定義程序。 預先要求憑證是選擇性的。 如果您不要求他們前，您必須要求他們需要憑證的每部伺服器的安裝過程。
+Lync Server 2013 安裝套裝程式含憑證嚮導，可協助在部署期間要求、指派及安裝憑證的工作。 如果您想要在安裝伺服器之前要求憑證 (例如，若要在實際部署伺服器期間節省時間) ，您可以使用已安裝 Lync Server 2013 系統管理工具的電腦或組織中所定義的憑證要求程式，來做到這一點，只要您確定憑證是可匯出的，且包含所有必要的主體替代名稱。 事先要求憑證是選用的。 如果您未預先要求，您必須在需要憑證的每一部伺服器安裝時，要求他們。
 
-此部署 > 文件提供的安裝過程中，使用 [憑證] 精靈來要求憑證，[設定憑證的伺服器中的 Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md)、 [Lync Server 2013 中 director 設定憑證](lync-server-2013-configure-certificates-for-the-director.md)] 和[安裝 Lync Server 2013 中的中繼伺服器的檔案](lync-server-2013-install-the-files-for-mediation-server.md)區段的此部署 > 文件中所述的程序。 如果您在預先要求憑證時，您必須修改要匯入和指派的憑證，而不是要求他們在部署的時間，視這些章節中的憑證部署程序。
+此部署檔提供使用憑證嚮導要求憑證的程式，做為安裝程式的一部分，如在 [lync server 2013 中設定伺服器的憑證](lync-server-2013-configure-certificates-for-servers.md)中所述，在 [lync server 2013 中設定 Director 的憑證](lync-server-2013-configure-certificates-for-the-director.md)，並在此部署檔的 [Lync server 2013 區段中安裝轉送伺服器的](lync-server-2013-install-the-files-for-mediation-server.md) 檔案。 如果您事先要求憑證，則必須在這些區段中修改憑證部署程式，視需要將憑證匯入與指派，而不是在部署時要求。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 包含支援從執行 Windows Vista、 Windows Server 的用戶端連線的 sha-256 憑證&nbsp;2008、 Windows Server&nbsp;2008年&nbsp;R2 和 Windows 7 作業系統，以及 Lync Phone Edition。 為了支援使用 SHA-256 的外部存取，外部憑證由公用 CA 使用 SHA-256 發行。
+> Lync Server 2013 支援 SHA-256 憑證，以用於來自執行 Windows Vista、Windows Server &nbsp; 2008、Windows server &nbsp; 2008 &nbsp; R2 和 Windows 7 作業系統，以及 Lync Phone Edition 之用戶端的連線。 為了支援使用 SHA-256 的外部存取，外部憑證由公用 CA 使用 SHA-256 發行。
 
 
 

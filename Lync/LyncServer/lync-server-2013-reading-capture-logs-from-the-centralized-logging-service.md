@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 讀取擷取記錄從集中式記錄服務
+title: Lync Server 2013：從集中式記錄服務讀取捕獲記錄檔
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0807552784b69b58accfd026031af55d41c91f33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1058f48ede85067ac0aeefc3c8dab329bf042ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512030"
 ---
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中讀取集中式記錄服務的捕獲記錄檔
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>讀取 the Centralized Logging Service Lync Server 2013 中擷取記錄
+
 
 </div>
 
@@ -35,76 +37,76 @@ ms.locfileid: "42201529"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016年-12 月 28 日_
+_**主題上次修改日期：** 2016-12-28_
 
-執行搜尋，並可讓您可用於追蹤報告問題的檔案之後，您會發現 the Centralized Logging Service 的好處。 有多種方式，您可以讀取檔案。 輸出檔案會以標準文字格式，您可以使用 Notepad.exe 或任何其他的程式，可讓您能夠開啟和讀取的文字檔案。 較大的檔案，且更複雜的問題，您可以使用這類 Snooper.exe 是設計用來讀取並剖析從集中式記錄服務的記錄輸出的工具。 包含與 Lync Server 2013 偵錯工具可供個別下載 snooper。 您可以下載 Lync Server 2013 偵錯工具這裡： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)。 當您安裝 Lync Server 2013 偵錯工具時，簡短剪下和功能表項目不會建立。 安裝 Lync Server 2013 偵錯工具之後，開啟 [Windows 檔案總管、 命令列視窗或 Lync Server 管理命令介面，並移至目錄 （預設位置） c:\\Program Files\\Microsoft Lync Server 2013\\偵錯工具。 連按兩下 [Snooper.exe 或輸入 Snooper.exe，，然後按 ENTER 鍵，如果您使用的命令列或 Lync Server 管理命令介面。
+在您執行搜尋後，您就可以充分利用集中式記錄服務，您可以用來追蹤已報告問題的檔案。 您可以使用許多方式來讀取檔案。 輸出檔是標準的文字格式，您可以使用 Notepad.exe 或任何其他可讓您開啟及讀取文字檔的程式。 針對較大的檔案和更複雜的問題，您可以使用類似 Snooper.exe 的工具，以用於讀取及分析集中式記錄服務的記錄輸出。 Snooper 隨附的 Lync Server 2013 調試工具，可做為個別下載。 您可以在以下位置下載 Lync Server 2013 調試工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) 。 當您安裝 Lync Server 2013 調試工具時，不會建立簡短的剪下及功能表項目目。 安裝 Lync Server 2013 調試工具後，請開啟 Windows Explorer、命令列視窗或 Lync Server 管理命令介面，然後移至目錄 (預設位置) C： \\ Program Files \\ Microsoft Lync Server 2013 \\ 調試工具。 在 [Snooper.exe] 或 [輸入 Snooper.exe] 中按兩下，如果使用命令列或 Lync Server 管理命令介面，請按 ENTER 鍵。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 本主題的目的並不是詳細資料，並討論疑難排解技巧。 疑難排解和其周圍的處理程序是複雜的主旨。 如需疑難排解基礎和疑難排解特定工作負載的詳細資訊，請參閱 Microsoft Lync Server 2010 Resource Kit 活頁簿在<A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>。 與程序仍然適用於 Lync Server 2013。
+> 本主題的目的不是詳細討論和討論疑難排解技術。 疑難排解及其周圍的程式是複雜的主體。 如需疑難排解基本及疑難排解特定工作負載的詳細資訊，請參閱《 Microsoft Lync Server 2010 Resource 工具組手冊》 <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A> 。 處理常式和程式仍適用于 Lync Server 2013。
 
 
 
 </div>
 
-Lync Server 2013 引進了 Snooper 包含一些新功能更新的版本。 下列螢幕擷取畫面顯示從 Office Communications Server 2007 的新版 Snooper。
+Lync Server 2013 引進 Snooper 的更新版本，包含一些新功能。 下列螢幕擷取畫面顯示 Office 通訊伺服器2007的 Snooper 版本。
 
-![Office Communications 2007 版本 Snooper。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 版本 Snooper。")
+![Office 通訊2007版本的 Snooper。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office 通訊2007版本的 Snooper。")
 
-下列螢幕擷取畫面顯示的新版 Snooper 包含在 Lync Server 2013 偵錯工具。
+下列螢幕擷取畫面顯示 Lync Server 2013 調試工具中所包含的新 Snooper 版本。
 
 ![Lync Server 2013 版本的 Snooper。](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 版本的 Snooper。")
 
-下列螢幕擷取畫面顯示含有常用功能的工具列。
+下列螢幕擷取畫面顯示工具列使用常用的功能。
 
 ![Snooper 2013 工具列。](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 工具列。")
 
-並將值加入的最新功能是 [流程圖 （通話流程） 圖] 檢視。 您選取 [**郵件**] 索引標籤中的郵件流程，然後按一下 [**通話流程**] 按鈕。 當您繼續透過訊息、 通話流程圖表更新新的資料。
+而且，新增值的最新功能是流程圖表 (的通話流程) 圖表] 視圖。 您可以選取 [ **郵件** ] 索引標籤中的郵件流程，然後按一下 [ **通話流程** ] 按鈕。 當您繼續進行郵件時，通話流程圖表會以新的資料進行更新。
 
 ![Snooper 2013 通話流程圖表。](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 通話流程圖表。")
 
-您可以將滑鼠停留圖] 檢視，並取得有關郵件與內容設計的流量和郵件，以及伺服器元素的詳細資訊。 按一下 [上移至 [郵件] 檢視中的訊息，任何通話流程箭號。
+您可以將游標移到圖表視圖上方，並取得流程和郵件以及伺服器元素的訊息和內容的詳細資料。 按一下任何呼叫流程箭號，以移至郵件視圖中的郵件。
 
-![呼叫流程圖訊息詳細資料。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "呼叫流程圖訊息詳細資料。")
+![通話流程圖表郵件詳細資料。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "通話流程圖表郵件詳細資料。")
 
 <div>
 
 ## <a name="to-open-a-log-file-in-snooper"></a>若要在 Snooper 中開啟記錄檔
 
-1.  若要使用 Snooper 並開啟記錄檔，您需要的記錄檔的讀取權限。 使用 Snooper 及存取記錄檔中，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組或包含這兩個群組的自訂 RBAC 角色的成員。
+1.  若要使用 Snooper 及開啟記錄檔，您需要有記錄檔的讀取權。 若要使用 Snooper 和存取記錄檔，您必須是 CsAdministrator 的成員或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組，或是包含這兩個群組的自訂 RBAC 角色。
 
-2.  安裝後的 Lync Server 偵錯工具 (LyncDebugTools.msi)，將目錄變更為使用 Windows 檔案總管的 Snooper.exe 或從命令列的位置。 根據預設，偵錯工具都位於 c:\\Program Files\\Microsoft Lync Server 2013\\偵錯工具。 連按兩下 [或執行 Snooper.exe。
+2.  安裝 Lync Server 調試工具 ( # A0) 後，請使用 Windows Explorer 或命令列變更目錄至 Snooper.exe 的位置。 根據預設，調試工具位於 C： \\ Program Files \\ Microsoft Lync Server 2013 \\ 調試工具中。 按兩下或執行 Snooper.exe。
 
-3.  開啟 Snooper 後，**檔案**上按一下滑鼠右鍵按一下**OpenFile**、 尋找記錄檔、 中**開啟**] 對話方塊中，選取檔案，然後按一下 [**開啟**。
+3.  開啟 Snooper 後，以滑鼠 **按右鍵 [檔案]，按一下**[ **OpenFile**]，尋找您的記錄檔，選取 [ **開啟** ] 對話方塊中的檔案，然後按一下 [ **開啟**]。
 
-4.  記錄檔的**追蹤**訊息會顯示在**追蹤**] 索引標籤按一下 [**郵件**] 索引標籤，若要檢視的收集的追蹤訊息內容。
+4.  記錄檔的 **追蹤** 訊息會顯示在 [ **追蹤** ] 索引標籤上。按一下 [ **訊息** ] 索引標籤，以查看收集之追蹤的郵件內容。
 
 </div>
 
 <div>
 
-## <a name="to-display-a-call-flow-diagram"></a>若要顯示通話流程圖
+## <a name="to-display-a-call-flow-diagram"></a>顯示通話流程圖表
 
-1.  若要使用 Snooper 並開啟記錄檔，您需要的記錄檔的讀取權限。 若要使用 Snooper 及存取記錄檔，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組或包含這兩個群組的自訂 RBAC 角色的成員。
+1.  若要使用 Snooper 及開啟記錄檔，您需要有記錄檔的讀取權。 若要使用 Snooper 並存取記錄檔，您必須是 CsAdministrator 的成員或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組，或是包含這兩個群組的自訂 RBAC 角色。
 
-2.  開啟記錄檔並按一下 [**郵件**] 索引標籤、 [郵件] 檢視中選取交談或選取追蹤元件**追蹤**] 索引標籤上。
+2.  開啟記錄檔，然後按一下 [ **訊息** ] 索引標籤，在 [ **追蹤** ] 索引標籤上選取 [交談]，或選取一個追蹤元件。
 
-3.  按一下 [**通話流程**。
+3.  按一下 [ **通話流程**]。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果您按一下郵件或不屬於通話流程的追蹤，將不會顯示圖表及狀態郵件會出現在底部 Snooper 說明 「 此郵件不合格的 callfow 」。 選擇其他訊息或追蹤，如果訊息或追蹤是呼叫流程的一部分，呼叫流程將會出現。
+    > 如果您按一下的訊息或追蹤不是通話流程的一部分，將不會顯示圖表，而且會在 Snooper 的底部顯示狀態訊息，指出「這封郵件不符合 callfow」。 選擇 [另一封郵件] 或 [追蹤]，如果郵件或追蹤屬於通話流程的一部分，就會顯示通話流程。
 
     
     </div>
 
-4.  透過訊息或追蹤行之間移動，並注意通話流程圖表是否更新或變成顯示新的圖表。
+4.  在訊息或追蹤列間移動，並附注通話流程圖表是否更新或變更，以顯示新的圖表。
 
-5.  將滑鼠停留元素，以取得關於通話訊息、 端點及其他元件的資訊。
+5.  將游標移到元素上，以取得通話訊息、端點及其他元件的相關資訊。
 
 </div>
 

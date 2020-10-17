@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 裝載的 Exchange UM 架構和路由
+title: Lync Server 2013：主控 Exchange UM 架構和路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c38b1b54c2641eb300ea75e0b99985ccbee4de8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28bb0057b563d3aeb465260b696251fd92922b8a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198706"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512590"
 ---
+# <a name="hosted-exchange-um-architecture-and-routing-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange UM 架構和路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-architecture-and-routing-in-lync-server-2013"></a>主控 Exchange UM 架構和 Lync Server 2013 中的路由
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42198706"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-03-26_
+_**主題上次修改日期：** 2012-03-26_
 
 本節將概要說明內部部署和裝載 Exchange UM 整合的架構，包括支援的模式、共用的 SIP 空間和路由考量。
 
@@ -43,9 +45,9 @@ _**主題上次修改日期：** 2012年-03-26_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [主控的 Exchange UM 整合架構在 Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md)
+  - [Lync Server 2013 中的主控 Exchange UM 整合架構](lync-server-2013-hosted-exchange-um-integration-architecture.md)
 
-  - [主控 Exchange UM 路由在 Lync Server 2013](lync-server-2013-hosted-exchange-um-routing.md)
+  - [Lync Server 2013 中的主控 Exchange UM 路由](lync-server-2013-hosted-exchange-um-routing.md)
 
 </div>
 

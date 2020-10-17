@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 規劃撥出語音路由
+title: Lync Server 2013：規劃撥出語音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fd202d6526f1f093c5824944ffdf3aa58317a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 852e11c596a541f04fe1dd5771dee193db48e600
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208849"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513430"
 ---
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>在 Lync Server 2013 中規劃撥出語音路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>規劃 Lync Server 2013 中的撥出語音路由
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42208849"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
 撥出電話路由適用於以公用交換電話網路 (PSTN) 閘道、主幹或專用交換機 (PBX) 為目的地的電話。當使用者撥打電話時，伺服器就會在必要時將電話號碼正規化成 E.164 格式，並嘗試比對電話號碼與 SIP URI。如果伺服器無法成功進行比對，就會根據提供的撥號字串套用撥出電話的路由邏輯。您可以依下表所述進行伺服器設定，以便定義該邏輯。
 
@@ -84,7 +86,7 @@ _**主題上次修改日期：** 2012年-09-21_
 本節提供設定下列撥出電話路由伺服器設定的指導方針：
 
   - <span></span>  
-    [撥號對應表和 Lync Server 2013 中的正規化規則](lync-server-2013-dial-plans-and-normalization-rules.md)
+    [Lync Server 2013 的撥號對應表和正常化規則](lync-server-2013-dial-plans-and-normalization-rules.md)
 
   - <span></span>  
     [Lync Server 2013 中的語音原則](lync-server-2013-voice-policies.md)

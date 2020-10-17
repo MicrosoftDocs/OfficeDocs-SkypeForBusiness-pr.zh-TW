@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ProgressReport 檢視'
+title: Lync Server 2013： ProgressReport view
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac09e1b22e4807b039daf4b5da4778a54cb91d4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 492f7f5e34631de5ff843a00dd3fdf75b6f32f00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513220"
 ---
+# <a name="progressreport-view-in-lync-server-2013"></a>Lync Server 2013 中的 ProgressReport 視圖
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-view-in-lync-server-2013"></a>Lync Server 2013 中的 ProgressReport 檢視
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42201789"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-01_
+_**主題上次修改日期：** 2012-10-01_
 
-ProgressReport 檢視儲存已完成的工作階段的資訊。 進度報告將寫入僅適用於通話和 Lync Server 2013 會決定可能會很有用進行診斷之用的工作階段。 Microsoft Lync Server 2013 中已採用此檢視。
+ProgressReport view 儲存已完成會話的相關資訊。 進度報告只會寫入 Lync Server 2013 決定可用於診斷目的的呼叫和會話。 此視圖已引進于 Microsoft Lync Server 2013。
 
 <div>
 
@@ -67,46 +69,46 @@ ProgressReport 檢視儲存已完成的工作階段的資訊。 進度報告將�
 <tr class="odd">
 <td><p><strong>ErrorTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>發生錯誤的時間。 搭配 ErrorReportSeq 用來唯一地識別錯誤。</p></td>
+<td><p>發生錯誤的時間。 與 ErrorReportSeq 搭配使用，以唯一識別錯誤。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>若要識別錯誤的識別碼。 ErrorTime 搭配使用來唯一地識別錯誤。</p></td>
+<td><p>用以識別錯誤的 ID 號碼。 與 ErrorTime 搭配使用，以唯一識別錯誤。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ProgressReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>若要識別進度報告的識別碼。 用於區分相同的錯誤報告的進度報告。</p></td>
+<td><p>識別進度報表的識別碼。 用來區分相同錯誤報表的進度報告。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MsDiagId</strong></p></td>
 <td><p>int</p></td>
-<td><p>錯誤報告的診斷識別碼。</p></td>
+<td><p>錯誤報表的診斷識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Source</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>錯誤源自 （如果報告從伺服器元件傳送） 的伺服器名稱。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>起源錯誤的伺服器名稱 (如果報告是從伺服器元件傳送) 中。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>應用程式</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>錯誤源自 （如果報告從伺服器元件傳送） 的應用程式的名稱。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>起源錯誤的應用程式名稱 (如果報告是從伺服器元件傳送) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TelemetryId</strong></p></td>
 <td><p>唯一</p></td>
-<td><p>相互關聯參與會議之不同元件的加入時間資訊的唯一識別碼。</p></td>
+<td><p>與會議相關聯之不同元件的加入時間資訊的唯一識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
 <td><p>int</p></td>
-<td><p>時間 （以毫秒為單位） 所需的特定元件加入會議。</p></td>
+<td><p>特定元件加入會議所需的時間 (（毫秒）) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagHeader</strong></p></td>
-<td><p>varchar(max)</p></td>
+<td><p>Varchar (max) </p></td>
 <td><p>其他錯誤資訊。</p></td>
 </tr>
 </tbody>

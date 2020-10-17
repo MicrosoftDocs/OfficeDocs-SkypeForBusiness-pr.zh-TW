@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 規劃 Exchange Server 整合
+title: Lync Server 2013：規劃 Exchange Server 整合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f640e2b7ac67515e5dff91de1cfd48b24bd9c322
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5f8b3af0b93e9f7b7c8c660b91131819b27cb0e9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513560"
 ---
+# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>規劃 Exchange Server 與 Lync Server 2013 的整合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>規劃 Exchange Server 與 Lync Server 2013 整合
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42184356"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-20 個_
+_**主題上次修改日期：** 2012-09-20_
 
-當您在組織中部署 Exchange 和 Lync Server 時，已增強兩項產品中的許多功能。 本節內容包含有關這些功能的資訊。
+當您在組織中部署 Exchange 和 Lync 伺服器時，這兩種產品中的許多功能都會得到增強。 本節內容包含有關這些功能的資訊。
 
 <div>
 
@@ -45,9 +47,9 @@ _**主題上次修改日期：** 2012年-09-20 個_
 
   - [整合 Microsoft Lync Server 2013 與 Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
-  - [規劃 Lync Server 2013 中的 Exchange Unified Messaging 整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [在 Lync Server 2013 中規劃 Exchange 整合通訊整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [Lync Server 2013 中的主控的 Exchange Unified Messaging 整合](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+  - [Lync Server 2013 中的主控 Exchange 整合通訊整合](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513400"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 中內部伺服器的埠與通訊協定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 中內部伺服器的埠與通訊協定
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**主題上次修改日期：** 2016-04-06_
 
 </div>
 
-如需 edge 元件的防火牆設定的詳細資訊，請參閱[決定 Lync Server 2013 的外部 A/V 防火牆和埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
+如需 edge 元件的防火牆設定的詳細資訊，請參閱 [決定 Lync Server 2013 的外部 A/V 防火牆和埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
 
 下表列出每個內部伺服器角色上必須開啟的埠。
 
@@ -83,7 +85,7 @@ _**主題上次修改日期：** 2016-04-06_
 <th>服務名稱</th>
 <th>連接埠</th>
 <th>Protocol (通訊協定)</th>
-<th>附註</th>
+<th>注意事項</th>
 </tr>
 </thead>
 <tbody>
@@ -96,21 +98,21 @@ _**主題上次修改日期：** 2016-04-06_
 </tr>
 <tr class="even">
 <td><p>前端伺服器</p></td>
-<td><p>Lync Server 前端服務</p></td>
+<td><p>Lync Server Front-End 服務</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>可選擇性地由 Standard Edition server 和前端伺服器用於信任服務的靜態路由，例如遠端呼叫控制伺服器。</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端伺服器</p></td>
-<td><p>Lync Server 前端服務</p></td>
+<td><p>Lync Server Front-End 服務</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS) </p></td>
 <td><p>由 Standard Edition server 和前端集區用於伺服器 (MTLS) 、伺服器與用戶端之間的 SIP 通訊 (TLS) 及前端伺服器與轉送伺服器之間的 SIP 通訊 (MTLS) 。 也用於與監控伺服器的通訊。</p></td>
 </tr>
 <tr class="even">
 <td><p>前端伺服器</p></td>
-<td><p>Lync Server 前端服務</p></td>
+<td><p>Lync Server Front-End 服務</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS:</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ _**主題上次修改日期：** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>前端伺服器</p></td>
-<td><p>Lync Server 前端服務</p></td>
+<td><p>Lync Server Front-End 服務</p></td>
 <td><p>135</p></td>
 <td><p>DCOM 和遠端過程呼叫 (RPC) </p></td>
 <td><p>用於以 DCOM 為基礎的作業，例如移動使用者、使用者複製器同步處理及通訊錄同步處理。</p></td>
@@ -371,14 +373,14 @@ _**主題上次修改日期：** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>董事</p></td>
-<td><p>Lync Server 前端服務</p></td>
+<td><p>Lync Server Front-End 服務</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>選擇性地用於信任服務的靜態路由，例如遠端呼叫控制伺服器。</p></td>
 </tr>
 <tr class="even">
 <td><p>董事</p></td>
-<td><p>Lync Server 前端服務</p></td>
+<td><p>Lync Server Front-End 服務</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS:</p>
 <p>TCP</p></td>
@@ -400,7 +402,7 @@ _**主題上次修改日期：** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>董事</p></td>
-<td><p>Lync Server 前端服務</p></td>
+<td><p>Lync Server Front-End 服務</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>用於伺服器與用戶端連線之間的內部通訊。</p></td>
@@ -462,7 +464,7 @@ _**主題上次修改日期：** 2016-04-06_
 
 
 > [!NOTE]  
-> 某些遠端呼叫控制案例需要在前端伺服器或 Director 和 PBX 之間建立 TCP 連線。 雖然 Lync Server 不再使用 TCP 埠5060，但在遠端呼叫控制部署期間，您會建立信任的伺服器設定，此設定會將 RCC 線路伺服器 FQDN 與前端伺服器或 Director 用來連接 PBX 系統的 TCP 通訊埠產生關聯。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的<STRONG>CsTrustedApplicationComputer</STRONG> Cmdlet。
+> 某些遠端呼叫控制案例需要在前端伺服器或 Director 和 PBX 之間建立 TCP 連線。 雖然 Lync Server 不再使用 TCP 埠5060，但在遠端呼叫控制部署期間，您會建立信任的伺服器設定，此設定會將 RCC 線路伺服器 FQDN 與前端伺服器或 Director 用來連接 PBX 系統的 TCP 通訊埠產生關聯。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的 <STRONG>CsTrustedApplicationComputer</STRONG> Cmdlet。
 
 
 
@@ -661,7 +663,7 @@ _**主題上次修改日期：** 2016-04-06_
 <th>元件</th>
 <th>連接埠</th>
 <th>Protocol (通訊協定)</th>
-<th>附註</th>
+<th>注意事項</th>
 </tr>
 </thead>
 <tbody>

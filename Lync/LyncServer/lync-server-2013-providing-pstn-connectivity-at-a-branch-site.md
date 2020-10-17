@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 提供在分支網站的 PSTN 連線
+title: Lync Server 2013：在分支網站提供 PSTN 連線能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4998db2c00699e766b664caf79fa271af0395a6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38c76d378db31cb8a6619a18072ec0218260843e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215279"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513170"
 ---
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>在 Lync Server 2013 的分支網站提供 PSTN 連線能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>提供在分支網站 Lync Server 2013 中的 PSTN 連線
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42215279"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-05_
+_**主題上次修改日期：** 2012-10-05_
 
-我們建議使用 Microsoft Lync Server 2013 規劃工具，將分支網站新增至您的拓撲，並在分支網站中設定語音基礎結構。
+我們建議使用 Microsoft Lync Server 2013 （計畫工具）將分支網站新增至您的拓撲，並在分支網站中設定語音基礎結構。
 
-如果您不使用規劃工具，使用本節中這一節中的主題，首先，新增分支網站，並接著，設定您的語音基礎結構所定義的 IP/公用交換電話網路 (PSTN) 閘道及/或藉由設定 SIP 主幹，（含或不透過媒體旁路）。 連線至分支網站的專用交換機 (PBX) 是另一個選項。
+如果您不是使用規劃工具，請先使用本節的主題中的程式，以新增分支網站，然後再透過定義 IP/公用交換電話網路 (PSTN) 閘道和/或設定 SIP 主幹 (設定或不使用媒體旁路) 來設定語音基礎結構。 將專用交換機 exchange (PBX) 連接至分支網站是另一個選項。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您想要提供分支網站恢復能力，您必須部署 Survivable Branch Appliance、 Survivable Branch Server 或 Standard Edition server 分支網站。 如需詳細資訊，請參閱<A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">部署 Survivable Branch Appliance 或 survivable branch Server 與 Lync Server 2013</A>或<A href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</A>中，適當地部署文件中。
+> 如果您想要提供分支網站恢復能力，您必須在分支網站上部署 Survivable 分支裝置、Survivable 分支伺服器或 Standard Edition server。 如需詳細資訊，請參閱部署檔中的部署 <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Survivable 分支裝置或具有 Lync server 2013</A> 或 <A href="lync-server-2013-deploying-lync-server.md">部署 lync Server 2013</A>的伺服器。
 
 
 
@@ -57,11 +59,11 @@ _**主題上次修改日期：** 2012年-10-05_
 
   - [將分支網站新增至您在 Lync Server 2013 中的拓撲](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [在 Lync Server 2013 中定義 PSTN 閘道的分支網站](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
+  - [在 Lync Server 2013 中定義分支網站的 PSTN 閘道](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [設定與 Lync Server 2013 中的媒體旁路的主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [在 Lync Server 2013 中設定含媒體旁路的主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [沒有媒體旁路 Lync Server 2013 中設定主幹](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [在 Lync Server 2013 中設定無媒體旁路的主幹](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
 </div>
 
@@ -70,8 +72,8 @@ _**主題上次修改日期：** 2012年-10-05_
 ## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中的媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
-[規劃 Lync Server 2013 中的 PSTN 連線](lync-server-2013-planning-for-pstn-connectivity.md)  
+[在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
+[在 Lync Server 2013 中規劃 PSTN 連線能力](lync-server-2013-planning-for-pstn-connectivity.md)  
   
 
 </div>

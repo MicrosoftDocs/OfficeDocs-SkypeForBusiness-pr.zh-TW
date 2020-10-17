@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 移轉和共存指令程式
+title: Lync Server 2013：遷移和共存 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8317c7aa163b92a6b73b719760cd72f814977130
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c234a8b2fcfea1473c52da69eea9f5cccb2f4b1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513620"
 ---
+# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的遷移和共存 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的移轉和共存指令程式
+
 
 </div>
 
@@ -35,49 +37,49 @@ ms.locfileid: "42185126"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-26_
+_**主題上次修改日期：** 2012-06-26_
 
-[Move-cslegacyuser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) cmdlet 可讓您從 Office Communications Server 2007 或 Microsoft Lync Server 2010 的使用者帳戶移至 Microsoft Lync Server 2013。 如果您需要移動 「 回溯 」 的使用者帳戶 （例如，從 Microsoft Lync Server 2010 的 Microsoft Lync Server 2013) 使用[Move-csuser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) cmdlet。
+[Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) Cmdlet 提供一種方法，讓您可以將使用者帳戶從 Office 通訊伺服器2007或 Microsoft lync server 2010 移至 Microsoft lync server 2013。 如果您需要將使用者帳戶移「後退」 (例如，從 Microsoft Lync Server 2013 至 Microsoft Lync Server 2010) 使用 [Move-CsUser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) 指令程式。
 
   - <span></span>  
-    [Import-cslegacyconferencedirectory cmdlet](https://technet.microsoft.com/library/Gg398418(v=OCS.15))
+    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-cslegacyconfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))
+    [Import-CsLegacyConfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Merge-cslegacytopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))
+    [Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-csapplicationendpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
+    [Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-cslegacyuser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))
+    [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))
 
 <!-- end list -->
 
-  - [Convert-csuserdata](https://technet.microsoft.com/library/JJ205337(v=OCS.15))
+  - [Convert-CsUserData](https://technet.microsoft.com/library/JJ205337(v=OCS.15))
 
-  - [Export-csuserdata](https://technet.microsoft.com/library/JJ204897(v=OCS.15))
+  - [Export-CsUserData](https://technet.microsoft.com/library/JJ204897(v=OCS.15))
 
-  - [Import-csuserdata](https://technet.microsoft.com/library/JJ205373(v=OCS.15))
+  - [Import-CsUserData](https://technet.microsoft.com/library/JJ205373(v=OCS.15))
 
-  - [Update-csuserdata](https://technet.microsoft.com/library/JJ205358(v=OCS.15))
+  - [Update-CsUserData](https://technet.microsoft.com/library/JJ205358(v=OCS.15))
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

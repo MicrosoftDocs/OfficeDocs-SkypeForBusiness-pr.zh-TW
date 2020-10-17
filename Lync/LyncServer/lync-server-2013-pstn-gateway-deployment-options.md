@@ -12,20 +12,22 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be67190fc4c6a124cd7c7f44082d9cddf0290bc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2761473e609f8891af14387858ca76bc2a247baa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183516"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512460"
 ---
+# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 閘道部署選項
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 閘道部署選項
+
 
 </div>
 
@@ -61,11 +63,11 @@ _**主題上次修改日期：** 2012-09-21_
 
 ## <a name="mn-trunk-support"></a>M:N 主幹支援
 
-轉送伺服器可以透過多個閘道、會話邊界控制器 (SBCs) Internet 電話語音服務提供者所提供的電話，或是二者的組合，進行路由傳送。 此外，集區中的多個轉送伺服器可以與多個閘道互動。 在轉送伺服器與閘道之間定義的邏輯路由稱為*主幹*。 當內部使用者加入 PSTN 通話時，前端集區上的輸出路由邏輯會選擇哪一個主幹可路由傳送該特定通話的所有可能可使用的組合。 使用 DNS 負載平衡，如果呼叫因集區中的特定轉送伺服器問題而無法抵達閘道，則會將此呼叫重試至集區中的替代轉送伺服器。
+轉送伺服器可以透過多個閘道、會話邊界控制器 (SBCs) Internet 電話語音服務提供者所提供的電話，或是二者的組合，進行路由傳送。 此外，集區中的多個轉送伺服器可以與多個閘道互動。 在轉送伺服器與閘道之間定義的邏輯路由稱為 *主幹*。 當內部使用者加入 PSTN 通話時，前端集區上的輸出路由邏輯會選擇哪一個主幹可路由傳送該特定通話的所有可能可使用的組合。 使用 DNS 負載平衡，如果呼叫因集區中的特定轉送伺服器問題而無法抵達閘道，則會將此呼叫重試至集區中的替代轉送伺服器。
 
-如需規劃多個閘道的詳細資訊，請參閱[M:N 主幹 In Lync Server 2013](lync-server-2013-m-n-trunk.md)。
+如需規劃多個閘道的詳細資訊，請參閱 [M:N 主幹 In Lync Server 2013](lync-server-2013-m-n-trunk.md)。
 
-如需其他輸出路由增強功能的詳細資訊，請參閱[Lync Server 2013 中的語音路由](lync-server-2013-voice-routes.md)。
+如需其他輸出路由增強功能的詳細資訊，請參閱 [Lync Server 2013 中的語音路由](lync-server-2013-voice-routes.md)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planning for Enterprise Voice'
+title: Lync Server 2013：規劃 Enterprise Voice
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b93d43637585f164f2f9d79d48bb7839a6dc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 324798f36a92a81a1f210a173cf9e3e0efa00aca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202079"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513570"
 ---
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中規劃 Enterprise Voice
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>規劃 Lync Server 2013 中的 Enterprise Voice
+
 
 </div>
 
@@ -35,49 +37,49 @@ ms.locfileid: "42202079"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-11-01_
+_**主題上次修改日期：** 2013-11-01_
 
-Enterprise Voice 的部署程序取決於您現有的拓樸、 基礎結構，以及您想要支援的企業語音功能。 必要的程序將取決於哪些功能選擇，但您必須進行高層級的其他規劃考量。
+Enterprise Voice 的部署程式取決於您現有的拓撲、基礎結構，以及您想要支援的 Enterprise Voice 功能。 必要的程式取決於您選擇的功能，但是還有其他的規劃考慮，您必須以高層次進行。
 
-一般而言，請考慮類型及數目您想要部署的網站和其地理位置、 各網站通話數、 的連線網站的網路連結類型是否要為每個語音功能提供備援和容錯移轉網站，以及是否要使用現有的 PBX 設備。 有某些注意事項，例如，您應該考慮當您規劃整體的 Lync Server 通訊軟體的高可用性。 視需要在此區段中，整個主題中討論這些考量。
+一般來說，請考慮您要部署的網站類型和數目、每個網站的通話量、每個網站的網路連結類型、連接網站的網路連結類型、您是否想要為每個網站提供冗余及容錯移轉語音功能，以及是否要使用現有的 PBX 裝置。 在您規劃 Lync Server 通訊軟體的整體時，您應該考慮使用一些考慮，例如高可用性。 您會視需要在本節的主題中討論這些考慮。
 
 <div>
 
-## <a name="planning-considerations"></a>規劃考量
+## <a name="planning-considerations"></a>規劃考慮
 
-規劃決策資訊適用於特定的 Enterprise Voice 功能或是部署案例或元件的部署，請參閱本節中的主題。
+如需有關部署特定 Enterprise Voice 功能或部署案例或元件的規劃決策，請參閱本節中的主題。
 
-  - [定義 Lync Server 2013 中的 Enterprise Voice 的需求](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
+  - [在 Lync Server 2013 中定義您的 Enterprise Voice 需求](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 
-  - [評估語音使用方式和 Lync Server 2013 的流量](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [評估 Lync Server 2013 的語音使用狀況和流量](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Lync Server 2013 中的進階 Enterprise Voice 功能的網路設定](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+  - [Lync Server 2013 中的高級 Enterprise Voice 功能的網路設定](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
 
-  - [所需的 Lync Server 2013 中的企業語音元件](lync-server-2013-components-required-for-enterprise-voice.md)
+  - [Lync Server 2013 中的 Enterprise Voice 所需元件](lync-server-2013-components-required-for-enterprise-voice.md)
 
-  - [規劃 Lync Server 2013 中的企業語音恢復能力](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [在 Lync Server 2013 中規劃 Enterprise Voice 韌性](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [規劃 Lync Server 2013 中的 Exchange Unified Messaging 整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [在 Lync Server 2013 中規劃 Exchange 整合通訊整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [規劃 Lync Server 2013 中的通話許可控制](lync-server-2013-planning-for-call-admission-control.md)
+  - [在 Lync Server 2013 中規劃通話許可控制](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [規劃 Lync Server 2013 中的緊急服務 (E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [在 Lync Server 2013 中規劃緊急服務 (E9-1-1) ](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [規劃 Lync Server 2013 中的媒體旁路](lync-server-2013-planning-for-media-bypass.md)
+  - [在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)
 
-  - [規劃與 Lync Server 2013 的私人電話線](lync-server-2013-planning-for-private-telephone-lines.md)
+  - [使用 Lync Server 2013 規劃私人電話線](lync-server-2013-planning-for-private-telephone-lines.md)
 
-  - [規劃 Lync Server 2013 中依位置路由](lync-server-2013-planning-for-location-based-routing.md)
+  - [在 Lync Server 2013 中規劃 Location-Based 路由](lync-server-2013-planning-for-location-based-routing.md)
 
-  - [規劃 Lync Server 2013 中的企業語音恢復能力](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [在 Lync Server 2013 中規劃 Enterprise Voice 韌性](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [Lync Server 2013 中的 Enterprise voice 的部署指導方針](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
+  - [Lync Server 2013 中 Enterprise Voice 的部署指導方針](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
 
-  - [Lync Server 2013 中的 Enterprise voice 的部署程序概觀](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
+  - [Lync Server 2013 中 Enterprise Voice 的部署程式概述](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
 
-  - [將使用者移至 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-moving-users-to-enterprise-voice.md)
+  - [在 Lync Server 2013 中將使用者移至企業語音](lync-server-2013-moving-users-to-enterprise-voice.md)
 
-  - [Lync Server 2013 中的 Lync PreCall 診斷工具](lync-server-2013-lync-precall-diagnostics-tool.md)
+  - [Lync Server 2013 中的 lync PreCall 診斷工具](lync-server-2013-lync-precall-diagnostics-tool.md)
 
 </div>
 

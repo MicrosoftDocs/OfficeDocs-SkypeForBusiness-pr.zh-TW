@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 保護 IIS
+title: Lync Server 2013：保護 IIS
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d53797c490ba53872786311b51e310e6400addf5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aae84d208df1d7c2945fee641b243bf7110902c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513190"
 ---
+# <a name="protecting-iis-in-lync-server-2013"></a>在 Lync Server 2013 中保護 IIS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="protecting-iis-in-lync-server-2013"></a>保護 Lync Server 2013 中的 IIS
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42215289"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-12-05_
+_**主題上次修改日期：** 2013-12-05_
 
-在 Microsoft Office Communications Server 2007 及 Microsoft Office Communications Server 2007 R2，網際網路資訊服務 (IIS) 執行標準的使用者帳戶。 這可能會導致問題：如果該密碼過期，您會失去 Web 服務，通常這是很難診斷的問題。 若要協助避免發生過期密碼的問題，Microsoft Lync Server 2013 可讓您建立的電腦帳戶 （適用於實際上不存在的電腦），可以做為所有網站中執行的電腦 IIS 驗證主體。 因為這些帳戶使用 Kerberos 驗證通訊協定，所以帳戶稱為 Kerberos 帳戶，新驗證處理序別名 Kerberos Web 驗證。 這樣可讓您使用單一帳戶來管理所有 IIS 伺服器。
+在 Microsoft Office 通訊伺服器2007和 Microsoft Office 通訊伺服器 2007 R2 中，Internet Information Services (IIS) 是在標準使用者帳戶下執行。 這可能會導致問題：如果該密碼過期，您會失去 Web 服務，通常這是很難診斷的問題。 為了協助避免密碼到期的問題，Microsoft Lync Server 2013 可讓您為不) 存在的電腦建立電腦帳戶 (，而該電腦可以充當執行 IIS 之網站中所有電腦的驗證主體。 因為這些帳戶使用 Kerberos 驗證通訊協定，所以帳戶稱為 Kerberos 帳戶，新驗證處理序別名 Kerberos Web 驗證。 這樣可讓您使用單一帳戶來管理所有 IIS 伺服器。
 
-若要在此驗證主體下執行伺服器，您必須先使用 New-CsKerberosAccount Cmdlet 建立一個電腦帳戶；然後此帳戶會指派給一或多個站台。 工作分派之後，依執行 Enable-cstopology cmdlet 會啟用帳戶與 Lync Server 2013 網站之間的關聯。 除此之外，這也會在 Active Directory 網域服務 (AD DS) 中建立必要的服務主體名稱 (SPN)。 SPN 提供讓用戶端應用程式能夠找到特定服務的方式。 如需詳細資訊，請參閱作業文件中的＜[New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount)＞。
+若要在此驗證主體下執行伺服器，您必須先使用 New-CsKerberosAccount Cmdlet 建立一個電腦帳戶；然後此帳戶會指派給一或多個站台。 進行指派之後，會透過執行 Enable-CsTopology Cmdlet 來啟用帳戶與 Lync Server 2013 網站之間的關聯。 除此之外，這也會在 Active Directory 網域服務 (AD DS) 中建立必要的服務主體名稱 (SPN)。 SPN 提供讓用戶端應用程式能夠找到特定服務的方式。 如需詳細資訊，請參閱作業文件中的＜[New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount)＞。
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ProgressReport 表格'
+title: Lync Server 2013： ProgressReport 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c68855f3f0ae36e0934959b820dc84a716cf2a51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c92adf48a09f83c3c3dec18f91e4aadc3a3cbd39
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513230"
 ---
+# <a name="progressreport-table-in-lync-server-2013"></a>Lync Server 2013 中的 ProgressReport 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-table-in-lync-server-2013"></a>Lync Server 2013 中的 ProgressReport 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42183556"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
-進度報告是以通話或工作階段完成時，用戶端上傳至資料庫的資料為基礎。 進度報告將寫入僅適用於通話和 Lync Server 2013 會決定可能會很有用進行診斷之用的工作階段。
+進度報告是以通話或工作階段完成時，用戶端上傳至資料庫的資料為基礎。 進度報告只會寫入 Lync Server 2013 決定可用於診斷目的的呼叫和會話。
 
 ErrorTime、ErrorReportSeq 及 ProgressReportSeq 欄位不一定和錯誤有關，而是有關指出通話或訊息狀態的訊息。
 
@@ -53,7 +55,7 @@ ErrorTime、ErrorReportSeq 及 ProgressReportSeq 欄位不一定和錯誤有關�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -61,21 +63,21 @@ ErrorTime、ErrorReportSeq 及 ProgressReportSeq 欄位不一定和錯誤有關�
 <tr class="odd">
 <td><p><strong>ErrorTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主要、外部</p></td>
-<td><p>包含此進度報告之進度錯誤報告的日期和時間。 請參閱<a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表格</a>如需詳細資訊。</p></td>
+<td><p>主要，外部</p></td>
+<td><p>包含此進度報告之進度錯誤報告的日期和時間。 如需詳細資訊，請參閱 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主要、外部</p></td>
-<td><p>與 ErrorTime、ProgressReportSeq 搭配使用的識別碼，可識別唯一的進度報告。 請參閱<a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表格</a>如需詳細資訊。</p></td>
+<td><p>主要，外部</p></td>
+<td><p>與 ErrorTime、ProgressReportSeq 搭配使用的識別碼，可識別唯一的進度報告。 如需詳細資訊，請參閱 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ErrorReportSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要，外部</p></td>
-<td><p>識別錯誤報告的識別碼。 ErrorReporSeq 與 ErrorTime 搭配使用，可識別唯一的錯誤報告。 請參閱如需詳細資訊的<a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表格</a></p>
-<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
+<td><p>識別錯誤報告的識別碼。 ErrorReporSeq 與 ErrorTime 搭配使用，可識別唯一的錯誤報告。 如需詳細資訊，請參閱 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表格</a> 。</p>
+<p>此欄位是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ProgressReportSeq</strong></p></td>
@@ -88,13 +90,13 @@ ErrorTime、ErrorReportSeq 及 ProgressReportSeq 欄位不一定和錯誤有關�
 <td><p>int</p></td>
 <td></td>
 <td><p>進度報告的診斷 ID。</p>
-<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
+<p>此欄位是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SourceId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>（如果報告從伺服器元件傳送） 傳送錯誤報告的伺服器。 請參閱<a href="lync-server-2013-servers-table.md">Lync Server 2013 中的伺服器表格</a>如需詳細資訊。Microsoft Lync Server 2013 中已採用此欄位。</p></td>
+<td><p>傳送錯誤報表的伺服器 (如果報告是從伺服器元件傳送) 。 如需詳細資訊，請參閱 <a href="lync-server-2013-servers-table.md">Lync Server 2013 中的 Servers 資料表</a> 。此欄位是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
@@ -114,14 +116,14 @@ ErrorTime、ErrorReportSeq 及 ProgressReportSeq 欄位不一定和錯誤有關�
 <td><p>唯一</p></td>
 <td></td>
 <td><p>會議所包含之不同元件的加入時間資訊的相互關聯唯一識別碼。</p>
-<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
+<p>此欄位是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>特定元件加入會議的時間 (毫秒)。</p>
-<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
+<p>此欄位是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 </tbody>
 </table>

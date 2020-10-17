@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 海報： 重要的健康狀態指標
+title: Lync Server 2013：標牌：重要健康情況指示器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aca31ca681c75438bbcbb67b1d2dc5c0b6305cb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6db6a701c98a44b042d9ee36d0a749bf6363bd2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513380"
 ---
+# <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 中的主要健康情況指示器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 中的索引鍵的健康狀態指標
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42183736"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-02-10_
+_**主題上次修改日期：** 2014-02-10_
 
-本文是隨附[機碼健康狀態指標： 維護狀況良好的 Lync 伺服器 Foundation](https://go.microsoft.com/fwlink/?linkid=391838)海報，您可以從下載中心下載。
+本文是與 [主要健康狀態指示器有關的基礎：維護狀況良好的 Lync 伺服器](https://go.microsoft.com/fwlink/?linkid=391838) 海報，您可以從下載中心下載。
 
-![海報中描述疑難排解使用 KHI 資料](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "海報中描述疑難排解使用 KHI 資料")
+![使用 KHI 資料進行疑難排解說明的海報](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "使用 KHI 資料進行疑難排解說明的海報")
 
-您可以使用此海報以了解金鑰健康狀態指標 (KHIs)、 效能計數器臨界值的目標在於透露使用者體驗問題。 收集 KHI 資料通常實作通話品質方法 (CQM) 的第一個步驟，這被著重於確保音訊品質的體驗 Lync 使用者。
+您可以使用此海報來瞭解主要健康情況指示器 (KHIs) 、效能計數器，其臨界值是用於顯示使用者經驗問題。 收集 KHI 資料通常是實施通話品質方法 (CQM) （主要是為了確保 Lync 使用者的品質音訊體驗）的第一步。
 
-如果您有關於如何使用 CQM 問題，您可以提交至 cqmfeedback@microsoft.com 問題。
+如果您有關于如何使用 CQM 的問題，您可以將問題提交至 cqmfeedback@microsoft.com。
 
-海報說明下列領域：
+海報會說明下列方面：
 
-  - 什麼是索引鍵健康狀態指標？
+  - 重要狀況指示器為何？
 
   - 收集 KHI 資料
 
-  - 所有伺服器角色的補救流程
+  - 所有伺服器角色的修正流程
 
   - 詞彙
 
@@ -59,7 +61,7 @@ _**上次修改主題：** 2014年-02-10_
 
   - 後端 SQL 伺服器
 
-  - 中繼伺服器
+  - 轉送伺服器
 
   - Edge Server
 
@@ -67,15 +69,15 @@ _**上次修改主題：** 2014年-02-10_
 
 <div>
 
-## <a name="what-are-key-health-indicators"></a>什麼是索引鍵健康狀態指標？
+## <a name="what-are-key-health-indicators"></a>重要狀況指示器為何？
 
-索引鍵健康狀態指標是效能計數器臨界值的目標在於透露使用者體驗問題。 收集 KHI 資料通常實作通話品質方法 (CQM) 的第一個步驟，這被著重於確保音訊品質的體驗 Lync 使用者。
+主要狀況指標是效能計數器，其臨界值是用於顯示使用者經驗問題。 收集 KHI 資料通常是實施通話品質方法 (CQM) （主要是為了確保 Lync 使用者的品質音訊體驗）的第一步。
 
-KHIs 可用除了標準的 Lync 監控解決方案 （例如 System Center Operations Manager，綜合交易，監控伺服器），而不是這些解決方案取代。
+KHIs 是除了標準的 Lync 監控解決方案 (（例如 System Center Operations Manager、綜合交易、監控伺服器) ，而不是那些解決方案）以外的使用。
 
-收集 KHI 效能計數器，並填入 KHI 試算表隨附網路的快顯功能表會產生可協助您決定 Lync 部署的伺服器健康狀況的計分卡。 一旦填入，它會帶領您修復環境，並提供見解給其他專案關係人。 在每月付款評估 KHIs，並將它們納入任何部署進行中作業程序。
+收集 KHI 效能計數器，並填入網路指南隨附的 KHI 試算表，以產生可協助您判斷 Lync 部署之伺服器健康情況的計分卡。 一旦填滿後，它會引導您修復環境並對其他專案關係人提供進一步的洞察力。 每月評估 KHIs，並將其併入任何部署的日常運作處理常式。
 
-下載[Lync Server 網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677)若要查看 KHIs 的完整清單，以取得相關的試算表。
+下載 [Lync Server 網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677) 以查看完整的 KHIs 清單，並取得相關的試算表。
 
 </div>
 
@@ -85,13 +87,13 @@ KHIs 可用除了標準的 Lync 監控解決方案 （例如 System Center Opera
 
 ## <a name="to-collect-khi-data"></a>收集 KHI 資料
 
-1.  執行 Lync Server 網路指南 》，每個 Lync 伺服器上所隨附的 KHI 指令碼。 這會建立資料收集器效能監視器的內容，並加以命名 KHI。 根據預設，資料會輪詢每隔 15 秒。
+1.  在每一部 Lync Server 上執行 Lync Server 網路指南隨附的 KHI 腳本。 這會在 [效能監視器] 內建立資料收集器，並將其命名為 KHI。 依預設，每15秒會輪詢一次資料。
 
-2.  開始之前的公司的工作天，請移至每個 Lync 伺服器並啟動 KHI 資料收集器。
+2.  在公司的工作日開始之前，請移至每一部 Lync 伺服器並啟動 KHI Data 收集器。
 
-3.  在那天結束時，停止 KHI 資料收集器，並將資料複製到一個集中的位置。
+3.  在該天結束時，停止 KHI 資料收集器，並將資料複製到中央位置。
 
-4.  使用效能監視器來填滿隨附的 Lync Server 網路指南下載 KHI 試算表中後, 比較結果為建議的目標。
+4.  使用 [效能監視器] 填滿 Lync Server 網路指南下載所包含的 KHI 試算表後，請將結果與建議的目標進行比較。
 
 </div>
 
@@ -99,23 +101,23 @@ KHIs 可用除了標準的 Lync 監控解決方案 （例如 System Center Opera
 
 <div>
 
-## <a name="remediation-flow-for-all-server-roles"></a>所有伺服器角色的補救流程
+## <a name="remediation-flow-for-all-server-roles"></a>所有伺服器角色的修正流程
 
-針對 Lync 實作中每部伺服器，請先確認伺服器元件的健康狀況和系統效能等於或高於所需的層級。 後，才應該您查看與整體 Lync 實作中的伺服器角色相關的指標。
+針對 Lync 實施中的每一部伺服器，先驗證服務器的元件健康情況和系統效能是在所需的層級。 只有在這之後，才應該查看與整體 Lync 實施中的伺服器角色相關的指示器。
 
-首先 KHI 效能資料收集的所有伺服器。 針對每個系統角色 （本文稍後所述的詳細資料） 會決定在基本系統元件是否符合建議的目標。 如果沒有，修復的系統效能然後重新收集 KHI 資料，並確保系統健康狀況之前先查看 Lync 實作中的伺服器角色的特定評量。 元件運作情況的所有角色定義如下：
+請先收集所有伺服器的 KHI 效能資料。 針對每個系統角色 (稍後將在本檔中討論的詳細資料) 判斷基本系統元件是否符合建議的目標。 否則，請先修正系統效能，然後重新收集 KHI 資料，並確保系統健康情況，再查看 Lync 實施中的伺服器角色特有的計量。 所有角色的元件健康情況定義為：
 
-  - CPU 使用率\<80%
+  - CPU 使用率 \< 80%
 
-  - 平均磁碟寫入\<10 毫秒
+  - 平均磁片寫入 \< 10 毫秒
 
-  - 磁碟讀取的平均\<10 毫秒
+  - 平均磁片讀取 \< 10 毫秒
 
-  - 可用記憶體\>20%系統總 MB
+  - 可用記憶體 \> 20% 的系統總 MB
 
-  - 網路佇列長度\<2
+  - 網路佇列長度 \< 2
 
-  - 捨棄封包 （輸入 / 輸出） = 0
+  - 丟棄的封包 (入/出) = 0
 
 </div>
 
@@ -125,25 +127,25 @@ KHIs 可用除了標準的 Lync 監控解決方案 （例如 System Center Opera
 
 ## <a name="glossary"></a>詞彙
 
-此海報中使用下列詞彙和縮略字：
+此海報使用下列術語及首字母縮寫：
 
-為 MCU = 應用程式共用多點控制項單位
+以 MCU = 應用程式共用多點控制單位
 
-AV MCU = 音訊/視訊 MCU
+AV MCU = Audio/Video MCU
 
-IM MCU = 立即訊息的 MCU
+IM MCU = 立即訊息 MCU
 
-UCWA = Unified 的 Communications Web API
+UCWA = 整合通訊網頁 API
 
-AV Edge = 音訊/視訊 edge 透過周遊
+AV Edge = 透過 Edge 遍歷音訊/視頻
 
 AV 驗證 = Audio/Video 驗證
 
-SIP 堆疊 = 包含 Lync 核心 SIP 實作
+SIP 堆疊 = 包含 Lync 核心 SIP 實施
 
 資料 Proxy = 用於 edge 會議
 
-LySS = Lync 儲存體服務
+LySS = Lync Storage Service
 
 </div>
 
@@ -153,7 +155,7 @@ LySS = Lync 儲存體服務
 
 ## <a name="front-end-servers"></a>前端伺服器
 
-下列建議 KHI 目標特有除了基本元件健康情況的前端伺服器：
+除了基本元件健康情況之外，下列建議的 KHI 目標是前端伺服器特有的：
 
 
 <table>
@@ -163,46 +165,46 @@ LySS = Lync 儲存體服務
 </colgroup>
 <thead>
 <tr class="header">
-<th>職能區域</th>
-<th>目標評量</th>
+<th>功能區域</th>
+<th>目標度量</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IM/AS/AV MCU</p></td>
-<td><p>MCU 健康狀態&lt;2</p></td>
+<td><p>AS/AV/IM MCU</p></td>
+<td><p>MCU 健康狀態 &lt; 2</p></td>
 </tr>
 <tr class="even">
 <td><p>Web 元件</p></td>
-<td><p>通訊群組清單擴充 AD 逾時&lt;0</p>
+<td><p>通訊群組清單展開 AD 超時 &lt; 0</p>
 <p>ABWQ 失敗 = 0</p>
-<p>LIS 失敗 = 0</p>
-<p>驗證錯誤&lt;1/秒</p>
-<p>ASP.NET v4 要求拒絕 = 0</p></td>
+<p>.LIS 失敗 = 0</p>
+<p>驗證錯誤 &lt; 1/秒</p>
+<p>ASP.NET v4 要求遭到拒絕 = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP 堆疊</p></td>
-<td><p>平均內送郵件處理&lt;1 秒</p>
-<p>捨棄連入的回應&lt;1/秒的傳入要求卸除&lt;1/秒</p>
-<p>佇列延遲&lt;100 毫秒</p>
-<p>預存程序延遲&lt;100 毫秒</p>
+<td><p>平均傳入郵件處理 &lt; 1 秒</p>
+<p>撥出的回應丟棄 &lt; 1/秒傳入的要求中斷 &lt; 1/秒</p>
+<p>佇列延遲 &lt; 100 毫秒</p>
+<p>過程延遲 &lt; 100 毫秒</p>
 <p>節流要求 = 0</p>
-<p>驗證錯誤&lt;1/秒</p>
-<p>內送郵件逾時&lt;2</p>
-<p>平均內送郵件保留&lt;1 秒</p>
-<p>流程控制的連線&lt;2</p>
-<p>平均出佇列延遲&lt;2 秒</p></td>
+<p>驗證錯誤 &lt; 1/秒</p>
+<p>傳入的郵件超時 &lt; 2</p>
+<p>平均傳入郵件保留 &lt; 1 秒</p>
+<p>流程式控制制的連接 &lt; 2</p>
+<p>平均輸出佇列延遲 &lt; 2 秒</p></td>
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>儲存體服務 DB 所使用的空間 % &lt; 80</p>
-<p>#複本複寫失敗 = 0</p>
-<p>#資料遺失事件的 = 0</p></td>
+<td><p>Storage Service DB 80 使用的空間百分比 &lt;</p>
+<p># 複製副本複寫失敗 = 0</p>
+<p># 資料遺失事件 = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>頁面 life expectancy &gt; 300 秒。</p>
-<p>批次要求 / 秒&lt;2500年</p></td>
+<td><p>頁面壽命預期 &gt; 300 秒。</p>
+<p>批次要求數/秒 &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -216,7 +218,7 @@ LySS = Lync 儲存體服務
 
 ## <a name="backend-sql-servers"></a>後端 SQL 伺服器
 
-下列建議 KHI 目標特有除了基本元件健康情況的 SQL 伺服器：
+除了基本元件健康情況之外，下列建議的 KHI 目標是針對 SQL server 所特有的：
 
 
 <table>
@@ -226,15 +228,15 @@ LySS = Lync 儲存體服務
 </colgroup>
 <thead>
 <tr class="header">
-<th>職能區域</th>
-<th>目標評量</th>
+<th>功能區域</th>
+<th>目標度量</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>頁面 life expectancy &gt; 300 秒。</p>
-<p>批次要求 / 秒&lt;2500年</p></td>
+<td><p>頁面壽命預期 &gt; 300 秒。</p>
+<p>批次要求數/秒 &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -246,9 +248,9 @@ LySS = Lync 儲存體服務
 
 <div>
 
-## <a name="mediation-servers"></a>中繼伺服器
+## <a name="mediation-servers"></a>轉送伺服器
 
-下列建議 KHI 目標特有除了基本元件健康情況的中繼伺服器：
+除了基本元件健康情況之外，下列建議的 KHI 目標是轉送伺服器所特有的：
 
 
 <table>
@@ -258,19 +260,19 @@ LySS = Lync 儲存體服務
 </colgroup>
 <thead>
 <tr class="header">
-<th>職能區域</th>
-<th>目標評量</th>
+<th>功能區域</th>
+<th>目標度量</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>中繼伺服器服務</p></td>
+<td><p>轉送伺服器服務</p></td>
 <td><p>載入呼叫失敗索引 = 0</p>
-<p>由於 Proxy 通話失敗之&lt;10</p>
-<p>由於閘道的通話失敗之&lt;10</p>
-<p>呼叫 （近或拉） 拒絕 = 0</p>
-<p>媒體應徵者遺失 = 0</p>
-<p>媒體連線檢查失敗 = 0</p></td>
+<p>因 Proxy 10 而失敗的通話 &lt;</p>
+<p>閘道10導致呼叫失敗 &lt;</p>
+<p>呼叫 () 拒絕 = 0</p>
+<p>缺少媒體候選人 = 0</p>
+<p>Media Connectivity 檢查失敗 = 0</p></td>
 </tr>
 </tbody>
 </table>
@@ -284,7 +286,7 @@ LySS = Lync 儲存體服務
 
 ## <a name="edge-servers"></a>Edge Server
 
-下列建議 KHI 目標特有的 edge server，除了基本元件健康情況：
+除了基本元件健康情況之外，下列建議的 KHI 目標是針對 edge server 所特有的：
 
 
 <table>
@@ -294,33 +296,33 @@ LySS = Lync 儲存體服務
 </colgroup>
 <thead>
 <tr class="header">
-<th>職能區域</th>
-<th>目標評量</th>
+<th>功能區域</th>
+<th>目標度量</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>AV 驗證</p></td>
-<td><p>不正確的要求&lt;20/秒</p></td>
+<td><p>錯誤要求 &lt; 20/秒</p></td>
 </tr>
 <tr class="even">
 <td><p>AV Edge</p></td>
-<td><p>驗證]。 失敗&lt;20/秒</p>
-<p>配置失敗&lt;20/秒</p>
-<p>捨棄封包&lt;300/秒</p></td>
+<td><p>驗證失敗 &lt; 20/秒</p>
+<p>分配失敗 &lt; 20/秒</p>
+<p>每秒丟棄的封包 &lt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>資料 Proxy</p></td>
-<td><p>節流伺服器連線&lt;3</p>
-<p>系統會節流&lt;1</p></td>
+<td><p>節流伺服器連接 &lt; 3</p>
+<p>系統為節流 &lt; 1</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP 堆疊</p></td>
-<td><p>超過限制中斷連線&lt;1</p>
-<p>傳送閒置逾&lt;10</p>
-<p>流程控制的連線&lt;100</p>
-<p>捨棄的傳入要求&lt;1/秒</p>
-<p>平均郵件處理&lt;3 秒</p></td>
+<td><p>超過限制的連線數 &lt; 1</p>
+<p>傳送超時 &lt; 10</p>
+<p>資料流程控制的連接 &lt; 100</p>
+<p>傳入的要求丟棄 &lt; 1/秒</p>
+<p>平均郵件處理 &lt; 3 秒</p></td>
 </tr>
 </tbody>
 </table>
@@ -334,7 +336,7 @@ LySS = Lync 儲存體服務
 
 
 [Lync Server 網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677)  
-[維護狀況良好的 Lync 伺服器 Foundation 主要的健康狀態指標：](https://go.microsoft.com/fwlink/?linkid=391838)  
+[主要健康情況指示器：維護狀況良好的 Lync 伺服器的基礎](https://go.microsoft.com/fwlink/?linkid=391838)  
 [Lync 通話品質方法](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 

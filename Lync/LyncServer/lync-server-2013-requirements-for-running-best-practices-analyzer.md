@@ -1,5 +1,5 @@
 ---
-title: 執行 Best Practices Analyzer Lync Server 2013： 需求
+title: Lync Server 2013：執行最佳做法分析程式的需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e5ada43b271b819879b0dc0355a5dfdf5e9efd0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f097da7dc35c63cb385abd7ea233ec85df386a6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183016"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511840"
 ---
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中執行最佳做法分析程式的需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>執行 Lync Server 2013 中的最佳做法分析程式的需求
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42183016"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-19_
+_**主題上次修改日期：** 2012-09-19_
 
-您可以使用 Lync Server 2013，來掃描您的 Lync Server 2013 環境的最佳做法分析程式。 無法使用它來掃描舊版的環境，而必須使用舊版工具來掃描那些環境。 如需下載和使用 Lync Server 2010 和 Office Communications Server 2007 R2 版本的最佳做法分析程式的詳細資訊，請參閱 「 Lync Server 2010，最佳做法分析程式 」 在[https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358)和 」 最佳作法 Analyzer 的 Office Communications Server 2007 和 Office Communications Server 2007 R2 」 在[https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)。
+您可以使用 Lync Server 2013，最佳做法分析程式來掃描您的 Lync Server 2013 環境。 無法使用它來掃描舊版的環境，而必須使用舊版工具來掃描那些環境。 如需下載和使用 Lync Server 2010 和 Office 通訊伺服器 2007 R2 的最佳做法分析程式的詳細資訊，請參閱《 Lync Server 2010，最佳作法分析器」 [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) 和「Office 通訊伺服器2007和 Office 通訊2007伺服器的最佳作法分析程式」 [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651) 。
 
-之前開始掃描，您應該確定您的 Lync Server 2013 環境中的所有元件都都在執行並在線上。
+在開始您的掃描之前，您應該確定 Lync Server 2013 環境中的所有元件都在執行中和線上。
 
 <div>
 

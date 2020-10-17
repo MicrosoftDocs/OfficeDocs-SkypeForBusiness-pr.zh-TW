@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: PurgeSettings 表 (QoE)'
+title: 'Lync Server 2013： PurgeSettings table (QoE) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cb0a0770136fa5b9d61f80825e49d319f872f32
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac236e08f79adbe1ec7cbe92ea04405de46d0055
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215169"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512220"
 ---
+# <a name="purgesettings-table-qoe-in-lync-server-2013"></a>在 Lync Server 2013 中 PurgeSettings table (QoE) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="purgesettings-table-qoe-in-lync-server-2013"></a>Lync Server 2013 中的 PurgeSettings 表 (QoE)
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42215169"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-PurgeSettings 資料表包含指定在經驗品質記錄過期時，會自動從 QoE 資料庫加以刪除的資訊。 請注意，清除的相關資訊，還可以取得從 Microsoft Lync Server 2013 管理命令介面中執行下列命令：
+PurgeSettings 資料表包含指定在經驗品質記錄過期時，會自動從 QoE 資料庫加以刪除的資訊。 請注意，您也可以在 Microsoft Lync Server 2013 管理命令介面中執行下列命令，以取得清除相關資訊：
 
     Get-CsQoEConfiguration
 
-Microsoft Lync Server 2013 中已採用此表格。
+此表格已引進 Microsoft Lync Server 2013。
 
 
 <table>
@@ -55,7 +57,7 @@ Microsoft Lync Server 2013 中已採用此表格。
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -68,9 +70,9 @@ Microsoft Lync Server 2013 中已採用此表格。
 </tr>
 <tr class="even">
 <td><p><strong>EnablePurge</strong></p></td>
-<td><p>位元</p></td>
+<td><p>位</p></td>
 <td></td>
-<td><p>當設為 True （1) Microsoft Lync Server 2013 會定期從 QoE 資料庫清除過期的記錄。 清除動作會每天在 PurgeHour 設定中指定的時間加以執行。 若設為 False (0)，就不會從資料庫自動清除記錄。 預設值為 True。</p></td>
+<td><p>設為 True 時 (1) Microsoft Lync Server 2013 會定期從 QoE 資料庫中清除過時的記錄。 清除動作會每天在 PurgeHour 設定中指定的時間加以執行。 若設為 False (0)，就不會從資料庫自動清除記錄。 預設值為 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>KeepQoEDataForDays</strong></p></td>

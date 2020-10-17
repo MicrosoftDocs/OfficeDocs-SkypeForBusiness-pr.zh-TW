@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 回應群組通話清單報告
+title: Lync Server 2013：回應群組通話清單報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511760"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013 的回應群組通話清單報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013 中的回應群組通話清單報告
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42214889"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-22_
+_**主題上次修改日期：** 2013-02-22_
 
-回應群組應用程式提供方法讓 Microsoft Lync Server 2013 來接聽和路由電話上所撥打的號碼，並選擇性地在一系列的問題的發話者的回覆。 系統通常不會將回應群組通話路由傳送給個人，而是將通話路由傳送給稱為代理群組的一組人員。 例如，如果某人撥打的電話號碼為您的服務台，Lync Server 2013 可以自動路由傳送該呼叫的第一個可用的說明 desk 代理程式。 或者，Lync Server 可能會要求一系列的問題 (「 按下 1 如果您有硬體問題。 軟體問題請按 2。 按 3 如果您有網路問題 」）。然後將呼叫路由至最適當說明支援工程師的代理程式根據這些問題的答案。
+回應群組應用程式提供一種方式，讓 Microsoft Lync Server 2013 根據撥打的號碼來接聽和路由通話，也可以在來電者對一系列問題的回應中作出通話。 系統通常不會將回應群組通話路由傳送給個人，而是將通話路由傳送給稱為代理群組的一組人員。 例如，如果有人呼叫您的技術支援人員的電話號碼，Lync Server 2013 可自動將該呼叫路由傳送至第一個可用的服務台代理。 或者，如果您有硬體問題，Lync Server 可能會詢問一系列的問題 ( "請按1。 軟體問題請按 2。 如果您有網路問題，請按3。」) ，然後根據這些問題的答案，將通話路由傳送給最適當的服務台代理程式。
 
-回應群組通話清單報告代表一群通話所做的一段時間的時間與指定類型的呼叫。 回應群組使用量報告 （其必須先開啟之前您可以開啟回應群組通話清單報告） 可辨識下列通話類型：
+回應群組通話清單報告代表指定的一段時間內和指定的通話類型所撥打的來電集合。 [回應群組使用量] 報告 (，必須先開啟此報告，才能開啟回應群組通話清單報告) 識別下列呼叫類型：
 
   - **接收的通話**。 回應群組應用程式的所有執行個體接收的通話總數。
 
-  - **成功的通話**。 已收取的回應群組應用程式的通話總數。
+  - **成功的通話**。 回應群組應用程式挑選的呼叫總數。
 
   - **提供的通話**。轉接至回應群組代理程式的通話總數。
 
@@ -57,7 +59,7 @@ _**上次修改主題：** 2013年-02-22_
 
 ## <a name="accessing-the-response-group-call-list-report"></a>存取回應群組通話清單報告
 
-按一下 [ [Lync Server 2013 中的回應群組使用量報告](lync-server-2013-response-group-usage-report.md)上找到下列計量之一只可以存取回應群組通話清單報告：
+按一下下列其中一個在 [Lync Server 2013 中的 [回應群組使用方式] 報告中](lync-server-2013-response-group-usage-report.md)找到的計量，即可存取回應群組通話清單報告：
 
   - 接收的通話
 
@@ -73,26 +75,26 @@ _**上次修改主題：** 2013年-02-22_
 
 <div>
 
-## <a name="making-the-best-use-of-the-response-group-call-list-report"></a>最大效用的回應群組通話清單報告
+## <a name="making-the-best-use-of-the-response-group-call-list-report"></a>充分利用回應群組通話清單報告
 
-回應群組通話清單報告可讓您限制對通話牽涉到特定的回應群組工作流程顯示的資料。 若要這樣做，您需要在 [工作流程 URI] 方塊中輸入工作流程 （工作流程的 SIP 位址） 的 URI。 您可以這麼做之前，不過，您必須實際能夠看到工作流程 URI] 方塊中。 若要顯示回應群組通話清單報告的篩選選項，請按一下 [報表] 視窗的左上左邊部分中的 [顯示/隱藏參數] 按鈕。
+回應群組通話清單報告可讓您將顯示的資料限制為涉及特定回應群組工作流程的呼叫。 若要這麼做，您必須在 [工作流程 URI] 方塊中輸入工作流程 URI (工作流程的 SIP 位址) 。 不過，您必須確實能夠看到工作流程 URI 方塊，才能執行這項作業。 若要顯示回應群組通話清單報告的篩選選項，請在報表視窗的左上方，按一下 [顯示/隱藏參數] 按鈕。
 
-請注意，回應群組通話清單不會顯示資訊的回應碼或診斷識別碼是否您將滑鼠停留在這些計量之一。 如果您需要的詳細資訊，您可能會記下的回應碼及/或診斷識別碼，並且然後搜尋[Lync Server 2013 中的最大失敗報告](lync-server-2013-top-failures-report.md)中的這些值。
+請注意，回應群組通話清單不會顯示回應碼或診斷識別碼的資訊（如果您將滑鼠放在其中一個計量中）。 如果您需要詳細資訊，請注意回應碼和/或診斷識別碼，然後在 [Lync Server 2013 的 [最大失敗] 報告中](lync-server-2013-top-failures-report.md)搜尋這些值。
 
-像這樣的問題: 「 哪一個個別的工作流程接收最多通話？ 」，您可以執行下列動作：
+這類問題：「哪些個別工作流程接收最多通話？」，您可以執行下列作業：
 
-1.  在回應群組使用量報告中，設定所需的時間期間，然後按一下已接收通話計量。 如此會開啟回應群組通話清單報告。
+1.  在 [回應群組使用量] 報告上，設定所需的時間週期，然後按一下 [接收的通話計數]。 這會開啟回應群組通話清單報告。
 
-2.  匯出的回應群組通話清單報告上顯示的資料。 例如，您可能會匯出 Microsoft Excel 格式的資料，並再將該資料轉換成逗點分隔值檔案使用 Excel。
+2.  匯出回應群組通話清單報告上顯示的資料。 例如，您可以將 Microsoft Excel 格式的資料匯出，然後使用 Excel 將該資料轉換成逗號分隔值檔案。
 
-3.  執行分析使用 Windows PowerShell。
+3.  使用 Windows PowerShell 執行分析。
 
-例如，如果您將資料儲存至檔案，名為 c:\\資料\\回應\_群組\_呼叫\_清單\_Report.csv，您可以再使用下列命令來傳回每個工作流程報告中所列的已接收通話總數：
+例如，如果您已將資料儲存到名為 C： \\ data \\ Response \_ Group \_ Call \_ ListReport.csv 的檔案 \_ 中，您就可以使用下列命令，為報告中列出的每個工作流程傳回已接收的呼叫總數：
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 
-會將類似的資訊：
+這會類似如下的資訊：
 
     Count    Name
     -----    ----
@@ -108,7 +110,7 @@ _**上次修改主題：** 2013年-02-22_
 
 ## <a name="filters"></a>篩選
 
-篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。 下表列出您可以使用回應群組通話清單報告的篩選器。
+篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。 下表列出您可以搭配回應群組通話清單報告使用的篩選器。
 
 ### <a name="response-group-call-list-report-filters"></a>回應群組通話清單報告篩選器
 
@@ -129,9 +131,9 @@ _**上次修改主題：** 2013年-02-22_
 <td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -139,9 +141,9 @@ _**上次修改主題：** 2013年-02-22_
 <td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
@@ -150,14 +152,14 @@ _**上次修改主題：** 2013年-02-22_
 <p>sip:helpdesk@litwareinc.com</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>通話</strong></p></td>
-<td><p>您可以選取下列其中一個下列通話類型：</p>
+<td><p><strong>調用</strong></p></td>
+<td><p>您可以選取下列其中一種通話類型：</p>
 <ul>
-<li><p>接收的通話</p></li>
-<li><p>成功的通話</p></li>
-<li><p>提供的通話</p></li>
+<li><p>接收通話</p></li>
+<li><p>通話成功</p></li>
+<li><p>提供通話</p></li>
 <li><p>接聽的通話</p></li>
-<li><p>轉接的通話</p></li>
+<li><p>轉接通話</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -168,9 +170,9 @@ _**上次修改主題：** 2013年-02-22_
 
 <div>
 
-## <a name="metrics"></a>計量
+## <a name="metrics"></a>指標
 
-下表列出回應群組應用程式所接收的每個呼叫的回應群組通話清單報告內所提供的資訊。
+下表列出回應群組應用程式每次呼叫的回應群組通話清單報告中提供的資訊。
 
 ### <a name="response-group-call-list-report-metrics"></a>回應群組通話清單報告計量
 
@@ -182,9 +184,9 @@ _**上次修改主題：** 2013年-02-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -201,22 +203,22 @@ _**上次修改主題：** 2013年-02-22_
 <tr class="odd">
 <td><p><strong>開始時間</strong></p></td>
 <td><p>否</p></td>
-<td><p>日期和時間通話的開始。</p></td>
+<td><p>通話的開始日期與時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>結束時間</strong></p></td>
 <td><p>否</p></td>
-<td><p>日期和時間通話的結束。</p></td>
+<td><p>通話的結束日期和時間。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>回應碼</strong></p></td>
 <td><p>否</p></td>
-<td><p>SIP 工作階段失敗時傳送的回應碼。</p></td>
+<td><p>會話失敗時傳送的 SIP 回應碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>診斷識別碼</strong></p></td>
 <td><p>否</p></td>
-<td><p>唯一識別項 （以毫秒診斷標頭的形式） 附加在 SIP 訊息通常提供在疑難排解錯誤很有用的資訊。</p></td>
+<td><p>附加至 SIP 郵件（通常會在疑難排解錯誤中提供有用資訊) ）的表單中的唯一識別碼 (。</p></td>
 </tr>
 </tbody>
 </table>

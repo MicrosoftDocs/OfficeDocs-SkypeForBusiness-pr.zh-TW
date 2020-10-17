@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 分支網站彈性功能
+title: Lync Server 2013：分支網站恢復功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa8e54578ba2e81f7e2e847994e92e13bb8010ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8f141b592fb5a89941d5b6e2b3e1e5c9d770fdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207149"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513010"
 ---
+# <a name="branch-site-resiliency-features-in-lync-server-2013"></a>Lync Server 2013 中的分支網站恢復功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-features-in-lync-server-2013"></a>Lync Server 2013 中的分支網站恢復功能
+
 
 </div>
 
@@ -35,52 +37,52 @@ ms.locfileid: "42207149"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-02-10_
+_**主題上次修改日期：** 2014-02-10_
 
-如果您提供分支網站恢復能力，如果分支站台的 WAN 連線至中央網站失敗或無法連線到中央網站時，以下語音功能應可繼續運作：
+如果您提供分支網站恢復能力，當分支網站與中央網站的 WAN 連線失敗，或是無法存取中央網站時，下列語音功能應該仍然可用：
 
 <div>
 
 
-  - 輸入和輸出公用交換的電話網路 (PSTN) 通話
+  - 輸入和輸出公用交換電話網路 (PSTN) 通話
 
   - 相同與不同的網站之間的使用者，皆可進行企業通話
 
   - 基本通話處理，包括通話保留、取回和轉接
 
-  - 若為雙方立即訊息
+  - 兩方立即訊息
 
-  - 來電轉接、 同時響鈴端點、 通話委派及小組通話服務，但僅限委託人和代理人 （例如，經理和經理的系統管理員） 或所有小組成員，在相同站台設定
+  - 來電轉接、端點同時響鈴、呼叫委派及小組通話服務，但只有在 delegator 和代理人 (例如，管理員和管理員的系統管理員) 或所有小組成員，都是在相同的網站上設定
 
-  - 詳細通話記錄 (Cdr)
+  - Cdr)  (詳細通話記錄
 
-  - PSTN 電話撥入式會議與會議自動語音應答
+  - 使用會議自動語音應答的 PSTN 電話撥入式會議
 
-  - 語音信箱功能，如果您設定語音信箱重新路由設定。 （如需詳細資訊，請參閱[Lync Server 2013 的分支網站恢復能力需求](lync-server-2013-branch-site-resiliency-requirements.md)）。
+  - 語音信箱功能（如果您設定語音信箱重新路由設定）。  (如需詳細資訊，請參閱 [Lync Server 2013 的分支網站恢復需求](lync-server-2013-branch-site-resiliency-requirements.md)。 ) 
 
   - 使用者驗證和授權
 
-下列功能會變成可用只有在您的恢復解決方案為分支網站的完整規模 Lync Server 部署：
+下列功能只有在您的恢復解決方案在分支網站上是完整的 Lync Server 部署時才會使用：
 
-  - IM、 web 和 A / V 會議
+  - IM、web 及 A/V 會議
 
-  - 目前狀態和不打擾 DND 基礎路由 （可防止來電在已啟動 DND 的分機上響起）
+  - 目前狀態和請勿打擾 (DND) 型路由 (禁止通話在已啟用 DND 的分機上響鈴) 
 
   - 更新來電轉接設定
 
   - 回應群組應用程式和通話駐留應用程式
 
-  - 佈建新電話與用戶端，但是只有 Active Directory 網域服務有分支網站。
+  - 布建新的電話和用戶端，但只有在分支網站有 Active Directory 網域服務。
 
-  - 增強型的 9-1-1 (E9-1-1)
+  - 增強型 9-1-1 (E9-1-1) 
     
-    如果部署 E9-1-1，且 SIP 主幹在中央網站無法使用，因為在 WAN 連結已關閉，Survivable Branch Appliance 會路由傳送至本機分支閘道的 E9-1-1 通話。 若要啟用此功能，在分支網站使用者的語音原則應該將通話路由傳送至本機閘道 WAN 故障時。
+    如果已部署 E9-1-1，而中央網站的 SIP 主幹無法使用，因為 WAN 連結已關機，則 Survivable Branch 裝置會將 E9-1-1 呼叫路由傳送至本機分支閘道。 若要啟用此功能，分支網站使用者的語音原則應該會在發生 WAN 失敗時，將通話路由傳送至本地閘道。
 
 <div>
 
 
 > [!NOTE]  
-> 不支援 XMPP 的 SBA (survivable branch office)。 使用者位於 SBA 設定將無法傳送 Im 或查看與 XMPP 連絡人的目前狀態。
+> SBA (survivable branch office) 不支援 XMPP。 位於 SBA 設定中的使用者將無法使用 XMPP 連絡人傳送 IMs 或查看顯示狀態。
 
 
 

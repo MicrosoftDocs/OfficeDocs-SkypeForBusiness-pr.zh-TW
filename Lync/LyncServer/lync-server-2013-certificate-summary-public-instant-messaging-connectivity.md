@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 憑證摘要-公用立即訊息連線
+title: Lync Server 2013：憑證摘要-公用立即訊息連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacf411f348199376e1564be37f683854480872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdc4bba8064332d7fa3f90d0d6a3d4b9f6cef9e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187406"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512780"
 ---
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Lync Server 2013 中的憑證摘要-公用立即訊息連線
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>憑證摘要-公用立即訊息 [Lync Server 2013 中的連線能力
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42187406"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-19_
+_**主題上次修改日期：** 2013-02-19_
 
-若要設定 public Instant Messaging 連線的憑證，您應該先發現有不同於其他 SIP 同盟類型或甚至是標準的 Edge Server 憑證，則是 nothing 不同之處在於 America Online (AOL) 需要唯一憑證設定。 除了一般伺服器增強金鑰使用方法 (EKU)，America Online 要求的憑證或憑證 （在 Edge 集區） 也包含用戶端 EKU。 用戶端 EKU 是憑證，除了，而且是指派給您的 Edge Server 的外部公用憑證的一部分。
+若要設定公用立即訊息連線的憑證，您應該先注意到其他 SIP 同盟類型或甚至是標準 Edge Server 憑證沒有任何不同之處，但北美線上 (AOL) 需要唯一的憑證設定。 除了一般的 server 增強金鑰使用方式外 (EKU) ，北美線上) Edge 集區的情況也需要憑證或憑證 (也包含用戶端 EKU。 用戶端 EKU 是憑證的新增，也是指派給 Edge Server 的外部公用憑證的一部分。
 
 <div>
 
@@ -66,7 +68,7 @@ _**上次修改主題：** 2013年-02-19_
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>憑證必須來自公用 CA，且必須伺服器 EKU 和用戶端 EKU 部署搭配 AOL 的公用 IM 連線時。 將憑證指派給的外部 Edge Server 介面：</p>
+<td><p>憑證必須來自公用 CA，而且若要部署與 AOL 的公用 IM 連線，則必須具有伺服器 EKU 和用戶端 EKU。 此憑證會指派給下列專案的外部 Edge Server 介面：</p>
 <ul>
 <li><p>Access Edge Service</p></li>
 <li><p>Web Conferencing Edge service</p></li>
@@ -85,7 +87,7 @@ _**上次修改主題：** 2013年-02-19_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md)  
+[Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)  
   
 
 </div>

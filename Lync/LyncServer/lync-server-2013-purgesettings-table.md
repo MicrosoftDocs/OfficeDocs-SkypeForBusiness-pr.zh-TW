@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: PurgeSettings 表'
+title: Lync Server 2013： PurgeSettings 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cbe8543f1d26f42186654d2988258e796d7eebb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 84c75e96c9a1541a8bd56f68d5fcf9d1a8655204
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512210"
 ---
+# <a name="purgesettings-table-in-lync-server-2013"></a>Lync Server 2013 中的 PurgeSettings 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="purgesettings-table-in-lync-server-2013"></a>Lync Server 2013 中的 PurgeSettings 表
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42183396"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
-PurgeSettings 表包含指定是否 （時） 的資訊從 CDR 資料庫會自動刪除過期的通話詳細記錄。 請注意，清除的相關資訊，還可以取得從 Microsoft Lync Server 2013 管理命令介面中執行下列命令：
+PurgeSettings 表包含的資訊可指定是否 (和何時會自動從 CDR 資料庫中刪除) 過期的詳細通話記錄。 請注意，您也可以在 Microsoft Lync Server 2013 管理命令介面中執行下列命令，以取得清除相關資訊：
 
     Get-CsCdrConfiguration
 
-系統管理員應將 PurgeSettings 表格視為唯讀： 通話詳細資料的清除設定應該只會變更使用[New-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)或[Set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet。
+管理員應該將 PurgeSettings 表格視為唯讀：只有在使用 [新的-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) 或 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) Cmdlet 時，才應進行通話詳細資料清除設定的變更。
 
-Microsoft Lync Server 2013 中已採用此表格。
+此表格已引進 Microsoft Lync Server 2013。
 
 
 <table>
@@ -57,7 +59,7 @@ Microsoft Lync Server 2013 中已採用此表格。
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -66,25 +68,25 @@ Microsoft Lync Server 2013 中已採用此表格。
 <td><p><strong>Id</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>唯一識別項集合的 CDR 清除設定。</p></td>
+<td><p>CDR 清除設定集合的唯一識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EnablePurge</strong></p></td>
-<td><p>位元</p></td>
+<td><p>位</p></td>
 <td></td>
-<td><p>當設為 True （1) Microsoft Lync Server 2013 會定期從 CDR 資料庫清除過期的記錄。 清除動作會每天在 PurgeHour 設定中指定的時間加以執行。 若設為 False (0)，就不會從資料庫自動清除記錄。 預設值為 True。</p></td>
+<td><p>設為 True 時 (1) Microsoft Lync Server 2013 會定期從 CDR 資料庫清除過時的記錄。 清除動作會每天在 PurgeHour 設定中指定的時間加以執行。 若設為 False (0)，就不會從資料庫自動清除記錄。 預設值為 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>KeepCallDetailForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定的保留天數會從資料庫中清除的 CDR 記錄 （以天數）： 如果啟用 [清除]，將會從資料庫中移除 CDR 記錄超過此值。 預設值為 60 天。</p></td>
+<td><p>會指定要從資料庫中清除之 CDR 記錄的保留天數)  (：如果啟用清除，則舊于此值以上的 CDR 記錄會從資料庫中移除。 預設值為 60 天。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>KeepErrorReportForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定錯誤報告中的記錄 （天），將會從資料庫中清除存留期： 如果啟用 [清除]，將會從資料庫中移除錯誤報告的記錄超過此值。 預設值為 60 天。</p></td>
+<td><p>指定要從資料庫中清除的錯誤報表記錄 (天數) ：若啟用清除功能，則會從資料庫中移除比此值還舊的錯誤報表記錄。 預設值為 60 天。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PurgeHour</strong></p></td>

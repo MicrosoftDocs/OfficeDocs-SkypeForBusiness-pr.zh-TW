@@ -1,5 +1,5 @@
 ---
-title: 對於 IPv6 的 Lync Server 2013： 移轉和共存考量
+title: Lync Server 2013： IPv6 的遷移和共存考慮
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf7e062a7a96f6f7aca642298471b0a8cf8adaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1f091b12b12913af107991c86b87d1d738bf88bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185097"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513610"
 ---
+# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a>Lync Server 2013 中 IPv6 的遷移和共存考慮
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a>Lync Server 2013 中的 IPv6 的移轉和共存考量
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42185097"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-14_
+_**主題上次修改日期：** 2012-06-14_
 
-Lync Server 2010 或 Office Communications Server 不支援 IP 第 6 版 (IPv6)。 以駕駛來說，您可以測試 Lync Server 2010 和 Lync Server 2013 雙重堆疊共存。 我們建議所有集區，以指定的中央網站升級至 Lync Server 2013 啟用 IPv6 之前 （雙重堆疊網路） 的任何集區。 如果您需要只能設定為 IPv6 的集區，我們建議您在測試實驗室環境中設定僅 IPv6 集區。
+Lync Server 2010 或 Office 通訊伺服器不支援 IP 版本 6 (IPv6) 。 出於試驗目的，您可以測試 Lync Server 2010 和 Lync Server 2013 雙堆疊共存。 建議您將指定中央網站的所有集區升級至 Lync Server 2013，然後再為任何集區啟用 IPv6 (雙堆疊網路) 。 [！附注] 如果您只需要為 IPv6 設定集區，建議您在實驗室環境中設定 IPv6 專用集區以進行測試。
 
-移轉和共存期間支援下列案例：
+在遷移和共存期間支援下列案例：
 
-  - Lync Server 2013、 Lync Server 2010 及 Office Communications Server 2007 R2 處於 IPv4 模式的集區與 Lync Server 2013 共存在雙重堆疊模式中。
+  - Lync Server 2013、Lync Server 2010 和 Office 通訊伺服器 2007 R2 集區中 IPv4 模式，與 Lync Server 2013 在雙堆疊模式中共存。
 
-  - 在僅 IPv6 模式中，如果僅 IPv6 集區獨立的 Lync Server 2013 集區。
+  - 在僅限 IPv6 模式中的 Lync Server 2013 集區，如果僅限 IPv6 集區為孤立的集區。
 
 </div>
 
