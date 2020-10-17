@@ -1,5 +1,6 @@
 ---
 title: 啟用遠端呼叫控制
+description: 啟用遠端呼叫控制。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8009ffc927ad3f7a4f83ad3505100f3a9d4e82d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502890"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551129"
 ---
 # <a name="enable-remote-call-control"></a>啟用遠端呼叫控制
 
@@ -55,7 +56,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 4.  透過啟用遠端呼叫控制，並指派行伺服器統一資源識別項 (URI) 和行 URI，為遠端呼叫控制設定 Lync 2013 使用者。 當您從舊版部署將使用者遷移至 Lync Server 2013 時，遠端呼叫控制設定會隨其他使用者設定一起遷移。
 
-5.  若您的舊版部署中自訂有通訊錄電話號碼正規化規則，必須在自動化移轉原則及設定的作業完成之後，執行一些手動工作，才可移轉自訂的正規化規則。 若您未自訂任何正規化規則，通訊錄將會隨拓撲的剩餘部分一併移轉。 如需手動移轉自訂正規化規則的詳細資訊，請參閱＜[Migrate Address Book](migrate-address-book_1.md)＞。
+5.  若您的舊版部署中自訂有通訊錄電話號碼正規化規則，必須在自動化移轉原則及設定的作業完成之後，執行一些手動工作，才可移轉自訂的正規化規則。 若您未自訂任何正規化規則，通訊錄將會隨拓撲的剩餘部分一併移轉。 如需手動移轉自訂正規化規則的詳細資訊，請參閱＜[Migrate Address Book](migrate-address-book.md)＞。
 
 </div>
 
