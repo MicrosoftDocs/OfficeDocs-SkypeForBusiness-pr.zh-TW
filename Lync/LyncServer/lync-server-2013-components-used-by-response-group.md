@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：回應群組使用的元件
+description: Lync Server 2013：回應群組使用的元件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b59f96175925c427f77880012f804daf20bf751
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a1e916d9e4bf986bf0337a6f1f1dd918ff2772e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517770"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571699"
 ---
 # <a name="components-used-by-response-group-in-lync-server-2013"></a>Lync Server 2013 中回應群組使用的元件
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：設定 Lync Server 使用整合連絡人存放區
+description: Lync Server 2013：設定 Lync Server 以使用整合連絡人存放區。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1f913b321d700337d1cb3649c2e1351971b6d7a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6905d2e393fec36fe5db3e40ee20087c0cca0991
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506250"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570789"
 ---
 # <a name="configuring-microsoft-lync-server-2013-to-use-the-unified-contact-store"></a>設定 Microsoft Lync Server 2013 以使用整合連絡人存放區
 

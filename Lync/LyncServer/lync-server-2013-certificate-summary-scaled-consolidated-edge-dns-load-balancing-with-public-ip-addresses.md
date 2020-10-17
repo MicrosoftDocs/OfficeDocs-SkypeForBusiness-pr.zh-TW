@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：憑證摘要-調整式合併 edge （利用公用 IP 位址進行 DNS 負載平衡）
+description: Lync Server 2013：憑證摘要-調整式合併 edge （利用公用 IP 位址進行 DNS 負載平衡）。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9e3acc8efdffd3d04eca2d009791c7cc5d41a3b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e404b65ea0fff9950d3cb2496ff7e97d8762695a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499280"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572269"
 ---
 # <a name="certificate-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 中的憑證摘要-調整式合併 edge （透過公用 IP 位址進行 DNS 負載平衡）
 

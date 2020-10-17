@@ -1,5 +1,6 @@
 ---
 title: 階段1：規劃從 Office 通訊伺服器 2007 R2 遷移
+description: 階段1：規劃從 Office 通訊伺服器 2007 R2 進行遷移。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64414268ef1ca38302eed360810b92706bf3ce89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 67a05fb6782b22d7a4efb70702c8c2378cd6bde3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533780"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571209"
 ---
 # <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>階段1：規劃從 Office 通訊伺服器 2007 R2 遷移
 
@@ -45,15 +46,15 @@ _**主題上次修改日期：** 2012-09-29_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [使用者移轉](user-migration_1.md)
+  - [使用者移轉](user-migration.md)
 
-  - [移轉封存和監控伺服器](migrating-archiving-and-monitoring-servers_1.md)
+  - [移轉封存和監控伺服器](migrating-archiving-and-monitoring-servers.md)
 
-  - [在移轉後管理伺服器](administering-servers-after-migration_1.md)
+  - [在移轉後管理伺服器](administering-servers-after-migration.md)
 
-  - [移轉多個網站與集區](migrating-multiple-sites-and-pools_1.md)
+  - [移轉多個網站與集區](migrating-multiple-sites-and-pools.md)
 
-  - [移轉 XMPP 同盟](migrating-xmpp-federation_1.md)
+  - [移轉 XMPP 同盟](migrating-xmpp-federation.md)
 
 </div>
 
