@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 還原常設聊天室資料
+title: Lync Server 2013：還原持久聊天資料
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38fe2e05629dea4b9194fdc0102d89232c3f6309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dfe3a6c23e9de159c9024d660caf3f04fe648b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201379"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511406"
 ---
+# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a><span data-ttu-id="0a9bf-102">在 Lync Server 2013 中還原 Persistent Chat 資料</span><span class="sxs-lookup"><span data-stu-id="0a9bf-102">Restoring Persistent Chat data in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a><span data-ttu-id="3bc06-102">還原 Lync Server 2013 中的 [常設聊天室資料</span><span class="sxs-lookup"><span data-stu-id="3bc06-102">Restoring Persistent Chat data in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42201379"
 
 <span> </span>
 
-<span data-ttu-id="3bc06-103">_**上次修改主題：** 2013年-02-18_</span><span class="sxs-lookup"><span data-stu-id="3bc06-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="0a9bf-103">_**主題上次修改日期：** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="0a9bf-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="3bc06-104">常設聊天室內容儲存在常設聊天室資料庫 (mgc.mdf)。</span><span class="sxs-lookup"><span data-stu-id="3bc06-104">Persistent Chat room content is stored in the Persistent Chat database (mgc.mdf).</span></span> <span data-ttu-id="3bc06-105">這是應該定期備份的重要商業資料。</span><span class="sxs-lookup"><span data-stu-id="3bc06-105">This is business-critical data that should be backed up regularly.</span></span> <span data-ttu-id="3bc06-106">除了聊天室內容、 主體 （例如使用者和群組） 的角色和它們對聊天室和聊天室內容的存取也儲存在常設聊天室資料庫。</span><span class="sxs-lookup"><span data-stu-id="3bc06-106">In addition to the chat room content, principals (such as users and groups) and the roles and access that they have to chat rooms and chat room content, is also stored in the Persistent Chat database.</span></span>
+<span data-ttu-id="0a9bf-104">Persistent 聊天室內容會儲存在 Persistent Chat (mgc) 中。</span><span class="sxs-lookup"><span data-stu-id="0a9bf-104">Persistent Chat room content is stored in the Persistent Chat database (mgc.mdf).</span></span> <span data-ttu-id="0a9bf-105">這是應該定期備份的重要業務資料。</span><span class="sxs-lookup"><span data-stu-id="0a9bf-105">This is business-critical data that should be backed up regularly.</span></span> <span data-ttu-id="0a9bf-106">除了聊天室內容之外，主體 (（例如使用者和群組）) 以及必須與聊天室內容和聊天室內容之間的角色和存取，也會儲存在 Persistent Chat 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="0a9bf-106">In addition to the chat room content, principals (such as users and groups) and the roles and access that they have to chat rooms and chat room content, is also stored in the Persistent Chat database.</span></span>
 
-<span data-ttu-id="3bc06-107">還原您的常設聊天室資料的方式取決於您用來備份它的方法。</span><span class="sxs-lookup"><span data-stu-id="3bc06-107">How you restore your Persistent Chat data depends on the method that you used to back it up.</span></span>
+<span data-ttu-id="0a9bf-107">還原持久聊天資料的方式取決於您用來備份它的方法。</span><span class="sxs-lookup"><span data-stu-id="0a9bf-107">How you restore your Persistent Chat data depends on the method that you used to back it up.</span></span>
 
-  - <span data-ttu-id="3bc06-108">如果您使用 SQL Server 備份程序，您必須使用 SQL Server 還原程序。</span><span class="sxs-lookup"><span data-stu-id="3bc06-108">If you used SQL Server backup procedures, you must use SQL Server restore procedures.</span></span>
+  - <span data-ttu-id="0a9bf-108">如果您使用 SQL Server 備份程式，您必須使用 SQL Server 還原程式。</span><span class="sxs-lookup"><span data-stu-id="0a9bf-108">If you used SQL Server backup procedures, you must use SQL Server restore procedures.</span></span>
 
-  - <span data-ttu-id="3bc06-109">如果您使用**Export-cspersistentchatdata**指令程式來備份常設聊天室資料，則必須使用**Import-cspersistentchatdata** cmdlet 來還原資料。</span><span class="sxs-lookup"><span data-stu-id="3bc06-109">If you used the **Export-CsPersistentChatData** cmdlet to back up Persistent Chat data, then you must use the **Import-CsPersistentChatData** cmdlet to restore the data.</span></span>
+  - <span data-ttu-id="0a9bf-109">如果您使用 **Export-CsPersistentChatData** Cmdlet 來備份 Persistent 聊天資料，則必須使用 **Import-CsPersistentChatData** Cmdlet 來還原資料。</span><span class="sxs-lookup"><span data-stu-id="0a9bf-109">If you used the **Export-CsPersistentChatData** cmdlet to back up Persistent Chat data, then you must use the **Import-CsPersistentChatData** cmdlet to restore the data.</span></span>
 
 </div>
 

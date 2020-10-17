@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Server 表格'
+title: Lync Server 2013：伺服器表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d95ca6af9a3e762a39142fcaf754d810050d83d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebfc08cd5a27527d5afebdae8b2fea8335f93dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510230"
 ---
+# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="8832b-102">Lync Server 2013 中的伺服器表格</span><span class="sxs-lookup"><span data-stu-id="8832b-102">Server table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="06c89-102">Lync Server 2013 中的 server 表格</span><span class="sxs-lookup"><span data-stu-id="06c89-102">Server table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42200769"
 
 <span> </span>
 
-<span data-ttu-id="06c89-103">_**主題上次修改日期：** 2012年-10-02_</span><span class="sxs-lookup"><span data-stu-id="06c89-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="8832b-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="8832b-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="06c89-104">伺服器表格是一種支援資料表。</span><span class="sxs-lookup"><span data-stu-id="06c89-104">The Server table is a supporting table.</span></span> <span data-ttu-id="06c89-105">每筆記錄代表一部伺服器。</span><span class="sxs-lookup"><span data-stu-id="06c89-105">Each record represents one server.</span></span>
+<span data-ttu-id="8832b-104">伺服器資料表是支援的表格。</span><span class="sxs-lookup"><span data-stu-id="8832b-104">The Server table is a supporting table.</span></span> <span data-ttu-id="8832b-105">每筆記錄代表一部伺服器。</span><span class="sxs-lookup"><span data-stu-id="8832b-105">Each record represents one server.</span></span>
 
 
 <table>
@@ -49,43 +51,43 @@ ms.locfileid: "42200769"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="06c89-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="06c89-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="06c89-108"><strong>主索引鍵 /</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="06c89-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="8832b-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="8832b-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="8832b-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="8832b-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="06c89-110"><strong>ServerKey</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-110"><strong>ServerKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="06c89-111">int</span><span class="sxs-lookup"><span data-stu-id="06c89-111">int</span></span></p></td>
-<td><p><span data-ttu-id="06c89-112">主要</span><span class="sxs-lookup"><span data-stu-id="06c89-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="06c89-113">識別伺服器的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="06c89-113">Unique number identifying the server.</span></span></p></td>
+<td><p><span data-ttu-id="8832b-110"><strong>ServerKey</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-110"><strong>ServerKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="8832b-111">int</span><span class="sxs-lookup"><span data-stu-id="8832b-111">int</span></span></p></td>
+<td><p><span data-ttu-id="8832b-112">主要</span><span class="sxs-lookup"><span data-stu-id="8832b-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="8832b-113">用於識別伺服器的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="8832b-113">Unique number identifying the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06c89-114"><strong>FQDNOrIP</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-114"><strong>FQDNOrIP</strong></span></span></p></td>
-<td><p><span data-ttu-id="06c89-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="06c89-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="06c89-116">index</span><span class="sxs-lookup"><span data-stu-id="06c89-116">index</span></span></p></td>
-<td><p><span data-ttu-id="06c89-117">MAC 位址字串。</span><span class="sxs-lookup"><span data-stu-id="06c89-117">MAC address string.</span></span></p></td>
+<td><p><span data-ttu-id="8832b-114"><strong>FQDNOrIP</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-114"><strong>FQDNOrIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="8832b-115">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="8832b-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="8832b-116">index</span><span class="sxs-lookup"><span data-stu-id="8832b-116">index</span></span></p></td>
+<td><p><span data-ttu-id="8832b-117">MAC 位址字串。</span><span class="sxs-lookup"><span data-stu-id="8832b-117">MAC address string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06c89-118"><strong>ServerType</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-118"><strong>ServerType</strong></span></span></p></td>
-<td><p><span data-ttu-id="06c89-119">int</span><span class="sxs-lookup"><span data-stu-id="06c89-119">int</span></span></p></td>
-<td><p><span data-ttu-id="06c89-120">Foreign</span><span class="sxs-lookup"><span data-stu-id="06c89-120">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06c89-121">1： 中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="06c89-121">1: Mediation Server</span></span></p>
-<p><span data-ttu-id="06c89-122">2: A / V Conferencing Server16394: A / V Edge service32769: Gateway</span><span class="sxs-lookup"><span data-stu-id="06c89-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
+<td><p><span data-ttu-id="8832b-118"><strong>ServerType</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-118"><strong>ServerType</strong></span></span></p></td>
+<td><p><span data-ttu-id="8832b-119">int</span><span class="sxs-lookup"><span data-stu-id="8832b-119">int</span></span></p></td>
+<td><p><span data-ttu-id="8832b-120">Foreign</span><span class="sxs-lookup"><span data-stu-id="8832b-120">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8832b-121">1：轉送伺服器</span><span class="sxs-lookup"><span data-stu-id="8832b-121">1: Mediation Server</span></span></p>
+<p><span data-ttu-id="8832b-122">2： A/V 會議 Server16394： A/V Edge service32769：閘道</span><span class="sxs-lookup"><span data-stu-id="8832b-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06c89-123"><strong>PoolName</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-123"><strong>PoolName</strong></span></span></p></td>
-<td><p><span data-ttu-id="06c89-124">nvarchar(512)</span><span class="sxs-lookup"><span data-stu-id="06c89-124">nvarchar(512)</span></span></p></td>
+<td><p><span data-ttu-id="8832b-123"><strong>PoolName</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-123"><strong>PoolName</strong></span></span></p></td>
+<td><p><span data-ttu-id="8832b-124">Nvarchar (512) </span><span class="sxs-lookup"><span data-stu-id="8832b-124">nvarchar(512)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06c89-125">伺服器所屬的集區。</span><span class="sxs-lookup"><span data-stu-id="06c89-125">Pool the server belongs to.</span></span> <span data-ttu-id="06c89-126">僅適用於 A / V 會議伺服器。</span><span class="sxs-lookup"><span data-stu-id="06c89-126">Only applicable for the A/V Conferencing Server.</span></span></p></td>
+<td><p><span data-ttu-id="8832b-125">伺服器所屬的集區。</span><span class="sxs-lookup"><span data-stu-id="8832b-125">Pool the server belongs to.</span></span> <span data-ttu-id="8832b-126">僅適用于 A/V 會議伺服器。</span><span class="sxs-lookup"><span data-stu-id="8832b-126">Only applicable for the A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06c89-127"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="06c89-127"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="06c89-128">datetime</span><span class="sxs-lookup"><span data-stu-id="06c89-128">datetime</span></span></p></td>
+<td><p><span data-ttu-id="8832b-127"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="8832b-127"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="8832b-128">datetime</span><span class="sxs-lookup"><span data-stu-id="8832b-128">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06c89-129">僅限內部使用。</span><span class="sxs-lookup"><span data-stu-id="06c89-129">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="8832b-129">僅限內部使用。</span><span class="sxs-lookup"><span data-stu-id="8832b-129">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
