@@ -12,20 +12,22 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3319b7c99def298d617fdc4711b9f346f40212a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a94b7183be9927267796d3e2adaed12b3b71eaf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501630"
 ---
+# <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中建立經驗品質設定設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中建立經驗品質設定設定
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 當您安裝 Microsoft Lync Server 2013 時，會為您建立單一、全域的 QoE 配置設定集合。 系統管理員也可以選擇建立網站範圍的自訂設定。 只要使用這些網站範圍的設定，其優先順序就高於全域設定。 例如，如果為 Redmond 網站建立網站範圍的設定，則會使用這些設定 (而非全域設定) 來管理 Redmond 的 QoE。
 
-您可以使用 Lync Server 控制台或[New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) Cmdlet 來建立 QoE 的設定設定。 如果您使用 Lync Server 控制台建立新的設定，您可以使用下列選項：
+您可以使用 Lync Server 控制台或 [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) Cmdlet 來建立 QoE 的設定設定。 如果您使用 Lync Server 控制台建立新的設定，您可以使用下列選項：
 
 
 <table>
@@ -86,7 +88,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 
 > [!NOTE]  
-> CsQoEConfiguration Cmdlet 包括 Lync Server 控制台中無法使用的其他選項。 如需詳細資訊，請參閱 CsQoEConfiguration 的「<A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">新增-</A>說明主題。
+> New-CsQoEConfiguration Cmdlet 包含 Lync Server 控制台中無法使用的其他選項。 如需詳細資訊，請參閱 CsQoEConfiguration 的「 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">新增-</A> 說明主題。
 
 
 
@@ -96,9 +98,9 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="to-create-qoe-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台建立 QoE 配置設定
 
-1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱[在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [在 Lync Server 2013 中委派設定許可權](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[監控和封存]**，然後按一下 **[經驗品質資料]**。
 
@@ -122,7 +124,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 建立 QoE 設定設定
 
-您可以使用 Windows PowerShell 和新的 CsQoEConfiguration Cmdlet 來建立 QoE 設定設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+您可以使用 Windows PowerShell 和 New-CsQoEConfiguration Cmdlet 來建立 QoE 設定設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -154,7 +156,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) Cmdlet 的 [說明] 主題。
 
 </div>
 

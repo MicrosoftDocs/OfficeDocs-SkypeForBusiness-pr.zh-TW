@@ -12,20 +12,22 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19cf24e1ef287b50ffece7407913a7d2c45e7062
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 903b115eaa820245135e0bc2c3650ba596c5d925
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502900"
 ---
+# <a name="download-topology-from-existing-deployment"></a>從現有部署下載拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="download-topology-from-existing-deployment"></a>從現有部署下載拓撲
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**主題上次修改日期：** 2012-09-29_
 
 **從現有的部署下載拓撲**
 
-1.  開啟**Lync Server 部署嚮導**。
+1.  開啟 **Lync Server 部署嚮導**。
 
-2.  在 [ **Lync Server 2013 –部署嚮導]** 頁面上，按一下 [**安裝系統管理工具**]。
+2.  在 [ **Lync Server 2013 –部署嚮導]** 頁面上，按一下 [ **安裝系統管理工具**]。
 
-3.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013** ]，然後按一下 [ **Lync server 拓撲**產生器]。
+3.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013** ]，然後按一下 [ **Lync server 拓撲**產生器]。
 
-4.  選取 [**從現有的部署下載拓撲**]。
+4.  選取 [ **從現有的部署下載拓撲**]。
     
     ![部署嚮導拓撲產生器設定](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "部署嚮導拓撲產生器設定")
 

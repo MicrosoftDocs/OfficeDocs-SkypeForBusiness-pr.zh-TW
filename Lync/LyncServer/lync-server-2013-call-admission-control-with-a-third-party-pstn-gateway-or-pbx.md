@@ -12,20 +12,22 @@ ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e9223722b37fa703bcc0410092ebdf933beb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7abd33af2dd2a7a5858fd8b888201b6471d0cf9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502810"
 ---
+# <a name="call-admission-control-in-lync-server-2013-with-a-third-party-pstn-gateway-or-pbx"></a>使用協力廠商 PSTN 閘道或 PBX 的 Lync Server 2013 中的通話許可控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-in-lync-server-2013-with-a-third-party-pstn-gateway-or-pbx"></a>使用協力廠商 PSTN 閘道或 PBX 的 Lync Server 2013 中的通話許可控制
+
 
 </div>
 
@@ -61,7 +63,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 
 
 > [!NOTE]
-> 確定 PSTN 閘道所屬的 IP 子網已經過設定，並與網路網站2相關聯。<BR>請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。<BR>如需詳細資訊，請參閱<A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中建立子網與網路網站的關聯</A>。
+> 確定 PSTN 閘道所屬的 IP 子網已經過設定，並與網路網站2相關聯。<BR>請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。<BR>如需詳細資訊，請參閱 <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中建立子網與網路網站的關聯</A>。
 
 
 
@@ -91,7 +93,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 
 
 > [!NOTE]
-> 確定 MTP 所屬的 IP 子網已經過設定，並與網路網站2相關聯。<BR>請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。<BR>如需詳細資訊，請參閱<A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中建立子網與網路網站的關聯</A>。
+> 確定 MTP 所屬的 IP 子網已經過設定，並與網路網站2相關聯。<BR>請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。<BR>如需詳細資訊，請參閱 <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中建立子網與網路網站的關聯</A>。
 
 
 
@@ -117,7 +119,7 @@ Case 3 與前兩個案例稍有不同。 如果在協力廠商 PBX 上沒有 MTP
 
 
 > [!NOTE]
-> 確定端點裝置所屬的 IP 子網已經過設定，並與網路網站2相關聯。<BR>請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。<BR>如需詳細資訊，請參閱<A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中建立子網與網路網站的關聯</A>。
+> 確定端點裝置所屬的 IP 子網已經過設定，並與網路網站2相關聯。<BR>請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。<BR>如需詳細資訊，請參閱 <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中建立子網與網路網站的關聯</A>。
 
 
 

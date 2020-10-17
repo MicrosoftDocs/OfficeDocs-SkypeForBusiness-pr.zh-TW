@@ -13,20 +13,22 @@ ms:contentKeyID: 49733816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b087b04a4f6bbf4b5740dcc28172d3f5312e793e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 30dc21ddbbfd5d65d6834ffa5a6181c5e4a13b1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503180"
 ---
+# <a name="configure-xmpp-gateway-on-lync-server-2013"></a>在 Lync Server 2013 上設定 XMPP 閘道
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-on-lync-server-2013"></a>在 Lync Server 2013 上設定 XMPP 閘道
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2013-10-28_
 
 4.  在 **[延遲或立即要求]** 頁面上，選取 **[立即準備此要求，但稍後再傳送]** 核取方塊。
 
-5.  在 [**憑證要求**檔案] 頁面上，輸入要儲存要求的檔案完整路徑和檔案名 (例如，c： \\ cert \_ 外部 \_ edge) 。
+5.  在 [ **憑證要求** 檔案] 頁面上，輸入要儲存要求的檔案完整路徑和檔案名 (例如，c： \\ cert \_ 外部 \_ edge) 。
 
 6.  若要使用預設 WebServer 範本之外的其他範本，請在 **[指定其他憑證範本]** 頁面上，選取 **[將其他憑證範本用於所選的憑證授權單位]** 核取方塊。
 
@@ -89,7 +91,7 @@ _**主題上次修改日期：** 2013-10-28_
 
 10. 在 **[主體名稱/主體別名]** 頁面上，會顯示精靈將自動填入的資訊。如果您還需要其他主體別名，請在後續兩個步驟中指定。
 
-11. 在 [**主體別名 (SANs) ** ] 頁面上的 [SIP 網域設定] 上，選取 [網域] 核取方塊以新增 SIP。 \<將 \> 專案 microsoft.rtc.management.xds.sipdomain 至主體替代名稱清單。
+11. 在 [ **主體別名 (SANs) ** ] 頁面上的 [SIP 網域設定] 上，選取 [網域] 核取方塊以新增 SIP。\<sipdomain\> 專案的主體替代名稱清單。
 
 12. 在 **[設定其他主體替代名稱]** 頁面上，指定任何需要的其他主體替代名稱。
     
@@ -104,7 +106,7 @@ _**主題上次修改日期：** 2013-10-28_
 
 13. 在 **[要求摘要]** 頁面上，檢閱要用來產生要求的憑證資訊。
 
-14. 命令執行完畢後，您可以**查看記錄**檔，或按 [下一步] 繼續。
+14. 命令執行完畢後，您可以 **查看記錄**檔，或按 [下一步] 繼續。
 
 15. 在 **[憑證要求檔案]** 頁面上，您可以按一下 **[檢視]** 來檢視所產生的憑證簽署要求 (CSR) 檔案，或者按一下 **[完成]** 以結束 [憑證精靈]。
 
@@ -136,7 +138,7 @@ _**主題上次修改日期：** 2013-10-28_
 
 6.  **描述**    描述是針對此特定設定的附注或其他識別資訊。 此專案是選用專案。
 
-7.  **其他網域**    其他網域是 XMPP 夥伴網域中的網域，應包含在允許的 XMPP 通訊中。 例如，如果主域是**fabrikam.com**，則您會列出位於 fabrikam.com 的所有其他網域，您會透過 XMPP 的方式來進行通訊。
+7.  **其他網域**    其他網域是 XMPP 夥伴網域中的網域，應包含在允許的 XMPP 通訊中。 例如，如果主域是 **fabrikam.com**，則您會列出位於 fabrikam.com 的所有其他網域，您會透過 XMPP 的方式來進行通訊。
 
 8.  **合作夥伴類型**    **同伴類型**是必要的設定。 您必須選擇下列其中一項來描述及強制執行哪些連絡人可以新增。 您可以從下列選取：
     
@@ -154,7 +156,7 @@ _**主題上次修改日期：** 2013-10-28_
 
 9.  **連線類型**：定義各種規則及回撥設定。
     
-      - **TLS 協商**    定義 TLS 協商規則。 XMPP 服務可以要求 TLS，也可以使用 tls 選用，或定義不支援 TLS。 選擇 [選用]，將需求留給 XMPP 服務，以強制進行必要的協商決策。 若要查看所有可能的設定和詳細資料，以瞭解 SASL、TLS 和回撥的協商-包括沒有有效和已知的錯誤設定，請參閱[Lync Server 2013 中的 XMPP](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)同盟協力廠商協商設定。
+      - **TLS 協商**    定義 TLS 協商規則。 XMPP 服務可以要求 TLS，也可以使用 tls 選用，或定義不支援 TLS。 選擇 [選用]，將需求留給 XMPP 服務，以強制進行必要的協商決策。 若要查看所有可能的設定和詳細資料，以瞭解 SASL、TLS 和回撥的協商-包括沒有有效和已知的錯誤設定，請參閱 [Lync Server 2013 中的 XMPP](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)同盟協力廠商協商設定。
         
           - <span></span>  
             **必要**    XMPP 服務需要 TLS 協商。
@@ -176,7 +178,7 @@ _**主題上次修改日期：** 2013-10-28_
           - <span></span>  
             **不支援**    XMPP 服務不支援 SASL。
     
-      - **支援伺服器的回撥協商**支援伺服器回撥協商程式會使用網域名稱系統 (DNS) 和授權伺服器以驗證要求來自有效的 XMPP 合作者。 為做到這一點，始發伺服器會使用產生的回撥機碼來建立特定類型的郵件，並在 DNS 中查閱接收伺服器。 原始伺服器會將 XML 資料流程中的金鑰傳送到所產生的 DNS 查詢（大概是接收伺服器）。 當您在 XML 資料流程上收到金鑰時，接收伺服器不會回應始發伺服器，但會將金鑰傳送至已知的授權伺服器。 授權伺服器會驗證機碼是否有效或無效。 如果無效，則接收伺服器不會回應始發伺服器。 若機碼是有效的，則接收伺服器會通知始發伺服器身分識別和金鑰是有效的，交談可以開始。
+      - **支援伺服器的回撥協商** 支援伺服器回撥協商程式會使用網域名稱系統 (DNS) 和授權伺服器以驗證要求來自有效的 XMPP 合作者。 為做到這一點，始發伺服器會使用產生的回撥機碼來建立特定類型的郵件，並在 DNS 中查閱接收伺服器。 原始伺服器會將 XML 資料流程中的金鑰傳送到所產生的 DNS 查詢（大概是接收伺服器）。 當您在 XML 資料流程上收到金鑰時，接收伺服器不會回應始發伺服器，但會將金鑰傳送至已知的授權伺服器。 授權伺服器會驗證機碼是否有效或無效。 如果無效，則接收伺服器不會回應始發伺服器。 若機碼是有效的，則接收伺服器會通知始發伺服器身分識別和金鑰是有效的，交談可以開始。
         
         **回撥交涉**具備兩種有效狀態：
         
@@ -194,7 +196,7 @@ _**主題上次修改日期：** 2013-10-28_
 
 ## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>更新 Lync Server 2013 XMPP 閘道的 DNS 記錄
 
-1.  若要設定 DNS 以進行 XMPP 同盟，您可以將下列 SRV 記錄新增至您的外部 DNS： \_ XMPP-server。 \_tcp。 \<功能變數名稱 \> SRV 記錄會解析為 Edge server 的 Access EDGE FQDN，埠值為5269。
+1.  若要設定 DNS 以進行 XMPP 同盟，您可以將下列 SRV 記錄新增至您的外部 DNS： \_ XMPP-server。 \_Tcp。\<domain name\> SRV 記錄會解析為 Edge server 的 Access Edge FQDN，埠值為5269。
 
 </div>
 

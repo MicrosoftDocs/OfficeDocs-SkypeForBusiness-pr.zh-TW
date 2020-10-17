@@ -12,20 +12,22 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 437051279393b9dedc7c4def0c75cd119cded914
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197826"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502670"
 ---
+# <a name="client-interoperability-in-lync-2013"></a>Lync 2013 中的用戶端互通性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Lync 2013 中的用戶端互通性
+
 
 </div>
 
@@ -144,7 +146,7 @@ _**主題上次修改日期：** 2016-03-04_
 </table>
 
 
-1For 詳細資料，請參閱[從 Lync server 2010，Group chat 或 Office 通訊伺服器 2007 R2 群組聊天至 Lync server 2013，Persistent Chat server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)。
+1For 詳細資料，請參閱 [從 Lync server 2010，Group chat 或 Office 通訊伺服器 2007 R2 群組聊天至 Lync server 2013，Persistent Chat server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)。
 
 2In Microsoft Lync Server 2010，群組聊天伺服器會提供群組聊天功能，這是 Lync Server 2010 的協力廠商信任應用程式。 Lync 2013 用戶端與 Lync Server 2010 （群組聊天）不相容。
 
@@ -298,7 +300,7 @@ Office Communicator 2007 R2 中的4The 目前狀態和 IM 功能與 Lync Server 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 (PIC USL) 已不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
+> <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 (PIC USL) 已不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的每一使用者、每月訂閱授權。 信使。 Microsoft 提供此服務的能力已因 Yahoo！的支援而產生，不會更新的基準合約。</P>
 > <LI>
@@ -328,9 +330,9 @@ Office Communicator 2007 R2 中的4The 目前狀態和 IM 功能與 Lync Server 
 
 當使用者使用 Lync 2013 用戶端加入 Lync Server 2010 會議時，他們可以存取 Lync 2013 用戶端功能，但有下列例外：
 
-  - 在 [**參與者**管理] 選項中，透過指向會議視窗中的 [人員] 圖示可供存取，[**無會議 IM** ] 選項不會正常運作。
+  - 在 [ **參與者** 管理] 選項中，透過指向會議視窗中的 [人員] 圖示可供存取，[ **無會議 IM** ] 選項不會正常運作。
 
-  - 圖庫 View 在影片會議中無法運作。 使用者只會看到使用中的音箱，而不是所有的揚聲器。 在 [**選擇版面**配置選項] 清單中，無法使用**圖庫 View**功能
+  - 圖庫 View 在影片會議中無法運作。 使用者只會看到使用中的音箱，而不是所有的揚聲器。 在 [ **選擇版面** 配置選項] 清單中，無法使用 **圖庫 View** 功能
 
   - 在 [影片會議] 中，預設會顯示參與者清單。
 
@@ -436,7 +438,7 @@ Lync Server 2013 提供新的會議功能，當使用者的帳戶移至 Lync Ser
 
 2 Lync Server 2013 使用更新的機制來上傳 PowerPoint 檔案。 加入最初排定在 Lync Server 2010 上之會議的 Lync Web App 使用者可以查看和流覽 PowerPoint 簡報，但無法上傳 PowerPoint 檔案。
 
-3如果會議已排定在 Lync Server 2013 上，且 PowerPoint 的投影片是由 Lync 2013 用戶端上傳，則 Lync 2010 使用者可以查看投影片的許可權。 相反地，如果 Lync 2010 使用者上傳 PowerPoint 投影片，Lync Server 2013 使用者將可以查看和投影片，如果已設定 Office Web Apps Server，就會存取新的功能，例如更高的解析度顯示、動畫、投影片切換效果及內嵌的影片。 如需詳細資訊，請參閱設定[Office Web Apps Server 和 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
+3如果會議已排定在 Lync Server 2013 上，且 PowerPoint 的投影片是由 Lync 2013 用戶端上傳，則 Lync 2010 使用者可以查看投影片的許可權。 相反地，如果 Lync 2010 使用者上傳 PowerPoint 投影片，Lync Server 2013 使用者將可以查看和投影片，如果已設定 Office Web Apps Server，就會存取新的功能，例如更高的解析度顯示、動畫、投影片切換效果及內嵌的影片。 如需詳細資訊，請參閱設定 [Office Web Apps Server 和 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
 
 Office Communicator 2007 R2 中的4The 目前狀態和 IM 功能與 Lync Server 2013 相容，但會議功能卻不相容。 從 Office 通訊伺服器 2007 R2 進行遷移時，Office Communicator 2007 R2 適用于目前狀態和 IM 互通性，但是使用者應使用 Lync Web App 2013 加入 Lync Server 的 [2013] 會議。
 

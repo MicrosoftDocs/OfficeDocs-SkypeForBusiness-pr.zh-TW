@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ConferenceJoinTimeThresholds 表'
+title: Lync Server 2013： ConferenceJoinTimeThresholds 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d6ce43adee4c00a945325cf31c4194816e7ee14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d8dcf3d8b5f74abe6e145d7ac25e43411ca085c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502310"
 ---
+# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceJoinTimeThresholds 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceJoinTimeThresholds 表
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42190300"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
 ConferenceJoinTimeThresholds 表格中包含「會議加入時間摘要報告」所使用的分類界限。「會議加入時間摘要報告」摘要說明了使用者成功加入會議所需的時間；在報告中這些時間值會以平均值及下列其中一項類別表示：
 
@@ -49,7 +51,7 @@ ConferenceJoinTimeThresholds 表格中包含「會議加入時間摘要報告」
 
 ConferenceJoinTimeThresholds 表格包含 2 秒、5 秒及 10 秒的分類值。
 
-Microsoft Lync Server 2013 中已採用此表格。
+此表格已引進 Microsoft Lync Server 2013。
 
 
 <table>
@@ -63,7 +65,7 @@ Microsoft Lync Server 2013 中已採用此表格。
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -80,8 +82,8 @@ Microsoft Lync Server 2013 中已採用此表格。
 <td></td>
 <td><p>分類的上限。允許的值為：</p>
 <ol>
-<li><p>2</p></li>
-<li><p>5</p></li>
+<li><p>第</p></li>
+<li><p>5 </p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1b07e0bfe62fe6d09521d1f9d5dc2d84aa975d5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754969"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503350"
 ---
+# <a name="configure-federation-routes-and-media-traffic"></a>設定同盟路由與媒體流量
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-routes-and-media-traffic"></a>設定同盟路由與媒體流量
+
 
 </div>
 
@@ -79,19 +81,19 @@ _**主題上次修改日期：** 2012-10-15_
 
 2.  在左窗格中，流覽至 [ **Lync Server**] 正下方的 [網站] 節點。
 
-3.  以滑鼠右鍵按一下網站，然後按一下 [**編輯屬性**]。
+3.  以滑鼠右鍵按一下網站，然後按一下 [ **編輯屬性**]。
 
-4.  在左窗格中，選取 [**同盟路由**]。
+4.  在左窗格中，選取 [ **同盟路由**]。
 
-5.  在 [**網站同盟路由指派**] 底下，清除 [**啟用 SIP 同盟**] 核取方塊，以停用透過舊版 Lync Server 2010 環境的同盟路由。
+5.  在 [ **網站同盟路由指派**] 底下，清除 [ **啟用 SIP 同盟** ] 核取方塊，以停用透過舊版 Lync Server 2010 環境的同盟路由。
     
     ![[編輯屬性] 對話方塊，[同盟路由] 頁面](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "[編輯屬性] 對話方塊，[同盟路由] 頁面")
 
 6.  按一下 [確定]****，以關閉 [編輯屬性] 頁面。
 
-7.  從 [**拓撲**產生器] 中，選取上方節點 [ **Lync Server**]。
+7.  從 [ **拓撲**產生器] 中，選取上方節點 [ **Lync Server**]。
 
-8.  從 [**動作**] 功能表中，按一下 [**發行拓撲**]。
+8.  從 [ **動作** ] 功能表中，按一下 [ **發行拓撲**]。
 
 9.  按 **[下一步]** 完成發佈程式，然後在發佈程式完成時按一下 **[完成]** 。
 
@@ -101,17 +103,17 @@ _**主題上次修改日期：** 2012-10-15_
 
 ## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>將舊版 Edge Server 設定成非同盟 Edge Server
 
-1.  在左窗格中，流覽至 [ **Lync Server 2010** ] 節點，然後流覽至 [ **Edge**集區] 節點。
+1.  在左窗格中，流覽至 [ **Lync Server 2010** ] 節點，然後流覽至 [ **Edge** 集區] 節點。
 
-2.  以滑鼠右鍵按一下 Edge server，然後按一下 [**編輯屬性**]。
+2.  以滑鼠右鍵按一下 Edge server，然後按一下 [ **編輯屬性**]。
 
-3.  在左窗格中選取 **[一般**]。
+3.  在左窗格中選取 **[一般** ]。
 
-4.  清除 [**啟用此 Edge 集區的同盟（埠5061）** ] 核取方塊專案，然後選取 **[確定]** 以關閉頁面。
+4.  清除 [ **啟用此 Edge 集區的同盟 (埠 5061) ** ] 核取方塊專案，然後選取 **[確定]** 以關閉頁面。
     
     ![編輯內容，一般，清除啟用同盟](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "編輯內容，一般，清除啟用同盟")
 
-5.  從 [**動作**] 功能表中，選取 [**發行拓撲**]，然後按 **[下一步]**。
+5.  從 [ **動作** ] 功能表中，選取 [ **發行拓撲**]，然後按 **[下一步]**。
 
 6.  當 [發行精靈]**** 完成之後，按一下 [完成]****，以關閉精靈。
 
@@ -139,21 +141,21 @@ _**主題上次修改日期：** 2012-10-15_
 
 ## <a name="to-change-lync-server-2010-federation-route-to-use-lync-server-2013-edge-server"></a>若要變更 Lync Server 2010 同盟路由以使用 Lync Server 2013 Edge Server
 
-1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Edge**集區] 節點。
+1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Edge** 集區] 節點。
 
-2.  以滑鼠右鍵按一下 Edge server，然後按一下 [**編輯屬性**]。
+2.  以滑鼠右鍵按一下 Edge server，然後按一下 [ **編輯屬性**]。
 
-3.  在左窗格中選取 **[一般**]。
+3.  在左窗格中選取 **[一般** ]。
 
-4.  選取 [**啟用此 Edge 集區的同盟（埠5061）** ] 的核取方塊專案，然後按一下 **[確定]** 以關閉頁面。
+4.  選取 [ **啟用此 Edge 集 ** 區的同盟] 的核取方塊專案 (埠 5061) 然後按一下 **[確定]** 以關閉頁面。
     
     ![[編輯屬性] 對話方塊，[一般] 頁面](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "[編輯屬性] 對話方塊，[一般] 頁面")
 
-5.  從 [**動作**] 功能表中，選取 [**發行拓撲**]，然後按 **[下一步]**。
+5.  從 [ **動作** ] 功能表中，選取 [ **發行拓撲**]，然後按 **[下一步]**。
 
 6.  當 [發行精靈]**** 完成之後，按一下 [完成]****，以關閉精靈。
 
-7.  驗證**同盟（埠5061）** 已設定為 [**啟用**]。
+7.  驗證 **同盟 (埠 5061) ** 設定為 [ **啟用**]。
     
     ![拓撲產生器，Edge 集區，啟用同盟](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "拓撲產生器，Edge 集區，啟用同盟")
 
@@ -163,19 +165,19 @@ _**主題上次修改日期：** 2012-10-15_
 
 ## <a name="to-update-lync-server-2013-edge-server-federation-next-hop"></a>更新 Lync Server 2013 Edge Server 同盟的下一個躍點
 
-1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Edge**集區] 節點。
+1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Edge** 集區] 節點。
 
 2.  展開節點，再以滑鼠右鍵按一下所列出的 Edge Server，然後按一下 [編輯屬性]****。
 
-3.  在 [**一般**] 頁面的 **[下一個躍點選取範圍]** 下，從下拉式清單中選取 [Lync Server 2013 集區]。
+3.  在 [ **一般** ] 頁面的 **[下一個躍點選取範圍]** 下，從下拉式清單中選取 [Lync Server 2013 集區]。
     
     ![[編輯屬性] 對話方塊，[下一個躍點] 頁面](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "[編輯屬性] 對話方塊，[下一個躍點] 頁面")
 
 4.  按一下 [確定]****，以關閉 [編輯屬性] 頁面。
 
-5.  從 [**拓撲**產生器] 中，選取上方節點 [ **Lync Server** ]。
+5.  從 [ **拓撲**產生器] 中，選取上方節點 [ **Lync Server** ]。
 
-6.  從 [**動作**] 功能表中，按一下 [**發行拓撲**]，然後完成嚮導。
+6.  從 [ **動作** ] 功能表中，按一下 [ **發行拓撲** ]，然後完成嚮導。
 
 </div>
 
@@ -183,7 +185,7 @@ _**主題上次修改日期：** 2012-10-15_
 
 ## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>設定 Lync Server 2013 Edge Server 輸出媒體路徑
 
-1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Standard edition 前端伺服器**] 或 [ **Enterprise edition 前端**集區] 底下的集區。
+1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Standard edition 前端伺服器** ] 或 [ **Enterprise edition 前端**集區] 底下的集區。
 
 2.  以滑鼠右鍵按一下集區，然後按一下 [編輯屬性]****。
 
@@ -201,7 +203,7 @@ _**主題上次修改日期：** 2012-10-15_
 
 ## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>開啟 Lync Server 2013 Edge Server federation
 
-1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Edge**集區] 節點。
+1.  在 [拓撲產生器] 的左窗格中，流覽至 [ **Lync Server 2013** ] 節點，然後流覽至 [ **Edge** 集區] 節點。
 
 2.  展開節點，再以滑鼠右鍵按一下所列出的 Edge Server，然後按一下 [編輯屬性]****。
     
@@ -214,7 +216,7 @@ _**主題上次修改日期：** 2012-10-15_
     
     </div>
 
-3.  在 [**一般**] 頁面上，確認已選取 [**啟用此 Edge 集區的同盟（埠5061）** ] 設定。
+3.  在 [ **一般** ] 頁面上，確認已選取 [ **啟用此 Edge 集區的同盟 (埠 5061) ** 設定]。
     
     ![[編輯屬性] 對話方塊，[一般] 頁面](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "[編輯屬性] 對話方塊，[一般] 頁面")
 
@@ -226,7 +228,7 @@ _**主題上次修改日期：** 2012-10-15_
 
 7.  在左窗格中，按一下 [同盟路由]****。
 
-8.  在 [**網站同盟路由指派**] 底下，選取 [**啟用 SIP 同盟**]，然後從清單中選取所列的 Lync server 2013 Edge Server。
+8.  在 [ **網站同盟路由指派**] 底下，選取 [ **啟用 SIP 同盟**]，然後從清單中選取所列的 Lync server 2013 Edge Server。
     
     ![編輯屬性、同盟路由頁面](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "編輯屬性、同盟路由頁面")
 
@@ -240,7 +242,7 @@ _**主題上次修改日期：** 2012-10-15_
 
 ## <a name="to-publish-edge-server-configuration-changes"></a>發行 Edge Server 的設定變更
 
-1.  從 [**拓撲**產生器] 中，選取上方節點 [ **Lync Server** ]。
+1.  從 [ **拓撲**產生器] 中，選取上方節點 [ **Lync Server** ]。
 
 2.  從 [動作]**** 功能表中，選取 [發行拓撲]****，然後完成精靈。
 
@@ -250,7 +252,7 @@ _**主題上次修改日期：** 2012-10-15_
     
 
     > [!NOTE]  
-    > 您將會見到下列訊息：<BR><STRONG>警告：此拓撲包含一個以上的同盟 Edge Server。這可能會在將產品遷移至較新版本的產品時發生。在此情況下，只有一部 Edge Server 會積極用於同盟。驗證外部 DNS SRV 記錄是否指向正確的 Edge Server。如果您想要將多個同盟 Edge Server 同時部署為作用中（即不是遷移案例），請確認所有同盟夥伴皆在使用 Lync Server。驗證外部 DNS SRV 記錄是否列出所有啟用同盟的 Edge Server。</STRONG><BR>此為預期中的警告，可以不予理會。
+    > 您將會見到下列訊息：<BR><STRONG>警告：此拓撲包含一個以上的同盟 Edge Server。這可能會在將產品遷移至較新版本的產品時發生。在此情況下，只有一部 Edge Server 會積極用於同盟。驗證外部 DNS SRV 記錄是否指向正確的 Edge Server。如果您想要將多個同盟 Edge Server 同時部署為作用中 (也就是說，不是遷移案例) ，請確認所有同盟協力廠商都在使用 Lync Server。驗證外部 DNS SRV 記錄是否列出所有啟用同盟的 Edge Server。</STRONG><BR>此為預期中的警告，可以不予理會。
 
     
     </div>
@@ -263,7 +265,7 @@ _**主題上次修改日期：** 2012-10-15_
 
 1.  讓所有的 Lync Server 2013 Edge server 線上。
 
-2.  更新外部防火牆路由規則或硬體負載平衡器設定，以將外部存取（通常是埠443）及同盟（通常是埠5061）的 SIP 流量傳送至 Lync Server 2013 Edge Server，而不是使用舊版 Edge Server。
+2.  更新外部防火牆路由規則或硬體負載平衡器設定，以傳送外部存取 (的 SIP 流量，通常是埠 443) 和同盟 (的埠 5061) 至 Lync Server 2013 Edge Server，而不是舊版 Edge Server。
     
     <div>
     
@@ -274,7 +276,7 @@ _**主題上次修改日期：** 2012-10-15_
     
     </div>
 
-3.  接下來，停止每台 Edge Server 電腦的**Lync Server Access Edge** 。
+3.  接下來，停止每台 Edge Server 電腦的 **Lync Server Access Edge** 。
 
 4.  從每個舊版 Edge Server 電腦上，從 [系統**管理工具**] 中開啟 [**服務**] 小程式。
 

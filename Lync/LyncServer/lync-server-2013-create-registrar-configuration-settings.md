@@ -12,20 +12,22 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2f9eac959e9061e42bdc05982593c9f21aa2b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2baa4cd40ae0f6421dbb01facecf0ab41825fc31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501590"
 ---
+# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中建立註冊機配置設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中建立註冊機配置設定
+
 
 </div>
 
@@ -63,19 +65,19 @@ _**主題上次修改日期：** 2013-03-17_
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您已部署 Lync Server 2013 之網路中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左導覽列中，按一下 [**安全性**]，然後按一下 [**註冊**]。
+3.  在左導覽列中，按一下 [ **安全性** ]，然後按一下 [ **註冊**]。
 
 4.  在 [**註冊機**] 頁面上，按一下 [**新增**]
 
-5.  在 [**選取服務**] 中，按一下要套用註冊器的服務，然後按一下 **[確定]**。
+5.  在 [ **選取服務**] 中，按一下要套用註冊器的服務，然後按一下 **[確定]**。
 
-6.  在 [**新註冊機] 設定**中，根據用戶端的功能和您環境中的支援，選取下列其中一項或多項：
+6.  在 [ **新註冊機] 設定**中，根據用戶端的功能和您環境中的支援，選取下列其中一項或多項：
     
-      - **啟用 kerberos 驗證**讓集區中的伺服器使用 Kerberos 驗證，提出挑戰。
+      - **啟用 kerberos 驗證** 讓集區中的伺服器使用 Kerberos 驗證，提出挑戰。
     
-      - **啟用 ntlm 驗證**讓集區中的伺服器使用 NTLM 時面臨挑戰。
+      - **啟用 ntlm 驗證** 讓集區中的伺服器使用 NTLM 時面臨挑戰。
     
       - [**啟用憑證驗證**] 以讓集區中的伺服器對用戶端發出憑證。
 

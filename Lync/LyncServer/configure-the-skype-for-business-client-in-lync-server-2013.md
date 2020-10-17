@@ -13,20 +13,22 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b89457c35bc9c9c0150b84ab34f4103776206ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20980f0f0b6697eada6c237aa8d2297b0fd227d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503300"
 ---
+# <a name="configure-the-client-experience-with-skype-for-business"></a>使用商務用 Skype 設定用戶端經驗
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-client-experience-with-skype-for-business"></a>使用商務用 Skype 設定用戶端經驗
+
 
 </div>
 
@@ -38,9 +40,9 @@ ms.locfileid: "42180776"
 
 _**主題上次修改日期：** 2015-09-17_
 
-**摘要：** 本主題說明如何在 Lync Server 2013 環境中為商務用 Skype 用戶端使用者設定用戶端經驗。 您可以設定用戶端體驗，只有在您執行 Lync Server 2013 時已安裝12月2014累積更新 (5.0.8308.857) 或更新版本。 如需更新 Lync Server 2013 的詳細資訊，請參閱[Lync server 2013 的更新](https://go.microsoft.com/fwlink/p/?linkid=532651)。
+**摘要：** 本主題說明如何在 Lync Server 2013 環境中為商務用 Skype 用戶端使用者設定用戶端經驗。 您可以設定用戶端體驗，只有在您執行 Lync Server 2013 時已安裝12月2014累積更新 (5.0.8308.857) 或更新版本。 如需更新 Lync Server 2013 的詳細資訊，請參閱 [Lync server 2013 的更新](https://go.microsoft.com/fwlink/p/?linkid=532651)。
 
-商務用 skype 提供以 Skype 消費者產品經驗為基礎的新使用者經驗。 除了 Lync 的所有功能之外，商務用 Skype 也會透過簡化的控制項及熟悉的圖示來提供新功能。 如需有關新用戶端體驗的詳細資訊，請參閱[Lync 現在是商務用 Skype--查看](https://go.microsoft.com/fwlink/?linkid=529022)最近更新。
+商務用 skype 提供以 Skype 消費者產品經驗為基礎的新使用者經驗。 除了 Lync 的所有功能之外，商務用 Skype 也會透過簡化的控制項及熟悉的圖示來提供新功能。 如需有關新用戶端體驗的詳細資訊，請參閱 [Lync 現在是商務用 Skype--查看](https://go.microsoft.com/fwlink/?linkid=529022)最近更新。
 
 Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端經驗。 身為管理員，您可以為使用者選擇喜歡的用戶端體驗。 例如，您可能想要部署 Lync 用戶端體驗，直到貴組織中的使用者已完全訓練新的商務用 Skype 體驗。 或者，如果您尚未將所有使用者升級至商務用 Skype Server 2015，您可能想要在所有使用者都升級至新伺服器之前，都有相同的用戶端經驗。
 
@@ -48,7 +50,7 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
 
 > [!IMPORTANT]  
-> 如果您的組織已部署商務用 Skype Server 2015 和 Lync Server 2013，則預設用戶端體驗會因伺服器版本和 UI 設定而異。 當使用者第一次啟動商務用 Skype 時，他們會永遠看到商務用 Skype 使用者介面--即使您已選取 Lync 使用者介面也是一樣。 幾分鐘後，系統會要求使用者切換至 Lync 模式。 如需詳細資訊，請參閱本主題稍後的<STRONG>第一次啟動用戶端行為</STRONG>。
+> 如果您的組織已部署商務用 Skype Server 2015 和 Lync Server 2013，則預設用戶端體驗會因伺服器版本和 UI 設定而異。 當使用者第一次啟動商務用 Skype 時，他們會永遠看到商務用 Skype 使用者介面--即使您已選取 Lync 使用者介面也是一樣。 幾分鐘後，系統會要求使用者切換至 Lync 模式。 如需詳細資訊，請參閱本主題稍後的 <STRONG>第一次啟動用戶端行為</STRONG> 。
 
 
 
@@ -68,7 +70,7 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
 ## <a name="configure-the-client-experience"></a>設定用戶端體驗
 
-您可以使用**Set-CSClientPolicy** Cmdlet 搭配 EnableSkypeUI 參數，指定組織中的使用者所看到的用戶端經驗。 下列命令會為組織中受全域原則影響的所有使用者選取商務用 Skype 用戶端體驗 (請記住，網站或使用者特定原則會覆寫全域原則) ：
+您可以使用 **Set-CSClientPolicy** Cmdlet 搭配 EnableSkypeUI 參數，指定組織中的使用者所看到的用戶端經驗。 下列命令會為組織中受全域原則影響的所有使用者選取商務用 Skype 用戶端體驗 (請記住，網站或使用者特定原則會覆寫全域原則) ：
 
     Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 
@@ -80,7 +82,7 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
     Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
-如果您想要為組織內的特定使用者設定用戶端經驗，您可以使用**New-CsClientPolicy** Cmdlet 來建立新的使用者原則，然後使用**Grant-CsClientPolicy** Cmdlet 將原則指派給特定使用者。
+如果您想要為組織內的特定使用者設定用戶端經驗，您可以使用 **New-CsClientPolicy** Cmdlet 來建立新的使用者原則，然後使用 **Grant-CsClientPolicy** Cmdlet 將原則指派給特定使用者。
 
 例如，下列命令會建立新的用戶端原則 SalesClientUI，以選取商務用 Skype 用戶端體驗：
 
@@ -122,7 +124,7 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
 ## <a name="control-the-display-of-the-welcome-screen-tutorial"></a>控制歡迎使用畫面教學課程的顯示
 
-當使用者開啟商務用 Skype 用戶端時，預設行為是顯示歡迎畫面，其中包含*大多數人員所要求的7個快速秘訣*。 您可以在用戶端電腦上新增下列登錄值，關閉 [歡迎] 畫面，但仍允許使用者存取教學課程：
+當使用者開啟商務用 Skype 用戶端時，預設行為是顯示歡迎畫面，其中包含 *大多數人員所要求的7個快速秘訣*。 您可以在用戶端電腦上新增下列登錄值，關閉 [歡迎] 畫面，但仍允許使用者存取教學課程：
 
 在 [ ** \[ HKEY \_ 目前的 \_ 使用者 \\ 軟體] \\ Microsoft \\ Office \\ 15.0 \\ Lync \] **機碼中，建立新的**DWORD (32 位) 值**。 **值名稱**必須是**IsBasicTutorialSeenByUser**，且**數值資料**必須設定為**1**。
 
@@ -142,7 +144,7 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
     "TutorialFeatureEnabled"=dword:00000000
 
-您可以將**數值資料**設為**1**，以重新開啟教學課程。
+您可以將 **數值資料** 設為 **1**，以重新開啟教學課程。
 
 </div>
 
@@ -176,12 +178,12 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 </tr>
 <tr class="even">
 <td><p>商務用 Skype Server 2015</p></td>
-<td><p>對</p></td>
+<td><p>是</p></td>
 <td><p>商務用 Skype</p></td>
 </tr>
 <tr class="odd">
 <td><p>商務用 Skype Server 2015</p></td>
-<td><p>錯</p></td>
+<td><p>False</p></td>
 <td><p>使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。) </p></td>
 </tr>
 <tr class="even">
@@ -191,12 +193,12 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 </tr>
 <tr class="odd">
 <td><p>使用正確修補程式的 lync Server 2010 或 Lync Server 2013 () </p></td>
-<td><p>對</p></td>
+<td><p>是</p></td>
 <td><p>商務用 Skype</p></td>
 </tr>
 <tr class="even">
 <td><p>使用正確修補程式的 lync Server 2010 或 Lync Server 2013 () </p></td>
-<td><p>錯</p></td>
+<td><p>False</p></td>
 <td><p>使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。) </p></td>
 </tr>
 <tr class="odd">
@@ -229,25 +231,25 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 <tbody>
 <tr class="odd">
 <td><p>商務用 Skype Server 2015</p></td>
-<td><p>對</p></td>
+<td><p>是</p></td>
 <td><p>使用者要求切換至商務用 Skype</p></td>
 <td><p>商務用 Skype</p></td>
 </tr>
 <tr class="even">
 <td><p>商務用 Skype Server 2015</p></td>
-<td><p>錯</p></td>
+<td><p>False</p></td>
 <td><p>Lync 使用者介面</p></td>
 <td><p>使用者要求切換至 Lync UI</p></td>
 </tr>
 <tr class="odd">
 <td><p>使用正確修補程式的 lync Server 2010 或 Lync Server 2013 () </p></td>
-<td><p>對</p></td>
+<td><p>是</p></td>
 <td><p>使用者要求切換至商務用 Skype</p></td>
 <td><p>商務用 Skype</p></td>
 </tr>
 <tr class="even">
 <td><p>使用正確修補程式的 lync Server 2010 或 Lync Server 2013 () </p></td>
-<td><p>錯</p></td>
+<td><p>False</p></td>
 <td><p>Lync 使用者介面</p></td>
 <td><p>使用者要求切換至 Lync UI</p></td>
 </tr>
@@ -263,9 +265,9 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
 管理商務用 Skype 用戶端設定所需的修補程式版本如下：
 
-  - Lync Server 2010-2 月2015累積更新 (4.0.7577.710) 的 Lync Server 2010。 如需詳細資訊，請參閱[Lync Server 2010 的更新](https://go.microsoft.com/fwlink/p/?linkid=532771)
+  - Lync Server 2010-2 月2015累積更新 (4.0.7577.710) 的 Lync Server 2010。 如需詳細資訊，請參閱 [Lync Server 2010 的更新](https://go.microsoft.com/fwlink/p/?linkid=532771)
 
-  - Lync Server 2013-Lync Server 2013 的2014累計更新 (5.0.8308.857) 。 如需詳細資訊，請參閱[Lync Server 2013 的更新](https://go.microsoft.com/fwlink/p/?linkid=532772)。
+  - Lync Server 2013-Lync Server 2013 的2014累計更新 (5.0.8308.857) 。 如需詳細資訊，請參閱 [Lync Server 2013 的更新](https://go.microsoft.com/fwlink/p/?linkid=532772)。
 
 </div>
 
@@ -279,21 +281,21 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
 **建立 GPO**
 
-1.  啟動 [**群組原則管理主控台**]。
+1.  啟動 [ **群組原則管理主控台**]。
     
-    如需如何使用「群組原則管理主控台」的詳細資訊，請參閱[群組原則管理主控台](https://go.microsoft.com/fwlink/?linkid=532759)。
+    如需如何使用「群組原則管理主控台」的詳細資訊，請參閱 [群組原則管理主控台](https://go.microsoft.com/fwlink/?linkid=532759)。
 
-2.  在 [**群組原則物件**] 節點上按一下滑鼠右鍵，然後在功能表上選取 [**新增**]。
+2.  在 [ **群組原則物件** ] 節點上按一下滑鼠右鍵，然後在功能表上選取 [ **新增** ]。
 
-3.  在 [**新增 gpo** ] 對話方塊中，輸入 GPO 的名稱，例如 [ **MakeLyncDefaultUI**]，然後按一下 **[確定]**。
+3.  在 [ **新增 gpo** ] 對話方塊中，輸入 GPO 的名稱，例如 [ **MakeLyncDefaultUI**]，然後按一下 **[確定]**。
 
-4.  在您剛才建立的新 GPO 上按一下滑鼠右鍵，然後從功能表中選取 [**編輯**]。
+4.  在您剛才建立的新 GPO 上按一下滑鼠右鍵，然後從功能表中選取 [ **編輯** ]。
 
 5.  在 [**群組原則管理編輯器**] 中，展開 [**使用者**設定]，展開 [**喜好**設定]，展開 [ **Windows 設定**]，然後選取**登錄節點。**
 
 6.  **在 [登錄**] 節點上按一下滑鼠右鍵，然後選取 [**新增**登錄 \> **專案**]。
 
-7.  在 [**新增註冊表屬性**] 對話方塊中，更新下列專案：
+7.  在 [ **新增註冊表屬性** ] 對話方塊中，更新下列專案：
     
     
     <table>
@@ -309,7 +311,7 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><strong>動作</strong></p></td>
+    <td><p><strong>Action</strong></p></td>
     <td><p><strong>Create</strong></p></td>
     </tr>
     <tr class="even">
@@ -342,9 +344,9 @@ Lync Server 2013 支援新的商務用 Skype 用戶端體驗和 Lync 用戶端�
 
 **若要使用 GPO 指派原則**
 
-1.  在 [群組原則管理主控台] 中，以滑鼠右鍵按一下您要指派原則的 OU，然後選取 [**連結到現有的 GPO**]。
+1.  在 [群組原則管理主控台] 中，以滑鼠右鍵按一下您要指派原則的 OU，然後選取 [ **連結到現有的 GPO**]。
 
-2.  在 [**選取 gpo** ] 對話方塊中，選取您建立的 GPO，然後選取 **[確定**]。
+2.  在 [ **選取 gpo** ] 對話方塊中，選取您建立的 GPO，然後選取 **[確定**]。
 
 3.  在目標使用者的電腦上，開啟命令提示字元，並輸入下列命令：
     

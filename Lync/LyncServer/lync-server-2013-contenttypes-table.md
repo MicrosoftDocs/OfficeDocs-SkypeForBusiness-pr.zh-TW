@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ContentTypes 表格'
+title: Lync Server 2013： ContentTypes 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084a02c9add6b383d6099073992f27d8955a66d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa26746e8c970fe2685aea63ef3ff43a672846f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501990"
 ---
+# <a name="contenttypes-table-in-lync-server-2013"></a>Lync Server 2013 中的 ContentTypes 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="contenttypes-table-in-lync-server-2013"></a>Lync Server 2013 中的 ContentTypes 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42195446"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010年-11-07_
+_**主題上次修改日期：** 2010-11-07_
 
-ContentTypes 表格是一種支援資料表儲存的端對端工作階段和會議工作階段中所使用的內容類型清單。 在資料表中的每一筆記錄代表一種內容類型。
+ContentTypes 表格是一種支援表格，可儲存點對點工作階段和會議會話中所使用的內容類型清單。 表格中的每一筆記錄代表一種內容類型。
 
 
 <table>
@@ -51,7 +53,7 @@ ContentTypes 表格是一種支援資料表儲存的端對端工作階段和會�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -60,11 +62,11 @@ ContentTypes 表格是一種支援資料表儲存的端對端工作階段和會�
 <td><p><strong>ContentTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>識別內容類型的唯一號碼。</p></td>
+<td><p>用於識別內容類型的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td> </td>
 <td><p>內容類型名稱。</p></td>
 </tr>

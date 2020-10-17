@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 裝置更新規則
+title: Lync Server 2013：裝置更新規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1ec593c264a1630274e83e8a7de1d193b8e5cbf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c45a545dcd0d366d3dc9d2fcd82f4fe156f8384
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197919"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501450"
 ---
+# <a name="device-update-rules-in-lync-server-2013"></a>Lync Server 2013 中的裝置更新規則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-update-rules-in-lync-server-2013"></a>Lync Server 2013 中的裝置更新規則
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42197919"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-20 個_
+_**主題上次修改日期：** 2013-02-20_
 
-定期，Microsoft Lync Phone Edition 的發行一組新的裝置韌體更新。 *裝置更新規則*將韌體更新關聯的硬體裝置 — 電話及其他執行 Lync Phone Edition 的裝置。
+Microsoft 會定期為 Lync Phone Edition 發行一組新的裝置固件更新。 *裝置更新規則* 會將固件更新與硬體裝置（電話及其他執行 Lync Phone Edition 的裝置）產生關聯。
 
-若要取得最新的裝置更新規則集，Microsoft 在網站上，移至 [說明及支援] 頁面上，並搜尋 「 Phone Edition 」。 下載更新套件，並將檔案解壓縮到資料夾之電腦上更新為可上傳。 解壓縮檔案之後，匯入位於擷取裝置更新規則。CAB 檔案 （其中有名稱 UCUpdates.cab）。 然後，使用 Lync Server 控制台或 Windows PowerShell cmdlet 來檢視及管理貴組織的裝置的這些規則。
+若要取得最新的裝置更新規則集，請移至 Microsoft 網站上的 [說明與支援] 頁面，然後搜尋「Phone Edition」。 下載更新套件，並將檔案解壓縮至要上傳更新之電腦上的資料夾。 解壓縮檔案之後，請匯入解壓縮中所找到的裝置更新規則。UCUpdates.cab) 名稱的 CAB 檔 (。 然後，使用 Lync Server 控制台或 Windows PowerShell Cmdlet，以查看及管理組織裝置的這些規則。
 
-下列主題將告訴您如何匯入、 檢視及管理裝置更新規則。
+下列主題告訴您如何匯入、查看及管理裝置更新規則。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [檢視 Lync Server 2013 中的裝置更新規則的相關資訊](lync-server-2013-view-information-about-device-update-rules.md)
+  - [在 Lync Server 2013 中查看裝置更新規則的相關資訊](lync-server-2013-view-information-about-device-update-rules.md)
 
-  - [匯入 Lync Server 2013 中的裝置更新規則](lync-server-2013-import-device-update-rules.md)
+  - [在 Lync Server 2013 中匯入裝置更新規則](lync-server-2013-import-device-update-rules.md)
 
   - [核准 Lync Server 2013 中的裝置更新規則](lync-server-2013-approve-a-device-update-rule.md)
 
-  - [移除 Lync Server 2013 中的裝置更新規則](lync-server-2013-remove-a-device-update-rule.md)
+  - [在 Lync Server 2013 中移除裝置更新規則](lync-server-2013-remove-a-device-update-rule.md)
 
-  - [重設在 Lync Server 2013 中的裝置更新規則](lync-server-2013-reset-a-device-update-rule.md)
+  - [在 Lync Server 2013 中重設裝置更新規則](lync-server-2013-reset-a-device-update-rule.md)
 
-  - [還原 Lync Server 2013 中的裝置更新規則](lync-server-2013-restore-a-device-update-rule.md)
+  - [在 Lync Server 2013 中還原裝置更新規則](lync-server-2013-restore-a-device-update-rule.md)
 
 </div>
 

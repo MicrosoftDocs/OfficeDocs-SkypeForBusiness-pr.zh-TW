@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 通話詳細資料報告
+title: Lync Server 2013：詳細通話報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb57cde990e4c4218297c69aeb3c8933f9a3fd92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6ef309873ef51e06903123dfb5a1b6ecf68b4ea8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502750"
 ---
+# <a name="call-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的詳細通話報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的通話詳細資料報告
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42196366"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-02-05_
+_**主題上次修改日期：** 2014-02-05_
 
-Call Detail Report 提供個別通話; 的詳細的檢視報告中包含幾乎所有的經驗品質計量及統計資料收集的 Lync Server，分成報表區段如下：
+[通話詳細資料包告] 提供個別通話的詳細資訊，請參閱報告包括所有的經驗品質統計資料，以及 Lync Server 收集的統計資料，劃分成報表區段，例如：
 
   - 通話資訊
 
@@ -67,17 +69,17 @@ Call Detail Report 提供個別通話; 的詳細的檢視報告中包含幾乎�
 
 您可從下列報告中存取 [通話詳細資料報告]：
 
-  - [Lync Server 2013 中的 Location Report](lync-server-2013-location-report.md) (按一下 [通話數] 或 [收訊不良通話百分比] 計量）
+  - [在 [Lync Server 2013] 中的位置報告](lync-server-2013-location-report.md)，按一下 [通話量] 或 [低通話百分比] 計量 () 
 
-  - [Lync Server 2013 中的 Media Quality Summary Report](lync-server-2013-media-quality-summary-report.md) (按一下 [通話數量] 或 [收訊不良通話百分比] 計量）
+  - [Lync Server 2013 (中的媒體質量摘要報告](lync-server-2013-media-quality-summary-report.md)：按一下 [通話量] 或 [通話百分比] 度量值) 
 
-  - [Lync Server 2013 中的媒體品質比較報告](lync-server-2013-media-quality-comparison-report.md)([ [Lync Server 2013 中 Call List Report](lync-server-2013-call-list-report.md) ，然後按一下 [詳細資料] 計量）。
+  - [Lync server 2013 (中的媒體質量比較報告](lync-server-2013-media-quality-comparison-report.md)，方法是按一下 [ [lync server 2013] 中的 [通話清單報告](lync-server-2013-call-list-report.md)]，然後按一下 [詳細資料] 度量) 。
 
-  - [Lync Server 2013 中的 Server Performance Report](lync-server-2013-server-performance-report.md) (按一下 [通話數量] 或 [收訊不良通話百分比] 計量）
+  - [在 Lync Server 2013 (中](lync-server-2013-server-performance-report.md)，按一下 [通話量] 或 [通話不良百分比] 度量，以執行伺服器效能報告) 
 
-  - [Lync Server 2013 中 Call List Report](lync-server-2013-call-list-report.md) (按一下 [詳細資料] 計量）
+  - [Lync Server 2013 (中的通話清單報告](lync-server-2013-call-list-report.md)，請按一下詳細資料度量) 
 
-Call Detail Report 內您可以從存取[裝置報告在 Lync Server 2013](lync-server-2013-device-report.md)藉由按一下下列計量之一：
+從 [通話詳細資料包告] 中，按一下下列其中一個計量，即可 [在 Lync Server 2013 中存取裝置報告](lync-server-2013-device-report.md) ：
 
   - 擷取裝置
 
@@ -95,7 +97,7 @@ Call Detail Report 內您可以從存取[裝置報告在 Lync Server 2013](lync-
 
 如果找不到某個計量，可在搜尋方塊中輸入部分計量標籤，然後按一下 [搜尋]。例如，如果找不到 [低 Low SNR 時間] 計量，可在搜尋方塊中輸入 SNR，然後按一下 [搜尋]。
 
-請注意報表僅會追蹤通話的相關資訊。 呼叫本身不在記錄中。
+請注意，報告只追蹤通話的相關資訊。 不會記錄通話本身。
 
 </div>
 
@@ -109,7 +111,7 @@ Call Detail Report 內您可以從存取[裝置報告在 Lync Server 2013](lync-
 
 <div>
 
-## <a name="metrics"></a>計量
+## <a name="metrics"></a>指標
 
 下表列出每個通話的詳細通話報告。
 
@@ -123,9 +125,9 @@ Call Detail Report 內您可以從存取[裝置報告在 Lync Server 2013](lync-
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

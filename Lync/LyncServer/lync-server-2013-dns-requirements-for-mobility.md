@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 行動的 DNS 需求
+title: Lync Server 2013：行動性的 DNS 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ceddef859ebc24168c12fdf0721448c6d2b658
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208873"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501430"
 ---
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>使用 Lync Server 2013 行動的 DNS 需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>搭配 Lync Server 2013 的行動的 DNS 需求
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42208873"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 11 月 13 日_
+_**主題上次修改日期：** 2012-11-13_
 
-當您部署 Lync Server 2013 行動功能時，您可以使用新的 Url，可用來搭配 Microsoft Lync Server 2013 自動探索服務，或您可以使用您現有的 Web 服務 Url。 如果您使用您現有的 Url，使用者需要在其行動裝置設定中手動輸入 Url。 此選項通常用於疑難排解。 當您使用新的 Url 時，行動用戶端可以自動探索 Lync Server 2013 的資源。 當您支援自動探索時，您需要新增新的網域名稱系統 (DNS) 記錄。 本節說明所需的自動探索 DNS 記錄。
+當您部署 Lync Server 2013 行動功能時，您可以使用 Microsoft Lync Server 2013 自動探索服務提供的新 URLs，也可以使用現有的 Web 服務 URLs。 如果您使用現有的 URLs，使用者必須在行動裝置設定中手動輸入 URLs。 此選項通常用於疑難排解。 當您使用新的 URLs 時，行動用戶端可以自動探索 Lync Server 2013 資源。 當您支援自動探索時，您必須新增網域名稱系統 (DNS) 記錄。 本節說明自動探索所需的 DNS 記錄。
 
-若要支援自動探索，您需要建立下列 DNS 記錄每個 SIP 網域：
+若要支援自動探索，您必須為每個 SIP 網域建立下列 DNS 記錄：
 
   - 內部 DNS 記錄，以支援從組織網路內部連線的行動使用者
 
   - 外部 (或公用) DNS 記錄，以支援從網際網路連線的行動使用者
 
-內部自動探索 URL 應該不能從您的網路外部定址。 外部自動探索 URL 應該不能從您的網路內部定址。 不過，如果您不能符合外部 URL 的這項需求，行動用戶端具有相同的作用應該不會受到影響。
+內部自動探索 URL 應該不能從您的網路外部定址。 外部自動探索 URL 應該不能從您的網路內部定址。 不過，如果您無法滿足外部 URL 的此需求，行動用戶端功能應該不會受到影響。
 
 DNS 記錄可以是 CNAME 記錄或 A (主機) 記錄。
 
 **內部 DNS 記錄**
 
-您必須建立下列其中一個下列的內部 DNS 記錄：
+您必須建立下列其中一個內部 DNS 記錄：
 
 
 <table>
@@ -70,13 +72,13 @@ DNS 記錄可以是 CNAME 記錄或 A (主機) 記錄。
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal。&lt;sipdomain&gt;</p></td>
-<td><p>內部 Web 服務完整網域名稱 (FQDN) 或前端集區的 Director 集區，如果有的話，如果您不具備 Director</p></td>
+<td><p>lyncdiscoverinternal。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>內部 Web 服務完整功能變數名稱 (Director 集區的 FQDN) （如果有的話），或如果您沒有 Director，則為前端集區。</p></td>
 </tr>
 <tr class="even">
 <td><p>A (主機)</p></td>
-<td><p>lyncdiscoverinternal。&lt;sipdomain&gt;</p></td>
-<td><p>內部 Web 服務 IP 位址 （虛擬 IP (VIP) 位址如果您使用負載平衡器） Director 集區，如果您有 director 或前端集區如果您不具備 Director</p></td>
+<td><p>lyncdiscoverinternal。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>內部 Web 服務 IP 位址 (虛擬 IP (VIP) 位址如果您擁有 Director 集區的負載平衡器) （如果有的話），或如果您沒有 Director，則使用的前端集區。</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,23 +105,23 @@ DNS 記錄可以是 CNAME 記錄或 A (主機) 記錄。
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>外部 Web 服務 FQDN，Director 集區，如果您有 director 或前端集區如果您不具備 Director</p></td>
+<td><p>lyncdiscover. &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>Director 集區的外部 Web 服務 FQDN （如果有的話），或如果您沒有 Director，則為前端集區。</p></td>
 </tr>
 <tr class="even">
 <td><p>A (主機)</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>外部或公用 IP 位址 （VIP 位址如果您使用負載平衡器） 的反向 proxy</p></td>
+<td><p>lyncdiscover. &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>當您使用反向 proxy 的負載平衡器) 時，的外部或公用 IP 位址 (VIP 位址</p></td>
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls._tcp。 &lt;sipdomain&gt;</p>
-<p>會解析為主機 （A 或 AAAA） 記錄的 Access Edge service</p></td>
-<td><p>若要支援推入通知服務和 Apple 推播通知服務，您可以建立的每個 SIP 網域具有 Microsoft Lync 行動用戶端的一筆 SRV 記錄。</p>
+<td><p>_sipfederationtls _sipfederationtls._tcp。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p>
+<p>解析為 Access Edge service 的主機 (A 或 AAAA) 記錄</p></td>
+<td><p>若要支援推播通知服務和 Apple Push Notification 服務，您可以為每個具有 Microsoft Lync Mobile 用戶端的 SIP 網域建立一個 SRV 記錄。</p>
 <div>
 
 > [!IMPORTANT]  
-> 這項要求只適用於 Apple 上的 Microsoft Lync 行動用戶端或 Microsoft 型的行動裝置。 Andriod 和 Nokia Symbian 裝置，請勿使用推播通知。
+> 這項需求只適用于 Apple 或 Microsoft 移動裝置上的 Microsoft Lync 行動用戶端。 Andriod 和 Nokia Symbian 裝置不使用推播通知。
 
 
 </div></td>
@@ -132,7 +134,7 @@ DNS 記錄可以是 CNAME 記錄或 A (主機) 記錄。
 
 
 > [!NOTE]  
-> Lyncdiscover，又稱為自動探索、 流量會通過反向 proxy。 SRV 記錄會指向解析透過 Access Edge service 的記錄。
+> Lyncdiscover （也稱為自動探索）流量會透過反向 proxy 進行。 SRV 記錄指向透過 Access Edge service 解析的記錄。
 
 
 

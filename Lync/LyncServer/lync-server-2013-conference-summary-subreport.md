@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 會議摘要子報表
+title: Lync Server 2013：會議摘要子報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8cc92efe91b1618cd6d0f4f9cdaaf6cdf09730d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ddbbe3fc546010e78ee7df6aa8afb083e594ea14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502320"
 ---
+# <a name="conference-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 中的會議摘要子報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 中的會議摘要子報表
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42213219"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-06_
+_**主題上次修改日期：** 2012-06-06_
 
 會議摘要子報告提供了失敗會議工作階段的整體檢視。這些失敗的工作階段可藉由工作階段類型加以細分為：焦點工作階段及 MCU 工作階段。
 
@@ -64,9 +66,9 @@ _**主題上次修改日期：** 2012年-06-06_
 <td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -74,13 +76,13 @@ _**主題上次修改日期：** 2012年-06-06_
 <td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部]<strong></strong> 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。</p></td>
 </tr>
 </tbody>
@@ -91,7 +93,7 @@ _**主題上次修改日期：** 2012年-06-06_
 
 <div>
 
-## <a name="metrics"></a>計量
+## <a name="metrics"></a>指標
 
 下表列出會議摘要子報告中提供的資訊。
 
@@ -105,9 +107,9 @@ _**主題上次修改日期：** 2012年-06-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

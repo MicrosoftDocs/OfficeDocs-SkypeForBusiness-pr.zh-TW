@@ -13,20 +13,22 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0474e3e75998e43965bd57ef4ed1f67ef8058a0b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754481"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503270"
 ---
+# <a name="configure-trusted-application-servers"></a>設定信任的應用程式伺服器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-trusted-application-servers"></a>設定信任的應用程式伺服器
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**主題上次修改日期：** 2012-10-04_
 
 4.  按一下 **[下一步]**。
 
-5.  在 [**選取下一個躍點]** 頁面上，從清單中選取 [Lync Server 2013 前端集區]。
+5.  在 [ **選取下一個躍點]** 頁面上，從清單中選取 [Lync Server 2013 前端集區]。
     
     ![[定義新的信任的應用程式集區] 對話方塊](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "[定義新的信任的應用程式集區] 對話方塊")  
 

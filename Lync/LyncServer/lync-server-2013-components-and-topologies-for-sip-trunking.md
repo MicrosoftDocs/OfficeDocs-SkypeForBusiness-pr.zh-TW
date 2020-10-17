@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 元件和的 SIP 主幹拓撲
+title: Lync Server 2013： SIP trunk 的元件和拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efdbe65f05d6cc3c3b004380d915927a120145a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08961982f382e5b5c670f6a1640884a4540a4c20
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213118"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502490"
 ---
+# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中 SIP 主幹的元件和拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 主幹的元件和拓撲
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42213118"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
-下圖說明 Lync Server 中的 SIP 主幹拓撲。
+下圖描述 Lync Server 中的 SIP 主幹拓撲。
 
 **SIP 主幹拓撲**
 
 ![SIP 主幹拓撲](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP 主幹拓撲")
 
-如圖所示，IP 虛擬私人網路 (VPN) 適用於企業網路與公用交換的電話網路 (PSTN) 服務提供者之間的連線。 此私人網路的用途是提供 IP 連線、 增強的安全性，以及 （選擇性） 取得服務品質 (QoS) 保證。 VPN 的性質，因為您不需要使用傳輸層安全性 (TLS) 的 SIP 訊號流量或媒體流量的安全即時傳輸通訊協定 (SRTP)。 企業與服務提供者之間的連線因此所組成的 SIP 和一般即時傳輸通訊協定 (RTP) （透過 UDP) 的通道透過 IP VPN 的媒體的純文字 TCP 連線。 請確定 VPN 路由器之間的所有防火牆都已開啟以允許 VPN 路由器，以進行通訊，連接埠和 IP 位址，在 [外部邊緣的 VPN 路由器上是可公開路由傳送。
+如圖所示，在商業網路和公用交換電話網路 (PSTN) 服務提供者之間的連線中，會使用 IP 虛擬私人網路 (VPN) 。 此私人網路的目的在於提供 IP 連線功能、增強安全性，以及 (選擇性) 取得服務品質 (QoS) 保證。 由於 VPN 的性質，您不需要使用傳輸層安全性 (TLS) 以進行 SIP 信號流量或安全即時傳輸通訊協定 (SRTP) 的媒體流量。 企業和服務提供者之間的連線是由 SIP 和即時即時傳輸通訊協定的純 TCP 連線所組成 (RTP)  (透過 UDP) 透過 IP VPN 傳送媒體隧道。 確定所有 VPN 路由器間的防火牆皆已開啟埠，以允許 VPN 路由器通訊，而且 VPN 路由器外部邊緣的 IP 位址可公開路由傳送。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 請連絡您的服務提供者，來判斷是否它提供支援的高可用性，包括容錯移轉。 如果是的話，您必須決定及其設定的程序。 例如，您需要在每個中繼伺服器上，設定只有一個 IP 位址和一個 SIP 主幹或您需要在每一部中繼伺服器上設定多個 SIP 主幹？<BR>如果您有多個中央網站，也請詢問服務提供者是否有能力啟用連線到及傳送自另一個中央網站。
+> 請與您的服務提供者聯繫，以判斷其是否提供高可用性支援（包括容錯移轉）。 如果是的話，您將需要決定設定的程式。 例如，您只需要在每個轉送伺服器上設定一個 IP 位址和一個 SIP 主幹，還是需要在每個轉送伺服器上設定多個 SIP 主幹？<BR>如果您有多部中央網站，也請詢問服務提供者是否有能力啟用與其他中央網站之間的連線。
 
 
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012年-09-21_
 
 
 > [!NOTE]  
-> SIP 主幹，我們強烈建議您部署獨立中繼伺服器。 如需詳細資訊，請參閱部署文件中的<A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Deploying Mediation Servers and Lync Server 2013 中的定義同儕</A>。
+> 若為 SIP 主幹，強烈建議您部署獨立的轉送伺服器。 如需詳細資訊，請參閱部署檔中的部署中繼 <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">伺服器及定義 Lync Server 2013 中的對等</A> 專案。
 
 
 
@@ -67,27 +69,27 @@ _**主題上次修改日期：** 2012年-09-21_
 
 <div>
 
-## <a name="securing-the-mediation-server-for-sip-trunking"></a>SIP 主幹保護中繼伺服器
+## <a name="securing-the-mediation-server-for-sip-trunking"></a>保護 SIP 中繼的轉送伺服器
 
-基於安全性考量，您應該設定設定虛擬 LAN (VLAN) 的每個連接兩個 VPN 路由器之間。 實際的程序設定 VLAN 因一個路由器製造商的不同而異。 如需詳細資訊，請連絡您的路由器供應商。
+基於安全性的考慮，您應該為兩個 VPN 路由器間的每個連線設定虛擬 LAN (VLAN) 。 安裝 VLAN 的實際程式會因不同的路由器製造商而異。 如需詳細資訊，請與您的路由器廠商聯繫。
 
 建議您遵循這些方針：
 
-  - 設定設定虛擬 LAN (VLAN) 之間中繼伺服器和 VPN 路由器在周邊網路 （也稱為 DMZ、 非軍事區和遮蔽式子網路）。
+  - 在周邊網路中的轉送伺服器和 VPN 路由器之間設定虛擬 LAN (VLAN)  (也稱為 DMZ、隔離區域和遮罩式子網) 。
 
-  - 不允許將廣播或多點傳送封包從路由器傳輸至 VLAN。
+  - 不允許從路由器將廣播或多播封包傳輸至 VLAN。
 
-  - 封鎖任何從路由器 anywhere 的流量路由傳送的路由規則，但中繼伺服器。
+  - 封鎖將流量從路由器路由傳送至任何地方（轉送伺服器）的路由規則。
 
-如果您使用 VPN 伺服器，建議您遵循以下指導方針：
+如果您使用 VPN 伺服器，我們建議您遵循下列指導方針：
 
-  - 設定 VPN 伺服器和中繼伺服器之間 VLAN。
+  - 在 VPN 伺服器與轉送伺服器之間設定 VLAN。
 
-  - 不允許將廣播或多點傳送封包從 VPN 伺服器傳輸至 VLAN。
+  - 不允許從 VPN 伺服器將廣播或多播封包傳輸至 VLAN。
 
-  - 封鎖任何將 VPN 伺服器流量路由傳送至任何位置的路由規則，但中繼伺服器。
+  - 封鎖將 VPN 伺服器流量路由傳送至任何無所不在（轉送伺服器）的路由規則。
 
-  - 藉由使用 generic routing encapsulation (GRE) 加密 VPN 上的資料。
+  - 使用一般路由封裝 (GRE) ，加密 VPN 上的資料。
 
 </div>
 

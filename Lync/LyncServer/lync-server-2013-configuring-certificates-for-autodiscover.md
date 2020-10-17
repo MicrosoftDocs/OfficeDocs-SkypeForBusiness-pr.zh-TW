@@ -12,20 +12,22 @@ ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d414a998fcce0f68186fbf9a6e42d6075dfb991c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e97bb7d77bbd468fff18084ecc7d4da8c5feb7f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203139"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502110"
 ---
+# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中設定自動探索的憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中設定自動探索的憑證
+
 
 </div>
 
@@ -43,7 +45,7 @@ Director 集區、前端集區及反向 proxy 的憑證，都需要額外的主�
 
 
 > [!NOTE]  
-> 您可以使用 <STRONG>Get-CsCertificate</STRONG> Cmdlet 來檢視目前指派的憑證相關資訊。 然而，預設檢視會截斷憑證屬性，而且不會顯示 SubjectAlternativeNames 屬性中所有的值。 您可以使用 <STRONG>Get-CsCertificate</STRONG>、<STRONG>Request-</STRONG>CsCertificate 和 <STRONG>Set-CsCertificate</STRONG> Cmdlet 來檢視部分資訊，並要求及指派憑證。 不過，如果您不確定目前憑證上主體替代名稱 (SAN) 的屬性，這並不是最好的方法。 若要查看憑證和所有的屬性成員，建議使用<EM>Microsoft Management Console (MMC) </EM>中的 [憑證] 嵌入式管理單元，或使用 Lync Server 部署嚮導。 在 [Lync Server 部署嚮導] 中，您可以使用 [憑證] 嚮導來查看憑證屬性。 下列程式會詳細說明如何使用 Lync Server 管理命令介面和<EM>Microsoft Management Console (MMC) </EM>來查看、要求與指派憑證的程式。 若要使用 Lync Server 部署嚮導，請參閱此處的詳細資料：如果您已部署選用的 Director 或 Director 集區：<A href="lync-server-2013-configure-certificates-for-the-director.md">在 Lync Server 2013 中設定 director 的憑證</A>。 若為前端伺服器或前端集區，請參閱以下的詳細資料：<A href="lync-server-2013-configure-certificates-for-servers.md">在 Lync Server 2013 中為伺服器設定憑證</A>。<BR>此程序中的最初步驟是準備步驟，引導您成為目前憑證扮演的角色。 根據預設，憑證不會有 lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain &gt; 或 lyncdiscoverinternal。 &lt;內部功能變數名稱 &gt; 專案，除非您先前已安裝行動服務，或是預先準備好您的憑證。 這個程序使用 SIP 網域名稱範例 ‘contoso.com’ 及內部網域名稱範例  ‘contoso.net’。<BR>Lync Server 2013 和 Lync Server 2010 的預設憑證設定是使用名為 ' Default ) ' 的單一憑證 (，但 web 服務) 、WebServicesExternal 和 WebServicesInternal 以外的目的預設 (。 選用設定是針對每種用途使用不同的憑證。 您可以使用 Lync Server 管理命令介面和 Windows PowerShell Cmdlet 來管理憑證，或使用 Lync Server 部署嚮導中的憑證嚮導來管理憑證。
+> 您可以使用 <STRONG>Get-CsCertificate</STRONG> Cmdlet 來檢視目前指派的憑證相關資訊。 然而，預設檢視會截斷憑證屬性，而且不會顯示 SubjectAlternativeNames 屬性中所有的值。 您可以使用 <STRONG>Get-CsCertificate</STRONG>、<STRONG>Request-</STRONG>CsCertificate 和 <STRONG>Set-CsCertificate</STRONG> Cmdlet 來檢視部分資訊，並要求及指派憑證。 不過，如果您不確定目前憑證上主體替代名稱 (SAN) 的屬性，這並不是最好的方法。 若要查看憑證和所有的屬性成員，建議使用 <EM>Microsoft Management Console (MMC) </EM> 中的 [憑證] 嵌入式管理單元，或使用 Lync Server 部署嚮導。 在 [Lync Server 部署嚮導] 中，您可以使用 [憑證] 嚮導來查看憑證屬性。 下列程式會詳細說明如何使用 Lync Server 管理命令介面和 <EM>Microsoft Management Console (MMC) </EM> 來查看、要求與指派憑證的程式。 若要使用 Lync Server 部署嚮導，請參閱此處的詳細資料：如果您已部署選用的 Director 或 Director 集區： <A href="lync-server-2013-configure-certificates-for-the-director.md">在 Lync Server 2013 中設定 director 的憑證</A>。 若為前端伺服器或前端集區，請參閱以下的詳細資料： <A href="lync-server-2013-configure-certificates-for-servers.md">在 Lync Server 2013 中為伺服器設定憑證</A>。<BR>此程序中的最初步驟是準備步驟，引導您成為目前憑證扮演的角色。 根據預設，憑證不會有 lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain &gt; 或 lyncdiscoverinternal。 &lt;內部功能變數名稱 &gt; 專案，除非您先前已安裝行動服務，或是預先準備好您的憑證。 這個程序使用 SIP 網域名稱範例 ‘contoso.com’ 及內部網域名稱範例  ‘contoso.net’。<BR>Lync Server 2013 和 Lync Server 2010 的預設憑證設定是使用名為 ' Default ) ' 的單一憑證 (，但 web 服務) 、WebServicesExternal 和 WebServicesInternal 以外的目的預設 (。 選用設定是針對每種用途使用不同的憑證。 您可以使用 Lync Server 管理命令介面和 Windows PowerShell Cmdlet 來管理憑證，或使用 Lync Server 部署嚮導中的憑證嚮導來管理憑證。
 
 
 
@@ -55,7 +57,7 @@ Director 集區、前端集區及反向 proxy 的憑證，都需要額外的主�
 
 1.  使用具有本機系統管理員權限的帳戶登入電腦。
 
-2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  找出哪些憑證已經指派給伺服器，以及使用類型為何。在下一個步驟中，您會需要此資訊來指派更新的憑證。請在命令列中輸入：
     
@@ -83,7 +85,7 @@ Director 集區、前端集區及反向 proxy 的憑證，都需要額外的主�
 
 7.  從 MMC 功能表中，依序選取 **[檔案]**、**[新增/移除嵌入式管理單元…]** 和 [憑證]。按一下 **[新增]**。出現提示時，選取 **[電腦帳戶]**，然後按 **[下一步]**。
 
-8.  如果憑證位於這部電腦上，請選取 [**本機電腦**]。 如果憑證位於另一台電腦上，則選取 **[另一台電腦]**，鍵入電腦的完整網域名稱或按一下 **[請輸入物件名稱來選取]** 中的 **[瀏覽]**，鍵入電腦的名稱。 按一下 **[檢查名稱]**。 解析出電腦的名稱之後，將會加上底線。 依序按一下 **[確定]** 和 **[完成]**。 按一下 **[確定]** 以認可選取項目，然後關閉 **[新增/移除嵌入式管理單元]** 對話方塊。
+8.  如果憑證位於這部電腦上，請選取 [ **本機電腦**]。 如果憑證位於另一台電腦上，則選取 **[另一台電腦]**，鍵入電腦的完整網域名稱或按一下 **[請輸入物件名稱來選取]** 中的 **[瀏覽]**，鍵入電腦的名稱。 按一下 **[檢查名稱]**。 解析出電腦的名稱之後，將會加上底線。 依序按一下 **[確定]** 和 **[完成]**。 按一下 **[確定]** 以認可選取項目，然後關閉 **[新增/移除嵌入式管理單元]** 對話方塊。
     
     <div>
     
@@ -98,7 +100,7 @@ Director 集區、前端集區及反向 proxy 的憑證，都需要額外的主�
 
 10. 在 **[憑證]** 檢視中，選取 **[詳細資料]**。您可以在此處選取 **[主體]** 來選取憑證主體名稱，隨即顯示指派的主體名稱和相關屬性。
 
-11. 若要查看指派的主體替代名稱，請選取 [**主體替代名稱**]。 隨即會顯示所有指派的主體替代名稱。 根據預設，在屬性中找到的主體替代名稱是「 **DNS 名稱**」類型。 若 IPv6 AAAA) 記錄，您應該會看到下列成員 (所有應該是的功能變數名稱（如 DNS 主機中所述） (A 或（如果有的話）：
+11. 若要查看指派的主體替代名稱，請選取 [ **主體替代名稱**]。 隨即會顯示所有指派的主體替代名稱。 根據預設，在屬性中找到的主體替代名稱是「 **DNS 名稱** 」類型。 若 IPv6 AAAA) 記錄，您應該會看到下列成員 (所有應該是的功能變數名稱（如 DNS 主機中所述） (A 或（如果有的話）：
     
       - 此集區的集區名稱，或單一伺服器名稱 (如果不是集區)
     
@@ -108,13 +110,13 @@ Director 集區、前端集區及反向 proxy 的憑證，都需要額外的主�
     
       - Web 服務的內部及 Web 服務外部名稱 (例如，webpool01.contoso.net、webpool01.contoso.com) ，其依據拓撲產生器和透過 ridden Web 服務選取範圍內的選擇。
     
-      - 如果已指派，則 lyncdiscover。 \<microsoft.rtc.management.xds.sipdomain \> 與 lyncdiscoverinternal。 \<microsoft.rtc.management.xds.sipdomain \> 記錄。
+      - 如果已指派，則 lyncdiscover。\<sipdomain\> 和 lyncdiscoverinternal。\<sipdomain\> 記錄。
     
     最後一項是您最感興趣的 – 是否有 lyncdiscover 和 lyncdiscoverinternal SAN 項目。
     
     取得此資訊之後，即可關閉憑證檢視和 MMC。
 
-12. 如果自動探索服務，表示 lyncdiscover。 \>功能變數名稱 \> 和 lyncdiscoverinternal。 \<功能變數名稱 \> (依據如果此為外部或內部憑證) 主體替代名稱缺失，且預設使用單一預設憑證、WebServicesInternal 和 WebServiceExternal 類型，請執行下列操作：
+12. 如果自動探索服務，表示 lyncdiscover。 \>功能變數名稱 \> 和 lyncdiscoverinternal。\<domain name\>  (根據此為外部或內部憑證) 主體替代名稱缺失，且預設使用單一預設憑證、WebServicesInternal 和 WebServiceExternal 類型，請執行下列操作：
     
       - 在 Lync Server 管理命令介面命令列提示字元處，輸入：
         

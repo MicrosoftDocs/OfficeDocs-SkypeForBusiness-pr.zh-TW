@@ -12,20 +12,22 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 313d2201be5f5919aeec37087a02bf7f400d7ceb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8d12a67b0ba102fdacea66b6196bafe32d89c9d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751285"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503100"
 ---
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>將試驗集區連線到舊版 Edge Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>將試驗集區連線到舊版 Edge Server
+
 
 </div>
 
@@ -45,21 +47,21 @@ _**主題上次修改日期：** 2012-09-29_
 
 ## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>使用拓撲產生器來與舊版 Edge 集區建立關聯
 
-1.  開啟**拓撲**產生器。
+1.  開啟 **拓撲**產生器。
 
-2.  選取您的網站，它會直接在**Lync Server**節點底下。
+2.  選取您的網站，它會直接在 **Lync Server** 節點底下。
 
 3.  在 [動作]**** 功能表上，按一下 [編輯屬性]****。
 
-4.  在左窗格中，選取 [**同盟路由**]。
+4.  在左窗格中，選取 [ **同盟路由**]。
 
-5.  在 [**網站同盟路由指派**] 底下，選取 [**啟用 SIP 同盟**]，然後選取 [lync server 2010 Director] 或 [Lync server 2010 Edge Server （如果未列出 Director）]。
+5.  在 [ **網站同盟路由指派**] 底下，選取 [ **啟用 SIP 同盟**]，然後選取 [lync server 2010 Director] 或 [Lync server 2010 Edge Server （如果未列出 Director）]。
     
     ![編輯屬性、同盟路由頁面](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "編輯屬性、同盟路由頁面")  
 
 6.  按一下 [確定]**** 關閉 [編輯內容]**** 頁面。
 
-7.  在 [拓撲產生器] 的 [Lync Server 2013] 節點下，流覽至 [ **Standard edition server** ] 或 [ **Enterprise Edition 前端**集區]，以滑鼠右鍵按一下集區，然後按一下 [**編輯屬性**]。
+7.  在 [拓撲產生器] 的 [Lync Server 2013] 節點下，流覽至 [ **Standard edition server** ] 或 [ **Enterprise Edition 前端**集區]，以滑鼠右鍵按一下集區，然後按一下 [ **編輯屬性**]。
 
 8.  在 [關聯]**** 底下，選取 [關聯 Edge 集區 (適用於媒體元件)]**** 旁邊的核取方塊。
 
@@ -69,9 +71,9 @@ _**主題上次修改日期：** 2012-09-29_
 
 10. 按一下 [確定]**** 關閉 [編輯內容]**** 頁面。
 
-11. 在 [**拓撲**產生器] 中，選取最頂端的節點 [ **Lync Server**]。
+11. 在 [ **拓撲**產生器] 中，選取最頂端的節點 [ **Lync Server**]。
 
-12. 從 [**動作**] 功能表中，按一下 [**發行拓撲**]，然後按 **[下一步]**。
+12. 從 [ **動作** ] 功能表中，按一下 [ **發行拓撲**]，然後按 **[下一步]**。
 
 13. 當 [發行精靈]**** 完成之後，按一下 [完成]****。
 

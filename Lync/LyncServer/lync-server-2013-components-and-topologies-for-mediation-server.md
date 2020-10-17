@@ -12,20 +12,22 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b6c824da8eccaec0cb48450b0d81dddcc60f99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ac46c8aba06bdfedaafa7846142d5a584c703c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502560"
 ---
+# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中轉送伺服器的元件和拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中轉送伺服器的元件和拓撲
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012-09-21_
 
 轉送伺服器具有下列相依性：
 
-  - **處長。** 此為必要動作。 在與 Lync Server 2013 網路進行轉送伺服器互動時，註冊機構是下一個躍點。 請注意，除了只包含轉送伺服器的獨立集區之外，也可以在前端伺服器上組合轉送伺服器和註冊機構。 註冊機構是透過 Survivable Branch 裝置上的轉送伺服器和 PSTN 閘道來組合。
+  - **處長。** 必要項目。 在與 Lync Server 2013 網路進行轉送伺服器互動時，註冊機構是下一個躍點。 請注意，除了只包含轉送伺服器的獨立集區之外，也可以在前端伺服器上組合轉送伺服器和註冊機構。 註冊機構是透過 Survivable Branch 裝置上的轉送伺服器和 PSTN 閘道來組合。
 
   - **監控伺服器。** 選用但是強烈建議。 監控伺服器可讓轉送伺服器記錄與其媒體會話相關聯的品質計量。
 

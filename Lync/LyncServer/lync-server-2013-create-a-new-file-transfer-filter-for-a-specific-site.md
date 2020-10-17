@@ -12,20 +12,22 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bec5e9e33850fc1da53d370f70b948b7ec6b3f27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10e33523c18f323c34ed129616f0e6012a4ebf11
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501930"
 ---
+# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a>在 Lync Server 2013 中為特定網站建立新的檔案傳輸篩選器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a>在 Lync Server 2013 中為特定網站建立新的檔案傳輸篩選器
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af8c2f5ed78bb228c4e650da983a1c82456c47b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3df30b2aa45fe9519d724f904e8b375bed794042
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502952"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>部署 Lync Server 2013 試驗集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>部署 Lync Server 2013 試驗集區
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2013-11-22_
 
 
 > [!NOTE]  
-> 下列程序討論在整個試驗集區部署程序中，應考量的功能和設定。 本節只著重在部署試驗集區時應該考量的要點。 如需詳細步驟，請參閱<A href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</A>部署指南。
+> 下列程序討論在整個試驗集區部署程序中，應考量的功能和設定。 本節只著重在部署試驗集區時應該考量的要點。 如需詳細步驟，請參閱 <A href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</A> 部署指南。
 
 
 
@@ -80,11 +82,11 @@ _**主題上次修改日期：** 2013-11-22_
     
     ![[定義新前端集區] 對話方塊](images/JJ204718.374f0ed4-988b-465f-9861-8d1db401e76f(OCS.15).jpg "[定義新前端集區] 對話方塊")
 
-7.  在「選取功能」**** 頁面上，選取您希望此前端集區擁有的功能之對應核取方塊。 例如，如果您只部署立即訊息 (IM) 和目前狀態功能，則可以選取 [會議] 核取方塊以允許多方 IM，但是不要選取 [電話撥入式 (PSTN) 會議]、[企業語音] 或 [通話許可控制] 核取方塊，因為這些功能代表語音、視訊和共同作業會議功能。 如需選取功能的其他資訊，請參閱部署檔中的在[Lync server 2013 中定義及設定前端集區或 Standard Edition server](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) 。
+7.  在「選取功能」**** 頁面上，選取您希望此前端集區擁有的功能之對應核取方塊。 例如，如果您只部署立即訊息 (IM) 和目前狀態功能，則可以選取 [會議] 核取方塊以允許多方 IM，但是不要選取 [電話撥入式 (PSTN) 會議]、[企業語音] 或 [通話許可控制] 核取方塊，因為這些功能代表語音、視訊和共同作業會議功能。 如需選取功能的其他資訊，請參閱部署檔中的在 [Lync server 2013 中定義及設定前端集區或 Standard Edition server](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) 。
     
     ![前端集區選取功能頁面](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "前端集區選取功能頁面")
 
-8.  在 [**選取組合伺服器角色**] 頁面上，建議您在 Lync server 2013 中組合轉送伺服器。 當您將舊版拓撲與 Lync Server 2013 合併時，我們必須先組合 Office 通訊伺服器 2007 R2 轉送伺服器。 在合併拓撲並設定 Lync Server 2013 轉送伺服器之後，您可以決定是否要保留組合轉送伺服器，或在將轉送伺服器角色移2013至獨立伺服器時，將其變更為獨立伺服器。
+8.  在 [ **選取組合伺服器角色** ] 頁面上，建議您在 Lync server 2013 中組合轉送伺服器。 當您將舊版拓撲與 Lync Server 2013 合併時，我們必須先組合 Office 通訊伺服器 2007 R2 轉送伺服器。 在合併拓撲並設定 Lync Server 2013 轉送伺服器之後，您可以決定是否要保留組合轉送伺服器，或在將轉送伺服器角色移2013至獨立伺服器時，將其變更為獨立伺服器。
     
     ![前端集區選取 [組合伺服器角色] 頁面](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "前端集區選取 [組合伺服器角色] 頁面")
 
@@ -96,11 +98,11 @@ _**主題上次修改日期：** 2013-11-22_
     
     ![定義新的 Office Web Apps Server FQDN 屬性](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "定義新的 Office Web Apps Server FQDN 屬性")
 
-11. 在 [**定義封存 SQL Server 存放區**] 頁面上，選取先前針對 Lync Server 2013 建立的 SQL Server 實例。
+11. 在 [ **定義封存 SQL Server 存放區** ] 頁面上，選取先前針對 Lync Server 2013 建立的 SQL Server 實例。
     
     ![定義封存 SQL Server 儲存區頁面](images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "定義封存 SQL Server 儲存區頁面")
 
-12. 在 [**定義監控 SQL Server 存放區**] 頁面上，選取先前針對 Lync Server 2013 建立的 SQL Server 實例。 按一下 [完成]****。
+12. 在 [ **定義監控 SQL Server 存放區** ] 頁面上，選取先前針對 Lync Server 2013 建立的 SQL Server 實例。 按一下 [完成]****。
 
 13. 從拓撲產生器最上面的節點，用滑鼠右鍵按一下 [Lync Server]****，再按一下 [編輯內容]****。 按一下 [簡單 URL]****。
 
@@ -108,7 +110,7 @@ _**主題上次修改日期：** 2013-11-22_
     
     ![編輯屬性、簡單 URLs 頁面](images/JJ204718.ef596dd2-1983-47e0-b342-4fc7a0e36380(OCS.15).jpg "編輯屬性、簡單 URLs 頁面")
     
-    如需簡單 URLs 的其他資訊，請參閱部署檔中的主題[編輯或設定簡單 URLs Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) 。
+    如需簡單 URLs 的其他資訊，請參閱部署檔中的主題 [編輯或設定簡單 URLs Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) 。
 
 15. 從 [編輯內容]**** 中，按一下 [中央管理伺服器]****。
 
@@ -122,11 +124,11 @@ _**主題上次修改日期：** 2013-11-22_
 
 19. 當發行程序完成時，按一下 [完成]****。
 
-20. 返回至 [Lync Server 2013 部署嚮導]，按一下 [**安裝或更新 Lync Server 系統**]。
+20. 返回至 [Lync Server 2013 部署嚮導]，按一下 [ **安裝或更新 Lync Server 系統**]。
     
     ![Lync Server 2013 部署嚮導](images/JJ204718.fb05adef-ad29-4905-9090-d409261b0e48(OCS.15).jpg "Lync Server 2013 部署嚮導")
 
-若要安裝設定存放區的本機複本並啟動必要的服務，請參閱部署檔中的[設定前端伺服器和前端集區的 Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md) 。
+若要安裝設定存放區的本機複本並啟動必要的服務，請參閱部署檔中的 [設定前端伺服器和前端集區的 Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md) 。
 
 
 </div>

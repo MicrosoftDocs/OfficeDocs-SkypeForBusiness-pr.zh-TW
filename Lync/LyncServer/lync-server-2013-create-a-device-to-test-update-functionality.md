@@ -12,20 +12,22 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67712f981d8061b8dd3c90de812092e01dc5d1b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bbf4d45edce186819241ce6244e1ea1cd6677bfa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195436"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501970"
 ---
+# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>在 Lync Server 2013 中建立裝置以測試更新功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>在 Lync Server 2013 中建立裝置以測試更新功能
+
 
 </div>
 
@@ -69,7 +71,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 建立測試裝置
 
-您可以使用 Windows PowerShell 和 CsTestDevice Cmdlet 來建立測試裝置。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+您可以使用 Windows PowerShell 和 New-CsTestDevice Cmdlet 來建立測試裝置。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 使用此 Cmdlet 建立測試裝置時，您必須執行下列兩項作業：
 

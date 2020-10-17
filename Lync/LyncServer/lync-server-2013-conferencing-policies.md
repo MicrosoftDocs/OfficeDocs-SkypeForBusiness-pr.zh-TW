@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 會議原則
+title: Lync Server 2013：會議原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb4e727f54a8c01221a83e24b38a69a40f76f209
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 681dbf0d6786656afcee12120e1b26d95bee41df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199116"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502300"
 ---
+# <a name="conferencing-policies-in-lync-server-2013"></a>Lync Server 2013 中的會議原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-policies-in-lync-server-2013"></a>Lync Server 2013 中的會議原則
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42199116"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-18_
+_**主題上次修改日期：** 2012-09-18_
 
 會議原則定義使用者可以在會議中使用的特性與功能。會議原則設定包含廣泛的排程和參與選項，從會議是否可包含 IP 音訊和視訊到可出席會議的人數上限都涵蓋在內。系統管理員可以使用會議原則來管理會議的安全、頻寬和法律層面。
 
@@ -47,11 +49,11 @@ _**主題上次修改日期：** 2012年-09-18_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中檢視會議原則資訊](lync-server-2013-view-conferencing-policy-information.md)
+  - [在 Lync Server 2013 中查看會議原則資訊](lync-server-2013-view-conferencing-policy-information.md)
 
-  - [建立或修改 Lync Server 2013 中的會議原則](lync-server-2013-create-or-modify-a-conferencing-policy.md)
+  - [在 Lync Server 2013 中建立或修改會議原則](lync-server-2013-create-or-modify-a-conferencing-policy.md)
 
-  - [刪除 Lync Server 2013 中現有的會議原則](lync-server-2013-delete-an-existing-conferencing-policy.md)
+  - [在 Lync Server 2013 中刪除現有的會議原則](lync-server-2013-delete-an-existing-conferencing-policy.md)
 
   - [Lync Server 2013 的會議原則設定參考](lync-server-2013-conferencing-policy-settings-reference.md)
 

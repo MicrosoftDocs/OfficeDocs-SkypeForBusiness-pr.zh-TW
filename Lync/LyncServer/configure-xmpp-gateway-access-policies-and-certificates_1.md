@@ -13,20 +13,22 @@ ms:contentKeyID: 49733819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72e17634a8836a56ce7002e3d0cf57440f72c60f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 870f55bc59ba5b3bed68545b54cbfcc341885162
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754461"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503210"
 ---
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>設定 XMPP 閘道的存取原則和憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>設定 XMPP 閘道的存取原則和憑證
+
 
 </div>
 
@@ -38,7 +40,7 @@ ms.locfileid: "44754461"
 
 _**主題上次修改日期：** 2012-10-15_
 
-XMPP 同盟會根據可延伸的訊息和顯示狀態通訊協定（XMPP）定義外部部署。 XMPP 設定可讓 Lync 使用者依下列方式存取 XMPP 網域使用者：
+XMPP 同盟會根據可延伸的訊息和顯示狀態通訊協定 (XMPP) 來定義外部部署。 XMPP 設定可讓 Lync 使用者依下列方式存取 XMPP 網域使用者：
 
   - IM 和目前狀態–僅限人員
 
@@ -50,7 +52,7 @@ XMPP 同盟會根據可延伸的訊息和顯示狀態通訊協定（XMPP）定�
 
 
 > [!NOTE]  
-> 若要開始 XMPP 閘道遷移，您必須部署 Lync Server 2013 XMPP 閘道，並設定存取原則以啟用 Lync Server 2013 XMPP 閘道的使用者。 在您執行這些步驟之前，必須先將所有使用者移至 Lync Server 2013 部署。 如需詳細資訊，請參閱<A href="configure-xmpp-gateway-on-lync-server-2013_1.md">CONFIGURE XMPP gateway On Lync Server 2013</A>。
+> 若要開始 XMPP 閘道遷移，您必須部署 Lync Server 2013 XMPP 閘道，並設定存取原則以啟用 Lync Server 2013 XMPP 閘道的使用者。 在您執行這些步驟之前，必須先將所有使用者移至 Lync Server 2013 部署。 如需詳細資訊，請參閱 <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">CONFIGURE XMPP gateway On Lync Server 2013</A>。
 
 
 
@@ -62,9 +64,9 @@ XMPP 同盟會根據可延伸的訊息和顯示狀態通訊協定（XMPP）定�
 
 1.  開啟 [Lync Server 控制台]。
 
-2.  在左導覽列中，按一下 [**同盟和外部存取**]，然後按一下 [**外部存取原則**]。
+2.  在左導覽列中，按一下 [ **同盟和外部存取**]，然後按一下 [ **外部存取原則**]。
 
-3.  按一下 [**新增**]，然後按一下 [**使用者原則**]。
+3.  按一下 [ **新增** ]，然後按一下 [ **使用者原則**]。
 
 4.  輸入外部存取使用者原則的名稱。
 

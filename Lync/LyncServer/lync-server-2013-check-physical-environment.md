@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 檢查實體環境
+title: Lync Server 2013：檢查實體環境
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e85f99250161433ba895f287521367d1b76cec1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43f63129ee54ede60cc1da8eb737a5b7e0fa9b76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502680"
 ---
+# <a name="performing-physical-environmental-checks"></a>執行實體環境檢查
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="performing-physical-environmental-checks"></a>執行實體環境檢查
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42190356"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-04-30_
+_**主題上次修改日期：** 2014-04-30_
 
-之前檢查效能、 可用性及 Lync Server 2013 部署的功能，您應該檢查實體環境。 例如，伺服器可能會有溫度，或網路線可能已被取代。 為了獲得最佳結果，請執行下列實體環境檢查：
+在檢查 Lync Server 2013 部署的效能、可用性和功能之前，您應該檢查實體環境。 例如，可能必須降低伺服器的室內溫度，否則可能必須更換網路線。 為了獲得最佳結果，請執行下列實體環境檢查：
 
-  - **實體安全性措施**   實體安全性防護，如鎖定、 門及限制存取聊天室必須受到保護。 檢查有任何未經授權和強制項目和設備損毀的徵兆。
+  - **實體安全性措施**    實體安全性防護（例如鎖定、門和限制存取的聊天室）必須安全。 檢查任何未經授權的和強制的專案，以及設備損毀的跡象。
 
-  - **溫度和濕度**   高溫、 不佳的空調流程和濕度可能會導致硬體元件，以發出過熱。 請檢查溫度和濕度，有助於確保環境系統如加熱和空調可以維護可接受的條件和硬體製造商規格中的運作。 當最近已安裝新的設備時，也請檢查空調流程，以及從伺服器是暢行無阻，且符合製造商規格。
+  - **溫度和濕度**    高溫、不良的空氣流通及濕度可能會導致硬體元件過高。 檢查溫度和濕度，以協助確定環境系統（如加熱和空調）可以在硬體製造商規格中維持可接受的條件和功能。 最近安裝新的裝置時，也請檢查伺服器的氣流流向和來源都不受支援，且符合製造商的規格。
 
-  - **裝置和元件**   Lync Server 2013 組織依賴可正常運作的實體網路和相關的硬體。 請確定路由器、 交換器、 集線器、 實體纜線和連接器運作正常。
+  - **裝置和元件**    Lync Server 2013 組織依賴運作中的實體網路和相關的硬體。 請確定路由器、交換器、集線器、實體纜線和連接器均可運作。
 
-如何執行這類檢查特定內容取決於您安裝的網站和所選的伺服器硬體的很大的差異。 第一次您執行這項檢查，請參閱硬體文件，然後記下所需的參數為供日後參考。
+關於如何執行這些檢查的詳細資訊，將會在安裝網站和所選擇的伺服器硬體上很大的程度上加以決定。 在您第一次執行這種檢查時，請參閱硬體檔，並記下所需的參數，以備日後參考。
 
-### <a name="desired-server-space-environment"></a>想要的伺服器空間環境
+### <a name="desired-server-space-environment"></a>Desired server space 環境
 
 <table>
 <colgroup>
@@ -57,7 +59,7 @@ _**上次修改主題：** 2014年-04-30_
 <thead>
 <tr class="header">
 <th>參數</th>
-<th>所需的值或範圍</th>
+<th>想要的值或範圍</th>
 </tr>
 </thead>
 <tbody>
@@ -66,15 +68,15 @@ _**上次修改主題：** 2014年-04-30_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>溼度</p></td>
+<td><p>濕度</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>前端伺服器所面臨的</p></td>
-<td><p>熱通道 / 冷通道</p></td>
+<td><p>伺服器正面</p></td>
+<td><p>熱通道/cold 通道</p></td>
 </tr>
 <tr class="even">
-<td><p>暢行無阻的排氣距離</p></td>
+<td><p>不應對的排氣淨空</p></td>
 <td></td>
 </tr>
 </tbody>

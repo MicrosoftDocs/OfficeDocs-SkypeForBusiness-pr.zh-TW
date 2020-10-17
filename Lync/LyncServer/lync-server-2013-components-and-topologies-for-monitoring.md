@@ -12,20 +12,22 @@ ms:contentKeyID: 48185313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 072dbc882940bc0f28217bcf7c41663bf9ed3708
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bf9724089eeed36d48cbce8e1872078e3940beae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502520"
 ---
+# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 中監控的元件與拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 中監控的元件與拓撲
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2012-09-05_
 
   - Microsoft SQL Server 2012 Standard Edition
 
-請注意，您必須使用這些資料庫的64位版本;32位版本的 SQL Server 無法用作監視的後端存放區。 同樣地，Lync Server 2013 不支援 SQL Server 2008 的速成版或 SQL Server 2012。 如需 Lync Server 2013 資料庫需求的詳細資訊，請參閱 Lync Server 2013 支援指南中的主題[資料庫軟體支援（Lync server 2013](lync-server-2013-database-software-support.md) ）。
+請注意，您必須使用這些資料庫的64位版本;32位版本的 SQL Server 無法用作監視的後端存放區。 同樣地，Lync Server 2013 不支援 SQL Server 2008 的速成版或 SQL Server 2012。 如需 Lync Server 2013 資料庫需求的詳細資訊，請參閱 Lync Server 2013 支援指南中的主題 [資料庫軟體支援（Lync server 2013](lync-server-2013-database-software-support.md) ）。
 
 請記住，必須先安裝及設定 SQL Server，才能部署及設定監視。 不過，您只需要部署 SQL Server 本身;您不需要事先設定監視資料庫。 相反地，當您發佈 Lync Server 拓撲時，會自動為您建立這些資料庫。
 

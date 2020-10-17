@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 會議摘要報告
+title: Lync Server 2013：會議摘要報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502350"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的會議摘要報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的會議摘要報告
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42213069"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-09-03_
+_**主題上次修改日期：** 2014-09-03_
 
-會議摘要報告提供線上會議工作階段的整體檢視。 會議通常涉及 2 個以上的使用者，並需要在使用 Microsoft Lync Server 2013 會議服務。 相較之下，對等工作階段通常只涉及兩位使用者，而且不需要使用 Lync Server 的會議服務。 對等活動報告上的[Lync Server 2013 中的對等活動摘要報告](lync-server-2013-peer-to-peer-activity-summary-report.md)。
+會議摘要報告提供線上會議工作階段的整體檢視。 會議通常會包含超過2個使用者，且需要使用 Microsoft Lync Server 2013 會議服務。 相較之下，對等工作階段通常只涉及兩位使用者，而且不需要使用 Lync Server 的會議服務。 對等活動會在 [Lync Server 2013 的「Peer-to-Peer 活動摘要」報告](lync-server-2013-peer-to-peer-activity-summary-report.md)上報告。
 
-會議摘要報告不但會告訴您在指定的時間期間內 （每小時、 每天、 每週、 每月） 已保留多少場會議，但也會告訴您參與那些會議的人員總數以及唯一會議總數召集人。
+會議摘要報告不僅會告訴您每小時、每日、每週、) 每月都有多少會議已在指定期間內舉行 (，但也會告訴您在這些會議中進行部分工作的人數，以及唯一會議召集人的總數。
 
 「專屬」召集人是任何至少排程一場會議的人。例如，如果 Pilar Ackerman 排程一場會議，她就算是一位專屬召集人。如果 Ken Myer 排程 148 場會議，他也算是一位專屬召集人。 例如，下表顯示排程 8 場會議，但只有 3 位專屬召集人 (Ken Myer、Pilar Ackerman 及 David Ahs)。
 
@@ -192,19 +194,19 @@ _**上次修改主題：** 2014年-09-03_
 <td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
-<p>7/7/2012 下午 1:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
@@ -226,7 +228,7 @@ _**上次修改主題：** 2014年-09-03_
 
 <div>
 
-## <a name="metrics"></a>計量
+## <a name="metrics"></a>指標
 
 下表列出會議摘要報告提供的資訊。
 
@@ -240,9 +242,9 @@ _**上次修改主題：** 2014年-09-03_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -278,7 +280,7 @@ _**上次修改主題：** 2014年-09-03_
 <td><p><strong>A/V 會議總分鐘數</strong></p></td>
 <td><p>否</p></td>
 <td><p>用於音訊/視訊會議的總分鐘數。</p>
-<p>總 A / V 會議分鐘公制摘要列出所有音訊/視訊會議類型，包括： A / V 會議;IM 會議;應用程式共用會議;資料會議;與 PSTN 會議。</p></td>
+<p>A/V 會議紀要度量總數摘要會摘要所有音訊/視訊會議類型，包括： A/V 會議;IM 會議;應用程式共用會議;資料會議;和 PSTN 會議。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>A/V 會議參與者總分鐘數</strong></p></td>

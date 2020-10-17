@@ -1,5 +1,5 @@
 ---
-title: 群組來電接聽所使用的 Lync Server 2013： 元件
+title: Lync Server 2013：群組呼叫收取所使用的元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e868ecc20dcafbb5da12c91deb26a91f4efacb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 062dc114534abb7d2a011c31b9747c2d6a0a45bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502360"
 ---
+# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中群組呼叫收取所使用的元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>群組來電接聽 Lync Server 2013 中所使用的元件
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42213179"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-30_
+_**主題上次修改日期：** 2013-01-30_
 
-當您部署企業語音和通話駐留應用程式時，會自動部署群組來電接聽。 您啟用群組來電接聽通話駐留軌道表使用設定為通話收取群組數字，及指定的數字的個別範圍然後所指派到呼叫收取群組的使用者，然後為使用者啟用群組來電接聽。 群組來電接聽支援下列的 Lync Server 元件：
+當您部署企業語音和通話駐留應用程式時，會自動部署群組呼叫收取。 您可以將通話駐留軌道表設定為呼叫收取群組的號碼，然後指派使用者呼叫收取群組，並為使用者啟用群組通話收取，以啟用群組呼叫收取。 下列 Lync Server 元件支援群組呼叫收取：
 
-  - **應用程式服務**   應用程式服務提供的平台的部署，裝載，及管理整合通訊應用程式，例如通話駐留應用程式。 在每個前端伺服器上的前端集區中，每個 Standard Edition server 上，會自動安裝應用程式服務。
+  - **應用程式服務**    Application service 提供平臺，用來部署、裝載和管理整合通訊應用程式，例如通話駐留應用程式。 應用程式服務會自動安裝在前端集區和每個 Standard Edition server 上的每一部前端伺服器上。
 
-  - **通話駐留應用程式**   通話駐留應用程式是下列其中一個裝載的應用程式服務的整合的通訊應用程式。 群組來電接聽為基礎的通話駐留應用程式。
+  - **通話駐留應用程式**    通話駐留應用程式是由應用程式服務主控的整合通訊應用程式之一。 群組呼叫收取是以通話駐留應用程式為基礎。
 
-  - **Lync Server 管理命令介面**   您使用 Lync Server 管理命令介面來管理群組來電接聽群組。
+  - **Lync Server 管理命令**     介面您可以使用 Lync Server 管理命令介面來管理群組呼叫收取群組。
 
-  - **SEFAUtil resource kit 工具**   呼叫收取群組指派給使用者和要啟用或停用使用者的來電接聽使用次要分機功能啟用公用程式 (SEFAUtil)。
+  - **SEFAUtil 資源套件工具**    您可以使用 [次要分機] 功能啟用實用程式 (SEFAUtil) 指派使用者至來電收取群組，以及啟用或停用使用者的電話收取。
 
 </div>
 

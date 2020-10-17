@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219713"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501500"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的桌面用戶端比較表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的桌面用戶端比較表
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2018-01-23_
 
 
 > [!IMPORTANT]  
-> 如需 Lync 2013 行動用戶端中的功能可用性的詳細資訊，請參閱<A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的行動用戶端比較表</A>。
+> 如需 Lync 2013 行動用戶端中的功能可用性的詳細資訊，請參閱 <A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的行動用戶端比較表</A> 。
 
 
 
@@ -77,7 +79,7 @@ _**主題上次修改日期：** 2018-01-23_
 > <LI>
 > <P>Lync Server 2013 支援下列先前發佈的用戶端： Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 語音應答。 如需這些用戶端的相關資訊，請參閱 Lync 2010 版本的用戶端比較表 <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> 。</P>
 > <LI>
-> <P>Lync 2013 用戶端支援虛擬桌面基礎結構（VDI）環境中的音訊和影片。 如需有關 VDI 環境中的 Lync 2013 功能的詳細資訊，請參閱<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Lync Server 2013 中支援的虛擬化技術與已知限制</A>。</P></LI></UL>
+> <P>Lync 2013 用戶端支援虛擬桌面基礎結構中的音訊和影片 (VDI) 環境。 如需有關 VDI 環境中的 Lync 2013 功能的詳細資訊，請參閱 <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Lync Server 2013 中支援的虛擬化技術與已知限制</A>。</P></LI></UL>
 
 
 
@@ -123,7 +125,7 @@ _**主題上次修改日期：** 2018-01-23_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>查看狀態</p></td>
+<td><p>檢視狀態</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -392,7 +394,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>顯示其他連絡人視圖（例如，磚）</p></td>
+<td><p>顯示其他連絡人視圖 (例如，麻將牌) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -406,7 +408,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>依群組、關聯或新的方式排序連絡人（已將您新增至連絡人清單的人員）</p></td>
+<td><p>依群組、關聯或新 (將您新增至其連絡人清單的人員排序連絡人) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -420,7 +422,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>依狀態排序連絡人（可用性）</p></td>
+<td><p>依狀態 (可用性排序連絡人) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -566,7 +568,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>技能搜尋（搭配 SharePoint Server 整合）</p></td>
+<td><p>使用 SharePoint 伺服器整合的技能搜尋 () </p></td>
 <td><p>●2</p></td>
 <td> </td>
 <td><p>●2</p></td>
@@ -580,7 +582,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Persistent Chat （群組聊天）整合</p></td>
+<td><p>Persistent Chat (群組聊天) 整合</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -738,7 +740,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>（需要外掛程式）</p></td>
+<p> (需要外掛程式) </p></td>
 <td><p>●</p></td>
 <td><p>●1</p></td>
 <td><p>●</p></td>
@@ -753,7 +755,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>（需要外掛程式）</p></td>
+<p> (需要外掛程式) </p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -761,7 +763,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>流覽多方影片（圖庫視圖）</p></td>
+<td><p>查看多方影片 (圖庫 view) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -817,14 +819,14 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>共用桌面（如果已啟用）</p></td>
+<td><p>在啟用) 時共用桌面 (</p></td>
 <td><p>●</p></td>
 <td><p>●2</p></td>
 <td><p>●</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>（需要外掛程式）</p></td>
+<p> (需要外掛程式) </p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -832,14 +834,14 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●2</p></td>
 </tr>
 <tr class="even">
-<td><p>共用程式（如果已啟用）</p></td>
+<td><p>在啟用的情況中共用程式 () </p></td>
 <td><p>●</p></td>
 <td><p>僅檢視</p></td>
 <td><p>●</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>（需要外掛程式）</p></td>
+<p> (需要外掛程式) </p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -847,7 +849,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>僅檢視</p></td>
 </tr>
 <tr class="odd">
-<td><p>新增匿名參與者（若啟用）</p></td>
+<td><p>在啟用) 時新增匿名參與者 (</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -923,7 +925,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 <td></td>
 <td></td>
-<td><p>只編輯（非新增）</p></td>
+<td><p>僅限編輯 (不新增) </p></td>
 <td> </td>
 <td></td>
 <td></td>
@@ -1071,7 +1073,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>在 UNRESOLVED_TOKEN_VAL （skypeforbusiness）和 Outlook 之間同步處理代理人</p></td>
+<td><p>在 UNRESOLVED_TOKEN_VAL (skypeforbusiness) 和 Outlook 之間同步處理代理人</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1085,7 +1087,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>設定影片聚焦（鎖定影片）</p></td>
+<td><p>設定影片聚焦 (鎖定影片) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1130,7 +1132,7 @@ _**主題上次修改日期：** 2018-01-23_
 
 <div>
 
-## <a name="voice-telephony-support"></a>語音（電話語音）支援
+## <a name="voice-telephony-support"></a>語音 (電話語音) 支援
 
 <div>
 
@@ -1274,7 +1276,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>支援緊急服務（E911）</p></td>
+<td><p> (E911) 支援緊急服務</p></td>
 <td><p>●3</p></td>
 <td><p>●</p>
 <p>需要 Lync Server 2013 CU8 HF1 或更新版本</p></td>
@@ -1289,7 +1291,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>適用于 E-911 通話的 IM 通知至 SIP URI</p></td>
+<td><p>) E-911 通話的 SIP URI (s 的 IM 通知</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1752,7 +1754,7 @@ _**主題上次修改日期：** 2018-01-23_
 
   - 連絡人：搜尋回應群組
 
-  - IM 支援：持續聊天（群組聊天）整合
+  - IM 支援：持續聊天 (群組聊天) 整合
 
   - IM 支援：按一下一次即可將持續聊天室提升為會議
 

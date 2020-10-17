@@ -12,20 +12,22 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e8fd10947bab25e522f35e9cd121a04abbb4a45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 90b4c7c07718faf93237dfe11357dc103bf77e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501680"
 ---
+# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改群組搜尋工作流程
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改群組搜尋工作流程
+
 
 </div>
 
@@ -55,13 +57,13 @@ _**主題上次修改日期：** 2013-09-11_
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左側導覽列中，按一下 **[回應群組]**，然後按一下 **[工作流程]**。
 
 4.  在 **[工作流程]** 頁面上，按一下 **[建立或編輯工作流程]**。
 
-5.  在 [**選取服務**] 搜尋欄位中，輸入主控您要建立或變更之工作流程的**ApplicationServer**服務的全部或部分名稱。 在產生的服務清單中，按一下您想要的服務，然後按一下 **[確定]**。
+5.  在 [ **選取服務** ] 搜尋欄位中，輸入主控您要建立或變更之工作流程的 **ApplicationServer** 服務的全部或部分名稱。 在產生的服務清單中，按一下您想要的服務，然後按一下 **[確定]**。
     
     <div>
     
@@ -74,7 +76,7 @@ _**主題上次修改日期：** 2013-09-11_
 
 6.  執行下列其中一項：
     
-      - 在 [**建立新的工作流程**] 下，**按一下 [群組搜尋**] 旁的 [建立]。
+      - 在 [ **建立新的工作流程**] 下， **按一下 [群組搜尋**] 旁的 [建立]。
     
       - 在 **[管理現有工作流程]** 下，找到想要變更的工作流程，然後在 **[動作]** 下按一下 **[編輯]**。
 
@@ -84,7 +86,7 @@ _**主題上次修改日期：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 若要建立受管理的工作流程，您必須選取<STRONG>[啟用工作流程</STRONG>]。 在您儲存使用中的受管理工作流程之後，您可以修改並停用該工作流程。
+    > 若要建立受管理的工作流程，您必須選取 <STRONG>[啟用工作流程</STRONG>]。 在您儲存使用中的受管理工作流程之後，您可以修改並停用該工作流程。
 
     
     </div>
@@ -95,7 +97,7 @@ _**主題上次修改日期：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用 Lync Server 控制台或使用<STRONG>get-csexternalaccesspolicy</STRONG>指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱<A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy In Lync Server 2013</A>。 如需同盟設定的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-get-csexternalaccesspolicy</A>。
+    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用 Lync Server 控制台或使用 <STRONG>get-csexternalaccesspolicy</STRONG> 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy In Lync Server 2013</A>。 如需同盟設定的詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-get-csexternalaccesspolicy</A>。
 
     
     </div>
@@ -120,7 +122,7 @@ _**主題上次修改日期：** 2013-09-11_
     
     </div>
 
-10. 在 [**輸入要接聽電話的群組位址**] 下，輸入主要 SIP 統一資源識別項 (URI) 會接聽工作流程呼叫的群組的位址。
+10. 在 [ **輸入要接聽電話的群組位址**] 下，輸入主要 SIP 統一資源識別項 (URI) 會接聽工作流程呼叫的群組的位址。
     
     <div>
     
@@ -131,13 +133,13 @@ _**主題上次修改日期：** 2013-09-11_
     
     </div>
 
-11. 在 [**顯示名稱**] 中，輸入您要針對工作流程顯示的名稱 (例如，Sales Response Group) 。
+11. 在 [ **顯示名稱**] 中，輸入您要針對工作流程顯示的名稱 (例如，Sales Response Group) 。
     
     <div>
     
 
     > [!NOTE]  
-    > &lt;在顯示名稱中不要包含 "" 或 " &gt; " 字元。 請勿使用下列顯示名稱，因為它們是保留的： <STRONG>RGS 存在觀察</STRONG>程式或<STRONG>宣告服務</STRONG>。
+    > &lt;在顯示名稱中不要包含 "" 或 " &gt; " 字元。 請勿使用下列顯示名稱，因為它們是保留的： <STRONG>RGS 存在觀察</STRONG> 程式或 <STRONG>宣告服務</STRONG>。
 
     
     </div>
@@ -146,13 +148,13 @@ _**主題上次修改日期：** 2013-09-11_
 
 13. 在 **[顯示號碼]** 中，輸入想要針對回應群組顯示的號碼 (例如，+1 (425) 555-0165)。
 
-14.  (選用) 在 [**描述**] 中，輸入您想要在 Lync 用戶端的連絡人卡片上顯示之工作流程的描述。
+14.  (選用) 在 [ **描述**] 中，輸入您想要在 Lync 用戶端的連絡人卡片上顯示之工作流程的描述。
 
-15. 在 [**工作流程類型**] 中，選取 [**受**回應群組管理員管理此工作流程]。 請執行下列動作，將回應群組管理員指派給工作流程：
+15. 在 [ **工作流程類型**] 中，選取 [ **受** 回應群組管理員管理此工作流程]。 請執行下列動作，將回應群組管理員指派給工作流程：
     
-    1.  為此工作流程輸入管理員的 SIP URI，然後按一下 [**新增**]。
+    1.  為此工作流程輸入管理員的 SIP URI，然後按一下 [ **新增**]。
     
-    2.  輸入其他管理員的 SIP URI，以新增至工作流程，然後按一下 [**新增**]。
+    2.  輸入其他管理員的 SIP URI，以新增至工作流程，然後按一下 [ **新增**]。
     
     <div>
     
@@ -184,7 +186,7 @@ _**主題上次修改日期：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的回應群組技術需求</A>。
+        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的回應群組技術需求</A>。
 
         
         </div>
@@ -208,7 +210,7 @@ _**主題上次修改日期：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 您至少先前必須已定義一個預設排程，才能選取此選項。 您可以使用 <STRONG>New-CSRgsHoursOfBusiness</STRONG> Cmdlet，來定義預設排程。 如需詳細資訊，請參閱<A href="lync-server-2013-optional-define-response-group-business-hours.md"> (選用) 在 Lync Server 2013 中定義回應群組上班時間</A>。
+        > 您至少先前必須已定義一個預設排程，才能選取此選項。 您可以使用 <STRONG>New-CSRgsHoursOfBusiness</STRONG> Cmdlet，來定義預設排程。 如需詳細資訊，請參閱 <A href="lync-server-2013-optional-define-response-group-business-hours.md"> (選用) 在 Lync Server 2013 中定義回應群組上班時間</A>。
 
         
         </div>
@@ -256,7 +258,7 @@ _**主題上次修改日期：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。
+        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。
 
         
         </div>
@@ -265,11 +267,11 @@ _**主題上次修改日期：** 2013-09-11_
     
       - 若要中斷來電，按一下 **[中斷通話]**。
     
-      - 若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。 語音信箱位址的格式為 \< username \> @ \< domainName \> (例如，bob@contoso.com) 。
+      - 若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。 語音信箱位址的格式為 \<username\> @ \<domainName\> (例如，bob@contoso.com) 。
     
-      - 若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。 使用者位址的格式為 \< username \> @ \< domainName \> 。
+      - 若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。 使用者位址的格式為 \<username\> @ \<domainName\> 。
     
-      - 若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。 電話號碼的格式是 \< 號碼 \> @ \< domainName \> (例如，+ 14255550121@contoso.com) 。 網域名稱會用來將來電者路由到正確的目的地。
+      - 若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。 電話號碼的格式為 \<number\> @ \<domainName\> (例如，+ 14255550121@contoso.com) 。 網域名稱會用來將來電者路由到正確的目的地。
 
 24. 在 **[步驟 5 指定您的假日]** 下，按一下可定義回應群組沒上班之天數的一或多個假日集的核取方塊。
     
@@ -277,7 +279,7 @@ _**主題上次修改日期：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 您需要先定義假日及假日集，再設定工作流程。 使用 <STRONG>New-CsRgsHoliday</STRONG> 及 <STRONG>New-CsRgsHolidaySet</STRONG> Cmdlet，可定義假日及假日集。 如需詳細資訊，請參閱<A href="lync-server-2013-optional-define-response-group-holiday-sets.md"> (選用) 在 Lync Server 2013 中定義回應群組假日集</A>。
+    > 您需要先定義假日及假日集，再設定工作流程。 使用 <STRONG>New-CsRgsHoliday</STRONG> 及 <STRONG>New-CsRgsHolidaySet</STRONG> Cmdlet，可定義假日及假日集。 如需詳細資訊，請參閱 <A href="lync-server-2013-optional-define-response-group-holiday-sets.md"> (選用) 在 Lync Server 2013 中定義回應群組假日集</A>。
 
     
     </div>
@@ -301,7 +303,7 @@ _**主題上次修改日期：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。
+        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。
 
         
         </div>
@@ -310,11 +312,11 @@ _**主題上次修改日期：** 2013-09-11_
     
       - 若要中斷來電，按一下 **[中斷通話]**。
     
-      - 若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。 語音信箱位址的格式為 \< username \> @ \< domainName \> (例如，bob@contoso.com) 。
+      - 若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。 語音信箱位址的格式為 \<username\> @ \<domainName\> (例如，bob@contoso.com) 。
     
-      - 若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。 使用者位址的格式為 \< username \> @ \< domainName \> 。
+      - 若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。 使用者位址的格式為 \<username\> @ \<domainName\> 。
     
-      - 若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。 電話號碼的格式是 \< 號碼 \> @ \< domainName \> (例如，+ 14255550121@contoso.com) 。 網域名稱會用來將來電者路由到正確的目的地。
+      - 若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。 電話號碼的格式為 \<number\> @ \<domainName\> (例如，+ 14255550121@contoso.com) 。 網域名稱會用來將來電者路由到正確的目的地。
 
 27. 在 **[步驟 6 設定佇列]** 的 **[選取要接聽電話的佇列]** 下，選取想要保留來電者直到專員有空的佇列。
 
@@ -328,7 +330,7 @@ _**主題上次修改日期：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。
+        > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。
 
         
         </div>
@@ -343,7 +345,7 @@ _**主題上次修改日期：** 2013-09-11_
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
 
-2.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  建立要對歡迎使用的訊息播放的提示，並將其儲存在變數中。 在命令列中執行：
     
@@ -357,7 +359,7 @@ _**主題上次修改日期：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 若要使用音訊檔以進行提示，請使用<STRONG>Import-CsRgsAudioFile</STRONG> Cmdlet。 如需詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>。
+    > 若要使用音訊檔以進行提示，請使用 <STRONG>Import-CsRgsAudioFile</STRONG> Cmdlet。 如需詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>。
 
     
     </div>
@@ -366,7 +368,7 @@ _**主題上次修改日期：** 2013-09-11_
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    如需建立佇列的詳細資訊，請參閱[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)。
+    如需建立佇列的詳細資訊，請參閱 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)。
 
 5.  定義當工作流程在上班時間開啟時所採取的預設動作，並將其儲存在變數中。 在命令列中執行：
     
@@ -385,15 +387,15 @@ _**主題上次修改日期：** 2013-09-11_
     
         $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
 
-6.  若要定義上班時間和假日，您必須在建立或修改工作流程之前加以建立。 如需詳細資訊，請參閱[ (選用) 在 lync server 2013 中定義回應群組上班時間](lync-server-2013-optional-define-response-group-business-hours.md)和[ (選用) 在 lync Server 2013 中定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)。
+6.  若要定義上班時間和假日，您必須在建立或修改工作流程之前加以建立。 如需詳細資訊，請參閱 [ (選用) 在 lync server 2013 中定義回應群組上班時間](lync-server-2013-optional-define-response-group-business-hours.md) 和 [ (選用) 在 lync Server 2013 中定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)。
 
-7.  如果您想要在上班時間或假期內收到來電的提示，請使用**New-CsRgsPrompt** Cmdlet 來定義提示，然後使用**New-CsRgsCallAction**來定義要在提示之後採取的動作。 如需詳細資訊，請參閱[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)和[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)。
+7.  如果您想要在上班時間或假期內收到來電的提示，請使用 **New-CsRgsPrompt** Cmdlet 來定義提示，然後使用 **New-CsRgsCallAction** 來定義要在提示之後採取的動作。 如需詳細資訊，請參閱 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt) 和 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)。
 
 8.  取得 Lync Server 回應群組服務的服務名稱，並將其指派給變數。 在命令中執行：
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
 
-9.  建立或修改工作流程。 若要建立工作流程，請使用**New-CsRgsWorkflow**。 若要修改工作流程，請使用**Set-CsRgsWorkflow**。 在命令列中輸入：
+9.  建立或修改工作流程。 若要建立工作流程，請使用 **New-CsRgsWorkflow**。 若要修改工作流程，請使用 **Set-CsRgsWorkflow**。 在命令列中輸入：
     
         $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
     
@@ -414,7 +416,7 @@ _**主題上次修改日期：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 如需其他選擇性參數的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A>或<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
+    > 如需其他選擇性參數的詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> 或 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
     
     </div>

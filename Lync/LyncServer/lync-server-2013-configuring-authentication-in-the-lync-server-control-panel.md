@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 在 Lync Server Control Panel 中設定驗證
+title: Lync Server 2013：在 Lync Server 控制台中設定驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d847924b2dec82b85b867cef952ab77ac1a6ff2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d77e0cf27ec0bd8040e918fcbcd54c3229fd046b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502220"
 ---
+# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a>在 Lync Server 2013 控制台中設定驗證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a>Lync Server 2013 控制台] 中設定驗證
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42188466"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
-本節中的主題提供逐步程序，您可以使用 Lync Server 2013 控制台] 中的 [**安全性**] 群組執行的工作。
+本節中的主題會針對您可以使用 Lync Server 2013 [控制台] 中的 [ **安全** 組] 執行的工作，提供逐步程式。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中建立登錄器組態設定](lync-server-2013-create-registrar-configuration-settings.md)
+  - [在 Lync Server 2013 中建立註冊機配置設定](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [修改 Lync Server 2013 中的現有登錄器組態設定](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [在 Lync Server 2013 中修改現有的註冊器設定設定](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
-  - [刪除 Lync Server 2013 中的現有登錄器組態設定](lync-server-2013-delete-existing-registrar-configuration-settings.md)
+  - [在 Lync Server 2013 中刪除現有的註冊機配置設定](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
-  - [在 Lync Server 2013 中建立新的 Web 服務組態設定](lync-server-2013-create-new-web-service-configuration-settings.md)
+  - [在 Lync Server 2013 中建立新的 Web 服務設定](lync-server-2013-create-new-web-service-configuration-settings.md)
 
-  - [修改現有 Lync Server 2013 中的 Web 服務組態設定](lync-server-2013-modify-existing-web-service-configuration-settings.md)
+  - [在 Lync Server 2013 中修改現有的 Web 服務設定](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
-  - [刪除現有 Lync Server 2013 中的 Web 服務組態設定](lync-server-2013-delete-existing-web-service-configuration-settings.md)
+  - [在 Lync Server 2013 中刪除現有的 Web 服務設定](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 
 </div>
 
@@ -62,7 +64,7 @@ _**上次修改主題：** 2013年-02-21_
 ## <a name="see-also"></a>另請參閱
 
 
-[管理 Lync Server 2013 中的會議](lync-server-2013-managing-meetings-and-conferences.md)  
+[在 Lync Server 2013 中管理會議和會議](lync-server-2013-managing-meetings-and-conferences.md)  
   
 
 </div>

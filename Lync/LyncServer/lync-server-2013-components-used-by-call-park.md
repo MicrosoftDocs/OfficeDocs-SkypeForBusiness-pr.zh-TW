@@ -1,5 +1,5 @@
 ---
-title: 通話保留所使用的 Lync Server 2013： 元件
+title: Lync Server 2013：通話駐留使用的元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185374
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a6585663ac6dedcd83e00ca4abc4f57047fcb7f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21335597f0910e18a5afe36898c7d0eff6c1a338
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204649"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502390"
 ---
+# <a name="components-used-by-call-park-in-lync-server-2013"></a>Lync Server 2013 中通話駐留所使用的元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-call-park-in-lync-server-2013"></a>Lync Server 2013 中的通話保留所使用的元件
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42204649"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-13_
+_**主題上次修改日期：** 2012-09-13_
 
-當您部署企業語音時，會自動安裝的通話駐留應用程式。 您可以設定語音原則，以啟用通話駐留。 通話駐留應用程式支援下列的 Lync Server 2013 元件：
+當您部署企業語音時，會自動安裝通話駐留應用程式。 您可以透過設定語音原則來啟用通話駐留。 下列 Lync Server 2013 元件支援通話駐留應用程式：
 
-  - **應用程式服務**   應用程式服務提供的平台的部署，裝載，及管理整合通訊應用程式，例如通話駐留應用程式。 在每個前端伺服器上的前端集區中，每個 Standard Edition server 上，會自動安裝應用程式服務。
+  - **應用程式服務**    Application service 提供平臺，用來部署、裝載和管理整合通訊應用程式，例如通話駐留應用程式。 應用程式服務會自動安裝在前端集區和每個 Standard Edition server 上的每一部前端伺服器上。
 
-  - **通話駐留應用程式**   通話駐留應用程式是下列其中一個裝載的應用程式服務的整合的通訊應用程式。 自動當您部署企業語音時，它是包含在內。 通話駐留公園與擷取通話，並管理通話駐留軌道。
+  - **通話駐留應用程式**    通話駐留應用程式是由應用程式服務主控的整合通訊應用程式之一。 當您部署企業語音時，會自動包含它。 通話駐留公園和檢索來電，並管理通話駐留軌道。
 
-  - **等候音樂上保留檔案**   駐留通話時，如果音樂中的啟用，播放音樂檔案。 通話駐留應用程式已安裝時，包含預設的等候音樂檔案。
+  - 以**音樂為開啟狀態的**     檔案如果啟用音樂，便會在停用通話時播放音樂檔。 安裝通話駐留應用程式時，會包含預設的音樂檔。
 
-  - **檔案存放區**   通話駐留應用程式會使用檔案存放區來保留自訂音訊檔案。
+  - **檔存放區**    通話駐留應用程式會使用檔案存放區存放自訂音訊檔案。
 
-  - **Lync Server Control Panel**   設定通話駐留軌道表，並為使用者啟用通話駐留，您可以使用 Lync Server Control Panel。
+  - **Lync Server 控制台**    您可以使用 Lync Server 控制台設定通話駐留軌道表格，並為使用者啟用通話駐留。
 
-  - **Lync Server 管理命令介面**   可以使用 Lync Server 管理命令介面指令程式執行所有通話駐留應用程式設定。
+  - **Lync Server 管理命令**     介面您可以使用 Lync Server 管理命令介面 Cmdlet 來執行所有通話駐留應用程式設定。
 
 </div>
 
