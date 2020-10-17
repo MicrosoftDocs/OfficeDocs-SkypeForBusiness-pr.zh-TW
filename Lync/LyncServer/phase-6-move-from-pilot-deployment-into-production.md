@@ -12,20 +12,22 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e51e252fe670b85a2aeb3e827b37465be00ac68e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 11c7efbf12ecde9bf58e5eedb676358032028485
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757064"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518190"
 ---
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="2648b-102">階段 6：從試驗部署移至生產</span><span class="sxs-lookup"><span data-stu-id="2648b-102">Phase 6: Move from pilot deployment into production</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="e8918-102">階段 6：從試驗部署移至生產</span><span class="sxs-lookup"><span data-stu-id="e8918-102">Phase 6: Move from pilot deployment into production</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "44757064"
 
 <span> </span>
 
-<span data-ttu-id="e8918-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="e8918-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="2648b-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2648b-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="e8918-104">本節中的主題說明將 Lync Server 2013 的部署從試驗部署移至實際執行層級部署之前必須完成的工作。</span><span class="sxs-lookup"><span data-stu-id="e8918-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="2648b-104">本節中的主題說明將 Lync Server 2013 的部署從試驗部署移至實際執行層級部署之前必須完成的工作。</span><span class="sxs-lookup"><span data-stu-id="2648b-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e8918-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="e8918-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2648b-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="2648b-105">In This Section</span></span>
 
-  - [<span data-ttu-id="e8918-106">設定同盟路由與媒體流量</span><span class="sxs-lookup"><span data-stu-id="e8918-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
+  - [<span data-ttu-id="2648b-106">設定同盟路由與媒體流量</span><span class="sxs-lookup"><span data-stu-id="2648b-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
 
-  - [<span data-ttu-id="e8918-107">確認外部使用者的同盟及遠端存取</span><span class="sxs-lookup"><span data-stu-id="e8918-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
+  - [<span data-ttu-id="2648b-107">確認外部使用者的同盟及遠端存取</span><span class="sxs-lookup"><span data-stu-id="2648b-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
 
-  - [<span data-ttu-id="e8918-108">在移轉後變更簡單 URL</span><span class="sxs-lookup"><span data-stu-id="e8918-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
+  - [<span data-ttu-id="2648b-108">在移轉後變更簡單 URL</span><span class="sxs-lookup"><span data-stu-id="2648b-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
 
-  - [<span data-ttu-id="e8918-109">將剩餘的使用者移至 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8918-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
+  - [<span data-ttu-id="2648b-109">將剩餘的使用者移至 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2648b-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="e8918-110">在 Lync Server 2013 上設定 XMPP 閘道</span><span class="sxs-lookup"><span data-stu-id="e8918-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
+  - [<span data-ttu-id="2648b-110">在 Lync Server 2013 上設定 XMPP 閘道</span><span class="sxs-lookup"><span data-stu-id="2648b-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

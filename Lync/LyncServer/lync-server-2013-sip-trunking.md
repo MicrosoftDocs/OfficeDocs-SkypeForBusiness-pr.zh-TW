@@ -12,20 +12,22 @@ ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3ee2efb7f1c392b20bdc6b16ff3c7063ebe4759
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4adf8dcee7ccd7adb393c8d13f7e9a8b186d2bb6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519660"
 ---
+# <a name="sip-trunking-in-lync-server-2013"></a><span data-ttu-id="d3a31-102">Lync Server 2013 中的 SIP 主幹</span><span class="sxs-lookup"><span data-stu-id="d3a31-102">SIP trunking in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-in-lync-server-2013"></a><span data-ttu-id="0f57b-102">Lync Server 2013 中的 SIP 主幹</span><span class="sxs-lookup"><span data-stu-id="0f57b-102">SIP trunking in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42200296"
 
 <span> </span>
 
-<span data-ttu-id="0f57b-103">_**主題上次修改日期：** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="0f57b-103">_**Topic Last Modified:** 2012-08-13_</span></span>
+<span data-ttu-id="d3a31-103">_**主題上次修改日期：** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="d3a31-103">_**Topic Last Modified:** 2012-08-13_</span></span>
 
-<span data-ttu-id="0f57b-p101">工作階段初始通訊協定 (SIP) 可用來為基本電話服務與其他即時通訊服務 (如立即訊息、會議、顯示狀態偵測和多媒體等) 啟動及管理 VoIP 通訊工作階段。本節將提供實作「SIP 主幹」\*\* 的規劃資訊，這是一種可延伸到您區域網路邊界以外的 SIP 連線。</span><span class="sxs-lookup"><span data-stu-id="0f57b-p101">Session Initiation Protocol (SIP) is used to initiate and manage Voice over IP (VoIP) communications sessions for basic telephone service and for additional real-time communication services, such as instant messaging, conferencing, presence detection, and multimedia. This section provides planning information for implementing *SIP trunks*, a type of SIP connection that extends beyond the boundary of your local network.</span></span>
-
-<div>
-
-## <a name="what-is-sip-trunking"></a><span data-ttu-id="0f57b-106">何謂 SIP 主幹？</span><span class="sxs-lookup"><span data-stu-id="0f57b-106">What is SIP Trunking?</span></span>
-
-<span data-ttu-id="0f57b-p102">SIP 主幹是一種 IP 連線，可在您的組織與網際網路電話語音服務提供者 (ITSP) 之間建立延伸到防火牆以外的 SIP 通訊連結。一般而言，SIP 主幹會用來將組織的中央網站連線至 ITSP。有時候，您也可能會選擇使用 SIP 主幹將分支網站連線至 ITSP。</span><span class="sxs-lookup"><span data-stu-id="0f57b-p102">A SIP trunk is an IP connection that establishes a SIP communications link between your organization and an Internet telephony service provider (ITSP) beyond your firewall. Typically, a SIP trunk is used to connect your organization’s central site to an ITSP. In some cases, you may also opt to use SIP trunking to connect your branch site to an ITSP.</span></span>
+<span data-ttu-id="d3a31-p101">工作階段初始通訊協定 (SIP) 可用來為基本電話服務與其他即時通訊服務 (如立即訊息、會議、顯示狀態偵測和多媒體等) 啟動及管理 VoIP 通訊工作階段。本節將提供實作「SIP 主幹」\*\* 的規劃資訊，這是一種可延伸到您區域網路邊界以外的 SIP 連線。</span><span class="sxs-lookup"><span data-stu-id="d3a31-p101">Session Initiation Protocol (SIP) is used to initiate and manage Voice over IP (VoIP) communications sessions for basic telephone service and for additional real-time communication services, such as instant messaging, conferencing, presence detection, and multimedia. This section provides planning information for implementing *SIP trunks*, a type of SIP connection that extends beyond the boundary of your local network.</span></span>
 
 <div>
 
-## <a name="sip-trunks-vs-direct-sip-connections"></a><span data-ttu-id="0f57b-110">SIP 主幹與直接 SIP 連線的比較</span><span class="sxs-lookup"><span data-stu-id="0f57b-110">SIP Trunks vs. Direct SIP Connections</span></span>
+## <a name="what-is-sip-trunking"></a><span data-ttu-id="d3a31-106">何謂 SIP 主幹？</span><span class="sxs-lookup"><span data-stu-id="d3a31-106">What is SIP Trunking?</span></span>
 
-<span data-ttu-id="0f57b-111">「主幹」\*\* 一詞衍生自電路交換技術。</span><span class="sxs-lookup"><span data-stu-id="0f57b-111">The term *trunk* is derived from circuit-switched technology.</span></span> <span data-ttu-id="0f57b-112">它是指將電話交換設備相連的專門實體線路。</span><span class="sxs-lookup"><span data-stu-id="0f57b-112">It refers to a dedicated physical line that connects telephone switching equipment.</span></span> <span data-ttu-id="0f57b-113">如同前置任務、時間分割多工 (TDM) 主幹、SIP 主幹是兩個獨立 SIP 網路（即 Lync Server 2013 enterprise 和 ITSP）之間的連線。</span><span class="sxs-lookup"><span data-stu-id="0f57b-113">Like their predecessor, time division multiplexing (TDM) trunks, SIP trunks are connections between two separate SIP networks—the Lync Server 2013 enterprise and the ITSP.</span></span> <span data-ttu-id="0f57b-114">與電路交換主幹不同之處在於，SIP 主幹是可以透過任何支援的 SIP 主幹連線類型建立的虛擬連線。</span><span class="sxs-lookup"><span data-stu-id="0f57b-114">Unlike circuit-switched trunks, SIP trunks are virtual connections that can be established over any of the supported SIP trunking connection types.</span></span> <span data-ttu-id="0f57b-115">如需支援之連線類型的詳細資訊，請參閱 [如何在 Lync Server 2013？中執行 SIP](lync-server-2013-how-do-i-implement-sip-trunking.md)主幹。</span><span class="sxs-lookup"><span data-stu-id="0f57b-115">For details about the supported connection types, see [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
+<span data-ttu-id="d3a31-p102">SIP 主幹是一種 IP 連線，可在您的組織與網際網路電話語音服務提供者 (ITSP) 之間建立延伸到防火牆以外的 SIP 通訊連結。一般而言，SIP 主幹會用來將組織的中央網站連線至 ITSP。有時候，您也可能會選擇使用 SIP 主幹將分支網站連線至 ITSP。</span><span class="sxs-lookup"><span data-stu-id="d3a31-p102">A SIP trunk is an IP connection that establishes a SIP communications link between your organization and an Internet telephony service provider (ITSP) beyond your firewall. Typically, a SIP trunk is used to connect your organization’s central site to an ITSP. In some cases, you may also opt to use SIP trunking to connect your branch site to an ITSP.</span></span>
 
-<span data-ttu-id="0f57b-116">另一方面，直接 SIP 連線是未穿越區域網路邊界的 SIP 連線 (亦即，它們是連線至位於您內部網路中的公用交換電話網路 (PSTN) 閘道或專用交換機 (PBX))。</span><span class="sxs-lookup"><span data-stu-id="0f57b-116">Direct SIP connections, on the other hand, are SIP connections that do not cross the local network boundary (that is, they connect to a public switched telephone network (PSTN) gateway or private branch exchange (PBX) within your internal network).</span></span> <span data-ttu-id="0f57b-117">如需如何使用與 Lync Server 2013 的直接 SIP 連線的詳細資訊，請參閱 [Lync server 2013 中的直接 sip](lync-server-2013-direct-sip-connections.md)連線。</span><span class="sxs-lookup"><span data-stu-id="0f57b-117">For details about how you can use direct SIP connections with Lync Server 2013, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md).</span></span>
+<div>
+
+## <a name="sip-trunks-vs-direct-sip-connections"></a><span data-ttu-id="d3a31-110">SIP 主幹與直接 SIP 連線的比較</span><span class="sxs-lookup"><span data-stu-id="d3a31-110">SIP Trunks vs. Direct SIP Connections</span></span>
+
+<span data-ttu-id="d3a31-111">「主幹」\*\* 一詞衍生自電路交換技術。</span><span class="sxs-lookup"><span data-stu-id="d3a31-111">The term *trunk* is derived from circuit-switched technology.</span></span> <span data-ttu-id="d3a31-112">它是指將電話交換設備相連的專門實體線路。</span><span class="sxs-lookup"><span data-stu-id="d3a31-112">It refers to a dedicated physical line that connects telephone switching equipment.</span></span> <span data-ttu-id="d3a31-113">如同前置任務、時間分割多工 (TDM) 主幹、SIP 主幹是兩個獨立 SIP 網路（即 Lync Server 2013 enterprise 和 ITSP）之間的連線。</span><span class="sxs-lookup"><span data-stu-id="d3a31-113">Like their predecessor, time division multiplexing (TDM) trunks, SIP trunks are connections between two separate SIP networks—the Lync Server 2013 enterprise and the ITSP.</span></span> <span data-ttu-id="d3a31-114">與電路交換主幹不同之處在於，SIP 主幹是可以透過任何支援的 SIP 主幹連線類型建立的虛擬連線。</span><span class="sxs-lookup"><span data-stu-id="d3a31-114">Unlike circuit-switched trunks, SIP trunks are virtual connections that can be established over any of the supported SIP trunking connection types.</span></span> <span data-ttu-id="d3a31-115">如需支援之連線類型的詳細資訊，請參閱 [如何在 Lync Server 2013？中執行 SIP](lync-server-2013-how-do-i-implement-sip-trunking.md)主幹。</span><span class="sxs-lookup"><span data-stu-id="d3a31-115">For details about the supported connection types, see [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
+
+<span data-ttu-id="d3a31-116">另一方面，直接 SIP 連線是未穿越區域網路邊界的 SIP 連線 (亦即，它們是連線至位於您內部網路中的公用交換電話網路 (PSTN) 閘道或專用交換機 (PBX))。</span><span class="sxs-lookup"><span data-stu-id="d3a31-116">Direct SIP connections, on the other hand, are SIP connections that do not cross the local network boundary (that is, they connect to a public switched telephone network (PSTN) gateway or private branch exchange (PBX) within your internal network).</span></span> <span data-ttu-id="d3a31-117">如需如何使用與 Lync Server 2013 的直接 SIP 連線的詳細資訊，請參閱 [Lync server 2013 中的直接 sip](lync-server-2013-direct-sip-connections.md)連線。</span><span class="sxs-lookup"><span data-stu-id="d3a31-117">For details about how you can use direct SIP connections with Lync Server 2013, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md).</span></span>
 
 </div>
 
@@ -59,17 +61,17 @@ ms.locfileid: "42200296"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0f57b-118">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0f57b-118">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d3a31-118">本章節內容</span><span class="sxs-lookup"><span data-stu-id="d3a31-118">In This Section</span></span>
 
-  - [<span data-ttu-id="0f57b-119">Lync Server 2013 中的 SIP 主幹概述</span><span class="sxs-lookup"><span data-stu-id="0f57b-119">Overview of SIP trunking in Lync Server 2013</span></span>](lync-server-2013-overview-of-sip-trunking.md)
+  - [<span data-ttu-id="d3a31-119">Lync Server 2013 中的 SIP 主幹概述</span><span class="sxs-lookup"><span data-stu-id="d3a31-119">Overview of SIP trunking in Lync Server 2013</span></span>](lync-server-2013-overview-of-sip-trunking.md)
 
-  - [<span data-ttu-id="0f57b-120">如何在 Lync Server 2013 中實施 SIP 主幹？</span><span class="sxs-lookup"><span data-stu-id="0f57b-120">How do I implement SIP trunking in Lync Server 2013?</span></span>](lync-server-2013-how-do-i-implement-sip-trunking.md)
+  - [<span data-ttu-id="d3a31-120">如何在 Lync Server 2013 中實施 SIP 主幹？</span><span class="sxs-lookup"><span data-stu-id="d3a31-120">How do I implement SIP trunking in Lync Server 2013?</span></span>](lync-server-2013-how-do-i-implement-sip-trunking.md)
 
-  - [<span data-ttu-id="0f57b-121">Lync Server 2013 中 SIP 主幹的元件和拓撲</span><span class="sxs-lookup"><span data-stu-id="0f57b-121">Components and topologies for SIP trunking in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-sip-trunking.md)
+  - [<span data-ttu-id="d3a31-121">Lync Server 2013 中 SIP 主幹的元件和拓撲</span><span class="sxs-lookup"><span data-stu-id="d3a31-121">Components and topologies for SIP trunking in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-sip-trunking.md)
 
-  - [<span data-ttu-id="0f57b-122">Lync Server 2013 中的分支網站 SIP 主幹</span><span class="sxs-lookup"><span data-stu-id="0f57b-122">Branch site SIP trunking in Lync Server 2013</span></span>](lync-server-2013-branch-site-sip-trunking.md)
+  - [<span data-ttu-id="d3a31-122">Lync Server 2013 中的分支網站 SIP 主幹</span><span class="sxs-lookup"><span data-stu-id="d3a31-122">Branch site SIP trunking in Lync Server 2013</span></span>](lync-server-2013-branch-site-sip-trunking.md)
 
-  - [<span data-ttu-id="0f57b-123">Lync Server 2013 的 SIP 主幹部署檢查表</span><span class="sxs-lookup"><span data-stu-id="0f57b-123">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
+  - [<span data-ttu-id="d3a31-123">Lync Server 2013 的 SIP 主幹部署檢查表</span><span class="sxs-lookup"><span data-stu-id="d3a31-123">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
 
 </div>
 

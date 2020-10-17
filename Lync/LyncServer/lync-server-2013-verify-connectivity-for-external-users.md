@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 確認外部使用者的連線
+title: Lync Server 2013：驗證外部使用者的連線能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf4798c154b240a6048840a819c35d39f5ffc9d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8d85b72572ba065f52e93ee34e6cb9324c2f647
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518640"
 ---
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a><span data-ttu-id="7f622-102">在 Lync Server 2013 中驗證外部使用者的連線能力</span><span class="sxs-lookup"><span data-stu-id="7f622-102">Verify connectivity for external users in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a><span data-ttu-id="78af9-102">確認 Lync Server 2013 中的外部使用者的連線</span><span class="sxs-lookup"><span data-stu-id="78af9-102">Verify connectivity for external users in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "42211769"
 
 <span> </span>
 
-<span data-ttu-id="78af9-103">_**主題上次修改日期：** 2012年-10-19_</span><span class="sxs-lookup"><span data-stu-id="78af9-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="7f622-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="7f622-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="78af9-104">要驗證外部使用者連線能力，必須先確保從使用者至伺服器，以及 Access Edge Service 連接埠的連線能力。</span><span class="sxs-lookup"><span data-stu-id="78af9-104">Validating connectivity for external users requires ensuring connectivity from users to the server and port for the Access Edge service.</span></span>
+<span data-ttu-id="7f622-104">要驗證外部使用者連線能力，必須先確保從使用者至伺服器，以及 Access Edge Service 連接埠的連線能力。</span><span class="sxs-lookup"><span data-stu-id="7f622-104">Validating connectivity for external users requires ensuring connectivity from users to the server and port for the Access Edge service.</span></span>
 
-<span data-ttu-id="78af9-105">重要資源的外部使用者存取的案例中確認您的設定，以及連線、 傳送及接收正確的郵件需要是 Remote Connectivity Analyzer 網站 (<http://www.testocsconnectivity.com>)。</span><span class="sxs-lookup"><span data-stu-id="78af9-105">A valuable resource for confirming your configuration and the ability to connect, send and receive the correct messages for the scenarios that external user access requires is the Remote Connectivity Analyzer site (<http://www.testocsconnectivity.com>).</span></span> <span data-ttu-id="78af9-106">網站是由管理和維護 Microsoft 支援服務。</span><span class="sxs-lookup"><span data-stu-id="78af9-106">The site is managed and maintained by Microsoft Support.</span></span> <span data-ttu-id="78af9-107">如要瀏覽遠端連線分析程式，請在瀏覽器中開啟該網站，然後遵循指示來選取案例。</span><span class="sxs-lookup"><span data-stu-id="78af9-107">To reach the Remote Connectivity Analyzer, open the Web site in a browser and follow the instructions to select the scenario.</span></span>
+<span data-ttu-id="7f622-105">一種有價值的資源可確認您的設定，以及連線、傳送及接收外部使用者存取所需之案例的正確訊息，都是 Remote Connectivity Analyzer 網站 () 的功能 <http://www.testocsconnectivity.com> 。</span><span class="sxs-lookup"><span data-stu-id="7f622-105">A valuable resource for confirming your configuration and the ability to connect, send and receive the correct messages for the scenarios that external user access requires is the Remote Connectivity Analyzer site (<http://www.testocsconnectivity.com>).</span></span> <span data-ttu-id="7f622-106">網站由 Microsoft 支援服務管理及維護。</span><span class="sxs-lookup"><span data-stu-id="7f622-106">The site is managed and maintained by Microsoft Support.</span></span> <span data-ttu-id="7f622-107">如要瀏覽遠端連線分析程式，請在瀏覽器中開啟該網站，然後遵循指示來選取案例。</span><span class="sxs-lookup"><span data-stu-id="7f622-107">To reach the Remote Connectivity Analyzer, open the Web site in a browser and follow the instructions to select the scenario.</span></span>
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="78af9-108">測試外部使用者與外部存取連線能力</span><span class="sxs-lookup"><span data-stu-id="78af9-108">Test Connectivity of External Users and External access</span></span>
+## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="7f622-108">測試外部使用者與外部存取連線能力</span><span class="sxs-lookup"><span data-stu-id="7f622-108">Test Connectivity of External Users and External access</span></span>
 
-<span data-ttu-id="78af9-109">測試外部使用者存取時，必須包括組織支援的每一種外部使用者類型，包含下列任一或全部項目：</span><span class="sxs-lookup"><span data-stu-id="78af9-109">Tests for external user access should include each type of external user that your organization supports, including any or all of the following:</span></span>
+<span data-ttu-id="7f622-109">測試外部使用者存取時，必須包括組織支援的每一種外部使用者類型，包含下列任一或全部項目：</span><span class="sxs-lookup"><span data-stu-id="7f622-109">Tests for external user access should include each type of external user that your organization supports, including any or all of the following:</span></span>
 
-  - <span data-ttu-id="78af9-110">來自至少一個同盟網路、測試 IM、目前狀態、A/V 與桌面共用的使用者。</span><span class="sxs-lookup"><span data-stu-id="78af9-110">Users from at least one federated domain, and test IM, presence, A/V and desktop sharing.</span></span>
+  - <span data-ttu-id="7f622-110">來自至少一個同盟網路、測試 IM、目前狀態、A/V 與桌面共用的使用者。</span><span class="sxs-lookup"><span data-stu-id="7f622-110">Users from at least one federated domain, and test IM, presence, A/V and desktop sharing.</span></span>
 
-  - <span data-ttu-id="78af9-111">組織所支援的每個公用 IM 服務提供者 (以及已經完成佈建作業) 的使用者。</span><span class="sxs-lookup"><span data-stu-id="78af9-111">Users of each public IM service provider that your organization supports (and for which provisioning has been completed).</span></span>
+  - <span data-ttu-id="7f622-111">組織所支援的每個公用 IM 服務提供者 (以及已經完成佈建作業) 的使用者。</span><span class="sxs-lookup"><span data-stu-id="7f622-111">Users of each public IM service provider that your organization supports (and for which provisioning has been completed).</span></span>
 
-  - <span data-ttu-id="78af9-112">匿名使用者。</span><span class="sxs-lookup"><span data-stu-id="78af9-112">Anonymous users.</span></span>
+  - <span data-ttu-id="7f622-112">匿名使用者。</span><span class="sxs-lookup"><span data-stu-id="7f622-112">Anonymous users.</span></span>
 
-  - <span data-ttu-id="78af9-113">從遠端登入 Lync (但不是透過 VPN) 的組織內使用者。</span><span class="sxs-lookup"><span data-stu-id="78af9-113">Users within your organization who are logged into Lync remotely, but not using VPN.</span></span>
+  - <span data-ttu-id="7f622-113">從遠端登入 Lync (但不是透過 VPN) 的組織內使用者。</span><span class="sxs-lookup"><span data-stu-id="7f622-113">Users within your organization who are logged into Lync remotely, but not using VPN.</span></span>
 
-<span data-ttu-id="78af9-114">這些測試決定了您的 Edge Server 是否：</span><span class="sxs-lookup"><span data-stu-id="78af9-114">These tests determine whether your Edge Server is:</span></span>
+<span data-ttu-id="7f622-114">這些測試決定了您的 Edge Server 是否：</span><span class="sxs-lookup"><span data-stu-id="7f622-114">These tests determine whether your Edge Server is:</span></span>
 
-  - <span data-ttu-id="78af9-115">使用網路外部的 telnet 用戶端聆聽必要的連接埠。</span><span class="sxs-lookup"><span data-stu-id="78af9-115">Listening on the necessary ports by using a telnet client from outside your network.</span></span>
+  - <span data-ttu-id="7f622-115">使用網路外部的 telnet 用戶端聆聽必要的連接埠。</span><span class="sxs-lookup"><span data-stu-id="7f622-115">Listening on the necessary ports by using a telnet client from outside your network.</span></span>
     
-      - <span data-ttu-id="78af9-116">範例：telnet sip.contoso.com 443</span><span class="sxs-lookup"><span data-stu-id="78af9-116">Example: telnet sip.contoso.com 443</span></span>
+      - <span data-ttu-id="7f622-116">範例：telnet sip.contoso.com 443</span><span class="sxs-lookup"><span data-stu-id="7f622-116">Example: telnet sip.contoso.com 443</span></span>
     
-      - <span data-ttu-id="78af9-117">依據您的部署，透過 Edge Server 或 Edge Server 集區對您使用的連接埠執行先前測試。</span><span class="sxs-lookup"><span data-stu-id="78af9-117">Perform the preceding test on ports you are using on the Edge Server or Edge Server pool depending on your deployment.</span></span>
+      - <span data-ttu-id="7f622-117">依據您的部署，透過 Edge Server 或 Edge Server 集區對您使用的連接埠執行先前測試。</span><span class="sxs-lookup"><span data-stu-id="7f622-117">Perform the preceding test on ports you are using on the Edge Server or Edge Server pool depending on your deployment.</span></span>
 
-  - <span data-ttu-id="78af9-118">執行準確的外部 DNS 解析。</span><span class="sxs-lookup"><span data-stu-id="78af9-118">Performing accurate external DNS resolution.</span></span>
+  - <span data-ttu-id="7f622-118">執行準確的外部 DNS 解析。</span><span class="sxs-lookup"><span data-stu-id="7f622-118">Performing accurate external DNS resolution.</span></span>
     
-      - <span data-ttu-id="78af9-p102">從網路外部偵測 (ping) Edge 或 Edge 集區的個別外部 FQDN。即使偵測 (ping) 作業失敗，您還是會看到 IP 位址，方便您與指派的 IP 位址進行比較。</span><span class="sxs-lookup"><span data-stu-id="78af9-p102">From outside your network ping each of the external FQDN’s of your Edge or Edge pool. Even if the ping fails you will see the IP addresses, which you can compare to the ones you have assigned.</span></span>
+      - <span data-ttu-id="7f622-p102">從網路外部偵測 (ping) Edge 或 Edge 集區的個別外部 FQDN。即使偵測 (ping) 作業失敗，您還是會看到 IP 位址，方便您與指派的 IP 位址進行比較。</span><span class="sxs-lookup"><span data-stu-id="7f622-p102">From outside your network ping each of the external FQDN’s of your Edge or Edge pool. Even if the ping fails you will see the IP addresses, which you can compare to the ones you have assigned.</span></span>
 
 </div>
 
