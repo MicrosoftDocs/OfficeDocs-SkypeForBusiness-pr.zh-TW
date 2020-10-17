@@ -12,20 +12,22 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d18bea94d7844f611afb14d388d6655379ee047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8af979b36564fef40a4839e31f2597d82117741
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533380"
 ---
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="af5f3-102">Lync Server 2013 中的 Edge Server Cmdlet</span><span class="sxs-lookup"><span data-stu-id="af5f3-102">Edge Server cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="ae884-102">Lync Server 2013 中的 Edge Server Cmdlet</span><span class="sxs-lookup"><span data-stu-id="ae884-102">Edge Server cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42179950"
 
 <span> </span>
 
-<span data-ttu-id="ae884-103">_**主題上次修改日期：** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="ae884-103">_**Topic Last Modified:** 2013-10-07_</span></span>
+<span data-ttu-id="af5f3-103">_**主題上次修改日期：** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="af5f3-103">_**Topic Last Modified:** 2013-10-07_</span></span>
 
-<span data-ttu-id="ae884-104">Edge server 提供一種方法，讓您可以將 Microsoft Lync Server 2013 的功能延伸至未登入您的內部網路的人員。</span><span class="sxs-lookup"><span data-stu-id="ae884-104">Edge Servers provide a way for you to extend the capabilities of Microsoft Lync Server 2013 to people who are not logged on to your internal network.</span></span> <span data-ttu-id="ae884-105">例如，如果您有透過網際網路（而不是透過內部網路）登入 Lync Server 2013 的遠端使用者驗證使用者--您將需要設定執行 Lync Server Access Edge service 的 Edge Server。</span><span class="sxs-lookup"><span data-stu-id="ae884-105">For example, if you have remote users -- authenticated users who log on to Lync Server 2013 over the Internet rather than through the internal network -- you will need to set up an Edge Server that runs the Lync Server Access Edge service.</span></span> <span data-ttu-id="ae884-106">此外，如果您想要建立與另一個組織的同盟，或是您想要讓使用者能夠與具有「公用立即訊息服務」（如 Yahoo \! 、AOL 或 MSN）的使用者進行通訊的許可權，則需要 Edge server。</span><span class="sxs-lookup"><span data-stu-id="ae884-106">Additionally, Edge Servers are required if you want to establish federation with another organization or if you want to give your users the right to communicate with people who have accounts with a public instant messaging service such as Yahoo\!, AOL, or MSN.</span></span>
+<span data-ttu-id="af5f3-104">Edge server 提供一種方法，讓您可以將 Microsoft Lync Server 2013 的功能延伸至未登入您的內部網路的人員。</span><span class="sxs-lookup"><span data-stu-id="af5f3-104">Edge Servers provide a way for you to extend the capabilities of Microsoft Lync Server 2013 to people who are not logged on to your internal network.</span></span> <span data-ttu-id="af5f3-105">例如，如果您有透過網際網路（而不是透過內部網路）登入 Lync Server 2013 的遠端使用者驗證使用者--您將需要設定執行 Lync Server Access Edge service 的 Edge Server。</span><span class="sxs-lookup"><span data-stu-id="af5f3-105">For example, if you have remote users -- authenticated users who log on to Lync Server 2013 over the Internet rather than through the internal network -- you will need to set up an Edge Server that runs the Lync Server Access Edge service.</span></span> <span data-ttu-id="af5f3-106">此外，如果您想要建立與另一個組織的同盟，或是您想要讓使用者能夠與具有「公用立即訊息服務」（如 Yahoo \! 、AOL 或 MSN）的使用者進行通訊的許可權，則需要 Edge server。</span><span class="sxs-lookup"><span data-stu-id="af5f3-106">Additionally, Edge Servers are required if you want to establish federation with another organization or if you want to give your users the right to communicate with people who have accounts with a public instant messaging service such as Yahoo\!, AOL, or MSN.</span></span>
 
 <div>
 
@@ -45,11 +47,11 @@ ms.locfileid: "42179950"
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="ae884-107">從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。</span><span class="sxs-lookup"><span data-stu-id="ae884-107">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="ae884-108">具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟</span><span class="sxs-lookup"><span data-stu-id="ae884-108">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="ae884-109">信使直到服務關閉日期。</span><span class="sxs-lookup"><span data-stu-id="ae884-109">Messenger until the service shut down date.</span></span> <span data-ttu-id="ae884-110">AOL 和 Yahoo！的循環結束日期為2014年6月</span><span class="sxs-lookup"><span data-stu-id="ae884-110">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="ae884-111">已宣告。</span><span class="sxs-lookup"><span data-stu-id="ae884-111">has been announced.</span></span> <span data-ttu-id="ae884-112">如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</span><span class="sxs-lookup"><span data-stu-id="ae884-112">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+> <P><span data-ttu-id="af5f3-107">從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。</span><span class="sxs-lookup"><span data-stu-id="af5f3-107">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="af5f3-108">具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟</span><span class="sxs-lookup"><span data-stu-id="af5f3-108">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="af5f3-109">信使直到服務關閉日期。</span><span class="sxs-lookup"><span data-stu-id="af5f3-109">Messenger until the service shut down date.</span></span> <span data-ttu-id="af5f3-110">AOL 和 Yahoo！的循環結束日期為2014年6月</span><span class="sxs-lookup"><span data-stu-id="af5f3-110">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="af5f3-111">已宣告。</span><span class="sxs-lookup"><span data-stu-id="af5f3-111">has been announced.</span></span> <span data-ttu-id="af5f3-112">如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</span><span class="sxs-lookup"><span data-stu-id="af5f3-112">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="ae884-113">PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的個別使用者每個月訂閱授權</span><span class="sxs-lookup"><span data-stu-id="ae884-113">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="ae884-114">信使。</span><span class="sxs-lookup"><span data-stu-id="ae884-114">Messenger.</span></span> <span data-ttu-id="ae884-115">Microsoft 提供此服務的能力已因 Yahoo！中的支援而產生，其所向下纏繞的底層合約。</span><span class="sxs-lookup"><span data-stu-id="ae884-115">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+> <P><span data-ttu-id="af5f3-113">PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的個別使用者每個月訂閱授權</span><span class="sxs-lookup"><span data-stu-id="af5f3-113">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="af5f3-114">信使。</span><span class="sxs-lookup"><span data-stu-id="af5f3-114">Messenger.</span></span> <span data-ttu-id="af5f3-115">Microsoft 提供此服務的能力已因 Yahoo！中的支援而產生，其所向下纏繞的底層合約。</span><span class="sxs-lookup"><span data-stu-id="af5f3-115">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="ae884-116">Lync 是一種強大的工具，可跨組織和世界各地的個人進行連線。</span><span class="sxs-lookup"><span data-stu-id="ae884-116">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="ae884-117">與 Windows Live Messenger 的同盟需要 Lync Standard CAL 以外的其他使用者/裝置授權。</span><span class="sxs-lookup"><span data-stu-id="ae884-117">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="ae884-118">隨即會將 Skype 同盟新增至此清單，讓 Lync 使用者可以使用 IM 和語音來傳送成百上千的人員。</span><span class="sxs-lookup"><span data-stu-id="ae884-118">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
+> <P><span data-ttu-id="af5f3-116">Lync 是一種強大的工具，可跨組織和世界各地的個人進行連線。</span><span class="sxs-lookup"><span data-stu-id="af5f3-116">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="af5f3-117">與 Windows Live Messenger 的同盟需要 Lync Standard CAL 以外的其他使用者/裝置授權。</span><span class="sxs-lookup"><span data-stu-id="af5f3-117">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="af5f3-118">隨即會將 Skype 同盟新增至此清單，讓 Lync 使用者可以使用 IM 和語音來傳送成百上千的人員。</span><span class="sxs-lookup"><span data-stu-id="af5f3-118">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
 
 
@@ -57,50 +59,50 @@ ms.locfileid: "42179950"
 
 <div>
 
-## <a name="edge-server-cmdlets"></a><span data-ttu-id="ae884-119">Edge Server Cmdlet</span><span class="sxs-lookup"><span data-stu-id="ae884-119">Edge Server Cmdlets</span></span>
+## <a name="edge-server-cmdlets"></a><span data-ttu-id="af5f3-119">Edge Server Cmdlet</span><span class="sxs-lookup"><span data-stu-id="af5f3-119">Edge Server Cmdlets</span></span>
 
-<span data-ttu-id="ae884-120">下表列出的 Cmdlet 與管理 Edge Server 直接相關：</span><span class="sxs-lookup"><span data-stu-id="ae884-120">The following is a list of cmdlets that relate directly to managing Edge Servers:</span></span>
+<span data-ttu-id="af5f3-120">下表列出的 Cmdlet 與管理 Edge Server 直接相關：</span><span class="sxs-lookup"><span data-stu-id="af5f3-120">The following is a list of cmdlets that relate directly to managing Edge Servers:</span></span>
 
-<span data-ttu-id="ae884-121">**Edge Server**</span><span class="sxs-lookup"><span data-stu-id="ae884-121">**Edge Server**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="ae884-122">[Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-122">[Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))</span></span>
+<span data-ttu-id="af5f3-121">**Edge Server**</span><span class="sxs-lookup"><span data-stu-id="af5f3-121">**Edge Server**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ae884-123">[Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-123">[Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))</span></span>
+    <span data-ttu-id="af5f3-122">[Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-122">[Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="af5f3-123">[Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-123">[Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ae884-124">[Get-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-124">[Get-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))</span></span>
+    <span data-ttu-id="af5f3-124">[Get-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-124">[Get-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ae884-125">[新 CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-125">[New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))</span></span>
+    <span data-ttu-id="af5f3-125">[新 CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-125">[New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ae884-126">[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-126">[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))</span></span>
+    <span data-ttu-id="af5f3-126">[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-126">[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ae884-127">[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-127">[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))</span></span>
+    <span data-ttu-id="af5f3-127">[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-127">[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ae884-128">[Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-128">[Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))</span></span>
+    <span data-ttu-id="af5f3-128">[Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-128">[Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ae884-129">[Set-CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ae884-129">[Set-CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))</span></span>
+    <span data-ttu-id="af5f3-129">[Set-CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="af5f3-129">[Set-CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ae884-130">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ae884-130">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="af5f3-130">另請參閱</span><span class="sxs-lookup"><span data-stu-id="af5f3-130">See Also</span></span>
 
 
-[<span data-ttu-id="ae884-131">Lync Server PowerShell 的博客</span><span class="sxs-lookup"><span data-stu-id="ae884-131">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="af5f3-131">Lync Server PowerShell 的博客</span><span class="sxs-lookup"><span data-stu-id="af5f3-131">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
