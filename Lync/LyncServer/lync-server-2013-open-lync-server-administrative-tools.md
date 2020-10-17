@@ -12,20 +12,22 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 172d448b3967782226335a5a3b9a4066514b7a9b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3b8ae0dd21221700101d1c94e1a72a4e987de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216639"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531760"
 ---
+# <a name="open-lync-server-2013-administrative-tools"></a>開啟 Lync Server 2013 系統管理工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="open-lync-server-2013-administrative-tools"></a>開啟 Lync Server 2013 系統管理工具
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2012-06-28_
 
 1.  以 Domain Admins 群組和 RTCUniversalServerAdmins 群組成員的身分，登入安裝 Lync Server 部署嚮導的電腦。
 
-2.  依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 部署嚮導]**。
+2.  依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 部署嚮導]**。
 
 </div>
 
@@ -90,7 +92,7 @@ _**主題上次修改日期：** 2012-06-28_
     
     </div>
 
-2.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
+2.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
 
 </div>
 
@@ -108,7 +110,7 @@ _**主題上次修改日期：** 2012-06-28_
 
 
 > [!NOTE]  
-> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在 Lync Server 2013 控制台中執行任何工作。 您可以使用其他角色登入 Lync Server 2013 控制台，以執行特定的管理工作，取決於您需要執行的工作。 例如，您可以使用 CSArchivingAdministrator 管理 Lync Server 2013 控制台中的封存。 如需角色的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A>。 如需您可以用來執行特定工作的角色的詳細資訊，請參閱任務的檔。
+> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在 Lync Server 2013 控制台中執行任何工作。 您可以使用其他角色登入 Lync Server 2013 控制台，以執行特定的管理工作，取決於您需要執行的工作。 例如，您可以使用 CSArchivingAdministrator 管理 Lync Server 2013 控制台中的封存。 如需角色的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A> 。 如需您可以用來執行特定工作的角色的詳細資訊，請參閱任務的檔。
 
 
 
@@ -139,7 +141,7 @@ _**主題上次修改日期：** 2012-06-28_
 
 1.  從屬於 CsAdministrator 角色的成員或其他角色的使用者帳戶，其具有要執行之工作的適當使用者權限及許可權，登入已安裝 Lync Server 2013 的電腦，或至少是 Lync Server 2013 系統管理工具。 若要設定設定，電腦必須具有 1024 x 768 的最小螢幕解析度。
 
-2.  啟動 Lync Server 2013 控制台：按一下 [**開始**]，按一下 [**所有程式**]，指向 [系統**管理工具**]，指向 [ **Microsoft Lync Server 2013**]，然後按一下 [ **Lync Server 2013 控制台**]。
+2.  啟動 Lync Server 2013 控制台：按一下 [ **開始**]，按一下 [ **所有程式**]，指向 [系統 **管理工具**]，指向 [ **Microsoft Lync Server 2013**]，然後按一下 [ **Lync Server 2013 控制台**]。
 
 </div>
 
@@ -157,7 +159,7 @@ _**主題上次修改日期：** 2012-06-28_
 
 
 > [!NOTE]  
-> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在 Lync Server 2013 管理命令介面中執行任何工作。 您可以使用其他角色登入，以執行特定的管理工作，取決於您需要執行的工作。 例如，您可以使用 CSArchivingAdministrator 來執行與封存管理相關的 Cmdlet。 如需角色的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A>。 如需您可以用來執行特定 Cmdlet 的角色的詳細資訊，請參閱 Cmdlet 的檔。<BR>您也可以使用 RTCUniversalServerAdmins、RTCUniversalUserAdmins 或 RTCUniversalReadOnlyAdmins 群組中的使用者帳戶來執行某些 Cmdlet，視 Cmdlet 而定。
+> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在 Lync Server 2013 管理命令介面中執行任何工作。 您可以使用其他角色登入，以執行特定的管理工作，取決於您需要執行的工作。 例如，您可以使用 CSArchivingAdministrator 來執行與封存管理相關的 Cmdlet。 如需角色的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A> 。 如需您可以用來執行特定 Cmdlet 的角色的詳細資訊，請參閱 Cmdlet 的檔。<BR>您也可以使用 RTCUniversalServerAdmins、RTCUniversalUserAdmins 或 RTCUniversalReadOnlyAdmins 群組中的使用者帳戶來執行某些 Cmdlet，視 Cmdlet 而定。
 
 
 
@@ -171,7 +173,7 @@ _**主題上次修改日期：** 2012-06-28_
     
     `Import-Module Lync`
 
-  - 啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+  - 啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 </div>
 

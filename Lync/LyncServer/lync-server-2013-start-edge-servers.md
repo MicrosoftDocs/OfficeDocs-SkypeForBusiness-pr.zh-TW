@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 啟動 Edge Server
+title: Lync Server 2013：啟動 Edge server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895cd0832dbf9b19c38a236b23ca02e1be39abda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6dd2f40cdcba947a560dd51c520c8da2dbc768d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208379"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532970"
 ---
+# <a name="start-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中啟動 Edge Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中啟動 Edge Server
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42208379"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-01-16_
+_**主題上次修改日期：** 2012-01-16_
 
-之後完成設定 Edge Server 和負載平衡器，您需要在每部 Edge Server 上啟動服務。
+在完成設定 Edge Server 及負載平衡器之後，您必須在每一部 Edge Server 上啟動服務。
 
 <div>
 
-## <a name="to-start-the-services"></a>若要啟動服務
+## <a name="to-start-the-services"></a>啟動服務
 
-1.  在每部 Edge Server，在 [部署精靈] 旁邊**步驟 4： 啟動服務**，按一下 [**執行**]。
+1.  在每一部 Edge Server 上，于 [部署嚮導] 中的 [ **步驟4：啟動服務**] 旁邊，按一下 [ **執行**]。
 
-2.  在 [**啟動 Lync Server 15 服務**] 頁面上，檢閱服務清單，然後按一下 [**下一步**來啟動服務。
+2.  在 [ **啟動 Lync Server 15 服務** ] 頁面上，複查服務清單，然後按 **[下一步]** 以啟動服務。
 
-3.  在服務啟動之後，按一下 [**完成**] 以關閉精靈。
+3.  啟動服務之後，按一下 **[完成** ] 以關閉嚮導。
 
-4.  **步驟 4： 啟動服務**，按一下 [**服務狀態 （選擇性）**。
+4.  在 [ **步驟4：啟動服務**] 下，按一下 [ **服務狀態 (選用) **]。
 
-5.  在 [**服務**Microsoft Management Console (MMC) 的伺服器上，確認所有 Lync Server 2013 服務都在執行。
+5.  在伺服器上的 [ **服務** ] Microsoft Management CONSOLE (MMC) 中，確認所有的 Lync server 2013 服務都在執行中。
 
 </div>
 

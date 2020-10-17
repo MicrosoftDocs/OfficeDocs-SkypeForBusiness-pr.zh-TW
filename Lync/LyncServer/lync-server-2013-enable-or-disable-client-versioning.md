@@ -12,20 +12,22 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c575a861644c27a0dba93790667ece9b973211e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73d2affed023c930a5fe9814d820148b4e850b68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532110"
 ---
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>啟用或停用 Lync Server 2013 中的用戶端版本設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>啟用或停用 Lync Server 2013 中的用戶端版本設定
+
 
 </div>
 
@@ -55,15 +57,15 @@ _**主題上次修改日期：** 2013-02-23_
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左導覽列中，按一下 [**用戶端**]，然後按一下 [**用戶端版本**設定] 導覽按鈕。
+3.  在左導覽列中，按一下 [ **用戶端**]，然後按一下 [ **用戶端版本** 設定] 導覽按鈕。
 
 4.  執行下列動作：
     
-      - 若要全域啟用或停用用戶端版本設定，請按兩下**全域**設定，然後修改設定。
+      - 若要全域啟用或停用用戶端版本設定，請按兩下 **全域** 設定，然後修改設定。
     
-      - 若要啟用或停用特定網站的用戶端版本設定，請依序按一下 [**新增**] 及 [網站]，然後按一下 **[確定]**，然後修改網站的設定。
+      - 若要啟用或停用特定網站的用戶端版本設定，請依序按一下 [ **新增**] 及 [網站]，然後按一下 **[確定]**，然後修改網站的設定。
 
 </div>
 
@@ -71,13 +73,13 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來啟用或停用用戶端版本設定
 
-您可以使用**Set-CsClientVersionConfiguration** Cmdlet 來啟用或停用用戶端版本設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+您可以使用 **Set-CsClientVersionConfiguration** Cmdlet 來啟用或停用用戶端版本設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
 ## <a name="to-enable-client-versioning"></a>啟用用戶端版本設定
 
-  - 您可以設定**Enabled**屬性為 True ($True) 來啟用用戶端版本設定。
+  - 您可以設定 **Enabled** 屬性為 True ($True) 來啟用用戶端版本設定。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
@@ -87,13 +89,13 @@ _**主題上次修改日期：** 2013-02-23_
 
 ## <a name="to-disable-client-versioning"></a>停用用戶端版本設定
 
-  - 您可以將**Enabled**屬性設定為 False ($False) ，以停用用戶端版本設定。
+  - 您可以將 **Enabled** 屬性設定為 False ($False) ，以停用用戶端版本設定。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
 </div>
 
-如需詳細資訊，請參閱[Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) Cmdlet 的 [說明] 主題。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 階段 3： 部署 Lync Server 2013 試驗集區
+title: 階段3：部署 Lync Server 2013 試驗集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6996679d9364e1e96bcad8085ea017e02be73777
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b0a36b86c8d0c90ed0799c7e1acbe76b75c7630
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533720"
 ---
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>階段3：部署 Lync Server 2013 試驗集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>階段 3： 部署 Lync Server 2013 試驗集區
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42189726"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
-本章節將說明部署 Lync Server 2013 試驗集區所需的步驟。 Lync Server 2013 的部署需要使用拓撲產生器來定義拓撲以及您想要部署的元件準備您的環境部署的 Lync Server 2013 元件、 發佈拓撲設計上的第一個前端伺服器，以及然後安裝和設定 Lync Server 2013 軟體部署的元件。 完成時，Lync Server 2013 試驗集區部署將會與現有的 Lync Server 2010 集區共存。
+本節涵蓋部署 Lync Server 2013 試驗集區所需的步驟。 部署 Lync Server 2013 需要使用拓撲產生器來定義您的拓撲和您要部署的元件、準備部署 Lync Server 2013 元件的環境、在第一部前端伺服器上發佈拓撲設計，然後針對您的部署安裝和設定 Lync Server 2013 軟體。 完成後，您的 Lync Server 2013 試驗集區部署會與現有的 Lync Server 2010 集區共存。
 
 <div>
 
@@ -49,11 +51,11 @@ _**主題上次修改日期：** 2012年-10-19_
 
   - [部署 Lync Server 2013 試驗集區](deploy-lync-server-2013-pilot-pool.md)
 
-  - [確認舊版集區與試驗集區共存](verify-pilot-pool-coexistence-with-legacy-pool.md)
+  - [驗證試驗集區與舊版集區共存](verify-pilot-pool-coexistence-with-legacy-pool.md)
 
-  - [將試驗集區連接到舊版 Edge Server](connect-pilot-pool-to-legacy-edge-servers.md)
+  - [將試驗集區連線到舊版 Edge Server](connect-pilot-pool-to-legacy-edge-servers.md)
 
-  - [設定 XMPP 閘道存取原則及憑證](configure-xmpp-gateway-access-policies-and-certificates.md)
+  - [設定 XMPP 閘道的存取原則和憑證](configure-xmpp-gateway-access-policies-and-certificates.md)
 
 </div>
 

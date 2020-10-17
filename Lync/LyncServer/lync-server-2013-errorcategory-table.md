@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ErrorCategory 表'
+title: Lync Server 2013： ErrorCategory 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3052aa95aa6cd846717aa98c5778531aeee6f7e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f21535c1806223e7687ceb24ee94a93fe15238d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533150"
 ---
+# <a name="errorcategory-table-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorCategory 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorcategory-table-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorCategory 表
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42213329"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-08-20 個_
+_**主題上次修改日期：** 2012-08-20_
 
-ErrorCategory 表包含每個 Microsoft Lync Server 2013 診斷分類的易記名稱。 根據預設，Lync Server 2013 會使用下列分類：
+ErrorCategory 表格包含每個 Microsoft Lync Server 2013 診斷分類的好記名稱。 Lync Server 2013 預設會使用下列類別：
 
   - 0 -- 成功
 
@@ -45,7 +47,7 @@ ErrorCategory 表包含每個 Microsoft Lync Server 2013 診斷分類的易記�
 
   - 2 – 未預期的失敗
 
-Microsoft Lync Server 2013 中已採用此表格。
+此表格已引進 Microsoft Lync Server 2013。
 
 
 <table>
@@ -59,20 +61,20 @@ Microsoft Lync Server 2013 中已採用此表格。
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>類別識別碼</strong></p></td>
-<td><p>tinyint</p></td>
+<td><p><strong>CategoryId</strong></p></td>
+<td><p>Tinyint</p></td>
 <td><p>主要</p></td>
 <td><p>分類的唯一識別碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Name</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>名稱</strong></p></td>
+<td><p>Nvarchar (256) </p></td>
 <td></td>
 <td><p>指派給分類的值和易記名稱。允許的值為：</p>
 <ul>

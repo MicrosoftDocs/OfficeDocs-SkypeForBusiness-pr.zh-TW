@@ -3,7 +3,9 @@ title: 部署 Microsoft 團隊雲端語音服務
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-audience: admin
+audience:
+- ITPro
+- admin
 ms.date: 05/16/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610045"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532570"
 ---
 # <a name="deploy-my-service"></a>部署我的服務
 
@@ -44,7 +46,7 @@ ms.locfileid: "44610045"
 -   減少支援需求並提高使用者滿意度。
 
 > [!NOTE]
-> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定最佳環境的技術指導方針，請參閱設定[小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [加入] 檢查清單、設定[團隊中的直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[針對團隊提供的網路](prepare-network.md)，以及[啟用 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)。
+> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定最佳環境的技術指導方針，請參閱設定 [小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [加入] 檢查清單、設定 [團隊中的直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、 [團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、 [針對團隊提供的網路](prepare-network.md)，以及 [啟用 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)。
 
 <!--ENDOFSECTION-->
 
@@ -65,7 +67,7 @@ ms.locfileid: "44610045"
 
 -   促進
 
-[[網站啟用行動手冊] 語音（行動手冊）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)是 Microsoft Excel 活頁簿。 這五個焦點區域中的每一個都是活頁簿中的個別工作表，而每個部署工作和活動都會群組到其中一個工作表上。
+[ [網站啟用行動手冊] 語音 (行動手冊) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 是 Microsoft Excel 活頁簿。 這五個焦點區域中的每一個都是活頁簿中的個別工作表，而每個部署工作和活動都會群組到其中一個工作表上。
 
 ![[網站啟用行動手冊] 的螢幕擷取畫面](media/deploy-my-service-image1.png "行動手冊的螢幕擷取畫面")
 
@@ -78,21 +80,21 @@ ms.locfileid: "44610045"
 
 無論位置為何大小和複雜度，都能讓每個網站都能儘早規劃您的工作和活動，並在實際的服務推出期間和之後以最佳循序執行這些作業。 我們建議您在規劃並執行自己的 Microsoft 團隊語音時，按照這些步驟進行。
 
-1. 下載 [[網站啟用] 行動手冊（適用于 Microsoft 團隊語音的語音（行動手冊）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 。
+1. 下載適用于 Microsoft 團隊語音的 [語音 (行動手冊) 中的 [網站啟用] 行動手冊 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 。
 
 2. 針對每個網站分別建立 [行動手冊] 複本。
 
-3. 在名為 [**行動手冊] {SiteName-code}** 的工作表索引標籤上，將 **{sitename 程式碼}** 取代為相關的網站名稱和/或網站程式碼。
+3. 在名為 [ **行動手冊] {SiteName-code}** 的工作表索引標籤上，將 **{sitename 程式碼}** 取代為相關的網站名稱和/或網站程式碼。
 
-4. 輸入**網站名稱、網站程式碼**及**規劃的啟動日期**，如下所示。 這是一個重要的步驟，因為它會針對行動手冊中的每個活動調整建議的截止時間。
+4. 輸入 **網站名稱、網站程式碼**及 **規劃的啟動日期**，如下所示。 這是一個重要的步驟，因為它會針對行動手冊中的每個活動調整建議的截止時間。
 
    ![包含網站名稱、網站程式碼及規劃啟動日期的範例](media/deploy-my-service-image2.png "含紐約網站名稱、網站程式碼 NY01 及規劃啟動日期為20年3月18日的範例")
 
 5. 查看每個活動、執行必要的動作，並在您逐步完成時程表時更新狀態。 狀態以圖形表示，如下所述：
   
-   - ![綠色核取記號為 ](media/deploy-my-service-image3.png) **[是] 或 [不適用（綠色）]** 的圖例：活動已完成，或不適用於此網站，因此不需要進一步的動作。</li>
-   - ![黃色驚嘆號的圖例 ](media/deploy-my-service-image4.png) <strong>該活動尚未完成（黃色）：</strong>此活動尚未完成，且必須在排程上更新為 [是] 或 [否]。</li>
-   - ![紅色 X 的圖例，代表 [否] ](media/deploy-my-service-image5.png) <strong>（紅色）：</strong>由於問題而無法完成活動，且必須傳送給專案狀態會議。</li></ul>
+   - ![綠色核取記號的圖例為 ](media/deploy-my-service-image3.png) **[是] 或 [不適用] (綠色) ：** 活動已完成，或不適用於此網站，而且不需要採取進一步的動作。</li>
+   - ![黃色驚嘆號的圖例 ](media/deploy-my-service-image4.png) <strong>此活動尚未完成， (黃色) ：</strong> 尚未完成該活動，且必須在其排程上將其更新為 [是] 或 [否]。</li>
+   - ![紅色 X 的圖例，指出沒有 ](media/deploy-my-service-image5.png) <strong> (的紅色) ：</strong> 由於問題而無法完成活動，且必須傳送給專案狀態會議。</li></ul>
 
 6. 狀態是在每個區段中累計，而節標題則是以其中一個狀態指標來設定格式。 [**每週] 狀態**也會自動更新。
 
@@ -102,8 +104,8 @@ ms.locfileid: "44610045"
 > 針對您所有的位置，重複上述步驟。
 
 > [!IMPORTANT]
-> 某些步驟可能不適用於所有位置與網站。 如果特定活動與網站無關，您必須選取 [**不適**用於此活動]。 **請勿刪除**[行動手冊] 中的任何資料列;如果您這樣做，狀態匯總公式將無法運作。<br/><br/>
-請注意，可能會花費比您計畫更多時間的活動（例如，數位移植與採購活動）。 這些活動可能會對網站部署時程表造成負面影響。 請務必查看並更新活動清單及相關聯的時程表，並在[指導委員會會議](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)中展示，以確保專案關係人知道每個網站的狀態，以及部署排程的任何可能的偏差。
+> 某些步驟可能不適用於所有位置與網站。 如果特定活動與網站無關，您必須選取 [ **不適** 用於此活動]。 **請勿刪除** [行動手冊] 中的任何資料列;如果您這樣做，狀態匯總公式將無法運作。<br/><br/>
+請注意，可能會花費比您計畫更多時間的活動（例如，數位移植與採購活動）。 這些活動可能會對網站部署時程表造成負面影響。 請務必查看並更新活動清單及相關聯的時程表，並在 [指導委員會會議](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) 中展示，以確保專案關係人知道每個網站的狀態，以及部署排程的任何可能的偏差。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定您的部署是否需要網站啟用行動手冊。</li><li>針對您要部署的每個網站，決定誰將負責為 Microsoft 團隊自訂 [網站啟用] 行動手冊。</li></ul></td></tr>

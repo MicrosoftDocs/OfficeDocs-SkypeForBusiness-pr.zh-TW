@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: EdgeServers 表格'
+title: Lync Server 2013： EdgeServers 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185081
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3701895e0d356a0af6e1b069906fd102f718bd98
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bf176038c1595fb7cb5bf52bd8a6e51157dac54
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196816"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533350"
 ---
+# <a name="edgeservers-table-in-lync-server-2013"></a>Lync Server 2013 中的 EdgeServers 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edgeservers-table-in-lync-server-2013"></a>Lync Server 2013 中的 EdgeServers 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42196816"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010年-11-06_
+_**主題上次修改日期：** 2010-11-06_
 
-EdgeServers 表格是一種支援資料表。 每一筆記錄資料庫中擁有記錄的通話中儲存的相關資訊的一部 Edge Server 的相關資訊。
+EdgeServers 表格是支援的表格。 每個記錄會儲存與具有資料庫中記錄的通話相關的一部 Edge Server 相關資訊。
 
 
 <table>
@@ -51,7 +53,7 @@ EdgeServers 表格是一種支援資料表。 每一筆記錄資料庫中擁有�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -63,10 +65,10 @@ EdgeServers 表格是一種支援資料表。 每一筆記錄資料庫中擁有�
 <td><p>用於識別此 Edge Server 的唯一號碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>EdgeServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Edgeserver atl-edge</strong></p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p> </p></td>
-<td><p>Edge Server 的名稱。</p></td>
+<td><p>Edge Server 名稱。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: '用戶端自動登入 Lync Server 2013: DNS 需求'
+title: Lync Server 2013：自動用戶端登入的 DNS 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49d50173439e36bd5bb7f35f668837fe04b46b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b421656d5fefbefa308178962f5c25b9ae72013f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204839"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532180"
 ---
+# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Lync Server 2013 中自動用戶端登入的 DNS 需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>DNS 需求的用戶端自動登入 Lync Server 2013 中
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42204839"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-19_
+_**主題上次修改日期：** 2012-06-19_
 
-本主題將說明自動用戶端登入所需的網域名稱系統 (DNS) 記錄。 當您部署自己的 Standard Edition Server 或前端集區時，可以設定用戶端使用自動探索功能來登入適當的 Standard Edition Server 或前端集區。 如果您打算需要您以手動方式連線至 Lync Server 2013 的用戶端，您可以略過此主題。
+本主題將說明自動用戶端登入所需的網域名稱系統 (DNS) 記錄。 當您部署自己的 Standard Edition Server 或前端集區時，可以設定用戶端使用自動探索功能來登入適當的 Standard Edition Server 或前端集區。 如果您打算要求用戶端手動連接至 Lync Server 2013，您可以略過此主題。
 
 若要支援用戶端自動登入，您必須：
 
@@ -54,9 +56,9 @@ _**主題上次修改日期：** 2012年-06-19_
     
     </div>
 
-若要啟用用戶端的自動設定，您必須建立內部 DNS SRV 記錄會將下列記錄的其中一個對應到的前端集區的完整的網域名稱 (FQDN) 或分散登入要求 Lync 的 Standard Edition server用戶端：
+若要為您的用戶端啟用自動設定，您必須建立內部 DNS SRV 記錄，將下列其中一項記錄對應至前端集區或 Standard Edition server 的完整功能變數名稱 (FQDN) ，以從 Lync 用戶端分配登入要求：
 
-  - \_sipinternaltls。\_tcp。\<網域\>-用於內部 TLS 連線
+  - \_sipinternaltls。 \_Tcp。\<domain\> -適用于內部 TLS 連接
 
 您只需要為會分散登入要求的前端集區或 Standard Edition Server 建立單一 SRV 記錄。
 
@@ -85,7 +87,7 @@ _**主題上次修改日期：** 2012年-06-19_
 </tr>
 <tr class="even">
 <td><p>pool01.contoso.com</p></td>
-<td><p>retail.contoso.com 這兩個</p></td>
+<td><p>retail.contoso.com</p></td>
 <td><p>_sipinternaltls._tcp.retail.contoso.com 網域 (透過連接埠 5061) 的 SRV 記錄，對應到 pool01.contoso.com</p></td>
 </tr>
 </tbody>
@@ -96,7 +98,7 @@ _**主題上次修改日期：** 2012年-06-19_
 
 
 > [!NOTE]  
-> 根據預設，DNS 記錄的查詢符合使用者名稱中的網域與 SRV 記錄之間的嚴格網域名稱比對。 如果您想要讓用戶端 DNS 查詢改用尾碼比對，可以設定 DisableStrictDNSNaming 群組原則。 如需詳細資訊，請參閱規劃文件中的<A href="lync-server-2013-planning-for-clients-and-devices.md">Planning for 用戶端和 Lync Server 2013 中的裝置</A>。
+> 根據預設，DNS 記錄的查詢符合使用者名稱中的網域與 SRV 記錄之間的嚴格網域名稱比對。 如果您想要讓用戶端 DNS 查詢改用尾碼比對，可以設定 DisableStrictDNSNaming 群組原則。 如需詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-clients-and-devices.md">規劃 Lync Server 2013 中的用戶端和裝置</A> 。
 
 
 
@@ -108,9 +110,9 @@ _**主題上次修改日期：** 2012年-06-19_
 
 此範例使用前面表格中的相同範例名稱。Contoso 組織支援 contoso.com 以及 retail.contoso.com 這兩個 SIP 網域，而且其所有的使用者都具有下列其中一種格式的 SIP URI：
 
-  - \<使用者\>@retail.contoso.com
+  - \<user\>@retail。 contoso.com
 
-  - \<使用者\>@contoso.com
+  - \<user\>@contoso .com
 
 </div>
 

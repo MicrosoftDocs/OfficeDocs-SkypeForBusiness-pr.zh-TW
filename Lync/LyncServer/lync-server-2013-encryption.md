@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 加密
+title: Lync Server 2013：加密
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b87e395f56c7dfdbd03bf35c5c1c8cf37795652
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b4fca7065c18ab67fce1940adccce6b9071f3373
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207729"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533330"
 ---
+# <a name="encryption-for-lync-server-2013"></a>Lync Server 2013 的加密
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="encryption-for-lync-server-2013"></a>Lync Server 2013 的加密
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42207729"
 
 <span> </span>
 
-_**主題上次修改日期：** 2017年-09-14_
+_**主題上次修改日期：** 2017-09-14_
 
-Microsoft Lync Server 2013 使用 TLS 和 MTLS 加密立即訊息。 伺服器對伺服器的所有流量都需要 MTLS，不論是否流量局限於內部網路或跨越內部網路周邊網路。 TLS 是選擇性的但強烈建議在中繼伺服器和媒體閘道之間。 如果在此連結上設定 TLS，則 MTLS 是必要的。 因此，必須設定閘道，以從中繼伺服器所信任的 CA 憑證。
+Microsoft Lync Server 2013 使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部網路或越過內部網路周邊，所有伺服器對伺服器的流量都需要 MTLS。 TLS 是選擇性的，但在轉送伺服器和媒體閘道之間強烈建議使用。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自轉送伺服器所信任之 CA 的憑證加以設定。
 
 <div>
 
 
 > [!NOTE]  
-> 安全性公告有關 SSL 3.0 發佈在 2014年。 停用 Lync Server 2013 中的 SSL 3.0 是支援的選項。 若要深入了解安全性摘要報告，請參閱<A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>。
+> 有關 SSL 3.0 的安全性通報已在2014中發佈。 在 Lync Server 2013 中停用 SSL 3.0 是支援的選項。 若要深入瞭解安全性通報，請參閱 <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A> 。
 
 
 
@@ -54,12 +56,12 @@ Microsoft Lync Server 2013 使用 TLS 和 MTLS 加密立即訊息。 伺服器�
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="安全性" alt="security" />安全性附註：</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="安全" alt="security" />安全性附注：</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>若要確保會使用最強的密碼編譯通訊協定，Lync Server 2013 將用戶端提供 TLS 加密通訊協定，依下列順序： <strong>TLS 1.2</strong> 、 <strong>TLS 1.1</strong>、 <strong>TLS 1.0</strong>。 TLS 是不可或缺的 Lync Server 2013，因此它必須要有維持支援的環境。</td>
+<td>為了確保使用最強的加密通訊協定，Lync Server 2013 會以下列順序為用戶端提供 TLS 加密通訊協定： <strong>tls 1.2</strong> ， <strong>tls 1.1</strong>， <strong>tls 1.0</strong>。 TLS 是 Lync Server 2013 的重要層面，因此必須使用此功能才能維護支援的環境。</td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +113,7 @@ Microsoft Lync Server 2013 使用 TLS 和 MTLS 加密立即訊息。 伺服器�
 </tr>
 <tr class="odd">
 <td><p>會議內容下載、通訊錄下載、通訊群組擴充</p></td>
-<td><p>HTTPS</p></td>
+<td><p>HTTPS:</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,27 +123,27 @@ Microsoft Lync Server 2013 使用 TLS 和 MTLS 加密立即訊息。 伺服器�
 
 ## <a name="media-encryption"></a>媒體加密
 
-媒體流量都是使用安全 RTP (SRTP) 加密，它是即時傳輸通訊協定 (RTP) 的設定檔，為 RTP 流量提供機密性、驗證功能和重播攻擊防護。 此外，在中繼伺服器及其內部下一個躍點之間往返流動的媒體也是使用 SRTP 加密。 依預設不會加密雙向中繼伺服器和媒體閘道之間流動的媒體。 中繼伺服器可支援媒體閘道加密，但是閘道必須支援 MTLS 和憑證存放。
+媒體流量都是使用安全 RTP (SRTP) 加密，它是即時傳輸通訊協定 (RTP) 的設定檔，為 RTP 流量提供機密性、驗證功能和重播攻擊防護。 此外，中繼伺服器與其下一個內部躍點之間的雙向媒體流量也是使用 SRTP 來加密。 轉送伺服器和媒體閘道之間的兩種方向的媒體會預設不加密。 中繼伺服器可支援媒體閘道加密，但是閘道必須支援 MTLS 和憑證存放。
 
 <div>
 
 
 > [!NOTE]  
-> 音訊/視訊 (A / V) 支援與 Windows Live Messenger 的新版本。 如果您要實作 Windows Live Messenger 的 A/V 同盟，則必須修改 Lync Server 加密層級。 根據預設，加密層級為 [必要]。 您必須使用 Lync Server 管理命令介面，將此設定變更為支援。 如需詳細資訊，請參閱部署文件中的<A href="lync-server-2013-deploying-external-user-access.md">Deploying Lync Server 2013 中的外部使用者存取</A>。
+> Windows Live Messenger 的新版本支援 Audio/Video (A/V) 。 如果您要實作 Windows Live Messenger 的 A/V 同盟，則必須修改 Lync Server 加密層級。 根據預設，加密層級為 [必要]。 您必須使用 Lync Server 管理命令介面將此設定變更為 [支援]。 如需詳細資訊，請參閱部署檔中的在 <A href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 中部署外部使用者存取</A> 。
 
 
 
 </div>
 
-音訊和視訊媒體流量並未加密 Microsoft Lync 2013 與 Windows Live 用戶端之間。
+在 Microsoft Lync 2013 和 Windows Live 用戶端之間未加密音訊和影片媒體流量。
 
 </div>
 
 <div>
 
-## <a name="fips"></a>FIPS
+## <a name="fips"></a>Fips
 
-Lync Server 2013 和 Microsoft Exchange Server 2013 操作與支援的聯邦資訊處理標準 (FIPS) 140-2 演算法如果 Windows Server 作業系統設定為使用 FIPS 140-2 演算法系統密碼編譯。 若要實作 FIPS 支援，您必須設定執行 Lync Server 2013 到支援它的每部伺服器。 如需使用 FIPS 相容演算法以及如何實作 FIPS 支援的詳細資訊，請參閱 Microsoft 知識庫文章 811833，啟用效果 」 系統密碼編譯： 使用 FIPS 相容演算法進行加密，雜湊，以及簽章 」 安全性設定和更新版本的 Windows，Windows XP 中[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)。 如需 FIPS 140-2 支援和限制在 Exchange 2010 中，請參閱 Exchange 2010 SP1 和支援的 FIPS 相容演算法在[https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)。
+Lync Server 2013 和 Microsoft Exchange Server 2013 的運作方式是使用聯邦資訊處理標準 (FIPS) 140-2 演算法如果 Windows Server 作業系統設定為使用 FIPS 140-2 演算法進行系統加密。 若要實施 FIPS 支援，您必須設定每台執行 Lync Server 2013 的伺服器以支援它。 如需使用 FIPS 相容的演算法及如何實施 FIPS 支援的詳細資訊，請參閱 Microsoft 知識庫文章811833：在 Windows XP 和更新版本的 Windows 中，啟用「系統加密：使用 FIPS 相容的演算法進行加密、雜湊和簽署」安全性設定的影響 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833) 。 如需 Exchange 2010 中的 FIPS 140-2 支援和限制的詳細資訊，請參閱 Exchange 2010 SP1 及支援 FIPS 相容的演算法 [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335) 。
 
 </div>
 

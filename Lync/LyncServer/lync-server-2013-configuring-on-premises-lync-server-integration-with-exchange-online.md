@@ -12,20 +12,22 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60cfa8caa0aa2cb7dac704123f2a099bd305aed5
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 3e65e5a97a73f7170820f24778a74c8a1ffac04b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219663"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532530"
 ---
+# <a name="configuring-on-premises-lync-server-2013-integration-with-exchange-online"></a>設定內部部署 Lync Server 2013 與 Exchange Online 整合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-on-premises-lync-server-2013-integration-with-exchange-online"></a>設定內部部署 Lync Server 2013 與 Exchange Online 整合
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44219663"
 
 _**主題上次修改日期：** 2018-03-30_
 
-使用內部部署 Lync Server 2013 部署的客戶可以在混合式部署模式中，設定 microsoft Exchange Online 中 Microsoft Outlook Web App 的互通性。 互通性功能包括 Outlook Web App 介面的單一登入和立即訊息（IM）和目前狀態整合。 若要啟用此整合，您必須完成下列工作，以在您的內部部署 Lync Server 部署中設定 Edge Server：
+使用內部部署 Lync Server 2013 部署的客戶可以在混合式部署模式中，設定 microsoft Exchange Online 中 Microsoft Outlook Web App 的互通性。 互通性功能包括單一登入和立即訊息 (IM) 和目前狀態與 Outlook Web App 介面的整合。 若要啟用此整合，您必須完成下列工作，以在您的內部部署 Lync Server 部署中設定 Edge Server：
 
   - 設定共用 SIP 位址空間
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2018-03-30_
 
 如果您想要在您的組織中的使用者（例如出差的遠端辦公和使用者）可以透過網際網路連線至 Lync Server，請啟用此選項。
 
-如需詳細資訊，請參閱[Manage external access policy In Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)。
+如需詳細資訊，請參閱 [Manage external access policy In Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)。
 
 <div>
 
@@ -59,13 +61,13 @@ _**主題上次修改日期：** 2018-03-30_
 
 若要將內部部署的 Lync Server 2013 與 Exchange Online 整合，您必須設定共用 SIP 位址空間。 Lync Server 和 Exchange Online 服務都支援相同的 SIP 網域位址空間。
 
-使用 Lync Server 管理命令介面，使用下列範例所示的參數執行**Set-CSAccessEdgeConfiguration** Cmdlet，以設定 Edge server 以進行同盟：
+使用 Lync Server 管理命令介面，使用下列範例所示的參數執行 **Set-CSAccessEdgeConfiguration** Cmdlet，以設定 Edge server 以進行同盟：
 
     Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
   - **AllowFederatedUsers** 指定是否允許內部使用者與同盟網域的使用者進行通訊。 此屬性也會判斷內部使用者是否可以使用 Lync Server 和 Exchange Online，與共享 SIP 位址空間案例中的使用者進行通訊。
 
-如需如何使用 Lync Server 管理命令介面的詳細資訊，請參閱[Lync server 2013 管理命令](lync-server-2013-lync-server-management-shell.md)介面。
+如需如何使用 Lync Server 管理命令介面的詳細資訊，請參閱 [Lync server 2013 管理命令](lync-server-2013-lync-server-management-shell.md)介面。
 
 </div>
 
@@ -73,7 +75,7 @@ _**主題上次修改日期：** 2018-03-30_
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>在 Edge Server 上設定裝載提供者
 
-使用 Lync Server 管理命令介面，在 Edge Server 上設定裝載提供者。 若要這麼做，請使用下列範例中的參數執行**New-CsHostingProvider** Cmdlet：
+使用 Lync Server 管理命令介面，在 Edge Server 上設定裝載提供者。 若要這麼做，請使用下列範例中的參數執行 **New-CsHostingProvider** Cmdlet：
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
@@ -81,25 +83,25 @@ _**主題上次修改日期：** 2018-03-30_
 
 
 > [!NOTE]
-> 如果您使用中國運作的 Office 365，請將此範例（"exap.um.outlook.com"）中的<STRONG>ProxyFqdn</STRONG>參數值取代為世紀所運作之服務的 FQDN： "exap.um.partner.outlook.cn"。
+> 如果您使用的是在中國運作的 Office 365，請將此範例中的 <STRONG>ProxyFqdn</STRONG> 參數值取代為世紀所運作之服務的 FQDN ( "exap.um.outlook.com" ) ： "exap.um.partner.outlook.cn"。
 
 
 
 </div>
 
-  - **Identity**為所建立的裝載提供者指定唯一的字串值識別碼（例如，「Exchange Online」）。 包含空格的值必須用雙引號括住。
+  - **Identity** 為您要建立的裝載提供者指定唯一的字串值識別碼 (例如「Exchange Online」 ) 。 包含空格的值必須用雙引號括住。
 
-  - **Enabled** 會指出網域和裝載提供者之間的網路連線是否已啟用。 這必須設定為**True**。
+  - **Enabled** 會指出網域和裝載提供者之間的網路連線是否已啟用。 這必須設定為 **True**。
 
-  - **EnabledSharedAddressSpace** 指出是否將以共用 SIP 位址空間案例使用裝載提供者。 這必須設定為**True**。
+  - **EnabledSharedAddressSpace** 指出是否將以共用 SIP 位址空間案例使用裝載提供者。 這必須設定為 **True**。
 
-  - **HostsOCSUsers**會指出裝載提供者是否是用來主控 Office 通訊伺服器或 Lync server。 這必須設定為**False**。
+  - **HostsOCSUsers** 會指出裝載提供者是否是用來主控 Office 通訊伺服器或 Lync server。 這必須設定為 **False**。
 
   - **ProxyFQDN** 會指定裝載提供者所使用 Proxy 伺服器的完整網域名稱 (FQDN)。 針對 Exchange Online，FQDN 是 exap.um.outlook.com。
 
-  - **IsLocal**指出主控提供者所使用的 proxy 伺服器是否包含在 Lync server 拓撲中。 這必須設定為**False**。
+  - **IsLocal** 指出主控提供者所使用的 proxy 伺服器是否包含在 Lync server 拓撲中。 這必須設定為 **False**。
 
-  - **VerificationLevel**表示所傳送的郵件所允許的驗證層級提供者。 指定**UseSourceVerification**。 此選項取決於從裝載提供者傳送的郵件中所包含的驗證層級。 若未指定此層級，郵件將被拒絕為無法驗證。
+  - **VerificationLevel** 表示所傳送的郵件所允許的驗證層級提供者。 指定 **UseSourceVerification**。 此選項取決於從裝載提供者傳送的郵件中所包含的驗證層級。 若未指定此層級，郵件將被拒絕為無法驗證。
 
 </div>
 

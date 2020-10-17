@@ -12,20 +12,22 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fc6c9f3ef4a89fd1e4698cd8dc456ecb34e4304
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cdf0c4d974732b75a7ff83022c6bfbf1c4d8e80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532930"
 ---
+# <a name="test-web-app-access-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Web 應用程式存取權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-web-app-access-in-lync-server-2013"></a>在 Lync Server 2013 中測試 Web 應用程式存取權
+
 
 </div>
 
@@ -87,7 +89,7 @@ Test-CsWebApp Cmdlet 會驗證已驗證的使用者是否可以使用 Lync Web A
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1 -User2SipAddress "sip:pilar@litwareinc.com" -User2Credential $cred2
 
-如需詳細資訊，請參閱[Test-CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp) Cmdlet 的 [說明] 主題。 請注意，Test-CsWebApp 已過時，無法在 Lync Server 2013 上使用。
+如需詳細資訊，請參閱 [Test-CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp) Cmdlet 的 [說明] 主題。 請注意，Test-CsWebApp 已過時，無法在 Lync Server 2013 上使用。
 
 </div>
 
@@ -115,7 +117,7 @@ Test-CsWebApp Cmdlet 會驗證已驗證的使用者是否可以使用 Lync Web A
 
 延遲：00:00:00
 
-錯誤訊息： Web 票證服務沒有收到任何回應
+錯誤訊息：沒有為 Web-Ticket 服務接收任何回應
 
 診斷：未授權用戶端的 HTTP 要求
 

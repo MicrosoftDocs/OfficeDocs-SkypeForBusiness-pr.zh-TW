@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202939"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532550"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中設定企業語音
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中設定企業語音
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2013-03-12_
 
 ## <a name="create-a-trunk"></a>建立主幹
 
-您必須在您的企業語音部署中定義主幹。 針對位置基礎路由，您必須為每個主幹建立主幹設定。 使用 Lync Server 拓撲產生器來定義主幹，並使用 Lync Server Windows PowerShell 命令、Get-cstrunkconfiguration 或 Lync Server 控制台定義對應的主幹設定。 有關如何啟用主幹設定上的位置基礎路由的詳細資訊，請參閱本節中的啟用位置基礎路由至主幹，在 [Lync Server 2013 中啟用位置基礎路由](lync-server-2013-enabling-location-based-routing.md)的主題。 在此範例中，下表說明此案例中使用的主幹。
+您必須在您的企業語音部署中定義主幹。 針對 Location-Based 路由，您必須為每個主幹建立主幹設定。 使用 Lync Server 拓撲產生器來定義主幹，並使用 Lync Server Windows PowerShell 命令、Get-cstrunkconfiguration 或 Lync Server 控制台定義對應的主幹設定。 有關如何啟用主幹設定 Location-Based 路由的詳細資訊，請參閱本節中的 [啟用 Location-Based 路由傳送至主幹] 主題中 [啟用 Lync Server 2013 中的 Location-Based 路由](lync-server-2013-enabling-location-based-routing.md)。 在此範例中，下表說明此案例中使用的主幹。
 
 如需詳細資訊，請參閱 [在 Lync Server 2013 中的拓撲產生器中定義其他主幹](lync-server-2013-define-additional-trunks-in-topology-builder.md)。
 
@@ -117,7 +119,7 @@ _**主題上次修改日期：** 2013-03-12_
 
 ## <a name="defines-voice-policies"></a>定義語音原則
 
-您必須定義 Enterprise Voice 部署的語音原則。 定義語音原則，以對使用者的子集強制實施位置基礎路由限制（如果只需要使用位置基礎路由的一部分）。 在此範例中，下表說明此案例中使用的語音原則。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
+您必須定義 Enterprise Voice 部署的語音原則。 若要使用 Location-Based 路由，請定義語音原則，以強制執行 Location-Based 路由限制至使用者的子集。 在此範例中，下表說明此案例中使用的語音原則。 只有 Location-Based 路由特有的設定才會包含在表格中，以供說明之用。
 
 如需詳細資訊，請參閱設定 [語音原則和 PSTN 使用方式記錄，以在 Lync Server 2013 中授權呼叫功能和許可權](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
 
@@ -148,8 +150,8 @@ _**主題上次修改日期：** 2013-03-12_
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>錯</p></td>
-<td><p>錯</p></td>
+<td><p>False</p></td>
+<td><p>False</p></td>
 </tr>
 </tbody>
 </table>
@@ -166,7 +168,7 @@ _**主題上次修改日期：** 2013-03-12_
 
 ## <a name="define-voice-routes"></a>定義語音路由
 
-您必須定義 Enterprise Voice 部署的語音路由。 在此範例中，下表說明此案例中使用的語音路由。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
+您必須定義 Enterprise Voice 部署的語音路由。 在此範例中，下表說明此案例中使用的語音路由。 只有 Location-Based 路由特有的設定才會包含在表格中，以供說明之用。
 
 如需詳細資訊，請參閱 [在 Lync Server 2013 中設定撥出電話的語音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
 
@@ -225,7 +227,7 @@ _**主題上次修改日期：** 2013-03-12_
 
 ## <a name="enable-users-for-enterprise-voice"></a>為使用者啟用企業語音
 
-為使用者啟用企業語音，並將您先前定義的語音原則指派給他們。 在此範例中，下表說明此案例中使用的工作分派。 表格中只會包含針對位置基礎路由特有的設定，以供說明之用。
+為使用者啟用企業語音，並將您先前定義的語音原則指派給他們。 在此範例中，下表說明此案例中使用的工作分派。 只有 Location-Based 路由特有的設定才會包含在表格中，以供說明之用。
 
 如需詳細資訊，請參閱 [Enable users For Enterprise Voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)。
 
@@ -270,7 +272,7 @@ _**主題上次修改日期：** 2013-03-12_
 ## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定位置基礎路由](lync-server-2013-configuring-location-based-routing.md)  
+[在 Lync Server 2013 中設定 Location-Based 路由](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

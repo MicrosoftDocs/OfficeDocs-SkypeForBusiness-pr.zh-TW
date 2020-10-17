@@ -12,20 +12,22 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8693e34d8c1941dd7c1c6e7d8212cb826cf0789f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a7282bafa8a286a7aff2d1daaa07bb9c9d61238
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532780"
 ---
+# <a name="stop-lync-server-2010-services"></a>停止 Lync Server 2010 服務
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="stop-lync-server-2010-services"></a>停止 Lync Server 2010 服務
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42189196"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-04_
+_**主題上次修改日期：** 2012-10-04_
 
-您可以使用 Lync Server Control Panel 啟動或停止在特定電腦上執行的所有 Lync Server 2010 服務或是啟動或都停止特定的 Lync Server 2010 服務。
+您可以使用 Lync Server 控制台來啟動或停止在特定電腦上執行的所有 Lync Server 2010 服務，或是啟動或停止特定的 Lync Server 2010 服務。
 
 <div>
 
 ## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>啟動或停止電腦上的所有 Lync Server 服務
 
-1.  開啟 Lync Server 控制台。
+1.  開啟 [Lync Server 控制台]。
 
-2.  在左導覽列中，按一下 **[拓樸]**，再按一下 **[狀態]**。
+2.  在左導覽列中，按一下 **[拓撲]**，再按一下 **[狀態]**。
 
 3.  在 **[狀態]** 頁面上，視需要排序或搜尋清單，找到正在執行您要啟動或停止之服務的電腦，然後按一下該電腦。
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012年-10-04_
 
 ## <a name="to-start-or-stop-a-specific-service"></a>啟動或停止特定服務
 
-1.  開啟 Lync Server 控制台。
+1.  開啟 [Lync Server 控制台]。
 
 2.  在左導覽列中，按一下 **[拓樸]**，再按一下 **[狀態]**。
 

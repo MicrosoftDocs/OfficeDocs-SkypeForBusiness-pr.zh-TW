@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 檔案共用高可用性
+title: Lync Server 2013：檔案共用高可用性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185238
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40ec1c925ef2889b381c005918efbbb5e67c2f65
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f58cd52da92e767357e7a0bee7f3584552c9868
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531980"
 ---
+# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Lync Server 2013 中的檔共用高可用性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="file-sharing-high-availability-in-lync-server-2013"></a>檔案共用 Lync Server 2013 中的高可用性
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42213959"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-03-30_
+_**主題上次修改日期：** 2012-03-30_
 
-若要確保高可用性的 Lync Server 檔案共用單一資料中心內，您可以使用分散式檔案系統 (DFS)。 DFS 支援從一個檔案伺服器容錯移轉至另一個相同的資料中心內。 針對大型部署，建議您使用的成對使用 DFS 專用的檔案伺服器。
+為了確保單一資料中心內的 Lync Server 檔案共用的高可用性，您可以使用分散式檔案系統 (DFS) 。 DFS 支援在相同的資料中心內，從一個檔案伺服器到另一個檔案伺服器的容錯移轉。 在大規模部署中，建議您使用使用 DFS 成對的專用檔案伺服器。
 
-根據您的網路大小與想要的恢復量，您可以使用一對伺服器來裝載站台中的所有檔案共用，或使用一對每個前端集區。
+根據您的網路規模和您想要的復原數量，您可以使用一組伺服器來裝載網站中的所有檔案共用，或在前端集區中使用一對。
 
-DFS 是最佳投入比檔案複寫機制，任何已發佈的復原時間目標 (RTO) 或復原點目標 (RPO) 承諾。 快速，應該完成 DFS 伺服器之間容錯移轉，但資料複寫延遲可能阻止使用者能夠繼續進行中的工作時，若發生容錯移轉。
+DFS 是一種最佳的檔複寫方式，沒有發佈的復原時間目標 (RTO) 或復原點目標 (RPO) 承諾。 DFS 伺服器之間的容錯移轉應該會很快完成，但是資料複寫延遲可能會讓使用者無法繼續進行容錯移轉時進行中的工作。
 
-如果您使用 DFS 和檔案共用上的資料存放區非常重要，您應該先備份的檔案共用常見問題，例如，為每隔 4 到 8 小時。 當一個檔案共用下降並複寫不是最新狀態時，您可以使用備份來還原與伺服器現在無法使用的成對的另一部伺服器失敗的伺服器上的內容。
+如果您在檔共用上使用 DFS 和資料儲存區是很重要的，您應該經常備份檔案共用，例如每4到8個小時。 當一個檔案共用停機且複寫不是最新時，您可以使用備份將失敗伺服器上的內容還原至與目前無法使用之伺服器配對的另一部伺服器。
 
 </div>
 

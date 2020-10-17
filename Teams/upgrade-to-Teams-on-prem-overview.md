@@ -3,7 +3,7 @@ title: 從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8030f1504e56fb6bd9aee528e7969c9d66bf8c96
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 528dcfd975616d213b8a9fbd2499dc5d798708b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328232"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533580"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至 &mdash; 適用于 IT 系統管理員的小組
 

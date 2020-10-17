@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 監控端 Lync Server 儲存體效能
+title: Lync Server 2013：監控後端 Lync Server 儲存效能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ac4ab62bdbb9b33a7c64014433dfd4f950a6298
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aad04524df22c9d299b4a871b580330052d2aa5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531950"
 ---
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>監視後端 Lync Server 2013 儲存效能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>監視後端 Lync Server 2013 儲存體效能
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42192726"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-05-02_
+_**主題上次修改日期：** 2014-05-02_
 
-Lync Server 2013 後端資料庫是非常重要的 Lync Server 2013 部署的一部分。 我們建議您持續監控資料庫和各自的交易記錄，以協助確定 Lync Server 2013 back end 最佳狀態執行。
+Lync Server 2013 後端資料庫是 Lync Server 2013 部署中非常重要的部分。 我們建議您不斷監控資料庫和各自的交易記錄，以協助確保 Lync Server 2013 後端的執行效果最佳。
 
-下表列出應監視以了解儲存效能的相關資訊的效能計數器。 這些計數器的基準值必須判斷第一次 （當系統在其正常負載） 若要了解效能變更，當負荷系統。
+下表識別應監控的效能計數器，以瞭解儲存效能的相關資訊。 當系統處於其正常的負載) 時，必須先判斷這些計數器的比較基準值，以瞭解系統負載壓力下的效能變更時 (。
 
 ### <a name="performance-counters-to-be-monitored"></a>要監視的效能計數器
 
@@ -51,48 +53,48 @@ Lync Server 2013 後端資料庫是非常重要的 Lync Server 2013 部署的一
 <thead>
 <tr class="header">
 <th>效能計數器</th>
-<th>[比較基準臨界值</th>
+<th>基準閾值</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>交易/秒 (RTC)</p></td>
+<td><p>每秒交易 (RTC) </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>交易/秒 (rtcdyn)</p></td>
+<td><p>每秒交易 (rtcdyn) </p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>交易/秒 (tempdb)</p></td>
+<td><p>每秒交易 (tempdb) </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>記錄清除/秒 (RTC)</p></td>
+<td><p> (RTC) 的記錄檔刷新次數/秒</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>記錄清除/秒 (rtcdyn)</p></td>
+<td><p>記錄檔刷新次數/秒 (rtcdyn) </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>記錄清除/秒 (tempdb)</p></td>
+<td><p>記錄檔刷新次數/秒 (tempdb) </p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>磁碟傳輸/秒 （讀取 + 寫入）-RTC db</p></td>
+<td><p>磁片傳輸/秒 (讀取 + 寫入) RTC db</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>磁碟傳輸/秒-RTC 記錄檔</p></td>
+<td><p>磁片傳輸/秒-RTC 記錄</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>磁碟傳輸/秒-rtcdyn db</p></td>
+<td><p>磁片傳輸/秒-rtcdyn db</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>磁碟傳輸/秒-rtcdyn 記錄檔</p></td>
+<td><p>磁片傳輸/秒-rtcdyn 記錄</p></td>
 <td></td>
 </tr>
 </tbody>

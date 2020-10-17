@@ -12,20 +12,22 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 158dfa2954f331b4dce2407cb3bbee223f8e78ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 269d5a687baba53ed0bd60d4854b79643f23f0e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213079"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532120"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-調整式合併 edge （使用 NAT 透過私人 IP 位址進行 DNS 負載平衡）
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-調整式合併 edge （使用 NAT 透過私人 IP 位址進行 DNS 負載平衡）
+
 
 </div>
 
@@ -142,13 +144,13 @@ _**主題上次修改日期：** 2012-09-08_
 </tr>
 <tr class="even">
 <td><p>外部 DNS/SRV/443</p></td>
-<td><p>_sip _tls .com</p></td>
+<td><p>_sip _sip._tls .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Access Edge 外部介面。 自動設定 Lync 2013 和 Lync 2010 用戶端時必須執行，以供外部工作。 請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp .com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP Access Edge 外部介面。DNS 自動探索同盟協力廠商 (亦稱為「允許的 SIP 網域」，先前版本稱為增強型同盟) 所需。請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p></td>
 </tr>
@@ -187,7 +189,7 @@ _**主題上次修改日期：** 2012-09-08_
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls _tcp .com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP Access Edge 外部介面。DNS 自動探索同盟至其他潛在同盟協力廠商 (亦稱為「允許的 SIP 網域」，先前版本稱為增強型同盟) 所需。請針對具有啟用 Lync 功能之使用者的所有 SIP 網域，依需要重複。</p>
 <div>
@@ -260,7 +262,7 @@ _**主題上次修改日期：** 2012-09-08_
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-_tcp .com</p></td>
+<td><p>_xmpp-server._tcp .com</p></td>
 <td><p>xmpp.contoso.com</p></td>
 <td><p>Access Edge service 或 Edge 集區上的 XMPP proxy 外部介面。針對所有內部 SIP 網域，針對所有內部 SIP 網域，依需要重複此步驟：透過全域原則、使用者所在的網站原則，或套用到啟用 Lync 功能之使用者的使用者原則，可透過外部存取原則的設定允許與 XMPP 聯繫。 您也必須在 XMPP 同盟協力廠商原則中設定允許的 XMPP 網域。 如需其他詳細資料，請參閱另 <strong>請</strong> 參閱主題</p></td>
 </tr>

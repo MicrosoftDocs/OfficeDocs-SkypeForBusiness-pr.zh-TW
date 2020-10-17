@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 監控群組聊天
+title: Lync Server 2013：監控群組聊天
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c8d2a544c9a20e16e9a9f6510002ef5dd3e695e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf44bbaa00412de24af21c493fd05b88bd6259af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531930"
 ---
+# <a name="monitoring-group-chat-in-lync-server-2013"></a>在 Lync Server 2013 中監控群組聊天
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-group-chat-in-lync-server-2013"></a>Lync Server 2013 中的監視群組聊天
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42184746"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-08-04_
+_**主題上次修改日期：** 2014-08-04_
 
-我們強烈建議的效能改進 Microsoft 下載中心上執行提供最新[累計伺服器更新安裝程式](https://support.microsoft.com/kb/968802)。
+強烈建議您在 Microsoft 下載中心上執行最新的 [累積伺服器更新安裝程式](https://support.microsoft.com/kb/968802) ，以改善效能。
 
-假設您正在執行最新累計更新，使用下列計量壓力測試表了解是否您群組聊天伺服器正在執行在最佳的狀況。
+假設您正在執行最新的累計更新，請使用下列壓力測試表格，以瞭解您的群組聊天伺服器是否在最佳狀況下執行。
 
-### <a name="test-environment-and-user-model"></a>測試環境與使用者模型
+### <a name="test-environment-and-user-model"></a>測試環境和使用者模型
 
 <table>
 <colgroup>
@@ -54,64 +56,64 @@ _**上次修改主題：** 2014年-08-04_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>三部群組聊天伺服器的 Group Chat 集區、 每個需要 8 GB 記憶體和 8 處理器。</p></td>
+<td><p>群組聊天集區中的三個群組聊天伺服器，每個都有 8 GB 的記憶體和8個處理器。</p></td>
 </tr>
 <tr class="even">
-<td><p>兩個 Lync Server 2013 Enterprise Edition 中結束前方。</p></td>
+<td><p>Enterprise Edition 中的兩部 Lync Server 2013 前端。</p></td>
 </tr>
 <tr class="odd">
-<td><p>跨三個群組聊天伺服器的 60000 位並行使用者。</p></td>
+<td><p>60000三個群組聊天伺服器的並行使用者。</p></td>
 </tr>
 <tr class="even">
-<td><p>群組聊天集區所主控的 25000 通道。</p></td>
+<td><p>由群組聊天集區主控的25000通道。</p></td>
 </tr>
 <tr class="odd">
 <td><p>通道大小：</p>
 <ul>
-<li><p>小型通道大小： 30</p></li>
-<li><p>中型通道大小： 150</p></li>
-<li><p>大型通道大小： 2500年</p></li>
+<li><p>小通道大小：30</p></li>
+<li><p>中型通道大小：150</p></li>
+<li><p>大通道大小：2500</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>通道計數：</p>
 <ul>
-<li><p>數字小通道： 24000</p></li>
-<li><p>數字中型通道 800</p></li>
-<li><p>數字大型通道 24</p></li>
-<li><p>總通道 24,824</p></li>
+<li><p>數位小型通道：24000</p></li>
+<li><p>數位中型通道800</p></li>
+<li><p>數位大通道24</p></li>
+<li><p>通道總數24824</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>邀請通道：</p>
 <ul>
-<li><p>一半的通道已邀請通道</p></li>
+<li><p>一半通道邀請通道</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>使用者加入的通道數目：</p>
 <ul>
-<li><p>小型： 12</p></li>
-<li><p>中型： 2</p></li>
-<li><p>大型： 1</p></li>
+<li><p>Small：12</p></li>
+<li><p>中：2</p></li>
+<li><p>大：1</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>加入速率：</p>
+<td><p>聯接率：</p>
 <ul>
-<li><p>10 總計/秒，每部伺服器的 3.33/秒</p></li>
+<li><p>每個伺服器每秒10個總計/秒、3.33/秒</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>登出率：</p>
 <ul>
-<li><p>10 總計/秒，每部伺服器的 3.33/秒</p></li>
+<li><p>每個伺服器每秒10個總計/秒、3.33/秒</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>聊天速率：</p>
+<td><p>交談速度：</p>
 <ul>
-<li><p>20 總計/秒，6.66] / 秒每個伺服器</p></li>
+<li><p>每個伺服器總共20個、每秒 6.66/秒</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -122,7 +124,7 @@ _**上次修改主題：** 2014年-08-04_
 
 
 > [!IMPORTANT]  
-> 使用不同的硬體規格或使用者設定檔時，可能會有所不同下列效能計數器數字。
+> 使用不同的硬體規格或使用者設定檔時，可能會發生下列效能計數器數目。
 
 
 
@@ -138,13 +140,13 @@ _**上次修改主題：** 2014年-08-04_
 <thead>
 <tr class="header">
 <th>效能計數器</th>
-<th>臨界值</th>
+<th>閾 值</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Process(ChannelService)-&gt;%處理器時間</p></td>
-<td><p>最小值： 0</p></td>
+<td><p>處理 (ChannelService) &gt; 處理器時間</p></td>
+<td><p>最小值：0</p></td>
 </tr>
 </tbody>
 </table>

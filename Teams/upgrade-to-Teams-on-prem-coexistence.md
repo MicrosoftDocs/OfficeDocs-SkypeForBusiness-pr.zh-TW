@@ -3,7 +3,7 @@ title: 與 Microsoft 團隊和商務用 Skype 共存
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 0690af8226f3f992dcc12f68c6135c953eb043f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533610"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>與團隊和商務用 Skype 共存
 
@@ -132,7 +132,7 @@ ms.locfileid: "47955960"
 
 - 針對任何商務用 Skype Online 使用者，第一次登入小組時，商務用 Skype 的連絡人將會複製到小組。  在商務用 Skype Server 中擁有內部部署帳戶的使用者無法使用此行為。  
 
-- 在使用者升級至 TeamsOnly (之後，您可以透過指派 TeamsUpgradePolicy 或移動 Move-csuser-MoveToTeams) ，下次使用者登入小組時，商務用 Skype 中現有的連絡人將會與已存在於團隊中的現有連絡人合併。 不論使用者的商務用 Skype 帳戶是駐留在內部部署還是線上，都會發生此行為。 
+- 在使用者升級至 TeamsOnly (之後，您可以透過指派 TeamsUpgradePolicy 或透過 Move-CsUser MoveToTeams) ，下次使用者登入小組時，商務用 Skype 中現有的連絡人將會與已存在於團隊中的現有連絡人合併。 不論使用者的商務用 Skype 帳戶是駐留在內部部署還是線上，都會發生此行為。 
 
 在這兩種情況下，從商務用 Skype 將連絡人轉移至團隊是非同步，因此可能需要幾分鐘的時間，才會在團隊中顯示連絡人。 上述兩個事件會觸發複本。  
 

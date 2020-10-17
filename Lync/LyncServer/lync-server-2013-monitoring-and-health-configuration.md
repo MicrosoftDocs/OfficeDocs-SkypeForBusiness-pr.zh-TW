@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 監視和健康情況設定
+title: Lync Server 2013：監控和健康情況設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e16a5408cced479b1773c3ec4532518763d82c5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 595d4d6e977e7f98422adc9a88836f14e6293d1f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531960"
 ---
+# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的監控和健康情況設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的監視和健康情況設定
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42184786"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-22_
+_**主題上次修改日期：** 2013-02-22_
 
-本節中的主題提供逐步程序的監視，您可以執行 Lync Server 2013 控制台] 及 [Lync Server 2013 管理命令介面中的運作情況設定工作。
+本節中的主題會針對您可以在 Lync Server 2013 控制台和 Lync Server 2013 管理命令介面中執行的監控和健康情況設定工作，提供逐步程式。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [通話詳細記錄 (CDR) 在 [Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)
+  - [Lync Server 2013 中的詳細通話記錄 (CDR) ](lync-server-2013-call-detail-recording-cdr.md)
 
-  - [品質的 Lync Server 2013 中的經驗 (QoE)](lync-server-2013-quality-of-experience-qoe.md)
+  - [Lync Server 2013 的經驗品質 (QoE) ](lync-server-2013-quality-of-experience-qoe.md)
 
-  - [Lync Server 2013 的效能監控行動性](lync-server-2013-monitoring-mobility-for-performance.md)
+  - [在 Lync Server 2013 中監控行動性以取得效能](lync-server-2013-monitoring-mobility-for-performance.md)
 
-  - [Lync Server 2013 中使用監控報告](lync-server-2013-using-monitoring-reports.md)
+  - [在 Lync Server 2013 中使用監控報告](lync-server-2013-using-monitoring-reports.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Endpoint 表格'
+title: Lync Server 2013：端點表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb9430ba8b8c169176d39768491f0122e644d39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a71e59b6cf9b4143a5b984cc7b169279aa2cb57
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207675"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533320"
 ---
+# <a name="endpoint-table-in-lync-server-2013"></a>Lync Server 2013 中的端點表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="endpoint-table-in-lync-server-2013"></a>Lync Server 2013 中的 endpoint 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42207675"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-Endpoint 表格是一種支援資料表儲存記錄資料庫中的工作階段的端點的相關資訊。 在資料表中的每一筆記錄代表一個端點。
+端點表是一種支援資料表，可儲存已參與資料庫中記錄之會話之端點的相關資訊。 資料表中的每一筆記錄都代表一個端點。
 
 
 <table>
@@ -51,7 +53,7 @@ Endpoint 表格是一種支援資料表儲存記錄資料庫中的工作階段�
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -63,28 +65,28 @@ Endpoint 表格是一種支援資料表儲存記錄資料庫中的工作階段�
 <td><p>用於識別此端點的唯一號碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Name</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>名稱</strong></p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p>Unique</p></td>
 <td><p>端點名稱。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OS</strong></p></td>
-<td><p>nvarchar(128)</p></td>
+<td><p><strong>作業系統</strong></p></td>
+<td><p>Nvarchar (128) </p></td>
 <td><p> </p></td>
-<td><p>作業系統 (OS) 的端點。</p></td>
+<td><p>端點 (作業系統) 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUName</strong></p></td>
-<td><p>nvarchar(128)</p></td>
+<td><p>Nvarchar (128) </p></td>
 <td></td>
 <td><p>端點的 CPU 名稱。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CPUNumberOfCores</strong></p></td>
-<td><p>smallint</p></td>
+<td><p>Smallint</p></td>
 <td></td>
-<td><p>端點的 CPU 核心數。</p></td>
+<td><p>端點的 CPU 核心數目。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUProcessorSpeed</strong></p></td>
@@ -94,14 +96,14 @@ Endpoint 表格是一種支援資料表儲存記錄資料庫中的工作階段�
 </tr>
 <tr class="odd">
 <td><p><strong>VirtualizationFlag</strong></p></td>
-<td><p>tinyint</p></td>
+<td><p>Tinyint</p></td>
 <td></td>
-<td><p>位元旗幟，指出是否在虛擬環境中執行系統：</p>
+<td><p>指出系統是否在虛擬化環境中執行的位旗標：</p>
 <ul>
-<li><p>0x0000 – 無</p></li>
+<li><p>0x0000 –無</p></li>
 <li><p>0x0001 – HyperV</p></li>
 <li><p>0x0002 – VMWare</p></li>
-<li><p>0x0004 – 虛擬電腦</p></li>
+<li><p>0x0004 –虛擬 PC</p></li>
 <li><p>0x0008 – Xen 電腦</p></li>
 </ul></td>
 </tr>

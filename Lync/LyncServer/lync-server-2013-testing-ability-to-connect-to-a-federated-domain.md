@@ -12,20 +12,22 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce7f6855e792b5edd339ee87f2955336a943615
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a565c09e09e10eeb160b1d0514c89499427d1283
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532920"
 ---
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>從 Lync Server 2013 測試連線到同盟網域的能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>從 Lync Server 2013 測試連線到同盟網域的能力
+
 
 </div>
 
@@ -70,7 +72,7 @@ Test-CsFederatedPartner 會驗證您是否能夠連線到同盟協力廠商的�
 
     Get-CsAllowedDomain
 
-如需詳細資訊，請參閱[Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的說明文件。
 
 </div>
 
@@ -78,7 +80,7 @@ Test-CsFederatedPartner 會驗證您是否能夠連線到同盟協力廠商的�
 
 ## <a name="running-the-test"></a>執行測試
 
-FederatedPartner 指令程式需要兩條資訊： Edge Server 的 FQDN 和同盟協力廠商的 FQDN。 例如，此命令會測試連線至網域 contoso.com 的功能：
+Test-FederatedPartner Cmdlet 需要兩部分資訊： Edge Server 的 FQDN 和同盟協力廠商的 FQDN。 例如，此命令會測試連線至網域 contoso.com 的功能：
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
@@ -86,7 +88,7 @@ FederatedPartner 指令程式需要兩條資訊： Edge Server 的 FQDN 和同�
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-如需詳細資訊，請參閱[Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的說明文件。
 
 </div>
 
@@ -94,7 +96,7 @@ FederatedPartner 指令程式需要兩條資訊： Edge Server 的 FQDN 和同�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果可以聯繫指定的網域，則會收到類似下列的輸出，並將 Result 屬性標示為 [**成功]：**
+如果可以聯繫指定的網域，則會收到類似下列的輸出，並將 Result 屬性標示為 [ **成功]：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bace74b58c706ef58d05e54e31d2f79ab587ba64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31091da9a80dc03c798cbf674c1c46e0ea7b901c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198629"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533110"
 ---
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange UM 路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange UM 路由
+
 
 </div>
 
@@ -63,16 +65,16 @@ Alice 的信箱和 Exchange UM 服務位於主控 Exchange 服務供應商的資
     
 
     > [!NOTE]  
-    > MsExchUCVoiceMailSettings 屬性的值可由 Exchange 服務供應商或 Lync Server 2013 系統管理員設定。 在上述圖表所示的範例中，Lync Server 2013 系統管理員已設定 CsHostedVoiceMail = 1)  (值，以便為 Alice 啟用主控語音信箱。 如需此屬性的詳細資訊，請參閱<A href="lync-server-2013-hosted-exchange-user-management.md">在 Lync Server 2013 中主控 Exchange 使用者管理</A>。
+    > MsExchUCVoiceMailSettings 屬性的值可由 Exchange 服務供應商或 Lync Server 2013 系統管理員設定。 在上述圖表所示的範例中，Lync Server 2013 系統管理員已設定 CsHostedVoiceMail = 1)  (值，以便為 Alice 啟用主控語音信箱。 如需此屬性的詳細資訊，請參閱 <A href="lync-server-2013-hosted-exchange-user-management.md">在 Lync Server 2013 中主控 Exchange 使用者管理</A>。
 
     
     </div>
 
   - 指派給 Alice 使用者帳戶的裝載語音信箱原則提供路由詳細資料：
     
-      - 目的地是主控 Exchange UM 服務提供者 (ls。ExUm。 \<\>在此範例中，hostedExchangeServer) 。
+      - 目的地是主控 Exchange UM 服務提供者 (ls。ExUm。 \<hostedExchangeServer\>com 在這個範例中) 。
     
-      - 組織是由租使用者識別 IDs，也就是位於 ls 上之 Exchange Server 租使用者的 SIP 郵件的路由 Fqdn。ExUm。 \<\>在此範例中，hostedExchangeServer (corp.contoso.com and corp.litwareinc.com) 。
+      - 組織是由租使用者識別 IDs，也就是位於 ls 上之 Exchange Server 租使用者的 SIP 郵件的路由 Fqdn。ExUm。 \<hostedExchangeServer\>在此範例中，com (corp.contoso.com 和 corp.litwareinc.com) 。
         
         <div>
         
@@ -83,7 +85,7 @@ Alice 的信箱和 Exchange UM 服務位於主控 Exchange 服務供應商的資
         
         </div>
         
-        如需詳細資訊，請參閱[Lync Server 2013 中的主控語音信箱原則](lync-server-2013-hosted-voice-mail-policies.md)。
+        如需詳細資訊，請參閱 [Lync Server 2013 中的主控語音信箱原則](lync-server-2013-hosted-voice-mail-policies.md)。
 
 <div>
 

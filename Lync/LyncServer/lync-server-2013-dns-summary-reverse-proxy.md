@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS 摘要-反向 proxy'
+title: Lync Server 2013： DNS 摘要-反向 proxy
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5f79437c5253365e4333e7cd064883bba968a54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a468e74206fdc6bad8f078267688450636b8a725
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213099"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532140"
 ---
+# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-反向 proxy
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的反向 proxy
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42213099"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-22_
+_**主題上次修改日期：** 2013-03-22_
 
 您可以在反向 Proxy 上設定兩片網路介面卡，如下所示：
 
@@ -49,7 +51,7 @@ _**上次修改主題：** 2013年-03-22_
     
     未定義預設閘道。
     
-    確定從內含反向 proxy 內部介面的網路，到內含 Lync Server 前端集區伺服器 （例如，從 172.25.33.0 到 192.168.10.0) 的網路路由。
+    確定有從包含反向 proxy 內部介面的網路到包含 Lync Server 前端集區伺服器的任何網路的路由 (例如，從172.25.33.0 到 192.168.10.0) 。
 
   - **網路介面卡 2 (外部介面)** 範例
     
@@ -68,7 +70,7 @@ _**上次修改主題：** 2013年-03-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>位置/類型/連接埠</th>
+<th>位置/類型/埠</th>
 <th>FQDN</th>
 <th>IP 位址</th>
 <th>對應至/註解</th>
@@ -85,11 +87,11 @@ _**上次修改主題：** 2013年-03-22_
 <td><p>外部 DNS/A</p></td>
 <td><p>webdirext.contoso.com</p></td>
 <td><p>為對外發佈的資源指派聆聽程式</p></td>
-<td><p>外部 web 服務的 Director 或 Director 集區部署中。 您可以定義為多個 Director 都有不同的 Director，其中可能會與其他 SIP 網域相關聯。</p>
+<td><p>部署中 Director 或 Director 集區的外部 web 服務。 您可以定義多個具有不同 Director 的 Director，其可能會與其他 SIP 網域產生關聯。</p>
 <div>
 
 > [!IMPORTANT]  
-> 定義 DNS 的記錄，且發佈 Director 不可以是前端集區或 Director 決策。 您必須定義並發行 Director 與前端集區的外部 web 服務，如果您使用 Director。 特定的流量類型 （適用於驗證和其他用途） 會被傳送給 Director 首先，如果它定義在拓撲中。
+> 定義及發佈 Director 的 DNS 記錄不是前端集區或 Director 決定。 如果您使用 Director，則必須定義及發佈 Director 和前端集區外部 web 服務。 若要將特定流量類型 (用於驗證及其他使用) ，請先將它傳送給 Director （如果是在拓撲中定義）。
 
 
 </div></td>
@@ -109,14 +111,14 @@ _**上次修改主題：** 2013年-03-22_
 <tr class="odd">
 <td><p>外部 DNS/A</p></td>
 <td><p>officewebapps01.contoso.com</p></td>
-<td><p>Office Web Apps server 的指派接聽程式</p></td>
-<td><p>Office Web Apps Server 部署在內部或在周邊網路，並為外部用戶端存取發行</p></td>
+<td><p>Office Web Apps Server 的指派監聽器</p></td>
+<td><p>Office Web Apps Server 內部部署或在周邊環境中部署，並已發佈供外部用戶端存取</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
 <td><p>lyncdiscover.contoso.com</p></td>
 <td><p>為對外發佈的資源指派聆聽程式</p></td>
-<td><p>Lync Discover External 記錄的外部發行之自動探索，以及包括行動性、 Microsoft Lync Web App，以及排程器 Web 應用程式</p></td>
+<td><p>Lync 探索外部發佈 AutoDiscover 的外部記錄，並包含行動性、Microsoft Lync Web App 及排程器 Web app</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 設定 Lync Server 電腦以參與 System Center 搜索
+title: 將 Lync Server 電腦設定為參與 System Center 探索
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f5c313bab7c307a0dbc1a8e78269a94663d9c67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9783b8054c74b071c927cc42f32d05700877daad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532370"
 ---
+# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a>將 Lync Server 2013 電腦設定為參與 System Center 探索
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a>設定 Lync Server 2013 電腦以參與 System Center 搜索
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42191886"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-20 個_
+_**主題上次修改日期：** 2012-10-20_
 
-若要確保您新的 Lync Server 代理程式參與探索程序中的 System Center Operations Manager，您必須完成下列程序在每一部已安裝 System Center Operations Manager 主控台的電腦上：
+若要確定新的 Lync 伺服器代理程式參與 System Center Operations Manager 的探索程式，您必須在安裝 System Center Operations Manager 主控台的每一部電腦上完成下列程式：
 
 1.  在 [管理]**** 索引標籤上，按一下 [代理程式管理]****。
 

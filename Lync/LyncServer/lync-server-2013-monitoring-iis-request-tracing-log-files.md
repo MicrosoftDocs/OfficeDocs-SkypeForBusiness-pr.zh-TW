@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 監控 IIS 要求的追蹤記錄檔
+title: Lync Server 2013：監控 IIS 要求的追蹤記錄檔
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4eb6d1ec984d09f3868ad621add52fb947dd13b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76e8734c8cef93191c5e7186240c1b78529916fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531920"
 ---
+# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>在 Lync Server 2013 中監控 IIS 要求的追蹤記錄檔
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>監控 IIS 要求在 Lync Server 2013 中的追蹤記錄檔
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42192686"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-14_
+_**主題上次修改日期：** 2013-02-14_
 
     This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
 
-當您啟用網際網路資訊服務 (IIS) 要求的追蹤的 Lync Server Mobility Service (Mcx) 時，所產生的記錄檔可能會耗用最多三個 gb 的每日的磁碟空間。 依預設會啟用 IIS 追蹤記錄。 您應該監視前端伺服器若要確定，他們無法執行磁碟空間不足。
+當您啟用 Internet Information Services (的) 要求追蹤 Lync Server 行動性服務 (Mcx) 時，所產生的記錄檔可能會消耗最多三 gb 的磁碟空間。 預設會啟用 IIS 追蹤記錄。 您應該監視前端伺服器，確定其磁碟空間不足。
 
-根據預設，IIS 會儲存在 %systemdrive%並記錄檔\\inetpub\\記錄\\記錄檔。
+根據預設，IIS 會將記錄檔儲存在% 系統磁片% inetpub 記錄檔日誌檔 \\ \\ \\ 。
 
-若要關閉 IIS 要求的追蹤整部伺服器，請在命令列中輸入下列命令：
+若要關閉整個伺服器的 IIS 要求追蹤，請在命令列輸入下列命令：
 
     %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 
-如需**httpLogging**命令的詳細資訊，請參閱[https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927)。
+如需 **HTTPLogging** 命令的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927) 。
 
 </div>
 

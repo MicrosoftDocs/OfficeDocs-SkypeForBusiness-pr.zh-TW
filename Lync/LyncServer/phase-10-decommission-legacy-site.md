@@ -12,20 +12,22 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d40c988822a27a34f148e4e1e7893a077965fcd
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3a8a2871659747b68e7a0dec6a945c6f987219a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533760"
 ---
+# <a name="phase-10-decommission-legacy-site"></a>階段10：解除委任舊版網站
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-10-decommission-legacy-site"></a>階段10：解除委任舊版網站
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012-10-16_
 
 
 > [!IMPORTANT]  
-> 如需遷移和升級 Microsoft 整合通訊 Managed API （UCMA）應用程式的詳細資訊，請參閱解除委任舊版環境之前，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 如需遷移和升級 Microsoft 整合通訊 Managed API (UCMA) 應用程式的資訊，在解除委任舊版環境之前，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
