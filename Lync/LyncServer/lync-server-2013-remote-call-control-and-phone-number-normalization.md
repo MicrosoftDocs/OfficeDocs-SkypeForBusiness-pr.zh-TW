@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：遠端呼叫控制和電話號碼標準化
+description: Lync Server 2013：遠端呼叫控制和電話號碼標準化。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 211f0f717f7c40895cdbbad75bd98ae0ff90af89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: edcb50678da7111aba066745bce5e356dd1ac7f3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536550"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555809"
 ---
 # <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Lync Server 2013 的遠端呼叫控制和電話號碼正規化
 
@@ -53,7 +54,7 @@ Lync 用戶端會下載電話號碼正規化規則，作為通訊錄服務的一
 
   - 如需 Lync Server 2010，請參閱遷移檔中的 [遷移通訊錄](migrate-address-book.md) 。
 
-  - 如需通訊伺服器 2007 R2，請參閱遷移檔中的 [遷移通訊錄](migrate-address-book_1.md) 。
+  - 如需通訊伺服器 2007 R2，請參閱遷移檔中的 [遷移通訊錄](migrate-address-book.md) 。
 
 </div>
 

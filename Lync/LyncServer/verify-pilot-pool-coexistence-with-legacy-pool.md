@@ -1,5 +1,6 @@
 ---
 title: 驗證試驗集區與舊版集區共存
+description: 請確認試驗集區與舊版集區共存。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8958fbf22e096a1d9fef03afd3aac3b4656ed0e8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b910939b59fdaed6df32ae504eb2719435a0161e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515930"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555549"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>驗證試驗集區與舊版集區共存
 

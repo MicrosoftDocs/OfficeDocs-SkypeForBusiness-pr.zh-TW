@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：測試整合連絡人存放區存取
+description: Lync Server 2013：測試整合連絡人存放區存取權。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5552c03ac18ddd373385674da03d872ce89eb585
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 58238685133c51130c414e0d7a8cd761d0233f5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503900"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556079"
 ---
 # <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>在 Lync Server 2013 中測試整合連絡人存放區存取權
 

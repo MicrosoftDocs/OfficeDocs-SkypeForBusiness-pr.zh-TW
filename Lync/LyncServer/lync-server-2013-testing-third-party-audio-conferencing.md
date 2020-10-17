@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：測試協力廠商音訊會議
+description: Lync Server 2013：測試協力廠商音訊會議。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51f728bfb5617185bdd9a1ef3b5f21b3e12ca61f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f009d95834768d8a4e6619a79ff1f3be0a2b92bd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503930"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556099"
 ---
 # <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中測試協力廠商音訊會議
 

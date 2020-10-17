@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：刪除現有的註冊機配置設定
+description: Lync Server 2013：刪除現有的註冊機配置設定。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185132
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a0624806ba8ed2f10bc0c7cffbf1e8879209c66
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b625b97724edf0ecf8928ec31d89a6166230c4c7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525600"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555409"
 ---
 # <a name="delete-existing-registrar-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中刪除現有的註冊機配置設定
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：測試 PSTN 通話路由
+description: Lync Server 2013：測試 PSTN 通話路由。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6f0b1da87cfff6033840d37f590922c0a3bd9e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: da931b43176932a9b6781fa27318e83e6994548c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504000"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556269"
 ---
 # <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>在 Lync Server 2013 中測試 PSTN 撥打電話路由
 
