@@ -1,5 +1,5 @@
 ---
-title: 群組呼叫收取組態先決條件和使用者權限
+title: 群組呼叫收取設定必要條件和使用者權限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0127ff5c196c14dc7844c6958ced9ae5478113
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b15be02b48c5e3f95a9b05475bea42284ec275
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213239"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498790"
 ---
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Lync Server 2013 中的群組呼叫收取設定必要條件和使用者權限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>群組呼叫收取組態先決條件和 Lync Server 2013 中的使用者權限
+
 
 </div>
 
@@ -35,53 +37,53 @@ ms.locfileid: "42213239"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-30_
+_**主題上次修改日期：** 2013-01-30_
 
-群組來電接聽是當您部署企業語音時，會將預設安裝的通話管理功能。 本主題說明您需要備妥之前您可以設定群組來電接聽與您需要先執行組態工作的使用者權限。
+「群組呼叫收取」是在您部署企業語音時，預設會安裝的通話管理功能。 本主題說明您必須準備好的功能，才能設定群組呼叫收取和執行設定工作所需的使用者權限。
 
-本節假設您已閱讀群組來電接聽與相關的規劃文件 （請參閱[Planning for Lync Server 2013 中的 [群組來電接聽](lync-server-2013-planning-for-group-call-pickup.md)）。
+本節假設您已閱讀與群組呼叫收取相關的規劃檔 (請參閱 [在 Lync Server 2013) 中規劃群組呼叫收取](lync-server-2013-planning-for-group-call-pickup.md) 。
 
 <div>
 
-## <a name="group-call-pickup-configuration-prerequisites"></a>群組通話收取組態先決條件
+## <a name="group-call-pickup-configuration-prerequisites"></a>群組呼叫收取設定必要條件
 
-群組來電接聽需要下列元件：
+群組呼叫收取需要下列元件：
 
   - 應用程式服務
 
   - Call Park application
 
-當您部署企業語音時，都會自動安裝這些元件。
+當您部署企業語音時，會自動安裝這些元件。
 
 </div>
 
 <div>
 
-## <a name="group-call-pickup-configuration-user-rights"></a>群組通話收取設定使用者權限
+## <a name="group-call-pickup-configuration-user-rights"></a>群組呼叫收取設定使用者權限
 
-您可以使用下列系統管理工具來設定群組來電接聽：
+您可以使用下列系統管理工具來設定群組呼叫收取：
 
   - Lync Server 管理命令介面
 
-  - SEFAUtil resource kit 工具
+  - SEFAUtil 資源套件工具
 
-使用 Lync Server 管理命令介面來建立及管理通話駐留軌道表中的呼叫收取群組。 使用 SEFAUtil resource kit 工具，來指派通話收取群組，並為使用者啟用群組來電接聽或停用使用者的群組來電接聽。
+使用 Lync Server 管理命令介面來建立及管理通話駐留軌道表格中的呼叫收取群組。 使用 SEFAUtil resource 工具組工具指派呼叫收取群組，並為使用者啟用群組呼叫收取，或停用群組呼叫收取給使用者。
 
-設定群組來電接聽需要下列管理角色，根據任務的任何項目：
+設定群組呼叫收取需要下列任何系統管理角色，視任務而定：
 
-  - **CsVoiceAdministrator:** 此系統管理員角色可以建立、 設定及管理所有語音相關設定和原則。
+  - **CsVoiceAdministrator：** 此系統管理員角色可以建立、設定及管理所有語音相關設定和原則。
 
-  - **CsUserAdministrator:** 此系統管理員角色可以針對使用者啟用群組來電接聽。 其也具有所有語音設定的唯讀檢視存取權。
+  - **CsUserAdministrator：** 此系統管理員角色可以為使用者啟用群組呼叫收取功能。 其也具有所有語音設定的唯讀檢視存取權。
 
-  - **CsServerAdministrator:** 此系統管理員角色可以管理、 監控及疑難排解伺服器和服務。
+  - **CsServerAdministrator：** 此系統管理員角色可以管理、監控及疑難排解伺服器和服務。
 
-  - **CsAdministrator:** 此系統管理員角色可以執行所有 CsVoiceAdministrator、 CsServerAdministrator 和 CsUserAdministrator 的工作。
+  - **CsAdministrator：** 此系統管理員角色可以執行 CsVoiceAdministrator、CsServerAdministrator 及 CsUserAdministrator 的所有工作。
 
 <div>
 
 
 > [!NOTE]
-> 如需系統管理權限的詳細資訊，請參閱規劃文件中的<A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Lync Server 2013 中角色型存取控制</A>。
+> 如需系統管理許可權的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中的角色型存取控制</A> 。
 
 
 
@@ -94,10 +96,10 @@ _**上次修改主題：** 2013年-01-30_
 ## <a name="see-also"></a>另請參閱
 
 
-[部署 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-deploying-enterprise-voice.md)  
+[在 Lync Server 2013 中部署企業語音](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[規劃 Lync Server 2013 中的通話管理功能](lync-server-2013-planning-for-call-management-features.md)  
+[在 Lync Server 2013 中規劃通話管理功能](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

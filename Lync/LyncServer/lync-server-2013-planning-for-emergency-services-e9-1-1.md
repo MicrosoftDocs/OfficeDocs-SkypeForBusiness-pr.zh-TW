@@ -12,20 +12,22 @@ ms:contentKeyID: 48183363
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c642fefb7fcaf17422bc292f3ed56516ede206bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e261716dcd7dd117b53420cf0c72ede8bb8c4621
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497700"
 ---
+# <a name="planning-for-emergency-services-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中規劃緊急服務 (E9-1-1) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-emergency-services-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中規劃緊急服務 (E9-1-1) 
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 2013 支援 E9-1-1) 服務中的增強型 (9-1-1，成為企業語�
 
 
 > [!NOTE]  
-> Lync Server 具有三個高級 Enterprise Voice 功能：通話許可控制、緊急服務 (E9-1-1) 和媒體旁路。 如需所有三種功能共同使用的規劃資訊，請參閱<A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 中的「高級 Enterprise Voice 功能」網路設定</A>。
+> Lync Server 具有三個高級 Enterprise Voice 功能：通話許可控制、緊急服務 (E9-1-1) 和媒體旁路。 如需所有三種功能共同使用的規劃資訊，請參閱 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 中的「高級 Enterprise Voice 功能」網路設定</A>。
 
 
 

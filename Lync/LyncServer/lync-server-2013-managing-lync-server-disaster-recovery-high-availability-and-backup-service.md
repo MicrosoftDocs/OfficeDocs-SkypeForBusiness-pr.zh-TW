@@ -1,5 +1,5 @@
 ---
-title: 管理 Lync Server 災害復原、 高可用性及備份服務
+title: 管理 Lync Server 災難修復、高可用性及備份服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c18076a2bbc34386872a7fbee92c26b8084598
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c935a27f737d8ec7fdb012f4e0c13930d20a1319
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498150"
 ---
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>管理 Lync Server 2013 災難修復、高可用性及備份服務
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>管理 Lync Server 2013 災害復原、 高可用性及備份服務
+
 
 </div>
 
@@ -35,30 +37,30 @@ ms.locfileid: "42185606"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-12_
+_**主題上次修改日期：** 2012-11-12_
 
-本節包含災難復原作業，以及維護備份服務 」 的同步處理配對前端集區中的資料的程序。
+本節包含嚴重損壞復原作業的程式，以及維護備份服務，以同步處理成對前端集區中的資料。
 
-災害復原程序，容錯移轉和容錯回復，都是手動。 如果沒有損毀，系統管理員必須以手動方式叫用容錯移轉程序。 適用於容錯回復之後修復之集區。
+容錯移轉和回切回的嚴重損壞修復程式都是手動。 如果發生災難，系統管理員必須手動呼叫容錯移轉程式。 修復集區之後，回復器也同樣適用。
 
-本節的其餘部分中的災害復原程序假設下列情況：
+本節其餘部分的嚴重損壞修復程式會假設下列各項：
 
-  - 您必須具有配對前端集區，位於不同的站台，作為 > 中所述[的高可用性和災害復原 Lync Server 2013 中的規劃](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)部署。 備份服務已經對它們進行同步化這些配對集區上執行。
+  - 您的部署具有成對的前端集區，位於不同的網站，如在 [Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)中所述。 備份服務已在這些配對集區上執行，使其保持同步。
 
-  - 如果其中一個集區上裝載的中央管理存放區，它是安裝及執行在這兩個配對集區]，以其中一個這些集區代管作用中的主圖形和其他集區代管待命資料庫。
+  - 如果中央管理存放區裝載于任何集區上，則會在兩個配對集區上安裝並執行，其中一個集區會裝載作用中的主集區，而另一個集區會主控備用的集區。
 
 <div>
 
 
 > [!IMPORTANT]
-> 下列程序， <EM>PoolFQDN</EM>參數是指會受到嚴重損壞的集區的 FQDN，不會影響使用者的集區從重新導向。 如需受影響的使用者同一組，它參照相同的集區容錯移轉和容錯回復 cmdlet （亦即，集區的第一次位於 [容錯移轉之前的使用者） 中。<BR>例如，假設所有使用者都隸屬於 P1 已容錯移轉至備份集區 P2 的集區中的案例。 如果管理員想要移動目前由 P2 到由 P1 服務的所有使用者，系統管理員必須執行下列步驟： 
+> 在下列程式中， <EM>PoolFQDN</EM> 參數會參照受災難影響的集區的 FQDN，而不會重新導向受影響使用者的集區。 針對相同組受影響的使用者，它會在容錯移轉和回切 (Cmdlet 中同時參考相同的集區，也就是在容錯移轉) 之前第一位使用者的集區。<BR>例如，假設某個案例位於集區 P1 的所有使用者都已容錯移轉至備份組區 P2。 如果系統管理員想要移動所有目前由 P2 服務服務的使用者，以 P1 為服務，系統管理員必須執行下列步驟： 
 > <OL>
 > <LI>
-> <P>Fail 備份所有原先隸屬於 P1 從 P2 到 P1 的使用者使用容錯回復指令程式。 在此情況下，則<EM>PoolFQDN</EM>是 P1 的 FQDN。</P>
+> <P>使用回復指令 Cmdlet，將原來在 P1 上的所有使用者都從 P2 重新容錯回復至 P1。 在此情況下， <EM>PoolFQDN</EM> 為 P1's FQDN。</P>
 > <LI>
-> <P>容錯移轉所有原先隸屬於 P2 到 P1 的使用者使用容錯移轉指令程式。 在此情況下，則<EM>PoolFQDN</EM>是 P2 的 FQDN。</P>
+> <P>使用容錯移轉指令，將所有原先位於 P2 的使用者容錯移轉至 P1。 在此情況下， <EM>PoolFQDN</EM> 為 P2's FQDN。</P>
 > <LI>
-> <P>如果系統管理員稍後想要容錯回復那些 P2 使用者容錯回復至 P2，則<EM>PoolFQDN</EM>是 P2 的 FQDN。</P></LI></OL>請注意，上述步驟 1 必須執行步驟 2 來保留集區完整性之前。 如果您嘗試步驟 2 前面步驟 1，步驟 2 指令程式將會失敗。
+> <P>如果系統管理員稍後想要將這些 P2 使用者容錯回復回 P2，則 <EM>PoolFQDN</EM> 為 P2's FQDN。</P></LI></OL>請注意，必須先執行上述步驟1，再執行步驟2以保留集區完整性。 如果您在步驟1之前嘗試步驟2，則步驟 2 Cmdlet 會失敗。
 
 
 
@@ -68,23 +70,23 @@ _**主題上次修改日期：** 2012年-11-12_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [設定和監控 Lync Server 2013 中備份服務](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
+  - [在 Lync Server 2013 中設定及監視備份服務](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
-  - [容錯移轉集區中 Lync Server 2013](lync-server-2013-failing-over-a-pool.md)
+  - [在 Lync Server 2013 中容錯移轉集區](lync-server-2013-failing-over-a-pool.md)
 
-  - [容錯回復的 Lync Server 2013 中的集區](lync-server-2013-failing-back-a-pool.md)
+  - [在 Lync Server 2013 中回復集區失敗](lync-server-2013-failing-back-a-pool.md)
 
-  - [容錯移轉鏡像資料庫在 Lync Server 2013](lync-server-2013-failing-over-a-mirrored-database.md)
+  - [在 Lync Server 2013 中容錯移轉鏡像資料庫](lync-server-2013-failing-over-a-mirrored-database.md)
 
-  - [容錯移轉用於 Lync Server 2013 中的 Lync Server 同盟的 Edge 集區](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+  - [在 Lync Server 2013 中容錯移轉用於 Lync Server 同盟的 Edge 集區](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
-  - [容錯移轉用於 Lync Server 2013 中的 XMPP 同盟的 Edge 集區](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
+  - [在 Lync Server 2013 中容錯移轉用於 XMPP 同盟的 Edge 集區](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
 
-  - [容錯回復用於 Lync Server 同盟或 Lync Server 2013 中的 XMPP 同盟的 Edge 集區](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
+  - [在 Lync Server 2013 中回復用於 Lync Server 同盟或 XMPP 同盟的 Edge 集區](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
 
-  - [變更與 Lync Server 2013 中的前端集區相關聯的 Edge 集區](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
+  - [在 Lync Server 2013 中變更與前端集區相關聯的 Edge 集區](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
 
-  - [使用 Lync Server 2013 中備份服務還原會議內容](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
+  - [在 Lync Server 2013 中使用備份服務還原會議內容](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
 
 </div>
 
@@ -93,7 +95,7 @@ _**主題上次修改日期：** 2012年-11-12_
 ## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中的高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[在 Lync Server 2013 中規劃高可用性和嚴重損壞修復](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
   
 
 </div>

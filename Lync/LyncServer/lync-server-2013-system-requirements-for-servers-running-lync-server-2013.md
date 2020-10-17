@@ -12,12 +12,12 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0affd2d951d437a930bc7f210e0878e2978f8731
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 2d25be2132fdaba58024ba58081656b830ea9fe4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497330"
 ---
 # <a name="system-requirements-for-servers-running-lync-server-2013"></a>執行 Lync Server 2013 之伺服器的系統需求
 
@@ -43,7 +43,7 @@ _**主題上次修改日期：** 2014-07-24_
 
 
 > [!NOTE]
-> 如需硬體需求的詳細資訊，請參閱<A href="lync-server-2013-server-hardware-platforms.md">伺服器硬體平臺的 Lync Server 2013</A>。
+> 如需硬體需求的詳細資訊，請參閱 <A href="lync-server-2013-server-hardware-platforms.md">伺服器硬體平臺的 Lync Server 2013</A>。
 
 
 
@@ -51,7 +51,7 @@ _**主題上次修改日期：** 2014-07-24_
 
 Standard Edition 和 Enterprise Edition 伺服器共用相同的軟體需求。
 
-執行 Lync Server 2013 Enterprise Edition 的伺服器專為大型組織做為主要組織部署。 Enterprise Edition Server 依設計最多可讓每個集區容納約 80,000 個使用者。 執行 Lync Server 2013 的伺服器，Standard Edition 是針對小型組織和主要組織部署的遠端位置而設計。 一對的 Standard Edition 伺服器最多可支援5000使用者。 如需有關 Standard Edition server 和 Enterprise Edition server 之間差異的詳細資訊，請參閱[Lync Server 2013 的部署概況](lync-server-2013-deployment-overview.md)。
+執行 Lync Server 2013 Enterprise Edition 的伺服器專為大型組織做為主要組織部署。 Enterprise Edition Server 依設計最多可讓每個集區容納約 80,000 個使用者。 執行 Lync Server 2013 的伺服器，Standard Edition 是針對小型組織和主要組織部署的遠端位置而設計。 一對的 Standard Edition 伺服器最多可支援5000使用者。 如需有關 Standard Edition server 和 Enterprise Edition server 之間差異的詳細資訊，請參閱 [Lync Server 2013 的部署概況](lync-server-2013-deployment-overview.md)。
 
 <div>
 
@@ -75,7 +75,7 @@ Standard Edition 和 Enterprise Edition server 可以使用下列任何一項：
 
   - Windows Server 2012 R2
 
-在 Standard Edition Server 或 Enterprise Edition 前端伺服器上安裝作業系統軟體。 套用所有更新，讓作業系統具有與組織的標準相符的最新更新和必要更新層級。 如需有關運作需求的詳細資訊，請參閱支援檔中的[伺服器和工具作業系統支援（Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) ）。
+在 Standard Edition Server 或 Enterprise Edition 前端伺服器上安裝作業系統軟體。 套用所有更新，讓作業系統具有與組織的標準相符的最新更新和必要更新層級。 如需有關運作需求的詳細資訊，請參閱支援檔中的 [伺服器和工具作業系統支援（Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) ）。
 
 > [!NOTE] 
 > Lync Server 2013 不支援就地升級作業系統。  您必須部署個別的集區，並將使用者遷移至具有不同作業系統的新集區。
@@ -94,7 +94,7 @@ Standard Edition 和 Enterprise Edition server 可以使用下列任何一項：
 
 ## <a name="additional-software-for-lync-server-2013"></a>Lync Server 2013 的其他軟體
 
-除了作業系統所需的更新之外，Lync Server 2013 還需要作業系統角色、功能和軟體才能運作。 如需在發行拓撲及安裝 Lync Server 2013 之前必須安裝之其他軟體的詳細資訊，請參閱規劃檔中的[其他軟體需求（Lync Server 2013](lync-server-2013-additional-software-requirements.md) ）。
+除了作業系統所需的更新之外，Lync Server 2013 還需要作業系統角色、功能和軟體才能運作。 如需在發行拓撲及安裝 Lync Server 2013 之前必須安裝之其他軟體的詳細資訊，請參閱規劃檔中的 [其他軟體需求（Lync Server 2013](lync-server-2013-additional-software-requirements.md) ）。
 
 </div>
 
@@ -112,7 +112,7 @@ Standard Edition 和 Enterprise Edition server 可以使用下列任何一項：
 
 ## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-Lync Server 2013 需要您在您的 Lync Server 拓撲中的每一部電腦上安裝 Windows PowerShell 3.0。 如需安裝 Windows PowerShell 3.0 的詳細資訊，請參閱[安裝 windows PowerShell 3.0 的 Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)。
+Lync Server 2013 需要您在您的 Lync Server 拓撲中的每一部電腦上安裝 Windows PowerShell 3.0。 如需安裝 Windows PowerShell 3.0 的詳細資訊，請參閱 [安裝 windows PowerShell 3.0 的 Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)。
 
 <div>
 
@@ -134,15 +134,15 @@ Lync Server 2013 需要您在您的 Lync Server 拓撲中的每一部電腦上�
 
 **在 Windows Server 2012 或 Windows Server 2012 R2 上安裝 .NET 4.5 HTTP 啟用**
 
-1.  在 [**開始**] 功能表上，按一下 [**程式**]，然後按一下 [系統**管理工具**]，再按一下 [**伺服器管理員**]。
+1.  在 [ **開始** ] 功能表上，按一下 [ **程式**]，然後按一下 [系統 **管理工具**]，再按一下 [ **伺服器管理員**]。
 
-2.  在 [伺服器管理員] 的 [**功能摘要**] 下，選擇 [**新增功能**]。
+2.  在 [伺服器管理員] 的 [ **功能摘要**] 下，選擇 [ **新增功能**]。
 
 3.  展開 **.Net Framework 4.5**。
 
-4.  選取 [ **WCF 啟用**] （如果尚未選取）。 然後選取 [ **HTTP 啟用**]。
+4.  選取 [ **WCF 啟用** ] （如果尚未選取）。 然後選取 [ **HTTP 啟用**]。
 
-5.  按 **[下一步**]，然後依照提示完成安裝。
+5.  按 **[下一步** ]，然後依照提示完成安裝。
 
 </div>
 

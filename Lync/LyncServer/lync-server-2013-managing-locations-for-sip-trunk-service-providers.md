@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理 SIP 主幹服務提供者的位置
+title: Lync Server 2013：管理 SIP 主幹服務提供者的位置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f27eeac11006eab2209bb5491d991a677e3a2887
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6aa7dce34aea04c851608f67d1412c1c3da4069
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218079"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498170"
 ---
+# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>在 Lync Server 2013 中管理 SIP 主幹服務提供者的位置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>管理 Lync Server 2013 中的 SIP 主幹服務提供者的位置
+
 
 </div>
 
@@ -35,47 +37,47 @@ ms.locfileid: "42218079"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-若要設定自動尋找網路內的用戶端的 Lync Server，您需要填入網路接線圖位置資訊服務資料庫及發佈的位置，或連結至已經包含正確的外部資料庫對應。 此程序的一部分，您需要驗證 E9-1-1 服務提供者那邊位置的市街地址。 如需詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的位置資料庫](lync-server-2013-configure-the-location-database.md)。
+若要將 Lync Server 設定為自動在網路中尋找用戶端，您必須使用網路線路圖填入位置資訊服務資料庫，併發布位置，或連結至已經包含正確對應的外部資料庫。 在此程式中，您必須使用 E9-1-1 服務提供者驗證位置的市政位址。 如需詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中設定位置資料庫](lync-server-2013-configure-the-location-database.md) 。
 
-您填入位置資訊服務資料庫與緊急回應位置 (ERL)，其中包括市街地址和建置內的特定地址。 位置資訊服務**位置**] 欄位中，也就是建置內的特定位置，具有長度上限為 20 個字元 （包括空格）。 在該限制的長度，嘗試包括下列各項：
+您可以使用 ERL) （包含市政位址及大樓內的特定位址） (的 [緊急回應] 位置，填入位置資訊服務資料庫。 位置資訊服務 **位置** 欄位是大樓內的特定位置，其最大長度為20個字元 (包含空格) 。 在此有限長度內，嘗試包含下列專案：
 
-  - 容易理解名稱，可識別 911 來電者可協助您確保的緊急回應者的特定位置迅速時找到它們都會送達市街地址的位置。 此位置名稱可能包含建築物編號、 底板數字、 蝶形指示項，會議室號碼等等。 避免只有知道可能會導致移至錯誤的位置的緊急回應者的員工的暱稱。
+  - 易於辨識的名稱，可識別911呼叫者的位置，以協助確保緊急回應程式在到達市政位址時立即找到特定位置。 此位置名稱可以包含大樓編號、底價編號、翼標示符、會議室編號等等。 避免只有員工知道的昵稱，這可能會造成緊急回應程式進入錯誤的位置。
 
-  - 協助使用者輕鬆地查看，挑選的正確位置其 Lync 用戶端位置識別碼。 Lync 用戶端會自動將串連，並顯示探索到的**位置**] 和 [**縣/市**欄位標頭中。 很好的作法是將建置的街道地址新增至每個位置識別碼 (例如，"1st Floor\<街道號碼\>」)。 街道地址，而 「 1st 樓 」 等的一般位置識別碼無法套用至任何建置在 [縣/市。
+  - 一個位置識別碼，可協助使用者輕鬆查看其 Lync 用戶端是否已挑選正確的位置。 Lync 用戶端會自動連接並顯示其頁首中已探索的 **位置** 和 **城市** 欄位。 最佳作法是將大樓的街道位址新增至每個位置識別碼 (例如，"第一層 \<street number\> " ) 。 沒有街道位址，「第一層」等一般位置識別碼可以套用到城市中的任何辦公樓。
 
-  - 如果因為它由無線存取點決定的概略位置，您可以加入 near 的字詞 （例如 「 靠近 1st 樓 1234年）。
+  - 如果位置是由無線存取點所決定，您可以在 (附近新增文字，例如，「接近第一層1234」 ) 。
 
 <div>
 
 
 > [!NOTE]  
-> 除非他們發佈使用 Lync Server 管理命令介面命令，並且會複寫到集區的本機存放區，並不適用於用戶端新增至中央位置資料庫的位置。 如需詳細資訊，請參閱部署文件中的<A href="lync-server-2013-publish-the-location-database.md">發佈位置資料庫從 Lync Server 2013</A> 。
+> 新增至中央位置資料庫的位置直到使用 Lync Server 管理命令介面命令加以發佈，而且會複製到集區的本機存放區，才可供用戶端使用。 如需詳細資訊，請參閱部署檔中的 <A href="lync-server-2013-publish-the-location-database.md">從 Lync Server 2013 發佈位置資料庫</A> 。
 
 
 
 </div>
 
-下列各節將討論您需要考慮當填入和維護位置資料庫時的考量。
+下列各節討論在填充及維護位置資料庫時，需要考慮的考慮事項。
 
 <div>
 
-## <a name="populating-the-location-database"></a>填入位置資料庫
+## <a name="populating-the-location-database"></a>填充位置資料庫
 
 下列問題可協助您決定如何填入位置資料庫。
 
-  - **您將使用何種程序填入位置資料庫？**  
-    其中是否存在的資料，以及您需要將資料轉換成位置資料庫所需的格式採取哪些步驟？ 將您新增位置會個別或大量使用 CSV 檔案？
+  - **您將使用哪個程式填入位置資料庫？**  
+    資料存在的位置，以及您需要採取哪些步驟將資料轉換成位置資料庫所需的格式？ 是否要使用 CSV 檔案個別新增位置，還是大量使用 CSV 檔案？
 
 <!-- end list -->
 
-  - **您必須已經包含位置對應的協力廠商資料庫？**  
-    使用 Lync Server 的次要位置資訊服務] 選項，以連線至協力廠商資料庫，您可以群組，並使用離線平台管理位置。 這種方法的好處是，除了建立關聯至網路識別碼的位置，您可以建立關聯的使用者的位置。 這表示位置資訊服務可以傳回多個地址，源自次要位置資訊服務，Lync Server 用戶端。 然後，使用者可以選擇最適合的位置。
+  - **您是否有已包含位置對應的協力廠商資料庫？**  
+    使用 Lync Server 的次要位置資訊服務選項來連線至協力廠商資料庫，您可以使用離線平臺來分組和管理位置。 這種方法的好處是，除了將位置與網路識別碼相關聯之外，也可以將位置與使用者產生關聯。 這表示位置資訊服務可以傳回多個來自次要位置資訊服務的位址給 Lync Server 用戶端。 然後，使用者可以選擇最適合的位置。
     
-    若要整合與位置資訊服務，協力廠商資料庫必須遵循 Lync 伺服器位置要求讀回應結構描述。 如需詳細資訊，請參閱 「\[MS E911WS\]: E911 支援通訊協定規格的 Web 服務 」 在<https://go.microsoft.com/fwlink/p/?linkid=213819>。 如需部署次要位置資訊服務的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的次要位置資訊服務](lync-server-2013-configure-a-secondary-location-information-service.md)。
+    若要與位置資訊服務整合，協力廠商資料庫必須遵循 Lync Server 位置要求/回應架構。 如需詳細資訊，請參閱中的「 \[ MS-E911WS \] ： E911 支援通訊協定規格的 Web 服務」 <https://go.microsoft.com/fwlink/p/?linkid=213819> 。 如需部署次要位置資訊服務的詳細資訊，請參閱部署檔中的 [Configure a 輔 Location information service In Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) 。
 
-如需填入位置資料庫的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的位置資料庫](lync-server-2013-configure-the-location-database.md)。
+如需有關填充位置資料庫的詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中設定位置資料庫](lync-server-2013-configure-the-location-database.md) 。
 
 </div>
 
@@ -83,15 +85,15 @@ _**主題上次修改日期：** 2012年-10-02_
 
 ## <a name="maintaining-the-location-database"></a>維護位置資料庫
 
-填入位置資料庫之後，您需要開發更新資料庫作為網路組態變更的策略。 下列問題可協助您決定如何維護位置資料庫。
+填滿位置資料庫之後，您需要開發一個策略，以在網路設定變更時更新資料庫。 下列問題可協助您決定如何維護位置資料庫。
 
-  - **您要如何更新位置資料庫？**  
-    有幾種情況，需要更新至位置資料庫，包括新增 Wap、 office recabling （產生不同的參數指派），和子網路擴充。 將您直接更新每個個別的位置，或將使用 CSV 檔案來執行的所有位置大量更新？
+  - **您將如何更新位置資料庫？**  
+    有幾個案例需要更新位置資料庫，包括新增 Wap、office recabling (產生不同的切換指派) 及子網擴充。 您是否會直接更新每個個別位置，或是使用 CSV 檔案執行所有位置的大量更新？
 
 <!-- end list -->
 
-  - **您將使用 SNMP 應用程式符合 Lync 用戶端 MAC 位址來連接埠和交換器識別碼？**  
-    如果您使用 SNMP 應用程式，您需要開發將交換器底座和連接埠資訊保持一致 SNMP 應用程式和資料庫位置之間的手動程序。 如果 SNMP 應用程式傳回底座 IP 位址或連接埠編號不包含在資料庫中，將位置資訊服務將無法傳回給用戶端的位置。
+  - **您是否會使用 SNMP 應用程式，將 Lync 用戶端 MAC 位址與埠及切換識別碼對應？**  
+    如果您使用 SNMP 應用程式，則必須開發手動程式，以在 SNMP 應用程式和位置資料庫之間保持切換底盤及埠資訊的一致性。 如果 SNMP 應用程式傳回資料庫中未包含的主機殼 IP 位址或埠識別碼，則位置資訊服務將無法傳回用戶端的位置。
 
 </div>
 

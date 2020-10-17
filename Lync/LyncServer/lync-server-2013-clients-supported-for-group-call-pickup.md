@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 用戶端支援群組來電接聽
+title: Lync Server 2013：支援群組呼叫收取的用戶端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dea557ba6f3ab28d13b7f09c2cc2b28a5bc02d6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0e5e2a7ecf248f1b27d41a7a9db8da56ac98d971
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204322"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499210"
 ---
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中支援群組呼叫收取的用戶端
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>群組來電接聽 Lync Server 2013 中支援的用戶端
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42204322"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-12_
+_**主題上次修改日期：** 2013-02-12_
 
-下列用戶端的任何可用來接聽來電群組來電接聽成員：
+您可以使用下列任一用戶端接聽呼叫群組的來電成員：
 
   - Lync 2013
 
@@ -49,23 +51,23 @@ _**上次修改主題：** 2013年-02-12_
 
 
 > [!NOTE]  
-> 使用者可以使用任何這些用戶端來接聽來電群組來電接聽成員，但使用者必須位於與 Lync Server 2013 的累計更新 Lync Server 2013 集區： 2 月 2013年。
+> 使用者可以使用這些用戶端中的任何用戶端接聽呼叫群組的來電成員，但是使用者必須是在 lync server 2013 集區上，其具有累積更新的 lync Server 2013：2月2013。
 
 
 
 </div>
 
-在 [Lync Server 2013 的累計更新： 2 月 2013年下列用戶端和裝置不支援挑選群組來電接聽成員的呼叫：
+在 Lync Server 2013 的累計更新中：2月2013，不支援下列用戶端和裝置接聽群組呼叫收取成員：
 
-  - Lync 行動裝置
+  - Lync Mobile
 
-  - Lync for Windows 8 和 Windows RT 的應用程式
+  - 適用于 Windows 8 和 Windows RT 的 Lync 應用程式
 
   - Lync for iPad
 
   - 類比電話
 
-  - 使用公用交換的電話網路 (PSTN) 號碼的電話
+  - 具有公用交換電話網路 (PSTN) 號碼的電話
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e34e47eaa5cd4bf8ffc2fccbc2a8bcb3f4f2de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497520"
 ---
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中設定 XMPP 同盟
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中設定 XMPP 同盟
+
 
 </div>
 
@@ -88,7 +90,7 @@ _**主題上次修改日期：** 2012-12-03_
 
 15. 在 [主體名稱/主體替代名稱] 頁面上，會顯示精靈將自動填入的資訊。如果您還需要其他主體替代名稱，請在後續兩個步驟中指定。
 
-16. 在 [主體別名 (SANs) ] 頁面上的 [SIP 網域設定] 上，選取 [網域] 核取方塊以新增 SIP。 \<將 \> 專案 microsoft.rtc.management.xds.sipdomain 至主體替代名稱清單。
+16. 在 [主體別名 (SANs) ] 頁面上的 [SIP 網域設定] 上，選取 [網域] 核取方塊以新增 SIP。\<sipdomain\> 專案的主體替代名稱清單。
 
 17. 在 [設定其他主體替代名稱] 頁面上，指定其他任何需要的主體替代名稱。
     
@@ -119,7 +121,7 @@ _**主題上次修改日期：** 2012-12-03_
         Start-CsWindowsService
        ```
 
-23. 若要設定 DNS 以進行 XMPP 同盟，您可以將下列 SRV 記錄新增至外部 DNS： \_ XMPP-server。 \_tcp。 \<功能變數名稱 \> SRV 記錄會解析為 edge server 的 access EDGE FQDN，埠值為5269。 此外，您還可以設定「A ' 主機記錄 (例如，xmpp.contoso.com) ，指向 Access Edge Server 的 IP 位址。
+23. 若要設定 DNS 以進行 XMPP 同盟，您可以將下列 SRV 記錄新增至外部 DNS： \_ XMPP-server。 \_Tcp。\<domain name\> SRV 記錄會解析為 Edge server 的 access edge FQDN，埠值為5269。 此外，您還可以設定「A ' 主機記錄 (例如，xmpp.contoso.com) ，指向 Access Edge Server 的 IP 位址。
     
     <div class=" ">
     
@@ -190,13 +192,13 @@ _**主題上次修改日期：** 2012-12-03_
 
 7.  以 Domain Admins 群組與 RTCUniversalServerAdmins 群組成員的身分，登入安裝了拓撲產生器的電腦。
 
-8.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
+8.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
 
 9.  在 [拓撲產生器] 中，選取 XMPP 同盟路由的網站，並查看以確認**XMPP 同盟**的「**網站同盟路由指派**」會顯示您的 Edge Server 或 edge 集區作為選取的 XMPP 同盟路由指派。
     
     如果路由指派不正確或未設定，請以滑鼠右鍵按一下網站，然後按一下 **[編輯內容]**。 選取 [XMPP 同盟] 核取方塊，然後選取正確的 Edge Server 或 Edge 集區。
 
-10. 發行拓撲。 如需詳細資訊，請參閱[在 Lync Server 2013 中發行您的拓撲](lync-server-2013-publish-your-topology.md)
+10. 發行拓撲。 如需詳細資訊，請參閱 [在 Lync Server 2013 中發行您的拓撲](lync-server-2013-publish-your-topology.md)
     
     <div class=" ">
     

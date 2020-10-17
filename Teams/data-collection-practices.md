@@ -1,5 +1,5 @@
 ---
-title: 資料收集方式
+title: 資料收集做法
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,100 +22,100 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: 瞭解 Microsoft 如何收集人口普查、使用方式及錯誤資料，以瞭解團隊及商務用 Skype 使用方式及問題，以便規劃產品改良。
+description: 瞭解 Microsoft 如何收集人口普查、使用量和錯誤資料，以瞭解 Teams 和商務用 Skype 的使用情況和問題，以便計畫產品改進。
 ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
 ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/14/2020
 ms.locfileid: "47651224"
 ---
-# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>商務用 Skype 和 Microsoft 團隊資料收集做法
+# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>商務用 Skype 和 Microsoft Teams 資料收集做法
 
-商務用 skype Server 及商務用 skype Online，以及商務用 Skype 和 Microsoft 團隊 app，收集資料以協助 Microsoft 瞭解這些產品的使用方式，以及發生的錯誤類型（例如登入錯誤）。 此資訊可協助我們瞭解使用模式、規劃新功能，以及疑難排解及修正問題區域。
+商務用 Skype Server 和商務用 Skype Online 以及商務用 Skype 和 Microsoft Teams 應用程式收集資料，説明 Microsoft 瞭解這些產品的使用方式以及發生了哪些類型的錯誤，例如登入錯誤。 此資訊可協助我們瞭解使用模式、計畫新功能，以及疑難排解和解決問題區域。
 
-當您自動收集一些使用資料時，只有當系統管理員和/或使用者選擇允許時，才能收集其他資料。 資料收集分為下列三種類別：
+雖然某些使用量資料是自動收集的，但其他資料只能在管理員和/或使用者選擇允許時收集。 資料收集分為以下三類：
 
 - 人口普查資料
 
 - 使用量資料
 
-- 錯誤報表資料
+- 錯誤報告資料
 
 ## <a name="census-data"></a>人口普查資料
 
-人口普查資料是專為提供、支援及改善商務用 Skype 而取得的。 Microsoft 團隊及商務用 Skype Online。 它包含諸如裝置與作業系統版本等環境資訊，以及地區和語言設定。 它也包含登入嘗試與失敗的計數器。 以下是收集的統計資料的一些特定範例：
+獲取人口普查資料完全是為了提供、支援和改進商務用 Skype。 Microsoft Teams 和商務用 Skype Online。 它包括環境資訊，如裝置和作業系統版本，以及區域和語言設置。 它還包括用於登入嘗試和失敗的計數器。 以下是收集的人口普查資料的一些具體示例：
 
-|**資料類型**|**範例**|**筆記**|
+|**資料類型**|**示例**|**注釋**|
 |:-----|:-----|:-----|
 |AppName  <br/> |iPhoneSkype  <br/> ||
 |DeviceModel  <br/> |iPhone  <br/> ||
 |OSName  <br/> |iPhoneiOS  <br/> ||
 |OSVersion  <br/> |8.3  <br/> ||
 |UserLanguage  <br/> |EN-US  <br/> ||
-|UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |此識別碼的雜湊是兩次：一次在用戶端，然後再次在遙測服務。 雜湊確保 ID 無法連結至特定使用者。  <br/> |
-|DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |裝置識別碼是一個 GUID，在裝置上隨機產生一次並傳送到遙測服務。  <br/> |
+|UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |這個識別碼被散列兩次：一次在用戶端上，一次在遙測服務上。 散列可確保識別碼無法連結到特定使用者。  <br/> |
+|DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |裝置識別碼是在裝置上隨機生成一次並發送到遙測服務的 GUID。  <br/> |
 
-人口普查資料不包含任何可識別貴組織或使用者的資訊。 如需詳細資訊，請參閱 [商務用 Skype 隱私權聲明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) 。
+人口普查資料不包含任何標識你的組織或使用者的資訊。 有關詳細資訊，請參閱 [商務用 Skype 隱私權聲明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)。
 
-人口統計資料預設為開啟，且無法由系統管理員或使用者關閉。
+人口普查資料在預設情況下處於開啟狀態，管理員或最終使用者無法將其關閉。
 
 ## <a name="usage-data"></a>使用量資料
 
-使用方式資料包括諸如撥打數、送出或接收的 Im 數、已加入的會議數量、所使用的功能及穩定性問題等資訊。
+使用量資料包括諸如呼叫次數、傳送或接收的 IM 數量、加入的會議數量、使用的功能的頻率以及穩定性問題等資訊。
 
-使用狀況資料可能包含識別貴組織的資訊，例如 contoso.com。 以下是收集的用法資料的一些特定範例：
+使用量資料中可能包含標識你的組織的資訊，如 contoso.com。 以下是收集的使用量資料的一些具體示例：
 
-|**資料類型**|**範例**|**筆記**|
+|**資料類型**|**示例**|**注釋**|
 |:-----|:-----|:-----|
-|傳送的 IM  <br/> |之間  <br/> ||
-|已接收 IM  <br/> |500  <br/> ||
-|加入會議 (嘗試)   <br/> |500  <br/> ||
-|加入會議 (成功)   <br/> |4  <br/> ||
-|通話/會議紀要  <br/> |30分鐘  <br/> ||
-|FederationPartner  <br/> |Microsoft.com  <br/> |這是在 Office 365 中註冊並以明文傳送的組織名稱，這表示它不會被混淆。  <br/> |
+|發送的即時訊息  <br/> |12  <br/> ||
+|已接收即時訊息  <br/> |5  <br/> ||
+|加入會議 (嘗試)  <br/> |5  <br/> ||
+|加入會議 (成功)  <br/> |4  <br/> ||
+|通話/會議紀要  <br/> |30 分鐘  <br/> ||
+|FederationPartner  <br/> |Microsoft.com  <br/> |這是在 Office 365 中註冊的組織的名稱，以明文形式傳輸，這意味著它沒有被模糊處理。  <br/> |
 
-使用量資料不包含任何可識別使用者的資訊。
+使用量資料不包含任何標識使用者的資訊。
 
-使用方式資料收集預設為開啟，但內部部署系統管理員可以使用商務用 Skype Server 上的 [DisableAutomaticSendTracing] 群組原則設定將它關閉。 關閉此設定會影響組織中的所有使用者。 如需詳細資訊，請參閱 [設定用戶端引導原則](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) 。
+預設情況下，使用量資料收集處於開啟狀態，但本地管理員可以使用商務用 Skype Server 上的 DisableAutomaticSendTracing 群組原則設定將其關閉。 關閉此設定將影響組織中的所有使用者。 有關詳細資訊，請參閱[設定用戶端載入原則](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
 
-最終使用者無法開啟或關閉使用資料收集。
+最終使用者無法啟用或停用使用量資料收集。
 
-針對 Skype 會議應用程式和加入啟動器網頁，控制遙測的方式是透過此原則進行：
+對於 Skype 會議應用程式和 Join Launcher 網頁，控制遙測的方法是通過以下原則：
 
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True`
 
-此原則預設為 false，因此預設會關閉遙測收集。 此設定為 [每個池]，並控制所有與 Skype 會議應用程式連線的使用者，以及在該伺服器上主持的會議。
+此原則預設為 false，因此預設情況下遙測收集處於關閉狀態。 此設定為每個池，並控制將 Skype 會議應用程式連線至該伺服器上主持的會議的所有使用者。
 
-## <a name="error-reporting-data"></a>錯誤報表資料
+## <a name="error-reporting-data"></a>錯誤報告資料
 
-錯誤報表資料可包含有關效能、可靠性、裝置設定、網路連線品質、錯誤代碼、錯誤記錄和例外狀況的資訊。 以下是收集的錯誤報表資料的一些特定範例：
+錯誤報告資料可包含有關性能和可靠性、裝置設定、網路連線品質、錯誤碼、錯誤記錄和例外的資訊。 以下是收集的錯誤報告資料的一些具體示例：
 
-|**資料類型**|**範例**|**筆記**|
+|**資料類型**|**示例**|**注釋**|
 |:-----|:-----|:-----|
-|訊息方向  <br/> |入帳  <br/> ||
-|交談狀態  <br/> |超過  <br/> ||
-|交談執行緒識別碼  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA = =  <br/> ||
-|UserID  <br/> |amosmarble <br/> |識別碼是以明文傳送，在儲存前，遙測服務的雜湊值  <br/> |
+|訊息方向  <br/> |傳入  <br/> ||
+|交談狀態  <br/> |空閒  <br/> ||
+|交談執行緒識別碼  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA==  <br/> ||
+|UserID  <br/> |amosmarble <br/> |識別碼以明文形式傳送，遙測服務在儲存它之前對其進行雜湊處理  <br/> |
 
-錯誤報表資料也可能包含個人身分識別資訊，例如使用者的 IP 位址及會話初始通訊協定統一資源識別項 (SIP URI) 。 如需收集項目的詳細說明，請參閱 [商務用 Skype 隱私權聲明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) 。
+錯誤報告資料還可能包含個人身份資訊，例如使用者的 IP 位址和工作階段初始通訊協定統一資源識別項 (SIP URI)。 有關所收集內容的詳細說明，請參閱 [商務用 Skype 隱私權聲明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)。
 
-錯誤報表需要兩個專案：
+錯誤報告需要兩個事項：
 
-- [DisableAutomaticSendTracing] 群組原則設定在伺服器或 [租使用者系統管理中心] 中設定為 False (這是預設狀態) 。 如需詳細資訊，請參閱 [設定用戶端引導原則](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) 。
+- 在伺服器或租用戶系統管理中心中，DisableAutomaticSendTracing 群組原則設定設定為 False (這是預設狀態)。 有關詳細資訊，請參閱[設定用戶端載入原則](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
     
-- 使用者在 [一般] 索引標籤中個別加入宣告， (按一下齒輪圖示 ![ 代表齒輪的圖示， ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 然後 [ **選項** ] 對話方塊隨即開啟，並在商務用 Skype 用戶端中) 顯示 [ **一般** ] 索引標籤。
+- 最終使用者從 Skype for Business 用戶端的 [一般] 索引標籤 (按一下齒輪圖示![代表齒輪的圖示](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)，然後 **[選項]** 對話方塊開啟並顯示 **[一般]** 索引標簽) 單獨選擇加入。
     
  
-![[選項] 對話方塊中 [資料收集] 核取方塊的螢幕擷取畫面](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![[選項] 對話方塊中 [資料收集] 核取方塊的螢幕截圖](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
-若是 Skype 會議應用程式，MeetingUxEnableTelemetry 也會控制錯誤報表，但在 Windows 上，Watson 設定會控制上傳損毀資訊。 您可以在 [桌面用戶端] 對話方塊中看到 Skype 會議應用程式的使用者設定。
+對於 Skype 會議應用，MeetingUxEnableTelemetry 還控制錯誤報告，不過對於 Windows 上當機，Watson 設定控制上傳當機資訊。 Skype 會議應用程式沒有您在 [桌面用戶端] 對話方塊中看到的使用者設定。
 
-如需詳細資訊，請參閱 [設定商務用 Skype 中的一般選項](https://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439) 。
+有關詳細資訊，請參閱 [在商務用 Skype 中設定一般選項](https://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439)。
 
-您可以參閱為 [商務用 Skype Online 設定您的網路](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) ，以設定您的網路。
+您可以參閱[為商務用 Skype Online 設定網路](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)以設定網路。
 
-如果您使用的是中國由世紀運營的 Microsoft 365 或 Office 365，請參閱 [針對由世紀運營的商務用 Skype Online 設定您的網路](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
+如果您在中國使用由世紀互聯運營的 Microsoft 365 或 Office 365，請參閱[為世紀互聯運營的商務用 Skype Online 設定網路](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
 
 ## <a name="related-topics"></a>相關主題
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

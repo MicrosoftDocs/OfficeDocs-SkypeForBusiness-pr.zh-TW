@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理位置原則
+title: Lync Server 2013：管理位置原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b085d6ff1eae07db79282aad40f1cc78fb224371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db329cee8f58de1b058c8ef2f6ec1d1c9e064c86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218099"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498190"
 ---
+# <a name="managing-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中管理位置原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-location-policy-in-lync-server-2013"></a>管理 Lync Server 2013 中的位置原則
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42218099"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 10 月 15_
+_**主題上次修改日期：** 2012-10-15_
 
-使用本節中的程序，從 Lync Server 控制台的 [**網路設定**] 群組管理 Lync Server 2013 位置原則。
+使用本節中的程式來管理 Lync Server [控制台] 中 [ **網路** 設定] 群組的 [Lync server 2013 位置原則]。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中檢視位置原則資訊](lync-server-2013-viewing-location-policy-information.md)
+  - [在 Lync Server 2013 中查看位置原則資訊](lync-server-2013-viewing-location-policy-information.md)
 
-  - [建立或修改 Lync Server 2013 中的位置原則](lync-server-2013-creating-or-modifying-a-location-policy.md)
+  - [在 Lync Server 2013 中建立或修改位置原則](lync-server-2013-creating-or-modifying-a-location-policy.md)
 
-  - [刪除 Lync Server 2013 中的位置原則](lync-server-2013-deleting-a-location-policy.md)
+  - [在 Lync Server 2013 中刪除位置原則](lync-server-2013-deleting-a-location-policy.md)
 
 </div>
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2012 年 10 月 15_
 
 ## <a name="related-sections"></a>相關各節
 
-[規劃 Lync Server 2013 中的緊急服務 (E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+[在 Lync Server 2013 中規劃緊急服務 (E9-1-1) ](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
 </div>
 

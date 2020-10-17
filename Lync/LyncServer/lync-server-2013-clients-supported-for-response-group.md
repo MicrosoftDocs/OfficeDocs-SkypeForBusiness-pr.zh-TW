@@ -12,20 +12,22 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a52254b4367f0a51b8061e71b841ae19c6598589
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e7e9d1a5aca2949f6cf3364873712a7272063a2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499180"
 ---
+# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中支援回應群組的用戶端
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中支援回應群組的用戶端
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2014-03-28_
 
 </div>
 
-如需新功能的詳細資訊，請參閱入門檔中的[新回應群組應用程式功能（Lync Server 2013](lync-server-2013-new-response-group-application-features.md) ）。
+如需新功能的詳細資訊，請參閱入門檔中的 [新回應群組應用程式功能（Lync Server 2013](lync-server-2013-new-response-group-application-features.md) ）。
 
 您可以使用的特定用戶端取決於您所使用的回應群組使用者類型：
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c57a737a272d8cdfd628dce394ecaffdb0c7e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6e60786d8e46549a3f1e8fed70a96d4d28d2c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499070"
 ---
+# <a name="deployment-process-overview-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中 Enterprise Voice 的部署程式概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-overview-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中 Enterprise Voice 的部署程式概述
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**主題上次修改日期：** 2012-09-22_
 
   - [Lync Server 2013 中的 E9-1-1 的部署檢查清單](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
-如需部署私人電話線的概述，請參閱[規劃私人電話線搭配 Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)的「混合部署中的私人電話線」一節。
+如需部署私人電話線的概述，請參閱 [規劃私人電話線搭配 Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)的「混合部署中的私人電話線」一節。
 
 如需 (通話駐留、宣告應用程式及回應群組) 部署通話處理功能的概覽，請參閱下列各項：
 

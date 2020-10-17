@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理 pin 碼原則
+title: Lync Server 2013：管理 PIN 碼原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fcb1fbb3ad7558fd4c88a3ae5280688af69b71d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 092ac9c50c70167331679055f4325ae867f04425
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497920"
 ---
+# <a name="managing-pin-policies-in-lync-server-2013"></a>在 Lync Server 2013 中管理 PIN 碼原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-pin-policies-in-lync-server-2013"></a>管理 Lync Server 2013 中的 pin 碼原則
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42185578"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-您可以管理 Lync Server 2013 的 pin 碼原則從 Lync Server 2013 控制台] 或 [Lync Server 管理命令介面。 使用下列程序來設定您組織的 pin 碼原則。
+您可以從 Lync server 2013 控制台或 Lync Server 管理命令介面管理 Lync Server 2013 PIN 碼原則。 使用下列程式可為您的組織設定 PIN 碼原則。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中檢視 PIN 原則資訊](lync-server-2013-view-pin-policy-inforrmation.md)
+  - [在 Lync Server 2013 中查看 PIN 原則資訊](lync-server-2013-view-pin-policy-inforrmation.md)
 
-  - [在 Lync Server 2013 中建立新的 pin 碼原則](lync-server-2013-create-a-new-pin-policy.md)
+  - [在 Lync Server 2013 中建立新的 PIN 原則](lync-server-2013-create-a-new-pin-policy.md)
 
-  - [修改現有 Lync Server 2013 中的 pin 碼原則](lync-server-2013-modify-an-existing-pin-policy.md)
+  - [在 Lync Server 2013 中修改現有的 PIN 原則](lync-server-2013-modify-an-existing-pin-policy.md)
 
-  - [刪除 Lync Server 2013 中的 pin 碼原則](lync-server-2013-delete-a-pin-policy.md)
+  - [在 Lync Server 2013 中刪除 PIN 原則](lync-server-2013-delete-a-pin-policy.md)
 
-  - [指派 Lync Server 2013 中的每位使用者的 pin 碼原則](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [在 Lync Server 2013 中指派每個使用者的 PIN 原則](lync-server-2013-assign-a-per-user-pin-policy.md)
 
 </div>
 
@@ -60,7 +62,7 @@ _**主題上次修改日期：** 2012年-11-01_
 ## <a name="see-also"></a>另請參閱
 
 
-[管理 Lync Server 2013 中的使用者 Pin](lync-server-2013-managing-user-pins.md)  
+[在 Lync Server 2013 中管理使用者 Pin](lync-server-2013-managing-user-pins.md)  
   
 
 </div>

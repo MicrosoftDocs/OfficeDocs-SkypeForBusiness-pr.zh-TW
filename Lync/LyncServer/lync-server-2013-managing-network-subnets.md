@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理網路子網路
+title: Lync Server 2013：管理網路子網
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1118bc127bce6fbca22eb4db47fbd38d8ff195f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0bcb6c52a538ddd879114e7d9f9351958221700
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185579"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497990"
 ---
+# <a name="managing-network-subnets-in-lync-server-2013"></a>在 Lync Server 2013 中管理網路子網
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-network-subnets-in-lync-server-2013"></a>管理 Lync Server 2013 中的子網路
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42185579"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 10 月 15_
+_**主題上次修改日期：** 2012-10-15_
 
-您可以使用 [Lync Server 2013 Control Panel] 或 [Lync Server 2013 管理命令介面來管理網路子網路。 在中大部分 Lync Server 2013 部署的何處實作通話許可控制 (CAC)，通常會有大量的子網路。 因此，最好是通常設定從 Lync Server 管理命令介面的子網路。
+您可以使用 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面來管理網路子網。 在大多數安裝通話許可控制 (CAC) 中的 Lync Server 2013 的部署中，通常會有大量子網。 因此，通常最好是從 Lync Server 管理命令介面來設定子網。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中檢視網路子網路資訊](lync-server-2013-viewing-network-subnet-information.md)
+  - [在 Lync Server 2013 中查看網路子網資訊](lync-server-2013-viewing-network-subnet-information.md)
 
-  - [建立或修改 Lync Server 2013 中的子網路](lync-server-2013-create-or-modify-network-subnets.md)
+  - [在 Lync Server 2013 中建立或修改網路子網](lync-server-2013-create-or-modify-network-subnets.md)
 
-  - [Lync Server 2013 中刪除網路子網路](lync-server-2013-deleting-network-subnets.md)
+  - [在 Lync Server 2013 中刪除網路子網](lync-server-2013-deleting-network-subnets.md)
 
 </div>
 
@@ -56,7 +58,7 @@ _**主題上次修改日期：** 2012 年 10 月 15_
 ## <a name="see-also"></a>另請參閱
 
 
-[關聯子網路與 Lync Server 2013 中的網路網站](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[在 Lync Server 2013 中建立子網與網路網站的關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>

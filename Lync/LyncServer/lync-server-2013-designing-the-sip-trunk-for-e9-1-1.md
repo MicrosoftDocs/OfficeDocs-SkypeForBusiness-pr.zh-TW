@@ -12,20 +12,22 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c4191ed20497b4136b4e836da112054bef5a446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35efd8571a30b3d0dd067cbfc27f292985b6ee14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204376"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498950"
 ---
+# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中設計 E9-1-1 的 SIP 主幹
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中設計 E9-1-1 的 SIP 主幹
+
 
 </div>
 
@@ -54,7 +56,7 @@ Lync Server 使用 SIP 主幹將緊急通話連接至 E9-1-1 服務提供者。 
 
 </div>
 
-如需在 Lync Server 中部署 SIP 主幹的詳細資訊，請參閱[如何在 Lync server 2013？中執行 sip 中繼](lync-server-2013-how-do-i-implement-sip-trunking.md)。 為了協助決定如何部署 E9-1-1 的 SIP 主幹，您應該先回答下列問題。
+如需在 Lync Server 中部署 SIP 主幹的詳細資訊，請參閱 [如何在 Lync server 2013？中執行 sip 中繼](lync-server-2013-how-do-i-implement-sip-trunking.md)。 為了協助決定如何部署 E9-1-1 的 SIP 主幹，您應該先回答下列問題。
 
   - **您應該在專用的租用網際網路連線上還是共用的網際網路連線上部署 SIP 主幹？**  
     重點是一定要能夠接通緊急通話。專用線路可提供不被網路上其他流量佔用的連線，並讓您能夠實作服務品質 (QoS)。請記住，如果您透過公用網際網路連線至緊急服務服務提供者，而且需要保證緊急電話的機密性，則需要 IPSec 加密。
@@ -67,7 +69,7 @@ Lync Server 使用 SIP 主幹將緊急通話連接至 E9-1-1 服務提供者。 
 <!-- end list -->
 
   - **您是否應該為每個分公司部署個別的 SIP 主幹？**  
-    Lync Server 提供數個策略，可處理分支辦公室中的語音恢復作業，包括：具有可恢復的資料網路、在每個分支部署 SIP 主幹，或在中斷期間將呼叫推出至本機閘道。 如需詳細資訊，請參閱[Lync Server 2013 中的分支網站 SIP trunk](lync-server-2013-branch-site-sip-trunking.md)。
+    Lync Server 提供數個策略，可處理分支辦公室中的語音恢復作業，包括：具有可恢復的資料網路、在每個分支部署 SIP 主幹，或在中斷期間將呼叫推出至本機閘道。 如需詳細資訊，請參閱 [Lync Server 2013 中的分支網站 SIP trunk](lync-server-2013-branch-site-sip-trunking.md)。
 
 <!-- end list -->
 

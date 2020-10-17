@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 網際網路資訊服務 (IIS) 需求
+title: Lync Server 2013： Internet Information Services (IIS) 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c953c3f60737ca6bd43e09cc22a4443f3c8410c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b0c1c9966945554af6d1d9cec02a17dd884a857
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214579"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498480"
 ---
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Lync Server 2013 中的網際網路資訊服務 (IIS) 需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>在 [Lync Server 2013 的網際網路資訊服務 (IIS) 需求
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42214579"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-19_
+_**主題上次修改日期：** 2012-06-19_
 
-數個 Lync Server 2013 元件需要網際網路資訊服務 (IIS)。 本主題說明支援 Lync Server 所需的特定 IIS 功能。 本節中的主題則說明 IIS 特定元件的需求。
+有些 Lync Server 2013 元件需要 Internet Information Services (IIS) 。 本主題說明支援 Lync Server 所需的特定 IIS 功能。 本節中的主題則說明 IIS 特定元件的需求。
 
 當 Windows Server 2008 上啟用 Web 伺服器 (IIS) 角色時，預設會安裝各種角色服務。下表說明當 Windows Server 2008 上啟用 Web 伺服器 (IIS) 角色時，必須安裝的其他角色服務。
 
@@ -80,7 +82,7 @@ _**主題上次修改日期：** 2012年-06-19_
 </tr>
 <tr class="odd">
 <td><p>健康情況及診斷</p></td>
-<td><p>追蹤</p></td>
+<td><p>跟蹤</p></td>
 </tr>
 <tr class="even">
 <td><p>安全性</p></td>
@@ -107,12 +109,12 @@ _**主題上次修改日期：** 2012年-06-19_
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="安全性" alt="security" />安全性附註：</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="安全" alt="security" />安全性附注：</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>如果您在 Windows Server 2008 作業系統上使用 IIS 7.0，Lync Server 安裝程式會停用 IIS 中的核心模式驗證。</td>
+<td>如果您在 Windows Server 2008 作業系統上使用 IIS 7.0，Lync Server 安裝程式會在 IIS 中停用核心模式驗證。</td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +126,7 @@ _**主題上次修改日期：** 2012年-06-19_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [前端集區和 Standard Edition server 在 Lync Server 2013 中的 IIS 需求](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+  - [Lync Server 2013 中前端集區與 Standard Edition server 的 IIS 需求](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 授與安裝程式權限
+title: Lync Server 2013：授與設定許可權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647590131702addb8363b42aaa7d49e299b63a47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f557fdda658650fd2cb3dd5a4a080600be023ef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187661"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498860"
 ---
+# <a name="granting-setup-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中授與設定許可權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-setup-permissions-in-lync-server-2013"></a>授與 Lync Server 2013 中的設定權限
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42187661"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 08 月 27 日_
+_**主題上次修改日期：** 2012-08-27_
 
-您可使用 **Grant-CsSetupPermission** Cmdlet，新增 Read、Write、ReadSPN 和 WriteSPN 權限給特定 Active Directory 組織單位 (OU) 的 RTCUniversalServerAdmins 群組。 然後 OU 可以安裝在指定的網域中執行 Lync Server 2013，不需要以 Domain Admins 群組的成員伺服器中使用 RTCUniversalServerAdmins 群組的成員。
+您可使用 **Grant-CsSetupPermission** Cmdlet，新增 Read、Write、ReadSPN 和 WriteSPN 權限給特定 Active Directory 組織單位 (OU) 的 RTCUniversalServerAdmins 群組。 然後，該 OU 中 RTCUniversalServerAdmins 群組的成員可以在不是 Domain Admins 群組成員的情況下，在指定的網域中安裝執行 Lync Server 2013 的伺服器。
 
 使用 **Test-CsSetupPermission** Cmdlet，可以驗證您以 **Grant-CsSetupPermission** Cmdlet 設定的權限。
 
@@ -47,11 +49,11 @@ _**主題上次修改日期：** 2012 年 08 月 27 日_
 
 ## <a name="to-grant-setup-permissions"></a>授與安裝程式權限
 
-1.  登入您要設定權限授與網域中執行 Lync Server 2013 的電腦。 如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。
+1.  在您想要授與安裝程式許可權的網域中登入執行 Lync Server 2013 的電腦。 如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-3.  執行：
+3.  運行：
     
         Grant-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     
@@ -65,11 +67,11 @@ _**主題上次修改日期：** 2012 年 08 月 27 日_
 
 ## <a name="to-verify-setup-permissions"></a>確認安裝程式權限
 
-1.  登入您要驗證您使用**Grant-cssetuppermission** cmdlet 授與的安裝程式權限的網域中執行 Lync Server 2013 的電腦。 如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。
+1.  在您要驗證使用 **Grant-CsSetupPermission** Cmdlet 所授與之安裝程式許可權的網域中，登入執行 Lync Server 2013 的電腦。 如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-3.  執行：
+3.  運行：
     
         Test-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside> [-Domain <Domain FQDN>]
     
@@ -83,11 +85,11 @@ _**主題上次修改日期：** 2012 年 08 月 27 日_
 
 ## <a name="to-revoke-setup-permissions"></a>撤銷安裝程式權限
 
-1.  登入您要撤銷已授與**Grant-cssetuppermission** cmdlet 的安裝程式權限的網域中執行 Lync Server 2013 的電腦。 如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。
+1.  在您要撤銷 **Grant-CsSetupPermission** Cmdlet 所授與之安裝程式許可權的網域中，登入執行 Lync Server 2013 的電腦。 如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-3.  執行：
+3.  運行：
     
         Revoke-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     

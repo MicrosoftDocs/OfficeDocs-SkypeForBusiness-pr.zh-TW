@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 授與權限
+title: Lync Server 2013：授與許可權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20679f910ead1f1b7cab45fde658b38233c644f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e69cb3c8638cb11ababac73d0f8fe4025bbda24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202189"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498880"
 ---
+# <a name="granting-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中授與許可權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-permissions-in-lync-server-2013"></a>授與 Lync Server 2013 中的權限
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42202189"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 10 月 15_
+_**主題上次修改日期：** 2012-10-15_
 
-安裝程式，您可以授與權限的 RTCUniversalServerAdmins 萬用群組特定 Active Directory 組織單位 (OU)，讓該 OU 中指定的網域安裝 Lync Server 2013 中的 RTCUniversalServerAdmins 群組的成員。 當您授與 OU 權限時，會授與下列權限：
+針對安裝程式，您可以將許可權授與特定 Active Directory 組織單位 (OU) 的 RTCUniversalServerAdmins 通用群組，啟用該 OU 中 RTCUniversalServerAdmins 群組的成員，以在指定的網域中安裝 Lync Server 2013。 當您授與 OU 的許可權時，會授與下列許可權：
 
   - 讀取
 
@@ -47,15 +49,15 @@ _**主題上次修改日期：** 2012 年 10 月 15_
 
   - WriteSPN
 
-管理，您可以指定 ou 新增權限，使樹系準備所建立的 RTC 萬用群組的成員能夠存取 Ou，而不需要成為 Domain Admins 群組的成員。 新增至所指定 OU 權限是相同的權限**Enable-csaddomain** cmdlet 新增至電腦和使用者的 OU 容器。
+為了進行管理，您可以將許可權新增至指定的 Ou，使樹系準備建立的 RTC 通用群組成員可以存取 Ou，而不需要是 Domain Admins 群組的成員。 新增至指定 OU 的許可權，與 **Enable-CsAdDomain** Cmdlet 新增至電腦和使用者 OU 容器的許可權相同。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [授與 Lync Server 2013 中的設定權限](lync-server-2013-granting-setup-permissions.md)
+  - [在 Lync Server 2013 中授與設定許可權](lync-server-2013-granting-setup-permissions.md)
 
-  - [授與 Lync Server 2013 中的組織單位權限](lync-server-2013-granting-organizational-unit-permissions.md)
+  - [在 Lync Server 2013 中授與組織單位許可權](lync-server-2013-granting-organizational-unit-permissions.md)
 
 </div>
 

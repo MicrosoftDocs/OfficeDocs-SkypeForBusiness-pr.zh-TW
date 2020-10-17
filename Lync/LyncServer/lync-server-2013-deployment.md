@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 部署
+title: Lync Server 2013：部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e870fb22bc8d3e183192d7ec8e94a554878fb04
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5fcba91b3017faff29ad8d1bcce20d51a32bd1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198176"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498980"
 ---
+# <a name="deployment-of-lync-server-2013"></a>Lync Server 2013 的部署
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-of-lync-server-2013"></a>部署 Lync Server 2013
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42198176"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-18_
+_**主題上次修改日期：** 2012-10-18_
 
-部署 Lync Server 2013 通訊軟體包括準備 Active Directory 網域服務、 部署前端伺服器和其他核心 Lync Server 2013 的內部元件，並再部署任何其他伺服器角色和功能所您的組織可能需要，例如外部使用者存取和 Enterprise Voice。
+部署 Lync Server 2013 通訊套裝軟體括準備 Active Directory 網域服務、部署前端伺服器及其他核心 Lync Server 2013 內部元件，然後部署組織可能需要的任何其他伺服器角色和功能（例如外部使用者存取和 Enterprise Voice）。
 
-本文件說明三種部署 Lync Server 2013 案例：
+這份檔說明部署 Lync Server 2013 的三個案例：
 
-  - Lync Server 2013，企業版的新部署
+  - Lync Server 2013，Enterprise Edition 的新部署
 
-  - Lync Server 2013，標準版的新部署
+  - Lync Server 2013 Standard Edition 的新部署
 
-  - 新部署的 Lync Server 2013 Standard Edition 或 Enterprise Edition 到現有的 Lync Server 2010 Standard Edition 或 Enterprise Edition 部署
+  - 在現有的 Lync Server 2010 Standard Edition 或 Enterprise Edition 部署中，將 Lync Server 2013 Standard Edition 或 Enterprise Edition 的新部署
 
-如需部署在現有的 Microsoft Office Communications Server 2007 或 Microsoft Office Communications Server 2007 R2 環境中的 Lync Server 2013 的資訊，請參閱[移轉](migration.md)文件。
+如需在現有 Microsoft Office 通訊伺服器2007或 Microsoft Office 通訊伺服器 2007 R2 環境中部署 Lync Server 2013 的詳細資訊，請參閱 [遷移](migration.md) 檔。
 
 <div>
 
@@ -55,35 +57,35 @@ _**主題上次修改日期：** 2012年-10-18_
 
   - [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
-  - [部署 Lync Server 2013 中的外部使用者存取](lync-server-2013-deploying-external-user-access.md)
+  - [在 Lync Server 2013 中部署外部使用者存取](lync-server-2013-deploying-external-user-access.md)
 
-  - [部署 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-deploying-enterprise-voice.md)
+  - [在 Lync Server 2013 中部署企業語音](lync-server-2013-deploying-enterprise-voice.md)
 
-  - [部署 Lync Server 2013 中監視](lync-server-2013-deploying-monitoring.md)
+  - [在 Lync Server 2013 中部署監控](lync-server-2013-deploying-monitoring.md)
 
-  - [部署 Lync Server 2013 中的封存](lync-server-2013-deploying-archiving.md)
+  - [在 Lync Server 2013 中部署封存](lync-server-2013-deploying-archiving.md)
 
   - [在 Lync Server 2013 中設定電話撥入式會議](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [規劃及部署 Lync Server 2013 中的影片](lync-server-2013-planning-and-deploying-video.md)
+  - [在 Lync Server 2013 中規劃及部署影片](lync-server-2013-planning-and-deploying-video.md)
 
-  - [部署 Lync Server 2013 中的分支網站](lync-server-2013-deploying-branch-sites.md)
+  - [在 Lync Server 2013 中部署分支網站](lync-server-2013-deploying-branch-sites.md)
 
-  - [部署 Lync Server 2013 中的常設聊天室伺服器](lync-server-2013-deploying-persistent-chat-server.md)
+  - [在 Lync Server 2013 中部署 Persistent Chat Server](lync-server-2013-deploying-persistent-chat-server.md)
 
-  - [部署用戶端和 Lync Server 2013 中的裝置](lync-server-2013-deploying-clients-and-devices.md)
+  - [在 Lync Server 2013 中部署用戶端和裝置](lync-server-2013-deploying-clients-and-devices.md)
 
-  - [規劃及部署整合的連絡人儲存在 Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)
+  - [在 Lync Server 2013 中規劃及部署整合連絡人存放區](lync-server-2013-planning-and-deploying-unified-contact-store.md)
 
-  - [管理伺服器對伺服器驗證 (OAuth) 與 Lync Server 2013 中的協力廠商應用程式](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+  - [在 Lync Server 2013 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
-  - [從 Lync Server 2013 的評估版本更新](lync-server-2013-updating-from-the-evaluation-version.md)
+  - [從 Lync Server 2013 評估版更新](lync-server-2013-updating-from-the-evaluation-version.md)
 
-  - [部署 Lync Server 2013 中的遠端呼叫控制](lync-server-2013-deploying-remote-call-control.md)
+  - [在 Lync Server 2013 中部署遠端呼叫控制](lync-server-2013-deploying-remote-call-control.md)
 
-  - [部署 Lync Server 2013 中的行動性](lync-server-2013-deploying-mobility.md)
+  - [在 Lync Server 2013 中部署行動性](lync-server-2013-deploying-mobility.md)
 
-  - [設定與 Office Web Apps Server 及 Lync Server 2013 整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [設定 Office Web Apps Server 與 Lync Server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
   - [Lync Server 2013 中的健康情況設定](lync-server-2013-health-configuration-in-lync-server.md)
 

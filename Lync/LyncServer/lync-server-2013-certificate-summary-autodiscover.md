@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 憑證摘要-自動探索
+title: Lync Server 2013：憑證摘要-自動探索
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187476"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499310"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的憑證摘要-自動探索
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>憑證摘要-Lync Server 2013 中的自動探索
+
 
 </div>
 
@@ -35,40 +37,40 @@ ms.locfileid: "42187476"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-14_
+_**主題上次修改日期：** 2013-02-14_
 
-Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，而且當發佈在 DNS 中，可以用於 Lync 用戶端所尋找伺服器和使用者的服務。 如果您從 Lync Server 2010 升級，並沒有不部署行動性，才能用戶端可以使用自動探索，您必須修改任何 Director 與前端伺服器執行自動探索服務的憑證主體替代名稱清單。 此外，可能還需要針對在反向 Proxy 上用於外部 Web 服務發行規則的憑證，修改主體替代名稱清單。
+Lync Server 2013 自動探索服務會在 Director 和前端集區伺服器上執行，當您在 DNS 中發佈時，可供 Lync 用戶端用來尋找伺服器和使用者服務。 若要從 Lync Server 2010 升級，但未部署行動性，用戶端可以使用自動探索之前，必須修改執行自動探索服務之任何 Director 和前端伺服器上的憑證主體替代名稱清單。 此外，可能還需要針對在反向 Proxy 上用於外部 Web 服務發行規則的憑證，修改主體替代名稱清單。
 
-決定是否要在反向 proxy 上使用主體替代名稱清單根據您是否發佈連接埠 80 或連接埠 443 上的自動探索服務：
+在反向 proxy 上是否要使用主體替代名稱清單的決策，取決於您是在埠80上還是在埠443上發行自動探索服務：
 
-  - **在 [連接埠 80 上發佈**   如果自動探索服務的初始查詢發生透過連接埠 80，不需要任何憑證變更。 這是因為執行 Lync 的行動裝置會存取外部連接埠 80 上的反向 proxy，然後橋接至 Director 或前端伺服器上連接埠 8080 內部。 如需詳細資訊，請參閱 「 初始自動探索程序使用連接埠 80 」 一節[的 Technical requirements for Lync Server 2013 中的行動性](lync-server-2013-technical-requirements-for-mobility.md)。
+  - **已在埠 80**     上發行如果自動探索服務的初始查詢發生在埠80上，則不需要憑證變更。 這是因為執行 Lync 的行動裝置會在外部存取埠80上的反向 proxy，然後在內部將其橋接至 Director 或前端8080伺服器。 如需詳細資訊，請參閱 [Lync Server 2013 中](lync-server-2013-technical-requirements-for-mobility.md)的「使用埠80的初始自動探索程式」一節行動的技術需求。
 
-  - **在 [連接埠 443 上發行**   上使用的外部 web 服務發行規則憑證的主體替代名稱清單必須包含*lyncdiscover。\<sipdomain\>* 每個 SIP 網域組織內的項目。
+  - **已在埠 443**     上發行外部 web 服務發行規則所使用之憑證上的主體替代名稱清單必須包含*lyncdiscover。 \<sipdomain\> * 組織內每個 SIP 網域的專案。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 我們強烈建議使用 HTTPS over HTTP。 HTTPS 使用憑證來加密的流量。 HTTP 不提供加密，並傳送任何資料都將純文字。
+    > 強烈建議使用 HTTPS over HTTP。 HTTPS 使用憑證來加密流量。 HTTP 不提供加密，而且傳送的任何資料都會是純文字。
 
     
     </div>
 
-使用內部憑證授權單位作為憑證，通常是簡單的程序。 但對於使用 web 服務發行規則的公用憑證，新增多個主體替代名稱項目可能會變得昂貴。 若要解決此問題，我們可以支援的初始自動探索連線通訊埠 80，然後重新導向至 Director 或前端伺服器上的連接埠 8080。
+使用內部憑證授權單位單位重新發起憑證，通常是一種簡單的處理方式。 不過，對於用於 web 服務發行規則的公用憑證，新增多個主體別名專案會變得很昂貴。 若要解決此問題，我們支援經由埠80的初始自動探索連線，然後重新導向 Director 或前端伺服器上的埠8080。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您的 Lync Server 2013 基礎結構使用從內部憑證授權單位 (CA) 發出的內部憑證，且想要支援行動裝置以無線方式連線，則必須先安裝來自內部 CA 的任一根憑證鏈結在行動裝置或您必須變更為使用公用憑證上您的 Lync Server 2013 基礎結構。
+> 如果您的 Lync Server 2013 基礎結構使用內部憑證授權單位所發行的內部憑證 (CA) ，且您計畫支援以無線方式連線的行動裝置，則必須在行動裝置上安裝內部 CA 的根憑證鏈，或是必須變更為 Lync Server 2013 基礎結構上的公用憑證。
 
 
 
 </div>
 
-本主題說明 Director、 前端伺服器和反向 proxy 所需的新增的主體替代名稱。 僅新增的主體替代名稱 (SAN) 參照。 請參閱規劃的區段在憑證上的其他項目上的指引。 如需詳細資訊，請參閱[Lync Server 2013 中 Director 的案例](lync-server-2013-scenarios-for-the-director.md)、 [Lync Server 2013 中的外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md)和[Lync Server 2013 中的反向 proxy 案例](lync-server-2013-scenarios-for-reverse-proxy.md)。
+本主題說明 Director、前端伺服器及反向 proxy 所需的主體替代名稱。 只會參考 (SAN) 所新增的主體替代名稱。 如需憑證上其他專案的指引，請參閱規劃章節。 如需詳細資訊，請參閱 lync server [2013 中的 Director 案例](lync-server-2013-scenarios-for-the-director.md)、 [lync server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)，以及 [lync server 2013 中的反向 proxy](lync-server-2013-scenarios-for-reverse-proxy.md)案例。
 
-下表定義 Director 集區、 前端集區]，和反向 proxy 的自動探索 SAN 項目：
+下表定義 Director 集區、前端集區和反向 proxy 的自動探索 SAN 專案：
 
 ### <a name="director-pool-certificate-requirements"></a>Director 集區憑證需求
 
@@ -79,18 +81,18 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 </colgroup>
 <thead>
 <tr class="header">
-<th>說明</th>
+<th>描述</th>
 <th>主體替代名稱項目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>內部自動探索服務 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal。&lt;內部網域名稱&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal。 &lt;內部功能變數名稱&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>外部自動探索服務 URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 
 
 > [!NOTE]  
-> 您將與新的 SAN 項目最近更新的憑證指派給預設憑證時。 或者，您可以使用 SAN = *。&lt;sipdomain&gt;。
+> 您可以將新的已更新憑證以新的 SAN 專案指派給預設憑證。 或者，您也可以使用 SAN = *。 &lt;microsoft.rtc.management.xds.sipdomain &gt; 。
 
 
 
@@ -115,18 +117,18 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 </colgroup>
 <thead>
 <tr class="header">
-<th>說明</th>
+<th>描述</th>
 <th>主體替代名稱項目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>內部自動探索服務 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal。&lt;內部網域名稱&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal。 &lt;內部功能變數名稱&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>外部自動探索服務 URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 
 
 > [!NOTE]  
-> 您將與新的 SAN 項目最近更新的憑證指派給預設憑證時。 或者，您可以使用 SAN = *。&lt;sipdomain&gt;
+> 您可以將新的已更新憑證以新的 SAN 專案指派給預設憑證。 或者，您也可以使用 SAN = *。 &lt;microsoft.rtc.management.xds.sipdomain&gt;
 
 
 
@@ -151,14 +153,14 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 </colgroup>
 <thead>
 <tr class="header">
-<th>說明</th>
+<th>描述</th>
 <th>主體別名項目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部自動探索服務 URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +170,7 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 
 
 > [!NOTE]  
-> 您將與新的 SAN 項目最近更新的憑證指派給反向 proxy 上的 SSL 接聽程式時。
+> 您可以將新的已更新憑證，指派給反向 proxy 上的 SSL 攔截器。
 
 
 

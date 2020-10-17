@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定監看員節點以執行綜合交易
+title: Lync Server 2013：設定監視節點以執行綜合交易
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605a859717736785df2d726720c2984162ff830d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9514099b3981dafdbb34911d0cedd249221c5621
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499100"
 ---
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中設定監視節點以執行綜合交易
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>設定監看員節點以 Lync Server 2013 中執行的綜合交易
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42207989"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-02-07_
+_**主題上次修改日期：** 2014-02-07_
 
-在安裝 System Center 代理程式檔案之後，您必須下一步] 設定監看員節點本身。 設定監看員節點所採取的步驟將視您的監看員節點電腦位於周邊網路內或周邊網路外而異。
+安裝 System Center agent 檔案之後，您必須接著設定觀察程式節點本身。 您用來設定監看員節點的步驟會隨著您的監看員節點電腦位於周邊網路或周邊網路以外的情況而有所不同。
 
-當您設定監看員節點時，您也必須選擇該節點要使用的驗證方法的型別。 Lync Server 2013 可讓您選擇下列其中一個兩種驗證方法： 信任的伺服器] 或 [認證驗證。 下表列出這兩個方法之間的差異：
+當您設定監視節點時，您也必須選擇該節點要使用的驗證方法類型。 Lync Server 2013 可讓您選擇兩種驗證方法之一：「信任的伺服器」或「憑證驗證」。 下表概述這兩種方法之間的差異：
 
 
 <table>
@@ -51,30 +53,30 @@ _**上次修改主題：** 2014年-02-07_
 <thead>
 <tr class="header">
 <th>組態</th>
-<th>說明</th>
+<th>描述</th>
 <th>支援的位置</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>受信任的伺服器</p></td>
-<td><p>使用憑證來模擬內部伺服器，並略過驗證質詢。</p>
-<p>這種方法適合偏好管理單一憑證而不是每個監看員節點上的許多使用者密碼的系統管理員。</p></td>
-<td><p>企業內部。</p>
-<p>請注意，使用此方法時，監看員節點必須集區相同網域中受監視。 如果監看員節點和受監視的集區是在不同的網域，請改為使用認證驗證。</p></td>
+<td><p>受信任伺服器</p></td>
+<td><p>使用憑證來模擬內部伺服器並略過驗證挑戰。</p>
+<p>這對喜歡管理單一憑證，而不是在每個監看員節點上使用許多使用者密碼的系統管理員非常有用。</p></td>
+<td><p>在企業內。</p>
+<p>請注意，使用此方法時，監看員節點必須與受監控的集區位於相同的網域中。 如果觀察程式節點與受監視的集區位於不同的網域，請改用認證驗證。</p></td>
 </tr>
 <tr class="even">
-<td><p>認證驗證</p></td>
-<td><p>儲存使用者名稱和密碼安全地以 Windows 認證管理員在每個監看員節點上。</p>
-<p>此模式需要更多的密碼管理，但位於企業外的監看員節點的唯一選項。 這些監看員節點無法被視為受信任的驗證端點。</p></td>
-<td><p>於企業外。</p>
-<p>企業內部。</p></td>
+<td><p>憑證驗證</p></td>
+<td><p>在每個監看員節點上安全地將使用者名稱和密碼儲存在 Windows 認證管理員中。</p>
+<p>這種模式需要較多的密碼管理，但對於位於企業以外的觀察器節點而言，這是唯一的選擇。 這些觀察器節點不能視為可信任的端點以進行驗證。</p></td>
+<td><p>在企業外。</p>
+<p>在企業內。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-您也應確認您的防火牆都有輸入規則 MonitoringHost.exe 和 PowerShell.exe。 如果這些處理程序會被防火牆封鎖，則您的綜合交易，將會失敗並 504 （伺服器逾時） 時發生錯誤。
+您也應該確認您的防火牆同時具有 MonitoringHost.exe 和 PowerShell.exe 的輸入規則。 如果這些程式被防火牆封鎖，則綜合交易會失敗，並顯示 504 (伺服器超時) 錯誤。
 
 </div>
 

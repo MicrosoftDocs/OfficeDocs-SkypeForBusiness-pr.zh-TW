@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 安裝 Lync Server 2013 監控報告
+title: Lync Server 2013：安裝 Lync Server 2013 監控報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191666"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498540"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>安裝 Lync Server 2013 監控報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>安裝 Lync Server 2013 監控報告
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42191666"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015 年 02 月 27 日_
+_**主題上次修改日期：** 2015-02-27_
 
-Microsoft Lync Server 2013 Monitoring Reports 為您提供豐富的組織中進行通訊工作階段的數量和品質的相關資訊。 不過，監控報告不會自動安裝當您安裝 Lync Server 2013;相反地，您必須安裝監控報告分開，而且只有事後 Lync 伺服器已安裝在電腦上。
+Microsoft Lync Server 2013 監控報告可為您提供大量有關組織中所發生之通訊會話品質與數量的資訊。 不過，當您安裝 Lync Server 2013 時，不會自動安裝監控報告;相反地，您必須個別安裝監視報告，而且只有在電腦上安裝 Lync Server 之後。
 
 <div>
 
@@ -49,11 +51,11 @@ Microsoft Lync Server 2013 Monitoring Reports 為您提供豐富的組織中進�
 
 </div>
 
-Lync Server 監控報告包含超過 30 設計用來提供會議、 對等 IM 工作階段、 使用者註冊、 回應群組應用程式，以及執行更多功能的詳細的資訊的報表。 Proplus 2013 版，Lync Server 監控報告包含多項增強功能：
+Lync Server Monitoring Reports 包含超過30個報告，其設計目的是提供有關會議、對等 IM 會話、使用者註冊、回應群組應用程式以及其他許多方面的詳細資訊。 針對2013版本，Lync Server Monitoring Reports 包含許多增強功能：
 
-  - **新的語音品質報告**。 這些新報告包含[Lync Server 2013 中的媒體品質比較報表](lync-server-2013-media-quality-comparison-report.md)，其比較品質之間的不同類型通話 （例如，之間有線的通話和無線通話）;與[Lync Server 2013 中的會議加入時間報表](lync-server-2013-conference-join-time-report.md)，其會提供關於的時間資訊需要加入會議的使用者。
+  - **新的語音品質報告**。 這兩個新的報表包括 [Lync Server 2013 中的媒體質量比較報告](lync-server-2013-media-quality-comparison-report.md)，它會比較不同類型通話之間的品質 (例如，有線通話與無線通話之間的品質) ;[ [Lync Server 2013] 中的 [會議加入時間] 報告](lync-server-2013-conference-join-time-report.md)，可提供使用者加入會議所需的時間量資訊。
 
-  - **針對視訊與應用程式共用工作階段進行分析和疑難排解的改善報告。** [Lync Server 2013 中的媒體品質摘要報告](lync-server-2013-media-quality-summary-report.md)提供的方法來分析視訊及應用程式共用通話時[在 Lync Server 2013 中的伺服器效能報告](lync-server-2013-server-performance-report.md)詳述產生這些通話的伺服器的效能。 現在還可以[在 Lync Server 2013 中的端對端工作階段詳細資料報告](lync-server-2013-peer-to-peer-session-detail-report.md)和[Lync Server 2013 中的會議詳細資料報告](lync-server-2013-conference-detail-report.md)所回報視訊及應用程式共用計量。
+  - **針對視訊與應用程式共用工作階段進行分析和疑難排解的改善報告。** [Lync server 2013 中的媒體質量摘要報告](lync-server-2013-media-quality-summary-report.md)提供一種方法，可分析影片和應用程式共用呼叫，而[Lync server 2013 中的伺服器效能報告](lync-server-2013-server-performance-report.md)會詳細說明產生這些通話之伺服器的效能。 在 lync server 2013 的「 [Peer-to-Peer 會話詳細資料包告](lync-server-2013-peer-to-peer-session-detail-report.md) 」和 [lync server 2013 中的 [會議詳細資料] 報告](lync-server-2013-conference-detail-report.md)中，現在也會報告影片和應用程式共用度量。
 
   - **改善報告效能**。包括加速回應與資料擷取時間，以及更迅速而簡便瀏覽報告。
 
@@ -63,13 +65,13 @@ Lync Server 監控報告包含超過 30 設計用來提供會議、 對等 IM �
 
 
 > [!NOTE]  
-> 還有另一個新報表 – QoE 通話詳細資料子報表 – 包含 Lync Server 2013 中。 但是，此報告主要用於內部，無法直接存取。
+> 有另一個新的報告– QoE 通話詳細資料子報表–包含在 Lync Server 2013 中。 但是，此報告主要用於內部，無法直接存取。
 
 
 
 </div>
 
-若要安裝 Lync Server Monitoring Reports 的兩種方式： 您可以使用 Lync Server 部署精靈，或您可以使用 Windows PowerShell 指令碼隨附的 Lync Server 2013 安裝檔案。 無論您使用哪一種方法安裝報告，都必須先確認您具備下列條件：
+有兩種方式可安裝 Lync Server 監視報告：您可以使用 Lync Server 部署嚮導，也可以使用 Lync Server 2013 安裝檔案隨附的 Windows PowerShell 腳本。 無論您使用哪一種方法安裝報告，都必須先確認您具備下列條件：
 
   - 具備將資料庫角色新增至監控資料庫中使用者帳戶的權限。
 
@@ -77,21 +79,21 @@ Lync Server 監控報告包含超過 30 設計用來提供會議、 對等 IM �
 
 若要使用部署精靈安裝監控報告，請完成下列步驟：
 
-1.  按一下 [**開始]**、 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 部署精靈**。
+1.  依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 部署嚮導]**。
 
 2.  在部署精靈中按一下 **[部署監控報告]** 以啟動「部署監控報告」精靈。
 
 3.  在部署監控報告精靈中的 **[指定監控資料庫]** 頁面上，請確認裝載您監控存放區之電腦的完整網域名稱顯示於 **[監控資料庫]** 下拉式清單中。(如果您有多個監控存放區，則必須從下拉式清單選取適當的伺服器。) 確認正確的 SQL Server 執行個體顯示於 **[SQL Server Reporting Services (SSRS) 執行個體]** 方塊中 (例如 **atl-sql-001.litwareinc.com/archinst**)，然後按 **[下一步]**。
 
-4.  在 [**指定認證**] 頁面上，在 [**使用者名稱**] 方塊中，輸入要用來存取監控報告之帳戶的使用者名稱與網域名稱 (例如， **litwareinc\\kenmyer**)。 如果您不使用此格式 (網域\\使用者名稱) 會發生錯誤。
+4.  在 [ **指定認證** ] 頁面上的 [ **使用者名稱** ] 方塊中，輸入要在存取監控報告時使用之帳戶的功能變數名稱和使用者名稱 (例如， **litwareinc \\ kenmyer**) 。 如果您未使用此格式 (網域 \\ 使用者名稱) 會發生錯誤。
     
-    在 **[密碼]** 方塊中輸入使用者帳戶密碼，然後按 **[下一步]**。 請注意沒有特殊權限所需的此帳戶。 將會自動授與帳戶所需的登入名稱與資料庫權限安裝程式完成時。
+    在 **[密碼]** 方塊中輸入使用者帳戶密碼，然後按 **[下一步]**。 請注意，此帳戶沒有必要的特殊權利。 安裝程式完成時，系統會自動授與帳戶所需的登入和資料庫許可權。
 
 5.  在 **[指定唯讀群組]** 頁面上的使用者群組方塊中，輸入將授與 SQL Server Reporting Services 唯讀存取權的安全性群組名稱。例如，若要指定唯讀系統管理員存取報告，請輸入 **RTCUniversalReadOnlyAdmins**，然後按 **[下一步]**。
 
 6.  在 **[執行命令]** 頁面上按一下 **[完成]**。
 
-監控報告也可以安裝 Lync Server 管理命令介面中執行指令碼 DeployReports.ps1;這個 Windows PowerShell 指令碼可以在 Lync Server 安裝媒體上找到\\安裝\\ReportingSetup 資料夾。 若要使用 DeployReports.ps1 安裝監控報告，請在管理介面提示中輸入類似下列命令：
+透過執行腳本 DeployReports.ps1，也可以從 Lync Server 管理命令介面安裝監視報告;您可以在 [安裝 ReportingSetup] 資料夾中的 Lync Server 安裝媒體上找到這個 Windows PowerShell 腳本 \\ \\ 。 若要使用 DeployReports.ps1 安裝監控報告，請在管理介面提示中輸入類似下列命令：
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -146,7 +148,7 @@ Lync Server 監控報告包含超過 30 設計用來提供會議、 對等 IM �
 </table>
 
 
-安裝監控報告之後，您必須接著使用 Set-CsReportingConfiguration Cmdlet 以設定用於存取這些報告的 URL。 這項工作須先從 Lync Server 管理命令介面執行下列 Windows PowerShell 命令。 請注意，建議您在設定報告 URL 時使用 HTTPS 通訊協定 (非必要)：
+安裝監控報告之後，您必須接著使用 Set-CsReportingConfiguration Cmdlet 以設定用於存取這些報告的 URL。 您可以執行下列 Windows PowerShell 命令，從 Lync Server 管理命令介面執行此工作。 請注意，建議您在設定報告 URL 時使用 HTTPS 通訊協定 (非必要)：
 
     Set-CsReportingConfiguration -Identity "MonitoringDatabase:atl-sql-001.litwareinc.com" -ReportingURL "https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST"
 
@@ -158,7 +160,7 @@ Lync Server 監控報告包含超過 30 設計用來提供會議、 對等 IM �
 
 3.  在 [Reporting Services 組態管理員] 中，按一下 [報表管理員 URL]，[報表管理員 URL] 窗格應該會顯示一個以上的 URL。雖然其中任何 URL 皆可作為報告 URL 之用，再一次申明，建議您採用使用 HTTPS 通訊協定的 ReportingUrl 。
 
-如果您已設定鏡像資料庫的監控資料庫然後您必須也關聯監控報告之鏡像資料庫。 請參閱如需詳細資訊的文件[關聯監控報告與 Lync Server 2013 的鏡像資料庫](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md)。
+如果您已設定監控資料庫的鏡像資料庫，您也必須將監控報告與鏡像資料庫相關聯。 如需詳細資訊，請參閱 [在 Lync Server 2013 中將監控報告與鏡像資料庫相關聯](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md) 的文章。
 
 </div>
 

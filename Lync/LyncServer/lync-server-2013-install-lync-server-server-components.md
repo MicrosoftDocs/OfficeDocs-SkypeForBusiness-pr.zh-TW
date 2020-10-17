@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 安裝 Lync Server 伺服器元件
+title: Lync Server 2013：安裝 Lync Server 伺服器元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8f15afbb1602f369a063826c2196387dcff819b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9237ed0b60e14383f69ff1e7ef0b0927afe49c98
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204182"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498700"
 ---
+# <a name="install-server-components-for-lync-server-2013"></a>安裝 Lync Server 2013 的伺服器元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-server-components-for-lync-server-2013"></a>安裝 Lync Server 2013 的伺服器元件
+
 
 </div>
 
@@ -35,35 +37,35 @@ ms.locfileid: "42204182"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-05-05_
+_**主題上次修改日期：** 2014-05-05_
 
-執行下列步驟之前，請確定您登入網域使用者帳戶是本機系統管理員和 Active Directory 中的 RTCUniversalReadOnlyAdmins 群組成員的伺服器。
+在遵循這些步驟之前，請確定您已使用本機系統管理員和 Active Directory 中的 RTCUniversalReadOnlyAdmins 群組成員的網域使用者帳戶登入伺服器。
 
-Lync Server 部署精靈用來安裝每個 Lync 伺服器角色的必要的元件以及啟動伺服器。 本文會引導您完成部署 Standard Edition server 或前端伺服器 Lync 基礎結構中的步驟。
+Lync Server 部署嚮導是用來安裝每個 Lync server 角色所需的元件，以及啟動伺服器。 本文將引導您逐步完成在 Lync 基礎結構中部署 Standard Edition server 或前端伺服器的步驟。
 
 <div>
 
 ## <a name="to-install-lync-server-components"></a>安裝 Lync Server 元件
 
-1.  如果未執行 Lync Server 部署精靈，請在您想要安裝到 Lync 伺服器上啟動它。
+1.  如果 Lync Server 部署嚮導未執行，請在您想要安裝 Lync 的伺服器上啟動它。
 
-2.  按一下 [**安裝或更新 Lync Server 系統**]。
+2.  按一下 [ **安裝或更新 Lync Server 系統**]。
 
-3.  在 [部署精靈]，確認**步驟 1： 安裝本機設定存放區**有綠色核取記號，表示此伺服器皆已成功安裝的存放區的本機複本。 如果未核取，您需要在伺服器上安裝本機設定存放區。 遵循在[安裝本機設定存放區 Lync Server 2013 中](lync-server-2013-install-the-local-configuration-store.md)的步驟，然後再回來。
+3.  在 [部署] 嚮導中，確認 [ **步驟1：安裝本機設定存放區** ] 有綠色核取記號，表示此伺服器已成功安裝存放區的本機複本。 若未勾選，您必須在伺服器上安裝本機設定存放區。 請遵循下列步驟，在 [Lync Server 2013 中安裝本機設定存放區](lync-server-2013-install-the-local-configuration-store.md) ，然後回來回來。
 
-4.  當您準備好您的伺服器上安裝 Lync Server 2013 元件時，請按一下 [**執行**下一步] 為**步驟 2： 安裝或移除 Lync Server 元件**。
+4.  當您準備好在伺服器上安裝 Lync Server 2013 元件時，請按一下 [執行]，然後按一下 [**步驟2：安裝或移除 Lync Server 元件**] 旁邊的 [**執行**]。
 
-5.  在 [**設定設定 Lync Server 元件**] 頁面上，按 [**下一步**設定元件，如已發行的拓撲中所定義。
+5.  在 [ **設定 Lync Server 元件** ] 頁面上，按 **[下一步]** ，依照您已發佈的拓撲中所定義的方式來設定元件。
 
-6.  [**執行命令**] 頁面上會顯示命令和安裝資訊的摘要作為進行設定。 完成後，您可以使用清單選取 [記錄] 來檢視，，，然後按一下 [**檢視記錄檔**。
+6.  [ **執行命令** ] 頁面會在設定進行時顯示命令和安裝資訊的摘要。 完成後，您可以使用清單選取要查看的記錄檔，然後按一下 [ **查看記錄**檔]。
 
-7.  Lync Server 2013 元件安裝完成時，且您已檢閱記錄檔，視需要請按一下 [**完成**] 以完成安裝在此步驟。
+7.  在 [Lync Server 2013 元件] 設定完成時，如果您已視需要複查記錄，請按一下 **[完成]** ，以在安裝中完成此步驟。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果系統提示您重新啟動伺服器 （如果安裝所需的 Windows 桌面體驗，則可能發生），明確地這麼做。 在電腦上一步是啟動並執行，您需要透過一次，請執行下列步驟從步驟 3 上列 (基本上執行步驟 2 中部署精靈一個更多時間) 開始。
+    > 如果系統提示您重新開機伺服器 (可能會在 Windows 桌面經驗安裝) 時進行，因此一定要這麼做。 當電腦重新備份及執行時，您必須重新執行這些步驟，請從上面列出的步驟3開始， (基本上在部署嚮導中執行步驟 2) 。
 
     
     </div>

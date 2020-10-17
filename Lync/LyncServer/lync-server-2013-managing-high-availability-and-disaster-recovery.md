@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理高可用性和災害復原
+title: Lync Server 2013：管理高可用性和嚴重損壞修復
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04b51b08c11f44b404d64d48efc16d7b3c62f447
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c41b3369946af757f03585c18e5f5c22ba09304
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498290"
 ---
+# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理高可用性和嚴重損壞修復
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a>管理 Lync Server 2013 中的高可用性和災害復原
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42185716"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-08-03_
+_**主題上次修改日期：** 2012-08-03_
 
-下列主題說明如何設定高可用性、 嚴重損壞修復，容錯移轉及容錯回復常設聊天室伺服器。
+下列主題說明如何設定 Persistent Chat Server 的高可用性、嚴重損壞修復、容錯移轉及容錯回復。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [針對常設聊天室高可用性和嚴重損壞修復 Lync Server 2013 中設定](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
+  - [在 Lync Server 2013 中設定持久聊天高可用性和嚴重損壞修復](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
 
-  - [容錯移轉和失敗的備份 Persistent Chat Server in Lync Server 2013](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
+  - [在 Lync Server 2013 中容錯移轉和失敗回復持久聊天伺服器](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
 
 </div>
 

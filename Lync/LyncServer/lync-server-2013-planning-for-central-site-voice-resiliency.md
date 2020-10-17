@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184406"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497730"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中規劃中央網站語音恢復能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中規劃中央網站語音恢復能力
+
 
 </div>
 
@@ -100,9 +102,9 @@ _**主題上次修改日期：** 2013-10-30_
 
   - 每個中央網站必須內含一個登錄器集區，且該集區必須包含一或多個登錄器。
 
-  - 每個註冊機構集區都必須使用 DNS 負載平衡、硬體負載平衡或兩者兩者進行負載平衡。 如需規劃負載平衡設定的詳細資訊，請參閱[Lync Server 2013 的負載平衡需求](lync-server-2013-load-balancing-requirements.md)。
+  - 每個註冊機構集區都必須使用 DNS 負載平衡、硬體負載平衡或兩者兩者進行負載平衡。 如需規劃負載平衡設定的詳細資訊，請參閱 [Lync Server 2013 的負載平衡需求](lync-server-2013-load-balancing-requirements.md)。
 
-  - 每個使用者都必須使用 Lync Server 管理命令介面**get-csuser** Cmdlet 或 Lync server 控制台，指派給主要註冊集區。
+  - 每個使用者都必須使用 Lync Server 管理命令介面 **get-csuser** Cmdlet 或 Lync server 控制台，指派給主要註冊集區。
 
   - 主要登錄器集區必須在其他中央網站設有一個備份登錄器集區。
 
@@ -145,7 +147,7 @@ Lync Server 取決於下列基礎結構和軟體元件，以確保語音復原�
 </tr>
 <tr class="odd">
 <td><p>DHCP 選項 120</p></td>
-<td><p>如果無可用的 DNS SRV，用戶端會嘗試使用 DHCP 選項 120 來探索登錄器。 若要執行此作業，您必須設定 DHCP 伺服器，或是必須啟用 Lync Server 2013 DHCP。 如需詳細資訊，請參閱<a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 區段之分支網站恢復性需求</a>中 Branch-Site 恢復的硬體和軟體需求。</p></td>
+<td><p>如果無可用的 DNS SRV，用戶端會嘗試使用 DHCP 選項 120 來探索登錄器。 若要執行此作業，您必須設定 DHCP 伺服器，或是必須啟用 Lync Server 2013 DHCP。 如需詳細資訊，請參閱 <a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 區段之分支網站恢復性需求</a> 中 Branch-Site 恢復的硬體和軟體需求。</p></td>
 </tr>
 </tbody>
 </table>

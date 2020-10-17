@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 安裝 Edge 伺服器
+title: Lync Server 2013：安裝 Edge Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af95403b8a1fc383d8d6065f26a55242e735a51b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81a17eacb30c62f64185508afef3842408238ba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498740"
 ---
+# <a name="install-edge-servers-for-lync-server-2013"></a>安裝 Lync Server 2013 的 Edge Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-edge-servers-for-lync-server-2013"></a>安裝 Lync Server 2013 Edge Server
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42204188"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
-您安裝 Lync Server 2013 Edge Server 上使用 Lync Server 部署精靈。 在每部 Edge Server 上執行 [部署精靈]，可以完成設定 Edge Server 所需的大部分工作。 若要部署 Edge Server 上的 Lync Server 2013，您必須已執行拓撲產生器來定義並發行您的 Edge Server 拓撲，並匯出至可從 Edge Server 的媒體。 如需詳細資訊，請參閱[Lync Server 2013 中的外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md)和[匯出您的 Lync Server 2013 拓撲，並複製到邊緣安裝的外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)。
+您可以使用 Lync Server 部署嚮導，在 Edge Servers 上安裝 Lync Server 2013。 在每部 Edge Server 上執行 [部署精靈]，可以完成設定 Edge Server 所需的大部分工作。 若要在 Edge Server 上部署 Lync Server 2013，您必須已執行拓撲產生器來定義及發佈 Edge Server 拓撲，並將其匯出至 Edge Server 所提供的媒體。 如需詳細資訊，請參閱 [Lync server 2013 中外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md) ，並 [匯出 lync server 2013 拓撲，並將其複製到 edge 安裝的外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)。
 
-之後使用部署精靈來安裝在每部 Edge Server、 安裝及指派必要的憑證，以及啟動必要的服務，您可以使用[Lync Server 2013 中的外部使用者存取的設定支援](lync-server-2013-configuring-support-for-external-user-access.md)的資訊，來啟用及設定外部使用者存取及資訊中[驗證 edge 部署 Lync Server 2013 中的](lync-server-2013-verifying-your-edge-deployment.md)驗證安裝程式，包括伺服器和用戶端連線，以完成安裝程式。
+使用部署嚮導安裝每一部 Edge Server、安裝並指派必要的憑證，以及啟動必要的服務之後，您可以使用在 Lync server 2013 中設定 [外部使用者存取支援的](lync-server-2013-configuring-support-for-external-user-access.md) 資訊，來完成設定，以啟用及設定外部使用者存取，以及 [驗證 lync server 2013 中的 Edge 部署](lync-server-2013-verifying-your-edge-deployment.md) 中的資訊，以驗證安裝程式，包括伺服器及用戶端連線能力。
 
 <div>
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2012年-09-08_
 
 1.  以本機 Administrators 群組成員的身分或具有相同使用者權限的帳戶，登入您想要安裝 Edge Server 的電腦。
 
-2.  請確定您使用拓撲產生器中，建立然後匯出並複製到外部媒體的拓撲組態檔是可在 Edge Server （例如，存取內含複製拓撲組態檔，或確認的 USB 磁碟機上存取複製檔案的網路共用）。
+2.  請確認 Edge (Server 上可以使用拓撲產生器建立的拓撲設定檔，然後匯出並複製到外部媒體，例如，存取您複寫拓撲設定檔的 USB 磁片磁碟機，或驗證您複製檔案的來源網路共用的存取權) 。
 
 3.  啟動部署精靈。
     
@@ -70,9 +72,9 @@ _**主題上次修改日期：** 2012年-09-08_
     
       - **[執行命令]** 程序完成後，按一下 **[完成]**。
 
-6.  在 [部署精靈] 中按一下 [**步驟 2： 安裝或移除 Lync Server 元件**安裝指定的 XML 設定檔儲存在本機電腦上的 Lync Server 2013 edge 元件。
+6.  在 [部署嚮導] 中，按一下 [ **步驟2：安裝或移除 Lync Server 元件** ]，以安裝在本機電腦上儲存的 XML 設定檔中所指定的 Lync server 2013 edge 元件。
 
-7.  完成安裝之後，使用中[設定 Lync Server 2013 的邊緣憑證](lync-server-2013-set-up-edge-certificates.md)安裝並指派必要的憑證，再開始服務的資訊。
+7.  完成安裝後，請使用 [設定 Lync Server 2013 的 Edge 憑證](lync-server-2013-set-up-edge-certificates.md) 中的資訊，以安裝並指派必要的憑證，然後再啟動服務。
 
 </div>
 
