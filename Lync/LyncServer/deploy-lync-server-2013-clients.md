@@ -1,5 +1,6 @@
 ---
 title: 部署 Lync Server 2013 用戶端
+description: 部署 Lync Server 2013 用戶端。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185375
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 235209fcbb74aabf46f30425d8c2e79e090f6b14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8022251b4f8ee783a7dbd1a5579c3c295d883579
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503060"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550239"
 ---
-# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="4b366-102">部署 Lync Server 2013 用戶端</span><span class="sxs-lookup"><span data-stu-id="4b366-102">Deploy Lync Server 2013 clients</span></span>
+# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="9bfd6-103">部署 Lync Server 2013 用戶端</span><span class="sxs-lookup"><span data-stu-id="9bfd6-103">Deploy Lync Server 2013 clients</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48503060"
 
 <span> </span>
 
-<span data-ttu-id="4b366-103">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="4b366-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="9bfd6-104">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="9bfd6-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="4b366-104">如需詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中部署用戶端和裝置](lync-server-2013-deploying-clients-and-devices.md) 。</span><span class="sxs-lookup"><span data-stu-id="4b366-104">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="9bfd6-105">如需詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中部署用戶端和裝置](lync-server-2013-deploying-clients-and-devices.md) 。</span><span class="sxs-lookup"><span data-stu-id="9bfd6-105">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
 
 </div>
 

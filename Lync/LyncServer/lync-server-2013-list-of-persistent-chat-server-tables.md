@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Persistent Chat Server 表格清單
+description: Lync Server 2013： Persistent Chat Server 資料表清單。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 838e6d8f83b137923075851b29df4c602a487391
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513880"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550049"
 ---
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a><span data-ttu-id="a8952-102">Lync Server 2013 中的 Persistent Chat Server 表格清單</span><span class="sxs-lookup"><span data-stu-id="a8952-102">List of Persistent Chat Server tables in Lync Server 2013</span></span>
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a><span data-ttu-id="c123a-103">Lync Server 2013 中的 Persistent Chat Server 表格清單</span><span class="sxs-lookup"><span data-stu-id="c123a-103">List of Persistent Chat Server tables in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48513880"
 
 <span> </span>
 
-<span data-ttu-id="a8952-103">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a8952-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="c123a-104">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="c123a-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="a8952-104">Persistent Chat 資料庫架構是由下清單格所組成。</span><span class="sxs-lookup"><span data-stu-id="a8952-104">The Persistent Chat database schema consists of the following tables.</span></span>
+<span data-ttu-id="c123a-105">Persistent Chat 資料庫架構是由下清單格所組成。</span><span class="sxs-lookup"><span data-stu-id="c123a-105">The Persistent Chat database schema consists of the following tables.</span></span>
 
 <div>
 
-## <a name="active-directory-sync"></a><span data-ttu-id="a8952-105">Active Directory 同步處理</span><span class="sxs-lookup"><span data-stu-id="a8952-105">Active Directory Sync</span></span>
+## <a name="active-directory-sync"></a><span data-ttu-id="c123a-106">Active Directory 同步處理</span><span class="sxs-lookup"><span data-stu-id="c123a-106">Active Directory Sync</span></span>
 
 
 <table>
@@ -53,38 +54,38 @@ ms.locfileid: "48513880"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8952-106">資料表</span><span class="sxs-lookup"><span data-stu-id="a8952-106">Table</span></span></th>
-<th><span data-ttu-id="a8952-107">描述</span><span class="sxs-lookup"><span data-stu-id="a8952-107">Description</span></span></th>
+<th><span data-ttu-id="c123a-107">資料表</span><span class="sxs-lookup"><span data-stu-id="c123a-107">Table</span></span></th>
+<th><span data-ttu-id="c123a-108">描述</span><span class="sxs-lookup"><span data-stu-id="c123a-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-108"><a href="lync-server-2013-tbladcookie.md">Lync Server 2013 中的 tblADCookie</a></span><span class="sxs-lookup"><span data-stu-id="a8952-108"><a href="lync-server-2013-tbladcookie.md">tblADCookie in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-109">包含目前的輕量目錄存取通訊協定 (LDAP) Sync cookie。</span><span class="sxs-lookup"><span data-stu-id="a8952-109">Contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span> <span data-ttu-id="a8952-110">每一列都對應到 Persistent Chat Server 主動監控變更的 Active Directory 網域服務網域。</span><span class="sxs-lookup"><span data-stu-id="a8952-110">Each row corresponds to an Active Directory Domain Services domain that Persistent Chat Server is actively monitoring for changes.</span></span> <span data-ttu-id="a8952-111">在此表格中只會顯示與 Persistent Chat Server 相關之 Active Directory 網域的 (。 ) </span><span class="sxs-lookup"><span data-stu-id="a8952-111">(Only the Active Directory domains that are relevant for Persistent Chat Server are represented in this table.)</span></span></p></td>
+<td><p><span data-ttu-id="c123a-109"><a href="lync-server-2013-tbladcookie.md">Lync Server 2013 中的 tblADCookie</a></span><span class="sxs-lookup"><span data-stu-id="c123a-109"><a href="lync-server-2013-tbladcookie.md">tblADCookie in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-110">包含目前的輕量目錄存取通訊協定 (LDAP) Sync cookie。</span><span class="sxs-lookup"><span data-stu-id="c123a-110">Contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span> <span data-ttu-id="c123a-111">每一列都對應到 Persistent Chat Server 主動監控變更的 Active Directory 網域服務網域。</span><span class="sxs-lookup"><span data-stu-id="c123a-111">Each row corresponds to an Active Directory Domain Services domain that Persistent Chat Server is actively monitoring for changes.</span></span> <span data-ttu-id="c123a-112">在此表格中只會顯示與 Persistent Chat Server 相關之 Active Directory 網域的 (。 ) </span><span class="sxs-lookup"><span data-stu-id="c123a-112">(Only the Active Directory domains that are relevant for Persistent Chat Server are represented in this table.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-112"><a href="lync-server-2013-tblprincipalmemberdifference.md">Lync Server 2013 中的 tblPrincipalMemberDifference</a></span><span class="sxs-lookup"><span data-stu-id="a8952-112"><a href="lync-server-2013-tblprincipalmemberdifference.md">tblPrincipalMemberDifference in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-113">包含的群組成員資格變更 (新增及移除的成員) 尚未由後續的 Active Directory 同步步驟處理，也就是其中一個臨時資料表 (以及 Active Directory 同步處理第一個步驟中所用 tblADUpdates 表) 。</span><span class="sxs-lookup"><span data-stu-id="a8952-113">Contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Sync steps and is one of the temporary tables (along with tblADUpdates table) that is used in the first step of Active Directory Sync.</span></span></p>
-<p><span data-ttu-id="a8952-114">僅針對 tblPrincipal 表格中所列或具有已提列成員的群組，存放及/或處理其成員資格變更。</span><span class="sxs-lookup"><span data-stu-id="a8952-114">Membership changes are stored, processed, or both, only for groups that are listed in the tblPrincipal table or that already have members listed there.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-113"><a href="lync-server-2013-tblprincipalmemberdifference.md">Lync Server 2013 中的 tblPrincipalMemberDifference</a></span><span class="sxs-lookup"><span data-stu-id="c123a-113"><a href="lync-server-2013-tblprincipalmemberdifference.md">tblPrincipalMemberDifference in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-114">包含的群組成員資格變更 (新增及移除的成員) 尚未由後續的 Active Directory 同步步驟處理，也就是其中一個臨時資料表 (以及 Active Directory 同步處理第一個步驟中所用 tblADUpdates 表) 。</span><span class="sxs-lookup"><span data-stu-id="c123a-114">Contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Sync steps and is one of the temporary tables (along with tblADUpdates table) that is used in the first step of Active Directory Sync.</span></span></p>
+<p><span data-ttu-id="c123a-115">僅針對 tblPrincipal 表格中所列或具有已提列成員的群組，存放及/或處理其成員資格變更。</span><span class="sxs-lookup"><span data-stu-id="c123a-115">Membership changes are stored, processed, or both, only for groups that are listed in the tblPrincipal table or that already have members listed there.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-115"><a href="lync-server-2013-tbladupdates.md">Lync Server 2013 中的 tblADUpdates</a></span><span class="sxs-lookup"><span data-stu-id="a8952-115"><a href="lync-server-2013-tbladupdates.md">tblADUpdates in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-116">包含尚未由後續 Active Directory 同步步驟處理的 Active Directory 網域服務變更，也就是其中一個臨時表格 (，以及 Active Directory 同步處理第一個步驟中所用的 tblPrincipalMemberDifference 表格) 。</span><span class="sxs-lookup"><span data-stu-id="a8952-116">Contains changes to Active Directory Domain Services that have not yet been processed by the later Active Directory Sync steps and is one of the temporary tables (along with the tblPrincipalMemberDifference table) that is used in the first step of Active Directory Sync.</span></span></p>
-<p><span data-ttu-id="a8952-117">對於已列于 tblPrincipal 表格中的主體，會儲存、處理或處理 Active Directory 的變更。</span><span class="sxs-lookup"><span data-stu-id="a8952-117">Changes to Active Directory are stored, processed, or both only for principals that are already listed in the tblPrincipal table.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-116"><a href="lync-server-2013-tbladupdates.md">Lync Server 2013 中的 tblADUpdates</a></span><span class="sxs-lookup"><span data-stu-id="c123a-116"><a href="lync-server-2013-tbladupdates.md">tblADUpdates in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-117">包含尚未由後續 Active Directory 同步步驟處理的 Active Directory 網域服務變更，也就是其中一個臨時表格 (，以及 Active Directory 同步處理第一個步驟中所用的 tblPrincipalMemberDifference 表格) 。</span><span class="sxs-lookup"><span data-stu-id="c123a-117">Contains changes to Active Directory Domain Services that have not yet been processed by the later Active Directory Sync steps and is one of the temporary tables (along with the tblPrincipalMemberDifference table) that is used in the first step of Active Directory Sync.</span></span></p>
+<p><span data-ttu-id="c123a-118">對於已列于 tblPrincipal 表格中的主體，會儲存、處理或處理 Active Directory 的變更。</span><span class="sxs-lookup"><span data-stu-id="c123a-118">Changes to Active Directory are stored, processed, or both only for principals that are already listed in the tblPrincipal table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-118"><a href="lync-server-2013-tblprincipalmembers.md">Lync Server 2013 中的 tblPrincipalMembers</a></span><span class="sxs-lookup"><span data-stu-id="a8952-118"><a href="lync-server-2013-tblprincipalmembers.md">tblPrincipalMembers in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-119">包含主體成員資格。</span><span class="sxs-lookup"><span data-stu-id="a8952-119">Contains principal memberships.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-119"><a href="lync-server-2013-tblprincipalmembers.md">Lync Server 2013 中的 tblPrincipalMembers</a></span><span class="sxs-lookup"><span data-stu-id="c123a-119"><a href="lync-server-2013-tblprincipalmembers.md">tblPrincipalMembers in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-120">包含主體成員資格。</span><span class="sxs-lookup"><span data-stu-id="c123a-120">Contains principal memberships.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-120"><a href="lync-server-2013-tblprincipalmeta.md">Lync Server 2013 中的 tblPrincipalMeta</a></span><span class="sxs-lookup"><span data-stu-id="a8952-120"><a href="lync-server-2013-tblprincipalmeta.md">tblPrincipalMeta in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-121">包含必須從 Active Directory 重新整理的主體。</span><span class="sxs-lookup"><span data-stu-id="a8952-121">Contains the principals that have to be refreshed from Active Directory.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-121"><a href="lync-server-2013-tblprincipalmeta.md">Lync Server 2013 中的 tblPrincipalMeta</a></span><span class="sxs-lookup"><span data-stu-id="c123a-121"><a href="lync-server-2013-tblprincipalmeta.md">tblPrincipalMeta in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-122">包含必須從 Active Directory 重新整理的主體。</span><span class="sxs-lookup"><span data-stu-id="c123a-122">Contains the principals that have to be refreshed from Active Directory.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-122"><a href="lync-server-2013-tblskippedaffiliations.md">Lync Server 2013 中的 tblSkippedAffiliations</a></span><span class="sxs-lookup"><span data-stu-id="a8952-122"><a href="lync-server-2013-tblskippedaffiliations.md">tblSkippedAffiliations in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-123">包含因某些原因而無法重新整理的隸屬關係，通常是因為 Active Directory 存取錯誤。</span><span class="sxs-lookup"><span data-stu-id="a8952-123">Contains affiliations that could not be refreshed for some reason, usually due to Active Directory access errors.</span></span></p>
-<p><span data-ttu-id="a8952-p102">本表格之用途僅為提供資訊參考用。其內容無法使用。</span><span class="sxs-lookup"><span data-stu-id="a8952-p102">This table is for informational purposes only. Its content is not used.</span></span></p>
-<p><span data-ttu-id="a8952-126">tblPrincipalMeta 表格中會存放具有無法正確重新整理之關係的主體，並給予其另一次重新整理的機會。</span><span class="sxs-lookup"><span data-stu-id="a8952-126">The principals with affiliations that could not be refreshed properly are kept in the tblPrincipalMeta table and are given another chance to be refreshed.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-123"><a href="lync-server-2013-tblskippedaffiliations.md">Lync Server 2013 中的 tblSkippedAffiliations</a></span><span class="sxs-lookup"><span data-stu-id="c123a-123"><a href="lync-server-2013-tblskippedaffiliations.md">tblSkippedAffiliations in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-124">包含因某些原因而無法重新整理的隸屬關係，通常是因為 Active Directory 存取錯誤。</span><span class="sxs-lookup"><span data-stu-id="c123a-124">Contains affiliations that could not be refreshed for some reason, usually due to Active Directory access errors.</span></span></p>
+<p><span data-ttu-id="c123a-p102">本表格之用途僅為提供資訊參考用。其內容無法使用。</span><span class="sxs-lookup"><span data-stu-id="c123a-p102">This table is for informational purposes only. Its content is not used.</span></span></p>
+<p><span data-ttu-id="c123a-127">tblPrincipalMeta 表格中會存放具有無法正確重新整理之關係的主體，並給予其另一次重新整理的機會。</span><span class="sxs-lookup"><span data-stu-id="c123a-127">The principals with affiliations that could not be refreshed properly are kept in the tblPrincipalMeta table and are given another chance to be refreshed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -94,7 +95,7 @@ ms.locfileid: "48513880"
 
 <div>
 
-## <a name="principals-affiliations-nodes-scopes-and-roles"></a><span data-ttu-id="a8952-127">主體、關係、節點、範圍與角色</span><span class="sxs-lookup"><span data-stu-id="a8952-127">Principals, Affiliations, Nodes, Scopes, and Roles</span></span>
+## <a name="principals-affiliations-nodes-scopes-and-roles"></a><span data-ttu-id="c123a-128">主體、關係、節點、範圍與角色</span><span class="sxs-lookup"><span data-stu-id="c123a-128">Principals, Affiliations, Nodes, Scopes, and Roles</span></span>
 
 
 <table>
@@ -104,52 +105,52 @@ ms.locfileid: "48513880"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8952-128">資料表</span><span class="sxs-lookup"><span data-stu-id="a8952-128">Table</span></span></th>
-<th><span data-ttu-id="a8952-129">描述</span><span class="sxs-lookup"><span data-stu-id="a8952-129">Description</span></span></th>
+<th><span data-ttu-id="c123a-129">資料表</span><span class="sxs-lookup"><span data-stu-id="c123a-129">Table</span></span></th>
+<th><span data-ttu-id="c123a-130">描述</span><span class="sxs-lookup"><span data-stu-id="c123a-130">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-130"><a href="lync-server-2013-tblprincipaltype.md">Lync Server 2013 中的 tblPrincipalType</a></span><span class="sxs-lookup"><span data-stu-id="a8952-130"><a href="lync-server-2013-tblprincipaltype.md">tblPrincipalType in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-p103">含有主體類型以分類 tblPrincipal 表格中的項目。此表格是靜態的，其會在資料庫建立期間設定，且不會變更。</span><span class="sxs-lookup"><span data-stu-id="a8952-p103">Contains principal types to categorize what is in the tblPrincipal table. This table is static. It is set up during database creation and does not change.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-131"><a href="lync-server-2013-tblprincipaltype.md">Lync Server 2013 中的 tblPrincipalType</a></span><span class="sxs-lookup"><span data-stu-id="c123a-131"><a href="lync-server-2013-tblprincipaltype.md">tblPrincipalType in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-p103">含有主體類型以分類 tblPrincipal 表格中的項目。此表格是靜態的，其會在資料庫建立期間設定，且不會變更。</span><span class="sxs-lookup"><span data-stu-id="c123a-p103">Contains principal types to categorize what is in the tblPrincipal table. This table is static. It is set up during database creation and does not change.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-134"><a href="lync-server-2013-tblprincipal.md">Lync Server 2013 中的 tblPrincipal</a></span><span class="sxs-lookup"><span data-stu-id="a8952-134"><a href="lync-server-2013-tblprincipal.md">tblPrincipal in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-135">內含所有主體，包括使用者、資料夾及群組等。</span><span class="sxs-lookup"><span data-stu-id="a8952-135">Contains all principals (users, folders, groups, and so on).</span></span> <span data-ttu-id="a8952-136">Persistent Chat Server 會以平坦的異類清單形式處理此。</span><span class="sxs-lookup"><span data-stu-id="a8952-136">Persistent Chat Server handles this as a flat heterogeneous list.</span></span> <span data-ttu-id="a8952-137">各欄位會依據每個主體的類型而定。</span><span class="sxs-lookup"><span data-stu-id="a8952-137">Various columns are based on the type of each principal.</span></span></p>
-<p><span data-ttu-id="a8952-138">大多數的主體是儲存在 Active Directory 中之物件的快取複本。</span><span class="sxs-lookup"><span data-stu-id="a8952-138">Most of these principals are cached copies of objects stored in Active Directory.</span></span> <span data-ttu-id="a8952-139">在這些 Active Directory 物件的主體表格中建立快取複本，稱為布<em>建。</em></span><span class="sxs-lookup"><span data-stu-id="a8952-139">Creating the cached copy in the Principal table of these Active Directory objects is referred as <em>provisioning</em>.</span></span></p>
-<p><span data-ttu-id="a8952-140">有些主體的建立會比其他主體更主動，而且會完全忽略某些 Active Directory 物件。</span><span class="sxs-lookup"><span data-stu-id="a8952-140">Some principals are created more aggressively than others, and some Active Directory objects are ignored altogether.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-135"><a href="lync-server-2013-tblprincipal.md">Lync Server 2013 中的 tblPrincipal</a></span><span class="sxs-lookup"><span data-stu-id="c123a-135"><a href="lync-server-2013-tblprincipal.md">tblPrincipal in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-136">內含所有主體，包括使用者、資料夾及群組等。</span><span class="sxs-lookup"><span data-stu-id="c123a-136">Contains all principals (users, folders, groups, and so on).</span></span> <span data-ttu-id="c123a-137">Persistent Chat Server 會以平坦的異類清單形式處理此。</span><span class="sxs-lookup"><span data-stu-id="c123a-137">Persistent Chat Server handles this as a flat heterogeneous list.</span></span> <span data-ttu-id="c123a-138">各欄位會依據每個主體的類型而定。</span><span class="sxs-lookup"><span data-stu-id="c123a-138">Various columns are based on the type of each principal.</span></span></p>
+<p><span data-ttu-id="c123a-139">大多數的主體是儲存在 Active Directory 中之物件的快取複本。</span><span class="sxs-lookup"><span data-stu-id="c123a-139">Most of these principals are cached copies of objects stored in Active Directory.</span></span> <span data-ttu-id="c123a-140">在這些 Active Directory 物件的主體表格中建立快取複本，稱為布<em>建。</em></span><span class="sxs-lookup"><span data-stu-id="c123a-140">Creating the cached copy in the Principal table of these Active Directory objects is referred as <em>provisioning</em>.</span></span></p>
+<p><span data-ttu-id="c123a-141">有些主體的建立會比其他主體更主動，而且會完全忽略某些 Active Directory 物件。</span><span class="sxs-lookup"><span data-stu-id="c123a-141">Some principals are created more aggressively than others, and some Active Directory objects are ignored altogether.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-141"><a href="lync-server-2013-tblprincipalaffiliations.md">Lync Server 2013 中的 tblPrincipalAffiliations</a></span><span class="sxs-lookup"><span data-stu-id="a8952-141"><a href="lync-server-2013-tblprincipalaffiliations.md">tblPrincipalAffiliations in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-142">包含主體隸屬關係，描述 Active Directory 安全性群組、Active Directory 容器等等中的成員資格。</span><span class="sxs-lookup"><span data-stu-id="a8952-142">Contains principal affiliations that describe memberships in Active Directory security groups, Active Directory containers, and so on.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-142"><a href="lync-server-2013-tblprincipalaffiliations.md">Lync Server 2013 中的 tblPrincipalAffiliations</a></span><span class="sxs-lookup"><span data-stu-id="c123a-142"><a href="lync-server-2013-tblprincipalaffiliations.md">tblPrincipalAffiliations in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-143">包含主體隸屬關係，描述 Active Directory 安全性群組、Active Directory 容器等等中的成員資格。</span><span class="sxs-lookup"><span data-stu-id="c123a-143">Contains principal affiliations that describe memberships in Active Directory security groups, Active Directory containers, and so on.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-143"><a href="lync-server-2013-tblnode.md">Lync Server 2013 中的 tblNode</a></span><span class="sxs-lookup"><span data-stu-id="a8952-143"><a href="lync-server-2013-tblnode.md">tblNode in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-144">包含在 Lync Server 控制台中管理的類別節點。</span><span class="sxs-lookup"><span data-stu-id="a8952-144">Contains the category node, as managed in Lync Server Control Panel.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-144"><a href="lync-server-2013-tblnode.md">Lync Server 2013 中的 tblNode</a></span><span class="sxs-lookup"><span data-stu-id="c123a-144"><a href="lync-server-2013-tblnode.md">tblNode in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-145">包含在 Lync Server 控制台中管理的類別節點。</span><span class="sxs-lookup"><span data-stu-id="c123a-145">Contains the category node, as managed in Lync Server Control Panel.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-145"><a href="lync-server-2013-tblroletype.md">Lync Server 2013 中的 tblRoleType</a></span><span class="sxs-lookup"><span data-stu-id="a8952-145"><a href="lync-server-2013-tblroletype.md">tblRoleType in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-146">包含角色類型及其相關聯的許可權集。</span><span class="sxs-lookup"><span data-stu-id="a8952-146">Contains role types and their associated permission sets.</span></span> <span data-ttu-id="a8952-147">這個查閱表格是靜態的。</span><span class="sxs-lookup"><span data-stu-id="a8952-147">This lookup table is static.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-146"><a href="lync-server-2013-tblroletype.md">Lync Server 2013 中的 tblRoleType</a></span><span class="sxs-lookup"><span data-stu-id="c123a-146"><a href="lync-server-2013-tblroletype.md">tblRoleType in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-147">包含角色類型及其相關聯的許可權集。</span><span class="sxs-lookup"><span data-stu-id="c123a-147">Contains role types and their associated permission sets.</span></span> <span data-ttu-id="c123a-148">這個查閱表格是靜態的。</span><span class="sxs-lookup"><span data-stu-id="c123a-148">This lookup table is static.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-148"><a href="lync-server-2013-tblscopeprincipal.md">Lync Server 2013 中的 tblScopePrincipal</a></span><span class="sxs-lookup"><span data-stu-id="a8952-148"><a href="lync-server-2013-tblscopeprincipal.md">tblScopePrincipal in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-149">包含指派給節點的範圍。</span><span class="sxs-lookup"><span data-stu-id="a8952-149">Contains scopes assigned to nodes.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-149"><a href="lync-server-2013-tblscopeprincipal.md">Lync Server 2013 中的 tblScopePrincipal</a></span><span class="sxs-lookup"><span data-stu-id="c123a-149"><a href="lync-server-2013-tblscopeprincipal.md">tblScopePrincipal in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-150">包含指派給節點的範圍。</span><span class="sxs-lookup"><span data-stu-id="c123a-150">Contains scopes assigned to nodes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-150"><a href="lync-server-2013-tblprincipalrole.md">Lync Server 2013 中的 tblPrincipalRole</a></span><span class="sxs-lookup"><span data-stu-id="a8952-150"><a href="lync-server-2013-tblprincipalrole.md">tblPrincipalRole in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-151">包含指派給節點的角色。</span><span class="sxs-lookup"><span data-stu-id="a8952-151">Contains roles assigned to nodes.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-151"><a href="lync-server-2013-tblprincipalrole.md">Lync Server 2013 中的 tblPrincipalRole</a></span><span class="sxs-lookup"><span data-stu-id="c123a-151"><a href="lync-server-2013-tblprincipalrole.md">tblPrincipalRole in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-152">包含指派給節點的角色。</span><span class="sxs-lookup"><span data-stu-id="c123a-152">Contains roles assigned to nodes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-152"><a href="lync-server-2013-tblsiopwhitelist.md">Lync Server 2013 中的 tblSiopWhiteList</a></span><span class="sxs-lookup"><span data-stu-id="a8952-152"><a href="lync-server-2013-tblsiopwhitelist.md">tblSiopWhiteList in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-153">包含可與節點相關聯的已註冊增益集。</span><span class="sxs-lookup"><span data-stu-id="a8952-153">Contains the registered Add-ins that can be associated with nodes.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-153"><a href="lync-server-2013-tblsiopwhitelist.md">Lync Server 2013 中的 tblSiopWhiteList</a></span><span class="sxs-lookup"><span data-stu-id="c123a-153"><a href="lync-server-2013-tblsiopwhitelist.md">tblSiopWhiteList in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-154">包含可與節點相關聯的已註冊增益集。</span><span class="sxs-lookup"><span data-stu-id="c123a-154">Contains the registered Add-ins that can be associated with nodes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-154"><a href="lync-server-2013-tblenumattribute.md">Lync Server 2013 中的 tblEnumAttribute</a></span><span class="sxs-lookup"><span data-stu-id="a8952-154"><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-155">僅包含 tblNode 表格中所使用的硬式編碼 &quot; Visibility &quot; 和 &quot; 行為 &quot; 屬性。</span><span class="sxs-lookup"><span data-stu-id="a8952-155">Contains only the hardcoded &quot;Visibility&quot; and &quot;Behavior&quot; attributes that are used in the tblNode table.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-155"><a href="lync-server-2013-tblenumattribute.md">Lync Server 2013 中的 tblEnumAttribute</a></span><span class="sxs-lookup"><span data-stu-id="c123a-155"><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-156">僅包含 tblNode 表格中所使用的硬式編碼 &quot; Visibility &quot; 和 &quot; 行為 &quot; 屬性。</span><span class="sxs-lookup"><span data-stu-id="c123a-156">Contains only the hardcoded &quot;Visibility&quot; and &quot;Behavior&quot; attributes that are used in the tblNode table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-156"><a href="lync-server-2013-tblenumvalue.md">Lync Server 2013 中的 tblEnumValue</a></span><span class="sxs-lookup"><span data-stu-id="a8952-156"><a href="lync-server-2013-tblenumvalue.md">tblEnumValue in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-157">包含 &quot; tblNode 表格中所用的硬編碼 Visibility "和" 行為 &quot; 屬性值。</span><span class="sxs-lookup"><span data-stu-id="a8952-157">Contains the values of the hardcoded &quot;Visibility” and “Behavior&quot; attributes that are used in the tblNode table.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-157"><a href="lync-server-2013-tblenumvalue.md">Lync Server 2013 中的 tblEnumValue</a></span><span class="sxs-lookup"><span data-stu-id="c123a-157"><a href="lync-server-2013-tblenumvalue.md">tblEnumValue in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-158">包含 &quot; tblNode 表格中所用的硬編碼 Visibility "和" 行為 &quot; 屬性值。</span><span class="sxs-lookup"><span data-stu-id="c123a-158">Contains the values of the hardcoded &quot;Visibility” and “Behavior&quot; attributes that are used in the tblNode table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +160,7 @@ ms.locfileid: "48513880"
 
 <div>
 
-## <a name="invites-chats-and-other-client-support"></a><span data-ttu-id="a8952-158">邀請、聊天以及其他用戶端支援</span><span class="sxs-lookup"><span data-stu-id="a8952-158">Invites, Chats, and Other Client Support</span></span>
+## <a name="invites-chats-and-other-client-support"></a><span data-ttu-id="c123a-159">邀請、聊天以及其他用戶端支援</span><span class="sxs-lookup"><span data-stu-id="c123a-159">Invites, Chats, and Other Client Support</span></span>
 
 
 <table>
@@ -169,34 +170,34 @@ ms.locfileid: "48513880"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8952-159">資料表</span><span class="sxs-lookup"><span data-stu-id="a8952-159">Table</span></span></th>
-<th><span data-ttu-id="a8952-160">描述</span><span class="sxs-lookup"><span data-stu-id="a8952-160">Description</span></span></th>
+<th><span data-ttu-id="c123a-160">資料表</span><span class="sxs-lookup"><span data-stu-id="c123a-160">Table</span></span></th>
+<th><span data-ttu-id="c123a-161">描述</span><span class="sxs-lookup"><span data-stu-id="c123a-161">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-161"><a href="lync-server-2013-tblprincipalinvites.md">Lync Server 2013 中的 tblPrincipalInvites</a></span><span class="sxs-lookup"><span data-stu-id="a8952-161"><a href="lync-server-2013-tblprincipalinvites.md">tblPrincipalInvites in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-162">包含系統中所有啟用自動邀請的節點之所有已佈建使用者的邀請。</span><span class="sxs-lookup"><span data-stu-id="a8952-162">Contains invites for all provisioned users in the system for all nodes with Auto Invite enabled.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-162"><a href="lync-server-2013-tblprincipalinvites.md">Lync Server 2013 中的 tblPrincipalInvites</a></span><span class="sxs-lookup"><span data-stu-id="c123a-162"><a href="lync-server-2013-tblprincipalinvites.md">tblPrincipalInvites in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-163">包含系統中所有啟用自動邀請的節點之所有已佈建使用者的邀請。</span><span class="sxs-lookup"><span data-stu-id="c123a-163">Contains invites for all provisioned users in the system for all nodes with Auto Invite enabled.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-163"><a href="lync-server-2013-tblchat.md">Lync Server 2013 中的 tblChat</a></span><span class="sxs-lookup"><span data-stu-id="a8952-163"><a href="lync-server-2013-tblchat.md">tblChat in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-164">包含所有聊天訊息。</span><span class="sxs-lookup"><span data-stu-id="a8952-164">Contains all chat messages.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-164"><a href="lync-server-2013-tblchat.md">Lync Server 2013 中的 tblChat</a></span><span class="sxs-lookup"><span data-stu-id="c123a-164"><a href="lync-server-2013-tblchat.md">tblChat in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-165">包含所有聊天訊息。</span><span class="sxs-lookup"><span data-stu-id="c123a-165">Contains all chat messages.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-165"><a href="lync-server-2013-tbllastinviteid.md">Lync Server 2013 中的 tblLastInviteId</a></span><span class="sxs-lookup"><span data-stu-id="a8952-165"><a href="lync-server-2013-tbllastinviteid.md">tblLastInviteId in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-166">含有為每個使用者產生 (也用於 tblPrincipalInvites 表格) 的最後一個邀請 ID。</span><span class="sxs-lookup"><span data-stu-id="a8952-166">Contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-166"><a href="lync-server-2013-tbllastinviteid.md">Lync Server 2013 中的 tblLastInviteId</a></span><span class="sxs-lookup"><span data-stu-id="c123a-166"><a href="lync-server-2013-tbllastinviteid.md">tblLastInviteId in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-167">含有為每個使用者產生 (也用於 tblPrincipalInvites 表格) 的最後一個邀請 ID。</span><span class="sxs-lookup"><span data-stu-id="c123a-167">Contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-167"><a href="lync-server-2013-tbllastchatid.md">Lync Server 2013 中的 tblLastChatId</a></span><span class="sxs-lookup"><span data-stu-id="a8952-167"><a href="lync-server-2013-tbllastchatid.md">tblLastChatId in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-168">含有為每個使用者產生 (也用於 tblChat 表格) 的最後一個聊天 ID。</span><span class="sxs-lookup"><span data-stu-id="a8952-168">Contains the last chat ID that was generated (and used in the tblChat table) for each user.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-168"><a href="lync-server-2013-tbllastchatid.md">Lync Server 2013 中的 tblLastChatId</a></span><span class="sxs-lookup"><span data-stu-id="c123a-168"><a href="lync-server-2013-tbllastchatid.md">tblLastChatId in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-169">含有為每個使用者產生 (也用於 tblChat 表格) 的最後一個聊天 ID。</span><span class="sxs-lookup"><span data-stu-id="c123a-169">Contains the last chat ID that was generated (and used in the tblChat table) for each user.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-169"><a href="lync-server-2013-tblpreference.md">Lync Server 2013 中的 tblPreference</a></span><span class="sxs-lookup"><span data-stu-id="a8952-169"><a href="lync-server-2013-tblpreference.md">tblPreference in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-170">包含使用者用戶端喜好設定 (僅限舊版用戶端使用)。</span><span class="sxs-lookup"><span data-stu-id="a8952-170">Contains user client preferences (used by legacy clients only).</span></span></p></td>
+<td><p><span data-ttu-id="c123a-170"><a href="lync-server-2013-tblpreference.md">Lync Server 2013 中的 tblPreference</a></span><span class="sxs-lookup"><span data-stu-id="c123a-170"><a href="lync-server-2013-tblpreference.md">tblPreference in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-171">包含使用者用戶端喜好設定 (僅限舊版用戶端使用)。</span><span class="sxs-lookup"><span data-stu-id="c123a-171">Contains user client preferences (used by legacy clients only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-171"><a href="lync-server-2013-tblfiletoken.md">Lync Server 2013 中的 tblFileToken</a></span><span class="sxs-lookup"><span data-stu-id="a8952-171"><a href="lync-server-2013-tblfiletoken.md">tblFileToken in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-172">包含用於檔案傳輸的臨時權杖。</span><span class="sxs-lookup"><span data-stu-id="a8952-172">Contains temporary tokens for file transfer purposes.</span></span> <span data-ttu-id="a8952-173">每次上傳或下載檔案時，Persistent 聊天服務都會產生一個權杖，用戶端會使用該權杖來存取 Web 服務檔案存放區。</span><span class="sxs-lookup"><span data-stu-id="a8952-173">Each time a file is uploaded or downloaded, the Persistent Chat service generates a token that the client uses to access the Web service file store.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-172"><a href="lync-server-2013-tblfiletoken.md">Lync Server 2013 中的 tblFileToken</a></span><span class="sxs-lookup"><span data-stu-id="c123a-172"><a href="lync-server-2013-tblfiletoken.md">tblFileToken in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-173">包含用於檔案傳輸的臨時權杖。</span><span class="sxs-lookup"><span data-stu-id="c123a-173">Contains temporary tokens for file transfer purposes.</span></span> <span data-ttu-id="c123a-174">每次上傳或下載檔案時，Persistent 聊天服務都會產生一個權杖，用戶端會使用該權杖來存取 Web 服務檔案存放區。</span><span class="sxs-lookup"><span data-stu-id="c123a-174">Each time a file is uploaded or downloaded, the Persistent Chat service generates a token that the client uses to access the Web service file store.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -206,7 +207,7 @@ ms.locfileid: "48513880"
 
 <div>
 
-## <a name="server-support"></a><span data-ttu-id="a8952-174">伺服器支援</span><span class="sxs-lookup"><span data-stu-id="a8952-174">Server Support</span></span>
+## <a name="server-support"></a><span data-ttu-id="c123a-175">伺服器支援</span><span class="sxs-lookup"><span data-stu-id="c123a-175">Server Support</span></span>
 
 
 <table>
@@ -216,30 +217,30 @@ ms.locfileid: "48513880"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8952-175">資料表</span><span class="sxs-lookup"><span data-stu-id="a8952-175">Table</span></span></th>
-<th><span data-ttu-id="a8952-176">描述</span><span class="sxs-lookup"><span data-stu-id="a8952-176">Description</span></span></th>
+<th><span data-ttu-id="c123a-176">資料表</span><span class="sxs-lookup"><span data-stu-id="c123a-176">Table</span></span></th>
+<th><span data-ttu-id="c123a-177">描述</span><span class="sxs-lookup"><span data-stu-id="c123a-177">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-177"><a href="lync-server-2013-tblserveridentity.md">Lync Server 2013 中的 tblServerIdentity</a></span><span class="sxs-lookup"><span data-stu-id="a8952-177"><a href="lync-server-2013-tblserveridentity.md">tblServerIdentity in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-178">包含 Persistent Chat Server 集區中的主動伺服器。</span><span class="sxs-lookup"><span data-stu-id="a8952-178">Contains the active servers in the Persistent Chat Server pool.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-178"><a href="lync-server-2013-tblserveridentity.md">Lync Server 2013 中的 tblServerIdentity</a></span><span class="sxs-lookup"><span data-stu-id="c123a-178"><a href="lync-server-2013-tblserveridentity.md">tblServerIdentity in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-179">包含 Persistent Chat Server 集區中的主動伺服器。</span><span class="sxs-lookup"><span data-stu-id="c123a-179">Contains the active servers in the Persistent Chat Server pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-179"><a href="lync-server-2013-tbladminlock.md">Lync Server 2013 中的 tblAdminLock</a></span><span class="sxs-lookup"><span data-stu-id="a8952-179"><a href="lync-server-2013-tbladminlock.md">tblAdminLock in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-p108">包含執行某些管理員命令所需的管理員鎖定。tblSystemRevision 表格中的系統修訂項目會在每次解除鎖定後遞增。</span><span class="sxs-lookup"><span data-stu-id="a8952-p108">Contains the administrator lock to run some administrator commands. The system revision entry in the tblSystemRevision table is incremented after each release of the lock.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-180"><a href="lync-server-2013-tbladminlock.md">Lync Server 2013 中的 tblAdminLock</a></span><span class="sxs-lookup"><span data-stu-id="c123a-180"><a href="lync-server-2013-tbladminlock.md">tblAdminLock in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-p108">包含執行某些管理員命令所需的管理員鎖定。tblSystemRevision 表格中的系統修訂項目會在每次解除鎖定後遞增。</span><span class="sxs-lookup"><span data-stu-id="c123a-p108">Contains the administrator lock to run some administrator commands. The system revision entry in the tblSystemRevision table is incremented after each release of the lock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-182"><a href="lync-server-2013-tblsystemrevision.md">Lync Server 2013 中的 tblSystemRevision</a></span><span class="sxs-lookup"><span data-stu-id="a8952-182"><a href="lync-server-2013-tblsystemrevision.md">tblSystemRevision in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-183">包含所用的修訂編號項目 (搭配 tblAdminLock 表格) 以用於封存多部伺服器間的一致性。</span><span class="sxs-lookup"><span data-stu-id="a8952-183">Contains the revision number entry used (along with the tblAdminLock table) for achieving consistency across multiple servers.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-183"><a href="lync-server-2013-tblsystemrevision.md">Lync Server 2013 中的 tblSystemRevision</a></span><span class="sxs-lookup"><span data-stu-id="c123a-183"><a href="lync-server-2013-tblsystemrevision.md">tblSystemRevision in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-184">包含所用的修訂編號項目 (搭配 tblAdminLock 表格) 以用於封存多部伺服器間的一致性。</span><span class="sxs-lookup"><span data-stu-id="c123a-184">Contains the revision number entry used (along with the tblAdminLock table) for achieving consistency across multiple servers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8952-184"><a href="lync-server-2013-tblactivepeers.md">Lync Server 2013 中的 tblActivePeers</a></span><span class="sxs-lookup"><span data-stu-id="a8952-184"><a href="lync-server-2013-tblactivepeers.md">tblActivePeers in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-185">包含 Persistent Chat service 之間目前的對等連線。</span><span class="sxs-lookup"><span data-stu-id="a8952-185">Contains current peer-to-peer connections between Persistent Chat services.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-185"><a href="lync-server-2013-tblactivepeers.md">Lync Server 2013 中的 tblActivePeers</a></span><span class="sxs-lookup"><span data-stu-id="c123a-185"><a href="lync-server-2013-tblactivepeers.md">tblActivePeers in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-186">包含 Persistent Chat service 之間目前的對等連線。</span><span class="sxs-lookup"><span data-stu-id="c123a-186">Contains current peer-to-peer connections between Persistent Chat services.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8952-186"><a href="lync-server-2013-tblconfig.md">Lync Server 2013 中的 tblConfig</a></span><span class="sxs-lookup"><span data-stu-id="a8952-186"><a href="lync-server-2013-tblconfig.md">tblConfig in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="a8952-187">包含 Persistent Chat Server 不支援的設定。</span><span class="sxs-lookup"><span data-stu-id="a8952-187">Contains the Persistent Chat Server unsupported configuration.</span></span></p></td>
+<td><p><span data-ttu-id="c123a-187"><a href="lync-server-2013-tblconfig.md">Lync Server 2013 中的 tblConfig</a></span><span class="sxs-lookup"><span data-stu-id="c123a-187"><a href="lync-server-2013-tblconfig.md">tblConfig in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="c123a-188">包含 Persistent Chat Server 不支援的設定。</span><span class="sxs-lookup"><span data-stu-id="c123a-188">Contains the Persistent Chat Server unsupported configuration.</span></span></p></td>
 </tr>
 </tbody>
 </table>
