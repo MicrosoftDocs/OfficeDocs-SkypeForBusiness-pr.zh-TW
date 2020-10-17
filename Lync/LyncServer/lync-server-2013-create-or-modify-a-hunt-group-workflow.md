@@ -12,20 +12,22 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e8fd10947bab25e522f35e9cd121a04abbb4a45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 90b4c7c07718faf93237dfe11357dc103bf77e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501680"
 ---
+# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a><span data-ttu-id="adc76-102">在 Lync Server 2013 中建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="adc76-102">Create or modify a hunt group workflow in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a><span data-ttu-id="5f2a6-102">在 Lync Server 2013 中建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="5f2a6-102">Create or modify a hunt group workflow in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42203359"
 
 <span> </span>
 
-<span data-ttu-id="5f2a6-103">_**主題上次修改日期：** 2013-09-11_</span><span class="sxs-lookup"><span data-stu-id="5f2a6-103">_**Topic Last Modified:** 2013-09-11_</span></span>
+<span data-ttu-id="adc76-103">_**主題上次修改日期：** 2013-09-11_</span><span class="sxs-lookup"><span data-stu-id="adc76-103">_**Topic Last Modified:** 2013-09-11_</span></span>
 
-<span data-ttu-id="5f2a6-104">使用下列其中一個程式來建立或修改群組搜尋工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-104">Use one of the following procedures to create or modify a hunt group workflow.</span></span>
+<span data-ttu-id="adc76-104">使用下列其中一個程式來建立或修改群組搜尋工作流程。</span><span class="sxs-lookup"><span data-stu-id="adc76-104">Use one of the following procedures to create or modify a hunt group workflow.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5f2a6-105">您可以使用 Lync Server 管理命令介面或回應群組設定工具來建立及修改群組搜尋工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-105">You can use Lync Server Management Shell or the Response Group Configuration Tool to create and modify hunt group workflows.</span></span> <span data-ttu-id="5f2a6-106">您可以從 Lync Server 控制台存取回應群組設定工具，或是直接從網頁瀏覽器開啟網頁，只要輸入下列 URL: <STRONG>Https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-106">You can access the Response Group Configuration Tool from Lync Server Control Panel, or by opening the webpage directly from a web browser by typing the following URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.</span></span>
+> <span data-ttu-id="adc76-105">您可以使用 Lync Server 管理命令介面或回應群組設定工具來建立及修改群組搜尋工作流程。</span><span class="sxs-lookup"><span data-stu-id="adc76-105">You can use Lync Server Management Shell or the Response Group Configuration Tool to create and modify hunt group workflows.</span></span> <span data-ttu-id="adc76-106">您可以從 Lync Server 控制台存取回應群組設定工具，或是直接從網頁瀏覽器開啟網頁，只要輸入下列 URL: <STRONG>Https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="adc76-106">You can access the Response Group Configuration Tool from Lync Server Control Panel, or by opening the webpage directly from a web browser by typing the following URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.</span></span>
 
 
 
@@ -51,51 +53,51 @@ ms.locfileid: "42203359"
 
 <div>
 
-## <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a><span data-ttu-id="5f2a6-107">使用回應群組設定工具來建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="5f2a6-107">To use Response Group Configuration Tool to create or modify a hunt group workflow</span></span>
+## <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a><span data-ttu-id="adc76-107">使用回應群組設定工具來建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="adc76-107">To use Response Group Configuration Tool to create or modify a hunt group workflow</span></span>
 
-1.  <span data-ttu-id="5f2a6-108">以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-108">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="adc76-108">以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。</span><span class="sxs-lookup"><span data-stu-id="adc76-108">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="5f2a6-109">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="5f2a6-110">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="adc76-109">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="adc76-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="adc76-110">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="adc76-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="5f2a6-111">在左側導覽列中，按一下 **[回應群組]**，然後按一下 **[工作流程]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-111">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
+3.  <span data-ttu-id="adc76-111">在左側導覽列中，按一下 **[回應群組]**，然後按一下 **[工作流程]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-111">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
 
-4.  <span data-ttu-id="5f2a6-112">在 **[工作流程]** 頁面上，按一下 **[建立或編輯工作流程]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-112">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
+4.  <span data-ttu-id="adc76-112">在 **[工作流程]** 頁面上，按一下 **[建立或編輯工作流程]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-112">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
 
-5.  <span data-ttu-id="5f2a6-113">在 [**選取服務**] 搜尋欄位中，輸入主控您要建立或變更之工作流程的**ApplicationServer**服務的全部或部分名稱。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-113">In the **Select a Service** search field, type all or part of the name of the **ApplicationServer** service that hosts the workflow that you want to create or change.</span></span> <span data-ttu-id="5f2a6-114">在產生的服務清單中，按一下您想要的服務，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-114">In the resulting list of services, click the service that you want, and then click **OK**.</span></span>
+5.  <span data-ttu-id="adc76-113">在 [ **選取服務** ] 搜尋欄位中，輸入主控您要建立或變更之工作流程的 **ApplicationServer** 服務的全部或部分名稱。</span><span class="sxs-lookup"><span data-stu-id="adc76-113">In the **Select a Service** search field, type all or part of the name of the **ApplicationServer** service that hosts the workflow that you want to create or change.</span></span> <span data-ttu-id="adc76-114">在產生的服務清單中，按一下您想要的服務，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-114">In the resulting list of services, click the service that you want, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-115">回應群組設定工具隨即開啟。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-115">The Response Group Configuration Tool opens.</span></span> <span data-ttu-id="5f2a6-116">您也可以輸入下列 URL: <STRONG>Https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>，直接從網頁瀏覽器開啟回應群組設定工具。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-116">You can also open the Response Group Configuration Tool directly from a web browser by typing the following URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.</span></span>
+    > <span data-ttu-id="adc76-115">回應群組設定工具隨即開啟。</span><span class="sxs-lookup"><span data-stu-id="adc76-115">The Response Group Configuration Tool opens.</span></span> <span data-ttu-id="adc76-116">您也可以輸入下列 URL: <STRONG>Https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>，直接從網頁瀏覽器開啟回應群組設定工具。</span><span class="sxs-lookup"><span data-stu-id="adc76-116">You can also open the Response Group Configuration Tool directly from a web browser by typing the following URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="5f2a6-117">執行下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-117">Do one of the following:</span></span>
+6.  <span data-ttu-id="adc76-117">執行下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="adc76-117">Do one of the following:</span></span>
     
-      - <span data-ttu-id="5f2a6-118">在 [**建立新的工作流程**] 下，**按一下 [群組搜尋**] 旁的 [建立]。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-118">Under **Create a New Workflow**, next to **Hunt Group, click Create**.</span></span>
+      - <span data-ttu-id="adc76-118">在 [ **建立新的工作流程**] 下， **按一下 [群組搜尋**] 旁的 [建立]。</span><span class="sxs-lookup"><span data-stu-id="adc76-118">Under **Create a New Workflow**, next to **Hunt Group, click Create**.</span></span>
     
-      - <span data-ttu-id="5f2a6-119">在 **[管理現有工作流程]** 下，找到想要變更的工作流程，然後在 **[動作]** 下按一下 **[編輯]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-119">Under **Manage an Existing Workflow**, locate the workflow you want to change, and then under **Action**, click **Edit**.</span></span>
+      - <span data-ttu-id="adc76-119">在 **[管理現有工作流程]** 下，找到想要變更的工作流程，然後在 **[動作]** 下按一下 **[編輯]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-119">Under **Manage an Existing Workflow**, locate the workflow you want to change, and then under **Action**, click **Edit**.</span></span>
 
-7.  <span data-ttu-id="5f2a6-120">如果您準備好讓使用者開始呼叫工作流程，請選取 **[啟用工作流程**]。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-120">If you are ready for users to start calling the workflow, select **Activate the workflow**.</span></span>
+7.  <span data-ttu-id="adc76-120">如果您準備好讓使用者開始呼叫工作流程，請選取 **[啟用工作流程**]。</span><span class="sxs-lookup"><span data-stu-id="adc76-120">If you are ready for users to start calling the workflow, select **Activate the workflow**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-121">若要建立受管理的工作流程，您必須選取<STRONG>[啟用工作流程</STRONG>]。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-121">If you are to creating a managed workflow, you need to select <STRONG>Activate the workflow</STRONG>.</span></span> <span data-ttu-id="5f2a6-122">在您儲存使用中的受管理工作流程之後，您可以修改並停用該工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-122">After you save the active, managed workflow, you can then modify and deactivate it.</span></span>
+    > <span data-ttu-id="adc76-121">若要建立受管理的工作流程，您必須選取 <STRONG>[啟用工作流程</STRONG>]。</span><span class="sxs-lookup"><span data-stu-id="adc76-121">If you are to creating a managed workflow, you need to select <STRONG>Activate the workflow</STRONG>.</span></span> <span data-ttu-id="adc76-122">在您儲存使用中的受管理工作流程之後，您可以修改並停用該工作流程。</span><span class="sxs-lookup"><span data-stu-id="adc76-122">After you save the active, managed workflow, you can then modify and deactivate it.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="5f2a6-123">若要允許同盟使用者撥打群組，請選取 **[針對同盟啟用]** 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-123">To allow federated users to call the group, select the **Enable for federation** check box.</span></span> <span data-ttu-id="5f2a6-124">您也必須具有適用于同盟設定之回應群組應用程式的外部存取原則。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-124">You must also have an external access policy that applies to the Response Group application configured for federation.</span></span>
+8.  <span data-ttu-id="adc76-123">若要允許同盟使用者撥打群組，請選取 **[針對同盟啟用]** 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="adc76-123">To allow federated users to call the group, select the **Enable for federation** check box.</span></span> <span data-ttu-id="adc76-124">您也必須具有適用于同盟設定之回應群組應用程式的外部存取原則。</span><span class="sxs-lookup"><span data-stu-id="adc76-124">You must also have an external access policy that applies to the Response Group application configured for federation.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-125">全域外部存取原則會套用至回應群組應用程式。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-125">The global external access policy applies to the Response Group application.</span></span> <span data-ttu-id="5f2a6-126">您可以使用 Lync Server 控制台或使用<STRONG>get-csexternalaccesspolicy</STRONG>指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-126">You can configure the global policy for response group federation by using Lync Server Control Panel or by using the <STRONG>Set-CsExternalAccessPolicy</STRONG> cmdlet to set the EnableOutsideAccess parameter to True.</span></span> <span data-ttu-id="5f2a6-127">請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-127">Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy.</span></span> <span data-ttu-id="5f2a6-128">因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-128">Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization.</span></span> <span data-ttu-id="5f2a6-129">如需有關如何將原則套用至使用者的詳細資訊，請參閱<A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy In Lync Server 2013</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-129">For details about how policies apply to users, see <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy in Lync Server 2013</A>.</span></span> <span data-ttu-id="5f2a6-130">如需同盟設定的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-get-csexternalaccesspolicy</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-130">For details about the federation setting, see <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>.</span></span>
+    > <span data-ttu-id="adc76-125">全域外部存取原則會套用至回應群組應用程式。</span><span class="sxs-lookup"><span data-stu-id="adc76-125">The global external access policy applies to the Response Group application.</span></span> <span data-ttu-id="adc76-126">您可以使用 Lync Server 控制台或使用 <STRONG>get-csexternalaccesspolicy</STRONG> 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。</span><span class="sxs-lookup"><span data-stu-id="adc76-126">You can configure the global policy for response group federation by using Lync Server Control Panel or by using the <STRONG>Set-CsExternalAccessPolicy</STRONG> cmdlet to set the EnableOutsideAccess parameter to True.</span></span> <span data-ttu-id="adc76-127">請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。</span><span class="sxs-lookup"><span data-stu-id="adc76-127">Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy.</span></span> <span data-ttu-id="adc76-128">因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。</span><span class="sxs-lookup"><span data-stu-id="adc76-128">Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization.</span></span> <span data-ttu-id="adc76-129">如需有關如何將原則套用至使用者的詳細資訊，請參閱 <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy In Lync Server 2013</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-129">For details about how policies apply to users, see <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage external access policy in Lync Server 2013</A>.</span></span> <span data-ttu-id="adc76-130">如需同盟設定的詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-get-csexternalaccesspolicy</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-130">For details about the federation setting, see <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>.</span></span>
 
     
     </div>
@@ -104,111 +106,111 @@ ms.locfileid: "42203359"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-131">在 Lync Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-131">Users who are hosted in Lync Online can’t place calls to response groups that are hosted in an on-premise deployment.</span></span> <span data-ttu-id="5f2a6-132">這在混合式部署中，以及內部部署與 Lync Online 部署同盟的情況皆為 true。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-132">This is true in both hybrid deployments and in cases where an on-premise deployment is federated with a Lync Online deployment.</span></span>
+    > <span data-ttu-id="adc76-131">在 Lync Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。</span><span class="sxs-lookup"><span data-stu-id="adc76-131">Users who are hosted in Lync Online can’t place calls to response groups that are hosted in an on-premise deployment.</span></span> <span data-ttu-id="adc76-132">這在混合式部署中，以及內部部署與 Lync Online 部署同盟的情況皆為 true。</span><span class="sxs-lookup"><span data-stu-id="adc76-132">This is true in both hybrid deployments and in cases where an on-premise deployment is federated with a Lync Online deployment.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="5f2a6-133">若要在通話期間隱藏代理人的身分識別，請選取 **[啟用代理人匿名]** 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-133">To hide the identity of agents during calls, select the **Enable agent anonymity** check box.</span></span>
+9.  <span data-ttu-id="adc76-133">若要在通話期間隱藏代理人的身分識別，請選取 **[啟用代理人匿名]** 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="adc76-133">To hide the identity of agents during calls, select the **Enable agent anonymity** check box.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-134">雖然代理人或來電者可以在建立通話之後新增 IM 及視訊，但是匿名通話不能以立即訊息 (IM) 或視訊開始。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-134">Anonymous calls cannot start with instant messaging (IM) or video, although the agent or the caller can add IM and video after the call is established.</span></span> <span data-ttu-id="5f2a6-135">匿名代理人也可以保留通話、轉接通話 (無條件轉接及諮詢轉接)，以及駐留及擷取通話。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-135">An anonymous agent can also put calls on hold, transfer calls (both blind and consultative transfers), and park and retrieve calls.</span></span> <span data-ttu-id="5f2a6-136">匿名通話不支援會議、應用程式共用和桌面共用、檔案傳輸、白板和資料共同作業，以及通話記錄。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-136">Anonymous calls do not support conferencing, application sharing and desktop sharing, file transfer, whiteboarding and data collaboration, and call recording.</span></span> <span data-ttu-id="5f2a6-137">使用 Lync VDI 外掛程式的代理程式可以以匿名方式接收來電，但無法以匿名方式撥打撥出電話。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-137">Agents using the Lync VDI Plugin can receive incoming calls anonymously, but they cannot make outgoing calls anonymously.</span></span>
+    > <span data-ttu-id="adc76-134">雖然代理人或來電者可以在建立通話之後新增 IM 及視訊，但是匿名通話不能以立即訊息 (IM) 或視訊開始。</span><span class="sxs-lookup"><span data-stu-id="adc76-134">Anonymous calls cannot start with instant messaging (IM) or video, although the agent or the caller can add IM and video after the call is established.</span></span> <span data-ttu-id="adc76-135">匿名代理人也可以保留通話、轉接通話 (無條件轉接及諮詢轉接)，以及駐留及擷取通話。</span><span class="sxs-lookup"><span data-stu-id="adc76-135">An anonymous agent can also put calls on hold, transfer calls (both blind and consultative transfers), and park and retrieve calls.</span></span> <span data-ttu-id="adc76-136">匿名通話不支援會議、應用程式共用和桌面共用、檔案傳輸、白板和資料共同作業，以及通話記錄。</span><span class="sxs-lookup"><span data-stu-id="adc76-136">Anonymous calls do not support conferencing, application sharing and desktop sharing, file transfer, whiteboarding and data collaboration, and call recording.</span></span> <span data-ttu-id="adc76-137">使用 Lync VDI 外掛程式的代理程式可以以匿名方式接收來電，但無法以匿名方式撥打撥出電話。</span><span class="sxs-lookup"><span data-stu-id="adc76-137">Agents using the Lync VDI Plugin can receive incoming calls anonymously, but they cannot make outgoing calls anonymously.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="5f2a6-138">在 [**輸入要接聽電話的群組位址**] 下，輸入主要 SIP 統一資源識別項 (URI) 會接聽工作流程呼叫的群組的位址。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-138">Under **Enter the address of the group that will receive the calls**, type the primary SIP uniform resource identifier (URI) address of the group that will answer calls to the workflow.</span></span>
+10. <span data-ttu-id="adc76-138">在 [ **輸入要接聽電話的群組位址**] 下，輸入主要 SIP 統一資源識別項 (URI) 會接聽工作流程呼叫的群組的位址。</span><span class="sxs-lookup"><span data-stu-id="adc76-138">Under **Enter the address of the group that will receive the calls**, type the primary SIP uniform resource identifier (URI) address of the group that will answer calls to the workflow.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-139">工作流程的主要 URI 是如何識別及參考工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-139">The primary URI for a workflow is how the workflow is identified and referenced.</span></span> <span data-ttu-id="5f2a6-140">您輸入的 SIP URI 會建立為 Active Directory 網域服務中的連絡人物件。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-140">The SIP URI that you enter is created as a contact object in Active Directory Domain Services.</span></span> <span data-ttu-id="5f2a6-141">若要建立 URI，該物件在 Active Directory 中必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-141">To create the URI, the object must be unique in Active Directory.</span></span>
+    > <span data-ttu-id="adc76-139">工作流程的主要 URI 是如何識別及參考工作流程。</span><span class="sxs-lookup"><span data-stu-id="adc76-139">The primary URI for a workflow is how the workflow is identified and referenced.</span></span> <span data-ttu-id="adc76-140">您輸入的 SIP URI 會建立為 Active Directory 網域服務中的連絡人物件。</span><span class="sxs-lookup"><span data-stu-id="adc76-140">The SIP URI that you enter is created as a contact object in Active Directory Domain Services.</span></span> <span data-ttu-id="adc76-141">若要建立 URI，該物件在 Active Directory 中必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="adc76-141">To create the URI, the object must be unique in Active Directory.</span></span>
 
     
     </div>
 
-11. <span data-ttu-id="5f2a6-142">在 [**顯示名稱**] 中，輸入您要針對工作流程顯示的名稱 (例如，Sales Response Group) 。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-142">In **Display name**, type the name that you want to display for the workflow (for example, Sales Response Group).</span></span>
+11. <span data-ttu-id="adc76-142">在 [ **顯示名稱**] 中，輸入您要針對工作流程顯示的名稱 (例如，Sales Response Group) 。</span><span class="sxs-lookup"><span data-stu-id="adc76-142">In **Display name**, type the name that you want to display for the workflow (for example, Sales Response Group).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-143">&lt;在顯示名稱中不要包含 "" 或 " &gt; " 字元。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-143">Do not include the "&lt;" or "&gt;" characters in the display name.</span></span> <span data-ttu-id="5f2a6-144">請勿使用下列顯示名稱，因為它們是保留的： <STRONG>RGS 存在觀察</STRONG>程式或<STRONG>宣告服務</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-144">Do not use the following display names because they are reserved: <STRONG>RGS Presence Watcher</STRONG> or <STRONG>Announcement Service</STRONG>.</span></span>
+    > <span data-ttu-id="adc76-143">&lt;在顯示名稱中不要包含 "" 或 " &gt; " 字元。</span><span class="sxs-lookup"><span data-stu-id="adc76-143">Do not include the "&lt;" or "&gt;" characters in the display name.</span></span> <span data-ttu-id="adc76-144">請勿使用下列顯示名稱，因為它們是保留的： <STRONG>RGS 存在觀察</STRONG> 程式或 <STRONG>宣告服務</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="adc76-144">Do not use the following display names because they are reserved: <STRONG>RGS Presence Watcher</STRONG> or <STRONG>Announcement Service</STRONG>.</span></span>
 
     
     </div>
 
-12. <span data-ttu-id="5f2a6-145">在 **[電話號碼]** 下，輸入回應群組的線路 URI (例如，+14255550165)。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-145">Under **Telephone number**, type the line URI for the response group (for example, +14255550165).</span></span>
+12. <span data-ttu-id="adc76-145">在 **[電話號碼]** 下，輸入回應群組的線路 URI (例如，+14255550165)。</span><span class="sxs-lookup"><span data-stu-id="adc76-145">Under **Telephone number**, type the line URI for the response group (for example, +14255550165).</span></span>
 
-13. <span data-ttu-id="5f2a6-146">在 **[顯示號碼]** 中，輸入想要針對回應群組顯示的號碼 (例如，+1 (425) 555-0165)。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-146">In **Display number**, type the number as you want it to appear for the response group (for example, +1 (425) 555-0165).</span></span>
+13. <span data-ttu-id="adc76-146">在 **[顯示號碼]** 中，輸入想要針對回應群組顯示的號碼 (例如，+1 (425) 555-0165)。</span><span class="sxs-lookup"><span data-stu-id="adc76-146">In **Display number**, type the number as you want it to appear for the response group (for example, +1 (425) 555-0165).</span></span>
 
-14. <span data-ttu-id="5f2a6-147"> (選用) 在 [**描述**] 中，輸入您想要在 Lync 用戶端的連絡人卡片上顯示之工作流程的描述。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-147">(Optional) In **Description**, type a description for the workflow as you want it to appear on the contact card in Lync client.</span></span>
+14. <span data-ttu-id="adc76-147"> (選用) 在 [ **描述**] 中，輸入您想要在 Lync 用戶端的連絡人卡片上顯示之工作流程的描述。</span><span class="sxs-lookup"><span data-stu-id="adc76-147">(Optional) In **Description**, type a description for the workflow as you want it to appear on the contact card in Lync client.</span></span>
 
-15. <span data-ttu-id="5f2a6-148">在 [**工作流程類型**] 中，選取 [**受**回應群組管理員管理此工作流程]。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-148">In **Workflow Type**, select **Managed** if this workflow will be managed by a Response Group Manager.</span></span> <span data-ttu-id="5f2a6-149">請執行下列動作，將回應群組管理員指派給工作流程：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-149">Do the following to assign Response Group Managers to the workflow:</span></span>
+15. <span data-ttu-id="adc76-148">在 [ **工作流程類型**] 中，選取 [ **受** 回應群組管理員管理此工作流程]。</span><span class="sxs-lookup"><span data-stu-id="adc76-148">In **Workflow Type**, select **Managed** if this workflow will be managed by a Response Group Manager.</span></span> <span data-ttu-id="adc76-149">請執行下列動作，將回應群組管理員指派給工作流程：</span><span class="sxs-lookup"><span data-stu-id="adc76-149">Do the following to assign Response Group Managers to the workflow:</span></span>
     
-    1.  <span data-ttu-id="5f2a6-150">為此工作流程輸入管理員的 SIP URI，然後按一下 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-150">Type the SIP URI of a manager for this workflow, and click **Add**.</span></span>
+    1.  <span data-ttu-id="adc76-150">為此工作流程輸入管理員的 SIP URI，然後按一下 [ **新增**]。</span><span class="sxs-lookup"><span data-stu-id="adc76-150">Type the SIP URI of a manager for this workflow, and click **Add**.</span></span>
     
-    2.  <span data-ttu-id="5f2a6-151">輸入其他管理員的 SIP URI，以新增至工作流程，然後按一下 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-151">Type the SIP URI of additional managers to add to the workflow, and click **Add**.</span></span>
+    2.  <span data-ttu-id="adc76-151">輸入其他管理員的 SIP URI，以新增至工作流程，然後按一下 [ **新增**]。</span><span class="sxs-lookup"><span data-stu-id="adc76-151">Type the SIP URI of additional managers to add to the workflow, and click **Add**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="5f2a6-152">指定為回應群組管理員的每一位使用者都必須指派 CsResponseGroupManager 角色。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-152">Every user who is designated as a manager of a response group must be assigned the CsResponseGroupManager role.</span></span> <span data-ttu-id="5f2a6-153">若未指派此角色的使用者，他們就無法管理回應群組。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-153">If users are not assigned this role, they cannot manage response groups.</span></span>
+    > <span data-ttu-id="adc76-152">指定為回應群組管理員的每一位使用者都必須指派 CsResponseGroupManager 角色。</span><span class="sxs-lookup"><span data-stu-id="adc76-152">Every user who is designated as a manager of a response group must be assigned the CsResponseGroupManager role.</span></span> <span data-ttu-id="adc76-153">若未指派此角色的使用者，他們就無法管理回應群組。</span><span class="sxs-lookup"><span data-stu-id="adc76-153">If users are not assigned this role, they cannot manage response groups.</span></span>
 
     
     </div>
 
-16. <span data-ttu-id="5f2a6-154">在 **[步驟 2 選取語言]** 下，按一下要用於語音辨識及文字轉語音的語言。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-154">Under **Step 2 Select a Language**, click the language that you want to use for speech recognition and text-to-speech.</span></span>
+16. <span data-ttu-id="adc76-154">在 **[步驟 2 選取語言]** 下，按一下要用於語音辨識及文字轉語音的語言。</span><span class="sxs-lookup"><span data-stu-id="adc76-154">Under **Step 2 Select a Language**, click the language that you want to use for speech recognition and text-to-speech.</span></span>
 
-17. <span data-ttu-id="5f2a6-155">如果您想要設定歡迎訊息，請在 **[步驟 3 設定歡迎訊息]** 下選取 **[播放歡迎訊息]** 核取方塊，然後執行下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-155">If you want to configure a welcome message, under **Step 3 Configure a Welcome Message**, select the **Play a welcome message** check box, and then do one of the following:</span></span>
+17. <span data-ttu-id="adc76-155">如果您想要設定歡迎訊息，請在 **[步驟 3 設定歡迎訊息]** 下選取 **[播放歡迎訊息]** 核取方塊，然後執行下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="adc76-155">If you want to configure a welcome message, under **Step 3 Configure a Welcome Message**, select the **Play a welcome message** check box, and then do one of the following:</span></span>
     
-      - <span data-ttu-id="5f2a6-156">若要以文字輸入為來電者轉換成語音的歡迎訊息，按一下 **[使用文字轉語音]**，然後在文字方塊中輸入歡迎訊息。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-156">To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.</span></span>
+      - <span data-ttu-id="adc76-156">若要以文字輸入為來電者轉換成語音的歡迎訊息，按一下 **[使用文字轉語音]**，然後在文字方塊中輸入歡迎訊息。</span><span class="sxs-lookup"><span data-stu-id="adc76-156">To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-p114">請不要在輸入的文字中包括 HTML 標籤。如果您包括 HTML 標籤，則會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p114">Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.</span></span>
+        > <span data-ttu-id="adc76-p114">請不要在輸入的文字中包括 HTML 標籤。如果您包括 HTML 標籤，則會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="adc76-p114">Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="5f2a6-p115">若要使用聲波 (.wav) 或 Windows Media 音訊 (.wma) 檔案錄音做為歡迎訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的音訊檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p115">To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
+      - <span data-ttu-id="adc76-p115">若要使用聲波 (.wav) 或 Windows Media 音訊 (.wma) 檔案錄音做為歡迎訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的音訊檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="adc76-p115">To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-163">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-163">All user-provided audio files must meet certain requirements.</span></span> <span data-ttu-id="5f2a6-164">如需支援的檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的回應群組技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-164">For details about supported file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
+        > <span data-ttu-id="adc76-163">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="adc76-163">All user-provided audio files must meet certain requirements.</span></span> <span data-ttu-id="adc76-164">如需支援的檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的回應群組技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-164">For details about supported file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
 
         
         </div>
 
-18. <span data-ttu-id="5f2a6-165">在 **[步驟 4 指定您的上班時間]** 的 **[您的時區]** 中，按一下工作流程的時區。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-165">Under **Step 4 Specify Your Business Hours**, in **Your time zone**, click the time zone for the workflow.</span></span>
+18. <span data-ttu-id="adc76-165">在 **[步驟 4 指定您的上班時間]** 的 **[您的時區]** 中，按一下工作流程的時區。</span><span class="sxs-lookup"><span data-stu-id="adc76-165">Under **Step 4 Specify Your Business Hours**, in **Your time zone**, click the time zone for the workflow.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-p117">此時區即為工作流程的來電者和專員所在之時區，可用來計算開啟和關閉的時間。例如，如果工作流程設定為使用「北美東部時區」，而工作流程排定為早上 7:00 開啟，晚上 11:00 關閉，則開啟和關閉的時間就會分別假設為東部時區 7:00 和東部時區 23:00。(您必須使用 24 小時時間標記法輸入時間)。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p117">The time zone is the time zone where the callers and agents of the workflow reside. It is used to calculate the open and close hours. For example, if the workflow is configured to use the North American Eastern Time zone and the workflow is scheduled to open at 7:00 A.M. and close at 11:00 P.M., the open and close times are assumed to be 7:00 Eastern Time and 23:00 Eastern Time respectively. (You must enter the times in 24-hour time notation.)</span></span>
+    > <span data-ttu-id="adc76-p117">此時區即為工作流程的來電者和專員所在之時區，可用來計算開啟和關閉的時間。例如，如果工作流程設定為使用「北美東部時區」，而工作流程排定為早上 7:00 開啟，晚上 11:00 關閉，則開啟和關閉的時間就會分別假設為東部時區 7:00 和東部時區 23:00。(您必須使用 24 小時時間標記法輸入時間)。</span><span class="sxs-lookup"><span data-stu-id="adc76-p117">The time zone is the time zone where the callers and agents of the workflow reside. It is used to calculate the open and close hours. For example, if the workflow is configured to use the North American Eastern Time zone and the workflow is scheduled to open at 7:00 A.M. and close at 11:00 P.M., the open and close times are assumed to be 7:00 Eastern Time and 23:00 Eastern Time respectively. (You must enter the times in 24-hour time notation.)</span></span>
 
     
     </div>
 
-19. <span data-ttu-id="5f2a6-171">執行下列其中一項，以選取想要使用的上班時間排程類型：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-171">Select the type of business hours schedule you want to use by doing one of the following:</span></span>
+19. <span data-ttu-id="adc76-171">執行下列其中一項，以選取想要使用的上班時間排程類型：</span><span class="sxs-lookup"><span data-stu-id="adc76-171">Select the type of business hours schedule you want to use by doing one of the following:</span></span>
     
-      - <span data-ttu-id="5f2a6-172">若要使用預先定義的上班時間排程，請按一下 **[使用預設排程]**，然後從下拉式清單中選取想要使用的排程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-172">To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.</span></span>
+      - <span data-ttu-id="adc76-172">若要使用預先定義的上班時間排程，請按一下 **[使用預設排程]**，然後從下拉式清單中選取想要使用的排程。</span><span class="sxs-lookup"><span data-stu-id="adc76-172">To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-173">您至少先前必須已定義一個預設排程，才能選取此選項。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-173">You must have defined at least one preset schedule previously to be able to select this option.</span></span> <span data-ttu-id="5f2a6-174">您可以使用 <STRONG>New-CSRgsHoursOfBusiness</STRONG> Cmdlet，來定義預設排程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-174">You define preset schedules by using the <STRONG>New-CSRgsHoursOfBusiness</STRONG> cmdlet.</span></span> <span data-ttu-id="5f2a6-175">如需詳細資訊，請參閱<A href="lync-server-2013-optional-define-response-group-business-hours.md"> (選用) 在 Lync Server 2013 中定義回應群組上班時間</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-175">For details, see <A href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</A>.</span></span>
+        > <span data-ttu-id="adc76-173">您至少先前必須已定義一個預設排程，才能選取此選項。</span><span class="sxs-lookup"><span data-stu-id="adc76-173">You must have defined at least one preset schedule previously to be able to select this option.</span></span> <span data-ttu-id="adc76-174">您可以使用 <STRONG>New-CSRgsHoursOfBusiness</STRONG> Cmdlet，來定義預設排程。</span><span class="sxs-lookup"><span data-stu-id="adc76-174">You define preset schedules by using the <STRONG>New-CSRgsHoursOfBusiness</STRONG> cmdlet.</span></span> <span data-ttu-id="adc76-175">如需詳細資訊，請參閱 <A href="lync-server-2013-optional-define-response-group-business-hours.md"> (選用) 在 Lync Server 2013 中定義回應群組上班時間</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-175">For details, see <A href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</A>.</span></span>
 
         
         </div>
@@ -217,139 +219,139 @@ ms.locfileid: "42203359"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-176">當您選取預設排程時，<STRONG>[日]</STRONG>、<STRONG>[開啟]</STRONG> 及 <STRONG>[關閉]</STRONG> 會自動填入回應群組可用的日及時數。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-176">When you select a preset schedule, <STRONG>Day</STRONG>, <STRONG>Open</STRONG>, and <STRONG>Close</STRONG> are automatically filled with the days and hours that the response group is available.</span></span>
+        > <span data-ttu-id="adc76-176">當您選取預設排程時，<STRONG>[日]</STRONG>、<STRONG>[開啟]</STRONG> 及 <STRONG>[關閉]</STRONG> 會自動填入回應群組可用的日及時數。</span><span class="sxs-lookup"><span data-stu-id="adc76-176">When you select a preset schedule, <STRONG>Day</STRONG>, <STRONG>Open</STRONG>, and <STRONG>Close</STRONG> are automatically filled with the days and hours that the response group is available.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="5f2a6-177">若要使用只套用至此工作流程的自訂排程，請按一下 **[使用自訂排程]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-177">To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.</span></span>
+      - <span data-ttu-id="adc76-177">若要使用只套用至此工作流程的自訂排程，請按一下 **[使用自訂排程]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-177">To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.</span></span>
 
-20. <span data-ttu-id="5f2a6-178">如果您是建立此工作流程的自訂排程，請按一下回應群組可用之一星期的哪幾天的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-178">If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.</span></span>
+20. <span data-ttu-id="adc76-178">如果您是建立此工作流程的自訂排程，請按一下回應群組可用之一星期的哪幾天的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="adc76-178">If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.</span></span>
 
-21. <span data-ttu-id="5f2a6-179">如果您是建立自訂排程，請輸入回應群組可用時每個星期幾的 **[開啟]** 及 **[關閉]** 時間。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-179">If you are creating a custom schedule, type the **Open** and **Close** hours for each day of the week that the response group available.</span></span>
+21. <span data-ttu-id="adc76-179">如果您是建立自訂排程，請輸入回應群組可用時每個星期幾的 **[開啟]** 及 **[關閉]** 時間。</span><span class="sxs-lookup"><span data-stu-id="adc76-179">If you are creating a custom schedule, type the **Open** and **Close** hours for each day of the week that the response group available.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-p119"><STRONG>[開啟]</STRONG> 及 <STRONG>[關閉]</STRONG> 時間必須使用 24 小時時間標記法。例如，如果您辦公室平日的辦公時間為 9 點到 5 點，而且會在中午用餐時間關閉，則會將上班時間指定為 <STRONG>[開啟]</STRONG> 9:00、<STRONG>[關閉]</STRONG> 12:00、<STRONG>[開啟]</STRONG> 13:00 以及 <STRONG>[關閉]</STRONG> 17:00。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p119">The <STRONG>Open</STRONG> and <STRONG>Close</STRONG> hours must be in 24-hour time notation. For example, if your office works a 9-to-5 work day and closes at noon for lunch, the business hours are specified as <STRONG>Open</STRONG> 9:00, <STRONG>Close</STRONG> 12:00, <STRONG>Open</STRONG> 13:00, and <STRONG>Close</STRONG> 17:00.</span></span>
+    > <span data-ttu-id="adc76-p119"><STRONG>[開啟]</STRONG> 及 <STRONG>[關閉]</STRONG> 時間必須使用 24 小時時間標記法。例如，如果您辦公室平日的辦公時間為 9 點到 5 點，而且會在中午用餐時間關閉，則會將上班時間指定為 <STRONG>[開啟]</STRONG> 9:00、<STRONG>[關閉]</STRONG> 12:00、<STRONG>[開啟]</STRONG> 13:00 以及 <STRONG>[關閉]</STRONG> 17:00。</span><span class="sxs-lookup"><span data-stu-id="adc76-p119">The <STRONG>Open</STRONG> and <STRONG>Close</STRONG> hours must be in 24-hour time notation. For example, if your office works a 9-to-5 work day and closes at noon for lunch, the business hours are specified as <STRONG>Open</STRONG> 9:00, <STRONG>Close</STRONG> 12:00, <STRONG>Open</STRONG> 13:00, and <STRONG>Close</STRONG> 17:00.</span></span>
 
     
     </div>
 
-22. <span data-ttu-id="5f2a6-182">如果您想要在辦公室關閉時播放訊息，請選取 **[在回應群組下班時播放訊息]** 核取方塊，然後執行下列其中一項，以指定要播放的訊息：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-182">If you want to play a message when the office is not open, select the **Play a message when the response group is outside of business hours** check box, and then specify the message to play by doing one of the following:</span></span>
+22. <span data-ttu-id="adc76-182">如果您想要在辦公室關閉時播放訊息，請選取 **[在回應群組下班時播放訊息]** 核取方塊，然後執行下列其中一項，以指定要播放的訊息：</span><span class="sxs-lookup"><span data-stu-id="adc76-182">If you want to play a message when the office is not open, select the **Play a message when the response group is outside of business hours** check box, and then specify the message to play by doing one of the following:</span></span>
     
-      - <span data-ttu-id="5f2a6-183">若要以文字輸入為來電者轉換成語音的訊息，請按一下 **[使用文字轉語音]**，然後在文字方塊中輸入訊息。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-183">To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.</span></span>
+      - <span data-ttu-id="adc76-183">若要以文字輸入為來電者轉換成語音的訊息，請按一下 **[使用文字轉語音]**，然後在文字方塊中輸入訊息。</span><span class="sxs-lookup"><span data-stu-id="adc76-183">To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-p120">請不要在輸入的文字中包括 HTML 標籤。如果您包括 HTML 標籤，則會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p120">Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.</span></span>
+        > <span data-ttu-id="adc76-p120">請不要在輸入的文字中包括 HTML 標籤。如果您包括 HTML 標籤，則會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="adc76-p120">Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="5f2a6-p121">若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p121">To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
+      - <span data-ttu-id="adc76-p121">若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="adc76-p121">To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-190">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-190">All user-provided audio files must meet certain requirements.</span></span> <span data-ttu-id="5f2a6-191">如需支援的音訊檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-191">For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
+        > <span data-ttu-id="adc76-190">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="adc76-190">All user-provided audio files must meet certain requirements.</span></span> <span data-ttu-id="adc76-191">如需支援的音訊檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-191">For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
 
         
         </div>
 
-23. <span data-ttu-id="5f2a6-192">指定在播放訊息之後如何處理通話 (如果有設定訊息)：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-192">Specify how to handle calls after the message is played (if a message is configured):</span></span>
+23. <span data-ttu-id="adc76-192">指定在播放訊息之後如何處理通話 (如果有設定訊息)：</span><span class="sxs-lookup"><span data-stu-id="adc76-192">Specify how to handle calls after the message is played (if a message is configured):</span></span>
     
-      - <span data-ttu-id="5f2a6-193">若要中斷來電，按一下 **[中斷通話]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-193">To disconnect the call, click **Disconnect Call**.</span></span>
+      - <span data-ttu-id="adc76-193">若要中斷來電，按一下 **[中斷通話]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-193">To disconnect the call, click **Disconnect Call**.</span></span>
     
-      - <span data-ttu-id="5f2a6-194">若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-194">To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address.</span></span> <span data-ttu-id="5f2a6-195">語音信箱位址的格式為 \< username \> @ \< domainName \> (例如，bob@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-195">The format for the voice mail address is \<username\>@\<domainName\> (for example, bob@contoso.com).</span></span>
+      - <span data-ttu-id="adc76-194">若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。</span><span class="sxs-lookup"><span data-stu-id="adc76-194">To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address.</span></span> <span data-ttu-id="adc76-195">語音信箱位址的格式為 \<username\> @ \<domainName\> (例如，bob@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="adc76-195">The format for the voice mail address is \<username\>@\<domainName\> (for example, bob@contoso.com).</span></span>
     
-      - <span data-ttu-id="5f2a6-196">若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-196">To forward the call to another user, click **Forward to SIP URI**, and then type a user address.</span></span> <span data-ttu-id="5f2a6-197">使用者位址的格式為 \< username \> @ \< domainName \> 。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-197">The format for the user address is \<username\>@\<domainName\>.</span></span>
+      - <span data-ttu-id="adc76-196">若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。</span><span class="sxs-lookup"><span data-stu-id="adc76-196">To forward the call to another user, click **Forward to SIP URI**, and then type a user address.</span></span> <span data-ttu-id="adc76-197">使用者位址的格式為 \<username\> @ \<domainName\> 。</span><span class="sxs-lookup"><span data-stu-id="adc76-197">The format for the user address is \<username\>@\<domainName\>.</span></span>
     
-      - <span data-ttu-id="5f2a6-198">若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-198">To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number.</span></span> <span data-ttu-id="5f2a6-199">電話號碼的格式是 \< 號碼 \> @ \< domainName \> (例如，+ 14255550121@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-199">The format for the telephone number is \<number\>@\<domainName\> (for example, +14255550121@contoso.com).</span></span> <span data-ttu-id="5f2a6-200">網域名稱會用來將來電者路由到正確的目的地。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-200">The domain name is used to route the caller to the correct destination.</span></span>
+      - <span data-ttu-id="adc76-198">若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。</span><span class="sxs-lookup"><span data-stu-id="adc76-198">To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number.</span></span> <span data-ttu-id="adc76-199">電話號碼的格式為 \<number\> @ \<domainName\> (例如，+ 14255550121@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="adc76-199">The format for the telephone number is \<number\>@\<domainName\> (for example, +14255550121@contoso.com).</span></span> <span data-ttu-id="adc76-200">網域名稱會用來將來電者路由到正確的目的地。</span><span class="sxs-lookup"><span data-stu-id="adc76-200">The domain name is used to route the caller to the correct destination.</span></span>
 
-24. <span data-ttu-id="5f2a6-201">在 **[步驟 5 指定您的假日]** 下，按一下可定義回應群組沒上班之天數的一或多個假日集的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-201">Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.</span></span>
+24. <span data-ttu-id="adc76-201">在 **[步驟 5 指定您的假日]** 下，按一下可定義回應群組沒上班之天數的一或多個假日集的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="adc76-201">Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-202">您需要先定義假日及假日集，再設定工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-202">You need to define holidays and holiday sets before you configure the workflow.</span></span> <span data-ttu-id="5f2a6-203">使用 <STRONG>New-CsRgsHoliday</STRONG> 及 <STRONG>New-CsRgsHolidaySet</STRONG> Cmdlet，可定義假日及假日集。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-203">Use the <STRONG>New-CsRgsHoliday</STRONG> and <STRONG>New-CsRgsHolidaySet</STRONG> cmdlets to define holidays and holiday sets.</span></span> <span data-ttu-id="5f2a6-204">如需詳細資訊，請參閱<A href="lync-server-2013-optional-define-response-group-holiday-sets.md"> (選用) 在 Lync Server 2013 中定義回應群組假日集</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-204">For details, see <A href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="adc76-202">您需要先定義假日及假日集，再設定工作流程。</span><span class="sxs-lookup"><span data-stu-id="adc76-202">You need to define holidays and holiday sets before you configure the workflow.</span></span> <span data-ttu-id="adc76-203">使用 <STRONG>New-CsRgsHoliday</STRONG> 及 <STRONG>New-CsRgsHolidaySet</STRONG> Cmdlet，可定義假日及假日集。</span><span class="sxs-lookup"><span data-stu-id="adc76-203">Use the <STRONG>New-CsRgsHoliday</STRONG> and <STRONG>New-CsRgsHolidaySet</STRONG> cmdlets to define holidays and holiday sets.</span></span> <span data-ttu-id="adc76-204">如需詳細資訊，請參閱 <A href="lync-server-2013-optional-define-response-group-holiday-sets.md"> (選用) 在 Lync Server 2013 中定義回應群組假日集</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-204">For details, see <A href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-25. <span data-ttu-id="5f2a6-205">如果您想要在假日時播放訊息，請選取 **[在假日期間播放訊息]** 核取方塊，然後執行下列其中一項，以指定要播放的訊息：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-205">If you want to play a message on holidays, select the **Play a message during holidays** check box, and then specify the message to play by doing one of the following:</span></span>
+25. <span data-ttu-id="adc76-205">如果您想要在假日時播放訊息，請選取 **[在假日期間播放訊息]** 核取方塊，然後執行下列其中一項，以指定要播放的訊息：</span><span class="sxs-lookup"><span data-stu-id="adc76-205">If you want to play a message on holidays, select the **Play a message during holidays** check box, and then specify the message to play by doing one of the following:</span></span>
     
-      - <span data-ttu-id="5f2a6-206">若要以文字輸入為來電者轉換成語音的訊息，請按一下 **[使用文字轉語音]**，然後在文字方塊中輸入訊息。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-206">To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.</span></span>
+      - <span data-ttu-id="adc76-206">若要以文字輸入為來電者轉換成語音的訊息，請按一下 **[使用文字轉語音]**，然後在文字方塊中輸入訊息。</span><span class="sxs-lookup"><span data-stu-id="adc76-206">To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-p127">請不要在輸入的文字中包括 HTML 標籤。如果您包括 HTML 標籤，則會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p127">Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.</span></span>
+        > <span data-ttu-id="adc76-p127">請不要在輸入的文字中包括 HTML 標籤。如果您包括 HTML 標籤，則會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="adc76-p127">Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="5f2a6-p128">若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p128">To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
+      - <span data-ttu-id="adc76-p128">若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="adc76-p128">To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-213">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-213">All user-provided audio files must meet certain requirements.</span></span> <span data-ttu-id="5f2a6-214">如需支援的音訊檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-214">For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
+        > <span data-ttu-id="adc76-213">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="adc76-213">All user-provided audio files must meet certain requirements.</span></span> <span data-ttu-id="adc76-214">如需支援的音訊檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-214">For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
 
         
         </div>
 
-26. <span data-ttu-id="5f2a6-215">指定在播放訊息之後如何處理通話 (如果有設定訊息)：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-215">Specify how to handle calls after the message is played (if a message is configured):</span></span>
+26. <span data-ttu-id="adc76-215">指定在播放訊息之後如何處理通話 (如果有設定訊息)：</span><span class="sxs-lookup"><span data-stu-id="adc76-215">Specify how to handle calls after the message is played (if a message is configured):</span></span>
     
-      - <span data-ttu-id="5f2a6-216">若要中斷來電，按一下 **[中斷通話]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-216">To disconnect the call, click **Disconnect Call**.</span></span>
+      - <span data-ttu-id="adc76-216">若要中斷來電，按一下 **[中斷通話]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-216">To disconnect the call, click **Disconnect Call**.</span></span>
     
-      - <span data-ttu-id="5f2a6-217">若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-217">To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address.</span></span> <span data-ttu-id="5f2a6-218">語音信箱位址的格式為 \< username \> @ \< domainName \> (例如，bob@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-218">The format for the voice mail address is \<username\>@\<domainName\> (for example, bob@contoso.com).</span></span>
+      - <span data-ttu-id="adc76-217">若要將來電轉送到語音信箱，按一下 **[轉送至語音信箱]**，然後輸入語音信箱位址。</span><span class="sxs-lookup"><span data-stu-id="adc76-217">To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address.</span></span> <span data-ttu-id="adc76-218">語音信箱位址的格式為 \<username\> @ \<domainName\> (例如，bob@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="adc76-218">The format for the voice mail address is \<username\>@\<domainName\> (for example, bob@contoso.com).</span></span>
     
-      - <span data-ttu-id="5f2a6-219">若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-219">To forward the call to another user, click **Forward to SIP URI**, and then type a user address.</span></span> <span data-ttu-id="5f2a6-220">使用者位址的格式為 \< username \> @ \< domainName \> 。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-220">The format for the user address is \<username\>@\<domainName\>.</span></span>
+      - <span data-ttu-id="adc76-219">若要將來電轉送給其他使用者，按一下 **[轉送至 SIP URI]**，然後輸入使用者的位址。</span><span class="sxs-lookup"><span data-stu-id="adc76-219">To forward the call to another user, click **Forward to SIP URI**, and then type a user address.</span></span> <span data-ttu-id="adc76-220">使用者位址的格式為 \<username\> @ \<domainName\> 。</span><span class="sxs-lookup"><span data-stu-id="adc76-220">The format for the user address is \<username\>@\<domainName\>.</span></span>
     
-      - <span data-ttu-id="5f2a6-221">若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-221">To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number.</span></span> <span data-ttu-id="5f2a6-222">電話號碼的格式是 \< 號碼 \> @ \< domainName \> (例如，+ 14255550121@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-222">The format for the telephone number is \<number\>@\<domainName\> (for example, +14255550121@contoso.com).</span></span> <span data-ttu-id="5f2a6-223">網域名稱會用來將來電者路由到正確的目的地。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-223">The domain name is used to route the caller to the correct destination.</span></span>
+      - <span data-ttu-id="adc76-221">若要將來電轉送給其他電話號碼，按一下 **[轉送至電話號碼]**，然後輸入電話號碼。</span><span class="sxs-lookup"><span data-stu-id="adc76-221">To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number.</span></span> <span data-ttu-id="adc76-222">電話號碼的格式為 \<number\> @ \<domainName\> (例如，+ 14255550121@contoso.com) 。</span><span class="sxs-lookup"><span data-stu-id="adc76-222">The format for the telephone number is \<number\>@\<domainName\> (for example, +14255550121@contoso.com).</span></span> <span data-ttu-id="adc76-223">網域名稱會用來將來電者路由到正確的目的地。</span><span class="sxs-lookup"><span data-stu-id="adc76-223">The domain name is used to route the caller to the correct destination.</span></span>
 
-27. <span data-ttu-id="5f2a6-224">在 **[步驟 6 設定佇列]** 的 **[選取要接聽電話的佇列]** 下，選取想要保留來電者直到專員有空的佇列。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-224">Under **Step 6 Configure a Queue**, in **Select the queue that will receive the calls**, select the queue that you want to hold callers until an agent becomes available.</span></span>
+27. <span data-ttu-id="adc76-224">在 **[步驟 6 設定佇列]** 的 **[選取要接聽電話的佇列]** 下，選取想要保留來電者直到專員有空的佇列。</span><span class="sxs-lookup"><span data-stu-id="adc76-224">Under **Step 6 Configure a Queue**, in **Select the queue that will receive the calls**, select the queue that you want to hold callers until an agent becomes available.</span></span>
 
-28. <span data-ttu-id="5f2a6-225">在 **[步驟 7 設定等候音樂]** 下，選擇您要來電者在等候專員時所聆聽的音樂，方法如下：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-225">Under **Step 7 Configure Music on Hold**, choose the music you want callers to listen to while waiting for an agent by doing one of the following:</span></span>
+28. <span data-ttu-id="adc76-225">在 **[步驟 7 設定等候音樂]** 下，選擇您要來電者在等候專員時所聆聽的音樂，方法如下：</span><span class="sxs-lookup"><span data-stu-id="adc76-225">Under **Step 7 Configure Music on Hold**, choose the music you want callers to listen to while waiting for an agent by doing one of the following:</span></span>
     
-      - <span data-ttu-id="5f2a6-226">若要使用預設的等候音樂錄音，按一下 **[使用預設]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-226">To use the default music-on-hold recording, click **Use default**.</span></span>
+      - <span data-ttu-id="adc76-226">若要使用預設的等候音樂錄音，按一下 **[使用預設]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-226">To use the default music-on-hold recording, click **Use default**.</span></span>
     
-      - <span data-ttu-id="5f2a6-p133">若要使用音訊檔案錄音做為等候音樂，請按一下 **[選取音樂檔案]**。如果您想要上傳新的音訊檔案，請按一下 **[音樂檔案]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-p133">To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
+      - <span data-ttu-id="adc76-p133">若要使用音訊檔案錄音做為等候音樂，請按一下 **[選取音樂檔案]**。如果您想要上傳新的音訊檔案，請按一下 **[音樂檔案]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="adc76-p133">To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="5f2a6-231">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-231">All user provided audio files must meet certain requirements.</span></span> <span data-ttu-id="5f2a6-232">如需支援的音訊檔案格式的詳細資訊，請參閱<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-232">For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
+        > <span data-ttu-id="adc76-231">所有使用者提供的音訊檔案都必須符合特定要求。</span><span class="sxs-lookup"><span data-stu-id="adc76-231">All user provided audio files must meet certain requirements.</span></span> <span data-ttu-id="adc76-232">如需支援的音訊檔案格式的詳細資訊，請參閱 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中回應群組的技術需求</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-232">For details about supported audio file formats, see <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical requirements for Response Group in Lync Server 2013</A>.</span></span>
 
         
         </div>
 
-29. <span data-ttu-id="5f2a6-233">按一下 **[部署]**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-233">Click **Deploy**.</span></span>
+29. <span data-ttu-id="adc76-233">按一下 **[部署]**。</span><span class="sxs-lookup"><span data-stu-id="adc76-233">Click **Deploy**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-create-or-modify-a-hunt-group-workflow"></a><span data-ttu-id="5f2a6-234">使用 Windows PowerShell 建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="5f2a6-234">To use Windows PowerShell to create or modify a hunt group workflow</span></span>
+## <a name="to-use-windows-powershell-to-create-or-modify-a-hunt-group-workflow"></a><span data-ttu-id="adc76-234">使用 Windows PowerShell 建立或修改群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="adc76-234">To use Windows PowerShell to create or modify a hunt group workflow</span></span>
 
-1.  <span data-ttu-id="5f2a6-235">以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-235">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="adc76-235">以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。</span><span class="sxs-lookup"><span data-stu-id="adc76-235">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="5f2a6-236">啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-236">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="adc76-236">啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="adc76-236">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="5f2a6-237">建立要對歡迎使用的訊息播放的提示，並將其儲存在變數中。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-237">Create the prompt to be played for the welcome message, and save it in a variable.</span></span> <span data-ttu-id="5f2a6-238">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-238">At the command line, run:</span></span>
+3.  <span data-ttu-id="adc76-237">建立要對歡迎使用的訊息播放的提示，並將其儲存在變數中。</span><span class="sxs-lookup"><span data-stu-id="adc76-237">Create the prompt to be played for the welcome message, and save it in a variable.</span></span> <span data-ttu-id="adc76-238">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="adc76-238">At the command line, run:</span></span>
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    <span data-ttu-id="5f2a6-239">例如：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-239">For example:</span></span>
+    <span data-ttu-id="adc76-239">例如：</span><span class="sxs-lookup"><span data-stu-id="adc76-239">For example:</span></span>
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
     
@@ -357,18 +359,18 @@ ms.locfileid: "42203359"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-240">若要使用音訊檔以進行提示，請使用<STRONG>Import-CsRgsAudioFile</STRONG> Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-240">To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet.</span></span> <span data-ttu-id="5f2a6-241">如需詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-241">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span></span>
+    > <span data-ttu-id="adc76-240">若要使用音訊檔以進行提示，請使用 <STRONG>Import-CsRgsAudioFile</STRONG> Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="adc76-240">To use an audio file for the prompt, use the <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet.</span></span> <span data-ttu-id="adc76-241">如需詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>。</span><span class="sxs-lookup"><span data-stu-id="adc76-241">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="5f2a6-242">取得會定向來電之佇列或問題的身分識別。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-242">Get the identity of the queue or question where the calls will be directed.</span></span> <span data-ttu-id="5f2a6-243">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-243">At the command line, run:</span></span>
+4.  <span data-ttu-id="adc76-242">取得會定向來電之佇列或問題的身分識別。</span><span class="sxs-lookup"><span data-stu-id="adc76-242">Get the identity of the queue or question where the calls will be directed.</span></span> <span data-ttu-id="adc76-243">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="adc76-243">At the command line, run:</span></span>
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    <span data-ttu-id="5f2a6-244">如需建立佇列的詳細資訊，請參閱[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-244">For details about creating the queue, see [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue).</span></span>
+    <span data-ttu-id="adc76-244">如需建立佇列的詳細資訊，請參閱 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)。</span><span class="sxs-lookup"><span data-stu-id="adc76-244">For details about creating the queue, see [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue).</span></span>
 
-5.  <span data-ttu-id="5f2a6-245">定義當工作流程在上班時間開啟時所採取的預設動作，並將其儲存在變數中。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-245">Define the default action to be taken when a workflow is opened during business hours, and save it in a variable.</span></span> <span data-ttu-id="5f2a6-246">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-246">At the command line, run:</span></span>
+5.  <span data-ttu-id="adc76-245">定義當工作流程在上班時間開啟時所採取的預設動作，並將其儲存在變數中。</span><span class="sxs-lookup"><span data-stu-id="adc76-245">Define the default action to be taken when a workflow is opened during business hours, and save it in a variable.</span></span> <span data-ttu-id="adc76-246">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="adc76-246">At the command line, run:</span></span>
     
         $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
     
@@ -376,28 +378,28 @@ ms.locfileid: "42203359"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-247">若要群組搜尋工作流程，預設動作必須將來電導向至佇列。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-247">For hunt group workflows, the default action must direct the call to a queue.</span></span> <span data-ttu-id="5f2a6-248">這是 active 工作流程所需的參數。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-248">This is parameter is required for active workflows.</span></span> <span data-ttu-id="5f2a6-249">不需要使用非使用中的工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-249">It is not required for inactive workflows.</span></span>
+    > <span data-ttu-id="adc76-247">若要群組搜尋工作流程，預設動作必須將來電導向至佇列。</span><span class="sxs-lookup"><span data-stu-id="adc76-247">For hunt group workflows, the default action must direct the call to a queue.</span></span> <span data-ttu-id="adc76-248">這是 active 工作流程所需的參數。</span><span class="sxs-lookup"><span data-stu-id="adc76-248">This is parameter is required for active workflows.</span></span> <span data-ttu-id="adc76-249">不需要使用非使用中的工作流程。</span><span class="sxs-lookup"><span data-stu-id="adc76-249">It is not required for inactive workflows.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="5f2a6-250">例如：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-250">For example:</span></span>
+    <span data-ttu-id="adc76-250">例如：</span><span class="sxs-lookup"><span data-stu-id="adc76-250">For example:</span></span>
     
         $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
 
-6.  <span data-ttu-id="5f2a6-251">若要定義上班時間和假日，您必須在建立或修改工作流程之前加以建立。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-251">If you want to define business hours and holidays, you need to create them before you create or modify the workflow.</span></span> <span data-ttu-id="5f2a6-252">如需詳細資訊，請參閱[ (選用) 在 lync server 2013 中定義回應群組上班時間](lync-server-2013-optional-define-response-group-business-hours.md)和[ (選用) 在 lync Server 2013 中定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-252">For details, see [(Optional) Define Response Group business hours in Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).</span></span>
+6.  <span data-ttu-id="adc76-251">若要定義上班時間和假日，您必須在建立或修改工作流程之前加以建立。</span><span class="sxs-lookup"><span data-stu-id="adc76-251">If you want to define business hours and holidays, you need to create them before you create or modify the workflow.</span></span> <span data-ttu-id="adc76-252">如需詳細資訊，請參閱 [ (選用) 在 lync server 2013 中定義回應群組上班時間](lync-server-2013-optional-define-response-group-business-hours.md) 和 [ (選用) 在 lync Server 2013 中定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)。</span><span class="sxs-lookup"><span data-stu-id="adc76-252">For details, see [(Optional) Define Response Group business hours in Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).</span></span>
 
-7.  <span data-ttu-id="5f2a6-253">如果您想要在上班時間或假期內收到來電的提示，請使用**New-CsRgsPrompt** Cmdlet 來定義提示，然後使用**New-CsRgsCallAction**來定義要在提示之後採取的動作。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-253">If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt.</span></span> <span data-ttu-id="5f2a6-254">如需詳細資訊，請參閱[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)和[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-254">For details, see [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt) and [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction).</span></span>
+7.  <span data-ttu-id="adc76-253">如果您想要在上班時間或假期內收到來電的提示，請使用 **New-CsRgsPrompt** Cmdlet 來定義提示，然後使用 **New-CsRgsCallAction** 來定義要在提示之後採取的動作。</span><span class="sxs-lookup"><span data-stu-id="adc76-253">If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt.</span></span> <span data-ttu-id="adc76-254">如需詳細資訊，請參閱 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt) 和 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)。</span><span class="sxs-lookup"><span data-stu-id="adc76-254">For details, see [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt) and [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction).</span></span>
 
-8.  <span data-ttu-id="5f2a6-255">取得 Lync Server 回應群組服務的服務名稱，並將其指派給變數。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-255">Retrieve the service name for the Lync Server Response Group service and assign it to a variable.</span></span> <span data-ttu-id="5f2a6-256">在命令中執行：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-256">At the command, run:</span></span>
+8.  <span data-ttu-id="adc76-255">取得 Lync Server 回應群組服務的服務名稱，並將其指派給變數。</span><span class="sxs-lookup"><span data-stu-id="adc76-255">Retrieve the service name for the Lync Server Response Group service and assign it to a variable.</span></span> <span data-ttu-id="adc76-256">在命令中執行：</span><span class="sxs-lookup"><span data-stu-id="adc76-256">At the command, run:</span></span>
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
 
-9.  <span data-ttu-id="5f2a6-257">建立或修改工作流程。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-257">Create or modify the workflow.</span></span> <span data-ttu-id="5f2a6-258">若要建立工作流程，請使用**New-CsRgsWorkflow**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-258">To create a workflow, use **New-CsRgsWorkflow**.</span></span> <span data-ttu-id="5f2a6-259">若要修改工作流程，請使用**Set-CsRgsWorkflow**。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-259">To modify a workflow, use **Set-CsRgsWorkflow**.</span></span> <span data-ttu-id="5f2a6-260">在命令列中輸入：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-260">At the command line, type:</span></span>
+9.  <span data-ttu-id="adc76-257">建立或修改工作流程。</span><span class="sxs-lookup"><span data-stu-id="adc76-257">Create or modify the workflow.</span></span> <span data-ttu-id="adc76-258">若要建立工作流程，請使用 **New-CsRgsWorkflow**。</span><span class="sxs-lookup"><span data-stu-id="adc76-258">To create a workflow, use **New-CsRgsWorkflow**.</span></span> <span data-ttu-id="adc76-259">若要修改工作流程，請使用 **Set-CsRgsWorkflow**。</span><span class="sxs-lookup"><span data-stu-id="adc76-259">To modify a workflow, use **Set-CsRgsWorkflow**.</span></span> <span data-ttu-id="adc76-260">在命令列中輸入：</span><span class="sxs-lookup"><span data-stu-id="adc76-260">At the command line, type:</span></span>
     
         $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
     
-    <span data-ttu-id="5f2a6-261">例如：</span><span class="sxs-lookup"><span data-stu-id="5f2a6-261">For example:</span></span>
+    <span data-ttu-id="adc76-261">例如：</span><span class="sxs-lookup"><span data-stu-id="adc76-261">For example:</span></span>
     
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     
@@ -405,7 +407,7 @@ ms.locfileid: "42203359"
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="5f2a6-262">指派給工作流程管理員的所有使用者，都必須指派 CsResponseGroupManager 角色。</span><span class="sxs-lookup"><span data-stu-id="5f2a6-262">All users who are designated managers for workflows must be assigned the CsResponseGroupManager role.</span></span>
+    > <span data-ttu-id="adc76-262">指派給工作流程管理員的所有使用者，都必須指派 CsResponseGroupManager 角色。</span><span class="sxs-lookup"><span data-stu-id="adc76-262">All users who are designated managers for workflows must be assigned the CsResponseGroupManager role.</span></span>
 
     
     </div>
@@ -414,7 +416,7 @@ ms.locfileid: "42203359"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5f2a6-263">如需其他選擇性參數的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A>或<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A></span><span class="sxs-lookup"><span data-stu-id="5f2a6-263">For details about additional optional parameters, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> or <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A></span></span>
+    > <span data-ttu-id="adc76-263">如需其他選擇性參數的詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> 或 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A></span><span class="sxs-lookup"><span data-stu-id="adc76-263">For details about additional optional parameters, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> or <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A></span></span>
 
     
     </div>
@@ -423,19 +425,19 @@ ms.locfileid: "42203359"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5f2a6-264">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5f2a6-264">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="adc76-264">另請參閱</span><span class="sxs-lookup"><span data-stu-id="adc76-264">See Also</span></span>
 
 
-[<span data-ttu-id="5f2a6-265"> (選用) 在 Lync Server 2013 中定義回應群組假日集</span><span class="sxs-lookup"><span data-stu-id="5f2a6-265">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+[<span data-ttu-id="adc76-265"> (選用) 在 Lync Server 2013 中定義回應群組假日集</span><span class="sxs-lookup"><span data-stu-id="adc76-265">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)  
 
 
-[<span data-ttu-id="5f2a6-266"> (選用) 在 Lync Server 2013 中定義回應群組上班時間</span><span class="sxs-lookup"><span data-stu-id="5f2a6-266">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)  
+[<span data-ttu-id="adc76-266"> (選用) 在 Lync Server 2013 中定義回應群組上班時間</span><span class="sxs-lookup"><span data-stu-id="adc76-266">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)  
 
 
-[<span data-ttu-id="5f2a6-267">New-CsRgsWorkflow</span><span class="sxs-lookup"><span data-stu-id="5f2a6-267">New-CsRgsWorkflow</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow)  
-[<span data-ttu-id="5f2a6-268">Set-CsRgsWorkflow</span><span class="sxs-lookup"><span data-stu-id="5f2a6-268">Set-CsRgsWorkflow</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow)  
-[<span data-ttu-id="5f2a6-269">New-CsRgsPrompt</span><span class="sxs-lookup"><span data-stu-id="5f2a6-269">New-CsRgsPrompt</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
-[<span data-ttu-id="5f2a6-270">New-CsRgsCallAction</span><span class="sxs-lookup"><span data-stu-id="5f2a6-270">New-CsRgsCallAction</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
+[<span data-ttu-id="adc76-267">New-CsRgsWorkflow</span><span class="sxs-lookup"><span data-stu-id="adc76-267">New-CsRgsWorkflow</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow)  
+[<span data-ttu-id="adc76-268">Set-CsRgsWorkflow</span><span class="sxs-lookup"><span data-stu-id="adc76-268">Set-CsRgsWorkflow</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow)  
+[<span data-ttu-id="adc76-269">New-CsRgsPrompt</span><span class="sxs-lookup"><span data-stu-id="adc76-269">New-CsRgsPrompt</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
+[<span data-ttu-id="adc76-270">New-CsRgsCallAction</span><span class="sxs-lookup"><span data-stu-id="adc76-270">New-CsRgsCallAction</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
   
 
 </div>
