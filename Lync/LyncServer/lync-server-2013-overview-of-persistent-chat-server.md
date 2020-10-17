@@ -1,5 +1,5 @@
 ---
-title: 常設聊天室伺服器的 Lync Server 2013： 概觀
+title: Lync Server 2013： Persistent Chat Server 的簡介
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38188067f5320c7e9fc6aa7ccef60812d5a42023
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215939"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520860"
 ---
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="448dc-102">Lync Server 2013 中的 Persistent Chat Server 概述</span><span class="sxs-lookup"><span data-stu-id="448dc-102">Overview of Persistent Chat Server in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="0baf8-102">在 Lync Server 2013 常設聊天室伺服器的概觀</span><span class="sxs-lookup"><span data-stu-id="0baf8-102">Overview of Persistent Chat Server in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42215939"
 
 <span> </span>
 
-<span data-ttu-id="0baf8-103">_**主題上次修改日期：** 2012年-10-29_</span><span class="sxs-lookup"><span data-stu-id="0baf8-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="448dc-103">_**主題上次修改日期：** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="448dc-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="0baf8-104">Lync Server 2013，Persistent Chat Server 可讓使用者參與多方、 主題型保留一段時間的交談。</span><span class="sxs-lookup"><span data-stu-id="0baf8-104">Lync Server 2013, Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span> <span data-ttu-id="0baf8-105">Persistent Chat Server 可協助組織，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="0baf8-105">Persistent Chat Server can help your organization do the following:</span></span>
+<span data-ttu-id="448dc-104">Lync Server 2013，Persistent Chat Server 可讓使用者加入一段時間內的多方、主題型交談。</span><span class="sxs-lookup"><span data-stu-id="448dc-104">Lync Server 2013, Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span> <span data-ttu-id="448dc-105">Persistent Chat Server 可以協助貴組織執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="448dc-105">Persistent Chat Server can help your organization do the following:</span></span>
 
-  - <span data-ttu-id="0baf8-106">改進地理位置分散且跨部門之小組間的通訊。</span><span class="sxs-lookup"><span data-stu-id="0baf8-106">Improve communication between geographically dispersed and cross-functional teams.</span></span> <span data-ttu-id="0baf8-107">藉由使用常設聊天室，小組可以有效地共用資訊、 想法和決策與另一個。</span><span class="sxs-lookup"><span data-stu-id="0baf8-107">By using Persistent Chat, teams can efficiently share information, ideas, and decisions with one another.</span></span> <span data-ttu-id="0baf8-108">張貼至聊天室 （論壇） 的郵件可以保存 （也就是可供使用一段時間），以便從不同的位置和部門的人員可以參與，即使當它們不同時線上。</span><span class="sxs-lookup"><span data-stu-id="0baf8-108">The messages posted to chat rooms (discussion forums) can persist (that is, can be available over time), so that people from different locations and departments can participate, even when they are not simultaneously online.</span></span> <span data-ttu-id="0baf8-109">當使用者連接至聊天室時，為了讓使用者在內容交談聊天室自動載入討論串 （聊天歷程記錄訊息的可設定數字）。</span><span class="sxs-lookup"><span data-stu-id="0baf8-109">When a user connects to a chat room, backchat (a configurable number of chat-history messages) is automatically loaded in the chat room to give the user a context for the conversation.</span></span>
+  - <span data-ttu-id="448dc-106">改進地理位置分散且跨部門之小組間的通訊。</span><span class="sxs-lookup"><span data-stu-id="448dc-106">Improve communication between geographically dispersed and cross-functional teams.</span></span> <span data-ttu-id="448dc-107">透過使用持續性聊天，小組可以有效率地與其他人共用資訊、想法和決策。</span><span class="sxs-lookup"><span data-stu-id="448dc-107">By using Persistent Chat, teams can efficiently share information, ideas, and decisions with one another.</span></span> <span data-ttu-id="448dc-108">張貼至聊天室的郵件 (討論論壇) 可以保留 (也就是在) 的時間內可用，所以來自不同位置和部門的人員可以加入，即使他們不在線上也是一樣。</span><span class="sxs-lookup"><span data-stu-id="448dc-108">The messages posted to chat rooms (discussion forums) can persist (that is, can be available over time), so that people from different locations and departments can participate, even when they are not simultaneously online.</span></span> <span data-ttu-id="448dc-109">當使用者連線至聊天室時，backchat (會自動載入聊天室的可設定聊天記錄) 郵件的數量，以提供使用者談話的內容。</span><span class="sxs-lookup"><span data-stu-id="448dc-109">When a user connects to a chat room, backchat (a configurable number of chat-history messages) is automatically loaded in the chat room to give the user a context for the conversation.</span></span>
 
-  - <span data-ttu-id="0baf8-110">改進資訊傳達方式。</span><span class="sxs-lookup"><span data-stu-id="0baf8-110">Improve information awareness.</span></span> <span data-ttu-id="0baf8-111">藉由使用用戶端篩選，使用者可以定義條件 — 例如關鍵字的郵件內容或在郵件中的 「 發話 」 欄位的值-若要在 [常設聊天室立即訊息或聊天室訊息符合這些條件時收到通知。</span><span class="sxs-lookup"><span data-stu-id="0baf8-111">By using client-side filters, users can define conditions—such as keywords in message content, or the value of the "from" field in a message—to receive notification when those conditions are met in Persistent Chat instant messages or chat room messages.</span></span> <span data-ttu-id="0baf8-112">如此一來，使用者可以保持以他們最感興趣的內容。</span><span class="sxs-lookup"><span data-stu-id="0baf8-112">This way, users can stay up-to-date with the content that interests them most.</span></span>
+  - <span data-ttu-id="448dc-110">改進資訊傳達方式。</span><span class="sxs-lookup"><span data-stu-id="448dc-110">Improve information awareness.</span></span> <span data-ttu-id="448dc-111">透過使用用戶端篩選器，使用者可以定義條件，例如郵件內容中的關鍵字，或郵件中的「寄件者」欄位中的值，以便在持續性聊天立即訊息或聊天室訊息中符合這些條件時，接收通知。</span><span class="sxs-lookup"><span data-stu-id="448dc-111">By using client-side filters, users can define conditions—such as keywords in message content, or the value of the "from" field in a message—to receive notification when those conditions are met in Persistent Chat instant messages or chat room messages.</span></span> <span data-ttu-id="448dc-112">這樣一來，使用者就可以隨時掌握最新的內容。</span><span class="sxs-lookup"><span data-stu-id="448dc-112">This way, users can stay up-to-date with the content that interests them most.</span></span>
 
-  - <span data-ttu-id="0baf8-113">改進大企業的通訊。</span><span class="sxs-lookup"><span data-stu-id="0baf8-113">Improve communication with their extended organization.</span></span> <span data-ttu-id="0baf8-114">輕鬆地共同作業段長時間執行主題與其他人在組織中，並提供持續性的理想的共用資訊，常設聊天室協助改善通訊。</span><span class="sxs-lookup"><span data-stu-id="0baf8-114">By making it easy to collaborate over long-running topics with others in the organization, and by providing a persistent place to share information, Persistent Chat helps improve communication.</span></span>
+  - <span data-ttu-id="448dc-113">改進大企業的通訊。</span><span class="sxs-lookup"><span data-stu-id="448dc-113">Improve communication with their extended organization.</span></span> <span data-ttu-id="448dc-114">透過輕鬆地與組織中的其他人合作，並提供共用資訊的持久位置，持續聊天可協助改善通訊。</span><span class="sxs-lookup"><span data-stu-id="448dc-114">By making it easy to collaborate over long-running topics with others in the organization, and by providing a persistent place to share information, Persistent Chat helps improve communication.</span></span>
 
-  - <span data-ttu-id="0baf8-115">緩和資訊超載的狀況。</span><span class="sxs-lookup"><span data-stu-id="0baf8-115">Reduce information overload.</span></span> <span data-ttu-id="0baf8-116">使用者可以追蹤聊天室和郵件的最感興趣使用用戶端篩選，並可以新增他們想要依照其連絡人清單的聊天室。</span><span class="sxs-lookup"><span data-stu-id="0baf8-116">Users can follow chat rooms and messages of most interest by using client-side filters, and can add chat rooms they want to follow to their contact list.</span></span>
+  - <span data-ttu-id="448dc-115">緩和資訊超載的狀況。</span><span class="sxs-lookup"><span data-stu-id="448dc-115">Reduce information overload.</span></span> <span data-ttu-id="448dc-116">使用者可以使用用戶端篩選器來追蹤聊天室和最感興趣的訊息，也可以新增想要追蹤其連絡人清單的聊天室。</span><span class="sxs-lookup"><span data-stu-id="448dc-116">Users can follow chat rooms and messages of most interest by using client-side filters, and can add chat rooms they want to follow to their contact list.</span></span>
 
-  - <span data-ttu-id="0baf8-117">加強重要知識和資訊的傳播。</span><span class="sxs-lookup"><span data-stu-id="0baf8-117">Increase dispersion of important knowledge and information.</span></span> <span data-ttu-id="0baf8-118">文件和連結可以併入交談中，供整個小組存取。</span><span class="sxs-lookup"><span data-stu-id="0baf8-118">Documents and links can be included within conversations for access by all the team.</span></span> <span data-ttu-id="0baf8-119">透過張貼問題至更廣大的小組，使用者可以從主題專家的回應中受益。</span><span class="sxs-lookup"><span data-stu-id="0baf8-119">By posting questions to a broader team, users can benefit from responses by subject matter experts.</span></span> <span data-ttu-id="0baf8-120">與其他資訊系統的整合可讓重要的組織資料，以輕鬆地傳達給至大型群組。</span><span class="sxs-lookup"><span data-stu-id="0baf8-120">Integration with other information systems enables important organizational data to be easily communicated to large groups.</span></span>
+  - <span data-ttu-id="448dc-117">加強重要知識和資訊的傳播。</span><span class="sxs-lookup"><span data-stu-id="448dc-117">Increase dispersion of important knowledge and information.</span></span> <span data-ttu-id="448dc-118">文件和連結可以併入交談中，供整個小組存取。</span><span class="sxs-lookup"><span data-stu-id="448dc-118">Documents and links can be included within conversations for access by all the team.</span></span> <span data-ttu-id="448dc-119">透過張貼問題至更廣大的小組，使用者可以從主題專家的回應中受益。</span><span class="sxs-lookup"><span data-stu-id="448dc-119">By posting questions to a broader team, users can benefit from responses by subject matter experts.</span></span> <span data-ttu-id="448dc-120">與其他資訊系統整合，可讓重要的組織資料輕鬆地傳遞給大型群組。</span><span class="sxs-lookup"><span data-stu-id="448dc-120">Integration with other information systems enables important organizational data to be easily communicated to large groups.</span></span>
 
-<span data-ttu-id="0baf8-121">若要啟用 Lync Server 2013 中的聊天室，請部署 Lync Server 2013 常設聊天室。</span><span class="sxs-lookup"><span data-stu-id="0baf8-121">To enable chat rooms in Lync Server 2013, deploy Lync Server 2013 Persistent Chat.</span></span> <span data-ttu-id="0baf8-122">如需啟用聊天室的資訊，請參閱 [常設聊天室說明在<https://go.microsoft.com/fwlink/p/?linkid=270945>。</span><span class="sxs-lookup"><span data-stu-id="0baf8-122">For information about enabling chat rooms, see the Persistent Chat Help at <https://go.microsoft.com/fwlink/p/?linkid=270945>.</span></span> <span data-ttu-id="0baf8-123">如果使用者已啟用 Lync Server，並部署 Lync Server 支援，使用者可以安裝並使用 Lync 2013 常設聊天室，提供聊天室支援。</span><span class="sxs-lookup"><span data-stu-id="0baf8-123">If users are enabled for Lync Server, and Lync Server support is deployed, users can install and use Lync 2013 Persistent Chat to provide chat room support.</span></span>
+<span data-ttu-id="448dc-121">若要在 Lync Server 2013 中啟用聊天室，請部署 Lync Server 2013 持久聊天。</span><span class="sxs-lookup"><span data-stu-id="448dc-121">To enable chat rooms in Lync Server 2013, deploy Lync Server 2013 Persistent Chat.</span></span> <span data-ttu-id="448dc-122">如需啟用聊天室的詳細資訊，請參閱的持續聊天協助 <https://go.microsoft.com/fwlink/p/?linkid=270945> 。</span><span class="sxs-lookup"><span data-stu-id="448dc-122">For information about enabling chat rooms, see the Persistent Chat Help at <https://go.microsoft.com/fwlink/p/?linkid=270945>.</span></span> <span data-ttu-id="448dc-123">如果已啟用 Lync Server 的使用者，且已部署 Lync Server 支援，使用者可以安裝和使用 Lync 2013 持續聊天以提供聊天室支援。</span><span class="sxs-lookup"><span data-stu-id="448dc-123">If users are enabled for Lync Server, and Lync Server support is deployed, users can install and use Lync 2013 Persistent Chat to provide chat room support.</span></span>
 
-<span data-ttu-id="0baf8-124">如果您的組織需要遵循法規合規性，您可以選擇性地部署常設聊天室規範服務。</span><span class="sxs-lookup"><span data-stu-id="0baf8-124">If your organization is required to follow compliance regulations, you can optionally deploy Persistent Chat Compliance service.</span></span>
+<span data-ttu-id="448dc-124">如果您的組織需要遵循相容性規定，您可以選擇性地部署 Persistent Chat 合規性服務。</span><span class="sxs-lookup"><span data-stu-id="448dc-124">If your organization is required to follow compliance regulations, you can optionally deploy Persistent Chat Compliance service.</span></span>
 
 </div>
 

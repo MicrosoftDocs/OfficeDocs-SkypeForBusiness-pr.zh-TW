@@ -1,5 +1,5 @@
 ---
-title: 通話許可控制的 Lync Server 2013： 基礎結構需求
+title: Lync Server 2013：通話許可控制的基礎結構需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41e95443e1de200fddd5f3aeb4876132d8963c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ab7d857fa2fb551d1056932166c67855b67a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204190"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521030"
 ---
+# <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="d3774-102">Lync Server 2013 中通話許可控制的基礎結構需求</span><span class="sxs-lookup"><span data-stu-id="d3774-102">Infrastructure requirements for call admission control in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="f0e06-102">Lync Server 2013 中的通話許可控制的基礎結構需求</span><span class="sxs-lookup"><span data-stu-id="f0e06-102">Infrastructure requirements for call admission control in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42204190"
 
 <span> </span>
 
-<span data-ttu-id="f0e06-103">_**主題上次修改日期：** 2012年-08-21_</span><span class="sxs-lookup"><span data-stu-id="f0e06-103">_**Topic Last Modified:** 2012-08-21_</span></span>
+<span data-ttu-id="d3774-103">_**主題上次修改日期：** 2012-08-21_</span><span class="sxs-lookup"><span data-stu-id="d3774-103">_**Topic Last Modified:** 2012-08-21_</span></span>
 
-<span data-ttu-id="f0e06-104">不需要特殊網路路由器之類的額外基礎結構需求。</span><span class="sxs-lookup"><span data-stu-id="f0e06-104">No additional infrastructure requirements, such as special network routers, are necessary.</span></span> <span data-ttu-id="f0e06-105">部署 Lync Server 2013 會自動安裝以強制執行通話許可控制 (CAC) 原則所用的頻寬原則服務。</span><span class="sxs-lookup"><span data-stu-id="f0e06-105">Deploying Lync Server 2013 will automatically install the Bandwidth Policy Service used to enforce call admission control (CAC) policies.</span></span> <span data-ttu-id="f0e06-106">通話許可控制僅適用於執行 Lync 用戶端。</span><span class="sxs-lookup"><span data-stu-id="f0e06-106">Call admission control works only with clients running Lync.</span></span>
+<span data-ttu-id="d3774-104">不需要特殊網路路由器之類的額外基礎結構需求。</span><span class="sxs-lookup"><span data-stu-id="d3774-104">No additional infrastructure requirements, such as special network routers, are necessary.</span></span> <span data-ttu-id="d3774-105">部署 Lync Server 2013 將會自動安裝頻寬原則服務，以用於強制進行通話許可控制 (CAC) 原則。</span><span class="sxs-lookup"><span data-stu-id="d3774-105">Deploying Lync Server 2013 will automatically install the Bandwidth Policy Service used to enforce call admission control (CAC) policies.</span></span> <span data-ttu-id="d3774-106">通話許可控制只適用于執行 Lync 的用戶端。</span><span class="sxs-lookup"><span data-stu-id="d3774-106">Call admission control works only with clients running Lync.</span></span>
 
 </div>
 
