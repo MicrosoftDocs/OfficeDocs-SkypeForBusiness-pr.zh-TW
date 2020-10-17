@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 使用者表格
+title: Lync Server 2013：使用者表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3ea921981726ad1865741a1e8e37f82f8ac125
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed3f2372621b2b098a6b235d1bdc151ddac054bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530160"
 ---
+# <a name="user-table-in-lync-server-2013"></a>Lync Server 2013 中的使用者表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-table-in-lync-server-2013"></a>Lync Server 2013 中的使用者表格
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42212979"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
 User 表格是一種支援資料表，儲存資料庫中所記錄的工作階段之各參與使用者的清單。表格中的每筆記錄代表一位使用者。
 
@@ -51,7 +53,7 @@ User 表格是一種支援資料表，儲存資料庫中所記錄的工作階段
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -64,7 +66,7 @@ User 表格是一種支援資料表，儲存資料庫中所記錄的工作階段
 </tr>
 <tr class="even">
 <td><p><strong>URI</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>Nvarchar (450) </p></td>
 <td><p>Unique</p></td>
 <td><p>URI 字串。</p></td>
 </tr>

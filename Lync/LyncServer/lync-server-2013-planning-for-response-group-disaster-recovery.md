@@ -12,20 +12,22 @@ ms:contentKeyID: 48183482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab630dae949d1972d9e5077035d88d91964034f1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6cc238665ecb0222ded43e438e9f9370b561b85d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530570"
 ---
+# <a name="planning-for-response-group-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中規劃回應群組災難修復
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-group-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中規劃回應群組災難修復
+
 
 </div>
 
@@ -55,9 +57,9 @@ _**主題上次修改日期：** 2012-11-01_
 
 </div>
 
-  - 在進行容量規劃時，請規劃災害復原。 針對災害復原容量，一對集區中的每個集區都應該要能夠處理這兩個集區中所有回應群組的工作量。 如需有關回應群組容量規劃的詳細資訊，請參閱[Lync Server 2013 中的「回應」群組的容量規劃](lync-server-2013-capacity-planning-for-response-group.md)。
+  - 在進行容量規劃時，請規劃災害復原。 針對災害復原容量，一對集區中的每個集區都應該要能夠處理這兩個集區中所有回應群組的工作量。 如需有關回應群組容量規劃的詳細資訊，請參閱 [Lync Server 2013 中的「回應」群組的容量規劃](lync-server-2013-capacity-planning-for-response-group.md)。
 
-  - 在您部署回應群組應用程式的所有前端集區中，請定期備份所有的回應群組設定，並使用本檔中所述的匯出程式。 如需詳細資訊，請參閱[Lync Server 2013 中的回應群組嚴重損壞修復程式](lync-server-2013-response-group-disaster-recovery-procedures.md)。 將備份複本保存在安全的地方。
+  - 在您部署回應群組應用程式的所有前端集區中，請定期備份所有的回應群組設定，並使用本檔中所述的匯出程式。 如需詳細資訊，請參閱 [Lync Server 2013 中的回應群組嚴重損壞修復程式](lync-server-2013-response-group-disaster-recovery-procedures.md)。 將備份複本保存在安全的地方。
 
   - 針對回應群組應用程式，保留您使用的所有原始音訊檔的個別備份副本，包括任何錄製和暫止的檔。 將備份檔案保存在安全的地方。
 
@@ -102,7 +104,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 </div>
 
-您只能為每個集區定義一組應用層級回應群組設定設定。 這些設定包括預設等候音樂組態、預設等候音樂音訊檔案、代理回電寬限期，以及呼叫內容組態。 若要檢視這些組態設定，請執行 **Get-CsRgsConfiguration** Cmdlet。 如需**Get-CsRgsConfiguration** Cmdlet 的詳細資訊，請參閱[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)。
+您只能為每個集區定義一組應用層級回應群組設定設定。 這些設定包括預設等候音樂組態、預設等候音樂音訊檔案、代理回電寬限期，以及呼叫內容組態。 若要檢視這些組態設定，請執行 **Get-CsRgsConfiguration** Cmdlet。 如需 **Get-CsRgsConfiguration** Cmdlet 的詳細資訊，請參閱 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)。
 
 您可以使用 **Import-CsRgsConfiguration** Cmdlet 搭配 –ReplaceExistingSettings 參數，將這些應用程式層級設定從一個集區轉移到另一個集區，但是這麼做會覆寫目的集區中的設定。
 
@@ -122,7 +124,7 @@ _**主題上次修改日期：** 2012-11-01_
 
 下表是有關復原回應群組的步驟概觀。
 
-如需執行這些步驟的詳細資訊，請參閱[Lync Server 2013 中的回應群組嚴重損壞修復程式](lync-server-2013-response-group-disaster-recovery-procedures.md)。
+如需執行這些步驟的詳細資訊，請參閱 [Lync Server 2013 中的回應群組嚴重損壞修復程式](lync-server-2013-response-group-disaster-recovery-procedures.md)。
 
 ### <a name="response-group-disaster-recovery-steps"></a>回應群組災害復原步驟
 
@@ -142,13 +144,13 @@ _**主題上次修改日期：** 2012-11-01_
 <tbody>
 <tr class="odd">
 <td><p>系統中斷之前</p></td>
-<td><p>請定期執行<strong>Export-CsRgsConfiguration</strong> Cmdlet，以在部署回應群組應用程式的所有前端集區中，建立所有回應群組設定的備份。</p></td>
+<td><p>請定期執行 <strong>Export-CsRgsConfiguration</strong> Cmdlet，以在部署回應群組應用程式的所有前端集區中，建立所有回應群組設定的備份。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
 </tr>
 <tr class="even">
 <td><p>系統中斷期間</p></td>
-<td><p>執行<strong>Import-CsRgsConfiguration</strong> Cmdlet，將備份的 Lync Server 回應群組服務設定從主要集區匯入至備份組區。</p>
+<td><p>執行 <strong>Import-CsRgsConfiguration</strong> Cmdlet，將備份的 Lync Server 回應群組服務設定從主要集區匯入至備份組區。</p>
 <div>
 
 > [!NOTE]  

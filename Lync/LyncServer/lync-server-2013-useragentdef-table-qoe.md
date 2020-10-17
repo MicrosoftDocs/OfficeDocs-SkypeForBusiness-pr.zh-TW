@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: UserAgentDef 資料表 (QoE)'
+title: 'Lync Server 2013： UserAgentDef table (QoE) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2daba0f4e37a07065edf6a9c80955047a7d26b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7294c70a0ebfd49f954bbe911d2fccb81d79fa54
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530100"
 ---
+# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>在 Lync Server 2013 中 UserAgentDef table (QoE) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgentDef 資料表 (QoE)
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42212949"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-03-25_
+_**主題上次修改日期：** 2014-03-25_
 
-UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的描述性名稱。 使用者代理程式是用來連線至 Microsoft Lync Server 2013 的軟體用戶端。
+UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至 Microsoft Lync Server 2013 的軟體用戶端。
 
 
 <table>
@@ -55,19 +57,19 @@ UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>AV MCU</p></td>
-<td><p>AV MCU</p></td>
+<td><p>第</p></td>
+<td><p>AV-MCU</p></td>
+<td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>OC</p></td>
-<td><p>OC</p></td>
+<td><p>4 </p></td>
+<td><p>Oc</p></td>
+<td><p>Oc</p></td>
 </tr>
 <tr class="even">
 <td><p>8 </p></td>
@@ -81,18 +83,18 @@ UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的�
 </tr>
 <tr class="even">
 <td><p>32</p></td>
-<td><p>DVT</p></td>
-<td><p>DVT</p></td>
+<td><p>Dvt</p></td>
+<td><p>Dvt</p></td>
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>公釐</p></td>
-<td><p>公釐</p></td>
+<td><p>毫米</p></td>
+<td><p>毫米</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
-<td><p>MC</p></td>
-<td><p>公釐</p></td>
+<td><p>Mc</p></td>
+<td><p>毫米</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
@@ -101,28 +103,28 @@ UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的�
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_1.0</p></td>
-<td><p>CAS</p></td>
+<td><p>Conferencing_Announcement_Service_1。0</p></td>
+<td><p>Cas</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_1.0</p></td>
-<td><p>CAA</p></td>
+<td><p>Conferencing_Attendant_1。0</p></td>
+<td><p>Caa</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_1.0</p></td>
-<td><p>CAA</p></td>
+<td><p>Conference_Auto_Attendant_1。0</p></td>
+<td><p>Caa</p></td>
 </tr>
 <tr class="odd">
 <td><p>1024</p></td>
 <td><p>Response_Group_Service</p></td>
-<td><p>RGS</p></td>
+<td><p>RG</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_1.0</p></td>
-<td><p>CPS</p></td>
+<td><p>Call_Park_Service_1。0</p></td>
+<td><p>Cps</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
@@ -131,8 +133,8 @@ UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的�
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
-<td><p>Microsoft.Rtc.Applications.Ccs</p></td>
-<td><p>CCS</p></td>
+<td><p>Ccs 的應用程式</p></td>
+<td><p>Ccs</p></td>
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
@@ -166,8 +168,8 @@ UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的�
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>ST</p></td>
-<td><p>ST</p></td>
+<td><p>聖</p></td>
+<td><p>聖</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -206,8 +208,8 @@ UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的�
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>電腦</p></td>
-<td><p>電腦</p></td>
+<td><p>個人電腦</p></td>
+<td><p>個人電腦</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
@@ -221,8 +223,8 @@ UserAgentDef 資料表將使用者代理程式識別碼對應至代理程式的�
 </tr>
 <tr class="even">
 <td><p>16407</p></td>
-<td><p>AOC</p></td>
-<td><p>AOC</p></td>
+<td><p>Aoc</p></td>
+<td><p>Aoc</p></td>
 </tr>
 <tr class="odd">
 <td><p>16408</p></td>

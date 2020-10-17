@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 使用者活動報告
+title: Lync Server 2013：使用者活動報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530230"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的使用者活動報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的使用者活動報告
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42192986"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015 年 02 月 27 日_
+_**主題上次修改日期：** 2015-02-27_
 
 「使用者活動報告」提供了指定期間內使用者執行之對等及會議工作階段的詳細清單。不同於多數「監控報告」，「使用者活動報告」將每通通話牽繫到個別使用者。例如，對等工作階段會指定發話者 (來源使用者) 及受話者 (目標使用者) 的 SIP URI。如展開關於會議的資訊，則會顯示所有會議參與者及其在該會議中所扮演角色的清單。
 
 「使用者活動報告」有時稱為「服務台」報告。這是因為此報告常被服務台人員用來擷取特定使用者的工作階段資訊。在 [使用者 URI 首碼] 方塊中輸入使用者的 SIP URI，即可篩選個別使用者所接收或發出的通話。
 
-如果您這麼做時，使用者活動報告將會傳回對其 SIP URI 以指定字串開頭的任何使用者資訊。 例如，如果您輸入**ken**的 URI] 中，使用者活動報告會找出**Ken**。Myer@litwareinc.com。 不過，它也會尋找這些使用者：
+如果您這麼做，使用者活動報告會傳回其 SIP URI 以指定字串開頭的任何使用者資訊。 例如，如果您在 [URI] 方塊中輸入 **ken** ，使用者活動報告就會找到 **ken**。Myer@litwareinc.com。 不過，它也會找到下列使用者：
 
   - **ken**azi@litwareinc.com
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2015 年 02 月 27 日_
 
   - **Ken**nedy@litwareinc.com
 
-若要確保只是傳回 Ken myer 的使用者，其完整的 URI (Ken.Myer@litwareinc.com) 在輸入 [搜尋] 方塊或 Ken 的至少足夠類型的資訊以唯一區別他與您組織中其他使用者的 URI。 例如：
+為了確保只會傳回 Ken Myer 的資訊，請在搜尋方塊中輸入他的完整 URI (Ken.Myer@litwareinc.com) 或至少有足夠類型的 Ken URI，以唯一地區分開他與組織中的其他使用者。 例如：
 
 Ken.my
 
@@ -59,21 +61,21 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>存取使用者活動報告
 
-從「監控報告」首頁可存取「使用者活動報告」。 您也可以[在 Lync Server 2013 中的 IP 電話清查報告](lync-server-2013-ip-phone-inventory-report.md)上的 [使用者 URI] 計量，即可達到使用者活動報告。 從「使用者活動報告」中，按一下 [會議 URI] (針對會議) 會移至「會議詳細資料報告」。 同樣地，按一下 [對等通話詳細資料] 計量會帶您至[Lync Server 2013 中的端對端工作階段詳細資料報告](lync-server-2013-peer-to-peer-session-detail-report.md)。
+從「監控報告」首頁可存取「使用者活動報告」。 您也可以在 [ [Lync Server 2013] 的 [IP 電話清查] 報告](lync-server-2013-ip-phone-inventory-report.md)上，按一下 [使用者] URI 度量，以到達 [使用者活動] 報告。 從「使用者活動報告」中，按一下 [會議 URI] (針對會議) 會移至「會議詳細資料報告」。 同樣地，按一下對等通話的詳細資料度量，會帶您前往 [Lync Server 2013 中的 Peer-to-Peer 會話詳細資料包告](lync-server-2013-peer-to-peer-session-detail-report.md)。
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-user-activity-report"></a>使用者活動報告的最佳用法
+## <a name="making-the-best-use-of-the-user-activity-report"></a>充分運用使用者活動報告
 
-雖然「使用者活動報告」中有許多有用的資訊，但是有時候很難找到所需的資訊。 例如，會發生在指定期間內貴組織中的所有使用者活動都隨附於使用者活動報告。表示、 遭到，報表內哪些使用者確實使用 Microsoft Lync Server 2013 以某種方式的資訊。
+雖然「使用者活動報告」中有許多有用的資訊，但是有時候很難找到所需的資訊。 例如，在指定期間內，組織中發生的所有使用者活動都會包含在使用者活動報告中;這表示在報表內，會有一些使用者實際使用 Microsoft Lync Server 2013 的相關資訊。
 
 <div>
 
 
 > [!WARNING]  
-> 技術上而言，很可能有些使用者活動可能移程： Lync Server 致力於保持所有通話的相關資訊時有可能，來電可能有所沒有寫入至資料庫該通話的相關資訊。 Lync Server 的設計目的是提供極精確，但不是一定完美查看如何使用 Lync Server 2013。 （100%的所有呼叫會記錄不保證的事實說明為什麼 Lync 伺服器監視不應為帳單系統）。<BR>第二，「監控報告」中的報告最多僅可顯示 1,000 筆記錄。所以，取決於使用者活動的多寡及工作期間，您的查詢可能不會傳回資料庫中所有實際儲存的資料。
+> 從技術上而言，有些使用者活動可能會 unrecorded：雖然 Lync Server 盡力保留所有電話通話的資訊，但只要該呼叫的相關資訊未寫入資料庫中，就可以進行通話。 Lync Server 的設計目的是要提供極好的準確性，但不一定要瞭解如何使用 Lync Server 2013。  (不保證所有通話呼叫的100% 的事實，說明為何 Lync Server monitoring 不應該當作帳單系統使用。 ) <BR>第二，「監控報告」中的報告最多僅可顯示 1,000 筆記錄。所以，取決於使用者活動的多寡及工作期間，您的查詢可能不會傳回資料庫中所有實際儲存的資料。
 
 
 
@@ -85,11 +87,11 @@ Ken.my
 
   - 通話最多的使用者也是參與最多立即訊息工作階段的使用者嗎？
 
-如果您需要回答此類問題，可以將「監控報告」擷取的資料匯出到 Excel 試算表。 然後使用該試算表及 (或) 逗點分隔值檔案，以「使用者活動報告」無法做到的方式來分析資料。 例如，假設您已將報告資料匯出到 Excel，再儲存為逗點分隔值檔案。 此時，您可以匯入的資料。CSV 檔案，以 Windows PowerShell 使用類似如下的命令：
+如果您需要回答此類問題，可以將「監控報告」擷取的資料匯出到 Excel 試算表。 然後使用該試算表及 (或) 逗點分隔值檔案，以「使用者活動報告」無法做到的方式來分析資料。 例如，假設您已將報告資料匯出到 Excel，再儲存為逗點分隔值檔案。 在該點，您可以匯入資料。CSV 檔案至 Windows PowerShell，其使用類似如下的命令：
 
     $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 
-資料已匯入之後您可以再使用簡單的 Windows PowerShell 命令來幫助回答您的問題。 例如，以下命令會傳回至少在一個工作階段中擔任「來源使用者」的唯一使用者清單：
+在匯入資料後，您就可以使用簡易的 Windows PowerShell 命令，協助您回答問題。 例如，以下命令會傳回至少在一個工作階段中擔任「來源使用者」的唯一使用者清單：
 
     $x | Group-Object "From user" | Select Name | Sort-Object Name
 
@@ -154,7 +156,7 @@ Ken.my
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
 <p>7/17/12012</p>
 <p>若要按星期或月份查看，請輸入當週或該月您想查看的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/13</p>
+<p>7/13/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -164,33 +166,33 @@ Ken.my
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
 <p>7/17/12012</p>
 <p>若要按星期或月份查看，請輸入當週或該月您想查看的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/13</p>
+<p>7/13/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>活動類型</strong></p></td>
 <td><p>活動的類型。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
-<li><p>端對端</p></li>
+<li><p>一切</p></li>
+<li><p>對等</p></li>
 <li><p>會議</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>形式</strong></p></td>
-<td><p>您可以使用形式會視選取活動類型而有所不同。 對等活動類型時，您可以選取 IM;檔案傳輸。應用程式共用;語音;或視訊作為形式。</p>
-<p>會議活動類型時，您可以選取 IM 電話會議;Web 會議;應用程式共用;語音/視訊會議;或電話語音會議。</p></td>
+<td><p><strong>形態</strong></p></td>
+<td><p>您可以使用的模態視選取活動類型而定。 如果活動類型為 Peer-to-Peer，您可以選取 [IM];檔案傳輸;應用程式共用;口音或像是模態的影片。</p>
+<p>如果活動類型為 [會議]，您可以選取 [IM 電話] 會議;Web 會議;應用程式共用;語音/視訊會議;或電話語音會議。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>工作階段類別</strong></p></td>
 <td><p>指出有疑問的活動為成功或失敗。請選取下列其中一項：</p>
 <ul>
-<li><p>[全部]</p></li>
+<li><p>一切</p></li>
 <li><p>成功</p></li>
 <li><p>預期的失敗</p></li>
 <li><p>未預期的失敗</p></li>
 </ul>
-<p>&quot;預期失敗&quot;是發生; 預期的失敗例如，如果使用者已將他/她的狀態設為 [請勿打擾] 您所預期該使用者的任何呼叫失敗。 &quot;未預期的失敗&quot;是在項目會顯示為否則狀況良好的系統，就會發生的失敗。 例如，當發話者處於保留狀態時，不應掛斷通話。 當發生此狀況時，會將其標幟為未預期的失敗。</p></td>
+<p>&quot;預期的失敗 &quot; 是預期會發生的失敗; 例如，如果使用者已將其狀態設為 [請勿打擾]，則您預期該使用者的任何呼叫都會失敗。 未 &quot; 預期的失敗 &quot; 是指出現在其他狀況良好之系統上的失敗。 例如，當發話者處於保留狀態時，不應掛斷通話。 當發生此狀況時，會將其標幟為未預期的失敗。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>使用者 URI 字首</strong></p></td>
@@ -219,9 +221,9 @@ Ken.my
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -241,7 +243,7 @@ Ken.my
 <td><p>參與對等工作階段之使用者的 SIP 位址。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>形式</strong></p></td>
+<td><p><strong>方式</strong></p></td>
 <td><p>是</p></td>
 <td><p>工作階段中所使用的通訊類型。例如 IM、音訊或檔案傳輸。</p></td>
 </tr>
@@ -253,7 +255,7 @@ Ken.my
 <tr class="even">
 <td><p><strong>回應時間</strong></p></td>
 <td><p>是</p></td>
-<td><p>日期與時間，&quot;以&quot;使用者接受工作階段邀請。</p></td>
+<td><p>&quot;至 &quot; 使用者接受會話邀請的日期和時間。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>結束時間</strong></p></td>
@@ -287,16 +289,16 @@ Ken.my
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>會議 URI</strong></p></td>
 <td><p>是</p></td>
-<td><p>唯一會議識別碼。 當您按一下此項目，報告即顯示所選取之工作階段的會議詳細資料報告。 當您展開此項目，報告會顯示會議參與者的相關資訊。 如需詳細資訊，請參閱&quot;會議參與者的計量&quot;本主題稍後的區段。</p></td>
+<td><p>唯一會議識別碼。 當您按一下此項目，報告即顯示所選取之工作階段的會議詳細資料報告。 當您展開此項目，報告會顯示會議參與者的相關資訊。 如需詳細資訊，請參閱 &quot; 本主題稍後的會議參與者的計量 &quot; 區一節。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>召集人</strong></p></td>
@@ -304,7 +306,7 @@ Ken.my
 <td><p>召開會議之使用者的 SIP 位址。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>是</p></td>
 <td><p>會議中使用的 Edge Server 名稱 (若有的話)。</p></td>
 </tr>
@@ -340,14 +342,14 @@ Ken.my
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>角色</strong></p></td>
+<td><p><strong>Role</strong></p></td>
 <td><p>否</p></td>
 <td><p>使用者的會議角色 (例如簡報者)。</p></td>
 </tr>
@@ -359,7 +361,7 @@ Ken.my
 <tr class="odd">
 <td><p><strong>連線能力</strong></p></td>
 <td><p>否</p></td>
-<td><p>網路連線類型。 例如&quot;從內部&quot;內部連線或&quot;從 PSTN&quot;電話撥入式使用者。</p></td>
+<td><p>網路連線類型。 例如， &quot; 來自內部連線 &quot; 或 &quot; 從 PSTN &quot; 針對撥號使用者。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>加入時間</strong></p></td>

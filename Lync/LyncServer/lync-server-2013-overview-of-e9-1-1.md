@@ -12,20 +12,22 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345116ebdd353fccf85f05a4a3f3ffc82fab6de2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce1c97914abf8e5db393cd932c0a453885e86a5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530620"
 ---
+# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 中的 E9-1-1 簡介
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 中的 E9-1-1 簡介
+
 
 </div>
 
@@ -74,7 +76,7 @@ Lync Server 支援兩種方法，可將緊急通話路由傳送至 E9-1-1 服務
 
 本節說明這些階段的運作方式。
 
-如果您計畫將基礎結構設定為自動偵測用戶端位置，您必須先決定要用來將來電者對應至位置的網路元素。 如需可能選項的詳細資訊，請參閱[在 Lync Server 2013 中定義用來判斷位置的網路元素](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)。
+如果您計畫將基礎結構設定為自動偵測用戶端位置，您必須先決定要用來將來電者對應至位置的網路元素。 如需可能選項的詳細資訊，請參閱 [在 Lync Server 2013 中定義用來判斷位置的網路元素](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)。
 
 <div>
 

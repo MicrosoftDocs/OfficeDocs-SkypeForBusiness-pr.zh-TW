@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 部署通話管理功能
+title: Lync Server 2013：部署通話管理功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c5f2664275b4c6c0e3c93810a7a9521f155f21f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 278bbc82d0952cbc0eda81eb2a85febd16446a8f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531270"
 ---
+# <a name="deploying-call-management-features-in-lync-server-2013"></a>在 Lync Server 2013 中部署通話管理功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-call-management-features-in-lync-server-2013"></a>部署 Lync Server 2013 中的通話管理功能
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42205959"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-12-18_
+_**主題上次修改日期：** 2012-12-18_
 
 Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式。 Lync Server 2013 提供下列通話管理功能：
 
-  - **通話駐留：** 可讓語音使用者暫時駐留通話，然後從相同電話或其他電話接聽。
+  - **通話駐留：** 讓語音使用者暫時駐留通話，然後從相同電話或另一部電話接聽。
 
-  - **群組收取：** 讓使用者可以接聽撥打給另一個使用者的電話通話收取群組號碼指派給收取群組。
+  - **群組裝貨：** 可讓使用者接聽呼叫收取群組號碼，撥打給指派給收取群組之另一個使用者的來電。
 
-  - **回應群組：** 來電路由傳送給群組的代理程式使用搜尋群組或互動語音回應 (IVR) 問題與解答。
+  - **回應群組：** 使用群組搜尋或互動語音回應，將來電路由傳送至代理人群組 (IVR) 問題和解答。
 
-  - **宣告：** 播放一段訊息對撥打給未指派的號碼，或將通話路由傳送到其他地方，或兩者。
+  - **宣告：** 會為撥打未指派號碼的來電播放訊息，或將通話路由傳送到其他地方，或兩者同時進行。
 
 本節說明如何在企業語音部署期間設定這些通話管理功能。
 
@@ -55,7 +57,7 @@ Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式
 
   - [在 Lync Server 2013 中設定通話駐留](lync-server-2013-configuring-call-park.md)
 
-  - [在 Lync Server 2013 中設定群組來電接聽](lync-server-2013-configuring-group-call-pickup.md)
+  - [在 Lync Server 2013 中設定群組呼叫收取](lync-server-2013-configuring-group-call-pickup.md)
 
   - [在 Lync Server 2013 中設定回應群組](lync-server-2013-configuring-response-group.md)
 

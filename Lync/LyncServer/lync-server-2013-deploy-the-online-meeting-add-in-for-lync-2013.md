@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 部署 Online Meeting add-in for Lync 2013
+title: Lync Server 2013：部署 Lync 2013 的線上會議增益集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf4de696539f1b39a0d7e3cda63c7f5e370206ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d7add4e9098366c57440950cbdc998184d22e8a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200096"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531390"
 ---
+# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a>部署 Lync 2013 的線上會議增益集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a>部署 Online Meeting add-in for Lync 2013
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42200096"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-30_
+_**主題上次修改日期：** 2012-09-30_
 
-部署的線上會議增益集 Lync 2013 讓使用者可以排程支援電話撥入式會議的會議。
+部署 Lync 2013 的線上會議增益集，讓使用者可以排程支援電話撥入式會議的會議。
 
-線上會議增益集 for Lync 2013 會自動安裝當您安裝 Lync 2013。 如需 lync 自訂 Online Meeting add-in for Lync 2013 的詳細資訊，請參閱[設定 Lync Server 2013 中的會議邀請](lync-server-2013-configuring-the-meeting-invitation.md)。
+當您安裝 Lync 2013 時，會自動安裝 Lync 2013 的線上會議增益集。 如需針對 Lync 的 Lync 2013 自訂線上會議增益集的詳細資訊，請參閱 [在 Lync Server 2013 中設定會議邀請](lync-server-2013-configuring-the-meeting-invitation.md)。
 
 </div>
 

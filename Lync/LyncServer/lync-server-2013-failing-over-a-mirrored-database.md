@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 容錯移轉鏡像資料庫
+title: Lync Server 2013：容錯移轉鏡像資料庫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24aa85ea7dfdd76b20af30954ea2480fba2f21f5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 853dfdd6786b4e30513cb57be219edff8d8c1b9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204279"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530970"
 ---
+# <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a>在 Lync Server 2013 中容錯移轉鏡像資料庫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a>容錯移轉鏡像資料庫在 Lync Server 2013
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42204279"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-03-14_
+_**主題上次修改日期：** 2014-03-14_
 
 若您已設定後端資料庫以使用具有見證的同步鏡像，將自動進行容錯移轉。若您已經設定不具見證的同步鏡像，則可以使用以下程序，針對資料庫進行容錯移轉與容錯回復。即使您已經設定見證，也可以使用這些程序對資料庫進行手動容錯移轉與容錯回復。
 
@@ -47,7 +49,7 @@ _**上次修改主題：** 2014年-03-14_
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType User
 
-2.  如果中央管理存放區裝載在此集區中，輸入下列 cmdlet 以判斷其為主體以及何者為中央管理存放區的鏡像：
+2.  若中央管理存放區裝載于此集區中，請輸入下列 Cmdlet，以判斷哪個是主體，也就是中央管理存放區的鏡像：
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt
 
@@ -61,7 +63,7 @@ _**上次修改主題：** 2014年-03-14_
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType User -NewPrincipal primary -Verbose
 
-4.  如果該集區裝載中央管理伺服器，執行中央管理存放區容錯的移轉。
+4.  如果集區主控中央管理伺服器，請執行中央管理存放區的容錯移轉。
     
       - 如果主要作業失敗，而您正在進行鏡像容錯移轉，請鍵入：
         

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 會議概觀
+title: Lync Server 2013：會議簡介
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db93019a5caddf21f9517c5fb0e4e0135a7e437e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5ca54eb1243aaf645b5c968588f3f2663fecccc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216399"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530640"
 ---
+# <a name="overview-of-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議綜述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議概觀
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42216399"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-30_
+_**主題上次修改日期：** 2012-09-30_
 
 部署會議時，您可以選擇同時啟用及使用 Web 會議和 A/V 會議，或僅啟用及使用 Web 會議。電話撥入式會議是音訊會議的子集，並且需要額外設定。
 
@@ -47,13 +49,13 @@ _**主題上次修改日期：** 2012年-09-30_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的一般會議概念](lync-server-2013-common-conferencing-concepts.md)
+  - [Lync Server 2013 的常見會議概念](lync-server-2013-common-conferencing-concepts.md)
 
-  - [Lync Server 2013 中的 web 會議概觀](lync-server-2013-web-conferencing-overview.md)
+  - [Lync Server 2013 中的 web 會議概述](lync-server-2013-web-conferencing-overview.md)
 
-  - [概觀 A / V 會議在 Lync Server 2013](lync-server-2013-a-v-conferencing-overview.md)
+  - [Lync Server 2013 中的 A/V 會議綜述](lync-server-2013-a-v-conferencing-overview.md)
 
-  - [Lync Server 2013 中的電話撥入式會議概觀](lync-server-2013-dial-in-conferencing-overview.md)
+  - [Lync Server 2013 中的電話撥入式會議概述](lync-server-2013-dial-in-conferencing-overview.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 部署會議
+title: Lync Server 2013：部署會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733728
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 912273d58acfb5df4967c3481cea340095f2170e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ab8519919e0a1007e697bb15079debb1cdb3719
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531210"
 ---
+# <a name="deploying-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中部署會議
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-conferencing-in-lync-server-2013"></a>部署 Lync Server 2013 中的會議
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42205891"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 09 月 27 日_
+_**主題上次修改日期：** 2012-09-27_
 
-本節說明如何設定撥入會議和 Office Web Apps Server。
+本節說明如何設定電話撥入式會議和 Office Web Apps Server。
 
 <div>
 
@@ -45,9 +47,9 @@ _**主題上次修改日期：** 2012 年 09 月 27 日_
 
   - [在 Lync Server 2013 中設定電話撥入式會議](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [設定與 Office Web Apps Server 及 Lync Server 2013 整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [設定 Office Web Apps Server 與 Lync Server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
-  - [Lync Server 2013 中設定會議加入頁面](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [在 Lync Server 2013 中設定會議加入頁面](lync-server-2013-configuring-the-meeting-join-page.md)
 
 </div>
 

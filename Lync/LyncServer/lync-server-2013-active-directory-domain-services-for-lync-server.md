@@ -12,20 +12,22 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00038dce85a7461be37456d9dee263a71f60c113
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5a4e548f68f68a65ac4ecfb2e4ddc532b5f337c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529710"
 ---
+# <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013 的 Active Directory 網域服務
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013 的 Active Directory 網域服務
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42199586"
 
 _**主題上次修改日期：** 2013-11-13_
 
-Active Directory 網域服務可做為 Windows Server 2003、Windows Server 2008、Windows Server 2012 及 Windows Server 2012 R2 網路的目錄服務。 Active Directory 網域服務也充當建立 Microsoft Lync Server 2013 安全性基礎結構的基礎。 本節的目的是說明 Lync Server 2013 如何使用 Active Directory 網域服務，為 IM、Web 會議、媒體及語音建立信任的環境。 如需有關 Active Directory 網域服務之 Lync 伺服器擴充功能的詳細資料，以及準備您的環境使用 Active Directory 網域服務，請參閱部署檔中的[準備 Lync Server 2013 的 Active Directory 網域服務](lync-server-2013-preparing-active-directory-domain-services.md)。 如需 Windows Server 網路中之 Active Directory 網域服務角色的詳細資料，請參閱您所使用之作業系統版本的文件。
+Active Directory 網域服務可做為 Windows Server 2003、Windows Server 2008、Windows Server 2012 及 Windows Server 2012 R2 網路的目錄服務。 Active Directory 網域服務也充當建立 Microsoft Lync Server 2013 安全性基礎結構的基礎。 本節的目的是說明 Lync Server 2013 如何使用 Active Directory 網域服務，為 IM、Web 會議、媒體及語音建立信任的環境。 如需有關 Active Directory 網域服務之 Lync 伺服器擴充功能的詳細資料，以及準備您的環境使用 Active Directory 網域服務，請參閱部署檔中的 [準備 Lync Server 2013 的 Active Directory 網域服務](lync-server-2013-preparing-active-directory-domain-services.md) 。 如需 Windows Server 網路中之 Active Directory 網域服務角色的詳細資料，請參閱您所使用之作業系統版本的文件。
 
 Lync Server 2013 使用 Active Directory 網域服務來儲存：
 
@@ -59,7 +61,7 @@ Active Directory 的基礎結構需求如下：
 
   - 通用類別目錄網域需求
 
-如需詳細資訊，請參閱部署檔中的[Lync Server 2013 的 Active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)。
+如需詳細資訊，請參閱部署檔中的 [Lync Server 2013 的 Active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md) 。
 
 </div>
 
@@ -79,13 +81,13 @@ Active Directory 的基礎結構需求如下：
 
 部署 Lync Server 2013 時，第一步是準備 Active Directory 網域服務。 準備 Lync Server 2013 的 Active Directory 網域服務包含下列三個步驟：
 
-  - **準備架構**。 這項工作會延伸 Active Directory 網域服務中的架構，以包含 Lync Server 2013 特有的類別和屬性。 如需準備架構的詳細資訊，請參閱部署檔中的在[Lync Server 2013 中執行 Active Directory 架構準備工作](lync-server-2013-running-schema-preparation.md)。 如需詳細資訊，請參閱[從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)。
+  - **準備架構**。 這項工作會延伸 Active Directory 網域服務中的架構，以包含 Lync Server 2013 特有的類別和屬性。 如需準備架構的詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中執行 Active Directory 架構準備工作](lync-server-2013-running-schema-preparation.md) 。 如需詳細資訊，請參閱 [從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)。
 
-  - **準備樹**系。 這項工作會在樹系根網域中建立通用設定和物件，以及控管這些設定和物件存取權的萬用服務和系統管理群組。 如需準備樹系的詳細資訊，請參閱部署檔中的對[Lync Server 2013 執行樹系準備工作](lync-server-2013-running-forest-preparation.md)。
+  - **準備樹**系。 這項工作會在樹系根網域中建立通用設定和物件，以及控管這些設定和物件存取權的萬用服務和系統管理群組。 如需準備樹系的詳細資訊，請參閱部署檔中的對 [Lync Server 2013 執行樹系準備工作](lync-server-2013-running-forest-preparation.md) 。
 
-  - **準備網域**。 這項工作會將必要的存取控制項目 (ACE) 新增至萬用群組，而這些群組會授與權限來裝載和管理網域內的使用者。 在您想要部署執行 Lync Server 2013 之伺服器的所有網域，以及 Lync Server 使用者所在的任何網域，都必須完成此工作。 如需有關準備網域的詳細資訊，請參閱部署檔中的[執行 Lync Server 2013 的網域準備工作](lync-server-2013-running-domain-preparation.md)。
+  - **準備網域**。 這項工作會將必要的存取控制項目 (ACE) 新增至萬用群組，而這些群組會授與權限來裝載和管理網域內的使用者。 在您想要部署執行 Lync Server 2013 之伺服器的所有網域，以及 Lync Server 使用者所在的任何網域，都必須完成此工作。 如需有關準備網域的詳細資訊，請參閱部署檔中的 [執行 Lync Server 2013 的網域準備工作](lync-server-2013-running-domain-preparation.md) 。
 
-有關準備 Active Directory 的完整程式，以及執行每個步驟所需的權利和許可權，請參閱部署檔中的[Lync Server 2013 的 Active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)。
+有關準備 Active Directory 的完整程式，以及執行每個步驟所需的權利和許可權，請參閱部署檔中的 [Lync Server 2013 的 Active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md) 。
 
 </div>
 
@@ -101,7 +103,7 @@ Active Directory 的基礎結構需求如下：
 
   - **基礎結構群組**。 這些群組提供訪問 Lync Server 基礎結構特定區域的許可權。 其功能就如系統管理群組的元件，因此您不應修改這些群組或直接將使用者新增到其中。 在樹系準備過程中，會將特定服務和管理群組新增至適當的基礎結構群組。
 
-如需在準備 Lync Server 的 AD 時所建立之特定通用群組的詳細資訊，以及新增至基礎結構群組的服務和管理群組，請參閱部署檔中的[Lync Server 2013 中的樹系準備所進行的變更](lync-server-2013-changes-made-by-forest-preparation.md)。
+如需在準備 Lync Server 的 AD 時所建立之特定通用群組的詳細資訊，以及新增至基礎結構群組的服務和管理群組，請參閱部署檔中的 [Lync Server 2013 中的樹系準備所進行的變更](lync-server-2013-changes-made-by-forest-preparation.md) 。
 
 <div>
 
@@ -119,7 +121,7 @@ Active Directory 的基礎結構需求如下：
 
 ## <a name="role-based-access-control"></a>角色型存取控制
 
-除了建立泛型服務和管理群組，以及將服務和系統管理群組新增至適當的通用群組以外，樹系準備也會建立 Role-Based 的存取控制 (RBAC) 群組。 如需「樹系準備」所建立之特定 RBAC 群組的詳細資訊，請參閱部署檔中的[Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md)中的「樹系準備」所做的變更。 如需 RBAC 群組的詳細資訊，請參閱[以角色為基礎的存取控制 (Lync Server 2013 的 RBAC) ](lync-server-2013-role-based-access-control-rbac.md)。
+除了建立泛型服務和管理群組，以及將服務和系統管理群組新增至適當的通用群組以外，樹系準備也會建立 Role-Based 的存取控制 (RBAC) 群組。 如需「樹系準備」所建立之特定 RBAC 群組的詳細資訊，請參閱部署檔中的 [Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) 中的「樹系準備」所做的變更。 如需 RBAC 群組的詳細資訊，請參閱 [以角色為基礎的存取控制 (Lync Server 2013 的 RBAC) ](lync-server-2013-role-based-access-control-rbac.md)。
 
 </div>
 
@@ -131,9 +133,9 @@ Active Directory 的基礎結構需求如下：
 
 網域準備步驟會將必要的存取控制項目 (ACE) 新增至萬用群組，而這些群組會授與權限來裝載和管理網域內的使用者。網域準備作業會在網域根目錄和三個內建容器上建立 ACE：使用者、電腦和網域控制站。
 
-如需由樹系準備和網域準備所建立及新增之公用 Ace 的詳細資訊，請參閱在「lync server 2013」中的[樹系準備工作中所做的變更](lync-server-2013-changes-made-by-forest-preparation.md)，以及部署檔中的[lync server 2013](lync-server-2013-changes-made-by-domain-preparation.md)中所做的變更。
+如需由樹系準備和網域準備所建立及新增之公用 Ace 的詳細資訊，請參閱在「lync server 2013」中的 [樹系準備工作中所做的變更](lync-server-2013-changes-made-by-forest-preparation.md) ，以及部署檔中的 [lync server 2013](lync-server-2013-changes-made-by-domain-preparation.md) 中所做的變更。
 
-組織經常會鎖定 Active Directory 網域服務 (AD DS)，以減低安全性風險。 不過，鎖定的 Active Directory 環境可以限制 Lync Server 2013 所需的許可權。 其中包括從容器和 OU 移除 ACE，以及停用 User、Contact、InetOrgPerson 或 Computer 物件的權限繼承。 在鎖定的 Active Directory 環境中，必須在需要權限的容器和 OU 上手動設定權限。 如需詳細資訊，請參閱部署檔中的在[Lync Server 2013 中準備鎖定的 Active Directory 網域服務](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
+組織經常會鎖定 Active Directory 網域服務 (AD DS)，以減低安全性風險。 不過，鎖定的 Active Directory 環境可以限制 Lync Server 2013 所需的許可權。 其中包括從容器和 OU 移除 ACE，以及停用 User、Contact、InetOrgPerson 或 Computer 物件的權限繼承。 在鎖定的 Active Directory 環境中，必須在需要權限的容器和 OU 上手動設定權限。 如需詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中準備鎖定的 Active Directory 網域服務](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 。
 
 </div>
 
@@ -175,7 +177,7 @@ Active Directory 網域服務中的每個 Lync Server 2013 物件都有一個名
 
   - 伺服器的 FQDN 出現在儲存於中央管理存放區的拓撲中。
 
-  - 伺服器顯示來自受信任 CA 的有效憑證。 如需詳細資訊，請參閱[Lync Server 2013 的憑證基礎結構需求](lync-server-2013-certificate-infrastructure-requirements.md)。
+  - 伺服器顯示來自受信任 CA 的有效憑證。 如需詳細資訊，請參閱 [Lync Server 2013 的憑證基礎結構需求](lync-server-2013-certificate-infrastructure-requirements.md)。
 
 如果不符合這些條件，則伺服器就不受信任，其連線也會遭拒。這項雙重需求能避免惡意伺服器嘗試佔用有效伺服器 FQDN 的可能 (即使不太可能) 攻擊。
 

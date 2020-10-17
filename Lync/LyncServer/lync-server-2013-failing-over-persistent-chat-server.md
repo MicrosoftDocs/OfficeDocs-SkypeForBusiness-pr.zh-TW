@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 容錯移轉常設聊天室伺服器
+title: Lync Server 2013：容錯移轉持久聊天伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214399"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530940"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中容錯移轉 Persistent Chat Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>容錯移轉 Lync Server 2013 中的常設聊天室伺服器
+
 
 </div>
 
@@ -35,31 +37,31 @@ ms.locfileid: "42214399"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-02-05_
+_**主題上次修改日期：** 2014-02-05_
 
-Persistent Chat Server 的容錯移轉設計為主要是手動程序。
+Persistent Chat Server 的容錯移轉是設計為主要是手動處理常式。
 
-容錯移轉程序是根據其假設次要資料中心，且是且正在執行，但主要的常設聊天室資料庫所在的 Persistent Chat Server 服務已完全無法使用，包括下列：
+容錯移轉程式的假設是在次要資料中心啟動並執行，但主要 Persistent Chat 資料庫所在的 Persistent Chat Server 服務完全無法使用，包括下列各項：
 
-  - 常設聊天室伺服器主要資料庫與 Persistent Chat Server 鏡像資料庫已關閉。
+  - Persistent Chat Server 主資料庫和 Persistent Chat Server 鏡像資料庫已停機。
 
-  - Lync Server 前端伺服器已離線。
+  - Lync Server 前端伺服器已關機。
 
 此程序主要有兩個基本步驟：
 
-  - 復原主要常設聊天室資料庫 (mgc)。
+  - 復原主要 Persistent Chat database (mgc) 。
 
   - 建立新主要資料庫的鏡像。
 
-常設聊天室規範資料庫 (mgccomp) 不容錯移轉。 此資料庫的內容僅為暫時性，且會在規範介面卡處理資料時被清除。 是您的責任，常設聊天室系統管理員身分，正確地管理介面卡輸出，以避免資料遺失。
+Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫的內容僅為暫時性，且會在規範介面卡處理資料時被清除。 您的責任是 Persistent Chat Administrator，可正確管理配接器輸出以避免資料遺失。
 
 <div>
 
-## <a name="to-fail-over-persistent-chat-server"></a>容錯移轉常設聊天室伺服器
+## <a name="to-fail-over-persistent-chat-server"></a>若要容錯移轉持久聊天伺服器
 
-1.  移除記錄傳送從常設聊天室伺服器備份記錄傳送資料庫。
+1.  從 Persistent Chat Server 備份記錄傳送資料庫中移除記錄傳送。
     
-    1.  使用 SQL Server Management Studio，連線至 Persistent Chat Server 備份 mgc 資料庫所在的資料庫執行個體。
+    1.  使用 SQL Server Management Studio，連接至 Persistent Chat Server backup mgc 資料庫所在的資料庫實例。
     
     2.  開啟 Master 資料庫的查詢視窗。
     
@@ -69,27 +71,27 @@ Persistent Chat Server 的容錯移轉設計為主要是手動程序。
 
 2.  從備份共用複製所有未複製的備份檔案至備份伺服器的複製目的地資料夾。
 
-3.  依序將所有未套用的交易記錄備份套用至次要資料庫。 如需詳細資訊，請參閱 「 How to： 套用一個交易記錄備份 (TRANSACT-SQL) 」 在https://go.microsoft.com/fwlink/p/?linkid=247428。
+3.  依序將所有未套用的交易記錄備份套用至次要資料庫。 如需詳細資訊，請參閱 how to： Apply Transaction Log Backup (Transact-SQL) 」 at https://go.microsoft.com/fwlink/p/?linkid=247428 。
 
 4.  若要使備份 mgc 資料庫上線。請使用步驟 1b 中開啟的查詢視窗，執行下列動作：
     
     1.  結束所有 mgc 資料庫的連線 (若有連線)：
         
-        1.  **exec sp\_who2**來識別 mgc 資料庫的連線。
+        1.  **exec sp \_ who2** ，以識別 mgc 資料庫的連線。
         
-        2.  **kill \<spid\>** 結束這些連線。
+        2.  **kill \<spid\> **以結束這些連線。
     
     2.  使資料庫上線：
         
-        1.  **還原使用復原資料庫 mgc**。
+        1.  **restore database mgc with recovery**。
 
-5.  Lync Server 管理命令介面中使用命令**Set-cspersistentchatstate-身分識別 」 服務： atl-cs-atl-cs-001.litwareinc.com"– PoolState FailedOver**容錯移轉至 mgc 備份資料庫。 務必確定替代 atl-cs-001.litwareinc.com 的常設聊天室集區的完整的網域名稱。
+5.  在 Lync Server 管理命令介面中，使用命令 **Set-CsPersistentChatState 身分識別 "服務： atl-ws-01" –PoolState FailedOver** 以容錯移轉至 mgc 備份資料庫。 請務必將 Persistent Chat 集區的完整功能變數名稱取代為 atl-cs-001.litwareinc.com。
     
     現在 mgc 備份資料庫已是主要資料庫。
 
-6.  在 Lync Server 管理命令介面，使用**Install-csmirrordatabase** cmdlet 來建立備份資料庫中現在做為主要資料庫的高可用性鏡像。 使用備份資料庫執行個體作為主要資料庫，而使用備份鏡像資料庫執行個體作為鏡像執行個體。 此鏡像並不是安裝程式期間，最初為主要資料庫設定的鏡像。 如需詳細資訊，請參閱 「 使用 Lync Server 管理命令介面 Cmdlet 」 中[的 Lync Server 2013 中的後端伺服器高可用性部署 SQL 鏡像](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)。
+6.  在 Lync Server 管理命令介面中，使用 **Install-CsMirrorDatabase** Cmdlet 來建立現在用作主資料庫之備份資料庫的高可用性鏡像。 使用備份資料庫執行個體作為主要資料庫，而使用備份鏡像資料庫執行個體作為鏡像執行個體。 此鏡像並不是安裝程式期間，最初為主要資料庫設定的鏡像。 如需詳細資訊，請參閱在 [Lync server 2013 中針對後端伺服器高可用性部署 SQL 鏡像](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)中的「使用 Lync Server 管理命令介面 Cmdlet」一節。
 
-7.  設定作用中 Persistent Chat Server 的伺服器。 從 Lync Server 命令介面中，使用**Set-cspersistentchatactiveserver** cmdlet 可設定的作用中的伺服器清單。
+7.  設定 Persistent Chat Server active server。 在 Lync Server 命令命令介面中，使用 **Set-CsPersistentChatActiveServer** Cmdlet 來設定作用中的伺服器清單。
     
     <div>
     
@@ -100,7 +102,7 @@ Persistent Chat Server 的容錯移轉設計為主要是手動程序。
     
     </div>
     
-    此時，從常設聊天室伺服器主要資料庫 Persistent Chat Server 的備份資料庫的容錯移轉即可成功完成。
+    此時，從 Persistent Chat Server 主資料庫到 Persistent Chat Server backup 資料庫的容錯移轉已成功完成。
 
 </div>
 

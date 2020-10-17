@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: （選用） 確認回應群組部署'
+title: Lync Server 2013： (選用) 驗證回應群組部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe0ed4bf8e4977391f557cb7f63d17eb735bde76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b28fa4a83e89e446c5f4739d95fedea88769bc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216449"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530740"
 ---
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中 (選用) 驗證回應群組部署
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>（選用）Lync Server 2013 中驗證回應群組部署
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42216449"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-11_
+_**主題上次修改日期：** 2012-09-11_
 
-設定回應群組之後，您必須確認組態，確定您的回應群組如預期般運作。 在最低限度下，使用下列類型的使用者驗證下列案例：
+在您設定回應群組之後，您必須驗證設定，以確保回應群組如預期般運作。 至少要使用下列類型的使用者驗證下列案例：
 
-**使用者**
+**Users**
 
-  - 使用者隸屬於 Lync Server 2013
+  - 位於 Lync Server 2013 的使用者
 
-  - 使用公用交換的電話網路 (PSTN) 外部使用者
+  - 使用公用交換電話網路的外部使用者 (PSTN) 
 
-  - 在 Lync Server 2013 位於代理程式
+  - 位於 Lync Server 2013 的代理人
 
 **Scenarios**
 

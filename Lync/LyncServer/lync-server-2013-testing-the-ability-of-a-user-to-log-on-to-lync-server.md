@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530470"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>測試使用者登入 Lync Server 2013 的能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>測試使用者登入 Lync Server 2013 的能力
+
 
 </div>
 
@@ -83,7 +85,7 @@ Test-CsRegistration Cmdlet 可讓您確認組織中的使用者是否可以登�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsRegistration](https://docs.microsoft.com/powershell/module/skype/Test-CsRegistration) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsRegistration](https://docs.microsoft.com/powershell/module/skype/Test-CsRegistration) Cmdlet 的說明文件。
 
 </div>
 

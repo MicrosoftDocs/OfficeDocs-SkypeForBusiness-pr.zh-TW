@@ -12,20 +12,22 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a3282315d50b0a5075afc380487fb9204d4285c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757034"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529900"
 ---
+# <a name="migrate-address-book"></a>移轉通訊錄
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a>移轉通訊錄
+
 
 </div>
 
@@ -39,15 +41,15 @@ _**主題上次修改日期：** 2012-10-09_
 
 一般說來，Lync Server 2010 通訊錄會隨拓撲一起遷移。 不過，如果您在 Lync Server 2010 環境中自訂下列的後續遷移步驟，您可能需要執行一些後續遷移步驟：
 
-  - 將**PartitionbyOU** WMI 屬性設定成依組織單位（OU）群組通訊錄專案。
+  - 將 **PartitionbyOU** WMI 屬性設定成依組織單位 (OU) 群組通訊錄專案。
 
   - 自訂通訊錄正常化規則。
 
-  - 將**UseNormalizationRules**參數的預設值變更為 False。
+  - 將 **UseNormalizationRules** 參數的預設值變更為 False。
 
 **群組通訊錄專案**
 
-如果您將**PartitionbyOU** WMI 屬性設定為 True，為每個 OU 建立通訊錄，如果您想要繼續群組通訊錄專案，則必須設定使用者和連絡人上的**MsRTCSIP partitionbyou** Active Directory 屬性。 您可能想要群組通訊錄專案，以限制通訊錄搜尋的範圍。 若要使用**MsRTCSIP partitionbyou**屬性，請撰寫腳本，以填入屬性，並為您要一起群組的所有使用者指派相同的值。 例如，為 OU 中的所有使用者指派單一值。
+如果您將 **PartitionbyOU** WMI 屬性設定為 True，為每個 OU 建立通訊錄，如果您想要繼續群組通訊錄專案，則必須設定使用者和連絡人上的 **MsRTCSIP partitionbyou** Active Directory 屬性。 您可能想要群組通訊錄專案，以限制通訊錄搜尋的範圍。 若要使用 **MsRTCSIP partitionbyou** 屬性，請撰寫腳本，以填入屬性，並為您要一起群組的所有使用者指派相同的值。 例如，為 OU 中的所有使用者指派單一值。
 
 **通訊錄正常化規則**
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012-10-09_
 
 **UseNormalizationRules 設定為 False**
 
-如果您將**UseNormalizationRules**的值設為 False，讓使用者可以使用在 Active Directory 網域服務中定義的電話號碼，而不需要 Lync Server 2013 套用正規化規則，您必須將**UseNormalizationRules**和**IgnoreGenericRules**參數設定為 True。 請依照本節稍後的程式將這些參數設定為 True。
+如果您將 **UseNormalizationRules** 的值設為 False，讓使用者可以使用在 Active Directory 網域服務中定義的電話號碼，而不需要 Lync Server 2013 套用正規化規則，您必須將 **UseNormalizationRules** 和 **IgnoreGenericRules** 參數設定為 True。 請依照本節稍後的程式將這些參數設定為 True。
 
 <div>
 
@@ -77,7 +79,7 @@ _**主題上次修改日期：** 2012-10-09_
     
 
     > [!NOTE]  
-    > 您的 ABS 網頁元件檔案目錄中已安裝範例通訊錄正常化規則。 路徑為<STRONG>$installedDriveLetter： \Program Files\Microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt，</STRONG>。 您可以將此檔案複製並重新命名為 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 通訊錄共用資料夾的根目錄。 例如， <STRONG>$serverX</STRONG>中共用的通訊錄， &nbsp; 該路徑會類似如下： <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。
+    > 您的 ABS 網頁元件檔案目錄中已安裝範例通訊錄正常化規則。 路徑為 <STRONG>$installedDriveLetter： \Program Files\Microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt，</STRONG>。 您可以將此檔案複製並重新命名為 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 通訊錄共用資料夾的根目錄。 例如， <STRONG>$serverX</STRONG>中共用的通訊錄， &nbsp; 該路徑會類似如下： <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。
 
     
     </div>
@@ -100,11 +102,11 @@ _**主題上次修改日期：** 2012-10-09_
 
 ## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>若要將 UseNormalizationRules 和 IgnoreGenericRules 設定為 true
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  執行下列其中一項動作：
+2.  執行下列其中一項：
     
-      - 如果您的部署只包含 Lync Server 2013，請在全域層級執行下列 Cmdlet，將**UseNormalizationRules**和**IgnoreGenericRules**的值變更為 True：
+      - 如果您的部署只包含 Lync Server 2013，請在全域層級執行下列 Cmdlet，將 **UseNormalizationRules** 和 **IgnoreGenericRules** 的值變更為 True：
         
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     

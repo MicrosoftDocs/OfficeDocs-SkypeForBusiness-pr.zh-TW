@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 取得位置
+title: Lync Server 2013：取得位置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ed32ed07f709e0a047e8fc07e9124bc129adca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e5b3a6f9e781efbc3c8b7672ad28f1753490e17
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529740"
 ---
+# <a name="acquiring-a-location-in-lync-server-2013"></a>在 Lync Server 2013 中取得位置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="acquiring-a-location-in-lync-server-2013"></a>取得 Lync Server 2013 中的位置
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42199366"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-06_
+_**主題上次修改日期：** 2012-06-06_
 
-在 Lync Server 2013 E9-1-1 部署中，每個內部連線的 Lync 或 Lync Phone Edition 用戶端主動取得它自己的位置。 SIP 註冊後，用戶端提供它所知本身其位置要求中的位置資訊服務，也就是由複寫的 SQL Server 資料庫的 web 服務的所有網路連線資訊。 每個中央網站集區有位置資訊服務，它會使用網路資訊來查詢比對的位置記錄。 如果沒有相符項目，位置資訊服務會傳回給用戶端的位置。 如果不相符項目，可能會提示使用者輸入位置，以手動方式 （根據位置原則 」 設定）。 位置資料傳送回至名為目前狀態資訊的資料格式位置物件 (PIDF-LO) 的用戶端中網際網路工程任務推動小組 (IETF) 標準化 XML 格式。
+在 Lync Server 2013 E9-1-1 部署中，每個內部連線的 Lync 或 Lync Phone Edition 用戶端都會主動取得自己的位置。 在 SIP 註冊後，用戶端會將其本身所知道的所有網路連線資訊 furnishes 至位置資訊服務（即複製的 SQL Server 資料庫所支援的 web 服務）的位置要求。 每個中央網站集區都有一個位置資訊服務，可使用網路資訊來查詢其記錄中的相符位置。 如果有相符的位置資訊服務會將位置傳回用戶端。 如果不符合，系統會提示使用者手動輸入位置 (，視位置原則設定) 而定。 位置資料會傳回網際網路工程工作中的用戶端。 (的 IETF) 標準化 XML 格式，稱為目前狀態資訊資料格式位置物件 (PIDF-LO) 。
 
-Lync Server 用戶端中包含 PIDF-LO 資料一部分緊急通話，並用此資料 E9-1-1 服務提供者來決定適當的 PSAP，並路由傳送至該 PSAP 連同正確的 esqk 一起，可讓 PSAP 調度員得以取得來電發話者的位置。
+Lync Server 用戶端在緊急通話過程中包含 PIDF-LO 資料，而 E9-1-1 服務提供者會使用此資料來判斷適當的 PSAP，並將通話路由傳送至該 PSAP，也就是正確的 ESQK 一起，讓 PSAP dispatcher 可以取得來電者的位置。
 
-下圖顯示 Lync Server 用戶端如何取得位置 （但不包括第三方用戶端 MAC 位址型方法）：
+下圖顯示 Lync Server 用戶端如何取得位置 (，但不包括協力廠商用戶端 MAC 位址型位置方法) ：
 
 ![用戶端如何取得位置圖表](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "用戶端如何取得位置圖表")
 
-若要取得位置用戶端，必須執行下列步驟進行：
+若要讓用戶端取得位置，必須進行下列步驟：
 
-1.  由系統管理員將網路線路圖 （將各種網路位址對應至對應的緊急事故回應位置 (Erl) 的表格） 的位置資訊服務資料庫。
+1.  系統管理員會以網路線路圖將各種網路位址對應至對應緊急回應位置（ (Erl) # A3）的 [網路] (表格，填入位置資訊服務資料庫。
 
-2.  如果您使用 SIP 主幹 E9-1-1 服務提供者時，系統管理員會驗證針對 E9-1-1 服務提供者所維護的主要街道地址指南 (MSAG) 資料庫的 Erl 市街地址部分。 如果您使用 ELIN 閘道時，系統管理員可確保，PSTN 電信業者會將上傳 Elin 到自動位置識別 (ALI) 資料庫。
+2.  如果您使用 SIP 主幹 E9-1-1 服務提供者，則系統管理員會依照主要街道位址指南 (MSAG) E9-1-1 服務提供者所維護的資料庫來驗證 Erl 的市政位址部分。 如果您使用的是 ELIN 閘道，則系統管理員會確保 PSTN 載波將 Elin 上傳至自動位置識別 (阿裡) 資料庫。
 
-3.  凡是登錄或網路變更發生時，內部連線用戶端會傳送位置要求，其中包含用戶端被發現的位置資訊服務的網路位址。
+3.  在註冊期間或網路變更發生時，內部連線的用戶端會傳送包含用戶端已探索網路位址的位置要求至位置資訊服務。
 
-4.  位置資訊服務查詢已發行的記錄位置，並如果找到相符項目，就會傳回 ERL 給用戶端以 PIDF-LO 格式。
+4.  位置資訊服務會查詢其發佈的記錄的位置，如果找到相符的記錄，則會以 PIDF-LO 格式將 ERL 傳回用戶端。
 
 </div>
 

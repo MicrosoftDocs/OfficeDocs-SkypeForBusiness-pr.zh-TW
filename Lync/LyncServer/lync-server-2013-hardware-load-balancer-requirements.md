@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530870"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013 的硬體負載平衡器需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013 的硬體負載平衡器需求
+
 
 </div>
 
@@ -143,7 +145,7 @@ Lync Server 2013 調整式合併 Edge 拓撲已針對新部署的 DNS 負載平�
 
 
 > [!WARNING]  
-> F5 硬體負載平衡器有一項叫做 OneConnect 的功能，可以確保 TCP 連線中的每個要求都能個別負載平衡。如果您正在部署行動裝置，請確定硬體負載平衡器廠商支援相同的功能。最新版的 Apple iOS 行動應用程式需要傳輸層安全性 (TLS) 版本 1.2。F5 提供適用於此版本的特殊設定。<BR>如需協力廠商硬體負載平衡器的詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5 硬體負載平衡器有一項叫做 OneConnect 的功能，可以確保 TCP 連線中的每個要求都能個別負載平衡。如果您正在部署行動裝置，請確定硬體負載平衡器廠商支援相同的功能。最新版的 Apple iOS 行動應用程式需要傳輸層安全性 (TLS) 版本 1.2。F5 提供適用於此版本的特殊設定。<BR>如需協力廠商硬體負載平衡器的詳細資訊，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -161,7 +163,7 @@ Lync Server 2013 調整式合併 Edge 拓撲已針對新部署的 DNS 負載平�
 
 
 > [!IMPORTANT]  
-> 如需硬體負載平衡器設定的進一步閱讀，請參閱通訊<A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">埠摘要-調整式合併 edge （在 Lync Server 2013 中使用硬體負載平衡</A>器）。
+> 如需硬體負載平衡器設定的進一步閱讀，請參閱通訊 <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">埠摘要-調整式合併 edge （在 Lync Server 2013 中使用硬體負載平衡</A>器）。
 
 
 
@@ -234,7 +236,7 @@ Lync Server 2013 調整式合併 Edge 拓撲已針對新部署的 DNS 負載平�
 <th>節點連接埠</th>
 <th>節點電腦/監視器</th>
 <th>持續性設定檔</th>
-<th>附註</th>
+<th>注意事項</th>
 </tr>
 </thead>
 <tbody>
@@ -276,7 +278,7 @@ Lync Server 2013 調整式合併 Edge 拓撲已針對新部署的 DNS 負載平�
 <th>節點連接埠</th>
 <th>節點電腦/監視器</th>
 <th>持續性設定檔</th>
-<th>附註</th>
+<th>注意事項</th>
 </tr>
 </thead>
 <tbody>

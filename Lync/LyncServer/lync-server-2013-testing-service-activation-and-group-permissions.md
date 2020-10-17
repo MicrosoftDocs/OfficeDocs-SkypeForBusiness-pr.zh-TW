@@ -12,20 +12,22 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce58dae337121af9e2754b38ad5c1c0dafbfab4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193906"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530520"
 ---
+# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中測試服務啟用和群組許可權
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中測試服務啟用和群組許可權
+
 
 </div>
 
@@ -84,7 +86,7 @@ Test-CsTopology Cmdlet 可讓您驗證 Lync Server 2013 在全域範圍內是否
 
     Test-CsTopology -Report "C:\Logs\ComputerTest.html" -Verbose
 
-如需詳細資訊，請參閱[Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) Cmdlet 的說明文件。
 
 </div>
 

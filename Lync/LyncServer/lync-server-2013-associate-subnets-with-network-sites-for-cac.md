@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 將子網路與網站的關聯的 CAC
+title: Lync Server 2013：將子網與 CAC 的網路網站產生關聯
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfe2b41293d58223817a06eef82f5c03d0909a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fde0eb443a643371072c4c0018c05e2cd4538d0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205200"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531600"
 ---
+# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>在 Lync Server 2013 中將子網與 CAC 的網路網站產生關聯
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>將子網路與網站關聯的 Lync Server 2013 中的 CAC
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42205200"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-20 個_
+_**主題上次修改日期：** 2012-10-20_
 
-網路中的每個子網路都必須與特定網路網站關聯。 這是因為我們需要子網路資訊來判斷端點所在的網路網站。 時已知的工作階段中雙方的位置，通話許可控制 (CAC) 可以判斷是否有足夠的頻寬，若要建立通話。
+網路中的每個子網路都必須與特定網路網站關聯。 這是因為我們需要子網路資訊來判斷端點所在的網路網站。 當會話中雙方雙方的位置都已知時，通話許可控制 (CAC) 可以判斷是否有足夠的頻寬可以建立通話。
 
-通話許可控制並沒有任何特殊需求將子網路與網路網站相關聯。 若要在您的拓樸中建立子網路與網路網站之間的關聯，請遵循中[建立關聯的子網路與網路網站在 Lync Server 2013 中](lync-server-2013-associate-a-subnet-with-a-network-site.md)的程序。 若要檢視網路網站 （和其各自的子網路） 中的通話許可控制範例網路拓撲，請參閱[範例： 收集您的 Lync Server 2013 中的通話許可控制需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)中規劃文件。
+通話許可控制沒有任何將子網與網站相關聯的特殊需求。 若要在拓撲中建立子網與網站之間的關聯性，請遵循在 [Lync Server 2013 中將子網與網路網站關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md)的程式。 若要在通話許可控制的範例網路拓撲中查看網路網站 (及其各自的子網) ，請參閱規劃檔中的 [範例：在 Lync Server 2013 中收集通話許可控制需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 。
 
 </div>
 

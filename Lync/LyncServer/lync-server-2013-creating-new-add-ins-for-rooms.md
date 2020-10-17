@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 建立新的增益集為聊天室的
+title: Lync Server 2013：建立聊天室的新增益集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48706001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3581ad5b2575d1119bca83c4a3e7646fc38c012f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1dbf63e9afb97a721e65027c85c953673fdc021
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207919"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531530"
 ---
+# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>在 Lync Server 2013 中為聊天室建立新的增益集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>在 Lync Server 2013 中建立新的增益集為聊天室
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42207919"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-若要建立的常設聊天室增益集，請參閱部署文件中的[設定增益集為 Lync Server 2013 中的聊天室](lync-server-2013-configure-add-ins-for-rooms.md)。 如果您的常設聊天室系統管理員，您可以使用 Lync Server 控制台或 Windows PowerShell cmdlet 建立增益集。
+若要建立持久聊天室的增益集，請參閱部署檔中的在 [Lync Server 2013 中設定聊天室的增益集](lync-server-2013-configure-add-ins-for-rooms.md) 。 如果您是 Persistent Chat administrator，您可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立增益集。
 
 </div>
 

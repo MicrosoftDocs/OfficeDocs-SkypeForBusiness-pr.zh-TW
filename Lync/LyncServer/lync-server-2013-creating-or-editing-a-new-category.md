@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 建立或編輯新類別
+title: Lync Server 2013：建立或編輯新類別
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48706005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de5398e7a3f0708532a515f30cabcc026ef23cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 195c5abc08779b6bd29080533a3637bd6fafb348
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213189"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531520"
 ---
+# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a>在 Lync Server 2013 中建立或編輯新類別
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a>建立或編輯 Lync Server 2013 中新的類別
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42213189"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-若要建立新的類別，請參閱部署文件中的[Lync Server 2013 中的 Configure categories](lync-server-2013-configure-categories.md) 。 如果您的常設聊天室系統管理員，您可以使用 Lync Server 控制台或 Windows PowerShell cmdlet 建立類別。
+若要建立新的類別，請參閱部署檔中的 [Configure The Lync Server 2013](lync-server-2013-configure-categories.md) 中的類別。 如果您是 Persistent Chat administrator，您可以使用 Lync Server 控制台或 Windows PowerShell Cmdlet 來建立類別。
 
 </div>
 

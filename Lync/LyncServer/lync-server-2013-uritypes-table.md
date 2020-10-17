@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: UriTypes 表格'
+title: Lync Server 2013： UriTypes 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184553
 ms.date: 06/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a85375dbe85db30f71a0b7c93ed734a3cc31fbca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca63f2ea00ab05f767642045663c934a6f4728d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193046"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530300"
 ---
+# <a name="uritypes-table-in-lync-server-2013"></a>Lync Server 2013 中的 UriTypes 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="uritypes-table-in-lync-server-2013"></a>Lync Server 2013 中的 UriTypes 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42193046"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015年-06-16_
+_**主題上次修改日期：** 2015-06-16_
 
-UriTypes 表格包含不同在 Microsoft Lync Server 2013 中監視的統一資源識別元 （URI) 類型。
+UriTypes 表格包含不同的 URI (在 Microsoft Lync Server 2013 中監控的統一資源識別項) 類型。
 
 
 <table>
@@ -51,25 +53,25 @@ UriTypes 表格包含不同在 Microsoft Lync Server 2013 中監視的統一資�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
-<td><p>tinyint</p></td>
+<td><p>Tinyint</p></td>
 <td><p>主要</p></td>
 <td><p>指派給 URI 類型的唯一識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td></td>
 <td><p>不同 URI 類型的描述。允許值為：</p>
 <ul>
-<li><p>1 – 電話 Uri</p></li>
-<li><p>0 – 使用者 Uri</p></li>
+<li><p>1–電話 Uri</p></li>
+<li><p>0–使用者 Uri</p></li>
 </ul></td>
 </tr>
 </tbody>

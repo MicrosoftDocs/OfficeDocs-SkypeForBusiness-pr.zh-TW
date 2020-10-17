@@ -12,20 +12,22 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd8cc2b12032e1283c10e26d4a9fa879621233f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 847aeda66657b2bd665964d6fec3276dc22807ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209162"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531510"
 ---
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中定義及設定前端集區或 Standard Edition server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中定義及設定前端集區或 Standard Edition server
+
 
 </div>
 
@@ -56,11 +58,11 @@ _**主題上次修改日期：** 2013-03-08_
 <tbody>
 <tr class="odd">
 <td><p>1-2</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
-<td><p>2</p></td>
+<td><p>第</p></td>
 </tr>
 <tr class="odd">
 <td><p>5-6</p></td>
@@ -105,7 +107,7 @@ _**主題上次修改日期：** 2013-03-08_
 
 </div>
 
-定義好拓撲之後，請使用下列程式定義網站的前端集區。 如需定義拓撲的詳細資訊，請參閱[在 Lync Server 2013 的拓撲產生器中定義及設定拓撲](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)。
+定義好拓撲之後，請使用下列程式定義網站的前端集區。 如需定義拓撲的詳細資訊，請參閱 [在 Lync Server 2013 的拓撲產生器中定義及設定拓撲](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)。
 
 <div>
 
@@ -113,11 +115,11 @@ _**主題上次修改日期：** 2013-03-08_
 
 1.  在 [定義新前端集區] 精靈的 **[定義新前端集區]** 頁面上，按 **[下一步]**。
 
-2.  在 [**定義前端集區 FQDN** ] 頁面上，輸入您要建立之集區的完整功能變數名稱 (FQDN) ，按一下 [ **Enterprise Edition 前端集**區]，然後按 **[下一步]**。
+2.  在 [ **定義前端集區 FQDN** ] 頁面上，輸入您要建立之集區的完整功能變數名稱 (FQDN) ，按一下 [ **Enterprise Edition 前端集**區]，然後按 **[下一步]**。
 
-3.  在 [**定義此集區中的電腦**] 頁面上，輸入集區中第一部前端伺服器的電腦 FQDN，然後按一下 [**新增**]。 針對您要新增至集區的十二) ，對任何其他 (電腦重複此步驟，然後按 **[下一步]**。
+3.  在 [ **定義此集區中的電腦** ] 頁面上，輸入集區中第一部前端伺服器的電腦 FQDN，然後按一下 [ **新增**]。 針對您要新增至集區的十二) ，對任何其他 (電腦重複此步驟，然後按 **[下一步]**。
 
-4.  在「選取功能」**** 頁面上，選取您希望此前端集區擁有的功能之對應核取方塊。 例如，如果您只部署立即訊息 (IM) 和目前狀態功能，您可以選取 [**會議**] 核取方塊以允許多方 IM，但不會選取**撥入 (PSTN) 會議**、 **Enterprise Voice**或**通話許可控制**核取方塊，因為它們代表語音、影片及共同作業會議功能。
+4.  在「選取功能」**** 頁面上，選取您希望此前端集區擁有的功能之對應核取方塊。 例如，如果您只部署立即訊息 (IM) 和目前狀態功能，您可以選取 [ **會議** ] 核取方塊以允許多方 IM，但不會選取 **撥入 (PSTN) 會議**、 **Enterprise Voice**或 **通話許可控制** 核取方塊，因為它們代表語音、影片及共同作業會議功能。
     
       - **會議**    這種選取範圍可啟用一組豐富的功能，包括：
         
@@ -199,7 +201,7 @@ _**主題上次修改日期：** 2013-03-08_
     </table>
 
 
-5.  在 [**選取組合的伺服器角色**] 頁面上，您可以在前端伺服器上組合轉送伺服器，或將其部署為獨立伺服器。
+5.  在 [ **選取組合的伺服器角色** ] 頁面上，您可以在前端伺服器上組合轉送伺服器，或將其部署為獨立伺服器。
     
     您可以組合前端集區上的轉送伺服器。
     
@@ -211,12 +213,12 @@ _**主題上次修改日期：** 2013-03-08_
     
 
     > [!NOTE]
-    > 建議您盡可能組合轉送伺服器。 如需有關組合或獨立轉送伺服器支援的詳細資訊，請參閱規劃檔中的 Lync Server 2013 中的「中繼」<A href="lync-server-2013-components-and-topologies-for-mediation-server.md">伺服器元件和拓撲</A>。
+    > 建議您盡可能組合轉送伺服器。 如需有關組合或獨立轉送伺服器支援的詳細資訊，請參閱規劃檔中的 Lync Server 2013 中的「中繼」 <A href="lync-server-2013-components-and-topologies-for-mediation-server.md">伺服器元件和拓撲</A> 。
 
     
     </div>
 
-6.  [**關聯伺服器角色與此前端集**區] 頁面可讓您定義伺服器角色與前端集區的關聯。 下列為可用的角色：
+6.  [ **關聯伺服器角色與此前端集** 區] 頁面可讓您定義伺服器角色與前端集區的關聯。 下列為可用的角色：
     
     **啟用 Edge 集**     區定義及關聯單一 Edge Server 或 Edge Server 集區。 Edge Server 會協助組織內的使用者與組織外部的人員之間的通訊和共同作業，包括同盟使用者。
     
@@ -232,23 +234,23 @@ _**主題上次修改日期：** 2013-03-08_
     
       - 在此情況下，您會選取要部署或與新前端伺服器產生關聯的角色。 不管是哪一種情況，您都需要先定義角色並設定需要的硬體後，才開始安裝。
 
-7.  在 [**定義 SQL 存放區**] 頁面上，執行下列其中一項操作：
+7.  在 [ **定義 SQL 存放區** ] 頁面上，執行下列其中一項操作：
     
       - 若要使用拓撲中已定義的現有 SQL Server 儲存區，請從 **[sql 存放區**] 中選取實例。
     
       - 若要定義新的 SQL Server 實例以儲存集區資訊，請按一下 [**新增**]，然後在 [**定義新的 sql 存放區**] 對話方塊中指定**SQL Server FQDN**。
     
-      - 若要指定 SQL Server 實例的名稱，請選取 [**命名實例**]，然後指定實例的名稱。
+      - 若要指定 SQL Server 實例的名稱，請選取 [ **命名實例**]，然後指定實例的名稱。
     
-      - 若要使用預設實例，請按一下 [**預設實例**]。
+      - 若要使用預設實例，請按一下 [ **預設實例**]。
     
-      - 若要使用 SQL 鏡像，請選取 **[啟用 sql 鏡像**]，然後選取現有的實例或建立新的實例。
+      - 若要使用 SQL 鏡像，請選取 **[啟用 sql 鏡像** ]，然後選取現有的實例或建立新的實例。
 
 8.  在 **[定義檔案共用]** 頁面上，執行下列其中一項：
     
       - 若要使用拓撲中已經定義的檔案共用，選取 **[使用先前定義的檔案共用]**。
     
-      - 若要定義新的檔案共用，請選取 [**定義新的檔案共用**]，然後在 [檔案**伺服器 FQDN** ] 方塊中，輸入檔案共用所在的現有檔案伺服器的 FQDN，然後在 [檔案**共用**] 方塊中輸入檔案共用的名稱。
+      - 若要定義新的檔案共用，請選取 [ **定義新的檔案共用**]，然後在 [檔案 **伺服器 FQDN** ] 方塊中，輸入檔案共用所在的現有檔案伺服器的 FQDN，然後在 [檔案 **共用** ] 方塊中輸入檔案共用的名稱。
     
     <div>
     
@@ -259,7 +261,7 @@ _**主題上次修改日期：** 2013-03-08_
     
     </div>
 
-9.  在 [**指定 Web 服務 URL** ] 頁面上，執行下列其中一項或兩項操作：
+9.  在 [ **指定 Web 服務 URL** ] 頁面上，執行下列其中一項或兩項操作：
     
     <div>
     
@@ -274,12 +276,12 @@ _**主題上次修改日期：** 2013-03-08_
     
 
     > [!WARNING]
-    > 如果您有一個以上的前端集區或前端伺服器，則外部 Web 服務 FQDN 必須是唯一的。 例如，如果您將前端伺服器的外部 Web 服務 FQDN 定義為<STRONG>pool01.contoso.com</STRONG>，則無法將<STRONG>pool01.contoso.com</STRONG>用於另一個前端集區或前端伺服器。
+    > 如果您有一個以上的前端集區或前端伺服器，則外部 Web 服務 FQDN 必須是唯一的。 例如，如果您將前端伺服器的外部 Web 服務 FQDN 定義為 <STRONG>pool01.contoso.com</STRONG>，則無法將 <STRONG>pool01.contoso.com</STRONG> 用於另一個前端集區或前端伺服器。
 
     
     </div>
     
-    1.  若要設定 DNS 負載平衡，請選取 [覆**寫內部 Web 服務集區 fqdn** ] 核取方塊，並輸入內部基本 url (，其必須與集區 FQDN 不同，例如內部基礎 Url \< \>) **內部基礎 url**中。
+    1.  若要設定 DNS 負載平衡，請選取 [覆 **寫內部 Web 服務集區 fqdn** ] 核取方塊，並輸入內部基本 url (，其必須與集區 FQDN 不同，例如內部的內部 \<your base URL\>) 內部 **基底 url**。
         
         <div>
         
@@ -290,13 +292,13 @@ _**主題上次修改日期：** 2013-03-08_
         
         </div>
     
-    2.  （選用）在 [**外部基礎 url**] 中輸入外部基底 url。 您可以輸入外部基底 URL，使其有別于您的內部網域命名。 例如，您的內部網域為 contoso.net，而外部網域名稱為 contoso.com。 這時您可以使用 contoso.com 網域名稱來定義 URL。 在反向 Proxy 的情況中，這種作法也很重要。 外部基底 URL 功能變數名稱會與反向 proxy 的 FQDN 功能變數名稱相同。 立即訊息和目前狀態確實需要存取前端集區的 HTTP。
+    2.  （選用）在 [ **外部基礎 url**] 中輸入外部基底 url。 您可以輸入外部基底 URL，使其有別于您的內部網域命名。 例如，您的內部網域為 contoso.net，而外部網域名稱為 contoso.com。 這時您可以使用 contoso.com 網域名稱來定義 URL。 在反向 Proxy 的情況中，這種作法也很重要。 外部基底 URL 功能變數名稱會與反向 proxy 的 FQDN 功能變數名稱相同。 立即訊息和目前狀態確實需要存取前端集區的 HTTP。
     
     <div>
     
 
     > [!NOTE]
-    > 若要使用 DNS 負載平衡，您必須建立適當的 DNS 記錄。 如需詳細資訊，請參閱<A href="lync-server-2013-configure-dns-for-load-balancing.md">在 Lync Server 2013 中設定 DNS 以進行負載平衡</A>。
+    > 若要使用 DNS 負載平衡，您必須建立適當的 DNS 記錄。 如需詳細資訊，請參閱 <A href="lync-server-2013-configure-dns-for-load-balancing.md">在 Lync Server 2013 中設定 DNS 以進行負載平衡</A>。
 
     
     </div>
@@ -305,7 +307,7 @@ _**主題上次修改日期：** 2013-03-08_
 
 11. 在 **[定義新的 Office Web Apps Server]** 對話方塊的 **[Office Web Apps Server FQDN]** 方塊中，鍵入 Office Web Apps Server 電腦的完整網域名稱 (FQDN)；執行此動作時，您的 Office Web Apps Server 探索 URL 應自動輸入至 **[Office Web Apps Server 探索 URL]** 方塊。
     
-    如果 Office Web Apps Server 安裝于內部部署，且與 Lync Server 2013 位於相同的網路區域中，則選項**Office Web Apps server 部署在外部網路中 (也就是說，不應該選取周邊/網際網路) ** 。
+    如果 Office Web Apps Server 安裝于內部部署，且與 Lync Server 2013 位於相同的網路區域中，則選項 **Office Web Apps server 部署在外部網路中 (也就是說，不應該選取周邊/網際網路) ** 。
     
     如果 Office Web Apps Server 部署在內部防火牆外，則選取 **[Office Web Apps Server 部署在外部網路 (亦即周邊/網際網路]** 選項。
     
@@ -313,16 +315,16 @@ _**主題上次修改日期：** 2013-03-08_
     
 
     > [!NOTE]
-    > 如需詳細資訊，請參閱設定<A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Office Web Apps Server 和 Lync Server 2013 的整合</A>。
+    > 如需詳細資訊，請參閱設定 <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Office Web Apps Server 和 Lync Server 2013 的整合</A>。
 
     
     </div>
 
-12. 在 [**定義封存 SQL 存放區**] 頁面上，選取現有的實例或 SQL Server，或定義新的實例以儲存與封存資料相關聯的資料。
+12. 在 [ **定義封存 SQL 存放區** ] 頁面上，選取現有的實例或 SQL Server，或定義新的實例以儲存與封存資料相關聯的資料。
 
-13. 在 [**定義監控 SQL 存放區**] 頁面上，選取現有的實例或 SQL Server，或定義新的實例以儲存與監控資料相關聯的資料。
+13. 在 [ **定義監控 SQL 存放區** ] 頁面上，選取現有的實例或 SQL Server，或定義新的實例以儲存與監控資料相關聯的資料。
 
-14. 按 [下一步]****。 如果您在 [**關聯伺服器角色與此前端集**區] 頁面上定義其他角色服務器，則會開啟 [不同角色設定] 頁面，讓您設定伺服器角色。 如需詳細資訊，請參閱下列各項：
+14. 按 **[下一步]**。 如果您在 [ **關聯伺服器角色與此前端集** 區] 頁面上定義其他角色服務器，則會開啟 [不同角色設定] 頁面，讓您設定伺服器角色。 如需詳細資訊，請參閱下列各項：
     
     [在 Lync Server 2013 中部署外部使用者存取](lync-server-2013-deploying-external-user-access.md)
 

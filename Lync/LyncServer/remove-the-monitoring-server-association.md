@@ -12,20 +12,22 @@ ms:contentKeyID: 49733810
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aa78a49686ca555fdbc26d3ffd4953d88d64a95
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0381f65ee233abcac60268b9c8e491b31e88c24f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756542"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529870"
 ---
+# <a name="remove-the-monitoring-server-association"></a>移除監控伺服器關聯
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-monitoring-server-association"></a>移除監控伺服器關聯
+
 
 </div>
 
@@ -47,9 +49,9 @@ _**主題上次修改日期：** 2012-10-04_
 
 2.  流覽至 [Lync Server 2010] 節點。
 
-3.  在 [拓撲產生器] 中，根據監控伺服器定義的位置，展開 [ **Enterprise Edition 前端**集區]、[ **Standard Edition 前端伺服器**] 或 [**分支網站**]。
+3.  在 [拓撲產生器] 中，根據監控伺服器定義的位置，展開 [ **Enterprise Edition 前端**集區]、[ **Standard Edition 前端伺服器**] 或 [ **分支網站**]。
 
-4.  如果您有相關聯的 Survivable 分支伺服器，請展開 [**分支網站**]，展開分支網站名稱，然後展開 [ **Survivable 分支裝置**]。
+4.  如果您有相關聯的 Survivable 分支伺服器，請展開 [ **分支網站**]，展開分支網站名稱，然後展開 [ **Survivable 分支裝置**]。
     
     <div>
     
@@ -60,13 +62,13 @@ _**主題上次修改日期：** 2012-10-04_
     
     </div>
 
-5.  以滑鼠右鍵按一下與監控伺服器相關聯的集區、伺服器或裝置，然後按一下 [**編輯屬性**]。
+5.  以滑鼠右鍵按一下與監控伺服器相關聯的集區、伺服器或裝置，然後按一下 [ **編輯屬性**]。
 
 6.  在 [編輯內容]****，[一般]**** 下方，[關聯]**** 下方，清除 [建立監控伺服器關聯]**** 核取方塊，然後按一下 [確定]****。
 
 7.  針對與監控伺服器關聯的任何其他集區、伺服器或裝置，重複上述步驟。
 
-8.  以滑鼠右鍵按一下監控伺服器，然後按一下 [**刪除**]。
+8.  以滑鼠右鍵按一下監控伺服器，然後按一下 [ **刪除**]。
 
 9.  在 [刪除相依存放區]**** 上，按一下 [確定]****。
 

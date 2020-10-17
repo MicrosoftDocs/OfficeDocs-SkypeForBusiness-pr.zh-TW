@@ -12,20 +12,22 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d3825891fe6934699e310073825e50a4aee731
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c20bd593e11f032ba0a0ed852a50b6d417fa604
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531090"
 ---
+# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 會議部署檢查清單
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 會議部署檢查清單
+
 
 </div>
 
@@ -76,7 +78,7 @@ _**主題上次修改日期：** 2012-09-30_
 <div>
 
 > [!NOTE]  
-> Lync Server 2013 使用 Office Web Apps 與 Office Web apps Server 來處理 PowerPoint 簡報的共用及呈現。 如需安裝及設定 Office Web Apps Server 的詳細資訊，請參閱設定<A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Office Web Apps server 與 Lync server 2013 的整合</A>。
+> Lync Server 2013 使用 Office Web Apps 與 Office Web apps Server 來處理 PowerPoint 簡報的共用及呈現。 如需安裝及設定 Office Web Apps Server 的詳細資訊，請參閱設定 <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Office Web Apps server 與 Lync server 2013 的整合</A>。
 
 
 </div></td>
@@ -103,9 +105,9 @@ _**主題上次修改日期：** 2012-09-30_
 </table>
 
 
-Lync Server 2013 現在包括**MaxUploadFileSizeMb**設定，它會限制在會議期間可上傳的檔案大小。 此設定的預設值為 500 MB。 您可以使用**Set-CsConferencingConfiguration** Cmdlet 來調整**MaxUploadFileSizeMb** 。
+Lync Server 2013 現在包括 **MaxUploadFileSizeMb** 設定，它會限制在會議期間可上傳的檔案大小。 此設定的預設值為 500 MB。 您可以使用**Set-CsConferencingConfiguration** Cmdlet 來調整**MaxUploadFileSizeMb** 。
 
-**MaxUploadFileSizeMb**不會限制 Lync Web App 的檔案上傳設定。 Lync Web App 的檔案大小上傳限制設定為大約30MB，且由 IIS web.config 檔案：/DataCollabWeb/Int \[ Ext \] /Handler/web.config 所控制。若要設定 Lync Web App 的檔案大小上傳限制，請更新， `maxRequestLength` 並 `maxAllowedContentLength` 在 web.config 檔中，如下所示。
+**MaxUploadFileSizeMb** 不會限制 Lync Web App 的檔案上傳設定。 Lync Web App 的檔案大小上傳限制設定為大約30MB，且由 IIS web.config 檔案：/DataCollabWeb/Int \[ Ext \] /Handler/web.config 所控制。若要設定 Lync Web App 的檔案大小上傳限制，請更新， `maxRequestLength` 並 `maxAllowedContentLength` 在 web.config 檔中，如下所示。
 
     <system.web>
         <!-- 

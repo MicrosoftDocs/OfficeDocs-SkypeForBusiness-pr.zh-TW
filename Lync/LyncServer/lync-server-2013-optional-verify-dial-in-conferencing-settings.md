@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: （選用） 驗證電話撥入式會議設定'
+title: Lync Server 2013： (選用) 驗證電話撥入式會議設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae67001d7e041cf0b4e8f6a01fb9278f3d79300
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c43646572171a93880dd5013c87a08a2051ab2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530790"
 ---
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a> (選用) 驗證 Lync Server 2013 中的電話撥入式會議設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>（選用）確認 Lync Server 2013 中的撥入式會議設定
+
 
 </div>
 
@@ -35,39 +37,39 @@ ms.locfileid: "42216511"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010年-11-02_
+_**主題上次修改日期：** 2010-11-02_
 
-為您的撥入式會議組態的最終驗證，您可以搜尋有未由任何存取號碼撥入式會議地區的撥號對應表計劃，以及沒有制定撥入式會議地區的存取號碼。 此步驟是選用的。
+做為您的電話撥入式會議設定的最終驗證，您可以搜尋撥號對應表，該撥號對應表中的電話撥入式會議地區未使用任何存取號碼，且未指定電話撥入式會議區域的存取號碼。 這是選擇性的步驟。
 
 <div>
 
-## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>若要尋找與未由任何存取號碼撥入式會議地區的撥號對應表計劃
+## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>使用電話撥入式會議地區未使用的存取號碼來尋找撥號對應表
 
 1.  以 RTCUniversalServerAdmins 群組成員或 **Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  在命令提示字元中執行下列命令：
     
         Get-CsDialinConferencingAccessNumber -EmptyRegion
     
-    此 cmdlet 會傳回所有具有不是由任何存取號碼撥入式會議地區的撥號對應表計劃。
+    此 Cmdlet 會傳回所有電話撥入式會議地區未由存取號碼使用的撥號對應表。
 
 </div>
 
 <div>
 
-## <a name="to-find-access-numbers-without-assigned-regions"></a>若要尋找沒有指派之地區的存取號碼
+## <a name="to-find-access-numbers-without-assigned-regions"></a>尋找未指派地區的存取號碼
 
 1.  以 RTCUniversalServerAdmins 群組成員或 **Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  在命令提示字元中執行下列命令：
     
         Get-CsDialinConferencingAccessNumber -Region NULL
     
-    此 cmdlet 會傳回與地區不相關的所有電話撥入式會議存取號碼。
+    此 Cmdlet 會傳回與地區無關聯的所有電話撥入式會議存取號碼。
 
 </div>
 

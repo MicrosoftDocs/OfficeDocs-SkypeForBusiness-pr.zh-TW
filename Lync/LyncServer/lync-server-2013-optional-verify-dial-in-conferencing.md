@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: （選用） 驗證電話撥入式會議'
+title: Lync Server 2013： (選用) 驗證電話撥入式會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fe264b4e9eaacf9dfc5f506adbada7026972eb4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebfebd5dceff50d7d4b7647c7709bb88b7c1fa8e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530770"
 ---
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a> (選用) 驗證 Lync Server 2013 中的電話撥入式會議
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>（選用）確認 Lync Server 2013 中的電話撥入式會議
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42216469"
 
 <span> </span>
 
-_**主題上次修改日期：** 2011年-01-21_
+_**主題上次修改日期：** 2011-01-21_
 
 若要確認電話撥入式會議設定網頁和撥入式存取號碼正確運作，您需要執行下列動作：
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2011年-01-21_
 
 1.  以 RTCUniversalServerAdmins 群組成員或 **Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  在命令提示字元中執行下列命令：
     

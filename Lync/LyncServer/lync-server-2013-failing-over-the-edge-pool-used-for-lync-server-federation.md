@@ -12,20 +12,22 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1589fe63c41cb2c4cbff9b72f42a3cc06b43e5d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ed4849aff6dd65de524a99ac8fc6f886d7c4db5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530920"
 ---
+# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>在 Lync Server 2013 中容錯移轉用於 Lync Server 同盟的 Edge 集區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>在 Lync Server 2013 中容錯移轉用於 Lync Server 同盟的 Edge 集區
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2012-09-17_
 
 7.  在 [安裝 Lync Server 元件] 中，按 **[下一步]**。摘要畫面會隨著動作的執行顯示各個動作。部署完成後，按一下 **[檢視記錄檔]** 檢視可用的記錄檔。按一下 **[完成]** 完成部署。
     
-    如果失敗 Edge 集區所在的網站包含仍在執行的前端伺服器，則必須更新在這些前端集區上的 Web 會議服務及 A/V 會議服務，以使用遠端網站上仍在執行的 Edge 集區。 如需詳細資訊，請參閱[變更與 Lync Server 2013 中的前端集區相關聯的 Edge 集](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)區。
+    如果失敗 Edge 集區所在的網站包含仍在執行的前端伺服器，則必須更新在這些前端集區上的 Web 會議服務及 A/V 會議服務，以使用遠端網站上仍在執行的 Edge 集區。 如需詳細資訊，請參閱 [變更與 Lync Server 2013 中的前端集區相關聯的 Edge 集](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)區。
 
 </div>
 
