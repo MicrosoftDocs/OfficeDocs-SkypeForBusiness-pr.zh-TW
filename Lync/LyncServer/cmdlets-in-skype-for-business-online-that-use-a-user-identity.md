@@ -1,5 +1,6 @@
 ---
 title: 使用使用者身分識別的商務用 Skype Online 中的 Cmdlet
+description: 使用使用者身分識別的商務用 Skype Online 中的 Cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aee680c6e55de62ff9d49724d3e480c00159aa4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 29f838317f8b2779de862eb2df82ae1b348871e4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755105"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545649"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>使用使用者身分識別的商務用 Skype Online 中的 Cmdlet
 
@@ -69,7 +70,7 @@ ms.locfileid: "44755105"
 
   - [CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))
 
-請注意，呼叫其中一個**Get** Cmdlet 時，不需要指定使用者身分識別。 在此情況下，Cmdlet 會傳回指定專案的所有實例。 例如，下列命令會傳回已啟用商務用 Skype Online 之所有使用者的相關資訊：
+請注意，呼叫其中一個 **Get** Cmdlet 時，不需要指定使用者身分識別。 在此情況下，Cmdlet 會傳回指定專案的所有實例。 例如，下列命令會傳回已啟用商務用 Skype Online 之所有使用者的相關資訊：
 
     Get-CsOnlineUser
 

@@ -1,5 +1,6 @@
 ---
 title: 使用全域範圍及標記範圍的商務用 Skype Online 中的 Cmdlet
+description: 在商務用 Skype Online 中使用全域範圍及標記範圍的 Cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,19 +14,19 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8063334f2cea6fcca768754197bacbd30869461
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ba89ebe7322159027c5de765117afd366cb3dc23
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755073"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545619"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>使用全域範圍及標記範圍的商務用 Skype Online 中的 Cmdlet
 
  
 
 
-在商務用 Skype Online 中，原則可以設定為*全域範圍*或*標記範圍*（或個別*使用者範圍*）。 使用**Cs** Cmdlet 時，您不需要指定範圍或身分識別。 如果您呼叫其中一個不含任何參數的 Cmdlet，將會傳回所有相關的專案。 例如，下列命令會傳回所有外部存取原則的相關資訊：
+在商務用 Skype Online 中，可設定 *全域範圍* 或標籤 *範圍* (或 *每位使用者範圍*) 的原則。 使用 **Cs** Cmdlet 時，您不需要指定範圍或身分識別。 如果您呼叫其中一個不含任何參數的 Cmdlet，將會傳回所有相關的專案。 例如，下列命令會傳回所有外部存取原則的相關資訊：
 
     Get-CsExternalAccessPolicy
 
@@ -39,15 +40,15 @@ ms.locfileid: "44755073"
 
 
 > [!NOTE]  
-> 參照個別使用者原則時，標記<STRONG>首碼</STRONG>是選用的。 這種包含首碼的語法也是有效的：<BR>Get-CsExternalAccessPolicy –身分識別 "tag： RedmondAccessPolicy"
+> 參照個別使用者原則時，標記 <STRONG>首碼</STRONG> 是選用的。 這種包含首碼的語法也是有效的：<BR>Get-CsExternalAccessPolicy –身分識別 "tag： RedmondAccessPolicy"
 
 
 
-若要傳回除全域原則以外的所有原則（也就是說，所有的個別使用者原則），請使用下列命令：
+若要傳回除全域原則以外的所有原則 (也就是說，所有的個別使用者原則) ，請使用此命令：
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-下列 Cmdlet 同時針對全域範圍和個別使用者（標記）範圍執行：
+下列 Cmdlet 針對全域範圍和個別使用者 (標籤) 範圍執行：
 
   - [Get-CsClientPolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))
 
@@ -65,7 +66,7 @@ ms.locfileid: "44755073"
 
 
 > [!NOTE]  
-> 不論名稱為何，撥號對應表都是以功能為依據的原則。 使用<EM>撥號</EM>對應表代替（例如，撥號原則）以保留舊版 Lync Server 所使用的詞彙。
+> 不論名稱為何，撥號對應表都是以功能為依據的原則。 使用 <EM>撥號</EM> 對應表代替（例如，撥號原則）以保留舊版 Lync Server 所使用的詞彙。
 
 
 

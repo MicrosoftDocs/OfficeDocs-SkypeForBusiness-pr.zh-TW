@@ -1,5 +1,6 @@
 ---
 title: 使用使用者身分識別及標記範圍的商務用 Skype Online 中的 Cmdlet
+description: 使用使用者身分識別及標記範圍的商務用 Skype Online 中的 Cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,19 +14,19 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9adf86a6ec6d2bd859411005dcc67b0dcbe09c7f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3e2ddbcc9c90096cea5fad4cb680f4ea1797ce48
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755115"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545609"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>使用使用者身分識別及標記範圍的商務用 Skype Online 中的 Cmdlet
 
  
 
 
-**授與 Cs 指令程式**（用來指派原則給使用者）需要兩個識別碼：使用者身分識別（身分識別參數）和個別使用者原則的身分識別（PolicyName 參數）。 例如，若要將語音原則 RedmondVoicePolicy 指派給使用者 Ken Myer，您可以使用下列命令：
+**授與 Cs 指令程式** (用來指派原則給使用者) 需要兩個識別碼： (identity 參數) 的使用者身分識別，以及每位使用者原則的身分識別 (PolicyName 參數) 。 例如，若要將語音原則 RedmondVoicePolicy 指派給使用者 Ken Myer，您可以使用下列命令：
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
@@ -41,12 +42,12 @@ ms.locfileid: "44755115"
 
 
 
-其次，請記住每一使用者原則都是在標籤範圍內建立的。 不過，您可以在指定原則名稱時省略標記**首碼**。 這兩個命令相同：
+其次，請記住每一使用者原則都是在標籤範圍內建立的。 不過，您可以在指定原則名稱時省略標記 **首碼** 。 這兩個命令相同：
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "tag:RedmondVoicePolicy"
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-如果您想要傳回所有個別使用者原則的身分識別（或至少，所有指定類型的個別使用者原則，例如語音原則），請使用類似下列的命令：
+如果您想要傳回所有個別使用者原則的身分識別 (，至少所有指定類型的個別使用者原則，例如語音原則) ，請使用類似下列的命令：
 
     Get-CsVoicePolicy -Filter "tag:*"
 

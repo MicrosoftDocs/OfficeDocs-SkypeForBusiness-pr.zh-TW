@@ -1,5 +1,6 @@
 ---
 title: 僅使用全域範圍之商務用 Skype Online 中的 Cmdlet
+description: 僅使用通用範圍的商務用 Skype Online 中的 Cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,19 +14,19 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97f3c8d9ca7dda0b96db211192350184cbf27b1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a2f59806128ceea825a4cdd966e85852b98079b0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755095"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545599"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>僅使用全域範圍之商務用 Skype Online 中的 Cmdlet
 
  
 
 
-您可以在*全域範圍內*使用許多商務用 Skype Online 設定。 這表示有單一的設定集合，套用至指派給該租使用者的所有使用者。 （每個租使用者都有自己的唯一全域設定集合。）當您使用限制為全域範圍的指令程式時，Identity 參數是選用的。 例如，若要檢索會議設定設定，您可以使用此命令：
+您可以在 *全域範圍內*使用許多商務用 Skype Online 設定。 這表示有單一的設定集合，套用至指派給該租使用者的所有使用者。  (每個租使用者都有自己獨特的全域設定集合。 ) 當您使用限制為全域範圍的指令程式時，Identity 參數是選用的。 例如，若要檢索會議設定設定，您可以使用此命令：
 
     Get-CsMeetingConfiguration -Identity "global"
 
@@ -66,7 +67,7 @@ ms.locfileid: "44755095"
 
     Remove-CsVoicePolicy -Identity "global"
 
-其次， **set-csvoicepolicy 指令程式**實際上不會刪除通用語音原則;商務用 Skype Online 不允許您刪除全域原則或設定設定。 Cmdlet 的作用是讓您將全域語音原則中的所有屬性重設為預設值。 例如，根據預設，AllowCallForwarding 屬性會設定為 False。 不過，AllowCallForwarding 可能已修改，但現在值設定為 True。 當您執行**set-csvoicepolicy** Cmdlet 時，AllowCallForwarding 屬性會回復成其預設值： False。 下表摘要說明此案例：
+其次， **set-csvoicepolicy 指令程式** 實際上不會刪除通用語音原則;商務用 Skype Online 不允許您刪除全域原則或設定設定。 Cmdlet 的作用是讓您將全域語音原則中的所有屬性重設為預設值。 例如，根據預設，AllowCallForwarding 屬性會設定為 False。 不過，AllowCallForwarding 可能已修改，但現在值設定為 True。 當您執行 **set-csvoicepolicy** Cmdlet 時，AllowCallForwarding 屬性會回復成其預設值： False。 下表摘要說明此案例：
 
 
 <table>
@@ -86,7 +87,7 @@ ms.locfileid: "44755095"
 <td><p>預設值</p></td>
 </tr>
 <tr class="even">
-<td><p>True</p></td>
+<td><p>是</p></td>
 <td><p>在修改全域原則之後</p></td>
 </tr>
 <tr class="odd">

@@ -1,5 +1,6 @@
 ---
 title: 授權連線至 Office 通訊伺服器 2007 R2 Edge Server
+description: 授權連線至 Office 通訊伺服器 2007 R2 Edge Server。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6181f3d42facaf49b84b7c07776dc8717e88b271
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: de8dadb2c476c892f4ffd548ce176d12d3b1a1cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499760"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545829"
 ---
 # <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>授權連線至 Office 通訊伺服器 2007 R2 Edge Server
 

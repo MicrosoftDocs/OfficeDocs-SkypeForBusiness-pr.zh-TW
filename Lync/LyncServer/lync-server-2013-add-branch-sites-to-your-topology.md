@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：將分支網站新增至您的拓撲
+description: Lync Server 2013：將分支網站新增至您的拓撲。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fec919491872df8dc2ab0f843be84d4d0de1c280
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3c7a12373c6a60a2902ee451d39c99f756e2b2f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521570"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544569"
 ---
 # <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>將分支網站新增至您在 Lync Server 2013 中的拓撲
 

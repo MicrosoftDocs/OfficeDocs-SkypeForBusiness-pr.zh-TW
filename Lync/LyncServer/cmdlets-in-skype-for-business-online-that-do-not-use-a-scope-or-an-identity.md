@@ -1,5 +1,6 @@
 ---
 title: 在商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet
+description: 商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,19 +13,19 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ade4dee78fff151530e0d76279fdbfaeade720b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: e7d893c4cf9203c8657dfbdfd7fb2bf46dbdfe4e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755313"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545719"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>在商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet
 
  
 
 
-修改允許清單和封鎖清單時所使用的指令程式（決定使用者可以與哪些外部組織通訊的清單）請勿使用範圍或身分識別。 實際上， **CsEdgeAllowAllKnownDomains** Cmdlet 沒有任何參數。 不使用範圍或身分識別的 Cmdlet 如下：
+修改允許的清單和 (封鎖的清單時所用的指令程式，會決定允許使用者與) 通訊的外部組織，而不是使用範圍或身分識別。 實際上， **CsEdgeAllowAllKnownDomains** Cmdlet 沒有任何參數。 不使用範圍或身分識別的 Cmdlet 如下：
 
   - [新 CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))
 
@@ -32,7 +33,7 @@ ms.locfileid: "44755313"
 
   - [新 CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))
 
-請注意，使用 CsEdgeAllowList 指令**程式**和**CsEdgeDomainPattern**指令程式時，必須包含 Domain 參數。 例如：
+請注意，使用 CsEdgeAllowList 指令 **程式** 和 **CsEdgeDomainPattern** 指令程式時，必須包含 Domain 參數。 例如：
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
