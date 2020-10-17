@@ -678,7 +678,6 @@
 ### [開始使用 Teams 範本](get-started-with-teams-templates.md)
 ### [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [在 Teams 中管理貴組織的 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## 適用於醫療保健的 Teams
 ### [開始使用適用於醫療保健組織的 Teams](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Bookings App 和虛擬造訪](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## 適用於第一線員工的 Teams
 ### [適用於第一線員工的快速入門](firstline-workers-quickstart.yml)
 ### [第一線員工編寫指令碼部署](flw-scripted-deployment.md)
+### [為第一線員工管理以班次為基礎的存取](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [適用於 Microsoft Teams 的 RealWear](flw-realwear.md)
 ### [對講機](walkie-talkie.md)
 ### [從 SPO 網站或頁面建立 Teams 內部網路入口網站應用程式](teams-standalone-static-tabs-using-spo-sites.md)

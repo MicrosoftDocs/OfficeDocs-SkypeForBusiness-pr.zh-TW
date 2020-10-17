@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定監看員節點以執行綜合交易
+title: Lync Server 2013：設定監視節點以執行綜合交易
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605a859717736785df2d726720c2984162ff830d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9514099b3981dafdbb34911d0cedd249221c5621
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499100"
 ---
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a><span data-ttu-id="6fa63-102">在 Lync Server 2013 中設定監視節點以執行綜合交易</span><span class="sxs-lookup"><span data-stu-id="6fa63-102">Configuring a watcher node to run synthetic transactions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a><span data-ttu-id="132bc-102">設定監看員節點以 Lync Server 2013 中執行的綜合交易</span><span class="sxs-lookup"><span data-stu-id="132bc-102">Configuring a watcher node to run synthetic transactions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42207989"
 
 <span> </span>
 
-<span data-ttu-id="132bc-103">_**上次修改主題：** 2014年-02-07_</span><span class="sxs-lookup"><span data-stu-id="132bc-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+<span data-ttu-id="6fa63-103">_**主題上次修改日期：** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="6fa63-103">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-<span data-ttu-id="132bc-104">在安裝 System Center 代理程式檔案之後，您必須下一步] 設定監看員節點本身。</span><span class="sxs-lookup"><span data-stu-id="132bc-104">After the System Center agent files have been installed, you must next configure the watcher node itself.</span></span> <span data-ttu-id="132bc-105">設定監看員節點所採取的步驟將視您的監看員節點電腦位於周邊網路內或周邊網路外而異。</span><span class="sxs-lookup"><span data-stu-id="132bc-105">The steps you take to configure a watcher node will vary depending on whether your watcher node computer lies inside your perimeter network or outside your perimeter network.</span></span>
+<span data-ttu-id="6fa63-104">安裝 System Center agent 檔案之後，您必須接著設定觀察程式節點本身。</span><span class="sxs-lookup"><span data-stu-id="6fa63-104">After the System Center agent files have been installed, you must next configure the watcher node itself.</span></span> <span data-ttu-id="6fa63-105">您用來設定監看員節點的步驟會隨著您的監看員節點電腦位於周邊網路或周邊網路以外的情況而有所不同。</span><span class="sxs-lookup"><span data-stu-id="6fa63-105">The steps you take to configure a watcher node will vary depending on whether your watcher node computer lies inside your perimeter network or outside your perimeter network.</span></span>
 
-<span data-ttu-id="132bc-106">當您設定監看員節點時，您也必須選擇該節點要使用的驗證方法的型別。</span><span class="sxs-lookup"><span data-stu-id="132bc-106">When you configure a watcher node, you must also choose the type of authentication method to be employed by that node.</span></span> <span data-ttu-id="132bc-107">Lync Server 2013 可讓您選擇下列其中一個兩種驗證方法： 信任的伺服器] 或 [認證驗證。</span><span class="sxs-lookup"><span data-stu-id="132bc-107">Lync Server 2013 enables you to choose one of two authentication methods: Trusted Server or Credential Authentication.</span></span> <span data-ttu-id="132bc-108">下表列出這兩個方法之間的差異：</span><span class="sxs-lookup"><span data-stu-id="132bc-108">The differences between these two methods are outlined in the following table:</span></span>
+<span data-ttu-id="6fa63-106">當您設定監視節點時，您也必須選擇該節點要使用的驗證方法類型。</span><span class="sxs-lookup"><span data-stu-id="6fa63-106">When you configure a watcher node, you must also choose the type of authentication method to be employed by that node.</span></span> <span data-ttu-id="6fa63-107">Lync Server 2013 可讓您選擇兩種驗證方法之一：「信任的伺服器」或「憑證驗證」。</span><span class="sxs-lookup"><span data-stu-id="6fa63-107">Lync Server 2013 enables you to choose one of two authentication methods: Trusted Server or Credential Authentication.</span></span> <span data-ttu-id="6fa63-108">下表概述這兩種方法之間的差異：</span><span class="sxs-lookup"><span data-stu-id="6fa63-108">The differences between these two methods are outlined in the following table:</span></span>
 
 
 <table>
@@ -50,31 +52,31 @@ ms.locfileid: "42207989"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="132bc-109">組態</span><span class="sxs-lookup"><span data-stu-id="132bc-109">Configuration</span></span></th>
-<th><span data-ttu-id="132bc-110">說明</span><span class="sxs-lookup"><span data-stu-id="132bc-110">Description</span></span></th>
-<th><span data-ttu-id="132bc-111">支援的位置</span><span class="sxs-lookup"><span data-stu-id="132bc-111">Locations Supported</span></span></th>
+<th><span data-ttu-id="6fa63-109">組態</span><span class="sxs-lookup"><span data-stu-id="6fa63-109">Configuration</span></span></th>
+<th><span data-ttu-id="6fa63-110">描述</span><span class="sxs-lookup"><span data-stu-id="6fa63-110">Description</span></span></th>
+<th><span data-ttu-id="6fa63-111">支援的位置</span><span class="sxs-lookup"><span data-stu-id="6fa63-111">Locations Supported</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="132bc-112">受信任的伺服器</span><span class="sxs-lookup"><span data-stu-id="132bc-112">Trusted Server</span></span></p></td>
-<td><p><span data-ttu-id="132bc-113">使用憑證來模擬內部伺服器，並略過驗證質詢。</span><span class="sxs-lookup"><span data-stu-id="132bc-113">Uses a certificate to impersonate an internal server and bypass authentication challenges.</span></span></p>
-<p><span data-ttu-id="132bc-114">這種方法適合偏好管理單一憑證而不是每個監看員節點上的許多使用者密碼的系統管理員。</span><span class="sxs-lookup"><span data-stu-id="132bc-114">This is useful for administrators who would prefer to manage a single certificate instead of many user passwords on each watcher node.</span></span></p></td>
-<td><p><span data-ttu-id="132bc-115">企業內部。</span><span class="sxs-lookup"><span data-stu-id="132bc-115">Inside the enterprise.</span></span></p>
-<p><span data-ttu-id="132bc-116">請注意，使用此方法時，監看員節點必須集區相同網域中受監視。</span><span class="sxs-lookup"><span data-stu-id="132bc-116">Note that, with this method, the watcher node must be in the same domain as the pools being monitored.</span></span> <span data-ttu-id="132bc-117">如果監看員節點和受監視的集區是在不同的網域，請改為使用認證驗證。</span><span class="sxs-lookup"><span data-stu-id="132bc-117">If the watcher node and the monitored pools are in different domains, use Credential Authentication instead.</span></span></p></td>
+<td><p><span data-ttu-id="6fa63-112">受信任伺服器</span><span class="sxs-lookup"><span data-stu-id="6fa63-112">Trusted Server</span></span></p></td>
+<td><p><span data-ttu-id="6fa63-113">使用憑證來模擬內部伺服器並略過驗證挑戰。</span><span class="sxs-lookup"><span data-stu-id="6fa63-113">Uses a certificate to impersonate an internal server and bypass authentication challenges.</span></span></p>
+<p><span data-ttu-id="6fa63-114">這對喜歡管理單一憑證，而不是在每個監看員節點上使用許多使用者密碼的系統管理員非常有用。</span><span class="sxs-lookup"><span data-stu-id="6fa63-114">This is useful for administrators who would prefer to manage a single certificate instead of many user passwords on each watcher node.</span></span></p></td>
+<td><p><span data-ttu-id="6fa63-115">在企業內。</span><span class="sxs-lookup"><span data-stu-id="6fa63-115">Inside the enterprise.</span></span></p>
+<p><span data-ttu-id="6fa63-116">請注意，使用此方法時，監看員節點必須與受監控的集區位於相同的網域中。</span><span class="sxs-lookup"><span data-stu-id="6fa63-116">Note that, with this method, the watcher node must be in the same domain as the pools being monitored.</span></span> <span data-ttu-id="6fa63-117">如果觀察程式節點與受監視的集區位於不同的網域，請改用認證驗證。</span><span class="sxs-lookup"><span data-stu-id="6fa63-117">If the watcher node and the monitored pools are in different domains, use Credential Authentication instead.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="132bc-118">認證驗證</span><span class="sxs-lookup"><span data-stu-id="132bc-118">Credential Authentication</span></span></p></td>
-<td><p><span data-ttu-id="132bc-119">儲存使用者名稱和密碼安全地以 Windows 認證管理員在每個監看員節點上。</span><span class="sxs-lookup"><span data-stu-id="132bc-119">Stores user names and passwords securely in Windows Credential Manager on each watcher node.</span></span></p>
-<p><span data-ttu-id="132bc-120">此模式需要更多的密碼管理，但位於企業外的監看員節點的唯一選項。</span><span class="sxs-lookup"><span data-stu-id="132bc-120">This mode requires more password management, but is the only option for watcher nodes located outside of the enterprise.</span></span> <span data-ttu-id="132bc-121">這些監看員節點無法被視為受信任的驗證端點。</span><span class="sxs-lookup"><span data-stu-id="132bc-121">These watcher nodes cannot be treated as an endpoint trusted for authentication.</span></span></p></td>
-<td><p><span data-ttu-id="132bc-122">於企業外。</span><span class="sxs-lookup"><span data-stu-id="132bc-122">Outside the enterprise.</span></span></p>
-<p><span data-ttu-id="132bc-123">企業內部。</span><span class="sxs-lookup"><span data-stu-id="132bc-123">Inside the enterprise.</span></span></p></td>
+<td><p><span data-ttu-id="6fa63-118">憑證驗證</span><span class="sxs-lookup"><span data-stu-id="6fa63-118">Credential Authentication</span></span></p></td>
+<td><p><span data-ttu-id="6fa63-119">在每個監看員節點上安全地將使用者名稱和密碼儲存在 Windows 認證管理員中。</span><span class="sxs-lookup"><span data-stu-id="6fa63-119">Stores user names and passwords securely in Windows Credential Manager on each watcher node.</span></span></p>
+<p><span data-ttu-id="6fa63-120">這種模式需要較多的密碼管理，但對於位於企業以外的觀察器節點而言，這是唯一的選擇。</span><span class="sxs-lookup"><span data-stu-id="6fa63-120">This mode requires more password management, but is the only option for watcher nodes located outside of the enterprise.</span></span> <span data-ttu-id="6fa63-121">這些觀察器節點不能視為可信任的端點以進行驗證。</span><span class="sxs-lookup"><span data-stu-id="6fa63-121">These watcher nodes cannot be treated as an endpoint trusted for authentication.</span></span></p></td>
+<td><p><span data-ttu-id="6fa63-122">在企業外。</span><span class="sxs-lookup"><span data-stu-id="6fa63-122">Outside the enterprise.</span></span></p>
+<p><span data-ttu-id="6fa63-123">在企業內。</span><span class="sxs-lookup"><span data-stu-id="6fa63-123">Inside the enterprise.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="132bc-124">您也應確認您的防火牆都有輸入規則 MonitoringHost.exe 和 PowerShell.exe。</span><span class="sxs-lookup"><span data-stu-id="132bc-124">You should also verify that your firewall has inbound rules for both MonitoringHost.exe and PowerShell.exe.</span></span> <span data-ttu-id="132bc-125">如果這些處理程序會被防火牆封鎖，則您的綜合交易，將會失敗並 504 （伺服器逾時） 時發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="132bc-125">If these processes are blocked by the firewall then your synthetic transactions will fail with a 504 (server timeout) error.</span></span>
+<span data-ttu-id="6fa63-124">您也應該確認您的防火牆同時具有 MonitoringHost.exe 和 PowerShell.exe 的輸入規則。</span><span class="sxs-lookup"><span data-stu-id="6fa63-124">You should also verify that your firewall has inbound rules for both MonitoringHost.exe and PowerShell.exe.</span></span> <span data-ttu-id="6fa63-125">如果這些程式被防火牆封鎖，則綜合交易會失敗，並顯示 504 (伺服器超時) 錯誤。</span><span class="sxs-lookup"><span data-stu-id="6fa63-125">If these processes are blocked by the firewall then your synthetic transactions will fail with a 504 (server timeout) error.</span></span>
 
 </div>
 
