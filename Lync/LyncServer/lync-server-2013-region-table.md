@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Region table'
+title: Lync Server 2013： Region 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f33df1146c4366169b4c8157503fba436a6d7ed8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d48217ff0daa62a8f528829b85620e173626ca06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536720"
 ---
+# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="406b0-102">Lync Server 2013 中的地區表格</span><span class="sxs-lookup"><span data-stu-id="406b0-102">Region table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="feadb-102">Lync Server 2013 中的區域資料表</span><span class="sxs-lookup"><span data-stu-id="feadb-102">Region table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42201539"
 
 <span> </span>
 
-<span data-ttu-id="feadb-103">_**主題上次修改日期：** 2010年-11-09_</span><span class="sxs-lookup"><span data-stu-id="feadb-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="406b0-103">_**主題上次修改日期：** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="406b0-103">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="feadb-p101">地區表格是一種支援資料表，其中的每一項記錄都代表網路組態設定中定義的一個國家/地區。</span><span class="sxs-lookup"><span data-stu-id="feadb-p101">The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.</span></span>
+<span data-ttu-id="406b0-p101">地區表格是一種支援資料表，其中的每一項記錄都代表網路組態設定中定義的一個國家/地區。</span><span class="sxs-lookup"><span data-stu-id="406b0-p101">The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.</span></span>
 
 
 <table>
@@ -49,24 +51,24 @@ ms.locfileid: "42201539"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="feadb-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="feadb-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="feadb-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="feadb-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="feadb-108"><strong>主索引鍵 /</strong></span><span class="sxs-lookup"><span data-stu-id="feadb-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="feadb-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="feadb-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="406b0-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="406b0-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="406b0-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="406b0-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="406b0-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="406b0-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="406b0-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="406b0-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="feadb-110"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="feadb-110"><strong>RegionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="feadb-111">int</span><span class="sxs-lookup"><span data-stu-id="feadb-111">int</span></span></p></td>
-<td><p><span data-ttu-id="feadb-112">主要</span><span class="sxs-lookup"><span data-stu-id="feadb-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="feadb-113">用於識別國家/地區的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="feadb-113">Unique number identifying the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="406b0-110"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="406b0-110"><strong>RegionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="406b0-111">int</span><span class="sxs-lookup"><span data-stu-id="406b0-111">int</span></span></p></td>
+<td><p><span data-ttu-id="406b0-112">主要</span><span class="sxs-lookup"><span data-stu-id="406b0-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="406b0-113">用於識別國家/地區的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="406b0-113">Unique number identifying the country/region.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="feadb-114"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="feadb-114"><strong>RegionName</strong></span></span></p></td>
-<td><p><span data-ttu-id="feadb-115">nvarchar(128)</span><span class="sxs-lookup"><span data-stu-id="feadb-115">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="feadb-116">Unique</span><span class="sxs-lookup"><span data-stu-id="feadb-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="feadb-117">國家/地區的名稱。</span><span class="sxs-lookup"><span data-stu-id="feadb-117">The name of the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="406b0-114"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="406b0-114"><strong>RegionName</strong></span></span></p></td>
+<td><p><span data-ttu-id="406b0-115">Nvarchar (128) </span><span class="sxs-lookup"><span data-stu-id="406b0-115">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="406b0-116">Unique</span><span class="sxs-lookup"><span data-stu-id="406b0-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="406b0-117">國家/地區的名稱。</span><span class="sxs-lookup"><span data-stu-id="406b0-117">The name of the country/region.</span></span></p></td>
 </tr>
 </tbody>
 </table>

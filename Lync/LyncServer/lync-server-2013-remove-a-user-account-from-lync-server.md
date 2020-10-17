@@ -12,20 +12,22 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db45682fd130aba378cab0f9894537ff4c23c28b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 782077cc532dc751076d3152467de865fe799a29
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536510"
 ---
+# <a name="remove-a-user-account-from-lync-server-2013"></a><span data-ttu-id="d65cf-102">從 Lync Server 2013 移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="d65cf-102">Remove a user account from Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-user-account-from-lync-server-2013"></a><span data-ttu-id="c6375-102">從 Lync Server 2013 移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="c6375-102">Remove a user account from Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42183159"
 
 <span> </span>
 
-<span data-ttu-id="c6375-103">_**主題上次修改日期：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="c6375-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="d65cf-103">_**主題上次修改日期：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="d65cf-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="c6375-104">您可以使用下列程式，在 Lync Server 2013 中移除之前新增的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="c6375-104">You can use the following procedure to remove a previously added user account in Lync Server 2013.</span></span>
+<span data-ttu-id="d65cf-104">您可以使用下列程式，在 Lync Server 2013 中移除之前新增的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="d65cf-104">You can use the following procedure to remove a previously added user account in Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c6375-105">移除使用者會造成您遺失該使用者的所有設定。</span><span class="sxs-lookup"><span data-stu-id="c6375-105">Removing a user will cause you to lose any settings you configured for the user account.</span></span> <span data-ttu-id="c6375-106">如果您想要暫時停用使用者帳戶，請參閱主題停用<A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">或重新啟用 Lync Server 2013 的使用者帳戶</A>。</span><span class="sxs-lookup"><span data-stu-id="c6375-106">If you would like to temporarily disable a user account instead, see the topic <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="d65cf-105">移除使用者會造成您遺失該使用者的所有設定。</span><span class="sxs-lookup"><span data-stu-id="d65cf-105">Removing a user will cause you to lose any settings you configured for the user account.</span></span> <span data-ttu-id="d65cf-106">如果您想要暫時停用使用者帳戶，請參閱主題停用 <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">或重新啟用 Lync Server 2013 的使用者帳戶</A>。</span><span class="sxs-lookup"><span data-stu-id="d65cf-106">If you would like to temporarily disable a user account instead, see the topic <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,55 +53,55 @@ ms.locfileid: "42183159"
 
 <div>
 
-## <a name="to-remove-a-user-account-by-using-lync-server-management-shell"></a><span data-ttu-id="c6375-107">使用 Lync Server 管理命令介面移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="c6375-107">To remove a user account by using Lync Server Management Shell</span></span>
+## <a name="to-remove-a-user-account-by-using-lync-server-management-shell"></a><span data-ttu-id="d65cf-107">使用 Lync Server 管理命令介面移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="d65cf-107">To remove a user account by using Lync Server Management Shell</span></span>
 
-1.  <span data-ttu-id="c6375-108">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="c6375-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="d65cf-108">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="d65cf-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="c6375-109">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="c6375-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c6375-110">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="c6375-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="d65cf-109">開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="d65cf-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d65cf-110">如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="d65cf-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="c6375-111">在左導覽列中，按一下 **[使用者]**。</span><span class="sxs-lookup"><span data-stu-id="c6375-111">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="d65cf-111">在左導覽列中，按一下 **[使用者]**。</span><span class="sxs-lookup"><span data-stu-id="d65cf-111">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="c6375-112">在 [搜尋使用者]\*\*\*\* 方塊中，輸入全部或部分的顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或您想要停用或重新啟用的使用者帳戶之線路統一資源識別元 (URI)，然後按一下 [尋找]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c6375-112">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to disable or re-enable, and then click **Find**.</span></span>
+4.  <span data-ttu-id="d65cf-112">在 [搜尋使用者]\*\*\*\* 方塊中，輸入全部或部分的顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或您想要停用或重新啟用的使用者帳戶之線路統一資源識別元 (URI)，然後按一下 [尋找]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="d65cf-112">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to disable or re-enable, and then click **Find**.</span></span>
 
-5.  <span data-ttu-id="c6375-113">在表中按一下您想要移除的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="c6375-113">In the table, click the user account that you want to remove.</span></span>
+5.  <span data-ttu-id="d65cf-113">在表中按一下您想要移除的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="d65cf-113">In the table, click the user account that you want to remove.</span></span>
 
-6.  <span data-ttu-id="c6375-114">選取 [動作]\*\*\*\* 功能表中的 [從 Lync Server 移除]\*\*\*\*，隨即顯示對話方塊。</span><span class="sxs-lookup"><span data-stu-id="c6375-114">On the **Action** menu, select **Remove from Lync Server**, and a dialog box appears.</span></span>
+6.  <span data-ttu-id="d65cf-114">選取 [動作]\*\*\*\* 功能表中的 [從 Lync Server 移除]\*\*\*\*，隨即顯示對話方塊。</span><span class="sxs-lookup"><span data-stu-id="d65cf-114">On the **Action** menu, select **Remove from Lync Server**, and a dialog box appears.</span></span>
 
-7.  <span data-ttu-id="c6375-115">選取對話方塊中的 [確定]\*\*\*\* 以移除使用者。</span><span class="sxs-lookup"><span data-stu-id="c6375-115">From the dialog box, select **OK** to remove the user.</span></span>
+7.  <span data-ttu-id="d65cf-115">選取對話方塊中的 [確定]\*\*\*\* 以移除使用者。</span><span class="sxs-lookup"><span data-stu-id="d65cf-115">From the dialog box, select **OK** to remove the user.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="c6375-116">使用 Windows PowerShell Cmdlet 移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="c6375-116">Removing User Accounts by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="d65cf-116">使用 Windows PowerShell Cmdlet 移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="d65cf-116">Removing User Accounts by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="c6375-117">您可以使用 Get-csuser Cmdlet 移除使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="c6375-117">You can remove user accounts by using the Disable-CsUser cmdlet.</span></span> <span data-ttu-id="c6375-118">您可以從 Lync Server 2013 管理命令介面或從遠端會話 Windows PowerShell 執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c6375-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session Windows PowerShell.</span></span> <span data-ttu-id="c6375-119">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="c6375-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="d65cf-117">您可以使用 Disable-CsUser Cmdlet 來移除使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="d65cf-117">You can remove user accounts by using the Disable-CsUser cmdlet.</span></span> <span data-ttu-id="d65cf-118">您可以從 Lync Server 2013 管理命令介面或從遠端會話 Windows PowerShell 執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="d65cf-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session Windows PowerShell.</span></span> <span data-ttu-id="d65cf-119">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="d65cf-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-user-account"></a><span data-ttu-id="c6375-120">移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="c6375-120">To remove a user account</span></span>
+## <a name="to-remove-a-user-account"></a><span data-ttu-id="d65cf-120">移除使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="d65cf-120">To remove a user account</span></span>
 
-  - <span data-ttu-id="c6375-p104">若要移除使用者帳戶，請使用 Disable-CsUser Cmdlet。例如：</span><span class="sxs-lookup"><span data-stu-id="c6375-p104">To remove a user account, use the Disable-CsUser cmdlet. For example:</span></span>
+  - <span data-ttu-id="d65cf-p104">若要移除使用者帳戶，請使用 Disable-CsUser Cmdlet。例如：</span><span class="sxs-lookup"><span data-stu-id="d65cf-p104">To remove a user account, use the Disable-CsUser cmdlet. For example:</span></span>
     
         Disable-CsUser -Identity "Ken Myer"
     
-    <span data-ttu-id="c6375-p105">執行此命令之後，將無法再重新啟用帳戶及其設定。所以請使用 Enable-CsUser Cmdlet 為 Ken Myer 建立新帳戶。</span><span class="sxs-lookup"><span data-stu-id="c6375-p105">After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.</span></span>
+    <span data-ttu-id="d65cf-p105">執行此命令之後，將無法再重新啟用帳戶及其設定。所以請使用 Enable-CsUser Cmdlet 為 Ken Myer 建立新帳戶。</span><span class="sxs-lookup"><span data-stu-id="d65cf-p105">After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.</span></span>
 
 </div>
 
-<span data-ttu-id="c6375-125">如需詳細資訊，請參閱[get-csuser 指令程式](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="c6375-125">For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) cmdlet.</span></span>
+<span data-ttu-id="d65cf-125">如需詳細資訊，請參閱 [get-csuser 指令程式](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="d65cf-125">For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c6375-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c6375-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d65cf-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d65cf-126">See Also</span></span>
 
 
-[<span data-ttu-id="c6375-127">停用或重新啟用 Lync Server 2013 的使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="c6375-127">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[<span data-ttu-id="d65cf-127">停用或重新啟用 Lync Server 2013 的使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="d65cf-127">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
 
 
-[<span data-ttu-id="c6375-128">啟用和停用 Lync Server 2013 的使用者</span><span class="sxs-lookup"><span data-stu-id="c6375-128">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+[<span data-ttu-id="d65cf-128">啟用和停用 Lync Server 2013 的使用者</span><span class="sxs-lookup"><span data-stu-id="d65cf-128">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 
 </div>

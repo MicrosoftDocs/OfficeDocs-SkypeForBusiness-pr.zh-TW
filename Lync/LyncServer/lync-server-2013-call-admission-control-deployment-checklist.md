@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 通話許可控制部署檢查清單
+title: Lync Server 2013：通話許可控制的部署檢查清單
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd1de11f9d169babc8a4367f429d9d99559d6aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16c4c77876064ca0ab9210b96d7c13d68cc4218
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187056"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537240"
 ---
+# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a><span data-ttu-id="20ec7-102">Lync Server 2013 的通話許可控制部署檢查清單</span><span class="sxs-lookup"><span data-stu-id="20ec7-102">Call admission control deployment checklist for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a><span data-ttu-id="f880b-102">Lync Server 2013 的通話許可控制部署檢查清單</span><span class="sxs-lookup"><span data-stu-id="f880b-102">Call admission control deployment checklist for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42187056"
 
 <span> </span>
 
-<span data-ttu-id="f880b-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="f880b-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="20ec7-103">_**主題上次修改日期：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="20ec7-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="f880b-104">若要確認您已完成所有必要的組態工作，以部署通話許可控制 (CAC) 使用下列檢查清單。</span><span class="sxs-lookup"><span data-stu-id="f880b-104">Use the following checklist to verify that you have completed all the necessary configuration tasks to deploy call admission control (CAC).</span></span>
+<span data-ttu-id="20ec7-104">使用下列檢查清單，確認您已完成所有必要的設定工作，以將通話許可控制部署 (CAC) 。</span><span class="sxs-lookup"><span data-stu-id="20ec7-104">Use the following checklist to verify that you have completed all the necessary configuration tasks to deploy call admission control (CAC).</span></span>
 
-  - <span data-ttu-id="f880b-105">如果部署一或多個 Edge Server，每個外部介面 IP 位址必須新增至 [子網路] 清單中的網路組態設定，32 位元遮罩。</span><span class="sxs-lookup"><span data-stu-id="f880b-105">If one or more Edge Servers are deployed, each external interface IP address must be added to the subnet list in the network configuration settings, with a bit mask of 32.</span></span> <span data-ttu-id="f880b-106">您應該也關聯此子網路 （IP 位址） 的地理位置的網路網站識別碼其中 A / V Edge service 部署。</span><span class="sxs-lookup"><span data-stu-id="f880b-106">You should also associate this subnet (IP address) with the network site ID for the geographic location where the A/V Edge service is deployed.</span></span>
+  - <span data-ttu-id="20ec7-105">如果已部署一或多部 Edge Server，則每個外部介面 IP 位址都必須新增至網路設定設定中的子網清單，而位元遮罩為32。</span><span class="sxs-lookup"><span data-stu-id="20ec7-105">If one or more Edge Servers are deployed, each external interface IP address must be added to the subnet list in the network configuration settings, with a bit mask of 32.</span></span> <span data-ttu-id="20ec7-106">您也應該針對部署 A/V Edge service 的地理位置，將該子網 (IP 位址) 與網路網站識別碼產生關聯。</span><span class="sxs-lookup"><span data-stu-id="20ec7-106">You should also associate this subnet (IP address) with the network site ID for the geographic location where the A/V Edge service is deployed.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="f880b-107">若要實作 CAC 不需要 edge server。</span><span class="sxs-lookup"><span data-stu-id="f880b-107">Edge servers are not required to implement CAC.</span></span>
+    > <span data-ttu-id="20ec7-107">不需要 Edge server 來執行 CAC。</span><span class="sxs-lookup"><span data-stu-id="20ec7-107">Edge servers are not required to implement CAC.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="f880b-108">請務必啟用 CAC，透過 Lync Server Control Panel 或執行[Lync Server 2013 中的啟用通話許可控制](lync-server-2013-enable-call-admission-control.md)中所指定的指令程式。</span><span class="sxs-lookup"><span data-stu-id="f880b-108">Make sure that CAC is enabled, either through Lync Server Control Panel or by running the cmdlet as specified in [Enable call admission control in Lync Server 2013](lync-server-2013-enable-call-admission-control.md).</span></span>
+  - <span data-ttu-id="20ec7-108">確定 CAC 已啟用，不論是透過 Lync Server 控制台，還是透過在 Lync Server 2013 中的 [ [啟用通話許可控制](lync-server-2013-enable-call-admission-control.md)] 中所指定的方式執行。</span><span class="sxs-lookup"><span data-stu-id="20ec7-108">Make sure that CAC is enabled, either through Lync Server Control Panel or by running the cmdlet as specified in [Enable call admission control in Lync Server 2013](lync-server-2013-enable-call-admission-control.md).</span></span>
 
-  - <span data-ttu-id="f880b-109">請確定所有的中央網站中已啟用 CAC。</span><span class="sxs-lookup"><span data-stu-id="f880b-109">Make sure that CAC is enabled in all central sites.</span></span> <span data-ttu-id="f880b-110">這可以透過 [拓撲產生器]。</span><span class="sxs-lookup"><span data-stu-id="f880b-110">This can be done through the Topology Builder.</span></span> <span data-ttu-id="f880b-111">如果當您發佈時，會產生警告，*不*忽略它。</span><span class="sxs-lookup"><span data-stu-id="f880b-111">If a warning is generated when you publish, *do not* ignore it.</span></span>
+  - <span data-ttu-id="20ec7-109">確定所有中央網站皆已啟用 CAC。</span><span class="sxs-lookup"><span data-stu-id="20ec7-109">Make sure that CAC is enabled in all central sites.</span></span> <span data-ttu-id="20ec7-110">這可以透過拓撲產生器來完成。</span><span class="sxs-lookup"><span data-stu-id="20ec7-110">This can be done through the Topology Builder.</span></span> <span data-ttu-id="20ec7-111">如果您發佈時產生警告， *請勿* 略過。</span><span class="sxs-lookup"><span data-stu-id="20ec7-111">If a warning is generated when you publish, *do not* ignore it.</span></span>
 
-  - <span data-ttu-id="f880b-112">請確定網路組態設定中的設定受管理的企業網路中的所有子網路。</span><span class="sxs-lookup"><span data-stu-id="f880b-112">Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings.</span></span> <span data-ttu-id="f880b-113">它也是不可或缺的每一個子網路是與相關聯的網路網站，[建立關聯的子網路與網路網站在 Lync Server 2013 中](lync-server-2013-associate-a-subnet-with-a-network-site.md)所述。</span><span class="sxs-lookup"><span data-stu-id="f880b-113">It is also essential that every subnet be associated to a network site, as explained in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span>
+  - <span data-ttu-id="20ec7-112">請確定 [網路設定] 中已設定商業網路中所管理的所有子網。</span><span class="sxs-lookup"><span data-stu-id="20ec7-112">Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings.</span></span> <span data-ttu-id="20ec7-113">將每個子網與網路網站相關聯也是必要的，如在 [Lync Server 2013 中將子網與網路網站關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md)的說明。</span><span class="sxs-lookup"><span data-stu-id="20ec7-113">It is also essential that every subnet be associated to a network site, as explained in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span>
 
-  - <span data-ttu-id="f880b-114">請確定所有前端伺服器、 Survivable Branch Appliance (Sba)、 音訊/視訊會議伺服器 （如果位於不同集區），和中繼伺服器的 IP 位址的子網路的網路組態設定中設定。</span><span class="sxs-lookup"><span data-stu-id="f880b-114">Make sure that the subnet or IP addresses of all Front End Servers, Survivable Branch Appliances (SBAs), Audio/Video Conferencing Servers (if in a separate pool), and Mediation Servers are configured in the network configuration settings.</span></span>
+  - <span data-ttu-id="20ec7-114">請確定所有前端伺服器、Survivable 分支裝置 (Sba) 、Audio/Video 會議服務器 (如在不同的集區) 中，以及在 [網路設定] 中設定轉送伺服器時的子網或 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="20ec7-114">Make sure that the subnet or IP addresses of all Front End Servers, Survivable Branch Appliances (SBAs), Audio/Video Conferencing Servers (if in a separate pool), and Mediation Servers are configured in the network configuration settings.</span></span>
 
 </div>
 
