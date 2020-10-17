@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：工作流程建立案例簡介
+description: Lync Server 2013：工作流程建立案例簡介。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 996aec239a2aa94aaa6930fc0ff5edaeca1f102b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a38627e7abb058be2050c0db0b46fa06dfd75287
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516050"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557409"
 ---
-# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a><span data-ttu-id="c0848-102">Lync Server 2013 中的工作流程建立案例概述</span><span class="sxs-lookup"><span data-stu-id="c0848-102">Overview of workflow creation scenarios in Lync Server 2013</span></span>
+# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a><span data-ttu-id="9afaa-103">Lync Server 2013 中的工作流程建立案例概述</span><span class="sxs-lookup"><span data-stu-id="9afaa-103">Overview of workflow creation scenarios in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48516050"
 
 <span> </span>
 
-<span data-ttu-id="c0848-103">_**主題上次修改日期：** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="c0848-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="9afaa-104">_**主題上次修改日期：** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="9afaa-104">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="c0848-104">當您建立工作流程時，有兩種可能的情況：</span><span class="sxs-lookup"><span data-stu-id="c0848-104">When you create workflows, there are two possible scenarios:</span></span>
+<span data-ttu-id="9afaa-105">當您建立工作流程時，有兩種可能的情況：</span><span class="sxs-lookup"><span data-stu-id="9afaa-105">When you create workflows, there are two possible scenarios:</span></span>
 
-  - <span data-ttu-id="c0848-105">**系統管理員建立及設定工作流程** - CsResponseGroupAdministrator 角色成員 (或同等權限) 建立及啟動工作流程和工作流程中的所有元素，例如代理群組、佇列、假日和上班時間、等候音樂等。</span><span class="sxs-lookup"><span data-stu-id="c0848-105">**The Administrator creates and configures the workflow** — The CsResponseGroupAdministrator role member (or equivalent) creates and activates the workflow and all elements in the workflow, such as the agent groups, queues, holiday and business hours, music on hold, and so on.</span></span>
+  - <span data-ttu-id="9afaa-106">**系統管理員建立及設定工作流程** - CsResponseGroupAdministrator 角色成員 (或同等權限) 建立及啟動工作流程和工作流程中的所有元素，例如代理群組、佇列、假日和上班時間、等候音樂等。</span><span class="sxs-lookup"><span data-stu-id="9afaa-106">**The Administrator creates and configures the workflow** — The CsResponseGroupAdministrator role member (or equivalent) creates and activates the workflow and all elements in the workflow, such as the agent groups, queues, holiday and business hours, music on hold, and so on.</span></span>
 
-  - <span data-ttu-id="c0848-p101">**系統管理員建立工作流程，而一般管理員設定選項** - CsResponseGroupAdministrator 角色成員 (或同等權限) 定義主要 SIP URI、顯示名稱，指派一或多個 CsResponseGroupManager 角色成員，以及選取佇列並啟動工作流程。然後，CsResponseGroupManager 會登入並編輯工作流程設定，包括建立代理群組、將群組指派給佇列，以及設定電話號碼、假日和上班時間、等候音樂等。</span><span class="sxs-lookup"><span data-stu-id="c0848-p101">**The Administrator creates the workflow and the Manager configures options** — The CsResponseGroupAdministrator role member (or equivalent) defines the primary SIP URI, Display Name, assigns a member or members of the CsResponseGroupManager role, and selects a queue and activates the workflow. The CsResponseGroupManager can then log on and edit the configuration of the workflow by creating agent groups and also assigns the group to the queue, configuring the telephone number, holiday and business hours, music on hold, and so on.</span></span>
+  - <span data-ttu-id="9afaa-p101">**系統管理員建立工作流程，而一般管理員設定選項** - CsResponseGroupAdministrator 角色成員 (或同等權限) 定義主要 SIP URI、顯示名稱，指派一或多個 CsResponseGroupManager 角色成員，以及選取佇列並啟動工作流程。然後，CsResponseGroupManager 會登入並編輯工作流程設定，包括建立代理群組、將群組指派給佇列，以及設定電話號碼、假日和上班時間、等候音樂等。</span><span class="sxs-lookup"><span data-stu-id="9afaa-p101">**The Administrator creates the workflow and the Manager configures options** — The CsResponseGroupAdministrator role member (or equivalent) defines the primary SIP URI, Display Name, assigns a member or members of the CsResponseGroupManager role, and selects a queue and activates the workflow. The CsResponseGroupManager can then log on and edit the configuration of the workflow by creating agent groups and also assigns the group to the queue, configuring the telephone number, holiday and business hours, music on hold, and so on.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="c0848-p102">當您想建立受管理的工作流程時，您必須建立並啟動工作流程。儲存作用中的受管理工作流程之後，即可修改及停用工作流程。</span><span class="sxs-lookup"><span data-stu-id="c0848-p102">When you want to create a managed workflow, you need to create the workflow as active. After you save an active, managed workflow, you can then modify and deactivate the workflow.</span></span>
+    > <span data-ttu-id="9afaa-p102">當您想建立受管理的工作流程時，您必須建立並啟動工作流程。儲存作用中的受管理工作流程之後，即可修改及停用工作流程。</span><span class="sxs-lookup"><span data-stu-id="9afaa-p102">When you want to create a managed workflow, you need to create the workflow as active. After you save an active, managed workflow, you can then modify and deactivate the workflow.</span></span>
 
     
     </div>
