@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：更新 Outlook 啟用清單
+description: Lync Server 2013：更新 Outlook 啟用清單。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 96edc327fa1b63d5da95eb6ea36a2296659910d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506660"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546229"
 ---
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a><span data-ttu-id="53d52-102">在 Lync Server 2013 中更新 Outlook 啟用清單</span><span class="sxs-lookup"><span data-stu-id="53d52-102">Updating the Outlook enable list in Lync Server 2013</span></span>
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a><span data-ttu-id="c2a0c-103">在 Lync Server 2013 中更新 Outlook 啟用清單</span><span class="sxs-lookup"><span data-stu-id="c2a0c-103">Updating the Outlook enable list in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48506660"
 
 <span> </span>
 
-<span data-ttu-id="53d52-103">_**主題上次修改日期：** 2013-01-07_</span><span class="sxs-lookup"><span data-stu-id="53d52-103">_**Topic Last Modified:** 2013-01-07_</span></span>
+<span data-ttu-id="c2a0c-104">_**主題上次修改日期：** 2013-01-07_</span><span class="sxs-lookup"><span data-stu-id="c2a0c-104">_**Topic Last Modified:** 2013-01-07_</span></span>
 
-<span data-ttu-id="53d52-104">您可以在 Outlook 的增益集管理清單中建立一個原則，以確保 Microsoft Lync 2013 的線上會議增益集永遠保持啟用狀態，以供使用者使用。</span><span class="sxs-lookup"><span data-stu-id="53d52-104">You can ensure that Online Meeting Add-in for Microsoft Lync 2013 always remains enabled for users by creating a policy that includes it in the Add-in Management List for Outlook.</span></span> <span data-ttu-id="53d52-105">「增益集管理清單」原則包含在「群組原則管理主控台」的 Office 系統管理範本檔案中。</span><span class="sxs-lookup"><span data-stu-id="53d52-105">The Add-in Management List policy is included in the Office administrative template files for the Group Policy Management Console.</span></span> <span data-ttu-id="53d52-106">它會在 [HKCU 軟體原則] 下的 [ \\ \\ \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 恢復 \\ AddinList] 底下建立登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="53d52-106">It creates a registry key under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList.</span></span> <span data-ttu-id="53d52-107">您可以將 ucaddin.dll 的值加入至此機碼，並設定 ucaddin.dll 值，使其永遠啟用，且使用者無法手動加以停用。</span><span class="sxs-lookup"><span data-stu-id="53d52-107">You can add a value for the ucaddin.dll to this key, and configure the ucaddin.dll value so that it is always enabled and so that users cannot manually disable it</span></span>
+<span data-ttu-id="c2a0c-105">您可以在 Outlook 的增益集管理清單中建立一個原則，以確保 Microsoft Lync 2013 的線上會議增益集永遠保持啟用狀態，以供使用者使用。</span><span class="sxs-lookup"><span data-stu-id="c2a0c-105">You can ensure that Online Meeting Add-in for Microsoft Lync 2013 always remains enabled for users by creating a policy that includes it in the Add-in Management List for Outlook.</span></span> <span data-ttu-id="c2a0c-106">「增益集管理清單」原則包含在「群組原則管理主控台」的 Office 系統管理範本檔案中。</span><span class="sxs-lookup"><span data-stu-id="c2a0c-106">The Add-in Management List policy is included in the Office administrative template files for the Group Policy Management Console.</span></span> <span data-ttu-id="c2a0c-107">它會在 [HKCU 軟體原則] 下的 [ \\ \\ \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 恢復 \\ AddinList] 底下建立登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="c2a0c-107">It creates a registry key under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList.</span></span> <span data-ttu-id="c2a0c-108">您可以將 ucaddin.dll 的值加入至此機碼，並設定 ucaddin.dll 值，使其永遠啟用，且使用者無法手動加以停用。</span><span class="sxs-lookup"><span data-stu-id="c2a0c-108">You can add a value for the ucaddin.dll to this key, and configure the ucaddin.dll value so that it is always enabled and so that users cannot manually disable it</span></span>
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a><span data-ttu-id="53d52-108">將 ucaddin.dll 新增至 Outlook 增益集清單</span><span class="sxs-lookup"><span data-stu-id="53d52-108">To Add ucaddin.dll to the Outlook Add-in List</span></span>
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a><span data-ttu-id="c2a0c-109">將 ucaddin.dll 新增至 Outlook 增益集清單</span><span class="sxs-lookup"><span data-stu-id="c2a0c-109">To Add ucaddin.dll to the Outlook Add-in List</span></span>
 
-  - <span data-ttu-id="53d52-109">在 [AddinList] 登錄機碼（位於 [HKCU \\ 軟體 \\ 原則] \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 恢復 \\ AddinList）下，新增下列值：</span><span class="sxs-lookup"><span data-stu-id="53d52-109">To the AddinList registry key, located under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, add the following value:</span></span>
+  - <span data-ttu-id="c2a0c-110">在 [AddinList] 登錄機碼（位於 [HKCU \\ 軟體 \\ 原則] \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 恢復 \\ AddinList）下，新增下列值：</span><span class="sxs-lookup"><span data-stu-id="c2a0c-110">To the AddinList registry key, located under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, add the following value:</span></span>
     
-      - <span data-ttu-id="53d52-110">登錄類型 = REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="53d52-110">Registry Type = REG\_SZ</span></span>
+      - <span data-ttu-id="c2a0c-111">登錄類型 = REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="c2a0c-111">Registry Type = REG\_SZ</span></span>
     
-      - <span data-ttu-id="53d52-111">名稱 = ucaddin.dll</span><span class="sxs-lookup"><span data-stu-id="53d52-111">Name = ucaddin.dll</span></span>
+      - <span data-ttu-id="c2a0c-112">名稱 = ucaddin.dll</span><span class="sxs-lookup"><span data-stu-id="c2a0c-112">Name = ucaddin.dll</span></span>
     
-      - <span data-ttu-id="53d52-112">值 = 1 (指定增益集一律啟用，而且使用者無法管理)</span><span class="sxs-lookup"><span data-stu-id="53d52-112">Value = 1 (specifies that the add-in is always enabled and cannot be managed by the end user)</span></span>
+      - <span data-ttu-id="c2a0c-113">值 = 1 (指定增益集一律啟用，而且使用者無法管理)</span><span class="sxs-lookup"><span data-stu-id="c2a0c-113">Value = 1 (specifies that the add-in is always enabled and cannot be managed by the end user)</span></span>
 
 </div>
 
