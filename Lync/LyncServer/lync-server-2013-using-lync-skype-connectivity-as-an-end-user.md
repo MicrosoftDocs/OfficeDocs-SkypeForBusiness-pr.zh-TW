@@ -12,20 +12,22 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6971ef2d6fb08838a4fcf71f4fec8097a7f9e47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94bb9a2d5fa584de5b6195de0ad2accf6899d0e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212819"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535770"
 ---
+# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>在 Lync Server 2013 中使用 Lync-Skype 連線能力做為使用者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>在 Lync Server 2013 中使用 Lync-Skype 連線能力做為使用者
+
 
 </div>
 

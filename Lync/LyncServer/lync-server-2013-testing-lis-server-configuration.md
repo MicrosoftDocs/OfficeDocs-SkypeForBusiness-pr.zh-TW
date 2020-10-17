@@ -12,20 +12,22 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50b2908b3f2403cc59f4cb7ce26f176d366ce2e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8893964ce1982c67dc97ed93bca9ba19ec2f24e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194122"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536010"
 ---
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中測試 .LIS 伺服器設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中測試 .LIS 伺服器設定
+
 
 </div>
 
@@ -74,7 +76,7 @@ Test-CsLisConfiguration Cmdlet 會驗證您是否可以聯繫 .LIS web 服務。
 
 ## <a name="running-the-test"></a>執行測試
 
-CsLisConfguration Cmdlet 可使用預先設定的測試帳戶執行 (請參閱設定測試帳戶以執行 Lync Server 測試) 或任何已啟用 Lync Server 的使用者帳戶。 若要使用測試帳戶執行這項檢查，您只需要指定所測試之 Lync 伺服器集區的 FQDN。 例如：
+您可以使用預先設定的測試帳戶執行 Test-CsLisConfguration Cmdlet (請參閱設定測試帳戶以執行 Lync Server 測試) 或任何啟用 Lync Server 之使用者的帳戶。 若要使用測試帳戶執行這項檢查，您只需要指定所測試之 Lync 伺服器集區的 FQDN。 例如：
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -83,7 +85,7 @@ CsLisConfguration Cmdlet 可使用預先設定的測試帳戶執行 (請參閱�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) Cmdlet 的說明文件。
 
 </div>
 
@@ -91,9 +93,9 @@ CsLisConfguration Cmdlet 可使用預先設定的測試帳戶執行 (請參閱�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果已正確設定 .LIS，您會收到類似下列的輸出，並將 Result 屬性標示為 [**成功]：**
+如果已正確設定 .LIS，您會收到類似下列的輸出，並將 Result 屬性標示為 [ **成功]：**
 
-TargetUri：https://atl-cs-001.litwareinc.com:443/locationinformation/
+TargetUri： https://atl-cs-001.litwareinc.com:443/locationinformation/
 
 liservice
 
@@ -135,7 +137,7 @@ Test-CsLisConfiguration：在拓撲中找不到相符的集群。
 
 呼叫位置資訊服務。
 
-服務路徑 =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
+服務路徑 = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
 Subnet =
 

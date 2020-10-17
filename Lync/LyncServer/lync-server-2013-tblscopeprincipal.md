@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblScopePrincipal'
+title: Lync Server 2013： tblScopePrincipal
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17f6fad436234764bb1e081813a155472981172a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8263369e9224c4a3aeb20bbb664392fbe3ba7c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195116"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536280"
 ---
+# <a name="tblscopeprincipal-in-lync-server-2013"></a>Lync Server 2013 中的 tblScopePrincipal
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblscopeprincipal-in-lync-server-2013"></a>Lync Server 2013 中的 tblScopePrincipal
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42195116"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
 tblScopePrincipal 包含指派給節點的範圍。
 
@@ -50,7 +52,7 @@ tblScopePrincipal 包含指派給節點的範圍。
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -58,7 +60,7 @@ tblScopePrincipal 包含指派給節點的範圍。
 <tr class="odd">
 <td><p>scopeNodeID</p></td>
 <td><p>int，非 null</p></td>
-<td><p>若要套用該範圍的節點識別碼。</p></td>
+<td><p>套用範圍的節點識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>scopePrinID</p></td>
@@ -68,12 +70,12 @@ tblScopePrincipal 包含指派給節點的範圍。
 <tr class="odd">
 <td><p>scopeIsDenied</p></td>
 <td><p>位元，非 null</p></td>
-<td><p>True 是表示如果範圍類型是 Deny;False 表示允許。</p></td>
+<td><p>True 是表示如果範圍的類型是 Deny;False 表示允許。</p></td>
 </tr>
 <tr class="even">
 <td><p>scopeUpdatedBy</p></td>
 <td><p>int，非 null</p></td>
-<td><p>上次更新此項目之主體的識別碼。</p></td>
+<td><p>最後更新此專案的主體識別碼。</p></td>
 </tr>
 </tbody>
 </table>
@@ -94,7 +96,7 @@ tblScopePrincipal 包含指派給節點的範圍。
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;scopeNodeID scopePrinID&gt;</p></td>
+<td><p>&lt;scopeNodeID, scopePrinID&gt;</p></td>
 <td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">

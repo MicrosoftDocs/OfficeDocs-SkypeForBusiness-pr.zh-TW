@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 疑難排解 Enterprise Voice cmdlet
+title: Lync Server 2013：疑難排解 Enterprise Voice Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8bceaed6b94c4555b20f67be9e783765040ba8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f3e6b6b563ad0762b0e704893b09db7e57aa4a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535940"
 ---
+# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中疑難排解企業語音 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>疑難排解 Lync Server 2013 中的 Enterprise Voice cmdlet
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42193386"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-20 個_
+_**主題上次修改日期：** 2012-06-20_
 
-您 Microsoft Lync Server 2013 中實作包括建立路由的一部分，設定 Enterprise Voice 原則及必須全部一起合作以確保連入及撥出電話的規則完成預期。 Lync Server 管理命令介面包含可用來測試連線和路徑，並實作過程中可能遇到的問題進行疑難排解的 cmdlet。
+將 Enterprise Voice 設定為 Microsoft Lync Server 2013 的一部分，包含建立必須共同運作的路由、原則和規則，以確保傳入和撥出的通話如預期般完成。 Lync Server 管理命令介面包含可用於測試連線和路徑的指令程式，以及疑難排解在執行期間可能發生的問題。
 
 <div>
 
@@ -48,55 +50,55 @@ _**主題上次修改日期：** 2012年-06-20 個_
 **疑難排解 Enterprise Voice Cmdlet**
 
   - <span></span>  
-    [取得 CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
 
   - <span></span>  
-    [移除 CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
+    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
 
   - <span></span>  
-    [設定 CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [取得 Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
+    [CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
 
   - <span></span>  
-    [新 Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
+    [新 CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
 
   - <span></span>  
-    [移除 Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
+    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
 
   - <span></span>  
-    [設定 Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
+    [CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
 
   - <span></span>  
-    [測試 Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
+    [Test-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-csdialplan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
+    [Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [測試來](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
+    [測試-Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [測試 CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
+    [測試-Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [測試 CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
+    [測試-Get-csvoiceroute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [測試 CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
+    [測試-CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
 
 </div>
 
@@ -105,10 +107,10 @@ _**主題上次修改日期：** 2012年-06-20 個_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的 Enterprise Voice cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Lync Server 2013 中的 Enterprise Voice Cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013:: DeviceDriver 表格'
+title: Lync Server 2013： DeviceDriver 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2813ac26bbfd21aa35dbe71c9c4477e8107b8967
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc67c4096cde54252cec432fd8ad2196b05c00e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536940"
 ---
+# <a name="devicedriver-table-in-lync-server-2013"></a>Lync Server 2013 中的 DeviceDriver 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="devicedriver-table-in-lync-server-2013"></a>在 [Lync Server 2013: DeviceDriver 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42214381"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-: DeviceDriver 表格是一種支援資料表。 每一筆記錄代表使用其中一個擷取裝置驅動程式，或轉換裝置。
+DeviceDriver 表格是支援的表格。 每筆記錄都代表一個捕獲裝置或轉譯裝置使用的驅動程式。
 
 
 <table>
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012年-10-02_
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -60,11 +62,11 @@ _**主題上次修改日期：** 2012年-10-02_
 <td><p><strong>DeviceDriverKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>用於識別此裝置驅動程式記錄的唯一號碼。</p></td>
+<td><p>用於識別此裝置磁碟機記錄的唯一號碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>: DeviceDriver</strong></p></td>
-<td><p>varchar(256)</p></td>
+<td><p><strong>DeviceDriver</strong></p></td>
+<td><p>Varchar (256) </p></td>
 <td><p>unique</p></td>
 <td><p>裝置驅動程式名稱。</p></td>
 </tr>

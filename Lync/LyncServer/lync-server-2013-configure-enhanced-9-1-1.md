@@ -12,20 +12,22 @@ ms:contentKeyID: 48184205
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8e02c81b19943baaf33ba3bb401f4810d053703
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 642117d89936741cf2610b4d76e1a20125336e4a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537110"
 ---
+# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中設定增強型9-1-1
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中設定增強型9-1-1
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**主題上次修改日期：** 2013-02-24_
 
 若要支援 E9-1-1，Lync Server 2013 必須能夠正確地將位置與用戶端產生關聯，並確定此資訊是用來將緊急通話路由傳送至最近的 PSAP。
 
-如需規劃 E9-1-1 部署的詳細資訊，請參閱[E9-1-1) In Lync Server 2013 中的 [規劃緊急 (服務](lync-server-2013-planning-for-emergency-services-e9-1-1.md)]。
+如需規劃 E9-1-1 部署的詳細資訊，請參閱 [E9-1-1) In Lync Server 2013 中的 [規劃緊急 (服務](lync-server-2013-planning-for-emergency-services-e9-1-1.md)]。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server 2013 只支援美國境內的 E9-1-1。 若要部署 E9-1-1，您必須設定與合格的 E9-1-1 服務提供者的 SIP 連線，或者將緊急位置識別號碼 (ELIN) 閘道部署至以公用交換電話網路 (PSTN) 為基礎的 E9-1-1 服務提供者。 如需詳細資訊，請參閱<A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">E9-1-1) 和轉送伺服器（Lync server 2013）中的增強 9-1-1 (</A>。 如需設定主幹連線的詳細資訊，請參閱<A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">在 Lync Server 2013 中使用媒體旁路設定主幹</A>。
+> Lync Server 2013 只支援美國境內的 E9-1-1。 若要部署 E9-1-1，您必須設定與合格的 E9-1-1 服務提供者的 SIP 連線，或者將緊急位置識別號碼 (ELIN) 閘道部署至以公用交換電話網路 (PSTN) 為基礎的 E9-1-1 服務提供者。 如需詳細資訊，請參閱 <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">E9-1-1) 和轉送伺服器（Lync server 2013）中的增強 9-1-1 (</A>。 如需設定主幹連線的詳細資訊，請參閱 <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">在 Lync Server 2013 中使用媒體旁路設定主幹</A>。
 
 
 

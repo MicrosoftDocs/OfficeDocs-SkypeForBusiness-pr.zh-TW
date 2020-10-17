@@ -12,20 +12,22 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5943bb1a813396f3435235d6fcbd3bcacd0aa4b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5048763ba239e161825d1250446ac60853499223
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204499"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537120"
 ---
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>設定前端集區或 Standard Edition Server 的 Lync Server 2013 中的 DNS 記錄
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>設定 Lync Server 2013 中的前端集區或 Standard Edition server 的 DNS 記錄
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42204499"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-01_
+_**主題上次修改日期：** 2012-10-01_
 
-Lync Server 2013 使用網域名稱系統 (DNS) 來註冊並維護 IP 位址解析至適當的網域名稱的記錄。 您需要設定操作 Standard Edition server 或前端集區以前部署所需的 DNS 記錄。 下列連結會提供指引記錄需要建立可用於 Lync Server 2013 的正常運作。
+Lync Server 2013 使用網域名稱系統 (DNS) ，以登錄及維護正確功能變數名稱的記錄，以進行 IP 位址解析。 在運作 Standard Edition server 或前端集區之前，您必須為部署設定必要的 DNS 記錄。 下列連結將提供有關需要建立哪些記錄以允許 Lync Server 2013 正確運作的指導方針。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [設定 Lync Server 2013 中的負載平衡的 DNS](lync-server-2013-configure-dns-for-load-balancing.md)
+  - [在 Lync Server 2013 中設定 DNS 以進行負載平衡](lync-server-2013-configure-dns-for-load-balancing.md)
 
   - [設定 Lync Server 2013 的 DNS 主機記錄](lync-server-2013-configure-dns-host-records.md)
 
-  - [建立並確認 Lync Server 2013 中的 DNS SRV 記錄](lync-server-2013-create-and-verify-dns-srv-records.md)
+  - [在 Lync Server 2013 中建立並驗證 DNS SRV 記錄](lync-server-2013-create-and-verify-dns-srv-records.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 移除 Lync for iPhone 和 iPad
+title: Lync Server 2013：移除 Lync for iPhone 和 iPad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c25f690d47f7742b9a6289c603a8aa6a0256fc0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b52ba88edb18f7902d0fca758e7bf94b8dfa34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214999"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536360"
 ---
+# <a name="removing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>在 Lync Server 2013 中移除 Lync for iPhone 和 iPad
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="removing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>移除 Lync for iPhone 和 Lync Server 2013 中的 iPad
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42214999"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-19_
+_**主題上次修改日期：** 2013-02-19_
 
-若要從裝置移除適用於 iPhone 的 Lync 2013 或 Microsoft Lync 2010 for iPad，請執行下列步驟：
+若要從裝置移除 Lync 2013 for iPhone 或 Microsoft Lync 2010 for iPad，請執行下列步驟：
 
 1.  在行動裝置主畫面上，點選並按住 Lync 圖示。
 

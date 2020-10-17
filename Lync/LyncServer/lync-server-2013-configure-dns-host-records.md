@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定 DNS 主機記錄
+title: Lync Server 2013：設定 DNS 主機記錄
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c688d09e1aababd384c28c5a79989fc5d93e69b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e96c23741430f17b6d343606526df230f74c032
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537130"
 ---
+# <a name="configure-dns-host-records-for-lync-server-2013"></a>設定 Lync Server 2013 的 DNS 主機記錄
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-host-records-for-lync-server-2013"></a>設定 Lync Server 2013 的 DNS 主機記錄
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42204529"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-01_
+_**主題上次修改日期：** 2012-10-01_
 
 要成功完成此程序，必須至少以 Domain Admins 群組成員或 DnsAdmins 群組成員的身分登入伺服器或網域。
 
@@ -45,13 +47,13 @@ _**主題上次修改日期：** 2012年-10-01_
 
 1.  在網域名稱系統 (DNS) 伺服器上，依序按一下 **[開始]**、**[系統管理工具]** 和 **[DNS]**。
 
-2.  在您網域的主控台樹狀目錄中，展開 [**正向對應區域**，，然後在要安裝 Lync Server 2013 的網域上按一下滑鼠右鍵。
+2.  在您網域的主控台樹中，展開 [ **正向對應區域**]，然後在將安裝 Lync Server 2013 的網域上按一下滑鼠右鍵。
 
 3.  按一下 **[新增主機 (A 或 AAAA)]**。
 
 4.  按一下 **[名稱]**，然後輸入集區的主機名稱 (網域名稱會從記錄定義所在的區域取得，而不需輸入為 A 記錄的一部分)。
 
-5.  按一下 [ **IP 位址**] 中，輸入虛擬 IP (VIP) 負載平衡器的前端集區。
+5.  按一下 [ **IP 位址**]，輸入前端集區之負載平衡器的虛擬 IP (VIP) 。
     
     <div>
     

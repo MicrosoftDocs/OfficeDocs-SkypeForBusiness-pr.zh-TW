@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 的回應群組的技術需求
+title: Lync Server 2013：回應群組的技術需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b07ddfa11f23c7e5183c243020c441db7219660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0b06176a033c90ff915fccb145dac3b3ed6fe87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536120"
 ---
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中回應群組的技術需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中的回應群組的技術需求
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42194766"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-11-07_
+_**主題上次修改日期：** 2013-11-07_
 
 本節說明回應群組應用程式的下列技術需求：
 
@@ -47,13 +49,13 @@ _**上次修改主題：** 2013年-11-07_
 
   - 音訊檔案需求
 
-  - 回應群組組態工具需求
+  - 回應群組設定工具需求
 
 <div>
 
 ## <a name="hardware-requirements"></a>硬體需求
 
-回應群組應用程式都有相同的硬體需求，作為前端伺服器。 如需硬體需求的詳細資訊，請參閱支援文件中的[Lync Server 2013 的伺服器硬體平台](lync-server-2013-server-hardware-platforms.md)。
+回應群組應用程式的硬體需求與前端伺服器相同。 如需硬體需求的詳細資訊，請參閱支援檔中的 [Lync server 2013 伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md) 。
 
 </div>
 
@@ -61,9 +63,9 @@ _**上次修改主題：** 2013年-11-07_
 
 ## <a name="software-requirements"></a>軟體需求
 
-回應群組應用程式具有與前端伺服器相同的作業系統需求及軟體先決條件。 如需軟體需求的詳細資訊，請參閱支援文件中的[Lync Server 2013 中的伺服器和工具作業系統支援](lync-server-2013-server-and-tools-operating-system-support.md)。
+回應群組應用程式與前端伺服器具有相同的作業系統需求和軟體必要條件。 如需軟體需求的詳細資訊，請參閱支援檔中的 [伺服器和工具作業系統支援（Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) ）。
 
-如果您的回應群組音樂] 和 [宣告使用 Windows Media Audio (.wma) 檔案，請執行回應群組應用程式的所有前端伺服器或 Standard Edition 伺服器必須執行 Windows 的伺服器已安裝 Windows Media Format RuntimeServer 2008 R2 或 Microsoft 媒體 Foundation 執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器。 Windows Server 2008 R2、 Windows Media Format Runtime 被安裝 Windows 桌面體驗的一部分。
+如果您使用 Windows Media Audio () 的回應群組音樂和宣告的檔案，所有執行回應群組應用程式的前端伺服器或 Standard Edition 伺服器，都必須針對執行 windows server 2008 R2 的伺服器及 Microsoft Media Foundation （執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器）安裝 Windows Media Format Runtime。 若為 Windows Server 2008 R2，Windows Media Format Runtime 會安裝為 Windows 桌面體驗的一部分。
 
 如需有關音訊需求的詳細資訊，請參閱本節稍後的＜音訊檔案需求＞。
 
@@ -73,17 +75,17 @@ _**上次修改主題：** 2013年-11-07_
 
 ## <a name="port-requirements"></a>連接埠需求
 
-回應群組應用程式使用下列連接埠：
+回應群組應用程式使用下列埠：
 
-  - **連接埠 5071**   用於 SIP 聆聽要求
+  - **埠 5071**    用於 SIP 聆聽要求
 
-  - **連接埠 8404**   用於伺服器間的通訊
+  - **埠 8404**    用於伺服器間通訊
     
     <div>
     
 
     > [!NOTE]  
-    > 此連接埠用於配對服務，並具有多個前端伺服器集區中部署的回應群組應用程式時，為必要。
+    > 此埠用於配對服務，且在具有多部前端伺服器的集區中部署回應群組應用程式時是必要的。
 
     
     </div>
@@ -92,7 +94,7 @@ _**上次修改主題：** 2013年-11-07_
 
 
 > [!NOTE]  
-> 這些連接埠為預設設定，可使用 <STRONG>Set-CsApplicationServer</STRONG> Cmdlet 予以變更。 如需此 cmdlet 的詳細資訊，請參閱 < Lync Server 管理命令介面文件。
+> 這些連接埠為預設設定，可使用 <STRONG>Set-CsApplicationServer</STRONG> Cmdlet 予以變更。 如需此 Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔。
 
 
 
@@ -104,9 +106,9 @@ _**上次修改主題：** 2013年-11-07_
 
 ## <a name="audio-file-requirements"></a>音訊檔案需求
 
-回應群組應用程式支援 wave (.wav) 檔案格式和 Windows Media 音訊 (.wma) 檔案格式的回應群組訊息、 在保留音樂或互動語音回應 (IVR) 問題。
+回應群組應用程式支援波形 ( wav) 檔案格式和 Windows Media 音訊 ( 回應群組訊息、等候音樂或互動語音回應的檔案格式) 。 (IVR) 問題。
 
-Windows Media 音訊檔案格式需要的 Windows Media Format Runtime 一起安裝在前端伺服器執行 Windows Server 2008 R2 和 Windows Server 2008 上。 如需詳細資訊，請參閱本節稍早的＜軟體需求＞。
+Windows Media 音訊檔案格式要求 Windows Media Format Runtime 已安裝在執行 Windows Server 2008 R2 和 Windows Server 2008 的前端伺服器上。 如需詳細資訊，請參閱本節稍早的＜軟體需求＞。
 
 <div>
 
@@ -132,7 +134,7 @@ Windows Media 音訊檔案格式需要的 Windows Media Format Runtime 一起安
 
 如果您使用 Windows Media 音訊檔案，請考慮使用低位元速率，並驗證系統承受負載時的效能。
 
-您可以使用 Microsoft Expression Encoder 4 將檔案轉換成 Windows Media Audio 格式。 若要下載運算式編碼器 4，請參閱[https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)。
+您可以使用 Microsoft Expression Encoder 4 將檔案轉換成 Windows Media Audio 格式。 若要下載運算式編碼器4，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) 。
 
 </div>
 
@@ -142,7 +144,7 @@ Windows Media 音訊檔案格式需要的 Windows Media Format Runtime 一起安
 
 ## <a name="response-group-configuration-tool-requirements"></a>回應群組設定工具需求
 
-回應群組組態工具支援的作業系統和網頁瀏覽器中，如下表所述的組合。
+回應群組設定工具支援下表所述之作業系統和網頁瀏覽器的組合。
 
 <div>
 

@@ -1,5 +1,6 @@
 ---
 title: Set-CsCertificate 中使用-擲入的 AV 和 OAuth 憑證的暫存
+description: 在 Set-CsCertificate 中使用-滾來暫存 AV 和 OAuth 憑證。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 003c8da4c953dc843fe49bf3fc5eb2d2a70b093b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3732c4adb4327cc1e4111307ab2d72ed080cf221
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533010"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541839"
 ---
 # <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>在 Lync Server 2013 中使用-滾 Set-CsCertificate 中的 AV 和 OAuth 憑證進行暫存
 

@@ -1,5 +1,5 @@
 ---
-title: 使用最佳做法分析程式來掃描您的部署有潛在的問題
+title: 使用最佳做法分析程式來掃描您的部署以發現潛在問題
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f620712404fffe8e46f8f2a6f066c6ffa7b77d74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a7b43056071ddc2322ff5147de72d818548b86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212881"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535880"
 ---
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>使用最佳做法分析程式來掃描您的 Lync Server 2013 部署以取得潛在問題
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>使用最佳做法分析程式來掃描您的 Lync Server 2013 部署潛在的問題
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42212881"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-21_
+_**主題上次修改日期：** 2012-10-21_
 
 若要執行 Best Practices Analyzer 掃描，您必須指定下列各項：
 
-  - **認證**   若要執行掃描，您必須登入所使用的帳戶是本機 Administrators 群組的成員，最佳做法分析程式會安裝所在的電腦。 此外，當您執行 Best Practices Analyzer 時，用來登入的使用者帳戶需要有執行適當掃描所需的使用者權限，否則，您必須指定具有適當使用者權限的憑證。 如需詳細資訊，請參閱[群組成員資格和 Lync Server 2013 中的最佳做法分析程式的使用者權限需求](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)。
+  - **認證**    若要執行掃描，您必須使用屬於本機 Administrators 群組成員的帳戶，登入已安裝最佳作法分析器的電腦。 此外，當您執行 Best Practices Analyzer 時，用來登入的使用者帳戶需要有執行適當掃描所需的使用者權限，否則，您必須指定具有適當使用者權限的憑證。 如需詳細資訊，請參閱 [Lync Server 2013 中的最佳作法分析群組成員資格和使用者權限需求](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)。
 
-  - **掃描的範圍**   掃描的範圍，請選取您想要掃描的伺服器與類別。 Lync Server 環境中，您可以選取所有類別，一或多個類別或特定類別中的一或多個伺服器。
+  - **掃描範圍**    若要指定掃描範圍，請選取您要掃描的類別和伺服器。 您可以選取所有類別、一或多個類別，或是 Lync Server 環境中特定類別內的一或多部伺服器。
 
-  - **掃描類型**   目前健全狀況檢查] 掃描會掃描可用 （選取預設值） 的唯一類型。 狀況檢查掃描會產生報告，其中包含範圍中指定之所有伺服器的錯誤、警告和其他資訊。
+  - **掃描類型**    目前，「狀況檢查掃描」是預設) 選取的可用掃描類型 (。 狀況檢查掃描會產生報告，其中包含範圍中指定之所有伺服器的錯誤、警告和其他資訊。
 
-  - **網路速度**   網路速度選項包括 Fast LAN （100 Mbps 以上），LAN (10 Mbps)，快速 WAN (1.5 Mbps)，或 WAN （64 kbps 為單位）。 完成掃描的估計時間取決於此設定。 此設定也會用來設定逾時期限。 在掃描期間，Best Practices Analyzer 會在指定的時間內等待伺服器回應。 如果在指定的逾時期限內未收到回應，就會移到掃描中的下一部伺服器。 在比較慢的網路上，這個指定的逾時期限會比較長，以處理較長的網路延遲。 建議您為此參數選取拓撲中最慢的連結，這樣該工具才不會太快逾時。
+  - **網路速度**    網路速度選項包括 Fast LAN (100 Mbps 或更多) 、局域網 (10 Mbps) 、Fast WAN (1.5 Mbps) 或 WAN (64 kbps) 。 完成掃描的估計時間取決於此設定。 此設定也會用來設定逾時期限。 在掃描期間，Best Practices Analyzer 會在指定的時間內等待伺服器回應。 如果在指定的逾時期限內未收到回應，就會移到掃描中的下一部伺服器。 在比較慢的網路上，這個指定的逾時期限會比較長，以處理較長的網路延遲。 建議您為此參數選取拓撲中最慢的連結，這樣該工具才不會太快逾時。
 
 <div>
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012年-10-21_
 
 1.  使用具有本機系統管理員群組成員身分以及其他必要使用者權限的帳戶，登入已安裝 Best Practices Analyzer 的電腦。
 
-2.  按一下 [**開始]**、 指向 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Best Practices Analyzer**。
+2.  按一下 [ **開始**]，依序指向 [ **所有程式**]、[ **Microsoft Lync Server 2013**]，然後按一下 [ **最佳做法分析**程式]。
 
 3.  在 [歡迎]**** 畫面上，按一下 [選取相關選項以進行新的掃描]****。
 
@@ -88,7 +90,7 @@ _**主題上次修改日期：** 2012年-10-21_
     
 
     > [!NOTE]
-    > 最佳做法分析程式報告和問題的詳細他們識別，請參閱<A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">檢視及 working with Lync Server 2013 中的最佳做法分析程式所建立的報告</A>和<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Lync Server 2013 中的最佳做法分析程式所識別的分析和解決問題</A>。
+    > 如需最佳作法分析報告及其所識別問題的詳細資訊，請參閱 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 lync server 2013 中查看和使用最佳做法分析程式建立的報表</A> ，以及 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">分析和解決 lync server 2013 中的最佳做法分析程式所識別的問題</A>。
 
     
     </div>

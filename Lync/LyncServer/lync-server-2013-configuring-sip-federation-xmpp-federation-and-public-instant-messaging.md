@@ -12,20 +12,22 @@ ms:contentKeyID: 48184998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94590e669c17328a33b8af62eda46e861aec6bdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f3fa4f3b78f53df101da42a2e6b7630cdfb71dd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204519"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537070"
 ---
+# <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>在 Lync Server 2013 中設定 SIP 同盟、XMPP 同盟及公用立即訊息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>在 Lync Server 2013 中設定 SIP 同盟、XMPP 同盟及公用立即訊息
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2013-10-07_
 
 
 > [!NOTE]
-> AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。
+> AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。
 
 
 
@@ -141,7 +143,7 @@ XMPP 同盟會根據可延伸的訊息和顯示狀態通訊協定，定義外部
 <td><p>設定同盟案例的 Edge Server</p></td>
 <td><ol>
 <li><p>將匯出的拓撲配置檔案傳輸至每一部 Edge Server，或允許複製完成</p></li>
-<li><p>重新執行部署嚮導，以安裝同盟的支援元件</p></li>
+<li><p>Re-Run 部署嚮導，以安裝同盟的支援元件</p></li>
 <li><p>設定 Edge Server</p></li>
 <li><p>針對每一部 Edge Server 要求並安裝憑證</p></li>
 <li><p>重新開機 Edge Server 服務</p></li>

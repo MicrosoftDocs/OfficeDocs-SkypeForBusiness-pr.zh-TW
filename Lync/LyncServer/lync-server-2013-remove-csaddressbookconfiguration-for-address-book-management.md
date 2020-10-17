@@ -1,5 +1,5 @@
 ---
-title: 移除 CsAddressBookConfiguration 適用於通訊錄管理
+title: 用於通訊錄管理的 Remove-CsAddressBookConfiguration
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8337234f6798a9e178ae03065097b873a53a0c85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fbb16b55191d115047208cd74f3276815f49b1d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536500"
 ---
+# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中用於通訊錄管理的 Remove-CsAddressBookConfiguration
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>移除 CsAddressBookConfiguration 適用於 Lync Server 2013 中的 Address Book 管理
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42201469"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
 誰可以執行這個 Cmdlet：根據預設，會授權下列群組的成員在本機執行 Remove-CsAddressBookConfiguration Cmdlet：RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：
 
@@ -52,7 +54,7 @@ Remove-CsAddressBookConfiguration 會名符其實地依據定義的 Site Identit
 ## <a name="see-also"></a>請參閱
 
 
-[Remove-csaddressbookconfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))  
+[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))  
   
 
 </div>

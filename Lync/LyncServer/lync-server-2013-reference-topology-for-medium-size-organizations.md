@@ -12,20 +12,22 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10246ff2c6257376a0252cf2f9540007a1fc59ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b2549acbf8b5eac2ac909eb213d6d73e8233b0a2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201549"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536700"
 ---
+# <a name="reference-topology-for-lync-server-2013-in-medium-size-organizations"></a>大中型組織中 Lync Server 2013 的參考拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topology-for-lync-server-2013-in-medium-size-organizations"></a>大中型組織中 Lync Server 2013 的參考拓撲
+
 
 </div>
 
@@ -57,15 +59,15 @@ _**主題上次修改日期：** 2013-10-07_
 
   - **Edge Server 高可用性**    在此範例中，有20000位使用者的組織，只有一部 Edge Server 足以獲得效能。 不過，已部署兩部 Edge Server 的集區以提供高可用性。
 
-  - **分支網站部署選項。**    此拓撲中的組織已部署企業語音，成為其語音解決方案。 分支網站1沒有 Survivable WAN) 連結到中央網站的彈性廣域 (網路，因此它已部署分支裝置，以維護許多 Lync Server 功能，以防中央網站的 WAN 連結停止運作。 不過，分支網站 2 具有可恢復的 WAN 連結，因此只需要有公用交換電話網路 (PSTN) 閘道。 此網站部署的 PSTN 閘道支援媒體旁路，所以分支網站 2 不需要有中繼伺服器。 如需決定在分支網站上部署專案的詳細資訊，請參閱規劃檔中的[規劃 Lync Server 2013 中的 branch site voice 韌性](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
+  - **分支網站部署選項。**    此拓撲中的組織已部署企業語音，成為其語音解決方案。 分支網站1沒有 Survivable WAN) 連結到中央網站的彈性廣域 (網路，因此它已部署分支裝置，以維護許多 Lync Server 功能，以防中央網站的 WAN 連結停止運作。 不過，分支網站 2 具有可恢復的 WAN 連結，因此只需要有公用交換電話網路 (PSTN) 閘道。 此網站部署的 PSTN 閘道支援媒體旁路，所以分支網站 2 不需要有中繼伺服器。 如需決定在分支網站上部署專案的詳細資訊，請參閱規劃檔中的 [規劃 Lync Server 2013 中的 branch site voice 韌性](lync-server-2013-planning-for-branch-site-voice-resiliency.md) 。
 
-  - **DNS 負載平衡。**    前端集區 andEdge 伺服器集區，具有部署 SIP 流量的 DNS 負載平衡。 如此一來，Edge Server 就不需要硬體負載平衡器，這樣可大幅減少為其他集區安裝和維護硬體負載平衡器的工作，因為只有 HTTP 流量才需要硬體負載平衡器。 如需 DNS 負載平衡的詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的 DNS 負載平衡](lync-server-2013-dns-load-balancing.md)。
+  - **DNS 負載平衡。**    前端集區 andEdge 伺服器集區，具有部署 SIP 流量的 DNS 負載平衡。 如此一來，Edge Server 就不需要硬體負載平衡器，這樣可大幅減少為其他集區安裝和維護硬體負載平衡器的工作，因為只有 HTTP 流量才需要硬體負載平衡器。 如需 DNS 負載平衡的詳細資訊，請參閱規劃檔中的 [Lync Server 2013 中的 DNS 負載平衡](lync-server-2013-dns-load-balancing.md) 。
 
   - **Exchange UM 部署。** 此參考拓撲包含 Exchange 整合通訊 (UM) Server，它會執行 Microsoft Exchange Server，而不是 Lync Server。
     
-    如需 Exchange UM 的詳細資訊，請參閱規劃檔中的在 lync server [2013 中規劃 Exchange 整合通訊整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)和[主控 Exchange 整合通訊2013整合](lync-server-2013-hosted-exchange-unified-messaging-integration.md)。
+    如需 Exchange UM 的詳細資訊，請參閱規劃檔中的在 lync server [2013 中規劃 Exchange 整合通訊整合](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) 和 [主控 Exchange 整合通訊2013整合](lync-server-2013-hosted-exchange-unified-messaging-integration.md) 。
 
-  - **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office Web Apps Server 或 Office Web Apps Server 伺服器陣列。 Office Web Apps Server 可以在 Web 會議中呈現 Powerpoint 投影片。 如需詳細資訊，請參閱設定[Office Web Apps Server 和 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
+  - **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office Web Apps Server 或 Office Web Apps Server 伺服器陣列。 Office Web Apps Server 可以在 Web 會議中呈現 Powerpoint 投影片。 如需詳細資訊，請參閱設定 [Office Web Apps Server 和 Lync server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
 
   - **建議使用 Edge server。**    雖然不需要部署 Edge Server，但建議使用任何規模的部署。 您可以部署 Edge Server，將服務提供給目前組織防火牆以外的使用者，以達到最大的 Lync 伺服器投資。 優點包括下列各項：
     
@@ -73,7 +75,7 @@ _**主題上次修改日期：** 2013-10-07_
     
       - 您的使用者可以邀請外部使用者參與會議。
     
-      - 如果您有也使用 Lync Server 的合作夥伴、廠商或客戶組織，您可以建立與該組織的同盟*關聯*。 然後，您的 Lync 伺服器部署會辨識來自該同盟組織的使用者，以改善合作。
+      - 如果您有也使用 Lync Server 的合作夥伴、廠商或客戶組織，您可以建立與該組織的同盟 *關聯* 。 然後，您的 Lync 伺服器部署會辨識來自該同盟組織的使用者，以改善合作。
     
       - 您的使用者可以與公用 IM 服務的使用者交換立即訊息，包括下列任何或所有專案： Windows Live、AOL、Yahoo \! 和 Google 交談。 使用這些服務的公用 IM 連線可能需要個別授權。
         
@@ -83,7 +85,7 @@ _**主題上次修改日期：** 2013-10-07_
         > [!IMPORTANT]  
         > <UL>
         > <LI>
-        > <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
+        > <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
         > <LI>
         > <P>PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的個別使用者每個月訂閱授權 信使。 Microsoft 提供此服務的能力已因 Yahoo！中的支援而產生，其所向下纏繞的底層合約。</P>
         > <LI>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Devices 表格'
+title: Lync Server 2013：裝置表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8906519253445ea67f3fa674a9a1315f8f6cf18b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5fdc4c3b20bdd60d2c8013b79a15bdfd30b56af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213499"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536930"
 ---
+# <a name="devices-table-in-lync-server-2013"></a>Lync Server 2013 中的 [裝置] 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="devices-table-in-lync-server-2013"></a>Lync Server 2013 中的裝置表格
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42213499"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-05-25_
+_**主題上次修改日期：** 2012-05-25_
 
 Devices 表格是一種支援資料表。每筆記錄儲存一部裝置 (電話機) 的資訊。
 
@@ -51,7 +53,7 @@ Devices 表格是一種支援資料表。每筆記錄儲存一部裝置 (電話�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -66,17 +68,17 @@ Devices 表格是一種支援資料表。每筆記錄儲存一部裝置 (電話�
 <td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>此裝置的製造商。 請參閱<a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的 Manufacturers 表格</a>如需詳細資訊。</p></td>
+<td><p>此裝置的製造商。 如需詳細資訊，請參閱 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的製造商表格</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HardwareVersionId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Foreign</p></td>
-<td><p>此裝置的硬體版本。 請參閱<a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表格</a>如需詳細資訊。</p></td>
+<td><p>此裝置的硬體版本。 如需詳細資訊，請參閱 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表格</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MacAddress</strong></p></td>
-<td><p>bigint</p></td>
+<td><p>Bigint</p></td>
 <td></td>
 <td><p>MAC 位址</p></td>
 </tr>

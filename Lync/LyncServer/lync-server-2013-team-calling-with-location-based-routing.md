@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 小組與位置型路由通話
+title: 以位置為基礎的路由的 Lync Server 2013 小組通話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 62803597
 ms.date: 08/15/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5974f8a495ab555dd6d2ebd1e96e685a0d809863
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f02bbec8e2546045e44ed7fd37f61af27af1374
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195046"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536156"
 ---
+# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Location-Based 路由的小組通話
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a>使用 Lync Server 2013 中的位置 Routing 而直接呼叫的小組
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42195046"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-08-11_
+_**主題上次修改日期：** 2014-08-11_
 
-Lync Server 2013 支援小組通話以位置為主的路由。
+Lync Server 2013 支援使用 Location-Based 路由的小組通話。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblSkippedAffiliations'
+title: Lync Server 2013： tblSkippedAffiliations
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31997276c95fb3908ab33d0a21017833f10fddcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28751281bfbc8809c2be23e3bfdb6466b85d63f7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195076"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536190"
 ---
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 tblSkippedAffiliations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblskippedaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 tblSkippedAffiliations
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42195076"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
-tblSkippedAffiliations 包含無法讀取 （通常是由於 Active Directory 網域服務存取錯誤） 的關係。
+tblSkippedAffiliations 包含無法讀取的隸屬 (，通常是因為 Active Directory 網域服務存取錯誤) 。
 
 ### <a name="columns"></a>Columns
 
@@ -50,13 +52,13 @@ tblSkippedAffiliations 包含無法讀取 （通常是由於 Active Directory �
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>int，非 null</p></td>
 <td><p>主體識別碼。</p></td>
 </tr>
@@ -64,7 +66,7 @@ tblSkippedAffiliations 包含無法讀取 （通常是由於 Active Directory �
 <td><p>affDescription</p></td>
 <td><p>nvarchar (255)，非 null</p></td>
 <td><p>識別關係的字串。</p>
-<p>格式為： guid: {0} uri: {1} &gt;識別碼：{2}</p></td>
+<p>格式為： guid： {0} uri： {1} &gt; 識別碼：{2}</p></td>
 </tr>
 <tr class="odd">
 <td><p>updatedBy</p></td>
@@ -84,17 +86,17 @@ tblSkippedAffiliations 包含無法讀取 （通常是由於 Active Directory �
 </colgroup>
 <thead>
 <tr class="header">
-<th>資料欄</th>
-<th>說明</th>
+<th>欄 (s) </th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinID affDescription&gt;</p></td>
+<td><p>&lt;Tblprincipal.prinid、affDescription&gt;</p></td>
 <td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>在 tblPrincipal.prinID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 執行 ABC 前端集區容錯移轉
+title: Lync Server 2013：執行 ABC 前端集區容錯移轉
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebffd5b4e1b4cca1cb815f37f569aebd6a241ccd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 705593f95c17e4f0fc213eaa284532bca2effb63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215639"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536740"
 ---
+# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>在 Lync Server 2013 中執行 ABC 前端集區容錯移轉
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>在 Lync Server 2013 中執行 ABC 前端集區容錯移轉
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42215639"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
-本節中的兩個主題將說明在 Lync Server 2013 中，執行 ABC 集區容錯移轉程序有 A 和 B 的 Lync Server 前端集區配對且集區 A 變成無法復原。 您可使用此程序，以新的完整的網域名稱 (FQDN) 建立新的前端集區 C。 集區 C 的建構會從失敗的集區 a 中的資訊此程序也包含一起配對集區 B 和 c。
+本節中的兩個主題將說明在 Lync Server 2013 中執行 ABC 集區容錯移轉的程式，其中有成對的 Lync Server 前端集區 A 和 B，而集區 A 將無法復原。 使用此程式，您可以建立新的前端集區 C，並使用新的完整功能變數名稱 (FQDN) 。 集區 C 是由失敗集區 A 的資訊所構造。此程式還包括將集區 B 和 C 結合在一起。
 
-  - [Lync Server 2013 中的 ABC 集區容錯移轉備份先決條件](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
+  - [Lync Server 2013 中的 ABC 集區容錯移轉的備份必要條件](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
 
-  - [前端集區在 Lync Server 2013 中的 ABC 容錯移轉程序](lync-server-2013-front-end-pool-abc-failover-procedure.md)
+  - [Lync Server 2013 中的前端集區 ABC 容錯移轉程式](lync-server-2013-front-end-pool-abc-failover-procedure.md)
 
 </div>
 

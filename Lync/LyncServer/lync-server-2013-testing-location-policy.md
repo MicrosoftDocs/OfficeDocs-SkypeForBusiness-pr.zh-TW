@@ -12,20 +12,22 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c676247eabbce1d6453308bdbba5a7df0754caf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cd477b02aa261b762f728ca15d296f49dfbac1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194106"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535990"
 ---
+# <a name="testing-location-policy-in-lync-server-2013"></a>Lync Server 2013 中的測試位置原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-location-policy-in-lync-server-2013"></a>Lync Server 2013 中的測試位置原則
+
 
 </div>
 
@@ -85,7 +87,7 @@ Test-CsLocationPolicy Cmdlet 會驗證是否已將位置原則指派給使用者
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) Cmdlet 的說明文件。
 
 </div>
 
@@ -93,7 +95,7 @@ Test-CsLocationPolicy Cmdlet 會驗證是否已將位置原則指派給使用者
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者有有效的位置原則，則會收到類似下列的輸出，並將 Result 屬性標示為 [**成功]：**
+如果指定的使用者有有效的位置原則，則會收到類似下列的輸出，並將 Result 屬性標示為 [ **成功]：**
 
 EnhancedEmergencyServicesEnabled： true
 

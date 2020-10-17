@@ -12,20 +12,22 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94999d2f3ce69308e38da1b261a4b0d96a2ef5cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a7c3251ef5ff907dbf9964daaca222584953e75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536080"
 ---
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>在 Lync Server 2013 中測試電話撥入式會議會話
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>在 Lync Server 2013 中測試電話撥入式會議會話
+
 
 </div>
 
@@ -83,7 +85,7 @@ Test-CsDialInConferencing Cmdlet 會驗證使用者是否可以加入電話撥�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsDialInConferencing -TargetFqdn atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) Cmdlet 的說明文件。
 
 </div>
 
@@ -91,7 +93,7 @@ Test-CsDialInConferencing Cmdlet 會驗證使用者是否可以加入電話撥�
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以登入 Lync 伺服器，然後使用其中一個可用的電話撥入式會議存取號碼進行連線，則會收到類似下列的輸出，並將 Result 屬性標示為「**成功」：**
+如果指定的使用者可以登入 Lync 伺服器，然後使用其中一個可用的電話撥入式會議存取號碼進行連線，則會收到類似下列的輸出，並將 Result 屬性標示為「 **成功」：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 

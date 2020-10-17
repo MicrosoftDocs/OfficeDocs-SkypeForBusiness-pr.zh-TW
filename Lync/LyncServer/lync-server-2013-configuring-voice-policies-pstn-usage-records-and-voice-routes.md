@@ -1,5 +1,5 @@
 ---
-title: 設定語音原則、 PSTN 使用方式記錄和語音路由
+title: 設定語音原則、PSTN 使用方式記錄和語音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd34109b08a9436d4e2ab1fc7664d843fe9f6df5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0e749419cf84303cfef9d4718488a4483adecb97
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195536"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537000"
 ---
+# <a name="configuring-voice-policies-pstn-usage-records-and-voice-routes-in-lync-server-2013"></a>在 Lync Server 2013 中設定語音原則、PSTN 使用方式記錄和語音路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-pstn-usage-records-and-voice-routes-in-lync-server-2013"></a>在 Lync Server 2013 中設定語音原則、 PSTN 使用方式記錄和語音路由
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42195536"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-10_
+_**主題上次修改日期：** 2012-10-10_
 
 語音原則、PSTN 使用方式記錄和語音路由密切相關。您可以選取一組撥號功能，接著指派一組 PSTN 使用方式記錄給原則，以便指定獲指派語音原則的使用者或群組可獲得哪些權限授權，如此就能設定語音原則。語音路由也會被指派 PSTN 使用方式記錄，這些記錄會用來比對路由與獲授權使用這些路由的使用者。也就是說，使用者可以撥打的電話，只限於使用他們有相符 PSTN 使用方式記錄之路由的電話。
 
@@ -57,17 +59,17 @@ _**主題上次修改日期：** 2012年-10-10_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [設定語音原則和 PSTN 使用方式記錄，以授權撥號功能及 Lync Server 2013 中的權限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)
+  - [在 Lync Server 2013 中設定語音原則和 PSTN 使用方式記錄，以授權呼叫功能和許可權](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)
 
-  - [Lync Server 2013 中檢視 PSTN 使用方式記錄](lync-server-2013-view-pstn-usage-records.md)
+  - [在 Lync Server 2013 中查看 PSTN 使用方式記錄](lync-server-2013-view-pstn-usage-records.md)
 
   - [在 Lync Server 2013 中設定撥出電話的語音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)
 
-  - [匯出及匯入 Lync Server 2013 中的語音路由設定](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+  - [在 Lync Server 2013 中匯出及匯入語音路由設定](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  - [暫止的變更語音路由設定 Lync Server 2013 中發佈](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+  - [在 Lync Server 2013 中將擱置的變更發佈至語音路由設定](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  - [測試 Lync Server 2013 中的語音路由](lync-server-2013-test-voice-routing.md)
+  - [在 Lync Server 2013 中測試語音路由](lync-server-2013-test-voice-routing.md)
 
 </div>
 

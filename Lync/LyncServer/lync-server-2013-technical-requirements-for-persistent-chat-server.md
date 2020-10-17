@@ -12,20 +12,22 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5bd99e487aa596bdf3b32db77d8deb2cfab9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536130"
 ---
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中 Persistent Chat Server 的技術需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中 Persistent Chat Server 的技術需求
+
 
 </div>
 
@@ -47,9 +49,9 @@ _**主題上次修改日期：** 2013-01-06_
 
 ## <a name="persistent-chat-server-requirements"></a>Persistent Chat Server 需求
 
-如需部署 Lync Server 的建議硬體及最新版本的 Persistent Chat Server 的詳細資訊，請參閱支援檔中的[Lync server 2013 伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md)。
+如需部署 Lync Server 的建議硬體及最新版本的 Persistent Chat Server 的詳細資訊，請參閱支援檔中的 [Lync server 2013 伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md) 。
 
-如需有關 Lync Server 和 Persistent Chat Server 之伺服器和工具作業系統支援的詳細資訊，請參閱支援檔中的[伺服器和工具作業系統支援（Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md) ）。
+如需有關 Lync Server 和 Persistent Chat Server 之伺服器和工具作業系統支援的詳細資訊，請參閱支援檔中的 [伺服器和工具作業系統支援（Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md) ）。
 
 如需部署 Persistent Chat Server 所需之其他軟體的詳細資訊，請參閱下表。
 
@@ -95,7 +97,7 @@ Persistent Chat Server 會使用 Persistent Chat 資料庫來儲存聊天記錄�
 
 若要準備資料庫伺服器平臺，請確定每一部電腦都符合硬體需求，然後安裝必要軟體。
 
-Persistent Chat 資料庫伺服器的伺服器平臺需要與 Lync Server 後端資料庫伺服器相同的硬體。 如需詳細資訊，請參閱支援檔中的[Lync server 2013 伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md)。
+Persistent Chat 資料庫伺服器的伺服器平臺需要與 Lync Server 後端資料庫伺服器相同的硬體。 如需詳細資訊，請參閱支援檔中的 [Lync server 2013 伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md) 。
 
 在資料庫伺服器上，確定已安裝下列其中一個軟體應用程式：
 
@@ -109,7 +111,7 @@ Persistent Chat 資料庫伺服器的伺服器平臺需要與 Lync Server 後端
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>Persistent Chat Server 憑證需求
 
-如需取得憑證、建立 SQL Server 資料庫及建立檔案存放區的詳細資訊，請參閱部署檔中的[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
+如需取得憑證、建立 SQL Server 資料庫及建立檔案存放區的詳細資訊，請參閱部署檔中的 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
 
 </div>
 

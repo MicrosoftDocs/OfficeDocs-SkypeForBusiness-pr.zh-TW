@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 規劃前必須知道的拓撲基本知識
+title: Lync Server 2013 拓撲基礎知識，您必須知道才能進行規劃
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87501f3c05bfa4539cb882f2c328bfd8bc2442fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 284306b2f7ba1cc9124a3924146d3e5bd715c353
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535980"
 ---
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>規劃 Lync Server 2013 之前必須知道的拓撲基本知識
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>針對 Lync Server 2013 規劃前必須知道的拓撲基本知識
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42193556"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-25_
+_**主題上次修改日期：** 2012-09-25_
 
-您不必是專家以執行規劃工具的 Lync 伺服器上。 事實上，執行規劃工具多次，以不同的回答問題，再比較輸出是一個好方法若要了解 Lync Server。
+您不需要成為 Lync Server 上的專家，即可執行規劃工具。 實際上，多次執行計畫工具，以不同方式回答問題，並比較輸出是瞭解 Lync Server 的好方法。
 
-您了解更深入的各項元件之前，您應先了解 Lync Server 2013 拓撲的以下基本層面。
+深入瞭解各種元件之前，您應該瞭解 Lync Server 2013 拓撲的下列基本層面。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 的 Lync Server 網站](lync-server-2013-sites.md)
+  - [Lync Server 2013 的 lync Server 網站](lync-server-2013-sites.md)
 
   - [Lync Server 2013 中的伺服器角色](lync-server-2013-server-roles.md)
 
-  - [Lync Server 2013 中支援的高可用性和災害復原](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+  - [Lync Server 2013 的高可用性和嚴重損壞修復支援](lync-server-2013-high-availability-and-disaster-recovery-support.md)
 
 </div>
 

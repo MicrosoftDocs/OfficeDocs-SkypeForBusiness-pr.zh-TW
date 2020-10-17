@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 執行與監控備份
+title: Lync Server 2013：執行及監視備份
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d44fe94ab8e02551f8d33d95248c6cede63a6974
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b79fdbaceff06155389d101570b23d6143b9bbcc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215669"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536746"
 ---
+# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>在 Lync Server 2013 中執行及監視備份
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>執行與監控備份 Lync Server 2013 中
+
 
 </div>
 
@@ -35,33 +37,33 @@ ms.locfileid: "42215669"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-05-15_
+_**主題上次修改日期：** 2014-05-15_
 
-您的業務優先順序應磁碟機規格的備份和還原您的組織需求。 執行備份的伺服器和資料是國防版的第一行中規劃嚴重損壞。
+您的業務優先順序應該會推動組織的備份與還原需求規格。 在規劃災難時，執行伺服器和資料的備份是第一項防禦工作。
 
-執行 Lync Server 2013 服務或伺服器角色的電腦必須具備一份目前的拓撲、 目前的組態設定，與目前的原則，才能他們可以在其指定角色中的運作。 Lync Server 負責確保此資訊會傳遞至需要它每一部電腦。
+執行 Lync Server 2013 服務或伺服器角色的電腦必須具有目前拓撲的複本、目前的設定，以及目前的原則，才能在其所指的角色中運作。 Lync Server 負責確保將此資訊傳送給每個需要的電腦。
 
-**Export-csconfiguration**和**Import-csconfiguration**指令程式可用來備份及還原 Lync Server 拓撲、 組態設定和原則期間中央管理存放區升級。 **Export-csconfiguration** cmdlet 可讓您匯出的資料。ZIP 檔案。 您可以再使用**Import-csconfiguration** cmdlet 可讀取的。ZIP 檔案，並還原中央管理存放區的拓撲、 組態設定和原則。 之後，Lync Server 複寫服務會將已還原的資訊複寫至其他執行 Lync Server 服務的電腦。
+**Export-CsConfiguration**和**Import-CsConfiguration** Cmdlet 是用來備份及還原您的 Lync Server 拓撲、設定設定，以及在中央管理存放區升級期間的原則。 **Export-CsConfiguration** Cmdlet 可讓您將資料匯出至。ZIP 檔案。 然後，您可以使用 **Import-CsConfiguration** Cmdlet 來讀取該。ZIP 檔案，並將拓撲、設定設定和原則還原至中央管理存放區。 之後，Lync Server 的複寫服務會將還原的資訊複製到其他執行 Lync Server 服務的電腦。
 
-匯出及匯入組態資料的能力也會在位於周邊網路 (例如 Edge Server) 的電腦的初始設定期間使用。 當在周邊網路中設定的電腦，您必須先執行使用 CsConfiguration cmdlet 手動複寫： 您必須使用**Export-csconfiguration**匯出組態資料，然後複製。ZIP 檔案，以在周邊網路的電腦。 在那之後，您可以使用**Import-csconfiguration**和 LocalStore 參數匯入資料。 您只需要進行此一次。 在那之後，將會自動進行複寫。
+在周邊網路中的電腦初始設定時，也會使用匯出及匯入設定資料的功能 (例如，Edge Servers) 。 當您設定周邊網路中的電腦時，您必須先使用 CsConfiguration Cmdlet 執行手動複寫：您必須使用 **Export-CsConfiguration** 匯出設定資料，然後再複製。在周邊網路中的電腦的 ZIP 檔案。 之後，您可以使用 **Import-CsConfiguration** 和 LocalStore 參數匯入資料。 您只需執行一次。 之後，就會自動進行複寫。
 
-誰可以執行此 cmdlet： 根據預設，下列群組的成員會獲授權在本機上執行**Export-csconfiguration** cmdlet: RTCUniversalServerAdmins。 若要傳回的所有 RBAC 角色清單，此 cmdlet 會指派給 （包括任何自訂 RBAC 角色，您自行建立），請在 Windows PowerShell 提示字元中執行下列命令：
+誰可以執行此 Cmdlet：根據預設，會授權下列群組的成員在本機執行 **Export-CsConfiguration** Cmdlet： RTCUniversalServerAdmins。 若要傳回所有 RBAC 角色的清單，此 Cmdlet 會指派給 (包含您自行建立的任何自訂 RBAC 角色) ，請從 Windows PowerShell 提示執行下列命令：
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-所有的 SQL 2012 後端資料庫是應該備份根據[SQL 最佳作法](https://go.microsoft.com/fwlink/p/?linkid=290716)。
+所有的 SQL 2012 後端資料庫應該依照每個 [sql 的最佳作法](https://go.microsoft.com/fwlink/p/?linkid=290716)來備份。
 
-應執行的災害復原規劃 Lync Server 2013 基礎結構的一般測試，盡可能模擬實際執行環境在實驗室環境中。 如需有關嚴重損壞修復測試每月的工作，請參閱。
+定期測試 Lync Server 2013 基礎結構的嚴重損壞修復計畫時，應該會在盡可能模仿實際執行環境的實驗室環境中執行。 如需有關嚴重損壞修復測試的詳細資訊，請參閱每月任務。
 
-請注意的備份頻率可以都調整，根據您的還原點和復原點目標。 最佳作法是，快照一般、 定期一天之內。 一般而言，您應該執行完整備份，每隔 24 小時。
+請注意，根據您的還原點和復原點目標，可以調整備份頻率。 最佳作法是在一天內定期進行定期快照。 一般來說，您應該每24小時執行一次完整備份。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[Import-csconfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
-[Export-csconfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
+[Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
+[Export-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
 [SQL 最佳作法](https://go.microsoft.com/fwlink/p/?linkid=290716)  
   
 

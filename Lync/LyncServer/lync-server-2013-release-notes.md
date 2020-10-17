@@ -12,20 +12,22 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f572c120d86c5f89fb82e23066a6262e957e5e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f98a19e81ebf52d97b4c6807dbb97dc8110b0f34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536560"
 ---
+# <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 的版本資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 的版本資訊
+
 
 </div>
 
@@ -371,7 +373,7 @@ Lync Server 2013 Address Book Server 會在每日執行每日維護時產生錯�
     
     若要這麼做，您可以從伺服器上的 Windows [ **開始** ] 功能表啟動 Lync server 控制台（如果電腦上已安裝 lync Server 系統管理工具）。
     
-    您也可以使用網頁瀏覽器來存取 Lync Server 控制台。 URL 會類似 HTTPs:// \< 前端 \_ 集區 \_ fqdn \> /cscp。
+    您也可以使用網頁瀏覽器來存取 Lync Server 控制台。 URL 會類似 HTTPs:// \<frontend\_pool\_fqdn\> /cscp。
 
 </div>
 
@@ -471,7 +473,7 @@ Windows Fabric 安裝失敗，因為會以 HH： MM： SS 的時間格式建立 
 
 4.  成功安裝 Lync Server 2013 之後，請執行下列 Cmdlet 來還原 sTimeFormat 的原始值：
     
-        - Set-ItemProperty $a 名稱 sTimeFormat-值 "<值會在步驟3中記下。 以上> "
+        - Set-ItemProperty $a 名稱 sTimeFormat-值「步驟3中所述 <的值。 以上> "
 
 </div>
 
@@ -995,7 +997,7 @@ Lync server 2010 使用者是 Lync Server 2013 回應群組的代理人，無法
     
     若要從遠端電腦開啟 Lync Server 控制台，請在電腦上安裝 Lync Server 系統管理工具，然後從 Windows [ **開始** ] 功能表啟動 lync Server [控制台]。
     
-    您也可以在網頁瀏覽器中輸入 URL，以開啟 Lync Server [控制台]。 URL 會類似 HTTPs:// \< 前端 \_ 集區 \_ fqdn \> /cscp。
+    您也可以在網頁瀏覽器中輸入 URL，以開啟 Lync Server [控制台]。 URL 會類似 HTTPs:// \<frontend\_pool\_fqdn\> /cscp。
 
 </div>
 

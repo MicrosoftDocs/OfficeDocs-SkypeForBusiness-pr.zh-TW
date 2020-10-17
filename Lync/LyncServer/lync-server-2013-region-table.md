@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Region table'
+title: Lync Server 2013： Region 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f33df1146c4366169b4c8157503fba436a6d7ed8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d48217ff0daa62a8f528829b85620e173626ca06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536720"
 ---
+# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的地區表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的區域資料表
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42201539"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010年-11-09_
+_**主題上次修改日期：** 2010-11-09_
 
 地區表格是一種支援資料表，其中的每一項記錄都代表網路組態設定中定義的一個國家/地區。
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2010年-11-09_
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -64,7 +66,7 @@ _**主題上次修改日期：** 2010年-11-09_
 </tr>
 <tr class="even">
 <td><p><strong>RegionName</strong></p></td>
-<td><p>nvarchar(128)</p></td>
+<td><p>Nvarchar (128) </p></td>
 <td><p>Unique</p></td>
 <td><p>國家/地區的名稱。</p></td>
 </tr>

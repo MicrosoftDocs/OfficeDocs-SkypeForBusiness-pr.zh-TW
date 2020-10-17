@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblRoleType'
+title: Lync Server 2013： tblRoleType
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 721932aa2929930b3da742355a46c5e2066c5c83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc32fe1142094d750b947a789b1e8c473eac8937
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536300"
 ---
+# <a name="tblroletype-in-lync-server-2013"></a>Lync Server 2013 中的 tblRoleType
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblroletype-in-lync-server-2013"></a>Lync Server 2013 中的 tblRoleType
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42195126"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-25_
+_**主題上次修改日期：** 2012-06-25_
 
 tblRoleType 表格是一種靜態查閱表格，其中含有角色類型與其相關的權限組。
 
@@ -50,7 +52,7 @@ tblRoleType 表格是一種靜態查閱表格，其中含有角色類型與其�
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>

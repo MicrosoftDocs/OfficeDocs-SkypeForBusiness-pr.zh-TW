@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Director 的硬體和軟體需求'
+title: Lync Server 2013： Director 的硬體和軟體需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e0c75135d1ccfbb544c14c5cdc530b4e9a67b47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b00e294291bcafb859cc900ca71463f1315cdfe8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205259"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536860"
 ---
+# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a>Lync Server 2013 中 Director 的硬體和軟體需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a>Lync Server 2013 中 director 的硬體和軟體需求
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42205259"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-20 個_
+_**主題上次修改日期：** 2012-10-20_
 
-本節詳細說明 Director 的硬體及軟體需求和 Director 支援的組合案例。
+本節詳細說明 Director 的硬體和軟體需求，以及 Director 支援的組合案例。
 
 <div>
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2012年-10-20 個_
 <td><p>4 GB</p></td>
 </tr>
 <tr class="odd">
-<td><p>磁碟</p></td>
+<td><p>磁片</p></td>
 <td><ul>
 <li><p>10K RPM 硬碟 (HDD)</p></li>
 <li><p>高效能固態硬碟 (SSD)，效能等於或優於 10K RPM HDD</p></li>
@@ -95,11 +97,11 @@ _**主題上次修改日期：** 2012年-10-20 個_
 
 ## <a name="software-requirements-for-the-director"></a>Director 的軟體需求
 
-Director 角色可以部署只在執行 Lync Server 2013 Enterprise Edition 的伺服器上。
+Director 角色只能部署在執行 Lync Server 2013 Enterprise Edition 的伺服器上。
 
-下列其中一個下列 64 位元作業系統是 director 需要：
+Director 必須具備下列其中一種64位作業系統：
 
-  - Windows Server 2008 R2 Standard 作業系統 Service Pack 1
+  - Windows Server 2008 R2 Standard Service Pack 1 的作業系統
 
   - Windows Server 2008 R2 Enterprise 作業系統 Service Pack 1
 
@@ -109,7 +111,7 @@ Director 角色可以部署只在執行 Lync Server 2013 Enterprise Edition 的�
 
   - Windows Server 2012 Datacenter 作業系統
 
-Lync Server 2013 也需要安裝下列程式和[其他伺服器支援和 Lync Server 2013 中的 requirements](lync-server-2013-additional-server-support-and-requirements.md)主題中詳述的更新。
+Lync Server 2013 也需要安裝下列程式和更新詳細資訊，請參閱 [Lync Server 2013 中的主題其他伺服器支援和需求](lync-server-2013-additional-server-support-and-requirements.md)。
 
 </div>
 
@@ -117,7 +119,7 @@ Lync Server 2013 也需要安裝下列程式和[其他伺服器支援和 Lync Se
 
 ## <a name="supported-collocation"></a>支援的組合
 
-Director 伺服器角色不能與 Lync Server 2013 中的任何其他伺服器角色組合。 不過，如果您不要部署 Director、 前端伺服器將會採用角色。
+Director 伺服器角色無法與 Lync Server 2013 中的任何其他伺服器角色組合。 不過，如果您不部署 Director，前端伺服器便會承擔角色。
 
 </div>
 

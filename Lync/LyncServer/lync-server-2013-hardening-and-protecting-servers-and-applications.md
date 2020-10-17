@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 增強及保護伺服器和應用程式
+title: Lync Server 2013：強化及保護伺服器及應用程式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2a8de372a8ca0ae6ec8c80a147eb74ffb01d0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3533bcf01338a056bab8c75d1409530fab7c901f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214729"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536880"
 ---
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>強化及保護 Lync Server 2013 的伺服器和應用程式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>增強及保護伺服器和 Lync Server 2013 的應用程式
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42214729"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-12-05_
+_**主題上次修改日期：** 2013-12-05_
 
 您應根據該特定元件的最佳作法來增強並保護作業系統和應用程式。 本節說明如何增強應用程式伺服器，並使用群組原則來實作安全性鎖定。
 
@@ -43,7 +45,7 @@ _**上次修改主題：** 2013年-12-05_
 
 
 > [!NOTE]  
-> 您也可以強化並保護您的 Microsoft Lync Server 2013 部署使用的資料庫。 如需詳細資訊，請參閱<A href="lync-server-2013-hardening-and-protecting-databases.md">強化及保護 Lync Server 2013 的資料庫</A>。
+> 您也可以強化和保護用於 Microsoft Lync Server 2013 部署的資料庫。 如需詳細資訊，請參閱 <A href="lync-server-2013-hardening-and-protecting-databases.md">強化及保護 Lync Server 2013 的資料庫</A>。
 
 
 
@@ -61,7 +63,7 @@ _**上次修改主題：** 2013年-12-05_
 
 ## <a name="securing-virtual-servers"></a>保障虛擬伺服器的安全
 
-虛擬伺服器快照中包含了伺服器資料磁碟的複本，以及記憶體內部資料的傾印檔；兩者皆可能含有機密的密碼編譯資料，容易遭受攻擊。 若是以虛擬化實作的生產伺服器，則應停用所有伺服器快照，或嚴密地管理。 如需保護 HYPER-V 虛擬伺服器的詳細資訊，請參閱在 HYPER-V 安全性指南： [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)。
+虛擬伺服器快照中包含了伺服器資料磁碟的複本，以及記憶體內部資料的傾印檔；兩者皆可能含有機密的密碼編譯資料，容易遭受攻擊。 若是以虛擬化實作的生產伺服器，則應停用所有伺服器快照，或嚴密地管理。 如需保護 Hyper-V 虛擬伺服器的詳細資訊，請參閱 Hyper-V Security Guide at： [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176) 。
 
 </div>
 
@@ -83,9 +85,9 @@ _**上次修改主題：** 2013年-12-05_
 
   - 遠端安裝服務
 
-若要提供系統管理員設定這些設定的使用者介面，系統管理範本所隨附的作業系統版本、 service pack 版本和某些應用程式，包括 Lync Server 2013。
+為了提供使用者介面以設定這些設定，系統管理範本隨附于作業系統版本、service pack 發行及部分應用程式（包括 Lync Server 2013）。
 
-檔案是隨附於 Lync Server 2013 系統管理範本 Communicator.adm 安裝至 %windir%\\inf\\目錄，並提供介面至群組原則設定。 Communicator.adm 中的每一項設定都會對應到登錄中，影響應用程式行為的設定。
+Communicator .adm 檔案是隨 Lync Server 2013 提供的系統管理範本，會安裝至% windir% \\ inf \\ 目錄，並提供群組原則設定的介面。 Communicator.adm 中的每一項設定都會對應到登錄中，影響應用程式行為的設定。
 
 這些設定可以從 GPedit.dll 存取，該檔案可在 Active Directory [使用者和電腦] 主控台以及群組原則管理主控台 (GPMC) 中找到。
 
@@ -95,7 +97,7 @@ _**上次修改主題：** 2013年-12-05_
 
 ## <a name="group-policy-security-settings"></a>群組原則安全性設定
 
-群組原則中包含了從 GPedit.dll 存取 GPO 時 (位於電腦設定/Windows 設定/安全性設定底下) 的安全性設定。 您可以匯入安全性範本來設定 GPO 的安全性設定。 Windows Server 2008 安全性指南 》，[https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186)和 Windows Server 2008 R2 Security Compliance Management Toolkit 在[https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882)包含您可以修改以符合您需求的範例範本數目。
+群組原則中包含了從 GPedit.dll 存取 GPO 時 (位於電腦設定/Windows 設定/安全性設定底下) 的安全性設定。 您可以匯入安全性範本來設定 GPO 的安全性設定。 《 Windows Server 2008 安全性指南》 [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) 及 Windows server 2008 R2 安全性符合性管理工具組 [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) 包含一些範例範本，您可以修改這些範本以符合您的需求。
 
 </div>
 
