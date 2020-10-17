@@ -1,5 +1,6 @@
 ---
 title: 為 A/V Edge Server 設定服務品質原則
+description: 為 A/V 邊際伺服器設定服務品質原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69b9beb119ebd7189c31f9e239ac45409758ba00
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ec1f012260aa32df984925a86882a3201e07db0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515690"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560469"
 ---
 # <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中為您的 A/V Edge server 設定品質服務原則
 
