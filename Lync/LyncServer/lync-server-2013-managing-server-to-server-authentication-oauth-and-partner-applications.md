@@ -1,5 +1,6 @@
 ---
 title: 管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式
+description: 管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183894
 ms.date: 05/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2bea847e1d0c4d9c42808a93f3c56bcd7391bece
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6efa413ad1809bcff27373a38334d09a8fbfcad9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507160"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560399"
 ---
 # <a name="managing-server-to-server-authentication-oauth-and-partner-applications-in-lync-server-2013"></a>在 Lync Server 2013 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式
 

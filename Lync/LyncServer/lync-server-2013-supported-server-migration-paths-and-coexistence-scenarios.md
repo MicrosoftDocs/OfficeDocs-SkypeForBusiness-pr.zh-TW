@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：支援的伺服器遷移路徑和共存案例
+description: Lync Server 2013：支援的伺服器遷移路徑和共存案例。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d0a40ac6cc6570cf79b56dc896277c83909b5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523970"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560229"
 ---
 # <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 中支援的伺服器遷移路徑和共存案例
 
@@ -82,7 +83,7 @@ Lync Server 2013 可以與 Lync Server 2010 部署或 Office 通訊伺服器 200
 
 您必須針對 Lync Server 2013 資料庫實例，使用執行 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 的個別及不同電腦。 您無法使用相同的 SQL Server 實例作為 lync server 2010 或 Office 通訊伺服器 2007 R2 前端集區所使用的 Lync Server 2013 前端集區。 如果您在拓撲產生器中為已部署 Lync Server 2010 或 Office 通訊伺服器 2007 R2 的部署定義及設定 Lync Server 2013，拓撲產生器將不會允許您定義已在拓撲中使用的 Lync Server 2013 實例。
 
-拓撲產生器會顯示下列訊息，告知您發生此問題：「伺服器的 SQL server \[ FQDN \] 已包含主控角色 ' 使用者存放區 ' 的 sql 實例。」
+拓撲產生器會顯示下列訊息，以通知您發生此問題：「伺服器的 SQL server \[ FQDN \] 已包含主控角色 ' 使用者存放區」的 sql 實例。
 
 <div>
 

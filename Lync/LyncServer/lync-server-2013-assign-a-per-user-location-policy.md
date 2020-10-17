@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：指派每位使用者的位置原則
+description: Lync Server 2013：指派每位使用者的位置原則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 81631740e0a6c908c392ccacb6b37d7033d9224c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134429"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559879"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中指派每位使用者的位置原則
 
@@ -30,15 +31,15 @@ ms.locfileid: "42134429"
 
 至少建立一個個別使用者位置原則後，即可使用本主題中的程序指派原則，以指定您希望伺服器針對特定使用者所撥打之緊急電話而套用的設定。
 
-如需所有可用位置原則設定的清單，請參閱[定義 Lync Server 2013 的位置原則](lync-server-2013-defining-the-location-policy.md)。
+如需所有可用位置原則設定的清單，請參閱 [定義 Lync Server 2013 的位置原則](lync-server-2013-defining-the-location-policy.md)。
 
-如需建立位置原則的詳細資訊，請參閱[在 Lync Server 2013 中建立位置原則](lync-server-2013-create-location-policies.md)。
+如需建立位置原則的詳細資訊，請參閱 [在 Lync Server 2013 中建立位置原則](lync-server-2013-create-location-policies.md)。
 
 ## <a name="to-assign-a-per-user-location-policy-with-the-lync-server-control-panel"></a>使用 Lync Server 控制台指派每位使用者的位置原則
 
 1.  從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左導覽列中，按一下 **[使用者]**。
 
@@ -104,7 +105,7 @@ ms.locfileid: "42134429"
 
 ## <a name="to-assign-a-per-user-location-policy-to-multiple-users"></a>將個別使用者位置原則指派給多位使用者
 
-  - 此命令會將個別使用者位置原則 AccountingDepartmentLocationPolicy 指派給所有在 Accounting 部門工作的使用者。 如需此命令中所用 LdapFilter 參數的詳細資訊，請參閱[Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。
+  - 此命令會將個別使用者位置原則 AccountingDepartmentLocationPolicy 指派給所有在 Accounting 部門工作的使用者。 如需此命令中所用 LdapFilter 參數的詳細資訊，請參閱 [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的檔。
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -114,5 +115,5 @@ ms.locfileid: "42134429"
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-如需詳細資訊，請參閱[Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) Cmdlet 的 [說明] 主題。
 
