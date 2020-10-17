@@ -12,20 +12,22 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f8edade1ed4f0480d776e77eb66816c033a7e3d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53dcbeb362387c31a97ad1e26713b642f82b2390
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529120"
 ---
+# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>整合內部部署整合通訊和 Lync Server 2013 的部署程式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>整合內部部署整合通訊和 Lync Server 2013 的部署程式
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213509"
 
 _**主題上次修改日期：** 2012-12-17_
 
-如果您想要整合 Exchange 整合通訊 (UM) 與 Lync Server 2013，您必須執行本主題中所述的工作。 此外，請務必查看[有關整合內部部署整合通訊和 Lync Server 2013 的指導方針](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)中所述的規劃及部署最佳作法。 本主題假設您已部署 Lync Server 2013 與組合轉送伺服器，且已針對 Lync Server 2013 啟用使用者，但不一定已執行所有部署和設定步驟來啟用企業語音，如部署檔中的[Lync Server 2013 中的部署企業語音](lync-server-2013-deploying-enterprise-voice.md)所述。
+如果您想要整合 Exchange 整合通訊 (UM) 與 Lync Server 2013，您必須執行本主題中所述的工作。 此外，請務必查看 [有關整合內部部署整合通訊和 Lync Server 2013 的指導方針](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)中所述的規劃及部署最佳作法。 本主題假設您已部署 Lync Server 2013 與組合轉送伺服器，且已針對 Lync Server 2013 啟用使用者，但不一定已執行所有部署和設定步驟來啟用企業語音，如部署檔中的 [Lync Server 2013 中的部署企業語音](lync-server-2013-deploying-enterprise-voice.md) 所述。
 
 <div>
 
@@ -92,7 +94,7 @@ _**主題上次修改日期：** 2012-12-17_
 </ul>
 <p>如果 Lync Server 2013 和 Exchange 整合通訊 (UM) 安裝在不同的樹系中，請將每個 Exchange 樹系設定為信任 Lync Server 2013 樹系。</p></td>
 <td><p>企業的系統管理員 (如果這是組織中的第一部 Exchange Server)</p>
-<p>-或者-</p>
+<p>-或-</p>
 <p>Exchange 組織系統管理員 (如果這不是組織中的第一部 Exchange Server)</p></td>
 <td><p>請參閱您的 Exchange Server 版本所適用的文件：</p>
 <dl>
@@ -123,7 +125,7 @@ _**主題上次修改日期：** 2012-12-17_
 </tr>
 <tr class="even">
 <td><p>設定 Exchange UM SIP 撥號對應表的安全性設定。</p></td>
-<td><p>若要加密 Enterprise Voice 流量，請將 Exchange UM SIP 撥號對應表上的安全性設定設定為 [ <strong>SIP 安全</strong>] 或 [<strong>安全</strong>]。 如果您已在環境中部署或規劃部署 Lync Phone Edition 裝置，則此為特別重要的步驟。 若要讓 Lync Phone Edition 裝置在具有 Exchange UM 整合的環境中運作，Lync Server 加密設定必須與 Exchange UM 撥號對應表安全性設定對齊。 如需詳細資訊，請參閱＜部署＞文件。</p></td>
+<td><p>若要加密 Enterprise Voice 流量，請將 Exchange UM SIP 撥號對應表上的安全性設定設定為 [ <strong>SIP 安全</strong> ] 或 [ <strong>安全</strong>]。 如果您已在環境中部署或規劃部署 Lync Phone Edition 裝置，則此為特別重要的步驟。 若要讓 Lync Phone Edition 裝置在具有 Exchange UM 整合的環境中運作，Lync Server 加密設定必須與 Exchange UM 撥號對應表安全性設定對齊。 如需詳細資訊，請參閱＜部署＞文件。</p></td>
 <td><p>Exchange 組織系統管理員</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">在 Microsoft Exchange 上設定 Lync Server 2013 的整合通訊</a></p>
 <p>針對 Exchange 2007 SP1 或最新的 service pack，另請參閱：</p>
@@ -185,7 +187,7 @@ _**主題上次修改日期：** 2012-12-17_
 </tr>
 <tr class="odd">
 <td><p>執行 Exchange UM 整合工具。</p></td>
-<td><p>在 Lync Server 2013 上，執行<strong>ocsumutil.exe</strong>，其：</p>
+<td><p>在 Lync Server 2013 上，執行 <strong>ocsumutil.exe</strong>，其：</p>
 <ul>
 <li><p>建立「訂戶存取」與「自動語音應答」連絡人物件。</p></li>
 <li><p>驗證是否有符合 Exchange UM 撥號對應表 FQDN 之名稱的 Enterprise Voice 撥號對應表。 如果您執行的是 Exchange 2010 SP1 或更新版本，撥號對應表名稱不需要比對，您可以忽略此工具對此的警告。</p></li>
@@ -203,7 +205,7 @@ _**主題上次修改日期：** 2012-12-17_
 
 
 > [!NOTE]
-> 若要建立連絡人物件，執行 ocsumutil.exe 的使用者對於新連絡人物件存放所在的 Active Directory 組織單位 (OU) 必須具備正確的權限。 您可以執行<STRONG>Grant-CsOUPermission</STRONG> Cmdlet 來授與此許可權。 如需詳細資料，請參閱＜Lync Server 管理命令介面＞文件。
+> 若要建立連絡人物件，執行 ocsumutil.exe 的使用者對於新連絡人物件存放所在的 Active Directory 組織單位 (OU) 必須具備正確的權限。 您可以執行 <STRONG>Grant-CsOUPermission</STRONG> Cmdlet 來授與此許可權。 如需詳細資料，請參閱＜Lync Server 管理命令介面＞文件。
 
 </td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">設定 Lync Server 2013，以搭配 Microsoft Exchange Server 上的整合通訊使用</a></p></td>

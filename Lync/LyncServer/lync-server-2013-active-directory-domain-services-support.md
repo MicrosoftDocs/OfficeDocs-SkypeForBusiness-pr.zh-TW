@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Active Directory 網域服務支援'
+title: Lync Server 2013： Active Directory 網域服務支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bee58b0a35d2a3a322d799f2aadc9ba3b9c1bd9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f427486756895f1bff5330075f4c323f944afd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529630"
 ---
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 網域服務支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 中的 active Directory 網域服務支援
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42199746"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-11-07_
+_**主題上次修改日期：** 2013-11-07_
 
-Lync Server 2013 使用的中央管理存放區來儲存伺服器和服務，而不要依賴此資訊，如同在過去的 Active Directory 網域服務的組態資料。 Lync Server 2013 仍然會儲存在 AD DS 中的下列：
+Lync Server 2013 使用中央管理存放區來儲存伺服器和服務的設定資料，而不是像過去這樣的資訊，而不是依賴此資訊的 Active Directory 網域服務。 Lync Server 2013 仍會在 AD DS 中儲存下列專案：
 
-  - **架構延伸模組**
+  - **架構擴充**
     
-      - 使用者物件延伸
+      - 使用者物件擴充
     
-      - Lync Server 2010 和 Office Communications Server 2007 R2 類別，以維持與舊版回溯相容性的延伸支援的版本
+      - Lync Server 2010 和 Office 通訊伺服器 2007 R2 類別的延伸部分，以維護與舊版支援版本的回溯相容性
 
-  - **資料**（儲存在 Lync Server 2013 延伸架構和現有類別中）
+  - 儲存在 Lync Server 2013 擴充架構和現有類別中的**資料** () 
     
-      - 使用者的 SIP URI 和其他使用者設定
+      - 使用者 SIP URI 及其他使用者設定
     
-      - 應用程式 （例如，回應群組應用程式與會議服務員應用程式） 的連絡人物件
+      - 應用程式的連絡人物件 (例如，回應群組應用程式和會議助理應用程式) 
     
-      - 發行的回溯相容性資料
+      - 為回溯相容性發佈的資料
     
-      - 服務控制點 (SCP) 的中央管理存放區
+      - 中央管理存放區 (SCP) 的服務控制點
     
-      - Kerberos 驗證帳戶 （選擇性的電腦物件）
+      - Kerberos 驗證帳戶 (選用的電腦物件) 
 
-本節說明 Lync Server 2013 的 AD DS 支援需求。 如需詳細資訊的拓樸的相關支援，請參閱支援文件中的[Lync Server 2013 中支援的 Active Directory 拓撲](lync-server-2013-supported-active-directory-topologies.md)。
+本節說明 Lync Server 2013 的 AD DS 支援需求。 如需拓撲支援的詳細資訊，請參閱支援檔中的 [支援的 Active Directory 拓撲（Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) ）。
 
 <div>
 
@@ -73,11 +75,11 @@ Lync Server 2013 支援執行下列作業系統的網域控制站：
 
   - Windows Server 2008 作業系統
 
-  - Windows Server 2008 Enterprise 32 位元
+  - Windows Server 2008 Enterprise 32-位
 
-  - 32 位元或 64 位元版本的 Window Server 2003 R2 作業系統
+  - 32位或64位版本的 Windows Server 2003 R2 作業系統
 
-  - 32 位元或 64 位元版本的 Windows Server 2003 作業系統
+  - 32位或64位版本的 Windows Server 2003 作業系統
 
 </div>
 
@@ -85,31 +87,31 @@ Lync Server 2013 支援執行下列作業系統的網域控制站：
 
 ## <a name="forest-and-domain-functional-level"></a>樹系和網域功能等級
 
-您必須提高您將 Lync Server 2013 部署至 Windows Server 2012 R2、 Windows Server 2012、 Windows Server 2008 R2、 Windows Server 2008] 或是在網域功能等級的所有網域最低的 Windows Server 2003。
+您必須將您部署 Lync Server 2013 的所有網域，都提升為 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少為 Windows Server 2003 的網域功能等級。
 
-您將部署 Lync Server 2013 的所有樹系必須引發為 Windows Server 2012 R2、 Windows Server 2012、 Windows Server 2008 R2、 Windows Server 2008] 或是在樹系功能等級最低的 Windows Server 2003。
-
-</div>
-
-<div>
-
-## <a name="support-for-read-only-domain-controllers"></a>支援唯讀網域控制站
-
-Lync Server 2013 支援包含唯讀網域控制站或唯讀通用類別目錄伺服器的 Active Directory 網域服務部署，只要有可用的可寫入的網域控制站。
+您部署 Lync Server 2013 的所有樹系都必須引發為 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少為 Windows Server 2003 的樹系功能等級。
 
 </div>
 
 <div>
 
-## <a name="domain-names"></a>網域名稱
+## <a name="support-for-read-only-domain-controllers"></a>Read-Only 網域控制站的支援
 
-Lync Server 不支援單一標示的網域。 例如，根網域名稱為 **contoso.local** 的樹系是受支援的，名為 **local** 的根網域則不受支援。 如需詳細資訊，請參閱 Microsoft 知識庫文章 300684，「 設定資訊視窗具有單一標籤 DNS 名稱的網域 」， [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)。
+Lync Server 2013 支援包含唯讀網域控制站或唯讀通用類別目錄伺服器的 Active Directory 網域服務部署（只要有可用的可寫入網域控制站）。
+
+</div>
+
+<div>
+
+## <a name="domain-names"></a>功能變數名稱
+
+Lync Server 不支援單一標示的網域。 例如，根網域名稱為 **contoso.local** 的樹系是受支援的，名為 **local** 的根網域則不受支援。 如需詳細資訊，請參閱 Microsoft 知識庫文章300684：「如何針對具有單一標籤 DNS 名稱的網域設定 Windows」的相關資訊」 [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752) 。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 不支援重新命名的網域。 如果您需要重新命名其中部署 Lync Server 的網域，您需要先解除安裝 Lync Server]，然後重新命名網域，並再重新安裝 Lync Server。
+> Lync Server 不支援重新命名網域。 如果您需要重新命名已部署 Lync Server 的網域，您必須先卸載 Lync Server，然後重新命名網域，然後重新安裝 Lync Server。
 
 
 
@@ -119,9 +121,9 @@ Lync Server 不支援單一標示的網域。 例如，根網域名稱為 **cont
 
 <div>
 
-## <a name="locked-down-adds-environments"></a>鎖定 AD DS 環境
+## <a name="locked-down-adds-environments"></a>鎖定的 AD DS 環境
 
-在鎖定的 AD DS 環境中，User 及 Computer 物件通常會放在特定組織單位 (Ou) 中停用來協助保護系統管理委派，並啟用使用群組原則物件 (Gpo) 強制執行權限繼承安全性原則。 可以在鎖定的 Active Directory 環境中部署 Lync Server 2013。 如需什麼是必要鎖定的環境中部署 Lync Server 的詳細資訊，請參閱部署文件中的[準備鎖定的 Active Directory 網域服務在 Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 。
+在鎖定的 AD DS 環境中，使用者和電腦物件通常會放在特定的組織單位中 () Ou 中，以停用許可權繼承，以協助保護系統管理委派及啟用群組原則物件 (Gpo) 的使用，以強制執行安全性原則。 Lync Server 2013 可部署在鎖定的 Active Directory 環境中。 如需在鎖定環境中部署 Lync Server 所需之專案的詳細資訊，請參閱部署檔中的在 [Lync Server 2013 中準備鎖定的 Active Directory 網域服務](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 。
 
 </div>
 

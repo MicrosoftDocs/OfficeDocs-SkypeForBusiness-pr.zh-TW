@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IIS 支援'
+title: Lync Server 2013： IIS 支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c9011edf4385b2823e8e9f56c8958ba15f0fbfa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1c01d30f7197b57dcd0811a9b09138765eff0330
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528120"
 ---
+# <a name="iis-support-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-support-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 支援
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42199766"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-29_
+_**主題上次修改日期：** 2012-06-29_
 
-數個 Lync Server 2013 元件需要網際網路資訊服務 (IIS)。 支援的版本的 IIS 包括下列各項：
+有些 Lync Server 2013 元件需要 Internet Information Services (IIS) 。 支援的 IIS 版本包括下列各項：
 
-  - IIS 8.0
+  - IIS 8。0
 
-  - IIS 7.5
+  - IIS 7。5
 
-如需 Lync Server 2013 元件之 IIS 需求的詳細資訊，請參閱規劃文件中的[Lync Server 2013 中的網際網路資訊服務 (IIS) requirements](lync-server-2013-internet-information-services-iis-requirements.md) 。
+如需 Lync Server 2013 元件之 IIS 需求的詳細資訊，請參閱規劃檔中的 [Internet Information Services (IIS) Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md) 中的需求。
 
 </div>
 

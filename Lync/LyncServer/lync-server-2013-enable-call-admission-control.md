@@ -12,20 +12,22 @@ ms:contentKeyID: 48184650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc2b31e399ba43f9e6b02ea66466da74e39d63a8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e129e109a62006d72b8b1db44c28effa8911e6c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528760"
 ---
+# <a name="enable-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中啟用通話許可控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中啟用通話許可控制
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="to-enable-call-admission-control-by-using-management-shell"></a>若要使用管理命令介面啟用通話許可控制
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  執行 Set-CsNetworkConfiguration Cmdlet 以在您的網路中啟用 CAC。例如，執行：
     
@@ -67,7 +69,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a>若要使用 Lync Server 控制台啟用通話許可控制
 
-1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左導覽列中，按一下 **[網路組態]**。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f676482badb5c00d007fced66bfc9a8abbb33a68
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 24699e685b58c718f6b67306c1eaa2d6974c87c5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527720"
 ---
+# <a name="understanding-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>瞭解 Lync Server 2013 中的最佳做法分析程式所建立的報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>瞭解 Lync Server 2013 中的最佳做法分析程式所建立的報告
+
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Server 2013，最佳做法分析器不會變更您的環境以解決問題�
 
     若要顯示您已在報告中停止顯示的問題，請前往 [其他報告]**** 檢視的 [隱藏項目]**** 索引標籤。您可以從那裡指定在報告中重新開始顯示問題。
 
-如需解決特定問題的詳細資訊，請參閱[分析和解決 Lync Server 2013 中的最佳做法分析程式所識別的問題](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md)。
+如需解決特定問題的詳細資訊，請參閱 [分析和解決 Lync Server 2013 中的最佳做法分析程式所識別的問題](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md)。
 
 </div>
 

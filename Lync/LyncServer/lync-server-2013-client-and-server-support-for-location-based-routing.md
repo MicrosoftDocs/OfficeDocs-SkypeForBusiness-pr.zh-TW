@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 用戶端與伺服器支援的位置型的路由
+title: Lync Server 2013： Location-Based 路由的用戶端和伺服器支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: daf0fb3656a5a57a5e4c7a6c25b7a08d29f79e86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d85e2ce1738ee5de9d4d542cedd7a9e544771938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529340"
 ---
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 中的 Location-Based 路由的用戶端和伺服器支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 中的位置型路由的用戶端與伺服器支援
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42197846"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-06-18_
+_**主題上次修改日期：** 2013-06-18_
 
-位置型路由會強制執行 Lync server。 Lync Server 可以識別使用者會將連線從公司網路內的網路網站。 遠端使用者位於公司網路之外，因為它們的位置會被視為未知。
+Location-Based 路由是由 Lync Server 強制執行。 Lync Server 可以識別使用者從公司網路內部連線的網路網站。 因為遠端使用者位於公司網路外部，所以其位置被視為未知。
 
 <div>
 
 ## <a name="lync-server-support"></a>Lync Server 支援
 
-位置型的路由需要上所有的前端集區和 Standard Edition 伺服器之給定拓撲中的已部署了 Lync Server 2013 CU1。 如果在拓撲中特定 Lync 元件上未安裝 Lync Server 2013 CU1、 位置型路由限制無法完全強制執行。
+Location-Based 路由需要在指定的拓撲中的所有前端集區和 Standard Edition server 上部署 Lync Server 2013 CU1。 如果 Lync Server 2013 CU1 未安裝在拓撲中的某些 Lync 元件上，則無法完全強制執行 Location-Based 路由限制。
 
-下表列出位置型路由可支援的伺服器角色和版本組合。
+下表列出 Location-Based 路由支援的伺服器角色與版本組合。
 
 
 <table>
@@ -57,28 +59,28 @@ _**上次修改主題：** 2013年-06-18_
 <thead>
 <tr class="header">
 <th>集區版本</th>
-<th>中繼伺服器版本</th>
+<th>轉送伺服器版本</th>
 <th>支援</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013 年 2 月 2013年累計更新</p></td>
-<td><p>Lync Server 2013 年 2 月 2013年累計更新</p></td>
+<td><p>Lync Server 2013 2013 月累計更新</p></td>
+<td><p>Lync Server 2013 2013 月累計更新</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 年 2 月 2013年累計更新</p></td>
+<td><p>Lync Server 2013 2013 月累計更新</p></td>
 <td><p>Lync Server 2013</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 年 2 月 2013年累計更新</p></td>
+<td><p>Lync Server 2013 2013 月累計更新</p></td>
 <td><p>Lync Server 2010</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 年 2 月 2013年累計更新</p></td>
+<td><p>Lync Server 2013 2013 月累計更新</p></td>
 <td><p>Office Communications Server 2007 R2</p></td>
 <td><p>否</p></td>
 </tr>
@@ -107,7 +109,7 @@ _**上次修改主題：** 2013年-06-18_
 
 ## <a name="lync-client-support"></a>Lync 用戶端支援
 
-下表列出位置型路由支援的用戶端。
+下表識別 Location-Based 路由支援的用戶端。
 
 
 <table>
@@ -127,7 +129,7 @@ _**上次修改主題：** 2013年-06-18_
 <tr class="odd">
 <td><p>Lync 2013</p></td>
 <td><p>是</p></td>
-<td><p>包括 Lync 2013 年 2 月 2013年累計更新</p></td>
+<td><p>包括 Lync 2013 月2013累計更新</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
@@ -145,7 +147,7 @@ _**上次修改主題：** 2013年-06-18_
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Lync Attendant</p></td>
+<td><p>Lync 語音應答</p></td>
 <td><p>是</p></td>
 <td> </td>
 </tr>
@@ -157,7 +159,7 @@ _**上次修改主題：** 2013年-06-18_
 <tr class="odd">
 <td><p>Lync Mobile 2013</p></td>
 <td><p>否</p></td>
-<td><p>VoIP 必須停用 Lync Mobile 2013 用戶端如果啟用位置型路由與使用者使用。</p></td>
+<td><p>如果已啟用 Location-Based 路由的使用者使用，則必須停用 Lync Mobile 2013 用戶端的 VoIP。</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Mobile 2010</p></td>
@@ -173,7 +175,7 @@ _**上次修改主題：** 2013年-06-18_
 
 
 > [!NOTE]  
-> 若要停用 VoIP Lync Mobile 2013 用戶端，請指派行動性原則的設定，IP 音訊/視訊，停用所有使用者啟用位置型路由與。 如需行動性原則的詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-csmobilitypolicy</A>。
+> 若要停用 Lync Mobile 2013 用戶端的 VoIP，請將行動原則指派給所有啟用位置路由之使用者的設定、IP Audio/Video、停用。 如需行動原則的詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>。
 
 
 
@@ -186,7 +188,7 @@ _**上次修改主題：** 2013年-06-18_
 ## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中依位置路由](lync-server-2013-planning-for-location-based-routing.md)  
+[在 Lync Server 2013 中規劃 Location-Based 路由](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

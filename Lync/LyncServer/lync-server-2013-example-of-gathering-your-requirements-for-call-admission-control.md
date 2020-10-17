@@ -12,20 +12,22 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46e0b0a294500514ce1b200fd646ed4e70136828
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89983ae54e879bdb55691b33a0512a00e5883735
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204809"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528440"
 ---
+# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>範例：在 Lync Server 2013 中收集通話許可控制需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>範例：在 Lync Server 2013 中收集通話許可控制需求
+
 
 </div>
 
@@ -295,7 +297,7 @@ _**主題上次修改日期：** 2012-09-21_
     
 
     > [!IMPORTANT]
-    > 網路中的每個子網路都必須與一個網站相關聯，即使該網站的頻寬不受限亦然。這是因為「通話許可控制」會使用子網路資訊來判斷端點所在的網站。確認工作階段中雙方的所在位置後，「通話許可控制」即可判斷是否有足夠的頻寬可建立通話。在透過沒有頻寬限制的連結建立工作階段時，將會產生通知。<BR>如果您部署了 Audio/Video Edge Server，則每個 Edge Server 的公用 IP 位址都必須與 Edge Server 部署所在的網站相關聯。 A/V Edge Server 的每個公用 IP 位址，都必須在您的網路組態設定中新增為具有子網路遮罩 32 的子網路。 例如，若您在「芝加哥」中部署了 A/V Edge Server，則應為這些伺服器的每個外部 IP 位址建立具有子網路遮罩 32 的子網路，並建立網站「芝加哥」與這些子網路的關聯。 如需公用 IP 位址的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">決定 Lync Server 2013 的外部 A/V 防火牆和埠需求</A>。
+    > 網路中的每個子網路都必須與一個網站相關聯，即使該網站的頻寬不受限亦然。這是因為「通話許可控制」會使用子網路資訊來判斷端點所在的網站。確認工作階段中雙方的所在位置後，「通話許可控制」即可判斷是否有足夠的頻寬可建立通話。在透過沒有頻寬限制的連結建立工作階段時，將會產生通知。<BR>如果您部署了 Audio/Video Edge Server，則每個 Edge Server 的公用 IP 位址都必須與 Edge Server 部署所在的網站相關聯。 A/V Edge Server 的每個公用 IP 位址，都必須在您的網路組態設定中新增為具有子網路遮罩 32 的子網路。 例如，若您在「芝加哥」中部署了 A/V Edge Server，則應為這些伺服器的每個外部 IP 位址建立具有子網路遮罩 32 的子網路，並建立網站「芝加哥」與這些子網路的關聯。 如需公用 IP 位址的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">決定 Lync Server 2013 的外部 A/V 防火牆和埠需求</A> 。
 
     
     </div>
@@ -304,7 +306,7 @@ _**主題上次修改日期：** 2012-09-21_
     
 
     > [!NOTE]
-    > 會引發重要狀態指示器 (KHI) 通知，指定存在於您的網路中，但未與子網路相關聯，或包含 IP 位址的子網路未與網站相關聯的 IP 位址清單。此通知在 8 小時內不會多次引發。以下是相關的通知資訊與範例：<BR><STRONG>來源：</STRONG>CS 頻寬原則服務 (核心) <BR><STRONG>事件編號：</STRONG> 36034<BR><STRONG>層級：</STRONG> 2<BR><STRONG>描述：</STRONG>下列 IP 位址的子網： &lt; 未設定 Ip 位址的清單 &gt; ，或未將子網與網路網站產生關聯。<BR><STRONG>原因：</STRONG>網路設定中遺失對應之 IP 位址的子網，也不會將子網與網路網站產生關聯。<BR><STRONG>解決方法：</STRONG>將對應至先前的 IP 位址清單的子網新增至網路設定設定，並將每個子網與網路網站產生關聯。<BR>例如，如果通知中的 IP 位址清單指定了 10.121.248.226 與 10.121.249.20，表示這些 IP 位址未與子網路相關聯，或是與這些位址相關聯的子網路不屬於任何網站。如果 10.121.248.0/24 與 10.121.249.0/24 是這些位址的對應子網路，您可以透過下列方式解決此問題： 
+    > 會引發重要狀態指示器 (KHI) 通知，指定存在於您的網路中，但未與子網路相關聯，或包含 IP 位址的子網路未與網站相關聯的 IP 位址清單。此通知在 8 小時內不會多次引發。以下是相關的通知資訊與範例：<BR><STRONG>來源：</STRONG> CS 頻寬原則服務 (核心) <BR><STRONG>事件編號：</STRONG> 36034<BR><STRONG>層級：</STRONG> 2<BR><STRONG>描述：</STRONG> 下列 IP 位址的子網： &lt; 未設定 Ip 位址的清單 &gt; ，或未將子網與網路網站產生關聯。<BR><STRONG>原因：</STRONG> 網路設定中遺失對應之 IP 位址的子網，也不會將子網與網路網站產生關聯。<BR><STRONG>解決方法：</STRONG> 將對應至先前的 IP 位址清單的子網新增至網路設定設定，並將每個子網與網路網站產生關聯。<BR>例如，如果通知中的 IP 位址清單指定了 10.121.248.226 與 10.121.249.20，表示這些 IP 位址未與子網路相關聯，或是與這些位址相關聯的子網路不屬於任何網站。如果 10.121.248.0/24 與 10.121.249.0/24 是這些位址的對應子網路，您可以透過下列方式解決此問題： 
     > <OL>
     > <LI>
     > <P>確定 IP 位址 10.121.248.226 與 10.121.248.0/24 子網路相關聯，而 IP 位址 10.121.249.20 與 10.121.249.0/24 子網路相關聯。</P>
@@ -404,7 +406,7 @@ _**主題上次修改日期：** 2012-09-21_
     </table>
 
 
-7.  在 [Lync Server 通話許可控制] 中，網路地區之間的連線稱為*地區連結*。 請比照網站的處理方式，為每個地區連結指定下列項目：
+7.  在 [Lync Server 通話許可控制] 中，網路地區之間的連線稱為 *地區連結*。 請比照網站的處理方式，為每個地區連結指定下列項目：
     
       - 您要為所有的並行音訊工作階段設定的整體頻寬限制。 如果新的音訊會話會導致超過此限制，Lync Server 便不允許會話開始。
     
@@ -583,7 +585,7 @@ _**主題上次修改日期：** 2012-09-21_
 
 
 > [!NOTE]
-> 雖然您可以使用 Lync Server 控制台執行大部分的網路設定工作，若要建立子網和網站間連結，您必須使用 Lync Server 管理命令介面。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔，以取得<STRONG>New-CsNetworkSubnet</STRONG> Cmdlet 及<STRONG>CsNetworkIntersitePolicy</STRONG> Cmdlet。
+> 雖然您可以使用 Lync Server 控制台執行大部分的網路設定工作，若要建立子網和網站間連結，您必須使用 Lync Server 管理命令介面。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔，以取得 <STRONG>New-CsNetworkSubnet</STRONG> Cmdlet 及 <STRONG>CsNetworkIntersitePolicy</STRONG> Cmdlet。
 
 
 

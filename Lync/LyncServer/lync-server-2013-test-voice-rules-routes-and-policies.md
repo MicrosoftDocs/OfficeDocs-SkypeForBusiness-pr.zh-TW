@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 測試語音規則、 路由和原則
+title: Lync Server 2013：測試語音規則、路由和原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf04728db30bada37e43f14b33420ede1ce9258
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b903ff4453f15bc22b6715abe27cc045381c0e5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527850"
 ---
+# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>在 Lync Server 2013 中測試語音規則、路由和原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>測試語音規則、 路由和 Lync Server 2013 中的原則
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42194356"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-05-20 個_
+_**主題上次修改日期：** 2014-05-20_
 
 
 <table>
@@ -49,13 +51,13 @@ _**上次修改主題：** 2014年-05-20 個_
 <td><p>每月</p></td>
 </tr>
 <tr class="even">
-<td><p>測試工具</p></td>
+<td><p>測試控管</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>必要的權限</p></td>
-<td><p>當執行在本機上使用 Lync Server 管理命令介面，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>當執行使用 Windows PowerShell 的遠端執行個體時，使用者必須被指派具有可執行此測試 CsVoiceUser cmdlet 的權限的 RBAC 角色。 若要查看可以使用此 cmdlet 的所有 RBAC 角色的清單，請在 Windows PowerShell 命令提示執行下列命令：</p>
+<td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
+<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsVoiceUser Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceUser&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,19 +66,19 @@ _**上次修改主題：** 2014年-05-20 個_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-當使用者進行的通話時，呼叫會採用到達其目的地的路由會依的原則和撥號對應表指派給該使用者而定。 指定使用者的 SIP 地址和電話號碼，測試 CsVoiceUser cmdlet，驗證是否有問題的使用者可以完成該號碼。 如果測試成功，測試 CsVoiceUser 傳回下列結果：
+當使用者撥打電話時，呼叫到達目的地所用的路由，取決於指派給該使用者的原則和撥號對應表。 指定使用者的 SIP 位址和電話號碼，Test-CsVoiceUser Cmdlet 會驗證問題使用者是否可以撥打該號碼。 測試成功時，Test-CsVoiceUser 會傳回下列專案：
 
-  - 號碼轉譯成 E.164 格式 （根據使用者的撥號對應表）
+  - 根據使用者的撥號對應表，翻譯為 e.164 格式 (的數位) 
 
-  - 提供的翻譯正規化規則
+  - 提供該轉譯的正常化規則
 
-  - 使用的語音路由 （根據路由優先順序）;
+  - 語音路由使用 (根據路由優先順序) ;
 
-  - 連結至語音路由的使用者的語音原則電話使用方式。
+  - 將使用者語音原則連結到語音路由的電話使用方式。
 
-測試 CsVoiceUser 可讓您判斷特定的電話號碼是否會路由傳送翻譯不如預期，並可協助您針對個別使用者所遇到的通話相關問題進行疑難排解。
+Test-CsVoiceUser 可讓您判斷特定的電話號碼是否會如預期的方式進行路由和轉譯，以及協助疑難排解個別使用者所遇到的呼叫相關問題。
 
 </div>
 
@@ -84,21 +86,21 @@ _**上次修改主題：** 2014年-05-20 個_
 
 ## <a name="running-the-test"></a>執行測試
 
-執行測試 CsVoiceUser 指令程式時，您就必須提供兩項資訊： 正在撥打 (DialedNumber) 以及要測試的使用者帳戶的身分識別號碼。 例如，此命令還能測試能力具有要撥打的電話號碼 +1206555 SIP 位址 sip:kenmyer@litwareinc.com 的使用者-1219年:
+在執行 Test-CsVoiceUser 指令指令時，您必須提供兩種資訊：所撥打的號碼 (DialedNumber) ，以及所測試之使用者帳戶的身分識別。 例如，下列命令會測試具有 SIP 位址 sip:kenmyer@litwareinc.com 的使用者撥打電話號碼 + 1206555-1219 的能力：
 
 `Test-CsVoiceUser -DialedNumber "12065551219" -SipUri "sip:kenmyer@litwareinc.com"`
 
-您所預期要撥打的方式應格式化的電話號碼。 例如，如果使用者通常不要撥接 1 之前撥長途電話打電話您應該使用此格式：
+電話號碼應該以您預期的撥號方式格式化。 例如，如果使用者在撥打長途電話之前未撥打1，則您應該使用此格式：
 
 `-DialedNumber "2065551219"`
 
-當然，在此情況下，測試將會失敗如果您沒有可以正確地轉譯成 Lync 伺服器所使用的 E.164 電話格式數字 2065551219 正規化規則。 如需詳細資訊，請參閱說明主題 New-csvoicenormalizationrule cmdlet。
+當然，在這種情況下，如果您沒有可以將號碼2065551219正確轉譯成 Lync Server 所使用的 e.164 電話格式的正規化規則，則測試會失敗。 如需詳細資訊，請參閱 help 主題 New-CsVoiceNormalizationRule Cmdlet。
 
 如果您想要針對每個使用者帳戶執行這個相同的測試，您可以使用類似下列的命令：
 
 `Get-CsUser | ForEach-Object {$_.DisplayName; Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri $_.SipAddress} | Format-List`
 
-如需詳細資訊，請參閱 < 測試 CsVoiceUser cmdlet 的說明 」 文件。
+如需詳細資訊，請參閱 Test-CsVoiceUser Cmdlet 的說明文件。
 
 </div>
 
@@ -106,31 +108,31 @@ _**上次修改主題：** 2014年-05-20 個_
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果測試成功完成時 （亦即，如果使用者可以撥打電話到指定的數字），輸出會顯示類似的轉譯的電話號碼和相符的正規化規則，以及語音路由的資訊：
+如果成功完成測試 (也就是說，如果使用者可以撥打電話給指定的號碼) ，輸出會顯示如已翻譯的電話號碼和對應正規化規則和語音路由等資訊：
 
-TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
+TranslatedNumber    MatchingRule    FirstMatchingRoute    MatchingUsage
 
 \----------------    ------------    ------------------    -------------
 
-\+12065551219 Descripti...]   LocalRoute 本機
+\+12065551219 Descripti .。。   LocalRoute Local
 
-[Windows PowerShell] 畫面的限制，因為至少部分傳回的資訊 （最值得注意的是比對的正規化規則的完整描述） 可能不會顯示螢幕上。 如果您只有感興趣的成功或失敗的測試，然後這可能不重要。 如果您偏好以查看傳回的資料的完整詳細資料，然後輸出內容輸送到 Format-list 指令程式執行測試時：
+由於 Windows PowerShell 畫面的限制，至少某些傳回的資訊 (比對的相符正規化規則) 的完整描述可能不會出現在畫面上。 如果您只對成功或失敗的測試感興趣，則可能不重要。 如果您想要在執行測試時，看到傳回資料的完整詳細資料，然後將輸出輸送至 Format-List Cmdlet：
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose | Format-List`
 
-將更多的讀取者易記的格式顯示輸出：
+這樣會以更易於讀取器的格式顯示輸出：
 
-TranslatedNumber: + 12065551219
+TranslatedNumber： + 12065551219
 
-MatchingRule: Description =;圖樣 = ^ (\\d{11}) $;翻譯 = + $1;
+MatchingRule： Description =;Pattern = ^ (\\ d {11}) $;轉譯 = + $ 1;
 
-名稱 = 首碼所有; IsInternalExtension = False
+Name = Prefix All; IsInternalExtension = False
 
-FirsMatchingRoute: LocalRoute
+FirsMatchingRoute : LocalRoute
 
-MatchingUsage： 本機
+MatchingUsage：本機
 
-如果測試失敗，測試 CsVoiceUser 會傳回空集合的屬性值：
+測試失敗時，Test-CsVoiceUser 會傳回一組空的屬性值：
 
 TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
@@ -140,19 +142,19 @@ TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>測試可能有為何失敗的原因
+## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
 
-有任意數目的為什麼測試 CsVoiceUser 指令程式可能會失敗的原因： 可能不會有可翻譯的提供的電話號碼正規化規則。 可能的語音路由的問題。 可能與撥號對應指派給使用者，有問題的組態問題。 因此，您可能想要加入 Verbose 參數，當您執行測試 CsVoiceUser 指令程式：
+Test-CsVoiceUser Cmdlet 可能失敗的原因有多種：可能不會有可轉譯所提供電話號碼的正常化規則。 語音路由可能會發生問題。 指派給問題使用者的撥號對應表可能發生設定問題。 因此，當您執行 Test-CsVoiceUser Cmdlet 時，您可能會想要加入 Verbose 參數：
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose`
 
-加入 Verbose 指令程式時，請測試 CsVoiceUser 會發給中採取的所有步驟的詳細的帳戶，進行其檢查時。 例如，您可能會看到類似以下的步驟執行： 
+加入詳細的指令 Cmdlet 時，Test-CsVoiceUser 會發佈執行其檢查時所採取之所有步驟的詳細帳戶。 例如，您可能會看到類似下列的步驟： 
 
-VERBOSE： 尋找使用者身分識別 」 sip:kenmyer@litwareinc.com"
+詳細：尋找身分識別為 "sip:kenmyer@litwareinc.com" 的使用者
 
-VERBOSE： 載入撥號對應表: 「 RedmondDialPlan 」
+詳細：載入撥號對應表： "RedmondDialPlan"
 
-此額外資訊可以提供提示想找出失敗的原因時，可採取的步驟。 例如，如下所示的詳細資訊輸出告訴我們正在測試使用者已指派撥號對應表 redmonddialplan 指派。 如果測試失敗，一個邏輯的下一步是確認 RedmondDialPlan 可以翻譯提供的電話號碼。
+這項額外資訊可提供您可以採取的步驟，以找出失敗的原因。 例如，此處顯示的詳細資訊輸出會告訴我們所測試的使用者已獲指派撥號對應表 RedmondDialPlan。 如果測試失敗，下一個邏輯的步驟就是驗證 RedmondDialPlan 是否可以轉譯所提供的電話號碼。
 
 </div>
 
@@ -161,7 +163,7 @@ VERBOSE： 載入撥號對應表: 「 RedmondDialPlan 」
 ## <a name="see-also"></a>另請參閱
 
 
-[測試 CsVoiceUser](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceUser)  
+[測試-CsVoiceUser](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceUser)  
   
 
 </div>

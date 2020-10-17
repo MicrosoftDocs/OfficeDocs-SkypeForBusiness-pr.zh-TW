@@ -12,20 +12,22 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4f128c827845ac06a736b849e6fa3242e319decb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529380"
 ---
+# <a name="choosing-a-topology-in-lync-server-2013"></a>在 Lync Server 2013 中選擇拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-a-topology-in-lync-server-2013"></a>在 Lync Server 2013 中選擇拓撲
+
 
 </div>
 
@@ -69,7 +71,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 下表摘要列出支援的 Microsoft Lync Server 2013 拓撲的可用功能。 欄標題表示某特定 Edge 設定選項可用的功能。 以調整式 Edge (DNS 負載平衡) 選項為例，您可以看到它支援高可用性，可使用指派給 Edge 外部介面之無法經路由傳送的私人 IP 位址 (搭配 NAT) 或可路由公用 IP 位址，由於不需要硬體負載平衡器因此可以降低成本。
 
-DNS 負載平衡支援的 Edge 容錯移轉案例是 Lync-to-Lync 點對點會話、Lync 會議會話、Lync to PSTN 會話、Office 365 和 Microsoft 365。 無法從 DNS 負載平衡受益的 Edge 容錯移轉案例是遠端使用者 Exchange 整合通訊（UM）的容錯移轉（Exchange 2010 SP1 之前）、公用立即訊息（IM）連線，以及與執行 Office 通訊伺服器的伺服器同盟。
+DNS 負載平衡支援的 Edge 容錯移轉案例是 Lync-to-Lync 點對點會話、Lync 會議會話、Lync to PSTN 會話、Office 365 和 Microsoft 365。 無法從 DNS 負載平衡受益的 Edge 容錯移轉案例是針對遠端使用者 Exchange 整合通訊 (UM)  (在 Exchange 2010 SP1) 之前，公用立即訊息 (IM) 連線，以及與執行 Office 通訊伺服器的伺服器同盟。
 
 ### <a name="summary-of-edge-server-topology-options"></a>Edge Server 拓撲選項摘要
 
@@ -130,16 +132,16 @@ DNS 負載平衡支援的 Edge 容錯移轉案例是 Lync-to-Lync 點對點會�
 </table>
 
 
-**\*** DNS 負載平衡無法使用公用立即訊息（IM）連線的容錯移轉，以及與執行 Office 通訊伺服器的伺服器同盟的同盟。 Exchange UM （遠端使用者）容錯移轉使用 DNS 負載平衡需要 Exchange Server 2010 SP1 或更新版本。
+**\*** 無法使用 DNS 負載平衡，針對公用立即訊息 (IM) 連線，以及與執行 Office 通訊伺服器之伺服器的同盟的容錯移轉。 Exchange UM (遠端使用者) 容錯移轉使用 DNS 負載平衡，需要 Exchange Server 2010 SP1 或更新版本。
 
 
 
 > [!NOTE]
 > 單一 Edge 和調整式的 Edge (DNS 負載平衡) 拓撲可以使用：
 > <ul><li><p>可路由公用 IP 位址</p></li>
-> <li><p>使用對稱網路位址轉譯（NAT）時的非路由私人 IP 位址</p></li>
+> <li><p>在使用對稱網路位址轉譯 (NAT) 時，無法路由的私人 IP 位址</p></li>
 >
-> <ul><li> 如果您使用與 NAT 的公用 IP 位址或私人 IP 位址，您仍會根據拓撲產生器中的設定選擇，使用相同數目的 IP 位址。 您可以設定 Edge Server 使用單一 IP 位址，每個服務使用不同的埠，或針對每個服務使用不同的 IP 位址，但使用相同的埠（預設為 TCP 443）。</li></ul>>
+> <ul><li> 如果您使用與 NAT 的公用 IP 位址或私人 IP 位址，您仍會根據拓撲產生器中的設定選擇，使用相同數目的 IP 位址。 您可以設定 Edge Server 使用單一 IP 位址，每個服務使用不同的埠，或為每個服務使用不同的 IP 位址，但依預設，TCP 443) 使用相同的埠 (。</li></ul>>
 > 如果您決定使用與 NAT 的非路由私人 IP 位址：
 > <ul><li><p>您必須在所有三個外部介面上使用可路由傳送的私人 IP 位址</p></li>
 > <li><p>您必須為輸入和輸出流量設定對稱的 NAT</p></li></ul>>
@@ -147,13 +149,13 @@ DNS 負載平衡支援的 Edge 容錯移轉案例是 Lync-to-Lync 點對點會�
 
 
 
-Lync Server 2013 支援將 Access、Web 會議和 A/V Edge 外部介面放在路由器或防火牆後面，該路由器或防火牆會為單一及調整式合併 Edge Server 拓撲執行網路位址轉譯（NAT）。
+Lync Server 2013 支援將 Access、Web 會議和 A/V Edge 外部介面放在路由器或防火牆後面，該路由器或防火牆可對單一及調整式合併 Edge Server 拓撲執行網路位址轉譯 (NAT) 。
 
 若要將 NAT 用於所有 Edge 外部介面，需要使用 DNS 負載平衡。和使用硬體負載平衡相比，透過使用 DNS 負載平衡而不使用 NAT，可讓您減少 Edge 集區中每個 Edge Server 的公用 IP 位址數目，如下列清單中所述：
 
-  - Lync Server 2013 調整式合併 Edge （DNS 負載平衡）需要 Edge 集區中的每個 Edge Server 需要三個公用 IP 位址。
+  - Lync Server 2013 調整式合併 Edge (DNS 負載平衡) 針對 Edge 集區中的每個 Edge Server 需要三個公用 IP 位址。
 
-  - Lync Server 2013 調整式合併 Edge （硬體負載平衡）需要三個公用 IP 位址用於負載平衡器的虛擬 IP 位址（一個時間需求不會增加，也就是將更多 Edge Server 新增至集區），再加上集區中每一 Edge Server 的三個公用 IP 位址。
+  - Lync Server 2013 調整式合併 Edge (硬體負載平衡) 需要三個公用 IP 位址用於負載平衡器的虛擬 IP 位址 (一次，當增加集區的 Edge Server) 外加集區中每 Edge Server 的三個公用 IP 位址時，不會增加。
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>調整式合併 Edge 的 IP 位址需求 (每個角色一個 IP 位址)
 
@@ -166,18 +168,18 @@ Lync Server 2013 支援將 Access、Web 會議和 A/V Edge 外部介面放在路
 <thead>
 <tr class="header">
 <th>每個集區的 Edge Server 數目</th>
-<th>Lync Server 2013 （DNS 負載平衡）所需的 IP 位址數目</th>
-<th>Lync Server 2013 （硬體負載平衡）所需的 IP 位址數目</th>
+<th>Lync Server 2013 (的 DNS 負載平衡) 所需的 IP 位址數目</th>
+<th>Lync Server 2013 (硬體負載平衡) 所需的 IP 位址數目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>第</p></td>
 <td><p>6 </p></td>
 <td><p>3 (每個 VIP 各 1 個) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
+<td><p>個</p></td>
 <td><p>9 </p></td>
 <td><p>3 (每個 VIP 各 1 個) + 9</p></td>
 </tr>
@@ -206,19 +208,19 @@ Lync Server 2013 支援將 Access、Web 會議和 A/V Edge 外部介面放在路
 <thead>
 <tr class="header">
 <th>每個集區的 Edge Server 數目</th>
-<th>Lync Server 2013 （DNS 負載平衡）所需的 IP 位址數目</th>
-<th>Lync Server 2013 （硬體負載平衡）所需的 IP 位址數目</th>
+<th>Lync Server 2013 (的 DNS 負載平衡) 所需的 IP 位址數目</th>
+<th>Lync Server 2013 (硬體負載平衡) 所需的 IP 位址數目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>2 </p></td>
+<td><p>第</p></td>
+<td><p>第</p></td>
 <td><p>1 (每個 VIP 各 1 個) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>個</p></td>
+<td><p>個</p></td>
 <td><p>1 (每個 VIP 各 1 個) + 3</p></td>
 </tr>
 <tr class="odd">
@@ -237,7 +239,7 @@ Lync Server 2013 支援將 Access、Web 會議和 A/V Edge 外部介面放在路
 
 拓撲選項的主要決策點是高可用性和負載平衡。高可用性的需求條件會影響負載平衡的決策。
 
-  - **高可用性**  如果您需要高可用性，請在集區中至少部署兩部 Edge Server。 單一 Edge 集區可支援最多十二部 Edge Server。 如果您需要更多容量，請部署多個 Edge 集區。 一般而言，10% 的使用者人數需要外部存取。
+  - **高可用性**   如果您需要高可用性，請在集區中至少部署兩部 Edge Server。 單一 Edge 集區可支援最多十二部 Edge Server。 如果您需要更多容量，請部署多個 Edge 集區。 一般而言，10% 的使用者人數需要外部存取。
     
     <div>
     
@@ -248,7 +250,7 @@ Lync Server 2013 支援將 Access、Web 會議和 A/V Edge 外部介面放在路
     
     </div>
 
-  - **硬體負載平衡**  在使用可公開路由的 Edge 外部介面的 IP 位址時，可支援負載平衡 Lync Server 2013 Edge server 的硬體負載平衡。 例如，在下列任一應用程式中需要容錯移轉時，就可使用此方法：
+  - **硬體負載平衡**   在使用可公開路由的 Edge 外部介面的 IP 位址時，可支援負載平衡 Lync Server 2013 Edge server 的硬體負載平衡。 例如，在下列任一應用程式中需要容錯移轉時，就可使用此方法：
     
       - 公用 IM 連線
     

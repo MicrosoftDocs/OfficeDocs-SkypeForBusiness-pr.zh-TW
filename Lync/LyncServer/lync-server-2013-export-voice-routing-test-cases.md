@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 匯出語音路由測試案例
+title: Lync Server 2013：匯出語音路由測試案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d871379f9c9be161aec879b7ca8da16ac40e2b5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4f366c286c332625779a7ebf45fecfa918ea16b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202369"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528350"
 ---
+# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>在 Lync Server 2013 中匯出語音路由測試案例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>匯出語音路由測試案例在 Lync Server 2013
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42202369"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
-測試案例提供方法讓您在組織中測試語音路由： 您定義要撥打號碼等事項以及要採用的撥號對應表計劃和語音原則和 Lync Server 就可以確認，在這些條件，提供的號碼可以順利進行路由傳送至 PSTN 網路。
+測試案例提供一種方法，讓您在組織中測試語音路由：您可以定義要撥打的號碼，以及要採用的撥號對應表和語音原則等事項，然後 Lync Server 才能確認所提供的號碼可成功路由傳送至 PSTN 網路。
 
-測試案例，可以建立使用 Lync Server Control Panel，通常會儲存只能在其中最初建立及執行這種情況的伺服器上。 不過，這些測試案例可以用 XML 檔案 (副檔名為 .vtest) 的形式匯出，然後匯入到其他伺服器上。 如此可讓您在位於拓樸中不同點的不同電腦上執行相同的測試。
+您可以使用 Lync Server 控制台建立的測試案例通常只會儲存在先前建立及執行案例的伺服器上。 不過，這些測試案例可以用 XML 檔案 (副檔名為 .vtest) 的形式匯出，然後匯入到其他伺服器上。 如此可讓您在位於拓樸中不同點的不同電腦上執行相同的測試。
 
 <div>
 
 ## <a name="to-export-a-voice-routing-test-case"></a>若要匯出語音路由測試案例
 
-1.  在 Lync Server 控制台中，按一下 [**語音路由**，然後按一下 [**測試語音路由**。
+1.  在 [Lync Server 控制台] 中，按一下 [ **語音路由** ]，然後按一下 [ **測試語音路由**]。
 
 2.  在 **[測試語音路由]** 索引標籤上，選取要匯出的測試案例。如果要選取多個測試案例，請按一下要匯出的第一個案例，然後按住 Ctrl 鍵，再選取其他要匯出的案例。
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2012年-11-01_
 ## <a name="see-also"></a>另請參閱
 
 
-[匯入 Lync Server 2013 中的語音路由測試案例](lync-server-2013-import-voice-routing-test-cases.md)  
+[在 Lync Server 2013 中匯入語音路由測試案例](lync-server-2013-import-voice-routing-test-cases.md)  
   
 
 </div>

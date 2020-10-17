@@ -12,20 +12,22 @@ ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5b3febefc8f6ee08f16fc958f6f12b0c32f4d08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89ec4337bd4bc728f9737ecb75bb29075831bc09
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207862"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528540"
 ---
+# <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>設定 Office Web Apps Server 與 Lync Server 2013 的整合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>設定 Office Web Apps Server 與 Lync Server 2013 的整合
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42207862"
 
 _**主題上次修改日期：** 2016-08-19_
 
-Lync Server 2013 採用 Office Web Apps Server 來處理 PowerPoint 簡報。 如需此方法之優點的詳細資訊，請參閱[Lync Server 2013 中的 web 會議概述](lync-server-2013-web-conferencing-overview.md)。
+Lync Server 2013 採用 Office Web Apps Server 來處理 PowerPoint 簡報。 如需此方法之優點的詳細資訊，請參閱 [Lync Server 2013 中的 web 會議概述](lync-server-2013-web-conferencing-overview.md)。
 
 若要使用這些新功能，管理員必須安裝 Office Web Apps Server，而且必須設定 Lync Server 2013，以與 Office Web Apps Server 通訊。 本檔提供如何設定 Lync Server 2013 以搭配 Office Web Apps Server 使用的資訊。 本檔不提供的資訊，是有關如何安裝 Office Web Apps Server 本身的資訊，請參閱。如需相關資訊，請參閱 Microsoft Office Web Apps 部署網站 <https://go.microsoft.com/fwlink/p/?linkid=257525> 。 該指南包含 Office Web Apps Server 的完整必要資訊。請注意，Office Web Apps Server 應該安裝在未執行 Lync Server、Microsoft SQL Server 或任何其他伺服器應用程式的獨立電腦上。  (您不能在該電腦上安裝任何版本的 Microsoft Office。 ) 任何用來執行 Office Web Apps Server 的電腦也必須安裝一組特定的軟體， (包括 .NET Framework 4.5 和 Windows PowerShell 3.0) ;Microsoft Office Web Apps 部署網站會詳細討論這些需求，以及設定憑證和網際網路資訊服務 (IIS) 的相關資訊 <https://go.microsoft.com/fwlink/p/?linkid=257525> 。
 
@@ -45,7 +47,7 @@ Lync Server 2013 採用 Office Web Apps Server 來處理 PowerPoint 簡報。 �
 
 
 > [!NOTE]  
-> Office Web Apps Server 的最新小小小，稱為「Office Online Server」，這是 Lync Server 2013 的支援。 如需詳細資訊，請參閱<A href="https://technet.microsoft.com/library/jj219456(v=office.16).aspx">Office Online Server 檔</A>。
+> Office Web Apps Server 的最新小小小，稱為「Office Online Server」，這是 Lync Server 2013 的支援。 如需詳細資訊，請參閱 <A href="https://technet.microsoft.com/library/jj219456(v=office.16).aspx">Office Online Server 檔</A>。
 
 
 

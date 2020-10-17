@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Active Directory 基礎結構需求'
+title: Lync Server 2013： Active Directory 基礎結構需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0747957a42c07c987f3123608d35fb86b5d4c036
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46435a3683465c1e31406e46181df8ffa069615e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529610"
 ---
+# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的 Active Directory 基礎結構需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的 active Directory 基礎結構需求
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42199776"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-11-07_
+_**主題上次修改日期：** 2013-11-07_
 
-在開始準備 Active Directory Domain Services for Lync Server 2013 的程序之前，請確定您的 Active Directory 基礎結構符合下列先決條件：
+在開始準備 Lync Server 2013 的 Active Directory 網域服務的程式之前，請確定您的 Active Directory 基礎結構符合下列必要條件：
 
-  - 所有網域控制站 （包括所有通用類別目錄伺服器） 部署 Lync Server 的樹系中都執行下列其中一個下列作業系統：
+  - 所有的網域控制站 (包含您部署 Lync Server 之樹系中的所有通用類別目錄伺服器) ，請執行下列其中一個作業系統：
     
       - Windows Server 2012 R2 作業系統
     
@@ -49,28 +51,28 @@ _**上次修改主題：** 2013年-11-07_
     
       - Windows Server 2008 作業系統
     
-      - Windows Server 2008 Enterprise 32 位元
+      - Windows Server 2008 Enterprise 32-位
     
-      - 32 位元或 64 位元版本的 Windows Server 2003 R2 作業系統
+      - 32位或64位版本的 Windows Server 2003 R2 作業系統
     
-      - 32 位元或 64 位元版本的 Windows Server 2003 作業系統
+      - 32位或64位版本的 Windows Server 2003 作業系統
 
-  - 您將部署 Lync Server 的所有網域會都引發為 Windows Server 2012 R2、 Windows Server 2012、 Windows Server 2008 R2、 Windows Server 2008] 或是在網域功能等級最低的 Windows Server 2003。
+  - 所有部署 Lync Server 的網域都會引發為 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少為 Windows Server 2003 的網域功能等級。
 
-  - 您將部署 Lync Server 的樹系會引發為 Windows Server 2012 R2、 Windows Server 2012、 Windows Server 2008 R2、 Windows Server 2008] 或是在樹系功能等級最低的 Windows Server 2003。
+  - 您部署 Lync Server 的樹系會引發為 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少為 Windows Server 2003 的樹系功能層級。
     
     <div>
     
 
     > [!NOTE]  
-    > 若要變更您的網域或樹系功能層級，請參閱 「 提高網域和樹系功能等級 > TechNet Library 中的<A href="https://go.microsoft.com/fwlink/p/?linkid=263775">https://go.microsoft.com/fwlink/p/?LinkId=263775</A>。
+    > 若要變更您的網域或樹系功能等級，請參閱 TechNet 文件庫中的「提升網域和樹系功能等級」 <A href="https://go.microsoft.com/fwlink/p/?linkid=263775">https://go.microsoft.com/fwlink/p/?LinkId=263775</A> 。
 
     
     </div>
 
-  - 您可在此部署 Lync Server 電腦或使用者每個網域中部署通用類別目錄。
+  - 在每個部署 Lync Server 電腦或使用者的網域中部署通用類別目錄。
 
-Lync Server 2013 中的 Windows Server 2012 R2、 Windows Server 2012、 Windows Server 2008 R2、 Windows Server 2008 和 Windows Server 2003 作業系統支援萬用群組。 萬用群組的成員可以包含網域樹或樹系中任何網域的其他群組和帳戶，而且可以將網域樹或樹系中任何網域的權限指派給它。 萬用群組支援，加上系統管理員委派，可簡化管理 Lync Server 部署。 例如，不需要為了讓系統管理員能夠同時管理兩個網域，而將某個網域加入另一個網域。
+Lync Server 2013 支援 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 及 Windows Server 2003 作業系統中的通用群組。 萬用群組的成員可以包含網域樹或樹系中任何網域的其他群組和帳戶，而且可以將網域樹或樹系中任何網域的權限指派給它。 通用群組支援（結合系統管理員委派）可簡化 Lync Server 部署的管理。 例如，不需要為了讓系統管理員能夠同時管理兩個網域，而將某個網域加入另一個網域。
 
 </div>
 

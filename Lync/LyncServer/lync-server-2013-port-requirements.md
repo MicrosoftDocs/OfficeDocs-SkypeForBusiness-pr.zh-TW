@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 的連接埠需求
+title: Lync Server 2013 埠需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4ac38534f7d52aca3df9c24cac10be10dee5be6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e02ad7b00f2f0ce0771633a6533986327bf2b80b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527960"
 ---
+# <a name="port-requirements-for-lync-server-2013"></a>Lync Server 2013 的埠需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-requirements-for-lync-server-2013"></a>Lync Server 2013 的連接埠需求
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42183946"
 
 <span> </span>
 
-_**上次修改主題：** 2013 年 03 月 27 日_
+_**主題上次修改日期：** 2013-03-27_
 
-Lync Server 必須開啟防火牆上的特定連接埠。 此外，如果您組織中部署網際網路通訊協定安全性 (IPsec)，IPsec 必須停用透過用於傳遞的音訊、 視訊和 panorama 視訊的連接埠範圍。
+Lync Server 要求開啟防火牆上的特定埠。 此外，如果您的組織中已部署網際網路通訊協定安全性 (IPsec) ，IPsec 必須透過用於傳遞音訊、影片及全景影片的埠範圍加以停用。
 
 <div>
 
@@ -45,23 +47,23 @@ Lync Server 必須開啟防火牆上的特定連接埠。 此外，如果您組�
 
 本節包含下列主題：
 
-  - [連接埠和通訊協定適用於 Lync Server 2013 中的內部伺服器](lync-server-2013-ports-and-protocols-for-internal-servers.md)
+  - [Lync Server 2013 中內部伺服器的埠與通訊協定](lync-server-2013-ports-and-protocols-for-internal-servers.md)
 
-  - [Lync Server 2013 中的 IPsec 例外](lync-server-2013-ipsec-exceptions.md)
+  - [Lync Server 2013 中的 IPsec 例外狀況](lync-server-2013-ipsec-exceptions.md)
 
-  - [連接埠摘要-單一合併式 edge 與 Lync Server 2013 中使用 NAT 的私人 IP 位址](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [Lync Server 2013 中的埠摘要-單一合併 edge （使用 NAT 透過私人 IP 位址）](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [連接埠摘要-單一合併邊緣搭配 Lync Server 2013 中的公用 IP 位址](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Lync Server 2013 中的埠摘要-含公用 IP 位址的單一合併 edge](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [連接埠摘要-調整式合併 edge、 DNS 負載平衡與 Lync Server 2013 中使用 NAT 的私人 IP 位址](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [在 Lync Server 2013 中，埠摘要-調整式合併 edge （使用 NAT 透過私人 IP 位址進行 DNS 負載平衡）](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [連接埠摘要-調整式合併 edge、 DNS 負載平衡與 Lync Server 2013 中的公用 IP 位址](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Lync Server 2013 中的埠摘要-調整式合併 edge （透過公用 IP 位址進行 DNS 負載平衡）](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [連接埠摘要-調整式合併邊緣搭配硬體負載平衡器在 Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 中的埠摘要-調整式合併 edge （使用硬體負載平衡器）](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [連接埠摘要-Lync Server 2013 中的反向 proxy](lync-server-2013-port-summary-reverse-proxy.md)
+  - [Lync Server 2013 中的埠摘要-反向 proxy](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [連接埠摘要-SIP，XMPP 同盟和公用立即訊息在 Lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Lync Server 2013 中的埠摘要-SIP、XMPP 同盟和公用立即訊息](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

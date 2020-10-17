@@ -12,20 +12,22 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c2dd96b45105eabe644b86ba5ab3af099ea8e8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fc8895a144b4911560af8fd6a2f12d576f3ec14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528150"
 ---
+# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 設定
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> 如果您的組織需要在系統磁片磁碟機以外的磁片磁碟機上找到 [IIS] 和 [所有 Web 服務]，您可以在初次安裝 Lync Server 2013 系統管理工具時，在 [安裝程式] 對話方塊中，變更 [Lync Server 2013 檔案] 的安裝位置路徑。 安裝 IIS 之前，請先安裝系統管理工具。 若將安裝檔案安裝至此路徑（包括 OCSCore.msi），則其他的 Lync Server 2013 檔案也會同時部署至此磁片磁碟機。 如需 dtails，請參閱<A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 系統管理工具</A>。 如需如何重新置放 Windows Server Manager 在安裝 IIS 時所部署之 INETPUB 的詳細資訊，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> 。
+> 如果您的組織需要在系統磁片磁碟機以外的磁片磁碟機上找到 [IIS] 和 [所有 Web 服務]，您可以在初次安裝 Lync Server 2013 系統管理工具時，在 [安裝程式] 對話方塊中，變更 [Lync Server 2013 檔案] 的安裝位置路徑。 安裝 IIS 之前，請先安裝系統管理工具。 若將安裝檔案安裝至此路徑（包括 OCSCore.msi），則其他的 Lync Server 2013 檔案也會同時部署至此磁片磁碟機。 如需 dtails，請參閱 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 系統管理工具</A>。 如需如何重新置放 Windows Server Manager 在安裝 IIS 時所部署之 INETPUB 的詳細資訊，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> 。
 
 
 
@@ -167,7 +169,7 @@ _**主題上次修改日期：** 2014-02-17_
 
 
 > [!NOTE]  
-> 若為 Windows Server 2012 和 Windows Server 2012 R2，Add-WindowsFeature Cmdlet 已由 Install-WindowsFeature Cmdlet 所取代。 如需詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>。
+> 若為 Windows Server 2012 和 Windows Server 2012 R2，Add-WindowsFeature Cmdlet 已由 Install-WindowsFeature Cmdlet 所取代。 如需詳細資訊，請參閱 <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>。
 
 
 

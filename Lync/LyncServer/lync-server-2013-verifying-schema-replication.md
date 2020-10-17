@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Cmdlet 執行架構準備'
+title: Lync Server 2013：驗證架構複寫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185124
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f59704edacc9b7c9a04f4492ddad778b65401033
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 483a8125969fffc0db2c8f72bca3fc5b8001d943
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211719"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527620"
 ---
+# <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>在 Lync Server 2013 中驗證 Active Directory 架構複寫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>確認 Lync Server 2013 中的 Active Directory 架構準備
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42211719"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-29_
+_**主題上次修改日期：** 2012-10-29_
 
-執行樹系準備之前，請手動驗證架構磁碟分割已複寫。
+在您執行樹系準備之前，請手動驗證架構磁碟分割是否已複製。
 
 <div>
 
-## <a name="to-manually-verify-schema-replication"></a>若要手動驗證架構複寫
+## <a name="to-manually-verify-schema-replication"></a>手動驗證架構複寫
 
-1.  以 Enterprise Admins 群組成員身分登入網域控制站。
+1.  以 Enterprise Admins 群組成員的身分登入網域控制站。
 
 2.  依序按一下 **[開始]**、**[系統管理工具]** 和 **[ADSI 編輯器]**，以開啟 [ADSI 編輯器]。
     
@@ -51,12 +53,12 @@ _**主題上次修改日期：** 2012年-10-29_
     
 
     > [!TIP]  
-    > 或者，您可以從命令列執行<STRONG>adsiedit.msc</STRONG> 。
+    > 或者，您可以從命令列執行 <STRONG>adsi services.msc</STRONG> 。
 
     
     </div>
 
-3.  在 Microsoft Management Console (MMC) 樹狀目錄中，如果未選取，按一下 [ **Adsi 編輯器]**。
+3.  在 Microsoft Management Console (MMC) 樹中，如果尚未選取它，請按一下 [ **ADSI 編輯器**]。
 
 4.  在 **[執行]** 功能表上，按一下 **[連線到]**。
 
@@ -74,7 +76,7 @@ _**主題上次修改日期：** 2012年-10-29_
 [在 Lync Server 2013 中執行 Active Directory 架構準備](lync-server-2013-running-schema-preparation.md)  
 
 
-[準備 Lync Server 2013 中的 Active Directory 結構描述](lync-server-2013-preparing-the-active-directory-schema.md)  
+[在 Lync Server 2013 中準備 Active Directory 架構](lync-server-2013-preparing-the-active-directory-schema.md)  
   
 
 </div>

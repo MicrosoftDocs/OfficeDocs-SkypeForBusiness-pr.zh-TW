@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 連接埠摘要-DNS 與 HLB 負載平衡
+title: Lync Server 2013：埠摘要-DNS 與 HLB 負載平衡
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e6175f83e1cea20e21ed25c372849c0e6b80b49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6ba03a73538426b9c820388f65e728c36881148
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183936"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527940"
 ---
+# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Lync Server 2013 中的埠摘要-DNS 與 HLB 負載平衡
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Lync Server 2013 中的連接埠摘要-DNS 與 HLB 負載平衡
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42183936"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-22_
+_**主題上次修改日期：** 2012-10-22_
 
-單一 Director 的防火牆連接埠需求是由用來建立從內部介面或反向 proxy 內部面向網路 Director 與通訊的連接埠所組成。 預設的 Microsoft Lync Server 2013 所預期的 HTTP/TCP 8080 和 HTTPS/TCP 4443 指向 Director，開啟從反向 proxy 的連接埠以及前端集區與前端伺服器。 此外，必須是工作階段初始通訊協定 (SIP) 通訊的 Edge Server 內部介面從指向 Director 與前端集區和前端伺服器。 SIP 通訊協定使用 SIP/MTLS/TCP 5061 從 Edge Server 至前端集區與前端伺服器。 也必須建立允許 SIP/MTLS/TCP 5061 通訊來自 Director、 前端集區與前端伺服器到 Edge Server 內部介面的規則。
+單一 Director 的防火牆埠需求包含用於從反向 proxy 的內部介面或內部的網路與 Director 建立通訊的埠。 Microsoft Lync Server 2013 預設會期望從反向 proxy 向 Director 開啟埠 HTTP/TCP 8080 和 HTTPS/TCP 4443，以及前端集區和前端伺服器。 此外，您必須要有會話初始通訊協定 (SIP) 從 Edge Server 內部介面到 Director 及前端集區和前端伺服器之間的通訊。 SIP 通訊協定使用從 Edge Server 到前端集區和前端伺服器的 SIP/MTLS/TCP 5061。 一種規則，允許從 Director、前端集區和前端伺服器到 Edge Server 內部介面的 SIP/MTLS/TCP 5061 通訊也必須建立。
 
-### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>單一 Director 連接埠和防火牆定義的通訊協定
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>防火牆定義的單一 Director 埠和通訊協定
 
 <table>
 <colgroup>
@@ -53,63 +55,63 @@ _**主題上次修改日期：** 2012年-10-22_
 <th>角色/通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>附註</th>
+<th>注意事項</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP 8080</p></td>
 <td><p>反向 Proxy 內部介面</p></td>
-<td><p>Director 的硬體負載平衡器 VIP</p></td>
-<td><p>先由反向 proxy 的外部端接收，通訊會傳送至 Director HLB VIP 與前端伺服器 web 服務。</p></td>
+<td><p>Director 硬體負載平衡器 VIP</p></td>
+<td><p>由反向 proxy 的外部端最初接收，通訊會傳送到 Director HLB VIP 和前端伺服器 web 服務。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
 <td><p>反向 Proxy 內部介面</p></td>
-<td><p>Director 的硬體負載平衡器 VIP</p></td>
-<td><p>先由反向 proxy 的外部端接收，通訊會傳送至 Director HLB VIP 與前端伺服器 web 服務。</p></td>
+<td><p>Director 硬體負載平衡器 VIP</p></td>
+<td><p>由反向 proxy 的外部端最初接收，通訊會傳送到 Director HLB VIP 和前端伺服器 web 服務。</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
 <td><p>Director</p></td>
 <td><p>前端集區或前端伺服器</p></td>
-<td><p>Director HLB VIP 與前端伺服器或前端伺服器之間的伺服器間通訊。</p></td>
+<td><p>Director HLB VIP 和前端伺服器或前端伺服器之間的伺服器間通訊。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTP/TCP 80</p></td>
 <td><p>內部用戶端</p></td>
-<td><p>Director 的硬體負載平衡器 VIP</p></td>
-<td><p>Director 內部以及外部用戶端提供 web 服務。</p></td>
+<td><p>Director 硬體負載平衡器 VIP</p></td>
+<td><p>Director 為內部及外部用戶端提供 web 服務。</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 443</p></td>
 <td><p>內部用戶端</p></td>
-<td><p>Director 的硬體負載平衡器 VIP</p></td>
-<td><p>Director 內部以及外部用戶端提供 web 服務。</p></td>
+<td><p>Director 硬體負載平衡器 VIP</p></td>
+<td><p>Director 為內部及外部用戶端提供 web 服務。</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>Edge Server 內部介面</p></td>
 <td><p>Director</p></td>
-<td><p>從 SIP 通訊 Edge Server Director，以及前端伺服器。</p></td>
+<td><p>從 Edge Server 到 Director 及前端伺服器的 SIP 通訊。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>任何</p></td>
 <td><p>Director</p></td>
-<td><p>Centralized Logging Service 控制器 (ClsController.exe) 或代理程式 （ClsAgent.exe)commands 和記錄檔收集</p></td>
+<td><p>集中式記錄服務控制器 ( # A0) 或 agent ( # A1) 命令和記錄檔集合</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>任何</p></td>
 <td><p>Director</p></td>
-<td><p>Centralized Logging Service 控制器 (ClsController.exe) 或代理程式 （ClsAgent.exe)commands 和記錄檔收集</p></td>
+<td><p>集中式記錄服務控制器 ( # A0) 或 agent ( # A1) 命令和記錄檔集合</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>任何</p></td>
 <td><p>Director</p></td>
-<td><p>Centralized Logging Service 控制器 (ClsController.exe) 或代理程式 （ClsAgent.exe)commands 和記錄檔收集</p></td>
+<td><p>集中式記錄服務控制器 ( # A0) 或 agent ( # A1) 命令和記錄檔集合</p></td>
 </tr>
 </tbody>
 </table>

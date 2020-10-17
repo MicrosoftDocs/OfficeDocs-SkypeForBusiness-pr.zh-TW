@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 規劃角色型存取控制
+title: Lync Server 2013：規劃以角色為基礎的存取控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528030"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>在 Lync Server 2013 中規劃以角色為基礎的存取控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>規劃 Lync Server 2013 中角色型存取控制
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42201889"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015 年 01 月 27 日_
+_**主題上次修改日期：** 2015-01-27_
 
-若要可讓您管理工作委派維持高標準的安全性，Lync Server 2013 提供角色型存取控制 (RBAC)。 使用 RBAC，指派使用者給系統管理角色，即可授與系統管理權限。 Lync Server 2013 包含一組豐富的內建管理角色，也可讓您建立新的角色，並指定自訂清單中的每個新角色的 cmdlet。 您也可以將 Cmdlet 的指令碼新增至預先定義與自訂 RBAC 角色之允許的工作中。
+為了讓您委派管理工作，同時維持高安全性的安全性，Lync Server 2013 提供角色型存取控制 (RBAC) 。 使用 RBAC，指派使用者給系統管理角色，即可授與系統管理權限。 Lync Server 2013 包含一組豐富的內建管理角色，也可讓您建立新角色，並為每個新角色指定自訂 Cmdlet 清單。 您也可以將 Cmdlet 的指令碼新增至預先定義與自訂 RBAC 角色之允許的工作中。
 
 <div>
 
 ## <a name="better-server-security-and-centralization"></a>更佳的伺服器安全性與集中性
 
-使用 RBAC，存取和授權根據準確使用者的 Lync 伺服器角色。 如此一來便可讓「最低權限」的安全性實務發揮效用，限制系統管理員與使用者擁有執行工作必要的權限。
+透過 RBAC，存取和授權是以使用者的 Lync Server 角色為基礎。 如此一來便可讓「最低權限」的安全性實務發揮效用，限制系統管理員與使用者擁有執行工作必要的權限。
 
 <div>
 
 
 > [!IMPORTANT]  
-> RBAC 限制只用於系統管理員在遠端工作、 使用 Lync Server Control Panel] 或 [Lync Server 管理命令介面。 RBAC 不會限制使用者坐在執行 Lync Server 的伺服器。 因此，Lync 伺服器的實體安全性是重要保留 RBAC 限制。
+> 使用 Lync Server 控制台或 Lync Server 管理命令介面時，RBAC 限制只適用于以遠端方式運作的系統管理員。 位於執行 Lync Server 之伺服器上的使用者，不受 RBAC 限制。 因此，您的 Lync 伺服器實體安全性很重要，必須保留 RBAC 限制。
 
 
 
@@ -63,7 +65,7 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 
 在 RBAC，*「角色」* 已經過啟用可使用 Cmdlet 的清單，主要是提供特定類型的系統管理員或技術人員使用。*「範圍」* 指的是角色中定義的 Cmdlet 賴以操作的物件集合。範圍影響的物件可能是使用者帳戶 (依組織單位分組) 或伺服器 (依網站分組)。
 
-下表列出在 Lync Server 中預先定義的角色，並提供之每個可以執行的工作類型的一般概觀。 如果有的話，第四欄會顯示每個 Lync 伺服器角色，類似 Microsoft Exchange Server 角色。
+下表列出 Lync Server 中的預先定義的角色，並提供每個任務類型的一般綜述。 第四欄會針對每個 Lync Server role 顯示類似的 Microsoft Exchange 伺服器角色（如果有的話）。
 
 ### <a name="predefined-administrative-roles"></a>預先定義的系統管理角色
 
@@ -91,7 +93,7 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 </tr>
 <tr class="even">
 <td><p>CsUserAdministrator</p></td>
-<td><p>可以啟用及停用使用者的 Lync Server]，將使用者移並將現有的原則指派給使用者。 無法修改原則。</p></td>
+<td><p>可以啟用和停用 Lync Server 的使用者、移動使用者並指派現有的原則給使用者。 無法修改原則。</p></td>
 <td><p>CSUserAdministrator</p></td>
 <td><p>郵件收件者</p></td>
 </tr>
@@ -117,7 +119,7 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 <td><p>CsHelpDesk</p></td>
 <td><p>可檢視部署內容，包括使用者內容與原則。可執行特定疑難排解工作。無法變更使用者內容或原則、伺服器組態或相關服務。</p></td>
 <td><p>CSHelpDesk</p></td>
-<td><p>服務台</p></td>
+<td><p>HelpDesk</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsArchivingAdministrator</p></td>
@@ -153,19 +155,19 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 </table>
 
 
-所有預先定義的角色是在 Lync Server 具有全域範圍。 為了遵循最低權限實務，當使用者只需要管理有限的伺服器或使用者時，請勿將全域範圍的角色指派給他們。 要達到這個目的，請依據現有的角色建立相關角色，但在範圍上稍做限制即可。
+所有在 Lync Server 中發運的預先定義的角色都具有全域範圍。 為了遵循最低權限實務，當使用者只需要管理有限的伺服器或使用者時，請勿將全域範圍的角色指派給他們。 要達到這個目的，請依據現有的角色建立相關角色，但在範圍上稍做限制即可。
 
 <div>
 
 ## <a name="creating-a-scoped-role"></a>建立有範圍的角色
 
-建立範圍有限的角色 (有範圍的角色) 時，您必須指定範圍及其所依據的現有角色，以及要指派該角色的 Active Directory 群組。 您指定的 Active Directory 群組必須事先建立好。 以下 Cmdlet 將示範如何建立範圍有限的角色 (該角色擁有其中一個預先定義管理角色的權限，但範圍有限)。 它會建立新的角色，稱為 「 `Site01 Server Administrators`。 此角色具有預先定義的 CsServerAdministrator 角色功能，但僅適用位於 Site01 網站的伺服器。 若要使用此 cmdlet，必須已經定義 Site01 站台，和萬用資訊安全群組命名為`Site01 Server Administrators`，必須已經存在。
+建立範圍有限的角色 (有範圍的角色) 時，您必須指定範圍及其所依據的現有角色，以及要指派該角色的 Active Directory 群組。 您指定的 Active Directory 群組必須事先建立好。 以下 Cmdlet 將示範如何建立範圍有限的角色 (該角色擁有其中一個預先定義管理角色的權限，但範圍有限)。 它會建立名為的新角色 `Site01 Server Administrators` 。 此角色具有預先定義的 CsServerAdministrator 角色功能，但僅適用位於 Site01 網站的伺服器。 若要讓此 Cmdlet 正常運作，必須已定義 Site01 網站，且名為的通用安全性群組 `Site01 Server Administrators` 必須已經存在。
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-執行此指令程式，身為成員的所有使用者之後的`Site01 Server Administrators`群組將 Site01 中有之伺服器的伺服器系統管理員權限。 此外，任何稍後新增至此萬用資訊安全群組的使用者也會獲得此角色的權限。 請注意，稱為 「 角色本身，以及萬用安全性群組將它指派給`Site01 Server Administrators`。
+在執行此指令程式之後，所有屬於該群組成員的使用者， `Site01 Server Administrators` 都會擁有 Site01 中伺服器的伺服器管理員許可權。 此外，以後新增至此通用安全性群組的任何使用者也會取得此角色的許可權。 請注意，角色本身和指派給它的通用安全性群組都是呼叫的 `Site01 Server Administrators` 。
 
-以下範例將限制使用者範圍，而非伺服器範圍。 它會建立`Sales Users Administrator`若要管理的 Sales 組織單位中的使用者帳戶的角色。 若要使用此 cmdlet 時，必須已建立 SalesUsersAdministrator 萬用安全性群組。
+以下範例將限制使用者範圍，而非伺服器範圍。 它會建立一個 `Sales Users Administrator` 角色，以管理銷售組織單位中的使用者帳戶。 若要使用此 Cmdlet，必須已建立 SalesUsersAdministrator 通用安全性群組。
 
     New-CsAdminRole -Identity "Sales Users Administrator " -Template CsUserAdministrator -UserScopes "OU:OU=Sales, OU=Lync Tenants, DC=Domain, DC=com"
 
@@ -177,17 +179,17 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 
 若要建立一個新角色能夠存取非預先定義角色中的一組 Cmdlet、指令碼或模組，您可再次從使用其中一個預先定義角色為範本開始。請注意，角色可執行的指令碼和模組必須儲存於下列位置：
 
-  - Lync 模組路徑，也就是預設 c:\\Program Files\\通用檔案\\Microsoft Lync Server 2013\\模組\\Lync
+  - Lync 模組路徑，也就是預設的 C： \\ Program files the the Program files the \\ \\ Microsoft Lync Server 2013 module \\ \\ lync
 
-  - 使用者指令碼路徑，也就是預設 c:\\Program Files\\通用檔案\\Microsoft Lync Server 2013\\AdminScripts
+  - 使用者腳本路徑，也就是預設的 C： \\ Program files \\ 常見的檔案 \\ Microsoft Lync Server 2013 \\ AdminScripts
 
-若要建立新角色，需使用 **New-CsAdminRole** Cmdlet。 在執行之前**新增 Get-csadminrole**，您必須先建立要與此角色建立關聯底層萬用資訊安全群組。
+若要建立新角色，需使用 **New-CsAdminRole** Cmdlet。 在執行 **New-CsAdminRole**之前，您必須先建立將與此角色關聯的基礎通用安全性群組。
 
-下列 Cmdlet 可作為建立新角色的範例。 他們建立新的角色類型，呼叫`MyHelpDeskScriptRole`。 新角色具有預先定義 CsHelpDesk 角色的功能，可在名為“testscript”的指令碼中額外執行各項功能。
+下列 Cmdlet 可作為建立新角色的範例。 他們會建立名為的新角色類型 `MyHelpDeskScriptRole` 。 新角色具有預先定義 CsHelpDesk 角色的功能，可在名為“testscript”的指令碼中額外執行各項功能。
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 
-若要使用此 cmdlet，您必須先建立通用安全性群組 MyHelpDeskScriptRole。
+為了讓此 Cmdlet 能夠運作，您必須先建立通用安全性群組 MyHelpDeskScriptRole。
 
 此 Cmdlet 執行後，就能將使用者直接指派給此角色 (此時使用者擁有全域範圍)，或是依據此角色建立有範圍的角色，如本文件先前在〈建立有範圍的角色〉中所述。
 
@@ -197,11 +199,11 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 
 ## <a name="assigning-roles-to-users"></a>指派角色給使用者
 
-每個 Lync 伺服器角色為基礎的 Active Directory 萬用資訊安全群組相關聯。 您新增至基礎群組的任何使用者都可獲得該角色的功能。
+每個 Lync Server 角色都與基礎 Active Directory 通用安全性群組相關聯。 您新增至基礎群組的任何使用者都可獲得該角色的功能。
 
-在上述章節中的範例建立新的角色和現有萬用資訊安全群組指派給新角色。 若要將現有角色指派給一或多位使用者，請將這些使用者新增至與該角色關聯的群組。 您可以將個別使用者和萬用資訊安全群組新增至這些群組。
+上述各節的範例會建立新的角色，並將現有的通用安全性群組指派給新的角色。 若要將現有角色指派給一或多位使用者，請將這些使用者新增至與該角色關聯的群組。 您可以將個別使用者和通用安全性群組新增至這些群組。
 
-例如， **CsAdministrator**角色會自動授與至 Active Directory 中的 [ **CS 系統管理員**通用的安全性] 群組中。 部署 Lync Server 時，此萬用資訊安全群組會建立在 Active Directory 中。 若要授予使用者或群組這個權限，您只需將其新增至 **CS 系統管理員**群組。
+例如，會自動將 **CsAdministrator** 角色授與 Active Directory 中的 **CS Administrators** 通用安全性群組。 當您部署 Lync Server 時，會在 Active Directory 中建立此通用安全性群組。 若要授予使用者或群組這個權限，您只需將其新增至 **CS 系統管理員**群組。
 
 您可以將使用者新增至對應每個群組的 Active Directory 基礎群組，藉此賦予其多重 RBAC 角色。
 
@@ -215,7 +217,7 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 
 您可以修改角色可執行的 Cmdlet 和指令碼清單；也可同時修改自訂角色可執行的 Cmdlet 和指令碼，但僅能修改預先定義角色的指令碼。每個鍵入的 Cmdlet 均可新增、移除或更換 Cmdlet 或指令碼。
 
-若要修改角色，請使用 **Set-CsAdminRole** Cmdlet。 下列指令程式從角色中移除一個指令碼。
+若要修改角色，請使用 **Set-CsAdminRole** Cmdlet。 下列 Cmdlet 會從角色移除一個腳本。
 
     Set-CsAdminRole -Identity "MyHelpDeskScriptRole" -ScriptModules @{Remove="testScript.ps1"}
 
@@ -227,7 +229,7 @@ _**主題上次修改日期：** 2015 年 01 月 27 日_
 
 ## <a name="planning-for-rbac"></a>規劃 RBAC
 
-是要指定任何種類的系統管理權限給 Lync Server 部署每個人，請考慮完全執行，所需的工作，然後將它們指派給擁有最低的權限與他們的工作所需的範圍的角色。 必要時可以使用 **Set-CsAdminRole** Cmdlet 建立只擁有其任務所需 Cmdlet 的新角色。
+針對您的 Lync Server 部署提供任何類型的管理許可權的每個使用者，請明確考慮他們需要執行的工作，然後將其指派給其工作所需的最低許可權和範圍的角色。 必要時可以使用 **Set-CsAdminRole** Cmdlet 建立只擁有其任務所需 Cmdlet 的新角色。
 
 具有 CsAdministrator 角色的使用者可以建立所有種類的角色，包括依據 CsAdministrator 建立的角色，並將其指派給使用者。最佳做法是將 CsAdministrator 角色指派給非常少數的受信任使用者。
 

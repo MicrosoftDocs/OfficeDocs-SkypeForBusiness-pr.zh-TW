@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: AppSharingMetricsThreshold 表'
+title: Lync Server 2013： AppSharingMetricsThreshold 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8c1acad5682e5c74c825f32de3fa6a37105234a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e7a2d73f09a3cb48b1d50f06aa530c91d779b28
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204449"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529550"
 ---
+# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a>Lync Server 2013 中的 AppSharingMetricsThreshold 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a>Lync Server 2013 中的 AppSharingMetricsThreshold 表
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42204449"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015年-12-08_
+_**主題上次修改日期：** 2015-12-08_
 
 AppSharingMetricsThreshold 表格包含可與應用程式共用搭配使用之經驗品質計量適用的最佳值與可接受值。這些閾值可用來判斷應用程式共用經驗是否應該分類為不良。
 
-Microsoft Lync Server 2013 中已採用此表格。
+此表格已引進 Microsoft Lync Server 2013。
 
 
 <table>
@@ -53,7 +55,7 @@ Microsoft Lync Server 2013 中已採用此表格。
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -78,13 +80,13 @@ Microsoft Lync Server 2013 中已採用此表格。
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentTotalOptimal</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>對於可用於分類應用程式共用品質之「已毀損」並排顯示的最佳百分比率。此值是來自未送達檢視者之共用者的內容百分比。當共用者從圖表來源中捨棄並排顯示或 ASMCU 並排顯示個別捨棄來自共用者的並排顯示時，內容可能會被捨棄 (或毀損)。預設值為 11 個百分比。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentTotalAcceptable</strong></p></td>
-<td><p>decimal(5,2)</p></td>
+<td><p>十進位 (5，2) </p></td>
 <td></td>
 <td><p>對於可用於分類應用程式共用品質之「已毀損」並排顯示的可接受百分比率。此值是來自未送達檢視者之共用者的內容百分比。當共用者從圖表來源中捨棄並排顯示或 ASMCU 並排顯示個別捨棄來自共用者的並排顯示時，內容可能會被捨棄 (或毀損)。預設值為 36 個百分比。</p></td>
 </tr>
@@ -92,67 +94,67 @@ Microsoft Lync Server 2013 中已採用此表格。
 <td><p><strong>JitterInterArrivalOptimal</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>此資料行不適用於 Microsoft Lync Server 2013。</p></td>
+<td><p>Microsoft Lync Server 2013 中不會使用此欄。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrivalAcceptable</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>此資料行不適用於 Microsoft Lync Server 2013。</p></td>
+<td><p>Microsoft Lync Server 2013 中不會使用此欄。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensityOptimal</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>此資料行不適用於 Microsoft Lync Server 2013。</p></td>
+<td><p>Microsoft Lync Server 2013 中不會使用此欄。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensityAcceptable</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>此資料行不適用於 Microsoft Lync Server 2013。</p></td>
+<td><p>Microsoft Lync Server 2013 中不會使用此欄。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityOptimal</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>此資料行不適用於 Microsoft Lync Server 2013。</p></td>
+<td><p>Microsoft Lync Server 2013 中不會使用此欄。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityAcceptable</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>此資料行不適用於 Microsoft Lync Server 2013。</p></td>
+<td><p>Microsoft Lync Server 2013 中不會使用此欄。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverageOptimal</strong></p></td>
 <td><p>float</p></td>
 <td></td>
 <td><p>應用程式共用中所含之兩個媒體端點間適用於相對單向延遲的最佳值。此為單一躍點延遲措施。預設值為 1.0 秒。</p>
-<p>Microsoft Lync Server 2013 中引進的欄。</p></td>
+<p>欄已引進 Microsoft Lync Server 2013。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayAverageAcceptable</strong></p></td>
 <td><p>float</p></td>
 <td></td>
 <td><p>應用程式共用中所含之兩個媒體端點間適用於相對單向延遲的最佳值。此為單一躍點延遲措施。預設值為 1.75 秒。</p>
-<p>Microsoft Lync Server 2013 中引進的欄。</p></td>
+<p>欄已引進 Microsoft Lync Server 2013。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyAverageOptimal</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>在檢視工作階段期間，AS 會議伺服器中平均 RDP 並排顯示處理延遲的最佳值。 延遲時的時間差異啟動圖文框編碼 （共享者或根據案例的 MCU） 的伺服器上與相同的啟動框架解碼檢視器上。</p>
+<td><p>在檢視工作階段期間，AS 會議伺服器中平均 RDP 並排顯示處理延遲的最佳值。 延遲是指當伺服器 (共用或 MCU 上的開始幀進行編碼時，取決於案例) 和在檢視器中解碼相同開始幀的時間差。</p>
 <p>高平均會反映檢視經驗中較長的延遲。負載過重的會議伺服器可能會發生較高的平均延遲。預設值為 200ms。</p>
-<p>Microsoft Lync Server 2013 中引進的欄。</p></td>
+<p>欄已引進 Microsoft Lync Server 2013。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyAverageAcceptable</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>在檢視工作階段期間，AS 會議伺服器中平均 RDP 並排顯示處理延遲的可接受值。 延遲時的時間差異啟動圖文框編碼 （共享者或根據案例的 MCU） 的伺服器上與相同的啟動框架解碼檢視器上。</p>
+<td><p>在檢視工作階段期間，AS 會議伺服器中平均 RDP 並排顯示處理延遲的可接受值。 延遲是指當伺服器 (共用或 MCU 上的開始幀進行編碼時，取決於案例) 和在檢視器中解碼相同開始幀的時間差。</p>
 <p>高平均會反映檢視經驗中較長的延遲。負載過重的會議伺服器可能會發生較高的平均延遲。預設值為 200ms。</p>
-<p>Microsoft Lync Server 2013 中引進的欄。</p></td>
+<p>欄已引進 Microsoft Lync Server 2013。</p></td>
 </tr>
 </tbody>
 </table>

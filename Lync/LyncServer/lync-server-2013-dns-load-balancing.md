@@ -12,20 +12,22 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47469a8b47273c077a96196b06b827ac13a0e336
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79c2bb8e5bbcb9d00fe687d6f06ac6226a2edf6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197436"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528920"
 ---
+# <a name="dns-load-balancing-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 負載平衡
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-load-balancing-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 負載平衡
+
 
 </div>
 
@@ -77,7 +79,7 @@ DNS 負載平衡只支援執行 Lync Server 2013 或 Lync Server 2010 的伺服�
 
   - 集區若要使用 DNS 負載平衡，必須要有兩個 FQDN：一個是供 DNS 負載平衡使用的一般集區 FQDN (如 pool01.contoso.com)，這會解析為集區中伺服器的實體 IP；另一個是集區的 Web 服務的 FQDN (如 web01.contoso.com)，這會解析為集區的虛擬 IP 位址。
     
-    在 [拓撲產生器] 中，如果您想要為集區部署 DNS 負載平衡，若要為集區的 Web 服務建立額外的 FQDN，您必須選取 [覆**寫內部 Web 服務集區 FQDN** ] 核取方塊，然後在 [**指定 Web 服務 URLs 中為此集**區] 頁面中輸入 FQDN。
+    在 [拓撲產生器] 中，如果您想要為集區部署 DNS 負載平衡，若要為集區的 Web 服務建立額外的 FQDN，您必須選取 [覆 **寫內部 Web 服務集區 FQDN** ] 核取方塊，然後在 [ **指定 Web 服務 URLs 中為此集** 區] 頁面中輸入 FQDN。
 
   - 若要支援 DNS 負載平衡所使用的 FQDN，您必須佈建 DNS，以將集區 FQDN (如 pool01.contoso.com) 解析為集區中所有伺服器的 IP 位址 (例如，192.168.1.1、192.168.1.2 等)。您應該只包含目前部署之伺服器的 IP 位址。
     
@@ -85,7 +87,7 @@ DNS 負載平衡只支援執行 Lync Server 2013 或 Lync Server 2010 的伺服�
     
 
     > [!WARNING]  
-    > 如果您有一個以上的前端集區或前端伺服器，則外部 Web 服務 FQDN 必須是唯一的。 例如，如果您將前端伺服器的外部 Web 服務 FQDN 定義為<STRONG>pool01.contoso.com</STRONG>，則無法將<STRONG>pool01.contoso.com</STRONG>用於另一個前端集區或前端伺服器。 如果您也要部署 Director，則為任何 Director 或 Director 集區定義的外部 Web 服務 FQDN，都必須與任何其他 Director 或 Director 集區以及任何前端集區或前端伺服器都是唯一的。 如果決定使用自行定義的 FQDN 來覆寫內部 web 服務，則每個 FQDN 必須與其他任何前端集區、Director 或 Director 集區是唯一的。
+    > 如果您有一個以上的前端集區或前端伺服器，則外部 Web 服務 FQDN 必須是唯一的。 例如，如果您將前端伺服器的外部 Web 服務 FQDN 定義為 <STRONG>pool01.contoso.com</STRONG>，則無法將 <STRONG>pool01.contoso.com</STRONG> 用於另一個前端集區或前端伺服器。 如果您也要部署 Director，則為任何 Director 或 Director 集區定義的外部 Web 服務 FQDN，都必須與任何其他 Director 或 Director 集區以及任何前端集區或前端伺服器都是唯一的。 如果決定使用自行定義的 FQDN 來覆寫內部 web 服務，則每個 FQDN 必須與其他任何前端集區、Director 或 Director 集區是唯一的。
 
     
     </div>
@@ -114,7 +116,7 @@ DNS 負載平衡只支援執行 Lync Server 2013 或 Lync Server 2010 的伺服�
     > <LI>
     > <P>Google 交談目前是唯一支援的 XMPP 合作夥伴。</P>
     > <LI>
-    > <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P></LI></UL>
+    > <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P></LI></UL>
 
     
     </div>

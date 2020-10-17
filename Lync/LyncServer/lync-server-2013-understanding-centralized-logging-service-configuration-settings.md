@@ -12,20 +12,22 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527750"
 ---
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>瞭解 Lync Server 2013 中的集中式記錄服務設定設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>瞭解 Lync Server 2013 中的集中式記錄服務設定設定
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "44221193"
 
 _**主題上次修改日期：** 2013-02-21_
 
-集中式記錄服務設定為定義記錄服務的預定目標、收集方式、收集位置及記錄設定的方式。 您可以為全域（即整個部署）或網站（亦即部署中已命名的網站）定義這些設定。 任何您定義的記錄都會依據您在進行開始、停止、清除及搜尋記錄命令時所使用的身分，而使用適當的設定。
+集中式記錄服務設定為定義記錄服務的預定目標、收集方式、收集位置及記錄設定的方式。 您可以將這些設定定義為全域 (，也就是針對整個部署) 或網站 (（也就是部署) 中已命名的網站）。 任何您定義的記錄都會依據您在進行開始、停止、清除及搜尋記錄命令時所使用的身分，而使用適當的設定。
 
 <div>
 
 ## <a name="to-display-the-current-centralized-logging-service-configuration"></a>顯示目前的集中式記錄服務設定
 
-1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  在命令列提示輸入下列命令：
     
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2013-02-21_
     
 
     > [!TIP]
-    > 您可以縮小或展開定義及範圍所傳回的設定設定範圍 <CODE>-Identity</CODE> ，例如 "Site:Redmond"，只傳回 Site Redmond 的 set-csclsconfiguration。 如果您想要有關設定之特定部分的詳細資料，您可以將輸出輸送到另一個 Windows PowerShell Cmdlet 中。 例如，若要取得網站 "Redmond" 設定中所定義案例的詳細資料，請輸入：<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > 您可以縮小或展開定義及範圍所傳回的設定設定範圍 <CODE>-Identity</CODE> ，例如 "Site:Redmond"，只傳回 Site Redmond 的 set-csclsconfiguration。 如果您想要有關設定之特定部分的詳細資料，您可以將輸出輸送到另一個 Windows PowerShell Cmdlet 中。 例如，若要取得網站 "Redmond" 設定中所定義案例的詳細資料，請輸入： <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>

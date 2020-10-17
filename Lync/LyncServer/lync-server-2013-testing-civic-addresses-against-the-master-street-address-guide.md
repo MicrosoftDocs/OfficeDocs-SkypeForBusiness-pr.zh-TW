@@ -12,20 +12,22 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe41a6bd898c6f23bc746f5922c98113339a5ee7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d03647df3752860c114a16967a3bea5271a89d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194186"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527810"
 ---
+# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>對照 Lync Server 2013 中的主要街道位址指南來測試市政位址
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>對照 Lync Server 2013 中的主要街道位址指南來測試市政位址
+
 
 </div>
 
@@ -84,7 +86,7 @@ Test-CsLisCivicAddress Cmdlet 可用來測試個別位址或測試多個位址�
 
     Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
 
-如需詳細資訊，請參閱[Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15)) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15)) Cmdlet 的說明文件。
 
 </div>
 
@@ -102,7 +104,7 @@ Test-CsLisCivicAddress 會傳回提供之位址的成功或失敗報告。 如�
 
 以下是一些 Test-CsLisCivicAddress 可能失敗的常見原因：
 
-  - .LIS 服務提供者可能無法使用。 您可以執行 Export-cslisconfiguration Cmdlet，以取得您的 .LIS 服務提供者的 URL：
+  - .LIS 服務提供者可能無法使用。 您可以執行 Get-CsLisConfiguration Cmdlet，以取得您的 .LIS 服務提供者的 URL：
     
         Get-CsLisConfiguration 
     

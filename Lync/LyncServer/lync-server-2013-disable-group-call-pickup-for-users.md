@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 停用使用者的群組來電接聽
+title: Lync Server 2013：停用使用者的群組呼叫收取
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 777ca1494738707014c2e121b56e8d01e87f4a3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5d30fc0dd317b9de1a5af76c5a3a10734f0877b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529020"
 ---
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>在 Lync Server 2013 中停用使用者的群組呼叫收取功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>為 Lync Server 2013 中的使用者停用群組來電接聽
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42197586"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-30_
+_**主題上次修改日期：** 2013-01-30_
 
-使用下列程序來停用使用者的群組來電接聽。
+請使用下列程式來停用使用者的群組呼叫收取。
 
 <div>
 
 
 > [!NOTE]  
-> 當您停用使用者的群組來電接聽時，不會保留已指派給使用者的通話收取群組編號。 如果您之後想要重新啟用使用者群組來電接聽，您必須呼叫收取群組號碼指派一次使用 /enablegrouppickup 參數。
+> 當您停用使用者的群組呼叫收取時，指派給使用者的呼叫收取群組號碼不會保留。 如果您後來想要為該使用者重新啟用群組呼叫收取，您必須使用/enablegrouppickup 參數再次指派呼叫收取群組號碼。
 
 
 
@@ -51,9 +53,9 @@ _**上次修改主題：** 2013年-01-30_
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a>若要停用使用者的群組來電接聽
+## <a name="to-disable-group-call-pickup-for-a-user"></a>停用使用者的群組呼叫收取
 
-1.  登入系統管理員權限安裝 SEFAUtil 工具所在的電腦。
+1.  使用系統管理員權力，登入安裝 SEFAUtil 工具的電腦。
 
 2.  在命令列中執行：
     
@@ -70,8 +72,8 @@ _**上次修改主題：** 2013年-01-30_
 ## <a name="see-also"></a>請參閱
 
 
-[Lync Server 2013 中的使用者指派群組通話收取號碼](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[為 Lync Server 2013 中的使用者啟用群組來電接聽](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[將群組呼叫收取號碼指派給 Lync Server 2013 中的使用者](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[在 Lync Server 2013 中為使用者啟用群組呼叫收取](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 用戶端與裝置軟體和基礎結構支援
+title: Lync Server 2013：用戶端和裝置軟體和基礎結構支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eec46250d138e6b97dfe6a12da9d57f43ca2458
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e599a7628cd24c59b34616f0c108d7a8c292b9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529360"
 ---
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的用戶端和裝置軟體和基礎結構支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的用戶端與裝置軟體和基礎結構支援
+
 
 </div>
 
@@ -35,33 +37,33 @@ ms.locfileid: "42197896"
 
 <span> </span>
 
-_**上次修改主題：** 2014 年 08 月 27 日_
+_**主題上次修改日期：** 2014-08-27_
 
-用戶端和 Lync Server 2013 部署的裝置的軟體支援包括支援的作業系統、 基礎結構軟體和其他支援用戶端及裝置功能所需的其他軟體。
+Lync Server 2013 部署之用戶端和裝置的軟體支援，包括支援的作業系統、基礎結構軟體，以及支援用戶端和裝置功能所需的其他其他軟體。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
   - <span></span>  
-    [Lync Server 2013 中的 Lync 用戶端軟體支援](lync-server-2013-lync-client-software-support.md)
+    [Lync Server 2013 中的 lync 用戶端軟體支援](lync-server-2013-lync-client-software-support.md)
 
   - <span></span>  
-    [支援的 Lync Server 2013 中公用即時訊息連線](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+    [Lync Server 2013 中的公用立即信使連線支援](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
   - <span></span>  
-    [在 Lync 使用者相片的顯示方式](how-user-photos-are-displayed-in-lync.md)
+    [Lync 中使用者相片的顯示方式](how-user-photos-are-displayed-in-lync.md)
 
 <div>
 
 
 > [!NOTE]  
-> Lync Phone Edition 的運作方式相同搭配 Lync Server 2013 與 Lync Server 2010 一樣。 如需對裝置的軟體支援的詳細資訊，請參閱 < Lync Server 2010 TechNet Library 中的下列主題： 
+> Lync Phone Edition 的運作方式與 lync server 2010 2013 相同。 如需裝置軟體支援的詳細資訊，請參閱 Lync Server 2010 TechNet 程式庫中的下列主題： 
 > <UL>
 > <LI>
-> <P>在裝置的必要的 Lync Server 2010 元件<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>裝置的必要 Lync Server 2010 元件 <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>裝置系統和基礎結構支援部門<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>裝置系統和基礎結構支援 <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

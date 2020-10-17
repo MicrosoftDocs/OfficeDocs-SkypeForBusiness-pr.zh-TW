@@ -12,20 +12,22 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a5ed5c138d1389f0a3d4882bcdd437b5e7919e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5ebbebde30d39a95879a766280d3f34a830683e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528650"
 ---
+# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>在 Lync Server 2013 中啟用或停用會議裝置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>在 Lync Server 2013 中啟用或停用會議裝置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190676"
 
 _**主題上次修改日期：** 2013-02-20_
 
-使用**Enable-CsMeetingRoom** Cmdlet 和**Disable-CsMeetingRoom** Cmdlet 來啟用及停用會議裝置。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話執行這些 Cmdlet。
+使用 **Enable-CsMeetingRoom** Cmdlet 和 **Disable-CsMeetingRoom** Cmdlet 來啟用及停用會議裝置。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話執行這些 Cmdlet。
 
 <div>
 
@@ -56,7 +58,7 @@ _**主題上次修改日期：** 2013-02-20_
 
 ## <a name="enabling-a-conferencing-device"></a>啟用會議裝置
 
-  - 若要啟用會議裝置，請使用**Enable-CsMeetingRoom** Cmdlet。 啟用會議裝置時，您必須加入) 會議裝置身分識別、b) 存放區帳戶所在的註冊區集區，以及 c) 指派給該帳戶的 SIP 位址。
+  - 若要啟用會議裝置，請使用 **Enable-CsMeetingRoom** Cmdlet。 啟用會議裝置時，您必須加入) 會議裝置身分識別、b) 存放區帳戶所在的註冊區集區，以及 c) 指派給該帳戶的 SIP 位址。
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -66,13 +68,13 @@ _**主題上次修改日期：** 2013-02-20_
 
 ## <a name="disabling-a-conferencing-device"></a>停用會議裝置
 
-  - 若要停用會議裝置，請使用**Disable-CsMeetingRoom** Cmdlet。 請確定您指定要停用的會議裝置身分識別：
+  - 若要停用會議裝置，請使用 **Disable-CsMeetingRoom** Cmdlet。 請確定您指定要停用的會議裝置身分識別：
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
 </div>
 
-如需詳細資訊，請參閱[Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 及[Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) Cmdlet 的說明主題。
+如需詳細資訊，請參閱 [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 及 [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) Cmdlet 的說明主題。
 
 </div>
 

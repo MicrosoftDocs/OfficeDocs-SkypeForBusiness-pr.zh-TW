@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: HardwareVersions 表格'
+title: Lync Server 2013： HardwareVersions 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185406
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1ec96c0983d22b83d8c5ede3f8ee726c083625b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a0e312d2f74409617c5173686f9b6acf0587f07
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214099"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528310"
 ---
+# <a name="hardwareversions-table-in-lync-server-2013"></a>Lync Server 2013 中的 HardwareVersions 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardwareversions-table-in-lync-server-2013"></a>Lync Server 2013 中的 HardwareVersions 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42214099"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-05-25_
+_**主題上次修改日期：** 2012-05-25_
 
-HardwareVersions 表格是一種支援資料表。 每一筆記錄會儲存一部裝置硬體版本的相關資訊。
+HardwareVersions 表格是支援的表格。 每個記錄儲存一個裝置硬體版本的相關資訊。
 
 
 <table>
@@ -51,7 +53,7 @@ HardwareVersions 表格是一種支援資料表。 每一筆記錄會儲存一�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -64,7 +66,7 @@ HardwareVersions 表格是一種支援資料表。 每一筆記錄會儲存一�
 </tr>
 <tr class="even">
 <td><p><strong>版本</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>Nvarchar (256) </p></td>
 <td><p> </p></td>
 <td><p>硬體版本。</p></td>
 </tr>

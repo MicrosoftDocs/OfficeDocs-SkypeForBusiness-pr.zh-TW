@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 啟用整合連絡人存放區的使用者
+title: Lync Server 2013：為使用者啟用整合連絡人存放區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f4bd8e47259f7480f32e0fa6047657464a459de
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35b4c060cfce4e45f4736abcbc0d4c9d02b1abc1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528550"
 ---
+# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>在 Lync Server 2013 中啟用整合連絡人存放區的使用者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>啟用使用者的 Lync Server 2013 中整合連絡人存放區
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42187796"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-07_
+_**主題上次修改日期：** 2012-10-07_
 
-當您部署 Lync Server 2013，並發行拓撲時，則整合連絡人存放區預設會啟用所有使用者。 您不需要採取任何其他的動作，來啟用整合連絡人存放區之後，您將部署 Lync Server 2013。 不過，您可以使用 **Set-CsUserServicesPolicy** Cmdlet 自訂哪些連絡人有整合連絡人存放區可用。 您可以全域、依網站、依承租人或依個人或個人群組啟用此功能。
+當您部署 Lync Server 2013 併發行拓撲時，預設會為所有使用者啟用整合連絡人存放區。 您不需要在部署 Lync Server 2013 之後採取任何其他動作來啟用整合連絡人存放區。 不過，您可以使用 **Set-CsUserServicesPolicy** Cmdlet 自訂哪些連絡人有整合連絡人存放區可用。 您可以全域、依網站、依承租人或依個人或個人群組啟用此功能。
 
 <div>
 
 ## <a name="to-enable-users-for-unified-contact-store"></a>啟用整合連絡人存放區的使用者
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  執行下列任一項作業：
     
-      - 若要啟用整合連絡人存放區全域所有 Lync Server 使用者，請在命令列中輸入：
+      - 若要為所有 Lync Server 使用者全域性啟用整合連絡人存放區，請在命令列中輸入：
         
             Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
     

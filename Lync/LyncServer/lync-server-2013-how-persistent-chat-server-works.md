@@ -12,20 +12,22 @@ ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a88bdad2a73022468297d73dd10bff0d26a3fee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d919d7c9d955355a45ebf3c05391204ca919a3fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214749"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528170"
 ---
+# <a name="how-persistent-chat-server-works-in-lync-server-2013"></a>在 Lync Server 2013 中，Persistent Chat Server 的運作方式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-persistent-chat-server-works-in-lync-server-2013"></a>在 Lync Server 2013 中，Persistent Chat Server 的運作方式
+
 
 </div>
 
@@ -107,7 +109,7 @@ Persistent Chat (通道) 服務會透過使用 Persistent 聊天存放區，儲�
 
   - 檔案**上傳/下載的持續性聊天 Web 服務**負責在聊天室中張貼及檢索檔案。
 
-  - **聊天室管理的持續性聊天 Web 服務**負責為使用者提供管理其聊天室的能力，以及建立新的聊天室。
+  - **聊天室管理的持續性聊天 Web 服務** 負責為使用者提供管理其聊天室的能力，以及建立新的聊天室。
 
 </div>
 
@@ -119,13 +121,13 @@ Persistent Chat (通道) 服務會透過使用 Persistent 聊天存放區，儲�
 
 Persistent Chat Server 是 Lync Server 2013 基礎結構中的選用伺服器角色。 如果您安裝 Persistent Chat Server role，系統管理員已透過原則啟用的任何使用者，都可以搭配 Lync 2013 用戶端使用持續性聊天。
 
-如需如何部署 Persistent Chat Server 及如何讓使用者透過原則使用功能的詳細資訊，請參閱[在 Lync server 2013 中部署 Persistent Chat Server](lync-server-2013-deploying-persistent-chat-server.md)。
+如需如何部署 Persistent Chat Server 及如何讓使用者透過原則使用功能的詳細資訊，請參閱 [在 Lync server 2013 中部署 Persistent Chat Server](lync-server-2013-deploying-persistent-chat-server.md)。
 
-如需如何設定持久聊天伺服器部署設定的詳細資訊，請參閱[部署 Persistent Chat server In Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md)和[管理 Lync Server 2013，Persistent chat server](managing-lync-server-2013-persistent-chat-server.md)。
+如需如何設定持久聊天伺服器部署設定的詳細資訊，請參閱 [部署 Persistent Chat server In Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) 和 [管理 Lync Server 2013，Persistent chat server](managing-lync-server-2013-persistent-chat-server.md)。
 
-如需如何依據原則啟用使用者以在 Lync 2013 用戶端上利用持續性聊天功能的詳細資訊，請參閱[部署 Persistent Chat server In Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md)和[管理 Lync Server 2013，Persistent chat server](managing-lync-server-2013-persistent-chat-server.md)。
+如需如何依據原則啟用使用者以在 Lync 2013 用戶端上利用持續性聊天功能的詳細資訊，請參閱 [部署 Persistent Chat server In Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) 和 [管理 Lync Server 2013，Persistent chat server](managing-lync-server-2013-persistent-chat-server.md)。
 
-如果您已部署持續性聊天相容性，請參閱[管理 Lync server 2013 和 Persistent Chat server](managing-lync-server-2013-persistent-chat-server.md) ，以取得如何設定規范設定的詳細資訊。
+如果您已部署持續性聊天相容性，請參閱 [管理 Lync server 2013 和 Persistent Chat server](managing-lync-server-2013-persistent-chat-server.md) ，以取得如何設定規范設定的詳細資訊。
 
 </div>
 
@@ -149,13 +151,13 @@ Persistent Chat 用戶端會使用 XCCOS 與 Persistent Chat service 進行通�
 
 2.  Persistent Chat 用戶端會將 SIP 邀請郵件傳送至在上一個步驟中取得之 Persistent Chat Server 的 SIP URI。 邀請順序後面接著是 200 OK 和 ACK，而且 Persistent Chat 用戶端現在已開啟具有 Persistent Chat Server 端點的 SIP 會話。 因此，Persistent Chat 用戶端會傳送 SIP 資訊郵件（包含聊天訊息或命令要求伺服器以採取動作），以與 Persistent 聊天伺服器進行通訊。 所有這些訊息都會以 200 OK 或「503 服務無法使用」(亦即在伺服器負載過重的情況下) 進行認可。 如果用戶端收到 503 回應，會重試訊息。  (本範例不包含503回應。 ) 如果伺服器接受郵件或命令，並傳送200，則該範例會以個別 SIP 資訊郵件的形式來提供對用戶端的回應。 該回應會包含對原始命令的參考。
 
-3.  Persistent Chat client 會傳送包含 XCCOS **getserverinfo**命令的 SIP 資訊訊息。 Persistent Chat Server 會使用包含 Persistent Chat service 設定相關資訊的新 SIP 資訊郵件進行回復。
+3.  Persistent Chat client 會傳送包含 XCCOS **getserverinfo** 命令的 SIP 資訊訊息。 Persistent Chat Server 會使用包含 Persistent Chat service 設定相關資訊的新 SIP 資訊郵件進行回復。
 
-4.  Persistent Chat client 會傳送包含 XCCOS **getassociations**命令的 SIP 資訊訊息。 Persistent Chat Server 會以新的 SIP 資訊訊息（包含使用者所屬聊天室的清單）進行回復。 Persistent Chat 用戶端會重複執行此命令，以取得使用者為主管的聊天室清單。
+4.  Persistent Chat client 會傳送包含 XCCOS **getassociations** 命令的 SIP 資訊訊息。 Persistent Chat Server 會以新的 SIP 資訊訊息（包含使用者所屬聊天室的清單）進行回復。 Persistent Chat 用戶端會重複執行此命令，以取得使用者為主管的聊天室清單。
 
-5.  Persistent Chat 用戶端會從「目前狀態」檔取得關注的會議室清單，其中每個後續的會議室都會以 "roomSetting" 類別來表示。 所有追蹤聊天室會聯結包含 XCCOS **bjoin** 命令的單一 SIP INFO 訊息，命令中又包含聊天室 URI 的清單。 因為追蹤聊天室的清單保存在伺服器上，在任何電腦上的任何用戶端對於指定的使用者 URI 都有同樣的追蹤聊天室清單。 如果使用者在本機電腦登錄中) 啟用此選項，則持續聊天用戶端也會保留已開啟的 (會議室清單，然後在登入時，傳送包含每個開啟聊天室之 XCCOS **join**命令的 SIP 資訊訊息，以加入這些會議室。 因為此清單保留在登錄中，所以在不同電腦上執行的兩個 Persistent 聊天用戶端上可能會有不同的狀態。
+5.  Persistent Chat 用戶端會從「目前狀態」檔取得關注的會議室清單，其中每個後續的會議室都會以 "roomSetting" 類別來表示。 所有追蹤聊天室會聯結包含 XCCOS **bjoin** 命令的單一 SIP INFO 訊息，命令中又包含聊天室 URI 的清單。 因為追蹤聊天室的清單保存在伺服器上，在任何電腦上的任何用戶端對於指定的使用者 URI 都有同樣的追蹤聊天室清單。 如果使用者在本機電腦登錄中) 啟用此選項，則持續聊天用戶端也會保留已開啟的 (會議室清單，然後在登入時，傳送包含每個開啟聊天室之 XCCOS **join** 命令的 SIP 資訊訊息，以加入這些會議室。 因為此清單保留在登錄中，所以在不同電腦上執行的兩個 Persistent 聊天用戶端上可能會有不同的狀態。
 
-6.  在每個加入的會議室中，Persistent Chat 用戶端會傳送包含 XCCOS **bccoNtext**命令的 SIP 資訊訊息。 Persistent Chat Server 會以新的 SIP 資訊訊息回復，該訊息包含會議室中的最近聊天訊息。
+6.  在每個加入的會議室中，Persistent Chat 用戶端會傳送包含 XCCOS **bccoNtext** 命令的 SIP 資訊訊息。 Persistent Chat Server 會以新的 SIP 資訊訊息回復，該訊息包含會議室中的最近聊天訊息。
 
 7.  Persistent Chat client 會傳送包含 XCCOS **getinv** (的 SIP 資訊郵件，也就是取得「邀請) 」命令，以要求用戶端尚未看到任何新的會議室邀請。 在個別的 SIP 資訊訊息中，Persistent Chat Server 會傳回這些聊天室的清單。
 
@@ -171,15 +173,15 @@ Persistent Chat 用戶端會使用 XCCOS 與 Persistent Chat service 進行通�
 
 ![會議室訂閱和郵件發表後案例。](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "會議室訂閱和郵件發表後案例。")
 
-1.  在 [Persistent Chat] 用戶端中，User1 按一下 [**加入聊天室**]，按一下 [**搜尋**]，然後輸入某些搜尋準則。 Persistent Chat client 會傳送包含 XCCOS)  (**chansrch**的 SIP 資訊郵件，以及搜尋準則。 Persistent Chat Server 會查詢後端資料庫，並在新的 SIP 資訊訊息中回復，其中包含符合搜尋準則的可用會議室清單。
+1.  在 [Persistent Chat] 用戶端中，User1 按一下 [ **加入聊天室**]，按一下 [ **搜尋**]，然後輸入某些搜尋準則。 Persistent Chat client 會傳送包含 XCCOS)  (**chansrch** 的 SIP 資訊郵件，以及搜尋準則。 Persistent Chat Server 會查詢後端資料庫，並在新的 SIP 資訊訊息中回復，其中包含符合搜尋準則的可用會議室清單。
 
-2.  使用者 1 選取要加入的聊天室，然後按一下 **[追蹤此聊天室]**。 Persistent Chat client 會傳送 Persistent Chat Server 包含 XCCOS **join**命令的 SIP 資訊訊息，以及使用者選取之聊天室的會議室識別碼。 Persistent Chat Server 會回復包含布建資料的 SIP 資訊訊息。
+2.  使用者 1 選取要加入的聊天室，然後按一下 **[追蹤此聊天室]**。 Persistent Chat client 會傳送 Persistent Chat Server 包含 XCCOS **join** 命令的 SIP 資訊訊息，以及使用者選取之聊天室的會議室識別碼。 Persistent Chat Server 會回復包含布建資料的 SIP 資訊訊息。
 
 3.  Persistent Chat client 會傳送 Persistent Chat Server 包含 XCCOS **bccoNtext** (backchat coNtext) 命令的 SIP 資訊訊息。 Persistent Chat Server 會檢索聊天記錄，並將它以個別 SIP 資訊訊息傳回給 Persistent Chat 用戶端。 此時，使用者進入聊天室，準備就緒參與。
 
-4.  使用者 1 輸入新訊息，然後按一下 **[傳送]**。 Persistent Chat 用戶端會將郵件傳送至 SIP INFO XCCOS **grpchat**命令中的聊天室。 Persistent Chat Server 會在 Persistent Chat 後端資料庫中儲存這封新郵件的複本。
+4.  使用者 1 輸入新訊息，然後按一下 **[傳送]**。 Persistent Chat 用戶端會將郵件傳送至 SIP INFO XCCOS **grpchat** 命令中的聊天室。 Persistent Chat Server 會在 Persistent Chat 後端資料庫中儲存這封新郵件的複本。
 
-5.  Persistent Chat Server 會傳送個別的 SIP 資訊 XCCOS **grpchat**郵件複本給使用者，他已經輸入聊天室。
+5.  Persistent Chat Server 會傳送個別的 SIP 資訊 XCCOS **grpchat** 郵件複本給使用者，他已經輸入聊天室。
 
 </div>
 

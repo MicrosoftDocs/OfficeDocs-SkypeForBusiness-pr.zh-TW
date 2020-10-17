@@ -12,20 +12,22 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9cac7c88b2c3d9d6bd356a5340a5d4bb746e65a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43e26e54d0704ed009af1ef528e60979b759eb69
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528580"
 ---
+# <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中啟用 Lync-Skype 連線能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中啟用 Lync-Skype 連線能力
+
 
 </div>
 

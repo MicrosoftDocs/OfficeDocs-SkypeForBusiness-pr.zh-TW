@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Direct SIP 部署選項'
+title: Lync Server 2013：直接 SIP 部署選項
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529110"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的直接 SIP 部署選項
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的直接 SIP 部署選項
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42197606"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
-本主題提供範例拓樸部署的直接 SIP 連線。
+本主題提供部署直接 SIP 連線的範例拓撲。
 
 <div id="sectionSection0" class="section">
 
@@ -45,33 +47,33 @@ _**主題上次修改日期：** 2012年-09-21_
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Lync Server 獨立
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
-如果您的組織會使用其中一個這一節所述的部署，您可以使用唯一的電話語音解決方案 Lync Server 2013 的部分或全部的組織。 本節說明在詳細資料中的下列部署：
+如果您的組織使用本節所述的其中一個部署，您可以使用 Lync Server 2013 作為部分或所有組織的唯一電話語音解決方案。 本節詳細說明下列部署：
 
-  - **漸進式部署：** 此選項假設您有現有的專用交換機 (pbx) 基礎結構，且您想要以較小的群組或組織內的團隊逐漸引進 Enterprise Voice。
+  - **漸進式部署：** 此選項假設您有現有的私人分公司 exchange (PBX) 基礎結構，而您想要將 Enterprise Voice 逐步引入組織中較小的群組或小組。
 
-  - **Lync Server 僅限 VoIP 部署：** 此選項假設您考慮部署 Enterprise Voice 在沒有傳統電話語音基礎結構的網站。
+  - **Lync Server 僅限 VoIP 部署：** 此選項假設您考慮在沒有傳統電話語音基礎結構的網站上部署 Enterprise Voice。
 
 <div>
 
 ## <a name="incremental-deployment"></a>漸進式部署
 
-在漸進式部署 Lync Server 2013 是唯一的電話語音解決方案的個別小組或部門，同時的其餘部分組織中的使用者繼續使用 PBX。 這個漸進式部署策略提供 IP 電話語音引入受控制的試驗程式透過企業的一種方法。 其通訊需求最佳由 Microsoft 整合通訊的工作群組移至 Enterprise Voice 時保持在現有的 PBX 上的其他使用者。 視需要額外的工作群組可移轉至 Enterprise Voice。
+在漸進式部署中，Lync Server 2013 是個別小組或部門的唯一電話語音解決方案，而組織中的其他使用者仍會繼續使用 PBX。 這項增量部署策略提供一種方法，透過控制的試驗計畫，將 IP 電話語音引入您的企業。 Microsoft 整合通訊最適合使用其通訊的工作組會移至 Enterprise Voice，其他使用者仍會保留在現有的 PBX 上。 其他的工作組可以視需要遷移至 Enterprise Voice。
 
-[增量] 選項如果，建議您清楚地定義使用者群組，已在通用和，通訊需求擔任集中管理。 此選項也是如果您有小組或部門的改變會展現透過寬的地理區域，可大幅節省的長途電話有效的。 事實上，這個選項適合用來建立其成員可能可能分佈在全球的虛擬小組。 您可以建立、 修改或 disband 這類 teams 快速回應移位業務需求。
+如果您明確定義的使用者群組具有共同的通訊需求，且其本身適用于集中式管理，則建議使用 [累加] 選項。 如果您擁有遍佈地理區域的團隊或部門，而且在長途計費中的節約成本可能很大，此選項也會有效。 實際上，此選項對於建立其成員可能分散在全球的虛擬小組非常有用。 您可以建立、修改或 disband 這類團隊，以快速回應轉向的業務需求。
 
-下圖顯示部署企業語音 PBX 後方的一般拓撲。 這是漸進式部署的建議的拓撲。
+下圖顯示在 PBX 背後部署 Enterprise Voice 的一般拓撲。 這是增量部署的建議拓撲。
 
 **漸進式部署選項**
 
-![部門的移轉選項圖表](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "部門的移轉選項圖表")
+![部門遷移選項圖表](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "部門遷移選項圖表")
 
 <div>
 
 
 > [!NOTE]  
-> 如果您連線您的 Lync Server 部署到認證的直接 SIP 合作夥伴，就不需要中繼伺服器和 PBX 間的公用交換的電話網路 (PSTN) 閘道。 認證直接 SIP 協力廠商的清單，請參閱 Microsoft Unified Communications Open Interoperability Program 網站， <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>。
+> 如果您要將 Lync Server 部署連接至認可的 Direct SIP 夥伴，則不需要在轉送伺服器和 PBX 之間 (PSTN) 閘道。 如需認證直接 SIP 合作夥伴的清單，請參閱 Microsoft 整合通訊開啟互通性計畫網站，網址為 <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> 。
 
 
 
@@ -81,31 +83,31 @@ _**主題上次修改日期：** 2012年-09-21_
 
 
 > [!NOTE]  
-> 此圖所示的媒體路徑有媒體旁路啟用 （建議的組態）。 如果您選擇停用媒體旁路，媒體路徑會透過中繼伺服器路由傳送。
+> 在此圖中所示的媒體路徑已啟用媒體旁路 (建議的設定) 。 如果您選用停用媒體旁路，媒體路徑會透過轉送伺服器進行路由傳送。
 
 
 
 </div>
 
-在此拓撲中，選取的部門或工作群組已啟用 Enterprise Voice。 PSTN 閘道連結 Voice over Internet Protocol (VoIP)-啟用工作群組]，將 PBX。 已啟用 Enterprise voice，包括遠端工作者，使用者透過 IP 網路通訊。 Enterprise Voice 使用者的來電至 PSTN 和同事未啟用 Enterprise voice 會路由到適當的 PSTN 閘道。 通話仍在 PBX 系統、 同事或來自 pstn，來電者會路由傳送至 PSTN 閘道，會進行路由轉送至 Lync 伺服器的呼叫。
+在此拓撲中，會為企業語音啟用選取的部門或工作組。 PSTN 閘道會將 Voice over Internet Protocol (VoIP 已啟用) 的 workgroup 連結至 PBX。 已啟用 Enterprise Voice （包括遠端工作者）的使用者在 IP 網路之間進行通訊。 由 Enterprise Voice 使用者對 PSTN 及未啟用 Enterprise Voice 的同事進行呼叫會路由傳送至適當的 PSTN 閘道。 來自位於 PBX 系統或 PSTN 之來電者的同事的來電會路由傳送至 PSTN 閘道，而該閘道會將通話轉送至 Lync 伺服器進行路由傳送。
 
-有兩種建議的設定，以連線至現有的 PBX 基礎結構的互通性的企業語音： Enterprise Voice 在 PBX 前方的 Enterprise Voice 與 PBX 後方。
+有兩個建議設定，可將 Enterprise Voice 連接至現有的 PBX 基礎結構，以進行互通性：在 PBX 前端和 Enterprise Voice 之後的 Enterprise voice。
 
 <div>
 
-## <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice 在 PBX 後方
+## <a name="enterprise-voice-behind-the-pbx"></a>PBX 背後的 Enterprise Voice
 
-Enterprise Voice 在 PBX 後方部署時，所有來自 PSTN 的通話都會送達 PBX，將企業語音使用者的通話路由傳送至 PSTN 閘道，並呼叫將 PBX 使用者至 PBX。
+當 Enterprise Voice 部署在 PBX 背後時，所有來自 PSTN 的呼叫都會到達 PBX，這會將呼叫傳送至 Enterprise Voice 使用者到 PSTN 閘道，並呼叫 PBX 使用者至 PBX。
 
 </div>
 
 <div>
 
-## <a name="enterprise-voice-in-front-of-the-pbx"></a>Enterprise Voice 在 PBX 前方
+## <a name="enterprise-voice-in-front-of-the-pbx"></a>PBX 前端的 Enterprise Voice
 
-Enterprise Voice 在 PBX 前方部署時，所有通話都會都送達 PSTN 閘道，哪些路由呼叫 Enterprise Voice 使用者 Lync 伺服器和 PBX 的 PBX 使用者的呼叫。 透過 IP 網路的成本最有效率的 PSTN 閘道路由傳送至 PSTN 的企業語音與 PBX 使用者的來電。 下表顯示這個設定的優缺點。
+當 Enterprise Voice 部署在 PBX 的前方時，所有呼叫都會到達 PSTN 閘道，這會將 Enterprise Voice 使用者的通話路由傳送至 Lync Server，並將 PBX 使用者叫用至 PBX。 從 Enterprise Voice 和 PBX 使用者呼叫 PSTN 會透過 IP 網路路由傳送至最具成本效益的 PSTN 閘道。 下表顯示此設定的優點和缺點。
 
-### <a name="advantages-and-disadvantages-of-deploying-enterprise-voice-in-front-of-pbx"></a>部署 Enterprise Voice 在 PBX 前方的優點和缺點
+### <a name="advantages-and-disadvantages-of-deploying-enterprise-voice-in-front-of-pbx"></a>在 PBX 前面部署企業語音的優缺點
 
 <table>
 <colgroup>
@@ -120,15 +122,15 @@ Enterprise Voice 在 PBX 前方部署時，所有通話都會都送達 PSTN 閘�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PBX 仍然會服務未啟用 Enterprise Voice 的使用者。</p></td>
-<td><p>現有的閘道可能不支援的功能或您想要的容量。</p></td>
+<td><p>PBX 仍可為未啟用 Enterprise Voice 的使用者提供服務。</p></td>
+<td><p>現有的閘道可能不支援您想要的功能或容量。</p></td>
 </tr>
 <tr class="even">
-<td><p>PBX 可處理所有舊版的裝置。</p></td>
-<td><p>需要閘道與 PBX 從和到中繼伺服器閘道在主幹。 您可能需要從服務提供者的多個主幹。</p></td>
+<td><p>PBX 處理所有舊版裝置。</p></td>
+<td><p>需要從閘道到 PBX 的主幹，以及從閘道到轉送伺服器。 您可能需要從服務提供者獲得更多主幹。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Enterprise Voice 使用者可保留相同的電話號碼。</p></td>
+<td><p>Enterprise Voice 使用者保留相同的電話號碼。</p></td>
 <td><p> </p></td>
 </tr>
 </tbody>
@@ -141,23 +143,23 @@ Enterprise Voice 在 PBX 前方部署時，所有通話都會都送達 PSTN 閘�
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Lync Server 僅限 VoIP 部署
+## <a name="lync-server-voip-only-deployment"></a>Lync Server VoIP-Only 部署
 
-Enterprise Voice 提供新的企業，以及新的 office 網站的現有的公司，而不必擔心 PBX 整合或產生大量的部署及維護實作的功能完整的 VoIP 解決方案IP PBX 基礎結構成本。 此解決方案支援同時對現場與遠端工作者。
+Enterprise Voice 可提供新的企業，以及現有公司的新 office 網站，並有機會實施功能齊全的 VoIP 解決方案，而不需要擔心 PBX 整合或產生 IP-PBX 基礎結構的實際部署及維護成本。 此解決方案同時支援現場和遠端工作者。
 
-在此部署中，所有的來電會透過 IP 網路路由傳送。 PSTN 來電會路由到適當的 PSTN 閘道。 Lync 2013 或 Lync Phone Edition 做為 softphone。 遠端呼叫控制是無法使用，並且不必要的因為有使用者控制項沒有 PBX 電話。 語音信箱和自動語音應答服務可透過指定部署的 Exchange 整合通訊 (UM)。
+在此部署中，所有呼叫都會透過 IP 網路路由傳送。 PSTN 的來電會路由傳送至適當的 PSTN 閘道。 Lync 2013 或 Lync Phone Edition 是做為 softphone 的服務。 因為沒有 PBX 電話供使用者控制，所以遠端呼叫控制無法使用且不需要。 語音信箱和自動語音應答服務可透過選用 Exchange 整合通訊 (UM) 進行部署。
 
 <div>
 
 
 > [!NOTE]  
-> 除了支援 Lync Server 2013 所需的網路基礎結構，僅限 VoIP 部署可以使用小型的合格閘道來支援傳真機和類比裝置。
+> 除了支援 Lync Server 2013 所需的網路結構之外，僅 VoIP 部署也可以使用小型的合格閘道來支援傳真機器和類比裝置。
 
 
 
 </div>
 
-下圖顯示在僅限 VoIP 部署的一般拓撲。
+下圖顯示僅限 VoIP 部署的一般拓撲。
 
 **僅限 VoIP 部署選項**
 
@@ -167,7 +169,7 @@ Enterprise Voice 提供新的企業，以及新的 office 網站的現有的公�
 
 
 > [!NOTE]  
-> 此圖所示的媒體路徑有媒體旁路啟用 （建議的組態）。 如果您選擇停用媒體旁路，媒體路徑會透過中繼伺服器路由傳送。
+> 在此圖中所示的媒體路徑已啟用媒體旁路 (建議的設定) 。 如果您選用停用媒體旁路，媒體路徑會透過轉送伺服器進行路由傳送。
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 樹系準備所進行的變更
+title: Lync Server 2013：樹系準備所進行的變更
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b0429eabd9a02a08918e5590043bbad9faca83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529470"
 ---
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013 中的樹系準備所進行的變更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013 中的樹系準備所進行的變更
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42191556"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-30_
+_**主題上次修改日期：** 2012-10-30_
 
 本節將說明樹系準備步驟所建立的全域設定與物件，以及萬用服務和管理群組。
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012年-10-30_
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 全域設定和物件
 
-如果您設定儲存在全域設定容器中 （在此情況下的所有新的 Lync Server 2013 部署）、 樹系準備使用現有的 [服務] 容器，並將 [設定] 下的**RTC 服務**物件新增\\服務物件。 在 RTC 服務物件下，樹系準備會新增 msRTCSIP-GlobalContainer 類型的**Global Settings**物件。 Global settings 物件包含所有套用至 Lync Server 部署的設定。 如果您在將系統容器中儲存全域設定，樹系準備會使用的根網域系統容器下的 Microsoft 容器和下系統 RTC 服務物件\\Microsoft 物件。
+如果您將全域設定儲存在設定容器中 () 所有新的 Lync Server 2013 部署的案例，樹系準備會使用現有的服務容器，並在設定服務物件底下新增 **RTC 服務** 物件 \\ 。 在 RTC 服務物件下，樹系準備會新增 msRTCSIP-GlobalContainer 類型的**Global Settings**物件。 全域設定物件會包含套用至 Lync Server 部署的所有設定。 如果您在系統容器中儲存全域設定，樹系準備會使用根網域系統容器底下的 Microsoft 容器，以及系統 Microsoft 物件底下的 RTC 服務物件 \\ 。
 
 樹系準備也會針對執行程序的根網域，新增 **msRTCSIP-Domain** 物件。
 
@@ -57,11 +59,11 @@ _**主題上次修改日期：** 2012年-10-30_
 
 萬用群組允許管理員存取以及管理全域設定和服務。樹系準備會新增下列類型的萬用群組：
 
-  - **系統管理群組**   這些群組會定義 Lync Server 網路的系統管理員角色。
+  - 系統**管理群組**    這些群組會定義 Lync Server 網路的系統管理員角色。
 
-  - **基礎結構群組**   這些群組提供存取特定區域的 Lync Server 基礎結構權限。 它們可做為系統管理群組元件的功能來運作。 您不應該修改這些群組或將使用者直接新增至這些群組中。
+  - **基礎結構群組**    這些群組提供訪問 Lync Server 基礎結構特定區域的許可權。 它們可做為系統管理群組元件的功能來運作。 您不應該修改這些群組或將使用者直接新增至這些群組中。
 
-  - **服務群組**   這些群組是存取各種 Lync Server 服務所需的服務帳戶。
+  - **服務群組**    這些群組是存取各種 Lync Server 服務所需的服務帳戶。
 
 下表說明系統管理群組。
 
@@ -75,7 +77,7 @@ _**主題上次修改日期：** 2012年-10-30_
 <thead>
 <tr class="header">
 <th>系統管理群組</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -107,29 +109,29 @@ _**主題上次修改日期：** 2012年-10-30_
 <thead>
 <tr class="header">
 <th>基礎結構群組</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalGlobalWriteGroup</p></td>
-<td><p>會以全域設定物件的寫入權限授與 Lync server。</p></td>
+<td><p>授與 Lync Server 之全域設定物件的寫入權限。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalGlobalReadOnlyGroup</p></td>
-<td><p>針對 Lync Server，授與全域設定物件的唯讀存取。</p></td>
+<td><p>授與 Lync Server 之全域設定物件的唯讀存取權。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>唯讀權限授與 Lync Server 使用者設定。</p></td>
+<td><p>授與 Lync Server 使用者設定的唯讀許可權。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>唯讀權限授與 Lync 伺服器設定。 這個群組沒有集區層級設定的存取權，只能存取個別伺服器特有的設定。</p></td>
+<td><p>授與 Lync Server 設定的唯讀許可權。 這個群組沒有集區層級設定的存取權，只能存取個別伺服器特有的設定。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalSBATechnicians</p></td>
-<td><p>授與 Lync Server 設定的唯讀存取，且會放在 survivable branch appliance 的 Local Administrators 群組，在安裝期間。</p></td>
+<td><p>授與 Lync Server 設定的唯讀許可權，並將其放置在安裝期間 survivable 分支裝置的本機系統管理員群組中。</p></td>
 </tr>
 </tbody>
 </table>
@@ -147,29 +149,29 @@ _**主題上次修改日期：** 2012年-10-30_
 <thead>
 <tr class="header">
 <th>服務群組</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>包含用來執行前端伺服器和 Standard Edition server 的服務帳戶。 此群組可讓伺服器讀取/寫入存取 Lync Server 通用設定和 Active Directory 使用者物件。</p></td>
+<td><p>包含用於執行前端伺服器和 Standard Edition 伺服器的服務帳戶。 此群組可讓伺服器讀取/寫入 Lync Server 全域設定和 Active Directory 使用者物件的存取權。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCComponentUniversalServices</p></td>
-<td><p>包含服務帳戶用於執行 A / V 會議伺服器、 Web 服務、 中繼伺服器、 封存伺服器及監控伺服器。</p></td>
+<td><p>包括用來執行 A/V 會議伺服器、Web 服務、轉送伺服器、封存伺服器及監控伺服器的服務帳戶。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCProxyUniversalServices</p></td>
-<td><p>包含用來執行 Lync Server Edge Server 的服務帳戶。</p></td>
+<td><p>包括用來執行 Lync Server Edge server 的服務帳戶。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalConfigReplicator</p></td>
-<td><p>在 [Lync Server 中央管理存放區複寫包括可參與的伺服器。</p></td>
+<td><p>包括可參與 Lync Server 中央管理存放區複寫的伺服器。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCSBAUniversalServices</p></td>
-<td><p>唯讀權限授與 Lync Server 的設定，但可容許設定 survivable branch 伺服器和 survivable branch appliance 部署的安裝。</p></td>
+<td><p>授與 Lync Server 設定的唯讀存取權，但允許設定 survivable branch server 和 survivable branch 裝置部署的安裝。</p></td>
 </tr>
 </tbody>
 </table>
@@ -207,9 +209,9 @@ _**主題上次修改日期：** 2012年-10-30_
 
   - CsResponseGroupManager
 
-如需 RBAC 角色以及允許每個工作的詳細資訊，請參閱規劃文件中的[Planning for Lync Server 2013 中角色型存取控制](lync-server-2013-planning-for-role-based-access-control.md)。
+如需有關 RBAC 角色和每個角色所允許之工作的詳細資訊，請參閱規劃檔中的 [規劃 Lync Server 2013 中的角色型存取控制](lync-server-2013-planning-for-role-based-access-control.md) 。
 
-樹系準備會同時建立私人與公用 ACE。 使用 Lync Server 的全域設定容器上建立私人的 Ace。 此容器會使用只能透過 Lync Server，而且是位在 [Configuration] 容器或根網域中，根據您用來儲存全域設定中的系統容器中。 樹系準備所建立的公用 ACE 列於下表。
+樹系準備會同時建立私人與公用 ACE。 它會在 Lync Server 所使用的全域設定容器上建立專用 Ace。 這個容器只會由 Lync Server 使用，而且可以位於設定容器或根域的系統容器中，視您儲存全域設定的位置而定。 樹系準備所建立的公用 ACE 列於下表。
 
 ### <a name="public-aces-created-by-forest-preparation"></a>樹系準備建立的公用 ACE。
 
@@ -220,7 +222,7 @@ _**主題上次修改日期：** 2012年-10-30_
 </colgroup>
 <thead>
 <tr class="header">
-<th>ACE</th>
+<th>Ace</th>
 <th>RTCUniversalGlobalReadOnlyGroup</th>
 </tr>
 </thead>
@@ -241,7 +243,7 @@ _**主題上次修改日期：** 2012年-10-30_
 
 
 > [!NOTE]  
-> <STRONG>*</STRONG>非繼承的 Ace 不會授與這些容器下的子物件的存取權。 繼承而來的 Ace 授與這些容器下的子物件的存取權。
+> <STRONG>*</STRONG>未繼承的 Ace 不會將存取權授與這些容器底下的子物件。 繼承的 Ace 會將存取權授與這些容器底下的子物件。
 
 
 

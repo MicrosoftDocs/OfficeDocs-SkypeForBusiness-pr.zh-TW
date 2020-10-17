@@ -12,20 +12,22 @@ ms:contentKeyID: 51541520
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fca0097f6ad0264755dd9d0a80a296e9ebf60b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0340e1226d3fb7abc475769892f0cd675c838c89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214739"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528160"
 ---
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的混合式和分割網域自動探索
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的混合式和分割網域自動探索
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214739"
 
 _**主題上次修改日期：** 2013-02-14_
 
-共用 SIP 位址空間（也稱為*分割網域*部署或*混合*式部署）是一種設定，可讓使用者在內部部署部署和線上環境中部署。 想要的結果是讓使用者不論其主伺服器位於何處 (內部部署或線上) ，登入部署並重新導向至其主伺服器位置。 為了達到此目的，Lync Server 2013 的自動探索功能是用來將線上使用者重新導向至線上拓撲。 您可以使用 Lync Server 管理命令介面、 **Get-CsHostingProvider** Cmdlet 和 get-cshostingprovider 指令程式，**設定**自動探索統一資源定位器 (URL) 。
+共用 SIP 位址空間（也稱為 *分割網域* 部署或 *混合* 式部署）是一種設定，可讓使用者在內部部署部署和線上環境中部署。 想要的結果是讓使用者不論其主伺服器位於何處 (內部部署或線上) ，登入部署並重新導向至其主伺服器位置。 為了達到此目的，Lync Server 2013 的自動探索功能是用來將線上使用者重新導向至線上拓撲。 您可以使用 Lync Server 管理命令介面、 **Get-CsHostingProvider** Cmdlet 和 get-cshostingprovider 指令程式， **設定** 自動探索統一資源定位器 (URL) 。
 
 <div>
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2013-02-14_
 
   - 如果您會定義封鎖和允許的網域，請決定您要明確允許或明確封鎖的網域。
 
-  - 若要使用線上同盟，您必須規劃防火牆例外狀況、憑證和 DNS 主機 (A 或 AAAA （如果使用 IPv6) 記錄）。 此外，您必須設定同盟原則。 如需詳細資訊，請參閱[規劃 Lync Server 2013 和 Office 通訊伺服器同盟](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)。
+  - 若要使用線上同盟，您必須規劃防火牆例外狀況、憑證和 DNS 主機 (A 或 AAAA （如果使用 IPv6) 記錄）。 此外，您必須設定同盟原則。 如需詳細資訊，請參閱 [規劃 Lync Server 2013 和 Office 通訊伺服器同盟](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)。
 
 </div>
 

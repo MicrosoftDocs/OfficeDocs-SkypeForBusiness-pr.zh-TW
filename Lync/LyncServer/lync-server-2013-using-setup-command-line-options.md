@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 使用安裝程式命令列選項
+title: Lync Server 2013：使用安裝程式命令列選項
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c181c16e5480d1dc7659ed3778faf738eed70949
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c530387fa9f504120ff3a8f38128eeb07b04e615
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212699"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527640"
 ---
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>在 Lync Server 2013 中使用安裝程式命令列選項
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-setup-command-line-options-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Setup 命令列選項
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42212699"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-03_
+_**主題上次修改日期：** 2012-10-03_
 
-在 Office 安裝程式操作很少使用 Setup.exe 命令列。 而不是使用安裝程式命令列選項，您通常會針對產品安裝程式和功能自訂使用 Office 自訂工具和 Config.xml 檔案。
+Setup.exe 命令列將用於 Office 安裝中非常少的作業。 您通常會使用 Office 自訂工具和 Config.xml 檔案進行產品安裝和功能自訂，而不是使用安裝程式的命令列選項。
 
-Office Setup.exe 命令列可辨識下表所述的命令列選項。
+Office Setup.exe 命令列會識別下表所述的命令列選項。
 
-### <a name="office-setup-command-line-options"></a>Office 安裝程式命令列選項
+### <a name="office-setup-command-line-options"></a>Office 安裝程式 Command-Line 選項
 
 <table>
 <colgroup>
@@ -50,8 +52,8 @@ Office Setup.exe 命令列可辨識下表所述的命令列選項。
 </colgroup>
 <thead>
 <tr class="header">
-<th>安裝程式命令列選項</th>
-<th>說明</th>
+<th>安裝 Command-Line 選項</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -65,25 +67,25 @@ Office Setup.exe 命令列可辨識下表所述的命令列選項。
 </tr>
 <tr class="odd">
 <td><p>/config [path]</p></td>
-<td><p>指定在安裝過程中，安裝程式所使用的 Config.xml 檔案。 /Config 選項可用於指定例如 Lync 2013 的安裝中，為自訂的 Config.xml 檔案：<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>指定在安裝過程中，安裝程式所使用的 Config.xml 檔案。 使用 [/config] 選項可指定您針對 Lync 2013 安裝所自訂的 Config.xml 檔案，例如： <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
-<td><p>/ 修改 Lync</p></td>
-<td><p>與修改的 Config.xml 檔案搭配使用，即可在維護模式中執行安裝程式，並對現有的 Office 安裝進行變更。 例如，您可以使用 / 修改選項來新增或移除 Lync 功能。</p></td>
+<td><p>/modify Lync</p></td>
+<td><p>與修改的 Config.xml 檔案搭配使用，即可在維護模式中執行安裝程式，並對現有的 Office 安裝進行變更。 例如，您可以使用/modify 選項來新增或移除 Lync 功能。</p></td>
 </tr>
 <tr class="odd">
-<td><p>/ 修復 Lync</p></td>
-<td><p>會從以修復 Lync 使用者的電腦執行安裝程式。</p></td>
+<td><p>/repair Lync</p></td>
+<td><p>從使用者的電腦執行安裝程式，以修復 Lync。</p></td>
 </tr>
 <tr class="even">
-<td><p>解除安裝 Lync /</p></td>
-<td><p>執行安裝程式，從使用者電腦移除 Lync。</p></td>
+<td><p>/uninstall Lync</p></td>
+<td><p>執行安裝程式以從使用者的電腦中移除 Lync。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-如需使用安裝程式命令列選項的詳細資訊，請參閱<https://go.microsoft.com/fwlink/p/?linkid=267515>。
+如需使用安裝程式命令列選項的詳細資訊，請參閱 <https://go.microsoft.com/fwlink/p/?linkid=267515> 。
 
 </div>
 
