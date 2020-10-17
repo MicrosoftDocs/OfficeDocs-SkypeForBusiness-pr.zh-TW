@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Enterprise voice 的部署指導方針'
+title: Lync Server 2013： Enterprise Voice 的部署指導方針
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688cf48c7f716047f0d7412c34ce84006a5a9348
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05cde2a845dd6314d8822e6b58445eed5c6a1d19
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531070"
 ---
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="66197-102">Lync Server 2013 中 Enterprise Voice 的部署指導方針</span><span class="sxs-lookup"><span data-stu-id="66197-102">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="3ffe4-102">Lync Server 2013 中的 Enterprise voice 的部署指導方針</span><span class="sxs-lookup"><span data-stu-id="3ffe4-102">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,86 +37,86 @@ ms.locfileid: "42213773"
 
 <span> </span>
 
-<span data-ttu-id="3ffe4-103">_**主題上次修改日期：** 2012年-09-21_</span><span class="sxs-lookup"><span data-stu-id="3ffe4-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="66197-103">_**主題上次修改日期：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="66197-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="3ffe4-104">本主題說明先決條件和其他您計劃要部署 Lync Server 2013 和 Enterprise Voice 工作負載時所應考量的指導方針。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-104">This topic describes prerequisites and other guidelines to consider when you are planning to deploy Lync Server 2013 and the Enterprise Voice workload.</span></span>
+<span data-ttu-id="66197-104">本主題說明當您規劃部署 Lync Server 2013 和 Enterprise Voice 工作負載時，應考慮的必要條件和其他指導方針。</span><span class="sxs-lookup"><span data-stu-id="66197-104">This topic describes prerequisites and other guidelines to consider when you are planning to deploy Lync Server 2013 and the Enterprise Voice workload.</span></span>
 
 <div>
 
-## <a name="deployment-prerequisites"></a><span data-ttu-id="3ffe4-105">部署必要條件</span><span class="sxs-lookup"><span data-stu-id="3ffe4-105">Deployment Prerequisites</span></span>
+## <a name="deployment-prerequisites"></a><span data-ttu-id="66197-105">部署必要條件</span><span class="sxs-lookup"><span data-stu-id="66197-105">Deployment Prerequisites</span></span>
 
-<span data-ttu-id="3ffe4-106">部署 Enterprise Voice 時獲得最佳體驗，請確認您的 IT 基礎結構、 網路和系統都符合下列先決條件：</span><span class="sxs-lookup"><span data-stu-id="3ffe4-106">For an optimum experience when deploying Enterprise Voice, make sure that your IT infrastructure, network, and systems meet the following prerequisites:</span></span>
+<span data-ttu-id="66197-106">若要在部署企業語音時獲得最佳的體驗，請確定您的 IT 基礎結構、網路和系統都符合下列必要條件：</span><span class="sxs-lookup"><span data-stu-id="66197-106">For an optimum experience when deploying Enterprise Voice, make sure that your IT infrastructure, network, and systems meet the following prerequisites:</span></span>
 
-  - <span data-ttu-id="3ffe4-107">Lync Server 2013 Standard Edition 或 Enterprise Edition 已安裝且正在運作您網路上。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-107">Lync Server 2013 Standard Edition or Enterprise Edition is installed and operational on your network.</span></span>
+  - <span data-ttu-id="66197-107">Lync Server 2013 Standard Edition 或 Enterprise Edition 已安裝且可在您的網路上運作。</span><span class="sxs-lookup"><span data-stu-id="66197-107">Lync Server 2013 Standard Edition or Enterprise Edition is installed and operational on your network.</span></span>
 
-  - <span data-ttu-id="3ffe4-108">所有 Edge Server 都都已部署、 作業在周邊網路，包括 Edge Server 與 Access Edge service，A / V Edge service、 Web Conferencing Edge service 和反向 proxy。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-108">All Edge Servers are deployed and operational in your perimeter network, including Edge Servers with Access Edge service, A/V Edge service, Web Conferencing Edge service, and a reverse proxy.</span></span>
+  - <span data-ttu-id="66197-108">所有 Edge Server 都會在周邊網路中部署並運作，包括具有 Access Edge service 的 Edge Server、A/V Edge service、Web 會議 Edge service 及反向 proxy。</span><span class="sxs-lookup"><span data-stu-id="66197-108">All Edge Servers are deployed and operational in your perimeter network, including Edge Servers with Access Edge service, A/V Edge service, Web Conferencing Edge service, and a reverse proxy.</span></span>
 
-  - <span data-ttu-id="3ffe4-109">已建立並啟用 Lync Server 的一或多個使用者。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-109">One or more users have been created and enabled for Lync Server.</span></span>
+  - <span data-ttu-id="66197-109">有一或多個使用者已建立並啟用 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="66197-109">One or more users have been created and enabled for Lync Server.</span></span>
 
-  - <span data-ttu-id="3ffe4-110">已安裝 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 或最新的 service pack 或 Microsoft Exchange Server 2010。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-110">Microsoft Exchange Server 2007 Service Pack 1 (SP1) or latest service pack, or Microsoft Exchange Server 2010 is installed.</span></span> <span data-ttu-id="3ffe4-111">其中，才能將 Exchange 整合通訊 (UM) 整合搭配 Lync Server，以及用於提供豐富的通知及通話記錄資訊用戶端端點。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-111">One of these is required for integrating Exchange Unified Messaging (UM) with Lync Server and to provide rich notifications and call log information to client endpoints.</span></span>
+  - <span data-ttu-id="66197-110">Microsoft Exchange Server 2007 Service Pack 1 (SP1) 或最新的 service pack，或已安裝 Microsoft Exchange Server 2010。</span><span class="sxs-lookup"><span data-stu-id="66197-110">Microsoft Exchange Server 2007 Service Pack 1 (SP1) or latest service pack, or Microsoft Exchange Server 2010 is installed.</span></span> <span data-ttu-id="66197-111">其中一種方式是將 Exchange 整合通訊 (UM) 與 Lync Server 整合，並提供豐富的通知及通話記錄資訊給用戶端端點。</span><span class="sxs-lookup"><span data-stu-id="66197-111">One of these is required for integrating Exchange Unified Messaging (UM) with Lync Server and to provide rich notifications and call log information to client endpoints.</span></span>
 
-  - <span data-ttu-id="3ffe4-112">唯一的主要電話號碼已指定正規化，並複製到每個使用者啟用 Enterprise voice **msrtcsip-line**屬性。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-112">A unique primary phone number has been designated, normalized, and copied to the **msRTCSIP-line** attribute for each user who is to be enabled for Enterprise Voice.</span></span>
+  - <span data-ttu-id="66197-112">針對每個要啟用 Enterprise Voice 的使用者，會將唯一的主要電話號碼指派、正常化，並複製到 **msRTCSIP-line** 屬性。</span><span class="sxs-lookup"><span data-stu-id="66197-112">A unique primary phone number has been designated, normalized, and copied to the **msRTCSIP-line** attribute for each user who is to be enabled for Enterprise Voice.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3ffe4-113">Lync Server 支援 E.164 號碼和非-直接向內撥號 DID 號碼。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-113">Lync Server supports E.164 numbers and non-Direct Inward Dialing (DID) numbers.</span></span> <span data-ttu-id="3ffe4-114">非-DID 號碼可以表示格式<STRONG>&lt;E.164&gt;; ext =&lt;分機&gt;</STRONG>或數字，整個企業的私用的分機號碼是唯一的需求與的字串。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-114">Non-DID numbers can be represented in the format <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> or as a string of digits, with the requirement that the private extension is unique across the enterprise.</span></span> <span data-ttu-id="3ffe4-115">例如，以表示 1001年專用號碼<STRONG>+1425550100; ext = 1001年</STRONG>，或為<STRONG>1001年</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-115">For example, a private number of 1001 can be represented as <STRONG>+1425550100;ext=1001</STRONG>, or as <STRONG>1001</STRONG>.</span></span> <span data-ttu-id="3ffe4-116">代表<STRONG>1001年</STRONG>，預期時，此私用的數字是唯一的整個企業。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-116">When represented as <STRONG>1001</STRONG>, the expectation is that this private number is unique across the enterprise.</span></span>
+    > <span data-ttu-id="66197-113">Lync Server 支援 e.164 號碼和非直接向內撥號 (已) 號碼。</span><span class="sxs-lookup"><span data-stu-id="66197-113">Lync Server supports E.164 numbers and non-Direct Inward Dialing (DID) numbers.</span></span> <span data-ttu-id="66197-114">未做的號碼可以以 e.164 <STRONG> &lt; &gt; ; ext = &lt; 副檔名 &gt; </STRONG>或數位字串表示，必須是整個企業中的私人分機是唯一的。</span><span class="sxs-lookup"><span data-stu-id="66197-114">Non-DID numbers can be represented in the format <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> or as a string of digits, with the requirement that the private extension is unique across the enterprise.</span></span> <span data-ttu-id="66197-115">例如，1001的私營號碼可以表示為 <STRONG>+ 1425550100、ext = 1001</STRONG>或 <STRONG>1001</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="66197-115">For example, a private number of 1001 can be represented as <STRONG>+1425550100;ext=1001</STRONG>, or as <STRONG>1001</STRONG>.</span></span> <span data-ttu-id="66197-116">當表示為 <STRONG>1001</STRONG>時，預期是整個企業中的此私人號碼是唯一的。</span><span class="sxs-lookup"><span data-stu-id="66197-116">When represented as <STRONG>1001</STRONG>, the expectation is that this private number is unique across the enterprise.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="3ffe4-117">部署 Enterprise Voice 的系統管理員應該是 RTCUniversalServerAdmins 群組的成員。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-117">Administrators who deploy Enterprise Voice should be members of the RTCUniversalServerAdmins group.</span></span>
+  - <span data-ttu-id="66197-117">部署 Enterprise Voice 的系統管理員應為 RTCUniversalServerAdmins 群組的成員。</span><span class="sxs-lookup"><span data-stu-id="66197-117">Administrators who deploy Enterprise Voice should be members of the RTCUniversalServerAdmins group.</span></span>
 
-  - <span data-ttu-id="3ffe4-118">在最低限度下，Office Communicator 2007 是成功部署。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-118">At a minimum, Office Communicator 2007 is successfully deployed.</span></span> <span data-ttu-id="3ffe4-119">若要使用功能新增至這個版本，就會部署 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-119">To use features new to this release, Lync 2013 is deployed.</span></span>
+  - <span data-ttu-id="66197-118">至少已成功部署 Office Communicator 2007。</span><span class="sxs-lookup"><span data-stu-id="66197-118">At a minimum, Office Communicator 2007 is successfully deployed.</span></span> <span data-ttu-id="66197-119">若要使用此版本的新功能，請部署 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="66197-119">To use features new to this release, Lync 2013 is deployed.</span></span>
 
-  - <span data-ttu-id="3ffe4-120">受管理的公開金鑰基礎結構 (MKI) 是部署和設定，使用 Microsoft 或協力廠商憑證授權單位 (CA) 基礎結構。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-120">Managed key infrastructure (MKI) is deployed and configured, using either a Microsoft or a third-party certification authority (CA) infrastructure.</span></span>
+  - <span data-ttu-id="66197-120">使用 Microsoft 或協力廠商憑證授權單位 (CA) 基礎結構，部署及設定 MKI) 的 Managed key 基礎 (結構。</span><span class="sxs-lookup"><span data-stu-id="66197-120">Managed key infrastructure (MKI) is deployed and configured, using either a Microsoft or a third-party certification authority (CA) infrastructure.</span></span>
 
-  - <span data-ttu-id="3ffe4-121">必須為每一部電腦安裝中繼伺服器：</span><span class="sxs-lookup"><span data-stu-id="3ffe4-121">Each computer on which you install Mediation Server must be:</span></span>
+  - <span data-ttu-id="66197-121">安裝轉送伺服器的每一部電腦都必須是：</span><span class="sxs-lookup"><span data-stu-id="66197-121">Each computer on which you install Mediation Server must be:</span></span>
     
-      - <span data-ttu-id="3ffe4-122">成員伺服器的網域，並為 Active Directory 網域服務準備。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-122">A member server of a domain, and prepared for Active Directory Domain Services.</span></span> <span data-ttu-id="3ffe4-123">如需 Active Directory 網域服務準備程序，請參閱部署文件中的[準備 Active Directory Domain Services for Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) 。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-123">For Active Directory Domain Services preparation procedures, see [Preparing Active Directory Domain Services for Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in the Deployment documentation.</span></span>
+      - <span data-ttu-id="66197-122">網域的成員伺服器，並為 Active Directory 網域服務做好準備。</span><span class="sxs-lookup"><span data-stu-id="66197-122">A member server of a domain, and prepared for Active Directory Domain Services.</span></span> <span data-ttu-id="66197-123">如需 Active Directory 網域服務的準備程式，請參閱部署檔中的 [準備 Lync Server 2013 的 Active Directory 網域服務](lync-server-2013-preparing-active-directory-domain-services.md) 。</span><span class="sxs-lookup"><span data-stu-id="66197-123">For Active Directory Domain Services preparation procedures, see [Preparing Active Directory Domain Services for Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in the Deployment documentation.</span></span>
     
-      - <span data-ttu-id="3ffe4-124">執行下列其中一個下列作業系統：</span><span class="sxs-lookup"><span data-stu-id="3ffe4-124">Running one of the following operating systems:</span></span>
+      - <span data-ttu-id="66197-124">執行下列其中一個作業系統：</span><span class="sxs-lookup"><span data-stu-id="66197-124">Running one of the following operating systems:</span></span>
         
           - <span></span>  
-            <span data-ttu-id="3ffe4-125">Windows Server 2008 Standard 作業系統 64 位元版本</span><span class="sxs-lookup"><span data-stu-id="3ffe4-125">The 64-bit edition of the Windows Server 2008 Standard operating system</span></span>
+            <span data-ttu-id="66197-125">64位版本的 Windows Server 2008 Standard 作業系統</span><span class="sxs-lookup"><span data-stu-id="66197-125">The 64-bit edition of the Windows Server 2008 Standard operating system</span></span>
         
           - <span></span>  
-            <span data-ttu-id="3ffe4-126">Windows Server 2008 Enterprise 作業系統 64 位元版本</span><span class="sxs-lookup"><span data-stu-id="3ffe4-126">The 64-bit edition of the Windows Server 2008 Enterprise operating system</span></span>
+            <span data-ttu-id="66197-126">64位版本的 Windows Server 2008 企業版作業系統</span><span class="sxs-lookup"><span data-stu-id="66197-126">The 64-bit edition of the Windows Server 2008 Enterprise operating system</span></span>
 
-  - <span data-ttu-id="3ffe4-127">利用時間部門多工 (TDM) 連線至公用交換的電話網路 (PSTN) 或專用交換機 (PBX) 的連線時，一或多個 PSTN 閘道可供部署。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-127">If the connection to the public switched telephone network (PSTN) or private branch exchange (PBX) is by means of a Time Division Multiplexing (TDM) connection, one or more PSTN gateways are available for deployment.</span></span> <span data-ttu-id="3ffe4-128">（如果透過 SIP 主幹連線，PSTN 閘道不是必要。）</span><span class="sxs-lookup"><span data-stu-id="3ffe4-128">(If the connection is by means of a SIP trunk, a PSTN gateway is not required.)</span></span>
-
-</div>
-
-<div>
-
-## <a name="power-network-or-telephone-service-outages"></a><span data-ttu-id="3ffe4-129">電力、 網路或電話服務中斷</span><span class="sxs-lookup"><span data-stu-id="3ffe4-129">Power, Network, or Telephone Service Outages</span></span>
-
-<span data-ttu-id="3ffe4-130">如果沒有中斷、 干擾或其他降低電力、 網路或電話服務所在位置，語音、 立即訊息、 目前狀態和 Lync Server 與任何裝置連線至 Lync Server 的其他功能可能無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-130">If there is an outage, disruption, or other degradation of the power, network, or telephone services at your location, the voice, instant messaging, presence, and other features of Lync Server and any device connected to Lync Server may not work properly.</span></span>
+  - <span data-ttu-id="66197-127">若連到公用交換電話網路的連線 (PSTN) 或私營分公司 exchange (PBX) 是透過一種時間分割多工 (TDM) 連線，則可以部署一或多個 PSTN 閘道。</span><span class="sxs-lookup"><span data-stu-id="66197-127">If the connection to the public switched telephone network (PSTN) or private branch exchange (PBX) is by means of a Time Division Multiplexing (TDM) connection, one or more PSTN gateways are available for deployment.</span></span> <span data-ttu-id="66197-128"> (如果是透過 SIP 主幹連線，則不需要 PSTN 閘道。 ) </span><span class="sxs-lookup"><span data-stu-id="66197-128">(If the connection is by means of a SIP trunk, a PSTN gateway is not required.)</span></span>
 
 </div>
 
 <div>
 
-## <a name="enterprise-voice-depends-on-server-availability-and-voice-client-and-hardware-operability"></a><span data-ttu-id="3ffe4-131">Enterprise Voice 取決於伺服器的可用性和 Voip 用戶端與硬體的可操作性</span><span class="sxs-lookup"><span data-stu-id="3ffe4-131">Enterprise Voice Depends on Server Availability and Voice Client and Hardware Operability</span></span>
+## <a name="power-network-or-telephone-service-outages"></a><span data-ttu-id="66197-129">電源、網路或電話語音中斷</span><span class="sxs-lookup"><span data-stu-id="66197-129">Power, Network, or Telephone Service Outages</span></span>
 
-<span data-ttu-id="3ffe4-132">語音通訊與 Lync Server 取決於伺服器軟體的可用性，以及語音用戶端或硬體電話裝置連接到伺服器軟體的正常運作。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-132">Voice communications with Lync Server depend upon the availability of the server software and the proper functioning of the voice clients or the hardware phone devices connecting to the server software.</span></span>
-
-</div>
-
-<div>
-
-## <a name="alternative-means-of-accessing-emergency-services"></a><span data-ttu-id="3ffe4-133">連絡緊急服務的替代方法</span><span class="sxs-lookup"><span data-stu-id="3ffe4-133">Alternative Means of Accessing Emergency Services</span></span>
-
-<span data-ttu-id="3ffe4-134">針對您安裝的語音用戶端 （例如，電腦執行 Lync 用戶端或 Lync Phone Edition 裝置） 這些位置，我們建議您電源失敗的情況下，維護備份的選項，讓使用者呼叫緊急服務 （例如，911 或 999）網路連線效能下降、 電話服務中斷或其他問題，可能會抑制 Lync 伺服器、 Lync 或 Lync Phone Edition 裝置的作業。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-134">For those locations where you install a voice client (for example, a PC running Lync client or an Lync Phone Edition device), we recommend that you maintain a backup option for users to call emergency services (for example, 911 or 999) in case of a power failure, network connectivity degradation, telephone service outage, or other issue that may inhibit operation of Lync Server, Lync, or Lync Phone Edition devices.</span></span> <span data-ttu-id="3ffe4-135">這類替代選項可以包括標準的公用交換的電話網路線路或行動電話連線的電話。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-135">Such alternative options could include a telephone connected to a standard public switched telephone network line or a cell phone.</span></span>
+<span data-ttu-id="66197-130">如果您所在位置出現電源、網路或電話語音中斷、中斷或其他問題，則語音、立即訊息、目前狀態，以及 Lync Server 及任何連接至 Lync Server 之裝置的其他功能都可能無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="66197-130">If there is an outage, disruption, or other degradation of the power, network, or telephone services at your location, the voice, instant messaging, presence, and other features of Lync Server and any device connected to Lync Server may not work properly.</span></span>
 
 </div>
 
 <div>
 
-## <a name="emergency-calls-and-multi-line-telephone-systems"></a><span data-ttu-id="3ffe4-136">緊急救援電話與多線路電話系統</span><span class="sxs-lookup"><span data-stu-id="3ffe4-136">Emergency Calls and Multi-Line Telephone Systems</span></span>
+## <a name="enterprise-voice-depends-on-server-availability-and-voice-client-and-hardware-operability"></a><span data-ttu-id="66197-131">Enterprise Voice 取決於伺服器可用性和語音用戶端和硬體可操作性</span><span class="sxs-lookup"><span data-stu-id="66197-131">Enterprise Voice Depends on Server Availability and Voice Client and Hardware Operability</span></span>
 
-<span data-ttu-id="3ffe4-137">多行的電話系統 (MLTS) 使用可能需支付美國狀態或聯邦法律或其他國家/地區需要提供來電者的電話號碼、 副檔名及/或適用的緊急服務的實體位置時，來電者 MLTS 的法律撥至緊急服務 （例如，例如 911 或 999 緊急存取號碼來撥號時）。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-137">The use of a multiline telephone system (MLTS) may be subject to U.S state or federal laws or the laws of other countries/regions that require the MLTS to provide a caller’s telephone number, extension, and/or physical location to applicable emergency services when a caller is placed to emergency services (for example, when dialing an emergency access number such as 911 or 999).</span></span> <span data-ttu-id="3ffe4-138">在此版本中，可以設定 Lync Server[規劃緊急服務 (E9-1-1)，在 [Lync Server 2013 ](lync-server-2013-planning-for-emergency-services-e9-1-1.md)中所述，提供發話者的實體位置與緊急服務提供者。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-138">In this release, Lync Server can be configured to provide a caller’s physical location to an emergency services provider, as described in [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span></span> <span data-ttu-id="3ffe4-139">與 MLTS 法律合規性是唯一的 Lync Server，Lync 用戶端和 Lync Phone Edition 裝置購買者的責任。</span><span class="sxs-lookup"><span data-stu-id="3ffe4-139">Compliance with MLTS laws is the sole responsibility of the purchaser of Lync Server, Lync client, and Lync Phone Edition devices.</span></span>
+<span data-ttu-id="66197-132">與 Lync Server 的語音通訊取決於伺服器軟體的可用性，以及連接至伺服器軟體的語音用戶端或硬體電話裝置是否可正常運作。</span><span class="sxs-lookup"><span data-stu-id="66197-132">Voice communications with Lync Server depend upon the availability of the server software and the proper functioning of the voice clients or the hardware phone devices connecting to the server software.</span></span>
+
+</div>
+
+<div>
+
+## <a name="alternative-means-of-accessing-emergency-services"></a><span data-ttu-id="66197-133">存取緊急服務的替代方法</span><span class="sxs-lookup"><span data-stu-id="66197-133">Alternative Means of Accessing Emergency Services</span></span>
+
+<span data-ttu-id="66197-134">針對您安裝語音用戶端 (的位置（例如，執行 Lync 用戶端或 Lync Phone Edition 裝置) 的電腦，我們建議您維護備份選項，讓使用者呼叫緊急服務 (例如，911或 999) 以防電源故障、網路連線能力降低、電話語音中斷，或可能阻礙 Lync Server、Lync 或 Lync Phone Edition 裝置運作的其他問題。</span><span class="sxs-lookup"><span data-stu-id="66197-134">For those locations where you install a voice client (for example, a PC running Lync client or an Lync Phone Edition device), we recommend that you maintain a backup option for users to call emergency services (for example, 911 or 999) in case of a power failure, network connectivity degradation, telephone service outage, or other issue that may inhibit operation of Lync Server, Lync, or Lync Phone Edition devices.</span></span> <span data-ttu-id="66197-135">這類替代選項可以包含連線到標準公用交換電話網路 line 或蜂窩電話的電話。</span><span class="sxs-lookup"><span data-stu-id="66197-135">Such alternative options could include a telephone connected to a standard public switched telephone network line or a cell phone.</span></span>
+
+</div>
+
+<div>
+
+## <a name="emergency-calls-and-multi-line-telephone-systems"></a><span data-ttu-id="66197-136">緊急電話和多行電話系統</span><span class="sxs-lookup"><span data-stu-id="66197-136">Emergency Calls and Multi-Line Telephone Systems</span></span>
+
+<span data-ttu-id="66197-137">使用多行電話系統 (MLTS) 可能受制于 U.S 州或聯邦法律或其他國家/地區的法律，也就是當來電者進入緊急服務時，需要 MLTS 提供來電者的電話號碼、分機和/或實體位置，以供來電者使用時 (例如，撥號緊急存取號碼，例如911或 999) 。</span><span class="sxs-lookup"><span data-stu-id="66197-137">The use of a multiline telephone system (MLTS) may be subject to U.S state or federal laws or the laws of other countries/regions that require the MLTS to provide a caller’s telephone number, extension, and/or physical location to applicable emergency services when a caller is placed to emergency services (for example, when dialing an emergency access number such as 911 or 999).</span></span> <span data-ttu-id="66197-138">在此版本中，Lync Server 可以設定為向緊急服務提供者提供來電者的實體位置，如在 [Lync Server 2013 中規劃緊急服務 (E9-1-1) ](lync-server-2013-planning-for-emergency-services-e9-1-1.md)所述。</span><span class="sxs-lookup"><span data-stu-id="66197-138">In this release, Lync Server can be configured to provide a caller’s physical location to an emergency services provider, as described in [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span></span> <span data-ttu-id="66197-139">遵守 MLTS 法律是 Lync Server、Lync 用戶端和 Lync Phone Edition 裝置的買方的唯一責任。</span><span class="sxs-lookup"><span data-stu-id="66197-139">Compliance with MLTS laws is the sole responsibility of the purchaser of Lync Server, Lync client, and Lync Phone Edition devices.</span></span>
 
 </div>
 

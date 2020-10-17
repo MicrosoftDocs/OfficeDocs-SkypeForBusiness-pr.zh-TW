@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: （選用） 驗證通話保留部署'
+title: Lync Server 2013： (選用) 驗證通話駐留部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1526c05245ea35f794664d8d64f90b60022b2be2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e9a22d48e823526f3b4e4b7e6b321ed640328ecd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216479"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530810"
 ---
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a><span data-ttu-id="46f49-102"> (選用) 在 Lync Server 2013 中驗證通話駐留部署</span><span class="sxs-lookup"><span data-stu-id="46f49-102">(Optional) Verify Call Park deployment in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a><span data-ttu-id="6c5b1-102">（選用）確認 Lync Server 2013 中的通話駐留部署</span><span class="sxs-lookup"><span data-stu-id="6c5b1-102">(Optional) Verify Call Park deployment in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,24 +37,24 @@ ms.locfileid: "42216479"
 
 <span> </span>
 
-<span data-ttu-id="6c5b1-103">_**主題上次修改日期：** 2012年-09-11_</span><span class="sxs-lookup"><span data-stu-id="6c5b1-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="46f49-103">_**主題上次修改日期：** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="46f49-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="6c5b1-104">安裝並設定通話駐留之後，您需要確認若要確定駐留並擷取通話運作符合預期組態。</span><span class="sxs-lookup"><span data-stu-id="6c5b1-104">After you install and configure Call Park, you need to verify the configuration to make sure that parking and retrieving calls works as expected.</span></span> <span data-ttu-id="6c5b1-105">請至少確認下列項目：</span><span class="sxs-lookup"><span data-stu-id="6c5b1-105">At minimum, verify the following:</span></span>
+<span data-ttu-id="46f49-104">安裝及設定通話駐留後，您必須確認設定，以確定停車場和取回通話如預期般地運作。</span><span class="sxs-lookup"><span data-stu-id="46f49-104">After you install and configure Call Park, you need to verify the configuration to make sure that parking and retrieving calls works as expected.</span></span> <span data-ttu-id="46f49-105">請至少確認下列項目：</span><span class="sxs-lookup"><span data-stu-id="46f49-105">At minimum, verify the following:</span></span>
 
-  - <span data-ttu-id="6c5b1-106">呼叫具有已啟用的通話駐留的使用者，並讓使用者駐留通話。</span><span class="sxs-lookup"><span data-stu-id="6c5b1-106">Call a user who has Call Park enabled and have the user park the call.</span></span>
+  - <span data-ttu-id="46f49-106">呼叫已啟用通話駐留且使用者寄存通話的使用者。</span><span class="sxs-lookup"><span data-stu-id="46f49-106">Call a user who has Call Park enabled and have the user park the call.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6c5b1-107">如果您啟用語音原則中的通話駐留之前執行這項測試，則駐留通話的使用者必須登出 Lync Server]，然後再重新登入，無法看到 [通話駐留] 選項在傳送呼叫清單。</span><span class="sxs-lookup"><span data-stu-id="6c5b1-107">If you enabled Call Park in voice policy just before performing this test, the user who is parking the call needs to sign out of Lync Server, and then sign back in, to be able to see the Call Park option in the transfer call list.</span></span>
+    > <span data-ttu-id="46f49-107">如果您在執行此測試之前，在語音原則中啟用通話駐留，則寄存通話的使用者需要登出 Lync Server，然後再重新登入，才能在轉接通話清單中看到通話駐留選項。</span><span class="sxs-lookup"><span data-stu-id="46f49-107">If you enabled Call Park in voice policy just before performing this test, the user who is parking the call needs to sign out of Lync Server, and then sign back in, to be able to see the Call Park option in the transfer call list.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="6c5b1-108">撥打軌道號碼以擷取通話。</span><span class="sxs-lookup"><span data-stu-id="6c5b1-108">Dial the orbit number to retrieve the call.</span></span>
+  - <span data-ttu-id="46f49-108">撥打軌道號碼以取得通話。</span><span class="sxs-lookup"><span data-stu-id="46f49-108">Dial the orbit number to retrieve the call.</span></span>
 
-  - <span data-ttu-id="6c5b1-109">其他通話駐留，讓駐留的通話逾時，並不會收取回電。</span><span class="sxs-lookup"><span data-stu-id="6c5b1-109">Park another call, let the parked call time out, and do not pick up the ringback.</span></span> <span data-ttu-id="6c5b1-110">確認逾時通話正確地路由傳送至指定的**OnTimeoutURI**後援目的地。</span><span class="sxs-lookup"><span data-stu-id="6c5b1-110">Verify that the timed-out call is correctly routed to the fallback destination that is specified for **OnTimeoutURI**.</span></span>
+  - <span data-ttu-id="46f49-109">寄存另一次通話，讓寄存通話超時，但不要挑選回電。</span><span class="sxs-lookup"><span data-stu-id="46f49-109">Park another call, let the parked call time out, and do not pick up the ringback.</span></span> <span data-ttu-id="46f49-110">確認已超時呼叫已正確路由傳送至 **OnTimeoutURI**所指定的回退目的地。</span><span class="sxs-lookup"><span data-stu-id="46f49-110">Verify that the timed-out call is correctly routed to the fallback destination that is specified for **OnTimeoutURI**.</span></span>
 
 </div>
 
