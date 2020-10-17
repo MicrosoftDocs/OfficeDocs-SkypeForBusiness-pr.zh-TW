@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 為使用者啟用群組來電接聽
+title: Lync Server 2013：針對使用者啟用群組呼叫收取功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5842a22d1899398b282e7305e4dd921fea86ea39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89d512eea147039a5766193f9ec2a20cf45caaa0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528720"
 ---
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="b02c8-102">在 Lync Server 2013 中為使用者啟用群組呼叫收取</span><span class="sxs-lookup"><span data-stu-id="b02c8-102">Enable Group Call Pickup for users in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="ec3ef-102">為 Lync Server 2013 中的使用者啟用群組來電接聽</span><span class="sxs-lookup"><span data-stu-id="ec3ef-102">Enable Group Call Pickup for users in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42190696"
 
 <span> </span>
 
-<span data-ttu-id="ec3ef-103">_**上次修改主題：** 2013年-01-30_</span><span class="sxs-lookup"><span data-stu-id="ec3ef-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="b02c8-103">_**主題上次修改日期：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="b02c8-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="ec3ef-104">使用 SEFAUtil 資源套件工具來為使用者啟用群組來電接聽。</span><span class="sxs-lookup"><span data-stu-id="ec3ef-104">Use the SEFAUtil resource kit tool to enable Group Call Pickup for users.</span></span> <span data-ttu-id="ec3ef-105">使用者必須被指派群組編號的類型 GroupPickup 通話駐留軌道表中已啟用的群組來電接聽。</span><span class="sxs-lookup"><span data-stu-id="ec3ef-105">Users must be assigned a group number with type GroupPickup in the call park orbit table to have Group Call Pickup enabled.</span></span> <span data-ttu-id="ec3ef-106">您指派呼叫收取群組數字，並同時啟用群組來電接聽，當您執行 SEFAUtil.exe 使用 /enablegrouppickup 參數。</span><span class="sxs-lookup"><span data-stu-id="ec3ef-106">You assign a call pickup group number and enable Group Call Pickup at the same time by using the /enablegrouppickup parameter when you run SEFAUtil.exe.</span></span>
+<span data-ttu-id="b02c8-104">使用 SEFAUtil 資源工具組工具，為使用者啟用群組呼叫收取功能。</span><span class="sxs-lookup"><span data-stu-id="b02c8-104">Use the SEFAUtil resource kit tool to enable Group Call Pickup for users.</span></span> <span data-ttu-id="b02c8-105">使用者必須被指派「通話駐留軌道」表格中類型為 GroupPickup 的組號，才能啟用群組呼叫收取。</span><span class="sxs-lookup"><span data-stu-id="b02c8-105">Users must be assigned a group number with type GroupPickup in the call park orbit table to have Group Call Pickup enabled.</span></span> <span data-ttu-id="b02c8-106">當您執行 SEFAUtil.exe 時，您可以指派呼叫收取群組號碼，並使用/enablegrouppickup 參數，同時啟用群組呼叫收取。</span><span class="sxs-lookup"><span data-stu-id="b02c8-106">You assign a call pickup group number and enable Group Call Pickup at the same time by using the /enablegrouppickup parameter when you run SEFAUtil.exe.</span></span>
 
 <div>
 
-## <a name="to-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="ec3ef-107">若要為使用者啟用群組來電接聽</span><span class="sxs-lookup"><span data-stu-id="ec3ef-107">To enable Group Call Pickup for a user</span></span>
+## <a name="to-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="b02c8-107">為使用者啟用群組呼叫收取功能</span><span class="sxs-lookup"><span data-stu-id="b02c8-107">To enable Group Call Pickup for a user</span></span>
 
-1.  <span data-ttu-id="ec3ef-108">登入系統管理員權限安裝 SEFAUtil 工具所在的電腦。</span><span class="sxs-lookup"><span data-stu-id="ec3ef-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1.  <span data-ttu-id="b02c8-108">使用系統管理員權力，登入安裝 SEFAUtil 工具的電腦。</span><span class="sxs-lookup"><span data-stu-id="b02c8-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2.  <span data-ttu-id="ec3ef-109">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="ec3ef-109">At the command line, run:</span></span>
+2.  <span data-ttu-id="b02c8-109">在命令列中執行：</span><span class="sxs-lookup"><span data-stu-id="b02c8-109">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    <span data-ttu-id="ec3ef-110">例如：</span><span class="sxs-lookup"><span data-stu-id="ec3ef-110">For example:</span></span>
+    <span data-ttu-id="b02c8-110">例如：</span><span class="sxs-lookup"><span data-stu-id="b02c8-110">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
@@ -57,11 +59,11 @@ ms.locfileid: "42190696"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ec3ef-111">請參閱</span><span class="sxs-lookup"><span data-stu-id="ec3ef-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b02c8-111">請參閱</span><span class="sxs-lookup"><span data-stu-id="b02c8-111">See Also</span></span>
 
 
-[<span data-ttu-id="ec3ef-112">Lync Server 2013 中的使用者指派群組通話收取號碼</span><span class="sxs-lookup"><span data-stu-id="ec3ef-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[<span data-ttu-id="ec3ef-113">為 Lync Server 2013 中的使用者停用群組來電接聽</span><span class="sxs-lookup"><span data-stu-id="ec3ef-113">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="b02c8-112">將群組呼叫收取號碼指派給 Lync Server 2013 中的使用者</span><span class="sxs-lookup"><span data-stu-id="b02c8-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[<span data-ttu-id="b02c8-113">在 Lync Server 2013 中停用使用者的群組呼叫收取功能</span><span class="sxs-lookup"><span data-stu-id="b02c8-113">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>
