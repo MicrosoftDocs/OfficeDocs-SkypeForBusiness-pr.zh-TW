@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 對等 IM 報告
+title: Lync Server 2013： Peer-to-Peer IM 報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddfd9bc59a42a8ab8cad77fa0c434adc1da02c27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 16098a1d549c155f9a642f7e68f056f07973217d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215739"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524370"
 ---
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>在 Lync Server 2013 中 Peer-to-Peer IM 報告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Lync Server 2013 中的對等 IM 報告
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42215739"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
 對等 IM 報告會提供對等立即訊息 (IM) 工作階段的趨勢資訊 (依集區和驗證類型細分)。此報告可以顯示指定時段內 (例如，每天或每小時) 主控的工作階段總數，或者可以顯示該時段內傳送的立即訊息總數。
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012年-11-01_
 
 ## <a name="accessing-the-peer-to-peer-im-report"></a>存取對等 IM 報告
 
-您可以存取對等 IM 報告只能透過開啟[對等活動摘要報告在 Lync Server 2013 中](lync-server-2013-peer-to-peer-activity-summary-report.md)，再按一下下列計量之一：
+您可以只 [在 Lync Server 2013 中開啟 Peer-to-Peer 活動摘要報告](lync-server-2013-peer-to-peer-activity-summary-report.md) ，然後按一下下列其中一個計量，即可存取 Peer-to-Peer IM 報告：
 
   - 對等 IM 工作階段總數
 
@@ -84,9 +86,9 @@ _**主題上次修改日期：** 2012年-11-01_
 <td><p>時間範圍的開始日期和時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份查看，請輸入當週或該月內的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
@@ -94,9 +96,9 @@ _**主題上次修改日期：** 2012年-11-01_
 <td><p>時間範圍的結束日期和時間。若要按照小時檢視資料，請輸入結束日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
 <p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
-<p>2012/7/7</p>
+<p>7/7/2012</p>
 <p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
-<p>2012/7/3</p>
+<p>7/3/2012</p>
 <p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
@@ -140,16 +142,16 @@ _**主題上次修改日期：** 2012年-11-01_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>集區</strong></p></td>
 <td><p>否</p></td>
-<td><p>登錄器集區或 Edge Server 的名稱。</p></td>
+<td><p>註冊機構集區或 Edge Server 的名稱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>日期/時間</strong></p></td>
@@ -183,9 +185,9 @@ _**主題上次修改日期：** 2012年-11-01_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>姓名</th>
 <th>可以排序這個項目嗎？</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -194,9 +196,9 @@ _**主題上次修改日期：** 2012年-11-01_
 <td><p>否</p></td>
 <td><p>工作階段參與者所使用的驗證類型。一般來說，值都是下列其中之一：</p>
 <ul>
-<li><p>企業</p></li>
-<li><p>同盟</p></li>
-<li><p>PIC</p></li>
+<li><p>Enterprise</p></li>
+<li><p>聯邦</p></li>
+<li><p>Pic</p></li>
 </ul></td>
 </tr>
 <tr class="even">

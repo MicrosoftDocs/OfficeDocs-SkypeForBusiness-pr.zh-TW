@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 主幹間路由
+title: Lync Server 2013：主幹間路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c0da370ffa95581ccc2d37e19a48aafa096dee3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01b391f66754cf9530bbe66fb66e9f1ae542f297
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525250"
 ---
+# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 中的主幹間路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 中的主幹相互路由
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42186886"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-20 個_
+_**主題上次修改日期：** 2012-10-20_
 
-Lync Server 2013 可以相互連線至公用交換的電話網路 (PSTN) 閘道 IP PBX，以便從 PBX 電話的通話路由至 PSTN，以及傳入 PSTN 通話路由至專用交換機 (pbx) 電話。 同樣地，Lync Server 2013 可以 interconnect 兩個或多個 IP-PBX 系統，以便可以放置和 PBX 電話從不同的 IP PBX 系統之間接收來電。
+Lync Server 2013 可將 IP-PBX 互連至公用交換電話網路 (PSTN) 閘道，以便從 PBX 電話將通話路由傳送至 PSTN，然後將傳入 PSTN 通話路由傳送至專用交換機 (PBX) phone。 同樣地，Lync Server 2013 可以互連兩個或多個 IP-PBX 系統，這樣通話便可在不同 IP-PBX 系統的 PBX 電話間撥打及接收。
 
-此主幹間路由功能可以設定 Lync Server 管理命令介面指令程式， **Set-cstrunkconfiguration**，使用新的參數，PstnUsages。 此參數會指定要使用的 PSTN 使用方式記錄的集合。 主幹使用此 PSTN 使用方式，來判定路由，並據此路由傳送所有來電。
+您可以使用 Lync Server 管理命令介面 Cmdlet **Set-CsTrunkConfiguration**，使用新參數 PstnUsages 來設定此主幹間路由功能。 此參數會指定要使用的 PSTN 使用方式記錄集合。 主幹使用此 PSTN 使用方式判斷路由，並據此路由傳送所有來電。
 
     Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
-下圖說明提供互連功能 PSTN 閘道與 IP-PBX 間的 Lync Server 2013。
+下圖說明 Lync Server 2013 在 PSTN 閘道和 IP-PBX 之間提供 interconnectivity。
 
-**閘道和 IP PBX 之間的主幹相互路由**
+**閘道和 IP PBX 間的主幹間路由**
 
-![Lync Server 連線 PSTN 閘道/IP-PBX 圖表](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server 連線 PSTN 閘道/IP-PBX 圖表")
+![連接 PSTN 閘道/IP-PBX 圖表的 Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "連接 PSTN 閘道/IP-PBX 圖表的 Lync Server")
 
-下圖說明交互連接兩個 IP-PBX 系統的 Lync Server 2013。
+下圖說明 Lync Server 2013 互連兩個 IP-PBX 系統的互連。
 
-**兩個 IP Pbx 之間的主幹相互路由**
+**主幹間兩個 IP PBXs 之間的路由**
 
-![Lync Server 交互連接 IP PAX 系統圖表](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server 交互連接 IP PAX 系統圖表")
+![Lync Server 互連 IP-PAX 系統圖表](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server 互連 IP-PAX 系統圖表")
 
 </div>
 

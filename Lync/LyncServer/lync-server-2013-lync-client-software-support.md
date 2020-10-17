@@ -12,20 +12,22 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b205b8fefd29d537ce772aa3ebb8be02aa0ea14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fcd4c54fb475a9d9c999c8b16b38b0bd4c3a965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525180"
 ---
+# <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013 中的 lync 用戶端軟體支援
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013 中的 lync 用戶端軟體支援
+
 
 </div>
 
@@ -122,7 +124,7 @@ _**主題上次修改日期：** 2016-02-25_
 
 ## <a name="macintosh-operating-systems"></a>Macintosh 作業系統
 
-Lync 2013 僅適用于 Windows。 不過，Lync Server 2013 在執行 Mac OS 10.5.8 或最新 service pack 或版本 (的電腦上支援下列用戶端，目前不) 支援以 Intel 為基礎的) 作業系統 (Mac 作業系統10.9 作業系統。 如需支援的功能的詳細資訊，請參閱[Lync Server 2013 的用戶端比較表](lync-server-2013-desktop-client-comparison-tables.md)。
+Lync 2013 僅適用于 Windows。 不過，Lync Server 2013 在執行 Mac OS 10.5.8 或最新 service pack 或版本 (的電腦上支援下列用戶端，目前不) 支援以 Intel 為基礎的) 作業系統 (Mac 作業系統10.9 作業系統。 如需支援的功能的詳細資訊，請參閱 [Lync Server 2013 的用戶端比較表](lync-server-2013-desktop-client-comparison-tables.md)。
 
   - Microsoft Lync for Mac 2011 (請參閱《 Lync for Mac 2011 部署指南》，網址為 [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786)) 
 
@@ -134,7 +136,7 @@ Lync 2013 僅適用于 Windows。 不過，Lync Server 2013 在執行 Mac OS 10.
 
 ## <a name="lync-web-app-browsers"></a>Lync Web App 瀏覽器
 
-Lync Web App 支援作業系統與瀏覽器的特定組合。 如需詳細資訊，請參閱規劃檔中的[Lync Web App 支援的 Lync Server 2013 平臺](lync-server-2013-lync-web-app-supported-platforms.md)。
+Lync Web App 支援作業系統與瀏覽器的特定組合。 如需詳細資訊，請參閱規劃檔中的 [Lync Web App 支援的 Lync Server 2013 平臺](lync-server-2013-lync-web-app-supported-platforms.md) 。
 
 </div>
 

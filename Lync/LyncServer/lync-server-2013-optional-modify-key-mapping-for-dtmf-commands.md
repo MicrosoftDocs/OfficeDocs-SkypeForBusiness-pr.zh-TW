@@ -1,5 +1,5 @@
 ---
-title: 'DTMF 命令的 Lync Server 2013: （選用） 修改按鍵對應'
+title: Lync Server 2013： (選用) Modify DTMF 命令的按鍵對應
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86986ba2715021e7bf39f5d448f9de5f9a733f54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7104a24c7bf02c310cb1deb7b8f9de3ad51407c9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216489"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524420"
 ---
+# <a name="optional-modify-key-mapping-for-dtmf-commands-in-lync-server-2013"></a> (選用) 在 Lync Server 2013 中修改 DTMF 命令的按鍵對應
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-modify-key-mapping-for-dtmf-commands-in-lync-server-2013"></a>（選用）修改 Lync Server 2013 中的 DTMF 命令的按鍵對應
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42216489"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-30_
+_**主題上次修改日期：** 2012-09-30_
 
-電話撥入式會議使用者可以執行雙音多頻 (DTMF) 命令電話鍵台上按下機碼。 DTMF 命令可讓使用者撥入會議使用其電話按鍵來控制會議設定 （例如靜音和解除靜音本身或鎖定及解除鎖定會議）。 您可以使用 cmdlet 來修改 DTMF 命令所使用的機碼。 此步驟是選用的。
+電話撥入式會議使用者可按下電話按鍵上的按鍵，以執行雙音多頻率 (DTMF) 命令。 DTMF 命令可讓撥入會議的使用者控制會議設定 (例如，靜音和 unmuting 本身，或使用電話上的小鍵盤鎖定和解除鎖定會議) 。 您可以使用 Cmdlet 來修改 DTMF 命令所使用的金鑰。 這是選擇性的步驟。
 
 <div>
 
 
 > [!NOTE]  
-> 如需這些 cmdlet 及可用 DTMF 選項的詳細資訊，請參閱 Lync Server 管理命令介面文件或 Lync Server 管理命令介面命令列說明。
+> 如需這些 Cmdlet 及可能的 DTMF 選項的詳細資訊，請參閱 Lync Server 管理命令介面檔或 Lync Server Management Shell 命令列說明。
 
 
 
@@ -51,19 +53,19 @@ _**主題上次修改日期：** 2012年-09-30_
 
 <div>
 
-## <a name="to-modify-the-key-mapping-of-dtmf-commands"></a>若要修改 DTMF 命令的按鍵對應
+## <a name="to-modify-the-key-mapping-of-dtmf-commands"></a>修改 DTMF 命令的按鍵對應
 
-1.  **以 RTCUniversalServerAdmins**群組成員或**Cs-serveradministrator**或**CsAdministrator**角色的成員身分登入電腦。
+1.  以 **RTCUniversalServerAdmins** 群組成員的身分，或是 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色的成員身分登入電腦。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  在命令提示字元中執行下列命令：
     
         Get-CsDialinConferencingDtmfConfiguration
     
-    此 cmdlet 會傳回用於撥入式會議的 DTMF 設定。
+    此 Cmdlet 會傳回用於電話撥入式會議的 DTMF 設定。
 
-4.  執行下列 cmdlet，並指定要按下您想要變更每個選項的機碼：
+4.  執行下列 Cmdlet，並指定要變更之每個選項的按鍵：
     
         Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
         [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
@@ -71,15 +73,15 @@ _**主題上次修改日期：** 2012年-09-30_
         [-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
         [-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
     
-    此 cmdlet 會修改用於電話撥入式會議的 DTMF 設定。
+    此 Cmdlet 會修改用於電話撥入式會議的 DTMF 設定。
     
     例如：
     
         Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
     
-    此範例可以互換按下啟用或停用宣告並按下靜音和取消靜音所有參與者的索引鍵的索引鍵。 因為指定沒有 Identity，則這些變更會套用至全域 DTMF 設定。
+    這個範例會將已按下的按鍵換用，以啟用或停用用來啟用或停用的宣告和按鍵，以靜音和取消靜音所有參與者。 因為未指定身分識別，所以這些變更會套用到全域 DTMF 設定。
 
-5.  （選用）若要建立 DTMF 命令的特定網站的其他設定，請使用**New CsDialinConferencingDtmfConfiguration**指令程式與網站身分識別。 當您建立新網站的 DTMF 設定時，網站設定優先於全域設定。 如需詳細資訊，請參閱 Lync Server 管理命令介面文件或 Lync Server 管理命令介面命令列說明。
+5.   (選用) 若要為特定網站建立其他 DTMF 命令集，請使用具有網站身分識別的 **set-csdialinconferencingdtmfconfiguration** Cmdlet。 當您為網站建立新的 DTMF 設定時，網站設定會優先于通用設定。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔或 Lync Server Management Shell 命令列說明。
 
 </div>
 

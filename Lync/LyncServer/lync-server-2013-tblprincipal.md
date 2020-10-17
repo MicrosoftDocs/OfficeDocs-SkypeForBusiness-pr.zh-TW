@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblPrincipal'
+title: Lync Server 2013： tblPrincipal
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcf2defebaf557230118bf557800d06a862ed39d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e4b0c8154429fa68bc05e757130e0b92a47e65c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214459"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523760"
 ---
+# <a name="tblprincipal-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipal
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipal-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipal
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42214459"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
 tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
 
@@ -50,20 +52,20 @@ tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>int，非 null</p></td>
 <td><p>主體識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinGuid</p></td>
 <td><p>GUID，非 null</p></td>
-<td><p>主體 GUID。 這是廣泛用來作為替代的主索引鍵因為其意義透過跨越到 Active Directory 網域服務空間。 （如快取的主體 GUID 是等於相對應的 Active Directory 物件的 GUID）。</p></td>
+<td><p>主體 GUID。 因為它的意義會跨越 Active Directory 網域服務空間，所以這會被廣泛當作替代主鍵使用。  (快取主體的 GUID 等於對應的 Active Directory 物件 GUID。 ) </p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUri</p></td>
@@ -122,7 +124,7 @@ tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
 <tr class="odd">
 <td><p>prinPolicyID</p></td>
 <td><p>臨界值</p></td>
-<td><p>對於使用者來說，如果出現標記類型原則的常設聊天室伺服器原則值。</p></td>
+<td><p>如果存在標記類型原則，則為 user 的 Persistent Chat Server policy value。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAddedBy</p></td>
@@ -168,7 +170,7 @@ tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">

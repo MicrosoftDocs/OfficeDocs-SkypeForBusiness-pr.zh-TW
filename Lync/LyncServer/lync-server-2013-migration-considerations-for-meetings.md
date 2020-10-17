@@ -12,20 +12,22 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec650c62b26775aeddf9f01ff8d455a6f6a7667
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48ee24dca1cdf083de990ef42dae4017ed927e15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185102"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524560"
 ---
+# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013 中的會議遷移考慮
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013 中的會議遷移考慮
+
 
 </div>
 
@@ -110,7 +112,7 @@ _**主題上次修改日期：** 2014-02-10_
 
   - 會議內容，例如 PowerPoint 簡報、白板內容和輪詢資料
 
-若要移動會議中已共用的內容，請使用 Move-CsUser Cmdlet 的 MoveMeetingContent 參數。 如需使用此 Cmdlet 的詳細資訊，請參閱 Lync Server 2013 Cmdlet 檔中的[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 。
+若要移動會議中已共用的內容，請使用 Move-CsUser Cmdlet 的 MoveMeetingContent 參數。 如需使用此 Cmdlet 的詳細資訊，請參閱 Lync Server 2013 Cmdlet 檔中的 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 。
 
 </div>
 
@@ -128,7 +130,7 @@ Office 通訊伺服器 2007 R2 會議是電話會議 (conf://URL 首碼) 或網�
 
 ## <a name="user-experience-during-lync-server-2010-migration"></a>Lync Server 2010 遷移期間的使用者經驗
 
-本節提供從 Lync 2010 遷移時，使用者的會議體驗摘要。 如需 Lync Server 2013 用戶端如何共存及與舊版用戶端及伺服器版本互動的詳細資訊，請參閱[Lync 2013 中的用戶端互通性](lync-server-2013-client-interoperability-in-lync-2013.md)。
+本節提供從 Lync 2010 遷移時，使用者的會議體驗摘要。 如需 Lync Server 2013 用戶端如何共存及與舊版用戶端及伺服器版本互動的詳細資訊，請參閱 [Lync 2013 中的用戶端互通性](lync-server-2013-client-interoperability-in-lync-2013.md)。
 
 <div>
 
@@ -136,9 +138,9 @@ Office 通訊伺服器 2007 R2 會議是電話會議 (conf://URL 首碼) 或網�
 
 從 Lync Server 2010 遷移期間，當使用者使用 Lync 2013 用戶端加入 Lync Server 2010 會議時，可能會有一段共存。 這些使用者可以存取 Lync 2013 用戶端功能，但有下列例外：
 
-  - 在 [**參與者**管理] 選項中，透過指向會議視窗中的 [人員] 圖示可供存取，[**無會議 IM** ] 選項不會正常運作。
+  - 在 [ **參與者** 管理] 選項中，透過指向會議視窗中的 [人員] 圖示可供存取，[ **無會議 IM** ] 選項不會正常運作。
 
-  - 圖庫 View 在影片會議中無法運作。 使用者只會看到使用中的音箱，而不是所有的揚聲器。 在 [**選擇版面**配置選項] 清單中，無法使用**圖庫 View**功能
+  - 圖庫 View 在影片會議中無法運作。 使用者只會看到使用中的音箱，而不是所有的揚聲器。 在 [ **選擇版面** 配置選項] 清單中，無法使用 **圖庫 View** 功能
 
   - 在 [影片會議] 中，預設會顯示參與者清單。
 
@@ -152,7 +154,7 @@ Office 通訊伺服器 2007 R2 會議是電話會議 (conf://URL 首碼) 或網�
 
 ## <a name="user-experience-during-office-communications-server-2007-r2-migration"></a>Office 通訊伺服器 2007 R2 遷移期間的使用者經驗
 
-本節提供在安裝 Lync 2013 之前和之後，從 Office 通訊伺服器 2007 R2 進行遷移時，使用者的會議體驗摘要。 如需 Lync Server 2013 用戶端如何共存及與舊版用戶端及伺服器版本互動的詳細資訊，請參閱[Lync 2013 中的用戶端互通性](lync-server-2013-client-interoperability-in-lync-2013.md)。
+本節提供在安裝 Lync 2013 之前和之後，從 Office 通訊伺服器 2007 R2 進行遷移時，使用者的會議體驗摘要。 如需 Lync Server 2013 用戶端如何共存及與舊版用戶端及伺服器版本互動的詳細資訊，請參閱 [Lync 2013 中的用戶端互通性](lync-server-2013-client-interoperability-in-lync-2013.md)。
 
 <div>
 

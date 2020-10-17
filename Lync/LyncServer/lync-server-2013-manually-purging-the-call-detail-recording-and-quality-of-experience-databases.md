@@ -1,5 +1,5 @@
 ---
-title: 手動清除詳細通話記錄及經驗品質資料庫
+title: 手動清除詳細通話記錄與經驗品質資料庫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6797d5e65f182e8a28bb442858070ffed19fcc80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b34b3a0dd79651ef288740243313d58482959e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185376"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524780"
 ---
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>在 Lync Server 2013 中手動清除詳細通話記錄與經驗品質資料庫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>手動清除詳細通話記錄及 Lync Server 2013 中的經驗品質資料庫
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42185376"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-07-07_
+_**主題上次修改日期：** 2014-07-07_
 
-系統管理員可以設定詳細通話記錄 (CDR) 和/或經驗品質 (QoE) 資料庫會自動從資料庫; 清除舊的記錄會發生這種情況是如果清除已啟用指定的資料庫 （CDR 或 QoE），而且如果有任何已超過指定的時間量資料庫中的記錄。 例如，管理員可以設定系統在每天早上 1:00 從 QoE 資料庫中刪除超過 60 天的 QoE 記錄。
+管理員可以設定詳細通話記錄 (CDR) 和/或經驗品質 (QoE) 資料庫自動清除資料庫中的舊記錄;如果已對指定的資料庫 (CDR 或 QoE) 中已啟用清除，而且如果資料庫中的任何記錄的長度超過指定的時間，便會發生這種情況。 例如，管理員可以設定系統在每天早上 1:00 從 QoE 資料庫中刪除超過 60 天的 QoE 記錄。
 
-除了自動清除，兩個新的 cmdlet-Invoke-cscdrdatabasepurge 和 Invoke CsQoEDatbasePurge--已新增至 Microsoft Lync Server 2013;這些 cmdlet 可讓系統管理員可以隨時手動清除 CDR 和 QoE 資料庫的記錄。 例如，如要從 CDR 資料庫中手動清除所有超過 10 天的記錄，可使用如下的命令：
+除了自動清除之外，還會將兩個新的 Cmdlet （Invoke-CsCdrDatabasePurge 和 Invoke-CsQoEDatbasePurge）新增至 Microsoft Lync Server 2013;這些 Cmdlet 可讓系統管理員在任何時間從 CDR 和 QoE 資料庫手動清除記錄。 例如，如要從 CDR 資料庫中手動清除所有超過 10 天的記錄，可使用如下的命令：
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
-在上述命令中同時通話詳細記錄及診斷資料記錄較 10 天將從 atl-cs-001.litwareinc.com-sql-001.litwareinc.com 的監控資料庫中刪除。 （詳細通話記錄是使用者/工作階段的報告。 診斷資料記錄是由用戶端應用程式，例如 Lync 2013 上傳的診斷記錄。）
+在上述命令中，會從 atl-sql-001.litwareinc.com 上的監視資料庫刪除詳細通話記錄及超過10天的診斷資料記錄。  (詳細通話記錄是使用者/會話報告。 診斷資料記錄是用戶端應用程式（如 Lync 2013）上傳的診斷記錄。 ) 
 
-如上所示，執行 Invoke-CsCdrDatabasePurge Cmdlet 時，必須同時包括 PurgeCallDetaiDataOlderThanDays 及 PurgeDiagnosticDataOlderThanDays 參數。 不過，這些參數不需要設為相同的值。 例如，可以清除資料庫中超過 10 天的詳細通話記錄，但同時保留所有的診斷資料記錄。 若要這麼做，請設定為 10 和 PurgeDiagnosticDataOlderThanDays PurgeCallDetailDataOlderThanDays 設為 0。 例如：
+如上所示，執行 Invoke-CsCdrDatabasePurge Cmdlet 時，必須同時包括 PurgeCallDetaiDataOlderThanDays 及 PurgeDiagnosticDataOlderThanDays 參數。 不過，這些參數不需要設為相同的值。 例如，可以清除資料庫中超過 10 天的詳細通話記錄，但同時保留所有的診斷資料記錄。 若要這麼做，請將 PurgeCallDetailDataOlderThanDays 設定為10，並將 PurgeDiagnosticDataOlderThanDays 設定為0。 例如：
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 災害復原期間管理通話駐留
+title: Lync Server 2013：在嚴重損壞修復期間管理通話駐留
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15504abdef41d56a744fc0e922cc9f636b888800
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a12abceb5972325f0843e8fb8500d7ac2b45c725
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185956"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525010"
 ---
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中的嚴重損壞修復期間管理通話駐留
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 中的災害復原期間管理通話駐留
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42185956"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-10_
+_**主題上次修改日期：** 2012-09-10_
 
-Lync Server 2013 支援備份集區中的通話駐留災害復原期間。 本小節會說明若您想要支援系統中斷期間的通話駐留和會發生什麼情況駐留的通話中斷的階段期間的考量事項。
+在發生嚴重損壞復原時，Lync Server 2013 支援備份組區中的通話駐留。 本節說明當您想要在中斷期間支援通話駐留，以及中斷期間中斷通話的情況時，應考慮的事項。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [規劃 Lync Server 2013 中的通話駐留災害復原](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [在 Lync Server 2013 中規劃通話駐留災難修復](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [Lync Server 2013 的集區失敗期間的通話駐留經驗](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [集區失敗期間的 Lync Server 2013 中的通話駐留體驗](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

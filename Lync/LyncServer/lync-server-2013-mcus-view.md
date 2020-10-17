@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Mcus 檢視'
+title: Lync Server 2013： Mcus view
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b8eb302dc63a01ad052fd86debec5baac9dd68a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7512054e3b0f1e4edaf7736558bed1df8c9b08d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217709"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524650"
 ---
+# <a name="mcus-view-in-lync-server-2013"></a>Lync Server 2013 中的 Mcus 視圖
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcus-view-in-lync-server-2013"></a>Lync Server 2013 中的 Mcus 檢視
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42217709"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-01_
+_**主題上次修改日期：** 2012-10-01_
 
-Mcus 檢視儲存會議工作階段 Mcu 的相關資訊。 Microsoft Lync Server 2013 中已採用此檢視。
+Mcus view 會儲存參與會議會話之 MCUs 的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
 
 
 <table>
@@ -61,13 +63,13 @@ Mcus 檢視儲存會議工作階段 Mcu 的相關資訊。 Microsoft Lync Server
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>Nvarchar (450) </p></td>
 <td><p>MCU 的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>MCU 的 URI 類型。 請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>如需詳細資訊。</p></td>
+<td><p>Nvarchar (256) </p></td>
+<td><p>MCU URI 的類型。 如需詳細資訊，請參閱 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a> 。</p></td>
 </tr>
 </tbody>
 </table>

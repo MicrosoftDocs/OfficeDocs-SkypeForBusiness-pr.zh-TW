@@ -12,20 +12,22 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afc2b1599551cfc3b7ee7341e441946610166ba0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 46242343d6da54a6ac1123663734645fd4f64a5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525000"
 ---
+# <a name="manage-external-access-policy-in-lync-server-2013"></a>在 Lync Server 2013 中管理外部存取原則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-external-access-policy-in-lync-server-2013"></a>在 Lync Server 2013 中管理外部存取原則
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2013-10-07_
 
 
 > [!IMPORTANT]  
-> 套用於一個原則層級的 Lync Server 原則設定可以覆寫在另一個原則層級套用的設定。 Lync Server 原則優先順序是：使用者原則（影響最大）會覆寫網站原則，然後網站原則會覆寫全域原則（影響最小）。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
+> 套用於一個原則層級的 Lync Server 原則設定可以覆寫在另一個原則層級套用的設定。 Lync Server 原則優先順序是：使用者原則 (最大的影響) 覆寫網站原則，然後網站原則會覆寫全域原則 (最小影響) 。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
 
 
 
@@ -67,14 +69,14 @@ _**主題上次修改日期：** 2013-10-07_
     
 
     > [!NOTE]  
-    > 如果您啟用 XMPP 同盟，您也必須在拓撲產生器的 [Edge 集區] 設定區段中，選取 [部署<STRONG>XMPP 同盟</STRONG>]。 針對 XMPP 同盟進行設定會在 Edge Server 上部署 XMPP Proxy，並在前端伺服器上部署 XMPP 閘道。
+    > 如果您啟用 XMPP 同盟，您也必須在拓撲產生器的 [Edge 集區] 設定區段中，選取 [部署 <STRONG>XMPP 同盟</STRONG> ]。 針對 XMPP 同盟進行設定會在 Edge Server 上部署 XMPP Proxy，並在前端伺服器上部署 XMPP 閘道。
 
     
     </div>
 
   - **啟用與遠端使用者**     的通訊如果您想要在您的組織中的使用者（例如出差的遠端辦公和使用者）可以透過網際網路連線至 Lync Server，請啟用此選項。
 
-  - **啟用與公用使用者**     的通訊如果您希望內部使用者能夠與公用 IM 提供者連絡人（如 Windows Live、Yahoo \! 和北美線上（AOL）等）進行通訊，請啟用此選項。
+  - **啟用與公用使用者**     的通訊如果您希望內部使用者能夠與公用 IM 提供者連絡人（如 Windows Live、Yahoo \! 和北美線上 (AOL) 所提供的連絡人）進行通訊，請啟用此選項。
     
     <div>
     
@@ -82,7 +84,7 @@ _**主題上次修改日期：** 2013-10-07_
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>從2012年9月1日起，Microsoft Lync 公開 IM 連線使用者訂閱授權（「PIC USL」）已不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
+    > <P>從2012年9月1日起，Microsoft Lync Public IM 連線使用者訂閱授權 ( 「PIC USL」 ) 不再提供購買新的或更新的協定。 具有使用中授權的客戶將可以繼續與 Yahoo！進行聯盟 信使直到服務關閉日期。 AOL 和 Yahoo！的循環結束日期為2014年6月 已宣告。 如需詳細資訊，請參閱 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">支援 Lync Server 2013 中的公用立即信使</A>連線。</P>
     > <LI>
     > <P>PIC USL 是 Lync Server 或 Office 通訊伺服器與 Yahoo！進行同盟所需的個別使用者每個月訂閱授權 信使。 Microsoft 提供此服務的能力已因 Yahoo！中的支援而產生，其所向下纏繞的底層合約。</P>
     > <LI>
@@ -95,7 +97,7 @@ _**主題上次修改日期：** 2013-10-07_
 
 
 > [!NOTE]  
-> 除了啟用外部使用者存取支援，您還必須設定相關原則以控制組織外部使用者存取的使用，接著再為使用者提供任何類型的外部使用者存取。 如需建立、設定及套用外部使用者存取原則的詳細資訊，請參閱<A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access In Lync Server 2013</A>。
+> 除了啟用外部使用者存取支援，您還必須設定相關原則以控制組織外部使用者存取的使用，接著再為使用者提供任何類型的外部使用者存取。 如需建立、設定及套用外部使用者存取原則的詳細資訊，請參閱 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access In Lync Server 2013</A>。
 
 
 
@@ -103,7 +105,7 @@ _**主題上次修改日期：** 2013-10-07_
 
 **使用 Windows PowerShell Cmdlet 來檢視外部存取原則**
 
-  - 您可以使用 Lync Server 管理命令介面和**Get-CsExternalAccessPolicy** Cmdlet 來查看外部存取原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+  - 您可以使用 Lync Server 管理命令介面和 **Get-CsExternalAccessPolicy** Cmdlet 來查看外部存取原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
     
     若要檢視關於您所有外部存取原則的資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
     

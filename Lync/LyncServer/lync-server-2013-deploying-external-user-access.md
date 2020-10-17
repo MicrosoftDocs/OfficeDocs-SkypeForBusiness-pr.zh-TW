@@ -12,20 +12,22 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 960f5d895f821e8d9bbc6fa71f451ee455d88388
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1878b011ce62ff732f9b31fb905c012872fe743
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525310"
 ---
+# <a name="deploying-external-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中部署外部使用者存取
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-external-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中部署外部使用者存取
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2013-09-23_
 
 
 > [!IMPORTANT]  
-> Microsoft Lync Server 2013 &nbsp; Edge server 安裝和設定可能是複雜的程式，需要對您的內部小組進行大量的規劃與協調，包括（但不限於）安全性、網路、防火牆、網域名稱系統 (DNS) 、負載平衡器及公開金鑰基礎結構 (PKI) 考慮。 強烈建議您檢查並使用所提供的規劃程式及檔，再部署外部存取元件。 在您進行部署程式時，這會協助限制不想要的變更和問題的數量和頻率。 如需規劃外部使用者存取的詳細資訊，請參閱<A href="lync-server-2013-planning-for-external-user-access.md">在 Lync Server 2013 中規劃外部使用者存取</A>。
+> Microsoft Lync Server 2013 &nbsp; Edge server 安裝和設定可能是複雜的程式，需要對您的內部小組進行大量的規劃與協調，包括（但不限於）安全性、網路、防火牆、網域名稱系統 (DNS) 、負載平衡器及公開金鑰基礎結構 (PKI) 考慮。 強烈建議您檢查並使用所提供的規劃程式及檔，再部署外部存取元件。 在您進行部署程式時，這會協助限制不想要的變更和問題的數量和頻率。 如需規劃外部使用者存取的詳細資訊，請參閱 <A href="lync-server-2013-planning-for-external-user-access.md">在 Lync Server 2013 中規劃外部使用者存取</A>。
 
 
 

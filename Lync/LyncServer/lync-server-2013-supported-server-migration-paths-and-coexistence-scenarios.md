@@ -12,20 +12,22 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab7d85bd25c6123b3befd3520289e40c63461970
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523970"
 ---
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 中支援的伺服器遷移路徑和共存案例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 中支援的伺服器遷移路徑和共存案例
+
 
 </div>
 
@@ -92,7 +94,7 @@ Lync Server 2013 可以與 Lync Server 2010 部署或 Office 通訊伺服器 200
 
 </div>
 
-如需有關 Lync Server 2010 或 Office 通訊伺服器 2007 R2 和 Lync Server 2013 元件共存及遷移的特定共存需求和其他詳細資料，請參閱遷移檔中的[從 Lync server 2010 遷移至 lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md)及[從 Office 通訊伺服器 2007 R2 遷移至 lync server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) 。 如需用戶端混合版本支援的詳細資訊，請參閱[Lync Server 2013 中的先前部署支援的用戶端](lync-server-2013-supported-clients-from-previous-deployments.md)。
+如需有關 Lync Server 2010 或 Office 通訊伺服器 2007 R2 和 Lync Server 2013 元件共存及遷移的特定共存需求和其他詳細資料，請參閱遷移檔中的 [從 Lync server 2010 遷移至 lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) 及 [從 Office 通訊伺服器 2007 R2 遷移至 lync server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) 。 如需用戶端混合版本支援的詳細資訊，請參閱 [Lync Server 2013 中的先前部署支援的用戶端](lync-server-2013-supported-clients-from-previous-deployments.md)。
 
 </div>
 

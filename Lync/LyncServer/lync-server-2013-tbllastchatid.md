@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tbllastchatid 表格'
+title: Lync Server 2013： tblLastChatId
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1def19b45f09a81c1bd5a1504151bfb919f6c4f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b184d863ff9d0404fbc05b90a88f7c203499262a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523820"
 ---
+# <a name="tbllastchatid-in-lync-server-2013"></a>Lync Server 2013 中的 tblLastChatId
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbllastchatid-in-lync-server-2013"></a>Lync Server 2013 中的 tbllastchatid 表格
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42208089"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
 tblLastChatId 表格包含為每個使用者產生 (且用於 tblChat 表格) 的最後一個交談 ID。
 
@@ -50,13 +52,13 @@ tblLastChatId 表格包含為每個使用者產生 (且用於 tblChat 表格) �
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>節點識別碼</p></td>
+<td><p>nodeID</p></td>
 <td><p>int，非 null</p></td>
 <td><p>節點識別碼 (僅聊天室類型)。</p></td>
 </tr>
@@ -84,11 +86,11 @@ tblLastChatId 表格包含為每個使用者產生 (且用於 tblChat 表格) �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;節點識別碼 lastChatID&gt;</p></td>
+<td><p>&lt;nodeID，lastChatID&gt;</p></td>
 <td><p>主索引鍵 (處理時僅有 nodeID 已足夠)。</p></td>
 </tr>
 <tr class="even">
-<td><p>節點識別碼</p></td>
+<td><p>nodeID</p></td>
 <td><p>在 tblNode.nodeID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>

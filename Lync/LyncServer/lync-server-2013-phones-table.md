@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Phones 表格'
+title: Lync Server 2013：電話表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f7a03cdad1e3b080bb62db31ea1796e14cd2887
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1f7e2a4cb5d55dad8284e71688d3ee41ce05856
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524180"
 ---
+# <a name="phones-table-in-lync-server-2013"></a>Lync Server 2013 中的電話表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a>Lync Server 2013 中的 phones 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42215469"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-08-20 個_
+_**主題上次修改日期：** 2012-08-20_
 
-Phones 表格是一種支援資料表。 在資料表中的每一筆記錄儲存一個電話號碼中擁有記錄資料庫中的 VoIP 通話的相關資訊。
+電話系表是支援的表格。 資料表中的每一筆記錄都儲存在包含資料庫中記錄的 VoIP 通話中相關的一個電話號碼相關資訊。
 
 
 <table>
@@ -51,7 +53,7 @@ Phones 表格是一種支援資料表。 在資料表中的每一筆記錄儲存
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -64,16 +66,16 @@ Phones 表格是一種支援資料表。 在資料表中的每一筆記錄儲存
 </tr>
 <tr class="even">
 <td><p><strong>PhoneUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>Nvarchar (450) </p></td>
 <td><p> </p></td>
 <td><p>電話號碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>dateTime</p></td>
+<td><p>Datetime</p></td>
 <td></td>
-<td><p>時間戳記 （僅限內部使用）。</p>
-<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
+<td><p>僅供內部使用) 的時間戳記 (。</p>
+<p>此欄位是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 </tbody>
 </table>

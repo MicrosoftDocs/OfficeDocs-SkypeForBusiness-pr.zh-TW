@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Mcus 表格'
+title: Lync Server 2013： Mcus 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb0e54f1f7a8e94b4d87fee9f79cd4228b3fd49d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 696a32ec4329b06c67dc8c54ba3ff2c1f15486d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185306"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524660"
 ---
+# <a name="mcus-table-in-lync-server-2013"></a>Lync Server 2013 中的 Mcus 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcus-table-in-lync-server-2013"></a>Lync Server 2013 中的 Mcus 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42185306"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
-Mcus 表格是一種支援資料表。 每一筆記錄會儲存一個會議服務的相關資訊。 這些可包括 IM 會議服務和電話語音會議服務 （前端伺服器執行為程序），和 Web 會議服務和 A / V 會議服務。
+Mcus 表格是支援的表格。 每筆記錄儲存一筆會議服務的相關資訊。 這些可包含 IM 會議服務和電話語音會議服務 (，此服務會在前端伺服器上執行為處理常式) ，以及 Web 會議服務和 A/V 會議服務。
 
 
 <table>
@@ -51,7 +53,7 @@ Mcus 表格是一種支援資料表。 每一筆記錄會儲存一個會議服�
 <tr class="header">
 <th>欄</th>
 <th>資料類型</th>
-<th>主索引鍵 /</th>
+<th>索引鍵/索引</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -60,19 +62,19 @@ Mcus 表格是一種支援資料表。 每一筆記錄會儲存一個會議服�
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要</p></td>
-<td><p>用於識別此會議伺服器的唯一號碼。</p></td>
+<td><p>用於識別此會議服務器的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>Nvarchar (450) </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuTypeId</strong></p></td>
 <td><p>inyint</p></td>
-<td><p> 外部</p></td>
-<td><p>會議伺服器類型，例如 conf:chat （適用於 Im) 或 conf:audio-視訊。 請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>如需詳細資訊。</p></td>
+<td><p> 外國</p></td>
+<td><p>會議服務器類型，例如會議： Im) 或會議：音訊-影片的聊天室 (。 如需詳細資訊，請參閱 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a> 。</p></td>
 </tr>
 </tbody>
 </table>

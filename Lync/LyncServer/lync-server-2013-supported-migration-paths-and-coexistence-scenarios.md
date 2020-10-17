@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 支援的移轉路徑和並存案例
+title: Lync Server 2013：支援的遷移路徑和共存案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184182
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee00d806669718baec5352a1cfb5769b5d5dcb0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d6db92075fefdba42126a9051e5f2d68ef0f4c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524030"
 ---
+# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 中支援的遷移路徑和共存案例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>支援的移轉路徑和 Lync Server 2013 中的共存案例
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42181546"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-04-30_
+_**主題上次修改日期：** 2012-04-30_
 
-Lync Server 2013 支援從 Microsoft Lync Server 2010 與 Microsoft Office Communications Server 2007 R2，包括特定用戶端與先前部署的伺服器元件共存的移轉。
+Lync Server 2013 支援從 Microsoft Lync Server 2010 和 Microsoft Office 通訊伺服器 2007 R2 進行遷移，包括與這些先前部署的特定用戶端和伺服器元件共存。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [支援的伺服器轉移路徑和 Lync Server 2013 中的共存案例](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
+  - [Lync Server 2013 中支援的伺服器遷移路徑和共存案例](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
 
-  - [從 Lync Server 2013 中的舊部署支援的用戶端](lync-server-2013-supported-clients-from-previous-deployments.md)
+  - [Lync Server 2013 的先前部署支援的用戶端](lync-server-2013-supported-clients-from-previous-deployments.md)
 
 </div>
 

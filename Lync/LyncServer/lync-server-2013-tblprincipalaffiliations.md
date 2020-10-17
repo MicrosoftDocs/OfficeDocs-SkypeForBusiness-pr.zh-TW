@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Principalaffiliations'
+title: Lync Server 2013： tblPrincipalAffiliations
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a57e4a3c7a5fdcc1825c140cb6e26f8cede8dc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec2ef70b70ff496852a753a9e15a38f80de1509b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214439"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523740"
 ---
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalAffiliations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 Principalaffiliations
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42214439"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
-Principalaffiliations 包含主體關係，可描述位置，包括 Active Directory 網域服務的安全性群組，在 Active Directory 容器，在網域中的成員資格。
+tblPrincipalAffiliations 包含主體隸屬關係，描述位置中的成員資格，包括 Active directory 網域服務安全性群組、Active Directory 容器中的網域。
 
 ### <a name="columns"></a>Columns
 
@@ -50,7 +52,7 @@ Principalaffiliations 包含主體關係，可描述位置，包括 Active Direc
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -58,22 +60,22 @@ Principalaffiliations 包含主體關係，可描述位置，包括 Active Direc
 <tr class="odd">
 <td><p>principalID</p></td>
 <td><p>int，非 null</p></td>
-<td><p>相關主體的識別碼。</p></td>
+<td><p>附屬主體的識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>affiliationID</p></td>
 <td><p>int，非 null</p></td>
-<td><p>代表關係的主體識別碼。 每個主體 （除了系統使用者類型） 都有也自我 affiliation。</p></td>
+<td><p>代表隸屬關係之主體的識別碼。 除了系統使用者類型) 之外，每個主體 (都具有自我從屬。</p></td>
 </tr>
 <tr class="odd">
 <td><p>index</p></td>
 <td><p>int，非 null</p></td>
-<td><p>索引。 自我關係的值為-1，而且其他關係的也會增加循序 1 中每個&lt;principalID，affiliationId&gt; bucket。</p></td>
+<td><p>指數。 「自我隸屬關係」的值是-1，另一個隸屬關係會依序從每個 &lt; principalID、affiliationId bucket 中的1增加 &gt; 。</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
 <td><p>int，非 null</p></td>
-<td><p>最近一次更新的主體。 這通常是 1，這表示 Active Directory 同步處理。</p></td>
+<td><p>進行最新更新的主體。 這通常是1，表示 Active Directory 同步處理。</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,12 +91,12 @@ Principalaffiliations 包含主體關係，可描述位置，包括 Active Direc
 <thead>
 <tr class="header">
 <th>Columns</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;principalID、 索引、 affiliationID&gt;</p></td>
+<td><p>&lt;principalID、index、affiliationID&gt;</p></td>
 <td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">

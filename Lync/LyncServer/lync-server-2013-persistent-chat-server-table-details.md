@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 常設聊天室伺服器資料表詳細資料
+title: Lync Server 2013： Persistent Chat Server table 詳細資料
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e103fa03aa747e0c04a680507fe6d57bd6de04d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cde75ceb141a81af1b6a093742edd23b4adf1716
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215579"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524220"
 ---
+# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>Lync Server 2013 中的持久聊天伺服器表格詳細資料
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>在 Lync Server 2013 常設聊天室伺服器資料表詳細資料
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42215579"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-25_
+_**主題上次修改日期：** 2012-06-25_
 
-下列主題將詳細說明每個常設聊天室資料庫架構表格中的資料行。
+下列主題詳述每個 Persistent Chat database schema tables 中的欄。
 
 <div>
 
@@ -49,17 +51,17 @@ _**主題上次修改日期：** 2012年-06-25_
 
   - [Lync Server 2013 中的 tblADUpdates](lync-server-2013-tbladupdates.md)
 
-  - [Lync Server 2013 中的 tblprincipalmembers 表格](lync-server-2013-tblprincipalmembers.md)
+  - [Lync Server 2013 中的 tblPrincipalMembers](lync-server-2013-tblprincipalmembers.md)
 
-  - [Lync Server 2013 中的 tblprincipalmeta 表格](lync-server-2013-tblprincipalmeta.md)
+  - [Lync Server 2013 中的 tblPrincipalMeta](lync-server-2013-tblprincipalmeta.md)
 
   - [Lync Server 2013 中的 tblSkippedAffiliations](lync-server-2013-tblskippedaffiliations.md)
 
-  - [Lync Server 2013 中的參照 tblPrincipalType](lync-server-2013-tblprincipaltype.md)
+  - [Lync Server 2013 中的 tblPrincipalType](lync-server-2013-tblprincipaltype.md)
 
   - [Lync Server 2013 中的 tblPrincipal](lync-server-2013-tblprincipal.md)
 
-  - [Lync Server 2013 中的 Principalaffiliations](lync-server-2013-tblprincipalaffiliations.md)
+  - [Lync Server 2013 中的 tblPrincipalAffiliations](lync-server-2013-tblprincipalaffiliations.md)
 
   - [Lync Server 2013 中的 tblNode](lync-server-2013-tblnode.md)
 
@@ -79,15 +81,15 @@ _**主題上次修改日期：** 2012年-06-25_
 
   - [Lync Server 2013 中的 tblChat](lync-server-2013-tblchat.md)
 
-  - [Lync Server 2013 中的 tbllastinviteid 表格](lync-server-2013-tbllastinviteid.md)
+  - [Lync Server 2013 中的 tblLastInviteId](lync-server-2013-tbllastinviteid.md)
 
-  - [Lync Server 2013 中的 tbllastchatid 表格](lync-server-2013-tbllastchatid.md)
+  - [Lync Server 2013 中的 tblLastChatId](lync-server-2013-tbllastchatid.md)
 
   - [Lync Server 2013 中的 tblPreference](lync-server-2013-tblpreference.md)
 
   - [Lync Server 2013 中的 tblFileToken](lync-server-2013-tblfiletoken.md)
 
-  - [tblServerIdentity 在 Lync Server 2013](lync-server-2013-tblserveridentity.md)
+  - [Lync Server 2013 中的 tblServerIdentity](lync-server-2013-tblserveridentity.md)
 
   - [Lync Server 2013 中的 tblAdminLock](lync-server-2013-tbladminlock.md)
 
@@ -99,7 +101,7 @@ _**主題上次修改日期：** 2012年-06-25_
 
   - [Lync Server 2013 中的 tblComplianceData](lync-server-2013-tblcompliancedata.md)
 
-  - [Lync Server 2013 中的 tblcompliancefanout 表格](lync-server-2013-tblcompliancefanout.md)
+  - [Lync Server 2013 中的 tblComplianceFanout](lync-server-2013-tblcompliancefanout.md)
 
   - [Lync Server 2013 中的 tblComplianceParticipant](lync-server-2013-tblcomplianceparticipant.md)
 

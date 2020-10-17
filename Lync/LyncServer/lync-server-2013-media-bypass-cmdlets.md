@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 媒體旁路 cmdlet
+title: Lync Server 2013：媒體旁路 Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d5ac7ad7a1f65ed038dcbb570bb4bbfc0b76337
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a866871da028f134c21828b8d26a74e7ba8af169
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185226"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524600"
 ---
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的媒體旁路 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>媒體旁路 Lync Server 2013 的 cmdlet
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42185226"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-03-21_
+_**主題上次修改日期：** 2012-03-21_
 
-媒體旁路指的是移除媒體路徑儘通話訊號周遊中繼伺服器移除中繼伺服器。
+媒體旁路是指當呼叫的轉送伺服器的信號流經轉送伺服器時，從媒體路徑移除轉送伺服器。
 
 <div>
 
 ## <a name="media-bypass-cmdlets"></a>Media Bypass Cmdlets
 
-使用下列 cmdlet 來設定媒體旁路。
+使用下列 Cmdlet 來設定媒體旁路。
 
 **媒體旁路**
 
@@ -53,13 +55,13 @@ _**主題上次修改日期：** 2012年-03-21_
 <!-- end list -->
 
   - <span></span>  
-    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
+    [Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [移除 CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
+    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [設定 CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
+    [CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 </div>
 
@@ -68,8 +70,8 @@ _**主題上次修改日期：** 2012年-03-21_
 ## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中的媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[在 Lync Server 2013 中規劃媒體旁路](lync-server-2013-planning-for-media-bypass.md)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9437df126889aefb8400b50d118d44dac12f285d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46f9236bfbd110ee17811edec2e3e81fc4a0e0f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208259"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524160"
 ---
+# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 中支援的 Active Directory 拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 中支援的 Active Directory 拓撲
+
 
 </div>
 
@@ -159,7 +161,7 @@ Lync Server 支援在中央樹系拓撲中設定多個樹系。 中央樹系拓�
 
 在此拓撲中，一或多個樹系位於內部部署，而且專用於主控 Active Directory 使用者帳戶。 資源樹系位於內部部署，由協力廠商主機服務提供者維護。 資源樹系僅包含從內部部署使用者帳戶樹系 (s) 中的 Lync Server 部署和使用者帳戶的同步複寫。 不包含啟用登入的使用者帳戶。 Exchange 是在內部部署使用者帳戶樹系中部署 (s) 與 Exchange Online (混合式) ，或內部部署使用者帳戶的電子郵件服務，由 Exchange Online 獨佔提供。
 
-資源樹系充當內部部署 Active Directory 樹系的共用服務環境 (s) 使用者物件所在的位置。 使用者帳戶樹系 (s) 具有與資源樹系的單向樹系層級信任關係。 當您在此類型的拓撲中部署 Lync Server 時，您會在資源樹系中為使用者樹系中的每個使用者帳戶建立一個已停用的使用者物件。 目錄同步處理產品 (例如 MIIS、Microsoft Forefront Identity Manager (FIM) 2010 或 Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1)) 會管理使用者帳戶的生命週期。 在其中一個使用者樹系中建立新的使用者帳戶，或在樹系中刪除使用者帳戶時，目錄同步處理產品就會在資源樹系中同步處理對應的使用者表示。 如需設定多樹系部署的詳細資訊，請參閱[在多樹系架構中部署 Lync， (第三個樹系的 lync 具有 Exchange 混合) ](https://go.microsoft.com/fwlink/p/?linkid=513216)。
+資源樹系充當內部部署 Active Directory 樹系的共用服務環境 (s) 使用者物件所在的位置。 使用者帳戶樹系 (s) 具有與資源樹系的單向樹系層級信任關係。 當您在此類型的拓撲中部署 Lync Server 時，您會在資源樹系中為使用者樹系中的每個使用者帳戶建立一個已停用的使用者物件。 目錄同步處理產品 (例如 MIIS、Microsoft Forefront Identity Manager (FIM) 2010 或 Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1)) 會管理使用者帳戶的生命週期。 在其中一個使用者樹系中建立新的使用者帳戶，或在樹系中刪除使用者帳戶時，目錄同步處理產品就會在資源樹系中同步處理對應的使用者表示。 如需設定多樹系部署的詳細資訊，請參閱 [在多樹系架構中部署 Lync， (第三個樹系的 lync 具有 Exchange 混合) ](https://go.microsoft.com/fwlink/p/?linkid=513216)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 支援 edge 元件的伺服器共同配置
+title: Lync Server 2013： edge 元件支援的伺服器組合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77e15580cdf9676f4e87cc6a9f385d2b75c16eb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 71c8e30cfd4257982781e446a61c18518b570e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524000"
 ---
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 中的 edge 元件支援的伺服器組合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>適用於 Lync Server 2013 中的 edge 元件支援的伺服器共同配置
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42181556"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
-Access Edge 服務、 Web Conferencing Edge service 為 A / V Edge service 和 XMPP Proxy 服務組合在 Edge Server 上。 下列伺服器提供外部使用者存取所需的各項功能，而且必須部署在專用伺服器：
+在 Edge Server 上組合 Access Edge service、Web 會議 Edge service、A/V Edge service 和 XMPP Proxy 服務。 下列伺服器提供外部使用者存取所需的各項功能，而且必須部署在專用伺服器：
 
   - Edge Server
 
@@ -49,7 +51,7 @@ Access Edge 服務、 Web Conferencing Edge service 為 A / V Edge service 和 X
 
 
 > [!IMPORTANT]  
-> 反向 proxy 不需要是專門提供 Lync Server 2013。 例如，您可以提供服務給發佈 Lync 伺服器 Web 服務，並同時提供另一個網站，具有不具有 Lync 伺服器上所有已發佈的網站。 如果您已在周邊網路，以支援其他服務中的反向 proxy 伺服器，您可以將它用於 Lync Server 2013。
+> 反向 proxy 不需要專門服務于 Lync Server 2013。 例如，您可以提供服務來發佈 Lync Server Web 服務，並同時為另一個網站提供已發佈的網站，該網站與 Lync Server 根本沒有任何關係。 如果您在周邊網路中已有反向 proxy 伺服器以支援其他服務，您可以將其用於 Lync Server 2013。
 
 
 

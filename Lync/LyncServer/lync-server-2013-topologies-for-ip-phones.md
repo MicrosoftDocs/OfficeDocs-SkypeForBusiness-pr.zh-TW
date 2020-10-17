@@ -1,5 +1,5 @@
 ---
-title: IP 電話的 Lync Server 2013： 拓撲
+title: Lync Server 2013： IP 電話的拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36afef4fe357e79f1d6c9579273262b265d2c0ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85ffe6b610cfbeb50239b64d1ed7448af4fa41bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523620"
 ---
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 中的 IP 電話拓撲
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 中的 IP 電話的拓撲
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42193566"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-21_
+_**主題上次修改日期：** 2012-06-21_
 
 本節提供連線程序的概觀，並會說明 IP 電話連線至內部與外部網路的差異。
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012年-06-21_
 
 
 > [!NOTE]  
-> Lync Server 支援下列的 IP 電話： Aastra 6721ip 公共區域電話、 Aastra 6725ip 電話機、 HP 4110 IP Phone （公共區域電話）、 HP 4120 IP 電話 （電話機）、 Polycom CX600 IP 電話機、 Polycom CX700 IP 電話機、 Polycom CX500 IP公共區域電話和 Polycom CX3000 IP 會議電話。 這些電話的所有但 Polycom CX700 可以執行 Lync Phone Edition。
+> Lync Server 支援下列的 IP 電話： Aastra 6721ip 公共區域電話、Aastra 6725ip phone、HP 4110 IP Phone (通用區域電話) 、HP 4120 IP 電話 (電話機) 、Polycom CX600 IP 服務台電話、Polycom CX700 ip phone、Polycom CX500 ip 公共區域電話，以及 Polycom CX3000 IP 會議電話。 在這些電話中，除了 Polycom CX700 的所有電話都可以執行 Lync Phone Edition。
 
 
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012年-06-21_
 
 
 > [!NOTE]  
-> 上圖所呈現的是邏輯性代表，而不是實際的概觀。 例如，Active Directory 網域服務 (AD DS) 少位於任何 Lync Server 元件在同一部機器。 使用者存放區只能位於後端伺服器或是封存與監控伺服器之上。 Lync Server 管理命令介面、 網頁伺服器及更新服務都是屬於前端伺服器角色。
+> 上圖所呈現的是邏輯性代表，而不是實際的概觀。 例如，Active Directory 網域服務 (AD DS) 與任何 Lync Server 元件很少位於相同的機器上。 使用者存放區只能位於後端伺服器或是封存與監控伺服器之上。 Lync Server 管理命令介面、網頁伺服器和更新服務都是前端伺服器角色的一部分。
 
 
 

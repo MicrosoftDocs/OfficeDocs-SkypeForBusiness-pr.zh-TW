@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 管理使用者的 pin 碼
+title: Lync Server 2013：管理使用者 Pin
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d11eb22315b68b9027ee23e02053036cb49ebabd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56edb712dfc4ad51a1f95b09f4d6117cb6907280
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524870"
 ---
+# <a name="managing-user-pins-in-lync-server-2013"></a>在 Lync Server 2013 中管理使用者 Pin
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-user-pins-in-lync-server-2013"></a>管理 Lync Server 2013 中的使用者 Pin
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42185396"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 10 月 15_
+_**主題上次修改日期：** 2012-10-15_
 
-使用下列程序來從 Lync Server 2013 控制台的 [**使用者**] 區段中管理使用者的電話撥入式會議 Pin。
+使用下列程式，從 Lync Server 2013 控制台的 [ **使用者** ] 區段中管理使用者的電話撥入式會議 pin。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中設定使用者的電話撥入式會議 pin 碼](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
+  - [在 Lync Server 2013 中設定使用者的電話撥入式會議 PIN](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
 
-  - [檢視使用者在 Lync Server 2013 中的 pin 碼資訊](lync-server-2013-view-user-pin-information.md)
+  - [在 Lync Server 2013 中查看使用者 PIN 資訊](lync-server-2013-view-user-pin-information.md)
 
-  - [鎖定或解除鎖定使用者在 Lync Server 2013 中的 PIN](lync-server-2013-lock-or-unlock-a-user-pin.md)
+  - [鎖定或解除鎖定 Lync Server 2013 中的使用者 PIN](lync-server-2013-lock-or-unlock-a-user-pin.md)
 
 </div>
 
@@ -56,7 +58,7 @@ _**主題上次修改日期：** 2012 年 10 月 15_
 ## <a name="see-also"></a>另請參閱
 
 
-[指派 Lync Server 2013 中的每位使用者的 pin 碼原則](lync-server-2013-assign-a-per-user-pin-policy.md)  
+[在 Lync Server 2013 中指派每個使用者的 PIN 原則](lync-server-2013-assign-a-per-user-pin-policy.md)  
   
 
 </div>

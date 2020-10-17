@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblPrincipalMemberDifference'
+title: Lync Server 2013： tblPrincipalMemberDifference
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8965a842adba2e1f0f3b1197ee392aec3ef10566
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 681b6699e2542a066b9e5b0709fa64f52991b2fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214429"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523660"
 ---
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalMemberDifference
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalMemberDifference
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42214429"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
-tblPrincipalMemberDifference 包含稍後的 Active Directory 網域服務同步處理步驟尚未處理的群組成員資格變更 （新增和移除成員）。
+tblPrincipalMemberDifference 包含的群組成員資格變更 (新增及移除的成員，) 後來的 Active Directory 網域服務同步步驟尚未處理。
 
 ### <a name="columns"></a>Columns
 
@@ -50,7 +52,7 @@ tblPrincipalMemberDifference 包含稍後的 Active Directory 網域服務同步
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -89,7 +91,7 @@ tblPrincipalMemberDifference 包含稍後的 Active Directory 網域服務同步
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinGuid memberADPath&gt;</p></td>
+<td><p>&lt;prinGuid, memberADPath&gt;</p></td>
 <td><p>主索引鍵。</p></td>
 </tr>
 </tbody>

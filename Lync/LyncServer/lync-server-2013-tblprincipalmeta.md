@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblprincipalmeta 表格'
+title: Lync Server 2013： tblPrincipalMeta
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04ad0fbdb9a4e3bb2e5962089fe1c30f960bdc91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d70b26dc074213c30248da0e13f137c8b1e2f58a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195216"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523640"
 ---
+# <a name="tblprincipalmeta-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalMeta
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmeta-in-lync-server-2013"></a>Lync Server 2013 中的 tblprincipalmeta 表格
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42195216"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-12_
+_**主題上次修改日期：** 2012-09-12_
 
-tblprincipalmeta 表格包含必須從 Active Directory 網域服務重新整理的主體。
+tblPrincipalMeta 包含必須從 Active Directory 網域服務重新整理的主體。
 
 ### <a name="columns"></a>Columns
 
@@ -50,13 +52,13 @@ tblprincipalmeta 表格包含必須從 Active Directory 網域服務重新整理
 <thead>
 <tr class="header">
 <th>欄</th>
-<th>類型	</th>
+<th>類型</th>
 <th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>int，非 null</p></td>
 <td><p>主體識別碼。</p></td>
 </tr>
@@ -109,11 +111,11 @@ tblprincipalmeta 表格包含必須從 Active Directory 網域服務重新整理
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>在 tblPrincipal.prinID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>

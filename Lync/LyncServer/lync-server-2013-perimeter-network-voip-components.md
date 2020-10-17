@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 周邊網路 VoIP 元件
+title: Lync Server 2013：周邊網路 VoIP 元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d93962357e276d8d4eb69813386bd845cad5acb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 16c823d290c52f91d8a25e2b9f76c36bf54c9145
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215649"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524330"
 ---
+# <a name="perimeter-network-voip-components-for-lync-server-2013"></a>Lync Server 2013 的周邊網路 VoIP 元件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="perimeter-network-voip-components-for-lync-server-2013"></a>Lync Server 2013 的周邊網路 VoIP 元件
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42215649"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
-外部來電者使用整合的通訊用戶端進行個別或會議通話自信地仰賴 Edge Server 與同事的語音通訊。
+使用整合通訊用戶端進行個別或會議通話的外部呼叫者，會依賴 Edge Server 與同事進行語音通訊。
 
-在 Edge Server 中，[Access Edge service 提供 SIP 訊號的呼叫從您的組織防火牆外的 Lync 使用者。 A/V Edge Service 可以讓媒體周遊 NAT 和防火牆。 從公司防火牆外使用整合通訊 (UC) 用戶端的來電者，會依賴 A/V Edge Service 來進行個別通話和電話會議。
+在 Edge Server 上，Access Edge service 會提供來自于組織防火牆外的 Lync 使用者呼叫的 SIP 信號。 A/V Edge Service 可以讓媒體周遊 NAT 和防火牆。 從公司防火牆外使用整合通訊 (UC) 用戶端的來電者，會依賴 A/V Edge Service 來進行個別通話和電話會議。
 
 A/V 驗證服務會和 A/V Edge Service 配置在一起，並為後者提供驗證服務。嘗試連接至 A/V Edge Service 的外部使用者，需要 A/V 驗證服務提供的驗證 Token 才能接通電話。
 

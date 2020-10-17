@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: （選用） 定義回應群組營業時間'
+title: Lync Server 2013： (選用) 定義回應群組上班時間
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b02ce8434d7912d81855725aa86a11fa377ce44
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 891dd05caf5e2ec3411da73c1151ae61c2d0630c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216619"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524460"
 ---
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a> (選用) 在 Lync Server 2013 中定義回應群組上班時間
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>（選用）Lync Server 2013 中的定義回應群組營業時間
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42216619"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-11-01_
+_**主題上次修改日期：** 2012-11-01_
 
 <div>
 
 ## <a name="defining-business-hours"></a>定義上班時間
 
-商務小時設定定義工作流程時可接聽來電，並指定要針對營業時間以外來電採取的動作。 回應群組管理員可以使用**新增 CsRgsHoursOfBusiness**指令程式來建立預先定義的排程，您可以使用任何數目的回應群組。
+上班時間設定定義工作流程何時可以接聽來電，並指定要對上班時間以外的來電採取的動作。 回應群組管理員可以使用 **CsRgsHoursOfBusiness** 指令程式來建立您可以用於任何回應群組數目的預先定義排程。
 
 <div>
 
 
 > [!TIP]  
-> 當您建立或修改工作流程時，您可以指定僅適用於該工作流程的自訂排程。 如需詳細資訊，請參閱<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">建立或修改群組搜尋工作流程在 Lync Server 2013 中的</A>或<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">建立或修改互動工作流程在 Lync Server 2013 中的</A>。
+> 當您建立或修改工作流程時，您可以指定僅適用于該工作流程的自訂排程。 如需詳細資訊，請參閱 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">建立或修改 Lync server 2013 中的群組搜尋工作流程</A> 或 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中建立或修改互動式工作流程</A>。
 
 
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2012年-11-01_
 
 
 > [!NOTE]  
-> 如果工作流程定義為受管理的工作流程，然後指派 CsResponseGroupManager 角色的任何使用者可以設定和修改其管理的工作流程的自訂營業時間。
+> 如果工作流程定義為受管理的工作流程，則獲指派 CsResponseGroupManager 角色的任何使用者都可以為其管理的工作流程設定及修改自訂的上班時間。
 
 
 
@@ -67,7 +69,7 @@ _**主題上次修改日期：** 2012年-11-01_
 
 
 > [!IMPORTANT]  
-> 使用 24 小時制表示法，下列指令程式中的參數 (例如，20:00 = 8:00 P.M.)。
+> 下列 Cmdlet 中的參數使用24小時標記法 (例如，20： 00 = 8： 00 P.M. ) 。
 
 
 
@@ -75,11 +77,11 @@ _**主題上次修改日期：** 2012年-11-01_
 
 <div>
 
-## <a name="to-create-a-predefined-business-hours-collection"></a>若要建立預先定義的營業時間集合
+## <a name="to-create-a-predefined-business-hours-collection"></a>建立預先定義的上班時間集合
 
-1.  以 RTCUniversalServerAdmins 群組成員身分或其中一個預先定義的系統管理角色支援回應群組的成員身分登入。
+1.  以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
 
-2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+2.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 3.  對於您要定義的每個唯一時間範圍，請執行：
     
@@ -105,11 +107,11 @@ _**主題上次修改日期：** 2012年-11-01_
 ## <a name="see-also"></a>另請參閱
 
 
-[建立或修改群組搜尋工作流程在 Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[建立或修改互動工作流程在 Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[在 Lync Server 2013 中建立或修改群組搜尋工作流程](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[在 Lync Server 2013 中建立或修改互動式工作流程](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[New-csrgstimerange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
 [新 CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
   
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10915a298fe2e50abdef09dc5acf92927a43cc65
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4afa8f26e28fbb4261b0d8524c02efeb8d2a3132
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524630"
 ---
+# <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中的媒體旁路和通話許可控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中的媒體旁路和通話許可控制
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012-10-05_
     
     即便 CAC 已經全域停用，如果您想要使用網站與地區組態來控制旁路決策時，還是需要針對每個網站與連結定義頻寬原則。頻寬限制或其模式的實際值並沒有影響。最終目標是讓系統自動計算不同的旁路 ID 以便和未能順利連接的不同區域產生關聯。依據定義，定義頻寬限制代表某個連結並未順利連接。
 
-  - CAC 已啟用而媒體旁路未啟用。 只有當所有閘道與 IP-PBX 並未順利連接，或是不符合其他媒體旁路需求時，才會套用此設定。 如需媒體旁路需求的詳細資訊，請參閱[Lync Server 2013 中媒體旁路的技術需求](lync-server-2013-technical-requirements-for-media-bypass.md)。
+  - CAC 已啟用而媒體旁路未啟用。 只有當所有閘道與 IP-PBX 並未順利連接，或是不符合其他媒體旁路需求時，才會套用此設定。 如需媒體旁路需求的詳細資訊，請參閱 [Lync Server 2013 中媒體旁路的技術需求](lync-server-2013-technical-requirements-for-media-bypass.md)。
 
 <div>
 

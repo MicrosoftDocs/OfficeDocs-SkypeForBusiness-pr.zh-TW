@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 支援的硬體
+title: Lync Server 2013：支援的硬體
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184269
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3a32badc0752851b855c77bb8e034d786d2c20f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7cd78e2af27b5a0eaf1ff6916246eb86d1864cdd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181576"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524060"
 ---
+# <a name="supported-hardware-for-lync-server-2013"></a>Lync Server 2013 的支援硬體
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-hardware-for-lync-server-2013"></a>支援的 Lync Server 2013 的硬體
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42181576"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
-Lync Server 2013 的硬體需求會因伺服器角色、 拓撲、 儲存需求及特定部署案例而有所不同。
+Lync Server 2013 硬體需求會根據伺服器角色、拓撲、儲存需求和特定部署案例而有所不同。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 的伺服器硬體平台](lync-server-2013-server-hardware-platforms.md)
+  - [Lync Server 2013 的伺服器硬體平臺](lync-server-2013-server-hardware-platforms.md)
 
   - [Lync Server 2013 中的用戶端和裝置硬體支援](lync-server-2013-client-and-device-hardware-support.md)
 
