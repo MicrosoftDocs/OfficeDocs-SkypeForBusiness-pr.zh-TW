@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：建立 edge 和 Director 拓撲
+description: Lync Server 2013：建立 edge 和 Director 拓撲。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22d3e88cae787a47d1fe519cfbe5c27acf5ad821
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bcb2d422136cf0a421c68ebc2adba50f03c5cc85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537270"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569269"
 ---
 # <a name="building-an-edge-and-director-topology-in-lync-server-2013"></a>在 Lync Server 2013 中建立 edge 和 Director 拓撲
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看撥號對應表資訊
+description: Lync Server 2013：查看撥號對應表資訊。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a4b668291c0e8ba5c402f17288bebe342ccceb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b4473302b182b8de4ea6aad12d7993cb5d442b7e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211439"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569689"
 ---
+# <a name="view-dial-plan-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看撥號對應表資訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看撥號對應表資訊
+
 
 </div>
 

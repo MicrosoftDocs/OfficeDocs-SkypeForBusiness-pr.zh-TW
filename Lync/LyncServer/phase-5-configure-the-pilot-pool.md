@@ -1,5 +1,6 @@
 ---
 title: 階段5：設定試驗集區
+description: 階段5：設定試驗集區。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07143429aed407b488cf32e5537f9bcc785db0e4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3b44a31bcbccb57e486cb89c7ed379be896a5ab6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533700"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569549"
 ---
 # <a name="phase-5-configure-the-pilot-pool"></a>階段5：設定試驗集區
 
@@ -45,13 +46,13 @@ _**主題上次修改日期：** 2012-10-19_
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [將試驗集區連線到舊版 Edge Server](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [將試驗集區連線到舊版 Edge Server](connect-pilot-pool-to-legacy-edge-servers.md)
 
   - [授權連線至 Office 通訊伺服器 2007 R2 Edge Server](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [驗證組態設定](verify-configuration-settings_1.md)
+  - [驗證組態設定](verify-configuration-settings.md)
 
-  - [設定 XMPP 閘道的存取原則和憑證](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [設定 XMPP 閘道的存取原則和憑證](configure-xmpp-gateway-access-policies-and-certificates.md)
 
 </div>
 
