@@ -1,5 +1,6 @@
 ---
 title: 階段 7：完成移轉後的工作
+description: 階段7：完成遷移後工作。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c4d535f427daff71264f72f08182598472f1001
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3f8a6804bfd2aa2b45723b062fe458006b0d2df6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518120"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566149"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>階段 7：完成移轉後的工作
 

@@ -1,5 +1,6 @@
 ---
 title: 使用綜合交易測試 Persistent Chat Server
+description: 使用綜合交易來測試 Persistent Chat Server。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 382e8e664a80b36038d7170d32d243e4e695484e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7aad6960baa4873b5992b0b51799d46ea59fddf3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529760"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564649"
 ---
 # <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a>使用綜合交易測試 Persistent Chat Server
 
