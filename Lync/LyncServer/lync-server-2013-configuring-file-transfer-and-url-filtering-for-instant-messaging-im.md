@@ -1,5 +1,6 @@
 ---
 title: 設定立即訊息 (IM) 的檔案傳送和 URL 篩選
+description: 設定立即訊息 (IM) 的檔案傳送和 URL 篩選。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bad134c770300820bd4fb6bd2d72e648b5f34777
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 92f11c3f3bb924c1d92361c2635bfb37e1f03175
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517510"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548349"
 ---
 # <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a>在 Lync Server 2013 中設定立即訊息 (IM) 的檔案傳送和 URL 篩選
 
