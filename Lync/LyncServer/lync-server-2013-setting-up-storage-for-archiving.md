@@ -12,20 +12,22 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6f299b01b95cddd461893b35518e3c2fe40c694
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab7e22d4ff0e34d903fa0306d971705c5455b2f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200479"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521780"
 ---
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中設定儲存區封存
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中設定儲存區封存
+
 
 </div>
 
@@ -67,9 +69,9 @@ Lync Server 2013 的封存儲存區包括下列各項：
 
 Lync Server 2013 中的封存需要 SQL Server 資料庫軟體儲存封存的資料，除非您將部署與 Exchange 整合。
 
-針對 SQL Server 封存資料庫，您必須在將裝載封存資料庫的電腦上安裝 SQL Server。 您可以使用相同的 SQL 實例，用於前端集區的後端資料庫。 為了達到最佳效能，您應該在與中央管理存放區分開的電腦上部署封存資料庫。 如需組合 Lync Server 2013 元件的詳細資訊，請參閱支援檔中的[支援的伺服器組合（Lync server 2013](lync-server-2013-supported-server-collocation.md) ）。
+針對 SQL Server 封存資料庫，您必須在將裝載封存資料庫的電腦上安裝 SQL Server。 您可以使用相同的 SQL 實例，用於前端集區的後端資料庫。 為了達到最佳效能，您應該在與中央管理存放區分開的電腦上部署封存資料庫。 如需組合 Lync Server 2013 元件的詳細資訊，請參閱支援檔中的 [支援的伺服器組合（Lync server 2013](lync-server-2013-supported-server-collocation.md) ）。
 
-每個資料庫伺服器都必須執行支援的 SQL Server 版本。 如需支援的版本的詳細資訊，請參閱規劃檔中的在[Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md)中封存的技術需求。
+每個資料庫伺服器都必須執行支援的 SQL Server 版本。 如需支援的版本的詳細資訊，請參閱規劃檔中的在 [Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) 中封存的技術需求。
 
 在部署及啟用封存之前，您必須先設定 SQL Server 平臺。 若要用來發行拓撲的帳戶具有適當的系統管理員許可權，您可以在發行拓撲時，建立封存資料庫 (LcsLog) 。 您也可以之後再建立資料庫，包括在安裝程序中。 如需 SQL Server 的詳細資訊，請參閱 SQL Server TechCenter [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) 。
 
@@ -91,7 +93,7 @@ Lync Server 2013 中的封存需要 SQL Server 資料庫軟體儲存封存的資
 
 ## <a name="setting-up-file-storage"></a>設定檔存放區
 
-封存會使用您在設定前端集區或 Standard Edition Server 時所指定的 Lync Server 2013 檔案共用。 您無法變更封存所用的檔案共用。 如需支援的檔案儲存系統的詳細資訊，請參閱支援檔中的檔案[儲存支援（Lync Server 2013](lync-server-2013-file-storage-support.md) ）。
+封存會使用您在設定前端集區或 Standard Edition Server 時所指定的 Lync Server 2013 檔案共用。 您無法變更封存所用的檔案共用。 如需支援的檔案儲存系統的詳細資訊，請參閱支援檔中的檔案 [儲存支援（Lync Server 2013](lync-server-2013-file-storage-support.md) ）。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 將自訂文字新增至立即訊息
+title: Lync Server 2013：新增自訂文字到立即訊息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e42c04c84d6df91b592bf4709daf36d6822aa49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 466eac15cf75728578e7d517d15ddb222d1c4b70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521360"
 ---
+# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a>在 Lync Server 2013 中新增自訂文字到立即訊息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a>將自訂文字新增至 Lync Server 2013 中的立即訊息
+
 
 </div>
 
@@ -35,16 +37,16 @@ ms.locfileid: "42197446"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-20 個_
+_**主題上次修改日期：** 2013-02-20_
 
-立即訊息 (IM) 交談藉由使用**New-csclientpolicy**或**Set-csclientpolicy** Lync Server 管理命令介面 cmdlet 搭配 IMWarning 參數每個 Lync 2013 的開頭新增免責聲明或警告。
+使用 **New-CSClientPolicy** 或 **Set-CSClientPolicy** 具有 IMWarning 參數的 lync Server 管理命令介面 Cmdlet，將免責聲明或警告新增到每個 Lync 2013 立即訊息 (IM) 交談的開頭。
 
-在下列範例中的命令會將安全性提醒新增頂端的 [交談] 視窗中，每當新的 IM 交談開始：
+下列範例中的命令會在新的 IM 交談開始時，在交談視窗的頂端加入安全性提醒：
 
     New-CsClientPolicy -Identity IMSecurityNotice -IMWarning 
     "Remember, security is everyone's responsibility. Keep it confidential."
 
-使用**Grant-csclientpolicy**將此新原則指派給使用者。 如需詳細資訊，請參閱 Lync Server 管理命令介面文件中的**New-csclientpolicy**和**Grant-csclientpolicy** 。
+使用 **Grant-CSClientPolicy** 將此新原則指派給使用者。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的 **New-CSClientPolicy** 和 **Grant-CSClientPolicy** 。
 
 </div>
 

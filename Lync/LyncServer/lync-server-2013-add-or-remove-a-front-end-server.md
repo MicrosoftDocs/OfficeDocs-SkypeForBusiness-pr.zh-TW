@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 新增或移除前端伺服器
+title: Lync Server 2013：新增或移除前端伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e358415b086594b67fabdc5ed74706a510e2f82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f30eb0034df6b0783f8389d69841a338c90effd4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521470"
 ---
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>在 Lync Server 2013 中新增或移除前端伺服器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>新增或移除 Lync Server 2013 中的前端伺服器
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42191456"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016年-01-21_
+_**主題上次修改日期：** 2016-01-21_
 
-當您將前端伺服器新增至集區，或從集區移除前端伺服器時，您需要重新啟動集區。 若要避免服務中斷的使用者，請使用下列程序時新增或移除前端伺服器。
+當您將前端伺服器新增至集區，或從集區中移除前端伺服器時，您必須重新開機集區。 若要避免任何服務中斷給使用者，請在新增或移除前端伺服器時使用下列程式。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您正在加入新的伺服器集區，請更新您新的集區伺服器，以在相同的累計更新層級為現有的伺服器集區中。
+> 若要將新伺服器新增至集區，請將新的集區伺服器更新成與集區中現有伺服器相同的累計更新層級。
 
 
 
@@ -51,25 +53,25 @@ _**主題上次修改日期：** 2016年-01-21_
 
 <div>
 
-## <a name="to-add-or-remove-front-end-servers"></a>若要新增或移除前端伺服器
+## <a name="to-add-or-remove-front-end-servers"></a>新增或移除前端伺服器
 
-1.  如果您要移除任何前端伺服器，請先停止這些伺服器的新連線。 若要這麼做，您可以使用下列 cmdlet:
+1.  如果您要移除任何前端伺服器，請先停止這些伺服器的新連線。 若要這麼做，您可以使用下列 Cmdlet：
     
         Stop-CsWindowsServices -Graceful
 
-2.  當正在移除的伺服器沒有目前的工作階段時，請在其上停止 Lync Server 服務。
+2.  當要移除的伺服器沒有目前的會話時，請停止其上的 Lync Server 服務。
 
 3.  開啟拓撲產生器，並新增或移除必要的伺服器。
 
 4.  發行拓撲。
 
-5.  如果集區已從擁有兩個前端伺服器到兩個以上，或兩台變成實際上兩個以上的伺服器，您需要輸入下列 cmdlet:
+5.  如果集區從兩部以上的伺服器到兩部以上，或從兩部以上的伺服器到兩部以上，您必須輸入下列 Cmdlet：
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    如果集區中有三個或多個伺服器，然後至少三個這些伺服器必須執行當您輸入此 cmdlet。
+    如果集區有三部以上的伺服器，當您輸入此 Cmdlet 時，至少必須執行三台伺服器。
 
-6.  重新啟動所有前端伺服器集區，一次一個。
+6.  重新開機集區中的所有前端伺服器，一次一個。
 
 </div>
 

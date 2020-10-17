@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定常設聊天室伺服器
+title: Lync Server 2013：設定 Persistent Chat Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97797500bab9b6c0ed7dc2c79e603d84e819df5e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a9661c3e9695bde240225b7d0bcd8ca1e54df09
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520440"
 ---
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Persistent Chat Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中設定常設聊天室伺服器
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42213289"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-若要建立新的常設聊天室組態
+若要建立新的持久聊天設定
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-取得常設聊天室組態設定
+若要取得持續聊天設定
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
-若要移除常設聊天室組態
+移除持續聊天設定
 
     Remove-CsPersistentChatConfiguration -Identity <XdsIdentity>
 
-設定常設聊天室組態設定
+設定 Persistent Chat 設定
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-Lync Server 2013 的 web 服務的所有流量都支援 Lync Server 2013 中，前端伺服器。 因此，Persistent Chat Server 的 gcweb01 地址不是必要的。 我們仍支援存取內部 web 服務，因為我們提供*內部*網站的檔案上傳/下載 Web 服務 （不到*外部*網站上供遠端使用者）。
+對於 Lync Server 2013，Lync Server 2013，前端伺服器支援所有 web 服務流量。 因此，不需要在 Persistent Chat Server 上的 gcweb01 位址。 我們仍然支援內部 web 服務存取，因為我們只會對 *內部* 網站提供檔案上傳/下載 web 服務，而不是 () 遠端使用者的 *外部* 網站。
 
 </div>
 

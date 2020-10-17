@@ -12,20 +12,22 @@ ms:contentKeyID: 48184482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13766349e093097713b59eae61c02766340512e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e98a21b8d19a93d50b06fdc1c9c0034b5fada062
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521400"
 ---
+# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>將封存資料庫新增至現有的 Lync Server 2013 部署
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>將封存資料庫新增至現有的 Lync Server 2013 部署
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42191366"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-23_
+_**主題上次修改日期：** 2012-06-23_
 
-您針對封存設定系統平台及基礎結構之後，您必須以新增封存至拓撲，使用拓撲產生器]，然後發行拓撲。
+在您設定用以封存的系統平臺和基礎結構之後，您必須使用拓撲產生器將封存新增至您的拓撲，然後發行拓撲。
 
 <div>
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012年-06-23_
 
   - [將封存資料庫新增至 Lync Server 2013 拓撲](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
 
-  - [發佈更新過的拓撲，以在 Lync Server 2013 中新增封存資料庫](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
+  - [發佈已更新的拓撲，以在 Lync Server 2013 中新增封存資料庫](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
 
 </div>
 

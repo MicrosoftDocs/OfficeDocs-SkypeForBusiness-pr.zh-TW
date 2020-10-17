@@ -1,5 +1,5 @@
 ---
-title: '行動規劃 Lync Server 2013:'
+title: Lync Server 2013：行動規劃
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a642c68eea030c8ba213c66df1fa9a85f9416438
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7897ff7f34ecd1881cc18bc5e305d42dd18c7bb8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184186"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521980"
 ---
+# <a name="planning-for-mobility-in-lync-server-2013"></a>在 Lync Server 2013 中規劃行動性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-mobility-in-lync-server-2013"></a>Lync Server 2013 中的行動規劃
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42184186"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-14_
+_**主題上次修改日期：** 2013-02-14_
 
-使用 Lync Server 2013 中，您可以部署行動功能，以在行動裝置上提供 Lync 2013 的功能。 本章節提供有關行動功能，以及如何為您的部署計劃的詳細資訊。
+使用 Lync Server 2013，您可以部署行動功能，以在行動裝置上提供 Lync 2013 功能。 本節提供行動功能的詳細資料，以及如何規劃您的部署。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [行動功能與 Lync Server 2013 的功能](lync-server-2013-mobility-features-and-capabilities.md)
+  - [Lync Server 2013 中的行動功能與功能](lync-server-2013-mobility-features-and-capabilities.md)
 
-  - [Lync Server 2013 中的行動性元件和拓撲](lync-server-2013-topologies-and-components-for-mobility.md)
+  - [Lync Server 2013 中行動性的拓撲和元件](lync-server-2013-topologies-and-components-for-mobility.md)
 
-  - [Lync Server 2013 中的行動的技術需求](lync-server-2013-technical-requirements-for-mobility.md)
+  - [Lync Server 2013 中行動的技術需求](lync-server-2013-technical-requirements-for-mobility.md)
 
-  - [定義 Lync Server 2013 的行動性需求](lync-server-2013-defining-your-mobility-requirements.md)
+  - [定義 Lync Server 2013 的行動需求](lync-server-2013-defining-your-mobility-requirements.md)
 
-  - [Lync Server 2013 中的行動性部署程序](lync-server-2013-deployment-process-for-mobility.md)
+  - [Lync Server 2013 中行動的部署程式](lync-server-2013-deployment-process-for-mobility.md)
 
 </div>
 

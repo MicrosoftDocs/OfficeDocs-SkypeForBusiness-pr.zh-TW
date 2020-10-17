@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Active Directory 架構延伸模組、 類別及 Lync Server 所使用的屬性'
+title: Lync Server 2013： Lync Server 所使用的 Active Directory 架構擴充功能、類別和屬性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ed67522a2f47466bbf01efdd3a548c3e3637321
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cf2b157dcd039f11d38ef56d6da07a6921e1c9c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191636"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521590"
 ---
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013 使用的 Active Directory 架構擴充功能、類別及屬性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Active Directory 架構延伸模組、 類別及 Lync Server 2013 所使用的屬性
+
 
 </div>
 
@@ -35,47 +37,47 @@ ms.locfileid: "42191636"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-19_
+_**主題上次修改日期：** 2012-06-19_
 
-此參考一節包含下列資訊：
+本參考區段包含下列資訊：
 
-  - Active Directory 架構延伸模組的全新或已變更的 Lync Server 2013
+  - 適用于 Lync Server 2013 的 Active Directory 架構擴充功能（新的或已變更的）
     
-    Active Directory 結構描述包含可以在 Active Directory 樹系中建立的每個物件類別的正式定義。 結構描述也包含可存在於 Active Directory 物件每個屬性的正式定義。 Active Directory 通用類別目錄包含所有物件的樹系，以及針對每個物件的屬性的部分的複本。 本小節會說明類別和 Lync Server 2013 中新增或變更的屬性。
+    Active Directory 架構包含可以在 Active Directory 樹系中建立之每個物件類別的正式定義。 架構也包含可以存在於 Active Directory 物件上的每個屬性的正式定義。 Active Directory 通用類別目錄包含樹系所有物件的複本，以及每個物件的屬性子集。 本節說明 Lync Server 2013 中新增或變更的類別和屬性。
 
-  - 每個描述 Lync Server 所使用的所有類別
+  - Lync Server 使用的所有類別，以及每個類別的描述
 
-  - 每個描述 Lync Server 所使用的所有屬性
+  - Lync Server 使用的所有屬性，以及每個屬性的描述
 
-  - 使用 Lync Server 與每個屬性的類別清單可能包含
+  - Lync Server 所使用的類別清單，具有每個類別的屬性可能包含
 
-  - 通用設定和物件，以及在樹系準備時建立的萬用服務和管理群組
+  - 全域設定和物件，以及樹系準備期間建立的泛型服務和管理群組
 
-  - 存取控制項目 (Ace) 時，所建立的網域根目錄和內建容器上網域準備
+  - 在網域準備期間，在網域根和內建容器上建立的 (Ace) 中的存取控制專案
 
-  - 在 Active Directory 組織單位 (OU) 中授與所進行的變更\_CsSetupPermission 指令程式。
+  - 在 Active Directory 組織單位 () 的授與 Test-cssetuppermission 指令程式中所做的變更 \_ 。
 
-  - 在 Active Directory OU 中授與所進行的變更\_Grant-csoupermission cmdlet。
+  - 授與 Grant-csoupermission Cmdlet 對 Active Directory OU 所做的變更 \_ 。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的結構描述變更](lync-server-2013-schema-changes-in-lync-server-2013.md)
+  - [Lync Server 2013 中的架構變更](lync-server-2013-schema-changes-in-lync-server-2013.md)
 
-  - [架構類別和 Lync Server 2013 中的描述](lync-server-2013-schema-classes-and-descriptions.md)
+  - [Lync Server 2013 中的架構類別和描述](lync-server-2013-schema-classes-and-descriptions.md)
 
-  - [架構屬性和 Lync Server 2013 中的描述](lync-server-2013-schema-attributes-and-descriptions.md)
+  - [Lync Server 2013 中的架構屬性和描述](lync-server-2013-schema-attributes-and-descriptions.md)
 
-  - [由 Lync Server 2013 中的類別的結構描述屬性](lync-server-2013-schema-attributes-by-class.md)
+  - [Lync Server 2013 中依類別的架構屬性](lync-server-2013-schema-attributes-by-class.md)
 
   - [Lync Server 2013 中的樹系準備所進行的變更](lync-server-2013-changes-made-by-forest-preparation.md)
 
   - [Lync Server 2013 中的網域準備所進行的變更](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Grant-cssetuppermission Lync Server 2013 中所做的變更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Lync Server 2013 中 Grant-CsSetupPermission 所做的變更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Grant-csoupermission Lync Server 2013 中所做的變更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Lync Server 2013 中 Grant-CsOUPermission 所做的變更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

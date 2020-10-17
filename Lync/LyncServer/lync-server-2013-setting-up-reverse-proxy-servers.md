@@ -12,20 +12,22 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4ff853e3f31804e4bca55bd6a4576e25702b6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 640d8e97cf8b7a31e11cb2dc8f1b1394e4b1aae3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521810"
 ---
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>設定 Lync Server 2013 的反向 proxy 伺服器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>設定 Lync Server 2013 的反向 proxy 伺服器
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42181996"
 
 _**主題上次修改日期：** 2014-05-08_
 
-針對 Microsoft Lync Server 2013 Edge Server 部署，外部用戶端必須使用周邊網路反向 proxy，才能存取「Director」和使用者主集區的 [Office 通訊伺服器) 中稱為*Web 元件* (的 Lync Server 2013 web 服務]。 有些需要透過反向 Proxy 進行外部存取的功能包含下列項目：
+針對 Microsoft Lync Server 2013 Edge Server 部署，外部用戶端必須使用周邊網路反向 proxy，才能存取「Director」和使用者主集區的 [Office 通訊伺服器) 中稱為 *Web 元件* (的 Lync Server 2013 web 服務]。 有些需要透過反向 Proxy 進行外部存取的功能包含下列項目：
 
   - 讓外部使用者能夠下載會議的內容。
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2014-05-08_
 
 
 > [!IMPORTANT]  
-> Internet Information Server 應用程式要求路由 (IIS ARR) 是針對 Lync Server 2010 和 Lync Server 2013 實施反向 proxy 的經過完整測試及支援的選項。 在2012年11月，Microsoft 未 ForeFront 威脅管理閘道2010或 TMG 的授權銷售。 TMG 仍是完全支援的產品，仍然可在協力廠商銷售的裝置上銷售。 此外，許多協力廠商硬體負載平衡器和防火牆都提供反向 proxy 支援。 如需提供反向 proxy 功能的硬體負載平衡器和防火牆，請諮詢您的廠商，以取得如何設定其產品以提供 Lync Server 的反向 proxy 支援的特定指示。 您也可以查看已將產品的檔提交至 Microsoft 的協力廠商。 支援由協力廠商提供，以供其解決方案使用。 若要查看提供解決方案時使用中的協力廠商，請參閱<A href="https://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 的基礎結構限定</A>。
+> Internet Information Server 應用程式要求路由 (IIS ARR) 是針對 Lync Server 2010 和 Lync Server 2013 實施反向 proxy 的經過完整測試及支援的選項。 在2012年11月，Microsoft 未 ForeFront 威脅管理閘道2010或 TMG 的授權銷售。 TMG 仍是完全支援的產品，仍然可在協力廠商銷售的裝置上銷售。 此外，許多協力廠商硬體負載平衡器和防火牆都提供反向 proxy 支援。 如需提供反向 proxy 功能的硬體負載平衡器和防火牆，請諮詢您的廠商，以取得如何設定其產品以提供 Lync Server 的反向 proxy 支援的特定指示。 您也可以查看已將產品的檔提交至 Microsoft 的協力廠商。 支援由協力廠商提供，以供其解決方案使用。 若要查看提供解決方案時使用中的協力廠商，請參閱 <A href="https://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 的基礎結構限定</A>。
 
 
 
@@ -102,13 +104,13 @@ _**主題上次修改日期：** 2014-05-08_
 若要將 IIS ARR 成功部署為反向 proxy，請參閱下列主題以設定硬體和必要條件軟體。
 
   - <span></span>  
-    若要在 Windows Server 2008 或 Windows Server 2008 R2 上安裝 IIS，請參閱[在 Windows server 2008 或 Windows server 2008 r2 上安裝 iis 7](https://go.microsoft.com/fwlink/?linkid=291296)
+    若要在 Windows Server 2008 或 Windows Server 2008 R2 上安裝 IIS，請參閱 [在 Windows server 2008 或 Windows server 2008 r2 上安裝 iis 7](https://go.microsoft.com/fwlink/?linkid=291296)
 
   - <span></span>  
     若要在 Windows Server 2012 上安裝 IIS，請參閱[在 Windows server 2012 上安裝 iis 8](https://go.microsoft.com/fwlink/?linkid=291297) 。
 
   - <span></span>  
-    若要在 Windows Server 2012 R2 上安裝 IIS，請參閱[在 Windows server 2012 R2 上安裝 iis 8.5](https://go.microsoft.com/fwlink/?linkid=330687)
+    若要在 Windows Server 2012 R2 上安裝 IIS，請參閱 [在 Windows server 2012 R2 上安裝 iis 8.5](https://go.microsoft.com/fwlink/?linkid=330687)
 
   - <span></span>  
     若要下載 IIS 的應用程式要求路由分機分機，請依照[應用程式要求路由傳送第 2.5](https://go.microsoft.com/fwlink/?linkid=291298)版的指示下載

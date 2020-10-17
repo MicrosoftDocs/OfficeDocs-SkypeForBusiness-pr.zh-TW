@@ -12,20 +12,22 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 358d869f212ac3acef91e28ddb8d08322133970f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8c12d687d6c23c7c7bdc2bf2d8046038154c871
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194336"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520740"
 ---
+# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>在 Lync Server 2013 中測試使用群組擴充的能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>在 Lync Server 2013 中測試使用群組擴充的能力
+
 
 </div>
 
@@ -70,7 +72,7 @@ Test-CsGroupExpansion Cmdlet 可讓您判斷群組擴充是否可在組織內運
 
 使用 Test-CsGroupExpansion Cmdlet，您可以使用群組的電子郵件地址來指定 Active Directory 通訊群組。 Test-CsGroupExpansion 然後使用群組擴充來取得群組成員資格，並將所檢索的清單與所提供之群組電子郵件地址的成員資格進行比較。 如果兩個清單相符，群組擴充就能正常運作。 請注意，您可以使用兩種方式測試群組擴充：測試服務本身，或測試相關聯的 web 服務。
 
-如需詳細資訊，請參閱[Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。
 
 </div>
 
@@ -87,7 +89,7 @@ Test-CsGroupExpansion Cmdlet 可讓您判斷群組擴充是否可在組織內運
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-如需詳細資訊，請參閱[Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。
+如需詳細資訊，請參閱 [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) Cmdlet 的說明文件。
 
 </div>
 
@@ -95,9 +97,9 @@ Test-CsGroupExpansion Cmdlet 可讓您判斷群組擴充是否可在組織內運
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的使用者可以使用群組擴充，您會收到類似下列的輸出，其 Result 屬性標示為 [**成功]：**
+如果指定的使用者可以使用群組擴充，您會收到類似下列的輸出，其 Result 屬性標示為 [ **成功]：**
 
-TargetUri：https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri： https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -111,7 +113,7 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 如果指定的使用者無法使用群組擴充，則結果會顯示為失敗，而且會在錯誤和診斷屬性中記錄其他資訊：
 
-TargetUri：https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri： https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -137,7 +139,7 @@ Test-CsGroupExpansion：端點無法註冊。 如需特定原因，請參閱 Err
 
 嘗試取得 web 票證。
 
-Web 服務 url：https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
+Web 服務 url： https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
 
 使用 NTLM/Kerb 驗證。
 

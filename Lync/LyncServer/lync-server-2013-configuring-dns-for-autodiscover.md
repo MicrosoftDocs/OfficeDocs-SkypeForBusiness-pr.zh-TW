@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定 DNS 自動探索
+title: Lync Server 2013：設定自動探索的 DNS
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff6e72d13ddfb80369a0a522abc14a1de459536
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 249993e68930db1eb5dd5159633a73f80cef8c05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520050"
 ---
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中設定自動探索的 DNS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的自動探索設定 DNS
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42202989"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-12-12_
+_**主題上次修改日期：** 2012-12-12_
 
-若要支援 Lync 用戶端自動探索，您需要建立下列網域名稱系統 (DNS) 記錄：
+若要支援 Lync 用戶端的自動探索，您必須建立下列網域名稱系統 (DNS) 記錄：
 
-  - 內部 DNS 記錄，以支援 Lync 用戶端連線從貴組織的網路
+  - 內部 DNS 記錄，以支援從組織網路內部連線的 Lync 用戶端
 
-  - 外部或公用 DNS 記錄，以支援 Lync 用戶端從網際網路連線
+  - 支援從網際網路連線之 Lync 用戶端的外部（或公用） DNS 記錄
 
 您必須為每個 SIP 網域建立內部 DNS 記錄及外部 DNS 記錄。
 
-DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據您建立新的憑證與其他主體替代名稱 (SAN) 的能力。 如果您不可以要求並部署 lyncdiscover 與新的外部 （公用） 憑證。\<網域名稱\>SAN (英文），使用此程序使用 HTTP/TCP 連接埠 80。 下列程序說明如何建立內部及外部 DNS 記錄。
+DNS 記錄可以是 (主機) 記錄或 CNAME 記錄，其依據您使用其他主體別名 (SAN) 建立新憑證的能力。 如果您無法向 lyncdiscover 要求及部署新的外部 (公開) 憑證。\<domain name\> SAN，請使用 HTTP/TCP 埠80的程式。 下列程序說明如何建立內部及外部 DNS 記錄。
 
 <div>
 
@@ -67,24 +69,24 @@ DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據�
         
 
         > [!NOTE]  
-        > 此網域是 Active Directory 網域，您的 Lync Server 2013&nbsp;安裝 Director 集區與前端集區。
+        > 此網域是安裝 Lync Server 2013 &nbsp; Director 集區和前端集區的 Active Directory 網域。
 
         
         </div>
     
       - 針對外部 DNS 記錄，在 DNS 伺服器的主控台樹狀目錄中，展開 SIP 網域 (例如 contoso.com) 的 [正向對應區域]****。
 
-4.  確認主機 A 記錄存在，您的 Director 集區，如下所示：
+4.  請確認 Director 集區的主機 A 記錄存在，如下所示：
     
-      - 針對內部 DNS 記錄，主機 A 記錄應該存在的內部 Web 服務完整的網域名稱 (FQDN) Director 集區 (例如 lyncwebdir01.contoso.local)。
+      - 針對內部 DNS 記錄，主機 A 記錄應該存在於 Director 集區的內部 Web 服務完整功能變數名稱 (FQDN)  (例如，lyncwebdir01.contoso.local) 。
     
-      - 針對外部 DNS 記錄，您的 Director 集區 (例如 lyncwebextdir.contoso.com) 的外部 web 服務 FQDN 應有存在的主機 A 記錄。
+      - 針對外部 DNS 記錄，Director 集區的外部 web 服務 FQDN 應該存在主機 A 記錄 (例如，lyncwebextdir.contoso.com) 。
 
-5.  確認主機 A 記錄存在，您的前端集區，如下所示：
+5.  請確認您的前端集區的主機 A 記錄存在，如下所示：
     
-      - 針對內部 DNS 記錄，您的前端集區 (例如 lyncwebpool01.contoso.local) 的內部 Web 服務 fqdn 應有存在主機 A 記錄。
+      - 針對內部 DNS 記錄，您的前端集區的內部 Web 服務 FQDN 應該存在主機 A 記錄 (例如，lyncwebpool01.contoso.local local) 。
     
-      - 針對外部 DNS 記錄，您的前端集區 (例如 lyncwebextpool01.contoso.com) 的外部 Web 服務 fqdn 應有存在主機 A 記錄。
+      - 針對外部 DNS 記錄，您的前端集區的外部 Web 服務 FQDN 應該會有主機 A 記錄 (例如，lyncwebextpool01.contoso.com) 。
 
 6.  針對內部 DNS 記錄，在 DNS 伺服器的主控台樹狀目錄中，展開 SIP 網域 (例如 contoso.com) 的 [正向對應區域]****。
     
@@ -107,15 +109,15 @@ DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據�
 
 9.  在 [目標主機完整網域名稱 (FQDN)]**** 中，執行下列其中一項：
     
-      - 針對內部 DNS 記錄，輸入或瀏覽至您的 Director 集區 (例如 lyncwebdir01.contoso.local)，內部 Web 服務 FQDN，然後按一下 **[確定]**。
+      - 針對內部 DNS 記錄，輸入或流覽至 Director 集區的內部 Web 服務 FQDN (例如，lyncwebdir01.contoso.local local) ，然後按一下 **[確定]**。
     
-      - 針對外部 DNS 記錄，輸入或瀏覽至您的 Director 集區 (例如 lyncwebextdir.contoso.com)，外部 Web 服務 FQDN，然後按一下 **[確定]**。
+      - 針對外部 DNS 記錄，輸入或流覽至 Director 集區的外部 Web 服務 FQDN (例如，lyncwebextdir.contoso.com) ，然後按一下 **[確定]**。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果您不使用 Director，使用內部和外部 Web 服務 FQDN 的前端集區或單一伺服器的前端伺服器或 Standard Edition server 的 FQDN。
+    > 如果您不使用 Director，請使用前端集區的內部及外部 Web 服務 FQDN，或針對單一伺服器（前端伺服器或 Standard Edition server 的 FQDN）。
 
     
     </div>
@@ -124,7 +126,7 @@ DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據�
     
 
     > [!IMPORTANT]  
-    > 您必須在您支援 Lync Server 2013 環境中的每個 SIP 網域的正向對應區域中建立新的自動探索 CNAME 記錄。
+    > 您必須在 Lync Server 2013 環境中所支援的每個 SIP 網域的正向對應區域中建立新的自動探索 CNAME 記錄。
 
     
     </div>
@@ -139,7 +141,7 @@ DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據�
     
       - 若要建立內部 DNS 記錄，請以 Domain Admins 群組成員身分或 DnsAdmins 群組成員身分，登入您網路中的 DNS 伺服器。
     
-      - 若要建立外部 DNS 記錄，連線至您的公用 DNS 提供者或外部 DNS 伺服器。
+      - 若要建立外部 DNS 記錄，請連接至您的公用 DNS 提供者或外部 DNS 伺服器。
 
 2.  開啟 DNS 系統管理嵌入式管理單元：依序按一下 [開始]****、[系統管理工具]**** 和 [DNS]****。
 
@@ -151,24 +153,24 @@ DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據�
         
 
         > [!NOTE]  
-        > 此網域是 Active Directory 網域，您的 Lync Server 2013&nbsp;安裝 Director 集區與前端集區。
+        > 此網域是安裝 Lync Server 2013 &nbsp; Director 集區和前端集區的 Active Directory 網域。
 
         
         </div>
     
       - 針對外部 DNS 記錄，在 DNS 伺服器的主控台樹狀目錄中，展開 SIP 網域 (例如 contoso.com) 的 [正向對應區域]****。
 
-4.  確認主機 A （對於 IPv6 為 AAAA) 記錄存在，您的 Director 集區，如下所示：
+4.  針對您的 Director 集區，確認主機 A IPv6 的 (存在 AAAA) 記錄，如下所示：
     
-      - 針對內部 DNS 記錄，您的 Director 集區 (例如 lyncwebdir01.contoso.local) 的內部 Web 服務 fqdn 應有存在主機 A （對於 IPv6 為 AAAA) 記錄。
+      - 針對內部 DNS 記錄，您的 Director 集區的內部 Web 服務 FQDN 應該會有一個主機 A (IPv6，AAAA) 記錄應該存在 (例如，lyncwebdir01.contoso.local) 。
     
-      - 針對外部 DNS 記錄，您的 Director 集區 (例如 lyncwebextdir.contoso.com) 的外部 Web 服務 fqdn 應有存在主機 A （對於 IPv6 為 AAAA) 記錄。
+      - 針對外部 DNS 記錄，您的 Director 集區的外部 Web 服務 FQDN 應該會有一個主機的 (IPv6，AAAA) 記錄應該存在 (例如，lyncwebextdir.contoso.com) 。
 
-5.  確認主機 A （對於 IPv6 為 AAAA) 記錄存在，您的前端集區，如下所示：
+5.  請確認您的前端集區的主機 A (IPv6，AAAA) 記錄都存在，如下所示：
     
-      - 針對內部 DNS 記錄，您的前端集區 (例如 lyncwebpool01.contoso.local) 的內部 Web 服務 fqdn 應有存在主機 A （對於 IPv6 為 AAAA) 記錄。
+      - 針對內部 DNS 記錄，a 主機 A IPv6 的 (，AAAA) 記錄應該存在於前端集區的內部 Web 服務 FQDN (例如，lyncwebpool01.contoso.local) 。
     
-      - 針對外部 DNS 記錄，您的前端集區 (例如 lyncwebextpool01.contoso.com) 的外部 Web 服務 fqdn 應有存在主機 A （對於 IPv6 為 AAAA) 記錄。
+      - 針對外部 DNS 記錄，a 主機 A IPv6 的 (，AAAA) 記錄應該存在於前端集區的外部 Web 服務 FQDN (例如，lyncwebextpool01.contoso.com) 。
 
 6.  針對內部 DNS 記錄，在 DNS 伺服器的主控台樹狀目錄中，展開 SIP 網域 (例如 contoso.com) 的 [正向對應區域]****。
     
@@ -200,13 +202,13 @@ DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據�
 
 9.  在 [IP 位址]**** 中輸入 IP 位址，如下所示：
     
-      - 針對內部 DNS 記錄，輸入 Director 的內部 Web 服務 IP 位址 （或者，如果您使用負載平衡器，請輸入虛擬 IP (VIP) Director 負載平衡器）。
+      - 針對內部 DNS 記錄，輸入 Director (的內部 Web 服務 IP 位址，或者，如果使用負載平衡器，請輸入 Director 負載平衡器) 的虛擬 IP (VIP) 。
         
         <div>
         
 
         > [!NOTE]  
-        > 如果您不使用 Director、 輸入 IP 位址的前端伺服器或 Standard Edition server，或，如果您使用負載平衡器中，輸入前端集區負載平衡器的 VIP。
+        > 如果您不使用 Director，請輸入前端伺服器或 Standard Edition Server 的 IP 位址，或者，如果使用負載平衡器，請輸入前端集區負載平衡器的 VIP。
 
         
         </div>
@@ -221,7 +223,7 @@ DNS 記錄可以是其中一個 A （主機） 記錄或 CNAME 記錄，根據�
     
 
     > [!IMPORTANT]  
-    > 您必須在您支援 Lync Server 2013 環境中的每個 SIP 網域的正向對應區域中建立新的 lyncdiscover 和 lyncdiscoverinternal A 記錄。
+    > 您必須在 Lync Server 2013 環境中所支援的每個 SIP 網域的正向對應區域中建立新的 lyncdiscover 和 lyncdiscoverinternal A 記錄。
 
     
     </div>

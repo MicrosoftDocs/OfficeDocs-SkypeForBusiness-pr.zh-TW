@@ -12,20 +12,22 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 906018941b00d8ef2cbb5e37aef8d1245ad93f00
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 15585b5df4a2c38c4d72733b8c999556e6cb8467
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521240"
 ---
+# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>在混合 Lync Server 2013 部署中管理使用者
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>在混合 Lync Server 2013 部署中管理使用者
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2014-05-29_
 
 
 > [!IMPORTANT]  
-> 本節僅適用于已針對 Lync 內部部署建立並啟用的使用者，然後從內部部署部署移至 Lync Online。 如果您想要移動在 Lync Online 中建立的使用者（而且不會在內部部署中啟用 Lync），請參閱，將<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">使用者從 Lync Online 移至 Lync Server 2013 中的 lync 內部部署</A>。
+> 本節僅適用于已針對 Lync 內部部署建立並啟用的使用者，然後從內部部署部署移至 Lync Online。 如果您想要移動在 Lync Online 中建立的使用者 (，而不是在內部部署的) 部署中啟用 Lync，請參閱，將 <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">使用者從 Lync Online 移至 Lync Server 2013 中的 lync 內部部署</A>。
 
 
 
@@ -63,17 +65,17 @@ _**主題上次修改日期：** 2014-05-29_
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
-針對**HostedMigrationOverrideUrl**參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下：
+針對 **HostedMigrationOverrideUrl** 參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下：
 
-Https:// \< 集區 FQDN \> /HostedMigration/hostedmigrationService.svc。 您可以透過查看 Microsoft 365 或 Office 365 組織帳戶的 Lync Online 控制台 URL，來決定主控遷移服務的 URL。
+Https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc。 您可以透過查看 Microsoft 365 或 Office 365 組織帳戶的 Lync Online 控制台 URL，來決定主控遷移服務的 URL。
 
 **決定 Microsoft 365 或 Office 365 組織的主控遷移服務 URL**
 
 1.  以管理員身分登入您的組織。
 
-2.  開啟**Lync 系統管理中心**。
+2.  開啟 **Lync 系統管理中心**。
 
-3.  在 [ **Lync 系統管理中心**] 顯示時，選取 [位址] 列中的 URL，並將其複製到**lync.com**。 URL 的範例類似下列所示：
+3.  在 [ **Lync 系統管理中心** ] 顯示時，選取 [位址] 列中的 URL，並將其複製到 **lync.com**。 URL 的範例類似下列所示：
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 

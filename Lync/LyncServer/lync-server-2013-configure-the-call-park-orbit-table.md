@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定通話駐留軌道表
+title: Lync Server 2013：設定通話駐留軌道表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2919e783b24148cd6526a1b4ecfbf082c11985
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0f4de5568dc8d265acd412999aafc814c68dbc9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520360"
 ---
+# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>在 Lync Server 2013 中設定通話駐留軌道表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>Lync Server 2013 中設定通話駐留軌道表
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42206009"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-10_
+_**主題上次修改日期：** 2012-09-10_
 
-通話駐留使用軌道駐留通話。 使用者可以駐留與擷取通話之前，您必須設定通話駐留軌道表。 您需要指定範圍的分機號碼 （軌道） 組織會保留駐留通話，並定義這些範圍的路由，藉由指定的通話駐留集區處理每個範圍。 當您定義軌道範圍時，目標是具有足夠的軌道，因此任何一個軌道不會重複使用過快，但不是太軌道您限制適用於使用者的分機或其他服務的數目。 您可以建立多個通話駐留軌道範圍，每個 Lync 伺服器集區部署通話駐留應用程式的位置。 每個通話駐留軌道範圍必須擁有的全域唯一的名稱以及一組獨特的副檔名。
+通話駐留使用軌道進行停車通話。 您必須先設定通話駐留軌道表格，使用者才能駐留及取回通話。 您必須指定您的組織將保留用於停車通話的分機號碼範圍 (的軌道式) ，並指定處理每個範圍的通話駐留集區，以定義這些範圍的路由。 當您定義軌道範圍時，目標是具有足夠的軌道，因此，任何一個軌道都不會很快地重複使用，但卻不是這麼多的軌道來限制使用者或其他服務可使用的延伸數目。 您可以針對部署通話駐留應用程式的每個 Lync 伺服器集區，建立多個通話駐留軌道範圍。 每個通話駐留軌道範圍必須具有全域唯一名稱和一組唯一的延伸。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 軌道範圍通常圍繞 100 或更少的軌道。 前提是它小於最大值為 10000 軌道範圍每以及每個集區有 50000 個以下的軌道，每個範圍可以是更大。 如果範圍是太小，軌道更快速地重複使用。
+> 軌道範圍通常會包含100或更少的軌道。 每個範圍都可以大量增加，只要小於每個範圍的10000軌道的最大值，且每個集區的每個集數目小於50000的軌道。 如果範圍太小，則軌道的重複使用速度變快。
 
 
 
 </div>
 
-針對軌道範圍使用虛擬分機 （沒有任何使用者或電話指派給他們的分機） 區塊。
+使用虛擬分機區塊 (未獲指派使用者或電話的分機) 用於軌道範圍。
 
 <div>
 
 
 > [!NOTE]  
-> 不支援將直接向內撥號 (DID) 號碼指派為中通話駐留軌道數字軌道表。
+> 指派直接向內撥號 (，不支援通話駐留軌道表格中的軌道編號) 數位。
 
 
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012年-09-10_
 
 ## <a name="in-this-section"></a>本章節內容
 
-[建立或修改通話駐留軌道範圍在 Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+[在 Lync Server 2013 中建立或修改通話駐留軌道範圍](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
 </div>
 

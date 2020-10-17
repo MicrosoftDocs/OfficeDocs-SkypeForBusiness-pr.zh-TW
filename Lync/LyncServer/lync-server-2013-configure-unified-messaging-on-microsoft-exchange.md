@@ -12,20 +12,22 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d05939f9d15f992d350a6bb756fe3c6b9839c37b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b39c10a3fb590acc99771663f5f6e23e3c3095e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520220"
 ---
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>在 Microsoft Exchange 上設定 Lync Server 2013 的整合通訊
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>在 Microsoft Exchange 上設定 Lync Server 2013 的整合通訊
+
 
 </div>
 
@@ -53,13 +55,13 @@ _**主題上次修改日期：** 2013-02-24_
 
 ## <a name="to-configure-a-server-running-exchange-server-um"></a>設定執行 Exchange Server UM 的伺服器
 
-1.  針對每個企業語音位置設定檔，建立 UM 會話初始通訊協定 (SIP) 統一資源識別項 (URI) 撥號對應表。 如果您選擇使用 Exchange 管理主控台，請建立新的撥號對應表，安全性設定** (偏好的) **。
+1.  針對每個企業語音位置設定檔，建立 UM 會話初始通訊協定 (SIP) 統一資源識別項 (URI) 撥號對應表。 如果您選擇使用 Exchange 管理主控台，請建立新的撥號對應表，安全性設定 ** (偏好的) **。
     
     <div>
     
 
     > [!WARNING]  
-    > 如果您將安全性設定值設定為<STRONG>Sip 安全</STRONG>，只需要加密 sip 流量（先前建議使用），請注意，如果前端集區已設定為需要加密，則此撥號對應表上的此安全性設定是不夠的，這表示集區要求對 SIP 和 RTP 流量進行加密。 當撥號對應表與集區安全性設定不相容時，前端集區中的所有 Exchange UM 呼叫將會失敗，並導致錯誤，指出您具有「不相容的安全性設定」。
+    > 如果您將安全性設定值設定為 <STRONG>Sip 安全</STRONG> ，只需要加密 sip 流量（先前建議使用），請注意，如果前端集區已設定為需要加密，則此撥號對應表上的此安全性設定是不夠的，這表示集區要求對 SIP 和 RTP 流量進行加密。 當撥號對應表與集區安全性設定不相容時，前端集區中的所有 Exchange UM 呼叫將會失敗，並導致錯誤，指出您具有「不相容的安全性設定」。
 
     
     </div>
@@ -80,7 +82,7 @@ _**主題上次修改日期：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 您是否選取<STRONG>SIPSecured</STRONG>或安全的安全性層級<STRONG>，取決於</STRONG>是否要啟用或停用 (SRTP) 的安全即時傳輸通訊協定，以進行媒體加密。 對於 Lync Server 2010 與 Exchange UM 的整合，這應該對應至 Lync Server media 設定中的加密層級。 您可以執行<STRONG>Get-CsMediaConfiguration</STRONG> Cmdlet 來查看 Lync Server 媒體設定。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的 Get-CsMediaConfiguration。<BR>如需選擇適當 VoIP 安全性設定的詳細資訊，請參閱<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">整合內部部署整合通訊和 Lync Server 2013 的部署程式</A>。
+    > 您是否選取 <STRONG>SIPSecured</STRONG> 或安全的安全性層級 <STRONG>，取決於</STRONG> 是否要啟用或停用 (SRTP) 的安全即時傳輸通訊協定，以進行媒體加密。 對於 Lync Server 2010 與 Exchange UM 的整合，這應該對應至 Lync Server media 設定中的加密層級。 您可以執行 <STRONG>Get-CsMediaConfiguration</STRONG> Cmdlet 來查看 Lync Server 媒體設定。 如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的 Get-CsMediaConfiguration。<BR>如需選擇適當 VoIP 安全性設定的詳細資訊，請參閱 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">整合內部部署整合通訊和 Lync Server 2013 的部署程式</A>。
 
     
     </div>
@@ -105,7 +107,7 @@ _**主題上次修改日期：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 只有當 UM 撥號對應表在 exchange 2010 SP1<EM>之前</EM>的 exchange 版本上執行時，Lync Server 撥號對應表名稱才必須符合 um 撥號對應表名稱。
+    > 只有當 UM 撥號對應表在 exchange 2010 SP1 <EM>之前</EM> 的 exchange 版本上執行時，Lync Server 撥號對應表名稱才必須符合 um 撥號對應表名稱。
 
     
     </div>
@@ -136,7 +138,7 @@ _**主題上次修改日期：** 2013-02-24_
     
     </div>
 
-5.  流覽至 \< exchange 安裝目錄 \> \\ 腳本，如果 exchange 部署在單一樹系中，請輸入：
+5.  流覽至 [ \<Exchange installation directory\> \\ 腳本]，然後如果 Exchange 部署在單一樹系中，請輸入：
     ```console
     exchucutil.ps1
     ```
@@ -185,7 +187,7 @@ _**主題上次修改日期：** 2013-02-24_
         
         針對 Exchange 2010，請參閱《 Set-UMIPGateway： Exchange 2010 Help "at [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688) 。
     
-      - 如果您使用 Exchange 管理主控台，請清除 [**允許透過此 IP 閘道的撥出電話**] 核取方塊。
+      - 如果您使用 Exchange 管理主控台，請清除 [ **允許透過此 IP 閘道的撥出電話** ] 核取方塊。
     
     <div>
     
@@ -224,7 +226,7 @@ _**主題上次修改日期：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 下列範例中的<STRONG>SIPResourceIdentifier</STRONG>必須是 Lync Server 使用者的 SIP 位址。
+    > 下列範例中的 <STRONG>SIPResourceIdentifier</STRONG> 必須是 Lync Server 使用者的 SIP 位址。
 
     
     </div>

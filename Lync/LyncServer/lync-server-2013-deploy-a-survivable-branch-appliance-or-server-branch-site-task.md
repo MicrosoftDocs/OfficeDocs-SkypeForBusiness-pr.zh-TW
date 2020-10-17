@@ -1,5 +1,5 @@
 ---
-title: 部署 Survivable Branch Appliance 或 Server-分支網站工作
+title: 部署 Survivable 分支裝置或伺服器-分支網站工作
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184586
 ms.date: 10/29/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d17cc327578ff812fb01d61a64348bc0776762bd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 835de118f46dba61fe86ee3f412c55d945dfb2a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521650"
 ---
+# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>使用 Lync Server 2013 部署 Survivable 分支裝置或伺服器-分支網站工作
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>部署 Survivable Branch Appliance 或 Server 與 Lync Server 2013-分支網站工作
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42179760"
 
 <span> </span>
 
-_**上次修改主題：** 2014年-10-28_
+_**主題上次修改日期：** 2014-10-28_
 
-執行下列其中一個順利完成[部署 Survivable Branch Appliance 或 survivable branch Server 與 Lync Server 2013-中央網站工作](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)中的工作之後分支網站，本主題所述的兩個程序。
+在分支網站上執行下列兩個程式中所述的一項，在 [使用 Lync Server 2013-中央網站工作順利完成部署 Survivable 分支裝置或伺服器](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)的工作之後。
 
 <div>
 
@@ -53,7 +55,7 @@ _**上次修改主題：** 2014年-10-28_
 
 ## <a name="to-deploy-the-survivable-branch-appliance"></a>若要部署 Survivable Branch Appliance
 
-  - Survivable Branch Appliance 部署已由 Survivable Branch Appliance 供應商透過 web 使用者介面 (UI)。 如需部署 Survivable Branch Appliance 的相關資訊，請參閱您 Survivable Branch Appliance 廠商文件。
+  - Survivable 分支裝置部署是由 Survivable Branch 裝置廠商透過 web 使用者介面 (UI) 來啟用。 如需部署 Survivable 分支裝置的詳細資訊，請參閱 Survivable Branch 裝置廠商檔。
 
 </div>
 
@@ -61,18 +63,18 @@ _**上次修改主題：** 2014年-10-28_
 
 ## <a name="to-deploy-the-survivable-branch-server"></a>若要部署 Survivable Branch 伺服器
 
-  - 如同安裝任何其他的 Lync Server 2013 伺服器角色，請在執行 Windows Server 2008 R2、 Windows Server 2012 或 Windows Server 2012 R2 的電腦上安裝 Lync Server 2013。
+  - 在執行 Windows Server 2008 R2、Windows Server 2012 或 Windows Server 2012 R2 的電腦上安裝 Lync Server 2013，就像安裝任何其他 Lync Server 2013 Server 角色一樣。
     
     <div>
     
 
     > [!NOTE]
-    > 如需安裝 Lync Server 的相關資訊，請參閱部署文件中的<A href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</A> 。
+    > 如需安裝 Lync Server 的相關資訊，請參閱部署檔中的 <A href="lync-server-2013-deploying-lync-server.md">部署 Lync server 2013</A> 。
 
     
     </div>
 
-**下一步**： [Configuring 使用者在 Lync Server 2013 中的分支網站恢復能力](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+**後續步驟**： [在 Lync Server 2013 中為分支網站恢復設定使用者](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
 </div>
 
@@ -81,7 +83,7 @@ _**上次修改主題：** 2014年-10-28_
 ## <a name="see-also"></a>另請參閱
 
 
-[附錄 a： 使用 cmdlet 部署 Survivable Branch Appliance Lync Server 2013 中](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
+[附錄 A：在 Lync Server 2013 中使用 Cmdlet 部署 Survivable Branch 裝置](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
   
 
 </div>

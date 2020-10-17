@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Address Book Server cmdlet'
+title: Lync Server 2013： Address Book Server Cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35106634d9ad9dbc8c4a044aad42d50081cd1e7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91a4953edf97d45cb29038ed8803917fe62a076c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196406"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521180"
 ---
+# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的通訊錄服務器 Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>處理 Lync Server 2013 中的活頁簿 Server cmdlet
+
 
 </div>
 
@@ -35,49 +37,49 @@ ms.locfileid: "42196406"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-06-26_
+_**主題上次修改日期：** 2012-06-26_
 
-Address Book server 是 Active Directory 網域服務和 Microsoft Lync Server 2013 之間的媒介。 Address Book server 可確保儲存在 Lync Server 2013 中的使用者資訊的同步處理儲存在 Active Directory 中的使用者資訊。 其作法是定期將 Address Book 檔案與使用者資料庫中儲存的資訊同步化。 接著，Lync Server 包含許多管理 Address Book server cmdlet。
+Address Book servers 是 Active Directory 網域服務和 Microsoft Lync Server 2013 之間的仲介。 Address Book server 會確保儲存在 Lync Server 2013 中的使用者資訊，與儲存在 Active Directory 中的使用者資訊同步。 其作法是定期將 Address Book 檔案與使用者資料庫中儲存的資訊同步化。 然後，Lync Server 會包含許多 Cmdlet 來管理通訊錄服務器。
 
 <div>
 
 ## <a name="address-book-server-cmdlets"></a>Address Book Server Cmdlet
 
-您無法 Address Book Server 中設定 Lync Server Control Panel。 Windows PowerShell 為主要工具，以管理這些設定。 下表列出的 Cmdlet 與管理 Address Book Server 直接相關：
+您無法在 Lync Server 控制台中設定通訊錄服務器設定。 Windows PowerShell 是用來管理這些設定的主要工具。 下表列出的 Cmdlet 與管理 Address Book Server 直接相關：
 
 **Address Book Server**
 
   - <span></span>  
-    [Get-csaddressbookconfiguration cmdlet](https://technet.microsoft.com/library/Gg398132(v=OCS.15))
+    [Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))
 
   - <span></span>  
-    [New-csaddressbookconfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))
+    [New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))
 
   - <span></span>  
-    [Remove-csaddressbookconfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))
+    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))
 
   - <span></span>  
-    [Set-csaddressbookconfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))
+    [Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-csaddressbook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))
+    [Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Debug-csaddressbookreplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))
+    [Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-csaddressbookservice](https://technet.microsoft.com/library/Gg398661(v=OCS.15))
+    [Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-csaddressbookwebquery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))
+    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))
 
 </div>
 
@@ -86,7 +88,7 @@ Address Book server 是 Active Directory 網域服務和 Microsoft Lync Server 2
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 的博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

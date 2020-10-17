@@ -12,20 +12,22 @@ ms:contentKeyID: 48184261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66dd239acbb274c7223363f1522f2d0c76590c37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c44ef02ef0685b4f930d7a264915d5338600ef71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520840"
 ---
+# <a name="overview-of-monitoring-in-lync-server-2013"></a>Lync Server 2013 中的監控概覽
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-monitoring-in-lync-server-2013"></a>Lync Server 2013 中的監控概覽
+
 
 </div>
 
@@ -81,7 +83,7 @@ Lync Server 所收集的通話詳細資訊可用於任何數量的使用，包�
 
   - 降低 Lync Server 2013 設定和管理的複雜性。 在每一部前端伺服器上組合監視服務，您不再需要安裝、設定及管理監控伺服器角色。
 
-如需詳細資訊，請參閱 Lync Server 2013 2013 部署指南中的在[Lync server 2013 中部署監控](lync-server-2013-deploying-monitoring.md)主題。
+如需詳細資訊，請參閱 Lync Server 2013 2013 部署指南中的在 [Lync server 2013 中部署監控](lync-server-2013-deploying-monitoring.md) 主題。
 
 </div>
 

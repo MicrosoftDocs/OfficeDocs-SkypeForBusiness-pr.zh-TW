@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: CodecDescription 表'
+title: Lync Server 2013： CodecDescription 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c45300800ad83bbeee0d71abd1a38879f41c903d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ed272afa7fe21a7b40004fb93dcdfa239b4caf8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520660"
 ---
+# <a name="codecdescription-table-in-lync-server-2013"></a>Lync Server 2013 中的 CodecDescription 表格
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="codecdescription-table-in-lync-server-2013"></a>Lync Server 2013 中的 CodecDescription 表
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42209329"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-17_
+_**主題上次修改日期：** 2012-10-17_
 
-CodecDescription 表格會將唯一的轉碼器識別碼對應至它們對應的轉碼器。 轉碼器可用來為數位訊號編碼以利傳輸與廣播，然後將它們解碼以進行播放。 Microsoft Lync Server 2013 中已導入此表格
+CodecDescription 表格會將唯一的轉碼器識別碼對應至它們對應的轉碼器。 轉碼器可用來為數位訊號編碼以利傳輸與廣播，然後將它們解碼以進行播放。 此表格已引進 Microsoft Lync Server 2013
 
 
 <table>
@@ -51,20 +53,20 @@ CodecDescription 表格會將唯一的轉碼器識別碼對應至它們對應的
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Codecdescriptionkey 之</strong></p></td>
-<td><p>smallint</p></td>
+<td><p><strong>CodecDescriptionKey</strong></p></td>
+<td><p>Smallint</p></td>
 <td><p>主要</p></td>
 <td><p>指派給轉碼器的唯一識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CodecDescription</strong></p></td>
-<td><p>varchar(256)</p></td>
+<td><p>Varchar (256) </p></td>
 <td><p>Unique</p></td>
 <td><p>對應至 CodecDescriptionKey 之轉碼器的唯一說明。</p></td>
 </tr>

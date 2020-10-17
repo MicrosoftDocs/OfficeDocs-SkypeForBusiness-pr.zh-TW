@@ -12,20 +12,22 @@ ms:contentKeyID: 48184033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb70397514589ac6f3cc74d84a6ae7509c9baa5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ad435320a80b2cd2272fbe69afa59a79d39ccbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205107"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521120"
 ---
+# <a name="configure-categories-in-lync-server-2013"></a>在 Lync Server 2013 中設定類別
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-categories-in-lync-server-2013"></a>在 Lync Server 2013 中設定類別
+
 
 </div>
 
@@ -47,13 +49,13 @@ _**主題上次修改日期：** 2012-10-06_
 
 1.  使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
 
-2.  從 [**開始**] 功能表中，選取 [Lync Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  從 [ **開始** ] 功能表中，選取 [Lync Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱 [Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 您也可以使用 Windows PowerShell Cmdlet。 如需詳細資訊，請參閱部署檔中的<A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">使用 Windows PowerShell Cmdlet 設定 Persistent Chat Server</A> 。
+    > 您也可以使用 Windows PowerShell Cmdlet。 如需詳細資訊，請參閱部署檔中的 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">使用 Windows PowerShell Cmdlet 設定 Persistent Chat Server</A> 。
 
     
     </div>
@@ -64,7 +66,7 @@ _**主題上次修改日期：** 2012-10-06_
 
 4.  在 **[類別]** 頁面上，按一下 **[新增]** 或 **[編輯]**。
 
-5.  在 [**選取服務**] 中，選取對應至需要建立類別之 Persistent Chat Server 集區的服務。 服務是 persistent chat Server 集區，Persistent Chat (用戶端) 使用它來識別類別所屬的集區。 類別只能隸屬于一部 Persistent Chat Server 集區，無法移至另一個集區，或與另一個集區共用。
+5.  在 [ **選取服務**] 中，選取對應至需要建立類別之 Persistent Chat Server 集區的服務。 服務是 persistent chat Server 集區，Persistent Chat (用戶端) 使用它來識別類別所屬的集區。 類別只能隸屬于一部 Persistent Chat Server 集區，無法移至另一個集區，或與另一個集區共用。
 
 6.  在 **[新類別]** 中，執行下列作業：
     
@@ -85,15 +87,15 @@ _**主題上次修改日期：** 2012-10-06_
         
         </div>
     
-    5.  若要控制聊天記錄，請選取或清除 [**啟用聊天記錄**] 核取方塊。 如果選取，聊天內容會持續存在；如果清除，聊天訊息就不會存在。 如果啟用規範，將會依規範儲存聊天內容，但是使用者無法存取較早的訊息。 這個選項可用於指派給不需要保存交談記錄的即時、臨時共同作業的聊天室。
+    5.  若要控制聊天記錄，請選取或清除 [ **啟用聊天記錄** ] 核取方塊。 如果選取，聊天內容會持續存在；如果清除，聊天訊息就不會存在。 如果啟用規範，將會依規範儲存聊天內容，但是使用者無法存取較早的訊息。 這個選項可用於指派給不需要保存交談記錄的即時、臨時共同作業的聊天室。
 
 7.  在 **[編輯類別]** 中，執行下列作業：
     
-      - 在 [**成員資格**] 的 [**允許的成員**] 區段中，新增或移除使用者及其他 Active Directory 網域服務主體 (使用者、通訊群組、組織單位等) ，允許將其新增為屬於類別之聊天室的成員。 類別所允許的主體可以搜尋該類別中的聊天室 (除非該聊天室為隱藏，則只有其成員可以在目錄中搜尋它)。
+      - 在 [ **成員資格**] 的 [ **允許的成員** ] 區段中，新增或移除使用者及其他 Active Directory 網域服務主體 (使用者、通訊群組、組織單位等) ，允許將其新增為屬於類別之聊天室的成員。 類別所允許的主體可以搜尋該類別中的聊天室 (除非該聊天室為隱藏，則只有其成員可以在目錄中搜尋它)。
     
-      - 在 [**成員資格**] 的 [**拒絕的成員**] 區段中，新增或移除與被聊天室拒絕的成員有關聯的使用者及其他 Active Directory 主體。
+      - 在 [ **成員資格**] 的 [ **拒絕的成員** ] 區段中，新增或移除與被聊天室拒絕的成員有關聯的使用者及其他 Active Directory 主體。
     
-      - 在 [**成員資格**] 的 [建立**者**] 區段中，新增或移除與類別建立者相關聯的使用者及其他 Active Directory 主體。 建立者是有權建立聊天室及指派聊天室管理員和成員的使用者。
+      - 在 [ **成員資格**] 的 [建立 **者** ] 區段中，新增或移除與類別建立者相關聯的使用者及其他 Active Directory 主體。 建立者是有權建立聊天室及指派聊天室管理員和成員的使用者。
 
 8.  按一下 **[認可]**。
 

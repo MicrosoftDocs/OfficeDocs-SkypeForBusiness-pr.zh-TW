@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定 CAC 網路地區
+title: Lync Server 2013：設定 CAC 的網路地區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185906
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 803402ce0c9b36426ed33934c94907a418a693a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c029de2a7b6296dc81d365978c55d18c817e0894
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188596"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520540"
 ---
+# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a>在 Lync Server 2013 中設定 CAC 的網路地區
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a>設定 Lync Server 2013 中的 CAC 網路地區
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42188596"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果您已經建立網路地區的 E9-1-1 或媒體旁路，您可以修改現有的網路地區新增使用<STRONG>Set-csnetworkregion</STRONG> cmdlet 的通話許可控制 (CAC) 的特定設定值。 如需如何修改網路地區的範例，請參閱<A href="lync-server-2013-create-or-modify-a-network-region.md">建立或修改網路地區 Lync Server 2013 中的</A>。
+> 如果您已建立 E9-1-1 或媒體旁路的網路地區，您可以使用 <STRONG>Set-CsNetworkRegion</STRONG> 指令程式 (CAC) 新增通話許可控制的特定設定，以修改現有的網路地區。 如需如何修改網路地區的範例，請參閱 <A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync Server 2013 中建立或修改網路地區</A>。
 
 
 
 </div>
 
-*網路地區*是網路集線器或骨幹中設定 CAC、 E9-1-1 和媒體旁路使用。 使用下列程序來建立範例網路拓撲中的網路地區對齊 cac 的網路地區。 若要檢視範例網路拓撲，請參閱[範例： 收集您的 Lync Server 2013 中的通話許可控制需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)中規劃文件。
+*網路地區* 是網路中樞或骨幹，用來設定 CAC、E9-1-1 和媒體旁路。 請使用下列程式建立網路地區，以與 CAC 的範例網路拓撲中的網路地區對齊。 若要查看範例網路拓撲，請參閱規劃檔中的 [範例：在 Lync Server 2013 中收集通話許可控制需求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 。
 
-CAC 的範例網路拓撲有三個區域: 「 北美地區 」、 EMEA，以及 APAC。 每個區域都有指定的中央網站。 針對 「 北美地區 」 區域中，指定的中央站台是名為 「 芝加哥。 下列程序顯示如何使用**New-csnetworkregion** cmdlet 來建立北美地區的範例。
+CAC 的範例網路拓撲有三個區域：北美、EMEA 和 APAC。 每個地區都有指定的中央網站。 在北美地區，指定的中央網站命名為芝加哥。 下列程式顯示如何使用 **New-CsNetworkRegion** Cmdlet 來建立北美地區的範例。
 
 <div>
 
 
 > [!NOTE]  
-> 下列程序，Lync Server 管理命令介面用來建立網路地區。 如需使用 Lync Server 控制台建立網路地區的詳細資訊，請參閱<A href="lync-server-2013-create-or-modify-a-network-region.md">建立或修改網路地區 Lync Server 2013 中的</A>。
+> 在下列程式中，Lync Server 管理命令介面是用來建立網路地區。 如需使用 Lync Server 控制台建立網路地區的詳細資訊，請參閱 <A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync Server 2013 中建立或修改網路地區</A>。
 
 
 
@@ -63,15 +65,15 @@ CAC 的範例網路拓撲有三個區域: 「 北美地區 」、 EMEA，以及 
 
 <div>
 
-## <a name="to-create-a-network-region-for-call-admission-control"></a>若要建立通話許可控制的網路地區
+## <a name="to-create-a-network-region-for-call-admission-control"></a>為通話許可控制建立網路地區
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  針對您要建立每個區域，執行**New-csnetworkregion** cmdlet。 例如，若要建立北美地區，請執行：
+2.  針對您需要建立的每個地區，執行 **New-CsNetworkRegion** Cmdlet。 例如，若要建立北美地區，請執行：
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
 
-3.  重複步驟 2 以建立網路地區，EMEA 和 APAC。
+3.  重複步驟2以建立網路地區（EMEA 和 APAC）。
 
 </div>
 

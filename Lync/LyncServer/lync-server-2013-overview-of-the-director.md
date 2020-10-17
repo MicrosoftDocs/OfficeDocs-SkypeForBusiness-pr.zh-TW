@@ -1,5 +1,5 @@
 ---
-title: Director 的 Lync Server 2013： 概觀
+title: Lync Server 2013： Director 的概覽
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185393
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cf4e40f211cb992e914be20dc9962d55f229bc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb187711174785833716b2d14ffe7979cedcbc96
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215879"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520820"
 ---
+# <a name="overview-of-the-director-in-lync-server-2013"></a>Lync Server 2013 中的 Director 概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-director-in-lync-server-2013"></a>Lync Server 2013 中 Director 概觀
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42215879"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
-Director 是執行 Lync Server 2013 的驗證使用者要求，但不會主控任何使用者帳戶的伺服器。 （選用） 可以部署 Director 下列兩種案例：
+Director 是一部執行 Lync Server 2013 的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。 您可以選擇在下列兩個案例中部署 Director：
 
-  - 如果您藉由部署 Edge Server 啟用外部使用者存取，您也應該部署 Director。 在此案例中，Director 驗證外部使用者，並接著將傳遞它們登入內部伺服器的流量。 Director 來驗證外部使用者使用時，它會減輕前端集區伺服器執行驗證這些使用者的額外負荷。 它也可協助將內部前端集區隔離惡意流量，例如拒絕服務攻擊。 無效的外部流量，在這類攻擊大量湧入網路時，此流量結束 Director。
+  - 如果您透過部署 Edge Server 啟用外部使用者存取，您也應該部署 Director。 在此案例中，Director 會驗證外部使用者，然後將流量傳遞給內部伺服器。 當 Director 用於驗證外部使用者時，它會從執行這些使用者驗證的開銷中免除前端集區伺服器的執行。 它也有助於將內部前端集區與惡意流量（如拒絕服務攻擊）隔離。 如果網路在這類攻擊中以不正確外部流量淹沒，這項流量會結束于 Director。
 
-  - 如果您將部署在中央網站的多個前端集區，藉由將 Director 新增至該網站可以簡化驗證要求，並改善效能。 在此案例中，所有要求都前往第一個 Director，然後將它們路由傳送至正確的前端集區。
+  - 如果您在中央網站部署多個前端集區，只要將 Director 新增至該網站，您就可以簡化驗證要求並改善效能。 在此案例中，所有要求都會先移至 Director，然後再將其路由傳送到正確的前端集區。
 
 </div>
 

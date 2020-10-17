@@ -1,5 +1,5 @@
 ---
-title: 常設聊天室伺服器的 Lync Server 2013： 概觀
+title: Lync Server 2013： Persistent Chat Server 的簡介
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38188067f5320c7e9fc6aa7ccef60812d5a42023
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215939"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520860"
 ---
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中的 Persistent Chat Server 概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 常設聊天室伺服器的概觀
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42215939"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-29_
+_**主題上次修改日期：** 2012-10-29_
 
-Lync Server 2013，Persistent Chat Server 可讓使用者參與多方、 主題型保留一段時間的交談。 Persistent Chat Server 可協助組織，執行下列動作：
+Lync Server 2013，Persistent Chat Server 可讓使用者加入一段時間內的多方、主題型交談。 Persistent Chat Server 可以協助貴組織執行下列作業：
 
-  - 改進地理位置分散且跨部門之小組間的通訊。 藉由使用常設聊天室，小組可以有效地共用資訊、 想法和決策與另一個。 張貼至聊天室 （論壇） 的郵件可以保存 （也就是可供使用一段時間），以便從不同的位置和部門的人員可以參與，即使當它們不同時線上。 當使用者連接至聊天室時，為了讓使用者在內容交談聊天室自動載入討論串 （聊天歷程記錄訊息的可設定數字）。
+  - 改進地理位置分散且跨部門之小組間的通訊。 透過使用持續性聊天，小組可以有效率地與其他人共用資訊、想法和決策。 張貼至聊天室的郵件 (討論論壇) 可以保留 (也就是在) 的時間內可用，所以來自不同位置和部門的人員可以加入，即使他們不在線上也是一樣。 當使用者連線至聊天室時，backchat (會自動載入聊天室的可設定聊天記錄) 郵件的數量，以提供使用者談話的內容。
 
-  - 改進資訊傳達方式。 藉由使用用戶端篩選，使用者可以定義條件 — 例如關鍵字的郵件內容或在郵件中的 「 發話 」 欄位的值-若要在 [常設聊天室立即訊息或聊天室訊息符合這些條件時收到通知。 如此一來，使用者可以保持以他們最感興趣的內容。
+  - 改進資訊傳達方式。 透過使用用戶端篩選器，使用者可以定義條件，例如郵件內容中的關鍵字，或郵件中的「寄件者」欄位中的值，以便在持續性聊天立即訊息或聊天室訊息中符合這些條件時，接收通知。 這樣一來，使用者就可以隨時掌握最新的內容。
 
-  - 改進大企業的通訊。 輕鬆地共同作業段長時間執行主題與其他人在組織中，並提供持續性的理想的共用資訊，常設聊天室協助改善通訊。
+  - 改進大企業的通訊。 透過輕鬆地與組織中的其他人合作，並提供共用資訊的持久位置，持續聊天可協助改善通訊。
 
-  - 緩和資訊超載的狀況。 使用者可以追蹤聊天室和郵件的最感興趣使用用戶端篩選，並可以新增他們想要依照其連絡人清單的聊天室。
+  - 緩和資訊超載的狀況。 使用者可以使用用戶端篩選器來追蹤聊天室和最感興趣的訊息，也可以新增想要追蹤其連絡人清單的聊天室。
 
-  - 加強重要知識和資訊的傳播。 文件和連結可以併入交談中，供整個小組存取。 透過張貼問題至更廣大的小組，使用者可以從主題專家的回應中受益。 與其他資訊系統的整合可讓重要的組織資料，以輕鬆地傳達給至大型群組。
+  - 加強重要知識和資訊的傳播。 文件和連結可以併入交談中，供整個小組存取。 透過張貼問題至更廣大的小組，使用者可以從主題專家的回應中受益。 與其他資訊系統整合，可讓重要的組織資料輕鬆地傳遞給大型群組。
 
-若要啟用 Lync Server 2013 中的聊天室，請部署 Lync Server 2013 常設聊天室。 如需啟用聊天室的資訊，請參閱 [常設聊天室說明在<https://go.microsoft.com/fwlink/p/?linkid=270945>。 如果使用者已啟用 Lync Server，並部署 Lync Server 支援，使用者可以安裝並使用 Lync 2013 常設聊天室，提供聊天室支援。
+若要在 Lync Server 2013 中啟用聊天室，請部署 Lync Server 2013 持久聊天。 如需啟用聊天室的詳細資訊，請參閱的持續聊天協助 <https://go.microsoft.com/fwlink/p/?linkid=270945> 。 如果已啟用 Lync Server 的使用者，且已部署 Lync Server 支援，使用者可以安裝和使用 Lync 2013 持續聊天以提供聊天室支援。
 
-如果您的組織需要遵循法規合規性，您可以選擇性地部署常設聊天室規範服務。
+如果您的組織需要遵循相容性規定，您可以選擇性地部署 Persistent Chat 合規性服務。
 
 </div>
 

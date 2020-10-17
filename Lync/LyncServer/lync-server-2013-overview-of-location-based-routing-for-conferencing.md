@@ -1,5 +1,5 @@
 ---
-title: 電話撥入會議的位置型路由的 Lync Server 2013： 概觀
+title: Lync Server 2013：會議 Location-Based 路由的概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 56335084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b280272d17cf40734a24b553ad00a7a485547c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9dd3508221babdd9c503e21d5662a1bbe60d4ce0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216242"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520950"
 ---
+# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中 Location-Based 用於會議之路由的概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議位置型路由的概觀
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42216242"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-07-19_
+_**主題上次修改日期：** 2013-07-19_
 
-位置型路由會議應用程式提供 Lync 會議的 PSTN 通話費防護機制略過。 應用程式監視作用中的會議，並強制執行的位置型路由限制根據參與 Lync 使用者的位置。
+Location-Based 路由會議應用程式可讓 Lync 會議防護 PSTN 收費旁路的機制。 應用程式會監控使用中的會議，並根據 Lync 使用者參與的位置，強制執行 Location-Based 路由限制。
 
-位置型路由會議應用程式會決定是否是如果符合下列準則，則會強制執行 Lync 會議位置型的路由：
+Location-Based 路由會議應用程式會在符合下列準則時，決定是否要在 Lync 會議上強制執行 Location-Based 路由：
 
-  - 會議召集人會啟用位置型的路由。 位置型路由限制將會是只套用至由位置型路由已啟用的使用者安排的會議。
+  - 已啟用會議召集人的 Location-Based 路由。 Location-Based 路由限制只會套用至已啟用 Location-Based 路由之使用者所組織的會議。
 
-  - 至少一位會議參與者是 PSTN 端點。 位置型路由限制將僅適用於包含 PSTN 端點的會議。
+  - 至少有一個會議參與者為 PSTN 端點。 Location-Based 路由限制只適用于包括 PSTN 端點的會議。
 
-  - 用來橋接至 PSTN 會議的 PSTN 閘道的所在位置以及從何處網際網路連接參與者與召集人的網路站台的網路網站。
+  - PSTN 閘道用來將會議加入 PSTN 的網路網站，以及召集人和參與者連線所在的網路網站。
 
-位置型路由會議應用程式可防止 Lync 使用者和來自不同網路網站的 PSTN 端點，才能在同一場會議參與。 如果會議的召集人啟用位置型的路由，會議應用程式強制執行下列限制：
+Location-Based 路由會議應用程式可防止 Lync 使用者和 PSTN 端點從不同的網路網站加入相同的會議。 如果為 Location-Based 路由啟用會議召集人，會議應用程式會強制執行下列限制：
 
-  - 可加入 Lync 會議的端點取決於已加入會議的端點這項限制會調整以加入的端點離開和新端點加入會議。 如果召集人與參與者加入相同的網路網站，然後將 PSTN 端點的 Lync 會議，允許從相同網路站台、 從不同的網路網站的其他參與者或從不明的網路網站參與者的另一位參與者加入。
+  - 可以加入 Lync 會議的端點取決於已加入會議的端點，而且此限制會調整為加入的端點，並且將新的端點加入會議。 如果召集人和參與者從相同的網路網站加入 Lync 會議，則來自相同網路網站的另一位參與者，允許來自不同網路網站或來自未知網路網站之參與者的另一位參與者加入。
 
-  - 如果召集人與參與者加入會議從不同] 或 [未知的網路網站，不允許加入會議，如果 PSTN 通話 ingresses 從啟用位置型路由的 SIP 主幹的 PSTN 端點。
+  - 如果召集人和參與者從不同或未知的網路網站加入會議，則不允許 PSTN 端點加入會議（如果 PSTN 通話 ingresses 從為 Location-Based 路由啟用的 SIP 主幹）。
 
-  - 如果召集人與參與者所有加入會議從相同網路網站，且沒有加入相同從 PSTN 會議的參與者，不允許從不同的網路網站的 Lync 端點加入會議。
+  - 如果召集人和參與者全都從相同的網路網站加入會議，且有參與者加入來自 PSTN 的相同會議，則不允許來自不同網路網站的 Lync 端點加入會議。
 
-下表摘要說明這些會議位置型路由限制。
+下表摘要說明這些會議 Location-Based 路由限制。
 
 
 <table>
@@ -66,51 +68,51 @@ _**上次修改主題：** 2013年-07-19_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>在任何特定時間點會議中的使用者</p></td>
-<td><p>允許加入會議的使用者</p></td>
-<td><p>不允許加入會議的使用者</p></td>
+<td><p>在會議中，任何指定點的使用者 (s) </p></td>
+<td><p>允許加入會議的使用者 (s) </p></td>
+<td><p>不允許使用者 (s) 加入會議</p></td>
 </tr>
 <tr class="even">
-<td><p>從單一網路網站的 Lync VoIP 用戶端使用者</p></td>
-<td><p>Lync VoIP 用戶端使用者從相同網路網站</p>
-<p>Lync VoIP 用戶端使用者從不同的網路網站</p>
-<p>Lync VoIP 用戶端使用者的未知的網路站台</p>
-<p>同盟的 Lync VoIP 用戶端使用者</p>
-<p>使用者加入從 PSTN 端點</p></td>
+<td><p>Lync VoIP 用戶端使用者 (s) 從單一網路網站</p></td>
+<td><p>來自相同網路網站的 Lync VoIP 用戶端使用者</p>
+<p>來自不同網路網站的 Lync VoIP 用戶端使用者</p>
+<p>來自未知網路網站的 Lync VoIP 用戶端使用者</p>
+<p>同盟 Lync VoIP 用戶端使用者</p>
+<p>從 PSTN 端點加入的使用者</p></td>
 <td><p>無</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync VoIP 用戶端使用者的未知的網路站台</p></td>
-<td><p>Lync VoIP 用戶端使用者從任何網站</p>
-<p>Lync VoIP 用戶端使用者的未知的站台</p>
-<p>同盟的 Lync VoIP 用戶端使用者</p></td>
-<td><p>使用者加入透過 PSTN 端點</p></td>
+<td><p>Lync VoIP 用戶端使用者 (s) 從未知的網路網站</p></td>
+<td><p>任何網站的 Lync VoIP 用戶端使用者</p>
+<p>來自未知網站的 Lync VoIP 用戶端使用者</p>
+<p>同盟 Lync VoIP 用戶端使用者</p></td>
+<td><p>透過 PSTN 端點加入使用者</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync VoIP 用戶端使用者從不同的網路網站</p></td>
-<td><p>Lync VoIP 用戶端使用者從任何網路網站</p>
-<p>Lync VoIP 用戶端使用者的未知的網路站台</p>
-<p>同盟的 Lync VoIP 用戶端使用者</p></td>
-<td><p>使用者加入透過 PSTN 端點</p></td>
+<td><p>來自不同網路網站的 Lync VoIP 用戶端使用者</p></td>
+<td><p>任何網路網站的 Lync VoIP 用戶端使用者</p>
+<p>來自未知網路網站的 Lync VoIP 用戶端使用者</p>
+<p>同盟 Lync VoIP 用戶端使用者</p></td>
+<td><p>透過 PSTN 端點加入使用者</p></td>
 </tr>
 <tr class="odd">
-<td><p>從單一的網站和來自 PSTN 端點加入使用者的 Lync VoIP 用戶端使用者</p></td>
-<td><p>Lync VoIP 用戶端使用者從相同網路網站</p></td>
-<td><p>Lync VoIP 用戶端使用者從不同的網路網站</p>
-<p>Lync VoIP 用戶端使用者的未知的網路站台</p>
-<p>同盟的 Lync VoIP 用戶端使用者</p></td>
+<td><p>Lync VoIP 用戶端使用者 (s) 從單一網路網站，以及從 PSTN 端點加入的使用者</p></td>
+<td><p>來自相同網路網站的 Lync VoIP 用戶端使用者</p></td>
+<td><p>來自不同網路網站的 Lync VoIP 用戶端使用者</p>
+<p>來自未知網路網站的 Lync VoIP 用戶端使用者</p>
+<p>同盟 Lync VoIP 用戶端使用者</p></td>
 </tr>
 </tbody>
 </table>
 
 
-以下是依位置路由會議應用程式的其他特性：
+以下是 Location-Based 路由會議應用程式的其他特性：
 
-  - 時不允許使用者加入會議，指定位置型路由限制時，會拒絕會議的使用者呼叫而其 Lync 用戶端將報告，在呼叫未完成，或已經結束。
+  - 當使用者因 Location-Based 路由限制而不允許加入會議時，會拒絕使用者呼叫會議，而 Lync 用戶端會報告呼叫未完成或已結束。
 
-  - 以位置為主的路由 enforcements 會議將不會限制為不論其狀態加入會議，如果將端點加入未啟用位置型路由主幹透過 PSTN 端點加入。
+  - 在加入具有 Location-Based 路由 enforcements 之會議的 PSTN 端點時，如果端點透過未啟用 Location-Based 路由的主幹加入，則不會限制加入會議的狀態。
 
-  - 連接至 Mediations 伺服器透過 SIP 主幹，不會不輸出至 PSTN 通話的 PBX 系統會有相同的 enforcements 為 Lync 使用者位於相同網路站台定義 SIP 主幹的位置。 例如，PSTN 端點將能夠加入 PBX 使用者與 Lync 使用者的會議，如果他們都位於相同的網路網站;否則，將不允許 PSTN 端點，如果 PBX 使用者位於不同的網路站台比 Lync 使用者加入會議。
+  - 透過 SIP 主幹（未向 PSTN 撥出電話）連接至 Mediations Server 的 PBX 系統，將會與位於定義 SIP 主幹的相同網路網站中的 Lync 使用者具有相同的 enforcements。 例如，當 PSTN 端點可以加入具有 PBX 使用者的會議，以及 Lync 使用者位於相同的網站時，它會與其共用;否則，如果 PBX 使用者位於不同的網路網站（Lync 使用者除外），將不允許 PSTN 端點加入會議。
 
 </div>
 

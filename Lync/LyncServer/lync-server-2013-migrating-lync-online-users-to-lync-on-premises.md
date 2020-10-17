@@ -12,20 +12,22 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 8a2be7414dbdc48c9e245db33e57b8238cfb2ee9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520990"
 ---
+# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>將 Lync Online 使用者遷移至 lync Server 2013 中的 Lync 內部部署
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>將 Lync Online 使用者遷移至 lync Server 2013 中的 Lync 內部部署
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**主題上次修改日期：** 2015-11-13_
 
 
 > [!IMPORTANT]  
-> 在您部署 Lync 內部部署之前，只需要將已在 Lync Online 中啟用 Lync 的使用者帳戶遷移時，才需要執行這些步驟。 若要將原來啟用 Lync 內部部署的使用者移動，之後移至 Lync Online，請參閱<A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">在混合 Lync Server 2013 部署中管理使用者</A>。<BR>此外，所有移動的使用者都必須擁有內部部署 Active Directory 中的帳戶。
+> 在您部署 Lync 內部部署之前，只需要將已在 Lync Online 中啟用 Lync 的使用者帳戶遷移時，才需要執行這些步驟。 若要將原來啟用 Lync 內部部署的使用者移動，之後移至 Lync Online，請參閱 <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">在混合 Lync Server 2013 部署中管理使用者</A>。<BR>此外，所有移動的使用者都必須擁有內部部署 Active Directory 中的帳戶。
 
 
 
@@ -67,7 +69,7 @@ _**主題上次修改日期：** 2015-11-13_
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
-2.  請確認，在您的內部部署 Edge Server 上，您的憑證鏈可以啟用與 Lync Online 的連線，如下表所示。 您可以在這裡下載此連結：https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
+2.  請確認，在您的內部部署 Edge Server 上，您的憑證鏈可以啟用與 Lync Online 的連線，如下表所示。 您可以在這裡下載此連結： https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
 
 
     <table>
@@ -87,11 +89,11 @@ _**主題上次修改日期：** 2015-11-13_
     <td><p>受信任的根 CA</p></td>
     </tr>
     <tr class="even">
-    <td><p>Microsoft Internet 核證機關（新 CA 憑證）</p></td>
+    <td><p>Microsoft Internet 核證機關 (新 CA 憑證) </p></td>
     <td><p>中間 CA</p></td>
     </tr>
     <tr class="odd">
-    <td><p>MSIT 機器驗證 CA2 （新發出 CA2）</p></td>
+    <td><p>MSIT)  (新發出 CA2 的機器驗證 CA2</p></td>
     <td><p>中間 CA</p></td>
     </tr>
     </tbody>
@@ -104,7 +106,7 @@ _**主題上次修改日期：** 2015-11-13_
         -SipAddress "sip: username@contoso.com"
         -HostingProviderProxyFqdn "sipfed.online.lync.com"
     
-    或者，您可以建立腳本，從檔案讀取使用者名稱，並將其提供給 Get-csuser Cmdlet 的輸入：
+    或者，您也可以建立從檔案讀取使用者名稱的腳本，並將其提供給 Enable-CsUser Cmdlet 的輸入：
     
         Enable-CsUser
         -Identity $Identity 
@@ -115,13 +117,13 @@ _**主題上次修改日期：** 2015-11-13_
 
 5.  更新一些 DNS 記錄，以將所有 SIP 流量定向至 Lync 內部部署：
     
-      - 更新**Lyncdiscover.contoso.com** A 記錄，使其指向內部部署反向 proxy 伺服器的 FQDN。
+      - 更新 **Lyncdiscover.contoso.com** A 記錄，使其指向內部部署反向 proxy 伺服器的 FQDN。
     
       - 更新 *** \_ sip *。 \_tls.contoso.com** SRV 記錄，以解析至 Lync 內部部署的 Access Edge service 的公用 IP 或 VIP 位址。
     
       - 更新 *** \_ sipfederationtls *。 \_tcp.contoso.com** SRV 記錄，以解析至 Lync 內部部署的 Access Edge service 的公用 IP 或 VIP 位址。
     
-      - 如果您的組織使用分割 DNS （有時稱為「split-大腦 DNS」），請確定透過內部 DNS 區域解析名稱的使用者會定向至前端集區。
+      - 如果您的組織使用的分割 DNS (有時稱為「分裂-大腦 DNS」 ) ，請確定透過內部 DNS 區域解析名稱的使用者會定向至前端集區。
 
 6.  輸入 `Get-CsUser` Cmdlet 以檢查您將會移動之使用者的一些屬性。 您想確定 HostingProviderProxyFQDN 已設定為 `"sipfed.online.lync.com"` ，且 SIP 位址設定正確。
 
@@ -137,11 +139,11 @@ _**主題上次修改日期：** 2015-11-13_
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     
-    您可以使用**get-csuser**指令程式和– Filter 參數來移動多位使用者，以選取具有特定屬性的使用者。 例如，您可以透過篩選 {主控提供者– eq "sipfed.online.lync.om"} 來選取所有的 Lync Online 使用者。 然後，您可以將傳回的使用者輸送至**get-csuser** Cmdlet，如下所示。
+    您可以使用 **get-csuser** 指令程式和– Filter 參數來移動多位使用者，以選取具有特定屬性的使用者。 例如，您可以透過篩選 {主控提供者– eq "sipfed.online.lync.om"} 來選取所有的 Lync Online 使用者。 然後，您可以將傳回的使用者輸送至 **get-csuser** Cmdlet，如下所示。
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    針對**HostedMigrationOverrideUrl**參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下： *HTTPS:// \< 集區 FQDN \> /HostedMigration/hostedmigrationService.svc*。
+    針對 **HostedMigrationOverrideUrl** 參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下： *Https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc*。
     
     您可以透過查看 Microsoft 365 或 Office 365 組織帳戶的 Lync Online 控制台 URL，來決定主控遷移服務的 URL。
     
@@ -151,9 +153,9 @@ _**主題上次修改日期：** 2015-11-13_
     
     1.  以管理員身分登入您的 Microsoft 365 或 Office 365 組織。
     
-    2.  開啟**Lync 系統管理中心**。
+    2.  開啟 **Lync 系統管理中心**。
     
-    3.  在 [ **Lync 系統管理中心**] 顯示時，選取 [位址] 列中的 URL，並將其複製到**lync.com**。 URL 的範例類似下列所示：
+    3.  在 [ **Lync 系統管理中心** ] 顯示時，選取 [位址] 列中的 URL，並將其複製到 **lync.com**。 URL 的範例類似下列所示：
         
         `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
     
@@ -178,7 +180,7 @@ _**主題上次修改日期：** 2015-11-13_
     
     </div>
 
-8.  這是選擇性的步驟。 如果您需要與 Exchange 2013 線上整合，您必須使用其他主機服務提供者。 如需詳細資訊，請參閱設定[內部部署 Lync Server 2013 與 Exchange Online 整合](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)。
+8.  這是選擇性的步驟。 如果您需要與 Exchange 2013 線上整合，您必須使用其他主機服務提供者。 如需詳細資訊，請參閱設定 [內部部署 Lync Server 2013 與 Exchange Online 整合](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)。
 
 9.  現在已移動使用者。 若要檢查使用者在下表中顯示的屬性是否具有正確的值，請輸入此 Cmdlet：
     
@@ -215,7 +217,7 @@ _**主題上次修改日期：** 2015-11-13_
     </tr>
     <tr class="odd">
     <td><p>msRTCSIP-UserEnabled</p></td>
-    <td><p>Enabled</p></td>
+    <td><p>啟用</p></td>
     <td><p>True</p></td>
     <td><p>True</p></td>
     </tr>

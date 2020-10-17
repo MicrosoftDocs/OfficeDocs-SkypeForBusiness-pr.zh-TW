@@ -12,20 +12,22 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54c92e1da5ea1ea54ae8386cdcdce5054d76609e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a967f186d924a199b007ceba8390bf968253ec72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213259"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520410"
 ---
+# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中設定原則以控制公用使用者存取
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中設定原則以控制公用使用者存取
+
 
 </div>
 

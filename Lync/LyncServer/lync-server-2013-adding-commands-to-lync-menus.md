@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 將命令新增至 Lync 功能表
+title: Lync Server 2013：新增命令至 Lync 功能表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6377824a7d96e6bb7b0ae6c60c79f3ee4c05b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 738f745d4f91458b95e95e5cc5770c34ed4e8c88
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521350"
 ---
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>將命令新增至 Lync Server 2013 中的 Lync 功能表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>將命令新增至 Lync Server 2013 中的 Lync 功能表
+
 
 </div>
 
@@ -35,45 +37,45 @@ ms.locfileid: "42203329"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016年-04-11_
+_**主題上次修改日期：** 2016-04-11_
 
-您可以將自訂命令新增至 Lync 2013 功能表，並將 SIP 統一資源識別元 (URI) 的目前使用者] 和 [所選的連絡人傳遞至自訂命令啟動的應用程式。
+您可以將自訂命令新增至 Lync 2013 功能表，並將目前使用者及選取之連絡人的 SIP 統一資源識別項傳遞給該自訂命令啟動的應用程式 (URI) 。
 
-您新增的自訂命令可以出現在一或多個下列功能表上：
+您新增的自訂命令可以出現在下列一或多個功能表上：
 
-  - [工具] 功能表上的功能表列，在 Lync 主視窗
+  - [工具] 功能表，在 Lync 主視窗中的功能表列上
 
-  - 在 [連絡人] 清單中的連絡人快顯功能表
+  - 連絡人清單中連絡人的快顯功能表
 
-  - [更多選項] 功能表中 [交談] 視窗
+  - [更多選項] 功能表的 [交談] 視窗
 
-  - 在 [交談] 視窗參與者清單中所列人員快顯功能表
+  - 在交談視窗參與者清單中列出之人員的快顯功能表
 
-  - [選項] 功能表中的連絡人卡片
+  - 連絡人卡片中的 [選項] 功能表
 
-您可以定義自訂命令以兩種類型的應用程式-應用程式，執行下列其中一項：
+您可以為兩種類型的應用程式定義自訂命令：執行下列其中一項的應用程式：
 
-  - 僅適用於目前的使用者和本機電腦上啟動。
+  - 僅適用于目前的使用者，並在本機電腦上啟動。
 
-  - 包含其他使用者，例如線上共同作業的程式，且必須每位使用者的電腦上啟動。
+  - 包含其他使用者（例如線上共同作業計畫），且必須在每一位使用者的電腦上啟動。
 
-可以透過下列方式叫用自訂命令：
+您可以透過下列方式呼叫自訂命令：
 
-  - 選取一或多個使用者，然後選擇 [自訂命令。
+  - 選取一或多個使用者，然後選擇自訂命令。
 
-  - 啟動雙方或多方交談，，，然後選擇自訂命令。
+  - 啟動兩方或多方交談，然後選擇自訂命令。
 
 <div>
 
 ## <a name="to-add-a-custom-command"></a>若要新增自訂命令
 
-使用下表中的登錄設定，可將命令新增至功能表。 這些項目會放置在登錄的下列位置：
+使用下表中的登錄設定，將命令新增至功能表。 這些專案會放在登錄的下列其中一個位置：
 
-  - 針對 32 位元作業系統： HKEY\_本機\_機器\\軟體\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\應用程式
+  - 針對32位作業系統： HKEY \_ LOCAL \_ MACHINE \\ 軟體 \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ 應用程式
 
-  - 針對 64 位元的作業系統： HKEY\_本機\_機器\\軟體\\Wow6432Node\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\應用程式
+  - 針對64位作業系統： HKEY \_ LOCAL \_ MACHINE \\ 軟體 \\ Wow6432Node \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ 應用程式
 
-### <a name="custom-command-registry-entries"></a>自訂命令登錄項目
+### <a name="custom-command-registry-entries"></a>自訂命令登錄專案
 
 <table>
 <colgroup>
@@ -84,20 +86,20 @@ _**主題上次修改日期：** 2016年-04-11_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>Type</th>
+<th>類型</th>
 <th>Data (資料)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名稱</p></td>
+<td><p>姓名</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>顯示在功能表上的應用程式名稱。</p></td>
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = 可執行檔 （預設值）</p>
+<td><p>0 = 可執行檔 (預設) </p>
 <div>
 
 > [!NOTE]  
@@ -114,7 +116,7 @@ _**主題上次修改日期：** 2016年-04-11_
 <div>
 
 > [!NOTE]  
-> 必須指定是否 ApplicationType 為 0 （可執行檔）。
+> 如果 ApplicationType 為 0 (可執行檔) 則必須指定。
 
 
 </div></td>
@@ -122,19 +124,19 @@ _**主題上次修改日期：** 2016年-04-11_
 <tr class="even">
 <td><p>路徑</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>為與任何參數，包括預設參數<em>%使用者識別碼 %</em>和<em>%連絡人識別碼 %</em>一起啟動的完整路徑。</p></td>
+<td><p>要與任何參數一起啟動的完整路徑，包括預設參數<em>% user 識別碼% user 識別碼</em>% <em>。</em></p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
 <td><p>DWORD</p></td>
 <td><p>0 = 本機工作階段。在本機電腦上啟動應用程式。</p>
-<p>1 = 兩方工作階段 (預設)。 Lync 2013 啟動本機的應用程式，並再將桌面通知傳送給其他使用者。 其他使用者點選其電腦上啟動應用程式的通知。</p>
-<p>2 = 多方工作階段。 Lync 2013 啟動本機的應用程式，並再將桌面通知傳送給其他使用者。 其他使用者按一下通知給他們的電腦上啟動指定的應用程式。</p></td>
+<p>1 = 兩方工作階段 (預設)。 Lync 2013 會在本機啟動應用程式，然後將桌面通知傳送給另一個使用者。 另一部使用者按一下通知，以在其電腦上啟動應用程式。</p>
+<p>2 = 多方工作階段。 Lync 2013 會在本機啟動應用程式，然後將桌面通知傳送給其他使用者。 另一部使用者按一下通知，以在其電腦上啟動指定的應用程式。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>此命令將會出現的位置，功能表清單以分號分隔。 可能的值有：</p>
+<td><p>會出現這個命令的功能表清單，以分號分隔。 可能的值有：</p>
 <p>MainWindowActions</p>
 <p>MainWindowRightClick</p>
 <p>ConversationWindowActions</p>
@@ -146,7 +148,7 @@ _**主題上次修改日期：** 2016年-04-11_
 </table>
 
 
-例如，下列登錄編輯程式 (。登錄） 檔案會顯示將 Contoso Sales Contact Manager 功能表項目新增至 [交談] 視窗中的 [動作] 功能表的結果：
+例如，下列登錄編輯程式 (。REG) file 顯示在 [交談] 視窗中，將 Contoso Sales Contact Manager 功能表項目新增至 [動作] 功能表的結果：
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Lync\SessionManager\Apps\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
@@ -162,17 +164,17 @@ _**主題上次修改日期：** 2016年-04-11_
 
 <div>
 
-## <a name="to-access-a-custom-command"></a>若要存取自訂命令
+## <a name="to-access-a-custom-command"></a>存取自訂命令
 
-若要存取自訂命令後就當簡報加入，執行下列命令，根據您定義的 ExtensibleMenu 值其中一項：
+若要在新增自訂命令之後存取它，請根據您定義的 ExtensibleMenu 值，執行下列其中一項操作：
 
-  - **MainWindowActions**   在 Lync 主視窗中，按一下 [**工具**]，然後按一下 [您的自訂命令。
+  - **MainWindowActions**    在 Lync 主視窗中，按一下 [**工具**]，然後按一下您的自訂命令。
 
-  - **MainWindowRightClick**   在 Lync 主視窗中，以滑鼠右鍵按一下連絡人，，，然後按一下 [您的自訂命令。
+  - **MainWindowRightClick**    在 Lync 主視窗中，以滑鼠右鍵按一下連絡人，然後按一下您的自訂命令。
 
-  - **ConversationWindowActions**   中 [交談] 視窗中，按一下 [**更多選項**] 圖示，然後按一下 [您的自訂命令。
+  - **ConversationWindowActions**    在 [交談] 視窗中，按一下 [**其他選項**] 圖示，然後按一下您的自訂命令。
 
-  - **ConversationWindowRightClick**   在 [交談] 視窗中，以滑鼠右鍵按一下連絡人名稱，，，然後按一下 [您的自訂命令。
+  - **ConversationWindowRightClick**    在 [交談] 視窗中，以滑鼠右鍵按一下連絡人名稱，然後按一下您的自訂命令。
 
 </div>
 

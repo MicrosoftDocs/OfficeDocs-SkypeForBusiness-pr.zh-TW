@@ -12,20 +12,22 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4565f91afeb703de967040edb8f6d437aedac9eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4a0c2e200c779d87a13c08eada968b27a7447f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521230"
 ---
+# <a name="additional-software-requirements-for-lync-server-2013"></a>Lync Server 2013 的其他軟體需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="additional-software-requirements-for-lync-server-2013"></a>Lync Server 2013 的其他軟體需求
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2016-12-08_
 
 
 > [!NOTE]  
-> 如需執行 Lync Server 之伺服器平臺需求的詳細資訊，請參閱 lync server <A href="lync-server-2013-server-hardware-platforms.md">2013 的伺服器硬體平臺</A>和<A href="lync-server-2013-server-and-tools-operating-system-support.md">伺服器及工具作業系統支援（lync server 2013</A>）。 如需用戶端電腦和裝置之系統需求的詳細資訊，請參閱規劃檔中的<A href="lync-server-2013-planning-for-clients-and-devices.md">規劃 Lync Server 2013 中的用戶端和裝置</A>。 如需系統管理工具軟體需求的詳細資訊，請參閱<A href="lync-server-2013-administrative-tools-software-requirements.md">Lync Server 2013 中的系統管理工具軟體需求</A>。
+> 如需執行 Lync Server 之伺服器平臺需求的詳細資訊，請參閱 lync server <A href="lync-server-2013-server-hardware-platforms.md">2013 的伺服器硬體平臺</A> 和 <A href="lync-server-2013-server-and-tools-operating-system-support.md">伺服器及工具作業系統支援（lync server 2013</A>）。 如需用戶端電腦和裝置之系統需求的詳細資訊，請參閱規劃檔中的 <A href="lync-server-2013-planning-for-clients-and-devices.md">規劃 Lync Server 2013 中的用戶端和裝置</A> 。 如需系統管理工具軟體需求的詳細資訊，請參閱 <A href="lync-server-2013-administrative-tools-software-requirements.md">Lync Server 2013 中的系統管理工具軟體需求</A>。
 
 
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2016-12-08_
 
 ## <a name="additional-software-necessary-for-all-internal-server-roles"></a>所有內部伺服器角色所需的其他軟體
 
-本節列出所有內部伺服器角色所需的軟體，也就是除 Edge Server 之外所有的 Lync Server server 角色。 Edge server 和 Edge 集區的其他軟體會列在本主題稍後的**其他適用于 Edge server 的軟體**。
+本節列出所有內部伺服器角色所需的軟體，也就是除 Edge Server 之外所有的 Lync Server server 角色。 Edge server 和 Edge 集區的其他軟體會列在本主題稍後的 **其他適用于 Edge server 的軟體**。
 
 </div>
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2016-12-08_
 
 ## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-每一部執行 Lync Server 2013 的伺服器必須已安裝正確的 Windows PowerShell 3.0 版本。 如需詳細資訊，請參閱[安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)。
+每一部執行 Lync Server 2013 的伺服器必須已安裝正確的 Windows PowerShell 3.0 版本。 如需詳細資訊，請參閱 [安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)。
 
 </div>
 
@@ -69,7 +71,7 @@ _**主題上次修改日期：** 2016-12-08_
 
 ## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
-Lync Server 需要 Microsoft .NET Framework 4.5 在所有內部伺服器角色上，以及您要執行 Lync Server 系統管理工具或 Microsoft Lync Server 2013 的任何電腦上，規劃工具。 針對 Lync Server 2013，您必須在安裝 Lync Server 2013 之前，先在伺服器上手動安裝64位版本的 Microsoft .NET Framework 4.5。 若要手動安裝，請從 Microsoft 下載中心下載 Microsoft .NET 4.5 Framework，網址是[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+Lync Server 需要 Microsoft .NET Framework 4.5 在所有內部伺服器角色上，以及您要執行 Lync Server 系統管理工具或 Microsoft Lync Server 2013 的任何電腦上，規劃工具。 針對 Lync Server 2013，您必須在安裝 Lync Server 2013 之前，先在伺服器上手動安裝64位版本的 Microsoft .NET Framework 4.5。 若要手動安裝，請從 Microsoft 下載中心下載 Microsoft .NET 4.5 Framework，網址是 [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
 <div>
 
@@ -79,15 +81,15 @@ Lync Server 需要 Microsoft .NET Framework 4.5 在所有內部伺服器角色�
 
 **在 Windows Server 2012 上安裝 .NET 4.5 HTTP 啟用**
 
-1.  在 [**開始**] 功能表上，按一下 [**程式**]，然後按一下 [系統**管理工具**]，再按一下 [**伺服器管理員**]。
+1.  在 [ **開始** ] 功能表上，按一下 [ **程式**]，然後按一下 [系統 **管理工具**]，再按一下 [ **伺服器管理員**]。
 
-2.  在 [伺服器管理員] 的 [**功能摘要**] 下，選擇 [**新增功能**]。
+2.  在 [伺服器管理員] 的 [ **功能摘要**] 下，選擇 [ **新增功能**]。
 
 3.  展開 **.Net Framework 4.5**。
 
-4.  選取 [ **WCF 啟用**] （如果尚未選取）。 然後選取 [ **HTTP 啟用**]。
+4.  選取 [ **WCF 啟用** ] （如果尚未選取）。 然後選取 [ **HTTP 啟用**]。
 
-5.  按 **[下一步**]，然後依照提示完成安裝。
+5.  按 **[下一步** ]，然後依照提示完成安裝。
 
 </div>
 
@@ -99,9 +101,9 @@ Lync Server 需要 Microsoft .NET Framework 4.5 在所有內部伺服器角色�
 
 Lync Server 2013 中的**Windows Identity foundation**需要安裝 Windows identity foundation，才能支援伺服器的伺服器驗證案例。 Windows Server 2008 R2 和 Windows Server 2012 需要不同的程式來安裝 Windows 識別基礎。 從下列清單中選取您的伺服器作業系統：
 
-  - Windows server 2008 R2 For Windows Server 2008 R2，您可以查看是否已安裝在電腦上。 若要這麼做，請移至 [**新增/移除程式**]、[**查看已安裝的更新**]，然後在 [ **windows** ] 下的 [專案**windows Identity Foundation (KB974405) **中查看。 如需安裝 Windows Identity Foundation 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) 。
+  - Windows server 2008 R2 For Windows Server 2008 R2，您可以查看是否已安裝在電腦上。 若要這麼做，請移至 [ **新增/移除程式**]、[ **查看已安裝的更新**]，然後在 [ **windows** ] 下的 [專案 **windows Identity Foundation (KB974405) **中查看。 如需安裝 Windows Identity Foundation 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) 。
 
-  - Windows server 2012 For Windows Server 2012，您可以使用**伺服器管理員**安裝 Windows Identity Foundation。 在 [伺服器管理員**新增角色與功能] 嚮導**中，選取 [**功能**]。 從清單中選取 [ **Windows Identity Foundation 3.5** ]。 按 **[下一步]**，然後按一下 [**安裝**]。
+  - Windows server 2012 For Windows Server 2012，您可以使用 **伺服器管理員** 安裝 Windows Identity Foundation。 在 [伺服器管理員 **新增角色與功能] 嚮導**中，選取 [ **功能**]。 從清單中選取 [ **Windows Identity Foundation 3.5** ]。 按 **[下一步]**，然後按一下 [ **安裝**]。
 
 </div>
 
@@ -159,7 +161,7 @@ Lync Server 2013 中的**Windows Identity foundation**需要安裝 Windows ident
 
 ## <a name="windows-media-format-runtime-and-windows-desktop-experience"></a>Windows Media Format Runtime 和 Windows 桌面體驗
 
-**Windows 桌面體驗**所有要部署會議的前端伺服器和 Standard Edition 伺服器都必須已安裝 Windows Media Format Runtime，但 Windows Server 2012 除外，也會安裝 windows 桌面體驗的一部分。 Windows Server 2012 需要 Microsoft Media Foundation。 Windows Media Format Runtime 是執行 Windows Media Audio () 檔案，可讓通話駐留、宣告及回應群組應用程式對宣告和音樂播放。
+**Windows 桌面體驗** 所有要部署會議的前端伺服器和 Standard Edition 伺服器都必須已安裝 Windows Media Format Runtime，但 Windows Server 2012 除外，也會安裝 windows 桌面體驗的一部分。 Windows Server 2012 需要 Microsoft Media Foundation。 Windows Media Format Runtime 是執行 Windows Media Audio () 檔案，可讓通話駐留、宣告及回應群組應用程式對宣告和音樂播放。
 
 建議您先安裝 Windows 桌面體驗，再安裝 Lync Server 2013。 如果 Lync Server 2013 在伺服器上找不到此軟體，它會提示您安裝它，然後您必須重新開機伺服器以完成安裝。
 
@@ -227,7 +229,7 @@ Director 必須使用下列模組執行 Internet Information Services (IIS) ：
 
 Persistent Chat 前端伺服器必須執行郵件佇列 (也稱為 MSMQ) ，也就是 Windows Server 的元件。
 
-如需啟用 MSMQ 的資訊，請[按一下這裡。](https://technet.microsoft.com/library/cc771474.aspx)
+如需啟用 MSMQ 的資訊，請 [按一下這裡。](https://technet.microsoft.com/library/cc771474.aspx)
 
 </div>
 
@@ -237,15 +239,15 @@ Persistent Chat 前端伺服器必須執行郵件佇列 (也稱為 MSMQ) ，也�
 
 Edge Server 需要下列軟體：
 
-  - 每一部執行 Lync Server 2013 的伺服器必須已安裝正確的 Windows PowerShell 3.0 版本。 如需詳細資訊，請參閱[安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)。
+  - 每一部執行 Lync Server 2013 的伺服器必須已安裝正確的 Windows PowerShell 3.0 版本。 如需詳細資訊，請參閱 [安裝適用于 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)。
 
-  - Lync Server 需要 Microsoft .NET Framework 4.5。 針對安裝在 Windows Server 2008 R2 上的 Lync Server 2013，您必須在安裝 Lync Server 2013 之前，先在伺服器上手動安裝64位版本的 Microsoft .NET Framework 4.5。 若要手動安裝，請從 Microsoft 下載中心下載 Microsoft .NET 4.5 Framework，網址是[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+  - Lync Server 需要 Microsoft .NET Framework 4.5。 針對安裝在 Windows Server 2008 R2 上的 Lync Server 2013，您必須在安裝 Lync Server 2013 之前，先在伺服器上手動安裝64位版本的 Microsoft .NET Framework 4.5。 若要手動安裝，請從 Microsoft 下載中心下載 Microsoft .NET 4.5 Framework，網址是 [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
   - Lync Server 2013 中的**Windows Identity foundation**需要安裝 Windows identity foundation，才能支援伺服器的伺服器驗證案例。 Windows Server 2008 R2 和 Windows Server 2012 需要不同的程式來安裝 Windows 識別基礎。 從下列清單中選取您的伺服器作業系統：
     
-      - Windows server 2008 R2 For Windows Server 2008 R2，您可以查看是否已安裝在電腦上。 若要這麼做，請移至 [**新增/移除程式**]、[**查看已安裝的更新**]，然後在 [ **windows** ] 下的 [專案**windows Identity Foundation (KB974405) **中查看。 如需安裝 Windows Identity Foundation 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) 。
+      - Windows server 2008 R2 For Windows Server 2008 R2，您可以查看是否已安裝在電腦上。 若要這麼做，請移至 [ **新增/移除程式**]、[ **查看已安裝的更新**]，然後在 [ **windows** ] 下的 [專案 **windows Identity Foundation (KB974405) **中查看。 如需安裝 Windows Identity Foundation 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) 。
     
-      - Windows server 2012 For Windows Server 2012，您可以使用**伺服器管理員**安裝 Windows Identity Foundation。 在 [伺服器管理員**新增角色與功能] 嚮導**中，選取 [**功能**]。 從清單中選取 [ **Windows Identity Foundation 3.5** ]。 按 **[下一步]**，然後按一下 [**安裝**]。
+      - Windows server 2012 For Windows Server 2012，您可以使用 **伺服器管理員** 安裝 Windows Identity Foundation。 在 [伺服器管理員 **新增角色與功能] 嚮導**中，選取 [ **功能**]。 從清單中選取 [ **Windows Identity Foundation 3.5** ]。 按 **[下一步]**，然後按一下 [ **安裝**]。
 
 </div>
 

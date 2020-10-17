@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 為 Director 設定憑證
+title: Lync Server 2013：設定 Director 的憑證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c5fef23ca24d9a09d326b75ec2ad2e30704852f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e257d62e761b33dad737f9d37da5f561703183ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521050"
 ---
+# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Director 的憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>Lync Server 2013 中 director 設定憑證
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42205087"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
 <div>
 
 
 > [!IMPORTANT]  
-> 當您執行 [憑證精靈] 時，請確定您用來登入的帳戶，是具有您要使用之憑證範本類型適當權限的群組成員。 根據預設，Lync Server 2013 的憑證要求會使用 [網頁伺服器憑證範本]。 如果您要以 RTCUniversalServerAdmins 群組成員的帳戶使用此範本來要求憑證，請確定群組具有使用該範本所需的註冊權限。
+> 當您執行 [憑證精靈] 時，請確定您用來登入的帳戶，是具有您要使用之憑證範本類型適當權限的群組成員。 根據預設，Lync Server 2013 憑證要求會使用網頁伺服器憑證範本。 如果您要以 RTCUniversalServerAdmins 群組成員的帳戶使用此範本來要求憑證，請確定群組具有使用該範本所需的註冊權限。
 
 
 
 </div>
 
-每個 Director 都需要預設憑證、Web 內部憑證以及 Web 外部憑證。 如需 Director 的憑證需求的詳細資訊，請參閱規劃文件中的[Lync Server 2013 中的內部伺服器的憑證需求](lync-server-2013-certificate-requirements-for-internal-servers.md)。
+每個 Director 都需要預設憑證、Web 內部憑證以及 Web 外部憑證。 如需 Director 之憑證需求的詳細資訊，請參閱規劃檔中的 [Lync Server 2013 中內部伺服器的憑證需求](lync-server-2013-certificate-requirements-for-internal-servers.md) 。
 
 請使用下列程序設定 Director 憑證。為每個 Director 重複這個程序。此程序步驟說明如何從組織部署之內部企業根憑證授權單位 (CA) 設定憑證，以及使用離線要求程序設定憑證。如需從外部 CA 取得憑證的詳細資訊，請洽詢您的支援小組。
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2012年-09-08_
 
 ## <a name="to-configure-certificates-for-the-director-or-director-pool"></a>為 Director 或 Director 集區設定憑證
 
-1.  在 Lync Server 部署精靈中下, 一步] 為**步驟 3： 要求、 安裝或指派憑證**，按一下 [**執行**]。
+1.  在 [Lync Server 部署嚮導] 中的 [ **步驟3：要求、安裝或指派憑證**] 旁邊，按一下 [ **執行**]。
 
 2.  在 **[憑證精靈]** 頁面中，按一下 **[要求]**。
 

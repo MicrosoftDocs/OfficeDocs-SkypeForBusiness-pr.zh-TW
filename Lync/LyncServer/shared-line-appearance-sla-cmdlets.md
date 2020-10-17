@@ -1,5 +1,5 @@
 ---
-title: 共用線路外觀（SLA） Cmdlet
+title: 共用線外觀 (SLA) Cmdlet
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,20 +12,22 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb06eb1552de59071d5eafcd15e8fa13c83032df
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1d81641af786e3eed70e41678cbc0c02d31f52cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520750"
 ---
+# <a name="shared-line-appearance-sla-cmdlets"></a>共用線外觀 (SLA) Cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="shared-line-appearance-sla-cmdlets"></a>共用線路外觀（SLA） Cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755737"
 
 _**主題上次修改日期：** 2016-04-12_
 
-與單行外觀（SLA）相關的 Cmdlet 可讓您設定共用電話號碼與可拾取該行的多個代理人。
+與單行外觀相關的 Cmdlet (SLA) 可讓您設定共用電話號碼與可拾取該行的多個代理人。
 
 <div>
 

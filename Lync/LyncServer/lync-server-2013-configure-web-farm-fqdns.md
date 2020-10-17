@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定 web 伺服陣列 Fqdn
+title: Lync Server 2013：設定網頁伺服器陣列 Fqdn
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46cca998a35a7519675cd787f5887f2a65d491c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37799ed65cca468ea7bac18956ed08783c9b6a1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520130"
 ---
+# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>設定 Lync Server 2013 的 web 伺服器陣列 Fqdn
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>設定 web 伺服陣列 Fqdn 的 Lync Server 2013
+
 
 </div>
 
@@ -35,42 +37,42 @@ ms.locfileid: "42190496"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-03-29_
+_**主題上次修改日期：** 2013-03-29_
 
-當您定義 Standard Edition server 的設定時，前端集區、 Director 或 Director 集區拓撲產生器] 中設定外部 web 服務完整的網域名稱 (FQDN)。 在登入用戶端的程序期間位於 [Standard Edition server 或前端集區，設定的 web 服務 Fqdn 傳送透過頻內佈建。 如果您需要新增或變更外部 web 服務 URL，您可以使用拓撲產生器來設定或重新設定程序使用本主題中的 web 服務組態。
+當您在拓撲產生器中定義 Standard Edition server、前端集區、Director 或 Director 集區的設定時，會將 [外部 web 服務] 完整功能變數名稱設定 (FQDN) 。 在駐留在 Standard Edition server 或前端集區中的用戶端登入過程中，設定的 web 服務 Fqdn 是透過帶內布建的方式傳送。 如果您需要新增或變更 [外部 web 服務] URL，請使用拓撲產生器來設定或重新設定 web 服務設定，使用本主題中的程式。
 
 <div>
 
-## <a name="to-configure-an-external-pool-fqdn-for-web-services"></a>若要設定 web 服務的外部集區 FQDN
+## <a name="to-configure-an-external-pool-fqdn-for-web-services"></a>設定 web 服務的外部集區 FQDN
 
-1.  啟動拓撲產生器： 按一下 [**開始]**、 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 拓撲產生器]**。
+1.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**產生器]。
 
-2.  在拓撲產生器，在主控台樹狀目錄中，在**Standard Edition 前端**]、 [ **Enterprise Edition 前端**] 及 [ **Director**，以滑鼠右鍵按一下您要編輯的集區名稱，然後按一下 [**編輯內容]**。
+2.  在 [拓撲產生器] 的 [ **Standard Edition 前端**]、[ **Enterprise edition 前端**] 及 [ **director**] 下的主控台樹中，以滑鼠右鍵按一下您需要編輯的集區名稱，然後按一下 [ **編輯**內容]。
 
-3.  在 [ **Web 服務**] 區段中，新增或編輯**外部 web 服務 FQDN**。
+3.  在 [ **Web 服務** ] 區段中，新增或編輯 [ **外部 Web 服務 FQDN**]。
 
-4.  檢閱並調整**聆聽連接埠**的 HTTP 和 HTTPS。 預設值會是：
+4.  檢查並調整 HTTP 和 HTTPS 的 **聆聽埠** 。 預設值將會是：
     
-      - **聆聽連接埠：** HTTP 8080、 HTTPS 4443
+      - **聆聽埠：** HTTP 8080，HTTPS 4443
     
-      - **發行的連接埠：** HTTP 80、 HTTPS 443
+      - **已發佈的埠：** HTTP 80，HTTPS 443
     
-    **聆聽連接埠**所在的外部 web 服務將會設定為接收來自反向 proxy 要求和**發行的連接埠**是連接埠的連接埠都已由反向 proxy 對外發行且頻內佈建期間傳達給用戶端。
+    其中， **收聽埠** 是外部 web 服務將設定為接收反向 proxy 之要求的埠，而 **已發佈的埠** 是反向 proxy 外部發佈的埠，而且會在頻帶內布建期間傳遞給用戶端。
 
 5.  當您完成新增和更新時，請按一下 **[確定]** 繼續。
 
-6.  **Lync Server 2013**中，以滑鼠右鍵按一下，然後按一下 [**發佈**]。
+6.  以滑鼠右鍵按一下 [ **Lync Server 2013**]，然後按一下 [ **發佈**]。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 發佈成功完成之後，連結可能會出現，通知您有其他需要採取的步驟。 [] 連結，如果按下，會開啟在拓撲產生器中，會要求您重新執行更新適用於新增、 移除或變更元件設定每個列出的伺服器上的 [Lync Server 部署精靈中所做的變更所影響的伺服器清單。
+    > 順利發行完成後，可能會出現連結，通知您有需要採取的其他步驟。 連結（如果已按一下）會開啟受拓撲產生器所進行之變更影響的伺服器清單，該清單會要求您在所列的每個伺服器上重新執行 Lync Server 部署嚮導，以更新新增、移除或變更的元件的設定。
 
     
     </div>
 
-7.  針對每個 Standard Edition 伺服器，前端集區，重複這些步驟 Director 集區在組織中。
+7.  針對組織中的每個 Standard Edition server、前端集區、Director 或 Director 集區，重複執行這些步驟。
 
 </div>
 

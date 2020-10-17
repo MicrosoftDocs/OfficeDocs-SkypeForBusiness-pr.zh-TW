@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 定義轉譯規則
+title: Lync Server 2013：定義轉譯規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba03cbb16a347b4b4c64758de3397e6030db9dd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85c4f1dc3b07d56e97211d6d5caf549e72caa177
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198376"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521680"
 ---
+# <a name="defining-translation-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定義轉譯規則
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-in-lync-server-2013"></a>定義 Lync Server 2013 中的 [轉譯規則
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42198376"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-22_
+_**主題上次修改日期：** 2013-02-22_
 
-Lync Server 2013 Enterprise Voice 路由傳送來電的電話號碼正規化為 E.164 格式為基礎。 這表示所有撥號的字串必須被正規化為 E.164 格式目的執行反向號碼查閱 (RNL)，讓他們可以轉譯成其比對的 SIP URI。 Lync Server 2013 提供可用來操控的受話的識別碼，來電者 ID 呈現方式。
+Lync Server 2013 Enterprise Voice 路由會根據標準化為 e.164 格式的電話號碼進行呼叫。 這表示所有撥打的字串都必須正常化為 e.164 格式，以執行反向號碼查閱 (RNL) ，使其可轉譯成比對其相符的 SIP URI。 Lync Server 2013 可讓您操縱所叫識別碼及來電者識別碼簡報。
 
-本章節將討論如何處理呼叫的識別碼和來電者識別碼。
+本節討論如何操縱叫用識別碼及來電者識別碼。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的來電者 ID 呈現方式](lync-server-2013-caller-id-presentation.md)
+  - [Lync Server 2013 中的呼叫者識別碼簡報](lync-server-2013-caller-id-presentation.md)
 
-  - [Lync Server 2013 中的受話的 ID 呈現方式](lync-server-2013-called-id-presentation.md)
+  - [Lync Server 2013 中稱為「識別碼簡報」](lync-server-2013-called-id-presentation.md)
 
 </div>
 
@@ -56,7 +58,7 @@ Lync Server 2013 Enterprise Voice 路由傳送來電的電話號碼正規化為 
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的定義正規化規則](lync-server-2013-defining-normalization-rules.md)  
+[在 Lync Server 2013 中定義正常化規則](lync-server-2013-defining-normalization-rules.md)  
   
 
 </div>

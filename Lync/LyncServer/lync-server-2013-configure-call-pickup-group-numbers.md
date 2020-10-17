@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定呼叫收取群組編號
+title: Lync Server 2013：設定呼叫收取群組號碼
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51541479
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e380e5b857a59405d42e382d18d7470395a5f580
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586af96cccdc661855efb83aefdb0e7e534dc105
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205119"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521140"
 ---
+# <a name="configure-call-pickup-group-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中設定呼叫收取群組號碼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-pickup-group-numbers-in-lync-server-2013"></a>Lync Server 2013 中設定呼叫收取群組號碼
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42205119"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-01-30_
+_**主題上次修改日期：** 2013-01-30_
 
-群組來電接聽為基礎的通話駐留應用程式。 當您部署群組來電接聽時，您可以設定通話駐留軌道表與範圍指定為呼叫收取群組號碼的電話號碼。 這些群組數字是使用者来揀選響鈴另一位使用者的呼叫撥號對應表中的數字。
+群組呼叫收取是以通話駐留應用程式為基礎。 當您部署群組叫用裝貨時，請使用指定為呼叫收取群組號碼的電話號碼範圍，設定通話駐留軌道表格。 這些群組號碼是使用者在撥打其他使用者所撥打之來電時所撥打的號碼。
 
-就像通話駐留軌道號碼，請呼叫收取群組號碼需要為虛擬分機，沒有任何使用者或指派給他們的電話。 您將部署群組來電接聽每個前端集區可以有一或多個範圍的通話收取群組數字。 在 Lync Server 部署，群組號碼範圍必須是全域唯一的。
+與通話駐留軌道號碼類似，來電收取群組數目必須是未獲指派使用者或電話的虛擬分機。 您部署群組呼叫收取的每個前端集區，都可以有一或多個呼叫收取群組號碼範圍。 群組號碼範圍必須在 Lync Server 部署間具有全域唯一性。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-[建立或修改 Lync Server 2013 中的群組來電接聽號碼範圍](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+[在 Lync Server 2013 中建立或修改群組呼叫收取號碼範圍](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
 </div>
 

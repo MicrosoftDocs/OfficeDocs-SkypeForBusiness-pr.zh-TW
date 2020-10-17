@@ -12,20 +12,22 @@ ms:contentKeyID: 48185009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc319539c9dfe3de79f9cce62391ecd2886e8a1c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd933ac87addf4a2094009e9f437c29437d882a0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520230"
 ---
+# <a name="configure-unassigned-phone-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中設定未指派的電話號碼
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unassigned-phone-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中設定未指派的電話號碼
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 可讓您設定對您的組織有效的電話號碼撥入電話號�
 
 
 > [!IMPORTANT]  
-> 在您設定未指派的號碼表之前，您必須已定義一或多個宣告或已設定 Exchange UM 自動語音應答。 如需建立宣告的詳細資訊，請參閱<A href="lync-server-2013-create-an-announcement.md">Create a 宣告 In Lync Server 2013</A>。 若要查看您是否已設定 Exchange UM 設定，請執行<STRONG>Get-CsExUmContact</STRONG> Cmdlet。 如需詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>。
+> 在您設定未指派的號碼表之前，您必須已定義一或多個宣告或已設定 Exchange UM 自動語音應答。 如需建立宣告的詳細資訊，請參閱 <A href="lync-server-2013-create-an-announcement.md">Create a 宣告 In Lync Server 2013</A>。 若要查看您是否已設定 Exchange UM 設定，請執行 <STRONG>Get-CsExUmContact</STRONG> Cmdlet。 如需詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>。
 
 
 

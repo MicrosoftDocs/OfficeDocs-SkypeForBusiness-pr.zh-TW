@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定容錯移轉路由
+title: Lync Server 2013：設定容錯移轉路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50917bffe3c6294b554edc7f9c3f620721e04737
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0a3a0d3b2eb2d505ff345af66ae8ccbcc551ee8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204413"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520060"
 ---
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a>在 Lync Server 2013 中設定容錯移轉路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-failover-route-in-lync-server-2013"></a>在 Lync Server 2013 中設定容錯移轉路由
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42204413"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
 下列範例顯示系統管理員如何定義當 Dallas-GW1 因維修或其他緣故而無法使用時所要使用的容錯移轉路由。下表說明所需的設定變更。
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2012年-09-21_
 <tbody>
 <tr class="odd">
 <td><p>預設通話原則</p></td>
-<td><p>Local</p>
+<td><p>本機</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
 <tr class="even">
@@ -86,45 +88,45 @@ _**主題上次修改日期：** 2012年-09-21_
 <th>路由名稱</th>
 <th>號碼模式</th>
 <th>電話使用方式</th>
-<th>主幹</th>
+<th>樹幹</th>
 <th>閘道</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Redmond 本地路由</p></td>
-<td><p>^\+1(425|206|253)(\d{7})$</p></td>
-<td><p>Local</p>
+<td><p>^\+1 (425 | 206 | 253) # A2\d {7}) $</p></td>
+<td><p>本機</p>
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
-<td><p>紅色 GW1</p>
-<p>紅色 GW2</p></td>
+<td><p>Red-GW1</p>
+<p>Red-GW2</p></td>
 </tr>
 <tr class="even">
 <td><p>Dallas 本地路由</p></td>
-<td><p>^\+1(972|214|469)(\d{7})$</p></td>
-<td><p>Local</p></td>
+<td><p>^\+1 (972 | 214 | 469) # A2\d {7}) $</p></td>
+<td><p>本機</p></td>
 <td><p>Trunk3</p></td>
-<td><p>Dallas GW1</p></td>
+<td><p>達拉斯-GW1</p></td>
 </tr>
 <tr class="odd">
 <td><p>全域路由</p></td>
-<td><p>^\+?(\d*)$</p></td>
+<td><p>^\+？ ( \d * ) $</p></td>
 <td><p>GlobalPSTNHopoff</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
-<td><p>紅色 GW1</p>
-<p>紅色 GW2</p>
-<p>Dallas GW1</p></td>
+<td><p>Red-GW1</p>
+<p>Red-GW2</p>
+<p>達拉斯-GW1</p></td>
 </tr>
 <tr class="even">
 <td><p>Dallas 使用者路由</p></td>
-<td><p>^\+?(\d*)$</p></td>
+<td><p>^\+？ ( \d * ) $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
-<td><p>Dallas GW1</p></td>
+<td><p>達拉斯-GW1</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 設定 public instant messaging 連線
+title: Lync Server 2013：設定公用立即訊息連線能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4b3efe4e5d8e5cb84631969205842e56024394c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab2c3cfec8a685251a3a1627392d6d4eb9691748
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521830"
 ---
+# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中設定公用立即訊息連線
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>設定 Lync Server 2013 中的 public instant messaging 連線
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42200539"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-08_
+_**主題上次修改日期：** 2012-09-08_
 
 如果您的組織想要支援與 AOL 的公用立即訊息 (IM) 連線能力，您將無法使用 Lync Server 部署精靈要求憑證。請改為執行下列程序的步驟。
 
@@ -63,13 +65,13 @@ _**主題上次修改日期：** 2012年-09-08_
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    使用 Lync Server 的預設憑證名稱是範本的網頁伺服器。 僅指定\<範本名稱\>如果您需要使用不同於預設範本的範本。
+    Lync Server 使用的範本預設憑證名稱是網頁伺服器。 只有在 \<template name\> 您需要使用不同于預設範本的範本時，才指定。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 如果您的組織想要支援搭配 AOL 的公用 IM 連線，您必須要求要指派給 Access Edge service 的外部邊緣憑證而不是 [憑證] 精靈使用 Windows PowerShell。 這是因為憑證精靈用來要求憑證的 Certificate Authority (CA) 伺服器範本不支援用戶端 EKU 組態。 使用 Windows PowerShell 來建立憑證之前, 的 CA 系統管理員必須建立及部署支援用戶端 EKU 新範本。
+    > 如果您的組織想要支援與 AOL 的公用 IM 連線，您必須使用 Windows PowerShell，而不是使用憑證嚮導要求將憑證指派給 Access Edge service 的外部 edge。 這是因為憑證精靈用來要求憑證的 Certificate Authority (CA) 伺服器範本不支援用戶端 EKU 組態。 在使用 Windows PowerShell 建立憑證之前，CA 管理員必須建立及部署支援用戶端 EKU 的新範本。
 
     
     </div>

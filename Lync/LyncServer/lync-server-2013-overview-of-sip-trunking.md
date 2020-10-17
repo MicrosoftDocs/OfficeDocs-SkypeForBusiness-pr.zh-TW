@@ -1,5 +1,5 @@
 ---
-title: SIP 主幹連線的 Lync Server 2013： 概觀
+title: Lync Server 2013： SIP trunk 的簡介
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e71a1f02fda14c2bcbb54aaec5e12307421090e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81690d4f006b5c1df3ed001369cbe5c4b1f560b8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215929"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520850"
 ---
+# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 主幹概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 主幹連線概觀
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42215929"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-05_
+_**主題上次修改日期：** 2012-10-05_
 
 部署 SIP 主幹可以大幅簡化組織的電信通訊，並可利用最新的即時通訊增強功能。SIP 主幹最重要的優點之一，是可將組織連線合併至中央網站的公用交換電話網路 (PSTN)，而其前身分時多工 (TDM) 主幹卻通常需要每個分支網站各一個主幹。
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012年-10-05_
 
 ## <a name="sip-trunking-in-lync-server"></a>Lync Server 中的 SIP 主幹
 
-Lync Server 2013 SIP 主幹功能可讓下列：
+Lync Server 2013 SIP 主幹功能可讓下列專案：
 
   - 公司防火牆內外的企業使用者皆可透過符合 E.164 格式號碼所指定，且以 PSTN (做為對應服務提供者之服務) 為電話終端，來撥打市內或長途電話。
 
@@ -55,19 +57,19 @@ Lync Server 2013 SIP 主幹功能可讓下列：
 
 ## <a name="cost-savings"></a>節省成本
 
-SIP 主幹相關聯的成本節省可能相當可觀：
+與 SIP 主幹相關聯的成本節約可能相當大：
 
-  - 撥打的長途電話通常更省錢透過 SIP 主幹。
+  - 長途通話通常會透過 SIP 主幹降低成本。
 
-  - 您可以管理成本，並降低部署複雜性。
+  - 您可以削減管理成本，並降低部署的複雜度。
 
-  - 如果您的 SIP 主幹直接連線到在大幅降低成本 ITSP 可以消除基本速率介面 (BRI) 與主要 rate interface (PRI) 費用。 中 TDM 主幹服務提供者的呼叫依收費分鐘。 SIP 主幹的成本可能會根據您可以購買較小，更經濟增量的頻寬用量。 （實際成本取決於您選擇 ITSP 的服務模型）。
+  - 基本速率介面 (BRI) 和主要速率介面 (PRI) 費用，可在您將 SIP 主幹直接連接至您的 ITSP 時，降低成本。 在 TDM trunk 中，服務提供者會在一分鐘內收取通話的費用。 SIP 主幹的成本可能是根據頻寬使用量而定，您可以更小、更經濟的增量購買。  (實際成本取決於您所選擇之 ITSP 的服務模型。 ) 
 
 <div>
 
-## <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a>相對於 PSTN 閘道或 IP PBX 主控的 SIP 主幹
+## <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a>與裝載 PSTN 閘道或 IP-PBX 的 SIP Trunk
 
-SIP 主幹直接連接到服務供應商，因為您可以省去您 PSTN 閘道、 其管理成本和複雜度。 使用 SIP 主幹可能會導致大量成本節省透過減少的維護和管理。
+由於 SIP 主幹直接連線至您的服務提供者，所以您可以省去您的 PSTN 閘道及其管理成本和複雜性。 使用 SIP 主幹可縮短維護和管理，從而導致大量成本節約。
 
 </div>
 
@@ -77,17 +79,17 @@ SIP 主幹直接連接到服務供應商，因為您可以省去您 PSTN 閘道�
 
 ## <a name="expanded-voip-services"></a>擴充的 VoIP 服務
 
-語音功能通常會部署 SIP 主幹的主要動機但語音支援只是第一個步驟。 使用 SIP 主幹，您可以擴充 VoIP 功能，並啟用 Lync Server 2013 提供一組更豐富的服務。 例如：
+語音功能常常是部署 SIP 主幹的主要動機，但語音支援只是第一步。 透過 SIP trunk，您可以擴充 VoIP 功能，並讓 Lync Server 2013 提供一組更豐富的服務。 例如：
 
-  - 增強型目前狀態偵測未執行 Lync Server 2013 的裝置可以更密切整合與行動電話，讓您查看使用者在行動電話上時。
+  - 未執行 Lync Server 2013 之裝置的增強顯示狀態偵測，可提供與行動電話的更好整合，讓您能看到使用者何時接聽行動電話。
 
-  - E9-1-1 緊急通話可讓人員接聽 911 通話至判斷他/她的電話號碼的來電者的位置。
+  - E9-1-1 緊急電話可讓接聽911呼叫的授權者判斷來電者的電話號碼的位置。
 
 <div>
 
 
 > [!NOTE]  
-> 請連絡 ITSP 並索取他們支援您的組織可以啟用的服務的清單。
+> 請與您的 ITSP 取得支援的服務清單，並可為您的組織啟用這些服務。
 
 
 

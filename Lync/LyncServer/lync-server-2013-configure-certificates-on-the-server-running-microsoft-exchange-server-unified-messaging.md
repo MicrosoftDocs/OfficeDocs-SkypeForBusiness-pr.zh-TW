@@ -12,20 +12,22 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 515be9190f9c5012dfd75cdda6621b7f4acfd88f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 790798835694fcd76a4501c4b94e6ca59f220524
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521040"
 ---
+# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>在執行 Microsoft Exchange Server 整合通訊的伺服器上設定憑證
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>在執行 Microsoft Exchange Server 整合通訊的伺服器上設定憑證
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012-09-26_
 
 ## <a name="to-download-the-ca-certificate"></a>若要下載 CA 憑證
 
-1.  在執行 Exchange UM 的伺服器上，按一下 [ **開始**]，按一下 [ **執行**]，輸入 ** \< 您發證 CA 伺服器 \> /Certsrv 的 Http://名稱**，然後按一下 **[確定]**。
+1.  在執行 Exchange UM 的伺服器上，按一下 [ **開始**]，按一下 [ **執行**]，輸入 **Http:// \<name of your Issuing CA Server\> /Certsrv**，然後按一下 **[確定]**。
 
 2.  在 **[選取工作]** 下方，按一下 **[下載 CA 憑證、憑證鏈結或 CRL]**。
 
@@ -138,7 +140,7 @@ _**主題上次修改日期：** 2012-09-26_
 
 ## <a name="to-create-a-certificate-request-and-install-the-certificate-on-exchange-server-2007-sp1"></a>若要在 Exchange Server 2007 (SP1) 上建立憑證要求及安裝憑證
 
-1.  在執行 Exchange UM 的伺服器上，按一下 [**開始**]，按一下 [**執行**]，輸入您發證 CA 伺服器** \> /certsrv**的**HTTP:// \< **名稱，然後按一下 **[確定]**。
+1.  在執行 Exchange UM 的伺服器上，按一下 [ **開始**]，按一下 [ **執行**]，輸入 **Http:// \<**name of your Issuing CA Server**\> /Certsrv**，然後按一下 **[確定]**。
 
 2.  在 **[選取工作]** 下，按一下 **[要求憑證]**。
 
