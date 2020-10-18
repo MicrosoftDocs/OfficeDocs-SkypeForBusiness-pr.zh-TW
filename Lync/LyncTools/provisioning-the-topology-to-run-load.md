@@ -1,5 +1,6 @@
 ---
 title: 布建要執行負載的拓撲
+description: 布建要執行負載的拓撲。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45b1c9d320ef35555e83bbd8851d77e00a452631
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: da482fde949675acc1722305433b95b7a6a6b523
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509100"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578409"
 ---
-# <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="5fa32-102">布建要執行負載的拓撲</span><span class="sxs-lookup"><span data-stu-id="5fa32-102">Provisioning the Topology to Run Load</span></span>
+# <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="2bac5-103">布建要執行負載的拓撲</span><span class="sxs-lookup"><span data-stu-id="2bac5-103">Provisioning the Topology to Run Load</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,39 +38,39 @@ ms.locfileid: "48509100"
 
 <span> </span>
 
-<span data-ttu-id="5fa32-103">_**主題上次修改日期：** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="5fa32-103">_**Topic Last Modified:** 2013-02-04_</span></span>
+<span data-ttu-id="2bac5-104">_**主題上次修改日期：** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="2bac5-104">_**Topic Last Modified:** 2013-02-04_</span></span>
 
 <div>
 
-<span data-ttu-id="5fa32-104">根據您現有的 Lync Server 2013 設定和設定，您可能需要在您的環境中進行下列變更：</span><span class="sxs-lookup"><span data-stu-id="5fa32-104">Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:</span></span>
+<span data-ttu-id="2bac5-105">根據您現有的 Lync Server 2013 設定和設定，您可能需要在您的環境中進行下列變更：</span><span class="sxs-lookup"><span data-stu-id="2bac5-105">Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:</span></span>
 
-1.  <span data-ttu-id="5fa32-105">設定 Windows PowerShell 執行原則為無限制。</span><span class="sxs-lookup"><span data-stu-id="5fa32-105">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="5fa32-106">若要檢查您的執行原則設定，請開啟 Lync Server 管理命令介面，並執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="5fa32-106">To check your execution policy settings, open the Lync Server Management Shell and run the following command:</span></span>
+1.  <span data-ttu-id="2bac5-106">設定 Windows PowerShell 執行原則為無限制。</span><span class="sxs-lookup"><span data-stu-id="2bac5-106">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="2bac5-107">若要檢查您的執行原則設定，請開啟 Lync Server 管理命令介面，並執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="2bac5-107">To check your execution policy settings, open the Lync Server Management Shell and run the following command:</span></span>
 
     ``` powershell
         Get-ExecutionPolicy
     ```        
 
-    <span data-ttu-id="5fa32-107">如果此命令不會傳回無限制的值，請執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="5fa32-107">If this command does not return the value Unrestricted, run this command:</span></span>
+    <span data-ttu-id="2bac5-108">如果此命令不會傳回無限制的值，請執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="2bac5-108">If this command does not return the value Unrestricted, run this command:</span></span>
 
     ``` powershell
         Set-ExecutionPolicy -Unrestricted
     ```
 
-2.  <span data-ttu-id="5fa32-108">若要有效地設定 Lync Server 2013，您將需要：</span><span class="sxs-lookup"><span data-stu-id="5fa32-108">To effectively configure Lync Server 2013, you will need to:</span></span>
+2.  <span data-ttu-id="2bac5-109">若要有效地設定 Lync Server 2013，您將需要：</span><span class="sxs-lookup"><span data-stu-id="2bac5-109">To effectively configure Lync Server 2013, you will need to:</span></span>
     
-      - <span data-ttu-id="5fa32-109">熟悉 Lync Server 2013 拓撲 (例如，電腦名稱稱、服務實例、網站名稱和原則) 。</span><span class="sxs-lookup"><span data-stu-id="5fa32-109">Be familiar with Lync Server 2013 topology (for example, computer names, service instances, site names, and policies).</span></span>
+      - <span data-ttu-id="2bac5-110">熟悉 Lync Server 2013 拓撲 (例如，電腦名稱稱、服務實例、網站名稱和原則) 。</span><span class="sxs-lookup"><span data-stu-id="2bac5-110">Be familiar with Lync Server 2013 topology (for example, computer names, service instances, site names, and policies).</span></span>
     
-      - <span data-ttu-id="5fa32-110">將某些已建立的使用者指派給群組，例如回應群組搜尋群組 (例如，SIP URIs) 。</span><span class="sxs-lookup"><span data-stu-id="5fa32-110">Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
+      - <span data-ttu-id="2bac5-111">將某些已建立的使用者指派給群組，例如回應群組搜尋群組 (例如，SIP URIs) 。</span><span class="sxs-lookup"><span data-stu-id="2bac5-111">Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
 
-3.  <span data-ttu-id="5fa32-111">若要從命令列執行腳本，您可以使用：</span><span class="sxs-lookup"><span data-stu-id="5fa32-111">To run the script from the command line, you may use:</span></span>
+3.  <span data-ttu-id="2bac5-112">若要從命令列執行腳本，您可以使用：</span><span class="sxs-lookup"><span data-stu-id="2bac5-112">To run the script from the command line, you may use:</span></span>
 
     ``` powershell
         Powershell.exe -file <path to the file>
     ```
     
-4.  <span data-ttu-id="5fa32-112">在此套件中的其中一個腳本執行完畢之後，腳本所產生的追蹤將會儲存在用來呼叫腳本的相同路徑中，名為 \<scriptname\> $h $ m $s.txt。</span><span class="sxs-lookup"><span data-stu-id="5fa32-112">Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="5fa32-113">例如，在 12:15 P.M. 執行 ArchivingPolicy.ps1。</span><span class="sxs-lookup"><span data-stu-id="5fa32-113">For example, running ArchivingPolicy.ps1 at 12:15 P.M.</span></span> <span data-ttu-id="5fa32-114">會產生記錄檔，例如 ArchivingPolicy121500.txt。</span><span class="sxs-lookup"><span data-stu-id="5fa32-114">will generate a log file such as ArchivingPolicy121500.txt.</span></span>
+4.  <span data-ttu-id="2bac5-113">在此套件中的其中一個腳本執行完畢之後，腳本所產生的追蹤將會儲存在用來呼叫腳本的相同路徑中，名為 \<scriptname\> $h $ m $s.txt。</span><span class="sxs-lookup"><span data-stu-id="2bac5-113">Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="2bac5-114">例如，在 12:15 P.M. 執行 ArchivingPolicy.ps1。</span><span class="sxs-lookup"><span data-stu-id="2bac5-114">For example, running ArchivingPolicy.ps1 at 12:15 P.M.</span></span> <span data-ttu-id="2bac5-115">會產生記錄檔，例如 ArchivingPolicy121500.txt。</span><span class="sxs-lookup"><span data-stu-id="2bac5-115">will generate a log file such as ArchivingPolicy121500.txt.</span></span>
 
-5.  <span data-ttu-id="5fa32-115">最後，請注意，雖然我們提供了設定伺服器的範例，但您會在完成執行負載後，負責修改或刪除設定。</span><span class="sxs-lookup"><span data-stu-id="5fa32-115">Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.</span></span>
+5.  <span data-ttu-id="2bac5-116">最後，請注意，雖然我們提供了設定伺服器的範例，但您會在完成執行負載後，負責修改或刪除設定。</span><span class="sxs-lookup"><span data-stu-id="2bac5-116">Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：建立或修改 CDR 配置設定的集合
+description: Lync Server 2013：建立或修改 CDR 配置設定的集合。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582df13f3bcd7c1d25e8bf15ce1534992ba6aeeb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3ba911607db55a7b7206645495e70a27ed453784
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514790"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578329"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="98af6-102">在 Lync Server 2013 中建立或修改 CDR 配置設定的集合</span><span class="sxs-lookup"><span data-stu-id="98af6-102">Create or modify a collection of CDR configuration settings in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="7f653-103">在 Lync Server 2013 中建立或修改 CDR 配置設定的集合</span><span class="sxs-lookup"><span data-stu-id="7f653-103">Create or modify a collection of CDR configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48514790"
 
 <span> </span>
 
-<span data-ttu-id="98af6-103">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="98af6-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="7f653-104">_**主題上次修改日期：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="7f653-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="98af6-104"> (CDR) 的詳細資料記錄可讓您追蹤對等立即訊息會話的使用方式，例如對等立即訊息會話、透過網際網路通訊協定 (VoIP) 電話及會議通話等事項。</span><span class="sxs-lookup"><span data-stu-id="98af6-104">Call detail recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls.</span></span> <span data-ttu-id="98af6-105">這個使用狀況資料包含有關通話者雙方身分、通話時間以及通話時間長度的資訊。</span><span class="sxs-lookup"><span data-stu-id="98af6-105">This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
+<span data-ttu-id="7f653-105"> (CDR) 的詳細資料記錄可讓您追蹤對等立即訊息會話的使用方式，例如對等立即訊息會話、透過網際網路通訊協定 (VoIP) 電話及會議通話等事項。</span><span class="sxs-lookup"><span data-stu-id="7f653-105">Call detail recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls.</span></span> <span data-ttu-id="7f653-106">這個使用狀況資料包含有關通話者雙方身分、通話時間以及通話時間長度的資訊。</span><span class="sxs-lookup"><span data-stu-id="7f653-106">This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
 
-<span data-ttu-id="98af6-106">當您安裝 Microsoft Lync Server 2013 時，系統會為您建立單一、全域的 CDR 配置設定集合。</span><span class="sxs-lookup"><span data-stu-id="98af6-106">When you install Microsoft Lync Server 2013 a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="98af6-107">系統管理員也可以選擇建立網站範圍的自訂設定。</span><span class="sxs-lookup"><span data-stu-id="98af6-107">Administrators also have the option of creating custom settings at the site scope.</span></span> <span data-ttu-id="98af6-108">只要使用這些網站範圍的設定，其優先順序就高於全域設定。</span><span class="sxs-lookup"><span data-stu-id="98af6-108">Whenever these site-scoped settings are used, they take precedence over the global settings.</span></span> <span data-ttu-id="98af6-109">例如，如果您為 Redmond 網站建立網站範圍的設定，則這些設定 (，而不是通用設定) 將用來管理 Redmond 中的 CDR。</span><span class="sxs-lookup"><span data-stu-id="98af6-109">For example, if you create site-scoped settings for the Redmond site then those settings (rather than the global settings) will be used to manage CDR in Redmond.</span></span>
+<span data-ttu-id="7f653-107">當您安裝 Microsoft Lync Server 2013 時，系統會為您建立單一、全域的 CDR 配置設定集合。</span><span class="sxs-lookup"><span data-stu-id="7f653-107">When you install Microsoft Lync Server 2013 a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="7f653-108">系統管理員也可以選擇建立網站範圍的自訂設定。</span><span class="sxs-lookup"><span data-stu-id="7f653-108">Administrators also have the option of creating custom settings at the site scope.</span></span> <span data-ttu-id="7f653-109">只要使用這些網站範圍的設定，其優先順序就高於全域設定。</span><span class="sxs-lookup"><span data-stu-id="7f653-109">Whenever these site-scoped settings are used, they take precedence over the global settings.</span></span> <span data-ttu-id="7f653-110">例如，如果您為 Redmond 網站建立網站範圍的設定，則這些設定 (，而不是通用設定) 將用來管理 Redmond 中的 CDR。</span><span class="sxs-lookup"><span data-stu-id="7f653-110">For example, if you create site-scoped settings for the Redmond site then those settings (rather than the global settings) will be used to manage CDR in Redmond.</span></span>
 
-<span data-ttu-id="98af6-110">您可以使用 Lync Server 控制台或 [CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) Cmdlet 來建立 CDR 配置設定。</span><span class="sxs-lookup"><span data-stu-id="98af6-110">You can create CDR configuration settings by using either Lync Server Control Panel or the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) cmdlet.</span></span> <span data-ttu-id="98af6-111">您可以使用 Lync Server 控制台或 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) Cmdlet 來修改現有的設定。</span><span class="sxs-lookup"><span data-stu-id="98af6-111">You can use Lync Server Control Panel or the [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet to modify existing settings.</span></span> <span data-ttu-id="98af6-112">如果您使用 Lync Server 控制台建立或修改設定，您可以使用下列選項：</span><span class="sxs-lookup"><span data-stu-id="98af6-112">If you are using Lync Server Control Panel to create or modify settings, the following options will be available to you:</span></span>
+<span data-ttu-id="7f653-111">您可以使用 Lync Server 控制台或 [CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) Cmdlet 來建立 CDR 配置設定。</span><span class="sxs-lookup"><span data-stu-id="7f653-111">You can create CDR configuration settings by using either Lync Server Control Panel or the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) cmdlet.</span></span> <span data-ttu-id="7f653-112">您可以使用 Lync Server 控制台或 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) Cmdlet 來修改現有的設定。</span><span class="sxs-lookup"><span data-stu-id="7f653-112">You can use Lync Server Control Panel or the [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet to modify existing settings.</span></span> <span data-ttu-id="7f653-113">如果您使用 Lync Server 控制台建立或修改設定，您可以使用下列選項：</span><span class="sxs-lookup"><span data-stu-id="7f653-113">If you are using Lync Server Control Panel to create or modify settings, the following options will be available to you:</span></span>
 
 
 <table>
@@ -54,36 +55,36 @@ ms.locfileid: "48514790"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="98af6-113">UI 設定</span><span class="sxs-lookup"><span data-stu-id="98af6-113">UI Setting</span></span></th>
-<th><span data-ttu-id="98af6-114">PowerShell 參數</span><span class="sxs-lookup"><span data-stu-id="98af6-114">PowerShell Parameter</span></span></th>
-<th><span data-ttu-id="98af6-115">描述</span><span class="sxs-lookup"><span data-stu-id="98af6-115">Description</span></span></th>
+<th><span data-ttu-id="7f653-114">UI 設定</span><span class="sxs-lookup"><span data-stu-id="7f653-114">UI Setting</span></span></th>
+<th><span data-ttu-id="7f653-115">PowerShell 參數</span><span class="sxs-lookup"><span data-stu-id="7f653-115">PowerShell Parameter</span></span></th>
+<th><span data-ttu-id="7f653-116">描述</span><span class="sxs-lookup"><span data-stu-id="7f653-116">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="98af6-116">名稱</span><span class="sxs-lookup"><span data-stu-id="98af6-116">Name</span></span></p></td>
-<td><p><span data-ttu-id="98af6-117">身分識別</span><span class="sxs-lookup"><span data-stu-id="98af6-117">Identity</span></span></p></td>
-<td><p><span data-ttu-id="98af6-118">要建立之 CDR 設定設定的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="98af6-118">Unique identifier for the CDR configuration settings being created.</span></span> <span data-ttu-id="98af6-119">這些設定只可在網站範圍建立。</span><span class="sxs-lookup"><span data-stu-id="98af6-119">These settings can only be created at the site scope.</span></span></p></td>
+<td><p><span data-ttu-id="7f653-117">名稱</span><span class="sxs-lookup"><span data-stu-id="7f653-117">Name</span></span></p></td>
+<td><p><span data-ttu-id="7f653-118">身分識別</span><span class="sxs-lookup"><span data-stu-id="7f653-118">Identity</span></span></p></td>
+<td><p><span data-ttu-id="7f653-119">要建立之 CDR 設定設定的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="7f653-119">Unique identifier for the CDR configuration settings being created.</span></span> <span data-ttu-id="7f653-120">這些設定只可在網站範圍建立。</span><span class="sxs-lookup"><span data-stu-id="7f653-120">These settings can only be created at the site scope.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="98af6-120">啟用 Cdr 的監控</span><span class="sxs-lookup"><span data-stu-id="98af6-120">Enable monitoring of CDRs</span></span></p></td>
-<td><p><span data-ttu-id="98af6-121">EnableCDR</span><span class="sxs-lookup"><span data-stu-id="98af6-121">EnableCDR</span></span></p></td>
-<td><p><span data-ttu-id="98af6-122">表示是否啟用 CDR。</span><span class="sxs-lookup"><span data-stu-id="98af6-122">Indicates whether or not CDR is enabled.</span></span></p></td>
+<td><p><span data-ttu-id="7f653-121">啟用 Cdr 的監控</span><span class="sxs-lookup"><span data-stu-id="7f653-121">Enable monitoring of CDRs</span></span></p></td>
+<td><p><span data-ttu-id="7f653-122">EnableCDR</span><span class="sxs-lookup"><span data-stu-id="7f653-122">EnableCDR</span></span></p></td>
+<td><p><span data-ttu-id="7f653-123">表示是否啟用 CDR。</span><span class="sxs-lookup"><span data-stu-id="7f653-123">Indicates whether or not CDR is enabled.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="98af6-123">啟用清除 Cdr</span><span class="sxs-lookup"><span data-stu-id="98af6-123">Enable purging of CDRs</span></span></p></td>
-<td><p><span data-ttu-id="98af6-124">EnablePurging</span><span class="sxs-lookup"><span data-stu-id="98af6-124">EnablePurging</span></span></p></td>
-<td><p><span data-ttu-id="98af6-125">會指出是否要定期從 CDR 資料庫中刪除 CDR 記錄。</span><span class="sxs-lookup"><span data-stu-id="98af6-125">Indicates whether or not CDR records will periodically be deleted from the CDR database.</span></span></p></td>
+<td><p><span data-ttu-id="7f653-124">啟用清除 Cdr</span><span class="sxs-lookup"><span data-stu-id="7f653-124">Enable purging of CDRs</span></span></p></td>
+<td><p><span data-ttu-id="7f653-125">EnablePurging</span><span class="sxs-lookup"><span data-stu-id="7f653-125">EnablePurging</span></span></p></td>
+<td><p><span data-ttu-id="7f653-126">會指出是否要定期從 CDR 資料庫中刪除 CDR 記錄。</span><span class="sxs-lookup"><span data-stu-id="7f653-126">Indicates whether or not CDR records will periodically be deleted from the CDR database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="98af6-126">將 Cdr 保留最大持續期間 (天數) </span><span class="sxs-lookup"><span data-stu-id="98af6-126">Keep CDRs for maximum duration (days)</span></span></p></td>
-<td><p><span data-ttu-id="98af6-127">KeepCallDetailForDays</span><span class="sxs-lookup"><span data-stu-id="98af6-127">KeepCallDetailForDays</span></span></p></td>
-<td><p><span data-ttu-id="98af6-128">會指出 CDR 記錄會保留在 CDR 資料庫中的天數。</span><span class="sxs-lookup"><span data-stu-id="98af6-128">Indicates the number of days that CDR records will be kept in the CDR database.</span></span> <span data-ttu-id="98af6-129">任何早于指定天數的記錄會自動刪除。</span><span class="sxs-lookup"><span data-stu-id="98af6-129">Any records older than the specified number of days will automatically be deleted.</span></span> <span data-ttu-id="98af6-130"> (請注意，只有在啟用清除功能時，才會進行清除。 ) </span><span class="sxs-lookup"><span data-stu-id="98af6-130">(Note that purging will take only place if purging has been enabled.)</span></span></p></td>
+<td><p><span data-ttu-id="7f653-127">將 Cdr 保留最大持續期間 (天數) </span><span class="sxs-lookup"><span data-stu-id="7f653-127">Keep CDRs for maximum duration (days)</span></span></p></td>
+<td><p><span data-ttu-id="7f653-128">KeepCallDetailForDays</span><span class="sxs-lookup"><span data-stu-id="7f653-128">KeepCallDetailForDays</span></span></p></td>
+<td><p><span data-ttu-id="7f653-129">會指出 CDR 記錄會保留在 CDR 資料庫中的天數。</span><span class="sxs-lookup"><span data-stu-id="7f653-129">Indicates the number of days that CDR records will be kept in the CDR database.</span></span> <span data-ttu-id="7f653-130">任何早于指定天數的記錄會自動刪除。</span><span class="sxs-lookup"><span data-stu-id="7f653-130">Any records older than the specified number of days will automatically be deleted.</span></span> <span data-ttu-id="7f653-131"> (請注意，只有在啟用清除功能時，才會進行清除。 ) </span><span class="sxs-lookup"><span data-stu-id="7f653-131">(Note that purging will take only place if purging has been enabled.)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="98af6-131">將錯誤報表資料保留最大持續 (天數) </span><span class="sxs-lookup"><span data-stu-id="98af6-131">Keep error report data for maximum duration (days)</span></span></p></td>
-<td><p><span data-ttu-id="98af6-132">KeepErrorReportForDays</span><span class="sxs-lookup"><span data-stu-id="98af6-132">KeepErrorReportForDays</span></span></p></td>
-<td><p><span data-ttu-id="98af6-133">指出 CDR 錯誤報表保留的天數。</span><span class="sxs-lookup"><span data-stu-id="98af6-133">Indicates the number of days that CDR error reports are kept.</span></span> <span data-ttu-id="98af6-134">任何早于指定天數的報告都會自動刪除。</span><span class="sxs-lookup"><span data-stu-id="98af6-134">Any reports older than the specified number of days will automatically be deleted.</span></span> <span data-ttu-id="98af6-135">CDR 錯誤報表是由用戶端應用程式上傳的診斷報告。</span><span class="sxs-lookup"><span data-stu-id="98af6-135">CDR error reports are diagnostic reports uploaded by client applications.</span></span></p></td>
+<td><p><span data-ttu-id="7f653-132">將錯誤報表資料保留最大持續 (天數) </span><span class="sxs-lookup"><span data-stu-id="7f653-132">Keep error report data for maximum duration (days)</span></span></p></td>
+<td><p><span data-ttu-id="7f653-133">KeepErrorReportForDays</span><span class="sxs-lookup"><span data-stu-id="7f653-133">KeepErrorReportForDays</span></span></p></td>
+<td><p><span data-ttu-id="7f653-134">指出 CDR 錯誤報表保留的天數。</span><span class="sxs-lookup"><span data-stu-id="7f653-134">Indicates the number of days that CDR error reports are kept.</span></span> <span data-ttu-id="7f653-135">任何早于指定天數的報告都會自動刪除。</span><span class="sxs-lookup"><span data-stu-id="7f653-135">Any reports older than the specified number of days will automatically be deleted.</span></span> <span data-ttu-id="7f653-136">CDR 錯誤報表是由用戶端應用程式上傳的診斷報告。</span><span class="sxs-lookup"><span data-stu-id="7f653-136">CDR error reports are diagnostic reports uploaded by client applications.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -93,7 +94,7 @@ ms.locfileid: "48514790"
 
 
 > [!NOTE]  
-> <span data-ttu-id="98af6-136">New-CsCdrConfiguration 和 Set-CsCdrConfiguration Cmdlet 包含其他無法在 Lync Server 控制台中使用的選項。</span><span class="sxs-lookup"><span data-stu-id="98af6-136">The New-CsCdrConfiguration and Set-CsCdrConfiguration cmdlets include additional options not available in Lync Server Control Panel.</span></span> <span data-ttu-id="98af6-137">如需詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">新的 CsCdrConfiguration</A> 和 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A> 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="98af6-137">See the <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> and the <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A> help topics for more information.</span></span>
+> <span data-ttu-id="7f653-137">New-CsCdrConfiguration 和 Set-CsCdrConfiguration Cmdlet 包含其他無法在 Lync Server 控制台中使用的選項。</span><span class="sxs-lookup"><span data-stu-id="7f653-137">The New-CsCdrConfiguration and Set-CsCdrConfiguration cmdlets include additional options not available in Lync Server Control Panel.</span></span> <span data-ttu-id="7f653-138">如需詳細資訊，請參閱 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">新的 CsCdrConfiguration</A> 和 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A> 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="7f653-138">See the <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> and the <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A> help topics for more information.</span></span>
 
 
 
@@ -101,41 +102,41 @@ ms.locfileid: "48514790"
 
 <div>
 
-## <a name="to-create-cdr-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="98af6-138">使用 Lync Server 控制台建立 CDR 配置設定</span><span class="sxs-lookup"><span data-stu-id="98af6-138">To create CDR configuration settings by using Lync Server Control Panel</span></span>
+## <a name="to-create-cdr-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="7f653-139">使用 Lync Server 控制台建立 CDR 配置設定</span><span class="sxs-lookup"><span data-stu-id="7f653-139">To create CDR configuration settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="98af6-139">在 [Lync Server 控制台] 中，按一下 [ **監控和**封存]。</span><span class="sxs-lookup"><span data-stu-id="98af6-139">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
+1.  <span data-ttu-id="7f653-140">在 [Lync Server 控制台] 中，按一下 [ **監控和**封存]。</span><span class="sxs-lookup"><span data-stu-id="7f653-140">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
 
-2.  <span data-ttu-id="98af6-140">在 [ **詳細通話記錄** ] 索引標籤上，按一下 [ **新增**]。</span><span class="sxs-lookup"><span data-stu-id="98af6-140">On the **Call Detail Recording** tab, click **New**.</span></span>
+2.  <span data-ttu-id="7f653-141">在 [ **詳細通話記錄** ] 索引標籤上，按一下 [ **新增**]。</span><span class="sxs-lookup"><span data-stu-id="7f653-141">On the **Call Detail Recording** tab, click **New**.</span></span>
 
-3.  <span data-ttu-id="98af6-141">在 [ **選取網站** ] 對話方塊中，選取要建立新設定的網站。</span><span class="sxs-lookup"><span data-stu-id="98af6-141">In the **Select a Site** dialog box, select the site where the new configuration settings are to be created.</span></span> <span data-ttu-id="98af6-142">如果對話方塊是空白的，表示您的所有網站都已指派 CDR 設定的集合。</span><span class="sxs-lookup"><span data-stu-id="98af6-142">If the dialog box is empty, that means all of your sites have already been assigned a collection of CDR configuration settings.</span></span> <span data-ttu-id="98af6-143">每個網站都限制為單一這類集合。</span><span class="sxs-lookup"><span data-stu-id="98af6-143">Each site is limited to a single such collection.</span></span> <span data-ttu-id="98af6-144">在這種情況下，您可以先刪除然後重新建立設定，或是只修改現有的設定。</span><span class="sxs-lookup"><span data-stu-id="98af6-144">In that case you can either delete and then re-create the settings, or simply modify the existing settings.</span></span>
+3.  <span data-ttu-id="7f653-142">在 [ **選取網站** ] 對話方塊中，選取要建立新設定的網站。</span><span class="sxs-lookup"><span data-stu-id="7f653-142">In the **Select a Site** dialog box, select the site where the new configuration settings are to be created.</span></span> <span data-ttu-id="7f653-143">如果對話方塊是空白的，表示您的所有網站都已指派 CDR 設定的集合。</span><span class="sxs-lookup"><span data-stu-id="7f653-143">If the dialog box is empty, that means all of your sites have already been assigned a collection of CDR configuration settings.</span></span> <span data-ttu-id="7f653-144">每個網站都限制為單一這類集合。</span><span class="sxs-lookup"><span data-stu-id="7f653-144">Each site is limited to a single such collection.</span></span> <span data-ttu-id="7f653-145">在這種情況下，您可以先刪除然後重新建立設定，或是只修改現有的設定。</span><span class="sxs-lookup"><span data-stu-id="7f653-145">In that case you can either delete and then re-create the settings, or simply modify the existing settings.</span></span>
 
-4.  <span data-ttu-id="98af6-145">在 [ **新的詳細通話記錄] (CDR) 設定** ] 對話方塊中，進行想要的選擇，然後按一下 [ **認可**]。</span><span class="sxs-lookup"><span data-stu-id="98af6-145">In the **New Call Detail Recording (CDR) Setting** dialog, make the desired selections and then click **Commit**.</span></span>
-
-</div>
-
-<div>
-
-## <a name="to-modify-existing-cdr-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="98af6-146">使用 Lync Server 控制台修改現有 CDR 設定設定</span><span class="sxs-lookup"><span data-stu-id="98af6-146">To modify existing CDR configuration settings by using Lync Server Control Panel</span></span>
-
-1.  <span data-ttu-id="98af6-147">在 [Lync Server 控制台] 中，按一下 [ **監控和**封存]。</span><span class="sxs-lookup"><span data-stu-id="98af6-147">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
-
-2.  <span data-ttu-id="98af6-148">按兩下要修改的設定集合，或選取集合，按一下 [ **編輯**]，然後按一下 [ **顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="98af6-148">Double-click the collection of settings to be modified, or select the collection, click **Edit**, and then click **Show Details**.</span></span> <span data-ttu-id="98af6-149">請注意，您一次只能修改單一集合。</span><span class="sxs-lookup"><span data-stu-id="98af6-149">Note that you can only modify a single collection at a time.</span></span> <span data-ttu-id="98af6-150">若要對多個集合進行相同的變更，請改用 Lync Server 管理命令介面。</span><span class="sxs-lookup"><span data-stu-id="98af6-150">To make the same changes to multiple collections, use the Lync Server Management Shell instead.</span></span>
-
-3.  <span data-ttu-id="98af6-151">在 [ **編輯詳細通話記錄 (CDR) 設定** ] 對話方塊中，進行想要的選擇，然後按一下 [ **認可**]。</span><span class="sxs-lookup"><span data-stu-id="98af6-151">In the **Edit Call Detail Recording (CDR) Setting** dialog, make the desired selections and then click **Commit**.</span></span>
+4.  <span data-ttu-id="7f653-146">在 [ **新的詳細通話記錄] (CDR) 設定** ] 對話方塊中，進行想要的選擇，然後按一下 [ **認可**]。</span><span class="sxs-lookup"><span data-stu-id="7f653-146">In the **New Call Detail Recording (CDR) Setting** dialog, make the desired selections and then click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="98af6-152">使用 Windows PowerShell Cmdlet 建立 CDR 設定設定</span><span class="sxs-lookup"><span data-stu-id="98af6-152">Creating CDR Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="to-modify-existing-cdr-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="7f653-147">使用 Lync Server 控制台修改現有 CDR 設定設定</span><span class="sxs-lookup"><span data-stu-id="7f653-147">To modify existing CDR configuration settings by using Lync Server Control Panel</span></span>
 
-<span data-ttu-id="98af6-153">您也可以使用 Windows PowerShell 和 **CsCdrConfiguration** Cmdlet 來建立 CDR 設定設定。</span><span class="sxs-lookup"><span data-stu-id="98af6-153">You can create CDR configuration settings can also be created by using Windows PowerShell and the **New-CsCdrConfiguration** cmdlet.</span></span> <span data-ttu-id="98af6-154">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="98af6-154">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="98af6-155">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="98af6-155">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+1.  <span data-ttu-id="7f653-148">在 [Lync Server 控制台] 中，按一下 [ **監控和**封存]。</span><span class="sxs-lookup"><span data-stu-id="7f653-148">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
+
+2.  <span data-ttu-id="7f653-149">按兩下要修改的設定集合，或選取集合，按一下 [ **編輯**]，然後按一下 [ **顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="7f653-149">Double-click the collection of settings to be modified, or select the collection, click **Edit**, and then click **Show Details**.</span></span> <span data-ttu-id="7f653-150">請注意，您一次只能修改單一集合。</span><span class="sxs-lookup"><span data-stu-id="7f653-150">Note that you can only modify a single collection at a time.</span></span> <span data-ttu-id="7f653-151">若要對多個集合進行相同的變更，請改用 Lync Server 管理命令介面。</span><span class="sxs-lookup"><span data-stu-id="7f653-151">To make the same changes to multiple collections, use the Lync Server Management Shell instead.</span></span>
+
+3.  <span data-ttu-id="7f653-152">在 [ **編輯詳細通話記錄 (CDR) 設定** ] 對話方塊中，進行想要的選擇，然後按一下 [ **認可**]。</span><span class="sxs-lookup"><span data-stu-id="7f653-152">In the **Edit Call Detail Recording (CDR) Setting** dialog, make the desired selections and then click **Commit**.</span></span>
+
+</div>
 
 <div>
 
-## <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a><span data-ttu-id="98af6-156">若要建立新的 CDR 配置設定集合</span><span class="sxs-lookup"><span data-stu-id="98af6-156">To create a new collection of CDR configuration settings</span></span>
+## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="7f653-153">使用 Windows PowerShell Cmdlet 建立 CDR 設定設定</span><span class="sxs-lookup"><span data-stu-id="7f653-153">Creating CDR Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-  - <span data-ttu-id="98af6-157">此命令會為 Redmond 網站建立新的 CDR 設定設定集合：</span><span class="sxs-lookup"><span data-stu-id="98af6-157">This command creates a new collection of CDR configuration settings applied to the Redmond site:</span></span>
+<span data-ttu-id="7f653-154">您也可以使用 Windows PowerShell 和 **CsCdrConfiguration** Cmdlet 來建立 CDR 設定設定。</span><span class="sxs-lookup"><span data-stu-id="7f653-154">You can create CDR configuration settings can also be created by using Windows PowerShell and the **New-CsCdrConfiguration** cmdlet.</span></span> <span data-ttu-id="7f653-155">您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="7f653-155">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="7f653-156">如需使用遠端 Windows PowerShell 連接至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。</span><span class="sxs-lookup"><span data-stu-id="7f653-156">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a><span data-ttu-id="7f653-157">若要建立新的 CDR 配置設定集合</span><span class="sxs-lookup"><span data-stu-id="7f653-157">To create a new collection of CDR configuration settings</span></span>
+
+  - <span data-ttu-id="7f653-158">此命令會為 Redmond 網站建立新的 CDR 設定設定集合：</span><span class="sxs-lookup"><span data-stu-id="7f653-158">This command creates a new collection of CDR configuration settings applied to the Redmond site:</span></span>
     
         New-CsCdrConfiguration -Identity "site:Redmond"
 
@@ -143,9 +144,9 @@ ms.locfileid: "48514790"
 
 <div>
 
-## <a name="to-create-a-collection-of-cdr-configuration-settings-that-disable-call-detail-recording"></a><span data-ttu-id="98af6-158">建立停用詳細通話記錄的 CDR 設定設定集合</span><span class="sxs-lookup"><span data-stu-id="98af6-158">To create a collection of CDR configuration settings that disable call detail recording</span></span>
+## <a name="to-create-a-collection-of-cdr-configuration-settings-that-disable-call-detail-recording"></a><span data-ttu-id="7f653-159">建立停用詳細通話記錄的 CDR 設定設定集合</span><span class="sxs-lookup"><span data-stu-id="7f653-159">To create a collection of CDR configuration settings that disable call detail recording</span></span>
 
-  - <span data-ttu-id="98af6-159">因為上述命令未指定參數 (除了必要的 Identity 參數)，新的組態設定集合會將預設值用於其所有屬性。</span><span class="sxs-lookup"><span data-stu-id="98af6-159">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties.</span></span> <span data-ttu-id="98af6-160">若要使用不同的屬性值來建立設定，只要包含適當的參數及參數值即可。</span><span class="sxs-lookup"><span data-stu-id="98af6-160">To create settings that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="98af6-161">例如，若要建立通話詳細資料設定的集合，根據預設，允許停用詳細通話記錄，請使用類似如下的命令：</span><span class="sxs-lookup"><span data-stu-id="98af6-161">For example, to create a collection of Call Detail configuration settings that, by default, allow disable Call Detail recording use a command like this:</span></span>
+  - <span data-ttu-id="7f653-160">因為上述命令未指定參數 (除了必要的 Identity 參數)，新的組態設定集合會將預設值用於其所有屬性。</span><span class="sxs-lookup"><span data-stu-id="7f653-160">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties.</span></span> <span data-ttu-id="7f653-161">若要使用不同的屬性值來建立設定，只要包含適當的參數及參數值即可。</span><span class="sxs-lookup"><span data-stu-id="7f653-161">To create settings that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="7f653-162">例如，若要建立通話詳細資料設定的集合，根據預設，允許停用詳細通話記錄，請使用類似如下的命令：</span><span class="sxs-lookup"><span data-stu-id="7f653-162">For example, to create a collection of Call Detail configuration settings that, by default, allow disable Call Detail recording use a command like this:</span></span>
     
         New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 
@@ -153,15 +154,15 @@ ms.locfileid: "48514790"
 
 <div>
 
-## <a name="to-specify-multiple-property-values-when-creating-a-new-collection-of-cdr-configuration-settings"></a><span data-ttu-id="98af6-162">若要在建立新的 CDR 配置設定集合時指定多個屬性值</span><span class="sxs-lookup"><span data-stu-id="98af6-162">To specify multiple property values when creating a new collection of CDR configuration settings</span></span>
+## <a name="to-specify-multiple-property-values-when-creating-a-new-collection-of-cdr-configuration-settings"></a><span data-ttu-id="7f653-163">若要在建立新的 CDR 配置設定集合時指定多個屬性值</span><span class="sxs-lookup"><span data-stu-id="7f653-163">To specify multiple property values when creating a new collection of CDR configuration settings</span></span>
 
-  - <span data-ttu-id="98af6-163">您可以包含多個參數來修改多個屬性值。</span><span class="sxs-lookup"><span data-stu-id="98af6-163">You can modify multiple property values by including multiple parameters.</span></span> <span data-ttu-id="98af6-164">例如，此命令會設定新的設定，將詳細通話記錄保留30天和錯誤報表的90天：</span><span class="sxs-lookup"><span data-stu-id="98af6-164">For example, this command configures the new settings to keep Call Detail records for 30 days and error reports for 90 days:</span></span>
+  - <span data-ttu-id="7f653-164">您可以包含多個參數來修改多個屬性值。</span><span class="sxs-lookup"><span data-stu-id="7f653-164">You can modify multiple property values by including multiple parameters.</span></span> <span data-ttu-id="7f653-165">例如，此命令會設定新的設定，將詳細通話記錄保留30天和錯誤報表的90天：</span><span class="sxs-lookup"><span data-stu-id="7f653-165">For example, this command configures the new settings to keep Call Detail records for 30 days and error reports for 90 days:</span></span>
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
 </div>
 
-<span data-ttu-id="98af6-165">如需詳細資訊，請參閱 [CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="98af6-165">For more information, see the help topic for the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) cmdlet.</span></span>
+<span data-ttu-id="7f653-166">如需詳細資訊，請參閱 [CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="7f653-166">For more information, see the help topic for the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) cmdlet.</span></span>
 
 </div>
 

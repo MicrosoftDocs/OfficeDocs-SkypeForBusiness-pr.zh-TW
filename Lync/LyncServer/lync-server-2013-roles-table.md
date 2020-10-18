@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Roles 表格
+description: Lync Server 2013： Roles 表格。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d779e5baf1e96848f7b3957a2aeae1b823d1cf30
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d16f9483fc97145d82faf7e8f1175772f10f9a4b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511270"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576569"
 ---
-# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="06b98-102">Lync Server 2013 中的 Roles 表格</span><span class="sxs-lookup"><span data-stu-id="06b98-102">Roles table in Lync Server 2013</span></span>
+# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="bee89-103">Lync Server 2013 中的 Roles 表格</span><span class="sxs-lookup"><span data-stu-id="bee89-103">Roles table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48511270"
 
 <span> </span>
 
-<span data-ttu-id="06b98-103">_**主題上次修改日期：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="06b98-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="bee89-104">_**主題上次修改日期：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="bee89-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="06b98-104">Roles 表格是一個靜態表格，用來儲存可能的會議角色（例如出席者和簡報者）的清單。</span><span class="sxs-lookup"><span data-stu-id="06b98-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
+<span data-ttu-id="bee89-105">Roles 表格是一個靜態表格，用來儲存可能的會議角色（例如出席者和簡報者）的清單。</span><span class="sxs-lookup"><span data-stu-id="bee89-105">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
 
 
 <table>
@@ -51,28 +52,28 @@ ms.locfileid: "48511270"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="06b98-105">欄</span><span class="sxs-lookup"><span data-stu-id="06b98-105">Column</span></span></th>
-<th><span data-ttu-id="06b98-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="06b98-106">Data Type</span></span></th>
-<th><span data-ttu-id="06b98-107">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="06b98-107">Key/Index</span></span></th>
-<th><span data-ttu-id="06b98-108">詳細資料</span><span class="sxs-lookup"><span data-stu-id="06b98-108">Details</span></span></th>
+<th><span data-ttu-id="bee89-106">欄</span><span class="sxs-lookup"><span data-stu-id="bee89-106">Column</span></span></th>
+<th><span data-ttu-id="bee89-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="bee89-107">Data Type</span></span></th>
+<th><span data-ttu-id="bee89-108">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="bee89-108">Key/Index</span></span></th>
+<th><span data-ttu-id="bee89-109">詳細資料</span><span class="sxs-lookup"><span data-stu-id="bee89-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="06b98-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="06b98-109"><strong>RoleId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06b98-110">Tinyint</span><span class="sxs-lookup"><span data-stu-id="06b98-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="06b98-111">主要</span><span class="sxs-lookup"><span data-stu-id="06b98-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="bee89-110"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="bee89-110"><strong>RoleId</strong></span></span></p></td>
+<td><p><span data-ttu-id="bee89-111">Tinyint</span><span class="sxs-lookup"><span data-stu-id="bee89-111">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="bee89-112">主要</span><span class="sxs-lookup"><span data-stu-id="bee89-112">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06b98-112"><strong>Role</strong></span><span class="sxs-lookup"><span data-stu-id="06b98-112"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="06b98-113">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="06b98-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="bee89-113"><strong>Role</strong></span><span class="sxs-lookup"><span data-stu-id="bee89-113"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="bee89-114">Nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="bee89-114">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06b98-114">允許的值：</span><span class="sxs-lookup"><span data-stu-id="06b98-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="bee89-115">允許的值：</span><span class="sxs-lookup"><span data-stu-id="bee89-115">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="06b98-115">0 - 未知</span><span class="sxs-lookup"><span data-stu-id="06b98-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="06b98-116">1-簡報者</span><span class="sxs-lookup"><span data-stu-id="06b98-116">1 - Presenter</span></span></p></li>
-<li><p><span data-ttu-id="06b98-117">2-出席者</span><span class="sxs-lookup"><span data-stu-id="06b98-117">2 - Attendee</span></span></p></li>
+<li><p><span data-ttu-id="bee89-116">0 - 未知</span><span class="sxs-lookup"><span data-stu-id="bee89-116">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="bee89-117">1-簡報者</span><span class="sxs-lookup"><span data-stu-id="bee89-117">1 - Presenter</span></span></p></li>
+<li><p><span data-ttu-id="bee89-118">2-出席者</span><span class="sxs-lookup"><span data-stu-id="bee89-118">2 - Attendee</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
