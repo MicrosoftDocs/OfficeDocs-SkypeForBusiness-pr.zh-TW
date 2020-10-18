@@ -1,5 +1,6 @@
 ---
 title: 布建要執行負載的拓撲
+description: 布建要執行負載的拓撲。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45b1c9d320ef35555e83bbd8851d77e00a452631
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: da482fde949675acc1722305433b95b7a6a6b523
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509100"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578409"
 ---
 # <a name="provisioning-the-topology-to-run-load"></a>布建要執行負載的拓撲
 
