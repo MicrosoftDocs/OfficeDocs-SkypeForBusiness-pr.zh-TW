@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在 Edge server 上安裝必要軟體
+description: Lync Server 2013：在 Edge server 上安裝必要軟體。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a2417772f5a6e4be4c44667280b77d7b76d12d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c20185578a4198be2c0d14818f492158ea5b4280
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498680"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574109"
 ---
-# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a><span data-ttu-id="6d38c-102">在 Lync Server 2013 的 Edge Server 上安裝必要軟體</span><span class="sxs-lookup"><span data-stu-id="6d38c-102">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>
+# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a><span data-ttu-id="075bc-103">在 Lync Server 2013 的 Edge Server 上安裝必要軟體</span><span class="sxs-lookup"><span data-stu-id="075bc-103">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48498680"
 
 <span> </span>
 
-<span data-ttu-id="6d38c-103">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="6d38c-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="075bc-104">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="075bc-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="6d38c-104">在安裝 Lync Server 2013 之前，您必須在部署的每個 Edge Server 上部署必要軟體。</span><span class="sxs-lookup"><span data-stu-id="6d38c-104">You need to deploy prerequisite software on each Edge Server that you deploy prior to installing Lync Server 2013.</span></span> <span data-ttu-id="6d38c-105">這包括在符合系統需求的伺服器上安裝作業系統。</span><span class="sxs-lookup"><span data-stu-id="6d38c-105">This includes installing the operating system on a server that meets system requirements.</span></span> <span data-ttu-id="6d38c-106">如需系統需求的詳細資訊，包括支援的作業系統，請參閱 [Lync Server 2013 之外部使用者存取元件的系統需求](lync-server-2013-system-requirements-for-external-user-access-components.md)。</span><span class="sxs-lookup"><span data-stu-id="6d38c-106">For details about system requirements, including the supported operating systems, see [System requirements for external user access components for Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span></span>
+<span data-ttu-id="075bc-105">在安裝 Lync Server 2013 之前，您必須在部署的每個 Edge Server 上部署必要軟體。</span><span class="sxs-lookup"><span data-stu-id="075bc-105">You need to deploy prerequisite software on each Edge Server that you deploy prior to installing Lync Server 2013.</span></span> <span data-ttu-id="075bc-106">這包括在符合系統需求的伺服器上安裝作業系統。</span><span class="sxs-lookup"><span data-stu-id="075bc-106">This includes installing the operating system on a server that meets system requirements.</span></span> <span data-ttu-id="075bc-107">如需系統需求的詳細資訊，包括支援的作業系統，請參閱 [Lync Server 2013 之外部使用者存取元件的系統需求](lync-server-2013-system-requirements-for-external-user-access-components.md)。</span><span class="sxs-lookup"><span data-stu-id="075bc-107">For details about system requirements, including the supported operating systems, see [System requirements for external user access components for Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span></span>
 
 </div>
 

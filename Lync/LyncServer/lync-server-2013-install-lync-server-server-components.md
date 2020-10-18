@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：安裝 Lync Server 伺服器元件
+description: Lync Server 2013：安裝 Lync Server 伺服器元件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9237ed0b60e14383f69ff1e7ef0b0927afe49c98
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1930926f3a46be868d838abf646eb8702c9713a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498700"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574119"
 ---
-# <a name="install-server-components-for-lync-server-2013"></a><span data-ttu-id="baecf-102">安裝 Lync Server 2013 的伺服器元件</span><span class="sxs-lookup"><span data-stu-id="baecf-102">Install server components for Lync Server 2013</span></span>
+# <a name="install-server-components-for-lync-server-2013"></a><span data-ttu-id="7051c-103">安裝 Lync Server 2013 的伺服器元件</span><span class="sxs-lookup"><span data-stu-id="7051c-103">Install server components for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,35 +38,35 @@ ms.locfileid: "48498700"
 
 <span> </span>
 
-<span data-ttu-id="baecf-103">_**主題上次修改日期：** 2014-05-05_</span><span class="sxs-lookup"><span data-stu-id="baecf-103">_**Topic Last Modified:** 2014-05-05_</span></span>
+<span data-ttu-id="7051c-104">_**主題上次修改日期：** 2014-05-05_</span><span class="sxs-lookup"><span data-stu-id="7051c-104">_**Topic Last Modified:** 2014-05-05_</span></span>
 
-<span data-ttu-id="baecf-104">在遵循這些步驟之前，請確定您已使用本機系統管理員和 Active Directory 中的 RTCUniversalReadOnlyAdmins 群組成員的網域使用者帳戶登入伺服器。</span><span class="sxs-lookup"><span data-stu-id="baecf-104">Before following these steps, make sure you’re logged onto the server with a domain user account that’s both a local administrator and a member of the RTCUniversalReadOnlyAdmins group in Active Directory.</span></span>
+<span data-ttu-id="7051c-105">在遵循這些步驟之前，請確定您已使用本機系統管理員和 Active Directory 中的 RTCUniversalReadOnlyAdmins 群組成員的網域使用者帳戶登入伺服器。</span><span class="sxs-lookup"><span data-stu-id="7051c-105">Before following these steps, make sure you’re logged onto the server with a domain user account that’s both a local administrator and a member of the RTCUniversalReadOnlyAdmins group in Active Directory.</span></span>
 
-<span data-ttu-id="baecf-105">Lync Server 部署嚮導是用來安裝每個 Lync server 角色所需的元件，以及啟動伺服器。</span><span class="sxs-lookup"><span data-stu-id="baecf-105">The Lync Server Deployment Wizard is used to install the needed components for each Lync server role and to activate the server.</span></span> <span data-ttu-id="baecf-106">本文將引導您逐步完成在 Lync 基礎結構中部署 Standard Edition server 或前端伺服器的步驟。</span><span class="sxs-lookup"><span data-stu-id="baecf-106">This article walks you through the steps of deploying a Standard Edition server or a Front End Server in your Lync infrastructure.</span></span>
+<span data-ttu-id="7051c-106">Lync Server 部署嚮導是用來安裝每個 Lync server 角色所需的元件，以及啟動伺服器。</span><span class="sxs-lookup"><span data-stu-id="7051c-106">The Lync Server Deployment Wizard is used to install the needed components for each Lync server role and to activate the server.</span></span> <span data-ttu-id="7051c-107">本文將引導您逐步完成在 Lync 基礎結構中部署 Standard Edition server 或前端伺服器的步驟。</span><span class="sxs-lookup"><span data-stu-id="7051c-107">This article walks you through the steps of deploying a Standard Edition server or a Front End Server in your Lync infrastructure.</span></span>
 
 <div>
 
-## <a name="to-install-lync-server-components"></a><span data-ttu-id="baecf-107">安裝 Lync Server 元件</span><span class="sxs-lookup"><span data-stu-id="baecf-107">To install Lync Server components</span></span>
+## <a name="to-install-lync-server-components"></a><span data-ttu-id="7051c-108">安裝 Lync Server 元件</span><span class="sxs-lookup"><span data-stu-id="7051c-108">To install Lync Server components</span></span>
 
-1.  <span data-ttu-id="baecf-108">如果 Lync Server 部署嚮導未執行，請在您想要安裝 Lync 的伺服器上啟動它。</span><span class="sxs-lookup"><span data-stu-id="baecf-108">If the Lync Server Deployment Wizard isn’t running, start it on the server you want to install Lync onto.</span></span>
+1.  <span data-ttu-id="7051c-109">如果 Lync Server 部署嚮導未執行，請在您想要安裝 Lync 的伺服器上啟動它。</span><span class="sxs-lookup"><span data-stu-id="7051c-109">If the Lync Server Deployment Wizard isn’t running, start it on the server you want to install Lync onto.</span></span>
 
-2.  <span data-ttu-id="baecf-109">按一下 [ **安裝或更新 Lync Server 系統**]。</span><span class="sxs-lookup"><span data-stu-id="baecf-109">Click **Install or Update Lync Server System**.</span></span>
+2.  <span data-ttu-id="7051c-110">按一下 [ **安裝或更新 Lync Server 系統**]。</span><span class="sxs-lookup"><span data-stu-id="7051c-110">Click **Install or Update Lync Server System**.</span></span>
 
-3.  <span data-ttu-id="baecf-110">在 [部署] 嚮導中，確認 [ **步驟1：安裝本機設定存放區** ] 有綠色核取記號，表示此伺服器已成功安裝存放區的本機複本。</span><span class="sxs-lookup"><span data-stu-id="baecf-110">In the Deployment Wizard, confirm that **Step 1: Install Local Configuration Store** has a green check mark, which means that this server has a local copy of the store installed successfully.</span></span> <span data-ttu-id="baecf-111">若未勾選，您必須在伺服器上安裝本機設定存放區。</span><span class="sxs-lookup"><span data-stu-id="baecf-111">If it’s not checked, you need to install the Local Configuration store on the server.</span></span> <span data-ttu-id="baecf-112">請遵循下列步驟，在 [Lync Server 2013 中安裝本機設定存放區](lync-server-2013-install-the-local-configuration-store.md) ，然後回來回來。</span><span class="sxs-lookup"><span data-stu-id="baecf-112">Follow the steps at [Install the Local Configuration store in Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md) and then come back here.</span></span>
+3.  <span data-ttu-id="7051c-111">在 [部署] 嚮導中，確認 [ **步驟1：安裝本機設定存放區** ] 有綠色核取記號，表示此伺服器已成功安裝存放區的本機複本。</span><span class="sxs-lookup"><span data-stu-id="7051c-111">In the Deployment Wizard, confirm that **Step 1: Install Local Configuration Store** has a green check mark, which means that this server has a local copy of the store installed successfully.</span></span> <span data-ttu-id="7051c-112">若未勾選，您必須在伺服器上安裝本機設定存放區。</span><span class="sxs-lookup"><span data-stu-id="7051c-112">If it’s not checked, you need to install the Local Configuration store on the server.</span></span> <span data-ttu-id="7051c-113">請遵循下列步驟，在 [Lync Server 2013 中安裝本機設定存放區](lync-server-2013-install-the-local-configuration-store.md) ，然後回來回來。</span><span class="sxs-lookup"><span data-stu-id="7051c-113">Follow the steps at [Install the Local Configuration store in Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md) and then come back here.</span></span>
 
-4.  <span data-ttu-id="baecf-113">當您準備好在伺服器上安裝 Lync Server 2013 元件時，請按一下 [執行]，然後按一下 [**步驟2：安裝或移除 Lync Server 元件**] 旁邊的 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="baecf-113">When you’re ready to install the Lync Server 2013 components on your server, click **Run** next to **Step 2: Setup or Remove Lync Server Components**.</span></span>
+4.  <span data-ttu-id="7051c-114">當您準備好在伺服器上安裝 Lync Server 2013 元件時，請按一下 [執行]，然後按一下 [**步驟2：安裝或移除 Lync Server 元件**] 旁邊的 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="7051c-114">When you’re ready to install the Lync Server 2013 components on your server, click **Run** next to **Step 2: Setup or Remove Lync Server Components**.</span></span>
 
-5.  <span data-ttu-id="baecf-114">在 [ **設定 Lync Server 元件** ] 頁面上，按 **[下一步]** ，依照您已發佈的拓撲中所定義的方式來設定元件。</span><span class="sxs-lookup"><span data-stu-id="baecf-114">On the **Set Up Lync Server Components** page, click **Next** to set up components as defined in your published topology.</span></span>
+5.  <span data-ttu-id="7051c-115">在 [ **設定 Lync Server 元件** ] 頁面上，按 **[下一步]** ，依照您已發佈的拓撲中所定義的方式來設定元件。</span><span class="sxs-lookup"><span data-stu-id="7051c-115">On the **Set Up Lync Server Components** page, click **Next** to set up components as defined in your published topology.</span></span>
 
-6.  <span data-ttu-id="baecf-115">[ **執行命令** ] 頁面會在設定進行時顯示命令和安裝資訊的摘要。</span><span class="sxs-lookup"><span data-stu-id="baecf-115">The **Executing Commands** page will display a summary of commands and installation information as the set up takes place.</span></span> <span data-ttu-id="baecf-116">完成後，您可以使用清單選取要查看的記錄檔，然後按一下 [ **查看記錄**檔]。</span><span class="sxs-lookup"><span data-stu-id="baecf-116">When it’s done, you can use the list to select a log to view, and then click **View Log**.</span></span>
+6.  <span data-ttu-id="7051c-116">[ **執行命令** ] 頁面會在設定進行時顯示命令和安裝資訊的摘要。</span><span class="sxs-lookup"><span data-stu-id="7051c-116">The **Executing Commands** page will display a summary of commands and installation information as the set up takes place.</span></span> <span data-ttu-id="7051c-117">完成後，您可以使用清單選取要查看的記錄檔，然後按一下 [ **查看記錄**檔]。</span><span class="sxs-lookup"><span data-stu-id="7051c-117">When it’s done, you can use the list to select a log to view, and then click **View Log**.</span></span>
 
-7.  <span data-ttu-id="baecf-117">在 [Lync Server 2013 元件] 設定完成時，如果您已視需要複查記錄，請按一下 **[完成]** ，以在安裝中完成此步驟。</span><span class="sxs-lookup"><span data-stu-id="baecf-117">When Lync Server 2013 components setup is done, and you’ve reviewed the logs as needed, click **Finish** to complete this step in the installation.</span></span>
+7.  <span data-ttu-id="7051c-118">在 [Lync Server 2013 元件] 設定完成時，如果您已視需要複查記錄，請按一下 **[完成]** ，以在安裝中完成此步驟。</span><span class="sxs-lookup"><span data-stu-id="7051c-118">When Lync Server 2013 components setup is done, and you’ve reviewed the logs as needed, click **Finish** to complete this step in the installation.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="baecf-118">如果系統提示您重新開機伺服器 (可能會在 Windows 桌面經驗安裝) 時進行，因此一定要這麼做。</span><span class="sxs-lookup"><span data-stu-id="baecf-118">If you’re prompted to restart the server (which might happen if Windows Desktop Experience needed to be installed), definitely do that.</span></span> <span data-ttu-id="baecf-119">當電腦重新備份及執行時，您必須重新執行這些步驟，請從上面列出的步驟3開始， (基本上在部署嚮導中執行步驟 2) 。</span><span class="sxs-lookup"><span data-stu-id="baecf-119">When the computer is back up and running, you need to do these steps over again, starting from step three listed above (basically run Step 2 in the Deployment Wizard one more time).</span></span>
+    > <span data-ttu-id="7051c-119">如果系統提示您重新開機伺服器 (可能會在 Windows 桌面經驗安裝) 時進行，因此一定要這麼做。</span><span class="sxs-lookup"><span data-stu-id="7051c-119">If you’re prompted to restart the server (which might happen if Windows Desktop Experience needed to be installed), definitely do that.</span></span> <span data-ttu-id="7051c-120">當電腦重新備份及執行時，您必須重新執行這些步驟，請從上面列出的步驟3開始， (基本上在部署嚮導中執行步驟 2) 。</span><span class="sxs-lookup"><span data-stu-id="7051c-120">When the computer is back up and running, you need to do these steps over again, starting from step three listed above (basically run Step 2 in the Deployment Wizard one more time).</span></span>
 
     
     </div>
