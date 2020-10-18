@@ -9,7 +9,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
 description: 一旦您建立了第一個團隊，了解移至尋找 Microsoft Teams 深入部署與採用資源的位置。
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-mar2020
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,15 +20,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57075758e7b956323283ff8fa9dcb433e3e63b3c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8576560d6ec20cde4bae4ff6f10fc0474392ecf0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499890"
 ---
-# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="2469a-103">選擇在整個組織推出 Microsoft Teams 的路徑</span><span class="sxs-lookup"><span data-stu-id="2469a-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
+# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="76e20-103">選擇在整個組織推出 Microsoft Teams 的路徑</span><span class="sxs-lookup"><span data-stu-id="76e20-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
 
-<span data-ttu-id="2469a-104">現在您已成功設定您的第一個團隊，並在推動使用的同時使一組初始使用者上線，現在應了解如何在推動採用的同時，於組織的其餘部分部署 Teams 的未來規劃。</span><span class="sxs-lookup"><span data-stu-id="2469a-104">Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="2469a-105">首先請從第一項工作負載，即[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)開始。</span><span class="sxs-lookup"><span data-stu-id="2469a-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
+<span data-ttu-id="76e20-104">現在您已成功設定您的第一個團隊，並在推動使用的同時使一組初始使用者上線，現在應了解如何在推動採用的同時，於組織的其餘部分部署 Teams 的未來規劃。</span><span class="sxs-lookup"><span data-stu-id="76e20-104">Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="76e20-105">首先請從第一項工作負載，即[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)開始。</span><span class="sxs-lookup"><span data-stu-id="76e20-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
 
-<span data-ttu-id="2469a-106">如需協助選擇推出 Teams 的路徑，請閱讀[如何推出 Teams](How-to-roll-out-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="2469a-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>
+<span data-ttu-id="76e20-106">如需協助選擇推出 Teams 的路徑，請閱讀[如何推出 Teams](How-to-roll-out-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="76e20-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>

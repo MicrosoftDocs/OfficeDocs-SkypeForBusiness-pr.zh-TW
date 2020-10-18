@@ -15,7 +15,7 @@
 ### [拓撲基本概念](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [參考拓撲](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### 需求 
-####[系統需求](../plan/system-requirements.md)
+#### [系統需求](../plan/system-requirements.md)
 #### [負載平衡需求](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [網路需求](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [IPv6](../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -97,7 +97,7 @@
 #### [從公司撥號](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [遠端呼叫控制](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### 雲端語音信箱
-#####[規劃雲端語音信箱](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [規劃雲端語音信箱](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [設定雲端語音信箱](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### 雲端自動語音應答
 ##### [規劃雲端自動語音應答](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
