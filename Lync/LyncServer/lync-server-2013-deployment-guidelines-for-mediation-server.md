@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：轉送伺服器的部署指導方針
+description: Lync Server 2013：轉送伺服器的部署指導方針。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4e627dfdc161093d07243e6598807f3ad91cab1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8198431b24714666c9411029aecd12835014fef4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522710"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575769"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中轉送伺服器的部署指導方針
 

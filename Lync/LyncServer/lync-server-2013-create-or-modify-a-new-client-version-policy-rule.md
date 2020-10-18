@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：建立或修改新的用戶端版本原則規則
+description: Lync Server 2013：建立或修改新的用戶端版本原則規則。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 732113537b79ad2ac767f64b861f296be508899c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 11ebcf17d5cb14fd519fba8ad36be10894fabdb9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512720"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574619"
 ---
 # <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改新的用戶端版本原則規則
 
