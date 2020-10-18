@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用 Cmdlet 進行反向網域準備
+description: Lync Server 2013：使用 Cmdlet 進行反向網域準備。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94c64bbc8638ff4478849d74bb24f6e2f9704fa9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1d26cc97ee934ee959838f38f4e2f52f9bf89566
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535810"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580409"
 ---
 # <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>使用 Cmdlet 進行 Lync Server 2013 的反向網域準備
 

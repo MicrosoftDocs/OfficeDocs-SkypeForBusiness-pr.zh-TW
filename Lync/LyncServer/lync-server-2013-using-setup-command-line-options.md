@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用安裝程式命令列選項
+description: Lync Server 2013：使用安裝程式命令列選項。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c530387fa9f504120ff3a8f38128eeb07b04e615
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 15c3490ead090766462ce83cb13ffe62355032cd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527640"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580239"
 ---
 # <a name="using-setup-command-line-options-in-lync-server-2013"></a>在 Lync Server 2013 中使用安裝程式命令列選項
 

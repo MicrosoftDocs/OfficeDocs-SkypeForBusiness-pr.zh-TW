@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用 Config.xml 執行安裝工作
+description: Lync Server 2013：使用 Config.xml 執行安裝工作。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 901d95797955c6f545c0d305e2c855829c92addf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 22fff14e21a120c3a0ee2cd6432fd1eba2bbee5f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535780"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580399"
 ---
 # <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Config.xml 執行安裝工作
 
