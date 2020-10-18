@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：準備還原 Lync Server
+description: Lync Server 2013：準備還原 Lync Server。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f31354ee87cdf7df5efdb6c4e2accf3758829c1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1875a691cfb70a6a824ab19bfde3dee4d699e48a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506830"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579949"
 ---
-# <a name="preparing-to-restore-lync-server-2013"></a><span data-ttu-id="2d2c8-102">準備還原 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d2c8-102">Preparing to restore Lync Server 2013</span></span>
+# <a name="preparing-to-restore-lync-server-2013"></a><span data-ttu-id="278ad-103">準備還原 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="278ad-103">Preparing to restore Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48506830"
 
 <span> </span>
 
-<span data-ttu-id="2d2c8-103">_**主題上次修改日期：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="2d2c8-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="278ad-104">_**主題上次修改日期：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="278ad-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="2d2c8-104">當您在失敗後開始還原伺服器及資料庫之前，您必須確定下列各項：</span><span class="sxs-lookup"><span data-stu-id="2d2c8-104">Before you begin restoring servers and databases after a failure, you need to determine the following:</span></span>
+<span data-ttu-id="278ad-105">當您在失敗後開始還原伺服器及資料庫之前，您必須確定下列各項：</span><span class="sxs-lookup"><span data-stu-id="278ad-105">Before you begin restoring servers and databases after a failure, you need to determine the following:</span></span>
 
-  - <span data-ttu-id="2d2c8-105">需要還原的專案。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-105">What needs to be restored.</span></span>
+  - <span data-ttu-id="278ad-106">需要還原的專案。</span><span class="sxs-lookup"><span data-stu-id="278ad-106">What needs to be restored.</span></span>
 
-  - <span data-ttu-id="2d2c8-106">還原所需的硬體、軟體、資料及工具。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-106">The hardware, software, data, and tools you need for restoration.</span></span>
+  - <span data-ttu-id="278ad-107">還原所需的硬體、軟體、資料及工具。</span><span class="sxs-lookup"><span data-stu-id="278ad-107">The hardware, software, data, and tools you need for restoration.</span></span>
 
 <div>
 
-## <a name="determining-what-to-restore"></a><span data-ttu-id="2d2c8-107">決定要還原的專案</span><span class="sxs-lookup"><span data-stu-id="2d2c8-107">Determining What to Restore</span></span>
+## <a name="determining-what-to-restore"></a><span data-ttu-id="278ad-108">決定要還原的專案</span><span class="sxs-lookup"><span data-stu-id="278ad-108">Determining What to Restore</span></span>
 
-<span data-ttu-id="2d2c8-108">本主題說明如何還原發生在伺服器、集區或中央管理存放區層級的 Lync Server 中斷。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-108">This topic describes how to restore Lync Server outages that occur at the server, pool, or Central Management store level.</span></span> <span data-ttu-id="2d2c8-109">若中央管理存放區失敗，您的 Lync Server 部署仍可運作，但您無法變更任何設定。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-109">If the Central Management store fails, your Lync Server deployment continues to function, but you cannot make any configuration changes.</span></span> <span data-ttu-id="2d2c8-110">如果後端伺服器或 Standard Edition Server 失敗，使用者集區便會停止運作。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-110">If a Back End Server or Standard Edition server fails, the user pool stops functioning.</span></span> <span data-ttu-id="2d2c8-111">如果任何其他伺服器失敗，失敗的程度取決於伺服器執行的伺服器角色，以及伺服器是否主控一或多個資料庫。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-111">If any other server fails, the magnitude of the failure depends on the server role the server is running and whether the server hosts one or more databases.</span></span>
+<span data-ttu-id="278ad-109">本主題說明如何還原發生在伺服器、集區或中央管理存放區層級的 Lync Server 中斷。</span><span class="sxs-lookup"><span data-stu-id="278ad-109">This topic describes how to restore Lync Server outages that occur at the server, pool, or Central Management store level.</span></span> <span data-ttu-id="278ad-110">若中央管理存放區失敗，您的 Lync Server 部署仍可運作，但您無法變更任何設定。</span><span class="sxs-lookup"><span data-stu-id="278ad-110">If the Central Management store fails, your Lync Server deployment continues to function, but you cannot make any configuration changes.</span></span> <span data-ttu-id="278ad-111">如果後端伺服器或 Standard Edition Server 失敗，使用者集區便會停止運作。</span><span class="sxs-lookup"><span data-stu-id="278ad-111">If a Back End Server or Standard Edition server fails, the user pool stops functioning.</span></span> <span data-ttu-id="278ad-112">如果任何其他伺服器失敗，失敗的程度取決於伺服器執行的伺服器角色，以及伺服器是否主控一或多個資料庫。</span><span class="sxs-lookup"><span data-stu-id="278ad-112">If any other server fails, the magnitude of the failure depends on the server role the server is running and whether the server hosts one or more databases.</span></span>
 
-### <a name="what-to-restore"></a><span data-ttu-id="2d2c8-112">要還原的專案</span><span class="sxs-lookup"><span data-stu-id="2d2c8-112">What to Restore</span></span>
+### <a name="what-to-restore"></a><span data-ttu-id="278ad-113">要還原的專案</span><span class="sxs-lookup"><span data-stu-id="278ad-113">What to Restore</span></span>
 
 <table>
 <colgroup>
@@ -60,50 +61,50 @@ ms.locfileid: "48506830"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2d2c8-113">若失敗</span><span class="sxs-lookup"><span data-stu-id="2d2c8-113">If this failed</span></span></th>
-<th><span data-ttu-id="2d2c8-114">請參閱本節內容：</span><span class="sxs-lookup"><span data-stu-id="2d2c8-114">See this section:</span></span></th>
+<th><span data-ttu-id="278ad-114">若失敗</span><span class="sxs-lookup"><span data-stu-id="278ad-114">If this failed</span></span></th>
+<th><span data-ttu-id="278ad-115">請參閱本節內容：</span><span class="sxs-lookup"><span data-stu-id="278ad-115">See this section:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2d2c8-115">Standard Edition Server</span><span class="sxs-lookup"><span data-stu-id="2d2c8-115">Standard Edition server</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-116"><a href="lync-server-2013-restoring-a-standard-edition-server.md">在 Lync Server 2013 中還原 Standard Edition server</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-116"><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-116">Standard Edition Server</span><span class="sxs-lookup"><span data-stu-id="278ad-116">Standard Edition server</span></span></p></td>
+<td><p><span data-ttu-id="278ad-117"><a href="lync-server-2013-restoring-a-standard-edition-server.md">在 Lync Server 2013 中還原 Standard Edition server</a></span><span class="sxs-lookup"><span data-stu-id="278ad-117"><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2d2c8-117">中央管理存放區</span><span class="sxs-lookup"><span data-stu-id="2d2c8-117">Central Management store</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-118"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">在 Lync Server 2013 中還原主控中央管理存放區的伺服器</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-118"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restoring the server hosting the Central Management store in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-118">中央管理存放區</span><span class="sxs-lookup"><span data-stu-id="278ad-118">Central Management store</span></span></p></td>
+<td><p><span data-ttu-id="278ad-119"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">在 Lync Server 2013 中還原主控中央管理存放區的伺服器</a></span><span class="sxs-lookup"><span data-stu-id="278ad-119"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restoring the server hosting the Central Management store in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2d2c8-119">Enterprise Edition 後端</span><span class="sxs-lookup"><span data-stu-id="2d2c8-119">Enterprise Edition Back End</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-120"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">在 Lync Server 2013 中還原 Enterprise Edition 後端伺服器</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-120"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-120">Enterprise Edition 後端</span><span class="sxs-lookup"><span data-stu-id="278ad-120">Enterprise Edition Back End</span></span></p></td>
+<td><p><span data-ttu-id="278ad-121"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">在 Lync Server 2013 中還原 Enterprise Edition 後端伺服器</a></span><span class="sxs-lookup"><span data-stu-id="278ad-121"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2d2c8-121">Enterprise Edition 鏡像後端主伺服器</span><span class="sxs-lookup"><span data-stu-id="2d2c8-121">Enterprise Edition Mirrored Back End Primary Server</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-122"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-主要</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-122"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - primary</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-122">Enterprise Edition 鏡像後端主伺服器</span><span class="sxs-lookup"><span data-stu-id="278ad-122">Enterprise Edition Mirrored Back End Primary Server</span></span></p></td>
+<td><p><span data-ttu-id="278ad-123"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-主要</a></span><span class="sxs-lookup"><span data-stu-id="278ad-123"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - primary</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2d2c8-123">Enterprise Edition 鏡像後端次要伺服器</span><span class="sxs-lookup"><span data-stu-id="2d2c8-123">Enterprise Edition Mirrored Back End Secondary Server</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-124"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-鏡像</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-124"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-124">Enterprise Edition 鏡像後端次要伺服器</span><span class="sxs-lookup"><span data-stu-id="278ad-124">Enterprise Edition Mirrored Back End Secondary Server</span></span></p></td>
+<td><p><span data-ttu-id="278ad-125"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013 中還原鏡像的 Enterprise Edition 後端伺服器-鏡像</a></span><span class="sxs-lookup"><span data-stu-id="278ad-125"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2d2c8-125">任何執行伺服器角色的 Enterprise Edition 伺服器，例如前端伺服器、Edge Server、Director、轉送伺服器或 Persistent Chat Server。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-125">Any Enterprise Edition server running a server role, such as a Front End Server, Edge Server, Director, Mediation Server,.or Persistent Chat Server.</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-126"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">在 Lync Server 2013 中還原 Enterprise Edition 成員伺服器</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-126"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-126">任何執行伺服器角色的 Enterprise Edition 伺服器，例如前端伺服器、Edge Server、Director、轉送伺服器或 Persistent Chat Server。</span><span class="sxs-lookup"><span data-stu-id="278ad-126">Any Enterprise Edition server running a server role, such as a Front End Server, Edge Server, Director, Mediation Server,.or Persistent Chat Server.</span></span></p></td>
+<td><p><span data-ttu-id="278ad-127"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">在 Lync Server 2013 中還原 Enterprise Edition 成員伺服器</a></span><span class="sxs-lookup"><span data-stu-id="278ad-127"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2d2c8-127">整個 Lync 伺服器集區</span><span class="sxs-lookup"><span data-stu-id="2d2c8-127">An entire Lync Server pool</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-128"><a href="lync-server-2013-restoring-a-lync-server-pool.md">在 Lync Server 2013 中還原 Lync Server 集區</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-128"><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restoring a Lync Server pool in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-128">整個 Lync 伺服器集區</span><span class="sxs-lookup"><span data-stu-id="278ad-128">An entire Lync Server pool</span></span></p></td>
+<td><p><span data-ttu-id="278ad-129"><a href="lync-server-2013-restoring-a-lync-server-pool.md">在 Lync Server 2013 中還原 Lync Server 集區</a></span><span class="sxs-lookup"><span data-stu-id="278ad-129"><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restoring a Lync Server pool in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2d2c8-129">Enterprise Edition 檔存放區</span><span class="sxs-lookup"><span data-stu-id="2d2c8-129">Enterprise Edition File Store</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-130"><a href="lync-server-2013-restoring-a-file-store.md">在 Lync Server 2013 中還原檔存放區</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-130"><a href="lync-server-2013-restoring-a-file-store.md">Restoring a file store in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-130">Enterprise Edition 檔存放區</span><span class="sxs-lookup"><span data-stu-id="278ad-130">Enterprise Edition File Store</span></span></p></td>
+<td><p><span data-ttu-id="278ad-131"><a href="lync-server-2013-restoring-a-file-store.md">在 Lync Server 2013 中還原檔存放區</a></span><span class="sxs-lookup"><span data-stu-id="278ad-131"><a href="lync-server-2013-restoring-a-file-store.md">Restoring a file store in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2d2c8-131">獨立監控資料庫或封存資料庫</span><span class="sxs-lookup"><span data-stu-id="2d2c8-131">A standalone Monitoring database or Archiving database</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-132"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">在 Lync Server 2013 中還原監控或封存資料</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-132"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restoring monitoring or archiving data in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-132">獨立監控資料庫或封存資料庫</span><span class="sxs-lookup"><span data-stu-id="278ad-132">A standalone Monitoring database or Archiving database</span></span></p></td>
+<td><p><span data-ttu-id="278ad-133"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">在 Lync Server 2013 中還原監控或封存資料</a></span><span class="sxs-lookup"><span data-stu-id="278ad-133"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restoring monitoring or archiving data in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2d2c8-133">獨立的持久聊天資料庫</span><span class="sxs-lookup"><span data-stu-id="2d2c8-133">A stand-alone Persistent Chat database</span></span></p></td>
-<td><p><span data-ttu-id="2d2c8-134"><a href="lync-server-2013-restoring-persistent-chat-data.md">在 Lync Server 2013 中還原 Persistent Chat 資料</a></span><span class="sxs-lookup"><span data-stu-id="2d2c8-134"><a href="lync-server-2013-restoring-persistent-chat-data.md">Restoring Persistent Chat data in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="278ad-134">獨立的持久聊天資料庫</span><span class="sxs-lookup"><span data-stu-id="278ad-134">A stand-alone Persistent Chat database</span></span></p></td>
+<td><p><span data-ttu-id="278ad-135"><a href="lync-server-2013-restoring-persistent-chat-data.md">在 Lync Server 2013 中還原 Persistent Chat 資料</a></span><span class="sxs-lookup"><span data-stu-id="278ad-135"><a href="lync-server-2013-restoring-persistent-chat-data.md">Restoring Persistent Chat data in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -113,88 +114,88 @@ ms.locfileid: "48506830"
 
 <div>
 
-## <a name="gathering-hardware-software-and-tools"></a><span data-ttu-id="2d2c8-135">收集硬體、軟體及工具</span><span class="sxs-lookup"><span data-stu-id="2d2c8-135">Gathering Hardware, Software, and Tools</span></span>
+## <a name="gathering-hardware-software-and-tools"></a><span data-ttu-id="278ad-136">收集硬體、軟體及工具</span><span class="sxs-lookup"><span data-stu-id="278ad-136">Gathering Hardware, Software, and Tools</span></span>
 
-<span data-ttu-id="2d2c8-136">當您還原伺服器時，您必須從新的或全新的電腦開始。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-136">When you restore a server, you need to start with a new or clean computer.</span></span> <span data-ttu-id="2d2c8-137">此外，您必須具備下列可用的硬體和軟體：</span><span class="sxs-lookup"><span data-stu-id="2d2c8-137">Additionally, you must have the following hardware and software available:</span></span>
+<span data-ttu-id="278ad-137">當您還原伺服器時，您必須從新的或全新的電腦開始。</span><span class="sxs-lookup"><span data-stu-id="278ad-137">When you restore a server, you need to start with a new or clean computer.</span></span> <span data-ttu-id="278ad-138">此外，您必須具備下列可用的硬體和軟體：</span><span class="sxs-lookup"><span data-stu-id="278ad-138">Additionally, you must have the following hardware and software available:</span></span>
 
-  - <span data-ttu-id="2d2c8-138">具有相同完整功能變數名稱 (FQDN) 伺服器失敗的乾淨或新伺服器。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-138">A clean or new server with the same fully qualified domain name (FQDN) as the server that failed.</span></span>
+  - <span data-ttu-id="278ad-139">具有相同完整功能變數名稱 (FQDN) 伺服器失敗的乾淨或新伺服器。</span><span class="sxs-lookup"><span data-stu-id="278ad-139">A clean or new server with the same fully qualified domain name (FQDN) as the server that failed.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="2d2c8-139">當您安裝作業系統時，請確定您未刪除 Active Directory 網域服務中的電腦帳戶，並確認已保留帳戶的群組許可權。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-139">When you install the operating system, make sure that you do not delete the computer account in Active Directory Domain Services, and verify that the group permissions for the account are retained.</span></span>
+    > <span data-ttu-id="278ad-140">當您安裝作業系統時，請確定您未刪除 Active Directory 網域服務中的電腦帳戶，並確認已保留帳戶的群組許可權。</span><span class="sxs-lookup"><span data-stu-id="278ad-140">When you install the operating system, make sure that you do not delete the computer account in Active Directory Domain Services, and verify that the group permissions for the account are retained.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="2d2c8-140">作業系統的安裝軟體。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-140">Installation software for the operating system.</span></span> <span data-ttu-id="2d2c8-141">若要安裝作業系統，請使用伺服器部署程式和組織建立的設定。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-141">To install the operating system, use the server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="2d2c8-142">當您還原服務時，您應該會有這些程式和設定需求可供使用。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-142">You should have these procedures and configuration requirements available when you restore service.</span></span>
+  - <span data-ttu-id="278ad-141">作業系統的安裝軟體。</span><span class="sxs-lookup"><span data-stu-id="278ad-141">Installation software for the operating system.</span></span> <span data-ttu-id="278ad-142">若要安裝作業系統，請使用伺服器部署程式和組織建立的設定。</span><span class="sxs-lookup"><span data-stu-id="278ad-142">To install the operating system, use the server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="278ad-143">當您還原服務時，您應該會有這些程式和設定需求可供使用。</span><span class="sxs-lookup"><span data-stu-id="278ad-143">You should have these procedures and configuration requirements available when you restore service.</span></span>
 
-  - <span data-ttu-id="2d2c8-143">SQL Server 2012 或 SQL Server 2008 R2 的安裝軟體。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-143">Installation software for SQL Server 2012 or SQL Server 2008 R2.</span></span> <span data-ttu-id="2d2c8-144">若要安裝資料庫伺服器，請使用適當版本的 SQL Server，以及組織所建立的資料庫伺服器部署程式和設定。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-144">To install a database server, use the appropriate version of SQL Server and the database server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="2d2c8-145">當您還原服務時，您應該會有這些程式和設定需求可供使用。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-145">You should have these procedures and configuration requirements available when you restore service.</span></span>
+  - <span data-ttu-id="278ad-144">SQL Server 2012 或 SQL Server 2008 R2 的安裝軟體。</span><span class="sxs-lookup"><span data-stu-id="278ad-144">Installation software for SQL Server 2012 or SQL Server 2008 R2.</span></span> <span data-ttu-id="278ad-145">若要安裝資料庫伺服器，請使用適當版本的 SQL Server，以及組織所建立的資料庫伺服器部署程式和設定。</span><span class="sxs-lookup"><span data-stu-id="278ad-145">To install a database server, use the appropriate version of SQL Server and the database server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="278ad-146">當您還原服務時，您應該會有這些程式和設定需求可供使用。</span><span class="sxs-lookup"><span data-stu-id="278ad-146">You should have these procedures and configuration requirements available when you restore service.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="2d2c8-146">安裝本機設定存放區時，Lync Server 部署嚮導會在每個 Standard Edition 伺服器和任何其他 Lync Server 伺服器上自動安裝 SQL Server 2012 Express，除非您已在伺服器上預先安裝 SQL Server 2012 或 SQL Server 2008 R2。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-146">The Lync Server Deployment Wizard automatically installs SQL Server 2012 Express on each Standard Edition server and on any other Lync Server server when a local configuration store is installed, unless you have preinstalled SQL Server 2012 or SQL Server 2008 R2 on the server.</span></span>
+    > <span data-ttu-id="278ad-147">安裝本機設定存放區時，Lync Server 部署嚮導會在每個 Standard Edition 伺服器和任何其他 Lync Server 伺服器上自動安裝 SQL Server 2012 Express，除非您已在伺服器上預先安裝 SQL Server 2012 或 SQL Server 2008 R2。</span><span class="sxs-lookup"><span data-stu-id="278ad-147">The Lync Server Deployment Wizard automatically installs SQL Server 2012 Express on each Standard Edition server and on any other Lync Server server when a local configuration store is installed, unless you have preinstalled SQL Server 2012 or SQL Server 2008 R2 on the server.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="2d2c8-147">用來製作系統映射的軟體。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-147">Software for taking system images.</span></span>
+  - <span data-ttu-id="278ad-148">用來製作系統映射的軟體。</span><span class="sxs-lookup"><span data-stu-id="278ad-148">Software for taking system images.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="2d2c8-148">建議您在安裝作業系統和 SQL Server 之後，在您開始還原之前，取得系統的影像複本，如此一來，您就可以使用此映射做為回退點，以防還原期間發生問題。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-148">We recommend that you take an image copy of the system after you install the operating system and SQL Server, and before you start restoration, so that you can use this image as a rollback point in case something goes wrong during restoration.</span></span>
+    > <span data-ttu-id="278ad-149">建議您在安裝作業系統和 SQL Server 之後，在您開始還原之前，取得系統的影像複本，如此一來，您就可以使用此映射做為回退點，以防還原期間發生問題。</span><span class="sxs-lookup"><span data-stu-id="278ad-149">We recommend that you take an image copy of the system after you install the operating system and SQL Server, and before you start restoration, so that you can use this image as a rollback point in case something goes wrong during restoration.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="2d2c8-149">Lync Server 2013 安裝軟體。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-149">Lync Server 2013 installation software.</span></span> <span data-ttu-id="2d2c8-150">Lync Server 部署嚮導位於 Lync Server 安裝資料夾或 media at \\ setup \\ amd64 \\Setup.exe。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-150">The Lync Server Deployment Wizard is located in the Lync Server installation folder or media at \\setup\\amd64\\Setup.exe.</span></span>
+  - <span data-ttu-id="278ad-150">Lync Server 2013 安裝軟體。</span><span class="sxs-lookup"><span data-stu-id="278ad-150">Lync Server 2013 installation software.</span></span> <span data-ttu-id="278ad-151">Lync Server 部署嚮導位於 Lync Server 安裝資料夾或 media at \\ setup \\ amd64 \\Setup.exe。</span><span class="sxs-lookup"><span data-stu-id="278ad-151">The Lync Server Deployment Wizard is located in the Lync Server installation folder or media at \\setup\\amd64\\Setup.exe.</span></span>
 
-<span data-ttu-id="2d2c8-151">在還原期間，您可以使用下列工具：</span><span class="sxs-lookup"><span data-stu-id="2d2c8-151">During restoration, you use the following tools:</span></span>
+<span data-ttu-id="278ad-152">在還原期間，您可以使用下列工具：</span><span class="sxs-lookup"><span data-stu-id="278ad-152">During restoration, you use the following tools:</span></span>
 
-  - <span data-ttu-id="2d2c8-152">Lync Server 管理命令介面 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="2d2c8-152">Lync Server Management Shell cmdlets</span></span>
+  - <span data-ttu-id="278ad-153">Lync Server 管理命令介面 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="278ad-153">Lync Server Management Shell cmdlets</span></span>
 
-  - <span data-ttu-id="2d2c8-153">Import-CsUserData</span><span class="sxs-lookup"><span data-stu-id="2d2c8-153">Import-CsUserData</span></span>
+  - <span data-ttu-id="278ad-154">Import-CsUserData</span><span class="sxs-lookup"><span data-stu-id="278ad-154">Import-CsUserData</span></span>
 
-  - <span data-ttu-id="2d2c8-154">還原 Windows 資料夾的工具</span><span class="sxs-lookup"><span data-stu-id="2d2c8-154">Tools for restoring Windows folders</span></span>
+  - <span data-ttu-id="278ad-155">還原 Windows 資料夾的工具</span><span class="sxs-lookup"><span data-stu-id="278ad-155">Tools for restoring Windows folders</span></span>
 
-  - <span data-ttu-id="2d2c8-155">拓撲產生器</span><span class="sxs-lookup"><span data-stu-id="2d2c8-155">Topology Builder</span></span>
+  - <span data-ttu-id="278ad-156">拓撲產生器</span><span class="sxs-lookup"><span data-stu-id="278ad-156">Topology Builder</span></span>
 
-  - <span data-ttu-id="2d2c8-156">SQL Server 資料庫公用程式，例如 SQL Server Management Studio</span><span class="sxs-lookup"><span data-stu-id="2d2c8-156">SQL Server database utilities, such as SQL Server Management Studio</span></span>
+  - <span data-ttu-id="278ad-157">SQL Server 資料庫公用程式，例如 SQL Server Management Studio</span><span class="sxs-lookup"><span data-stu-id="278ad-157">SQL Server database utilities, such as SQL Server Management Studio</span></span>
 
 </div>
 
 <div>
 
-## <a name="preparing-to-restore-a-server"></a><span data-ttu-id="2d2c8-157">準備還原伺服器</span><span class="sxs-lookup"><span data-stu-id="2d2c8-157">Preparing to Restore a Server</span></span>
+## <a name="preparing-to-restore-a-server"></a><span data-ttu-id="278ad-158">準備還原伺服器</span><span class="sxs-lookup"><span data-stu-id="278ad-158">Preparing to Restore a Server</span></span>
 
-<span data-ttu-id="2d2c8-158">在還原伺服器之前，您必須執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="2d2c8-158">Before you restore the server, you must perform the following steps:</span></span>
+<span data-ttu-id="278ad-159">在還原伺服器之前，您必須執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="278ad-159">Before you restore the server, you must perform the following steps:</span></span>
 
-1.  <span data-ttu-id="2d2c8-159">安裝作業系統。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-159">Install the operating system.</span></span>
+1.  <span data-ttu-id="278ad-160">安裝作業系統。</span><span class="sxs-lookup"><span data-stu-id="278ad-160">Install the operating system.</span></span>
 
-2.  <span data-ttu-id="2d2c8-160">如果伺服器是後端伺服器，請安裝 SQL Server 2012 或 SQL Server 2008 R2。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-160">If the server is a Back End Server, install SQL Server 2012 or SQL Server 2008 R2.</span></span>
+2.  <span data-ttu-id="278ad-161">如果伺服器是後端伺服器，請安裝 SQL Server 2012 或 SQL Server 2008 R2。</span><span class="sxs-lookup"><span data-stu-id="278ad-161">If the server is a Back End Server, install SQL Server 2012 or SQL Server 2008 R2.</span></span>
 
-3.  <span data-ttu-id="2d2c8-161">還原或重新註冊憑證。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-161">Restore or reenroll your certificates.</span></span> <span data-ttu-id="2d2c8-162">如需憑證的詳細資訊，請參閱 [Lync Server 2013： data](lync-server-2013-backup-and-restoration-requirements-data.md)中的「其他備份需求」的備份和還原需求。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-162">For details about certificates, see "Additional Backup Requirements" in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
+3.  <span data-ttu-id="278ad-162">還原或重新註冊憑證。</span><span class="sxs-lookup"><span data-stu-id="278ad-162">Restore or reenroll your certificates.</span></span> <span data-ttu-id="278ad-163">如需憑證的詳細資訊，請參閱 [Lync Server 2013： data](lync-server-2013-backup-and-restoration-requirements-data.md)中的「其他備份需求」的備份和還原需求。</span><span class="sxs-lookup"><span data-stu-id="278ad-163">For details about certificates, see "Additional Backup Requirements" in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
 
-4.  <span data-ttu-id="2d2c8-163">開始還原之前，請先取得系統的映射，以做為回退點，以防還原期間發生問題。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-163">Take an image of the system before starting restoration to use as a rollback point, in case something goes wrong during restoration.</span></span>
+4.  <span data-ttu-id="278ad-164">開始還原之前，請先取得系統的映射，以做為回退點，以防還原期間發生問題。</span><span class="sxs-lookup"><span data-stu-id="278ad-164">Take an image of the system before starting restoration to use as a rollback point, in case something goes wrong during restoration.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2d2c8-164">Lync Server 部署嚮導和本主題中的程式所述的指令程式和相關主題，設定所有必要的存取控制清單 (ACLs) 。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-164">The Lync Server Deployment Wizard and cmdlets described in the procedures in this topic, and related topics, set all required access control lists (ACLs).</span></span>
+> <span data-ttu-id="278ad-165">Lync Server 部署嚮導和本主題中的程式所述的指令程式和相關主題，設定所有必要的存取控制清單 (ACLs) 。</span><span class="sxs-lookup"><span data-stu-id="278ad-165">The Lync Server Deployment Wizard and cmdlets described in the procedures in this topic, and related topics, set all required access control lists (ACLs).</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2d2c8-165">確認您要還原之元件所需的硬體和軟體是否可供您開始還原。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-165">Verify that the hardware and the software that you need for the components that you plan to restore are available before you start restoration.</span></span> <span data-ttu-id="2d2c8-166">安裝作業系統和 SQL Server 之後，您可以從遠端執行下列還原程式中的大部分步驟。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-166">After you install the operating system and SQL Server, most of the steps in the following restoration procedures can be run remotely.</span></span> <span data-ttu-id="2d2c8-167">例外狀況會注明在程式中。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-167">The exceptions are noted in the procedures.</span></span>
+<span data-ttu-id="278ad-166">確認您要還原之元件所需的硬體和軟體是否可供您開始還原。</span><span class="sxs-lookup"><span data-stu-id="278ad-166">Verify that the hardware and the software that you need for the components that you plan to restore are available before you start restoration.</span></span> <span data-ttu-id="278ad-167">安裝作業系統和 SQL Server 之後，您可以從遠端執行下列還原程式中的大部分步驟。</span><span class="sxs-lookup"><span data-stu-id="278ad-167">After you install the operating system and SQL Server, most of the steps in the following restoration procedures can be run remotely.</span></span> <span data-ttu-id="278ad-168">例外狀況會注明在程式中。</span><span class="sxs-lookup"><span data-stu-id="278ad-168">The exceptions are noted in the procedures.</span></span>
 
-<span data-ttu-id="2d2c8-168">您也應該將組織的備份及還原計劃及最後一次備份中的資訊，例如本文的工作表中的資訊 (如需詳細資訊，請參閱 [Lync Server 2013) 的備份與還原工作表](lync-server-2013-backup-and-restoration-worksheets.md) （在您開始還原之前）。</span><span class="sxs-lookup"><span data-stu-id="2d2c8-168">You should also have your organization's backup and restoration plan and the information from your last backup, such as the information in the worksheets in this document (for details, see [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), available before you begin restoration.</span></span>
+<span data-ttu-id="278ad-169">您也應該將組織的備份及還原計劃及最後一次備份中的資訊，例如本文的工作表中的資訊 (如需詳細資訊，請參閱 [Lync Server 2013) 的備份與還原工作表](lync-server-2013-backup-and-restoration-worksheets.md) （在您開始還原之前）。</span><span class="sxs-lookup"><span data-stu-id="278ad-169">You should also have your organization's backup and restoration plan and the information from your last backup, such as the information in the worksheets in this document (for details, see [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), available before you begin restoration.</span></span>
 
 </div>
 
