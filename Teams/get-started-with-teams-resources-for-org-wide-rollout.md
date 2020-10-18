@@ -9,7 +9,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
 description: 一旦您建立了第一個團隊，了解移至尋找 Microsoft Teams 深入部署與採用資源的位置。
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-mar2020
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57075758e7b956323283ff8fa9dcb433e3e63b3c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8576560d6ec20cde4bae4ff6f10fc0474392ecf0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499890"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>選擇在整個組織推出 Microsoft Teams 的路徑
 
