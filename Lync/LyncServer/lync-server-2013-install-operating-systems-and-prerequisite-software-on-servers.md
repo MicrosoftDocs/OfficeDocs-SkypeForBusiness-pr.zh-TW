@@ -1,5 +1,6 @@
 ---
 title: 在伺服器上安裝作業系統和必要軟體
+description: 在伺服器上安裝作業系統和必要軟體。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37cfbf02d379a3003338d4eabc7a5ca3c4b49f15
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2bae9e57db9c2f1d3f3bde7ce9cc7071b73aa01d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498690"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574129"
 ---
 # <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>在 Lync Server 2013 的伺服器上安裝作業系統和必要軟體
 
