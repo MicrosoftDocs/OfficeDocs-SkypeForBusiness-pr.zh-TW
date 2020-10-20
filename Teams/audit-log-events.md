@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從 Microsoft 365 規範中心的審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: df628d772992ed434f79f436c624c3672b1746eb
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897703"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599478"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -49,7 +49,9 @@ ms.locfileid: "46897703"
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>從審核記錄中取得團隊資料
 
 1. 若要取得審核記錄，請移至 [安全性 & 合規性中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 [ **搜尋**] 底下，選取 [ **審核記錄搜尋**]。
+
 2. 使用 [ **搜尋** ] 篩選您想要審核的活動、日期和使用者。
+
 3. 將結果匯出至 Excel 以進行進一步分析。
 
 > [!IMPORTANT]
@@ -63,8 +65,9 @@ ms.locfileid: "46897703"
 
 ![[審計記錄搜尋] 頁面的螢幕擷取畫面](media/audit-log-search-page.png)
 
-- 您可以按一下 [活動名稱]，選取要搜尋的特定活動。 或者，您可以按一下組名來搜尋群組中的所有活動 (例如 [檔案] **和 [資料夾活動** ]) 。 如果已選取活動，您可以按一下活動來取消選取。 您也可以使用 [搜尋] 方塊來顯示包含您所輸入之關鍵字的活動。<br>
-    ![審核記錄搜尋的螢幕擷取畫面](media/audit-log-search.png)
+- 您可以按一下 [活動名稱]，選取要搜尋的特定活動。 或者，您可以按一下組名來搜尋群組中的所有活動 (例如 [檔案] **和 [資料夾活動** ]) 。 如果已選取活動，您可以按一下活動來取消選取。 您也可以使用 [搜尋] 方塊來顯示包含您所輸入之關鍵字的活動。
+
+  ![審核記錄搜尋的螢幕擷取畫面](media/audit-log-search.png)
 
 - 若要顯示使用 Cmdlet 執行之活動的事件，請選取 [**活動**] 清單中的 [**顯示所有活動的結果**]。 如果您知道這些活動的作業名稱，請搜尋所有活動，然後在 [ **活動** ] 欄的方塊中輸入作業的名稱，以篩選結果。 若要深入瞭解，請參閱 [步驟3：篩選搜尋結果](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
 
@@ -133,7 +136,7 @@ ms.locfileid: "46897703"
 |[新增] 索引標籤    |TabAdded         |使用者在頻道中新增一個索引標籤。        |
 |已變更頻道設定    |ChannelSettingChanged         |當小組成員執行下列活動時，就會記錄 ChannelSettingChanged 操作。 針對這些活動中的每個動作，會在審核記錄搜尋結果的 [ **專案** ] 欄中顯示已變更 (設定的描述。 <ul><li>變更小組頻道 (**頻道名稱** 的名稱) </li><li>變更小組頻道 (**通道描述** 的描述) </li> </ul>      |
 |已變更的組織設定   |TeamsTenantSettingChanged         |當由 Microsoft 365 系統管理中心的全域系統管理員執行下列活動時，就會記錄 TeamsTenantSettingChanged 操作。 這些活動會影響整個組織的團隊設定。 若要深入瞭解，請參閱 [管理貴組織的團隊設定](enable-features-office-365.md)。 <br>針對這些活動中的每個動作，會在審核記錄搜尋結果的 [ **專案** ] 欄中顯示已變更 () 所變更之設定的描述。<ul><li>啟用或停用 (**Microsoft 團隊**) 的組織小組。</li><li>啟用或停用 Microsoft 團隊與商務用 Skype (**商務用 skype 互通性**) 中的互通性。</li><li>啟用或停用 Microsoft 團隊用戶端 (**組織結構視圖**) 中的組織結構視圖。</li><li>啟用或停用小組成員排程私人會議的能力 (**私人會議排程**) 。</li><li>啟用或停用小組成員排程頻道會議的能力 ([ **頻道會議排程** ]) 。</li><li>啟用或停用 [團隊會議] 中的視頻通話 () **Skype 會議的影片** ]。</li><li>在 Microsoft 團隊聚會中啟用或停用) **Skype 會議 (螢幕共用** 的螢幕共用。</li><li>啟用或停用將 (稱為 Giphy) 的動畫影像新增至團隊交談 (**動畫影像**) 的功能。</li><li>變更組織 (**內容評級**) 的 [內容分級] 設定。 內容分級會限制交談中可以顯示的動畫影像類型。</li><li>啟用或停用小組成員的功能， (稱為自訂 meme) 從網際網路到小組交談 (可自訂) **的** 影像。</li><li>啟用或停用小組成員新增可編輯的影像 (稱為不乾膠標籤) 至小組交談 (**可編輯的影像**) 的功能。</li><li>啟用或停用小組成員在 Microsoft 團隊聊天和頻道中使用機器人的能力， (**組織內的機器人) **。</li><li>啟用 Microsoft 團隊的特定 bot。 這不會包含 T Bot，在針對組織 (**個別 bot**) 中啟用機器人時，可使用「團隊說明」。</li><li>啟用或停用小組成員新增副檔名或索引標籤 (**副檔名或** 索引標籤) 的功能。</li><li>啟用或停用 Microsoft 團隊專用 bot 的側載 (**側載機器人**) 。</li><li>啟用或停用使用者傳送電子郵件至 Microsoft 小組頻道 (**通道電子郵件**) 的功能。</li></ul>|
-|已變更團隊成員的角色    |MemberRoleChanged         |小組擁有者會變更團隊成員的角色。 下列值代表指派給使用者的角色類型。 <br><br>**1** -表示擁有者角色。<br>**2** -表示成員角色。<br>**3** -表示來賓角色。<br><br>Members 屬性也包括貴組織的名稱，以及該成員的電子郵件地址。        |
+|已變更團隊成員的角色    |MemberRoleChanged         |小組擁有者會變更團隊成員的角色。 下列值代表指派給使用者的角色類型。 <br><br>**1** -表示成員角色。<br>**2** -表示擁有者角色。<br>**3** -表示來賓角色。<br><br>Members 屬性也包括貴組織的名稱，以及該成員的電子郵件地址。        |
 |已變更團隊設定    |TeamSettingChanged        |當小組擁有者執行下列活動時，就會記錄 TeamSettingChanged 操作。 針對這些活動中的每個動作，會在審核記錄搜尋結果的 [ **專案** ] 欄中顯示已變更 () 所變更之設定的描述。<ul><li>變更團隊的存取類型。 團隊可以設定為私人或公用 (**團隊存取類型**) 。 當團隊是私人 (預設設定) 時，使用者只能透過邀請存取團隊。 當團隊公開時，任何人都可以發現。</li><li>變更小組 (**小組分類**) 的資訊分類。 例如，您可以將團隊資料分類為高業務效應、中型企業影響或低企業影響。</li><li>變更團隊 (**團隊名稱**) 的名稱。</li><li>變更團隊描述 (**團隊描述**) 。</li><li>對團隊設定所做的變更。 若要存取這些設定，小組擁有者可以以滑鼠右鍵按一下團隊，選取 [ **管理團隊**]，然後按一下 [ **設定** ] 索引標籤。針對這些活動，已變更之設定的名稱會顯示在審核記錄搜尋結果的 [ **專案** ] 欄中。</li></ul>         |
 |已建立小組    |TeamCreated         |使用者建立團隊。         |
 |已刪除所有組織 app|DeletedAllOrganizationApps           |已從目錄中刪除所有組織 app。     |

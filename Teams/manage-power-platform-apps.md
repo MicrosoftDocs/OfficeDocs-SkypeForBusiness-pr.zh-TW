@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊系統管理中心中管理 Power Platform app 的存取權。
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171439"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599548"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft [團隊管理中心] 中管理 Power Platform 應用程式
 
@@ -78,6 +78,13 @@ ms.locfileid: "48171439"
 例如，若要封鎖特定使用者存取在 Power 應用程式中建立的應用程式，請建立自訂應用程式許可權原則來封鎖 **共用的 Power 應用程式**，然後將原則指派給這些使用者。
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="已封鎖共用電源 app 之範例自訂應用程式許可權原則的螢幕擷取畫面":::
+
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>使用審核記錄來調查 Power Platform 的安裝活動
+
+您可以使用小組的審核記錄來調查使用者從 [小組] 中的 [應用程式] 頁面上的 [ **由您的同事建立** 的 Power Platform app] 區段中，的事件。 若要這樣做，請在**AppInstalled**作業) 的 [**已安裝的應用程式**小組] (事件中，搜尋特定使用者或一組使用者的 [[審核記錄](https://docs.microsoft.com/microsoftteams/audit-log-events)]。 若要尋找從 [**由您的同事建立**的應用程式] 區段中安裝的 app，請在指定記錄的詳細資料中，尋找**AppDistributionMode**屬性底下的**TemplatedInstance**值。 
+
+> [!NOTE]
+> 您可以將審核記錄匯出為 CSV 格式，以便更輕鬆地進行篩選。
 
 ## <a name="related-topics"></a>相關主題
 

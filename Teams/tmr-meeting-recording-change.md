@@ -1,5 +1,5 @@
 ---
-title: 使用 OneDrive 和 SharePoint 進行會議錄製
+title: 使用商務用 OneDrive 和 SharePoint 進行會議錄製
 author: cichur
 ms.author: v-cichur
 ms.reviewer: hao.moy
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 624dcb4f99bc8ae2b83a1b8f62917ac0a5701888
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486768"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599558"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -36,7 +36,7 @@ ms.locfileid: "48486768"
 |Q1 CY21|**已不再允許將團隊會議錄製儲存至傳統資料流程**<br>所有承租人都會將團隊會議記錄儲存至商務用 OneDrive 和 SharePoint|
 
 
-Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Microsoft Stream 轉換到 [新串流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一個階段，此方法會將錄製儲存在 microsoft 365 中的 microsoft OneDrive 和 SharePoint，並提供許多好處。
+Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Microsoft Stream 轉換到 [新串流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一個階段，此方法會將錄製儲存在 microsoft 365 的商務用 OneDrive 和 SharePoint 中，並提供許多好處。
 
 使用商務用 OneDrive 和 SharePoint 儲存錄製的好處包括：
 
@@ -67,9 +67,10 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>設定商務用 OneDrive 和 SharePoint 的會議錄製選項
 
-1. 安裝商務用 Skype Online PowerShell 管理主控台。
+1. 安裝商務用 Skype Online PowerShell。 
+**注意**：商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。 如果您使用的是最新的團隊 PowerShell 公開發行，就不需要安裝商務用 Skype Online 連接器。 請參閱 [使用 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。
 
-    a. 下載 [商務用 Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)。
+    a. 下載 [商務用 Skype Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。 
 
     b. 依照提示進行安裝。
 
@@ -79,24 +80,24 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 
 3. 匯入 SkypeOnline 連接器，然後以團隊管理員身分登入。
 
-```PowerShell
-  Import-Module SkypeOnlineConnector
-  $sfbSession = New-CsOnlineSession
-  Import-PSSession $sfbSession
-```
+   ```powershell
+   Import-Module SkypeOnlineConnector
+   $sfbSession = New-CsOnlineSession
+   Import-PSSession $sfbSession
+   ```
 
-4. 使用 [ [設定] csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) ，將 [團隊會議原則] 轉換為 [從資料流程儲存轉換為 ODSP]。
+4. 使用 [ [設定 csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) ] 將 [團隊會議原則] 設定為從資料流程儲存轉換為商務用 OneDrive 和 SharePoint。
 
-```PowerShell
+   ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
-```
+   ```
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>退出商務用 OneDrive 和 SharePoint 以繼續使用資料流程
 
 即使原則將它設定為 [ **資料流程**]，也可能不會設定。 通常，如果原則沒有設定，則預設設定為 [ **資料流程**]。 不過，如果您想要選擇不使用 SharePoint 或 OneDrive，請使用這項新的變更，您必須將原則重設為 **串流** ，以確保它是預設值。
 
 ```PowerShell
-   Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
+Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>許可權或以角色為基礎的存取權
@@ -108,7 +109,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 |與內部合作夥伴的1:1 通話             |方                 |被呼叫者的商務用 OneDrive 帳戶                        |被叫人為擁有者、擁有完全許可權的呼叫者 (如果在同一個租使用者中有唯讀存取權，則在不同的租使用者中，就不會 (共用存取-呼叫者) 沒有存取權。 被呼叫方必須將它共用給被呼叫者|
 |使用外部通話的1:1 通話             |呼叫                 |來電者的商務用 OneDrive 帳戶                        |-呼叫者為擁有者，擁有完全許可權被叫方沒有存取權。 來電者必須將它共用給被叫方|
 |使用外部通話的1:1 通話             |方                 |來電者的商務用 OneDrive 帳戶                        |被叫方為擁有者，擁有完整許可權-來電者沒有存取權。 被叫方必須將它共用給來電者|
-|群組通話                                 |通話的任何成員 |按一下記錄的商務用 OneDrive 帳戶的成員  |-按一下記錄的成員具有完整的許可權-來自相同租使用者的其他成員都有讀取權限，而其他成員則沒有許可權。|
+|群組通話                                 |通話的任何成員 |按一下記錄的商務用 OneDrive 帳戶的成員  |-按一下記錄的成員具有完整的許可權-來自相同租使用者的其他成員都有讀取權限-來自不同租使用者的其他成員都沒有許可權。|
 |即席/排程會議                    |召集人              |召集人的商務用 OneDrive 帳戶                     |-召集人擁有錄製的完整許可權，會議的所有其他成員都有讀取權限|
 |即席/排程會議                    |其他會議成員   |按一下 [記錄] 的成員                                  |-按一下記錄的成員對錄製有完整的許可權，且可以共用-所有其他成員都有讀取權限|
 |與外部使用者進行即席/排程的會議|召集人              |召集人的商務用 OneDrive 帳戶                     |-召集人對錄製有完整的許可權，與召集人相同的租使用者中的所有其他成員都有讀取存取權，且召集人必須將其共用給他們|
@@ -120,7 +121,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 
 **會議錄製將儲存在哪裡？**
 
-- 對於非頻道會議，錄製會儲存在 OneDrive 中名為 [ **錄製** ] 的資料夾中，該資料夾屬於開始會議錄製的人員。 範例
+- 對於非頻道會議，錄製會儲存在屬於開始會議錄製之**Recordings**人員之商務用 OneDrive 的最上層的資料夾中。 範例
 
   <i>錄影機的商務</i> / 用 OneDrive**錄製**
 
@@ -130,7 +131,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 
 **我要如何處理來自離職員工的錄製？**
 
-因為影片與 OneDrive 和 SharePoint 中的任何其他檔案一樣，所以在員工離職之後，處理擁有權及保留期將遵循正常的 [OneDrive 和 sharepoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)程式。
+因為影片與商務用 OneDrive 和 SharePoint 中的任何其他檔案一樣，所以在員工離職之後，處理擁有權及保留期將遵循正常的 [商務用 OneDrive 和 SharePoint 程式]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
 **誰有權查看會議錄製？**
 
@@ -140,13 +141,15 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 
 **我要如何管理腳本？**
 
-客戶加入宣告此預覽並不會在其小組會議錄製中提供隱藏式輔助字幕，且已遷移至 OneDrive 和 SharePoint。我們正致力於將隱藏式輔助字幕從英文新增至2020年10月的會議錄製。
+如果客戶加入宣告此預覽，小組會議錄製將不會提供隱藏式輔助字幕，且已遷移至商務用 OneDrive 和 SharePoint。我們正致力於將隱藏式輔助字幕從英文新增至2020年10月的會議錄製。
 
 小組會議錄製會提供隱藏式輔助字幕，供已自願加入在[小組雲端錄製](cloud-recording.md)中描述的客戶使用。
 
 [標題] 可協助為所有功能的檢視器建立包含內容。 在擁有者中，您可以隱藏標題，但除非您刪除小組中的標題，否則仍可在團隊中使用這些記錄。 瞭解 [如何開啟或關閉會議錄製](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
 
 錄製會議時，小組會議錄製支援的60天是隱藏式輔助字幕。
+
+如果將小組會議錄製從其在 OneDrive 或 SharePoint 上的原始位置移動或複製，就不會完全支援隱藏式輔助字幕。
 
 **我的儲存空間配額受影響的方式**
 

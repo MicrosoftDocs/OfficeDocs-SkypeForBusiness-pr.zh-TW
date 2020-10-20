@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在中小型企業中為需要使用電話撥入會議的人員設定音訊會議。 '
-ms.openlocfilehash: 13dd6812d6eaf51d2f88ac6d8831552cb63d5a9d
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: b692654a0a874ea0c07f074daefe203aef2f80bc
+ms.sourcegitcommit: 764605e226bc7d9cf45e9833c758d30da29132c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389941"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594644"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>針對中小型企業設定音訊會議
 
@@ -86,7 +86,7 @@ ms.locfileid: "48389941"
 
 ## <a name="audio-conferencing-phone-numbers"></a>音訊會議電話號碼
 
-您可以在會議橋接器中使用兩種類型的數位。 您可以使用 (本文前面所討論的 **共用號碼**) 或 **專屬號碼**。 以下是每個程式的詳細資訊。
+您可以在會議橋接器中使用兩種類型的數位。 您可以在本文前面的[設定音訊會議](#set-up-audio-conferencing)區段中使用**共用號碼** (，) 或**專屬號碼**。 以下是每個程式的詳細資訊。
 
 ### <a name="shared-numbers"></a>共用號碼
 

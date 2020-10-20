@@ -180,7 +180,7 @@
 | 9/8/2020 | [Microsoft 團隊 PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 日期 |
 | 9/8/2020 | [Teams 教育版深入解析的IT 系統管理員指南](/MicrosoftTeams/class-insights) | 日期 |
 | 9/9/2020 | [團隊和 Outlook 電子郵件整合](/MicrosoftTeams/teams-outlook-email-integration) | 日期 |
-| 9/10/2020 | 資料收集方式 | 移除 |
+| 9/10/2020 | 資料收集做法 | 移除 |
 | 9/10/2020 | [安全性與合規性概述](/MicrosoftTeams/security-compliance-overview) | 日期 |
 | 9/10/2020 | [團隊和 Outlook 電子郵件整合](/MicrosoftTeams/teams-outlook-email-integration) | 日期 |
 | 9/11/2020 | [管理外部存取 (同盟) ](/MicrosoftTeams/manage-external-access) | 日期 |
@@ -202,7 +202,7 @@
 | 9/17/2020 | [在 Microsoft 團隊中設定即時事件設定](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 日期 |
 | 9/17/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
 | 9/17/2020 | [使用 Microsoft 團隊管理員角色管理團隊](/MicrosoftTeams/using-admin-roles) | 日期 |
-| 9/18/2020 | [封鎖特定使用者對 SharePoint 的存取權](/MicrosoftTeams/block-access-sharepoint) | 日期 |
+| 9/18/2020 | [封鎖特定使用者對 SharePoint 的存取](/MicrosoftTeams/block-access-sharepoint) | 日期 |
 | 9/18/2020 | [在 Microsoft 團隊中建立自訂團隊範本](/MicrosoftTeams/create-a-team-template) | 日期 |
 | 9/18/2020 | [從 Microsoft 團隊中的現有小組建立範本](/MicrosoftTeams/create-template-from-existing-team) | 日期 |
 | 9/18/2020 | [從 Microsoft 團隊中的現有小組範本建立新範本](/MicrosoftTeams/create-template-from-existing-template) | 日期 |
@@ -234,7 +234,7 @@
 | 9/21/2020 | [設定音訊會議設定 - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 日期 |
 | 9/21/2020 | [取得 Microsoft Teams 用戶端](/MicrosoftTeams/get-clients) | 日期 |
 | 9/21/2020 | [針對 Teams 準備組織的網路](/MicrosoftTeams/prepare-network) | 日期 |
-| 9/22/2020 | [封鎖特定使用者對 SharePoint 的存取權](/MicrosoftTeams/block-access-sharepoint) | 日期 |
+| 9/22/2020 | [封鎖特定使用者對 SharePoint 的存取](/MicrosoftTeams/block-access-sharepoint) | 日期 |
 | 9/22/2020 | [在 Microsoft 團隊中使用內建和自訂索引標籤](/MicrosoftTeams/built-in-custom-tabs) | 日期 |
 | 9/22/2020 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
 | 9/22/2020 | [Microsoft Teams 中的會議和召集會議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 日期 |
@@ -448,3 +448,95 @@
 | 10/9/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
 | 10/9/2020 | [在小組中規劃管理-Microsoft 團隊](/MicrosoftTeams/plan-teams-governance) | 日期 |
 | 10/9/2020 | [規劃生命週期管理](/MicrosoftTeams/plan-teams-lifecycle) | 日期 |
+
+
+## <a name="week-of-october-12-2020"></a>2020年10月12日周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 10/12/2020 | [在 Microsoft 團隊中通話駐留與取回](/MicrosoftTeams/call-park-and-retrieve) | 日期 |
+| 10/12/2020 | [在系統管理中心使用團隊醫療保健範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 日期 |
+| 10/12/2020 | [開始使用適用於醫療保健組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
+| 10/12/2020 | [使用系統管理中心快速開始使用團隊財務範本](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | 日期 |
+| 10/12/2020 | [在系統管理中心使用一般團隊範本](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 日期 |
+| 10/12/2020 | [在零售中開始使用團隊範本](/MicrosoftTeams/get-started-with-retail-teams-templates) | 日期 |
+| 10/12/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
+| 10/12/2020 | [在系統管理中心使用團隊政府範本](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 日期 |
+| 10/12/2020 | [在系統管理中心快速開始使用團隊生產範本](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 日期 |
+| 10/12/2020 | [在系統管理中心使用團隊零售範本](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 日期 |
+| 10/12/2020 | [Microsoft 團隊的管理快速入門](/MicrosoftTeams/teams-adoption-governance-quick-start) | 日期 |
+| 10/12/2020 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
+| 10/12/2020 | [系統管理訓練資源-Microsoft 團隊](/MicrosoftTeams/itadmin-readiness) | 日期 |
+| 10/12/2020 | [Microsoft 團隊中的預訂 app 與虛擬走訪](/MicrosoftTeams/bookings-app-admin) | 日期 |
+| 10/12/2020 | [Microsoft 團隊適用的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 日期 |
+| 10/12/2020 | [醫療保健的團隊原則套件](/MicrosoftTeams/policy-packages-healthcare) | 日期 |
+| 10/12/2020 | [在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意](/MicrosoftTeams/app-permissions-admin-center) | 日期 |
+| 10/12/2020 | [Microsoft 團隊的雲端視頻互通性](/MicrosoftTeams/cloud-video-interop) | 日期 |
+| 10/12/2020 | [管理 Microsoft 團隊中的意見反應原則](/MicrosoftTeams/manage-feedback-policies-in-teams) | 日期 |
+| 10/13/2020 | [音訊會議的網路會議](/MicrosoftTeams/audio-conferencing-on-network) | 日期 |
+| 10/13/2020 | [在 Microsoft 團隊中設定假日](/MicrosoftTeams/set-up-holidays-in-teams) | 日期 |
+| 10/13/2020 | [使用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 10/13/2020 | [Microsoft 365 群組和 Microsoft 團隊](/MicrosoftTeams/office-365-groups) | 日期 |
+| 10/13/2020 | 在 Exchange Online 中將團隊 SMTP 網域新增為允許的寄件者網域 | 移除 |
+| 10/13/2020 | [自訂應用程式存放區](/MicrosoftTeams/customize-your-app-store) | 日期 |
+| 10/13/2020 | [[加入檢查清單]-設定核心功能-Microsoft 團隊](/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities) | 日期 |
+| 10/14/2020 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 日期 |
+| 10/14/2020 | [開始使用適用於醫療保健組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
+| 10/14/2020 | [管理貴組織的清單應用程式](/MicrosoftTeams/manage-lists-app) | 日期 |
+| 10/15/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 10/15/2020 | [Microsoft 團隊的敏感度標籤](/MicrosoftTeams/sensitivity-labels) | 日期 |
+| 10/15/2020 | [設定通用區域電話授權](/MicrosoftTeams/set-up-common-area-phones) | 日期 |
+| 10/15/2020 | [Microsoft 團隊分析和報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 日期 |
+| 10/15/2020 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 10/15/2020 | [在 Microsoft 團隊系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 日期 |
+| 10/15/2020 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
+| 10/15/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 10/15/2020 | [Microsoft Teams 的安全性指南](/MicrosoftTeams/teams-security-guide) | 日期 |
+| 10/15/2020 | [使用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 10/15/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 日期 |
+| 10/16/2020 | [部署 Microsoft 團隊雲端語音服務](/MicrosoftTeams/3-onboard-deploy-my-service) | 日期 |
+| 10/16/2020 | [在 Microsoft 團隊用戶端中實現服務品質 (QoS) ](/MicrosoftTeams/qos-in-teams-clients) | 日期 |
+| 10/16/2020 | [快速入門-適用于教育系統管理員的 Microsoft 團隊](/MicrosoftTeams/teams-quick-start-edu) | 日期 |
+| 10/16/2020 | [教學課程：音訊會議-Microsoft 團隊](/MicrosoftTeams/tutorial-audio-conferencing) | 日期 |
+| 10/16/2020 | [Microsoft 團隊中應用程式的系統管理設定](/MicrosoftTeams/admin-settings) | 日期 |
+| 10/16/2020 | [採納 Microsoft 團隊](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 日期 |
+| 10/16/2020 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
+| 10/16/2020 | [Microsoft 團隊的雲端視頻互通性](/MicrosoftTeams/cloud-video-interop) | 日期 |
+| 10/16/2020 | [設定音訊會議設定 - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 日期 |
+| 10/16/2020 | [電話系統直接路由](/MicrosoftTeams/direct-routing-landing-page) | 日期 |
+| 10/16/2020 | [針對團隊中的第一線員工工作者管理以倒班為基礎的存取權](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 日期 |
+| 10/16/2020 | [Microsoft Teams 教育版](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 日期 |
+| 10/16/2020 | [選擇在整個組織推出的路徑](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | 日期 |
+| 10/16/2020 | [Ignite 上的小組會話2020](/MicrosoftTeams/ignite-2020-landing-page) | 日期 |
+| 10/16/2020 | [Microsoft 團隊中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams) | 日期 |
+| 10/16/2020 | [安裝與 Microsoft 團隊的 Moodle 整合](/MicrosoftTeams/install-moodle-integration) | 日期 |
+| 10/16/2020 | Microsoft Teams 的限制和規格 | 移除 |
+| 10/16/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 10/16/2020 | [管理緊急電話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 日期 |
+| 10/16/2020 | [使用 Microsoft 端點建構管理員安裝團隊](/MicrosoftTeams/msi-deployment) | 日期 |
+| 10/16/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/resources-teams-edu) | 日期 |
+| 10/16/2020 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
+| 10/16/2020 | [瞭解如何設定內容攝影機-Microsoft 團隊](/MicrosoftTeams/rooms/content-camera) | 日期 |
+| 10/16/2020 | [遠端系統管理 Microsoft 團隊聊天室裝置設定](/MicrosoftTeams/rooms/xml-config-file) | 日期 |
+| 10/16/2020 | [開啟或關閉 Microsoft 團隊的來賓存取權](/MicrosoftTeams/set-up-guests) | 日期 |
+| 10/16/2020 | [通話品質儀表板中的資料流程分類 (CQD) ](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 日期 |
+| 10/16/2020 | [Microsoft 團隊的系統管理訓練](/MicrosoftTeams/teams-admin-training-landing-page) | 日期 |
+| 10/16/2020 | [Microsoft 團隊分析和報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 日期 |
+| 10/16/2020 | [商務用 Skype 與 Microsoft 團隊之間的互通性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 日期 |
+| 10/16/2020 | [在 Microsoft 團隊中呼叫原則](/MicrosoftTeams/teams-calling-policy) | 日期 |
+| 10/16/2020 | [Microsoft Teams 中的團隊和頻道概覽](/MicrosoftTeams/teams-channels-overview) | 日期 |
+| 10/16/2020 | [30中的團隊](/MicrosoftTeams/teams-in-30-workshops) | 日期 |
+| 10/16/2020 | [使用網路 Planner-範例案例](/MicrosoftTeams/tutorial-network-planner-example) | 日期 |
+| 10/16/2020 | [小型企業範例-設定自動助手](/MicrosoftTeams/tutorial-org-aa) | 日期 |
+| 10/16/2020 | [開始升級您的 Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | 日期 |
+| 10/16/2020 | [與 Microsoft 團隊和商務用 Skype 共存](/MicrosoftTeams/upgrade-to-teams-on-prem-coexistence) | 日期 |
+| 10/16/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-considerations) | 日期 |
+| 10/16/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | 日期 |
+| 10/16/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 日期 |
+| 10/16/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 日期 |
+| 10/16/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | 日期 |
+| 10/16/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-upgrade-methods) | 日期 |
+| 10/16/2020 | [使用 Advisor for Teams 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
+| 10/16/2020 | [管理使用者對 Microsoft 團隊的存取權](/MicrosoftTeams/user-access) | 日期 |
+| 10/16/2020 | [什麼是電話系統？](/MicrosoftTeams/what-is-phone-system-in-office-365) | 日期 |

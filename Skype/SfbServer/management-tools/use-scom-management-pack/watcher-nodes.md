@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要：為商務用 Skype 伺服器綜合交易安裝及設定監視節點。
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640941"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599777"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安裝及設定觀察程式節點
  
@@ -27,13 +27,13 @@ ms.locfileid: "46640941"
   
 觀察程式節點是定期執行商務用 Skype Server 綜合交易的電腦。 綜合交易是 Windows PowerShell Cmdlet，用來驗證主要使用者案例，例如登入或 exchange 立即訊息的功能是否如預期般運作。 若為商務用 Skype Server 2015，System Center Operations Manager 可以執行下表所示的綜合交易，包括三個綜合交易類型：
   
-- **預設值**監視節點預設會執行的綜合交易。 當您建立新的監看員節點時，您可以指定要執行節點的綜合交易。  (New-CsWatcherNodeConfiguration 指令程式所使用之測試參數的目的。 ) 如果在建立監看員節點時未使用 [測試] 參數，它會自動執行所有預設的綜合交易，而且不會執行任何非預設的綜合交易。 例如，這表示會將監視節點設定為執行 Test-CsAddressBookService 測試，但不會設定為執行 CsExumConnectivity 測試。
+- **預設值** 監視節點預設會執行的綜合交易。 當您建立新的監看員節點時，您可以指定要執行節點的綜合交易。  (New-CsWatcherNodeConfiguration 指令程式所使用之測試參數的目的。 ) 如果在建立監看員節點時未使用 [測試] 參數，它會自動執行所有預設的綜合交易，而且不會執行任何非預設的綜合交易。 例如，這表示會將監視節點設定為執行 Test-CsAddressBookService 測試，但不會設定為執行 Test-CsExumConnectivity 測試。
     
-- **非預設**測試觀察程式節點預設不會執行。  (如需詳細資訊，請參閱預設類型的描述。 ) 不過，可以啟用監視節點來執行任何非預設的綜合交易。 當您使用 New-CsWatcherNodeConfiguration Cmdlet) ，或在建立監看員節點之後的任何時間建立監看員 (節點時，您就可以這麼做。 請注意，許多非預設的綜合交易都需要額外的設定步驟。 如需這些步驟的詳細資訊，請參閱[綜合交易的特殊設定指示](test-users-and-settings.md#special_synthetictrans)。
+- **非預設** 測試觀察程式節點預設不會執行。  (如需詳細資訊，請參閱預設類型的描述。 ) 不過，可以啟用監視節點來執行任何非預設的綜合交易。 當您使用 New-CsWatcherNodeConfiguration Cmdlet) ，或在建立監看員節點之後的任何時間建立監看員 (節點時，您就可以這麼做。 請注意，許多非預設的綜合交易都需要額外的設定步驟。 如需這些步驟的詳細資訊，請參閱 [綜合交易的特殊設定指示](test-users-and-settings.md#special_synthetictrans)。
     
-- **擴充**非預設綜合交易的特殊類型。 與其他綜合交易不同的是，延伸測試在每個行程中可以執行多次。 這在驗證行為時非常有用，例如多個公用交換電話網路 (PSTN) 的集區的語音路由。 您可以將多個擴充測試實例新增至監看員節點，以進行設定。
+- **擴充** 非預設綜合交易的特殊類型。 與其他綜合交易不同的是，延伸測試在每個行程中可以執行多次。 這在驗證行為時非常有用，例如多個公用交換電話網路 (PSTN) 的集區的語音路由。 您可以將多個擴充測試實例新增至監看員節點，以進行設定。
     
-如需有關將其他綜合交易新增至監視節點之程式的詳細資訊，請參閱[Configure a 監 The node To Run 綜合交易](watcher-nodes.md#enable_synthetic_trans)。 您也可以使用商務用 Skype Server 管理命令介面，從監看員節點中移除綜合交易。
+如需有關將其他綜合交易新增至監視節點之程式的詳細資訊，請參閱 [Configure a 監 The node To Run 綜合交易](watcher-nodes.md#enable_synthetic_trans)。 您也可以使用商務用 Skype Server 管理命令介面，從監看員節點中移除綜合交易。
   
 監看員節點可用的綜合交易包括下列：
   
@@ -51,11 +51,11 @@ ms.locfileid: "46640941"
 |Test-CsASConference (ASConference)   <br/> |確認使用者可以建立及加入應用程式共用會議。  <br/> |
 |Test-CsAVEdgeConnectivity (AVEdgeConnectivity)   <br/> |確認音訊影片 Edge 伺服器能夠接受對等通話和會議呼叫的連線。  <br/> |
 |Test-CsDataConference (DataConference)   <br/> |確認使用者可以參與資料共同作業會議 (包含諸如白板和輪詢等活動的線上會議) 。  <br/> |
-|Test-Test-csdialinconferencing (DialinConferencing)   <br/> |確認使用者可以撥打電話號碼加入會議。  <br/> |
-|Test-Test-csdialinconferencing (DialinConferencing)   <br/> |確認使用者可以撥打電話號碼加入會議。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)   <br/> |確認使用者可以撥打電話號碼加入會議。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)   <br/> |確認使用者可以撥打電話號碼加入會議。  <br/> |
 |Test-CsExumConnectivity (ExumConnectivity)   <br/> |確認使用者可以連線至 Exchange 整合通訊 (UM) 。  <br/> |
 |Test-CsGroupIM-TestJoinLauncher (JoinLauncher)   <br/> |確認使用者可以使用網址連結) 來建立及加入已排程的會議 (。  <br/> |
-|測試-Test-csmcxp2pim (MCXP2PIM)   <br/> |確認行動裝置使用者可以註冊並傳送立即訊息。  <br/> |
+|Test-CsMCXP2PIM (MCXP2PIM)   <br/> |確認行動裝置使用者可以註冊並傳送立即訊息。  <br/> |
 |Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)   <br/> |確認影片 Interop 伺服器已開啟，而且可以透過影片 SIP 主幹來處理傳入的連線。  <br/> **附注：** 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX 支援。 |
 |Test-CsPersistentChatMessage (PersistentChatMessage)   <br/> |確認使用者可以使用 Persistent Chat service 來交換郵件。  <br/> |
 |Test-CsUcwaConference (UcwaConference)   <br/> |確認使用者可以透過 web 加入會議。  <br/> |
@@ -80,7 +80,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
     
 - 企業內和周邊網路中的 Lync Server 2013 的連線能力。
     
-為了協助簡化管理，企業內部和外部都可以使用不同的驗證選項。 如需詳細資訊，請參閱[設定監視節點以執行綜合交易](watcher-nodes.md#enable_synthetic_trans)。
+為了協助簡化管理，企業內部和外部都可以使用不同的驗證選項。 如需詳細資訊，請參閱 [設定監視節點以執行綜合交易](watcher-nodes.md#enable_synthetic_trans)。
   
 若要將電腦設定為監視節點，您必須先完成下列必要條件： 
   
@@ -102,7 +102,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
     
 3. 執行 Watchernode.msi 的可執行檔。
     
-4. 使用**New-CsWatcherNodeConfiguration** Cmdlet 來設定要由監看員節點採用的測試使用者帳戶。
+4. 使用 **New-CsWatcherNodeConfiguration** Cmdlet 來設定要由監看員節點採用的測試使用者帳戶。
     
 ## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>安裝商務用 Skype Server 2015 核心檔案和 RTCLocal 資料庫
 
@@ -112,7 +112,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
   
 1. 在監看員節點電腦上，依序按一下 [開始]、[所有程式] 及 [附屬應用程式]，再以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。
     
-2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝盤的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype server 2015**]，然後按一下 [**商務用 skype server 管理命令**介面]。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
+2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝盤的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype server 2015**]，然後按一下 [ **商務用 skype server 管理命令**介面]。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 如果您的監看員節點電腦位於周邊網路內，您可以執行下列命令來驗證商務用 Skype Server 2015 的安裝：
   
-CsPinPolicyYou 會收到與下列類似的資訊，視您在組織中設定供使用的 PIN 碼原則數目而定：
+根據您在組織中設定供使用的 PIN 碼原則數目而定，Get-CsPinPolicyYou 將會收到與下列類似的資訊：
   
 身分識別：全域
   
@@ -145,7 +145,7 @@ MaximumLogonAttempts :
 
 類似于商務用 Skype 伺服器設定來報告元件警示，商務用 Skype Server 2015 監看員需要安裝 System Center Operations Manager 代理程式檔案。 這可讓您執行綜合交易，並將警示報告給 System Center Operations Manager 根管理伺服器。
   
-若要安裝代理程式檔案，請遵循[設定要監視之商務用 Skype Server 電腦](configure-computers-to-monitor.md)中所列的程式。
+若要安裝代理程式檔案，請遵循 [設定要監視之商務用 Skype Server 電腦](configure-computers-to-monitor.md)中所列的程式。
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>設定監視節點以執行綜合交易
 <a name="enable_synthetic_trans"> </a>
@@ -182,13 +182,13 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-在建立信任的應用程式集區之後，您可以使用**New-CsTrustedApplication** Cmdlet 及類似如下的命令，設定監看員節點電腦以執行綜合交易，做為信任的應用程式：
+在建立信任的應用程式集區之後，您可以使用 **New-CsTrustedApplication** Cmdlet 及類似如下的命令，設定監看員節點電腦以執行綜合交易，做為信任的應用程式：
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
-完成此命令並建立信任的應用程式之後，您必須執行**Enable-CsTopology** Cmdlet，以確保變更生效：
+完成此命令並建立信任的應用程式之後，您必須執行 **Enable-CsTopology** Cmdlet，以確保變更生效：
   
 ```PowerShell
 Enable-CsTopology
@@ -216,7 +216,7 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
 > [!NOTE]
 > 如果 [執行] 按鈕停用，需先按一下 [安裝本機組態存放區] 下方的 [執行]。 
   
-執行下列其中一項操作：
+執行下列其中一項：
   
 - 如果您已經有可當作預設憑證使用的憑證，請按一下 [憑證嚮導] 中的 [預設]，然後按一下 [指派]。 遵循 [證書指派] 嚮導中的步驟，指派該憑證。
     
