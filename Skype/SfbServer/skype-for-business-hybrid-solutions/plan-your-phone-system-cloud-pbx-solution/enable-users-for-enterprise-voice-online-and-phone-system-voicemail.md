@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 瞭解如何為商務用 Skype 使用者啟用電話系統語音服務。
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359179"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625109"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>為使用者啟用企業語音線上版和電話系統語音信箱
  
@@ -41,14 +41,18 @@ ms.locfileid: "47359179"
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>為使用者啟用電話系統語音和語音信箱
 
-1. 開始之前，請先檢查是否已在前端伺服器上部署 (Windows PowerShell 模組) 的商務用 Skype Online 連接器。 如果不是，您可以從 [[下載中心](https://www.microsoft.com/download/details.aspx?id=39366)] 下載。 您可以在設定 [您的電腦以進行商務用 Skype Online 管理](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)時，找到使用此模組的詳細資訊。
+> [!NOTE]
+> 商務用 Skype Online 連接器目前是最新小組 PowerShell 模組的一部分。
+> 如果您使用的是最新的 [小組 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，您不需要安裝商務用 Skype Online 連接器。
+
+1. 開始之前，請先檢查小組 PowerShell 模組是否已安裝在前端伺服器上。 如果不是，請使用 [團隊 PowerShell 模組安裝](https://docs.microsoft.com/microsoftteams/teams-powershell-install)中的指示進行安裝。
     
 2. 以系統管理員身分啟動 Windows PowerShell。
     
 3. 輸入下列專案，然後按 Enter：
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. 輸入下列專案，然後按 Enter：

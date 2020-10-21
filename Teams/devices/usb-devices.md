@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427688"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625099"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -74,10 +74,12 @@ ms.locfileid: "48427688"
 
 ## <a name="certified-devices"></a>認證的裝置
 
-*2020年8月更新的表格*
+*2020年10月更新的表格*
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |MB 專業版1                                                   |10/2/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
+|EPOS/Sennheiser      |MB 專業版2                                                   |10/2/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Jabra                |演化80耳機                                          |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Jabra                |演化40耳機                                          |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Jabra                |發展30個 II 耳機                                       |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
