@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援 Microsoft 團隊聊天室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d54414e58e34dc5e88a5fc68547a43041adf89c
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: a77558feb7ffaeb330750c60e0f47e619823726a
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331648"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655470"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -51,18 +51,20 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
 
   |主控台|處理器|RAM|磁碟|
   |:-----|:-----|:-----|:-----|
-  |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
-  [Crestron Flex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 GB |128 GB|
-  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
-  |[Crestron Flex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
-   [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
-  |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
+  |[Crestron Flex UC-M130-T 與英特爾 NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC-B130-T 與英特爾 NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC-B140-T 與英特爾 NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
+  [Crestron Flex UC-C140-T 與英特爾 NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 GB |128 GB|
+  |[Crestron FLEX UC-M150-T 與英特爾 NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)  + [CCS-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
+  |[Crestron Flex UC-MX150-T 與英特爾 NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
+   [Crestron Flex UC-B160-T 與英特爾 NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
+  |[Crestron Flex UC-C160-T 與英特爾 NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
+  |[含 Logitech 攻絲的戴爾 OptiPlex 7080](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | 核心 i5 & i7 |8 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[HP 扇面合作夥伴已準備好使用 Logitech 攻絲]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
+  |[聯想 ThinkSmart 中樞](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Logitech 與英特爾 NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |[Logitech 攻絲和聯想思考中心 M920 微小](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T 與聯想式思考中心 M920 微小](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
@@ -101,11 +103,14 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
 
 |Microsoft Teams 會議室週邊設備|認證的韌體版本 | 相機支援內容相機使用|
 |:--- |:--- | :--- |
+|[Aver VB342 + 攝影機 Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
 |[Aver 凸輪540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver 凸輪 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly 畫布](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
+|[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
+|[Huddly IQ 攝影機](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Jabra Panacast 攝影機](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
@@ -116,7 +121,7 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
 |[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
 |[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
 |[Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
-|[Polycom EagleEye IV](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
+|[Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv)   |1.0.0   |
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
@@ -125,12 +130,13 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
+|[EPOS 展開80T](https://www.avnetwork.com/news/epos-expand-speakerphone-certified-for-microsoft-teams) |4.4.6|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
-|Yealink UVC30| 105.420.0.11 |  &#x2714; |
+|[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix Ceiling Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 資料表陣列麥克風 ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [MXN5W-C 天花板喇叭](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.1.11 </br> MXA310 表格陣列 mic：4.1.41 </br> MXN5W-C 喇叭：1.0。4 |
@@ -140,8 +146,10 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (Table Mic) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |音訊 FW 版本：3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier +</br> Sennheiser TCC2 Ceiling Microphone + </br> Bose EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> BOSE P2600A AmpLink 放大器 + SENNHEISER TCC2 天花板麥克風 + </br> Bose DesignMax DM2C-P 天花板喇叭](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
-|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br> [Sennheiser TCC2 頂棚麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C-LP 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 
-|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br> [Sennheiser TCC2 頂棚麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 放大器 +</br> [Sennheiser TCC2 頂棚麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C-LP 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 放大器 +</br> [Sennheiser TCC2 頂棚麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |
+|[QSC Q-SYS 核心110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 頂棚麥克風]() +</br> [QSC EnergyStar Power 放大器 SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS 系列網路交換器 NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC 欄 Surface 安裝喇叭-S402T](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) |Q-sys 設計工具：8.4。0 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> 不適用 </br>  <br>N1100v6.4.2.8 </br> 不適用|
+|[QSC Q-SYS 核心110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 頂棚麥克風]() +</br> [QSC EnergyStar Power 放大器 SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS 系列網路交換器 NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC 欄 Surface 安裝喇叭-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) |Q-sys 設計工具：8.4。0 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> 不適用 </br>  <br>N1100v6.4.2.8 </br> 不適用|
 
 
 &Dagger; 客戶可以選擇 Dante 介面或 Biamp/Sennheiser 針對此套件建議的網路交換器。

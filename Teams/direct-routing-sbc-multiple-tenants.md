@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話邊界控制器 (SBC) ，以針對 Microsoft 合作夥伴和/或 PSTN 運營商提供多個租使用者。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814239"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655520"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -62,7 +62,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 (Microsoft 手機系統) 與
 - **Oracle：** [直接路由設定筆記](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在「Microsoft」一節中將說明 SBC 主機案例的設定。 
 - **功能區通訊：**  請參閱 [功能區通訊 SBC 核心 Microsoft 團隊配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) ，瞭解如何設定功能區核心數列的 SBCs 與此頁面 [功能區最佳做法-為 Microsoft 團隊直接路由 SBC 邊緣配置電信公司](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-系統 (anynode) ：**  請在 [TE 系統社區頁面](https://community.te-systems.de/) 上登錄，以取得有關如何針對多個租使用者設定 anynode SBC 的檔和範例。
-- **Metaswitch：**  請在 [ [Metaswitch 社區] 頁面](https://sso.metaswitch.com/UI/Login) 上登錄，以取得如何針對多個租使用者啟用 Perimeta SBC 的檔。
+- **Metaswitch：**  請在 [ [Metaswitch 社區] 頁面](https://manuals.metaswitch.com/MAN39555) 上登錄，以取得如何針對多個租使用者啟用 Perimeta SBC 的檔。
 
 > [!NOTE]
 > 請務必注意如何設定「連絡人」標題。 連絡人標題是用來在傳入邀請訊息上尋找客戶租使用者。 
@@ -87,7 +87,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 (Microsoft 手機系統) 與
 
 ![顯示網域和連絡人標題需求的圖表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司必須向 SAN 要求證書， * \* base_domain (例如 \* customers.adatum.biz) *。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
+SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司需要使用 SAN * \* .base_domain (的憑證（例如 \* customers.adatum.biz) ） *。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
 
 
 下表是一個配置的範例。
@@ -220,14 +220,14 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 根據這項意見反應，Microsoft 正在為客戶租使用者提供新的邏輯來提供 trunks。
 
 引入了兩個新的實體：
--    使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線，例如新的-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true。
+-    使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線，例如 New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true。
 
 -    衍生的主幹，不需要註冊。 它只是從載波幹線中新增的想要的主機名稱。 它會從載波幹線衍生其所有設定參數。 衍生主幹不需要在 PowerShell 中建立，而且與載波幹線的關聯是以 FQDN 名稱為基礎 (請參閱下方的詳細資料) 。
 
 **置備邏輯與範例**
 
--    運營商只需使用 CSOnlinePSTNGateway 命令，即可在電信公司網域) 中設定和管理單一干線 (載波主幹。 在上述範例中，它是 adatum.biz;
--    在客戶租使用者中，電信公司只需要將衍生的主幹 FQDN 新增至使用者的語音路由原則。 不需要針對主幹執行新的 CSOnlinePSTNGateway。
+-    運營商只需使用 Set-CSOnlinePSTNGateway 命令，即可在電信公司網域) 中設定和管理單一干線 (載波主幹。 在上述範例中，它是 adatum.biz;
+-    在客戶租使用者中，電信公司只需要將衍生的主幹 FQDN 新增至使用者的語音路由原則。 不需要針對主幹執行 New-CSOnlinePSTNGateway。
 -    衍生的主幹（如名稱所暗示）會繼承或衍生載波幹線的所有設定參數。 示例
 -    Customers.adatum.biz –需要在承運人租使用者中建立的載波主幹。
 -    Sbc1.customers.adatum.biz –客戶租使用者中的衍生主幹，不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略中，在客戶租使用者中新增衍生主幹的名稱，而不需建立它。
@@ -240,7 +240,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 **從先前的模型遷移至載波幹線**
  
-若要從載波託管模型的目前實現遷移到新的模型，運營商將需要針對客戶租使用者重新設定 trunks。 使用移除-CSOnlinePSTNGateway (從客戶租使用者中移除 trunks，在承運人租使用者) 中離開主幹
+若要從載波託管模型的目前實現遷移到新的模型，運營商將需要針對客戶租使用者重新設定 trunks。 使用 Remove-CSOnlinePSTNGateway (在承運人租使用者) 中離開主幹，從客戶承租人中移除 trunks。
 
 我們強烈建議您儘快遷移到新的解決方案，因為我們將使用載波和衍生的幹線模型來加強監視和提供。
  

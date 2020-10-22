@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何啟用使用者 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814542"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655480"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>允許使用者使用直接路由、語音及語音信箱
 
@@ -91,7 +91,7 @@ ms.locfileid: "47814542"
 2. 發出命令： 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     例如，若要將使用者的電話號碼新增至 [Spencer Low]，請輸入下列內容： 
@@ -99,9 +99,18 @@ ms.locfileid: "47814542"
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    如果使用者 "Spencer Low" 和 "Stacy Quinn" 以唯一的副檔名共用同一個基底號碼，請輸入下列
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    所使用的電話號碼必須設定為完整的 E. 164 電話號碼（國家/地區碼）。 
-
+    我們建議您使用的電話號碼是以完整的 E. 164 電話號碼（國家/地區碼）來設定，但這不是必要的。 支援使用延長線來設定電話號碼，並在針對基礎號碼的查閱傳回一個以上的結果時，用來尋找使用者。 這可讓公司設定具有相同基礎號碼和唯一延伸的電話號碼。 若要讓查閱成功，邀請必須包含含分機的完整號碼，如下所示：
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > 如果使用者的電話號碼是在內部部署管理，請使用內部部署商務用 Skype 管理命令介面或 [控制台] 來設定使用者的電話號碼。 
 

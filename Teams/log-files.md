@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊所產生的調試、媒體和桌面記錄，以及可在哪裡找到這些記錄，以及如何協助疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766757"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650826"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在 Microsoft 團隊的疑難排解中使用記錄檔
 =================================================
@@ -90,11 +90,11 @@ ms.locfileid: "47766757"
 <a name="media-logs"></a>媒體記錄
 ---------------------------
 
-媒體記錄包含有關團隊會議中音訊、影片和螢幕共用的診斷資料。 只有在要求且只能由 Microsoft 檢查時，才需要支援案例。 
+媒體記錄包含有關團隊會議中音訊、影片和螢幕共用的診斷資料。 它們對於連結至通話相關問題的支援案例是必要的。
 
-媒體記錄會預設為關閉狀態。 若要記錄團隊會議的診斷資料，使用者必須開啟團隊用戶端中的選項。 移至**Settings**  >  **[設定一般**]，選取 [**啟用會議診斷記錄] (需要重新開機團隊**) 核取方塊，然後重新開機團隊。
+媒體記錄會預設為關閉狀態。 若要記錄團隊會議的診斷資料，使用者必須開啟團隊用戶端中的選項。 移至**Settings**  >  **[設定一般**]，選取 [**啟用會議診斷記錄] (需要重新開機團隊**) 核取方塊，然後重新開機團隊並再現問題。 
 
-下表列出記錄位置。
+下表列出媒體記錄位置。 當您將記錄檔傳送給 Microsoft 支援時，請確認記錄檔的時間戳記，以確定當您再現問題時，記錄會覆蓋時間範圍。
 
 |用戶端 |位置 |
 |---------|---------|
@@ -108,7 +108,7 @@ ms.locfileid: "47766757"
 
 以下列出所產生的記錄檔及其包含的資訊。
 
-|記錄檔案名  |描述  |
+|記錄檔案名  |說明  |
 |---------|---------|
 |Msrtc-0-s1039525249。     | 包含媒體堆疊的相關資訊。 這包括通道狀態（例如解析度、使用的解碼器和編碼器），以及傳送和接收的畫面數，以及攝影機與影片螢幕共用 (VBSS) 會話狀態。         |
 |rtmcontrol msrtc-0-2415069487. 博客      |記錄與遠端控制動作相關的資訊，例如控制權的時間戳記，以及滑鼠指標資訊。          |
@@ -143,4 +143,3 @@ Linux
 ## <a name="related-topics"></a>相關主題
 
 [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-

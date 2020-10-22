@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 瞭解 Microsoft 團隊聊天室的生命週期支援，包括動態支援結構及其階段。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336981"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650916"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 團隊聊天室 app 版本支援
  
@@ -38,7 +38,7 @@ Microsoft 團隊聊天室 app 每年都會更新幾次。 每個支援 12 (12) �
 
 ## <a name="windows-10-release-support"></a>Windows 10 版本支援
 
-Microsoft 團隊聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企業版 Sku （在半年通道服務選項底下）。 不支援其他這些 Windows 10 版本：
+Microsoft 團隊聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 Enterprise Sku，且位於 [Semi-Annual 通道服務選項] 底下。 不支援其他這些 Windows 10 版本：
 
 - Windows 10 企業長期服務分支 (LTSB) /長期服務通道 (LTSC) 版本
 - Windows 10 (IoT) Enterprise LTSB/LTSC 版本的網際網路
@@ -53,7 +53,8 @@ Microsoft 團隊聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企業�
 
 |版本  |可用性日期   |Microsoft 團隊聊天室支援狀態   |Microsoft 團隊會議室的最小應用程式版本 | 建議的作業系統組建  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 2004 |2020-05-27 |在 [驗證] 底下， <br/>不建議使用|&#x2014; |19041.264 |
+| 20H2 |2020-10-20 |在 [驗證] 底下， <br/>尚不支援|&#x2014; |19042.572 |
+| 2004 |2020-05-27 |略過 <br/> 不建議使用|&#x2014; |19041.264 |
 | 1909 |2019-11-12 |受 <br/>採用 |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |受  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |不支援， <br/>已知相容性問題 &#x2780;|&#x2014; |&#x2014; |

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊系統管理中心中管理 Power Platform app 的存取權。
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599548"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650956"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft [團隊管理中心] 中管理 Power Platform 應用程式
 
@@ -32,7 +32,7 @@ ms.locfileid: "48599548"
 
 [Power app](https://powerapps.microsoft.com) 是低代碼/無代碼應用程式開發環境，貴組織中的開發人員可以使用它來建立連線至您的商務資料的自訂應用程式。 [Power Virtual agent](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) 是一種無需開發人員用來建立功能強大的機器人的無程式碼 bot 組建環境。 透過將 Power Platform app 整合成小組，組織可以簡化業務流程、回應不斷變化的業務需求，以促進更大的共同作業，並建立及共用自訂解決方案以提高生產力。  
 
-貴組織中由系統製造商所建立的 Power Platform app 會自動新增至團隊。 使用 power Apps 中的 [共用功能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) 和 [power Virtual agent 中的共用功能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)，員工可以控制誰可以存取其應用程式。 
+貴組織中由系統製造商所建立的 Power Platform app 會自動新增至團隊。 使用 power Apps 中的 [共用功能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) 和 [power Virtual agent 中的共用功能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)，員工可以控制誰可以存取其應用程式。
 
 當 Power Platform 應用程式建立或共用時，使用者可以在 [應用程式] 頁面上，透過您的同事建立**的*組織名稱*** 來查看並安裝  >  ** **。  (可能需要幾分鐘的時間，才會在應用程式建立或共用之後，才會顯示應用程式。 ) 
 
@@ -77,11 +77,13 @@ ms.locfileid: "48599548"
 
 例如，若要封鎖特定使用者存取在 Power 應用程式中建立的應用程式，請建立自訂應用程式許可權原則來封鎖 **共用的 Power 應用程式**，然後將原則指派給這些使用者。
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="已封鎖共用電源 app 之範例自訂應用程式許可權原則的螢幕擷取畫面":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="已封鎖共用電源 app 之範例自訂應用程式許可權原則的螢幕擷取畫面":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>使用審核記錄來調查 Power Platform 的安裝活動
 
-您可以使用小組的審核記錄來調查使用者從 [小組] 中的 [應用程式] 頁面上的 [ **由您的同事建立** 的 Power Platform app] 區段中，的事件。 若要這樣做，請在**AppInstalled**作業) 的 [**已安裝的應用程式**小組] (事件中，搜尋特定使用者或一組使用者的 [[審核記錄](https://docs.microsoft.com/microsoftteams/audit-log-events)]。 若要尋找從 [**由您的同事建立**的應用程式] 區段中安裝的 app，請在指定記錄的詳細資料中，尋找**AppDistributionMode**屬性底下的**TemplatedInstance**值。 
+您可以使用小組的審核記錄來調查使用者從 [小組] 中的 [應用程式] 頁面上的 [ **由您的同事建立** 的 Power Platform app] 區段中，的事件。 若要這樣做，請在) **AppInstalled**作業的 [[審核記錄](https://docs.microsoft.com/microsoftteams/audit-log-events)] 下，搜尋使用者或使用者組的 [**已安裝的應用程式**小組] 事件 (。 若要尋找**由您的同事建立**的應用程式，請在指定記錄的詳細資料中尋找**AppDistributionMode**屬性中的**TemplatedInstance**值。 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 屬性中 TemplatedInstance 值的螢幕擷取畫面":::
 
 > [!NOTE]
 > 您可以將審核記錄匯出為 CSV 格式，以便更輕鬆地進行篩選。

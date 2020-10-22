@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424713"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655510"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>在系統管理中心使用團隊政府範本
 
@@ -44,7 +44,7 @@ ms.locfileid: "48424713"
 
 針對危機管理或事件回應小組集中溝通與重要資源。 在這個小組中，您可以加入許多不同類型的檔案，協助您為所有檔建立一個集中位置。 使用線上會議來改善資訊流與形勢感知。
 
-| 基底範本類型 | | 此基礎範本隨附的屬性 |
-| ------------------|-- |----------------------------------------------------- |
+| 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
+|-------------------|-------|---------------------------------------------------------------------------|
 |協調事件回應|`com.microsoft.teams.template.CoordinateIncidentResponse` |管道 <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>修復</li><li>非常</li></ul> 應用 <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||
