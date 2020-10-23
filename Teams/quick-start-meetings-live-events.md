@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235841"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739391"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
@@ -34,7 +34,6 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文
  - Teams 的**會議**包括音訊、視訊，且畫面可共用人數最多可達 300 人。 這些是在 Teams 中共同作業的重要方法之一。 而且，您不必一定要具備組織的成員資格 (或甚至不需要 Teams 帳戶！) 才能加入 Teams 會議，只要查看邀請中有關撥入會議的指示即可。
 
  - **即時活動**是 Teams 會議的延伸，可讓您排程並產生活動，向大量線上觀眾串流播放，最多可讓 10,000 人參與。 如果您的會議參與人數會超過 300 人，請使用即時活動。
-<br><br>**附註：** 針對政府用 Teams (GCC、GCC、DoD)，其限制仍為 250。 當政府用雲端限制從 250 增加至 300，我們就會更新本文章。 如需有關 Teams 會議限制的最新資訊，請參閱[限制和規格](limits-specifications-teams.md)。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>取得會議和即時活動的授權
 

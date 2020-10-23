@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583442"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739241"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -97,6 +97,10 @@ Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允�
 - 學校需要限制教職員與學生之間的交談。 
 
 將此設定設為 **[開啟]** 以開啟範圍目錄搜尋。
+
+### <a name="skype-for-business"></a>商務用 Skype
+
+使用此頁面來管理組織中商務用 Skype 使用者的商務用 Skype 功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](skype-for-business-settings.md)。
 
 ### <a name="teams-upgrade"></a>Teams 升級
 
