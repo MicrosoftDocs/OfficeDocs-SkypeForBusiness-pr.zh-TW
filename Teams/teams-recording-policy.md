@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650966"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739331"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 會議的小組原則錄製簡介
 
@@ -50,7 +50,7 @@ ms.locfileid: "48650966"
 
 每個類別都必須對啟動錄製的方式有不同的需求、錄製的內容、儲存錄製的位置、通知者、控制存取的人員，以及如何處理保留作業。
 
-|                        | 便利性        | 多功能         | 組織-一般      | 組織管制 | 法律截獲   |
+| 類型                   | 便利性        | 多功能         | 組織-一般      | 組織管制 | 法律截獲   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | 發送              | 使用者               | App/解決方案       | 管理員 (系統)      | 管理員 (系統)   | LEA                |
 | 目標                 | 每次通話/會議 | 每次通話/會議 | 每次通話/會議 | 每位使用者        | 每個端點/已執行 |

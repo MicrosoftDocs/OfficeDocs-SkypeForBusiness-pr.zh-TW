@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599558"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739221"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -66,6 +66,9 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>設定商務用 OneDrive 和 SharePoint 的會議錄製選項
+
+> [!Note]
+> [會議錄製] 選項是 [小組原則] 層級的設定。 下列範例顯示如何設定全域原則。 請務必針對您指派給使用者的原則或原則，設定 [會議錄製] 選項。 團隊會議原則變更需要一段時間才能傳播。 在幾個小時後再次查看，然後登出並再次登入。
 
 1. 安裝商務用 Skype Online PowerShell。 
 **注意**：商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。 如果您使用的是最新的團隊 PowerShell 公開發行，就不需要安裝商務用 Skype Online 連接器。 請參閱 [使用 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。

@@ -15,12 +15,12 @@ description: 透過找出重要的專案關係人、商業結果、成功的措�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581784"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739091"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立 Microsoft 團隊的變更管理策略
 =======================================================
@@ -35,12 +35,12 @@ ms.locfileid: "46581784"
 
 3.  進行試驗，其中包含商務使用者、擁護人及 IT 專業人員。  
 
-4.  設計、啟動及管理您的採納活動。 下載我們的[客戶成功套件](https://aka.ms/TeamsSuccessKit)做為起點。 良好的採納活動包括：
+4.  設計、啟動及管理您的採納活動。 下載我們的 [客戶成功套件](https://aka.ms/TeamsSuccessKit) 做為起點。 良好的採納活動包括：
 
     a.  內部認識素材，例如海報、數位告示和事件
 
     b.  在單一位置的自助與訓練資訊
-    
+
     c-clip.  已定義的意見反應機制
 
     希望.  預先定義的成功措施 (方案採納、主要資料的視圖、課程) 出席
@@ -58,11 +58,11 @@ ms.locfileid: "46581784"
 
 成功採用的第一項規則就是建立一個由主要干係人組成的動態小組，以及能在其他人推動及影響變更的適當人員。 成功採用的戰略是從一小組的人員開始，代表您組織的一個區段。 主要專案關係人角色包括主管主管、服務擁有者、IT 專業人員和擁護者。
 
-|  |  |
+|圖示  |說明  |
 |---------|---------|
-|![主管贊助商圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**管理層主管**是組織內的主要領導人，且其參與在推動員工採納中是必不可少的。 他們對公司文化有最大的影響，而且可以積極地傳達新技術與益處的價值與好處。         |
-|![[服務擁有者] 圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服務擁有**者負責確保使用者使用該服務，並取得它的價值。 設定貴組織內的服務擁有者，對於確保已實現 Microsoft 365 或 Office 365 的商業目標，是非常重要的。         |
-|![擁護圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |若要從組織中的每位使用者購買，都是一個挑戰。 **擁護**程式可協助減輕這項挑戰，並在採用 Microsoft 365 或 Office 365 時扮演重要角色。 他們非常熟悉，致力於促進其專業知識，且願意提供對等指導及協助。 它們可協助將 Microsoft 365 或 Office 365 翻譯成其部門或團隊的現實。         |
+|![主管贊助商圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**管理層主管** 是組織內的主要領導人，且其參與在推動員工採納中是必不可少的。 他們對公司文化有最大的影響，而且可以積極地傳達新技術與益處的價值與好處。         |
+|![[服務擁有者] 圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服務擁有** 者負責確保使用者使用該服務，並取得它的價值。 設定貴組織內的服務擁有者，對於確保已實現 Microsoft 365 或 Office 365 的商業目標，是非常重要的。         |
+|![擁護圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |若要從組織中的每位使用者購買，都是一個挑戰。 **擁護** 程式可協助減輕這項挑戰，並在採用 Microsoft 365 或 Office 365 時扮演重要角色。 他們非常熟悉，致力於促進其專業知識，且願意提供對等指導及協助。 它們可協助將 Microsoft 365 或 Office 365 翻譯成其部門或團隊的現實。         |
 
 我們建議定期召開這些專案關係人的會議，讓他們保持對程式進度的最新狀態。 啟動「共同作業委員會」可讓意見反應和討論成為有用的工具（視您的公司文化環境而定）。
 
@@ -86,7 +86,7 @@ ms.locfileid: "46581784"
 
 ![可供擁護程式執行的動作圖表。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
-若要瞭解如何建立擁護者程式，請取得「[建立擁護者計畫](https://go.microsoft.com/fwlink/?linkid=854665)。
+若要瞭解如何建立擁護者程式，請取得「 [建立擁護者計畫](https://go.microsoft.com/fwlink/?linkid=854665)。
 
 <a name="identify-and-select-your-business-scenarios"></a>找出並選取您的商務案例
 ---------------------------------------------------------------
@@ -126,7 +126,7 @@ ms.locfileid: "46581784"
 
 -   使用試驗使用者來舉行開始會議，讓他們對他們的參與感到滿意。 建立具有熱忱的群組感覺無法 underrated。
 
-完成初始試驗階段之後，就可以展開上述步驟，以吸引整個組織。 根據您的大小而定，這可能需要一些時間，並會依地區、使用者設定檔或組織的階段來接近。 在這個較大的規模中，您的組織中 communicators 的專業人才非常有用。 我們建議將這些人放在早期，而且在您利用[可用的採納資料](https://go.microsoft.com/fwlink/?linkid=854598)或設計自己的情況下，通常都會涉及這些人員。
+完成初始試驗階段之後，就可以展開上述步驟，以吸引整個組織。 根據您的大小而定，這可能需要一些時間，並會依地區、使用者設定檔或組織的階段來接近。 在這個較大的規模中，您的組織中 communicators 的專業人才非常有用。 我們建議將這些人放在早期，而且在您利用 [可用的採納資料](https://go.microsoft.com/fwlink/?linkid=854598) 或設計自己的情況下，通常都會涉及這些人員。
 
 如果您的公司有適用于新聞、資訊或支援的中央內部網路入口網站，您可以使用此程式作為中樞，以取得此推出的資訊。提供廣泛提供的自助資訊、訓練及書面指南，讓使用者能夠快速地在產品上進行板載的連線。 許多使用者只要能使用，就會立即跳到，我們會鼓勵您這麼做。 我們也知道每個人都以不同的方式來學習，因此，集中式資訊入口網站將能支援貴組織內的所有學習樣式。
 
@@ -156,6 +156,6 @@ ms.locfileid: "46581784"
 
 組織中的變更會成為進行中的活動，不是事件。 您的開始會議只是讓人員能夠更有效率地共同作業。 在這個旅程中規劃時刻，我們必須重點說明您的成功、引入新功能，並與您的 IT 部門將製作的整個 Microsoft 365 或 Office 365 服務戰略進行連接。 確保您的使用者都在進行中，而不是淹沒會減少其變更 fatigue，並支援讓他們掌握一些新的習慣（例如，電子郵件附件）來接納其他東西（例如在雲端儲存檔）。
 
-在 Microsoft 技術社區網站上的 [[促進採用] 群組](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)中，分享您的小組與 Microsoft 365 或 Office 365 的服務採納問題。 我們隨時都想要聽到您的聲音，並協助您瞭解您的採納歷程。  
+在 Microsoft 技術社區網站上的 [ [促進採用] 群組](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) 中，分享您的小組與 Microsoft 365 或 Office 365 的服務採納問題。 我們隨時都想要聽到您的聲音，並協助您瞭解您的採納歷程。  
 
 
