@@ -235,9 +235,10 @@
 ### [什麼是通訊點數？](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [設定商務用 Skype Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [允許使用者連絡外部商務用 Skype 使用者](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+### [在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/microsoftteams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [設定商務用 Skype Online 的顯示狀態](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [設定目前狀態隱私權模式](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
+### [允許使用者連絡外部商務用 Skype 使用者](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [設定個別使用者的商務用 Skype 設定](../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
 ### [自訂會議邀請](../set-up-skype-for-business-online/customize-meeting-invitations.md)
 ### [部署商務用 Skype 用戶端](../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
