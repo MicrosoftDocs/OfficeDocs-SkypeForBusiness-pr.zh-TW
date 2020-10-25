@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊系統管理中心管理商務用 Skype 功能的設定。
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739231"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753558"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 團隊系統管理中心中的商務用 Skype 設定
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739231"
 
 做為管理員，Microsoft [團隊管理中心] 是您在其中管理組織中商務用 Skype 使用者的商務用 Skype 功能。 您可以在 [**商務用 skype** ] 頁面上管理[貴組織](#manage-skype-for-business-settings-for-your-organization)的設定，以及在 [使用者詳細資料] 頁面的 [**商務用 skype** ] 索引標籤上的[個別使用者](#manage-skype-for-business-settings-for-individual-users)設定。
 
-如果貴組織的共存模式未設定為 [**僅限團隊**]，您將只能在 Microsoft 團隊系統管理中心中看到 [**商務用 Skype** ] 頁面。 同樣地，如果使用者的共存模式不是**團隊**，您就只會看到使用者的 [**商務用 Skype** ] 索引標籤。 若要深入瞭解共存模式，請參閱 [瞭解團隊及商務用 Skype 共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ，以及 [設定您的共存與升級設定](setting-your-coexistence-and-upgrade-settings.md)。
+如果貴組織的共存模式未設定為 [**僅限團隊**]，您就只會看到 [**商務用 Skype** ] 頁面。 同樣地，如果使用者的共存模式不是**團隊**，您就只會看到使用者的 [**商務用 Skype** ] 索引標籤。 若要深入瞭解共存模式，請參閱 [瞭解團隊及商務用 Skype 共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ，以及 [設定您的共存與升級設定](setting-your-coexistence-and-upgrade-settings.md)。
 
 > [!NOTE]
 > 商務用 Skype 設定先前位於 Microsoft 團隊系統管理中心的 **舊版入口網站** 中。 在停用舊版入口網站之後，我們會將設定遷移至 [團隊管理中心] 中的 [商務用 Skype 管理] 的新位置。
+
+您必須獲指派全域系統管理員或商務用 Skype 系統管理員的 [AZURE AD 管理員角色](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ，才能在 Microsoft 團隊系統管理中心管理商務用 skype 功能。
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>管理貴組織的商務用 Skype 設定
 

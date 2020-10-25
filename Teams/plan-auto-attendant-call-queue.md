@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解自動語音應答和通話佇列，以及如何使用它們，協助呼叫者在功能表系統中移動，以吸引您組織中的人員或部門。
-ms.openlocfilehash: 3e1a7fe6b5f059236e0fafd64dbf87b7cebbeecf
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
+ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209978"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48748895"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>規劃小組自動語音應答及呼叫佇列
 
@@ -136,13 +136,13 @@ ms.locfileid: "48209978"
 > [!NOTE]
 > 單一自動語音應答只支援單一 "撥號方式" 方法。  若要允許呼叫者以名稱和依號碼撥號，您必須建立一個自動語音應答，讓它有撥打電話給撥號選項，另一種是透過分機撥打電話。  每個選項都會路由到針對這些「撥號者」案例設定的個別自動 attenants。 
 
-當來電是由自動語音應答重新導向時，您可以從下列通話路由目的地選擇：
+當來電由自動回應或通話佇列重新導向時，您可以從下列通話路由目的地選擇：
 
 - **組織中的人員** -您組織中能夠接聽語音通話的人員。 這可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。
 - **語音 app** -另一個自動語音應答或通話佇列。 選擇與目的地相關聯的資源帳戶。
 - **外部電話號碼** -任何電話號碼。  (查看 [外部轉接技術詳細資料](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)) 。
 - **語音信箱** -與您指定的 Microsoft 365 群組相關聯的語音信箱。
-- **Operator** -為自動語音應答定義的運算子。 定義運算子是選擇性的。 運算子可以是此清單中的任何其他目的地。
+- **運營商** (僅限自動助理) -為自動語音應答定義的操作員。 定義運算子是選擇性的。 運算子可以是此清單中的任何其他目的地。
 
 自動語音應答會提供單獨的呼叫路由選項，用於在上班時間以外的電話和假日上接收的通話。 [下班後] 呼叫路由可允許上述所有選項，而 [假日通話路由] 只允許重新導向通話或中斷通話，但沒有撥號鍵選項。
 
