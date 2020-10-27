@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: 瞭解如何使用 FHIR Api 將電子醫療保健記錄整合至 Microsoft 團隊患者 app。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa8978596a8d386e2ec615a4eb84bab49edb3249
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ad490820ac764e70f5dbdf17c2cfe5dffaea7ac8
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367683"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766946"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>將電子醫療保健記錄整合至 Microsoft Teams
 
@@ -32,13 +32,14 @@ ms.locfileid: "48367683"
 >
 >患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 當患者 app 停用時，所有與它相關聯的資料都會保留在這個群組中，但不能再透過使用者介面存取。 目前的使用者可以使用 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
 >
->[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 透過清單，護理小組可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+>[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 有了清單，健康小組就可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 本文適用于使用 FHIR Api 的一般醫療保健 IT 開發人員來連線至 Microsoft 團隊。 這會啟用符合醫療保健組織需求的護理協調案例。
 
 連結的文章：針對 Microsoft 團隊患者應用程式的 FHIR 介面規格，以及下列各節說明在您的開發環境或租使用者中設定 FHIR 伺服器及連線患者 app 所需的內容。 您也需要熟悉已選取的 FHIR 伺服器檔，這必須是支援的其中一個選項：
+
 - 透過其 [CMI](https://datica.com/compliant-managed-integration/) 提供的 Datica () 
 - Infor Cloverleaf (透過 [INFOR FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)) 
 - 透過 [R ^ FHIR 伺服器](https://www.redoxengine.com/fhir/) Redox () 
@@ -68,38 +69,76 @@ ms.locfileid: "48367683"
 
 ### <a name="authentication"></a>驗證  
 
-*不支援使用者層級授權*的 App 層級授權，就是執行資料轉換並公開連線來透過 FHIR 來 EHR 資料的最常見方式，即使 EHR 系統可能會執行使用者層級授權也一樣。 互通性服務 (的合作夥伴) 能提升對 EHR 資料的存取權，而且當它們公開與適當的 FHIR 資源相同的資料時，不會將授權內容傳遞到互通性服務消費者 (患者 app) 與互通性服務或平臺整合。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
+*不支援使用者層級授權* 的 App 層級授權，就是執行資料轉換並公開連線來透過 FHIR 來 EHR 資料的最常見方式，即使 EHR 系統可能會執行使用者層級授權也一樣。 互通性服務 (的合作夥伴) 能提升對 EHR 資料的存取權，而且當它們公開與適當的 FHIR 資源相同的資料時，不會將授權內容傳遞到互通性服務消費者 (患者 app) 與互通性服務或平臺整合。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
 
 應用程式至應用程式驗證模型的描述如下：
 
 應透過 OAuth 2.0 [用戶端認證流程](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)來執行服務驗證。 合作夥伴服務必須提供下列專案：
 
 1. 合作夥伴服務可讓患者 app 建立合作夥伴的帳戶，這可讓患者 app 產生並擁有 client_id 和 client_secret，透過合作夥伴驗證服務器上的驗證登錄入口網站來管理。
+
 2. 合作夥伴服務擁有驗證/授權系統，它會接受並驗證 (驗證) 提供的用戶端認證，並在範圍中傳回含租使用者認證的存取權杖，如下所述。
+
 3. 出於安全考慮或在秘密破壞的情況下，患者應用程式可以重新產生機密，並無效或刪除舊的機密 (在 Azure 入口網站-AAD App 註冊) 中提供相同的範例。
+
 4. 必須解除驗證託管一致性語句的中繼資料端點，才能無需驗證權杖。
-5. 合作夥伴服務提供患者 app 的權杖端點，以使用用戶端認證流程來要求存取權杖。 每個授權伺服器的權杖 url，都應該是從 FHIR 伺服器上的中繼資料中取得的 FHIR 一致性 (功能) 語句，如下例所示：
 
-* * *
-    {"resourceType"： "CapabilityStatement"，。
+5. 合作夥伴服務提供患者 app 的權杖端點，以使用用戶端認證流程來要求存取權杖。 每個授權伺服器的權杖 URL，都應該是從 FHIR 伺服器上的中繼資料中取得的 FHIR 一致性 (功能) 語句，如下例所示：
+
+    ```
+    {
+        "resourceType": "CapabilityStatement",
         .
         .
-        "rest"： [{] mode "：" server "，" security "： {" extension "： [{" extension "： [{" url "：] 權杖"，"valueUri"： " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token " "}，{" url "：" 授權 "，" valueUri "：" https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize ""} "，" url "：" "" ""，" http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris 服務"： [{"：" https://hl7.org/fhir/ValueSet/restful-security-service "" "Code"： "OAuth"} "" ""}，）。
+        .
+        "rest": [
+            {
+                "mode": "server",
+                "security": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "token",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"
+                                },
+                                {
+                                    "url": "authorize",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"
+                                }
+                            ],
+                            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
+                        }
+                    ],
+                    "service": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "https://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "code": "OAuth"
+                                }
+                            ]
+                        }
+                    ]
+                },
                 .
                 .
-            } ] }
-
-* * *
+                .
+            }
+        ]
+    }
+    ```
 
 存取權杖的要求包含下列參數：
 
-* * *
+```http
+POST /token HTTP/1.1
+Host: authorization-server.com
 
-    POST/token HTTP/1.1 主機： authorization-server.com
-
-    grant 類型 = client_credentials &client_id = xxxxxxxxxx &client_secret = xxxxxxxxxx
-
-* * *
+grant-type=client_credentials
+&client_id=xxxxxxxxxx
+&client_secret=xxxxxxxxxx
+```
 
 合作夥伴服務提供患者 app 的 client_id 和 client_secret，透過合作夥伴端的驗證註冊入口網站加以管理。 合作夥伴服務提供端點以使用用戶端認證流程來要求存取權杖。 成功的回應必須包含 token_type、access_token 及 expires_in 參數。
 
@@ -115,21 +154,27 @@ ms.locfileid: "48367683"
 
 1. 傳送應用程式存取權杖的要求：
  
-        {   grant_type: client_credentials,
-            client_id: xxxxxx, 
-            client_secret: xxxxxx,
-            scope: {Provider Identifier, Ex: tenant ID}
-        }
+    ```
+    {   grant_type: client_credentials,
+        client_id: xxxxxx, 
+        client_secret: xxxxxx,
+        scope: {Provider Identifier, Ex: tenant ID}
+    }
+    ```
 
 2. 使用應用程式權杖回復：
 
-        {  access_token: {JWT, with scope: tenant ID},
-           expires_in: 156678,
-           token_type: "Bearer",
-        }
+    ```
+    {  access_token: {JWT, with scope: tenant ID},
+       expires_in: 156678,
+       token_type: "Bearer",
+    }
+    ```
 
 3. 使用存取權杖要求受保護的資料。
-4. 授權訊息：選取要從作用中的租使用者識別碼路由至適當的 FHIR 伺服器
+
+4. 授權訊息：選取適當的 FHIR 伺服器以從範圍中的租使用者識別碼路由到該伺服器。
+
 5. 在驗證應用程式權杖之後，從授權的 FHIR 伺服器傳送受保護的資料。
 
 ## <a name="interfaces"></a>交互

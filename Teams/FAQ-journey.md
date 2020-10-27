@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320898"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766586"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -57,7 +57,7 @@ Microsoft 也提供即時互動的研討會，分享專為開始升級規劃和�
 
 
 **如果有關於升級程序的問題，我要與誰連絡？**<br>
-如果有升級的相關問題，請與您目前的連絡人聯繫，包括指派給您的 Microsoft 帳戶小組、合作夥伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，您可以從 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com/)按一下 [需要協助]**** 按鈕來開啟協助票證。
+如果有升級的相關問題，請與您目前的連絡人聯繫，包括指派給您的 Microsoft 帳戶小組、合作夥伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，您可以從  按鈕來開啟協助票證。
 
 ![[需要協助] 按鈕](media/need-help-button.png)
 
@@ -114,7 +114,7 @@ Teams 可在所有 Microsoft 365 教育版套件授權 (Microsoft A1、A3 和 A5
 
 
 
-## <a name="calling-capabiities"></a>通話功能
+## <a name="calling-capabilities"></a>通話功能
 
 **Microsoft 線上語音功能的規劃為何？**<br>
 我們的語音解決方案核心是電話系統，這是目前可用的解決方案。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Microsoft 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對您組織的需求，將兩者混合及搭配在一起，以具備完整的語音解決方案。

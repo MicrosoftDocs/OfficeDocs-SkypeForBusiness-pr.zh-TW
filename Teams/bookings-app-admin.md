@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊中的預訂 app 與虛擬走訪
+title: 使用 Microsoft 團隊和預定 app 進行虛擬走訪
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: 使用預訂 App 進行 Microsoft 團隊和虛擬走訪
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427678"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766956"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Microsoft 團隊中的預訂 app 與虛擬走訪
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft 團隊和預定 app 進行虛擬走訪
 
 Microsoft 團隊中的 [預定] 應用程式提供一種簡單的方式來排程人員與虛擬約會，例如醫療保健走訪、財務諮詢、訪談、客戶支援、教育 office 時間等。
 
@@ -51,13 +51,13 @@ Microsoft 團隊中的 [預定] 應用程式提供一種簡單的方式來排程
 
 ## <a name="recommended-meeting-policy-settings"></a>建議的會議原則設定
 
-若要為預訂提供最佳的使用體驗，請建立員工會議原則來自動承認 **貴組織中的每個人**。 這可讓員工自動加入約會，並啟用外部出席者的會議廳體驗。 您可以深入瞭解如何 [將人員自動 admitting 到會議](meeting-policies-in-teams.md#automatically-admit-people)。
+若要為預訂提供最佳的使用體驗，請建立員工會議原則來自動承認 **貴組織中的每個人** 。 這可讓員工自動加入約會，並啟用外部出席者的會議廳體驗。 您可以深入瞭解如何 [將人員自動 admitting 到會議](meeting-policies-in-teams.md#automatically-admit-people)。
 
 ### <a name="optional-staff-approvals-setting"></a>選用員工核准設定
 
 如果您是額外的隱私權設定，您可以選擇 [要求員工在排程的可用性資訊透過預訂共用之後，且可在預訂約會前進行選擇。  
 
-若要啟用此設定，請移至 **Microsoft 365 系統管理中心** \> **設定** \> **設定**，然後選取 [ **預定**]。
+若要啟用此設定，請移至 **Microsoft 365 系統管理中心** \> **設定** \> **設定** ，然後選取 [ **預定** ]。
 
 開啟此設定時，員工將會收到一封電子郵件，要求他們在其中向預定行事曆核准成員資格。  
 
@@ -88,7 +88,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 功能缺口或遺失的功能
   - 錯誤或問題
   
-若要傳送意見反應，請**按一下位於小組**左側導覽列附近的 [說明] 按鈕，然後按一下 [針對**所有**問題**報告問題**]。 請注意，您要傳送意見反應給您的意見反應報告開始，您會收到「預定」的意見反應，讓我們可以輕鬆找出預訂問題。
+若要傳送意見反應，請 **按一下位於小組** 左側導覽列附近的 [說明] 按鈕，然後按一下 [針對 **所有** 問題 **報告問題** ]。 請注意，您要傳送意見反應給您的意見反應報告開始，您會收到「預定」的意見反應，讓我們可以輕鬆找出預訂問題。
 
 ## <a name="related-topics"></a>相關主題
 

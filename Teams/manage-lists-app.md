@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469559"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766732"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的清單應用程式
 
@@ -44,7 +44,7 @@ Microsoft 團隊中的 [清單] 應用程式可協助組織中的使用者追蹤
 
 - 使用 [問題追蹤器] 範本追蹤問題並讓他們關閉。
 - 使用 [事件路線] 範本來整理您的所有活動詳細資料。
-- 使用患者範本來記錄患者的需求和狀態，以協助您的醫療保健組織中的小組來監視及協調護理。
+- 使用患者範本，在您的醫療保健組織中記錄患者在健康小組中的需求和狀態，以監控及協調護理。
 - 使用貸款範本追蹤貸款申請的狀態。
 
 ## <a name="example-scenario"></a>範例案例
@@ -88,11 +88,11 @@ Huddle 之後，郵件載體會拾取其郵件，並開始傳送傳送路線。 
 
 預設會針對貴組織中的所有團隊使用者啟用清單。 您可以在 Microsoft 團隊系統管理中心的 [ [管理應用程式](manage-apps.md) ] 頁面上關閉或開啟組織階層的 app。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **團隊 app**  >  **管理應用程式** ]。
 2. 執行下列其中一項動作：
 
-    - 若要關閉貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **封鎖**]。
-    - 若要開啟貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **允許**]。
+    - 若要關閉貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **封鎖** ]。
+    - 若要開啟貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **允許** ]。
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>啟用或停用貴組織中特定使用者的清單
 
@@ -112,7 +112,7 @@ Huddle 之後，郵件載體會拾取其郵件，並開始傳送傳送路線。 
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供意見反應或報告問題
   
-若要向我們傳送意見反應或報告問題， **請按一下 [** 團隊] 左側導覽底部附近的 [說明]，然後選取 [ **報告問題**]。 選取 [ **清單**]，然後輸入您的意見反應或您所遇到之問題的詳細資料。
+若要向我們傳送意見反應或報告問題， **請按一下 [** 團隊] 左側導覽底部附近的 [說明]，然後選取 [ **報告問題** ]。 選取 [ **清單** ]，然後輸入您的意見反應或您所遇到之問題的詳細資料。
 
 ## <a name="related-topics"></a>相關主題
 

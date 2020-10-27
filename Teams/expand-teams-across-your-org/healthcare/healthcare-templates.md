@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 使用 Microsoft 團隊範本，透過提供預先定義的設定、頻道和應用程式範本，快速且輕鬆地建立小組。
+description: 將 Microsoft 團隊範本與 Microsoft Graph 搭配使用，透過提供預先定義的設定、頻道和應用程式範本，快速且輕鬆地建立小組。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 63376c68d8267aaa49b4bdf4033d5ebfaa0a446f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294432"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766696"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>使用 Microsoft Graph 快速開始使用醫療保健組織的團隊範本
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊範本
 
 Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預先安裝應用程式範本，快速且輕鬆地建立小組。
 
@@ -35,7 +35,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 ## <a name="ward-template"></a>Ward 範本
 
-Ward 範本適用于 ward、pod 或部門中的通訊與共同作業。 範本可用於協助患者管理，以及 ward 的運作需求。 例如，您可以在 *宣告* 頻道中張貼 ward 宣告，並在 *人員*集中管理班次。 如果您想要簡化您的 ward 作業，這個範本適合您。
+Ward 範本適用于 ward、pod 或部門中的通訊與共同作業。 範本可用於協助患者管理，以及 ward 的運作需求。 例如，您可以在 *宣告* 頻道中張貼 ward 宣告，並在 *人員* 集中管理班次。 如果您想要簡化您的 ward 作業，這個範本適合您。
 
 |基底範本類型 |baseTemplateId |比較基準範本頻道|
 |:--- |:---|:---|
@@ -46,7 +46,7 @@ Ward 範本適用于 ward、pod 或部門中的通訊與共同作業。 範本�
 
 ## <a name="hospital-template"></a>醫院範本
 
-醫院範本適用于醫院中的多個 wards、箱與部門之間進行通訊與共同作業。 此範本中包含幾個作業通道，包括 *宣告*、 *Custodial*和 *藥房*，但我們也提供下列腳本來延伸範本，其中包含各種其他部門或專業中心頻道，您可以在您的喜好中新增、刪除或編輯。 例如，如果您有 *Endocrinology* 部門，但不需要 *Ophthalmology*的頻道，則可以調整腳本以納入 *Endocrinology* 通道並移除 *Ophthalmology* 通道。 我們建議您不要將這些專業或 ward 模型的通道自動將，以免出現通知的飽和情況。 使用者通常會最愛他們找到的任何頻道。
+醫院範本適用于醫院中的多個 wards、箱與部門之間進行通訊與共同作業。 此範本中包含幾個作業通道，包括 *宣告* 、 *Custodial* 和 *藥房* ，但我們也提供下列腳本來延伸範本，其中包含各種其他部門或專業中心頻道，您可以在您的喜好中新增、刪除或編輯。 例如，如果您有 *Endocrinology* 部門，但不需要 *Ophthalmology* 的頻道，則可以調整腳本以納入 *Endocrinology* 通道並移除 *Ophthalmology* 通道。 我們建議您不要將這些專業或 ward 模型的通道自動將，以免出現通知的飽和情況。 使用者通常會最愛他們找到的任何頻道。
 
 |基底範本類型 |baseTemplateId |比較基準範本頻道|
 |:--- |:---|:---|

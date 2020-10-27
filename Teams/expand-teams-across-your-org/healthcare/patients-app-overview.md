@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 1b6db686be1acbc7ee23be555c9794c644e5c5cc
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: b15336f939cefefeaebb77c2ca92b73373bc249e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367583"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766926"
 ---
 # <a name="patients-app-overview"></a>病患應用程式概觀
 
@@ -31,18 +31,18 @@ ms.locfileid: "48367583"
 >
 >患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 當患者 app 停用時，所有與它相關聯的資料都會保留在這個群組中，但不能再透過使用者介面存取。 目前的使用者可以使用 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
 >
->[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 透過清單，護理小組可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+>[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 有了清單，健康小組就可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
 
-患者應用程式是適用于所有團隊使用者的 Microsoft 團隊商店應用程式。 App 啟用由臨床工人所組成的患者護理小組 (例如，護士、醫生、社交員工) 可以彙整及查看病人的患者清單，包括從倒圓角和 interdisciplinary 團隊會議到一般患者監視。
+患者應用程式是適用于所有團隊使用者的 Microsoft 團隊商店應用程式。 應用程式可讓患者健康小組參與 (例如，護士、醫生、社交員工) 可以彙整和審閱患者的清單，包括從倒角和 interdisciplinary 團隊會議到一般患者監控等案例。
 
 App 有兩種模式：
 
 - 透過 FHIR 連接至 EMRs 的 EMR 連線模式。 EMR 連線模式 app 會保留在私人預覽中，感興趣的客戶或系統管理員可能會透過在 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 中除去 microsoft 電子郵件，並提供其 Microsoft 365 組織的相關資訊，以要求存取 app。
-- [手動] 模式可讓護理小組手動新增/攜帶患者資訊。 您可以在 [小組 app] 商店中找到應用程式，讓使用者在私人預覽中下載。 在團隊中，您可以使用 [app 設定原則](../../teams-app-setup-policies.md) ，將 app 限制在特定的使用者區段。 若要取得 app 的存取權，您的租使用者必須是技術採納計畫的一部分 (輕觸) 。 請在 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 中放下我們的電子郵件，以啟動處理常式來要求存取權。
+- 可讓健康團隊手動新增/加入患者資訊的手動模式。 您可以在 [小組 app] 商店中找到應用程式，讓使用者在私人預覽中下載。 在團隊中，您可以使用 [app 設定原則](../../teams-app-setup-policies.md) ，將 app 限制在特定的使用者區段。 若要取得 app 的存取權，您的租使用者必須是技術採納計畫的一部分 (輕觸) 。 請在 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 中放下我們的電子郵件，以啟動處理常式來要求存取權。
 
 ## <a name="usage-example"></a>用法範例
 
-在醫學 wards 的每個倒班期間，臨床醫師在 nursing 站上收集，以在 ward 中與患者進行最新的更新。  它們會醒目提示重要的度量標準， (不需要醫療，或是在患者的病歷) 上明確，並確保患者在適當的 glide 路徑上，以根據其診斷而放電。 為了圍繞這些患者，[費用護士] 會在新增所有臨床醫師的小組中設定患者應用程式，並將患者新增至患者清單。 在舍入期間，在行動裝置上的患者 access Microsoft 團隊和患者應用程式的護士與其他護理 givers，並在其裝置上更新相關的患者資訊，並在護理小組中的其他人都能看到這些更新與記事，並保持同步處理。每天兩次，在班次的開始和結束時，他們也會有多項專業團隊會議，透過患者清單進行，並使用患者 app 來建立每個患者的相關資訊，並使用大型顯示畫面上的患者 app 分享有關每個患者的資訊。 通常情況下，某些臨床醫師可能也會在遠端撥入這些團隊會議，而且仍是討論的一部分。
+在醫學 wards 的每個倒班期間，臨床醫師在 nursing 站上收集，以在 ward 中與患者進行最新的更新。  它們會醒目提示重要的度量標準， (不需要醫療，或是在患者的病歷) 上明確，並確保患者在適當的 glide 路徑上，以根據其診斷而放電。 為了圍繞這些患者，[費用護士] 會在新增所有臨床醫師的小組中設定患者應用程式，並將患者新增至患者清單。 在舍入期間，在行動裝置上的患者 access Microsoft 團隊和患者應用程式的護士與其他護理 givers，並更新其裝置上的相關患者資訊，並在健康小組中的其他人都能看到這些更新與記事，並保持同步處理。每天兩次，在班次的開始和結束時，他們也會有多項專業團隊會議，透過患者清單進行，並使用患者 app 來建立每個患者的相關資訊，並使用大型顯示畫面上的患者 app 分享有關每個患者的資訊。 通常情況下，某些臨床醫師可能也會在遠端撥入這些團隊會議，而且仍是討論的一部分。
 
 ## <a name="configure-patients-app"></a>設定患者 app
 

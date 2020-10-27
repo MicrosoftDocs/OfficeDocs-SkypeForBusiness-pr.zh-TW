@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f7818102426f38279caac5c4532a22e53f1673e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514940"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766766"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 上的小組會話2020
 
@@ -96,7 +96,7 @@ ms.locfileid: "48514940"
 | 標題 | 概要            | 層級| 者 |
 |---|----------|---|---|---|
 |[部署與管理團隊教育版](https://aka.ms/PR103) |瞭解對於您的教育機構而言，全面管轄所需瞭解的一切。 在此會話中，我們將涵蓋聊天原則、會議原則、應用程式原則、透過群組進行的作業、設定學生安全的方式，以及自動化小組課程建立的方法。 |300|Jethro Seghers|
-|[在醫療保健中與 Microsoft 團隊進行虛擬健康與共同作業](https://aka.ms/PR116)|瞭解醫療保健組織如何協助讓小組充分發揮 Microsoft 團隊的最大可能的謹慎。 此講座將重點放在虛擬健康情況和護理小組共同作業，並 dives 深入探索，就像是在醫療保健、虛擬走訪、客戶案例等中的團隊最新宣告。 您也可以瞭解如何使用 Microsoft 團隊作為解決許多目前醫療保健案例的平臺。|200|Evan Westenberger，Tom McGuinness，Kristina Behr，楊 Canning|
+|[在醫療保健中與 Microsoft 團隊進行虛擬健康與共同作業](https://aka.ms/PR116)|瞭解醫療保健組織如何協助讓健康小組充分發揮 Microsoft 團隊的最大可能。 此講座將重點放在虛擬健康情況和健康小組共同作業，並 dives 深入探索，就像是在醫療保健、虛擬走訪、客戶案例等小組中的最新公告。 您也可以瞭解如何使用 Microsoft 團隊作為解決許多目前醫療保健案例的平臺。|200|Evan Westenberger，Tom McGuinness，Kristina Behr，楊 Canning|
 |[為您的行業量身定制 Microsoft 團隊](https://aka.ms/PR117)|在這個講座中，我們將分享有關如何使用範本透過我們的行業圖庫來引導您的共同作業體驗的詳細資料，自訂這些範本給貴組織的需求，並將它們部署到我們組織的各個部分，並透過原則套件進行管理。|200|內部部署 Kuchi，李清 Glick|
 |[在政府中使用 Microsoft 團隊共同作業及溝通](https://aka.ms/PR118) |目前狀態、當地和聯邦機構都利用 Microsoft 團隊來提高其共同作業能力，並改善其回應時間及公民參與。  瞭解如何最大限度地利用現有的功能、接下來的專案，以及我們在政府中的 Microsoft 團隊未來設想。 |200|Rima Reyes, Karuana Gatimu, Roxy Ndebumadu, Sarah Gilbert|
 |[整合 Microsoft 團隊以進行教育應用程式平臺](https://aka.ms/PR120)|團隊是一個可供教學機構整合 app 與建立自訂工作流程的開放平臺。  在這個講座中，我們將說明團隊 app store 如何在整個教室教學中使用，以與 IT 協助台辦公桌整合。 瞭解協力廠商應用程式管理、開啟來源應用程式範本，以及應用程式製作室為您的機構建立快速自訂網站 app 的實際操作範例。|300|Dominic Williamson|

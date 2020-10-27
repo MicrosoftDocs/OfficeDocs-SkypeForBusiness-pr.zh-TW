@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: 瞭解團隊中的 DSTU2 介面規格，包括設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者 app 使用。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ab502f66785af7947185fb0fbee0d3a55dd70c67
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: d29dab88f6ee53eb4c758f6c95f71278e20ecdbe
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367603"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766976"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 介面規格
 
@@ -32,7 +32,7 @@ ms.locfileid: "48367603"
 >
 >患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 當患者 app 停用時，所有與它相關聯的資料都會保留在這個群組中，但不能再透過使用者介面存取。 目前的使用者可以使用 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
 >
->[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 透過清單，護理小組可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+>[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 有了清單，健康小組就可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -58,12 +58,14 @@ ms.locfileid: "48367603"
 
  FHIR 伺服器必須實現一致性聲明，我們才能擁有其功能的實際摘要。 我們期待 DSTU2 FHIR 伺服器中的下列參數：
 
-1. 地方
-   1. 下
-   2. 互動
-   3. 資源：類型
-   4. 安全性： [OAuth uri 的副檔名](https://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion (我們的程式碼需要這麼做，才能瞭解我們支援多個版本時應該要資料透視的版本。 ) 
+ - 地方
+
+    - 下
+    - 互動
+    - 資源：類型
+    - 安全性： [OAuth uri 的副檔名](https://hl7.org/fhir/extension-oauth-uris.html)
+   
+ - FhirVersion (我們的程式碼需要這麼做，才能瞭解我們支援多個版本時應該要資料透視的版本。 ) 
 
 [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)如需此欄位集的其他詳細資料，請參閱。
 
@@ -71,38 +73,66 @@ ms.locfileid: "48367603"
 
 以下是 [Argonaut 患者設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) 欄位的子集所需的最小欄位：
 
-1. Name. 家人
-2. Name。指定
-3. 性別
-4. 生日
-5. MRN (識別碼) 
+ - Name. 家人
+ - Name。指定
+ - 性別
+ - 生日
+ - MRN (識別碼) 
 
 除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：
 
-1. 名稱。使用
-2. 名稱。前置詞
-3. CareProvider (患者資源上的這個參照應包含下列範例所示的顯示欄位。 ) 
+ - 名稱。使用
+ - 名稱。前置詞
+ - CareProvider (患者資源上的這個參照應包含下列範例所示的顯示欄位。 ) 
 
-* * *
-
-    要求：取得 <fhir-server>/Patient/<患者 id>
+    ```
+    Request:
+    GET <fhir-server>/Patient/<patient-id>
     
-    回應： {"resourceType"： "患者"，"id"： "<患者 id>"，）。
+    Response:
+    {
+      "resourceType": "Patient",
+      "id": "<patient-id>",
       .
       .
-      "name"： [{"use"： "官方"，"prefix"： ["Mr"]，"" 稱謂 "： [" Chau "]，" family "： [" Hugh "]}]，" 識別碼 "： [{" 使用 "：" 官方 "，" 類型 "： {" code "： [{" （" https://hl7.org/fhir/v2/0203 Mr"} ""，"的值"： "1234567"}]，"性別"： "男"，"生日"： "1957-06-05"，"careProvider"： [{"顯示"： "Jane Doe"}]，}
-
-* * *
+      .
+      "name": [
+        {
+          "use": "official",
+          "prefix": [ "Mr" ],
+          "family": [ "Chau" ],
+          "given": [ "Hugh" ]
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "type": {
+            "coding": [
+              {
+                "system": "https://hl7.org/fhir/v2/0203",
+                "code": "MR"
+              }
+            ]
+          },
+          "value": "1234567"
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1957-06-05",
+      "careProvider": [{ "display": "Jane Doe" }],
+    }
+    ```
 
 資源搜尋使用/Patient/_search 的 POST 方法，以及下列參數：
 
-1. 標識號
-2. [家人]：包含 = (搜尋其系列名稱中包含值的所有患者。 ) 
-3. 給定 =\<substring>
-4. 名稱 =\<substring>
-5. 生日 = (完全符合) 
-6. \_count (應傳回的結果數目上限)  <br> 回應應包含搜尋結果傳回的記錄總數，而 \_ PatientsApp 會使用 count 來限制傳回的記錄數。
-7. 識別碼 =\<mrn>
+ - 標識號
+ - [家人]：包含 = (搜尋其系列名稱中包含值的所有患者。 ) 
+ - 給定 =\<substring>
+ - 名稱 =\<substring>
+ - 生日 = (完全符合) 
+ - \_count (應傳回的結果數目上限)  <br> 回應應包含搜尋結果傳回的記錄總數，而 \_ PatientsApp 會使用 count 來限制傳回的記錄數。
+ - 識別碼 =\<mrn>
 
 您的目標就是能夠搜尋及篩選患者，如下所示：
 
@@ -113,16 +143,41 @@ ms.locfileid: "48367603"
 
 請參閱下列通話範例。
 
-* * *
+```
+Request:
+POST <fhir-server>/Patient/_search
+Request Body:
+given=hugh&family=chau
 
-    要求：文章 <fhir-伺服器>/Patient/_search 要求主體：給定 = hugh&家族 = chau
-    
-    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，。
-      .
-      .
-      "專案"： [{"資源"： {"resourceType"： "患者"，"id"： "<患者-識別碼>"，"name"： [{"text"： "Hugh Chau"，"Chau"： [""]，"性別"： [Hugh "]}]，" 性別 "：" 1957-06-05 "}，" search "：" "}，"
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  .
+  .
+  .
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "<patient-id>",
+        "name": [
+          {
+            "text": "Hugh Chau",
+            "family": [ "Chau" ],
+            "given": [ "Hugh" ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1957-06-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)如需此欄位集的其他詳細資料，請參閱。
 
@@ -130,34 +185,66 @@ ms.locfileid: "48367603"
 
 這些是最小必要欄位，這些欄位是 Argonaut 重要符號設定檔的子集：
 
- 1. 生效 (日期時間或期間) 
- 2. 程式碼代碼。程式碼
- 3. ValueQuantity 值
+ - 生效 (日期時間或期間) 
+ - 程式碼代碼。程式碼
+ - ValueQuantity 值
 
 除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：
 
- 1. 程式碼。顯示
- 2. ValueQuantity 單位
+ - 程式碼。顯示
+ - ValueQuantity 單位
 
 如果使用元件觀測值，則會針對每個元件觀察來套用相同的邏輯。
 
 資源搜尋使用 [取得] 方法及下列參數：
 
-1. 患者 =\<patient id\>
-2. 排序： desc =\<field ex. date\>
+ - 患者 =\<patient id\>
+ - 排序： desc =\<field ex. date\>
 
 您的目標是要取得患者的最新重要標誌： [VitalSigns DSTU saz] ([觀察]？ ) 。
 
-* * *
+```
+Request:
+GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
 
-    要求：取得 <fhir-伺服器>/Observation？患者 =<患者 id>&_sort:d esc = 日期&類別 = 重要標誌
-    
-    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"輸入"： "searchset"，"總計"：20，"專案"： [{"資源"： {"resourceType"： "觀測"，"id"： "<資源 id>"，"" 類別 "： {" 編碼 "： [{code"： "重要-符號"}]，}，"code"： {"編碼"： [{"系統"： " http://loinc.org " "，" code "：" 39156-5 "，" 顯示 "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" 值 "：34.4，" 單位 "：" kg/m2 "，" 系統 "：" http://unitsofmeasure.org ""，"code"： "千克/m2"}}，}，。
-        .
-        .
-      ] }
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 20,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "<resource-id>",
+        "category": {
+          "coding": [ { code": "vital-signs" } ],
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "bmi"
+            }
+          ],
+        },
+        "effectiveDateTime": "2009-12-01",
+        "valueQuantity": {
+          "value": 34.4,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)如需此欄位集的其他詳細資料，請參閱。
 
@@ -169,23 +256,55 @@ ms.locfileid: "48367603"
 
 除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
 
-1. 錄製日期
-2. 程度
+ - 錄製日期
+ - 程度
 
 資源搜尋使用 [取得] 方法及下列參數：
 
-1. 患者 =\<patient id>
-2. _count =\<max results>
+ - 患者 =\<patient id>
+ - _count =\<max results>
 
 請參閱下列通話範例：
 
-* * *
+```
+Request:
+GET <fhir-server>/Condition?patient=<patient-id>&_count=10
 
-    要求：取得 <fhir-server>/Condition？患者 =<患者 id>&_count = 10
-    
-    回應： {"resourceType"： "套裝"，"id> <"： "searchset"，"總計"： []，"輸入"： ""，"total"：1，"條目"： [{"資源"： {[resourceType "：" Condition "，" id "：" <資源 id> "，" code "： {" "： [{" 系統 "：" http://snomed.info/sct "，" code "：" 386033004 "，" 顯示 "：" Neuropathy (nerve 損壞) "}]}，" dateRecorded "：" 2018-09-17 "，" 嚴重性 "： {" 編碼 "： [{" 系統 "：" http://snomed.info/sct "，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}"
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "<resource-id>",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386033004",
+              "display": "Neuropathy (nerve damage)"
+            }
+          ]
+        },
+        "dateRecorded": "2018-09-17",
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        }
+      },
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)如需此欄位集的其他詳細資料，請參閱。
 
@@ -193,28 +312,55 @@ ms.locfileid: "48367603"
 
 這些是最小必要欄位，這是「美國核心」的子集 [必須具有] 欄位的一部分：
 
-1. 狀態值
-2. 輸入 [0]。編碼 [0]。顯示幕
+ - 狀態值
+ - 輸入 [0]。編碼 [0]。顯示幕
 
 此外，美國核心的下欄欄位會遇到設定檔的「必須支援」欄位
 
-1. [期間]。開始
-2. 位置 [0]。位置。顯示
+ - [期間]。開始
+ - 位置 [0]。位置。顯示
 
 資源搜尋使用 [取得] 方法及下列參數：
 
-1. 患者 =\<patient id>
-2. _sort： desc =\<field ex. date>
-3. _count =\<max results>
+ - 患者 =\<patient id>
+ - _sort： desc =\<field ex. date>
+ - _count =\<max results>
 
 目標就是能夠檢索患者的最近已知位置。 每個遇到的都是參照位置資源。 參照也必須包含位置的顯示欄位。 請參閱下列通話範例。
-* * *
 
-    要求：取得 <fhir-伺服器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1
-    
-    回應： {"resourceType"： "捆綁式"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源" .. {"resourceType"： "遇到"，"id"： "<資源識別碼>"，"識別碼"： [{"使用"： "官方"，"value"： " <id> " "狀態"： "已到達"，"類型"： [{"編碼"： [{"顯示"： "約會"}]，}]，"患者"： {"參考"： "患者/<患者 id>"}，"period"： {「開始」： "09/17/2018 1:00:00 PM"}，"location"： [{"位置"： {"顯示"： "診所-ENT"}，} "}}]}
+```
+Request:
+GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
 
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "<resource-id>",
+        "identifier": [{ "use": "official", "value": "<id>" }],
+        "status": "arrived",
+        "type": [
+          {
+            "coding": [{ "display": "Appointment" }],
+          }
+        ],
+        "patient": { "reference": "Patient/<patient-id>" },
+        "period": { "start": "09/17/2018 1:00:00 PM" },
+        "location": [
+          {
+            "location": { "display": "Clinic - ENT" },
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)如需此欄位集的其他詳細資料，請參閱。
 
@@ -222,31 +368,61 @@ ms.locfileid: "48367603"
 
 以下是 [Argonaut AllergyIntolerance] 設定檔的子集所需的最小欄位數：
 
-1. 程式碼。文字
-2. 程式碼。編碼 [0]。顯示幕
-3. 狀態值
+ - 程式碼。文字
+ - 程式碼。編碼 [0]。顯示幕
+ - 狀態值
 
 除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：
 
-1. RecordedDate
-2. 記事。文字
-3. 反應 [...]。物質。文字
-4. 反應 [...]。表現形式 [...]。字體
-5. Text. Div
+ - RecordedDate
+ - 記事。文字
+ - 反應 [...]。物質。文字
+ - 反應 [...]。表現形式 [...]。字體
+ - Text. Div
 
 資源搜尋使用 [取得] 方法及下列參數：
 
-1. 患者 =  \<patient id>
+ - 患者 =  \<patient id>
 
 請參閱下列通話範例：
 
-* * *
+```
+Request:
+GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
 
-    要求：取得 <fhir-server>/AllergyIntolerance？患者 =<患者 id>
-    
-    回應： {"resourceType"： "套裝"，"id> <"： "searchset"，"total"：1，"AllergyIntolerance"，""：1，"專案"： [{]：1，"entry"： ""，"id"： "<資源 id>"，"recordedDate"： "2018-09-17T07：00： 00.000 Z"，"物質"： {"文字"： "Cashew 螺母"}，"status"： "已確認"，"反應"： [{"物質"： {"文字"： "Cashew 螺母 allergenic 摘錄 Injectable 產品"}，"表現形式"： [{"文字"： "Anaphylactic 反應"
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "<resource-id>",
+        "recordedDate": "2018-09-17T07:00:00.000Z",
+        "substance": {
+          "text": "Cashew nuts"
+        },
+        "status": "confirmed",
+        "reaction": [
+          {
+            "substance": {
+              "text": "cashew nut allergenic extract Injectable Product"
+            },
+            "manifestation": [
+              {
+                "text": "Anaphylactic reaction"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)如需此欄位集的其他詳細資料，請參閱。
 
@@ -254,31 +430,56 @@ ms.locfileid: "48367603"
 
 以下是 [Argonaut MedicationOrder] 設定檔的子集所需的最小欄位數：
 
-1. DateWritten
-2. Prescriber。顯示
-3. [藥物]。如果參照) ，則顯示 (
-4. 藥物 (if 概念的文字) 
+ - DateWritten
+ - Prescriber。顯示
+ - [藥物]。如果參照) ，則顯示 (
+ - 藥物 (if 概念的文字) 
 
 除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
 
-1. DateEnded
-2. DosageInstruction 文字
-3. Text. Div
+ - DateEnded
+ - DosageInstruction 文字
+ - Text. Div
 
 資源搜尋使用 [取得] 方法及下列參數：
 
-1. 患者 =\<patient id>
-2. _count =\<max results>
+ - 患者 =\<patient id>
+ - _count =\<max results>
 
 請參閱下列通話範例：
 
-* * *
+```
+Request:
+GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
 
-    要求：取得 <fhir-server>/MedicationOrder？患者 =<患者 id>&_count = 10
-    
-    回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "MedicationOrder"，"識別碼"： "<資源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept"： {"文字"： "Lisinopril 20 MG，[]：" prescriber "： {" 顯示 "：" Jane Doe "}，" dosageInstruction "： [{" 文字 "：" 1 天 "}"}}]}
-
-* * *  
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "id": "<resource-id>",
+        "dateWritten": "2018-09-17",
+        "medicationCodeableConcept": {
+          "text": "Lisinopril 20 MG Oral Tablet"
+        },
+        "prescriber": {
+          "display": "Jane Doe"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1 daily"
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)如需此欄位集的其他詳細資料，請參閱。
 
@@ -286,22 +487,36 @@ ms.locfileid: "48367603"
 
 以下是最小必要欄位，不是由美國核心或 Argonaut 設定檔所涵蓋：
 
-1. Payor
+ - Payor
 
 資源搜尋使用 [取得] 方法及下列參數：
 
-1. 患者 =\<patient id>
+ - 患者 =\<patient id>
 
 請參閱下列通話範例：
 
-* * *
+```
+Request:
+GET <fhir-server>/Coverage?patient=<patient-id>
 
-    要求：取得 <fhir-server>/Coverage？患者 =<患者 id>
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "<resource-id>",
+        "plan": "No Primary Insurance",
+        "subscriber": { "reference": "Patient/<patient-id>" }
+      }
+    }
+  ]
+}
+```
     
-    回應： {"resourceType"： "套裝"，"輸入"： "searchset"，"總計"：1，"條目"： [{"資源"： {"resourceType"： "覆蓋範圍"，"id"： "<資源識別碼>"，"資料記錄"： "沒有主要保險業"，"訂閱者"： {"參考資料"： "患者/<患者 id>"}}}]}
-
-* * *
-
 [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)如需此欄位集的其他詳細資料，請參閱。
 
 ## <a name="location"></a>位置

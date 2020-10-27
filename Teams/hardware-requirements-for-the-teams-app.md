@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
-ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
+ms.openlocfilehash: 5aeeee4bf16a05b24056a6602f008b5ecaee12bb
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48476648"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766756"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -44,7 +44,7 @@ ms.locfileid: "48476648"
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    |
 |視訊通話和會議|<ul><li>需要2核處理器。 若要獲得較高的影片/畫面共用解析度和畫面播放速率，建議使用4核處理器或更佳的速度。</li> <li>背景影片效果需要 Windows 10 或含 AVX2 指令集的處理器。</li> <li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議需要藍牙 LE （需要在用戶端裝置上啟用藍牙），而且 Windows 用戶端也需要64位的團隊用戶端。 此功能不適用於32位團隊用戶端。</li></ul> |
-|Teams 即時活動 | 如果您正在產生團隊即時活動，我們建議您使用的電腦具有 Core i5 Kaby Lake processor、4.0 GB RAM (或更高版本的) ，以及硬體編碼器。 如需**不支援**的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
+|Teams 即時活動 | 如果您正在產生團隊即時活動，我們建議您使用的電腦具有 Core i5 Kaby Lake processor、4.0 GB RAM (或更高版本的) ，以及硬體編碼器。 如需 **不支援** 的解碼器與編碼器清單，請參閱 [硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac 電腦上 Teams 的硬體需求
 
@@ -74,7 +74,9 @@ ms.locfileid: "48476648"
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    |
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
 |視訊通話和會議 | <ul><li>需要2核處理器。 若要獲得較高的影片/畫面共用解析度和畫面播放速率，建議使用4核處理器或更佳的速度。</li><li>Linux 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
-|支援的 Linux 發行版 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
+|支援的 Linux 發行版 | Ubuntu 18.04 LTS、20.04 LTS、Fedora 30 Workstation、RHEL 8 工作站、CentOS 8       |
+|支援的桌面環境 | GNOME、KDE       |
+|支援的顯示伺服器 | X11       |
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>行動裝置上 Teams 的硬體需求
 
