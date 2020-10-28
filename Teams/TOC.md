@@ -678,28 +678,24 @@
 ### [開始使用 Teams 範本](get-started-with-teams-templates.md)
 ### [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [在 Teams 中管理貴組織的 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## 適用於醫療保健的 Teams
 ### [開始使用適用於醫療保健組織的 Teams](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Bookings App 和虛擬造訪](bookings-app-admin.md)
-### [適用於醫療保健的 Teams 原則套件](policy-packages-healthcare.md)
-### 保護訊息原則的安全
-#### [適用於醫療保健組織的 Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### 虛擬就診
+#### [使用 Teams 虛擬 - 融入 EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [使用 Bookings 和 Teams 進行虛擬就診](bookings-app-admin.md)
+### [建立 Teams 原則套件](policy-packages-healthcare.md)
+### 保護訊息的安全
+#### [保護訊息的安全](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [訊息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### 適用於醫療保健組織的 Teams 範本
-#### [在系統管理中心中使用 Teams 醫療保健範本](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [開始使用適用於醫療保健組織的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### Teams 範本
+#### [使用 Teams 醫療保健範本](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [適用於醫療保健的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [管理 [清單] 應用程式](manage-lists-app.md)
+### [管理 [工作] 應用程式](manage-tasks-app.md)
 ### Teams 中的 Shifts
 #### [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [管理 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### 病患應用程式
-#### [病患應用程式概觀](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### 將電子醫療保健記錄整合至 [病患] 應用程式
-##### [使用 FHIR API 將電子醫療保健記錄整合至 [病患] 應用程式](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [病患應用程式的 DSTU2 介面規格](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [病患應用程式的 STU3 介面規格](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [將病患應用程式連線至 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [病患應用程式的稽核記錄](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
