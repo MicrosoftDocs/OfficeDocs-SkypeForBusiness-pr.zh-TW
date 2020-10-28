@@ -14,22 +14,19 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 0bec3373781a6facd69bda19876397261f68dc71
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+description: 瞭解如何針對團隊管理員審核患者應用程式
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 042d3308e70f2b6275360dfd0137bdc9ed94b7c8
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766876"
+ms.locfileid: "48772274"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
-> [!IMPORTANT]
-> **2020年10月30日生效，患者應用程式將會被否決，且使用者將無法從 [小組 app store] 進行安裝。我們鼓勵您立即開始使用團隊中的 [ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
->
->患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 當患者 app 停用時，所有與它相關聯的資料都會保留在這個群組中，但不能再透過使用者介面存取。 目前的使用者可以使用 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
->
->[ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 有了清單，健康小組就可以使用內建的患者範本、從頭開始，或是將資料匯入 Excel 來建立患者清單。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+> [!NOTE]
+> 2020年10月30日生效，患者 app 已停用，且已由小組中的 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。 查看清單中的患者範本以開始使用。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
 
 患者應用程式活動的審核記錄可讓您在事件回應小組審閱患者的電子醫療記錄 (EMR) 或患者保健資訊 (PHI) 並判斷是否需要在生產率工具中進行 PHI 存取的原則或程式的變更或改進。 審核記錄事件涵蓋透過患者 app 使用者介面執行的動作。
 

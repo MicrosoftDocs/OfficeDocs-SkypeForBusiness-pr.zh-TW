@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft 團隊設定您的虛擬走訪系統
-ms.openlocfilehash: dcf852486d6a7fbace23bea5fb8610c62bdc7e4f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 3d5d68e7c4ba3cc203df33604a7210e67b402938
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766716"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778886"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>與團隊整合的虛擬走訪融入 EHR
 
@@ -35,6 +35,10 @@ Microsoft 團隊電子健康情況記錄 (EHR) 連接器可讓臨床醫師輕鬆
 - 在 connect 和中斷線上活動上寫回到 EHR 中繼資料，以啟用自動審核並保留記錄。
 
 - 整合現有的 clinician 和患者工作流程，同時允許他們使用 Microsoft 團隊。
+
+  觀看影片，瞭解如何從 EHR 入口網站管理虛擬走訪。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## <a name="before-you-begin"></a>開始之前
 

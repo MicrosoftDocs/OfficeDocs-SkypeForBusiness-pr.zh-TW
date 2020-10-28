@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533550"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772214"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>升級至 &mdash; IT 系統管理員小組的 PSTN 考慮
 
@@ -45,7 +45,7 @@ ms.locfileid: "48533550"
 
  > [!NOTE]
  > - 只有在使用者處於 TeamsOnly 模式時，才會支援將電話系統與團隊一起使用。  如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。 
- > - 商務用 Skype 的任何來電轉接和委派設定都不會被遷移，且需要為小組重新建立。
+ > - 商務用 Skype 中的任何來電轉接、團隊通話群組和委派設定都不會被遷移，且需要為小組重新建立。
 
 
 ## <a name="pstn-calling-scenarios"></a>PSTN 通話案例

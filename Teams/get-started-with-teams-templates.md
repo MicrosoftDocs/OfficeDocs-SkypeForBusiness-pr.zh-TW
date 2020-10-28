@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 484b3ac3fd3545ce306dcb6e3d833bb523df5a86
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361653"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772194"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 快速開始使用團隊範本
 
@@ -64,7 +64,7 @@ ms.locfileid: "48361653"
 
 一旦定義基底範本類型之後，您就可以使用您想要指定的其他屬性來延伸或覆寫這些特殊範本。 某些基底範本類型包含無法重寫的屬性。
 
-根據預設，基本範本會設定為 [ **標準**]，不會包含任何其他專屬 app 或特殊屬性。 以下是可用的基本範本類型的目前清單。
+根據預設，基本範本會設定為 [ **標準** ]，不會包含任何其他專屬 app 或特殊屬性。 以下是可用的基本範本類型的目前清單。
 
 | 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -77,6 +77,29 @@ ms.locfileid: "48361653"
 | 健康<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |管道 <ul><li>公告\*</li><li>Huddles\*</li><li>輪</li><li>人員\*</li><li>訓練\*</li></ul>\*自動將通道 |
 |健康<br>醫院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |管道<ul><li>公告\*</li><li>合規性\*</li><li>Custodial</li><li>人力資源</li></li><li>藥房</li></ul>\*自動將通道|
 |||
+
+
+使用下列範本，在團隊用戶端及 Microsoft Graph 中建立團隊。
+
+
+| 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
+| ------------------ | -------------- | ----------------------------------------------------- |
+| 採納 Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  管道 <ul><li>一般</li> <li>公告</li> <li>擁護方角落</li> <li>小組表單</li></ul> 應用 <ul><li>Wiki</li>  <li>行事曆</li> |
+| 管理專案 |`com.microsoft.teams.template.`<br>`ManageAProject`| 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+| 管理活動|`com.microsoft.teams.template.`<br>`ManageAnEvent` | 管道 <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與 PR</li></ul> 應用<ul><li>Wiki</li><li>Web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|板載員工|`com.microsoft.teams.template.`<br>`OnboardEmployees` | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li></ul>|
+|組織技術支援中心| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+| 在患者治療上共同作業| `healthcareWard `| 管道<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人員</li><li>訓練</li></ul> 應用 <ul><li>Wiki</li>|
+| 在全球危機或活動上共同作業 |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| 管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li></ul>|
+|在銀行分支機搆內共同作業| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|管道 <ul><li>一般<li>公告</li><li>Huddles</li><li>客戶會議</li><li>警告</li><li>技能開發</li><li>貸款處理</li><li>客戶投訴</li><li>Kudos</li><li>有趣的內容</li><li>合規性</li></ul>|
+|協調事件回應| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|管道 <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>修復</li><li>非常</li></ul> 應用 <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|醫院| `healthcareHospita`左 |管道 <ul><li>一般<li>公告</li><li>合規性</li><li>Custodial</li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|整理商店| `retailStore` |管道 <ul><li>一般<li>倒班切換</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|品質與安全性 |`com.microsoft.teams.`<br>`template.QualitySafety`|管道 <ul><li>一般<li>公告</li><li>行1</li><li>第2行</li><li>第3行</li><li>安全</li><li>訓練</li><li>保養</li><li>有趣的內容</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|零售經理共同作業| `retailManagerCollaboration` |管道 <ul><li>一般<li>營運</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
+||||
+
+如需詳細資訊，請參閱 [管理中心的團隊範本快速](get-started-with-teams-templates-in-the-admin-console.md) 入門。
 
 ## <a name="related-topics"></a>相關主題
 

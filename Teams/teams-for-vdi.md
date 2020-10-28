@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
-ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
+ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48286109"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778896"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -46,10 +46,10 @@ ms.locfileid: "48286109"
 
 在虛擬化環境中使用團隊需要下列元件。
 
-- **虛擬化 broker**：虛擬化提供者的資源和連線管理員（例如 Azure）
-- **虛擬桌面**：執行 Microsoft 團隊 (VM) 堆疊的虛擬機器
-- **瘦用戶端**：使用者使用物理介面的端點
-- **團隊桌面應用程式**：團隊桌面用戶端應用程式
+- **虛擬化 broker** ：虛擬化提供者的資源和連線管理員（例如 Azure）
+- **虛擬桌面** ：執行 Microsoft 團隊 (VM) 堆疊的虛擬機器
+- **瘦用戶端** ：使用者使用物理介面的端點
+- **團隊桌面應用程式** ：團隊桌面用戶端應用程式
 
 ## <a name="teams-on-vdi-requirements"></a>針對 VDI 需求的小組
 
@@ -186,10 +186,13 @@ VMware 範圍是一個現代平臺，可在混合式雲端上安全地傳送虛�
         下次互動式登入會話會啟動團隊並要求認證。
 
         > [!NOTE]
-        > 這些範例也會使用 **ALLUSERS = 1** 參數。 當您設定此參數時，系統會在 [控制台] 的 [程式和功能] 和 [應用程式 & Windows 設定] 中的 [應用程式] 中，顯示「團隊電腦範圍」的安裝程式。 如果有管理員認證，所有使用者都可以卸載小組。
-        請務必瞭解 **ALLUSERS = 1** 與 **ALLUSER = 1**之間的差異。 您可以在非 VDI 和 VDI 環境中使用 **ALLUSERS = 1** 參數，而 **ALLUSER = 1** 參數只會在 VDI 環境中用來指定每電腦安裝。
+        > 這些範例也會使用 **ALLUSERS = 1** 參數。 當您設定此參數時，[小組] Machine-Wide 安裝程式會出現在 [控制台] 的 [程式和功能] 中，以及電腦所有使用者的 [Windows 設定] & 功能。 如果有管理員認證，所有使用者都可以卸載小組。
+        請務必瞭解 **ALLUSERS = 1** 與 **ALLUSER = 1** 之間的差異。 您可以在非 VDI 和 VDI 環境中使用 **ALLUSERS = 1** 參數，而 **ALLUSER = 1** 參數只會在 VDI 環境中用來指定每電腦安裝。
 
-3. 從 VDI VM 卸載 MSI。
+3. 從 VDI VM 卸載 MSI。 有兩種方式可以卸載小組。
+
+    - PowerShell 腳本：您可以使用 [此 PowerShell 腳本](scripts/powershell-script-deployment-cleanup.md) 卸載小組，並移除使用者的 [小組] 資料夾。 針對在電腦上安裝團隊的每個使用者設定檔執行腳本。
+    - 命令列：執行下列命令。
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -257,27 +260,27 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 
 若要將 DisallowCalling 通話原則和 AllOff 會議原則指派給使用者：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者**]。
-2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者** ]。
+2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]  。
 3. 請執行下列動作：
-    1.  按一下 [ **呼叫原則**] 底下的 [ **DisallowCalling**]。
-    2.  按一下 [ **會議原則**] 底下的 [ **AllOff**]。
+    1.  按一下 [ **呼叫原則** ] 底下的 [ **DisallowCalling** ]。
+    2.  按一下 [ **會議原則** ] 底下的 [ **AllOff** ]。
 4. 按一下 **[** 套用]。
 
 若要一次將原則指派給多位使用者：
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]  ，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
+2. 在 [&#x2713;]  (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
+3. 按一下 [編輯設定]  ，進行所需的變更，然後按一下 [套用]  。
 
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
-    - 移至 [**語音**  >  **通話原則**]，然後按一下 [ **DisallowCalling**]。
-    - 移至 [**會議**  >  **會議原則**]，然後按一下 [ **AllOff**]。
-2. 選取 [管理使用者]****。
-3. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
-4. 完成新增使用者後，請按一下 [ **儲存**]。
+    - 移至 [ **語音**  >  **通話原則** ]，然後按一下 [ **DisallowCalling** ]。
+    - 移至 [ **會議**  >  **會議原則** ]，然後按一下 [ **AllOff** ]。
+2. 選取 [管理使用者]  。
+3. 在 [管理使用者]  窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]  。 針對要新增的每一個使用者重複此步驟。
+4. 完成新增使用者後，請按一下 [ **儲存** ]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
 
@@ -313,27 +316,27 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 若要將 AllowCalling 通話原則和 AllOn 會議原則指派給使用者：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者**]。
-2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者** ]。
+2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]  。
 3. 請執行下列動作：
-    1.  按一下 [ **呼叫原則**] 底下的 [ **AllowCalling**]。
-    2.  按一下 [ **會議原則**] 底下的 [ **AllOn**]。
+    1.  按一下 [ **呼叫原則** ] 底下的 [ **AllowCalling** ]。
+    2.  按一下 [ **會議原則** ] 底下的 [ **AllOn** ]。
 4. 按一下 **[** 套用]。
 
 若要一次將原則指派給多位使用者：
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [ **&#x2713;** (核取記號) 。
-3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]  ，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
+2. 在 [&#x2713;]  (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [ **&#x2713;** (核取記號) 。
+3. 按一下 [編輯設定]  ，進行所需的變更，然後按一下 [套用]  。
 
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
-    - 移至 [**語音**  >  **通話原則**]，然後按一下 [ **AllowCalling**]。
-    - 移至 [**會議**  >  **會議原則**]，然後按一下 [ **AllOn**]。
-2. 選取 [管理使用者]****。
-3. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
-4. 完成新增使用者後，請按一下 [ **儲存**]。
+    - 移至 [ **語音**  >  **通話原則** ]，然後按一下 [ **AllowCalling** ]。
+    - 移至 [ **會議**  >  **會議原則** ]，然後按一下 [ **AllOn** ]。
+2. 選取 [管理使用者]  。
+3. 在 [管理使用者]  窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]  。 針對要新增的每一個使用者重複此步驟。
+4. 完成新增使用者後，請按一下 [ **儲存** ]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
 
@@ -357,10 +360,10 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 當使用者從不受支援的端點連線時，使用者就會處於 [回退] 模式，但在這種情況下未優化 AV。 您可以設定下列其中一個登錄 DWORD 值來停用或啟用回退模式：
 
-- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
-- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-若要停用回退模式，請將此值設定為 **1**。 若要只啟用音訊，請將此值設定為 **2**。 如果該值不存在，或設定為 **0** (零) ，即表示已啟用回退模式。
+若要停用回退模式，請將此值設定為 **1** 。 若要只啟用音訊，請將此值設定為 **2** 。 如果該值不存在，或設定為 **0** (零) ，即表示已啟用回退模式。
 
 [團隊版本 1.3.00.13565] 和 [更新版本] 中提供此功能。
 
@@ -382,7 +385,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 小組 app 與裝置之間的 HID 按鈕和 LED 控制項
 - 背景模糊和效果
 - 廣播與即時事件製造者與簡報者角色
-- 以位置為基礎的路由 (LBR) 
+- Location-Based 路由 (LBR) 
 - 通話駐留
 - 通話佇列
 - 共用系統音訊/電腦音效
@@ -403,7 +406,6 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
     - 在螢幕共用或應用程式共用會話期間不支援。
     - 在 PowerPoint 共用會話期間支援。
 - 僅限 Citrix 限制
-    - 雙音調多重頻率 (DTMF) 目前不支援與電話系統進行互動。
     - 在多重監視器設定中進行螢幕共用時，只會共用主要監視器。
     - 不支援 CWA 上的高 DPI 縮放。
 
