@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 瞭解衛生保健的功能，包括護理協調、安全訊息、虛擬造訪、EHR 整合，以及第一線員工工作人員系統整合。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772294"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790635"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊
 
@@ -35,7 +39,14 @@ Microsoft 團隊針對醫院和其他醫療保健組織提供許多有用的功�
 - 團隊範本
 - 護理協調與共同作業
 
-本區段中的內容假設您已在組織中部署團隊。 如果您尚未推出小組，請先閱讀 [瞭解如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)。
+此功能是適用于醫療保健版 Microsoft 雲端的一部分。 進一步瞭解如何使用此方案，這會在 [Microsoft 雲端的醫療保健](https://docs.microsoft.com/industry/healthcare)版中從 Azure、Dynamics 365 和 microsoft 365 集中提供功能。
+
+請觀看下列影片，瞭解如何使用「醫療保健集合」來加強 Microsoft 團隊中的健康小組共同作業。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> 本區段中的內容假設您已在組織中部署團隊。 如果您尚未推出小組，請先閱讀 [瞭解如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虛擬走訪與電子醫療保健記錄 (EHR) 整合
 
@@ -65,13 +76,13 @@ Microsoft 團隊針對醫院和其他醫療保健組織提供許多有用的功�
 
 總之，這些功能可讓您更快速地注意到緊急訊息，並確信郵件已被接收和讀取。 您可以在每個患者上建立使用這些功能的新健康情況團隊。 這些功能都是以原則為基礎，而且可以指派給個人或整個團隊。
 
-如需進一步的詳細資料，請參閱 [開始使用醫療保健組織的安全訊息原則](messaging-policies-hc.md) 。
+若要深入瞭解，請參閱 [開始使用醫療保健組織的安全訊息原則](messaging-policies-hc.md)。
 
 此外，與安全訊息相關的功能，也是由醫療保健組織聯盟的其他租使用者，允許更豐富的租使用者通訊。  (請參閱 [在 Microsoft 團隊) 中的 [管理外部存取 (同盟) ](../../manage-external-access.md) ]。
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>醫療保健組織的團隊範本
 
-我們已開發新的範本來建立小組，以套用至醫院設定。 如此一來，您就能更輕鬆地建立可讓醫療保健工人在不同部門或 wards 中與患者共同合作的小組。 請參閱 [開始使用醫療保健組織的團隊範本](healthcare-templates.md)。 團隊可以針對內部部門（例如心臟病科）或 [護理 wards] 或 [開發中的其他範本] 進行啟動。
+我們已開發新的範本來建立小組，以套用至醫院設定。 如此一來，您就能更輕鬆地建立可讓醫療保健工人在不同部門或 wards 中與患者共同合作的小組。 若要深入瞭解，請參閱 [開始使用醫療保健組織的團隊範本](healthcare-templates.md)。 團隊可以針對內部部門（例如心臟病科）或 [護理 wards] 或 [開發中的其他範本] 進行啟動。
 
 ## <a name="care-coordination-and-collaboration"></a>護理協調與共同作業
 

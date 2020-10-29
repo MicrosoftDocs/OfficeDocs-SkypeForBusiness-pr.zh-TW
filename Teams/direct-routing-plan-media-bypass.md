@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何使用 [電話系統直接路由] 規劃媒體旁路，這可讓您縮短媒體流量的路徑，並改善效能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: efd6d4275d1e83df7821f178ddac8027039b6fce
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469579"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790655"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -42,11 +42,11 @@ ms.locfileid: "48469579"
 
 但假設使用者與 SBC 在相同的大樓或 network 中。 例如，假設在 Frankfurt 中建立的使用者撥打電話給 PSTN 使用者： 
 
-- 如果**沒有媒體旁路**，媒體會透過阿姆斯特丹或都柏林 (，在 Microsoft 資料中心部署) 並回到 SBC Frankfurt。 
+- 如果 **沒有媒體旁路** ，媒體會透過阿姆斯特丹或都柏林 (，在 Microsoft 資料中心部署) 並回到 SBC Frankfurt。 
 
   之所以選取 [歐洲資料中心]，是因為 SBC 是在歐洲，而 Microsoft 使用最接近 SBC 的資料中心。 雖然這種方法不會影響通話品質，因為在大部分地區內的 Microsoft 網路中的流量流程已優化，但通信量卻有不必要的迴圈。     
 
-- 在**媒體旁路**的情況下，媒體會直接保留在團隊使用者與 SBC 之間，如下圖所示：
+- 在 **媒體旁路** 的情況下，媒體會直接保留在團隊使用者與 SBC 之間，如下圖所示：
 
   > [!div class="mx-imgBorder"]
   > ![顯示使用媒體旁路的信號及媒體流程](media/direct-routing-media-bypass-2.png)
@@ -193,7 +193,7 @@ IP 範圍包括：
 - 在來自 SBC 的連線建立至遇到暫時問題的資料中心時，提供容錯移轉。 如需詳細資訊，請參閱下方的容錯移轉機制。
 
 
-Fqdn **sip.pstnhub.microsoft.com**、 **sip2.pstnhub.microsoft.com**和 **sip3.pstnhub.microsoft.com** 將解析成下列其中一個 IP 位址：
+Fqdn **sip.pstnhub.microsoft.com** 、 **sip2.pstnhub.microsoft.com** 和 **sip3.pstnhub.microsoft.com** 將解析成下列其中一個 IP 位址：
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.16.74
@@ -352,7 +352,7 @@ UDP/SRTP | 媒體處理器 | SBC | 3478、3479和 49 152 – 53 247    | 在 SBC
 非媒體旁路主幹的使用者 | 980 | sbc1.contoso.com:5060 | 滿足
 具有媒體旁路主幹的使用者 | 20 | sbc2.contoso.com:5061 | 虛假 | 
 
-兩個 trunks 都可以指向相同的同一個 SBC，且具有相同的公用 IP 位址。 SBC 上的 TLS 信號埠必須不同，如下圖所示。 注意：您必須確認您的憑證同時支援這兩個 trunks。 在 SAN 中，您必須使用兩個名稱 (**sbc1.contoso.com** 和 **sbc2.contoso.com**) 或擁有萬用字元憑證。
+兩個 trunks 都可以指向相同的同一個 SBC，且具有相同的公用 IP 位址。 SBC 上的 TLS 信號埠必須不同，如下圖所示。 注意：您必須確認您的憑證同時支援這兩個 trunks。 在 SAN 中，您必須使用兩個名稱 ( **sbc1.contoso.com** 和 **sbc2.contoso.com** ) 或擁有萬用字元憑證。
 
 > [!div class="mx-imgBorder"]
 > ![顯示兩個 trunks 可以指向同一個公用 IP 的同一個 SBC](media/direct-routing-media-bypass-7.png)
@@ -366,9 +366,9 @@ UDP/SRTP | 媒體處理器 | SBC | 3478、3479和 49 152 – 53 247    | 在 SBC
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>媒體略過支援的用戶端端點
 
-所有團隊桌面用戶端和團隊手機裝置都支援媒體旁路。 
+所有獨立團隊桌面用戶端、Android 和 iOS 用戶端與團隊手機裝置支援媒體旁路。 
 
-對於不支援媒體旁路的所有其他端點，我們會將呼叫轉換成非旁路，即使它是繞過的呼叫。 這會自動發生，不需要系統管理員執行任何動作。 這包括商務用 Skype 3PIP 手機，以及支援直接路由呼叫的小組 Web 用戶端， (以 Chromium、Google Chrome、Mozilla) Firefox 為基礎的新 Microsoft Edge。 
+對於不支援媒體旁路的所有其他端點，我們會將呼叫轉換為非旁路，即使它是繞過撥號通話。 這會自動發生，不需要系統管理員執行任何動作。 這包括商務用 Skype 3PIP 手機，以及支援直接路由 (呼叫的小組網頁用戶端，這些用戶端是在 Microsoft Edge、Google Chrome、Mozilla Firefox) 上執行的 WebRTC 用戶端。 
  
 ## <a name="see-also"></a>另請參閱
 

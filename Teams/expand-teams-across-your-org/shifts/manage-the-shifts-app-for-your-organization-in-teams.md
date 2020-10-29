@@ -8,6 +8,9 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: 瞭解如何針對貴組織中的第一線員工工作人員，在小組中設定和管理倒班 app。
 f1.keywords:
 - NOCSH
@@ -15,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: d89ca8938c80b2afb8c1b32a395ab4a984327dcc
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820467"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790505"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
@@ -56,11 +60,11 @@ Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保
 
 預設會針對貴組織中的所有團隊使用者啟用班次。 您可以在 Microsoft 團隊系統管理中心的 [ [管理應用程式](../../manage-apps.md) ] 頁面上關閉或開啟組織階層的 app。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **團隊 app**  >  **管理應用程式** ]。
 2. 在應用程式清單中，執行下列其中一項操作：
 
-    - 若要關閉貴組織的倒班，請搜尋 [倒班] app，選取它，然後按一下 [ **封鎖**]。
-    - 若要為您的組織開啟倒班，請搜尋 [倒班] app，選取它，然後按一下 [ **允許**]。
+    - 若要關閉貴組織的倒班，請搜尋 [倒班] app，選取它，然後按一下 [ **封鎖** ]。
+    - 若要為您的組織開啟倒班，請搜尋 [倒班] app，選取它，然後按一下 [ **允許** ]。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>針對貴組織中的特定使用者啟用或停用班次
 
@@ -72,7 +76,7 @@ App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者�
  
 團隊包含內建的 FirstlineWorker 應用程式設定原則，您可以將它指派給貴組織中的第一線員工工作人員。 根據預設，原則包含活動、班次、聊天及呼叫 app。 
 
-若要查看 FirstlineWorker 原則，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**小組 app**  >  **應用程式] 設定原則**。
+若要查看 FirstlineWorker 原則，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **小組 app**  >  **應用程式] 設定原則** 。
 
 ![FirstlineWorker 應用程式設定原則的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "Microsoft 團隊系統管理中心的 FirstlineWorker 應用程式設定原則的螢幕擷取畫面")
 

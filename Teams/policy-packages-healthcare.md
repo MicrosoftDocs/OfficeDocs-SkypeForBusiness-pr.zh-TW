@@ -10,25 +10,31 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: 瞭解如何使用及管理您的保健組織的小組原則套件。
-ms.openlocfilehash: e55102e07f7ffc77dc67c5d6697cb754c398cc40
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 6c14cc82a7e2e16780eb50c04064955aad4e4eb7
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427168"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790645"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>醫療保健的團隊原則套件
 
 ## <a name="overview"></a>概觀
 
 Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義的原則與原則設定的集合，您可以指派給在組織中擁有相似角色的使用者。 原則套件可簡化原則管理，並有助於達到一致性。 您可以自訂套件中原則的設定，以符合您的使用者需求。 當您變更原則套件中的原則設定時，指派給該套件的所有使用者都會取得更新的設定。 您可以使用 Microsoft [團隊系統管理中心] 或 [PowerShell] 管理 [原則套件]。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ht2o]
 
 原則套件根據套件預先定義下列各項原則：
 
@@ -54,11 +60,11 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 ## <a name="get-started-with-policy-packages"></a>開始使用原則套件
 
-若要開始使用醫療保健原則套件，請在 Microsoft 系統管理中心加入中樞上，選取 [ **醫療保健基礎**產品]，然後選取 [ **依角色指派原則設定**]。 準備好開始使用之後，請決定您要將組織中的個別人指派給哪個原則套件。
+若要開始使用醫療保健原則套件，請在 Microsoft 系統管理中心加入中樞上，選取 [ **醫療保健基礎** 產品]，然後選取 [ **依角色指派原則設定** ]。 準備好開始使用之後，請決定您要將組織中的個別人指派給哪個原則套件。
 
 選取 [ **查看原則詳細資料** ]，進一步瞭解套件中的特定原則及其各自的設定。 在團隊系統管理中心中作業分派之後， [就可以自訂](manage-policy-packages.md#customize-policies-in-a-policy-package) 這些功能。
 
-選擇一或多個要指派的套件，然後按一下 **[下一步]**。 您可以搜尋並將人員新增至最適合自己角色的原則套件中。 一次無法將一個人指派給多個原則套件。
+選擇一或多個要指派的套件，然後按一下 **[下一步]** 。 您可以搜尋並將人員新增至最適合自己角色的原則套件中。 一次無法將一個人指派給多個原則套件。
 
 將人員新增至正確的原則套件後，請 **完成** 您的選取專案。 您可以繼續自訂及管理 Microsoft 團隊系統管理中心的原則套件。
 
@@ -66,19 +72,19 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 ### <a name="view"></a>檢視
 
-在指派套件前，請先查看原則套件中每個原則的設定。 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **原則套件**]，選取套件名稱，然後選取原則名稱。
+在指派套件前，請先查看原則套件中每個原則的設定。 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **原則套件** ]，選取套件名稱，然後選取原則名稱。
 
 決定預先定義的值是否適合您的組織，或是否需要根據貴組織的需求將其自訂為更具限制性或 lenient。
 
 ### <a name="customize"></a>自訂
 
-根據需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 若要編輯原則套件中原則的設定，請在 Microsoft [團隊管理中心] 中，選取原則套件，選取您要編輯的原則名稱，然後選取 [ **編輯**]。
+根據需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 若要編輯原則套件中原則的設定，請在 Microsoft [團隊管理中心] 中，選取原則套件，選取您要編輯的原則名稱，然後選取 [ **編輯** ]。
 
 請記住，在指派原則套件之後，您也可以變更套件中的原則設定。 若要深入瞭解，請參閱 [在原則套件中自訂](manage-policy-packages.md#customize-policies-in-a-policy-package)原則。 
 
 ### <a name="assign"></a>為
 
-將原則套件指派給使用者。 若要將原則套件指派給一或多個使用者，請按一下 [ **管理使用者**]。 您也可以 [使用 PowerShell](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) 將原則套件指派給大量的使用者。 
+將原則套件指派給使用者。 若要將原則套件指派給一或多個使用者，請按一下 [ **管理使用者** ]。 您也可以 [使用 PowerShell](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) 將原則套件指派給大量的使用者。 
 
 如需如何使用 Microsoft 團隊系統管理中心或 PowerShell 指派原則套件的步驟，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
 

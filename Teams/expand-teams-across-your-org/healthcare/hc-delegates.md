@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: 瞭解 [離開狀態] 或 [請勿打擾] 狀態的使用者可以在其狀態訊息中明確將另一個使用者設為代理人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904735"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790465"
 ---
 # <a name="message-delegation"></a>訊息委派
 
@@ -37,7 +41,7 @@ ms.locfileid: "43904735"
 
 ## <a name="delegation-use-scenario-in-healthcare"></a>醫療保健中的委派使用案例
 
-*使用範例，不需設定代理人：* Franco Piccio 是在放射式部門撥打。 他會收到一則緊急的個人通話，且必須移出幾個小時的時間。 他在放射科中要求一位對等的人，即 Lena Ehrle，以在他離開時掩蓋給對方。 他非正式地將呼叫器移至 Ehrle，他們會在呼叫器上接聽緊急訊息和 ping，並在她的目前職責中代表 Piccio 回復。 小組中的其他人可能無法實現非正式的委派，且 ensues 患者的護理。
+*使用範例，不需設定代理人：*  Franco Piccio 是在放射式部門撥打。 他會收到一則緊急的個人通話，且必須移出幾個小時的時間。 他在放射科中要求一位對等的人，即 Lena Ehrle，以在他離開時掩蓋給對方。 他非正式地將呼叫器移至 Ehrle，他們會在呼叫器上接聽緊急訊息和 ping，並在她的目前職責中代表 Piccio 回復。 小組中的其他人可能無法實現非正式的委派，且 ensues 患者的護理。
 
 *設定代理人的用法範例：* Franco Piccio 是在放射式部門撥打。 他會收到一則緊急的個人通話，且必須移出幾個小時的時間。 他在放射科中要求一位對等人，Lena Ehrle，以在他離開時掩蓋給對方。 他將自己的自訂狀態訊息變更為「無法在未來數小時內取得的內容。 請聯絡 @DrEhrle 以取得任何緊急情況。  小組中的其他人在嘗試聯絡 Piccio 時，就會立即取得委派，所以他們現在知道要與 Dr. Ehrle。 Ensues 患者的護理，幾乎無任何混淆。
 
@@ -45,7 +49,7 @@ ms.locfileid: "43904735"
 
 系統管理員應注意，狀態筆記和委派提及的行為會部分依賴于使用者的共存模式。 這個矩陣顯示的可能性如下：
 
-|共存模式 | 預期行為|
+|Co-Existence 模式 | 預期行為|
 |---|---|
 |TeamsOnly |使用者只能從小組設定記事。 <br> 在團隊 & SfB 中會顯示使用者的小組記事。 |
 |離島 | 小組中的使用者記事集只能在 [團隊] 中看到。 <br> SfB 中的使用者記事集只能在 SfB 中看到 |
@@ -58,7 +62,7 @@ ms.locfileid: "43904735"
   
 沒有從商務用 Skype 設定記事的視覺指示。
 
-商務用 Skype 不會對狀態筆記強制進行字元限制。 Microsoft 團隊只會從商務用 Skype 顯示記事集的前280個字元。 筆記結尾的省略號（...）會指出截斷。
+商務用 Skype 不會對狀態筆記強制進行字元限制。 Microsoft 團隊只會從商務用 Skype 顯示記事集的前280個字元。 [橢圓形] ( ... 在記事結尾 ) 會指出截斷。
   
 商務用 Skype 不支援記錄的到期時間。
 

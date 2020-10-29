@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dd1a94ab587b21fce5a455300826632ffd508042
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ee63c3d49a8c4b4bf047f0df3910bec39a4d5541
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581534"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790415"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 ======================================================
@@ -34,7 +34,7 @@ ms.locfileid: "46581534"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>何謂新的 Microsoft 團隊系統管理中心  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>何謂新的 Microsoft 團隊系統管理中心  
 
 新的系統管理中心體驗將提供統一的體驗，讓您管理團隊和商務用 Skype。 我們正在提供其他功能、端對端的深入分析，以及管理使用者層級的團隊設定能力。
 
@@ -52,12 +52,12 @@ ms.locfileid: "46581534"
 |電子郵件整合     |[允許寄件者] 清單         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Tenant         |
 |自訂雲端儲存空間     |框         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
-|自訂雲端儲存空間     |即將推出的 Egnyte ()         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
+|自訂雲端儲存空間     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |Google 磁片磁碟機        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |依使用者/授權類型設定     |針對所有使用者開啟或關閉 Microsoft 團隊          |已棄用<sup>1</sup>        |         |
-|團隊和頻道     |         |重新導向至 Azure Active Directory 群組管理 (與目前的體驗) 相同。              |使用者         |
-|團隊和頻道     |         |重定向至 AAD 群組管理 (與目前的體驗) 相同。             |使用者          |
+|小組和頻道     |         |重新導向至 Azure Active Directory 群組管理 (與目前的體驗) 相同。              |使用者         |
+|小組和頻道     |         |重定向至 AAD 群組管理 (與目前的體驗) 相同。             |使用者          |
 |應用程式|預設啟用新的外部應用程式|整個組織內的應用程式設定|Tenant|
 |應用程式|允許外部應用程式|整個組織內的應用程式設定|Tenant|
 |應用程式|允許側載外部應用程式<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|使用者|
@@ -78,14 +78,14 @@ ms.locfileid: "46581534"
 |訊息傳送     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
 |訊息傳送     |允許使用者私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
 
-<sup>1</sup>已過時的來賓。 您現在可以在 Microsoft 團隊系統管理中心管理啟用/停用來賓的功能。 啟用/停用商務用團隊企業、Edu 學生及 Edu 教職員將會在不久後過時。 您應該在 Microsoft 365 系統管理中心指派授權來加以管理。 請參閱[管理使用者對 Microsoft 團隊的存取權](user-access.md)。
+<sup>1</sup> 已過時的來賓。 您現在可以在 Microsoft 團隊系統管理中心管理啟用/停用來賓的功能。 啟用/停用商務用團隊企業、Edu 學生及 Edu 教職員將會在不久後過時。 您應該在 Microsoft 365 系統管理中心指派授權來加以管理。 請參閱 [管理使用者對 Microsoft 團隊的存取權](user-access.md)。
 <br><br>
-<sup>2</sup>側載分為以下分割：
+<sup>2</sup> 側載分為以下分割：
 
-- 允許使用者側載可在[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中的使用者層級進行管理的 app。
+- 允許使用者側載可在 [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中的使用者層級進行管理的 app。
 - 允許租使用者中的使用者與可在整個組織內應用程式設定中的租使用者層級管理的自訂 app 互動。
 
-<sup>3</sup>在 TeamsAppPermissionPolicy 的使用者層級，可以啟用和停用預設 app 和外部 app。 此外，您也可以在組織範圍 app 設定中的租使用者層級封鎖應用程式，這會覆寫任何使用者和租使用者層級設定。
+<sup>3</sup> 在 TeamsAppPermissionPolicy 的使用者層級，可以啟用和停用預設 app 和外部 app。 此外，您也可以在組織範圍 app 設定中的租使用者層級封鎖應用程式，這會覆寫任何使用者和租使用者層級設定。
 
 > [!NOTE]
 > 您將會繼續使用 Microsoft 365 系統管理中心的 [群組] 儀表板，以取得與團隊和頻道相關的配置。 應用程式的設定會保留在 Microsoft 365 管理中心的 [小組] 區域中，並會在稍後進行遷移。
