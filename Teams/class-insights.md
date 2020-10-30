@@ -16,34 +16,47 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
-ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
+ms.openlocfilehash: b63ea1a1a09a55d9a51fb2a110c024960f23f6f4
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47408229"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803521"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Teams 教育版深入解析的IT 系統管理員指南
 
-透過 Microsoft Teams 教育版深入解析，教育者和領導者可以存取有關數位參與、作業工作負載、成績、通訊等的分析資料。
+透過 Microsoft Teams 教育版深入解析，教育者和領導者可以存取有關數位參與、作業工作負載、成績、通訊等的分析資料。 深入解析是由道德原則所驅動，將教育者和學生擺在第一位，符合隱私權標準，並確保您的機構持續遵循法規。
 
 深入解析會在 Office 365 教育版 SKU A1、A3 和 A5 中使用。
 
 > [!NOTE]
-> 授課者請於[此處](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181)了解如何使用深入解析。
+> 教育者，請於此瞭解如何使用 [深入解析]： [Microsoft Teams 深入解析的教育者指南](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181)。
 
-## <a name="permissions"></a>權限
+## <a name="use-insights"></a>使用 [深入解析]
 
 ### <a name="user-types"></a>使用者類型
-- **學生**是由其授權所識別，且 _無權存取_[深入分析] 索引標籤 (即使他們是團隊的擁有者)。 
-- **教育者**由教職員授權所識別。 教育者必須擁有教職員授權，並成為課程小組擁有者，以新增和查看 [深入分析] 索引標籤所顯示的資料。 
-- **領導者**也由教職員授權所識別，但在某些狀況下，需取得 IT 全域系統管理員的明確授與的權限，才能檢視 [深入解析] 應用程式中的報告。
-- 來賓帳戶_不具備_[深入解析] 存取權。
+- **學生** 是由其授權所識別，且  _無權存取_ [深入分析] 索引標籤 (即使他們是團隊的擁有者)。 
+- **教育者** 由教職員授權所識別。 教育者必須擁有教職員授權，並成為課程小組擁有者，以新增和查看 [深入分析] 索引標籤所顯示的資料。 
+- **領導者** 也由教職員授權所識別，但在某些狀況下，需取得 IT 全域系統管理員的明確授與的權限，才能檢視 [深入解析] 應用程式中的報告。
+- 來賓帳戶 _不具備_ [深入解析] 存取權。
 
-### <a name="permission-levels"></a>權限等級
-教育者和領導者擁有不同的權限等級和邏輯：
-- **教育者**可以透過瀏覽至 Teams 應用程式列中的 [應用程式]，並搜尋「深入解析」，將[深入解析] 應用程式新增至班級團隊內的公開頻道。 該索引標籤會反映非擁有者的班級團隊中所有人的活動 (包括非團隊擁有者的教師)。 
-- **領導者**可以透過瀏覽至 Teams 應用程式列中的 [應用程式]，並搜尋「深入解析」，將[深入解析] 應用程式新增為個人應用程式 (顯示在 Teams 左側功能表上)。 
+### <a name="entry-points"></a>進入點
+教育者和領導者有不同的進入點，可讓他們探索並使用深入解析。
+
+**教育者** 可以使用這兩個進入點：
+- [索引標籤](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - 上方瀏覽功能表新增的索引標籤提供了適用於他們所擁有的每個班級的索引標籤。 [深入解析] 將會從班級團隊內的所有通道呈現活動資料，但只能新增為公用頻道的索引標籤。 該索引標籤會反映非擁有者的班級團隊中所有人的活動 (包括非團隊擁有者的教師)。
+- [個人應用程式](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - 可從左側 Teams 應用程式列取得的所有作用中課程概覽。
+
+**領導者** 可以使用 [深入解析] 作為 [個人應用程式](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
+
+### <a name="manage-setup-policy"></a>管理設定原則
+如果您是系統管理員，您可以使用 [應用程式設定原則](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)，在教育者和領導人啟動 Teams 時，根據預設為您的教職員安裝 [深入解析]。
+使用該原則，您可以自訂 Teams 以強調 [深入解析]，並將它釘選在應用程式列中。
+
+> [!TIP]
+> 如需適用於教育界的 Teams 原則和原則套件的資訊，請參閱 [[適用於教育界的 Teams 原則和原則套件]](https://docs.microsoft.com/microsoftteams/policy-packages-edu)。
+
+
 
 ## <a name="compliance"></a>合規性
 
@@ -61,8 +74,8 @@ ms.locfileid: "47408229"
 ## <a name="data-collection"></a>資料收集
 
 - 為租用戶開啟「教育版分析」時，我們會收集「深入解析」的資料。 資料會從 Teams 活動收集而來，以呈現可用於教學和學習的可操作資訊。
-- [深入解析] _不會_收集來賓資料。
-- 根據預設，[教育分析] **開啟**了。
+- [深入解析] _不會_ 收集來賓資料。
+- 根據預設，[教育分析] **開啟** 了。
 
 目前，這項資料從課程小組中的學生和教師活動的以下方面提取的：
 
@@ -84,7 +97,7 @@ ms.locfileid: "47408229"
 無論 Teams 是否有安裝 [深入解析] 索引標籤，資料收集程序都會在不同的伺服器上進行。 [深入解析] 索引標籤或個人應用程式不會影響授課者和學生使用其餘 Teams 功能的應用程式效能或網路頻寬。
 
 > [!TIP]
-> 若要瞭解如何在頻寬不足時使用 [教育用 Teams]，請參閱 [這裡](edu-remote-low-bandwidth.md)。
+> 如需在頻寬不足時使用 Teams 教育版的資訊，請參閱 [[Teams 教育版在低頻寬情況下的說明]](edu-remote-low-bandwidth.md)。
 
 ## <a name="how-to-delete-your-data"></a>如何刪除資料
 
@@ -93,7 +106,7 @@ ms.locfileid: "47408229"
 > [!NOTE]
 > 刪除資料會對 [深入分析] 分析班級團隊參與度的能力產生負面影響。
 
-- 在[[這裡]](https://edusupport.microsoft.com/support)開啟支援票證。 支援票證必須明確聲明對 [GDPR Delete DSR] 操作的請求，並包含要刪除的使用者物件識別碼。 無法限制刪除的資料集或時間窗口。
+- 在 [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support) 開啟支員票證。 支援票證必須明確聲明對 [GDPR Delete DSR] 操作的請求，並包含要刪除的使用者物件識別碼。 無法限制刪除的資料集或時間窗口。
 - 一旦歸檔，支援票證就會在佇列中等候一周，以符合合規性最低保留原則。 您可以在此期間取消該作業。
 - 一周之後，[教育分析] 小組會採取行動，以確保與該使用者識別碼相關的所有資料都已從服務中刪除。 Microsoft 支援服務會監視 ICM 票證，並會在刪除程序完成後28天內通知您。
 
@@ -107,4 +120,5 @@ ms.locfileid: "47408229"
 
 預設會開啟「教育版分析」和「深入解析」。 當您選擇退出 [分析] 時，我們會刪除針對 [深入解析] 索引標籤收集的所有資料。重新開啟 [分析]，我們便會從重新啟用的時間開始收集資料。
 
-深入了解： [[深入解析] 的教育者指南](https://support.microsoft.com/zh-TW/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)
+## <a name="additional-resources"></a>其他資源
+- [[深入解析] 的教育者指南](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)

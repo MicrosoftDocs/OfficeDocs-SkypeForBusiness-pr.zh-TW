@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739241"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790525"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -38,26 +38,26 @@ ms.locfileid: "48739241"
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的 Teams 全組織設定
 
-您可以在 Microsoft Teams 系統管理中心控制全組織的使用者設定。 若要編輯全組織的設定，請移至 Microsoft Teams 系統管理中心，然後選取 **[全組織設定]**。 您可以設定下列設定。
+您可以在 Microsoft Teams 系統管理中心控制全組織的使用者設定。 若要編輯全組織的設定，請移至 Microsoft Teams 系統管理中心，然後選取 **[全組織設定]** 。 您可以設定下列設定。
 
 ### <a name="external-access"></a>外部存取
 
-**外部存取**可讓您的 Teams 和商務用 Skype 使用者與組織或網域外的使用者通訊。 若要設定外部存取，請移至[讓您的 Teams 使用者與其他 Teams 組織的使用者交談及通訊](let-your-teams-users-communicate-with-other-people.md)。
+**外部存取** 可讓您的 Teams 和商務用 Skype 使用者與組織或網域外的使用者通訊。 若要設定外部存取，請移至[讓您的 Teams 使用者與其他 Teams 組織的使用者交談及通訊](let-your-teams-users-communicate-with-other-people.md)。
 
 若要新增或封鎖網域：
 
-1. 請選取 **[新增網域]**。
+1. 請選取 **[新增網域]** 。
 2. 在 [新增網域] 窗格中，輸入網域名稱，然後按一下空格鍵儲存名稱。
-3. 選取 **[允許]** 或 **[封鎖]**。
+3. 選取 **[允許]** 或 **[封鎖]** 。
 4. 選取 **[完成]** 來儲存變更。 
 
 ### <a name="guest-access"></a>來賓存取
 
-Microsoft Teams 中的**來賓存取**可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。 任何擁有商務或消費者電子郵件帳戶的人員 (例如 Outlook、Gmail 或其他)，都能以來賓身分參與 Teams，擁有小組聊天、會議及檔案的完整存取權。 如需詳細資訊，請參閱 [Microsoft Teams中的來賓存取](guest-access.md)。
+Microsoft Teams 中的 **來賓存取** 可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。 任何擁有商務或消費者電子郵件帳戶的人員 (例如 Outlook、Gmail 或其他)，都能以來賓身分參與 Teams，擁有小組聊天、會議及檔案的完整存取權。 如需詳細資訊，請參閱 [Microsoft Teams中的來賓存取](guest-access.md)。
 
 ### <a name="teams-settings"></a>Teams 設定
 
-在 **Teams 設定**中，您可以設定小組的功能，包括通知和摘要、電子郵件整合、雲端儲存選項和裝置。
+在 **Teams 設定** 中，您可以設定小組的功能，包括通知和摘要、電子郵件整合、雲端儲存選項和裝置。
 
 #### <a name="notifications-and-feeds"></a>通知和摘要
 
@@ -69,17 +69,17 @@ Microsoft Teams 中的**來賓存取**可將團隊和頻道的存取權授與給
 
 #### <a name="email-integration"></a>電子郵件整合
 
-開啟此功能能讓使用者使用頻道電子郵件地址將電子郵件傳送到 Teams 中的頻道。 使用者可以針對任何其擁有之小組的頻道執行這項作業。 使用者也可以將電子郵件傳送到小組中已針對小組成員開啟新增連接器的任何頻道。 若要開啟電子郵件整合，請確認**允許使用者傳送電子郵件到頻道電子郵件地址**為**開啟**。
+開啟此功能能讓使用者使用頻道電子郵件地址將電子郵件傳送到 Teams 中的頻道。 使用者可以針對任何其擁有之小組的頻道執行這項作業。 使用者也可以將電子郵件傳送到小組中已針對小組成員開啟新增連接器的任何頻道。 若要開啟電子郵件整合，請確認 **允許使用者傳送電子郵件到頻道電子郵件地址** 為 **開啟** 。
 
 #### <a name="files"></a>檔案
 
 您可以在這裡開啟或關閉檔案分享和雲端檔案儲存選項。
 
-使用者可以從 Teams 頻道和交談的雲端儲存服務上傳及分享檔案。 Teams 中的雲端儲存選項目前包括 Dropbox、Box、ShareFile、Google Drive和 Egnyte (即將推出)。 開啟貴組織要使用的雲端儲存空間提供者的開關。
+使用者可以從 Teams 頻道和交談的雲端儲存服務上傳及分享檔案。 Teams 中的雲端儲存選項目前包括 Dropbox、Box、ShareFile、Google Drive 和 Egnyte。 開啟貴組織要使用的雲端儲存空間提供者的開關。
 
 #### <a name="organization"></a>組織
 
-您可以在這裡開啟 [組織]**** 索引標籤，其中顯示使用者組織的詳細組織結構。 如需詳細資訊，請參閱[使用 Teams 中的組織索引標籤](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)。
+您可以在這裡開啟 [組織]  索引標籤，其中顯示使用者組織的詳細組織結構。 如需詳細資訊，請參閱[使用 Teams 中的組織索引標籤](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)。
 
 #### <a name="devices"></a>裝置
 
@@ -87,7 +87,7 @@ Microsoft Teams 中的**來賓存取**可將團隊和頻道的存取權授與給
 
 - **需要第二種形式的驗證以存取會議內容** – 選取使用者輸入內容 PIN 時擁有的存取層級。
 - **設定內容 PIN** – 要求使用者輸入此 PIN 以防止未經授權的文件存取。 這可防止未授權的使用者加入即將到來的會議及瀏覽附件。
-- **資源帳戶可傳送訊息** – 將此設定**開啟**以允許從 Surface Hub 資源帳戶傳送訊息。
+- **資源帳戶可傳送訊息** – 將此設定 **開啟** 以允許從 Surface Hub 資源帳戶傳送訊息。
 
 #### <a name="search-by-name"></a>依名稱搜尋
 

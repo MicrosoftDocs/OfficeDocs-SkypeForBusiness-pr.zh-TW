@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171107"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800616"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -39,13 +39,13 @@ ms.locfileid: "48171107"
 > [!NOTE]
 > 如果您是授課者、教育主管或 IT 專業人員，這些資源可能會有所幫助：
 >
-> - 您可以使用[**單頁入門**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，迅速建立整個教育機構的資料，並在 Teams 中執行。
-> - 下載[**如何開始使用 Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：適用於 IT 專業人員的指南，其中包含有關安全性和變更管理的實用作法。
-> - 專為授課者撰寫的文章集合，包括最重要之[**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
+> - 您可以使用 [**單頁入門**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，迅速建立整個教育機構的資料，並在 Teams 中執行。
+> - 下載 [**如何開始使用 Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：適用於 IT 專業人員的指南，其中包含有關安全性和變更管理的實用作法。
+> - 專為授課者撰寫的文章集合，包括最重要之 [**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
 > - Microsoft 教育工作者中心的 1 小時線上課程，說明授課者如何在其專業領域中使用 Teams。 [**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教育工作者中心的 1 小時線上課程，引導授課者在班級 團隊中進行教學。 [**使用班級 Teams 營造共同學習環境**](https://education.microsoft.com/course/b1e15cfc/overview)。
-> - 如果您是授課者、學生、家長或監護人，請透過[**使用 Office 365 遠端教學和學習**](https://aka.ms/RemoteLearningHelp)取得更多指引。
-> - 家長和監護人也可以前往我們的[**家長支援頁面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，取得遠端學習的協助。
+> - 如果您是授課者、學生、家長或監護人，請透過 [**使用 Office 365 遠端教學和學習**](https://aka.ms/RemoteLearningHelp)取得更多指引。
+> - 家長和監護人也可以前往我們的 [**家長支援頁面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，取得遠端學習的協助。
 
 不要錯過 2020 年 3 月 4 日的部落格，[學校如何使用 Microsoft Teams 輕鬆提升遠端學習計劃](https://aka.ms/teamseduremoteblog) (英文)。
 
@@ -78,7 +78,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允許使用者建立 Teams
 
-當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊**。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Microsoft 365 群組和團隊的建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊** 。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Microsoft 365 群組和團隊的建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 當您讓每個人 (包括學生) 為班級、研究、群組專案及研究群組建立團隊時，高等教育機構更能從中獲益。 中小學學校可能會想要限制學生建立 Teams，以確保所有學生與學生之間的通訊會在包含成人的論壇內進行。 在此情況下，您可以將 Microsoft 365 群組和 Teams 的建立限制為所有授課者和教職員。
 
@@ -94,14 +94,14 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 > [!IMPORTANT]
 > 可以在[適用於教育的 Teams 原則和原則套件](policy-packages-edu.md) (英文) 中找到我們對學生和授課者原則的最新指導方針。
 
-**高等教育教職員、授課者和學生**都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動謄寫會議](meeting-policies-in-teams.md#allow-transcription)。
+**高等教育教職員、授課者和學生** 都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動謄寫會議](meeting-policies-in-teams.md#allow-transcription)。
 
-**中小學學校學生**可能需要為學生提供受限制的功能。 原則會設定學生可以執行動作的範圍。 因為學生人口通常是最大的使用者集合，而且通常會取得最受限制的設定，建議您將學生原則變更為 [全域 (全組織預設)] 原則。
+**中小學學校學生** 可能需要為學生提供受限制的功能。 原則會設定學生可以執行動作的範圍。 因為學生人口通常是最大的使用者集合，而且通常會取得最受限制的設定，建議您將學生原則變更為 [全域 (全組織預設)] 原則。
 
 > [!IMPORTANT]
 > 對於指派給任何使用者的會議原則，我們建議您將 [自動准許人員] 設定設為 [組織中的所有人]。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [[Teams 管理會議原則]](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
 
-**小學教職員和授課者**應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [將這些原則大量指派給您的教職員和授課者](batch-group-policy-assignment-edu.md)。
+**小學教職員和授課者** 應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [將這些原則大量指派給您的教職員和授課者](batch-group-policy-assignment-edu.md)。
 
 ## <a name="start-using-teams"></a>開始使用 Teams
 
@@ -113,6 +113,7 @@ Microsoft Teams 教育版提供  [特定團隊類型](https://support.office.c
 - 成績
 - OneNote 教室筆記本  
 - [班級教材資料夾](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) ，用於保護學生的唯讀內容
+- [深入解析](https://docs.microsoft.com/microsoftteams/class-insights) 針對每個教室提供學生參與情況、作業及健康的即時資料。 
 - [優先的授課者存取權](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)，可在加入學生之前完成班級設定 
 - 能夠讓會干擾的學生靜音和其他特殊權限  
 
@@ -156,7 +157,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 如果想要讓授課者更輕鬆、快速地建立其所需的班級，建立由授課者引導的團隊是絕佳的部署選項。 我們也建議擁有超過 50 萬個團隊的機構使用此方法來將外部建立的團隊數量最小化。  
 
-此混合式方法可讓您使用 SDS 為每個班級建立群組 (建議)，或由您自己使用 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes) 為他們建立群組。 班級群組備妥之後，授課者就能使用 [建議的班級]**** 圖示，將其群組轉換成團隊。
+此混合式方法可讓您使用 SDS 為每個班級建立群組 (建議)，或由您自己使用 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes) 為他們建立群組。 班級群組備妥之後，授課者就能使用 [建議的班級]  圖示，將其群組轉換成團隊。
 
 :::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="顯示建議的班級圖示的螢幕擷取畫面":::
 
