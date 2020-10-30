@@ -16,34 +16,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3a6a19a511d86072f6c1d27c2bda447a937483
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 138f85c77f3dd6046c97e7ed3049b86b9a1a2745
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308376"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800636"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft 團隊中建立自訂團隊範本
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 **EDU 客戶尚不支援自訂範本。**
 
-自訂團隊範本是預先定義的小組結構，其中包含一組通道、索引標籤和應用程式，可協助您快速建立正確的共同作業空間。 您的自訂團隊範本會使用您的偏好設定。  
+自訂團隊範本是預先定義的小組結構，其中包含一組通道、索引標籤和應用程式。 您可以開發可協助您快速建立正確共同作業空間的範本。 您的自訂團隊範本會使用您的偏好設定。  
 
 若要開始使用：
 
 1. 登入 [小組] 管理中心。
 
-2. 在左側導覽中，展開 [**團隊**  >  **小組範本**]。
+2. 在左側導覽中，展開 [ **團隊**  >  **小組範本** ]。
 
-3. 按一下 [ **新增**]。
+3. 按一下 [ **新增** ]。
 
 ![[團隊範本] 對話方塊的影像，其中醒目提示 [新增]。](media/team-templates-new.png)
 
-4. 在 [ **小組範本** ] 區段中，選取 [ **建立全新的範本**]。
+4. 在 [ **小組範本** ] 區段中，選取 [ **建立全新的範本** ]。
 
-5. 在 [ **範本設定** ] 區段中，填寫下欄欄位，然後按 **[下一步]**：
+5. 在 [ **範本設定** ] 區段中，填寫下欄欄位，然後按 **[下一步]** ：
     - 範本名稱
     - 範本簡要與詳細描述
     - 地區可視性  
@@ -52,7 +50,7 @@ ms.locfileid: "48308376"
 
 6. 在 [ **頻道]、[索引標籤] 和 [應用程式]** 區段中，新增您團隊所需的任何通道和 app。
 
-    1. 在 [ **頻道** ] 區段中，按一下 [ **新增**]。
+    1. 在 [ **頻道** ] 區段中，按一下 [ **新增** ]。
     2. 在 [ **新增** ] 對話方塊中，命名頻道。
     3. 新增描述。
     4. 決定是否要依預設顯示頻道。

@@ -19,22 +19,20 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40e21687aa3d14b0cb9d51d4ba5f856eada3c538
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: a24e1f440702f10785e42b83c39a53cb14da8739
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424563"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800576"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>在系統管理中心使用團隊零售範本
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 
 團隊範本擁有圍繞零售商需求設計之小組結構的預先建立的定義。 您可以使用團隊範本快速建立適用于零售商的團隊類型，並在整個組織中進行部署。 您也可以延伸團隊範本，建立專為您特定組織需求量身定制的小組。
 
-在本文中，我們將介紹每個團隊範本，以及我們建議使用這些範本的方式。
+在本文中，我們將介紹每個團隊範本，以及我們建議使用它們的方式。
 
 如果您負責規劃、部署及管理多個零售組織中的多個小組，本文適用于您。 我們假設您已在貴組織中已部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
 

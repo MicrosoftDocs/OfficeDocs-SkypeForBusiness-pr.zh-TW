@@ -16,17 +16,19 @@ ms.collection:
 ms.reviewer: anach
 description: 瞭解如何針對團隊管理員審核患者應用程式
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 042d3308e70f2b6275360dfd0137bdc9ed94b7c8
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: ce1851b6d424203f6a4aed8a871209e3a65ce5f8
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772274"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803511"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
 > [!NOTE]
-> 2020年10月30日生效，患者 app 已停用，且已由小組中的 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。 查看清單中的患者範本以開始使用。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+> 2020年10月30日生效，患者 app 已停用，且已由小組中的 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 所有與患者 app 相關的資料都會保留在這個群組中，但無法再透過使用者介面存取。 使用者可以使用 [ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
+>
+>透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。 查看清單中的患者範本以開始使用。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
 
 患者應用程式活動的審核記錄可讓您在事件回應小組審閱患者的電子醫療記錄 (EMR) 或患者保健資訊 (PHI) 並判斷是否需要在生產率工具中進行 PHI 存取的原則或程式的變更或改進。 審核記錄事件涵蓋透過患者 app 使用者介面執行的動作。
 

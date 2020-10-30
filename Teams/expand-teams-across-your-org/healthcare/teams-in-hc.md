@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 瞭解衛生保健的功能，包括護理協調、安全訊息、虛擬造訪、EHR 整合，以及第一線員工工作人員系統整合。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790635"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803531"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊
 
@@ -107,7 +107,7 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工以 Microsoft
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>使用 [清單] 應用程式共用清單及追蹤資訊
 
 > [!NOTE]
-> 2020年10月30日生效，患者 app 將停用，並由小組中的 [ [清單] app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。
+> 2020年10月30日生效，患者 app 已停用，且已由小組中的 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。
 
 團隊中的 [清單] 應用程式可協助團隊追蹤資訊並組織工作。 App 是針對所有團隊使用者預先安裝的，而且在每個團隊和頻道中都可做為索引標籤。 清單可以從預先定義的範本中從頭開始建立，或是將資料匯入 Excel。
 

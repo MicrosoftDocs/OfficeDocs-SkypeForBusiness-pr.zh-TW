@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 6c84caf7bd2307d290887ef9206f16625a25c996
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a78acd180527f87eaa4647f722a827c62077a4a
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506320"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803464"
 ---
 # <a name="teams-for-education"></a>適用於教育的 Teams
 
@@ -35,6 +35,7 @@ ms.locfileid: "48506320"
 | ------------- | ------------- |
 | ![箭號-右-2-團隊](../media/arrow-right-2-teams.svg)  |  [快速入門 - Teams 教育版系統管理員](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
 | ![註冊團隊](../media/sign-up-teams.svg) | [Teams 教育版中的作業](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
+| ![深入資訊-團隊](../media/insights-teams.svg) | [在教育版團隊中的深入資訊](https://docs.microsoft.com/microsoftteams/class-insights) |
 | !["](../media/toolbox.svg)  |  [適用于教育系統管理員的小組資源](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
 | ![任務-工作表-規劃-小組](../media/task-checklist-planning-teams.svg)  |  [針對教育版管理員的小組的管轄管理常見問題](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
 
