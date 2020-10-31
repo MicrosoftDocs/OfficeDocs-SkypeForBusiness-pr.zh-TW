@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的自訂應用程式商店。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456147"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818815"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 團隊中的自訂應用程式商店
 
@@ -35,13 +35,19 @@ ms.locfileid: "48456147"
 > [!Note]
 > 署名變更將需要24小時才能生效。
 
+您可以選取 [ **團隊 app**  >  **自訂存放區** ]，在系統管理中心存取 [自訂] 存放區。
+
+  ![醒目提示系統管理主控台的 [自訂貯存] 功能](media/customize-app-store.png)
+
+本文將說明自訂應用程式存放區的功能，以及如何使用它們。
+
 ## <a name="customize-your-organization-logo"></a>自訂您的組織標誌
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您可以在這裡上傳您的組織標誌。 選取的標誌將會出現在 [ **Apps**  >  **針對您的租使用者建立的**應用程式] 的 [團隊用戶端] 頁面。
+您可以在這裡上傳您的組織標誌。 選取的標誌將會出現在 [ **Apps**  >  **針對您的租使用者建立的** 應用程式] 的 [團隊用戶端] 頁面。
 
 當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 標誌應該是240x60，否則將會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
 
@@ -57,7 +63,7 @@ ms.locfileid: "48456147"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您的組織 lovemark 或小型標誌是代表您組織品牌的影像或符號，不會包含您的公司名稱。 Logomark 可協助小組成員識別應用程式存放區。 選取的標誌會出現在 [應用程式] 頁面的 [團隊用戶端] 中。
+您的組織 logomark 或小型標誌是代表您組織品牌的影像或符號，不會包含您的公司名稱。 Lovemark 可協助小組成員識別應用程式存放區。 選取的標誌會出現在 [應用程式] 頁面的 [團隊用戶端] 中。
 
 當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 Logomark 應該是32x32 圖元，否則將會調整成該大小。 它不應大於 5 MB。 支援的格式為：
 
@@ -73,7 +79,7 @@ ms.locfileid: "48456147"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-背景應與文字有足夠的對比，讓使用者可以清楚地閱讀文字。 該背景會出現在團隊用戶端中**Apps**，位於  >  **針對您租使用者標頭建立的**應用程式中。
+請確定背景的對比度與文字有足夠的對比，讓使用者可以清楚地閱讀文字。 該背景會出現在團隊用戶端中 **Apps** ，位於  >  **針對您租使用者標頭建立的** 應用程式中。
 
 您的選擇包括︰
 
@@ -82,7 +88,7 @@ ms.locfileid: "48456147"
   - svg
   - .png
   - .jpg
-- 選擇自訂背景。 當您選取 **[選擇自訂色彩**] 時，會開啟色彩選擇器。 調整色彩選擇器的縮放比例，以選取您要的色彩。
+- 選擇自訂背景。 當您選取 **[選擇自訂色彩** ] 時，會開啟色彩選擇器。 調整色彩選擇器的縮放比例，以選取您要的色彩。
 
 背景圖像或色彩是用來做為 [團隊租使用者] 應用程式目錄中頂端橫幅的背景。
 
@@ -92,9 +98,9 @@ ms.locfileid: "48456147"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-文字色彩應有足夠的對比度與背景，讓使用者可以清楚地讀出貴組織的名稱。 文字將會出現在團隊用戶端中**Apps**，位於  >  **針對您租使用者標頭建立的**應用程式中。
+確定文字色彩與背景有足夠的對比，讓使用者可以清楚地閱讀貴組織的名稱。 文字將會出現在團隊用戶端中 **Apps** ，位於  >  **針對您租使用者標頭建立的** 應用程式中。
 
-當您選取 **[選擇自訂色彩**] 時，會開啟色彩選擇器。 調整色彩選擇器的縮放比例，以選取您要的色彩。
+當您選取 **[選擇自訂色彩** ] 時，會開啟色彩選擇器。 調整色彩選擇器的縮放比例，以選取您要的色彩。
 
  ![色彩選擇器圖像](media/choose-a-custom-color.png)
 

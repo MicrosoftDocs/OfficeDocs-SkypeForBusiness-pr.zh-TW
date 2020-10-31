@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解團隊中的 [自動語音應答] 和 [通話佇列撥號] 和 [語音辨識] 選項。
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800566"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818803"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動語音應答和通話佇列撥號及語音辨識參考
 
@@ -100,7 +100,7 @@ ms.locfileid: "48800566"
 
 下列語言適用于與外寄提示搭配使用的文字轉換語音：
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |阿拉伯文 (例如)   |英文 (NZ)   |朝鮮文 (KO)   |
 |中文 (HK)   |英文 (英國)  |挪威文 (無)   |
@@ -114,7 +114,7 @@ ms.locfileid: "48800566"
 
 可使用下列語言提供自動語音應答的語音辨識輸入：
   
-|||
+|-|-|
 |:-----|:-----|
 |中文 (ZH-CN&PLATFORM)   |法文 (FR)   |
 |英文 (AU)   |德語 (DE)   |

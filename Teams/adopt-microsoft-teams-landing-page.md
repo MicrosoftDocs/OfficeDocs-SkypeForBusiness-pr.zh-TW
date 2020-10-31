@@ -6,7 +6,6 @@ ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
 ms.collection:
@@ -16,34 +15,33 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
-- seo-marvel-apr2020
 - Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14738e22293dfb543cf49019a5df6a4539c8e251
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9e731bbd4cd407b61de27db58d9b71b8b4f2c766
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503480"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816093"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
 > [!NOTE]
 > 如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[遠端學習首頁](https://www.microsoft.com/education/remote-learning)。
 
-如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性 [入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能 (例如 Microsoft 365 或 Office 365 通話方案或電話系統) ，您可以從我們的 [入門指南中](https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=pr-en-us-5567#deeper-adoption-guidance)開始，但以下是您需要的其他指導方針。
+如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性 [入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能 (例如 Microsoft 365 或 Office 365 通話方案或電話系統) ，您可以從我們的 [入門指南中](#deeper-adoption-guidance)開始，但以下是您需要的其他指導方針。
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
-| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px"> | [快速入門](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" width="40 px" height="40 px"> | [團隊和頻道簡介](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [規劃您的第一位團隊](/MicrosoftTeams/teams-adoption-your-first-teams) |
-| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" width="40 px" height="40 px"> | [為您的擁護程式進行準備](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px"> | [訓練](https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> | [工具和下載](/microsoftteams/adopt-tools-and-downloads) |
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [快速入門](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [團隊和頻道簡介](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [規劃您的第一位團隊](/MicrosoftTeams/teams-adoption-your-first-teams) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [為您的擁護程式進行準備](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [訓練](https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [工具和下載](/microsoftteams/adopt-tools-and-downloads) |
 
-### <a name="deeper-adoption-guidance"></a>深入瞭解採用指南
+### <a name="deeper-adoption-guidance"></a>[深入瞭解採用指南](#deeper-adoption-guidance)
 
 採納方案可以簡單到複雜，視您的環境而定。 針對大型部署，請逐步完成以下指導方針，以確保您的組織能順暢地轉換至團隊。
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
-| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" width="40 px" height="40 px"> | **[開始使用](/MicrosoftTeams/teams-adoption-phase1)** <br/> [快速入門](/MicrosoftTeams/teams-adoption-get-started) <br/><br/> [了解小組和頻道](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) <br/><br/> [建立您的第一個應用程式](/MicrosoftTeams/teams-adoption-your-first-teams) <br/><br/> [評估文化與組織就緒性](/MicrosoftTeams/teams-adoption-assess-readiness) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" width="40 px" height="40 px"> | **[試驗](/MicrosoftTeams/teams-adoption-phase2-experiment)** <br/> [建立您的風雲人物計畫](/MicrosoftTeams/teams-adoption-create-champions-program) <br/><br/> [管理快速入門](/MicrosoftTeams/teams-adoption-governance-quick-start)<br/><br/> [定義使用案例](/MicrosoftTeams/teams-adoption-define-usage-scenarios) <br/><br/> [讓早期採用者快速上手並收集意見反應](/MicrosoftTeams/teams-adoption-onboard-early-adopters) <br/><br/> [快速上手的支援](/MicrosoftTeams/teams-adoption-onboard-support) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" width="40 px" height="40 px"> | **[調整](/MicrosoftTeams/teams-adoption-phase3-enable)** <br/> [定義結果與成功](/MicrosoftTeams/teams-adoption-define-outcomes) <br/><br/> [最佳化意見反應和報告](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) <br/><br/> [促進認知和實施訓練](/MicrosoftTeams/teams-adoption-drive-awareness) <br/><br/> [排程服務健康情況審查](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) |
+| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="circle number one" width="40 px" height="40 px"> | **[開始使用](/MicrosoftTeams/teams-adoption-phase1)** <br/> [快速入門](/MicrosoftTeams/teams-adoption-get-started) <br/><br/> [了解小組和頻道](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) <br/><br/> [建立您的第一個應用程式](/MicrosoftTeams/teams-adoption-your-first-teams) <br/><br/> [評估文化與組織就緒性](/MicrosoftTeams/teams-adoption-assess-readiness) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="circle number 2" width="40 px" height="40 px"> | **[試驗](/MicrosoftTeams/teams-adoption-phase2-experiment)** <br/> [建立您的風雲人物計畫](/MicrosoftTeams/teams-adoption-create-champions-program) <br/><br/> [管理快速入門](/MicrosoftTeams/teams-adoption-governance-quick-start)<br/><br/> [定義使用案例](/MicrosoftTeams/teams-adoption-define-usage-scenarios) <br/><br/> [讓早期採用者快速上手並收集意見反應](/MicrosoftTeams/teams-adoption-onboard-early-adopters) <br/><br/> [快速上手的支援](/MicrosoftTeams/teams-adoption-onboard-support) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="circle number 3" width="40 px" height="40 px"> | **[調整](/MicrosoftTeams/teams-adoption-phase3-enable)** <br/> [定義結果與成功](/MicrosoftTeams/teams-adoption-define-outcomes) <br/><br/> [最佳化意見反應和報告](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) <br/><br/> [促進認知和實施訓練](/MicrosoftTeams/teams-adoption-drive-awareness) <br/><br/> [排程服務健康情況審查](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) |

@@ -16,22 +16,83 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336992"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816103"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
 
+## <a name="october-28-2020"></a>2020年10月28日
+
+### <a name="get-started-with-teams-in-healthcare"></a>在醫療保健中開始使用團隊
+
+Microsoft 團隊針對醫院和其他醫療保健組織提供許多有用的功能，包括：
+
+- 虛擬走訪與電子醫療保健記錄 (EHR) 整合
+- 團隊原則套件
+- 安全訊息
+- 團隊範本
+- 護理協調與共同作業
+
+此功能是適用于醫療保健版 Microsoft 雲端的一部分。 [深入了解](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc)。
+
+## <a name="october-27-2020"></a>2020年10月27日
+
+### <a name="teams-displays"></a>團隊顯示
+
+Microsoft 團隊顯示的是一種由一體式專用團隊裝置組成的類別，可提供功能環境觸控式螢幕，以及由 Cortana 提供的免提體驗。 [深入了解](https://docs.microsoft.com/microsoftteams/devices/teams-displays)。
+
+## <a name="october-22-2020"></a>2020年10月22日
+
+### <a name="manage-skype-for-business-settings-for-your-users"></a>管理使用者的商務用 Skype 設定
+
+您可以在 Microsoft 團隊系統管理中心為貴組織中的商務用 Skype 使用者管理商務用 Skype 設定。  移至 [使用者詳細資料] 頁面上的 [商務用 Skype] 索引標籤。 您可以從這裡管理個別使用者的外部存取與會議設定。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+
+### <a name="manage-skype-for-business-settings-for-your-organization"></a>管理貴組織的商務用 Skype 設定
+
+您可以在 Microsoft 團隊系統管理中心為貴組織中的商務用 skype 使用者管理商務用 Skype 功能。 移至 **全組織的設定**  >  **商務用 Skype** 。 您可以從這裡管理 Skype 會議廣播、目前狀態及行動通知。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+
+## <a name="october-16-2020"></a>2020年10月16日
+
+### <a name="manage-shift-based-access-for-firstline-workers"></a>管理第一線員工工作者的倒班式存取
+
+身為系統管理員，您可以將團隊設定為顯示您組織中的第一線員工工作人員的一組班次的目前狀態，以指出他們是在何時開啟和關閉班次。 使用值班式存取時，您可以在第一線員工工作人員離開班次時管理團隊的存取權。 例如，您可以將團隊設定為顯示一則訊息，讓第一線員工工人必須承認，才能使用小組，而不是排定的班次。 [深入了解](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+
+## <a name="october-15-2020"></a>2020年10月15日
+
+### <a name="custom-policy-packages"></a>自訂原則套件
+
+*此功能是私人預覽*
+
+自訂原則套件可讓您將自己的一組原則與組織中相似角色的使用者捆綁。 新增您所需的原則類型和原則，建立您自己的原則套件。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)。
+
+### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心將應用程式新增至團隊
+
+在 Microsoft 團隊系統管理中心的 [管理應用程式] 頁面上，您可以使用 [ **新增至小組** ] 按鈕，將應用程式安裝至團隊。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/manage-apps)。
+
 ## <a name="october-1-2020"></a>2020年10月1日
+
+### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>使用商務用 OneDrive 和 SharePoint 進行會議錄製
+
+Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Microsoft Stream 轉換到新串流的第一個階段，此方法會將錄製儲存在 microsoft 365 的商務用 OneDrive 和 SharePoint 中，並提供許多好處。 [深入了解](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
+
+### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>適用于中小型企業的免費音訊會議
+
+如果您是最多300個使用者的中小型企業或中型企業，而且您目前沒有任何音訊會議授權，您可以在一年免費取得語音會議。 此免費優惠于2020年10月1日起提供。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
 
 現在，在團隊系統管理中心全域管理員將能在 Azure Active Directory 中審查並授與已註冊的圖形 API 許可權，代表整個租使用者所要求的許可權，例如讀取儲存在團隊中的資訊，或代表使用者傳送電子郵件。 現在，IT 系統管理員將能夠在團隊系統管理中心中查看應用程式的資源特定同意 (RSC) 許可權。 有了該系統管理員就能解除封鎖他們的使用者，以取得他們已在組織中已審閱及已核准使用的協力廠商應用程式。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+
+### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>針對奧地利、丹麥、義大利、葡萄牙、瑞典及瑞士的通話方案支援
+
+我們最近新增了對奧地利、丹麥、義大利、葡萄牙、瑞典及瑞士的通話方案支援。  [深入了解](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+
 ## <a name="september-29-2020"></a>2020年9月29日
 
 ### <a name="meeting-policy-settings"></a>會議原則設定
@@ -116,7 +177,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 在團隊行動應用程式中使用 Cortana 語音技能，可協助使用者執行會議、通訊及共同作業工作，只需使用語音的自然語言即可。 使用者可以按一下 [小組] 應用程式中的 [麥克風] 按鈕，併發出「呼叫 Megan」或「傳送訊息至我的下一次會議」等要求，如果他們需要與某人進行連線，而不需要與其他人聯繫，或是想在旅途中進行。 使用者只需說「加入我的下一筆會議」就能加入會議，或詢問「我現在該怎麼辦」。 在會議或通話中，他們可以從會議階段中的 [溢位] 功能表呼叫 Cortana，並執行一般的會議工作，例如依名稱或編號新增人員 ( 「新增 Megan 至通話」 ) 、投影片簡報 ( 「顯示季度回顧投影片」 ) 或流覽投影片 ( 「移至附錄投影片」 ) 。 此功能支援的其他專案包括在 [小組] app 中尋找及共用檔案、搜尋及流覽 ( [與 John 開啟我的聊天]，移至我的提及活動，請移至我的提示等。 ) 。
 
-小組中的 cortana 符合對 Cortana enterprise 服務的企業層級隱私權、安全性和合規性承諾，如 [線上服務條款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)所示。
+小組中的 cortana 符合對 Cortana enterprise 服務的企業層級隱私權、安全性和合規性承諾，如 [線上服務條款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)所示。 [深入了解](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
 
 ### <a name="teams-devices-administrator"></a>團隊裝置管理員
 
@@ -126,7 +187,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="lists-app-in-teams"></a>小組中的 [清單] 應用程式
 
-團隊使用者現在可以使用 [清單] 應用程式索引標籤，直接管理、建立和維護他們的清單。[清單] 應用程式可在所有團隊用戶端上運作，並能在清單專案周圍共同作業及通訊。 如需如何管理清單應用程式的詳細資訊，請參閱 [管理貴組織的清單應用程式](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
+團隊使用者現在可以使用 [清單] 應用程式索引標籤，直接管理、建立和維護他們的清單。[清單] 應用程式可在所有團隊用戶端上運作，並能在清單專案周圍共同作業及通訊。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
 
 ## <a name="august-6-2020"></a>2020年8月6日
 
@@ -144,12 +205,6 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 開發人員可以使用小組 App 提交 API，將自訂應用程式直接提交至 Microsoft 團隊系統管理中心供管理員審閱及核准。 [深入了解](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
 
-## <a name="july-31-2020"></a>2020年7月31日
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>系統管理員可以在班次上設定以班次為基礎的狀態 (，而不是針對其第一線員工工作人員的 shift) 
-
-系統管理員可以將他們的第一線員工工作人員設定為使用班式的目前狀態：在 shift 時，在按住 shift) ，然後關閉 shift 鍵，就能切換忙碌的 (。
-
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用裝置標記功能增強的易管理性
@@ -158,7 +213,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="view-only-in-meetings"></a>在會議中僅供查看
 
-[查看]-僅允許最多20000個偵聽參與者加入會議，其中召集人擁有高級通訊附加元件 SKU 的授權。1這是預覽或較早的版本功能。 [瞭解更多資訊](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
+[查看]-僅允許最多20000個偵聽參與者加入會議，其中召集人擁有高級通訊附加元件 SKU 的授權。1這是預覽或較早的版本功能。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
 
 ## <a name="july-28-2020"></a>2020年7月28日
 
@@ -176,13 +231,13 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="ndi-out-for-teams-meetings"></a>團隊會議的 NDI
 
-我們新增了可讓 NDI 退出至團隊會議的功能。 NDI 可讓影片製作工具使用會議的音訊和影片。 [深入了解](../use-ndi-in-meetings.md)。
+我們新增了啟用團隊會議 NDI-Out 的功能。 NDI-Out 可讓影片製作工具使用會議的音訊和影片。 [深入了解](../use-ndi-in-meetings.md)。
 
 ## <a name="july-15-2020"></a>2020年7月15日
 
 ### <a name="enable-suggested-replies"></a>啟用建議的回復
 
-開啟此設定以啟用聊天訊息的建議回復。 [瞭解更多資訊](../messaging-policies-in-teams.md)
+開啟此設定以啟用聊天訊息的建議回復。 [深入了解](../messaging-policies-in-teams.md)。
 
 ## <a name="july-9-2020"></a>2020年7月9日
 
@@ -194,7 +249,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="policy-packaging-batch-assignment"></a>原則封裝批次指派
 
-我們讓您可以使用 PowerShell 來成批指派使用者和群組的原則套件。
+我們讓您可以使用 PowerShell 來成批指派使用者和群組的原則套件。 [深入了解](https://docs.microsoft.com/microsoftteams/manage-policy-packages)。
 
 ## <a name="july-7-2020"></a>2020年7月7日
 
@@ -210,7 +265,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="transferring-incoming-calls"></a>轉接來電
 
-我們新增了自動語音應答的功能，以及呼叫佇列的來電將轉接至外部 PSTN 電話號碼。  [深入了解](../business-voice/set-up-auto-attendants.md)。
+我們新增了自動語音應答的功能，以及呼叫佇列的來電將轉接至外部 PSTN 電話號碼。 [深入了解](../business-voice/set-up-auto-attendants.md)。
 
 ## <a name="june-30-2020"></a>2020年6月30日
 
@@ -226,7 +281,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 團隊中的 Walkie Talkie 應用程式
 
-使用推入式交談立即語音通訊。
+使用推入式交談立即語音通訊。 [深入了解](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
 
 ## <a name="june-25-2020"></a>2020年6月25日
 
@@ -248,7 +303,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="monitor-shifts-with-audit-logs"></a>使用審核記錄監視班次
 
-您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。 [深入瞭解] (<https://docs.microsoft.com/microsoftteams/audit-log-events> 。
+您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。 [深入了解](https://docs.microsoft.com/microsoftteams/audit-log-events)。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 
@@ -318,7 +373,7 @@ RealWear 的 Microsoft 團隊用戶端可讓第一線員工工作者使用 RealW
 
 ### <a name="tag-youre-it"></a>標記，您是
 
-建立標籤並將人員指派給他們，讓您可以 @mention 群組、角色、部門等。小組擁有者，請嘗試自行進行。 移至團隊，選取 [**更多選項**]  >  **管理標記**。 [深入了解](../manage-tags.md)。
+建立標籤並將人員指派給他們，讓您可以 @mention 群組、角色、部門等。小組擁有者，請嘗試自行進行。 移至團隊，選取 [ **更多選項** ]  >  **管理標記** 。 [深入了解](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020年3月30日
 

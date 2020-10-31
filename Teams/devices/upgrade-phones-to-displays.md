@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 瞭解如何將團隊手機升級至團隊顯示在 Microsoft 團隊系統管理中心。
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787604"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816113"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>將小組電話升級至團隊顯示
 
@@ -70,7 +70,13 @@ ms.locfileid: "48787604"
 
 ## <a name="known-issues"></a>已知問題
 
-在未來的更新中，將會提供團隊顯示的深色主題支援。 在升級之後，使用深色主題的小組手機會取得預設的主題。
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>團隊顯示有預設的主題，而不是深色主題
+
+在未來的更新中，將會提供團隊顯示的深色主題支援。 使用深色主題的小組手機會在升級至團隊後取得預設的主題。
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>某些應用程式在主畫面中遺失
+
+如果升級之後，主畫面中的某些應用程式遺失，請登出並再次登入。 此功能的修正程式將于未來的更新中提供。
 
 ## <a name="see-also"></a>另請參閱
 
