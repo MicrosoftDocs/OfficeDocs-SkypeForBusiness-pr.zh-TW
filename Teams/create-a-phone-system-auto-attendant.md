@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803791"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820027"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -48,7 +48,7 @@ ms.locfileid: "48803791"
 
 ## <a name="general-info"></a>一般資訊
 
-![](media/auto-attendant-general-info-page-new.png)
+![[名稱]、[操作員]、[時區]、[語言] 和 [語音輸入] 的自動助理設定的螢幕擷取畫面](media/auto-attendant-general-info-page-new.png)
 
 1. 在頂端方塊中輸入自動語音應答的名稱。
 
@@ -64,7 +64,7 @@ ms.locfileid: "48803791"
 
 ## <a name="call-flow"></a>通話流程
 
-![](media/auto-attendant-call-flow-greeting-message.png)
+![問候訊息設定的螢幕擷取畫面](media/auto-attendant-call-flow-greeting-message.png)
 
 選擇當自動語音接聽來電時，是否要播放問候語。
 
@@ -72,7 +72,7 @@ ms.locfileid: "48803791"
 
 如果您選取 [ **輸入問候語** ]，系統將會朗讀您在其中輸入文字的文字， (最多1000個字元) 當自動語音接聽來電時。
 
-![](media/auto-attendant-call-flow-route-call-message.png)
+![呼叫路由設定的螢幕擷取畫面](media/auto-attendant-call-flow-route-call-message.png)
 
 選擇您要路由通話的方式。
 
@@ -84,7 +84,7 @@ ms.locfileid: "48803791"
 
 ### <a name="menu-options"></a>功能表選項
 
-![](media/auto-attendant-call-flow-menu-options-complete.png)
+![[撥號鍵] 選項的螢幕擷取畫面](media/auto-attendant-call-flow-menu-options-complete.png)
 
 針對撥號選項，您可以將電話鍵台的0-9 金鑰指派給其中一個呼叫路由目標。  (按鍵 \* (重複) ，而 \# (返回) 是由系統保留，且無法重新指派。 ) 
 
@@ -129,7 +129,7 @@ ms.locfileid: "48803791"
 
 ## <a name="call-flow-for-after-hours"></a>下班時間的通話流程
 
-![](media/auto-attendant-business-hours.png)
+![[時間] 和 [時間] 設定的螢幕擷取畫面](media/auto-attendant-business-hours.png)
 
 每個自動語音應答的上班時間都可以設定。 如果未設定上班時間，則當天的所有日期和所有的時間都被視為「上班時間」，因為預設會設定24/7 排程。 您可以在一天中使用時段來設定上班時間，而且所有未設為「上班時間」的小時都會被視為時間。 您可以設定不同的來電處理選項和問候語（在下班後）。
 
@@ -143,7 +143,7 @@ ms.locfileid: "48803791"
 
 ## <a name="call-flows-during-holidays"></a>假日期間的通話流程
 
-![](media/auto-attendant-holiday-greeting.png)
+![假日和假日問候語設定的螢幕擷取畫面](media/auto-attendant-holiday-greeting.png)
 
 您的自動語音應答可以針對 [您設定](set-up-holidays-in-teams.md)的每一個假日進行通話流程。 您最多可以將20個排定的假日新增至每個自動語音應答。
 
@@ -155,7 +155,7 @@ ms.locfileid: "48803791"
 
 4. 選擇您要使用的問候類型。
 
-    ![](media/auto-attendant-holiday-actions.png)
+    ![假日通話動作設定的螢幕擷取畫面](media/auto-attendant-holiday-actions.png)
 
 5. 選擇您是否要 **中斷** 連線，或重新 **導向** 通話。
 
@@ -163,7 +163,7 @@ ms.locfileid: "48803791"
 
 7. 按一下 [儲存]  。
 
-![](media/auto-attendant-holiday-call-settings.png)
+![[假日] 設定的螢幕擷取畫面，其中列出假日](media/auto-attendant-holiday-call-settings.png)
 
 視需要針對每個額外的假日重複程式。
 
@@ -171,7 +171,7 @@ ms.locfileid: "48803791"
 
 ## <a name="dial-scope"></a>撥號作用中
 
-![](media/auto-attendant-dial-scope.png)
+![[撥號作用中包括] 和 [排除] 選項的螢幕擷取畫面](media/auto-attendant-dial-scope.png)
 
 *撥號作用* 中定義來電者使用按名稱撥號或撥號延伸時，在目錄中可使用的使用者。 **所有線上使用者** 的預設值都是您組織中所有以電話系統授權或主機內部部署的使用者（使用商務用 Skype 伺服器）。
 
@@ -186,11 +186,11 @@ ms.locfileid: "48803791"
 
 所有自動語音應答都必須有關聯的資源帳戶。  第一層自動語音應答將至少需要一個有相關服務號碼的資源帳戶。 如果您想要的話，您可以將多個資源帳戶指派給自動語音應答，每個都有不同的服務號碼。
 
-![](media/auto-attendant-add-resource-account.png)
+![資源帳戶 [新增帳戶] 面板的螢幕擷取畫面](media/auto-attendant-add-resource-account.png)
 
 若要新增資源帳戶，請按一下 [ **新增帳戶** ]，然後搜尋您要新增的帳戶。 按一下 [ **新增** ]，然後按一下 [ **新增** ]。
 
-![](media/auto-attendant-resource-account-assigned.png)
+![[資源帳戶] 清單的螢幕擷取畫面，其中顯示已指派服務號碼的資源帳戶](media/auto-attendant-resource-account-assigned.png)
 
 完成新增服務帳戶後，請按一下 [ **提交** ]。 這會完成自動助理設定。
 
@@ -216,23 +216,23 @@ ms.locfileid: "48803791"
 
 您也可以使用 PowerShell 來建立及設定自動語音應答。 以下是您需要管理自動語音應答的 Cmdlet：
 
-- [新-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
-- [CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [移除-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [新-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [新-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [新-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [新-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [新-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [新-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [新-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [匯入-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [新-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
+- [CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [移除-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [新-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [新-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [新-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [新-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [新-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [新-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [新-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [匯入-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
 ## <a name="related-topics"></a>相關主題

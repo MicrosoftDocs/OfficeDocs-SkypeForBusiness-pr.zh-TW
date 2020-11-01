@@ -1,5 +1,5 @@
 ---
-title: 建立通話佇列
+title: 在 Microsoft 團隊中建立通話佇列
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中設定電話聯絡佇列，提供問候語、等候音樂、呼叫重新導向及其他功能。
-ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793538"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820020"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -50,7 +50,7 @@ ms.locfileid: "48793538"
 
 ## <a name="resource-account-and-language"></a>資源帳戶和語言
 
-![](media/call-queue-name-language.png)
+![資源帳戶和語言設定的螢幕擷取畫面](media/call-queue-name-language.png)
 
 1. 輸入通話佇列的名稱。 當代理程式從佇列接收來電時，就會看到這個名稱。
 
@@ -77,7 +77,7 @@ ms.locfileid: "48793538"
 - 內部部署商務用 Skype 伺服器使用者
 - 如果您的代理正在使用 Microsoft 團隊 app 進行通話佇列通話，則必須在 TeamsOnly 模式中。
 
-![](media/call-queue-users-groups.png)
+![通話佇列之使用者與群組設定的螢幕擷取畫面](media/call-queue-users-groups.png)
 
 您可以透過群組新增最多20個代理程式，以及最多200個代理程式。
 
@@ -90,7 +90,7 @@ ms.locfileid: "48793538"
 
 ## <a name="call-routing"></a>通話路由
 
-![](media/call-queue-conference-mode-routing-method.png)
+![[會議模式] 與 [路由方法] 設定的螢幕擷取畫面](media/call-queue-conference-mode-routing-method.png)
 
 在工程師接受通話之後， **會議模式** 會大大減少呼叫者連線至代理程式所需的時間長度。 若要使用會議模式，通話佇列中的代理程式必須使用下列其中一個用戶端：
 
@@ -112,7 +112,7 @@ ms.locfileid: "48793538"
 
 - 閒置時間最長的 **閒置** 路由，每個呼叫都是閒置時間最長的代理程式。 如果工程師的目前狀態為 [空閒] 或其目前狀態已離開10分鐘以內，則會被視為空閒。 目前狀態為已離開超過10分鐘的代理程式不會被視為空閒，而且將無法接收來電，直到它們變更其目前狀態。 
 
-![](media/call-queue-presence-agents-time.png)
+![[路由]、[選擇外移] 及 [提醒時間] 設定的螢幕擷取畫面](media/call-queue-presence-agents-time.png)
 
 
 目前 **狀態路由** 會使用呼叫代理程式的可用性狀態，判斷是否應將工程師納入所選路由方法的通話路由清單中。 [通話傳送] 清單中包含 [ **提供給可用** ] 的呼叫代理程式，並可接聽來電。 其可用性狀態設定為任何其他狀態的代理會從 [呼叫傳送清單] 中排除，而且在其可用性狀態變更回 [ **可用** ] 之前，將不會收到來電。 
@@ -135,18 +135,18 @@ ms.locfileid: "48793538"
 
 ## <a name="call-overflow-handling"></a>呼叫溢出處理
 
-![](media/call-queue-overflow-handling.png)
+![通話溢出設定的螢幕擷取畫面](media/call-queue-overflow-handling.png)
 
 **佇列中的最大通話** 數指定可在任何指定時間在佇列中等待的呼叫數量上限。 預設值為50，但範圍可以是0到200。 達到這個限制之後，就會按照在 **達到最大通話數設定時** 所指定的方式來處理通話。
 
-您可以選擇中斷通話，或將它重新導向至其中一個呼叫路由目標。 例如，您可能會有來電者在佇列中留下代理程式的語音信箱。
+您可以選擇中斷通話，或將它重新導向至除操作員以外的任何 [呼叫路由目標](create-a-phone-system-auto-attendant.md#call-routing-options) 。 例如，您可能會有來電者在佇列中留下代理程式的語音信箱。  (請注意，如果您要轉移到外部號碼，請記下 [這些詳細資料](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) 。 ) 
 
 > [!NOTE]
 > 如果 [呼叫數量上限] 設定為0，則不會播放問候語訊息。
 
 ## <a name="call-timeout-handling"></a>通話超時處理
 
-![](media/call-queue-timeout-handling.png)
+![通話超時設定的螢幕擷取畫面](media/call-queue-timeout-handling.png)
 
 [ **通話超時]： [最長等候時間** ] 指定在電話重新導向或中斷前，可以在佇列中保留的最長時間。 您可以指定介於15秒到45分鐘之間的值。
 
@@ -181,13 +181,13 @@ ms.locfileid: "48793538"
 
 您也可以使用 Windows PowerShell 來建立及設定通話佇列。 以下是您用來管理通話佇列的 Cmdlet。
 
-- [新-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [新-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [移除-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [移除-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -197,6 +197,6 @@ ms.locfileid: "48793538"
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[新-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[新-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
