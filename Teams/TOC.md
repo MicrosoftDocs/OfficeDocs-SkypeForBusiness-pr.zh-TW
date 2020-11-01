@@ -40,7 +40,6 @@
 ## [建立人員管理團隊](create-manager-directs-teams.md)
 ## [管理團隊和頻道原則](teams-policies.md)
 ## [適用於 Teams 的敏感度標籤](sensitivity-labels.md)
-## [在 Teams 中管理私人團隊的探索](manage-discovery-of-private-teams.md)
 ## [在 Teams 中設定頻道裁決](manage-channel-moderation-in-teams.md)
 ## [在 Teams 中共用檔案](sharing-files-in-teams.md)
 ## [Teams 和 Outlook 電子郵件整合](teams-outlook-email-integration.md)
@@ -1015,3 +1014,4 @@
 ## [升級探索問卷](upgrade-plan-journey-discovery-questionnaire.md)
 ## [使用 Microsoft Teams API 匯出內容](export-teams-content.md)
 ## [Teams 系統管理員功能的版本資訊](release-notes/release-notes.md)
+## [Microsoft Teams 中的公開預覽](public-preview-doc-updates.md)
