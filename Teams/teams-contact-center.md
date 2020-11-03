@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424623"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827737"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -54,6 +54,7 @@ Api 可讓合作夥伴開發並整合小組的 CCaaS 方案。 此外，我們�
 | Landis 技術 | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 好 inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 此清單會隨著更多合作夥伴加入並符合認證準則而更新。
@@ -74,9 +75,9 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 透過 [直接路由 **]** 連線 () 
 
-  - 連線**並延伸** (直接路由、圖形 Api 與團隊 app 平臺) 
+  - 連線 **並延伸** (直接路由、圖形 Api 與團隊 app 平臺) 
 
-  -  (將團隊 Sdk 內嵌到原生團隊互動的3p 應用程式中 **，延伸及加電**) 
+  -  (將團隊 Sdk 內嵌到原生團隊互動的3p 應用程式中 **，延伸及加電** ) 
 
 ### <a name="connect"></a>至
 
@@ -90,19 +91,19 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 雖然以下不是此整合模型的完整功能清單，但焦點區域包括：
 
-  - 可讓代理從其整合的 CCaaS 用戶端連線至其 Microsoft 租使用者的 Office 365 authN 
+  - 可讓代理從其整合的 CCaaS 用戶端連線至其 Microsoft 租使用者的 Office 365 authN 
 
-  - 來自團隊使用者的目前狀態指示 
+  - 來自團隊使用者的目前狀態指示 
 
-  - 透過 [測試方案] 中的指示，透過直接路由 (通話流程)  
+  - 透過 [測試方案] 中的指示，透過直接路由 (通話流程)  
 
-  - 支援使用團隊使用者轉移和群組通話 
+  - 支援使用團隊使用者轉移和群組通話 
 
-  - 團隊圖形 Api 和雲端溝通 Api 與團隊整合 
+  - 團隊圖形 Api 和雲端溝通 Api 與團隊整合 
 
-  - 能夠支援多租使用者 SIP 中繼，以支援合作夥伴的 SBC 中的數個客戶。  
+  - 能夠支援多租使用者 SIP 中繼，以支援合作夥伴的 SBC 中的數個客戶。  
 
-  - 要在 SBC 中實現[ <span class="underline">Microsoft 認證會話邊界控制器 (</span>的合作夥伴) ](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 要在 SBC 中實現[ <span class="underline">Microsoft 認證會話邊界控制器 (</span>的合作夥伴) ](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>連接並延伸
 
@@ -116,11 +117,11 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 雖然以下不是此整合模型的完整功能清單，但它會醒目提示主要重點領域：
 
-  - 團隊圖形 Api 和雲端溝通 Api 與團隊整合 
+  - 團隊圖形 Api 和雲端溝通 Api 與團隊整合 
 
-  - 以團隊為基礎的應用程式經驗 
+  - 以團隊為基礎的應用程式經驗 
 
-  - 團隊成為代理的主要呼叫端點 
+  - 團隊成為代理的主要呼叫端點 
 
   - 小組用戶端呼叫所有通話控制
 
@@ -128,9 +129,9 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 在團隊內的 CCaaS app 中，針對代理程式進行分析、工作流程管理、以角色為基礎的體驗
 
-  - 與團隊用戶端整合的聊天與共同作業體驗 
+  - 與團隊用戶端整合的聊天與共同作業體驗 
 
-  - 在所有應用程式中保持效能與團隊用戶端體驗的品質  
+  - 在所有應用程式中保持效能與團隊用戶端體驗的品質  
 
 ### <a name="extend-and-power"></a>延伸及開啟
 
@@ -144,13 +145,13 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 雖然以下不是此整合模型的完整功能清單，但除了連接和延伸模型提供的功能之外，這些醒目提示也是這些功能。
 
-  - 原生代理程式透過團隊 SDK 以本機方式啟用全通道通訊 
+  - 原生代理程式透過團隊 SDK 以本機方式啟用全通道通訊 
 
-  - 針對代理共同作業和客戶互動運用小組共同作業服務  
+  - 針對代理共同作業和客戶互動運用小組共同作業服務  
 
-  - 提供雲端服務的快速資源調配，隨時隨地部署 
+  - 提供雲端服務的快速資源調配，隨時隨地部署 
 
-  - 在團隊交談期間進行直接交談控制與使用者互動 
+  - 在團隊交談期間進行直接交談控制與使用者互動 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>比較連線的連絡人中心整合模型
 
@@ -160,10 +161,10 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>團隊語音應用程式</strong></th>
-<th><strong>至</strong></th>
-<th><strong>Connect + extend</strong></th>
-<th><strong>延伸 + power</strong></th>
+<th>團隊語音應用程式</th>
+<th>至</th>
+<th>延伸</th>
+<th>關閉</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +211,8 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 <td>平台<br />
  (通話方案 + DR) </td>
 <td>直接路由</td>
-<td>直接路由</td>
+<td>平台<br />
+ (通話方案 + DR) </td>
 <td>平台<br />
  (通話方案 + DR) </td>
 </tr>

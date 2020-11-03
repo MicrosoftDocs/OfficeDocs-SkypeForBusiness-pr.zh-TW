@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778856"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827747"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -110,7 +110,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |與內部合作夥伴的1:1 通話             |呼叫                 |來電者的商務用 OneDrive 帳戶                        |來電者為擁有者，擁有完整許可權 <br /><br />被呼叫方 (if 在同一個租使用者) 中都有唯讀存取權，沒有共用存取權 <br /><br /> 如果在不同的租使用者) 中沒有存取權，則被呼叫者 (。 來電者必須將它共用給被叫方|
 |與內部合作夥伴的1:1 通話             |方                 |被呼叫者的商務用 OneDrive 帳戶                        |被呼叫者為擁有者，擁有完整許可權 <br /><br />呼叫者 (if 在同一個租使用者中有唯讀存取權，沒有共用存取權 <br /><br />如果在不同的租使用者) 沒有存取權，則呼叫者 (。 被呼叫方必須將它共用給被呼叫者|
 |使用外部通話的1:1 通話             |呼叫                 |來電者的商務用 OneDrive 帳戶                        |來電者為擁有者，擁有完整許可權<br /> <br />被呼叫者沒有存取權。 來電者必須將它共用給被叫方|
-|使用外部通話的1:1 通話             |方                 |來電者的商務用 OneDrive 帳戶                        | 被呼叫者為擁有者，擁有完整許可權<br /><br />來電者沒有存取權。 被叫方必須將它共用給來電者|
+|使用外部通話的1:1 通話             |方                 |被呼叫者的商務用 OneDrive 帳戶                        | 被呼叫者為擁有者，擁有完整許可權<br /><br />來電者沒有存取權。 被叫方必須將它共用給來電者|
 |群組通話                                 |通話的任何成員 |按一下記錄的商務用 OneDrive 帳戶的成員  |按一下記錄的成員具有完全權力 <br /><br /> 來自相同租使用者的其他成員具有 [讀取] 許可權 <br /><br /> 來自不同租使用者的其他成員沒有許可權。|
 |即席/排程會議                    |召集人              |召集人的商務用 OneDrive 帳戶                     | 召集人擁有錄製的完整許可權 <br /><br /> 所有其他會議成員都有讀取權限|
 |即席/排程會議                    |其他會議成員   |按一下 [記錄] 的成員                                  | 按一下 [記錄] 的成員對錄製具有完整的許可權 <br />召集人擁有編輯許可權，而且可以共用 <br /><br /> 所有其他成員都有讀取權|

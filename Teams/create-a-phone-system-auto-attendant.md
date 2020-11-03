@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820027"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48840428"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -161,7 +161,7 @@ ms.locfileid: "48820027"
 
 6. 如果您選擇 [重新導向]，請選擇通話的呼叫傳送目的地。
 
-7. 按一下 [儲存]  。
+7. 按一下 [儲存]。
 
 ![[假日] 設定的螢幕擷取畫面，其中列出假日](media/auto-attendant-holiday-call-settings.png)
 
@@ -199,7 +199,10 @@ ms.locfileid: "48820027"
 當您將來電轉接至外部電話號碼時，與自動語音應答或通話佇列相關聯的資源帳戶必須有電話號碼和 Microsoft 365 電話系統-虛擬使用者授權。 此外
 
 - 針對含有通話方案編號的資源帳戶，請指派 [通話方案](calling-plans-for-office-365.md) 授權。
+  - 您必須使用 (+ CC + phone_number) 的 E.i 格式輸入 [外部轉接電話號碼]。
+
 - 針對有直接傳送號碼的資源帳戶，請指派 [線上語音路由策略](manage-voice-routing-policies.md)。
+  - 外部轉接電話號碼格式取決於您的 [會話邊界控制器 (SBC) ](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 設定。
 
 顯示的輸出電話號碼是由以下所示：
 
