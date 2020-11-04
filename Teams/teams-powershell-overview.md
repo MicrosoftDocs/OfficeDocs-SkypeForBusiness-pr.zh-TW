@@ -13,16 +13,16 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814362"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852154"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft 團隊 PowerShell 概覽
 
-Microsoft 團隊 PowerShell 是一組用來從 PowerShell 命令列直接管理團隊的 Cmdlet。 在 .NET 標準版中，小組 PowerShell 在 Windows 上的 PowerShell 5.1 上運作，在所有平臺上（包括 Azure Shell）都可以使用。
+Microsoft 團隊 PowerShell 是一組用來從 PowerShell 命令列直接管理團隊的 Cmdlet。 在 .NET 標準版中，小組 PowerShell 在 Windows 上的 PowerShell 5.1 上運作，而在所有平臺上（包括 Azure 雲端 Shell）都可以使用。
 
 您必須先 [安裝它](teams-powershell-install.md)，才能開始使用 PowerShell。 
 
@@ -34,9 +34,9 @@ Microsoft 團隊 PowerShell 是一組用來從 PowerShell 命令列直接管理�
 
 您可以在兩種版本類型中的 [PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams) 上使用團隊 PowerShell。
 
-- **正式供貨 (GA) **：生產已就緒的 Cmdlet，每月更新。
+- **正式供貨 (GA)** ：生產已就緒的 Cmdlet，每月更新。
 
-- **公用預覽**：提前存取功能。 更新頻率可能比 GA 更新。
+- **公用預覽** ：提前存取功能。 更新頻率可能比 GA 更新。
 
 如需這兩個版本之功能新增和改良的詳細資訊，請閱讀 [團隊 PowerShell 版本](teams-powershell-release-notes.md)資訊。
 

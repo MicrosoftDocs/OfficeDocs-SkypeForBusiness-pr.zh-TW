@@ -1,5 +1,5 @@
 ---
-title: 開始升級您的 Microsoft Teams
+title: 將商務用 Skype 升級至團隊-Microsoft 團隊
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.custom:
 - Teams-upgrade-guidance
 - seo-marvel-apr2020
+- seo-marvel-may2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -29,14 +30,14 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c955d0f104dc9aef476c9252a78cc2bfd2bc6f9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 384897b7496a1617b2b6617aece31b677535dc81
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497290"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878497"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>開始升級您的 Microsoft Teams
+# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>開始從商務用 Skype 升級至 Microsoft 團隊
 
 恭喜您將要開始從商務用 Skype 升級至 Microsoft Teams 的升級。 無論您是剛開始使用 Teams、已在使用 Teams 搭配商務用 Skype，或是已準備好進行升級，我們都想要確保您具備前往 Teams 的成功旅程所需的一切。
 
@@ -46,7 +47,7 @@ ms.locfileid: "48497290"
 
 Microsoft Teams 擴充商務用 Skype 的功能，將聊天、會議、通話、共同作業、應用程式整合及檔案儲存全部都放在單一介面中。 這個新的團隊合作中心，可以協助簡化使用者完成工作的方式、改善使用者滿意度並加快商業成果。 我們會持續擴充 Teams 的功能，讓您以新的方式溝通和共同作業、打破組織和地域障礙，並提高流程和決策的效率。 透過 Forrester 的報告深入瞭解升級至 Teams 的優點：[Microsoft Teams 的整體經濟影響](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)。  
 
-## <a name="when-should-my-organization-upgrade-to-teams"></a>我的組織何時應該升級至 Teams？
+## <a name="when-should-my-organization-migrate-to-teams"></a>我的組織應該何時將它遷移至團隊？
 
 商務用 Skype Online 將於 2021 年 7 月 31 日淘汰，之後將無法再存取也不再受支援。 雖然商務用 Skype Online 服務將正常運作至 2021 年 7 月 31 日，但 Microsoft 鼓勵客戶立即開始進行升級，讓您在淘汰前有足夠的時間完成更新。  請參閱我們的[淘汰通知](https://aka.ms/sfboannounce)取得詳細資訊。
 
@@ -62,7 +63,7 @@ Microsoft Teams 擴充商務用 Skype 的功能，將聊天、會議、通話、
 
 是的。 透過 [電話系統直接路由]，您可以在幾乎任何電話運營商中使用 [電話系統]。 使用直接路由，您可以將自己的會話邊界控制器 (SBC) 直接連到 [電話系統]。 如需詳細資訊，請參閱 [手機系統 Direct 路由](direct-routing-landing-page.md)。
  
-## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft 如何協助客戶升級至 Teams？ 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Microsoft 如何協助客戶將其遷移至團隊？ 
 
 Microsoft 致力於協助您從商務用 Skype 轉換到 Teams。 Microsoft 為您提供完善的端對端升級成功架構的指導方針，旨在協助您規劃及執行 Teams 升級。 我們的指導方針是為了升級旅程的每個階段而設計，無論您是剛開始使用 Teams、已在使用 Teams 搭配商務用 Skype，或是已準備好進行升級至 Teams。
 

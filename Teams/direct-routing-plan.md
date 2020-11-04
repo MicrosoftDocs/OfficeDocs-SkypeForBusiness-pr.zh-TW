@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 至 Microsoft Phone System。
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262530"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852194"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -189,7 +189,7 @@ Microsoft 建議您在 (CSR) 中產生認證簽署要求，以要求 SBC 的憑�
 - T 系統國際 GmbH (德國 Telekom) 
 - QuoVadis
 
-針對 Office 365 GCC DoD 環境中的直接路由，證書需要由下列其中一個根憑證授權單位產生：
+針對 Office 365 GCCH 和 DoD 環境中的直接路由，證書需要由下列其中一個根憑證授權單位產生：
 - DigiCert 全域根 CA
 - DigiCert 高確定性 EV 根 CA
 
@@ -235,7 +235,7 @@ Fqdn （sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.
 您必須在防火牆中開啟所有這些 IP 位址的埠，以允許傳入及傳出流量進出位址來傳送信號。  如果您的防火牆支援 DNS 名稱，FQDN **sip-all.pstnhub.microsoft.com** 會解析為所有這些 IP 位址。 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 和 DoD 環境
 
 直接路由的連接點是下列 FQDN：
 
@@ -299,7 +299,7 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 - 52.112.0.0/14 將 IP 位址從 52.112.0.1 (至 52.115.255.254) 。
 - 52.120.0.0/14 將 IP 位址從 52.120.0.1 (至 52.123.255.254) 。
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+### <a name="office-365-dod-environment"></a>Office 365 DoD 環境
 
 - 52.127.64.0/21
 

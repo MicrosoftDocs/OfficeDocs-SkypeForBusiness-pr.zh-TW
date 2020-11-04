@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解團隊 PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814412"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852164"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 團隊 PowerShell 版本資訊
 
@@ -31,14 +31,15 @@ ms.locfileid: "47814412"
 
 | 為止 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2020年11月 | [1.1.7-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>使用 MSAL 進行驗證 & 授權</li><li>重構原則套件 Cmdlet 並新增群組套件指派</li><li>已重構的目標階層 [上傳] 命令以使用非同步模型</li> |
 | 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>商務用 Skype Online 連接器整合</li> |
 | 2020年9月 | [1.1.5-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>商務用 Skype Online 連接器整合</li> |
 | 2020年7月 | [類庫](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已新增 [群組原則指派 Cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
-| 2020年6月 | [1.1.3-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>商務用 Skype Online 連接器整合<li>取得團隊優化<li>增強的可靠性</li> |
+| 2020年6月 | [1.1.3-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>商務用 Skype Online 連接器整合<li>Get-Team 優化<li>增強的可靠性</li> |
 | 2020年6月 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>已新增 Cmdlet 預載入<li>.Net Framework 優化</li>   |
-| 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>驗證碼與程式集簽名<li>已新增取得 CsPolicyPackage<li>已新增取得 CsUserPolicyPackage<li>已新增取得 CsUserPolicyPackageRecommendation<li>已新增授與 CsUserPolicyPackage<li>新增 CsBatchPolicyPackageAssignmentOperation<li>已新增設定 TeamArchivedState<li>已新增設定 TeamPicture<li>已移除取得 TeamHelp</li>  |
-| 2020年3月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>新增 CsBatchPolicyAssignmentOperation</li> |
-| 2020年2月 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>取得團隊優化</li>  |
+| 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>驗證碼與程式集簽名<li>已新增 Get-CsPolicyPackage<li>已新增 Get-CsUserPolicyPackage<li>已新增 Get-CsUserPolicyPackageRecommendation<li>已新增 Grant-CsUserPolicyPackage<li>已新增 New-CsBatchPolicyPackageAssignmentOperation<li>已新增 Set-TeamArchivedState<li>已新增 Set-TeamPicture<li>已移除 Get-TeamHelp</li>  |
+| 2020年3月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>已新增 New-CsBatchPolicyAssignmentOperation</li> |
+| 2020年2月 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 優化</li>  |
 
 ### <a name="cmdlet-availability"></a>Cmdlet 可用性
 

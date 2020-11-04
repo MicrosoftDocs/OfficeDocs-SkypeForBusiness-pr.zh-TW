@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426928"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878367"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
@@ -33,7 +33,7 @@ ms.locfileid: "48426928"
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![描述手形和向上箭號的圖示](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [使用幾個小組和頻道快速入門](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述兩個使用者的圖示](https://docs.microsoft.com/office/media/icons/users-people.png) | [為您的使用者取得訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![描述核取記號的圖示](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 上的雲端頻道中，查看最佳做法以及咖啡中的操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![[作業] 剪貼簿符號](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30中的團隊： IT 系統管理員的訓練系列，以及變更管理領導人在30天內實現團隊](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![描述核取記號的圖示](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 上的雲端頻道中，查看最佳做法以及咖啡中的操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![[作業] 剪貼簿符號](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [[粉筆粉筆] 討論：瞭解常見團隊案例的最佳做法及實際指導方針](https://aka.ms/TeamsChalkTalks) |
 
 <h2>技術訓練</h2>
 

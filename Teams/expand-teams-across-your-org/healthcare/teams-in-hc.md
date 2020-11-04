@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 瞭解衛生保健的功能，包括護理協調、安全訊息、虛擬造訪、EHR 整合，以及第一線員工工作人員系統整合。
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: 瞭解 Microsoft 團隊 telehealth、EHR 整合、第一線員工 worker 系統整合，以及患者 app 等健康護理功能。
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803531"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878707"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊
 
-Microsoft 團隊針對醫院和其他醫療保健組織提供許多有用的功能，包括：
+Microsoft 團隊提供許多適用于醫院和其他醫療保健組織的 telemedicine 功能。 團隊功能正處於開發階段，可協助醫院進行下列作業：
 
 - 虛擬走訪與電子醫療保健記錄 (EHR) 整合
 - 團隊原則套件

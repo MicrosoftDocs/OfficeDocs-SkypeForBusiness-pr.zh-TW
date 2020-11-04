@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: Microsoft 團隊安全性與合規性功能的概覽，包括審核與報告、相容性內容搜尋、eDiscovery 等。
+description: Microsoft 團隊安全性與合規性功能的概覽，包括隱私權與加密、審核及報告等。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,19 +18,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429349"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878487"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
 > [!IMPORTANT]
-> 若要深入瞭解如何在 **COVID-19 爆發期間，從家用的任何人都**能保證安全性，請閱讀以下文章：
+> 若要深入瞭解如何在 **COVID-19 爆發期間，從家用的任何人都** 能保證安全性，請閱讀以下文章：
 >  - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [使用 VPN 分割通道最佳化遠端使用者的 Microsoft 365 或 Office 365 連線能力](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - 更新2020年4月2日： [團隊安全性指南](teams-security-guide.md)
@@ -135,7 +136,7 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 在訴訟期間，您可能需要與使用者 (保管人) 或團隊保持不變，才能作為案例的證據使用。 您可以將使用者 ([使用者信箱]) 或 [法律封存] 上的小組成員來執行此動作。 針對小組法律封存，小組的信箱可以放在下列保留中：
 
-- 就地保留透過已設定目標的查詢或篩選的內容來 (信箱或網站集合的子集，或將其保留) 或
+- In-Place 在已設定目標的查詢中 (保留信箱或網站集合的子集，或已將內容保留) 中，或
 - 訴訟封存 (整個信箱或網站集合都會處於保留狀態) 。
 
 在任何一種情況下，只要設定保留，就能確保即使使用者刪除或編輯群組信箱中的頻道訊息，該內容的不變複本仍能透過 eDiscovery 搜尋進行維護和使用。 法律封存一般會套用在 eDiscovery 案例的內容中。
@@ -157,7 +158,11 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 ## <a name="privacy"></a>隱私權
 
-在 Microsoft，保護您的資料是我們最高的優先順序。 若要瞭解我們的隱私權慣例，請參閱 [Microsoft 的隱私權](https://www.microsoft.com/trust-center/privacy)。
+在 Microsoft，保護您的資料是我們最高的優先順序。 若要瞭解我們的隱私權做法，請參閱：  
+
+- [Microsoft 的隱私權](https://www.microsoft.com/trust-center/privacy)
+- [我們在 Microsoft 團隊中的隱私權與安全性承諾](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [IT 專業人員： Microsoft 團隊中的隱私權與安全性](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## <a name="information-protection-architecture"></a>資訊保護架構
 
@@ -183,9 +188,9 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的資料位置
 
-團隊中的資料位於與您的 Microsoft 365 或 Office 365 組織相關聯的地理區域中。 若要查看目前支援哪些地區，請參閱 [Microsoft 團隊中資料的位置](location-of-data-in-teams.md)。
+Teams 中的資料位於與 Microsoft 365 或 Office 365 組織關聯的地理區域中。 若要查看目前支援哪些地區，請參閱 [Microsoft 團隊中資料的位置](location-of-data-in-teams.md)。
 
-如果您需要查看哪個地區駐留您租使用者的資料，請移至[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)  >  **設定**  >  **組織設定檔**。 向下滾動至 [ **資料位置**]。
+如果您需要查看哪個地區駐留您租使用者的資料，請移至 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)  >  **設定**  >  **組織設定檔** 。 向下捲動到 **資料位置** 。
 
 ![資料位置資料表的螢幕擷取畫面，其中包含系統管理中心的團隊](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

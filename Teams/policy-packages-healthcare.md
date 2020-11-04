@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 瞭解如何使用及管理您的保健組織的小組原則套件。
-ms.openlocfilehash: 6c14cc82a7e2e16780eb50c04064955aad4e4eb7
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 28db6a594fd8ea579623975c20e96a2ce0189885
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790645"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852204"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>醫療保健的團隊原則套件
 
@@ -60,7 +60,7 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 ## <a name="get-started-with-policy-packages"></a>開始使用原則套件
 
-若要開始使用醫療保健原則套件，請在 Microsoft 系統管理中心加入中樞上，選取 [ **醫療保健基礎** 產品]，然後選取 [ **依角色指派原則設定** ]。 準備好開始使用之後，請決定您要將組織中的個別人指派給哪個原則套件。
+若要開始使用醫療保健原則套件，請在 Microsoft 系統管理中心加入中樞上，選取 [ **保健** ]，然後選取 [ **依角色指派原則設定** ]。 準備好開始使用之後，請決定您要將組織中的個別人指派給哪個原則套件。
 
 選取 [ **查看原則詳細資料** ]，進一步瞭解套件中的特定原則及其各自的設定。 在團隊系統管理中心中作業分派之後， [就可以自訂](manage-policy-packages.md#customize-policies-in-a-policy-package) 這些功能。
 

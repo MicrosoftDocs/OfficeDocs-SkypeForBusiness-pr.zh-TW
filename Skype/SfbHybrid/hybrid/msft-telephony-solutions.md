@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 說明 Microsoft 電話語音解決方案。
-ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 深入瞭解 Microsoft 的電話語音解決方案：電話系統 (私人分公司 Exchange-PBX) 和 PSTN 連線選項 (通話方案及直接路由) 。
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 3f5e4f0cf0cb027ed0c18b98c85b123634687a77
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359099"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878537"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft 電話語音解決方案
 
-當您開始將 Microsoft 雲端的團隊旅行時，microsoft 支援多種選項。 本文可協助您決定哪個 Microsoft 電話語音方案 (雲端或 Enterprise Voice 內部部署) 中的使用者適合組織中的使用者，以及您的組織如何連線到公用交換電話網路 (PSTN) 。 
+當您開始將 Microsoft 雲端的團隊旅行時，microsoft 支援多種選項。 本文可協助您決定哪個 Microsoft 電話語音方案 (雲端或 Enterprise Voice 內部部署) 中的使用者適合組織中的使用者，以及您的組織如何連線到公用交換電話網路 (PSTN) 。
 
 您應該將此文章與相關聯的技術圖表搭配使用，以提供視覺説明，讓組織正確地進行決策：
 
@@ -42,7 +43,7 @@ ms.locfileid: "47359099"
 
 ### <a name="phone-system-microsoft-365-or-office-365"></a>電話系統 (Microsoft 365 或 Office 365) 
   
-電話系統是 Microsoft 的技術，可讓通話控制和專用交換機 (PBX) 使用 microsoft 團隊和/或商務用 Skype Online 的 Microsoft 365 或 Office 365 雲端功能。 
+電話系統是 Microsoft 的技術，可讓通話控制和專用交換機 (PBX) 使用 microsoft 團隊和/或商務用 Skype Online 的 Microsoft 365 或 Office 365 雲端功能。
 
 電話系統與小組或商務用 Skype Online 用戶端和認證的裝置搭配使用。 電話系統可讓您將現有的 PBX 系統取代成一組直接從 Microsoft 365 或 Office 365 傳遞的功能，並與公司的雲端生產力經驗緊密整合。 若要將電話系統連線到公用交換電話網路 (PSTN) ，您可以選擇 Microsoft 的通話方案或您自己的電話語音載波。
 
@@ -50,7 +51,7 @@ ms.locfileid: "47359099"
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise Voice (商務用 Skype Server) 
 
-Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Server 中 (PBX) 功能上啟用呼叫控制和專用交換機。 使用您自己的電話語音載波，此選項只可連接到公用交換電話網路網路。 
+Enterprise Voice 是 Microsoft 的技術，可在內部部署商務用 Skype Server 中 (PBX) 功能上啟用呼叫控制和專用交換機。 [商務用 Skype] 選項只能透過您自己的電話語音載波連接到公用交換電話網路。
 
 如需詳細資訊，請參閱 [在商務用 Skype Server 中規劃 Enterprise Voice](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
 

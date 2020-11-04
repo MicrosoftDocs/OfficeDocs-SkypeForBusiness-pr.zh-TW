@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840428"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878178"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -213,7 +213,7 @@ ms.locfileid: "48840428"
 
 不支援通話方案 trunks 和直接路由 trunks 之間的轉移。
 
-在混合式環境中，若要透過商務用 Skype PSTN 整合將自動語音來電轉接至 PSTN，請建立一個新的內部部署使用者，並將來電轉接設定為 PSTN 號碼。 使用者必須啟用企業語音並指派語音原則。 若要深入瞭解，請參閱 [自動通話轉接至 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
+在商務用 Skype 混合式環境中，若要將自動語音來電轉接到 PSTN，請建立一個新的內部部署使用者，並將 [來電轉接] 設定為 PSTN 號碼。 使用者必須啟用企業語音並指派語音原則。 若要深入瞭解，請參閱 [自動通話轉接至 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 建立自動助理
 
