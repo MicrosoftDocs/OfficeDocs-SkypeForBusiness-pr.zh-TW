@@ -1,7 +1,7 @@
 ---
 title: 系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 ms.reviewer: ''
-description: 快速上手 Microsoft Teams 的會議和即時活動。
+description: 適用於系統管理員的快速入門指南，以取得 Microsoft Teams 的授權、推出 Microsoft Teams 和設定線上會議和即時事件。
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739391"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878657"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
@@ -31,13 +31,13 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文
 > [!Note]
 > 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
- - Teams 的**會議**包括音訊、視訊，且畫面可共用人數最多可達 300 人。 這些是在 Teams 中共同作業的重要方法之一。 而且，您不必一定要具備組織的成員資格 (或甚至不需要 Teams 帳戶！) 才能加入 Teams 會議，只要查看邀請中有關撥入會議的指示即可。
+ - Teams 的 **會議** 包括音訊、視訊，且畫面可共用人數最多可達 300 人。 這些是在 Teams 中共同作業的重要方法之一。 而且，您不必一定要具備組織的成員資格 (或甚至不需要 Teams 帳戶！) 才能加入 Teams 會議，只要查看邀請中有關撥入會議的指示即可。
 
- - **即時活動**是 Teams 會議的延伸，可讓您排程並產生活動，向大量線上觀眾串流播放，最多可讓 10,000 人參與。 如果您的會議參與人數會超過 300 人，請使用即時活動。
+ - **即時活動** 是 Teams 會議的延伸，可讓您排程並產生活動，向大量線上觀眾串流播放，最多可讓 10,000 人參與。 如果您的會議參與人數會超過 300 人，請使用即時活動。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>取得會議和即時活動的授權
 
-任何人都可以免費參加 Teams 會議或公開即時活動，不需要授權。 出席者按一下 Teams 或會議邀請中的 [加入]**** 就能加入 Teams 會議。 會議的音訊是 Teams 會議的一部分，但是如果您希望人員能夠以電話撥入會議，則您必須提供撥入號碼。
+任何人都可以免費參加 Teams 會議或公開即時活動，不需要授權。 出席者按一下 Teams 或會議邀請中的 [加入] 就能加入 Teams 會議。 會議的音訊是 Teams 會議的一部分，但是如果您希望人員能夠以電話撥入會議，則您必須提供撥入號碼。
 
 若是召集、排程和舉辦會議或即時活動的人員，這些人員需要下表列出的 Microsoft 365 或 Office 365 授權之一。 如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議和即時活動所需的授權。
 
@@ -45,13 +45,13 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文
 
 > <sup>1</sup>  會議召集人必須擁有[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)才能傳送內含電話撥入式會議的邀請。
 >
-> <sup>2</sup>  若是撥出至[**用下列電話號碼連絡我**號碼](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 [撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。
+> <sup>2</sup>  若是撥出至 [**用下列電話號碼連絡我** 號碼](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或 [音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 [撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。
 
 若要深入瞭解授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="make-sure-your-networks-ready"></a>確定網路已準備就緒
 
-如果您的網路在推出 Microsoft 365 或 Office 365 時已準備就緒，則表示您已完成所有準備。 無論如何，尤其是您要快速推出 Teams 做為您支援**遠端工作者**的第一個 Office 365 工作負載的話，請參閱[針對 Teams 準備組織的網路](prepare-network.md)，確保您已準備就緒。
+如果您的網路在推出 Microsoft 365 或 Office 365 時已準備就緒，則表示您已完成所有準備。 無論如何，尤其是您要快速推出 Teams 做為您支援 **遠端工作者** 的第一個 Office 365 工作負載的話，請參閱 [針對 Teams 準備組織的網路](prepare-network.md)，確保您已準備就緒。
 
 ## <a name="meetings-and-conferencing"></a>會議和召集會議
 

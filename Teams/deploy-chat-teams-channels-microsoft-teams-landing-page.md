@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 根據您的組織設定檔和商務需求，在 Microsoft Teams 中推出聊天、團隊、頻道和應用程式的逐步指引。
+description: 包含逐步指導，以在 Microsoft Teams 中為聊天、團隊、應用程式和頻道設定 Teams 設定。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+- seo-marvel-may2020
+ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820507"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878527"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -80,7 +81,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 
 ### <a name="messaging-policies"></a>訊息原則
 
-管理原則可控制 Teams 中的使用者可使用的聊天及頻道訊息功能。 例如，誰可以編輯和刪除已傳送的郵件、誰可以使用聊天、誰可以在交談中使用 Meme 等等。 依預設，使用者會獲指派全域訊息原則，且所有功能都會**開啟**。 您可以使用預設的全域原則或是為組織中的人員建立一或多個自訂訊息原則。 
+管理原則可控制 Teams 中的使用者可使用的聊天及頻道訊息功能。 例如，誰可以編輯和刪除已傳送的郵件、誰可以使用聊天、誰可以在交談中使用 Meme 等等。 依預設，使用者會獲指派全域訊息原則，且所有功能都會 **開啟** 。 您可以使用預設的全域原則或是為組織中的人員建立一或多個自訂訊息原則。 
 
 |問問自己|動作 |
 |------------|-------|
@@ -91,7 +92,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 
 ### <a name="external-access"></a>外部存取
 
-外部存取 (之前稱為同盟) 可讓您的 Teams 和商務用 Skype 使用者與組織外部的使用者通訊。 藉由將此功能開啟並將網域新增到允許清單，您的使用者即能夠與其他網域和組織中的使用者通訊。外部存取與來賓存取的不同在於，整個網域都會獲賦予存取權限，而非個人。 外部存取依預設為關閉。
+外部存取 (之前稱為同盟) 可讓您的 Teams 和商務用 Skype 使用者與組織外部的使用者通訊。 藉由將此功能開啟並將網域新增到允許清單，您的使用者即能夠與其他網域和組織中的使用者通訊。 外部存取與來賓存取的不同在於，整個網域都會獲賦予存取權限，而非個人。 外部存取依預設為關閉。
 
 |問問自己|動作 |
 |------------|-------|
@@ -114,7 +115,7 @@ Teams 中的來賓存取可讓組織外部的個人存取團隊和頻道。 您�
 
 ### <a name="teams-settings"></a>Teams 設定
 
-Teams 設定可讓您為團隊設定使用電子郵件整合、雲端儲存選項、組織索引標籤、會議室裝置設定和搜尋範圍等功能。 對這些設定進行變更時，設定會套用到組織中的所有團隊。若要深入了解，請參閱 [ Teams 設定](enable-features-office-365.md#teams-settings)。
+Teams 設定可讓您為團隊設定使用電子郵件整合、雲端儲存選項、組織索引標籤、會議室裝置設定和搜尋範圍等功能。 對這些設定進行變更時，設定會套用到組織中的所有團隊。 若要深入了解，請參閱 [Teams 設定](enable-features-office-365.md#teams-settings)。
 
 |問問自己|動作 |
 |------------|-------|
@@ -123,7 +124,7 @@ Teams 設定可讓您為團隊設定使用電子郵件整合、雲端儲存選�
 
 ### <a name="teams-clients"></a>Teams 用戶端
 
-Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預設組態可讓使用者選擇他們想要使用的任何用戶端。若要深入了解，請參閱[取得 Teams 用戶端](get-clients.md)。
+Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預設設定可讓使用者選擇他們想要使用的用戶端。 若要深入了解，請參閱[取得 Teams 用戶端](get-clients.md)。
 
 |問問自己|動作 |
 |------------|-------|
@@ -199,7 +200,7 @@ Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。 若要深入�
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 應用程式原則 (側邊欄控制)
 
-釘選的應用程式會顯示在 Teams 的側邊欄中。 透過建立 Teams 應用程式原則，您可以預先設定釘選 Teams 應用程式的集合，以針對選取的使用者群組將 Teams 個人化。 [在 Microsoft Teams 中允許外部應用程式]**** 設定預設為開啟。
+釘選的應用程式會顯示在 Teams 的側邊欄中。 透過建立 Teams 應用程式原則，您可以預先設定釘選 Teams 應用程式的集合，以針對選取的使用者群組將 Teams 個人化。 [在 Microsoft Teams 中允許外部應用程式] 設定預設為開啟。
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -209,7 +210,7 @@ Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。 若要深入�
 
 ### <a name="archiving-and-compliance"></a>封存與合規性 
 
-您的組織可能會要求您對團隊的封存方式以及特定團隊類型中保留的資料類型實作控制。 請閱讀 [Teams 的安全性與合規性概觀](security-compliance-overview.md)，以了解預設會開啟哪些設定。
+您的組織可能會要求您對團隊的封存方式以及在特定團隊類型中保留的資料類型採取控制措施。 請閱讀 [Teams 的安全性與合規性概觀](security-compliance-overview.md)，以了解預設會開啟哪些 Teams 設定。
 
 | 問問自己 | 動作 |
 |--------------|--------|

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 系統管理訓練
 ms.reviewer: ''
-description: 使用這些使用者、系統管理員和由講師帶領的訓練資源，幫助您充分利用貴組織中的 Microsoft Teams。
+description: 使用這些使用者、系統管理員和由講師帶領的訓練資源和教學課程影片，幫助您充分利用組織中的 Microsoft Teams。
 ms.topic: overview
 author: msdmaguire
 ms.author: dmaguire
@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: f1215838081d6cab919999b7ccd91d061ce87321
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336972"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878347"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 訓練
 

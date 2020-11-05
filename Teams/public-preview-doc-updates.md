@@ -17,12 +17,12 @@ description: 了解 Microsoft Teams 中的公開預覽。 嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a13e5499cb00d95d685b493db1365e9dc08ff43f
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816220"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852184"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -48,8 +48,8 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 若要在桌面或 Web 用戶端上啟用公開預覽，您必須執行下列工作：
 
 1. 選取您的設定檔以顯示 Teams 功能表。
-2. 選取 [關於 **]** → [開發人員預覽 **]** 。
-3. 選取 [切換至開發人員預覽 **]** 。
+2. 選取 [關於] → [公開預覽]。
+3. 選取 [切換至公開預覽]。
 
 ## <a name="related-topics"></a>相關主題
 

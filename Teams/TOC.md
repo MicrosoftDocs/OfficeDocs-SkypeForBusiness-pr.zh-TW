@@ -258,6 +258,7 @@
 ### 參考
 #### [音訊會議的支援語言](audio-conferencing-supported-languages.md)
 #### [音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [音訊會議的國家/地區](audio-conferencing-zones.md)
 #### [影片：Teams 的音訊會議](audio-conferencing-videos.md)
 
 
@@ -683,7 +684,7 @@
 ### 虛擬就診
 #### [使用 Teams 虛擬 - 融入 EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [使用 Bookings 和 Teams 進行虛擬就診](bookings-app-admin.md)
-### [建立 Teams 原則套件](policy-packages-healthcare.md)
+### [檢視並指派原則套件](policy-packages-healthcare.md)
 ### 保護訊息的安全
 #### [保護訊息的安全](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [訊息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -930,7 +931,6 @@
 ### [芬蘭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [法國](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [喬治亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-### [迦納](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [德國](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
 ### [迦納](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [希臘](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)

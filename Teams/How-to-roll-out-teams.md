@@ -1,13 +1,13 @@
 ---
 title: 如何推出 Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: 無論您是一次推出或分階段開始，都要製定一個課程來成功地在組織中實作 Microsoft Teams。
+description: 無論您是一次推出或分階段開始，都要制定一個程序以成功在組織中實作 Microsoft Teams。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -19,19 +19,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637912"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878687"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>如何推出 Microsoft Teams
 
 ## <a name="start-here"></a>從這裡開始
-無論您是小型企業或跨國企業，推出 Teams 的起點位置都是在[快速入門](get-started-with-teams-quick-start.md)。 快速入門會逐步引導您完成小規模的 Teams 部署，如果您是小型企業，或者要快速部署 Teams 作為初次 Microsoft 365 或 Office 365 工作負載以支援**遠端工作人員**，這就是您所需要的功能。 如果您的組織規模較大，請使用[快速入門](get-started-with-teams-quick-start.md)，以一小組早期採用者試驗 Teams，使得您能夠了解 Teams，並開始規劃整個組織的部署。 
+無論您是小型企業或跨國企業，推出 Teams 的起點位置都是在[快速入門](get-started-with-teams-quick-start.md)。 快速入門會逐步引導您完成小規模的 Teams 部署，如果您是小型企業，或者要快速部署 Teams 作為初次 Microsoft 365 或 Office 365 工作負載以支援 **遠端工作人員** ，這就是您所需要的功能。 如果您的組織規模較大，請使用[快速入門](get-started-with-teams-quick-start.md)，以一小組早期採用者試驗 Teams，使得您能夠了解 Teams，並開始規劃整個組織的部署。 
 
 ## <a name="recommended-path-to-teams"></a>Teams 的建議途徑
 
@@ -50,7 +51,7 @@ ms.locfileid: "44637912"
 
 ## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>如果您是從商務用 Skype、內部部署或混合式部署開始
 
-如果您透過商務用 Skype (線上或內部部署) 進入 Teams，或如果您需要混合式組態，您仍然需要依照上面用於推出 Teams 的[建議路徑](#recommended-path-to-teams)，但您必須先進行一些額外的規劃。 從檢閱下表中適用於您組織設定檔的指導方針開始。
+如果您是從商務用 Skype (線上或內部部署) 進入 Teams，或如果您需要混合式設定，您仍然需要依照上述針對 Teams 部署的[建議路徑](#recommended-path-to-teams)進行，但首先您需進行一些額外的規劃。 從檢閱下表中適用於貴組織設定檔的指導方針開始。
 
 
 
