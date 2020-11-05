@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解團隊中的 [自動語音應答] 和 [通話佇列撥號] 和 [語音辨識] 選項。
-ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b63235409418f7ff05b8d34973d2390e6b18df36
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818803"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908702"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動語音應答和通話佇列撥號及語音辨識參考
 
@@ -78,7 +78,7 @@ ms.locfileid: "48818803"
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>使用語音撥打名稱-名稱識別
 
-使用者可以使用語音 (語音辨識) 在組織中搜尋其他人。 他們也可以透過說要尋找的人員名稱，在 Active Directory 中與任何人取得聯繫。 使用語音輸入可以辨識各種格式的名稱，包括 FirstName、姓氏、名字 + 姓氏或姓氏 + 名字。
+使用者可以使用語音 (語音辨識) 在組織中搜尋其他人。 他們也可以透過說要尋找的人員的完整或部分名稱，在 Active Directory 中與任何人取得聯繫。 使用語音輸入可以辨識各種格式的名稱，包括 FirstName、姓氏、名字 + 姓氏或姓氏 + 名字。
   
 您可以為自動語音應答啟用語音辨識功能，但不會停用手機小數位專案 (DTMF) 。 即使已在自動語音應答上啟用語音辨識功能，您也可以在任何時候使用電話鍵台專案。
   
@@ -92,6 +92,9 @@ ms.locfileid: "48818803"
 |姓氏 + FirstName |填  |大理石 Amos |Amos 大理石 |
 |段 |填 |Amos |針對 Amos 大理石按或說1  <br/> 按下或說出2的 Amos。 |
 |姓名 |填 |式 |針對 Amos 大理石按或說1  <br/> 針對 Ben 大理石按下或說出2 |
+|[名字] 或 [姓氏] |部分 |Mar |按或說 [Mary 大理石 1]  <br/> 按下或說 [Mary 2]。  <br/> 針對 Amos Marcus 按下或說出3 |
+|FirsName + LastName |部分 |Amos Mar |針對 Amos 大理石按或說1  <br/> 針對 Amos Marcus 按下或說出2 |
+
 
 > [!NOTE]
 > 新的使用者可能需要長達36小時，才能使用語音辨識將其名稱列在目錄中，因為 Active Directory 複製延隔時間。

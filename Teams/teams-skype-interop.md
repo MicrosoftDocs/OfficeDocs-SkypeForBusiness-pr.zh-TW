@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的團隊使用者與 Skype (消費者) 使用者之間的互通性功能。
 localization_priority: Normal
-ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766897"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919035"
 ---
 # <a name="teams-and-skype-interoperability"></a>團隊與 Skype 互通性
 
@@ -47,9 +47,9 @@ Skype 使用者可以選擇不顯示在搜尋結果中。 在這種情況下，�
 
 Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團隊使用者交談。 小組使用者會收到通知，告知他們有來自 Skype 使用者的新訊息，而且必須先接受郵件，才能回復。
 
-- 如果團隊使用者選取 [ **接受**]，就會接受該交談，且兩個使用者都可以相互聊天和呼叫對方。
-- 如果團隊使用者選取 [ **封鎖**]，就會封鎖交談，隨後就會封鎖該 Skype 使用者的後續訊息和通話。
-- 如果小組使用者選取 [ **查看郵件**]，該訊息會顯示在 [小組] 中，協助使用者決定要接受還是封鎖交談。
+- 如果團隊使用者選取 [ **接受** ]，就會接受該交談，且兩個使用者都可以相互聊天和呼叫對方。
+- 如果團隊使用者選取 [ **封鎖** ]，就會封鎖交談，隨後就會封鎖該 Skype 使用者的後續訊息和通話。
+- 如果小組使用者選取 [ **查看郵件** ]，該訊息會顯示在 [小組] 中，協助使用者決定要接受還是封鎖交談。
 
 > [!NOTE]
 > 如果您是從商務用 Skype 升級至小組，且您的使用者是 [僅限團隊] 模式，則會將 Skype 使用者的聊天和呼叫傳送給小組。 如果您的使用者處於 [孤島] 模式，聊天和 Skype 使用者的呼叫會傳送到商務用 Skype。
@@ -73,13 +73,20 @@ Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>設定團隊使用者是否可與 Skype 使用者通訊
 
-作為系統管理員，您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定外部存取設定，以控制貴組織中的小組使用者是否可與 Skype 使用者通訊。 根據預設，此功能已針對新的租使用者開啟。
+作為系統管理員，您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定外部存取設定，以控制貴組織中的小組使用者是否可與 Skype 使用者通訊。 根據預設，此功能已針對新的租使用者開啟。 不過，如果您的網域尚未提供下列 DNS SRV 記錄（例如 _sipfederationtls .com），必須由 IT 系統管理員進行設定。  
+
+**服務** ： sipfederationtls<br/>
+**通訊協定** ： TCP<br/>
+**優先順序** ：100<br/>
+**體重** ：1<br/>
+**埠** ：5061<br/>
+**目標** ： sipfed.online.lync.com
 
 如果您是從商務用 Skype 升級至小組，您在商務用 Skype 系統管理中心所設定的外部通訊設定會遷移至小組。
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心
 
-在 Microsoft 團隊系統管理中心中，移至 [**全組織設定**  >  **外部存取**]，然後開啟 [**使用者可以與 Skype 使用者通訊**]。 如需如何設定此和其他外部存取設定的逐步指導，請參閱 [管理團隊中的外部存取](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
+在 Microsoft 團隊系統管理中心中，移至 [ **全組織設定**  >  **外部存取** ]，然後開啟 [ **使用者可以與 Skype 使用者通訊** ]。 如需如何設定此和其他外部存取設定的逐步指導，請參閱 [管理團隊中的外部存取](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739331"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908572"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 會議的小組原則錄製簡介
 
@@ -39,6 +39,8 @@ ms.locfileid: "48739331"
 - 支援小組使用者之間的互動捕獲，以及支援的呼叫端點 (團隊、團隊行動、商務用 Skype、PSTN) 
 
 - 新的合規性記錄管理原則，包括與現有團隊的整合管理通話與會議工具及原則
+
+相容性錄製可以在 Microsoft 365 A3/A5/E3/E5 及 Office 365 A3/A5 或 E3/E5 使用者上啟用。 
 
 相容性錄製解決方案整合功能也會在 Ignite 2019 的 [<span class="underline">相容性錄製和 Microsoft 團隊會話</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)中進行審查。
 
@@ -206,6 +208,13 @@ IT 管理員可以透過建立並指派合規性錄製原則，來判斷要錄�
 
 除了發佈公開提供的 Api，讓合作夥伴能夠開發並整合 CCaaS 方案與團隊合作，我們已開發出 Microsoft 團隊認證計畫的規範錄製，為客戶提供每個參與合作夥伴的解決方案都經過測試和驗證，以提供他們預期的品質、相容性及可靠性。  
 
+下列合作夥伴已驗證其 Microsoft 團隊的解決方案。
+
+|Partner|解決方案網站 |
+|:--|:--|
+|！ |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
 下列合作夥伴正在為 Microsoft 團隊驗證其解決方案的程式。
 
 |Partner|解決方案網站 |
@@ -216,7 +225,6 @@ IT 管理員可以透過建立並指派合規性錄製原則，來判斷要錄�
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis 技術 |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|！ |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |橡木創新 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |紅色方塊 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

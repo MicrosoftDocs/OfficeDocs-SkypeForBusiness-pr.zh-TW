@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 瞭解如何在通話品質儀表板 (CQD) 中上傳租使用者和組建資料。
-ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897833"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908692"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通話品質儀表板中上傳租使用者並建立資料 (CQD) 
 
@@ -35,9 +35,9 @@ ms.locfileid: "46897833"
 
 您可以 [在這裡](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下載範例租使用者資料範本。 如需有關建立對應的說明，請參閱 [建立 CQD 的組建地圖](CQD-building-mapping.md)。
 
-從 [CQD 摘要報告] 儀表板中，從 [CQD**設定**] 功能表中選取 **[租使用者資料上傳**]， (位於 [CQD]) 頂端的齒輪圖示。 在此，系統管理員可以上傳其組織的建築物和端點資訊，例如 IP 位址和地理資訊的對應、對應每個無線存取點及其 MAC 位址等。
+從 [CQD 摘要報告] 儀表板中，從 [CQD **設定** ] 功能表中選取 **[租使用者資料上傳** ]， (位於 [CQD]) 頂端的齒輪圖示。 在此，系統管理員可以上傳其組織的建築物和端點資訊，例如 IP 位址和地理資訊的對應、對應每個無線存取點及其 MAC 位址等。
 
-1. 從 [團隊系統管理中心] 開啟 [CQD (]，或在 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)) ，選取右上角的齒輪圖示，然後從 [**摘要報告**] 頁面選擇 [**租使用者資料上傳**]。
+1. 從 [團隊系統管理中心] 開啟 [CQD (]，或在 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)) ，選取右上角的齒輪圖示，然後從 [ **摘要報告** ] 頁面選擇 [ **租使用者資料上傳** ]。
 
    ![上傳資料時出現之對話方塊的螢幕擷取畫面](media/qerguide-image-tenantdataupload.png)
     
@@ -49,7 +49,7 @@ ms.locfileid: "46897833"
 
 4. 選取資料檔之後，請指定 **開始日期** ，也可以指定結束日期。
 
-5. 選取 [ **開始日期**] 後，選取 **[上傳** ]，將檔案上傳到 CQD。 <br><br>檔案上傳之前，會進行驗證。 如果驗證失敗，則會顯示一則錯誤訊息，要求您更正檔案。 下圖顯示當資料檔案中的欄數不正確時所發生的錯誤。
+5. 選取 [ **開始日期** ] 後，選取 **[上傳** ]，將檔案上傳到 CQD。 <br><br>檔案上傳之前，會進行驗證。 如果驗證失敗，則會顯示一則錯誤訊息，要求您更正檔案。 下圖顯示當資料檔案中的欄數不正確時所發生的錯誤。
 
    ![顯示組建資料上傳錯誤的對話方塊範例](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -88,7 +88,7 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
   | 郵遞區號            | String    | 98001                     | 採用           |
   | 國家            | String    | 一下                        | 採用           |
   | 市              | String    | 華盛頓                        | 採用           |
-  | 地區             | String    | MSUS                      | 採用           |
+  | 國家             | String    | MSUS                      | 採用           |
   | InsideCorp<sup>2</sup>         | Bool      | 1             | 必要              |
   | ExpressRoute<sup>3</sup>       | Bool      | 0             | 必要              |
   | 點對點                | Bool      | 0                         | 選用              |
@@ -111,7 +111,7 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
 
 ### <a name="supernetting"></a>Supernetting
 
-您可以使用 supernetting （通常稱為無類別的網域間路由 (CIDR），) 代替定義每個子網。 *Supernet*是多個子網的組合，可共用單一路由前置詞。 您可以使用 supernetted 位址，而不是為每個子網新增專案。 支援 Supernetting，但我們不建議使用它。
+您可以使用 supernetting （通常稱為無類別 Inter-Domain 路由 (CIDR），) 代替定義每個子網。 *Supernet* 是多個子網的組合，可共用單一路由前置詞。 您可以使用 supernetted 位址，而不是為每個子網新增專案。 支援 Supernetting，但我們不建議使用它。
 
 例如，Contoso 的行銷大樓是由下列子網組成：
 
@@ -161,7 +161,7 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
 
 - 資料檔案的內容不會包含表格標題。 資料檔案的第一行應該是真實資料，而不是像是 "終結點" 這樣的標頭標籤。
 
-- 所有六個數據列都只使用 String 資料類型。 允許的最大長度為64個字元。
+- 所有七個數據列都只使用字串資料類型。 允許的最大長度為64個字元。
 
 - 資料欄位可以是空的，但仍須以 tab 或逗號分隔。 空白資料欄位只會指派空的字串值。
 
@@ -169,15 +169,15 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
 
 - EndpointLabel1、EndpointLabel2 和 EndpointLabel3 是可自訂的標籤。 它們可以是空白字串或 "IT 部門指派2018膝上型電腦" 或 "資產標記 5678" 等值。
 
-- 每個資料列必須有六個數據行，且欄必須以下列順序排列：
+- 每個資料列必須有七個數據行，且欄必須以下列順序排列：
 
   **欄位順序：**
 
-  終結點、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
+  終結點、EndpointMake、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **範例列：**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 
 ## <a name="update-a-building-file"></a>更新組建檔案
@@ -203,7 +203,7 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
 
 ## <a name="add-missing-subnets"></a>新增遺失的子網
 
-在您上傳受管理的網路的建築物資訊之後，每個受管理的網路都應該有一個建築物關聯。 不過，這不一定是案例;通常會錯過幾個子網。 若要找出這些缺少的網路，請在 CQD 中查看 [**經驗品質報告**] 頁面上的 [**遺失的子網報告**]。 這會顯示有10個以上的音訊資料流程的所有子網，且未在建築物資料檔中定義，且標示為外部。 確定此清單中沒有受管理的網路。 如果子網遺失，請使用下列程式來更新原始的組建資料檔，並將它重新上傳到 CQD。
+在您上傳受管理的網路的建築物資訊之後，每個受管理的網路都應該有一個建築物關聯。 不過，這不一定是案例;通常會錯過幾個子網。 若要找出這些缺少的網路，請在 CQD 中查看 [ **經驗品質報告** ] 頁面上的 [ **遺失的子網報告** ]。 這會顯示有10個以上的音訊資料流程的所有子網，且未在建築物資料檔中定義，且標示為外部。 確定此清單中沒有受管理的網路。 如果子網遺失，請使用下列程式來更新原始的組建資料檔，並將它重新上傳到 CQD。
 
 1. 移至 CQD 中的 **租使用者資料上傳** 頁面。
 
@@ -220,7 +220,7 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
 > 您必須將您的租使用者識別碼，作為 **第二個租使用者識別碼** 的查詢篩選器新增至此報告，以篩選報表，以便只查看貴組織的租使用者資料。 否則，報表就會顯示聯盟子網。
 
 > [!NOTE] 
-> 請務必將 [月年度] 報表篩選調整為 [本月]。 選取 [ **編輯**]，然後調整 [ **月** ] 報表篩選，以儲存新的預設月份。
+> 請務必將 [月年度] 報表篩選調整為 [本月]。 選取 [ **編輯** ]，然後調整 [ **月** ] 報表篩選，以儲存新的預設月份。
 
 
 ## <a name="related-topics"></a>相關主題

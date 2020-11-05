@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解自動語音應答和通話佇列，以及如何使用它們，協助呼叫者在功能表系統中移動，以吸引您組織中的人員或部門。
-ms.openlocfilehash: 7407b9a2bbcd8d8b3fb5d15202d1bba518953f07
-ms.sourcegitcommit: 6c24c77f0aad693d45dd5657c12bf876f62c495b
+ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "48765940"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908602"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>規劃小組自動語音應答及呼叫佇列
 
@@ -70,11 +70,21 @@ ms.locfileid: "48765940"
 
 - 每個自動語音應答及每個通話佇列的資源帳戶
 - 每個資源帳戶的免費電話系統-虛擬使用者授權
-- 您想要直接撥打之每個自動語音應答或通話佇列的服務號碼
-- 每個要接收通話佇列通話的人員的通話方案
+- 至少有一個 [Microsoft 服務號碼](getting-service-phone-numbers.md)、直接銀行代號，或您要直接撥入之每個資源帳戶的混合式編號
+ - 服務號碼可能是付費或免付費電話號碼
+
+從通話佇列接收通話的代理程式必須是線上啟用企業語音或內部部署使用者。 
+
+如果您的代理正在使用 Microsoft 團隊 app 進行通話佇列通話，則必須在 TeamsOnly 模式中。
+
+當您將來電轉接至外部電話號碼時，執行傳送 (的資源帳戶（也就是與自動語音應答或通話佇列相關聯的資源帳戶）) 必須有電話號碼和 Microsoft 365 電話系統虛擬使用者授權。 此外
+
+- 針對含有通話方案編號的資源帳戶，請指派 [通話方案](calling-plans-for-office-365.md) 授權。
+- 針對有直接傳送號碼的資源帳戶，請指派 [線上語音路由策略](manage-voice-routing-policies.md)。
 
 > [!NOTE]
-> 僅限 Microsoft 團隊使用者和呼叫代理程式支援自動語音應答和通話佇列的直接路由服務號碼。
+> 僅限 Microsoft 團隊使用者和呼叫代理程式支援自動語音應答和通話佇列的直接路由服務號碼。<br>
+> 不支援通話方案 trunks 和直接路由 trunks 之間的轉移。
 
 ## <a name="business-decisions"></a>商務決策
 
@@ -180,18 +190,6 @@ ms.locfileid: "48765940"
 - 首先描述服務，然後再按下 (的選項：針對 Sales 按 1) ，而不是 (例如的其他方式。 按1以取得銷售) 。
 - 您的呼叫者將瞭解的使用者術語，而不是您在內部使用的專案。
 - 避免經常更新通話路由。 如果您在將來變更自動語音應答的功能表選項，請在前30天撥打電話給語音提示。
-
-## <a name="resource-accounts-and-phone-numbers"></a>資源帳戶和電話號碼
-
-團隊會使用 *[資源帳戶](manage-resource-accounts.md)* 來連接自動語音應答及呼叫佇列，並視需要將電話號碼指派給他們。
-
-- 每個通話佇列和自動語音應答都需要至少一個資源帳戶。
-- 每個資源帳戶都需要一個免費的電話系統-虛擬使用者授權。
-- 您可以選擇性地將資源帳戶指派給一或多個服務號碼。  (這是將電話號碼指派給自動語音應答及呼叫佇列的方式。 ) 
-
-您可以將 [Microsoft 服務號碼](getting-service-phone-numbers.md)、直接銀行代號或混合式數位指派給資源帳戶。
-
-您可以使用付費或免付費服務號碼。 您無法使用自動語音應答或通話佇列的使用者電話號碼。
 
 ## <a name="getting-started"></a>快速入門
 

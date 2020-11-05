@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 瞭解如何使用及管理您的保健組織的小組原則套件。
-ms.openlocfilehash: 28db6a594fd8ea579623975c20e96a2ce0189885
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: b8317a7f860d0ab8510a6170b69a50f7a3387ebd
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852204"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908512"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>醫療保健的團隊原則套件
 
@@ -72,25 +72,43 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 ### <a name="view"></a>檢視
 
-在指派套件前，請先查看原則套件中每個原則的設定。 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **原則套件** ]，選取套件名稱，然後選取原則名稱。
+在指派套件前，請先查看原則套件中每個原則的設定。 在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **原則套件** ]，選取套件名稱，然後選取原則名稱。
 
 決定預先定義的值是否適合您的組織，或是否需要根據貴組織的需求將其自訂為更具限制性或 lenient。
 
 ### <a name="customize"></a>自訂
 
-根據需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 若要編輯原則套件中原則的設定，請在 Microsoft [團隊管理中心] 中，選取原則套件，選取您要編輯的原則名稱，然後選取 [ **編輯** ]。
+根據需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 若要編輯原則套件中原則的設定，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **原則套件** ]，選取原則套件，選取您要編輯的原則名稱，然後選取 [ **編輯** ]。
 
-請記住，在指派原則套件之後，您也可以變更套件中的原則設定。 若要深入瞭解，請參閱 [在原則套件中自訂](manage-policy-packages.md#customize-policies-in-a-policy-package)原則。 
+請記住，在指派原則套件之後，您也可以變更套件中的原則設定。 若要深入瞭解，請參閱 [在原則套件中自訂](manage-policy-packages.md#customize-policies-in-a-policy-package)原則。
 
 ### <a name="assign"></a>為
 
-將原則套件指派給使用者。 若要將原則套件指派給一或多個使用者，請按一下 [ **管理使用者** ]。 您也可以 [使用 PowerShell](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) 將原則套件指派給大量的使用者。 
+將原則套件指派給使用者。 如果使用者已指派策略，且稍後您指派其他原則，則最近指派的優先順序會較高。
 
-如需如何使用 Microsoft 團隊系統管理中心或 PowerShell 指派原則套件的步驟，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
+#### <a name="assign-a-policy-package-to-one-or-several-users"></a>指派原則套件給一或多個使用者
+
+若要將原則套件指派給一或多個使用者，請在 [Microsoft 團隊管理中心] 的左導覽中，移至 [ **原則套件** ]，然後選取 [ **管理使用者** ]。  
 
 ![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-healthcare-assign.png)
 
+若要深入瞭解，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
+
 如果使用者已指派策略，且稍後您指派其他原則，則最近指派的優先順序會較高。
+
+#### <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
+
+**此功能是私人預覽**
+
+[原則套件指派給群組] 可讓您將多個原則指派給使用者群組，例如安全群組或通訊群組清單。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。 建議將此方法用於最多50000個使用者的群組，但也會搭配較大的群組使用。
+
+若要深入瞭解，請參閱 [將原則套件指派給群組](assign-policies.md#assign-a-policy-package-to-a-group)。
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>將原則套件指派給大型集 (批次) 使用者
+
+使用批次原則套件指派來一次將原則套件指派給大型的使用者組。 您使用 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 作業會處理為背景作業，並會針對每個批次產生操作 ID。
+
+批次最多可包含5000個使用者。 您可以依物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入瞭解，請參閱 [將原則套件指派給一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 
 ## <a name="related-topics"></a>相關主題
 

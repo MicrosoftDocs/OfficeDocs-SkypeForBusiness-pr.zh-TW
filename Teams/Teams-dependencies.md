@@ -18,21 +18,21 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。
-ms.openlocfilehash: e74152bc61bdf0bb793338b50ddcd5da62e9b2d0
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 1040d548140d0fbb781e9cc9296be3d374b7b314
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346184"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48918985"
 ---
 # <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授權來賓存取
 
 為了滿足貴組織的需求，您可以透過四種不同的授權層級管理團隊來賓存取的功能和功能。 所有授權等級都適用于您的 Microsoft 365 組織。 每個授權等級控制的來賓體驗如下所示：
 
-- **Azure Active Directory**：團隊中的來賓存取權依賴 Azure AD 企業對企業 (B2B) 平臺。 此授權等級控制目錄、租用戶和應用程式層級的來賓體驗。
-- **團隊**：只控制團隊中的來賓體驗。
-- **Microsoft 365 群組**：控制 Microsoft 365 群組和團隊中的來賓體驗。
-- **Sharepoint 和 OneDrive**：控制 Sharepoint、OneDrive、Microsoft 365 群組和團隊中的來賓體驗。
+- **Azure Active Directory** ：團隊中的來賓存取權依賴 Azure AD 企業對企業 (B2B) 平臺。 此授權等級控制目錄、租用戶和應用程式層級的來賓體驗。
+- **團隊** ：只控制團隊中的來賓體驗。
+- **Microsoft 365 群組** ：控制 Microsoft 365 群組和團隊中的來賓體驗。
+- **Sharepoint 和 OneDrive** ：控制 Sharepoint、OneDrive、Microsoft 365 群組和團隊中的來賓體驗。
 
 這些不同的授權等級能夠讓您彈性設定貴組織的來賓存取。 例如，如果您不想允許團隊中的來賓使用者，但想要讓您的組織全部擁有，只要關閉小組中的來賓存取。 另一個範例：您可以在 Azure AD、團隊和群組階層啟用來賓存取，但在選取的小組中， [停用與一個或多個準則相符的來賓使用者（例如，資料分類等於 [機密](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)]）。 SharePoint 和 OneDrive 有自己的來賓存取設定，而不依賴 Microsoft 365 群組。
 
@@ -43,11 +43,13 @@ ms.locfileid: "48346184"
 
 下圖顯示如何授與來賓存取授權相依性，以及如何在 Azure Active Directory、團隊及 Microsoft 365 之間整合。
 
-![來賓存取的授權相依性圖表。](media/teams_dependencies_image1.png)
+> [!div class="mx-imgBorder"]
+> ![來賓存取的授權相依性圖表。](media/teams_dependencies_image1.png)
 
 以下圖表以高等級的角度，顯示透過一般來賓存取的邀請與兌換流程，使用者體驗搭配權限模型的運作方式。
 
-![邀請與兌換流程圖表](media/authorize-guest-image1.png)
+> [!div class="mx-imgBorder"]
+> ![邀請與兌換流程圖表](media/authorize-guest-image1.png)
 
 請務必注意，在這裡，應用程式、bot 和連接器可能需要自己的許可權集和/或同意專用於使用者帳戶。 這些情況可能需要個別授權。 同樣地，SharePoint 可能會針對特定使用者、使用者群組或甚至是在網站層級，強制規定額外的外部共用界限。
 
@@ -63,11 +65,9 @@ Azure AD 包含有下列設定可設定外部使用者：
 
 - [來賓使用者存取限制](https://docs.microsoft.com/azure/active-directory/users-groups-roles/users-restrict-guest-permissions)
 
-- **[系統管理員與來賓邀請者角色中的使用者可以邀請]**：**[是]** 表示系統管理員和來賓邀請者角色中的使用者將可以邀請來賓加入租用戶。 **[否]** 表示系統管理員和使用者無法邀請來賓加入租用戶。
-- **成員可邀請**：若要允許您目錄中的非系統管理員成員邀請來賓，請將此原則設定為 **[是]** (建議使用)。 如果您希望只讓系統管理員新增來賓，可以將此原則設定為 **[否]**。 請記住，設定為 **[否]** 將會限制非系統管理員小組擁有者的來賓體驗；他們只能在已由系統管理員在 AAD 中新增的 Teams 中新增來賓。
-- **[來賓可邀請]**：**[是]** 表示目錄中的來賓可以邀請其他來賓，在受 Azure AD 保護的資源 (例如 SharePoint 網站或 Azure 資源) 上共同作業。 **[否]** 表示來賓無法邀請其他來賓與貴組織共同作業。
-    > [!IMPORTANT]
-    > Teams 目前不支援來賓邀請者角色，因此，即使您將 **[來賓可邀請]** 設定為 **[是]**，來賓仍無法在 Teams 中邀請其他來賓。
+- **[系統管理員與來賓邀請者角色中的使用者可以邀請]** ： **[是]** 表示系統管理員和來賓邀請者角色中的使用者將可以邀請來賓加入租用戶。 **[否]** 表示系統管理員和使用者無法邀請來賓加入租用戶。
+- **成員可邀請** ：若要允許您目錄中的非系統管理員成員邀請來賓，請將此原則設定為 **[是]** (建議使用)。 如果您希望只讓系統管理員新增來賓，可以將此原則設定為 **[否]** 。 請記住，設定為 **[否]** 將會限制非系統管理員小組擁有者的來賓體驗；他們只能在已由系統管理員在 AAD 中新增的 Teams 中新增來賓。
+- **[來賓可邀請]** ： **[是]** 表示目錄中的來賓可以邀請其他來賓，在受 Azure AD 保護的資源 (例如 SharePoint 網站或 Azure 資源) 上共同作業。 **[否]** 表示來賓無法邀請其他來賓與貴組織共同作業。 即使設定為 **[是]** ，來賓也無法在團隊中邀請其他來賓。
  
 如需控制誰可以邀請客人的詳細資訊，請參閱 [啟用 B2B 外部共同作業及管理可以邀請客人的人員](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
