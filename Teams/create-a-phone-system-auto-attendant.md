@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878178"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922433"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -118,7 +118,7 @@ ms.locfileid: "48878178"
 - Telephonenumber 相同/PhoneNumber
 - OtherTelephone
 
-在 [使用者電話號碼] 欄位中輸入副檔名所需的格式是 *+ <phone number> ext = <extension>* 或 *+ <phone number> x <extension>* 。
+在 [使用者電話號碼] 欄位中輸入副檔名所需的格式是 *+ \<phone number> ext = \<extension>* 或 *+ \<phone number> x \<extension>* 。
 
 您可以在 [Microsoft 365 系統管理中心](https://admin.microsoft.com/) 或 [Azure Active Directory 系統管理中心](https://aad.portal.azure.com)中設定延伸。 [自動語音應答] 和 [呼叫佇列] 可使用變更前需要12小時的時間。
 

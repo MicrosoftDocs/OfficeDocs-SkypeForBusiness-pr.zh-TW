@@ -21,21 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81b6552f976c6a780ba01349c0ff4995b4b728c4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76f7cdc48fdea339bfbef81f56eba629e8937abf
+ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904408"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48929514"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Microsoft 團隊的板載支援
 
 若要確保早期的使用方式和擁護者團隊在開始使用團隊時都能提供適當的支援，請與您的支援人員見面，並審查團隊的功能。 支援組織的主要成員可能想要加入您的前期程式。 鼓勵他們在自己的案例中使用團隊。 使用我們的線上訓練資源，透過產品的基本加入進行。  
 
-- [Microsoft 團隊基礎](https://youtu.be/xJBvJTDiQqg)
+- [Microsoft 團隊基礎-核心元件](https://youtu.be/V6B4KraD-FM)
 - [疑難排解小組](https://youtu.be/0KNh9KNpXcA)
-- [已知問題清單](https://aka.ms/TeamsKnownIssues)
-- [#ThisisTeams 介紹性網路研討會](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
-- [啟用 Microsoft 團隊 IT 專業版課程](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
+- [已知問題與疑難排解](https://aka.ms/TeamsKnownIssues)
+- [Microsoft Teams 訓練](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示： [ [Microsoft 團隊採納階段3：縮放](teams-adoption-phase3-enable.md)]。
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [ [Microsoft 團隊採納階段3：縮放](teams-adoption-phase3-enable.md)]。
