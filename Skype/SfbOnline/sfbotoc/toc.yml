@@ -1,0 +1,605 @@
+- name: 商務用 Skype Online 系統管理員
+  href: ../skype-for-business-online.yml
+  items:
+    - name: 音訊會議與通話方案的適用國家/地區
+      href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+      items:
+        - name: 阿根廷
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 澳洲
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 奧地利
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 巴林
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 白俄羅斯
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 比利時
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 貝里斯
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 波士尼亞與赫塞哥維納
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 巴西
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 汶萊
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 保加利亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 加拿大
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 智利
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 中國
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 哥倫比亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 哥斯大黎加
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 克羅埃西亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 賽普勒斯
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 捷克共和國
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 丹麥
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 多明尼加
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 厄瓜多
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 埃及
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 薩爾瓦多
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 愛沙尼亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 芬蘭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 法國
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 喬治亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 德國
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 希臘
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 宏都拉斯
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 香港
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 匈牙利
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 印度
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 印尼
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 愛爾蘭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 以色列
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 義大利
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 日本
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 約旦
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 肯亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 拉脫維亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 立陶宛
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 盧森堡
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 馬其頓
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 馬來西亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 馬爾他
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 墨西哥
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 摩爾多瓦
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 摩納哥
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 荷蘭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 紐西蘭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 挪威
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 巴基斯坦
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 巴拿馬
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 巴拉圭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 秘魯
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 菲律賓
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 波蘭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 葡萄牙
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 波多黎各
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 卡達
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 羅馬尼亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 俄羅斯
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 沙烏地阿拉伯
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 塞爾維亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 新加坡
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 斯洛伐克
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 斯洛維尼亞
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 南非
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 南韓
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 西班牙
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 斯里蘭卡
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 瑞典
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 瑞士
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 台灣
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 泰國
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 特立尼達 & 多巴哥
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 土耳其
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 烏克蘭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: '阿拉伯聯合大公國 (UAE) '
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 英國
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 美國
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 烏拉圭
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 委內瑞拉
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 越南
+          href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+    - name: Office 365 中的音訊會議
+      href: /microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+      items:
+        - name: 將 Microsoft 指派為音訊會議提供者
+          href: ../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md
+        - name: 音訊會議的常見問題
+          href: /microsoftteams/audio-conferencing-common-questions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 音訊會議的支援語言
+          href: /microsoftteams/audio-conferencing-supported-languages?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 音訊會議的疑難排解與已知問題
+          href: ../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md
+        - name: 變更音訊會議橋接器的設定
+          href: /microsoftteams/change-the-settings-for-an-audio-conferencing-bridge?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 變更音訊會議橋接器的電話號碼
+          href: /microsoftteams/change-the-phone-numbers-on-your-audio-conferencing-bridge?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 從會議撥出以使其他人加入會議
+          href: ../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md
+        - name: 停用特定使用者的免付費電話號碼
+          href: ../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md
+        - name: 在設定變更時傳送給使用者的電子郵件
+          href: ../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md
+        - name: 啟用或停用設定變更時傳送電子郵件
+          href: ../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md
+        - name: 讓使用者在加入會議時記錄他們的名稱
+          href: ../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md
+        - name: 管理組織的音訊會議設定
+          href: ../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md
+        - name: 管理使用者的音訊會議設定
+          href: ../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md
+        - name: 音訊會議和使用者 PSTN 通話的撥出通話限制原則
+          href: /microsoftteams/outbound-calling-restriction-policies?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 音訊會議的電話號碼
+          href: ../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md
+        - name: 重設使用者的會議識別碼
+          href: ../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md
+        - name: 重設音訊會議 PIN 碼
+          href: ../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md
+        - name: 查看、變更並重設指派給使用者的會議識別碼
+          href: ../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md
+        - name: 查看音訊會議的號碼清單
+          href: ../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md
+        - name: 查看可使用音訊會議的使用者清單
+          href: ../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md
+        - name: 傳送內含撥入資訊的電子郵件給使用者
+          href: ../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md
+        - name: 設定音訊會議的 PIN 碼長度
+          href: ../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md
+        - name: 設定音訊會議
+          href: ../audio-conferencing-in-office-365//set-up-audio-conferencing.md
+        - name: 設定UM 自動語音應答語言
+          href: ../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md
+        - name: 設定邀請中包含的電話號碼
+          href: ../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md
+        - name: 設定會議移轉服務 (MMS)
+          href: ../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md
+        - name: 透過電話啟動不需要 PIN 碼的音訊會議
+          href: ../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md
+        - name: 試用或購買 Office 365 的音訊會議
+          href: ../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md
+        - name: 開啟或關閉進入和結束會議的宣告
+          href: ../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md
+    - name: 電話系統和通話方案
+      href: /microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+      items:
+        - name: 通話方案已知問題
+          href: ../what-are-calling-plans-in-office-365/calling-plans-known-issues.md
+        - name: 如何取得 Office 365 的通話方案
+          href: /microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 如何在貴組織中使用來電顯示
+          href: /microsoftteams/how-can-caller-id-be-used-in-your-organization?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 您可以取得多少電話號碼？
+          href: /microsoftteams/how-many-phone-numbers-can-you-get?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 深入了解通話線路識別碼和來電方名稱
+          href: /microsoftteams/more-about-calling-line-ID-and-calling-party-name?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 設定使用者的來電顯示
+          href: /microsoftteams/set-the-caller-id-for-a-user?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 設定通話方案
+          href: /microsoftteams/set-up-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 封鎖撥入通話
+          href: ../what-is-phone-system-in-office-365/block-inbound-calls.md
+        - name: 免付費電話號碼限制和約束
+          href: /microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+          items:
+            - name: 阿根廷
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 澳洲
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 白俄羅斯
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 貝里斯
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 波士尼亞與赫塞哥維納
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 巴西
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 汶萊
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 保加利亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 智利
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 中國 (北方)
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 中國 (南方)
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 哥倫比亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 克羅埃西亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 賽普勒斯
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 丹麥
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 厄瓜多
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 埃及
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 愛沙尼亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 芬蘭
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 法國
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 德國
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 宏都拉斯
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 香港
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 匈牙利
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 印度
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 印尼
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 愛爾蘭
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 以色列
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 日本
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 肯亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 盧森堡
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 馬來西亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 墨西哥
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 摩爾多瓦
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 摩納哥
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 荷蘭
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 巴拿馬
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 巴拉圭
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 秘魯
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 菲律賓
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 波蘭
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 葡萄牙
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 卡達
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 羅馬尼亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 沙烏地阿拉伯
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 塞爾維亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 新加坡
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 斯洛伐克
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 斯洛維尼亞
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 南非
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 南韓
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 西班牙
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 瑞典
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 台灣
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 泰國
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 土耳其
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: '阿拉伯聯合大公國 (UAE) '
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 英國
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 烏拉圭
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 委內瑞拉
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 越南
+              href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 什麼是緊急位置、位址和通話路由？
+          href: /microsoftteams/what-are-emergency-locations-addresses-and-call-routing?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+    - name: Office 365 電話系統
+      href: /microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+      items:
+        - name: 取得商務用 Skype Online 的電話
+          href: ../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md
+          items:
+            - name: 部署用商務用 Skype Online 電話
+              href: ../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md
+            - name: 設定公共區域電話 (CAP)
+              href: ../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md
+        - name: 以下是可透過電話系統獲得的功能
+          href: /microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 雲端語音信箱
+          items:
+            - name: 變更組織之語音信箱問候語和電子郵件的預設語言
+              href: /microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 語音信箱問候語和訊息的語言
+              href: /microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 設定雲端語音信箱 - 管理說明
+              href: /microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 設定組織的電話系統
+          href: /microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 什麼是雲端自動語音應答？
+          href: /microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+          items:
+            - name: 設定雲端自動語音應答
+              href: /microsoftteams/create-a-phone-system-auto-attendant?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 小型企業範例 - 設定自動語音應答
+              href: /microsoftteams/tutorial-org-aa?toc=/SkypeForBusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+            - name: 小型企業範例 - 設定通話佇列
+              href: ../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 建立雲端通話佇列
+          href: /microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+    - name: 為您的 Skype 會議廣播設定網路
+      href: ../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md
+      items:
+        - name: 什麼是 Skype 會議廣播？
+          href: 'https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d'
+        - name: 封鎖的 Skype 會議廣播的使用者授權
+          href: ../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md
+        - name: 啟用 Skype 會議廣播
+          href: ../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md
+        - name: 變更 Skype 會議廣播設定
+          href: ../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md
+    - name: 商務用 Skype 附加元件授權
+      href: ../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
+      items:
+        - name: 不同方案的授權選項
+          items:
+            - name: Microsoft 365 商務標準版
+              href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md
+            - name: Microsoft 365 商務標準版 Microsoft 365 應用程式，或商務用 Skype Online 方案2
+              href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md
+            - name: Office 365 企業版 E1、E3 及 E4
+              href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md
+            - name: Office 365 企業版 E5
+              href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md
+            - name: Office 365 企業版 E5 (不含音訊會議)
+              href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md
+            - name: 政府機關、教育界、非營利組織
+              href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md
+            - name: 終止對商務用 Skype Online 方案 1 的支援
+              href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
+        - name: 加值和管理通訊點數
+          href: /microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 指派商務用 Skype 授權
+          href: ../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md
+        - name: 音訊會議按分鐘計費
+          href: /microsoftteams/audio-conferencing-pay-per-minute?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 設定貴組織的通訊點數
+          href: /microsoftteams/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: Office 365 的通話方案
+          href: /microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 什麼是通訊點數？
+          href: /microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+    - name: 設定商務用 Skype Online
+      href: ../set-up-skype-for-business-online/set-up-skype-for-business-online.md
+      items:
+        - name: 管理 Microsoft 團隊系統管理中心中的商務用 Skype 設定
+          href: /microsoftteams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 設定商務用 Skype Online 的顯示狀態
+          href: ../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md
+        - name: 設定目前狀態隱私權模式
+          href: ../set-up-skype-for-business-online/configure-presence-privacy-mode.md
+        - name: 允許使用者連絡外部商務用 Skype 使用者
+          href: ../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
+        - name: 設定個別使用者的商務用 Skype 設定
+          href: ../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md
+        - name: 自訂會議邀請
+          href: ../set-up-skype-for-business-online/customize-meeting-invitations.md
+        - name: 部署商務用 Skype 用戶端
+          href: ../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md
+        - name: 讓人員錄製音訊和視訊會議
+          href: ../set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences.md
+        - name: 讓商務用 Skype 使用者新增 Skype 連絡人
+          href: ../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md
+        - name: 商務用 Skype Online 委派的設定和疑難排解
+          href: ../set-up-skype-for-business-online/set-up-and-troubleshoot-skype-for-business-online-delegation.md
+        - name: 商務用 Skype 行動應用程式安全性
+          href: ../set-up-skype-for-business-online/skype-for-business-mobile-app-security.md
+        - name: 網頁版 Outlook 的商務用 Skype Online 支援
+          href: ../set-up-skype-for-business-online/skype-for-business-online-support-in-outlook-on-the-web.md
+        - name: 在商務用 Skype 和 Lync 用戶端使用者介面之間切換
+          href: ../set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md
+        - name: 商務用 Skype Online 疑難排解
+          href: ../set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md
+        - name: 系統管理員的登入錯誤疑難排解
+          href: ../set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins.md
+        - name: 開啟或關閉使用 Outlook 的會議預先載入內容
+          href: ../set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook.md
+        - name: 開啟或關閉系統管理員的離線訊息
+          href: ../set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins.md
+        - name: 測試您的商務用 Skype Online 安裝
+          href: ../set-up-skype-for-business-online/test-your-skype-for-business-online-installation.md
+        - name: 開啟或關閉行動電話通知
+          href: ../set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications.md
+        - name: 開啟或關閉商務用 Skype 用戶端意見反應報告
+          href: ../set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md
+        - name: 視訊：商務用 Skype Online 外部通訊
+          href: ../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md
+    - name: 設定組織原則
+      items:
+        - name: 在您的組織中設定原則：簡介
+          href: ../set-up-policies-in-your-organization/set-up-policies-in-your-organization.md
+        - name: 封鎖點對點檔案傳輸
+          href: ../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md
+        - name: 建立自訂外部存取原則
+          href: ../set-up-policies-in-your-organization/create-custom-external-access-policies.md
+        - name: 保留附加於會議的大型檔案
+          href: ../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md
+        - name: 設定組織的會議原則
+          href: ../set-up-policies-in-your-organization/set-up-conferencing-policies-for-your-organization.md
+        - name: 設定組織的行動原則
+          href: ../set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization.md
+        - name: 設定組織的用戶端原則
+          href: ../set-up-policies-in-your-organization/set-up-client-policies-for-your-organization.md
+    - name: 最佳化您的網路
+      href: ../optimizing-your-network/optimizing-your-network.md
+      items:
+        - name: 使用 ExpressRoute 的通話流程
+          href: ../optimizing-your-network/call-flow-using-expressroute.md
+        - name: 商務用 Skype Online 中的 ExpressRoute 與 QoS
+          href: ../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md
+        - name: 媒體品質和網路連線效能
+          href: ../optimizing-your-network/media-quality-and-network-connectivity-performance.md
+        - name: 商務用 Skype Online 的 Proxy 伺服器
+          href: ../optimizing-your-network/proxy-servers-for-skype-for-business-online.md
+    - name: 通話分析和通話品質儀表板
+      href: /microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+      items:
+        - name: 通話品質儀表板中提供的維度和量值
+          href: /microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 設定商務用 Skype 通話分析
+          href: /microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 開啟和使用通話品質儀表板
+          href: /microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 使用通話分析來疑難排解不良通話品質
+          href: /microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 通話品質儀表板中的資料流分類
+          href: /microsoftteams/stream-classification-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+    - name: 商務用 Skype Online 報告
+      href: ../skype-for-business-online-reporting/skype-for-business-online-reporting.md
+      items:
+        - name: 活動報告
+          href: ../skype-for-business-online-reporting/activity-report.md
+        - name: 使用者封鎖報告
+          href: ../skype-for-business-online-reporting/users-blocked-report.md
+        - name: 裝置使用報告
+          href: ../skype-for-business-online-reporting/device-usage-report.md
+        - name: 會議召集人活動報告
+          href: ../skype-for-business-online-reporting/conference-organizer-activity-report.md
+        - name: 會議參與者活動報告
+          href: ../skype-for-business-online-reporting/conference-participant-activity-report.md
+        - name: 對等活動報告
+          href: ../skype-for-business-online-reporting/peer-to-peer-activity-report.md
+        - name: PSTN 分鐘集區報告
+          href: ../skype-for-business-online-reporting/pstn-minute-pools-report.md
+        - name: PSTN 使用報告
+          href: ../skype-for-business-online-reporting/pstn-usage-report.md
+        - name: 工作階段詳細資報告
+          href: ../skype-for-business-online-reporting/session-details-report.md
+    - name: 設定 Windows PowerShell 電腦
+      href: ../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md
+      items:
+        - name: 診斷商務用 Skype Online 連接器的連線問題
+          href: ../set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md
+        - name: 下載並安裝 Windows PowerShell 5.1
+          href: ../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md
+        - name: 下載並安裝商務用 Skype Online 連接器
+          href: ../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md
+        - name: 管理 Exchange 整合通訊與託管語音信箱
+          href: ../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md
+        - name: 管理使用者帳戶
+          href: ../set-up-your-computer-for-windows-powershell/manage-user-accounts.md
+        - name: 使用商務用 Skype Online 連接器來管理組織
+          href: ../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md
+    - name: 法律和法規
+      items:
+        - name: 適用於法國之商務用 Skype Online 的輔助工具符合性聲明
+          href: ../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md
+        - name: 適用於法國之商務用 Skype Online 的輔助工具解決方案
+          href: /microsoftteams/accessibility-solutions-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 加拿大 IP 轉送 - 註冊
+          href: ../legal-and-regulatory/ip-relay-canada-email-signup.md
+        - name: 加拿大 IP 轉送 - 使用者指南
+          href: ../legal-and-regulatory/ip-relay-canada-user-guide.md
+        - name: 附贈外撥期間
+          href: /microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 英國 (U.K.) 的條例規定
+          href: /microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 英國 (U.K.) 的投訴處理條例
+          href: /microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 資料收集做法
+          href: /microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 緊急通話標籤
+          href: /microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 緊急通話條款及條件
+          href: /microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
+        - name: 使用協力廠商音訊會議整合商務用 Skype 的生命週期結束計劃
+          href: ../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md
