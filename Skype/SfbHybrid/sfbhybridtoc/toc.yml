@@ -1,0 +1,35 @@
+- name: Teams 和商務用 Skype 的混合式解決方案
+  items:
+    - name: 規劃混合式連線
+      href: ../hybrid/plan-hybrid-connectivity.md
+    - name: 設定混合式連線
+      href: ../hybrid/configure-hybrid-connectivity.md
+      items:
+        - name: 針對混合式環境設定 Azure AD Connect
+          href: ../hybrid/configure-azure-ad-connect.md
+        - name: 設定商務用 Skype 混合式
+          href: ../hybrid/configure-federation-with-skype-for-business-online.md
+    - name: 在內部部署和雲端之間移動使用者
+      href: ../hybrid/move-users-between-on-premises-and-cloud.md
+      items:
+        - name: 將使用者從內部部署移動至 Teams
+          href: ../hybrid/move-users-from-on-premises-to-teams.md
+        - name: 將使用者從內部部署移動至商務用 Skype Online
+          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
+        - name: 將使用者從雲端移動至內部部署
+          href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
+        - name: 管理會議移轉
+          href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
+    - name: 停用混合式以完成移轉至雲端
+      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: 部署資源樹系拓撲
+      href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
+    - name: Teams 和商務用 Skype 的雲端整合
+      href: ../hybrid/cloud-consolidation.md
+      items:
+        - name: 更新 Edge 憑證
+          href: ../hybrid/cloud-consolidation-edge-certificates.md
+        - name: 更新 AAD Connect 以包含多個樹系
+          href: ../hybrid/cloud-consolidation-aad-connect.md
+    - name: 與 Exchange 和 SharePoint 的整合
+      href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md
