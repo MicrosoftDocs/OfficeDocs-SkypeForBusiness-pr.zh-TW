@@ -1,0 +1,138 @@
+- name: '商務用 Skype 和 Teams 憑證計劃 '
+  href: ../certification/overview.md
+  items:
+    - name: 如何加入
+      href: ../certification/how-to-join.md
+    - name: Skype 和 Lync 測試規格
+      href: ../certification/test-spec.md
+    - name: 手機和裝置
+      items:
+        - name: 商務用 Skype IP 手機
+          href: ../certification/devices-ip-phones.md
+        - name: Teams IP 手機
+          href: /microsoftteams/teams-ip-phones
+        - name: USB 音訊和視訊裝置
+          href: ../certification/devices-usb-devices.md
+        - name: 電腦
+          href: ../certification/devices-pcs.md
+        - name: 會議室裝置和解決方案
+          href: ../certification/devices-meeting-rooms.md
+    - name: 基礎結構
+      items:
+        - name: 閘道
+          href: ../certification/infra-gateways.md
+        - name: IP PBX
+          href: ../certification/infra-ip-pbxs.md
+        - name: Survivable 分支設備
+          href: ../certification/infra-sba.md
+        - name: 工作階段邊界控制器
+          href: ../certification/infra-sbc.md
+        - name: 反向 Proxy
+          href: ../certification/infra-rev-proxy.md
+        - name: 負載平衡器
+          href: ../certification/infra-load-balancers.md
+    - name: 網路功能
+      items:
+        - name: 商務用 Skype 的 Wi-Fi
+          href: ../certification/networking-wifi.md
+          items:
+            - name: 規劃 Wi-Fi
+              href: ../certification/plan-wifi.md
+        - name: 商務用 Skype 的佈線
+          href: ../certification/networking-wired.md
+        - name: 商務用 Skype 的 SDN
+          href: ../certification/networking-sdn.md
+    - name: 服務
+      items:
+        - name: SIP 中繼連結服務
+          href: ../certification/services-sip-trunking.md
+        - name: E-911 服務提供者
+          href: ../certification/services-e911.md
+        - name: 音訊會議提供者
+          href: ../certification/services-acps.md
+        - name: 整合通訊憑證合作夥伴
+          href: ../certification/services-ssl.md
+    - name: IT 專業人員
+      href: ../certification/it-pro-tools.md
+      items:
+        - name: 網路預評估
+          href: ../certification/it-pro-tools-pre-assessment.md
+        - name: 移轉
+          href: ../certification/it-pro-tools-migration.md
+        - name: 使用者和原則佈建
+          href: ../certification/it-pro-tools-user-policy.md
+        - name: 監控和疑難排解
+          href: ../certification/it-pro-tools-monitor-troubleshoot.md
+        - name: 報告
+          href: ../certification/it-pro-tools-reporting.md
+    - name: 影片
+      href: ../certification/video.md
+    - name: ISV
+      href: ../certification/isv-overview.md
+    - name: Lync 合作夥伴資格
+      href: ../lync-cert/partner-qualification.md
+      items:
+        - name: 應用程式
+          href: ../lync-cert/qualified-lync-apps.md
+          items:
+            - name: Lync ISV 資格認定計劃參與
+              href: ../lync-cert/participation.md
+            - name: Attendant 主控台應用程式
+              href: ../lync-cert/attendant-console-apps.md
+            - name: 帳務與增強報告應用程式
+              href: ../lync-cert/billing-reporting-apps.md
+            - name: 連絡中心應用程式
+              href: ../lync-cert/contact-center-apps.md
+            - name: Lync 擴充性應用程式
+              href: ../lync-cert/lync-extensibility-apps.md
+            - name: 常設聊天室應用程式
+              href: ../lync-cert/persistent-chat-apps.md
+            - name: 錄製應用程式
+              href: ../lync-cert/recording-apps.md
+            - name: 軟體定義網路應用程式
+              href: ../lync-cert/software-defined-network-apps.md
+            - name: 合格的 Lync 應用程式
+              href: ../lync-cert/validated-lync-apps.md
+        - name: 裝置
+          items:
+            - name: 符合 Lync 資格的手機和裝置
+              href: ../lync-cert/ip-phones.md
+            - name: USB 音訊和視訊裝置
+              href: ../lync-cert/usb-and-video.md
+            - name: Lync 會議室系統
+              href: ../lync-cert/room-systems.md
+            - name: 會議室裝置和解決方案
+              href: ../lync-cert/meeting-room-devices.md
+            - name: 電腦
+              href: ../lync-cert/pcs-optimized-for-lync.md
+        - name: 基礎結構
+          href: ../lync-cert/infrastructure-qualified-node.md
+          items:
+            - name: IP Pbx 和閘道
+              href: ../lync-cert/qualified-ip-pbx-gateway.md
+            - name: 支援的 IP PBX
+              href: ../lync-cert/supported-ip-pbxs.md
+            - name: Survivable 分支設備
+              href: ../lync-cert/survivable-branch-appliances.md
+            - name: 工作階段邊界控制器
+              href: ../lync-cert/sbcs-lync-server.md
+            - name: 網路功能
+              href: ../lync-cert/networking-lync-server-2010-2013.md
+            - name: 負載平衡器
+              href: ../lync-cert/hardware-load-balancers.md
+            - name: 反向 Proxy
+              href: ../lync-cert/reverse-proxies.md
+            - name: 虛擬桌面基礎結構
+              href: ../lync-cert/virtual-desktop-lync-server.md
+        - name: 服務
+          href: ../lync-cert/sip-trunking-services.md
+          items:
+            - name: E-911 服務
+              href: ../lync-cert/e-911-service-providers.md
+            - name: Lync Online 專用
+              href: ../lync-cert/online-dedicated.md
+        - name: 影片
+          href: ../lync-cert/video-solutions-qualified.md
+          items:
+            - name: 會議室裝置和解決方案
+              href: ../lync-cert/meeting-room-devices.md
