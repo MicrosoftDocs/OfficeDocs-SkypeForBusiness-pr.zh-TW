@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解團隊 PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852164"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937742"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 團隊 PowerShell 版本資訊
 
@@ -31,7 +31,7 @@ ms.locfileid: "48852164"
 
 | 為止 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2020年11月 | [1.1.7-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>使用 MSAL 進行驗證 & 授權</li><li>重構原則套件 Cmdlet 並新增群組套件指派</li><li>已重構的目標階層 [上傳] 命令以使用非同步模型</li> |
+| 2020年11月 | [1.1.7-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>使用 MSAL 進行驗證 & 授權</li><li>重構原則套件 Cmdlet 並新增群組套件指派</li><li>已重構的目標階層 [上傳] 命令以使用非同步模型</li> <li>當使用者不使用-credential 參數時，會在初始驗證期間收到兩次。 使用者可以使用-credential 參數來傳送認證，以避免重複的提示。 此行為將在下一個版本中修正。</li> |
 | 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>商務用 Skype Online 連接器整合</li> |
 | 2020年9月 | [1.1.5-預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>商務用 Skype Online 連接器整合</li> |
 | 2020年7月 | [類庫](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已新增 [群組原則指派 Cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
