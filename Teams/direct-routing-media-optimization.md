@@ -16,73 +16,73 @@ f1.keywords:
 description: 直接路由的本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 060b6f0fdf92969894cad98178073a4288eb2325
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
+ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157957"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950787"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>直接路由的本機媒體優化
 
-公用交換式電話網絡（PSTN）語音被認為是業務關鍵型應用程式，其語音品質預期很高。 [直接路由] 可讓您控制媒體流量流程，以適應世界各地各種企業的多種網路拓撲和本機電話語音。 
+公用交換電話網絡 (PSTN) 語音是一種業務關鍵型應用程式，其語音品質預期很高。 [直接路由] 可讓您控制媒體流量流程，以適應世界各地各種企業的多種網路拓撲和本機電話語音。 
 
 直接路由的本機媒體優化可讓您透過以下方式管理語音品質：
 
--   控制如何在團隊用戶端與客戶會話邊界控制器（SBCs）之間流動媒體流量的方式。
+-   在團隊用戶端與客戶會話邊界控制器之間，控制媒體流量的流動方式 (SBCs) 。
 -   在商業網路子網的界限內將媒體保持在本機。
 -   在團隊用戶端和 SBCs 之間允許媒體資料流程，即使 SBCs 是在擁有專用 Ip 且不會直接在 Microsoft 看得到的公司防火牆之後也一樣。
 
 本機媒體優化支援兩種案例：
 
-- 透過中央 SBC 連接至主要會話初始通訊協定（SIP）主幹--提供電話語音給公司的所有當地分支機搆，以集中化所有當地 trunks。
+- 透過中央 SBC 連接到主要會話初始通訊協定，將所有本機 trunks 集中在一起， (SIP) 幹線--提供電話語音給公司的所有當地分支機搆。
 
 -   建立 SBCs 的虛擬網路拓撲，其中，在本機分支辦公室中的 SBCs 會連線到一個集中式 proxy SBC，並透過其外部 IP 位址與 Microsoft Phone 系統進行通訊。 在虛擬網路拓朴中，下游 SBCs 會透過內部 Ip 進行通訊，且不會直接顯示在電話系統中。
 
-本文將說明功能功能，以及客戶案例與解決方案。 如需設定的詳細資料，請參閱[設定本機媒體優化](direct-routing-media-optimization-configure.md)。 
+本文將說明功能功能，以及客戶案例與解決方案。 如需設定的詳細資料，請參閱 [設定本機媒體優化](direct-routing-media-optimization-configure.md)。 
 
   > [!NOTE]
-  > 如果您想要將媒體放在內部網路的邊界內，建議使用本機媒體優化。 如果您已有媒體旁路，且只使用 SBCs 的公用 IP 位址，則不需要移至本機媒體優化。 您可以繼續使用 [媒體旁路]。 如需詳細資訊，請參閱[規劃媒體略過](direct-routing-plan-media-bypass.md)。
+  > 如果您想要將媒體放在內部網路的邊界內，建議使用本機媒體優化。 如果您已有媒體旁路，且只使用 SBCs 的公用 IP 位址，則不需要移至本機媒體優化。 您可以繼續使用 [媒體旁路]。 如需詳細資訊，請參閱 [規劃媒體略過](direct-routing-plan-media-bypass.md)。
 
 
 ## <a name="supported-customer-scenarios"></a>支援的客戶案例
 
-在此討論中，假設 Contoso 在地球上執行多個商務用，如下所示。 （請注意，歐洲及 APAC 區域僅做為範例。 公司可能會有數個不同的地區，有相似的需求。
+在此討論中，假設 Contoso 在地球上執行多個商務用，如下所示。  (請注意，歐洲及 APAC 區域僅做為範例。 公司可能會有數個不同的地區，有相似的需求。 ) 
  
-- **在歐洲**，Contoso 在大約30個國家/地區擁有辦事處。 每個辦公室都有自己的專用分支 Exchange （PBX）。 
+- **在歐洲** ，Contoso 在大約30個國家/地區擁有辦事處。 每個 office 都有自己的專用分支 Exchange (PBX) 。 
 
   Contoso 已提供一個選項，可將 trunks 集中在一個位置-------------適用于所有30個歐洲辦事處 Contoso 在阿姆斯特丹中部署 SBC，提供足夠的頻寬來執行呼叫（透過集中位置）、將中心 SIP 主幹連線至集中位置，以及開始從阿姆斯特丹開始為所有歐洲位置提供服務。 
 
-- **在 APAC 區域中**，Contoso 在不同國家/地區擁有多個辦公室。 
+- **在 APAC 區域中** ，Contoso 在不同國家/地區擁有多個辦公室。 
 
-  在許多國家/地區，公司在本機分支辦公室仍有時間分割式多工（TDM） trunks。 TDM trunks 的集中化不是 APAC 區域中的一個選項，因此無法切換到 SIP。 50假設在 APAC 區域中有數百個以上的 Contoso 分支辦公室，有數百個閘道（SBCs）。 在這種情況下，由於缺乏公用 IP 位址和/或當地的網際網路 breakouts，因此無法將所有閘道都與直接路由介面配對。 此外，部分國家/地區強加了無法在沒有當地 PSTN 網路連線的情況下完成的法規需求。
+  在許多國家/地區，公司仍有時間分割分複用 (TDM) 在本機分支辦公室中 trunks。 TDM trunks 的集中化不是 APAC 區域中的一個選項，因此無法切換到 SIP。 假設在 APAC 區域中有超過50個 Contoso 分支辦公室，且有數百個閘道 (SBCs) 。 在這種情況下，由於缺乏公用 IP 位址和/或當地的網際網路 breakouts，因此無法將所有閘道都與直接路由介面配對。 此外，部分國家/地區強加了無法在沒有當地 PSTN 網路連線的情況下完成的法規需求。
 
 根據其業務需求，Contoso 利用本機媒體優化來進行直接路由的兩種方案：
 
-- **在歐洲**，所有 trunks 都是集中式，而且會根據使用者的位置，在中央 SBC 與使用者之間流動媒體。 
+- **在歐洲** ，所有 trunks 都是集中式，而且會根據使用者的位置，在中央 SBC 與使用者之間流動媒體。 
 
-  - 如果使用者連線至公司網路的本機子網（也就是內部使用者），媒體會在中央 SBC 的內部 IP 與使用者的團隊用戶端之間流動。 
+  - 如果使用者連線至公司網路的本機子網 (也就是說，使用者是內部) ，媒體會在中央 SBC 的內部 IP 與使用者的團隊用戶端之間流動。 
   
   - 如果使用者在商業網路的界限外-例如，如果使用者使用的是公用無線網際網路連線，則會被視為外部使用者。 在這種情況下，媒體會在中央 SBC 與團隊用戶端的外部 IP 之間流動。
 
-- **在 APAC 區域中**，集中式 proxy SBC 會與 Microsoft Direct 路由搭配使用，它會在直接路由介面與本機分支辦公室中的下游 SBCs 之間定向媒體。 
+- **在 APAC 區域中** ，集中式 proxy SBC 會與 Microsoft Direct 路由搭配使用，它會在直接路由介面與本機分支辦公室中的下游 SBCs 之間定向媒體。 
 
-  在 APAC 的直接路由中，本機分支辦公室中的下游 SBCs 並不會直接顯示，但會使用 CSOnlinePSTNGateway Cmdlet 來建立 Microsoft Phone 系統中的虛擬網路拓撲。 如果可能的話，媒體總是保持在本機。 外部使用者在 [團隊用戶端] 與 proxy SBC 的公用 IP 之間流動媒體。
+  本機分支辦公室中的下游 SBCs 不會直接在 APAC 中顯示直接路由，但會使用 Set-CSOnlinePSTNGateway Cmdlet 來建立 Microsoft Phone 系統中的虛擬網路拓撲。 如果可能的話，媒體總是保持在本機。 外部使用者在 [團隊用戶端] 與 proxy SBC 的公用 IP 之間流動媒體。
 
 
 ## <a name="central-sbc-with-centralized-trunks"></a>中央 SBC 與集中式 trunks
 
-若要建立可透過單一中央 SBC 以連線的集中式 SIP 幹線提供 PSTN 服務的解決方案，您可以將一個 SBC （centralsbc.contoso.com）提供給服務;SBC 已將一個集中 SIP 主幹系連到它。 
+若要建立可透過單一中央 SBC 以連線的集中式 SIP 幹線提供 PSTN 服務的解決方案，在所有本機分支機搆中都能使用一組 SBC (centralsbc.contoso.com) 服務;SBC 已將一個集中 SIP 主幹系連到它。 
 
 - 當使用者位於公司的內部網路時，SBC 會提供 SBC 的內部 IP （針對媒體）。
 
-- 當使用者在商業網路外部時，SBC 會提供 SBC 的外部（公開） IP。
+- 當使用者在商業網路外部時，SBC 會提供 SBC 的外部 (公用) IP。
 
 注意：範例、表格或圖表中的所有值僅供說明之用。
 
 資料表1。 SBCs 的網路參數範例 
 
-| 位置 | SBC FQDN | 內部子網 | 外部 NAT （信任的 IP） | SBC 外部 IP 位址 | SBC 內部 IP 位址 |
+| 位置 | SBC FQDN | 內部子網 | 外部 NAT (信任的 IP)  | SBC 外部 IP 位址 | SBC 內部 IP 位址 |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | 阿姆斯特丹 | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | 德國 | 未部署 | 192.168.6.0/24 | 172.16.76.74 | 未部署 |  未部署 |
@@ -108,7 +108,7 @@ ms.locfileid: "43157957"
 
 ### <a name="external-user"></a>外部使用者
 
-下圖顯示使用者不在內部部署且未連線至公司網路（也就是使用者的裝置，透過行動裝置或公用 Wi-fi 連線至網際網路）的流量流程。 使用者透過團隊進行直接路由撥打電話：
+下圖顯示使用者不在內部部署且未連線至公司網路 (的流量，也就是使用者的裝置已透過行動裝置或公用 Wi-fi) 連線至網際網路。 使用者透過團隊進行直接路由撥打電話：
 
 - 使用者的團隊用戶端會透過 REST API 直接與電話系統通訊，但在此情況下，在通話期間產生的媒體會流過中央 SBC 的外部 IP 位址。 
 
@@ -124,15 +124,15 @@ ms.locfileid: "43157957"
 
 ## <a name="proxy-sbc-with-connected-downstream-sbcs"></a>已連接下游 SBCs 的 Proxy SBC
 
-若要建立一個解決方案，其中 PSTN 服務是在 APAC 區域中的所有本機分支辦公室中提供，而該區域中的 TDM trunks 不是一個選項，則 Contoso 管理員將一個 SBC （proxysbc.contoso.com），也稱為 proxy SBC，移至直接路由服務。 
+若要建立可讓您在 APAC 區域中的所有本機分支辦公室中提供 PSTN 服務的解決方案，而這些分支機搆都不是一個選項，則 Contoso 管理員將一個 SBC (proxysbc.contoso.com) （也稱為 proxy SBC）傳送至直接路由服務。 
 
 接著，Contoso 系統管理員會新增一些下游的 SBCs，指出可透過 proxy SBC proxysbc.contoso.com 到達。 下游 SBCs 沒有公用 Ip，不過，它們可以指派給語音路由。 下表顯示範例網路參數和配置。
 
-當使用者位於下游 SBC 所在的本機分支機搆中時，媒體流量會直接在使用者與本機下游 SBC 之間流動。 如果使用者位於辦公室以外（在公用網際網路上），媒體會從使用者流向 Proxy SBC 的公用 IP，並將其傳送給相關的下游 SBC （s）。
+當使用者位於下游 SBC 所在的本機分支機搆中時，媒體流量會直接在使用者與本機下游 SBC 之間流動。 如果使用者在公用網際網路) 上的 office (以外，媒體會從使用者流向 Proxy SBC 的公用 IP，並將其傳送給相關的下游 SBC (s) 。
 
 表格2。 SBC 網路資訊範例
 
-| 位置 | SBC FQDN | 內部子網 | 外部 NAT （信任的 IP） | SBC 外部 IP 位址  | SBC 內部 IP 位址 |
+| 位置 | SBC FQDN | 內部子網 | 外部 NAT (信任的 IP)  | SBC 外部 IP 位址  | SBC 內部 IP 位址 |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | 越南 | VNsbc.contoso.com | 192.168.1.0/24 | 172.16.240.110 | 無 |  192.168.1.5 |
 | 印尼  | IDsbc.contoso.com | 192.168.2.0/24 | 172.16.240.120 | 無 |  192.168.2.5 |
@@ -148,7 +148,7 @@ ms.locfileid: "43157957"
 
 - 本機 SBC 會將流程重新導向到新加坡的 proxy SBC，以及連接的本機 PSTN 網路。
 
--  只有透過外部 IP 位址才能看到 proxy SBC，並將下游 SBC （在此例中為越南中的本機 SBC）路由到電話系統。 
+-  只有透過外部 IP 位址才能看到 proxy SBC，並路由下游 SBC (，在此情況下，在越南中的 local SBC) 至 [電話系統]。 
 
 - 本機分支機搆中的下游 SBC 不會直接顯示在手機系統中，但會在設定本機媒體優化時，由 Contoso 系統管理員定義的虛擬網路拓撲中進行對應。
 
@@ -162,11 +162,11 @@ ms.locfileid: "43157957"
 
 ### <a name="external-user"></a>外部使用者
 
-下圖顯示使用者在公司網路界限外時的流量流程。 使用者不在內部部署（不在商業網路的界限內）。 使用者可以透過團隊直接傳送電話至越南的電話號碼。 
+下圖顯示使用者在公司網路界限外時的流量流程。 使用者不在內部部署中 (不在商業網路) 的邊界內。 使用者可以透過團隊直接傳送電話至越南的電話號碼。 
 
 - 使用者的團隊用戶端會直接透過 REST API 與電話系統進行通訊，但在通話期間產生的媒體會排在新加坡中 proxy SBC 的外部 IP 位址。 
 
-- 根據設定和語音原則（請參閱[設定本機媒體優化](direct-routing-media-optimization-configure.md)以取得詳細資料），proxy SBC 會將流程重新導向到越南的下游 SBC。 
+- 根據設定及語音原則 (參閱 [設定本機媒體優化](direct-routing-media-optimization-configure.md) 以取得詳細資料) ，proxy sbc 會將流程重新導向到越南的下游 SBC。 
 
 - 越南中的下游 SBC 會將流程重新導向到已連接的本機 PSTN 網路。 
 
@@ -182,11 +182,11 @@ ms.locfileid: "43157957"
 
 本機媒體優化支援兩種模式：
 
-- **Mode 1：永遠略過**。 在這種情況下，如果使用者是 internal，則無論內部使用者的實際位置為何，媒體都會流過本機下游 SBC 的內部 IP 位址。例如，在下游 SBC 所在的同一個分支機搆中，或在其他分支辦公室中。
+- **Mode 1：永遠略過** 。 在這種情況下，如果使用者是 internal，則無論內部使用者的實際位置為何，媒體都會流過本機下游 SBC 的內部 IP 位址。例如，在下游 SBC 所在的同一個分支機搆中，或在其他分支辦公室中。
 
-- **Mode 2：僅適用于本機使用者**。 在此模式中，媒體只有在與下游 SBC 同一個分支機搆中的內部使用者產生時，才會直接流向本機的下游 SBC 內部 IP 位址。 
+- **Mode 2：僅適用于本機使用者** 。 在此模式中，媒體只有在與下游 SBC 同一個分支機搆中的內部使用者產生時，才會直接流向本機的下游 SBC 內部 IP 位址。 
 
-為了區分本機媒體優化模式，租使用者管理員必須使用 Set-CSonlinePSTNGateway Cmdlet，將-BypassMode 參數設定為每個 SBC 的 "Always" 或 "OnlyForLocalUsers"。 如需詳細資訊，請參閱[設定本機媒體優化](direct-routing-media-optimization-configure.md)。  
+為了區分本機媒體優化模式，租使用者管理員必須使用 Set-CSonlinePSTNGateway Cmdlet，將-BypassMode 參數設定為每個 SBC 的 "Always" 或 "OnlyForLocalUsers"。 如需詳細資訊，請參閱 [設定本機媒體優化](direct-routing-media-optimization-configure.md)。  
 
 ### <a name="mode-1-always-bypass"></a>Mode 1：永遠略過
 
@@ -194,7 +194,7 @@ ms.locfileid: "43157957"
 
 例如，假設公司在阿姆斯特丹中有一個集中 SIP 幹線，該主幹會提供30個國家/地區，且在所有30個網站與本機使用者之間有良好的連線能力。 在德國，也有部署本機 SBC 的分支。
 
-德國中的 SBC 可以設定為「永遠不在使用」模式。 不論其位置為何，使用者都會直接透過 SBC 的內部 IP 位址（例如從華北到德國）連線至 SBC; 如需參考，請參閱以下圖表。
+德國中的 SBC 可以設定為「永遠不在使用」模式。 不論其位置為何，使用者都會直接透過 (SBC 的內部 IP 位址（例如從華北到德國）連線至 SBC;如需參考) ，請參閱下方圖表。
 
 下列說明兩種案例：
 
@@ -204,13 +204,13 @@ ms.locfileid: "43157957"
 
 #### <a name="scenario-1-the-user-is-in-the-same-location-as-the-sbc-defined-in-the-online-voice-routing-policy"></a>案例1。 使用者與線上語音路由策略中定義的 SBC 位於同一個位置
 
-在華東中，將阿姆斯特丹中的 SBC 設定為適用于德國當地下游 SBC 的 proxy SBC。 使用者位於德國與本機 SBC 公司網路相同的子網中。 SBCs （proxy 和下游）都設定為 [Always 旁路模式]。 線上語音路由策略指定在德國撥打電話（使用區號 + 49）時，應將它們路由到德國的本機 SBC。 所有其他通話--在德國的 SBC 發生故障時，在德國撥入--必須以阿姆斯特丹路由到 proxy SBC。 下表摘要說明配置範例。 
+在華東中，將阿姆斯特丹中的 SBC 設定為適用于德國當地下游 SBC 的 proxy SBC。 使用者位於德國與本機 SBC 公司網路相同的子網中。 SBCs (proxy 與下游) 都設定為 [Always 旁路模式]。 線上語音路由策略會指定，在德國通話中使用區號 + 49 (，) 應該將它們路由到德國的本機 SBC。 所有其他通話--在德國的 SBC 發生故障時，在德國撥入--必須以阿姆斯特丹路由到 proxy SBC。 下表摘要說明配置範例。 
 
 表格3。 案例1的配置範例
 
 | 使用者物理位置 | 使用者撥打數位電話 | 線上語音路由策略 | 針對 SBC 設定的模式 | 媒體流程 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 德國 | + 49 1 437 2800 | 優先順序1： ^\+49 （\d{8}） $-DEsbc.contoso.com<br>優先順序2：. *-proxysbc.contoso.com| DEsbc.contoso.com –總是略過 <br>proxysbc.contoso.com –總是略過 | 團隊使用者 < – > DEsbc.contoso.com |
+| 德國 | + 49 1 437 2800 | 優先順序1： ^ \+ 49 ( \d {8}) $-DEsbc.contoso.com<br>優先順序2：. *-proxysbc.contoso.com| DEsbc.contoso.com –總是略過 <br>proxysbc.contoso.com –總是略過 | 團隊使用者 < – > DEsbc.contoso.com |
 
 下圖顯示的是德國內部使用者的高層交通流程，透過團隊進行直接傳送撥打電話至德國的數位。 
 
@@ -220,7 +220,7 @@ ms.locfileid: "43157957"
 
 - 本機 SBC 會將流程以阿姆斯特丹的方式重新導向到 proxy SBC，並將它重新導向到已連接的本機 PSTN 網路。 
 
-- 只有透過外部 IP 位址才能看到 proxy SBC，並將來自下游 SBC （在此例中，是德國的 local SBC）的流程路由到 [電話系統]。 
+- 只有透過外部 IP 位址才能看到 proxy SBC，並路由下游 SBC (的流程，在此案例中，在德國的 local SBC) 至 [電話系統]。 
 
 - 本機分支機搆中的下游 SBC 不會直接顯示在手機系統中，但會在設定本機媒體優化時，由 Contoso 系統管理員定義的虛擬網路拓撲中進行對應。
 
@@ -232,13 +232,13 @@ ms.locfileid: "43157957"
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>案例2：使用者和閘道位於不同的網站
 
-在華東中，將阿姆斯特丹中的 SBC 設定為適用于德國當地下游 SBC 的 proxy SBC。 SBCs （proxy 和下游）都設定為 [Always 旁路模式]。 位於華北（位於本機分支辦公室）的內部使用者正在進行直接路由呼叫至德國。 線上語音路由策略會指定對德國的呼叫（使用地區碼 + 49）應該路由到德國的 local SBC。 所有其他通話--以及在德國的 SBC 失敗時，所有在德國撥打的電話，都必須以阿姆斯特丹路由到 proxy SBC。 下表摘要說明配置範例。 
+在華東中，將阿姆斯特丹中的 SBC 設定為適用于德國當地下游 SBC 的 proxy SBC。 SBCs (proxy 與下游) 都設定為 [Always 旁路模式]。 位於華北（位於本機分支辦公室）的內部使用者正在進行直接路由呼叫至德國。 線上語音路由策略會指定對德國的呼叫與區號 + 49) 的 (應路由到德國的 local SBC。 所有其他通話--以及在德國的 SBC 失敗時，所有在德國撥打的電話，都必須以阿姆斯特丹路由到 proxy SBC。 下表摘要說明配置範例。 
 
 資料表4。 案例2的配置範例
 
 | 使用者物理位置 | 使用者撥打數位電話 | 線上語音路由策略 | 針對 SBC 設定的模式 | 媒體流程 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 法國 | + 49 1 437 2800 | 優先順序1： ^\+49 （\d{8}） $-DEsbc.contoso.com <br>優先順序2：. *-proxysbc.contoso.com |  DEsbc.contoso.com –永遠不會繞過 proxysbc.contoso.com –總是略過 | 團隊使用者 < – > DEsbc.contoso.com  |
+| 法國 | + 49 1 437 2800 | 優先順序1： ^ \+ 49 ( \d {8}) $-DEsbc.contoso.com <br>優先順序2：. *-proxysbc.contoso.com |  DEsbc.contoso.com –永遠不會繞過 proxysbc.contoso.com –總是略過 | 團隊使用者 < – > DEsbc.contoso.com  |
 
 下圖顯示在華北的內部德語使用者透過團隊向德國的電話號碼進行直接路由通話時的高層次流量流程。 
 
@@ -256,7 +256,7 @@ ms.locfileid: "43157957"
 
 如果在本機分支辦公室之間有不正確的連線，但在每個當地分支辦公室和地區辦事處之間有良好的連線，則「建議」模式是「僅供本機使用者使用」。
 
-例如，在 APAC 區域中，假設 Contoso 在不同國家/地區擁有多個辦公室。 對於許多國家/地區，由於公司仍在許多本機分支辦公室中都有 TDM trunks，所以無法切換到 SIP。 TDM trunks 的集中化不是 APAC 區域中的選項。 此外，在 APAC 區域中50，有數百個以上的 Contoso 分支機搆，有幾百個閘道（SBCs）。 
+例如，在 APAC 區域中，假設 Contoso 在不同國家/地區擁有多個辦公室。 對於許多國家/地區，由於公司仍在許多本機分支辦公室中都有 TDM trunks，所以無法切換到 SIP。 TDM trunks 的集中化不是 APAC 區域中的選項。 此外，APAC 區域中有超過50個 Contoso 分支機搆，且有數百個閘道 (SBCs) 。 
 
 若要建立一個解決方案，其中 PSTN 服務是在 APAC 區域中的所有本機分支機搆中提供，而您的系統集中使用 TDM trunks，則 Contoso 管理員將在新加坡中使用一個地區性 SBC 作為 proxy SBC 給直接路由服務。 本機分支辦公室間的直接連線是不好的，但在每個當地分支辦公室和新加坡的地區 SBC 之間，都有一個良好的連線。 針對地區 SBC，系統管理員會選擇 [Always 旁路] 模式，並針對本機下游 SBCs，系統管理員會選取 [僅針對本機使用者] 模式。
 
@@ -268,13 +268,13 @@ ms.locfileid: "43157957"
 
 #### <a name="scenario-1-the-user-is-in-the-same-location-as-the-sbc-defined-in-online-voice-routing-policy"></a>案例1。 使用者與線上語音路由策略中定義的 SBC 位於同一個位置
 
-假設在新加坡的 SBC 被設定為適用于越南與印尼局部下游半形的 proxy SBC。 使用者在與本機 SBC 相同的位置中使用越南。 線上語音路由策略會指定越南中的呼叫（使用地區碼 + 84）應該路由到越南中的本機 SBC。 所有其他通話--而且如果越南中的 SBC 失敗，則在使用越南的呼叫（在新加坡中則應路由到 proxy SBC）。 下表摘要說明配置範例。 
+假設在新加坡的 SBC 被設定為適用于越南與印尼局部下游半形的 proxy SBC。 使用者在與本機 SBC 相同的位置中使用越南。 線上語音路由策略會將越南 (中的區號 + 84) 傳送到越南的本機 SBC。 所有其他通話--而且如果越南中的 SBC 失敗，則在使用越南的呼叫（在新加坡中則應路由到 proxy SBC）。 下表摘要說明配置範例。 
 
 資料表5。 [僅適用于本機使用者] 模式案例的配置範例1
 
 | 使用者物理位置 | 使用者撥打數位電話 | 線上語音路由策略 | 針對 SBC 設定的模式 | 媒體流程 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 越南 | + 84 4 3926 3000 | 優先順序1： ^\+84 （\d{9}） $-VNsbc.contoso.com <br>優先順序2：. *-proxysbc.contoso.com | VNsbc.contoso.com –僅適用于本機使用者 <br> proxysbc.contoso.com –總是略過 | 團隊使用者 < – > VNsbc.contoso.com |
+| 越南 | + 84 4 3926 3000 | 優先順序1： ^ \+ 84 ( \d {9}) $-VNsbc.contoso.com <br>優先順序2：. *-proxysbc.contoso.com | VNsbc.contoso.com –僅適用于本機使用者 <br> proxysbc.contoso.com –總是略過 | 團隊使用者 < – > VNsbc.contoso.com |
 
 在下圖中，指派給越南中的本機分支辦公室的使用者，而在內部部署時，會透過團隊進行直接路由電話通話。 
 
@@ -284,7 +284,7 @@ ms.locfileid: "43157957"
 
 - 本機 SBC 會將流程重新導向到新加坡的 proxy SBC，以及連接的本機 PSTN 網路。 
 
-- 只有透過外部 IP 位址才能看到 proxy SBC，並將下游 SBC （在此例中為越南中的 local SBC）路由到電話系統。 
+- 只有透過外部 IP 位址才能看到 proxy SBC，並路由下游 SBC (的流程，在此情況下，在越南中的 local SBC) 至 [電話系統]。 
 
 - 本機分支辦公室中的下游 SBC 不會直接顯示在手機系統中，但會在虛擬網路拓撲中進行對應。
 
@@ -295,13 +295,13 @@ ms.locfileid: "43157957"
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>案例2。 使用者和閘道位於不同的網站
 
-假設在新加坡的 SBC 被設定為適用于越南與印尼局部下游半形的 proxy SBC。 在本機分支辦公室中，位於印尼的內部使用者正在進行直接路由呼叫至越南。 線上語音路由策略會指定對越南的呼叫（使用區號 + 84）應該路由到越南中的本機 SBC。 所有其他通話--而且，如果您在越南中的 SBC 失敗，就會將對越南的呼叫路由到新加坡中的 proxy SBC。 在新加坡中的 proxy SBC 已設定為 [Always Byass] 模式，且越南中的 local SBC 已設定為 [僅適用于本機使用者] 模式。 下表摘要說明配置範例。 
+假設在新加坡的 SBC 被設定為適用于越南與印尼局部下游半形的 proxy SBC。 在本機分支辦公室中，位於印尼的內部使用者正在進行直接路由呼叫至越南。 線上語音路由策略會指定對越南 (與區號 + 84) 的呼叫應該路由到越南中的本機 SBC。 所有其他通話--而且，如果您在越南中的 SBC 失敗，就會將對越南的呼叫路由到新加坡中的 proxy SBC。 在新加坡中的 proxy SBC 已設定為 [Always 旁路] 模式，且越南中的 local SBC 已設定為 [僅適用于本機使用者] 模式。 下表摘要說明配置範例。 
 
 資料表6。 使用者設定
 
 | 使用者物理位置 | 使用者撥打數位電話 | 線上語音路由策略 | 針對 SBC 設定的模式 | 媒體流程 | 
 |:------------|:-------|:-------|:-------|:-------|
-| 印尼 | + 84 4 3926 3000 | 優先順序1： ^\+84 （\d{9}） $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com |VNsbc.contoso.com –僅適用于本機使用者 <br> proxysbc.contoso.com –總是略過 | 團隊使用者 < – > proxysbc.contoso.com < – > VNsbc.contoso.com |
+| 印尼 | + 84 4 3926 3000 | 優先順序1： ^ \+ 84 ( \d {9}) $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com |VNsbc.contoso.com –僅適用于本機使用者 <br> proxysbc.contoso.com –總是略過 | 團隊使用者 < – > proxysbc.contoso.com < – > VNsbc.contoso.com |
 
 
 在下圖中，內部使用者，而在印尼分支辦公室內部部署中，會透過團隊直接傳送電話至越南的數位。 
@@ -321,5 +321,14 @@ ms.locfileid: "43157957"
 圖表8。  流量流程與 "僅限本機使用者] 模式，且使用者不在「家用」網站，但在內部網路中
 
 ![圖表顯示資料流程的本機媒體優化](media/direct-routing-media-op-8.png "通訊流程與 "僅限本機使用者] 模式，使用者不在「家用」網站，但在內部網路中")
+
+## <a name="known-issues"></a>已知問題
+
+下列是目前在本機媒體優化中存在之已知問題的清單。 Microsoft 正在努力解決這些問題。
+
+| 問題 | 避免 |
+| :--- | :--- |
+| 當團隊用戶端公用 IP 符合客戶信任的 IP 清單時，不會將團隊用戶端識別為 **內部** 。 | 本機媒體優化需要團隊用戶端子網與租使用者設定的[network 子網](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)相符|
+| 當團隊用戶端被識別為內部時，通話升級會導致呼叫中斷。| 在直接路由 SBC 上停用本機媒體優化。|
 
 
