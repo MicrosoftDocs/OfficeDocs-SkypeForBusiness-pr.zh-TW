@@ -16,12 +16,12 @@ description: 本文說明 Microsoft 團隊中的資訊障礙，以及他們會�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508350"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988320"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -44,7 +44,7 @@ ms.locfileid: "48508350"
 - 教育：一學校的學生無法查詢其他學校學生的連絡人詳細資料。
 - 法律：維護一個用戶端的律師所取得之資料的機密性，不受代表不同用戶端之同一事務所的律師存取。
 - 政府：資訊存取和控制限制在各個部門和群組中。
-- [專業服務]：公司中的一組人員只能透過同盟或來賓存取權在客戶合作期間與用戶端或特定客戶進行交談。
+- 專業服務：公司中的人員群組只能在客戶接洽期間透過來賓存取權與用戶端或特定客戶交談。
 
 例如，Enrico 屬於 [銀行] 區段，而 Pradeep 屬於 [財務顧問] 區段。 Enrico 和 Pradeep 無法彼此通訊，因為組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。 不過，Enrico 和 Pradeep 可以與 HR 中的 [人力資源] 進行溝通。
 
@@ -64,7 +64,7 @@ ms.locfileid: "48508350"
 資訊屏障原則是在 Microsoft 365 合規性中心 (SCC) 使用 PowerShell Cmdlet 來管理。 如需詳細資訊，請參閱 [定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 > [!IMPORTANT]
-> 在您設定或定義原則之前， **您必須在 Microsoft 團隊中啟用範圍目錄搜尋**。 在您設定或定義資訊屏障的原則之前，請先等待至少幾小時後再啟用範圍目錄搜尋。 [深入瞭解資訊障礙的先決條件](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
+> 在您設定或定義原則之前， **您必須在 Microsoft 團隊中啟用範圍目錄搜尋** 。 在您設定或定義資訊屏障的原則之前，請先等待至少幾小時後再啟用範圍目錄搜尋。 [深入瞭解資訊障礙的先決條件](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>資訊障礙管理員角色
 
@@ -92,7 +92,7 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 
     ![顯示使用者已封鎖會議的螢幕擷取畫面](media/information-barriers-meeting.png)
 
-- 在**兩個或多個使用者之間共用螢幕**-當螢幕在兩個或多個使用者之間共用時，必須評估畫面共用，以確保它不會違反其他使用者的資訊屏障原則。 如果違反資訊屏障原則，就不允許使用螢幕共用。 
+- 在 **兩個或多個使用者之間共用螢幕** -當螢幕在兩個或多個使用者之間共用時，必須評估畫面共用，以確保它不會違反其他使用者的資訊屏障原則。 如果違反資訊屏障原則，就不允許使用螢幕共用。 
  
     以下是在套用原則之前的螢幕共用範例。 
 
@@ -137,12 +137,12 @@ Enrico 無法再傳送訊息到群組聊天。
 
 目前，如果資訊屏障原則封鎖其他使用者，使用者就會遇到下列情況：
 
-- [**人員]** 索引標籤-使用者無法在 [**人員**] 索引標籤上看到封鎖的使用者。
+- [ **人員]** 索引標籤-使用者無法在 [ **人員** ] 索引標籤上看到封鎖的使用者。
 - **人員選擇器** -在 [人員選擇器] 中不會顯示封鎖的使用者。
 
     ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-people-picker.png)
     
-- [**活動]** 索引標籤-如果使用者要造訪封鎖使用者的 [**活動**] 索引標籤，就不會顯示任何文章。  ([ **活動** ] 索引標籤只會顯示頻道發佈，而兩個使用者之間則不會有任何常見頻道。 ) 
+- [ **活動]** 索引標籤-如果使用者要造訪封鎖使用者的 [ **活動** ] 索引標籤，就不會顯示任何文章。  ([ **活動** ] 索引標籤只會顯示頻道發佈，而兩個使用者之間則不會有任何常見頻道。 ) 
 
     以下是已封鎖之 [活動] 索引標籤視圖的範例。
 
@@ -151,9 +151,9 @@ Enrico 無法再傳送訊息到群組聊天。
 
 - **組織** 結構-如果使用者存取的組織結構中出現封鎖的使用者，則封鎖的使用者不會出現在組織結構中，也會顯示錯誤訊息。
 - **連絡人卡片** -如果使用者參與交談，且隨後遭到封鎖，當使用者將游標移到封鎖的使用者名稱上時，其他使用者就會看到錯誤訊息，而不是連絡人卡片。 在卡片上所列的動作 (例如通話和聊天) 將無法使用。
-- [**建議的連絡人**]：封鎖的使用者不會出現在 [建議的連絡人] 清單中， (為新使用者顯示的初始連絡人清單) 。
-- [**聊天連絡人**]-使用者可以在聊天連絡人清單中看到封鎖的使用者，但會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。 使用者也可以按一下他們來查看其過去的交談。
-- [**通話連絡人**]-使用者可以在通話連絡人清單中看到封鎖的使用者，但系統會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。
+- [ **建議的連絡人** ]：封鎖的使用者不會出現在 [建議的連絡人] 清單中， (為新使用者顯示的初始連絡人清單) 。
+- [ **聊天連絡人** ]-使用者可以在聊天連絡人清單中看到封鎖的使用者，但會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。 使用者也可以按一下他們來查看其過去的交談。
+- [ **通話連絡人** ]-使用者可以在通話連絡人清單中看到封鎖的使用者，但系統會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。
 
     以下是通話連絡人清單中封鎖使用者的範例。
 
@@ -167,9 +167,9 @@ Enrico 無法再傳送訊息到群組聊天。
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>團隊原則與 SharePoint 網站
 
-建立小組後，就會建立 SharePoint 網站，並與 Microsoft 團隊取得檔案體驗的相關專案。 依預設，資訊屏障原則不會在此 SharePoint 網站和檔案上生效。 若要啟用資訊屏障原則，系統管理員已填寫完表單，要求在 SharePoint 和 OneDrive 上啟用 IB 原則 (請參閱[資訊壁壘](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)) 中的*必備*區段。 如果資訊屏障原則已在 SharePoint 和 OneDrive 中開啟，則在使用 Microsoft 團隊建立小組時，IB 原則會在已提供的 SharePoint 網站上運作。
+建立小組後，就會建立 SharePoint 網站，並與 Microsoft 團隊取得檔案體驗的相關專案。 依預設，資訊屏障原則不會在此 SharePoint 網站和檔案上生效。 若要啟用資訊屏障原則，系統管理員已填寫完表單，要求在 SharePoint 和 OneDrive 上啟用 IB 原則 (請參閱 [資訊壁壘](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)) 中的 *必備* 區段。 如果資訊屏障原則已在 SharePoint 和 OneDrive 中開啟，則在使用 Microsoft 團隊建立小組時，IB 原則會在已提供的 SharePoint 網站上運作。
 
-**小組 SharePoint 網站上的 IB 原則範例**：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。
+**小組 SharePoint 網站上的 IB 原則範例** ：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。
 當使用者 Sesha 建立投資銀行區段的小組時，只有投資銀行區段使用者才能存取該小組和支援該小組的 SharePoint 網站。 即使她擁有 [網站] 連結，使用者 Nikita 還是無法存取該網站。
 
 如需詳細資訊，請參閱 [資訊障礙](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) 文章。
@@ -179,7 +179,9 @@ Enrico 無法再傳送訊息到群組聊天。
 如需詳細資訊（包括方案和定價），請參閱 [授權指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="known-issues"></a>已知問題
-- **使用者無法加入會議**：如果已啟用 IB 原則，則不允許使用者加入會議（如果會議名單的大小大於 [會議出席限制](limits-specifications-teams.md)）。 根本原因是 IB 檢查會依據是否可將使用者新增至會議聊天的名單，並接受該信號以允許使用者加入會議。 加入會議一次會將該使用者新增至名單，因此，如果是定期會議，該使用者會以最快的方式填滿會議。 在達到 [會議出席限制](limits-specifications-teams.md)後，就不允許其他使用者新增至會議聊天名單。 如果已啟用 IB，使用者就不能加入會議，但如果未啟用 IB，使用者就可以加入會議，但不會將其新增至會議聊天名單。 短期解決方案是從會議聊天中移除非作用中的成員，為新使用者騰出空間。 不過，我們會在稍後的日期增加會議聊天 rosters 的大小。
+- **使用者無法加入即席會議** ：如果已啟用 IB 原則，則不允許使用者加入會議（如果會議內名單的大小大於 [會議出席限制](limits-specifications-teams.md)）。 根本原因是 IB 檢查會依據是否可將使用者新增至會議聊天的名單，並接受該信號以允許使用者加入會議。 加入會議一次會將該使用者新增至名單，因此，如果是定期會議，該使用者會以最快的方式填滿會議。 在達到 [會議出席限制](limits-specifications-teams.md)後，就不允許其他使用者新增至會議聊天名單。 如果已為租使用者啟用 IB，且聊天名單已充滿會議，則不允許新使用者 (不在) 名單中的使用者加入會議。 但如果沒有為租使用者啟用 IB，且會議聊天的名單已滿，新的使用者 (不在) 名單中的使用者，即使他們在會議中看不到聊天選項，也能加入會議。 短期解決方案是從會議聊天中移除非作用中的成員，為新使用者騰出空間。 不過，我們會在稍後的日期增加會議聊天 rosters 的大小。
+
+- **使用者無法加入頻道會議** ：如果已啟用 IB 原則，則不允許使用者加入頻道會議（如果他們不是團隊的成員）。 根本原因是 IB 檢查會依據是否可將使用者新增至會議聊天的名單，並接受該信號以允許使用者加入會議。 頻道會議中的聊天線程只適用于小組/頻道成員，非成員無法查看/存取聊天線程。 如果已為租使用者啟用 IB，且非團隊成員嘗試加入頻道會議，則不允許使用者加入會議。 但如果沒有為租使用者啟用 IB，且非團隊成員試圖加入頻道會議，則允許使用者加入會議，但在會議中看不到 [聊天] 選項。
 
 ## <a name="more-information"></a>詳細資訊
 
