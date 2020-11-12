@@ -16,12 +16,12 @@ description: 本文說明 Microsoft 團隊中的資訊障礙，以及他們會�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c545b6289cd1a40fdf9ca967ebd44cd2d781605d
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988320"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996014"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -29,7 +29,7 @@ ms.locfileid: "48988320"
 
 > [!NOTE]
 > - 資訊屏障群組無法跨承租人建立。
-> - 在版本1中不支援使用 bot 來新增使用者。
+> - 在版本1中不支援使用 bot、AAD app 及部分 Api 來新增使用者。
 > - 專用通道符合您設定的資訊屏障原則。
 > - [新增]：如需有關連線至團隊之 SharePoint 網站障礙支援的相關資訊，請按一下 [這裡](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 

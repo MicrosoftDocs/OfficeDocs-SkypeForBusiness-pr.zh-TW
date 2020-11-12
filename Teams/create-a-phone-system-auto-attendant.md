@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48922433"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48999220"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -196,13 +196,11 @@ ms.locfileid: "48922433"
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼傳輸-技術詳細資料
 
-當您將來電轉接至外部電話號碼時，與自動語音應答或通話佇列相關聯的資源帳戶必須有電話號碼和 Microsoft 365 電話系統-虛擬使用者授權。 此外
+請參閱 [必備元件](plan-auto-attendant-call-queue.md#prerequisites) ，以允許自動語音接聽外部轉接來電。  另外：
 
-- 針對含有通話方案編號的資源帳戶，請指派 [通話方案](calling-plans-for-office-365.md) 授權。
-  - 您必須使用 (+ CC + phone_number) 的 E.i 格式輸入 [外部轉接電話號碼]。
+- 針對含有 [通話方案](calling-plans-for-office-365.md) 編號的資源帳戶，必須以 (+ [國家/地區碼] [區號] [電話號碼] ) ，以164格式輸入外部轉接電話號碼。
 
-- 針對有直接傳送號碼的資源帳戶，請指派 [線上語音路由策略](manage-voice-routing-policies.md)。
-  - 外部轉接電話號碼格式取決於您的 [會話邊界控制器 (SBC) ](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 設定。
+- 對於擁有直接傳送號碼的資源帳戶，外部轉接電話號碼格式是由 [ (SBC) 設定的會話邊界控制器 ](direct-routing-connect-the-sbc.md) 所依賴。
 
 顯示的輸出電話號碼是由以下所示：
 
@@ -210,8 +208,6 @@ ms.locfileid: "48922433"
   - 針對直接銀行代號，傳送的數位是以 P 斷言身分識別 (PAI 在 SBC 上) 設定，如下所示：
     - 如果設定為 [停用]，則會顯示原始來電者的電話號碼。 這是預設及建議的設定。
     - 如果設定為 [啟用]，則會顯示資源帳戶的電話號碼。
-
-不支援通話方案 trunks 和直接路由 trunks 之間的轉移。
 
 在商務用 Skype 混合式環境中，若要將自動語音來電轉接到 PSTN，請建立一個新的內部部署使用者，並將 [來電轉接] 設定為 PSTN 號碼。 使用者必須啟用企業語音並指派語音原則。 若要深入瞭解，請參閱 [自動通話轉接至 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
 
