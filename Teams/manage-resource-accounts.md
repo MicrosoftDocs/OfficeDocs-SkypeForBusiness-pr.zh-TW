@@ -20,277 +20,139 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解如何在 Microsoft 團隊中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: 90e8ab26782424c6cc341936f185a253c6d1fbe6
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 7ccc7a26c83357d68147381101ef8a97184f03f4
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672854"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993495"
 ---
-# <a name="manage-resource-accounts-in-microsoft-teams"></a><span data-ttu-id="954a1-103">在 Microsoft Teams 中管理資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-103">Manage resource accounts in Microsoft Teams</span></span>
+# <a name="manage-resource-accounts-in-microsoft-teams"></a><span data-ttu-id="072f0-103">在 Microsoft Teams 中管理資源帳戶</span><span class="sxs-lookup"><span data-stu-id="072f0-103">Manage resource accounts in Microsoft Teams</span></span>
 
-<span data-ttu-id="954a1-104">資源帳戶也稱為 Azure AD 中 *已停用的使用者物件* ，而且可以用來代表一般的資源。</span><span class="sxs-lookup"><span data-stu-id="954a1-104">A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general.</span></span> <span data-ttu-id="954a1-105">例如，在 Exchange 中可能會用來代表會議室，並允許他們擁有電話號碼。</span><span class="sxs-lookup"><span data-stu-id="954a1-105">In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number.</span></span> <span data-ttu-id="954a1-106">您可以使用商務用 Skype Server 2019，在 Microsoft 365 或內部部署中託管資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-106">A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.</span></span>
+<span data-ttu-id="072f0-104">資源帳戶是 Azure AD 中已停用的使用者物件，而且可以用來代表資源（一般）。</span><span class="sxs-lookup"><span data-stu-id="072f0-104">A resource account is a disabled user object in Azure AD, and can be used to represent resources in general.</span></span> <span data-ttu-id="072f0-105">例如，您可以在 Exchange 中使用資源帳戶來代表會議室，並允許他們擁有電話號碼和行事曆。</span><span class="sxs-lookup"><span data-stu-id="072f0-105">For example, a resource account may be used in Exchange to represent conference rooms and allow them to have a phone number and calendar.</span></span> <span data-ttu-id="072f0-106">您可以使用商務用 Skype Server 2019，在 Microsoft 365 或內部部署中託管資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-106">A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.</span></span>
 
-<span data-ttu-id="954a1-107">在 Microsoft 團隊或商務用 Skype Online 中，每個電話系統通話佇列或自動語音應答都必須至少有一個相關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-107">In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have at least one associated resource account.</span></span> <span data-ttu-id="954a1-108">資源帳戶是否需要指派的電話號碼，取決於相關通話佇列或自動語音應答的用途，如下列圖表所示。</span><span class="sxs-lookup"><span data-stu-id="954a1-108">Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram.</span></span> <span data-ttu-id="954a1-109">在將電話號碼指派給資源帳戶之前，您也可以參閱在本文底部連結的通話佇列和自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="954a1-109">You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.</span></span>
+<span data-ttu-id="072f0-107">在 Microsoft 團隊中，每個自動語音應答或通話佇列都需要有一個資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-107">In Microsoft Teams, a resource account is required for each auto attendant or call queue.</span></span> <span data-ttu-id="072f0-108">您也可以將資源帳戶指派給服務電話號碼。</span><span class="sxs-lookup"><span data-stu-id="072f0-108">Resource accounts may also be assigned service telephone numbers.</span></span> <span data-ttu-id="072f0-109">這是您將電話號碼指派給自動語音應答及呼叫佇列的方式，允許來自外部團隊的呼叫者到達自動回應或通話佇列。</span><span class="sxs-lookup"><span data-stu-id="072f0-109">This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.</span></span>
 
-![資源帳戶和使用者授權的範例](media/resource-account.png)
+<span data-ttu-id="072f0-110">本文說明如何建立資源帳戶並準備好將其用於自動語音應答及呼叫佇列。</span><span class="sxs-lookup"><span data-stu-id="072f0-110">This article covers how to create resource accounts and ready them for use with auto attendants and call queues.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="954a1-111">本文適用于 Microsoft 團隊和商務用 Skype Online。</span><span class="sxs-lookup"><span data-stu-id="954a1-111">This article applies to both Microsoft Teams and Skype for Business Online.</span></span> <span data-ttu-id="954a1-112">針對駐留在商務用 Skype Server 2019 的資源帳戶，請參閱 [設定資源帳戶](/SkypeForBusiness/hybrid/configure-onprem-ra)。</span><span class="sxs-lookup"><span data-stu-id="954a1-112">For resource accounts homed on Skype for Business Server 2019, see [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).</span></span>
+<span data-ttu-id="072f0-111">在您開始本文中的程式之前，請先確定您已完成下列作業：</span><span class="sxs-lookup"><span data-stu-id="072f0-111">Before you start the procedures in this article, ensure you've done the following:</span></span>
 
-## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a><span data-ttu-id="954a1-113">將電話號碼指派給電話系統通話佇列</span><span class="sxs-lookup"><span data-stu-id="954a1-113">Assign a phone number to a Phone System call queue</span></span>
+- [<span data-ttu-id="072f0-112">取得虛擬使用者授權</span><span class="sxs-lookup"><span data-stu-id="072f0-112">Obtain virtual user licenses</span></span>](#obtain-virtual-user-licenses)
+- [<span data-ttu-id="072f0-113">取得服務號碼</span><span class="sxs-lookup"><span data-stu-id="072f0-113">Obtain service numbers</span></span>](#obtain-service-numbers)
 
-<span data-ttu-id="954a1-114">如果您的組織已經使用至少一個電話系統授權，請將電話號碼指派給電話系統呼叫佇列，處理常式為：</span><span class="sxs-lookup"><span data-stu-id="954a1-114">If your organization is already using at least one Phone System license, to assign a phone number to a Phone System call queue the process is:</span></span>
+### <a name="obtain-virtual-user-licenses"></a><span data-ttu-id="072f0-114">取得虛擬使用者授權</span><span class="sxs-lookup"><span data-stu-id="072f0-114">Obtain virtual user licenses</span></span>
 
-1. <span data-ttu-id="954a1-115">取得服務號碼。</span><span class="sxs-lookup"><span data-stu-id="954a1-115">Obtain a service number.</span></span>
-2. <span data-ttu-id="954a1-116">取得免費的電話系統- [虛擬使用者授權](teams-add-on-licensing/virtual-user.md) 或付費電話系統授權，以與資源帳戶或電話系統授權搭配使用。</span><span class="sxs-lookup"><span data-stu-id="954a1-116">Obtain a free Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or a paid Phone System license to use with the resource account or a Phone System license.</span></span>
-3. <span data-ttu-id="954a1-117">建立資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-117">Create the resource account.</span></span> <span data-ttu-id="954a1-118">需要自動語音應答或通話佇列，才能擁有關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-118">An auto attendant or call queue is required to have an associated resource account.</span></span>
-4. <span data-ttu-id="954a1-119">將電話系統或電話系統-虛擬使用者授權指派給資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-119">Assign the Phone System or a Phone System - Virtual user license to the resource account.</span></span>
-5. <span data-ttu-id="954a1-120">將服務電話號碼指派給您剛指派授權給之資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-120">Assign a service phone number to the resource account you just assigned licenses to.</span></span>
-6. <span data-ttu-id="954a1-121">建立電話系統通話佇列或自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-121">Create a Phone System call queue or auto attendant</span></span>
-7. <span data-ttu-id="954a1-122">連結資源帳戶與通話佇列或自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="954a1-122">Link the resource account with a call queue or auto attendant.</span></span>
+<span data-ttu-id="072f0-115">每個資源帳戶都需要授權，才能使用自動語音應答及呼叫佇列。</span><span class="sxs-lookup"><span data-stu-id="072f0-115">Each resource account requires a license in order to work with auto attendants and call queues.</span></span> <span data-ttu-id="072f0-116">您可以使用免費的 *Microsoft 365 Phone System-虛擬使用者* 授權。</span><span class="sxs-lookup"><span data-stu-id="072f0-116">You can use a free *Microsoft 365 Phone System - Virtual User* license.</span></span> <span data-ttu-id="072f0-117">若要取得這些授權，請參閱 [虛擬使用者授權](teams-add-on-licensing/virtual-user.md)。</span><span class="sxs-lookup"><span data-stu-id="072f0-117">To obtain these licenses, see [Virtual User license](teams-add-on-licensing/virtual-user.md).</span></span>
 
-<!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
+<span data-ttu-id="072f0-118">我們將在本文稍後的內容中，說明如何將授權指派給資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-118">We cover how to assign the license to a resource account later in this article.</span></span>
 
-<span data-ttu-id="954a1-123">如果自動語音應答或呼叫佇列嵌套在頂層自動語音應答底下，且您想要將多個進入點輸入到自動語音應答及呼叫佇列的結構中，相關聯的資源帳戶只需要電話號碼。</span><span class="sxs-lookup"><span data-stu-id="954a1-123">If the auto attendant or call queue is nested under a top-level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.</span></span>
+<span data-ttu-id="072f0-119">若要取得虛擬使用者授權，請在 Microsoft 365 系統管理中心中，移至 **帳單**  >  **購買服務**  >  **附加元件訂閱** ，然後滾動到最後，您將會看到 [ *電話系統-虛擬使用者* 授權]。</span><span class="sxs-lookup"><span data-stu-id="072f0-119">To get the Virtual User license, in the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see *Phone System - Virtual User* license.</span></span> <span data-ttu-id="072f0-120">選取 [ **立即購買** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-120">Select **Buy now**.</span></span> <span data-ttu-id="072f0-121">有零成本，但您仍需遵循這些步驟來取得授權。</span><span class="sxs-lookup"><span data-stu-id="072f0-121">There is a zero cost, but you still need to follow these steps to acquire the license.</span></span>
 
-<span data-ttu-id="954a1-124">若要將來電重新導向至您組織中的線上人員，他們必須具備 **手機系統** 授權，且可供企業語音使用，或是有 Microsoft 365 或 Office 365 通話方案。</span><span class="sxs-lookup"><span data-stu-id="954a1-124">To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Microsoft 365 or Office 365 Calling Plans.</span></span> <span data-ttu-id="954a1-125">請參閱 [指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。</span><span class="sxs-lookup"><span data-stu-id="954a1-125">See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).</span></span> <span data-ttu-id="954a1-126">若要啟用企業語音，您可以使用 Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="954a1-126">To enable them for Enterprise Voice, you can use Windows PowerShell.</span></span> <span data-ttu-id="954a1-127">例如，執行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span><span class="sxs-lookup"><span data-stu-id="954a1-127">For example run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span></span>
+### <a name="obtain-service-numbers"></a><span data-ttu-id="072f0-122">取得服務號碼</span><span class="sxs-lookup"><span data-stu-id="072f0-122">Obtain service numbers</span></span>
+
+<span data-ttu-id="072f0-123">[服務號碼] 是自動語音應答及呼叫佇列的選用，不過您至少需要一個服務編號，呼叫者才能到達您的自動語音應答及呼叫佇列設定。</span><span class="sxs-lookup"><span data-stu-id="072f0-123">Service numbers are optional for auto attendants and call queues, however you will need at least one service number in order for callers to reach your auto attendant and call queue configuration.</span></span> <span data-ttu-id="072f0-124">針對您想要直接透過服務號碼直接取得的任何自動語音應答或通話佇列，您必須有具有相關聯服務號碼的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-124">For any auto attendant or call queue that you want to be reachable directly by a service number, you must have a resource account with an associated service number.</span></span>
+
+<span data-ttu-id="072f0-125">資源帳戶可以使用付費或免付費服務號碼。</span><span class="sxs-lookup"><span data-stu-id="072f0-125">Resource accounts can use either toll or toll-free service numbers.</span></span> <span data-ttu-id="072f0-126">您可以要求新的號碼或從其他運營商取得現有號碼。</span><span class="sxs-lookup"><span data-stu-id="072f0-126">You can request new numbers or port existing numbers from another carrier.</span></span>
+
+<span data-ttu-id="072f0-127">若要取得新的服務號碼，請參閱 [取得服務電話號碼](getting-service-phone-numbers.md)。</span><span class="sxs-lookup"><span data-stu-id="072f0-127">To get new service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).</span></span>
+
+<span data-ttu-id="072f0-128">若要從另一個電信公司撥打電話給其他運輸公司，請參閱將 [電話號碼轉移給小組](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="072f0-128">To port a number from another carrier, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
+
+## <a name="create-a-resource-account"></a><span data-ttu-id="072f0-129">建立資源帳戶</span><span class="sxs-lookup"><span data-stu-id="072f0-129">Create a resource account</span></span>
+
+<span data-ttu-id="072f0-130">您可以在 [團隊管理中心] 中建立資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-130">You can create a resource account in the Teams admin center.</span></span>
+
+![[新增資源帳戶] 使用者介面的螢幕擷取畫面](media/resource-account-add.png)
+
+1. <span data-ttu-id="072f0-132">在 [團隊管理中心] 中，展開 [ **整個組織的設定** ]，然後按一下 [ **資源帳戶** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-132">In the Teams admin center, expand **Org-wide settings** , and then click **Resource accounts**.</span></span>
+
+2. <span data-ttu-id="072f0-133">按一下 [ **新增** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-133">Click **Add**.</span></span>
+
+3. <span data-ttu-id="072f0-134">在 [ **新增資源帳戶** ] 窗格中，填寫 [ **顯示名稱** **]、[** 使用者名稱] 和 [ **資源帳戶類型** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-134">In the **Add resource account** pane, fill out **Display name** , **Username** , and the **Resource account type**.</span></span> <span data-ttu-id="072f0-135">資源帳戶類型可以是 **自動** 應答或 **呼叫佇列** ，視您想要使用此資源帳戶的方式而定。</span><span class="sxs-lookup"><span data-stu-id="072f0-135">The resource account type can be either **Auto attendant** or **Call queue** , depending how you intend to use this resource account.</span></span>
+
+4. <span data-ttu-id="072f0-136">按一下 [儲存]。</span><span class="sxs-lookup"><span data-stu-id="072f0-136">Click **Save**.</span></span>
+
+![資源帳戶清單的螢幕擷取畫面](media/resource-accounts-page.png)
+
+## <a name="assign-a-license"></a><span data-ttu-id="072f0-138">指派授權</span><span class="sxs-lookup"><span data-stu-id="072f0-138">Assign a license</span></span>
+
+<span data-ttu-id="072f0-139">針對每個資源帳戶，您必須指派 *Microsoft 365 電話系統-虛擬使用者* 授權或 *電話系統* 授權。</span><span class="sxs-lookup"><span data-stu-id="072f0-139">For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.</span></span>
+
+![在 Microsoft 365 系統管理中心指派授權使用者介面的螢幕擷取畫面](media/resource-account-assign-virtual-user-license.png)
+
+1. <span data-ttu-id="072f0-141">在 Microsoft 365 系統管理中心，按一下您要指派授權的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-141">In the Microsoft 365 admin center, click the resource account to which you want to assign a license.</span></span>
+
+2. <span data-ttu-id="072f0-142">在 [ **授權及應用程式** ] 索引標籤的 [ **授權** ] 底下，選取 [ **Microsoft 365 電話系統-虛擬使用者** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-142">On the **Licenses and Apps** tab, under **Licenses** , select **Microsoft 365 Phone System - Virtual User**.</span></span>
+
+3. <span data-ttu-id="072f0-143">按一下 [ **儲存變更** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-143">Click **Save changes**.</span></span>
+
+## <a name="assign-a-service-number"></a><span data-ttu-id="072f0-144">指派服務號碼</span><span class="sxs-lookup"><span data-stu-id="072f0-144">Assign a service number</span></span>
+
+<span data-ttu-id="072f0-145">如果您打算將資源帳戶與需要服務號碼的自動語音應答或通話佇列搭配使用，請將號碼指派給資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-145">If you're planning to use the resource account with an auto attendant or call queue that requires a service number, assign a number to the resource account.</span></span>
+
+![指派服務號碼使用者介面的螢幕擷取畫面](media/resource-account-assign-phone-number.png)
+
+1. <span data-ttu-id="072f0-147">在團隊系統管理中心的 [ **資源帳戶** ] 頁面上，選取您要指派服務號碼的資源帳戶，然後按一下 [ **指派/取消指派** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-147">In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then click **Assign/unassign**.</span></span>
+
+2. <span data-ttu-id="072f0-148">在 [ **電話號碼類型** ] 下拉式清單中，選擇您要使用的號碼類型。</span><span class="sxs-lookup"><span data-stu-id="072f0-148">In the **Phone number type** dropdown, choose the type of number that you want to use.</span></span>
+
+3. <span data-ttu-id="072f0-149">在 [ **已指派的電話號碼** ] 方塊中，搜尋您要使用的號碼，然後按一下 [ **新增** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-149">In the **Assigned phone number** box, search for the number you want to use and click **Add**.</span></span>
+
+4. <span data-ttu-id="072f0-150">按一下 [儲存]。</span><span class="sxs-lookup"><span data-stu-id="072f0-150">Click **Save**.</span></span>
+
+
+<span data-ttu-id="072f0-151">若要將直接路由或混合式編號指派給資源帳戶，您需要使用 PowerShell：</span><span class="sxs-lookup"><span data-stu-id="072f0-151">To assign a direct routing or hybrid number to a resource account you need to use PowerShell:</span></span>
+
+`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+
+## <a name="next-steps"></a><span data-ttu-id="072f0-152">後續步驟</span><span class="sxs-lookup"><span data-stu-id="072f0-152">Next steps</span></span>
+
+<span data-ttu-id="072f0-153">完成資源帳戶設定並根據需要指派服務號碼之後，您就可以開始使用 [自動語音應答] 或 [通話佇列] 的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-153">Once you've completed the resource account setup and assigning a service number if needed, you're ready to use the resource account with an auto attendant or call queue.</span></span>
+
+<span data-ttu-id="072f0-154">請參閱下列參考資料：</span><span class="sxs-lookup"><span data-stu-id="072f0-154">See the following references:</span></span>
+
+ - [<span data-ttu-id="072f0-155">雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="072f0-155">Cloud auto attendant</span></span>](create-a-phone-system-auto-attendant.md)
+
+ - [<span data-ttu-id="072f0-156">雲端通話佇列</span><span class="sxs-lookup"><span data-stu-id="072f0-156">Cloud call queue</span></span>](create-a-phone-system-call-queue.md)
+
+<span data-ttu-id="072f0-157">您可以使用 [ **編輯** ] 選項來編輯資源帳戶的 [ **顯示名稱** ] 和 [ **資源] 帳戶** 類型。</span><span class="sxs-lookup"><span data-stu-id="072f0-157">You can edit the resource account **Display name** and **Resource account** type using the **Edit** option.</span></span> <span data-ttu-id="072f0-158">完成後，按一下 [ **儲存** ]。</span><span class="sxs-lookup"><span data-stu-id="072f0-158">Click **Save** when you are done.</span></span>
+
+## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a><span data-ttu-id="072f0-159">變更現有的資源帳戶以使用虛擬使用者授權</span><span class="sxs-lookup"><span data-stu-id="072f0-159">Change an existing resource account to use a Virtual User license</span></span>
+
+<span data-ttu-id="072f0-160">如果您決定將現有資源帳戶的授權從 **電話系統** 授權切換至虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後依照 Microsoft 365 系統管理中心的步驟， [將使用者移至不同的訂閱](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。</span><span class="sxs-lookup"><span data-stu-id="072f0-160">If you decide to switch the licenses on your existing resource account from a **Phone System** license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="954a1-128">為了避免發生資源帳戶的問題，請依照下列步驟進行。</span><span class="sxs-lookup"><span data-stu-id="954a1-128">In order to avoid problems with the resource account, follow these steps in this order.</span></span>
+> <span data-ttu-id="072f0-161">永遠移除完整的電話系統授權，並在相同的授權活動中指派虛擬使用者授權。</span><span class="sxs-lookup"><span data-stu-id="072f0-161">Always remove a full Phone System License and assign the Virtual User license in the same license activity.</span></span> <span data-ttu-id="072f0-162">如果您移除舊的授權，請儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法如期運作。</span><span class="sxs-lookup"><span data-stu-id="072f0-162">If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected.</span></span> <span data-ttu-id="072f0-163">如果發生這種情況，我們建議您為虛擬使用者授權建立新的資源帳戶，並移除中斷的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-163">If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.</span></span>
 
-<span data-ttu-id="954a1-129">如果您正在建立的電話系統通話佇列或自動語音應答將會嵌套，而且不需要電話號碼，程式如下：</span><span class="sxs-lookup"><span data-stu-id="954a1-129">If the Phone System call queue or auto attendant you're creating will be nested and won't need a phone number, the process is:</span></span>
+## <a name="skype-for-business-server-2019"></a><span data-ttu-id="072f0-164">商務用 Skype Server 2019</span><span class="sxs-lookup"><span data-stu-id="072f0-164">Skype For Business Server 2019</span></span>
 
-1. <span data-ttu-id="954a1-130">建立資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-130">Create the resource account</span></span>
-2. <span data-ttu-id="954a1-131">建立電話系統通話佇列或自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-131">Create a Phone System call queue or auto attendant</span></span>
-3. <span data-ttu-id="954a1-132">將資源帳戶與電話系統通話佇列或自動語音關聯</span><span class="sxs-lookup"><span data-stu-id="954a1-132">Associate the resource account with a Phone System call queue or auto attendant</span></span>
+<span data-ttu-id="072f0-165">針對駐留在商務用 Skype Server 2019 的資源帳戶（可搭配雲端通話佇列和雲端自動語音應答），請參閱 [規劃雲端通話佇列](/SkypeforBusiness/hybrid/plan-call-queue) 或 [規劃雲端自動](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)語音應答。</span><span class="sxs-lookup"><span data-stu-id="072f0-165">For resource accounts homed on Skype For Business Server 2019 that can be used with cloud call queues and cloud auto attendants, see [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).</span></span> <span data-ttu-id="072f0-166">混合式實現 (以直接路由) 為宿主的號碼是使用 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint) Cmdlet （在內部部署商務用 Skype server 2019 伺服器上）進行設定。</span><span class="sxs-lookup"><span data-stu-id="072f0-166">Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet on an on-premises Skype for Business Server 2019 server.</span></span>
 
-### <a name="create-a-resource-account-with-a-phone-number"></a><span data-ttu-id="954a1-133">使用電話號碼建立資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-133">Create a resource account with a phone number</span></span>
+<span data-ttu-id="072f0-167">建立應用程式實例時所需使用的應用程式識別碼為：</span><span class="sxs-lookup"><span data-stu-id="072f0-167">The application IDs that you need to use while creating the application instances are:</span></span>
 
-<span data-ttu-id="954a1-134"><a name="phonenumber"> </a></span><span class="sxs-lookup"><span data-stu-id="954a1-134"><a name="phonenumber"> </a></span></span>
+- <span data-ttu-id="072f0-168">**自動** 語音應答： ce933385-9390-45d1-9512-c8d228074e07</span><span class="sxs-lookup"><span data-stu-id="072f0-168">**Auto Attendant:** ce933385-9390-45d1-9512-c8d228074e07</span></span>
+- <span data-ttu-id="072f0-169">**通話佇列：** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span><span class="sxs-lookup"><span data-stu-id="072f0-169">**Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="954a1-135">電話號碼不會直接指派給自動語音應答或通話佇列，而是與自動語音應答或通話佇列相關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-135">A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.</span></span>
+> [!NOTE]
+> <span data-ttu-id="072f0-170">如果您想讓通話佇列或自動語音應答能透過商務用 Skype Server 2019 使用者進行搜尋，您應該在商務用 Skype Server 2019 上建立您的資源帳戶，因為線上資源帳戶不會同步處理到 Active Directory。</span><span class="sxs-lookup"><span data-stu-id="072f0-170">If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory.</span></span> <span data-ttu-id="072f0-171">當 sipfederationtls 的 DNS SRV 記錄解析到商務用 Skype Server 2019 時， **必須** 使用 SfB 管理命令介面，並同步處理到 Azure AD，在商務用 skype server 2019 上建立資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-171">When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.</span></span>
 
-<span data-ttu-id="954a1-136">最上層的自動語音應答或通話佇列，必須將電話號碼連結至它的自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="954a1-136">A top-level auto attendant or call queue will require a phone number be linked to its auto attendant.</span></span> <span data-ttu-id="954a1-137">若要建立使用電話號碼的資源帳戶，程式為：</span><span class="sxs-lookup"><span data-stu-id="954a1-137">To create a resource account that uses a phone number, the process is:</span></span>
+<span data-ttu-id="072f0-172">針對與商務用 Skype Server 混合使用的實現：</span><span class="sxs-lookup"><span data-stu-id="072f0-172">For implementations that are hybrid with Skype for Business Server:</span></span>
 
-1. <span data-ttu-id="954a1-138">移植或取得付費或免付費服務號碼。</span><span class="sxs-lookup"><span data-stu-id="954a1-138">Port or get a toll or toll-free service number.</span></span> <span data-ttu-id="954a1-139">該號碼不能指派給任何其他語音服務或資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-139">The number can't be assigned to any other voice services or resource accounts.</span></span>
-
-   <span data-ttu-id="954a1-140">在您將電話號碼指派給資源帳戶之前，您必須先取得或移植現有的付費或免付費服務號碼。</span><span class="sxs-lookup"><span data-stu-id="954a1-140">Before you assign a phone number to a resource account, you need to get or port your existing toll or toll-free service numbers.</span></span> <span data-ttu-id="954a1-141">當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心**的  >  **語音**  >  **電話號碼**中，而**數位類型**則會列為 [**服務-免付費**電話]。</span><span class="sxs-lookup"><span data-stu-id="954a1-141">After you get the toll or toll-free service phone numbers, they show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type**  will be listed as **Service - Toll-Free**.</span></span> <span data-ttu-id="954a1-142">若要取得您的服務號碼，請參閱 [取得服務電話號碼](getting-service-phone-numbers.md) ，或者如果您想要轉移現有的服務號碼，請參閱 [將電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="954a1-142">To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
-
-   <span data-ttu-id="954a1-143">如果您要將電話號碼指派給資源帳戶，您現在可以使用 [免付費電話系統虛擬使用者授權]。</span><span class="sxs-lookup"><span data-stu-id="954a1-143">If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license.</span></span> <span data-ttu-id="954a1-144">這會提供手機系統功能給組織階層的電話號碼，並可讓您建立自動語音應答及呼叫佇列功能。</span><span class="sxs-lookup"><span data-stu-id="954a1-144">This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.</span></span>
-
-2. <span data-ttu-id="954a1-145">取得電話系統虛擬使用者授權或一般的電話系統授權。</span><span class="sxs-lookup"><span data-stu-id="954a1-145">Obtain a Phone System Virtual User license or a regular Phone System license.</span></span>
-
-   <span data-ttu-id="954a1-146">若要取得虛擬使用者授權，請在 Microsoft 365 系統管理中心中，移至**帳單**  >  **購買服務**  >  **附加元件訂閱**，然後滾動至最後-您會看到「電話系統-虛擬使用者」授權。</span><span class="sxs-lookup"><span data-stu-id="954a1-146">To get the Virtual User license, in the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license.</span></span> <span data-ttu-id="954a1-147">選取 [ **立即購買**]。</span><span class="sxs-lookup"><span data-stu-id="954a1-147">Select **Buy now**.</span></span> <span data-ttu-id="954a1-148">有零成本，但您仍需遵循這些步驟來取得授權。</span><span class="sxs-lookup"><span data-stu-id="954a1-148">There is a zero cost, but you still need to follow these steps to acquire the license.</span></span>
-3. <span data-ttu-id="954a1-149">建立新的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-149">Create a new resource account.</span></span> <span data-ttu-id="954a1-150">請參閱在 [Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-the-microsoft-teams-admin-center) 或 [在 PowerShell 中建立資源帳戶](#create-a-resource-account-in-powershell)。</span><span class="sxs-lookup"><span data-stu-id="954a1-150">See [Create a resource account in the Microsoft Teams admin center](#create-a-resource-account-in-the-microsoft-teams-admin-center) or [Create a resource account in PowerShell](#create-a-resource-account-in-powershell).</span></span>
-4. <span data-ttu-id="954a1-151">將電話系統- [虛擬使用者授權](teams-add-on-licensing/virtual-user.md) 或電話系統授權指派給資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-151">Assign a Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or Phone System License to the resource account.</span></span> <span data-ttu-id="954a1-152">請參閱 [指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md) 和 [指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。</span><span class="sxs-lookup"><span data-stu-id="954a1-152">See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md) and [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
-5. <span data-ttu-id="954a1-153">將服務號碼指派給資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-153">Assign the service number to the resource account.</span></span> <span data-ttu-id="954a1-154">請參閱 [指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。</span><span class="sxs-lookup"><span data-stu-id="954a1-154">See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).</span></span>
-6. <span data-ttu-id="954a1-155">設定下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="954a1-155">Set up one of the following:</span></span>
-   - [<span data-ttu-id="954a1-156">雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-156">Cloud auto attendant</span></span>](create-a-phone-system-auto-attendant.md)
-   - [<span data-ttu-id="954a1-157">雲端通話佇列</span><span class="sxs-lookup"><span data-stu-id="954a1-157">Cloud call queue</span></span>](create-a-phone-system-call-queue.md)
-7. <span data-ttu-id="954a1-158">將資源帳戶連結到自動語音應答或通話佇列。</span><span class="sxs-lookup"><span data-stu-id="954a1-158">Link the resource account to the auto attendant or call queue.</span></span> <span data-ttu-id="954a1-159">請參閱 [指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)</span><span class="sxs-lookup"><span data-stu-id="954a1-159">See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)</span></span>
-
-<span data-ttu-id="954a1-160">建立自動語音應答時，當您建立資源帳戶時，系統會自動套用授權。</span><span class="sxs-lookup"><span data-stu-id="954a1-160">When you create a resource account while creating an auto attendant, the licenses are applied automatically.</span></span>
-
-### <a name="create-a-resource-account-without-a-phone-number"></a><span data-ttu-id="954a1-161">建立不含電話號碼的資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-161">Create a resource account without a phone number</span></span>
-
-<span data-ttu-id="954a1-162">嵌套的自動語音應答或呼叫佇列將需要資源帳戶，但在許多情況下，對應的資源帳戶不需要電話號碼和支援電話號碼所需的授權。</span><span class="sxs-lookup"><span data-stu-id="954a1-162">A nested auto attendant or call queue will require a resource account, but in many cases the corresponding resource account will not need a phone number and the licensing required to support a phone number.</span></span> <span data-ttu-id="954a1-163">若要建立不需要電話號碼的資源帳戶，必須以下列循序執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="954a1-163">Creating a resource account that does not need a phone number would require performing the following tasks in the following order:</span></span>
-
-1. <span data-ttu-id="954a1-164">建立新的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-164">Create a new resource account.</span></span> <span data-ttu-id="954a1-165">請參閱 [在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-the-microsoft-teams-admin-center) 或 [在 PowerShell 中建立資源帳戶](#create-a-resource-account-in-powershell)。</span><span class="sxs-lookup"><span data-stu-id="954a1-165">See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-the-microsoft-teams-admin-center) or [Create a resource account in PowerShell](#create-a-resource-account-in-powershell).</span></span>
-
-2. <span data-ttu-id="954a1-166">設定下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="954a1-166">Set up one of the following:</span></span>
-   - [<span data-ttu-id="954a1-167">雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-167">Cloud auto attendant</span></span>](create-a-phone-system-auto-attendant.md)
-   - [<span data-ttu-id="954a1-168">雲端通話佇列</span><span class="sxs-lookup"><span data-stu-id="954a1-168">Cloud call queue</span></span>](create-a-phone-system-call-queue.md)
+   [<span data-ttu-id="072f0-173">規劃雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="072f0-173">Plan Cloud auto attendants</span></span>](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+  
+   [<span data-ttu-id="072f0-174">規劃雲端通話佇列</span><span class="sxs-lookup"><span data-stu-id="072f0-174">Plan Cloud call queues</span></span>](/SkypeforBusiness/hybrid/plan-call-queue)
    
-3. <span data-ttu-id="954a1-169">將資源帳戶指派給通話佇列或自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="954a1-169">Assign the resource account to the call queue or auto attendant.</span></span> <span data-ttu-id="954a1-170">請參閱 [指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。</span><span class="sxs-lookup"><span data-stu-id="954a1-170">See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).</span></span>
+   [<span data-ttu-id="072f0-175">設定內部部署的資源帳戶</span><span class="sxs-lookup"><span data-stu-id="072f0-175">Configure on-prem resource accounts</span></span>](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
-## <a name="create-a-resource-account-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="954a1-171">在 Microsoft [團隊管理中心] 中建立資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-171">Create a resource account in the Microsoft Teams admin center</span></span>
+## <a name="delete-a-resource-account"></a><span data-ttu-id="072f0-176">刪除資源帳戶</span><span class="sxs-lookup"><span data-stu-id="072f0-176">Delete a resource account</span></span>
 
-<span data-ttu-id="954a1-172">在您購買電話系統授權之後，請在 Microsoft 團隊系統管理中心的左導覽中，移至**組織範圍的設定**  >  **資源帳戶**。</span><span class="sxs-lookup"><span data-stu-id="954a1-172">After you've bought a Phone System license, in the left navigation of the Microsoft Teams admin center, go to **Org-wide settings** > **Resource accounts**.</span></span>
+<span data-ttu-id="072f0-177">在刪除前，請確定您已將電話號碼與資源帳戶取消關聯，以免讓您的服務號碼停滯在擱置模式中。</span><span class="sxs-lookup"><span data-stu-id="072f0-177">Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode.</span></span>
 
-![[資源帳戶] 頁面的螢幕擷取畫面](media/r-a-master.png)
+<span data-ttu-id="072f0-178">完成之後，您可以在 Microsoft 365 系統管理中心的 [使用者] 索引標籤底下刪除資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="072f0-178">After you do that, you can delete the resource account in the Microsoft 365 admin center, under the Users tab.</span></span>
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/teamscallout1.png)
-
-<span data-ttu-id="954a1-175">若要建立新的資源帳戶， **請按一下 [新增]**。</span><span class="sxs-lookup"><span data-stu-id="954a1-175">To create a new resource account, click **Add**.</span></span> <span data-ttu-id="954a1-176">在 [ **新增資源帳戶** ] 窗格中，填寫 [ **顯示名稱**]、[ **使用者名** ] (功能變數名稱應該會自動填入) ，以及資源帳戶的 **資源帳戶類型** 。</span><span class="sxs-lookup"><span data-stu-id="954a1-176">In the **Add resource account** pane, fill out **Display name**, **Username** (the domain name should populate automatically), and **Resource account type** for the resource account.</span></span> <span data-ttu-id="954a1-177">資源帳戶類型可以是 [ **自動** 應答] 或 [ **呼叫佇列**]，視您想要與資源帳戶建立關聯的 app 而定。</span><span class="sxs-lookup"><span data-stu-id="954a1-177">The resource account type can be either **Auto attendant** or **Call queue**, depending on the app you intend to associate to the resource account.</span></span> <span data-ttu-id="954a1-178">當您準備好時，請按一下 [ **儲存**]。</span><span class="sxs-lookup"><span data-stu-id="954a1-178">When you're ready, click **Save**.</span></span>
-
-![[新增資源帳戶] 選項的螢幕擷取畫面](media/res-acct.png)
-
-<span data-ttu-id="954a1-180">接著，將授權套用至 Microsoft 365 系統管理中心的資源帳戶，如 [將授權指派給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)中所述。</span><span class="sxs-lookup"><span data-stu-id="954a1-180">Next, apply a license to the resource account in the Microsoft 365 Admin center, as described in [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
-
-### <a name="edit-resource-account"></a><span data-ttu-id="954a1-181">編輯資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-181">Edit resource account</span></span> 
-
-<span data-ttu-id="954a1-182">![數位2的圖示，參照前一個螢幕擷取畫面中的標注， ](media/teamscallout2.png) 您可以使用 [**編輯**] 選項編輯資源帳戶**顯示名稱**和**資源帳戶**類型。</span><span class="sxs-lookup"><span data-stu-id="954a1-182">![Icon of the number 2, referencing a callout in the previous screenshot](media/teamscallout2.png) You can edit the resource account **Display name** and **Resource account** type using the **Edit** option.</span></span> <span data-ttu-id="954a1-183">完成後，按一下 [ **儲存** ]。</span><span class="sxs-lookup"><span data-stu-id="954a1-183">Click **Save** when you are done.</span></span>
-
-![[編輯資源帳戶] 選項的螢幕擷取畫面](media/r-a-edit.png)
-
-<span data-ttu-id="954a1-185"><a name="phonenumber"> </a></span><span class="sxs-lookup"><span data-stu-id="954a1-185"><a name="phonenumber"> </a></span></span>
-
-### <a name="assignunassign-phone-numbers-and-services"></a><span data-ttu-id="954a1-186">指派/取消指派電話號碼和服務</span><span class="sxs-lookup"><span data-stu-id="954a1-186">Assign/unassign phone numbers and services</span></span>
-
-<span data-ttu-id="954a1-187">![數位3的圖示，在您建立資源帳戶並指派授權之後，在前一個螢幕擷取畫面中參照標注， ](media/teamscallout3.png) 您可以按一下 [ **指派/取消指派** ]，將服務號碼指派給資源帳戶、設定電話號碼類型，或將資源帳戶指派給已經存在的特定自動語音應答或通話佇列。</span><span class="sxs-lookup"><span data-stu-id="954a1-187">![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) After you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists.</span></span> <span data-ttu-id="954a1-188">指派直接路由號碼只能使用 Cmdlet 完成。</span><span class="sxs-lookup"><span data-stu-id="954a1-188">Assigning a direct routing number can be done using Cmdlets only.</span></span> <span data-ttu-id="954a1-189">如果您尚未建立要與資源帳戶相關聯的通話佇列或自動語音應答，請將該欄位留白。</span><span class="sxs-lookup"><span data-stu-id="954a1-189">If you haven't yet created the  call queue or auto attendant you will associate to the resource account, leave that field blank.</span></span> <span data-ttu-id="954a1-190">您可以在建立資源帳戶時將它連結。</span><span class="sxs-lookup"><span data-stu-id="954a1-190">You can link the resource account while you create it.</span></span> <span data-ttu-id="954a1-191">完成後，按一下 [ **儲存** ]。</span><span class="sxs-lookup"><span data-stu-id="954a1-191">Click **Save** when you are done.</span></span>
-
-<span data-ttu-id="954a1-192">**電話號碼類型**的選項如下：</span><span class="sxs-lookup"><span data-stu-id="954a1-192">Options for the **Phone number type** are:</span></span>
-
-- <span data-ttu-id="954a1-193">無</span><span class="sxs-lookup"><span data-stu-id="954a1-193">None</span></span>
-- <span data-ttu-id="954a1-194">Online</span><span class="sxs-lookup"><span data-stu-id="954a1-194">Online</span></span>
-- <span data-ttu-id="954a1-195">免付費電話</span><span class="sxs-lookup"><span data-stu-id="954a1-195">Toll-free</span></span>
-- <span data-ttu-id="954a1-196">內部部署</span><span class="sxs-lookup"><span data-stu-id="954a1-196">On-premises</span></span>
-
-![[指派/取消指派] 選項的螢幕擷取畫面](media/r-a-assign.png)
-
-<span data-ttu-id="954a1-198">若要將直接路由或混合式編號指派給資源帳戶，您將需要使用 PowerShell，請參閱下一節。</span><span class="sxs-lookup"><span data-stu-id="954a1-198">To assign a direct routing or hybrid number to a resource account you will need to use PowerShell, see the following section.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="954a1-199">如果您的資源帳戶沒有有效的授權，當您嘗試將電話號碼指派給資源帳戶時，可能會發生內部檢查失敗。</span><span class="sxs-lookup"><span data-stu-id="954a1-199">If your resource account doesn't have a valid license, an internal check will cause a failure when you try to assign the phone number to the resource account.</span></span> <span data-ttu-id="954a1-200">您無法指派號碼或將資源帳戶與通話佇列或自動語音助理建立關聯。</span><span class="sxs-lookup"><span data-stu-id="954a1-200">You won't be able to assign the number or associate the resource account with a call queue or auto attendant.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="954a1-201">電話號碼不會直接指派給自動語音應答或通話佇列，而是與自動語音應答或通話佇列相關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-201">A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.</span></span>
-
-
-
-## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a><span data-ttu-id="954a1-202">變更現有的資源帳戶以使用虛擬使用者授權</span><span class="sxs-lookup"><span data-stu-id="954a1-202">Change an existing resource account to use a Virtual User license</span></span>
-
-<span data-ttu-id="954a1-203">如果您決定將現有資源帳戶的授權從電話系統授權切換至虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後依照 Microsoft 365 系統管理中心的步驟， [將使用者移至不同的訂閱](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。</span><span class="sxs-lookup"><span data-stu-id="954a1-203">If you decide to switch the licenses on your existing resource account from a Phone System license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).</span></span>
-
-> [!WARNING]
-> <span data-ttu-id="954a1-204">永遠移除完整的電話系統授權，並在相同的授權活動中指派虛擬使用者授權。</span><span class="sxs-lookup"><span data-stu-id="954a1-204">Always remove a full Phone System License and assign the Virtual User license in the same license activity.</span></span> <span data-ttu-id="954a1-205">如果您移除舊的授權，請儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法如期運作。</span><span class="sxs-lookup"><span data-stu-id="954a1-205">If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected.</span></span> <span data-ttu-id="954a1-206">如果發生這種情況，我們建議您為虛擬使用者授權建立新的資源帳戶，並移除中斷的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-206">If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.</span></span>
-
-## <a name="create-a-resource-account-in-powershell"></a><span data-ttu-id="954a1-207">在 PowerShell 中建立資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-207">Create a resource account in PowerShell</span></span>
-
-<span data-ttu-id="954a1-208">根據您的資源帳戶是位於線上或商務用 Skype Server 2019，您必須使用系統管理員許可權連線至適當的 PowerShell 提示。</span><span class="sxs-lookup"><span data-stu-id="954a1-208">Depending on whether your resource account is located online or on Skype for Business Server 2019, you would need to connect to the appropriate PowerShell prompt with Admin privileges.</span></span>
-
-- <span data-ttu-id="954a1-209">下列 PowerShell Cmdlet 範例顯示如何使用 [新的 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)建立以線上為宿主的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-209">The following PowerShell cmdlet examples show creating a resource account homed online using [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps).</span></span> 
-
-- <span data-ttu-id="954a1-210">針對駐留在商務用 Skype Server 2019 的資源帳戶（可搭配雲端通話佇列和雲端自動語音應答），請參閱 [規劃雲端通話佇列](/SkypeforBusiness/hybrid/plan-call-queue) 或 [規劃雲端自動](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)語音應答。</span><span class="sxs-lookup"><span data-stu-id="954a1-210">For resource accounts homed on Skype For Business Server 2019 that can be used with Cloud Call Queues and Cloud Auto Attendants, see [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).</span></span> <span data-ttu-id="954a1-211">混合式實現 (以直接路由) 為宿主的號碼是使用 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) Cmdlet （在內部部署商務用 Skype server 2019 伺服器上）進行設定。</span><span class="sxs-lookup"><span data-stu-id="954a1-211">Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) cmdlet on an on-premises Skype for Business Server 2019 server.</span></span>
-
-<span data-ttu-id="954a1-212">您在建立應用程式實例時所需使用的應用程式識別碼為：</span><span class="sxs-lookup"><span data-stu-id="954a1-212">The application ID's that you need to use while creating the application instances are:</span></span>
-
-- <span data-ttu-id="954a1-213">**自動** 語音應答： ce933385-9390-45d1-9512-c8d228074e07</span><span class="sxs-lookup"><span data-stu-id="954a1-213">**Auto Attendant:** ce933385-9390-45d1-9512-c8d228074e07</span></span>
-- <span data-ttu-id="954a1-214">**通話佇列：** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span><span class="sxs-lookup"><span data-stu-id="954a1-214">**Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="954a1-215">如果您想讓通話佇列或自動語音應答能透過商務用 Skype Server 2019 使用者進行搜尋，您應該在商務用 Skype Server 2019 上建立您的資源帳戶，因為線上資源帳戶不會同步處理到 Active Directory。</span><span class="sxs-lookup"><span data-stu-id="954a1-215">If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory.</span></span> <span data-ttu-id="954a1-216">當 sipfederationtls 的 DNS SRV 記錄解析到商務用 Skype Server 2019 時， **必須** 使用 SfB 管理命令介面，並同步處理至 ONLINE Azure AD，在商務用 skype server 2019 上建立資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-216">When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to online Azure AD.</span></span>
-
- 
-
-1. <span data-ttu-id="954a1-217">若要在線上建立與自動語音助理搭配使用的資源帳戶，請使用下列命令：</span><span class="sxs-lookup"><span data-stu-id="954a1-217">To create a resource account online for use with an auto attendant, use the following command:</span></span>
-
-    ```powershell
-    New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
-    ```
-
-2. <span data-ttu-id="954a1-218">您必須先將授權套用至該資源帳戶，才能使用該帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-218">You will not be able to use the resource account until you apply a license to it.</span></span> <span data-ttu-id="954a1-219">若要瞭解如何將授權套用至 Microsoft 365 系統管理中心的帳戶，請參閱[指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 以及 [指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。</span><span class="sxs-lookup"><span data-stu-id="954a1-219">To learn how to apply a license to an account in the Microsoft 365 admin center, see[Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).</span></span>
-
-3. <span data-ttu-id="954a1-220"> (選用) 將正確的授權套用至資源帳戶之後，您就可以將電話號碼指派給資源帳戶，如下所示。</span><span class="sxs-lookup"><span data-stu-id="954a1-220">(Optional) After the correct license is applied to the resource account, you can assign a phone number to the resource account as shown below.</span></span> <span data-ttu-id="954a1-221">並非所有資源帳戶都需要電話號碼。</span><span class="sxs-lookup"><span data-stu-id="954a1-221">Not all resource accounts will require a phone number.</span></span> <span data-ttu-id="954a1-222">如果您沒有將授權套用至資源帳戶，電話號碼指派將會失敗。</span><span class="sxs-lookup"><span data-stu-id="954a1-222">If you didn't apply a license to the resource account, the phone number assignment will fail.</span></span>
-
-   ```powershell
-   Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
-   Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
-   ```
-
-   <span data-ttu-id="954a1-223">如需此命令的詳細資料，請參閱 [設定 CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) 。</span><span class="sxs-lookup"><span data-stu-id="954a1-223">See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) for more details on this command.</span></span>
-
-   > [!NOTE]
-   > <span data-ttu-id="954a1-224">您最簡單的做法是使用 Microsoft 團隊系統管理中心來設定線上電話號碼，如先前所述。</span><span class="sxs-lookup"><span data-stu-id="954a1-224">It's easiest to set the online phone number using the Microsoft Teams admin center, as described previously.</span></span>
-
-   <span data-ttu-id="954a1-225">若要將直接傳送電話號碼指派給駐留在 Microsoft 團隊或商務用 Skype Server 2019) 的資源帳戶 (，請針對商務用 Skype Online PowerShell 使用下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="954a1-225">To assign a direct routing phone number to a resource account (homed either in Microsoft Teams or Skype For Business Server 2019), use the following cmdlet for Skype for Business Online PowerShell:</span></span>
-
-   ```powershell
-   Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
-   ```
-
-## <a name="manage-resource-account-settings-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="954a1-226">在 Microsoft 團隊系統管理中心中管理資源帳戶設定</span><span class="sxs-lookup"><span data-stu-id="954a1-226">Manage resource account settings in the Microsoft Teams admin center</span></span>
-
-<span data-ttu-id="954a1-227">若要在 Microsoft 團隊系統管理中心中管理資源帳戶設定，請移至 [**整個組織的設定**  >  **資源帳戶**]，選取您要變更其設定的資源帳戶，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="954a1-227">To manage resource account settings in Microsoft Teams admin center, go to **Org-wide settings** > **Resource accounts**, select the resource account you need to change settings for, and then click **Edit**.</span></span> <span data-ttu-id="954a1-228">在 [ **編輯資源帳戶** ] 窗格中，您可以變更這些設定：</span><span class="sxs-lookup"><span data-stu-id="954a1-228">On the **Edit resource account** pane, you can change these settings:</span></span>
-
-- <span data-ttu-id="954a1-229">帳戶的**顯示名稱**</span><span class="sxs-lookup"><span data-stu-id="954a1-229">**Display name** for the account</span></span>
-- <span data-ttu-id="954a1-230">使用帳戶的通話佇列或自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-230">Call queue or auto attendant that uses the account</span></span>
-- <span data-ttu-id="954a1-231">指派給帳戶的電話號碼</span><span class="sxs-lookup"><span data-stu-id="954a1-231">Phone number assigned to the account</span></span>
-
-<span data-ttu-id="954a1-232">完成後，按一下 [ **儲存**]。</span><span class="sxs-lookup"><span data-stu-id="954a1-232">When finished, click **Save**.</span></span>
-
-## <a name="delete-a-resource-account"></a><span data-ttu-id="954a1-233">刪除資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-233">Delete a resource account</span></span>
-
-<span data-ttu-id="954a1-234">在刪除前，請確定您已將電話號碼與資源帳戶取消關聯，以免讓您的服務號碼停滯在擱置模式中。</span><span class="sxs-lookup"><span data-stu-id="954a1-234">Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode.</span></span> <span data-ttu-id="954a1-235">您可以使用下列 Cmdlet 來執行此動作：</span><span class="sxs-lookup"><span data-stu-id="954a1-235">You can do that using the following cmdlet:</span></span>
-
-```powershell
-Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
-```
-
-<span data-ttu-id="954a1-236">完成之後，您可以在 Microsoft 365 系統管理中心的 [使用者] 索引標籤底下刪除資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-236">After you do that, you can delete the resource account in the Microsoft 365 admin center, under the Users tab.</span></span>
-
-<span data-ttu-id="954a1-237">若要解除直接路由電話號碼與資源帳戶的關聯，請使用下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="954a1-237">To disassociate a direct routing telephone number from the resource account, use the following cmdlet:</span></span>
+<span data-ttu-id="072f0-179">若要解除直接路由電話號碼與資源帳戶的關聯，請使用下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="072f0-179">To disassociate a direct routing telephone number from the resource account, use the following cmdlet:</span></span>
 
 ```powershell
 Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
 ```
-
-## <a name="troubleshooting"></a><span data-ttu-id="954a1-238">疑難排解</span><span class="sxs-lookup"><span data-stu-id="954a1-238">Troubleshooting</span></span>
-
-### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="954a1-239">在 Microsoft 團隊系統管理中心中，您沒有看到指派給資源帳戶的電話號碼</span><span class="sxs-lookup"><span data-stu-id="954a1-239">You don't see the phone number assigned to the resource account in the Microsoft Teams admin center</span></span>
-
-<span data-ttu-id="954a1-240">如果您在 Microsoft 團隊系統管理中心中沒有看到指派給資源帳戶的電話號碼，而且您無法指派該號碼，請檢查下列專案：</span><span class="sxs-lookup"><span data-stu-id="954a1-240">If you don't see the phone number assigned to the resource account in the Microsoft Teams admin center and you are unable to assign the number from there, check the following:</span></span>
-
-```powershell
-Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
-```
-
-<span data-ttu-id="954a1-241">如果 [部門] 屬性顯示商務用 Skype 應用程式端點，請執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="954a1-241">If the department attribute displays Skype for Business Application Endpoint please run the cmdlet below:</span></span>
-
-```powershell
-Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
-```
-
-> [!NOTE]
-> <span data-ttu-id="954a1-242">在執行 cmldet 之後重新整理團隊管理中心網頁，您應該能夠正確指派號碼。</span><span class="sxs-lookup"><span data-stu-id="954a1-242">Refresh the Teams Admin center webpage after running the cmldet, and you should be able to assign the number correctly.</span></span>
-
-### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a><span data-ttu-id="954a1-243">您會收到「我們無法使用此資源帳戶來服務」。</span><span class="sxs-lookup"><span data-stu-id="954a1-243">You get a "We can't use this resource account for services."</span></span> <span data-ttu-id="954a1-244">錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="954a1-244">error message</span></span>
-
-<span data-ttu-id="954a1-245"><a name="blocksignin"> </a></span><span class="sxs-lookup"><span data-stu-id="954a1-245"><a name="blocksignin"> </a></span></span>
-
-<span data-ttu-id="954a1-246">當您嘗試使用資源帳戶時，會收到下列錯誤訊息：</span><span class="sxs-lookup"><span data-stu-id="954a1-246">You get the following error message when you try to use a resource account:</span></span>
-
-<span data-ttu-id="954a1-247">「我們無法將此資源帳戶用於服務。</span><span class="sxs-lookup"><span data-stu-id="954a1-247">"We can't use this resource account for services.</span></span> <span data-ttu-id="954a1-248">您必須停用並封鎖資源帳戶登入。</span><span class="sxs-lookup"><span data-stu-id="954a1-248">The resource account must be DISABLED and BLOCKED from signing in.</span></span> <span data-ttu-id="954a1-249">您必須在 Microsoft 365 系統管理中心的 [使用者] 頁面上封鎖此資源帳戶的登入。</span><span class="sxs-lookup"><span data-stu-id="954a1-249">You must BLOCK sign-ins for this resource account on the Users page in the Microsoft 365 admin center."</span></span>
-
-<span data-ttu-id="954a1-250">當您建立資源帳戶時，預設會停用該帳戶，且系統會封鎖帳戶的登入。</span><span class="sxs-lookup"><span data-stu-id="954a1-250">When you create a resource account, by default, it's disabled and sign in is blocked for the account.</span></span> <span data-ttu-id="954a1-251">不應變更這些設定。</span><span class="sxs-lookup"><span data-stu-id="954a1-251">These settings shouldn't be changed.</span></span> <span data-ttu-id="954a1-252">若要解決此錯誤訊息，請封鎖資源帳戶登入。</span><span class="sxs-lookup"><span data-stu-id="954a1-252">To resolve this error message, block the resource account from signing in.</span></span> <span data-ttu-id="954a1-253">若要執行此動作：</span><span class="sxs-lookup"><span data-stu-id="954a1-253">To do this:</span></span>
-
-1. <span data-ttu-id="954a1-254">在 Microsoft 365 系統管理中心中，移至 [ **使用者**]、[搜尋]，然後選取資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="954a1-254">In the Microsoft 365 admin center, go to **Users**, search for, and then select the resource account.</span></span>
-2. <span data-ttu-id="954a1-255">在窗格頂端的 [顯示名稱] 底下，按一下 [ **封鎖此使用者？**]，選取 [ **封鎖此使用者登入** ] 核取方塊，然後選取 [ **儲存變更**]。</span><span class="sxs-lookup"><span data-stu-id="954a1-255">At the top of the pane under the display name, click **Block this user?**, select the **Block this user from signing in** check box, and then select **Save changes**.</span></span>
-
-   ![[封鎖此使用者] 選項的螢幕擷取畫面](media/res-acct-block.png)
-
-    <span data-ttu-id="954a1-257">執行此動作之後，您會在顯示名稱底下看到 [登入封鎖]。</span><span class="sxs-lookup"><span data-stu-id="954a1-257">After you do this, you'll see "Sign in blocked" under the display name.</span></span>
-
-      ![登入封鎖郵件的螢幕擷取畫面](media/res-acct-sign-in-blocked.png)
-
-## <a name="related-information"></a><span data-ttu-id="954a1-259">相關資訊</span><span class="sxs-lookup"><span data-stu-id="954a1-259">Related Information</span></span>
-
-<span data-ttu-id="954a1-260">針對與商務用 Skype Server 混合使用的實現：</span><span class="sxs-lookup"><span data-stu-id="954a1-260">For implementations that are hybrid with Skype for Business Server:</span></span>
-
-   [<span data-ttu-id="954a1-261">規劃雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-261">Plan Cloud auto attendants</span></span>](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
-  
-   [<span data-ttu-id="954a1-262">規劃雲端通話佇列</span><span class="sxs-lookup"><span data-stu-id="954a1-262">Plan Cloud call queues</span></span>](/SkypeforBusiness/hybrid/plan-call-queue)
-   
-   [<span data-ttu-id="954a1-263">設定內部部署的資源帳戶</span><span class="sxs-lookup"><span data-stu-id="954a1-263">Configure on-prem resource accounts</span></span>](/SkypeForBusiness/hybrid/configure-onprem-ra)
-
-
-<span data-ttu-id="954a1-264">針對團隊或商務用 Skype Online 中的 [實現]：</span><span class="sxs-lookup"><span data-stu-id="954a1-264">For implementations in Teams or Skype for Business Online:</span></span>
-
-   [<span data-ttu-id="954a1-265">什麼是雲端自動語音應答？</span><span class="sxs-lookup"><span data-stu-id="954a1-265">What are Cloud auto attendants?</span></span>](what-are-phone-system-auto-attendants.md)
-
-   [<span data-ttu-id="954a1-266">設定雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-266">Set up a Cloud auto attendant</span></span>](/microsoftteams/create-a-phone-system-auto-attendant)
-
-   [<span data-ttu-id="954a1-267">小型企業範例 - 設定自動語音應答</span><span class="sxs-lookup"><span data-stu-id="954a1-267">Small business example - Set up an auto attendant</span></span>](/microsoftteams/tutorial-org-aa)
-
-   [<span data-ttu-id="954a1-268">建立雲端通話佇列</span><span class="sxs-lookup"><span data-stu-id="954a1-268">Create a Cloud call queue</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
-
-[<span data-ttu-id="954a1-269">新-CsHybridApplicationEndpoint</span><span class="sxs-lookup"><span data-stu-id="954a1-269">New-CsHybridApplicationEndpoint</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
-
-[<span data-ttu-id="954a1-270">新-CsOnlineApplicationInstance</span><span class="sxs-lookup"><span data-stu-id="954a1-270">New-CsOnlineApplicationInstance</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
-
-[<span data-ttu-id="954a1-271">新-CsOnlineApplicationInstanceAssociation</span><span class="sxs-lookup"><span data-stu-id="954a1-271">New-CsOnlineApplicationInstanceAssociation</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstanceassociation?view=skype-ps)
-
-[<span data-ttu-id="954a1-272">電話系統-虛擬使用者授權</span><span class="sxs-lookup"><span data-stu-id="954a1-272">Phone System - Virtual User license</span></span>](teams-add-on-licensing/virtual-user.md)
