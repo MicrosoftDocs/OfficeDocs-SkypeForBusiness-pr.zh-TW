@@ -15,15 +15,16 @@ ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416848"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030279"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
@@ -57,7 +58,7 @@ ms.locfileid: "48416848"
   在 Azure Active Directory 中擁有公司或學校帳戶的來賓使用者，可以接受邀請並直接進行驗證。 其他使用者傳送一次性傳遞程式碼，以驗證其身分識別 (需要) 的一次性 [密碼驗證](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) 。
 4. 接受邀請之後，來賓可以[參與小組和頻道](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)、接收及回應頻道訊息、[存取頻道中的檔案](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、參與交談、加入會議、在文件上共同作業等等。 
 
-在 Teams 中，系統會清楚地識別來賓。 來賓使用者的名稱包括標籤 **(來賓)**，頻道包含一個圖示指出小組中有來賓。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。
+在 Teams 中，系統會清楚地識別來賓。 來賓使用者的名稱包括標籤 **(來賓)** ，頻道包含一個圖示指出小組中有來賓。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。
   
 來賓隨時可以離開 Teams 內的小組。 如需詳細資訊，請參閱[如何離開小組？](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 

@@ -13,27 +13,28 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412620"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030609"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用 [快速入門精靈] 設定商務語音
 
 > [!IMPORTANT]
-> 本文中的資訊僅適用於**含**通話方案的商務語音。 含通話方案的商務語音只有在選取的國家和地區才能使用。 閱讀本文之前，請參閱[商務語音的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的商務語音。
+> 本文中的資訊僅適用於 **含** 通話方案的商務語音。 含通話方案的商務語音只有在選取的國家和地區才能使用。 閱讀本文之前，請參閱[商務語音的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的商務語音。
 >
 > 如果您的租用戶所在國家或地區不支援含通話方案的商務語音，請參閱[從 Microsoft 轉銷商或合作夥伴取得協助](reseller-partner-support.md)。
 
 Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快速設定，以撥打及接聽電話。 如果您是剛起步的小型企業，精靈可在幾分鐘內幫助您啟動並運作電話號碼、通話功能表、問候以及更多。 如果您是已建立電話語音解決方案的較大型企業，精靈可幫助您設定試驗，因此在推行到所有人之前，可先讓少數使用者嘗試商務語音。 無論是哪一種方式，精靈完成後，您就可以開始使用商務語音！
 
-建議您在開始使用精靈之前，先閱讀本文。 當您準備好執行精靈時，請在[開始使用 Microsoft 365 商務語音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)頁面選取 **[開始使用]**。 請使用建立訂閱所用的帳戶登入，或其他全域系統管理員的帳戶登入。
+建議您在開始使用精靈之前，先閱讀本文。 當您準備好執行精靈時，請在 [開始使用 Microsoft 365 商務語音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)頁面選取 **[開始使用]** 。 請使用建立訂閱所用的帳戶登入，或其他全域系統管理員的帳戶登入。
 
 > [!IMPORTANT]
 > 只有當您的使用者信箱位於 Microsoft 365 中時，才能使用 Microsoft Teams 和商務語音。  不支援內部部署 Exchange Server 上的信箱。

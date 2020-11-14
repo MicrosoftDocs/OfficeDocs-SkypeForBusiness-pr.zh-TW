@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827747"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021140"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827747"
 
 
 |為止|引發|
-|---|-----------------|
-|CY20 年4月初|**商務用 OneDrive 和 SharePoint 上的小組會議錄製可供自願加入或退出宣告。**<br> 租使用者管理員可以加入宣告或退出宣告商務用 OneDrive 和 SharePoint 設定 PowerShell 中的團隊原則|
-|第4季度中旬 CY20|**在商務用 OneDrive 上的小組會議錄製，以及 SharePoint 設定為未選擇的租使用者的預設值**<br> 這是大多數客戶的建議路徑|
-|Q1 CY21|**已不再允許將團隊會議錄製儲存至傳統資料流程**<br>所有承租人都會將團隊會議記錄儲存至商務用 OneDrive 和 SharePoint|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|2020年10月5日| 您可以讓團隊會議原則將會議錄製儲存到商務用 OneDrive 和 SharePoint，而不是 Microsoft Stream (傳統) |
+|從2021年1月11日開始推出|所有新團隊會議錄製將會儲存到商務用 OneDrive 和 SharePoint，除非您修改組織的團隊會議原則，並明確將其設定為 [ **串流** ]，否則您需要延遲此變更。 看不到原則報告的資料流程是不夠的。 您必須將原則值明確設定為 [ **資料流程** ]。|
+|從2021年3月1日開始推出|**企業客戶**<br>無法將新會議錄製儲存至 Microsoft Stream (傳統) ;所有客戶都會自動將會議錄製儲存到商務用 OneDrive 和 SharePoint，即使他們已將其小組會議原則變更為 [ **串流** ]。 我們建議客戶將此功能放在這個日期之前，讓他們能夠控制發行的時間。 |
+|開始推出2021年7月7日|**教育客戶**<br>無法將新會議錄製儲存至 Microsoft Stream (傳統) ;所有客戶都會自動將會議錄製儲存到商務用 OneDrive 和 SharePoint，即使他們已將其小組會議原則變更為 [ **串流** ]。 我們建議客戶將此功能放在這個日期之前，讓他們能夠控制發行的時間。 我們已更新此排程，提供教育客戶完成進行中的學期的能力。 |
+
+> [!Note]
+> 我們建議企業與教育客戶在您的組織中更容易控制變更，只要您熟悉變更，就可以選擇 [不是等]。 
 
 Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Microsoft Stream 轉換到 [新串流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一個階段，此方法會將錄製儲存在 microsoft 365 的商務用 OneDrive 和 SharePoint 中，並提供許多好處。
 

@@ -13,6 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
@@ -24,18 +25,18 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096828"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030789"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>使用 Microsoft 365 商務語音需要購買哪些項目？
 
 ## <a name="microsoft-365-business-voice-licenses"></a>Microsoft 365 商務語音授權
 
-若要在 Microsoft Teams 中撥打或接聽*外部*電話號碼的電話，使用者需要 Microsoft 365 商務語音授權。 該授權提供使用者存取撥打或接聽電話、主持音訊會議等所需的所有功能。
+若要在 Microsoft Teams 中撥打或接聽 *外部* 電話號碼的電話，使用者需要 Microsoft 365 商務語音授權。 該授權提供使用者存取撥打或接聽電話、主持音訊會議等所需的所有功能。
 
 不需要撥打或接聽外部電話號碼電話的使用者只需要 Teams。 不需要 Microsoft 365 商務語音授權。
 
@@ -43,7 +44,7 @@ ms.locfileid: "43096828"
 
 ### <a name="business-voice-license-types"></a>商務語音授權類型
 
-有兩種商務語音授權類型：商務語音**附帶**通話方案和商務語音**不附帶**通話方案。 您可以使用的商務語音授權類型取決於您的 Microsoft 365 租用戶的位置。 授權類型決定您是否可以從管理您的電話號碼的 Microsoft 合作夥伴或轉銷商取得協助，來自行設定商務語音等等。
+有兩種商務語音授權類型：商務語音 **附帶** 通話方案和商務語音 **不附帶** 通話方案。 您可以使用的商務語音授權類型取決於您的 Microsoft 365 租用戶的位置。 授權類型決定您是否可以從管理您的電話號碼的 Microsoft 合作夥伴或轉銷商取得協助，來自行設定商務語音等等。
 
 - **商務語音附帶通話方案** 您可以從 Microsoft 購買商務語音，使用 [快速入門精靈] 設定商務語音，然後將現有的電話號碼設定或轉移到 Microsoft。 本文[使用 [快速入門精靈] 設定商務語音](use-getting-started-wizard.md)說明如何為您的租用戶設定商務用語音。
 
@@ -56,9 +57,9 @@ ms.locfileid: "43096828"
 
 ## <a name="business-voice-with-calling-plan"></a>商務語音附帶通話方案
 
-商務語音附帶通話方案隨附國內通話方案，可讓您在您的國家/地區內每月撥打特定的通話分鐘數。 若需要撥打至其他國家或地區，您可以購買國際通話方案。 您使用*通訊點數*支付國際通話方案、國內通話方案的每月額外通話分鐘數，以及免付費電話號碼。 您稍後將在本文中深入了解有關通話方案和通訊點數的詳細資訊。
+商務語音附帶通話方案隨附國內通話方案，可讓您在您的國家/地區內每月撥打特定的通話分鐘數。 若需要撥打至其他國家或地區，您可以購買國際通話方案。 您使用 *通訊點數* 支付國際通話方案、國內通話方案的每月額外通話分鐘數，以及免付費電話號碼。 您稍後將在本文中深入了解有關通話方案和通訊點數的詳細資訊。
 
-若要購買 Microsoft 365 商務語音附帶通話方案授權，請登入 [[系統管理中心]](https://admin.microsoft.com/Adminportal/Home#/homepage)，然後前往 **[帳單]** > **[購買服務]**。
+若要購買 Microsoft 365 商務語音附帶通話方案授權，請登入 [[系統管理中心]](https://admin.microsoft.com/Adminportal/Home#/homepage)，然後前往 **[帳單]** > **[購買服務]** 。
 
 ### <a name="calling-plans"></a>通話方案
 

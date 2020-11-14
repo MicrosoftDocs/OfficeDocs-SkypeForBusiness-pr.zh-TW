@@ -10,6 +10,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - remotework
+- m365initiative-deployteams
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,18 +21,18 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 00ec8303c73df100b93808f5fdc1e775f80ec289
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afc3524466b9078b0050b23b59d45d049d11793b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503420"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030819"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
 Advisor for Teams 會引導您完成 Microsoft Teams 的推廣。 它能評估您的Microsoft Office 365 組織環境，並指出您在成功推行 Microsoft Teams前可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 服務系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
 
-Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Microsoft 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或者前往**規劃** > **Teams 建議程式**。
+Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Microsoft 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或者前往 **規劃** > **Teams 建議程式** 。
 
 > [!IMPORTANT]
 > Advisor for Teams 不適用於 Microsoft 365 政府版 (GCC High 或 DoD) 部署。
@@ -43,7 +44,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 **Teams、Forms 和 Planner 授權是使用適用於 Teams 的建議程式所需的授權。** 不過，若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您必須是 Teams 系統管理員、Teams 服務管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。
 
 > [!IMPORTANT]
-> 如果小組系統管理中心的 [規劃]**** 中遺漏 **Teams 建議程式**，表示該使用者未取得 Teams 的授權。
+> 如果小組系統管理中心的 [規劃] 中遺漏 **Teams 建議程式** ，表示該使用者未取得 Teams 的授權。
 
 第一次使用 Advisor for Teams 時，Advisor for Teams 會在 Teams 中為您建立部署團隊。 並針對您選取的每個工作負載新增頻道。
 
@@ -89,7 +90,7 @@ Advisor for Teams 目前提供下列方案:
 |評估測試  |代表意義  |
 |---------|---------|
 |已設定虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域 (例如 @contoso.onmicrosoft.com)。 當然，您可以選擇使用 @onmicrosoft.com 網域或設定虛名網域。 如需詳細資訊，請參閱[新增網域至 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)。 |
-|Teams 授權     |這是必要條件，您**必須具有** Teams 授權才能推出 Teams。 查詢 Microsoft Graph，查看您是否具有 Teams 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
+|Teams 授權     |這是必要條件，您 **必須具有** Teams 授權才能推出 Teams。 查詢 Microsoft Graph，查看您是否具有 Teams 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
 |Exchange Online 授權     |您的可用 Exchange Online 授權是否為有效訂閱。 雖然 Exchange 並非 Teams 基本功能的必要項目，但是與 Exchange 整合可以提供最佳的 Teams 體驗。 查詢 Microsoft Graph 以分析與租用戶相關聯的訂閱，並驗證您是否具有合格的 Exchange Online 授權訂閱 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Exchange 和 Teams 如何互動](exchange-teams-interact.md)。    |
 |SharePoint Online 授權     |您的可用 SharePoint Online 授權是否為有效訂閱。 我們建議採用每位使用者 SharePoint Online 授權，以便在聊天中提供商務用 OneDrive 用於檔案儲存。 查詢 Microsoft Graph，查看您是否具有 SharePoint Online 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Sharepoint 和商務用 OneDrive 如何與 Teams 互動](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
 |已啟用來賓存取     |是否已開啟[來賓存取](guest-access.md)。 來賓存取可讓您邀請外部使用者加入您的團隊。 查閱 [在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)逐步引導您開啟 Teams 中的來賓存取；此檢查清單包含所需的 Azure AD 設定。 |

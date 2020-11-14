@@ -12,6 +12,7 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: 瞭解如何管理組織中保留的小組即時事件設定。
 f1.keywords:
 - CSH
@@ -19,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203946"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030889"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件設定
 
 使用 [團隊即時事件] 設定來設定貴組織中的即時事件設定。 您可以設定支援 URL，並設定協力廠商的影片發佈提供者。 這些設定適用于您組織中建立的所有即時事件。
 
-您可以在 Microsoft 團隊系統管理中心輕鬆管理這些設定。 在左側導覽中，移至 [**會議**  >  **即時事件] 設定**。
+您可以在 Microsoft 團隊系統管理中心輕鬆管理這些設定。 在左側導覽中，移至 [ **會議**  >  **即時事件] 設定** 。
 
 ![小組 [即時事件] 設定的螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在 Microsoft 團隊系統管理中心設定的小組即時事件設定的螢幕擷取畫面")
 
@@ -40,8 +41,8 @@ ms.locfileid: "48203946"
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中，移至 [**會議**  >  **即時事件設定**]。
-2. 在 [ **支援 url**] 底下，輸入您組織的支援 url。
+1. 在左側導覽中，移至 [ **會議**  >  **即時事件設定** ]。
+2. 在 [ **支援 url** ] 底下，輸入您組織的支援 url。
 
     ![系統管理中心的即時事件支援 URL 設定](../media/teams-live-events-settings-supporturl.png "小組即時事件之支援 URL 設定的螢幕擷取畫面")
 
@@ -59,8 +60,8 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中，移至 [**會議**  >  **即時事件設定**]。
-2. 在 **協力廠商的 [視頻發佈提供者**] 下，完成下列動作： 
+1. 在左側導覽中，移至 [ **會議**  >  **即時事件設定** ]。
+2. 在 **協力廠商的 [視頻發佈提供者** ] 下，完成下列動作： 
 
     ![系統管理中心中的協力廠商影片發佈提供者設定](../media/teams-live-events-settings-distribution-provider.png "即時事件之協力廠商影片發佈提供者設定的螢幕擷取畫面")
 
@@ -91,7 +92,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 如果您打算使用外部應用程式或裝置建立即時事件，您也需要 [使用 Microsoft Stream 來設定 eCDN 提供者](https://docs.microsoft.com/stream/network-caching)。 
 
 >[!Note]
-> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](../tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
+> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
 
 ### <a name="related-topics"></a>相關主題
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)

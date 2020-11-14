@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +20,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ddf36c27a8fbc3aadfddaddee886d1906bab82
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: d6996b0980ae7305a7517a71645ba823a588e2f8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793539"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033003"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft 團隊中管理您的裝置
 
@@ -54,7 +55,7 @@ ms.locfileid: "48793539"
 
 您可以使用 [團隊系統管理中心]，在整個組織中查看和遠端系統管理團隊間的裝置。 [團隊系統管理中心] 可讓您輕鬆查看哪些裝置正常運作且需要注意，並讓您專注于特定裝置上，以查看裝置健康情況、會議效能、通話品質以及週邊設備的詳細資訊。 
 
-以下是您可以用來管理團隊聊天室裝置的一些事項。 您可以在 [  。
+以下是您可以用來管理團隊聊天室裝置的一些事項。 您可以在 [ **裝置** 團隊聊天室] 底下的 [ [Microsoft 團隊系統管理中心](https://admin.teams.microsoft.com)] 中找到 [團隊聊天室] 裝置  >  **** 。
 
 如需有關如何管理團隊聊天室裝置的詳細資訊，請參閱 [管理 Microsoft 團隊聊天室](../rooms/rooms-manage.md)。
 
@@ -100,5 +101,5 @@ ms.locfileid: "48793539"
 1. 在左側導覽中，移至 [ **裝置**  >  **設定檔** ]。
 2. 選取您要指派的 **設定檔** ，然後按一下 [ **指派給裝置** ]。  
 3. 在 [ **將裝置指派給** 設定設定檔] 窗格中，搜尋並選取您要指派的裝置。
-4. 按一下 [儲存]  。
+4. 按一下 [儲存]。
 

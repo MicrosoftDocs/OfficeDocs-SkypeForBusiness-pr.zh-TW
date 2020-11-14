@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊聊天室管理的服務。
 f1keywords: ''
-ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788327"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031399"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft 團隊聊天室管理的服務
 
@@ -35,7 +36,7 @@ Microsoft 團隊聊天室管理服務是以在軟體支援的端點、機器學�
 
 以下概述 Microsoft 團隊聊天室管理服務的功能。
 
-|功能  |說明  |
+|功能  |描述  |
 |---------|---------|
 |**會議室規劃與推出**   |會議室規劃功能，可讓您瞭解會議室設備庫存，並針對新的房間部署進行設備標準的決定。         |
 |**監控和疑難排解**  |可偵測房間系統和週邊設備問題並提供由 Microsoft 所驅動的前瞻性事件管理回應的會議室健康情況監視。         |
@@ -51,7 +52,7 @@ Microsoft 團隊聊天室管理服務是以在軟體支援的端點、機器學�
 
 以下摘要說明 Microsoft 團隊聊天室管理服務提供支援上述功能的重要功能。
 
-|功能  |說明  |
+|功能  |描述  |
 |---------|---------|
 |**庫存管理**   |使用大量匯出選項列出會議室裝置、週邊設備、製作及模型的房間庫存追蹤。         |
 |**房間登記**   |在 Microsoft 小組聊天室管理的服務中，輕鬆地自行註冊會議室裝置。          |

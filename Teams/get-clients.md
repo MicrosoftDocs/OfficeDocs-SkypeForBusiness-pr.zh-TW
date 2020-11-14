@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: 9e42e002e8ae0c2462bc0021ac1103c59e96f7cc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389871"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030419"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端 
 
@@ -88,7 +89,7 @@ Mac 使用者可以使用 macOS 電腦的 PKG 安裝檔來安裝 Teams。 安裝
 
 #### <a name="install-teams-by-using-the-pkg-file"></a>使用 PKG 檔案來安裝 Teams
 
-1. 在 **Mac**底下的 [Teams 下載頁面](https://teams.microsoft.com/downloads)中，按一下 [下載]****。
+1. 在 **Mac** 底下的 [Teams 下載頁面](https://teams.microsoft.com/downloads)中，按一下 [下載]。
 2. 按兩下 PKG 檔案。
 3. 遵循安裝精靈來完成安裝。
 4. Teams 將會安裝到 /Applications 資料夾。 這是全機器安裝。
@@ -105,7 +106,7 @@ Mac 使用者可以使用 macOS 電腦的 PKG 安裝檔來安裝 Teams。 安裝
 IT 系統管理員可以使用 Teams 的受控部署，將安裝檔案發佈到其組織中的所有 Mac，例如 Jamf Pro。
 
 > [!NOTE]
-> 如果您在安裝 PKG 時遇到問題，請告訴我們。 請在本文結尾的**意見反應**一節中，按一下 [產品意見反應]****。
+> 如果您在安裝 PKG 時遇到問題，請告訴我們。 請在本文結尾的 **意見反應** 一節中，按一下 [產品意見反應]。
 
 ### <a name="linux"></a>Linux
 
@@ -196,9 +197,9 @@ Microsoft Teams 行動裝置應用程式適用於 Android 和 iOS，可讓使用
 
 Microsoft Teams 行動裝置應用程式支援的行動平台如下：
 
--   **Android**：僅支援 Android 最新的四個主要版本。 發行新的 Android 主要版本時，此新版本和前三個版本都可受到正式支援。
+-   **Android** ：僅支援 Android 最新的四個主要版本。 發行新的 Android 主要版本時，此新版本和前三個版本都可受到正式支援。
 
--   **iOS**：僅支援 iOS 最新的兩個主要版本。 發行新的 iOS 主要版本時，此新版 iOS 和前一版本都可受到正式支援。
+-   **iOS** ：僅支援 iOS 最新的兩個主要版本。 發行新的 iOS 主要版本時，此新版 iOS 和前一版本都可受到正式支援。
 
 > [!NOTE]
 > 為了讓 Teams 正常運作，您必須公開使用行動裝置版本。

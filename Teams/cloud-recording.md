@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +18,12 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503460"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031029"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -31,7 +32,7 @@ ms.locfileid: "48503460"
 相關：[Teams 會議錄製使用者文件](https://aka.ms/recordmeeting)
 
 >[!Note]
-> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 年初的某刻，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行會議錄製。
+> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 年初的某刻，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行會議錄製。
 
 > [!NOTE]
 > 如需在團隊會議中使用角色的相關資訊，以及如何變更使用者的角色，請參閱 [小組會議中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
@@ -78,7 +79,7 @@ Microsoft Stream 是以合格的 Microsoft 365 與 Office 365 訂閱或獨立服
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，以控制是否可以錄製使用者的會議。
 
-在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許雲端錄製]**** 設定。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](meeting-policies-in-teams.md#allow-cloud-recording)。
+在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許雲端錄製] 設定。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](meeting-policies-in-teams.md#allow-cloud-recording)。
 
 您可以使用 PowerShell 來設定 TeamsMeetingPolicy 中的 AllowCloudRecording 設定。 若要深入瞭解，請參閱 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
@@ -131,7 +132,7 @@ Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRe
 
 針對尚未開啟會議錄製的新的和現有租用戶，在國內資料落地區域提供 Microsoft Stream 之後，新的錄製內容會儲存在國內。 不過，在使用 Microsoft Stream 之前啟用會議錄製的任何租使用者，在國內資料派駐區域中都可以繼續使用 Microsoft 資料流程儲存空間，即使是在國內資料派駐區域中提供 Microsoft stream 之後也一樣。
 
-若要找出您的 Microsoft Stream 資料的儲存區域，請在 Microsoft Stream 中按一下 [?]**** (在右上角)，按一下 [關於 Microsoft Stream]****，然後按一下 [您的資料儲存位置]****。  若要深入瞭解 Microsoft Stream 儲存資料的區域，請參閱 [Microsoft Stream 常見問題集](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
+若要找出您的 Microsoft Stream 資料的儲存區域，請在 Microsoft Stream 中按一下 [?] (在右上角)，按一下 [關於 Microsoft Stream]，然後按一下 [您的資料儲存位置]。  若要深入瞭解 Microsoft Stream 儲存資料的區域，請參閱 [Microsoft Stream 常見問題集](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
 若要深入瞭解在 Microsoft 365 或 Office 365 中跨服務儲存資料的位置，請參閱 [您的資料位於何處？](https://products.office.com/where-is-your-data-located?rtc=1)
 
@@ -144,7 +145,7 @@ Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRe
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 
-在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許謄寫]**** 設定。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](meeting-policies-in-teams.md#allow-transcription)。
+在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許謄寫] 設定。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](meeting-policies-in-teams.md#allow-transcription)。
 
 您可以使用 PowerShell 來設定 TeamsMeetingPolicy 中的 AllowTranscription 設定。 若要深入瞭解，請參閱 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 

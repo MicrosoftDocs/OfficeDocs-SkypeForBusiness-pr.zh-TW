@@ -10,6 +10,8 @@ audience: admin
 ms.collection:
 - M365-collaboration
 - M365-voice
+- m365initiative-voice
+- m365solution-voice
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -21,12 +23,12 @@ search.appverid: MET150
 description: 深入瞭解 Microsoft 團隊雲端語音功能，以及您將針對貴組織所做的部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
+ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878557"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071764"
 ---
 # <a name="plan-your-teams-voice-solution"></a>規劃您的小組語音方案 
 
@@ -53,7 +55,7 @@ ms.locfileid: "48878557"
 **全是必要的。** 本文中的部分內容適用于所有組織。 例如，所有人都應該閱讀有關電話系統的資訊，並瞭解連線至公用交換電話網絡 (PSTN) 的選項。 
 
 
-| 全部需要 | 說明 |
+| 全部需要 | 描述 |
 | :------------|:-------|
 | [**電話系統**](#phone-system) | Microsoft 365 雲端與 Microsoft 團隊一起啟用呼叫控制和私人分支 Exchange (PBX) 功能的 Microsoft 技術。 |
 | [**公用交換電話網絡 (PSTN) 連接選項**](#public-switched-telephone-network-connectivity-options) | 您可以選擇使用 Microsoft 作為電話運營商，或使用直接路由將您自己的電話運營商連線至 Microsoft 團隊。 與電話系統搭配使用 PSTN 連線選項，讓您的使用者能夠撥打世界各地的電話。|
@@ -61,7 +63,7 @@ ms.locfileid: "48878557"
 **視您的需求而定。** 本文中的部分章節是根據您現有的部署與需求而相關。 例如，只有在地理位置不允許使用 [免付費旁路] 的直接路由客戶才需要 Location-Based 傳送。
 
 
-| 視您的需求而定 | 說明 |
+| 視您的需求而定 | 描述 |
 | :------------|:-------|
 | [**Microsoft 的電話號碼**](#phone-numbers-from-microsoft) | 如何從 Microsoft 取得及管理電話號碼，以及如何將現有號碼轉移至 Microsoft。 如果您需要取得 Microsoft 通話方案的電話號碼、轉移現有號碼、取得服務號碼等，請閱讀這種情況。 |
 | [**撥號方案和呼叫路由**](#dial-plans-and-call-routing) | 如何設定和管理可將撥打的電話號碼轉換成替代格式的撥號方案 (通常是) 的撥號驗證及呼叫路由的 E. 164 格式。 如果您需要瞭解什麼是撥號方案，以及是否需要指定貴組織的撥號方案，請閱讀此資訊。|

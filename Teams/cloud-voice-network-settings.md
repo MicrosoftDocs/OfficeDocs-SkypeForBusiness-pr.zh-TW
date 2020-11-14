@@ -8,27 +8,28 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 瞭解您必須針對直接路由及增強緊急服務的位置路由設定的網路設定。
+description: 瞭解您必須針對直接路由及增強緊急服務的 Location-Based 路由進行設定的網路設定。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139062"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031829"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 團隊中雲端語音功能的網路設定
 
-瞭解網路區域、網路網站、網路子網和信任的 IP 位址。 這些條款與概念在整個雲端語音檔中都是用來進行[直接路由](location-based-routing-plan.md)和[動態緊急通話](configure-dynamic-emergency-calling.md)的以位置為基礎的路由。 如果您要在組織中部署這些雲端功能，您必須設定網路設定，以便與 Microsoft 團隊中的這些功能搭配使用。
+瞭解網路區域、網路網站、網路子網和信任的 IP 位址。 這些條款與概念在整個雲端語音檔中都是用來進行 [直接路由](location-based-routing-plan.md) 和 [動態緊急通話](configure-dynamic-emergency-calling.md)的以位置為基礎的路由。 如果您要在組織中部署這些雲端功能，您必須設定網路設定，以便與 Microsoft 團隊中的這些功能搭配使用。
 
-本文將為您概述位置式路由和動態緊急通話中常見的網路設定。 視您部署的雲端語音功能和功能而定，您可以設定部分或所有的設定。 如需如何設定這些設定的步驟，請參閱在[團隊中管理雲端功能的網路拓撲](manage-your-network-topology.md)。
+本文提供 Location-Based 路由及動態緊急通話的一般網路設定的概覽。 視您部署的雲端語音功能和功能而定，您可以設定部分或所有的設定。 如需如何設定這些設定的步驟，請參閱在 [團隊中管理雲端功能的網路拓撲](manage-your-network-topology.md)。
 
 > [!NOTE]
 > 此功能的設定主題中記錄了網路設定的任何特定功能需求。
@@ -37,7 +38,7 @@ ms.locfileid: "43139062"
 
 網路區域包含一個網路網站集合。 它跨多個地理區域相互互連網路的各個部分。 例如，如果您的組織有許多位於印度的網站，您可以選擇將 "印度" 指定為網路區域。 每個網路網站都必須與一個網路區域建立關聯。
 
-相同的網路區域是由直接路由及增強的緊急服務的位置路由所共用。 如果您已經為一個功能建立了網路區域，您就不需要為其他功能建立新的網路區域。
+Location-Based 路由以進行直接路由及增強的緊急服務，就能共用相同的網路區域。 如果您已經為一個功能建立了網路區域，您就不需要為其他功能建立新的網路區域。
 
 ## <a name="network-site"></a>網路網站
 
@@ -57,6 +58,6 @@ ms.locfileid: "43139062"
 
 [信任的 IP 位址] 是商業網路的網際網路外部 IP 位址。 在檢查特定網站相符前，他們會判斷使用者的端點是否在公司網路內。
 
-如果使用者的外部 IP 位址與 [信任的 IP 位址] 清單中的 IP 位址相符，雲端語音功能會進行檢查，以判斷使用者端點所在的內部子網。 您可以針對 IPv4 或 IPv6 IP 位址進行相符，並視傳送至網路設定的 IP 資料包格式而定。 （如果公用 IP 位址同時具有 IPv4 和 IPv6，您必須將兩者都新增為信任的 IP 位址。）
+如果使用者的外部 IP 位址與 [信任的 IP 位址] 清單中的 IP 位址相符，雲端語音功能會進行檢查，以判斷使用者端點所在的內部子網。 您可以針對 IPv4 或 IPv6 IP 位址進行相符，並視傳送至網路設定的 IP 資料包格式而定。  (如果公用 IP 位址同時具有 IPv4 與 IPv6，您必須將兩者都新增為信任的 IP 位址。 ) 
 
 如果使用者的外部 IP 位址與 [信任的 IP 位址] 清單中的 IP 位址不相符，該端點會分類為未知位置。

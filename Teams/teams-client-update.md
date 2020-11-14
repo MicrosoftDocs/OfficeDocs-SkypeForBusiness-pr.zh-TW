@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +17,12 @@ description: 在本文中，您將瞭解更新 Microsoft 團隊桌面用戶端�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f8681f3f4cc7c25e9499e25e3978848084086a2a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583270"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031879"
 ---
 # <a name="teams-update-process"></a>小組更新流程
 
@@ -31,7 +32,7 @@ ms.locfileid: "46583270"
 
 桌面用戶端會自動更新。 團隊會在幕後每隔幾小時檢查更新、下載更新，然後等到電腦處於空閒狀態，然後才能自行安裝更新。
 
-使用者也可以按一下應用程式右上方的 [檢查**設定檔**] 下拉式功能表上的 [**檢查更新**]，手動下載更新。 如果有可用的更新，系統會在電腦空閒時下載並自動安裝。
+使用者也可以按一下應用程式右上方的 [檢查 **設定檔** ] 下拉式功能表上的 [ **檢查更新** ]，手動下載更新。 如果有可用的更新，系統會在電腦空閒時下載並自動安裝。
 
 使用者必須登入，才能下載更新。 
 
@@ -39,13 +40,13 @@ ms.locfileid: "46583270"
 
 ## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>針對企業版 Microsoft 365 應用程式的更新，該怎麼辦？
 
-依將[Microsoft 團隊與企業版 microsoft 365 應用程式一起部署](https://docs.microsoft.com/DeployOffice/teams-install)，在預設情況下，小組會自行安裝 Microsoft 365 應用程式的新安裝。 
+依將 [Microsoft 團隊與企業版 microsoft 365 應用程式一起部署](https://docs.microsoft.com/DeployOffice/teams-install)，在預設情況下，小組會自行安裝 Microsoft 365 應用程式的新安裝。 
 
-團隊會依照上面所述的更新程式，而不是其他辦公室應用程式（例如 Word 和 Excel）的更新程式。 若要深入瞭解，請參閱適用[于企業的 Microsoft 365 應用程式更新通道的概覽](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+團隊會依照上面所述的更新程式，而不是其他辦公室應用程式（例如 Word 和 Excel）的更新程式。 若要深入瞭解，請參閱適用 [于企業的 Microsoft 365 應用程式更新通道的概覽](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的小組更新為何？
 
-虛擬桌面基礎結構上的團隊用戶端 (VDI) 不會自動更新非 VDI 團隊用戶端的方式。 您必須安裝新的 MSI 來更新 VM 影像，如在[VDI 上安裝小組](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)中所述。 您必須卸載目前的版本，才能更新為較新的版本。
+虛擬桌面基礎結構上的團隊用戶端 (VDI) 不會自動更新非 VDI 團隊用戶端的方式。 您必須安裝新的 MSI 來更新 VM 影像，如在 [VDI 上安裝小組](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)中所述。 您必須卸載目前的版本，才能更新為較新的版本。
 
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>管理員是否可以部署更新，而不是團隊自動更新？
 
@@ -61,4 +62,4 @@ ms.locfileid: "46583270"
 
 政府群的小組桌面用戶端目前有此服務協定的例外狀況，直到進一步通知。
 
-如需新版版本的詳細資訊，請參閱[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)或移至**協助**  >  用戶端**的新增功能**。
+如需新版版本的詳細資訊，請參閱 [訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)或移至 **協助**  >  用戶端 **的新增功能** 。

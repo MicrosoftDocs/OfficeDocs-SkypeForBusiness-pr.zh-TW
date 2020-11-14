@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177544"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032998"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -59,9 +60,9 @@ ms.locfileid: "48177544"
 確認符合這些網路需求之後，您就可以準備好要 [推出小組](How-to-roll-out-teams.md)。 如果您是大型的跨國公司，或者如果您知道您有一些網路限制，請繼續閱讀以瞭解如何為團隊評估及優化您的網路。
 
 > [!IMPORTANT]
-> **針對教育機構**：如果您的組織是教育機構，且您是使用學生資訊系統 (SIS) ，請在推出小組之前先 [部署學校資料同步](https://docs.microsoft.com/schooldatasync/) 處理。
+> **針對教育機構** ：如果您的組織是教育機構，且您是使用學生資訊系統 (SIS) ，請在推出小組之前先 [部署學校資料同步](https://docs.microsoft.com/schooldatasync/) 處理。
 >  
-> 執行**內部部署商務用 Skype server**：如果您的組織正在執行內部部署商務用 skype server (或 Lync Server) ，您必須[設定 Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) ，才能將您的內部部署目錄與 Microsoft 365 或 Office 365 同步處理。
+> 執行 **內部部署商務用 Skype server** ：如果您的組織正在執行內部部署商務用 skype server (或 Lync Server) ，您必須 [設定 Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) ，才能將您的內部部署目錄與 Microsoft 365 或 Office 365 同步處理。
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監控您的網路 
 

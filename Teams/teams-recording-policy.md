@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
+ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908572"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002195"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 會議的小組原則錄製簡介
 
@@ -40,7 +40,7 @@ ms.locfileid: "48908572"
 
 - 新的合規性記錄管理原則，包括與現有團隊的整合管理通話與會議工具及原則
 
-相容性錄製可以在 Microsoft 365 A3/A5/E3/E5 及 Office 365 A3/A5 或 E3/E5 使用者上啟用。 
+相容性錄製可以在 Microsoft 365 A3/A5/E3/E5/[商務版 Premium] 和 [Office 365 A3/A5] 的使用者上啟用。 
 
 相容性錄製解決方案整合功能也會在 Ignite 2019 的 [<span class="underline">相容性錄製和 Microsoft 團隊會話</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)中進行審查。
 

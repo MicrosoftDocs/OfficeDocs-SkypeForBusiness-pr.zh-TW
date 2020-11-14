@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
@@ -18,12 +19,12 @@ ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: 系統管理員可以了解如何將新的來賓使用者新增至 Microsoft Teams 桌面版和網頁用戶端中的組織，以及 Azure Active Directory B2B 共同作業入口網站。
-ms.openlocfilehash: e74819ba46af8a9f6bcf3b2198f78354bf7bfb79
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 21f8e733a87474888f2b33f8a23a063fa00b4b11
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346174"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030809"
 ---
 # <a name="add-a-guest-to-a-team"></a>將來賓新增至團隊
 

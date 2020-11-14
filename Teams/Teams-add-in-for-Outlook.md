@@ -16,14 +16,15 @@ ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 574e770eb1756a2c83758b830c26e6adbac24183
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814099"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031759"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -47,7 +48,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 
 Outlook for Mac 中的 [小組會議] 按鈕會顯示在 outlook for Mac 功能區中（如果 Outlook 執行的是「生產」組建16.24.414.0 及更新版本），且是使用 Microsoft 365 或 Office 365 用戶端訂閱啟動。
 
-當使用者按一下 [傳送]**** 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
+當使用者按一下 [傳送] 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 
 ## <a name="teams-meeting-add-in-in-outlook-web-app"></a>在 Outlook Web App 中使用 Teams 會議增益集
 
@@ -55,7 +56,7 @@ Outlook for Mac 中的 [小組會議] 按鈕會顯示在 outlook for Mac 功能�
 
 ![Outlook Web App 中 Teams 會議增益集的螢幕擷取畫面](media/teams-meeting-add-in-web.png)
 
-當使用者按一下 [傳送]**** 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
+當使用者按一下 [傳送] 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 
 ## <a name="teams-meeting-add-in-in-outlook-mobile-ios-and-android"></a>Outlook Mobile (iOS 和 Android) 中的 Teams 會議增益集
 
@@ -63,11 +64,11 @@ Teams 會議按鈕會顯示在 Outlook iOS 和 Android 應用程式的最新組�
 
 ![Outlook Mobile 中 Teams 會議增益集的螢幕擷取畫面](media/teams-meeting-add-in-mobile.png)
 
-當使用者按一下 [傳送]**** 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
+當使用者按一下 [傳送] 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 
 ## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Outlook 的團隊會議增益集與 FindTime
 
-FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議時間達成共識。 當會議受邀者提供其偏好的時間後，FindTime 就會代表使用者傳送會議邀請。 如果 FindTime 中已選取 [線上會議]**** 選項，則 FindTime 會安排商務用 Skype 或 Microsoft Teams 會議。 (FindTime 會使用由您組織設定的任何項目作為預設的線上會議頻道)。
+FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議時間達成共識。 當會議受邀者提供其偏好的時間後，FindTime 就會代表使用者傳送會議邀請。 如果 FindTime 中已選取 [線上會議] 選項，則 FindTime 會安排商務用 Skype 或 Microsoft Teams 會議。 (FindTime 會使用由您組織設定的任何項目作為預設的線上會議頻道)。
 
 > [!NOTE]  
 > 如果您已在 [FindTime 儀表板](https://findtime.microsoft.com/UserDashboard)中儲存商務用 Skype 的設定，FindTime 就會使用該設定，而不是使用 Microsoft Teams。 如果您想要使用 Microsoft Teams，請刪除儀表板中的商務用 Skype 設定。
@@ -85,7 +86,7 @@ Teams 會議增益集需要使用者使用新式驗證來登入 Teams。 如果�
 
 ## <a name="enable-private-meetings"></a>啟用私人會議
 
-必須在 Microsoft Teams 系統管理中心啟用 [允許私人會議排程]****，才能部署此增益集。 在系統管理中心中，移至 [會議]**** > [會議原則]****，並在 [一般]**** 區段中，將 [允許私人會議排程]**** 切換為 [開啟]。
+必須在 Microsoft Teams 系統管理中心啟用 [允許私人會議排程]，才能部署此增益集。 在系統管理中心中，移至 [會議] > [會議原則]，並在 [一般] 區段中，將 [允許私人會議排程] 切換為 [開啟]。
 
 ![Microsoft Teams 系統管理中心的設定螢幕擷取畫面。](media/teams-add-in-for-outlook-image1.png)
 
@@ -112,7 +113,7 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>設定 [孤島] 模式中的使用者是否只能使用 [團隊會議] 增益集，或同時使用團隊會議增益集及商務用 Skype 會議增益集
 
-身為系統管理員，您可以設定團隊會議原則設定，以控制將哪個 Outlook 會議增益集用於使用 *孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
+身為系統管理員，您可以設定團隊會議原則設定，以控制將哪個 Outlook 會議增益集用於使用 *孤島模式的使用者* 。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
 
 您只能將此原則套用到使用孤島模式的使用者，並在其團隊會議原則中，將 **AllowOutlookAddIn** 參數設定為 **True** 。 如需如何設定此原則的步驟，請參閱以 [孤島模式為使用者設定會議提供者](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。
 
@@ -153,11 +154,11 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 如果您仍然沒有看到增益集，請確認它沒有在 Outlook 中停用。
 
-- 在 Outlook 中， **選擇 [檔案]，然後** 選擇 [ **選項**]。
-- 選取 [ **Outlook 選項**] 對話方塊的 [**增益集**] 索引標籤。
+- 在 Outlook 中， **選擇 [檔案]，然後** 選擇 [ **選項** ]。
+- 選取 [ **Outlook 選項** ] 對話方塊的 [ **增益集** ] 索引標籤。
 - 確認 microsoft **Office 的 Microsoft 團隊會議載入** 宏已列于 [作用中的 **應用程式增益集** ] 清單中
-- 如果 [團隊會議] 增益集列于 [**停用的應用程式增益集**] 清單中，請選取 [**管理**] 中**的 [COM 增益集**]，然後選取 [執行 **...** ]。
-- 在 **Microsoft Office 的 [Microsoft 團隊會議增益集**] 旁，設定核取方塊。
+- 如果 [團隊會議] 增益集列于 [ **停用的應用程式增益集** ] 清單中，請選取 [ **管理** ] 中 **的 [COM 增益集** ]，然後選取 [執行 **...** ]。
+- 在 **Microsoft Office 的 [Microsoft 團隊會議增益集** ] 旁，設定核取方塊。
 - 在所有對話方塊中選擇 **[確定]** ，然後重新開機 Outlook。
 
 如需有關如何管理增益集的一般指導方針，請參閱 [在 Office 程式中查看、管理及安裝增益集](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
@@ -167,14 +168,14 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 > [!NOTE]
 > 不正確地編輯註冊表可能會嚴重損壞您的系統。 在變更註冊表之前，您應該先備份電腦上任何有價值的資料。
 - 啟動 RegEdit.exe
-- 流覽至 HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
+- 流覽至 HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
 - 確認 TeamsAddin 已存在。
 - 在 TeamsAddin 中，確認 LoadBehavior 存在並設定為3。
   - 如果 LoadBehavior 的值不是3，請將它變更為3，然後重新開機 Outlook。
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理人排程無法運作
 
-如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 作為因應措施，您的系統管理員可以將下列字串新增至 EWS 允許清單： "*SchedulingService*"。 
+如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 作為因應措施，您的系統管理員可以將下列字串新增至 EWS 允許清單： " *SchedulingService* "。 
 
 
 ## <a name="related-topics"></a>相關主題

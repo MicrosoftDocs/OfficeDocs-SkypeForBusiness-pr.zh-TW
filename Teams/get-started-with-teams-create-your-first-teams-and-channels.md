@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: serdars
 description: 了解如何在 Microsoft Teams 用戶端或 Microsoft Teams 系統管理中心中建立您的首批團隊和頻道。
 localization_priority: Priority
 search.appverid: MET150
@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1387d81c8ed54868f83f2439ec8f4db91505b3be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 63b612431e716bdba5d27e43e2756a56ec30e9dc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904648"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031579"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中建立您的首批團隊和頻道
 
@@ -60,17 +61,17 @@ ms.locfileid: "43904648"
 
 ### <a name="create-a-team"></a>建立團隊
 
-在 Teams 的左側按一下 **[團隊]**，在團隊清單底部按一下 **[加入或建立團隊]**，然後按一下 **[建立新團隊]**。
+在 Teams 的左側按一下 **[團隊]** ，在團隊清單底部按一下 **[加入或建立團隊]** ，然後按一下 **[建立新團隊]** 。
 
 建立團隊後，邀請其他人加入。 您可以新增個別使用者、群組，甚至整個連絡人群組 (先前稱為「通訊群組清單」)。 
 
 ![範例團隊的螢幕擷取畫面，顯示團隊名稱和描述](media/get-started-with-teams-create-team.png "範例「了解 Teams」團隊的螢幕擷取畫面，顯示團隊名稱和描述") 
 
 ### <a name="add-a-team-owner"></a>新增團隊擁有者
-尋找您建立的團隊，按一下 **[其他選項˙˙˙]** > **[管理團隊]**。 然後移至 **[成員]** 索引標籤。尋找您要指定為團隊擁有者的人員。 在 **[角色]** 底下，按一下 **[擁有者]**。
+尋找您建立的團隊，按一下 **[其他選項˙˙˙]** > **[管理團隊]** 。 然後移至 **[成員]** 索引標籤。尋找您要指定為團隊擁有者的人員。 在 **[角色]** 底下，按一下 **[擁有者]** 。
 
 ### <a name="create-a-channel-in-a-team"></a>在團隊中建立頻道
-尋找您建立的團隊，按一下 **[其他選項˙˙˙]** > **[新增頻道]**。 您也可以按一下 **[管理團隊]**，然後在 **[頻道]** 索引標籤中新增頻道。 
+尋找您建立的團隊，按一下 **[其他選項˙˙˙]** > **[新增頻道]** 。 您也可以按一下 **[管理團隊]** ，然後在 **[頻道]** 索引標籤中新增頻道。 
 
 ![按一下 [其他選項] 時可用的選項的螢幕擷取畫面](media/get-started-with-teams-add-channel.png "[新增頻道] 選項、[管理團隊] 選項，以及其他按一下團隊中 [其他選項] 時可用的選項的螢幕擷取畫面") 
 

@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '瞭解如何試用或購買語音會議 (PSTN 會議，) Microsoft 365 或 Office 365 的授權，設定可撥打給人員的電話會議。 '
-ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788437"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031269"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 microsoft 365 for Microsoft 團隊中試用或購買音訊會議
 
@@ -48,9 +49,9 @@ ms.locfileid: "46788437"
 
 2. 取得您的 **音訊會議** 授權。 如果您想要：
 
-   - 在購買前先**試試**看：您可以註冊 Office 365 企業版 E5 免費試用版，包括音訊會議。 請參閱 [Office 365 企業版 E5 試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
+   - 在購買前先 **試試** 看：您可以註冊 Office 365 企業版 E5 免費試用版，包括音訊會議。 請參閱 [Office 365 企業版 E5 試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **購買**：請參閱 [Microsoft 團隊附加元件授權] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 。
+   - **購買** ：請參閱 [Microsoft 團隊附加元件授權] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 。
 
 3. [指派授權給](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 貴組織中將要排程或領導會議的使用者。
 
@@ -82,7 +83,7 @@ ms.locfileid: "46788437"
 
 ## <a name="step-3-other-admin-tasks"></a>步驟3：其他系統管理工作
 
-下列步驟是 **選擇性**的，但許多管理員都要執行這些步驟：
+下列步驟是 **選擇性** 的，但許多管理員都要執行這些步驟：
 
 1. [自訂會議邀請](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。 為使用者設定的撥入號碼會自動新增至傳送給出席者的會議邀請中。 不過，您可以新增自己的說明與法律連結、文字訊息及小型公司圖形。
 

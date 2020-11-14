@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269647"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031009"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -147,8 +148,8 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中，移至 [**地點**  >  **網路] & 位置**。
-2. 按一下代表您要新增之網路識別碼的索引標籤。 例如，按一下 [ **子網**]、[ **wi-fi 存取點**]、[ **交換器**] 或 [ **埠**]。 然後按一下 [ **新增**]。
+1. 在左側導覽中，移至 [ **地點**  >  **網路] & 位置** 。
+2. 按一下代表您要新增之網路識別碼的索引標籤。 例如，按一下 [ **子網** ]、[ **wi-fi 存取點** ]、[ **交換器** ] 或 [ **埠** ]。 然後按一下 [ **新增** ]。
 3. 完成欄位、新增緊急位置， **然後按一下 [** 套用]。
 
 ### <a name="using-powershell"></a>使用 PowerShell

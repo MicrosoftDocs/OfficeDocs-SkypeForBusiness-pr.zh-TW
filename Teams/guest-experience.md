@@ -14,16 +14,17 @@ localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文將說明來賓使用者提供的 Microsoft 團隊功能。
-ms.openlocfilehash: 95d0fec7a1af8f735c66cc76fc27ecd3cf8bf956
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346204"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030289"
 ---
 # <a name="guest-experience-in-teams"></a>團隊中的來賓體驗
 
@@ -31,7 +32,7 @@ ms.locfileid: "48346204"
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面](media/guest-experience-image1.png)
     
-所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 頻道螺紋右上角的標籤會指出小組中的來賓人數，以及每個來賓名稱旁會出現 ** (來賓) ** 標籤。
+所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 頻道螺紋右上角的標籤會指出小組中的來賓人數，以及每個來賓名稱旁會出現 **(來賓)** 標籤。
 
 ![螢幕擷取畫面顯示代表小組訪客人數的標記](media/guest-experience-image2.png)
 

@@ -7,7 +7,7 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: 一旦您建立了第一個團隊，了解移至尋找 Microsoft Teams 深入部署與採用資源的位置。
 ms.custom:
 - seo-marvel-apr2020
@@ -18,14 +18,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8576560d6ec20cde4bae4ff6f10fc0474392ecf0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e36cb67a226b220e172517bd5ef3bb9f360a699d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499890"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030449"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>選擇在整個組織推出 Microsoft Teams 的路徑
 

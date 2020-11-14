@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '瞭解如何針對商務用 Skype 服務 (PSTN 消費) 付費，以及查看規劃，讓使用者保持不間斷的電話系統存取。 '
-ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788537"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031059"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 
@@ -46,18 +47,18 @@ ms.locfileid: "46788537"
 
 - 在已安裝商務用 Skype 或 Microsoft 團隊 app 的情況下，從音訊會議會議撥出到您的行動電話。
 
-- 當您有 **國內通話方案**時，請撥打電話給任何國際電話號碼。
+- 當您有 **國內通話方案** 時，請撥打電話給任何國際電話號碼。
 
 - 當您已用盡每月分鐘服務配額之後，撥出電話並每分鐘支付一次。
 
 > [!NOTE]
 > 如果您想知道其內容和費率，請參閱 [ [通話方案](https://go.microsoft.com/fwlink/p/?LinkId=799523) ] 頁面上的 [比率] 表格。
   
-如果您是系統管理員，您可以手動新增資金，或者您可以設定自動加值（我們 **建議**這麼做）。
+如果您是系統管理員，您可以手動新增資金，或者您可以設定自動加值（我們 **建議** 這麼做）。
   
 當餘額低於您所設定的觸發金額時，自動自動加值。 我們建議您使用自動加值功能，以便您不記得手動新增資金。 當餘額達到觸發金額時，即會自動新增資金。 如果您沒有選擇自動加值，您會在超出零的情況下，執行餘額的風險。 在該階段，您和您的使用者將無法撥打免付費電話或國際通話。
   
-您隨時可以更新付款選項。 在 [ **訂閱** ] 頁面上，選取 [ **通訊點數**]，然後進行您的更新。
+您隨時可以更新付款選項。 在 [ **訂閱** ] 頁面上，選取 [ **通訊點數** ]，然後進行您的更新。
   
 使用這些服務時，資金將只會套用到 Microsoft 已發行費率的通訊點數。 在 12 (12) 月份中未使用的任何資金，購買日期就會到期並 forfeited。
   
@@ -76,7 +77,7 @@ ms.locfileid: "46788537"
 
 - [電話系統方案](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-您也可以登入 Microsoft 365 系統管理中心並移至**帳單**  >  **訂閱**的 [  >  **新增訂閱**]，以查看資訊。
+您也可以登入 Microsoft 365 系統管理中心並移至 **帳單**  >  **訂閱** 的 [  >  **新增訂閱** ]，以查看資訊。
   
 若要查看含有每個功能所需的授權或授權的表格，請參閱 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
   

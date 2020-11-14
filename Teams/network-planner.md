@@ -13,6 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccd9b620bbe44c8fb8627504b7c25a03227b96
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581324"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030619"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 團隊的網路 planner
 
-網路 Planner 是團隊系統管理中心提供的新工具。 您可以前往**Planner**  >  **網路 Planner**找到它。 網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。
+網路 Planner 是團隊系統管理中心提供的新工具。 您可以前往 **Planner**  >  **網路 Planner** 找到它。 網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。
 
 ![網路 planner 的螢幕擷取畫面](media/network-planner.png)
 
@@ -51,13 +52,13 @@ ms.locfileid: "46581324"
 
 1. 移至 Microsoft 團隊系統管理中心的 [網路 planner]。
 
-2. 在 [**角色**] 索引標籤上，按一下 [ **+ 自訂角色**]。 
+2. 在 [ **角色** ] 索引標籤上，按一下 [ **+ 自訂角色** ]。 
 
-3. 在 [**新增自訂角色**] 窗格中，為新的角色新增名稱和描述。
+3. 在 [ **新增自訂角色** ] 窗格中，為新的角色新增名稱和描述。
 
 4. 選取此角色將在組織中使用的許可權。
 
-5. 按一下 [儲存]****。
+5. 按一下 [儲存]。
 
 ## <a name="build-your-plan"></a>建立您的計畫
 
@@ -65,7 +66,7 @@ ms.locfileid: "46581324"
 
 1. 移至 Microsoft 團隊系統管理中心的 [網路 planner]。
 
-2. 在 [**網路方案**] 索引標籤上，按一下 [**新增網路方案**]。
+2. 在 [ **網路方案** ] 索引標籤上，按一下 [ **新增網路方案** ]。
 
 3. 輸入您的網路方案的名稱和描述。 網路方案會出現在可用方案清單中。
 
@@ -79,31 +80,31 @@ ms.locfileid: "46581324"
 
     1. 為您的網站新增名稱和描述。
 
-    2. 在 [**網路設定**] 底下，將該網站的網路使用者數量加上 (必要) 。
+    2. 在 [ **網路設定** ] 底下，將該網站的網路使用者數量加上 (必要) 。
 
-    3. 新增網路詳細資料： WAN 啟用、WAN 容量、網際網路出口 (**本機**或**遠端**) ，以及 PSTN 出口 (無、本機或遠端) 。
+    3. 新增網路詳細資料： WAN 啟用、WAN 容量、網際網路出口 ( **本機** 或 **遠端** ) ，以及 PSTN 出口 (無、本機或遠端) 。
 
       > [!NOTE]
       > 您必須新增 WAN 和網際網路容量數位，才能查看您產生報告時的特定頻寬建議。
 
-    4. 按一下 [儲存]****。
+    4. 按一下 [儲存]。
 
 ## <a name="create-a-report"></a>建立報表
 
 新增所有網站之後，您可以建立報表，如下所示。
 
-1. 在 [**報表**] 索引標籤上，按一下 [**啟動報表**]。
+1. 在 [ **報表** ] 索引標籤上，按一下 [ **啟動報表** ]。
 
 2. 針對您建立的每個網站，散佈各個可用角色的使用者數目。 如果您使用 Microsoft 建議的角色，該數位會自動散佈 (80% office worker 和20% 的遠端工作) 。
 
-3. 完成發佈之後，按一下 [**產生報表**]。
+3. 完成發佈之後，按一下 [ **產生報表** ]。
 
     產生的報告將會顯示幾個不同視圖的頻寬需求，讓您可以清楚地瞭解輸出：
     - 含個別計算的表格將會顯示每個允許活動的頻寬需求。
     - [其他] 視圖會以建議顯示整體頻寬需求。
 
-4. 按一下 [儲存]****。 您可以在報表清單中使用您的報表，以供日後查看。
+4. 按一下 [儲存]。 您可以在報表清單中使用您的報表，以供日後查看。
 
 ## <a name="example-scenario"></a>範例案例
 
-如需如何使用網路 planner 設定網路方案並使用這些步驟產生報告的範例，請下載[網路 planner 操作說明版 PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)投影片集合僅 (英文) 。
+如需如何使用網路 planner 設定網路方案並使用這些步驟產生報告的範例，請下載 [網路 planner How-To PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) 投影片組 (英文版]) 。

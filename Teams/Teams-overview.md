@@ -6,24 +6,25 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: LolaJ
+ms.reviewer: serdars
 description: 尋找在組織中推出 Microsoft Teams 的正確途徑。 了解 Teams 基礎結構及使用 Teams 搭配 Microsoft 365 或 Office 365。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11fe80ef9ee96b0eb1c4c9f4ebc1613549efc059
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582460"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030979"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
@@ -34,7 +35,7 @@ ms.locfileid: "46582460"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 **[說明]**，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。 如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
+如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 **[說明]** ，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。 如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
 
 ## <a name="teams-architecture"></a>Teams 架構
 
@@ -92,7 +93,7 @@ Teams 是 Microsoft 365 和 Office 365 中用於智慧通訊的主要用戶端�
 
 - **Yammer** 讓組織中的人員彼此交流。 推動全公司的計劃、分享最佳做法，並針對共同的興趣主題或實務領域建立社群。 將構想群眾外包，促進與公司內部人員的開放式討論。
 
-- **Office 應用程式**是人們所熟悉且經常使用的工具，包括 Word、Excel、PowerPoint 和 OneNote。 
+- **Office 應用程式** 是人們所熟悉且經常使用的工具，包括 Word、Excel、PowerPoint 和 OneNote。 
 
 ## <a name="teams-content-updates"></a>Teams 內容更新
 
