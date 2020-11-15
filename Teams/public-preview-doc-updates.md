@@ -9,31 +9,32 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解 Microsoft Teams 中的公開預覽。 嘗試新功能並提供意見反應。
+description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提供意見反應。
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 0b0e6bb9c4082125b2dfbc1ab0dfb6e21edab2d6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852184"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031609"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
 > [!NOTE]
-> 預覽中包含的功能可能不完整，且在公開發行之前可能會變更。 提供預覽版僅針對評估和探索目的。
+> 預覽中包含的功能可能不完整，且在公開發行之前可能會變更。提供預覽版僅針對評估和探索目的。
 
-Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存取。 預覽版可讓您探索並測試即將推出的功能。 我們也歡迎您提供對於公開預覽中任何功能的意見反應。 公開預覽將針對每個 Teams 使用者啟用，因此您不需要擔心會影響整個組織。
+Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存取。預覽版可讓您探索並測試即將推出的功能。我們也歡迎您提供對於公開預覽中任何功能的意見反應。公開預覽將針對每個 Teams 使用者啟用，因此您不需要擔心會影響整個組織。
 
 ## <a name="set-the-update-policy"></a>設定更新原則
 
- 公開預覽將針對每個使用者啟用，而開啟公開預覽的選項會在系統管理原則中控制。 更新原則可用來管理會在 Teams 應用程式中看到搶鮮版或預覽版功能的 Teams 和 Office 預覽版使用者。 您可以使用全域 (全組織預設) 原則並進行自訂，或為您的使用者建立一個或多個自訂原則。
+ 公開預覽將針對每個使用者啟用，而開啟公開預覽的選項會在系統管理原則中控制。更新原則可用來管理會在 Teams 應用程式中看到搶鮮版或預覽版功能的 Teams 和 Office 預覽版使用者。您可以使用全域 (全組織預設) 原則並進行自訂，或為您的使用者建立一個或多個自訂原則。
 
 1. 登入系統管理中心。
 2. 選取 [Teams **]** > [更新原則 **]** 。
