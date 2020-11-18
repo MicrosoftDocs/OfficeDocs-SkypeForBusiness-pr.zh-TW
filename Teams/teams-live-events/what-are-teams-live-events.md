@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031449"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085557"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件
 
 ## <a name="overview"></a>概觀
 
-隨著團隊生活活動，貴組織中的使用者可以將影片和會議內容廣播至大型的線上觀眾。
+您組織中的使用者可以使用小組即時活動，將影片和會議內容廣播至大型的線上觀眾。
 
 Microsoft 365 live 事件會將即時影片資料流程傳送到新的層級。 即時事件在整個參與期間，以及在即時事件期間和之後，都能鼓勵與出席者進行連線。 您可以使用 Microsoft Stream、團隊或 Yammer，在您的物件、團隊或社區所駐留的任何位置建立即時活動。  
 
@@ -48,7 +48,7 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的層級。 
 
 ## <a name="key-components"></a>主要元件
 
-您可以從上述圖片看到，有四個主要元件與團隊中的即時事件搭配使用。
+您可以從上述圖片看到，有五個主要元件與團隊中的即時事件搭配使用。
 
 > [!NOTE]
 > 如需如何設定即時事件和出席者體驗的概覽，請查看這些[短片。](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)
@@ -63,11 +63,11 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的層級。 
 
 影片輸入是即時事件的基礎，且可能會因單一網路攝影機而異。 Microsoft 365 中的即時事件支援多種產品案例，包括使用網路攝影機或外部 app 或裝置產生的事件在小組中產生的事件。 您可以根據專案需求與預算來選擇這些選項。 產生事件的方式有兩種：
 
-- **團隊** ：此生產方法可讓使用者使用其網路攝影機在團隊中產生即時事件，或使用來自團隊室系統的/V 輸入。 如果您想要使用連線到電腦的音訊和視頻裝置，或邀請遠端簡報者參與事件，此選項是最佳且最快速的選項。 這個選項可讓使用者輕鬆地使用網路攝像機，並在事件中共用其螢幕作為輸入。
+- **團隊**：此生產方法可讓使用者使用其網路攝影機在團隊中產生即時事件，或使用來自團隊室系統的/V 輸入。 如果您想要使用連線到電腦的音訊和視頻裝置，或邀請遠端簡報者參與事件，此選項是最佳且最快速的選項。 這個選項可讓使用者輕鬆地使用網路攝像機，並在事件中共用其螢幕作為輸入。
 
     ![使用「快速入門」方法產生的即時事件](../media/teams-live-events-quick-start.png "螢幕擷取畫面顯示使用「快速入門」製作方法所產生的即時事件")
 
-- **外部 app 或裝置** ：外部編碼器可讓使用者直接從含 [資料流程](https://stream.microsoft.com)的外部硬體或軟體編碼器產生即時事件。 如果您已經擁有錄音室品質的裝置，此選項就是最佳做法 (例如，媒體 mixers) 可支援資料流程到即時訊息通訊協定 (RTMP) service。 這種類型的生產通常用在大規模事件（例如 executive 城鎮 halls）中，其中單一資料流程從媒體混音器廣播給物件。
+- **外部 app 或裝置**：外部編碼器可讓使用者直接從含 [資料流程](https://stream.microsoft.com)的外部硬體或軟體編碼器產生即時事件。 如果您已經擁有錄音室品質的裝置，此選項就是最佳做法 (例如，媒體 mixers) 可支援資料流程到即時訊息通訊協定 (RTMP) service。 這種類型的生產通常用在大規模事件（例如 executive 城鎮 halls）中，其中單一資料流程從媒體混音器廣播給物件。
 
     ![使用外部 app 或裝置產生的即時事件](../media/teams-live-events-external-encoder.png "螢幕擷取畫面顯示使用外部 app 或裝置生產方法所產生的即時事件")
 
@@ -78,8 +78,8 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的層級。 
 
 即時事件流程平臺是由下列各部分組成：
 
-- **Azure 媒體服務** ：  [azure 媒體服務](https://docs.microsoft.com/azure/media-services/previous/) 可讓您在當今最受歡迎的行動裝置上，為您提供廣播品質的視頻流式處理服務，以達到較大的目標。 媒體服務可增強協助工具、發佈和伸縮性，並能讓您輕鬆且經濟高效地將內容資料流程傳遞給您當地或全球的目標物件，同時保護您的內容。
-- **Azure 內容傳遞網路 (CDN)** ：當您的資料流程生效之後，就會透過 [Azure 內容傳遞網路 (CDN)](https://docs.microsoft.com/azure/cdn/)來傳送。 Azure 媒體服務提供整合式 CDN 以進行流式處理端點。 這可讓資料流程在全球查看，不含緩衝。
+- **Azure 媒體服務**：  [azure 媒體服務](https://docs.microsoft.com/azure/media-services/previous/) 可讓您在當今最受歡迎的行動裝置上，為您提供廣播品質的視頻流式處理服務，以達到較大的目標。 媒體服務可增強協助工具、發佈和伸縮性，並能讓您輕鬆且經濟高效地將內容資料流程傳遞給您當地或全球的目標物件，同時保護您的內容。
+- **Azure 內容傳遞網路 (CDN)**：當您的資料流程生效之後，就會透過 [Azure 內容傳遞網路 (CDN)](https://docs.microsoft.com/azure/cdn/)來傳送。 Azure 媒體服務提供整合式 CDN 以進行流式處理端點。 這可讓資料流程在全球查看，不含緩衝。
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企業內容傳遞網路 (eCDN) 
 

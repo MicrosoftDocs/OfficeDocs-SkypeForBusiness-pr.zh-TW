@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee029be0d3d908820a4bf9f7cdabdb03c9e6ec83
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c9f8b331161ed4886f5e811fe7ed985af4cf12df
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988300"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085673"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -48,6 +48,7 @@ Api 可讓合作夥伴開發並整合小組的 CCaaS 方案。 此外，我們�
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
+| 「內容專家」 | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -78,7 +79,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 連線 **並延伸** (直接路由、圖形 Api 與團隊 app 平臺) 
 
-  -  (將團隊 Sdk 內嵌到原生團隊互動的3p 應用程式中 **，延伸及加電** ) 
+  -  (將團隊 Sdk 內嵌到原生團隊互動的3p 應用程式中 **，延伸及加電**) 
 
 ### <a name="connect"></a>至
 
