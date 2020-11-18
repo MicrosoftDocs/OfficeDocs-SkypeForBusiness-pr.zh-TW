@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: 撥號和語音參考
               href: dial-voice-reference.md
+            - name: 報告
+              href: aa-cq-cqd-historical-reports.md
         - name: 封鎖撥入通話
           href: block-inbound-calls.md
         - name: 通話駐留和擷取
