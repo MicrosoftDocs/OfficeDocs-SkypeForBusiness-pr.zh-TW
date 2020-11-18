@@ -1,8 +1,8 @@
 - name: 歡迎使用 Teams
   href: teams-overview.md
-- name: 架構 & 的電話方案海報
+- name: 架構 & 電話語音解決方案海報
   href: teams-architecture-solutions-posters.md
-- name: '支援遠端工作人員 (WFH) '
+- name: 支援遠端工作者 (WFH)
   href: support-remote-work-with-teams.md
 - name: 訓練
   items:
@@ -10,7 +10,7 @@
       href: training-microsoft-teams-landing-page.md
     - name: Teams 的管理訓練
       href: itadmin-readiness.md
-    - name: Ignite 上的小組會話2020
+    - name: Ignite 2020 中的 Teams 工作階段
       href: ignite-2020-landing-page.md
     - name: Teams 即時訓練
       href: instructor-led-training-teams-landing-page.yml
@@ -42,19 +42,19 @@
       href: private-channels.md
     - name: 管理私人頻道的生命週期
       href: private-channels-life-cycle-management.md
-    - name: 在 Teams 中指派小組擁有者和成員
+    - name: 在 Teams 中指派團隊擁有者和成員
       href: assign-roles-permissions.md
-    - name: 小組的動態成員資格概觀
+    - name: 團隊的動態成員資格概觀
       href: dynamic-memberships.md
     - name: 在 Teams 中組織團隊的最佳做法
       href: best-practices-organizing.md
-    - name: 管理大型團隊
+    - name: 管理大型 Teams
       href: best-practices-large-groups.md
-    - name: 在 Teams 中建立全組織小組
+    - name: 在 Teams 中建立全組織團隊
       href: create-an-org-wide-team.md
-    - name: 建立人員管理員小組
+    - name: 建立人員管理團隊
       href: create-manager-directs-teams.md
-    - name: 管理小組和頻道原則
+    - name: 管理團隊和頻道原則
       href: teams-policies.md
     - name: 適用於 Teams 的敏感度標籤
       href: sensitivity-labels.md
@@ -62,39 +62,39 @@
       href: manage-channel-moderation-in-teams.md
     - name: 在 Teams 中共用檔案
       href: sharing-files-in-teams.md
-    - name: 團隊和 Outlook 電子郵件整合
+    - name: Teams 和 Outlook 電子郵件整合
       href: teams-outlook-email-integration.md
     - name: 管理訊息原則
       href: messaging-policies-in-teams.md
     - name: Teams 中使用者的目前狀態
       href: presence-admins.md
-    - name: 管理團隊中的標記
+    - name: 在 Teams 中管理標籤
       href: manage-tags.md
-    - name: 在團隊中查看分析
+    - name: 在 Teams 中檢視分析
       href: teams-analytics-and-reports/view-analytics.md
-    - name: 小組的到期和更新
+    - name: 團隊的到期和更新
       href: team-expiration-renewal.md
-    - name: 封存或刪除小組
+    - name: 封存或刪除團隊
       href: archive-or-delete-a-team.md
     - name: 從 Slack 移轉到 Teams
       href: migrate-slack-to-teams.md
-    - name: 使用團隊範本
+    - name: 使用 Teams 範本
       items:
-        - name: 在系統管理中心使用團隊範本
+        - name: 在系統管理中心中使用 Teams 範本
           href: get-started-with-teams-templates-in-the-admin-console.md
-        - name: 以圖形形式為中小型企業設計的團隊範本
+        - name: 為中小型企業建立 Graph 的 Teams 範本
           href: smb-templates.md
-        - name: 建立自訂團隊範本
+        - name: 建立自訂 Teams 範本
           href: create-a-team-template.md
         - name: 從現有團隊建立範本
           href: create-template-from-existing-team.md
         - name: 從現有範本建立範本
           href: create-template-from-existing-template.md
-        - name: 財務類別團隊範本
+        - name: 財務類別 Teams 範本
           href: financial-teams-templates-in-the-admin-console.md
-        - name: 一般類別團隊範本
+        - name: 一般類別 Teams 範本
           href: general-teams-templates-in-the-admin-console.md
-        - name: 製造類別團隊範本
+        - name: 製造類別 Teams 範本
           href: manufacturing-teams-templates-in-the-admin-console.md
     - name: 與外部使用者通訊
       items:
@@ -106,7 +106,7 @@
               href: manage-external-access.md
             - name: 適用於外部使用者的原生 Teams 聊天
               href: native-chat-for-external-users.md
-            - name: 團隊與 Skype 互通性
+            - name: Teams 和 Skype 互通性
               href: teams-skype-interop.md
         - name: 來賓存取
           items:
@@ -128,23 +128,23 @@
               href: edit-guests-information.md
             - name: 疑難排解來賓存取
               href: troubleshoot-guest-access.md
-    - name: 小組中的 Cortana
+    - name: Microsoft Teams 的 Cortana
       href: cortana-in-teams.md
     - name: 管理 Teams
       items:
         - name: 系統管理員角色
           href: using-admin-roles.md
-        - name: 管理組織的 Teams 設定
+        - name: 管理貴組織的 Teams 設定
           href: enable-features-office-365.md
         - name: 在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
           href: manage-teams-skypeforbusiness-admin-center.md
         - name: 在 Microsoft Teams 系統管理中心管理 Teams
           href: manage-teams-in-modern-portal.md
-        - name: 在 Teams 中指派小組擁有者和成員
+        - name: 在 Teams 中指派團隊擁有者和成員
           href: assign-roles-permissions.md
-        - name: 指派原則給您的使用者
+        - name: 將原則指派給使用者
           href: assign-policies.md
-        - name: 在活動記錄記錄中查看您的原則指派
+        - name: 在活動記錄中查看您的原則指派
           href: activity-log.md
         - name: 在 Teams 中管理應用程式權限原則
           href: teams-app-permission-policies.md
@@ -172,7 +172,7 @@
               href: teams-analytics-and-reports/teams-usage-report.md
             - name: Teams 使用者活動報告
               href: teams-analytics-and-reports/user-activity-report.md
-            - name: 團隊 app 使用方式報告
+            - name: 'Teams 應用程式使用量報告 '
               href: teams-analytics-and-reports/app-usage-report.md
             - name: Teams 裝置使用報告
               href: teams-analytics-and-reports/device-usage-report.md
@@ -192,47 +192,47 @@
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: 與 Power Platform 整合
       href: teams-power-platfom-integration.md
-    - name: 管理團隊相關應用程式
+    - name: 管理 Teams 應用程式
       href: manage-apps.md
     - name: 在 Teams 中的應用程式系統管理設定
       href: admin-settings.md
     - name: 使用內建和自訂索引標籤
       href: built-in-custom-tabs.md
-    - name: 使用 Microsoft 365 或 Office 365 及自訂連接器
+    - name: 使用 Microsoft 365 或 Office 365 和自訂連接器
       href: Office-365-custom-connectors.md
-    - name: 資源特定的同意
+    - name: 特定於資源的同意
       href: resource-specific-consent.md
     - name: 自訂應用程式
       items:
-        - name: 發佈透過團隊 App 提交 API 提交的自訂應用程式
+        - name: 發佈透過 Teams 應用程式提交 API 發布的自訂應用程式
           href: submit-approve-custom-apps.md
-        - name: '在 Microsoft [團隊管理中心] 中管理 Power Platform 應用程式'
+        - name: '在 Microsoft Teams 系統管理中心管理 Power Platform '
           href: manage-power-platform-apps.md
         - name: 透過上傳應用程式套件發佈自訂應用程式
           href: upload-custom-apps.md
     - name: 應用程式認證
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: 在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
+    - name: 在 Microsoft Teams 系統管理中心中查看應用程式權限並授與系統管理員的同意
       href: app-permissions-admin-center.md
-    - name: 應用程式的權限和考量
+    - name: 應用程式權限和考量
       href: app-permissions.md
-    - name: 針對團隊協力廠商應用程式購買服務
+    - name: 為 Teams 協力廠商應用程式購買服務
       href: purchase-third-party-apps.md
     - name: Teams 的應用程式範本
       href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: 在團隊中管理貴組織的清單應用程式
+    - name: 在 Teams 中管理貴組織的清單應用程式
       href: manage-lists-app.md
-    - name: 管理貴組織的任務應用程式
+    - name: 管理貴組織的 Tasks 應用程式
       href: manage-tasks-app.md
-    - name: 設定您的團隊目標階層
+    - name: 設定您的小組目標階層
       href: set-up-your-team-hierarchy.md
-    - name: 在團隊系統管理中心管理稱讚應用程式
+    - name: 在 Teams 系統管理中心管理稱讚應用程式
       href: manage-praise-app.md
     - name: 設定Skype 會議應用程式以搭配使用 Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
 - name: 會議和召集會議
   items:
-    - name: 快速入門-會議與即時事件
+    - name: 快速入門 - 會議與即時活動
       href: quick-start-meetings-live-events.md
     - name: 規劃您的部署
       href: deploy-meetings-microsoft-teams-landing-page.md
@@ -256,11 +256,11 @@
               href: rooms/rooms-licensing.md
             - name: 使用 Azure 監視器規劃管理
               href: rooms/azure-monitor-plan.md
-            - name: Microsoft 團隊聊天室管理的服務
+            - name: Microsoft Teams 會議室受管理的服務
               items:
-                - name: 使用 Microsoft 小組聊天室管理的服務進行規劃管理
+                - name: 使用 Microsoft Teams 會議室受管理的服務進行規劃管理
                   href: rooms/microsoft-teams-rooms-premium.md
-                - name: 使用 Microsoft 團隊聊天室管理服務的角色型存取控制
+                - name: 使用 Microsoft Teams 會議室受管理的服務進行角色型存取控制
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: 部署
           items:
@@ -270,9 +270,9 @@
               href: rooms/rooms-configure-accounts.md
             - name: Surface Hub
               items:
-                - name: 設定協同會議
+                - name: 設定協調會議
                   href: rooms/coordinated-meetings.md
-                - name: 管理 Microsoft 團隊設定
+                - name: 管理 Microsoft Teams 設定
                   href: rooms/surface-hub-manage-config.md
             - name: 使用 Office 365
               href: rooms/with-office-365.md
@@ -286,9 +286,9 @@
               href: rooms/console.md
             - name: 設定驗證
               href: rooms/rooms-authentication.md
-            - name: 加入協力廠商會議
+            - name: 加入第三方會議
               href: rooms/third-party-join.md
-            - name: 使用 Microsoft 端點建構管理員
+            - name: 使用 Microsoft Endpoint Configuration Manager
               href: rooms/rooms-scale.md
             - name: 使用 Azure 監視器管理
               href: rooms/azure-monitor-deploy.md
@@ -300,9 +300,9 @@
           items:
             - name: 管理概觀
               href: rooms/rooms-manage.md
-            - name: 維護和作業
+            - name: 維護及操作
               href: rooms/rooms-operations.md
-            - name: 貴組織的支援小組
+            - name: 貴組織中的支援小組
               href: rooms/known-issues.md
             - name: 使用 Azure 監視器的裝置
               href: rooms/azure-monitor-manage.md
@@ -314,7 +314,7 @@
       href: Tutorial-Meetings-in-Teams.yml
     - name: 管理會議原則
       href: meeting-policies-in-teams.md
-    - name: 移除使用者的 RestrictedAnonymousAccess 會議原則
+    - name: 從使用者移除 RestrictedAnonymousAccess 會議原則
       href: meeting-policies-restricted-anonymous-access.md
     - name: 管理會議設定
       href: meeting-settings-in-teams.md
@@ -324,7 +324,7 @@
       href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
     - name: 開啟或關閉進入和結束會議的宣告
       href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-    - name: 在團隊中使用 NDI®技術
+    - name: 在 Teams 中使用 NDI®技術
       href: use-NDI-in-meetings.md
     - name: Teams 會議中的舉手選項
       href: raise-hand-meetings.md
@@ -334,15 +334,15 @@
       href: configure-desktop-sharing.md
     - name: Teams 雲端會議錄製
       href: cloud-recording.md
-    - name: 在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
+    - name: 使用商務用 OneDrive 和 SharePoint 或 Stream 進行會議錄製
       href: tmr-meeting-recording-change.md
-    - name: 連絡人中心整合
+    - name: 連絡中心整合
       href: teams-contact-center.md
     - name: 在 Outlook 中使用 Teams 會議增益集
       href: teams-add-in-for-outlook.md
     - name: 為您的使用者設定語音來電功能
       href: set-up-the-call-me-feature-for-your-users.md
-    - name: '[取得會議出席情況] 報告'
+    - name: 取得會議出席報告
       href: teams-analytics-and-reports/meeting-attendance-report.md
     - name: 設定會議移轉服務 (MMS)
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -354,21 +354,21 @@
           href: deploy-audio-conferencing-teams-landing-page.md
         - name: Microsoft 365 中的音訊會議
           href: audio-conferencing-in-office-365.md
-        - name: 開啟預覽：語音會議的網路會議
+        - name: 開啟預覽：以音訊會議進行的網路會議
           href: audio-conferencing-on-network.md
         - name: 音訊會議的常見問題
           href: audio-conferencing-common-questions.md
         - name: 教學課程：Teams 的音訊會議
           href: Tutorial-Audio-Conferencing.yml
-        - name: 在 Microsoft 365 中試用或購買音訊會議
+        - name: 試用或購買 Microsoft 365 的音訊會議
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
         - name: 音訊會議附贈外撥期間
           href: complimentary-dial-out-period.md
-        - name: 音訊會議訂閱「撥出」/「打電話給我」的好處
+        - name: 音訊會議訂用帳戶的「外撥」/「用下列電話號碼連絡我」優惠
           href: audio-conferencing-subscription-dial-out.md
         - name: 設定音訊會議
           href: set-up-audio-conferencing-in-teams.md
-        - name: 為中小型企業設定音訊會議快速入門
+        - name: 設定音訊會議 - 中小型企業快速入門
           href: audio-conferencing-smb.md
         - name: 將 Microsoft 指派為音訊會議提供者
           href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -382,7 +382,7 @@
               href: see-a-list-of-audio-conferencing-numbers-in-teams.md
             - name: 設定音訊會議的自動語音應答語言
               href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-            - name: 為您的使用者設定會議撥出確認
+            - name: 為使用者設定會議撥出確認
               href: set-up-meeting-dial-out-confirmation.md
         - name: 管理貴組織的音訊會議設定
           href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
@@ -432,7 +432,7 @@
               href: audio-conferencing-supported-languages.md
             - name: 音訊會議的電話號碼
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 音訊會議的國家和地區區域
+            - name: 音訊會議的國家/地區
               href: audio-conferencing-zones.md
             - name: 影片：Teams 的音訊會議
               href: audio-conferencing-videos.md
@@ -450,9 +450,9 @@
           href: teams-live-events/set-teams-live-events-policies-using-powershell.md
         - name: 設定 Teams 即時活動設定
           href: teams-live-events/configure-teams-live-events.md
-- name: 語音電話系統和 PSTN 連線能力
+- name: 語音 - 電話系統與 PSTN 連線
   items:
-    - name: 規劃您的小組語音方案
+    - name: 計劃您的 Teams 語音解決方案
       href: cloud-voice-landing-page.md
     - name: 電話系統
       items:
@@ -474,7 +474,7 @@
               href: languages-for-voicemail-greetings-and-messages.md
         - name: 來電顯示
           items:
-            - name: 如何在貴組織中使用來電顯示
+            - name: 如何在組織中使用來電顯示
               href: how-can-caller-id-be-used-in-your-organization.md
             - name: 管理來電顯示原則
               href: caller-id-policies.md
@@ -486,7 +486,7 @@
           items:
             - name: 規劃
               href: plan-auto-attendant-call-queue.md
-            - name: 自動助理設定
+            - name: 自動語音應答設定
               href: create-a-phone-system-auto-attendant.md
             - name: 通話佇列設定
               href: create-a-phone-system-call-queue.md
@@ -494,13 +494,15 @@
               href: tutorial-org-aa.yml
             - name: 小型企業範例 - 設定通話佇列
               href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-            - name: 管理團隊資源帳戶
+            - name: 管理 Teams 資源帳戶
               href: manage-resource-accounts.md
             - name: 設定假日
               href: set-up-holidays-in-teams.md
             - name: 直接從 Teams 回答自動語音應答和通話佇列的通話
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: 撥號及語音參照
+            - name: 報告
+              href: aa-cq-cqd-historical-reports.md
+            - name: 撥號和語音參考
               href: dial-voice-reference.md
         - name: 封鎖撥入通話
           href: block-inbound-calls.md
@@ -510,7 +512,7 @@
           href: call-sharing-and-group-call-pickup.md
         - name: 通話原則
           href: teams-calling-policy.md
-        - name: 共用線路外觀
+        - name: 共用的線路外觀
           href: shared-line-appearance.md
         - name: 撥號鍵台設定
           href: dial-pad-configuration.md
@@ -520,7 +522,7 @@
           href: calling-plan-landing-page.md
         - name: 如何購買通話方案
           href: calling-plans-for-office-365.md
-        - name: 針對美國和加拿大延伸撥出的通話分鐘數
+        - name: 適用於美國和加拿大的延長撥出通話分鐘
           href: dial-out-minutes-canada-us.md
         - name: 設定貴組織的通話方案
           href: set-up-calling-plans.md
@@ -540,17 +542,17 @@
           items:
             - name: 概觀
               href: direct-routing-configure.md
-            - name: 步驟1：連接您的 SBC
+            - name: 步驟 1：連結您的 SBC
               href: direct-routing-connect-the-sbc.md
-            - name: 步驟2：啟用使用者
+            - name: 步驟 2：啟用使用者
               href: direct-routing-enable-users.md
-            - name: 步驟3：設定語音路由
+            - name: 步驟 3：設定語音路由
               href: direct-routing-voice-routing.md
-            - name: 步驟4：轉譯電話號碼
+            - name: 步驟 4：翻譯電話號碼
               href: direct-routing-translate-numbers.md
-            - name: 針對多個承租人設定 SBC
+            - name: 針對多個租用戶設定 SBC
               href: direct-routing-sbc-multiple-tenants.md
-            - name: 如何搭配直接路由搭配使用類比裝置
+            - name: 如何搭配直接路由使用類比裝置
               href: direct-routing-analog-devices.md
         - name: 依位置路由
           items:
@@ -566,11 +568,11 @@
               href: direct-routing-plan-media-bypass.md
             - name: 設定媒體旁路搭配直接路由
               href: direct-routing-configure-media-bypass.md
-        - name: 直接路由的本機媒體優化
+        - name: 直接路由的本機媒體最佳化
           items:
-            - name: 規劃本機媒體優化
+            - name: 規劃本機媒體最佳化
               href: direct-routing-media-optimization.md
-            - name: 設定本機媒體優化
+            - name: 設定本機媒體最佳化
               href: direct-routing-media-optimization-configure.md
         - name: 含有 PSTN 連線功能的混合式環境中的使用者帳戶
           href: direct-routing-user-accounts-in-a-hybrid-environment.md
@@ -600,7 +602,7 @@
                   href: direct-routing-protocols-SIP.md
                 - name: 媒體通訊協定
                   href: direct-routing-protocols-media.md
-            - name: 管理語音路由策略
+            - name: 管理語音路由原則
               href: manage-voice-routing-policies.md
     - name: 電話號碼
       items:
@@ -670,11 +672,11 @@
       items:
         - name: 概觀
           href: voice-case-study-overview.md
-        - name: 團隊升級方案
+        - name: Teams 升級計畫
           href: voice-case-study-migration-plan.md
         - name: 電話系統
           href: voice-case-study-phone-system.md
-        - name: 以位置為基礎的路由
+        - name: 位置式路由
           href: voice-case-study-location-based-routing.md
         - name: 緊急電話
           href: voice-case-study-emergency-calling.md
@@ -688,7 +690,7 @@
           items:
             - name: 澳洲的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: 針對奧地利的電話號碼管理
+            - name: 奧地利的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
             - name: 比利時的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
@@ -702,7 +704,7 @@
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
             - name: 愛爾蘭的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: 義大利電話號碼管理
+            - name: 義大利的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
             - name: 日本的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
@@ -718,7 +720,7 @@
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
             - name: 英國的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: 美國電話號碼管理
+            - name: 美國的電話號碼管理
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: 免付費電話的撥號限制
           items:
@@ -736,7 +738,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: 貝里斯
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: 波士尼亞與赫塞哥維納
+            - name: 波士尼亞 & 黑塞哥維那
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: 巴西
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
@@ -772,7 +774,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
             - name: 宏都拉斯
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: 香港
+            - name: 香港特別行政區
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
             - name: 匈牙利
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
@@ -844,7 +846,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
             - name: 土耳其
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
-            - name: '阿拉伯聯合大公國 (UAE) '
+            - name: 阿拉伯聯合大公國 (UAE)
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
             - name: 英國
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
@@ -877,9 +879,9 @@
       href: teams-adoption-get-started.md
     - name: 階段 1 - 開始使用
       items:
-        - name: 開始使用
+        - name: Start
           href: teams-adoption-phase1.md
-        - name: 了解小組和頻道
+        - name: 了解團隊和頻道
           href: teams-adoption-understand-teams-and-channels.md
         - name: 建立您的第一個應用程式
           href: teams-adoption-your-first-teams.md
@@ -901,7 +903,7 @@
           href: teams-adoption-onboard-support.md
     - name: 階段 3 - 調整
       items:
-        - name: 調整
+        - name: 規模
           href: teams-adoption-phase3-enable.md
         - name: 定義成果和成功
           href: teams-adoption-define-outcomes.md
@@ -919,7 +921,7 @@
       href: upgrade-framework.md
     - name: 規劃您的升級旅程
       items:
-        - name: 規劃您的專案與需求
+        - name: 規劃您的專案和需求
           items:
             - name: 概觀
               href: upgrade-plan-journey.md
@@ -929,11 +931,11 @@
               href: upgrade-define-project-scope.md
             - name: 了解共存和互通性
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: 瞭解電話系統和 PSTN 連接選項
+            - name: 瞭解電話系統和 PSTN 連線選項
               href: cloud-voice-landing-page.md
             - name: 選擇您的升級旅程
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-            - name: 規劃使用者試驗
+            - name: 舉辦使用者試驗
               href: pilot-essentials.md
         - name: 準備 Teams 的環境
           items:
@@ -951,9 +953,9 @@
           items:
             - name: 組織的整備概觀
               href: upgrade-prepare-organization.md
-            - name: 評估組織的變更整備程度
+            - name: 評估組織變更整備
               href: upgrade-org-change-readiness.md
-            - name: 準備使用者整備計畫
+            - name: 準備使用者整備方案
               href: upgrade-user-readiness.md
     - name: 實施您的升級
       items:
@@ -979,15 +981,15 @@
               href: upgrade-to-teams-on-prem-upgrade-methods.md
             - name: 管理升級的工具
               href: upgrade-to-teams-on-prem-tools.md
-            - name: 在內部部署商務用 Skype 的組織考慮事項
+            - name: 使用商務用 Skype 內部部署的組織考慮
               href: upgrade-to-teams-on-prem-considerations.md
             - name: 實施您的升級
               href: upgrade-to-teams-on-prem-implement.md
-            - name: 團隊與商務用 Skype 的共存
+            - name: Teams 和商務用 Skype 共存
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN 考慮
+            - name: PSTN 考量
               href: upgrade-to-teams-on-prem-pstn-considerations.md
-            - name: 共存模式-參考
+            - name: 共存模式 - 參照
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams 用戶端體驗和遵從共存模式
               href: teams-client-experience-and-conformance-to-coexistence-modes.md
@@ -1033,11 +1035,11 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
     - name: 與 Exchange 和 SharePoint 的整合
       href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-- name: Microsoft 365 Business Voice
+- name: Microsoft 365 商務語音
   items:
     - name: 什麼是 Microsoft 365 Business Voice？
       href: business-voice/whats-business-voice.md
-    - name: 國家/地區的可用性
+    - name: 適用國家與地區
       href: business-voice/country-region-availability.md
     - name: 購買前應了解的事項
       items:
@@ -1051,7 +1053,7 @@
           href: business-voice/prepare-users.md
     - name: 執行快速入門精靈
       href: business-voice/use-getting-started-wizard.md
-    - name: 嘗試的事項
+    - name: 嘗試事項
       href: business-voice/things-to-try.md
     - name: 自訂您的設定
       items:
@@ -1096,37 +1098,37 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 適用於醫療保健的 Teams
       items:
-        - name: 開始使用適用于醫療保健組織的團隊
+        - name: 開始使用適用於醫療保健組織的 Teams
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: 虛擬走訪
+        - name: 虛擬就診
           items:
-            - name: 與團隊整合的虛擬走訪融入 EHR
+            - name: 使用 Teams 虛擬 - 融入 EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 使用預訂與團隊進行虛擬走訪
+            - name: 使用 Bookings 和 Teams 進行虛擬就診
               href: bookings-app-admin.md
-        - name: 查看並指派原則套件
+        - name: 檢視並指派原則套件
           href: policy-packages-healthcare.md
-        - name: 安全訊息
+        - name: 保護訊息的安全
           items:
-            - name: 安全訊息
+            - name: 保護訊息的安全
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: 訊息委派
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: 團隊範本
+        - name: Teams 範本
           items:
-            - name: 使用團隊醫療保健範本
+            - name: 使用 Teams 醫療保健範本
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 醫療保健的團隊範本
+            - name: 適用於醫療保健的 Teams 範本
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: 管理清單應用程式
+        - name: '管理 [清單] 應用程式'
           href: manage-lists-app.md
-        - name: '管理 [任務] 應用程式'
+        - name: '管理 [工作] 應用程式'
           href: manage-tasks-app.md
         - name: Teams 中的 Shifts
           items:
             - name: Teams 中的 Shifts
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: 管理倒班應用程式
+            - name: 管理 Shifts 應用程式
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 適用於教育的 Teams
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1135,57 +1137,57 @@
           href: teams-quick-start-edu.yml
         - name: 開始使用遠端學習
           href: remote-learning-edu.md
-        - name: 團隊 EDU 原則與原則套件
+        - name: Teams EDU 原則和原則套件
           href: policy-packages-edu.md
-        - name: 將原則指派給大型使用者組
+        - name: 將原則指派給大型使用者集合
           href: batch-group-policy-assignment-edu.md
-        - name: 建立供教師與學生用之安全性群組的 PowerShell 腳本
+        - name: 建立適用於授課者和學生的安全性群組之 PowerShell 腳本
           href: scripts/powershell-script-security-groups-edu.md
-        - name: 教育系統管理員的低頻寬指示
+        - name: 教育版系統管理員的低頻寬指導方針
           href: edu-remote-low-bandwidth.md
-        - name: 開始使用深入瞭解
+        - name: 開始使用深入解析
           href: class-insights.md
         - name: Teams 教育版中的作業
           href: expand-teams-across-your-org/assignments-in-teams.md
-        - name: Teams 教育版管理員的資源
+        - name: 適用於 Teams 教育版系統管理員的資源
           href: resources-teams-edu.md
         - name: 適用於系統管理員的 Microsoft 教育版控管常見問題集
           href: plan-teams-governance-edu.md
         - name: 安裝 Moodle 整合
           href: install-moodle-integration.md
-        - name: 教育版團隊授權
+        - name: Teams 授權教育
           href: teams-edu-licensing.md
-        - name: 教育版 SKU 參考
+        - name: 教育 SKU 參考
           href: sku-reference-edu.md
-    - name: 第一線員工員工的團隊
+    - name: 適用於第一線員工的 Teams
       items:
-        - name: 第一線員工工作人員的快速入門
+        - name: 適用於第一線員工的快速入門
           href: firstline-workers-quickstart.yml
-        - name: 第一線員工工作人員的腳本式部署
+        - name: 第一線員工編寫指令碼部署
           href: flw-scripted-deployment.md
-        - name: 管理第一線員工工作者的倒班式存取
+        - name: 為第一線員工管理以班次為基礎的存取
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: 適用於 Microsoft Teams 的 RealWear
           href: flw-realwear.md
-        - name: Walkie Talkie
+        - name: 對講機
           href: walkie-talkie.md
-        - name: 從 SPO 網站或頁面建立團隊內部網路入口應用程式
+        - name: 從 SPO 網站或頁面建立 Teams 內部網路入口網站應用程式
           href: teams-standalone-static-tabs-using-spo-sites.md
     - name: 適用於零售業的 Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 在系統管理中心快速開始使用零售團隊範本
+        - name: 在系統管理中心中開始使用適用於零售業的 Teams 範本
           href: retail-teams-templates-in-the-admin-console.md
         - name: 開始使用適用於零售業的 Teams 範本
           href: get-started-with-retail-teams-templates.md
     - name: 適用於政府機關的 Teams
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
-        - name: '支援遠端工作人員 (WFH) '
+        - name: 支援遠端工作者 (WFH)
           href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: 開始使用政府團隊範本
+        - name: 開始使用適用於政府的 Teams 範本
           href: government-teams-templates-in-the-admin-console.md
-        - name: 管理 Office 365 G1 試用版優惠
+        - name: 管理 Office 365 G1 試用版方案
           href: g1-trial-license.md
         - name: Microsoft 365 政府版的方案 - GCC
           href: plan-for-government-gcc.md
@@ -1195,115 +1197,115 @@
           href: plan-for-government-dod.md
         - name: 適用於 GCC High 和 DoD 的音訊會議搭配直接路由
           href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
-        - name: 政府團隊原則套件
+        - name: 適用於政府的 Teams 原則套件
           href: policy-packages-gov.md
-- name: 安全性、隱私權和法規遵循
+- name: 安全性、隱私權與合規性
   items:
     - name: 概觀
       href: security-compliance-overview.md
     - name: 安全性
       items:
-        - name: 安全性指南
+        - name: 安全性手冊
           href: teams-security-guide.md
-        - name: Azure Sentinel 與團隊
+        - name: Azure Sentinel 和 Teams
           href: teams-sentinel-guide.md
-        - name: 身分識別模型與驗證
+        - name: 身分識別和驗證
           href: identify-models-authentication.md
         - name: 登入 Microsoft 團隊
           href: sign-in-teams.md
-        - name: 小組中的安全連結
+        - name: Teams 中的安全連結
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: AppLocker 應用程式控制原則
           href: applocker-in-teams.md
-        - name: 封鎖 Sharepoint 的存取權
+        - name: 封鎖對 Sharepoint 的存取
           href: block-access-sharepoint.md
     - name: 合規性
       items:
-        - name: 資訊障礙
+        - name: 資訊屏障
           href: information-barriers-in-teams.md
         - name: 保留原則
           href: retention-policies.md
-        - name: 溝通合規性
+        - name: 通訊合規性
           href: communication-compliance.md
-        - name: Callings & 會議的原則錄製
+        - name: Callings & 會議的原則型錄製
           href: teams-recording-policy.md
-        - name: 防止資料遺失
+        - name: 資料外洩防護
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: eDiscovery
+        - name: 電子文件探索
           items:
-            - name: 對內容進行 eDiscovery 調查
+            - name: 針對內容進行電子文件探索調查
               href: ediscovery-investigation.md
-            - name: 將 Teams 使用者或小組置於合法持有
+            - name: 將 Teams 使用者或團隊置於合法持有
               href: legal-hold.md
         - name: 內容搜尋
           items:
             - name: 使用內容搜尋
               href: content-search.md
-            - name: 搜尋審核記錄中的事件
+            - name: 搜尋活動的稽核記錄檔
               href: audit-log-events.md
     - name: 隱私權
       items:
         - name: 隱私權和 Microsoft Teams
           href: teams-privacy.md
-        - name: 資料收集做法
+        - name: 資料收集方式
           href: data-collection-practices.md
         - name: Teams 中的資料位置
           href: location-of-data-in-teams.md
-        - name: 封鎖特定使用者對 Sharepoint Online 的存取權
+        - name: 封鎖特定使用者對 Sharepoint Online 的存取
           href: block-access-sharepoint.md
-        - name: 原則控制概述
+        - name: 原則控制概覽
           href: policy-control-overview.md
-        - name: 行動診斷資料
+        - name: 行動裝置診斷資料
           href: policy-control-diagnostic-data-mobile.md
         - name: 桌面用戶端診斷資料
           href: policy-control-diagnostic-data-desktop.md
-        - name: 選用的連線體驗
+        - name: 選擇性連線體驗
           href: teams-privacy-oce-overview.md
 - name: 監控、維護和疑難排解
   items:
-    - name: 營運您的服務
+    - name: 操作您的服務
       href: upgrade-operate-my-service.md
     - name: 加強您的服務
       href: upgrade-enhance-my-service.md
     - name: 監控及管理通話品質
       items:
-        - name: 監控並改善通話品質
+        - name: 監控及改善通話品質
           href: monitor-call-quality-qos.md
-        - name: '通話品質儀表板 (CQD) '
+        - name: 通話品質儀表板 (CQD)
           items:
             - name: 什麼是 CQD？
               href: CQD-what-is-call-quality-dashboard.md
             - name: 設定 CQD
               href: turning-on-and-using-call-quality-dashboard.md
-            - name: 上傳租使用者及組建資料
+            - name: 上傳租用戶和建築物資料
               href: CQD-upload-tenant-building-data.md
-            - name: CQD 資料和報表
+            - name: CQD 資料和報告
               href: CQD-data-and-reports.md
-            - name: 使用 CQD 管理通話與會議品質
+            - name: 使用 CQD 管理通話和會議品質
               href: quality-of-experience-review-guide.md
             - name: 常見問題集
               href: CQD-frequently-asked-questions.md
-            - name: CQD 中可用的維度與量值
+            - name: CQD 中可用的維度和量值
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: CQD 中的資料流程分類
+            - name: CQD 中的串流分類
               href: stream-classification-in-call-quality-dashboard.md
-            - name: 建立建立地圖
+            - name: 建立建築物地圖
               href: CQD-building-mapping.md
-            - name: 使用 Power BI 來分析 CQD 資料
+            - name: 使用 Power BI 分析 CQD 資料
               items:
-                - name: 使用 Power BI 來分析 CQD 資料
+                - name: 使用 Power BI 分析 CQD 資料
                   href: CQD-Power-BI-query-templates.md
                 - name: 安裝 Power BI 連接器以使用 CQD 查詢範本
                   href: CQD-Power-BI-connector.md
-                - name: 取得團隊利用率的 CQD 資料
+                - name: 取得 Teams 使用狀況的 CQD 資料
                   href: CQD-teams-utilization-report.md
-                - name: 使用 CQD PSTN Direct 路由報告
+                - name: 使用 CQD PSTN 直接路由報告
                   href: CQD-PSTN-report.md
         - name: 通話分析
           items:
             - name: 設定通話分析
               href: set-up-call-analytics.md
-            - name: 使用呼叫分析來排查不佳的通話品質問題
+            - name: 使用通話分析來疑難排解不良通話品質
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
         - name: 服務品質 (QoS)
           items:
@@ -1313,15 +1315,15 @@
               href: QoS-in-Teams-clients.md
     - name: Teams 疑難排解
       href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
-    - name: 安裝和更新問題的疑難排解
+    - name: 安裝和更新問題疑難排解
       href: troubleshoot-installation.md
     - name: 疑難排解 Teams 用戶端的連線問題
       href: connectivity-issues.md
-    - name: 在舊版系統上接收郵件和通話的問題
+    - name: 在舊系統上接收訊息和通話的問題
       href: legacy-login-issues.md
     - name: 疑難排解 Teams 的問題時使用記錄檔
       href: log-files.md
-    - name: 常見問題：支援遠端員工
+    - name: 常見問題：支援您的遠端員工
       href: FAQ-support-remote-workforce.md
     - name: 驗證 Teams 的服務健康情況
       href: service-health.md
@@ -1343,7 +1345,7 @@
           href: tutorial-network-planner-example.yml
         - name: Teams 或商務用 Skype Online 的 Proxy 伺服器
           href: proxy-servers-for-skype-for-business-online.md
-        - name: 在小組中建立小組時規劃 Microsoft 365 群組
+        - name: 在 Teams 中建立團隊時適用於 Microsoft 365 群組的方案
           href: plan-office-365-groups.md
         - name: Teams 中的生命週期管理方案
           href: plan-teams-lifecycle.md
@@ -1353,7 +1355,7 @@
       items:
         - name: 取得 Teams 用戶端
           href: get-clients.md
-        - name: 在中國取得 Android 版團隊
+        - name: 在中國取得 Android 版 Teams
           href: get-teams-android-in-china.md
         - name: Teams 應用程式的硬體需求
           href: hardware-requirements-for-the-teams-app.md
@@ -1361,11 +1363,11 @@
           href: hardware-decoders-and-encoders.md
         - name: 使用 MSI 安裝 Teams
           href: msi-deployment.md
-        - name: 開啟組織中的 Teams
+        - name: 開啟貴組織中的 Teams
           href: Office-365-set-up.md
         - name: Microsoft Teams 如何使用記憶體
           href: teams-memory-usage-perf.md
-        - name: Microsoft 365 和 Office 365 Url 與 IP 位址範圍
+        - name: Microsoft 365 和 Office 365 URL 和 IP 位址範圍 (部分機器翻譯)。
           href: office-365-urls-ip-address-ranges.md
         - name: 適用於虛擬桌面架構 (VDI) 的 Teams
           href: teams-for-vdi.md
@@ -1373,70 +1375,70 @@
           href: teams-surface-hub.md
         - name: Teams 用戶端更新
           href: teams-client-update.md
-        - name: 安裝和更新問題的疑難排解
+        - name: 安裝和更新問題疑難排解
           href: troubleshoot-installation.md
     - name: 授權
       items:
         - name: 管理 Teams 的使用者存取
           href: user-access.md
-        - name: 團隊附加元件授權選項
+        - name: Teams 附加元件授權選項
           href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
-        - name: 指派團隊附加元件授權
+        - name: 指派 Teams 附加元件授權
           href: teams-add-on-licensing/assign-teams-add-on-licenses.md
-        - name: 管理 Office 365 E1 試用版優惠
+        - name: 管理 Office 365 E1 試用版方案
           href: e1-trial-license.md
-        - name: 管理 Office 365 G1 試用版優惠
+        - name: 管理 Office 365 G1 試用版方案
           href: g1-trial-license.md
         - name: 管理 Teams Exploratory 體驗
           href: teams-exploratory.md
         - name: 管理 Teams 免費版
           href: manage-freemium.md
-        - name: 免費升級團隊的訂閱版本
+        - name: 將 Teams 免費版升級為訂閱版本
           href: upgrade-freemium.md
-        - name: 高級通訊
+        - name: 進階通訊
           href: teams-add-on-licensing/advanced-communications.md
         - name: 訊息原則授權
           href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft 365 電話系統-虛擬使用者授權
+        - name: Microsoft 365 電話系統 - 虛擬使用者授權
           href: teams-add-on-licensing/virtual-user.md
-    - name: 與 Microsoft 365 與 Office 365 的互通性
+    - name: Microsoft 365 和 Office 365 的互通性
       items:
-        - name: Microsoft 365 群組與團隊
+        - name: Microsoft 365 群組與 Teams
           href: office-365-groups.md
         - name: 使用 Microsoft 365 系統管理中心建立 Microsoft 365 資源帳戶
           href: devices/resource-account-ui.md
-        - name: 使用團隊加強現有的 Microsoft 365 群組
+        - name: 使用 Teams 加強現有的 Microsoft 365 群組
           href: enhance-office-365-groups.md
         - name: Exchange 和 Teams 如何互動
           href: exchange-teams-interact.md
           items:
             - name: 設定 Exchange 混合式組織以搭配 Teams 使用
               href: exchange-hybrid-organization.md
-            - name: 在 Exchange 中使用郵件流程規則
+            - name: 使用 Exchange 的郵件流程規則
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
-        - name: SharePoint Online 和商務用 OneDrive 如何與 Teams 互動
+        - name: 'SharePoint Online 和 [商務用 OneDrive] 如何與 Teams 互動'
           href: sharepoint-onedrive-interact.md
-        - name: Microsoft 365 或 Office 365 多地域租賃中的團隊體驗
+        - name: 在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗
           href: teams-experience-o365odb-spo-multi-geo.md
     - name: 支援的裝置
       items:
         - name: 在 Teams 中管理裝置
           href: devices/device-management.md
-        - name: 遠端更新您的裝置
+        - name: 遠端更新裝置
           href: devices/remote-update.md
-        - name: 管理小組裝置標記
+        - name: 管理 Teams 裝置標籤
           href: devices/manage-device-tags.md
         - name: Teams 的電話
           href: devices/phones-for-teams.md
-        - name: 團隊顯示
+        - name: Teams 顯示器
           href: devices/teams-displays.md
-        - name: 將小組電話升級至團隊顯示
+        - name: 更新 Teams 電話至 Teams 顯示器
           href: devices/upgrade-phones-to-displays.md
-        - name: 部署團隊使用 Intune 顯示手機和團隊
+        - name: 使用 Intune 部署 Teams 電話與 Teams 顯示器
           href: devices/phones-displays-deploy.md
         - name: USB 音訊和視訊裝置
           href: devices/usb-devices.md
-        - name: 為 Microsoft 團隊部署共同作業橫條圖
+        - name: 為 Microsoft Teams 部署共同作業列
           href: devices/collab-bar-deploy.md
         - name: 會議室裝置和解決方案
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -1448,13 +1450,13 @@
       items:
         - name: 概觀
           href: teams-powershell-overview.md
-        - name: 安裝團隊 PowerShell
+        - name: 安裝 Teams PowerShell
           href: teams-powershell-install.md
-        - name: 使用團隊 PowerShell 管理團隊
+        - name: 使用 Teams PowerShell 管理 Teams
           href: teams-powershell-managing-teams.md
-        - name: 團隊 PowerShell 版本資訊
+        - name: Teams PowerShell 版本資訊
           href: teams-powershell-release-notes.md
-        - name: 從商務用 Skype Online 連接器移至團隊 PowerShell 模組
+        - name: 自商務用 Skype Online 連接器移至 Teams PowerShell 模組
           href: teams-powershell-move-from-sfbo.md
         - name: Teams 的 Cmdlet 參考
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1464,7 +1466,7 @@
       href: get-help-in-microsoft-teams.md
     - name: Teams 內容更新
       href: teams-updates.md
-    - name: 如何查詢您的支援 PIN
+    - name: 如何查閱您的支援 PIN
       href: support-pin.md
     - name: 音訊會議與通話方案的適用國家/地區
       items:
@@ -1500,7 +1502,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: 百慕達
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: 波士尼亞與赫塞哥維納
+        - name: 波士尼亞 & 黑塞哥維那
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: 巴西
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
@@ -1564,7 +1566,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
         - name: 宏都拉斯
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: 香港
+        - name: 香港特別行政區
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
         - name: 匈牙利
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
@@ -1678,13 +1680,13 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
         - name: 土耳其
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
-        - name: 特克斯與凱科斯群島
+        - name: 土克斯及開科斯群島
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
         - name: 烏干達
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
         - name: 烏克蘭
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
-        - name: '阿拉伯聯合大公國 (UAE) '
+        - name: 阿拉伯聯合大公國 (UAE)
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
         - name: 英國
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
@@ -1696,23 +1698,23 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
         - name: 越南
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
-    - name: 協助工具和一致性
+    - name: 協助工具與符合性
       items:
         - name: Microsoft Teams 在法國的輔助工具符合性聲明
           href: accessibility-declaration-of-conformance-in-france-for-teams.md
         - name: 商務用 Skype Online 和 Microsoft Teams 的輔助工具解決方案
           href: accessibility-solutions-in-france.md
-        - name: Microsoft 365 中的通話方案-英國程式碼練習
+        - name: Microsoft 365 的通話方案 - 英國的工作條例規定
           href: code-of-practice-for-the-united-kingdom-u-k.md
-        - name: Microsoft 365 中的通話方案-英國程式碼的投訴處理
+        - name: Microsoft 365 的通話方案 - 英國的投訴處理規定
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
         - name: 緊急通話條款及條件
           href: emergency-calling-terms-and-conditions.md
     - name: 升級探索問卷
       href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: 使用 Microsoft 團隊匯出 API 匯出內容
+    - name: 使用 Microsoft Teams API 匯出內容
       href: export-teams-content.md
-    - name: 團隊系統管理功能的版本資訊
+    - name: Teams 系統管理員功能的版本資訊
       href: release-notes/release-notes.md
     - name: Microsoft Teams 中的公開預覽
       href: public-preview-doc-updates.md
