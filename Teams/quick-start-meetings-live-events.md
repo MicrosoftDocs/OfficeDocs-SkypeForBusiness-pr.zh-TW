@@ -14,16 +14,17 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b793eb5124a9105a718accc5767493aa9c35fbc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 22626e14a9c6c6187949e5e770b2cdd22c20027b
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031629"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130624"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 中的會議和即時活動
 
@@ -46,7 +47,7 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。請使用此文�
 
 > <sup>1</sup> 會議召集人必須擁有[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，才能傳送內含撥入式會議的邀請。
 >
-> <sup>2</sup> 若是撥出至 [**撥打** 這支電話給我](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或 [音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 [撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。
+> <sup>2</sup> 若是撥出至 [**撥打** 這支電話給我](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或 [音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。[撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。
 
 若要深入了解授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 

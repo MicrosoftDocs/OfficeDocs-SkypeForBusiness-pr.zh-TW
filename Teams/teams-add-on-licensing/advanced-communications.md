@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6502f73d39c61eaa933d126cebb71f3123bdd541
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031209"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130384"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft 團隊的高級通訊附加元件
 
@@ -35,8 +35,8 @@ ms.locfileid: "49031209"
 [高級通訊] 提供加強的通話與會議功能，可滿足一系列的溝通需求，包括下列各項：
 
 - **吸引更** 多的物件：協助您的使用者與即時事件保持聯繫，以供1000參與者使用，且20000最多可在僅供查看的會議體驗中提供最多20000參與者的功能。
-- 針對您的內部與自訂案例，在會議中 **調整及自訂會議** ，包括自訂品牌會議大廳等功能。 在您組織的各個部門中，都能靈活地執行。 
-- **管理您的組織溝通** ：監視、追蹤及分析使用者和裝置上的資料，以確保順暢的體驗。
+- 針對您的內部與自訂案例，在會議中 **調整及自訂會議**，包括自訂品牌會議大廳等功能。 在您組織的各個部門中，都能靈活地執行。 
+- **管理您的組織溝通**：監視、追蹤及分析使用者和裝置上的資料，以確保順暢的體驗。
 
 在所有 Microsoft 365 市場中，都提供高級通訊，作為任何付費 Microsoft 365 或 Office 365 訂閱的附加元件。 [高級通訊] 中包含的功能不會新增至其他 Microsoft 365 或 Office 365 方案，也不能另行購買。 若要取得這些功能，您必須購買附加元件。
 
@@ -75,7 +75,7 @@ ms.locfileid: "49031209"
 > 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
 
 > [!NOTE]
-> 企業版和教育版 Sku 可以暫時保留最多20000個出席者的即時活動，每個廣播的事件持續時間為16小時，而在租使用者中為50個併發事件，直到2020年10月1日為止。
+> 企業版和教育版 Sku 可以暫時保留最多20000個出席者的即時事件，每個廣播的事件持續時間為16小時，50而租使用者的併發事件則是在2021年1月1日為止。
 
 ## <a name="related-topics"></a>相關主題
 

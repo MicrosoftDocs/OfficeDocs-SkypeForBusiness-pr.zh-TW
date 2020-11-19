@@ -1,31 +1,16 @@
 ---
-title: 什麼是 Microsoft 團隊即時事件？
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: 瞭解即時事件如何讓使用者將影片和內容廣播至小組、Yammer 和串流中的大型線上物件。
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085557"
+標題：什麼是 Microsoft 團隊即時事件？作者： lanachin ms. 作者： v-lanac manager： serdars 毫秒。主題：概念性 ms. 服務： msteams ms. 集合： 
+  - M365-共同作業
+  - m365initiative-會議
+  - m365solution-spcomms
+- m365solution-案例： sonua 物件： [管理員搜尋]。 appverid： MET150 描述：瞭解即時事件如何讓使用者在團隊、Yammer 和串流中廣播影片和內容給大型線上物件。
+f1。關鍵字： 
+- CSH ms. 自訂：
+  - teamsadmincenter helparticle. liveevents
+  - teamsadmincenter （liveevents） appliesto： 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件
 
 ## <a name="overview"></a>概觀

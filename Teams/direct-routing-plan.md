@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 至 Microsoft Phone System。
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030699"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130634"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -235,6 +235,8 @@ Fqdn （sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.
 
 您必須在防火牆中開啟所有這些 IP 位址的埠，以允許傳入及傳出流量進出位址來傳送信號。  如果您的防火牆支援 DNS 名稱，FQDN **sip-all.pstnhub.microsoft.com** 會解析為所有這些 IP 位址。 
 
+> [!IMPORTANT]
+>  隨著團隊直接佈線延伸及服務改進的一部分，我們已在澳大利亞中部署了直接路由基礎結構的新實例。 這會在兩個額外的 IP 位址中反映， (52.114.16.74 和 52.114.20.29) 將針對澳大利亞客戶（sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com）解析下列 Fqdn。 您必須將這兩個 IP 位址 (52.114.16.74 和 52.114.20.29) 新增到您的 IP 存取控制清單中，才能在防火牆中的所有這些 IP 位址 (Acl) 及開啟埠，以允許傳入和傳出流量進出位址以進行信令。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 和 DoD 環境
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何使用通話品質儀表板 Power BI 報表來查看自動語音應答及呼叫佇列中的記錄資料。
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085577"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130424"
 ---
 # <a name="what-are-the-requirements"></a>需求為何？ 
 您必須已安裝 Power BI 桌面。 您可以從 [Microsoft Windows 網上商店](https://aka.ms/pbidesktopstore)安裝它。
@@ -43,21 +43,27 @@ ms.locfileid: "49085577"
 
 請執行下列步驟：
 - 下載 [CQD 小組自動語音應答 & 通話佇列中記錄報告範本](https://aka.ms/TAPAACQAnalytics) ，並將其儲存到電腦上的目錄。
+
 - 按兩下範本，然後啟動 Power BI 桌面。
+
 - 系統會提示您選取 CQD 資料管線區域。 選取租使用者所在的地區。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
 
  - 您可以使用商務用 Skype Online Cmdlet (CsTenant) 來查看地區。ServiceInstance 輸出。 
- 該區域將會顯示在此範例中的/贊後： microsoftcommunicationsonline/noam-4a-s7，其中區域是 noam。
+ 該區域將會顯示在此範例中的/贊後： 
+ 
+   microsoftcommunicationsonline/noam-4a-s7，其中區域是 noam。
+   
  - 報告將會啟動並提供範例資料。
+ 
  - 若要查看您自己的資料， **請按一下 [** 常用] 索引標籤中 [Power BI 桌面查詢] 底下的 [重新整理]
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
 
 - 接著系統會提示您登入。 選取 [ **組織帳戶** ]，然後選取 [登 **入**]。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
 
 - 選取 **[** 連線並查看資料重新整理]。
 
@@ -77,11 +83,11 @@ ms.locfileid: "49085577"
 請執行下列步驟：
 - 選取功能區上的 [ **視圖]** 索引標籤。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
 
 - 從下拉式清單中選取 [色彩模式]。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 欄位描述
@@ -176,4 +182,5 @@ ms.locfileid: "49085577"
 
 ## <a name="known-issues"></a>已知問題
 - 目前，通話佇列和自動語音應答會顯示資源帳戶識別碼，而不是通話佇列/自動助理名稱。  若要顯示自動語音應答或通話佇列的所有流量，您必須選取指派給自動語音應答或通話佇列的所有資源帳戶。
+
 - 目前，儀表板中僅有28天的歷史記錄，因為呼叫佇列/自動語音應答資料被視為使用者身分識別的資訊，且受到資料隱私權保留原則的制約。

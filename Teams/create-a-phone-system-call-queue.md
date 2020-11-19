@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中設定電話聯絡佇列，提供問候語、等候音樂、呼叫重新導向及其他功能。
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089318"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135943"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -156,7 +156,7 @@ ms.locfileid: "49089318"
 
 ## <a name="supported-clients"></a>支援的用戶端
 
-- 通話佇列中的呼叫代理程式支援下列用戶端：
+通話佇列中的呼叫代理程式支援下列用戶端：
 
   - 商務用 Skype desktop 用戶端 2016 (32 位與64位版本) 
   - Lync 桌面用戶端 2013 (32 位與64位版本) 

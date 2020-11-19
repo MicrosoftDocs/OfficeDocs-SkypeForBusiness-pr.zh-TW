@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- enabler-strategic
 description: 瞭解如何管理組織中保留的小組即時事件設定。
 f1.keywords:
 - CSH
@@ -20,18 +21,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f3731a43e16b7853a4370a61b848499383d51ffc
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030889"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130614"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件設定
 
 使用 [團隊即時事件] 設定來設定貴組織中的即時事件設定。 您可以設定支援 URL，並設定協力廠商的影片發佈提供者。 這些設定適用于您組織中建立的所有即時事件。
 
-您可以在 Microsoft 團隊系統管理中心輕鬆管理這些設定。 在左側導覽中，移至 [ **會議**  >  **即時事件] 設定** 。
+您可以在 Microsoft 團隊系統管理中心輕鬆管理這些設定。 在左側導覽中，移至 [**會議**  >  **即時事件] 設定**。
 
 ![小組 [即時事件] 設定的螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在 Microsoft 團隊系統管理中心設定的小組即時事件設定的螢幕擷取畫面")
 
@@ -41,8 +42,8 @@ ms.locfileid: "49030889"
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中，移至 [ **會議**  >  **即時事件設定** ]。
-2. 在 [ **支援 url** ] 底下，輸入您組織的支援 url。
+1. 在左側導覽中，移至 [**會議**  >  **即時事件設定**]。
+2. 在 [ **支援 url**] 底下，輸入您組織的支援 url。
 
     ![系統管理中心的即時事件支援 URL 設定](../media/teams-live-events-settings-supporturl.png "小組即時事件之支援 URL 設定的螢幕擷取畫面")
 
@@ -60,8 +61,8 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中，移至 [ **會議**  >  **即時事件設定** ]。
-2. 在 **協力廠商的 [視頻發佈提供者** ] 下，完成下列動作： 
+1. 在左側導覽中，移至 [**會議**  >  **即時事件設定**]。
+2. 在 **協力廠商的 [視頻發佈提供者**] 下，完成下列動作： 
 
     ![系統管理中心中的協力廠商影片發佈提供者設定](../media/teams-live-events-settings-distribution-provider.png "即時事件之協力廠商影片發佈提供者設定的螢幕擷取畫面")
 
