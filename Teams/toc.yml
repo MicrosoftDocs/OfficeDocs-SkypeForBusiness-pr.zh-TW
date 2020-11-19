@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: 通話佇列設定
               href: create-a-phone-system-call-queue.md
-            - name: 小型企業範例 - 設定自動語音應答
-              href: tutorial-org-aa.yml
-            - name: 小型企業範例 - 設定通話佇列
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: 管理 Teams 資源帳戶
               href: manage-resource-accounts.md
             - name: 設定假日
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: 移植電話號碼
           href: business-voice/port-phone-numbers.md
-        - name: 設定自動語音應答
-          href: business-voice/set-up-auto-attendants.md
         - name: 設定通話原則
           href: business-voice/set-up-policies.md
         - name: 管理原則套件
           href: business-voice/policy-packages.md
         - name: 建立其他使用者
           href: business-voice/create-users.md
+        - name: 範例-設定通話佇列
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 設定通話佇列
           href: business-voice/set-up-call-queues.md
+        - name: 範例-設定自動語音應答
+          href: tutorial-org-aa.yml
+        - name: 設定自動語音應答
+          href: business-voice/set-up-auto-attendants.md
     - name: 管理您的設定
       items:
         - name: 建立一或多個使用者
