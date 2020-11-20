@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（適用于瓜地馬拉）。
-ms.openlocfilehash: c86ffbaf3c8d3f01f691a05c2591423f8e9d5701
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 1963d5e2df5f9e75dc1ba520293e6965f6ee5197
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877993"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349139"
 ---
 # <a name="availability-in-guatemala"></a>在瓜地馬拉中的可用性
 
@@ -41,19 +41,19 @@ ms.locfileid: "44877993"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是。 僅限每分鐘支付。  <br/> |
+|音訊會議是否可供購買？  <br/> |是的。 僅限每分鐘支付。  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> | 否 |
 |使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊點數 <br/> |
-   
+
 ## <a name="phone-system"></a>電話系統
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-|自動語音應答 <br/> |有空  <br/> |
-|通話佇列  <br/> |有空  <br/> |
+|自動語音應答 <br/> |可用  <br/> |
+|通話佇列  <br/> |可用  <br/> |
 |語音信箱  <br/> |可用  <br/> |
-   
+
 ## <a name="calling-plans"></a>通話方案
 
 |**功能**|**詳細資料**|
@@ -63,23 +63,23 @@ ms.locfileid: "44877993"
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
 如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
-   
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | Cuidad de<br/> |
-|有提供付費電話號碼嗎？  <br/> |是（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|有提供付費電話號碼嗎？  <br/> |[要求]) [的](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) [是] ( <br/> 只能從國家/地區記憶體取付費電話號碼。|
 |免費提供免付費電話號碼嗎？  <br/> |否  <br/> |
-   
- 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在[商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+
+ 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在 [商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |可使用通訊點數嗎？  <br/> |是  <br/> |
-   
+
 如果您想要設定通訊點數，請參閱[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
@@ -87,4 +87,3 @@ ms.locfileid: "44877993"
 [取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

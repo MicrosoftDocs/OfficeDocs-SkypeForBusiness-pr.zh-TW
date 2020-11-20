@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 53a4fca44e63f76875205726b4d145b815b9ee9c
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031259"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350635"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -40,17 +40,17 @@ ms.locfileid: "49031259"
 
 若要確保最佳的使用者體驗，請遵循本文中的指導方針。
 
- > [!Note]
+> [!Note]
 > 如需有關不同平臺上的團隊 VDI 的詳細資訊，請參閱 [依平臺的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="teams-on-vdi-components"></a>VDI 元件上的小組
 
 在虛擬化環境中使用團隊需要下列元件。
 
-- **虛擬化 broker** ：虛擬化提供者的資源和連線管理員（例如 Azure）
-- **虛擬桌面** ：執行 Microsoft 團隊 (VM) 堆疊的虛擬機器
-- **瘦用戶端** ：使用者使用物理介面的端點
-- **團隊桌面應用程式** ：團隊桌面用戶端應用程式
+- **虛擬化 broker**：虛擬化提供者的資源和連線管理員（例如 Azure）
+- **虛擬桌面**：執行 Microsoft 團隊 (VM) 堆疊的虛擬機器
+- **瘦用戶端**：使用者使用物理介面的端點
+- **團隊桌面應用程式**：團隊桌面用戶端應用程式
 
 ## <a name="teams-on-vdi-requirements"></a>針對 VDI 需求的小組
 
@@ -161,8 +161,11 @@ VMware 範圍是一個現代平臺，可在混合式雲端上安全地傳送虛�
 
 1. 使用下列其中一個連結，下載與您的 VDI VM 作業系統相符的團隊 MSI 套件：
 
-    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
-    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
+    - [32位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
+    > [!NOTE]
+    > 若為政府群，請參閱 [使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊](msi-deployment.md) ，以取得 MSI 檔案的下載連結。
 
     所需的小組桌面應用程式最低版本為版本1.3.00.4461。 舊版中不支援 (PSTN 保留。 ) 
 
@@ -260,11 +263,11 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 
 若要將 DisallowCalling 通話原則和 AllOff 會議原則指派給使用者：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者** ]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者**]。
 2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]。
 3. 請執行下列動作：
-    1.  按一下 [ **呼叫原則** ] 底下的 [ **DisallowCalling** ]。
-    2.  按一下 [ **會議原則** ] 底下的 [ **AllOff** ]。
+    1.  按一下 [ **呼叫原則**] 底下的 [ **DisallowCalling**]。
+    2.  按一下 [ **會議原則**] 底下的 [ **AllOff**]。
 4. 按一下 **[** 套用]。
 
 若要一次將原則指派給多位使用者：
@@ -276,11 +279,11 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
-    - 移至 [ **語音**  >  **通話原則** ]，然後按一下 [ **DisallowCalling** ]。
-    - 移至 [ **會議**  >  **會議原則** ]，然後按一下 [ **AllOff** ]。
+    - 移至 [**語音**  >  **通話原則**]，然後按一下 [ **DisallowCalling**]。
+    - 移至 [**會議**  >  **會議原則**]，然後按一下 [ **AllOff**]。
 2. 選取 [管理使用者]。
 3. 在 [管理使用者] 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]。 針對要新增的每一個使用者重複此步驟。
-4. 完成新增使用者後，請按一下 [ **儲存** ]。
+4. 完成新增使用者後，請按一下 [ **儲存**]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
 
@@ -316,11 +319,11 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 若要將 AllowCalling 通話原則和 AllOn 會議原則指派給使用者：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者** ]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **使用者**]。
 2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]。
 3. 請執行下列動作：
-    1.  按一下 [ **呼叫原則** ] 底下的 [ **AllowCalling** ]。
-    2.  按一下 [ **會議原則** ] 底下的 [ **AllOn** ]。
+    1.  按一下 [ **呼叫原則**] 底下的 [ **AllowCalling**]。
+    2.  按一下 [ **會議原則**] 底下的 [ **AllOn**]。
 4. 按一下 **[** 套用]。
 
 若要一次將原則指派給多位使用者：
@@ -332,11 +335,11 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
-    - 移至 [ **語音**  >  **通話原則** ]，然後按一下 [ **AllowCalling** ]。
-    - 移至 [ **會議**  >  **會議原則** ]，然後按一下 [ **AllOn** ]。
+    - 移至 [**語音**  >  **通話原則**]，然後按一下 [ **AllowCalling**]。
+    - 移至 [**會議**  >  **會議原則**]，然後按一下 [ **AllOn**]。
 2. 選取 [管理使用者]。
 3. 在 [管理使用者] 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]。 針對要新增的每一個使用者重複此步驟。
-4. 完成新增使用者後，請按一下 [ **儲存** ]。
+4. 完成新增使用者後，請按一下 [ **儲存**]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
 
@@ -363,7 +366,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-若要停用回退模式，請將此值設定為 **1** 。 若要只啟用音訊，請將此值設定為 **2** 。 如果該值不存在，或設定為 **0** (零) ，即表示已啟用回退模式。
+若要停用回退模式，請將此值設定為 **1**。 若要只啟用音訊，請將此值設定為 **2**。 如果該值不存在，或設定為 **0** (零) ，即表示已啟用回退模式。
 
 [團隊版本 1.3.00.13565] 和 [更新版本] 中提供此功能。
 
@@ -400,6 +403,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 在會議或群組通話中只支援單一傳入的視頻資料流程。 當多人傳送影片時，任何指定時間只會顯示主要喇叭的影片。
 - 內送和外寄的視頻資料流程解析度限制為720p 解析度。 這是 WebRTC 的限制。
 - 只支援來自內送相機或畫面共用資料流程的一個影片串流。 當有傳入螢幕共用時，會顯示該螢幕共用，而不是主要喇叭的影片。
+- 如果裝置已中斷連線，然後重新連接，小組就不會切換成使用使用者選取的最後一個音訊裝置。
 - 外寄螢幕共用：
     - 不支援應用程式共用。
 - 授與控制權並加以控制：

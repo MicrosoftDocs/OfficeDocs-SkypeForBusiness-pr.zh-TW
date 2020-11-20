@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft 團隊設定您的虛擬走訪系統
-ms.openlocfilehash: ed952f678fb353ae623a0020ac565ee4e8288445
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 808d957cd86273852e7c2c98ec223b1988e5bd0d
+ms.sourcegitcommit: cbf87fc914a19088af8ec08fb0976db9f838a45d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790455"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49355963"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>與團隊整合的虛擬走訪融入 EHR
 
@@ -91,7 +91,7 @@ Microsoft 團隊電子健康情況記錄 (EHR) 連接器可讓臨床醫師輕鬆
 
 若要完成此步驟，Microsoft 365 管理員必須從您的 Microsoft 365 系統管理員 () FHIR 基本 URL，以及將核准設定的長篇故事管理員的使用者名稱。 Microsoft 365 管理員必須啟動連接器設定頁面，並以 Microsoft 認證登入，以開始設定程式。
 
-- FHIR 基底 URL 是與您的伺服器 FHIR API 端點相對應的靜態位址。 範例 URL 是 [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST) 。
+- FHIR 基底 URL 是與您的伺服器 FHIR API 端點相對應的靜態位址。 範例 URL 是 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` 。
 
 - [設定核准者名稱] 是將負責核准設定的長篇故事系統管理員名稱。
 
