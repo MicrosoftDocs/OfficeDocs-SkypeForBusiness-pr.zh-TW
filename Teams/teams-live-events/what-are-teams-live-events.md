@@ -1,16 +1,33 @@
 ---
-標題：什麼是 Microsoft 團隊即時事件？作者： lanachin ms. 作者： v-lanac manager： serdars 毫秒。主題：概念性 ms. 服務： msteams ms. 集合： 
-  - M365-共同作業
-  - m365initiative-會議
-  - m365solution-spcomms
-- m365solution-案例： sonua 物件： [管理員搜尋]。 appverid： MET150 描述：瞭解即時事件如何讓使用者在團隊、Yammer 和串流中廣播影片和內容給大型線上物件。
-f1。關鍵字： 
-- CSH ms. 自訂：
-  - teamsadmincenter helparticle. liveevents
-  - teamsadmincenter （liveevents） appliesto： 
-  - Microsoft Teams
+title: 什麼是 Microsoft 團隊即時事件？
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: 瞭解即時事件如何讓使用者將影片和內容廣播至小組、Yammer 和串流中的大型線上物件。
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373469"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件
 
 ## <a name="overview"></a>概觀
@@ -50,14 +67,12 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的層級。 
 
 - **團隊**：此生產方法可讓使用者使用其網路攝影機在團隊中產生即時事件，或使用來自團隊室系統的/V 輸入。 如果您想要使用連線到電腦的音訊和視頻裝置，或邀請遠端簡報者參與事件，此選項是最佳且最快速的選項。 這個選項可讓使用者輕鬆地使用網路攝像機，並在事件中共用其螢幕作為輸入。
 
-    ![使用「快速入門」方法產生的即時事件](../media/teams-live-events-quick-start.png "螢幕擷取畫面顯示使用「快速入門」製作方法所產生的即時事件")
-
 - **外部 app 或裝置**：外部編碼器可讓使用者直接從含 [資料流程](https://stream.microsoft.com)的外部硬體或軟體編碼器產生即時事件。 如果您已經擁有錄音室品質的裝置，此選項就是最佳做法 (例如，媒體 mixers) 可支援資料流程到即時訊息通訊協定 (RTMP) service。 這種類型的生產通常用在大規模事件（例如 executive 城鎮 halls）中，其中單一資料流程從媒體混音器廣播給物件。
 
     ![使用外部 app 或裝置產生的即時事件](../media/teams-live-events-external-encoder.png "螢幕擷取畫面顯示使用外部 app 或裝置生產方法所產生的即時事件")
 
 >[!Note]
-> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
+> 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶對新會議錄製使用商務用 OneDrive 和 SharePoint。
 
 ### <a name="streaming-platform"></a>流式平臺
 
