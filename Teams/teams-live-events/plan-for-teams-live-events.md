@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
+ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130584"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49372247"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -143,7 +143,7 @@ ms.locfileid: "49130584"
 |對象人氣分析 - 即時投票與票選 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
 <sup>1</sup> 設定的限制可能會變更。查看 [Teams 的限制和規格](../limits-specifications-teams.md)。<br/>
-<sup>2</sup> 您最多可以在即時活動中擁有 250 位簡報者和製作人，但只會在清單中顯示最後 10 位發言者。
+<sup>2</sup> 您最多可以在即時活動中擁有 100 位簡報者和製作人，但只會在清單中顯示最後 10 位發言者。
 
 ## <a name="regional-availability"></a>區域可用性
 
