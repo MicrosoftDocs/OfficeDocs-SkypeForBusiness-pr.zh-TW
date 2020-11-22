@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
-description: 了解新式驗證如何運作、如何切換帳戶，以及如何疑難排解新式驗證。 包含如何在登入時告訴 Teams 忽略預先填入的使用者名稱 (UPN)。
+description: 了解新式驗證如何運作、如何切換帳戶，以及如何疑難排解新式驗證。包含如何在登入時告訴 Teams 忽略預先填入的使用者名稱 (UPN)。
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
@@ -17,24 +17,25 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
-ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350565"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376016"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 ==========================
 
 ## <a name="windows-users"></a>Windows 使用者
-Microsoft 建議組織使用最新版本的 Windows 10，內含有混合式網域加入或 Azure AD 加入設定。 使用最近的版本能確保在 Windows 網頁帳戶管理員中已將使用者的帳戶準備好，進而讓您以單一的方式登入 Teams 和其他 Microsoft 應用程式。 單一登入可提供更好的使用者體驗 (無訊息式登入) 和加強的安全性狀況。
 
-Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭解使用者如何登入 Teams，請閱讀[登入 Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
+Microsoft 建議組織使用最新版本的 Windows 10，內含有混合式網域加入或 Azure AD 加入設定。使用最近的版本能確保在 Windows 網頁帳戶管理員中已將使用者的帳戶準備好，進而讓您以單一的方式登入 Teams 和其他 Microsoft 應用程式。單一登入可提供更好的使用者體驗 (無訊息式登入) 和加強的安全性狀況。
+
+Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭解使用者如何登入 Teams，請閱讀[登入 Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
 ### <a name="how-modern-authentication-works"></a>新式驗證的運作方式
 
-新式驗證是一種程序。 可讓 Teams 知道使用者已經在別處輸入其認證 (例如，他們的工作電子郵件和密碼)，因此不需要再次輸入就能啟動應用程式。 這項體驗會根據幾項因素而有所不同，例如使用者是在 Windows 或在 Mac 上工作。 它也會根據您的組織啟用單要素驗證或多重要素驗證而有所不同。 多重要素驗證通常涉及透過手機驗證認證、提供唯一的代碼、輸入 PIN，或顯示指紋。 以下是每個新式驗證案例的摘要。
+新式驗證是一種程序，可讓 Teams 知道使用者已經在別處輸入其認證 (例如，他們的工作電子郵件和密碼)，因此不需要再次輸入就能啟動應用程式。這項體驗會根據幾項因素而有所不同，例如使用者是在 Windows 或在 Mac 上工作。它也會根據您的組織啟用單要素驗證或多重要素驗證而有所不同。多重要素驗證通常涉及透過手機驗證認證、提供唯一的代碼、輸入 PIN，或顯示指紋。
 
 使用 Teams 的每一個組織都能使用新式驗證。 如果使用者無法完成此程序，則表示貴組織的 Azure AD 設定可能有基礎問題。 如需詳細資訊，請參閱[為何我無法登入 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -57,7 +58,7 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
 
 ### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>完成新式驗證後登出 Teams
 
-若要登出 Teams，使用者可以按一下應用程式頂端的個人檔案圖片，然後選取 **[登出]**，也可以在其工作列中的應用程式圖示上按一下滑鼠右鍵，然後選取 **[登出]**。登出 Teams 之後，必須再次輸入認證，才能啟動應用程式。
+若要登出 Teams，使用者可以選取應用程式頂端的個人檔案圖片，然後選取 **[登出]**，也可以在其工作列中的應用程式圖示上按一下滑鼠右鍵，然後選取 **[登出]**。登出 Teams 之後，必須再次輸入認證，才能啟動應用程式。
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>在加入網域的電腦上登入另一個帳戶
 
@@ -121,7 +122,8 @@ Windows 和 MacOS 上的 Teams 應用程式可支援限制登入組織的裝置�
 >1. 原則只會限制登入。它不會限制使用者在其他 Azure AD 租用戶中受邀為來賓，或切換到其他租用戶。
 >2. 原則需要 Windows 版 Teams 版本 1.3.00.30866 或更新版本，以及 MacOS 版 Teams 版本 1.3.00.30882 (於 2020 年 11 月中發行)。
 
-**Windows 原則** 您可以在 Windows 登錄中手動設定金鑰：
+**Windows 原則** [下載中心](https://www.microsoft.com/download/details.aspx?id=49030)提供了系統管理範本檔案 (ADMX/ADML)。 此外，您可以在 Windows 登錄中手動設定金鑰：
+
 - 值名稱：RestrictTeamsSignInToAccountsFromTenantList
 - 值類型：字串
 - 值資料：租用戶識別碼或逗號分隔的租用戶識別碼清單
@@ -130,8 +132,6 @@ Windows 和 MacOS 上的 Teams 應用程式可支援限制登入組織的裝置�
  Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
 範例： SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 或 SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
-
-我們會在接下來的幾天更新這份文件，包含使用系統管理範本檔案 (ADMX/ADML) 的詳細資料。
 
 **MacOS 原則** 針對 MacOS 的受管理裝置，請使用 .plist 來部署登入限制。 設定檔是一個 .plist 檔案，由金鑰 (表示喜好設定的名稱) 所識別的項目所組成，後接一個值 (取決於喜好設定的性質)。 值可以為簡單 (例如數值) 或複雜 (例如喜好設定的巢狀清單)。
 
