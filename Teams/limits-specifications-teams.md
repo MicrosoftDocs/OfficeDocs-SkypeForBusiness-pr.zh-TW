@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
-ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
+ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
+ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349109"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420923"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -50,7 +50,7 @@ ms.locfileid: "49349109"
 
 <sup>1</sup> Azure Active Directory 中的任何目錄物件都會計入此限制。全域系統管理員會從此限制豁免，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式亦然。
 
-<sup>2</sup> 此限制包含已封存的小組。
+<sup>2</sup> 此限制包含已封存的小組。 若要超出 Microsoft 365 或 Office 365 組織可以擁有的最大小組數，必須與Microsoft 支援部門聯繫。
 
 <sup>3</sup> 已刪除的頻道可以在 30 天內還原。在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道或 30 個私人頻道的限制。30 天後，已刪除的頻道及其內容會永久刪除，且該頻道不再會計入每個小組頻道的限制。
 
