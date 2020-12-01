@@ -3,6 +3,19 @@
 
 
 
+## <a name="week-of-november-23-2020"></a>2020年11月23日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 11/23/2020 | [在通話品質儀表板中上傳租使用者並建立資料 (CQD) ](/MicrosoftTeams/cqd-upload-tenant-building-data) | 日期 |
+| 11/23/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
+| 11/23/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 11/25/2020 | [設定直接路由的 Ringback bot](/MicrosoftTeams/direct-routing-ringback-bot) | 日期 |
+| 11/25/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 11/25/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+
+
 ## <a name="week-of-november-16-2020"></a>2020年11月16日的周
 
 
@@ -316,52 +329,3 @@
 | 10/30/2020 | [自動語音應答和通話佇列撥號及語音辨識參考](/MicrosoftTeams/dial-voice-reference) | 日期 |
 | 10/30/2020 | 在 Microsoft 團隊中管理私人小組探索 | 移除 |
 | 10/30/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
-
-
-## <a name="week-of-october-19-2020"></a>2020年10月19日周
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 10/19/2020 | [針對中小型企業設定音訊會議](/MicrosoftTeams/audio-conferencing-smb) | 日期 |
-| 10/19/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 10/19/2020 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
-| 10/19/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
-| 10/19/2020 | [在 Microsoft [團隊管理中心] 中管理 Power Platform 應用程式](/MicrosoftTeams/manage-power-platform-apps) | 日期 |
-| 10/19/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 10/20/2020 | [Microsoft 團隊適用的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 日期 |
-| 10/20/2020 | [版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 日期 |
-| 10/21/2020 | [Exchange 與 Microsoft 團隊如何互動](/MicrosoftTeams/exchange-teams-interact) | 日期 |
-| 10/21/2020 | [Microsoft 365 和 Office 365 Url 與 IP 位址範圍](/MicrosoftTeams/office-365-urls-ip-address-ranges) | 日期 |
-| 10/21/2020 | [使用 Microsoft 團隊匯出 Api 匯出內容](/MicrosoftTeams/export-teams-content) | 日期 |
-| 10/21/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 10/21/2020 | [在 Microsoft 團隊的疑難排解中使用記錄檔](/MicrosoftTeams/log-files) | 日期 |
-| 10/21/2020 | [在 Microsoft [團隊管理中心] 中管理 Power Platform 應用程式](/MicrosoftTeams/manage-power-platform-apps) | 日期 |
-| 10/21/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
-| 10/21/2020 | [版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 日期 |
-| 10/21/2020 | [呼叫 & 會議的小組原則錄製簡介](/MicrosoftTeams/teams-recording-policy) | 日期 |
-| 10/21/2020 | [允許使用者直接傳送](/MicrosoftTeams/direct-routing-enable-users) | 日期 |
-| 10/21/2020 | [設定會話邊界控制器-多重承租人](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
-| 10/21/2020 | [在系統管理中心使用一般團隊範本](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 日期 |
-| 10/21/2020 | [在系統管理中心使用團隊政府範本](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 日期 |
-| 10/21/2020 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
-| 10/21/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
-| 10/21/2020 | [在 Microsoft Teams 中設定即時活動](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 日期 |
-| 10/22/2020 | [快速入門-適用于教育系統管理員的 Microsoft 團隊](/MicrosoftTeams/teams-quick-start-edu) | 日期 |
-| 10/22/2020 | [與商務用 Skype 共存](/MicrosoftTeams/coexistence-chat-calls-presence) | 日期 |
-| 10/22/2020 | [針對雲端語音工作負載評估您的環境](/MicrosoftTeams/3-envision-evaluate-my-environment) | 日期 |
-| 10/22/2020 | [Microsoft 團隊 app 許可權和考慮](/MicrosoftTeams/app-permissions) | 日期 |
-| 10/22/2020 | [在 Microsoft 團隊中指派小組擁有者和成員](/MicrosoftTeams/assign-roles-permissions) | 日期 |
-| 10/22/2020 | [建立變更管理策略](/MicrosoftTeams/change-management-strategy) | 日期 |
-| 10/22/2020 | [附贈外撥期間](/MicrosoftTeams/complimentary-dial-out-period) | 日期 |
-| 10/22/2020 | [快速入門手冊-設定通話方案](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | 日期 |
-| 10/22/2020 | [管理貴組織的設定](/MicrosoftTeams/enable-features-office-365) | 日期 |
-| 10/22/2020 | [系統管理員快速入門 - Microsoft Teams 中的會議和即時活動](/MicrosoftTeams/quick-start-meetings-live-events) | 日期 |
-| 10/22/2020 | [管理 Microsoft 團隊系統管理中心中的商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings) | 日期 |
-| 10/22/2020 | [呼叫 & 會議的小組原則錄製簡介](/MicrosoftTeams/teams-recording-policy) | 日期 |
-| 10/22/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 10/23/2020 | [規劃小組自動語音應答及呼叫佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 日期 |
-| 10/23/2020 | [在 Microsoft [團隊管理中心] 中管理 Microsoft Power Platform 應用程式](/MicrosoftTeams/manage-power-platform-apps) | 日期 |
-| 10/23/2020 | [管理 Microsoft 團隊系統管理中心中的商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings) | 日期 |
-| 10/23/2020 | [管理 Microsoft Teams Exploratory 體驗](/MicrosoftTeams/teams-exploratory) | 日期 |
-| 10/23/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |

@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816103"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477032"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
+
+## <a name="november-25-2020"></a>2020年11月25日
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>針對 Google Workspace 設定 Microsoft 團隊會議附加元件
+
+使用 Microsoft 團隊會議附加元件可讓 Google 行事曆使用者從 Google Workspace 直接排程並加入 Microsoft 團隊會議。 使用者將能夠存取團隊會議功能，包括影片和音訊會議、螢幕共用、會議聊天、數位白板等。 保持連線與組織，以便在公司、學校和生活中共同完成工作。
+
+您必須先由小組管理員啟用 Google Workspace 的 Microsoft 團隊會議附加元件，才能讓租使用者存取 app。 [深入了解](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)。
 
 ## <a name="october-28-2020"></a>2020年10月28日
 
@@ -55,7 +63,7 @@ Microsoft 團隊顯示的是一種由一體式專用團隊裝置組成的類別�
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>管理貴組織的商務用 Skype 設定
 
-您可以在 Microsoft 團隊系統管理中心為貴組織中的商務用 skype 使用者管理商務用 Skype 功能。 移至 **全組織的設定**  >  **商務用 Skype** 。 您可以從這裡管理 Skype 會議廣播、目前狀態及行動通知。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+您可以在 Microsoft 團隊系統管理中心為貴組織中的商務用 skype 使用者管理商務用 Skype 功能。 移至 **全組織的設定**  >  **商務用 Skype**。 您可以從這裡管理 Skype 會議廣播、目前狀態及行動通知。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
 
 ## <a name="october-16-2020"></a>2020年10月16日
 
@@ -67,7 +75,7 @@ Microsoft 團隊顯示的是一種由一體式專用團隊裝置組成的類別�
 
 ### <a name="custom-policy-packages"></a>自訂原則套件
 
-*此功能是私人預覽*
+*這項功能在私人預覽中*
 
 自訂原則套件可讓您將自己的一組原則與組織中相似角色的使用者捆綁。 新增您所需的原則類型和原則，建立您自己的原則套件。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)。
 
@@ -373,7 +381,7 @@ RealWear 的 Microsoft 團隊用戶端可讓第一線員工工作者使用 RealW
 
 ### <a name="tag-youre-it"></a>標記，您是
 
-建立標籤並將人員指派給他們，讓您可以 @mention 群組、角色、部門等。小組擁有者，請嘗試自行進行。 移至團隊，選取 [ **更多選項** ]  >  **管理標記** 。 [深入了解](../manage-tags.md)。
+建立標籤並將人員指派給他們，讓您可以 @mention 群組、角色、部門等。小組擁有者，請嘗試自行進行。 移至團隊，選取 [**更多選項**]  >  **管理標記**。 [深入了解](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020年3月30日
 

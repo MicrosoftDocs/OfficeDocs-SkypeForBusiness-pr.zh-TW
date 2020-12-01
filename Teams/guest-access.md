@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030279"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49476992"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
@@ -32,12 +32,14 @@ ms.locfileid: "49030279"
 
 來賓是不屬於員工、學生或組織成員的人員。 他們沒有貴組織的學校或公司帳戶。 例如，來賓可能包括有合作夥伴、廠商、供應商或顧問。 只要是不屬於貴組織成員的任何人都可以在 Teams 中新增為來賓。 這表示任何擁有商務帳戶的人 (也就是， (有 Outlook.com、Gmail.com 或其他) 人的 Azure Active Directory 帳戶) 或消費者電子郵件帳戶時，都可以使用團隊和頻道體驗，在小組中參與來賓。
 
-就像團隊管理員一樣，您可以 [控制來賓可以 (且無法) 在團隊中使用的功能](manage-guests.md)。 團隊中的來賓與其他 Microsoft 365 的相容性和審核保護功能所涵蓋，且可在 Azure AD 中進行管理。 來賓存取受到 Azure AD 和 Microsoft 365 或 Office 365 服務的限制。
+團隊中的來賓與其他 Microsoft 365 的相容性和審核保護功能所涵蓋，且可在 Azure AD 中進行管理。 來賓存取受到 Azure AD 和 Microsoft 365 或 Office 365 服務的限制。
 
 來賓體驗有刻意設計的限制。 如需訪客在小組中能及不能執行之動作的完整清單，請參閱 [比較小組成員和來賓的功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
 
 > [!IMPORTANT]
 > 對於共存的升級模式，來賓存取遵循 Teams 的全組織設定。 這項設定無法變更。
+
+若要設定來賓存取權，請參閱 [與團隊中的來賓共同](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)作業。 
 
 若要比較外部存取 (同盟) 和來賓存取 (並決定您應使用的方式)，請閱讀[在 Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
 
@@ -58,7 +60,7 @@ ms.locfileid: "49030279"
   在 Azure Active Directory 中擁有公司或學校帳戶的來賓使用者，可以接受邀請並直接進行驗證。 其他使用者傳送一次性傳遞程式碼，以驗證其身分識別 (需要) 的一次性 [密碼驗證](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) 。
 4. 接受邀請之後，來賓可以[參與小組和頻道](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)、接收及回應頻道訊息、[存取頻道中的檔案](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、參與交談、加入會議、在文件上共同作業等等。 
 
-在 Teams 中，系統會清楚地識別來賓。 來賓使用者的名稱包括標籤 **(來賓)** ，頻道包含一個圖示指出小組中有來賓。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。
+在 Teams 中，系統會清楚地識別來賓。 來賓使用者的名稱包括標籤 **(來賓)**，頻道包含一個圖示指出小組中有來賓。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。
   
 來賓隨時可以離開 Teams 內的小組。 如需詳細資訊，請參閱[如何離開小組？](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
