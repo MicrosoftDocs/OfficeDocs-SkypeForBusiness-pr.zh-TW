@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何使用 Microsoft Phone 系統 Direct 路由設定語音路由。
-ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: e87d7d04f9b2477d65e08f461ac3ff113b4d0e7c
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359409"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530990"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>設定直接路由的語音路由
 
@@ -70,7 +70,7 @@ SBCs 可以指定為 [作用中] 和 [備份]。 當設定為作用中的 SBC �
 
 ![顯示語音路由策略範例](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-在這兩個範例中，雖然語音路由是指派優先順序，但路由中的 SBCs 會以隨機順序嘗試。
+在這兩個範例中，雖然語音路由是指派優先順序，但路由中的 SBCs 會以隨機順序嘗試。 當兩個 SBC 在一個路由中設定時，必須在 SBC 或媒體之間路由的網路流量，因為可能會將傳輸的新邀請傳送到路由中的其他 SBC。
 
   > [!NOTE]
   > 除非使用者也有 Microsoft 通話方案授權，否則呼叫範例設定中的 [除了模式 + 1 425 XXX xx xx] 或 [+ 1 206 XXX xx xx] 以外的任何號碼。 如果使用者有通話方案授權，通話會根據 Microsoft 通話方案的原則自動傳送。 Microsoft 通話方案會自動套用為所有擁有 Microsoft 通話方案授權的使用者，而且不需要額外的呼叫路由設定。
@@ -110,7 +110,7 @@ SBCs 可以指定為 [作用中] 和 [備份]。 當設定為作用中的 SBC �
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>步驟1：建立「美國和加拿大」 PSTN 使用量
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **直式路由**]，然後按一下右上角的 [**管理 PSTN 使用方式記錄**]。
-2. 按一下 [**新增**]，輸入**美國和加拿大**，然後按一下 [套用 **]。**
+2. 按一下 [**新增**]，輸入 **美國和加拿大**，然後按一下 [套用 **]。**
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步驟2：在雷德蒙1、雷德蒙2及其他 + 1)  (建立三個語音路由
 
@@ -119,22 +119,22 @@ SBCs 可以指定為 [作用中] 和 [備份]。 當設定為作用中的 SBC �
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **直式路由**]，然後選取 [**語音路由**] 索引標籤。
 2. 按一下 [ **新增**]，然後輸入語音路線的名稱和描述。
 3. 設定優先順序，並指定撥打的號碼模式。
-4. 若要使用語音路由註冊 SBC，請在 [**半形登記] (選用) **中，按一下 [**新增 sbcs**]，選取您要登記的 SBCs，然後按一下 [套用 **]。**
-5. 若要新增 PSTN 使用記錄，請在 [ **PSTN 使用記錄] 底下 (選用) **，按一下 [ **新增 PSTN 使用量**]，選取您要新增的 PSTN 記錄， **然後按一下 [** 套用]。
-6. 按一下 [儲存]****。
+4. 若要使用語音路由註冊 SBC，請在 [**半形登記] (選用)** 中，按一下 [**新增 sbcs**]，選取您要登記的 SBCs，然後按一下 [套用 **]。**
+5. 若要新增 PSTN 使用記錄，請在 [ **PSTN 使用記錄] 底下 (選用)**，按一下 [ **新增 PSTN 使用量**]，選取您要新增的 PSTN 記錄， **然後按一下 [** 套用]。
+6. 按一下 [儲存]。
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>步驟3：建立名為「僅限美國」的語音路由策略，並將「美國和加拿大」 PSTN 使用方式新增至原則
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **語音路由策略**]，然後按一下 [**新增**]。
-2. **僅**以名稱輸入，並新增描述。
+2. **僅** 以名稱輸入，並新增描述。
 3. 在 [ **PSTN 使用記錄**] 底下，按一下 [**新增 PSTN 使用量**]，選取 [美國及加拿大] PSTN 使用方式記錄，然後按一下 [套用 **]。**
-4. 按一下 [儲存]****。
+4. 按一下 [儲存]。
 
 若要深入瞭解，請參閱 [管理語音路由策略](manage-voice-routing-policies.md)。
 
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>步驟4：將語音路由策略指派給名為 Spencer 低的使用者
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]，然後按一下該使用者。
 2. 按一下 [ **原則**]，然後在 [ **指派的原則**] 旁，按一下 [ **編輯**]。
 3. 在 [ **語音路由策略**] 底下，選取 [僅限美國] 原則，然後按一下 [ **儲存**]。
 
@@ -343,16 +343,16 @@ US Only
 #### <a name="step-1-create-the-international-pstn-usage"></a>步驟1：建立「國際」 PSTN 使用
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **直式路由**]，然後按一下右上角的 [**管理 PSTN 使用方式記錄**]。
-2. 按一下 [**新增**]，輸入**國際**，然後按一下 [套用 **]。**
+2. 按一下 [**新增**]，輸入 **國際**，然後按一下 [套用 **]。**
 
 #### <a name="step-2-create-the-international-voice-route"></a>步驟2：建立「國際」語音路由
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **直式路由**]，然後選取 [**語音路由**] 索引標籤。
 2. 按一下 [ **新增**]，輸入「國際」作為名稱，然後新增描述。
 3. 將 [優先順序] 設定為4，然後將 [撥入號碼] 模式設定為 [\d +]。
-4. 在 [SBCs 已登記] 底下** (選用) **，按一下 [**新增 SBCs**]，選取 [sbc2.contoso.biz 和 sbc5.contoso.biz]，然後按一下 [套用 **]。**
-5. 在 [ **PSTN 使用狀況記錄 (選用) **] 底下，按一下 [**新增 PSTN 使用量**]，選取「國際」 PSTN 使用記錄，然後按一下 [套用 **]。**
-6. 按一下 [儲存]****。
+4. 在 [SBCs 已登記] 底下 **(選用)**，按一下 [**新增 SBCs**]，選取 [sbc2.contoso.biz 和 sbc5.contoso.biz]，然後按一下 [套用 **]。**
+5. 在 [ **PSTN 使用狀況記錄 (選用)**] 底下，按一下 [**新增 PSTN 使用量**]，選取「國際」 PSTN 使用記錄，然後按一下 [套用 **]。**
+6. 按一下 [儲存]。
 
 #### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>步驟3：建立名為「無限制」的語音路由策略，並將「美國和加拿大」和「國際」 PSTN 用法新增至原則
 
@@ -368,13 +368,13 @@ US Only
 
     - 如果「國際」 PSTN 使用量在「美國和加拿大」之前，則對 + 1 425 XXX XX 的呼叫會路由至 sbc2.contoso.biz 和 sbc5.contoso.biz，成為路由邏輯的一部分。
 
-4. 按一下 [儲存]****。
+4. 按一下 [儲存]。
 
 若要深入瞭解，請參閱 [管理語音路由策略](manage-voice-routing-policies.md)。
 
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-john-woods"></a>步驟4：將語音路由策略指派給名為 John 的使用者
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]，然後按一下該使用者。
 2. 按一下 [ **原則**]，然後在 [ **指派的原則**] 旁，按一下 [ **編輯**]。
 3. 在 [ **語音路由策略**] 底下，選取 [無限制] 原則，然後按一下 [ **儲存**]。
 

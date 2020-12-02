@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: 如何推出 Teams
   href: How-to-roll-out-teams.md
-- name: 快速入門
+- name: 入門
   items:
     - name: 概觀
       href: get-started-with-teams-quick-start.md
@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: 使用 Teams 範本
       items:
-        - name: 在系統管理中心中使用 Teams 範本
+        - name: 使用系統管理中心的團隊範本
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: 為中小型企業建立 Graph 的 Teams 範本
           href: smb-templates.md
@@ -322,7 +322,7 @@
       href: emails-sent-to-users-when-their-settings-change-in-teams.md
     - name: 讓使用者在加入會議時記錄他們的名稱
       href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-    - name: 開啟或關閉進入和結束會議的宣告
+    - name: 開啟或關閉進入和結束會議的公告
       href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
     - name: 在 Teams 中使用 NDI®技術
       href: use-NDI-in-meetings.md
@@ -364,6 +364,8 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: 試用或購買 Microsoft 365 的音訊會議
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: 適用於美國和加拿大的延長撥出通話分鐘
+          href: dial-out-minutes-canada-us.md
         - name: 音訊會議附贈外撥期間
           href: complimentary-dial-out-period.md
         - name: 音訊會議訂用帳戶的「外撥」/「用下列電話號碼連絡我」優惠
@@ -418,7 +420,7 @@
           items:
             - name: 從會議撥出以使其他人加入會議
               href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-            - name: 開啟或關閉進入和結束會議的宣告
+            - name: 開啟或關閉進入和結束會議的公告
               href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
             - name: 設定音訊會議的 PIN 碼長度
               href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
@@ -434,7 +436,7 @@
               href: audio-conferencing-supported-languages.md
             - name: 音訊會議的電話號碼
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 音訊會議的國家/地區
+            - name: 音訊會議的國家及地區區域
               href: audio-conferencing-zones.md
             - name: 影片：Teams 的音訊會議
               href: audio-conferencing-videos.md
@@ -502,7 +504,7 @@
               href: aa-cq-cqd-historical-reports.md
             - name: 撥號和語音參考
               href: dial-voice-reference.md
-            - name: 報告
+            - name: Reporting
               href: aa-cq-cqd-historical-reports.md
         - name: 封鎖撥入通話
           href: block-inbound-calls.md
@@ -522,8 +524,6 @@
           href: calling-plan-landing-page.md
         - name: 如何購買通話方案
           href: calling-plans-for-office-365.md
-        - name: 適用於美國和加拿大的延長撥出通話分鐘
-          href: dial-out-minutes-canada-us.md
         - name: 設定貴組織的通話方案
           href: set-up-calling-plans.md
         - name: 快速入門手冊：設定通話方案
@@ -860,7 +860,7 @@
           items:
             - name: 什麼是通訊點數？
               href: what-are-communications-credits.md
-            - name: 設定貴組織的通訊點數
+            - name: 設定組織的通訊點數
               href: set-up-communications-credits-for-your-organization.md
             - name: 加值和管理通訊點數
               href: add-funds-and-manage-communications-credits.md
@@ -875,7 +875,7 @@
   items:
     - name: 概觀
       href: adopt-microsoft-teams-landing-page.md
-    - name: 快速入門
+    - name: 入門
       href: teams-adoption-get-started.md
     - name: 階段 1 - 開始使用
       items:
@@ -915,7 +915,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: 升級至 Teams
   items:
-    - name: 快速入門
+    - name: 入門
       href: upgrade-start-here.md
     - name: 關於升級架構
       href: upgrade-framework.md
@@ -1102,31 +1102,31 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 適用於醫療保健的 Teams
       items:
-        - name: 開始使用適用於醫療保健組織的 Teams
+        - name: 立即開始使用醫療保健組織的團隊
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: 虛擬就診
           items:
-            - name: 使用 Teams 虛擬 - 融入 EHR
+            - name: 與小組的虛擬走訪-整合到 EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 使用 Bookings 和 Teams 進行虛擬就診
+            - name: 透過預約和小組進行虛擬走訪
               href: bookings-app-admin.md
-        - name: 檢視並指派原則套件
+        - name: 查看並指派原則套件
           href: policy-packages-healthcare.md
-        - name: 保護訊息的安全
+        - name: 安全通訊
           items:
-            - name: 保護訊息的安全
+            - name: 安全通訊
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: 訊息委派
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams 範本
+        - name: 小組範本
           items:
-            - name: 使用 Teams 醫療保健範本
+            - name: 使用團隊醫療保健範本
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 適用於醫療保健的 Teams 範本
+            - name: 醫療保健的小組範本
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
         - name: '管理 [清單] 應用程式'
           href: manage-lists-app.md
-        - name: '管理 [工作] 應用程式'
+        - name: 管理工作應用程式
           href: manage-tasks-app.md
         - name: Teams 中的 Shifts
           items:
@@ -1169,7 +1169,7 @@
           href: firstline-workers-quickstart.yml
         - name: 第一線員工編寫指令碼部署
           href: flw-scripted-deployment.md
-        - name: 為第一線員工管理以班次為基礎的存取
+        - name: 管理 FirstLine 工作者的倒班式存取
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: 適用於 Microsoft Teams 的 RealWear
           href: flw-realwear.md
@@ -1180,7 +1180,7 @@
     - name: 適用於零售業的 Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 在系統管理中心中開始使用適用於零售業的 Teams 範本
+        - name: 開始使用系統管理中心的零售團隊範本
           href: retail-teams-templates-in-the-admin-console.md
         - name: 開始使用適用於零售業的 Teams 範本
           href: get-started-with-retail-teams-templates.md
@@ -1418,9 +1418,9 @@
           items:
             - name: 設定 Exchange 混合式組織以搭配 Teams 使用
               href: exchange-hybrid-organization.md
-            - name: 使用 Exchange 的郵件流程規則
+            - name: 搭配 Exchange 使用郵件流程規則
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
-        - name: 'SharePoint Online 和 [商務用 OneDrive] 如何與 Teams 互動'
+        - name: SharePoint Online 和商務用 OneDrive 如何與 Teams 互動
           href: sharepoint-onedrive-interact.md
         - name: 在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗
           href: teams-experience-o365odb-spo-multi-geo.md
@@ -1434,11 +1434,11 @@
           href: devices/manage-device-tags.md
         - name: Teams 的電話
           href: devices/phones-for-teams.md
-        - name: Teams 顯示器
+        - name: 小組會顯示
           href: devices/teams-displays.md
-        - name: 更新 Teams 電話至 Teams 顯示器
+        - name: 將小組電話升級至小組顯示
           href: devices/upgrade-phones-to-displays.md
-        - name: 使用 Intune 部署 Teams 電話與 Teams 顯示器
+        - name: 部署小組電話和小組顯示使用 Intune
           href: devices/phones-displays-deploy.md
         - name: USB 音訊和視訊裝置
           href: devices/usb-devices.md
@@ -1460,7 +1460,7 @@
           href: teams-powershell-managing-teams.md
         - name: Teams PowerShell 版本資訊
           href: teams-powershell-release-notes.md
-        - name: 自商務用 Skype Online 連接器移至 Teams PowerShell 模組
+        - name: 從商務用 Skype Online 連接器移至小組 PowerShell 模組
           href: teams-powershell-move-from-sfbo.md
         - name: Teams 的 Cmdlet 參考
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1720,5 +1720,5 @@
       href: export-teams-content.md
     - name: Teams 系統管理員功能的版本資訊
       href: release-notes/release-notes.md
-    - name: Microsoft Teams 中的公開預覽
+    - name: Microsoft 小組中的公開預覽
       href: public-preview-doc-updates.md
