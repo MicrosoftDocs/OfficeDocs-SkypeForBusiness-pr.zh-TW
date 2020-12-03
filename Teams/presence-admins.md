@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385640"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557947"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -78,6 +78,9 @@ App 設定的目前狀態是以使用者活動 (提供，離開) ，Outlook 行�
 | 請勿打擾|1天|
 | 公司|7天|
 |||
+
+> [!NOTE]
+> 使用者也可以針對她的目前狀態，手動設定持續時間。 例如，使用者可以在明天早上將自己設為離線顯示。
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>比較商務用 Skype 與 Teams 中的管理設定
 

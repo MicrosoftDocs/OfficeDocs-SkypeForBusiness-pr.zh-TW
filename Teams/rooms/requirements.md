@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援 Microsoft 團隊聊天室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a77558feb7ffaeb330750c60e0f47e619823726a
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655470"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557957"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -103,6 +103,7 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
 
 |Microsoft Teams 會議室週邊設備|認證的韌體版本 | 相機支援內容相機使用|
 |:--- |:--- | :--- |
+|[Aver VC520 Pro 相機 + 免提](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VB342 + 攝影機 Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
 |[Aver 凸輪540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver 凸輪 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |

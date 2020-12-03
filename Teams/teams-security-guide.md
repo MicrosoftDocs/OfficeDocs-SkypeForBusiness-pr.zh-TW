@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486798"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530970"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams 在設計和開發時就符合 Microsoft 高可信度電腦運算安全性
 
 ## <a name="trustworthy-by-default"></a>透過預設而值得信賴
 
-Teams 中的網路通訊預設會進行加密。 藉由要求所有伺服器使用憑證，並藉由使用 OAUTH、TLS、安全即時傳輸通訊協定 (SRTP) 和其他業界標準加密技術 (包括 256 位元進階加密標準 (AES) 加密)，Teams 在網路上的所有資料都會受到保護。
+Teams 中的網路通訊預設會進行加密。 透過要求所有伺服器使用憑證，並使用 OAUTH、TLS、安全即時傳輸通訊協定 (SRTP)，所有的 Teams 資料都會在網路上受到保護。
 
 ## <a name="how-teams-handles-common-security-threats"></a>Teams 如何處理常見的安全性威脅
 
@@ -136,11 +136,11 @@ Teams 會使用 TLS 和 MTLS 來加密立即訊息。 伺服器對伺服器的�
 
 下表摘要說明 Teams 使用的通訊協定。
 
-***流量加密***
+***流量加密** _
 
 |||
 |:-----|:-----|
-|**流量類型**|**加密工具**|
+|_ *流量類型**|**加密工具**|
 |伺服器對伺服器|MTLS|
 |用戶端對伺服器 (例如 立即訊息與目前狀態)|TLS|
 |媒體流量 (例如 媒體的音訊和視訊共用)|TLS|
@@ -197,7 +197,7 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
 
 有兩個選項可控制誰能抵達 Teams 會議，以及誰能夠存取您提供的資訊。
 
-1. 您可以透過**大廳**的設定來控制誰能加入會議。</p>
+1. 您可以透過 **大廳** 的設定來控制誰能加入會議。</p>
 
     |「會議選項」頁面中可使用「誰可以跳過大廳」設定選項   |直接輸入加入會議的使用者  |輸入移至大廳的使用者   |
     |---------|---------|---------|
@@ -205,7 +205,7 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
     |我的組織和信任組織中的人員      |  - 租用戶內部</br> - 租用戶的訪客</br> - 同盟</br>        |  - 匿名</br>  - PSTN 電話撥入</br>      |
     |任何人      |   - 租用戶內部</br>  - 租用戶的訪客</br>  - 同盟匿名</br>  - PSTN 電話撥入</br>       |         |
 
-2. 第二個方法是透過**結構化會議** (簡報者可以執行任何應執行的動作，出席者的體驗則受到控制)。 加入結構化會議之後，簡報者可以控制出席者可在會議中執行的動作。 </p>
+2. 第二個方法是透過 **結構化會議** (簡報者可以執行任何應執行的動作，出席者的體驗則受到控制)。 加入結構化會議之後，簡報者可以控制出席者可在會議中執行的動作。 </p>
 
     |動作  |簡報者  |出席者  |
     |---------|---------|---------|
@@ -235,7 +235,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 - 匿名 (也就是未經驗證的) 使用者若想加入撥入會議，就必須撥打其中一個會議存取號碼。 如果 [永遠允許來電者略過大廳] 設定已 *「開啟」*，匿名使用者還是必須等到簡報者或已驗證的使用者加入會議才能進入會議。
 
   > [!CAUTION]
-  > 如果您不想匿名使用者 (您未明確邀請的使用者) 加入會議，您需要確認針對**參與者**會議章節中**匿名使用者可以加入會議**設定為**關閉**。
+  > 如果您不想匿名使用者 (您未明確邀請的使用者) 加入會議，您需要確認針對 **參與者** 會議章節中 **匿名使用者可以加入會議** 設定為 **關閉**。
 
 召集人也可以進行設定，讓撥入的來電者成為第一個進入會議的人。 您可以在 [音訊會議] 設定中為使用者進行這項設定，並套用至該使用者所排程的所有會議。
 
@@ -257,7 +257,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 會議參與者也會依位置和認證來分類。 您可以使用這兩種特性來決定哪些使用者可以存取特定會議。 使用者大致可以分成下列類別：
 
 1. **屬於租用戶的使用者**：這些使用者在 Azure Active Directory 中擁有租用戶的認證。
-    a. *組織中的人員*：這些使用者在 Azure Active Directory 中擁有租用戶的認證。 *組織中的人員*包括受邀的來賓帳戶。
+    a. *組織中的人員*：這些使用者在 Azure Active Directory 中擁有租用戶的認證。 *組織中的人員* 包括受邀的來賓帳戶。
     b. *遠端使用者*：這些使用者是從公司網路外部加入會議的。 這些人包括在家、在外工作的員工和其他人 (例如受信任供應商的員工)，且必須已獲得可在服務期間使用的企業認證。 遠端使用者可以建立和加入會議並擔任簡報者。
 。
 2. **不屬於租用戶的使用者**：這些使用者在 Azure AD 中沒有租用戶的認證。
@@ -269,7 +269,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 ### <a name="participant-admittance"></a>參與者准入
 
 > [!CAUTION]
-> 如果您不想匿名使用者 (您未明確邀請的使用者) 加入會議，您需要確認針對**參與者**會議章節中**匿名使用者可以加入會議**設定為**關閉**。
+> 如果您不想匿名使用者 (您未明確邀請的使用者) 加入會議，您需要確認針對 **參與者** 會議章節中 **匿名使用者可以加入會議** 設定為 **關閉**。
 
 在 Teams 中，您可以將匿名使用者轉移到稱為大廳的等待區。 然後，簡報者可以 *「准許」* 這些使用者加入會議，或予以 *「拒絕」*。 當這些使用者轉移到大廳時，系統會通知簡報者和出席者，匿名使用者必須在此等候，直到其獲得接受或遭到拒絕，或等到其連線逾時。
 
@@ -303,8 +303,8 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 
 [在 Microsoft Teams 中管理會議設定](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[使用 VPN 分割通道最佳化遠端使用者的 Microsoft 365 或 Office 365 連線能力](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[使用 VPN 分割通道將遠端使用者的 Microsoft 365 或 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [實作 VPN 分割通道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Teams 中的會議錄製內容，錄製內容的儲存位置及哪些人可以存取](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) (英文)
+[Teams 中的會議錄製，錄製的儲存位置及哪些人可以存取](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
