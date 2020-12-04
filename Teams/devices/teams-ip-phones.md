@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些桌面與會議已認證，讓 Microsoft 團隊能產生最佳結果。
-ms.openlocfilehash: 4bd11a800713dcfa5cbfa2092cd08adb6b86e05e
-ms.sourcegitcommit: 476cbb4c65ccb9d9b7635eff6b2e657e099425f6
+ms.openlocfilehash: f638e1fc92383a366f5957c66a7e3bae0dc58807
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49518268"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570892"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -57,11 +57,12 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020年1月                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019年12月                |
 | Poly 組 8500/8800 (僅限共用模式)  | 5.9.0.10869                                                                                                                                                                                                                                | 2019年6月                    |
-| Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020年3月                   |
-| Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019年6月                    |
-| Yealink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | 2019年5月                     |
-| Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | 2018年12月                |
-| Yealink T58 & T56 系列               | 58.15.0.20                                                                                                                                                                                                                                 | 2018年12月                |
+| Yealink MP54 | 122.15.0.27| 2020年11月 |
+| Yealink MP56 | 122.15.0.6 | 2020年3月    |
+| Yealink VP59 | 91.15.0.16 | 2019年6月     |
+| Yealink T55  | 58.15.0.36 | 2019年5月      |
+| Yealink CP 960| 73.15.0.20 | 2018年12月|
+| Yealink T58 & T56 系列 | 58.15.0.20 | 2018年12月 |
 
 ## <a name="currently-certified-collaboration-bars"></a>目前認證的共同作業條
 

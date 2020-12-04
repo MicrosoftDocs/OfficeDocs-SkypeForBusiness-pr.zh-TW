@@ -17,12 +17,12 @@ description: 瞭解當您需要執行 eDiscovery 時要採取的動作，例如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814109"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570822"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 
@@ -36,7 +36,7 @@ ms.locfileid: "46814109"
 
 並非所有團隊內容都是 eDiscoverable。 下表顯示可透過 eDiscovery 找到的內容類型。
 
-| 內容類型 | eDiscoverable | 筆記 |
+| 內容類型 | eDiscoverable | 注釋 |
 |:--- | --- |:--- |
 | 小組聊天訊息 | 是 |  |
 | 私人通道訊息 | 是 | |
@@ -65,13 +65,15 @@ ms.locfileid: "46814109"
 
 影像會顯示中繼資料的範例。
 
-![Image 是 CVR 記錄會議中繼資料。](media/conversationOption3.png)
+> [!div class="mx-imgBorder"]
+> ![Image 是 CVR 記錄會議中繼資料。](media/conversationOption3.png)
 
 以下是會議期間參與者之間的 IM 交談範例。
 
-![圖像是參與者之間的交談。](media/MeetingIMConversations.png)
+![團隊參與者之間的交談。](media/MeetingIMConversations.png)
 
-![圖像是參與者之間的交談。](media/MeetingImConversation2.png)
+> [!div class="mx-imgBorder"]
+> ![EDiscovery 搜尋結果中的參與者之間的交談。](media/MeetingImConversation2.png)
 
 若要使用 Microsoft 團隊內容進行 eDiscovery 調查，請參閱 [開始使用核心 eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)中的步驟1。
 
@@ -95,7 +97,7 @@ Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>在 eDiscovery 搜尋中包含私人通道檔案
 
-在執行這些步驟之前，請先安裝 [Sharepoint Online 管理命令介面並聯機至 SharePoint online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
+在執行這些步驟之前，請先安裝 [Sharepoint Online 管理命令介面並聯機至 SharePoint online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)。
 
 1. 執行下列動作，以取得與團隊中的私人頻道相關聯的所有 SharePoint 網站集合的清單。
 
@@ -179,13 +181,14 @@ Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
 
 交談審查集合提供更直觀、更具執行緒的交談視圖;它會以正確的順序來顯示相關的郵件。
 
-![交談審查設定的螢幕擷取畫面](media/conversationOptions2.png)
+> [!div class="mx-imgBorder"]
+> ![交談審查設定的螢幕擷取畫面](media/conversationOptions2.png)
 
 在兩種類型的審閱集中都提供密文等功能。 如需有關審閱集的詳細資訊，請參閱 [在高級 eDiscovery 中查看交談](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)。
 
 #### <a name="collection-options"></a>收集選項
 
-新增至審閱集合時，視窗的 [ **收集選項** ] 區段下有幾個選項可供使用，包括 **交談檢索選項** 和 **團隊交談**。 如果您啟用這些選項，任何屬於您的審閱集中的個別團隊訊息，也會顯示在其周圍有其他訊息，以供內容使用。 例如，如果您的查詢非常特殊且只傳回一封郵件，則啟用這些選項也會傳回數個郵件，並追蹤符合您查詢的訊息。
+新增至審閱集合時，視窗的 [ **收集選項** ] 區段下有幾個選項可供使用，包括 **交談檢索選項** 和 **團隊交談**。 如果您啟用這些選項，任何屬於您的審閱集中的個別團隊訊息，也會顯示在其周圍有其他訊息，以供內容使用。 例如，如果您的查詢是特定的，且只傳回一封郵件，則啟用這些選項也會傳回數個郵件，並追蹤符合您查詢的訊息。
 
 許多邏輯準則是用來判斷其他訊息是否提供與您查詢相符之訊息的內容。 例如，針對小組內容，啟用這些選項將會因郵件進行執行緒化的方式來檢索上層訊息和所有子郵件。
 
@@ -215,13 +218,14 @@ Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
 
 以下是在使用者之間進行執行緒交談的 redacted 檔案範例。
 
-![Redacted 檔案的螢幕擷取畫面](media/RedactedFileExample.png)
+> [!div class="mx-imgBorder"]
+> ![Redacted 檔案的螢幕擷取畫面](media/RedactedFileExample.png)
 
 [ **批註視圖** ] 索引標籤底部是 [ **標記檔** ] 按鈕，會顯示 [標記] 面板。 在此面板中，您可以將標記套用至團隊交談中的所有訊息。 您可以將交談標記為「回應」或「無回應」、[無論是否包含有趣的專案] （無論是否應包含在匯出中），以及是否需要進一步審查。 您也可以管理並套用其他可自訂的標記。
 
 #### <a name="action-menu"></a>[動作] 功能表
 
-您可以在 [審閱集合] 視窗中按一下 [ **動作**匯出] 來匯出內容 \> ** **。 匯出時有許多選項可供使用。
+您可以在 [審閱集合] 視窗中按一下 [ **動作** 匯出] 來匯出內容 \> ****。 匯出時有許多選項可供使用。
 
 若要匯出包含所有小組郵件之所有中繼資料的檔案，請按一下以選取 [ **載入** 檔案] 核取方塊。 若要在檔案中包含任何您已套用至內容的標記，請按一下以選取 **[卷** 標] 核取方塊。
 
