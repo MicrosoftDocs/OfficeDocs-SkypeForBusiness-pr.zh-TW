@@ -1124,7 +1124,7 @@
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: 醫療保健的小組範本
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: '管理 [清單] 應用程式'
+        - name: 管理清單應用程式
           href: manage-lists-app.md
         - name: 管理工作應用程式
           href: manage-tasks-app.md
@@ -1132,7 +1132,7 @@
           items:
             - name: Teams 中的 Shifts
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: 管理 Shifts 應用程式
+            - name: 管理倒班應用程式
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 適用於教育的 Teams
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1236,17 +1236,13 @@
         - name: 資料外洩防護
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: 電子文件探索
-          items:
-            - name: 針對內容進行電子文件探索調查
-              href: ediscovery-investigation.md
-            - name: 將 Teams 使用者或團隊置於合法持有
-              href: legal-hold.md
+          href: ediscovery-investigation.md
+        - name: 法律封存
+          href: legal-hold.md
         - name: 內容搜尋
-          items:
-            - name: 使用內容搜尋
-              href: content-search.md
-            - name: 搜尋活動的稽核記錄檔
-              href: audit-log-events.md
+          href: content-search.md
+        - name: 稽核
+          href: audit-log-events.md
     - name: 隱私權
       items:
         - name: 隱私權和 Microsoft Teams
