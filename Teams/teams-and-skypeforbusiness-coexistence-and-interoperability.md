@@ -1,13 +1,13 @@
 ---
 title: 商務用 Skype 與 Microsoft 團隊之間的互通性
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 商務用 Skype 和 Microsoft 團隊共存選項與商務用 Skype 與團隊之間的互通性的詳細資料。
+description: 商務用 Skype 和 Microsoft 團隊共存選項的詳細資料，以及商務用 Skype 與團隊所產生的互通性。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff315ba578d74939e533912f696da6b6eb7abf34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515890"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578496"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
 
@@ -70,7 +70,7 @@ ms.locfileid: "48515890"
 
 ### <a name="teams-only"></a>僅限團隊
 
-**小組只有**使用者 (也稱為*升級*的使用者) 有權存取團隊中的所有功能。 他們可能會保留商務用 Skype 用戶端，以在已由未升級的使用者或外部合作夥伴組織的商務用 Skype 上加入會議。 已升級的使用者可以使用小組與商務用 skype (的互通性功能，繼續與組織中的其他使用者通訊，但前提是這些商務用 skype 使用者並不是以 **孤島** 模式) 。 不過，升級後的使用者無法啟動商務用 Skype 聊天、通話或會議。
+**小組只有** 使用者 (也稱為 *升級* 的使用者) 有權存取團隊中的所有功能。 他們可能會保留商務用 Skype 用戶端，以在已由未升級的使用者或外部合作夥伴組織的商務用 Skype 上加入會議。 已升級的使用者可以使用小組與商務用 skype (的互通性功能，繼續與組織中的其他使用者通訊，但前提是這些商務用 skype 使用者並不是以 **孤島** 模式) 。 不過，升級後的使用者無法啟動商務用 Skype 聊天、通話或會議。
 
 只要您的組織準備好讓部分或所有使用者使用團隊作為其唯一的通訊與共同作業工具，您就可以將這些使用者升級至 [ **僅限團隊** ] 模式。 如果您是從 **孤島** 模式升級，我們建議您先將團隊在整個組織中採納，然後再開始升級程式。 這可避免由於 **孤島** 模式無法提供互通性而造成的通訊案例中斷。
 
@@ -90,7 +90,7 @@ ms.locfileid: "48515890"
 
 您可以使用此模式在您的環境中引入小組，在您繼續利用商務用 Skype 中的現有投資。 在此模式中，您可以讓商務用 Skype 保持不變的狀態，以進行聊天、通話和會議功能，並新增團隊共同作業功能（團隊和頻道）、在 Microsoft 365 或 Office 365 中存取檔案，以及應用程式。 團隊通訊功能（私人聊天、通話及排程會議）預設會在此模式中關閉。
 
-在內部部署或混合使用商務用 Skype 伺服器起點的組織，如果他們想要為其使用者提供互通性與可預見性，並讓其升級至團隊 (，而不是依賴**採用的****飽和) 模式**，請參閱此模式。
+在內部部署或混合使用商務用 Skype 伺服器起點的組織，如果他們想要為其使用者提供互通性與可預見性，並讓其升級至團隊 (，而不是依賴 **採用的****飽和) 模式**，請參閱此模式。
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>商務用 Skype 與團隊共同作業與會議（也稱為會議）
 
@@ -126,8 +126,8 @@ ms.locfileid: "48515890"
 
 互通性體驗有兩種類型：原生和互通性升級。
 
-- _原生交互操作_體驗會出現在使用者目前正在使用的用戶端中。 一位使用者會在商務用 Skype 用戶端中，另一個則在團隊中。 原生交互操作體驗不會將它們引導給另一個用戶端來進行通訊，使用者就能在他們目前使用的用戶端中進行交談。 原生交互操作體驗是一對一的聊天與通話。
-- _互通性升級_體驗代表，在協助使用者執行高級動作 (例如共用其桌面) 時，用戶端可協助您建立使用者可以加入的會議，以便在該會議中繼續進行體驗。 該會議是在動作發起者的平臺上建立。 不在該平臺的使用者會收到會議加入連結。 當他們按一下此連結時，會根據設定) ，將它們加入至相容用戶端 (瀏覽器、web app 或完整用戶端中的會議。 商務用 Skype 的互通性升級需要最近的用戶端。 來自團隊的互通性升級現已推出。 兩者都支援在租使用者中進行互通性體驗，以及聯盟通訊交叉租使用者。
+- _原生交互操作_ 體驗會出現在使用者目前正在使用的用戶端中。 一位使用者會在商務用 Skype 用戶端中，另一個則在團隊中。 原生交互操作體驗不會將它們引導給另一個用戶端來進行通訊，使用者就能在他們目前使用的用戶端中進行交談。 原生交互操作體驗是一對一的聊天與通話。
+- _互通性升級_ 體驗代表，在協助使用者執行高級動作 (例如共用其桌面) 時，用戶端可協助您建立使用者可以加入的會議，以便在該會議中繼續進行體驗。 該會議是在動作發起者的平臺上建立。 不在該平臺的使用者會收到會議加入連結。 當他們按一下此連結時，會根據設定) ，將它們加入至相容用戶端 (瀏覽器、web app 或完整用戶端中的會議。 商務用 Skype 的互通性升級需要最近的用戶端。 來自團隊的互通性升級現已推出。 兩者都支援在租使用者中進行互通性體驗，以及聯盟通訊交叉租使用者。
 
 ### <a name="native-interop-experiences"></a>原生交互操作體驗
 
@@ -144,7 +144,7 @@ ms.locfileid: "48515890"
 > [!Important]
 > 在內部部署商務用 Skype 的交互操作體驗中，您必須在內部部署環境中使用 Microsoft 365 或 Office 365 商務用 Skype 的混合模式。 如需詳細資訊，請參閱 [遷移和互通性指導](https://aka.ms/SkypeToTeams-Interop)方針。
 
-在已指派下列其中一個共存模式的使用者中，也可以使用這些交互操作體驗： **商務用 skype 與團隊**共同作業、 **商務用 skype 與團隊**共同作業、會議、 **商務用 skype**或 **僅限團隊**。 在 **孤島** 模式中，沒有使用者互通性。
+在已指派下列其中一個共存模式的使用者中，也可以使用這些交互操作體驗： **商務用 skype 與團隊** 共同作業、 **商務用 skype 與團隊** 共同作業、會議、 **商務用 skype** 或 **僅限團隊**。 在 **孤島** 模式中，沒有使用者互通性。
 
 ### <a name="native-interop-experience-limitations"></a>原生交互操作體驗限制
 

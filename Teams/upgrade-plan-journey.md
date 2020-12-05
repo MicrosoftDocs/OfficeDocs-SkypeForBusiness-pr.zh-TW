@@ -1,13 +1,13 @@
 ---
-title: 規劃商務用 Skype 至 Microsoft 團隊升級 |採納架構
-author: lanachin
-ms.author: v-lanac
+title: 規劃您的商務用 Skype 至 Microsoft 團隊升級
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 瞭解如何透過事先登記風險承擔者來規劃您的升級，然後為專案加上範圍。
+description: 瞭解如何透過登記干係人來規劃升級，然後為專案加上範圍。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868450"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578436"
 ---
 # <a name="plan-for-your-upgrade"></a>規劃升級
 
@@ -44,4 +44,4 @@ ms.locfileid: "44868450"
 > [!TIP]
 > 加入即時、互動式研討會，我們將分享指導方針、最佳做法，以及專為開始升級規劃與實施方案而設計的資源。
 >
-> 首先加入[升級會話方案](https://aka.ms/SkypeToTeamsPlanning)，以開始使用。
+> 首先加入 [升級會話方案](https://aka.ms/SkypeToTeamsPlanning) ，以開始使用。

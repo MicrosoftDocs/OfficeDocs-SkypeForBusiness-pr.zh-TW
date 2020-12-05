@@ -1,13 +1,13 @@
 ---
-title: 將商務用 Skype Online 升級至 Microsoft 團隊 |部署
-author: lanachin
-ms.author: v-lanac
+title: 從商務用 Skype Online 升級至 Microsoft 團隊
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何從商務用 Skype Online deployement 將您的組織升級至 Microsoft 團隊。
+description: 瞭解如何從商務用 Skype Online 部署將貴組織升級至 Microsoft 團隊。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: ca99c193a17547943018eba75004f0ec0a1a92f3
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940503"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578256"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>從商務用 Skype Online 升級至團隊
 
@@ -48,7 +48,7 @@ ms.locfileid: "47940503"
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>指派共存與升級模式
 
-您可以指派 TeamsUpgradePolicy 的 UpgradeToTeams 實例，將您的使用者升級為 TeamsOnly 模式，這可以使用 Microsoft 團隊系統管理中心或商務用 Skype 遠端 Windows Powershell 會話來執行。 如果您想要在一個步驟中升級整個租使用者，您可以根據每個使用者來執行此動作，或在租使用者範圍執行此動作。 
+您可以指派 TeamsUpgradePolicy 的 UpgradeToTeams 實例，將您的使用者升級為 TeamsOnly 模式，這可以使用 Microsoft 團隊系統管理中心或商務用 Skype 遠端 Windows PowerShell 會話來執行。 如果您想要在一個步驟中升級整個租使用者，您可以根據每個使用者來執行此動作，或在租使用者範圍執行此動作。 
 
 如需詳細資訊，請參閱 [設定您的共存與升級設定](https://aka.ms/SkypeToTeams-SetCoexistence) 及 [TeamsUpgradePolicy：管理移植與共存](upgrade-to-teams-on-prem-tools.md)。
 

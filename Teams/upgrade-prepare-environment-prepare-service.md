@@ -1,7 +1,7 @@
 ---
-title: 準備 Microsoft 團隊升級 | 加入推出檢查清單
-author: lanachin
-ms.author: v-lanac
+title: 準備您的服務以升級至 Microsoft 團隊
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: e02b210de118c9eb2a984ed0790fd5e127ba47e9
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158681"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578376"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>準備您的服務以升級至小組
 
@@ -61,9 +61,9 @@ ms.locfileid: "45158681"
 
 使用提供的檢查清單來追蹤每個個別活動和工作的狀態，並確認您未略過任何重要步驟。 每個活動都包含所需動作的詳細描述，以及您可以用來完成該活動的其他資訊參考。
 
-雖然我們建議您依照檢查清單的順序，但確切的順序取決於您的部署範圍，以及環境的設定和複雜性。 其組織結構是支援「嶄新」團隊部署（沒有先前的商務用 skype Online 目前狀態），或從商務用 Skype Online 升級至團隊。 如果您是從商務用 Skype Online 升級，您可能已經完成這些活動，而且現在可以略過它們。
+雖然我們建議您依照檢查清單的順序，但確切的順序取決於您的部署範圍，以及環境的設定和複雜性。 它們的組織方式是支援「嶄新」團隊部署 (，不會) 或從商務用 Skype Online 升級至團隊。 如果您是從商務用 Skype Online 升級，您可能已經完成這些活動，而且現在可以略過它們。
 
-如果您是以每個網站為基礎加入使用者，我們強烈建議您使用 [[網站啟用嚮導] （行動手冊））](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)作為這些檢查清單的輔助指南。
+當您以每個網站為基礎加入使用者時，我們強烈建議您使用 [ [網站啟用嚮導] 進行語音 (行動手冊) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 作為這些檢查清單的補充指南。
 
 >[!NOTE]
 >在團隊與商務用 Skype Online 之間，大部分的設定都是常見的配置。 您可以使用 Microsoft 團隊系統管理中心來設定這些設定。
@@ -77,7 +77,7 @@ ms.locfileid: "45158681"
 
 ## <a name="continue-onboarding"></a>繼續加入
 
-完成此檢查清單後，請繼續執行下一個步驟：[執行使用者試點](pilot-essentials.md)
+完成此檢查清單後，請繼續執行下一個步驟： [執行使用者試點](pilot-essentials.md)
 
 [//]: # (@Turgay，我會在下一個段落加上批註，因為它是雲端聲音專用的。)
 <!--

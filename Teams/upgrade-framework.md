@@ -1,7 +1,7 @@
 ---
-title: 關於升級架構
-author: lanachin
-ms.author: v-lanac
+title: 關於升級架構-商務用 Skype 至團隊
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: a4e94b5ef774f0fccaa6bb84d78d2018c1d31e34
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158651"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578516"
 ---
 # <a name="about-the-upgrade-framework"></a>關於升級架構
 
 為了協助您在升級歷程中避免猜測，我們已使用行之有效的架構來實施變更。 如下所示，framework 中的每個步驟都會在步驟之前建立，若要取得最佳結果，我們建議您按照循序執行這些步驟。  
 
-首先，將正確的專案關係人與定義您的升級規劃（例如，範圍、目標與時程表）。 在適當的規劃中，確認您的技術環境與您的最終使用者已準備好使用團隊。 然後，您可以在幾個階段中執行升級，在準備時從試驗移至組織範圍的升級。 貴組織在團隊中後，建立可讓您監控品質並加速使用者採納的工作方案。
+首先，將正確的專案關係人集中，並定義您的升級方案 (例如 [範圍]、[目標] 和 [時程表]) 。 在適當的規劃中，確認您的技術環境與您的最終使用者已準備好使用團隊。 然後，您可以在幾個階段中執行升級，在準備時從試驗移至組織範圍的升級。 貴組織在團隊中後，建立可讓您監控品質並加速使用者採納的工作方案。
 
 ![升級歷程架構的圖例](media/upgrade-banner-main.png "確定您的專案已針對適當的專案小組進行成功設定。定義您的專案範圍、目標及時程表。確認技術與使用者的就緒情況。執行您的推出方案。維持勢頭，以獲得最佳結果。")
 
@@ -51,7 +51,7 @@ ms.locfileid: "45158651"
 **為團隊準備您的組織**。 若要協助確保成功升級至小組，請務必指派充足的時間進行準備。 您的組織不僅能快速開始認識團隊的價值，只要團隊準備就緒，您就能加速從商務用 Skype 升級。 如果您已在商務用 Skype 中啟用團隊，請在您將使用者升級至團隊之前，使用這些升級前的活動做為檢查點，以驗證貴組織的就緒性。 
 
 > [!TIP]
->  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   除了範例升級專案規劃與試驗測試方案之外，請下載範本使用者就緒性資料（例如通訊與使用者問卷）的升級成功套件。 套件中提供的專案會在下列清單中以星號（*）標示。
+>  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   除了範例升級專案規劃與試驗測試方案之外，請下載範本使用者就緒性資料（例如通訊與使用者問卷）的升級成功套件。 套件中提供的專案會在下列清單中以星號 ( * ) 標示。
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>規劃：建立升級方案以協助確保貴組織已設定為長期成功
 
@@ -126,7 +126,7 @@ ms.locfileid: "45158651"
 
 
 > [!Note]
-> 我們的升級內容不斷進化。 請務必查看最新的指導方針，並閱讀[小組博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
+> 我們的升級內容不斷進化。 請務必查看最新的指導方針，並閱讀 [小組博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
 > 商務用 Skype Online 將於 2021 年 7 月 31 日淘汰，之後將無法再存取也不再受支援。 若要最大限度取得效益並確保貴組織有適當的時間來實施升級，我們鼓勵您立即開始將您的遷移到 Microsoft 團隊。 請記住，成功的升級會將技術與使用者的就緒性相符，因此請務必在您向 Microsoft 團隊流覽您的旅程時，在本文中利用指導方針。

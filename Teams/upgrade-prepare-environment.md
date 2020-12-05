@@ -1,7 +1,7 @@
 ---
 title: 準備您的環境以升級至團隊
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: cb736a0398d1ab77ed67919f02a80400bd2ae19e
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666045"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578246"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>準備您的環境以升級至團隊
 
@@ -43,7 +43,7 @@ ms.locfileid: "44666045"
 與您的使用者準備就緒準備並行完成這些活動：
 
 - 為[您的 IT 員工做好準備](upgrade-prepare-IT-pros.md)，協助確保他們有成功升級歷程所需的專案。
-- 確認您的環境符合所有[先決條件](upgrade-plan-journey-prerequisites.md)，並瞭解 Microsoft 365 或 Office 365 服務與團隊之間的相依性。
+- 確認您的環境符合所有 [先決條件](upgrade-plan-journey-prerequisites.md)，並瞭解 Microsoft 365 或 Office 365 服務與團隊之間的相依性。
 - 若要[評估您的環境](upgrade-plan-journey-evaluate-environment.md)，請使用範例問卷問卷來執行環境探索，以確認貴組織已準備好將升級遷移到團隊。
 - 針對您的網路規劃、準備及採取任何必要的修正步驟來[準備您的網路](prepare-network.md)，以支援小組工作負載。
 - 使用 [加入檢查清單][準備您的服務](upgrade-prepare-environment-prepare-service.md)以進行推出，以確保您的小組配置已準備好支援將您的使用者從商務用 Skype 遷移至團隊。

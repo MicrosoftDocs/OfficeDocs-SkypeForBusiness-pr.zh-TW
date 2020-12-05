@@ -1,7 +1,7 @@
 ---
 title: 登記專案關係人 |商務用 Skype 的 [小組升級] 規劃
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22fe71ec94ffec24f1a06846e51981db957c15f8
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 2b57608b6db645ad48ab372b6bb390b4bc4a1bcb
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522586"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578326"
 ---
 # <a name="enlist-your-project-stakeholders"></a>列出您的專案關係人
 
@@ -33,17 +33,17 @@ ms.locfileid: "44522586"
 
 本文是您升級歷程的專案專案關係負責人階段，您針對專案成功所完成的第一項和最重要的活動。
 
-從實施專案的交付專案到促進責任，您的專案關係人擁有專案成功的關鍵。 您會想要指派兩組專案關係人：（1）_贊助聯盟_，包括對專案的成功進行 vested 感興趣和影響專案的人員，以及（2）_專案小組_，由負責確保技術與使用者就緒的人員完成專案計劃中的各種工作。 這兩個群組之間的常見執行緒是_專案管理員_，其作用是確定專案工作已完成排程，並將專案狀態報表回聯盟。
+從實施專案的交付專案到促進責任，您的專案關係人擁有專案成功的關鍵。 您會想要指派兩組專案關係人： (1) _贊助聯盟_ ，其中包含對專案的成功進行 vested 興趣和影響的人員，以及 (2) _專案小組_，由負責確保技術與使用者就緒的人員完成專案計劃中的各種工作。 這兩個群組之間的常見執行緒是 _專案管理員_，其作用是確定專案工作已完成排程，並將專案狀態報表回聯盟。
 
 > [!Tip]
 > 您需要花點時間來找出理想的上級主管（例如，可協助設定您專案的語氣），並讓其他人擁有責任。 這應該是資深主管或對專案範圍和願景擁有權利的主管。 它們也應該是移除封鎖與解決衝突中的最後決策者，以協助讓專案按時保持在預算中。
 
-您也可以選擇建立籌畫指導委員會。 有時候，大型或更複雜的專案會隨著「廚房中太多 cooks」而結束，因此會在風險承擔者群組之間中斷連線。 針對這些專案，您可能會想要形成一個籌畫指導委員會。 籌畫指導委員會負責推動決策、提供戰略監管、支援專案的計畫，以及在必要時，移除封鎖器。 您可以在《[籌畫指導委員會指南》](https://aka.ms/SteeringCommittee)中找到有關實施指導委員會的詳細資訊。
+您也可以選擇建立籌畫指導委員會。 有時候，大型或更複雜的專案會隨著「廚房中太多 cooks」而結束，因此會在風險承擔者群組之間中斷連線。 針對這些專案，您可能會想要形成一個籌畫指導委員會。 籌畫指導委員會負責推動決策、提供戰略監管、支援專案的計畫，以及在必要時，移除封鎖器。 您可以在《 [籌畫指導委員會指南》](https://aka.ms/SteeringCommittee)中找到有關實施指導委員會的詳細資訊。
 
 | | |
 |---|---|
 | ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點 | <ul><li>誰是誰負責此專案的專案關係人小組？</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟 | <ul><li>考慮專案的範圍並指派相關的專案關係人。</li><li>使用下表做為準則，但請注意，這份清單並不全包含。<br><strong>技巧</strong><br>建立有責任的受人核准的[（RACI）矩陣](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)，進一步區分那些只需在專案的特定區域中保持通知的人員。</li> |
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟 | <ul><li>考慮專案的範圍並指派相關的專案關係人。</li><li>使用下表做為準則，但請注意，這份清單並不全包含。<br><strong>技巧</strong><br>建立有責任的 [ (RACI) 矩陣](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) ，以進一步區分那些只需在專案的特定區域中保持通知的人員，就能進一步辨別他們所擁有的責任。</li> |
 | <li>決定是否要建立籌畫指導委員會，並視需要指派角色。</li></ul> | |
 
 | 角色 | 領域 |
@@ -69,4 +69,4 @@ ms.locfileid: "44522586"
 | 行銷組長 | 設計與實施溝通活動 |
 | 訓練線索 | 設計與實施訓練方案 |
 
-收集您的專案關係人後，請繼續執行下一個步驟：[定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)。
+收集您的專案關係人後，請繼續執行下一個步驟： [定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)。

@@ -1,7 +1,7 @@
 ---
-title: 準備將商務用 Skype 升級至團隊
-author: lanachin
-ms.author: v-lanac
+title: 準備貴組織從商務用 Skype 升級至團隊
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f355e57e71ff59a5927a697aeb75e559e3615aa
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: bf4cd0fcadc87b690b21d91a7e1d4621fc15c85b
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523006"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578216"
 ---
 # <a name="prepare-your-organization"></a>準備貴組織
 
@@ -41,7 +41,7 @@ ms.locfileid: "44523006"
 若要讓團隊發揮最大價值，使用者必須實際使用它，但讓使用者變更其運作方式並不一定簡單。 您需要花些時間來瞭解您的使用者，並設計適當的準備方案，有助於協助變更並加速團隊的採用。 這些活動應與您的技術就緒準備並行完成：
 
 - [評估組織變更準備](https://aka.ms/OrgReadiness)：這包括瞭解您的使用者是誰、他們將如何使用新技術，以及它們適應變更的難易程度。 這也是找出可從焦點加入中受益的特定使用者設定檔的機會。
-- [準備使用者準備方案](https://aka.ms/UserReadinessPlan)：由知曉、訓練及支援活動組成，您的準備方案應該能處理您廣泛的使用者基與目標設定檔，如[評估變更準備](https://aka.ms/OrgReadiness)專案中所述。
+- [準備使用者準備方案](https://aka.ms/UserReadinessPlan)：由知曉、訓練及支援活動組成，您的準備方案應該能處理您廣泛的使用者基與目標設定檔，如 [評估變更準備](https://aka.ms/OrgReadiness) 專案中所述。
 
 > [!Tip]
-> 除了範例升級專案規劃與試驗測試方案之外，請下載範本使用者就緒性資料（例如通訊與使用者問卷）的[升級成功套件](https://aka.ms/UpgradeSuccessKit)。
+> 除了範例升級專案規劃與試驗測試方案之外，請下載範本使用者就緒性資料（例如通訊與使用者問卷）的 [升級成功套件](https://aka.ms/UpgradeSuccessKit) 。

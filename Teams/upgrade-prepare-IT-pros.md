@@ -1,7 +1,7 @@
 ---
-title: Microsoft 團隊訓練 |IT 支援系統管理問題
-author: lanachin
-ms.author: v-lanac
+title: 為您的 Microsoft 團隊準備 IT 員工
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c7c38b31586d0eec73e34702d873514938020e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 680106618d610d0adc3f93658e3a522d63850e24
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085899"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578456"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>為您的 Microsoft 團隊準備 IT 員工
 
@@ -53,4 +53,4 @@ ms.locfileid: "45085899"
 | ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您是否有任何可能參與部署和支援小組的支援人員？</li><li>您是否已開發在升級時加入其他人員的訓練計畫？</li></ul> |
 | ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>確認 IT 人員擁有他們所需的資訊。</li><li>在新功能發行時，請重新訪問您的訓練和準備方案。</li></ul>|
 
-在您為團隊準備好 IT 員工之後，請確認您的環境符合所有[先決條件](upgrade-plan-journey-prerequisites.md)。
+在您為團隊準備好 IT 員工之後，請確認您的環境符合所有 [先決條件](upgrade-plan-journey-prerequisites.md)。

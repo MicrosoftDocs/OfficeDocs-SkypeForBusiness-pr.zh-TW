@@ -1,13 +1,13 @@
 ---
-title: Microsoft 團隊從商務用 Skype 升級 |模式、共存
-author: lanachin
-ms.author: v-lanac
+title: 選擇從商務用 Skype 升級到 Microsoft 團隊的旅程
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
-description: 商務用 Skype 和 Microsoft 團隊共存選項與模式的詳細資料，以及從商務用 Skype 將 journeys 升級至小組，並提供範例案例。
+description: 商務用 Skype 和 Microsoft 團隊共存選項的詳細資料，以及可能的升級 journeys 至團隊，以及案例案例。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 23a71a075730f1447259d6e3a4a3dd21f650bfd7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940413"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578156"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>選擇從商務用 Skype 升級到團隊的升級歷程
 
@@ -66,7 +66,7 @@ ms.locfileid: "47940413"
 
 有兩種方法可以將現有的組織與商務用 Skype 遷移 (無論是線上或內部部署) 至團隊：
 
-- 重**迭功能方法** (使用孤島模式) ：現有商務用 Skype 組織中的使用者會被引入小組，讓他們可以在轉換階段中並排使用這兩個用戶端。 在此期間，您可以使用大部分的團隊功能，但不是所有功能。 此設定的模式稱為 [孤島]，這是任何擁有商務用 Skype 之現有組織的預設模式。 組織就緒之後，系統管理員會將使用者移至 TeamsOnly 模式。
+- 重 **迭功能方法** (使用孤島模式) ：現有商務用 Skype 組織中的使用者會被引入小組，讓他們可以在轉換階段中並排使用這兩個用戶端。 在此期間，您可以使用大部分的團隊功能，但不是所有功能。 此設定的模式稱為 [孤島]，這是任何擁有商務用 Skype 之現有組織的預設模式。 組織就緒之後，系統管理員會將使用者移至 TeamsOnly 模式。
 
 - **選取 [功能方法** ] (使用一或多個商務用 skype 模式) ：由系統管理員管理從商務用 Skype 到團隊) 聊天、通話及會議排程功能（針對其組織中的使用者）的轉場 (。 您可以在商務用 Skype 或團隊中使用這些功能，但不能同時在這兩者中找到。 系統管理員使用 TeamsUpgradePolicy 控制何時將此功能移至團隊中的使用者。 尚未處於 TeamsOnly 模式的使用者會繼續使用商務用 Skype 進行聊天和通話，而這兩組使用者可以透過交互操作功能進行通訊。 系統管理員會透過逐漸將更多使用者遷移至 TeamsOnly 模式，來管理轉換。
 

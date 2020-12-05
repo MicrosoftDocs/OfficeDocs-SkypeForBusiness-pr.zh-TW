@@ -1,13 +1,13 @@
 ---
-title: Microsoft 團隊升級 |環境評估、探索問題
-author: lanachin
-ms.author: v-lanac
+title: 升級至團隊之前先評估您的環境
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 使用本指導方針，瞭解如何正確評估您目前的環境以升級至團隊的需求。
+description: 瞭解正確評估您目前的環境以升級至團隊的需求。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 799d348f05c8fece6684d01768934faedcb7603f
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: c783934128e2c1d3f971948c41e3481839ff0aa1
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158741"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578236"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升級至團隊之前先評估您的環境
 
@@ -40,13 +40,13 @@ ms.locfileid: "45158741"
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>探索問卷問卷簡介
 
-為了達到您的目標金鑰結果（OKRs），您先前已進行重要的服務決策。 下一步是執行環保探索，以評估與您 IT 基礎結構、網路和作業相關的所有方面，以確認貴組織已準備好要實施方案。 探索是您在規劃團隊歷程時所採取的第一項重要步驟之一。 環境探索必須包含網路準備情況評估，以確保您的網路可支援升級至團隊。 您可以對您的環境進行詳細探索，以更清楚地瞭解其目前狀態，並揭示任何困難或甚至更重要，也就是可能的封鎖程式可執行您的小組推出。
+為了讓您的目標金鑰結果 (OKRs) ，您先前已進行重要的服務決策。 下一步是執行環保探索，以評估與您 IT 基礎結構、網路和作業相關的所有方面，以確認貴組織已準備好要實施方案。 探索是您在規劃團隊歷程時所採取的第一項重要步驟之一。 環境探索必須包含網路準備情況評估，以確保您的網路可支援升級至團隊。 您可以對您的環境進行詳細探索，以更清楚地瞭解其目前狀態，並揭示任何困難或甚至更重要，也就是可能的封鎖程式可執行您的小組推出。
 
 您可以在環境評估與採納準備情況評估中識別技術風險，並針對每個已識別的風險開發緩解方案。 您應該將此資訊納入風險登記簿中。
 
 與您現有的共同作業基礎結構及 Microsoft 365 或 Office 365 組織、網路、端點、作業以及採納及準備相關的所有相關事項，都包含在環境探索問卷問卷中。 與您的專案小組合作，以盡可能詳細地提供要求的資訊，以協助您的規劃活動。
 
-[問卷](upgrade-plan-journey-discovery-questionnaire.md)分為下列各節，以確認貴組織在幾個主要區域中的小組部署準備就緒：
+[問卷](upgrade-plan-journey-discovery-questionnaire.md) 分為下列各節，以確認貴組織在幾個主要區域中的小組部署準備就緒：
 
 - Microsoft 365 或 Office 365 組織詳細資料
 - 現有的共同作業平臺摘要
@@ -67,6 +67,6 @@ ms.locfileid: "45158741"
 
 ## <a name="project-team"></a>專案小組
 
-確定您已將合適的人員用於您的專案小組。 確認您在[登記專案干係人](upgrade-enlist-stakeholders.md)時所完成的步驟。
+確定您已將合適的人員用於您的專案小組。 確認您在 [登記專案干係人](upgrade-enlist-stakeholders.md)時所完成的步驟。
 
-在您評估您的環境之後，請繼續執行下一個步驟：[準備您的服務](upgrade-prepare-environment-prepare-service.md)。
+在您評估您的環境之後，請繼續執行下一個步驟： [準備您的服務](upgrade-prepare-environment-prepare-service.md)。
