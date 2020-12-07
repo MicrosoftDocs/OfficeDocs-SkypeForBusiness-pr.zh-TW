@@ -1,7 +1,7 @@
 ---
 title: 從商務用 Skype 升級至 Teams 的常見問題集
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766586"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578366"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -57,7 +57,7 @@ Microsoft 也提供即時互動的研討會，分享專為開始升級規劃和�
 
 
 **如果有關於升級程序的問題，我要與誰連絡？**<br>
-如果有升級的相關問題，請與您目前的連絡人聯繫，包括指派給您的 Microsoft 帳戶小組、合作夥伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，您可以從  按鈕來開啟協助票證。
+如果有升級的相關問題，請與您目前的連絡人聯繫，包括指派給您的 Microsoft 帳戶小組、合作夥伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，您可以從 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com/)按一下 [需要協助] 按鈕來開啟協助票證。
 
 ![[需要協助] 按鈕](media/need-help-button.png)
 
