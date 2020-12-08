@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: 如何推出 Teams
   href: How-to-roll-out-teams.md
-- name: 入門
+- name: 開始使用
   items:
     - name: 概觀
       href: get-started-with-teams-quick-start.md
@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: 管理語音路由原則
               href: manage-voice-routing-policies.md
+            - name: 直接路由 Survivable 分支裝置
+              href: direct-routing-survivable-branch-appliance.md
     - name: 電話號碼
       items:
         - name: 管理貴組織的電話號碼
@@ -875,7 +877,7 @@
   items:
     - name: 概觀
       href: adopt-microsoft-teams-landing-page.md
-    - name: 入門
+    - name: 開始使用
       href: teams-adoption-get-started.md
     - name: 階段 1 - 開始使用
       items:
@@ -915,7 +917,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: 升級至 Teams
   items:
-    - name: 入門
+    - name: 開始使用
       href: upgrade-start-here.md
     - name: 關於升級架構
       href: upgrade-framework.md
