@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料。
-ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085567"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588326"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
 
@@ -35,7 +35,7 @@ ms.locfileid: "49085567"
 
 |  |  |
 |---------|---------|
-|<strong> (New！ ) </strong> CQD 小組自動語音應答 & 通話佇列歷史報告。 pbit     |  此範本提供下列三筆報告：</p><li>自動語音應答-顯示進入自動語音應答之通話的分析。</li><li>通話佇列–顯示撥入通話佇列之通話的分析。</li><li>[替代時程表] –顯示通話佇列通話中正在使用中的代理程式的 [時程表] 視圖。</li><br>若要深入瞭解，請參閱 [使用 CQD POWER BI 報表查看自動語音應答，& 通話佇列中記錄報告](CQD-teams-aa-cq-historical-report.md)。        |
+|<strong> (New！ ) </strong> CQD 小組自動語音應答 & 通話佇列歷史報告。 pbit     |  此範本提供下列三筆報告：</p><li>自動語音應答-顯示進入自動語音應答之通話的分析。</li><li>通話佇列–顯示撥入通話佇列之通話的分析。</li><li>[替代時程表] –顯示通話佇列通話中正在使用中的代理程式的 [時程表] 視圖。</li><br>若要深入瞭解，請閱讀自動語音應答 [& 通話佇列歷史報告](aa-cq-cqd-historical-reports.md)。        |
 |CQD 支援人員報告。 pbit     |整合建立與 EUII 資料時，此報告的設計目的是讓您從單一使用者向上切入，以找出該使用者的通話品質差的上游根本原因，例如，使用者在遇到網路問題) 中的 (。         |
 |CQD 位置增強的報表。 pbit     | 重新 imagining CQD 的 SPD 位置報告。 包括9個報告、提供通話品質、建立 WiFi、可靠性，以及使用其他 thrus （透過建立或由使用者）來評價我的通話 () RMC 資訊。  請確定您上傳的是組建資料，以最大化您的報表體驗。        |
 |CQD 行動裝置報告。 pbit     | 提供專門針對行動裝置使用者進行調整的深入資訊，包括通話品質、可靠性及評級我的通話。 在 Android、iOS)  (查看行動網路、WiFi 網路及行動作業系統報告。        |

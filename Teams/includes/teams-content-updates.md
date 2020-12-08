@@ -3,6 +3,58 @@
 
 
 
+## <a name="week-of-november-30-2020"></a>2020年11月30日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 11/30/2020 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
+| 11/30/2020 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
+| 11/30/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 11/30/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
+| 12/1/2020 | [為 Microsoft 團隊設定自動助手](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 12/1/2020 | [Microsoft Teams 中的資料位置](/MicrosoftTeams/location-of-data-in-teams) | 日期 |
+| 12/1/2020 | [設定直接路由的語音路由](/MicrosoftTeams/direct-routing-voice-routing) | 日期 |
+| 12/1/2020 | [Microsoft Teams 中的公開預覽](/MicrosoftTeams/public-preview-doc-updates) | 日期 |
+| 12/1/2020 | [Microsoft Teams 的安全性指南](/MicrosoftTeams/teams-security-guide) | 日期 |
+| 12/2/2020 | [團隊作業](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 日期 |
+| 12/2/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
+| 12/2/2020 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
+| 12/2/2020 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 12/2/2020 | [快速入門-適用于教育系統管理員的 Microsoft 團隊](/MicrosoftTeams/teams-quick-start-edu) | 日期 |
+| 12/2/2020 | [將原則指派給學校中的大型使用者](/MicrosoftTeams/batch-group-policy-assignment-edu) | 日期 |
+| 12/2/2020 | [適用於教育界管理員的 Microsoft Teams 原則和原則套件](/MicrosoftTeams/policy-packages-edu) | 日期 |
+| 12/2/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
+| 12/3/2020 | [義大利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 日期 |
+| 12/3/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
+| 12/3/2020 | [對內容進行 eDiscovery 調查](/MicrosoftTeams/ediscovery-investigation) | 日期 |
+| 12/3/2020 | [在法律封存上放置 Microsoft 團隊使用者或團隊](/MicrosoftTeams/legal-hold) | 日期 |
+| 12/4/2020 | [從商務用 Skype 升級至 Teams 的常見問題集](/MicrosoftTeams/faq-journey) | 日期 |
+| 12/4/2020 | [如何有效使用 Microsoft 團隊](/MicrosoftTeams/continue-journey) | 日期 |
+| 12/4/2020 | [進行使用者試驗來評估並測試 Microsoft 團隊在貴組織中的運作方式](/MicrosoftTeams/pilot-essentials) | 日期 |
+| 12/4/2020 | [終止對商務用 Skype Online 的支援](/MicrosoftTeams/skype-for-business-online-retirement) | 日期 |
+| 12/4/2020 | [商務用 Skype 與 Microsoft 團隊之間的互通性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 日期 |
+| 12/4/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 12/4/2020 | [選擇從商務用 Skype 升級到 Microsoft 團隊的旅程](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 日期 |
+| 12/4/2020 | [定義商務用 Skype 的專案範圍升級至 Microsoft 團隊升級](/MicrosoftTeams/upgrade-define-project-scope) | 日期 |
+| 12/4/2020 | [登記專案關係人 \| 商務用 Skype 以進行小組升級規劃](/MicrosoftTeams/upgrade-enlist-stakeholders) | 日期 |
+| 12/4/2020 | [關於升級架構-商務用 Skype 至團隊](/MicrosoftTeams/upgrade-framework) | 日期 |
+| 12/4/2020 | [評估商務用 Skype 與團隊升級的組織變更準備](/MicrosoftTeams/upgrade-org-change-readiness) | 日期 |
+| 12/4/2020 | [升級至團隊之前先評估您的環境](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 日期 |
+| 12/4/2020 | [升級至團隊的先決條件與環境相依性](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | 日期 |
+| 12/4/2020 | [規劃您的商務用 Skype 至 Microsoft 團隊升級](/MicrosoftTeams/upgrade-plan-journey) | 日期 |
+| 12/4/2020 | [為您的 Microsoft 團隊準備 IT 員工](/MicrosoftTeams/upgrade-prepare-it-pros) | 日期 |
+| 12/4/2020 | [準備您的服務以升級至 Microsoft 團隊](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | 日期 |
+| 12/4/2020 | [準備您的環境以升級至團隊](/MicrosoftTeams/upgrade-prepare-environment) | 日期 |
+| 12/4/2020 | [準備貴組織從商務用 Skype 升級至團隊](/MicrosoftTeams/upgrade-prepare-organization) | 日期 |
+| 12/4/2020 | [開始將商務用 Skype 升級至團隊](/MicrosoftTeams/upgrade-start-here) | 日期 |
+| 12/4/2020 | [將商務用 Skype 內部部署升級至 Microsoft 團隊](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 日期 |
+| 12/4/2020 | [從商務用 Skype Online 升級至 Microsoft 團隊](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 日期 |
+| 12/4/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 日期 |
+| 12/4/2020 | [在 Microsoft 團隊中實施升級的概覽](/MicrosoftTeams/upgrade-to-teams) | 日期 |
+| 12/4/2020 | [準備使用者準備方案以從商務用 Skype 升級至團隊](/MicrosoftTeams/upgrade-user-readiness) | 日期 |
+
+
 ## <a name="week-of-november-23-2020"></a>2020年11月23日
 
 
@@ -230,102 +282,3 @@
 | 11/6/2020 | [瞭解 Microsoft 團隊中的通話](/MicrosoftTeams/tutorial-calling-in-teams) | 日期 |
 | 11/6/2020 | [使用新式驗證登入 Teams](/MicrosoftTeams/sign-in-teams) | 日期 |
 | 11/6/2020 | [Microsoft 團隊 PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 日期 |
-
-
-## <a name="week-of-october-26-2020"></a>2020年10月26日周
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 10/26/2020 | [規劃小組自動語音應答及呼叫佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 日期 |
-| 10/26/2020 | [從商務用 Skype 升級至 Teams 的常見問題集](/MicrosoftTeams/faq-journey) | 日期 |
-| 10/26/2020 | [在 Microsoft 團隊中實現服務品質](/MicrosoftTeams/qos-in-teams) | 日期 |
-| 10/26/2020 | [使用 Microsoft 團隊和預定 app 進行虛擬走訪](/MicrosoftTeams/bookings-app-admin) | 日期 |
-| 10/26/2020 | [患者 App 與 EHR 整合 DSTU2 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 日期 |
-| 10/26/2020 | [在系統管理中心使用團隊醫療保健範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 日期 |
-| 10/26/2020 | [醫療保健組織的範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 日期 |
-| 10/26/2020 | [使用 Microsoft 團隊針對醫療保健組織提供安全的訊息](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 日期 |
-| 10/26/2020 | [將病患應用程式連線至 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 日期 |
-| 10/26/2020 | [適用于團隊管理員的患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 日期 |
-| 10/26/2020 | [病患應用程式概觀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 日期 |
-| 10/26/2020 | [針對小組 IT 與合規性管理員審核患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 日期 |
-| 10/26/2020 | [患者 App 與 EHR 整合 STU3 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 日期 |
-| 10/26/2020 | [開始使用適用于醫療保健組織的團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
-| 10/26/2020 | [適用於醫療保健的 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-healthcare-landing-page) | 日期 |
-| 10/26/2020 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
-| 10/26/2020 | [Ignite 上的小組會話2020](/MicrosoftTeams/ignite-2020-landing-page) | 日期 |
-| 10/26/2020 | [管理貴組織的清單應用程式](/MicrosoftTeams/manage-lists-app) | 日期 |
-| 10/26/2020 | [管理 Microsoft Teams Exploratory 體驗](/MicrosoftTeams/teams-exploratory) | 日期 |
-| 10/27/2020 | [商務用 Skype Online 和 Microsoft Teams 的輔助工具解決方案](/MicrosoftTeams/accessibility-solutions-in-france) | 日期 |
-| 10/27/2020 | [患者 App 與 EHR 整合 DSTU2 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 日期 |
-| 10/27/2020 | [將病患應用程式連線至 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 日期 |
-| 10/27/2020 | [適用于團隊管理員的患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 日期 |
-| 10/27/2020 | [病患應用程式概觀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 日期 |
-| 10/27/2020 | [針對小組 IT 與合規性管理員審核患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 日期 |
-| 10/27/2020 | [患者 App 與 EHR 整合 STU3 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 日期 |
-| 10/27/2020 | [開始使用適用于醫療保健組織的團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
-| 10/27/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
-| 10/27/2020 | [使用 Microsoft Graph 快速開始使用團隊範本](/MicrosoftTeams/get-started-with-teams-templates) | 日期 |
-| 10/27/2020 | [團隊訊息中的優先順序通知](/MicrosoftTeams/teams-add-on-licensing/pri-message) | 日期 |
-| 10/27/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 日期 |
-| 10/27/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
-| 10/27/2020 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
-| 10/27/2020 | [針對虛擬走訪的小組](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 日期 |
-| 10/27/2020 | [使用 Microsoft 端點建構管理員安裝團隊](/MicrosoftTeams/msi-deployment) | 日期 |
-| 10/27/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
-| 10/27/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 10/28/2020 | [Microsoft 團隊中的 Cortana 語音協助](/MicrosoftTeams/cortana-in-teams) | 日期 |
-| 10/28/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 10/28/2020 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/devices/device-management) | 日期 |
-| 10/28/2020 | [Microsoft 團隊的電話](/MicrosoftTeams/devices/phones-for-teams) | 日期 |
-| 10/28/2020 | [開始使用適用于醫療保健組織的團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
-| 10/28/2020 | [醫療保健的團隊原則套件](/MicrosoftTeams/policy-packages-healthcare) | 日期 |
-| 10/28/2020 | [環境相容性-Microsoft 團隊](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 日期 |
-| 10/28/2020 | [使用 Microsoft 團隊和預定 app 進行虛擬走訪](/MicrosoftTeams/bookings-app-admin) | 日期 |
-| 10/28/2020 | [Microsoft 團隊粉筆與粉筆交談](/MicrosoftTeams/chalk-talks-landing-page) | 日期 |
-| 10/28/2020 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 日期 |
-| 10/28/2020 | [管理貴組織的設定](/MicrosoftTeams/enable-features-office-365) | 日期 |
-| 10/28/2020 | [針對虛擬走訪的小組](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 日期 |
-| 10/28/2020 | [訊息委派](/MicrosoftTeams/expand-teams-across-your-org/healthcare/hc-delegates) | 日期 |
-| 10/28/2020 | [在系統管理中心使用團隊醫療保健範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 日期 |
-| 10/28/2020 | [醫療保健組織的範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 日期 |
-| 10/28/2020 | [使用 Microsoft 團隊針對醫療保健組織提供安全的訊息](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 日期 |
-| 10/28/2020 | [Teams 中的 Shifts](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 日期 |
-| 10/28/2020 | [為您的組織管理倒班應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 日期 |
-| 10/28/2020 | [管理貴組織的清單應用程式](/MicrosoftTeams/manage-lists-app) | 日期 |
-| 10/28/2020 | [在 Microsoft 團隊中管理貴組織的任務應用程式](/MicrosoftTeams/manage-tasks-app) | 日期 |
-| 10/28/2020 | [管理將團隊轉換成新的團隊系統管理中心](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 日期 |
-| 10/28/2020 | [Microsoft 團隊升級 \| 環境評估、探索問題](/MicrosoftTeams/upgrade-plan-journey-discovery-questionnaire) | 日期 |
-| 10/29/2020 | [Teams 教育版深入解析的IT 系統管理員指南](/MicrosoftTeams/class-insights) | 日期 |
-| 10/29/2020 | [在 Microsoft 團隊中建立自訂團隊範本](/MicrosoftTeams/create-a-team-template) | 日期 |
-| 10/29/2020 | [從 Microsoft 團隊中的現有小組範本建立新範本](/MicrosoftTeams/create-template-from-existing-template) | 日期 |
-| 10/29/2020 | [自動語音應答和通話佇列撥號及語音辨識參考](/MicrosoftTeams/dial-voice-reference) | 日期 |
-| 10/29/2020 | [在系統管理中心使用團隊醫療保健範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 日期 |
-| 10/29/2020 | [Microsoft Teams 教育版](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 日期 |
-| 10/29/2020 | [使用團隊範本建立新團隊](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 日期 |
-| 10/29/2020 | [在系統管理中心使用團隊政府範本](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 日期 |
-| 10/29/2020 | [在系統管理中心快速開始使用團隊生產範本](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 日期 |
-| 10/29/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
-| 10/29/2020 | [在系統管理中心使用團隊零售範本](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 日期 |
-| 10/29/2020 | [什麼是 Microsoft 團隊即時事件？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 日期 |
-| 10/29/2020 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
-| 10/29/2020 | [為 Microsoft 團隊設定自動助手](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
-| 10/29/2020 | [患者 App 與 EHR 整合 DSTU2 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 日期 |
-| 10/29/2020 | [將病患應用程式連線至 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 日期 |
-| 10/29/2020 | [適用于團隊管理員的患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 日期 |
-| 10/29/2020 | [病患應用程式概觀](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 日期 |
-| 10/29/2020 | [針對小組 IT 與合規性管理員審核患者應用程式 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 日期 |
-| 10/29/2020 | [患者 App 與 EHR 整合 STU3 介面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 日期 |
-| 10/29/2020 | [開始使用適用于醫療保健組織的團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
-| 10/30/2020 | [採納 Microsoft 團隊](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 日期 |
-| 10/30/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 10/30/2020 | [將小組電話升級至團隊顯示](/MicrosoftTeams/devices/upgrade-phones-to-displays) | 日期 |
-| 10/30/2020 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
-| 10/30/2020 | [澳大利亞的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | 日期 |
-| 10/30/2020 | [國家/地區可用性-音訊會議，通話方案](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 日期 |
-| 10/30/2020 | [為 Microsoft 團隊設定自動助手](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
-| 10/30/2020 | [在 Microsoft 團隊中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 10/30/2020 | [自訂應用程式存放區](/MicrosoftTeams/customize-your-app-store) | 日期 |
-| 10/30/2020 | [自動語音應答和通話佇列撥號及語音辨識參考](/MicrosoftTeams/dial-voice-reference) | 日期 |
-| 10/30/2020 | 在 Microsoft 團隊中管理私人小組探索 | 移除 |
-| 10/30/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
