@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中管理私人頻道的生命週期
-author: lanachin
-ms.author: v-lanac
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: suchakr, phlouie
 ms.topic: article
@@ -18,23 +18,23 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 336d97071c30bca145d26f4c853d5bb30265721f
+ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012289"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49601658"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
-您可以在這裡找到在組織中管理[私人頻道](private-channels.md)生命週期所需的指導方針。
+您可以在這裡找到在組織中管理 [私人頻道](private-channels.md) 生命週期所需的指導方針。
 
 > [!IMPORTANT]
-> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從[PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 [團隊 PowerShell 公用預覽] 模組。 如需如何安裝模組的步驟，請參閱[安裝 Microsoft 團隊 PowerShell](teams-powershell-install.md)。 最新的一般可用性團隊 PowerShell 模組不支援管理專用通道。
+> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從 [PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 [團隊 PowerShell 公用預覽] 模組。 如需如何安裝模組的步驟，請參閱 [安裝 Microsoft 團隊 PowerShell](teams-powershell-install.md)。 最新的一般可用性團隊 PowerShell 模組不支援管理專用通道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
 
-小組擁有者可以關閉或開啟成員在小組設定中建立私人頻道的能力。 若要這樣做，請在團隊的 [**設定**] 索引標籤上，關閉或開啟 [**允許成員建立私人頻道**]。
+小組擁有者可以關閉或開啟成員在小組設定中建立私人頻道的能力。 若要這樣做，請在團隊的 [ **設定** ] 索引標籤上，關閉或開啟 [ **允許成員建立私人頻道**]。
 
 做為管理員，您可以使用圖形 API 來控制成員是否可以在特定團隊中建立私人頻道。 以下是範例。
 
@@ -53,13 +53,13 @@ PATCH /teams/<team_id>
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-使用團隊原則設定貴組織中的哪些使用者可以建立私人頻道。 若要深入瞭解，請參閱[管理團隊中的團隊原則](teams-policies.md)。
+使用團隊原則設定貴組織中的哪些使用者可以建立私人頻道。 若要深入瞭解，請參閱 [管理團隊中的團隊原則](teams-policies.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-使用**CsTeamsChannelsPolicy**設定您組織中的哪些使用者可以建立私人頻道。 將**AllowPrivateChannelCreation**參數設定為**true** ，以允許獲指派原則的使用者建立私人頻道。 如果將參數設定為**false** ，就會關閉為指派了原則的使用者建立私有通道的功能。
+使用 **CsTeamsChannelsPolicy** 設定您組織中的哪些使用者可以建立私人頻道。 將 **AllowPrivateChannelCreation** 參數設定為 **true** ，以允許獲指派原則的使用者建立私人頻道。 如果將參數設定為 **false** ，就會關閉為指派了原則的使用者建立私有通道的功能。
 
-若要深入瞭解，請參閱[新-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)。
+若要深入瞭解，請參閱 [新-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)。
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>代表團隊擁有者建立私人頻道
 
@@ -101,8 +101,8 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-1. 使用您的系統管理員帳戶安裝並[連線至 SharePoint Online 管理命令](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)介面。
-2. 執行下列動作，其中 &lt; group_id &gt; 是團隊的群組識別碼。 （您可以輕鬆地在小組連結中找到群組識別碼）。
+1. 使用您的系統管理員帳戶安裝並 [連線至 SharePoint Online 管理命令](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 介面。
+2. 執行下列動作，其中 &lt; group_id &gt; 是團隊的群組識別碼。  (您可以在小組連結中輕鬆找到群組識別碼。 ) 
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -114,9 +114,9 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-graph-api"></a>使用圖形 API
 
-您可以透過[圖表資源管理器](https://developer.microsoft.com/graph/graph-explorer)來嘗試這些命令。
+您可以透過 [圖表資源管理器](https://developer.microsoft.com/graph/graph-explorer)來嘗試這些命令。
 
-1. 使用下列程式取得指定團隊的專用通道識別碼清單，其中 <group_id> 是團隊的群組識別碼。 在後續的通話中，您將需要這麼做。 （您可以在小組連結中輕鬆找到群組識別碼）。
+1. 使用下列程式取得指定團隊的專用通道識別碼清單，其中 <group_id> 是團隊的群組識別碼。 在後續的通話中，您將需要這麼做。  (您可以在 [小組]) 的連結中輕鬆找到 [群組識別碼]。
 
     **徵求**
 
@@ -184,7 +184,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-若要瞭解如何使用 Microsoft 團隊系統管理中心管理團隊成員，請參閱在[Microsoft 團隊系統管理中心管理團隊](manage-teams-in-modern-portal.md)。
+若要瞭解如何使用 Microsoft 團隊系統管理中心管理團隊成員，請參閱在 [Microsoft 團隊系統管理中心管理團隊](manage-teams-in-modern-portal.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
@@ -202,7 +202,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-graph-api"></a>使用圖形 API
 
-您可以透過[圖表資源管理器](https://developer.microsoft.com/graph/graph-explorer)來嘗試這些命令。
+您可以透過 [圖表資源管理器](https://developer.microsoft.com/graph/graph-explorer)來嘗試這些命令。
 
 1. 使用下列專案，其中 &lt; group_id &gt; 是團隊的群組識別碼，而 &lt; CHANNEL_ID &gt; 是通道 id。
 
