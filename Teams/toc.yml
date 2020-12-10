@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: 透過上傳應用程式套件發佈自訂應用程式
           href: upload-custom-apps.md
+        - name: 自訂應用程式存放區
+          href: customize-your-app-store.md
     - name: 應用程式認證
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: 在 Microsoft Teams 系統管理中心中查看應用程式權限並授與系統管理員的同意
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: 管理 Teams 中的白板
       href: manage-whiteboard.md
-    - name: 設定 Google Workspace 的團隊會議附加元件
-      href: add-gsuite-thru-aad.md
     - name: 音訊會議
       items:
         - name: 規劃您的部署
