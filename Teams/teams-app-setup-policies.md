@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d3928bd15ab5b023c025024f2dbf05c404adeee6
-ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
+ms.openlocfilehash: a23d9f5196f2d537e00c6e049377f9a7d7488654
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341099"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611597"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -35,7 +35,7 @@ ms.locfileid: "48341099"
 
 - 自訂 Teams 以強調對使用者而言最重要的應用程式。 您可以選擇要釘選的 app，並設定它們出現的順序。 釘選應用程式可讓您展示貴組織中的使用者所需的 app，包括由協力廠商或貴組織中的開發人員所建立的應用程式。
 - 控制使用者是否可以將應用程式釘選到 Teams。
-- ** (在預覽) 中**代表使用者安裝應用程式。 您可以選擇在使用者開始團隊時預設會為使用者安裝哪些 app。 請記住，如果指派給他們的 [app 許可權原則](teams-app-permission-policies.md) 允許，使用者仍然可以自行安裝應用程式。
+- **(在預覽) 中** 代表使用者安裝應用程式。 您可以選擇在使用者開始團隊時預設會為使用者安裝哪些 app。 請記住，如果指派給他們的 [app 許可權原則](teams-app-permission-policies.md) 允許，使用者仍然可以自行安裝應用程式。
 
 應用程式會釘選到應用程式行，這是位於團隊桌面用戶端的列，而在團隊行動用戶端 (iOS 和 Android) 。
 
@@ -59,36 +59,50 @@ ms.locfileid: "48341099"
 您可以使用 Microsoft 團隊系統管理中心來建立自訂原則。
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
-2. 選取 [ **新增**]。
-    ![[新增應用程式設定原則] 頁面](media/app-setup-policies-add.png)
+
+2. 選取 [新增 **]**。
+
+   ![[新增應用程式設定原則] 頁面](media/app-setup-policies-add.png)
+    
 3. 輸入原則的名稱和描述。
+
 4. 開啟或關閉 [上 **傳自訂應用程式**]，視您是否要讓使用者將自訂應用程式上傳至團隊而定。 如果 [ **允許協力廠商應用** 程式在 [組織內的應用程式設定](manage-apps.md#manage-org-wide-app-settings)中關閉]，您就無法變更此設定。
-5. 開啟或關閉 [ **允許使用者釘**用]，視您是否要讓使用者將應用程式釘選到自己的應用程式行。
-6. 若要為使用者安裝應用程式 ** (在預覽) 中 **，請執行下列工作：
+
+5. 開啟或關閉 [ **允許使用者釘** 用]，視您是否要讓使用者將應用程式釘選到自己的應用程式行。
+
+   > [!NOTE]
+   > [ **允許使用者釘** 選] 設定可在 Microsoft 365 政府社區中的 [團隊管理中心] (gcc) 環境 (GCC、gcc 高和 DoD) 中，但目前它沒有任何作用。
+
+6. 若要為使用者安裝應用程式 **(在預覽) 中**，請執行下列工作：
 
     1. 在 [ **已安裝的 app**] 底下，選取 [ **新增 app**]。
+    
     2. 在 [ **新增已安裝的應用程式** ] 窗格中，搜尋您想要在使用者開始團隊時自動安裝的應用程式。 您也可以依應用程式許可權原則篩選 app。 當您選取 app 清單後，請選取 [ **新增**]。
 
-        ![[新增已安裝的應用程式] 窗格](media/app-setup-policies-add-installed-apps.png)
+       ![[新增已安裝的應用程式] 窗格](media/app-setup-policies-add-installed-apps.png)
 
 7. 若要釘選應用程式，請執行下列動作：
 
     1. 在 [ **固定應用程式**] 底下，選取 [ **新增應用程式**]。
+    
     2. 在 [ **新增釘選的應用程式** ] 窗格中，搜尋您要新增的應用程式，然後選取 [ **新增**]。 您也可以依應用程式許可權原則篩選 app。 當您選擇要釘選的 app 清單時，請選取 [ **新增**]。
 
-         ![[新增釘選的 app] 窗格](media/app-setup-policies-add-apps.png)
+       ![[新增釘選的 app] 窗格](media/app-setup-policies-add-apps.png)
 
     3. 依您希望它們出現在團隊中的順序排列 app，然後選取 [ **儲存**]。
 
-        ![[釘選的 app] 區段](media/app-setup-policies-new-policy-setup.png)
+       ![[釘選的 app] 區段](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>編輯應用程式設定原則
 
 您可以使用 Microsoft 團隊系統管理中心來編輯原則，包括全域 (組織內的預設) 原則，以及您建立的自訂原則。
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
+
 2. 按一下原則名稱左邊的，然後選取 [ **編輯**]，選取原則。
+
 3. 您可以從這裡進行所要的變更。
+
 4. 選取 [ **儲存**]。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>將自訂應用程式設定原則指派給使用者
@@ -101,7 +115,8 @@ ms.locfileid: "48341099"
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心包含哪些內建應用程式設定原則
 
-- **全域 (組織範圍的預設) **：此預設原則適用于貴組織中的所有使用者，除非您指派其他原則。 編輯 [全域原則]，將最重要的 app 釘選到您的使用者。
+- **全域 (組織範圍的預設)**：此預設原則適用于貴組織中的所有使用者，除非您指派其他原則。 編輯 [全域原則]，將最重要的 app 釘選到您的使用者。
+
 - **FirstLineWorker**：此原則適用于第一線員工工作者。 您可以將它指派給貴組織中的第一線員工工作人員。 請務必注意，您所建立的自訂原則，您必須將原則指派給使用者，才能讓設定生效。 如需詳細資訊，請移至本文的將 [自訂應用程式設定原則指派給 [使用者](#assign-a-custom-app-setup-policy-to-users) ] 區段。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我無法在 [新增釘選的 app] 窗格中找到應用程式

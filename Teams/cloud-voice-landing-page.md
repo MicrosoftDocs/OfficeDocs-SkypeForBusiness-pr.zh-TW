@@ -23,12 +23,12 @@ search.appverid: MET150
 description: 深入瞭解 Microsoft 團隊雲端語音功能，以及您將針對貴組織所做的部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
-ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
+ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071764"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611695"
 ---
 # <a name="plan-your-teams-voice-solution"></a>規劃您的小組語音方案 
 
@@ -36,7 +36,7 @@ ms.locfileid: "49071764"
 
 您可能想要最簡單的解決方案 &mdash; 電話系統使用通話方案。 這是 Microsoft 的雲端解決方案，可提供私人分支 Exchange (PBX) 功能，以及呼叫公用交換電話網絡 (PSTN) ，如下列圖表所示。 在這個方案中，Microsoft 是您 PSTN 運營商。
 
-![圖表1顯示含有通話方案的電話系統](media/msft-voice-solutions-1.png)
+![圖表1顯示含有通話方案的電話系統](media/voice-solutions-simple.png)
 
 如果您對下列專案回答 [是]，就表示您可以使用 [電話撥入方案] 作為正確的方案：
 
@@ -62,6 +62,9 @@ ms.locfileid: "49071764"
 
 **視您的需求而定。** 本文中的部分章節是根據您現有的部署與需求而相關。 例如，只有在地理位置不允許使用 [免付費旁路] 的直接路由客戶才需要 Location-Based 傳送。
 
+考慮您可能需要下列哪些其他設定：
+
+![圖2顯示其他語音元件，例如 Microsoft 的電話號碼、撥號方案和通話路由等。](media/voice-consider-additional-components.png)
 
 | 視您的需求而定 | 描述 |
 | :------------|:-------|
@@ -91,6 +94,8 @@ ms.locfileid: "49071764"
 - [自動語音應答和通話佇列](#auto-attendants-and-call-queues)
 - [雲端語音信箱](#cloud-voicemail)
 - [通話身分識別](#calling-identity)
+
+![圖表3顯示手機系統包含自動語音應答及呼叫查詢、雲端語音信箱和通話身分識別](media/phone-system-contains.png)
 
 如需所有電話系統功能的相關資訊，以及如何設定電話系統，請參閱下列文章：
 
@@ -145,7 +150,7 @@ ms.locfileid: "49071764"
 
 如本文先前所述，使用通話方案的電話系統是適用于團隊使用者的 Microsoft 的雲端語音方案。 這是最簡單的選項，可將 Microsoft 手機系統連線到公開交換的電話網絡 (PSTN) ，以讓世界各地的電話與行動裝置市話。 透過此選項，Microsoft 可為您的組織提供私人分支 Exchange (PBX) 功能，並充當 PSTN 運營商，如下列圖表所示：
 
-![圖表1顯示含有通話方案的電話系統](media/msft-voice-solutions-1a.png)
+![圖表4顯示含自動語音應答、通話佇列、本機號碼等等，以及 Microsoft 作為 PSTN 載波的電話系統](media/voice-solution-microsoft-complete.png)
 
 如果您對下列專案回答 [是]，就表示您可以使用 [電話撥入方案] 作為正確的方案：
 
@@ -175,7 +180,7 @@ ms.locfileid: "49071764"
 
 此選項使用直接路由將 Microsoft Phone 系統連線到電話網絡，如下列圖表所示： 
 
-![圖表2顯示含直接路由的電話系統](media/msft-voice-solutions-2.png)
+![圖表5顯示含直接路由的電話系統](media/voice-solution-with-direct-routing.png)
 
 如果您對下列問題回答 [是]，則使用直接路由的電話系統就是適合您的解決方案：
 
@@ -212,7 +217,6 @@ ms.locfileid: "49071764"
 - [管理與直接路由搭配使用的語音路由策略](manage-voice-routing-policies.md)
 - [規劃直接路由的依位置路由](location-based-routing-plan.md)
 - [通過直接路由認證的工作階段邊界控制器清單](direct-routing-border-controllers.md)
-
 
 ## <a name="phone-numbers-from-microsoft"></a>Microsoft 的電話號碼
 
@@ -285,11 +289,11 @@ Microsoft 提供兩種電話號碼類型： *訂閱者* (使用者) 號碼，您
 
 - [**商務用 Skype Online 中的使用者，包含 Microsoft 通話方案**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。 升級時，此使用者將會繼續進行 Microsoft 通話計畫。
 
-- **[商務用 skype Online 中的使用者，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) 可透過商務用 skype 內部部署或雲端連接器版本使用內部部署語音功能** 。 使用者在小組中的升級需要與使用者遷移以直接傳送路由，以確保 TeamsOnly 使用者有 PSTN 功能。
+- **[商務用 skype Online 中的使用者，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) 可透過商務用 skype 內部部署或雲端連接器版本使用內部部署語音功能**。 使用者在小組中的升級需要與使用者遷移以直接傳送路由，以確保 TeamsOnly 使用者有 PSTN 功能。
 
-- **[在商務用 Skype 內部部署中使用企業語音的使用者](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)，他們將會移至線上並保留內部部署 PSTN 連線** 。 將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將使用者的遷移轉移至直接傳送路線。 
+- **[在商務用 Skype 內部部署中使用企業語音的使用者](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)，他們將會移至線上並保留內部部署 PSTN 連線**。 將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將使用者的遷移轉移至直接傳送路線。 
 
-- **[在商務用 Skype 內部部署中使用企業語音的使用者](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)，他們將會移至線上並使用 Microsoft 通話方案** 。  將此使用者遷移至小組需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將該使用者電話號碼的埠與) 的埠進行協調，) 從可用的地區指派新的訂閱者號碼。
+- **[在商務用 Skype 內部部署中使用企業語音的使用者](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)，他們將會移至線上並使用 Microsoft 通話方案**。  將此使用者遷移至小組需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將該使用者電話號碼的埠與) 的埠進行協調，) 從可用的地區指派新的訂閱者號碼。
 
 如需如何針對這些案例實施語音遷移的詳細資訊 &mdash; ，包括您需要設定混合式連線的相關資訊，以及如何使用內部部署語音功能將使用者遷移至直接佈線， &mdash; 請參閱下列文章：
 

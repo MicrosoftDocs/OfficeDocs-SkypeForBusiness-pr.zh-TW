@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 8d701f32cbaf133b03573394d48772b12488b8fe
-ms.sourcegitcommit: eaab12a7a760f8a197632e1d28773728b5d1dcef
+ms.openlocfilehash: 406a2e42a73b8bb92f3b6036de63177f4b81a434
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49429394"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611777"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -551,6 +551,16 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 > [!NOTE]
 > 使用者上傳的影像不會受到小組的篩選。 當您使用 [ **AllFilters** ] 設定時，您應該擁有內部組織原則，以防止使用者上傳冒犯性或不適當的影像，或貴組織沒有許可權可供團隊會議背景使用。
+
+## <a name="meeting-policy-settings---allow-breakout-rooms"></a>會議原則設定-允許專題討論會議室
+
+這是每個使用者的原則。 小組中的 [[專題討論](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d)] 是用來將會議分割成個別、較小的會議會議室。 此設定可控制會議召集人是否有在排程或開始的會議中建立和管理 [專題討論] 會議室的選項。 此原則設定會影響所有會議，包括 [立即開會] 會議。
+
+目前您只能使用 PowerShell 來設定此原則設定。 您可以使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用 [新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
+
+根據預設， **AllowBreakOutRooms** 參數會設定為 **True** ，且獲指派此原則的使用者，可以選擇在他們排程或開始的會議中建立及管理 [專題討論] 會議室。 使用者也可以將參與者指派給會議室，並在會議室之間移動參與者。 請記住，目前只有小組桌面用戶端提供在會議中建立和管理破斷會議室。 若要深入瞭解，請參閱 [在課程會議中建立和管理破斷會議室](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d)。
+
+若要防止使用者建立破斷會議室，請將 **AllowBreakOutRooms** 參數設定為 **False**。 指派了此原則的使用者無法選擇建立或管理 [專題討論] 會議室。
 
 ## <a name="related-topics"></a>相關主題
 

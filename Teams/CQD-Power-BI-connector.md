@@ -15,71 +15,74 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI 連接器以使用通話品質儀表板 (CQD) 查詢範本
-ms.openlocfilehash: 04bab862c13652e7a509a96c98bac0eaac699b85
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c3812032f385a3428feec7f1126663e815af1b52
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584052"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611577"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安裝 Power BI 連接器以使用 CQD 查詢範本
 
-在您可以使用 Power BI 查詢範本 (.PBIX 檔案) Microsoft 團隊通話品質儀表板 (CQD) 之後，您必須安裝 Microsoft CQD 的 Power BI 連接器，請使用[下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality. pqx*檔案。
+在您可以使用 Power BI 查詢範本 (.PBIX 檔案) Microsoft 團隊通話品質儀表板 (CQD) 之後，您必須安裝 Microsoft CQD 的 Power BI 連接器，請使用 [下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的 *MicrosoftCallQuality. pqx* 檔案。
 
-已閱讀 [[使用 POWER BI] 來分析團隊的 CQD 資料](CQD-Power-BI-query-templates.md)，以瞭解這些範本。
+已閱讀 [ [使用 POWER BI] 來分析團隊的 CQD 資料](CQD-Power-BI-query-templates.md) ，以瞭解這些範本。
 
-請確定您擁有正確的[CQD 存取角色](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)，才能存取 Power BI 報表。
+請確定您擁有正確的 [CQD 存取角色](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) ，才能存取 Power BI 報表。
+
+> [!NOTE]
+> CQD Power BI 連接器只支援 Power BI 中的 DirectQuery;不支援匯入模式。 
 
 ## <a name="installation"></a>安裝
 
 [POWER BI 檔](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)中詳細說明安裝自訂連接器與調整安全性以啟用連接器的程式。 為了簡單起見，以下是一個快速說明：
 
-1. 檢查您的電腦是否已有* \[ \] \\ Power BI desktop \\ 自訂連接器*   資料夾。 如果不是，請建立此資料夾。<sup>1</sup>
+1. 檢查您的電腦是否已有 *\[ \] \\ Power BI desktop \\ 自訂連接器* 資料夾。 如果不是，請建立此資料夾。<sup>1</sup>
 
-2. 下載連接器檔案 (* \* mez*或) * \* pqx*檔案，並將它放在 [*自訂連接器*] 目錄中。
+2. 下載連接器檔案 (*\* mez* 或) *\* pqx* 檔案，並將它放在 [*自訂連接器*] 目錄中。
 
-3. **如果連接器檔案是* \* mez*檔案，** 您也必須按照[自訂連接器設定檔](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)中的說明調整您的安全性設定。
+3. **如果連接器檔案是 *\* mez* 檔案，** 您也必須按照 [自訂連接器設定檔](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)中的說明調整您的安全性設定。
 
-如果已發行此 Microsoft 團隊的 Power BI 連接器新版本，只要將*自訂連接器*目錄中的舊連接器檔案取代成新的檔案即可。
+如果已發行此 Microsoft 團隊的 Power BI 連接器新版本，只要將 *自訂連接器* 目錄中的舊連接器檔案取代成新的檔案即可。
 
 ## <a name="setup"></a>Setup.exe
 
 若要建立報表並執行查詢，您必須先連線到 CQD 資料來源。 請依照下列步驟來連接：
 
-1. 在 Power BI 桌面的 [常用] 索引標籤中，按一下 [*取得資料*]。
+1. 在 Power BI 桌面的 [常用] 索引標籤中，按一下 [ *取得資料*]。
 
     ![螢幕擷取畫面： Power BI 連接器](media/CQD-power-bi-connector1-resize.png)
 
-2. 此時應該會出現 [*取得資料*] 視窗。 流覽至 [*線上服務*]，然後選取 [ *Microsoft 通話品質 (Beta) * ，然後按一下 *[連線]*。
+2. 此時應該會出現 [ *取得資料* ] 視窗。 流覽至 [ *線上服務*]，然後選取 [ *Microsoft 通話品質 (Beta)* ，然後按一下 *[連線]*。
 
     ![螢幕擷取畫面： Power BI 連接器](media/CQD-power-bi-connector2-resize.png)
 
 3. 接著系統會提示您登入 [下一步]。 使用您用於 CQD 的相同認證。<sup>2</sup>
 
-4. 下一個提示會提供兩種*資料連線模式*之間的選項。 選取 [ *DirectQuery* ]，然後按一下 *[確定]*。
+4. 下一個提示會提供兩種 *資料連線模式* 之間的選項。 選取 [ *DirectQuery* ]，然後按一下 *[確定]*。
 
-5. 最後，您會得到最終提示，顯示 CQD 的整個資料模型。 此時將不會顯示任何資料，只會顯示 CQD 的資料模型。 選取 [*載入*] 以完成設定程式。
+5. 最後，您會得到最終提示，顯示 CQD 的整個資料模型。 此時將不會顯示任何資料，只會顯示 CQD 的資料模型。 選取 [ *載入* ] 以完成設定程式。
 
-6. 此時，Power BI 會將資料模型載入到視窗右側。 頁面將會保留為空白，且預設不會載入任何查詢。 若要建立查詢並傳回資料，請繼續進行下列**建立查詢**。
+6. 此時，Power BI 會將資料模型載入到視窗右側。 頁面將會保留為空白，且預設不會載入任何查詢。 若要建立查詢並傳回資料，請繼續進行下列 **建立查詢** 。
 
-如果您在此設定過程中的任何步驟沒有完全明確，您可以[在此找到](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)更詳細的程式說明。
+如果您在此設定過程中的任何步驟沒有完全明確，您可以在快速入門中找到更詳細的程式說明 [： [連線至 POWER BI 電腦中的資料]](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)。
 
 ## <a name="building-queries"></a>建立查詢
 
-安裝完成後，您應該會在 [*欄位*] 窗格中看到 [幾百個維度] 和 [量值載入] 的名稱。 從此處構造實際查詢很簡單，只要選取您想要的查詢尺寸和量值，然後將其拖放到頁面上即可。 以下是更詳細的說明，有一個簡單的範例：
+安裝完成後，您應該會在 [ *欄位* ] 窗格中看到 [幾百個維度] 和 [量值載入] 的名稱。 從此處構造實際查詢很簡單，只要選取您想要的查詢尺寸和量值，然後將其拖放到頁面上即可。 以下是更詳細的說明，有一個簡單的範例：
 
-1. 從 [*視覺*效果] 窗格中選取您要使用的視覺效果。 該視覺效果的空白版本應該會出現在頁面上。 針對此範例的用途，我們將使用*表格*視覺效果。
+1. 從 [ *視覺* 效果] 窗格中選取您要使用的視覺效果。 該視覺效果的空白版本應該會出現在頁面上。 針對此範例的用途，我們將使用 *表格* 視覺效果。
 
     ![螢幕擷取畫面： Power BI 連接器](media/CQD-power-bi-connector3-resize.png)
 
-2. 依您想要用來做為查詢的名稱) 來判斷哪些尺寸和量值 (由匯總符號所代表，然後手動選取它們並拖曳到黑色視覺效果。 或者，將它們拖曳到 [視覺效果] 選項底下的 [*值*] 欄位。
+2. 依您想要用來做為查詢的名稱) 來判斷哪些尺寸和量值 (由匯總符號所代表，然後手動選取它們並拖曳到黑色視覺效果。 或者，將它們拖曳到 [視覺效果] 選項底下的 [ *值* ] 欄位。
 
     ![螢幕擷取畫面： Power BI 連接器](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > [通話品質儀表板] 需要執行任何查詢的測量。 無法將度量值新增至查詢，會造成該查詢失敗。
 
-3. 接著，選取您要篩選的任何尺寸，然後將其拖曳到 [*篩選*] 窗格中*這個視覺欄位上*的 [篩選]。 CQD Power BI 連接器目前支援*基本篩選* (從可能維度值的清單中選取值) ，*高級篩選* (手動指定要篩選的值與運算元，類似于 [高級 CQD) ]，而*相對日期篩選* (僅適用于 [*結束時間*] 和 [*開始時間*] 維度) 。 CQD 不支援根據*Top N*進行篩選。
+3. 接著，選取您要篩選的任何尺寸，然後將其拖曳到 [*篩選*] 窗格中 *這個視覺欄位上* 的 [篩選]。 CQD Power BI 連接器目前支援 *基本篩選* (從可能維度值的清單中選取值) ， *高級篩選* (手動指定要篩選的值與運算元，類似于 [高級 CQD) ]，而 *相對日期篩選* (僅適用于 [ *結束時間* ] 和 [ *開始時間* ] 維度) 。 CQD 不支援根據 *Top N* 進行篩選。
 
     ![螢幕擷取畫面： Power BI 連接器](media/CQD-power-bi-connector5-resize.png)
 
@@ -90,7 +93,7 @@ ms.locfileid: "46584052"
 
 ## <a name="creating-a-drillthrough-report"></a>建立鑽研報表
 
-[POWER BI 中的 [鑽取](https://docs.microsoft.com/power-bi/desktop-drillthrough)] 可讓您建立焦點報表，您可以使用其他報表的值做為內容快速篩選。 當您知道如何使用 CQD 連接器建立您的第一個查詢之後，建立鑽取變得更簡單。
+[POWER BI 中的 [鑽取](https://docs.microsoft.com/power-bi/desktop-drillthrough) ] 可讓您建立焦點報表，您可以使用其他報表的值做為內容快速篩選。 當您知道如何使用 CQD 連接器建立您的第一個查詢之後，建立鑽取變得更簡單。
 
 1. 為焦點報表建立另一個頁面，然後將您的查詢新增至該頁面。
 
@@ -118,9 +121,9 @@ ms.locfileid: "46584052"
 
 3. **自訂視覺效果–** 雖然 CQD 連接器會與自訂視覺效果搭配運作，但我們無法保證與所有自訂視覺效果相容。 許多自訂視覺效果都依賴于使用計算結果欄或匯入資料，而 DirectQuery 連接器不支援這些資料。
 
-4. 參照快取的**資料-** Power BI 目前不支援以任何方式參照 DirectQuery 連接器中的快取資料。 任何參照查詢結果的嘗試都會產生新的查詢。
+4. 參照快取的 **資料-** Power BI 目前不支援以任何方式參照 DirectQuery 連接器中的快取資料。 任何參照查詢結果的嘗試都會產生新的查詢。
 
-5. **相對資料篩選–** 在 CQD 連接器中受到支援，但僅限 [*開始時間*] 和 [*結束時間*] 維度。 雖然 [*日期*] 維度可能是相對日期篩選的明顯選擇，但*date*並不會儲存為日期時間物件，因此不支援 Power BI 中的相對日期篩選。
+5. **相對資料篩選–** 在 CQD 連接器中受到支援，但僅限 [ *開始時間* ] 和 [ *結束時間* ] 維度。 雖然 [ *日期* ] 維度可能是相對日期篩選的明顯選擇，但 *date* 並不會儲存為日期時間物件，因此不支援 Power BI 中的相對日期篩選。
 
 6. **政府社區雲端 (GCC) 支援–** 針對 GCC 環境中的客戶，使用 Power BI Desktop 時，CQD Power BI 連接器就會運作。 CQD Power BI 連接器目前與適用于 GCC 客戶的 Power BI 服務不相容。
 
@@ -152,9 +155,9 @@ Power BI 連接器不支援日期交叉分析篩選器。 若要指定日期範�
 
 ## <a name="footnotes"></a>批註
 
-**<sup>1</sup>** 某些程式和 app (例如，OneDrive) 可能會導致您的 [檔] 根資料夾變更;確認*POWER BI 桌面 \\ 自訂連接器*目錄位於目前的根資料夾檔資料夾中。
+**<sup>1</sup>** 某些程式和 app (例如，OneDrive) 可能會導致您的 [檔] 根資料夾變更;確認 *POWER BI 桌面 \\ 自訂連接器* 目錄位於目前的根資料夾檔資料夾中。
 
-**<sup>2</sup>** 您用於 CQD 的登入認證*不*需要是您用來登入 Power BI 傳統型應用程式本身的認證。
+**<sup>2</sup>** 您用於 CQD 的登入認證 *不* 需要是您用來登入 Power BI 傳統型應用程式本身的認證。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
@@ -175,7 +178,7 @@ Power BI 連接器不支援日期交叉分析篩選器。 若要指定日期範�
 
 10000列限制實際上是在 API 端指定，它旨在協助您大幅提升效能，並減少因記憶體不足而導致的查詢執行錯誤風險。
 
-最好是依據連接器最佳做法來重組報表，而不是嘗試增加結果列計數。 我們隨附的範本是專為示範這些最佳做法而設計。 如有可能，請先使用較廣的基數維度（例如 [月]、[年]、[日期]、[地區]、[年月] 等等）來查看您的 Kpi。您可以從該處深化到較高基數的維度。 [技術支援人員] 和 [位置改良的報表] 都提供此深入分析工作流程的良好範例。
+最好是依據連接器最佳做法來重組報表，而不是嘗試增加結果列計數。 我們隨附的範本是專為示範這些最佳做法而設計。 如有可能，請先使用較廣的基數維度（例如 [月]、[年]、[日期]、[地區]、[年月] 等等）來查看您的 Kpi。您可以從該處深化到較高基數的維度。 [技術支援人員] 和 [Location-Enhanced 報表] 都提供此深入分析工作流程的良好範例。
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 會議室需求
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援 Microsoft 團隊聊天室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: 1a8835a2e644e491be2e271a5c60612c3c29b1e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557957"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616897"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -66,8 +66,8 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[聯想 ThinkSmart 中樞](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Logitech 與英特爾 NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-  |[Logitech 攻絲和聯想思考中心 M920 微小](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
-  |[Poly G10-T 與聯想式思考中心 M920 微小](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
+  |[Logitech 攻絲和聯想 ThinkSmart 微小](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
+  |[Poly G10-T 與聯想 ThinkSmart 微小](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[使用英特爾 NUC Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[使用英特爾 NUC Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[使用英特爾 NUC Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|

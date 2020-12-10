@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557947"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616947"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -97,7 +97,7 @@ App 設定的目前狀態是以使用者活動 (提供，離開) ，Outlook 行�
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>團隊中與 Microsoft Outlook 比較的管理員設定
 
-Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 目前狀態。
+Outlook 2013 傳統型應用程式支援 Outlook 中的團隊目前狀態，且之後是同一個組織中的連絡人。
 
 如果使用者帳戶的 [升級模式] 原則設定為 [TeamsOnly]，Outlook 就會與團隊進行交談，以取得目前狀態。 如果使用者帳戶未設為 TeamsOnly，Outlook 就會與商務用 Skype 交談。
 

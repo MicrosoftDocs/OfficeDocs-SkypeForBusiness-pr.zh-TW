@@ -1,7 +1,7 @@
 ---
 title: '[適用于教育原則的小組] 嚮導可輕鬆地套用安全學習原則'
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid: MET150
 description: 瞭解如何使用 [針對教育版的團隊原則] 嚮導，輕鬆地將原則套用至學生和教育版，讓您的學習環境保持安全。
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d72ef20a8ae56fba67534944d229d01468531207
-ms.sourcegitcommit: 80c1ec1d5a43b9259a4da6db3e462f6d4257bfa7
+ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49564250"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616917"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用 [針對教育版團隊原則] 嚮導，輕鬆地將原則套用到安全的學習環境
 
@@ -68,17 +68,17 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 
 <a name="polwiz_run"> </a>
 
-請依照下列步驟執行此嚮導。 
+請依照下列步驟執行此嚮導。
 
 1. 如果您是團隊新手，嚮導會自動啟動。 或者，您可以隨時從儀表板啟動嚮導。 在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **儀表板**]，然後在 [安全學習環境] 方塊的 [ **簡易原則設定** ] 中，選取 [ **快速設定**]。
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="儀表板中的嚮導螢幕擷取畫面":::
 
-2. 選取您的教育機構類型 (**主要或次要** 或 **高等教育**) ，然後按 **[下一步]**。
+2. 選取您的教育機構類型， (**主要或次要** 或 **高等教育**) ，然後選取 **[下一步]**。
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="嚮導中要選取機構類型之頁面的螢幕擷取畫面":::
 
-3. 搜尋並選取包含您的教師與教職員的群組，然後按一下 **[下一步]**。 如果您還沒有為教師與員工設定任何群組，請 [建立群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)，然後重新執行嚮導。 <br/><br/>目前您只能選取一個群組。 您所選取的群組中的教育者與員工將會獲指派 [一組自訂原則](#policies-applied-by-the-wizard) ，為其需求量身定制。 請記住，這組原則與學生所套用的原則不同。
+3. 搜尋並選取包含您的教師與員工的群組，然後選取 **[下一步]**。 如果您還沒有為教師與員工設定任何群組，請 [建立群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)，然後重新執行嚮導。 <br/><br/>目前您只能選取一個群組。 您所選取的群組中的教育者與員工將會獲指派 [一組自訂原則](#policies-applied-by-the-wizard) ，為其需求量身定制。 請記住，這組原則與學生所套用的原則不同。
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="在嚮導中選取 [教師和教職員工] 群組的螢幕擷取畫面":::
 
@@ -130,7 +130,7 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 
 ### <a name="step-2-check-for-additional-measures-that-you-can-take-for-student-safety"></a>步驟2：檢查您是否可以採取學生安全的其他措施
 
-嚮導會自動調整並套用 [這些原則](#policies-applied-by-the-wizard)。 根據您的機構的需求，您可能會想要採取幾個額外的措施，以保持安全。
+嚮導會自動調整並套用 [這些原則](#policies-applied-by-the-wizard)。 還有幾個額外的措施，您可能想要根據機構的需求來保持安全。
 
 請參閱 [讓學生保持安全，同時使用團隊進行距離學習](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) 以取得其他安全建議。
 
@@ -140,7 +140,7 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 
 目前，嚮導在您執行時，會套用我們建議的原則。 重要的是，請務必瞭解，在小組中提供新的原則時，系統不會自動新增學生安全的全域 (組織範圍預設) 設定。 此功能將于未來版本中提供。
 
-在這項功能推出前，請檢查 Microsoft 365 系統) 管理中心的 [訊息中心](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (，以隨時掌握團隊中新的原則與原則設定。 隨著新功能的推出，您可能必須手動更新原則，才能確保您的學習環境安全。
+在這項功能推出前，請檢查 Microsoft 365 系統) 管理中心的 [訊息中心](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (，以及時掌握團隊中新原則和原則設定的最新資訊。 隨著新功能的推出，您可能必須手動更新原則，才能確保您的學習環境安全。
 
 ## <a name="make-changes-in-the-wizard"></a>在嚮導中進行變更
 

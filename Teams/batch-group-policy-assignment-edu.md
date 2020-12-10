@@ -1,7 +1,7 @@
 ---
 title: 將原則指派給學校中的大型使用者
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -15,19 +15,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何根據群組成員資格或直接透過遠端學校（teleschool、tele 學校）用途的批次作業，將原則指派給您的教育機構中的大型使用者。
+description: 瞭解如何根據群組成員資格將原則指派給您的教育機構中的大型使用者，或直接透過遠端學校 (teleschool、tele 學校) 用途的批次作業。
 f1keywords: ''
-ms.openlocfilehash: 0b4fd804b51fef9537d30230aed400bb0cb7e0aa
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: afcaba9df0ff745977b84e34683c1bdfcaca0d01
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534074"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616937"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>將原則指派給學校中的大型使用者
 
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
+
 > [!NOTE]
-> 如需在 Microsoft 團隊中指派原則的較大故事，請參閱[在小組中指派原則給您的使用者](assign-policies.md)。
+> 如需在 Microsoft 團隊中指派原則的較大故事，請參閱 [在小組中指派原則給您的使用者](assign-policies.md)。
 
 ## <a name="overview"></a>概觀
 
@@ -35,19 +37,19 @@ ms.locfileid: "46534074"
 
 您可以將會議原則指派給安全性群組，這些使用者是透過批次原則分派來縮放的使用者，或直接傳送給使用者。 您將瞭解如何：
 
-- **使用[原則指派給群組](#assign-a-policy-to-a-group)，將會議原則指派給安全性群組（建議這樣做）**。 這個方法可讓您根據群組成員資格指派原則。 您可以將原則指派給安全性群組或通訊群組清單。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。 我們建議您使用這個方法，因為它會減少管理新使用者的原則或使用者角色變更的時間。 這個方法最適合用於50000使用者的群組，但也適用于較大的群組。
+- **使用 [原則指派給群組](#assign-a-policy-to-a-group) ，將會議原則指派給安全性群組 (建議的)**。 這個方法可讓您根據群組成員資格指派原則。 您可以將原則指派給安全性群組或通訊群組清單。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。 我們建議您使用這個方法，因為它會減少管理新使用者的原則或使用者角色變更的時間。 這個方法最適合用於50000使用者的群組，但也適用于較大的群組。
 
-- **使用[批次原則](assign-policies.md#assign-a-policy-to-a-batch-of-users)分派將會議原則直接指派給使用者**。 您一次最多可以為5000使用者指派原則。 如果您的使用者超過5000個，您可以提交多個批次。 使用這個方法，當您有新的使用者時，您必須重新執行批次指派，才能將原則指派給新的使用者。
+- **使用 [批次原則](assign-policies.md#assign-a-policy-to-a-batch-of-users) 分派將會議原則直接指派給使用者**。 您一次最多可以為5000使用者指派原則。 如果您的使用者超過5000個，您可以提交多個批次。 使用這個方法，當您有新的使用者時，您必須重新執行批次指派，才能將原則指派給新的使用者。
 
-請記住，在團隊中，使用者會自動取得小組原則類型的全域（組織範圍預設值）原則，除非您建立並指派自訂原則。 因為學生人數通常是最大的一組使用者，且通常會收到最嚴格的設定，所以建議您執行下列動作：
+請記住，在團隊中，使用者會自動取得團隊原則類型的全域 (組織範圍預設) 原則，除非您建立並指派自訂原則。 因為學生人數通常是最大的一組使用者，且通常會收到最嚴格的設定，所以建議您執行下列動作：
 
 - 建立可讓核心功能（例如私人聊天和會議排程）的自訂原則，並將原則指派給您的員工和教育者。
 - 將自訂原則指派給您的員工和教育版。
-- 編輯並套用全域（組織範圍預設值）原則，以限制學生的功能。
+- 編輯並套用全域 (組織範圍的預設) 原則，以限制學生的功能。
 
 請記住，全域原則會套用至您學校中的所有使用者，直到您建立自訂原則並將它指派給您的員工和教育版。
 
-在本教學課程中，學生將會取得全域會議原則，我們會將名為 EducatorMeetingPolicy 的自訂會議原則指派給教職員工和教育版。 我們假設您已編輯 [全域原則]，為學生調整會議設定，並[建立自訂的原則](policy-packages-edu.md)，以定義員工和教育版的會議體驗。
+在本教學課程中，學生將會取得全域會議原則，我們會將名為 EducatorMeetingPolicy 的自訂會議原則指派給教職員工和教育版。 我們假設您已編輯 [全域原則]，為學生調整會議設定，並 [建立自訂的原則](policy-packages-edu.md) ，以定義員工和教育版的會議體驗。
 
 ![[團隊管理中心] 的 [會議原則] 頁面的螢幕擷取畫面](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
@@ -58,9 +60,9 @@ ms.locfileid: "46534074"
 ### <a name="before-you-get-started"></a>開始之前
 
 > [!IMPORTANT]
-> 當您將原則指派給群組時，原則指派會根據優先順序規則傳播到群組的成員。 例如，如果使用者是直接指派原則（個別或透過批次指派），則該原則會優先于從群組繼承的原則。 這也表示如果使用者有直接指派給他們的會議原則，您必須先移除該使用者的會議原則，才能從安全性群組繼承會議原則。
+> 當您將原則指派給群組時，原則指派會根據優先順序規則傳播到群組的成員。 例如，如果使用者直接指派原則 (或透過批次指派) ，該原則會優先于從群組繼承的原則。 這也表示如果使用者有直接指派給他們的會議原則，您必須先移除該使用者的會議原則，才能從安全性群組繼承會議原則。
 
-在您開始之前，請務必瞭解[優先規則](assign-policies.md#precedence-rules)與[群組指派排名](assign-policies.md#group-assignment-ranking)。 **請務必閱讀並瞭解[關於群組原則指派所需瞭解](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)的概念**。
+在您開始之前，請務必瞭解 [優先規則](assign-policies.md#precedence-rules) 與 [群組指派排名](assign-policies.md#group-assignment-ranking)。 **請務必閱讀並瞭解 [關於群組原則指派所需瞭解](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)的概念**。
 
 您需要為員工完成所有這些步驟，並準備好從安全性群組繼承會議原則。
 
@@ -72,9 +74,9 @@ ms.locfileid: "46534074"
 
 首先，為您的員工和教育版建立一個安全性群組。
 
-使用[學校資料同步](https://docs.microsoft.com/SchoolDataSync/)處理（SDS），您可以[輕鬆地在學校建立安全性群組教育版和學生](https://docs.microsoft.com/SchoolDataSync/edu-security-groups)。 建議您使用 SDS 來建立管理學校的原則所需的安全性群組。
+使用 [學校資料同步](https://docs.microsoft.com/SchoolDataSync/) 處理 (SDS) ，您就可以輕鬆地在學校中 [建立教育版和學生的安全性群組](https://docs.microsoft.com/SchoolDataSync/edu-security-groups) 。 建議您使用 SDS 來建立管理學校的原則所需的安全性群組。
 
-如果您無法在您的環境中部署 SDS，請使用[此 PowerShell 腳本](scripts/powershell-script-security-groups-edu.md)來建立兩個安全性群組，一個適用于已指派教職員授權的所有員工，以及另一個指派了「學生授權」的學生。 您必須定期執行此腳本，以保持群組的新鮮及最新狀態。
+如果您無法在您的環境中部署 SDS，請使用 [此 PowerShell 腳本](scripts/powershell-script-security-groups-edu.md) 來建立兩個安全性群組，一個適用于已指派教職員授權的所有員工，以及另一個指派了「學生授權」的學生。 您必須定期執行此腳本，以保持群組的新鮮及最新狀態。
 
 ### <a name="assign-a-policy-to-a-security-group"></a>指派原則給安全性群組
 
@@ -84,27 +86,27 @@ ms.locfileid: "46534074"
 > 目前，使用 Microsoft 團隊系統管理中心群組的原則指派只適用于小組呼叫原則、小組通話寄存原則、團隊原則、團隊即時事件原則、團隊會議原則和團隊訊息原則。 針對其他原則類型，請使用 PowerShell。
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議**  >  **會議原則**]。
-2. 選取 [**群組原則指派**] 索引標籤。
-3. 選取 [**新增群組**]，然後在 [**將原則指派給群組**] 窗格中，執行下列動作：
+2. 選取 [ **群組原則指派** ] 索引標籤。
+3. 選取 [ **新增群組**]，然後在 [ **將原則指派給群組** ] 窗格中，執行下列動作：
 
     ![顯示會議原則之 [編輯設定] 窗格的螢幕擷取畫面](media/batch-group-policy-assignment-edu-group.png)
-    1. 在 [**選取群組**] 方塊中，搜尋並新增包含您的員工與教育者的安全性群組。
-    2. 在 [**選取排名**] 方塊中，輸入**1**。
-    3. 在 [**選取原則**] 方塊中，選取 [ **EducatorMeetingPolicy**]。
+    1. 在 [ **選取群組** ] 方塊中，搜尋並新增包含您的員工與教育者的安全性群組。
+    2. 在 [ **選取排名** ] 方塊中，輸入 **1**。
+    3. 在 [ **選取原則** ] 方塊中，選取 [ **EducatorMeetingPolicy**]。
     4. 選取 **[** 套用]。
 
-若要移除群組原則指派，請在 [原則] 頁面的 [**群組原則指派**] 索引標籤上，選取 [群組指派]，然後選取 [**移除**]。
+若要移除群組原則指派，請在 [原則] 頁面的 [ **群組原則指派** ] 索引標籤上，選取 [群組指派]，然後選取 [ **移除**]。
 
 若要變更群組指派的排名，您必須先移除 [群組原則指派]。 然後，按照上述步驟，將原則指派給群組。
 
 #### <a name="using-powershell"></a>使用 PowerShell
 
 > [!NOTE]
-> 目前，對於所有團隊原則類型，使用 PowerShell 的群組的原則指派都無法使用。 如需支援的原則類型清單，請參閱[新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
+> 目前，對於所有團隊原則類型，使用 PowerShell 的群組的原則指派都無法使用。 如需支援的原則類型清單，請參閱 [新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接至 Microsoft 團隊 PowerShell 模組
 
-執行下列動作以安裝[團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)（如果尚未安裝）。 請確定您已安裝版本1.0.5 或更新版本。
+執行下列動作，以安裝 [團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams) (（如果尚未安裝）) 。 請確定您已安裝版本1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -120,7 +122,7 @@ Connect-MicrosoftTeams
 
 ##### <a name="assign-a-policy-to-a-group"></a>指派原則給群組
 
-執行下列動作，將名為 EducatorMeetingPolicy 的會議原則指派給包含您的員工和教育者的安全性群組，並將作業排名設定為1。 您可以使用 [物件識別碼]、[會話初始通訊協定（SIP）位址] 或 [電子郵件地址] 來指定安全性群組。 在這個範例中，我們使用電子郵件地址（staff-faculty@contoso.com）。
+執行下列動作，將名為 EducatorMeetingPolicy 的會議原則指派給包含您的員工和教育者的安全性群組，並將作業排名設定為1。 您可以使用物件識別碼、會話初始通訊協定 (SIP) 位址或電子郵件地址來指定安全性群組。 在這個範例中，我們使用 (staff-faculty@contoso.com) 的電子郵件地址。
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
@@ -128,15 +130,15 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 ### <a name="remove-a-policy-that-was-directly-assigned-to-users"></a>移除直接指派給使用者的原則
 
-請記住，如果使用者是直接指派原則（個別或透過批次指派），則該原則優先。 這表示如果使用者有直接指派給他們的會議原則，您必須先移除該使用者的會議原則，才能從安全性群組繼承會議原則。
+請記住，如果使用者是在個別或透過批次作業) 直接指派原則 (，該原則會優先取得優先順序。 這表示如果使用者有直接指派給他們的會議原則，您必須先移除該使用者的會議原則，才能從安全性群組繼承會議原則。
 
-若要深入瞭解，請參閱將[原則指派給群組所需注意的事項](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+若要深入瞭解，請參閱將 [原則指派給群組所需注意的事項](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 請依照下列步驟移除直接指派給您的員工和教育版的會議原則。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接至 Microsoft 團隊 PowerShell 模組
 
-執行下列動作以安裝[團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)（如果尚未安裝）。 請確定您已安裝版本1.0.5 或更新版本。
+執行下列動作，以安裝 [團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams) (（如果尚未安裝）) 。 請確定您已安裝版本1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -147,6 +149,7 @@ Install-Module -Name MicrosoftTeams
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 出現提示時，請使用您用來連線至 Azure AD 的相同管理員認證登入。
 
 #### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>取消指派直接指派給使用者的原則
@@ -160,7 +163,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-在這個範例中，會從名為 user_ids.txt 之文字檔的使用者清單中移除會議原則。 
+在這個範例中，會從名為 user_ids.txt 之文字檔的使用者清單中移除會議原則。
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -192,11 +195,11 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 #### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>連線到適用于圖形模組與團隊 PowerShell 模組的 Azure AD PowerShell
 
-在您執行本文中的步驟之前，您必須先安裝並聯機至 [圖形] 的 Azure AD PowerShell （依指派的授權）及 Microsoft 團隊 PowerShell 模組（將原則指派給那些使用者）。
+在您執行本文中的步驟前，您必須安裝並聯機至 Azure AD PowerShell for Graph 模組 (，以透過其指派的授權) 來識別使用者，以及將原則指派給) 使用者的 Microsoft 團隊 PowerShell 模組 (。
 
 ##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安裝並連接至 Azure AD PowerShell for Graph 模組
 
-開啟提升許可權的 Windows PowerShell 命令提示字元（以系統管理員身分執行 Windows PowerShell），然後執行下列動作以安裝適用于 Graph 模組的 Azure Active Directory PowerShell。
+開啟提升許可權的 Windows PowerShell 命令提示字元 (以系統管理員身分執行 Windows PowerShell) ，然後執行下列動作來安裝適用于 Graph 模組的 Azure Active Directory PowerShell。
 
 ```powershell
 Install-Module -Name AzureAD
@@ -210,11 +213,11 @@ Connect-AzureAD
 
 出現提示時，請使用您的系統管理員認證登入。
 
-若要深入瞭解，請參閱[使用 Azure Active Directory PowerShell For Graph 模組進行](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)連線。
+若要深入瞭解，請參閱 [使用 Azure Active Directory PowerShell For Graph 模組進行](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)連線。
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接至 Microsoft 團隊 PowerShell 模組
 
-執行下列動作以安裝[團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)（如果尚未安裝）。 請確定您已安裝版本1.0.5 或更新版本。
+執行下列動作，以安裝 [團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams) (（如果尚未安裝）) 。 請確定您已安裝版本1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -225,6 +228,7 @@ Install-Module -Name MicrosoftTeams
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 出現提示時，請使用您用來連線至 Azure AD 的相同管理員認證登入。
 
 #### <a name="identify-your-users"></a>識別您的使用者
@@ -247,7 +251,7 @@ M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 在這個範例中，輸出顯示教職員授權 SkuId 是「e97c048c-37a4-45fb-ab50-922fbf07a370」。
 
 > [!NOTE]
-> 若要查看教育版 Sku 和 SKU 識別碼的清單，請參閱[教育 sku 參考](sku-reference-edu.md)。
+> 若要查看教育版 Sku 和 SKU 識別碼的清單，請參閱 [教育 sku 參考](sku-reference-edu.md)。
 
 接著，我們會執行下列動作來找出擁有此授權的使用者，並將它們一起收集。
 
@@ -310,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **我不熟悉 PowerShell for 團隊。何處可以深入瞭解？**
 
-如需使用 PowerShell 來管理團隊的概覽，請參閱[團隊 PowerShell 概覽](teams-powershell-overview.md)。 如需本文中使用的 Cmdlet 的詳細資訊，請參閱：
+如需使用 PowerShell 來管理團隊的概覽，請參閱 [團隊 PowerShell 概覽](teams-powershell-overview.md)。 如需本文中使用的 Cmdlet 的詳細資訊，請參閱：
 
 - [新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
 - [CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)

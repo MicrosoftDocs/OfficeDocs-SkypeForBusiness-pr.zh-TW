@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523420"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611847"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
@@ -59,7 +59,7 @@ Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站�
 
 |Partner|合作夥伴解決方案|
 |----|---|
-|![代表 Polycom RealConnect 的標誌](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
+|![代表 Poly RealConnect 的標誌](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
 |![代表 Pexip 無窮大的標誌](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 團隊的 Pexip 無窮大</a> | 
 |![代表 BlueJeans 閘道的標誌](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 團隊的 BlueJeans 閘道</a> |
 |![代表 Cisco CVI 的標誌](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft 團隊適用的 Cisco Webex 影片整合</a>|

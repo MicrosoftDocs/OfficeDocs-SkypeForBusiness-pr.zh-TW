@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d370bec6eb8a3319427c934593016f2b85d6c26
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521380"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611457"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 
-您可以指派或移除 Microsoft 團隊產品授權，在使用者層級管理團隊的存取權。 貴組織中的每位使用者都必須擁有團隊授權，才能使用團隊。 您可以在建立新的使用者帳戶時指派團隊授權給新使用者，或是使用現有帳戶指派給使用者。
+您可以指派或移除 Microsoft 團隊產品授權，在使用者層級管理團隊的存取權。 除了以匿名方式加入團隊會議之外，貴組織中的每位使用者都必須擁有團隊授權，才能使用團隊。 您可以在建立新的使用者帳戶時指派團隊授權給新使用者，或是使用現有帳戶指派給使用者。
 
 根據預設，當授權方案 (：例如，Microsoft 365 企業版 E3 或 Microsoft 365 Business Premium) 指派給使用者時，系統會自動指派團隊授權，並為團隊啟用使用者。 您可以隨時移除或指派授權，來停用或啟用使用者的團隊。
 
@@ -46,7 +46,7 @@ ms.locfileid: "48521380"
 > 系統管理員必須具備全域系統管理員或使用者管理管理員的許可權，才能管理 Microsoft 團隊授權。
 使用 Microsoft 365 系統管理中心，分別管理個別使用者或一組小組使用者的小組授權。 您可以在 [ **授權** ] 頁面上管理多達20個使用者，同時) 或 [作用中 **使用者** ] 頁面上的 [團隊授權] (。 您選擇的方法取決於您是否要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
-如果您需要管理大量使用者（例如幾百或數千位使用者）的團隊授權，請[在 Azure Active Directory 中使用 Powershell 或群組式授權 (AZURE AD) ](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)。 [use Powershell](#using-powershell) 
+如果您需要管理大量使用者（例如幾百或數千位使用者）的團隊授權，請[在 Azure Active Directory 中使用 PowerShell 或群組式授權 (AZURE AD) ](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)。 [](#using-powershell) 
 
 ### <a name="assign-a-teams-license"></a>指派團隊授權
 
@@ -89,16 +89,23 @@ ms.locfileid: "48521380"
 
 執行下列命令，以顯示貴組織中所有可用的授權方案。 若要深入瞭解，請參閱 [使用 PowerShell 來查看授權及服務](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
 
-      Get-MsolAccountSku
+
+```powershell
+Get-MsolAccountSku
+```
 
 執行下列命令，其中 \<CompanyName:License> 是您的組織名稱，以及您在先前步驟中檢索之授權方案的識別碼。 例如，ContosoSchool： ENTERPRISEPACK_STUDENT。
 
-      $acctSKU="<CompanyName:License>
-      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```powershell
+$acctSKU="<CompanyName:License>
+$x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```
 
 執行下列命令，以針對所有擁有授權方案有效授權的使用者停用團隊。
 
-      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```powershell
+Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```
 
 ## <a name="manage-teams-at-the-organization-level"></a>在組織層級管理團隊
 

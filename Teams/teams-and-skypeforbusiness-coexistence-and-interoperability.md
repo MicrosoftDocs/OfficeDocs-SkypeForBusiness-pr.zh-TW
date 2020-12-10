@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: b952d11c5ebe4b2da7620cc6ed8dd650be0d6bc5
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578496"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611767"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
 
@@ -82,7 +82,7 @@ ms.locfileid: "49578496"
 
 ### <a name="skype-for-business-only"></a>僅商務用 Skype
 
-在此共存模式中，使用者會保持在商務用 Skype （而非小組）中，以進行聊天、會議和通話功能，而且不會將小組用於小組和頻道。 此模式目前可供使用。不過，在目前的實施中，使用者不會自動關閉團隊和頻道。 您可以使用應用程式許可權原則來隱藏小組和頻道，以達到此目的。
+在此共存模式中，使用者會保持在商務用 Skype （而非小組）中，以進行聊天、會議和通話功能，而且不會將小組用於小組和頻道。 此模式目前可供使用。不過，在目前的實施中，使用者不會自動關閉團隊和頻道。 您可以使用應用程式設定策略來隱藏小組和檔案，以達到此目的。
 
 您可以在開始受管理的小組部署之前使用這個模式，避免使用者開始使用「建立準備就緒」等小組，或作為在商務用 Skype 使用者的小組會議中啟用驗證參與的方式（前提是使用者擁有團隊的授權）。
 
