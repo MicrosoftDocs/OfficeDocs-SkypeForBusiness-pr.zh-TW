@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 391f93ba69cb10cb892b398d213a5ba04e692b32
+ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800616"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586602"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -65,7 +65,7 @@ Teams 具有[用戶端](get-clients.md)以供桌面 (Windows、Mac 和 Linux)、
 
 Teams 利用 Microsoft 365 功能來驗證使用者和提供服務。 教職員、講師和學生應建立身分識別，以利於共同作業。 如果身分識別尚不存在，請遵循此程序來建立。
 
-[需要為使用者啟用 Teams 授權](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)，然後[必須將授權指派給使用者](teams-edu-licensing.md)，之後使用者才能使用 Teams 功能。 Teams 依賴其他 Microsoft 365 功能，例如 [Microsoft 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+[必須指派授權給使用者](teams-edu-licensing.md)，他們才能使用 Teams 功能。 Teams 依賴其他 Microsoft 365 功能，例如 [Microsoft 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如需有關如何部署 Office 365 並讓整個教育機構開始使用 Teams 的 IT 指導方針，請參閱[此頁](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 若要取得支援，可以在[這裡](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提出支援票證；若要取得 Teams 的訓練課程，請造訪當地的 Microsoft Store 實體商店與專業人員洽詢。
 
@@ -78,7 +78,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允許使用者建立 Teams
 
-當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊** 。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Microsoft 365 群組和團隊的建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊**。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Microsoft 365 群組和團隊的建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 當您讓每個人 (包括學生) 為班級、研究、群組專案及研究群組建立團隊時，高等教育機構更能從中獲益。 中小學學校可能會想要限制學生建立 Teams，以確保所有學生與學生之間的通訊會在包含成人的論壇內進行。 在此情況下，您可以將 Microsoft 365 群組和 Teams 的建立限制為所有授課者和教職員。
 
@@ -86,13 +86,12 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 使用原則設定使用者體驗
 
-> [!IMPORTANT]
-> 深入了解用來保護學生必須採取的動作，您可以查看[在 Teams 中進行遠距學習時確保學生的安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。 如果您想深入瞭解我們的系統管理員教育界原則建議，您應移至[教育版 Teams 原則和原則套件](policy-packages-edu.md)。
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
-[Teams 原則](teams-policies.md)能讓您控制特定使用者或使用者群組可用的選項。 您可以套用原則來定義應允許哪些人員使用私人交談、私人通話、會議排程、可以共用的內容類型等等。
+> [!NOTE]
+> 深入了解用來保護學生必須採取的動作，您可以查看[使用 Teams 進行遠程學習時確保學生安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。 如果您想深入瞭解我們的系統管理員教育原則建議，您應移至[適用於教育界的 Teams 原則和原則套件](policy-packages-edu.md)。
 
-> [!IMPORTANT]
-> 可以在[適用於教育的 Teams 原則和原則套件](policy-packages-edu.md) (英文) 中找到我們對學生和授課者原則的最新指導方針。
+Teams 原則能讓您控制特定使用者或使用者群組可用的選項。 您可以套用原則來定義應允許哪些人員使用私人聊天、私人通話、會議排程、可以共用的內容類型等等。
 
 **高等教育教職員、授課者和學生** 都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動謄寫會議](meeting-policies-in-teams.md#allow-transcription)。
 
@@ -157,7 +156,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 如果想要讓授課者更輕鬆、快速地建立其所需的班級，建立由授課者引導的團隊是絕佳的部署選項。 我們也建議擁有超過 50 萬個團隊的機構使用此方法來將外部建立的團隊數量最小化。  
 
-此混合式方法可讓您使用 SDS 為每個班級建立群組 (建議)，或由您自己使用 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes) 為他們建立群組。 班級群組備妥之後，授課者就能使用 [建議的班級]  圖示，將其群組轉換成團隊。
+此混合式方法可讓您使用 SDS 為每個班級建立群組 (建議)，或由您自己使用 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes) 為他們建立群組。 班級群組備妥之後，授課者就能使用 [建議的班級] 圖示，將其群組轉換成團隊。
 
 :::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="顯示建議的班級圖示的螢幕擷取畫面":::
 
