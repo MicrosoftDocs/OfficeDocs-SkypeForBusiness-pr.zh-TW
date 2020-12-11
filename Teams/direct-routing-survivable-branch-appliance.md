@@ -3,7 +3,7 @@ title: 直接路由 SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 3204bc58b083f62feca3f878d2189558b69af6bd
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611787"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620724"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>Survivable 分支裝置 (SBA) 以進行直接路由-公開預覽
 
@@ -42,7 +42,7 @@ ms.locfileid: "49611787"
 
 ## <a name="prerequisites"></a>必要條件
 
-SBA 是由 Microsoft 提供給 SBC 供應商的可發佈程式碼，然後將程式碼內嵌在其 SBCs 的固件中。 
+SBA 是由 Microsoft 提供給 SBC 供應商的可配送程式碼，這些廠商接著將程式碼內嵌到其固件中，或另行發佈，讓 SBA 在個別的 VM 或硬體上執行。 
 
 若要使用內嵌 Survivable 分支裝置取得最新的會話邊界控制器固件，請與您的 SBC 廠商聯繫。 此外，還需要下列專案：
 

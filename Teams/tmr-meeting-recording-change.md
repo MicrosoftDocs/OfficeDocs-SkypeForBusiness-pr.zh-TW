@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: ea07079a94e2f76f8833e0854fd0161b4ff9ec09
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578506"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620708"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -32,9 +32,10 @@ ms.locfileid: "49578506"
 |<div style="width:290px">為止&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |引發&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |2020年10月5日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 您可以讓團隊會議原則將會議錄製儲存到商務用 OneDrive 和 SharePoint，而不是 Microsoft Stream (傳統) |
-|從2021年1月11日開始推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|所有新團隊會議錄製將會儲存到商務用 OneDrive 和 SharePoint，除非您修改組織的團隊會議原則，並明確將其設定為 [ **串流**]，否則您需要延遲此變更。 看不到原則報告的資料流程是不夠的。 您必須將原則值明確設定為 [ **資料流程**]。|
-|從2021年3月1日開始推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**企業客戶**<br>無法將新會議錄製儲存至 Microsoft Stream (傳統) ;所有客戶都會自動將會議錄製儲存到商務用 OneDrive 和 SharePoint，即使他們已將其小組會議原則變更為 [ **串流**]。 我們建議客戶將此功能放在這個日期之前，讓他們能夠控制發行的時間。 |
-|開始推出2021年7月7日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**教育客戶**<br>無法將新會議錄製儲存至 Microsoft Stream (傳統) ;所有客戶都會自動將會議錄製儲存到商務用 OneDrive 和 SharePoint，即使他們已將其小組會議原則變更為 [ **串流**]。 我們建議客戶將此功能放在這個日期之前，讓他們能夠控制發行的時間。 我們已更新此排程，提供教育客戶完成進行中的學期的能力。 |
+|從2021年1月7日開始推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|所有新團隊會議錄製將會儲存到商務用 OneDrive 和 SharePoint，除非您修改組織的團隊會議原則，並明確將其設定為 [ **串流**]，否則您需要延遲此變更。 看不到原則報告的資料流程不足。 您必須將原則值明確設定為 [ **資料流程**]。|
+|從2021年1月11日開始推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**僅限 GCC**<br> 雖然您的 GCC 客戶可以選擇從10月5日開始，否則您就無法加入。 除非您已退出宣告，否則此功能將會推出至2021年1月11日之前的所有 GCC 客戶。<br>  <br>從2021年1月11日起，所有新的適用于 GCC 客戶的小組會議錄製都會儲存至商務用 OneDrive 和 SharePoint，除非您修改組織的小組會議原則，並明確將其設定為 [ **串流**]。 <br><br>如果您已退出宣告，但準備好要開啟此功能，您可以將團隊會議原則明確設定為 **商務用 OneDrive** 來執行此動作。 |
+|從2021年3月1日開始推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**企業 & 的 GCC 客戶**<br>**無法將新的會議錄製儲存到 Microsoft Stream (傳統) ; 所有客戶將會自動將會議錄製儲存到商務用 OneDrive 和 SharePoint，即使他們已將其小組會議原則變更為 [串流**]。<br><br> 我們建議客戶將此功能放在這個日期之前，讓他們能夠控制發行的時間。 |
+|開始推出2021年7月7日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**教育客戶**<br>**無法將新的會議錄製儲存到 Microsoft Stream (傳統) ; 所有客戶將會自動將會議錄製儲存到商務用 OneDrive 和 SharePoint，即使他們已將其小組會議原則變更為 [串流**]。<br><br> 我們建議客戶將此功能放在這個日期之前，讓他們能夠控制發行的時間。 我們已更新此排程，提供教育客戶完成進行中的學期的功能。 |
 
 > [!Note]
 > 我們建議企業與教育客戶在您的組織中更容易控制變更，只要您熟悉變更，就可以選擇 [不是等]。
@@ -105,7 +106,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>退出商務用 OneDrive 和 SharePoint 以繼續使用資料流程
 
-即使原則將它設定為 [ **資料流程**]，也可能不會設定。 通常，如果原則沒有設定，則預設設定為 [ **資料流程**]。 不過，如果您想要選擇不使用 SharePoint 或商務用 OneDrive，您必須將原則重設為 [ **資料流程** ]，以確保它是預設值。
+即使原則將它設定為 [ **資料流程**]，也可能不會設定。 通常，如果原則沒有設定，則預設設定為 [ **資料流程**]。 不過，如果您想要選擇不使用 SharePoint 或商務用 OneDrive，您必須將原則重設為 [ **資料流程** ]，以確保該 **資料流程** 是預設值。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -114,7 +115,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ## <a name="permissions-or-role-based-access"></a>許可權或以角色為基礎的存取權
 
 > [!Note]
-> 我們建議收件者必須是已登入的使用者，才能共用團隊會議錄製。 若要在共用 [SharePoint 檔案或資料夾](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)時，在共用檔案時，選取 [ **(貴組織中的人員])** 選項，即可達到此目的。 外部共用並非針對大型檔案或大量檔案的發佈而設計。 為了防止欺詐與濫用案例，您可能會在共用大量資料給外部使用者時遇到問題。
+> 我們建議收件者必須是已登入的使用者，才能共用團隊會議錄製。 當您在 [共用 SharePoint 檔案或資料夾](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)中記錄檔案時，請選取 [ **(貴組織中的人員])** 選項。 外部共用並非針對大型檔案或大量檔案的發佈而設計。 為了防止欺詐與濫用案例，在向外部使用者共用大量資料時，您可能會遇到問題。
 
 |會議類型                               | 按一下 [記錄] 的人員| 錄製的土地在哪裡？                               |誰有存取權？ R/W、R 或共用                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -133,7 +134,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **會議錄製將儲存在哪裡？**
 
-- 對於非頻道會議，錄製會儲存在屬於開始會議錄製之 **Recordings** 人員之商務用 OneDrive 的最上層的資料夾中。 範例
+- 對於非頻道會議，錄製會儲存在屬於開始會議錄製之人員之商務用 OneDrive 的最上層的資料夾中。 範例
 
   <i>錄影機的商務</i> / 用 OneDrive **錄製**
 
@@ -153,11 +154,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **我要如何管理腳本？**
 
-如果客戶加入宣告此預覽，小組會議錄製將不會提供隱藏式輔助字幕，且已遷移至商務用 OneDrive 和 SharePoint。我們正努力在第4季度 CY2020 中，將隱藏式輔助字幕（英文）的標題新增至會議錄製。
+客戶加入宣告此預覽並不會在其小組會議錄製中提供隱藏式輔助字幕，且已遷移至商務用 OneDrive 和 SharePoint。我們正努力在第4季度 CY2020 中，將隱藏式輔助字幕（英文）的標題新增至會議錄製。
 
-小組會議錄製會提供隱藏式輔助字幕，供已自願加入在[小組雲端錄製](cloud-recording.md)中描述的客戶使用。
+小組會議錄製會提供隱藏式輔助字幕，供已自願加入在 [小組雲端錄製](cloud-recording.md)中描述的客戶使用。
 
-[標題] 可協助為所有功能的檢視器建立包含內容。 在擁有者中，您可以隱藏標題，但除非您刪除小組中的標題，否則仍可在團隊中使用這些記錄。 瞭解 [如何開啟或關閉會議錄製](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
+[標題] 可協助為所有功能的檢視器建立包含內容。 在擁有者中，您可以隱藏標題，但除非您刪除小組中的標題，否則仍可在團隊中使用這些記錄。 瞭解 [如何開啟或關閉會議錄製](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)。
 
 錄製會議時，小組會議錄製支援的60天是隱藏式輔助字幕。
 
@@ -175,7 +176,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **如果您打算 deprecating 新增至串流，現有的影片會持續保持不變嗎？**
 
-在不久的將來，不會棄用作為平臺的資料流程。 目前在資料流程中的影片會一直留在這裡，直到我們開始進行遷移為止。 遷移時，這些影片也會遷移到商務用 OneDrive 或 SharePoint。 若要瞭解詳細資訊，請參閱 [這裡](https://docs.microsoft.com/stream/streamnew/classic-migration) 。
+在不久的將來，不會棄用作為平臺的資料流程。 目前在資料流程中的影片會一直留在這裡，直到我們開始進行遷移為止。 遷移時，這些影片也會遷移到商務用 OneDrive 或 SharePoint。 如需詳細資訊，請查看 [ [傳統資料流程遷移](https://docs.microsoft.com/stream/streamnew/classic-migration) ]。
 
 **如何套用保留標籤？**
 
