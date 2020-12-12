@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513b83fdab26d73b42bed692b5ea887629fc1851
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: db0d8fa4a2744f0f3c3591918230e3f569727ae7
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800626"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662198"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>在系統管理中心使用團隊政府範本
 
@@ -44,5 +44,5 @@ ms.locfileid: "48800626"
 
 | 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
 |-------------------|-------|---------------------------------------------------------------------------|
-|協調事件回應|`com.microsoft.teams.template.CoordinateIncidentResponse` |管道 <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>修復</li><li>非常</li></ul> 應用 <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|協調事件回應|`com.microsoft.teams.template.CoordinateIncidentResponse`|管道 <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>修復</li><li>非常</li></ul> 應用 <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

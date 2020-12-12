@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 34a462a38581eec8720bd2184749b842aaa6d06f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424603"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662508"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-center"></a>在系統管理中心使用團隊財務範本
 
@@ -44,7 +44,7 @@ ms.locfileid: "48424603"
 
 | 基底範本類型|baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-| 在全球危機或活動上共同作業|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li></ul>|
+| 在全球危機或活動上共同作業|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>核准要求</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>在銀行分支機搆內共同作業
@@ -53,6 +53,6 @@ ms.locfileid: "48424603"
 
 | 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------ |--|----------------------------------------------------- |
-|在銀行分支機搆內共同作業|`com.microsoft.teams.template.CollaborateWithinABankBranch` |管道 <ul><li>一般<li>公告</li><li>Huddles</li><li>客戶會議</li><li>警告</li><li>技能開發</li><li>貸款處理</li><li>客戶投訴</li><li>Kudos</li><li>有趣的內容</li><li>合規性</li></ul>|
+|在銀行分支機搆內共同作業|`com.microsoft.teams.template.CollaborateWithinABankBranch` |管道 <ul><li>一般<li>公告</li><li>Huddles</li><li>客戶會議</li><li>核准要求</li><li>警告</li><li>技能開發</li><li>貸款處理</li><li>客戶投訴</li><li>Kudos</li><li>有趣的內容</li><li>合規性</li></ul>應用<ul><li>稱讚</li></ul>|
 ||||
 

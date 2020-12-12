@@ -1,7 +1,7 @@
 ---
 title: 版本資訊
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625119"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662398"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -29,6 +29,7 @@ ms.locfileid: "48625119"
 
 |最新發佈 |已發佈至 <br/> Microsoft 網上商店 |
 |--- |--- |
+|4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
@@ -69,27 +70,37 @@ ms.locfileid: "48625119"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 團隊聊天室功能簡介和問題解決
 
+### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020) 
+
+此更新中引入的專案：
+
+- 在團隊會議中與會議參與者共用 HDMI 音訊
+- 當團隊聊天室加入為出席者時，防止以音訊許可權為基礎的 unmuting。 如需詳細資訊，請參閱 [在團隊會議中管理出席者音訊許可權](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
+- 將其他人的影片從團隊聊天室主控台焦點，並在房間顯示幕上使用影片
+
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020) 
 
 此更新中引入的專案：
+
 - 在團隊會議中對螢幕小鍵盤進行喚醒時，修正白色半螢幕
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020) 
 
 此更新中引入的專案：
+
 - 在會議室上方顯示更多含3x3 影片庫的影片  
-- 從 MTR 啟動本機即時隱藏式輔助字幕 
+- 從 MTR 啟動本機即時隱藏式輔助字幕
 - 從具有直接來賓加入的團隊聊天室加入縮放會議 (預覽) 
 
 > [!NOTE]
-> [3x3 影片] 圖庫和 [本機即時] 隱藏式輔助字幕是透過 Microsoft 團隊服務傳送。 在應用程式版本4.5.37.0 及更新版本中，所有的小組聊天室都能使用這些功能。 
-
+> 透過 Microsoft 團隊服務傳送3x3 影片庫及本機即時隱藏式輔助字幕。 所有擁有應用程式版本4.5.37.0 及更新版本的小組聊天室裝置都能使用這些功能。
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020) 
 
 此更新中引入的專案：
-- 在 Microsoft 團隊與 Surface Hub 2 秒之間進行協調的會議 
-- 在安裝 [windows 10 更新 KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) 或 [WINDOWS 10 更新 KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) 時，修正商務用 Skype 登入失敗問題
+
+- 在 Microsoft 團隊與 Surface Hub 2 秒之間進行協調的會議
+- 在安裝 [windows 10 更新 KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) 或 [WINDOWS 10 更新 KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) 時，修正商務用 Skype 登入失敗問題
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020) 
 
@@ -136,7 +147,7 @@ ms.locfileid: "48625119"
 
 此更新中引入的專案：
 
-- 「商務用 Windows 更新」的原則更新 
+- 「商務用 Windows 更新」的原則更新
 - 修正在 Azure 監視器中顯示錯誤的裝置附隨報告
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020) 
@@ -194,15 +205,14 @@ ms.locfileid: "48625119"
 
 此更新中引入的專案：
 
-- 修正「提供意見反應」功能的問題 
+- 修正「提供意見反應」功能的問題
 - 在即將推出的 Microsoft 團隊聊天室裝置升級到 Windows 10 版本1809時進行的優化準備
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019) 
 
 此更新中引入的專案：
 
-- 修正舊版 Windows 10 RS2 組建中受影響的裝置的「在 app 啟動時掛起」錯誤。 
-
+- 修正舊版 Windows 10 RS2 組建中受影響的裝置的「在 app 啟動時掛起」錯誤。
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019) 
 
@@ -213,7 +223,6 @@ ms.locfileid: "48625119"
 - 使用會議室通知的新增功能來改善前廳流覽通知
 - 在 Microsoft 團隊聊天室裝置上未啟用藍牙信標時，移除 [會議室顯示轉換] 圖示的前面
 - 修正團隊會議中的音量控制問題
-
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018) 
 
@@ -227,7 +236,7 @@ ms.locfileid: "48625119"
 
 此更新中引入的專案：
 
--  (會議室的雙顯示器) 支援小組會議 
+-  (會議室的雙顯示器) 支援小組會議
 
 ### <a name="40310-10162018"></a>4.0.31.0 (10/16/2018) 
 
@@ -262,6 +271,7 @@ ms.locfileid: "48625119"
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018) 
 
 此更新中引入的專案：
+
 - 此更新可在會議室系統裝置上啟用商務用 Skype *和* 團隊會議支援。 應用更新之後，小組預設為關閉狀態。 系統管理員可以在裝置設定或透過遠端 xml push 在本機啟用團隊。
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018) 
@@ -293,7 +303,7 @@ ms.locfileid: "48625119"
 
 ### <a name="311000-03162018"></a>3.1.100.0 (03/16/2018) 
 
-此更新中引入的專案： 
+此更新中引入的專案：
 
 - 已更新應用程式以改善遙測
 
@@ -311,11 +321,7 @@ ms.locfileid: "48625119"
 - 錯誤/損毀修正以改善穩定性
 - 支援可變大小的主控台
 - 週邊音訊處理卸載 (其他媒體 whitelisting) 
-- 使 IT 專業人員能夠使用 Windows 10 版本1709（更新版及更新版本）來建立自己動手影像的優化。 
-
-<!--### 3.1.97.0 (00/00/0000)
-Introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
+- 使 IT 專業人員能夠使用 Windows 10 版本1709（更新版及更新版本）來建立自己動手影像的優化。
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017) 
 
@@ -335,7 +341,7 @@ Introduced in this update:
 
 此更新中引入的專案：
 
-- 在 Surface Pro (2017) 平板電腦上執行 
+- 在 Surface Pro (2017) 平板電腦上執行
 - 支援 Windows 10 企業版 Creator 的更新 (英文語言、組建 1703) 
 - [CRESTRON SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock 硬體支援
 -  (Crestron) 的環境控制項 OEM 支援
@@ -358,7 +364,6 @@ Introduced in this update:
 - 已在會議加入可靠性方面改良遙測
 - 改良的 OMS 報告
 - IT 管理員可遠端設定裝置的能力
- <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017) 
 
@@ -369,7 +374,7 @@ Introduced in this update:
 
 ### <a name="release-to-market-1272016"></a>發佈至市場 (12/7/2016) 
 
-** (s) 的功能：**
+**(s) 的功能：**
 
  **專為商務用 Skype 建立**
 
@@ -380,7 +385,7 @@ Introduced in this update:
 - 支援商務用 Skype PSTN 會議和 PSTN 通話，以取代您聊天室中的獨立會議電話
 
  **轉換任何會議室**
- 
+
 - 專用 Skype 會議應用程式已針對表格觸控控制器的中央和大房間顯示器進行優化
 - 在房間顯示器或投影機的前方重複使用現有投資
 - 從 huddle 空間到大型會議室，在所有類型的會議空間中都能運作
@@ -388,7 +393,7 @@ Introduced in this update:
 - 內建的有線攝取，可將專案桌面共用到聊天室和 Skype 會議
 
  **輕鬆部署、易於管理**
- 
+
 - 當裝置在會議室中偵測到其他人時，系統會自動醒來顯示器的 [永遠開啟裝置]
 -  (通用 Windows 平臺) Skype 會議應用程式的簡單部署及更新 UWP
 - Windows AppLocker 會將裝置鎖定至 Skype 會議應用程式
@@ -397,7 +402,7 @@ Introduced in this update:
 - 由於您熟悉的 Skype 使用者介面，因此最終使用者的低訓練努力
 - 在 Surface Pro 4 平板電腦上執行
 
-<a name="See"> </a> 
+<a name="See"> </a>
 ## <a name="see-also"></a>另請參閱
 
 [Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

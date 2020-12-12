@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650876"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661898"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -81,7 +81,7 @@ Microsoft 團隊與數個 Microsoft 365 和 Office 365 服務搭配使用，可�
 - 若要在 Microsoft 團隊中建立小組，必須為使用者啟用 Microsoft 365 群組建立功能。
 
   > [!IMPORTANT]
-  > 如果您在將使用者移至 [ **僅限團隊** ] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 目前狀態在 Teams 中可正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [ **設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 [**註冊團隊] 做為 office (的聊天 app 需要重新開機 office 應用程式) ** 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
+  > 如果您在將使用者移至 [ **僅限團隊** ] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 目前狀態在 Teams 中可正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [ **設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 [**註冊團隊] 做為 office (的聊天 app 需要重新開機 office 應用程式)** 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>針對內部部署的信箱建立及查看會議的需求
 
@@ -124,6 +124,8 @@ Microsoft 團隊與數個 Microsoft 365 和 Office 365 服務搭配使用，可�
 - 如果您的組織具備合規性需求，以確保所有會議討論都能被發現，您應該在召集人擁有 Exchange 內部部署信箱時，停用 [私人會議]。 如需詳細資訊，請參閱 [允許排程私人會議](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings)。
 
 - 在 Exchange 混合式部署中，無論聊天參與者是否有雲端型信箱或內部部署信箱，都可以搜尋聊天訊息中的內容。 若要深入瞭解，請參閱 [搜尋以雲端為基礎的信箱給內部部署使用者](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要瞭解如何在團隊中搜尋內容，請參閱 [Microsoft 365 規範中心中的內容搜尋](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+
+- 針對目前狀態，Microsoft 團隊必須檢查該信箱是以 Exchange Online 或內部部署的形式託管。 然後服務會決定要存取信箱的位置。 若要讓團隊服務透過 REST API 呼叫將信箱位置檢查至 Exchange Online 服務，您必須執行 Exchange 混合式設定向導來部署 Exchange 混合式環境，如 [使用混合式設定向導建立混合式部署](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid)中所述。
 
 ## <a name="troubleshooting"></a>疑難排解
 

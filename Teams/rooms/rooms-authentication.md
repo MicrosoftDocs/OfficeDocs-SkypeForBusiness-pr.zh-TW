@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊聊天室中的驗證
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: 瞭解如何設定 Microsoft 團隊聊天室的新式驗證
-ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 41a65743e5da851dd8e0197e9382deaf696cd9ec
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308256"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662578"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 團隊聊天室中的驗證
 
@@ -47,7 +47,7 @@ Microsoft 團隊聊天室版本4.4.25.0 及更新版本支援新式驗證。
 1. 在 Microsoft 團隊聊天室裝置上，移至 [ **更多** (**...**) ]。
     
 2. 選取 [ **設定**]，然後輸入裝置管理員的使用者名稱和密碼。
-3. 移至 [ **帳戶** ] 索引標籤，開啟 [ **新式驗證**]，然後選取 [ **儲存並**結束]。
+3. 移至 [ **帳戶** ] 索引標籤，開啟 [ **新式驗證**]，然後選取 [ **儲存並** 結束]。
 
 ### <a name="using-the-xml-config-file"></a>使用 XML 設定檔
 

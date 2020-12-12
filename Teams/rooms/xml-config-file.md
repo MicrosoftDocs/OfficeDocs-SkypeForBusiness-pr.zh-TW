@@ -1,7 +1,7 @@
 ---
 title: 遠端系統管理 Microsoft 團隊聊天室裝置設定
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 由 Microsoft 團隊聊天室裝置使用的預設設定的遠端系統管理，包括套用自訂主題及建立主設定檔案。
-ms.openlocfilehash: def2076398e54137c125489ef4da1fb84e4f57d2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b34d73f90d1a1bce02d6e2a63891d54a19d2a56
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521600"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662268"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -31,7 +31,7 @@ ms.locfileid: "48521600"
   
 ## <a name="create-an-xml-configuration-file"></a>建立 XML 設定檔
 
-任何文字編輯器都可以用來建立設定檔。 **XML 元素**表格說明此範例中顯示的元素 SkypeSettings.xml (需的檔案名) 設定檔。
+任何文字編輯器都可以用來建立設定檔。 **XML 元素** 表格說明此範例中顯示的元素 SkypeSettings.xml (需的檔案名) 設定檔。
   
 ```XML
 <SkypeSettings>
@@ -56,6 +56,9 @@ ms.locfileid: "48521600"
     <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
+    <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
+    <CortanaEnabled>false</CortanaEnabled>
+    <CortanaWakewordEnabled>false</CortanaWakewordEnabled>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -88,7 +91,7 @@ ms.locfileid: "48521600"
 </SkypeSettings>
 ```
 
-如果變數值的類型錯誤，元素沒有順序、元素未閉合，或是發現其他錯誤，則 XML 檔案的 *格式*不正確。 在處理格式不正確的 XML 檔案時，會套用到錯誤發生位置的設定，然後略過檔案的其餘部分。 XML 中的任何未知元素都會被忽略。 如果省略某個參數，則會在裝置上保持不變。 如果參數值無效，則其前一個值會保持不變。
+如果變數值的類型錯誤，元素沒有順序、元素未閉合，或是發現其他錯誤，則 XML 檔案的 *格式* 不正確。 在處理格式不正確的 XML 檔案時，會套用到錯誤發生位置的設定，然後略過檔案的其餘部分。 XML 中的任何未知元素都會被忽略。 如果省略某個參數，則會在裝置上保持不變。 如果參數值無效，則其前一個值會保持不變。
   
 **XML 元素**
 
@@ -115,6 +118,9 @@ ms.locfileid: "48521600"
 | \<AutoAcceptProximateMeetingInvitations>    | 布林值 &#x2777;            | 第一 &#x2776; | 如果為 true，則會自動接受鄰近性會議。 預設為停用。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | \<DualScreenMode\>                          | 布林值 &#x2777;            | 第一 &#x2776; | 如果為 true，則會啟用雙螢幕模式。 否則，裝置會使用單一畫面模式。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | 布林值 &#x2777;            | 第一 &#x2776; | 如果為 true，則在雙螢幕模式中，內容會在兩個畫面上顯示，而不是在會議中。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| \<DisableTeamsAudioSharing\>                  | 布林值 &#x2777;            | 第一 &#x2776; | 在團隊會議中，設定為 true 以停用 HDMI 音訊共用給會議參與者。 預設值為 false。                  |
+| \<CortanaEnabled\>                  | 布林值 &#x2777;            | 第一 &#x2776; | 設定為 true 以啟用 Cortana 語音技能。 除非您的國家或地區支援 Cortana 服務，且連接的音訊外設支援 Cortana，否則此設定不會有任何效果。 預設值為 false。                |
+| \<CortanaWakewordEnabled\>                  | 布林值 &#x2777;            | 第一 &#x2776; | 設定為 true 以啟用 Cortana 喚醒字 "你好小娜"。 除非您的國家或地區支援 Cortana 服務，且連接的音訊外設支援 Cortana，否則此設定不會有任何效果。 預設值為 false。                |
 | \<DisableTacCommunication\>                 | 布林值 &#x2777;            | 第一 &#x2776; | 如果為 true，則所有與團隊系統管理中心裝置管理的通訊都會停用。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | \<SendLogs\>                                | 包裝箱                   | 第一 &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 字串 &#x2778;            |                | 設定當 [提供意見反應] 視窗出現時，可以傳送記錄的選擇性電子郵件地址。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

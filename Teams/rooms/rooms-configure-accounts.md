@@ -1,7 +1,7 @@
 ---
 title: 設定 Microsoft 團隊聊天室的帳戶
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 請閱讀本主題，瞭解如何針對 Exchange 和商務用 Skype 中的 Microsoft 團隊聊天室設定帳戶。
-ms.openlocfilehash: 98507b3c5fb2b2d9383bcbff6ddcbdda0de19b9f
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: e171ef22dd1733c06b03a4a9483f591d73d70cb9
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262480"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662518"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>設定 Microsoft 團隊聊天室的帳戶
  

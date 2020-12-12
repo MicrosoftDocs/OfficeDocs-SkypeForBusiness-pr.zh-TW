@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為您的使用者設定雲端語音信箱。 '
-ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031069"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662208"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定雲端語音信箱
 
@@ -60,18 +60,18 @@ ms.locfileid: "49031069"
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>在組織中啟用受保護的語音信箱
 
-當有人在您的組織中為使用者留下語音信箱訊息時，語音信箱會以電子郵件附件的形式傳送到使用者的信箱。 使用郵件流程規則來套用郵件加密，您可以防止將這些語音信箱訊息轉寄給其他收件者。 當您啟用受保護的語音信箱時，使用者可以撥入其語音信箱信箱，或開啟 Outlook、Outlook 網頁版或 Android 版 Outlook 中的郵件，以聆聽受保護的語音信箱訊息。 受保護的語音信箱訊息無法在商務用 Skype 中開啟。
+當有人在您的組織中為使用者留下語音信箱訊息時，語音信箱會以電子郵件附件的形式傳送到使用者的信箱。 使用郵件流程規則來套用郵件加密，您可以防止將這些語音信箱訊息轉寄給其他收件者。 當您啟用受保護的語音信箱時，使用者可以撥入其語音信箱信箱，或開啟 Outlook、Outlook 網頁版或 Android 版 Outlook 中的郵件，以聆聽受保護的語音信箱訊息。 受保護的語音信箱訊息無法在商務用 Skype 或 Microsoft 團隊中開啟。
 
 如需郵件加密的詳細資訊，請參閱 [電子郵件加密](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
 
 若要設定受保護的語音信箱，請執行下列動作：
 
 1. 移至 https://admin.microsoft.com 並使用具有全域管理員許可權的帳戶登入。
-2. 選取 [ **全部顯示** ]，然後移至 [ **管理員中心** ]  >  **Exchange** 。
-3. 在 Exchange Admin Center 中，選取 [ **郵件流程**  >  **規則** ]。
-4. 選取 [ **+** **新增** ]，然後選取 [ **將 Office 365 郵件加密及版權保護] 套用至郵件** 。
-5. 提供新郵件流程規則的名稱，然後在 [套用 **此規則** ] 底下，選取 **[** 郵件內容]，  >  **其中包含 [**  >  **語音信箱** ] 這類訊息。 選取 **[確定]** 。
-6. 在 **[執行下列** 動作] 底下，選取 **[將 Office 365 郵件加密與版權保護] 給郵件** ，然後選取 [ **選取一個** ]。 在 [ **RMS 範本** ] 底下，選取 [ **不要轉寄** ]。 選取 **[確定]** ，然後選取 [ **儲存** ]。
+2. 選取 [**全部顯示**]，然後移至 [**管理員中心**]  >  **Exchange**。
+3. 在 Exchange Admin Center 中，選取 [**郵件流程**  >  **規則**]。
+4. 選取 [ **+** **新增**]，然後選取 [ **將 Office 365 郵件加密及版權保護] 套用至郵件**。
+5. 提供新郵件流程規則的名稱，然後在 [套用 **此規則**] 底下，選取 **[** 郵件內容]，  >  **其中包含 [**  >  **語音信箱**] 這類訊息。 選取 **[確定]**。
+6. 在 **[執行下列** 動作] 底下，選取 **[將 Office 365 郵件加密與版權保護] 給郵件** ，然後選取 [ **選取一個**]。 在 [ **RMS 範本**] 底下，選取 [ **不要轉寄**]。 選取 **[確定]** ，然後選取 [ **儲存**]。
     > [!NOTE]
     > 如果 **RMS 範本** 清單是空的，您必須設定郵件加密。 如需設定郵件加密的詳細資訊，請參閱下列文章：
     > - [設定新的郵件加密功能](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
@@ -85,7 +85,7 @@ ms.locfileid: "49031069"
 
 預設會啟用語音語音功能，而且預設會針對所有組織和使用者停用「每個語言不過，您可以使用 [ [設定 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) ] 和 [[授與 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) ] Cmdlet 來控制它們。
 
-貴組織中的使用者收到的語音信箱訊息是在託管 Microsoft 365 或 Office 365 組織的地區 transcribed。 您的租使用者主機所在的地區可能不是接收語音信箱訊息的使用者所在的地區。 若要查看您的租使用者所在的地區，請移至 [ [組織設定檔](https://go.microsoft.com/fwlink/p/?linkid=2067339)] 頁面，然後按一下 [ **資料位置** ] 旁的 [ **查看詳細** 資料]。
+貴組織中的使用者收到的語音信箱訊息是在託管 Microsoft 365 或 Office 365 組織的地區 transcribed。 您的租使用者主機所在的地區可能不是接收語音信箱訊息的使用者所在的地區。 若要查看您的租使用者所在的地區，請移至 [[組織設定檔](https://go.microsoft.com/fwlink/p/?linkid=2067339)] 頁面，然後按一下 [**資料位置**] 旁的 [**查看詳細** 資料]。
 
 > [!IMPORTANT]
 > 您無法使用 **CsOnlineVoiceMailPolicy** Cmdlet 來建立用來進行新的新原則遮罩，且無法使用 **remove-CsOnlineVoiceMailPolicy** Cmdlet 來移除現有的原則實例。

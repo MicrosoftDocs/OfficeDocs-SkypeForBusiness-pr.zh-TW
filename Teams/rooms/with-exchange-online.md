@@ -1,7 +1,7 @@
 ---
 title: 使用 Exchange Online 部署 Microsoft 團隊聊天室
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 請閱讀本主題，瞭解如何使用 Exchange Online 和商務用 Skype Server 內部部署來部署 Microsoft 團隊聊天室。
-ms.openlocfilehash: e39a7f2cde6aef7bdee59f2052c789783d62f905
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 82fa0b1b521c7dd2feadcca2030869b746a444aa
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814512"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662308"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft 團隊聊天室
 
@@ -150,7 +150,7 @@ ms.locfileid: "47814512"
 3. 按一下 [Microsoft 團隊聊天室] 帳戶，然後按一下手寫筆圖示，即可編輯帳戶資訊。
 4. 按一下 [ **授權**]。
 5. 在 [ **指派授權**] 中，選取 [商務用 Skype (方案 2]) 或 [商務用 skype] (方案 3) ，視您的授權和企業語音需求而定。 如果您想要在 Microsoft 團隊聊天室使用企業語音，就必須使用 [方案3授權]。
-6. 按一下 [儲存]****。
+6. 按一下 [儲存]。
 
 針對驗證，您應該能夠使用任何商務用 Skype 用戶端登入此帳戶。
 

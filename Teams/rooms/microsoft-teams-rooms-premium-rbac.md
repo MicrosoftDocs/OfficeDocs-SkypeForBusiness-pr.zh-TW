@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft 團隊聊天室 Premium 服務的角色式存取控制
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊聊天室管理服務的角色式存取控制。
 f1keywords: ''
-ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
-ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
+ms.openlocfilehash: d673a20b122af876d95bac9d11a1db0433a396e4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300287"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662598"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>使用 Microsoft 團隊聊天室管理服務的角色型存取控制
 
@@ -34,7 +34,7 @@ ms.locfileid: "47300287"
 
 ## <a name="what-is-a-role"></a>何謂角色？
 
-角色定義授與指派給該角色之使用者的一組許可權。 目前，Microsoft [小組聊天室] 管理服務有三個內建角色： **受管理的服務系統管理員**、 **網站主管**和 **網站技術**。 它們涵蓋貴組織中可能涉及管理您的聊天室的使用者的一些常見案例。
+角色定義授與指派給該角色之使用者的一組許可權。 目前，Microsoft [小組聊天室] 管理服務有三個內建角色： **受管理的服務系統管理員**、 **網站主管** 和 **網站技術**。 它們涵蓋貴組織中可能涉及管理您的聊天室的使用者的一些常見案例。
 
 若要查看角色，請在 Microsoft 團隊聊天室 managed 服務入口網站的左側導覽中，移至 [ **角色**]，然後選取任何角色，即可查看角色的屬性、許可權和作業。  
 

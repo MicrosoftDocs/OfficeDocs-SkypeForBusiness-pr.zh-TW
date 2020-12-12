@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: 本文將說明來賓使用者提供的 Microsoft 團隊功能。
-ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: 本文將說明來賓提供的 Microsoft 團隊功能。
+ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030289"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661888"
 ---
 # <a name="guest-experience-in-teams"></a>團隊中的來賓體驗
 
@@ -44,7 +44,7 @@ ms.locfileid: "49030289"
 
 下表比較組織小組成員及其來賓的可用團隊功能。 [團隊管理員] 控制來賓可用的功能。
 
-|**團隊中的功能**|**組織中的小組使用者**|**來賓使用者**|
+| 團隊中的功能 | 組織中的小組使用者 | 來賓 |
 |:-----|:-----|:-----|
 |建立頻道  <br/>  *小組擁有者控制此設定。*  <br/> |&#x2713;|&#x2713;|
 |參與私人聊天  <br/> |&#x2713;|&#x2713;|
@@ -52,7 +52,7 @@ ms.locfileid: "49030289"
 |張貼、刪除及編輯郵件  <br/> |&#x2713;|&#x2713;|
 |共用頻道檔案  <br/> |&#x2713;|&#x2713;|
 |存取 SharePoint 檔案<br/> |&#x2713;|&#x2713;|
-|附加檔案<br/> |&#x2713;|&#x2713;|
+|附加檔案<br/> |&#x2713;|僅限團隊聊天室|
 |下載私人聊天檔案<br/> |&#x2713;|&#x2713;|
 |在檔案中搜尋<br/> |&#x2713;||
 |共用聊天檔案  <br/> |&#x2713;||
@@ -109,4 +109,4 @@ ms.locfileid: "49030289"
 
 ## <a name="related-topics"></a>相關主題
 
-[將組織保留為來賓使用者](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[將組織保留為來賓](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

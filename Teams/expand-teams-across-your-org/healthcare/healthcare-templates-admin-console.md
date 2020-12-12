@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 使用系統管理中心的 Microsoft 團隊範本，透過提供預先定義的設定、頻道和應用程式範本，快速且輕鬆地建立小組。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800666"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662228"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>在系統管理中心使用團隊醫療保健範本
 
@@ -43,7 +43,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 | 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------ |---|----------------------------------------------------- |
-| 在患者治療上共同作業 |`healthcareWard` | 管道<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人員</li><li>訓練</li></ul> 應用 <ul><li>Wiki</li>|
+| 在患者治療上共同作業 |`healthcareWard` | 管道<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人員</li><li>訓練</li></ul> 應用 <ul><li>Wiki</li><li>清單</li></ul>|
 ||||
 
 ## <a name="hospital"></a>醫院
@@ -52,7 +52,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 | 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|醫院|`healthcareHospital`|管道 <ul><li>一般<li>公告</li><li>合規性</li><li>Custodial</li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|醫院|`healthcareHospital`|管道 <ul><li>一般</li><li>公告</li><li>合規性</li><li>Custodial</li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li><li>清單 </li></ul>|
 ||||
 
 ## <a name="related-topics"></a>相關主題

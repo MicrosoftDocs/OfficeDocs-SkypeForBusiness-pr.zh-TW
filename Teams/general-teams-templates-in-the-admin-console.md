@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a158850a70a0410c9be7cb434d6f0868d68218f5
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: caef10a4e9b659ce18e05df65bf2a441248ec493
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655500"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662068"
 ---
 # <a name="use-general-teams-templates-in-the-admin-center"></a>在系統管理中心使用一般團隊範本
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
 
@@ -46,7 +44,7 @@ ms.locfileid: "48655500"
 
 | 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------ |--|----------------------------------------------------------|
-| 在全球危機或活動上共同作業 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li></ul>|
+| 在全球危機或活動上共同作業 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |管道 <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>外部 comms</li><li>核准要求</li><li>遠端作業</li><li>內部 comms</li><li>外部 comms</li><li>客戶投訴</li><li>Kudos</li><li>主管更新</li></ul>應用 <ul><li>稱讚</li><li>Wiki</li><li>Web</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="adopt-office-365"></a>採納 Office 365
@@ -64,7 +62,7 @@ ms.locfileid: "48655500"
 
 | 基底範本類型| baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------|--|-----------------------------------------------------------|
-| 管理專案| ManageAProject 中的 [.com] 範本  | 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+| 管理專案| `com.microsoft.teams.template.ManageAProject`  | 管道 <ul><li>一般</li> <li>公告</li> <li>資源清單</li> <li>規劃</li></ul> 應用<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>清單</li> </ul> |
 ||||
 
 ## <a name="manage-an-event"></a>管理活動
@@ -84,7 +82,7 @@ ms.locfileid: "48655500"
 
 | 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------|--|-----------------------------------------------------------|
-|板載員工|`com.microsoft.teams.template.OnboardEmployees`  | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li></ul>|
+|板載員工|`com.microsoft.teams.template.OnboardEmployees`  | 管道 <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用<ul><li>Wiki</li><li>社區</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="organize-a-help-desk"></a>組織技術支援中心
@@ -93,5 +91,5 @@ ms.locfileid: "48655500"
 
 | 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------|--|------------------------------------------------------------|
-|組織技術支援中心|`com.microsoft.teams.template.OrganizeHelpDesk`| 管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li></ul> |
+|組織技術支援中心|`com.microsoft.teams.template.OrganizeHelpDesk`| 管道<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>稱讚 </li></ul> |
 ||||

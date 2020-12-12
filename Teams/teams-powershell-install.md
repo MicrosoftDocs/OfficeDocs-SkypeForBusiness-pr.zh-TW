@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f008d154099c57376fca914d576d7c9df4487780
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: cd5b38dd3a43a405794209a9dc7ac4a4468386ef
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814462"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662018"
 ---
 # <a name="install-microsoft-teams-powershell"></a>安裝 Microsoft 團隊 PowerShell
 
@@ -43,7 +43,7 @@ ms.locfileid: "47814462"
 Install-Module MicrosoftTeams
 ```
 
-根據預設，PowerShell 圖庫 (PSGallery) 未設定為 **PowerShellGet**的可信儲存庫。 第一次使用 PSGallery 時，您會看到下列訊息：
+根據預設，PowerShell 圖庫 (PSGallery) 未設定為 **PowerShellGet** 的可信儲存庫。 第一次使用 PSGallery 時，您會看到下列訊息：
 
 ```console
 Untrusted repository
@@ -65,7 +65,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 針對系統上的所有使用者安裝團隊 PowerShell 公用預覽模組需要提升許可權。 在 Windows 中使用 [ **以系統管理員身分執行** ] 或使用 `sudo` macOS 或 Linux 中的命令來啟動 PowerShell 會話。
 
-如果您使用的是 PowerShell 5.1，您必須事先更新 **PowerShellGet** 模組。 更新 **PowerShellGet**之後，請關閉並重新開啟提升許可權的 PowerShell 會話，以確保載入最新的 **PowerShellGet** 。
+如果您使用的是 PowerShell 5.1，您必須事先更新 **PowerShellGet** 模組。 更新 **PowerShellGet** 之後，請關閉並重新開啟提升許可權的 PowerShell 會話，以確保載入最新的 **PowerShellGet** 。
 
 ```powershell
 Install-Module PowerShellGet -Force -AllowClobber
@@ -77,7 +77,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 > 您可以透過執行「Find-Module MicrosoftTeams-AllowPrerelease」，在 [Powershell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams) 或 powershell 中尋找最新的預覽版本。
 
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 ```
 
 ## <a name="install-the-skype-for-business-online-connector"></a>安裝商務用 Skype Online 連接器

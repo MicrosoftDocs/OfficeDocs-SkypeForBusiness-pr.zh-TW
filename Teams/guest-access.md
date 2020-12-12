@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 09090cc2061c3d138af2b3092e987293255a1134
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49476992"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662038"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
@@ -37,7 +37,7 @@ ms.locfileid: "49476992"
 來賓體驗有刻意設計的限制。 如需訪客在小組中能及不能執行之動作的完整清單，請參閱 [比較小組成員和來賓的功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
 
 > [!IMPORTANT]
-> 對於共存的升級模式，來賓存取遵循 Teams 的全組織設定。 這項設定無法變更。
+> 來賓會追蹤共存升級模式的小組組織內設定。 這項設定無法變更。
 
 若要設定來賓存取權，請參閱 [與團隊中的來賓共同](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)作業。 
 
@@ -57,10 +57,10 @@ ms.locfileid: "49476992"
 1. 小組擁有者或 Microsoft 365 系統管理員會 [將來賓新增至小組](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. 來賓會收到來自小組擁有者的歡迎電子郵件，其中具有小組相關資訊，以及現在成為成員預期有什麼優點。
 3. 來賓接受邀請。
-  在 Azure Active Directory 中擁有公司或學校帳戶的來賓使用者，可以接受邀請並直接進行驗證。 其他使用者傳送一次性傳遞程式碼，以驗證其身分識別 (需要) 的一次性 [密碼驗證](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) 。
+  在 Azure Active Directory 中擁有公司或學校帳戶的客人，可以直接接受邀請並驗證。 其他使用者傳送一次性傳遞程式碼，以驗證其身分識別 (需要) 的一次性 [密碼驗證](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) 。
 4. 接受邀請之後，來賓可以[參與小組和頻道](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)、接收及回應頻道訊息、[存取頻道中的檔案](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、參與交談、加入會議、在文件上共同作業等等。 
 
-在 Teams 中，系統會清楚地識別來賓。 來賓使用者的名稱包括標籤 **(來賓)**，頻道包含一個圖示指出小組中有來賓。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。
+在 Teams 中，系統會清楚地識別來賓。 來賓的名稱包括 **(來賓)** 的標籤，而頻道則包含指示小組中有來賓的圖示。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。
   
 來賓隨時可以離開 Teams 內的小組。 如需詳細資訊，請參閱[如何離開小組？](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
@@ -84,7 +84,7 @@ ms.locfileid: "49476992"
 
 [與組織外部人員共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[封鎖特定 Microsoft 365 群組或 Microsoft 團隊小組的來賓使用者](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[封鎖特定 Microsoft 365 群組或 Microsoft 團隊小組的訪客](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [建立安全的來賓共用環境](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 

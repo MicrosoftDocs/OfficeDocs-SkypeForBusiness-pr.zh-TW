@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878487"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662498"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -181,8 +181,7 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 當您遇到資訊保護功能時，Microsoft 365 訂閱、Office 365 訂閱及相關聯的獨立授權將決定可用的功能集。
 
-如需判斷授權必須實現安全性與合規性功能的相關資訊，請參閱 [Office 365 或 Microsoft 365 的授權](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)。
-
+如需判斷授權必須實現安全性與合規性功能的相關資訊，請參閱安全性與合規性功能的 [授權需求](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 。
 > [!NOTE]
 > 在安全性 & 合規性中心中不需要啟用 [內容搜尋] 和 [eDiscovery]，就能正常運作。
 
@@ -190,7 +189,7 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 Teams 中的資料位於與 Microsoft 365 或 Office 365 組織關聯的地理區域中。 若要查看目前支援哪些地區，請參閱 [Microsoft 團隊中資料的位置](location-of-data-in-teams.md)。
 
-如果您需要查看哪個地區駐留您租使用者的資料，請移至 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)  >  **設定**  >  **組織設定檔** 。 向下捲動到 **資料位置** 。
+如果您需要查看哪個地區駐留您租使用者的資料，請移至 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)  >  **設定**  >  **組織設定檔**。 向下捲動到 **資料位置**。
 
 ![資料位置資料表的螢幕擷取畫面，其中包含系統管理中心的團隊](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

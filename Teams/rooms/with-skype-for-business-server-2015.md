@@ -1,7 +1,7 @@
 ---
 title: 使用商務用 Skype Server 部署 Microsoft 團隊聊天室
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 如需如何使用商務用 Skype Server 部署 Microsoft 團隊聊天室的相關資訊，請參閱本主題。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9e827f4d1fc020160b59f26dffde960394c3a69e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9ee33ec1ded7e8461f629c4552236ee60828a168
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905265"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662258"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用商務用 Skype Server 部署 Microsoft 團隊聊天室
   
@@ -43,7 +43,7 @@ ms.locfileid: "43905265"
    Import-PSSession $sessLync
    ```
 
-   請注意，$strExchangeServer 是 Exchange 伺服器的完整功能變數名稱（FQDN），而 $strLyncFQDN 是商務用 Skype Server 部署的 FQDN。
+   請注意，$strExchangeServer 是 Exchange 伺服器 (FQDN) 的完整功能變數名稱，而 $strLyncFQDN 是商務用 Skype Server 部署的 FQDN。
 
 2. 建立會話之後，您可以建立新的信箱並將其設為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這可讓帳戶針對 Microsoft 團隊聊天室進行驗證。
 
@@ -88,9 +88,9 @@ ms.locfileid: "43905265"
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    您需要使用會話初始通訊協定（SIP）位址與專案的網網域控制站
+    您必須使用會話初始通訊協定 (該專案的 SIP) 位址和網網域控制站
 
-7. **可選.** 您也可以透過針對您的帳戶啟用企業語音，來允許 Microsoft 團隊聊天室撥打及接聽公用交換電話網絡（PSTN）電話。 企業語音並非 Microsoft 團隊聊天室的需求，但如果您想要使用 Microsoft 團隊聊天室用戶端的 PSTN 撥號功能，請執行下列動作：
+7. **可選.** 您也可以透過針對您的帳戶啟用企業語音，來允許 Microsoft 團隊聊天室撥打及接收公用交換電話網絡 (PSTN) 電話。 企業語音並非 Microsoft 團隊聊天室的需求，但如果您想要使用 Microsoft 團隊聊天室用戶端的 PSTN 撥號功能，請執行下列動作：
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"

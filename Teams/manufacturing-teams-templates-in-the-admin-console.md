@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 51a28e997e5c7c0b36fb49cd0bb46768b7808a29
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800596"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662218"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在系統管理中心使用小組製造範本
 
@@ -42,7 +42,7 @@ ms.locfileid: "48800596"
 
 使用製造業車間作業團隊集中溝通、存取資源和車間作業。 包括原則與程式檔、訓練影片、安全通知、班次移交程式。
 
-| 基底範本類型|baseTemplateId | 此基礎範本隨附的屬性 |
+| 基底範本類型|baseTemplateId| 此基礎範本隨附的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|品質與安全性|`com.microsoft.teams.template.QualitySafety` |管道 <ul><li>一般<li>公告</li><li>行1</li><li>第2行</li><li>第3行</li><li>安全</li><li>訓練</li><li>保養</li><li>有趣的內容</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|品質與安全性|`com.microsoft.teams.template.QualitySafety` |管道 <ul><li>一般<li>公告</li><li>行1</li><li>第2行</li><li>第3行</li><li>安全</li><li>訓練</li><li>保養</li><li>有趣的內容</li></ul> 應用 <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24e1f440702f10785e42b83c39a53cb14da8739
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800576"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662638"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>在系統管理中心使用團隊零售範本
 
@@ -44,7 +44,7 @@ ms.locfileid: "48800576"
 
 | 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|整理商店| `retailStore`|管道 <ul><li>一般<li>倒班切換</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|整理商店|`retailStore`|管道 <ul><li>一般<li>倒班切換</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
 ||||
 
 ## <a name="manager-collaboration"></a>Manager 共同作業

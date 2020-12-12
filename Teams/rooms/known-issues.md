@@ -1,7 +1,7 @@
 ---
 title: 已知問題
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解 Microsoft 團隊聊天室的已知問題清單，包括更新、使用者介面、硬體、限制及預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 6c32e35f0ea95d81fcb597c18a12a8f48fe4c7b2
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177362"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662628"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -54,25 +54,23 @@ ms.locfileid: "48177362"
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>限制與預期行為
 
-***
+**_
 
 Microsoft 球隊會議室不支援 HDCP 輸入，但已觀察到的是使用 HDMI 攝取功能 (影片、音訊) 的問題。 請務必小心，確定連線至 Microsoft 團隊聊天室的交換器已關閉 HDCP 選項。 
 
-***
+_*_
 
 如果您想要將房間顯示幕正面自動切換到使用中的影片來源 () 例如，當來源從待機模式喚醒時，必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 用來做為會議室顯示的消費者電視需求支援使用消費電子 (CEC) 功能。  根據所選 (可能不支援 CEC 的固定或主控台，請參閱製造商支援檔) ，例如，從 Extron Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)中的一個控制器（例如[HD RX-201-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ），以啟用所需的行為。 
 
-***
+_*_
 
 請務必使用有線 1 Gbps 網路連線，以確保您有所需的頻寬。 
 
-***
+_*_
 
 如果您的 Microsoft 團隊聊天室裝置無法與網域失去信任，您就無法在裝置上進行驗證，也無法開啟 [設定]。 例如，如果您在網域加入後從網域中移除 Microsoft 團隊聊天室，信任就會遺失。 解決方法是使用本機管理員帳戶登入。 
-***
-Microsoft [團隊會議室] 是一個多視窗應用程式，且需要將房間顯示器正面連接到裝置的 HDMI 埠，才能讓 app 正常運作。 如果您正在測試，但尚未購買顯示器，請確定您已連接 HDMI 顯示器，或使用虛擬 HDMI 插頭。
-***
-<a name="See"> </a>  
+_*_ Microsoft [團隊會議室] 是一個多視窗應用程式，且需要將房間顯示器正面連接到裝置的 HDMI 埠，才能讓 app 正常運作。 如果您正在測試，但尚未購買顯示器，請確定您已連接 HDMI 顯示器，或使用虛擬 HDMI 插頭。
+_** <a name="See"> </a>  
 ## <a name="see-also"></a>另請參閱
 
 [Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

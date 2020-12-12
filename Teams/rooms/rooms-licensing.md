@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊聊天室授權
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 團隊聊天室中不同類型的通話與會議功能可用的授權。
-ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 37f47e9b89abd87837b02f8a67c3c82eaa9c7a5c
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416843"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662478"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>團隊會議室授權更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共用通訊裝置的授權解決方案
 
-Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft 團隊聊天室、Microsoft Surface Hub 以及 Microsoft 團隊共同作業橫條圖）授權會議，並針對每個裝置進行通話。
+Microsoft 擁有專用的 SKU 來授權會議，並針對會議室裝置呼叫每個裝置， (例如 Microsoft 團隊聊天室、Microsoft Surface Hub，以及適用于 Microsoft 團隊) 的共同作業條。
 
 ||會議室 SKU |  
 |:--- |:---: |
@@ -46,7 +46,7 @@ Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft �
 |頻道可用性 | EA、EAS、CSP、 <br/>網頁 Direct |
 | | | |
 
-&sup1;可用性及包含的分鐘數可能會依地區而有所不同。 若要驗證服務可用性，請參閱[音訊會議和通話方案的國家和地區可用性](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 消耗費用可能適用于其他服務，例如免付費電話、國內方案的國際分鐘等。客戶可以停用這些功能來避免額外帳單。  
+&sup1;可用性及包含的分鐘數可能會依地區而有所不同。 若要驗證服務可用性，請參閱  [音訊會議和通話方案的國家和地區可用性](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 消耗費用可能適用于其他服務，例如免付費電話、國內方案的國際分鐘等。客戶可以停用這些功能來避免額外帳單。  
 
 &sup2;在主權雲彩中無法使用  
 
@@ -62,7 +62,7 @@ Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft �
 > [!NOTE]
 > 所設定的聊天室必須是使用者物件，且已指派這些授權。
 
-|  | 您有 Microsoft 團隊或商務用 Skype Online <br/> 以下是您需要購買的專案：   |您有商務用 Skype Server 2015/2019 （內部部署或混合式）。 <br/> 以下是您需要購買的專案：|
+|  | 您有 Microsoft 團隊或商務用 Skype Online <br/> 以下是您需要購買的專案：   |您的商務用 Skype Server 2015/2019 (內部部署或混合式) 。 <br/> 以下是您需要購買的專案：|
 |:-----|:-----|:-----|
 |加入排程的會議  | 會議室 SKU  |商務用 Skype Server 標準版 CAL  |
 |啟動點對點會議 | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server 企業版 CAL|
@@ -74,4 +74,4 @@ Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft �
 > [!NOTE]
 > 如果您已將現有的授權指派給房間系統，這些將會在不中斷的情況下繼續運作。 現有授權到期後，您應該移至使用新的會議室 SKU。  
 
- **使用正確版本的 Windows 10**：適用于想要將 windows 10 影像部署到裝置的客戶，請參閱[設定 Microsoft 團隊聊天室主控台](https://docs.microsoft.com/microsoftteams/room-systems/console)。 您可以從[大量授權服務中心](https://www.microsoft.com/Licensing/servicecenter/)取得複本。
+ **使用正確版本的 Windows 10**：適用于想要將 windows 10 影像部署到裝置的客戶，請參閱 [設定 Microsoft 團隊聊天室主控台](https://docs.microsoft.com/microsoftteams/room-systems/console)。 您可以從 [大量授權服務中心](https://www.microsoft.com/Licensing/servicecenter/)取得複本。
