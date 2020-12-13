@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文說明實施 Microsoft Cloud 語音信箱服務的優點、規劃考慮和需求。 如需設定雲端語音信箱的詳細資訊，請參閱設定雲端語音信箱。
-ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 8a75c670448cf69cf6d9d772c670c9451fd94f80
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359129"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662088"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>規劃內部部署使用者的雲端語音信箱服務
 
@@ -96,7 +96,7 @@ ms.locfileid: "47359129"
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | 商務用 Skype Server 2019 | Exchange Server UM | Exchange Server UM | 雲端語音信箱 | 雲端語音信箱 |
-| 商務用 Skype Server 2015 | Exchange Server UM | Exchange Server UM | 雲端語音信箱 | 雲端語音信箱 |
+| 商務用 Skype Server 2015 | Exchange Server UM | Exchange Server UM | 不支援 | 雲端語音信箱 |
 | Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 不支援 | 雲端語音信箱 |
 
 Microsoft 建議下列遷移路徑：

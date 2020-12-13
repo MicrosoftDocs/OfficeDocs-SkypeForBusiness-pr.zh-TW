@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420923"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611467"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -35,7 +35,7 @@ ms.locfileid: "49420923"
 |功能    | 最大限制 |
 |-----------|---------------|
 |一位使用者可以建立的小組數目 | 受限於 250 的物件限制&sup1;         |
-|一位使用者可以加入成為成員的小組數目|1,000&sup2;|
+|一位使用者可以加入成為成員的團隊數目|1,000&sup2;|
 |一個小組中的成員數目 | 10,000<sup>5</sup>     |
 |每個小組擁有者人數 | 100   |
 |一個租用戶中允許的全組織小組數目 | 5     |
@@ -45,6 +45,7 @@ ms.locfileid: "49420923"
 |每個小組的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
 |每個小組的私人頻道數量    |30| (包含已刪除的頻道)&sup3;
 |私人頻道中的成員數目    |250|
+|可匯入小組中的通訊群組清單、安全性群組或 Office 365 群組的大小上限    |3,500|
 |Office 365 群組中可轉換成小組的成員數目上限    |10,000<sup>5</sup>     |
 |頻道交談貼文大小 | 每篇貼文約 28 KB<sup>4</sup> |
 
@@ -127,7 +128,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 |功能     | 最大限制 |
 |------------|---------------|
 |會議中的人數 (可以聊天和撥入)  | 350 |
-|聊天視訊或音訊通話中的人數 | 20 |
+|在聊天索引標籤上開始的聊天視訊或音訊通話中的人數 | 20 |
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
 
@@ -179,7 +180,7 @@ Outlook 2013 傳統型應用程式和更新版本中支援 Outlook 中的 Teams 
 Microsoft Teams 中的每個小組在 SharePoint Online 中都有一個小組網站，小組中的每個頻道在預設小組網站的文件庫中都有一個資料夾。在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。
 
 > [!NOTE]
-> 每個[私人頻道](https://docs.microsoft.com/microsoftteams/private-channels)都有自己的 SharePoint 網站集合。
+> 每個[私人頻道](https://docs.microsoft.com/microsoftteams/private-channels)都有自己的 SharePoint 網站 (先前稱之為 “網站集合)。
 
 如果您的租用戶中未啟用 SharePoint Online，Microsoft Teams 使用者就無法一律在小組中共用的檔案。私人聊天中的使用者也無法共用檔案，因為該功能需要商務用 OneDrive (其綁定至 SharePoint 授權)。
 
@@ -190,10 +191,10 @@ Microsoft Teams 中的每個小組在 SharePoint Online 中都有一個小組網
 |功能                 |Microsoft 365 商務基本版  |Microsoft 365 商務標準版   |Office 365 企業版 E1  |Office 365 企業版 E3  |Office 365 企業版 E5  |Office 365 企業版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |儲存空間                 |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB   |每個組織 1 TB，加上每個購買授權 10 GB |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB            |
-|Teams 檔案的儲存空間 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |
+|Teams 檔案的儲存空間 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |
 |檔案上傳限制 (每個檔案)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-頻道受資料夾所支援，而資料夾位於針對小組建立的 SharePoint Online 網站集合中，因此頻道內的檔案索引標籤會共用所屬小組的儲存空間限制。
+頻道可由針對小組建立的 SharePoint Online 網站 (先前稱之為 "網站集合”) 內的資料夾進行備份，因此 [頻道] 內的檔案索引標籤會共用所屬小組的儲存空間限制。
 
 如需詳細資訊，請參閱 [SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
 
