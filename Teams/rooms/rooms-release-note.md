@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
+ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662398"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49670747"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -75,8 +75,12 @@ ms.locfileid: "49662398"
 此更新中引入的專案：
 
 - 在團隊會議中與會議參與者共用 HDMI 音訊
+- Cortana 語音技能 (預覽) 
 - 當團隊聊天室加入為出席者時，防止以音訊許可權為基礎的 unmuting。 如需詳細資訊，請參閱 [在團隊會議中管理出席者音訊許可權](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
 - 將其他人的影片從團隊聊天室主控台焦點，並在房間顯示幕上使用影片
+
+> [!NOTE]
+> 您可以在美國的租使用者選取音訊週邊用 Cortana 語音技能。 將來將新增其他國家或地區。 如需詳細資訊，請參閱 [小組中的 Cortana 語音協助](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020) 
 
