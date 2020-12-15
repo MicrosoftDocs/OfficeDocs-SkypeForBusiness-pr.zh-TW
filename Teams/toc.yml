@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: 如何推出 Teams
   href: How-to-roll-out-teams.md
-- name: 開始使用
+- name: 入門
   items:
     - name: 概觀
       href: get-started-with-teams-quick-start.md
@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: 設定Skype 會議應用程式以搭配使用 Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: 小組認可應用程式可用性
+      href: approval-admin.md
 - name: 會議和召集會議
   items:
     - name: 快速入門 - 會議與即時活動
@@ -877,7 +879,7 @@
   items:
     - name: 概觀
       href: adopt-microsoft-teams-landing-page.md
-    - name: 開始使用
+    - name: 入門
       href: teams-adoption-get-started.md
     - name: 階段 1 - 開始使用
       items:
@@ -917,7 +919,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: 升級至 Teams
   items:
-    - name: 開始使用
+    - name: 入門
       href: upgrade-start-here.md
     - name: 關於升級架構
       href: upgrade-framework.md
