@@ -13,22 +13,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文將討論如何設定您的組織和小組聊天室裝置，以支援加入 Cisco WebEx 和縮放的協力廠商會議。
-ms.openlocfilehash: 8079b6fc231bf30a654e2513af55a806433eb83f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 82369c534a616796382b1de69e37c64f15392f9b
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662358"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682382"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>啟用團隊聊天室裝置以加入協力廠商會議
 
-Microsoft 團隊會議室裝置支援加入協力廠商線上會議的單一觸控體驗。 啟用時，您可以使用小組聊天室裝置加入在 Cisco WebEx 和縮放比例上託管的會議，就像您加入在 Microsoft 團隊中主持的<sup>會議一樣輕鬆</sup> 。
+Microsoft 團隊會議室裝置支援加入協力廠商線上會議的單一觸控體驗，也稱為直接來賓加入。 啟用時，您可以使用小組聊天室裝置加入在 Cisco WebEx 和縮放中託管的會議，就像您加入託管于 Microsoft 團隊中的會議一樣輕鬆。
 
 您必須先執行下列動作，才能從團隊聊天室裝置加入協力廠商會議：
 
-1. 設定團隊聊天室裝置的 Exchange Online 聊天室信箱，以處理協力廠商會議的邀請
-2. 確定貴組織沒有任何原則可讓您無法連線至協力廠商會議服務
-3. 設定團隊室裝置以允許協力廠商會議
+1. 設定團隊聊天室裝置的 Exchange Online 聊天室信箱，以處理協力廠商會議的邀請。
+2. 請確定貴組織沒有任何原則可讓您無法連線至協力廠商會議服務。
+3. 將您的小組室裝置設定為允許協力廠商會議。
 
 下列各節說明如何執行這些步驟。
 
@@ -43,7 +43,8 @@ Microsoft 團隊會議室裝置支援加入協力廠商線上會議的單一觸�
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
-3. 尋找與您的小組聊天室裝置相關聯的聊天室信箱名稱，並記下其 UPN
+    
+3. 尋找與您的小組聊天室裝置相關聯的聊天室信箱名稱，並記下其 UPN。
 
 4. 找到聊天室信箱的 UPN 之後，請執行下列命令。 取代 `<UserPrincipalName>` 為會議室信箱的 UPN：
 
@@ -77,10 +78,10 @@ Microsoft 團隊會議室裝置支援加入協力廠商線上會議的單一觸�
 
 若要使用觸控式螢幕設定團隊聊天室裝置，請執行下列動作：
 
-1. 在 Microsoft 團隊聊天室裝置上，選取 [**更多 ...** ]。
-2. 選取 [ **設定**]，然後輸入裝置管理員的使用者名稱和密碼
-3. 移至 [ **會議** ] 索引標籤，然後選取 [ **Cisco WebEx**]、[ **縮放比例**<sup>1</sup>] 或兩者
-4. 如果您想要使用與會議室信箱相關聯的使用者名稱和電子郵件地址來加入會議，請選取 [**加入會議室資訊**]
+1. 在 Microsoft 團隊聊天室裝置上，選取 [ **更多 ...**]。
+2. 選取 [ **設定**]，然後輸入裝置管理員的使用者名稱和密碼。
+3. 移至 [ **會議** ] 索引標籤，然後選取 [ **Cisco WebEx**]、[ **縮放**] 或兩者。
+4. 如果您想要使用與會議室信箱相關聯的使用者名稱和電子郵件地址來加入會議，請選取 [ **加入會議室資訊**]。
 5. 如果您想要使用替代的使用者名稱和電子郵件地址加入會議，請選取 [ **加入自訂資訊** ]，然後輸入您想要使用的使用者名稱和電子郵件地址。
 6. 選取 [ **儲存並** 結束]。 您的裝置將會重新開機。
 
@@ -94,7 +95,7 @@ Microsoft 團隊會議室裝置支援加入協力廠商線上會議的單一觸�
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-若要啟用 [縮放 <sup>1</sup> ] 會議，請將 `ZoomMeetingsEnabled` XML 元素設定為 **True**，如下所示。
+若要啟用 [縮放會議]，請將 `ZoomMeetingsEnabled` XML 元素設定為 **True**，如下所示。
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
@@ -113,4 +114,3 @@ Microsoft 團隊會議室裝置支援加入協力廠商線上會議的單一觸�
 > [!NOTE]
 > 若要從團隊聊天室裝置加入 Cisco WebEx 會議，必須使用 Cisco WebEx web 應用程式版本 WBS 40.7 或更新版本來託管 Cisco 會議。
 
-<sup>1</sup> [縮放會議] 目前只有透過技術存取計畫來選取 Microsoft 團隊聊天室客戶 (輕觸) 。

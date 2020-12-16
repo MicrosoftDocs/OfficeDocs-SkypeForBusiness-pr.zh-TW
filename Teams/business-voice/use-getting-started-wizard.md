@@ -34,7 +34,7 @@ ms.locfileid: "49030609"
 
 Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快速設定，以撥打及接聽電話。 如果您是剛起步的小型企業，精靈可在幾分鐘內幫助您啟動並運作電話號碼、通話功能表、問候以及更多。 如果您是已建立電話語音解決方案的較大型企業，精靈可幫助您設定試驗，因此在推行到所有人之前，可先讓少數使用者嘗試商務語音。 無論是哪一種方式，精靈完成後，您就可以開始使用商務語音！
 
-建議您在開始使用精靈之前，先閱讀本文。 當您準備好執行精靈時，請在 [開始使用 Microsoft 365 商務語音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)頁面選取 **[開始使用]** 。 請使用建立訂閱所用的帳戶登入，或其他全域系統管理員的帳戶登入。
+建議您在開始使用精靈之前，先閱讀本文。 當您準備好執行精靈時，請在 [開始使用 Microsoft 365 商務語音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)頁面選取 **[開始使用]**。 請使用建立訂閱所用的帳戶登入，或其他全域系統管理員的帳戶登入。
 
 > [!IMPORTANT]
 > 只有當您的使用者信箱位於 Microsoft 365 中時，才能使用 Microsoft Teams 和商務語音。  不支援內部部署 Exchange Server 上的信箱。

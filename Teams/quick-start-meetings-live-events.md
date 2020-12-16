@@ -26,7 +26,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/18/2020
 ms.locfileid: "49130624"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 中的會議和即時活動
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
 Microsoft Teams 有 2 個集會方式 - 會議和即時活動。請使用此文章來快速推出和設定組織的會議和即時活動。
 

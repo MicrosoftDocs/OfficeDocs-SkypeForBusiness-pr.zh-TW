@@ -32,13 +32,13 @@ ms.locfileid: "49031229"
 
 Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組織認為預設設定就能滿足其需求。本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
 
-若要開始使用，請觀看我們簡短的 Teams 聊天、團隊和頻道影片 (4 分 30 秒)：
+若要開始使用，請觀看我們的簡短 Teams 聊天、團隊和頻道影片 (4 分 30 秒)：
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *2019 年 11 月的新增功能*
  - 您現在可以[使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。Advisor for Teams (預覽) 會引導您完成 Teams 的推出。在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。
- - [適用於 IT 的 Microsoft Teams 基本資訊 YouTube 頻道](https://aka.ms/MicrosoftTeamsforIT)，包括簡短 (8-10 分鐘) 影片，其中說明如何推出、設定及管理 Teams。
+ - [適用於 IT YouTube 頻道的 Microsoft Teams 基本版](https://aka.ms/MicrosoftTeamsforIT)，包括告訴您如何推出、設定及管理 Teams 的簡短 (8-10 分鐘) 影片。
 
 > [!TIP]
 > 建議您在您的 Teams 初始推出中包含我們的精選應用程式，例如 Planner。在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
@@ -46,7 +46,7 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
  > [!Note]
  > 如需有關不同平台上 Teams 功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
-## <a name="chat-deployment-prerequisites"></a>聊天部署先決條件
+## <a name="chat-deployment-prerequisites"></a>聊天部署必要條件
 
 在您的組織中推出 Teams 之前，請先用點時間確認您的環境已針對 Teams 備妥。請參閱[針對 Teams 準備組織的網路](prepare-network.md)，並對您的環境進行任何必要的變更。
 
@@ -82,7 +82,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="messaging-policies"></a>訊息原則
 
-管理原則可控制 Teams 中的使用者可使用的聊天及頻道訊息功能。例如，誰可以編輯和刪除已傳送的郵件、誰可以使用聊天、誰可以在交談中使用 Meme 等等。依預設，使用者會獲指派全域訊息原則，且所有功能都會 **開啟** 。您可以使用預設的全域原則或是為組織中的人員建立一或多個自訂訊息原則。 
+管理原則可控制 Teams 中的使用者可使用的聊天及頻道訊息功能。例如，誰可以編輯和刪除已傳送的郵件、誰可以使用聊天、誰可以在交談中使用 Meme 等等。依預設，使用者會獲指派全域訊息原則，且所有功能都會 **開啟**。您可以使用預設的全域原則或是為組織中的人員建立一或多個自訂訊息原則。 
 
 |問問自己|動作 |
 |------------|-------|
@@ -105,7 +105,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您可以使用來賓存取設定來控制來賓使用者可以或不能使用的功能。來賓存取依預設為關閉。若要深入了解，請參閱 [Teams 中的來賓存取](https://docs.microsoft.com/microsoftteams/guest-access)。
 
 > [!NOTE]
-> 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
+> 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
 
 
 |問問自己|動作 |
@@ -146,7 +146,7 @@ Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預�
 
 Teams 提供大量的第一方 (Microsoft 提供) 和第三方應用程式，用來吸引使用者、支援生產力，並將常用的商務服務整合到 Teams 中。從 Teams 市集取得應用程式。Teams 中的應用程式預設會開啟。 
 
-若要深入了解如何在 Teams 中推出和管理應用程式，請參閱我們深入的[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)指導方針。
+若要深入了解如何在 Teams 中推出和管理應用程式，請參閱我們的深入[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)指引。
 
 ## <a name="additional-deployment-decisions"></a>其他部署決策
 

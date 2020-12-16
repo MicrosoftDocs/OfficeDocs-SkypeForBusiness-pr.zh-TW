@@ -41,14 +41,14 @@ Microsoft Teams 系統管理中心的 Teams 報告可讓您深入了解 Teams �
 
 若要檢視這些報告，您必須是 Microsoft 365 或 Office 365、Teams 服務系統管理員或商務用 Skype 系統管理員的全域系統管理員。請移至 Microsoft Teams 系統管理中心，在左側瀏覽窗格中選取 [分析與報告]，然後在 [報告] 下選擇您要執行的報告。
 
-- **Teams 使用狀況報告** ：此報告提供 Teams 使用活動的概覽，包括作用中使用者和頻道總數，以及每個小組中作用中使用者和頻道、來賓和訊息的數量。 
+- **Teams 使用狀況報告**：此報告提供 Teams 使用活動的概覽，包括作用中使用者和頻道總數，以及每個小組中作用中使用者和頻道、來賓和訊息的數量。 
 
     ![Teams 使用狀況報告的螢幕擷取畫面](media/teams-reports-teams-usage.png "Microsoft Teams 系統管理中心的 Teams 使用狀況報告螢幕擷取畫面")     
-- **Teams 使用者活動報告** ：此報告可讓您深入了解使用者參與的活動類型，例如透過 1:1 通話來通訊的人數、頻道訊息，以及私人聊天訊息。 
+- **Teams 使用者活動報告**：此報告可讓您深入了解使用者參與的活動類型，例如透過 1:1 通話來通訊的人數、頻道訊息，以及私人聊天訊息。 
 
     ![Teams 使用者活動報告的螢幕擷取畫面](media/teams-reports-user-activity.png "Microsoft Teams 系統管理中心的 Teams 使用者活動報告螢幕擷取畫面") 
 `
-- **Teams 裝置使用狀況報告** ：此報告會顯示使用者連線至 Teams 的方式，包括外出時在行動裝置上使用 Teams 的人數。 
+- **Teams 裝置使用狀況報告**：此報告會顯示使用者連線至 Teams 的方式，包括外出時在行動裝置上使用 Teams 的人數。 
 
     ![Teams 裝置使用狀況報告的螢幕擷取畫面](media/teams-reports-device-usage.png "Microsoft Teams 系統管理中心中的 Teams 裝置使用狀況報告螢幕擷取畫面")
 
@@ -57,7 +57,7 @@ Microsoft Teams 系統管理中心的 Teams 報告可讓您深入了解 Teams �
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Teams 活動報告 (Microsoft 365 系統管理中心)
 您也可以透過 Microsoft 365 系統管理中心提供的報告來檢視 Teams 活動。 這些報告屬於 Microsoft 365 系統管理中心的 Microsoft 365 報告，並提供使用者活動和裝置使用狀況的相關資訊。 
 
-若要檢視這些報告，請移至 Microsoft 365 系統管理中心，按一下 **[報告]** > **[使用狀況]** 。 在 **[選取報告]** 底下，按一下 **[Microsoft Teams]** 。 從這裡選擇您要檢視的報告。
+若要檢視這些報告，請移至 Microsoft 365 系統管理中心，按一下 **[報告]** > **[使用狀況]**。 在 **[選取報告]** 底下，按一下 **[Microsoft Teams]**。 從這裡選擇您要檢視的報告。
 
 若要深入了解，請移至 [Teams 使用活動報告](teams-activity-reports.md)。
 

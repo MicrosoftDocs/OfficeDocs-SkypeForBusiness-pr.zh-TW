@@ -28,9 +28,9 @@ ms.locfileid: "49031809"
 <a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通話和聊天
 ======================================================
 
-當您需要與組織外的人員通訊和共同作業時，Microsoft Teams 提供您兩種不同的方式。第一個： **外部存取** (同盟) - 可讓您尋找、通話並與其他網域 (如 contoso.com) 中的使用者聊天。第二個： **來賓存取** - 可讓您使用對方的電子郵件地址，將其新增到您的團隊。您可以像與組織中的任何其他使用者一樣與來賓共同作業。
+當您需要與組織外的人員通訊和共同作業時，Microsoft Teams 提供您兩種不同的方式。第一個：**外部存取** (同盟) - 可讓您尋找、通話並與其他網域 (如 contoso.com) 中的使用者聊天。第二個：**來賓存取** - 可讓您使用對方的電子郵件地址，將其新增到您的團隊。您可以像與組織中的任何其他使用者一樣與來賓共同作業。
 
-如有需要，您可以同時使用外部存取和來賓存取，兩者不互相牴觸。
+您可以同時使用外部存取和來賓存取，兩者不互相牴觸。
 
 以下是更進階的選擇方法 (如需詳細比較，請跳至[比較外部與和來賓存取](#compare-external-and-guest-access))：
 
@@ -52,7 +52,7 @@ Teams 中預設會開啟外部存取，這表示您的組織可以與所有外�
 - 來賓使用者可以比外部存取 (同盟) 使用者存取 Teams 中的更多資源，例如檔案、團隊和頻道。
 - Teams 系統管理員會控制來賓可以 (或無法) 在 Teams 系統管理中心執行的所有動作。若要深入了解，請參閱[管理來賓存取](manage-guests.md)。
 
-如果您已在組織中開啟來賓存取，請從[在團隊中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)開始。
+如果您已在組織中開啟來賓存取，請從[小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)開始。
 
 
 ## <a name="compare-external-and-guest-access"></a>比較外部和來賓存取
@@ -88,7 +88,7 @@ Teams 中預設會開啟外部存取，這表示您的組織可以與所有外�
 <sup>1</sup>前提是已將使用者新增為來賓，且使用者以來賓身分登入來賓租用戶。<br>
 <sup>2</sup>僅透過電子郵件或工作階段初始通訊協定 (SIP) 位址。<br>
 <sup>3</sup>外部 (同盟) 聊天僅限一對一聊天。<br>
-<sup>4</sup> 支援來自兩個不同組織的僅 Teams 到僅 Teams 使用者的一對一聊天。 <br>
+<sup>4</sup>針對來自兩個不同組織的僅限 Teams 對僅限 Teams 使用者，支援一對一聊天。 <br>
 <sup>5</sup> 依預設，外部參與者無法查看撥入的參與者電話號碼。如果您想要維護這些電話號碼的隱私權，請選取 [進入/退出宣告類型 **]** 的 [音調 **]** (這可避免 Teams 將號碼朗讀出來)。若要深入了解，請參閱 [開啟或關閉 Microsoft Teams 中會議的進入和退出宣告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
 
 ## <a name="related-topics"></a>相關主題

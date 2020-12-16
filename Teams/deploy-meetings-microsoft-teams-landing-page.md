@@ -41,9 +41,9 @@ ms.locfileid: "49030799"
 若要深入了解使用者的會議體驗，請參閱 [會議和通話](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。 
 
 
-*2020 年 4 月新增功能* ：會議召集人可以在會議期間按一下會議控制項中的 [結束會議]，結束 Teams 中所有會議參與者的會議。  
+*2020 年 4 月新增功能*：會議召集人可以在會議期間按一下會議控制項中的 [結束會議]，結束 Teams 中所有會議參與者的會議。  
 
-*2019 年 11 月中的新功能* ：您現在可以 [使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams (預覽) 會引導您完成 Teams 的推出，包括會議和召集會議。 在您於 Teams 中成功推出會議和召集會議之前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。
+*2019 年 11 月中的新功能*：您現在可以 [使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams (預覽) 會引導您完成 Teams 的推出，包括會議和召集會議。 在您於 Teams 中成功推出會議和召集會議之前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。
 
  > [!Note]
 > 如需 Teams 會議與不同平台上的會議的詳細資訊，請參閱 [按平台區別的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -60,7 +60,7 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 
 在組織中擴展您的會議部署之前，請用一些時間來檢閱並確認您的環境已備妥，可為使用者提供最佳的體驗。 請檢閱下列資訊，並視需要對您的環境進行任何必要的變更。
 
-若要獲得 Teams 的最佳體驗，組織必須已部署 Exchange Online 和 SharePoint Online，並且必須具有 O365 經驗證的網域，例如 *contoso.com* 。
+若要獲得 Teams 的最佳體驗，組織必須已部署 Exchange Online 和 SharePoint Online，並且必須具有 O365 經驗證的網域，例如 *contoso.com*。
 
 若要將會議擴及整個組織，您應確保所有使用者位置都擁有網際網路存取權，可連線至 Office 365 服務。 您應至少確保已從使用者的位置，將下列常見連接埠設為對網際網路開放：
 
@@ -78,7 +78,7 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 
 ### <a name="teams-administrators"></a>Teams 系統管理員
 
-Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 這些角色為系統管理員提供各種能力。 
+Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。 
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -151,7 +151,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 使用者可以記錄其會議和群組通話，以擷取音訊、視訊和螢幕共用的活動。 您也可以使用自動轉錄的錄製選項，便於使用者播放具有隱藏式輔助字幕的會議錄製，並在文字記錄中搜尋重要的討論項目。 錄製會在雲端中進行，並儲存到 Microsoft Stream，因此使用者可以安全地在整個組織內共用檔案。 若要尋找會議的錄製，請前往會議交談。
 
 >[!Note]
-> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 年初的某刻，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
+> 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶對新會議錄製使用商務用 OneDrive 和 SharePoint。
 
 若要深入了解，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 

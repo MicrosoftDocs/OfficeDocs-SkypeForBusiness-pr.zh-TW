@@ -35,7 +35,7 @@ ms.locfileid: "49030979"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 **[說明]** ，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。 如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
+如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 [說明]，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。 如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
 
 ## <a name="teams-architecture"></a>Teams 架構
 
