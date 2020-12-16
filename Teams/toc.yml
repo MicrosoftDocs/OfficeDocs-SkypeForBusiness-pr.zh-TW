@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: 如何推出 Teams
   href: How-to-roll-out-teams.md
-- name: 入門
+- name: 快速入門
   items:
     - name: 概觀
       href: get-started-with-teams-quick-start.md
@@ -879,7 +879,7 @@
   items:
     - name: 概觀
       href: adopt-microsoft-teams-landing-page.md
-    - name: 入門
+    - name: 快速入門
       href: teams-adoption-get-started.md
     - name: 階段 1 - 開始使用
       items:
@@ -919,7 +919,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: 升級至 Teams
   items:
-    - name: 入門
+    - name: 快速入門
       href: upgrade-start-here.md
     - name: 關於升級架構
       href: upgrade-framework.md
@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: 了解共存和互通性
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: 瞭解電話系統和 PSTN 連線選項
-              href: cloud-voice-landing-page.md
+            - name: PSTN 考量
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 選擇您的升級旅程
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: 舉辦使用者試驗
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Teams 和商務用 Skype 共存
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN 考量
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 共存模式 - 參照
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams 用戶端體驗和遵從共存模式
