@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊中的語音功能
+title: 規劃 Microsoft 團隊的語音方案
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,16 +23,19 @@ search.appverid: MET150
 description: 深入瞭解 Microsoft 團隊雲端語音功能，以及您將針對貴組織所做的部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611695"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686449"
 ---
 # <a name="plan-your-teams-voice-solution"></a>規劃您的小組語音方案 
 
-本文可協助您決定哪一種 Microsoft 語音解決方案適合您的組織。 決定之後，本文會提供內容的藍圖，讓您能夠實施您所選的方案。 
+本文可協助您決定哪一種 Microsoft 語音解決方案適合您的組織。 決定之後，本文會提供內容的藍圖，讓您能夠實施您所選的方案。
+
+> [!NOTE]
+> 如需規劃團隊語音方案的相關指導方針，以將其從商務用 Skype Server 升級至團隊的整體方案，請參閱 [從商務用 skype 內部部署升級至團隊的 PSTN 考慮](upgrade-to-Teams-on-prem-pstn-considerations.md)。
 
 您可能想要最簡單的解決方案 &mdash; 電話系統使用通話方案。 這是 Microsoft 的雲端解決方案，可提供私人分支 Exchange (PBX) 功能，以及呼叫公用交換電話網絡 (PSTN) ，如下列圖表所示。 在這個方案中，Microsoft 是您 PSTN 運營商。
 
@@ -55,7 +58,7 @@ ms.locfileid: "49611695"
 **全是必要的。** 本文中的部分內容適用于所有組織。 例如，所有人都應該閱讀有關電話系統的資訊，並瞭解連線至公用交換電話網絡 (PSTN) 的選項。 
 
 
-| 全部需要 | 描述 |
+| 全部需要 | 說明 |
 | :------------|:-------|
 | [**電話系統**](#phone-system) | Microsoft 365 雲端與 Microsoft 團隊一起啟用呼叫控制和私人分支 Exchange (PBX) 功能的 Microsoft 技術。 |
 | [**公用交換電話網絡 (PSTN) 連接選項**](#public-switched-telephone-network-connectivity-options) | 您可以選擇使用 Microsoft 作為電話運營商，或使用直接路由將您自己的電話運營商連線至 Microsoft 團隊。 與電話系統搭配使用 PSTN 連線選項，讓您的使用者能夠撥打世界各地的電話。|
@@ -66,7 +69,7 @@ ms.locfileid: "49611695"
 
 ![圖2顯示其他語音元件，例如 Microsoft 的電話號碼、撥號方案和通話路由等。](media/voice-consider-additional-components.png)
 
-| 視您的需求而定 | 描述 |
+| 視您的需求而定 | 說明 |
 | :------------|:-------|
 | [**Microsoft 的電話號碼**](#phone-numbers-from-microsoft) | 如何從 Microsoft 取得及管理電話號碼，以及如何將現有號碼轉移至 Microsoft。 如果您需要取得 Microsoft 通話方案的電話號碼、轉移現有號碼、取得服務號碼等，請閱讀這種情況。 |
 | [**撥號方案和呼叫路由**](#dial-plans-and-call-routing) | 如何設定和管理可將撥打的電話號碼轉換成替代格式的撥號方案 (通常是) 的撥號驗證及呼叫路由的 E. 164 格式。 如果您需要瞭解什麼是撥號方案，以及是否需要指定貴組織的撥號方案，請閱讀此資訊。|

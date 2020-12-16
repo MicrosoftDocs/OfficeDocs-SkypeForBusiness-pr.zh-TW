@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由的本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
-ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
+ms.openlocfilehash: 886dd4d14d8393764f3c939991a8959ed4726aa3
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950787"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686459"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>直接路由的本機媒體優化
 
@@ -49,23 +49,23 @@ ms.locfileid: "48950787"
 
 在此討論中，假設 Contoso 在地球上執行多個商務用，如下所示。  (請注意，歐洲及 APAC 區域僅做為範例。 公司可能會有數個不同的地區，有相似的需求。 ) 
  
-- **在歐洲** ，Contoso 在大約30個國家/地區擁有辦事處。 每個 office 都有自己的專用分支 Exchange (PBX) 。 
+- **在歐洲**，Contoso 在大約30個國家/地區擁有辦事處。 每個 office 都有自己的專用分支 Exchange (PBX) 。 
 
   Contoso 已提供一個選項，可將 trunks 集中在一個位置-------------適用于所有30個歐洲辦事處 Contoso 在阿姆斯特丹中部署 SBC，提供足夠的頻寬來執行呼叫（透過集中位置）、將中心 SIP 主幹連線至集中位置，以及開始從阿姆斯特丹開始為所有歐洲位置提供服務。 
 
-- **在 APAC 區域中** ，Contoso 在不同國家/地區擁有多個辦公室。 
+- **在 APAC 區域中**，Contoso 在不同國家/地區擁有多個辦公室。 
 
   在許多國家/地區，公司仍有時間分割分複用 (TDM) 在本機分支辦公室中 trunks。 TDM trunks 的集中化不是 APAC 區域中的一個選項，因此無法切換到 SIP。 假設在 APAC 區域中有超過50個 Contoso 分支辦公室，且有數百個閘道 (SBCs) 。 在這種情況下，由於缺乏公用 IP 位址和/或當地的網際網路 breakouts，因此無法將所有閘道都與直接路由介面配對。 此外，部分國家/地區強加了無法在沒有當地 PSTN 網路連線的情況下完成的法規需求。
 
 根據其業務需求，Contoso 利用本機媒體優化來進行直接路由的兩種方案：
 
-- **在歐洲** ，所有 trunks 都是集中式，而且會根據使用者的位置，在中央 SBC 與使用者之間流動媒體。 
+- **在歐洲**，所有 trunks 都是集中式，而且會根據使用者的位置，在中央 SBC 與使用者之間流動媒體。 
 
   - 如果使用者連線至公司網路的本機子網 (也就是說，使用者是內部) ，媒體會在中央 SBC 的內部 IP 與使用者的團隊用戶端之間流動。 
   
   - 如果使用者在商業網路的界限外-例如，如果使用者使用的是公用無線網際網路連線，則會被視為外部使用者。 在這種情況下，媒體會在中央 SBC 與團隊用戶端的外部 IP 之間流動。
 
-- **在 APAC 區域中** ，集中式 proxy SBC 會與 Microsoft Direct 路由搭配使用，它會在直接路由介面與本機分支辦公室中的下游 SBCs 之間定向媒體。 
+- **在 APAC 區域中**，集中式 proxy SBC 會與 Microsoft Direct 路由搭配使用，它會在直接路由介面與本機分支辦公室中的下游 SBCs 之間定向媒體。 
 
   本機分支辦公室中的下游 SBCs 不會直接在 APAC 中顯示直接路由，但會使用 Set-CSOnlinePSTNGateway Cmdlet 來建立 Microsoft Phone 系統中的虛擬網路拓撲。 如果可能的話，媒體總是保持在本機。 外部使用者在 [團隊用戶端] 與 proxy SBC 的公用 IP 之間流動媒體。
 
@@ -74,7 +74,7 @@ ms.locfileid: "48950787"
 
 若要建立可透過單一中央 SBC 以連線的集中式 SIP 幹線提供 PSTN 服務的解決方案，在所有本機分支機搆中都能使用一組 SBC (centralsbc.contoso.com) 服務;SBC 已將一個集中 SIP 主幹系連到它。 
 
-- 當使用者位於公司的內部網路時，SBC 會提供 SBC 的內部 IP （針對媒體）。
+- 當使用者位於公司的內部網路時，SBC 會提供 SBC 的內部 IP （針對媒體）。 
 
 - 當使用者在商業網路外部時，SBC 會提供 SBC 的外部 (公用) IP。
 
@@ -182,16 +182,19 @@ ms.locfileid: "48950787"
 
 本機媒體優化支援兩種模式：
 
-- **Mode 1：永遠略過** 。 在這種情況下，如果使用者是 internal，則無論內部使用者的實際位置為何，媒體都會流過本機下游 SBC 的內部 IP 位址。例如，在下游 SBC 所在的同一個分支機搆中，或在其他分支辦公室中。
+- **Mode 1：永遠略過**。 在這種情況下，如果使用者是 internal，則無論內部使用者的實際位置為何，媒體都會流過本機下游 SBC 的內部 IP 位址。例如，在下游 SBC 所在的同一個分支機搆中，或在其他分支辦公室中。  
 
-- **Mode 2：僅適用于本機使用者** 。 在此模式中，媒體只有在與下游 SBC 同一個分支機搆中的內部使用者產生時，才會直接流向本機的下游 SBC 內部 IP 位址。 
+- **Mode 2：僅適用于本機使用者**。 在此模式中，媒體只有在與下游 SBC 同一個分支機搆中的內部使用者產生時，才會直接流向本機的下游 SBC 內部 IP 位址。 
 
 為了區分本機媒體優化模式，租使用者管理員必須使用 Set-CSonlinePSTNGateway Cmdlet，將-BypassMode 參數設定為每個 SBC 的 "Always" 或 "OnlyForLocalUsers"。 如需詳細資訊，請參閱 [設定本機媒體優化](direct-routing-media-optimization-configure.md)。  
+
+ > [!NOTE]
+  > 當使用者是內部使用者時， **必須** 在使用者和內部 IP 位址的 SBC 之間進行媒體連線。 在這種情況下，不會對媒體的公用傳輸繼電器進行任何回退，因為 SBC 將提供內部 IP 進行媒體連線。 
 
 ### <a name="mode-1-always-bypass"></a>Mode 1：永遠略過
 
 如果您在分支機搆之間有良好的連線，建議的模式會一直是旁路的。
-
+ 
 例如，假設公司在阿姆斯特丹中有一個集中 SIP 幹線，該主幹會提供30個國家/地區，且在所有30個網站與本機使用者之間有良好的連線能力。 在德國，也有部署本機 SBC 的分支。
 
 德國中的 SBC 可以設定為「永遠不在使用」模式。 不論其位置為何，使用者都會直接透過 (SBC 的內部 IP 位址（例如從華北到德國）連線至 SBC;如需參考) ，請參閱下方圖表。
