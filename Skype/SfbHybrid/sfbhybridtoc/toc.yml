@@ -27,7 +27,7 @@
     - name: Teams 和商務用 Skype 的雲端整合
       href: ../hybrid/cloud-consolidation.md
       items:
-        - name: 更新 Edge 憑證
+        - name: 更新 Microsoft Edge 憑證
           href: ../hybrid/cloud-consolidation-edge-certificates.md
         - name: 更新 AAD Connect 以包含多個樹系
           href: ../hybrid/cloud-consolidation-aad-connect.md
