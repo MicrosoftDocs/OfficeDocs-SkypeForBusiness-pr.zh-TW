@@ -18,7 +18,7 @@ search.appverid: MET150
 description: 瞭解如何針對 Windows 上的 Teams 桌面用戶端應用程式進行安裝和更新問題的疑難排解。
 ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
 ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/28/2020
 ms.locfileid: "47300277"
@@ -31,8 +31,8 @@ ms.locfileid: "47300277"
 
 按照這些步驟檢查是否已順利安裝 Teams 更新。
 
-1. 在 Teams 中，選取您的個人檔案圖片，然後按一下 [關於]**** > [版本]****。
-2. 在同一個功能表上，按一下 [檢查更新]****。
+1. 在 Teams 中，選取您的個人檔案圖片，然後按一下 [關於] > [版本]。
+2. 在同一個功能表上，按一下 [檢查更新]。
 3. 等候應用程式最上方的橫幅，指出需要重新整理 Teams。 此程序下載新版 Teams 後大約一分鐘應該會顯示連結。 橫幅也會讓您知道您是否執行最新的版本，如果是，就不需要更新。
 4. 按一下橫幅中的重新整理連結。
 5. 請等候 Teams 重新啟動，然後重複步驟 1 以查看應用程式是否已更新。
@@ -49,14 +49,14 @@ Teams 安裝好後，Teams 安裝程式會將事件順序記錄到 %LocalAppData
 
 ### <a name="troubleshoot-update-issues"></a>更新問題的疑難排解
 
-成功安裝團隊後，日誌位置會從%LocalAppData%\SquirrelTemp 切換為%LocalAppData%\Microsoft\Teams。 這個位置有兩個需要注意的記錄檔：SquirrelSetup.log 和 logs.txt。
+Teams 成功安裝後，記錄位置會從 %LocalAppData%\SquirrelTemp 切換到 %LocalAppData%\Microsoft\Teams。 這個位置有兩個需要注意的記錄檔：SquirrelSetup.log 和 logs.txt。
 
 - 這個位置的 SquirrelSetup.log 檔是由 Update.exe 寫入，這是一個服務 Teams 應用程式的可執行檔。
 - Logs.txt 檔是 Teams 應用程式 (特別是 Teams.exe) 用來記錄重大的應用程式事件。 它可能會包含失敗資訊。
 
 這些記錄檔包含個人識別資訊 (PII)，因此不會傳送給 Microsoft。
 
-Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移至其設定檔圖片 > [檢查更新]**** 手動檢查更新。 這兩種方法都使用下列事件順序。
+Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移至其設定檔圖片 > [檢查更新] 手動檢查更新。 這兩種方法都使用下列事件順序。
 
 1. **檢查更新**。 Teams 提出 Web 要求，並包括目前的應用程式版本和部署環資訊。 此步驟的目標是取得下載連結。 此步驟的失敗會記錄在 Logs.txt 中。
 2. **下載更新**。 Teams 使用步驟 1 取得的下載連結下載更新。 下載完成後，Teams 會呼叫 Update.exe 來暫存下載。 下載失敗也會記錄在 Logs.txt 中。
@@ -120,7 +120,7 @@ Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移�
 
 疑難排解提示：
 
-- 若要確認這就是您遇到的問題，請結束 Teams (在工作列上以右鍵按一下 Teams，然後按一下 [結束]****)。 然後在 Windows 中開啟工作管理員，查看 Teams 執行個體是否仍在執行。  
+- 若要確認這就是您遇到的問題，請結束 Teams (在工作列上以右鍵按一下 Teams，然後按一下 [結束])。 然後在 Windows 中開啟工作管理員，查看 Teams 執行個體是否仍在執行。  
 - 如果您不在發生此問題的電腦上，請檢查發生此問題的電腦收集的 SquirrelTemp.log，並尋找 "Program: Unable to terminate the process in the log" (程式: 無法終止記錄中的處理程序) 項目。
 - 若要判斷導致 Teams 無法結束的原因，請查看 Dll.txt 和 Handles.txt 記錄。 這些記錄會告訴您導致 Teams 無法結束的處理程序。
 - 導致 Teams 無法結束的另一個可能原因是核心模式檔案系統篩選器驅動程式。 您可以使用 SysInternals 工具 [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump)，執行 ```procdump -mk <pid>``` (其中 <pid> 是從工作管理員取得的處理程序識別碼) 收集核心模式處理程序傾印。 您也可以檢查 Driverquery.txt 記錄檔，查看可能干擾 Teams 的作用中篩選器驅動程式。
