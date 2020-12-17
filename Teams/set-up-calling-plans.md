@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365solution-voice
+- m365solution-scenario
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解如何設定通話方案，包括您地區中提供的 [查看方案]、購買 & 指派授權、取得電話號碼，以及將緊急位址新增 & 位置。
-ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 9e4e48bc2d9efcc0ff4cb1891949de4add6f559d
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788447"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701321"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 
@@ -43,7 +45,7 @@ ms.locfileid: "46788447"
 1. 如果您的 Microsoft 365 或 Office 365 方案中並未包含電話系統功能，您可能需要購買 [ **電話系統** 附加元件授權]。 在您有 **電話系統** 授權之後，請購買 [Microsoft 365 或 Office 365 的通話方案](calling-plans-for-office-365.md)。 請參閱 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)，並購買授權與計畫。 
     
     > [!TIP]
-    > Microsoft 365 或 Office 365 中的**電話系統**授權與通話方案若要查看購買通話方案的選項，您必須先擁有**電話系統**授權。
+    > Microsoft 365 或 Office 365 中的 **電話系統** 授權與通話方案若要查看購買通話方案的選項，您必須先擁有 **電話系統** 授權。
   
 2. 首先指派授權，然後將通話方案指派給貴組織中的人員。 請參閱 [指派 Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
     
@@ -57,12 +59,12 @@ ms.locfileid: "46788447"
 - **使用表單要求新號碼。** 有時候 (視您的國家/地區而定，) 您無法使用 [團隊系統管理中心] 來取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 若是如此，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步驟4：為您的組織新增緊急位址和位置
-<a name="bkmk_add_addresses"> </a>緊急位址必須與電話號碼相關聯。 此關聯發生的時間可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位址的關聯。 在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼，或從目前的服務提供者轉接電話號碼時，您必須將緊急位址與電話號碼產生關聯。 
+<a name="bkmk_add_addresses"></a>緊急位址必須與電話號碼相關聯。 此關聯發生的時間可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位址的關聯。 在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼，或從目前的服務提供者轉接電話號碼時，您必須將緊急位址與電話號碼產生關聯。 
 
 如需緊急通話與管理緊急位址的相關資訊，請參閱 [管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md) ，以及 [新增、變更或移除組織的緊急位置](add-change-remove-emergency-location-organization.md)。
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步驟5：將緊急位址和電話號碼指派給使用者
-<a name="bkmk_add_addresses"> </a>當您在 Office 365 中設定通話方案時，您必須為每位使用者指派電話號碼和緊急位址。 您必須先建立緊急位址，才能將它與電話號碼產生關聯。  如需詳細資訊，請參閱 [指派或變更緊急位址](assign-change-emergency-location-user.md)。
+<a name="bkmk_add_addresses"></a>當您在 Office 365 中設定通話方案時，您必須為每位使用者指派電話號碼和緊急位址。 您必須先建立緊急位址，才能將它與電話號碼產生關聯。  如需詳細資訊，請參閱 [指派或變更緊急位址](assign-change-emergency-location-user.md)。
 
 
 > [!TIP]
@@ -74,7 +76,7 @@ ms.locfileid: "46788447"
 
 Microsoft 建議您傳送郵件，或使用您的公司慣用的通訊方法，告訴使用者他們的新電話號碼。
  
-在 **Microsoft 團隊**中，使用者可以按一下左側導覽中的 [ **來電** ] 來查看他們的電話號碼。 電話號碼會顯示在撥號鍵台的上方。
+在 **Microsoft 團隊** 中，使用者可以按一下左側導覽中的 [ **來電** ] 來查看他們的電話號碼。 電話號碼會顯示在撥號鍵台的上方。
 
 ![按一下 [通話] 後可用選項的螢幕擷取畫面](media/teams-phone-number.png)
 

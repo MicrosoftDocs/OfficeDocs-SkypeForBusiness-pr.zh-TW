@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 [通話品質儀表板] 的詳細資訊，請參閱 Microsoft (CQD) for Microsoft 團隊及商務用 Skype Online。
-ms.openlocfilehash: d0d8e8e70cee355d6086ca67d8d8ee8e02503598
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 5c12e5c72d81f2302d0462f9943e17eee3e0a13a
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897793"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701301"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質儀表板中提供的尺寸和量化指標 (CQD) 
 
@@ -126,13 +126,13 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第一個池  | String  | 已將商務用 Skype Online 池 FQDN 指派給第一個端點。 <br/> **範例值：** pool1 <span></span> <span></span>  | <br/>&bull;  指出端點已登入 Microsoft 團隊或商務用 Skype。 此欄位只會針對使用內部部署商務用 Skype 伺服器部署的串流來填入。 |
 | 第二個池  | String  | 指派給第二個端點的商務用 Skype Online 池 FQDN。 <br/> **範例值：** <span>pool1.lync.com</span>   | &bull; 無法判斷第二個端點的商務用 Skype Online 池。 這可能表示端點已登入內部部署的商務用 Skype Server 部署。  |
 | 是聯盟  | Boolean  | 如果資料流程位於兩個同盟租使用者之間，則為 True，否則為 False。   | <br/>&bull; 無法判斷這是聯盟資料流程 <br/>&bull; 未收集某些信號資料   |
-|地區 | String   |  根據租使用者的 home 區域，部署所在的地區。 <br/> **範例值：** 北美洲 | <br/>&bull; 未報告網路資料 <br/>&bull; 網路不在商業網路中 <br/>&bull; 網路沒有在子網對應資料中定義的區域。 |
+|國家 | String   |  根據租使用者的 home 區域，部署所在的地區。 <br/> **範例值：** 北美洲 | <br/>&bull; 未報告網路資料 <br/>&bull; 網路不在商業網路中 <br/>&bull; 網路沒有在子網對應資料中定義的區域。 |
 |**Stream**| | | |
 | 可用的 QoE 記錄  | Boolean  | 如果至少有一份 [通話/會話] 有可用的 [經驗品質] 報告，則為 True。 只有有可用的 QoE 記錄時，才能使用許多尺寸與測量。 如果通話設定失敗，將無法使用 QoE 記錄。    |   |
 | CDR 記錄可供使用  | Boolean  | 如果至少有一個通話詳細記錄可供通話/會話使用，則為 True。     | |
 | 媒體行標籤  | 整  | 在 SDP 中為媒體線路加上標籤。 使用媒體類型來判斷標籤是用於影片、音訊、應用程式共用，或以影片為基礎的螢幕共用。 <br/> **範例值：** 0  | &bull; 端點未報告此資料。  |
 | 媒體類型  | String  | 媒體類型 (影片、音訊、app 共用或以影片為基礎的螢幕共用) 。 <br/> **範例值：** 音訊 |  |
-|媒體行標籤文字 | String |會話描述通訊協定 (SDP) 與資料流程相對應之媒體線的標籤屬性。 如需詳細資訊，請參閱 [RFC 4574](https://tools.ietf.org/html/rfc4574) 。 <br/> **範例值**： <br/> 主要-音訊<br/> 主要影片<br/> 主要-video1<br/> 主要-video2<br/> 主要-video3<br/> 主要-video4<br/> 主要-video5<br/> 主要-video6<br/> 主要-video7<br/> 主要-video8<br/> 主要-video9<br/> 全景視頻<br/> applicationsharing-影片<br/> 資料   | |
+|媒體行標籤文字 | String |會話描述通訊協定 (SDP) 與資料流程相對應之媒體線的標籤屬性。 如需詳細資訊，請參閱 [RFC 4574](https://tools.ietf.org/html/rfc4574) 。 <br/> **範例值**： <br/> 主要-音訊<br/> 主要影片<br/> 主要-video1<br/> 主要-video2<br/> 主要-video3<br/> 主要-video4<br/> 主要-video5<br/> 主要-video6<br/> 主要-video7<br/> 主要-video8<br/> 主要-video9<br/> 全景視頻<br/> applicationsharing-影片<br/> data   | |
 | 首先是伺服器  | 枚舉 <br/>**可能的值：** <br/>&bull; 端 <br/>&bull; 伺服器  | 指出第一個端點是否為伺服器端點（例如會議服務器） (AVMCU、ASMCU) 或其他媒體伺服器 (中繼伺服器) ，或是用戶端端點。  **範例值：** 端 | |
 | 第二個是伺服器  | 枚舉 <br/>**可能的值：** <br/>&bull; 端 <br/>&bull; 伺服器   | 表示第二個端點是伺服器端點，或是用戶端端點。 <br/>  **範例值：** 端 | |
 | 首先是來電者  | Boolean  | 如果第一個端點是啟動會話的呼叫者，則為 True。   | |
@@ -222,35 +222,35 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第一次傳輸通訊協定 | 列舉字串 | 第一個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/> | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
 | 第二個傳輸通訊協定 | 列舉字串 | 第二個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/> | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
 |**裝置**| |||
-| 第一次捕獲開發人員  | String  | 第一個端點所使用的捕獲裝置名稱。 作為 <br/> **音訊串流** = 麥克風使用的裝置 <br/> **影片串流** = 相機使用的裝置 <br/> 以**影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程** = 空白 <br/> **範例值：** Microsoft LifeChat LX (的耳機麥克風-6000)   | &bull; 端點未報告資料 <br/>&bull; 媒體路徑沒有建立 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用。  |
-| 第二個捕獲開發人員  | String  | 第二個端點所使用的捕獲裝置名稱。  <br/> **音訊串流** = 麥克風使用的裝置 <br/> **影片串流** = 相機使用的裝置 <br/> 以**影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程** = 空白 <br/> **範例值：** Microsoft LifeChat LX (的耳機麥克風-6000)  | <br/>&bull; 端點未報告資料 <br/>&bull; 未建立媒體路徑 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用   |
-| 第一次捕獲開發人員驅動程式  | String  | [製造商：版本] 形式的第一個端點所使用的捕獲裝置驅動程式名稱。 作為 <br/> **音訊串流** = 麥克風使用的驅動程式 <br/> **影片串流** = 相機使用的驅動程式 <br/> 以**影片為基礎的共用和應用程式共用資料流程**= 空白  <br/> **範例值：** Microsoft：10.0.14393。0 | <br/>&bull; 端點未報告資料 <br/>&bull; 媒體路徑沒有建立 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用。  |
-| 第二個捕獲開發人員驅動程式  | String  | 第二個端點的 [製造商：版本] 形式所使用的捕獲裝置驅動程式名稱。 作為 <br/> **音訊串流** = 麥克風使用的驅動程式 <br/> **影片串流** = 相機使用的驅動程式 <br/> 以**影片為基礎的共用和應用程式共用資料流程**= 空白 <br/> **範例值：** Microsoft：10.0.14393。0  | <br/>&bull; 端點未報告資料 <br/>&bull; 媒體路徑沒有建立 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用。  |
+| 第一次捕獲開發人員  | String  | 第一個端點所使用的捕獲裝置名稱。 作為 <br/> **音訊串流** = 麥克風使用的裝置 <br/> **影片串流** = 相機使用的裝置 <br/> 以 **影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程** = 空白 <br/> **範例值：** Microsoft LifeChat LX (的耳機麥克風-6000)   | &bull; 端點未報告資料 <br/>&bull; 媒體路徑沒有建立 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用。  |
+| 第二個捕獲開發人員  | String  | 第二個端點所使用的捕獲裝置名稱。  <br/> **音訊串流** = 麥克風使用的裝置 <br/> **影片串流** = 相機使用的裝置 <br/> 以 **影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程** = 空白 <br/> **範例值：** Microsoft LifeChat LX (的耳機麥克風-6000)  | <br/>&bull; 端點未報告資料 <br/>&bull; 未建立媒體路徑 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用   |
+| 第一次捕獲開發人員驅動程式  | String  | [製造商：版本] 形式的第一個端點所使用的捕獲裝置驅動程式名稱。 作為 <br/> **音訊串流** = 麥克風使用的驅動程式 <br/> **影片串流** = 相機使用的驅動程式 <br/> 以 **影片為基礎的共用和應用程式共用資料流程**= 空白  <br/> **範例值：** Microsoft：10.0.14393。0 | <br/>&bull; 端點未報告資料 <br/>&bull; 媒體路徑沒有建立 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用。  |
+| 第二個捕獲開發人員驅動程式  | String  | 第二個端點的 [製造商：版本] 形式所使用的捕獲裝置驅動程式名稱。 作為 <br/> **音訊串流** = 麥克風使用的驅動程式 <br/> **影片串流** = 相機使用的驅動程式 <br/> 以 **影片為基礎的共用和應用程式共用資料流程**= 空白 <br/> **範例值：** Microsoft：10.0.14393。0  | <br/>&bull; 端點未報告資料 <br/>&bull; 媒體路徑沒有建立 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用。  |
 | 第一次轉譯開發人員  | String  | 第一個端點所使用之轉譯裝置的名稱。 作為 <br/> 音訊資料流程-演講者使用的裝置 <br/> 影片與影片-畫面共用資料流程-顯示器所用的裝置 <br/> 應用程式共用資料流程-空白  <br/> **範例值：** 耳機 Earphone (Microsoft LifeChat LX-6000)  | <br/>&bull; 端點未報告的資料 <br/>&bull; 媒體路徑沒有建立  <br/>&bull; 資料流程是應用程式共用    |
 | 第二個轉譯開發  | String  | 第二個端點所使用之轉譯裝置的名稱。 作為 <br/> 音訊資料流程-演講者使用的裝置 <br/> 影片與影片-畫面共用資料流程-顯示器所用的裝置 <br/> 應用程式共用資料流程-空白 <br/> **範例值：** 耳機 Earphone (Microsoft LifeChat LX-6000)  | <br/>&bull; 端點未報告此資料。 <br/>&bull; 未建立媒體路徑 <br/>&bull; 資料流程是應用程式共用     |
 | 第一個轉譯開發人員驅動程式  | String  | 第一個端點所使用之轉譯裝置驅動程式的名稱。 作為 <br/> 音訊流量-演講者使用的驅動程式 <br/> 以影片與影片為基礎的畫面共用資料流程-顯示器所用的驅動程式 <br/> 應用程式共用資料流程-空白  <br/> **範例值：** Microsoft：10.0.14393。0 | <br/>&bull; 端點未報告此資料 <br/>&bull; 未建立媒體路徑 <br/>&bull; 資料流程是應用程式共用    |
 | 第二個轉譯開發人員驅動程式  | String  | 第二個端點所使用之轉譯裝置驅動程式的名稱。 作為 <br/> 音訊流量-演講者使用的驅動程式 <br/> 以影片與影片為基礎的畫面共用資料流程-顯示器所用的驅動程式 <br/> 應用程式共用資料流程-空白 <br/> **範例值：** Microsoft：10.0.14393。0  | <br/>&bull; 端點未報告此資料 <br/>&bull; 未建立媒體路徑 <br/>&bull; 資料流程是應用程式共用   |
 |**WiFi**|||
-| 第一個 Wi-fi Microsoft 驅動程式  | String  | 第一個端點所報告的 Microsoft WiFi 驅動程式名稱。 根據端點所使用的語言，可能會將值當地語系化。 <br/> **範例值：** Microsoft 託管網路虛擬配接器  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊|
-| 第二個 Wi-fi Microsoft 驅動程式  | String  | 第二個端點所報告的 Microsoft WiFi 驅動程式名稱。 根據端點所使用的語言，可能會將值當地語系化。 <br/> **範例值：** Microsoft 託管網路虛擬配接器  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊|
-| 第一個 Wi-fi 供應商驅動程式  | String  | 第一個端點所報告的 WiFi 驅動程式與提供者名稱。 <br/> **範例值：** Contoso 雙頻無線-AC 驅動程式  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊 |
-| 第二個 Wi-fi 供應商驅動程式  | String  | 第二個端點所報告的 WiFi 驅動程式與提供者名稱。  <br/> **範例值：** Contoso 雙頻無線-AC 驅動程式 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊 |
-| 第一個 Wi-fi Microsoft 驅動程式版本  | String  | 第一個端點所報告的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
-| 第二個 Wi-fi Microsoft 驅動程式版本  | String  | 第二個端點所報告的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
-| 第一個 Wi-fi 供應商驅動程式版本  | String  | 第一個端點所報告的 WiFi 驅動程式的供應商和版本。 <br/> **範例值：** Contoso：15.1.1。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
-| 第二個 Wi-fi 供應商驅動程式版本  | String  | 第二個端點所報告的 WiFi 驅動程式的供應商和版本。 <br/> **範例值：** Contoso：15.1.1。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
-| 第一個 Wi-fi 通道  | String  | 第一個端點使用的 WiFi 通道。  <br/> **範例值：** 10| <br/>&bull; 未使用 WiFi <br/>&bull; 未報告頻道   |
-| 第二個 Wi-fi 通道  | String  | 第二個端點所使用的 WiFi 通道。 <br/> **範例值：** 10  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告頻道  |
-| 第一個 Wi-fi 無線電類型  | String  | 第一個端點所使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11 b。 <br/> **範例值：** 802.11 ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告 WiFi 類型  |
-| 第二個 Wi-fi 無線電類型  | String  | 第二個端點所使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11 b。 <br/> **範例值：** 802.11 ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告 WiFi 類型  |
+| 第一 Wi-Fi Microsoft 驅動程式  | String  | 第一個端點所報告的 Microsoft WiFi 驅動程式名稱。 根據端點所使用的語言，可能會將值當地語系化。 <br/> **範例值：** Microsoft 託管網路虛擬配接器  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊|
+| 第二 Wi-Fi Microsoft 驅動程式  | String  | 第二個端點所報告的 Microsoft WiFi 驅動程式名稱。 根據端點所使用的語言，可能會將值當地語系化。 <br/> **範例值：** Microsoft 託管網路虛擬配接器  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊|
+| 第一 Wi-Fi 供應商驅動程式  | String  | 第一個端點所報告的 WiFi 驅動程式與提供者名稱。 <br/> **範例值：** Contoso 雙頻無線-AC 驅動程式  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊 |
+| 第二 Wi-Fi 供應商驅動程式  | String  | 第二個端點所報告的 WiFi 驅動程式與提供者名稱。  <br/> **範例值：** Contoso 雙頻無線-AC 驅動程式 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊 |
+| 第一 Wi-Fi Microsoft 驅動程式版本  | String  | 第一個端點所報告的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
+| 第二 Wi-Fi Microsoft 驅動程式版本  | String  | 第二個端點所報告的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
+| 第一 Wi-Fi 供應商驅動程式版本  | String  | 第一個端點所報告的 WiFi 驅動程式的供應商和版本。 <br/> **範例值：** Contoso：15.1.1。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
+| 第二 Wi-Fi 供應商驅動程式版本  | String  | 第二個端點所報告的 WiFi 驅動程式的供應商和版本。 <br/> **範例值：** Contoso：15.1.1。0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未報告驅動程式資訊  |
+| 第一個 Wi-Fi 頻道  | String  | 第一個端點使用的 WiFi 通道。  <br/> **範例值：** 10| <br/>&bull; 未使用 WiFi <br/>&bull; 未報告頻道   |
+| 第二 Wi-Fi 通道  | String  | 第二個端點所使用的 WiFi 通道。 <br/> **範例值：** 10  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告頻道  |
+| 第一 Wi-Fi 無線電類型  | String  | 第一個端點所使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11 b。 <br/> **範例值：** 802.11 ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告 WiFi 類型  |
+| 第二 Wi-Fi 無線電類型  | String  | 第二個端點所使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11 b。 <br/> **範例值：** 802.11 ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告 WiFi 類型  |
 | 第一個 DNS 尾碼  | String  | 與第一個端點所報告之網路介面卡相關聯的 DNS 尾碼。 注意：此值可能會報告給任何類型的網路介面卡。 **範例值：** corp. <span></span> <span></span> .com  | <br/>&bull; 端點未報告此值 <br/>  |
 | 第二個 DNS 尾碼  | String  | 與第二個端點所報告之網路介面卡相關聯的 DNS 尾碼。 注意：此值可能會報告給任何類型的網路介面卡。<br/> **範例值：** corp. <span></span> <span></span> .com   | <br/>&bull; 端點未報告此值  |
-| 第一個 Wi-fi 區段  | String  | 由第一個端點所報告的 WiFi 頻帶。 <br/> **範例值：** 5.0 Ghz  | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
-| 第二個 Wi-fi 區段  | String  | 第二個端點所報告的 WiFi 頻帶使用。 <br/> **範例值：** 5.0 Ghz  | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
-| 第一個 Wi-fi 信號強度  | String  | 第一個端點所報告的 WiFi 信號強度（百分比） [0-100]。 <br/> **範例值：** 081： [90-100)   | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
-| 第二個 Wi-fi 信號強度  | String  | 在第二個端點所報告之百分比 [0-100] 中的 WiFi 信號強度。 <br/> **範例值：** 081： [90-100)   | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
-| 第一個 Wi-fi 電池計量  | 範圍 (百分比)   | 以第一個端點所報告之百分比 [0-99] 的估計剩餘電池計量。 依範圍分組的值。 0：表示裝置已插入電源。 <br/> **範例值：** 081： [90-100)  | &bull; 未使用 WiFi <br/>&bull; 未報告費用值   |
-| 第二個 Wi-fi 電池計量  | 範圍 (百分比)   | 以第二個端點所報告之百分比 [0-99] 的估計剩餘電池計量。 依範圍分組的值。 0：表示裝置已插入電源。  <br/> **範例值：** 081： [90-100)  | &bull; 未使用 WiFi <br/>&bull; 未報告費用值  |
+| 第一 Wi-Fi 區段  | String  | 由第一個端點所報告的 WiFi 頻帶。 <br/> **範例值：** 5.0 Ghz  | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
+| 第二 Wi-Fi 區段  | String  | 第二個端點所報告的 WiFi 頻帶使用。 <br/> **範例值：** 5.0 Ghz  | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
+| 第一個 Wi-Fi 信號強度  | String  | 第一個端點所報告的 WiFi 信號強度（百分比） [0-100]。 <br/> **範例值：** 081： [90-100)   | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
+| 第二 Wi-Fi 信號強度  | String  | 在第二個端點所報告之百分比 [0-100] 中的 WiFi 信號強度。 <br/> **範例值：** 081： [90-100)   | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
+| 第一 Wi-Fi 電池計量  | 範圍 (百分比)   | 以第一個端點所報告之百分比 [0-99] 的估計剩餘電池計量。 依範圍分組的值。 0：表示裝置已插入電源。 <br/> **範例值：** 081： [90-100)  | &bull; 未使用 WiFi <br/>&bull; 未報告費用值   |
+| 第二 Wi-Fi 電池計量  | 範圍 (百分比)   | 以第二個端點所報告之百分比 [0-99] 的估計剩餘電池計量。 依範圍分組的值。 0：表示裝置已插入電源。  <br/> **範例值：** 081： [90-100)  | &bull; 未使用 WiFi <br/>&bull; 未報告費用值  |
 |**指標**|||
 | 音訊品質平均  | 範圍 (平均觀念得分 0-5)  | 資料流程的平均網路平均觀點。 代表網路遺失和抖動對收到的音訊品質有何影響。 依範圍分組的值。 <br/> **範例值：** 015： [0.01-0.02)  | &bull; 接收資料流程的端點未報告網路 MOS 降級 <br/>&bull; 資料流程不是音訊資料流程。    |
 | 抖動  | 範圍 (毫秒)   | 資料流程的平均抖動（以毫秒為單位）。 依範圍分組的值。 <br/> **範例值：** 065： [2-3)   | &bull; 接收資料流程的端點未報告抖動資料 |
@@ -265,7 +265,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | Healer FEC 資料包使用比率| 範圍 (比率)   |已使用的轉寄錯誤修正 (FEC) packets 超過收到的 FEC 資料包總數。 如需詳細資訊，請參閱 [2.2.1.12.1 子項目](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) 。  | |
 | 往返行程  | 範圍 (毫秒)   | 在 RFC3550 中以毫秒為單位指定的平均網路傳播往返時間。 依範圍分組的值。 <br/> **範例值：** 070： [15-20)   | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值  |
 | 往返行程最大值  | 範圍 (毫秒)   | RFC3550 中指定的最大網路傳播往返時間（以毫秒為單位）。 依範圍分組的值。 <br/>**範例值：** 098： [350-375)    | <br/>&bull; 端點未計算值 <br/>&bull; 未報告值 |
-| 資料包利用率 | ) 的 (資料包數量 |在會話中傳送 (RTP) 資料包的即時傳輸通訊協定數。|
+| 資料包利用率 | ) 的 (資料包數量 |在會話中傳送 (RTP) 資料包的 Real-Time 傳輸通訊協定數。|
 | 抖動緩衝區大小平均值|數值 (範圍)  |會話期間抖動緩衝區的平均大小。| |
 | 抖動緩衝區大小上限|數值 (範圍) |會話期間抖動緩衝區的大小上限。 |
 | 抖動緩衝區大小最小值|數值 (範圍) |會話期間抖動緩衝區的大小下限。|
@@ -295,7 +295,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 |**音訊**|||
 | 使用的音訊 FEC  | Boolean  | True 表示在通話期間，在某個時刻使用音訊轉寄錯誤修正 (FEC) 。 否則為 False     | &bull; 資料流程不是音訊資料流程 <br/>&bull; 傳送資料流程的端點未報告資料  |
 |**單位**|||
-| ClassifiedPoorCall  | Boolean  | 如果資料流程根據 [ [通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)] 中所列的度量來分類為不良，則為 True。   | &bull; 資料流程沒有報告足夠的度量單位，無法分類為良好或較差   |
+| ClassifiedPoorCall  | Boolean  | 如果通話中的一或多個資料流程根據 [ [通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)] 中所列的度量來分類，則為 True。   | &bull; 通話沒有報告足夠的度量單位，無法分類為良好或較差   |
 | 因 VideoPostFecplr 而導致的視頻不佳  | Boolean  | 如果資料流程根據以下所列的影片文章 FEC PLR 公制閾值分類為不佳，則為 True： [ [通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非視頻資料流程中，將永遠是 False。   | &bull; 端點未報告此資料  <br/>&bull; 資料流程不是視頻資料流程。  |
 | 因 VideoLocalFrameLossPercentageAvg 而導致的視頻不佳  | Boolean  | 如果視頻串流是根據影片本機框架遺失百分比（如下所列的平均指標閾值）來分類，則為 True： [ [通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非視頻資料流程中，將永遠是 False。   | &bull; 端點未報告此資料  <br/>&bull; 資料流程不是視頻資料流程。 |
 | 因 VideoFrameRateAvg 而導致的視頻不佳  | Boolean  | 如果影片串流根據以下所列的影片畫面播放速率平均規格閾值分類，則為 True： [ [通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非視頻資料流程中，將永遠是 False。    | &bull; 端點未報告此資料  <br/>&bull; 資料流程不是影片串流 |
@@ -489,7 +489,7 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 |網路連線詳細資料對 |如何解讀 |
 |:--- |:--- |
 |有線：有線 |第一和第二個端點都使用有線乙太網連線。 |
-|有線： wifi |第一個端點使用有線乙太網連線和第二個端點使用 Wi-fi 連線，或第二個端點使用的是有線乙太網連線，而第二個端點使用 Wi-fi 連線。 |
+|有線： wifi |第一個端點使用有線乙太網連線和第二個端點 Wi-Fi 連線，或使用有線乙太網連線的第二個端點 Wi-Fi 連線。 |
 |： wifi |第一個端點使用 WiFi 連線，而第二個端點所使用的網路連線是未知的，或第二個端點使用 WiFi 連線，而第一個端點所使用的網路連線是未知的。 |
 | | |
 
@@ -634,7 +634,7 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 | 平均 Healer FEC 資料包使用比率|範圍 (比率) |已使用的 FEC packets 的平均比率，超出接收到的 FEC 資料包總數。|
 |平均往返行程 |時間 |在 RFC3550 中以毫秒為單位指定的平均網路傳播往返時間平均值（以毫秒為單位）。 |
 |平均往返行程最大值 |時間 |在 RFC3550 中以毫秒為單位所指定的最大網路傳播往返時間平均值（以毫秒為單位）。 |
- 平均資料包利用率|資料包數目|每秒在會話中傳送之即時傳輸通訊協定 (RTP) 資料包的平均數目。|
+ 平均資料包利用率|資料包數目|平均每秒在會話中傳送的 Real-Time 傳輸通訊協定數 (RTP) 資料包。|
 |平均網路抖動 |時間 |   在會話期間，計算超過20秒視窗的網路抖動平均值。 |
 | 平均網路抖動最大值|時間 |在會話期間，計算超過20秒視窗的最大網路抖動（毫秒）的平均值。  ||
 | 平均網路抖動最小值|時間|在串流會話期間，每秒計算超過20秒的網路抖動值平均值（以毫秒為單位）。| |

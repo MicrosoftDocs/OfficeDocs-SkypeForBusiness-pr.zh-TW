@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477032"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701311"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
@@ -31,7 +31,7 @@ ms.locfileid: "49477032"
 
 ### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>針對 Google Workspace 設定 Microsoft 團隊會議附加元件
 
-使用 Microsoft 團隊會議附加元件可讓 Google 行事曆使用者從 Google Workspace 直接排程並加入 Microsoft 團隊會議。 使用者將能夠存取團隊會議功能，包括影片和音訊會議、螢幕共用、會議聊天、數位白板等。 保持連線與組織，以便在公司、學校和生活中共同完成工作。
+使用 Microsoft 團隊會議附加元件可讓 Google 行事曆使用者從 Google Workspace 直接排程並加入 Microsoft 團隊會議。 使用者將能夠存取團隊會議功能，包括影片和音訊會議、螢幕共用、會議聊天、數位繪圖面板等。 保持連線與組織，以便在公司、學校和生活中共同完成工作。
 
 您必須先由小組管理員啟用 Google Workspace 的 Microsoft 團隊會議附加元件，才能讓租使用者存取 app。 [深入了解](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)。
 

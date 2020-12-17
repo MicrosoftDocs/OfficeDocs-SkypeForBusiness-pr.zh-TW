@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '瞭解如何試用或購買語音會議 (PSTN 會議，) Microsoft 365 或 Office 365 的授權，設定可撥打給人員的電話會議。 '
-ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 547e60b828c7baa36b21b8ad63ae08268c33d4dc
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031269"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701201"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 microsoft 365 for Microsoft 團隊中試用或購買音訊會議
 
@@ -51,7 +51,7 @@ ms.locfileid: "49031269"
 
    - 在購買前先 **試試** 看：您可以註冊 Office 365 企業版 E5 免費試用版，包括音訊會議。 請參閱 [Office 365 企業版 E5 試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **購買** ：請參閱 [Microsoft 團隊附加元件授權] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 。
+   - **購買**：請參閱 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
 3. [指派授權給](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 貴組織中將要排程或領導會議的使用者。
 
