@@ -1,7 +1,7 @@
-<span data-ttu-id="0ff6c-101">外部存取 (同盟) 與來賓存取不同：</span><span class="sxs-lookup"><span data-stu-id="0ff6c-101">External access (federation) and guest access are different:</span></span>
+<span data-ttu-id="e423e-101">外部存取 (同盟) 和來賓存取權的不同點在於：</span><span class="sxs-lookup"><span data-stu-id="e423e-101">External access (federation) and guest access are different:</span></span>
 
-- <span data-ttu-id="0ff6c-102">外部存取可提供整個網域的存取許可權。</span><span class="sxs-lookup"><span data-stu-id="0ff6c-102">External access gives access permission to an entire domain.</span></span>
-- <span data-ttu-id="0ff6c-103">來賓存取權提供個人的存取許可權。</span><span class="sxs-lookup"><span data-stu-id="0ff6c-103">Guest access gives access permission to an individual.</span></span> 
+- <span data-ttu-id="e423e-102">外部存取提供整個網域的存取權限。</span><span class="sxs-lookup"><span data-stu-id="e423e-102">External access gives access permission to an entire domain.</span></span>
+- <span data-ttu-id="e423e-103">來賓存取則提供個人的存取權限。</span><span class="sxs-lookup"><span data-stu-id="e423e-103">Guest access gives access permission to an individual.</span></span> 
 
 
-<span data-ttu-id="0ff6c-104">如需詳細比較，請參閱 [與來自其他組織的使用者通訊](../communicate-with-users-from-other-organizations.md)。</span><span class="sxs-lookup"><span data-stu-id="0ff6c-104">For a detailed comparison, see [Communicate with users from other organizations](../communicate-with-users-from-other-organizations.md).</span></span>
+<span data-ttu-id="e423e-104">如需詳細比較，請參閱[與其他組織的使用者通訊](../communicate-with-users-from-other-organizations.md)。</span><span class="sxs-lookup"><span data-stu-id="e423e-104">For a detailed comparison, see [Communicate with users from other organizations](../communicate-with-users-from-other-organizations.md).</span></span>
