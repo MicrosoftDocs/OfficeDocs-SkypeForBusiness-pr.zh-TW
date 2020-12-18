@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611467"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682352"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -117,13 +117,13 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 > [!IMPORTANT]
 > **Microsoft 365 的即時活動限制增加**
 >
-> **為了支援我們的客戶，直到 2021 年 1 月 1 日，針對 Teams、Stream 和 Yammer 中舉辦的即時活動，我們將會延長臨時的限制增加，其中包括**：
+> **為能持續支援我們客戶的需求，直到 2021 年 6 月 30 日，我們將延長即時活動的暫時性限制增加**：
 >
->- 每個活動最多可有 20,000 位出席者
->- 每個 Teams 租用戶最多可同時舉行 50 個活動
->- 每個廣播最多 16 個小時
+>- 活動支援最多達 20000 個出席者
+>- 不同租用戶可以同時進行 50 個活動
+>- 每個廣播的活動持續時間 (16 小時)
 >
-> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 10 萬位出席者參與的即時活動。小組會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。**2021 年 1 月 1 日之後，需要提高這些限制的客戶將需要購買 [進階通訊附加元件](teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 100,000 位出席者參與的即時活動。小組會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。
 
 |功能     | 最大限制 |
 |------------|---------------|
@@ -163,13 +163,13 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 > [!IMPORTANT]
 > **Microsoft 365 的即時活動限制增加**
 >
-> **為了支援我們的客戶，直到 2021 年 1 月 1 日，針對 Teams、Stream 和 Yammer 中舉辦的即時活動，我們將會延長臨時的限制增加，其中包括**：
+> **為能持續支援我們客戶的需求，直到 2021 年 6 月 30 日，我們將延長即時活動的暫時性限制增加**：
 >
-> - 每個活動最多可有 20,000 位出席者
-> - 每個 Teams 租用戶最多可同時舉行 50 個活動
-> - 每個廣播最多 16 個小時
+>- 活動支援最多達 20000 個出席者
+>- 不同租用戶可以同時進行 50 個活動
+>- 每個廣播的活動持續時間 (16 小時)
 >
-> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 10 萬位出席者參與的即時活動。小組會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。**2021 年 1 月 1 日之後，需要提高這些限制的客戶將需要購買 [進階通訊附加元件](teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可透過 Microsoft 365 輔助計劃來規劃最多 10 萬位出席者參與的即時活動。 小組會評估每個要求，並與您一起判斷可用的選項。 [深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。 
 
 ## <a name="presence-in-outlook"></a>在 Outlook 中的顯示狀態
 
@@ -192,7 +192,7 @@ Microsoft Teams 中的每個小組在 SharePoint Online 中都有一個小組網
 |------------------------|---------|---------|---------|---------|---------|---------|
 |儲存空間                 |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB   |每個組織 1 TB，加上每個購買授權 10 GB |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB            |
 |Teams 檔案的儲存空間 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |
-|檔案上傳限制 (每個檔案)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
+|檔案上傳限制 (每個檔案)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 頻道可由針對小組建立的 SharePoint Online 網站 (先前稱之為 "網站集合”) 內的資料夾進行備份，因此 [頻道] 內的檔案索引標籤會共用所屬小組的儲存空間限制。
 

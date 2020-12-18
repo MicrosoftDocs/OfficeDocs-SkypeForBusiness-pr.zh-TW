@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ecaae0e179423fdbcdbebcb3da6f6f0a25594b6
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: e9d2540fdcd7db51ad982933f9732dab49f8716e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578486"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712311"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
@@ -48,7 +48,7 @@ Microsoft 團隊的功能超出商務用 Skype Online 的功能。 透過將聊�
 
 Skype 消費者服務和商務用 Skype Server 不會受到停用商務用 Skype Online 的影響。
 
-[閱讀](faq-journey.md) 升級至團隊和團隊功能藍圖之程式的常見問題。
+[閱讀](FAQ-journey.yml) 升級至團隊和團隊功能藍圖之程式的常見問題。
 
 ## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>Microsoft 的作用是協助客戶轉至團隊嗎？
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625099"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712301"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -37,13 +37,13 @@ ms.locfileid: "48625099"
 
 從商務用 Skype 升級至小組時，使用者不需要取代先前認證的裝置。  Microsoft 團隊使用者和商務用 Skype 使用者都支援所有認證的裝置，但功能有幾個不同。  此外，認證還針對特定的裝置類別提供進一步的指定。
 
-- 已**使用團隊升級進行商務用 Skype 認證**認證于這個等級的裝置最初是針對商務用 Skype 認證。 若要盡可能為使用者提供盡可能多的存留期值，Microsoft 必須與裝置製造商合作，以盡可能多地整合這些現有的裝置，而不需對原始硬體進行任何變更。 [ *Hookswitch* ] 按鈕會在不在通話時充當 [小組] 按鈕，並且可能包含一段時間的其他功能。  此類別中的裝置可能會攜帶小組認證徽章給行銷資料。
+- 已 **使用團隊升級進行商務用 Skype 認證** 認證于這個等級的裝置最初是針對商務用 Skype 認證。 若要盡可能為使用者提供盡可能多的存留期值，Microsoft 必須與裝置製造商合作，以盡可能多地整合這些現有的裝置，而不需對原始硬體進行任何變更。 [ *Hookswitch* ] 按鈕會在不在通話時充當 [小組] 按鈕，並且可能包含一段時間的其他功能。  此類別中的裝置可能會攜帶小組認證徽章給行銷資料。
 - **針對 Microsoft 團隊認證** 認證于這個階層的裝置會指出最新的裝置已驗證，以獲得不折不扣的小組體驗。 這些裝置可提供預先認證的所有優點，也包含一個含指示燈指標的專用小組按鈕。 在大部分的表單因素中，[團隊] 按鈕會是一個易於尋找的觸覺按鈕和 [小組標誌]。 Microsoft 會繼續與裝置製造商合作，透過固件更新在一段時間內提供新的價值。
 
 ### <a name="special-usage-designations"></a>特殊用途指定
 
 - **開啟 Office 的 [特優] 麥克風** 所有耳機都會經過測試，以提供清晰的音訊，但開啟 office 和其他嘈雜環境會帶來較大的挑戰：您可以清楚地挑選耳機使用者的聲音，但不會傳送其鄰近音效。
-- 會議室**大小**共用裝置（例如免持聽筒和相機）具有受支援的使用距離，且建議的距離可能會依不同的製造商而有所不同。 若要給予客戶明確的指導方針，請對照定義良好的會議室大小與噪音環境，在認證中測試所有共用的裝置。
+- 會議室 **大小** 共用裝置（例如免持聽筒和相機）具有受支援的使用距離，且建議的距離可能會依不同的製造商而有所不同。 若要給予客戶明確的指導方針，請對照定義良好的會議室大小與噪音環境，在認證中測試所有共用的裝置。
 
 流覽 [裝置認證的 Microsoft 團隊](https://products.office.com/microsoft-teams/across-devices/devices)。
 
@@ -74,10 +74,11 @@ ms.locfileid: "48625099"
 
 ## <a name="certified-devices"></a>認證的裝置
 
-*2020年10月更新的表格*
+*2020年12月更新的表格*
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |演化65t 耳機                                         |10/31/2020      |商務用 Skype （含升級至 Microsoft 團隊）      |
 |EPOS/Sennheiser      |MB 專業版1                                                   |10/2/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |EPOS/Sennheiser      |MB 專業版2                                                   |10/2/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |Jabra                |演化80耳機                                          |8/23/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
