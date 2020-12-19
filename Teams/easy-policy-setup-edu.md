@@ -18,12 +18,12 @@ search.appverid: MET150
 description: 瞭解如何使用 [針對教育版的團隊原則] 嚮導，輕鬆地將原則套用至學生和教育版，讓您的學習環境保持安全。
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 6480eb0ea698a783bbd231bacf2d6d1c23c7b2be
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616917"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718607"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用 [針對教育版團隊原則] 嚮導，輕鬆地將原則套用到安全的學習環境
 
@@ -86,7 +86,7 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="在嚮導中查看選取範圍的頁面螢幕擷取畫面":::
 
-5. 選取 [套用] 以套用 **您的變更** 。 這可能需要幾分鐘的時間才能完成。<br/><br/>全域 (組織範圍的預設) 原則定義會立即套用給學生。 針對您的教師與員工，根據群組的大小，將自訂原則指派給您所選取之群組的每個成員可能需要長達48小時。 當您成功完成這個步驟之後，就會發生這種情況。
+5. 選取 [套用] 以套用 **您的變更** 。 這可能需要幾分鐘的時間才能完成。<br/><br/>全域 (組織範圍的預設) 原則定義會立即套用給學生。 針對您的教育者與員工，根據群組的大小，將自訂原則指派給您所選群組的每個成員可能需要幾個小時的時間。 當您成功完成這個步驟之後，就會發生這種情況。
 6. 您已經掌握了，但尚未完成！ 還有幾個需要考慮的事項。 接下來，請參閱本文 [ [執行嚮導之後該做什麼]](#what-to-do-after-running-the-wizard) 區段中的步驟。
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="在嚮導中針對後續步驟顯示頁面的螢幕擷取畫面":::
@@ -226,8 +226,6 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 |  |       |在私人會議中允許立即開會        |出         |按|
 |  |       |啟用即時標題       |已停用，但使用者可以覆寫         |已停用，但使用者可以覆寫|
 |  |       |允許在會議中聊天         |按         |按|
-|  |影片篩選模式       |VideoFiltersMode         |BlurandDefaultBackgrounds|AllFilters|
-|  |會議出席情況報告       |AllowEngagementReport         |出         |按|
 |即時活動原則  |       |允許排程         |出         |出|
 |  |       |允許出席者的謄寫          |按       |按|
 |  |       |誰可加入已排程的即時活動        |組織中的所有人        |組織中的所有人|
@@ -248,7 +246,6 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 |  |       |建立語音訊息         |在聊天和頻道中允許         |在聊天和頻道中允許|
 |  |       |在行動裝置上，顯示最近聊天上的最愛頻道     |後         |後|
 |  |       |從群組聊天中移除使用者         |出         |按|
-|  |       |建議的回復         |按         |按|
 |App 許可權原則  |       |Microsoft 應用程式         |封鎖特定應用程式，並允許所有其他人 > Walkie Talkie 封鎖         |允許所有 app|
 |  |       |協力廠商應用程式         |允許所有 app         |允許所有 app|
 |  |       |自訂應用程式         |允許所有 app         |允許所有 app|
@@ -297,8 +294,6 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 |  |       |在私人會議中允許立即開會        |按         |按|
 |  |       |啟用即時標題       |已停用，但使用者可以覆寫         |已停用，但使用者可以覆寫|
 |  |       |允許在會議中聊天         |按         |按|
-|  |影片篩選模式       |VideoFiltersMode         |AllFilters|AllFilters|
-|  |會議出席情況報告       |AllowEngagementReport         |按         |按|
 |即時活動原則  |       |允許排程         |按         |按|
 |  |       |允許出席者的謄寫          |按       |按|
 |  |       |誰可加入已排程的即時活動        |組織中的所有人        |組織中的所有人|
@@ -319,7 +314,6 @@ Microsoft [教育版團隊原則] 嚮導簡化了學生與教育機構的管理�
 |  |       |建立語音訊息         |在聊天和頻道中允許         |在聊天和頻道中允許|
 |  |       |在行動裝置上，顯示最近聊天上的最愛頻道     |後         |後|
 |  |       |從群組聊天中移除使用者         |按        |按|
-|  |       |建議的回復         |按         |按|
 |通話原則  |       |可進行私人通話         |按       |按|
 |  |       |來電轉接及同時撥打給組織中的人員         |按        |按|
 |  |       |來電轉接及同時撥打至外部電話號碼         |按        |按|

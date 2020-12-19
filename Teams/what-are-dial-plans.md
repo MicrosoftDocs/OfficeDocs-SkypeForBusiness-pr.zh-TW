@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '瞭解您可以使用哪些類型的撥號方案 (PSTN 呼叫撥號方案) 提供給小組，以及如何為您的組織選擇一個電話。  '
-ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9e6b9930c5106ec143563e0f69dd61ccb30d550c
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031369"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718587"
 ---
 # <a name="what-are-dial-plans"></a>什麼是撥號對應表？
 
@@ -117,11 +117,15 @@ ms.locfileid: "49031369"
 
 請參閱 [建立及管理撥號計畫](create-and-manage-dial-plans.md) ，以建立及管理您的租使用者撥號方案的正常化規則。
 
+> [!NOTE]
+> 3pip 裝置目前不支援將第一個權杖作為選用的正常化規則 (例如，Polycom VVX 601 模型) 。 如果您想要在3pip 裝置上將正常化規則與 optionality 一起套用，您應該建立兩個正常化規則，而不是一個。 例如，規則 ^ 0？ (999) $ 應該由下列兩個規則取代： (999) $ (轉譯： $ 1) 和 ^ 0 (999) $ (轉譯： $ 1) 。
+
+
 ### <a name="sample-normalization-rules"></a>範例正常化規則
 
 下表顯示已寫入為 .NET Framework 一般運算式的範例正常化規則。 這些範例只是範例，並不代表建立您自己的正常化規則的規範性參考。
 
-<a name="regularexpression"> </a> 
+<a name="regularexpression"></a> 
  **使用 .net Framework 一般運算式的正常化規則**
 
 | 規則名稱<br/> | 描述<br/> | 數位模式<br/> | 翻譯<br/> | 範例<br/> |

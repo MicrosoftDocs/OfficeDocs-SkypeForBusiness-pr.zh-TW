@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 406a2e42a73b8bb92f3b6036de63177f4b81a434
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611777"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718627"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -119,7 +119,7 @@ ms.locfileid: "49611777"
 
 [允許 **立即開會** ] 是依使用者原則，在會議開始之前套用。 此設定控制使用者是否可在團隊頻道中啟動未計畫的會議。 如果您開啟這項設定，使用者可以選取 [ **開會** ] 按鈕來啟動未計畫的會議，或在頻道中排程會議。 預設值為 True。
 
-![顯示郵件下方 [立即開會] 圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png) 
+![顯示郵件下方 [立即開會] 圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>允許 Outlook 增益集
 
@@ -359,7 +359,7 @@ Daniela 託管的會議可讓會議參與者共用整個螢幕或特定的應用
 
 ![顯示 [授與控制權] 選項的螢幕擷取畫面](media/meeting-policies-give-control.png)
 
-如果使用者的設定已關閉，則無法使用 [ **提供控制權** ] 選項。
+如果使用者已關閉該設定，則無法使用 [取得控制權] （ **提供控制** ）選項。
 
 ![螢幕擷取畫面顯示 [提供控制] 選項無法使用](media/meeting-policies-give-control-not-available.png)
 
@@ -455,7 +455,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 ![螢幕擷取畫面顯示會議廳中有使用者的會議](media/meeting-policies-lobby.png)
 
- 會議召集人可以按一下會議邀請中的 [ **會議選項** ]，針對每個會議所排程的會議變更此設定。
+ 會議召集人可以選取會議邀請中的 [ **會議選項** ]，針對其排程的每個會議變更此設定。
 
 > [!NOTE]
 > 在會議選項中，設定會標示為「誰可以略過大廳」。 如果您變更任何使用者的預設設定，就會套用至該使用者所組織的所有新會議，以及使用者未修改會議選項的任何先前會議。
@@ -521,9 +521,9 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>會議原則設定-適用于孤島模式的會議提供者
 
-這是每個使用者的原則。 這個設定控制哪一個 Outlook 會議增益集會用於使用 *孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
+這是每個使用者的原則。 這個設定控制哪一個 Outlook 會議增益集會用於使用 *孤島模式的使用者*。 您可以指定使用者只能使用 [Teams 會議] 增益集，或是可同時使用 [Teams 會議] 和 [商務用 Skype 會議] 增益集在 Outlook 中排程會議。
 
-您只能將此原則套用到使用孤島模式的使用者，並在其團隊會議原則中，將 **AllowOutlookAddIn** 參數設定為 **True** 。
+您只能將此原則套用到處於離島模式的使用者，並在其 Teams 會議原則中將 **AllowOutlookAddIn** 參數設定為 **True**。
 
 目前您只能使用 PowerShell 來設定此原則。 您可以使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用 [新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
 

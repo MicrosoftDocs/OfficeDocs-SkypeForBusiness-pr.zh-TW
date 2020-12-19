@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712301"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718577"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -78,6 +78,13 @@ ms.locfileid: "49712301"
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |演化75e 耳機                                         |12/16/2020      |商務用 Skype （含升級至 Microsoft 團隊）      |
+|Jabra                |演化65e 耳機                                         |12/16/2020      |商務用 Skype （含升級至 Microsoft 團隊）      |
+|多功能                 |C3422WE 監視器                                            |12/11/2020      |針對 Microsoft 團隊認證                           |
+|多功能                 |C2722DE 監視器                                            |12/11/2020      |針對 Microsoft 團隊認證                           |
+|多功能                 |C2422HE 監視器                                            |12/11/2020      |針對 Microsoft 團隊認證                           |
+|Poly                 |使用 Poly BT600 USB 連接器同步處理 20 + 話筒          |11/9/2020       |針對 Microsoft 團隊認證                           |
+|Poly                 |同步處理20個免持聽筒                                       |11/9/2020       |針對 Microsoft 團隊認證                           |
 |Jabra                |演化65t 耳機                                         |10/31/2020      |商務用 Skype （含升級至 Microsoft 團隊）      |
 |EPOS/Sennheiser      |MB 專業版1                                                   |10/2/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
 |EPOS/Sennheiser      |MB 專業版2                                                   |10/2/2020       |商務用 Skype （含升級至 Microsoft 團隊）      |
