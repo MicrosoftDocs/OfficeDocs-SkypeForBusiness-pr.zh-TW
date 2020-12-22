@@ -165,7 +165,7 @@
             - name: DNS
               href: ../plan-your-deployment/network-requirements/dns.md
               items:
-                - name: 基本概念
+                - name: 基本功能
                   href: ../plan-your-deployment/network-requirements/basics.md
                 - name: 簡單 URL
                   href: ../plan-your-deployment/network-requirements/simple-urls.md
@@ -214,7 +214,7 @@
               href: ../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md
             - name: 檔案共用
               href: ../plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md
-        - name: 立即訊息和目前狀態
+        - name: 立即訊息與顯示狀態
           href: ../plan-your-deployment/instant-messaging-and-presence.md
         - name: 視訊互通性伺服器
           href: ../plan-your-deployment/video-interop-server.md
@@ -234,7 +234,7 @@
         - name: 企業語音解決方案
           href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
           items:
-            - name: 設定使用者
+            - name: 企業語音
               href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
               items:
                 - name: 企業語音所需的元件
@@ -325,7 +325,7 @@
                       href: ../plan-your-deployment/enterprise-voice-solution/response-group.md
                     - name: 宣告
                       href: ../plan-your-deployment/enterprise-voice-solution/announcement.md
-                - name: 共用線外觀
+                - name: 共用線路外觀
                   href: ../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md
                 - name: 忙碌選項
                   href: ../plan-your-deployment/enterprise-voice-solution/busy-options.md
@@ -372,7 +372,7 @@
           items:
             - name: 系統需求
               href: ../plan-your-deployment/edge-server-deployments/system-requirements.md
-            - name: Edge 環境需求
+            - name: Microsoft Edge 環境需求
               href: ../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md
               items:
                 - name: 進階 Edge Server DNS
@@ -393,7 +393,7 @@
             - name: 安全性架構
               href: ../plan-your-deployment/security/security-framework.md
               items:
-                - name: Active Directory Domain Services
+                - name: Active Directory 網域服務
                   href: ../plan-your-deployment/security/active-directory-domain-services.md
                 - name: 角色型存取控制 (RBAC)
                   href: ../plan-your-deployment/security/role-based-access-control-rbac.md
@@ -703,11 +703,11 @@
         - name: 部署 Edge Server
           href: ../deploy/deploy-edge-server/deploy-edge-server.md
           items:
-            - name: 建立 Edge 拓撲
+            - name: 建立 Microsoft Edge 拓撲
               href: ../deploy/deploy-edge-server/create-your-edge-topology.md
             - name: 部署 Edge Server
               href: ../deploy/deploy-edge-server/deploy-edge-servers.md
-            - name: 驗證 Edge 部署
+            - name: 驗證 Microsoft Edge 部署
               href: ../deploy/deploy-edge-server/validate-edge-deployment.md
         - name: 部署及設定行動性
           href: ../deploy/deploy-and-configure-mobility.md
@@ -734,20 +734,20 @@
             - name: 設定智慧連絡人清單
               href: ../deploy/deploy-clients/configure-smart-contacts-list.md
               items:
-                - name: Skype 聊天室系統交換和 Skype 帳戶
+                - name: Skype 會議室系統 Exchange 和 Skype 帳戶
                   href: ../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md
                   items:
                     - name: 單一樹系內部部署
                       href: ../deploy/deploy-clients/single-forest-on-premises-deployments.md
-                    - name: 多個樹系內部部署
+                    - name: 多重樹系內部部署
                       href: ../deploy/deploy-clients/multiple-forest-on-premises-deployments.md
-                    - name: 在 Office 365 中布建 Skype 室系統帳戶
+                    - name: 在 Office 365 中佈建 Skype 會議室系統帳戶
                       href: ../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md
                     - name: 混合式部署
                       href: ../deploy/deploy-clients/hybrid-deployments.md
-                    - name: 會議室系統和同盟合作夥伴
+                    - name: 會議室系統和同盟協力廠商
                       href: ../deploy/deploy-clients/room-system-and-federated-partners.md
-                    - name: 管理 Skype 室系統帳戶
+                    - name: 管理 Skype 會議室系統帳戶
                       href: ../deploy/deploy-clients/manage-skype-room-system-accounts.md
                 - name: 會議原則
                   href: ../deploy/deploy-clients/conferencing-policy.md
@@ -755,26 +755,26 @@
                   href: ../deploy/deploy-clients/trusted-domains.md
                 - name: 移轉考量
                   href: ../deploy/deploy-clients/migration-considerations.md
-                - name: 網域加入考慮
+                - name: 網域聯結考量
                   href: ../deploy/deploy-clients/domain-joining-considerations.md
                 - name: 商務用 Skype 軟體授權
                   href: ../deploy/deploy-clients/skype-for-business-software-liicense.md
-                - name: 可管理性及工具
+                - name: 可管理性和工具
                   href: ../deploy/deploy-clients/manageability-and-tools.md
-                - name: 會議室安裝腳本
+                - name: 會議室安裝程式腳本
                   href: ../deploy/deploy-clients/room-setup-scripts.md
             - name: 會議室系統 v2
               href: ../deploy/deploy-clients/room-systems-v2.md
               items:
                 - name: 使用 Office 365
                   href: ../deploy/deploy-clients/with-office-365.md
-                - name: 搭配商務用 Skype Server 2015
+                - name: 使用商務用 Skype Server 2015
                   href: ../deploy/deploy-clients/with-skype-for-business-server-2015.md
-                - name: 搭配 Exchange Online
+                - name: 透過 Exchange Online
                   href: ../deploy/deploy-clients/with-exchange-online.md
-                - name: 搭配 Exchange 內部部署
+                - name: 使用 Exchange 內部部署
                   href: ../deploy/deploy-clients/with-exchange-on-premises.md
-                - name: 安慰
+                - name: 主控台
                   href: ../deploy/deploy-clients/console.md
             - name: 部署 Lync VDI 外掛程式
               href: ../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md
@@ -823,7 +823,7 @@
         - name: 常設聊天室
           href: ../manage/persistent-chat/persistent-chat.md
           items:
-            - name: Categories
+            - name: 類別
               href: ../manage/persistent-chat/categories.md
             - name: 聊天室數
               href: ../manage/persistent-chat/chat-rooms.md
@@ -989,7 +989,7 @@
             - name: 原則
               href: ../manage/archiving/policies.md
               items:
-                - name: 建立新原則
+                - name: 建立新的原則
                   href: ../manage/archiving/create-a-new-policy.md
                 - name: 變更現有的原則
                   href: ../manage/archiving/change-an-existing-policy.md
@@ -1188,7 +1188,7 @@
           items:
             - name: 已知問題
               href: ../manage/skype-room-systems-v2/known-issues.md
-            - name: XML 設定檔
+            - name: XML config 檔案
               href: ../manage/skype-room-systems-v2/xml-config-file.md
             - name: 使用修復工具
               href: ../manage/skype-room-systems-v2/recovery-tool.md
@@ -1213,11 +1213,11 @@
         - name: 通話品質儀表板
           href: ../management-tools/call-quality-dashboard/call-quality-dashboard.md
           items:
-            - name: 方案
+            - name: 規劃
               href: ../management-tools/call-quality-dashboard/plan.md
             - name: 部署
               href: ../management-tools/call-quality-dashboard/deploy-0.md
-            - name: 用途
+            - name: 使用
               href: ../management-tools/call-quality-dashboard/use.md
             - name: 開發
               href: ../management-tools/call-quality-dashboard/develop.md
@@ -1300,7 +1300,7 @@
         - name: 統計資料管理員
           href: ../management-tools/statistics-manager/statistics-manager.md
           items:
-            - name: 方案
+            - name: 規劃
               href: ../management-tools/statistics-manager/plan.md
             - name: 部署
               href: ../management-tools/statistics-manager/deploy.md
@@ -1312,7 +1312,7 @@
           href: ../management-tools/resource-kit-tools.md
         - name: 容量規劃計算器
           href: ../management-tools/capacity-planning-calculator.md
-        - name: 規劃集區
+        - name: 規劃工具
           href: ../management-tools/planning-tool/planning-tool.md
           items:
             - name: 安裝
@@ -1334,7 +1334,7 @@
                   href: ../management-tools/planning-tool/dial-in-conferencing.md
                 - name: Web 會議
                   href: ../management-tools/planning-tool/web-conferencing.md
-                - name: 設定使用者
+                - name: 企業語音
                   href: ../management-tools/planning-tool/enterprise-voice.md
                 - name: Exchange 整合通訊設定
                   href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
@@ -1356,7 +1356,7 @@
                   href: ../management-tools/planning-tool/disaster-recovery.md
                 - name: 功能概觀
                   href: ../management-tools/planning-tool/feature-overview.md
-                - name: Exchange Unified Messaging
+                - name: Exchange 整合通訊
                   href: ../management-tools/planning-tool/exchange-unified-messaging.md
                 - name: 負載平衡器
                   href: ../management-tools/planning-tool/load-balancer.md
@@ -1467,7 +1467,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mediationservers.md
                 - name: MSMQProcessing
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/msmqprocessing.md
-                - name: 電話
+                - name: 手機
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/phones.md
                 - name: 集區
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/pools.md
@@ -1475,7 +1475,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport.md
                 - name: PurgeSettings
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/purgesettings.md
-                - name: 註冊
+                - name: 登錄
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/registration.md
                 - name: 角色
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/roles.md
@@ -1530,7 +1530,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/media-0.md
                 - name: ProgressReport
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport-0.md
-                - name: 註冊
+                - name: 登錄
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/registration-0.md
                 - name: SessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails-0.md
@@ -1566,7 +1566,7 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/device.md
                 - name: DeviceDriver
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/devicedriver.md
-                - name: Dialog
+                - name: 對話方塊
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/dialog.md
                 - name: 端點
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/endpoint.md
@@ -1590,7 +1590,7 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/pool.md
                 - name: PurgeSettings (QoE)
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/purgesettings-qoe.md
-                - name: 區域
+                - name: 地區
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/region.md
                 - name: 伺服器
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/server.md
@@ -1986,7 +1986,7 @@
               href: ../help-topics/help-lscp/configure-a-network-region-route-create-new-or-edit-existing.md
             - name: 設定網路區域路由
               href: ../help-topics/help-lscp/configure-a-network-region-route.md
-            - name: 指派內容
+            - name: 指派屬性
               href: ../help-topics/help-lscp/assign-properties.md
             - name: 選取地區連結
               href: ../help-topics/help-lscp/select-a-region-link.md
@@ -2228,9 +2228,9 @@
               href: ../management-tools/planning-tool/disaster-recovery.md
             - name: 邊緣網路
               href: ../management-tools/planning-tool/edge-network.md
-            - name: 設定使用者
+            - name: 企業語音
               href: ../management-tools/planning-tool/enterprise-voice.md
-            - name: Exchange Unified Messaging
+            - name: Exchange 整合通訊
               href: ../management-tools/planning-tool/exchange-unified-messaging.md
             - name: Exchange 整合通訊設定
               href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
@@ -2628,7 +2628,7 @@
               href: ../help-topics/help-topobld/publish-topology-reset-pool-page.md
             - name: 發行拓撲選取 CMS 頁面
               href: ../help-topics/help-topobld/publish-topology-select-cms-page.md
-            - name: 發行拓撲後續步驟
+            - name: 發行拓撲
               href: ../help-topics/help-topobld/publish-topology.md
             - name: 登錄器 SBA 設定展開工具
               href: ../help-topics/help-topobld/registrar-sba-settings-expander.md
