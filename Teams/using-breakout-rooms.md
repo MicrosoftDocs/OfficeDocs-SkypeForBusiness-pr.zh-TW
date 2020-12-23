@@ -3,18 +3,20 @@ title: 在團隊中使用 [專題討論] 會議室
 author: ricardo-msft
 ms.author: riwilki
 ms.topic: article
+manager: serdars
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: 最終使用者可以瞭解如何在 Microsoft 團隊中使用 [專題討論] 會議室
-ms.openlocfilehash: 280cd493049da3bd91e4fdd8e1995e75c4710cb9
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+ms.openlocfilehash: 820380517a7f56a8a9738e02705ba68a5b6f8048
+ms.sourcegitcommit: 99bd62ea8a11b0068231e7b8335790323912cb9e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698709"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49727709"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>在 Microsoft 團隊中使用 [專題討論] 會議室
 

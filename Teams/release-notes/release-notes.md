@@ -16,24 +16,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
+ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701311"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728163"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
 
-## <a name="november-25-2020"></a>2020年11月25日
+## <a name="december-21-2020"></a>2020年12月21日
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>針對 Google Workspace 設定 Microsoft 團隊會議附加元件
+### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>支援的費率中心與通話方案的覆蓋範圍
 
-使用 Microsoft 團隊會議附加元件可讓 Google 行事曆使用者從 Google Workspace 直接排程並加入 Microsoft 團隊會議。 使用者將能夠存取團隊會議功能，包括影片和音訊會議、螢幕共用、會議聊天、數位繪圖面板等。 保持連線與組織，以便在公司、學校和生活中共同完成工作。
+[費率中心] 是一個地理區域的行業期限，傳統上會針對公開交換電話網絡 (PSTN) ，為其定義邊界以進行當地通話、帳單比率及電話號碼指派。 [深入了解](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix)。
 
-您必須先由小組管理員啟用 Google Workspace 的 Microsoft 團隊會議附加元件，才能讓租使用者存取 app。 [深入了解](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)。
+## <a name="december-18-2020"></a>2020年12月18日
+
+### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>針對專題討論會議室更新會議設定原則
+
+ 小組中的 [專題討論] 是用來將會議分割成個別、較小的會議會議室。 此設定可控制會議召集人是否有在排程或開始的會議中建立和管理 [專題討論] 會議室的選項。 此原則設定會影響所有會議，包括 [立即開會] 會議。 [深入了解](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms)。
+
+## <a name="december-9-2020"></a>2020年12月9日
+
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>使用 Microsoft 365 學習路徑的小組顧問
+
+Microsoft 365 學習路徑 是隨選學習解決方案，您可以自訂以訓練您的使用者，並提高您組織中對於 Teams 的使用及採用。 將學習路徑與 Advisor for Teams 搭配使用，以讓您的使用者快速設定並執行和推動採用。
+
+學習路徑可提供您 SharePoint Online 網站範本，以及為使用者輕鬆建立學習網站的能力。 您可以自訂學習路徑訓練入口網站，以包含特定於使用者需求的訓練與支援內容。 從 Microsoft online 目錄使用 Teams 播放清單，並新增您自己的播放清單。 [深入了解](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways)。
 
 ## <a name="october-28-2020"></a>2020年10月28日
 
