@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: 您的移轉訂單狀態為何？
               href: phone-number-calling-plans/port-order-status.md
+        - name: 支援的額定中心及涵蓋範圍
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: 通話路由
       items:
         - name: 什麼是撥號對應表？
