@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616927"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731131"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -200,7 +200,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 如需有關針對 Teams 準備您的支援人員和擁護者的指引和資源，請參閱 [訓練您的組織](https://adoption.microsoft.com/microsoft-teams/#train-your-org) 和 [打造擁護者](https://adoption.microsoft.com/microsoft-teams/#build-champions)。
 
-當您的使用者針對「操作方法」」問題而移至聯絡時，您的技術人員和擁護者可使用 [學習路徑] 網站以訓練使用者，並將該網站視為建立支援票證的其他選項。 透過建立訓練和支援頁面，鼓勵您的技術人員和擁護者以 [自訂您的學習路徑網站](https://docs.microsoft.comoffice365/customlearning/custom_overview)，然後在小組中將其 [以索引標籤新增至頻道中](#add-your-site-to-teams) 供使用者自助服務。
+當您的使用者針對「操作方法」」問題而移至聯絡時，您的技術人員和擁護者可使用 [學習路徑] 網站以訓練使用者，並將該網站視為建立支援票證的其他選項。 透過建立訓練和支援頁面，鼓勵您的技術人員和擁護者以 [自訂您的學習路徑網站](https://docs.microsoft.com/office365/customlearning/)，然後在小組中將其 [以索引標籤新增至頻道中](#add-your-site-to-teams) 供使用者自助服務。
 
 ### <a name="drive-adoption"></a>推動採用
 

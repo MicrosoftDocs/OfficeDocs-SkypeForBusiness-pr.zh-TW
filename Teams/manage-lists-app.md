@@ -1,7 +1,7 @@
 ---
 title: 管理貴組織的清單應用程式
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: anach,v-jasuk
 manager: serdars
 ms.topic: article
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 56197394d4b4edbe714b5edab62f905e1c520ede
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 8ba05b4922b25cc6294fc85f1264a44bdb031660
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790475"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731121"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的清單應用程式
 
@@ -34,13 +34,13 @@ ms.locfileid: "48790475"
 
 Microsoft 團隊中的 [清單] 應用程式可協助組織中的使用者追蹤資訊、組織工作，以及管理工作流程。 使用者可以使用清單來追蹤問題、資產、常式、連絡人、庫存、事件、貸款、患者等資料，並使用可自訂的視圖、規則和通知來保持小組中的每個人都保持同步。
 
-在團隊中，使用者會將清單作為頻道中的索引標籤存取。 按一下 **+** 以開啟索引標籤圖庫，然後新增 [清單] 應用程式索引標籤實例至頻道，即可開始使用。 
+在團隊中，使用者會將清單作為頻道中的索引標籤存取。 按一下 **+** 以開啟索引標籤圖庫，然後新增 [清單] 應用程式索引標籤實例至頻道，即可開始使用。
 
-![索引標籤庫中 [清單] 應用程式的螢幕擷取畫面](media/lists-tab.png)
+![索引標籤庫中的 [清單] 應用程式](media/lists-tab.png)
 
 使用者可以從相同團隊或其他人有權存取的 SharePoint 網站建立新清單或釘選現有清單。 您可以從內建的範本、根據現有清單的結構或從 Excel 活頁簿匯入資料，從頭開始建立新的清單。 [清單] app 可在小組桌面、web 和行動用戶端中取得。
 
-![如何在 [清單] 應用程式中建立清單的螢幕擷取畫面](media/lists-create-list.png)
+![如何在 [清單] 應用程式中建立清單](media/lists-create-list.png)
 
 ## <a name="templates"></a>模版
 
@@ -92,11 +92,11 @@ Huddle 之後，郵件載體會拾取其郵件，並開始傳送傳送路線。 
 
 預設會針對貴組織中的所有團隊使用者啟用清單。 您可以在 Microsoft 團隊系統管理中心的 [ [管理應用程式](manage-apps.md) ] 頁面上關閉或開啟組織階層的 app。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **團隊 app**  >  **管理應用程式** ]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
 2. 執行下列其中一項動作：
 
-    - 若要關閉貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **封鎖** ]。
-    - 若要開啟貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **允許** ]。
+    - 若要關閉貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **封鎖**]。
+    - 若要開啟貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **允許**]。
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>啟用或停用貴組織中特定使用者的清單
 
@@ -112,11 +112,11 @@ Huddle 之後，郵件載體會拾取其郵件，並開始傳送傳送路線。 
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>電源自動化、Power App 及圖形 API
 
-清單支援工作流程的 [電源自動](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) 作業及清單表單的 [power app](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) 。 開發人員可以使用 [清單 API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) ，將清單資料作為來源，透過 Microsoft Graph 連線。
+清單支援工作流程的 [電源自動](https://docs.microsoft.com/power-automate/flow-types) 作業及清單表單的 [power app](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) 。 開發人員可以使用 [清單 API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) ，將清單資料作為來源，透過 Microsoft Graph 連線。
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供意見反應或報告問題
   
-若要向我們傳送意見反應或報告問題， **請按一下 [** 團隊] 左側導覽底部附近的 [說明]，然後選取 [ **報告問題** ]。 選取 [ **清單** ]，然後輸入您的意見反應或您所遇到之問題的詳細資料。
+若要向我們傳送意見反應或報告問題， **請按一下 [** 團隊] 左側導覽底部附近的 [說明]，然後選取 [ **報告問題**]。 選取 [ **清單**]，然後輸入您的意見反應或您所遇到之問題的詳細資料。
 
 ## <a name="related-topics"></a>相關主題
 

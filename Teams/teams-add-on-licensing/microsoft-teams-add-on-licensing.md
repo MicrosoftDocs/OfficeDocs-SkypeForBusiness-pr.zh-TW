@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊附加元件授權
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解 Microsoft 團隊的附加元件授權，以及每個授權所取得的功能。
-ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328262"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731141"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 團隊附加元件授權
 
@@ -39,7 +39,7 @@ ms.locfileid: "48328262"
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**功能** <br/> |**描述** <br/> |**小型企業 ( # B0 300 使用者) **|**大型企業 ( # B0 300 使用者) **|
+|**功能** <br/> |**描述** <br/> |**小型企業 ( # B0 300 使用者)**|**大型企業 ( # B0 300 使用者)**|
 **Microsoft 365 Business Voice** <br/> | [商務語音](../business-voice/whats-business-voice.md) 是一種電話解決方案，專為多達300的使用者（可捆綁電話系統、音訊會議、國內通話方案等等）設計的中小型企業。 您將會收到的電話系統功能包括語音信箱、本機號碼、通話駐留、來電轉接、自動語音應答及通話佇列。 <br> 若要瞭解您的國家或地區是否有可用的商務用語音，請參閱 [商務用國家和地區的語音](../business-voice/country-region-availability.md)功能。 如需定價資訊，請參閱 [商務用價格語音](https://go.microsoft.com/fwlink/?linkid=2127221)。 <br/> |&#x2713;||
 |**音訊會議** <br/> |有時候，貴組織中的人員將需要使用電話撥入團隊會議，而不是自己的電腦。 針對排程或領導會議的使用者設定 [音訊會議](../audio-conferencing-in-office-365.md) 。 <br/> 若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 如需定價資訊，請參閱[音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>如果您是最多300個使用者的中小型企業或中型企業，而且您目前沒有音訊會議授權，您可以在一年免費取得語音會議。 從2020年10月1日起，擁有 Microsoft 365 Business Basic、Business Standard、Business Premium、企業版 E1 或企業版 E3 授權的使用者可以使用免費的音訊會議優惠。 若要深入瞭解，請參閱 [為中小型企業設定音訊會議](../audio-conferencing-smb.md)。|&#x2713;|&#x2713;|
 |**免費電話號碼** |如果您想要免付費電話號碼提供音訊會議、自動語音應答或通話佇列，您必須 [設定通訊點數](../set-up-communications-credits-for-your-organization.md)。 <br/> |&#x2713;|&#x2713;|
@@ -68,7 +68,7 @@ ms.locfileid: "48328262"
 針對 Microsoft 365 商務語音，您有兩個選項可供選擇：
 
 - **使用通話方案的 Microsoft 365 商務語音**：如果您想要由 microsoft 處理所有電話號碼管理和帳單，請取得此情況。
-- **沒有通話方案的 Microsoft 365 商務版語音 (直接路由) **：如果您想要由協力廠商電話供應商處理所有的電話號碼管理和帳單，請取得此動作。 您必須設定並部署 [直接路由](../direct-routing-landing-page.md) ，將您的內部部署會話邊界控制器 (SBCs) 連線至 Microsoft 365 或 Office 365。
+- **沒有通話方案的 Microsoft 365 商務版語音 (直接路由)**：如果您想要由協力廠商電話供應商處理所有的電話號碼管理和帳單，請取得此動作。 您必須設定並部署 [直接路由](../direct-routing-landing-page.md) ，將您的內部部署會話邊界控制器 (SBCs) 連線至 Microsoft 365 或 Office 365。
 
 若要深入瞭解，請參閱 [我需要購買什麼才能使用 Microsoft 365 商務版語音？](../business-voice/what-to-buy.md)。
 
@@ -115,7 +115,7 @@ ms.locfileid: "48328262"
 
   <sup>1</sup> 僅適用于少於300使用者的組織。
 
-若要深入瞭解，請參閱 [Microsoft 365 教育](https://www.microsoft.com/education/buy-license/microsoft365) 版和 [Office 365 教育版方案](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan)。
+若要深入瞭解，請參閱 [Microsoft 365 教育](https://www.microsoft.com/education/buy-license/microsoft365) 版和 [Office 365 教育版方案](https://www.microsoft.com/education/products/office)。
 
 > [!NOTE]
 > 如果您需要使用協力廠商電話語音，請在您的組織中部署 [直接路由](../direct-routing-landing-page.md) ，或者，如果您的國家或地區未提供通話方案，您必須使用直接路由進行語音功能。
@@ -177,7 +177,7 @@ ms.locfileid: "48328262"
 
   ![以試驗為基礎的選項](../media/licensing-trial-offers.png)
 
- 您的基礎方案不一定必須是試用版方案，才能使用這些語音功能的任何實驗。 您可以使用 Microsoft 365 商務方案或企業、政府、教育或非贏利方案，並隨附任何適用于語音功能的試用優惠。 若要查看可用的試用版優惠與附加元件，請在 Microsoft 365 系統管理中心移至 [**帳單**  >  **購買服務**]，選取**可能感興趣的其他類別**，然後選取 [**附加**元件]。
+ 您的基礎方案不一定必須是試用版方案，才能使用這些語音功能的任何實驗。 您可以使用 Microsoft 365 商務方案或企業、政府、教育或非贏利方案，並隨附任何適用于語音功能的試用優惠。 若要查看可用的試用版優惠與附加元件，請在 Microsoft 365 系統管理中心移至 [**帳單**  >  **購買服務**]，選取 **可能感興趣的其他類別**，然後選取 [**附加** 元件]。
 
   針對每個語音與會議選項，如果您有免付費電話號碼，或者您需要額外加入從會議撥出或供使用者撥打國內和國際 PSTN 通話的時間，必須有 [通訊點數](../set-up-communications-credits-for-your-organization.md) 。
 
