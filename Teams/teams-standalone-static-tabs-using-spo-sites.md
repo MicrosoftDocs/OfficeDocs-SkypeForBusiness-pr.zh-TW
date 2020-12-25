@@ -1,6 +1,6 @@
 ---
 title: 從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 取得現有的 SharePoint Online 網站或頁面，並建立獨立的靜態索引標籤，以作為組織的內部網路入口網站。
 localization_priority: Priority
-ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083163"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731111"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」
 
@@ -27,7 +27,7 @@ ms.locfileid: "45083163"
 
 系統會為您的 SharePoint 內部網路網站建立 *「Teams 個人版應用程式」*，並顯示為 Teams 內部的索引標籤。 此索引標籤會包含所有 Teams 使用者的重要資訊。 這種方式既快速又便利，Teams 使用者只要按一下索引標籤就能存取更新。
 
-請注意，所顯示的程序**必須使用***「新式」* SharePoint 網站或頁面才能運作。 此程序不適用於 *「傳統」* 網站或頁面。
+請注意，所顯示的程序 **必須使用***「新式」* SharePoint 網站或頁面才能運作。 此程序不適用於 *「傳統」* 網站或頁面。
 
 > [!IMPORTANT]
 > 請確定您已為租用戶啟用 Teams 應用程式側載功能。 視您在 Teams 系統管理入口網站移轉程序中所處的位置而定，您可能要在 [Teams] > [系統管理] 底下啟用此功能；如果是舊版入口網站，則要在 [系統管理] > [設定] > [服務與增益集] > [Microsoft Teams] > [應用程式] > [外部應用程式] 底下啟用。
@@ -42,9 +42,10 @@ ms.locfileid: "45083163"
 2. 您必須知道租用戶的子網域，以便用於預留位置 **{{subdomain}}**。
 
 3. 本文會使用 **{{siteUrl}}** 作為預留位置來指出您所選網站或頁面的 *URL*。
-    - 範例 *URL*：https://contoso.sharepoint.com/teams/Contoso *或*https://contoso.sharepoint.com/sites/Contoso
+    - 範例 *URL*：`https://contoso.sharepoint.com/teams/Contoso`
+        *或*`https://contoso.sharepoint.com/sites/Contoso`
 4. 此外，會使用 **{{sitePath}}** 來表示 URL 的 *「路徑」* (例如：/teams/Contoso)。
-    - 範例 *「路徑」*：/teams/Contoso *或 */sites/Contoso
+    - 範例 *「路徑」*：/teams/Contoso *或*/sites/Contoso
 
 請遵循下列步驟來開始：
 
@@ -71,19 +72,19 @@ ms.locfileid: "45083163"
 - **contentUrl**：{{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**：{{siteUrl}}
 
-    範例 **contentURL**：https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    範例 **contentURL**：`https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. 瀏覽至 **[網域和權限]**。 請確定有效的網域區段包含了您的 SharePoint Online 網域名稱。
 
-    範例：contoso.sharepoint.com
+    範例：`contoso.sharepoint.com`
 
-12. 新增下列 Web應用程式**單一登入**屬性：
+12. 新增下列 Web應用程式 **單一登入** 屬性：
 
      範例：**AAD 應用程式識別碼**：00000003-0000-0ff1-ce00-000000000000  **Resource Url**：{{subdomain}}.sharepoint.com
 
     ![含有識別碼和 URL 的 Web 應用程式單一登入。](media/personal-app.png)
 
-13. **儲存**這些屬性，然後瀏覽至 **[儲存及散發]**。
+13. **儲存** 這些屬性，然後瀏覽至 **[儲存及散發]**。
 
 14. 安裝應用程式以親自測試應用程式。
 
