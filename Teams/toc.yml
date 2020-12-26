@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: 設定主控台
               href: rooms/console.md
+            - name: 手動更新裝置
+              href: rooms/manual-update.md
             - name: 設定驗證
               href: rooms/rooms-authentication.md
             - name: 加入第三方會議
