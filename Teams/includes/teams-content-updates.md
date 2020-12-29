@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-december-21-2020"></a>2020年12月21日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 12/22/2020 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
+| 12/22/2020 | [在團隊中使用 [專題討論] 會議室](/MicrosoftTeams/using-breakout-rooms) | 日期 |
+| 12/23/2020 | [將病患應用程式連線至 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 日期 |
+| 12/23/2020 | [管理貴組織的清單應用程式](/MicrosoftTeams/manage-lists-app) | 日期 |
+| 12/23/2020 | [[加入檢查清單]-設定雲端語音工作負載-Microsoft 團隊](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 日期 |
+| 12/23/2020 | [使用小組 App 提交 API 來提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 日期 |
+| 12/23/2020 | [Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 日期 |
+| 12/23/2020 | [從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 日期 |
+| 12/23/2020 | [Microsoft 團隊 \| 服務管理品質的 \| 作業](/MicrosoftTeams/upgrade-operate-my-service) | 日期 |
+| 12/23/2020 | [使用 Advisor for Teams 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
+
+
 ## <a name="week-of-december-14-2020"></a>2020年12月14日的周
 
 
@@ -102,48 +119,3 @@
 | 11/25/2020 | [設定直接路由的 Ringback bot](/MicrosoftTeams/direct-routing-ringback-bot) | 日期 |
 | 11/25/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
 | 11/25/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
-
-
-## <a name="week-of-november-16-2020"></a>2020年11月16日的周
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 11/16/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 11/16/2020 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
-| 11/16/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 11/16/2020 | [使用 Power BI 來分析 Microsoft 團隊的 CQD 資料](/MicrosoftTeams/cqd-power-bi-query-templates) | 日期 |
-| 11/16/2020 | [使用 CQD Power BI 報表來查看自動語音應答 & 通話佇列歷史報告](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 日期 |
-| 11/16/2020 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
-| 11/16/2020 | [在 Microsoft 團隊中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 11/16/2020 | [Microsoft 365 政府-GCC 部署](/MicrosoftTeams/plan-for-government-gcc) | 日期 |
-| 11/16/2020 | [什麼是 Microsoft 團隊即時事件？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 日期 |
-| 11/16/2020 | [團隊與 Microsoft Power Platform 整合](/MicrosoftTeams/teams-power-platfom-integration) | 日期 |
-| 11/17/2020 | [使用 CQD Power BI 報表來查看自動語音應答 & 通話佇列歷史報告](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 日期 |
-| 11/17/2020 | [自動語音應答 & 通話佇列歷史報告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 日期 |
-| 11/17/2020 | [Microsoft 365 通話方案](/MicrosoftTeams/calling-plans-for-office-365) | 日期 |
-| 11/17/2020 | [在 Microsoft 團隊中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 11/17/2020 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
-| 11/17/2020 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
-| 11/17/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 11/17/2020 | [加拿大的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 日期 |
-| 11/17/2020 | [美國電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 日期 |
-| 11/17/2020 | [在 Microsoft 團隊中管理貴組織的任務應用程式](/MicrosoftTeams/manage-tasks-app) | 日期 |
-| 11/17/2020 | [系統管理員快速入門 - Microsoft Teams 的會議和即時活動](/MicrosoftTeams/quick-start-meetings-live-events) | 日期 |
-| 11/17/2020 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
-| 11/17/2020 | [Microsoft 團隊的高級通訊附加元件](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 日期 |
-| 11/17/2020 | [Microsoft 團隊會議出席情況報告](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 日期 |
-| 11/17/2020 | [在 Microsoft 團隊中設定即時事件設定](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 日期 |
-| 11/17/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
-| 11/17/2020 | [在 Microsoft Teams 中設定即時活動](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 日期 |
-| 11/17/2020 | [什麼是 Microsoft 團隊即時事件？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 日期 |
-| 11/17/2020 | [埃及式免付費撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | 日期 |
-| 11/18/2020 | [在瓜地馬拉中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala) | 日期 |
-| 11/18/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 11/18/2020 | [針對虛擬走訪的小組](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 日期 |
-| 11/18/2020 | [登入 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 日期 |
-| 11/18/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
-| 11/19/2020 | [針對虛擬走訪的小組](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 日期 |
-| 11/19/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 11/20/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
-| 11/20/2020 | [登入 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 日期 |
