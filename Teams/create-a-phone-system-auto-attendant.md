@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
-ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
+ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
+ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49530529"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49751781"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -107,9 +107,9 @@ ms.locfileid: "49530529"
 
 如果您沒有指派撥號鍵，請選擇 [ **目錄搜尋**] 的選項。
 
-**依名稱撥號** -如果您啟用此選項，則呼叫者可以說出使用者的名稱，或在電話鍵臺上輸入密碼。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是合格的使用者，而且可以使用 [撥號者名稱] 找到。  (您可以在 [ [撥號作用域](#dial-scope) ] 頁面上設定目錄中的人員，且不會包含在目錄中。 ) 
+**依名稱撥號** -如果您啟用此選項，則呼叫者可以說出使用者的名稱，或在電話鍵臺上輸入密碼。 任何線上使用者或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可以使用 [撥號者名稱] 找到。  (您可以在 [ [撥號作用域](#dial-scope) ] 頁面上設定目錄中的人員，且不會包含在目錄中。 ) 
 
-[透過 **分機撥號**]-如果您啟用此選項，則呼叫者可以撥打電話給您組織中的使用者。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可透過 **分機** 找到。  (您可以在 [ [撥號作用域](#dial-scope) ] 頁面上設定目錄中的人員，且不會包含在目錄中。 ) 
+[透過 **分機撥號**]-如果您啟用此選項，則呼叫者可以撥打電話給您組織中的使用者。 任何線上使用者或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，可透過 **分機** 找到。  (您可以在 [ [撥號作用域](#dial-scope) ] 頁面上設定目錄中的人員，且不會包含在目錄中。 ) 
 
 您想要讓撥打電話使用的使用者必須將延伸指定為下列其中一個電話屬性（在 Active Directory 或 Azure Active Directory 中定義），如需詳細資訊，請參閱 [新增使用者或大量](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) (。 ) 
 
@@ -119,8 +119,15 @@ ms.locfileid: "49530529"
 - Telephonenumber 相同/PhoneNumber
 - OtherTelephone
 
-在 [使用者電話號碼] 欄位中輸入副檔名所需的格式為 *+ \<phone number> ： [ext \<extension> =* ] 或 [a *+ \<phone number> ; x \<extension>*]。
-範例： Set-MsolUser： UserPrincipalName usern@domain.com-Phonenumber "+ 15555555678; ext = 5678"。
+在 [使用者電話號碼] 欄位中輸入延伸所需的格式，可以是：
+
+- *+\<phone number>; ext =\<extension>*
+- *+\<phone number>pci-x\<extension>*
+- *pci-x\<extension>*
+
+- 範例1： Set-MsolUser UserPrincipalName usern@domain.com-Phonenumber "+ 15555555678; ext = 5678"
+- 範例2： Set-MsolUser UserPrincipalName usern@domain.com-Phonenumber "+ 15555555678x5678"
+- 範例3： Set-MsolUser UserPrincipalName usern@domain.com-Phonenumber "x5678"
 
 您可以在 [Microsoft 365 系統管理中心](https://admin.microsoft.com/) 或 [Azure Active Directory 系統管理中心](https://aad.portal.azure.com)中設定延伸。 [自動語音應答] 和 [呼叫佇列] 可使用變更前需要12小時的時間。
 
@@ -163,7 +170,7 @@ ms.locfileid: "49530529"
 
 6. 如果您選擇 [重新導向]，請選擇通話的呼叫傳送目的地。
 
-7. 按一下 [儲存]。
+7. 按一下 **[儲存]**。
 
 ![[假日] 設定的螢幕擷取畫面，其中列出假日](media/auto-attendant-holiday-call-settings.png)
 
@@ -175,7 +182,7 @@ ms.locfileid: "49530529"
 
 ![[撥號作用中包括] 和 [排除] 選項的螢幕擷取畫面](media/auto-attendant-dial-scope.png)
 
-*撥號作用* 中定義來電者使用按名稱撥號或撥號延伸時，在目錄中可使用的使用者。 **所有線上使用者** 的預設值都是您組織中所有以電話系統授權或主機內部部署的使用者（使用商務用 Skype 伺服器）。
+*撥號作用* 中定義來電者使用按名稱撥號或撥號延伸時，在目錄中可使用的使用者。 **所有線上使用者** 的預設值都是您組織中的所有使用者，或是使用商務用 Skype Server 主機內部部署的所有使用者。
 
 您可以選取 [**包括**] 或 [**排除**] 底下的 [**自訂使用者組**]，然後選擇一或多個 Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定的使用者。 例如，您可能想要將貴組織中的主管從撥號目錄中排除。  (如果使用者同時位於兩個清單中，則會將其從目錄中排除。 ) 
 
