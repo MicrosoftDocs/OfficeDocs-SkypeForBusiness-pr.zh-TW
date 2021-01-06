@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682402"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757758"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -91,12 +91,12 @@ ms.locfileid: "49682402"
 | 出席者可見度 | Teams 產生 | 外部應用程式或裝置產生 |
 |------------------------------|-----------------|----------------------|
 |公用 (匿名使用者)      |  是            |  否                  |
-|來賓使用者                   |  是            |  否                  |
+|來賓使用者                   |  是<sup>1</sup>            |  否                  |
 |外部存取 (同盟) 公司中的每個人 |  是<sup>1</sup>|  否                  |
 |公司中的每個人           |  是            |  是                 |
 |特定群組/人員      |  是            |  是                 |
 
-<sup>1</sup> 外部存取 (同盟) 的出席者只能透過人員與群組邀請 <br>
+<sup>1</sup> 出席者只能透過人員與群組邀請 <br>
 
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 即時活動和 Skype 會議廣播
 
