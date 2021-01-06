@@ -1,13 +1,12 @@
 ---
-title: Microsoft 365 或 Office 365 OneDrive 與 SharePoint Online 多地域租賃中的團隊體驗
-author: SerdarSoysal
-ms.author: serdars
+title: 在 Microsoft 365 多地域環境中的團隊體驗
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 audience: admin
-description: 在本文中，您將學習如何在 Microsoft 365 或 Office 365 OneDrive 與 SharePoint Online 多地域租賃中使用團隊。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,24 +17,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fdfd99494b8f65c448a2b1183a183b8cf7477af
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: 在本文中，您將學習如何在 Microsoft 365 多地區啟用的環境中使用團隊。
+ms.openlocfilehash: 1a1689d78f6ce4e35b2e632e4a46ff0ec23a0d15
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583240"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757748"
 ---
-<a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Microsoft 365 或 Office 365 OneDrive 與 SharePoint Online 多地域租賃中的團隊體驗
-===========================================
+# <a name="teams-experience-in-a-microsoft-365-multi-geo-enabled-tenancy"></a>在 Microsoft 365 多地域租賃中的團隊體驗
 
-Microsoft 團隊是群組聊天軟體，即在 Microsoft 365 和 Office 365 中進行團隊合作的中心。 它是由 Microsoft 365 群組服務以及 SharePoint Online 和商務用 OneDrive 提供給其檔案體驗所支援。 在商務用 OneDrive/SharePoint Online 多地理租賃中，將租使用者延伸到許多地理位置（例如北美、歐洲和澳大利亞），基礎檔案體驗是多地區感知，所以小組使用檔案共同作業也是多地區的感知功能。 這是團隊在其原生檔案體驗中跨多個 Geos 託管之程式的主要前沿功能。
+Microsoft 團隊是群組聊天軟體，即在 Microsoft 365 中進行團隊合作的中心。 它由 Microsoft 365 群組服務提供支援，以及 SharePoint 和 OneDrive 的檔案體驗。 在已將租使用者延伸至多個地理位置（例如北美、歐洲和澳大利亞）的多地域組織中，基本的檔案體驗是多地區感知，所以小組使用檔案共同作業也能感知多地區。 這可讓團隊在其原生檔案體驗中跨多個地理位置託管的 surface 檔。
 
-例如，在 Contoso 租賃中，將歐洲作為衛星地理位置，而北美作為地理位置，但在左窗格中的 [檔案] 索引標籤下，歐元的附屬使用者將會看到他或她的 OneDrive 檔案，不過這些檔案是託管在歐洲資料位置，而美國是租使用者的中心位置。 此外，使用者也可以在最近的 [查看] 薄片下存取最近使用過的檔案。 [最近的檔案] 可能包含使用者與其他 Geos 中的使用者共用的檔案，而且可能是受租使用者延伸的其他地理位置。 
+例如，在 Contoso 租賃中，將歐洲作為衛星地理位置，而北美作為地理位置，但在左窗格中的 [檔案] 索引標籤下，歐元的附屬使用者將會看到他或她的 OneDrive 檔案，不過這些檔案是託管在歐洲資料位置，而美國是租使用者的中心位置。 此外，使用者也可以在最近的 [查看] 薄片下存取最近使用過的檔案。 [最近的檔案] 可能包含從其他地域位置中的使用者共用的檔案。 
 
-指定團隊的群組網站也是多地區感知功能。 也就是說，如果歐洲的附屬使用者正在建立小組，則會在歐洲位置建立對應的群組網站，而與該小組群組相關聯的檔案將會保留在該位置。 任何後續的體驗（例如上傳新檔案或編輯檔案）都將針對該歐洲位置，以保證資料在這些檔案中保持常駐。 如此一來，基本的基礎 Microsoft 365 群組就能成為多地區感知，這一切都有可能完成。
+指定的小組的 SharePoint 網站也是多地區感知功能。 也就是說，如果歐洲的附屬使用者正在建立小組，則會在歐洲位置建立對應的 SharePoint 網站，並將與該小組相關聯的檔案保留在該位置。 任何後續的體驗（例如上傳新檔案或編輯檔案）都將儲存在該歐洲位置，以保證資料在這些檔案中保持常駐。
 
-因為多地域租賃是單一全域租使用者，所以在 @ 提及中，衛星使用者將能夠在全球各地查看其同事，無論其位於何處。 
+請注意，小組體驗中的聊天與會議 IM 筆記中的交談並不是多地區感知，而且都只會保留在組織的中央位置。
 
-請注意，小組體驗中的聊天與會議 IM 筆記中的交談並不是多地區感知，而且都只會保留在租使用者的中央位置。 通常，聊天交談不會套用至資料派駐需求。
-
-如需多地理位置的詳細資訊，請參閱[Microsoft 多地區功能頁面](https://aka.ms/multi-geo)。
+如需多地理位置的詳細資訊，請參閱 [Microsoft 多地區功能](https://aka.ms/multi-geo)。

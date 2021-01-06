@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
-ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
+ms.openlocfilehash: b37fcadb89c0ae88e48c20ab669aa91aef6d2f02
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002195"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757768"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 會議的小組原則錄製簡介
 
 原則式錄製：可讓使用管理原則的 Microsoft 團隊運用 Microsoft 團隊進行通話和會議，以便在相關的公司或法規原則所需的後續處理及保留期間自動錄製並捕獲。
 
-團隊已增強，可支援協力廠商錄製解決方案的整合，包括平臺功能、使用者體驗和管理介面，以提供用於設定、管理、錄製、儲存及分析團隊溝通的端對端方案。 這包括通訊平臺 Api 和錄製事件，提供：
+團隊已增強，可支援協力廠商錄製解決方案的整合，包括平臺功能、使用者體驗和管理介面，以提供用於設定、管理、錄製、儲存及分析團隊溝通的端對端方案。 增強功能包括通訊平臺 Api 與錄製事件，提供：
 
 - 跨裝置的無縫、高品質媒體捕獲，以及音訊、影片、螢幕共用及聊天的所有支援端點。
 
@@ -42,7 +42,7 @@ ms.locfileid: "49002195"
 
 相容性錄製可以在 Microsoft 365 A3/A5/E3/E5/[商務版 Premium] 和 [Office 365 A3/A5] 的使用者上啟用。 
 
-相容性錄製解決方案整合功能也會在 Ignite 2019 的 [<span class="underline">相容性錄製和 Microsoft 團隊會話</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)中進行審查。
+相容性錄製解決方案整合功能也會在 Ignite 2019 的 [<span class="underline">相容性錄製和 Microsoft 團隊會話</span>](https://myignite.microsoft.com/archives/IG19-VCE40)中進行審查。
 
 ## <a name="teams-interaction-recording-overview"></a>團隊互動錄製概覽
 
@@ -52,14 +52,14 @@ ms.locfileid: "49002195"
 
 每個類別都必須對啟動錄製的方式有不同的需求、錄製的內容、儲存錄製的位置、通知者、控制存取的人員，以及如何處理保留作業。
 
-| 類型                   | 便利性        | 多功能         | 組織-一般      | 組織管制 | 法律截獲   |
-| ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
-| 發送              | 使用者               | App/解決方案       | 管理員 (系統)      | 管理員 (系統)   | LEA                |
-| 目標                 | 每次通話/會議 | 每次通話/會議 | 每次通話/會議 | 每位使用者        | 每個端點/已執行 |
-| 儲存擁有者          | 使用者               | 適用                | 管理員              | 合規性      | LEA                |
-| 需要通知嗎？ | 是                | 是                | 是                | 是             | 否                 |
-| Access 擁有者           | 使用者               | 適用                | 管理員              | 合規性      | LEA                |
-| 保留原則？      | 選用           | 是                | 是                | 是             | 是                |
+| 類型                   | 便利性 (定期小組錄製)  | 組織管制 (合規性錄製)  |
+| ---------------------- | ------------------ | --------------- |
+| 發送              | 使用者               | 管理員 (系統)   |
+| 目標                 | 每次通話/會議 | 每位使用者        |
+| 儲存擁有者          | 使用者               | 合規性      |
+| 需要通知嗎？ | 是                | 是             |
+| Access 擁有者           | 使用者               | 合規性      |
+| 保留原則？      | 選用           | 是             |
 
 小組提供各種功能，可讓會議與即時事件進行 [<span class="underline">便利</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) 且正常運作。 組織錄製意味著讓使用團隊進行呼叫與會議 stipulate、使用管理原則進行通話與線上會議時，應依相關的公司或法規原則，自動錄製並捕獲進行後續處理及保留的方式。 此原則下的使用者會發現與小組的數位互動正在錄製，但無法停用錄製，而且在互動完成之後就不能存取錄製。 錄製成為組織封存的一部分，可供電子檔探索、法律封存及其他公司留存用途使用。
 
@@ -133,7 +133,7 @@ Azure 和 Windows VM 的需求只適用于 [團隊 Bot] 元件，這表示合作
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合規性錄製原則指派與置備
 
-IT 管理員可以透過建立並指派合規性錄製原則，來判斷要錄製哪些使用者，以及每個使用者要使用哪一種記錄器。 當通訊互動發生時，會根據這些原則的設定，自動邀請錄影機參與交談。 合規性錄製原則是使用 [<span class="underline">Microsoft Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) 來管理，而且可以套用於每個組織的租使用者、每使用者和安全群組層級。 您可以在 Microsoft 檔中找到更多關於 [<span class="underline">會議原則</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)、 [<span class="underline">通話原則</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) 和  [<span class="underline">群組原則</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)的資訊。
+IT 管理員可以透過建立並指派合規性錄製原則，來判斷要錄製哪些使用者，以及每個使用者要使用哪一種記錄器。 當通訊互動發生時，會根據這些原則的設定，自動邀請錄影機參與交談。 合規性錄製原則是使用 [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) 來管理，而且可以套用於每個組織的租使用者、每使用者和安全群組層級。 您可以在 Microsoft 檔中找到更多關於 [<span class="underline">會議原則</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)、 [<span class="underline">通話原則</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) 和  [<span class="underline">群組原則</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)的資訊。
 
 1. 在您的租使用者中建立應用程式實例。
 
@@ -206,12 +206,13 @@ IT 管理員可以透過建立並指派合規性錄製原則，來判斷要錄�
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>小組認證程式的合規性錄製
 
-除了發佈公開提供的 Api，讓合作夥伴能夠開發並整合 CCaaS 方案與團隊合作，我們已開發出 Microsoft 團隊認證計畫的規範錄製，為客戶提供每個參與合作夥伴的解決方案都經過測試和驗證，以提供他們預期的品質、相容性及可靠性。  
+除了發佈可供合作夥伴開發並整合 CCaaS 方案的公用 Api 之外，我們已開發 Microsoft 團隊認證計畫的合規性錄製，為客戶提供每個參與合作夥伴的解決方案，以提供他們預期的品質、相容性及可靠性等 Microsoft 解決方案。  
 
 下列合作夥伴已驗證其 Microsoft 團隊的解決方案。
 
 |Partner|解決方案網站 |
 |:--|:--|
+|AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
 |！ |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 
 
@@ -220,7 +221,6 @@ IT 管理員可以透過建立並指派合規性錄製原則，來判斷要錄�
 |Partner|解決方案網站 |
 |:--|:--|
 |ASC 技術 |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
-|AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis 技術 |[https://landistechnologies.com/](https://landistechnologies.com/) |

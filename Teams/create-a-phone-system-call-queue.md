@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中設定電話聯絡佇列，提供問候語、等候音樂、呼叫重新導向及其他功能。
-ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49135943"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49765414"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
