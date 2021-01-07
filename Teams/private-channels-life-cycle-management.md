@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中管理私人頻道的生命週期
+title: 在 Microsoft 團隊中使用圖形 API 管理私人頻道
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,24 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 336d97071c30bca145d26f4c853d5bb30265721f
-ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
+description: 瞭解如何使用圖形 API 管理貴組織中的私人頻道。
+ms.openlocfilehash: 854e8721dac7d49e258db42845b84480955bfec7
+ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49601658"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772036"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
-您可以在這裡找到在組織中管理 [私人頻道](private-channels.md) 生命週期所需的指導方針。
-
-> [!IMPORTANT]
-> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從 [PowerShell 庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 [團隊 PowerShell 公用預覽] 模組。 如需如何安裝模組的步驟，請參閱 [安裝 Microsoft 團隊 PowerShell](teams-powershell-install.md)。 最新的一般可用性團隊 PowerShell 模組不支援管理專用通道。
+您可以在這裡找到您需要管理的指導方針，以使用圖形 API 管理組織中的 [專用頻道](https://docs.microsoft.com/microsoftteams/private-channels) 。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
-
-小組擁有者可以關閉或開啟成員在小組設定中建立私人頻道的能力。 若要這樣做，請在團隊的 [ **設定** ] 索引標籤上，關閉或開啟 [ **允許成員建立私人頻道**]。
 
 做為管理員，您可以使用圖形 API 來控制成員是否可以在特定團隊中建立私人頻道。 以下是範例。
 
@@ -47,31 +42,9 @@ PATCH /teams/<team_id>
 }
 ```
 
-## <a name="set-whether-users-in-your-organization-can-create-private-channels"></a>設定貴組織中的使用者是否可以建立私人頻道
-
-身為管理員，您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定原則，以控制貴組織中的哪些使用者可以建立私人頻道。
-
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
-
-使用團隊原則設定貴組織中的哪些使用者可以建立私人頻道。 若要深入瞭解，請參閱 [管理團隊中的團隊原則](teams-policies.md)。
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-使用 **CsTeamsChannelsPolicy** 設定您組織中的哪些使用者可以建立私人頻道。 將 **AllowPrivateChannelCreation** 參數設定為 **true** ，以允許獲指派原則的使用者建立私人頻道。 如果將參數設定為 **false** ，就會關閉為指派了原則的使用者建立私有通道的功能。
-
-若要深入瞭解，請參閱 [新-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)。
-
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>代表團隊擁有者建立私人頻道
 
-做為管理員，您可以使用 PowerShell 或 Graph API 代表團隊擁有者建立私人頻道。 例如，如果您的組織想要集中建立私人頻道，您可能會想要執行此動作。
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
-```
-
-### <a name="using-graph-api"></a>使用圖形 API
+做為管理員，您可以使用圖形 API 代表團隊擁有者建立私人頻道。 例如，如果您的組織想要集中建立私人頻道，您可能會想要執行此動作。
 
 ```Graph API
 POST /teams/{id}/channels
@@ -97,22 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 無論您是要針對私人頻道中的檔案執行 eDiscovery 或法律封存，或是想要建立將檔案放在特定專用通道中的自訂應用程式，您都會希望能查詢針對每個私人通道建立的唯一 SharePoint 網站集合。
 
-以管理員身分，您可以使用 PowerShell 或圖形 Api 命令來查詢這些 Url。
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-1. 使用您的系統管理員帳戶安裝並 [連線至 SharePoint Online 管理命令](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 介面。
-2. 執行下列動作，其中 &lt; group_id &gt; 是團隊的群組識別碼。  (您可以在小組連結中輕鬆找到群組識別碼。 ) 
-
-    ```PowerShell
-    $sites = get-sposite -template "teamchannel#0"
-    $groupID = "<group_id>"
-    foreach ($site in $sites) {$x= Get-SpoSite -Identity
-    $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
-    {$x.RelatedGroupId;$x.url}}
-    ```
-
-### <a name="using-graph-api"></a>使用圖形 API
+以管理員身分，您可以使用圖形 Api 命令來查詢這些 Url。
 
 您可以透過 [圖表資源管理器](https://developer.microsoft.com/graph/graph-explorer)來嘗試這些命令。
 
@@ -180,27 +138,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 您可能會想要列出私人通道的擁有者和成員，決定是否需要將專用通道的特定成員升級為擁有者。 當您擁有已離開組織的專用頻道擁有者，且專用頻道需要系統管理員協助才能宣告頻道擁有權時，就會發生這種情況。
 
-以管理員身分，您可以使用 Microsoft 團隊系統管理中心、PowerShell 或圖形 API 來執行這些動作。
-
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
-
-若要瞭解如何使用 Microsoft 團隊系統管理中心管理團隊成員，請參閱在 [Microsoft 團隊系統管理中心管理團隊](manage-teams-in-modern-portal.md)。
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-1. 執行下列動作，其中 &lt; group_id &gt; 是團隊的群組識別碼，而 &lt; channel_name &gt; 是頻道名稱。
-
-    ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
-    ```
-
-2. 將成員升級為擁有者。
-
-    ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
-    ```
-
-### <a name="using-graph-api"></a>使用圖形 API
+以管理員身分，您可以使用圖形 API 來執行這些動作。
 
 您可以透過 [圖表資源管理器](https://developer.microsoft.com/graph/graph-explorer)來嘗試這些命令。
 
@@ -273,10 +211,14 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="related-topics"></a>相關主題
 
-- [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [使用 Microsoft 圖形 API 搭配 Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
-    - [清單頻道](https://docs.microsoft.com/graph/api/channel-list)
-    - [建立頻道](https://docs.microsoft.com/graph/api/channel-post)
-    - [將成員新增到頻道](https://docs.microsoft.com/graph/api/conversationmember-add)
-    - [更新頻道中的成員](https://docs.microsoft.com/graph/api/conversationmember-update)
-    - [移除頻道中的成員](https://docs.microsoft.com/graph/api/conversationmember-delete)
+[使用 Microsoft 圖形 API 搭配 Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+
+[清單頻道](https://docs.microsoft.com/graph/api/channel-list)
+
+[建立頻道](https://docs.microsoft.com/graph/api/channel-post)
+
+[將成員新增到頻道](https://docs.microsoft.com/graph/api/conversationmember-add)
+
+[更新頻道中的成員](https://docs.microsoft.com/graph/api/conversationmember-update)
+
+[移除頻道中的成員](https://docs.microsoft.com/graph/api/conversationmember-delete)

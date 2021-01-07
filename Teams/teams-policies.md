@@ -14,7 +14,6 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用及管理組織中的小組原則，以控制使用者可在團隊和頻道中執行的動作。
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,18 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
-ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
+description: 瞭解如何使用及管理組織中的小組原則，以控制使用者可在團隊和頻道中執行的動作。
+ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
+ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48297369"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772025"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的團隊原則
 
 做為管理員，您可以使用 Microsoft 團隊中的小組原則來控制貴組織中的使用者可在團隊和頻道中進行的動作。 例如，您可以設定是否允許使用者建立私人頻道。
 
-您可以移至**Teams**  >  Microsoft 團隊系統管理中心的小組**小組原則**，管理小組原則。 您可以使用全域 (組織範圍的預設) 原則，或是建立並指派自訂原則。 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。
+您可以移至  >  Microsoft 團隊系統管理中心的小組 **小組原則**，管理小組原則。 您可以使用全域 (組織範圍的預設) 原則，或是建立並指派自訂原則。 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。
 
 您可以編輯全域原則，或建立並指派自訂原則。 在您編輯全域原則或指派原則後，可能需要幾個小時的時間，變更才會生效。
 
@@ -46,9 +46,9 @@ ms.locfileid: "48297369"
 3. 輸入原則的名稱和描述。
 
     ![團隊原則設定的螢幕擷取畫面](media/teams-policies.png)
-4. 根據您是否要允許使用者建立私人頻道<a name="createchannels"> </a> ，開啟或關閉 [**建立私人頻道**]。
+4. 根據您是否要允許使用者建立私人頻道 <a name="createchannels"></a> ，開啟或關閉 [**建立私人頻道**]。
 
-5. 按一下 [儲存]****。
+5. 按一下 **[儲存]**。
 
 ## <a name="edit-a-teams-policy"></a>編輯團隊原則
 
@@ -67,3 +67,5 @@ ms.locfileid: "48297369"
 [團隊中的私人頻道](private-channels.md)
 
 [指派策略給小組中的使用者](assign-policies.md)
+
+[新-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
