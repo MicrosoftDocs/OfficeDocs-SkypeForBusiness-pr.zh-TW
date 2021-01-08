@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 系統管理員可以瞭解 (SBCs) 已驗證直接路由的會話框線控制器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1c9a7a9c174c634ef03ef8f18800a8d2d452f5e
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: 256451e778ed0e5864a7144003d44eb7ffc28767
+ms.sourcegitcommit: b8e697d52dcedace66cec2a06a5bd9889a780623
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776894"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49782536"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -79,7 +79,7 @@ Microsoft 與各個廠商搭配：
 |                                 |     1000系列匯總服務路由器 (CUBE) 的 Cisco 整合框線元素      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 緊急路由服務 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    企業 ( ASBCE 的 Avaya 會話框線控制器)     |     &#10004;     |           |       發行8.1。1       |     |    | 
 |                     [Networks](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 會話邊界控制器    |     &#10004;     |           |       19.5 (1908)        |     |    | 
-|                     [Italtel](https://www.italtel.com/)|    NetMatch CI     |     &#10004;     |           |       5.0       |     |    | 
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    蘭花連結    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    團隊 SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 

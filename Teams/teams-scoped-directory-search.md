@@ -19,18 +19,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4152a2ac9ee50372dbc0fdb423d0d85c3026433
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e4f478bba8c396f0f20b95f69f56c2ded556224d
+ms.sourcegitcommit: 2300595db7779da7a127ae9ee16e474452df02d3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584072"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49779927"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
 Microsoft 團隊範圍的目錄搜尋可讓組織建立虛擬邊界，以控制使用者如何在組織中找到其他使用者並與之通訊。 
 
-Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft 團隊使用[資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)來支援這些自訂視圖。 啟用原則後，搜尋由其他使用者所傳回的結果 (例如，啟動聊天或將成員新增至團隊) 將根據設定的原則進行範圍。 當作用中的搜尋生效時，使用者將無法搜尋或探索團隊。 
+Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft 團隊使用 [資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) 來支援這些自訂視圖。 啟用原則後，搜尋由其他使用者所傳回的結果 (例如，啟動聊天或將成員新增至團隊) 將根據設定的原則進行範圍。 當作用中的搜尋生效時，使用者將無法搜尋或探索團隊。 
 
 > [!NOTE]
 > 在 Exchange 混合式環境中，這項功能僅適用于 Exchange Online 信箱，不適用於內部部署信箱。
@@ -42,18 +42,18 @@ Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft
 - 貴組織的租用戶中有多家公司，您想要將其分開。 
 - 學校需要限制教職員與學生之間的交談。 
  
-若要瞭解如何使用通訊錄原則，請參閱[Exchange Online 中的資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)。
+若要瞭解如何使用通訊錄原則，請參閱 [Exchange Online 中的資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)。
 
 > [!IMPORTANT]
-> 通訊錄原則只提供從目錄角度來看使用者的虛擬隔離。 使用者仍可提供完整的電子郵件地址，以與其他人發起通訊。 另外，請務必注意，在強制執行新的或更新的通訊錄原則之前，已進行過快取的任何使用者資料，都會持續提供給最多30天的使用者。
+> 通訊錄原則只提供從目錄角度來看使用者的虛擬隔離。 另外，請務必注意，在強制執行新的或更新的通訊錄原則之前，已進行過快取的任何使用者資料，都會持續提供給最多30天的使用者。
 
 ## <a name="turn-on-scoped-directory-search"></a>開啟作用中的目錄搜尋
 
-1. 使用資訊屏障原則將您的組織設定為虛擬子群組。 如需詳細資訊，請參閱[定義資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)。
+1. 使用資訊屏障原則將您的組織設定為虛擬子群組。 如需詳細資訊，請參閱 [定義資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)。
 
-2. 在 Microsoft [團隊管理中心] 中，選取 [全**組織性設定**  >  **團隊設定**]。
+2. 在 Microsoft [團隊管理中心] 中，選取 [全 **組織性設定**  >  **團隊設定**]。
 
-3. 在 [**搜尋**] 底下，在**使用 Exchange 通訊錄原則的小組中，[範圍目錄搜尋] 旁 (ABP) **，請開啟 **[開啟]。**
+3. 在 [**搜尋**] 底下，在 **使用 Exchange 通訊錄原則的小組中，[範圍目錄搜尋] 旁 (ABP)**，請開啟 **[開啟]。**
 
     ![Microsoft 團隊系統管理中心的作用中目錄搜尋範圍](media/teams-scoped-directory-search-image1.png)
 
