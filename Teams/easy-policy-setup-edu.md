@@ -17,17 +17,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 [針對教育版的團隊原則] 嚮導，輕鬆地將原則套用至學生和教育版，讓您的學習環境保持安全。
 f1keywords: ''
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6480eb0ea698a783bbd231bacf2d6d1c23c7b2be
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: 1ea7fb684bce3d59063f1a258d0db37fb75a4681
+ms.sourcegitcommit: 95b85926d67cbf3159f58d9083d5813cc29074f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718607"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790417"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用 [針對教育版團隊原則] 嚮導，輕鬆地將原則套用到安全的學習環境
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>概觀
 
