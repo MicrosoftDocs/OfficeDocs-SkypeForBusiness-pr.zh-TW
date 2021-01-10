@@ -1155,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: 教育版系統管理員的低頻寬指導方針
           href: edu-remote-low-bandwidth.md
+        - name: Teams 教育版原則精靈
+          href: easy-policy-setup-edu.md
         - name: 開始使用深入解析
           href: class-insights.md
         - name: Teams 教育版中的作業
