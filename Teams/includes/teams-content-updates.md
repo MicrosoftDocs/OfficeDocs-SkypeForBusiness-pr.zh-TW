@@ -3,6 +3,35 @@
 
 
 
+## <a name="week-of-january-04-2021"></a>2021年1月4日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 1/4/2021 | [為 Microsoft 團隊設定自動助手](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 1/4/2021 | [自動語音應答和通話佇列撥號及語音辨識參考](/MicrosoftTeams/dial-voice-reference) | 日期 |
+| 1/4/2021 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 1/4/2021 | [設定會話邊界控制器-多重承租人](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
+| 1/5/2021 | [在 Microsoft 團隊中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 1/5/2021 | [增強現有的 Microsoft 365 群組](/MicrosoftTeams/enhance-office-365-groups) | 日期 |
+| 1/5/2021 | [SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](/MicrosoftTeams/sharepoint-onedrive-interact) | 日期 |
+| 1/5/2021 | [在 Microsoft 365 多地域環境中的團隊體驗](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 日期 |
+| 1/5/2021 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 1/5/2021 | [呼叫 & 會議的小組原則錄製簡介](/MicrosoftTeams/teams-recording-policy) | 日期 |
+| 1/5/2021 | [在 Microsoft 團隊的疑難排解中使用記錄檔](/MicrosoftTeams/log-files) | 日期 |
+| 1/6/2021 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 1/6/2021 | [在 Microsoft 團隊中使用圖形 API 管理私人頻道](/MicrosoftTeams/private-channels-life-cycle-management) | 日期 |
+| 1/6/2021 | [管理 Microsoft 團隊中的團隊原則](/MicrosoftTeams/teams-policies) | 日期 |
+| 1/6/2021 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 1/6/2021 | [使用小組 App 提交 API 來提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 日期 |
+| 1/7/2021 | [使用 Microsoft Teams 限域目錄搜尋](/MicrosoftTeams/teams-scoped-directory-search) | 日期 |
+| 1/7/2021 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 1/8/2021 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 1/8/2021 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
+| 1/8/2021 | [開啟或關閉 Microsoft Teams 的來賓存取](/MicrosoftTeams/set-up-guests) | 日期 |
+| 1/8/2021 | [[適用于教育原則的小組] 嚮導可輕鬆地套用安全學習原則](/MicrosoftTeams/easy-policy-setup-edu) | 日期 |
+
+
 ## <a name="week-of-december-21-2020"></a>2020年12月21日
 
 
@@ -54,68 +83,3 @@
 | 12/18/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
 | 12/18/2020 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
 | 12/18/2020 | [什麼是撥號對應表？](/MicrosoftTeams/what-are-dial-plans) | 日期 |
-
-
-## <a name="week-of-november-30-2020"></a>2020年11月30日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 11/30/2020 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
-| 11/30/2020 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
-| 11/30/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 11/30/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
-| 12/1/2020 | [為 Microsoft 團隊設定自動助手](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
-| 12/1/2020 | [Microsoft Teams 中的資料位置](/MicrosoftTeams/location-of-data-in-teams) | 日期 |
-| 12/1/2020 | [設定直接路由的語音路由](/MicrosoftTeams/direct-routing-voice-routing) | 日期 |
-| 12/1/2020 | [Microsoft Teams 中的公開預覽](/MicrosoftTeams/public-preview-doc-updates) | 日期 |
-| 12/1/2020 | [Microsoft Teams 的安全性指南](/MicrosoftTeams/teams-security-guide) | 日期 |
-| 12/2/2020 | [團隊作業](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 日期 |
-| 12/2/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
-| 12/2/2020 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
-| 12/2/2020 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
-| 12/2/2020 | [快速入門-適用于教育系統管理員的 Microsoft 團隊](/MicrosoftTeams/teams-quick-start-edu) | 日期 |
-| 12/2/2020 | [將原則指派給學校中的大型使用者](/MicrosoftTeams/batch-group-policy-assignment-edu) | 日期 |
-| 12/2/2020 | [適用於教育界管理員的 Microsoft Teams 原則和原則套件](/MicrosoftTeams/policy-packages-edu) | 日期 |
-| 12/2/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
-| 12/3/2020 | [義大利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 日期 |
-| 12/3/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 日期 |
-| 12/3/2020 | [對內容進行 eDiscovery 調查](/MicrosoftTeams/ediscovery-investigation) | 日期 |
-| 12/3/2020 | [在法律封存上放置 Microsoft 團隊使用者或團隊](/MicrosoftTeams/legal-hold) | 日期 |
-| 12/4/2020 | [從商務用 Skype 升級至 Teams 的常見問題集](/MicrosoftTeams/faq-journey) | 日期 |
-| 12/4/2020 | [如何有效使用 Microsoft 團隊](/MicrosoftTeams/continue-journey) | 日期 |
-| 12/4/2020 | [進行使用者試驗來評估並測試 Microsoft 團隊在貴組織中的運作方式](/MicrosoftTeams/pilot-essentials) | 日期 |
-| 12/4/2020 | [終止對商務用 Skype Online 的支援](/MicrosoftTeams/skype-for-business-online-retirement) | 日期 |
-| 12/4/2020 | [商務用 Skype 與 Microsoft 團隊之間的互通性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 日期 |
-| 12/4/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 12/4/2020 | [選擇從商務用 Skype 升級到 Microsoft 團隊的旅程](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 日期 |
-| 12/4/2020 | [定義商務用 Skype 的專案範圍升級至 Microsoft 團隊升級](/MicrosoftTeams/upgrade-define-project-scope) | 日期 |
-| 12/4/2020 | [登記專案關係人 \| 商務用 Skype 以進行小組升級規劃](/MicrosoftTeams/upgrade-enlist-stakeholders) | 日期 |
-| 12/4/2020 | [關於升級架構-商務用 Skype 至團隊](/MicrosoftTeams/upgrade-framework) | 日期 |
-| 12/4/2020 | [評估商務用 Skype 與團隊升級的組織變更準備](/MicrosoftTeams/upgrade-org-change-readiness) | 日期 |
-| 12/4/2020 | [升級至團隊之前先評估您的環境](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 日期 |
-| 12/4/2020 | [升級至團隊的先決條件與環境相依性](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | 日期 |
-| 12/4/2020 | [規劃您的商務用 Skype 至 Microsoft 團隊升級](/MicrosoftTeams/upgrade-plan-journey) | 日期 |
-| 12/4/2020 | [為您的 Microsoft 團隊準備 IT 員工](/MicrosoftTeams/upgrade-prepare-it-pros) | 日期 |
-| 12/4/2020 | [準備您的服務以升級至 Microsoft 團隊](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | 日期 |
-| 12/4/2020 | [準備您的環境以升級至團隊](/MicrosoftTeams/upgrade-prepare-environment) | 日期 |
-| 12/4/2020 | [準備貴組織從商務用 Skype 升級至團隊](/MicrosoftTeams/upgrade-prepare-organization) | 日期 |
-| 12/4/2020 | [開始將商務用 Skype 升級至團隊](/MicrosoftTeams/upgrade-start-here) | 日期 |
-| 12/4/2020 | [將商務用 Skype 內部部署升級至 Microsoft 團隊](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 日期 |
-| 12/4/2020 | [從商務用 Skype Online 升級至 Microsoft 團隊](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 日期 |
-| 12/4/2020 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 日期 |
-| 12/4/2020 | [在 Microsoft 團隊中實施升級的概覽](/MicrosoftTeams/upgrade-to-teams) | 日期 |
-| 12/4/2020 | [準備使用者準備方案以從商務用 Skype 升級至團隊](/MicrosoftTeams/upgrade-user-readiness) | 日期 |
-
-
-## <a name="week-of-november-23-2020"></a>2020年11月23日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 11/23/2020 | [在通話品質儀表板中上傳租使用者並建立資料 (CQD) ](/MicrosoftTeams/cqd-upload-tenant-building-data) | 日期 |
-| 11/23/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
-| 11/23/2020 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
-| 11/25/2020 | [設定直接路由的 Ringback bot](/MicrosoftTeams/direct-routing-ringback-bot) | 日期 |
-| 11/25/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 11/25/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
