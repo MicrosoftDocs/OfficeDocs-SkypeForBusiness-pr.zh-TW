@@ -1,8 +1,8 @@
 ---
 title: 匯入憑證 (叫用)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
-description: 在 [執行命令] 頁面上，查看已匯入憑證的摘要資訊。 在下拉式清單中，選取 [匯入憑證記錄檔]。 請務必在下拉式清單中看到 [匯入憑證記錄檔]。 按一下 [查看記錄]，查看憑證匯入的詳細資料。 完成查看摘要及記錄檔後，請按一下 [完成]。
-ms.openlocfilehash: b4b3194ecd9abbf4c99a22f5ca90ea6fa296fe9a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 在「執行命令 」頁面上，檢閱匯入憑證的摘要資訊。 在下拉式清單中，選取匯入憑證記錄檔。 確定在下拉式清單中，可以看到匯入憑證記錄檔。 按一下 [檢視記錄檔]，檢閱憑證匯入的詳細資訊。 當您檢閱完摘要和記錄檔時，請按一下 [完成]。
+ms.openlocfilehash: 907342d422f71d84fab9e2e4bcf2cce5fa46ce49
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823657"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827253"
 ---
-# <a name="import-certificate-invoke"></a><span data-ttu-id="bce59-107">匯入憑證 (叫用)</span><span class="sxs-lookup"><span data-stu-id="bce59-107">Import Certificate (Invoke)</span></span>
+# <a name="import-certificate-invoke"></a><span data-ttu-id="b62c6-107">匯入憑證 (叫用)</span><span class="sxs-lookup"><span data-stu-id="b62c6-107">Import Certificate (Invoke)</span></span>
  
-<span data-ttu-id="bce59-108">在 [**執行命令**] 頁面上，查看已匯入憑證的摘要資訊。</span><span class="sxs-lookup"><span data-stu-id="bce59-108">On the **Executing Commands** page, review the summary information for the imported certificate.</span></span> <span data-ttu-id="bce59-109">在下拉式清單中，選取 [匯入憑證記錄檔]。</span><span class="sxs-lookup"><span data-stu-id="bce59-109">In the drop-down list, select the Import Certificate log file.</span></span> <span data-ttu-id="bce59-110">請務必在下拉式清單中看到 [匯入憑證記錄檔]。</span><span class="sxs-lookup"><span data-stu-id="bce59-110">Be sure that the Import Certificate log file is visible in the drop-down list.</span></span> <span data-ttu-id="bce59-111">按一下 [**查看記錄**]，查看憑證匯入的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="bce59-111">Click **View Log** to review the details of the certificate import.</span></span> <span data-ttu-id="bce59-112">完成查看摘要及記錄檔後，請按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="bce59-112">When you are finished reviewing the summary and the log file, click **Finish**.</span></span>
+<span data-ttu-id="b62c6-p102">在「執行命令 」頁面上，檢閱匯入憑證的摘要資訊。在下拉式清單中，選取匯入憑證記錄檔。確定在下拉式清單中，可以看到匯入憑證記錄檔。按一下 [檢視記錄檔]，檢閱憑證匯入的詳細資訊。當您檢閱完摘要和記錄檔時，請按一下 [完成]。</span><span class="sxs-lookup"><span data-stu-id="b62c6-p102">On the **Executing Commands** page, review the summary information for the imported certificate. In the drop-down list, select the Import Certificate log file. Be sure that the Import Certificate log file is visible in the drop-down list. Click **View Log** to review the details of the certificate import. When you are finished reviewing the summary and the log file, click **Finish**.</span></span>
   
 

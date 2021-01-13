@@ -1,8 +1,8 @@
 ---
 title: 封存原則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,59 +14,59 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-description: 您可以使用 [封存原則] 來啟用和停用駐留在商務用 Skype Server 上的使用者的封存。 在每個封存原則中，您可以從下列項目擇一或兩者皆啟用或停用封存：
-ms.openlocfilehash: 230b27a0d87b553f64b209e5aa3d464e88ae370a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以使用封存原則來啟用及停用駐留在商務用 Skype Server 上之使用者的封存功能。 在每個封存原則中，您可以啟用或停用下列其中一項或兩項的封存：
+ms.openlocfilehash: 19bc0612208e719b7a963bf4c7f0dc6a9cc69537
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823186"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826943"
 ---
-# <a name="archiving-policy"></a><span data-ttu-id="ba3a3-104">封存原則</span><span class="sxs-lookup"><span data-stu-id="ba3a3-104">Archiving Policy</span></span>
+# <a name="archiving-policy"></a><span data-ttu-id="48500-104">封存原則</span><span class="sxs-lookup"><span data-stu-id="48500-104">Archiving Policy</span></span>
  
-<span data-ttu-id="ba3a3-105">您可以使用 [封存原則] 來啟用和停用駐留在商務用 Skype Server 上的使用者的封存。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-105">You use Archiving policies to enable and disable archiving for users homed on Skype for Business Server.</span></span> <span data-ttu-id="ba3a3-106">在每個封存原則中，您可以從下列項目擇一或兩者皆啟用或停用封存：</span><span class="sxs-lookup"><span data-stu-id="ba3a3-106">In each Archiving policy, you can enable or disable archiving for either or both of the following:</span></span>
+<span data-ttu-id="48500-105">您可以使用封存原則來啟用及停用駐留在商務用 Skype Server 上之使用者的封存功能。</span><span class="sxs-lookup"><span data-stu-id="48500-105">You use Archiving policies to enable and disable archiving for users homed on Skype for Business Server.</span></span> <span data-ttu-id="48500-106">在每個封存原則中，您可以啟用或停用下列其中一項或兩項的封存：</span><span class="sxs-lookup"><span data-stu-id="48500-106">In each Archiving policy, you can enable or disable archiving for either or both of the following:</span></span>
   
-- <span data-ttu-id="ba3a3-107">內部通訊</span><span class="sxs-lookup"><span data-stu-id="ba3a3-107">Internal communications</span></span>
+- <span data-ttu-id="48500-107">內部通訊</span><span class="sxs-lookup"><span data-stu-id="48500-107">Internal communications</span></span>
     
-- <span data-ttu-id="ba3a3-108">外部通訊 (此通訊至少包含一位在您內部網路外的使用者)</span><span class="sxs-lookup"><span data-stu-id="ba3a3-108">External communications (communications that include at least one user outside your internal network)</span></span>
+- <span data-ttu-id="48500-108">在內部網路以外至少包含一位使用者的外部通訊 (通訊) </span><span class="sxs-lookup"><span data-stu-id="48500-108">External communications (communications that include at least one user outside your internal network)</span></span>
     
-<span data-ttu-id="ba3a3-109">封存原則包含全域原則以及選用的一或多個網站與使用者封存原則：</span><span class="sxs-lookup"><span data-stu-id="ba3a3-109">Archiving policies include the global policy, and, optionally, one or more site and user Archiving policies:</span></span>
+<span data-ttu-id="48500-109">封存原則包含全域原則，並選擇性地包含一或多個網站與使用者封存原則：</span><span class="sxs-lookup"><span data-stu-id="48500-109">Archiving policies include the global policy, and, optionally, one or more site and user Archiving policies:</span></span>
   
-- <span data-ttu-id="ba3a3-110">**全域原則**全域原則預設是在所有部署中建立。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-110">**Global policy** The global policy is created by default in all deployments.</span></span> <span data-ttu-id="ba3a3-111">您可以編輯全域原則，但無法刪除此原則。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-111">You can edit the global policy, but you cannot delete this policy.</span></span> <span data-ttu-id="ba3a3-112">如果嘗試刪除此原則，所有選項都會重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-112">If you try to delete it, all options are reset to the defaults.</span></span>
+- <span data-ttu-id="48500-110">**全域原則** 預設會在所有部署中建立全域原則。</span><span class="sxs-lookup"><span data-stu-id="48500-110">**Global policy** The global policy is created by default in all deployments.</span></span> <span data-ttu-id="48500-111">您可以編輯全域原則，但無法刪除此原則。</span><span class="sxs-lookup"><span data-stu-id="48500-111">You can edit the global policy, but you cannot delete this policy.</span></span> <span data-ttu-id="48500-112">若嘗試將其刪除，所有選項都會重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="48500-112">If you try to delete it, all options are reset to the defaults.</span></span>
     
-- <span data-ttu-id="ba3a3-113">**網站原則（選用）** 您可以指定一或多個網站封存策略，每個原則都可以設定為啟用和停用單一網站的內部或外部通訊的歸檔。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-113">**Site policy (optional)** You can specify one or more site Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a single site.</span></span> <span data-ttu-id="ba3a3-114">網站原則將覆寫全域原則，但僅限於該封存網站原則中指定的網站。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-114">A site policy overrides the global policy, but only for the sites specified in your Archiving site policies.</span></span> <span data-ttu-id="ba3a3-115">您可以編輯或刪除網站原則。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-115">You can edit or delete site policies.</span></span>
+- <span data-ttu-id="48500-113">**網站原則 (選用)** 您可以指定一或多個網站封存原則，每個網站封存原則都可以設定為啟用和停用單一網站的內部或外部通訊的封存。</span><span class="sxs-lookup"><span data-stu-id="48500-113">**Site policy (optional)** You can specify one or more site Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a single site.</span></span> <span data-ttu-id="48500-114">網站原則會覆寫全域原則，但僅限於您的封存網站原則中所指定的網站。</span><span class="sxs-lookup"><span data-stu-id="48500-114">A site policy overrides the global policy, but only for the sites specified in your Archiving site policies.</span></span> <span data-ttu-id="48500-115">您可以編輯或刪除網站原則。</span><span class="sxs-lookup"><span data-stu-id="48500-115">You can edit or delete site policies.</span></span>
     
-- <span data-ttu-id="ba3a3-116">**使用者原則（選用）** 您可以指定一或多個使用者存檔原則，每個策略都可以設定為啟用和停用特定使用者或使用者群組的內部或外部通訊的歸檔。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-116">**User policy (optional)** You can specify one or more user Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a specific user or user group.</span></span> <span data-ttu-id="ba3a3-117">使用者原則會覆寫全域原則及網站原則，但僅限於獲得您指派使用者等級封存原則的使用者及使用者群組。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-117">A user policy overrides the global policy and site policies, but only for the users and user groups to whom you assign user-level Archiving policies.</span></span> <span data-ttu-id="ba3a3-118">您可以編輯或刪除使用者原則。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-118">You can edit or delete user policies.</span></span>
+- <span data-ttu-id="48500-116">**使用者原則 (選用)** 您可以指定一或多個使用者封存原則，每個使用者封存原則都可以設定為啟用及停用特定使用者或使用者群組的內部或外部通訊的封存。</span><span class="sxs-lookup"><span data-stu-id="48500-116">**User policy (optional)** You can specify one or more user Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a specific user or user group.</span></span> <span data-ttu-id="48500-117">使用者原則會覆寫全域原則及網站原則，但僅限於您指派使用者層級封存原則的使用者和使用者群組。</span><span class="sxs-lookup"><span data-stu-id="48500-117">A user policy overrides the global policy and site policies, but only for the users and user groups to whom you assign user-level Archiving policies.</span></span> <span data-ttu-id="48500-118">您可以編輯或刪除使用者原則。</span><span class="sxs-lookup"><span data-stu-id="48500-118">You can edit or delete user policies.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="ba3a3-119">存檔原則只適用于駐留在商務用 Skype Server 上的使用者。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-119">Archiving policies apply only to users homed on Skype for Business Server.</span></span> <span data-ttu-id="ba3a3-120">如果您使用 Exchange 整合將存檔資料儲存在 Microsoft Exchange 中，Exchange 2013 原則會控制駐留在 Exchange 2013 的使用者的封存。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-120">If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange 2013 policies control archiving for users homed on Exchange 2013.</span></span> <span data-ttu-id="ba3a3-121">若要為這些使用者啟用存檔，使用者的信箱必須放在就地保留中。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-121">To enable archiving for those users, the user's mailbox must be placed on In-Place Hold.</span></span> 
+> <span data-ttu-id="48500-119">封存原則只適用于駐留在商務用 Skype Server 上的使用者。</span><span class="sxs-lookup"><span data-stu-id="48500-119">Archiving policies apply only to users homed on Skype for Business Server.</span></span> <span data-ttu-id="48500-120">如果您使用 Exchange 整合將封存資料儲存在 Microsoft Exchange 中，Exchange 2013 原則會控制位於 Exchange 2013 之使用者的封存。</span><span class="sxs-lookup"><span data-stu-id="48500-120">If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange 2013 policies control archiving for users homed on Exchange 2013.</span></span> <span data-ttu-id="48500-121">若要為這些使用者啟用封存，使用者的信箱必須置於 In-Place 保留狀態。</span><span class="sxs-lookup"><span data-stu-id="48500-121">To enable archiving for those users, the user's mailbox must be placed on In-Place Hold.</span></span> 
   
-<span data-ttu-id="ba3a3-p107">「封存原則」\*\*\*\* 頁面列出針對您部署所設定的每個封存原則。該頁面也會顯示原則名稱、範圍 (全域、網站或使用者)，以及已針對每個封存原則啟用的封存選項。您可從「封存原則」\*\*\*\* 頁面執行下列選項：</span><span class="sxs-lookup"><span data-stu-id="ba3a3-p107">The **Archiving Policy** page lists each Archiving policy that is configured for your deployment. It also shows the policy name, scope (global, site, or user), and which archiving options are enabled for each Archiving policy. From the **Archiving Policy** page, you have the following options:</span></span>
-- <span data-ttu-id="ba3a3-125">**新增**您可以新增下列其中一或多個選用的存檔原則：</span><span class="sxs-lookup"><span data-stu-id="ba3a3-125">**New** You can add one or more of each of the following optional Archiving policies:</span></span>
+<span data-ttu-id="48500-122">「封存 **原則** 」頁面會列出為您的部署設定的每個封存原則。</span><span class="sxs-lookup"><span data-stu-id="48500-122">The **Archiving Policy** page lists each Archiving policy that is configured for your deployment.</span></span> <span data-ttu-id="48500-123">它也會顯示原則名稱、範圍 (全域、網站或使用者) ，以及針對每個封存原則啟用的封存選項。</span><span class="sxs-lookup"><span data-stu-id="48500-123">It also shows the policy name, scope (global, site, or user), and which archiving options are enabled for each Archiving policy.</span></span> <span data-ttu-id="48500-124">在 [封存 **原則** ] 頁面上，您可以使用下列選項：</span><span class="sxs-lookup"><span data-stu-id="48500-124">From the **Archiving Policy** page, you have the following options:</span></span>
+- <span data-ttu-id="48500-125">**新** 您可以新增一或多個下列選用的封存原則：</span><span class="sxs-lookup"><span data-stu-id="48500-125">**New** You can add one or more of each of the following optional Archiving policies:</span></span>
     
-  - <span data-ttu-id="ba3a3-126">網站原則</span><span class="sxs-lookup"><span data-stu-id="ba3a3-126">Site policy</span></span>
+  - <span data-ttu-id="48500-126">網站原則</span><span class="sxs-lookup"><span data-stu-id="48500-126">Site policy</span></span>
     
-  - <span data-ttu-id="ba3a3-127">使用者原則</span><span class="sxs-lookup"><span data-stu-id="ba3a3-127">User policy</span></span>
+  - <span data-ttu-id="48500-127">使用者原則</span><span class="sxs-lookup"><span data-stu-id="48500-127">User policy</span></span>
     
-- <span data-ttu-id="ba3a3-128">[**編輯**]您可以變更頁面上所列之任何存檔策略的選項。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-128">**Edit** You can change the options of any of the Archiving policies listed on the page.</span></span> <span data-ttu-id="ba3a3-129">使用此選項，您可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="ba3a3-129">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="48500-128">**編輯** 您可以變更頁面上所列之任何封存原則的選項。</span><span class="sxs-lookup"><span data-stu-id="48500-128">**Edit** You can change the options of any of the Archiving policies listed on the page.</span></span> <span data-ttu-id="48500-129">使用此選項，您可以執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="48500-129">Using this option, you can do the following:</span></span>
     
-  - <span data-ttu-id="ba3a3-130">**顯示詳細資料** 此選項會開啟對話方塊供您變更封存原則的封存選項。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-130">**Show details** This option opens a dialog box in which you can change the archiving options for an Archiving policy.</span></span>
+  - <span data-ttu-id="48500-130">**顯示詳細資料** 此選項會開啟一個對話方塊，您可以在其中變更封存原則的封存選項。</span><span class="sxs-lookup"><span data-stu-id="48500-130">**Show details** This option opens a dialog box in which you can change the archiving options for an Archiving policy.</span></span>
     
-  - <span data-ttu-id="ba3a3-131">**全選** 此選項會選取清單中的所有封存原則。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-131">**Select all** This option selects all Archiving policies in the list.</span></span>
+  - <span data-ttu-id="48500-131">**全選** 此選項會選取清單中的所有封存原則。</span><span class="sxs-lookup"><span data-stu-id="48500-131">**Select all** This option selects all Archiving policies in the list.</span></span>
     
-  - <span data-ttu-id="ba3a3-132">**刪除** 此選項會刪除所有選取的封存原則。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-132">**Delete** This option deletes all selected Archiving policies.</span></span>
+  - <span data-ttu-id="48500-132">**Delete** 此選項會刪除所有選取的封存原則。</span><span class="sxs-lookup"><span data-stu-id="48500-132">**Delete** This option deletes all selected Archiving policies.</span></span>
     
-- <span data-ttu-id="ba3a3-133">**動作**您可以使用這個選項，在頁面上所列的任何原則中快速啟用或停用內部或外部通訊的封存，而不是編輯原則。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-133">**Action** You can use this option to quickly enable or disable archiving of internal or external communications in any policy listed on the page, instead of editing the policy.</span></span> <span data-ttu-id="ba3a3-134">[**動作**] 底下的可用選項，取決於 [存檔原則] 中目前指定的選項。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-134">The options available under **Action** depend on what option is currently specified in the Archiving policy.</span></span> <span data-ttu-id="ba3a3-135">除了目前對存檔原則有效的選項之外，所有選項皆可使用。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-135">All options are available, except the option currently in effect for the Archiving policy.</span></span> <span data-ttu-id="ba3a3-136">選項包括下列各項：</span><span class="sxs-lookup"><span data-stu-id="ba3a3-136">Options include the following:</span></span>
+- <span data-ttu-id="48500-133">**動作** 您可以使用此選項，在頁面上所列的任何原則中快速啟用或停用內部或外部通訊的封存，而不是編輯原則。</span><span class="sxs-lookup"><span data-stu-id="48500-133">**Action** You can use this option to quickly enable or disable archiving of internal or external communications in any policy listed on the page, instead of editing the policy.</span></span> <span data-ttu-id="48500-134">[ **動作** ] 下的可用選項取決於封存原則中目前指定的選項。</span><span class="sxs-lookup"><span data-stu-id="48500-134">The options available under **Action** depend on what option is currently specified in the Archiving policy.</span></span> <span data-ttu-id="48500-135">所有選項均可使用，但目前對封存原則有效的選項除外。</span><span class="sxs-lookup"><span data-stu-id="48500-135">All options are available, except the option currently in effect for the Archiving policy.</span></span> <span data-ttu-id="48500-136">選項包括下列各項：</span><span class="sxs-lookup"><span data-stu-id="48500-136">Options include the following:</span></span>
     
-  - <span data-ttu-id="ba3a3-137">**啟用內部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="ba3a3-137">**Enable Archiving of internal communications**</span></span>
+  - <span data-ttu-id="48500-137">**啟用內部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="48500-137">**Enable Archiving of internal communications**</span></span>
     
-  - <span data-ttu-id="ba3a3-138">**停用內部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="ba3a3-138">**Disable Archiving of internal communications**</span></span>
+  - <span data-ttu-id="48500-138">**停用內部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="48500-138">**Disable Archiving of internal communications**</span></span>
     
-  - <span data-ttu-id="ba3a3-139">**啟用外部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="ba3a3-139">**Enable Archiving of external communications**</span></span>
+  - <span data-ttu-id="48500-139">**啟用外部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="48500-139">**Enable Archiving of external communications**</span></span>
     
-  - <span data-ttu-id="ba3a3-140">**停用外部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="ba3a3-140">**Disable Archiving of external communications**</span></span>
+  - <span data-ttu-id="48500-140">**停用外部通訊的封存**</span><span class="sxs-lookup"><span data-stu-id="48500-140">**Disable Archiving of external communications**</span></span>
     
-- <span data-ttu-id="ba3a3-141">**更新**您可以重新整理 [封存**原則**] 頁面，驗證所有存檔原則的選項狀態。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-141">**Refresh** You can refresh the **Archiving Policy** page to verify the status of the options of all Archiving policies.</span></span>
+- <span data-ttu-id="48500-141">**Refresh** 您可以重新整理「封存 **原則** 」頁面，以確認所有封存原則選項的狀態。</span><span class="sxs-lookup"><span data-stu-id="48500-141">**Refresh** You can refresh the **Archiving Policy** page to verify the status of the options of all Archiving policies.</span></span>
     
-<span data-ttu-id="ba3a3-142">如需有關存檔功能與功能（包括 Exchange 整合）的詳細資料，請參閱[在商務用 Skype server 2015 中進行](../../plan-your-deployment/archiving/archiving.md)封存、[部署商務用 skype server 2015](../../deploy/deploy-archiving/deploy-archiving.md)，以及[在商務用 skype server 2015 中管理存檔](../../manage/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="ba3a3-142">For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).</span></span>
+<span data-ttu-id="48500-142">如需有關封存功能及功能（包括 Exchange 整合）的詳細資訊，請參閱 [在商務用 skype 2015 server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存、 [部署商務用 skype server 2015](../../deploy/deploy-archiving/deploy-archiving.md)的封存，以及 [管理商務用 skype server 2015 中](../../manage/archiving/archiving.md)的封存。</span><span class="sxs-lookup"><span data-stu-id="48500-142">For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).</span></span>
 

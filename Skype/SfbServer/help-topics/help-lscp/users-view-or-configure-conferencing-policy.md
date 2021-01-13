@@ -1,8 +1,8 @@
 ---
 title: 使用者查看或設定會議原則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: aad508e8a84603ca8b5407d65d78882294040f4c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 9bdb8eb5c21e6a9bf5cf77845ebb99a138b0ab11
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821765"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824373"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="be64c-104">使用者：檢視或設定會議原則</span><span class="sxs-lookup"><span data-stu-id="be64c-104">Users: View or Configure Conferencing Policy</span></span>
+# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="64e40-104">使用者：檢視或設定會議原則</span><span class="sxs-lookup"><span data-stu-id="64e40-104">Users: View or Configure Conferencing Policy</span></span>
 
-<span data-ttu-id="be64c-105">您要做什麼？</span><span class="sxs-lookup"><span data-stu-id="be64c-105">What do you want to do?</span></span> <span data-ttu-id="be64c-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="be64c-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="64e40-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="64e40-105">What do you want to do?</span></span> <span data-ttu-id="64e40-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="64e40-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="be64c-107">指派會議原則來修改使用者的預設會議體驗</span><span class="sxs-lookup"><span data-stu-id="be64c-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="64e40-107">指派會議原則來修改使用者的預設會議體驗</span><span class="sxs-lookup"><span data-stu-id="64e40-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-<span data-ttu-id="be64c-108">如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="be64c-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="64e40-108">如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="64e40-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
