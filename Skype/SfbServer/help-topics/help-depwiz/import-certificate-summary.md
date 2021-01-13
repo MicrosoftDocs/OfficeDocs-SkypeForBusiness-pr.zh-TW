@@ -1,8 +1,8 @@
 ---
 title: 匯入憑證 (摘要)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
-description: 在 [匯入憑證摘要] 頁面上，您會看到 [檔案名]、[路徑] 及 [私人金鑰] 的狀態摘要。 審閱摘要之後，請按 [下一步] 繼續。
-ms.openlocfilehash: cff808c3671d4df8455433e69c8b72161a1819cc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 在 [匯入憑證摘要] 頁面上，您會看到檔案名稱、路徑及私密金鑰目前狀態的摘要。 檢閱摘要後，請按 [下一步] 繼續。
+ms.openlocfilehash: c576ff132c8a730a5107251fea1bdad1352f8abc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823647"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827213"
 ---
 # <a name="import-certificate-summary"></a>匯入憑證 (摘要)
  
-在 [匯**入憑證摘要**] 頁面上，您會看到 [檔案名]、[路徑] 及 [私人金鑰] 的狀態摘要。 審閱摘要之後，請按 **[下一步]** 繼續。
+在 **[匯入憑證摘要]** 頁面上，您會看到檔案名稱、路徑及私密金鑰目前狀態的摘要。檢閱摘要後，請按 **[下一步]** 繼續。
   
 

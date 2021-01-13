@@ -1,8 +1,8 @@
 ---
 title: 管理商務用 Skype Server 中的前端伺服器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：瞭解如何在商務用 Skype Server 中新增、移除、修補或更新前端伺服器。
-ms.openlocfilehash: 3d2298711e707ed897b26939fd383dbedcfb3957
-ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
+ms.openlocfilehash: 16af245b3c49b21309edd3ee2843f2585814ce9e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45098411"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826323"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>管理商務用 Skype Server 中的前端伺服器
  
@@ -54,7 +54,7 @@ ms.locfileid: "45098411"
     > 當您在拓撲中新增或移除伺服器集區，然後發佈更新的拓撲時，會導致集區中的所有伺服器同時重新開機。 伺服器重新開機時，集區為離線狀態，這會中斷連接至該集區之使用者的服務。 若要防止任何服務中斷給使用者，請規劃在非上班時間內，使用集區中的新伺服器發佈拓撲。 
   
   > [!NOTE]
-> 此外，當您新增或移除伺服器至集區時，您必須在新增或移除的每一部電腦上執行商務用 Skype Server 部署嚮導。如需詳細資訊，請參閱在[拓撲中的伺服器上安裝商務用 Skype server](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> 此外，當您新增或移除伺服器至集區時，您必須在新增或移除的每一部電腦上執行商務用 Skype Server 部署嚮導。如需詳細資訊，請參閱在 [拓撲中的伺服器上安裝商務用 Skype server](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. 如果您已以下列任何方式變更前端集區中的伺服器數目，請輸入下列 Cmdlet 以重設集區： Reset-CsPoolRegistrarState ResetType FullReset-PoolFqdn 
     

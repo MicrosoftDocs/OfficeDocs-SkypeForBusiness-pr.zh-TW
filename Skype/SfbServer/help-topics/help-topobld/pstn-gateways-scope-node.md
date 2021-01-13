@@ -1,8 +1,8 @@
 ---
 title: PSTN 閘道範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: '[PSTN 閘道] 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。 您可以執行下列動作：'
-ms.openlocfilehash: b3ab796accbf4a51f958c41096c485db8c7c0f58
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 815bf2b30c678a0e0c5c39b3bc5df31cd9172102
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216554"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823713"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 閘道範圍節點
  
-[PSTN 閘道]**** 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。您可以執行下列動作：
+[PSTN 閘道] 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。您可以執行下列動作：
   
-- **新增 IP/PSTN 閘道**。啟動 [定義新的 IP/PSTN 閘道精靈]****，以便將新的 PSTN 閘道新增到拓撲。
+- **新增 IP/PSTN 閘道**。啟動 [定義新的 IP/PSTN 閘道精靈]，以便將新的 PSTN 閘道新增到拓撲。
     
 除了 PSTN 閘道選項，您還可以執行下列一般工作：
   

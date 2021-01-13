@@ -1,8 +1,8 @@
 ---
 title: 新增 Lync Server 2010 的前端 SQL 存放區頁面
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: 您可以為所要設定的新前端集區定義 SQL Server 存放區的屬性。
-ms.openlocfilehash: 1bc84723d61fd57d923fc56daca6191d6414512f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4a7dca6a9cb3d33a63d65e82459fb5cdab86703d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527130"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824063"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>新增 Lync Server 2010 的前端 SQL 存放區頁面
  
@@ -41,7 +41,7 @@ ms.locfileid: "48527130"
     
   **上一步**：回到上一個對話方塊
   
-  **下一**步：提交變更並移至下一個步驟對話方塊
+  **下一** 步：提交變更並移至下一個步驟對話方塊
   
   **取消**：捨棄變更，並取消設定
   

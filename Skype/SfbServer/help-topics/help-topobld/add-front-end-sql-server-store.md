@@ -1,8 +1,8 @@
 ---
 title: 新增前端 SQL Server 存放區
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Standard Edition server 部署會自動安裝必要的 Microsoft SQL Server Express 資料庫軟體和 SQL Server 資料庫。 因此，所有選項都會預先填入，您無法變更預設設定。
-ms.openlocfilehash: 614c3a852bb52a73c8a3f71ee467a2d71f82e9b6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 939f12fa02951074e487066337c8bb76af59143a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216494"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824073"
 ---
 # <a name="add-front-end-sql-server-store"></a>新增前端 SQL Server 存放區
 

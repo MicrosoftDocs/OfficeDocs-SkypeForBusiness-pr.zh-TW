@@ -1,8 +1,8 @@
 ---
 title: 透過商務用 Skype Server 中的工作部署通話
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,49 +14,49 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 摘要：瞭解如何在商務用 Skype Server 中針對部分或所有使用者部署通話。
-ms.openlocfilehash: 9b77207d6618e4a869ae369697bc8395aba81673
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 摘要：瞭解如何在部分或所有使用者的商務用 Skype Server 中部署呼叫。
+ms.openlocfilehash: 41a0ae8462b12cabf735a2501e5b22eac64abe42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791081"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825003"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>透過商務用 Skype Server 中的工作部署通話
  
-**摘要：** 瞭解如何透過商務用 Skype Server 中的工作，為部分或所有使用者部署通話。
+**摘要：** 瞭解如何在部分或所有使用者的商務用 Skype Server 中，部署通話的功能。
   
-使用這些步驟來為您的使用者部署通話。 規劃[使用商務用 Skype Server 中的工作來進行通話](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)的規劃考慮。 在舊版 Lync Server 遠端通話控制中，這項功能可讓使用者使用 Lync Server 控制其 PBX 手機。 在商務用 Skype Server 中，此功能已由 [透過工作通話] 取代。 
+使用下列步驟，為您的使用者部署「透過運作」的呼叫。 規劃透過 [商務用 Skype Server 中的工作進行通話](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)的規劃考慮。 在舊版的 Lync Server 遠端呼叫控制中，有一個功能可讓使用者透過 Lync Server 控制其 PBX 電話。 在商務用 Skype Server 中，此功能已由「透過公司來電」取代。 
   
-## <a name="prerequisites-for-call-via-work"></a>透過工作進行通話的先決條件
+## <a name="prerequisites-for-call-via-work"></a>從公司通話的必要條件
 
-[透過公司通話] 使用整合通訊 Web API （UCWA），它會自動安裝在所有商務用 Skype Server 前端伺服器上。 若要讓使用者能夠透過公司通話，您也必須準備好下列先決條件： 
+「透過公司通話」使用整合通訊網頁 API (UCWA) ，它會自動安裝在所有商務用 Skype Server 前端伺服器上。 若要讓使用者能夠透過公司通話，您也必須具備下列必要條件： 
   
-- 您必須部署中繼伺服器，要麼是作為前端伺服器的一部分，要麼是獨立角色。 您也必須部署 IP PBX 閘道。
+- 您必須已部署轉送伺服器，既可以作為前端伺服器的一部分，也可以是獨立的角色。 您也必須部署 IP-PBX 閘道。
     
-- 所有將透過工作啟用呼叫的使用者，都必須在 PBX 電話系統上進行直接撥出（已執行）。 
+- 所有可透過工作進行呼叫的使用者，都必須在 PBX 電話系統上) 直接向內撥號 (。 
     
-- 您必須透過企業語音的工作使用者來啟用所有通話。 當您這麼做時，必須針對對應的 PBX 電話系統，將每個使用者的商務用 Skype 的號碼設定為相對應的號碼。 
+- 您必須啟用透過企業語音之工作使用者的所有呼叫。 當您執行此動作時，您必須將每位使用者的商務用 Skype 的號碼，設定為對應之 PBX 電話系統的對應號碼。 
     
-- 在其商務用 Skype 用戶端的 [**高級**連線] 選項中，所有將透過工作使用呼叫的使用者，都必須已選取 [**自動**設定]。 這可讓用戶端探索 UCWA Url。 [**自動**設定] 是預設的選取專案。
+- 所有將使用「從公司撥號」的使用者，都必須在其 [商務用 Skype] 用戶端的 [ **Advanced Connections** ] 選項中，選取 [**自動** 設定]。 這可讓用戶端探索 UCWA URLs。 [**自動** 設定] 是預設的選取範圍。
     
-- 針對每個使用者的呼叫，請啟用來電轉接及同時撥打。 
+- 針對每位使用者的通話，啟用來電轉接和同時響鈴。 
     
-- 針對每個工作使用者的通話，請確定已啟用電話撥入式會議和會議撥出功能。 這可讓這些使用者進入和登出商務用 Skype 會議。
+- 針對透過工作使用者的每一個呼叫，請確定已啟用電話撥入式會議和會議撥出功能。 這可讓這些使用者進入及離開商務用 Skype 會議。
     
-- 確保透過工作使用者針對每個通話停用委派、小組通話及回應群組。
+- 確定已透過工作使用者的每一個呼叫停用委派、小組通話及回應群組。
     
 ## <a name="deploy-call-via-work"></a>部署從公司撥號功能
 
-在先決條件就緒之後，請執行下列動作：
+準備好必要條件後，請執行下列動作：
   
-- 為您的部署建立全域電話號碼，該商務用 Skype 會在 PBX 來電者 ID 上顯示的是透過工作通話撥打的使用者。 
+- 為您的部署建立全域電話號碼，商務用 Skype 會顯示在透過通話通話之使用者的 PBX 來電者 ID 上。 
     
 - 透過工作原則建立一或多個通話
     
-- 將 [透過工作原則撥打電話] 指派給每個將可透過工作通話的使用者
+- 將「透過工作原則的來電」指派給將啟用透過工作呼叫的每位使用者
     
-### <a name="create-the-call-via-work-global-phone-number"></a>透過公司全球電話號碼建立通話
+### <a name="create-the-call-via-work-global-phone-number"></a>透過工作通用電話號碼建立通話
 
 - 輸入下列 Cmdlet
     
@@ -70,7 +70,7 @@ ms.locfileid: "41791081"
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
-### <a name="create-a-call-via-work-policy"></a>透過工作原則建立通話
+### <a name="create-a-call-via-work-policy"></a>通過工作原則建立通話
 
 - 輸入下列 Cmdlet
     
@@ -78,13 +78,13 @@ ms.locfileid: "41791081"
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    例如，下列 Cmdlet 會透過名為 ContosoUser1CvWP 的工作原則建立通話，要求使用者使用系統管理員回撥號碼，並將該回撥號碼設定為1-555-789-1234。
+    例如，下列 Cmdlet 會透過名為 ContosoUser1CvWP 的工作原則建立呼叫，要求使用者使用系統管理員回撥號碼，並將該回撥號碼設定為1-555-789-1234。
     
   ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>透過工作原則指派通話給使用者
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>將透過工作原則的呼叫指派給使用者
 
 - 輸入下列 Cmdlet
     
@@ -92,7 +92,7 @@ ms.locfileid: "41791081"
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    例如，下列 Cmdlet 會透過工作原則 "ContosoUser1CvWP" 將呼叫指派給名為**ContosoUser1**的使用者。
+    例如，下列 Cmdlet 會將呼叫從工作原則 "ContosoUser1CvWP" 指派給名為 **ContosoUser1** 的使用者。
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP

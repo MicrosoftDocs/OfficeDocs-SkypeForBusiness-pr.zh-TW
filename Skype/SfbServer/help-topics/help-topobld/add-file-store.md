@@ -1,8 +1,8 @@
 ---
 title: 新增檔案存放區
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 description: 若要定義新的檔案存放區，請指定下列各項：
-ms.openlocfilehash: 02a274f5ba55b58a0b0e110fbd7d5e2ae5b866d7
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a07f28e26fba9f798e857b767008efcb24ec5537
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216724"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824263"
 ---
 # <a name="add-file-store"></a>新增檔案存放區
  

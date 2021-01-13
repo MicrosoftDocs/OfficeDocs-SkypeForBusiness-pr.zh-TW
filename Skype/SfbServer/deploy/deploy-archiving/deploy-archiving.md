@@ -1,8 +1,8 @@
 ---
-title: 部署商務用 Skype Server 的存檔
+title: 部署商務用 Skype Server 的封存
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,40 +11,40 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
-description: 摘要：請閱讀本主題，以瞭解如何部署商務用 Skype Server 的封存。
-ms.openlocfilehash: c4f0e28c0b48cc93f1c03296f6d00555d1a7d327
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 的封存。
+ms.openlocfilehash: 32b25b373bd5399928d5e5eaed063c194942f697
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769113"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825213"
 ---
-# <a name="deploy-archiving-for-skype-for-business-server"></a>部署商務用 Skype Server 的存檔
+# <a name="deploy-archiving-for-skype-for-business-server"></a>部署商務用 Skype Server 的封存
  
-**摘要：** 若要瞭解如何為商務用 Skype Server 部署封存，請閱讀本主題。
+**摘要：** 閱讀此主題以瞭解如何部署商務用 Skype Server 的封存。
   
-在商務用 Skype Server 部署中，存檔會自動安裝在每個前端伺服器上，但您仍需執行初始設定和設定步驟，才能使用。 開始之前，請確定您已經熟悉在[商務用 Skype Server 中進行](../../plan-your-deployment/archiving/archiving.md)封存所需的概念。
+封存會自動安裝在商務用 Skype Server 部署的每一部前端伺服器上，但您仍然需要先執行初始設定及設定步驟，才能使用它。 開始之前，請確定您熟悉在 [商務用 Skype Server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存的概念。
   
 ## <a name="deployment-checklist"></a>部署檢查清單
 
-設定存檔的方式取決於您選擇的儲存空間選項： 
+如何設定封存取決於您選擇的儲存體選項： 
   
-- 如果您針對部署中的所有使用者使用 Microsoft Exchange 整合，就不需要針對使用者設定商務用 Skype Server 封存原則。 相反地，您可以設定 Exchange 就地保留原則，以支援駐留在 Exchange 的使用者的封存，且其信箱會放入就地保留。 如需有關設定這些原則的詳細資訊，請參閱 Exchange 產品檔。
+- 如果您部署中的所有使用者都使用 Microsoft Exchange 整合，您就不需要為使用者設定商務用 Skype Server 封存原則。 相反地，您可以設定 Exchange In-Place 保留原則，以支援駐留在 Exchange 上之使用者的封存，並將其信箱置於 In-Place 保留狀態。 如需設定這些原則的詳細資訊，請參閱 Exchange 產品檔。
     
-- 如果您不是針對您部署中的所有使用者使用 Microsoft Exchange 整合，您必須在拓撲中新增商務用 Skype 伺服器封存資料庫（SQL Server 資料庫），發佈更新的拓撲，然後設定封存原則，並使用者的設定。 您可以在部署初始拓撲或部署至少一個前端池或標準版伺服器之後，部署存檔資料庫。 本檔說明如何將存檔資料庫新增至現有的部署。
+- 如果您部署中的所有使用者都不使用 Microsoft Exchange 整合，您必須新增商務用 Skype Server 封存資料庫 (SQL Server 資料庫) 到拓撲、發佈更新的拓撲，然後為使用者設定封存原則及設定。 您可以在部署初始拓撲時，或在部署至少一個前端集區或 Standard Edition Server 之後，部署封存資料庫。 本檔說明如何將封存資料庫新增至現有的部署中，以進行部署。
     
-如果您在一個前端池或標準版伺服器上啟用封存，您應該針對部署中的所有其他前端池和標準版伺服器啟用該功能。 這是因為需要封存其通訊的使用者可以受邀加入群組 IM 交談或託管于不同的池中的會議。 如果在託管或會議所在的池中未啟用 [封存]，則可能不會封存整個會話。 在這些情況下，擁有封存的使用者的 Im 仍可歸檔，但不適用於會議內容檔案，以及會議加入或離開活動。
+如果您在一個前端集區或 Standard Edition Server 上啟用封存，則應該為部署中的所有其他前端集區和 Standard Edition Server 啟用封存。 這是因為，需要將通訊封存的使用者可受邀至由其他集區所主控的群組 IM 交談或會議。 如果封存未在主控交談或會議的所在集區啟用，可能無法封存完整的工作階段。 在此情況下，包含已啟用封存之使用者的 IM 仍可進行封存，但不包含會議內容檔案以及會議加入或離開事件。
   
 > [!IMPORTANT]
-> 如果您組織中的存檔是符合合規性的理由，請務必在適當的層級部署封存、設定原則及其他選項，然後針對所有適當的使用者開啟封存，然後再針對您的 Skype 啟用這些使用者商務伺服器。 
+> 如果您的組織中的封存非常重要，請務必在適當的層級部署封存、設定原則及其他選項，然後為所有適當的使用者啟用封存，再為商務用 Skype Server 啟用這些使用者。 
   
-下表概要說明在現有拓撲中部署存檔所需的步驟。
+下表提供在現有拓撲中部署封存之所需步驟的概觀。
   
-|**分**|**步驟**|**角色和群組成員資格**|**文件**|
+|**階段**|**步驟**|**角色和群組成員資格**|**文件**|
 |:-----|:-----|:-----|:-----|
-|**安裝必備的硬體和軟體** <br/> |若要使用 Microsoft Exchange 整合（在部分或所有使用者中使用 Exchange 來封存儲存空間），您需要現有的 Exchange 部署。  <br/> 若要使用個別的存檔資料庫（使用 SQL Server 資料庫）來儲存部分或所有使用者的儲存空間，請在伺服器上將儲存封存資料的 SQL Server。  <br/> 封存是在企業版池和標準版伺服器的前端伺服器上執行。 除了安裝這些伺服器所需的其他硬體或軟體需求之外，它還沒有其他硬體或軟體需求。  <br/> |屬於本機管理員群組成員的網域使用者。  <br/> |[商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [商務用 Skype Server 2015 的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [規劃整合商務用 Skype 和 Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[商務用 Skype Server 2019 的系統需求](../../../SfBServer2019/plan/system-requirements.md) |
-|**建立適當的內部拓朴，以支援封存（僅適用于您部署中的所有使用者都不使用 Microsoft Exchange 整合）** <br/> |執行拓撲建立器，將商務用 Skype Server 封存資料庫（SQL Server 資料庫）新增到拓撲結構，然後發佈拓撲。  <br/> |若要定義拓撲以納入封存資料庫，該帳戶是 [本機使用者] 群組的成員。  <br/> 若要發佈拓朴，該帳戶是網域系統管理員群組和 RTCUniversalServerAdmins 群組的成員，且在檔案共用上擁有完全控制許可權（讀取/寫入/修改），以用於商務用 Skype Server 檔案存放區（如此，拓撲建立員就可以設定所需的 Dacl）。  <br/> |[在商務用 Skype Server 中新增封存資料庫至現有的部署](add-archiving-databases.md) <br/> |
-|**設定伺服器對伺服器驗證（僅在使用 Microsoft Exchange 整合時）** <br/> |將伺服器設定為在商務用 Skype Server 與 Exchange 之間啟用驗證。 我們建議您執行**測試 CsExchangeStorageConnectivity Testuser_sipUri 資料夾 Dumpster** ，以驗證 Exchange 封存儲存連接，然後再啟用封存。 <br/> |具有適當許可權的帳戶，可在伺服器上管理證書。  <br/> |管理伺服器對伺服器驗證  <br/> |
-|**設定封存選項與原則** <br/> |設定封存，包括是否使用 Microsoft Exchange 整合、全域原則及任何網站和使用者原則（不使用 Microsoft Exchange 整合進行所有資料儲存），以及特定的歸檔選項（例如，重要模式與資料）匯出和清除。  <br/> 如果您使用的是 Microsoft Exchange 整合，請視需要設定 Exchange 就地保留原則。  <br/> |RTCUniversalServerAdmins 群組（僅限 Windows PowerShell）或將使用者指派給 CSArchivingAdministrator 或 CSAdministrator 角色。  <br/> |[設定商務用 Skype Server 的存檔選項](configure-archiving-options.md) <br/> Exchange 產品檔（如果您使用的是 Microsoft Exchange 整合）。  <br/> |
+|**安裝必備硬體和軟體** <br/> |若要使用 Microsoft Exchange 整合 (針對部分或所有使用者使用 Exchange 封存儲存區) ，您需要有現有的 Exchange 部署。  <br/> 若要使用不同的封存資料庫 (使用 SQL Server 資料庫) ，以存放部分或所有使用者的封存儲存體，伺服器上的 SQL Server 會儲存封存資料。  <br/> 封存會在 Enterprise pool 和 Standard Edition Server 的前端伺服器上執行。 安裝這些伺服器除必條件外，沒有額外的硬體或軟體需求。  <br/> |身為本機系統管理員群組成員的網域使用者。  <br/> |[商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [商務用 Skype Server 2015 的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [規劃整合商務用 Skype 和 Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[商務用 Skype Server 2019 的系統需求](../../../SfBServer2019/plan/system-requirements.md) |
+|**只有在您部署中的所有使用者都不使用 Microsoft Exchange 整合時，才建立適當的內部拓撲以支援封存 ()** <br/> |執行拓撲產生器以新增商務用 Skype Server 封存資料庫 (SQL Server 資料庫) 拓撲，然後發行拓撲。  <br/> |若要定義要納入封存資料庫的拓撲，其帳戶為本機使用者群組的成員。  <br/> 若要發行拓撲，則為 domain admins 群組和 RTCUniversalServerAdmins 群組成員的帳戶，且具有「完全控制」許可權 (可用於商務用 Skype Server 檔案存放 (區的檔案共用上的「讀取/寫入/修改」) ，所以拓撲產生器可以設定必要的 Dacl) 。  <br/> |[在商務用 Skype Server 中將封存資料庫新增至現有的部署](add-archiving-databases.md) <br/> |
+|**僅在使用 Microsoft Exchange 整合時設定伺服器對伺服器驗證 ()** <br/> |設定伺服器以啟用商務用 Skype Server 與 Exchange 之間的驗證。 建議您在啟用封存之前，先執行 **CsExchangeStorageConnectivity testuser_sipUri-Folder 暫放** ，以驗證 Exchange 封存儲存連接。 <br/> |具有適當權限可在伺服器上管理憑證的帳戶。  <br/> |管理伺服器對伺服器驗證  <br/> |
+|**設定封存選項和原則** <br/> |設定封存，包括是否使用 Microsoft Exchange 整合、全域原則及任何網站與使用者原則 (未使用 Microsoft Exchange 整合的所有資料儲存區) ，以及特定封存選項（例如重要模式和資料匯出及清除）。  <br/> 如果使用 Microsoft Exchange 整合，請視需要設定 Exchange In-Place 保留原則。  <br/> |RTCUniversalServerAdmins 群組 (僅限 Windows PowerShell) 或將使用者指派為 CSArchivingAdministrator 或 CSAdministrator 角色。  <br/> |[設定商務用 Skype Server 的封存選項](configure-archiving-options.md) <br/> Exchange 產品檔 (如果使用 Microsoft Exchange 整合) 。  <br/> |
    
 

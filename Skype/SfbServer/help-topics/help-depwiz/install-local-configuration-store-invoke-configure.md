@@ -1,8 +1,8 @@
 ---
 title: 安裝本機設定存放區叫用 (設定)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
-description: 若要開始安裝將保留中央管理儲存區的本機唯讀複本的資料庫，您可以在從已安裝和設定的中央的 [拓撲建立器] 中，選取 [使用拓撲建立器] 來檢索已定義的設定管理儲存，或從其他媒體讀取已定義的配置。 針對貴組織內部網路上的電腦，選取 [從中央管理儲存庫自動取得設定]。
-ms.openlocfilehash: 7638ab56e2ddcc8951ae989de11e72e0817a20bc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要開始安裝儲存中央管理存放區之本機唯讀副本的資料庫，請選取 [從已安裝及已設定的中央管理存放區中使用拓撲產生器所發佈的定義設定]，或從其他媒體讀取已定義的設定。 針對組織內部網路上的機器，選取 [自動從中央管理存放區取回設定]。
+ms.openlocfilehash: f0e2f54e83831cf6ad626b5d83cf068f40110f07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823637"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827203"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>安裝本機設定存放區叫用 (設定)
  
-若要開始安裝將保留中央管理儲存區的本機唯讀複本的資料庫，您可以在從已安裝和設定的中央的 [拓撲建立器] 中，選取 [使用拓撲建立器] 來檢索已定義的設定管理儲存，或從其他媒體讀取已定義的配置。 針對貴組織內部網路上的電腦，選取 **[從中央管理儲存庫自動取得**設定]。
+若要開始安裝儲存中央管理存放區之本機唯讀副本的資料庫，請選取 [從已安裝及已設定的中央管理存放區中使用拓撲產生器所發佈的定義設定]，或從其他媒體讀取已定義的設定。 針對組織內部網路上的機器，選取 **[自動從中央管理存放區取回** 設定]。
   
-如果您要在 Edge 伺服器上安裝中央管理儲存體的複本，您可以選取以從便攜媒體（例如 USB 快閃磁碟機、USB 硬碟磁碟機、cd-rom 或其他媒體）讀取設定檔的匯出複本。 
+若要在 Edge Server 上安裝中央管理存放區的複本，請選取從便攜媒體（例如 USB 快閃記憶體磁片磁碟機、USB 硬碟、CD-ROM 或其他媒體）讀取設定檔的匯出副本。 
   
 > [!IMPORTANT]
-> 如果您要在 Edge 伺服器上安裝本機配置存放區，則配置資訊必須是從中央管理存儲匯出的格式，方法是執行 Windows PowerShell Cmdlet：`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
+> 若要在 Edge Server 上安裝本機設定存放區，則設定資訊必須採用從中央管理存放區匯出的格式，方法是執行 Windows PowerShell Cmdlet：  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
   
-選取適當的選項之後，請按 **[下一步]**。
+選取適當的選項後，請按 **[下一步]**。
   
 

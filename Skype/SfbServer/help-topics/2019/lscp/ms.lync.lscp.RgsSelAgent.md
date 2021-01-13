@@ -1,8 +1,8 @@
 ---
-title: 選取代理人
+title: 選取代理程式
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,38 +14,38 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[代理程式] 是指派給回應群組通話的使用者。 回應群組必須獲派一個代理人群組，識別要接聽回應群組電話的代理人。 建立代理人群組的方法之一，是藉由選取符合資格的使用者來定義自訂群組。 已啟用適用于商務用 Skype Server 和企業語音的合格使用者。'
-ms.openlocfilehash: 0efc0c0afeff33472075c68cf4300bb5ecf51c66
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 合格的使用者啟用商務用 Skype Server 和 Enterprise Voice。
+ms.openlocfilehash: b2eb4baa8f969c6395f51da8153c3c34f7c3684b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793471"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824663"
 ---
-# <a name="select-agents"></a>選取代理人
+# <a name="select-agents"></a>選取代理程式
 
-[代理程式] 是指派給回應群組通話的使用者。 回應群組必須獲派一個代理人群組，識別要接聽回應群組電話的代理人。 建立代理人群組的方法之一，是藉由選取符合資格的使用者來定義自訂群組。 已啟用適用于商務用 Skype Server 和企業語音的合格使用者。
+代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 合格的使用者啟用商務用 Skype Server 和 Enterprise Voice。
 
-您可以使用 [選取代理人]**** 對話方塊，選取要新增至代理人群組的使用者。
+您可以使用 [ **選取代理** ] 對話方塊，選取要新增至代理人群組的使用者。
 
 ## <a name="ui-reference"></a>UI 參考
 
-下列清單說明 [選取代理人]**** 對話方塊中的控制項。
+下列清單說明 [ **選取代理** ] 對話方塊中的控制項。
 
-- **尋找**搜尋使用者的 SIP 位址或顯示名稱。 輸入全部或部分的位址或名稱。 [搜尋] 方塊保持空白，以顯示所有已啟用商務用 Skype Server 和企業語音的使用者。
+- **尋找** 搜尋使用者的 SIP 位址或顯示名稱。 輸入全部或部分的位址或名稱。 保留搜尋方塊為空白，以顯示所有已啟用商務用 Skype Server 和 Enterprise Voice 的使用者。
 
-- **要顯示的使用者數目上限**變更顯示的傳回結果數。 如果您預計有許多結果，請使用這個計數器來限制搜尋。
+- **顯示的使用者上限** 變更顯示的傳回結果數目。 如果您期望許多結果，請使用此計數器來限制搜尋。
 
-下列清單說明 [選取代理人]**** 對話方塊中的欄位。
+下列清單說明 [ **選取代理** ] 對話方塊中的欄位。
 
-- **代理程式**顯示搜尋所傳回的使用者名稱。
+- **代理程式** 顯示搜尋傳回的使用者名稱。
 
-- **SIP 位址**顯示搜尋所傳回的使用者 SIP 位址。
+- **SIP 位址** 顯示搜尋傳回的使用者 SIP 位址。
 
-- **電話**顯示為使用者定義的**電話**功能欄位的值。
+- **電話語音** 顯示為使用者定義之 **電話語音** 欄位的值。
 
-- **已啟用**顯示為使用者定義的 [**已啟用的 Lync Server** ] 欄位值。
+- **已啟用** 顯示針對使用者所定義之 [ **已啟用的 Lync Server** ] 欄位的值。
 
-如需管理代理人群組的詳細資訊，請參閱作業文件中的〈[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)〉。
+如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)＞。
 
 

@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中啟用 E9-1-1 的使用者
+title: 為商務用 Skype Server 中的 E9-1-1 啟用使用者
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,32 +15,32 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
-description: 在商務用 Skype Server Enterprise Voice 中，E9-1-1 部署的位置原則所需的決定，包括要啟用哪些使用者，以及如何支援漫遊使用者。
-ms.openlocfilehash: 717b127a94fbac966476c681cfb7f6e81d91bde9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 用於商務用 Skype Server Enterprise Voice 中的 E9-1-1 部署的位置原則，包括要啟用的使用者以及如何支援漫遊使用者的決策。
+ms.openlocfilehash: 9a2ced694357b9225555a05c10e93a1006a771b4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802953"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825743"
 ---
-# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用 E9-1-1 的使用者
+# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>為商務用 Skype Server 中的 E9-1-1 啟用使用者
  
-在商務用 Skype Server Enterprise Voice 中，E9-1-1 部署的位置原則所需的決定，包括要啟用哪些使用者，以及如何支援漫遊使用者。
+用於商務用 Skype Server Enterprise Voice 中的 E9-1-1 部署的位置原則，包括要啟用的使用者以及如何支援漫遊使用者的決策。
   
-在用戶端註冊期間，商務用 Skype 伺服器會使用位置原則來設定企業語音使用者的 E9 屬性。 此原則包含定義如何執行 E9-1-1 的設定。 例如，位置原則包含緊急撥號字串等資訊，以及如果位置資訊服務不會自動提供某個位置，是否需要使用者手動輸入位置。 如需位置原則的完整定義，請參閱[規劃商務用 Skype Server 的位置原則](location-policies.md)。
+在用戶端註冊期間，商務用 Skype 伺服器會使用位置原則，為已啟用企業語音的使用者設定 E9-1-1 的屬性。 此原則包含的設定會定義 E9-1-1 實作方式。 例如，位置原則包含緊急撥號字串等資訊，以及如果位置資訊服務不會自動提供某個位置，是否需要使用者手動輸入位置。 如需完整的位置原則定義，請參閱 [規劃商務用 Skype Server 的位置原則](location-policies.md)。
   
-商務用 Skype 伺服器可將位置原則指派給基於子網的客戶，或是根據全域、每個網站或每個使用者的原則來指派給使用者。 若要協助您決定將如何啟用使用者，您應該先回答下列問題。
+商務用 Skype 伺服器可將位置原則指派給以子網為基礎的用戶端，或根據全域、每個網站或每位使用者原則指派給使用者。 如需判斷該如何啟用使用者，請先回答下列問題。
   
- **您是否計畫要啟用所有使用者，或限制對企業特定地理區域的支援？**
+ **您打算啟用所有使用者，還是打算將支援範圍限定在企業的特定地理區域？**
   
-> 您可以使用全域位置原則，將位置指派給企業中的所有使用者。 不過，您可以將位置原則指派給商務用 Skype Server network 網站，然後將子網新增至網站，您可以將 E9-1-1 支援限制在企業內所選的位置，並在每個網站上指定 E9 的路由行為。 
+> 您可以使用通用位置原則，將某個位置指派給企業中所有的使用者。 不過，您可以將位置原則指派給商務用 Skype 伺服器網路網站，然後將子網新增至網站，您可以限制 E9-1-1 對企業內所選位置的支援，並以每個網站為基礎指定 E9-1-1 路由行為。 
     
- **您是否計畫透過使用者原則啟用個別使用者？**
+ **您是否打算透過使用者原則啟用個別使用者？**
   
-> 如果您想要自訂 E9-1-1 支援，您可以將位置原則直接指派給特定的使用者或常見的區域電話連絡人物件。
+> 如果您想自訂使用者的 E9-1-1 支援，可以直接指派位置原則給特定使用者或公共區域電話連絡人物件。
     
- **當用戶端在網路外部漫遊或從未定義的子網進行連線時，如果用戶端仍在 E9-1-1，就應該啟用用戶端嗎？**
+ **當用戶端漫遊至網路外，或從未定義的子網路連線時，是否仍應啟用用戶端的 E9-1-1？**
   
-> 如果將使用者指派為全域、網站或每位使用者的位置原則，當用戶端不在已定義的子網中，或位置資訊服務找不到任何位置時，可能需要他們手動在用戶端中輸入位置。 如需詳細資訊，請參閱[定義在商務用 Skype Server 中手動取得位置的使用者體驗](manually-acquiring-a-location.md)。
+> 如果使用者被指派全域、網站或個別使用者的位置原則，當用戶端不在已定義的子網內，或位置資訊服務找不到任何位置時，他們就可以要求他們手動將位置輸入用戶端。 如需詳細資訊，請參閱 [定義在商務用 Skype Server 中手動取得位置的使用者經驗](manually-acquiring-a-location.md)。
     
 

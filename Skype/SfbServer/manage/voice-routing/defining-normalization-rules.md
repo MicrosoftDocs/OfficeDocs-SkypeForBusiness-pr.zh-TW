@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中定義正常化規則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換為商務用 Skype 伺服器內部所用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
-ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d4e248dc9b814610df544bca9d932a29756a80b0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151213"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823373"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>在商務用 Skype Server 中定義正常化規則
 
@@ -47,7 +47,7 @@ ms.locfileid: "42151213"
     - **要移除的位數**： (選用) 指定您想要模式符合的撥號號碼中所要移除的開始位數。
     - **要新增的位數**： (選用) 指定要新增至撥號號碼的數位，使其符合模式。
     
-    您在這些欄位中輸入的值會反映在模式中， **以符合** 和 **轉譯規則**。 例如，如果您保留的**開始位數**為空，請在 [**長度**] 欄位中輸入**7** ，然後選取 [**完全**]，並指定**要移除的位數**為**0** ，**模式**中所產生的正則運算式會比對：
+    您在這些欄位中輸入的值會反映在模式中， **以符合** 和 **轉譯規則**。 例如，如果您保留的 **開始位數** 為空，請在 [**長度**] 欄位中輸入 **7** ，然後選取 [**完全**]，並指定 **要移除的位數** 為 **0** ，**模式** 中所產生的正則運算式會比對：
 
     **^ ( \d {7}) $**
 
@@ -84,7 +84,7 @@ ms.locfileid: "42151213"
     - 在 [ **符合此模式**] 中，指定您要用來比對撥號電話號碼的模式。
     - 在 [ **轉譯規則**] 中，指定轉譯的 e.164 電話號碼格式的模式。
 
-    例如，如果您輸入 **^ ( \d {7}) $** in**符合此模式**，並在**轉譯規則**中的 **+ 1425 $ 1** ，則此規則會將5550100標準化為 + 14255550100。
+    例如，如果您輸入 **^ ( \d {7}) $** in **符合此模式**，並在 **轉譯規則** 中的 **+ 1425 $ 1** ，則此規則會將5550100標準化為 + 14255550100。
 
 8.  (選用) 如果正規化規則會產生您組織內部的電話號碼，請選取 [ **內部分機**]。
 9.  (選用) 請輸入號碼以測試正規化規則，然後按一下 [ **移至**]。 測試結果會顯示在 [ **輸入要測試的號碼**] 底下。
@@ -94,4 +94,4 @@ ms.locfileid: "42151213"
 
 10. 按一下 **[確定]** 儲存正規化規則。
 11. 按一下 **[確定]** 儲存撥號對應表。
-12. 在 [ **撥號** 對應表] 頁面上，按一下 [ **Commi**t]，然後按一下 [ **全部認可**]。 
+12. 在 [ **撥號** 對應表] 頁面上，按一下 [ **Commi** t]，然後按一下 [ **全部認可**]。 

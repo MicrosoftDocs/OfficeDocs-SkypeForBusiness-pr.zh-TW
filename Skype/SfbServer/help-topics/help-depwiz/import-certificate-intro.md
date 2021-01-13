@@ -1,8 +1,8 @@
 ---
 title: 匯入憑證 (簡介)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
-description: 若要匯入憑證，您必須提供憑證檔的路徑。 在 [選取證書檔案] 文字方塊中，您可以輸入完整路徑和檔案名，或按一下 [流覽] 按鈕，然後流覽至路徑位置及檔案名（通常是. p7b、.pfx 或 .cer 檔案）。
-ms.openlocfilehash: 63420dad20e5174cb41f9fc00d63a1f7c25763a2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要匯入憑證，您必須提供憑證檔案的路徑。 在 [選取憑證檔案] 文字方塊中，您可以輸入完整路徑和檔案名稱，也可以按一下 [瀏覽] 按鈕並瀏覽至路徑位置和檔案名稱 (通常是 .p7b、.pfx 或 .cer 檔案)。
+ms.openlocfilehash: 2ca89291376c488426001e1ff42c4925da58a3e2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823667"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827283"
 ---
 # <a name="import-certificate-intro"></a>匯入憑證 (簡介)
  
-若要匯入憑證，您必須提供憑證檔的路徑。 在 [**選取證書**檔案] 文字方塊中，您可以輸入完整路徑和檔案名，或按一下 [**流覽]** 按鈕，然後流覽至路徑位置及檔案名（通常是. p7b、.pfx 或 .cer 檔案）。
+若要匯入憑證，您必須提供憑證檔案的路徑。在 **[選取憑證檔案]** 文字方塊中，您可以輸入完整路徑和檔案名稱，也可以按一下 **[瀏覽]** 按鈕並瀏覽至路徑位置和檔案名稱 (通常是 .p7b、.pfx 或 .cer 檔案)。
   
-如果憑證包含私密金鑰，請選取 [**憑證檔案包含憑證的私人金鑰**] 核取方塊。 選取此核取方塊之後，就會啟用**密碼**文字輸入。 如果您擁有與其相關聯的私密金鑰的憑證，則在建立證書時，通常會將密碼放在私密金鑰上。 您可以輸入私人金鑰的密碼，以允許將憑證和私密金鑰匯入到憑證存放區。 當您已提供憑證檔路徑的資訊，以及選擇性地密碼（如果需要的話），請按 **[下一步]**。
+如果憑證包含私密金鑰，請選取 [ **憑證檔案包含憑證的私密金鑰**] 核取方塊。 選取此核取方塊後就能輸入 **[密碼]** 文字方塊。 如果您的憑證有相關聯的私密金鑰，則建立憑證時通常會將密碼設在私密金鑰上。 您需要輸入私密金鑰的密碼，才能將憑證和私密金鑰匯入憑證存放區。 提供憑證檔案路徑的資訊並 (選用) 提供所需的私密金鑰密碼之後，按 [下一步]。
   
 > [!IMPORTANT]
-> 如果您不知道私人金鑰的密碼，匯入將會失敗。 
+> 如果您不知道私密金鑰的密碼，匯入會失敗。 
   
 

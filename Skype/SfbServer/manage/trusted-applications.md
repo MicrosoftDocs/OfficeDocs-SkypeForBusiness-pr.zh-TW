@@ -1,8 +1,8 @@
 ---
 title: 管理信任的應用程式
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 信任的應用程式是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。
-ms.openlocfilehash: c5c1a62440ebb98974cee5771c13cf0e5acc55c7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e9d29371014d902bbee38e2f3871c5579634c0f9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151223"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826273"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>在商務用 Skype Server 中管理信任的應用程式
 
-*信任的應用程式*是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。 如需 UCMA 應用程式的詳細資訊，請參閱中的「整合通訊 Managed API 3.0 核心 SDK 檔」 https://go.microsoft.com/fwlink/p/?linkId=210320 。
+*信任的應用程式* 是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。 如需 UCMA 應用程式的詳細資訊，請參閱中的「整合通訊 Managed API 3.0 核心 SDK 檔」 https://go.microsoft.com/fwlink/p/?linkId=210320 。
 
 您應以 RTCUniversalServerAdmins 及 Domain Admins 群組成員的身分登入，才能在加入或移除伺服器角色時，成功地發行、啟用或停用拓撲。 
 
@@ -30,15 +30,15 @@ ms.locfileid: "42151223"
 
 1.  以 Domain Admins 群組與 RTCUniversalServerAdmins 群組成員的身分，登入安裝了拓撲產生器的電腦。
 
-2.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype server 拓撲**產生器]。
+2.  啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype server 拓撲** 產生器]。
 
 3.  選取 **[從現有部署下載拓撲]**，然後按一下 **[確定]**。
 
 4.  在 [ **另存拓撲** ] 對話方塊中，按一下您要使用的拓撲產生器檔案，然後按一下 [ **儲存**]。
 
-5.  在左窗格中，以滑鼠右鍵按一下 [ **信任的應用程式伺服器**]，然後按一下 [ **新增信任的應用程式集**區]。
+5.  在左窗格中，以滑鼠右鍵按一下 [ **信任的應用程式伺服器**]，然後按一下 [ **新增信任的應用程式集** 區]。
 
-6.  輸入信任的應用程式集區的 [集區 FQDN]****，選擇要讓它成為單一伺服器或多部伺服器，然後按 [下一步]****。
+6.  輸入信任的應用程式集區的 [集區 FQDN]，選擇要讓它成為單一伺服器或多部伺服器，然後按 [下一步]。
 
 7.  在 [ **選取下一個躍點]** 頁面上，從清單中選取商務用 Skype 伺服器前端集區。
 
@@ -46,7 +46,7 @@ ms.locfileid: "42151223"
 
 9.  選取上方節點 **商務用 Skype Server**，然後從 [ **動作** ] 功能表中，按一下 [ **發行拓撲**]。
     
-    **信任的應用程式集**區應已成功建立，並與正確的前端集區相關聯。
+    **信任的應用程式集** 區應已成功建立，並與正確的前端集區相關聯。
 
 
 ## <a name="view-a-list-of-trusted-applications"></a>查看信任的應用程式清單

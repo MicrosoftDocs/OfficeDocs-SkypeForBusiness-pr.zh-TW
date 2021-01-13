@@ -1,8 +1,8 @@
 ---
 title: PSTN 閘道範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 此節點會顯示完整功能變數名稱 (FQDN) 、關聯的轉送伺服器，以及此公用交換電話網路 (PSTN) 閘道的其他基本資訊。 您可以執行下列動作：
-ms.openlocfilehash: a1b3fc93bba9eef9f46108d3dd5c368f7e0b8de5
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: aaa12408fed632c74d0dfd0fc825d2ae649a7be1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219738"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823763"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 閘道範圍節點
  

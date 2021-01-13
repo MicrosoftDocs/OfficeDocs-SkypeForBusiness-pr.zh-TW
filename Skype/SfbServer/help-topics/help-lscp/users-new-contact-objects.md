@@ -1,8 +1,8 @@
 ---
-title: 使用者新增連絡人物件
+title: 使用者新的連絡人物件
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 536dc903c5ec5ea3905a5d3772f2d4a2a29735a2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 49c92108ad3cf774758b179d29c04938b2a1ee02
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821815"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826713"
 ---
-# <a name="users-new-contact-objects"></a>使用者：新增連絡人物件
+# <a name="users-new-contact-objects"></a>使用者：新連絡人物件
 
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
 
 - [啟用或停用 Lync Server 2010 的使用者](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
@@ -32,23 +32,23 @@ ms.locfileid: "41821815"
 
 - [指定使用者支援登入的用戶端版本](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-- [在商務用 Skype Server 2015 中指派每位使用者的 PIN 原則](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [在商務用 Skype Server 2015 中指派每一使用者 PIN 原則](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [為使用者設定同盟、遠端使用者存取及公用 IM 連線](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [設定存檔使用者的通訊](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [設定使用者通訊的封存](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [指派位置原則給使用者](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [將位置原則指派給使用者](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [在 Lync Server 2013 中為使用者啟用企業語音](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在商務用 Skype Server 2015 中啟用使用者的 Enterprise Voice](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [為使用者設定同盟、遠端使用者存取及公用 IM 連線](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [為使用者設定電話語音](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [設定使用者的電話語音](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
-- [指派每個使用者的行動原則](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [指派 Per-User 行動性原則](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 
-- [指派每個使用者的持續聊天原則](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+- [指派 Per-User 持久聊天原則](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
 

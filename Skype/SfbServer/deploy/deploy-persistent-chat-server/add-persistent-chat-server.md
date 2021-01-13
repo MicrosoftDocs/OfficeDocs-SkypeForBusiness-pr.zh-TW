@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 2015 拓撲中新增持久聊天伺服器
+title: 將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,111 +12,111 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
-description: 摘要：請閱讀本主題，以瞭解如何在商務用 Skype Server 2015 拓撲中新增持久聊天伺服器。
-ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 摘要：閱讀此主題以瞭解如何將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲。
+ms.openlocfilehash: 3b0f3ca57af4b9bf53125e38e1aa3005099b5b70
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794111"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825103"
 ---
-# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>在商務用 Skype Server 2015 拓撲中新增持久聊天伺服器
+# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲
  
-**摘要：** 請閱讀本主題，瞭解如何在商務用 Skype Server 2015 拓撲中新增持久聊天伺服器。
+**摘要：** 閱讀此主題以瞭解如何將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲。
   
-在您規劃要部署持久聊天伺服器的每個伺服器上安裝必備軟體之後，您可以使用拓撲建立器進行下列作業： 
+在您計畫部署 Persistent Chat Server 的每部伺服器上安裝必要軟體之後，您可以使用拓撲產生器來執行下列作業： 
   
-- 更新您的拓撲以包含持久聊天伺服器
+- 更新您的拓撲以包含 Persistent Chat Server
     
-- 發行更新後的拓撲
+- 發行更新的拓撲
     
 > [!NOTE] 
-> 商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊，請參閱[Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。 
+> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
 
-## <a name="update-your-topology-to-include-persistent-chat-server"></a>更新您的拓撲以包含持久聊天伺服器
+## <a name="update-your-topology-to-include-persistent-chat-server"></a>更新您的拓撲以包含 Persistent Chat Server
 
-若要在沒有災害復原設定的情況下安裝單一持久聊天伺服器池，請執行下列步驟。 若要針對高可用性和災難復原來設定延伸持久聊天伺服器池，請參閱[在商務用 Skype server 2015 中設定持續聊天伺服器的高可用性和災害復原](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。
+請執行下列步驟來安裝單一持久聊天伺服器集區，而不需要災難修復設定。 若要設定高可用性和嚴重損壞修復的延伸持久聊天伺服器集區，請參閱 [在商務用 Skype server 2015 中設定 Persistent Chat server 的高可用性和嚴重損壞修復](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。
   
-若要部署多個持續聊天伺服器池，請針對每個池重複執行相同的程式。
+若要部署多個 Persistent Chat Server 集區，請對每個集區重複相同的程式。
   
-1. 在執行商務用 Skype Server 或已安裝商務用 skype Server 系統管理工具的電腦上，使用屬於 [本機使用者] 群組成員的帳戶登入（或是擁有同等使用者權限的帳戶）。
+1. 在執行商務用 Skype 伺服器的電腦上，或已安裝商務用 Skype Server 系統管理工具的電腦上，使用本機 Users 群組成員的帳戶登入 (或) 具有同等使用者權限的帳戶登入。
     
     > [!NOTE]
-    > 您可以使用屬於 [本機使用者] 群組成員的帳戶來定義拓朴，但若要發佈拓撲，若要安裝商務用 Skype Server，您必須使用屬於**網域系統管理員**群組和**RTCUniversalServerAdmins**群組的帳戶，且在您要用於持久性聊天伺服器檔案存放區的檔案存放區上擁有完全控制許可權（讀取、寫入及修改），以便讓拓撲產生器能夠設定所需的 dacl，或具有同等性的帳戶。版權.
+    > 您可以使用本機使用者群組的成員帳戶來定義拓撲，但發行拓撲（安裝商務用 Skype Server 所需）。您必須使用屬於 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶，且具有您要用於 Persistent Chat Server 檔案存放區之檔案存放區的「讀取」、「寫入」和「修改」) 的「完全控制」許可權，讓 (拓撲產生器可以設定所需的 dacl) ，或具有相同權利的帳戶。 (
   
-2. 啟動拓撲建立器。
+2. 啟動拓撲產生器。
     
-3. 在主控台樹狀結構中，流覽至 [**永久聊天池**] 節點，然後展開以選取商務用 Skype 伺服器池，或以滑鼠右鍵按一下該節點，然後選取 [**新增持久聊天] 池**。 您必須定義池子的完整功能變數名稱（FQDN），並指出該池是單一伺服器池或多重伺服器池部署。
+3. 在主控台樹中，流覽至 [ **Persistent Chat** 集區] 節點，並展開以選取商務用 Skype 伺服器集區，或以滑鼠右鍵按一下該節點，然後選取 [ **新增持久聊天集** 區]。 您必須定義集區的完整功能變數名稱 (FQDN) ，並指出集區將會是單一伺服器集區還是多伺服器集區部署。
     
-    您可以選擇**多個電腦池**或**單一電腦池**。 如果您打算在持久聊天伺服器池中進行多個前端伺服器的規劃，請選擇前者。 現在就進行這項選擇，或在稍後進行，因為在您建立單一電腦池之後，您稍後就不能再新增其他伺服器。 如果您選擇多個電腦池，請輸入組成該池之個別前端伺服器的名稱。
+    您可以選擇 [多重電腦集區] 或 [單一電腦集區]。 如果您打算在持久聊天伺服器集區中有多部前端伺服器，請選擇前者。 立即或稍後選擇，這是因為建立單一電腦集區後，稍後便無法新增其他伺服器。 如果您選擇 [多部電腦集區]，請輸入組成集區之個別前端伺服器的名稱。
     
     > [!IMPORTANT]
-    > 如果要在標準版伺服器上安裝永久聊天伺服器角色，FQDN 必須與標準版伺服器的 FQDN 相符。 
+    > 若要在 Standard Edition server 上安裝 Persistent Chat Server role，FQDN 必須符合 Standard Edition server 的 FQDN。 
   
-4. 定義持續聊天伺服器池的簡單**顯示名稱**。 顯示名稱可以由自訂用戶端使用，特別是在有多個持續聊天伺服器池來區分房間時。
+4. 定義 Persistent Chat Server 集區的簡易 **顯示名稱** 。 顯示名稱可供自訂用戶端使用，特別是在有多個 Persistent Chat Server 集區來區分會議室時。
     
-5. 定義持續聊天伺服器用來與商務用 Skype Server 前端伺服器通訊的埠。 預設埠是5041。
+5. 定義 Persistent Chat Server 使用的埠，以與商務用 Skype Server 前端伺服器進行通訊。 預設的連接埠為 5041。
     
-6. 如果您的組織需要合規性支援，請選取 [**啟用合規性**] 核取方塊。 如果已選取，持久的聊天伺服器合規性服務會安裝在與永久聊天伺服器前端伺服器相同的電腦上。 接著系統會提示您選取一個 SQL Server 後端伺服器，以進行持續聊天伺服器的相容性。
+6. 如果您的組織需要規範支援，請選取 [用規範記錄] 核取方塊。 如有選取，Persistent Chat Server 規範服務會與 Persistent Chat Server 前端伺服器安裝在相同的電腦上。 稍後會提示您選取 SQL Server 後端伺服器以進行 Persistent Chat Server 相容性。
     
-7. 針對持續聊天伺服器池指派網站關聯性。 選取 [**使用此 pool 做為網站\<SiteName\>的預設值**] 核取方塊，或**將此 pool 作為 [所有網站**] 的預設值，將此永久性聊天伺服器池指定為目前網站或所有網站的預設池。 當商務用 Skype 用戶端用來建立及管理會議室時，聊天室的建立和管理體驗會使用與使用者網站相關聯的預設池，以便在該池中傳送聊天室的建立和管理作業。 這僅適用于已部署多個持久聊天伺服器池，且想要使用持續聊天伺服器的聊天室建立和管理功能。
+7. 為 Persistent Chat Server 集區指派網站相關性。 選取 [**使用此集區作為網站 \<SiteName\> 預設值**] 核取方塊，或 **使用此集區作為所有網站的預設** 值，將此 Persistent Chat Server 集區指定為目前網站或所有網站的預設集區。 當商務用 Skype 用戶端用來建立及管理聊天室時，會使用與使用者網站相關聯的預設集區建立和管理經驗，讓其可以將會議室建立和管理作業路由傳送至該集區。 這只有當您部署多個 Persistent Chat Server 集區，且想要使用 Persistent Chat Server 的聊天室建立及管理功能時，才適用。
     
     > [!IMPORTANT]
-    > 您可以使用持續聊天伺服器軟體發展工具組（SDK）來自訂聊天室的建立與管理功能。 
+    > 您可以使用 Persistent Chat Server 軟體發展工具組 (SDK) ，自訂聊天室建立和管理功能。 
   
-8. 您可以執行下列其中一項動作，**以定義持續式聊天伺服器後端（儲存聊天室內容的位置）的 SQL store** ：
+8. 透過執行下列其中一項操作，定義 **Persistent Chat Server 後端 (的 SQL 存放區。) 儲存聊天室內容** 的方式：
     
-   - 若要使用現有的 SQL Server store，請在下拉式清單中，按一下您要使用的 SQL Server store 的名稱。
+   - 若要使用現有的 SQL Server 儲存區，請在下拉式清單中，按一下您要使用的 SQL Server 儲存區名稱。
     
-   - 若要指定新的 SQL Server 資料庫，請按一下 [**新增**]，然後在 **[定義新的 sql Store**] 中，執行下列動作：
+   - 若要指定新的 SQL Server 資料庫，請按一下 [ **新增**]，然後在 **[定義新的 SQL 存放區**] 中執行下列作業：
     
    - 在 **[SQL SERVER FQDN**] 中，指定您要在其上建立新 sql server 資料庫之 sql SERVER 的 FQDN。
     
-   - 您可以選取 [**預設實例**] 來使用預設實例，或者，若要指定不同的實例，請選取 [**命名實例**]，然後指定您要使用的實例。
+   - 選取 [預設執行個體] 使用預設執行個體，或者，若要指定不同的執行個體，請選取 [具名執行個體]，並指定要使用的執行個體。
     
      > [!NOTE]
-     > 如需如何設定 SQL Server 備份資料庫以進行災難復原的詳細資料，請參閱[在商務用 Skype server 2015 中設定持續聊天伺服器的高可用性和災害復原](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。 
+     > 如需如何設定 SQL Server 備份資料庫以進行嚴重損壞修復的詳細資訊，請參閱 [在商務用 Skype server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。 
   
-9. 如果您已啟用合規性，請定義 SQL Server 合規性存放區。
+9. 如果您已啟用規範，請定義 SQL Server 規範存放區。
     
     > [!IMPORTANT]
-    > 如需有關如何針對持久聊天伺服器資料庫和持續性聊天伺服器規範資料庫設定 SQL Server 鏡像的詳細資料，請參閱[在商務用 Skype server 2015 中設定持續聊天伺服器的高可用性和災難](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)復原。 
+    > 如需如何針對 Persistent Chat Server 資料庫和 Persistent Chat server 合規性資料庫設定高可用性之 SQL Server 鏡像的詳細資訊，請參閱 [在商務用 Skype server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。 
   
-10. 定義檔案存放區。 檔案存放區是儲存上傳至檔案存放庫之任何檔案複本的資料夾（例如，儲存張貼到聊天室的檔案附件）。 如果是多重伺服器持續聊天伺服器拓撲，這必須是通用命名慣例（UNC）路徑;而且，對於單一伺服器持續聊天伺服器拓撲，它可以是本機檔案路徑。
+10. 定義檔案存放區。 檔案存放區是儲存任何上傳至檔案儲存機制的檔案副本所用的資料夾 (例如，儲存張貼於聊天室的檔案附件)。 在多重伺服器持久聊天伺服器拓撲的情況下，這必須是通用命名慣例 (UNC) 路徑;而且，針對單一伺服器的持久聊天伺服器拓撲，它可以是本機檔路徑。
     
-    若要使用現有的檔案存放區，請執行下列步驟：
+    若要使用現有的檔案存放區，請執行下列動作：
     
-    - 在 [檔案**伺服器 FQDN**] 中，指定您要在其中建立新檔案存放區之電腦的 FQDN。
+    - 在 [ **檔案伺服器 FQDN**] 中，指定您要建立新檔案存放區之機器的 FQDN。
     
-    - 在 [檔案**共用**] 中，指定您要使用的檔案存放區。
+    - 在 [檔案共用] 中，指定要使用的檔案存放區。
     
       > [!IMPORTANT]
-      > 您可以在建立檔案存放區前，在拓撲結構建立器中定義檔案存放區，但您必須先在您定義的定義位置中建立檔案存放區，然後才能發佈拓撲。 如果檔案存放區尚不存在，則無法發佈拓朴的嘗試將會失敗。 
+      > 您可以在建立檔案存放區之前，先在拓撲產生器中定義檔案存放區，但是您必須先在您定義的位置中建立檔案存放區，然後才能發行拓撲。 如果檔案存放區尚不存在，則嘗試發行拓撲會失敗。 
   
-11. 選取要做為此持續聊天伺服器池的下一個躍點的前端伺服器池。 這是可將持續聊天伺服器要求路由至此池中的前端伺服器池。
+11. 選取此 Persistent Chat Server 集區的下一個躍點要使用的前端伺服器集區。 這是可以將 Persistent Chat Server 要求路由傳送至此集區的前端伺服器集區。
     
-12. 若要儲存配置，請按一下 **[完成]**。 [持續聊天伺服器] 池會出現在拓撲建立器中，並隨附您的特定 [池] 設定。
+12. 若要儲存組態，請按一下 [完成]。 Persistent Chat Server 集區會出現在拓撲產生器中，且附帶您的特定集區設定。
     
-    若要發佈您已新增持久聊天伺服器的更新拓撲，請參閱發佈更新後的拓撲。
+    若要發行您已新增持久聊天伺服器的更新拓撲，請參閱發行更新的拓撲。
     
     > [!NOTE]
-    > 在已開啟拓撲結構建立器的情況下，您可以繼續進行 [發佈更新拓撲] 中的步驟3，以開始發佈您更新的拓撲。 
+    > 在已開啟拓撲產生器的情況下，您可以繼續進行步驟3發行更新的拓撲，以開始發行更新的拓撲。 
   
-## <a name="publish-the-updated-topology"></a>發行更新後的拓撲
+## <a name="publish-the-updated-topology"></a>發行更新的拓撲
 <a name="BKMK_PublishTopology"> </a>
 
-在拓撲建立器中更新拓撲之後，您必須先將拓撲發佈到中央管理儲存區，才能設定及使用商務用 Skype Server。 唯讀複本會將資料複製到拓撲中的所有伺服器，以讓所有伺服器與拓撲和其他設定變更保持同步。
+在拓撲產生器中更新拓撲之後，您必須將拓撲發行至中央管理存放區，才能設定及使用商務用 Skype Server。 資料的唯讀複本會複製到拓撲中的所有伺服器，讓所有伺服器與拓撲和其他設定變更保持同步。
   
-在發佈拓撲前，請先安裝持久聊天伺服器的資料庫。 使用拓撲建立器，選取 [**動作**] 並**安裝資料庫**以安裝資料庫。
+在發佈拓撲之前，請安裝 Persistent Chat Server 的資料庫。 使用拓撲產生器，選取 [ **動作** ] 並 **安裝資料庫** 以安裝資料庫。
   
-1. 在執行商務用 Skype Server 或已安裝商務用 Skype Server 管理工具的電腦上，使用 [**網域系統管理員**] 群組和 [ **RTCUniversalServerAdmins** ] 群組成員的帳戶登入，並在檔案存放區上擁有 [完全控制] 許可權（讀取、寫入及修改），以用於持續聊天伺服器檔案存放區（以便讓拓撲建立器能夠設定必要的隨機存取控制清單（dacl）），或是具有同等使用者的帳戶。版權.
+1. 在執行商務用 Skype 伺服器的電腦上，或在其上安裝商務用 Skype Server 系統管理工具的電腦上，使用同時是 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶來登入，且具有要用於 Persistent Chat Server 檔案存放區之檔案存放區上的「讀取」、「寫入」和「修改」) 的「完全控制」許可權 ( (讀取、寫入及修改），讓拓撲產生器可以設定所需的自由存取控制清單 (dacl) #
     
-2. 啟動拓撲建立器。 如果您儲存在本機檔案中，請選取 [**從本機檔案開啟拓撲**]。
+2. 啟動拓撲產生器。 如果您已在本機儲存，請從本機檔案選取 [ **開啟拓撲** ]。
     
-3. 在主控台樹中，以滑鼠右鍵按一下 [**商務用 Skype Server 2015**]，然後按一下 [**發佈拓撲**]。
+3. 在主控台樹中，以滑鼠右鍵按一下 [ **商務用 Skype Server 2015**]，然後按一下 [ **發行拓撲**]。
     
-4. 在 [**發佈拓撲**] 頁面上，按一下 **[下一步]**。
+4. 在 **[發行拓撲]** 頁面上，按 **[下一步]**。
     
-5. 在 [**發佈嚮導完成]** 頁面上，確認拓撲已順利發佈，然後按一下 **[完成]**。
+5. 在 **[發行精靈完成]** 頁面上，確認拓撲已成功發行，然後按一下 **[完成]**。
     
 

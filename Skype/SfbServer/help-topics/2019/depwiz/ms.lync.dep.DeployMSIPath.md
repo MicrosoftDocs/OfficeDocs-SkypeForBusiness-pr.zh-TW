@@ -1,8 +1,8 @@
 ---
 title: MSI 安裝程式的部署嚮導路徑
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如需使用 [部署嚮導] 來安裝商務用 Skype Server 的詳細資料，請參閱安裝商務用 Skype 伺服器。
-ms.openlocfilehash: 3b4684f4c93d591abc52090dafafe4a2cc387aae
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 如需使用部署嚮導來安裝商務用 Skype 伺服器的詳細資訊，請參閱安裝商務用 Skype Server。
+ms.openlocfilehash: c63b3bc1dde6fb156c06d84fa9f90a083bf7e052
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798380"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825083"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>部署精靈：MSI 安裝程式路徑
  
-如需使用 [部署嚮導] 來安裝商務用 Skype Server 的詳細資料，請參閱[安裝商務用 Skype 伺服器](../../../deploy/install/install.md)。
+如需使用部署嚮導來安裝商務用 Skype 伺服器的詳細資訊，請參閱 [安裝商務用 Skype server](../../../deploy/install/install.md)。
   
 

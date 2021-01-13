@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設計 E9-1-1 的 SIP 主幹
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,46 +15,46 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
-description: 針對使用 SIP 中繼提供者的 E9-1 1 部署，在商務用 Skype Server Enterprise Voice 中規劃 SIP 中繼拓撲。
-ms.openlocfilehash: bd310b39affbea9b4d9328c66b54712c0d388b8d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 在商務用 Skype Server Enterprise Voice 中，規劃使用 SIP 主幹提供者的 E9-1-1 部署的 SIP 主幹拓撲。
+ms.openlocfilehash: ef30d721b59f29885004ee948055a91ca8af9490
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803073"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825793"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>在商務用 Skype Server 中設計 E9-1-1 的 SIP 主幹
  
-針對使用 SIP 中繼提供者的 E9-1 1 部署，在商務用 Skype Server Enterprise Voice 中規劃 SIP 中繼拓撲。
+在商務用 Skype Server Enterprise Voice 中，規劃使用 SIP 主幹提供者的 E9-1-1 部署的 SIP 主幹拓撲。
   
-商務用 Skype 伺服器使用 SIP trunks，將緊急呼叫連線至 E9-1-1 服務提供者。 您可以在一個中央網站、多個中央網站或每個分支網站上設定 E9-1-1 的緊急服務 SIP trunks。 不過，如果呼叫者的網站與託管緊急服務 SIP 主幹的網站之間的 WAN 連結無法使用，則在斷開連接的網站上由使用者所撥的通話將需要使用者語音原則中的特殊電話使用記錄，將呼叫路由至ECRC 透過本機的公用交換電話網絡（PSTN）閘道。 如果通話許可控制併發通話限制生效，就是如此。
+商務用 Skype Server 使用 SIP 主幹，將緊急通話連接至 E9-1-1 服務提供者。 您可以在一個中央網台、多個中央網台或每個分支網站上設定 E9-1-1 的緊急服務 SIP 主幹。 不過，如果來電者的網站與主控緊急服務 SIP 主幹的網站之間的 WAN 連結無法使用，則使用者的語音原則中將需要特殊的電話使用方式記錄，以便透過本機公用交換電話網路 (PSTN) 閘道將通話路由傳送至 ECRC。 如果通話許可控制並行通話限制有效，則有同樣的需求。
   
-在商務用 Skype Server 環境中，有兩種方式可以實施 SIP 主幹：
+在商務用 Skype 伺服器環境中，有兩種方式可以執行 SIP 主幹：
   
-- 使用多宿主的出局轉送伺服器，使用其向外公開路由介面與 SIP 中繼提供者通訊。
+- 使用多宿主的轉送伺服器，利用其向外公開路由的介面與 SIP 主幹提供者通訊。
     
-- 使用內部部署會話邊界控制器（SBC），在中繼伺服器與 SIP 中繼提供者的服務之間提供安全的 demarcation 點。
+- 使用內部部署會話邊界控制器 (SBC) ，以在轉送伺服器和 SIP 主幹提供者的服務之間提供安全的分割點。
     
-如果您選擇後一個方法，請確定您所選擇的 SBC 與模型已獲認證，並且支援將目前狀態資訊資料格式位置物件（PIDF-LO）位置資料傳送成其 SIP 邀請的一部分。 否則，來電將會在緊急服務服務提供者去除其位置資訊時收到。 如需有關驗證的 SBCs 的詳細資料，請參閱「適用[于 Microsoft Lync 的基礎結構合格](https://go.microsoft.com/fwlink/p/?LinkId=248425)」和「[商務用 Skype 的電話架構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)」。 
+如果您選擇後者，請確定您所選擇的 SBC 品牌與型號已取得認證，並且支援傳遞「目前狀態資訊資料格式位置物件」(PIDF-LO) 位置資料做為其 SIP INVITE 的一部分。 否則電話將會送達去除其位置資訊的緊急服務服務提供者。 如需認證 SBCs 的詳細資訊，請參閱「   [Microsoft Lync 的基礎結構合格](https://go.microsoft.com/fwlink/p/?LinkId=248425) 」和「 [商務用 Skype 的電話語音基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)」。 
   
-E9-1-1 服務提供者會提供一組半形的存取權，以實現冗余。 您需要針對中繼伺服器拓撲和呼叫路由設定進行數個決策。 您會將 SBCs 視為同等對等，並使用迴圈式路由來進行呼叫，或是將一個 SBC 指派為主要的，另一個是副？
+E9-1-1 服務提供者為您提供一組 SBC 的存取做為後備之用。 您需要對轉送伺服器拓撲及通話路由設定進行幾項決策。 您是要將兩台 SBC 視為對等，並對它們之間的通話使用循環配置資源路由；或是要將一個 SBC 指派為主要，而另一個指派為次要呢？
   
-如需在商務用 Skype Server 中部署 SIP 幹線的詳細資料，請參閱[商務用 Skype 伺服器中的 sip 中繼](sip-trunking.md)。 下列問題將協助您決定如何部署 E9 的 SIP trunks-1-1。
+如需在商務用 Skype Server 中部署 SIP 主幹的詳細資訊，請參閱 [商務用 Skype server 中的 sip](sip-trunking.md)主幹。 為了協助決定如何部署 E9-1-1 的 SIP 主幹，您應該先回答下列問題。
   
- **您是否應該透過專用租使用者或共用的網際網路連線來部署 SIP 幹線？**
+ **您應該在專用的租用網際網路連線上還是共用的網際網路連線上部署 SIP 主幹？**
   
-> 緊急通話永遠都是重要的。 專用線路提供的連線功能不會被網路上的其他流量搶佔，並可讓您實現服務品質（QoS）。 請記住，如果您是透過公用網際網路連線到緊急服務服務提供者，而且您需要保證緊急通話的機密性，則需要進行 IPSec 加密。 
+> 重點是一定要能夠接通緊急通話。專用線路可提供不被網路上其他流量佔用的連線，並讓您能夠實作服務品質 (QoS)。請記住，如果您透過公用網際網路連線至緊急服務服務提供者，而且需要保證緊急電話的機密性，則需要 IPSec 加密。 
     
- **您的 E9-1-1 部署是否專為災難耐受性而設計？**
+ **您的 E9-1-1 部署是針對嚴重損壞而設計嗎？**
   
-> 因為這是緊急解決方案，所以復原非常重要。 在災難容錯位置部署主要和次要轉送伺服器和 SIP trunks。 建議您部署最接近支援的使用者的主要轉送伺服器，並透過次要轉送伺服器（位於不同的地理位置）路由容錯移轉呼叫。 
+> 因為這是緊急解決方案，所以恢復能力很重要。 在災難容錯位置部署主要和次要轉送伺服器和 SIP 主幹。 最好是部署最接近其支援之使用者的主要轉送伺服器，並將容錯移轉呼叫路由傳送至位於不同地理位置) 中的次要轉送伺服器 (。 
     
- **您是否應該針對每個分支機搆部署個別的 SIP 幹線？**
+ **您是否應該為每個分公司部署個別的 SIP 主幹？**
   
-> 商務用 Skype 伺服器提供幾項策略，可處理分支辦公室中的語音復原，包括：擁有彈性資料網路、在每個分支部署 SIP 幹線，或在中斷期間將呼叫推送到本機閘道。 如需詳細資訊，請參閱[商務用 Skype 伺服器中的 SIP 中繼](sip-trunking.md)。
+> 商務用 Skype 伺服器提供數個策略，用來處理分支辦公室中的語音彈性，包括：具有可恢復的資料網路、在每個分支部署 SIP 主幹，或在中斷期間將呼叫推出至本機閘道。 如需詳細資訊，請參閱 [商務用 Skype Server 中的 SIP](sip-trunking.md)主幹。
     
- **已啟用呼叫許可控制（CAC）嗎？**
+ **是否啟用通話許可控制 (CAC)?**
   
-> 商務用 Skype 伺服器不會處理緊急呼叫（與一般通話不同）。 基於這個原因，頻寬管理或呼叫許可控制（CAC）會對 E9-1-1 設定造成負面影響。 如果啟用了 CAC，緊急通話會遭到封鎖，或路由到本機 PSTN 閘道，且在路由緊急通話的連結上超過設定的限制。 如本主題前面所示，此類呼叫將沒有位置資料，必須手動路由至 ECRC。
+> 商務用 Skype 伺服器不會處理緊急通話，其方式不是一般通話。 因此，頻寬管理或通話許可控制 (CAC) 可能對 E9-1-1 組態有負面影響。 如果啟用 CAC，且在路由緊急通話的連結上的流量超出設定的限制，則緊急通話可能會被封鎖或路由至本機 PSTN 閘道。 如同本主題稍早所述，這類通話將會沒有位置資料，並且必須以手動方式路由至 ECRC。
     
 

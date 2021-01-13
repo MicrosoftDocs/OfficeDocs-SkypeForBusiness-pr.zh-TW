@@ -1,8 +1,8 @@
 ---
 title: 對集區進行容錯移轉及容錯回復
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,131 +11,131 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: .
-ms.openlocfilehash: d5409441336ef2af8bbe9c6a39530584a167ec05
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1ebd4e8110b8783c869530d95eda0646a895b88e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818204"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826563"
 ---
-# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中進行容錯移轉及重新失敗 
+# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中容錯移轉和失敗回復集區 
 
-如果單一前端池已失敗且需要進行容錯移轉，或者遇到災難的池已重新連線，則請使用下列程式，您需要將您的部署還原為一般的工作狀態。 另請參閱如何進行容錯移轉，並將用於商務用 Skype 同盟或 XMPP 同盟的邊緣池切換回故障，或變更與前端池相關聯的邊緣池。
+使用下列程式如果單一前端集區失敗且需要容錯移轉，或發生災難的集區傳回線上，您必須將部署還原為一般的工作狀態。 此外，還會瞭解如何容錯移轉及容錯回復用於商務用 Skype 同盟或 XMPP 同盟的 Edge 集區，或是變更與前端集區相關聯的 Edge 集區。
 
-- [容錯移轉到前臺端池](#fail-over-a-front-end-pool)
-- [容錯回復池](#fail-back-a-pool)
-- [針對商務用 Skype Server federation 所使用的邊緣池進行容錯移轉](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
-- [在商務用 Skype Server 中針對 XMPP 同盟使用的邊緣池進行容錯移轉](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
-- [容錯回復用於商務用 Skype Server 同盟或 XMPP 同盟的邊緣池](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
-- [變更與前端池相關聯的邊緣池](#change-the-edge-pool-associated-with-a-front-end-pool)
+- [容錯移轉前端集區](#fail-over-a-front-end-pool)
+- [容錯回復集區](#fail-back-a-pool)
+- [容錯移轉用於商務用 Skype 伺服器同盟的 Edge 集區](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
+- [容錯移轉用於商務用 Skype Server 中用於 XMPP 同盟的 Edge 集區](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
+- [容錯回復用於商務用 Skype Server 同盟或 XMPP 同盟的 Edge 集區](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
+- [變更與前端集區相關聯的 Edge 集區](#change-the-edge-pool-associated-with-a-front-end-pool)
 
-## <a name="fail-over-a-front-end-pool"></a>容錯移轉到前臺端池
+## <a name="fail-over-a-front-end-pool"></a>容錯移轉前端集區
 
-在此程式中，Datacenter1 包含 Pool1，而 Pool1 失敗。 您正在進行容錯移轉至 Pool2，並在 Datacenter2 中找到。
+在此程序中，Datacenter1 包含 Pool1，而 Pool1 失敗了。 您要容錯移轉至位在 Datacenter2 的 Pool2。
 
-大部分的 [彙集] 容錯移轉作業都會涉及中央管理儲存區的故障（如果需要的話）。 這很重要，因為集中管理儲存在池的使用者進行容錯移轉時必須正常運作。
+如果需要，集區容錯移轉的大部分工作會包括容錯移轉中央管理存放區。 這一點很重要，因為中央管理存放區在集區使用者容錯移轉時必須正常運作。
 
-此外，如果前端池發生故障，但該網站上的邊緣池仍在執行，您必須知道邊緣池是否會使用失敗的資源池做為下一個躍點池。 如果有的話，您必須先將 Edge 池變更為使用不同的前端池，才能失敗轉移失敗的前臺端池。 變更下一個躍點的設定的方式，取決於邊緣是在與邊緣池相同的網站上使用資源庫，還是其他網站。
+此外，如果前端集區失敗，但位在該網站的 Edge 集區仍在執行中，您就必須知道 Edge 集區是否使用失敗的集區作為下一個躍點集區。如果是，則必須先變更 Edge 集區為使用不同的前端集區，再容錯移轉至失敗的前端集區。變更下一個躍點設定的方式，取決於 Edge 將要使用的集區是位在與 Edge 集區相同的網站，還是不同網站。
 
-**若要將邊緣池設定為在相同的網站使用下一個躍點池**
+**將 Edge 集區設定為在相同的網站使用下一個躍點集區**
 
-1.  開啟拓撲建立器，以滑鼠右鍵按一下需要變更的邊緣池，然後按一下 [**編輯屬性**]。
+1.  開啟拓撲產生器，以滑鼠右鍵按一下需要變更的 Edge 集區，然後按一下 [ **編輯屬性**]。
 
-2.  按一下 **[下一個躍點]**。 從**下一個 [躍點] 池：** 清單中，選取現在將充當下一個躍點池的池。
+2.  按 [下一個躍點]。從 [下一個躍點集區:] 清單中，選取現在要作為下一個躍點集區的集區。
 
-3.  按一下 **[確定]**，然後發佈所做的變更。
+3.  按一下 [確定]，然後發行變更。
 
-**若要將邊緣池設定為在不同的網站使用下一個躍點池**
+**將 Edge 集區設定為在不同的網站使用下一個躍點集區**
 
-1.  開啟商務用 Skype Server 管理命令介面視窗，然後輸入下列 Cmdlet：
+1.  開啟商務用 Skype Server 管理命令介面視窗，並輸入下列 Cmdlet：
     
         Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
 
-**在災難中容錯移轉池**
+**在發生嚴重損壞集區時進行容錯移轉**
 
-1.  在 Pool2 的前端伺服器上輸入下列 Cmdlet，以找出哪個池是中央管理伺服器的主機：
+1.  在 Pool2 中的前端伺服器上輸入下列 Cmdlet，以尋找哪一個集區是中央管理伺服器的主機：
     
         Invoke-CsManagementServerFailover -Whatif
     
-    這個 Cmdlet 的結果會顯示目前由哪個池託管中央管理伺服器。 在此程式的其餘部分中，此池稱為 CMS\_池。
+    此 Cmdlet 的結果會顯示目前主控中央管理伺服器的集區。 在此程式的其餘部分中，此集區稱為 CMS \_ 集區。
 
-2.  使用拓撲建立器，找出在 CMS\_池中執行的商務用 Skype 伺服器版本。 如果它正在執行商務用 Skype Server，請使用下列 Cmdlet 來尋找 Pool 1 的備份池。
+2.  使用拓撲產生器來尋找在 CMS 集區上執行之商務用 Skype Server 的版本 \_ 。 若執行商務用 Skype Server，請使用下列 Cmdlet 來尋找集區1的備份組區。
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    讓備份\_池成為備份池。
+    讓備份 \_ 集區成為備份組區。
 
-3.  使用下列 Cmdlet 檢查中央管理儲存區的狀態：
+3.  使用下列 Cmdlet 檢查中央管理存放區的狀態：
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    這個 Cmdlet 應該會顯示 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 CMS\_池的 FQDN。 如果它們是空的，則中央管理伺服器無法使用，而且您必須將它容錯移轉。
+    此 Cmdlet 應該會顯示 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 CMS 集區的 FQDN \_ 。 如果它們是空的，則中央管理伺服器無法使用，而且您必須進行容錯移轉。
 
-4.  如果中央管理儲存體無法使用，或中央管理儲存在 Pool1 上執行（也就是已失敗的 pool），您必須先將中央管理伺服器容錯移轉，才能失敗轉移池。 如果您需要容錯移轉在執行商務用 Skype Server 的池中所託管的中央管理伺服器，請使用此程式步驟5中的 Cmdlet。 如果您不需要將中央管理伺服器容錯移轉，請跳至此程式的步驟7。
+4.  若中央管理存放區無法使用，或者中央管理存放區正在 Pool1 上執行 (也就是) 失敗的集區，則必須先容錯移轉中央管理伺服器，再進行集區容錯移轉。 如果您需要容錯移轉中央管理伺服器（位於執行商務用 Skype Server 的集區上），請使用此程式步驟5的指令程式。 如果您不需要透過中央管理伺服器進行容錯移轉，請跳至此程式的步驟7。
 
-5.  若要在執行商務用 Skype Server 的池上容錯移轉中央管理存放區，請執行下列動作：
+5.  若要在執行商務用 Skype 伺服器的集區上容錯移轉中央管理存放區，請執行下列操作：
     
-      - 首先，請輸入下列內容，以檢查\_備份池中哪一個後端伺服器執行中央管理儲存區的主要實例：
+      - 首先，請輸入下列命令，檢查備份組區中的哪一部後端伺服器 \_ 執行中央管理存放區的主體實例：
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - 如果 [備份\_] 池中的主要後端伺服器是 [主體]，請輸入：
+      - 如果備份組區中的主要後端伺服器 \_ 是主體，請輸入：
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        如果 [備份\_] 池中的 [鏡像後端伺服器] 是 [主體]，請輸入：
+        如果備份組區中的鏡像後端伺服器 \_ 是主體，請輸入：
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
-      - 驗證中央管理伺服器容錯移轉已完成。 輸入下列內容：
+      - 驗證中央管理伺服器容錯移轉是否已完成。 輸入下列命令：
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        確認 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 [備份\_] 池的 FQDN。
+        檢查 ActiveMasterFQDN 和 ActiveFileTransferAgents 是否都指向備份組區的 FQDN \_ 。
     
-      - 最後，請輸入下列內容來檢查所有前端伺服器的複本狀態：
+      - 最後，輸入下列命令，檢查所有前端伺服器的複本狀態：
         
             Get-CsManagementStoreReplicationStatus 
         
-        檢查所有複本的值是否為 True。
+        檢查所有複本的值為 True。
         
-        跳至此程式中的步驟7。
+        跳到此程序的步驟 7。
 
-6.  在備份\_池的後端伺服器上安裝中央管理存放區。
+6.  在備份組區的後端伺服器上安裝中央管理存放區 \_ 。
     
-      - 首先，請執行下列命令：
+      - 首先，執行下列命令：
         ```PowerShell
          
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - 在備份\_池的其中一個前端伺服器上執行下一個命令，以強制移動中央管理存儲：
+      - 在其中一個備份組區的前端伺服器上執行下一個命令 \_ ，以強制移動中央管理存放區：
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
-      - 驗證移動已完成：
+      - 驗證移動完成：
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        確認 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 [備份\_] 池的 FQDN。
+        檢查 ActiveMasterFQDN 和 ActiveFileTransferAgents 是否都指向備份組區的 FQDN \_ 。
     
-      - 輸入下列專案，以檢查所有前端伺服器的複本狀態：
+      - 輸入下列命令，檢查所有前端伺服器的複本狀態：
         
             Get-CsManagementStoreReplicationStatus 
         
-        檢查所有複本的值是否為 True。
+        檢查所有複本的值為 True。
     
-      - 在備份\_池中的其他前端伺服器上，安裝中央管理伺服器服務。 若要這樣做，請在所有前端伺服器上執行下列命令，除了您強制集中式管理儲存在此程式中較早移動時所使用的那一種。
+      - 在備份組區中的其他前端伺服器上安裝中央管理伺服器服務 \_ 。 若要這麼做，請在所有前端伺服器上執行下列命令，除了強制您在此程式中強制執行中央管理存放區時所使用的伺服器之外：
         
             Bootstrapper /Setup 
 
-7.  在商務用 Skype Server Management 命令介面視窗中執行下列 Cmdlet，將使用者從 Pool1 中容錯移轉至 Pool2：
+7.  在商務用 Skype Server 管理命令介面視窗中執行下列 Cmdlet，將使用者從 Pool1 容錯移轉至 Pool2：
     
         Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
     
-    因為在這個程式的前幾部分中所採取的步驟來檢查中央管理儲存狀態不是通用的，所以這個 Cmdlet 可能會因為中央管理儲存體尚未完全容錯移轉而失敗。 在這種情況下，您必須根據所看到的錯誤訊息來修正中央管理儲存區，然後再次執行此 Cmdlet。
+    因為在此程式的先前部分中，檢查中央管理存放區狀態所採取的步驟並不是通用的，所以此 Cmdlet 仍然會失敗，因為中央管理存放區尚未完全容錯移轉。 在此情況下，您必須根據所看到的錯誤訊息修正中央管理存放區，然後再次執行此 Cmdlet。
     
-    如果您看到下列錯誤訊息，則您需要變更此網站上的 Edge 池，以便在該池進行容錯移轉前，使用不同的池作為其下一個躍點。 如需詳細資訊，請參閱本主題開頭的程式。
+    如果您看到下列錯誤訊息，則需要先變更位在此網站的 Edge 集區，以使用不同集區作為其下一個躍點，再容錯移轉集區。如需詳細資訊，請參閱本主題一開始的程序。
     
         Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
         topology as the next hop for the Edge server. Failing over this pool may cause External
@@ -144,125 +144,125 @@ ms.locfileid: "41818204"
         proceed.
 
 
-## <a name="fail-back-a-pool"></a>容錯回復池
+## <a name="fail-back-a-pool"></a>容錯回復集區
 
-當發生災難的池回到線上（也就是在這個範例中 Pool1）之後，請執行下列步驟，將您的部署還原為一般的工作狀態。
+在發生災難的集區重新連線後 (如此範例中的 Pool1)，請採取下列步驟將部署還原至正常運作狀態。
 
-請注意，容錯回復程式需要幾分鐘的時間才能完成。針對參考，對於20000使用者，預期會需要最多60分鐘的時間。
+請注意，容錯回復程序需要數分鐘才能完成。  僅供參考：對於有 20,000 個使用者的集區，預計會花上 60 分鐘。
 
-您可以輸入下列 Cmdlet，以容錯回復傳回 Pool1 且已容錯移轉至 Pool2 的使用者：
+若要容錯回復原來位於 Pool1 而容錯移轉至 Pool2 的使用者，請鍵入下列 Cmdlet：
     
     Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-不需要其他步驟。 如果您未通過中央管理伺服器進行容錯移轉，您可以將它留在 Pool2 中。
+無需其他步驟。 如果您已對中央管理伺服器進行容錯移轉，您可以將它保留在 Pool2 中。
 
-## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>針對商務用 Skype Server federation 所使用的邊緣池進行容錯移轉 
+## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>容錯移轉用於商務用 Skype 伺服器同盟的 Edge 集區 
 
-如果您已將商務用 Skype Server federation 的邊緣池設定為向下，則您必須變更同盟，才能使用不同的邊緣池來運作。
+如果您已設定商務用 Skype Server 同盟的 Edge 集區中斷，您必須將同盟變更為使用不同的 Edge 集區，同盟才能正常運作。
 
-1.  在前端伺服器上，開啟 [拓撲建立器]。 展開 [**邊緣池**]，然後以滑鼠右鍵按一下目前針對同盟設定的邊緣伺服器或 edge 伺服器池。 選取 [**編輯屬性**]。
+1.  在前端伺服器上，開啟 [拓撲產生器]。 展開 [ **edge** 集區]，然後在目前針對同盟設定的 edge Server 或 edge server 集區上按一下滑鼠右鍵。 選取 **[編輯內容]**。
 
-2.  在 [**編輯屬性**] 底下的 **[一般**] 底下，清除 **[針對此 Edge 池啟用同盟（埠5061）**]。 按一下 [確定]****。
+2.  在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]。 按一下 [確定]。
 
-3.  展開 [**邊緣池**]，然後以滑鼠右鍵按一下您要用於同盟的邊緣伺服器或 edge 伺服器池。 選取 [**編輯屬性**]。
+3.  展開 [ **edge** 集區]，然後在您現在想要用於同盟的 edge Server 或 edge server 集區上按一下滑鼠右鍵。 選取 [編輯內容]。
 
-4.  在 [**編輯屬性**] 底下的 **[一般**] 底下，選取 **[針對此 Edge 池啟用同盟（埠5061）**]。 按一下 [確定]****。
+4.  在 [編輯內容]中，選取 [一般] 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。按一下 **[確定]**。
 
-5.  按一下 [**動作**]，選取 [**拓撲**]，選取 [**發佈**]。 **發佈拓撲**時出現提示時，請按 **[下一步]**。 發佈完成後，請按一下 **[完成]**。
+5.  按一下 **[動作]**，依序選取 **[拓撲]** 和 **[發行]**。在 **[發行拓撲]** 出現提示時，按 **[下一步]**。發行完成時，按一下 **[完成]**。
 
-6.  在邊緣伺服器上，開啟 [商務用 Skype Server 部署] 嚮導。 按一下 [**安裝或更新商務用 Skype Server System**]，然後按一下 [**設定] 或 [移除商務用 skype server 元件**]。 再次按一下 [**執行**]。
+6.  在 Edge server 上，開啟商務用 Skype 伺服器部署嚮導。 按一下 [ **安裝或更新商務用 Skype Server 系統**]，然後按一下 [ **設定] 或 [移除商務用 skype server 元件**]。 按一下 **[再執行一次]**。
 
-7.  按一下 **[下一步]**。 [摘要] 畫面會在執行時顯示動作。 完成部署之後，按一下 [**查看記錄**] 以查看可用的記錄檔。 按一下 **[完成]** 以完成部署。
+7.  按 **[下一步]**。 摘要畫面會隨著動作的執行顯示各個動作。 部署完成後，按一下 **[檢視記錄檔]** 檢視可用的記錄檔。 按一下 **[完成]** 完成部署。
     
-    如果包含失敗的邊緣池的網站包含仍在執行的前端伺服器，您必須更新這些前端池的 Web 會議服務和 A/V 會議服務，才能在仍在執行的遠端網站中使用 Edge 池。 
+    如果失敗 Edge 集區所在的網站包含仍在執行的前端伺服器，則必須更新在這些前端集區上的 Web 會議服務及 A/V 會議服務，以使用遠端網站上仍在執行的 Edge 集區。 
 
- ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>在商務用 Skype Server 中針對 XMPP 同盟使用的邊緣池進行容錯移轉 
+ ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>容錯移轉用於商務用 Skype Server 中用於 XMPP 同盟的 Edge 集區 
 
-在您的組織中，有一個 Edge 池指定為要用於 XMPP 同盟的池。 如果此池向下移動，您必須容錯移轉 XMPP 同盟，才能使用不同的邊緣池，然後 XMPP 同盟才能再次運作。
+在您的組織中，有一個指定的 Edge 集區是用於 XMPP 同盟的集區。如果此集區失效，您必須先容錯移轉 XMPP 同盟以使用不同的 Edge 集區，讓 XMPP 同盟可以再次運作。
 
-當您第一次安裝 Edge 池並啟用 XMPP 同盟時，您可以針對所有的邊緣池設定外部 DNS SRV 記錄（而不只是一個），來簡化災害復原程式。 這些 SRV 記錄中的每一個都必須設定不同的優先順序。 所有 XMPP 聯盟流量都是透過擁有最高優先順序的 SRV 記錄的池中進行。 
+當您第一次安裝 Edge 集區並啟用 XMPP 同盟時，可以藉由為所有適用於 XMPP 同盟的 Edge 集區 (而不是只針對其中一個) 設定外部 DNS SRV 記錄，來簡化災害復原程序。 其中的每一個 SRV 記錄都必須設定不同的優先順序。 所有的 XMPP 同盟流量都會通過優先順序最高且含有 SRV 記錄的集區。 
 
-在下列程式中，EdgePool1 是最初託管 XMPP 同盟的池，而 EdgePool2 是該池，現在將託管 XMPP 同盟。
+在下列程序中，EdgePool1 是原本裝載 XMPP 同盟的集區，而 EdgePool2 是現在裝載 XMPP 同盟的集區。
 
 
-### <a name="to-fail-over-the-edge-pool-used-for-xmpp-federation"></a>若要針對 XMPP 同盟使用的邊緣池進行容錯移轉
+### <a name="to-fail-over-the-edge-pool-used-for-xmpp-federation"></a>容錯移轉用於 XMPP 同盟的 Edge 集區
 
-1.  如果您還沒有部署另一個 Edge 池（除了目前已停機），請部署該池。 
+1.  如果您尚未部署其他 Edge 集區 (除了目前中斷的這一個集區)，請部署該集區。 
 
-2.  在新 Edge 池中的每個 Edge 伺服器上，現在將會主控 XMPP 同盟（EdgePool2），請執行下列 Cmdlet：
+2.  在現在將裝載 XMPP 同盟之新 Edge 集區 (EdgePool2) 中的每個 Edge Server 上，執行下列 Cmdlet：
     
         Stop-CsWindowsService
 
-3.  執行下列 Cmdlet，以 repoint XMPP 同盟路由至 EdgePool2：
+3.  執行下列 Cmdlet，將 XMPP 同盟路由重新指向 EdgePool2：
     
         Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
     
-    在這個範例中，Site2 是包含邊緣池的網站，現在將託管 XMPP 同盟路由，而 EdgeServer2.contoso.com 是該池中的邊緣伺服器的 FQDN。
+    在此範例中，Site2 為包含現在將裝載 XMPP 同盟路由之 Edge 集區的網站，而 EdgeServer2.contoso.com 為該集區中 Edge Server 的 FQDN。
 
-4.  在外部 DNS 伺服器上，將 XMPP 同盟的 DNS A 記錄變更為指向 EdgeServer2.contoso.com。
+4.  在外部 DNS 伺服器上，變更 XMPP 同盟的 DNS A 記錄以指向 EdgeServer2.contoso.com。
 
-5.  如果您還沒有可解析到 Edge 池的 XMPP 同盟的 DNS SRV 記錄，而該內容現在將託管 XMPP 同盟，您必須新增該記錄，如下列範例所示。 這個 SRV 記錄的埠值必須是5269。
+5.  如果您尚未擁有 XMPP 同盟的 DNS SRV 記錄 (其可解析為現在將裝載 XMPP 同盟的 Edge 集區)，則您必須新增該記錄，如下列範例所示。此 SRV 記錄的連接埠值必須為 5269。
     
         _xmpp-server._tcp.contoso.com
 
-6.  確認現在將由 XMPP 同盟託管的邊緣池已在外部開啟埠5269。
+6.  確認現在將裝載 XMPP 同盟的 Edge 集區已在外部開放連接埠 5269。
 
-7.  在邊緣池中的所有邊緣伺服器上啟動服務，現在將會託管 XMPP federation：
+7.  在現在將裝載 XMPP 同盟之 Edge 集區中的所有 Edge Server 上啟動服務：
     
         Start-CsWindowsService
 
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>容錯回復用於商務用 Skype Server 同盟或 XMPP 同盟的邊緣池 
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>容錯回復用於商務用 Skype Server 同盟或 XMPP 同盟的 Edge 集區 
 
-當您用來主持同盟的邊緣池已重新連線之後，請使用此程式，將商務用 Skype Server 同盟路由和/或 XMPP 同盟路由重新進行容錯回復，以再次使用此已還原的邊緣池。
+在用來主控同盟的失敗 Edge 集區回到線上後，請使用此程式來回複商務用 Skype Server federation route 和/或 XMPP 同盟路由，以再次使用此還原的 Edge 集區。
 
-1.  在現在可以再次使用的邊緣池中，啟動 Edge 服務。
+1.  在現在可以使用的 Edge 集區上，啟動 Edge Services。
 
-2.  如果您想要將商務用 Skype Server 同盟路由容錯回復到使用已還原的邊緣伺服器，請執行下列動作：
+2.  如果您想要容錯回復商務用 Skype Server 同盟路由以使用還原的 Edge Server，請執行下列操作：
     
-      - 在前端伺服器上，開啟 [拓撲建立器]。 展開 [**邊緣池**]，然後以滑鼠右鍵按一下目前針對同盟設定的邊緣伺服器或 edge 伺服器池。 選取 [**編輯屬性**]。
+      - 在前端伺服器上，開啟拓撲產生器。展開 **[Edge 集區]**，然後在目前設定用於同盟的 Edge Server 或 Edge Server 集區上按一下滑鼠右鍵。選取 **[編輯內容]**。
     
-      - 在 [**編輯屬性**] 底下的 **[一般**] 底下，清除 **[針對此 Edge 池啟用同盟（埠5061）**]。 按一下 [確定]****。
+      - 在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]。按一下 [確定]。
     
-      - 展開 [**邊緣池**]，然後以滑鼠右鍵按一下您想要用於同盟的原始邊緣伺服器或 edge 伺服器池。 選取 [**編輯屬性**]。
+      - 展開 [ **Edge** 集區]，然後以滑鼠右鍵按一下原始 Edge Server 或 Edge server 集區，以供同盟使用。 選取 [編輯內容]。
     
-      - 在 [**編輯屬性**] 底下的 **[一般**] 底下，選取 **[針對此 Edge 池啟用同盟（埠5061）**]。 按一下 [確定]****。
+      - 在 [編輯內容]中，選取 [一般] 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。按一下 **[確定]**。
     
-      - 按一下 [**動作**]，選取 [**拓撲**]，選取 [**發佈**]。 **發佈拓撲**時出現提示時，請按 **[下一步]**。 發佈完成後，請按一下 **[完成]**。
+      - 按一下 **[動作]**，依序選取 **[拓撲]** 和 **[發行]**。在 **[發行拓撲]** 出現提示時，按 **[下一步]**。發行完成時，按一下 **[完成]**。
     
-      - 在邊緣伺服器上，開啟 [商務用 Skype Server 部署] 嚮導。 按一下 [**安裝或更新商務用 Skype Server 系統**]，然後按一下 [**設定] 或 [移除商務用 skype server 元件**]。 再次按一下 [**執行**]。
+      - 在 Edge server 上，開啟商務用 Skype 伺服器部署嚮導。 按一下 [ **安裝或更新商務用 Skype 伺服器系統**]，然後按一下 [ **設定] 或 [移除商務用 skype server 元件**]。 按一下 **[再執行一次]**。
     
-      - 按一下 **[下一步]**。 [摘要] 畫面會在執行時顯示動作。 完成部署之後，按一下 [**查看記錄**] 以查看可用的記錄檔。 按一下 **[完成]** 以完成部署。
+      - 按 **[下一步]**。 摘要畫面會隨著動作的執行顯示各個動作。 部署完成後，按一下 **[檢視記錄檔]** 檢視可用的記錄檔。 按一下 **[完成]** 完成部署。
 
-3.  如果您想要將 XMPP 同盟路由容錯回復到使用已還原的邊緣伺服器，請執行下列動作：
+3.  如果您想要容錯回復 XMPP 同盟路由以使用還原的 Edge Server，請執行下列操作：
     
-      - 執行下列 Cmdlet，將 XMPP 同盟路由 repoint 到 Edge 池中，這將會立即託管 XMPP 同盟（在此範例中為 EdgeServer1）：
+      - 執行下列 Cmdlet，將 XMPP 同盟路由 repoint 至 Edge 集區，該集區現在會主控 XMPP 同盟 (在此範例中，EdgeServer1) ：
         
             Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
         
-        在這個範例中，Site1 是包含邊緣池的網站，現在將託管 XMPP 同盟路由，而 EdgeServer1.contoso.com 是該池中的邊緣伺服器的 FQDN。
+        在此範例中，Site1 是包含 Edge 集區的網站，它現在會主控 XMPP 同盟路由，而且 EdgeServer1.contoso.com 是該集區中 Edge Server 的 FQDN。
     
-      - 如果您還沒有可解析到 Edge 池的 XMPP 同盟的 DNS SRV 記錄，而該內容現在將託管 XMPP 同盟，您必須新增該記錄，如下列範例所示。 這個 SRV 記錄的埠值必須是5269。
+      - 如果您尚未擁有 XMPP 同盟的 DNS SRV 記錄 (其可解析為現在將裝載 XMPP 同盟的 Edge 集區)，則您必須新增該記錄，如下列範例所示。此 SRV 記錄的連接埠值必須為 5269。
         
             _xmpp-server._tcp.contoso.com
     
-      - 在外部 DNS 伺服器上，將 XMPP 同盟的 DNS A 記錄變更為指向 EdgeServer2.contoso.com。
+      - 在外部 DNS 伺服器上，變更 XMPP 同盟的 DNS A 記錄以指向 EdgeServer2.contoso.com。
     
-      - 確認現在將由 XMPP 同盟託管的邊緣池已在外部開啟埠5269。
+      - 確認現在將裝載 XMPP 同盟的 Edge 集區已在外部開放連接埠 5269。
 
-4.  如果前端池仍在包含已失敗且已還原的邊緣池的網站中執行，您應該在這些前端池上更新網路會議服務和 A/V 會議服務，以再次使用其本機網站上的邊緣池。
+4.  如果前端集區仍在包含失敗且已還原之 Edge 集區的網站中執行，您應該更新這些前端集區上的 Web 會議服務和 A/V 會議服務，以再次使用本機網站上的 Edge 集區。
 
-5.  如果與失敗的邊緣池位於同一網站的前端池也失敗，您現在可以使用 Invoke-CsPoolFailback 來容錯回復前端池。
+5.  如果與失敗 Edge 集區位於相同網站的前端集區也失敗，您現在可以使用 Invoke–CsPoolFailback 來容錯回前端集區。
 
 
-## <a name="change-the-edge-pool-associated-with-a-front-end-pool"></a>變更與前端池相關聯的邊緣池
+## <a name="change-the-edge-pool-associated-with-a-front-end-pool"></a>變更與前端集區相關聯的 Edge 集區
 
-如果邊緣池向下移動，但位於相同網站的前端池仍在執行，則您必須將前端池設定為在不同的網站上使用 Edge 池，直到失敗的邊緣池已復原為止。
+如果 Edge 集區失效但相同網站上的前端集區仍在執行，您將需要設定前端集區來使用其他網站上的 Edge 集區，直到失敗的 Edge 集區還原為止。
 
-1.  在 [拓撲建立器] 中，流覽至您需要變更的前端池名稱。
+1.  在拓撲產生器中，瀏覽至您需要變更的前端集區名稱。
 
-2.  以滑鼠右鍵按一下該池子，然後按一下 [**編輯屬性**]。
+2.  以滑鼠右鍵按一下集區，然後按一下 **[編輯內容]**。
 
-3.  在 [**關聯**性] 區段的 [**關聯邊緣池（適用于媒體元件）**] 底下，使用下拉式方塊來選取您要與此前端池建立關聯的邊緣池。
+3.  在 **[關聯]** 區段的 **[關聯 Edge 集區 (適用於媒體元件)]** 下方，使用下拉式方塊來選取您要與此前端集區產生關聯的 Edge 集區。
 
-4.  按一下 [確定]****。
+4.  按一下 [確定]。

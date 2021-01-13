@@ -1,8 +1,8 @@
 ---
 title: 發行拓撲建立鏡像資料庫頁面
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
-ms.openlocfilehash: c60871e5ec094c878c9ed093022c88a714cbe3be
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ce3cd66ae6b4d0cbb01eb058a357653124ce26b6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219114"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823703"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>發行拓撲建立鏡像資料庫頁面
  
@@ -30,6 +30,6 @@ ms.locfileid: "48219114"
   
  如果您選取 [不要此時安裝這兩個資料庫中的一或全部]，請清除不會安裝的資料庫。 稍後，您可以選擇在拓撲產生器中，以滑鼠右鍵按一下大多數節點專案，以使用 [ **安裝資料庫** ]。
   
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [為商務用 Skype Server 2015 中的後端伺服器高可用性部署 SQL 鏡像](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

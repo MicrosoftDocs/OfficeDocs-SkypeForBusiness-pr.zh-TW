@@ -1,8 +1,8 @@
 ---
 title: Office Web Apps Server 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: 以滑鼠右鍵按一下 [Office Web Apps Servers]，然後選取 [新增 Office Web Apps Server] 以開啟嚮導。
-ms.openlocfilehash: 6cc31249f2ac7245fd279dc562f61ac5ad24cd1a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216094"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823893"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 範圍節點
 
@@ -32,6 +32,6 @@ ms.locfileid: "48216094"
 
 - **説明**。 您可以使用這個選項，存取作用中節點的說明。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [設定 Office Web Apps Server 與 Lync Server 2013 的整合](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)

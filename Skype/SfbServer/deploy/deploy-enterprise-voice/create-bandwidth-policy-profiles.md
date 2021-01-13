@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立頻寬原則設定檔
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: 建立或修改在商務用 Skype Server 的 [企業語音通話許可控制] 中所使用的頻寬原則。
-ms.openlocfilehash: e54fc20c142e0eacc2758d97bdeba8043511b3fe
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在商務用 Skype Server 中建立或修改頻寬原則，以供 Enterprise Voice 通話許可控制使用。
+ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767946"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824843"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在商務用 Skype Server 中建立頻寬原則設定檔 
  
-建立或修改在商務用 Skype Server 的 [企業語音通話許可控制] 中所使用的頻寬原則。 
+在商務用 Skype Server 中建立或修改頻寬原則，以供 Enterprise Voice 通話許可控制使用。 
   
-頻寬原則定義即時音訊與視頻形式的頻寬使用量限制。 頻寬原則會套用至 tobandwidth 原則設定檔，可套用至多個網路網站以進行通話許可控制。
+頻寬原則定義即時音訊和影片形式的頻寬使用量限制。 頻寬原則會套用至 tobandwidth 原則設定檔，可套用至多個網站以取得通話許可控制。
   
-如需在 CAC 部署中應設定哪些頻寬限制的相關指導方針，請參閱[在商務用 Skype Server 中規劃通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
+如需您在 CAC 部署中應該設定什麼頻寬限制的指導方針，請參閱 [在商務用 Skype Server 中規劃通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
-下列程式中建立的範例原則設定了整體音訊流量、個別音訊會話、整體影片流量，以及個別的視頻會話限制。 例如，5Mb_Link 頻寬原則設定檔會設定下列限制： 
+下列程式中建立的範例原則，會設定整體音訊流量、個別音訊會話、整體影片流量和個別影片的限制。 例如，5Mb_Link 頻寬原則設定檔會設定下列限制： 
   
 - 音訊限制： 2000 kbps
     
@@ -42,13 +42,13 @@ ms.locfileid: "41767946"
 - 影片會話限制： 700 kbps
     
 > [!NOTE]
-> 最小音訊會話限制值為 40 kbps。 最小的視頻會話限制值為 100 kbps。 
+> 最小音訊會話限制值為 40 kbps。 最小影片會話限制值為 100 kbps。 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management Shell 建立頻寬原則設定檔
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立頻寬原則設定檔
 
-1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-2. 針對您想要建立的每一個頻寬原則設定檔，執行新的 CsNetworkBandwidthPolicyProfile Cmdlet。 例如，執行：
+2. 針對您要建立的每個頻寬原則設定檔，執行 New-CsNetworkBandwidthPolicyProfile Cmdlet。 例如，執行：
     
    ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400   -VideoBWSessionLimit 700
@@ -66,38 +66,38 @@ ms.locfileid: "41767946"
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 建立頻寬原則設定檔
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立頻寬原則設定檔
 
-1. 開啟商務用 Skype Server 的 [控制台]。
+1. 開啟商務用 Skype Server 控制台。
     
-2. 在左側導覽列中，按一下 [**網路**設定]。
+2. 在左導覽列中，按一下 **[網路組態]**。
     
-3. 按一下 [**原則設定檔**] 導覽按鈕。
+3. 按一下 [ **原則設定檔** ] 瀏覽按鈕。
     
-4. 按一下 [**新增**]。
+4. 按一下 [ **新增**]。
     
-5. 在 [**新增原則設定檔**] 頁面上，按一下 [**名稱**]，然後輸入頻寬原則設定檔的名稱。
+5. 在 [ **新增原則設定檔** ] 頁面上，按一下 [ **名稱** ]，然後輸入頻寬原則設定檔的名稱。
     
-6. 按一下 [**音訊限制**]，然後輸入允許所有音訊會話合併的最大 kbps 數。
+6. 按一下 [ **音訊限制**]，然後輸入允許所有音訊會話組合的最大 kbps 數。
     
-7. 按一下 [**音訊會話限制**]，然後輸入每個個別音訊會話允許的最大 kbps 數。
+7. 按一下 [ **音訊會話限制**]，然後輸入每個個別音訊會話允許的最大 kbps 數。
     
-8. 按一下 [**影片限制**]，然後輸入允許所有視頻會話合併的最大 kbps 數。
+8. 按一下 [ **影片限制**]，然後輸入要允許所有視頻會話組合的最大 kbps 數。
     
-9. 按一下 [**視頻會話限制**]，然後輸入每個個別影片會話允許的最大 kbps 數。
+9. 按一下 [ **影片會話限制**]，然後輸入每個個別影片會話允許的最大 kbps 數。
     
-10. 或者，按一下 [**描述**]，然後輸入其他資訊來描述此頻寬原則設定檔。
+10. （選用）按一下 [ **描述**]，然後輸入其他資訊以描述此頻寬原則設定檔。
     
-11. 按一下 [認可]****。
+11. 按一下 **[認可]**。
     
-12. 若要完成建立拓撲的頻寬原則設定檔，請重複步驟4到11，以及其他頻寬策略設定檔的設定。
+12. 若要完成建立拓撲的頻寬原則設定檔，請使用其他頻寬原則設定檔的設定重複步驟4到11。
     
 ## <a name="see-also"></a>另請參閱
 
-[新-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[移除-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
