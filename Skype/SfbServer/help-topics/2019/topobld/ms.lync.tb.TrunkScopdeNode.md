@@ -1,8 +1,8 @@
 ---
 title: 主幹範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您以滑鼠右鍵按一下拓撲建立器中現有的 SIP 幹線，以執行下列動作：
-ms.openlocfilehash: cae913dadf25a9931c626be6d15b839eb4520c3c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以在拓撲產生器中，以滑鼠右鍵按一下現有的 SIP 主幹，以執行下列作業：
+ms.openlocfilehash: 3b1d27e08c947d8558c888f2dd0ee5d2b59f1a66
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795082"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807523"
 ---
-# <a name="trunk-scope-node"></a><span data-ttu-id="10066-103">主幹範圍節點</span><span class="sxs-lookup"><span data-stu-id="10066-103">Trunk Scope Node</span></span>
+# <a name="trunk-scope-node"></a><span data-ttu-id="a498e-103">主幹範圍節點</span><span class="sxs-lookup"><span data-stu-id="a498e-103">Trunk Scope Node</span></span>
  
-<span data-ttu-id="10066-104">您以滑鼠右鍵按一下拓撲建立器中現有的 SIP 幹線，以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="10066-104">You right click on an existing SIP trunk in Topology Builder to perform the following:</span></span>
+<span data-ttu-id="a498e-104">您可以在拓撲產生器中，以滑鼠右鍵按一下現有的 SIP 主幹，以執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="a498e-104">You right click on an existing SIP trunk in Topology Builder to perform the following:</span></span>
   
-- <span data-ttu-id="10066-105">**編輯內容**：啟動用來編輯或重新定義現有 SIP 主幹設定的 [編輯內容精靈]\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="10066-105">**Edit Properties**: Starts the **Edit Properties** wizard used to edit or redefine the configuration of an existing SIP trunk</span></span>
+- <span data-ttu-id="a498e-105">**編輯內容**：啟動用來編輯或重新定義現有 SIP 主幹設定的 [編輯內容精靈]</span><span class="sxs-lookup"><span data-stu-id="a498e-105">**Edit Properties**: Starts the **Edit Properties** wizard used to edit or redefine the configuration of an existing SIP trunk</span></span>
     
-<span data-ttu-id="10066-106">除了 [編輯內容] 選項，您還可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="10066-106">In addition to the Edit Properties option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="a498e-106">除了 [編輯內容] 選項，您還可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="a498e-106">In addition to the Edit Properties option, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="10066-p101">**拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前的拓撲、儲存拓撲副本、發行拓撲、安裝資料庫、合併舊版 Lync Server 的元件，或移除部署。</span><span class="sxs-lookup"><span data-stu-id="10066-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Lync Server, or remove the deployment.</span></span>
+- <span data-ttu-id="a498e-107">**拓撲**。</span><span class="sxs-lookup"><span data-stu-id="a498e-107">**Topology**.</span></span> <span data-ttu-id="a498e-108">您可以使用此選項來定義新的拓撲、開啟現有的拓撲、下載目前的拓撲、儲存拓撲的複本、發行拓撲、從舊版的 Lync Server 合併元件，或移除部署。</span><span class="sxs-lookup"><span data-stu-id="a498e-108">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Lync Server, or remove the deployment.</span></span>
     
-- <span data-ttu-id="10066-p102">**刪除**。您可以使用這個選項來移除目前選取的項目。其他相依項目可能會妨礙刪除作業。若發生此情況，會顯示對話方塊，指出可以移除該項目之前，所必須解決的服務和相依項目。</span><span class="sxs-lookup"><span data-stu-id="10066-p102">**Delete** You use this selection to remove the currently selected item. Other dependencies may prevent the deletion. A dialog will indicate what services and dependencies need to be resolved before the item can be removed.</span></span>
+- <span data-ttu-id="a498e-p102">**刪除**。您可以使用這個選項來移除目前選取的項目。其他相依項目可能會妨礙刪除作業。若發生此情況，會顯示對話方塊，指出可以移除該項目之前，所必須解決的服務和相依項目。</span><span class="sxs-lookup"><span data-stu-id="a498e-p102">**Delete** You use this selection to remove the currently selected item. Other dependencies may prevent the deletion. A dialog will indicate what services and dependencies need to be resolved before the item can be removed.</span></span>
     
-- <span data-ttu-id="10066-p103">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="10066-p103">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="a498e-p103">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="a498e-p103">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

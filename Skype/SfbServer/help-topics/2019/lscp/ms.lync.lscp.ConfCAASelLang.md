@@ -1,8 +1,8 @@
 ---
 title: 選取語言
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 選取您想要用於電話撥入式會議存取號碼的語言。 如需詳細資訊，請參閱〈Create or Modify a Dial-in Conferencing Access Number〉。
-ms.openlocfilehash: 188d9fa83b607644ad0bcfed9ff4900809174bc5
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 選取您要用於電話撥入式會議存取號碼的語言。 如需詳細資訊，請參閱建立或修改電話撥入式會議存取號碼。
+ms.openlocfilehash: 8d5f81ebcdacbd2c506693cfa66dc9c4195f7b98
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796352"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808693"
 ---
-# <a name="select-languages"></a><span data-ttu-id="787a8-104">選取語言</span><span class="sxs-lookup"><span data-stu-id="787a8-104">Select Languages</span></span>
+# <a name="select-languages"></a><span data-ttu-id="5009a-104">選取語言</span><span class="sxs-lookup"><span data-stu-id="5009a-104">Select Languages</span></span>
 
-<span data-ttu-id="787a8-p102">選取您想要用於電話撥入式會議存取號碼的語言。如需詳細資訊，請參閱〈[Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)〉。</span><span class="sxs-lookup"><span data-stu-id="787a8-p102">Select the languages that you want to use for your dial-in conferencing access number. For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
+<span data-ttu-id="5009a-105">選取您要用於電話撥入式會議存取號碼的語言。</span><span class="sxs-lookup"><span data-stu-id="5009a-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="5009a-106">如需詳細資訊，請參閱 [建立或修改電話撥入式會議存取號碼](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)。</span><span class="sxs-lookup"><span data-stu-id="5009a-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
 
 

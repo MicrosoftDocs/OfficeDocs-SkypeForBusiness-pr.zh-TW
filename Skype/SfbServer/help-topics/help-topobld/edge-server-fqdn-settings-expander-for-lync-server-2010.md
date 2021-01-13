@@ -1,8 +1,8 @@
 ---
 title: Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,36 +15,36 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 若要定義 [外部設定] 底下的屬性，請進行下列設定：
-ms.openlocfilehash: 2de4b562d5b6a8b8ef9707d603fe5f4667893ba4
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6075fab9dbc820b725beec8be4a674a828b4c7d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218244"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807093"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a><span data-ttu-id="7dd20-103">Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)</span><span class="sxs-lookup"><span data-stu-id="7dd20-103">Edge Server FQDN Settings Expander for Lync Server 2010</span></span>
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a><span data-ttu-id="9c7dd-103">Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)</span><span class="sxs-lookup"><span data-stu-id="9c7dd-103">Edge Server FQDN Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="7dd20-104">若要定義 [ **外部設定**] 底下的屬性，請進行下列設定：</span><span class="sxs-lookup"><span data-stu-id="7dd20-104">To define the properties under **External settings**, configure the following:</span></span>
+<span data-ttu-id="9c7dd-104">若要定義 [ **外部設定**] 底下的屬性，請進行下列設定：</span><span class="sxs-lookup"><span data-stu-id="9c7dd-104">To define the properties under **External settings**, configure the following:</span></span>
   
-<span data-ttu-id="7dd20-105">如果您想為 web 會議及音訊/視頻定義不同的集區 FQDN 和 IP 位址，請選取 [ **為 web 會議和 A/V 啟用個別 FQDN 和 ip 位址** ] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="7dd20-105">Select the **Enable separate FQDN and IP address for web conferencing and A/V** check box if you want to define distinct Pool FQDN and IP addresses for web conferencing and audio/video.</span></span>
+<span data-ttu-id="9c7dd-105">如果您想為 web 會議及音訊/視頻定義不同的集區 FQDN 和 IP 位址，請選取 [ **為 web 會議和 A/V 啟用個別 FQDN 和 ip 位址** ] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-105">Select the **Enable separate FQDN and IP address for web conferencing and A/V** check box if you want to define distinct Pool FQDN and IP addresses for web conferencing and audio/video.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="7dd20-106">如果您選擇不選取個別 FQDN 和 IP 位址的核取方塊，則必須為 Edge Server 所提供的三種服務提供不同的埠。</span><span class="sxs-lookup"><span data-stu-id="7dd20-106">If you choose to not select the check box for separate FQDN and IP addresses, you must provide distinct ports for each of the three services provided by the Edge Server.</span></span> <span data-ttu-id="7dd20-107">要設定的唯一完整功能變數名稱是與 Access Edge service 相關聯的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="7dd20-107">The only fully qualified domain name that is to configure is the FQDN associated with the Access Edge service.</span></span> 
+> <span data-ttu-id="9c7dd-106">如果您選擇不選取個別 FQDN 和 IP 位址的核取方塊，則必須為 Edge Server 所提供的三種服務提供不同的埠。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-106">If you choose to not select the check box for separate FQDN and IP addresses, you must provide distinct ports for each of the three services provided by the Edge Server.</span></span> <span data-ttu-id="9c7dd-107">要設定的唯一完整功能變數名稱是與 Access Edge service 相關聯的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-107">The only fully qualified domain name that is to configure is the FQDN associated with the Access Edge service.</span></span> 
   
-<span data-ttu-id="7dd20-108">如果您希望 A/V Edge service 使用網路位址轉譯 (NAT) IP 位址和設定，請選取 [ **A/V Edge service 為已啟用 NAT** ] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="7dd20-108">Select the **A/V Edge service is NAT enabled** check box if you want the A/V Edge service to use a network address translation (NAT) IP address and configuration.</span></span>
+<span data-ttu-id="9c7dd-108">如果您希望 A/V Edge service 使用網路位址轉譯 (NAT) IP 位址和設定，請選取 [ **A/V Edge service 為已啟用 NAT** ] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-108">Select the **A/V Edge service is NAT enabled** check box if you want the A/V Edge service to use a network address translation (NAT) IP address and configuration.</span></span>
   
-<span data-ttu-id="7dd20-109">在 [已啟用的 Edge service] 中，在 [**埠**] 底下輸入**集區 FQDN**和埠</span><span class="sxs-lookup"><span data-stu-id="7dd20-109">For the enabled Edge services, you type a **Pool FQDN** and a port under **Ports**</span></span>
+<span data-ttu-id="9c7dd-109">在 [已啟用的 Edge service] 中，在 [**埠**] 底下輸入 **集區 FQDN** 和埠</span><span class="sxs-lookup"><span data-stu-id="9c7dd-109">For the enabled Edge services, you type a **Pool FQDN** and a port under **Ports**</span></span>
   
-- <span data-ttu-id="7dd20-110">定義 **Access Edge service** 集區 FQDN 及可唯一識別服務的埠。</span><span class="sxs-lookup"><span data-stu-id="7dd20-110">Define the **Access Edge service** Pool FQDN and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="9c7dd-110">定義 **Access Edge service** 集區 FQDN 及可唯一識別服務的埠。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-110">Define the **Access Edge service** Pool FQDN and a port that uniquely identifies the service.</span></span>
     
-- <span data-ttu-id="7dd20-111">若未選取 [為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址]，請定義 **Web 會議 Edge service** 集區 FQDN () 和唯一識別服務的埠。</span><span class="sxs-lookup"><span data-stu-id="7dd20-111">Define the **Web Conferencing Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="9c7dd-111">若未選取 [為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址]，請定義 **Web 會議 Edge service** 集區 FQDN () 和唯一識別服務的埠。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-111">Define the **Web Conferencing Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
     
-- <span data-ttu-id="7dd20-112">若未選取 [為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址]) 及可唯一識別服務的埠，請定義 **A/V Edge service** 集區 FQDN (。</span><span class="sxs-lookup"><span data-stu-id="7dd20-112">Define the **A/V Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="9c7dd-112">若未選取 [為 web 會議和 A/V 啟用個別 FQDN 和 IP 位址]) 及可唯一識別服務的埠，請定義 **A/V Edge service** 集區 FQDN (。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-112">Define the **A/V Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
     
-  <span data-ttu-id="7dd20-113">**確定**：接受並認可對話方塊的變更。</span><span class="sxs-lookup"><span data-stu-id="7dd20-113">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="9c7dd-113">**確定**：接受並認可對話方塊的變更。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-113">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="7dd20-114">**取消**：捨棄變更，並關閉對話方塊。</span><span class="sxs-lookup"><span data-stu-id="7dd20-114">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="9c7dd-114">**取消**：捨棄變更，並關閉對話方塊。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-114">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="7dd20-115">**說明**：顯示此說明畫面。</span><span class="sxs-lookup"><span data-stu-id="7dd20-115">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="9c7dd-115">**說明**：顯示此說明畫面。</span><span class="sxs-lookup"><span data-stu-id="9c7dd-115">**Help** Displays this help screen.</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定 SNMP 應用程式
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,36 +15,36 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: 在商務用 Skype Server Enterprise Voice 中，將 SNMP 應用程式設定為使用 E9-1-1。
-ms.openlocfilehash: fd8db117f590343d3e2f5a0194a0f6d8c3bcfb39
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在商務用 Skype Server Enterprise Voice 中，設定 SNMP 應用程式來搭配 E9-1-1。
+ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768136"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804153"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server"></a><span data-ttu-id="5da76-103">在商務用 Skype Server 中設定 SNMP 應用程式</span><span class="sxs-lookup"><span data-stu-id="5da76-103">Configure an SNMP application in Skype for Business Server</span></span>
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a><span data-ttu-id="cd84a-103">在商務用 Skype Server 中設定 SNMP 應用程式</span><span class="sxs-lookup"><span data-stu-id="cd84a-103">Configure an SNMP application in Skype for Business Server</span></span>
  
-<span data-ttu-id="5da76-104">在商務用 Skype Server Enterprise Voice 中，將 SNMP 應用程式設定為使用 E9-1-1。</span><span class="sxs-lookup"><span data-stu-id="5da76-104">Configure an SNMP application to work with E9-1-1 in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="cd84a-104">在商務用 Skype Server Enterprise Voice 中，設定 SNMP 應用程式來搭配 E9-1-1。</span><span class="sxs-lookup"><span data-stu-id="cd84a-104">Configure an SNMP application to work with E9-1-1 in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="5da76-105">商務用 Skype 伺服器包含標準的 web 服務介面，您可以用來將位置資訊服務連線至與埠和交換器資訊相符的 MAC 位址的簡單網路管理通訊協定（SNMP）應用程式。</span><span class="sxs-lookup"><span data-stu-id="5da76-105">Skype for Business Server includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span> 
+<span data-ttu-id="cd84a-105">商務用 Skype 伺服器包含標準的 web 服務介面，您可以用來將位置資訊服務連線至簡易網路管理通訊協定 (SNMP) 應用程式，該應用程式會與埠及切換資訊相符的 MAC 位址。</span><span class="sxs-lookup"><span data-stu-id="cd84a-105">Skype for Business Server includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span> 
   
-<span data-ttu-id="5da76-106">如果已安裝 SNMP 應用程式，且位置資訊服務無法在位置資料庫中找到相符的專案，位置資訊服務會使用用戶端提供的 MAC 位址來自動查詢應用程式。</span><span class="sxs-lookup"><span data-stu-id="5da76-106">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="5da76-107">然後，位置資訊服務會使用 SNMP 應用程式傳回的埠和切換資訊來重新查詢位置資料庫。</span><span class="sxs-lookup"><span data-stu-id="5da76-107">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
+<span data-ttu-id="cd84a-106">如果已安裝 SNMP 應用程式，且 Location 資訊服務無法在位置資料庫中找到相符的位置，則位置資訊服務會自動使用用戶端所提供的 MAC 位址來查詢應用程式。</span><span class="sxs-lookup"><span data-stu-id="cd84a-106">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="cd84a-107">然後，位置資訊服務會使用 SNMP 應用程式傳回的埠及切換資訊，以重新查詢位置資料庫。</span><span class="sxs-lookup"><span data-stu-id="cd84a-107">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="5da76-108">MAC 位址無法在執行 Windows 8 的電腦上使用。</span><span class="sxs-lookup"><span data-stu-id="5da76-108">MAC addresses are not available on computers running Windows 8.</span></span> 
+> <span data-ttu-id="cd84a-108">MAC 位址無法在執行 Windows 8 的電腦上使用。</span><span class="sxs-lookup"><span data-stu-id="cd84a-108">MAC addresses are not available on computers running Windows 8.</span></span> 
   
-### <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="5da76-109">若要設定 SNMP 應用程式 URL</span><span class="sxs-lookup"><span data-stu-id="5da76-109">To configure the SNMP application URL</span></span>
+### <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="cd84a-109">設定 SNMP 應用程式 URL</span><span class="sxs-lookup"><span data-stu-id="cd84a-109">To configure the SNMP application URL</span></span>
 
-1.  <span data-ttu-id="5da76-110">啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。</span><span class="sxs-lookup"><span data-stu-id="5da76-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1.  <span data-ttu-id="cd84a-110">啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。</span><span class="sxs-lookup"><span data-stu-id="cd84a-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="5da76-111">執行下列 Cmdlet 來設定 SNMP 應用程式的 URL。</span><span class="sxs-lookup"><span data-stu-id="5da76-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span> 
+2. <span data-ttu-id="cd84a-111">執行下列 Cmdlet 來設定 SNMP 應用程式的 URL。</span><span class="sxs-lookup"><span data-stu-id="cd84a-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span> 
     
    ```powershell
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 
-## <a name="see-also"></a><span data-ttu-id="5da76-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5da76-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cd84a-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cd84a-112">See also</span></span>
 
-[<span data-ttu-id="5da76-113">Set-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="5da76-113">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[<span data-ttu-id="cd84a-113">Set-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="cd84a-113">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

@@ -1,8 +1,8 @@
 ---
-title: 定義新 IP 或 PSTN 閘道的根主幹
+title: 定義新的 IP 或 PSTN 閘道的根主幹
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,32 +14,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以設定下列各項，以定義 IP 或公開交換電話網絡（PSTN）的根主幹：
-ms.openlocfilehash: 7920335c4d29b883be8d2076223425db103b605c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以透過設定下列項目，來定義 IP 或公用交換電話網路 (PSTN) 的根主幹：
+ms.openlocfilehash: dae2078aea093f14e4cfd2642a98e73ec7eb4293
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794352"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807653"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="1c1e9-103">定義新 IP 或 PSTN 閘道的根主幹</span><span class="sxs-lookup"><span data-stu-id="1c1e9-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="c0785-103">定義新的 IP 或 PSTN 閘道的根主幹</span><span class="sxs-lookup"><span data-stu-id="c0785-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
 
-<span data-ttu-id="1c1e9-104">您可以設定下列各項，以定義 IP 或公開交換電話網絡（PSTN）的根主幹：</span><span class="sxs-lookup"><span data-stu-id="1c1e9-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
+<span data-ttu-id="c0785-104">您可以透過設定下列項目，來定義 IP 或公用交換電話網路 (PSTN) 的根主幹：</span><span class="sxs-lookup"><span data-stu-id="c0785-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
 
-- <span data-ttu-id="1c1e9-105">**主幹名稱**：定義與主幹相關聯的完全限定功能變數名稱</span><span class="sxs-lookup"><span data-stu-id="1c1e9-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
+- <span data-ttu-id="c0785-105">**主幹名稱**：定義與主幹相關聯的完整網域名稱</span><span class="sxs-lookup"><span data-stu-id="c0785-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
 
-- <span data-ttu-id="1c1e9-106">**IP/PSTN 閘道的偵聽埠**：定義此主幹將偵聽的埠</span><span class="sxs-lookup"><span data-stu-id="1c1e9-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
+- <span data-ttu-id="c0785-106">**IP/PSTN 閘道的聆聽連接埠**：定義此主幹聆聽的連接埠</span><span class="sxs-lookup"><span data-stu-id="c0785-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
 
-- <span data-ttu-id="1c1e9-107">**SIP 傳輸通訊協定**：根據主幹需求從清單中選取 [ **TCP** ] 或 [ **TLS**]。</span><span class="sxs-lookup"><span data-stu-id="1c1e9-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
+- <span data-ttu-id="c0785-107">**SIP 傳輸通訊協定**：根據主幹需求，從清單中選取 [TCP] 或 [TLS]</span><span class="sxs-lookup"><span data-stu-id="c0785-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
 
-- <span data-ttu-id="1c1e9-108">**關聯的中繼伺服器**：從您部署中的可用轉送伺服器清單中選取</span><span class="sxs-lookup"><span data-stu-id="1c1e9-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
+- <span data-ttu-id="c0785-108">**關聯** 的轉送伺服器：從部署中可用的轉送伺服器清單中選取</span><span class="sxs-lookup"><span data-stu-id="c0785-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
 
-- <span data-ttu-id="1c1e9-109">**關聯的中繼伺服器埠**：定義所選中繼伺服器正在偵聽的埠</span><span class="sxs-lookup"><span data-stu-id="1c1e9-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
+- <span data-ttu-id="c0785-109">**關聯的轉送伺服器埠**：定義所選轉送伺服器正在接聽的埠</span><span class="sxs-lookup"><span data-stu-id="c0785-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1c1e9-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1c1e9-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0785-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c0785-110">See also</span></span>
 
-<span data-ttu-id="1c1e9-111">[在商務用 Skype Server 中使用 [旁路媒體] 設定主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="1c1e9-111">[Configure a trunk with media bypass in Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)</span></span>
+[<span data-ttu-id="c0785-111">在商務用 Skype Server 中設定含媒體旁路的主幹</span><span class="sxs-lookup"><span data-stu-id="c0785-111">Configure a trunk with media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[<span data-ttu-id="1c1e9-112">在商務用 Skype Server 中設定不使用媒體的主幹</span><span class="sxs-lookup"><span data-stu-id="1c1e9-112">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[<span data-ttu-id="c0785-112">在商務用 Skype Server 中設定無媒體旁路的主幹</span><span class="sxs-lookup"><span data-stu-id="c0785-112">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[<span data-ttu-id="1c1e9-113">SIP 中繼支援</span><span class="sxs-lookup"><span data-stu-id="1c1e9-113">SIP Trunking Support</span></span>](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[<span data-ttu-id="c0785-113">SIP 主幹支援</span><span class="sxs-lookup"><span data-stu-id="c0785-113">SIP Trunking Support</span></span>](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)

@@ -1,8 +1,8 @@
 ---
 title: 選取主幹
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用 [選取主幹] 對話方塊尋找現有的主幹，您可以使用。
-ms.openlocfilehash: be14b201d35b8e1c4018410cf134a95191a0a068
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 使用 [選取主幹] 對話方塊尋找您可以使用的現有主幹。
+ms.openlocfilehash: 421ccb762fc9db478858c930903ff56feca82907
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793521"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807853"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="3f4d2-103">選取主幹</span><span class="sxs-lookup"><span data-stu-id="3f4d2-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="0cdf4-103">選取主幹</span><span class="sxs-lookup"><span data-stu-id="0cdf4-103">Select Trunk</span></span>
  
-<span data-ttu-id="3f4d2-104">使用 [**選取主幹**] 對話方塊尋找現有的主幹，您可以使用。</span><span class="sxs-lookup"><span data-stu-id="3f4d2-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="0cdf4-104">使用 [選取主幹] 對話方塊尋找您可以使用的現有主幹。</span><span class="sxs-lookup"><span data-stu-id="0cdf4-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3f4d2-105">若要檢索所有可用的 trunks，請不要在搜尋方塊中輸入任何內容，然後按一下 [搜尋] 圖示。</span><span class="sxs-lookup"><span data-stu-id="3f4d2-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="0cdf4-105">若要擷取所有可用的主幹，請不要在搜尋方塊中輸入任何內容，然後按一下搜尋圖示。</span><span class="sxs-lookup"><span data-stu-id="0cdf4-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   
