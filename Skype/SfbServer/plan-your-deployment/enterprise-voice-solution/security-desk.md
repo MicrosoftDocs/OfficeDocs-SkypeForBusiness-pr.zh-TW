@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中加入安全服務台
+title: 在商務用 Skype 中包含安全性桌面伺服器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: 在商務用 Skype Server Enterprise Voice 中，規劃如何將貴組織的安全服務台納入 E9 部署。
-ms.openlocfilehash: 19fc8a01fcb51be3ce36435a5a657c3253716b2c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 規劃如何在 E9-1-1 部署中將組織的安全性服務台納入商務用 Skype Server Enterprise Voice。
+ms.openlocfilehash: 756af940eb327bc4744454e9ed9ef7a7fbfd517d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802453"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813403"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a><span data-ttu-id="f3c93-103">在商務用 Skype Server 中加入安全服務台</span><span class="sxs-lookup"><span data-stu-id="f3c93-103">Include the security desk in Skype for Business Server</span></span>
+# <a name="include-the-security-desk-in-skype-for-business-server"></a><span data-ttu-id="34299-103">在商務用 Skype 中包含安全性桌面伺服器</span><span class="sxs-lookup"><span data-stu-id="34299-103">Include the security desk in Skype for Business Server</span></span>
  
-<span data-ttu-id="f3c93-104">在商務用 Skype Server Enterprise Voice 中，規劃如何將貴組織的安全服務台納入 E9 部署。</span><span class="sxs-lookup"><span data-stu-id="f3c93-104">Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="34299-104">規劃如何在 E9-1-1 部署中將組織的安全性服務台納入商務用 Skype Server Enterprise Voice。</span><span class="sxs-lookup"><span data-stu-id="34299-104">Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="f3c93-105">您的公司可能需要安全服務台才能參與緊急通話。</span><span class="sxs-lookup"><span data-stu-id="f3c93-105">Your company may require the security desk to become involved in an emergency call.</span></span> <span data-ttu-id="f3c93-106">若要協助您決定如何將安全服務台整合至 E9-1 1 1，您應該回答下列問題。</span><span class="sxs-lookup"><span data-stu-id="f3c93-106">To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
+<span data-ttu-id="34299-p101">您的公司可能需要警衛室介入處理緊急通話。為了協助決定如何將警衛室整合至 E9-1-1 部署，您應該回答下列問題。</span><span class="sxs-lookup"><span data-stu-id="34299-p101">Your company may require the security desk to become involved in an emergency call. To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
   
-<span data-ttu-id="f3c93-107">**您希望安全服務台在有緊急通話時收到通知嗎？**</span><span class="sxs-lookup"><span data-stu-id="f3c93-107">**Do you want the security desk to be notified when there is an emergency call?**</span></span>
+<span data-ttu-id="34299-107">**您是否希望在有人撥打緊急通話時通知警衛室？**</span><span class="sxs-lookup"><span data-stu-id="34299-107">**Do you want the security desk to be notified when there is an emergency call?**</span></span>
   
-<span data-ttu-id="f3c93-108">您可以設定位置原則，讓商務用 Skype 伺服器傳送立即訊息（IM）通知給一或多個安全性人員的商務用 Skype SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="f3c93-108">You can configure the location policy so that Skype for Business Server sends instant messaging (IM) alerts to the Skype for Business SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="f3c93-109">這些警示包含撥入緊急通話之人員的名稱、電話號碼和地點，以及協助安全人員協助緊急情況。</span><span class="sxs-lookup"><span data-stu-id="f3c93-109">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
+<span data-ttu-id="34299-108">您可以設定位置原則，讓商務用 Skype 伺服器將立即訊息 (IM) 警示傳送至一或多個安全性人員的商務用 Skype SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="34299-108">You can configure the location policy so that Skype for Business Server sends instant messaging (IM) alerts to the Skype for Business SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="34299-109">這些通知包含撥打緊急電話的人員名稱、號碼及位置，以加速安全人員協助處理緊急狀況。</span><span class="sxs-lookup"><span data-stu-id="34299-109">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
     
-<span data-ttu-id="f3c93-110">**您是否想要在每次緊急通話中舉行安全服務台？**</span><span class="sxs-lookup"><span data-stu-id="f3c93-110">**Do you want to conference the security desk in on each emergency call?**</span></span>
+<span data-ttu-id="34299-110">**您想要針對每一通緊急通話都邀請警衛室參加會議嗎？**</span><span class="sxs-lookup"><span data-stu-id="34299-110">**Do you want to conference the security desk in on each emergency call?**</span></span>
   
-<span data-ttu-id="f3c93-111">如果緊急服務服務提供者支援，您可以設定位置原則，在每次緊急通話中加入回撥號碼。</span><span class="sxs-lookup"><span data-stu-id="f3c93-111">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call.</span></span> <span data-ttu-id="f3c93-112">然後，提供者會使用這個數位，將貴組織的安全性人員加入緊急通話中。</span><span class="sxs-lookup"><span data-stu-id="f3c93-112">This number is then used by the provider to conference your organization's security personnel into emergency calls.</span></span> <span data-ttu-id="f3c93-113">此會議可在位置原則中設定為單向（僅供聆聽）或雙向（雙向）。</span><span class="sxs-lookup"><span data-stu-id="f3c93-113">This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
+<span data-ttu-id="34299-p103">只要緊急服務服務提供者有支援，您可以設定位置原則，以隨每通緊急通話附上回撥號碼。然後提供者就會針對緊急電話，使用此號碼來召集您組織的安全人員開會。此會議可在位置原則中設定為單向 (只能聆聽) 或雙向。</span><span class="sxs-lookup"><span data-stu-id="34299-p103">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call. This number is then used by the provider to conference your organization's security personnel into emergency calls. This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="f3c93-114">如有需要，您可以針對每個位置原則設定不同的緊急人員。</span><span class="sxs-lookup"><span data-stu-id="f3c93-114">If desired, you can configure different emergency personnel for each location policy.</span></span> <span data-ttu-id="f3c93-115">這可讓您自訂公司內部不同區域的回應，或針對來源於網路以外的緊急呼叫建立不同的行為。</span><span class="sxs-lookup"><span data-stu-id="f3c93-115">This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network.</span></span> <span data-ttu-id="f3c93-116">您可以使用通訊群組來指定您想要通知的人員。</span><span class="sxs-lookup"><span data-stu-id="f3c93-116">You can use distribution groups to specify the personnel you want to notify.</span></span> 
+> <span data-ttu-id="34299-p104">必要時，您可以為每個位置原則設定不同的緊急人員。這樣可讓您針對公司內的不同區域自訂回應，或針對來自網路內部和外部的緊急電話分別建立不同的行為。您可以使用通訊群組來指定想要通知的人員。</span><span class="sxs-lookup"><span data-stu-id="34299-p104">If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify.</span></span> 
   
 
