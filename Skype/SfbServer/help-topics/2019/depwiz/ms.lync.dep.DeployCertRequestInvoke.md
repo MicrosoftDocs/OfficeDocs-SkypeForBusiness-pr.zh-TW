@@ -1,8 +1,8 @@
 ---
 title: 憑證要求 (叫用)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[執行命令] 頁面會顯示 [任務狀態] 窗格，就是執行證書要求時所執行的命令。 完成工作後，[摘要] 窗格下方的下拉式清單中會包含一份記錄檔案清單。 使用下拉式清單選取要查看的記錄檔，然後按一下 [查看記錄]。 Internet Explorer 會啟動並顯示記錄檔。 如果要求失敗，您應該查看記錄檔，以判斷失敗的原因。 您可以重新執行憑證要求，以解決問題，修正記錄檔中指出的問題。 繼續執行憑證要求頁面，並再次要求證書。'
-ms.openlocfilehash: 983ebce3a26429706a5518817e81b42cdc22cfd9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 執行命令來產生憑證要求時，[執行命令] 頁面會顯示工作狀態窗格。 工作完成之後，摘要窗格下的下拉式清單會顯示記錄檔清單。 使用下拉式清單來選取要查看的記錄檔，然後按一下 [查看記錄檔]。 Internet Explorer 隨即啟動並顯示記錄檔。 如果要求失敗，請檢閱記錄檔，判斷失敗的原因。 您可以重新執行憑證要求以解決問題，並修正記錄檔中指出的問題。 繼續執行憑證要求頁面，並再次要求憑證。
+ms.openlocfilehash: 0f2f1dd8c23e5c0fb36a0cabc4dca022277141c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796694"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836843"
 ---
 # <a name="certificate-request-invoke"></a>憑證要求 (叫用)
  
-[**執行命令**] 頁面會顯示 [任務狀態] 窗格，就是執行證書要求時所執行的命令。 完成工作後，[摘要] 窗格下方的下拉式清單中會包含一份記錄檔案清單。 使用下拉式清單選取要查看的記錄檔，然後按一下 [**查看記錄**]。 Internet Explorer 會啟動並顯示記錄檔。 如果要求失敗，您應該查看記錄檔，以判斷失敗的原因。 您可以重新執行憑證要求，以解決問題，修正記錄檔中指出的問題。 繼續執行憑證要求頁面，並再次要求證書。
+執行命令來產生憑證要求時，**[執行命令]** 頁面會顯示工作狀態窗格。 工作完成之後，摘要窗格下的下拉式清單會顯示記錄檔清單。 使用下拉式清單來選取要查看的記錄檔，然後按一下 [ **查看記錄** 檔]。 Internet Explorer 隨即啟動並顯示記錄檔。 如果要求失敗，請檢閱記錄檔，判斷失敗的原因。 您可以重新執行憑證要求以解決問題，並修正記錄檔中指出的問題。 繼續執行憑證要求頁面，並再次要求憑證。
   
 

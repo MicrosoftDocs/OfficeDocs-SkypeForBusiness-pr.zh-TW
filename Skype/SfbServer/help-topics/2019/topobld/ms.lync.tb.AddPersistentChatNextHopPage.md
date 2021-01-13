@@ -1,8 +1,8 @@
 ---
 title: 新增常設聊天室下一個躍點頁面
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用此頁面來定義您部署中持續聊天伺服器伺服器的下一個躍點。 如需有關如何部署持久聊天伺服器的詳細資訊，請參閱在商務用 Skype Server 2015 中部署持久聊天伺服器。
-ms.openlocfilehash: c8b3e2c87f6db6576f69592836c452246a3767d6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 使用此頁面可在部署中定義 Persistent Chat Server server 的下一個躍點。 如需如何部署 Persistent Chat Server 的詳細資訊，請參閱 Deploy Persistent Chat Server in 商務用 Skype Server 2015。
+ms.openlocfilehash: 6352a81de8f369a5753e3d536f62eef3004d9694
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41787683"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835843"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>新增常設聊天室下一個躍點頁面
 
 > [!NOTE] 
-> 商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊，請參閱[商務用 Skype 至 Microsoft 團隊升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
+> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [商務用 Skype To Microsoft 小組升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
   
 

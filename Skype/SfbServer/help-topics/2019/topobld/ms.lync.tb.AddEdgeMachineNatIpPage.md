@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge 電腦 NAT IP
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如果這個 Edge 池的公用 IP 位址是由網路位址轉譯（NAT）所轉譯，您必須指定要翻譯的公用 IP 位址。 這應該是 A/V Edge 服務的外部 IP 位址。
-ms.openlocfilehash: c1bd8c7529c4febddc145ea92caff723d7a24a97
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 如果由網路位址轉譯 (NAT) 來轉譯此 Edge 集區的公用 IP 位址，您必須提供要轉譯的公用 IP 位址。這應該是 A/V Edge Service 的外部 IP 位址。
+ms.openlocfilehash: e9feffeab5dcd4d13b411c831e98cf9548c23c3b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794081"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835963"
 ---
 # <a name="add-edge-machine-nat-ip"></a>新增 Edge 電腦 NAT IP
  
-如果這個 Edge 池的公用 IP 位址是由網路位址轉譯（NAT）所轉譯，您必須指定要翻譯的公用 IP 位址。 這應該是 A/V Edge 服務的外部 IP 位址。
+如果由網路位址轉譯 (NAT) 來轉譯此 Edge 集區的公用 IP 位址，您必須提供要轉譯的公用 IP 位址。這應該是 A/V Edge Service 的外部 IP 位址。
   
-若要變更 Edge 池是否使用 NAT 轉譯，請以滑鼠右鍵按一下 Edge 池的名稱，然後按一下 [**編輯屬性**]。
+若要將 Edge 集區變更為使用/不使用 NAT 轉譯，請以滑鼠右鍵按一下 Edge 集區的名稱，然後按一下 [編輯內容]。
   
 

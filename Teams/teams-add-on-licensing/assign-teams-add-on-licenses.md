@@ -1,7 +1,7 @@
 ---
 title: 指派團隊附加元件授權給使用者
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何將團隊附加元件授權指派給使用者，以取得音訊會議、電話系統和通話方案等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dd09ae11104aa0297a12417d4c267edfc17cf3f
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5f19060245a54012de1dbc1f38edd43365e4aaa6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788737"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809323"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派團隊附加元件授權給使用者
 

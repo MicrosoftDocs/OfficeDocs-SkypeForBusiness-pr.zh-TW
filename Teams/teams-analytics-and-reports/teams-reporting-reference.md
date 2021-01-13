@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊分析和報告
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -18,12 +18,12 @@ description: 在本文中，您將瞭解 Microsoft 團隊系統管理中心提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 460037da3be0c2aaf1e546b97e0e5e911f6102a2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 902320f1ea2bc9071bbb9fc2be531117dabc8eef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515910"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809273"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
 

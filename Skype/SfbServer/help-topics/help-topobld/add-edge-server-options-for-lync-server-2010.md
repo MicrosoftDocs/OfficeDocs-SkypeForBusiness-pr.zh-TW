@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server 選項 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 您會定義新的 Edge Server 或 Edge 集區，並會呈現機會，以定義新伺服器或集區的功能。 您可以選擇的選項包括：
-ms.openlocfilehash: 273b2543fc3eea1373817ab38eab39379ec59132
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: b6f6e07c3555101103aeaad7f1c45f4449c25078
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216594"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835513"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>新增 Edge Server 選項 (適用於 Lync Server 2010)
 
@@ -35,7 +35,7 @@ ms.locfileid: "48216594"
 
 - **此 Edge 集區的外部 IP 位址由 NAT 轉譯**：如果您對 Edge 外部介面使用私人 ip 位址，並提供網路位址轉譯 (NAT) 裝置，以在邏輯上放置 edge Server 或 edge 集區，則選取此核取方塊。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [規劃外部使用者存取](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
 

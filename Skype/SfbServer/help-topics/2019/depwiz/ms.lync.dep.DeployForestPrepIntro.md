@@ -1,8 +1,8 @@
 ---
 title: 準備目前的樹系 (簡介)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要開始 [準備樹系] 工作，請按 [下一步]。 執行 [準備目錄林] 工作會建立全域設定，並建立供商務用 Skype 伺服器使用的通用群組。
-ms.openlocfilehash: 4810cd7b5ce162f782f90d0542b31dcfec22e631
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要開始 [準備樹系] 工作，請按 [下一步]。 執行 [準備樹系] 工作會建立全域設定，並建立通用群組，供商務用 Skype Server 使用。
+ms.openlocfilehash: 2e4b2838d8a863c6c17a75b70395dffaec6bfe14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798400"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836743"
 ---
 # <a name="prepare-current-forrest-intro"></a>準備目前的樹系 (簡介)
  
-若要開始 [準備樹系] **** 工作，請按 [下一步]****。 執行 [**準備目錄林**] 工作會建立全域設定，並建立供商務用 Skype 伺服器使用的通用群組。
+若要開始 **[準備樹系]** 工作，請按 **[下一步]**。 執行 [ **準備樹** 系] 工作會建立全域設定，並建立通用群組，供商務用 Skype Server 使用。
   
 

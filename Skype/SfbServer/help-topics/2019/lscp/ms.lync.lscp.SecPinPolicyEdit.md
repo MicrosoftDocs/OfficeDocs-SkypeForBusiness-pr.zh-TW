@@ -1,8 +1,8 @@
 ---
-title: PIN 原則建立新的或編輯現有的
+title: PIN 原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 95459ed516095b00aeb620abc65f93a4557b79b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: abfdafb3d51a2ecbfff542e5e0476fc2730dc01c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797504"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836493"
 ---
-# <a name="pin-policy-create-new-or-edit-existing"></a>PIN 原則：建立新的或編輯現有原則
+# <a name="pin-policy-create-new-or-edit-existing"></a>PIN 原則：建立新的或編輯現有
 
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
 
 - [在商務用 Skype Server 中建立新的 PIN 原則](../../../manage/authentication/create-a-new-pin-policy.md)
 
@@ -32,11 +32,11 @@ ms.locfileid: "41797504"
 
 - [在商務用 Skype Server 中刪除 PIN 原則](../../../manage/authentication/delete-a-pin-policy.md)
 
-- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [建立或修改網站或使用者群組的電話撥入式會議 PIN 設定](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [修改預設電話撥入式會議 PIN 設定](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [刪除站台或使用者群組的電話撥入式會議 PIN 設定](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 

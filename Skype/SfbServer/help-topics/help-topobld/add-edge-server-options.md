@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server 選項
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 選取您要為 Edge 集區啟用的每一項功能。 根據預設，Edge 集區支援組織中從防火牆外部登入的遠端使用者，方法是使用虛擬私人網路 (VPN) 。 此外，您還可選擇下列 Edge 集區功能：
-ms.openlocfilehash: dfcaafce36d525b676a606db4f164dfdd05f26ba
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f653f6a5b2c242416d6c644d5c7a5fc4daffc441
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216564"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835493"
 ---
 # <a name="add-edge-server-options"></a>新增 Edge Server 選項
 

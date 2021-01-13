@@ -1,8 +1,8 @@
 ---
 title: 選取建立者
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用正確的類別，就能更輕鬆地建立及管理持續聊天室。 持續性聊天管理員可以定義每個類別的 AllowedMembers 和創意者，也可以定義預設的聊天室設定和行為，這些動作會套用至在類別中建立的所有聊天室。 持續聊天系統管理員使用商務用 Skype Server 的 [控制台] 或 [Windows PowerShell Cmdlet] 來建立及管理類別。
-ms.openlocfilehash: 2d8e37f80d379cb6ed3e656afce609fbc9b37878
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 正確使用類別時，建立及管理 Persistent 聊天室的工作會更容易。 Persistent Chat 管理員可以定義每個類別的 AllowedMembers 和建立者，也可以定義將套用到所有在類別中建立之聊天室的預設聊天室設定和行為。 Persistent Chat administrator 使用商務用 Skype Server 控制台或 Windows PowerShell Cmdlet 來建立及管理類別。
+ms.openlocfilehash: 8f196ba4152f619e4132e68eead914a7a22e62b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797454"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836343"
 ---
 # <a name="select-creators"></a>選取建立者
 
 > [!NOTE] 
-> 商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊，請參閱[商務用 Skype 至 Microsoft 團隊升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
+> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [商務用 Skype To Microsoft 小組升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。

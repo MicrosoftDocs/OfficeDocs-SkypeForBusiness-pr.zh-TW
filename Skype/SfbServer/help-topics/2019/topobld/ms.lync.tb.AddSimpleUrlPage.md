@@ -1,8 +1,8 @@
 ---
 title: 新增簡單 URL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要在部署的定義中新增額外的簡單 Url，請指定新的簡單 URL URL。
-ms.openlocfilehash: 13c77fb7fc0745865be99aaf165c13040204ffcc
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要將其他簡單 URL 新增至部署的定義，請指定新簡單 URL 的 URL。
+ms.openlocfilehash: 41cd5c4698157a9dde2d8c357a5b8aba753495f3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794342"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835833"
 ---
 # <a name="add-simple-url"></a>新增簡單 URL
  
-若要在部署的定義中新增額外的簡單 Url，請指定新的簡單 URL URL。 URL 的格式是_HTTP://\<簡單的 URL 類型\>。\<\>功能變數名稱_或_HTTP://\<domain\>/name\<簡易 url 類型\>_，其中簡單的 url 類型是下列其中一種：
+若要將其他簡單 URL 新增至部署的定義，請指定新簡單 URL 的 URL。 URL 的格式是 _HTTP:// \<simple URL type\> 。 \<domain name\>_ 或 _\<domain name\> / HTTP:// \<simple URL type\>_，其中的簡易 URL 類型為下列其中一項：
   
-- 符合
+- 滿足
     
-- 撥入
+- 撥號
     
 > [!IMPORTANT]
-> 您可以在一個簡單的 URL 中使用一個撥號，並在任何時候將它符合簡單的 URL。 新增簡單的 URL 並將其設為使用中的 URL，就會將所有未來的要求設定為使用新的簡單 URL。 您離開非使用中的簡單 URL 來處理會議，以及舊版簡單的 URL 作用中時所進行的其他要求。 
+> 您可以在任何時間，將一個撥號入簡單 URL 與一個符合簡易 URL。 新增簡單 URL 並設為作用中的 URL，會設定未來所有要求都使用這個新的簡單 URL。 您離開非使用中的簡易 URL，以處理舊版的簡單 URL 作用中所進行的會議和其他要求。 
   
 
 

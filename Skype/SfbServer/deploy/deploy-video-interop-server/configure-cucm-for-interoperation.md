@@ -1,8 +1,8 @@
 ---
-title: 設定 CUCM 以與商務用 Skype 伺服器進行交互操作
+title: 設定 CUCM 以搭配商務用 Skype 伺服器進行交互操作
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,135 +12,135 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: 摘要：設定 CUCM 以搭配商務用 Skype 伺服器使用。
-ms.openlocfilehash: 0f8b5321b482d78d9dc833471323ae842c247246
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 摘要：設定 CUCM 以搭配商務用 Skype Server 使用。
+ms.openlocfilehash: 82fa48a185b22973d35bc19484e733e6436ba43e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798070"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837113"
 ---
-# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>設定 CUCM 以與商務用 Skype 伺服器進行交互操作
+# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>設定 CUCM 以搭配商務用 Skype 伺服器進行交互操作
  
-**摘要：** 將 CUCM 設定為與商務用 Skype 伺服器搭配使用。
+**摘要：** 設定 CUCM 以與商務用 Skype Server 搭配使用。
   
 > [!CAUTION]
-> 這個功能是透過 Cisco 整合通訊管理員（CallManager 或 CUCM）版本10.5 使用 Trunks 安裝程式（僅限 TCP）來測試。 在繼續之前，請確認 CUCM 環境符合這些準則。 
+> 這項功能是透過 Cisco 整合通訊管理員 (CallManager，或是 CUCM) 版本10.5，只使用主幹安裝 over TCP 進行測試。 在繼續之前，請確認 CUCM 環境符合這些準則。 
   
-此處所述的設定僅做為如何設定 CUCM 以搭配 VIS 使用的範例。 您也可以使用替代 CUCM 功能的其他設定和/或用法來達到相同的結果。 針對特定案例，不建議使用最佳配置。
+這裡所述的設定只是 CUCM 如何設定為搭配 VIS 使用的範例。 其他設定和/或替代 CUCM 功能的使用方式也可以用來達到相同的結果。 不建議使用特定案例的最佳設定。
   
-若要與 VIS 進行交互操作，必須確認或變更許多 CUCM 設定。 請依照下列程式來避免遺失必要的設定。
+若要與 VIS 進行交互操作，必須確認或變更 CUCM 設定的數目。 請遵循下列程式，以避免遺失必要的設定。
   
 ### <a name="configure-the-cucm"></a>設定 CUCM
 
-1. 登入 CUCM 並流覽至 Cisco 整合 CM 管理-\>呼叫路由-\>控制\>分區的類別。
+1. 登入 CUCM 並流覽至 Cisco 統一 CM 管理- \> 呼叫路由 \> 類別的控制 \> 分割區。
     
-2. 在 [分區配置] 畫面中，輸入分區名稱和描述，然後按一下 [**新增**]。
+2. 在 [磁碟分割設定] 畫面中，輸入磁碟分割名稱和描述，然後按一下 [ **新增**]。
     
-3. 流覽至 Cisco 整合 CM 管理-\>呼叫路由-\>控制\>呼叫搜尋空間的類別。
+3. 流覽至 Cisco 統一 CM 管理- \> 呼叫路由 \> 類別的 Control- \> 呼叫搜尋空間。
     
-4. 在 [呼叫搜尋空間設定] 畫面中，輸入通話搜尋空間的名稱，然後在 [選取的磁碟分割] 中輸入您剛建立的磁碟分割名稱。 完成後，按一下 [**儲存**]。
+4. 在 [呼叫搜尋空間設定] 畫面中，輸入呼叫搜尋空間的名稱，然後在 [選取的磁碟分割] 中輸入剛才建立之磁碟分割的名稱。 完成後，按一下 [ **儲存** ]。
     
-5. 流覽至 Cisco 一體化 CM 管理-\>系統\>安全性-\>SIP 主幹安全設定檔。
+5. 流覽 Cisco 統一 CM 管理- \> 系統 \> 安全性- \> SIP 主幹安全性設定檔。
     
-6. 在 [SIP 中繼安全設定檔設定] 畫面中，設定 SIP 中繼安全設定檔資訊選項，如所示，然後按一下 [**新增**]。
+6. 在 [SIP 主幹安全性設定檔設定] 畫面中，設定 SIP 主幹安全性設定檔資訊選項（如圖所示），然後按一下 [ **新增**]。
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
-   |名稱  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
-   |裝置安全模式  <br/> |不安全  <br/> |
+   |姓名  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+   |裝置安全性模式  <br/> |不安全  <br/> |
    |傳入傳輸類型  <br/> |TCP + UDP  <br/> |
-   |外寄運輸類型  <br/> |TCP-OUT  <br/> |
-   |入站埠  <br/> |5060  <br/> |
+   |外寄傳輸類型  <br/> |TCP  <br/> |
+   |傳入埠  <br/> |5060  <br/> |
    
-7. 流覽至 Cisco 整合 CM 管理-\>裝置-\>裝置設定-\>SIP 設定檔。
+7. 流覽 Cisco 統一 CM 管理- \> 裝置- \> 裝置設定- \> SIP 設定檔。
     
-8. 在 [SIP 設定檔設定] 畫面中，設定 SIP 設定檔資訊選項，如所示。 
+8. 在 [SIP 設定檔設定] 畫面中，設定 SIP 設定檔資訊選項（如圖所示）。 
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
-   |名稱  <br/> |SfBVideoInterop_SIPProfile  <br/> |
-   |說明  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |姓名  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |描述  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
-9. 在同一個畫面上，向下滾動至 SDP 設定檔資訊區段。 [**早期方案] 和 [重新邀請] 選項的 SDP 工作階段層級頻寬修正**程式預設會設定為 TIAS 和 AS。 將此選項變更為 [僅供 TIAS]。 如果您保留此選項的預設設定，商務用 Skype 伺服器將無法瞭解 SIP 訊息中的頻寬修正資訊。 TIAS 代表特定的傳輸獨立應用程式，而不是指特定應用程式。 這些是在 RFC3890 中指定的 SIP 選項。
+9. 在同一個畫面上，向下滾動至 [SDP 設定檔資訊] 區段。 「 **早期提供」和「重新邀請」選項的 SDP 工作階段層級頻寬修正** 程式預設會設定為 TIAS 和 AS。 將此選項改為 [僅限 TIAS]。 如果您保留此選項的預設值，則商務用 Skype 伺服器將不會瞭解 SIP 郵件中的頻寬修正資訊。 TIAS 表示特定的傳輸獨立應用程式，也就是應用程式特定的應用程式。 這些是 RFC3890 中指定的 SIP 選項。
     
-10. 在同一個畫面上，進一步向下滾動。 在 SIP 設定檔的 [中繼專用設定] 底下，選取 [**提供語音及視頻通話的早期支援**]，將它設為 [必要**時插入 MTP** ] 選項。 這會讓 CUCM 使用早期優惠設定傳出 SIP 通話。 CUCM 8.5 中的一項新功能是支援不需要媒體端接點（MTP）的撥出電話設定與早期優惠。
+10. 在同一個畫面上，再向下滾動。 在 [SIP 設定檔的主幹特定設定] 底下，選取 [ **為語音和影片通話預先提供支援** ]，並將其設定為 **強制 (在必要時插入 MTP)** ] 選項。 這可讓 CUCM 使用早期的提供來設定外寄的 SIP 呼叫。 CUCM 8.5 中的一項新功能是支援外寄通話設定，但不需要 (MTP) 的媒體終止點。
     
-11. 確認在 [SIP 選項] [ping] 區段中，選取 [啟用選項 Ping 以監視 Trunks 的目的地狀態] 旁邊的方塊，然後服務類型為「無（預設）」。」
+11. 確認在 [SIP 選項 ping] 區段中，選取 [啟用選項 Ping 以監視目標狀態的主幹，且服務類型為 ' None (預設) '] 核取方塊。
     
-12. 完成後，請按一下 [**新增**]。
+12. 完成後，按一下 [ **新增**]。
     
-13. 流覽至 Cisco 一體化 CM 管理-\>裝置-\>幹線。 
+13. 流覽 Cisco 統一 CM 管理- \> 裝置- \> 主幹。 
     
 14. 將裝置通訊協定設定為 SIP，然後按 **[下一步]**。
     
-15. 在 [裝置資訊] 底下，設定裝置名稱和描述（可能是 SfBVideoInterop_SIPTrunk 的內容），並將媒體資源群組清單設定為包含合適媒體資源的 MRGL。 
+15. 在 [裝置資訊] 底下，將裝置名稱和描述設定 (可能是 SfBVideoInterop_SIPTrunk) 之類的專案，並將媒體資源群組清單設為包含適當媒體資源的 MRGL。 
     
-16. 進一步向下滾動。 如果視頻通話沒有取消核取，就不需要媒體端接點（MTP），請取消核取。 選取 [**在所有使用中整合的 CM 節點上執行**] 選項。 請注意，您應該將所有 CUCM 節點新增至商務用 Skype 伺服器設定。
+16. 進一步向下方滾動。 不需要 (MTP) 的媒體終止點，如果尚未取消核取，請將其取消勾選。 請選取在所有使用中的 **整合 CM 節點上執行** 的選項。 請注意，您應該將所有的 CUCM 節點新增至商務用 Skype 伺服器設定。
     
-17. 進一步向下滾動。 設定 [撥入通話] 和 [連線的通訊錄設定] 選項，如所示。
+17. 進一步向下方滾動。 如圖所示，設定來電和連接的通訊雙方設定選項。
     
     |**參數**|**建議的設定**|
     |:-----|:-----|
     |呼叫搜尋空間  <br/> |CSS_SfBVideoInterop  <br/> |
     |呼叫搜尋空間 AAR  <br/> |CSS_SfBVideoInterop  <br/> |
-    |已連線的參與方轉換 CSS  <br/> |CSS_SfBVideoInterop  <br/> |
+    |連接的當事方轉換 CSS  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. 進一步向下滾動。 在 SIP 中繼設定的 [SIP 資訊目標] 區段底下，指定 VIS 池的 FQDN 或池中個別 VIS 伺服器的 IP 位址（新增多個專案）。 在 [目的地埠] 中，指定 VIS 正在接聽的埠，以取得從 CUCM 的連線（預設值為6001）。 另外，請指定您先前建立的 SIP 幹線安全設定檔和 SIP 設定檔，如所示。
+18. 進一步向下方滾動。 在 SIP 主幹設定的 [SIP 資訊目的] 區段中，指定 VIS 集區的 FQDN 或集區中個別 VIS 伺服器的 IP 位址 (新增多個專案) 。 在 [目的地埠] 中，指定 VIS 正在接聽的埠，以供來自 CUCM 的連線 (預設值為 6001) 。 此外，請指定您先前建立的 SIP 主幹安全性設定檔和 SIP 設定檔（如圖所示）。
     
     |**參數**|**建議的設定**|
     |:-----|:-----|
-    |SIP 中繼安全設定檔  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+    |SIP 主幹安全性設定檔  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
     |重新路由呼叫搜尋空間  <br/> |CSS_SfBVideoInterop  <br/> |
-    |[離開] 對話方塊請參閱呼叫搜尋空間  <br/> |CSS_SfBVideoInterop  <br/> |
+    |對話方塊外參考呼叫搜尋空間  <br/> |CSS_SfBVideoInterop  <br/> |
     |訂閱通話搜尋空間  <br/> |CSS_SfBVideoInterop  <br/> |
     |SIP 設定檔  <br/> |SfBVideoInterop_SIPProfile  <br/> |
     |DTMF 信號方法  <br/> |RFC 2833  <br/> |
    
-19.  進一步向下滾動。 根據您的系統設定錄製資訊。 您可以將它設為 [**無**]。 
+19.  進一步向下方滾動。 視您的系統設定記錄資訊。 將其保留為 [ **無**] 是很好的方式。 
     
-20. 完成後，請按一下 [**新增**]。
+20. 完成後，按一下 [ **新增**]。
     
-21. 流覽至 Cisco 整合 CM 管理-\>呼叫路由-\>路由/查尋\>路由模式。
+21. 流覽至 Cisco 統一 CM 管理- \> 通話路由 \> 傳送/尋找路由 \> 模式。
     
-22. 在 [路由模式設定] 畫面中，輸入如下所示的模式定義參數。 向下滾動至 [呼叫方轉換] 區段，並設定遮罩，如圖所示，然後按一下 [完成時**新增**]。
+22. 在 [路由模式設定] 畫面中，輸入如下所示的模式定義參數。 向下滾動至「所叫的協力廠商轉換」區段，然後設定遮罩為 [已顯示]，然後在完成時按一下 [ **新增** ]。
     
     |**參數**|**建議的設定**|
     |:-----|:-----|
-    |路線模式  <br/> |7779999  <br/> |
-    |路由分區  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |說明  <br/> |SfBVideoInterop 的磁碟分割  <br/> |
+    |路由模式  <br/> |7779999  <br/> |
+    |路由分割區  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |描述  <br/> |SfBVideoInterop 的分割區  <br/> |
     |閘道/路由清單  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |已呼叫參與方轉換遮罩  <br/> |+ 14257779999  <br/> |
+    |呼叫方轉換遮罩  <br/> |+ 14257779999  <br/> |
    
-23. 流覽至 Cisco 整合 CM 管理-\>呼叫路由-\>SIP 路由模式。
+23. 流覽至 Cisco 統一 CM 管理- \> 呼叫路由- \> SIP 路由模式。
     
-24. 在 [SIP 路由模式設定] 畫面中，設定 [模式定義] 選項，如圖所示，然後按一下 [**新增**]。
+24. 在 [SIP 路由模式設定] 畫面中，設定 [模式定義] 選項（如圖所示），然後按一下 [ **新增**]。
     
     |**參數**|**建議的設定**|
     |:-----|:-----|
     | 模式用法 <br/> |網域路由  <br/> |
-    |IPv4 模式  <br/> |contoso.com （如果使用 IPv6，請保留空白）  <br/> |
-    |IPv6 模式  <br/> |contoso.com （如果使用 IPv4，則留空）  <br/> |
-    |說明  <br/> |SIPRoute 模式至 mediarv  <br/> |
-    |路由分區  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |SIP 幹線/路由清單  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |[封鎖模式] 核取方塊  <br/> |保持未選取狀態  <br/> |
+    |IPv4 模式  <br/> |使用 IPv6 時，contoso.com (留下空白)   <br/> |
+    |IPv6 模式  <br/> |使用 IPv4 時，contoso.com (留下空白)   <br/> |
+    |描述  <br/> |SIPRoute 到 mediarv 的模式  <br/> |
+    |路由分割區  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |SIP 主幹/路由清單  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |封鎖模式] 核取方塊  <br/> |保留未勾選  <br/> |
    
-25. 如果您已從預設設定變更音訊或影片位元速率，您必須將它們傳回預設值。 若要設定音訊/視頻通話的位元速率，請流覽至 Cisco 一體化 CM 管理\>-系統\>區域資訊\>區域。 預設值如下所示：
+25. 如果您已從預設設定變更音訊或影片位元速率，您必須將其恢復為預設值。 若要設定 Audio/Video 通話的位元速率，請流覽至 Cisco 統一 CM 管理- \> 系統- \> 地區資訊- \> 地區。 預設值如下所示：
     
     |**參數**|**建議的設定**|
     |:-----|:-----|
-    |地區  <br/> |設置  <br/> |
-    |音訊編解碼器喜好設定清單  <br/> |系統預設值  <br/> |
-    |音訊位元速率上限  <br/> |64 kbps （722，711）  <br/> |
-    |針對視頻通話的最大會話位元速率  <br/> |200000 kbps  <br/> |
+    |地區  <br/> |預設  <br/> |
+    |音訊編解碼器偏好清單  <br/> |系統預設值  <br/> |
+    |音訊位元速率上限  <br/> |64 kbps (g.722，g.711)   <br/> |
+    |影片通話的最長會話位元速率  <br/> |200000 kbps  <br/> |
     |會話位元速率上限  <br/> |2000000000 kbps  <br/> |
    
-此時，CUCM 視頻閘道設定為與 VIS 搭配使用。 相對應的設定將需要在您想要整合的每個 VTC 上執行。
+此時，CUCM 影片閘道已設定為搭配 VIS 使用。 在您想要整合的每個 VTC 中，都需要進行對應的設定。
 > [!NOTE]
-> 若要改善復原能力，您可能會想要將此 CUCM 閘道設定為使用第二個視頻交互操作伺服器或 VIS 池來運作。 如需詳細資訊，請參閱[復原機制](../../plan-your-deployment/video-interop-server.md#resiliency)。
+> 若要改善復原能力，您可以設定此 CUCM 閘道，以與第二個影片交互操作伺服器或 VIS 集區搭配使用。 如需詳細資訊，請參閱 [恢復機制](../../plan-your-deployment/video-interop-server.md#resiliency) 。
   
 ## <a name="see-also"></a>另請參閱
 
-[設定與商務用 Skype 伺服器交互操作的 VTC](configure-a-vtc-for-interoperation.md)
+[設定 VTC 以搭配商務用 Skype 伺服器進行交互操作](configure-a-vtc-for-interoperation.md)

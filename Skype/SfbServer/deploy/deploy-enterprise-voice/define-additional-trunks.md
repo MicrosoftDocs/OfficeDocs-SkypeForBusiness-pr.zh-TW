@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 的 [拓撲產生器] 中定義其他 trunks
+title: 在商務用 Skype Server 中定義拓撲產生器中的其他主幹
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,53 +15,53 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 摘要：瞭解如何在商務用 Skype Server 的 [拓撲產生器] 中定義其他主幹與 [閘道對等]。
-ms.openlocfilehash: afd8a37272d7450115f688bafe3627fb2689903c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：瞭解如何在商務用 Skype Server 的拓撲產生器中，定義轉送伺服器與閘道對等之間的其他主幹。
+ms.openlocfilehash: 3aab744761420ab631f17e6b56391f1fab120ccf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767716"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836993"
 ---
-# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>在商務用 Skype Server 的 [拓撲產生器] 中定義其他 trunks
+# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>在商務用 Skype Server 中定義拓撲產生器中的其他主幹
  
-**摘要：** 瞭解如何在商務用 Skype Server 的 [拓撲建立器] 中，定義在中繼伺服器與閘道對等之間的其他主幹。
+**摘要：** 瞭解如何在商務用 Skype Server 的拓撲產生器中，定義轉送伺服器與閘道對等之間的其他主幹。
   
-請依照下列步驟來定義您可以將對等與中繼伺服器產生關聯的其他主幹。 對等可為使用者提供可連線至公用交換電話網絡（PSTN）的企業語音功能。 對等可以是 PSTN 閘道、IP PBX，或網際網路電話服務提供者（ITSP）的會話邊界控制器（SBC）。
+請遵循下列步驟來定義您可以將對等與轉送伺服器產生關聯的其他主幹。 對等使用者可為使用者啟用企業語音，以連線到公用交換電話網路 (PSTN) 。 對等可以是 Internet 電話語音服務提供者的 PSTN 閘道、IP-PBX 或會話邊界控制器 (SBC)  (ITSP) 。
   
-主幹是中繼伺服器與閘道之間的邏輯連線。
+主幹是轉送伺服器與閘道之間的邏輯連接。
   
 > [!NOTE]
-> 本主題假設您已使用至少一個 collocated 或獨立的中繼伺服器或池來設定 PSTN 閘道和根幹線，如所述，請參閱在部署檔中的商務用 Skype Server 中的 [拓撲建立器] 中的 [[定義閘道](define-a-gateway.md)]。
+> 本主題假設您已安裝具有至少一個組合或獨立轉送伺服器或集區的 PSTN 閘道和根主幹，如在部署檔中的 [ [商務用 Skype Server](define-a-gateway.md) 中的拓撲產生器中定義閘道] 所述。
   
-### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>在中繼伺服器與閘道對等之間定義額外主幹
+### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>在轉送伺服器與閘道對等間定義其他主幹
 
-1. 啟動拓撲產生器：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype server 2015**]，然後按一下 [**商務用 skype server 2015Topology**建立器]。
+1. 啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype server 2015**]，然後按一下 [ **商務用 skype server 2015Topology** 建立器]。
     
-2. 在商務用 Skype Server、您的網站名稱、**共用元件**中，以滑鼠右鍵按一下 [ **Trunks** ] 節點，然後按一下 [**新幹線**]。
-   1. 在 [**定義新主幹**] 中，指定要唯一識別主幹的易記名稱。 您不能有兩個名稱相同的 trunks。
+2. 在 [商務用 Skype 伺服器] 底下，您的網站名稱， **共用元件**，以滑鼠右鍵按一下 **主幹** 節點，然後按一下 [ **新增主幹**]。
+   1. 在 [ **定義新的主幹**] 中，指定可唯一識別主幹的易記名稱。 您不能有兩個具有相同名稱的主幹。
     
       > [!NOTE]
-      > 如果您將傳輸層安全性（TLS）指定為傳輸類型，您必須指定 FQDN，而不是對轉送伺服器對等的 IP 位址。 
+      > 如果您指定傳輸層安全性 (TLS) 做為傳輸類型，您必須指定 FQDN 而非轉送伺服器對等的 IP 位址。 
   
-3. 在 [**關聯的 PSTN 閘道**] 底下，選取 PSTN 閘道對，以與此幹線建立關聯。
-    5. 在 [ **PSTN 閘道的偵聽埠**] 底下，輸入對等（PSTN 閘道、IP PBX 或 SBC）的偵聽埠，將會從要與此幹線關聯的中繼伺服器接收 SIP 訊息。 預設對等埠是針對傳輸控制通訊協定（TCP）和5067（針對傳輸層安全性（TLS））的5066。 預設的 Survivable 分支裝置埠是適用于 TCP 的5081，以及適用于 TLS 的5082。
+3. 在 [ **關聯的 pstn 閘道**] 底下，選取 PSTN 閘道對等相關聯的主幹。
+    5. 在 [ **適用于 PSTN 閘道的聆聽埠**] 底下，輸入對等 (PSTN 閘道、IP-PBX 或 SBC) 將要從轉送伺服器接收 SIP 郵件的收聽埠，該伺服器將會與此主幹產生關聯。 傳輸控制通訊協定 (TCP) 和5067的傳輸層安全性 (TLS) 的預設對等埠為5066。 Survivable 的預設分支裝置埠是5081的 TCP 和5082的 TLS。
     
-4. 在 [ **SIP 傳輸通訊協定**] 底下，按一下對等所使用的傳輸類型。
-    
-    > [!NOTE]
-    > 出於安全性考慮，我們強烈建議您將對等部署到可使用 TLS 的中繼伺服器。 
-  
-5. 在 [**關聯的中繼伺服器**] 底下，選取 [轉送伺服器] 池以與此對等方的根幹線建立關聯
-    
-6. 在 [**關聯的中繼伺服器埠**] 底下，輸入中繼伺服器將從對等接收 SIP 訊息的偵聽埠。
+4. 在 [ **SIP 傳輸通訊協定**] 下，按一下對等使用的傳輸類型。
     
     > [!NOTE]
-    > 在商務用 Skype Server 中有多個幹線支援，不能使用相同的**關聯中繼伺服器埠**和**偵聽埠（適用于 IP/PSTN 閘道**）來設定不同主幹名稱的兩個 trunks
+    > 基於安全性考慮，強烈建議您將對等部署至可使用 TLS 的轉送伺服器。 
+  
+5. 在 [關聯的中繼 **伺服器**] 底下，選取要與此對等的根主幹相關聯的轉送伺服器集區。
+    
+6. 在 [關聯的中繼 **伺服器埠**] 底下，輸入轉送伺服器接收來自對等的 SIP 訊息的聆聽埠。
+    
+    > [!NOTE]
+    > 在商務用 Skype Server 中有多個主幹支援，無法使用 **IP/PSTN 閘道** 的相同 **關聯轉送伺服器埠** 和偵聽通訊埠來設定具有不同主幹名稱的兩個主幹
   
     > [!NOTE]
-    > 在商務用 Skype Server 中有多個幹線支援，您可以在中繼伺服器上定義多個 SIP 信號埠，以便與多個對等進行通訊。 在定義主幹時，**關聯的中繼伺服器埠**編號必須在中繼伺服器所允許之個別通訊協定的偵聽埠範圍內。 此埠範圍是在商務用 Skype Server 和中繼伺服器池底下定義。 以滑鼠右鍵按一下相關的中繼伺服器池，然後選取 [**編輯屬性**]。 在 [**偵聽埠**] 欄位中指定埠範圍。
+    > 在商務用 Skype Server 中使用多個主幹支援，可在轉送伺服器上定義多個 SIP 信號埠，以進行與多個對等專案的通訊。 在定義主幹時，關聯的中繼 **伺服器埠** 號碼必須位於轉送伺服器所允許之個別通訊埠的偵聽埠範圍內。 此埠範圍是在商務用 Skype Server 和轉送伺服器集區所定義。 在相關的轉送伺服器集區上按一下滑鼠右鍵，然後選取 [ **編輯屬性**]。 在 **[聆聽連接埠]** 欄位中指定連接埠範圍。
   
-7. 按一下 [確定]****。 
+7. 按一下 [確定]。 
     
 

@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712619"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841474"
 title: 常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 summary: ''
 sections:
@@ -35,6 +35,8 @@ sections:
   - question: 客戶從商務用 Skype Online 移至 Teams，是否有確切的截止日期？
     answer: >
       是的。 [商務用 Skype Online 將於 2021 年 7 月 31 日淘汰](skype-for-business-online-retirement.md)，屆時將不再可存取也不再支援。 我們鼓勵商務用 Skype Online 客戶開始使用 Teams，並且立即開始規劃升級，以便在停用日期之前完成升級。
+  - question: Skype 會議廣播要與商務用 Skype online 同時淘汰嗎？
+    answer: "是的。 [團隊即時事件] 是 Skype 會議廣播的後續方案。    \n"
   - question: 將我的組織升級至 Teams 需要多久時間？
     answer: >
       貴組織從商務用 Skype 至 Teams 的旅程掌握在您手中。 為了協助您規劃和執行，我們已根據旨在協助您瀏覽變更技術和組織元素的經實證架構，開發了全面的升級指導方針。 您可以藉由熟悉[升級成功架構](upgrade-framework.md)與相關聯資源 (這些資源是讓您瀏覽從商務用 Skype 至 Teams 旅程的基礎)，來開始您的旅程。

@@ -1,8 +1,8 @@
 ---
 title: Director 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 此節點會顯示此 Director 集區的完整網域名稱 (FQDN)、連接埠及關聯的檔案存放區。您可以執行下列動作：
-ms.openlocfilehash: 36790cae5872bc5b84295b5defc78fafa87b02ba
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 9c3978314ab1e4e227e5a5efff2d183c75a4353d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218964"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835323"
 ---
 # <a name="director-scope-node"></a>Director 範圍節點
  
