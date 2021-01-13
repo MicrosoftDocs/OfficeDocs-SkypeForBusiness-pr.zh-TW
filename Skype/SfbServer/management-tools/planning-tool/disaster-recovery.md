@@ -1,29 +1,30 @@
 ---
-title: 災害復原（規劃工具）
+title: '嚴重損壞修復 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.DisasterRecovery
+- ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: 商務用 Skype Server 2015 包含災害復原的方法，可讓您對位於兩個資料中心的前端池進行配對。
-ms.openlocfilehash: 155dc06d8af45f795132cd6aaaf4080bda769165
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 商務用 Skype Server 2015 包括災害復原的方法，可讓您將位於兩個資料中心的前端集區配對。
+ms.openlocfilehash: e1137b339c9b49002242428917143283940748a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816462"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834923"
 ---
-# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="c0ad0-103">災害復原（規劃工具）</span><span class="sxs-lookup"><span data-stu-id="c0ad0-103">Disaster Recovery (Planning Tool)</span></span>
+# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="977cc-103">嚴重損壞修復 (規劃工具) </span><span class="sxs-lookup"><span data-stu-id="977cc-103">Disaster Recovery (Planning Tool)</span></span>
  
-<span data-ttu-id="c0ad0-104">商務用 Skype Server 2015 包含災害復原的方法，可讓您對位於兩個資料中心的前端池進行配對。</span><span class="sxs-lookup"><span data-stu-id="c0ad0-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
+<span data-ttu-id="977cc-104">商務用 Skype Server 2015 包括災害復原的方法，可讓您將位於兩個資料中心的前端集區配對。</span><span class="sxs-lookup"><span data-stu-id="977cc-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
   
-<span data-ttu-id="c0ad0-105">如需準備您的環境以進行災難復原的詳細資料，請參閱[在商務用 Skype Server 2015 中規劃高可用性和災害復原](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。</span><span class="sxs-lookup"><span data-stu-id="c0ad0-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="977cc-105">如需準備環境以進行嚴重損壞修復的詳細資訊，請參閱 [在商務用 Skype 2015 Server 中規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。</span><span class="sxs-lookup"><span data-stu-id="977cc-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
   
 

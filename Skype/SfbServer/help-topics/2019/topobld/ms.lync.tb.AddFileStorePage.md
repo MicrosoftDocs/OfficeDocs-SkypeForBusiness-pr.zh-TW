@@ -1,8 +1,8 @@
 ---
 title: 新增檔案存放區
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要定義新的檔案存放區，請指定下列專案：
-ms.openlocfilehash: 5dbd01dd767e9815811c13487c233f5bae38d839
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要定義新的檔案存放區，請指定下列各項：
+ms.openlocfilehash: 413885ffb60e1308fef2984252edc8690917019d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798570"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833543"
 ---
-# <a name="add-file-store"></a><span data-ttu-id="fcb64-103">新增檔案存放區</span><span class="sxs-lookup"><span data-stu-id="fcb64-103">Add File Store</span></span>
+# <a name="add-file-store"></a><span data-ttu-id="2bd01-103">新增檔案存放區</span><span class="sxs-lookup"><span data-stu-id="2bd01-103">Add File Store</span></span>
  
-<span data-ttu-id="fcb64-104">若要定義新的檔案存放區，請指定下列專案：</span><span class="sxs-lookup"><span data-stu-id="fcb64-104">To define a new file store, specify the following:</span></span>
+<span data-ttu-id="2bd01-104">若要定義新的檔案存放區，請指定下列各項：</span><span class="sxs-lookup"><span data-stu-id="2bd01-104">To define a new file store, specify the following:</span></span>
   
-- <span data-ttu-id="fcb64-105">將託管新檔案存放區之伺服器的完整功能變數名稱（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="fcb64-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="fcb64-106">在發佈拓朴前，該伺服器的 FQDN 必須存在於網域名稱系統（DNS）中。</span><span class="sxs-lookup"><span data-stu-id="fcb64-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
+- <span data-ttu-id="2bd01-105">將裝載新檔案存放區的伺服器完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="2bd01-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="2bd01-106">伺服器的 FQDN 必須存在於網域名稱系統中 (DNS) 才能發行拓撲。</span><span class="sxs-lookup"><span data-stu-id="2bd01-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
     
-- <span data-ttu-id="fcb64-107">主機伺服器上檔案共用的名稱。</span><span class="sxs-lookup"><span data-stu-id="fcb64-107">The name of the file share on the host server.</span></span> <span data-ttu-id="fcb64-108">發佈拓撲前，必須先存在檔案共用。</span><span class="sxs-lookup"><span data-stu-id="fcb64-108">The file share must exist before you publish the topology.</span></span> 
+- <span data-ttu-id="2bd01-p102">主機伺服器上的檔案共用名稱。檔案共用必須先存在，您才能發行拓撲。</span><span class="sxs-lookup"><span data-stu-id="2bd01-p102">The name of the file share on the host server. The file share must exist before you publish the topology.</span></span> 
     
 

@@ -1,8 +1,8 @@
 ---
-title: Syndicators 資料表
+title: Syndicators 表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
-description: SyndicatorsTable 僅供內部使用。 此表格是在 Microsoft Lync Server 2013 中推出。
-ms.openlocfilehash: 907af7bbc7563a8867fa0a2380df255b8aad2b47
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: SyndicatorsTable 只供內部使用。 此表格已引進 Microsoft Lync Server 2013。
+ms.openlocfilehash: c1aaadba404a1f3a82ef5a4e7b4b0108697ef79a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814881"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831788"
 ---
-# <a name="syndicators-table"></a><span data-ttu-id="c9697-104">Syndicators 資料表</span><span class="sxs-lookup"><span data-stu-id="c9697-104">Syndicators table</span></span>
+# <a name="syndicators-table"></a><span data-ttu-id="0bf56-104">Syndicators 表格</span><span class="sxs-lookup"><span data-stu-id="0bf56-104">Syndicators table</span></span>
  
-<span data-ttu-id="c9697-105">SyndicatorsTable 僅供內部使用。</span><span class="sxs-lookup"><span data-stu-id="c9697-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="c9697-106">此表格是在 Microsoft Lync Server 2013 中推出。</span><span class="sxs-lookup"><span data-stu-id="c9697-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="0bf56-105">SyndicatorsTable 只供內部使用。</span><span class="sxs-lookup"><span data-stu-id="0bf56-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="0bf56-106">此表格已引進 Microsoft Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="0bf56-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

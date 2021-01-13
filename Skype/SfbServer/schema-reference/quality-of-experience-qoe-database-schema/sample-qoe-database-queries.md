@@ -1,8 +1,8 @@
 ---
 title: 範例 QoE 資料庫查詢
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-description: 本節包含適用于體驗品質（QoE）資料庫的範例查詢。
-ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 本節包含經驗品質 (QoE) 資料庫的範例查詢。
+ms.openlocfilehash: efc26064e52464ffc2e92e24d5af8dd848368b56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888652"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834363"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="bfa1d-103">範例 QoE 資料庫查詢</span><span class="sxs-lookup"><span data-stu-id="bfa1d-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="6477a-103">範例 QoE 資料庫查詢</span><span class="sxs-lookup"><span data-stu-id="6477a-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="bfa1d-104">本節包含適用于體驗品質（QoE）資料庫的範例查詢。</span><span class="sxs-lookup"><span data-stu-id="bfa1d-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="6477a-104">本節包含經驗品質 (QoE) 資料庫的範例查詢。</span><span class="sxs-lookup"><span data-stu-id="6477a-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="bfa1d-105">使用下列範例來取得所有音訊流量的抖動與資料包遺失平均值。</span><span class="sxs-lookup"><span data-stu-id="bfa1d-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="6477a-105">使用下列範例取得音訊資料流的抖動和封包遺漏平均值。</span><span class="sxs-lookup"><span data-stu-id="6477a-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
 ```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="bfa1d-106">使用下列範例來找出已使用會議主控台的會議總數。</span><span class="sxs-lookup"><span data-stu-id="bfa1d-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="6477a-106">使用下列範例找出用於 Meeting 主控台的會議總數。</span><span class="sxs-lookup"><span data-stu-id="6477a-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
 ```SQL
 select avg(ConversationalMOS)
@@ -43,7 +43,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-<span data-ttu-id="bfa1d-107">使用下列範例來取得每個擷取裝置的 ConversstionalMOS、SendingMOS 和 ListendingMOS。</span><span class="sxs-lookup"><span data-stu-id="bfa1d-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="6477a-107">使用下列範例取得每一個擷取裝置的 ConversstionalMOS、SendingMOS 及 ListendingMOS。</span><span class="sxs-lookup"><span data-stu-id="6477a-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
 ```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS

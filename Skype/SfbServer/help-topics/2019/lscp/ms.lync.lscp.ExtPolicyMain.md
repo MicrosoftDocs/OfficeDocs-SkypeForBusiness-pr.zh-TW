@@ -1,8 +1,8 @@
 ---
 title: 外部存取原則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 6cbb34744d475cc8a8cf9cbc2e3a4619979bd8cf
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 888367fa7037199baa3567b18213b8e4097e117c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797684"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833743"
 ---
-# <a name="external-access-policy"></a><span data-ttu-id="d2a19-104">外部存取原則</span><span class="sxs-lookup"><span data-stu-id="d2a19-104">External Access Policy</span></span>
+# <a name="external-access-policy"></a><span data-ttu-id="6eefe-104">外部存取原則</span><span class="sxs-lookup"><span data-stu-id="6eefe-104">External Access Policy</span></span>
 
-<span data-ttu-id="d2a19-105">您要做什麼？</span><span class="sxs-lookup"><span data-stu-id="d2a19-105">What do you want to do?</span></span> <span data-ttu-id="d2a19-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="d2a19-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6eefe-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="6eefe-105">What do you want to do?</span></span> <span data-ttu-id="6eefe-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="6eefe-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d2a19-107">Manage Remote User Access</span><span class="sxs-lookup"><span data-stu-id="d2a19-107">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="6eefe-107">管理遠端使用者存取</span><span class="sxs-lookup"><span data-stu-id="6eefe-107">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 
-- [<span data-ttu-id="d2a19-108">Configure Policies to Control Federated User Access</span><span class="sxs-lookup"><span data-stu-id="d2a19-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="6eefe-108">設定控制同盟使用者存取的原則</span><span class="sxs-lookup"><span data-stu-id="6eefe-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="d2a19-109">Configure Policies to Control Access by Users of IM Service Providers</span><span class="sxs-lookup"><span data-stu-id="d2a19-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [<span data-ttu-id="6eefe-109">設定原則，以控制 IM 服務提供者的使用者存取</span><span class="sxs-lookup"><span data-stu-id="6eefe-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
 
-- [<span data-ttu-id="d2a19-110">Reset or Delete External User Access Policies</span><span class="sxs-lookup"><span data-stu-id="d2a19-110">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [<span data-ttu-id="6eefe-110">重設或刪除外部使用者存取原則</span><span class="sxs-lookup"><span data-stu-id="6eefe-110">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
 
 

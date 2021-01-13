@@ -1,8 +1,8 @@
 ---
 title: 取得維度成員
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 摘要：瞭解 [取得維度成員] 操作。 [取得維度成員] 作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 摘要：瞭解「取得維度成員的運作。 「取得維度成員」作業是「呼叫品質」儀表板之資料 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+ms.openlocfilehash: ffec3b02a3c876a003adb679a28b0e8f2edb91c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888812"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832633"
 ---
-# <a name="get-dimension-members"></a><span data-ttu-id="9c790-105">取得維度成員</span><span class="sxs-lookup"><span data-stu-id="9c790-105">Get Dimension Members</span></span>
+# <a name="get-dimension-members"></a><span data-ttu-id="5934c-105">取得維度成員</span><span class="sxs-lookup"><span data-stu-id="5934c-105">Get Dimension Members</span></span>
  
-<span data-ttu-id="9c790-106">**摘要：** 瞭解取得維度成員的操作。</span><span class="sxs-lookup"><span data-stu-id="9c790-106">**Summary:** Learn about the Get Dimension Members operation.</span></span> <span data-ttu-id="9c790-107">[取得維度成員] 作業是 [通話品質儀表板] 的資料 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="9c790-107">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="9c790-108">[通話品質儀表板] 是商務用 Skype Server 的工具。</span><span class="sxs-lookup"><span data-stu-id="9c790-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="5934c-106">**摘要：** 深入瞭解「取得維度成員操作。</span><span class="sxs-lookup"><span data-stu-id="5934c-106">**Summary:** Learn about the Get Dimension Members operation.</span></span> <span data-ttu-id="5934c-107">「取得維度成員」作業是「呼叫品質」儀表板之資料 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="5934c-107">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="5934c-108">通話品質儀表板是商務用 Skype 伺服器的工具。</span><span class="sxs-lookup"><span data-stu-id="5934c-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="9c790-109">[取得維度成員] 作業是 [通話品質儀表板] 的資料 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="9c790-109">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="5934c-109">「取得維度成員」作業是「呼叫品質」儀表板之資料 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="5934c-109">The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.</span></span>
   
-## <a name="get-dimension-members"></a><span data-ttu-id="9c790-110">取得維度成員</span><span class="sxs-lookup"><span data-stu-id="9c790-110">Get Dimension Members</span></span>
+## <a name="get-dimension-members"></a><span data-ttu-id="5934c-110">取得維度成員</span><span class="sxs-lookup"><span data-stu-id="5934c-110">Get Dimension Members</span></span>
 
-<span data-ttu-id="9c790-111">[取得維度成員] 操作會傳回特定維度之成員的清單。</span><span class="sxs-lookup"><span data-stu-id="9c790-111">Get Dimension Members operation returns the list of members of a specific dimension.</span></span> <span data-ttu-id="9c790-112">它也提供篩選成員清單及取得子集的功能，以減少線路傳輸成本。</span><span class="sxs-lookup"><span data-stu-id="9c790-112">It also give the ability to filter the member list and get a subset, to reduce the wire transfer cost.</span></span>
+<span data-ttu-id="5934c-111">取得維度成員操作傳回特定維度的成員清單。</span><span class="sxs-lookup"><span data-stu-id="5934c-111">Get Dimension Members operation returns the list of members of a specific dimension.</span></span> <span data-ttu-id="5934c-112">它也可讓您篩選成員清單並取得子集，以降低線路傳輸成本。</span><span class="sxs-lookup"><span data-stu-id="5934c-112">It also give the ability to filter the member list and get a subset, to reduce the wire transfer cost.</span></span>
   
 
-|<span data-ttu-id="9c790-113">**法**</span><span class="sxs-lookup"><span data-stu-id="9c790-113">**Method**</span></span>|<span data-ttu-id="9c790-114">**要求 URI**</span><span class="sxs-lookup"><span data-stu-id="9c790-114">**Request URI**</span></span>|<span data-ttu-id="9c790-115">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="9c790-115">**HTTP Version**</span></span>|
+|<span data-ttu-id="5934c-113">**方法**</span><span class="sxs-lookup"><span data-stu-id="5934c-113">**Method**</span></span>|<span data-ttu-id="5934c-114">**要求 URI**</span><span class="sxs-lookup"><span data-stu-id="5934c-114">**Request URI**</span></span>|<span data-ttu-id="5934c-115">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="5934c-115">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="9c790-116">發佈</span><span class="sxs-lookup"><span data-stu-id="9c790-116">POST</span></span>  <br/> |<span data-ttu-id="9c790-117">HTTPs://\<入口\>網站/QoEDataService/DimensionMembers</span><span class="sxs-lookup"><span data-stu-id="9c790-117">https://\<portal\>/QoEDataService/DimensionMembers</span></span>  <br/> |<span data-ttu-id="9c790-118">HTTP/1。1</span><span class="sxs-lookup"><span data-stu-id="9c790-118">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="5934c-116">POST</span><span class="sxs-lookup"><span data-stu-id="5934c-116">POST</span></span>  <br/> |<span data-ttu-id="5934c-117">HTTPs:// \<portal\> /QoEDataService/DimensionMembers</span><span class="sxs-lookup"><span data-stu-id="5934c-117">https://\<portal\>/QoEDataService/DimensionMembers</span></span>  <br/> |<span data-ttu-id="5934c-118">HTTP/1。1</span><span class="sxs-lookup"><span data-stu-id="5934c-118">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="9c790-119">**URI 參數**-無。</span><span class="sxs-lookup"><span data-stu-id="9c790-119">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="5934c-119">**URI 參數** -無。</span><span class="sxs-lookup"><span data-stu-id="5934c-119">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="9c790-120">**要求標頭**-沒有其他標頭。</span><span class="sxs-lookup"><span data-stu-id="9c790-120">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="5934c-120">**要求標頭** -沒有其他標頭。</span><span class="sxs-lookup"><span data-stu-id="5934c-120">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="9c790-121">**要求主體**-這包含我們想要其成員的維度名稱。</span><span class="sxs-lookup"><span data-stu-id="9c790-121">**Request Body** - This contains the name of dimension we want the members for.</span></span> <span data-ttu-id="9c790-122">此外，在傳回的成員數目上限，您可以指定一些篩選來限制傳回的成員。</span><span class="sxs-lookup"><span data-stu-id="9c790-122">Also max number of members returned, beside you can specify some filtering to limit the returned members.</span></span>
+ <span data-ttu-id="5934c-121">**要求主體** -這包含我們想要成員的維度名稱。</span><span class="sxs-lookup"><span data-stu-id="5934c-121">**Request Body** - This contains the name of dimension we want the members for.</span></span> <span data-ttu-id="5934c-122">此外，傳回的成員人數上限，您可以指定一些篩選，以限制傳回的成員。</span><span class="sxs-lookup"><span data-stu-id="5934c-122">Also max number of members returned, beside you can specify some filtering to limit the returned members.</span></span>
   
 ```json
 {
@@ -52,16 +52,16 @@ ms.locfileid: "41888812"
 }
 ```
 
- <span data-ttu-id="9c790-123">**回應**-回應包括 HTTP 狀態碼和一組回應標頭。</span><span class="sxs-lookup"><span data-stu-id="9c790-123">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="5934c-123">**回應** -回應包括 HTTP 狀態碼和一組回應標頭。</span><span class="sxs-lookup"><span data-stu-id="5934c-123">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="9c790-124">**狀態碼**-成功的操作會傳回狀態碼200（確定）。</span><span class="sxs-lookup"><span data-stu-id="9c790-124">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="5934c-124">**狀態碼** -成功的作業會傳回狀態碼 200 (確定) 。</span><span class="sxs-lookup"><span data-stu-id="5934c-124">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="9c790-125">**回應標題**-沒有其他標頭。</span><span class="sxs-lookup"><span data-stu-id="9c790-125">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="5934c-125">**回應標頭** -沒有其他標頭。</span><span class="sxs-lookup"><span data-stu-id="5934c-125">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="9c790-126">**回應主體**-以下是 JSON 中的範例回應載荷，以回應「[開始日期] 的要求。[Month] "維度。</span><span class="sxs-lookup"><span data-stu-id="9c790-126">**Response Body** - Below is a sample response payload in JSON in response to a request for "[StartDate].[Month]" dimension.</span></span>
+ <span data-ttu-id="5934c-126">**回應** 內文-以下是 JSON 中的範例回應負載，以回應 "[StartDate] 的要求。[Month] "維度。</span><span class="sxs-lookup"><span data-stu-id="5934c-126">**Response Body** - Below is a sample response payload in JSON in response to a request for "[StartDate].[Month]" dimension.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="9c790-127">清單只會顯示清單的一小部分。</span><span class="sxs-lookup"><span data-stu-id="9c790-127">The list is only showing a small portion of the list.</span></span> 
+> <span data-ttu-id="5934c-127">清單只會顯示一小部分的清單。</span><span class="sxs-lookup"><span data-stu-id="5934c-127">The list is only showing a small portion of the list.</span></span> 
   
 ```json
 {
