@@ -1,7 +1,7 @@
 ---
 title: PowerShell 腳本範例-建立學校教師與學生的安全性群組
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,38 +17,38 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534071"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809463"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="e5ba9-103">PowerShell 腳本範例-建立學校教師與學生的安全性群組</span><span class="sxs-lookup"><span data-stu-id="e5ba9-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="aba5c-103">PowerShell 腳本範例-建立學校教師與學生的安全性群組</span><span class="sxs-lookup"><span data-stu-id="aba5c-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
 
-<span data-ttu-id="e5ba9-104">使用此 PowerShell 腳本，建立您在學校中管理 Microsoft 團隊原則所需的安全性群組。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="e5ba9-105">[小組中的[原則指派群組](../assign-policies.md#assign-a-policy-to-a-group)] 功能可讓您將原則指派給使用者群組，例如安全性群組。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="e5ba9-106">原則指派會根據優先順序規則傳播到群組的成員。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="e5ba9-107">在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
+<span data-ttu-id="aba5c-104">使用此 PowerShell 腳本，建立您在學校中管理 Microsoft 團隊原則所需的安全性群組。</span><span class="sxs-lookup"><span data-stu-id="aba5c-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="aba5c-105">[小組中的 [原則指派群組](../assign-policies.md#assign-a-policy-to-a-group) ] 功能可讓您將原則指派給使用者群組，例如安全性群組。</span><span class="sxs-lookup"><span data-stu-id="aba5c-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="aba5c-106">原則指派將根據優先順序規則傳播到群組成員。</span><span class="sxs-lookup"><span data-stu-id="aba5c-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="aba5c-107">在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。</span><span class="sxs-lookup"><span data-stu-id="aba5c-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
 
-<span data-ttu-id="e5ba9-108">這個 PowerShell 腳本會根據授權類型，建立兩個安全性群組，其中一個適用于教職員工和教育版，另一個用於學校的學生。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="e5ba9-109">然後，您可以將原則指派給您建立的安全性群組。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="e5ba9-110">如需使用此腳本的詳細資訊，請參閱[在學校將原則指派給大型使用者組](../batch-group-policy-assignment-edu.md)。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
+<span data-ttu-id="aba5c-108">這個 PowerShell 腳本會根據授權類型，建立兩個安全性群組，其中一個適用于教職員工和教育版，另一個用於學校的學生。</span><span class="sxs-lookup"><span data-stu-id="aba5c-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="aba5c-109">然後，您可以將原則指派給您建立的安全性群組。</span><span class="sxs-lookup"><span data-stu-id="aba5c-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="aba5c-110">如需使用此腳本的詳細資訊，請參閱 [在學校將原則指派給大型使用者組](../batch-group-policy-assignment-edu.md)。</span><span class="sxs-lookup"><span data-stu-id="aba5c-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
 
-<span data-ttu-id="e5ba9-111">此腳本會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="e5ba9-111">This script does the following:</span></span>
+<span data-ttu-id="aba5c-111">此腳本會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="aba5c-111">This script does the following:</span></span>
 
-- <span data-ttu-id="e5ba9-112">識別獲指派教職員 SKU、建立安全性群組，然後將員工與教職員加入群組的人員和教育者。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
-- <span data-ttu-id="e5ba9-113">找出指派給學生 SKU 的學生、建立安全性群組，然後將學生新增至群組。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
-- <span data-ttu-id="e5ba9-114">根據使用者是否有授權，更新每個安全性群組的成員資格來新增或移除人員、教育者和學生。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
+- <span data-ttu-id="aba5c-112">識別獲指派教職員 SKU、建立安全性群組，然後將員工與教職員加入群組的人員和教育者。</span><span class="sxs-lookup"><span data-stu-id="aba5c-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
+- <span data-ttu-id="aba5c-113">找出指派給學生 SKU 的學生、建立安全性群組，然後將學生新增至群組。</span><span class="sxs-lookup"><span data-stu-id="aba5c-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
+- <span data-ttu-id="aba5c-114">根據使用者是否有授權，更新每個安全性群組的成員資格來新增或移除人員、教育者和學生。</span><span class="sxs-lookup"><span data-stu-id="aba5c-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
 
-<span data-ttu-id="e5ba9-115">您必須定期執行此腳本，以讓安全性群組保持在最新，且為最新狀態。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
+<span data-ttu-id="aba5c-115">您必須定期執行此腳本，以讓安全性群組保持在最新，且為最新狀態。</span><span class="sxs-lookup"><span data-stu-id="aba5c-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e5ba9-116">在將原則指派給群組時，請務必瞭解[優先順序規則](../assign-policies.md#precedence-rules)與[群組指派的排名](../assign-policies.md#group-assignment-ranking)。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="e5ba9-117">請務必閱讀並瞭解[關於群組原則指派所需瞭解](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)的概念。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
+> <span data-ttu-id="aba5c-116">在將原則指派給群組時，請務必瞭解 [優先順序規則](../assign-policies.md#precedence-rules) 與 [群組指派的排名](../assign-policies.md#group-assignment-ranking) 。</span><span class="sxs-lookup"><span data-stu-id="aba5c-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="aba5c-117">請務必閱讀並瞭解 [關於群組原則指派所需瞭解](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)的概念。</span><span class="sxs-lookup"><span data-stu-id="aba5c-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
 
-## <a name="before-you-start"></a><span data-ttu-id="e5ba9-118">開始之前</span><span class="sxs-lookup"><span data-stu-id="e5ba9-118">Before you start</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="aba5c-118">開始之前</span><span class="sxs-lookup"><span data-stu-id="aba5c-118">Before you start</span></span>
 
-<span data-ttu-id="e5ba9-119">下載並安裝[商務用 Skype Online PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在出現提示時重新開機電腦。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
+<span data-ttu-id="aba5c-119">下載並安裝 [商務用 Skype Online PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在出現提示時重新開機電腦。</span><span class="sxs-lookup"><span data-stu-id="aba5c-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
 
-<span data-ttu-id="e5ba9-120">若要進一步瞭解，請參閱使用 Office 365 PowerShell 與[團隊 powershell 概述](../teams-powershell-overview.md)[管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 。</span><span class="sxs-lookup"><span data-stu-id="e5ba9-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
+<span data-ttu-id="aba5c-120">若要進一步瞭解，請參閱使用 Office 365 PowerShell 與[團隊 powershell 概述](../teams-powershell-overview.md)[管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 。</span><span class="sxs-lookup"><span data-stu-id="aba5c-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="e5ba9-121">範例腳本</span><span class="sxs-lookup"><span data-stu-id="e5ba9-121">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="aba5c-121">範例腳本</span><span class="sxs-lookup"><span data-stu-id="aba5c-121">Sample script</span></span>
 
 ```powershell
 <#
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="e5ba9-122">相關主題</span><span class="sxs-lookup"><span data-stu-id="e5ba9-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="aba5c-122">相關主題</span><span class="sxs-lookup"><span data-stu-id="aba5c-122">Related topics</span></span>
 
-[<span data-ttu-id="e5ba9-123">指派策略給小組中的使用者</span><span class="sxs-lookup"><span data-stu-id="e5ba9-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)
+[<span data-ttu-id="aba5c-123">指派策略給小組中的使用者</span><span class="sxs-lookup"><span data-stu-id="aba5c-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)

@@ -1,8 +1,8 @@
 ---
 title: 部署嚮導系統管理工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: 如需使用 [部署嚮導] 來安裝商務用 Skype Server 2015 的詳細資料，請參閱安裝商務用 Skype Server 2015。
-ms.openlocfilehash: c99936a4ab9dbef0c8da5b079337f8323d6a18ef
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 如需使用部署嚮導來安裝商務用 Skype Server 2015 的詳細資訊，請參閱安裝商務用 Skype Server 2015。
+ms.openlocfilehash: 41b8130b3d49e7175b361495d170bab644304c13
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823737"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815453"
 ---
-# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="84475-103">部署精靈：系統管理工具</span><span class="sxs-lookup"><span data-stu-id="84475-103">Deployment Wizard: Admin Tools</span></span>
+# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="67abc-103">部署精靈：系統管理工具</span><span class="sxs-lookup"><span data-stu-id="67abc-103">Deployment Wizard: Admin Tools</span></span>
  
-<span data-ttu-id="84475-104">如需使用 [部署嚮導] 來安裝商務用 Skype Server 2015 的詳細資料，請參閱[安裝商務用 Skype server 2015](../../deploy/install/install.md)。</span><span class="sxs-lookup"><span data-stu-id="84475-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="67abc-104">如需使用部署嚮導來安裝商務用 Skype Server 2015 的詳細資訊，請參閱 [安裝商務用 Skype server 2015](../../deploy/install/install.md)。</span><span class="sxs-lookup"><span data-stu-id="67abc-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

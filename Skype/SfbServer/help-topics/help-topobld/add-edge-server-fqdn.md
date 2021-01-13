@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server FQDN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: 您必須指定 Access Edge Service 的完整網域名稱 (FQDN)。 如果您未 &amp; 在 [選取功能] 頁面上選取 [使用單一 FQDN IP 位址] 選項，您也必須為 Web 會議 Edge service 和 A/V Edge service 指定 FQDN。
-ms.openlocfilehash: d67caefe3e60d8c4e9cd398438fb7a4d93cd9d45
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 7ddd36b16273ad57c7f4e4107bbf544a40f30964
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219224"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815253"
 ---
-# <a name="add-edge-server-fqdn"></a><span data-ttu-id="b44d5-104">新增 Edge Server FQDN</span><span class="sxs-lookup"><span data-stu-id="b44d5-104">Add Edge Server FQDN</span></span>
+# <a name="add-edge-server-fqdn"></a><span data-ttu-id="3d7fb-104">新增 Edge Server FQDN</span><span class="sxs-lookup"><span data-stu-id="3d7fb-104">Add Edge Server FQDN</span></span>
  
-<span data-ttu-id="b44d5-105">您必須指定 Access Edge Service 的完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="b44d5-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="b44d5-106">如果您未在 [**選取功能**] 頁面上選取 [**使用單一 FQDN &amp; IP 位址**] 選項，您也必須為 Web 會議 Edge service 和 A/V Edge service 指定 FQDN。</span><span class="sxs-lookup"><span data-stu-id="b44d5-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
+<span data-ttu-id="3d7fb-105">您必須指定 Access Edge Service 的完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="3d7fb-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="3d7fb-106">如果您未在 [**選取功能**] 頁面上選取 [**使用單一 FQDN &amp; IP 位址**] 選項，您也必須為 Web 會議 Edge service 和 A/V Edge service 指定 FQDN。</span><span class="sxs-lookup"><span data-stu-id="3d7fb-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
   
-<span data-ttu-id="b44d5-107">此外，如果您選取 [ **使用單一 FQDN &amp; IP 位址** ] 選項，則必須為每個 Edge service 指定不同的埠號碼。 (建議的埠設定：444用於 Access edge service，8057用於 Web 會議 Edge service，而443用於 A/V Edge service) 。</span><span class="sxs-lookup"><span data-stu-id="b44d5-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="b44d5-108">如果您未選取該選項，可以為三個服務都使用相同的連接埠號碼 (例如 443)。</span><span class="sxs-lookup"><span data-stu-id="b44d5-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
+<span data-ttu-id="3d7fb-107">此外，如果您選取 [ **使用單一 FQDN &amp; IP 位址** ] 選項，則必須為每個 Edge service 指定不同的埠號碼。 (建議的埠設定：444用於 Access edge service，8057用於 Web 會議 Edge service，而443用於 A/V Edge service) 。</span><span class="sxs-lookup"><span data-stu-id="3d7fb-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="3d7fb-108">如果您未選取該選項，可以為三個服務都使用相同的連接埠號碼 (例如 443)。</span><span class="sxs-lookup"><span data-stu-id="3d7fb-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
   
 
