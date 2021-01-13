@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 閱讀本文以瞭解如何將模擬裝置搭配 Microsoft Phone 系統 Direct 路由搭配使用。
-ms.openlocfilehash: 0c6531a29e23e736a84db9bf8571abab2e13942a
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 855bf0dd21659c43037b6171f523983d67c4e755
+ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369188"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841484"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何將模擬裝置與電話系統直接路由搭配使用
 
@@ -53,6 +53,7 @@ ms.locfileid: "48369188"
 - [AudioCodes 設定檔](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
 
 - [功能區設定檔](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
+- [Oracle 設定檔](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>步驟1。  將 SBC 連接至直接路由
 

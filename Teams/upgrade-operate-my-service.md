@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc6c39d03912f8a708eea91ce34b2a7f61a47828
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: c3180eabe2886faaade690f7a5bc0f3f97226589
+ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731161"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841494"
 ---
 # <a name="operate-your-service"></a>營運您的服務
 
@@ -138,7 +138,7 @@ Microsoft 團隊將跨 Microsoft 365 和 Office 365 的技術結合在一起，�
 
 ### <a name="monitoring-with-microsoft-system-center"></a>使用 Microsoft System Center 進行監控
 
-Microsoft System Center 是一個整合的管理平臺，可協助您管理資料中心、用戶端裝置及混合式雲端 IT 環境。 使用 System Center 的 Microsoft 365 或 Office 365 系統管理員現在可以選擇匯入管理套件，讓他們可以在系統中心中查看 Operations Manager 中的所有服務通訊。 使用這個工具可讓您存取已訂閱服務的狀態、使用中及已解決的服務事件，以及訊息中心通訊 (即將進行的變更) 。 如需詳細資訊，請參閱下列 [博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
+Microsoft System Center 是一個整合的管理平臺，可協助您管理資料中心、用戶端裝置及混合式雲端 IT 環境。 使用 System Center 的 Microsoft 365 或 Office 365 系統管理員現在可以選擇匯入管理套件，讓他們可以在系統中心中查看 Operations Manager 中的所有服務通訊。 使用這個工具可讓您存取已訂閱服務的狀態、使用中及已解決的服務事件，以及訊息中心通訊 (即將進行的變更) 。 如需詳細資訊，請參閱下列 [博客文章](https://www.microsoft.com/en-us/microsoft-365/blog/2014/07/29/new-office-365-admin-tools/)。
 
 如果您利用 System Center 監視團隊服務健康情況 (和相依服務) ，您可以進一步自訂管理套件，以通知或通知特定群組或已識別對事件作出反應的人員。
 這些群組可以包含服務擁有者、服務台、第二層和第三層支援群組，以及貴組織中的事件管理員。
@@ -308,11 +308,11 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 您可以透過多種不同的方法來評估使用者觀點。 這些包括電子郵件問卷、人員或電話風格的訪談，或只是在團隊或 Yammer 中建立意見反應頻道。 如需詳細資訊，請參閱 [Microsoft 團隊中使用者意見反應方法的最佳做法](best-practices-feedback.md)。
 
-您也可以使用 industrywide 方法來評估稱為 net promotor 分數 (NPS) 的使用者觀點，如下一節所述。
+您也可以使用行業範圍的方法來評估名為 net promotor)  (的使用者觀點，如下一節所述。
 
 ### <a name="nps"></a>NPS
 
- (NPS) 的淨 promoter 分數是 industrywide 客戶忠誠度指標，以及用來評估使用者觀點的好方法。 您可以提出以下兩個問題來計算 NPS：「您可能會將團隊推薦給同事嗎？」，後面接著手中的 [為什麼？]
+ (NPS) 的淨 promoter 分數是業界範圍的客戶忠誠度指標，以及用來評估使用者觀點的好方法。 您可以提出以下兩個問題來計算 NPS：「您可能會將團隊推薦給同事嗎？」，後面接著手中的 [為什麼？]
 
 NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服務的建議。 NPS 是以透過電子郵件或其他電子方式傳送給使用者的匿名問卷來建立。 NPS 會測量提供者與消費者之間的忠誠度。 它只包含一個問題，要求使用者從1到10對其體驗進行評分，以及提供其他批註的選項。 然後根據下列評分來分類使用者：
 
