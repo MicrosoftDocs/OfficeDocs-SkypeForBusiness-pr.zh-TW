@@ -1,8 +1,8 @@
 ---
 title: 新增分支網站詳細資料
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,23 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 若要指定網站的網站詳細資料，請執行下列操作：
-ms.openlocfilehash: 30e4629332b732d7a873b2b39b33d64b3c70d7a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acc33e2a08ae4c0232ccff92f8ce1e800178b1c0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217357"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835549"
 ---
-# <a name="add-branch-site-details"></a><span data-ttu-id="82af4-103">新增分支網站詳細資料</span><span class="sxs-lookup"><span data-stu-id="82af4-103">Add Branch Site Details</span></span>
+# <a name="add-branch-site-details"></a><span data-ttu-id="cbe7f-103">新增分支網站詳細資料</span><span class="sxs-lookup"><span data-stu-id="cbe7f-103">Add Branch Site Details</span></span>
 
-<span data-ttu-id="82af4-104">若要指定網站的網站詳細資料，請執行下列操作：</span><span class="sxs-lookup"><span data-stu-id="82af4-104">To specify site details for a site, do the following:</span></span>
+<span data-ttu-id="cbe7f-104">若要指定網站的網站詳細資料，請執行下列操作：</span><span class="sxs-lookup"><span data-stu-id="cbe7f-104">To specify site details for a site, do the following:</span></span>
 
-<span data-ttu-id="82af4-p101">為新的分支網站指定城市名稱。「城市」值為選用項目。</span><span class="sxs-lookup"><span data-stu-id="82af4-p101">Specify a city name for the new branch site. The City value is an optional entry.</span></span>
+<span data-ttu-id="cbe7f-p101">為新的分支網站指定城市名稱。「城市」值為選用項目。</span><span class="sxs-lookup"><span data-stu-id="cbe7f-p101">Specify a city name for the new branch site. The City value is an optional entry.</span></span>
 
-<span data-ttu-id="82af4-p102">為新的分支網站指定州/省名稱。「州/省」值為選用項目。</span><span class="sxs-lookup"><span data-stu-id="82af4-p102">Specify a state/province name for the new branch site. The State/Province value is an optional entry.</span></span>
+<span data-ttu-id="cbe7f-p102">為新的分支網站指定州/省名稱。「州/省」值為選用項目。</span><span class="sxs-lookup"><span data-stu-id="cbe7f-p102">Specify a state/province name for the new branch site. The State/Province value is an optional entry.</span></span>
 
-<span data-ttu-id="82af4-p103">為新的分支網站指定國家/地區代碼名稱。「國家/地區代碼」值為選用項目。</span><span class="sxs-lookup"><span data-stu-id="82af4-p103">Specify a country/region Code name for the new branch site. The Country/Region Code value is an optional entry.</span></span>
+<span data-ttu-id="cbe7f-p103">為新的分支網站指定國家/地區代碼名稱。「國家/地區代碼」值為選用項目。</span><span class="sxs-lookup"><span data-stu-id="cbe7f-p103">Specify a country/region Code name for the new branch site. The Country/Region Code value is an optional entry.</span></span>
 
-<span data-ttu-id="82af4-111">如需其他資訊，請參閱＜[Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)＞。</span><span class="sxs-lookup"><span data-stu-id="82af4-111">For additional information, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span></span>
+<span data-ttu-id="cbe7f-111">如需其他資訊，請參閱＜[Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)＞。</span><span class="sxs-lookup"><span data-stu-id="cbe7f-111">For additional information, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span></span>
 
 

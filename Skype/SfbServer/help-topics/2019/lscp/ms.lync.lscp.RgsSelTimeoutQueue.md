@@ -1,8 +1,8 @@
 ---
 title: 選取逾時佇列
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用 [選取超時佇列] 對話方塊來選取呼叫在超時時轉寄的佇列。
-ms.openlocfilehash: a86c1bd8c84f96ecd4ef4f736cc8dc9ba3f55d12
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 使用 [選取逾時佇列] 對話方塊，選取當通話逾時的時候，要將其轉送到哪個佇列。
+ms.openlocfilehash: 67296bc7197393b85b2569b7643643f3d3848e18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793441"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836513"
 ---
-# <a name="select-time-out-queue"></a><span data-ttu-id="e4cf6-103">選取逾時佇列</span><span class="sxs-lookup"><span data-stu-id="e4cf6-103">Select Time-out Queue</span></span>
+# <a name="select-time-out-queue"></a><span data-ttu-id="8b838-103">選取逾時佇列</span><span class="sxs-lookup"><span data-stu-id="8b838-103">Select Time-out Queue</span></span>
  
-<span data-ttu-id="e4cf6-104">使用 [**選取超時佇列**] 對話方塊來選取呼叫在超時時轉寄的佇列。</span><span class="sxs-lookup"><span data-stu-id="e4cf6-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
+<span data-ttu-id="8b838-104">使用 [選取逾時佇列] 對話方塊，選取當通話逾時的時候，要將其轉送到哪個佇列。</span><span class="sxs-lookup"><span data-stu-id="8b838-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
   
-<span data-ttu-id="e4cf6-105">在搜尋方塊中，輸入您想要使用的所有或部分名稱。</span><span class="sxs-lookup"><span data-stu-id="e4cf6-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="e4cf6-106">若要傳回所有可用的佇列，請將 [搜尋] 方塊保留空白，然後按一下 [搜尋] 圖示。</span><span class="sxs-lookup"><span data-stu-id="e4cf6-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="8b838-p101">在 [搜尋] 方塊中，輸入想要使用之佇列的全部或部分名稱。若要傳回所有可用的佇列，請將搜尋方塊留白，然後按一下搜尋圖示。</span><span class="sxs-lookup"><span data-stu-id="8b838-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="e4cf6-107">在搜尋所傳回的佇列清單中，選取您要用來進行超時通話的佇列。</span><span class="sxs-lookup"><span data-stu-id="e4cf6-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
+<span data-ttu-id="8b838-107">在搜尋傳回的佇列清單中，選取您要用於逾時通話的佇列。</span><span class="sxs-lookup"><span data-stu-id="8b838-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
   
 
