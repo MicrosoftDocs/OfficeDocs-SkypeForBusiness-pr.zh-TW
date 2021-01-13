@@ -1,7 +1,7 @@
 ---
 title: 政府團隊原則套件
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理您的政府組織的小組原則套件。
-ms.openlocfilehash: 8ef632689cb52180e8fd18cf4047fb9a25150885
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908592"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812883"
 ---
 # <a name="teams-policy-packages-for-government"></a>政府團隊原則套件
 
@@ -39,7 +39,7 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 - 會議
 - 通話
 - App 設定
-- 即時活動
+- 即時事件
 
 團隊目前包含適用于政府的下列原則套件。
 
@@ -59,43 +59,43 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 ### <a name="view"></a>檢視
 
-在指派套件前，請先查看原則套件中每個原則的設定。 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **原則套件** ]，選取套件名稱，然後選取原則名稱。
+在指派套件之前，請查看原則套件中每個原則的設定。 在 Microsoft Teams 系統管理中心的左側流覽中，選取 **[原則套件]**，選取套件名稱，然後選取原則名稱。
 
-決定預先定義的值是否適合您的組織，或是否需要根據貴組織的需求將其自訂為更具限制性或 lenient。
+决定預先定義的值是否適合貴組織，或者您是否需要根據組織的需求將它們自訂為更嚴格或更寬鬆的值。
 
 ### <a name="customize"></a>自訂
 
-根據需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 若要編輯原則套件中原則的設定，請在 Microsoft [團隊管理中心] 中，選取原則套件，選取您要編輯的原則名稱，然後選取 [ **編輯** ]。
+視需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 要編輯原則套件中原則的設定，請在 Microsoft Teams 系統管理中心，選取該原則套件，選取要編輯的原則名稱，然後選取 **[編輯]**。
 
-請記住，在指派原則套件之後，您也可以變更套件中的原則設定。 若要深入瞭解，請參閱 [在原則套件中自訂](manage-policy-packages.md#customize-policies-in-a-policy-package)原則。 
+請記住，您可以在指派原則套件之後變更套件中的原則設定。 若要深入了解，請參閱 [自訂原則套件中的原則](manage-policy-packages.md#customize-policies-in-a-policy-package)。 
 
-### <a name="assign"></a>為
+### <a name="assign"></a>指派
 
-將原則套件指派給使用者。 如果使用者已指派策略，且稍後您指派其他原則，則最近指派的優先順序會較高。
+將原則套件指派給使用者。 如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
 
-#### <a name="assign-a-policy-package-to-one-or-several-users"></a>指派原則套件給一或多個使用者
+#### <a name="assign-a-policy-package-to-one-or-several-users"></a>將原則套件指派給一或多個使用者
 
-若要將原則套件指派給一或多個使用者，請在 [Microsoft 團隊管理中心] 的左導覽中，移至 [ **原則套件** ]，然後選取 [ **管理使用者** ]。  
+若要將原則套件指派給一或多個使用者，請在 Microsoft Teams 系統管理中心的左側流覽窗格中，移至 **原則套件**，然後選取 **管理使用者**。  
 
 ![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-healthcare-assign.png)
 
-若要深入瞭解，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
+若要深入了解，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
 
-如果使用者已指派策略，且稍後您指派其他原則，則最近指派的優先順序會較高。
+如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
 
 #### <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
 
-**此功能是私人預覽**
+**這項功能在私人預覽中**
 
-[原則套件指派給群組] 可讓您將多個原則指派給使用者群組，例如安全群組或通訊群組清單。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。 建議將此方法用於最多50000個使用者的群組，但也會搭配較大的群組使用。
+透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。
 
-若要深入瞭解，請參閱 [將原則套件指派給群組](assign-policies.md#assign-a-policy-package-to-a-group)。
+若要深入了解，請參閱 [將原則套件指派到群組](assign-policies.md#assign-a-policy-package-to-a-group)。
 
-#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>將原則套件指派給大型集 (批次) 使用者
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>為一大組 (批) 使用者指派原則套件
 
-使用批次原則套件指派來一次將原則套件指派給大型的使用者組。 您使用 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 作業會處理為背景作業，並會針對每個批次產生操作 ID。
+使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
 
-批次最多可包含5000個使用者。 您可以依物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入瞭解，請參閱 [將原則套件指派給一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
+批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 
 ## <a name="related-topics"></a>相關主題
 

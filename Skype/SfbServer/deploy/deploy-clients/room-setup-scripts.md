@@ -1,7 +1,7 @@
 ---
-title: Skype 會議室系統房間設定腳本
-ms.author: v-lanac
-author: lanachin
+title: Skype 聊天室系統機房安裝腳本
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 請閱讀本主題，找出提供 Skype 室系統帳戶的範例腳本。
-ms.openlocfilehash: a24de087eeeb20c8093101c23ffd20dec19f25e3
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 閱讀此主題以尋找布建 Skype 室系統帳戶的範例腳本。
+ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768706"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820823"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype 會議室系統房間設定腳本
+# <a name="skype-room-system-room-setup-scripts"></a>Skype 聊天室系統機房安裝腳本
  
-請閱讀本主題，找出提供 Skype 室系統帳戶的範例腳本。
+閱讀此主題以尋找布建 Skype 室系統帳戶的範例腳本。
   
-本節說明可用於提供 Skype 室系統帳戶的範例腳本。 這些腳本只是為了說明目的，只在諮詢 IT 專家或網域管理員之後才會使用。
+本節說明可用於布建 Skype 室系統帳戶的範例腳本。 這些腳本僅供說明之用，只應在諮詢您的 IT 專家或網域管理員之後使用。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>範例設定腳本：商務用 Skype 與 Exchange Server （內部部署）
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>範例安裝程式腳本：商務用 Skype 和 Exchange Server (內部部署) 
 
 ```powershell
 # On Exchange 
@@ -39,13 +39,13 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>範例設定腳本：商務用 Skype 與 Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>範例安裝程式腳本：商務用 Skype 和 Exchange Server Online
 
-在執行腳本前，請確定您已複習下列先決條件：
+在執行腳本之前，請確定您已複習下列必要條件：
   
-- 適用于 IT 專業人員的 Microsoft Online Services 登入小幫手
+- 適用于 IT 專業人員的 Microsoft Online Services Sign-In Assistant
     
-- 適用于 Windows PowerShell 的 windows Azure Active Directory 模組（64位版本）或（32位版本）
+- Windows Azure Active Directory Module for Windows PowerShell (64 位版本) 或 (32 位版本) 
     
 - Lync Online 的 Windows PowerShell 模組
     

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2015 資源工具組工具檔
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主題說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
-ms.openlocfilehash: 7269d7c82736be8e533a0782548a94d14aafcfb5
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: bf1a1d946c998466b118e0ab2038044a48d90970
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160767"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822033"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源工具組工具檔
 
-本主題說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil**工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
+本主題說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil** 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
 
 ## <a name="installation-of-the-resource-kit-tools"></a>安裝資源工具組工具
 
@@ -157,7 +157,7 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
 #### <a name="topology-info-tab"></a>拓撲資訊] 索引標籤
 
-**拓撲資訊**索引標籤顯示網路設定中所設定之所有連結的清單。 針對每個連結，會顯示音訊和影片頻寬容量。 此外，目前使用的頻寬會顯示，以 Kbps 為單位的容量百分比顯示。 工具使用色彩編碼，強調具有接近容量之使用率的連結，這可讓系統管理員快速隔離這類連結。
+**拓撲資訊** 索引標籤顯示網路設定中所設定之所有連結的清單。 針對每個連結，會顯示音訊和影片頻寬容量。 此外，目前使用的頻寬會顯示，以 Kbps 為單位的容量百分比顯示。 工具使用色彩編碼，強調具有接近容量之使用率的連結，這可讓系統管理員快速隔離這類連結。
 
 > [!NOTE]
 >  如果頻寬原則服務監視工具在連線至任何設定的頻寬原則服務時失敗，將不會填入 **機器資訊** 和 **拓撲資訊** 索引標籤中的資訊。 不過，此工具最初可能會連線，但後來會失去與服務的連線。 在這種情況下，系統管理員可能會看到過時的資訊。 每個索引標籤上都有最後一次 **更新** 的時間戳記，可讓系統管理員看到上次更新特定頻寬原則服務的資料的時間。
@@ -262,7 +262,7 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
 下列是使用者可以指定的檔案目錄，如圖所示。
 
-- **伺服器記錄檔位置** 儲存頻寬原則伺服器記錄的資料夾位置。 這通常是 \<<在 \> \\ \AppServerFiles\PDP. 中選擇的 FE \>
+- **伺服器記錄檔位置** 儲存頻寬原則伺服器記錄的資料夾位置。 這通常是 \<fileserver\> \\<選擇的 FE \> \AppServerFiles\PDP。
 
 - **暫存檔儲存位置** 產生報告時儲存中間檔案的暫存檔案位置。
 
@@ -281,7 +281,7 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
 ![在頻寬 Utili 中收集的記錄通知](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-按一下 [確定]****。 BandwidthUtilizationAnalyzer.xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的 **Using BandwidthUtilizationAnalyzer.xlsm** 。
+按一下 **[確定]**。 BandwidthUtilizationAnalyzer.xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的 **Using BandwidthUtilizationAnalyzer.xlsm** 。
 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>使用 BandwidthUtilizationAnalyzer.xlsm
@@ -290,11 +290,11 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
      ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
-2. 開啟檔案資料夾時，請選取訊息方塊中所指定的位置 consolidated.csv，如下所示。 它也會顯示為 **C：\Temp**的位置。
+2. 開啟檔案資料夾時，請選取訊息方塊中所指定的位置 consolidated.csv，如下所示。 它也會顯示為 **C：\Temp** 的位置。
 
      ![在 BandwidthUtilizationAnalyzer 中開啟資料夾。](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
 
-3. 按一下 [匯入]****。
+3. 按一下 **[匯入]**。
 
 4. 會自動產生圖形化圖形。 當工作的背景指標消失時，即可使用此功能。
 
@@ -332,7 +332,7 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
 下圖顯示先前所述的篩選。
 
-依 **名稱**篩選。 選取需要顯示在圖表中的連結清單。
+依 **名稱** 篩選。 選取需要顯示在圖表中的連結清單。
 
 ![在 BandwidthUtilizationAnalyzer 中以名稱篩選。](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
 
@@ -340,19 +340,19 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
 ![以超出限制篩選。](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
 
-依 **重要層級**篩選。 選取 [ **True** ] 以強制執行篩選。
+依 **重要層級** 篩選。 選取 [ **True** ] 以強制執行篩選。
 
 ![依重要層級篩選。](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
 
-根據 **使用**中的篩選。 選取 [ **True** ] 以強制執行篩選。
+根據 **使用** 中的篩選。 選取 [ **True** ] 以強制執行篩選。
 
 ![按使用中的篩選。](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
 
-依 **連結類型**篩選。 選取需要顯示的類型或類型。
+依 **連結類型** 篩選。 選取需要顯示的類型或類型。
 
 ![依連結類型篩選。](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
 
-依 **地區**篩選。 選取需要顯示其連結的區域清單。
+依 **地區** 篩選。 選取需要顯示其連結的區域清單。
 
 ![依地區篩選。](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
@@ -389,7 +389,7 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
 - **-f** 參數--列出集區中目前可用的軌道的數目。
 
-- **-r \< n \> **參數-列出 \< n \> 最後一個寄存的呼叫。 顯示的資訊如下：
+- **-r \<n\>** 參數-列出 \<n\> 最後一個寄存的呼叫。 顯示的資訊如下：
 
   - Parkee SIP URI。
 
@@ -399,7 +399,7 @@ ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務�
 
   - 檢索或丟棄通話的時間戳記。
 
-- **-t \< n \> **參數-測試在資料庫中保留軌道，以顯示所指派軌道編號的隨機性。
+- **-t \<n\>** 參數-測試在資料庫中保留軌道，以顯示指定之軌道編號的隨機性。
 
 ### <a name="output"></a>輸出
 
@@ -450,11 +450,11 @@ Integrated Security=false;"/>
 
 ![空閒的軌道式按呼叫 Call parkometer。](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
-最近寄存的通話：-r \< n \> 參數會列出 \< n \> 最後一個寄存的呼叫，如圖所示。
+最近寄存的通話：-r \<n\> 參數會列出 \<n\> 最後一個寄存的呼叫，如圖所示。
 
 ![通話 Call parkometer 中最近寄存的通話。](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
-測試軌道保留：-t \< n \> 參數會測試在資料庫中保留軌道（如圖所示）。
+測試軌道保留：-t \<n\> 參數會測試在資料庫中保留軌道（如圖所示）。
 
 ![在 [呼叫 Call parkometer] 中測試軌道保留。](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
 
@@ -506,12 +506,12 @@ Dbanalyze.exe 是一種命令列工具，可協助系統管理員收集有關商
 
  **軟體** 在執行 Dbanalyze.exe 之前，必須先安裝商務用 Skype Server 2015 軟體元件。
 
- **使用者**下表顯示具有存取商務用 Skype Server 2015 資料庫之必要許可權的系統管理員。
+ **使用者** 下表顯示具有存取商務用 Skype Server 2015 資料庫之必要許可權的系統管理員。
 
 ![Dbanalyze.exe 的許可權表格。](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
 > [!NOTE]
-> **/Report：磁片**模式需要本機系統管理員帳戶。
+> **/Report：磁片** 模式需要本機系統管理員帳戶。
 
 ### <a name="examples"></a>範例
 
@@ -935,7 +935,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 下列三個主要功能適用于回應群組代理程式 Live 中的代理程式：
 
-- 登**入/登出：** 相反于「代理人群組」頁面 (可從商務用 Skype Server 2015) ，回應群組代理程式 Live 只允許代理程式同時登入或登出所有代理程式群組。 此應用程式提供三種快速的代理人登入或登出方式：
+- 登 **入/登出：** 相反于「代理人群組」頁面 (可從商務用 Skype Server 2015) ，回應群組代理程式 Live 只允許代理程式同時登入或登出所有代理程式群組。 此應用程式提供三種快速的代理人登入或登出方式：
 
   - 在應用程式內，按一下登入/簽出 (綠色和紅色) 按鈕。
 
@@ -1221,7 +1221,7 @@ User Ring time: 00:00:30
 Call Forward No Answer to: voicemail
 ```
 
-#### <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>新增代理人並設定對代理人規則的呼叫轉寄
+#### <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>新增代理人並設定 Call-Forward 至代理人規則
 
 這則範例會新增代理人，並設定「呼叫轉寄至代理人規則。
 
@@ -1278,7 +1278,7 @@ User Ring time: 00:00:30
 Call Forward No Answer to: voicemail
 ```
 
-#### <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>新增小組通話的小組成員，並設定同時響鈴至「小組來電成員群組」
+#### <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>新增 Team-Call 的團隊成員，並設定同時響鈴至 Team-Call 成員群組
 
 這則範例會將小組成員新增至使用者的「小組通話群組」，並啟用對小組通話群組的同時震鈴。
 
@@ -1298,7 +1298,7 @@ UM Enabled: True
 Team ringing enabled. Team: sip:anders@contoso.com
 ```
 
-#### <a name="remove-a-member-from-the-team-call-group"></a>從小組通話群組中移除成員
+#### <a name="remove-a-member-from-the-team-call-group"></a>從 Team-Call 群組中移除成員
 
 此範例會移除使用者之團隊通話群組的小組成員。
 
@@ -1319,7 +1319,7 @@ User Ring time: 00:00:30
 Call Forward No Answer to: voicemail
 ```
 
-#### <a name="set-the-delayed-ring-to-the-team-call-group"></a>將延遲的環設定為小組通話群組
+#### <a name="set-the-delayed-ring-to-the-team-call-group"></a>將延遲的環設定為 Team-Call 群組
 
 本範例會將延遲的環變更為「小組通話群組時間」設定。
 
@@ -1336,7 +1336,7 @@ UM Enabled: True
 Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
 ```
 
-#### <a name="enable-team-call"></a>啟用小組通話
+#### <a name="enable-team-call"></a>啟用 Team-Call
 
 本範例會為指定的使用者啟用小組通話。
 
@@ -1349,7 +1349,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringte
 
  **輸出**
 
-#### <a name="disable-team-call"></a>停用小組通話
+#### <a name="disable-team-call"></a>停用 Team-Call
 
 本範例會停用指定使用者的「小組通話」。
 
@@ -1426,7 +1426,7 @@ SYSPrep.ps1 是一種 Windows PowerShell 腳本，可在您的 Windows Server 20
 
 ### <a name="requirements"></a>需求
 
-在執行 SYSPrep.ps1 腳本之前，您必須將必要條件檔案複製到 Windows Server 2008 作業系統電腦上的本機資料夾中 (例如 **D:\Setup) **。 此資料夾也必須包含商務用 Skype Server 2015 檔案的複本，尤其是 **Setup.exe。** 您可以從下列位置下載必要檔：
+在執行 SYSPrep.ps1 腳本之前，您必須將必要條件檔案複製到 Windows Server 2008 作業系統電腦上的本機資料夾中 (例如 **D:\Setup)**。 此資料夾也必須包含商務用 Skype Server 2015 檔案的複本，尤其是 **Setup.exe。** 您可以從下列位置下載必要檔：
 
 
 | **前提**                                | **位置**                                                            |
@@ -1441,7 +1441,7 @@ SYSPrep.ps1 是一種 Windows PowerShell 腳本，可在您的 Windows Server 20
 
 ### <a name="parameter"></a>參數
 
-**-SetupFolder**參數會將必要條件檔案的目錄位置當作引數。
+**-SetupFolder** 參數會將必要條件檔案的目錄位置當作引數。
 
 ### <a name="examples"></a>範例
 
@@ -1475,7 +1475,7 @@ SYSPrep.ps1 是一種 Windows PowerShell 腳本，可在您的 Windows Server 20
 
 ### <a name="output"></a>輸出
 
-**Move-CsAnnouncementConfiguration**腳本會指出商務用 Skype Server 管理命令介面視窗，從該視窗執行遷移作業的成功或失敗。
+**Move-CsAnnouncementConfiguration** 腳本會指出商務用 Skype Server 管理命令介面視窗，從該視窗執行遷移作業的成功或失敗。
 
 如果執行作業時因任何錯誤而中斷，已順利移至目的地的未指派號碼範圍仍會保留在操作表單的目的地中，而且其他未指派的號碼範圍仍會保留在來源中，也就是在運作表單中。 若要完全遷移其他設定，請在解決錯誤之後重新執行腳本。
 

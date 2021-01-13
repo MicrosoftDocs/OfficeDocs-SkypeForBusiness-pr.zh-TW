@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 365 和 Office 365 中布建 Skype 室系統帳戶
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 室系統帳戶。
-ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 115dd83751e0da837d9d88351d57a769b7e313da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221847"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820843"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中布建 Skype 室系統帳戶
  
@@ -29,7 +29,7 @@ ms.locfileid: "44221847"
 
 您的線上租使用者必須符合下列需求：
   
-- Microsoft 365 或 Office 365 計畫必須包含商務用 Skype Online 方案2或 Office 365 E1，E3 或 E5。 <br/>如需商務用 Skype Online 方案的詳細資訊，請參閱[商務用 Skype Online 服務說明](https://technet.microsoft.com/library/jj822172.aspx)。
+- Microsoft 365 或 Office 365 計畫必須包含商務用 Skype Online 方案2或 Office 365 E1，E3 或 E5。 <br/>如需商務用 Skype Online 方案的詳細資訊，請參閱 [商務用 Skype Online 服務說明](https://technet.microsoft.com/library/jj822172.aspx)。
     
 - 您的租使用者必須已啟用商務用 Skype 的會議功能。
     
@@ -47,7 +47,7 @@ ms.locfileid: "44221847"
   
 - 需要有商務用 Skype Online 方案2或 Office 365 E1 或 E3 授權，才能啟用 Skype 會議。
     
-- 若要 entitle 具有 Enterprise Voice 功能的會議室，讓會議室可以透過電話號碼啟用，則需要使用電話系統許可證或 Office 365 E5 的商務用 Skype Online 方案2（1）。
+- 若要 entitle 具有 Enterprise Voice 功能的會議室，讓會議室可以使用電話號碼來啟用，則需要使用電話系統許可證或 Office 365 E5 的商務用 Skype Online 方案 2 (1) 。
     
 - 如果您需要來自會議的撥入式功能，您需要音訊會議和電話系統授權。  如果您需要從會議撥出的功能，您需要國內或國內和國際通話方案。 
     
@@ -69,7 +69,7 @@ ms.locfileid: "44221847"
     
 ## <a name="exchange-online-provisioning"></a>Exchange Online 布建
 
-首先，依照主題的 [連線[至 Exchange online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554)] 主題中的指示，連線至 exchange online PowerShell。
+首先，依照主題的 [連線 [至 Exchange online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554)] 主題中的指示，連線至 exchange online PowerShell。
   
 若要為 Skype 室系統設定現有的資源會議室信箱帳戶，請在 Exchange Online 中執行下列命令 PowerShell:
   
@@ -93,15 +93,15 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>指派商務用 Skype Online 授權
 
-現在，您可以使用 Microsoft 365 管理入口網站（如[指派或移除 microsoft 365 for](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) Business 或[商務用 Skype 附加元件授權](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)中所述），指派或移除商務用 skype online （Plan 2）或商務用 skype online （plan 3）授權。 
+現在您可以指定商務用 Skype Online (Plan 2) 或商務用 Skype Online (Plan 3) 授權365，如 [指派或移除 microsoft 365 for](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) Business 或 [商務用 Skype 附加元件授權](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)中所述。 
   
 在您指派商務用 Skype Online 的授權後，您就可以使用任何商務用 Skype 用戶端，登入並驗證帳戶是否為作用中。
   
 ## <a name="skype-for-business-online-provisioning"></a>商務用 Skype Online 布建
 
-以先前所顯示的方式建立及啟用資源會議室信箱帳戶後，且已授權商務用 Skype Online 帳戶，該帳戶會使用 Windows Azure Active Directory 樹系，從 Exchange Online 樹系同步處理至商務用 Skype Online 樹系。 在商務用 Skype Online 集區中布建 Skype 室系統帳戶時，需要進行下列步驟。 對於現有的資源信箱帳戶或新建立的帳戶（confrm1 或 confrm2），這些步驟都是相同的，因為在 Exchange Online 中啟用這些帳戶後，這兩個帳戶會以相同的方式同步處理至商務用 Skype Online：
+以先前所顯示的方式建立及啟用資源會議室信箱帳戶後，且已授權商務用 Skype Online 帳戶，該帳戶會使用 Windows Azure Active Directory 樹系，從 Exchange Online 樹系同步處理至商務用 Skype Online 樹系。 在商務用 Skype Online 集區中布建 Skype 室系統帳戶時，需要進行下列步驟。 針對現有資源信箱帳戶或新建立的帳戶 (confrm1 或 confrm2) ，這些步驟都相同，因為在 Exchange Online 中啟用這些帳戶後，這兩個帳戶會以相同方式同步處理至商務用 Skype Online：
   
-1. 建立遠端 PowerShell 會話。 請注意，您將需要下載商務用 Skype Online 連接器模組和 Microsoft Online Services Sign-In Assistant，並確定您的電腦已設定。 如需詳細資訊，請參閱[設定您的電腦以進行 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+1. 建立遠端 PowerShell 會話。 請注意，您將需要下載商務用 Skype Online 連接器模組和 Microsoft Online Services Sign-In Assistant，並確定您的電腦已設定。 如需詳細資訊，請參閱 [設定您的電腦以進行 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     
    ```powershell
    Import-Module LyncOnlineConnector
@@ -122,7 +122,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    ```
 
 >[!NOTE] 
->對於 Skype 室系統帳戶，不支援 Multi-Factor 驗證（MFA）。 
+>Skype 室系統帳戶不支援 Multi-Factor 驗證 (MFA) 。 
 
 ## <a name="password-expiration"></a>密碼過期
 
@@ -141,7 +141,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-如需詳細資訊，請參閱[設定您的電腦以進行 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如需詳細資訊，請參閱 [設定您的電腦以進行 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
   
 ## <a name="validate"></a>驗證
 

@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中建立網路區域連結
+title: 在商務用 Skype Server 中建立網路地區連結
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: 在商務用 Skype Server 中建立或修改 [企業語音通話許可控制] 所使用的網路區域連結。
-ms.openlocfilehash: 20fdbca9eb56fad9b69c6299177301e82fbf115a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在商務用 Skype Server 中建立或修改網路地區連結，以供 Enterprise Voice 通話許可控制使用。
+ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767906"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822463"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路區域連結
+# <a name="create-network-region-links-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路地區連結
  
-在商務用 Skype Server 中建立或修改 [企業語音通話許可控制] 所使用的網路區域連結。 
+在商務用 Skype Server 中建立或修改網路地區連結，以供 Enterprise Voice 通話許可控制使用。 
   
-網路中的區域是透過物理 WAN 連線來連結。 [網路區域] 連結會建立兩個設定為 [呼叫許可控制] （CAC）的區域之間的連結，並設定這些區域之間音訊與視頻流量的頻寬限制。
+網路中的區域是透過實體 WAN 連線相互連結。 網路地區連結會在設定為通話許可控制的兩個地區之間建立連結 (CAC) 並設定這些地區之間音訊和影片流量的頻寬限制。
   
-此範例拓撲在北美與 APAC 區域之間有連結，以及 EMEA 與 APAC 區域之間的連結。 上述每一個區域連結都受 WAN 頻寬的限制，如地區連結頻寬資訊資料表中所述[：在商務用 Skype Server 中收集通話許可控制需求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+這個範例拓撲有一個北美和 APAC 地區之間的連結，以及 EMEA 和 APAC 地區之間的連結。 每個地區連結都受 WAN 頻寬限制，如地區連結頻寬資訊表格中所述 [：在商務用 Skype Server 中收集通話許可控制的需求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management Shell 建立網路區域連結
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立網路地區連結
 
-1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-2. 執行新的 CsNetworkRegionLink Cmdlet 來建立區域連結，並套用適當的頻寬原則設定檔。 例如，執行：
+2. 執行 New-CsNetworkRegionLink Cmdlet 來建立地區連結，並套用適當的頻寬原則設定檔。 例如，執行：
     
    ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -45,37 +45,37 @@ ms.locfileid: "41767906"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 建立網路區域連結
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立網路地區連結
 
-1. 開啟商務用 Skype Server 的 [控制台]。
+1. 開啟商務用 Skype Server 控制台。
     
-2. 在左側導覽列中，按一下 [**網路**設定]。
+2. 在左導覽列中，按一下 **[網路組態]**。
     
-3. 按一下 [**地區] 連結**瀏覽按鈕。
+3. 按一下 [ **地區連結** ] 導覽按鈕。
     
-4. 按一下 [**新增**]。
+4. 按一下 [ **新增**]。
     
-5. 在 [**新增區域連結**] 頁面上，按一下 [**名稱**]，然後輸入網路區域連結的名稱。
+5. 在 [ **新增地區連結** ] 頁面上，按一下 [ **名稱** ]，然後輸入網路地區連結的名稱。
     
-6. 按一下 [**網路區域 #1**]，然後按一下清單中您要連結至 [網路區域] 的網路區域 #2。
+6. 按一下 [ **網路地區 #1**]，然後按一下清單中要連結至 [網路地區] 的網路地區 #2。
     
-7. 按一下 [**網路區域 #2**]，然後在清單中按一下您想要連結至 [網路區域] 的網路區域 #1。
+7. 按一下 [ **網路地區 #2**]，然後按一下清單中要連結至 [網路地區] 的網路地區 #1。
     
-8. 或者，按一下 [**頻寬原則**]，然後選取您要套用到 [網路區域] 連結的頻寬原則設定檔。
+8. （選用）按一下 [ **頻寬原則**]，然後選取您要套用到網路地區連結的頻寬原則設定檔。
     
     > [!NOTE]
-    > 只有在 [網路區域] 連結受到頻寬限制且您想要使用 CAC 來控制該連結上的媒體流量時，才能套用頻寬原則。 
+    > [！注意事項] 只有在網路地區連結受到頻寬限制，且您想要使用 CAC 來控制該連結上的媒體流量時，才套用頻寬原則。 
   
-9. 按一下 [認可]****。
+9. 按一下 **[認可]**。
     
-10. 若要為您的拓撲建立網路區域連結，請重複步驟4到9，以及其他地區的設定。
+10. 若要完成建立拓撲的網路地區連結，請使用其他地區的設定重複步驟4到9。
     
 ## <a name="see-also"></a>另請參閱
 
-[新-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[新 CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[移除-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

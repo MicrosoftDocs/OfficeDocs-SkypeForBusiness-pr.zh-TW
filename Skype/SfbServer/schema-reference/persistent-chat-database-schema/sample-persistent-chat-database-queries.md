@@ -1,8 +1,8 @@
 ---
-title: 常設聊天室資料庫查詢範例
+title: 範例常設聊天室資料庫查詢
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-description: 本節包含持久聊天資料庫的範例查詢。
-ms.openlocfilehash: f161deb55cb9ecb0e42eb23e71cd842aa8f3d99a
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 本節包含 Persistent Chat 資料庫的範例查詢。
+ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887712"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823103"
 ---
-# <a name="sample-persistent-chat-database-queries"></a>常設聊天室資料庫查詢範例
+# <a name="sample-persistent-chat-database-queries"></a>範例常設聊天室資料庫查詢
  
-本節包含持久聊天資料庫的範例查詢。
+本節包含 Persistent Chat 資料庫的範例查詢。
   
-使用下列範例，在特定日期之後取得最活躍的持續聊天室清單。
+使用下列範例來取得特定日期之後最活躍的持久聊天室清單。
   
 ```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
@@ -34,7 +34,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-使用下列範例，在特定日期之後取得最活躍的使用者清單。
+請使用下列範例來取得特定日期之後最活躍的使用者清單。
   
 ```SQL
 SELECT prinName as Name, count(*) as ChatMessages
@@ -44,7 +44,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-使用下列範例來取得曾經傳送「Hello World」郵件的所有人員清單。
+請使用下列範例來取得曾傳送內含 “Hello World” 之訊息的所有人清單。
   
 ```SQL
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
@@ -52,7 +52,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 ```
 
-使用下列範例來取得特定主體的群組成員資格清單。
+請使用下列範例來取得特定主體的群組成員資格清單。
   
 ```SQL
 SELECT prinName as Name    
@@ -60,7 +60,7 @@ SELECT prinName as Name
   where principalID = 7 and affiliationID = prinID
 ```
 
-使用下列範例，取得使用者（Jane 道瓊）是直接成員的每個聊天室的清單。
+請使用下列範例來取得使用者 Jane Dow 為直接成員的每個聊天室清單。
   
 ```SQL
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
@@ -68,7 +68,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 ```
 
-使用下列範例來取得使用者已收到的邀請清單。
+請使用下列範例來取得使用者已收到的邀請清單。
   
 ```SQL
 SELECT prinName

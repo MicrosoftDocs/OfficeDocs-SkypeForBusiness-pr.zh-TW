@@ -1,7 +1,7 @@
 ---
 title: 瑞典的電話號碼管理
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格，找出在 Microsoft 團隊中取得及管理瑞典電話號碼的相關資訊。
-ms.openlocfilehash: bcd94680a7f03818c2b127aeb898390f12b77323
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 6dc156b475e1cd2d38d314552cdaf19873d0a40a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361683"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822783"
 ---
 # <a name="phone-number-management-for-sweden"></a>瑞典的電話號碼管理
 

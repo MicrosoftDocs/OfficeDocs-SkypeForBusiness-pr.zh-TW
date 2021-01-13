@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype 中建立或修改群組呼叫裝貨號碼範圍
+title: 在商務用 Skype 中建立或修改群組呼叫收取號碼範圍
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,48 +15,48 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: 在商務用 Skype Server Enterprise Voice 中建立或修改群組呼叫挑選號碼範圍。
-ms.openlocfilehash: 98fc59f12165e6299fafc5ed79797e6d25d151e3
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在商務用 Skype Server Enterprise Voice 中建立或修改群組呼叫收取號碼範圍。
+ms.openlocfilehash: f487c277b8eaa03a5b31ce0dc9696b0efe712340
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767876"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822403"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改群組呼叫裝貨號碼範圍
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改群組呼叫收取號碼範圍
 
-在商務用 Skype Server Enterprise Voice 中建立或修改群組呼叫挑選號碼範圍。
+在商務用 Skype Server Enterprise Voice 中建立或修改群組呼叫收取號碼範圍。
 
-[群組呼叫挑選] 是以 [通話駐留] 應用程式為基礎。 當您部署群組呼叫挑選時，您必須設定 [通話公園軌道] 表格，並將指定為 [呼叫挑選] 群組號碼的電話號碼範圍。 這些群組號碼是使用者撥打電話給另一個使用者所撥打的電話號碼。
+群組呼叫收取是以通話駐留應用程式為基礎。 當您部署群組呼叫收取時，您必須使用指定為呼叫收取群組號碼的電話號碼範圍來設定通話駐留軌道表格。 這些群組號碼是使用者在撥打其他使用者所撥打之來電時所撥打的號碼。
 
-如同通話公園軌道編號，呼叫挑選群組的號碼必須是沒有指派給他們的使用者或電話的虛擬延伸。 您在其中部署 [群組呼叫挑選] 的每個前端池都可以有一或多個呼叫挑選群組編號範圍。 群組編號範圍在您的部署中必須是全域唯一的，而且必須指派為**GroupPickup**類型。
+與通話駐留軌道號碼類似，來電收取群組數目必須是未獲指派使用者或電話的虛擬分機。 您部署群組呼叫收取的每個前端集區，都可以有一或多個呼叫收取群組號碼範圍。 群組號碼範圍在您的部署中必須是全域唯一的，而且必須被指派為 **GroupPickup** 類型。
 
-使用下列程式來建立或修改 [通話駐留軌道] 表格中的 [通話挑選] 群組編號範圍。
+使用下列程式可建立或修改通話駐留軌道表格中的呼叫收取群組號碼範圍。
 
 > [!NOTE]
-> 您必須使用商務用 Skype Server Management Shell 來建立、修改、移除及查看 [通話公園軌道] 表格中的 [群組呼叫挑選號碼] 範圍。 在商務用 Skype Server [控制台] 中無法使用 [群組呼叫挑選號碼] 範圍。
+> 您必須使用商務用 Skype Server 管理命令介面來建立、修改、移除及查看通話駐留軌道表格中的群組呼叫收取號碼範圍。 在商務用 Skype Server [控制台] 中無法使用群組呼叫收取號碼範圍。
 
-呼叫挑選群組編號範圍必須符合下列規則：
+呼叫收取群組號碼範圍必須符合下列規則：
 
 - 該範圍的起始號碼必須小於或等於範圍的結束號碼。
 
 - 該範圍的起始號碼值的長度必須等於範圍的結束號碼值長度。
 
-- 號碼範圍必須是唯一的。此範圍不得與其他任何範圍重疊。
+- 號碼範圍必須是唯一的。 此範圍不得與其他任何範圍重疊。
 
-- 如果數位範圍是以字元\*或 # 開頭，則範圍必須大於100。
+- 如果號碼範圍開頭為字元 \* 或 #，則範圍必須大於100。
 
-- 有效值：必須符合正則運算式字串（[\\* | #]？ [1-9] \d{0,7}） |（[1-9] \d{0,8}）。 這表示值必須是以字元\*或 # 或數位1到9（第一個字元不能是零）開頭的字串。 如果第一個字元是\*或 #，則下列字元必須是1到9的數位（不能是零）。 後續字元可以是從0到9的任何數位，最多可達七個其他字元（例如，\*"#6000"、\*"92000"、"95551212" 和 "915551212"）。 如果第一個字元不\*是或 #，則第一個字元必須是數位1到9（不能是零），後面再加上八個字元（例如，"915551212"，"41212"，"300"）。
+- 有效的值：必須符合正則運算式字串 ( [ \\ * | #]？ [1-9] \d {0,7}) | ( [1-9] \d {0,8}) 。 這表示值必須是以字元 \* 或 # 或數位1到9為開頭的字串。 (第一個字元不能是零) 。 如果第一個字元是 \* 或 #，下列字元必須是1到9的數位， (不能是零) 。 後續字元可以是0到9的任何數位，最多可以有七個其他字元 (例如，"#6000"、" \* 92000"、" \* 95551212" 和 "915551212" ) 。 如果第一個字元不是 \* 或 #，則第一個字元必須是1到)  (9 的數位，然後是0到9的數位，都是0到 9 (例如，"915551212"，"41212"，"300" ) 。
 
-### <a name="to-create-or-modify-a-call-pickup-group-range"></a>建立或修改通話挑選群組範圍
+### <a name="to-create-or-modify-a-call-pickup-group-range"></a>若要建立或修改呼叫收取群組範圍
 
-1. 登入商務用 Skype Server Management Shell 的電腦是以 RTCUniversalServerAdmins 群組的成員或必要的使用者權利來安裝，如**委派設定許可權**中所述。
+1. 登入安裝商務用 Skype Server 管理命令介面的電腦，並將其安裝為 RTCUniversalServerAdmins 群組的成員，或使用 **委派安裝許可權** 中所述的必要使用者權限。
 
-2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
-3. 使用 [**新-CsCallParkOrbit** ] 建立呼叫挑選群組編號的新範圍。 使用 [**設定] CsCallParkOrbit**來修改現有的電話挑選號碼範圍。
+3. 使用 **get-cscallparkorbit** 來建立新的呼叫收取群組號碼範圍。 使用 **get-cscallparkorbit** 可修改現有的呼叫收取號碼範圍。
 
-    在命令列上執行：
+    在命令列中執行：
 
    ```powershell
    New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
@@ -68,19 +68,19 @@ ms.locfileid: "41767876"
    New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
    ```
 
-    下列範例示範如何將通話駐留軌道式的數位範圍變更為呼叫挑選群組。
+    下列範例顯示如何將號碼範圍從通話駐留軌道變更為呼叫收取群組。
 
    ```powershell
    Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
    ```
 
     > [!IMPORTANT]
-    > 如果您最初指定的類型不正確，且尚未使用群組範圍，請使用這個 Cmdlet 來變更指派給數位範圍的類型。 如果您將數位範圍從 CallPark 變更為 GroupPickup 或反之，而數位範圍已在使用中，則通話駐留或群組通話拾取將會停止處理該數位範圍。 例如，如果您將數位範圍從 CallPark 變更為 GroupPick，則通話駐留應用程式將無法再使用該轉到寄存通話的範圍。
+    > 若最初指定的類型不正確，而且群組範圍尚未使用中，請使用此 Cmdlet 變更指派給號碼範圍的類型。 如果您將號碼範圍從 Fea-callpark-app-no-version 變更為 GroupPickup，反之亦然，而且號碼範圍已在使用中，則通話駐留或群組通話收取會停止該號碼範圍的工作。 例如，如果您將號碼範圍從 Fea-callpark-app-no-version 變更為 GroupPick，則通話駐留應用程式無法再將此範圍的軌道式用於寄存通話。
 
 ## <a name="see-also"></a>另請參閱
 
-[新-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[新 Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[刪除通話公園軌道範圍](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[刪除通話駐留軌道範圍](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)

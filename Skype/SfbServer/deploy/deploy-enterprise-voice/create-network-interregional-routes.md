@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立網路 interregional 路由
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 在商務用 Skype Server 中建立或修改企業語音通話許可控制所使用的網路 interregional 路由。
-ms.openlocfilehash: 2a55e3e2028494a8bc9dc25164eaa67b08d35f83
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在商務用 Skype Server 中建立或修改網路 interregional 路由，以供 Enterprise Voice 通話許可控制使用。
+ms.openlocfilehash: 86b7cf9e41cb20d82f0c3c6edd6bcbd74331d553
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767926"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822493"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路 interregional 路由
  
-在商務用 Skype Server 中建立或修改企業語音通話許可控制所使用的網路 interregional 路由。 
+在商務用 Skype Server 中建立或修改網路 interregional 路由，以供 Enterprise Voice 通話許可控制使用。 
   
-網路 interregional 路由定義一對網路區域之間的路由。 通話許可控制部署中的每一組網路區域都需要有網路 interregional 路由。 這可讓部署中的每個網路區域存取每一個其他區域。
+網路 interregional 路由會定義一對網路地區之間的路由。 通話許可控制部署中的每一對網路地區都需要網路 interregional 路由。 這可讓部署中的每一個網路地區都可以存取所有其他的地區。
   
-雖然區域連結會針對區域之間的連線設定頻寬限制，但 interregional 路由決定了連線將從一個區域傳遞到另一個區域的連結路徑。
+雖然地區連結設定了區域間連線的頻寬限制，但 interregional 路由會決定連線到另一個地區的連結路徑。
   
-在範例拓朴中，您必須為三個地區對中的每一組定義網路 interregional 路由：北美/EMEA、EMEA/APAC，以及北美/APAC。 
+在範例拓撲中，必須為三個地區成對定義網路 interregional 路由：北 America/EMEA、EMEA/APAC 及北 America/APAC。 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management Shell 建立網路 interregional 路由
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立網路 interregional 路由
 
-1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-2. 執行**新的 CsNetworkInterRegionRoute** Cmdlet，以定義所需的路由。 例如，執行：
+2. 執行 **New-CsNetworkInterRegionRoute** Cmdlet 以定義所需的路由。 例如，執行：
     
    ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -52,39 +52,39 @@ ms.locfileid: "41767926"
    ```
 
     > [!NOTE]
-    > 北美/APAC 網路 interregional 路由需要兩個網路區域連結，因為它們之間沒有直接的網路區域連結。 
+    > 北美 America/APAC 網路 interregional 路由需要兩個網路地區連結，因為兩者之間沒有任何直接的網路地區連結。 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 建立網路 interregional 路由
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立網路 interregional 路由
 
-1. 開啟商務用 Skype Server 的 [控制台]。
+1. 開啟商務用 Skype Server 控制台。
     
-2. 在左側導覽列中，按一下 [**網路**設定]。
+2. 在左導覽列中，按一下 **[網路組態]**。
     
-3. 按一下 [**地區路線**] 導覽按鈕。
+3. 按一下 **[地區路由]** 導覽按鈕。
     
-4. 按一下 [**新增**]。
+4. 按一下 **[新增]**。
     
-5. 在 [**新增地區路線**] 頁面上，按一下 [**名稱**]，然後輸入網路 interregional 路由的名稱。
+5. 在 [ **新增地區路由** ] 頁面上，按一下 [ **名稱** ]，然後輸入網路 interregional 路由的名稱。
     
-6. 按一下 [**網路區域 #1**]，然後按一下清單中您要路由至 [網路區域] 的網路區域 #2。
+6. 按一下 **[網路地區 #1]**，再從您要路由轉送至網路地區 #2 的清單中，按一下網路地區。
     
-7. 按一下 [**網路區域 #2**]，然後按一下清單中您要路由至 [網路區域] 的網路區域 #1。
+7. 按一下 **[網路地區 #2]**，再從您要路由轉送至網路地區 #1 的清單中，按一下網路地區。
     
-8. 按一下 [**網路區域連結**] 欄位旁的 [**新增**]，然後新增將在網路 interregional 路由中使用的 [網路區域] 連結。
+8. 按一下 [**網路地區連結**] 欄位旁的 [**新增**]，然後新增網路地區連結，將用於網路 interregional 路由。
     
     > [!NOTE]
-    > 如果您要為兩個網路區域建立路線，而這些區域之間沒有直接的網路區域連結，您必須新增所有必要的連結，才能完成路線。 例如，北美/APAC 網路 interregional 路由需要兩個網路區域連結，因為它們之間沒有直接的網路區域連結。 
+    > 如果您即將為尚未擁有直接網路地區連結的兩個網路地區建立路由，請新增所有必要的連結以便完成該路由。 例如，北 America/APAC 網路 interregional 路由需要兩個網路地區連結，因為兩者之間沒有任何直接的網路地區連結。 
   
-9. 按一下 [認可]****。
+9. 按一下 **[認可]**。
     
-10. 若要為您的拓撲完成建立網路 interregional 路由，請重複步驟4到9，並設定其他網路 interregional 路由。
+10. 若要完成建立拓撲的網路 interregional 路由，請使用其他網路 interregional 路由的設定重複步驟4到9。
     
 ## <a name="see-also"></a>另請參閱
 
-[新-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[新 CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
-[CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
+[CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
-[移除-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
+[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)

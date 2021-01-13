@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype Server 2015 中的 [閘道] 表格
+title: 商務用 Skype Server 中的閘道表格2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
-description: '[閘道] 資料表是支援表格。 每個記錄都儲存一個閘道的相關資訊，這些資訊包含在資料庫中有記錄的公用交換電話網絡（PSTN）通話中。'
-ms.openlocfilehash: ce85b36d5ad587a096c99ca3f3f496642d3a3dd5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 閘道表格是支援的表格。 每筆記錄都儲存在公用交換電話網路 (PSTN) 具有資料庫中記錄的電話所涉及的一個閘道的相關資訊。
+ms.openlocfilehash: e945e5464093eb0eb58965fa1ef8a734ea0afa75
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815161"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821583"
 ---
-# <a name="gateways-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 [閘道] 表格
+# <a name="gateways-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 中的閘道表格2015
  
-[閘道] 資料表是支援表格。 每個記錄都儲存一個閘道的相關資訊，這些資訊包含在資料庫中有記錄的公用交換電話網絡（PSTN）通話中。
+閘道表格是支援的表格。 每筆記錄都儲存在公用交換電話網路 (PSTN) 具有資料庫中記錄的電話所涉及的一個閘道的相關資訊。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**GatewayId** <br/> |int  <br/> |首選  <br/> |識別此閘道的唯一號碼。  <br/> |
-|**關** <br/> |Nvarchar （256）  <br/> | <br/> |閘道名稱。  <br/> |
+|**GatewayId** <br/> |int  <br/> |主要  <br/> |用於識別此閘道的唯一號碼。  <br/> |
+|**閘道** <br/> |Nvarchar (256)   <br/> | <br/> |閘道名稱。  <br/> |
    
 

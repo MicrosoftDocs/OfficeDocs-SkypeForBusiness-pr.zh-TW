@@ -2,8 +2,8 @@
 title: 適用於教育的 Teams
 description: 瞭解可用的系統管理資源，協助您在學校或機構中成功部署、採用及管理小組。
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 1a78acd180527f87eaa4647f722a827c62077a4a
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: 85f1d16a258955e08086b851a503bfac87604bf8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803464"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821123"
 ---
 # <a name="teams-for-education"></a>適用於教育的 Teams
 

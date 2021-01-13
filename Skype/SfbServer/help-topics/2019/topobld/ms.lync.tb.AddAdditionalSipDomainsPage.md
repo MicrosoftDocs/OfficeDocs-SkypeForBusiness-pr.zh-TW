@@ -1,8 +1,8 @@
 ---
 title: 新增其他 SIP 網域
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 ROBOTS: NOINDEX, NOFOLLOW
-description: 指定您想要在部署中支援之其他每個網域的功能變數名稱。 例如，如果您已將 contoso.net 指定為主要會話初始通訊協定（SIP）網域，而且您也想要在您的部署中支援 SIP 流量 fabrikam.net，請將 fabrikam.net 指定為額外的支援網域。
-ms.openlocfilehash: d92d20cf3df2aa54c169028708d00a1e438c5f4c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 指定您要在部署中支援之其他每個網域的功能變數名稱。 例如，如果您已將 contoso.net 指定為主要會話初始通訊協定 (SIP) 網域，而且您也想要支援 fabrikam.net 以進行部署中的 SIP 流量，請將 fabrikam.net 指定為其他支援的網域。
+ms.openlocfilehash: 3df82f2a870d57aa6f6a0b5ada5391f649536dad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794442"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819593"
 ---
 # <a name="add-additional-sip-domains"></a>新增其他 SIP 網域
  
-指定您想要在部署中支援之其他每個網域的功能變數名稱。 例如，如果您已將 contoso.net 指定為主要會話初始通訊協定（SIP）網域，而且您也想要在您的部署中支援 SIP 流量 fabrikam.net，請將 fabrikam.net 指定為額外的支援網域。
+指定您要在部署中支援之其他每個網域的功能變數名稱。 例如，如果您已將 contoso.net 指定為主要會話初始通訊協定 (SIP) 網域，而且您也想要支援 fabrikam.net 以進行部署中的 SIP 流量，請將 fabrikam.net 指定為其他支援的網域。
   
 

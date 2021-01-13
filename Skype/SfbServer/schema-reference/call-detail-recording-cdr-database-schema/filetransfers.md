@@ -1,8 +1,8 @@
 ---
-title: FileTransfers 視圖
+title: FileTransfers view
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: FileTransfer view 會儲存對等檔案傳輸會話的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
-ms.openlocfilehash: d650c04b8dada5828eed5d7bc3039cb77570ce2b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: FileTransfer view 會儲存對等檔案傳輸會話的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
+ms.openlocfilehash: 8b3c2db012b8969bd4b5b75ca19ed090f8227c53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815201"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821683"
 ---
-# <a name="filetransfers-view"></a>FileTransfers 視圖
+# <a name="filetransfers-view"></a>FileTransfers view
  
-FileTransfer view 會儲存對等檔案傳輸會話的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
+FileTransfer view 會儲存對等檔案傳輸會話的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
   
 > [!NOTE]
-> [FileTransfers] 視圖會包含 [ [SessionDetails] 視圖](sessiondetails-0.md)中的所有資料行，以及下方所列的欄。
+> FileTransfers view 包含 [SessionDetails 視圖](sessiondetails-0.md) 中的所有欄，此外還會包含下列欄。
   
-|**左欄**|**資料類型**|**詳細資料**|
+|**欄**|**資料類型**|**詳細資料**|
 |:-----|:-----|:-----|
-|**副檔名** <br/> |Nvarchar （256）  <br/> |已傳輸檔案的名稱。  <br/> |
-|**C** <br/> |Nvarchar  <br/> |用來識別與此郵件相關聯的每一封後續訊息。  <br/> |
-|**FileIdentity** <br/> |uniqueidentifier  <br/> |唯一識別碼，區分涉及相同檔案名的檔案傳輸。  <br/> |
-|**接受** <br/> |稍微  <br/> |可以是 TRUE 或 Null。 如果為 TRUE，則 [拒絕] 和 [取消] 將會是 Null。  <br/> |
-|**否決** <br/> |稍微  <br/> |可以是 TRUE 或 Null。 如果為 TRUE，則 [接受] 和 [取消] 將會是 Null。  <br/> |
-|**取消** <br/> |稍微  <br/> |可以是 TRUE 或 Null。 如果為 TRUE，則 [接受] 和 [拒絕] 會是 Null。  <br/> |
+|**FileName** <br/> |Nvarchar (256)   <br/> |已傳輸的檔案名稱。  <br/> |
+|**Cookie** <br/> |Nvarchar (128)   <br/> |可用來識別與此訊息相關聯的每則後續訊息。  <br/> |
+|**FileIdentity** <br/> |唯一  <br/> |唯一識別碼，用於分辨包含相同檔名的檔案傳輸。  <br/> |
+|**Accept** <br/> |位  <br/> |可為 TRUE 或 NULL。若為 TRUE，則「拒絕」和「取消」為 NULL。  <br/> |
+|**Reject** <br/> |位  <br/> |可為 TRUE 或 NULL。若為 TRUE，則「接受」和「取消」為 NULL。  <br/> |
+|**Cancel** <br/> |位  <br/> |可為 TRUE 或 NULL。若為 TRUE，則「接受」和「拒絕」為 NULL。  <br/> |
    
 

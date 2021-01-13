@@ -1,8 +1,8 @@
 ---
-title: Endpoint 表格
+title: Endpoint 表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
-description: 端點資料表是一個支援資料表，可儲存已參與在資料庫中記錄會話之端點的相關資訊。 資料表中的每一筆記錄代表一個端點。
-ms.openlocfilehash: b64b19a3149fa3d490ea8dc957699c0a114f763c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 端點表是一種支援資料表，可儲存已參與資料庫中記錄之會話之端點的相關資訊。 資料表中的每一筆記錄都代表一個端點。
+ms.openlocfilehash: 9caa0571e562a84c1678208f0e70c27317deda3c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809551"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823063"
 ---
-# <a name="endpoint-table"></a>Endpoint 表格
+# <a name="endpoint-table"></a>Endpoint 表
  
-端點資料表是一個支援資料表，可儲存已參與在資料庫中記錄會話之端點的相關資訊。 資料表中的每一筆記錄代表一個端點。
+端點表是一種支援資料表，可儲存已參與資料庫中記錄之會話之端點的相關資訊。 資料表中的每一筆記錄都代表一個端點。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**EndpointKey** <br/> |int  <br/> |首選  <br/> |標識此端點的唯一號碼。  <br/> |
-|**名稱** <br/> |Nvarchar （256）  <br/> |唯一  <br/> |端點名稱。  <br/> |
-|**OS** <br/> |Nvarchar  <br/> | <br/> |端點的作業系統（OS）。  <br/> |
-|**CPUName** <br/> |Nvarchar  <br/> ||端點的 CPU 名稱。  <br/> |
-|**CPUNumberOfCores** <br/> |Smallint  <br/> ||端點的 CPU 核心數。  <br/> |
+|**EndpointKey** <br/> |int  <br/> |主要  <br/> |用於識別此端點的唯一號碼。  <br/> |
+|**名稱** <br/> |Nvarchar (256)   <br/> |Unique  <br/> |端點名稱。  <br/> |
+|**作業系統** <br/> |Nvarchar (128)   <br/> | <br/> |端點 (作業系統) 。  <br/> |
+|**CPUName** <br/> |Nvarchar (128)   <br/> ||端點的 CPU 名稱。  <br/> |
+|**CPUNumberOfCores** <br/> |Smallint  <br/> ||端點的 CPU 核心數目。  <br/> |
 |**CPUProcessorSpeed** <br/> |int  <br/> ||端點的 CPU 處理器速度。  <br/> |
-|**VirtualizationFlag** <br/> |Tinyint  <br/> || 表示系統是否正在虛擬化環境中執行的位標誌： <br/>  0x0000-無 <br/>  0x0001-HyperV <br/>  0x0002-VMWare <br/>  0x0004-虛擬電腦 <br/>  0x0008-Xen 電腦 <br/> |
+|**VirtualizationFlag** <br/> |Tinyint  <br/> || 指出系統是否在虛擬化環境中執行的位旗標： <br/>  0x0000-無 <br/>  0x0001-HyperV <br/>  0x0002-VMWare <br/>  0x0004-虛擬 PC <br/>  0x0008-Xen 電腦 <br/> |
    
 

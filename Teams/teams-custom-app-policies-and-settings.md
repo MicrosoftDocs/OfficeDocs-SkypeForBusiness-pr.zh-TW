@@ -1,7 +1,7 @@
 ---
 title: 管理自訂 app 原則和設定
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: akino
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: fef9568843d847e422269f7edfae3b1c761aaefa
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 4e9863508d7b10c76ed29bfcb0fec79ca7a33dc5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611757"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821003"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 團隊中的自訂應用程式原則和設定
 
@@ -76,7 +76,7 @@ ms.locfileid: "49611757"
 2. 按一下 [ **新增**]。
 3. 開啟或關閉 **[上傳自訂應用程式**]。
 4. 選擇您想要用於原則的任何其他設定。
-5. 按一下 [儲存]。
+5. 按一下 **[儲存]**。
 
 ### <a name="team-custom-app-setting"></a>團隊自訂應用程式設定
 

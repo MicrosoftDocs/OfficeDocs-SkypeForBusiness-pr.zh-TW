@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6691b246e294db5b1d356431aa2a52f9b67d3446
-ms.sourcegitcommit: 6f1e245ac9a026468432a041a7255104191ae7d3
+ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49716964"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820993"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -53,6 +53,7 @@ Api 可讓合作夥伴開發並整合小組的 CCaaS 方案。 此外，我們�
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
+| 'Geomant' | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
@@ -74,7 +75,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 4. 團隊 Sdk
 
-總之，這些功能可讓3個整合模型：
+總之，這些功能可讓您實現三種整合模型：
 
   - 透過 [直接路由 **]** 連線 () 
 
@@ -84,9 +85,9 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 ### <a name="connect"></a>至
 
-此模型會將 CCaaS 合作夥伴與 Microsoft 團隊手機系統基礎結構連線，以增強路由、配置和系統深入瞭解。 在此模型中，[接觸中心] 合作夥伴解決方案也可以為所選的號碼和使用者提供電話語音。
+此模型會將 CCaaS 合作夥伴與 Microsoft 團隊手機系統基礎結構連線，以增強路由、設定及系統深入分析。 在此模型中，[接觸中心] 合作夥伴解決方案也可以為所選的號碼和使用者提供電話語音。
 
-使用在連線模型上建立之解決方案的代理程式可將資訊 & 真知灼見中收集，以及直接將來電轉接至團隊專家，以確保他們的可用性。
+使用在連線模型上建立之解決方案的代理程式可將資訊 & insights 收集，以及直接將來電轉接至團隊專家，以確保他們的可用性。
 
 組織可以設定自動化的虛擬助手及以技能為基礎的路由佇列，以確保呼叫能傳送到最佳的代理程式。
 
@@ -112,7 +113,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 此模型透過在 Microsoft Graph 中使用 [團隊用戶端平臺](https://docs.microsoft.com/microsoftteams/platform/overview)、 [團隊圖表 Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 和 [雲端通訊 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 與團隊用戶端整合，並使用團隊電話系統進行所有聯絡人通話和通話控制體驗，來延伸連絡人中心人員和代理程式體驗。 在此模型中，連絡人中心合作夥伴就像 Microsoft 365 一樣充當電話運營商。
 
-您可以利用連線與擴充的解決方案，從多個系統開始預訂，然後在內部共同作業和外部通訊的小組中，以無成本的內容切換來獲益。
+透過使用連線和延伸的解決方案，在開始預訂前，您可以從多個系統的動態與內容相關筆記中獲益，然後在內部共同作業和外部通訊的小組中，以無成本的方式切換。
 
 組織可以設計工作流程並將高級路由設定向下移動到個人，並測量其系統品質與互動。
 
@@ -138,11 +139,11 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 ### <a name="extend-and-power"></a>延伸及開啟
 
-此模型可讓合作夥伴利用呼叫基礎結構和用戶端平臺的小組，建立以 Azure 為基礎的語音應用程式，以提供共同作業式客戶與代理程式連線的新型智慧型解決方案。 延伸及加電的目的是 stoke 開發人員創造性，並提升客戶的生產力。
+此模型可讓合作夥伴使用呼叫基礎結構和用戶端平臺的小組，建立以 Azure 為基礎的語音應用程式，以提供共同作業式客戶與代理程式連線的新型智慧解決方案。 延伸及加電的目的是 stoke 開發人員創造性，並提升客戶的生產力。
 
 透過直接在 Azure 上建立，合作夥伴可以在所有團隊地區與地域中快速部署和提供其解決方案，benefitting 從我們的共用全域通訊網路，然後充分利用 Azure 的儲存空間、計算、分析 & 認知服務。
 
-透過 [延伸] 與 [電源整合] 模型，合作夥伴可提供含全通道通訊體驗的連絡人中心代理程式，同時結合了人工智慧，來自訂參與者或其他服務在使用 [Microsoft Graph 中的雲端通訊 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)進行通話的方式和時機。
+透過 [延伸] 與 [電源整合] 模型，合作夥伴可提供含全通道通訊體驗的連絡人中心代理程式，同時結合了人工智慧，來自訂參與者或其他服務在 [Microsoft Graph 中套用雲端通訊 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的呼叫方式和時機。
 
 **功能重點：**
 
@@ -150,7 +151,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 原生代理程式透過團隊 SDK 以本機方式啟用全通道通訊 
 
-  - 針對代理共同作業和客戶互動運用小組共同作業服務  
+  - 針對代理共同作業和客戶互動使用團隊共同作業服務  
 
   - 提供雲端服務的快速資源調配，隨時隨地部署 
 
@@ -158,7 +159,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>比較連線的連絡人中心整合模型
 
-請參閱下表以取得 Microsoft 團隊支援的整合模型的概覽。
+請參閱下表以取得 Microsoft 團隊支援的整合模型概覽。
 
 <table>
 <thead>

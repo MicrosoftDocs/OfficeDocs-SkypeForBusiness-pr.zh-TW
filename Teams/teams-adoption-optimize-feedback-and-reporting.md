@@ -1,7 +1,7 @@
 ---
 title: 針對 Microsoft 團隊採納優化意見反應與報告
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0f8c929eefb8aad83ee4a838b51cb39da6749221
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868640"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821063"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>針對您的 Microsoft 團隊採納優化意見反應與報告
 
@@ -56,7 +56,7 @@ ms.locfileid: "44868640"
 
 當您部署並採用 Microsoft 團隊時，您應該檢查三種類型的報告：
 
-- [服務健康情況](https://status.office365.com/)-從 Microsoft 365、Office 365，以及內部 IT 支援部門。
+- [服務健康情況](https://status.office365.com/) -從 Microsoft 365、Office 365，以及內部 IT 支援部門。
 - 系統[管理中心的 microsoft 365 報表](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)-從 microsoft 365 或 Office 365 在系統[管理中心中查看 microsoft 365 報表-microsoft 團隊使用者活動](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 您也可以使用組織中其他系統的資訊。
 - 服務滿意度-從內部社區論壇和針對特定經驗的調查收集
 

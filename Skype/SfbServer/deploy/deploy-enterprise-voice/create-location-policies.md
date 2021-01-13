@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立位置原則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,38 +15,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: 請閱讀本主題，瞭解如何在商務用 Skype Server Enterprise Voice 中設定增強型緊急服務（E9-1）位置原則。
-ms.openlocfilehash: d06e22850b1556e4c7d9143b49176aff23bb6640
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 閱讀此主題以瞭解如何在商務用 Skype Server Enterprise Voice 中，設定增強型緊急服務 (E9-1-1) 位置原則。
+ms.openlocfilehash: 4230d6ac1a820cb9612d58b21a2e5b6ae36d8f77
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767936"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822543"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立位置原則
 
-請閱讀本主題，瞭解如何在商務用 Skype Server Enterprise Voice 中設定增強型緊急服務（E9-1）位置原則。 
+閱讀此主題以瞭解如何在商務用 Skype Server Enterprise Voice 中，設定增強型緊急服務 (E9-1-1) 位置原則。 
 
-商務用 skype 伺服器使用位置原則，在用戶端註冊期間，為 E9-1-1 啟用商務用 Skype 用戶端。 位置原則包含定義 E9-1-1 將如何實現的設定。 如需詳細資訊，請參閱[規劃商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
+商務用 skype 伺服器會在用戶端註冊期間，使用位置原則，為 E9-1-1 啟用商務用 Skype 用戶端。 位置原則包含定義 E9-1-1 將如何執行的設定。 如需詳細資訊，請參閱 [規劃商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
 
-您可以使用商務用 Skype 的 [控制台] 或使用[CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來定義位置原則。
+您可以使用商務用 Skype 控制台或使用 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來定義位置原則。
 
 > [!NOTE]
-> 商務用 Skype 伺服器現在支援設定用戶端的多個緊急電話號碼。 如果您想要設定多個緊急電話號碼，您必須遵循[規劃商務用 Skype Server 中的多個緊急電話號碼](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)，並在[商務用 skype 中設定多個緊急電話](configure-multiple-emergency-numbers.md)號碼。 
+> 商務用 Skype 伺服器現在支援為用戶端設定多個緊急號碼。 如果您想要設定多個緊急號碼，必須遵循在商務用 skype [Server 中規劃多個緊急](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) 號碼的資訊，並 [在商務用 skype 中設定多個緊急號碼](configure-multiple-emergency-numbers.md)。 
 
-您可以編輯全域位置原則，並建立新的標記位置原則。 當用戶端不位於關聯位置原則的子網中，或用戶端尚未直接指派位置原則時，用戶端會取得全域原則。 已將標記的原則指派給子網或使用者。 
+您可以編輯全域位置原則，並建立新的標記位置原則。 當用戶端不是位於關聯位置原則的子網內，或用戶端尚未直接指派位置原則時，用戶端會取得全域原則。 已將標記原則指派給子網或使用者。 
 
-若要建立位置原則，您必須使用一個帳戶，該帳戶是 RTCUniversalServerAdmins 群組的成員，或是 CsVoiceAdministrator 系統管理角色的成員，或是具有同等的管理員權利和許可權。
+若要建立位置原則，您必須使用 RTCUniversalServerAdmins 群組成員的帳戶，或是 CsVoiceAdministrator 系統管理角色的成員，或具有相等的系統管理員許可權。
 
-如需詳細資訊，請參閱[規劃商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 此程式中的 Cmdlet 使用使用下列值定義的位置原則。 如需 Cmdlet 參數和值的完整說明，請參閱[新 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
+如需詳細資訊，請參閱 [規劃商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 此程式中的 Cmdlet 使用使用下列值定義的位置原則。 如需 Cmdlet 參數和值的完整說明，請參閱 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
 
 
-| **元件**                               | **值**                                                                                                                                                                          |
+| **元素**                               | **值**                                                                                                                                                                          |
 |:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EnhancedEmergencyServicesEnabled  <br/>   | **滿足** <br/>                                                                                                                                                                     |
+| EnhancedEmergencyServicesEnabled  <br/>   | **True** <br/>                                                                                                                                                                     |
 | LocationRequired  <br/>                   | **免責聲明** <br/>                                                                                                                                                               |
-| EnhancedEmergencyServiceDisclaimer  <br/> | 您的公司原則需要您設定位置。 如果您沒有設定位置，緊急服務將無法在緊急情況下找不到您。 請設定位置。  <br/> |
-| UseLocationForE911Only  <br/>             | **虛假** <br/>                                                                                                                                                                    |
+| EnhancedEmergencyServiceDisclaimer  <br/> | 您的公司原則需要您設定位置。 如果您未設定位置，緊急服務將無法在緊急情況下找到您。 請設定位置。  <br/> |
+| UseLocationForE911Only  <br/>             | **False** <br/>                                                                                                                                                                    |
 | PstnUsage  <br/>                          | **EmergencyUsage** <br/>                                                                                                                                                           |
 | EmergencyDialString  <br/>                | **911** <br/>                                                                                                                                                                      |
 | EmergencyDialMask  <br/>                  | **112** <br/>                                                                                                                                                                      |
@@ -57,24 +57,24 @@ ms.locfileid: "41767936"
 
 ### <a name="to-create-location-policies"></a>建立位置原則
 
-1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
     > [!NOTE]
-    > 如果**PstnUsage**的設定尚不在 PstnUsages 的全域清單中，CsLocationPolicy 將會失敗。
+    > 如果 **PstnUsage** 的設定尚未存在於 PstnUsages 的全域清單中，CsLocationPolicy 將會失敗。
 
-2. 或者，您也可以執行下列 Cmdlet 來編輯全域位置原則：
+2. （選用）執行下列 Cmdlet 以編輯全域位置原則：
 
    ```powershell
    Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
    ```
 
-3. 執行下列動作來建立標籤位置原則。
+3. 執行下列各項以建立標記位置原則。
 
    ```powershell
    New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
    ```
 
-4. 執行下列 Cmdlet，將步驟3中建立的標籤位置原則套用至使用者原則。
+4. 執行下列 Cmdlet，將在步驟3中建立的標記位置原則套用至使用者原則。
 
    ```powershell
    (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond

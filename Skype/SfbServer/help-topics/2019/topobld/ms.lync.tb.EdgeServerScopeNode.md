@@ -1,8 +1,8 @@
 ---
 title: Edge Server 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,26 +15,26 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點顯示集區的完整網域名稱 (FQDN) 與此 Edge 集區的其他基本設定。您可以執行下列動作：
-ms.openlocfilehash: 7195e3d43d175ceef26756341cca3c1e3fc59da3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: f2563ffa0700aa8633d2288223185060530fa130
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793771"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822513"
 ---
 # <a name="edge-server-scope-node"></a>Edge Server 範圍節點
  
 此節點顯示集區的完整網域名稱 (FQDN) 與此 Edge 集區的其他基本設定。您可以執行下列動作：
   
-- **新增伺服器**。啟動 [定義新的伺服器精靈]****，以便將其他 Edge Server 新增到此集區。
+- **新增伺服器**。啟動 [定義新的伺服器精靈]，以便將其他 Edge Server 新增到此集區。
     
-- **編輯內容**。開啟此伺服器的「編輯內容」**** 頁面，在此設定內部與外部集區 FQDN 及連接埠，啟用與停用同盟關係及網路位址轉譯 (NAT)，並指定下一步。
+- **編輯內容**。開啟此伺服器的「編輯內容」頁面，在此設定內部與外部集區 FQDN 及連接埠，啟用與停用同盟關係及 NAT，並指定下一步。
     
 - **刪除**。從拓撲刪除集區。
     
 除了這些選項之外，您也可以執行下列一般工作：
   
-- **拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併元件，或是移除部署。
+- **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，合併元件，或移除部署。
     
 - **檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。
     

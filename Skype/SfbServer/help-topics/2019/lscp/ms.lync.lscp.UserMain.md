@@ -1,8 +1,8 @@
 ---
 title: 控制台更新的使用者搜尋
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以使用搜尋查詢的結果來設定商務用 Skype Server 的使用者。 您可以依顯示名稱、名字、姓氏、安全帳戶管理員（SAM）帳戶名稱、SIP 位址或行統一資源識別項（URI）來搜尋使用者。 您也可以使用 Lync Server [控制台] 或 [Active Directory 使用者和電腦] 管理單元來搜尋使用者。
-ms.openlocfilehash: 5322d98e17d93243ad379cad886bea872b215451
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以使用搜尋查詢的結果，為商務用 Skype 伺服器設定使用者。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
+ms.openlocfilehash: f74c1dfe7f1b8184c59261ff03a01f2f5b39db18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795584"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820243"
 ---
-# <a name="control-panel---updated-user-search"></a>使用者搜尋
+# <a name="control-panel---updated-user-search"></a>控制台 - 已更新：使用者搜尋
 
-您可以使用搜尋查詢的結果來設定商務用 Skype Server 的使用者。 您可以依顯示名稱、名字、姓氏、安全帳戶管理員（SAM）帳戶名稱、SIP 位址或行統一資源識別項（URI）來搜尋使用者。 您也可以使用 Lync Server [控制台] 或 [Active Directory 使用者和電腦] 管理單元來搜尋使用者。
+您可以使用搜尋查詢的結果，為商務用 Skype 伺服器設定使用者。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以在**使用者搜尋**[控制台] 頁面上執行下列任務：
+您可以在 [ **使用者搜尋** 控制台] 頁面上執行下列工作：
 
 - [搜尋使用者](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
 
@@ -38,72 +38,72 @@ ms.locfileid: "41795584"
 
 - [移動所有使用者](ms.lync.lscp.UserMoveAll.md)
 
-- [指派原則給使用者](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [將原則指派給使用者](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
-- [在商務用 Skype Server 中啟用企業語音的使用者](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在商務用 Skype Server 中啟用使用者的 Enterprise Voice](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [為使用者設定同盟、遠端使用者存取及公用 IM 連線](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [為使用者設定電話語音](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [設定使用者的電話語音](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 
 
 ## <a name="ui-reference"></a>UI 參考
 
-下列清單說明 [**使用者搜尋**] 頁面上的功能表、命令、欄位及屬性。
+下列清單說明「使用者搜尋」頁面上的功能表、命令、欄位及屬性。
 
 ### <a name="user-search"></a>使用者搜尋
 
-- **搜尋**依使用者帳戶的顯示名稱、名字、姓氏、SAM 帳戶名稱、SIP 位址或行 URI 的第一個部分來搜尋使用者。
+- **搜尋** 根據顯示名稱、名字、姓氏、SAM 帳戶名稱、SIP 位址或使用者帳戶的線路 URI 的第一個部分來搜尋使用者。
 
-- **LDAP 搜尋**輸入 LDAP 運算式，以搜尋使用者。
+- **LDAP 搜尋** 輸入 LDAP 運算式，以搜尋使用者。
 
-- [**搜尋使用者**] 方塊輸入您要搜尋的使用者資料或 LDAP 運算式。
+- **搜尋使用者** 方塊輸入您想要尋找的使用者資料或 LDAP 運算式。
 
-- **尋找**按一下以顯示與您在 [**搜尋使用者**] 和 [方塊] 中輸入之搜尋值相符的使用者。
+- **尋找** 按一下以顯示符合您在 [ **搜尋使用者** 和] 方塊中輸入之搜尋值的使用者。
 
-- **開啟查詢**按一下以開啟已儲存的搜尋查詢。
+- **開啟查詢** 按一下以開啟已儲存的搜尋查詢。
 
-- [**儲存查詢**]按一下以儲存搜尋查詢。
+- **儲存查詢** 按一下以儲存搜尋查詢。
 
-- **+ 新增篩選**按一下以新增其他搜尋準則。
+- **+ Add filter** 按一下以新增其他搜尋準則。
 
-- **搜尋篩選欄位**選取您要篩選搜尋結果的欄位，選取查詢的運算子，然後輸入您要搜尋的字串。
+- **搜尋篩選欄位** 選取您要篩選搜尋結果的欄位，並為查詢選取運算子，然後輸入您要搜尋的字串。
 
-- **要顯示的使用者數目上限**輸入您想要顯示的搜尋結果數目，或使用向上鍵和向下鍵來指定數位。
+- **顯示的使用者上限** 輸入您想要顯示的搜尋結果數目，或使用向上鍵和向下鍵指定數目。
 
-視需要新增其他描述性文字。
+您可以視情況新增其他說明文字。
 
 ### <a name="search-results-menus"></a>搜尋結果功能表
 
-- **允許使用者**按一下以開啟 [[使用者：新的 Lync Server 使用者](ms.lync.lscp.UserNew.md)] 對話方塊，您可以在其中將新使用者新增至商務用 Skype 伺服器。
+- **啟用使用者** 按一下以開啟 [ [使用者：新增 Lync Server 使用者](ms.lync.lscp.UserNew.md) ] 對話方塊，您可以在其中將新使用者新增至商務用 Skype Server。
 
-    若要新增連絡人，請按一下向下箭號，然後選取 [**啟用連絡人**] 來開啟 [[使用者：新增連絡人物件](ms.lync.lscp.UserNewContact.md)] 對話方塊。
+    若要新增連絡人，請按向下鍵，然後選取 [啟用使用者] 開啟 [[Users: New Contact Objects](ms.lync.lscp.UserNewContact.md)] 對話方塊。
 
-- [**編輯**]按一下 [**編輯**]，然後按一下 [**顯示詳細資料**] 以顯示所選使用者的詳細資料，或按一下 [**選取所有搜尋結果**] 以選取 [結果] 表格中顯示的所有使用者。
+- **編輯** 按一下 [ **編輯** ]，然後按一下 [ **顯示詳細資料** ] 以顯示所選使用者的詳細資料，或按一下 [ **選取所有搜尋結果** ] 以選取顯示在結果表格中的所有使用者。
 
-- **動作**按一下 [**動作**]，然後在搜尋結果中選取您要為選取的使用者執行的動作。 下列動作可供使用：
+- **動作** 按一下 [ **動作**]，然後選取您要對搜尋結果中選取之使用者執行的動作。 可供使用的動作如下：
 
-  - **重新啟用 Lync Server**在已暫時停用所選的使用者帳戶之後，啟用該帳戶。
+  - **重新啟用 Lync Server** 在暫時停用選取的使用者帳戶之後，啟用該帳戶。
 
-  - **針對 Lync Server 暫時停**用在商務用 Skype Server 中停用使用者帳戶，直到您重新啟用，而不需移除使用者帳戶。
+  - **暫時停用 Lync Server** 停用商務用 Skype Server 中的使用者帳戶，直到您重新啟用它，但不移除使用者帳戶。
 
-  - **指派原則**開啟 [[使用者：指派原則](ms.lync.lscp.UserAssignPolicy.md)] 對話方塊，您可以在此設定指派給使用者的原則。
+  - **指派原則** 開啟 [ [使用者：指派原則](ms.lync.lscp.UserAssignPolicy.md) ] 對話方塊，您可以在其中設定指派給使用者的原則。
 
-  - **查看 PIN 狀態**開啟 [[使用者：查看 Pin 狀態](ms.lync.lscp.UserViewPin.md)] 對話方塊，顯示所選使用者的 PIN 資料。
+  - **VIEW PIN 狀態** 開啟 [ [使用者： View PIN 碼狀態](ms.lync.lscp.UserViewPin.md) ] 對話方塊，其中會顯示所選使用者的 PIN 碼資料。
 
-  - **設定 PIN**開啟 [[設定 PIN](ms.lync.lscp.UserSetPin.md) ] 對話方塊，您可以在此設定所選使用者的 PIN。
+  - **設定 PIN** 開啟 [ [設定 pin](ms.lync.lscp.UserSetPin.md) ] 對話方塊，您可以在其中設定所選使用者的 PIN 碼。
 
-  - **鎖定 PIN**鎖定使用者的 PIN。
+  - **鎖定 PIN** 鎖定使用者的 PIN 碼。
 
-  - **解除鎖定 PIN**移除使用者的 PIN 鎖定。
+  - **解除鎖定 PIN** 移除使用者 PIN 碼的鎖定。
 
-  - **從 Lync Server 移除**從商務用 Skype Server 移除使用者帳戶。 使用者並未從 Active Directory 中移除。
+  - **從 Lync Server 移除** 從商務用 Skype Server 中移除使用者帳戶。 使用者並未從 Active Directory 中移除。
 
-  - **移除使用者憑證**移除所有授權給使用者的憑證。
+  - **移除使用者憑證** 移除所有授與使用者的憑證。
 
-  - **將選取的使用者移至 [泳池**]開啟 [[移動使用者](ms.lync.lscp.UserMove.md)] 對話方塊，您可以在其中選取要將選取的使用者移至其中的 [文件庫]。
+  - **將選取的使用者移至集** 區開啟 [ [移動使用者](ms.lync.lscp.UserMove.md) ] 對話方塊，您可以在其中選取要將選取的使用者移至其中的集區。
 
-  - **將所有使用者移至 [資源庫**]開啟 [[移動使用者](ms.lync.lscp.UserMove.md)] 對話方塊，您可以在其中選取要將所有選取的使用者移至其中的 [文件庫]。
+  - **將所有使用者移至集** 區開啟 [ [移動使用者](ms.lync.lscp.UserMove.md) ] 對話方塊，您可以在其中選取要將所有選取的使用者移至其中的集區。
 
 

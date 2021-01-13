@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2015 中的 IMReportSummary 表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
-description: IMReportSummaryTable 會提供組織中的立即訊息會話的整體報告。 此表格是在 Microsoft Lync Server 2013 中推出。
-ms.openlocfilehash: f845a882bb8bd6ba5ca434ffc42a34725cfeac51
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: IMReportSummaryTable 會提供組織中保留之立即訊息工作階段的整體報告。 此表格已引進 Microsoft Lync Server 2013。
+ms.openlocfilehash: 6a80918376440c13d60e059744d88c09c2705853
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815141"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821523"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 IMReportSummary 表格
  
-IMReportSummaryTable 會提供組織中的立即訊息會話的整體報告。 此表格是在 Microsoft Lync Server 2013 中推出。
+IMReportSummaryTable 會提供組織中保留之立即訊息工作階段的整體報告。 此表格已引進 Microsoft Lync Server 2013。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**開始** <br/> |datetime  <br/> |首選  <br/> |立即訊息會話開始的日期和時間。  <br/> |
-|**TimePeriod** <br/> |char （1）  <br/> |首選  <br/> ||
-|**PoolFQDN** <br/> |Nvarchar （257）  <br/> |首選  <br/> |主持會話之池的完整功能變數名稱。  <br/> |
-|**AuthType** <br/> |int  <br/> |首選  <br/> |通話的優先順序（例如，緊急或非緊急）。 優先順序資訊會儲存在[商務用 Skype Server 2015 的 CallPriorities 表格](callpriorities.md)中。  <br/> |
+|**StartTime** <br/> |datetime  <br/> |主要  <br/> |立即訊息工作階段開始的日期及時間。  <br/> |
+|**TimePeriod** <br/> |char (1)   <br/> |主要  <br/> ||
+|**PoolFQDN** <br/> |Nvarchar (257)   <br/> |主要  <br/> |裝載此工作階段之集區的完整網域名稱。  <br/> |
+|**AuthType** <br/> |int  <br/> |主要  <br/> |電話的優先順序 (例如，緊急或非緊急)。 優先順序資訊會儲存在 [商務用 Skype Server 2015 的 CallPriorities 表格](callpriorities.md)中。  <br/> |
 |**SessionCount** <br/> |Bigint  <br/> |||
-|**MsgCount** <br/> |Bigint  <br/> ||會話期間交換的立即訊息總數。  <br/> |
+|**MsgCount** <br/> |Bigint  <br/> ||工作階段期間交換的立即訊息總數。  <br/> |
    
 

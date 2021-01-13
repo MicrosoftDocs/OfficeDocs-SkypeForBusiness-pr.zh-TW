@@ -1,8 +1,8 @@
 ---
 title: 選取正規化規則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
-description: 正規化規則會使用 .NET Framework 規則運算式，將撥出的電話號碼轉譯成 E.164 格式。每個撥號對應表都必須被指派一或多個正規化規則。
-ms.openlocfilehash: d5e8e01d318082199919b193fa48aea0cbe1b355
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式。 每個撥號對應表都必須被指派一或多個正常化規則。
+ms.openlocfilehash: dda49bb8ae3a1ebce7eeb5b63877bd2cea323e86
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797830"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820103"
 ---
 # <a name="select-normalization-rules"></a>選取正規化規則
  
-正規化規則會使用 .NET Framework 規則運算式，將撥出的電話號碼轉譯成 E.164 格式。每個撥號對應表都必須被指派一或多個正規化規則。
+正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式。 每個撥號對應表都必須被指派一或多個正常化規則。
   
-若要使用現有的正規化規則，請按一下清單中的規則，再按一下 [確定]****。
+若要使用現有的正規化規則，請按一下清單中的規則，然後按一下 **[確定]**。
   
  
   

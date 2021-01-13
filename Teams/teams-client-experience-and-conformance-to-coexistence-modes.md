@@ -1,7 +1,7 @@
 ---
 title: Teams 用戶端體驗和遵從共存模式
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c67046128c79608f19a4a1f4474164a949f37ef
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20d1ff52fa59f31b796d2580a0e2819c80caaf42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903358"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821023"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 用戶端體驗和遵從共存模式
 
@@ -63,7 +63,7 @@ ms.locfileid: "43903358"
 ## <a name="impact-of-mode-on-other-policy-settings"></a>模式對其他原則設定的影響
 如上所述，使用者的共存模式會影響使用者的團隊用戶端提供的功能。 這表示 mode 的值可能會優先于其他原則設定的值，視模式而定。 具體說來，共存模式會影響是否會遵守下列原則設定：
 
-|** (應用程式) 的模態 **|**原則。設定**|
+|**(應用程式) 的模態**|**原則。設定**|
 |---|---|
 |聊天|TeamsMessagingPolicy.AllowUserChat|
 |通話|TeamsCallingPolicy.AllowPrivateCalling|

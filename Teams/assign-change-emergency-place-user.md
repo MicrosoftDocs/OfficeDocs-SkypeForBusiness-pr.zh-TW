@@ -1,7 +1,7 @@
 ---
 title: 指派、變更使用者緊急位置的位置
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: 在本文中，您將瞭解如何為貴組織中的使用者指派或變更緊急位置的位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35f7dfe6572b7ef3dc76b6c224d206e2ee4f23a2
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 385855c456d3a4e5c2de53fb2605e4d5d30d84a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539510"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809523"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>為使用者指派或變更緊急位置的位置
 
-當您將電話號碼指派給使用者時，每個活躍的電話號碼都必須有相關聯的緊急位置。 （當您在 Office 365 中取得電話號碼時，或當您轉移電話號碼時，您會建立關聯的位址。）當您將數位與緊急位置建立關聯時，您也可以新增位置，在物理位置中提供更精確的位置。 位置可以是地面、建築物翼或使用者所在的辦公室號碼。 您可以在指定的緊急位置有不限數量的位置，而且如果使用者移至不同的 office 或組建，就可以變更位置。 例如，如果使用者從 floor 34 移至地面35。
+當您將電話號碼指派給使用者時，每個活躍的電話號碼都必須有相關聯的緊急位置。  (當您在 Office 365 中取得電話號碼或傳送電話號碼時，就會建立關聯的位址。 ) 當您將數位與緊急位置建立關聯時，您也可以新增位置，以便在物理位置中提供更精確的位置。 位置可以是地面、建築物翼或使用者所在的辦公室號碼。 您可以在指定的緊急位置有不限數量的位置，而且如果使用者移至不同的 office 或組建，就可以變更位置。 例如，如果使用者從 floor 34 移至地面35。
   
-若要瞭解如何取得通話方案和成本，請參閱[小組附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要瞭解如何取得通話方案和成本，請參閱 [小組附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 您可以在 Microsoft 團隊系統管理中心或使用 PowerShell 中為使用者指派或變更緊急位置的位置。
 
@@ -37,21 +37,21 @@ ms.locfileid: "44539510"
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**語音**  >  **電話號碼**]。
 
-2. 在 [**電話號碼**] 頁面上，按一下 [**數位**] 索引標籤，選取清單中的使用者編號，然後按一下 [**編輯**]。
+2. 在 [ **電話號碼** ] 頁面上，按一下 [ **數位** ] 索引標籤，選取清單中的使用者編號，然後按一下 [ **編輯**]。
 
-3. 在 [**編輯**] 窗格的 [**緊急位置**] 底下，執行下列其中一項操作：
+3. 在 [ **編輯** ] 窗格的 [ **緊急位置**] 底下，執行下列其中一項操作：
 
     - 若要指派位置，請搜尋位置或位置，然後選取搜尋結果中的位置。
 
     - 若要變更已指派給使用者的位置，請按一下 [ **X** ] 以移除現有的位置和位置，然後按一下 [搜尋]，然後選取您要指派的位置。
 
-4. 視您是否想要傳送電子郵件給使用者的電話號碼資訊而定，請關閉或開啟**含有電話號碼資訊的電子郵件使用者**。 根據預設，這是開啟的。
+4. 視您是否想要傳送電子郵件給使用者的電話號碼資訊而定，請關閉或開啟 **含有電話號碼資訊的電子郵件使用者**。 根據預設，這是開啟的。
 
 5. 按一下 **[** 套用]。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-請參閱[設定 CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)。
+請參閱 [設定 CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)。
     
 ## <a name="related-topics"></a>相關主題
 

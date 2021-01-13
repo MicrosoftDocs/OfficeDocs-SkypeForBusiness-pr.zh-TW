@@ -1,8 +1,8 @@
 ---
 title: VideoClientEvent 表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
-description: 每個記錄都包含視頻通話中某個端點的用戶端事件。 通常，一個通話有兩筆記錄，一個用於呼叫者，另一個用於被叫方。
-ms.openlocfilehash: 9acd7277fd6bc32074487be1db9874ef6a5c91aa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 每個記錄在影片通話中包含一個端點的用戶端事件。 通常，一個呼叫有兩筆記錄，一個用於來電者，另一個用於呼叫者。
+ms.openlocfilehash: bb4a9feca562bed7bdb0080e7f9181003952f5d4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804991"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821393"
 ---
 # <a name="videoclientevent-table"></a>VideoClientEvent 表格
  
-每個記錄都包含視頻通話中某個端點的用戶端事件。 通常，一個通話有兩筆記錄，一個用於呼叫者，另一個用於被叫方。
+每個記錄在影片通話中包含一個端點的用戶端事件。 通常，一個呼叫有兩筆記錄，一個用於來電者，另一個用於呼叫者。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |首選  <br/> |從[MediaLine 資料表](medialine-0.md)中參照。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |首選  <br/> |從[MediaLine 資料表](medialine-0.md)中參照。  <br/> |
-|**MediaLineLabel** <br/> |Tinyint  <br/> |首選  <br/> |從[MediaLine 資料表](medialine-0.md)中參照。  <br/> |
-|**FromCaller** <br/> |稍微  <br/> |首選  <br/> |0：被方程式的資料  <br/> 1：來電者的資料  <br/> |
-|**NetworkBandwidthLowEventRatio** <br/> || <br/> |會話針對「錯誤」狀態觸發 LowBandwidth 事件的百分比。 可用的頻寬不足以取得可接受的語音體驗。  <br/> |
-|**NetworkReceiveQualityEventRatio** <br/> || <br/> |會話針對「錯誤」狀態觸發 ReceiveSendQuality 事件的百分比。  <br/> 在抖動或資料包遺失方面的網路品質很嚴重，而且會影響接收的音訊品質。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |主要  <br/> |從 [MediaLine 表格](medialine-0.md)中參照。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |主要  <br/> |從 [MediaLine 表格](medialine-0.md)中參照。  <br/> |
+|**MediaLineLabel** <br/> |Tinyint  <br/> |主要  <br/> |從 [MediaLine 表格](medialine-0.md)中參照。  <br/> |
+|**FromCaller** <br/> |位  <br/> |主要  <br/> |0：被呼叫者的資料  <br/> 1：來電者的資料  <br/> |
+|**NetworkBandwidthLowEventRatio** <br/> || <br/> |會話百分比 LowBandwidth 事件引發「不良」狀態。 可用的頻寬不足以取得可接受的語音體驗。  <br/> |
+|**NetworkReceiveQualityEventRatio** <br/> || <br/> |會話百分比已針對 ' 壞」狀態引發 ReceiveSendQuality 事件。  <br/> 抖動或封包遺失方面的網路品質很嚴重，且會影響所接收的音訊品質。  <br/> |
    
 

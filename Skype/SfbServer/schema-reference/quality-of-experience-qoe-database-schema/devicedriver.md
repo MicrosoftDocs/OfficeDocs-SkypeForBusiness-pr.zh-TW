@@ -1,8 +1,8 @@
 ---
 title: DeviceDriver 表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
-description: DeviceDriver 資料表是支援資料表。 每個記錄都代表擷取裝置或轉譯裝置所使用的驅動程式。
-ms.openlocfilehash: 8a502a1fc07c3541522931554064f7708b3e6187
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: DeviceDriver 表格是支援的表格。 每筆記錄都代表一個捕獲裝置或轉譯裝置使用的驅動程式。
+ms.openlocfilehash: 1f83bfd014fa5fb49f4d0f900e01aeecfe2b5f46
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823073"
 ---
 # <a name="devicedriver-table"></a>DeviceDriver 表格
  
-DeviceDriver 資料表是支援資料表。 每個記錄都代表擷取裝置或轉譯裝置所使用的驅動程式。
+DeviceDriver 表格是支援的表格。 每筆記錄都代表一個捕獲裝置或轉譯裝置使用的驅動程式。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**DeviceDriverKey** <br/> |int  <br/> |首選  <br/> |識別此裝置驅動程式記錄的唯一號碼。  <br/> |
-|**DeviceDriver** <br/> |Varchar （256）  <br/> |唯一  <br/> |裝置驅動程式名稱。  <br/> |
+|**DeviceDriverKey** <br/> |int  <br/> |主要  <br/> |用於識別此裝置磁碟機記錄的唯一號碼。  <br/> |
+|**DeviceDriver** <br/> |Varchar (256)   <br/> |unique  <br/> |裝置驅動程式名稱。  <br/> |
    
 

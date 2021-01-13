@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中管理貴組織的任務應用程式
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18af74a2a62f8282ee9b39c998db803235cc4ff0
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: ba8c1129edbff492d09ea5c103c25c399fc4a58a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130494"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822733"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的任務應用程式
 
@@ -121,7 +121,7 @@ Contoso 總部和中級經理可以查看報告，以查看每個商店及跨商
 
 ## <a name="power-automate-and-graph-api"></a>電源自動化及圖形 API
 
-[工作] 可支援 Planner 的電源自動作業及圖形 Api。 若要深入瞭解，請參閱：
+[工作] 可支援 Planner 的電源自動作業及圖形 Api。 若要深入了解，請參閱：
 
 - [Planner 工作與計畫 API 概覽](https://docs.microsoft.com/graph/planner-concept-overview)
 - [使用 Microsoft 與電源自動進行](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

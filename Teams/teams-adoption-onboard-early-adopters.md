@@ -1,7 +1,7 @@
 ---
 title: 讓早期採用者快速上手並收集意見反應
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: ba82d305d48471e414c8da18aadf598d42445d6d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350237"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821073"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>早期採納並收集 Microsoft 團隊的意見反應
 
@@ -43,10 +43,10 @@ ms.locfileid: "44350237"
 
 使用 Microsoft 365 或 Office 365 的元件，為您的專案收集意見反應。
   
-![代表決策點的圖示](media/teams-adoption-decision-icon.png) 決策：如果您的組織已在 Yammer 網路中擁有投資，您可以將其做為您的先期消費者程式的意見反應論壇。 如果不是，而您的前期消費者程式的成員少於5000個，請在小組中建立小組，以收集意見反應並提供訓練。
+![表示決策點的圖示](media/teams-adoption-decision-icon.png) 決策：如果您的組織已在 Yammer 網路中擁有投資，您可以將其做為您的先期消費者程式的意見反應論壇。 如果不是，而您的前期消費者程式的成員少於5000個，請在小組中建立小組，以收集意見反應並提供訓練。
   
 > [!Note]
 > 有些組織會將前期意見反應的頻道結合到小組擁護者小組中。 這是一種很好的做法，因為許多早期的使用方式可能會成為未來的擁護者，而且會建立更強的群組。 
 
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ：[板載支援](teams-adoption-onboard-support.md)。
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [板載支援](teams-adoption-onboard-support.md)。

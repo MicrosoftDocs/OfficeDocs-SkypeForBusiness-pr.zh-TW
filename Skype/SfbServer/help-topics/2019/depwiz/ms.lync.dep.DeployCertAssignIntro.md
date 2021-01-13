@@ -1,8 +1,8 @@
 ---
 title: 憑證指派 (簡介)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要開始指派要在商務用 Skype Server 中使用的憑證，請按 [下一步]。
-ms.openlocfilehash: bb31b48e821dacbe7c18e7d5848caf5e359bb277
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要開始指派憑證以用於商務用 Skype Server，請按 [下一步]。
+ms.openlocfilehash: feb180c2fbfc6e52b4f3d6be0cfa4885c695f4c6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796904"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820493"
 ---
 # <a name="certificate-assignment-intro"></a>憑證指派 (簡介)
  
-若要開始指派要在商務用 Skype Server 中使用的憑證，請按 **[下一步]**。
+若要開始指派憑證以用於商務用 Skype Server，請按 **[下一步]**。
   
 

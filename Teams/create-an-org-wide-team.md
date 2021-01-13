@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中建立全組織小組
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d0534d4c0a62573bd3ac649c39b3d0f17a235f6
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: b5f96d120d30f723f55299325dca9bb1b3126ac0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361433"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809553"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中建立全組織小組
 
 全組織小組提供自動化方式，讓中小型組織中的每個人都成為單一小組的一部分來進行共同作業。
 
-透過全組織小組，全域系統管理員可以輕鬆建立一個公開的小組，將組織中的每個使用者都拉入，當使用者加入和離開組織時，讓成員資格能隨著 Active Directory 保持在最新狀態。 只有全域管理員才能建立整個組織的團隊，而且目前組織範圍的小組僅限於5000使用者以外的組織。 另外還有一個限制是，每個租用戶只能有五個全組織小組。 如果符合這些需求，在建立小組時，全域系統管理員選取 [從頭建置小組]**** 時會看到 [全組織]**** 這個選項。 
+透過全組織小組，全域系統管理員可以輕鬆建立一個公開的小組，將組織中的每個使用者都拉入，當使用者加入和離開組織時，讓成員資格能隨著 Active Directory 保持在最新狀態。 只有全域管理員才能建立整個組織的團隊，而且目前組織範圍的小組僅限於5000使用者以外的組織。 另外還有一個限制是，每個租用戶只能有五個全組織小組。 如果符合這些需求，在建立小組時，全域系統管理員選取 [從頭建置小組] 時會看到 [全組織] 這個選項。 
 
 ![建立全組織小組的全組織選項螢幕擷取畫面](media/create-org-wide-team.png "建立全組織小組的全組織選項螢幕擷取畫面")
 
@@ -60,7 +60,7 @@ ms.locfileid: "48361433"
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>關閉 @team 和 @[小組名稱] 提及項目
 
- 降低 @mentions 使其不會讓整個組織超載。 移至小組，然後按一下 [更多選項]****  >  [管理小組]****。 在 [設定]**** 索引標籤上，按一下 [@mentions]<strong></strong> > 關閉 [向成員顯示 @team 或 @[小組名稱] 選項]****。 
+ 降低 @mentions 使其不會讓整個組織超載。 移至小組，然後按一下 [更多選項]  >  [管理小組]。 在 [設定] 索引標籤上，按一下 [@mentions]<strong></strong> > 關閉 [向成員顯示 @team 或 @[小組名稱] 選項]。 
 
 ### <a name="automatically-show-important-channels"></a>自動顯示重要頻道
 
@@ -80,11 +80,11 @@ ms.locfileid: "48361433"
 
 全域系統管理員只能使用 Teams 用戶端建立全組織小組。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。 如需詳細資訊，請參閱 [管理可以建立群組的人員](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
-如果這不是選項，您可以使用 PowerShell 來建立公用小組，並將全域系統管理員新增為小組擁有者。 然後，讓全域系統管理員按一下小組名稱旁的 [更多選項]****，按一下 [編輯小組]****，然後將隱私權變更為 [全組織 - 貴組織中的所有人都會自動新增]****。 請注意，只有小組擁有者可以存取 [編輯小組]**** 選項，而且只有全域系統管理員才能查看 [全組織]**** 選項。
+如果這不是選項，您可以使用 PowerShell 來建立公用小組，並將全域系統管理員新增為小組擁有者。 然後，讓全域系統管理員按一下小組名稱旁的 [更多選項]，按一下 [編輯小組]，然後將隱私權變更為 [全組織 - 貴組織中的所有人都會自動新增]。 請注意，只有小組擁有者可以存取 [編輯小組] 選項，而且只有全域系統管理員才能查看 [全組織] 選項。
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>有沒有方法可以將現有的小組轉換成全組織小組？
 
-全域系統管理員可以在 Teams 用戶端中編輯現有的小組，將其轉換成全組織小組。 移至小組名稱，按一下 [更多選項]****  >  [編輯小組]****。
+全域系統管理員可以在 Teams 用戶端中編輯現有的小組，將其轉換成全組織小組。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
 
 ### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>我可以使用小組範本建立組織範圍的團隊嗎？
 
