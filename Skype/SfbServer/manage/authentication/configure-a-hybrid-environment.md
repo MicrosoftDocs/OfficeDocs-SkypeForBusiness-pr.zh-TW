@@ -1,8 +1,8 @@
 ---
 title: 設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要：設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
-ms.openlocfilehash: 6cc408677af4629d36b577da4ae38cd420195483
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6f4e11b54f0292b1ccb91ab486e2e638a4dcceb6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221677"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828483"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
 
@@ -123,7 +123,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-在匯入並編碼憑證之後，您可以將憑證指派給您的 Microsoft 365 或 Office 365 服務主體。 若要這麼做，請先使用 New-msolserviceprincipal，以取得商務用 Skype Server 和 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值;AppPrincipalId 屬性的值將用來識別被指派憑證的服務主體。 使用適用于商務用 Skype Server 的 AppPrincipalId 屬性值，使用下列命令將憑證指派至商務用 Skype Online 版本：
+在匯入並編碼憑證之後，您可以將憑證指派給您的 Microsoft 365 或 Office 365 服務主體。 若要這麼做，請先使用 Get-MsolServicePrincipal，以取得商務用 Skype Server 和 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值。AppPrincipalId 屬性的值將用來識別被指派憑證的服務主體。 使用適用于商務用 Skype Server 的 AppPrincipalId 屬性值，使用下列命令將憑證指派至商務用 Skype Online 版本：
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 

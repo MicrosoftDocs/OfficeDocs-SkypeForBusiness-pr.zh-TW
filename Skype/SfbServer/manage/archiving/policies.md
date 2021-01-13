@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中管理存檔原則
+title: 管理商務用 Skype Server 中的封存原則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,50 +12,50 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
-description: 摘要：瞭解如何管理適用于商務用 Skype Server 的存檔的使用者原則。
-ms.openlocfilehash: f2dca47dd7fd3095b2865ff72516b6be84144352
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解如何管理用於商務用 Skype Server 封存的使用者原則。
+ms.openlocfilehash: 949ac807faea4f563ee078512a3c0a335a517d2c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818885"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828543"
 ---
-# <a name="manage-archiving-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中管理存檔原則
+# <a name="manage-archiving-policies-in-skype-for-business-server"></a>管理商務用 Skype Server 中的封存原則
 
-**摘要：** 瞭解如何管理適用于商務用 Skype Server 的存檔的使用者原則。
+**摘要：** 瞭解如何管理適用于商務用 Skype Server 之封存的使用者原則。
   
-您最初是在部署封存時設定封存原則，但是您可以在部署之後變更、新增及刪除設定。 存檔原則決定是否要封存： 
+您在部署封存時，最初會設定封存原則，但您可以在部署後變更、新增和刪除設定。 封存原則決定是否要封存： 
   
 - 內部通訊
     
 - 外部通訊
     
-您可以在全域、網站或使用者層級設定歸檔原則。
+您可以在全域、網站或使用者層級設定封存原則。
   
 > [!NOTE]
-> 如果您已針對您的部署啟用 Microsoft Exchange 整合，Exchange 原則會控制是否針對駐留在 Exchange 的使用者啟用封存，並將其信箱放在就地保留中。 如需詳細資訊，請參閱[在商務用 Skype server 中進行](../../plan-your-deployment/archiving/archiving.md)封存的規劃，以及[設定與商務用 Skype server 的 Exchange 儲存體整合](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 如果您已針對您的部署啟用 Microsoft Exchange 整合，Exchange 原則會控制是否為位於 Exchange 上的使用者啟用封存，並將其信箱置於 In-Place 保留狀態。 如需詳細資訊，請參閱 Plan for 封存 [In 商務用 Skype server](../../plan-your-deployment/archiving/archiving.md) 和 [設定與 Exchange storage 的整合（適用于商務用 skype 伺服器](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)）。 
   
-## <a name="manage-archiving-policies-by-using-the-control-panel"></a>使用 [控制台] 管理歸檔原則
+## <a name="manage-archiving-policies-by-using-the-control-panel"></a>使用控制台管理封存原則
 
-您可以使用 [控制台] 管理存檔原則，如下所示：
+您可以使用 [控制台] 來管理封存原則，如下所示：
   
-1. 從指派給 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。 
+1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
     
-3. 在左側導覽列中，按一下 [封存**原則**]
+3. 在左導覽列中，按一下 [封存 **原則**]
     
-## <a name="manage-archiving-policies-by-using-windows-powershell"></a>使用 Windows PowerShell 管理存檔原則
+## <a name="manage-archiving-policies-by-using-windows-powershell"></a>使用 Windows PowerShell 管理封存原則
 
-您也可以使用下表所列的 Windows PowerShell Cmdlet 來設定歸檔原則。 如需語法的詳細資料（包括所有可用的參數），請參閱[商務用 Skype Server 管理命令](../management-shell.md)介面。
+您也可以使用下表所列的 Windows PowerShell Cmdlet 來設定封存原則。 如需語法的詳細資訊（包括所有可用參數），請參閱 [商務用 Skype Server 管理命令](../management-shell.md)介面。
   
 
-|**Cmdlet**|**說明**|
+|**指令程式**|**描述**|
 |:-----|:-----|
-|Get-CsArchivingPolicy  <br/> |傳回貴組織的立即訊息（IM）會話存檔原則的相關資訊。  <br/> |
-|授與 CsArchivingPolicy  <br/> |將立即訊息（IM）會話存檔原則指派給使用者或使用者組。 這些原則可讓您封存在內部使用者之間進行的所有 IM 會話，以及/或封存在內部使用者與外部合作夥伴之間發生的所有 IM 會話。  <br/> |
-|New-CsArchivingPolicy  <br/> |建立新的立即訊息（IM）會話存檔原則。 這些原則可讓您封存在內部使用者之間進行的所有 IM 會話，以及/或封存在內部使用者與外部合作夥伴之間發生的所有 IM 會話。  <br/> |
-|Remove-CsArchivingPolicy  <br/> |移除指定的立即訊息（IM）封存原則，決定商務用 Skype 伺服器是否會自動儲存所有內部使用者之間發生的 IM 會話，以及/或內部使用者與同盟合作夥伴之間的所有 IM 會話。  <br/> |
-|Set-CsArchivingPolicy  <br/> |修改現有的立即訊息（IM）封存原則。 存檔原則可讓您將在內部使用者之間發生的所有 IM 會議與會議封存在一起。您也可以封存在內部使用者和聯盟夥伴之間發生的會話。  <br/> |
+|Get-CsArchivingPolicy  <br/> |傳回組織的立即訊息 (IM) 會話封存原則的資訊。  <br/> |
+|Grant-CsArchivingPolicy  <br/> |指派立即訊息 (IM) 會話封存原則指派給使用者或使用者組。 這些原則可讓您封存內部使用者之間及/或封存內部使用者與外部協力廠商之間所發生的所有 IM 工作階段。  <br/> |
+|New-CsArchivingPolicy  <br/> |建立新的立即訊息 (IM) 會話封存原則。 這些原則可讓您封存內部使用者之間及/或封存內部使用者與外部協力廠商之間所發生的所有 IM 工作階段。  <br/> |
+|Remove-CsArchivingPolicy  <br/> |移除指定的立即訊息 (IM) 封存原則，可判斷商務用 Skype 伺服器是否會自動儲存內部使用者和/或內部使用者與同盟協力廠商之間所有 IM 會話之間所發生的所有 IM 會話。  <br/> |
+|Set-CsArchivingPolicy  <br/> |修改現有的立即訊息 (IM) 封存原則。 封存原則讓您能夠封存內部使用者之間所發生的所有 IM 會話和會議。您也可以封存在內部使用者與同盟協力廠商之間進行的會話。  <br/> |
    
 

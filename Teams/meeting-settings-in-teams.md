@@ -1,7 +1,7 @@
 ---
 title: 管理會議設定
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 0c2d37adb185f873b0208ff422aa7ee8aac9a81c
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030659"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806213"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -74,10 +74,10 @@ ms.locfileid: "49030659"
 
     ![您可以自訂的會議邀請設定的螢幕擷取畫面](media/meeting-settings-invitation.png "您可以為 Teams 會議自訂的會議邀請設定的螢幕擷取畫面")
 
-    - **標誌 URL** ：輸入儲存標誌所在的 URL。
-    - **法律聲明 URL** ：如果您的組織有您想要讓其他人有任何法律方面的顧慮時前往的法律網站，請在此輸入其 URL。
-    - **說明 URL** ：如果您的組織有當其他人遇到問題時可前往的支援網站，請在這裡輸入其 URL。
-    - **頁尾** ：輸入要包含做為頁尾的文字。
+    - **標誌 URL**：輸入儲存標誌所在的 URL。
+    - **法律聲明 URL**：如果您的組織有您想要讓其他人有任何法律方面的顧慮時前往的法律網站，請在此輸入其 URL。
+    - **說明 URL**：如果您的組織有當其他人遇到問題時可前往的支援網站，請在這裡輸入其 URL。
+    - **頁尾**：輸入要包含做為頁尾的文字。
 4. 按一下 [預覽邀請] 以查看會議邀請的預覽。
 5. 完成後，按一下 [儲存]。
 6. 等候一小時的時間，讓變更傳播。 然後排程 Teams 會議，以查看會議邀請的外觀。  

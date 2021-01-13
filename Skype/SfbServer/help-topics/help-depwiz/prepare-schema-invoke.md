@@ -1,8 +1,8 @@
 ---
 title: 準備架構 (叫用)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
-description: '[執行命令] 頁面會顯示已發出的命令摘要，以延伸商務用 Skype Server 2015 的架構。 完成工作時，摘要窗格會指出工作是否已順利完成或失敗。 請檢閱摘要畫面，並確定 [工作狀態：已完成] 顯示在摘要窗格下方。 您可從摘要窗格下方的下拉式清單選取並檢視 [準備架構] 記錄檔。 按一下 [檢視記錄檔] 以檢閱記錄檔。 如果在架構準備期間出現錯誤，該工作所碰到的錯誤會記錄在這裡。 這時您可以採取動作修正任何錯誤，並重新執行架構準備工作。'
-ms.openlocfilehash: 1a7d4783fd6123a5be60707b42be1e1e1bc69b6d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[執行命令] 頁面會顯示為了擴充商務用 Skype Server 2015 之架構而發出之命令的摘要。 當工作完成時，[摘要] 窗格會指出工作是否成功，或是否失敗。 查看摘要畫面，並確定 [任務狀態：已完成] 顯示在摘要窗格下方。 [摘要] 窗格底下的下拉式清單可讓您選取及查看記錄檔 [準備架構]。 按一下 [查看記錄檔] 以查看記錄檔。 [！注意] 如果您在架構準備期間收到錯誤，則會在這裡記錄任務所遇到的錯誤。 您可以採取動作修正任何錯誤，並重新執行架構準備工作。'
+ms.openlocfilehash: bc5927fe4037aca8c4d6c2ade4d003ddb1a8444c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823487"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829803"
 ---
 # <a name="prepare-schema-invoke"></a>準備架構 (叫用)
  
-[**執行命令**] 頁面會顯示已發出的命令摘要，以延伸商務用 Skype Server 2015 的架構。 完成工作時，摘要窗格會指出工作是否已順利完成或失敗。 請檢閱摘要畫面，並確定 [工作狀態：已完成]**** 顯示在摘要窗格下方。 您可從摘要窗格下方的下拉式清單選取並檢視 [準備架構] 記錄檔。 按一下 [檢視記錄檔]**** 以檢閱記錄檔。 如果在架構準備期間出現錯誤，該工作所碰到的錯誤會記錄在這裡。 這時您可以採取動作修正任何錯誤，並重新執行架構準備工作。
+[ **執行命令** ] 頁面會顯示為了擴充商務用 Skype Server 2015 之架構而發出之命令的摘要。 當工作完成時，[摘要] 窗格會指出工作是否成功，或是否失敗。 查看摘要畫面，並確定 [ **任務狀態：已完成** ] 顯示在摘要窗格下方。 [摘要] 窗格底下的下拉式清單可讓您選取及查看記錄檔 [準備架構]。 按一下 [ **查看記錄** 檔] 以查看記錄檔。 [！注意] 如果您在架構準備期間收到錯誤，則會在這裡記錄任務所遇到的錯誤。 您可以採取動作修正任何錯誤，並重新執行架構準備工作。
   
-按一下 [完成]**** 完成工作。
+按一下 [完成] 完成工作。
   
 

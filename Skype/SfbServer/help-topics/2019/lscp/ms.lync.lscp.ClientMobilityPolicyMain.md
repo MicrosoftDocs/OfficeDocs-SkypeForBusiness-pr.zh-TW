@@ -1,8 +1,8 @@
 ---
-title: 用戶端行動原則
+title: 用戶端行動性原則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[ClientsMobility 原則] 頁面會顯示您部署中可用的行動原則。'
-ms.openlocfilehash: 8dfed5ad592fc491a63746419b5002d0f3572e14
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 「用戶端行動性原則」頁面會顯示您可在部署中使用的行動性原則。
+ms.openlocfilehash: 758b5a7471a934e65156f5f82810a6e1b940d1ac
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794492"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830183"
 ---
 # <a name="clients-mobility-policy"></a>用戶端：行動性原則
 
-[**用戶端****行動原則**] 頁面會顯示您部署中可用的行動原則。
+[**用戶端****行動性原則**] 頁面會顯示部署中可用的行動原則。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以在 [**行動原則**] 頁面上執行下列任務：
+您可在「增益集」頁面上執行下列工作：
 
-- 查看現有行動原則
+- 檢視現有行動性原則
 
-- 建立新的行動原則
+- 建立新行動性原則
 
-- 編輯行動原則
+- 編輯行動性原則
 
 ## <a name="ui-reference"></a>UI 參考
 
@@ -42,15 +42,16 @@ ms.locfileid: "41794492"
 
 
 
-- **搜尋欄位**在文字方塊中輸入字串，即可篩選顯示的原則。
 
-- **新增**按一下 [**新增**]，然後選取 [**網站**] 或 [**使用者**] 來建立新的行動原則。
+- **搜尋欄位** 在文字方塊中輸入字串以篩選顯示的原則。
 
-- [**編輯**]選取原則，然後按一下 [**編輯**] 以編輯選取原則的屬性。
+- **新** 按一下 [ **新增**]，然後選取 [ **網站** ] 或 [ **使用者** ] 以建立新的行動性原則。
 
-- **更新**刷新顯示的原則清單。 當您按一下 [重新整理]，就會清除搜尋篩選**字串，並**顯示所有現有的原則。
+- **編輯** 選取原則，然後按一下 [ **編輯** ] 以編輯所選取原則的屬性。
 
-如需有關設定行動原則的詳細資訊，請參閱設定[行動原則](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)。
+- **Refresh** 重新整理顯示的原則清單。 當 **您按一下 [** 重新整理] 時，會清除搜尋篩選字串並顯示所有現有的原則。
+
+如需設定行動性原則的詳細資訊，請參閱＜[Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)＞。
 
 ## <a name="see-also"></a>另請參閱
 

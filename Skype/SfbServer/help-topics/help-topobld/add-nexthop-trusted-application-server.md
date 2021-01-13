@@ -1,8 +1,8 @@
 ---
 title: 新增下一個躍點信任的應用程式伺服器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 description: 若要設定信任的應用程式伺服器或集區的下一個躍點，請執行下列動作：
-ms.openlocfilehash: e821d9563fa413eee7674550196dc6f648351cec
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d0bd51dd08276e6099e805dcddd12a8b53e962ac
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218764"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828633"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>新增下一個躍點信任的應用程式伺服器
  
 若要設定信任的應用程式伺服器或集區的下一個躍點，請執行下列動作：
   
-在 [下一個躍點集區]**** 下拉式清單中，選取 Enterprise Edition 集區或 Standard Edition 前端伺服器，供信任的應用程式集區用來作為下一個躍點。
+在 [下一個躍點集區] 下拉式清單中，選取 Enterprise Edition 集區或 Standard Edition 前端伺服器，供信任的應用程式集區用來作為下一個躍點。
   
-按一下 [完成]**** 完成建立信任的應用程式集區。
+按一下 [完成] 完成建立信任的應用程式集區。
   
 

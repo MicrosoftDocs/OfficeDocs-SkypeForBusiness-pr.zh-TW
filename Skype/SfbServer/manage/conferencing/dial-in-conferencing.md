@@ -1,8 +1,8 @@
 ---
 title: 管理商務用 Skype Server 中的電話撥入式會議
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,82 +12,82 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 摘要：瞭解如何在商務用 Skype Server 中管理電話撥入式會議。
-ms.openlocfilehash: ba8b62456a1fa2024f2cf37642658e76d528ebf3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 2674db010939f7b544ee296aea28739ecc7b806d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818574"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828153"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>管理商務用 Skype Server 中的電話撥入式會議
  
 **摘要：** 瞭解如何在商務用 Skype Server 中管理電話撥入式會議。
   
-本主題說明如何管理電話撥入式會議。 如需如何在部署規劃及設定電話撥入式會議的詳細資訊，請參閱[在商務用 Skype server 中規劃電話撥入式會議](../../plan-your-deployment/conferencing/dial-in-conferencing.md)，以及[在商務用 Skype server 中設定電話撥入式會議](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
+本主題說明如何管理電話撥入式會議。 如需如何在部署中規劃及設定電話撥入式會議的詳細資訊，請參閱在商務用 skype [server 中規劃撥入式會議](../../plan-your-deployment/conferencing/dial-in-conferencing.md) ，以及 [設定商務用 skype server 中的電話撥入式會議](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
   
-您可以執行下列工作來管理電話撥入式會議：啟用或停用電話撥入式會議、管理接入號碼、管理電話會議的 PIN 原則、管理會議加入與離開宣告、修改 DTMF 的金鑰組應[命令]，以及 [歡迎使用者] 撥入式會議。 
+您可以執行下列工作來管理電話撥入式會議：啟用或停用電話撥入式會議、管理存取號碼、管理撥號加入會議的 PIN 碼原則、管理會議加入和離開宣告、修改 DTMF 命令的按鍵對應，以及歡迎使用者撥入式會議。 
   
-如需管理撥號方案的詳細資訊，請參閱[在商務用 Skype Server 中建立或修改撥號方案](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+如需管理撥號對應表的詳細資訊，請參閱 [在商務用 Skype Server 中建立或修改撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md)表。
   
-如需 PSTN 用法的詳細資訊，請參閱[在商務用 Skype 中設定語音原則、PSTN 使用方式記錄及語音路由](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)。
+如需 PSTN 使用方式的詳細資訊，請參閱 [在商務用 Skype 中設定語音原則、PSTN 使用方式記錄和語音路由](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)。
   
-## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 的 [控制台] 管理電話撥入式會議
+## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台管理電話撥入式會議
 
 若要管理電話撥入式會議的相關資訊：
   
-1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 的 [控制台]。
+2.  開啟商務用 Skype Server 控制台。
     
-3. 在左側導覽列中，按一下 [**會議**]。
+3. 在左側導覽列中，按一下 **[會議]**。
     
-若要管理有關撥號方案和 PSTN 使用量的資訊：
+若要管理撥號對應表及 PSTN 使用狀況的相關資訊：
   
-1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 的 [控制台]。
+2.  開啟商務用 Skype Server 控制台。
     
-3. 在左側導覽列中，按一下 [**語音路由**]。
+3. 在左導覽列中，按一下 [ **語音路由**]。
     
-## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management 命令介面管理電話撥入式會議
+## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來管理電話撥入式會議
 
-若要使用商務用 Skype Server Management Shell 管理電話撥入式會議，請使用下列 Cmdlet：
+若要使用商務用 Skype Server 管理命令介面來管理電話撥入式會議，請使用下列 Cmdlet：
   
-**電話撥入設定**
+**撥入配置設定**
 
-|**Cmdlet**|**說明**|
+|**指令程式**|**描述**|
 |:-----|:-----|
-|[CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/get-csconferencedirectory?view=skype-ps) <br/> |傳回已設定在您組織中使用之會議目錄的相關資訊。 會議目錄可用於協助電話撥入式會議使用者尋找會議資訊。  <br/> |
-|[CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingconfiguration?view=skype-ps) <br/> |檢索當使用者加入或離開電話撥入式會議時，商務用 Skype Server 如何回應的相關資訊。  <br/> |
-|[CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |傳回已設定為在您組織中使用之所有電話撥入式會議存取號碼的相關資訊。  <br/> |
-|[CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |傳回用於電話撥入式會議的雙音調多頻率（DTMF）信號設定。 [DTMF] 可讓撥入會議的使用者控制會議設定（例如靜音及 unmuting 本身，或是使用電話鍵，在電話上鎖定及解除鎖定會議）。  <br/> |
-|[CsDialInConferencingLanguageList](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencinglanguagelist?view=skype-ps) <br/> |傳回語言清單，包括地區/少數語言，與商務用 Skype 伺服器撥入式會議支援搭配使用。 這些語言可用來將音訊訊息與指示中繼給參與會議的使用者，並使用電話撥入會議。  <br/> |
-|[CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps) <br/> |傳回貴組織中使用之撥號方案的相關資訊。  <br/> |
-|[授與 CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) <br/> |指派撥號方案給一或多個使用者或群組。  <br/> |
-|[匯入-CsLegacyConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/import-cslegacyconferencedirectory?view=skype-ps) <br/> |從 Microsoft Office 通訊伺服器 2007 R2 將會議目錄匯入到商務用 Skype Server。 這有助於在商務用 Skype Server 和 Office 通訊伺服器 2007 R2 之間提供互通性。  <br/> |
-|[Move-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/move-csconferencedirectory?view=skype-ps) <br/> |在集區之間移動現有的會議目錄。  <br/> |
-|[New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |建立新的會議目錄供組織使用。  <br/> |
-|[新-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingaccessnumber?view=skype-ps) <br/> |建立新的電話撥入式會議存取號碼。  <br/> |
-|[新-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |建立新的電話撥入式會議設定設定集合。 這些設定決定了在使用者加入或離開撥入會議時，商務用 Skype Server 的回應方式。 具體來說，會傳回有關加入會議時是否需要參與者記錄其名稱的資訊，以及系統如何（或如果是）系統會宣佈某人已加入或離開通話。  <br/> |
-|[新-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)  <br/> |建立新的雙音調多頻率（DTMF）信號設定集合，用於電話撥入式會議。  <br/> |
-|[新-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |建立新的撥號方案。  <br/> |
+|[Get-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/get-csconferencedirectory?view=skype-ps) <br/> |傳回設定供組織使用之會議目錄的資訊。 會議目錄可協助電話撥入式會議使用者尋找會議資訊。  <br/> |
+|[Get-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingconfiguration?view=skype-ps) <br/> |會檢索使用者加入或離開電話撥入式會議時，商務用 Skype Server 的回應方式資訊。  <br/> |
+|[Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |傳回設定供組織使用之所有電話撥入式會議存取號碼的資訊。  <br/> |
+|[Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |會傳回雙音調多重頻率 (DTMF) 用於電話撥入式會議的信號設定。 DTMF 可讓撥電話參與會議的使用者使用其電話鍵盤控制會議設定 (例如自行設定靜音和解除靜音，或鎖定和解除鎖定會議)。  <br/> |
+|[Get-CsDialInConferencingLanguageList](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencinglanguagelist?view=skype-ps) <br/> |會傳回語言清單，其中包括地區/少數語言，支援搭配商務用 Skype Server 電話撥入式會議使用。 這些語言會用於將音訊訊息與指示轉送給透過電話參與會議的使用者。  <br/> |
+|[Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps) <br/> |傳回組織所使用之撥號對應表的相關資訊。  <br/> |
+|[Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) <br/> |指派撥號對應用表給一或多個使用者或群組。  <br/> |
+|[Import-CsLegacyConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/import-cslegacyconferencedirectory?view=skype-ps) <br/> |從 Microsoft Office 通訊伺服器 2007 R2 將會議目錄匯入商務用 Skype Server。 這有助於在商務用 Skype Server 與 Office 通訊伺服器 2007 R2 之間提供互通性。  <br/> |
+|[Move-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/move-csconferencedirectory?view=skype-ps) <br/> |將現有的會議目錄從一個集區移至另一個集區。  <br/> |
+|[New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |建立新的會議目錄，供您的組織使用。  <br/> |
+|[New-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingaccessnumber?view=skype-ps) <br/> |會建立新的電話撥入式會議存取號碼。  <br/> |
+|[新 CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |會建立新的電話撥入式會議設定的集合。 這些設定會決定當使用者加入或離開電話撥入式會議時，商務用 Skype 伺服器的回應方式。 具體而言，會傳回信息有關參與者加入會議時是否需要記錄其名稱，以及 (或) 系統是否會宣佈某人已加入或離開通話的方式。  <br/> |
+|[新 Set-csdialinconferencingdtmfconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)  <br/> |會建立新的雙音調多重頻率集合， (DTMF) 用於電話撥入式會議的信號設定。  <br/> |
+|[新 Get-csdialplan](https://docs.microsoft.com/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |建立新的撥號對應表。  <br/> |
 |[Remove-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/remove-csconferencedirectory?view=skype-ps) <br/> |移除現有的會議目錄。  <br/> |
-|[移除-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps) <br/> |移除現有的電話撥入式會議存取號碼。  <br/> |
-|[移除-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingconfiguration?view=skype-ps) <br/> |移除一或多個電話撥入式會議設定的集合。 這些設定決定了在使用者加入或離開撥入會議時，商務用 Skype Server 的回應方式。  <br/> |
-|[移除-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |移除在電話撥入式會議中使用的雙音調多頻率（DTMF）信號設定的現有集合。  <br/> |
+|[Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps) <br/> |移除現有的電話撥入式會議存取號碼。  <br/> |
+|[Remove-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingconfiguration?view=skype-ps) <br/> |移除一或多個電話撥入式會議組態設定的集合。 這些設定會決定當使用者加入或離開電話撥入式會議時，商務用 Skype 伺服器的回應方式。  <br/> |
+|[Remove-Set-csdialinconferencingdtmfconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |移除一組現有的雙音調多重頻率 (DTMF) 信號設定用於電話撥入式會議。  <br/> |
 |[Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) <br/> |修改現有電話撥入式會議存取號碼的屬性值。  <br/> |
-|[Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |修改決定商務用 Skype Server 在使用者加入或離開電話撥入式會議時的回應方式設定。  <br/> |
-|[Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |修改用於電話撥入式會議的雙音調 multifrequency （DTMF）信號設定。  <br/> |
-|[Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |修改現有的撥號方案。  <br/> |
+|[CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |修改設定，決定當使用者加入或離開電話撥入式會議時，商務用 Skype Server 的回應方式。  <br/> |
+|[Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |修改雙色調頻式訊號 (DTMF) 用於電話撥入式會議的信號設定。  <br/> |
+|[Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |修改現有的撥號對應表。  <br/> |
    
-**釘選原則設定**
+**PIN 原則設定**
 
-|**Cmdlet**|**說明**|
+|**指令程式**|**描述**|
 |:-----|:-----|
-|[Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> |傳回已設定為在貴組織中使用之用戶端個人識別碼（PIN）原則的相關資訊。 PIN 驗證可讓使用者透過提供 PIN （而不是使用者名稱和密碼）來存取商務用 Skype Server。  <br/> |
-|[授與 CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps) <br/> |將用戶端個人身分識別號碼（PIN）原則指派給使用者或使用者群組。  <br/> |
-|[New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps) <br/> |建立新的用戶端個人識別碼（PIN）原則。  <br/> |
-|[Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |移除指定的個人識別碼（PIN）原則。  <br/> |
-|[Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |修改一或多個現有的用戶端個人識別碼（PIN）原則。  <br/> |
+|[Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> |傳回設定供組織使用之用戶端個人識別碼 (PIN) 原則的資訊。 PIN 驗證可讓使用者提供 PIN 碼來存取商務用 Skype Server，而不是使用者名稱和密碼。  <br/> |
+|[授與 Get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps) <br/> |指派用戶端個人身分識別號碼 (PIN) 原則指派給使用者或使用者群組。  <br/> |
+|[新 Get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps) <br/> | (PIN) 原則中建立新的用戶端個人身分識別號碼。  <br/> |
+|[Remove-Get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |移除指定的個人識別碼 (PIN) 原則。  <br/> |
+|[Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |修改一或多個現有的用戶端個人識別碼 (PIN) 原則。  <br/> |
    
 

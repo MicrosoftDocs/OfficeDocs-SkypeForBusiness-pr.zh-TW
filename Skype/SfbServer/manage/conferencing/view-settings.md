@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中查看會議配置設定
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,46 +12,46 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 摘要：瞭解如何在商務用 Skype Server 中查看會議配置設定。
-ms.openlocfilehash: 858d1a3d786cb9fe3c6b33daaca8667cab2390f8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e30543c566775d38e20e2103c4cc0f41278c1020
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818454"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827923"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中查看會議配置設定
  
 **摘要：** 瞭解如何在商務用 Skype Server 中查看會議配置設定。
   
-您可以使用商務用 Skype Server 的 [控制台] 或使用商務用 Skype Server Management Shell 來查看會議設定設定。
+您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來查看會議設定設定。
   
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 來查看會議設定設定
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台來查看會議設定設定
 <a name="BKMK_ViewJoinSettings"> </a>
 
-1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 的 [控制台]。
+2.  開啟商務用 Skype Server 控制台。
     
-3. 在左側導覽列中，按一下 [**會議**]，然後按一下 [**會議配置**]。
+3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議** 設定]。
     
-4. 在 [**會議**設定] 頁面上，按一下您要查看的會議設定。
+4. 在 [ **會議** 設定] 頁面上，按一下您要查看的會議設定。
     
-5. 在 [**編輯檔案篩選器**] 中，選取 [**顯示詳細資料**] 核取方塊。
+5. 在 [ **編輯檔案篩選**] 中，選取 [ **顯示詳細資料** ] 核取方塊。
     
-    [**編輯會議設定\<]\> -原則**隨即開啟，顯示所選原則的設定。
+    **編輯會議設定- \<policy\>** 開啟顯示選取原則的設定。
     
-    如需設定設定的詳細資料，請參閱[在商務用 Skype Server 中建立會議設定設定](create-settings.md)。
+    如需設定設定的詳細資訊，請參閱 [在商務用 Skype Server 中建立會議配置設定](create-settings.md)。
     
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management Shell 來查看會議配置設定
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來查看會議配置設定
 <a name="BKMK_ViewJoinSettings"> </a>
 
-若要查看所有會議設定設定的相關資訊，請使用**CsMeetingConfiguration** Cmdlet：
+若要查看所有會議設定設定的相關資訊，請使用 **Get-CsMeetingConfiguration** Cmdlet：
   
 ```
 Get-CsMeetingConfiguration
 ```
 
-這個命令會傳回如下所示的資訊：
+此命令會傳回類似下列的資訊：
   
 <pre>
 Identity                        : Global
@@ -68,6 +68,6 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-如需詳細資訊（包括完整的參數清單），請參閱[CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。
+如需詳細資訊，包括完整的參數清單，請參閱 [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。
   
 

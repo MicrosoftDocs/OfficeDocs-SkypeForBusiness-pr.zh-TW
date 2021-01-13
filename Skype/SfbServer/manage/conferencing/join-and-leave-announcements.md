@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中管理會議加入與離開宣告
+title: 在商務用 Skype Server 中管理會議加入和離開宣告
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,44 +11,44 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 摘要：瞭解如何管理會議加入，以及如何在商務用 Skype Server 中保留宣告。
-ms.openlocfilehash: 5f975637ca1d85e11c6889a07ff90055ef79ffc5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解如何在商務用 Skype Server 中管理會議加入和離開宣告。
+ms.openlocfilehash: 9ca73d3d32ce03a8119d805b5e7260c0a871eb27
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818544"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828103"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議加入與離開宣告
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議加入和離開宣告
  
-**摘要：** 瞭解如何管理會議加入，以及如何在商務用 Skype Server 中保留公告。
+**摘要：** 瞭解如何在商務用 Skype Server 中管理會議加入和離開宣告。
   
-當撥入使用者加入或離開會議時，會議宣告應用程式可以透過播放音調或說出其名稱來宣告其進入或結束。 您可以使用商務用 Skype Server Management 命令介面和**CsDialinConferencing** Cmdlet 以及下列參數來變更宣告的運作方式：
+當撥入使用者加入或離開會議時，會議宣告應用程式可以透過播放音調或口述其名稱來宣告其進入或退出。 您可以使用商務用 Skype Server 管理命令介面和 **test-csdialinconferencing 指令程式** 來變更宣告的運作方式，並使用下列參數：
   
-- EnableNameRecording-判斷匿名參與者是否需要在進入會議之前先記錄他們的名稱。 預設值為「$true」，表示加入會議時，系統會提示匿名參與者指出他們的名稱。 （經過驗證的參與者不會記錄其名稱，因為改為使用其顯示名稱。）
+- EnableNameRecording-決定匿名參與者是否要求在進入會議之前記錄其名稱。 預設值為 "$true，這表示匿名參與者在加入會議時，系統會提示他們輸入名稱。  (驗證的參與者不會記錄其名稱，因為會改為使用其顯示名稱。 ) 
     
-- EntryExitAnnouncementsEnabledByDefault-表示預設是否開啟或關閉宣告。 預設值為「$false」，這表示參與者加入或離開會議時，預設沒有宣告。 會議召集人可以在排程會議時覆蓋此設定。
+- EntryExitAnnouncementsEnabledByDefault-會指出預設是否開啟或關閉宣告。 預設值為 "$false，這表示當參與者加入或離開會議時，預設不會有宣告。 會議召集人可以在排程會議時覆寫此設定。
     
-- EntryExitAnnouncementsType-表示每當參與者加入或離開已啟用宣告的會議時所採取的動作。 預設值為 "UseNames"，這表示您已開啟公告時的「Ken Myer 已加入會議」：
+- EntryExitAnnouncementsType-表示每當參與者加入或離開已啟用宣告的會議時所採取的動作。 預設值為 "UseNames，這表示有類似下列的宣告：「Ken Myer 已加入會議」（已開啟宣告）。
     
-您可以在全域範圍或網站範圍中設定這些設定。 在網站範圍設定的設定，會優先于在全域範圍中設定的設定。
+您可以在全域範圍或網站範圍中設定這些設定。 在網站範圍設定的設定會優先于在全域範圍設定的設定。
    
 
-### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>修改會議加入並離開宣告行為
+### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>修改會議加入和離開宣告行為
 
-1. 以 RTCUniversalServerAdmins 群組的成員或 Cs-ServerAdministrator 或 CsAdministrator 角色的成員的身分登入電腦。
+1. 以 RTCUniversalServerAdmins 群組成員或 Cs-ServerAdministrator、CsAdministrator 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-3. 在命令提示字元執行下列動作：
+3. 在命令提示字元中執行下列命令：
     
    ```PowerShell
    Get-CsDialinConferencingConfiguration
    ```
 
-此 Cmdlet 會在加入會議時，以及參與者加入或離開電話撥入式會議時，如何回應參與者是否必須記錄其名稱的相關資訊。
+這個 Cmdlet 會取得參與者加入會議時，是否需要參與者記錄其名稱的相關資訊，以及商務用 Skype 伺服器在參與者加入或離開電話撥入式會議時，如何回應。
     
-4. 在命令提示字元執行下列動作：
+4. 在命令提示字元中執行下列命令：
     
    ```PowerShell
    Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
@@ -57,7 +57,7 @@ ms.locfileid: "41818544"
    [-EntryExitAnnouncementsType <UseNames | ToneOnly]
    ```
 
-在下列範例中，設定是在雷德蒙的網站範圍設定。 公告已開啟，但在加入會議時，系統不會提示參與者說出其名稱。 當參與者進入或離開會議時，會播放音調：
+在下列範例中，設定是在 Redmond 的網站範圍設定。 宣告已開啟，但是參與者加入會議時，不會提示參與者說出其名稱。 當參與者進入或離開會議時，會播放音調：
   
 ```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
@@ -66,6 +66,6 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-如需詳細資訊（包括語法及完整的參數清單），請參閱[設定 CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
+如需詳細資訊，包括語法和完整的參數清單，請參閱 [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
   
 

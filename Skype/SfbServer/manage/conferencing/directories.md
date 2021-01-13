@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立會議目錄
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,38 +12,38 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: 摘要：瞭解如何在商務用 Skype Server 中建立會議目錄。
-ms.openlocfilehash: be8983b25937b2a1c068c9629a0f44fd06d494d6
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 6a7b8d110f06b089f166fc6ff2eb35ae35632370
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888672"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828133"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>在商務用 Skype Server 中建立會議目錄
  
 **摘要：** 瞭解如何在商務用 Skype Server 中建立會議目錄。
   
-在使用商務用 Skype 時，會議目錄會在參與者用來加入會議的字母數位會議 ID 之間保留對應，以及電話撥入式會議參與者用來加入會議的僅限數位會議 ID。 
+會議目錄會維護參與者在使用商務用 Skype 時加入會議時所用的字母數位會議識別碼之間的對應，以及電話撥入式會議參與者用來加入會議的僅限數位會議識別碼。 
   
 ## <a name="create-a-conference-directory"></a>建立會議目錄
 
-建立多個會議目錄可確保會議 Id 保持不變，直到建立大量的會議為止。 
+建立多個會議目錄可確保會議 IDs 持續縮短，直到建立大量會議為止。 
   
-在每位使用者有典型會議數的組織中，我們建議您為池中的每個999使用者建立一個會議目錄。 使用這種準則，會議 Id 通常可以保持很小的狀態。 不過，一旦會議目錄數量（跨多個池）超過9個，會議 ID 長度就會增長以支援其他會議。
+在組織中，每位使用者的會議數目為典型，我們建議您針對集區中的每個999使用者建立一個會議目錄。 使用這種指導方針，會議 IDs 一般會變小。 不過，一旦集區 (的會議目錄數目) 超過9，會議識別碼長度就會成長以支援其他會議。
   
-會議 ID 的格式如下所示： 
+會議識別碼的格式如下： 
   
 ```console
   <housekeeping digit (1 digit)><conference directory (usually 1-2 digits> 
   <conference number (variable number of digits><check digit (1 digit)>
 ```
 
-若要建立會議目錄，請使用**CsConferenceDirectory** Cmdlet。 例如，下列命令會建立一個在 pool atl-cs-001.litwareinc.com 上託管的身分識別42的會議目錄：
+若要建立會議目錄，請使用 **New-CsConferenceDirectory** Cmdlet。 例如，下列命令會建立「集區 atl-cs-001.litwareinc.com」42所主控的會議目錄，該目錄會主控于集區：
   
 ```PowerShell
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 
-如需詳細資訊，請參閱[新 CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps)。
+如需詳細資訊，請參閱 [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps)。
   
 

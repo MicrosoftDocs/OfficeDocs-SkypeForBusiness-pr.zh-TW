@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: vaibhava
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50a9abbd7e5872229c09d7d80c00c5d432723da1
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+ms.openlocfilehash: 6ec41760a7edd7de52d15995f39365b300cd797e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433046"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827533"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中查看應用程式許可權並授與系統管理員同意
 
@@ -86,7 +86,7 @@ RSC 許可權是在應用程式資訊清單中定義，而不是在 Azure AD 中
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>在要求許可權的部分協力廠商應用程式的 [許可權] 欄中，不會顯示 [查看詳細資料] 連結
 
-目前，在 Azure AD 中登錄並要求許可權的所有協力廠商應用程式都不提供審查許可權及授與同意的功能。 您會在 [許可權] 欄中看到的內容，而不是 [**視圖詳細資料**] 連結 **--** **Permissions** 。 我們正在使用 Isv 針對其應用程式啟用此功能。
+目前，在 Azure AD 中登錄並要求許可權的所有協力廠商應用程式都不提供審查許可權及授與同意的功能。 您會在 [許可權] 欄中看到的內容，而不是 [**視圖詳細資料**] 連結 **--**  。 我們正在使用 Isv 針對其應用程式啟用此功能。
 
 ## <a name="related-topics"></a>相關主題
 

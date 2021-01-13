@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊採用階段 3-規模
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 602d820b245b096a8c0f8470f08ba7fd9529d070
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904598"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806103"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft 團隊採用階段 3-規模
 
@@ -41,4 +41,4 @@ ms.locfileid: "43904598"
 7. 準備日常商務活動。
 8. 準備日常服務健康情況 & 採納審查。
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示：[定義結果與成功](teams-adoption-define-outcomes.md)
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [定義結果與成功](teams-adoption-define-outcomes.md)

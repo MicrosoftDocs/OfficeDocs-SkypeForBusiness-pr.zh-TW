@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定 PIN 較少的會議加入
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,58 +11,58 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 摘要：瞭解如何在商務用 Skype Server 中設定 PIN 較少的會議加入選項。
-ms.openlocfilehash: a52738f2ca679838ab7687cde2c017e3364542a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解如何在商務用 Skype Server 中設定 PIN 不足的會議加入選項。
+ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818484"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827983"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 PIN 較少的會議加入
  
-**摘要：** 瞭解如何在商務用 Skype Server 中設定 PIN 較少的會議加入選項。
+**摘要：** 瞭解如何在商務用 Skype Server 中設定 PIN 不足的會議加入選項。
   
-當電話撥入來電者嘗試加入會議時，會議自動語音應答（CAA）服務會將呼叫者放在與大廳不同的觸筆中，&#x2014; 如果簡報者未在通話中，且撥入來電者未進入引線針腳。 PIN 較少的會議加入選項可讓撥入呼叫者加入會議，而不需輸入引線針腳，即使對方是通話中的第一個使用者也一樣。 
+當撥入來電者嘗試加入會議時，會議自動語音應答 (CAA) 服務會將來電者放在不同于會議廳的保留觸筆中 &#x2014; 如果簡報者尚未在來電中，且撥入來電者未進入領導者 PIN 碼。 PIN 不足的會議加入選項允許撥入來電者加入會議，而不輸入引線 PIN 碼，即使他們是呼叫的第一位 PIN。 
   
-設定此功能時，請記住下列事項：
+設定此功能時，請牢記下列事項：
   
 - 僅適用于私人會議。
     
-- 可讓 PSTN 呼叫者在不存在經過驗證的使用者的情況下，繼續私人會議。
+- 允許 PSTN 來電者保留私人會議，而不存在已驗證的使用者。
     
-- 設定變更之後，就會套用至所有現有和新的私人會議。
+- 設定變更後，它會套用至所有現有和新的私人會議。
     
-- 您可以在召集人的網站或全域層級啟用。
+- 可在召集人的網站或全域層級上啟用。
     
-- 您可以針對可以略過大廳的人員設定下列選項之一： 
+- 可以為下列其中一項設定可略過大廳的選項： 
     
-  - **我組織中與來電者直接取得的任何人**
+  - **組織中與來電者的任何人都可以直接取得**
     
-  - **呼叫者直接加入的任何人（無限制）** （這是預設設定）。
+  - **任何人 () 的來電者都不會直接取得任何限制** (這是預設設定。 ) 
     
-- 如果設定為啟用 PIN 較少的聯結，CAA 服務仍會提示輸入引線針腳。 無論是否輸入 PIN，使用者都可以加入會議。 不過，保留引線釘選功能可讓撥入來電者進行驗證，並視需要管理會議。
+- 設定以啟用 PIN 碼的加入時，CAA 服務仍然會提示輸入前置字元。 使用者可以加入會議，不論是否輸入 PIN 碼。 不過，保留引線 PIN 碼的功能可讓撥入來電者以主持人身分驗證，並視需要管理會議。
     
-## <a name="configure-pin-less-meeting-join"></a>設定 PIN 更少的會議加入
+## <a name="configure-pin-less-meeting-join"></a>設定 PIN 較少的會議加入
 
-若要為使用者啟用 PIN 較少的會議加入，請使用[CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) Cmdlet 及 AllowAnonymousPstnActivation 參數，如下所示：
+若要為您的使用者啟用 PIN 碼較少的會議加入，請使用 [CsDialInConferencingConfiguration 指令程式](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) 搭配 AllowAnonymousPstnActivation 參數，如下所示：
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
-例如，下列命令可為網站雷德蒙器啟用 PIN 較少的會議加入：
+例如，下列命令會為網站 Redmond 啟用 PIN 碼較少的會議加入：
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-為安全起見，當您開啟 PIN 較少的會議加入時，您可能會想要限制匿名使用者撥出，方法是確保 ConferencingPolicy 的設定方式如下：
+基於安全性的考慮，當開啟 PIN 不足的會議加入時，您可能會想要限制匿名使用者撥出的方式是確保 ConferencingPolicy 已設定如下：
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-如需詳細資訊，請參閱[設定 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+如需詳細資訊，請參閱 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
   
 

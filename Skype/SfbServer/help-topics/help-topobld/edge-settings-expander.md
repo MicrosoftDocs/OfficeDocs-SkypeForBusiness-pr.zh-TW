@@ -1,8 +1,8 @@
 ---
 title: Edge 設定展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 若要編輯現有單一或多部伺服器 Edge 集區的設定，您會看到下列各節：
-ms.openlocfilehash: c2d4ec8e97557a584821bb82ef1d24b9bfa7a9bb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 7f202dc03d0c83c324f4dc2a75928e022a68250c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218894"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828573"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 
@@ -38,11 +38,11 @@ ms.locfileid: "48218894"
 
 Edge Server 集區的內部集區完整功能變數名稱 (FQDN) 。 編輯集區的 FQDN，以變更此設定。
 
-選取 [啟用此 Edge 集區的同盟] 核取方塊。如果您要設定與 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office 通訊伺服器 2007 R2 信任的同盟搭配使用，請 ** (埠 5061) ** 。
+選取 [啟用此 Edge 集區的同盟] 核取方塊。如果您要設定與 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office 通訊伺服器 2007 R2 信任的同盟搭配使用，請 **(埠 5061)** 。
 
 選取 [ **啟用此 Edge 集區的 XMPP 同盟** ] 以啟用 XMPP 同盟。
 
-指定內部配置複寫埠的埠號碼 ** (HTTPS) **。
+指定內部配置複寫埠的埠號碼 **(HTTPS)**。
 
 ## <a name="next-hop-selection-settings"></a>下一個躍點選取設定
 
@@ -64,7 +64,7 @@ Edge Server 集區的內部集區完整功能變數名稱 (FQDN) 。 編輯集�
 > [!IMPORTANT]
 > 如果您變更其中任何設定，包括使用個別 FQDN 和 IP 位址或埠，您必須更新其他所有依賴初始設定值的服務。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 如需定義及設定 Edge Service 設定的詳細資訊，請參閱 [定義您的 Edge 拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
 

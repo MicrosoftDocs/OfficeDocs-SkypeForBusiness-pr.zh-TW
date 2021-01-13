@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中部署已配對的前端池以進行災害復原
+title: 在商務用 Skype Server 中部署用於嚴重損壞修復的配對前端集區
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: 您可以決定使用成對的前端池來提供災害復原保護，但不需要這麼做。
-ms.openlocfilehash: 63b9c55aad2b31e01eec506ce28e54d2145ee636
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以決定使用成對的前端集區來提供嚴重損壞修復保護，但這不是必要條件。
+ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790081"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830603"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在商務用 Skype Server 中部署已配對的前端池以進行災害復原
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在商務用 Skype Server 中部署用於嚴重損壞修復的配對前端集區
  
-您可以決定使用成對的前端池來提供災害復原保護，但不需要這麼做。
+您可以決定使用成對的前端集區來提供嚴重損壞修復保護，但這不是必要條件。
   
-您可以使用 [拓撲建立器] 輕鬆地部署成對的前端池災害復原拓撲。 
+您可以使用拓撲產生器，輕鬆地部署成對前端集區的嚴重損壞修復拓撲。 
   
-## <a name="to-deploy-a-pair-of-front-end-pools"></a>部署一對前端池
+## <a name="to-deploy-a-pair-of-front-end-pools"></a>部署一對前端集區
 
-1. 如果池是新的且尚未定義，請使用拓撲產生器建立池。
+1. 如果集區是新的，且尚未定義，請使用拓撲產生器建立集區。
     
-2. 在拓撲建立器中，以滑鼠右鍵按一下兩個池中的一個，然後按一下 [**編輯屬性**]。
+2. 在 [拓撲產生器] 中，以滑鼠右鍵按一下兩個集區中的其中一個，然後按一下 [ **編輯屬性**]。
     
-3. 按一下左窗格中的 [**復原**]，然後在右窗格中選取 [**關聯的備份池**]。
+3. 按一下左窗格中的 [恢復]，然後選取右窗格中的 [關聯的備份集區]。
     
-4. 在 [關聯的**備份] 池**下方的方塊中，選取您要與此 pool 配對的池。 只有尚未與另一個池配對的現有池，才可以從中選取。
+4. 在下方 [關聯的備份集區] 中，選取您要與此集區配對的集區。您僅能選取尚未與其他集區配對的現有集區。
     
-5. 選取 [**自動容錯移轉及語音回切**]，然後按一下 **[確定]**。
+5. 選取 [語音自動容錯移轉和容錯回復]，然後按一下 [確定]。
     
-    當您查看此池的詳細資料時，關聯的池現在會出現在右窗格中的 [**復原**] 底下。 
+    現在當您檢視此集區的詳細資料時，會在右窗格的 [恢復] 中顯示關聯的集區。 
     
-6. 使用拓撲產生器發佈拓撲。
+6. 使用拓撲產生器發行拓撲。
     
-7. 如果兩個池尚未部署，請立即部署它們，設定就會完成。 您可以略過此程式中的最後一個步驟。
+7. 若尚未部署這兩個集區，請立即部署，以完成組態。 您可以略過此過程的最後一個步驟。
     
-    不過，如果已在您定義成對關聯之前部署了池，您必須完成下列最後一個步驟。
+    不過，如果集區已經部署，您必須先完成下列最後一個步驟。
     
-8. 在兩個池的每個前端伺服器上，執行下列動作：
+8. 在兩個集區中的每部前端伺服器上，執行下列項目：
     
    ```powershell
    <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
-    這會設定備份配對所需的其他服務才能正常運作。
+    這會設定使備份配對順利運作所需的其他服務。
     
-9. 當引導程式在兩個池的每個前端伺服器上完成備份配對所需的元件安裝後，請務必重新套用先前在兩個池中的這些前端伺服器上套用的任何現有累計更新，然後再繼續下一個步驟。
+9. 在兩個集區中的每一部前端伺服器上，引導程式完成安裝備份配對所需的元件後，請務必重新套用先前在這兩個集區中的前端伺服器上套用的任何現有累計更新，然後繼續進行下一個步驟。
 
-10. 從商務用 Skype Server Management Shell 命令提示字元，執行下列動作： 
+10. 從商務用 Skype Server 管理命令介面命令提示字元中，執行下列命令： 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. 使用下列 Cmdlet 強迫兩個池的使用者與會議資料彼此同步處理：
+11. 使用下列 Cmdlet，強制兩個集區的使用者和會議資料相互同步處理：
     
     ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -71,7 +71,7 @@ ms.locfileid: "41790081"
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
-    同步處理資料可能需要一些時間。 您可以使用下列 Cmdlet 來檢查狀態。 確定兩個方向的狀態都是穩定的狀態。
+    同步處理資料可能需要花費一些時間。 您可以使用下列 Cmdlet 檢查狀態。 請確定這兩個方向的狀態為穩定狀態。
     
     ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -82,8 +82,8 @@ ms.locfileid: "41790081"
     ```
 
 > [!NOTE]
-> [語音] 的 [**自動容錯移轉**] 和 [自動回復] 選項以及 [拓撲建立器] 中的關聯時間間隔，只適用于 Lync Server 中引入的語音復原功能。 選取此選項並不表示本檔中討論的 [池容錯移轉] 為 [自動]。 [池容錯移轉] 和 [回切] 總是需要系統管理員手動喚醒呼叫容錯移轉與回切 Cmdlet。
+> [！注意事項] 的 **自動容錯移轉和容錯回復** ] 選項和拓撲產生器中相關聯的時間間隔，只適用于 Lync Server 所引進的語音恢復功能。 選取此選項不表示會自動使用本文件中討論的集區容錯移轉。 集區容錯移轉和容錯回復一律需要管理員以手動方式分別呼叫容錯移轉和容錯回復 Cmdlet。
   
 ## <a name="see-also"></a>另請參閱
 
-[商務用 Skype Server 中的前端池災害復原](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[商務用 Skype Server 中的前端集區嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

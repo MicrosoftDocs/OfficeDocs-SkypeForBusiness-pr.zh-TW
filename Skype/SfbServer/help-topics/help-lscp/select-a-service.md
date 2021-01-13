@@ -1,8 +1,8 @@
 ---
 title: 選取服務
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,43 +14,43 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
-description: 使用 [選取服務] 對話方塊，尋找您環境中可用的服務。 若要使用現有的服務，請按一下清單中的服務，再按一下 [確定]。
-ms.openlocfilehash: 5d9a9fb5859045e37dc9e957a49714296442b338
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 使用 [選取服務] 對話方塊，尋找您環境中可用的服務。 若要使用現有的服務，請按一下清單中的服務，然後按一下 [確定]。
+ms.openlocfilehash: c1f0f1c3f5add413f6f2f801bb54c84179b46f91
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822326"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829193"
 ---
 # <a name="select-a-service"></a>選取服務
 
-使用 [選取服務]**** 對話方塊，尋找您環境中可用的服務。若要使用現有的服務，請按一下清單中的服務，再按一下 [確定]****。
+使用 [ **選取服務** ] 對話方塊，尋找您環境中可用的服務。 若要使用現有的服務，請按一下清單中的服務，然後按一下 **[確定]**。
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以在 [選取服務]**** 頁面上執行下列工作：
+您可以在 [ **選取服務** ] 頁面上執行下列工作：
 
-- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [設定類別](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [Configure Add-ins for Rooms](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
+- [為聊天室設定增益集](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
 
-- [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [以全域方式設定或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>設定聊天室的類別
 
-在 [**選取服務**] 中，選取與需要建立類別之持久聊天伺服器池相對應的服務。 此服務是永久聊天伺服器池，持續聊天（用戶端）用來識別該類別屬於哪個池。 類別只能屬於一個持久聊天伺服器池，而且不能移動到另一個，或與另一個池共用。
+在 [ **選取服務**] 中，選取對應至需要建立類別之 Persistent Chat Server 集區的服務。 服務是 persistent chat Server 集區，Persistent Chat (用戶端) 使用它來識別類別所屬的集區。 類別只能隸屬于一部 Persistent Chat Server 集區，無法移至另一個集區，或與另一個集區共用。
 
-## <a name="to-configure-add-ins-for-chat-rooms"></a>設定聊天室的增益集
+## <a name="to-configure-add-ins-for-chat-rooms"></a>為聊天室設定增益集
 
-在 [**選取服務**] 中，選取與您需要建立增益集的持續聊天伺服器池相對應的服務。 增益集不得從一個集區移動到另一個集區，或是在不同集區之間共用。
+在 [ **選取服務**] 中，選取對應至您需要建立增益集之 Persistent Chat Server 集區的服務。 增益集不得從一個集區移動到另一個集區，或是在不同集區之間共用。
 
-## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>針對特定的持久性聊天伺服器池設定持續聊天選項
+## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>設定特定 Persistent Chat Server 集區的持續聊天選項
 
-在 [**選取服務**] 中，選取與持久聊天伺服器池相關聯的服務進行設定。
+在 [ **選取服務**] 中，選取要設定之持久聊天伺服器集區相關聯的服務。
 
-如需持續聊天伺服器功能與功能的詳細資訊，請參閱規劃檔中的[持續聊天伺服器概覽](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 如需使用持續聊天伺服器設定的詳細資料，請參閱在部署檔中設定[持久聊天伺服器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)，以及[管理 Lync Server 2013](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)的操作檔中的持續聊天伺服器。
+如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱規劃檔中的 [Persistent Chat Server 綜述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) 。 如需使用持續性聊天伺服器設定的詳細資訊，請參閱設定 [Persistent Chat server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) In the Deployment 檔和 [管理 Lync Server 2013，Persistent Chat server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in Operations 檔中。
 

@@ -1,7 +1,7 @@
 ---
 title: PowerShell 腳本範例-重設小組中的自動啟動設定
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be1073d628f137b4c2063849bcdab413ce0d2b87
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951038"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827503"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 腳本範例-重設小組中的自動啟動設定
 
 使用此腳本來重設每位使用者的 [團隊自動啟動] 設定。 這包括使用者或團隊 app 所設定的任何值。 根據預設，當使用者在安裝後登入其電腦時，小組會自動啟動。
 
-如果您已部署團隊，並想要設定 [[避免 Microsoft 團隊在安裝後自動啟動](../msi-deployment.md#use-group-policy-recommended)]，以停用團隊自動啟動，您必須先將 [群組原則] 設定設為您想要的值，然後執行此腳本。
+如果您已部署團隊，並想要設定 [ [避免 Microsoft 團隊在安裝後自動啟動](../msi-deployment.md#use-group-policy-recommended) ]，以停用團隊自動啟動，您必須先將 [群組原則] 設定設為您想要的值，然後執行此腳本。
 
 在團隊開始為使用者之後，就無法使用 [群組原則] 停用「自動啟動」設定。
 

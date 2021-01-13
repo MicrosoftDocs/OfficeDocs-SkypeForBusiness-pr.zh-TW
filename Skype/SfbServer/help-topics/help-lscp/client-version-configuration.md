@@ -1,8 +1,8 @@
 ---
 title: 用戶端版本組態
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,46 +14,47 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
-description: 除了指定您想要在您的環境中支援的用戶端版本之外，您也可以針對尚未定義版本原則的用戶端指定預設動作。 這可讓您限制在您的環境中使用的用戶端版本，這可以協助您控制支援多個用戶端版本所產生的成本。
-ms.openlocfilehash: 7ace0fff5cad2e97174d88b98ccd695e6f8258c3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 除了指定您要在環境中支援的用戶端版本之外，您也可以針對尚未定義版本原則的用戶端，指定預設動作。 這可讓您限制環境中所使用的用戶端版本，這可協助您控制支援多個用戶端版本的相關成本。
+ms.openlocfilehash: 3d821d9a31f70c0ea20342d48f28cc9ee14a2feb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823086"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829543"
 ---
 # <a name="client-version-configuration"></a>用戶端版本組態
 
-除了指定您想要在您的環境中支援的用戶端版本之外，您也可以針對尚未定義版本原則的用戶端指定預設動作。 這可讓您限制在您的環境中使用的用戶端版本，這可以協助您控制支援多個用戶端版本所產生的成本。
+除了指定您要在環境中支援的用戶端版本之外，您也可以針對尚未定義版本原則的用戶端，指定預設動作。 這可讓您限制環境中所使用的用戶端版本，這可協助您控制支援多個用戶端版本的相關成本。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以在 [**用戶端版本**設定] 頁面上執行下列任務：
+您可以在「 **用戶端版本** 設定」頁面上執行下列工作：
 
-- 編輯預設（**全域**）用戶端版本配置。
+- 編輯 default ( **Global**) client version configuration。
 
-- 建立特定網站的用戶端版本設定。
+- 為特定網站建立用戶端版本設定。
 
 - 啟用及停用現有的用戶端版本設定。
 
 > [!NOTE]
-> 因為匿名使用者不會與網站建立關聯，所以匿名使用者只受到全域層級原則的影響。
+> 由於匿名使用者不會與網站產生關聯，因此匿名使用者只會受到全域層級原則的影響。
 
 ## <a name="ui-reference"></a>UI 參考
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
 
-- **新增**您可以為特定的網站建立用戶端版本設定。
 
-- [**編輯**]您可以變更任何用戶端版本原則的選項。 使用此選項，您可以執行下列動作：
+- **新** 您可以為特定網站建立用戶端版本設定。
 
-  - **顯示詳細資料**這個選項會開啟一個對話方塊，您可以在其中變更用戶端版本配置的選項。
+- **編輯** 您可以變更任何用戶端版本原則的選項。 使用此選項，您可以執行下列作業：
 
-  - **選取全部**此選項會選取清單中的所有用戶端版本設定。
+  - **顯示詳細資料** 此選項會開啟對話方塊，您可以在其中變更用戶端版本設定的選項。
 
-  - **刪除**此選項會刪除所有選取的用戶端版本設定。
+  - **全選** 此選項會選取清單中的所有用戶端版本設定。
 
-- **更新**您可以重新整理用戶端版本配置清單，以驗證所有用戶端版本設定的選項狀態。
+  - **Delete** 此選項會刪除所有選取的用戶端版本設定。
 
-如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的〈[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)〉。如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的〈[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)〉。
+- **Refresh** 您可以重新整理用戶端版本設定清單，以確認所有用戶端版本設定的選項狀態。
+
+如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的＜[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)＞。 如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的＜[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)＞。
 

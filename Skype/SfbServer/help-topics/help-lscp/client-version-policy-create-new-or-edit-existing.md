@@ -1,8 +1,8 @@
 ---
-title: 用戶端版本原則建立新的或編輯現有的
+title: 用戶端版本原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,24 +14,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
-description: 您可以指定環境中支援的用戶端版本。 當執行不同版本的兩個用戶端互動時，這兩個用戶端可用的功能會受限於彼此的功能。 若要充分運用商務用 Skype Server 2015 隨附的功能，並改善總體使用者體驗，您可以使用用戶端版本篩選來限制在您的環境中使用的用戶端版本。 使用用戶端版本篩選器還可幫助您降低支援多個用戶端版本的相關成本。
-ms.openlocfilehash: d7b8dcbfe8b867de4dd48ba4c736246927e53b9a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以指定環境中支援的用戶端版本。 當執行不同版本的兩個用戶端互動時，這兩個用戶端可用的功能會受限於彼此的功能。 若要充分運用商務用 Skype Server 2015 中包含的功能，並改善整體使用者體驗，您可以使用用戶端版本篩選器來限制環境中所用的用戶端版本。 使用用戶端版本篩選器還可幫助您降低支援多個用戶端版本的相關成本。
+ms.openlocfilehash: db463896426d8919776ba21532bbac04415c526d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823076"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829513"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>用戶端版本原則：建立新的或編輯現有原則
 
-您可以指定環境中支援的用戶端版本。 當執行不同版本的兩個用戶端互動時，這兩個用戶端可用的功能會受限於彼此的功能。 若要充分運用商務用 Skype Server 2015 隨附的功能，並改善總體使用者體驗，您可以使用用戶端版本篩選來限制在您的環境中使用的用戶端版本。 使用用戶端版本篩選器還可幫助您降低支援多個用戶端版本的相關成本。
+您可以指定環境中支援的用戶端版本。 當執行不同版本的兩個用戶端互動時，這兩個用戶端可用的功能會受限於彼此的功能。 若要充分運用商務用 Skype Server 2015 中包含的功能，並改善整體使用者體驗，您可以使用用戶端版本篩選器來限制環境中所用的用戶端版本。 使用用戶端版本篩選器還可幫助您降低支援多個用戶端版本的相關成本。
 
 > [!IMPORTANT]
-> 篩選器會依優先順序列出。例如，如果您有一個可讓執行 1.5 版的用戶端連線的篩選器，後面接著一個封鎖執行 2.0 以前版本之用戶端的篩選器，則第一個篩選器的優先順序高於第二個，而且執行 1.5 版的用戶端可以連線。
+> 篩選依優先順序順序列出。 例如，如果您有一個篩選器，可讓執行1.5 版本的用戶端進行連線，接著會封鎖執行高於2.0 之版本之用戶端的篩選器，第一個篩選器優先，而且執行版本為1.5 的用戶端可以進行連接。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以在「新增用戶端版本原則」**** 或「編輯用戶端版本原則」**** 頁面上執行下列工作：
+您可以在「 **新增用戶端版本原則** 」或「 **編輯用戶端版本原則** 」頁面上執行下列工作：
 
 - 新增或修改用戶端版本原則的名稱或描述。
 
@@ -41,19 +41,19 @@ ms.locfileid: "41823076"
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
 
-- **範圍**識別用戶端版本原則的範圍（網站、池或使用者）。
+- **範圍** 識別用戶端版本原則的範圍 (網站、集區或使用者) 。
 
-- **名稱**您可以新增或修改用戶端版本原則的名稱。
+- **名稱** 您可以新增或修改用戶端版本原則的名稱。
 
-- **描述**您可以在 [用戶端版本原則] 頁面上的清單中新增描述，以協助識別原則。
+- **描述** 您可以新增描述，以協助識別「用戶端版本原則」頁面之清單中的原則。
 
-- **新增**您可以將新的用戶端版本規則新增至原則。
+- **新** 您可以將新的用戶端版本規則新增至原則。
 
-- **顯示詳細資料**這個選項會開啟一個對話方塊，您可以在其中變更用戶端版本規則的選項。
+- **顯示詳細資料** 此選項會開啟對話方塊，您可以在其中變更用戶端版本規則的選項。
 
-- **移除**此選項會從原則中移除選取的用戶端版本規則。
+- **移除** 此選項會從原則中移除選取的用戶端版本規則。
 
-- **向上鍵和向下鍵**此選項會將選取的用戶端版本規則在 [優先順序] 中向上或向下移動。 規則會按照所列的順序進行處理。
+- **向上及向中箭** 號此選項會以優先順序向上或向內移動選取的用戶端版本規則。 規則會依照所列順序進行處理。
 
-如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的〈[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)〉。如需使用用戶端版本原則的詳細資訊，請參閱作業文件中的〈[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)〉。
+如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的＜[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)＞。 如需使用用戶端版本原則的詳細資訊，請參閱操作文件中的＜[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)＞。
 

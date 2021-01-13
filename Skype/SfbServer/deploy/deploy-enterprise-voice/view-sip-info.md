@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中查看個別 SIP trunks 的相關資訊
+title: 在商務用 Skype Server 中查看個別 SIP 主幹的相關資訊
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 摘要：瞭解如何在商務用 Skype Server 中查看有關 SIP trunks 的資訊。
-ms.openlocfilehash: f67fe998408b9c99311f1a86c35e08200de99431
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：瞭解如何在商務用 Skype Server 中查看有關 SIP 主幹的資訊。
+ms.openlocfilehash: 29a5a025589f4df7d99b8bf708bf8bd67d0f138f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766926"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830523"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>在商務用 Skype Server 中查看個別 SIP trunks 的相關資訊
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>在商務用 Skype Server 中查看個別 SIP 主幹的相關資訊
  
-**摘要：** 瞭解如何在商務用 Skype Server 中查看有關 SIP trunks 的資訊。
+**摘要：** 瞭解如何在商務用 Skype Server 中查看有關 SIP 主幹的資訊。
   
-SIP trunks 是用來連接商務用 Skype Server Voice over IP 電話網絡（PSTN）。 在早期版本的產品中，trunks 是用來將撥出電話從中繼伺服器傳送到 PSTN 閘道，而每個閘道都限制在單一干線中。 因此，PSTN 閘道與 SIP 幹線本質上完全相同。 針對管理員而言，這表示只要查看關聯 PSTN 閘道的相關資訊，就能查看個別 SIP 主幹的相關資訊。
+SIP 主幹是用來將商務用 Skype Server Voice over IP phone 網路與公用交換電話網路 (PSTN) 連線。 在舊版本的產品中，主幹是用來將撥出電話從轉送伺服器路由傳送至 PSTN 閘道，而每個閘道都限制為單一主幹。 因此，PSTN 閘道和 SIP 主幹本質上都相同。 針對系統管理員而言，只要查看相關聯的 PSTN 閘道的相關資訊，就可以查看個別 SIP 主幹的相關資訊。
   
-在商務用 Skype Server 中，您現在可以將多個 trunks 指派給單一 PSTN 閘道;這表示閘道與 trunks 已不再是相同的。 因此，這表示系統管理員必須使用新的[CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) Cmdlet，才能查看個別 SIP 幹線的相關資訊。
+不過，在商務用 Skype Server 中，多個主幹現在可以指派給單一 PSTN 閘道;這表示閘道和主幹不再是一個，也是相同的。 反過來，這表示系統管理員必須使用新的 [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) Cmdlet，才能查看個別 SIP 主幹的相關資訊。
   
-### <a name="to-view-information-for-all-your-sip-trunks"></a>若要查看所有 SIP trunks 的相關資訊
+### <a name="to-view-information-for-all-your-sip-trunks"></a>若要查看所有 SIP 主幹的資訊
 
-- 下列命令會傳回貴組織中使用的所有 SIP trunks 資訊：
+- 下列命令會傳回組織中使用之所有 SIP 主幹的資訊：
     
   ```powershell
   Get-CsTrunk
@@ -41,15 +41,15 @@ SIP trunks 是用來連接商務用 Skype Server Voice over IP 電話網絡（PS
 
 ### <a name="to-view-information-for-a-specific-sip-trunk"></a>若要查看特定 SIP 主幹的資訊
 
-- 這個命令只會傳回具有身分識別 PstnGateway 的 SIP 幹線資訊：192.168.0.240：
+- 這個命令只會傳回身分識別 PstnGateway:192.168.0.240 的 SIP 主幹資訊：
     
   ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
-### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>查看指派給某個池之所有 SIP trunks 的相關資訊
+### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>查看指派至集區之所有 SIP 主幹的資訊
 
-- 在這個範例中，會針對指派給 pool atl-cs-001.litwareinc.com 的所有 SIP trunks 傳回信息：
+- 在此範例中，會傳回指派給集區 atl-cs-001.litwareinc.com 的所有 SIP 主幹的資訊：
     
   ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"

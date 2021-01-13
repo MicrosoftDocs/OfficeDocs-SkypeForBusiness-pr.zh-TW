@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的容量規劃
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
-description: 本節中的主題可協助您瞭解如何規劃及部署商務用 Skype Server，讓您可以充分規劃貴組織中的使用者數，並規劃其活動產生的伺服器負載。
-ms.openlocfilehash: 1d6148d12ad546e0a1120652054fb21fd3858381
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 本節中的主題可協助您瞭解如何規劃及部署商務用 Skype Server，使您可以充分規劃組織中的使用者人數，並規劃其活動所產生的伺服器負載。
+ms.openlocfilehash: 4688be0f9ebc481a97b9f88685531182dc80acdc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816072"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827693"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>商務用 Skype Server 的容量規劃
  
-本節中的主題可協助您瞭解如何規劃及部署商務用 Skype Server，讓您可以充分規劃貴組織中的使用者數，並規劃其活動產生的伺服器負載。 
+本節中的主題可協助您瞭解如何規劃及部署商務用 Skype Server，使您可以充分規劃組織中的使用者人數，並規劃其活動所產生的伺服器負載。 
   
 > [!NOTE]
-> 本節中的所有建議假設您已在伺服器上安裝商務用 Skype 累計更新、2015年11月或更新版本。 
+> 本節中的所有建議都假設您已在伺服器上安裝了商務用 Skype 累計更新、11月2015或更新版本。 
   
 ## <a name="in-this-section"></a>本節內容
 
-- [商務用 Skype Server 的容量規劃使用者模型使用量](user-model.md)
+- [用於商務用 Skype Server 的容量規劃使用者模型使用狀況](user-model.md)
     
-- [估計商務用 Skype Server 的語音使用與流量](estimating-voice-traffic.md)
+- [評估商務用 Skype Server 的語音使用方式和流量](estimating-voice-traffic.md)
     
-- [商務用 Skype Server 中的中繼伺服器部署指導方針](mediation-server-deployment-guidelines.md)
+- [商務用 Skype Server 中轉送伺服器的部署指導方針](mediation-server-deployment-guidelines.md)
     
 - [商務用 Skype Server 中的使用者模型](user-models.md)
     

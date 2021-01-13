@@ -1,7 +1,7 @@
 ---
 title: 含直接路線、GCCH 和 DoD 的音訊會議
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 系統管理員可以瞭解如何在 GCCH 和 DoD 環境中搭配直接路由使用音訊會議。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 34fcb84ee0e5126188f47a4ccc231c04ffd093b2
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 818b36e379532e361fd3991b002bc899156af056
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262490"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812913"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>適用於 GCC High 和 DoD 的音訊會議搭配直接路由
 
@@ -97,7 +97,7 @@ ms.locfileid: "48262490"
 由貴組織中的使用者組織的會議對 PSTN 所做的撥出通話路由，是由貴組織的全域語音路由策略所定義。 如果您的組織已定義全域語音路由策略，請確認 [全域語音路由原則] 允許從組織中的使用者所組織的會議開始，對預期啟動的 PSTN 進行撥出通話。 如果您的組織沒有定義全域語音路由策略，您將需要定義一個，才能從組織中的使用者組織的會議中，將撥出電話路由至 PSTN。 請注意，貴組織的全域語音路由策略也適用于您組織中的使用者對 PSTN 所做的一對一通話。 如果針對您組織中的使用者啟用對 PSTN 的一對一呼叫，請確定全域語音路由策略符合您組織的兩種通話類型的需求。 
 
 > [!NOTE]
-> Microsoft 365 政府社區雲端 (GCC) 高或 DoD 部署中，不提供以位置為基礎的路由。 啟用音訊會議時，請確認不在 GCC 或 DoD 環境中的音訊會議使用者已啟用位置路由。
+> 在 Microsoft 365 政府社區 (雲端) 高或 DoD 部署中，無法使用 Location-Based 路由。 啟用音訊會議時，請確認未在 GCC 高或 DoD 環境中啟用任何音訊會議使用者 Location-Based 路由。
 
 #### <a name="defining-a-global-voice-routing-policy"></a>定義全域語音路由策略
 

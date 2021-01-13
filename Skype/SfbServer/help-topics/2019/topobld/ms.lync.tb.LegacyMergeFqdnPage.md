@@ -1,8 +1,8 @@
 ---
 title: 舊版合併 FQDN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[存取邊緣池內 FQDN] 是用於各種案例，在這種情況下，內部使用者與外部使用者進行聯盟、遠端使用者存取及公用 IM 連線。 如果您的舊版環境中部署了負載平衡的邊緣伺服器，請輸入內部負載平衡器的完整功能變數名稱（FQDN）。'
-ms.openlocfilehash: 40af6b5ffa57df56f1b41760435b3d8b9f13715e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Access Edge 集區的內部 FQDN 用於各種案例，其中內部使用者會與外部使用者通訊，以進行同盟、遠端使用者存取和公用 IM 連線。 如果您的舊版環境中部署了經負載平衡的 Edge Server，請輸入內部負載平衡器的完整網域名稱 (FQDN)。
+ms.openlocfilehash: 9e4446a89b1f8976db4d325175c3e760865ac118
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41787703"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827443"
 ---
 # <a name="legacy-merge-fqdn"></a>舊版合併 FQDN
  
-[**存取邊緣池內 FQDN** ] 是用於各種案例，在這種情況下，內部使用者與外部使用者進行聯盟、遠端使用者存取及公用 IM 連線。 如果您的舊版環境中部署了負載平衡的邊緣伺服器，請輸入內部負載平衡器的完整功能變數名稱（FQDN）。
+**Access Edge 集區的內部 FQDN** 用於各種案例，其中內部使用者會與外部使用者通訊，以進行同盟、遠端使用者存取和公用 IM 連線。 如果您的舊版環境中部署了經負載平衡的 Edge Server，請輸入內部負載平衡器的完整網域名稱 (FQDN)。
   
-**內部的 SIP 存取埠**值**5061**是預設的傳輸控制通訊協定（TCP） SIP 埠，用於與用戶端、舊版前端池和伺服器進行通訊。 如果未使用預設值，請更新**內部 SIP 存取埠：** 值。
+**內部的 SIP 存取埠** 值 **5061** 是預設的傳輸控制通訊協定 (TCP) SIP 埠，可與用戶端、舊版前端集區和伺服器進行通訊。 如果未使用預設值，請更新 **[內部 SIP 存取連接埠:]** 值。
   
 

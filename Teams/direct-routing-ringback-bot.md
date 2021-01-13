@@ -1,7 +1,7 @@
 ---
 title: 設定直接路由的 Ringback bot
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26738002ab333d2490ef0dac5674a1f7cdc19efd
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 91cea9183a85a804ca43464aab08f417ccaff1e8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420953"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827513"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>設定直接路由的 Ringback bot
 

@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中管理驗證
+title: 管理商務用 Skype Server 中的驗證
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,37 +12,37 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
-description: 摘要：使用下列程式來管理商務用 Skype Server 安全性與驗證。
-ms.openlocfilehash: 682f2c935ea25de3bd4cf4aded60d36430d65e55
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：使用下列程式來管理商務用 Skype Server 的安全性和驗證。
+ms.openlocfilehash: 57cb9d6a94c604d155fef9bb784ff6afccbdfc2d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818845"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828493"
 ---
-# <a name="manage-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中管理驗證
+# <a name="manage-authentication-in-skype-for-business-server"></a>管理商務用 Skype Server 中的驗證
  
-**摘要：** 使用下列程式來管理商務用 Skype 伺服器的安全性與驗證。
+**摘要：** 請使用下列程式來管理商務用 Skype Server 安全性和驗證。
   
-使用下列程式來管理商務用 Skype 伺服器的安全性與驗證。
+請使用下列程式來管理商務用 Skype Server 安全性和驗證。
   
 ## <a name="in-this-section"></a>本節內容
 
-- [如何在商務用 Skype 中使用新式驗證（ADAL）](use-adal.md)
+- [如何搭配商務用 Skype) 使用新式驗證 (ADAL](use-adal.md)
     
-- [使用 CsCertificate 中的商務用 Skype 伺服器階段 AV 和 OAuth 憑證](stage-av-and-oauth-certificates.md)
+- [在商務用 Skype Server 中的階段 AV 和 OAuth 憑證 Set-CsCertificate 中使用-擲入](stage-av-and-oauth-certificates.md)
     
-- [指派伺服器對伺服器驗證憑證至商務用 Skype 伺服器](assign-a-server-to-server-certificate.md)
+- [將伺服器對伺服器驗證憑證指派給商務用 Skype Server](assign-a-server-to-server-certificate.md)
 
-- [針對商務用 Skype Server 混合式環境設定伺服器對伺服器驗證。](configure-a-hybrid-environment.md)
+- [設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。](configure-a-hybrid-environment.md)
 
-- [針對商務用 Skype Server 設定內部部署合作夥伴應用程式](configure-an-on-premises-partner-app.md)
+- [設定商務用 Skype 伺服器的內部部署夥伴應用程式](configure-an-on-premises-partner-app.md)
     
-- [在商務用 Skype Server 中管理註冊機構配置設定](registrar-configuration-settings.md)
+- [管理商務用 Skype Server 中的註冊器設定設定](registrar-configuration-settings.md)
     
-- [在商務用 Skype Server 中管理 Web 服務配置設定](web-service-configuration-settings.md)
+- [在商務用 Skype Server 中管理 Web 服務設定](web-service-configuration-settings.md)
     
-- [在商務用 Skype Server 中管理 PIN 設定](pin-settings.md)
+- [在商務用 Skype Server 中管理 PIN 碼設定](pin-settings.md)
     
 - [在商務用 Skype Server 中管理雙因素驗證](two-factor-authentication.md)
     

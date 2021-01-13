@@ -1,7 +1,7 @@
 ---
 title: 針對團隊中的第一線員工工作者管理以倒班為基礎的存取權
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ec470422e402da07171bef627d1592c73d6c12f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b73fe9b3c4b39e7d3fa7b31427f563c47e5a737
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514130"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823013"
 ---
 # <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>針對團隊中的第一線員工工作者管理以倒班為基礎的存取權
 
@@ -33,7 +33,7 @@ ms.locfileid: "48514130"
 
 Microsoft 團隊中的目前狀態表示使用者目前的可用性與其他使用者的狀態。 與其他員工相比，目前的工作時間通常不是相同的，因此第一線員工工作者的狀態通常不會太容易被人預測。 身為系統管理員，您可以將團隊設定為顯示您組織中的第一線員工工作人員的一組班次的目前狀態，以指出他們是在何時開啟和關閉班次。
 
-這些以移動為基礎的線上狀態會以 &mdash; ![ 純綠色核取記號表示 [倒班 ](../../media/flw-presence-on-shift.png) **上**的 shift， ![ 灰色圓圈（含 x）] 表示 [向下移動] 表示 [忙碌] 的 [忙碌] 與 ](../../media/flw-presence-off-shift.png) **Off shift** ![ ](../../media/flw-presence-busy.png) **Busy** &mdash; [團隊中的目前[狀態] 狀態](../../presence-admins.md)是分開的。 在這兩組目前狀態的狀態中，您可以根據組織中的人員角色來設定不同的體驗。
+這些以移動為基礎的線上狀態會以 &mdash; ![ 純綠色核取記號表示 [倒班 ](../../media/flw-presence-on-shift.png) **上** 的 shift， ![ 灰色圓圈（含 x）] 表示 [向下移動] 表示 [忙碌] 的 [忙碌] 與 ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; [團隊中的目前 [狀態] 狀態](../../presence-admins.md)是分開的。 在這兩組目前狀態的狀態中，您可以根據組織中的人員角色來設定不同的體驗。
 
 使用值班式存取時，您可以在第一線員工工作人員離開班次時管理團隊的存取權。 例如，您可以將團隊設定為顯示一則訊息，讓第一線員工工人必須承認，才能使用小組，而不是排定的班次。  
 
