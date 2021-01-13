@@ -1,8 +1,8 @@
 ---
-title: 通話許可控制（規劃工具）
+title: " (規劃工具的通話許可控制) "
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
-description: '[通話許可控制] （CAC）會根據可用的網路頻寬決定是否允許建立即時通訊會話，例如語音或視頻通話。'
-ms.openlocfilehash: c48bebaf85a2ea57cfda88ea92d68586f7304ab9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 通話許可控制服務 (CAC) 會根據可用的網路頻寬，判斷是否允許建立即時通訊工作階段 (如語音或視訊通話)。
+ms.openlocfilehash: 2b7a292486a57a34f4e44a390dd36a3b201eb686
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809861"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810403"
 ---
-# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="2eab6-103">通話許可控制（規劃工具）</span><span class="sxs-lookup"><span data-stu-id="2eab6-103">Call Admission Control (Planning Tool)</span></span>
+# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="a7df2-103"> (規劃工具的通話許可控制) </span><span class="sxs-lookup"><span data-stu-id="a7df2-103">Call Admission Control (Planning Tool)</span></span>
  
-<span data-ttu-id="2eab6-104">[通話許可控制] （CAC）會根據可用的網路頻寬決定是否允許建立即時通訊會話，例如語音或視頻通話。</span><span class="sxs-lookup"><span data-stu-id="2eab6-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
+<span data-ttu-id="a7df2-104">通話許可控制服務 (CAC) 會根據可用的網路頻寬，判斷是否允許建立即時通訊工作階段 (如語音或視訊通話)。</span><span class="sxs-lookup"><span data-stu-id="a7df2-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
   
-<span data-ttu-id="2eab6-105">如需規劃通話許可控制的詳細資料，請參閱[在商務用 Skype Server 2015 中規劃通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="2eab6-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="a7df2-105">如需規劃通話許可控制的詳細資訊，請參閱 [在商務用 Skype Server 2015 中規劃通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="a7df2-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
 
