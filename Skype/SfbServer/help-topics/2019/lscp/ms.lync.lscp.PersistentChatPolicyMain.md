@@ -1,8 +1,8 @@
 ---
 title: 常設聊天室原則主要頁面
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以使用 [常設聊天室] 群組的 [常設聊天室原則] 頁面來管理全域、集區、網站或使用者層級的原則，包括為部署設定預設全域原則，以及建立一個或多個其他使用者和站台原則。 如果使用者依原則啟用持久聊天伺服器，則持續聊天伺服器環境會出現在其用戶端中。
-ms.openlocfilehash: 3c9bb158cf788c37d9bf04bb2661d9abd5686206
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以使用 Persistent 聊天群組的持續聊天原則頁面，管理全域、集區、網站或使用者層級的原則，包括設定預設全域原則，以及為您的部署建立一或多個額外的使用者和網站原則。 如果使用者依原則啟用 Persistent Chat Server，則 Persistent Chat Server 環境會出現在其用戶端中。
+ms.openlocfilehash: 25441c5d50b1ef9e7b7f3f6dab137f2346050735
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797534"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808283"
 ---
 # <a name="persistent-chat-policy-main-page"></a>常設聊天室原則主要頁面
 
 > [!NOTE] 
-> 商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊，請參閱[商務用 Skype 至 Microsoft 團隊升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
+> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [商務用 Skype To Microsoft 小組升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。

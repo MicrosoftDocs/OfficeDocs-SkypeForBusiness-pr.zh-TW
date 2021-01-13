@@ -1,8 +1,8 @@
 ---
 title: 常設聊天室資料庫結構描述
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,38 +12,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: 這會在商務用 Skype Server 中記錄持續聊天資料庫的架構。
-ms.openlocfilehash: b042f4490648760f4750e45fa1e35e032a8bf8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 這會在商務用 Skype Server 中記錄 Persistent Chat 資料庫的架構。
+ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814741"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809873"
 ---
 # <a name="persistent-chat-database-schema"></a>常設聊天室資料庫結構描述
  
-這會在商務用 Skype Server 中記錄持續聊天資料庫的架構。
+這會在商務用 Skype Server 中記錄 Persistent Chat 資料庫的架構。
   
-Persistent 聊天資料庫指的是對應到商務用 Skype Server 後端伺服器角色**PersistentChatStore** （對應于 mgc 資料庫）和**PersistentChatComplianceStore** （對應至 mgccomp 資料庫）的資料庫。 發佈此架構的目的是讓您建立查詢，並深入瞭解如何在聊天使用、作用中的聊天室、主要海報等上建立有用的報告。
+Persistent Chat 資料庫是指對應于商務用 Skype Server 後端伺服器角色的資料庫 **PersistentChatStore** (，該資料庫對應于與 mgccomp 資料庫) 相對應的 mgc 資料庫) 和 **PersistentChatComplianceStore** (。 發行此結構描述的目標是讓您能夠建立查詢，並深入了解建立關於交談使用方式、作用中聊天室、前幾名的張貼者等實用報告的資訊。
   
 > [!IMPORTANT]
-> 我們保留要演化此架構的權利。 Microsoft 不會保證維持與此發佈架構完全後相容性的任何保證。 
+> 我們保留發展此結構描述的權利。Microsoft 不保證會維持此發行的結構描述之完整回溯相容性。 
   
-請遵循下列最佳做法：
+請遵循以下最佳做法：
   
-- 因為欄\*清單可能會增加，所以不支援 SELECT//。
+- \*因為 column 清單可能會成長，所以不支援 SELECT//。
     
-- 不支援使用者產生的架構修改。
+- 不支援使用者產生的結構描述修改。
     
 - 不支援寫入作業。
     
-- 測試您在 representatively 大小的資料庫上建立的任何查詢，以確定查詢可以在某一層級執行，以符合您的需求。
+- 測試您在典型大小之資料庫上建立的任何查詢，以確定查詢可以在符合您需求的層級上執行。
     
 ## <a name="in-this-section"></a>本節內容
 
 - [常設聊天室伺服器表格清單](list-of-persistent-chat-server-tables.md)
     
-- [商務用 Skype Server 中的持續聊天伺服器合規性表格清單](list-of-persistent-chat-server-compliance-tables.md)
+- [商務用 Skype Server 中的 Persistent Chat Server 相容性資料表清單](list-of-persistent-chat-server-compliance-tables.md)
     
 - [常設聊天室伺服器表格詳細資料](persistent-chat-server-table-details.md)
     

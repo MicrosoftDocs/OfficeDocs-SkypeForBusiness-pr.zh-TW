@@ -1,8 +1,8 @@
 ---
 title: 安裝及建立資料庫
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: 您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站中已定義的 SQL Server 上建立資料庫，而且會根據您放置資料庫所在的 SQL Server，自動部署及設定資料庫檔案。
-ms.openlocfilehash: ade264fcda73df408f6bb323dd1e3733ccdd45f1
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 36912e468b0618925b3fbeb20db829d8d19249fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215384"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806933"
 ---
 # <a name="install-and-create-databases"></a>安裝及建立資料庫
 
@@ -37,8 +37,8 @@ ms.locfileid: "48215384"
 
  **下一步**：按一下此按鈕可認可您在目前對話方塊上的選項，並前往下一個對話方塊以設定其他資訊
 
- **取消**：按一下此按鈕可結束設定並捨棄變更。 如果您想結束並捨棄變更，其中一些設定畫面 (並非所有設定畫面) 會出現提示。 選取 **[是]** 會關閉目前的設定並關閉目前的設定，並傳回拓撲產生器。 選取 [否]**** 可回到目前的設定對話方塊，以供您繼續進行設定。
+ **取消**：按一下此按鈕可結束設定並捨棄變更。 如果您想結束並捨棄變更，其中一些設定畫面 (並非所有設定畫面) 會出現提示。 選取 **[是]** 會關閉目前的設定並關閉目前的設定，並傳回拓撲產生器。 選取 [否] 可回到目前的設定對話方塊，以供您繼續進行設定。
 
- **說明**：按一下 [說明]**** 按鈕可顯示與目前設定對話方塊相關的說明資訊。
+ **說明**：按一下 [說明] 按鈕可顯示與目前設定對話方塊相關的說明資訊。
 
 

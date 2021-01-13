@@ -1,8 +1,8 @@
 ---
 title: 前端伺服器範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 此節點顯示此前端集區或 Standard Edition Server 的組態資訊。 您可以執行下列動作：
-ms.openlocfilehash: 44317a7d7afe4010e323dfb35fd29ac568abf01f
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6068588800765ac3f1352655cbdb8d342d07aa85
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215344"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807003"
 ---
 # <a name="front-end-server-scope-node"></a>前端伺服器範圍節點
  
 此節點顯示此前端集區或 Standard Edition Server 的組態資訊。您可以執行下列動作：
   
-- **新增伺服器**。如果這是前端集區，您可以選取此選項來啟動 [定義新的伺服器精靈]****，以便將其他前端伺服器新增到此集區。
+- **新增伺服器**。如果這是前端集區，您可以選取此選項來啟動 [定義新的伺服器精靈]，以便將其他前端伺服器新增到此集區。
     
-- **編輯內容**。開啟集區或伺服器的「編輯內容」**** 頁面，以供您啟用和停用功能，指定與檔案存放區、SQL Server 資料庫和其他伺服器的關聯，以及設定網頁伺服器和中繼伺服器資訊。
+- **編輯內容**。開啟集區或伺服器的「編輯內容」頁面，以供您啟用和停用功能，指定與檔案存放區、SQL Server 資料庫和其他伺服器的關聯，以及設定網頁伺服器和中繼伺服器資訊。
     
 - **刪除**。從拓撲中刪除前端集區或 Standard Edition Server。
     

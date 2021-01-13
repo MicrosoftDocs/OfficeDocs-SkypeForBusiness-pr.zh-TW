@@ -1,8 +1,8 @@
 ---
 title: 行動用戶端建立或編輯推播通知設定
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
-description: 「推播通知」及「推播通知結算所」(PNCH) 是行動功能的兩個主要部分。推播通知是將訊息傳送至 PNCH 的程序。在訊息送達行動用戶端或超過逾時期限之前，都會保留在這裡。
-ms.openlocfilehash: 803bc61d12263e98efe5e74764f9f60f392af95f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 推播通知及推播通知的 (PNCH) 是行動功能的兩個重要部分。 推播通知是郵件傳送至 PNCH 的處理常式。 郵件會在這裡保留，直到傳遞給行動用戶端，或超時期限到期為止。
+ms.openlocfilehash: 3c72c5b123a906d74cfeb0a1fef5c1e765fe030c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796482"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808743"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>行動用戶端：建立或編輯推播通知設定
  
-「推播通知」及「推播通知結算所」(PNCH) 是行動功能的兩個主要部分。推播通知是將訊息傳送至 PNCH 的程序。在訊息送達行動用戶端或超過逾時期限之前，都會保留在這裡。 
+推播通知及推播通知的 (PNCH) 是行動功能的兩個重要部分。 推播通知是郵件傳送至 PNCH 的處理常式。 郵件會在這裡保留，直到傳遞給行動用戶端，或超時期限到期為止。 
   
 > [!NOTE]
-> 此期限是在推播通知結算所設定，部署的使用者或系統管理員無法加以設定。 
+> 時段是在推播通知結算所設定，而不是由使用者或您的部署管理員設定。 
   
-若要啟用 [推播通知]，請執行下列動作：
+若要啟用推播通知，請執行下列作業：
   
-1. **範圍**：請注意此原則的範圍。該範圍可以是**全域** (適用於此部署中的所有使用者)，或**網站** (僅限於指派給指定網站之主伺服器的使用者)。
+1. **範圍：** 請記下此原則的範圍。 它可以是 **全域**，也可以套用至此部署中的所有使用者，或 **網站**，這只是在指定的網站中指派給主伺服器的使用者。
     
     > [!IMPORTANT]
-    > 在一個策略層級套用的原則設定可以覆寫在其他原則層級套用的設定。 原則優先順序為：使用者原則（最大影響）會覆寫網站原則，然後網站原則會覆寫全域原則（最小的影響）。 這表示原則設定越接近策略設定的物件，就會受到對物件的影響。 
+    > 在一個原則層級套用的原則設定，可以覆寫在另一個原則層級套用的設定。 原則優先順序是：使用者原則 (最影響) 覆寫網站原則，然後網站原則會覆寫全域原則 (最小影響) 。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。 
   
-2. 按一下下列核取方塊，來選取要啟用的推播通知服務：
+2. 按一下下列的核取方塊，以選取您要啟用的推播通知服務：
     
-   - **啟用 Microsoft 推播通知**，即可使用商務用 Skype 應用程式將推播通知啟用至 Windows Phone 的雲端 PNCH
+   - [**啟用 Microsoft 推播通知**] 會針對使用商務用 Skype 應用程式的雲端式 PNCH，啟用 Windows Phone 的推播通知
     
-   - **啟用 apple 推播通知**會針對執行 apple iOS 的裝置（例如，IPhone、iPad）和使用商務用 Skype 應用程式啟用 apple PNCH 的推播通知
+   - [**啟用 apple 推播通知**] 會針對執行 apple iOS (的裝置，啟用 apple PNCH 的推播通知，例如，IPhone、iPad) 和使用商務用 Skype 應用程式
     
-3. 完成原則的編輯作業之後，請按一下 [認可]****，儲存您所做的變更。如果需要刪除您所做的變更，請選 [取消]****，這樣就不會將任何變更儲存至原則。
+3. 當您完成對原則的編輯時，請按一下 [ **認可** ] 以儲存變更。 如果您需要刪除您所做的變更，請選取 [ **取消**]。 不會將變更儲存至原則。
     
 

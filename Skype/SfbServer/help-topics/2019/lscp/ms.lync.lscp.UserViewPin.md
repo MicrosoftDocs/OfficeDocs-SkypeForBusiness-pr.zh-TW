@@ -1,8 +1,8 @@
 ---
-title: 使用者查看 PIN 狀態
+title: 使用者 View PIN 狀態
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 0f4d30860560150d3988a85dffafcd0c85e5f9c3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 06a9fbf6411747c43213a5490fde3358ed6e798c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797910"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808073"
 ---
 # <a name="users-view-pin-status"></a>使用者：檢視 PIN 狀態
  
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
   
 - [在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     

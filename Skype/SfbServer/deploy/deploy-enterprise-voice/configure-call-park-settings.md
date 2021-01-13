@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype 中設定通話寄存設定
+title: 在商務用 Skype 中設定通話駐留設定
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,45 +15,45 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: 在商務用 Skype Server Enterprise Voice 中修改通話駐留設定。
-ms.openlocfilehash: e9410d3b088e5978588de991aeaa9da73327f50a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 修改商務用 Skype Server Enterprise Voice 中的通話駐留設定。
+ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768126"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804113"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>在商務用 Skype 中設定通話寄存設定
+# <a name="configure-call-park-settings-in-skype-for-business"></a>在商務用 Skype 中設定通話駐留設定
 
-在商務用 Skype Server Enterprise Voice 中修改通話駐留設定。
+修改商務用 Skype Server Enterprise Voice 中的通話駐留設定。
 
-如果您不想使用預設的通話駐留設定，您可以進行自訂。 當您安裝 [通話駐留] 應用程式時，系統會根據預設設定全域設定。 您可以修改全域設定，也可以指定網站專用的設定。 使用**新的 CsCpsConfiguration** Cmdlet 來建立新的網站特定設定。 使用**CsCpsConfiguration** Cmdlet 來修改現有的設定。
+如果您不想要使用預設的通話駐留設定，可以進行自訂。 當您安裝通話駐留應用程式時，系統會預設設定全域設定。 您可以修改全域設定，也可以指定網站特定設定。 使用 **New-CsCpsConfiguration** Cmdlet 可建立新的網站特定設定。 使用 **Set-CsCpsConfiguration** Cmdlet 可修改現有設定。
 
 > [!NOTE]
-> 我們建議您針對備用目的地設定**OnTimeoutURI**選項，以便在停用通話超時和 ringback 失敗時使用。
+> 建議您至少設定 **OnTimeoutURI** 選項，作為當駐留通話逾時且回撥失敗時的後援目的地。
 
-使用**新的 CsCpsConfiguration** Cmdlet 或**CsCpsConfiguration** Cmdlet 來設定下列任何設定：
+使用 **New-CsCpsConfiguration** Cmdlet 或 **Set-CsCpsConfiguration** Cmdlet 進行下列任何一項設定：
 
 
 | **此選項：**                     | **指定：**                                                                                                                                                                                                                                                                                                                   |
 |:-------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **CallPickupTimeoutThreshold** <br/> | 通話結束之後，在撥打電話給接聽電話的電話之前所經過的時間長度。  <br/> 此值必須以 hh： mm： ss 格式輸入，以指定小時、分鐘和秒。 最小值為10秒，最大值為10分鐘。 預設值為00:01:30。  <br/> |
-| **EnableMusicOnHold** <br/>          | 通話停用時，是否會在來電者中播放音樂。  <br/> 值為 True 或 False。 預設值為 True。  <br/>                                                                                                                                                                                                                 |
-| **MaxCallPickupAttempts** <br/>      | 寄存來電在轉寄到指定給**OnTimeoutURI**的回退統一資源識別項（URI）之前，響鈴給應答電話的次數。 預設值為1。  <br/>                                                                                                                         |
-| **OnTimeoutURI** <br/>               | 在超過**MaxCallPickupAttempts**時傳送未應答之暫停呼叫的使用者或回應群組的 SIP 位址。 <br/> Value 必須是以 [字串 SIP：] 開頭的 SIP URI。 例如，sip:bob@contoso.com。 預設值為 [沒有轉寄位址]。  <br/>                                                   |
+| **CallPickupTimeoutThreshold** <br/> | 從駐留通話之後到回撥原先接聽該通話的電話之前，需經過的時間長度。  <br/> 此值必須以 hh:mm:ss 格式輸入，以指定小時、分鐘和秒數。最小值為 10 秒，最大值為 10 分鐘。預設值為 00:01:30。  <br/> |
+| **EnableMusicOnHold** <br/>          | 駐留通話時是否對來電者播放音樂。  <br/> 值為 True 或 False。預設為 True。  <br/>                                                                                                                                                                                                                 |
+| **MaxCallPickupAttempts** <br/>      | 在將駐留通話轉接至 **OnTimeoutURI** 指定的後援統一資源識別元 (URI) 之前，需將駐留通話回撥至當初接聽該通話的次數。預設值為 1。<br/>                                                                                                                         |
+| **OnTimeoutURI** <br/>               | 在超過 **MaxCallPickupAttempts** 時，將未接聽的駐留通話路由至的使用者或回應群組的 SIP 位址。 <br/> 值必須是以字串 sip: 開頭的 SIP URI。例如，sip:bob@contoso.com。預設沒有轉接位址。<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>若要設定通話寄存設定
+### <a name="to-configure-call-park-settings"></a>設定通話駐留設定
 
-1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
-2. 用盡
+2. 運行：
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > 使用**CsSite** Cmdlet 來識別網站。 如需詳細資訊，請參閱商務用 Skype Server Management 命令介面檔。
+   > 使用 **Get-CsSite** Cmdlet 來識別網站。 如需詳細資訊，請參閱商務用 Skype Server 管理命令介面檔。
 
     例如：
 
@@ -63,10 +63,10 @@ ms.locfileid: "41768126"
 
 ## <a name="see-also"></a>另請參閱
 
-[在保留 inSkype for Business 2015 上自訂通話寄存音樂](customize-call-park-music-on-hold.md)
+[自訂通話駐留 inSkype for Business 2015](customize-call-park-music-on-hold.md)
 
-[新-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)

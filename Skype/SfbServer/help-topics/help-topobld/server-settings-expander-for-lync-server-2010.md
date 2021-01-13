@@ -1,8 +1,8 @@
 ---
 title: 伺服器設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 若要編輯這部電腦的屬性，請執行下列動作：
-ms.openlocfilehash: c0eb39a516cbcce18940abe7936747fc18db9761
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 8b05fa82bcfeb10caa201ce303ddbbd8e8378b7e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215694"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806653"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>伺服器設定展開工具 (適用於 Lync Server 2010)
  
 若要編輯這部電腦的屬性，請執行下列動作：
   
-- 編輯此電腦 ** (FQDN) 的完整功能變數名稱 ** 。 此專案必須符合在網域名稱系統 (DNS) 中定義的電腦名稱稱，以及與此電腦相關聯的主體替代名稱 (SAN) 或主體名稱 (SN) 。
+- 編輯此電腦 **(FQDN) 的完整功能變數名稱** 。 此專案必須符合在網域名稱系統 (DNS) 中定義的電腦名稱稱，以及與此電腦相關聯的主體替代名稱 (SAN) 或主體名稱 (SN) 。
     
 - 您可以選取下列其中一項：
     

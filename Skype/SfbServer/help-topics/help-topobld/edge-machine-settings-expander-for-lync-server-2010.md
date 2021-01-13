@@ -1,8 +1,8 @@
 ---
 title: Edge 電腦設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 若要以單一 Edge Server 或 Edge 集區中的成員電腦的身分編輯 Edge Server 電腦的屬性，請設定伺服器名稱及 IP 位址設定設定：
-ms.openlocfilehash: eb2135391791fdb915578fe9938329b56c85908c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e25f68ec510cf15cd58872a8c584dc71aa939f48
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218924"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807133"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edge 電腦設定展開工具 (適用於 Lync Server 2010)
  
@@ -30,14 +30,14 @@ ms.locfileid: "48218924"
     
 - **Internal IPv4 address**：輸入這部電腦之內部網路介面卡 (NIC) 的 IPv4 位址。
     
-- 設定與此電腦相關聯的**Access Edge service** **外部 IPv4 位址**
+- 設定與此電腦相關聯的 **Access Edge service** **外部 IPv4 位址**
     
     > [!IMPORTANT]
     > 如果您選擇使用單一 IP 位址進行 Edge Server 設定，則只能編輯 Access Edge service 的外部 IPv4 位址。 其他 Edge 服務會與 Access Edge service 共用相同的 IPv4 位址。 
   
-- 若可編輯，請設定**Web 會議服務**與此電腦相關聯的**外部 IPv4 位址**
+- 若可編輯，請設定 **Web 會議服務** 與此電腦相關聯的 **外部 IPv4 位址**
     
-- 若可供編輯，您可以設定與此電腦相關聯的**A/V Edge service** **外部 IPv4 位址**
+- 若可供編輯，您可以設定與此電腦相關聯的 **A/V Edge service** **外部 IPv4 位址**
     
 - 若可供編輯，請設定與此電腦相關聯且 **已啟用 NAT 的公用 IPv4 位址** 。
     

@@ -1,8 +1,8 @@
 ---
 title: 設定主要管理伺服器
 ms.reviewer: ''
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2019 的管理套件。
-ms.openlocfilehash: 2ad04419ec60e7c752d22c4cdc5c4e82fdb853f2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 872459f99f2e620d3d34db1196a8618476650c98
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150550"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806063"
 ---
 # <a name="configure-the-primary-management-server"></a>設定主要管理伺服器
 
@@ -32,13 +32,13 @@ ms.locfileid: "42150550"
 
 - 伺服器
 
-- 安慰
+- 主控台
 
 - Windows PowerShell Cmdlet
 
 - Web 主控台
 
-- Reporting
+- 報告
 
 - 資料倉儲
 
@@ -49,7 +49,7 @@ ms.locfileid: "42150550"
 
 - [System Center Operations Manager 2012](https://go.microsoft.com/fwlink/p/?linkid=257527)
 
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
+- [System Center Configuration Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
 請記住，每個商務用 Skype Server 部署只能有一個根管理伺服器。
 
@@ -99,7 +99,7 @@ ms.locfileid: "42150550"
 
 一般說來，使用 Operations Manager 主控台匯入管理元件會比較容易。 不過，如果發生錯誤，而且匯入失敗，則主控台不一定會提供適當的錯誤報表。 依比較，Operations Manager 命令介面會提供詳細資訊。 如果您使用的是 Operations Manager，而且在匯入管理元件時遇到問題，請使用 Operations Manager 命令介面匯入套裝軟體。 Operations Manager 命令介面提供的資訊可協助您決定匯入失敗的原因。
 
-1. 依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft System Center 2012**] 及 [ **Operations Manager**]，然後按一下 [ **operations manager 命令**介面]。
+1. 依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft System Center 2012**] 及 [ **Operations Manager**]，然後按一下 [ **operations manager 命令** 介面]。
 
 2. 在 Operations Manager 命令介面中，使用您的檔案 Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp 副本的實際路徑，在命令提示字元處輸入下列命令，然後按 ENTER：
 

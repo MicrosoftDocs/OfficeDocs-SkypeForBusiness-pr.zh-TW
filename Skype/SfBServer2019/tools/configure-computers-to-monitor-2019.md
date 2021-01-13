@@ -1,8 +1,8 @@
 ---
 title: 設定要監控的商務用 Skype 伺服器電腦
 ms.reviewer: ''
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，並將該電腦設定為系統中心 proxy。
-ms.openlocfilehash: ebf859b633a0da047d61a7b0d55c430f81a02401
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 08328e430acd4fa651fccd89b827d5c103066dd1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150560"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806073"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>設定要監控的商務用 Skype 伺服器電腦
 
@@ -57,7 +57,7 @@ ms.locfileid: "42150560"
 
 11. 按一下 **[結束]**。
 
-針對 System Center 2012，您可以先依序按一下 [ **開始**]、[ **所有程式**]、[ **System Center Operations Manager 2012**]，然後按一下 [ **Operations 2012 管理員命令**介面] 來驗證代理程式是否已建立。 在 Operations Manager 命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
+針對 System Center 2012，您可以先依序按一下 [ **開始**]、[ **所有程式**]、[ **System Center Operations Manager 2012**]，然後按一下 [ **Operations 2012 管理員命令** 介面] 來驗證代理程式是否已建立。 在 Operations Manager 命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
 ```PowerShell
 Get-SCOMAgent
 ```
@@ -78,6 +78,6 @@ Get-SCOMAgent
 
 5. 成功推入代理程式的電腦會顯示在「代理程式管理」清單下，並以手動方式安裝代理人的電腦顯示在 [擱置的管理] 下，按一下 [電腦名稱稱] 並按 [核准]。
 
-6. 在電腦名稱上按一下滑鼠右鍵，然後按一下 [內容]****。 在 [內容] 對話方塊的 [安全性] 索引標籤上，選取 [ **允許此代理程式成為 proxy 並探索其他電腦上的 managed 物件**]，然後按一下 **[確定]**。
+6. 在電腦名稱上按一下滑鼠右鍵，然後按一下 [內容]。 在 [內容] 對話方塊的 [安全性] 索引標籤上，選取 [ **允許此代理程式成為 proxy 並探索其他電腦上的 managed 物件**]，然後按一下 **[確定]**。
 
 

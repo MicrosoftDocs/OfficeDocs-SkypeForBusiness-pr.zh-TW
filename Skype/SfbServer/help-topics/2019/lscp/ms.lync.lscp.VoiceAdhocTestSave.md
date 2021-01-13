@@ -1,8 +1,8 @@
 ---
 title: 儲存語音路由測試案例資訊
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以使用 [儲存語音路由測試案例資訊] 對話方塊來儲存暫時的語音路由測試案例。 在 [儲存語音路由測試案例資訊] 中，輸入您想要在名稱中提供此測試案例的名稱，然後按一下 [確定]。
-ms.openlocfilehash: 46c70c426a27b598c3048543cfb6e7a9f764dd01
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以使用 [儲存語音路由測試案例資訊] 對話方塊，儲存暫時的語音路由測試案例。 在 [儲存語音路由測試案例資訊] 的 [名稱] 中，輸入您要給予這個測試案例的名稱，然後按一下 [確定]。
+ms.openlocfilehash: 428b1f761b3918968ee40877bd201114a0c4d174
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797880"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807953"
 ---
 # <a name="save-voice-routing-test-case-information"></a>儲存語音路由測試案例資訊
  
-您可以使用 [**儲存語音路由測試案例資訊**] 對話方塊來儲存 atemporary 語音路由測試案例。 在 [**儲存語音路由測試案例資訊**] 中，輸入您想要在**名稱**中提供此測試案例的名稱，然後按一下 **[確定]**。 
+您可以使用 [ **儲存語音路由測試案例資訊** ] 對話方塊來儲存 atemporary 語音路由測試案例。 在 **[儲存語音路由測試案例資訊]** 的 **[名稱]** 中，輸入您要給予這個測試案例的名稱，然後按一下 **[確定]**。 
   
 > [!NOTE]
-> 儲存暫時測試案例時，不會將其儲存到中央管理存放區。 相反地，它會從 [**語音路由**] 頁面的 [**測試語音路由**] 索引標籤中取得測試案例。 測試案例將會顯示為**未提交**狀態。 若要將測試案例儲存到中央管理存放區，您必須在 [**語音路由**] 頁面中，按一下任何**動作**功能表中的 [**全部確認**]，以提交語音設定。
+> 儲存暫時測試案例時，不會將其儲存至中央管理存放區。 而是會使測試案例可從「語音路由」頁面的 [測試語音路由] 索引標籤來取得。 測試案例將會顯示為具有 [未認可] 狀態。 若要將測試案例儲存至中央管理存放區，您必須在 [**語音路由**] 頁面中，按一下 [所有 **動作**] 功能表中的 [**認可全部**]，以認可語音設定。
   
  
   

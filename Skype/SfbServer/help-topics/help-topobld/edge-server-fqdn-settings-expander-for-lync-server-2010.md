@@ -1,8 +1,8 @@
 ---
 title: Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 若要定義 [外部設定] 底下的屬性，請進行下列設定：
-ms.openlocfilehash: 2de4b562d5b6a8b8ef9707d603fe5f4667893ba4
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6075fab9dbc820b725beec8be4a674a828b4c7d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218244"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807093"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)
  
@@ -33,7 +33,7 @@ ms.locfileid: "48218244"
   
 如果您希望 A/V Edge service 使用網路位址轉譯 (NAT) IP 位址和設定，請選取 [ **A/V Edge service 為已啟用 NAT** ] 核取方塊。
   
-在 [已啟用的 Edge service] 中，在 [**埠**] 底下輸入**集區 FQDN**和埠
+在 [已啟用的 Edge service] 中，在 [**埠**] 底下輸入 **集區 FQDN** 和埠
   
 - 定義 **Access Edge service** 集區 FQDN 及可唯一識別服務的埠。
     

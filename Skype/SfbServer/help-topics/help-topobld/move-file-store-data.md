@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中將檔案存放區資料移至新的檔案存放區
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 8/30/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果您需要移除目前充當商務用 Skype Server 2015 部署之檔案存放區的檔案伺服器，或者您需要進行其他變更，使目前的檔案存放區無法使用，您必須先建立新的共用。 接著，您必須執行下列步驟：
-ms.openlocfilehash: c9bdc7ac572ecd8a71022e5a267454b795ef7cc6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 007bcb1ef383f9c18f7c4032f0ff17321b630201
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215584"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803143"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中將檔案存放區資料移至新的檔案存放區
 
@@ -46,7 +46,7 @@ ms.locfileid: "48215584"
 
 5. 以 Domain Admins 群組與 RTCUniversalServerAdmins 群組成員的身分，登入安裝了拓撲產生器的電腦。
 
-6. 啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype server 2015**]，然後按一下 [ **商務用 skype server 2015Topology**建立器]。
+6. 啟動拓撲產生器：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype server 2015**]，然後按一下 [ **商務用 skype server 2015Topology** 建立器]。
 
 7. 選取使用檔案存放區的伺服器或集區，然後執行下列作業：
 
@@ -86,7 +86,7 @@ ms.locfileid: "48215584"
 
 20.  (選用) 登入包含您剛才移除為本機 Administrators 群組成員或 Domain Admins 群組成員的電腦，然後移除舊的檔案共用及目錄。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [將伺服器重新指派至其他檔案存放區](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 

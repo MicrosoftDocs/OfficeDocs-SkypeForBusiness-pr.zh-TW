@@ -1,8 +1,8 @@
 ---
 title: 中繼伺服器範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 此節點會顯示此中繼集區的聆聽連接埠和相關聯的公用交換電話網路 (PSTN) 閘道。您可以執行下列動作：
-ms.openlocfilehash: c6ea328bb595b3d669278d34aeacaf2b1910f24e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ed3565f32b7f620320c8dd0e5153625a50866dfe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215174"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806693"
 ---
 # <a name="mediation-server-scope-node"></a>中繼伺服器範圍節點
  
 此節點會顯示此中繼集區的聆聽連接埠和相關聯的公用交換電話網路 (PSTN) 閘道。您可以執行下列動作：
   
-- **編輯內容**。開啟此伺服器的「編輯內容」**** 頁面，您可以在此處啟用或停用傳輸控制通訊協定 (TCP) 聆聽連接埠、變更連接埠號碼，以及指定哪些 PSTN 閘道與此中繼集區相關聯。
+- **編輯內容**。開啟此伺服器的「編輯內容」頁面，您可以在此處啟用或停用傳輸控制通訊協定 (TCP) 聆聽連接埠、變更連接埠號碼，以及指定哪些 PSTN 閘道與此中繼集區相關聯。
     
 - **刪除**。從拓撲刪除集區。
     

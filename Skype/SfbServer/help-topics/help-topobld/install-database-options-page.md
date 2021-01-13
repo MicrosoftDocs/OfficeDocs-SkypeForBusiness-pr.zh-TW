@@ -1,8 +1,8 @@
 ---
 title: 安裝資料庫選項頁面
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 您可以設定 SQL Server 上的資料庫及記錄檔位置的高級選項。 可用選項包括：
-ms.openlocfilehash: 4c8c456aa1fd0e9eee150e184b4d1f7934c26b65
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f9c2553fb0a4fa8f538a70a2ce496eaf054a0dc4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215304"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806913"
 ---
 # <a name="install-database-options-page"></a>安裝資料庫選項頁面
 
@@ -44,6 +44,6 @@ ms.locfileid: "48215304"
 
  說明 **：按一下**[說明] 按鈕，存取此說明頁面。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [SQL Server 資料和記錄檔位置](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

@@ -1,8 +1,8 @@
 ---
-title: '[回應群組] 群組'
+title: 回應群組群組
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
-description: 回應群組由代理群組、佇列和工作流程所組成。 [代理程式群組] 是指派給回應群組通話的一組人員。
-ms.openlocfilehash: 1c42f34028d944a7390925df6157c8ef8fd0509d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 回應群組中包含代理群組、佇列及工作流程。 代理人群組是指定給回應回應群組通話的人員群組。
+ms.openlocfilehash: 687263d9d5778239c78038b39edc3da59f444a5a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797514"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808253"
 ---
 # <a name="response-groups-group"></a>回應群組：群組
 
-回應群組由代理群組、佇列和工作流程所組成。 [代理程式群組] 是指派給回應群組通話的一組人員。
+回應群組中包含代理群組、佇列及工作流程。 代理人群組是指定給回應回應群組通話的人員群組。
 
-[**回應群組** - ]**群組**頁面會顯示針對您的組織定義的所有代理群組清單。
+[**回應群組**  -  **群組**] 頁面會顯示針對您組織所定義之所有代理程式群組的清單。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以從 [**回應群組** - ]**群組**頁面執行下列工作：
+您可以從「**回應群組**  -  **群組**」頁面執行下列工作：
 
-- 建立新的代理群組
+- 建立新的代理人群組
 
-- 變更現有的代理群組
+- 變更現有的代理人群組
 
 - 刪除代理人群組
 
@@ -42,20 +42,20 @@ ms.locfileid: "41797514"
 
 下列清單說明頁面上的命令。
 
-- **新增**啟動新的 [代理] 群組。
+- **新** 啟動新的代理人群組。
 
-- [**編輯**]開啟選取的代理群組以進行編輯、選取清單中的所有代理群組，或刪除選取的 agent 群組。
+- **編輯** 開啟選取的代理人群組進行編輯、選取清單中的所有代理程式群組，或刪除選取的代理人群組。
 
-- **更新**刷新代理群組清單。
+- **Refresh** 重新整理代理人群組的清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱**識別代理程式群組的唯一名稱。
+- **名稱** 識別代理人群組的唯一名稱。
 
-- **服務**託管 [代理] 群組的**ApplicationServer**服務。
+- **服務** 主控代理群組的 **ApplicationServer** 服務。
 
-- **描述**[代理] 群組的描述。
+- **描述** 代理人群組的描述。
 
-如需回應群組功能與功能的詳細資訊，請參閱規劃檔中的[商務用 Skype 伺服器中的回應群組應用程式規劃](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需管理代理人群組的詳細資訊，請參閱作業文件中的〈[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)〉。
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 中規劃回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)＞。
 
 

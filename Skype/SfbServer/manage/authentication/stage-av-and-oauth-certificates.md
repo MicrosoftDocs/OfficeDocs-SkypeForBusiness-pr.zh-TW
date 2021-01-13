@@ -1,8 +1,8 @@
 ---
-title: 使用 CsCertificate 中的商務用 Skype 伺服器階段 AV 和 OAuth 憑證
+title: 在商務用 Skype Server 中的階段 AV 和 OAuth 憑證 Set-CsCertificate 中使用-擲入
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,56 +12,56 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: 摘要：適用于商務用 Skype Server 的 [階段 AV] 和 [OAuth 憑證]。
-ms.openlocfilehash: 530e8f603d2c5be368df37354c3974e2b5abeb5a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：為商務用 Skype Server 階段 AV 和 OAuth 憑證。
+ms.openlocfilehash: a2586e9ebda1bae1605fd6033681b469e6731b8c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818725"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806553"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>使用 CsCertificate 中的商務用 Skype 伺服器階段 AV 和 OAuth 憑證
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>在商務用 Skype Server 中的階段 AV 和 OAuth 憑證 Set-CsCertificate 中使用-擲入
  
-**摘要：** 針對商務用 Skype Server 階段 AV 和 OAuth 憑證。
+**摘要：** 階段 AV 和 OAuth 商務用 Skype Server 的憑證。
   
-音訊/視頻（A/V）通訊是商務用 Skype Server 的主要元件。 應用程式共用和音訊與視訊會議等功能，都依賴指派給 A/V 邊緣服務的憑證，特別是 A/V 驗證服務。
+Audio/Video (A/V) 通訊是商務用 Skype Server 的主要元件。 「應用程式共用」和「音訊」及「視訊會議」等功能會依賴指派給 A/V Edge service 的憑證，尤其是 A/V 驗證服務。
   
 > [!IMPORTANT]
-> 這個新功能是針對 A/V 邊緣服務和 OAuthTokenIssuer 憑證設計的。 其他憑證類型可以與 A/V 邊緣服務和 OAuth 憑證類型一起進行預配，但無法從 A/V 邊緣服務憑證的共存行為獲益。
+> 這項新功能的設計目的是用於 A/V Edge service 和 OAuthTokenIssuer 憑證。 其他憑證類型可以搭配「A/V Edge service」和「OAuth 憑證」類型進行布建，但不會受益于 A/V Edge service 憑證所用的共存行為。
   
-用來管理商務用 Skype Server 憑證的商務用 Skype 伺服器管理命令介面 PowerShell Cmdlet，會參照 A/V 邊緣服務憑證作為 AudioVideoAuthentication 憑證類型，並將 OAuthServer 憑證設為 typeOAuthTokenIssuer。 針對本主題的其餘部分，以及唯一識別憑證，它們將會以相同的識別碼類型（AudioVideoAuthentication andOAuthTokenIssuer）來引用。
+商務用 Skype Server 管理命令介面 PowerShell 用來管理商務用 Skype Server 憑證的指令程式是指 A/V Edge service 憑證作為 AudioVideoAuthentication 憑證類型和 Microsoft.rtc.management.writableconfig.settings.ssauth.oauthserver 憑證做為 typeOAuthTokenIssuer。 如需本主題的其餘部分，以及唯一識別憑證，則會使用相同的識別碼類型，AudioVideoAuthentication andOAuthTokenIssuer。
   
-A/V 驗證服務負責頒發用戶端和其他 A/V 消費者所使用的權杖。 權杖是從憑證上的屬性產生，當憑證到期、連線中斷與需求與新憑證所產生的新權杖重新加入時，就會產生這種情況。 商務用 Skype Server 中的新功能可以減輕這個問題，即在舊憑證即將過期，並允許兩個憑證在一段時間內繼續運作的功能。 此功能使用 CsCertificate Skype for business Server Management Shell Cmdlet 中的更新功能。 使用現有參數 EffectiveDate 的新參數滾動，會將新的 AudioVideoAuthentication 憑證放在證書存放區中。 較舊的 AudioVideoAuthentication 憑證仍會保留給已頒發的權杖，以供驗證。 從放置新的 AudioVideoAuthentication 憑證開始，將會發生下列一系列的事件：
+A/V 驗證服務是專用來核發 Token，以供用戶端和其他 A/V 取用者使用。 Token 是依據憑證上的屬性而產生，因此當憑證到期、連線中斷或必須重新加入時，就會導致新的憑證產生新的 Token。 商務用 Skype Server 中的新功能會緩解這項問題，也就是在舊憑證即將到期，並且允許兩個憑證在一段時間內繼續運作的能力。 此功能使用 Set-CsCertificate 商務用 Skype Server 管理命令介面 Cmdlet 中的更新功能。 新的參數滾（-EffectiveDate 現有的參數）會將新的 AudioVideoAuthentication 憑證放置於憑證存放區中。 舊的 AudioVideoAuthentication 憑證仍會保留給已核發的 Token，以免其失效。 只要一將新的 AudioVideoAuthentication 憑證準備就緒，就會發生下列一系列的事件：
   
 > [!TIP]
-> 使用商務用 Skype Server Management 命令介面 Cmdlet 來管理憑證，您可以針對邊緣伺服器上的每個用途要求單獨且不同的憑證。 使用商務用 Skype Server 部署嚮導中的憑證嚮導可協助您建立證書，但通常是**預設**類型，可將邊緣伺服器所使用的所有憑證都放在單一憑證上。 建議的做法是，如果您要使用 [滾動憑證] 功能，請將 AudioVideoAuthentication 憑證與其他憑證的目的分隔開來。 您可以設定並暫存預設類型的憑證，但只有合併的憑證 AudioVideoAuthentication 部分才能受益于轉移。 在證書到期時，在 [立即訊息交談] 中所涉及的使用者必須登入，然後再次登入，以使用與存取邊緣服務相關聯的新憑證。 使用網路會議 Edge 服務參與 Web 會議的使用者就會發生類似的行為。 OAuthTokenIssuer 憑證是一種在所有伺服器上共用的特定類型。 您可以在一個位置建立和管理證書，並將憑證儲存在所有其他伺服器的中央管理儲存體中。
+> 使用商務用 Skype Server 管理命令介面 Cmdlet 來管理憑證，您可以針對 Edge Server 上的每個用途要求個別且獨特的憑證。 在商務用 Skype 伺服器部署中使用憑證嚮導可協助您建立憑證，但通常是將 Edge Server 所有憑證使用的 **預設** 類型，放在單一憑證上。 若您要使用彙總的憑證，建議的做法是將 AudioVideoAuthentication 憑證從其他憑證用途中獨立出來。 您可以佈建和臨時發出預設類型的憑證，但只有組合憑證的 AudioVideoAuthentication 部分可以臨時發出。  (中的使用者，例如，當憑證到期時，立即訊息交談) 需要登出和登入，以利用與 Access Edge service 相關聯的新憑證。 在使用 Web 會議 Edge service 的 Web 會議中，使用者會發生類似行為。 OAuthTokenIssuer 憑證是一種特殊類型的憑證，在所有伺服器中都可以共用。 您可以在一個位置建立及管理憑證，並將憑證儲存在所有其他伺服器的中央管理存放區中。
   
-若要在使用 CsCertificate Cmdlet 時充分瞭解您的選項和需求，請使用其他詳細資料，並使用它來暫存目前憑證到期前的憑證。 -滾參數很重要，但實質上是單一用途。 如果您將它定義為參數，您會告訴 CsCertificate，您將會提供有關受類型（例如 AudioVideoAuthentication 和 OAuthTokenIssuer）所定義之憑證的資訊，並在證書變為有效的 EffectiveDate 定義。
+在使用 Set-CsCertificate Cmdlet 以及在目前的憑證過期前利用其來臨時發出憑證時，您也需要全盤理解您的選項和需求。 -擺參數很重要，但實質上只是單一用途。 如果您將它定義為參數，您會告訴 Set-CsCertificate，您將會提供受影響之憑證的相關資訊，例如 AudioVideoAuthentication 和 OAuthTokenIssuer) ，當憑證將會在-EffectiveDate 中所定義時，將會 (受到影響。
   
- **-滾**： [滾] 參數是必要的，且具有必須與它一起提供的相依性。 必要參數以完整定義哪些證書會受到影響，以及它們將如何套用：
+ **-** 滾參數是必要的，且具有必須與其一起提供的相依性。 下列為可完整定義哪些憑證將受影響以及套用方式的必要參數：
   
- **-EffectiveDate**： EffectiveDate 定義新憑證在使用目前憑證時將會共同作用中的時間。 -EffectiveDate 可以接近目前憑證的到期時間，或者可能是較長的時間。 建議 AudioVideoAuthentication 憑證的最小 EffectiveDate 是8小時，這是使用 AudioVideoAuthentication 憑證所頒發之 AV Edge 服務權杖的預設權杖存留期。
+ **-EffectiveDate**：此參數-EffectiveDate 會定義何時新的憑證會使用目前憑證成為共同作用。 -EffectiveDate 可以接近目前憑證的到期時間，也可以是較長的一段時間。 AudioVideoAuthentication 憑證的建議最低-EffectiveDate 為8小時，也就是使用 AudioVideoAuthentication 憑證發行之 AV Edge service 權杖的預設權杖存留時間。
   
-在暫存 OAuthTokenIssuer 憑證時，在證書生效之前，可能會有不同的時間需求。 OAuthTokenIssuer 憑證對於其提前期應具有的最短時間為目前憑證到期時間之前的24小時。 共存的延長提前期是由於其他伺服器角色依賴于 OAuthTokenIssuer 憑證（例如 Exchange Server），而該證書已建立驗證與加密金鑰的保留時間較長原料.
+臨時發出 OAuthTokenIssuer 憑證時，在讓憑證生效前的前置重疊時間方面有些不同的需求。OAuthTokenIssuer 憑證的最低前置重疊時間為目前憑證到期時間的前 24 小時。共存的延伸前置重疊時間則取決於和 OAuthTokenIssuer 憑證相依的其他伺服器角色而定 (例如 Exchange Server)，其在憑證所建立的驗證和加密金鑰內容方面可具備較長的保留時間。
   
- **-指紋**：指紋是憑證上唯一的憑證屬性。 -Thumbprint 參數是用來識別受 CsCertificate Cmdlet 動作影響的憑證。
+ **-Thumbprint**：指紋是憑證上的一種屬性，且是唯一的。 -Thumbprint 參數是用來識別 Set-CsCertificate Cmdlet 的動作會影響的憑證。
   
- **-Type**：-type 參數可以接受單一憑證使用類型，或以逗號分隔的憑證使用類型清單。 證書類型是識別 Cmdlet 與伺服器的憑證類型，憑證的用途是什麼。 例如，輸入 AudioVideoAuthentication 是供 A/V 邊緣服務和 AV 驗證服務使用。 如果您決定同時暫存及建立不同類型的憑證，您必須考慮憑證的最長有效前置時間。 例如，您需要暫存類型 AudioVideoAuthentication 和 OAuthTokenIssuer 的憑證。 您的最小 EffectiveDate 必須是兩個憑證的較大者，在此案例中為 OAuthTokenIssuer，其最小前置時間為24小時。 如果您不想要暫存前置時間為24小時的 AudioVideoAuthentication 憑證，請使用更符合您需求的 EffectiveDate 來單獨階段。
+ **-Type**：-type 參數可接受單一憑證使用類型或以逗號分隔的憑證使用類型清單。 憑證類型是指識別 Cmdlet 和伺服器的憑證用途的憑證類型。 例如，輸入 AudioVideoAuthentication 供 A/V Edge service 和 AV 驗證服務使用。 如果您決定同時暫存及布建其他類型的憑證，則必須考慮憑證的最長必要有效前置時間。 例如，您必須暫存 AudioVideoAuthentication 和 OAuthTokenIssuer 類型的憑證。 您的最低-EffectiveDate 必須是兩個憑證中的較大者，在此案例中是 OAuthTokenIssuer，其最小前置時間為24小時。 如果您不想要將前置時間的 AudioVideoAuthentication 憑證暫存為24小時，請使用更多您的需求 EffectiveDate 進行暫存。
   
-### <a name="to-update-or-renew-an-av-edge-service-certificate-with-a--roll-and--effectivedate-parameters"></a>使用 EffectiveDate 參數更新或更新 A/V 邊緣服務憑證
+### <a name="to-update-or-renew-an-av-edge-service-certificate-with-a--roll-and--effectivedate-parameters"></a>使用滾及-EffectiveDate 參數更新或更新 A/V Edge service 憑證
 
-1. 以管理員群組的成員身分登入本機電腦。
+1. 以 Administrators 群組成員的身分登入本機電腦。
     
-2. 在 A/V 邊緣服務上，以現有憑證的可匯出私密金鑰來要求續約或新的 AudioVideoAuthentication 憑證。
+2. 以 A/V Edge service 上現有憑證的可匯出私密金鑰要求更新或新 AudioVideoAuthentication 憑證。
     
-3. 將新的 AudioVideoAuthentication 憑證匯入到 Edge 伺服器以及您的池中的所有其他邊緣伺服器（如果您已部署一個池）。
+3. 將新的 AudioVideoAuthentication 憑證匯入至 Edge Server，以及集區中的所有其他 Edge Server (如果您已部署) 集區。
     
-4. 使用 CsCertificate Cmdlet 設定匯入的憑證，並將-滾參數與-EffectiveDate 參數搭配使用。 生效日期應該定義為目前的憑證到期時間（14:00:00 或 2:00:00 PM）減去權杖存留期（預設為八小時）。 這可讓我們確認必須將憑證設定為使用中，且是-EffectiveDate \<字串\>： "7/22/2015 6:00:00 AM"。 
+4. 使用 Set-CsCertificate Cmdlet 來設定匯入的憑證，並使用-擲參數搭配-EffectiveDate 參數。 生效日期應定義為目前憑證的到期時間 (14:00:00 或 2:00:00 PM) 扣除 Token 生命週期 (預設為八小時)。 這為我們提供了必須將憑證設定為使用中的時間，且為-EffectiveDate \<string\> ： "7/22/2015 6:00:00 AM」。 
     
     > [!IMPORTANT]
-    > 針對邊緣池，您必須部署並由部署的第一個憑證的-EffectiveDate 參數所定義的日期及時間來設定所有 AudioVideoAuthentication 憑證，以避免由於較舊的憑證在使用新憑證更新所有用戶端和消費者權杖之前到期所造成的/V 通訊中斷。 
+    > 對於 Edge 集區，您必須使用部署的第一個憑證的-EffectiveDate 參數所定義的日期和時間來部署及布建所有 AudioVideoAuthentication 憑證，以避免因舊憑證的破壞，但在使用新的憑證更新所有用戶端和使用者權杖之前，A/V 可能會造成的通訊中斷。 
   
-    具有-滾與-EffectiveTime 參數的 [設定 CsCertificate] 命令：
+    具有-滾及-EffectiveTime 參數的 Set-CsCertificate 命令：
     
    ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
@@ -69,7 +69,7 @@ A/V 驗證服務負責頒發用戶端和其他 A/V 消費者所使用的權杖�
           for certificate to become active>
    ```
 
-    CsCertificate 命令的範例設定：
+    Set-CsCertificate 命令範例：
     
    ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
@@ -78,36 +78,36 @@ A/V 驗證服務負責頒發用戶端和其他 A/V 消費者所使用的權杖�
    ```
 
     > [!IMPORTANT]
-    > EffectiveDate 必須格式化，才能符合您伺服器的區域及語言設定。 此範例使用美國英文地區和語言設定 
+    > EffectiveDate 必須設定格式，以符合伺服器的區域及語言設定。 範例是使用英文 (美國) 區域和語言設定 
   
-若要進一步瞭解設定 CsCertificate、滾及-EffectiveDate 使用的程式，以暫存新的憑證來頒發新的 AudioVideoAuthentication 權杖，同時仍使用現有的憑證來驗證使用中的 AudioVideoAuthentication根據消費者，視覺時間軸是瞭解程式的有效方式。 在下列範例中，系統管理員會判斷出 A/V Edge 服務憑證到期於07/22/2015 上的 2:00:00 PM。 他要求並接收新的憑證，並將其匯入到其池中的每個邊緣伺服器。 在07/22/2015 時，他開始執行 CsCertificate 與滾即，-Thumbprint 等於新憑證的指紋字串，並將-EffectiveTime 設定為 07/22/2015 6:00:00 AM。 他在每個 Edge 伺服器上執行這個命令。
+若要進一步瞭解 Set-CsCertificate、滾及-EffectiveDate 使用現有憑證以驗證消費者所使用之 AudioVideoAuthentication 的新憑證 AudioVideoAuthentication 的處理常式，則 visual 時程表是瞭解該程式所使用之的有效方法。 在下列範例中，管理員會判斷 A/V Edge service 憑證是在07/22/2015 上的 2:00:00 PM 到期。 他要求並接收新的憑證，並將它匯入至其集區中的每個 Edge Server。 在07/22/2015 的淩晨2點，他開始執行 Get-CsCertificate，並以與新憑證的指紋字串相等的方式執行，並將-EffectiveTime 設定為 07/22/2015 6:00:00 AM。 在每一部 Edge Server 上執行此命令。
   
-![使用 Roll 與 EffectiveDate 參數。](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
+![使用擲及 EffectiveDate 參數。](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**圖說文字**|**階段**|
+|**Callout**|**Stage**|
 |:-----|:-----|
-|1  <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證到期於7/22/2015 上的 2:00:00 PM。 這是由憑證上的到期時間戳記所決定。 規劃您的憑證取代和滾動更新，以在現有的憑證達到到期時間前，在8小時內重迭（預設權杖存留期）。 這個範例中使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來設定新憑證，並在6:00:00 上午的時間前進行設定。  <br/> |
-|2  <br/> |上午 7/22/2015 2:00:00 至 7/22/2015 5:59:59 AM  <br/> 在邊緣伺服器上以 6:00:00 AM 的有效時間設定憑證（4小時內制時間適用于這個範例，但可能較長）使用 [CsCertificate 類型\<的憑證使用量\>類型- \<新憑證的新\>憑證 EffectiveDate \<datetime 字串] 的指紋指紋\>  <br/> |
-|3  <br/> |上午 7/22/2015 6:00 至 7/22/2015 2:00 PM  <br/> 若要驗證權杖，請先嘗試新的憑證，如果新憑證無法驗證權杖，就會嘗試舊的憑證。 這個程式用於8小時（預設權杖存留期）重疊期間內的所有權杖。  <br/> |
-|4  <br/> |結束： 7/22/2015 2:00:01 PM  <br/> 舊憑證已過期，新憑證已被佔用。 您可以安全地移除舊憑證，並移除 CsCertificate 類型\<的憑證使用\>類型-前一個  <br/> |
+|1   <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證是由於7/22/2015 于 2:00:00 PM 到期。 這取決於憑證上到期的時間戳記。 規劃您的憑證取代和翻轉，以計算8小時的重疊 (預設權杖存留期) 在現有憑證達到到期時間之前。 在此範例中，會使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來預先設定新憑證，並在6:00:00 上午的時間前進行布建。  <br/> |
+|2   <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 在 Edge Server 上設定憑證，有效期為 6:00:00 AM (4 小時內推時間為此範例，但可使用 Set-CsCertificate 類型 \<certificate usage type\> 的指紋-EffectiveDate) 更長的時間。 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
+|3   <br/> |7/22/2015 6:00 AM-7/22/2015 2:00 下午  <br/> 若要驗證權杖，請先嘗試新的憑證，如果新的憑證無法驗證權杖，就會嘗試舊的憑證。 此程式適用于8小時 (預設權杖存留期) 重疊期間內的所有標記。  <br/> |
+|4   <br/> |結束： 7/22/2015 2:00:01 PM  <br/> 舊憑證已過期，且已取得新憑證。 舊憑證可以安全地移除，使用 Remove-CsCertificate 類型 \<certificate usage type\> 先前版本  <br/> |
    
-當達到有效時間時（7/22/2015 6:00:00 AM），所有新的權杖都是由新的憑證所頒發。 驗證權杖時，會先對照新憑證驗證權杖。 如果驗證失敗，則會嘗試舊的憑證。 嘗試新的並回到舊憑證的程式將會繼續，直到舊憑證的到期時間為止。 舊憑證到期後（7/22/2015 2:00:00 PM），權杖將只會由新憑證驗證。 使用 CsCertificate Cmdlet 及-Previous 參數，即可安全地移除舊憑證。
+當達到有效時間時 (7/22/2015 6:00:00 AM) ，所有新的權杖都會以新的憑證發出。 驗證 Token 時，會先以新的憑證來加以驗證。 若驗證失敗，就會嘗試舊的憑證。 直到舊憑證到期時間以前，都會一直繼續嘗試新憑證並恢復使用舊憑證的程序。 一旦舊憑證到期 (7/22/2015 2:00:00 PM) ，權杖只會由新的憑證驗證。 舊憑證可以使用具有-上一個參數的 Remove-CsCertificate Cmdlet 安全地移除。
 
 ```PowerShell
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ```
 
-### <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a--roll-and--effectivedate-parameters"></a>使用 OAuthTokenIssuer 和-EffectiveDate 參數更新或更新憑證
+### <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a--roll-and--effectivedate-parameters"></a>使用 a 滾及-EffectiveDate 參數更新或更新 OAuthTokenIssuer 憑證
 
-1. 以管理員群組的成員身分登入本機電腦。
+1. 以 Administrators 群組成員的身分登入本機電腦。
     
-2. 在前端伺服器上，使用現有憑證的可匯出私密金鑰來要求續約或新的 OAuthTokenIssuer 憑證。
+2. 使用前端伺服器上現有憑證的可匯出私密金鑰，索取更新或新的 OAuthTokenIssuer 憑證。
     
-3. 將新的 OAuthTokenIssuer 憑證匯入到您的池中的前端伺服器（如果您已部署一個池）。 OAuthTokenIssuer 憑證會全域複製，而且只需要在您部署中的任何伺服器上更新並更新。 前端伺服器是用來做為範例。
+3. 將新的 OAuthTokenIssuer 憑證匯入至集區中的前端伺服器 (（如果您已部署) 集區）。 OAuthTokenIssuer 憑證是全域複寫的，因此僅需在部署中的任何伺服器上加以更新即可。 前端伺服器是用來做為範例。
     
-4. 使用 CsCertificate Cmdlet 設定匯入的憑證，並將-滾參數與-EffectiveDate 參數搭配使用。 生效日期應該定義為目前的憑證到期時間（14:00:00 或 2:00:00 PM）減去至少24小時。 
+4. 使用 Set-CsCertificate Cmdlet 來設定匯入的憑證，並使用-擲參數搭配-EffectiveDate 參數。 生效日期應定義為目前憑證的到期時間 (14:00:00 或 2:00:00 PM) 扣除至少 24 小時。 
     
-    具有-滾與-EffectiveTime 參數的 [設定 CsCertificate] 命令：
+    具有-滾及-EffectiveTime 參數的 Set-CsCertificate 命令：
     
    ```PowerShell
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
@@ -115,7 +115,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
           certificate to become active> -identity Global 
    ```
 
-CsCertificate 命令的範例設定：
+Set-CsCertificate 命令範例：
     
   ```PowerShell
   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
@@ -124,17 +124,17 @@ CsCertificate 命令的範例設定：
   ```
 
 > [!IMPORTANT]
-> EffectiveDate 必須格式化，才能符合您伺服器的區域及語言設定。 此範例使用美國英文地區和語言設定 
+> EffectiveDate 必須設定格式，以符合伺服器的區域及語言設定。 範例是使用英文 (美國) 區域和語言設定 
   
-當達到有效時間時（7/21/2015 1:00:00 AM），所有新的權杖都是由新的憑證所頒發。 驗證權杖時，會先對照新憑證驗證權杖。 如果驗證失敗，則會嘗試舊的憑證。 嘗試新的並回到舊憑證的程式將會繼續，直到舊憑證的到期時間為止。 舊憑證到期後（7/22/2015 2:00:00 PM），權杖將只會由新憑證驗證。 使用 CsCertificate Cmdlet 及-Previous 參數，即可安全地移除舊憑證。
+當達到有效時間時 (7/21/2015 1:00:00 AM) ，所有新的權杖都會以新的憑證發出。 驗證 Token 時，會先以新的憑證來加以驗證。 若驗證失敗，就會嘗試舊的憑證。 直到舊憑證到期時間以前，都會一直繼續嘗試新憑證並恢復使用舊憑證的程序。 一旦舊憑證到期 (7/22/2015 2:00:00 PM) ，權杖只會由新的憑證驗證。 舊憑證可以使用具有-上一個參數的 Remove-CsCertificate Cmdlet 安全地移除。
 ```PowerShell
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 中管理伺服器間驗證（OAuth）與合作夥伴應用程式](server-to-server-and-partner-applications.md)
+[在商務用 Skype Server 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   
-[移除-CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
+[Remove-Update-cscertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)

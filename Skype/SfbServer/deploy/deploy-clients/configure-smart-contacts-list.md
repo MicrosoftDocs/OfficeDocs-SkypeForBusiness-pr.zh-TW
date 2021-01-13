@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 用戶端中設定智慧連絡人清單
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 摘要：瞭解如何在商務用 Skype 用戶端中開啟智慧連絡人清單功能。
-ms.openlocfilehash: d99008cde28b834f77a2935ffd7882162aa05e95
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d995d2addf8b774ebad9945b3f35f07ddb431855
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776688"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805773"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>在商務用 Skype 用戶端中設定智慧連絡人清單
 
@@ -53,13 +53,13 @@ ms.locfileid: "43776688"
 
 ### <a name="create-a-policy-entry-to-enable-smart-contacts-list"></a>建立原則專案以啟用智慧連絡人清單
 
-若要建立原則專案以啟用智慧連絡人清單功能，請將[New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) Cmdlet 與 EnableClientAutoPopulateWithTeam 選項搭配使用，如下所示：
+若要建立原則專案以啟用智慧連絡人清單功能，請將 [New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) Cmdlet 與 EnableClientAutoPopulateWithTeam 選項搭配使用，如下所示：
 
 ```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
-接下來，使用[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) Cmdlet，將變更寫入全域原則，如下所示：
+接下來，使用 [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) Cmdlet，將變更寫入全域原則，如下所示：
 
 ```powershell
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
@@ -72,7 +72,7 @@ $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $F
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
-您也必須將對應原則的 AddressBookAvailability 參數設定為 WebSearchOnly。 如需詳細資訊，請參閱[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)。 
+您也必須將對應原則的 AddressBookAvailability 參數設定為 WebSearchOnly。 如需詳細資訊，請參閱 [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)。 
 
 ### <a name="troubleshoot"></a>疑難排解
 

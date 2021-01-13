@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定 SNMP 應用程式
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: 在商務用 Skype Server Enterprise Voice 中，將 SNMP 應用程式設定為使用 E9-1-1。
-ms.openlocfilehash: fd8db117f590343d3e2f5a0194a0f6d8c3bcfb39
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在商務用 Skype Server Enterprise Voice 中，設定 SNMP 應用程式來搭配 E9-1-1。
+ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768136"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804153"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 SNMP 應用程式
  
-在商務用 Skype Server Enterprise Voice 中，將 SNMP 應用程式設定為使用 E9-1-1。 
+在商務用 Skype Server Enterprise Voice 中，設定 SNMP 應用程式來搭配 E9-1-1。 
   
-商務用 Skype 伺服器包含標準的 web 服務介面，您可以用來將位置資訊服務連線至與埠和交換器資訊相符的 MAC 位址的簡單網路管理通訊協定（SNMP）應用程式。 
+商務用 Skype 伺服器包含標準的 web 服務介面，您可以用來將位置資訊服務連線至簡易網路管理通訊協定 (SNMP) 應用程式，該應用程式會與埠及切換資訊相符的 MAC 位址。 
   
-如果已安裝 SNMP 應用程式，且位置資訊服務無法在位置資料庫中找到相符的專案，位置資訊服務會使用用戶端提供的 MAC 位址來自動查詢應用程式。 然後，位置資訊服務會使用 SNMP 應用程式傳回的埠和切換資訊來重新查詢位置資料庫。
+如果已安裝 SNMP 應用程式，且 Location 資訊服務無法在位置資料庫中找到相符的位置，則位置資訊服務會自動使用用戶端所提供的 MAC 位址來查詢應用程式。 然後，位置資訊服務會使用 SNMP 應用程式傳回的埠及切換資訊，以重新查詢位置資料庫。
   
 > [!NOTE]
 > MAC 位址無法在執行 Windows 8 的電腦上使用。 
   
-### <a name="to-configure-the-snmp-application-url"></a>若要設定 SNMP 應用程式 URL
+### <a name="to-configure-the-snmp-application-url"></a>設定 SNMP 應用程式 URL
 
-1.  啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+1.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
 2. 執行下列 Cmdlet 來設定 SNMP 應用程式的 URL。 
     

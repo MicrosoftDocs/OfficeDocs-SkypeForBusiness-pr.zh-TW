@@ -1,8 +1,8 @@
 ---
 title: 中繼伺服器範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 description: '[中繼集區] 節點會列出您拓撲中的中繼集區。 您可以執行下列動作：'
-ms.openlocfilehash: ac19d43a6d0c4dd41c9db70b2c7c6e59eb5cb6a0
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: aa03067fa89dd2b290978c4acbf59c349fb88fd5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215184"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806703"
 ---
 # <a name="mediation-servers-scope-node"></a>中繼伺服器範圍節點
  

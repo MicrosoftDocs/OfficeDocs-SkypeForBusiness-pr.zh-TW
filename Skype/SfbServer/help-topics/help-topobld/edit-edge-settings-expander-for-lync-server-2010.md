@@ -1,8 +1,8 @@
 ---
 title: 編輯 Edge 設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 您可以透過設定下列屬性來編輯 Edge Server 或 Edge 集區的設定：
-ms.openlocfilehash: ab558edd16370d46d452f4e3d146dbf2153f3d9e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f77eb71948bbbe6d2fe3e24b400d29e3bf5fd5a5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216114"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803293"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>編輯 Edge 設定展開工具 (適用於 Lync Server 2010)
  
@@ -30,16 +30,16 @@ ms.locfileid: "48216114"
   
 - **內部集區 FQDN**：內部集區完整功能變數名稱為 edge Server 或 edge 集區的身分識別，如網域名稱系統中所定義的 (DNS) 主機 (A 或 AAAA 為 IPv6) 記錄。
     
-- 如果您想要啟用 Edge Server 或 Edge 集區以進行與其他會話初始通訊協定夥伴的同盟，請選取 [ **啟用此 Edge 集區的同盟 (埠 5061) ** 。
+- 如果您想要啟用 Edge Server 或 Edge 集區以進行與其他會話初始通訊協定夥伴的同盟，請選取 [ **啟用此 Edge 集區的同盟 (埠 5061)** 。
     
     > [!IMPORTANT]
     > 您只能為同盟定義一部 Edge Server 或 Edge 集區。 關聯的螢幕擷取畫面所顯示的設定會指出已經為同盟設定其他 Edge Server 或 Edge 集區。 同盟 (_sipfederationtls ._tcp 的外部 DNS SRV 記錄。 \<external domain name\>) 會指向同盟的 Edge Server 或 Edge 集區。 
   
-- 內部設定複寫 **埠 (HTTPS) **（預設在 TCP 埠4443上）是本機 (的埠，也就是對中央管理存放區) 副本的本機伺服器進行複製。 中央管理存放區的本機複本位於每一部電腦上的 SQL Server 中的 **RTCLOCAL** 資料庫。 複製是從中央管理伺服器 (，或是將中央管理伺服器角色) 至 Edge server 的前端伺服器或前端集區，也是一個內部介面埠。
+- 內部設定複寫 **埠 (HTTPS)**（預設在 TCP 埠4443上）是本機 (的埠，也就是對中央管理存放區) 副本的本機伺服器進行複製。 中央管理存放區的本機複本位於每一部電腦上的 SQL Server 中的 **RTCLOCAL** 資料庫。 複製是從中央管理伺服器 (，或是將中央管理伺服器角色) 至 Edge server 的前端伺服器或前端集區，也是一個內部介面埠。
     
   **下一個躍點選取範圍**
   
-- 從清單中選取 [下一個躍點集區]****。 您可以定義 Director、Director 集區、前端伺服器或前端集區，以承擔此角色。 下一個躍點集區是伺服器或伺服器集區，可接受來自 Edge Server 或 Edge 集區內部介面的輸入 SIP 訊息，並將輸出 SIP 傳送至 Edge internal interface。
+- 從清單中選取 [下一個躍點集區]。 您可以定義 Director、Director 集區、前端伺服器或前端集區，以承擔此角色。 下一個躍點集區是伺服器或伺服器集區，可接受來自 Edge Server 或 Edge 集區內部介面的輸入 SIP 訊息，並將輸出 SIP 傳送至 Edge internal interface。
     
     > [!NOTE]
     > Director 是選用的角色，如果您決定不部署 Director，則 (單一電腦或集區) 的前端伺服器會承擔 Director 角色。 
