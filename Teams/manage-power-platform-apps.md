@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft [團隊管理中心] 中管理 Microsoft Power Platform 應用程式
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: joglocke
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何管理 Microsoft 團隊系統管理中心中 Microsoft Power Platform 內建立的自訂應用程式的存取權。
-ms.openlocfilehash: 5675083c3a7b0aaea2fb053609cbf7da800dbe42
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: b44bd77a6415be9c9c9454fd96028fdbb8c608c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753568"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831293"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft [團隊管理中心] 中管理 Microsoft Power Platform 應用程式
 
@@ -37,7 +37,7 @@ ms.locfileid: "48753568"
 
 由貴組織中的系統製造商所建立的 Microsoft Power Platform app 會自動新增至團隊。 使用 power Apps 中的 [共用功能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) 和 [power Virtual agent 中的共用功能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)，員工可以控制誰可以存取其應用程式。
 
-當您建立或共用 Microsoft Power Platform 應用程式時，使用者可以在 [應用程式] 頁面上，透過您的同事建立**的*組織名稱*** 來查看並安裝  >  ** **。  (可能需要幾分鐘的時間，才會在應用程式建立或共用之後，才會顯示應用程式。 ) 
+當您建立或共用 Microsoft Power Platform 應用程式時，使用者可以在 [應用程式] 頁面上，透過您的同事建立 **的 *組織名稱*** 來查看並安裝  >  ****。  (可能需要幾分鐘的時間，才會在應用程式建立或共用之後，才會顯示應用程式。 ) 
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="[應用程式] 頁面的螢幕擷取畫面，顯示由您的同事所建的 Microsoft Power Platform app":::
 
@@ -57,7 +57,7 @@ ms.locfileid: "48753568"
 
 請記住，您可以控制對 Power App 和 Power Virtual Agent 中所建立之所有 app 的存取，但您無法允許或封鎖個別的應用程式。 在 Power App 和 Power Virtual Agent 中，您可以透過共用功能來決定誰可以存取他們所建立的應用程式。 如果您的 maker 是與使用者在 Power Virtual Agent 中建立的應用程式，而且您已封鎖該使用者的 **共用 Power Virtual Agent 應用** 程式，則使用者將無法在團隊中看到或安裝該平臺中的任何應用程式。
 
-如果允許使用者從 Power Apps 或 Power Virtual Agent 存取應用程式，然後封鎖使用者從這兩個平臺的其中一個或兩個都存取應用程式，使用者仍然可以存取及使用您在封鎖 app 或應用程式之前所安裝的 Microsoft Power 平臺應用程式。 不過，使用者不能再看到或安裝來自 **您同事所建**之平臺的任何應用程式。
+如果允許使用者從 Power Apps 或 Power Virtual Agent 存取應用程式，然後封鎖使用者從這兩個平臺的其中一個或兩個都存取應用程式，使用者仍然可以存取及使用您在封鎖 app 或應用程式之前所安裝的 Microsoft Power 平臺應用程式。 不過，使用者不能再看到或安裝來自 **您同事所建** 之平臺的任何應用程式。
 
 > [!NOTE]
 > [[管理應用程式](manage-apps.md)] 頁面上的 [**允許與自訂應用程式互動] 與**[管理 app] 頁面上的 [全式應用程式] 設定適用于組織中的所有人，並可控制他們是否 全組織式應用程式設定會控制所有使用者的行為，並覆寫指派給使用者的任何其他應用程式許可權原則。 根據預設，此設定為開啟狀態。 如果關閉此設定，貴組織中的使用者將無法看到或安裝任何自訂應用程式，包括 Microsoft Power Platform app。 若要深入瞭解，請參閱 [管理整個組織內的應用程式設定](manage-apps.md#manage-org-wide-app-settings)。
@@ -84,7 +84,7 @@ ms.locfileid: "48753568"
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>使用審核記錄來調查 Microsoft Power Platform 安裝活動
 
-您可以使用小組的審核記錄來調查使用者從 [小組] 中的 [應用程式] 頁面上的 [ **由您的同事建立** Microsoft Power Platform app] 區段的活動。 若要這樣做，請在) **AppInstalled**作業的 [[審核記錄](https://docs.microsoft.com/microsoftteams/audit-log-events)] 下，搜尋使用者或使用者組的 [**已安裝的應用程式**小組] 事件 (。 若要尋找**由您的同事建立**的應用程式，請在指定記錄的詳細資料中尋找**AppDistributionMode**屬性中的**TemplatedInstance**值。 
+您可以使用小組的審核記錄來調查使用者從 [小組] 中的 [應用程式] 頁面上的 [ **由您的同事建立** Microsoft Power Platform app] 區段的活動。 若要這樣做，請在) **AppInstalled** 作業的 [[審核記錄](https://docs.microsoft.com/microsoftteams/audit-log-events)] 下，搜尋使用者或使用者組的 [**已安裝的應用程式** 小組] 事件 (。 若要尋找 **由您的同事建立** 的應用程式，請在指定記錄的詳細資料中尋找 **AppDistributionMode** 屬性中的 **TemplatedInstance** 值。 
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 屬性中 TemplatedInstance 值的螢幕擷取畫面":::
 
