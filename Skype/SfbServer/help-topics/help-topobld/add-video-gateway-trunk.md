@@ -1,8 +1,8 @@
 ---
 title: 新增視訊閘道主幹
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: b7966085cc510922895fd947f432d11e0c97f5cf
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 68c376adb01e3370dbfeadf71ba02ff75337b70e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216944"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803513"
 ---
 # <a name="add-video-gateway-trunk"></a>新增視訊閘道主幹
  
@@ -34,6 +34,6 @@ ms.locfileid: "48216944"
   
  若要在 Cisco GUI 中設定之 VTC 的設定，以便與影片閘道和 VIS 進行交互操作，請參閱 [Configure a VTC for](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)business To business Server 2015 中的互用性。
   
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 2015 中規劃影片 Interop 伺服器](../../plan-your-deployment/video-interop-server.md)

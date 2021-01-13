@@ -1,8 +1,8 @@
 ---
 title: PSTN 使用方式
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 81d4fcfb6ca90084189070e566d3f83c21bde21e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 9e9231563549f8e62fe4aea9483e9bbe2eafee9a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794211"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801293"
 ---
 # <a name="pstn-usage"></a>PSTN 使用方式
 
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
 
-- [在商務用 Skype 中查看 PSTN 使用狀況記錄](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [在商務用 Skype 中查看 PSTN 使用方式記錄](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用記錄](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [修改語音原則及設定 PSTN 使用記錄](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [修改語音原則和設定 PSTN 使用方式記錄](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: 封存伺服器一般設定展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 在 [拓撲產生器] 中，您可以編輯執行封存之個別伺服器的屬性，方法是在主控台樹中以滑鼠右鍵按一下執行封存的伺服器，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容] 並變更下列任一選項：
-ms.openlocfilehash: d160b9e7294719ff2251e95e5cc2ab72dd3a6ffd
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 091f6f9b83c6127975654c32a81782621f7af70d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216894"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803393"
 ---
 # <a name="archiving-server-general-settings-expander"></a>封存伺服器一般設定展開工具
  
@@ -33,7 +33,7 @@ ms.locfileid: "48216894"
 - **檔案共用**，以變更要用作封存檔案存放區的資料夾。如果您變更執行封存之伺服器的檔案共用，必須重新啟動執行封存的伺服器以確保變更生效。此外，您必須將先前的會議檔案移至新的檔案存放區資料夾以避免遺失封存的會議檔案。
     
 > [!NOTE]
-> 若要變更與執行封存之伺服器關聯的集區，請針對目前與執行封存之伺服器關聯的個別前端集區節點或 Survivable Branch Appliance 節點，選取 [編輯內容]**** 選項。
+> 若要變更與執行封存之伺服器關聯的集區，請針對目前與執行封存之伺服器關聯的個別前端集區節點或 Survivable Branch Appliance 節點，選取 [編輯內容] 選項。
   
 > [!NOTE]
 > 如果您先前已在拓撲產生器中將執行封存的伺服器新增至拓撲，則 [封存] 節點會包含執行封存的伺服器。 您可以編輯清單中的任何一部執行封存的伺服器內容。 不過，直到您也為執行封存的伺服器設定服務後，才能封存立即訊息或 web 會議 (郵件) 。 

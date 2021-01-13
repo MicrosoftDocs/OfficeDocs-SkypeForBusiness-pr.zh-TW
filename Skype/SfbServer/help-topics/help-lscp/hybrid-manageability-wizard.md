@@ -1,8 +1,8 @@
 ---
 title: 混合式可管理性精靈
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
-description: 您可以使用混合式管理性嚮導來執行設定混合式部署與商務用 Skype Online 所需的一些配置工作。 如需有關如何設定混合式部署的詳細資訊，請參閱使用混合式管理功能嚮導設定您的環境。
-ms.openlocfilehash: 3d377a9e3928e62eaf8ab88281ca6e533cfeca9f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以使用「混合式管理性」嚮導執行某些設定工作，以使用商務用 Skype Online 設定混合式部署。 如需如何設定混合部署的詳細資訊，請參閱使用混合式管理性嚮導設定環境。
+ms.openlocfilehash: ca10abaf9f5249b3265ada08024f91c755d72712
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822746"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804073"
 ---
 # <a name="hybrid-manageability-wizard"></a>混合式可管理性精靈
 
-您可以使用混合式管理性嚮導來執行設定混合式部署與商務用 Skype Online 所需的一些配置工作。 如需有關如何設定混合式部署的詳細資訊，請參閱[使用混合式管理功能嚮導設定您的環境](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
+您可以使用「混合式管理性」嚮導執行某些設定工作，以使用商務用 Skype Online 設定混合式部署。 如需如何設定混合部署的詳細資訊，請參閱 [使用混合式管理性嚮導設定環境](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
 
 

@@ -1,8 +1,8 @@
 ---
-title: 準備 Active Directory skype for Business Server
+title: 為商務用 Skype Server 準備 Active Directory
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -16,122 +16,122 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: 摘要： 了解如何準備 Skype 安裝 Business Server 的 Active Directory 網域。 下載 Microsoft 評估管理中心，從 Business Server Skype 免費試用版： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 9a17ae327322b364935d0b965676d26fdce2cffb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 摘要：瞭解如何準備您的 Active Directory 網域，以進行商務用 Skype 伺服器的安裝。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
+ms.openlocfilehash: 6196855ffeaf33fbea11c47d56c620e3df9195ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018174"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801673"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a>準備 Active Directory skype for Business Server
+# <a name="prepare-active-directory-for-skype-for-business-server"></a>為商務用 Skype Server 準備 Active Directory
  
-**摘要：** 了解如何準備 Skype 安裝 Business Server 的 Active Directory 網域。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Business Server 下載 Skype 免費試用版。
+**摘要：** 瞭解如何準備您的 Active Directory 網域，以進行商務用 Skype 伺服器的安裝。 從 [Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 免費試用版。
   
-Skype 商務 Server 密切與 Active Directory 中。 您必須先準備 Active Directory 網域，才能使用 Skype for Business Server。 此程序完成部署精靈] 中，且只為網域一次完成。 這是因為和處理程序會建立群組，並修改的網域，您需要執行動作的唯一一次。 您可以執行步驟 1 到 5，以任何順序。 不過，您必須先執行步驟 6、 7 和 8 順序，並在步驟 1 到 5 之後，在圖表中所述。 準備 Active Directory 是 8 的步驟 4。 如需規劃 Active Directory 的詳細資訊，請參閱[Skype for Business 伺服器環境的需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[Skype for Business Server 2019 的伺服器需求](../../../SfBServer2019/plan/system-requirements.md)。
+商務用 Skype 伺服器與 Active Directory 密切搭配使用。 您必須準備 Active Directory 網域才能使用商務用 Skype 伺服器。 此程式是在部署嚮導中完成，只對網域執行一次。 這是因為程式會建立群組並修改網域，而您只需要執行一次。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 準備 Active Directory 是步驟4之8。 如需規劃 Active Directory 的詳細資訊，請參閱商務用 skype server 2019 的 [商務用 Skype 伺服器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 或 [伺服器需求](../../../SfBServer2019/plan/system-requirements.md)環境需求。
   
-![概觀圖表](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
+![一覽表圖表](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>準備 Active Directory
 
-Skype 商務 Server 緊密整合與 Active Directory 網域服務 (AD DS)。 Skype for Business Server 可以安裝第一次之前，必須準備 Active Directory。 [] 區段中的 [部署精靈] 標題為 [**準備 Active Directory**會將使用的 Active Directory 環境與 Skype 準備 Business Server。
+商務用 Skype Server 與 Active Directory 網域服務 (AD DS) 緊密整合。 您第一次可以安裝商務用 Skype Server 之前，必須準備好 Active Directory。 在 [ **準備 Active Directory** ] 的部署嚮導區段中，準備好 active directory 環境以用於商務用 Skype Server。
   
 > [!NOTE]
-> Skype 商務伺服器來追蹤並彼此的所有伺服器的拓撲中使用 (AD DS)。 大部分的這些伺服器必須加入網域，以便 Skype for Business Server 可以正常運作。 請記住，例如 Edge 和反向 Proxy 伺服器不應加入網域。
+> 商務用 Skype Server 使用 (AD DS) ，以追蹤和與拓撲中的所有伺服器進行通訊。 這些伺服器中的大部分必須加入網域，以便商務用 Skype 伺服器才能正常運作。 請記住，Edge 和反向 Proxy 等伺服器應該不會加入網域。
   
 > [!IMPORTANT]
-> 準備 Active Directory 程序應該執行的部署中的每個網域的僅一次。 
+> 針對部署中的每個網域，應只執行一次 [準備 Active Directory] 程式。 
   
-觀賞影片步驟**準備 Active**directory:
+觀賞 **準備 Active Directory** 的影片步驟：
   
 > [!video https://www.microsoft.com/videoplayer/embed/RE1Ybuk]
   
-### <a name="prepare-active-directory-from-the-deployment-wizard"></a>從 [部署精靈準備 Active Directory
+### <a name="prepare-active-directory-from-the-deployment-wizard"></a>從部署嚮導準備 Active Directory
 
-1. 使用者身分登入 Schema Admins 與 Active Directory 網域的認證。
+1. 以具有 Active Directory 網域之架構管理員認證的使用者身分登入。
     
-2. 開啟 Skype for Business Server 部署精靈]。
+2. 開啟商務用 Skype Server 部署嚮導。
     
     > [!TIP]
-    > 如果您想要檢閱記錄檔所建立的 Skype for Business Server 部署精靈，您可以在何處部署精靈已執行，執行步驟的 AD DS 使用者的使用者目錄中的電腦上找到他們。 例如，如果使用者以登入網域系統管理員的網域，contoso.local，記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp。 
+    > 如果您想要查看由商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟的 AD DS 使用者的使用者目錄中，找到這些記錄檔，以執行部署嚮導的電腦上。 例如，如果使用者以網域中的網域管理員身分登入，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp。 
   
-3. 按一下 [**準備 Active Directory** ] 連結。
+3. 按一下 [ **準備 Active Directory** ] 連結。
     
-4. **步驟 1： 準備架構**
+4. **步驟1：準備架構**
     
-    a. 檢閱步驟 1，可以在 [步驟 1 標題下方按一下下拉式清單來存取的必要條件資訊。
+    a. 透過按一下步驟1標題底下的下拉式清單，查看步驟1可以存取的必要條件資訊。
     
-    b. 按一下 [啟動 [準備架構] 精靈的步驟 1 中的 [**執行**]。
+    b. 按一下 [步驟 1] 中的 [ **執行** ]，以啟動 [準備架構] 嚮導。
     
-    c. 記下應該針對每個部署中，只有一次執行程序，並再按 [**下一步**。
+    c. 請注意，每個部署的程式都應該只執行一次，然後按 **[下一步]**。
     
-    d. 一旦已備妥結構描述，您可以檢視記錄檔]，即可**檢視記錄檔**。 
+    d. 做好架構準備之後，您可以按一下 [ **查看記錄** 檔] 來查看記錄檔。 
     
-    e. 按一下 [**完成**] 以關閉 [準備架構精靈] 中，並回到 [準備 Active Directory 的步驟。
+    e. 按一下 **[完成]** 以關閉 [準備架構] 嚮導，並回到 [準備 Active Directory] 步驟。
     
-5. **步驟 2： 驗證架構分割的複寫**
+5. **步驟2：驗證架構分割區的複寫**
     
     a. 登入網域的網域控制站。
     
-    b. **伺服器管理員**] 中的 [**工具**] 下拉式清單功能表中，開啟 [ **Adsi 編輯器**]。
+    b. 在 [**伺服器管理員**] 的 [**工具**] 下拉式功能表中開啟 **ADSI 編輯器**。
     
     c. 在 [動作] 功能表上，按一下 [連線至]。
     
     d. 在 **[選取熟知的命名內容]** 的 **[連線設定]** 對話方塊中，選取 **[架構]**，然後按一下 **[確定]**。
     
-    e. 在 [架構] 容器中下, 搜尋**CN = ms RTC-SIP SchemaVersion**。 如果此物件存在， **rangeUpper**屬性的值是 1150年和**rangeLower**屬性的值為 3，結構描述已成功地更新，且複寫。 如果此物件不存在或**rangeUpper**和**rangeLower**屬性的值不是以指定，結構描述未修改或未進行複寫。
+    e. 在架構容器底下，搜尋 **CN = ms-**----SIP-SchemaVersion。 如果此物件存在，且 **rangeUpper** 屬性的值是1150，而 **rangeLower** 屬性的值是3，則表示已成功更新及複製架構。 如果此物件不存在，或 **rangeUpper** 及 **rangeLower** 屬性的值不是指定的，則未修改或尚未複製架構。
     
-6. **步驟 3： 準備目前樹系**
+6. **步驟3：準備目前的樹系**
     
-    a. 檢閱步驟 3，也可以在 [步驟 3 標題下方按一下下拉式清單來存取的必要條件資訊。
+    a. 透過按一下 [步驟 3] 標題底下的下拉式清單，查看步驟3可存取的必要條件資訊。
     
-    b. 按一下 [啟動準備目前樹系精靈的步驟 3 中的 [**執行**]。
+    b. 按一下步驟3中的 [ **執行** ]，以啟動 [準備目前的樹系] 嚮導。
     
-    c. 記下程序應該只執行一次部署中，每，然後按 [**下一步**。
+    c. 請注意，此程式在每次部署中應只執行一次，然後按 **[下一步]**。
     
-    d. 指定要在其中建立萬用群組的網域。 如果伺服器是屬於網域，您可以選擇**本機網域**，然後按一下 [**下一步**。
+    d. 指定通用群組會建立所在的網域。 如果伺服器是網域的一部分，您可以選擇 [ **本機網域**]，然後按 **[下一步]**。
     
-    e. 一旦已準備樹系，您可以檢視記錄檔]，即可**檢視記錄檔**。 
+    e. 準備好樹系之後，您可以按一下 [ **查看記錄** 檔] 以查看記錄檔。 
     
-    f. 按一下 [**完成**] 以關閉 [準備目前樹系] 精靈中，並回到 [準備 Active Directory 的步驟。
+    f. 按一下 **[完成]** ，以關閉 [準備目前的樹系] 嚮導，並回到 [準備 Active Directory] 步驟。
     
-    g. 從 [**應用程式**] 頁面上，啟動 PowerShell，請按一下 [ **Skype for Business Server 管理命令介面**]。
+    g. 從 [**應用程式**] 頁面上，按一下 [**商務用 Skype Server 管理命令** 介面]，以啟動 PowerShell。
     
-    h。 輸入命令 Get-csadforest，然後按**Enter**。
+    H。 輸入命令 Get-CsAdForest，然後按 **enter**。
     
-    我。 如果結果是**lc_forestsettings_state_ready 這個**，樹系成功已準備，如圖所示。
+    i. 如果結果是 **LC_FORESTSETTINGS_STATE_READY**，樹系已經順利做好準備，如圖所示。
     
-     ![確認樹系複寫。](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
+     ![驗證樹系複寫。](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
-7. **步驟 4： 確認複寫的通用類別目錄**
+7. **步驟4：驗證通用類別目錄的複寫**
     
-    a. 網域控制站上 （最好是中的遠端網站的其他網域控制站），在樹系準備先前執行的樹系中，開啟 [ **Active Directory 使用者和電腦**]。
+    a. 在網域控制站上 (首選于從其他網域控制站的遠端網站) ，在執行樹系準備的樹系中，開啟 [ **Active Directory 使用者和電腦**]。
     
-    b. 在 [ **Active Directory 使用者和電腦**，展開 [樹系或子網域的網域名稱。
+    b. 在 [ **Active Directory 使用者及電腦**] 中，展開樹系或子域的功能變數名稱。
     
-    c. 按一下 [**使用者**] 容器，在左側窗格中，並尋找在右側窗格中的萬用群組**CsAdministrator** 。 如果出現 CsAdministrator （之間開頭 Cs 其他新萬用群組），Active Directory 複寫是否已順利完成。
+    c. 按一下左側窗格中的 [ **使用者** ] 容器，然後在右側窗格中尋找通用群組 **CsAdministrator** 。 如果有 CsAdministrator (其他以 Cs) 開頭的新通用群組，則表示已成功進行 Active Directory 複寫。
     
-    d. 如果群組還不存在，您可以強制執行複寫，或等候 15 分鐘，然後重新整理右側邊窗格。 群組存在時，複寫已完成。
+    d. 如果這些群組尚未存在，您可以強制複寫，或等候15分鐘，然後重新整理右側窗格。 當群組存在時，就會完成複寫。
     
-8. **步驟 5： 準備目前的網域**
+8. **步驟5：準備目前的網域**
     
-    a. 檢閱步驟 5 的必要條件資訊。
+    a. 請參閱步驟5的必要條件資訊。
     
-    b. 按一下 [步驟 5，以啟動 [準備目前的網域] 精靈中的 [**執行**]。
+    b. 按一下步驟5中的 [ **執行** ]，以啟動 [準備目前的網域] 嚮導。
     
-    c. 記下程序應該只能執行一次在部署中，每個網域，然後按 [**下一步**。
+    c. 請注意，應只對部署中的每個網域執行一次此程式，然後按 **[下一步]**。
     
-    d. 一旦準備的網域，您可以檢視記錄檔]，即可**檢視記錄檔**。 
+    d. 準備好網域之後，您可以按一下 [ **查看記錄** 檔] 來查看記錄檔。 
     
-    e. 按一下 [**完成**] 以關閉 [準備目前的網域] 精靈中，並回到 [準備 Active Directory 的步驟。
+    e. 按一下 **[完成]** 以關閉 [準備目前的網域] 嚮導，並回到 [準備 Active Directory] 步驟。
     
-    這些步驟必須先完成其中 Skype for 找不到商務伺服器物件，否則服務可能會每個網域中不會啟動。 這包括任何 Active Directory 物件，例如使用者、 連絡人物件、 系統管理群組或任何其他類型的物件類型。 如有需要您可以使用 Set CsUserReplicatorConfiguration ADDomainNamingContextList 僅為新增網域與 Skype 商務伺服器物件。
+    在每個找到商務用 Skype Server 物件的網域中，都必須完成這些步驟，否則服務可能無法啟動。 這包括任何類型的 Active Directory 物件，例如，使用者、連絡人物件、系統管理群組或任何其他類型的物件。 如有需要，您可以使用 Set-CsUserReplicatorConfiguration ADDomainNamingCoNtextList 僅新增商務用 Skype Server 物件的網域。
     
-9. **步驟 6： 確認網域中的複寫**
+9. **步驟6：確認網域中的複寫**
     
-    a. 按一下 [ **Skype for Business Server 管理命令介面**從 [**應用程式**] 頁面來啟動 PowerShell。
+    a. 在 [**應用程式**] 頁面上，按一下 [**商務用 Skype Server 管理命令** 介面]，以啟動 PowerShell。
     
-    b. 若要確認網域內的複寫使用 Get-csaddomain] 命令。
+    b. 使用命令 Get-CsAdDomain 來驗證網域內的複寫。
     
    ```powershell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
@@ -140,42 +140,42 @@ Skype 商務 Server 緊密整合與 Active Directory 網域服務 (AD DS)。 Sky
     > [!NOTE]
     > 如果您沒有指定 Domain 參數，這個值會設為本機網域。 
   
-    執行 [contoso.local 網域] 命令的範例：
+    在 contoso 中執行命令的範例。本地域：
     
    ```powershell
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
    ```
 
     > [!NOTE]
-    > 藉由使用 GlobalSettingsDomainController 的參數，您可以指出儲存全域設定。 如果您的設定儲存在系統容器 （這是一般升級尚未全域設定移轉至組態容器的部署） 中，您會在您的 AD DS 樹系根中定義的網域控制站。 如果全域設定位於 Configuration 容器中 (在全新部署或升級部署作業期間，當設定已經移轉至 Configuration 容器時的常見現象)，您可以在樹系中定義任何網域控制站。 如果您未指定此參數，指令程式會假設此設定會儲存在 [Configuration] 容器，且是指在 Active Directory 中的任何網域控制站。 
+    > 使用參數 GlobalSettingsDomainController，您可以指定儲存全域設定的位置。 如果您的設定儲存在系統容器中 (在一般情況下，如果升級部署尚未將全域設定遷移至設定容器) ，您可以在 AD DS 樹系的根目錄中定義網域控制站。 如果全域設定位於 Configuration 容器中 (在全新部署或升級部署作業期間，當設定已經移轉至 Configuration 容器時的常見現象)，您可以在樹系中定義任何網域控制站。 如果您未指定此參數，Cmdlet 會假設設定儲存在設定容器中，並參照至 Active Directory 中的任何網域控制站。 
   
-    c. 如果結果是**LC_DOMAINSETTINGS_STATE_READY**，網域已成功複寫。
+    c. 如果結果是 **LC_DOMAINSETTINGS_STATE_READY**，則網域已成功複寫。
     
-10. **步驟 7： 新增使用者提供的管理存取權 skype for Business Server Control Panel**
+10. **步驟7：新增使用者以供應商務用 Skype Server 控制台的系統管理存取權**
     
     a. 使用 Domain Admins 群組成員或 RTCUniversalServerAdmins 群組成員的身分登入。
     
-    b. 開啟 [ **Active Directory 使用者和電腦**，展開您的網域、 按一下 [**使用者**] 容器，以滑鼠右鍵按一下 CSAdministrator，選擇 [**屬性**。
+    b. 開啟 [ **Active Directory 使用者及電腦**]，展開網域，按一下 [ **使用者** ] 容器，以滑鼠右鍵按一下 [CSAdministrator]，然後選擇 [ **屬性**]。
     
     c. 在 **[CSAdministrator 內容]** 中，按一下 **[成員]** 索引標籤。
     
-    d. 在 [成員]**** 索引標籤上，按一下 [新增]****。 在 [選取使用者、連絡人、電腦、服務帳戶或群組]**** 中，找到 [輸入要選取的物件名稱]****。 輸入要新增到 CSAdministrators 群組的使用者名稱或群組名稱。 按一下 [確定]****。
+    d. 在 [成員] 索引標籤上，按一下 [新增]。 在 [選取使用者、連絡人、電腦、服務帳戶或群組] 中，找到 [輸入要選取的物件名稱]。 輸入要新增到 CSAdministrators 群組的使用者名稱或群組名稱。 按一下 [確定]。
     
-    e. 在 [**成員**] 索引標籤，確認使用者或群組，您所選取存在。 按一下 [確定]****。
+    e. 在 [ **成員** ] 索引標籤上，確認您選取的使用者或群組是否存在。 按一下 **[確定]**。
     
     > [!CAUTION]
-    > Skype for Business Server Control Panel 是角色型存取控制的工具。 以 CsAdministrator 群組成員資格授與使用 Skype for Business Server 控制台中的所有可用的組態函式的完全控制權的使用者。 有些其他的角色是針對特定功能而設計。 如需可用的角色的詳細資訊，請參閱[Skype for Business 伺服器環境的需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[Skype for Business Server 2019 的伺服器需求](../../../SfBServer2019/plan/system-requirements.md)。 請注意，使用者沒有要啟用 Skype for Business Server 才能進行管理群組的成員。 
+    > 商務用 Skype Server 控制台是以角色為基礎的存取控制工具。 CsAdministrator 群組中的成員資格會為所有可用的設定功能提供使用商務用 Skype Server 控制台完全控制權的使用者。 有些其他的角色是針對特定功能而設計。 如需可用角色的詳細資訊，請參閱商務用 skype server 2019 的 [商務用 Skype 伺服器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 或 [伺服器需求](../../../SfBServer2019/plan/system-requirements.md)的環境需求。 請注意，使用者不需要啟用商務用 Skype 伺服器才能成為管理群組的成員。 
   
     > [!CAUTION]
-    > 為了協助保留安全性和角色型存取控制完整性，請將使用者新增至定義了使用者在 Skype for Business Server 部署的管理，執行何種角色群組。 
+    > 若要協助保留安全性和角色型存取控制完整性，請將使用者新增至定義使用者在管理商務用 Skype Server 部署時所執行之角色的群組。 
   
-11. 登出，並使新的 Skype for Business Server 安全性群組，更新您的安全性權杖，然後登入 Windows，然後重新開啟 [部署精靈。
+11. 登出，然後重新登入 Windows，使您的安全性權杖更新為新的商務用 Skype Server 安全性群組，然後重新開啟部署嚮導。
     
-12. 確認您看到**準備 Active Directory**以確認成功旁的綠色核取記號，如圖所示。
+12. 請確認您已在 [ **準備 Active Directory** ] 旁邊的綠色旁核取記號，以確認成功，如圖所示。
     
      ![準備 Active Directory 已完成。](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
 ## <a name="see-also"></a>另請參閱
  
-[Skype 商務 Server 2015 的 active Directory 網域服務](../../plan-your-deployment/security/active-directory-domain-services.md)
+[商務用 Skype Server 2015 的 Active Directory 網域服務](../../plan-your-deployment/security/active-directory-domain-services.md)

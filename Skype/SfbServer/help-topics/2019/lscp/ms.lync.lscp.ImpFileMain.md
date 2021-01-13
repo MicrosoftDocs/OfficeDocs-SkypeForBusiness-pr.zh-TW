@@ -1,8 +1,8 @@
 ---
-title: 檔案篩選
+title: 檔案篩選器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: bdfe5bb6a7133dcf2f6229f35f1003f8d95270de
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 870b0492701225ee2041dc5999df571c3e820b21
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796422"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801393"
 ---
-# <a name="file-filter"></a>檔案篩選
+# <a name="file-filter"></a>檔案篩選器
 
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
 
 - [修改預設檔案傳輸篩選器](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 

@@ -1,8 +1,8 @@
 ---
-title: NetworkConfigurationSettings 視圖
+title: NetworkConfigurationSettings view
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-description: '[NetworkConfigurationSettings] 視圖儲存網路設定的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。'
-ms.openlocfilehash: d33111ec8d9be155e8189cf7876b6d9d293eb678
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
+ms.openlocfilehash: f3c03c286b9593d004f0849669a6c089be5111b0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806313"
 ---
-# <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings 視圖
+# <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings view
  
-[NetworkConfigurationSettings] 視圖儲存網路設定的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
+NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
   
-|**左欄**|**資料類型**|**詳細資料**|
+|**欄**|**資料類型**|**詳細資料**|
 |:-----|:-----|:-----|
-|SubnetIP  <br/> |int  <br/> |子網 IP 位址（僅支援 IPv4 位址）。  <br/> |
-|UserSiteName  <br/> |Nvarchar  <br/> |使用者的網站名稱。  <br/> |
-|RegionName  <br/> |Nvarchar  <br/> |使用者的國家/地區名稱。  <br/> |
+|SubnetIP  <br/> |int  <br/> |子網路 IP 位址 (僅支援 IPv4 位址)。  <br/> |
+|UserSiteName  <br/> |Nvarchar (128)   <br/> |使用者的網站名稱。  <br/> |
+|RegionName  <br/> |Nvarchar (128)   <br/> |使用者的國家/地區名稱。  <br/> |
    
 

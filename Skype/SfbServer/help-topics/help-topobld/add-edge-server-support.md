@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server 支援
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: 您可以在部署初始拓撲時，或于稍後的時間，新增對外部使用者存取的支援。 如需新增 Edge Server 至現有拓撲的詳細資訊，請參閱 Edge Server 部署文件中的＜Define Your Edge Topology＞。
-ms.openlocfilehash: d0f63c80cf12f8551890ae2c2e12f271b0535fd5
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 9d7827178e8bee4ae8d102e521946220501387ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216604"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803643"
 ---
 # <a name="add-edge-server-support"></a>新增 Edge Server 支援
 

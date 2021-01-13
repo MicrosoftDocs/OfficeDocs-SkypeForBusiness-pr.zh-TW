@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server NAT IP
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
-description: 公用 IP 位址是網路位址轉譯（NAT）所使用的 IP 位址。 IP 位址必須是公開路由的。 這是必要的，因為您已選取此嚮導 [選取功能] 頁面上的 [此 Edge 池的外部 IP 位址是由 NAT 轉譯] 選項。
-ms.openlocfilehash: 988b585145b6607002b6de0aafffbdc95b9c54c6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 公用 IP 位址是網路位址轉譯 (NAT) 所使用的 IP 位址。 IP 位址必須可公開路由傳送。 這是必要的，因為您已在此嚮導的 [選取功能] 頁面上，選取 [此 Edge 集區的外部 IP 位址是由 NAT 轉譯] 選項。
+ms.openlocfilehash: 1e722a997346daadedf1f017a66f85d6a7355e18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798170"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800963"
 ---
 # <a name="add-edge-server-nat-ip"></a>新增 Edge Server NAT IP
 
-公用 IP 位址是網路位址轉譯（NAT）所使用的 IP 位址。 IP 位址必須是公開路由的。 這是必要的，因為您已選取此嚮導 [**選取功能**] 頁面上的 **[此 Edge 池的外部 IP 位址是由 NAT 轉譯**] 選項。
+公用 IP 位址是網路位址轉譯 (NAT) 所使用的 IP 位址。 IP 位址必須可公開路由傳送。 這是必要的，因為您已在此嚮導的 [**選取功能**] 頁面上，選取 [**此 Edge 集區的外部 IP 位址是由 NAT 轉譯**] 選項。
 
 > [!NOTE]
-> 網路位址轉譯（NAT）可讓私人網路（例如192.168.0.0 範圍）上的用戶端或伺服器能夠透過公用網際網路網路與遠端網路上的系統進行通訊。 NAT 的運作方式是使用外部介面上的單一公用 IP 位址，並將內部 IP 位址與單一公用 IP 位址建立關聯。 NAT 對應會將內部位址對應至外部公用 IP 位址。 遠端系統只會看到來源的公用位址。 遠端系統會回應來源，而來源參照 NAT 對應來判斷回應應該傳回哪一個內部 IP 位址。
+> 網路位址轉譯 (NAT) 會在私人網路 (上啟用用戶端或伺服器。例如，192.168.0.0 範圍) ，可與透過公用網際網路網路的遠端網路上的系統進行通訊。 NAT 的運作方式是使用外部介面上的單一公用 IP 位址，並將內部 IP 位址與一個公用 IP 位址產生關聯。 NAT 對應會將內部位址對應至外部公用 IP 位址。 遠端系統只會看到來源的公用位址。 遠端系統會回應來源，而且來源會參照 NAT 對應，以決定回應應傳回的內部 IP 位址。
 
-您可以在部署初始拓撲時新增外部使用者存取的支援，也可以稍後再新增。如需新增 Edge Server 至現有拓撲的詳細資訊，請參閱 Edge Server 部署文件中的〈[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)〉。
+您可以在部署初始拓撲時新增外部使用者存取的支援，也可以稍後再新增。 如需新增 Edge Server 至現有拓撲的詳細資訊，請參閱 Edge Server 部署文件中的＜[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)＞。
 
 

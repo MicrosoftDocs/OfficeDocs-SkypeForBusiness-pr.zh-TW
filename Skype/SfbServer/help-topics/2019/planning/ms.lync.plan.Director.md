@@ -1,8 +1,8 @@
 ---
-title: 主管（規劃工具）
+title: 'Director (規劃工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 控制器是執行商務用 Skype Server 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。
-ms.openlocfilehash: 4247642851b104b999521b664931ccbd3d6d5f61
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Director 是一部執行商務用 Skype 伺服器通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。
+ms.openlocfilehash: 0c76fb5290715bb394b4c84ffadad3a2e9dd74db
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797334"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801093"
 ---
-# <a name="director-planning-tool"></a>主管（規劃工具）
+# <a name="director-planning-tool"></a>Director (規劃工具) 
  
-控制器是執行商務用 Skype Server 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。 
+Director 是一部執行商務用 Skype 伺服器通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。 
   
-這個角色是選擇性的，您可以選擇在下列兩種案例中部署控制器：
+這個角色是選用的，您可以選擇在下列兩個案例中部署 Director：
   
-- 如果您透過部署邊緣伺服器來啟用外部使用者存取，您也應該部署控制器。 在這種情況下，控制器會驗證外部使用者，然後將通信量傳送到內部伺服器。 當使用 Director 驗證外部使用者時，它會從執行這些使用者驗證的負荷，來免除前端池伺服器。 它也可協助將內部前端池與惡意流量（例如拒絕服務攻擊）隔離。 如果網路充斥在這種攻擊中的無效外部通信量，此流量將結束于 Director。
+- 如果您透過部署 Edge Server 啟用外部使用者存取，您也應該部署 Director。 在此案例中，Director 會驗證外部使用者，然後將流量傳遞給內部伺服器。 當 Director 用於驗證外部使用者時，它會從執行這些使用者驗證的開銷中免除前端集區伺服器的執行。 它也有助於將內部前端集區與惡意流量（如拒絕服務攻擊）隔離。 如果網路在這類攻擊中以不正確外部流量淹沒，這項流量會結束于 Director。
     
-- 如果您是在中央網站部署多個前端池，您可以在該網站上新增 Director，以簡化驗證要求並改善效能。 在這種情況下，所有要求都會先移至 Director，然後將它們路由到正確的 [前端] 池。
+- 如果您在中央網站部署多個前端集區，只要將 Director 新增至該網站，您就可以簡化驗證要求並改善效能。 在此案例中，所有要求都會先移至 Director，然後再將其路由傳送到正確的前端集區。
     
 

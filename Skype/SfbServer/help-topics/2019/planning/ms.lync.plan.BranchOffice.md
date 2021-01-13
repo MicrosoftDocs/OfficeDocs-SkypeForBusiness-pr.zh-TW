@@ -1,8 +1,8 @@
 ---
-title: 分支網站（規劃工具）
+title: '分支網站 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如需分支網站復原的詳細資料，請參閱規劃分支網站語音復原。
-ms.openlocfilehash: 3d25f86086f305de3aba7e57682539c859a3ad09
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 如需有關分支網站恢復的詳細資訊，請參閱規劃 Branch-Site 語音恢復功能。
+ms.openlocfilehash: 070ce04459d774ceb5838ce5d2889750af4586ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797374"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801143"
 ---
-# <a name="branch-sites-planning-tool"></a>分支網站（規劃工具）
+# <a name="branch-sites-planning-tool"></a>分支網站 (規劃工具) 
 
-如需分支網站復原的詳細資料，請參閱[規劃分支網站語音復原](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)。
+如需有關分支網站恢復的詳細資訊，請參閱 [規劃 Branch-Site 語音恢復](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)功能。
 
 

@@ -1,8 +1,8 @@
 ---
-title: User 表格
+title: 使用者表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-description: '[使用者] 資料表是一個支援資料表，可儲存已參與資料庫中記錄之會話的各種使用者清單。 資料表中的每一筆記錄代表一個使用者。'
-ms.openlocfilehash: fcb6c4d45f1392c31ba87637d6e3a1a697f7be9e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: User 表格是一種支援資料表，儲存資料庫中所記錄的工作階段之各參與使用者的清單。表格中的每筆記錄代表一位使用者。
+ms.openlocfilehash: 5c84f0b947199fa497964cb1689dccc571a98d14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805091"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800073"
 ---
-# <a name="user-table"></a>User 表格
+# <a name="user-table"></a>使用者表格
  
-[使用者] 資料表是一個支援資料表，可儲存已參與資料庫中記錄之會話的各種使用者清單。 資料表中的每一筆記錄代表一個使用者。
+User 表格是一種支援資料表，儲存資料庫中所記錄的工作階段之各參與使用者的清單。表格中的每筆記錄代表一位使用者。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**UserKey** <br/> |int  <br/> |首選  <br/> |標識此使用者的唯一號碼。  <br/> |
-|**URL** <br/> |Nvarchar （450）  <br/> |唯一  <br/> |URI 字串。  <br/> |
-|**URIType** <br/> |int  <br/> ||1是未知的 URI 類型。  <br/> 2是使用者 URI。  <br/> 4是會議 URI。  <br/> 8是電話 URI。  <br/> |
-|**TenantKey** <br/> |int  <br/> |外  <br/> |使用者的租使用者，從租使用者資料表參考。  <br/> |
-|**LastPoorCallTime** <br/> |datetime  <br/> ||當使用者的語音通話不佳時，請使用最新的時間戳記。  <br/> |
-|**NextUpdateTS** <br/> |datetime  <br/> ||僅供內部使用。  <br/> |
+|**UserKey** <br/> |int  <br/> |主要  <br/> |用於識別此使用者的唯一號碼。  <br/> |
+|**URI** <br/> |Nvarchar (450)   <br/> |Unique  <br/> |URI 字串。  <br/> |
+|**URIType** <br/> |int  <br/> ||1 是未知的 URI 類型。  <br/> 2 是使用者 URI。  <br/> 4 是會議 URI。  <br/> 8 是電話 URI。  <br/> |
+|**TenantKey** <br/> |int  <br/> |Foreign  <br/> |使用者的承租人，參考來源：Tenant 表格。  <br/> |
+|**LastPoorCallTime** <br/> |datetime  <br/> ||最近一次使用者通話音訊品質不佳的時間戳記。  <br/> |
+|**NextUpdateTS** <br/> |datetime  <br/> ||僅限內部使用。  <br/> |
    
 

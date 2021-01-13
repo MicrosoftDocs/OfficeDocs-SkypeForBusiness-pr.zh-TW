@@ -1,8 +1,8 @@
 ---
-title: 未確認的語音配置設定檢查
+title: 未認可的語音設定設定檢查
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用 [未提交的語音設定] 對話方塊來查看您所做的所有變更。 捲動對話方塊，檢閱所有未認可的變更，或是按一下箭頭展開或收合不同的區段。 完成後，請按一下 [關閉]。 關閉此對話方塊之後，您可以修改變更或確認變更。
-ms.openlocfilehash: d15e836e469d466c185ed6912b2fb6e566aae7d1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 使用 [未認可的語音設定] 對話方塊，檢查您所進行的所有變更。 流覽對話方塊以查看所有未認可的變更，或按一下箭號展開或折迭不同的區段。 完成後，按一下 [關閉]。 關閉此對話方塊後，您可以修改或認可您的變更。
+ms.openlocfilehash: 9f7f7f3e084b4c054a761ed83e0b796da25b7e79
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794191"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801253"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>未認可的語音組態設定：檢閱
  
-使用 [**未提交的語音設定**] 對話方塊來查看您所做的所有變更。 捲動對話方塊，檢閱所有未認可的變更，或是按一下箭頭展開或收合不同的區段。 完成後，請按一下 [**關閉**]。 關閉此對話方塊之後，您可以修改變更或確認變更。
+使用 [ **未認可的語音設定** ] 對話方塊，檢查您所進行的所有變更。 流覽對話方塊以查看所有未認可的變更，或按一下箭號展開或折迭不同的區段。 完成後，按一下 [關閉]。 關閉此對話方塊後，您可以修改或認可您的變更。
   
  
   

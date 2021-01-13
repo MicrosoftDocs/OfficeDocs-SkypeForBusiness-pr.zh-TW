@@ -1,8 +1,8 @@
 ---
-title: 正常化規則建立新的或編輯現有的
+title: 正規化規則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: fe37e9e37c3d49c956d0c3b3dd2be49bf93ce7e9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 7965e039f2620b6326a4644086a471705db3f9c3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822596"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803873"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a>正規化規則：建立新的或編輯現有規則
+# <a name="normalization-rule-create-new-or-edit-existing"></a>正規化規則：建立新的或編輯現有
 
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
 
-- [在 Lync Server 2013 中使用 [建置正規化規則] 建立或修改正規化規則](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [在商務用 Skype 2015 中建立或修改正規化規則](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [手動建立或修改正常化規則](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [手動建立或修改正規化規則](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
 
