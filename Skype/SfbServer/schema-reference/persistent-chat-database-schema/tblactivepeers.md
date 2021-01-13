@@ -1,8 +1,8 @@
 ---
 title: tblActivePeers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: tblActivePeers 包含聊天服務之間的目前對等連線。
-ms.openlocfilehash: 4604c13dbff9565748dd59e5917a5c133bd71947
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblActivePeers 包含聊天服務之間目前的對等連線。
+ms.openlocfilehash: befba4086a78281fbfbec1e270b7c8e3f8174752
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812933"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-tblActivePeers 包含聊天服務之間的目前對等連線。
+tblActivePeers 包含聊天服務之間目前的對等連線。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|aplServerID  <br/> |int，not null  <br/> |已張貼專案之伺服器的 ID。  <br/> |
-|aplPeerID  <br/> |int，not null  <br/> |張貼伺服器所連接之對等的 ID。  <br/> |
+|aplServerID  <br/> |int，非 null  <br/> |張貼專案之伺服器的識別碼。  <br/> |
+|aplPeerID  <br/> |int，非 null  <br/> |過帳伺服器連線的對等識別碼。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|\<aplServerID, aplPeerID\>  <br/> |主鍵。  <br/> |
-|aplServerID  <br/> |在 tblServerIdentity serverID 資料表中使用 [查閱] 的外鍵。  <br/> |
-|aplPeerID  <br/> |在 tblServerIdentity serverID 資料表中使用 [查閱] 的外鍵。  <br/> |
+|\<aplServerID, aplPeerID\>  <br/> |主索引鍵。  <br/> |
+|aplServerID  <br/> |在 tblServerIdentity.serverID 表格中查閱的外鍵。  <br/> |
+|aplPeerID  <br/> |在 tblServerIdentity.serverID 表格中查閱的外鍵。  <br/> |
    
 

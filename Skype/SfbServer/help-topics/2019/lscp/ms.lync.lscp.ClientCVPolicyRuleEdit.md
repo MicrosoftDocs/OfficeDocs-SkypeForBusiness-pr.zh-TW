@@ -1,8 +1,8 @@
 ---
 title: 用戶端版本規則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: 用戶端版本原則是由一組用戶端版本規則所組成。當使用者嘗試以特定用戶端及用戶端版本登入時，這些規則會定義所要採取的動作。
-ms.openlocfilehash: a4d8cb38f30e8c332a9cec0ea90e27c012187d47
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 26f37c77886ac9f9fe7fb8d8680fb0dad642a9cf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794592"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812373"
 ---
 # <a name="client-version-rule"></a>用戶端版本規則
 
@@ -28,7 +28,7 @@ ms.locfileid: "41794592"
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以在「新增用戶端版本設定」**** 或「編輯用戶端版本設定」**** 頁面上執行下列工作：
+您可以在「新增用戶端版本設定」或「編輯用戶端版本設定」頁面上執行下列工作：
 
 - 新增規則至用戶端版本原則。
 
@@ -38,38 +38,39 @@ ms.locfileid: "41794592"
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
 
-- **使用者代理程式**您可以從清單中選取用戶端類型。 下表定義使用者代理程式碼。 此清單包含舊版用戶端類型，其中一些已不再支援。
+
+- **使用者代理程式** 您可以從清單中選取用戶端類型。 下表定義使用者代理程式碼。 此清單包含舊版用戶端類型，其中一些已不再支援。
 
 |**用戶端名稱**|**使用者代理程式**|
 |:-----|:-----|
-|Lync 2013、Lync 2010、Office Communicator  <br/> |OC  <br/> |
-|Lync Web App、Communicator Web Access  <br/> |CWA  <br/> |
+|Lync 2013、Lync 2010、Office Communicator  <br/> |Oc  <br/> |
+|Lync Web App、Communicator Web Access  <br/> |NM-CWA-13-NO-VERSION  <br/> |
 |Lync Phone Edition、Office Communicator Phone  <br/> |OCPhone  <br/> |
-|Communicator Phone Edition 平台  <br/> |CPE  <br/> |
-|整合通訊平台  <br/> |UCCP  <br/> |
-|Lync 2010 出席者  <br/> |AOC  <br/> |
+|Communicator Phone Edition 平台  <br/> |Cpe  <br/> |
+|Unified Communications 平台  <br/> |UCCP  <br/> |
+|Lync 2010 Attendee  <br/> |Aoc  <br/> |
 |Live Meeting 增益集  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
-|Windows Messenger  <br/> |WM  <br/> |
-|即時通訊用戶端  <br/> |RTC  <br/> |
-|IPad 版 Lync 2010  <br/> |iPadLync  <br/> |
-|IPhone 版 Lync 2010  <br/> |iPhoneLync  <br/> |
-|Windows Phone 版 Lync 2010  <br/> |WPLync  <br/> |
-|適用于 Nokia 的 Lync 2010  <br/> |NokiaLync  <br/> |
-|Android 版 Lync 2010  <br/> |AndroidLync  <br/> |
+|Windows Messenger  <br/> |Wm  <br/> |
+|即時通訊用戶端  <br/> |Rtc  <br/> |
+|Lync 2010 for iPad  <br/> |iPadLync  <br/> |
+|適用于 iPhone 的 Lync 2010  <br/> |iPhoneLync  <br/> |
+|適用于 Windows Phone 的 Lync 2010  <br/> |WPLync  <br/> |
+|Lync 2010 for Nokia  <br/> |NokiaLync  <br/> |
+|適用于 Android 的 Lync 2010  <br/> |AndroidLync  <br/> |
 |行動性服務  <br/> |McxService  <br/> |
 
-- **版本號碼**您可以指定下欄欄位的版本號碼，或使用萬用字元來表示用戶端的版本號碼。
+- **版本號碼** 您可以指定下欄欄位的版本號碼，或使用萬用字元表示用戶端版本號碼。
 
-  - **主要版本**指定與用戶端主要版本相對應的數位。
+  - **主要版本** 指定對應至用戶端主要版本的號碼。
 
-  - **次要版本**指定與用戶端次要發行版本相對應的數位。
+  - **次要版本** 指定對應至用戶端次要版本的號碼。
 
-  - **組建**指定與用戶端主要和次要版本相對應的組建編號。
+  - **組建** 指定對應至用戶端主要和次要版本的組建編號。
 
-  - **更新**指定與用戶端更新版本相對應的數位。
+  - **更新** 指定對應至用戶端更新版本的號碼。
 
-- **比較運算**您可以針對您在上述步驟中所指定的用戶端版本，指定相符的操作。 下列作業可供使用：
+- **比較運算** 您可以指定您在上述步驟中指定之用戶端版本的對應作業。 可供使用的作業如下：
 
   - **相同**
 
@@ -83,22 +84,22 @@ ms.locfileid: "41794592"
 
   - **舊於或相同**
 
-- **動作**您可以指定在滿足上述步驟中的準則時要執行的動作。 下列動作可供使用：
+- **動作** 您可以指定在上述步驟中符合準則時所要執行的動作。 可供使用的動作如下：
 
-  - **允許**允許用戶端登入。
+  - **允許** 允許用戶端登入。
 
-  - **允許和升級**允許用戶端登入，並從 Windows Server Update Services 或 Microsoft Update 接收更新。 只有在選取 [使用者代理**OC** ] 時，才能使用此動作。
+  - **允許和升級** 允許用戶端登入和接收來自 Windows Server Update Service 或 Microsoft Update 的更新。 只有在選取 [使用者代理 **OC** ] 時，才可使用此動作。
 
     > [!NOTE]
-    > 選取此動作會在使用者下次登入商務用 Skype 時，顯示通知。 通知指出有可用的更新，即使更新還沒有發佈至 Windows Server Update Service 或 Microsoft Update。 為避免混淆，您應該僅在有可用更新時選擇此動作。
+    > 選取此動作會在使用者下一次登入商務用 Skype 時顯示通知。 通知指出有可用的更新，即使更新還沒有發佈至 Windows Server Update Service 或 Microsoft Update。 若要避免混淆，您應該僅在更新可用時選擇此動作。
 
-  - **允許 URL**允許用戶端登入，並顯示有關下載其他用戶端版本之位置的訊息。 您要在 [URL]**** 欄位中指定 URL。
+  - **允許搭配 URL** 允許用戶端登入並顯示從何處下載其他用戶端版本的訊息。 您要在 [URL] 欄位中指定 URL。
 
-  - **封鎖**防止用戶端登入。
+  - **封鎖** 禁止用戶端登入。
 
-  - **封鎖和升級**防止用戶端登入，並允許用戶端從 Windows Server Update Services 或 Microsoft Update 接收更新。 只有在選取 [使用者代理**OC** ] 時，才能使用此動作。
+  - **封鎖和升級** 防止用戶端登入，並且允許用戶端從 Windows Server Update Service 或 Microsoft Update 接收更新。 只有在選取 [使用者代理 **OC** ] 時，才可使用此動作。
 
-  - **以 URL 封鎖** 禁止用戶端登入並且顯示哪裡可以下載其他用戶端版本的訊息。您要在 [URL]**** 欄位中指定 URL。
+  - **以 URL 封鎖** 禁止用戶端登入並且顯示哪裡可以下載其他用戶端版本的訊息。您要在 [URL] 欄位中指定 URL。
 
-如需用戶端與用戶端版本之間的互通性詳細資料，請參閱規劃檔中的[用戶端互用性](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。 如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的〈[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)〉。
+如需用戶端與用戶端版本之間的互用性相關詳細資訊，請參閱規劃檔中的 [用戶端互通性](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) 。 如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的＜[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)＞。
 

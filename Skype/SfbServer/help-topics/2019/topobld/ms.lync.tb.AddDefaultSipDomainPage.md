@@ -1,8 +1,8 @@
 ---
 title: 新增預的 SIP 網域
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 指定您希望部署支援的主要會話初始通訊協定（SIP）網域。 主要 SIP 網域可以與您的 Active Directory 網域服務網域相同，或與其不同。 例如，您的 Active Directory 網域可能是 fabrikam.net，您可以指定要 contoso.net 的主要 SIP 網域。
-ms.openlocfilehash: 28fbb53eafe16572d129092179689935b408995b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 指定您要部署支援的主要工作階段初始通訊協定 (SIP) 網域。 主要 SIP 網域可以與您的 Active Directory 網域服務網域相同（或不同于您的 Active Directory 網域服務網域）。 例如，您的 Active Directory 網域可能是 fabrikam.net，您可以將主要 SIP 網域指定為 contoso.net。
+ms.openlocfilehash: 2dfeca5801137804e6984439951aced3cc03531c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796624"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811903"
 ---
 # <a name="add-default-sip-domain"></a>新增預的 SIP 網域
  
-指定您希望部署支援的主要會話初始通訊協定（SIP）網域。 主要 SIP 網域可以與您的 Active Directory 網域服務網域相同，或與其不同。 例如，您的 Active Directory 網域可能是 fabrikam.net，您可以指定要 contoso.net 的主要 SIP 網域。
+指定您要部署支援的主要工作階段初始通訊協定 (SIP) 網域。 主要 SIP 網域可以與您的 Active Directory 網域服務網域相同（或不同于您的 Active Directory 網域服務網域）。 例如，您的 Active Directory 網域可能是 fabrikam.net，您可以將主要 SIP 網域指定為 contoso.net。
   
 

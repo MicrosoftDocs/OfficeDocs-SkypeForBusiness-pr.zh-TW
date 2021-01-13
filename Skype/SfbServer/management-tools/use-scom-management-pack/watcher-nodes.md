@@ -1,8 +1,8 @@
 ---
 title: 安裝及設定觀察程式節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要：為商務用 Skype 伺服器綜合交易安裝及設定監視節點。
-ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: f6d3db973291b8a41647a3c4a4d3c3530c7af019
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48599777"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812751"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安裝及設定觀察程式節點
  
@@ -112,7 +112,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
   
 1. 在監看員節點電腦上，依序按一下 [開始]、[所有程式] 及 [附屬應用程式]，再以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。
     
-2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝盤的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype server 2015**]，然後按一下 [ **商務用 skype server 管理命令**介面]。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
+2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝盤的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype server 2015**]，然後按一下 [ **商務用 skype server 管理命令** 介面]。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration

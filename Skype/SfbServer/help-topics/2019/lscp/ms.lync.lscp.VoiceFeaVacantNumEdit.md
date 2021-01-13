@@ -1,8 +1,8 @@
 ---
-title: 未指定的電話號碼建立新的或編輯現有的
+title: 未指派電話號碼建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,50 +14,51 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
-description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派號碼表指出您希望如何處理撥打至未指定號碼的通話。
-ms.openlocfilehash: 87d83f6285e36abf6b063ba7d6c4d1a93cadc633
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
+ms.openlocfilehash: a584812b32d99796259bde56838f0193c54b8fac
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41792161"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812093"
 ---
-# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未指派的電話號碼：建立新的或編輯現有號碼
+# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未指派電話號碼：建立新的或編輯現有
 
 > [!NOTE]
-> 當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，Exchange UM 仍可在商務用 Skype Server 2019 中使用。 由於 Exchange 2019 中的支援變更，因此需要取消 Exchange UM 整合，以取代雲端語音信箱和雲端自動語音應答功能。
+> 當您整合商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 時，Exchange UM 仍可用於商務用 Skype Server 2019。 由於 Exchange 2019 中的支援變更，因此會取消考慮 Exchange UM 整合，以取代雲端語音信箱和雲端自動語音應答功能。
 
-未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派號碼表指出您希望如何處理撥打至未指定號碼的通話。
+未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。
+
 
 > [!IMPORTANT]
-> 當您完成建立新的未指派編號範圍或編輯現有的數位範圍時，請按一下 **[確定]** ，返回列出所有數位範圍的 [**未指定的號碼**] 頁面。 您在新的 [**未指定**的數位範圍] 頁面或 [**編輯未指派的號碼] Rage**頁面上所做的變更，直到您在 [**未指定的號碼**] 頁面上按一下 [**全部提交**] 為止。
+> 當您結束建立新的未指派號碼範圍或編輯現有的未指派號碼範圍時，請按一下 [確定] 返回列出所有號碼範圍的「未指派號碼」頁面。除非您按一下「未指派號碼」頁面上的 [全部認可]，否則資料庫不會認可您在「新增未指派號碼範圍」頁面或「編輯未指派號碼範圍」頁面上所做的變更。
 
 ## <a name="ui-reference"></a>UI 參考
 
 下列清單說明頁面上的欄位。
 
-- **名稱**輸入識別未指定的數位範圍的描述性名稱。 在您儲存範圍之後，此名稱就無法變更。
+- **名稱** 請輸入識別未指派號碼範圍的描述性名稱。 在您儲存範圍之後，就無法變更此名稱。
 
-- **數位範圍**在第一個欄位中，輸入未指定的數位範圍的起始編號。 在第二個欄位中，輸入範圍的結束數位。
+- **號碼範圍** 在第一個欄位中，輸入未指派號碼範圍的開始號碼。 在第二個欄位中，輸入該範圍的結束號碼。
 
   - 該範圍的起始號碼必須小於或等於範圍的結束號碼。
 
-  - 如果範圍的起始編號或範圍的結束數位包含分機號碼，則起始編號與範圍的結束數位都必須包含延伸，且起始編號和所需的延伸號碼必須是相同的。結束數位。
+  - 如果範圍的開始號碼或範圍的結束號碼包含分機號碼，則範圍的開始號碼和結束號碼都必須包含分機，且開始號碼和結束號碼的分機號碼必須相同。
 
-  - 這個數位必須符合正則運算式（電話：）嗎？（\+)?[1-9] \d{0,17}（; ext = [1-9] \d{0,9}）？。 這表示數位可能會從電話號碼開始：（如果您沒有指定該字串將會自動新增為您），請使用加號（+），以及1到9的數位。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
+  - 號碼必須符合正則運算式 (電話： ) ？ (\+) ？ [1-9] \d {0,17} (; ext = [1-9] \d {0,9}) ？。 這表示數位可以從電話號碼開始： (如果您未指定該字串將會自動新增至您) 、加號 (+) 及數位1到9。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
 
-- **宣告服務**選取 [**宣告**]，讓宣告應用程式處理撥出通話或**exchange Um** ，讓 exchange um 自動語音應答處理撥入通話。
+- **宣告服務** 選取 [ **宣告** ]，讓宣告應用程式處理來電或 **exchange Um** ，讓 exchange um 自動語音應答處理傳入的呼叫。
 
-- 如果您已選取 [**宣告**發佈**服務**]：
+- 若您選取 [宣告服務] 的 [宣告]：
 
-  - **目的地伺服器的 FQDN**選取執行宣告應用程式的應用程式服務的服務識別碼，該 app 服務會處理撥入通話至此範圍的未指定號碼。
+  - **目的地伺服器的 FQDN** 選取執行宣告應用程式的應用程式服務的服務 ID，該應用程式會處理對此未指派號碼範圍的撥入呼叫。
 
-  - **宣告**選取要在此未指定編號範圍中播放的宣告。
+  - **宣告** 選取要為此未指派號碼範圍播放的宣告。
 
-- 如果您已選取 [ **EXCHANGE UM**以供**宣告服務**]：
+- 若您選取 [宣告服務] 的 [Exchange UM]：
 
-  - **自動助理電話號碼**選取 Exchange UM 自動語音應答的電話號碼。
+  - **自動語音應答電話號碼** 選取 Exchange UM 自動語音應答的電話號碼。
 
-如需公告功能和功能的詳細資訊，請參閱規劃檔中的[商務用 Skype 中的宣告應用程式規劃](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的〈[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)〉。
+如需公告功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype 中規劃宣告應用程式](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)＞。
 
 

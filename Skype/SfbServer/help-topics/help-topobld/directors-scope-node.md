@@ -1,8 +1,8 @@
 ---
 title: Director 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: '[Director 集區] 節點會列出您的拓撲中的 Director 集區。 您可以執行下列動作：'
-ms.openlocfilehash: 81945ff70a46bd0507cc5ff8c8d463a2b66f0ebe
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f63d37df66f0c439138fc578d412374053a88a6d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218974"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810313"
 ---
 # <a name="directors-scope-node"></a>Director 範圍節點
  
-[Director 集區]**** 節點會列出您的拓撲中的 Director 集區。您可以執行下列動作：
+[Director 集區] 節點會列出您的拓撲中的 Director 集區。您可以執行下列動作：
   
-- **新增 Director 集區**。啟動 [定義新的 Director 集區精靈]****，以便將新的 Director 集區新增到拓撲。
+- **新增 Director 集區**。啟動 [定義新的 Director 集區精靈]，以便將新的 Director 集區新增到拓撲。
     
 除了 Director 集區選項之外，您還可以執行下列一般工作：
   

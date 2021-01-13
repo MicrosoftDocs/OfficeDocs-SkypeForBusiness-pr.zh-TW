@@ -1,8 +1,8 @@
 ---
-title: '[會話] 視圖'
+title: 會話視圖
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,42 +12,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
-description: '[會話] 視圖儲存在資料庫中有記錄之會話的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。'
-ms.openlocfilehash: cd304123022e0d4d921ecb1cd2599c636aaa9013
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 「工作階段檢視」會儲存在資料庫中有記錄的工作階段的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
+ms.openlocfilehash: 34619c1555fac5935563dd72895f52d045c388ae
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805901"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802693"
 ---
-# <a name="session-view"></a>[會話] 視圖
+# <a name="session-view"></a>會話視圖
  
-[會話] 視圖儲存在資料庫中有記錄之會話的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
+「工作階段檢視」會儲存在資料庫中有記錄的工作階段的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
   
-|**左欄**|**資料類型**|**詳細資料**|
+|**欄**|**資料類型**|**詳細資料**|
 |:-----|:-----|:-----|
-|ConferenceDateTime  <br/> |datetime  <br/> |從 MediaLine 資料表中參照。  <br/> |
-|ConferenceURI  <br/> |Nvarchar （450）  <br/> |會議 URI （如果這是會議），或 DialogID （如果這是點對點工作階段的話）。  <br/> |
-|相關  <br/> |Varchar （max）  <br/> |會話的相關識別碼。  <br/> |
-|DialogCategory  <br/> |稍微  <br/> |對話方塊類別;0是商務用 Skype 伺服器以轉送伺服器腿;1是將伺服器轉送到 PSTN 閘道腿。  <br/> |
-|MediationServerBypassFlag  <br/> |稍微  <br/> |指出是否已略過通話。  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |此欄位（如果有的話）會指出即使繞過的旁路 Id，也不會避開通話。 針對商務用 Skype Server，只定義一個值：  <br/> 0x0001-預設網路介面卡的旁路識別碼  <br/> |
-|開始  <br/> |datetime  <br/> |呼叫開始時間。  <br/> |
+|ConferenceDateTime  <br/> |datetime  <br/> |參考來源為 MediaLine 表格。  <br/> |
+|ConferenceURI  <br/> |Nvarchar (450)   <br/> |如果是會議則為會議 URI，如果是對等工作階段則為 DialogID。  <br/> |
+|Correlation  <br/> |Varchar (max)   <br/> |工作階段的關聯 ID。  <br/> |
+|DialogCategory  <br/> |位  <br/> |對話方塊類別;0是商務用 Skype 伺服器以進行轉送伺服器腿;1是轉送伺服器到 PSTN 閘道腿。  <br/> |
+|MediationServerBypassFlag  <br/> |位  <br/> |指出通話是否經旁路處理。  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |此欄位 (若有) 指出即使旁路識別碼相符，通話為何未經旁路處理。 若為商務用 Skype Server，只會定義一個值：  <br/> 0x0001-預設網路介面卡的未知旁路識別碼  <br/> |
+|StartTime  <br/> |datetime  <br/> |通話開始時間。  <br/> |
 |EndTime  <br/> |datetime  <br/> |通話結束時間。  <br/> |
-|CallerPool  <br/> |Nvarchar （256）  <br/> |呼叫者池 FQDN。  <br/> |
-|CalleePool  <br/> |Nvarchar （256）  <br/> |被呼叫方池 FQDN。  <br/> |
-|CallerPAI  <br/> |Nvarchar （450）  <br/> |來電者 p 斷言身分識別 URI。  <br/> |
-|CalleePAI  <br/> |Nvarchar （450）  <br/> |被呼叫者的 p 聲明身分識別 URI。  <br/> |
-|CallerEndpoint  <br/> |Nvarchar （256）  <br/> |來電者的端點名稱。  <br/> |
-|CalleeEndpoint  <br/> |Nvarchar （256）  <br/> |來電者的端點名稱。  <br/> |
-|CallerUserAgent  <br/> |Nvarchar （256）  <br/> |來電者的使用者代理程式字串。  <br/> |
-|CallerUserAgentType  <br/> |Smallint  <br/> |呼叫者的使用者代理程式類型。 如需詳細資訊，請參閱[UserAgent 資料表](useragent.md)。 <br/> |
-|CallerUserAgentCategory  <br/> |Nvarchar （64）  <br/> |呼叫者的使用者代理類別。 如需詳細資訊，請參閱[UserAgentDef 資料表（QoE）](useragentdef-qoe.md) 。 <br/> |
-|CalleeUserAgent  <br/> |Nvarchar （256）  <br/> |被呼叫者的使用者代理程式字串。  <br/> |
-|CalleeUserAgentType  <br/> |Smallint  <br/> |被呼叫者的使用者代理程式類型。 如需詳細資訊，請參閱[UserAgent 資料表](useragent.md)。 <br/> |
-|CalleeUserAgentCategory  <br/> |Nvarchar （64）  <br/> |被呼叫者的使用者代理類別。 如需詳細資訊，請參閱[UserAgentDef 資料表（QoE）](useragentdef-qoe.md) 。 <br/> |
-|CallerURI  <br/> |Nvarchar （450）  <br/> |來電者的 URI。  <br/> |
-|CalleeURI  <br/> |Nvarchar （450）  <br/> |被呼叫者的 URI。  <br/> |
+|CallerPool  <br/> |Nvarchar (256)   <br/> |發話者集區 FQDN。  <br/> |
+|CalleePool  <br/> |Nvarchar (256)   <br/> |受話者集區 FQDN。  <br/> |
+|CallerPAI  <br/> |Nvarchar (450)   <br/> |來電者的 p 宣稱身分識別 URI。  <br/> |
+|CalleePAI  <br/> |Nvarchar (450)   <br/> |被呼叫者的 p 宣稱身分識別 URI。  <br/> |
+|CallerEndpoint  <br/> |Nvarchar (256)   <br/> |來電者的端點名稱。  <br/> |
+|CalleeEndpoint  <br/> |Nvarchar (256)   <br/> |來電者的端點名稱。  <br/> |
+|CallerUserAgent  <br/> |Nvarchar (256)   <br/> |來電者的使用者代理程式字串。  <br/> |
+|CallerUserAgentType  <br/> |Smallint  <br/> |來電者使用者代理程式的類型。 如需詳細資訊，請參閱 [UserAgent 表格](useragent.md) 。 <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼叫者的使用者代理類別。 如需詳細資訊，請參閱 [UserAgentDef 表格 (QoE) ](useragentdef-qoe.md) 。 <br/> |
+|CalleeUserAgent  <br/> |Nvarchar (256)   <br/> |被呼叫者的使用者代理程式字串。  <br/> |
+|CalleeUserAgentType  <br/> |Smallint  <br/> |受話者的使用者代理程式類型。 如需詳細資訊，請參閱 [UserAgent 表格](useragent.md) 。 <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |受話者的使用者代理程式類別。 如需詳細資訊，請參閱 [UserAgentDef 表格 (QoE) ](useragentdef-qoe.md) 。 <br/> |
+|CallerURI  <br/> |Nvarchar (450)   <br/> |來電者的 URI。  <br/> |
+|CalleeURI  <br/> |Nvarchar (450)   <br/> |被呼叫者的 URI。  <br/> |
 |CallPrioirty  <br/> |int  <br/> |通話的優先順序。  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立檔案共用
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 摘要：瞭解如何在安裝商務用 Skype Server 的過程中建立 Windows Server 檔案共用。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 74c2c8ddedfb6c2a751822fec51636dddd7747dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63ed4c54154698336bea7adb87db4e81d5fd35b4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028294"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812233"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>在商務用 Skype Server 中建立檔案共用
  
@@ -39,7 +39,7 @@ ms.locfileid: "42028294"
 > [!NOTE]
 > Windows Server 2012 R2 已使用 Windows Server 平臺，在提供儲存區域網路 (SAN) 類似的檔案共用解決方案上進行了重大的大幅突破。 與傳統的 SAN 裝置相較時，Windows Server 2012 R2 儲存解決方案可以以極小的效能影響降低成本。 如需有關 Windows Server 2012 R2 中檔案共用選項的詳細資訊，請參閱可下載的白皮書 [Windows Server 2012 R2 Storage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。 
   
-觀賞 **建立檔案共用**的影片步驟：
+觀賞 **建立檔案共用** 的影片步驟：
   
 > [!video https://www.microsoft.com/videoplayer/embed/dbef31be-e899-4a32-a1ca-370053284f56?autoplay=false]
   
@@ -53,7 +53,7 @@ ms.locfileid: "42028294"
     
 4. 按一下 [ **共用此資料夾**]。
     
-5. 按一下 [權限]****。
+5. 按一下 [權限]。
     
 6. 新增主控檔案共用之伺服器的本機系統 **管理員** 群組、授與 **允許：完全控制、變更和讀取** 許可權，然後按一下 **[確定]**。
     
@@ -66,7 +66,7 @@ ms.locfileid: "42028294"
 > [!NOTE]
 >如果檔案存放區裝載于 DFS 共用上，則會收到下列警告：
 
-警告：無法存取「共用>」的共用許可權 \\ <domain> \< 。
+警告：無法存取 "" 的共用許可權 \\ <domain> \<share> 。
 
 >如果您不是檔案伺服器上的系統管理員，或者這是分散式檔案系統 (DFS) 共用，就會發生這種情況。 如果已設定共用許可權，則可以忽略此警告。 如果是新的共用，請參閱檔，以瞭解手動設定共用許可權的詳細資料。
 

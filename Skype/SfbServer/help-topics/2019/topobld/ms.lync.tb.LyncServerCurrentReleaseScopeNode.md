@@ -1,8 +1,8 @@
 ---
-title: Lync Server 2013 建立新展開工具
+title: Lync Server 2013 新建展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以在 [拓撲建立器] 的 Lync Server 2013 節點中建立新的伺服器角色，方法是以滑鼠右鍵按一下 Lync Server 2013，選取 [新增]，然後選取要建立的伺服器角色。
-ms.openlocfilehash: 67a8416e02f98fc396237c3601b2208a2557396b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以在拓撲產生器的 Lync Server 2013 節點中，以滑鼠右鍵按一下 [Lync Server 2013]，然後選取 [新增]，再選取要建立的伺服器角色，以建立新的伺服器角色。
+ms.openlocfilehash: 851c457598f1abf21e19f6c391ce85164991d84b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796262"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811123"
 ---
 # <a name="skype-for-business-server-create-new-expander"></a>商務用 Skype Server 建立新的展開器
  
-您可以用滑鼠右鍵按一下 [**商務用 Skype 伺服器**]，選取 [**新增**]，然後選取要建立的伺服器角色，在拓撲建立器中建立新的伺服器角色。
+您可以在拓撲產生器中建立新的伺服器角色，方法是以滑鼠右鍵按一下 [ **商務用 Skype 伺服器**]，然後選取 [ **新增**]，然後選取要建立的伺服器角色。
   
 

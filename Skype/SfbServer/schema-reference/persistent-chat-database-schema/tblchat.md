@@ -1,8 +1,8 @@
 ---
 title: tblChat
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,33 +13,33 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat 包含所有聊天訊息。
-ms.openlocfilehash: 7221136c435c1d4af836174ddfde5cbd02f4c5f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b375c8c5dcd626a02f59aa9a916d3ca883e4767d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814671"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809893"
 ---
 # <a name="tblchat"></a>tblChat
  
 tblChat 包含所有聊天訊息。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|channelId  <br/> |int，not null  <br/> |節點識別碼。  <br/> |
-|chatId  <br/> |Bigint，not null  <br/> |定義 tblLastChatId 表格產生的聊天室順序的唯一順序編號（每個節點識別碼）。  <br/> |
-|chatDate  <br/> |Bigint，not null  <br/> |聊天訊息的時間戳記。  <br/> |
-|userId  <br/> |int，not null  <br/> |海報的主體識別碼。  <br/> |
-|isAlert  <br/> |bit、not null  <br/> |如果訊息是提醒訊息，則為 True。 如果不是，則為 False。  <br/> |
-|內容  <br/> |Nvarchar （max），not null  <br/> | 聊天內容（純文字版本）。 內容通常是純文字，但有下列例外狀況： <br/>  檔案表示為 ma-filelink：連結。 <br/>  連結是以 HTML 元素表示（雖然無法將內容類型視為 HTML）。 <br/>  案例的編碼方式是「[情景] ...」格式。 <br/> |
-|rtf  <br/> |Varchar （max）  <br/> |聊天內容（RTF 版本）。 如果用戶端無法提供，可能會是 Null。  <br/> |
+|channelId  <br/> |int，非 null  <br/> |節點識別碼。  <br/> |
+|chatId  <br/> |bigint，非 null  <br/> |定義聊天室順序) （由 tblLastChatId table 產生）的唯一順序編號 (每個節點識別碼。  <br/> |
+|chatDate  <br/> |bigint，非 null  <br/> |聊天訊息的時間戳記。  <br/> |
+|userId  <br/> |int，非 null  <br/> |海報的主體識別碼。  <br/> |
+|isAlert  <br/> |位元，非 null  <br/> |True 是表示如果郵件是提醒訊息。 如果不是，則為 False。  <br/> |
+|內容  <br/> |Nvarchar (max) ，非 null  <br/> |  (純文字版本) 聊天內容。 內容通常會以純文字顯示，但有下列例外： <br/>  檔案表示為 ma-filelink：連結。 <br/>  連結會呈現為 HTML 元素 (，但無法將內容類型視為 HTML) 。 <br/>  故事會編碼為 "[本文] ..."-like 格式。 <br/> |
+|Rtf  <br/> |Varchar (max)   <br/> | (RTF 版本) 聊天內容。 如果用戶端不提供此值，則可以為 Null。  <br/> |
    
-**機碼**
+**Key**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|\<channelID, chatD\>  <br/> |主鍵。  <br/> |
+|\<channelID, chatD\>  <br/> |主索引鍵。  <br/> |
    
 

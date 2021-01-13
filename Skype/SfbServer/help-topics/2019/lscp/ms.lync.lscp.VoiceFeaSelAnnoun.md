@@ -1,8 +1,8 @@
 ---
 title: 選取宣告服務
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用 [選取宣告服務] 對話方塊來選取將會處理來電至未指派號碼範圍的宣告服務。
-ms.openlocfilehash: 9d0e956a4c92fb629b301b0090288e259ac93271
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 使用 [選取宣告服務] 對話方塊選取可將來電處理至未指派號碼範圍的宣告服務。
+ms.openlocfilehash: deb9ed885bfac43b9c0a9535673f86a9bffe22e3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797800"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812113"
 ---
 # <a name="select-an-announcement-service"></a>選取宣告服務
  
-使用 [**選取宣告服務**] 對話方塊來選取將會處理來電至未指派號碼範圍的宣告服務。
+使用 [選取宣告服務] 對話方塊選取可將來電處理至未指派號碼範圍的宣告服務。
   
-在 [搜尋] 方塊中，輸入您要使用之宣告服務的全部或部分名稱。 若要傳回所有可用的宣告服務，請將 [搜尋] 方塊保留空白，然後按一下 [搜尋] 圖示。
+在搜尋方塊中，輸入想要使用之宣告服務的完整或部分名稱。若要傳回所有可用的宣告服務，請將搜尋方塊留白，然後按一下搜尋圖示。
   
-在 [搜尋] 傳回的宣告服務清單中，選取您要用來處理來電到未指派號碼範圍之電話的服務。
+在搜尋傳回的宣告服務清單中，選取您要用於將來電處理至未指派號碼範圍的服務。
   
 

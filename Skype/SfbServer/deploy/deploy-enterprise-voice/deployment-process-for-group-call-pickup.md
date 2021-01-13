@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype 中的群組通話挑選部署程式
+title: 商務用 Skype 中群組呼叫收取的部署程式
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
-description: 商務用 Skype Server Enterprise Voice 中的群組通話分揀程式和步驟。
-ms.openlocfilehash: 6f46303316bceaae28802ec27fcaea67a8ccaa08
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 商務用 Skype Server Enterprise Voice 中的群組呼叫收取部署程式和步驟。
+ms.openlocfilehash: 5c89522828e5e5a0dc04ffccb0907c0a2cb8a008
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767466"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812343"
 ---
-# <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>商務用 Skype 中的群組通話挑選部署程式
+# <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>商務用 Skype 中群組呼叫收取的部署程式
  
-商務用 Skype Server Enterprise Voice 中的群組通話分揀程式和步驟。
+商務用 Skype Server Enterprise Voice 中的群組呼叫收取部署程式和步驟。
   
-[群組通話挑選] 可讓使用者從自己的手機接聽來電給他們的同事。 
+群組叫用收取可讓使用者從自己的電話接聽來電給其同事。 
   
- 當您部署企業語音時，會在前端伺服器或標準版伺服器上自動安裝並啟用群組呼叫拾取所用的元件。 不過，您必須先使用下列步驟來設定群組呼叫挑選，才能供使用者使用。
+ 當您部署企業語音時，會自動在前端伺服器或 Standard Edition server 上安裝並啟用群組呼叫收取所使用的元件。 不過，您必須使用下列步驟來設定群組呼叫收取，使用者才能使用它。
   
-**群組呼叫進行挑選部署程式**
+**群組呼叫收取部署程式**
 
-|**分**|**步驟**|**必要的群組和角色**|**部署檔**|
+|**階段**|**步驟**|**所需群組和角色**|**部署文件**|
 |:-----|:-----|:-----|:-----|
-|在拓撲中啟用 SEFAUtil 工具|使用新的 CsTrustedApplicationPool Cmdlet 來建立新的受信任的應用程式池。 使用新的 CsTrustedApplication Cmdlet，將 SEFAUtil 工具指定為受信任的應用程式。 執行 Enable-CsTopology Cmdlet 來啟用拓撲。 如果您還沒有它，請從這個位置下載 SEFAUtil 工具的商務用 Skype Server 版本，並將它安裝在您在步驟1中建立的受信任的應用程式池中。 執行此程式以驗證 SEFAUtil 是否正常運作，只要執行它，即可在部署中顯示使用者的來電轉接設定。 |RTCUniversalServerAdmins  <br/> |[在商務用 Skype 中部署 SEFAUtil 工具](deploy-the-sefautil-tool.md) <br/> [新-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[新-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](https://docs.microsoft.com/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [商務用 Skype Server 2015 資源套件工具檔](../../management-tools/resource-kit-tools.md)。 （適用于商務用 Skype Server 您必須使用目前的工具版本，但是來自 Lync Server 2013 的檔仍適用。）  <br/> |
-|在 [呼叫公園軌道軌道] 表格中設定呼叫挑選編號範圍  <br/> |使用**CSCallParkOrbit** Cmdlet，在 [通話駐留軌道] 表格中建立呼叫挑選編號範圍，並將 [呼叫拾取] 範圍指派給 type **GroupPickup**。  <br/> 若要與現有的撥號方案進行無縫整合，數位範圍通常會設定為虛擬延伸區塊。 不支援在 [通話駐留軌道] 表格中，將直向內撥（已有）數位指派為範圍數位。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[在商務用 Skype 中建立或修改群組呼叫裝貨號碼範圍](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
-|指派呼叫挑選號碼給使用者，並為使用者啟用群組呼叫分揀  <br/> |在 SEFAUtil 資源套件工具中使用/enablegrouppickup 參數，以啟用群組通話分揀，並為使用者指派呼叫挑選號碼。  <br/> |-  <br/> |[在商務用 Skype 中為使用者啟用群組呼叫挑選並指派群組號碼](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
-|通知使用者已指派的電話提貨號碼和任何其他感興趣的號碼  <br/> |在您為使用者啟用群組呼叫挑選之後，請使用電子郵件或其他機制來通知使用者他們的通話挑選群組號碼。 針對任何您可能想要監視的群組，將 [呼叫挑選] 群組號碼通知給使用者。 因為使用者可以為其他使用者檢索來電，即使他們不在同一個群組中，使用者可能需要多個群組的呼叫挑選群組號碼。  <br/> |-  <br/> ||
-|驗證您的群組呼叫裝貨部署  <br/> | 測試放及檢索通話，以確保您的設定如預期的那樣正常運作。 至少請確認下列事項： <br/>  呼叫已啟用 [群組呼叫] 的使用者，並讓另一個使用者取回通話。 其他使用者可以位於同一個群組、不同的群組中，或未啟用 [群組呼叫挑選]。 <br/>  呼叫已啟用 [群組通話] 的使用者，但不要接聽通話。 <br/> |-  <br/> ||
+|在拓撲中啟用 SEFAUtil 工具|使用 New-CsTrustedApplicationPool Cmdlet 來建立新的受信任應用程式集區。 使用 New-CsTrustedApplication Cmdlet，將 SEFAUtil 工具指定為信任的應用程式。 執行 Enable-CsTopology Cmdlet 以啟用拓撲。 若尚未使用，請從這個位置下載 SEFAUtil 工具的商務用 Skype Server 版本，然後將其安裝在您在步驟1中建立的信任應用程式集區。 執行該 SEFAUtil 以在部署中顯示使用者的「來電轉接」設定，以確認是否正常運作。 |RTCUniversalServerAdmins  <br/> |[在商務用 Skype 中部署 SEFAUtil 工具](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](https://docs.microsoft.com/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [商務用 Skype Server 2015 資源工具組工具檔](../../management-tools/resource-kit-tools.md)。  (用於商務用 Skype Server，您必須使用目前的工具版本，但是來自 Lync Server 2013 的檔仍適用。 )   <br/> |
+|設定通話駐留軌道表格中的呼叫收取號碼範圍  <br/> |使用 **New-CSCallParkOrbit** Cmdlet 來建立通話駐留軌道表格中的呼叫收取號碼範圍，並將類型 **GroupPickup** 指派給電話收取範圍。  <br/> 為了與現有撥號對應表無縫整合，號碼範圍通常會設定為虛擬擴充區塊。 指派直接向內撥號 (，不支援通話駐留軌道表格中的範圍編號) 數位。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[在商務用 Skype 中建立或修改群組呼叫收取號碼範圍](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
+|將來電收取號碼指派給使用者，並為使用者啟用群組呼叫收取功能  <br/> |使用 SEFAUtil resource 成套工具中的/enablegrouppickup 參數，啟用群組呼叫收取，並為使用者指派呼叫收取號碼。  <br/> |-  <br/> |[在商務用 Skype 中為使用者啟用群組呼叫收取和指派群組號碼](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
+|通知使用者他們所指派的來電收取號碼和其他相關數目  <br/> |在您為使用者啟用群組呼叫收取後，請使用電子郵件或其他一些機制通知使用者他們的呼叫收取群組號碼。 通知使用者他們可能想要監視的任何群組的呼叫收取群組號碼。 因為使用者可以為其他使用者取回來電，即使這些使用者不在相同的群組中，使用者可能需要多個群組的呼叫收取群組號碼。  <br/> |-  <br/> ||
+|驗證群組是否呼叫收取部署  <br/> | 測試放入和取回通話，以確保您的設定如預期般運作。 請至少確認下列專案： <br/>  呼叫為群組呼叫收取啟用的使用者，並讓另一位使用者取回通話。 另一個使用者可以位於相同的群組中，也可以位於不同的群組中，或是未啟用群組呼叫收取。 <br/>  呼叫已啟用群組呼叫收取的使用者，且不接聽通話。 <br/> |-  <br/> ||
    
 

@@ -1,8 +1,8 @@
 ---
 title: 新增 Director 電腦
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 ROBOTS: NOINDEX, NOFOLLOW
-description: 指定您想要新增為此 pool 中之主管的每個電腦的完整功能變數名稱（FQDN）。 將電腦新增至清單後，即可更新電腦的 FQDN，或在發行拓撲前，隨時將它從集區中移除。 發佈拓撲之後，變更 FQDN 需要先刪除拓撲建立器中的伺服器，然後使用新的 FQDN 將新的伺服器新增到該池。
-ms.openlocfilehash: 0024035bd7dbed8a005c2a0f3562d2210c14c9e5
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 指定您要在此集區中，新增為 Director 之每台電腦的完整網域名稱 (FQDN)。將電腦新增至清單後，您即可更新電腦的 FQDN 或在發行拓撲前，隨時將其從集區中移除。發行拓撲後，若要變更 FQDN，就必須在拓撲產生器中刪除伺服器，然後再用新的 FQDN 將新伺服器新增至集區。
+ms.openlocfilehash: 6b9f5e82c83d554257c059b8a8feed7363d9d0e8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796592"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811863"
 ---
 # <a name="add-director-machine"></a>新增 Director 電腦
  
-指定您想要新增為此 pool 中之主管的每個電腦的完整功能變數名稱（FQDN）。 將電腦新增至清單後，即可更新電腦的 FQDN，或在發行拓撲前，隨時將它從集區中移除。 發佈拓撲之後，變更 FQDN 需要先刪除拓撲建立器中的伺服器，然後使用新的 FQDN 將新的伺服器新增到該池。 
+指定您要在此集區中，新增為 Director 之每台電腦的完整網域名稱 (FQDN)。將電腦新增至清單後，您即可更新電腦的 FQDN 或在發行拓撲前，隨時將其從集區中移除。發行拓撲後，若要變更 FQDN，就必須在拓撲產生器中刪除伺服器，然後再用新的 FQDN 將新伺服器新增至集區。 
   
 

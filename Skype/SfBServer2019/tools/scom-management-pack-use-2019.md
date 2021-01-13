@@ -1,8 +1,8 @@
 ---
 title: 使用 SCOM 管理元件管理商務用 Skype Server 2019
 ms.reviewer: ''
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何設定商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: 54c9f3dadb73df45ddc21cfc40ff83711032a4c2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 21493a0d49281405b4d9d25d732f9c80c6c9dff4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150540"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812773"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2019
  
@@ -86,7 +86,7 @@ ms.locfileid: "42150540"
 
 下列是商務用 Skype Server 2019 管理套件的新功能。
 
-- **在[9 月2019更新](https://www.microsoft.com/download/details.aspx?id=57511)中所做的變更**有些警示已移除特殊字元。 在某些情況下，特殊字元會干擾 SCOM 命令通道通知功能。
+- **在 [9 月2019更新](https://www.microsoft.com/download/details.aspx?id=57511)中所做的變更** 有些警示已移除特殊字元。 在某些情況下，特殊字元會干擾 SCOM 命令通道通知功能。
 
 - **用戶端 Sign-In 的自動探索** 登入商務用 Skype Server 2019 的用戶端應用程式通常會自動探索要登入的伺服器。 綜合交易現在支援已正確設定自動探索的驗證。
     
@@ -126,9 +126,9 @@ ms.locfileid: "42150540"
 
 ||||
 |:-----|:-----|:-----|
-|1  <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
-|2  <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
-|個  <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|1   <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|2   <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|3   <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |4   <br/> |目前狀態  <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |5   <br/> |整合聯絡資料儲存  <br/> |可用的 Lync Server 2013 及以上  <br/> |
    
@@ -151,7 +151,7 @@ ms.locfileid: "42150540"
 |10   <br/> |資料會議  <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |11   <br/> |立即訊息會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
 |12   <br/> | 常設聊天室 <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|13  <br/> |在排程的會議上加入啟動器 ()   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
+|13   <br/> |在排程的會議上加入啟動器 ()   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |14   <br/> |電話撥入式會議  <br/> |可用於商務用 Skype Server 2015 及以上 <br/> |
 |15   <br/> |應用程式共用會議  <br/> |可用於商務用 Skype Server 2015 及以上 <br/> |
 |16   <br/> |UCWA 會議 (web 會議加入)   <br/> |可用於商務用 Skype Server 2015 及以上 <br/> |
@@ -201,7 +201,7 @@ ms.locfileid: "42150540"
   
 建立新的管理套件以儲存每個密封管理套件的自訂，讓從測試環境將自訂匯出至實際執行環境變得更容易。 這也會使刪除管理元件變得更容易，因為您必須先刪除任何相依性，才能刪除管理元件。 若所有管理套件的自訂專案儲存在預設管理元件中，且您需要刪除單一管理元件，您必須先刪除預設管理套件，也就是刪除其他管理元件的自訂專案。 
   
-## <a name="links"></a>Links
+## <a name="links"></a>連結
 
 下列連結可讓您連線至與 System Center 2012 Monitoring Pack 相關聯的常見工作資訊：
   

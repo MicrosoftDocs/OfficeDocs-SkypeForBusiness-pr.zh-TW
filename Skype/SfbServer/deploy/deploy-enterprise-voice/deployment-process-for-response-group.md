@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype 中的回應群組部署程式
+title: 商務用 Skype 中回應群組的部署程式
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,37 +15,37 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
-description: 商務用 Skype Server Enterprise Voice 中的 [部署程式] 和 [回應] 群組步驟。
-ms.openlocfilehash: 810bf635794f58ad8f28295549023a3ef2450f69
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 商務用 Skype Server Enterprise Voice 中的部署程式與回應群組的步驟。
+ms.openlocfilehash: cec795b5215caa81b281379cd4c433563ccebf83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767526"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812323"
 ---
-# <a name="deployment-process-for-response-group-in-skype-for-business"></a>商務用 Skype 中的回應群組部署程式
+# <a name="deployment-process-for-response-group-in-skype-for-business"></a>商務用 Skype 中回應群組的部署程式
 
-商務用 Skype Server Enterprise Voice 中的 [部署程式] 和 [回應] 群組步驟。
+商務用 Skype Server Enterprise Voice 中的部署程式與回應群組的步驟。
 
-[回應] 群組是一個企業語音功能，可將來電路由並列隊給一組人員（例如服務台或客戶服務台）。
+回應群組是一種企業語音功能，可將來電路由及列隊給一組人（稱為「服務台」，例如「服務台」或「客戶服務台」）。
 
-當您部署企業語音時，會在前端伺服器或標準版伺服器上自動安裝及啟用回應群組所需的元件。 若要讓使用者使用 [回應群組]，您必須先設定 [代理群組]、[佇列]，然後再設定 [工作流程]。 此外，回應群組管理員可以將現有工作流程的設定委派給回應群組管理員，然後可以修改及重新設定工作流程及其關聯的代理群組和佇列。
+「回應群組」所需的元件，會在您部署企業語音時自動安裝於前端伺服器或 Standard Edition Server 上並啟用。 若要讓使用者能夠使用「回應群組」，您必須依序設定專員群組、佇列和工作流程。 此外，回應群組管理員可以將現有工作流程的設定委派給回應群組管理員，然後該管理員可以修改及重新設定工作流程及其相關聯的代理人群組和佇列。
 
-若要設定回應群組，您必須是下列至少一個管理角色的成員：
+若要設定回應群組，您至少必須是下列其中一個系統管理角色的成員：
 
-|**Active Directory 安全性群組（1）** <br/> |建立工作流程  <br/> |指派管理員  <br/> |建立/assign 代理程式、佇列  <br/> |建立/管理假日與上班時間  <br/> |啟動/停用工作流程  <br/> |設定工作流程（IVR 或查尋群組）  <br/> |
+|**Active Directory 安全性群組 (1)** <br/> |建立工作流程  <br/> |指派管理員  <br/> |建立/指派代理人和佇列  <br/> |建立/管理假日和營業時間  <br/> |啟用/停用工作流程  <br/> |設定工作流程 (IVR 或群組搜尋)  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**CsResponseGroupAdministrator** <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |
-|**CsResponseGroupManager** <br/> ||√（2）  <br/> |√（3）  <br/> |√（3）  <br/> |√（3）  <br/> |√（3）  <br/> |
+|**CsResponseGroupManager** <br/> ||√ (2)   <br/> |√ (3)   <br/> |√ (3)   <br/> |√ (3)   <br/> |√ (3)   <br/> |
 |**CsVoiceAdministrator** <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |
 |**CsServerAdministrator** <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |
 |**CsAdministrator** <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |
-|**CsViewOnlyAdministrator** <br/> |√（4）  <br/> |√（4）  <br/> |√（4）  <br/> |√（4）  <br/> |√（4）  <br/> |√（4）  <br/> |
+|**CsViewOnlyAdministrator** <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |
 
 > [!NOTE]
-> **（1）** Active Directory 網域服務使用者物件必須是所列指定 Active directory 安全性群組的成員。 具有適當許可權的系統管理員或其他受委派 Active Directory 群組成員（例如，管理員、帳戶操作員）必須將使用者物件新增至所列的安全群組或群組，使用者才能執行所列的函數。 **（2）** 僅適用于 CsResponseGroupAdministrator 已指派給 CsResponseGroupManager 的工作流程。 **（3）** 回應群組管理員可以將 CsResponseGroupManager 的另一個成員指派給目前管理員已管理的工作流程。 **（4）** CsViewOnlyAdministrator 只能執行動詞 "取得" Cmdlet。
+> **(1)** Active Directory 網域服務使用者物件必須是所列指定之 Active Directory 安全性群組的成員。 具有適當許可權的系統管理員或其他委派的 Active Directory 群組成員，可將使用者新增至安全性群組中 (例如，系統管理員、帳戶操作員) 必須將使用者物件新增至所列的安全性群組或群組，使用者才能執行所列的功能。 **(2)** 僅適用于 CsResponseGroupAdministrator 已指定給 CsResponseGroupManager 的工作流程。 **(3)** 回應群組管理員可以將 CsResponseGroupManager 的另一個成員指派給目前管理員已管理的工作流程。 **(4)** CsViewOnlyAdministrator 只能執行動詞 "Get" Cmdlet。
 
-## <a name="response-group-configuration-prerequisites"></a>回應群組設定的先決條件
+## <a name="response-group-configuration-prerequisites"></a>回應群組設定先決條件
 
 回應群組需要下列元件：
 
@@ -55,45 +55,45 @@ ms.locfileid: "41767526"
 
 - 語言套件
 
-- 檔案存放區（儲存音訊檔案）
+- 檔案存放區 (用於保留音訊檔案)
 
-- Web 服務（包括回應群組設定工具以及代理程式的登入和登出主機）
+- Web 服務 (包含回應群組設定工具和代理程式的登入和登出主控台) 
 
-當您部署企業語音時，系統會預設安裝這些元件。
+當您部署企業語音時，預設會安裝上述所有元件。
 
-在設定回應群組之前，您可能需要執行下列工作：
+在設定回應群組之前，您可能需要先執行下列工作：
 
-- 允許使用者使用 Lync Server 2013 和企業版語音。
+- 為使用者啟用 Lync Server 2013 和 Enterprise Voice。
 
-- 修改要與聯邦資訊處理標準（FIPS）相容的設定檔。
+- 修改組態檔，以符合美國聯邦資訊處理標準 (FIPS)。
 
-- 修改資料庫排序規則，以支援佇列名稱和代理群組名稱的 Yi、Meng 及 Zang 字元。
+- 修改資料庫定序，以支援佇列名稱和代理人群組名稱中的 Yi、Meng 和 Zang 字元。
 
 ### <a name="enabling-users"></a>啟用使用者
 
-配置回應群組的第一個步驟是建立代理群組。 在您可以建立代理群組之前，您必須先啟用將擁有商務用 Skype 和企業語音之回應群組的使用者。 啟用商務用 Skype 的使用者通常是企業版 server 或標準版伺服器部署中的一個步驟。 如需有關針對商務用 Skype 啟用使用者的詳細資訊，請參閱[啟用或停用 Lync Server 2013 Preview 的使用者](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)。 啟用企業語音的使用者通常是企業語音部署中的一個步驟。 如需詳細資訊，請參閱[在商務用 Skype 伺服器中啟用企業語音的使用者](enable-users-for-enterprise-voice.md)。
+設定回應群組的第一個步驟是建立代理人群組。 您必須先為商務用 Skype 和 Enterprise Voice 的回應群組，啟用將成為代理人之代理人的使用者，您才能建立代理人群組。 為商務用 Skype 啟用使用者通常是 Enterprise Edition server 或 Standard Edition server 部署的步驟。 如需為商務用 Skype 啟用使用者的詳細資訊，請參閱 [啟用或停用使用者的 Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)。 啟用使用者的企業語音一般是企業語音部署中的步驟。 如需詳細資訊，請參閱 [Enable 使用者 For Enterprise Voice In 商務用 Skype Server](enable-users-for-enterprise-voice.md)。
 
-### <a name="complying-with-fips-requirements"></a>遵守 FIPS 需求
+### <a name="complying-with-fips-requirements"></a>遵守 FIPS 要求
 
-本節僅適用于您的組織必須遵循聯邦資訊處理標準（FIPS）的情況。
+只有在您的組織需要遵守美國聯邦資訊處理標準 (FIPS) 時，才適用本節內容。
 
-若要符合 FIPS，您必須在安裝 Web 服務之後，修改應用程式層級的 web.config 檔案，以使用不同的密碼演算法。 您必須指定 ASP.NET 使用 [三重資料加密標準（3DES）] 演算法來處理檢視狀態資料。 針對回應群組應用程式，此需求會套用至回應群組設定工具以及代理程式登入和登出主機。 如需此需求的詳細資料，請參閱 Microsoft 知識庫文章911722：當您在從 ASP.NET 1.1 升級至 ASP.NET 2.0 之後，當您存取已啟用 ViewState 的 ASP.NET 網頁時，您可能會[https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183)收到錯誤訊息。
+若要遵守 FIPS，您需要修改應用程式層級的 Web.config 檔案，以在安裝 Web 服務後使用不同的密碼編譯演算法。 您需要指定 ASP.NET 使用三重資料加密標準 (3DES) 演算法來處理檢視狀態資料。 針對回應群組應用程式，此需求適用于回應群組設定工具和代理程式登入和登出主控台。 如需此需求的詳細資訊，請參閱 Microsoft 知識庫文章911722：「當您存取從 ASP.NET 1.1 升級為 ASP.NET 2.0 的 ASP.NET 網頁 ViewState 時，可能會收到錯誤訊息，"at] [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183) 。
 
-若要修改 web.config 檔案，請執行下列動作：
+若要修改 Web.config 檔案，請執行下列動作：
 
-1. 在記事本等文字編輯器中，開啟應用程式層級的 web.config 檔案。
+1. 在文字編輯器 (如 [記事本]) 中，開啟應用程式層級的 Web.config 檔案。
 
-2. 在 web.config 檔案中，找到該`<system.web>`節。
+2. 在 Web.config 檔案中，找出  `<system.web>` 區段。
 
-3. 在`<system.web>`區段中`<machineKey>`新增下列區段：
+3. `<machineKey>`在區段中新增下列區段 `<system.web>` ：
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
-4. 儲存 web.config 檔案。
+4. 儲存 Web.config 檔案。
 
-5. 在命令提示字元執行下列命令，以重新開機網際網路資訊服務（IIS）服務：
+5. 在命令提示字元中執行下列命令，以重新開機網際網路資訊服務 (IIS) 服務：
 
    ```console
    iisreset
@@ -101,56 +101,56 @@ ms.locfileid: "41767526"
 
 ### <a name="supporting-yi-meng-and-zang-characters"></a>支援 Yi、Meng 和 Zang 字元
 
-本節僅適用于您的組織必須支援 Yi、Meng 或 Zang 字元的情況。
+只有在您的組織需要支援 Yi、Meng 或 Zang 字元時，才適用本節內容。
 
 > [!NOTE]
-> 如需彝語、Meng 和 Zang 字元的用途，以及它們對於您的部署而言可能很重要的原因，請參閱 GB18030 字元集合[https://go.microsoft.com/fwlink/p/?linkId=240223](https://go.microsoft.com/fwlink/p/?linkId=240223)上的資訊。
+> 如需有關彝語、Meng 及 Zang 字元的資訊及其可能對您的部署很重要的原因，請參閱 GB18030 字元集上的資訊 [https://go.microsoft.com/fwlink/p/?linkId=240223](https://go.microsoft.com/fwlink/p/?linkId=240223) 。
 
-若要支援 Yi、Meng 或 Zang 字元，您必須修改 Rgsconfig 資料庫的排序規則。 在每個 Rgsconfig 資料庫的下清單格中，變更 [**名稱**] 資料行的排序規則：
+若要支援 Yi、Meng 或 Zang 字元，您需要修改 Rgsconfig 資料庫的定序。請變更每個 Rgsconfig 資料庫中下列各資料表內 **[名稱]** 資料行的定序：
 
-- 擁有者.AgentGroups
+- Dbo。AgentGroups
 
-- 擁有者.BusinessHours
+- Dbo。BusinessHours
 
-- 擁有者.HolidaySets
+- Dbo。HolidaySets
 
-- 擁有者.佇列
+- Dbo。佇列
 
-- 擁有者.工作流程
+- Dbo。流程
 
-針對 SQL Server 2008 R2 與 SQL Server 2012，請使用 Latin_General_100 （區分重音）排序。 如果您使用此排序規則，則所有物件名稱都不區分大小寫。
+針對 SQL Server 2008 R2 和 SQL Server 2012，使用 Latin_General_100 (區分重音) 歸類。 如果您使用此定序，則所有物件名稱都不區分大小寫。
 
-您可以使用 Microsoft SQL Server Management Studio 變更排序規則。 如需使用此工具的詳細資訊，請參閱「[使用 SQL Server Management Studio](https://go.microsoft.com/fwlink/p/?linkId=196184)」。 請依照下列步驟變更排序規則：
+您可以使用 Microsoft SQL Server Management Studio 來變更定序。 如需使用此工具的詳細資訊，請參閱「 [使用 SQL Server Management Studio](https://go.microsoft.com/fwlink/p/?linkId=196184)」。 請遵循下列步驟來變更定序：
 
-1. 確定 SQL Server Management Studio 已設定為允許重新建立需要資料表的變更。 如需詳細資訊，請參閱「[儲存（不允許）對話方塊](https://go.microsoft.com/fwlink/p/?linkId=196186)」。 如需設定欄排序規則的詳細資料，請參閱「[如何：設定欄排序規則（視覺化資料庫工具）](https://go.microsoft.com/fwlink/p/?linkId=196185)」。
+1. 確定 SQL Server Management Studio 已設成允許需要重建資料表的變更。 如需詳細資訊，請參閱「 [不允許) 的儲存 (] 對話方塊](https://go.microsoft.com/fwlink/p/?linkId=196186)。 如需設定欄歸類的詳細資訊，請參閱 how [to： Set Column 歸類 (Visual Database Tools) "](https://go.microsoft.com/fwlink/p/?linkId=196185)。
 
-2. 使用 Microsoft SQL Server Management Studio 連接到 Rgsconfig 資料庫。
+2. 使用 Microsoft SQL Server Management Studio 連線至 Rgsconfig 資料庫。
 
-3. 在 Rgsconfig 資料庫中尋找您要變更的資料表，以滑鼠右鍵按一下資料表，然後按一下 [**設計**]。
+3. 在 Rgsconfig 資料庫中找到想要變更的資料表，並用滑鼠右鍵按一下資料表，然後按一下 **[設計]**。
 
-4. 變更 [**名稱**] 資料行的排序規則，並儲存資料表。
+4. 變更 **[名稱]** 資料行的定序，然後儲存資料表。
 
-## <a name="response-group-deployment-steps"></a>回應群組部署步驟
+## <a name="response-group-deployment-steps"></a>回應群組的部署步驟
 
 **回應群組部署程式**
 
-|**分**|**步驟**|**許可權**|**部署檔**|
+|**階段**|**步驟**|**權限**|**部署文件**|
 |:-----|:-----|:-----|:-----|
-|允許使用者使用商務用 Skype 和企業語音  <br/> |啟用將是商務用 Skype 和企業語音的使用者。 您必須先啟用使用者，才能將其新增至代理群組。 通常，在企業版或標準版伺服器部署期間，會啟用商務用 Skype 的使用者。 在企業語音部署期間，系統會為使用者啟用企業語音。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[啟用或停用 Lync Server 2013 Preview 的使用者](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [在商務用 Skype Server 中啟用企業語音的使用者](enable-users-for-enterprise-voice.md) <br/> |
-|建立及設定回應群組，包括代理群組、佇列和工作流程  <br/> |1. 使用商務用 Skype Server 的 [控制台] 或 [商務用 Skype 伺服器管理命令介面] 執行下列動作：  <br/> 是. 建立及設定代理群組。  <br/> 乙. 建立及設定佇列。  <br/> 2. 您也可以使用商務用 Skype Server Management Shell 來建立預先定義的回應群組商務時數和假日。  <br/> 3. 使用 [回應群組設定] 工具或 [商務用 Skype 伺服器管理命令介面] 來建立工作流程（查尋群組或互動式語音回應（IVR）通話流程），包括自訂回應群組的商務時間和假日。  <br/> 您可以透過商務用 Skype Server 的 [控制台] 存取回應群組設定工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[建立回應群組代理群組](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [建立回應群組佇列](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [可選在商務用 Skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md) <br/> [可選在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md) <br/> [在商務用 Skype 中設計及建立回應群組工作流程](designing-and-creating-response-group-workflows.md) <br/> |
-|可選自訂應用程式層級設定  <br/> |使用商務用 Skype Server Management 命令介面來自訂預設的音樂保留式設定、預設的音樂保留音訊檔案、代理 ringback 寬限期，以及通話內容設定。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理商務用 Skype 中的應用層級回應群組設定](managing-application-level-response-group-settings.md) <br/> |
-|可選委派對回應群組的管理  <br/> |指派使用者的 CsResponseGroupManager 角色來委派回應群組的設定。 回應群組管理員可以設定指派給他們的回應群組。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[規劃以角色為基礎的存取控制](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
-|驗證您的回應群組部署  <br/> |測試對您的查尋群組和互動式語音回應工作流程的通話回應，以確保您的設定如預期的那樣正常運作。  <br/> |-  <br/> |-  <br/> |
+|為使用者啟用商務用 Skype 和 Enterprise Voice  <br/> |啟用將為商務用 Skype 和 Enterprise Voice 之代理人的使用者。 您必須先啟用使用者，才能將其新增至代理人群組。 一般來說，在 Enterprise Edition 或 Standard Edition server 部署期間，使用者啟用商務用 Skype。 在企業語音部署期間，使用者已啟用 Enterprise Voice。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[啟用或停用使用者的 Lync Server 2013 預覽](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [在商務用 Skype Server 中啟用使用者的 Enterprise Voice](enable-users-for-enterprise-voice.md) <br/> |
+|建立和設定回應群組，包括代理群組、佇列和工作流程  <br/> |1. 使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面執行下列作業：  <br/> a. 建立和設定代理人群組。  <br/> b. 建立和設定佇列。  <br/> 2. 選用商務用 Skype Server 管理命令介面來建立預先定義的回應群組上班時間與假日。  <br/> 3. 使用回應群組設定工具或商務用 Skype Server 管理命令介面來建立工作流程 (群組搜尋或互動語音回應 (IVR) 通話流程) （包括自訂回應群組上班時間與假日）。  <br/> 您可以透過商務用 Skype Server 控制台，存取回應群組設定工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[建立回應群組代理群組](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [建立回應群組佇列](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [ (選用) 在商務用 Skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md) <br/> [ (選用) 在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md) <br/> [在商務用 Skype 中設計及建立回應群組工作流程](designing-and-creating-response-group-workflows.md) <br/> |
+| (選用) 自訂應用層級設定  <br/> |使用商務用 Skype Server 管理命令介面，來自訂預設的等候音樂設定、預設的等候音樂音訊檔、代理程式回電寬限期，以及呼叫內容設定。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[在商務用 Skype 中管理應用層級回應群組設定](managing-application-level-response-group-settings.md) <br/> |
+| (選用) 委派管理回應群組  <br/> |將 CsResponseGroupManager 角色指派給使用者，以委派回應群組的設定。 然後，回應群組管理員可以設定指派給他們的回應群組。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[規劃角色型存取控制](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
+|驗證您的回應群組部署  <br/> |測試接聽群組搜尋和互動語音回應工作流程的來電，以確保您的設定如預期般運作。  <br/> |-  <br/> |-  <br/> |
 
-## <a name="overview-of-workflow-creation-scenarios"></a>建立工作流程的案例概觀
+## <a name="overview-of-workflow-creation-scenarios"></a>工作流程建立案例概述
 
-當您建立工作流程時，有兩種可能的案例：
+當您建立工作流程時，有兩種可能的情況：
 
-- **系統管理員會建立並設定工作流程**— CsResponseGroupAdministrator 角色成員（或對等）會建立並啟用工作流程及工作流程中的所有元素，例如 [代理群組]、[佇列]、[假日與上班時間]、[等候音樂] 等等。
+- **系統管理員建立及設定工作流程** - CsResponseGroupAdministrator 角色成員 (或同等權限) 建立及啟動工作流程和工作流程中的所有元素，例如代理群組、佇列、假日和上班時間、等候音樂等。
 
-- **系統管理員會建立工作流程，且**管理員會設定選項，例如，CsResponseGroupAdministrator 角色成員（或對等）會定義主要 SIP URI、顯示名稱、指派 CsResponseGroupManager 角色的成員或成員，並選取佇列並啟用工作流程。 CsResponseGroupManager 可接著建立代理群組，並將該群組指派給該佇列，然後將該群組指派給該隊，然後設定電話號碼、假日與上班時間、暫停音樂等。
+- **系統管理員建立工作流程，而一般管理員設定選項** - CsResponseGroupAdministrator 角色成員 (或同等權限) 定義主要 SIP URI、顯示名稱，指派一或多個 CsResponseGroupManager 角色成員，以及選取佇列並啟動工作流程。然後，CsResponseGroupManager 會登入並編輯工作流程設定，包括建立代理群組、將群組指派給佇列，以及設定電話號碼、假日和上班時間、等候音樂等。
 
     > [!NOTE]
-    > 當您想要建立受管理的工作流程時，您必須建立作用中的工作流程。 儲存使用中的受管理工作流程之後，您就可以修改及停用工作流程。
+    > 當您想建立受管理的工作流程時，您必須建立並啟動工作流程。儲存作用中的受管理工作流程之後，即可修改及停用工作流程。
 
 

@@ -1,8 +1,8 @@
 ---
 title: 新增前端關聯
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以立即將伺服器角色與前端集區相關聯，對需要先部署其他伺服器的特定功能啟用支援。您也可以稍後再將伺服器角色與前端集區關聯。以下是可以和前端集區關聯的伺服器角色：
-ms.openlocfilehash: d305cc6b251646e52c2351188572b05f6f6d28c8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 現在，您可以將伺服器角色與前端集區產生關聯，對需要部署其他伺服器的特定功能啟用支援。 您也可以稍後將伺服器角色與前端集區產生關聯。 可與前端集區相關聯的伺服器角色包括下列各項：
+ms.openlocfilehash: ef3cec601355f433ad760be4edcc0ea573b53010
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794892"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811733"
 ---
 # <a name="add-front-end-associations"></a>新增前端關聯
 
-您可以立即將伺服器角色與前端集區相關聯，對需要先部署其他伺服器的特定功能啟用支援。您也可以稍後再將伺服器角色與前端集區關聯。以下是可以和前端集區關聯的伺服器角色：
+現在，您可以將伺服器角色與前端集區產生關聯，對需要部署其他伺服器的特定功能啟用支援。 您也可以稍後將伺服器角色與前端集區產生關聯。 可與前端集區相關聯的伺服器角色包括下列各項：
 
-- A/V Edge Server。如需實作 A/V Edge Server 的詳細資訊，請參閱規劃文件中的〈[Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)〉。
+- A/V Edge Server。 如需有關執行 A/V Edge Server 的詳細資訊，請參閱規劃檔中的 [規劃會議](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) 。
 
 > [!IMPORTANT]
-> 如果您現在對上述任一功能啟用支援，所發行的拓撲設計將包含實作每一項選取功能所需的伺服器元件。若要成功發行拓撲，您必須將實體電腦加入到網域中。例如，如果您現在啟用封存支援，則您必須接著部署封存伺服器並設定適當的封存選項，才能開始為組織封存通訊。
+> 如果您現在啟用上述任一功能的支援，您發佈的拓撲設計將會包含實施每個選取功能所需的伺服器元件。 若要將拓撲發行成功，但沒有錯誤，您必須將實體電腦加入網域。 例如，如果您現在啟用封存支援，則必須先部署封存伺服器並設定適當的封存選項，才能開始封存組織的通訊。
 
 

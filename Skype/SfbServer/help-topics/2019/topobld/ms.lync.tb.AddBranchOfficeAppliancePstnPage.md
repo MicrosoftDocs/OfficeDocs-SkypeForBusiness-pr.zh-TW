@@ -1,8 +1,8 @@
 ---
 title: 新增 Survivable Branch Appliance PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要為分支網站上的 Survivable 分支裝置定義公用交換電話網絡（PSTN）閘道，請指定以下專案：
-ms.openlocfilehash: da6a87bf3a4e68f88ef47c7ea4dd31ac544350eb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要在分支網站定義 Survivable Branch Appliance 的公用交換電話網路 (PSTN) 閘道，請指定下列各項：
+ms.openlocfilehash: 30b5922e3d18b4dfe57bef23ddb0f00a25df7f9f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796654"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811943"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>新增 Survivable Branch Appliance PSTN
  
-若要為分支網站上的 Survivable 分支裝置定義公用交換電話網絡（PSTN）閘道，請指定以下專案： 
+若要在分支網站定義 Survivable Branch Appliance 的公用交換電話網路 (PSTN) 閘道，請指定下列各項： 
   
-- 閘道對等的完整功能變數名稱（FQDN）或 IP 位址，Survivable 分支裝置或 Survivable 分支伺服器會與路由輸入和輸出 PSTN 通話相關聯。
+- Survivable Branch Appliance 或 Survivable Branch 伺服器關聯之對等閘道的完整網域名稱 (FQDN) 或 IP 位址，以用於傳送撥入和撥出 PSTN 通話。
     
     > [!IMPORTANT]
-    > 如果您是定義 Survivable 分支裝置，則這是 Survivable 分支裝置中的中繼伺服器將連接至 PSTN 連接的閘道。 
+    > 如果您是在定義 Survivable Branch Appliance，此為 Survivable Branch Appliance 內之中繼伺服器將會連線以進行 PSTN 連線功能的閘道。 
   
 - 要用於工作階段初始通訊協定 (SIP) 訊息的聆聽連接埠。根據預設，在閘道、專用交換機 (PBX) 或工作階段界限控制器 (SBC) 上，連接埠為 5066 (針對傳輸控制通訊協定 (TCP)) 及 5067 (針對傳輸層安全性 (TLS))。在分支網站的 Survivable Branch Appliance，預設連接埠為 5081 (針對 TCP) 及 5082 (針對 TLS)。
     
-- 基於安全考量，強烈建議您使用 TLS。 如果您是定義 Survivable 分支裝置，請參閱 Survivable 分支裝置轉銷商檔，確認您的 Survivable 分支裝置支援 TLS 通訊協定。
+- 基於安全性考量，我們強烈建議您使用 TLS。如果您是在定義 Survivable Branch Appliance，請參閱您的 Survivable Branch Appliance 廠商文件，確認您的 Survivable Branch Appliance 支援 TLS 通訊協定。
     
     > [!IMPORTANT]
     > 基於安全性考量，強烈建議您部署可以使用 TLS 的閘道。 
