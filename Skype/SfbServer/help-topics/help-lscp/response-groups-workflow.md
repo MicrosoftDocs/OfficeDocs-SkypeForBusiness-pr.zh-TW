@@ -1,8 +1,8 @@
 ---
 title: 回應群組工作流程
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,52 +14,52 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
-description: 回應群組由代理群組、佇列和工作流程所組成。 回應群組工作流程定義回應群組應用程式接收電話撥入時所採取的動作。
-ms.openlocfilehash: c190398d49770037358e9cde879f0e1649330703
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 回應群組中包含代理群組、佇列及工作流程。 回應群組工作流程定義回應群組應用程式接聽電話時所採取的動作。
+ms.openlocfilehash: 7f35fc32670e6374be69430a72c506a0bf9fae5e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822356"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829283"
 ---
-# <a name="response-groups-workflow"></a><span data-ttu-id="bf2af-104">回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="bf2af-104">Response Groups Workflow</span></span>
+# <a name="response-groups-workflow"></a><span data-ttu-id="e8829-104">回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="e8829-104">Response Groups Workflow</span></span>
 
-<span data-ttu-id="bf2af-105">回應群組由代理群組、佇列和工作流程所組成。</span><span class="sxs-lookup"><span data-stu-id="bf2af-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="bf2af-106">回應群組工作流程定義回應群組應用程式接收電話撥入時所採取的動作。</span><span class="sxs-lookup"><span data-stu-id="bf2af-106">Response Group workflows define the actions that are taken when the Response Group application receives a phone call.</span></span>
+<span data-ttu-id="e8829-105">回應群組中包含代理群組、佇列及工作流程。</span><span class="sxs-lookup"><span data-stu-id="e8829-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="e8829-106">回應群組工作流程定義回應群組應用程式接聽電話時所採取的動作。</span><span class="sxs-lookup"><span data-stu-id="e8829-106">Response Group workflows define the actions that are taken when the Response Group application receives a phone call.</span></span>
 
-<span data-ttu-id="bf2af-107">[**回應群組** - **工作流程**] 頁面會顯示針對您的組織定義的所有回應群組工作流程清單。</span><span class="sxs-lookup"><span data-stu-id="bf2af-107">The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.</span></span>
+<span data-ttu-id="e8829-107">[**回應群組**  -  **工作流程**] 頁面會顯示為組織定義的所有回應群組工作流程清單。</span><span class="sxs-lookup"><span data-stu-id="e8829-107">The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="bf2af-108">您可以執行的工作</span><span class="sxs-lookup"><span data-stu-id="bf2af-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="e8829-108">您可以執行的工作</span><span class="sxs-lookup"><span data-stu-id="e8829-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="bf2af-109">您可以從 [**回應群組** - **工作流程**] 頁面執行下列任務：</span><span class="sxs-lookup"><span data-stu-id="bf2af-109">You can perform the following tasks from the **Response Groups** - **Workflow** page:</span></span>
+<span data-ttu-id="e8829-109">您可以從「**回應群組**  -  **工作流程**」頁面執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="e8829-109">You can perform the following tasks from the **Response Groups** - **Workflow** page:</span></span>
 
-- <span data-ttu-id="bf2af-110">建立或變更查尋群組工作流程</span><span class="sxs-lookup"><span data-stu-id="bf2af-110">Create or change a hunt group workflow</span></span>
+- <span data-ttu-id="e8829-110">建立或變更群組搜尋工作流程</span><span class="sxs-lookup"><span data-stu-id="e8829-110">Create or change a hunt group workflow</span></span>
 
-- <span data-ttu-id="bf2af-111">建立或變更互動式工作流程</span><span class="sxs-lookup"><span data-stu-id="bf2af-111">Create or change an interactive workflow</span></span>
+- <span data-ttu-id="e8829-111">建立或變更互動式工作流程</span><span class="sxs-lookup"><span data-stu-id="e8829-111">Create or change an interactive workflow</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="bf2af-112">UI 參考</span><span class="sxs-lookup"><span data-stu-id="bf2af-112">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="e8829-112">UI 參考</span><span class="sxs-lookup"><span data-stu-id="e8829-112">UI Reference</span></span>
 
-<span data-ttu-id="bf2af-113">下列清單說明頁面上的命令。</span><span class="sxs-lookup"><span data-stu-id="bf2af-113">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="e8829-113">下列清單說明頁面上的命令。</span><span class="sxs-lookup"><span data-stu-id="e8829-113">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="bf2af-114">**建立或編輯工作流程**開啟用來建立或編輯工作流程的 [回應群組設定] 工具。</span><span class="sxs-lookup"><span data-stu-id="bf2af-114">**Create or edit a workflow** Opens the Response Group Configuration Tool for creating or editing a workflow.</span></span>
+- <span data-ttu-id="e8829-114">**建立或編輯工作流程** 開啟 [回應群組] 設定工具，以建立或編輯工作流程。</span><span class="sxs-lookup"><span data-stu-id="e8829-114">**Create or edit a workflow** Opens the Response Group Configuration Tool for creating or editing a workflow.</span></span>
 
-- <span data-ttu-id="bf2af-115">**更新**刷新工作流程清單。</span><span class="sxs-lookup"><span data-stu-id="bf2af-115">**Refresh** Refreshes the list of workflows.</span></span>
+- <span data-ttu-id="e8829-115">**Refresh** 重新整理工作流程清單。</span><span class="sxs-lookup"><span data-stu-id="e8829-115">**Refresh** Refreshes the list of workflows.</span></span>
 
-<span data-ttu-id="bf2af-116">下列清單說明頁面上的欄位。</span><span class="sxs-lookup"><span data-stu-id="bf2af-116">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="e8829-116">下列清單說明頁面上的欄位。</span><span class="sxs-lookup"><span data-stu-id="e8829-116">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="bf2af-117">**名稱**指派給工作流程的唯一名稱。</span><span class="sxs-lookup"><span data-stu-id="bf2af-117">**Name** The unique name that is assigned to the workflow.</span></span>
+- <span data-ttu-id="e8829-117">**名稱** 指派給工作流程的唯一名稱。</span><span class="sxs-lookup"><span data-stu-id="e8829-117">**Name** The unique name that is assigned to the workflow.</span></span>
 
-- <span data-ttu-id="bf2af-118">**服務**主持工作流程的**ApplicationServer**服務。</span><span class="sxs-lookup"><span data-stu-id="bf2af-118">**Service** The **ApplicationServer** service that hosts the workflow.</span></span>
+- <span data-ttu-id="e8829-118">**服務** 主控工作流程的 **ApplicationServer** 服務。</span><span class="sxs-lookup"><span data-stu-id="e8829-118">**Service** The **ApplicationServer** service that hosts the workflow.</span></span>
 
-- <span data-ttu-id="bf2af-119">**SIP 位址**將接聽工作流程通話的群組 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="bf2af-119">**SIP address** The SIP address of the group that will answer calls to the workflow.</span></span>
+- <span data-ttu-id="e8829-119">**SIP 位址** 將接聽工作流程通話之群組的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="e8829-119">**SIP address** The SIP address of the group that will answer calls to the workflow.</span></span>
 
-- <span data-ttu-id="bf2af-120">**電話**呼叫以達到此回應群組的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="bf2af-120">**Telephone** The phone number that is called to reach this response group.</span></span>
+- <span data-ttu-id="e8829-120">**電話** 呼叫以送達此回應群組的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="e8829-120">**Telephone** The phone number that is called to reach this response group.</span></span>
 
-- <span data-ttu-id="bf2af-121">**語言**語音辨識和文字轉換語音所用的語言。</span><span class="sxs-lookup"><span data-stu-id="bf2af-121">**Language** The language that is used for speech recognition and text-to-speech.</span></span>
+- <span data-ttu-id="e8829-121">**語言** 用於語音辨識及文字轉換語音的語言。</span><span class="sxs-lookup"><span data-stu-id="e8829-121">**Language** The language that is used for speech recognition and text-to-speech.</span></span>
 
-- <span data-ttu-id="bf2af-122">**IVR**指出工作流程是查尋群組或互動式工作流程。</span><span class="sxs-lookup"><span data-stu-id="bf2af-122">**IVR** Indicates whether the workflow is a hunt group or an interactive workflow.</span></span>
+- <span data-ttu-id="e8829-122">**IVR** 會指出工作流程是否為群組搜尋或互動式工作流程。</span><span class="sxs-lookup"><span data-stu-id="e8829-122">**IVR** Indicates whether the workflow is a hunt group or an interactive workflow.</span></span>
 
-- <span data-ttu-id="bf2af-123">**已啟用**指出是否已啟用工作流程來接收通話。</span><span class="sxs-lookup"><span data-stu-id="bf2af-123">**Enabled** Indicates whether the workflow is activated to receive calls.</span></span>
+- <span data-ttu-id="e8829-123">**已啟用** 會指出是否要啟用工作流程以接收來電。</span><span class="sxs-lookup"><span data-stu-id="e8829-123">**Enabled** Indicates whether the workflow is activated to receive calls.</span></span>
 
-<span data-ttu-id="bf2af-124">如需回應群組功能與功能的詳細資訊，請參閱規劃檔中的[商務用 Skype Server 2015 中的回應群組應用程式規劃](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。</span><span class="sxs-lookup"><span data-stu-id="bf2af-124">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="bf2af-125">如需使用回應群組工作流程的詳細資料，請參閱在作業檔中[管理回應群組工作流程](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。</span><span class="sxs-lookup"><span data-stu-id="bf2af-125">For details about working with Response Group workflows, see [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="e8829-124">如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 2015 中規劃回應群組應用程式](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。</span><span class="sxs-lookup"><span data-stu-id="e8829-124">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="e8829-125">如需使用回應群組工作流程的詳細資訊，請參閱 Operations 檔中的 [管理回應群組工作流程](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="e8829-125">For details about working with Response Group workflows, see [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.</span></span>
 
 

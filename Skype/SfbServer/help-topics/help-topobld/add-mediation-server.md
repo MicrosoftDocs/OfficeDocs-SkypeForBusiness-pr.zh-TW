@@ -1,8 +1,8 @@
 ---
 title: 新增中繼伺服器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 description: 若要定義中繼伺服器，請指定中繼伺服器集區的完整網域名稱 (FQDN)。 如果您是要建立中繼伺服器的集區，請指定您正在部署之中繼伺服器的集區名稱。 您將會在另一個步驟中定義個別伺服器的 FQDN。 如果您是要部署單一的中繼伺服器，則您指定的 FQDN 將會是單一中繼伺服器的 FQDN。 如需詳細資訊，請參閱在商務用 Skype Server 2015 的拓撲產生器中部署轉送伺服器。
-ms.openlocfilehash: 421b63e35b1c7692ed941c9ee14a2ee14c20db18
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: b94c78f168da4375a741c57022a8f93aaae5b01d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217904"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828713"
 ---
-# <a name="add-mediation-server"></a><span data-ttu-id="805cd-107">新增中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="805cd-107">Add Mediation Server</span></span>
+# <a name="add-mediation-server"></a><span data-ttu-id="8abeb-107">新增中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="8abeb-107">Add Mediation Server</span></span>
  
-<span data-ttu-id="805cd-108">若要定義中繼伺服器，請指定中繼伺服器集區的完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="805cd-108">To define the Mediation Server, specify a fully qualified domain name (FQDN) for the Mediation Server pool.</span></span> <span data-ttu-id="805cd-109">如果您是要建立中繼伺服器的集區，請指定您正在部署之中繼伺服器的集區名稱。</span><span class="sxs-lookup"><span data-stu-id="805cd-109">If you are creating a pool of Mediation Servers, you will specify the name of the pool for the Mediation Servers you are deploying.</span></span> <span data-ttu-id="805cd-110">您將會在另一個步驟中定義個別伺服器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="805cd-110">You will define the FQDNs of the individual servers in another step.</span></span> <span data-ttu-id="805cd-111">如果您是要部署單一的中繼伺服器，則您指定的 FQDN 將會是單一中繼伺服器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="805cd-111">If you are deploying a single Mediation Server, the FQDN you specify will be the FQDN of the single Mediation Server.</span></span> <span data-ttu-id="805cd-112">如需詳細資訊，請參閱 [在商務用 Skype server 2015 的拓撲產生器中部署轉送伺服器](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。</span><span class="sxs-lookup"><span data-stu-id="805cd-112">For details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
+<span data-ttu-id="8abeb-108">若要定義中繼伺服器，請指定中繼伺服器集區的完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="8abeb-108">To define the Mediation Server, specify a fully qualified domain name (FQDN) for the Mediation Server pool.</span></span> <span data-ttu-id="8abeb-109">如果您是要建立中繼伺服器的集區，請指定您正在部署之中繼伺服器的集區名稱。</span><span class="sxs-lookup"><span data-stu-id="8abeb-109">If you are creating a pool of Mediation Servers, you will specify the name of the pool for the Mediation Servers you are deploying.</span></span> <span data-ttu-id="8abeb-110">您將會在另一個步驟中定義個別伺服器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="8abeb-110">You will define the FQDNs of the individual servers in another step.</span></span> <span data-ttu-id="8abeb-111">如果您是要部署單一的中繼伺服器，則您指定的 FQDN 將會是單一中繼伺服器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="8abeb-111">If you are deploying a single Mediation Server, the FQDN you specify will be the FQDN of the single Mediation Server.</span></span> <span data-ttu-id="8abeb-112">如需詳細資訊，請參閱 [在商務用 Skype server 2015 的拓撲產生器中部署轉送伺服器](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。</span><span class="sxs-lookup"><span data-stu-id="8abeb-112">For details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
   
 

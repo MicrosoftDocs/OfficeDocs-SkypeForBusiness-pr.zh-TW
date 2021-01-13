@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 2015 中部署適用于後端伺服器高可用性的 SQL 鏡像
+title: 為商務用 Skype Server 2015 中的後端伺服器高可用性部署 SQL 鏡像
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,135 +11,135 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-description: 若要能夠部署 SQL 鏡像，您的伺服器必須執行至少 SQL Server 2008 R2。 這個版本必須在所有涉及的伺服器上執行：主要、鏡像和見證。 如需詳細資訊，請參閱 SQL Server 2008 的累積更新套件9（Service Pack 1）。
-ms.openlocfilehash: 2be6b59d294db6a74ffe902648511658a07242ca
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要得以部署 SQL 鏡像，您的伺服器至少必須執行 SQL Server 2008 R2。 此版本必須執行於以下所有相關伺服器：主要伺服器、鏡像伺服器、見證伺服器。 如需詳細資訊，請參閱累積更新套件9（適用于 SQL Server 2008 Service Pack 1）。
+ms.openlocfilehash: 8a546f65d8ad5c701eea20fb2c9c3bf0e026ff1f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790061"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830553"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a><span data-ttu-id="4a251-105">在商務用 Skype Server 2015 中部署適用于後端伺服器高可用性的 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="4a251-105">Deploy SQL mirroring for Back End Server high availability in Skype for Business server 2015</span></span>
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a><span data-ttu-id="02f8e-105">為商務用 Skype server 2015 中的後端伺服器高可用性部署 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="02f8e-105">Deploy SQL mirroring for Back End Server high availability in Skype for Business server 2015</span></span>
 
 
-<span data-ttu-id="4a251-106">若要能夠部署 SQL 鏡像，您的伺服器必須執行至少 SQL Server 2008 R2。</span><span class="sxs-lookup"><span data-stu-id="4a251-106">To be able to deploy SQL mirroring, your servers must run a minimum of SQL Server 2008 R2.</span></span> <span data-ttu-id="4a251-107">這個版本必須在所有涉及的伺服器上執行：主要、鏡像和見證。</span><span class="sxs-lookup"><span data-stu-id="4a251-107">This version must run on all the involved servers: the primary, mirror, and the witness.</span></span> <span data-ttu-id="4a251-108">如需詳細資訊，請參閱[SQL Server 2008 的累積更新套件9（Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)）。</span><span class="sxs-lookup"><span data-stu-id="4a251-108">For details, see [Cumulative update package 9 for SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).</span></span>
+<span data-ttu-id="02f8e-106">若要得以部署 SQL 鏡像，您的伺服器至少必須執行 SQL Server 2008 R2。</span><span class="sxs-lookup"><span data-stu-id="02f8e-106">To be able to deploy SQL mirroring, your servers must run a minimum of SQL Server 2008 R2.</span></span> <span data-ttu-id="02f8e-107">此版本必須執行於以下所有相關伺服器：主要伺服器、鏡像伺服器、見證伺服器。</span><span class="sxs-lookup"><span data-stu-id="02f8e-107">This version must run on all the involved servers: the primary, mirror, and the witness.</span></span> <span data-ttu-id="02f8e-108">如需詳細資訊，請參閱 [累積更新套件9（適用于 SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)）。</span><span class="sxs-lookup"><span data-stu-id="02f8e-108">For details, see [Cumulative update package 9 for SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).</span></span>
 
-<span data-ttu-id="4a251-109">一般來說，在具有見證的兩台後端伺服器之間設定 SQL 鏡像需要下列事項：</span><span class="sxs-lookup"><span data-stu-id="4a251-109">In general, setting up SQL mirroring between the two Back End Servers with a witness requires the following:</span></span>
+<span data-ttu-id="02f8e-109">一般而言，使用見證伺服器在兩個後端伺服器間設定 SQL 鏡像，需要下列各項：</span><span class="sxs-lookup"><span data-stu-id="02f8e-109">In general, setting up SQL mirroring between the two Back End Servers with a witness requires the following:</span></span>
 
-- <span data-ttu-id="4a251-110">主伺服器版本的 SQL Server 必須支援 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-110">The primary server's version of SQL Server must support SQL mirroring.</span></span>
+- <span data-ttu-id="02f8e-110">主伺服器的 SQL Server 版本必須支援 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-110">The primary server's version of SQL Server must support SQL mirroring.</span></span>
 
-- <span data-ttu-id="4a251-111">[主要]、[鏡像] 和 [見證伺服器] （如果已部署）必須有相同版本的 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="4a251-111">The primary, mirror, and the witness (if deployed) must have the same version of SQL Server.</span></span>
+- <span data-ttu-id="02f8e-111">主要、鏡像與見證伺服器 (若已部署) 必須具有相同的 SQL Server 版本。</span><span class="sxs-lookup"><span data-stu-id="02f8e-111">The primary, mirror, and the witness (if deployed) must have the same version of SQL Server.</span></span>
 
-- <span data-ttu-id="4a251-112">主要和鏡像必須擁有相同版本的 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="4a251-112">The primary and the mirror must have the same edition of SQL Server.</span></span> <span data-ttu-id="4a251-113">見證可能會有不同的版本。</span><span class="sxs-lookup"><span data-stu-id="4a251-113">The witness may have a different edition.</span></span>
+- <span data-ttu-id="02f8e-p103">主要與鏡像伺服器必須具有相同的 SQL Server 版本，見證伺服器可能有不同的版本。</span><span class="sxs-lookup"><span data-stu-id="02f8e-p103">The primary and the mirror must have the same edition of SQL Server. The witness may have a different edition.</span></span>
 
-<span data-ttu-id="4a251-114">如需針對見證角色支援哪些 SQL 版本的 SQL 最佳做法，請參閱[資料庫鏡像見證](https://go.microsoft.com/fwlink/p/?LinkId=247345)。</span><span class="sxs-lookup"><span data-stu-id="4a251-114">For SQL best practices in terms of what SQL versions are supported for a Witness role, see [Database Mirroring Witness](https://go.microsoft.com/fwlink/p/?LinkId=247345).</span></span>
+<span data-ttu-id="02f8e-114">如需有關見證角色支援哪些 SQL 版本的 SQL 最佳作法，請參閱 [資料庫鏡像見證](https://go.microsoft.com/fwlink/p/?LinkId=247345)。</span><span class="sxs-lookup"><span data-stu-id="02f8e-114">For SQL best practices in terms of what SQL versions are supported for a Witness role, see [Database Mirroring Witness](https://go.microsoft.com/fwlink/p/?LinkId=247345).</span></span>
 
-<span data-ttu-id="4a251-115">您可以使用拓撲產生器來部署 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-115">You use Topology Builder to deploy SQL mirroring.</span></span> <span data-ttu-id="4a251-116">您可以在 [拓撲建立器] 中選取一個選項來鏡像資料庫，而 [拓撲建立器] 會在您發佈拓撲時設定鏡像（包括設定見證）。</span><span class="sxs-lookup"><span data-stu-id="4a251-116">You select an option in Topology Builder to mirror the databases, and Topology Builder sets up the mirroring (including setting up a witness, if you want) when you publish the topology.</span></span> <span data-ttu-id="4a251-117">請注意，您可以在設定或移除鏡像的同時，設定或移除見證。</span><span class="sxs-lookup"><span data-stu-id="4a251-117">Note that you set up or remove the witness at the same time you set up or remove the mirror.</span></span> <span data-ttu-id="4a251-118">不需要單獨部署或移除見證的個別命令。</span><span class="sxs-lookup"><span data-stu-id="4a251-118">There is no separate command to deploy or remove only a witness.</span></span>
+<span data-ttu-id="02f8e-115">您可以使用拓撲產生器來部署 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-115">You use Topology Builder to deploy SQL mirroring.</span></span> <span data-ttu-id="02f8e-116">您可以在 [拓撲產生器] 中選取一個選項，以鏡像資料庫，而拓撲產生器會設定鏡像 (包括設定見證，如果您想要在發行拓撲時) 。</span><span class="sxs-lookup"><span data-stu-id="02f8e-116">You select an option in Topology Builder to mirror the databases, and Topology Builder sets up the mirroring (including setting up a witness, if you want) when you publish the topology.</span></span> <span data-ttu-id="02f8e-117">請注意，設定或移除鏡像伺服器也會同時設定或移除見證伺服器。</span><span class="sxs-lookup"><span data-stu-id="02f8e-117">Note that you set up or remove the witness at the same time you set up or remove the mirror.</span></span> <span data-ttu-id="02f8e-118">僅部署或移除見證伺服器並無個別的命令。</span><span class="sxs-lookup"><span data-stu-id="02f8e-118">There is no separate command to deploy or remove only a witness.</span></span>
 
-<span data-ttu-id="4a251-119">若要設定伺服器鏡像，您必須先正確設定 SQL 資料庫許可權。</span><span class="sxs-lookup"><span data-stu-id="4a251-119">To configure server mirroring, you must first set up SQL database permissions correctly.</span></span> <span data-ttu-id="4a251-120">如需詳細資訊，請參閱為[資料庫鏡像或 AlwaysOn 可用性群組（SQL Server）設定登入帳戶](https://go.microsoft.com/fwlink/p/?LinkId=268454)。</span><span class="sxs-lookup"><span data-stu-id="4a251-120">For details, see [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).</span></span>
+<span data-ttu-id="02f8e-119">若要設定伺服器鏡像，您必須先正確設定 SQL 資料庫權限。</span><span class="sxs-lookup"><span data-stu-id="02f8e-119">To configure server mirroring, you must first set up SQL database permissions correctly.</span></span> <span data-ttu-id="02f8e-120">如需詳細資訊，請參閱 [設定資料庫鏡像的登入帳戶或 AlwaysOn 可用性群組 (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkId=268454)。</span><span class="sxs-lookup"><span data-stu-id="02f8e-120">For details, see [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).</span></span>
 
-<span data-ttu-id="4a251-121">有了 SQL 鏡像，資料庫復原模式永遠都設為**Full**，這表示您必須密切監視事務日誌大小，並定期備份事務日誌，以免在後端伺服器上耗盡磁碟空間。</span><span class="sxs-lookup"><span data-stu-id="4a251-121">With SQL mirroring, database recovery mode is always set to **Full**, which means you must closely monitor transaction log size and back up transaction logs on a regular basis to avoid running out of disk space on the Back End Servers.</span></span> <span data-ttu-id="4a251-122">事務記錄備份的頻率取決於記錄的增長率，而這取決於前端池中使用者活動所產生的資料庫事務。</span><span class="sxs-lookup"><span data-stu-id="4a251-122">The frequency of transaction log backups depends on the log growth rate, which in turn depends on database transactions incurred by user activities on the Front End pool.</span></span> <span data-ttu-id="4a251-123">我們建議您決定您的部署工作負載預期的事務日誌增長量，讓您可以據此進行規劃。</span><span class="sxs-lookup"><span data-stu-id="4a251-123">We recommend that you determine how much transaction log growth is expected for your deployment workload so that you can do the planning accordingly.</span></span> <span data-ttu-id="4a251-124">下列文章提供有關 SQL 備份與記錄管理的其他資訊：</span><span class="sxs-lookup"><span data-stu-id="4a251-124">The following articles provide additional information on SQL backup and log management:</span></span>
+<span data-ttu-id="02f8e-121">有了 SQL 鏡像，資料庫復原模式會一律設為 **[完整]**，這表示您必須密切監控交易紀錄的大小並定期備份交易紀錄，以避免用盡後端伺服器上的磁碟機空間。</span><span class="sxs-lookup"><span data-stu-id="02f8e-121">With SQL mirroring, database recovery mode is always set to **Full**, which means you must closely monitor transaction log size and back up transaction logs on a regular basis to avoid running out of disk space on the Back End Servers.</span></span> <span data-ttu-id="02f8e-122">交易記錄的備份頻率取決於記錄的成長率，即根據使用者在前端集區上活動所發生的資料庫交易。</span><span class="sxs-lookup"><span data-stu-id="02f8e-122">The frequency of transaction log backups depends on the log growth rate, which in turn depends on database transactions incurred by user activities on the Front End pool.</span></span> <span data-ttu-id="02f8e-123">建議您決定部署工作負載預期的交易記錄檔成長程度，以便據此進行規劃。</span><span class="sxs-lookup"><span data-stu-id="02f8e-123">We recommend that you determine how much transaction log growth is expected for your deployment workload so that you can do the planning accordingly.</span></span> <span data-ttu-id="02f8e-124">下列文章提供 SQL 備份以及記錄管理的其他資訊：</span><span class="sxs-lookup"><span data-stu-id="02f8e-124">The following articles provide additional information on SQL backup and log management:</span></span>
 
-- [<span data-ttu-id="4a251-125">資料庫恢復模型</span><span class="sxs-lookup"><span data-stu-id="4a251-125">Database recovery models</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268446)
+- [<span data-ttu-id="02f8e-125">資料庫恢復模型</span><span class="sxs-lookup"><span data-stu-id="02f8e-125">Database recovery models</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268446)
 
-- [<span data-ttu-id="4a251-126">備份概述</span><span class="sxs-lookup"><span data-stu-id="4a251-126">Backup overview</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268449)
+- [<span data-ttu-id="02f8e-126">備份概述</span><span class="sxs-lookup"><span data-stu-id="02f8e-126">Backup overview</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268449)
 
-- [<span data-ttu-id="4a251-127">備份事務日誌</span><span class="sxs-lookup"><span data-stu-id="4a251-127">Backup transaction log</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268452)
+- [<span data-ttu-id="02f8e-127">備份交易記錄檔</span><span class="sxs-lookup"><span data-stu-id="02f8e-127">Backup transaction log</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268452)
 
-<span data-ttu-id="4a251-128">有了 SQL 鏡像，您可以在建立池時，或在已建立池之後，設定拓撲以進行鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-128">With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="4a251-129">只有在主要、鏡像和見證（如果需要）伺服器都屬於同一個網域時，才支援使用拓撲建立器或 Cmdlet 來設定及移除 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-129">Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain.</span></span> <span data-ttu-id="4a251-130">如果您想要在不同網域中的伺服器之間設定 SQL 鏡像，請參閱您的 SQL Server 檔。</span><span class="sxs-lookup"><span data-stu-id="4a251-130">If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation.</span></span>
+<span data-ttu-id="02f8e-128">有了 SQL 鏡像，您可在建立集區時或在建立集區後設定鏡像的拓撲。</span><span class="sxs-lookup"><span data-stu-id="02f8e-128">With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="4a251-131">每當您對後端資料庫鏡像關聯進行變更時，您必須重新開機池中的所有前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="4a251-131">Whenever you make a change to a Back End Database mirroring relationship, you must restart all the Front End Servers in the pool.</span></span> <span data-ttu-id="4a251-132">> 進行鏡像變更（例如變更鏡像的位置），您必須使用拓撲建立器來執行這三個步驟：</span><span class="sxs-lookup"><span data-stu-id="4a251-132">> For a change in mirroring, (such as changing the location of a mirror), you must use Topology Builder to perform these three steps:</span></span>
+> <span data-ttu-id="02f8e-129">只有當主要、鏡像及)  (見證伺服器都屬於相同的網域時，才支援使用拓撲產生器或 Cmdlet 來設定及移除 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-129">Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain.</span></span> <span data-ttu-id="02f8e-130">若要在不同網域的伺服器間設定 SQL 鏡像，請參閱 SQL Server 文件。</span><span class="sxs-lookup"><span data-stu-id="02f8e-130">If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation.</span></span>
 
-1. <span data-ttu-id="4a251-133">從舊的鏡像伺服器移除鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-133">Remove mirroring from the old mirror server.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="02f8e-131">每當您變更為後端資料庫鏡像關係時，皆必須重新啟動集區中的前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="02f8e-131">Whenever you make a change to a Back End Database mirroring relationship, you must restart all the Front End Servers in the pool.</span></span> <span data-ttu-id="02f8e-132">> 若要變更鏡像的變更， (例如變更鏡像) 的位置），您必須使用拓撲產生器來執行下列三個步驟：</span><span class="sxs-lookup"><span data-stu-id="02f8e-132">> For a change in mirroring, (such as changing the location of a mirror), you must use Topology Builder to perform these three steps:</span></span>
 
-2. <span data-ttu-id="4a251-134">將 [鏡像] 新增至新的鏡像伺服器。</span><span class="sxs-lookup"><span data-stu-id="4a251-134">Add mirroring to the new mirror server.</span></span>
+1. <span data-ttu-id="02f8e-133">從舊鏡像伺服器移除鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-133">Remove mirroring from the old mirror server.</span></span>
 
-3. <span data-ttu-id="4a251-135">發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="4a251-135">Publish the topology.</span></span>
+2. <span data-ttu-id="02f8e-134">將鏡像新增至新鏡像伺服器。</span><span class="sxs-lookup"><span data-stu-id="02f8e-134">Add mirroring to the new mirror server.</span></span>
+
+3. <span data-ttu-id="02f8e-135">發行拓撲。</span><span class="sxs-lookup"><span data-stu-id="02f8e-135">Publish the topology.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4a251-136">必須針對要寫入的鏡像檔案建立檔案共用，而且 SQL Server 和 SQL 代理程式在其上執行的服務需要讀/寫存取權。</span><span class="sxs-lookup"><span data-stu-id="4a251-136">A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access.</span></span> <span data-ttu-id="4a251-137">如果 SQL Server 服務是在網路服務的內容下執行，您可以將網域\< \> \\<SQLSERVERNAME\>$ 的使用者新增至主體和鏡像 SQL server，以進行共用許可權。</span><span class="sxs-lookup"><span data-stu-id="4a251-137">If the SQL Server service is running under the context of Network Service, you can add \<Domain\>\\<SQLSERVERNAME\>$ of both the Principal and Mirror SQL Servers to the share permissions.</span></span> <span data-ttu-id="4a251-138">$ 對於確認這是電腦帳戶而言，這是很重要的。</span><span class="sxs-lookup"><span data-stu-id="4a251-138">The $ is important to identify that this is a computer account.</span></span>
+> <span data-ttu-id="02f8e-136">必須針對要寫入的鏡像檔案建立檔案共用，而且執行 SQL Server 與 SQL 代理程式的服務必須具有讀取/寫入存取權。</span><span class="sxs-lookup"><span data-stu-id="02f8e-136">A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access.</span></span> <span data-ttu-id="02f8e-137">如果 SQL Server 服務是在 [網路服務] 內容下執行，您可以將 \<Domain\> \\ \> 主體伺服器和鏡像 SQL SERVER 的<SQLSERVERNAME $ 新增至 [共用] 許可權。</span><span class="sxs-lookup"><span data-stu-id="02f8e-137">If the SQL Server service is running under the context of Network Service, you can add \<Domain\>\\<SQLSERVERNAME\>$ of both the Principal and Mirror SQL Servers to the share permissions.</span></span> <span data-ttu-id="02f8e-138">$ 對識別這是電腦帳戶很重要。</span><span class="sxs-lookup"><span data-stu-id="02f8e-138">The $ is important to identify that this is a computer account.</span></span>
 
-## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a><span data-ttu-id="4a251-139">在拓撲建立器中建立池時設定 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="4a251-139">To configure SQL mirroring while creating a pool in Topology Builder</span></span>
+## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a><span data-ttu-id="02f8e-139">在拓撲產生器中建立集區時設定 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="02f8e-139">To configure SQL mirroring while creating a pool in Topology Builder</span></span>
 
-1. <span data-ttu-id="4a251-140">在 [**定義 SQL store** ] 頁面上，按一下 [ **SQL 存放區**] 方塊旁的 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="4a251-140">On the **Define the SQL Store** page, click **New** next to the **SQL store** box.</span></span>
+1. <span data-ttu-id="02f8e-140">在 **[定義 SQL 存放區]** 頁面上，按一下 **[SQL 存放區]** 方塊旁邊的 **[新增]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-140">On the **Define the SQL Store** page, click **New** next to the **SQL store** box.</span></span>
 
-2. <span data-ttu-id="4a251-141">在 [**定義新的 SQL**市集中] 頁面上，指定主要商店，選取 [**此 sql 實例是在鏡像關聯中**]，指定 sql 鏡像埠號碼（預設值為5022），然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a251-141">On the **Define new SQL Store** page, specify the primary store, select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default is 5022), and then click **OK**.</span></span>
+2. <span data-ttu-id="02f8e-141">在 **[定義新的 SQL 存放區]** 頁面上，指定主要存放區，並選取 **[此 SQL 執行個體為鏡像關係]**，接著指定 SQL 鏡像連接埠號碼 (預設值為 5022)，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-141">On the **Define new SQL Store** page, specify the primary store, select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default is 5022), and then click **OK**.</span></span>
 
-3. <span data-ttu-id="4a251-142">回到 [**定義 sql store** ] 頁面上，選取 [**啟用 SQL store 鏡像**]。</span><span class="sxs-lookup"><span data-stu-id="4a251-142">Back on the **Define the SQL store** page, select **Enable SQL Store mirroring**.</span></span>
+3. <span data-ttu-id="02f8e-142">返回 **[定義 SQL 存放區]** 頁面，選取 **[啟用 SQL 存放區鏡像]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-142">Back on the **Define the SQL store** page, select **Enable SQL Store mirroring**.</span></span>
 
-4. <span data-ttu-id="4a251-143">在 [**定義新的 SQL store** ] 頁面中，指定要用來做為鏡像的 SQL 存放區。</span><span class="sxs-lookup"><span data-stu-id="4a251-143">In the **Define new SQL Store** page, specify the SQL store to be used as the mirror.</span></span> <span data-ttu-id="4a251-144">選取 [**這個 SQL 實例是在鏡像關聯中**]，指定埠號碼（預設值為5022），然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a251-144">Select **This SQL instance is in mirroring relation**, specify the port number (the default is 5022), and then click **OK**.</span></span>
+4. <span data-ttu-id="02f8e-p110">在 **[定義新的 SQL 存放區]** 頁面中，指定要做為鏡像使用的 SQL 存放區。選取 **[此 SQL 執行個體為鏡像關係]**，指定連接埠號碼 (預設值為 5022)，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-p110">In the **Define new SQL Store** page, specify the SQL store to be used as the mirror. Select **This SQL instance is in mirroring relation**, specify the port number (the default is 5022), and then click **OK**.</span></span>
 
-5. <span data-ttu-id="4a251-145">如果您想要此鏡像的見證，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="4a251-145">If you want a witness for this mirror, do the following:</span></span>
+5. <span data-ttu-id="02f8e-145">若您想要此鏡像的見證，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="02f8e-145">If you want a witness for this mirror, do the following:</span></span>
 
-    <span data-ttu-id="4a251-146">是.</span><span class="sxs-lookup"><span data-stu-id="4a251-146">a.</span></span> <span data-ttu-id="4a251-147">選取 **[使用 SQL 鏡像見證] 來啟用自動容錯移轉**。</span><span class="sxs-lookup"><span data-stu-id="4a251-147">Select **Use SQL mirroring witness to enable automatic failover**.</span></span>
+    <span data-ttu-id="02f8e-146">a.</span><span class="sxs-lookup"><span data-stu-id="02f8e-146">a.</span></span> <span data-ttu-id="02f8e-147">選取 **[使用 SQL 鏡像見證啟用自動容錯移轉]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-147">Select **Use SQL mirroring witness to enable automatic failover**.</span></span>
 
-    <span data-ttu-id="4a251-148">乙.</span><span class="sxs-lookup"><span data-stu-id="4a251-148">b.</span></span> <span data-ttu-id="4a251-149">在 [**定義 SQL 書店**] 頁面中，選取 **[使用 SQL 鏡像見證來啟用自動容錯移轉**]，然後指定要用作見證的 SQL Store。</span><span class="sxs-lookup"><span data-stu-id="4a251-149">In the **Define the SQL Store** page, select **Use SQL mirroring witness to enable automatic failover**, and specify the SQL store to be used as the witness.</span></span>
+    <span data-ttu-id="02f8e-148">b.</span><span class="sxs-lookup"><span data-stu-id="02f8e-148">b.</span></span> <span data-ttu-id="02f8e-149">在 **[定義 SQL 存放區]** 頁面中，選取 **[使用 SQL 鏡像見證啟用自動容錯移轉]**，並指定 SQL 存放區做為見證使用。</span><span class="sxs-lookup"><span data-stu-id="02f8e-149">In the **Define the SQL Store** page, select **Use SQL mirroring witness to enable automatic failover**, and specify the SQL store to be used as the witness.</span></span>
 
-    <span data-ttu-id="4a251-150">c-clip.</span><span class="sxs-lookup"><span data-stu-id="4a251-150">c.</span></span> <span data-ttu-id="4a251-151">指定埠號碼（預設值為7022），然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a251-151">Specify the port number (the default is 7022) and click **OK**.</span></span>
+    <span data-ttu-id="02f8e-150">c.</span><span class="sxs-lookup"><span data-stu-id="02f8e-150">c.</span></span> <span data-ttu-id="02f8e-151">指定連接埠號碼 (預設值為 7022)，並按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-151">Specify the port number (the default is 7022) and click **OK**.</span></span>
 
-6. <span data-ttu-id="4a251-152">在拓撲中定義完您的 [前端] 池及所有其他角色之後，請使用 [拓撲建立器] 發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="4a251-152">After you are done defining your Front End pool and all other roles in your topology, use Topology Builder to publish the topology.</span></span> <span data-ttu-id="4a251-153">當拓撲發佈時，如果主機中央管理儲存區的前端池已啟用 SQL 鏡像，您會看到建立主要和鏡像 SQL store 資料庫的選項。</span><span class="sxs-lookup"><span data-stu-id="4a251-153">When the topology is published, if the Front End pool that hosts Central Management store has SQL mirroring enabled, you will see an option to create both primary and mirror SQL store databases.</span></span>
+6. <span data-ttu-id="02f8e-152">在您完成定義您的前端集區和拓撲中的所有其他角色後，請使用拓撲產生器來發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="02f8e-152">After you are done defining your Front End pool and all other roles in your topology, use Topology Builder to publish the topology.</span></span> <span data-ttu-id="02f8e-153">當發佈拓撲時，如果主控中央管理存放區的前端集區已啟用 SQL 鏡像，您將會看到同時建立主要和鏡像 SQL 存放區資料庫的選項。</span><span class="sxs-lookup"><span data-stu-id="02f8e-153">When the topology is published, if the Front End pool that hosts Central Management store has SQL mirroring enabled, you will see an option to create both primary and mirror SQL store databases.</span></span>
 
-    <span data-ttu-id="4a251-154">按一下 [**設定**]，然後輸入要做為鏡像備份之檔案共用使用的路徑。</span><span class="sxs-lookup"><span data-stu-id="4a251-154">Click **Settings**, and type the path to use as the file share for the mirroring backup.</span></span>
+    <span data-ttu-id="02f8e-154">按一下 **[設定]**，輸入做為鏡像備份檔案共用的路徑。</span><span class="sxs-lookup"><span data-stu-id="02f8e-154">Click **Settings**, and type the path to use as the file share for the mirroring backup.</span></span>
 
-    <span data-ttu-id="4a251-155">按一下 **[確定]** ，然後按一下 **[下一步**]，建立資料庫併發布拓撲。</span><span class="sxs-lookup"><span data-stu-id="4a251-155">Click **OK** and then **Next** to create the databases and publish the topology.</span></span> <span data-ttu-id="4a251-156">將會部署鏡像與見證（如果已指定）。</span><span class="sxs-lookup"><span data-stu-id="4a251-156">The mirroring and the witness (if specified) will be deployed.</span></span>
+    <span data-ttu-id="02f8e-p115">依序按一下 **[確定]** 及 **[下一步]** 以建立資料庫和發行拓撲，即會部署鏡像與見證 (若已指定)。</span><span class="sxs-lookup"><span data-stu-id="02f8e-p115">Click **OK** and then **Next** to create the databases and publish the topology. The mirroring and the witness (if specified) will be deployed.</span></span>
 
-<span data-ttu-id="4a251-157">您可以使用 [拓撲建立器] 來編輯已存在的 [池] 的屬性，以啟用 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-157">You can use Topology Builder to edit the properties of an already existing pool to enable SQL mirroring.</span></span>
+<span data-ttu-id="02f8e-157">您可以使用拓撲產生器編輯現有集區的屬性，以啟用 SQL 鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-157">You can use Topology Builder to edit the properties of an already existing pool to enable SQL mirroring.</span></span>
 
-## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a><span data-ttu-id="4a251-158">在拓撲建立器中新增 SQL 鏡像至現有的前端池</span><span class="sxs-lookup"><span data-stu-id="4a251-158">To add SQL mirroring to an existing Front End pool in Topology Builder</span></span>
+## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a><span data-ttu-id="02f8e-158">在拓撲產生器中將 SQL 鏡像新增至現有前端集區</span><span class="sxs-lookup"><span data-stu-id="02f8e-158">To add SQL mirroring to an existing Front End pool in Topology Builder</span></span>
 
-1. <span data-ttu-id="4a251-159">在拓撲建立器中，以滑鼠右鍵按一下該池子，然後按一下 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="4a251-159">In Topology Builder, right-click the pool and then click **Edit Properties**.</span></span>
+1. <span data-ttu-id="02f8e-159">在 [拓撲產生器] 中，以滑鼠右鍵按一下集區，然後按一下 [ **編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="02f8e-159">In Topology Builder, right-click the pool and then click **Edit Properties**.</span></span>
 
-2. <span data-ttu-id="4a251-160">選取 [**啟用 SQL Store 鏡像**]，然後按一下 [**鏡像 SQL store**] 旁的 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="4a251-160">Select **Enable SQL Store Mirroring**, and then click **New** next to **Mirroring SQL Store**.</span></span>
+2. <span data-ttu-id="02f8e-160">選取 **[啟用 SQL 存放區鏡像]**，然後按一下 **[鏡像 SQL 存放區]** 旁邊的 **[新增]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-160">Select **Enable SQL Store Mirroring**, and then click **New** next to **Mirroring SQL Store**.</span></span>
 
-3. <span data-ttu-id="4a251-161">指定您要用來做為鏡像的 SQL 存放區。</span><span class="sxs-lookup"><span data-stu-id="4a251-161">Specify the SQL store that you want to use as the mirror.</span></span>
+3. <span data-ttu-id="02f8e-161">指定您要做為鏡像使用的 SQL 存放區。</span><span class="sxs-lookup"><span data-stu-id="02f8e-161">Specify the SQL store that you want to use as the mirror.</span></span>
 
-4. <span data-ttu-id="4a251-162">選取 [**這個 sql 實例是在鏡像關聯中**]，指定 [SQL 鏡像埠號碼] 預設埠為5022），然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a251-162">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number the default port is 5022), and then click **OK**.</span></span>
+4. <span data-ttu-id="02f8e-162">選取 **[此 SQL 執行個體為鏡像關係]**，指定 SQL 鏡像連接埠號碼 (預設值為 5022)，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-162">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number the default port is 5022), and then click **OK**.</span></span>
 
-5. <span data-ttu-id="4a251-163">如果您想要設定見證，請選取 **[使用 SQL 鏡像見證來啟用自動容錯移轉**]，然後按一下 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="4a251-163">If you want to configure a witness, select **Use SQL mirroring witness to enable automatic failover**, and click **New**.</span></span>
+5. <span data-ttu-id="02f8e-163">如果您要設定見證，請選取 **[使用 SQL 鏡像見證啟用自動容錯移轉]**，再按一下 **[新增]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-163">If you want to configure a witness, select **Use SQL mirroring witness to enable automatic failover**, and click **New**.</span></span>
 
-6. <span data-ttu-id="4a251-164">指定您要用來做為見證的 SQL store。</span><span class="sxs-lookup"><span data-stu-id="4a251-164">Specify the SQL store that you want to use as the witness.</span></span>
+6. <span data-ttu-id="02f8e-164">指定您要做為見證使用的 SQL 存放區。</span><span class="sxs-lookup"><span data-stu-id="02f8e-164">Specify the SQL store that you want to use as the witness.</span></span>
 
-7. <span data-ttu-id="4a251-165">選取 [**這個 sql 實例是在鏡像關聯中**]，指定 SQL 鏡像埠號碼（預設埠為7022），然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a251-165">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default port is 7022), and then click **OK**.</span></span>
+7. <span data-ttu-id="02f8e-165">選取 **[此 SQL 執行個體為鏡像關係]**，指定 SQL 鏡像連接埠號碼 (預設值為 7022)，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-165">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default port is 7022), and then click **OK**.</span></span>
 
-8. <span data-ttu-id="4a251-166">按一下 [確定]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4a251-166">Click **OK**.</span></span>
+8. <span data-ttu-id="02f8e-166">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-166">Click **OK**.</span></span>
 
-9. <span data-ttu-id="4a251-167">發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="4a251-167">Publish the topology.</span></span> <span data-ttu-id="4a251-168">當您這麼做時，系統會提示您安裝資料庫。</span><span class="sxs-lookup"><span data-stu-id="4a251-168">When you do so, you will be prompted to install the database.</span></span>
+9. <span data-ttu-id="02f8e-p116">發行拓撲。執行此動作時，系統會提示您安裝資料庫。</span><span class="sxs-lookup"><span data-stu-id="02f8e-p116">Publish the topology. When you do so, you will be prompted to install the database.</span></span>
 
-    <span data-ttu-id="4a251-169">在拓撲發佈程式期間，系統會要求您定義檔案共用路徑。</span><span class="sxs-lookup"><span data-stu-id="4a251-169">During the topology publishing process, you will be asked to define a file share path.</span></span> <span data-ttu-id="4a251-170">參與鏡像的 SQL 伺服器必須擁有此檔案共用的讀/寫存取權，才能建立鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-170">The SQL Servers that participate in the mirroring must have read/write access to this file share for the mirror to be established.</span></span>
+    <span data-ttu-id="02f8e-169">在拓撲發佈過程中，系統會要求您定義檔共用路徑。</span><span class="sxs-lookup"><span data-stu-id="02f8e-169">During the topology publishing process, you will be asked to define a file share path.</span></span> <span data-ttu-id="02f8e-170">參與鏡像的 SQL 伺服器必須具有此檔案共用的讀/寫存取權，才可建立鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-170">The SQL Servers that participate in the mirroring must have read/write access to this file share for the mirror to be established.</span></span>
 
-<span data-ttu-id="4a251-171">接著，您必須先安裝資料庫，然後再繼續進行下一個步驟。</span><span class="sxs-lookup"><span data-stu-id="4a251-171">You must then install the database before going on to the next procedure.</span></span>
+<span data-ttu-id="02f8e-171">然後，您必須在進入下個程序前安裝資料庫。</span><span class="sxs-lookup"><span data-stu-id="02f8e-171">You must then install the database before going on to the next procedure.</span></span>
 
-<span data-ttu-id="4a251-172">設定 SQL 鏡像時，請記住下列事項：</span><span class="sxs-lookup"><span data-stu-id="4a251-172">You should keep the following in mind when setting up SQL mirroring:</span></span>
+<span data-ttu-id="02f8e-172">在設定 SQL 鏡像時，請務必牢記下列事項：</span><span class="sxs-lookup"><span data-stu-id="02f8e-172">You should keep the following in mind when setting up SQL mirroring:</span></span>
 
-- <span data-ttu-id="4a251-173">如果鏡像端點已存在，則會使用在該處定義的埠來重複使用它，並將略過您在拓撲中指定的埠。</span><span class="sxs-lookup"><span data-stu-id="4a251-173">If a mirroring endpoint already exists, it will be reused using the ports defined there, and will ignore the ones you specify in the topology.</span></span>
+- <span data-ttu-id="02f8e-173">如果已存在鏡像端點，將會以定義的連接埠加以重複使用，而且會略過在拓撲中指定的其他連接埠。</span><span class="sxs-lookup"><span data-stu-id="02f8e-173">If a mirroring endpoint already exists, it will be reused using the ports defined there, and will ignore the ones you specify in the topology.</span></span>
 
-- <span data-ttu-id="4a251-174">已針對相同伺服器上的其他應用程式（包括適用于其他 SQL 實例的任何埠）已分配的任何埠，都不應該用於目前已安裝的 SQL 實例。</span><span class="sxs-lookup"><span data-stu-id="4a251-174">Any port already allocated for other applications on the same server, including those for other SQL instances, should not be used for the installed SQL instances at hand.</span></span> <span data-ttu-id="4a251-175">這表示如果您在同一個伺服器上安裝了多個 SQL 實例，就不一定要使用相同的埠進行鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-175">This implies that if you have more than one SQL instance installed on the same server, they must not use the same port for mirroring.</span></span> <span data-ttu-id="4a251-176">如需詳細資訊，請參閱下列文章：</span><span class="sxs-lookup"><span data-stu-id="4a251-176">For details, see the following articles:</span></span>
+- <span data-ttu-id="02f8e-p118">在相同伺服器上為其他應用程式配置的連接埠 (包含為其他 SQL 執行個體配置的)，均不應用於隨時可取用的已安裝 SQL 執行個體。這表示，如果您有一個以上的 SQL 執行個體安裝於相同的伺服器上，不得使用相同的連接埠進行鏡像處理。如需詳細資訊，請參閱以下文章：</span><span class="sxs-lookup"><span data-stu-id="02f8e-p118">Any port already allocated for other applications on the same server, including those for other SQL instances, should not be used for the installed SQL instances at hand. This implies that if you have more than one SQL instance installed on the same server, they must not use the same port for mirroring. For details, see the following articles:</span></span>
 
-  - [<span data-ttu-id="4a251-177">指定伺服器網路位址（資料庫鏡像）</span><span class="sxs-lookup"><span data-stu-id="4a251-177">Specify a Server Network Address (Database Mirroring)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247346)
+  - [<span data-ttu-id="02f8e-177">指定伺服器網路位址 (資料庫鏡像) </span><span class="sxs-lookup"><span data-stu-id="02f8e-177">Specify a Server Network Address (Database Mirroring)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247346)
 
-  - [<span data-ttu-id="4a251-178">資料庫鏡像端點（SQL Server）</span><span class="sxs-lookup"><span data-stu-id="4a251-178">The Database Mirroring Endpoint (SQL Server)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247347)
+  - [<span data-ttu-id="02f8e-178">資料庫鏡像端點 (SQL Server) </span><span class="sxs-lookup"><span data-stu-id="02f8e-178">The Database Mirroring Endpoint (SQL Server)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247347)
 
-## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a><span data-ttu-id="4a251-179">使用商務用 Skype Server 2015 管理命令介面 Cmdlet 來設定 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="4a251-179">Using Skype for Business Server 2015 Management Shell Cmdlets to Set Up SQL Mirroring</span></span>
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a><span data-ttu-id="02f8e-179">使用商務用 Skype Server 2015 管理命令介面 Cmdlet 來設定 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="02f8e-179">Using Skype for Business Server 2015 Management Shell Cmdlets to Set Up SQL Mirroring</span></span>
 
-<span data-ttu-id="4a251-180">設定鏡像最簡單的方法是使用拓撲建立器，不過您也可以使用 Cmdlet 來執行此操作。</span><span class="sxs-lookup"><span data-stu-id="4a251-180">The easiest way to set up mirroring is by using Topology Builder, but you can also do so using cmdlets.</span></span>
+<span data-ttu-id="02f8e-180">設定鏡像最簡單的方法是使用拓撲產生器，但您也可以使用 Cmdlet 來執行。</span><span class="sxs-lookup"><span data-stu-id="02f8e-180">The easiest way to set up mirroring is by using Topology Builder, but you can also do so using cmdlets.</span></span>
 
-1. <span data-ttu-id="4a251-181">開啟商務用 Skype Server 2015 管理命令介面視窗，並執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="4a251-181">Open a Skype for Business Server 2015 Management Shell window and run the following cmdlet:</span></span>
+1. <span data-ttu-id="02f8e-181">開啟商務用 Skype Server 2015 管理命令介面視窗，並執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="02f8e-181">Open a Skype for Business Server 2015 Management Shell window and run the following cmdlet:</span></span>
 
    ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
    ```
 
-    <span data-ttu-id="4a251-182">例如：</span><span class="sxs-lookup"><span data-stu-id="4a251-182">For example:</span></span>
+    <span data-ttu-id="02f8e-182">例如：</span><span class="sxs-lookup"><span data-stu-id="02f8e-182">For example:</span></span>
 
    ```powershell
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose
    ```
 
-    <span data-ttu-id="4a251-183">您會看到下列內容：</span><span class="sxs-lookup"><span data-stu-id="4a251-183">You will see the following:</span></span>
+    <span data-ttu-id="02f8e-183">您會看到下列訊息：</span><span class="sxs-lookup"><span data-stu-id="02f8e-183">You will see the following:</span></span>
 
    <pre>
    Database Name:rtcxds
@@ -217,78 +217,78 @@ ms.locfileid: "41790061"
    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
    </pre>
 
-2. <span data-ttu-id="4a251-184">確認下列事項：</span><span class="sxs-lookup"><span data-stu-id="4a251-184">Verify the following:</span></span>
+2. <span data-ttu-id="02f8e-184">請確認下列各項：</span><span class="sxs-lookup"><span data-stu-id="02f8e-184">Verify the following:</span></span>
 
-    - <span data-ttu-id="4a251-185">如果在主要 SQL Server e04 中啟用 Windows 防火牆，則可透過防火牆存取埠 5022 los_a-lsipt local\rtc。</span><span class="sxs-lookup"><span data-stu-id="4a251-185">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the primary SQL Server e04-ocs.los_a.lsipt.local\rtc.</span></span>
+    - <span data-ttu-id="02f8e-185">如果 Windows 防火牆已於主要 SQL Server e04-ocs.los_a.lsipt.local\rtc 中啟用，連接埠 5022 可透過防火牆進行存取。</span><span class="sxs-lookup"><span data-stu-id="02f8e-185">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the primary SQL Server e04-ocs.los_a.lsipt.local\rtc.</span></span>
 
-    - <span data-ttu-id="4a251-186">如果在鏡像 SQL Server K16 中啟用 Windows 防火牆，則可透過防火牆存取埠 5022 los_a-lsipt local\rtc。</span><span class="sxs-lookup"><span data-stu-id="4a251-186">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the mirror SQL Server K16-ocs.los_a.lsipt.local\rtc.</span></span>
+    - <span data-ttu-id="02f8e-186">如果 Windows 防火牆已於鏡像 SQL Server K16-ocs.los_a.lsipt.local\rtc 中啟用，連接埠 5022 可透過防火牆進行存取。</span><span class="sxs-lookup"><span data-stu-id="02f8e-186">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the mirror SQL Server K16-ocs.los_a.lsipt.local\rtc.</span></span>
 
-    - <span data-ttu-id="4a251-187">如果在見證 SQL Server AB14 中啟用 Windows 防火牆，則可透過防火牆存取埠 7022-lct los_a。 local\rtc。</span><span class="sxs-lookup"><span data-stu-id="4a251-187">Port 7022 is accessible through the firewall if Windows Firewall is enabled in the witness SQL Server AB14-lct.los_a.lsipt.local\rtc.</span></span>
+    - <span data-ttu-id="02f8e-187">如果 Windows 防火牆已於見證 SQL Server AB14-lct.los_a.lsipt.local\rtc 中啟用，連接埠 7022 可透過防火牆進行存取。</span><span class="sxs-lookup"><span data-stu-id="02f8e-187">Port 7022 is accessible through the firewall if Windows Firewall is enabled in the witness SQL Server AB14-lct.los_a.lsipt.local\rtc.</span></span>
 
-   - <span data-ttu-id="4a251-188">在所有主要和鏡像 SQL 伺服器上執行 SQL Server 的帳戶，都有讀取/寫入檔案共用\\E04-OCS\csdatabackup 的許可權</span><span class="sxs-lookup"><span data-stu-id="4a251-188">Accounts running the SQL Servers on all primary and mirror SQL servers have read/write permission to the file share \\E04-OCS\csdatabackup</span></span>
+   - <span data-ttu-id="02f8e-188">在所有主要和鏡像 SQL server 上執行 SQL Server 的帳戶具有檔案共用 E04-OCS\csdatabackup 的讀取/寫入權限。 \\</span><span class="sxs-lookup"><span data-stu-id="02f8e-188">Accounts running the SQL Servers on all primary and mirror SQL servers have read/write permission to the file share \\E04-OCS\csdatabackup</span></span>
 
-   - <span data-ttu-id="4a251-189">確認 Windows 管理工具（WMI）提供者正在所有這些伺服器上執行。</span><span class="sxs-lookup"><span data-stu-id="4a251-189">Verify that the Windows Management Instrumentation (WMI) provider is running on all these servers.</span></span> <span data-ttu-id="4a251-190">這個 Cmdlet 使用這個提供者來尋找在所有主要、鏡像伺服器和見證伺服器上執行之 SQL Server 服務的帳戶資訊。</span><span class="sxs-lookup"><span data-stu-id="4a251-190">The cmdlet uses this provider to find the account information for SQL Server services running on all primary, mirror and witness servers.</span></span>
+   - <span data-ttu-id="02f8e-p119">確認 Windows Management Instrumentation (WMI) 提供者正執行於所有伺服器上。Cmdlet 會使用此提供者尋找執行於所有主要、鏡像及見證伺服器的 SQL Server 服務帳戶資訊。</span><span class="sxs-lookup"><span data-stu-id="02f8e-p119">Verify that the Windows Management Instrumentation (WMI) provider is running on all these servers. The cmdlet uses this provider to find the account information for SQL Server services running on all primary, mirror and witness servers.</span></span>
 
-   - <span data-ttu-id="4a251-191">確認執行此 Cmdlet 的帳戶具有為所有鏡像伺服器的資料和記錄檔案建立資料夾的許可權。</span><span class="sxs-lookup"><span data-stu-id="4a251-191">Verify that the account running this cmdlet has permission to create the folders for the data and log files for all the mirror servers.</span></span>
+   - <span data-ttu-id="02f8e-191">確認執行此 Cmdlet 的帳戶具有權限，可為所有鏡像伺服器建立資料與記錄檔的資料夾。</span><span class="sxs-lookup"><span data-stu-id="02f8e-191">Verify that the account running this cmdlet has permission to create the folders for the data and log files for all the mirror servers.</span></span>
 
-   - <span data-ttu-id="4a251-192">請注意，SQL 實例執行所用的使用者帳戶必須具備檔案共用的讀/寫許可權。</span><span class="sxs-lookup"><span data-stu-id="4a251-192">Note that the user account that the SQL instance uses to run must have read/write permission to the file share.</span></span> <span data-ttu-id="4a251-193">如果檔案共用位於不同的伺服器上，且 SQL 實例執行的是本機系統帳戶，則您必須將檔案共用許可權授與託管 SQL 實例的伺服器。</span><span class="sxs-lookup"><span data-stu-id="4a251-193">If the file share is on a different server, and the SQL instance runs a local system account, you must grant file share permissions to the server that hosts the SQL instance.</span></span>
+   - <span data-ttu-id="02f8e-p120">請注意，SQL 執行個體用以執行的使用者帳戶必須具有檔案共用的讀取/寫入權限。如果檔案共用在其他的伺服器上，而且 SQL 執行個體執行本機系統帳戶，您必須將檔案共用權限授與託管 SQL 執行個體的伺服器。</span><span class="sxs-lookup"><span data-stu-id="02f8e-p120">Note that the user account that the SQL instance uses to run must have read/write permission to the file share. If the file share is on a different server, and the SQL instance runs a local system account, you must grant file share permissions to the server that hosts the SQL instance.</span></span>
 
-3. <span data-ttu-id="4a251-194">輸入 A，然後按 ENTER。</span><span class="sxs-lookup"><span data-stu-id="4a251-194">Type A and press ENTER.</span></span>
+3. <span data-ttu-id="02f8e-194">輸入 A 並按 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="02f8e-194">Type A and press ENTER.</span></span>
 
-    <span data-ttu-id="4a251-195">將會設定鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-195">The mirroring will be configured.</span></span>
+    <span data-ttu-id="02f8e-195">即會設定鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-195">The mirroring will be configured.</span></span>
 
-    <span data-ttu-id="4a251-196">**安裝-CsMirrorDatabase**會安裝鏡像，並針對主要 SQL 市集中存在的所有資料庫設定鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-196">**Install-CsMirrorDatabase** installs the mirror and configures mirroring for all the databases that are present on the primary SQL store.</span></span> <span data-ttu-id="4a251-197">如果您只想針對特定的資料庫設定鏡像，您可以使用-DatabaseType 選項，或者，如果您想要針對除幾個資料庫以外的所有資料庫設定鏡像，您可以使用-ExcludeDatabaseList 選項，以及逗號分隔的資料庫清單要排除的名稱。</span><span class="sxs-lookup"><span data-stu-id="4a251-197">If you want to configure mirroring for only specific databases, you can use the -DatabaseType option, or if you want to configure mirroring for all databases except for a few, you can use the -ExcludeDatabaseList option, along with a comma-separated list of database names to exclude.</span></span>
+    <span data-ttu-id="02f8e-196">**Install-CsMirrorDatabase** 會安裝鏡像伺服器，並設定位於主要 SQL 存放區所有資料庫的鏡像。</span><span class="sxs-lookup"><span data-stu-id="02f8e-196">**Install-CsMirrorDatabase** installs the mirror and configures mirroring for all the databases that are present on the primary SQL store.</span></span> <span data-ttu-id="02f8e-197">如果您只想要為特定資料庫設定鏡像，您可以使用-DatabaseType 選項，或者，如果您想要設定所有資料庫的鏡像，除了少數以外，您可以使用-ExcludeDatabaseList 選項，以及以逗號分隔的資料庫名稱清單來排除。</span><span class="sxs-lookup"><span data-stu-id="02f8e-197">If you want to configure mirroring for only specific databases, you can use the -DatabaseType option, or if you want to configure mirroring for all databases except for a few, you can use the -ExcludeDatabaseList option, along with a comma-separated list of database names to exclude.</span></span>
 
-    <span data-ttu-id="4a251-198">例如，如果您將下列選項新增至**安裝-CsMirrorDatabase**，除了 rtcab 和 rtcxds 以外的所有資料庫都將會進行鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-198">For example, if you add the following option to **Install-CsMirrorDatabase**, all databases except rtcab and rtcxds will be mirrored.</span></span>
+    <span data-ttu-id="02f8e-198">例如，如果您將下列選項新增至 **Install-CsMirrorDatabase**，所有資料庫即會作鏡像處理，Rtcab 和 Rtcxds 除外。</span><span class="sxs-lookup"><span data-stu-id="02f8e-198">For example, if you add the following option to **Install-CsMirrorDatabase**, all databases except rtcab and rtcxds will be mirrored.</span></span>
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   <span data-ttu-id="4a251-199">例如，如果您將下列選項新增至**安裝-CsMirrorDatabase**，則只會鏡像 rtcab、rtcshared 和 rtcxds 資料庫。</span><span class="sxs-lookup"><span data-stu-id="4a251-199">For example, if you add the following option to **Install-CsMirrorDatabase**, only the rtcab, rtcshared, and rtcxds databases will be mirrored.</span></span>
+   <span data-ttu-id="02f8e-199">例如，如果您將下列選項新增至 **Install-CsMirrorDatabase**，則只有 Rtcab、Rtcshared 及 Rtcxds 資料庫會作鏡像處理。</span><span class="sxs-lookup"><span data-stu-id="02f8e-199">For example, if you add the following option to **Install-CsMirrorDatabase**, only the rtcab, rtcshared, and rtcxds databases will be mirrored.</span></span>
 
     `-DatabaseType User`
 
-## <a name="removing-or-changing-sql-mirroring"></a><span data-ttu-id="4a251-200">移除或變更 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="4a251-200">Removing or Changing SQL Mirroring</span></span>
+## <a name="removing-or-changing-sql-mirroring"></a><span data-ttu-id="02f8e-200">移除或變更 SQL 鏡像</span><span class="sxs-lookup"><span data-stu-id="02f8e-200">Removing or Changing SQL Mirroring</span></span>
 
-<span data-ttu-id="4a251-201">若要在拓撲建立器中移除池的 SQL 鏡像，您必須先使用 Cmdlet，才能在 SQL Server 中移除該鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-201">To remove the SQL mirroring of a pool in Topology Builder, you must first use a cmdlet to remove the mirror in SQL Server.</span></span> <span data-ttu-id="4a251-202">然後，您就可以使用 [拓撲建立器] 從拓撲中移除鏡像。</span><span class="sxs-lookup"><span data-stu-id="4a251-202">You can then use Topology Builder to remove the mirror from the topology.</span></span> <span data-ttu-id="4a251-203">若要在 SQL Server 中移除鏡像，請使用下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="4a251-203">To remove the mirror in SQL Server, use the following cmdlet:</span></span>
+<span data-ttu-id="02f8e-p122">若要在拓撲產生器中移除集區的 SQL 鏡像，您必須先使用 Cmdlet 將 SQL Server 中的鏡像移除，然後，您可使用拓撲產生器從拓撲移除鏡像。若要移除 SQL Server 中的鏡像，請使用下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="02f8e-p122">To remove the SQL mirroring of a pool in Topology Builder, you must first use a cmdlet to remove the mirror in SQL Server. You can then use Topology Builder to remove the mirror from the topology. To remove the mirror in SQL Server, use the following cmdlet:</span></span>
 
 ```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 ```
 
-<span data-ttu-id="4a251-204">例如，若要移除鏡像並刪除使用者資料庫的資料庫，請輸入下列內容：</span><span class="sxs-lookup"><span data-stu-id="4a251-204">For example, to remove mirroring and drop the databases for the User databases, type the following:</span></span>
+<span data-ttu-id="02f8e-204">例如，若要移除鏡像並捨棄使用者資料庫的資料庫，請輸入：</span><span class="sxs-lookup"><span data-stu-id="02f8e-204">For example, to remove mirroring and drop the databases for the User databases, type the following:</span></span>
 
 ```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
-<span data-ttu-id="4a251-205">此`-DropExistingDatabasesOnMirror`選項會使受影響的資料庫從鏡像中刪除。</span><span class="sxs-lookup"><span data-stu-id="4a251-205">The  `-DropExistingDatabasesOnMirror` option causes the affected databases to be deleted from the mirror.</span></span>
+<span data-ttu-id="02f8e-205">此  `-DropExistingDatabasesOnMirror` 選項會從鏡像中刪除受影響的資料庫。</span><span class="sxs-lookup"><span data-stu-id="02f8e-205">The  `-DropExistingDatabasesOnMirror` option causes the affected databases to be deleted from the mirror.</span></span>
 
-<span data-ttu-id="4a251-206">接著，若要從拓撲中移除鏡像，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="4a251-206">Then, to remove the mirror from the topology, do the following:</span></span>
+<span data-ttu-id="02f8e-206">此外，若要從拓撲移除鏡像伺服器，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="02f8e-206">Then, to remove the mirror from the topology, do the following:</span></span>
 
-1. <span data-ttu-id="4a251-207">在拓撲建立器中，以滑鼠右鍵按一下該池，然後按一下 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="4a251-207">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
+1. <span data-ttu-id="02f8e-207">在拓撲產生器中，以滑鼠右鍵按一下集區，再按一下 **[編輯內容]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-207">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
 
-2. <span data-ttu-id="4a251-208">取消核取 [**啟用 SQL Store 鏡像**]，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a251-208">Uncheck **Enable SQL Store Mirroring** and click **OK**.</span></span>
+2. <span data-ttu-id="02f8e-208">取消核取 **[啟用 SQL 存放區鏡像]** 並按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-208">Uncheck **Enable SQL Store Mirroring** and click **OK**.</span></span>
 
-3. <span data-ttu-id="4a251-209">發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="4a251-209">Publish the topology.</span></span>
+3. <span data-ttu-id="02f8e-209">發行拓撲。</span><span class="sxs-lookup"><span data-stu-id="02f8e-209">Publish the topology.</span></span>
 
-## <a name="removing-a-mirroring-witness"></a><span data-ttu-id="4a251-210">移除鏡像見證</span><span class="sxs-lookup"><span data-stu-id="4a251-210">Removing a Mirroring Witness</span></span>
+## <a name="removing-a-mirroring-witness"></a><span data-ttu-id="02f8e-210">移除鏡像見證</span><span class="sxs-lookup"><span data-stu-id="02f8e-210">Removing a Mirroring Witness</span></span>
 
-<span data-ttu-id="4a251-211">如果您需要從後端伺服器鏡像設定中移除見證，請使用此程式。</span><span class="sxs-lookup"><span data-stu-id="4a251-211">Use this procedure if you need to remove the witness from a Back End Server mirroring configuration.</span></span>
+<span data-ttu-id="02f8e-211">如果您需要從後端伺服器鏡像設定中移除見證，請使用此程式。</span><span class="sxs-lookup"><span data-stu-id="02f8e-211">Use this procedure if you need to remove the witness from a Back End Server mirroring configuration.</span></span>
 
-1. <span data-ttu-id="4a251-212">在拓撲建立器中，以滑鼠右鍵按一下該池，然後按一下 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="4a251-212">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
+1. <span data-ttu-id="02f8e-212">在拓撲產生器中，以滑鼠右鍵按一下集區，再按一下 **[編輯內容]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-212">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
 
-2. <span data-ttu-id="4a251-213">取消核取 **[使用 SQL Server 鏡像見證來啟用自動容錯移轉**]，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a251-213">Uncheck **Use SQL Server mirroring witness to enable automatic failover** and click **OK**.</span></span>
+2. <span data-ttu-id="02f8e-213">取消核取 **[使用 SQL Server 鏡像見證啟用自動容錯移轉]**，按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="02f8e-213">Uncheck **Use SQL Server mirroring witness to enable automatic failover** and click **OK**.</span></span>
 
-3. <span data-ttu-id="4a251-214">發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="4a251-214">Publish the topology.</span></span>
+3. <span data-ttu-id="02f8e-214">發行拓撲。</span><span class="sxs-lookup"><span data-stu-id="02f8e-214">Publish the topology.</span></span>
 
-    <span data-ttu-id="4a251-215">發佈拓撲之後，您會看到一則訊息，其中包含下列內容</span><span class="sxs-lookup"><span data-stu-id="4a251-215">After publishing the topology, Topology Builder you will see a message that includes the following</span></span>
+    <span data-ttu-id="02f8e-215">發行拓撲之後，拓撲產生器會顯示一則訊息，其中包含下列各項：</span><span class="sxs-lookup"><span data-stu-id="02f8e-215">After publishing the topology, Topology Builder you will see a message that includes the following</span></span>
 
    ```console
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    <span data-ttu-id="4a251-216">不過，請勿遵循該步驟，而且不要輸入`Uninstall-CsMirrorDatabase` ，否則就會卸載整個鏡像設定。</span><span class="sxs-lookup"><span data-stu-id="4a251-216">However, do not follow that step, and do not type  `Uninstall-CsMirrorDatabase` as that would uninstall the entire mirroring configuration.</span></span>
+    <span data-ttu-id="02f8e-216">不過，請不要執行該步驟，也不要像那樣輸入  `Uninstall-CsMirrorDatabase` ，否則會卸載整個鏡像設定。</span><span class="sxs-lookup"><span data-stu-id="02f8e-216">However, do not follow that step, and do not type  `Uninstall-CsMirrorDatabase` as that would uninstall the entire mirroring configuration.</span></span>
 
-4. <span data-ttu-id="4a251-217">若要只從 SQL Server 設定中移除見證，請依照[從資料庫鏡像會話中移除見證伺服器（SQL Server）](https://go.microsoft.com/fwlink/p/?LinkId=268456)中的指示進行。</span><span class="sxs-lookup"><span data-stu-id="4a251-217">To remove just the witness from the SQL Server configuration, follow the instructions in [Remove the Witness from a Database Mirroring Session (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).</span></span>
+4. <span data-ttu-id="02f8e-217">若要從 SQL Server 設定只移除見證，請依照 [從資料庫鏡像會話移除見證 (SQL server) ](https://go.microsoft.com/fwlink/p/?LinkId=268456)中的指示進行。</span><span class="sxs-lookup"><span data-stu-id="02f8e-217">To remove just the witness from the SQL Server configuration, follow the instructions in [Remove the Witness from a Database Mirroring Session (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).</span></span>
 
 

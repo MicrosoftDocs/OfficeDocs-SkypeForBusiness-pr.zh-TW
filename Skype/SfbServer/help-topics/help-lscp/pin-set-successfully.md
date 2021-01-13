@@ -1,8 +1,8 @@
 ---
 title: 已成功設定 PIN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
-description: 若要使用電子郵件將 PIN 傳送給使用者，請按一下 [開啟我的電子郵件應用程式]，將新的 PIN 傳送給使用者。 若要將 PIN 複製到電子郵件訊息中，請選取 [顯示 PIN]。
-ms.openlocfilehash: dd26740ddeaa61198798cf2edcb1b308f2fbe66f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要使用電子郵件將 PIN 碼傳送給使用者，請按一下 [開啟我的電子郵件應用程式]，將新的 PIN 碼傳送給使用者。 若要將 PIN 碼複製到電子郵件中，請選取 [顯示 PIN]。
+ms.openlocfilehash: 76a91ddd0dd9f71e5059b3e1be333181eeb691d8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822476"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829343"
 ---
-# <a name="pin-set-successfully"></a><span data-ttu-id="76a0a-104">已成功設定 PIN</span><span class="sxs-lookup"><span data-stu-id="76a0a-104">PIN Set Successfully</span></span>
+# <a name="pin-set-successfully"></a><span data-ttu-id="d9c3b-104">已成功設定 PIN</span><span class="sxs-lookup"><span data-stu-id="d9c3b-104">PIN Set Successfully</span></span>
  
-<span data-ttu-id="76a0a-105">若要使用電子郵件將 PIN 傳送給使用者，請按一下 [**開啟我的電子郵件應用程式]，將新的 pin 傳送給使用者**。</span><span class="sxs-lookup"><span data-stu-id="76a0a-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="76a0a-106">若要將 PIN 複製到電子郵件訊息中，請選取 [**顯示 PIN**]。</span><span class="sxs-lookup"><span data-stu-id="76a0a-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
+<span data-ttu-id="d9c3b-105">若要使用電子郵件將 PIN 碼傳送給使用者，請按一下 [ **開啟我的電子郵件應用程式]，將新的 PIN 碼傳送給使用者**。</span><span class="sxs-lookup"><span data-stu-id="d9c3b-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="d9c3b-106">若要將 PIN 碼複製到電子郵件中，請選取 [ **顯示 PIN**]。</span><span class="sxs-lookup"><span data-stu-id="d9c3b-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
   
-<span data-ttu-id="76a0a-107">如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="76a0a-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="d9c3b-107">如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="d9c3b-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

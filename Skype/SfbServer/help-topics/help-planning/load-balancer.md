@@ -1,8 +1,8 @@
 ---
-title: 負載平衡器（計畫工具）
+title: '負載平衡器 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -15,20 +15,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: 如果您有前端池、控制器池或邊緣伺服器池，您必須為這些池部署負載平衡。 [負載平衡] 會在池中的伺服器之間分佈流量。 如需詳細資訊，請參閱：
-ms.openlocfilehash: 0dd33cfc30fef6612472a5edb5cc4468037a0aef
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 如果您有前端集區、Director 集區或 Edge Server 集區，則需要為這些集區部署負載平衡。 負載平衡會在集區中的伺服器之間分散流量。 如需詳細資訊，請參閱：
+ms.openlocfilehash: 4c33afcb5666e889214ba1603be5b078141053e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821415"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828993"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="550de-105">負載平衡器（計畫工具）</span><span class="sxs-lookup"><span data-stu-id="550de-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="7154a-105">負載平衡器 (規劃工具) </span><span class="sxs-lookup"><span data-stu-id="7154a-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="550de-106">如果您有前端池、控制器池或邊緣伺服器池，您必須為這些池部署負載平衡。</span><span class="sxs-lookup"><span data-stu-id="550de-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="550de-107">[負載平衡] 會在池中的伺服器之間分佈流量。</span><span class="sxs-lookup"><span data-stu-id="550de-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="550de-108">如需詳細資訊，請參閱：</span><span class="sxs-lookup"><span data-stu-id="550de-108">For details, see:</span></span>
+<span data-ttu-id="7154a-106">如果您有前端集區、Director 集區或 Edge Server 集區，則需要為這些集區部署負載平衡。</span><span class="sxs-lookup"><span data-stu-id="7154a-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="7154a-107">負載平衡會在集區中的伺服器之間分散流量。</span><span class="sxs-lookup"><span data-stu-id="7154a-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="7154a-108">如需詳細資訊，請參閱：</span><span class="sxs-lookup"><span data-stu-id="7154a-108">For details, see:</span></span>
   
-- [<span data-ttu-id="550de-109">商務用 Skype 的負載平衡需求</span><span class="sxs-lookup"><span data-stu-id="550de-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="7154a-109">商務用 Skype 的負載平衡需求</span><span class="sxs-lookup"><span data-stu-id="7154a-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [<span data-ttu-id="550de-110">商務用 Skype Server 2015 的 DNS 需求</span><span class="sxs-lookup"><span data-stu-id="550de-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
+- [<span data-ttu-id="7154a-110">商務用 Skype Server 2015 的 DNS 需求</span><span class="sxs-lookup"><span data-stu-id="7154a-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
     
 

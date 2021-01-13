@@ -1,8 +1,8 @@
 ---
 title: 準備單一 Standard Edition Server (簡介)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
-description: 若要開始安裝商務用 Skype Server 2015 標準版伺服器，而該伺服器會保留中央管理儲存區及您所選取的其他 collocated 服務，您必須以本機管理員群組的成員身分登入，該伺服器將成為標準版伺服器。 [準備單一 Standard Edition Server] 頁面詳述初始安裝的需求。 該電腦必須是您要部署的所屬網域成員，且您必須為您的樹系成功完成架構、樹系及網域準備工作。
-ms.openlocfilehash: a426d734c7644511d31a5b53d3a4939c95f979f3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要開始安裝商務用 Skype Server 2015 Standard Edition server，使其保留中央管理存放區和您所選取的其他組合服務，您必須以將成為 Standard Edition server 之伺服器上的本機系統管理員群組成員的身分登入。 [準備單一 Standard Edition Server] 頁面詳述初始安裝的需求。 電腦必須是您要部署它所在之網域的成員，而且您必須已成功完成樹系的架構、樹系和網域準備工作。
+ms.openlocfilehash: 0523645350c6d6f2c0e42237b944f29193e06555
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823467"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829779"
 ---
-# <a name="prepare-single-standard-edition-server-intro"></a><span data-ttu-id="59ca1-105">準備單一 Standard Edition Server (簡介)</span><span class="sxs-lookup"><span data-stu-id="59ca1-105">Prepare Single Standard Edition Server (Intro)</span></span>
+# <a name="prepare-single-standard-edition-server-intro"></a><span data-ttu-id="0c4e2-105">準備單一 Standard Edition Server (簡介)</span><span class="sxs-lookup"><span data-stu-id="0c4e2-105">Prepare Single Standard Edition Server (Intro)</span></span>
  
-<span data-ttu-id="59ca1-106">若要開始安裝商務用 Skype Server 2015 標準版伺服器，而該伺服器會保留中央管理儲存區及您所選取的其他 collocated 服務，您必須以本機管理員群組的成員身分登入，該伺服器將成為標準版伺服器。</span><span class="sxs-lookup"><span data-stu-id="59ca1-106">To begin the installation of a Skype for Business Server 2015 Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server.</span></span> <span data-ttu-id="59ca1-107">[準備單一 Standard Edition Server]\*\*\*\* 頁面詳述初始安裝的需求。</span><span class="sxs-lookup"><span data-stu-id="59ca1-107">The **Prepare single Standard Edition Server** page details the requirements for the initial install.</span></span> <span data-ttu-id="59ca1-108">該電腦必須是您要部署的所屬網域成員，且您必須為您的樹系成功完成架構、樹系及網域準備工作。</span><span class="sxs-lookup"><span data-stu-id="59ca1-108">The computer must be a member of the domain in which you are going to deploy it, and you must have successfully completed the Schema, Forest, and Domain prep for your forest.</span></span>
+<span data-ttu-id="0c4e2-106">若要開始安裝商務用 Skype Server 2015 Standard Edition server，使其保留中央管理存放區和您所選取的其他組合服務，您必須以將成為 Standard Edition server 之伺服器上的本機系統管理員群組成員的身分登入。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-106">To begin the installation of a Skype for Business Server 2015 Standard Edition server that will hold the Central Management store and other collocated services that you select, you must be logged in as a member of the local Administrators group on the server that will become the Standard Edition server.</span></span> <span data-ttu-id="0c4e2-107">[ **準備單一 Standard Edition Server** ] 頁面詳述初始安裝的需求。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-107">The **Prepare single Standard Edition Server** page details the requirements for the initial install.</span></span> <span data-ttu-id="0c4e2-108">電腦必須是您要部署它所在之網域的成員，而且您必須已成功完成樹系的架構、樹系和網域準備工作。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-108">The computer must be a member of the domain in which you are going to deploy it, and you must have successfully completed the Schema, Forest, and Domain prep for your forest.</span></span>
   
-<span data-ttu-id="59ca1-109">此項特殊工作是專門用來安裝 Standard Edition 伺服器以作為基礎結構中第一部伺服器。</span><span class="sxs-lookup"><span data-stu-id="59ca1-109">This particular task is designed to set up a Standard Edition server as the first server in your infrastructure.</span></span> <span data-ttu-id="59ca1-110">此工作會將中央管理儲存區（即 SQL Server Express）安裝到標準版伺服器。</span><span class="sxs-lookup"><span data-stu-id="59ca1-110">This task installs the Central Management store, which is SQL Server Express, onto the Standard Edition server.</span></span> <span data-ttu-id="59ca1-111">如果您已經部署了另一部 Standard Edition 伺服器或前端集區，則請按一下 [取消]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="59ca1-111">If you already have another Standard Edition server or Front End pool deployed, you should click **Cancel**.</span></span>
+<span data-ttu-id="0c4e2-109">這項特定工作是用來設定 Standard Edition server 作為基礎結構中的第一部伺服器。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-109">This particular task is designed to set up a Standard Edition server as the first server in your infrastructure.</span></span> <span data-ttu-id="0c4e2-110">此工作會將中央管理存放區（即 SQL Server Express）安裝到 Standard Edition Server。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-110">This task installs the Central Management store, which is SQL Server Express, onto the Standard Edition server.</span></span> <span data-ttu-id="0c4e2-111">如果您已經部署了其他 Standard Edition 伺服器或前端集區，則應該按一下 [ **取消**]。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-111">If you already have another Standard Edition server or Front End pool deployed, you should click **Cancel**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="59ca1-112">完成這項工作之後，您將會安裝拓撲建立器（如果尚未安裝），並設定您的拓撲檔。</span><span class="sxs-lookup"><span data-stu-id="59ca1-112">After completing this task, you will install Topology Builder (if you have not already installed it) and configure your topology document.</span></span> <span data-ttu-id="59ca1-113">您必須要有可用的中央管理存放區 (完成此主題中說明的工作來部署)，才能發行拓樸文件。</span><span class="sxs-lookup"><span data-stu-id="59ca1-113">You cannot publish your topology document until you have a Central Management store available—which is deployed by completing the task described in this topic.</span></span> 
+> <span data-ttu-id="0c4e2-112">完成此工作之後，如果尚未安裝拓撲產生器 (，請將其安裝) 並設定拓撲檔。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-112">After completing this task, you will install Topology Builder (if you have not already installed it) and configure your topology document.</span></span> <span data-ttu-id="0c4e2-113">您必須有可用的中央管理存放區（透過完成本主題所述的工作加以部署），才能發行拓撲檔。</span><span class="sxs-lookup"><span data-stu-id="0c4e2-113">You cannot publish your topology document until you have a Central Management store available—which is deployed by completing the task described in this topic.</span></span> 
   
 
