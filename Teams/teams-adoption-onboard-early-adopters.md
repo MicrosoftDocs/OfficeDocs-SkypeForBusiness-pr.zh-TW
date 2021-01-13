@@ -1,7 +1,7 @@
 ---
 title: 讓早期採用者快速上手並收集意見反應
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,32 +21,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: ba82d305d48471e414c8da18aadf598d42445d6d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350237"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821073"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a><span data-ttu-id="87422-103">早期採納並收集 Microsoft 團隊的意見反應</span><span class="sxs-lookup"><span data-stu-id="87422-103">Onboard early adopters and gather feedback for Microsoft Teams</span></span>
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a><span data-ttu-id="ee899-103">早期採納並收集 Microsoft 團隊的意見反應</span><span class="sxs-lookup"><span data-stu-id="ee899-103">Onboard early adopters and gather feedback for Microsoft Teams</span></span>
 
-<span data-ttu-id="87422-104">返回在您的前期程式中表示利息之員工的清單。</span><span class="sxs-lookup"><span data-stu-id="87422-104">Return to the list of employees who expressed interest in your early adopter program.</span></span> <span data-ttu-id="87422-105">決定哪些人應該參與團隊的初始實驗。</span><span class="sxs-lookup"><span data-stu-id="87422-105">Decide which of these individuals should participate in your initial experiments with Teams.</span></span> <span data-ttu-id="87422-106">它可能是所有感興趣的人員或部分。</span><span class="sxs-lookup"><span data-stu-id="87422-106">It may be all or a portion of the people who are interested.</span></span> <span data-ttu-id="87422-107">即使您沒有針對這些初始專案選取這些專案，仍會繼續與他們進行通訊，讓他們保持感興趣，且願意參與未來的作業。</span><span class="sxs-lookup"><span data-stu-id="87422-107">Even if you do not select them for these initial projects, continue communicating with them so they remain interested and will be willing to participate in the future.</span></span> <span data-ttu-id="87422-108">這些專案將會成為您針對您所選取專案的加入程式的一部分，您會根據與業務相關者、您的技術小組，以及上述所示的優先順序運動，在您所選的專案中進行</span><span class="sxs-lookup"><span data-stu-id="87422-108">They will be a part of the onboarding process for the projects you selected based on your discussions with business stakeholders, your technical team, and your prioritization exercise shown above.</span></span> 
+<span data-ttu-id="ee899-104">返回在您的前期程式中表示利息之員工的清單。</span><span class="sxs-lookup"><span data-stu-id="ee899-104">Return to the list of employees who expressed interest in your early adopter program.</span></span> <span data-ttu-id="ee899-105">決定哪些人應該參與團隊的初始實驗。</span><span class="sxs-lookup"><span data-stu-id="ee899-105">Decide which of these individuals should participate in your initial experiments with Teams.</span></span> <span data-ttu-id="ee899-106">它可能是所有感興趣的人員或部分。</span><span class="sxs-lookup"><span data-stu-id="ee899-106">It may be all or a portion of the people who are interested.</span></span> <span data-ttu-id="ee899-107">即使您沒有針對這些初始專案選取這些專案，仍會繼續與他們進行通訊，讓他們保持感興趣，且願意參與未來的作業。</span><span class="sxs-lookup"><span data-stu-id="ee899-107">Even if you do not select them for these initial projects, continue communicating with them so they remain interested and will be willing to participate in the future.</span></span> <span data-ttu-id="ee899-108">這些專案將會成為您針對您所選取專案的加入程式的一部分，您會根據與業務相關者、您的技術小組，以及上述所示的優先順序運動，在您所選的專案中進行</span><span class="sxs-lookup"><span data-stu-id="ee899-108">They will be a part of the onboarding process for the projects you selected based on your discussions with business stakeholders, your technical team, and your prioritization exercise shown above.</span></span> 
 
-<span data-ttu-id="87422-109">使用這些早期採納者完成下列步驟：</span><span class="sxs-lookup"><span data-stu-id="87422-109">Complete the following steps with these early adopters:</span></span>
+<span data-ttu-id="ee899-109">使用這些早期採納者完成下列步驟：</span><span class="sxs-lookup"><span data-stu-id="ee899-109">Complete the following steps with these early adopters:</span></span>
 
-1. <span data-ttu-id="87422-110">傳送邀請電子郵件給他們，邀請他們加入社區。</span><span class="sxs-lookup"><span data-stu-id="87422-110">Send an invitation email to them to invite them into the community,</span></span>
-2. <span data-ttu-id="87422-111">主持啟動通話，與他們分享前期程式的目標和結果</span><span class="sxs-lookup"><span data-stu-id="87422-111">Host a kick-off call to share with them the goals and outcomes of the early adopter program,</span></span>
-3. <span data-ttu-id="87422-112">請確定您的團隊小組擁護者團隊以及您可能會使用的任何其他內部社交網路工具，以存取意見反應頻道。</span><span class="sxs-lookup"><span data-stu-id="87422-112">Ensure access to the feedback channel of your teamwork champions team and any other internal social networking tools you may use.</span></span> 
-4. <span data-ttu-id="87422-113">考慮建立定期調查，以完成將收集目標資訊的專案。</span><span class="sxs-lookup"><span data-stu-id="87422-113">Consider creating periodic surveys for them to complete that will gather targeted information.</span></span>
+1. <span data-ttu-id="ee899-110">傳送邀請電子郵件給他們，邀請他們加入社區。</span><span class="sxs-lookup"><span data-stu-id="ee899-110">Send an invitation email to them to invite them into the community,</span></span>
+2. <span data-ttu-id="ee899-111">主持啟動通話，與他們分享前期程式的目標和結果</span><span class="sxs-lookup"><span data-stu-id="ee899-111">Host a kick-off call to share with them the goals and outcomes of the early adopter program,</span></span>
+3. <span data-ttu-id="ee899-112">請確定您的團隊小組擁護者團隊以及您可能會使用的任何其他內部社交網路工具，以存取意見反應頻道。</span><span class="sxs-lookup"><span data-stu-id="ee899-112">Ensure access to the feedback channel of your teamwork champions team and any other internal social networking tools you may use.</span></span> 
+4. <span data-ttu-id="ee899-113">考慮建立定期調查，以完成將收集目標資訊的專案。</span><span class="sxs-lookup"><span data-stu-id="ee899-113">Consider creating periodic surveys for them to complete that will gather targeted information.</span></span>
 
-## <a name="gather-feedback"></a><span data-ttu-id="87422-114">收集意見反應</span><span class="sxs-lookup"><span data-stu-id="87422-114">Gather feedback</span></span>
+## <a name="gather-feedback"></a><span data-ttu-id="ee899-114">收集意見反應</span><span class="sxs-lookup"><span data-stu-id="ee899-114">Gather feedback</span></span>
 
-<span data-ttu-id="87422-115">使用 Microsoft 365 或 Office 365 的元件，為您的專案收集意見反應。</span><span class="sxs-lookup"><span data-stu-id="87422-115">Use the components of Microsoft 365 or Office 365 to gather feedback for your project.</span></span>
+<span data-ttu-id="ee899-115">使用 Microsoft 365 或 Office 365 的元件，為您的專案收集意見反應。</span><span class="sxs-lookup"><span data-stu-id="ee899-115">Use the components of Microsoft 365 or Office 365 to gather feedback for your project.</span></span>
   
-![代表決策點的圖示](media/teams-adoption-decision-icon.png) <span data-ttu-id="87422-117">決策：如果您的組織已在 Yammer 網路中擁有投資，您可以將其做為您的先期消費者程式的意見反應論壇。</span><span class="sxs-lookup"><span data-stu-id="87422-117">Decision: If your organization already has an investment in a Yammer network, you can use it as a feedback forum for your early adopter program.</span></span> <span data-ttu-id="87422-118">如果不是，而您的前期消費者程式的成員少於5000個，請在小組中建立小組，以收集意見反應並提供訓練。</span><span class="sxs-lookup"><span data-stu-id="87422-118">If not, and your early adopter program has less than 5000 members, create a team in Teams to gather feedback and provide training.</span></span>
+![表示決策點的圖示](media/teams-adoption-decision-icon.png) <span data-ttu-id="ee899-117">決策：如果您的組織已在 Yammer 網路中擁有投資，您可以將其做為您的先期消費者程式的意見反應論壇。</span><span class="sxs-lookup"><span data-stu-id="ee899-117">Decision: If your organization already has an investment in a Yammer network, you can use it as a feedback forum for your early adopter program.</span></span> <span data-ttu-id="ee899-118">如果不是，而您的前期消費者程式的成員少於5000個，請在小組中建立小組，以收集意見反應並提供訓練。</span><span class="sxs-lookup"><span data-stu-id="ee899-118">If not, and your early adopter program has less than 5000 members, create a team in Teams to gather feedback and provide training.</span></span>
   
 > [!Note]
-> <span data-ttu-id="87422-119">有些組織會將前期意見反應的頻道結合到小組擁護者小組中。</span><span class="sxs-lookup"><span data-stu-id="87422-119">Some organizations will combine the channels for early adopter feedback into the teamwork champions program team.</span></span> <span data-ttu-id="87422-120">這是一種很好的做法，因為許多早期的使用方式可能會成為未來的擁護者，而且會建立更強的群組。</span><span class="sxs-lookup"><span data-stu-id="87422-120">This is a good approach because many early adopters may become champions in the future, and it will build a stronger community.</span></span> 
+> <span data-ttu-id="ee899-119">有些組織會將前期意見反應的頻道結合到小組擁護者小組中。</span><span class="sxs-lookup"><span data-stu-id="ee899-119">Some organizations will combine the channels for early adopter feedback into the teamwork champions program team.</span></span> <span data-ttu-id="ee899-120">這是一種很好的做法，因為許多早期的使用方式可能會成為未來的擁護者，而且會建立更強的群組。</span><span class="sxs-lookup"><span data-stu-id="ee899-120">This is a good approach because many early adopters may become champions in the future, and it will build a stronger community.</span></span> 
 
 
-<span data-ttu-id="87422-121">![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ：[板載支援](teams-adoption-onboard-support.md)。</span><span class="sxs-lookup"><span data-stu-id="87422-121">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Onboard support](teams-adoption-onboard-support.md).</span></span>
+<span data-ttu-id="ee899-121">![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [板載支援](teams-adoption-onboard-support.md)。</span><span class="sxs-lookup"><span data-stu-id="ee899-121">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Onboard support](teams-adoption-onboard-support.md).</span></span>
