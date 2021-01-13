@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中評價我的通話
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 摘要：瞭解商務用 Skype Server 中的通話功能的速率。
-ms.openlocfilehash: 15f2bcbcf75690baaa350541f5f1da134fb32025
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 597a8213576e7aa2316ace68ed91288475df2a0d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902217"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814333"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在商務用 Skype Server 中評價我的通話
 
@@ -33,7 +33,7 @@ ms.locfileid: "44902217"
 
 在商務用 Skype 伺服器部署中的使用者可以存取我的呼叫功能之前，必須部署及設定下列元件：
 
--  您必須已安裝商務用 Skype Server （版本9160或更高版本）。
+-  您必須安裝商務用 Skype Server (版本9160或更高版本) 。
 
 - 讓您的使用者安裝並更新至最新版本的商務用 Skype，也要求他們使用商務用 Skype UI。
 
@@ -41,7 +41,7 @@ ms.locfileid: "44902217"
 
 - 您必須已部署商務用 Skype Server 監控資料庫並與商務用 Skype 伺服器集區相關聯。
 
-- 建議您部署通話品質儀表板（CQD）。
+- 建議您部署通話品質儀表板 (CQD) 。
 
 ## <a name="configure-rate-my-call"></a>設定通話的速率
 
@@ -61,9 +61,9 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
 使用者的資料會收集在監控資料庫中的兩個表格中。
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表格包含使用者對權杖進行輪詢的結果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]** -此表格包含使用者對權杖進行輪詢的結果。
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表格包含 token 定義。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]** -此表格包含 token 定義。
 
 權杖定義的編碼方式如下：
 
@@ -110,7 +110,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
  **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表格包含 "星" 投票和客戶意見反應（若啟用）的輪詢結果。
 
-您可以使用** \* [Table.Name]** 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。
+您可以使用 **\* [Table.Name]** 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。
 
 下列 SQL 查詢可供使用：
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新權杖定義
 
-最新的商務用 Skype 用戶端報告新問題權杖 IDs （ \> 100）可能不會出現在 [QoeMetrics] 中。 [dbo]。[CallQualityFeedbackTokenDef] 表格。 若要以最新的標記定義更新資料庫資料表，可在使用 Microsoft SQL Server Management Studio 的監控資料庫上執行下列 SQL 命令。 此命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
+最新的商務用 Skype 用戶端報告新問題 token IDs (\> 100) 中的 [QoeMetrics] 不會出現。 [dbo]。[CallQualityFeedbackTokenDef] 表格。 若要以最新的標記定義更新資料庫資料表，可在使用 Microsoft SQL Server Management Studio 的監控資料庫上執行下列 SQL 命令。 此命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

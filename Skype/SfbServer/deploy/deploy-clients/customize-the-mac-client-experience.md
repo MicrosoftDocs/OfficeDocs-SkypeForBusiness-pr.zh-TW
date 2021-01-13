@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中自訂 Mac 用戶端體驗
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: 本文將說明 Mac 版商務用 Skype 的客戶喜好設定及預設值，以及如何在 App 外編輯這些設定。
-ms.openlocfilehash: 796ccdc7d876547e38482a853dc9f89c38bcf53d
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 本文說明 Mac 用戶端上商務用 Skype 的用戶端喜好設定和預設值，以及如何在應用程式外進行編輯。
+ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768826"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805753"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在商務用 Skype 中自訂 Mac 用戶端體驗
  
-本文將說明 Mac 版商務用 Skype 的客戶喜好設定及預設值，以及如何在 App 外編輯這些設定。
+本文說明 Mac 用戶端上商務用 Skype 的用戶端喜好設定和預設值，以及如何在應用程式外進行編輯。
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac 版商務用 Skype 用戶端喜好設定
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac 用戶端偏好設定的商務用 Skype
 
-Mac 用戶端上的商務用 Skype 所能使用的某些功能和行為是由用戶端上的喜好設定決定。 Mac 版商務用 Skype 喜好設定會在 mac 上的檔案中找到，該檔案已安裝位於下列路徑的商務用 Skype 用戶端： 
+在 Mac 用戶端上供商務用 Skype 使用的某些功能和行為，取決於用戶端上的喜好設定。 在 Mac 上商務用 Skype 的商務用 Skype 偏好設定會在已安裝商務用 Skype 用戶端（位於下列路徑中）的檔案中找到： 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-若要設定這些喜好設定，請在用戶端的 Mac 上取得終端提示，並視需要輸入預設值 write Com.microsoft.skypeforbusiness.plugin.plist 按鍵命令，使用下表所述的喜好設定鍵。
+若要設定這些喜好設定，請在用戶端的 Mac 上，並視需要使用 [使用下表所述的喜好設定參數來輸入預設值] SkypeForBusiness 按鍵命令，來取得終端提示。
   
-**用戶端喜好設定鍵**
+**用戶端喜好設定機碼**
 
 
-| 機碼 | 類型 | 值 | 說明 |
+| 索引鍵 | Type | 值 | 描述 |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Bool    |0 = 手動伺服器設定  <br/> 1 = 自動伺服器偵測（預設）    |指定商務用 Skype 識別登入期間要使用的傳輸和伺服器的方式。 如果您啟用此原則設定，您必須指定**internalAutoDiscoveryURL**和**externalAutoDiscoveryURL**。   |
-|internalAutoDiscoveryURL    |String    |完整的自動探索 URL    |內部自動探索 URL    |
-|externalAutoDiscoveryURL    |String    |完整的自動探索 URL    |外部自動探索 URL    |
-|HTTPProxyDomain    |String    ||HTTP Proxy 網域    |
-|HTTPProxyUserName    |String    ||HTTP Proxy 使用者名稱    |
-|HTTPProxyPassword    |String    ||HTTP Proxy 密碼    |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = 手動伺服器設定  <br/> 1 = 自動伺服器偵測 (預設)     |指定商務用 Skype 如何識別登入期間要使用的傳輸和伺服器。 如果您啟用此原則設定，您必須指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。   |
+|internalAutoDiscoveryURL    |字串    |完整自動探索 URL    |內部自動探索 URL    |
+|externalAutoDiscoveryURL    |字串    |完整自動探索 URL    |外部自動探索 URL    |
+|HTTPProxyDomain    |字串    ||HTTP Proxy 網域    |
+|HTTPProxyUserName    |字串    ||HTTP Proxy 使用者名稱    |
+|HTTPProxyPassword    |字串    ||HTTP Proxy 密碼    |
 |trustedDomainList    |陣列    ||HTTP 重新導向的信任網域清單。    |
-|autoAcceptTimeout    |電話    |300（預設值）    |針對沒有伺服器端交談記錄的使用者，自動接受超時。    |
-|warnWhenUnknownLocationForE911    |Bool    |0 = 停用  <br/> 1 = 已啟用    |從未知位置撥入緊急號碼時警告使用者。    |
-|sipAddress    |String    ||用來登入商務用 Skype 的 SIP 位址（電子郵件）。    |
-|userName    |String    ||用來登入商務用 Skype 的 UPN （使用者名稱）。    |
-|userNameInAdvancedOnly    |Bool    |0 = 在主要登錄畫面和 [高級屬性] 對話方塊中顯示 [使用者名稱] 欄位  <br/> 1 = 只在 [高級屬性] 對話方塊中顯示 [使用者名稱] 欄位（預設）    |指定登入期間 [使用者名稱] 欄位的顯示位置。    |
+|autoAcceptTimeout    |數字    |300 (預設值)     |自動接受使用者沒有伺服器端交談歷程記錄的超時。    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = 停用  <br/> 1 = 啟用    |從未知位置撥打緊急號碼時警告使用者。    |
+|sipAddress    |字串    ||SIP 位址 (電子郵件) ，用來登入商務用 Skype。    |
+|使用者    |字串    ||UPN (UserName) 用來登入商務用 Skype。    |
+|userNameInAdvancedOnly    |Bool    |0 = 顯示主要登入畫面及 [高級屬性] 對話方塊中的 [使用者名稱] 欄位  <br/> 1 = 只有在 [高級屬性] 對話方塊中，才會顯示 [使用者名稱] 欄位 (預設)     |指定登入期間顯示使用者名稱欄位的位置。    |
    
-### <a name="usage-examples"></a>用法範例
+### <a name="usage-examples"></a>使用範例
 
-若要新增單一網域（Contoso.com）至 [受信任的網域] 清單，您可以使用 trustedDomainList 金鑰，如下所示：
+若要將單一網域 (Contoso.com) 新增至信任的網域清單，您可以使用 trustedDomainList 機碼，如下所示：
   
-預設寫入 Com.microsoft.skypeforbusiness.plugin.plist trustedDomainList-array-add "Contoso.com"
+預設值寫入 SkypeForBusiness trustedDomainList-array-add "Contoso.com"
   
-若要在受信任的網域清單中新增多個網域，您可以使用 trustedDomainList 鍵，如下所示：
+若要將多個網域新增至信任的網域清單，您可以使用 trustedDomainList 機碼，如下所示：
   
-預設寫入 Com.microsoft.skypeforbusiness.plugin.plist trustedDomainList-array-add "sfb.com" "abc.com" "test.org"
+預設值寫入 SkypeForBusiness trustedDomainList-array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>範例未編輯的設定
+### <a name="sample-unedited-settings"></a>未編輯的設定範例
 
-若是參照，以下是僅使用預設設定的範例設定檔案： 
+如需參考，以下是僅使用預設設定的範例設定檔： 
   
 ```console
 {

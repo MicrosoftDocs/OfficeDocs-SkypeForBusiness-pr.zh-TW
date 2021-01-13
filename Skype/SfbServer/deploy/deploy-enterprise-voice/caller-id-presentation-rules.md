@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中建立或修改呼叫者識別碼簡報的翻譯規則
+title: 在商務用 Skype Server 中建立或修改呼叫者識別碼簡報的轉譯規則
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,43 +15,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 摘要：瞭解如何使用商務用 Skype Server [控制台] 來設定本機號碼。
-ms.openlocfilehash: d6b2e594d0f16e9b3278145087af854650a957da
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：瞭解如何使用商務用 Skype Server [控制台] 設定來電者識別碼。
+ms.openlocfilehash: ca1451a051a1c9053b88861222d2c4d42c5d555b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768156"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804183"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改呼叫者識別碼簡報的翻譯規則
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改呼叫者識別碼簡報的轉譯規則
 
-**摘要：** 瞭解如何使用商務用 Skype Server [控制台] 設定本機號碼。
+**摘要：** 瞭解如何使用商務用 Skype Server [控制台] 設定來電者識別碼。
 
-在商務用 Skype Server 中，呼叫方的電話號碼（也就是呼叫的電話號碼）可以從. 164 格式翻譯成_幹線對等_所需的本機撥號格式（也就是關聯的閘道、私人分支 EXCHANGE （PBX）或 SIP 幹線）。 若要這樣做，您必須先定義一或多個翻譯規則，才能轉換要求 URI，然後再將它傳送到幹線對等。
+在商務用 Skype Server 中，被叫方的電話號碼 (也就是說，稱為) 的電話號碼可以從 e.164 格式轉譯成  _主幹對等_ (（即相關聯的閘道、專用交換機 (PBX) 或 SIP 主幹) ）所需的本機撥號格式。 若要執行此項作業，您必須定義一或多個轉譯規則，以在將其路由傳送至主幹對等之前轉譯要求 URI。
 
-商務用 Skype 伺服器也會提供將呼叫方的電話號碼（也就是呼叫者撥打的電話號碼）從 E-164 格式轉換為幹線對等所需的本機撥號格式的選項。 例如，您可以撰寫翻譯規則，以從撥號字串開頭移除 + 44，然後將它取代為0144。
+商務用 Skype 伺服器也可讓您選擇翻譯通話方的電話號碼 (也就是說，來電者撥打的電話號碼會從) （e.164 格式）為主幹對等項所需的本機撥號格式。 例如，您可撰寫轉譯規則，來將撥號字串開頭的 +44 移除，並以 0144 來取代。
 
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 設定本機號碼
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台設定來電者識別碼
 
-1. 開啟商務用 Skype Server 的 [控制台]。
+1. 開啟商務用 Skype Server 控制台。
 
-2. 在左側導覽列中，按一下 [**語音路由**]，然後按一下 [**幹線**設定]。
+2. 在左導覽列中，按一下 **[語音路由]**，然後按一下 **[主幹組態]**。
 
-3. 在 [**幹線**設定] 頁面上，按兩下現有的主幹（例如 [**全域**幹線]），以顯示 [**編輯主幹**設定] 對話方塊。
+3. 在 **[主幹組態]** 頁面上，按兩下現有的主幹 (例如 **[通用]** 主幹)，顯示 **[編輯主幹組態]** 對話方塊。
 
-4. 若要設定本機號碼方式：
+4. 若要設定來電者 ID 呈現方式：
 
-   - 若要從企業語音部署中所有可用的翻譯規則清單中選擇一或多個規則，請按一下 [**選取**]。 在 [**呼叫編號翻譯規則**] 中，按一下您要與主幹建立關聯的規則，然後按一下 **[確定]**。
+   - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[來電號碼轉譯規則]** 中，按一下您想要與主幹建立關聯的規則，然後按一下 **[確定]**。
 
-   - 若要定義新的翻譯規則，並將其與骨幹建立關聯，請按一下 [**新增**]。 如需有關定義新規則的詳細資料，請參閱在部署檔中[定義翻譯規則](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
+   - 若要定義新的轉譯規則並將其與主幹建立關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的  [定義轉譯規則](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) 。
 
-   - 若要編輯已經與主幹建立關聯的翻譯規則，請按一下規則名稱，然後按一下 [**顯示詳細資料**]。 如需詳細資訊，請參閱在部署檔中[定義翻譯規則](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
+   - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署文件中的[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
 
-   - 若要複製現有的翻譯規則，以做為定義新規則的起點，請按一下規則名稱，然後按一下 [**複製**]，然後按一下 [**貼**上]。 如需詳細資訊，請參閱[定義翻譯規則](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
+   - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，＜[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)＞。
 
-   - 若要從主幹中移除翻譯規則，請將規則名稱醒目提示，然後按一下 [**移除**]。
+   - 若要從主幹移除轉譯規則，請反白顯示該規則名稱並按一下 **[移除]**。
 
      > [!CAUTION]
-     > 如果您已在關聯的中繼對等上設定翻譯規則，請不要將翻譯規則與幹線建立關聯，因為這兩個規則可能會衝突。
+     > 如果您已在相關聯的主幹對等上設定轉譯規則，則請勿將轉譯規則與主幹建立關聯，因為兩種規則可能會衝突。
 
 

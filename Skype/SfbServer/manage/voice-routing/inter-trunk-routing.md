@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype 伺服器中的中繼站間路由
+title: 商務用 Skype Server 中的主幹間路由
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: '商務用 Skype 伺服器提供基本的會話管理，並支援 intertrunk 路由。 '
-ms.openlocfilehash: c3381c6ae6bd86c416e6bd3349cf54d6fb530a08
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '商務用 Skype 伺服器提供基本的會話管理，其支援主幹間路由。 '
+ms.openlocfilehash: d509b4f9de489e65ed8443fd1aad92e24363fb55
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816963"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814123"
 ---
-# <a name="inter-trunk-routing-in-skype-for-business-server"></a>商務用 Skype 伺服器中的中繼站間路由
+# <a name="inter-trunk-routing-in-skype-for-business-server"></a>商務用 Skype Server 中的主幹間路由
 
-商務用 Skype 伺服器提供基本的會話管理，並支援 intertrunk 路由。 此功能可讓商務用 Skype Server 提供對下游電話系統的呼叫控制功能。 Intertrunk 路由可以將 IP PBX 互連至公用的交換電話網絡（PSTN）閘道，讓來自私人分支 exchange （PBX）電話的呼叫可以路由到 PSTN，而且傳入 PSTN 呼叫可以路由到 PBX 電話。 同樣地，商務用 Skype 伺服器可以相互連接兩個或多個 IP PBX 系統，以便在不同 IP PBX 系統的 PBX 手機之間進行呼叫和接收。 
+商務用 Skype 伺服器提供基本的會話管理，其支援主幹間路由。 這項功能可讓商務用 Skype Server 向下游電話語音系統提供呼叫控制功能。 主幹間路由可將 IP-PBX 互連至公用交換電話網路 (PSTN) 閘道，使來自私營分公司 exchange (PBX) phone 的呼叫可以路由傳送至 PSTN，而且傳入 PSTN 通話可以路由傳送至 PBX 電話。 同樣地，商務用 Skype 伺服器也可以互連兩個或多個 IP-PBX 系統，這樣通話便可在不同 IP-PBX 系統的 PBX 電話間撥打及接收。 
 
 
-下圖說明在 PSTN 閘道與 IP PBX 之間提供 interconnectivity 的商務用 Skype 伺服器。
+下圖說明在 PSTN 閘道和 IP-PBX 之間提供 interconnectivity 的商務用 Skype 伺服器。
 
-![PSTN 閘道與 IP PBX 之間的 Interconnectivity](../../media/pstn-gateway-ip-pbx.jpg)
+![PSTN 閘道和 IP-PBX 之間的 Interconnectivity](../../media/pstn-gateway-ip-pbx.jpg)
 
-下圖說明連接兩個 IP PBX 系統的商務用 Skype 伺服器。
+下圖說明連接兩個 IP-PBX 系統之商務用 Skype Server 的伺服器。
 
-![連接兩個 IP-PGX 系統的商務用 Skype 伺服器](../../media/two-ip-pbx-systems.jpg)
+![連接兩個 IP PGX 系統的商務用 Skype Server](../../media/two-ip-pbx-systems.jpg)
 

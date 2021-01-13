@@ -1,8 +1,8 @@
 ---
 title: 規劃整合商務用 Skype 和 Exchange
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要：請參閱本主題，以取得如何整合商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 的相關資訊。
-ms.openlocfilehash: d5d2a50e3b3b376bc27a407313944a31dc1352f6
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: f2a9dfc718b7891a0cbe9b7b1455df24531a6ed0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359259"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810098"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>規劃整合商務用 Skype 和 Exchange
  
@@ -93,7 +93,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 下表詳細說明在線上或內部部署的 Exchange 和商務用 Skype 中，支援的各項功能。
   
-||**Exchange 2016/2013/2010 (內部部署) + 內部部署的商務用 Skype 伺服器 () **|**Exchange Online + 商務用 Skype Server (內部部署) **|**Exchange 2010 (內部部署) + 商務用 Skype Online**|**Exchange 2016/2013 (內部部署) + 商務用 Skype Online**|**Exchange Online + 商務用 Skype Online**|
+||**Exchange 2016/2013/2010 (內部部署) + 內部部署的商務用 Skype 伺服器 ()**|**Exchange Online + 商務用 Skype Server (內部部署)**|**Exchange 2010 (內部部署) + 商務用 Skype Online**|**Exchange 2016/2013 (內部部署) + 商務用 Skype Online**|**Exchange Online + 商務用 Skype Online**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Outlook 中的目前狀態  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |透過 IM、PSTN 通話、Skype 通話或來自 Outlook 電子郵件的視頻呼叫進行回應  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |

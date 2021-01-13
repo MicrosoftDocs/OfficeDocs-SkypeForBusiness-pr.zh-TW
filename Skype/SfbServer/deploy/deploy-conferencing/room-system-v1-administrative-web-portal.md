@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中部署 SRS v1 系統管理 Web 入口網站
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: 商務用 Skype Server Skype 聊天室 Systems （SRS v1，以前稱為 Lync 會議室系統）系統管理 Web 入口網站是一種網頁入口網站，組織可以用來維護其 Skype 會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
-ms.openlocfilehash: d718adb60437fdd7e08724a5ba5fc48fa120425e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+description: 商務用 Skype Server Skype 聊天室 Systems server v1 (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一種網頁入口網站，可供組織用來維護其 Skype 室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
+ms.openlocfilehash: 7d7bef99149d09ebf72c9b633370f262e535b23f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "42045896"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804533"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 SRS v1 系統管理 Web 入口網站
 
-商務用 Skype Server Skype 聊天室 Systems （SRS v1，以前稱為 Lync 會議室系統）系統管理 Web 入口網站是一種網頁入口網站，組織可以用來維護其 Skype 會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
+商務用 Skype Server Skype 聊天室 Systems server v1 (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一種網頁入口網站，可供組織用來維護其 Skype 室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
 
 若要使用此功能，您必須在每一部商務用 Skype Server 前端伺服器上部署 SRS v1 管理網頁入口網站。 本指南提供系統管理員如何安裝和設定 SRS 管理網頁入口網站的指示。 其適用于具備商務用 Skype Server 管理知識的系統管理員，以及具有管理員使用者許可權，可修改商務用 Skype 伺服器拓撲的系統管理員。
 
 在伺服器上部署 SRS v1 系統管理 Web 入口網站後，系統管理員可以從自己的電腦或膝上型電腦登入網站，以檢查狀態 SRS v1 裝置。
 
 > [!IMPORTANT]
-> 下載[適用于商務用 Skype Server 2015 的 Microsoft Skype 聊天室 Systems server V1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
+> 下載 [適用于商務用 Skype Server 2015 的 Microsoft Skype 聊天室 Systems server V1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
 
 本主題內容：
 
@@ -45,11 +45,11 @@ ms.locfileid: "42045896"
 若要使用 SRS v1 管理網頁入口網站，您必須安裝或設定下列必要條件。
 
 > [!IMPORTANT]
-> 如果伺服器設定了 Kerberos 和 NTLM 驗證，而 SRS 是在未加入網域的電腦上執行，則 Kerberos 驗證會失敗，且使用者將不會在系統管理入口網站看到 SRS 的狀態。 若要解決此問題，請將伺服器設定為使用 NTLM 驗證或 NTLM 和 TLS DSK 驗證（沒有 Kerberos），或將 SRS 電腦加入網域。
+> 如果伺服器設定了 Kerberos 和 NTLM 驗證，而 SRS 是在未加入網域的電腦上執行，則 Kerberos 驗證會失敗，且使用者將不會在系統管理入口網站看到 SRS 的狀態。 若要解決此問題，請使用沒有 Kerberos) 的 ntlm 和 TLS DSK 驗證 (來設定伺服器，或將 SRS 電腦加入網域。
 
 1. 在商務用 Skype 伺服器拓撲中安裝商務用 Skype Server 累計更新。
 
-    若要取得更新或查看其隨附的內容，請參閱[更新商務用 Skype Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
+    若要取得更新或查看其隨附的內容，請參閱 [更新商務用 Skype Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
 
 2. 建立 SIP-enabled Active Directory 使用者。
 
@@ -77,12 +77,12 @@ ms.locfileid: "42045896"
 
      ![LRSSupportAdminGroup 屬性成員] 頁面](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
-8. 在[Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 上安裝 ASP.NET MVC 4](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
+8. 在 [Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 上安裝 ASP.NET MVC 4](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>安裝 SRS v1 系統管理 Web 入口網站
 <a name="Install_SRS"> </a>
 
-下載[適用于商務用 Skype Server 2015 的 Microsoft Skype 聊天室 Systems server V1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
+下載 [適用于商務用 Skype Server 2015 的 Microsoft Skype 聊天室 Systems server V1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
 
 若要安裝 SRS v1 系統管理 Web 入口網站，請使用下列步驟。
 
@@ -92,13 +92,13 @@ ms.locfileid: "42045896"
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
-2. 若要安裝會議聊天室入口網站，請下載**MeetingRoomPortalInstaller** ，然後以系統管理員身分執行。
+2. 若要安裝會議室入口網站，請下載 **MeetingRoomPortalInstaller.msi** ，然後以系統管理員身分執行。
 
-3. 從下列位置開啟 web.config 檔案：
+3. 從下列位置開啟 Web.config 檔案：
 
     % Program Files%\Skype for Business Server 2015 \ Web Components\Meeting 聊天室 Portal\Int\Handler\
 
-4. 在 Web.Config 檔案中，將 PortalUserName 變更為在步驟2中建立的使用者名稱，並在 [[設定您的 SRS v1 系統管理 Web 入口網站](room-system-v1-administrative-web-portal.md#Config_Env)」區段下建立的使用者名稱（步驟中的建議名稱是 LRSApp）：
+4. 在 Web.Config 檔案中，將 PortalUserName 變更為在步驟2中建立的使用者名稱，並在 [[設定您的 SRS v1 系統管理 Web 入口網站](room-system-v1-administrative-web-portal.md#Config_Env)」區段下， (步驟中的建議名稱是 LRSApp) ：
 
     ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -153,15 +153,15 @@ ms.locfileid: "42045896"
 
 [摘要] 頁面針對伺服器上部署的所有 SRS 聊天室，提供下列資訊：
 
-- **標記**管理員提供給會議室的自訂名稱。 您可以在入口網站中，按一下會議室名稱以設定標記。
+- **標記** 管理員提供給會議室的自訂名稱。 您可以在入口網站中，按一下會議室名稱以設定標記。
 
-- **健全狀況**會議室的健全狀況狀態，它是由聊天室的合計健康狀態所組成，它會顯示在 [會議室設定] 頁面的 [健康情況] 區段下。
+- **健全狀況** 會議室的健全狀況狀態，它是由聊天室的合計健康狀態所組成，它會顯示在 [會議室設定] 頁面的 [健康情況] 區段下。
 
-- **下一個會議**排定下一個會議的日期和時間。
+- **下一個會議** 排定下一個會議的日期和時間。
 
-- **SRS 版本、製造商、模型**這些值是 SRS 中的預置。 視製造商而定，這些欄位可能會保留空白。
+- **SRS 版本、製造商、模型** 這些值是 SRS 中的預置。 視製造商而定，這些欄位可能會保留空白。
 
-- **上次**重新整理顯示上次重新整理網頁的時間。
+- **上次** 重新整理顯示上次重新整理網頁的時間。
 
 ![Lync 會議室系統管理員入口網站摘要視圖](../../media/LRS_AdminPortal_Summary_view.png)
 
@@ -186,7 +186,7 @@ ms.locfileid: "42045896"
 
 #### <a name="troubleshooting"></a>疑難排解
 
-疑難排解區段可用於遠端收集記錄，並將其儲存到指定的位置。 您也可以重新開機 SRS 主控台（SRS 使用者介面），或重新開機整個系統。 若要收集記錄檔，請以指定的格式提供資料夾路徑，並確定資料夾具有 SR 電腦帳戶的寫入權限。 如果記錄檔的大小過大，則最多可能需要5分鐘的時間來收集記錄檔。 重新整理頁面可提供您最新的狀態。
+疑難排解區段可用於遠端收集記錄，並將其儲存到指定的位置。 您也可以重新開機 SRS 主控台 (SRS 使用者介面) 或重新開機整個系統。 若要收集記錄檔，請以指定的格式提供資料夾路徑，並確定資料夾具有 SR 電腦帳戶的寫入權限。 如果記錄檔的大小過大，則最多可能需要5分鐘的時間來收集記錄檔。 重新整理頁面可提供您最新的狀態。
 
 #### <a name="health"></a>健康情況
 
@@ -240,7 +240,7 @@ ms.locfileid: "42045896"
 
 - 請確定 LRSApp 的使用者帳戶已 SIP-enabled。
 
-- 如果仍有問題，請從 D:\Tracing\LRSAdminLogs 收集 SRS 系統中的**Trace .log**檔案 \, ，然後將它傳送給您的 SRS 支援連絡人。
+- 如果仍有問題，請從 D:\Tracing\LRSAdminLogs 收集 SRS 系統中的 **Trace .log** 檔案 \, ，然後將它傳送給您的 SRS 支援連絡人。
 
 #### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>為何在管理網頁入口網站中看不到 SR 的大量管理功能表？
 

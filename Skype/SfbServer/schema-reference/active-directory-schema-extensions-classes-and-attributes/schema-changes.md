@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的架構變更
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,42 +12,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: 在您部署並執行商務用 Skype Server 之前，您必須透過延伸架構來準備 Active Directory 網域服務。 架構延伸會新增商務用 Skype Server 所需的類別和屬性。
-ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 在您部署及操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。
+ms.openlocfilehash: 4ca18b0ccfde6b247f1c29e140004804462d0f56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815481"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813573"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>商務用 Skype Server 中的架構變更
  
-在您部署並執行商務用 Skype Server 之前，您必須透過延伸架構來準備 Active Directory 網域服務。 架構延伸會新增商務用 Skype Server 所需的類別和屬性。
+在您部署及操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。
 
 > [!NOTE]
-> 如果您要從 Lync Server 2013 升級到商務用 Skype Server 2015，則不會進行任何架構變更，因此本文不適用。
+> 如果您是從 Lync Server 2013 升級至商務用 Skype Server 2015，則不會進行任何架構變更，因此不會套用這篇文章。
   
-商務用 Skype 伺服器需要幾個新的類別和屬性，並修改一些現有的類別和屬性。 此外，商務用 Skype 伺服器的許多配置資訊會儲存在中央管理儲存區，而不是在 AD DS 中，就像在舊版中一樣。 下列資訊仍會儲存在商務用 Skype Server 的 AD DS 中：
+商務用 Skype 伺服器需要數個新的類別和屬性，並修改一些現有的類別和屬性。 此外，商務用 Skype 伺服器的大部分設定資訊都會儲存在中央管理存放區，而不是 AD DS 中，就像先前的版本一樣。 下列資訊仍儲存在 AD DS 中的商務用 Skype Server 中：
   
 - **架構擴充**：
     
-  - 使用者物件延伸
+  - 使用者物件擴充
     
-  - 類別延伸與支援的舊版 Lync Server 保持向後相容性。
+  - 用於維護與支援之舊版 Lync Server 的回溯相容性的類別擴充。
     
-- **資料**（儲存在商務用 Skype Server 延伸架構和現有的架構類別中）：
+- 儲存在商務用 Skype Server 擴充架構和現有架構類別中的 **資料** () ：
     
-  - 使用者 SIP 統一資源識別項（URI）及其他使用者設定
+  - 使用者 SIP 統一資源識別項 (URI) 和其他使用者設定
     
   - 回應群組和會議助理等應用程式的連絡人物件
     
-  - 指向中央管理存放區的指標
+  - 中央管理存放區的指標
     
-  - Kerberos 驗證帳戶（選擇性電腦物件）
+  - Kerberos 驗證帳戶 (選用的電腦物件) 
     
-本主題描述商務用 Skype Server 所需的 Active Directory 架構變更。 它不會說明舊版 Office 通訊伺服器所引入的架構變更。 如需類別及其描述的清單，請參閱[商務用 Skype Server 中的架構類別和描述](schema-classes-and-descriptions.md)。 如需屬性及其描述的清單，請參閱[商務用 Skype Server 中的架構屬性及描述](schema-attributes-and-descriptions.md)。 如需具有它們可能包含之屬性的類別清單，請參閱[商務用 Skype Server 中的班級架構屬性（依類別](schema-attributes-by-class.md)）。
+本主題說明商務用 Skype Server 所需的 Active Directory 架構變更。 它不會描述先前版本的 Office 通訊伺服器所引進的架構變更。 如需類別及其描述的清單，請參閱 [在商務用 Skype Server 中的架構類別和描述](schema-classes-and-descriptions.md)。 如需屬性及其描述的清單，請參閱 [商務用 Skype Server 中的架構屬性和描述](schema-attributes-and-descriptions.md)。 如需其屬性可能包含的類別清單，請參閱 [在商務用 Skype Server 中的類別架構屬性依類別](schema-attributes-by-class.md)。
   
-MsRTCSIP 首碼會識別商務用 Skype Server 專用的類別和屬性。
+MsRTCSIP 首碼可識別商務用 Skype Server 專用的類別和屬性。
   
 ## <a name="new-active-directory-attributes"></a>新的 Active Directory 屬性
 
@@ -55,23 +55,23 @@ MsRTCSIP 首碼會識別商務用 Skype Server 專用的類別和屬性。
   
 **商務用 Skype Server 新增的屬性**
 
-|**Attribute**|**說明**|
+|**屬性**|**描述**|
 |:-----|:-----|
-|msExchUserHoldPolicies  <br/> |這個多重值屬性包含適用于使用者的保留原則的識別碼。 保留原則在保留期間保留使用者的信箱專案。 這個屬性是與 Exchange 2013 共用的。  <br/> |
-|msRTCSIP-UserRoutingGroupId  <br/> |這是 SIP 路由群組識別碼。 相同群組中的使用者會註冊到相同的前端伺服器。  <br/> |
-|msRTCSIP-MirrorBackEndServer  <br/> |這個屬性是用來儲存前端池所使用的鏡像 SQL Server 後端。  <br/> |
+|msExchUserHoldPolicies  <br/> |此多重值屬性包含適用于使用者之保留原則的識別碼。 保留原則會在保留期間保留使用者的信箱專案。 此屬性與 Exchange 2013 共用。  <br/> |
+|msRTCSIP UserRoutingGroupId  <br/> |這是 SIP 路由群組識別碼。 相同群組中的使用者會註冊到同一個前端伺服器。  <br/> |
+|msRTCSIP MirrorBackEndServer  <br/> |此屬性用來儲存前端集區所使用的鏡像 SQL Server 後端。  <br/> |
    
-## <a name="modified-active-directory-classes"></a>已修改的 Active Directory 類別
+## <a name="modified-active-directory-classes"></a>修改的 Active Directory 類別
 
 下表說明商務用 Skype Server 所修改的 Active Directory 類別。
   
 **商務用 Skype Server 修改的類別**
 
-|**靜態類**|**切換**|**類別或屬性**|
+|**類別**|**變更**|**類別或屬性**|
 |:-----|:-----|:-----|
-|使用者  <br/> |新增： mayContain  <br/> 新增： mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
-|資訊  <br/> |新增： mayContain  <br/> 新增： mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
-|郵件-收件者  <br/> |新增： mayContain  <br/> |msExchUserHoldPolicies  <br/> |
-|msRTCSIP-GlobalTopologySetting  <br/> |新增： mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |
+|使用者  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP UserRoutingGroupId  <br/> |
+|連絡人  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP UserRoutingGroupId  <br/> |
+|Mail-Recipient  <br/> |add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
+|msRTCSIP GlobalTopologySetting  <br/> |add: mayContain  <br/> |msRTCSIP MirrorBackEndServer  <br/> |
    
 

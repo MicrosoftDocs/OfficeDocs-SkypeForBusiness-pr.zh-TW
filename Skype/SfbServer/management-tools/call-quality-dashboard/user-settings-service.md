@@ -1,8 +1,8 @@
 ---
-title: 通話品質儀表板（CQD）的使用者設定服務
+title: '通話品質儀表板 (CQD 的使用者設定服務) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,35 +12,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
-description: 摘要：瞭解使用者設定服務，這是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: 1eef869523bf1590a00ca199727b33ec9e13ccba
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解使用者設定服務，此服務是用於通話品質儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+ms.openlocfilehash: 2b2fc9810f1eceb74974dc105263b0bdcf37ae01
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816642"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803034"
 ---
-# <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>通話品質儀表板（CQD）的使用者設定服務
+# <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>通話品質儀表板 (CQD 的使用者設定服務) 
  
-**摘要：** 瞭解 [使用者設定] 服務，這是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+**摘要：** 瞭解使用者設定服務，此服務是用於通話品質儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
   
-[使用者設定] 服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。
+使用者設定服務是用於通話品質儀表板之存放庫 API 的一部分。
   
 ## <a name="user-settings-service"></a>使用者設定服務
 
-使用者設定是一些鍵值對，應用程式可以用來儲存中繼資料以進行各種用途，包括自訂每個使用者的應用程式行為。 每個使用者都會收到使用者設定的儲存空間。 只有擁有者可以新增、修改及移除使用者設定。
+使用者設定是機碼組，可讓應用程式用來儲存中繼資料，以用於不同的目的，包括自訂每個使用者的應用程式行為。 每個使用者都會收到使用者設定的儲存體。 只有擁有者可以新增、修改和移除使用者設定。
   
- **全域設定**
+ **通用設定**
   
-全域設定是系統使用者所擁有的使用者設定，且所有使用者都可以以唯讀方式存取它們。 全域設定是常數：它們是在建立儲存庫期間建立的，而且永遠不會變更。
+全域設定是系統使用者所擁有的使用者設定，而且所有使用者都具有唯讀的存取權。 全域設定為常數：它們是在建立存放庫期間建立，永遠不會變更。
   
-每個使用者都可以使用相同的索引鍵來建立使用者設定，以覆寫全域設定。 當應用程式要求有效的使用者設定時，API 會傳回一組與使用者設定合併的全域設定，每個使用者設定都會取代各個全域設定（如果鍵相同）。 API 也可以只傳回使用者設定，讓應用程式可以找出哪些設定會被重寫。 
+每一位使用者都可以建立具有相同金鑰的使用者設定，以覆寫全域設定。 當應用程式要求有效的使用者設定時，API 會傳回一組通用設定與使用者設定合併，每個使用者設定會取代個別的通用設定（如果機碼相同）。 API 也可以只傳回使用者設定，讓應用程式可以找出已覆寫的設定。 
   
-其餘的作業包括在下表中。
+其餘的作業包含在下表中。
 
-|**一道**|**說明**|
+|**作業**|**描述**|
 |:-----|:-----|
-|[取得使用者設定](get-user-settings.md) <br/> |[取得使用者設定] 會傳回指定使用者的設定清單。  <br/> |
-|[取得使用者設定](get-user-setting.md) <br/> |[取得使用者] 設定會傳回單一使用者設定。  <br/> |
+|[取得使用者設定](get-user-settings.md) <br/> |取得使用者設定會傳回指定使用者的設定清單。  <br/> |
+|[取得使用者設定](get-user-setting.md) <br/> |取得使用者設定會傳回單一使用者設定。  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Conference 表格
+title: 會議表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
-description: '[會議] 表格是支援表格。 每個記錄代表一個會議或點對點工作階段。'
-ms.openlocfilehash: 95e08861adaca2e76144f35037626e7b03afd962
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 會議表格是支援表格。 每筆記錄代表一部會議或點對點工作階段。
+ms.openlocfilehash: 3840ad9bb4f9b0ff0aea5068c73d307d5bd0cf5e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41810301"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802783"
 ---
-# <a name="conference-table"></a>Conference 表格
+# <a name="conference-table"></a>會議表格
  
-[會議] 表格是支援表格。 每個記錄代表一個會議或點對點工作階段。
+會議表格是一種支援資料表，其中的每一項記錄都代表一個會議或對等工作階段。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceKey** <br/> |int  <br/> |首選  <br/> |標識此會議記錄的唯一號碼。  <br/> |
-|**ConfURI** <br/> |Nvarchar （450）  <br/> |唯一  <br/> |會議 URI （如果這是會議），或 DialogID （如果這是點對點工作階段的話）。  <br/> |
-|**求和** <br/> |int  <br/> |index  <br/> |會議 URI 的校驗和。 這會在內部使用。  <br/> |
-|**NextUpdateTS** <br/> |datetime  <br/> ||僅供內部使用。  <br/> |
+|**ConferenceKey** <br/> |int  <br/> |主要  <br/> |用於識別此會議記錄的唯一號碼。  <br/> |
+|**ConfURI** <br/> |Nvarchar (450)   <br/> |unique  <br/> |會議 URI (若為會議)，或 DialogID (若為點對點工作階段)。  <br/> |
+|**校驗** <br/> |int  <br/> |index  <br/> |會議 URI 的總和檢查碼。僅限內部使用。  <br/> |
+|**NextUpdateTS** <br/> |datetime  <br/> ||僅限內部使用。  <br/> |
    
 

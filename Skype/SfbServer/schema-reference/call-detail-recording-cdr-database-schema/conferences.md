@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype Server 2015 中的 [會議] 表格
+title: 商務用 Skype Server 中的會議表格（2015）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
-description: 此表格中的每筆記錄都包含一個會議的通話詳細資料。
-ms.openlocfilehash: 97d7fcb4dc2217b1b7c52c1aa3424f1cf9f57808
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此表格中的每一筆記錄都包含有關一部會議的呼叫詳細資料。
+ms.openlocfilehash: 85da16807d6f314fb4f9239601c77a7aed2842ad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815351"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813213"
 ---
-# <a name="conferences-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 [會議] 表格
+# <a name="conferences-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 中的會議表格（2015）
  
-此表格中的每筆記錄都包含一個會議的通話詳細資料。
+此表格中的每一筆記錄都包含有關一部會議的呼叫詳細資料。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |首選  <br/> |由 CDR 代理程式捕獲會議要求的時間。 僅用作主鍵來唯一識別會議實例。  <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |首選  <br/> |識別會話的識別碼編號。 與**SessionIdTime**搭配使用，可唯一識別會議實例。 * <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |外  <br/> |會議 URI。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中](conferenceuris.md)的 [ConferenceUris] 資料表。 <br/> |
-|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |適用于週期性會議;每個週期性會議實例都有相同的**ConferenceUri**，但會有不同的**ConfInstance**。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |主要  <br/> |CDR 代理程式捕獲會議要求的時間。 僅用作主鍵，以唯一識別會議實例。  <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主要  <br/> |識別工作階段的 ID 號碼。 與 **SessionIdTime** 搭配使用，以唯一識別會議實例。 * <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |會議 URI。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的 ConferenceUris 表格](conferenceuris.md) 。 <br/> |
+|**ConfInstance** <br/> |唯一  <br/> | <br/> |適用于週期性會議;每個週期性會議實例都具有相同的 **ConferenceUri**，但會有不同的 **ConfInstance**。 <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> | <br/> |會議開始時間。  <br/> |
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |會議開始時間。  <br/> |
-|**PoolId** <br/> |int  <br/> |外  <br/> |[識別碼] 編號，可識別捕獲會議的池。 如需詳細資訊，請參閱 [[彙集] 資料表](pools.md)。 <br/> |
-|**OrganizerId** <br/> |Int  <br/> |外  <br/> |識別此會議之召集人 URI 的識別碼編號。 如需詳細資訊，請參閱 [[使用者] 表格](users.md)。 <br/> |
-|**標識** <br/> |Smallint  <br/> || 包含會議屬性的位元遮罩。 可能的值包括： <br/>  0X01 <br/>  合成 <br/>  事物 <br/> |
-|**預處理** <br/> |稍微  <br/> ||[監視服務] 使用的內部欄位。  <br/> 此欄位是在 Microsoft Lync Server 2013 中推出。  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||供監視服務內部使用。  <br/> 此欄位是在商務用 Skype Server 2015 中推出。  <br/> |
+|**PoolId** <br/> |int  <br/> |Foreign  <br/> |識別碼，用來識別捕獲會議的集區。 如需詳細資訊，請參閱 [pool 表格](pools.md) 。 <br/> |
+|**OrganizerId** <br/> |臨界值  <br/> |Foreign  <br/> |識別此會議之召集人 URI 的識別碼號碼。 如需詳細資訊，請參閱 [Users 表格](users.md) 。 <br/> |
+|**Flag** <br/> |Smallint  <br/> || 包含會議屬性的位元遮罩。 可能的值為： <br/>  0X01 <br/>  合成 <br/>  交易 <br/> |
+|**處理** <br/> |位  <br/> ||監控服務所使用的內部欄位。  <br/> 此欄位是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||供監控服務內部使用。  <br/> 此欄位已引進商務用 Skype Server 2015。  <br/> |
    
-\*在大部分的會話中，SessionIdSeq 將會有1的值。 如果兩個會話是完全相同的時間，則其中一個會話的 SessionIdSeq 會是1，而另一個則是2，依此類推。
+\* 對於大部分的會話，SessionIdSeq 的值會是1。 如果兩個會話的開始時間完全相同，則 SessionIdSeq 為1，而另一個會是2，依此類推。
   
 

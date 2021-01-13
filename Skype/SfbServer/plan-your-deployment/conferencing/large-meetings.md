@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃大型會議
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要：閱讀此主題以瞭解在商務用 Skype Server 中實施及管理大型會議的最佳作法。
-ms.openlocfilehash: acb0dd1dbd0efe93b985ed2f9e143ef1538ecb86
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 8e982f08b1ff65ac6a4ea6f47a15e57f1eded163
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221253"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813973"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃大型會議
  
@@ -29,7 +29,7 @@ ms.locfileid: "44221253"
 > 本主題著重于商務用 Skype Server 所支援之大型會議的最佳作法。 如果您的組織需要較大的會議能力，您應該考慮實施使用 Skype 會議廣播的混合式環境，這是 Microsoft 365 和 Office 365 中的新線上服務。 
 
 > [!NOTE]
-> Skype 會議廣播可讓使用者主控及廣播會議至最多10000參與者的大型線上受眾。 使用 Skype 會議廣播時，必須已在實際執行 Microsoft 365 或 Office 365 組織的混合式設定中設定商務用 Skype 伺服器。 所有使用者都必須以必要條件建立線上承租人。 如果您想要部署可利用 Skype 會議廣播的混合式解決方案，請參閱[什麼是 Skype 會議廣播？](https://go.microsoft.com/fwlink/?LinkId=617071)和[設定您的內部部署以進行 skype 會議廣播](../../deploy/configure-skype-meeting-broadcast.md)。 
+> Skype 會議廣播可讓使用者主控及廣播會議至最多10000參與者的大型線上受眾。 使用 Skype 會議廣播時，必須已在實際執行 Microsoft 365 或 Office 365 組織的混合式設定中設定商務用 Skype 伺服器。 所有使用者都必須以必要條件建立線上承租人。 如果您想要部署可利用 Skype 會議廣播的混合式解決方案，請參閱 [什麼是 Skype 會議廣播？](https://go.microsoft.com/fwlink/?LinkId=617071) 和 [設定您的內部部署以進行 skype 會議廣播](../../deploy/configure-skype-meeting-broadcast.md)。 
   
 大型會議通常具有下列特性：
   
@@ -55,11 +55,11 @@ ms.locfileid: "44221253"
 
 如果您的組織需要超過250參與者的會議，您必須規劃專用集區以支援負載。 
   
-為了讓最多1000使用者的會議具有足夠的 CPU 和記憶體資源，主控前端伺服器不應該主控任何其他立即訊息（IM）和目前狀態或企業語音工作負載。 不論其他的會議大小為何，伺服器也不會主控任何其他會議。 若要主控最多1000使用者的會議，您需要設定個別的商務用 Skype 伺服器集區，專門用來主控大型會議。
+為了讓最多1000使用者的會議具有足夠的 CPU 和記憶體資源，主控前端伺服器不應主控任何其他立即訊息 (IM) 和目前狀態或企業語音工作負載。 不論其他的會議大小為何，伺服器也不會主控任何其他會議。 若要主控最多1000使用者的會議，您需要設定個別的商務用 Skype 伺服器集區，專門用來主控大型會議。
   
 專用於主控大型會議的商務用 Skype 伺服器集區，一次只能裝載一或1000多個會議，所以必須透過帶外排程過程預先保留會議時間，以確保前端伺服器的專屬支援。 若要同時支援一個以上的大型會議，您應該設定多個專用的大型會議集區。
   
-如需硬體和軟體需求的詳細資訊，以及規劃支援大型會議的拓撲，請參閱[在商務用 Skype server 中的會議硬體和軟體需求](hardware-and-software-requirements.md)，以及[為商務用 skype server 規劃會議拓撲](conferencing-topology.md)。
+如需硬體和軟體需求的詳細資訊，以及規劃支援大型會議的拓撲，請參閱 [在商務用 Skype server 中的會議硬體和軟體需求](hardware-and-software-requirements.md) ，以及 [為商務用 skype server 規劃會議拓撲](conferencing-topology.md)。
   
 ## <a name="implement-best-practices-for-large-meetings"></a>實施大型會議的最佳作法
 
@@ -79,7 +79,7 @@ ms.locfileid: "44221253"
     
 ### <a name="create-dedicated-meeting-organizers"></a>建立專屬會議召集人
 
-若要將大型會議集區中的即時通訊流量降到最低，Microsoft 不建議主控定期使用商務用 Skype 用戶端登入的使用者，並參與立即訊息（IM）、顯示狀態、會議及語音會話。 請改為執行下列其中一項操作：
+若要將大型會議集區中的即時通訊流量降到最低，Microsoft 不建議使用使用商務用 Skype 用戶端來定期登入的使用者，並參與立即訊息 (IM) 、顯示狀態、會議及語音會話。 請改為執行下列其中一項操作：
   
 - 建立一或多個專用的使用者帳戶，只用于排程大型會議
     
@@ -122,7 +122,7 @@ ms.locfileid: "44221253"
     
 - 排程員工會檢查是否有可用的要求日期和時間。 因為我們一次只支援專屬集區的單一大型會議，所以排程人員需要檢查大型會議行事曆，以判斷是否有針對要求的日期和時間排定的其他會議。 如果有可用的要求時間，則人員會核准會議邀請。
     
-- 如果要求得到核准，排程人員（使用專用集區的認證）使用 Outlook 的商務用 Skype 增益集，在專屬的大型會議集區上設定會議。 加入會議時所使用的 URL 會提供給申請者，做為核准通知的一部分。
+- 如果要求得到核准，排程人員 (使用專用集區上的認證) 使用 Outlook 的商務用 Skype 增益集，在專屬的大型會議集區上設定會議。 加入會議時所使用的 URL 會提供給申請者，做為核准通知的一部分。
     
 - 會議召集人或代理人會使用 Outlook 來排程即將召開的會議，新增將會議加入會議邀請的 URL。 會議召集人或代理人會指定要邀請的使用者，併發出會議邀請。
     
@@ -136,7 +136,7 @@ ms.locfileid: "44221253"
     
 - 以下列方式指定會議存取層級：
     
-  - 如果組織外部至少有一個被邀請者，請將會議存取類型設定為 **[任何人] （無限制）**。 這可避免您在會議進行中還需要管理或許擁擠的大廳。
+  - 如果組織外部至少有一個被邀請者，請將會議存取類型設定為 [ **任何人]， (沒有任何限制)**。 這可避免您在會議進行中還需要管理或許擁擠的大廳。
     
   - 如果會議是純內部會議，則設定會議存取類型為 **[來自我組織的任何人]**。
     
@@ -164,34 +164,34 @@ ms.locfileid: "44221253"
     
 - 核取 **[將所有出席者設為靜音]** 設定，確保只有簡報者能在會議中廣播音訊。
     
-- 請檢查 [**封鎖出席者的影片**] 設定，確定只有簡報者可以將影片廣播到會議中。
+- 請檢查 [ **封鎖出席者的影片** ] 設定，確定只有簡報者可以將影片廣播到會議中。
     
 ### <a name="create-a-conferencing-policy"></a>建立會議原則
 
 專門針對大型會議建立新的會議原則，然後將會議原則指派給位於專屬大型會議集區上的使用者。 使用下列設定來設定會議原則：
   
-- 將**MaxMeetingSize**選項設定為1000。 （預設值為250。）
+- 將 **MaxMeetingSize** 選項設定為1000。  (預設值為250。 ) 
     
-- 將**AllowLargeMeetings**選項設定為**True**。 
+- 將 **AllowLargeMeetings** 選項設定為 **True**。 
     
-- 將**EnableAppDesktopSharing**選項設定為 [**無**]。
+- 將 **EnableAppDesktopSharing** 選項設定為 [ **無**]。
     
-- 將**AllowUserToScheduleMeetingsWithAppSharing**選項設定為**False**。
+- 將 **AllowUserToScheduleMeetingsWithAppSharing** 選項設定為 **False**。
     
-- 將**AllowSharedNotes**選項設定為**False**。
+- 將 **AllowSharedNotes** 選項設定為 **False**。
     
-- 將**AllowAnnotations**選項設定為**False**。
+- 將 **AllowAnnotations** 選項設定為 **False**。
     
-- 將**DisablePowerPointAnnotations**選項設定為**True**。
+- 將 **DisablePowerPointAnnotations** 選項設定為 **True**。
     
-- 將**AllowMultiview**選項設定為**False**。
+- 將 **AllowMultiview** 選項設定為 **False**。
     
-- 將**EnableMultiviewJoin**選項設定為**False**。
+- 將 **EnableMultiviewJoin** 選項設定為 **False**。
     
 > [!NOTE]
 > 支援商務用 Skype Server 中的大型會議，必須將 [ **AllowLargeMeetings** ] 設定設為 true。 當此設定設為 true 時，當使用者加入會議時，商務用 Skype 體驗會針對特大會議進行優化。 特別是在大型會議中，商務用 Skype 不會顯示完整會議參與者清單的初始或更新，也就是用戶端和商務用 Skype Server 的效能瓶頸。 相反地，商務用 Skype 只會顯示使用者和會議簡報者清單的相關資訊。 商務用 Skype 仍會顯示在大型會議中可用的參與者人數總數。
 
-**AllowLargeMeetings $true**設定會導致下列專案：
+**AllowLargeMeetings $true** 設定會導致下列專案：
 
 - 隱藏出席者名單。 
 
@@ -207,18 +207,18 @@ ms.locfileid: "44221253"
 
 - PSTN 撥號使用者將無法使用6來取消靜音，因為個人虛擬協助（負責作用中大型會議的 DTMF 命令）缺失。
 
-- 如果簡報者/召集人排程會議，其中每個人都應該先靜音（"全部靜音"），PSTN 使用者將會在通話期間靜音，而且將無法自行取消靜音。
+- 如果簡報者/召集人排程會議，其中的所有人都應該先設為靜音狀態 ( "全部靜音" ) ，PSTN 使用者將會在整個呼叫中靜音，而且將無法自行取消靜音。
 
-除了 [**最大會議大小**] 設定之外，您還需要在這裡指定的所有其他會議原則設定，才能停用大型會議中不需要的會議功能。
+除了 [ **最大會議大小** ] 設定之外，您還需要在這裡指定的所有其他會議原則設定，才能停用大型會議中不需要的會議功能。
   
 此外，您還需要設定專門的大型會議集區，讓駐留在集區中的每個商務用 Skype Server 使用者擁有適當的許可權。 若要這麼做，請執行下列操作：
   
-- 將 [**指定為簡報者**] 選項設定為 [**無**]。 通常，一或多個大型會議參與者的使用者都是簡報者，所以不應該以簡報者的身分，將參與者自動承認為大型會議。 相反地，簡報者應明確指派會議排程時間，或是在大型會議期間明確升級。
+- 將 [ **指定為簡報者** ] 選項設定為 [ **無**]。 通常，一或多個大型會議參與者的使用者都是簡報者，所以不應該以簡報者的身分，將參與者自動承認為大型會議。 相反地，簡報者應明確指派會議排程時間，或是在大型會議期間明確升級。
     
-- 請確定未選取 [**依預設指派指派會議類型**] 核取方塊。 此設定可控制商務用 Skype 的線上會議增益集是否一定要使用召集人指派的會議排定會議，這表示已排程的會議具有相同的加入 URL 和音訊資訊。 在小型群組共同作業案例中，有這種指派的會議類型可順利運作，因為每個人都有自己的指派會議，而常數加入 URL 和音訊資訊可協助協助加入更快速的會議。 不過，在大型會議案例中，大型會議支援人員會使用一組使用者認證來安排大型會議，然後為會議申請者提供加入 URLs 和音訊資訊。 在此情況下，使用不同的 URL 來加入每個會議可更好地運作。
+- 請確定未選取 [ **依預設指派指派會議類型** ] 核取方塊。 此設定可控制商務用 Skype 的線上會議增益集是否一定要使用召集人指派的會議排定會議，這表示已排程的會議具有相同的加入 URL 和音訊資訊。 在小型群組共同作業案例中，有這種指派的會議類型可順利運作，因為每個人都有自己的指派會議，而常數加入 URL 和音訊資訊可協助協助加入更快速的會議。 不過，在大型會議案例中，大型會議支援人員會使用一組使用者認證來安排大型會議，然後為會議申請者提供加入 URLs 和音訊資訊。 在此情況下，使用不同的 URL 來加入每個會議可更好地運作。
     
-- 除非有必要，否則請確定未選取 [**預設會承認匿名使用者**] 核取方塊。 此設定會影響未使用指派會議時，由商務用 Skype For Business 之線上會議增益集排程的預設會議存取類型。 此設定的適當選項取決於組織的需求。 如果貴組織大多數的大型會議為內部會議，請勿選取此選項。 如果大多數大型會議都要求外部使用者可以加入，請選取此選項。
+- 除非有必要，否則請確定未選取 [ **預設會承認匿名使用者** ] 核取方塊。 此設定會影響未使用指派會議時，由商務用 Skype For Business 之線上會議增益集排程的預設會議存取類型。 此設定的適當選項取決於組織的需求。 如果貴組織大多數的大型會議為內部會議，請勿選取此選項。 如果大多數大型會議都要求外部使用者可以加入，請選取此選項。
     
-如需建立會議原則的詳細資訊，請參閱[在商務用 Skype Server 中管理會議原則](../../manage/conferencing/conferencing-policies.md)。
+如需建立會議原則的詳細資訊，請參閱 [在商務用 Skype Server 中管理會議原則](../../manage/conferencing/conferencing-policies.md)。
   
 

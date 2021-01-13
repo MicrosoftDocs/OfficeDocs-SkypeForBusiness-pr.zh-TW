@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2019 中已被取代的功能
 ms.reviewer: ''
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：這些功能已從商務用 Skype Server 2019 中移除。
-ms.openlocfilehash: 40a202f802ec8ac1a0f880f92ad9cf59ce68a627
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5c5914493d7e2f4da4fd72d6acf7ff2b979d8e88
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42125216"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808723"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>商務用 Skype Server 2019 中已被取代的功能
 
@@ -59,7 +59,7 @@ Persistent Chat Server 是一種選用角色，可讓您組織中的多位使用
 
 下列工具在初次發行商務用 Skype Server 2019 時不可使用：
 
-- 商務用 Skype Server 容量規劃計算機
+- 商務用 Skype Server 容量規劃電腦
 - 商務用 Skype Server 調試工具
 - 商務用 Skype 伺服器資源套件工具 (將會移除某些工具) 
     - 呼叫 Call parkometer

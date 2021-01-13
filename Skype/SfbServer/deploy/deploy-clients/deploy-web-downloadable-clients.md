@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中部署 Web 可下載的用戶端
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要：部署商務用 Skype 的商務用 Skype Web App 和 Skype 會議應用程式。
-ms.openlocfilehash: 16a2a28bf634524d6f61ba579652a6dddfd06de3
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: afab5d0977adb8749fb514f946b676598d42ea32
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429419"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805923"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Web 可下載的用戶端
 
@@ -110,7 +110,7 @@ Windows 7 和 Windows Server 2008 R2 中的 [BranchCache] 功能可能會干擾�
 
 2. 若要存取登錄編輯程式，請輸入 **regedit**。
 
-3. 流覽至 HKEY_LOCAL_MACHINE \Software\Policies\Microsoft\Windows\Installer。
+3. 流覽至 HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer。
 
 4. 編輯或加入 REG_DWORD 類型的 DisableMSI 登錄機碼，並將其設定為0。
 
@@ -135,7 +135,7 @@ Windows 7 和 Windows Server 2008 R2 中的 [BranchCache] 功能可能會干擾�
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    傳送給 Microsoft 的資訊嚴格遵守 [隱私權和 Microsoft 小組](../../../../Teams/teams-privacy.md)。
+    傳送給 Microsoft 的資訊嚴格遵循商務用 [Skype 資料收集慣例](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
 
 3. 若未提供 CDN，請先設定超時，再回到本機主控的商務用 Skype Web App 體驗。 預設值為6秒。 如果此值設為0，則不會有任何超時。
 

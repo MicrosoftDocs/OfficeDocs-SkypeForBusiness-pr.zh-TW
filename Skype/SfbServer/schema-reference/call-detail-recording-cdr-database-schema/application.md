@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype Server 2015 中的 [應用程式] 表格
+title: 商務用 Skype Server 中的應用程式表格2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-description: 此表格儲存有關 [路由與連線] 中所涉及之商務用 Skype Server 2015 內各種程式的資訊。
-ms.openlocfilehash: 6f3e9b32bccb4151f5dab63a871fd984b1bcf12c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此表格會儲存與路由及連線有關之商務用 Skype Server 2015 內之各種處理常式的資訊。
+ms.openlocfilehash: 4f387ca5be7f376d5056b40050ce1c49218e02c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815461"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813503"
 ---
-# <a name="application-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 [應用程式] 表格
+# <a name="application-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 中的應用程式表格2015
  
-此表格儲存有關 [路由與連線] 中所涉及之商務用 Skype Server 2015 內各種程式的資訊。
+此表格會儲存與路由及連線有關之商務用 Skype Server 2015 內之各種處理常式的資訊。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**ApplicationId** <br/> |int  <br/> |首選  <br/> |識別此應用程式的唯一號碼。  <br/> |
-|**名稱** <br/> |Nvarchar （256）  <br/> | <br/> |伺服器元件的名稱。  <br/> |
+|**ApplicationId** <br/> |int  <br/> |主要  <br/> |用於識別此應用程式的唯一號碼。  <br/> |
+|**名稱** <br/> |Nvarchar (256)   <br/> | <br/> |伺服器元件的名稱。  <br/> |
    
 
