@@ -1,8 +1,8 @@
 ---
 title: tblEnumValue
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,42 +12,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: tblEnumValue 是一種硬編碼資料表，其中包含在節點資料表中使用之屬性的可見度及行為值。
-ms.openlocfilehash: accb9cb4801984bd4b3839cd44e5b7feb8d06baa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblEnumValue 是包含在節點表格中所使用之屬性的 Visibility 和行為值的硬編碼表格。
+ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814601"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816023"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-tblEnumValue 是一種硬編碼資料表，其中包含在節點資料表中使用之屬性的可見度及行為值。
+tblEnumValue 是包含在節點表格中所使用之屬性的 Visibility 和行為值的硬編碼表格。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|valueID  <br/> |Smallint，not null  <br/> |值的識別碼。  <br/> |
-|attributeID  <br/> |Smallint，not null  <br/> |屬性識別碼。  <br/> |
-|attributeValue  <br/> |Nvarchar （256），not null  <br/> |值的名稱。  <br/> |
+|valueID  <br/> |smallint，非 null  <br/> |值的識別碼。  <br/> |
+|attributeID:  <br/> |smallint，非 null  <br/> |屬性的識別碼。  <br/> |
+|attributeValue  <br/> |nvarchar (256)，非 null  <br/> |值的名稱。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|valueID  <br/> |主鍵。  <br/> |
-|attributeID  <br/> |在 tblEnumAttribute attributeID 資料表中使用 [查閱] 的外鍵。  <br/> |
+|valueID  <br/> |主索引鍵。  <br/> |
+|attributeID:  <br/> |在 tblEnumAttribute.attributeID 表格中查閱的外鍵。  <br/> |
    
-**資料表值**
+**表格值**
 
-|**valueID**|**attributeID**|**attributeValue**|
+|**valueID**|**attributeID:**|**attributeValue**|
 |:-----|:-----|:-----|
-|2  <br/> |1  <br/> |私有  <br/> |
-|3  <br/> |1  <br/> |討論  <br/> |
-|4  <br/> |2  <br/> |標準  <br/> |
-|500  <br/> |2  <br/> |auditorium  <br/> |
-|6  <br/> |1  <br/> |開啟  <br/> |
+|2   <br/> |1   <br/> |私人  <br/> |
+|3   <br/> |1   <br/> |範圍  <br/> |
+|4   <br/> |2   <br/> |正常  <br/> |
+|5   <br/> |2   <br/> |禮堂  <br/> |
+|6   <br/> |1   <br/> |打開  <br/> |
    
 ## <a name="see-also"></a>另請參閱
 

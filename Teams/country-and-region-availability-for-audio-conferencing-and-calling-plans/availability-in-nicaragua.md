@@ -1,7 +1,7 @@
 ---
 title: 尼加拉瓜中的可用性
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（適用于尼加拉瓜）。
-ms.openlocfilehash: b365fcc906ee685caffdcbd742347c168c8d474f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 64b4070d446bfdfa64593aa0222a62071918601f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230361"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814603"
 ---
 # <a name="availability-in-nicaragua"></a>尼加拉瓜中的可用性
 
@@ -50,8 +50,8 @@ ms.locfileid: "44230361"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-|自動語音應答 <br/> |有空  <br/> |
-|通話佇列  <br/> |有空  <br/> |
+|自動語音應答 <br/> |可用  <br/> |
+|通話佇列  <br/> |可用  <br/> |
 |語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
@@ -68,11 +68,11 @@ ms.locfileid: "44230361"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？   | Managua （[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
-|有提供付費電話號碼嗎？  <br/> |是（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？   | 要求) [上的](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) Managua ( <br/> |
+|有提供付費電話號碼嗎？  <br/> |[要求]) [的](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) [是] ( <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |否  <br/> |
    
- 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在[商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在 [商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 

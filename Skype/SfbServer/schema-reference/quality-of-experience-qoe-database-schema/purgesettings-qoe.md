@@ -1,8 +1,8 @@
 ---
-title: PurgeSettings table （QoE）
+title: 'PurgeSettings table (QoE) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
-description: PurgeSettings 資料表包含的資訊會指定是否（以及時間）系統會自動將過時的體驗記錄品質從 QoE 資料庫中刪除。 請注意，您也可以透過執行下列命令，在商務用 Skype Server Management 命令介面內取得清除相關資訊：
-ms.openlocfilehash: dab1b2ffeab5882d0e459d7957b2817e780fc3a4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: PurgeSettings 資料表包含指定在經驗品質記錄過期時，會自動從 QoE 資料庫加以刪除的資訊。 請注意，您也可以透過執行下列命令，在商務用 Skype Server 管理命令介面中取得清除相關資訊：
+ms.openlocfilehash: eef723298b04aecf633368d767623488a53ac6ce
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807330"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815803"
 ---
-# <a name="purgesettings-table-qoe"></a>PurgeSettings table （QoE）
+# <a name="purgesettings-table-qoe"></a>PurgeSettings table (QoE) 
  
-PurgeSettings 資料表包含的資訊會指定是否（以及時間）系統會自動將過時的體驗記錄品質從 QoE 資料庫中刪除。 請注意，您也可以透過執行下列命令，在商務用 Skype Server Management 命令介面內取得清除相關資訊：
+PurgeSettings 資料表包含指定在經驗品質記錄過期時，會自動從 QoE 資料庫加以刪除的資訊。 請注意，您也可以透過執行下列命令，在商務用 Skype Server 管理命令介面中取得清除相關資訊：
   
 ```PowerShell
 Get-CsQoEConfiguration
 ```
 
-此表格是在 Microsoft Lync Server 2013 中推出。
+此表格已引進 Microsoft Lync Server 2013。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**標識號** <br/> |int  <br/> |首選  <br/> |QoE 清除設定集合的唯一識別碼。  <br/> |
-|**EnablePurge** <br/> |稍微  <br/> ||當設定為 True （1）時，Microsoft Lync Server 2013 會定期從 QoE 資料庫清除過時的記錄。 [清除] 會在每天的 PurgeHour 設定所指定的聖多美上進行。 如果設定為 False （0），則不會自動從資料庫清除記錄。 預設值為 True。  <br/> |
-|**KeepQoEDataForDays** <br/> |int  <br/> ||指定將從資料庫清除的 QoE 記錄（天）期限：如果已啟用清除，則會從資料庫中移除超過此值的 QoE 記錄。 預設值為60天。  <br/> |
-|**PurgeHour** <br/> |int  <br/> ||指定要在進行資料庫清除時的當地時間。 時間是以 24 小時制指定，0 代表午夜 (12:00 AM)，而 23 則代表 11:00 PM。 請注意，您只能指定一天中的小時數：值為10（表示 10:00 AM），但不允許值為 10:30 of 10.5 （表示 10:30 AM）。 預設值為1（1:00 AM）。 指定要在進行資料庫清除時的當地時間。 時間是以 24 小時制指定，0 代表午夜 (12:00 AM)，而 23 則代表 11:00 PM。 請注意，您只能指定一天中的小時數：值為10（表示 10:00 AM），但不允許值為 10:30 of 10.5 （表示 10:30 AM）。 預設值為1（1:00 AM）。  <br/> |
+|**識別碼** <br/> |int  <br/> |主要  <br/> |QoE 清除設定集的唯一識別碼。  <br/> |
+|**EnablePurge** <br/> |位  <br/> ||設為 True 時 (1) Microsoft Lync Server 2013 會定期從 QoE 資料庫中清除過時的記錄。 清除動作會每天在 PurgeHour 設定中指定的時間加以執行。 若設為 False (0)，就不會從資料庫自動清除記錄。 預設值為 True。  <br/> |
+|**KeepQoEDataForDays** <br/> |int  <br/> ||指定要從資料庫清除之 QoE 記錄的存留期 (以天數為單位)：若啟用清除，就會從資料庫移除舊於此值的 QoE。預設值為 60 天。  <br/> |
+|**PurgeHour** <br/> |int  <br/> ||指定要執行資料庫清除的時間。時間是以 24 小時制指定，0 代表午夜 (上午 12:00)，而 23 則代表下午 11:00。請注意，您僅能指定時間的時數：允許將值設為 10 (代表上午 10:00)，但不允許設為 10:30 的 10.5 (代表上午 10:30)。預設值為 1 (上午 1:00)。指定要執行資料庫清除的時間。時間是以 24 小時制指定，0 代表午夜 (上午 12:00)，而 23 則代表下午 11:00。請注意，您僅能指定時間的時數：允許將值設為 10 (代表上午 10:00)，但不允許設為 10:30 的 10.5 (代表上午 10:30)。預設值為 1 (上午 1:00)。  <br/> |
    
 

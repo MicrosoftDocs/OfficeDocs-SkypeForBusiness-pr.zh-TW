@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃立即訊息和目前狀態
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,66 +12,66 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 摘要：瞭解如何在商務用 Skype Server 中規劃立即訊息和目前狀態。
-ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: a29d68cc66e0ac4a70fc759283646fc3ce49cdf5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815901"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816273"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃立即訊息和目前狀態
  
 **摘要：** 瞭解如何在商務用 Skype Server 中規劃立即訊息和目前狀態。
   
-規劃商務用 Skype Server 中的立即訊息和目前狀態。 若要瞭解特定的部署選項（例如啟用或停用離線立即訊息（IM）），請參閱[在商務用 Skype Server 中部署立即訊息和目前狀態](../deploy/im-and-presence/im-and-presence.md)。
+在商務用 Skype Server 中規劃立即訊息和目前狀態。 若要瞭解特定的部署選項，例如啟用或停用離線立即訊息 (IM) ，請參閱 [在商務用 Skype Server 中部署立即訊息與顯示狀態](../deploy/im-and-presence/im-and-presence.md)。
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃立即訊息和目前狀態
 
-前端伺服器提供核心的商務用 Skype 伺服器功能，例如立即訊息（IM）和目前狀態，且包含在每個商務用 Skype Server 部署中。 有兩種版本可供使用：商務用 Skype Server Enterprise Edition，主要針對較大型的組織和商務用 Skype Server Standard Edition 設計，主要針對需要較小單位的較小組織。硬體投資且不需要完整的高可用性選項。 這兩種版本都支援所有商務用 Skype 伺服器工作負載，包括 IM、目前狀態、會議和企業語音。
+前端伺服器提供核心商務用 Skype Server 功能（如立即訊息 (IM) 和顯示狀態），並包含在每個商務用 Skype Server 部署中。 有兩種可供使用的版本：商務用 Skype Server Enterprise Edition 主要專為較大的組織和商務用 Skype Server Standard Edition 設計，其主要是針對需要較小硬體投資且不需要完整高可用性選項的小型組織所設計。 這兩種版本都支援所有商務用 Skype Server 工作負載，包括 IM、顯示狀態、會議及 Enterprise Voice。
   
-[立即訊息（IM）] 可讓您的使用者在電腦上使用文字型郵件即時相互通訊。 支援兩方和多方 IM 會話。 在雙方的 IM 交談中，參與者可以隨時新增協力廠商參與者加入交談。 發生這種情況時，交談視窗會變更以支援會議功能。
+立即訊息 (IM) 可讓使用者在電腦上使用文字訊息，與其他使用者進行即時溝通。同時支援雙方或多方 IM 工作階段。雙方 IM 交談中的參與者可以隨時將第三個參與者加入交談中。若發生這種情況，[交談] 視窗會變更成可支援會議功能。
   
-[目前狀態] 會提供資訊給使用者，瞭解網路上其他人的狀態。 使用者的目前狀態會提供資訊，協助其他人決定是否應該嘗試與使用者聯繫，以及是否要使用立即訊息、電話或電子郵件。 如果可能的話，目前狀態會鼓勵立即通訊，但它也會提供使用者是否在會議中或不在辦公室的相關資訊，指出無法進行立即通訊。 在商務用 Skype 和其他存在感知的應用程式（包括 Microsoft Outlook 訊息與共同作業用戶端、Microsoft SharePoint 技術及 Microsoft Office）中，此目前狀態會顯示為「目前狀態」圖示。 [目前狀態] 圖示代表使用者目前的可用性和溝通意願。 
+目前狀態為使用者提供有關網路上其他人狀態的資訊。 使用者的目前狀態提供的資訊可協助其他人決定是否應該嘗試聯繫使用者，以及是否使用立即訊息、電話或電子郵件。 目前狀態會促進立即通訊，但也會提供使用者正在開會中或不在辦公室的資訊，指出無法進行立即通訊。 這種目前狀態會顯示為商務用 Skype 中的目前狀態圖示及其他狀態識別應用程式，包括 Microsoft Outlook 訊息和共同作業用戶端、Microsoft SharePoint 技術和 Microsoft Office。 目前狀態圖示代表使用者的目前可用性和溝通意願。 
   
 ### <a name="technical-requirements"></a>技術需求
 
-[立即訊息（IM）] 和 [目前狀態] 都是在企業版前端池和標準版伺服器上執行。 如需支援的硬體、作業系統及資料庫軟體的相關資訊，請參閱[認證閘道](../../SfbPartnerCertification/certification/infra-gateways.md)、[商務用 skype 2015 環境的需求](requirements-for-your-environment/requirements-for-your-environment.md)，以及[商務用 Skype Server 2019 的基礎結構需求](../../SfBServer2019/plan/system-requirements.md)。
+立即訊息 (IM) 和目前狀態，永遠都是在 Enterprise Edition 前端集區和 Standard Edition server 上執行。 如需支援的硬體、作業系統及資料庫軟體的資訊，請參閱已  [驗證的閘道](../../SfbPartnerCertification/certification/infra-gateways.md)、  [商務用 skype 2015 環境的需求](requirements-for-your-environment/requirements-for-your-environment.md)，以及商務用 [Skype Server 2019 的基礎結構需求](../../SfBServer2019/plan/system-requirements.md)。
   
 ### <a name="enabling-communication-with-external-users"></a>啟用與外部使用者的通訊
 
-您可以讓您的使用者與外部使用者通訊，大幅提高您在商務用 Skype Server 中投資的益處。 外部使用者可以包括：
+您可以讓您的使用者與外部使用者通訊，以大幅提高商務用 Skype Server 中的投資效益。 外部使用者包括：
   
-- 遠端使用者：貴組織自己的使用者、在防火牆外工作，且正在使用其膝上型電腦或其他商務用 Skype 伺服器裝置。
+- 遠端使用者：貴組織自身的使用者、在防火牆外工作時使用其膝上型電腦或其他商務用 Skype Server 裝置的使用者。
     
-- 同盟使用者：您與其他人同時執行商務用 Skype Server 的公司使用者。 若要讓您的使用者能夠輕鬆地與這些使用者聯繫，您可以建立與這些公司的聯盟關聯。 
+- 同盟使用者：來自公司的使用者，您可以使用同時執行商務用 Skype 伺服器的使用者。 為了方便您的使用者輕鬆連絡這些使用者，您可以和這些公司建立同盟關係。 
     
-- Skype 使用者：商務用 Skype 使用者可以使用 IM、語音和影片，在 Skype 中與成百上千的使用者取得聯繫。
+- Skype 使用者：商務用 Skype 使用者可以使用 IM、語音和影片，抵達數百億位使用者的 Skype。
     
 > [!NOTE]
 > 已不再支援 AOL、Yahoo 和 Google 交談。 
   
 > [!NOTE]
-> 若要啟用任何一種或所有案例，您必須部署邊緣伺服器，以協助您在商務用 Skype Server 部署與外部使用者之間進行安全通訊。 貴組織的遠端使用者和聯盟組織中的使用者將能夠彼此查看其目前狀態並使用 IM 進行通訊。 
+> 若要啟用任何或所有上述案例，您必須部署 Edge Server，以協助啟用商務用 Skype 伺服器部署與外部使用者之間的安全通訊。 貴組織的遠端使用者和同盟組織的使用者，將能夠看到彼此的目前狀態，並使用 IM 進行通訊。 
   
 > [!NOTE]
-> 只有整合功能共同作業平臺（UCCP）聯合互通性測試命令（JITC）認證案例，才能支援可擴展訊息與目前狀態通訊協定（XMPP）。 
+> 只有整合功能共同作業平臺 (UCCP (XMPP) 支援 [可延伸的訊息和顯示狀態通訊協定]，) 協同互通性測試命令 (JITC) 認證案例。 
   
 ### <a name="archiving-im-content"></a>封存 IM 內容
 
-如果您的組織必須遵循合規性規範，商務用 Skype Server 提供您可以使用的功能。 您可以使用 [封存] 來封存貴組織中所有使用者的 IM 訊息內容，或只針對您指定的特定使用者封存 IM 訊息的內容。 如需詳細資訊，請參閱[在商務用 Skype 伺服器中規劃](archiving/archiving.md)封存。 
+如果您的組織必須遵循合規性規定，商務用 Skype 伺服器提供您可以使用的功能。 您可以使用封存為組織中的所有使用者或您指定的特定使用者封存 IM 訊息的內容。 如需詳細資訊，請參閱 Plan for 封存 [In 商務用 Skype Server](archiving/archiving.md)。 
   
-如果您也已部署 Microsoft Exchange Server 2013，您可以將 Exchange 資料的存檔與商務用 Skype 伺服器資料進行整合，然後使用單一工具來搜尋這兩種類型的已歸檔資料。 如需詳細資訊，請參閱[設定商務用 Skype 伺服器以使用 Exchange 伺服器](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)封存。
+如果您也部署 Microsoft Exchange Server 2013，您可以整合 Exchange 資料與商務用 Skype Server 資料的封存，並使用單一工具來搜尋這兩種類型的封存資料。 如需詳細資訊，請參閱 [Configure 商務用 Skype Server to Use Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)封存。
   
-### <a name="topologies-and-components"></a>拓撲與元件
+### <a name="topologies-and-components"></a>拓撲和元件
 
-立即訊息（IM）與目前狀態所需的元件如下：
+立即訊息 (IM) 和目前狀態所需的元件包括：
   
-- 貴組織的前端伺服器（稱為「池」）或標準版伺服器。 在這些伺服器上，系統永遠都能啟用 IM 和目前狀態功能。 如需前端池拓撲與管理的詳細資訊，請參閱[前端池高可用性和管理](high-availability-and-disaster-recovery/high-availability.md)。
+- 組織的前端伺服器 (稱為集區) 或 Standard Edition server。 IM 和目前狀態功能在這些伺服器上一定會啟用。 如需前端集區拓撲和管理的詳細資訊，請參閱 [前端集區高可用性和管理](high-availability-and-disaster-recovery/high-availability.md)。
     
-- [負載平衡器] （如果您有企業版的 [前端] 池）。
+- 負載平衡器（如果您有 Enterprise Edition 前端集區）。
     
-### <a name="supported-collocation"></a>支援的 collocation
+### <a name="supported-collocation"></a>支援的組合
 
-Collocation 定義為安裝了多個角色的單一伺服器或一組伺服器。 如需 collocation 的詳細資訊，請參閱[商務用 Skype Server 的拓撲基礎](topology-basics/topology-basics.md)。 
+組合定義為具有已安裝多個角色的單一伺服器或伺服器群組。 如需組合的詳細資訊，請參閱 [適用于商務用 Skype Server 的拓撲基礎](topology-basics/topology-basics.md)。 
   
 

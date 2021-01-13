@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊的高級通訊附加元件
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6502f73d39c61eaa933d126cebb71f3123bdd541
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: e3de3ea38f326917232fce41ade78a59ef6da7fc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130384"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809353"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft 團隊的高級通訊附加元件
 
@@ -72,7 +72,7 @@ ms.locfileid: "49130384"
 透過高級通訊，任何超過300個出席者的會議都會提供一種方式，讓多達1000參與者都能使用互動式體驗，以及最多20000個參與者加入會議的方式只提供一個僅供查看的體驗。 [即時事件] 可啟用其他功能。 在即時活動中，20000出席者可以觀看廣播，並與 Q&團隊中的會議、Yammer 中的交談，或僅限 Microsoft Stream 中的 [僅限視圖] 進行互動。 此外，我們還會將即時事件的長度從4小時增加到16小時，並為每個租使用者啟用最多50併發即時事件。 
 
 >[!Note]
-> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。
+> 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶對新會議錄製使用商務用 OneDrive 和 SharePoint。
 
 > [!NOTE]
 > 企業版和教育版 Sku 可以暫時保留最多20000個出席者的即時事件，每個廣播的事件持續時間為16小時，50而租使用者的併發事件則是在2021年1月1日為止。

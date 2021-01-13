@@ -1,8 +1,8 @@
 ---
-title: 管理災害復原、高可用性和備份服務
+title: 管理災難修復、高可用性及備份服務
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,38 +10,38 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 瞭解災害復原作業的程式，以及維護備份服務，這會同步處理成對的前端池中的資料。
-ms.openlocfilehash: bb8178b98d355159a92d7187884e5502912f4436
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 深入瞭解災難修復作業的程式，以及維護備份服務，以同步處理成對前端集區中的資料。
+ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818334"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817153"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>管理商務用 Skype Server 災害復原、高可用性及備份服務
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>管理商務用 Skype Server 的嚴重損壞修復、高可用性及備份服務
 
-本節包含災害復原作業的程式，以及維護備份服務，以同步處理成對的前端池中的資料。
+本節包含嚴重損壞修復作業的程式，以及維護備份服務，以同步處理成對前端集區中的資料。
 
-容錯移轉和回切的災害復原程式都是手動的。 如果發生災難，系統管理員必須手動喚醒呼叫容錯移轉程式。 在修復池之後，回切會有同樣的作用。
+容錯移轉和回切回的嚴重損壞修復程式都是手動。 如果發生災難，系統管理員必須手動呼叫容錯移轉程式。 修復集區之後，回復器也同樣適用。
 
-本節中的災難復原程式假設如下：
+本節中的嚴重損壞修復程式假設下列各項：
 
-  - 您的部署具有成對的前端池（位於不同的網站中），如 [[高可用性] 和 [災害復原] 規劃](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)中所述。 備份服務已在這些成對的池中執行，以讓它們保持同步處理。
+  - 您的部署具有成對的前端集區，位於不同的網站，如 [規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)所述。 備份服務已在這些配對集區上執行，使其保持同步。
 
-  - 如果中央管理儲存體是裝載在任何一個 pool，則會在兩個配對的池子上安裝並執行，而其中一個池則是裝載作用中主機，另一個裝載備用的池。
+  - 如果中央管理存放區裝載于任何集區上，則會在兩個配對集區上安裝並執行，其中一個集區會裝載作用中的主集區，而另一個集區會主控備用的集區。
 
 > [!IMPORTANT]
-> 在下列程式中， *PoolFQDN*參數會參照受災難影響之池的 FQDN，而不是重新導向受影響的使用者的池。 針對同一組受影響的使用者，它會參照容錯移轉與回切的 Cmdlet 中的同一個池（也就是在容錯移轉前先駐留使用者的池）。<BR><br>例如，假設駐留在 pool P1 上的所有使用者都已容錯移轉到備份池（P2）。 如果系統管理員想要將所有目前由 P2 提供服務的使用者移至 P1，系統管理員必須執行下列步驟： 
+> 在下列程式中， *PoolFQDN* 參數會參照受災難影響的集區的 FQDN，而不會重新導向受影響使用者的集區。 針對相同組受影響的使用者，它會在容錯移轉和回切 (Cmdlet 中同時參考相同的集區，也就是在容錯移轉) 之前第一位使用者的集區。<BR><br>例如，假設某個案例位於集區 P1 的所有使用者都已容錯移轉至備份組區 P2。 如果系統管理員想要移動所有目前由 P2 服務服務的使用者，以 P1 為服務，系統管理員必須執行下列步驟： 
 > <OL>
 > <LI>
-> <P>使用容錯回復 Cmdlet，將原來駐留在 P1 上的所有使用者，從 P2 切換回 P1。 在此情況下， *PoolFQDN*是 P1's FQDN。</P>
+> <P>使用回復指令 Cmdlet，將原來在 P1 上的所有使用者都從 P2 重新容錯回復至 P1。 在此情況下， *PoolFQDN* 為 P1's FQDN。</P>
 > <LI>
-> <P>使用容錯移轉 Cmdlet，將原來駐留在 P2 上的所有使用者容錯移轉到 P1。 在此情況下，PoolFQDN 是 P2's FQDN。</P>
+> <P>使用容錯移轉指令，將所有原先位於 P2 的使用者容錯移轉至 P1。 在此情況下，PoolFQDN 為 P2's FQDN。</P>
 > <LI>
-> <P>如果系統管理員稍後想要將這些 P2 使用者傳回切回 P2，PoolFQDN 是 P2's FQDN。</P></LI></OL><br>請注意，上述步驟1必須在步驟2之前執行，才能保留池完整性。 如果您先嘗試步驟2，再執行步驟1，則步驟 2 Cmdlet 將會失敗。
+> <P>如果系統管理員稍後想要將這些 P2 使用者容錯回復回 P2，則 PoolFQDN 為 P2's FQDN。</P></LI></OL><br>請注意，必須先執行上述步驟1，再執行步驟2以保留集區完整性。 如果您在步驟1之前嘗試步驟2，則步驟 2 Cmdlet 會失敗。
 
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
-[規劃高可用性與災害復原](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
+[規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   

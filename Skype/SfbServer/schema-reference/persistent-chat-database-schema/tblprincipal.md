@@ -1,8 +1,8 @@
 ---
 title: tblPrincipal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,46 +12,46 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-description: tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
-ms.openlocfilehash: 7924c65745e29cce6dd71dc14b1ecfe7b41fe8b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
+ms.openlocfilehash: ee9e16d0fcd5d7206bb73ff8b13cdc9d930b6b97
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814501"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815893"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
-tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
+tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int，not null  <br/> |Principal ID。  <br/> |
-|prinGuid  <br/> |GUID，不是 null  <br/> |主要 GUID。 這會被廣泛用做為備用主鍵，因為它的意義是要與 Active Directory 網域服務空間相交。 （快取的主體的 GUID 等於對應的 Active Directory 物件 GUID。）  <br/> |
-|prinUri  <br/> |Nvarchar （256），not null  <br/> |主體 URI。 SIP 配置適用于使用者，而 ma grp 則用於幾乎所有其他專案。  <br/> |
-|prinName  <br/> |Nvarchar （256）  <br/> |通用名稱。 僅供使用者類型使用。  <br/> |
-|prinDisplayName  <br/> |NVarchar （256）  <br/> |顯示名稱。 僅供使用者類型使用。  <br/> |
-|prinCompanyName  <br/> |Nvarchar （256）  <br/> |[公司名稱]。 僅供使用者類型使用。  <br/> |
-|prinEmail  <br/> |Nvarchar （256）  <br/> |電子郵件。 僅供使用者類型使用。  <br/> |
-|prinADPath  <br/> |Nvarchar （384）  <br/> |Principal 是其快取版本之 Active Directory 物件的功能變數名稱。 對於非 Active Directory 物件（例如系統使用者）的類型，可以是 Null。  <br/> |
-|prinADUserPrincipalName  <br/> |Nvarchar （256）  <br/> |使用者的使用者主體名稱（UPN）。 只能由一般的使用者類型使用。  <br/> |
-|prinDisabled  <br/> |Smallint，not null  <br/> | 0：主體處於作用中狀態。 <br/>  1：主體已停用，因為使用者的 SIP 功能已停用。 <br/>  2：由於相關聯的 AD 物件已遭刪除，主體會被刪除。 <br/> |
-|prinTypeID  <br/> |Smallint，not null  <br/> |主體類型（從 tblPrincipalType 資料表）。  <br/> |
-|prinPoolID  <br/> |Int  <br/> |主要使用者的商務用 Skype 用戶端池指派。  <br/> |
-|prinPolicyID  <br/> |Int  <br/> |使用者的持續聊天伺服器原則值（如果有標籤類型原則的話）。  <br/> |
+|Tblprincipal.prinid  <br/> |int，非 null  <br/> |主體識別碼。  <br/> |
+|prinGuid  <br/> |GUID，非 null  <br/> |主體 GUID。 因為它的意義會跨越 Active Directory 網域服務空間，所以這會被廣泛當作替代主鍵使用。  (快取主體的 GUID 等於對應的 Active Directory 物件 GUID。 )   <br/> |
+|prinUri  <br/> |nvarchar (256)，非 null  <br/> |主體 URI。SIP 配置可用於使用者，而 ma-grp 幾乎可用於其他所有項目。  <br/> |
+|prinName  <br/> |nvarchar(256)  <br/> |一般名稱。僅可用於使用者類型。  <br/> |
+|prinDisplayName  <br/> |Nvarchar (256)  <br/> |顯示名稱。僅可用於使用者類型。  <br/> |
+|prinCompanyName  <br/> |nvarchar(256)  <br/> |公司名稱。僅可用於使用者類型。  <br/> |
+|prinEmail  <br/> |nvarchar(256)  <br/> |電子郵件。僅可用於使用者類型。  <br/> |
+|prinADPath  <br/> |nvarchar (384)  <br/> |Active Directory 物件 (主體為快取版本) 的網域名稱。非 Active Directory 物件的類型可以是 Null (例如系統使用者)。  <br/> |
+|prinADUserPrincipalName  <br/> |nvarchar(256)  <br/> |使用者的使用者主要名稱 (UPN) 。 僅可用於一般使用者類型。  <br/> |
+|prinDisabled  <br/> |smallint，非 null  <br/> | 0：主體為作用中狀態。 <br/>  1：主體已停用，因為使用者的 SIP 功能已停用。 <br/>  2：主體已刪除，因為相關聯的 AD 物件已刪除。 <br/> |
+|prinTypeID  <br/> |smallint，非 null  <br/> |主體類型 (參照 tblPrincipalType 表格)。  <br/> |
+|prinPoolID  <br/> |臨界值  <br/> |主體的商務用 Skype 用戶端集區。  <br/> |
+|prinPolicyID  <br/> |臨界值  <br/> |如果存在標記類型原則，則為 user 的 Persistent Chat Server policy value。  <br/> |
 |prinAddedBy  <br/> |int  <br/> |建立者的主體識別碼。  <br/> |
-|prinAddedOn  <br/> |Bigint，not null  <br/> |建立時間的時間戳記。  <br/> |
-|prinUpdatedBy  <br/> |int  <br/> |上次更新此原則的主要使用者識別碼。  <br/> |
-|prinUpdatedOn  <br/> |Bigint，not null  <br/> |上次更新的時間戳記。  <br/> |
-|prinVerifiedOn  <br/> |datetime、not null  <br/> |主體上次 Active Directory 同步處理的日期和時間。  <br/> |
+|prinAddedOn  <br/> |bigint，非 null  <br/> |建立時間的時間戳記。  <br/> |
+|prinUpdatedBy  <br/> |int  <br/> |最近一次進行更新之主體的識別碼。  <br/> |
+|prinUpdatedOn  <br/> |bigint，非 null  <br/> |最近一次更新的時間戳記。  <br/> |
+|prinVerifiedOn  <br/> |datetime，非 null  <br/> |最近一次主體之 Active Directory Sync 重新整理的日期與時間。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|prinID  <br/> |主鍵。  <br/> |
-|prinTypeID  <br/> |在 tblPrincipalType ptypeID 資料表中使用 [查閱] 的外鍵。  <br/> |
+|Tblprincipal.prinid  <br/> |主索引鍵。  <br/> |
+|prinTypeID  <br/> |在 tblPrincipalType.ptypeID 表格中查閱外部索引鍵。  <br/> |
    
 

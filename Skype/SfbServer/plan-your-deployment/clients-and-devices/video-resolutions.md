@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype 用戶端影片解析度
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 摘要：在規劃商務用 Skype Server 時，複查用戶端的影片需求。
-ms.openlocfilehash: 126c19d817a2cd656b7d581e0d467db80e4969e5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9be23512462781c55ef94b72b4dbbba60e15e5ba
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027974"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816053"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>商務用 Skype 用戶端影片解析度
  

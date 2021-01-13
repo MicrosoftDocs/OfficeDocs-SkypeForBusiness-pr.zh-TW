@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 管理命令介面
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是以 Windows PowerShell 為基礎，包含一組完整的 Skype 和舊版 Lync server 產品特有的管理和管理 Cmdlet。
-ms.openlocfilehash: 085c8f4a8a454f97dc4fbc640a6f5c8a70baec31
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0653faa542bc9bc579bd7617e40d3efed030569f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044255"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816533"
 ---
 # <a name="skype-for-business-server-management-shell"></a>商務用 Skype Server 管理命令介面
  
@@ -62,7 +62,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
   Update-Help -Module SkypeforBusiness
   ```
 
-    如果您需要更新未連接至網際網路之伺服器上的說明，您可以使用 [Save-Help](https://technet.microsoft.com/library/hh849724.aspx) Cmdlet 來取得最新版本的說明，並將其儲存至您指定的位置。 然後，您可以在未連線至網際網路的伺服器上使用 _-SourcePath_參數的**Update-Help** Cmdlet，以從選取的位置取得更新的說明。 下列範例顯示如何將說明檔案儲存至網路檔案共用，然後從檔案共用更新商務用 Skype 模組的說明。
+    如果您需要更新未連接至網際網路之伺服器上的說明，您可以使用 [Save-Help](https://technet.microsoft.com/library/hh849724.aspx) Cmdlet 來取得最新版本的說明，並將其儲存至您指定的位置。 然後，您可以在未連線至網際網路的伺服器上使用 _-SourcePath_ 參數的 **Update-Help** Cmdlet，以從選取的位置取得更新的說明。 下列範例顯示如何將說明檔案儲存至網路檔案共用，然後從檔案共用更新商務用 Skype 模組的說明。
     
   ```PowerShell
   // Save the help files

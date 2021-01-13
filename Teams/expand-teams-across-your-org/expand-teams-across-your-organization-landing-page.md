@@ -2,8 +2,8 @@
 title: 在您的組織中展開 Microsoft 團隊
 description: 瞭解可在標準團隊部署中建立的資源，以協助您充分利用特定組織類型的團隊。
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -15,16 +15,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3e7748fde03358388b5bc105bb247d14eb2701d
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: 1c90ea2da91d8e5e12fe01565e0c929f73d1ff01
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576949"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814633"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在您的組織中展開 Microsoft 團隊
 
-這些資源是在標準的小組部署指南中建立的，旨在協助您充分利用特定組織類型的小組。 如果您尚未部署團隊，請參閱建議的小組途徑，說明如何[推出 Microsoft 團隊](../How-to-roll-out-teams.md)。
+這些資源是在標準的小組部署指南中建立的，旨在協助您充分利用特定組織類型的小組。 如果您尚未部署團隊，請參閱建議的小組途徑，說明如何 [推出 Microsoft 團隊](../How-to-roll-out-teams.md)。
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

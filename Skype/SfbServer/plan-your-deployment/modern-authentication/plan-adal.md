@@ -1,8 +1,8 @@
 ---
-title: 規劃新式驗證 (ADAL) 與 Skype for Business
+title: 使用商務用 Skype) 規劃新式驗證 (ADAL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,39 +11,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 本文說明新式驗證 （也就根據 Active Directory Authentication Library (ADAL) 和 OAuth 2.0） 的功能。
-ms.openlocfilehash: 5a51b0712f33cbafc64f87f56b4d12649bfad97e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 本文說明使用 Active Directory 驗證程式庫 (ADAL) 和 OAuth 2.0) 的新式驗證 (。
+ms.openlocfilehash: bd5d172fe4589cbd28c5b22507ad8603695ed62f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046286"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816223"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何使用商務用 Skype 新式驗證 (ADAL)
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何搭配商務用 Skype) 使用新式驗證 (ADAL
  
-本文介紹新式驗證 （也就根據 Active Directory Authentication Library (ADAL) 和 OAuth 2.0） 可以找到年 3 月 2016年中的商務用 Skype Server 2015，或是從初始的商務用 Skype 的累計更新skype for Business Server 2019 的版本。
+本文介紹新式驗證 (，這是根據 Active Directory 驗證程式庫 (ADAL) 和 OAuth 2.0) ，可在商務用 skype Server 2015 的三月份2016累積更新中找到，或是從商務用 Skype Server 2019 的初始版本取得。
   
-## <a name="what-is-adal"></a>ADAL 是什麼？
+## <a name="what-is-adal"></a>什麼是 ADAL？
 
-ADAL 是縮寫 'Active Directory 驗證程式庫'，而且，以及 OAuth 2.0 的新式驗證加強。 此程式碼文件庫被為了讓您的目錄中的安全的資源可供用戶端應用程式 （例如商務用 Skype) 透過安全性權杖。 ADAL 搭配 OAuth 2.0，以啟用多個驗證和授權案例，像是多重要素驗證 (MFA)，以及更多的表單的 SAML 驗證]。
+ADAL 是「Active Directory 驗證程式庫」的縮寫，以及 OAuth 2.0，是新式驗證的基礎。 此程式碼庫的設計目的是讓您的目錄中的安全資源可供用戶端應用程式使用 (例如商務用 Skype) 透過安全性權杖。 ADAL 可與 OAuth 2.0 搭配使用，以啟用更多驗證和授權案例，例如多重要素驗證 (MFA) 和其他形式的 SAML Auth。
   
-各種作為用戶端可以利用新式驗證，以協助易於存取的應用程式的安全資源。 Skype for Business Server，這項技術用於內部用戶端與內部部署伺服器之間才能讓使用者能夠適當層級的資源的授權。
+可充當用戶端的各種應用程式可利用新式驗證取得安全資源的協助。 在商務用 Skype Server 中，此技術是用於內部部署用戶端和內部部署伺服器，以便為使用者提供適當的資源授權層級。
   
-新式驗證交談 （也就根據 ADAL 和 OAuth 2.0） 有共同的一些項目。
+新式驗證交談 (以 ADAL 和 OAuth 2.0 為基礎) 具有一些共同元素。
   
-- 沒有提出資源要求用戶端，在此情況下，用戶端是商務用 Skype。
+- 用戶端需要資源的要求，在此情況下，用戶端是商務用 Skype。
     
-- 要在用戶端需要特定權限等級，資源和此資源會受到目錄服務，在此情況下資源時 Skype for Business Server。
+- 有一個資源可供用戶端需要特定的存取層級，而且此資源由目錄服務保護，在此情況下，資源是商務用 Skype Server。
     
-- 有了 OAuth 連線，也就是說，連線，則專用於*授權*使用者存取資源。 （OAuth 更具描述性的名稱，' 伺服器對伺服器 ' 驗證，也已知的而且通常會縮寫成 S2S）。
+- 有 OAuth 連線，也就是說，專門用來  *授權*  使用者存取資源的連線。  (OAuth 也是更具描述性的名稱「Server-to-Server ' 驗證，而且通常是 S2S 的縮寫。 ) 
     
-Skype for Business Server 新式驗證 (ADAL) 交談，Skype for Business Server 會透過 ADFS (在 Windows Server 2012 R2 的 ADFS 3.0) 進行通訊。 驗證也可能會使用某些其他身分識別提供者 (Isp)，但 Skype for Business server 必須經過設定才能使用 ADFS，直接通訊。 如果您還沒有設定為搭配 Skype for Business Server ADFS 請完成[ADFS 安裝](https://technet.microsoft.com/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx)。
+在商務用 Skype Server 新式驗證 (ADAL) 交談中，商務用 Skype Server 會在 Windows Server 2012 R2) 中透過 ADFS (ADFS 3.0 進行通訊。 驗證可能會使用其他一些身分識別提供者 (IdP) ，但商務用 Skype 伺服器必須設定為與 ADFS 直接通訊。 如果您未設定 ADFS 搭配商務用 Skype Server，請完成 [ADFS 安裝](https://technet.microsoft.com/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx)。
   
-ADAL 隨附於年 3 月 2016年累計更新用於商務用 Skype Server 2015 及年 3 月 2016年的 Skype for Business**必須**累計更新安裝，且需要成功設定。 Skype 商務 Server 2019，它是來自最初發行版本的產品。
+ADAL 會包含在商務用 Skype Server 2015 的2016年3月累積更新，以及商務用 Skype 的2016三月份累積更新 **必須** 安裝，才能成功設定。 若為商務用 Skype Server 2019，可從產品的初始版本取得。
   
 > [!NOTE]
-> 期間最初發行版本中，如果有任何混合的 Skype 拓樸的相關支援在內部部署環境中的新式驗證。 例如，如果環境是純粹 Skype for Business Server。 這個陳述式可能會受到變更。 
+> 在初次發行時，只有在沒有任何混合的 Skype 拓撲涉及時，才支援內部部署環境中的新式驗證。 例如，如果環境只是商務用 Skype Server。 此語句可能會變更。 
   
-成功設定必須下載 PowerShell 封裝.ps1 檔案包括具有 ADAL 所使用的命令。
+包含具有 ADAL 所使用之命令的 ps1 檔案的 PowerShell 套件，必須下載，以取得成功的設定。
 
-如需如何在商務用 Skype 中實作的新式驗證資訊，請參閱：[如何使用新式驗證 (ADAL) 與商務用 Skype](../../manage/authentication/use-adal.md)
+如需如何在商務用 Skype 中執行新式驗證的詳細資訊，請參閱： [如何使用現代驗證 (ADAL) 搭配商務用 skype](../../manage/authentication/use-adal.md)

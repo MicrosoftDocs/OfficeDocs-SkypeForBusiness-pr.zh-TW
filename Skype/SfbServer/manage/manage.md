@@ -1,8 +1,8 @@
 ---
 title: 管理商務用 Skype Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 摘要：流覽下列連結，以瞭解如何管理及維護商務用 Skype Server。
-ms.openlocfilehash: 22580e7005c3f7161d3161ddd14ee20b1be5b98d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 528b17367db0b82cd36361b4e4a427c8c8479775
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221707"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816573"
 ---
 # <a name="manage-skype-for-business-server"></a>管理商務用 Skype Server 
 
 **摘要：** 流覽下列連結，以瞭解如何管理及維護商務用 Skype Server。
   
-商務用 Skype 伺服器提供立即訊息（IM）、顯示狀態、會議、影片和電話語音解決方案，可支援企業層級的共同作業需求。 本主題提供有關如何設定、監控及維護商務用 Skype Server 部署的資訊連結。 
+商務用 Skype 伺服器提供立即訊息 (IM) 、顯示狀態、會議、影片和電話語音解決方案，可支援企業層級的共同作業需求。 本主題提供有關如何設定、監控及維護商務用 Skype Server 部署的資訊連結。 
   
 隨著新資訊出現和使用者提供意見反應，作者也會持續更新文章。 此頁面會經常更新，因此請經常回來查看。
 
@@ -35,7 +35,7 @@ ms.locfileid: "44221707"
 ||**內容**|**描述**|
 |:-----|:-----|:-----|
 |![技術圖表的圖示](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[商務用 Skype 伺服器的技術圖表](../technical-diagrams.md) <br/> |檢視這些放大的圖表，一覽架構選項。  <br/> |
-|![影片圖示](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|影片示範和訓練-即將*推出！*  <br/> |探索商務用 Skype Server 的影片簡報和訓練。  <br/> |
+|![影片圖示](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|影片示範和訓練-即將  *推出！*  <br/> |探索商務用 Skype Server 的影片簡報和訓練。  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>有關管理商務用 Skype Server 的文章
 

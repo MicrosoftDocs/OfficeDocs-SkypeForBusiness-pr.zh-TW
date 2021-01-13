@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中設定即時活動
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ description: 在小組中設定即時事件，包括設定您的網路、指派�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f12bc54fc4a2ad0e486ee141495f39e804838406
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 64a5bf471a79de73be3900e6b52fee38ebc12423
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130604"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809163"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 

@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中啟用呼叫詳細資料錄製
+title: 啟用商務用 Skype Server 中的詳細通話記錄
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,70 +11,70 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 摘要：瞭解如何在商務用 Skype Server 中啟用通話詳細資料錄製（CDR）記錄。
-ms.openlocfilehash: 6c4460ac004ee15893b81f09f7bd59943365e64c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解如何在商務用 Skype Server 中啟用 (CDR) 記錄的詳細通話記錄。
+ms.openlocfilehash: 48d21be6d377df24e859c3ffa6bb8b7858076d29
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817973"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816883"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用呼叫詳細資料錄製
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>啟用商務用 Skype Server 中的詳細通話記錄
 
-**摘要：** 瞭解如何在商務用 Skype Server 中啟用通話詳細資料錄製（CDR）記錄。
+**摘要：** 瞭解如何在商務用 Skype Server 中，啟用 (CDR) 記錄的詳細通話記錄。
 
-通話詳細資料錄製（CDR）記錄對等活動的用法與診斷資訊，包括實例訊息、透過網際網路通訊協定（VoIP）通話、應用程式共用、檔案傳輸及會議。 使用資料可用來計算投資回報率（ROI），而診斷資料可用來針對對等活動和會議進行疑難排解。
+詳細通話記錄 (CDR) 會記錄對等活動 (包括立即訊息、VoIP 電話、應用程式共用、檔案傳輸和會議) 的使用方式與診斷資訊。使用方式資料可以用來計算投資報酬率 (ROI)，而診斷資料則可用來排解對等活動和會議的疑難問題。
 
-使用下列程式可為您的整個組織或貴組織中的每個網站啟用 CDR。
+使用下列程序來為整個組織或組織內的個別網站啟用 CDR。
 
 > [!NOTE]
-> 若要啟用 CDR，您必須設定監視及監視資料庫。 如需詳細資訊，請參閱[部署監視](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)。
+> 如要啟用 CDR，您必須設定監控及監控資料庫。 如需詳細資訊，請參閱＜[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)＞。
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 啟用 CDR
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>啟用具有商務用 Skype Server 控制台的 CDR
 
-1.  從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦.
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
 
-2. 開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。
 
-3. 在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [**呼叫詳細資料錄製**]。
+3. 在左導覽列中，按一下 **[監控和封存]**，然後按一下 **[詳細通話記錄]**。
 
-4. 在 [**通話詳細資料記錄**] 頁面上，從表格中按一下適當的網站，按一下 [**動作**]，然後按一下 [**啟用 CDR**]。
+4. 在 **[詳細通話記錄]** 頁面上，依序按一下表格中的適當網站、**[動作]** 和 **[啟用 CDR]**。
 
     > [!NOTE]
     > 預設會啟用 CDR。
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 啟用 CDR
 
-您可以使用 Windows PowerShell 和**CsCdrConfiguration** Cmdlet 來啟用 CDR。 您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線至商務用 Skype Server 的詳細資料，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 在商務用 Skype 伺服器中，程式是一樣的。
+您可以使用 Windows PowerShell 和 **Set-CsCdrConfiguration** Cmdlet 來啟用 CDR。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype 伺服器的詳細資訊，請參閱博客文章 [：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
 
-### <a name="to-enable-cdr-for-a-single-location"></a>若要針對單一位置啟用 CDR
+### <a name="to-enable-cdr-for-a-single-location"></a>針對單一位置啟用 CDR
 
- 若要停用 CDR，請將 EnableCDR 參數設定為 True （$True）。
+ 如要停用 CDR，請將 EnableCDR 參數設為 True ($True)。
 
   ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
-### <a name="to-disable-cdr-for-a-single-location"></a>若要針對單一位置停用 CDR
+### <a name="to-disable-cdr-for-a-single-location"></a>針對單一位置停用 CDR
 
- 若要停用 CDR，請將 EnableCDR 參數設定為 False （$False）。 停用 CDR 不會卸載監視。 它會暫停 CDR 資料的收集和儲存。
+ 如要停用 CDR，請將 EnableCDR 參數設為 False ($False)。 停用 CDR 不會卸載監控。 它會暫停 CDR 資料的收集和儲存。
 
   ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
-### <a name="to-use-a-single-command-to-enable-cdr-in-multiple-locations"></a>若要使用單一命令在多個位置啟用 CDR
+### <a name="to-use-a-single-command-to-enable-cdr-in-multiple-locations"></a>使用單一命令啟用多個位置的 CDR
 
- 這個命令會針對貴組織中目前使用的所有 CDR 配置設定啟用 CDR。
+ 以下命令會啟用組織中所有目前正在使用之 CDR 組態設定的 CDR。
 
   ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-如需詳細資訊，請參閱[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 的說明主題。
+如需詳細資訊，請參閱 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
 
 ## <a name="see-also"></a>另請參閱
 
-[規劃監視](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[規劃監控](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
 [部署監控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

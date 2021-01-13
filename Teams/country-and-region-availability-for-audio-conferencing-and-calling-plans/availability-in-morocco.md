@@ -1,7 +1,7 @@
 ---
 title: 在摩洛哥中的可用性
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務。
-ms.openlocfilehash: af7c23039571f072b9c5a030d02eabe76c990f02
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: c35db0e95e53b441d07af6397d1ec0dd765f73e4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230371"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814643"
 ---
 # <a name="availability-in-morocco"></a>在摩洛哥中的可用性
 
@@ -50,8 +50,8 @@ ms.locfileid: "44230371"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-|自動語音應答 <br/> |有空  <br/> |
-|通話佇列  <br/> |有空  <br/> |
+|自動語音應答 <br/> |可用  <br/> |
+|通話佇列  <br/> |可用  <br/> |
 |語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
@@ -72,7 +72,7 @@ ms.locfileid: "44230371"
 |有提供付費電話號碼嗎？  <br/> |是 <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |否  <br/> |
    
- 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在[商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在 [商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 

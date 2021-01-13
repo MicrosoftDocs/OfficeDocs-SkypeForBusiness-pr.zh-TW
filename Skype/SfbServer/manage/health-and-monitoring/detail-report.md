@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype Server 中的會議詳細資料包表
+title: 商務用 Skype Server 中的會議詳細資料包告
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,75 +11,75 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 摘要：瞭解商務用 Skype Server 中使用的會議詳細資料包表。
-ms.openlocfilehash: 73ca72bbfb7b003aaaa894a5bc9e417312d96caa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解在商務用 Skype Server 中使用的會議詳細資料包告。
+ms.openlocfilehash: 245691fcb304a872942be4d5a9aabe8183b4db14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818003"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816903"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議詳細資料包表
+# <a name="conference-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議詳細資料包告
 
-**摘要：** 瞭解商務用 Skype Server 中所用的會議詳細資料包告。
+**摘要：** 深入瞭解商務用 Skype Server 中所用的會議詳細資料包告。
 
-[會議詳細資料] 報告提供參與會議之所有使用者的詳細資訊。 例如，您可以查看使用者加入會議的日期和時間、使用者離開會議的日期和時間，以及用來將該使用者連線到會議的端點使用者代理程式。 您也可以在每個會議中查看使用者角色的資訊（例如，簡報者或出席者）。 最重要的是，您會快速看到哪些使用者成功加入並完成會議，哪些使用者無法順利加入並完成會議。
+「會議詳細資料報告」可提供參與會議之使用者的詳細資訊。例如，您可以查看使用者加入會議的日期和時間、使用者離開會議的日期和時間，以及用來將使用者與會議連線的端點使用者代理程式之類的資訊。您也可以查看使用者在每個會議中的角色 (例如，簡報者或是出席者)。更重要的是，您可以更快速地查看哪些使用者已順利加入並完成會議，而哪些使用者無法順利加入並完成會議。
 
-## <a name="accessing-the-conference-detail-report"></a>存取會議詳細資料包表
+## <a name="accessing-the-conference-detail-report"></a>存取會議詳細資料報告
 
-您可以從下列報表存取會議詳細資料包告：
+您可從下列報告來存取會議詳細資料報告：
 
-- [[通話許可控制] 報告](call-admission-control-report.md)（按一下會議的詳細指標）
+- [Call Admission Control Report](call-admission-control-report.md) (按一下會議的 [詳細資料] 計量)
 
-- [[失敗清單] 報告](failure-list-report.md)（按一下會議規格）
+- [Failure List Report](failure-list-report.md) (按一下 [會議] 計量)
 
-- [使用者活動報告](call-diagnostic-reports-per-user.md)（按一下會議 URI 躍點數）
+- [User Activity Report](call-diagnostic-reports-per-user.md) (按一下 [會議 URI] 計量)
 
-從會議詳細資料包告中，您可以按一下診斷報告（詳細資料）度量來存取[診斷報告](diagnostic-report.md)。
+您還可從會議詳細資料報告中，按一下 [診斷報告] ([詳細資料]) 計量，來存取[Diagnostic Report](diagnostic-report.md)。
 
-## <a name="filters"></a>濾鏡
+## <a name="filters"></a>篩選
 
-無。 您無法在會議詳細資料包表中篩選。
+無。您無法篩選會議詳細資料報告。
 
 ## <a name="metrics"></a>指標
 
-下表列出在會議詳細資料包表的 [會議資訊] 區段中提供的資訊。
+下表列出會議詳細資料報告的「會議資訊」區段中所提供的資訊。
 
-**會議資訊度量單位**
+**會議資訊計量**
 
 
-| **名稱**                 | **說明**                                                                                                            |
+| **名稱**                 | **描述**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| **會議 URI** <br/> | 指派給會議的 URI。 例如：  <br/> sip： kmyer@litwareinc .com; gruu; 不透明 = 應用程式：會議：焦點： id： drg2y8v4  <br/> |
-| **池 FQDN** <br/>      | 會話中所涉及的註冊機構池或邊緣伺服器的完整功能變數名稱。  <br/>                             |
-| **開始時間** <br/>     | 會議開始的日期和時間。  <br/>                                                                          |
-| **召集人** <br/>      | 組織會議的使用者的 SIP 位址。  <br/>                                                               |
-| **結束時間** <br/>       | 會議結束的日期和時間。  <br/>                                                                            |
+| **會議 URI** <br/> | 指派給會議的 URI。例如：  <br/> sip： kmyer@litwareinc .com; gruu; 不透明 = 應用程式：會議： focus：識別碼： drg2y8v4  <br/> |
+| **集區 FQDN** <br/>      | 工作階段所涉及的登錄器集區或 Edge Server 的完整網域名稱。  <br/>                             |
+| **開始時間** <br/>     | 會議開始的日期與時間。  <br/>                                                                          |
+| **召集人** <br/>      | 召開會議之使用者的 SIP 位址。  <br/>                                                               |
+| **結束時間** <br/>       | 會議結束的日期與時間。  <br/>                                                                            |
 
-下表列出會議詳細資料包表之會議參與區段中提供的資訊。
+下表列出會議詳細資料報告的「會議參與區段」中所提供的資訊。
 
-**會議參與指標**
+**會議參與計量**
 
-|**名稱**|**說明**|
+|**名稱**|**描述**|
 |:-----|:-----|
 |**使用者** <br/> |參與會議之使用者的 SIP 位址。  <br/> |
-|**角色** <br/> |會議參與者所扮演的角色（例如，簡報者）。  <br/> |
-|**連通** <br/> |參與者的網路連線（通常是內部或外部的網路連線）。  <br/> |
-|**加入時間** <br/> |參與者加入會議的日期和時間。  <br/> |
-|**休假時間** <br/> |參與者離開會議的日期和時間。  <br/> |
-|**使用者代理程式** <br/> |參與者終點所使用之軟體的識別碼。  <br/> |
-|**診斷報告** <br/> |提供診斷及疑難排解資訊。 包括 SIP 回應代碼、診斷標頭、會議加入時間，以及失敗會話的診斷 Id。  <br/> |
+|**Role** <br/> |會議參與者所扮演的角色 (例如，簡報者)。  <br/> |
+|**連線能力** <br/> |參與者的網路連線 (一般來說是從內部或從外部)。  <br/> |
+|**加入時間** <br/> |參與者加入會議的日期與時間。  <br/> |
+|**離開時間** <br/> |參與者離開會議的日期與時間。  <br/> |
+|**使用者代理程式** <br/> |參與者的端點所使用的軟體識別碼。  <br/> |
+|**診斷報告** <br/> |可提供診斷和疑難排解資訊，包括 SIP 回應碼、診斷標頭、會議加入時間以及失敗之工作階段的診斷識別碼。  <br/> |
 
-下表列出在會議詳細資料包表的 [會議形式] 區段中提供的資訊。
+下表列出會議詳細資料包告之 [會議形式] 區段中所提供的資訊。
 
-**會議形式度量單位**
+**會議形式計量**
 
-|**名稱**|**說明**|
+|**名稱**|**描述**|
 |:-----|:-----|
 |**使用者** <br/> |參與會議之使用者的 SIP 位址。  <br/> |
-|**加入時間** <br/> |參與者加入會議的日期和時間。  <br/> |
-|**休假時間** <br/> |參與者離開會議的日期和時間。  <br/> |
-|**會議服務器 URI** <br/> |在會議中使用的會議服務器 URI。  <br/> |
-|**診斷報告** <br/> |提供診斷及疑難排解資訊。 包括 SIP 回應代碼、診斷標頭、會議加入時間，以及失敗會話的診斷 Id。  <br/> |
+|**加入時間** <br/> |參與者加入會議的日期與時間。  <br/> |
+|**離開時間** <br/> |參與者離開會議的日期與時間。  <br/> |
+|**會議伺服器 URI** <br/> |會議中所使用之會議伺服器的 URI。  <br/> |
+|**診斷報告** <br/> |可提供診斷和疑難排解資訊，包括 SIP 回應碼、診斷標頭、會議加入時間以及失敗之工作階段的診斷識別碼。  <br/> |
 
 

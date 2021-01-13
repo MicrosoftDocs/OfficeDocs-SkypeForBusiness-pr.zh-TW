@@ -1,8 +1,8 @@
 ---
 title: 適用於醫療保健的 Teams
 description: 瞭解可供您管理組織中的醫療保健小組小組的系統管理員資源。
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e77bd388dd2d852c23fb05e6e54f265065fc1a1a
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 8e7de4f3a91375aee8d58d2a5164f995fee54f22
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766866"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815703"
 ---
 # <a name="teams-for-healthcare"></a>適用於醫療保健的 Teams
 

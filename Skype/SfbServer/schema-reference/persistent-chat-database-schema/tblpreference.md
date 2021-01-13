@@ -1,8 +1,8 @@
 ---
 title: tblPreference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-description: tblPreference 包含使用者的用戶端喜好設定。 這通常是由 Lync 2013 舊版用戶端使用。
-ms.openlocfilehash: 426a9f6aebe6cc6e510e2a75093b9210d3a0ba46
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPreference 包含使用者的用戶端喜好設定。 這通常是 Lync 2013 之前的用戶端使用。
+ms.openlocfilehash: 96cd017dd67a05f3240269f5bdcbd23f30fffd28
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814551"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815903"
 ---
 # <a name="tblpreference"></a>tblPreference
 
-tblPreference 包含使用者的用戶端喜好設定。 這通常是由 Lync 2013 舊版用戶端使用。
+tblPreference 包含使用者的用戶端喜好設定。 這通常是 Lync 2013 之前的用戶端使用。
 
-**分欄**
+**Columns**
 
 
-| **左欄**            | **類型**                        | **說明**                                                 |
+| **欄**            | **類型**                        | **描述**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| prefLabel  <br/>      | Nvarchar （255），not null  <br/> | 具有以下格式的標籤： \<使用者 sip uri\>                   |
-| prefSeqID  <br/>      | int，not null  <br/>            | 用於進行版本設定的順序編號（每個標籤）。  <br/> |
-| prefContent  <br/>    | Nvarchar （max）  <br/>           | 已編碼的內容。  <br/>                                         |
-| lastModifiedBy  <br/> | int，not null  <br/>            | 更新喜好設定的主體 ID。  <br/>         |
+| prefLabel  <br/>      | nvarchar (255)，非 null  <br/> | 標籤，格式如下： \<user sip uri\>                   |
+| prefSeqID  <br/>      | int，非 null  <br/>            | 每個標籤的序數位 (，供版本設定之用) 。  <br/> |
+| prefContent  <br/>    | nvarchar (max)  <br/>           | 編碼內容。  <br/>                                         |
+| lastModifiedBy  <br/> | int，非 null  <br/>            | 更新首選項的主體識別碼。  <br/>         |
 
-**機碼**
+**Key**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|\<prefLabel, prefSeqID\>  <br/> |主鍵。  <br/> |
+|\<prefLabel, prefSeqID\>  <br/> |主索引鍵。  <br/> |
 
 

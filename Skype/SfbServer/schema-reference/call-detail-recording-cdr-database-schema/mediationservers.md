@@ -1,8 +1,8 @@
 ---
 title: MediationServers 表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
-description: MediationServers 資料表是支援資料表。 每個記錄都儲存在資料庫中有記錄的通話中所涉及之一個中繼伺服器的相關資訊。
-ms.openlocfilehash: 74c1095044bd9bb7183202d115236eba863c62da
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: MediationServers 表格是支援的表格。 每筆記錄都儲存在具有資料庫中記錄之通話所涉及的一個轉送伺服器的相關資訊。
+ms.openlocfilehash: e498409087ee5cf41b32b29ec5f66a147290e1ad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815021"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814763"
 ---
 # <a name="mediationservers-table"></a>MediationServers 表格
  
-MediationServers 資料表是支援資料表。 每個記錄都儲存在資料庫中有記錄的通話中所涉及之一個中繼伺服器的相關資訊。
+MediationServers 表格是支援的表格。 每筆記錄都儲存在具有資料庫中記錄之通話所涉及的一個轉送伺服器的相關資訊。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**MediationServerId** <br/> |int  <br/> |首選  <br/> |標識此中繼伺服器的唯一號碼。  <br/> |
-|**MediationServer** <br/> |Nvarchar （256）  <br/> | <br/> |中繼伺服器名稱。  <br/> |
+|**MediationServerId** <br/> |int  <br/> |主要  <br/> |用於識別此轉送伺服器的唯一號碼。  <br/> |
+|**MediationServer** <br/> |Nvarchar (256)   <br/> | <br/> |轉送伺服器名稱。  <br/> |
    
 

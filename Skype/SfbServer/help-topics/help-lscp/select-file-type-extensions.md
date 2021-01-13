@@ -1,8 +1,8 @@
 ---
 title: 選取副檔名類型
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
-description: 使用 [選取檔案類型副檔名] 對話方塊，選取您要封鎖或允許的檔案類型延伸，方法是選取（封鎖）或清除（允許） [檔案類型延伸] 底下的延伸旁邊的核取方塊。 按一下箭號以展開類別，並查看該類別的所有檔案類型延伸。 如果您想要選取類別的所有檔案類型延伸，請選取 [類別名稱]。
-ms.openlocfilehash: ea03218092425fea164c744d03e1c931b9e9740b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 使用 [選取副檔名] 對話方塊，選取 (封鎖) 或清除 (允許) [副檔名] 底下的副檔名旁邊的核取方塊，即可選取您要封鎖或允許的副檔名。 按一下箭頭即可展開類別，並檢視該類別的所有副檔名。 如果您想要選取類別的所有副檔名，請選取類別名稱。
+ms.openlocfilehash: fdf495ae2f8de1a4951b5388bc2000f7a63ad76a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822216"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814543"
 ---
 # <a name="select-file-type-extensions"></a>選取副檔名類型
  
-使用 [**選取檔案類型副檔名**] 對話方塊，選取您要封鎖或允許的檔案類型延伸，方法是選取（封鎖）或清除（允許） [**檔案類型延伸**] 底下的延伸旁邊的核取方塊。 按一下箭號以展開類別，並查看該類別的所有檔案類型延伸。 如果您想要選取類別的所有檔案類型延伸，請選取 [類別名稱]。 
+使用 **[選取副檔名]** 對話方塊，選取 (封鎖) 或清除 (允許) **[副檔名]** 底下的副檔名旁邊的核取方塊，即可選取您要封鎖或允許的副檔名。按一下箭頭即可展開類別，並檢視該類別的所有副檔名。如果您想要選取類別的所有副檔名，請選取類別名稱。 
   
-如果您在 [檔案**類型延伸**] 中沒有看到您要選取之檔案類型的副檔名，請在 [新增**新副檔名至] 清單**中的文字方塊中輸入副檔名，然後按一下 [**新增**]。 
+要是沒有看到您想選取的檔案類型副檔名列在 **[副檔名]** 中，請在 **[新增副檔名到清單]** 底下的文字方塊中輸入副檔名，然後按一下 **[新增]**。 
   
-在您將所有想要的檔案類型副檔名新增至 [選取的**檔案類型副檔名**] 清單後，按一下 **[確定]**。
+將您要的所有副檔名都新增到 **[選取的副檔名]** 清單之後，請按一下 **[確定]**。
   
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
   
 

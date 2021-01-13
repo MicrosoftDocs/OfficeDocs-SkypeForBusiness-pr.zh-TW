@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalInvites
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites 包含所有擁有自動邀請之節點之已預配使用者的邀請。
-ms.openlocfilehash: dfa41ec5715c7c5255b26fcdb32561e74c4f08df
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalInvites 包含所有提供給啟動自動邀請的所有節點之佈建使用者的邀請。
+ms.openlocfilehash: 5bbccd582442001bd2122dcbacdbe3634fcfd649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814181"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815853"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites 包含所有擁有自動邀請之節點之已預配使用者的邀請。
+tblPrincipalInvites 包含所有提供給啟動自動邀請的所有節點之佈建使用者的邀請。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int，not null  <br/> |Principal ID。  <br/> |
-|invID  <br/> |int，not null  <br/> |從 tblLastInviteId 資料表產生的唯一順序編號（每個主體識別碼）。  <br/> |
-|個  <br/> |int，not null  <br/> |節點識別碼（僅適用于聊天室）。  <br/> |
-|createdOn  <br/> |datetime、not null  <br/> |建立時間。  <br/> |
+|Tblprincipal.prinid  <br/> |int，非 null  <br/> |主體識別碼。  <br/> |
+|尹雯德  <br/> |int，非 null  <br/> |從 tblLastInviteId 表格產生的唯一序號 (每個主體識別碼)。  <br/> |
+|nodeID  <br/> |int，非 null  <br/> |節點識別碼 (僅限聊天室)。  <br/> |
+|createdOn  <br/> |日期時間，非 null  <br/> |建立的時間。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|\<prinID、\>  <br/> |主鍵。  <br/> |
-|prinID  <br/> |在 tblPrincipal prinID 資料表中使用 [查閱] 的外鍵。  <br/> |
-|個  <br/> |在 tblNode 資料表中使用 [查閱] 的外鍵。  <br/> |
+|\<prinID, nodeID\>  <br/> |主索引鍵。  <br/> |
+|Tblprincipal.prinid  <br/> |在 tblPrincipal.prinID 表格中查閱外部索引鍵。  <br/> |
+|nodeID  <br/> |在 tblNode.nodeID 表格中查閱外部索引鍵。  <br/> |
    
 

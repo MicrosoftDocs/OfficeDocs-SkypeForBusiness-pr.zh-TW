@@ -1,8 +1,8 @@
 ---
 title: tblLastChatId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: tblLastChatId 包含每位使用者所產生（並在 tblChat 資料表中使用）的最後一個聊天 ID。
-ms.openlocfilehash: 95498f077948e1b400d0a370762c121def703e8c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblLastChatId 表格包含為每個使用者產生 (且用於 tblChat 表格) 的最後一個交談 ID。
+ms.openlocfilehash: 80664d6b296fce9b4909674f9d21b1aa13285826
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814581"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816003"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-tblLastChatId 包含每位使用者所產生（並在 tblChat 資料表中使用）的最後一個聊天 ID。
+tblLastChatId 表格包含為每個使用者產生 (且用於 tblChat 表格) 的最後一個交談 ID。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|個  <br/> |int，not null  <br/> |[Node ID] （聊天室-僅限類型）。  <br/> |
-|lastChatID  <br/> |Bigint，not null  <br/> |上次使用的聊天 ID。  <br/> |
+|nodeID  <br/> |int，非 null  <br/> |節點識別碼 (僅聊天室類型)。  <br/> |
+|lastChatID  <br/> |bigint，非 null  <br/> |最後一個使用的交談 ID。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|\<lastChatID\>  <br/> |主鍵（只有一個代表可充分處理）。  <br/> |
-|個  <br/> |在 tblNode 資料表中使用 [查閱] 的外鍵。  <br/> |
+|\<nodeID, lastChatID\>  <br/> |主索引鍵 (處理時僅有 nodeID 已足夠)。  <br/> |
+|nodeID  <br/> |在 tblNode.nodeID 表格中查閱外部索引鍵。  <br/> |
    
 ## <a name="see-also"></a>另請參閱
 

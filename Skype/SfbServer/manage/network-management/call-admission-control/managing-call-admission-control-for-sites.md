@@ -1,8 +1,8 @@
 ---
-title: 管理網站的呼叫許可控制
+title: 管理網站的通話許可控制
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,93 +10,93 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Network sites 是呼叫許可控制（CAC）、E9-1 及媒體旁路部署的每個網路區域內的辦公室或位置。
-ms.openlocfilehash: ec2a3dda70bdd4b952169ca663ca271b76f98481
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 網站是指通話許可控制 (CAC)、E9-1-1 和媒體旁路部署的每一個網路地區內的辦公室或位置。
+ms.openlocfilehash: dbe02c78c40cab48a79d7c63d3c6239b4ae59458
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817512"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816453"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>在商務用 Skype Server 中的網站管理通話許可控制
 
-Network sites 是呼叫許可控制（CAC）、E9-1 及媒體旁路部署的每個網路區域內的辦公室或位置。 使用本文中的程式來設定網路網站的呼叫許可控制。
+網站是指通話許可控制 (CAC)、E9-1-1 和媒體旁路部署的每一個網路地區內的辦公室或位置。 使用本文中的程式設定網路網站的通話許可控制。
 
-## <a name="configure-network-site-links"></a>設定網路網站連結
+## <a name="configure-network-site-links"></a>設定網路站台連結
 
-在呼叫許可控制（CAC）配置中，您可以建立網路間原則，以定義直接連結之網站之間的頻寬限制。 當網路網站共用直接連結時，音訊與視頻連線的頻寬限制可以在這兩個網站之間定義。 您無法使用商務用 Skype Server 的 [控制台] 來設定網路網站原則，只能使用商務用 Skype Server Management Shell 中的 Cmdlet 來執行此操作。 您可以從商務用 Skype Server Management Shell 建立、修改及移除網路網站連結（又稱為「網路間」原則）。
+在通話許可控制 (CAC) 組態中，您可以建立網路網站間原則以定義直接連結的網站之間的頻寬限制。 當網路網站共用直接連結時，您可以定義這兩個網站之間音訊與視訊連線的頻寬限制。 您無法使用商務用 Skype Server 控制台來設定網路網站原則，只能使用來自商務用 Skype Server 管理命令介面的 Cmdlet 來執行此動作。 您可以建立、修改及移除網路站台連結 (也稱為從商務用 Skype Server 管理命令介面) 網路內部網站原則。
 
-### <a name="to-create-a-network-site-link"></a>建立網路網站連結
+### <a name="to-create-a-network-site-link"></a>若要建立網路網站連結
 
-1.  登入將商務用 Skype Server Management Shell 安裝為 RTCUniversalServerAdmins 群組的成員或必要的使用者權利的電腦。
+1.  以 RTCUniversalServerAdmins 群組成員的身分或必要的使用者權限，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2.  啟動商務用 Skype Server 管理命令介面：請依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype 伺服器**]，然後按一下 [**商務用 skype server 管理命令**介面]。
+2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
-3.  在命令提示字元中，輸入下列命令，以取代有效的設定值：
+3.  在命令提示字元中輸入下列命令，其中的值換成您組態適用的有效值：
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    這個範例會建立名為 Reno\_的新網路網站連結，以設定 Reno 與新的網路網站之間的頻寬限制。 在執行這個命令之前，必須已經存在網路網站和頻寬原則設定檔。
+    這個範例會建立名為雷諾的新網路站台連結 \_ ，此連結會設定雷諾和上點網路網站之間的頻寬限制。 網路網站與頻寬原則設定檔在執行此命令前即必須存在。
 
-如需詳細的參數描述，請參閱[新的 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)。 若要取得可套用至 network site link 的頻寬原則配置檔案清單，請呼叫**CsNetworkBandwidthPolicyProfile** Cmdlet。 如需詳細資訊，請參閱[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)。
+如需詳細的參數描述，請參閱 [CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)。 若要擷取可套用至網路網站連結之頻寬原則設定檔的清單，請呼叫 **Get-CsNetworkBandwidthPolicyProfile** Cmdlet。 如需詳細資訊，請參閱 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)。
 
-### <a name="to-modify-a-network-site-link"></a>修改網路網站連結
+### <a name="to-modify-a-network-site-link"></a>若要修改網路網站連結
 
-1.  登入將商務用 Skype Server Management Shell 安裝為 RTCUniversalServerAdmins 群組的成員或必要的使用者權利的電腦。
+1.  以 RTCUniversalServerAdmins 群組成員的身分或必要的使用者權限，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2.  啟動商務用 Skype Server 管理命令介面：請依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype 伺服器**]，然後按一下 [**商務用 skype server 管理命令**介面]。
+2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
-3.  使用**CsNetworkInterSitePolicy** Cmdlet 來修改指定的網路網站連結的屬性。 您可以修改（或兩者）或連線的網站，也可以修改與連結相關聯的頻寬原則設定檔。 以下是修改名為 Reno\_的網站連結的頻寬原則設定檔範例：
+3.  使用 **Set-CsNetworkInterSitePolicy** Cmdlet 來修改某個網路網站連結的內容。 您可以修改相連網站的其中一端網站 (或兩端網站都修改)，並且可以修改與連結相關聯的頻寬原則設定檔。 以下是修改名為雷諾上海之網站連結的頻寬原則設定檔的範例 \_ ：
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-如需詳細的參數描述，請參閱[設定 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)。
+如需詳細的參數描述，請參閱 [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)。
 
 
-### <a name="to-delete-a-network-site-link"></a>刪除網路網站連結
+### <a name="to-delete-a-network-site-link"></a>若要刪除網路網站連結
 
-1.  登入將商務用 Skype Server Management Shell 安裝為 RTCUniversalServerAdmins 群組的成員或必要的使用者權利的電腦。
+1.  以 RTCUniversalServerAdmins 群組成員的身分或必要的使用者權限，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2.  啟動商務用 Skype Server 管理命令介面：請依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype 伺服器**]，然後按一下 [**商務用 skype server 管理命令**介面]。
+2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
-3.  使用**CsNetworkInterSitePolicy** Cmdlet 來移除網路網站連結。 下列範例會刪除 Reno\_的 [上海網路] 網站連結：
+3.  使用 **Remove-CsNetworkInterSitePolicy** Cmdlet 來移除網路網站連結。 下列範例會刪除雷諾 \_ 上海網路站台連結：
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-如需詳細的參數描述，請參閱[移除-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)。
+如需詳細的參數描述，請參閱 [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)。
 
 
 ## <a name="view-network-site-information"></a>查看網路網站資訊
 
-[網路網站] 是在通話許可控制（CAC）或增強型9-1-1 部署的每個區域中設定的辦公室或位置。 您可以在商務用 Skype Server 的 [控制台] 或 [商務用 Skype 伺服器管理] 命令介面上，查看網路網站資訊。 
+網路網站是設定在通話許可控制 (CAC) 或增強型 9-1-1 部署之每一個地區內部的辦公室或位置。 您可以在商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面中查看網路網站資訊。 
 
-### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>若要在商務用 Skype Server [控制台] 中查看網路網站資訊
+### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>在商務用 Skype Server 控制台中查看網路網站資訊
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
 
-3.  在左側導覽列中，按一下 [**網路**設定]，然後按一下 [**網站**]。
+3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 
-4.  在 [**網站**] 頁面上，按一下您要查看的網站。
+4.  在 [網站] 頁面上，按一下您要檢視的網站。
  
     > [!NOTE]  
-    > 您一次只能查看一個網站的資訊。
+    > 您一次僅可檢視一個網站的網站資訊。
 
-5.  按一下 [**編輯**] 功能表上的 [**顯示詳細資料**]。
+5.  在 [編輯] 功能表上，按一下 [顯示詳細資料]。
 
 
-### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看網路網站資訊
+### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看網路網站資訊
 
-您可以使用 Windows PowerShell 和 CsNetworkSite Cmdlet 來查看網路網站資訊。 您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 Get-CsNetworkSite Cmdlet 來查看網路網站資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
 
-### <a name="to-view-network-site-information"></a>若要查看網路網站資訊
+### <a name="to-view-network-site-information"></a>若要檢視網路網站資訊
 
   - 若要查看所有網路網站的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
     
         Get-CsNetworkSite
     
-    這會傳回如下所示的資訊：
+    如此將傳回類似如下的資訊：
     
         Identity          : Redmond
         NetworkSiteID     : Redmond
@@ -106,110 +106,110 @@ Network sites 是呼叫許可控制（CAC）、E9-1 及媒體旁路部署的每�
         BWPolicyProfileID :
         LocationPolicy    :
 
-如需詳細資訊，請參閱[CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) Cmdlet 的說明主題。
+如需詳細資訊，請參閱＜[Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)＞Cmdlet 的說明主題。
 
 
 ## <a name="create-or-modify-network-sites"></a>建立或修改網路網站 
 
-[網路網站] 是在通話許可控制（CAC）或增強型9-1-1 部署的每個區域中設定的辦公室或位置。 您可以使用商務用 Skype Server 的 [控制台] 來設定網站，並將它們與區域建立關聯。 例如，北美的網路區域可能會與「芝加哥」、「雷德蒙」和「范與范」等網路網站相關聯。 您必須針對組織中的每個網站建立 CAC 網路網站，即使該網站沒有頻寬限制也一樣。 您可以從商務用 Skype Server 的 [控制台] 建立、修改及刪除網路網站。 使用下列程式來建立或修改網路網站。 
+網路網站是設定在通話許可控制 (CAC) 或增強型 9-1-1 部署之每一個地區內部的辦公室或位置。 您可以使用商務用 Skype Server 控制台來設定網站，並將其與區域產生關聯。 例如，北美洲的網路區域可能會和 Chicago、Redmond 及 Vancouver 等網路網站相關聯。 您必須為組織內的每個網站建立 CAC 網路網站，即使該網站沒有頻寬限制。 您可以從商務用 Skype Server 控制台建立、修改和刪除網路網站。 請使用下列程序來建立或修改網站。 
 
-### <a name="to-create-a-network-site"></a>建立網路網站
+### <a name="to-create-a-network-site"></a>若要建立網路網站
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
 
-3.  在左側導覽列中，按一下 [**網路**設定]，然後按一下 [**網站**]。
+3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 
-4.  在 [**網站**] 頁面上，按一下 [**新增**]。
+4.  在 **[網站]** 頁面上，按 **[新增]**。
 
-5.  在 [**新增網站**] 的 [**名稱**] 欄位中，輸入此網站的名稱。
+5.  在 **[新增網站]** 的 **[名稱]** 欄位中，輸入網站的名稱。
 
     > [!NOTE]  
     > 網站名稱在商務用 Skype Server 部署中必須是唯一的。
 
-6.  在 [**地區**] 下拉式清單中，選取要與此網站建立關聯的網路區域。
+6.  在 **[地區]** 下拉式清單中，選取要與此網站產生關聯的網域地區。
 
-7.  可選如果您想要將音訊或視頻通話的頻寬限制放到此網站，請從 [**頻寬原則**] 下拉式清單中選取 [頻寬原則] 設定檔和適當的設定。
+7.  (選用) 如果您要對此網站的音訊或視訊通話限制頻寬，請從 **[頻寬原則]** 下拉式清單中選取含有適當設定的頻寬原則設定檔。
  
     > [!NOTE]  
-    > 您可以在 [**網路**設定] 群組的 [**原則 Profil** ] 頁面上，查看可用頻寬原則設定檔的詳細資料，或建立新的頻寬原則設定檔。 如需詳細資訊，請參閱[管理網路頻寬原則設定檔](managing-network-bandwidth-policy-profiles.md)。
+    > 您可以在 [**網路** 設定] 群組的 [**原則 Profil** ] 頁面上，查看可用頻寬原則設定檔的詳細資料，或建立新的頻寬原則設定檔。 如需詳細資訊，請參閱 [管理網路頻寬原則設定檔](managing-network-bandwidth-policy-profiles.md)。
 
-8.  可選如果您想要提供此網站的位置設定，請從 [**位置原則**] 下拉式清單中選取位置原則。
-
-    > [!NOTE]  
-    > 位置原則會將特定的增強型9-1-1 （E9-1-1）及用戶端位置設定指派至網站。 您可以從 [**網路**設定] 群組的 [**位置原則**] 頁面，查看可用位置原則的詳細資料，或建立新的位置原則。 
-
-9.  可選在 [**描述**] 欄位中輸入一個值，以提供此網站的詳細資訊，而不能單獨以名稱表示。
-
-10. 按一下 [認可]****。
+8.  (選用) 如果您要提供此網站的位置設定，請從 **[位置原則]** 下拉式清單中選取位置原則。
 
     > [!NOTE]  
-    > 當您建立新的網路網站時，請不要使用**相關聯的子網**資料表。 當您建立或修改子網時，您可以將子網與網站建立關聯。 如需詳細資訊，請參閱[管理網路子網](managing-network-subnets.md)。
+    > 此位置原則將特定的增強型 9-1-1 (E9-1-1) 功能和用戶端位置設定指派給網站。 您可以在 **[網路設定]** 群組的 **[位置原則]** 頁面上，檢視可用位置原則的詳細資訊，或是建立新的位置原則。 
 
-### <a name="to-modify-a-network-site"></a>修改網路網站
+9.  (選用) 在 **[描述]** 欄位中輸入值，提供無法用名稱完整表達的網站的其他資訊。
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+10. 按一下 **[認可]**。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
+    > [!NOTE]  
+    > 建立新的網路網站時不會使用 **[關聯的子網路]** 表格。 建立或修改子網路時才會讓子網路與網站相關聯。 如需詳細資訊，請參閱 [管理網路子網](managing-network-subnets.md)。
 
-3.  在左側導覽列中，按一下 [**網路**設定]，然後按一下 [**網站**]。
+### <a name="to-modify-a-network-site"></a>修改網站
 
-4.  在 [**網站**] 頁面上，按一下您要修改的網站。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-5.  按一下 [**編輯**] 功能表上的 [**顯示詳細資料**]。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
 
-6.  在 [**編輯網站**] 頁面上，您可以修改與網站相關聯的描述、區域、頻寬原則設定檔，以及位置原則。 如需詳細資訊，請參閱上面的[建立網路網站](#to-create-a-network-site)。
+3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 
-7.  按一下 [認可]****。
+4.  在 **[網站]** 頁面中，按一下您要修改的網站。
 
-您無法在此頁面上修改**關聯的子網**資料表。 相關子網的清單是為參考提供的，因此您在修改網站設定時，您會發現哪些子網會受到影響。
+5.  在 **[編輯]** 功能表上，按一下 **[顯示詳細資料]**。
+
+6.  在 **[編輯網站]** 頁面上，您可以修改與網站相關聯的描述、地區、頻寬原則設定檔和位置原則。 如需詳細資訊，請參閱 [建立上述網路網站](#to-create-a-network-site) 。
+
+7.  按一下 **[認可]**。
+
+您無法修改此頁面上的 **[關聯的子網路]** 表格。關聯的子網路清單僅供參考，讓您知道修改網站設定會影響哪些子網路。
 
 
 ## <a name="delete-an-existing-network-site"></a>刪除現有的網路網站
 
-[網路網站] 是在通話許可控制（CAC）或增強型9-1-1 部署的每個區域中設定的辦公室或位置。 您可以使用商務用 Skype Server 的 [控制台] 來設定網站，並將它們與區域建立關聯。 例如，北美的網路區域可能會與「芝加哥」、「雷德蒙」和「范與范」等網路網站相關聯。 您必須針對組織中的每個網站建立 CAC 網路網站，即使該網站沒有頻寬限制也一樣。 您可以從商務用 Skype Server 的 [控制台] 建立、修改及刪除網路網站。 使用下列程式刪除現有的網路網站。 如需建立或修改網路網站的詳細資料，請參閱[管理網站的呼叫許可控制](managing-call-admission-control-for-sites.md)。
+網路網站是設定在通話許可控制 (CAC) 或增強型 9-1-1 部署之每一個地區內部的辦公室或位置。 您可以使用商務用 Skype Server 控制台來設定網站，並將其與區域產生關聯。 例如，北美洲的網路區域可能會和 Chicago、Redmond 及 Vancouver 等網路網站相關聯。 您必須為組織內的每個網站建立 CAC 網路網站，即使該網站沒有頻寬限制。 您可以從商務用 Skype Server 控制台建立、修改和刪除網路網站。 使用下列程序刪除現有網路網站。 如需建立或修改網路網站的詳細資訊，請參閱 [管理網站的通話許可控制](managing-call-admission-control-for-sites.md)。
 
 
 ### <a name="to-delete-a-network-site"></a>刪除網路網站
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
 
-3.  在左側導覽列中，按一下 [**網路**設定]，然後按一下 [**網站**]。
+3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 
-4.  在 [**網站**] 頁面上，按一下您要刪除的網站。
+4.  在 [網站] 頁面上，按一下您要刪除的網站。
 
     > [!NOTE]  
-    > 您可以一次刪除一個以上的網站。 若要這樣做，請按住 CTRL 並在按住 CTRL 鍵的同時選取多個網站。 或者，若要選取 [所有網站]，請按一下 [**編輯**] 功能表上的 [全**選**]。
+    > 您可以一次刪除多個網站。若要這樣做，請按 CTRL 並在按住 CTRL 鍵的同時選取多個網站。或者，若要選取所有網站，請按一下 [編輯] 功能表上的 [全選]。
 
-5.  在 [**編輯**] 功能表上，按一下 [**刪除**]。
+5.  在 **[編輯]** 功能表中，按一下 **[刪除]**。
 
-6.  按一下 [確定]****。
+6.  按一下 [確定]。
     
 
     > [!WARNING]  
-    > 如果網路網站與網路子網相關聯，您就無法移除它。 如果您嘗試移除與子網相關聯的網站，您會收到錯誤訊息。 若要查看網站是否與任何子網產生關聯，請按一下該網站，然後按一下 [**編輯**] 功能表上的 [**顯示詳細資料**]。
+    > 但是如果網站與某個網路子網路相關聯時，則無法移除該網路網站。如果您嘗試移除與子網路相關聯的網站，則會收到錯誤訊息。若要查看網站是否與子網路相關聯，請按一下網站並按一下 [編輯] 功能表上的 [顯示詳細資料]。
 
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[新-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
+[新 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
  
 [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
 
-[移除-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
 
-[CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
 
-[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[新-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
+[New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
 
 [Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
 
-[移除-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
+[Remove-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
 
-[CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  
+[Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  

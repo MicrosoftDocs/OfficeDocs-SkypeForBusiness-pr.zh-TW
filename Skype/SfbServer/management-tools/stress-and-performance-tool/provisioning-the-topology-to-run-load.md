@@ -1,8 +1,8 @@
 ---
-title: 在壓力與效能案例中，配拓拓撲以執行負載
+title: 在壓力和效能案例中布建拓撲以執行負載
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -13,27 +13,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: 商務用 Skype Server 2015 拓撲變更或提供，以允許使用者成功執行壓力與效能工具。
-ms.openlocfilehash: 2156616fac98d1e6fad08d2036f4bc2def3e98b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 商務用 Skype Server 2015 拓撲變更或布建，以允許使用者成功執行壓力和效能工具。
+ms.openlocfilehash: 8d422497d11c9e56e4d5b205269a09f96dffc136
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816162"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814933"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>在壓力與效能案例中，配拓拓撲以執行負載
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>在壓力和效能案例中布建拓撲以執行負載
  
-商務用 Skype Server 2015 拓撲變更或提供，以允許使用者成功執行壓力與效能工具。
+商務用 Skype Server 2015 拓撲變更或布建，以允許使用者成功執行壓力和效能工具。
   
-您可能需要在您的環境中進行一些變更，這取決於您現有的設定與商務用 Skype Server 2015 部署的配置。 以下是這些變更的清單：
+根據您現有的商務用 Skype Server 2015 部署設定和設定，您可能需要在環境中進行一些變更。 以下是這些變更的清單：
   
-1. 將 [Windows PowerShell 執行原則] 設定為 [無限制]。 如果您不確定目前所設定的專案，您可以開啟商務用 Skype Server Management 命令介面，然後執行此命令：
+1. 設定 Windows PowerShell 執行原則為無限制。 如果您不確定目前的設定，您可以開啟商務用 Skype Server 管理命令介面，並執行下列命令：
     
    ```PowerShell
    Get-ExecutionPolicy
    ```
 
-   如果沒有傳回不受限制的值，您必須執行下一步：
+   若未傳回無限制的值，則必須執行下列下一步：
     
    ```PowerShell
    Set-ExecutionPolicy -Unrestricted
@@ -41,9 +41,9 @@ ms.locfileid: "41816162"
 
 2. 若要有效地設定商務用 Skype Server，您必須：
     
-    - 熟悉商務用 Skype Server 2015 拓撲（例如電腦名稱稱、服務實例、網站名稱及原則）。
+    - 熟悉商務用 Skype Server 2015 拓撲 (例如電腦名稱稱、服務實例、網站名稱和原則) 。
     
-    - 指派一些建立給群組的使用者，例如回應群組查尋群組（例如 SIP Uri）。
+    - 將一些建立的使用者指派給群組，例如回應群組搜尋群組 (例如，SIP URIs) 。
     
 3. 若要從命令列執行腳本，您可以使用：
     
@@ -51,8 +51,8 @@ ms.locfileid: "41816162"
    PowerShell.exe -file <path to the file>
    ```
 
-4. 通常，在您執行此套件中的腳本之後，產生的追蹤會儲存在執行腳本之位置相同路徑中的檔案中。 還有命名格式， \<$h scriptname\>$ m $ s .txt。 因此，如果您在 12:15 PM 執行 ArchivingPolicy，您將會收到名為 ArchivingPolicy121500 的記錄檔。
+4. 一般來說，當您從這個套件執行腳本後，所產生的追蹤會儲存在執行腳本的相同路徑中。 也有命名格式 \<scriptname\> $h $ m $s.txt。 因此，如果您在 12:15 PM 執行 ArchivingPolicy.ps1，您會收到名為 ArchivingPolicy121500.txt 的記錄檔。
     
-5. 雖然我們為伺服器設定提供了這些範例，但在執行完負載測試之後，您可以修改配置並還原或回滾。
+5. 當我們為伺服器設定提供這些範例後，您可以在完成執行負載測試後，修改設定並還原或回滾。
     
 

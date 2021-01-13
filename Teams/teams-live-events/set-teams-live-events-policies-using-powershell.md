@@ -1,7 +1,7 @@
 ---
 title: 使用 PowerShell 設定即時事件原則
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: 如何使用 PowerShell 來設定小組中的原則，以控制哪�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e49c2dca91dca56366dd6b8a8ce460547043c120
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: ece22b6debd3c7d6209df96983d1d66ed5f6f3ca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369148"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815623"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft 團隊中設定即時事件原則
 

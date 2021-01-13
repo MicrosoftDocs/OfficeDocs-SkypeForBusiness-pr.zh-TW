@@ -1,7 +1,7 @@
 ---
 title: PowerShell 腳本範例-建立學校教師與學生的安全性群組
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534071"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809463"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 腳本範例-建立學校教師與學生的安全性群組
 
-使用此 PowerShell 腳本，建立您在學校中管理 Microsoft 團隊原則所需的安全性群組。 [小組中的[原則指派群組](../assign-policies.md#assign-a-policy-to-a-group)] 功能可讓您將原則指派給使用者群組，例如安全性群組。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。
+使用此 PowerShell 腳本，建立您在學校中管理 Microsoft 團隊原則所需的安全性群組。 [小組中的 [原則指派群組](../assign-policies.md#assign-a-policy-to-a-group) ] 功能可讓您將原則指派給使用者群組，例如安全性群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
 
-這個 PowerShell 腳本會根據授權類型，建立兩個安全性群組，其中一個適用于教職員工和教育版，另一個用於學校的學生。 然後，您可以將原則指派給您建立的安全性群組。 如需使用此腳本的詳細資訊，請參閱[在學校將原則指派給大型使用者組](../batch-group-policy-assignment-edu.md)。
+這個 PowerShell 腳本會根據授權類型，建立兩個安全性群組，其中一個適用于教職員工和教育版，另一個用於學校的學生。 然後，您可以將原則指派給您建立的安全性群組。 如需使用此腳本的詳細資訊，請參閱 [在學校將原則指派給大型使用者組](../batch-group-policy-assignment-edu.md)。
 
 此腳本會執行下列動作：
 
@@ -39,11 +39,11 @@ ms.locfileid: "46534071"
 您必須定期執行此腳本，以讓安全性群組保持在最新，且為最新狀態。
 
 > [!IMPORTANT]
-> 在將原則指派給群組時，請務必瞭解[優先順序規則](../assign-policies.md#precedence-rules)與[群組指派的排名](../assign-policies.md#group-assignment-ranking)。 請務必閱讀並瞭解[關於群組原則指派所需瞭解](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)的概念。
+> 在將原則指派給群組時，請務必瞭解 [優先順序規則](../assign-policies.md#precedence-rules) 與 [群組指派的排名](../assign-policies.md#group-assignment-ranking) 。 請務必閱讀並瞭解 [關於群組原則指派所需瞭解](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)的概念。
 
 ## <a name="before-you-start"></a>開始之前
 
-下載並安裝[商務用 Skype Online PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在出現提示時重新開機電腦。
+下載並安裝 [商務用 Skype Online PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在出現提示時重新開機電腦。
 
 若要進一步瞭解，請參閱使用 Office 365 PowerShell 與[團隊 powershell 概述](../teams-powershell-overview.md)[管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 。
 

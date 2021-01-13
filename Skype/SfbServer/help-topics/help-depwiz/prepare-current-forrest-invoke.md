@@ -1,8 +1,8 @@
 ---
 title: 準備目前的樹系 (叫用)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
-description: '[執行命令] 頁面會在作業執行時顯示工作摘要。 查看 [摘要] 畫面並確認工作已成功完成，且沒有任何錯誤。 請檢查警告，確定它們應該正常運作。 在摘要窗格底下，您應該會看到 [任務狀態：已完成]。 在下拉式清單中，應該會顯示記錄檔準備林。 如果不是，請選取記錄檔，然後按一下 [查看記錄]，以查看任務的詳細動作和結果。 按一下 [完成] 以完成林的準備作業。'
-ms.openlocfilehash: 2f835d63bee39619cd888c6fdec385ddff533643
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 「執行命令」頁面會顯示正在執行的工作的摘要。 請檢閱摘要畫面，確認工作成功且沒有錯誤。 請檢閱警告，確定沒有非預期的警告。 在摘要窗格下，您應該會看到 [工作狀態：完成]。 在下拉式清單中，應該可以看到記錄檔 [準備樹系]。 如果沒有，請選取記錄檔，然後按一下 [檢視記錄檔]，檢閱工作的詳細動作和結果。 按一下 [完成] 完成樹系的準備。
+ms.openlocfilehash: 72f75e198face2fd6351c895ec787b32c3792c6e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823507"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815423"
 ---
 # <a name="prepare-current-forrest-invoke"></a>準備目前的樹系 (叫用)
  
-[**執行命令**] 頁面會在作業執行時顯示工作摘要。 查看 [摘要] 畫面並確認工作已成功完成，且沒有任何錯誤。 請檢查警告，確定它們應該正常運作。 在摘要窗格底下，您應該會看到 [**任務狀態：已完成**]。 在下拉式清單中，應該會顯示記錄檔**準備林**。 如果不是，請選取記錄檔，然後按一下 [**查看記錄**]，以查看任務的詳細動作和結果。 按一下 **[完成]** 以完成林的準備作業。
+「執行命令」頁面會顯示正在執行的工作的摘要。請檢閱摘要畫面，確認工作成功且沒有錯誤。請檢閱警告，確定沒有非預期的警告。在摘要窗格下，您應該會看到 **工作狀態：已完成**。在下拉式清單中，應該可以看到 [準備樹系] 記錄檔。如果沒有，請選取記錄檔，然後按一下 [檢視記錄檔]，檢閱工作的詳細動作和結果。按一下 [完成] 完成樹系的準備。
   
 

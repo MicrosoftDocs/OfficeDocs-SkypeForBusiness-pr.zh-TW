@@ -1,8 +1,8 @@
 ---
 title: QoE 表格詳細資料
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: 以下各節詳細說明每個經驗品質（QoE）資料庫架構資料表中的欄。
-ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 以下各節將詳細說明 (QoE) 資料庫架構表格中的每個經驗品質各欄。
+ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807191"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815753"
 ---
 # <a name="qoe-table-details"></a>QoE 表格詳細資料
  
-以下各節詳細說明每個經驗品質（QoE）資料庫架構資料表中的欄。
+以下各節將詳細說明 (QoE) 資料庫架構表格中的每個經驗品質各欄。
   
 - [AppliedBandwidthSource 表格](appliedbandwidthsource.md)
     
-- [AppSharingMetricsThreshold 資料表](appsharingmetricsthreshold.md)
+- [AppSharingMetricsThreshold 表格](appsharingmetricsthreshold.md)
     
-- [AppSharingStream 資料表](appsharingstream.md)
+- [AppSharingStream 表格](appsharingstream.md)
     
 - [AudioClientEvent 表格](audioclientevent.md)
     
@@ -36,21 +36,21 @@ ms.locfileid: "41807191"
     
 - [AudioStream 表格](audiostream.md)
     
-- [CodecDescription 資料表](codecdescription.md)
+- [CodecDescription 表格](codecdescription.md)
     
-- [Conference 表格](conference.md)
+- [會議表格](conference.md)
     
-- [Device 表格](device.md)
+- [裝置表格](device.md)
     
 - [DeviceDriver 表格](devicedriver.md)
     
 - [Dialog 表格](dialog.md)
     
-- [Endpoint 表格](endpoint.md)
+- [Endpoint 表](endpoint.md)
     
 - [EndpointSubnet 表格](endpointsubnet.md)
     
-- [[IPAddress] 表格](ipaddress.md)
+- [IPAddress 表格](ipaddress.md)
     
 - [MacAddress 表格](macaddress.md)
     
@@ -60,17 +60,17 @@ ms.locfileid: "41807191"
     
 - [MonitoredUserSiteLink 表格](monitoredusersitelink.md)
     
-- [NetworkConnectionDetail 資料表](networkconnectiondetail.md)
+- [NetworkConnectionDetail 表格](networkconnectiondetail.md)
     
 - [PayloadDescription 表格](payloaddescription.md)
     
 - [Pool 表格](pool.md)
     
-- [PurgeSettings table （QoE）](purgesettings-qoe.md)
+- [PurgeSettings table (QoE) ](purgesettings-qoe.md)
     
 - [地區表格](region.md)
     
-- [Server 表格](server.md)
+- [伺服器表格](server.md)
     
 - [Session 表格](session.md)
     
@@ -78,19 +78,19 @@ ms.locfileid: "41807191"
     
 - [Subnet 表格](subnet.md)
     
-- [TraceRoute 資料表](traceroute.md)
+- [TraceRoute 表格](traceroute.md)
     
-- [User 表格](user-0.md)
+- [使用者表格](user-0.md)
     
 - [UserAgent 表格](useragent.md)
     
-- [UserAgentDef table （QoE）](useragentdef-qoe.md)
+- [UserAgentDef table (QoE) ](useragentdef-qoe.md)
     
 - [UserSite 表格](usersite.md)
     
 - [VideoClientEvent 表格](videoclientevent.md)
     
-- [VideoMetricsThreshold 資料表](videometricsthreshold.md)
+- [VideoMetricsThreshold 表格](videometricsthreshold.md)
     
 - [VideoStream 表格](videostream.md)
     

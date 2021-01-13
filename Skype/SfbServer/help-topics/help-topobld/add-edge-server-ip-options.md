@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server IP 選項
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: Microsoft Lync Server 2013 可讓您為 Edge Server 和 Edge 集區的每個介面設定 IPv4 和 IPv6 位址。 若要這樣做，請執行下列動作：
-ms.openlocfilehash: 2c68fcfcb2e99759536224889a818639b61d5fcc
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d8bfed4d7318133d33d733953cfcf472aa0e88ca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219788"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815203"
 ---
 # <a name="add-edge-server-ip-options"></a>新增 Edge Server IP 選項
  
@@ -34,7 +34,7 @@ Microsoft Lync Server 2013 可讓您為 Edge Server 和 Edge 集區的每個介�
     
 - **在外部介面上啟用 IPv6**：若要將 IPv6 位址套用至 edge Server 或 edge 集區外部介面，請選取此核取方塊。
     
-您也可以將 Edge Server 或 Edge 集區設定為使用網路位址轉譯位址的外部 IP 位址。 您可以藉由選取 [此 Edge 集區的外部 IP 位址由 NAT 轉譯]**** 核取方塊，來執行此動作。
+您也可以將 Edge Server 或 Edge 集區設定為使用網路位址轉譯位址的外部 IP 位址。 您可以藉由選取 [此 Edge 集區的外部 IP 位址由 NAT 轉譯] 核取方塊，來執行此動作。
   
 NAT 支援。 當您使用硬體負載平衡時，不支援 [網路位址轉譯 (NAT) ]，所以如果您要部署具有硬體負載平衡的 Edge Server 集區，請勿選取 NAT 選項。
   

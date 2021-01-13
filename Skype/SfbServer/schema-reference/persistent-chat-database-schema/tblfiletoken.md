@@ -1,8 +1,8 @@
 ---
 title: tblFileToken
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,37 +12,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
-description: tblFileToken 包含臨時權杖以進行檔案傳輸。
-ms.openlocfilehash: 573c921278521eb5b9ed7cc754dec9fa3471e9f4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblFileToken 包含用於檔案傳輸的臨時權杖。
+ms.openlocfilehash: 75d3d4df3affe3d12f94499efdb4337ade11af27
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814591"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816013"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
-tblFileToken 包含臨時權杖以進行檔案傳輸。
+tblFileToken 包含用於檔案傳輸的臨時權杖。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|fileToken  <br/> |Nvarchar （50），not null  <br/> |唯一標記（GUID）。  <br/> |
-|fileTokenUserID  <br/> |int，not null  <br/> |要轉移檔案之主體的 ID。  <br/> |
-|fileTokenChannelID  <br/> |GUID，不是 null  <br/> |聊天室節點的 GUID。  <br/> |
-|fileTokenExpireDate  <br/> |datetime、not null  <br/> |到期時間。 （權杖會在30分鐘之後到期，除非已固定（請參閱此欄中的下列描述）。  <br/> |
-|fileTokenComplianceFileUrl  <br/> |Nvarchar （256）  <br/> |已傳送檔案的 URL （適用于合規性服務使用）。  <br/> |
-|fileTokenComplianceThumbnailUrl  <br/> |Nvarchar （256）  <br/> |已傳送檔案的縮圖 URL （適用于合規性服務使用）。  <br/> |
-|fileTokenComplianceTime  <br/> |datetime2  <br/> |實際檔案傳輸作業（適用于合規性服務使用）的時間戳記。  <br/> |
-|fileTokenComplianceIsUpload  <br/> |稍微  <br/> |如果上傳則為 True;如果下載（適用于相容性服務使用），則為 False。  <br/> |
-|fileTokenCompliancePinned  <br/> |bit、not null  <br/> |如果權杖已釘選，則為 True。 它是用來在表格中保留權杖，直到合規性服務有機會從它取得相關欄位為止。  <br/> |
+|fileToken  <br/> |nvarchar (50)，非 null  <br/> |唯一 Token (GUID)。  <br/> |
+|fileTokenUserID  <br/> |int，非 null  <br/> |傳輸檔案之主體的識別碼。  <br/> |
+|fileTokenChannelID  <br/> |GUID，非 null  <br/> |聊天室節點的 GUID。  <br/> |
+|fileTokenExpireDate  <br/> |datetime，非 null  <br/> |到期時間 (權杖於 30 分鐘後到期，除非已固定 (請參閱此欄中下列說明)。  <br/> |
+|fileTokenComplianceFileUrl  <br/> |Nvarchar (256)   <br/> |已傳輸檔案的 URL (供 Compliance Service 使用)。  <br/> |
+|fileTokenComplianceThumbnailUrl  <br/> |Nvarchar (256)   <br/> |已傳輸檔案的縮圖 URL (供 Compliance Service 使用)。  <br/> |
+|fileTokenComplianceTime  <br/> |datetime2  <br/> |實際檔案傳輸作業的時間戳記 (供 Compliance Service 使用)。  <br/> |
+|fileTokenComplianceIsUpload  <br/> |位  <br/> |若上傳則為 True；若下載則為 False (供 Compliance Service 使用)。  <br/> |
+|fileTokenCompliancePinned  <br/> |位元，非 null  <br/> |True 是表示如果鎖定標記。 它是用來保留表格中的標記，直到合規性服務有機會從該介面中取回相關的欄位。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|fileToken  <br/> |主鍵。  <br/> |
-|fileTokenChannelID  <br/> |在 tblNode nodeGuid 資料表中使用 [查閱] 的外鍵。  <br/> |
+|fileToken  <br/> |主索引鍵。  <br/> |
+|fileTokenChannelID  <br/> |在 Node.nodeGuid 表格中查閱外部索引鍵。  <br/> |
    
 
