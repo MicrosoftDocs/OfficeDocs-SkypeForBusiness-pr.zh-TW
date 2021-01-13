@@ -1,7 +1,7 @@
 ---
 title: Microsoft StaffHub 已停用
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 42bb303a42ce2f532e5790e642f86b78ce12a7e5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778055"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825293"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
@@ -92,7 +92,7 @@ StaffHub 已停止針對2020年6月30日的所有使用者使用。 嘗試開啟
 倒班適用于團隊支援的所有瀏覽器，其中包含最新版本的 Microsoft Edge、Internet Explorer、Google Chrome 和 Mozilla Firefox。 如需詳細資訊，請參閱 [取得團隊的用戶端](../../get-clients.md)。
 
 > [!Note]
-> Microsoft 365 應用程式和服務不支援 Internet Explorer 11，從2021年8月17日起，Microsoft 團隊將不會在2020年11月30日之後，從) 中開始， (的 internet explorer 11 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍是受支援的瀏覽器。 Internet Explorer 11 是 Windows 作業系統的元件，且遵循安裝它之產品的 [生命週期原則](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) 。 
+> Microsoft 365 應用程式和服務不支援 Internet Explorer 11，從2021年8月17日起，Microsoft 團隊將不會在2020年11月30日之後，從) 中開始， (的 internet explorer 11 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是 Windows 作業系統的元件，且遵循安裝它之產品的 [生命週期原則](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) 。 
 
 #### <a name="what-languages-does-shifts-support"></a>倒班支援哪些語言？
 
@@ -164,4 +164,4 @@ StaffHub 已停止針對2020年6月30日的所有使用者使用。 嘗試開啟
 
 #### <a name="where-can-i-provide-feedback"></a>我可以在哪裡提供意見反應？
   
-在行動應用程式中，請在畫面左上方按一下 [**更多**]，移至 [**設定**]  >  **傳送意見**反應或**報告問題**。 同樣地，在桌面和 web 應用程式的畫面左下角，移至**協助**  >  **分享想法**或**報告問題**。
+在行動應用程式中，請在畫面左上方按一下 [**更多**]，移至 [**設定**]  >  **傳送意見** 反應或 **報告問題**。 同樣地，在桌面和 web 應用程式的畫面左下角，移至 **協助**  >  **分享想法** 或 **報告問題**。

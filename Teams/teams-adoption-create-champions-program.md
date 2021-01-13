@@ -1,7 +1,7 @@
 ---
 title: 為 Microsoft 團隊建立您的擁護程式計畫
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -21,16 +21,16 @@ f1.keywords:
 description: 瞭解如何訓練擁護者小組，以在您的組織中推動意識、採納及教育。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f6a54a6da5aa12e92e6ae50960cca5e5faf6d0a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6a81e143d0b8d9d026c2e24a0469bc6d241d840f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665995"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825303"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>為 Microsoft 團隊建立您的擁護程式計畫
 
-擁護者是在您的組織中推動意識、採納及教育至關重要的專案。 受擁護者是一人，主要是協助其他人（特別是團隊）感興趣的人員，並協助其他員工將其與您的最佳做法搭配使用。 視貴組織的規模而定，您可能會將它做為人員角色的正式部分，但員工通常會自行承擔此角色，因為它們的核心動機可協助其他人。
+擁護者是在您的組織中推動意識、採納及教育至關重要的專案。 受擁護者是一人，主要是協助其他人所感興趣的新技術 (專門團隊) ，協助其他員工將其與您的最佳做法搭配使用。 視貴組織的規模而定，您可能會將它做為人員角色的正式部分，但員工通常會自行承擔此角色，因為它們的核心動機可協助其他人。
 
 擁護者將以各種不同的方式來適應您的整體啟動規劃，如下所示。
 
@@ -43,9 +43,9 @@ ms.locfileid: "44665995"
 - 具有一致且正面的 reinforcement，可 affirms 其努力的影響
 - 要執行明確的計畫
 
-使用我們的[擁護者計劃指南](https://go.microsoft.com/fwlink/?linkid=854665)，在您的組織中建立此程式。 我們針對此社區的最佳做法包括：
+使用我們的 [擁護者計劃指南](https://go.microsoft.com/fwlink/?linkid=854665) ，在您的組織中建立此程式。 我們針對此社區的最佳做法包括：
 
-- 加入[擁護器程式](https://aka.ms/O365Champions)。 請確定在擁護者程式的最小領導（以及可能的所有公司擁護者）中，至少是程式的成員。 這個免費的每月社區通話會提供有價值的資訊來執行您自己的程式，並充分利用團隊及其他 Microsoft 365 或 Office 365 服務。 程式資料可以在您自己的內部程式中重複使用。
+- 加入 [擁護器程式](https://aka.ms/O365Champions)。 請務必在最少的擁護者程式中， (和可能所有的公司擁護者) 是程式的成員。 這個免費的每月社區通話會提供有價值的資訊來執行您自己的程式，並充分利用團隊及其他 Microsoft 365 或 Office 365 服務。 程式資料可以在您自己的內部程式中重複使用。
 
 - 使用團隊合作的擁護者小組：您的擁護者應該使用您針對所有程式通訊、意見反應，以及尋找資源而設定的小組。  如此一來，我們就會進一步熟悉產品及其好處。
 
@@ -60,5 +60,5 @@ ms.locfileid: "44665995"
 
 - 儘早訓練擁護者：您的程式即會啟動，而且每月會議都可以用來在您的擁護者社區中建立技能。 您可以使用這些商機，將他們放在棋盤上、開展其初始訓練、鼓勵他們參與我們的課程，並確定他們已準備好在實驗階段中繼續發展員工。  
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [[完成管理] 快速入門](teams-adoption-governance-quick-start.md)
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [ [完成管理] 快速入門](teams-adoption-governance-quick-start.md)
 

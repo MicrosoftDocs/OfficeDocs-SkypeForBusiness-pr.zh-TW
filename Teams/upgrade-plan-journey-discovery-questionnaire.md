@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊升級 |環境評估、探索問題
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c1b303683fd66eea637cca98c280b9157c179e
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: f3d1349cf32e652cc308bb85c187db90303aa959
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790605"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808953"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>探索問卷-評估您的環境
 

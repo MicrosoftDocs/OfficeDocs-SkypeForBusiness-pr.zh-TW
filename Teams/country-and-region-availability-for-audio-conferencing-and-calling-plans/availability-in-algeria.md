@@ -1,7 +1,7 @@
 ---
 title: 阿爾及利亞中的可用性
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（適用于阿爾及利亞）。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: e43359b63ab1a557af2caef63eac242e12ef0f14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877894"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821233"
 ---
 # <a name="availability-in-algeria"></a>阿爾及利亞中的可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "44877894"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是。 僅限每分鐘支付。  <br/> |
+|音訊會議是否可供購買？  <br/> |是的。 僅限每分鐘支付。  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> | 否 |
 |使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊點數 <br/> |
    
@@ -50,8 +50,8 @@ ms.locfileid: "44877894"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-|自動語音應答 <br/> |有空  <br/> |
-|通話佇列  <br/> |有空  <br/> |
+|自動語音應答 <br/> |可用  <br/> |
+|通話佇列  <br/> |可用  <br/> |
 |語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
@@ -69,10 +69,10 @@ ms.locfileid: "44877894"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼未連結至特定的城市或位置。 <br/> |
-|有提供付費電話號碼嗎？  <br/> |非地理位置（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|有提供付費電話號碼嗎？  <br/> |[要求) 的](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)非地理 ( <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |否  <br/> |
    
- 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在[商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在 [商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 

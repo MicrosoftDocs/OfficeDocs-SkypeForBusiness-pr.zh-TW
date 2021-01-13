@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊顯示
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供 Microsoft 團隊顯示所支援的功能和功能的概覽。
-ms.openlocfilehash: 08dd61bceeaaae97e94a18ae5536a7810c062208
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: ec2ea44272f29084a3130b591bb59ecd09406aba
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787605"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825363"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft 團隊顯示
 
@@ -52,7 +52,7 @@ Microsoft 團隊顯示的是一種由一體式專用團隊裝置組成的類別�
 
 ## <a name="manage-teams-displays-in-your-organization"></a>管理團隊顯示在您的組織中
 
-若要管理您的團隊顯示裝置，請在 Microsoft 團隊系統管理中心的左側導覽中，移至 [ **小組** ]。 您可以從這裡變更裝置設定檔、管理更新、重新開機裝置、新增及移除裝置標記等。 如需詳細資訊，請參閱 [在團隊中管理您的裝置](device-management.md)。
+若要管理您的團隊顯示裝置，請在 Microsoft 團隊系統管理中心的左側導覽中，移至 [ **小組**]。 您可以從這裡變更裝置設定檔、管理更新、重新開機裝置、新增及移除裝置標記等。 如需詳細資訊，請參閱 [在團隊中管理您的裝置](device-management.md)。
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>將小組電話升級至團隊顯示
 

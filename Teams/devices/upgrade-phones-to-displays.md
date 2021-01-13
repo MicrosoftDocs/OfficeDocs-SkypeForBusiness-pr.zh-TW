@@ -1,7 +1,7 @@
 ---
 title: 將小組電話升級至團隊顯示
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 瞭解如何將團隊手機升級至團隊顯示在 Microsoft 團隊系統管理中心。
-ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: ff28aab3e8bea493b5d11f4e42fb07b6e8fc84c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816113"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825353"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>將小組電話升級至團隊顯示
 
@@ -46,18 +46,18 @@ ms.locfileid: "48816113"
 
 ### <a name="what-happens-after-the-upgrade"></a>升級後會發生什麼情況？
 
-在您將團隊手機升級至團隊顯示裝置之後，該裝置會列在 Microsoft 團隊系統管理中心的 [ **裝置** ] 區段中的 [ **團隊顯示** ] 頁面上。 您可以用管理任何其他團隊裝置的方式來管理它。 若要深入瞭解，請參閱 [在團隊中管理您的裝置](device-management.md)。
+在您將團隊手機升級至團隊顯示裝置之後，該裝置會列在 Microsoft 團隊系統管理中心的 [**裝置**] 區段中的 [**團隊顯示**] 頁面上。 您可以用管理任何其他團隊裝置的方式來管理它。 若要深入瞭解，請參閱 [在團隊中管理您的裝置](device-management.md)。
 
 請記住，當您將團隊手機升級至團隊顯示裝置之後，該動作將無法還原。 我們建議您先使用一組早期的採納者來執行試驗，然後再升級您的整個組織。 
 
 ## <a name="upgrade-your-teams-phones-to-teams-displays"></a>將您的小組手機升級至團隊顯示
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [ **裝置**  >  **電話** ]。
-2. 選取您要升級的小組手機，然後選取 [ **升級** ]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**裝置**  >  **電話**]。
+2. 選取您要升級的小組手機，然後選取 [ **升級**]。
 
     :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="顯示已選取要升級至小組之小組電話的螢幕擷取畫面":::
 
-3. 在 [ **升級至團隊顯示** ] 對話方塊中，選取 [ **排程升級** ] 來設定升級的日期和時間，或 [ **立即升級** ]。
+3. 在 [ **升級至團隊顯示** ] 對話方塊中，選取 [ **排程升級** ] 來設定升級的日期和時間，或 [ **立即升級**]。
 
     :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="螢幕擷取畫面顯示 [升級至團隊顯示] 對話方塊":::
 

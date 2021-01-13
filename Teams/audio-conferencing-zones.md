@@ -1,7 +1,7 @@
 ---
 title: 音訊會議的國家和地區區域
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-mar2020
 description: 列出音訊會議的區域，以及每個區域中的國家和地區。
-ms.openlocfilehash: cf3e1df5b89fcf287d1c5c79faa8d1c6a48914d5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908766"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821273"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>音訊會議的國家和地區區域
 

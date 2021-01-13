@@ -1,7 +1,7 @@
 ---
 title: 針對中小型企業設定音訊會議
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在中小型企業中為需要使用電話撥入會議的人員設定音訊會議。 '
-ms.openlocfilehash: 4c0d47246f8a321a91ea175e06279bfe147a634a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 80e372e62ffdac9907521eb9426b465c9d0b6e92
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031179"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821283"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>針對中小型企業設定音訊會議
 
@@ -52,14 +52,14 @@ ms.locfileid: "49031179"
 
 針對將領導會議的每位人員，取得一個音訊會議授權。 使用 Microsoft 365 系統管理中心來執行此動作。
 
-1. 在 Microsoft 365 系統管理中心中，移至 [ **帳單**  >  **購買服務** ]，然後按一下頁面底部的 [ **附加** 元件]。
-2. 選取 [ **Microsoft 365 音訊會議採納促銷**  >  **詳細資料** ]，然後選取 [ **立即取得** ]。
+1. 在 Microsoft 365 系統管理中心中，移至 [**帳單**  >  **購買服務**]，然後按一下頁面底部的 [**附加** 元件]。
+2. 選取 [ **Microsoft 365 音訊會議採納促銷**  >  **詳細資料**]，然後選取 [**立即取得**]。
 3. 輸入會議召集人所需的授權數量，然後完成您的訂單。
 
     :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="音訊會議採用促銷授權的螢幕擷取畫面":::
 
     > [!NOTE]
-    > 根據您是否要將音訊會議授權自動指派給沒有此授權的所有使用者，清除或選取 [ **自動指派給沒有授權的所有使用者** ]。
+    > 根據您是否要將音訊會議授權自動指派給沒有此授權的所有使用者，清除或選取 [ **自動指派給沒有授權的所有使用者**]。
 
 ### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>步驟2：指派音訊會議授權給領導會議的使用者
 
@@ -67,33 +67,33 @@ ms.locfileid: "49031179"
 
 #### <a name="assign-a-license-to-one-user"></a>指派授權給一個使用者
 
-1. 在 Microsoft 365 系統管理中心中，移至 [ **使用者** 作用中的  >  **使用者** ]。  
-2. 選取您要指派授權的使用者列，然後在窗格中選取 [ **授權及應用程式** ]。
-3. 選取 [ **Microsoft 365 音訊會議** ] 核取方塊，然後選取 [ **儲存變更** ]。
+1. 在 Microsoft 365 系統管理中心中，移至 [**使用者** 作用中的  >  **使用者**]。  
+2. 選取您要指派授權的使用者列，然後在窗格中選取 [ **授權及應用程式**]。
+3. 選取 [ **Microsoft 365 音訊會議** ] 核取方塊，然後選取 [ **儲存變更**]。
 
 #### <a name="assign-a-license-to-multiple-users"></a>指派授權給多位使用者
 
-1. 在 Microsoft 365 系統管理中心中，移至 [ **使用者** 作用中的  >  **使用者** ]。  
-2. 選取您要指派授權的使用者旁邊的圓圈，然後選取 [ **管理產品授權** ]。
-3. 在 [ **管理產品授權** ] 窗格中，選取 [ **指派更多** ]。
-4. 選取 [ **Microsoft 365 音訊會議** ] 核取方塊，然後選取 [ **儲存變更** ]。  
+1. 在 Microsoft 365 系統管理中心中，移至 [**使用者** 作用中的  >  **使用者**]。  
+2. 選取您要指派授權的使用者旁邊的圓圈，然後選取 [ **管理產品授權**]。
+3. 在 [ **管理產品授權** ] 窗格中，選取 [ **指派更多**]。
+4. 選取 [ **Microsoft 365 音訊會議** ] 核取方塊，然後選取 [ **儲存變更**]。  
 
 ## <a name="schedule-teams-meetings-in-outlook"></a>在 Outlook 中排程團隊會議
 
-您的會議召集人現在可以在 Outlook 中排程會議。 在 Outlook 中，移至 [行事 **曆** ]，然後選取 [ **新增團隊會議** ] 按鈕。 會議撥入號碼和會議 ID 會自動新增至傳送給會議出席者的會議邀請中。 若要深入瞭解，請參閱 [在 Outlook 中排程團隊會議](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)。
+您的會議召集人現在可以在 Outlook 中排程會議。 在 Outlook 中，移至 [行事 **曆**]，然後選取 [ **新增團隊會議** ] 按鈕。 會議撥入號碼和會議 ID 會自動新增至傳送給會議出席者的會議邀請中。 若要深入瞭解，請參閱 [在 Outlook 中排程團隊會議](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)。
 
 > [!NOTE]
 > 如有需要，您可以自訂會議邀請來新增公司標誌、支援網站的連結和法律免責聲明，以及純文字的頁尾。 若要深入瞭解，請參閱 [自訂會議邀請](meeting-settings-in-teams.md#customize-meeting-invitations)。
 
 ## <a name="audio-conferencing-phone-numbers"></a>音訊會議電話號碼
 
-您可以在會議橋接器中使用兩種類型的數位。 您可以在本文前面的 [設定音訊會議](#set-up-audio-conferencing)區段中使用 **共用號碼** (，) 或 **專屬號碼** 。 以下是每個程式的詳細資訊。
+您可以在會議橋接器中使用兩種類型的數位。 您可以在本文前面的 [設定音訊會議](#set-up-audio-conferencing)區段中使用 **共用號碼** (，) 或 **專屬號碼**。 以下是每個程式的詳細資訊。
 
 ### <a name="shared-numbers"></a>共用號碼
 
 共用號碼是在所有組織間共用的數位。 共用號碼是付費電話號碼，當您設定音訊會議時，系統會自動指派它。
 
-若要查看指派給您會議橋接器的預設號碼，請在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **會議**  >  **會議橋接** ]，然後找出最接近您的位置號碼。
+若要查看指派給您會議橋接器的預設號碼，請在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議**  >  **會議橋接**]，然後找出最接近您的位置號碼。
 
 ### <a name="dedicated-numbers"></a>專用號碼
 
@@ -105,14 +105,14 @@ ms.locfileid: "49031179"
 
 您有號碼之後，請將它指派給您的會議橋接器。 使用 Microsoft 團隊系統管理中心來執行此動作。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [ **會議**  >  **會議橋** ]。
-2. 選取 [ **新增** ]，然後選取 [ **付費電話號碼** ] 或 [ **免付費電話號碼** ]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議**  >  **會議橋**]。
+2. 選取 [ **新增**]，然後選取 [ **付費電話號碼** ] 或 [ **免付費電話號碼**]。
 3. 在 [ **新增電話號碼** ] 窗格中 **，選取該** 號碼，然後選取 [套用]。
 
 然後，將該號碼指派給將領導會議的每一個人。 使用 Microsoft 團隊系統管理中心來執行此動作。
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **使用者** ]，按一下使用者的顯示名稱，然後選取 [ **編輯** ]。
-2. 選取 [ **音訊會議** ] 旁的 [ **編輯** ]，然後在 [ **音訊會議** ] 窗格中 **，選取 [****付費電話號碼** ] 或 [ **免付費電話** 號碼] 清單中的數位，然後選取 [套用]。
+1. 在 Microsoft [團隊管理中心] 的左導覽中，選取 [ **使用者**]，按一下使用者的顯示名稱，然後選取 [ **編輯**]。
+2. 選取 [**音訊會議**] 旁的 [**編輯**]，然後在 [**音訊會議**] 窗格中 **，選取 [****付費電話號碼**] 或 [**免付費電話** 號碼] 清單中的數位，然後選取 [套用]。
 
 ## <a name="related-topics"></a>相關主題
 
