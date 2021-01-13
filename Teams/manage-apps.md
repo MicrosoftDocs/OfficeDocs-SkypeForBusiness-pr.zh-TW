@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊系統管理中心管理您的應用程式
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 3a79f25e9f260e798ec6e0456cacf6ba2dfe618b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486778"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822903"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
@@ -53,18 +53,18 @@ ms.locfileid: "48486778"
 
     - **允許**：應用程式可供貴組織中的所有使用者使用。
     
-    - 已**封鎖**：應用程式遭到封鎖，且無法供貴組織中的任何使用者使用。
+    - 已 **封鎖**：應用程式遭到封鎖，且無法供貴組織中的任何使用者使用。
     
-    - 已**封鎖整個組織**結構：應用程式在整個組織內的應用程式設定中遭到封鎖。
+    - 已 **封鎖整個組織** 結構：應用程式在整個組織內的應用程式設定中遭到封鎖。
     
       請務必注意，此資料行代表原在 **整個組織結構設定** 窗格中之 app 的「允許」和「封鎖」狀態。 您現在可以在 [ **管理應用程式** ] 頁面上的整個組織結構中查看、封鎖及允許 app。 
 - **授權**：指出 app 是否提供軟體作為服務 (SaaS) 訂閱以進行購買。 此欄僅適用于協力廠商應用程式。 每個協力廠商應用程式將會有下列其中一個值：
     - [**立即購買**]： App 提供 SaaS 訂閱，且可供購買。  
-    - 已**購買**： App 提供 SaaS 訂閱，且您已為其購買授權。
+    - 已 **購買**： App 提供 SaaS 訂閱，且您已為其購買授權。
     - **--**：應用程式不會提供 SaaS 訂閱。
 - **自訂 app**：應用程式是否為自訂應用程式。
 - **許可權**：指示在 Azure Active Directory 中註冊的協力廠商或自訂應用程式 (azure AD) 是否有需要同意的許可權。 您會看到下列其中一個值：
-    - [**查看詳細**資料]： app 擁有需要同意才能存取資料的許可權。 
+    - [**查看詳細** 資料]： app 擁有需要同意才能存取資料的許可權。 
     - **--**：應用程式沒有需要同意的許可權。
 - [**類別**]：適用于 app 的類別。
 - **版本**： App 版本。
@@ -80,7 +80,7 @@ ms.locfileid: "48486778"
 
 ###  <a name="approve-a-custom-app"></a>核准自訂應用程式
 
-當開發人員使用小組 App 提交 API 提交 app 時，[管理 app] 頁面上的 [ **待定核准** ] 小工具會通知您。 新提交的應用程式會列在已**提交**的**發佈狀態**，且**狀態**為 [已**封鎖**]。 移至 [應用程式詳細資料] 頁面以查看應用程式的詳細資訊，然後將其發佈，將 [ **發佈狀態** ] 設定為 [ **發佈**]。
+當開發人員使用小組 App 提交 API 提交 app 時，[管理 app] 頁面上的 [ **待定核准** ] 小工具會通知您。 新提交的應用程式會列在已 **提交** 的 **發佈狀態**，且 **狀態** 為 [已 **封鎖**]。 移至 [應用程式詳細資料] 頁面以查看應用程式的詳細資訊，然後將其發佈，將 [ **發佈狀態** ] 設定為 [ **發佈**]。
 
 當開發人員提交自訂應用程式的更新時，您也會收到通知。 然後，您可以在應用程式詳細資料頁面上查看併發布 (或拒絕) 更新。 所有 app 許可權原則和 app 設定原則，都會針對更新的 app 保持強制執行。
 
@@ -140,12 +140,12 @@ ms.locfileid: "48486778"
 
     ![整個組織內的應用程式設定的螢幕擷取畫面](media/manage-apps-org-wide-app-settings.png)
     
-2. 在 **協力廠商應用程式**下，關閉或開啟這些設定以控制對協力廠商應用程式的存取：
+2. 在 **協力廠商應用程式** 下，關閉或開啟這些設定以控制對協力廠商應用程式的存取：
 
     - **允許協力廠商應用程式**：控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何協力廠商應用程式，而且這些應用程式的應用程式狀態會在表格中顯示為已 **封鎖的組織內** 。
 
         > [!NOTE]
-        > [ **允許協力廠商應用程式** ] 關閉時，系統會停用 [傳出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，這表示使用者無法建立。 開啟此設定時，系統會針對所有使用者啟用傳出 webhooks，您可以透過 [應用程式許可權原則](teams-app-permission-policies.md)允許或封鎖傳出 Webhook app，以在使用者層級進行控制。 <br><br>請注意，如果您有適用于**Microsoft** app 的現有[應用程式許可權原則](teams-app-permission-policies.md)，且使用 [**允許特定應用程式] 和 [封鎖所有人**] 設定，而您想要為使用者啟用外寄 webhooks，請將傳出 Webhook app 新增至清單。
+        > [ **允許協力廠商應用程式** ] 關閉時，系統會停用 [傳出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，這表示使用者無法建立。 開啟此設定時，系統會針對所有使用者啟用傳出 webhooks，您可以透過 [應用程式許可權原則](teams-app-permission-policies.md)允許或封鎖傳出 Webhook app，以在使用者層級進行控制。 <br><br>請注意，如果您有適用于 **Microsoft** app 的現有 [應用程式許可權原則](teams-app-permission-policies.md)，且使用 [**允許特定應用程式] 和 [封鎖所有人**] 設定，而您想要為使用者啟用外寄 webhooks，請將傳出 Webhook app 新增至清單。
     - **允許預設發佈至商店的任何新的協力廠商應用程式**：這會控制發佈至 [小組] 應用程式商店的新的協力廠商應用程式是否會自動在小組中提供。 如果您允許協力廠商應用程式，則只能設定此選項。
 
 3. 在 [ **自訂應用程式**] 底下，關閉或開啟 [ **允許與自訂應用程式互動**]。 這個設定控制使用者是否能與自訂 app 互動。 若要深入瞭解，請參閱 [管理團隊中的自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)。

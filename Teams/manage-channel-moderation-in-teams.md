@@ -1,7 +1,7 @@
 ---
 title: 設定及管理頻道裁決
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中設定裁決的頻道，包括如何將團隊成員新增為頻道審查程式。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77622bd2920ce0453d6ccbdbeb55696fc2925271
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: 9598723d1a88826d1efa5fb487d02fc93aa5d4e1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505600"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822893"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft 團隊中設定及管理頻道裁決
 
@@ -60,25 +60,25 @@ ms.locfileid: "43505600"
 
 ## <a name="manage-channel-moderation"></a>管理通道裁決
 
-在 [團隊] 中，移至頻道，按一下 [**更多選項]。** > **管理頻道**。 您可以從這裡開啟和關閉「裁決」、將小組成員新增為仲裁者，以及設定喜好設定。
+在 [團隊] 中，移至頻道，按一下 [**更多選項]。**  > **管理頻道**。 您可以從這裡開啟和關閉「裁決」、將小組成員新增為仲裁者，以及設定喜好設定。
 
-[頻道裁決] 是 [每個通道] 設定。 通道裁決沒有租使用者層級設定。 如果您想要我們新增租使用者層級通道裁決設定，請在[團隊 UserVoice](https://microsoftteams.uservoice.com/)上要求它。
+[頻道裁決] 是 [每個通道] 設定。 通道裁決沒有租使用者層級設定。 如果您想要我們新增租使用者層級通道裁決設定，請在 [團隊 UserVoice](https://microsoftteams.uservoice.com/)上要求它。
 
-![manage-channel-moderation-in-teams-preferences .png](media/manage-channel-moderation-in-teams-preferences.png)
+![manage-channel-moderation-in-teams-preferences.png](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>開啟或關閉頻道的裁決
 
 根據預設，「裁決」是關閉的，這表示一般的頻道設定會套用至小組擁有者和小組成員。 例如，您可以將新的文章限制為只有小組成員，或允許每個人（包括來賓）開始新的文章。
 
-若要為頻道開啟 [裁決]，請在 [**管道裁決**] 底下，按一下 [**開啟**]。 當頻道裁決開啟時，只有版主可以開始新的文章。 
+若要為頻道開啟 [裁決]，請在 [ **管道裁決**] 底下，按一下 [ **開啟**]。 當頻道裁決開啟時，只有版主可以開始新的文章。 
 
 ### <a name="add-or-remove-channel-moderators"></a>新增或移除頻道版主
 
-在 **[誰是仲裁者？**] 底下，按一下 [**管理**]，然後將小組成員新增或移除為 [版主]。 小組擁有者和版主可以新增及移除其他版主。  
+在 **[誰是仲裁者？**] 底下，按一下 [ **管理**]，然後將小組成員新增或移除為 [版主]。 小組擁有者和版主可以新增及移除其他版主。  
 
 ### <a name="set-team-member-permissions"></a>設定小組成員許可權
 
-在 [**小組成員許可權**] 底下，選取您要允許之活動旁的核取方塊。
+在 [ **小組成員許可權**] 底下，選取您要允許之活動旁的核取方塊。
 
 ## <a name="related-topics"></a>相關主題
 

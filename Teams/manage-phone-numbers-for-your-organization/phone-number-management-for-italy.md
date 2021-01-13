@@ -1,7 +1,7 @@
 ---
 title: 義大利電話號碼管理
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格來尋找有關在義大利 for Microsoft 團隊中取得及管理電話號碼的資訊。
-ms.openlocfilehash: ea667b2211b221153ae5c66db1e87708f2e9cac4
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: b7b04bd25278d64c97677639926d1946b648aeb5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361703"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822803"
 ---
 # <a name="phone-number-management-for-italy"></a>義大利電話號碼管理
 

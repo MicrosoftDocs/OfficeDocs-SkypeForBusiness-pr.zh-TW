@@ -1,8 +1,8 @@
 ---
 title: 系統管理訓練資源-Microsoft 團隊
 ms.reviewer: jhwang
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 8b3aac3aa5678608a4020b603026401d8cf8e6b8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878367"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809383"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 

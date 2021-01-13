@@ -1,7 +1,7 @@
 ---
 title: 部署團隊使用 Intune 顯示手機和團隊
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供 Microsoft 團隊顯示所支援的功能和功能的概覽。
-ms.openlocfilehash: acebf619d76cd6df2f0da305deedec9dd3b79aa0
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 4d955db2f260af0eff3d0c1f059461703cf23d79
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787616"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825413"
 ---
 # <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>部署團隊使用 Intune 顯示手機和團隊
 

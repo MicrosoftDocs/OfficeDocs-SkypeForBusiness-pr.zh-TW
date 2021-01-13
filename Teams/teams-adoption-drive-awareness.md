@@ -1,7 +1,7 @@
 ---
 title: 促進認知和實施訓練
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e091e63b47dd33e848be9fc77f6f630174564c95
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 04c9dbeaecd5c1ed15dff5e5a0e2ae3823216a1a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533850"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834153"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>針對 Microsoft 團隊進行磁片磁碟機意識與實施訓練
 
