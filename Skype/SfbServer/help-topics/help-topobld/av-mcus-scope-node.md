@@ -1,8 +1,8 @@
 ---
 title: AV MCU 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: '[A/V 會議集區] 節點會列出您拓撲中的 A/V 會議集區。 您可以執行下列動作：'
-ms.openlocfilehash: 5eb8cdf18f4ae580cac180fcf9b5ba1b13d28149
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 42538978fcf03ea3b55c7f0c5ac05fc5af9c9a53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216164"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833253"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU 範圍節點
  
-[A/V 會議集區]**** 節點會列出您拓撲中的 A/V 會議集區。您可以執行下列動作：
+[A/V 會議集區] 節點會列出您拓撲中的 A/V 會議集區。您可以執行下列動作：
   
-- **新增 A/V 會議集區**。啟動 [定義新的 A/V 會議集區精靈]****，以便將新的 A/V 會議集區新增到拓撲。
+- **新增 A/V 會議集區**。啟動 [定義新的 A/V 會議集區精靈]，以便將新的 A/V 會議集區新增到拓撲。
     
 除了 A/V 會議集區選項，您還可以執行下列一般工作：
   

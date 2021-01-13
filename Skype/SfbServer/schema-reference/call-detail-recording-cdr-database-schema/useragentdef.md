@@ -1,8 +1,8 @@
 ---
-title: UserAgentDef 資料表
+title: UserAgentDef 表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,43 +12,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
-description: UserAgentDef 表格會將使用者代理程式識別碼對應至代理程式的描述性名稱。 使用者代理是用來連接至商務用 Skype Server 2015 的軟體用戶端。 此表格是在 Microsoft Lync Server 2013 中推出。
-ms.openlocfilehash: 6594cbe46439f0558c962dd2a31cb9837ee39118
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至商務用 Skype Server 2015 的軟體用戶端。 此表格已引進 Microsoft Lync Server 2013。
+ms.openlocfilehash: df6f0c15f62d4fbf586861a8a6d8fc80b85df7e1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814811"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831623"
 ---
-# <a name="useragentdef-table"></a>UserAgentDef 資料表
+# <a name="useragentdef-table"></a>UserAgentDef 表格
  
-UserAgentDef 表格會將使用者代理程式識別碼對應至代理程式的描述性名稱。 使用者代理是用來連接至商務用 Skype Server 2015 的軟體用戶端。 此表格是在 Microsoft Lync Server 2013 中推出。
+UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至商務用 Skype Server 2015 的軟體用戶端。 此表格已引進 Microsoft Lync Server 2013。
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
-|4  <br/> |OC  <br/> |OC  <br/> |
-|型  <br/> |OCPhone  <br/> |OCPhone  <br/> |
-|位  <br/> |LMC  <br/> |LMC  <br/> |
-|32  <br/> |DVT  <br/> |DVT  <br/> |
-|64  <br/> |年  <br/> |年  <br/> |
-|64  <br/> |MC  <br/> |年  <br/> |
-|128  <br/> |值守  <br/> |值守  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_1. 0  <br/> |頒發  <br/> |
-|512  <br/> |Conferencing_Attendant_1. 0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_1. 0  <br/> |CAA  <br/> |
+|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|4   <br/> |Oc  <br/> |Oc  <br/> |
+|8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
+|16   <br/> |LMC  <br/> |LMC  <br/> |
+|32  <br/> |Dvt  <br/> |Dvt  <br/> |
+|64  <br/> |毫米  <br/> |毫米  <br/> |
+|64  <br/> |Mc  <br/> |毫米  <br/> |
+|128  <br/> |語音應答  <br/> |語音應答  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1。0  <br/> |Cas  <br/> |
+|512  <br/> |Conferencing_Attendant_1。0  <br/> |Caa  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1。0  <br/> |Caa  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RG  <br/> |
-|1032  <br/> |Call_Park_Service_1. 0  <br/> |CPS  <br/> |
-|1040  <br/> |Response_Group_Service Announcement_Service  <br/> |完工  <br/> |
-|2048  <br/> |Ccs 的應用程式  <br/> |CCS  <br/> |
+|1032  <br/> |Call_Park_Service_1。0  <br/> |Cps  <br/> |
+|1040  <br/> |Response_Group_Service Announcement_Service  <br/> |AS  <br/> |
+|2048  <br/> |Ccs 的應用程式  <br/> |Ccs  <br/> |
 |16386  <br/> |CoMo  <br/> |CoMo  <br/> |
-|16387  <br/> |CWA  <br/> |CWA  <br/> |
+|16387  <br/> |NM-CWA-13-NO-VERSION  <br/> |NM-CWA-13-NO-VERSION  <br/> |
 |16388  <br/> |InboundRouting  <br/> |InboundRouting  <br/> |
 |16389  <br/> |ComoSvc  <br/> |ComoSvc  <br/> |
 |16393  <br/> |MSExchangeUM  <br/> |ExUM  <br/> |
 |16395  <br/> |ArchivingAgent  <br/> |ARCHAGENT  <br/> |
-|16396  <br/> |短期  <br/> |短期  <br/> |
+|16396  <br/> |聖  <br/> |聖  <br/> |
 |16397  <br/> |applicationsharing  <br/> |ASMCU  <br/> |
 |16398  <br/> |WPLync  <br/> |WPLync  <br/> |
 |16399  <br/> |iPhoneLync  <br/> |iPhoneLync  <br/> |
@@ -56,14 +56,14 @@ UserAgentDef 表格會將使用者代理程式識別碼對應至代理程式的�
 |16401  <br/> |iPadLync  <br/> |iPadLync  <br/> |
 |16402  <br/> |NokiaLync  <br/> |NokiaLync  <br/> |
 |16403  <br/> |LyncImm  <br/> |LyncImm  <br/> |
-|16404  <br/> |買  <br/> |買  <br/> |
+|16404  <br/> |個人電腦  <br/> |個人電腦  <br/> |
 |16405  <br/> |LWA  <br/> |LWA  <br/> |
 |16406  <br/> |OWA  <br/> |OWA  <br/> |
-|16407  <br/> |AOC  <br/> |AOC  <br/> |
+|16407  <br/> |Aoc  <br/> |Aoc  <br/> |
 |16408  <br/> |GCC  <br/> |GCC  <br/> |
 |16409  <br/> |IMMCU  <br/> |IMMCU  <br/> |
 |16410  <br/> |XmppTGW  <br/> |XmppGateway  <br/> |
-|32769  <br/> |關  <br/> |關  <br/> |
+|32769  <br/> |閘道  <br/> |閘道  <br/> |
 |32770  <br/> |GatewayMediationServerPair  <br/> |GatewayMediationServerPair  <br/> |
    
 

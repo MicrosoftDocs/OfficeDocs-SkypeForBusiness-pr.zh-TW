@@ -1,8 +1,8 @@
 ---
 title: AV MCU 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 此節點會顯示此 A/V 會議集區的集區完整網域名稱 (FQDN) 及關聯的前端集區。您可以執行下列動作：
-ms.openlocfilehash: d9ee37e34ec11319ea93223969471fd75fb47a9f
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6c74485692a7eaafde3c2b2079c4db2a3ee15c5f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216194"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833293"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU 範圍節點
  

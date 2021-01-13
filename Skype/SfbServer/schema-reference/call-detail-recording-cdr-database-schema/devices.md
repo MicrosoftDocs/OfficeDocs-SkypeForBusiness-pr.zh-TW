@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype Server 2015 中的 [裝置] 表格
+title: 商務用 Skype Server 中的裝置表格2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
-description: '[裝置] 資料表是支援資料表。 每筆記錄儲存一個裝置（電話機）的相關資訊。'
-ms.openlocfilehash: e53a8947d106d6a92d7cf5cb881f20022e1bac69
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Devices 表格是一種支援資料表。 每筆記錄儲存一部裝置 (電話機) 的資訊。
+ms.openlocfilehash: da0d6ea8143fb8c81225e885fba1f05a90e2fda5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815281"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831813"
 ---
-# <a name="devices-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 [裝置] 表格
+# <a name="devices-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 中的裝置表格2015
  
-[裝置] 資料表是支援資料表。 每筆記錄儲存一個裝置（電話機）的相關資訊。
+Devices 表格是一種支援資料表。 每筆記錄儲存一部裝置 (電話機) 的資訊。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**DeviceId** <br/> |int  <br/> |首選  <br/> |識別這個硬體版本的唯一號碼。  <br/> |
-|**[Manufacturerid** <br/> |int  <br/> |外  <br/> |此裝置的製造商。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中](manufacturers.md)的 [製造商] 資料表。 <br/> |
-|**HardwareVersionId** <br/> |int  <br/> |外  <br/> |此裝置的硬體版本。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中](hardwareversions.md)的 [HardwareVersions] 資料表。 <br/> |
+|**DeviceId** <br/> |int  <br/> |主要  <br/> |用於識別此硬體版本的唯一號碼。  <br/> |
+|**ManufacturerId** <br/> |int  <br/> |Foreign  <br/> |此裝置的製造商。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的製造商表格](manufacturers.md) 。 <br/> |
+|**HardwareVersionId** <br/> |int  <br/> |Foreign  <br/> |此裝置的硬體版本。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的 HardwareVersions 表格](hardwareversions.md) 。 <br/> |
 |**MacAddress** <br/> |Bigint  <br/> ||MAC 位址  <br/> |
    
 

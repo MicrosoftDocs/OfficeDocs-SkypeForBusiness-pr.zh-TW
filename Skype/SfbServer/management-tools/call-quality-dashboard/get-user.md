@@ -1,8 +1,8 @@
 ---
 title: 取得使用者
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 摘要：瞭解 [取得使用者] 作業（這是使用者服務的一部分）。 使用者服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: e07a232b61e5ef0bb7462b3fff58d642a14496ec
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：瞭解使用者服務中的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+ms.openlocfilehash: dd2bb5e46ddbe3e65faf441a11e39cbc5429e473
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816732"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832413"
 ---
 # <a name="get-user"></a>取得使用者
  
-**摘要：** 瞭解 [取得使用者] 作業，該操作是使用者服務的一部分。 使用者服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+**摘要：** 深入瞭解 User Service 的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
   
-[取得使用者] 作業是 [呼叫品質] 儀表板的 [知識庫 API] 中的使用者服務的一部分。
+「取得使用者」作業是「用於通話品質」儀表板之存放庫 API 中使用者服務的一部分。
   
 ## <a name="get-user"></a>取得使用者
 
-[取得使用者] 會從儲存庫傳回使用者記錄。
+[取得] 使用者從存放庫傳回使用者記錄。
   
-|**法**|**要求 URI**|**HTTP 版本**|
+|**方法**|**要求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|獲取  <br/> |HTTPs://\<入口\>網站/QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1。1  <br/> |
+|GET  <br/> |HTTPs:// \<portal\> /QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1。1  <br/> |
    
- **URI 參數**-無。
+ **URI 參數** -無。
   
- **要求標頭**-沒有其他標頭。
+ **要求標頭** -沒有其他標頭。
   
- **要求主體**-無。
+ **要求正文** -無。
   
- **回應**-回應包括 HTTP 狀態碼和一組回應標頭。
+ **回應** -回應包括 HTTP 狀態碼和一組回應標頭。
   
- **狀態碼**-成功的操作會傳回狀態碼200（確定）。 如果找不到指定的使用者識別碼，則會傳回狀態碼404（找不到）。
+ **狀態碼** -成功的作業會傳回狀態碼 200 (確定) 。 如果找不到指定的使用者識別碼，它會傳回狀態碼 404 (找不到) 。
   
- **回應標題**-沒有其他標頭。
+ **回應標頭** -沒有其他標頭。
   
- **回應主體**-以下是 JSON 中的回應載荷範例。
+ **回應** 內文-以下是 JSON 中的範例回應負載。
   
 ```json
 {
@@ -56,13 +56,13 @@ ms.locfileid: "41816732"
 }
 ```
 
- *userId* -使用者識別碼。
+ *userId*  -使用者的識別碼。
   
- *loginName* -一般使用者的外部使用者識別。 如果使用 Windows 驗證來驗證使用者，則這可能是使用者的 FQDN。
+ *loginName*  -一般使用者的外部使用者識別。 如果使用 Windows 驗證來驗證使用者，則這可能是使用者的 FQDN。
   
- *defaultItemId* -此使用者的預設專案識別碼。 預設專案是與使用者相關聯的最上方專案。 此使用者擁有的所有其他專案都可以從預設專案中流覽。
+ *defaultItemId*  -此使用者之預設專案的識別碼。 預設專案是與使用者相關聯的最上層專案。 您可以從預設專案流覽此使用者擁有的所有其他專案。
   
 > [!NOTE]
-> 提供`defaultItemId`值以取得專案操作，以取得預設專案的詳細資料。
+> 提供  `defaultItemId` 值以取得專案作業，以取得預設專案的詳細資料。
   
 

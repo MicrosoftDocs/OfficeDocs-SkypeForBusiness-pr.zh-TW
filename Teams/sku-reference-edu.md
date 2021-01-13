@@ -1,7 +1,7 @@
 ---
 title: 教育版 SKU 參考
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: 列出教育教職員和學生授權方案和 SKU 識別碼。
 f1keywords: ''
-ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: dc8b476e4af134199fe402c998a20dbd84d0919d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533890"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834243"
 ---
 # <a name="education-sku-reference"></a>教育版 SKU 參考
 
-本文列出教育教職員和學生授權方案（Sku）和 SKU 識別碼，您可以在使用 PowerShell 以授權類型來識別貴組織中的使用者時，將其做為參考。
+本文列出教育教職員和學生授權方案 (Sku) 和 SKU 識別碼，您可以在使用 PowerShell 以授權類型識別組織中的使用者時，將其做為參考。
 
 ## <a name="faculty-licenses"></a>教職員授權
 
@@ -43,7 +43,7 @@ ms.locfileid: "46533890"
 |適用于教職員的 Microsoft 365 教育版 A5       |M365EDU_A5_FACULTY         |e97c048c-37a4-45fb-ab50-922fbf07a370         |
 |適用于教職員的 Microsoft 365 A5 （不含音訊會議）     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
 |適用于教職員的 Office 365 教育版 Homeschool     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
-|適用于教職員的 Office 365 A1 （適用于裝置）     |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
+|適用于教職員 (裝置) 的 Office 365 A1     |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
 
 ## <a name="student-licenses"></a>學生授權
 
@@ -66,7 +66,7 @@ ms.locfileid: "46533890"
 |Office 365 A5 學生使用權益    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
 |沒有音訊會議供學生使用的 Office 365 A5 （福利）  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
 |適用于學生 Homeschool 的 Office 365 教育版     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
-|Office 365 A1 學生版（適用于裝置）     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
+| (適用于裝置) 的學生版 Office 365 A1     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 Plus 學生版     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
 ## <a name="related-topics"></a>相關主題

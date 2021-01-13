@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalRole
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,33 +13,33 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: tblPrincipalRole 包含指派給節點的明確角色。
-ms.openlocfilehash: 1cc606ec3825bb664d4123154e97fabb15678cfd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 13c9c25db9ba1dbe281947468bbd834e80417899
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813361"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831553"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
 tblPrincipalRole 包含指派給節點的明確角色。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|prinRoleNodeID  <br/> |int，not null  <br/> |角色所套用的節點識別碼。  <br/> |
-|prinRolePrinID  <br/> |int，not null  <br/> |Principal ID。  <br/> |
-|prinRoleTypeID  <br/> |int，not null  <br/> |角色類型識別碼（從 tblRoleType）。  <br/> |
-|prinRoleUpdatedBy  <br/> |int，not null  <br/> |上次更新此專案的主體 ID。  <br/> |
+|prinRoleNodeID  <br/> |int，非 null  <br/> |套用角色的節點識別碼。  <br/> |
+|prinRolePrinID  <br/> |int，非 null  <br/> |主體識別碼。  <br/> |
+|prinRoleTypeID  <br/> |int，非 null  <br/> |TblRoleType) 的角色類型識別碼 (。  <br/> |
+|prinRoleUpdatedBy  <br/> |int，非 null  <br/> |最後更新此專案的主體識別碼。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |主鍵。  <br/> |
-|prinRoleNodeID  <br/> |在 tblNode 資料表中使用 [查閱] 的外鍵。  <br/> |
-|prinRolePrinID  <br/> |在 tblPrincipal prinID 資料表中使用 [查閱] 的外鍵。  <br/> |
-|prinRoleTypeID  <br/> |在 tblRoleType rtypeID 資料表中使用 [查閱] 的外鍵。  <br/> |
+|\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |主索引鍵。  <br/> |
+|prinRoleNodeID  <br/> |在 tblNode.nodeID 表格中查閱外部索引鍵。  <br/> |
+|prinRolePrinID  <br/> |在 tblPrincipal.prinID 表格中查閱外部索引鍵。  <br/> |
+|prinRoleTypeID  <br/> |在 tblRoleType.rtypeID 表格中查閱的外鍵。  <br/> |
    
 

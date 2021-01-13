@@ -1,8 +1,8 @@
 ---
-title: 針對商務用 Skype Server 2015 語音信箱設定 Exchange Server 2013 整合通訊
+title: 為商務用 Skype Server 語音信箱設定 Exchange Server 整合通訊
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -13,90 +13,90 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
-description: 摘要：針對商務用 Skype Server 語音信箱設定 Exchange Server 整合訊息。
-ms.openlocfilehash: affaf5eb25b755d51d4ce47dd75834b6704d7610
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 摘要：設定適用于商務用 Skype Server 語音信箱的 Exchange Server 整合通訊。
+ms.openlocfilehash: 68cf4a11deccac9ad71bdb6216c4126362787498
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797064"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834033"
 ---
-# <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>針對商務用 Skype Server 2015 語音信箱設定 Exchange Server 2013 整合通訊
+# <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>為商務用 Skype Server 語音信箱設定 Exchange Server 整合通訊
  
-**摘要：** 針對商務用 Skype Server 語音信箱設定 Exchange Server 整合訊息。
+**摘要：** 為商務用 Skype 伺服器語音信箱設定 Exchange Server 整合通訊。
   
-商務用 Skype Server 可讓您在 Exchange Server 2016 或 Exchange Server 2013 中儲存語音信箱訊息;這些語音信箱訊息就會以電子郵件訊息的方式顯示在使用者的收件匣中。 
+商務用 Skype Server 可讓您將語音信箱訊息儲存在 Exchange Server 2016 或 Exchange Server 2013 中;這些語音信箱訊息會以電子郵件訊息的方式顯示在使用者的收件匣中。 
 
 > [!NOTE]
-> Exchange 2019 中已不再提供 exchange 整合訊息（如前所述），但是您仍然可以使用電話系統來錄製語音信箱訊息，然後將錄製內容留在使用者的 Exchange 信箱中。 如需詳細資訊，請參閱[規劃雲端語音信箱服務](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
+> Exchange 2019 中已不再提供 exchange 整合通訊（如先前所知），但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱 [Plan Cloud 語音信箱服務](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
   
-如果您已在商務用 Skype Server 與 Exchange Server 2016 或 Exchange server 2013 之間設定了伺服器對伺服器驗證，就表示您已準備好設定整合訊息。 若要這樣做，您必須先在 Exchange 伺服器上建立並指派新的統一訊息撥號方案。 例如，這兩個命令（從 Exchange 管理命令介面內部執行）會為 Exchange 設定新的3位數撥號方案：
+如果您已在商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 之間設定伺服器對伺服器驗證，則可以安裝整合通訊。 若要這麼做，您必須先在 Exchange 伺服器上建立並指派新的整合通訊撥號對應表。 例如，在 Exchange 管理命令介面中 (執行這兩個命令) 設定 Exchange 的新3位數撥號對應表：
   
 ```powershell
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
 Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
 
-在範例中的第一個命令中，VoIPSecurity 參數和參數值「受保護」，表示信號通道是使用傳輸層安全性（TLS）來加密。 URIType "SipName" 代表將使用 SIP 通訊協定來傳送和接收郵件，而 CountryOrRegionCode 1 則表示您的撥號計畫適用于美國。
+在範例中的第一個命令中，VoIPSecurity 參數和參數值「安全」表示使用傳輸層安全性 (TLS) 加密信號通道。 URIType "SipName" 指出會使用 SIP 通訊協定來傳送和接收訊息，而 CountryOrRegionCode 的 1 則指出撥號對應表是套用至美國。
   
-在第二個命令中，傳遞給 ConfiguredInCountryOrRegionGroups 參數的參數值會指定可與此撥號方案搭配使用的國家/地區群組。 參數值 "隨處，\*"\*，\*"會設定下列專案：
+在第二個命令中，傳送至 ConfiguredInCountryOrRegionGroups 參數的參數值指定了可使用此撥號對應表的的國內群組。 參數值 "Anywhere，， \* \* \* " 設定下列專案：
   
-- 組名（"隨處"）
+- 群組名稱 ("Anywhere")
     
-- AllowedNumberString （\*，萬用字元代表允許的任何數位字串）
+- AllowedNumberString (\* ，表示允許任何數位字串的萬用字元) 
     
-- DialNumberString （\*，代表允許任何撥入號碼的萬用字元）
+- DialNumberString (\* ，表示允許任何撥入號碼的通配字元) 
     
-- TextComment （\*，萬用字元代表允許使用任何文字命令）
+- TextComment (\* ，表示允許任何文字命令的萬用字元) 
     
 > [!NOTE]
-> 建立新的撥號方案也會建立預設信箱原則。 
+> 建立新的撥號對應表也會建立預設信箱原則。 
   
-建立及設定新的撥號方案之後，您必須將新的撥號方案新增至您的統一訊息伺服器，然後修改該伺服器的啟動模式。特別是，您必須將 [啟動模式] 設定為 "雙"。 您可以從 Exchange 管理命令介面內執行這兩項工作：
+建立並設定新的撥號對應表之後，您必須將新的撥號對應表新增至整合通訊伺服器，然後修改該伺服器的啟動模式；明確地說，您必須將啟動模式設定為「雙重」模式。 您可以在 Exchange 管理命令介面內執行下列兩項工作：
   
 ```powershell
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
-在已設定統一訊息伺服器之後，您必須接著執行 ExchangeCertificate Cmdlet，以確保您的 Exchange 憑證已套用到整合訊息服務：
+設定整合通訊伺服器之後，您應該接下來執行 Enable-ExchangeCertificate Cmdlet，以確保您的 Exchange 憑證已套用至整合通訊服務：
   
 ```powershell
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 ```
 
-在正確指派憑證之後，您必須停止並重新啟動統一訊息伺服器上的 MsExchangeUM 服務。 每當您變更啟動模式時，都必須停止並重新啟動此服務。
+正確指派憑證之後，您就必須停止並重新啟動整合通訊伺服器上的 MsExchangeUM 服務。每當您變更啟動模式時，都必須停止並重新啟動此服務。
   
-完成整合郵件伺服器的設定之後，您就可以設定 UM 呼叫路由器：
+完成整合通訊伺服器的設定之後，您就可以開始設定 UM 通話路由器：
   
 ```powershell
 Set-UMCallRouterSettings -Server "atl-exchange-001.litwareinc.com" -UMStartupMode "Dual" -DialPlans "RedmondDialPlan" 
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "45BAA32496CC891169B75B9811320F78A1075DDA" -Services "IIS","UMCallRouter"
 ```
 
-因為啟動模式已變更，所以您必須停止並重新啟動託管 UM 呼叫路由器的電腦上的 MsExchangeUMCR 服務。
+由於啟動模式已變更，因此您必須停止並重新啟動主控 UM 通話路由器之電腦上的 MsExchangeUMCR 服務。
   
-若要完成統一訊息設定，您必須建立 UM 信箱原則，然後使用該原則來允許使用者使用整合訊息。 您可以使用類似以下的命令來建立信箱原則：
+若要完成整合通訊設定，您還需要建立 UM 信箱原則，然後使用該原則來啟用使用者的整合通訊。您可使用類似下列的命令，來建立信箱原則：
   
 ```powershell
 New-UMMailboxPolicy -Name "RedmondMailboxPolicy" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
 
-而且，您可以使用類似以下的命令，讓使用者能夠使用整合訊息：
+您可使用類似下列的命令，來啟用使用者的整合通訊：
   
 ```powershell
 Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com" -Identity "litwareinc\kenmyer" -UMMailboxPolicy "RedmondMailboxPolicy"
 ```
 
-在上述命令中，Extensions 參數代表使用者的電話分機號碼。 在這個範例中，使用者的分機號碼是100。
+在上一個命令中，Extensions 參數代表使用者的電話分機號碼。在此範例中，使用者的分機號碼為 100。
   
-在您啟用自己的信箱之後，使用者 kenmyer@litwareinc.com 應該能夠使用 Exchange 整合訊息。 您可以從商務用 Skype Server Management Shell 中執行[Test CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) Cmdlet，以確認使用者可以連線到 Exchange UM：
+啟用 kenmyer@litwareinc.com 的信箱後，該使用者應該就能使用 Exchange 整合通訊。 您可以從商務用 Skype Server 管理命令介面中執行 [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) Cmdlet，以確認使用者可以連線至 Exchange UM：
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-如果您有另一個已啟用整合訊息的使用者，您可以使用[CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) Cmdlet，確認此第二位使用者可以為第一個使用者留下語音信箱訊息。
+若您還有第二個啟用了整合通訊的使用者，您可使用 [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) Cmdlet 來驗證第二個使用者是否能語音留言給第一個使用者。
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -107,117 +107,117 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>在 Microsoft Exchange Server 上設定整合通訊 
 > [!IMPORTANT]
-> 如果您想要使用 Exchange 整合訊息（UM）來提供呼叫應答、Outlook Voice Access 或適用于企業語音使用者的自動助理服務，請參閱[在商務用 Skype 中的 Exchange 整合訊息整合規劃](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)，然後依照本節中的指示進行。 
+> 如果您想要使用 Exchange 整合通訊 (UM) 提供適用于 Enterprise Voice 使用者的呼叫回應、Outlook Voice Access 或自動語音應答服務，請參閱 [商務用 Skype 中的 Exchange 整合通訊整合對應](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)，然後依照本節中的指示進行。 
 
-若要設定 Exchange 整合通訊（UM）以搭配企業語音使用，您必須執行下列工作：
+若要設定 Exchange 整合通訊 (UM) 以使用 Enterprise Voice，您必須執行下列工作：
 
-- 在運行 Exchange 整合通訊（UM）服務的伺服器上設定憑證
+- 在執行 Exchange 整合通訊 (UM) 服務的伺服器上設定憑證
   > [!NOTE]
-  > 將所有用戶端存取和信箱伺服器新增到所有 UM SIP URI 撥號方案。 如果不是，傳出通話路由將無法如期運作。 
-- 視需要建立一個或多個 UM SIP URI 撥號方案，以及訂閱者的存取電話號碼，然後建立對應的 L 撥號方案。
+  > 將所有用戶端存取和信箱伺服器新增至所有 UM SIP URI 撥號對應表。 如果不是，則輸出通話路由不會如預期般運作。 
+- 視需要建立一個或多個 UM SIP URI 撥號對應表，以及訂閱者存取電話號碼，然後建立對應的 L 撥號對應表。
 
-- 使用 exchucutil. ps1 腳本來：
+- 使用 exchucutil.ps1 腳本執行下列作業：
     - 建立 UM IP 閘道。
-    - 建立 UM 查尋群組。
-    - [授與商務用 Skype 伺服器] 許可權以讀取 UM Active Directory 網域服務物件。
-- 建立 UM 自動助理物件。
+    - 建立 UM 群組搜尋。
+    - 授與商務用 Skype Server 讀取 UM Active Directory 網域服務物件的許可權。
+- 建立 UM 自動語音應答物件。
 - 建立訂閱者存取物件。
-- 為每位使用者建立 SIP URI，並將使用者與 UM SIP URI 撥號方案產生關聯。
+- 為每個使用者建立 SIP URI，並將使用者與 UM SIP URI 撥號對應表相關聯。
 
-### <a name="requirements-and-recommendations"></a>需求與建議
+### <a name="requirements-and-recommendations"></a>需求和建議
 
-在開始之前，本節中的檔假設您已部署下列 Exchange 角色：用戶端存取和信箱。 在 Microsoft Exchange Server 中，Exchange UM 在這些伺服器上以服務的方式執行。
+在您開始之前，本節中的檔會假設您已部署下列 Exchange 角色： Client Access 和信箱。 在 Microsoft Exchange Server 中，Exchange UM 會在這些伺服器上以服務的身分執行。
 
-另請注意下列事項：
-- 如果 Exchange UM 安裝在多個目錄林中，則必須針對每個 UM 林執行 Exchange Server 整合步驟。 此外，每個 UM 目錄林都必須設定為信任在其中部署商務用 Skype 伺服器的林，而商務用 whichSkype 中的林必須設定為信任每個 UM 目錄林。
-- 整合步驟是在執行整合訊息服務的 Exchange 伺服器角色，以及在執行商務用 Skype Server 的伺服器上執行。 在執行 Lync Server 2013 整合步驟之前，您應該執行 Exchange Server 整合訊息整合的步驟。
+也請注意以下事項：
+- 如果已在多個樹系中安裝 Exchange UM，則必須針對每個 UM 樹系執行 Exchange Server 整合步驟。 此外，每個 UM 樹系必須設定為信任部署商務用 Skype 伺服器的樹系，而且部署 whichSkype for Business Server 的樹系必須設定為信任每個 UM 樹系。
+- 在執行整合通訊服務的 Exchange 伺服器角色，以及執行商務用 Skype 伺服器的伺服器上執行整合步驟。 在您執行 Lync Server 2013 整合步驟之前，您應該先執行 Exchange Server 整合通訊整合步驟。
   > [!NOTE]
-  > 若要查看要對哪些伺服器以及哪些系統管理員角色執行哪些整合步驟，請參閱[整合內部部署整合訊息與商務用 Skype 的部署程式概覽](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)。 
+  > 若要查看在哪些伺服器及系統管理員角色上執行哪些整合步驟，請參閱  [整合內部部署整合通訊和商務用 Skype 的部署程式概述](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)。 
 
-在執行 Exchange UM 的每個伺服器上，都必須提供下列工具：
+在執行 Exchange UM 的每一部伺服器上都必須提供下列工具：
 - Exchange 管理命令介面
-- 腳本 exchucutil. ps1，可執行下列任務：
-    - 針對每個商務用 Skype 伺服器建立 UM IP 閘道。
-    - 為每個閘道建立一個 [查尋] 群組。 每個查尋群組的先導識別碼，會指定與閘道相關聯的前端池或標準版伺服器所使用的 UM SIP URI 撥號方案。
-    - 在 Active Directory 網域服務中，授與商務用 Skype 伺服器的許可權，以讀取 Exchange UM 物件。
+- 指令碼 exchucutil.ps1，它會執行下列工作：
+    - 為每個商務用 Skype 伺服器建立 UM IP 閘道。
+    - 為每一個閘道建立群組搜尋。 每個群組搜尋的引導識別碼會指定與閘道相關聯之前端集區或 Standard Edition server 所使用的 UM SIP URI 撥號對應表。
+    - 授與商務用 Skype Server 許可權，以在 Active Directory 網域服務中讀取 Exchange UM 物件。
 
 
 
-### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>使用 ExchUCUtil 在 Microsoft Exchange 上設定整合通訊 
+### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>在 Microsoft Exchange 上使用 ExchUCUtil.ps1 設定整合通訊 
 
-當您將 Microsoft 商務用 Skype Server 與 Exchange 整合通訊（UM）整合在一起，您必須在 Shell 中執行 ExchUcUtil 腳本。 ExchUcUtil. ps1 腳本會執行下列動作：
+當您將 Microsoft 商務用 Skype Server 與 Exchange 整合通訊 (UM) 整合時，您必須在命令介面中執行 ExchUcUtil.ps1 腳本。 ExchUcUtil.ps1 指令碼可執行下列作業：
 
-- 針對每個商務用 Skype 伺服器池建立 UM IP 閘道。
+- 為每個商務用 Skype 伺服器集區建立 UM IP 閘道。
 
 > [!IMPORTANT]
-> ExchUcUtil. ps1 腳本會建立一個或多個 UM IP 閘道。 您必須在所有 UM IP 閘道上停用撥出電話，除了該腳本建立的一個閘道外。 這包括在執行腳本前，在已建立的 UM IP 閘道上停用撥出通話。 
+> ExchUcUtil.ps1 指令碼可建立一或多個 UM IP 閘道。 您必須在除了指令碼所建立的一個閘道以外的所有 UM IP 閘道上，停用撥出電話。 這包括在已於執行指令碼之前就建立的 UM IP 閘道上，停用撥出電話。 
 
-- 針對每個 UM IP 閘道建立 UM 查尋群組。 每個查尋群組的試驗識別碼，會指定與 UM IP 閘道相關的商務用 Skype Server 前端池或標準版伺服器所使用的 UM SIP URI 撥號方案。
-- 授與商務用 Skype 伺服器的許可權，以讀取 Active Directory UM 容器物件（例如 UM 撥號方案、自動語音應答、UM IP 閘道及 UM 查尋群組）。
+- 為每個 UM IP 閘道建立一個 UM 群組搜尋。 每個群組搜尋的引導識別碼會指定與 UM IP 閘道相關聯之商務用 Skype Server 前端集區或 Standard Edition server 所使用的 UM SIP URI 撥號對應表。
+- 授與商務用 Skype Server 許可權，以閱讀 Active Directory UM 容器物件，例如 UM 撥號對應表、自動語音應答、UM IP 閘道和 UM 群組搜尋。
   > [!IMPORTANT]
-  > 每個 UM 林都必須設定為信任部署商務用 Skype Server 的林，以及部署商務用 Skype Server 2013 的林必須設定為信任每個 UM 目錄林。 如果 Exchange UM 是安裝在多個目錄林中，則必須針對每個 UM 林執行 Exchange Server integration 步驟，否則您必須指定商務用 Skype Server 網域。 例如，ExchUcUtil. ps1 –林： <lync-網域-控制器-fqdn>。 
+  > 每個 UM 樹系都必須設定為信任部署商務用 Skype 伺服器的樹系，而且部署商務用 Skype Server 2013 的樹系必須設定為信任每個 UM 樹系。 如果 Exchange UM 已安裝在多個樹系中，則必須針對每個 UM 樹系執行 Exchange Server 整合步驟，否則您必須指定商務用 Skype Server 網域。 例如，ExchUcUtil.ps1 –樹系： <lync 域-controller-fqdn>。 
 
-### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>使用 Shell 執行 ExchUcUtil. ps1 腳本
+### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>使用命令介面來執行 ExchUcUtil.ps1 指令碼
 
-在貴組織中的任何 Exchange 伺服器上執行 ExchUcUtil 腳本，這些伺服器與商務用 Skype Server 在相同的拓撲中。 您可以使用 Shell 從信箱伺服器執行腳本，或者您可以在用戶端存取伺服器上使用遠端 Windows PowerShell 來執行腳本。 如果您在組織中的用戶端存取伺服器上執行腳本，用戶端存取伺服器會將遠端 Windows PowerShell 會話 proxy 給組織中的信箱伺服器。
+在組織中與商務用 Skype Server 位於相同拓撲的任何 Exchange 伺服器上，執行 ExchUcUtil.ps1 腳本。 您可以在 Mailbox Server 中使用命令介面來執行指令碼，或者您可以在 Client Access Server 上使用遠端 Windows PowerShell 來執行指令碼。 如果您在組織中的 Client Access Server 上執行指令碼，則 Client Access Server 會將遠端 Windows PowerShell 工作階段，Proxy 處理至組織中的 Mailbox Server。
 > [!IMPORTANT]
-> ExchUcUtil. ps1 腳本會建立一個或多個 UM IP 閘道。 您必須在所有 UM IP 閘道上停用撥出電話，除了該腳本建立的一個閘道外。 這包括在執行腳本前，在已建立的 UM IP 閘道上停用撥出通話。 若要在 UM IP 閘道停用撥出電話，請參閱在 UM IP 閘道停用撥出電話。 
+> ExchUcUtil.ps1 指令碼可建立一或多個 UM IP 閘道。 您必須在除了指令碼所建立的一個閘道以外的所有 UM IP 閘道上，停用撥出電話。 這包括在已於執行指令碼之前就建立的 UM IP 閘道上，停用撥出電話。 若要在 UM IP 閘道上停用撥出電話，請參閱停用 UM IP 閘道器上的撥出電話。 
 > [!IMPORTANT]
-> 您必須具備 Exchange 組織管理角色的許可權，或是 Exchange 組織管理員安全性群組的成員，才能執行腳本。 
+> 您必須具備「Exchange 組織管理」角色的權限或屬於 Exchange Organization Administrators 安全性群組的成員，才能執行此指令碼。 
 
-1. 開啟 Exchange 管理命令介面。
-2. 在 C:\Windows\System32 提示字元中，**輸入\<cd drive 字母>： \Program Files\Microsoft\Exchange Server\V15\Scripts>。ExchUcUtil......**.... ps1，然後按 enter。
+1. 開啟 [Exchange 管理命令介面]。
+2. 在 C:\Windows\System32 提示字元處，輸入 **cd \<drive letter> ： \Program Files\Microsoft\Exchange Server\V15\Scripts # C0.ExchUcUtil.ps1**，然後按 enter 鍵。
 
-#### <a name="how-do-you-know-this-worked"></a>如何知道這是正常運作的？
+#### <a name="how-do-you-know-this-worked"></a>如何知道這是否正常運作？
 
-若要確認 ExchUcUtul 腳本已順利完成，請執行下列動作：
-- 使用 UMIPGateway Cmdlet 或 EAC 來查看已建立的新 UM IP 閘道或閘道。
-- 使用 UMHuntGroup Cmdlet 或 EAC 來查看新的 UM 查尋群組或已建立的群組。
+若要確認是否已成功完成 ExchUcUtul.ps1 指令碼，請執行下列作業：
+- 使用 Get-UMIPGateway Cmdlet 或 EAC 來檢視所建立的新 UM IP 閘道。
+- 使用 Get-UMHuntGroup Cmdlet 或 EAC 來檢視所建立的新 UM 群組搜尋。
 
-### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>在運行 Exchange Server 整合通訊的伺服器上設定憑證
+### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>在執行 Exchange Server 整合通訊的伺服器上設定憑證
  
-如果您已部署 Exchange 整合訊息（UM），請參閱規劃檔中的商務用 Skype Server 中的 Exchange 整合訊息整合規劃中所述，而且您想要在您的電腦中為企業語音使用者提供 Exchange UM 功能組織中，您可以使用下列程式來設定執行 Exchange UM 之伺服器上的憑證。
+如果您已部署 Exchange 整合通訊 (UM) （如規劃檔中的「在商務用 Skype Server 中規劃 Exchange 整合通訊整合」一節所述），而且想要將 Exchange UM 功能提供給組織中的 Enterprise Voice 使用者，您可以使用下列程式在執行 Exchange UM 的伺服器上設定憑證。
 
 > [!IMPORTANT]
-> 對於內部憑證，執行商務用 Skype 伺服器的伺服器以及執行 Microsoft Exchange 的伺服器，都必須有受信任的根授權憑證（相互信任）。 只要伺服器已在其受信任的根授權憑證存放區中註冊認證機構的根憑證，憑證授權單位（CA）就可以是相同或不同的憑證授權單位。 
+> 針對內部憑證，執行商務用 Skype 伺服器的伺服器和執行 Microsoft Exchange 的伺服器必須具有相互信任的根信任授權憑證。 憑證授權單位單位 (CA) 可以相同或不同的憑證授權單位單位，只要伺服器在其受信任的根授權憑證存放區中註冊了憑證授權單位的根憑證。 
 
-Exchange 伺服器必須使用伺服器憑證進行設定，才能連線至商務用 Skype Server：
-1. 下載 Exchange 伺服器的 CA 憑證。
-2. 安裝 Exchange 伺服器的 CA 憑證。
-3. 確認 CA 位於 Exchange 伺服器的根信任 Ca 清單中。
-4. 建立 Exchange 伺服器的憑證要求並安裝證書。 
-5. 指派 Exchange 伺服器的憑證。
+必須將 Exchange 伺服器設定為使用伺服器憑證，才能連線至商務用 Skype Server：
+1. 下載 Exchange Server 的 CA 憑證。
+2. 安裝 Exchange Server 的 CA 憑證。
+3. 確認 CA 在 Exchange Server 的受信任的根 CA 清單中。
+4. 建立 Exchange Server 的憑證要求並安裝憑證。 
+5. 指派 Exchange Server 的憑證。
 
 
 **若要下載 CA 憑證：**
 
-1. 在執行 Exchange UM 的伺服器上，按一下 [**開始**]，按一下 [**執行**]，輸入**您頒發 CA 伺服器的 HTTP://\<名稱>/certsrv**，然後按一下 **[確定]**。
-2. 在 [選取任務] 底下，按一下 [**下載 CA 憑證、憑證鏈或 CRL**]。
-3. 在 [**下載 Ca 憑證、憑證連結或 CRL**] 底下，選取 [**編碼方法至基本 64**]，然後按一下 [**下載 CA 憑證**]。
+1. 在執行 Exchange UM 的伺服器上，按一下 [ **開始**]，按一下 [ **執行**]，輸入 **Http:// \<name of your Issuing CA Server> /Certsrv**，然後按一下 **[確定]**。
+2. 在 [選取任務] 底下，按一下 [ **下載 CA 憑證、憑證鏈或 CRL**]。
+3. 在 [ **下載 Ca 憑證、憑證鏈或 CRL**] 底下，選取 [ **編碼方式為 64**]，然後按一下 [**下載 CA 憑證**]。
    > [!NOTE]
-   > 您也可以在此步驟指定可分辨編碼規則（DER）編碼。 如果您選取 [DER 編碼]，此程式的下一個步驟中和**安裝 CA 憑證**的步驟10中的檔案類型是. p7b （而不是 .cer）。 
-4. 在 [檔案**下載**] 對話方塊中，按一下 [**儲存**]，然後將檔案儲存到伺服器上的硬碟。 （根據您在上一個步驟中選取的編碼，該檔案將會有 .cer 或. p7b 檔案副檔名。）
+   > 您也可以在此步驟 (DER) 編碼中指定可辨識的編碼規則。 如果您選取 DER 編碼，此程序下一個步驟中以及 **「若要安裝 CA 憑證」** 步驟 10 中的檔案類型會是 .p7b，而非 .cer。 
+4. 在 **[檔案下載]** 對話方塊中，按一下 **[儲存]**，然後將檔案儲存到伺服器的硬碟上 (視您在上一個步驟中選取的編碼而定，檔案的副檔名會是 .cer 或 .p7b)。
 
 **若要安裝 CA 憑證：**
 
-1. 在執行 Exchange UM 的伺服器上，按一下 [**開始**]，按一下 [**執行**]，在 [開啟] 方塊中輸入**MMC** ，然後按一下 **[確定]**。
-2. **在 [檔案**] 功能表上，按一下 [**新增/移除管理單元**]，然後按一下 [**新增**]。
-3. 在 [**新增獨立的管理單元**] 方塊中，按一下 [**憑證**]，然後按一下 [**新增**]。
-4. 在 [**憑證管理單元**] 對話方塊中，按一下 [**電腦帳戶**]，然後按一下 **[下一步]**。
-5. 在 [**選取電腦**] 對話方塊中，確認已選取 [**本機電腦（執行此主控台的電腦）** ] 核取方塊，然後按一下 **[完成]**。
-6. 按一下 [**關閉**]，然後按一下 **[確定]**。 
-7. 在主控台樹中，展開 [**憑證（本機電腦）**]，展開 [**信任的根憑證授權單位**]，然後按一下 [**憑證**]。
-8. 以滑鼠右鍵按一下 [**憑證**]，按一下 [**所有任務**]，然後按一下 [匯**入**]。
-9. 按一下 **[下一步]**。 
-10. 按一下 **[流覽]** 找出檔案，然後按一下 **[下一步**]。 （檔案將會有 .cer 或. p7b 副檔名，視您在**下載 CA 憑證**的步驟3中所選取的編碼而定。
-11. 按一下 [**將所有憑證放**入下列存放區]。
-12. 按一下 **[流覽]**，然後選取 [**信任的根憑證授權單位**]。 
-13. 按一下 **[下一步**] 驗證設定，然後按一下 **[完成]**。 
+1. 在執行 Exchange UM 的伺服器上，按一下 [ **開始**]，按一下 [ **執行**]，然後在 [開啟] 方塊中輸入 **MMC** ，然後按一下 **[確定]**，以開啟 Microsoft Management Console (MMC) 。
+2. 在 **[檔案]** 功能表中，按一下 **[新增/移除嵌入式管理單元]**，然後按一下 **[新增]**。
+3. 在 **[新增獨立嵌入式管理單元]** 方塊中，按一下 **[憑證]**，然後按一下 **[新增]**。
+4. 在 **[憑證嵌入式管理單元]** 對話方塊中，按一下 **[電腦帳戶]**，然後按 **[下一步]**。
+5. 在 [ **選取電腦** ] 對話方塊中，確認已選取 [ **本機電腦： (執行此主控台的電腦)** ] 核取方塊，然後按一下 **[完成]**。
+6. 按一下 **[關閉]**，然後按一下 **[確定]**。 
+7. 在主控台樹狀目錄中，依序展開 **[憑證 (本機電腦)]** 和 **[信任的根憑證授權]**，然後按一下 **[憑證]**。
+8. 以滑鼠右鍵按一下 **[憑證]**，按一下 **[所有工作]**，再按一下 **[匯入]**。
+9. 按 **[下一步]**。 
+10. 按一下 **[瀏覽]**，找出檔案，然後按 **[下一步]** (視您在 **「若要下載 CA 憑證」** 步驟 3 中選取的編碼而定，檔案的副檔名會是 .cer 或 .p7b)。
+11. 按一下 [ **將所有憑證放** 入下列儲存區]。
+12. 按一下 **[瀏覽]**，然後選取 **[受信任的根憑證授權單位]**。 
+13. 按 **[下一步]** 以驗證設定，然後按一下 **[完成]**。 
 
 
-**若要確認 CA 是否在受信任的根 Ca 清單中：**
+**若要驗證 CA 是否在受信任的根 Ca 清單中：**
 
-1. 在執行 Exchange UM 的伺服器上，在 MMC 中展開 [憑證（本機電腦）]，展開 [信任的根憑證授權單位]，然後按一下 [憑證]。
-2. 在 [詳細資料] 窗格中，確認您的 CA 位於信任的 Ca 清單中。
+1. 在執行 Exchange UM 的伺服器上，于 MMC 中展開 [憑證 (本機電腦]) 中，展開 [受信任的根憑證授權單位]，然後按一下 [憑證]。
+2. 在詳細資料窗格中，確認您的 CA 位於受信任的 CA 清單上。
 
 

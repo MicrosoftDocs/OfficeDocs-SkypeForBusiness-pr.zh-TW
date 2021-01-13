@@ -1,8 +1,8 @@
 ---
-title: 幹線設定建立新的或編輯現有的
+title: 主幹設定建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 74ff6ee7430c4b61dafa041e7396b4ebfcab63ed
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 6846491f073542c3a70015d05ea75a77e51db934
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796092"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833563"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>主幹組態：建立新的或編輯現有組態
 
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
 
-- [在商務用 Skype Server 中使用 [旁路媒體] 設定主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [在商務用 Skype Server 中設定含媒體旁路的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [在商務用 Skype Server 中設定不使用媒體的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [在商務用 Skype Server 中設定無媒體旁路的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [在商務用 Skype Server 中建立或修改呼叫 ID 簡報的翻譯規則](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [在商務用 Skype Server 中建立或修改呼叫識別碼簡報的轉譯規則](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [手動建立或修改翻譯規則](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [手動建立或修改轉譯規則](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

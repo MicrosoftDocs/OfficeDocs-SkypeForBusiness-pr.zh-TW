@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的參考拓撲
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,91 +15,91 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
-description: 商務用 Skype Server 的參照拓撲，包括要針對大型、中型及小型組織進行的圖表和決策。
-ms.openlocfilehash: f207e69dceea4c2959e5cf81ddcf359266ed1604
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 商務用 Skype 伺服器的參考拓撲，包括針對大型、中型和 small 組織所進行的圖表和決策。
+ms.openlocfilehash: 958f6630faf295a16aebe7513ee9e5c98daeeaa5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801703"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831733"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>商務用 Skype Server 的參考拓撲
 
-商務用 Skype Server 的參照拓撲，包括要針對大型、中型及小型組織進行的圖表和決策。
+商務用 Skype 伺服器的參考拓撲，包括針對大型、中型和 small 組織所進行的圖表和決策。
 
-最佳的商務用 Skype 伺服器拓撲，視貴組織的規模、您要部署的工作負載，以及高可用性與投資成本的喜好設定而定。
+您的商務用 Skype 伺服器拓撲最佳，取決於組織的規模、要部署的工作負載，以及高可用性與投資成本的喜好設定。
 
-本節概述三個範例參照拓朴，包括每個拓朴中劃分的許多決策背後的理由。
+本節概述三個範例參考拓撲，包括在每個拓撲中考慮的眾多決策背後的理由。
 
 ## <a name="reference-topology-for-a-small-organization"></a>小型組織的參考拓撲
 
-小型組織的參考拓朴示範如何只部署三台伺服器來執行商務用 Skype Server，以部署穩健、高可用性的解決方案。
+「小型組織」的參考拓撲顯示如何部署三台執行商務用 Skype Server 的伺服器，來部署強大且高可用性的解決方案。
 
-**小型組織的參照拓撲**
+**小型組織的參考拓撲**
 
 ![部署三個伺服器圖表的參考拓撲](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
-- 已**部署的標準版伺服器成對**這個組織在其中央網站上有4000使用者。 他們已部署兩個標準版伺服器並成對搭配，以啟用高可用性和災害復原。 每個伺服器住房2000使用者，但所有使用者的相關資訊都會在兩個伺服器之間同步處理。 如果其中一個是關閉的，系統管理員可以將這些使用者的服務容錯移轉到其他伺服器，並將使用者的中斷降至最低。 如需有關商務用 Skype Server 中高可用性和災難復原功能的詳細資訊，請參閱[在商務用 Skype server 中規劃高可用性和災難](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)復原。
+- 已 **部署的 Standard Edition 伺服器對** 此組織在其中央網站有4000使用者。 他們已部署兩個 Standard Edition 伺服器，並將其搭配搭配，以啟用高可用性和嚴重損壞修復。 每個伺服器的住宅2000使用者，但在兩部伺服器之間會同步處理所有使用者的相關資訊。 如果有一項關機，系統管理員可以將其他伺服器的使用者容錯移轉到其他伺服器，並將使用者中斷降至最低。 如需商務用 Skype Server 中高可用性和嚴重損壞修復功能的相關資訊，請參閱 [在商務用 Skype server 中規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 
-- **建議使用 Edge 伺服器部署。** 雖然內部 IM、目前狀態與會議不需要部署邊緣伺服器，但我們建議您即使小型部署也一樣。 您可以部署邊緣伺服器來提供服務給組織防火牆目前以外的使用者，以將商務用 Skype 伺服器投資最大化。 其優點包括下列各項：
+- **建議使用 Edge Server 部署。** 雖然內部 IM、出席和會議不需要部署 Edge Server，但我們仍建議小型部署使用 Edge Server。 您可以部署 Edge Server，將服務提供給目前組織防火牆以外的使用者，以達到最大的商務用 Skype Server 投資。 優點包括下列各項：
 
-  - 貴組織的使用者可以使用商務用 Skype 伺服器功能（如果他們是在家中或在旅途中的工作）。
+  - 貴組織的使用者可以使用商務用 Skype 伺服器功能，如果他們在家工作或在旅途中已下班。
 
   - 您的使用者可以邀請外部使用者參與會議。
 
-  - 如果您有合作夥伴、廠商或客戶組織，且使用商務用 Skype Server，您可以建立與該組織的聯盟關聯。 接著，您的商務用 Skype Server 部署就會辨識來自該同盟組織的使用者，以更好的方式共同作業。
+  - 如果您有也會使用商務用 Skype 伺服器的合作夥伴、廠商或客戶組織，您可以建立與該組織的同盟關聯。 您的商務用 Skype 伺服器部署會從該同盟組織辨識使用者，以改善共同作業。
 
-  - 您的使用者可以與一些公用 IM 服務的使用者交換立即訊息。
+  - 您的使用者可以與某些公用 IM 服務的使用者交換立即訊息。
 
-- **分支網站的留存能力。** 這個組織正在執行「商務用 Skype Server」企業語音功能的試驗程式。 有些使用者使用商務用 Skype Server 作為其唯一的語音方案。 其中一些企業語音試驗使用者位於分支網站上。 分支網站沒有可靠的廣域網路（WAN）連結到中央網站，所以會在該處部署 Survivable 分支裝置。 在已部署的情況下，如果 WAN 連結關閉，分支網站上的使用者仍可撥打及接聽電話（在組織和 PSTN 通話中的呼叫）、擁有語音信箱功能，以及與雙方的立即訊息（IM）進行通訊。 使用者也可以在 WAN 連結無法使用時進行驗證。 如需詳細資訊，請參閱[商務用 Skype Server 中的企業語音復原規劃](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
+- **分支網站生存能力。** 此組織正在執行商務用 Skype Server 之 Enterprise Voice 功能的試驗計畫。 有些使用者使用商務用 Skype 伺服器作為其唯一的語音方案。 有些企業語音試驗使用者位於分支網站。 分支網站沒有可靠的廣域網路絡 (WAN) 連結至中央網站，因此會在該處部署 Survivable 分支裝置。 在部署此功能的情況下，如果 WAN 連結停機，分支網站上的使用者仍可撥打和接聽通話 (組織中的呼叫和 PSTN 通話) 、具有語音信箱功能，以及透過兩方立即訊息 (IM) 進行通訊。 無法使用 WAN 連結時，也可以驗證使用者。 如需詳細資訊，請參閱 [Plan For Enterprise Voice 韌性 In 商務用 Skype Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
 
-- **Exchange UM 部署。** 這個參照拓撲包含 Exchange 整合通訊（UM）伺服器，該伺服器會執行 Microsoft Exchange Server，而不是商務用 Skype 伺服器。
+- **Exchange UM 部署。** 此參考拓撲包含 Exchange 整合通訊 (UM) Server，它會執行 Microsoft Exchange Server，而不是商務用 Skype Server。
 
-- **Office Web Apps 伺服器。** 我們建議您在使用 Web 會議的每一個組織中部署 Office Web Apps Server 或 Office Web Apps 伺服器群。 Office Web Apps 伺服器可讓 PowerPoint 投影片呈現在網路會議中。
+- **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office Web Apps Server 或 Office Web Apps Server 伺服器陣列。 Office Web Apps Server 可以在 Web 會議中呈現 PowerPoint 的投影片。
 
-## <a name="reference-topology-for-a-medium-organization"></a>中型組織的參照拓撲
+## <a name="reference-topology-for-a-medium-organization"></a>中型組織的參考拓撲
 
-具有高可用性與單一資料中心的參照拓撲是專為具有單一中心網站的中小型組織設計。 下圖中的確切拓撲是針對20000使用者的組織。
+具有高可用性和單一資料中心的參考拓撲是專為具有一個中央網站的中小型組織所設計。 下圖中的實際拓撲是針對20000使用者的組織。
 
 **中型組織的參考拓撲**
 
 ![單一資料中心圖表的參考拓撲](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
 
-- **新增更多前端伺服器以容納更多使用者。** 此圖中的確切拓撲包含三個前端伺服器來提供20000使用者的支援。 如果您有單一的中央網站及更多使用者，您可以直接在池中新增更多前端伺服器。 每個池的使用者數目上限為80000，且有十二個前端伺服器。
+- **新增更多前端伺服器來容納更多使用者。** 此圖中的實際拓撲有三部前端伺服器，可為20000使用者提供支援。 如果您有單一的中央網站和更多使用者，您只需要將多部前端伺服器新增至集區即可。 每個集區的使用者數目上限為80000，含十二部前端伺服器。
 
-    不過，單一網站拓朴可將另一個 [前端] 池新增至網站，以支援更多使用者。
+    不過，如果在網站再新增一個前端集區，則單一個網站拓撲可以支援更多使用者。
 
-- **您可以新增災害復原。** 針對此組織而言，商務用 Skype Server 服務的高可用性是必要的功能，但不需要災害復原。 其部署的前端伺服器池可提供高可用性。
+- **可以新增災難修復。** 針對此組織，其商務用 Skype Server 服務的高可用性是必要的功能，但不會發生嚴重損壞修復。 其部署的前端伺服器集區提供高可用性。
 
-    如果他們想要新增災害復原能力，他們可以考慮建立另一個資料中心，並在其中新增另一個 [前端] 池，並將它與目前資料中心的前端池配對。 然後，如果發生影響其主要池的災難，系統管理員可能會將使用者容錯移轉至備份池。
+    如果他們想要新增嚴重損壞復原能力，他們可能會考慮建立另一個資料中心，並在其中新增另一個前端集區，並將它與目前資料中心的前端集區配對。 然後，如果發生嚴重影響其主要集區的嚴重損壞，系統管理員可以將使用者容錯移轉至備份組區。
 
-- **後端伺服器已鏡像**為了提供更高的基本使用者功能可用性，組織已為每個前端池部署一個鏡像對後端伺服器。
+- **後端伺服器已鏡像** 若要提供更高的基本使用者功能可用性，該組織已為每一個前端集區部署一組鏡像的後端伺服器。
 
-- **監視伺服器資料庫選項。** 此組織已部署監控，以確保企業語音通話品質及 A/V 會議品質。 監視是在每個前端伺服器上部署，而監視資料庫則與後端伺服器 collocated。 我們也支援監視資料庫位於個別伺服器上的拓撲。
+- **監控伺服器資料庫選項。** 此組織已部署監控，以確保 Enterprise Voice 通話的品質和 A/V 會議。 監控是部署于每一部前端伺服器上，而監視資料庫則是與後端伺服器組合。 我們也支援監控資料庫位於不同伺服器上的拓撲。
 
-- **Edge 伺服器高可用性**在這個範例中，有20000個使用者，只要有一個 Edge 伺服器就足以達到效能。 不過，他們已部署兩個部署的雙層伺服器池來提供高可用性。
+- **Edge Server 高可用性** 在此範例中，有20000位使用者的組織，只有一部 Edge Server 足以獲得效能。 不過，他們已部署兩部伺服器的集區，以提供高可用性。
 
-- **分支網站部署選項。** 此拓撲中的組織已將企業語音部署為其語音方案。 分支網站1沒有可復原的廣域網路（WAN）連結至中心網站，所以它擁有已部署的 Survivable 分支裝置，以維持許多商務用 Skype Server 功能，以便在中央網站的 WAN 連結關閉時使用。 分支網站2不過有彈性 WAN 連結，所以只需要公開的交換式電話網絡（PSTN）閘道。 部署的 PSTN 閘道支援媒體旁路，因此分支網站2不需要任何轉送伺服器。 如需詳細資訊，請參閱[商務用 Skype Server 中的企業語音復原規劃](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
+- **分支網站部署選項。** 此拓撲中的組織部署了企業語音作為語音解決方案。 分支網站1沒有具有彈性廣域網路絡的 (WAN) 連結至中央網站，因此它已部署 Survivable 分支裝置以維護許多商務用 Skype Server 功能，以防中央網站的 WAN 連結停止運作。 不過，分支網站 2 具有可恢復的 WAN 連結，因此只需要有公用交換電話網路 (PSTN) 閘道。 此網站部署的 PSTN 閘道支援媒體旁路，所以分支網站 2 不需要有中繼伺服器。 如需詳細資訊，請參閱 [Plan For Enterprise Voice 韌性 In 商務用 Skype Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
 
-- **DNS 負載平衡。** [前端] 池與 [邊緣伺服器] 池，具有部署 SIP 流量的 DNS 負載平衡。 這消除了邊緣伺服器的硬體負載平衡器需求，並大大減少了其他池的硬體負載平衡器的設定和維護，因為只有 HTTP 流量需要硬體負載平衡器。 如需詳細資訊，請參閱[DNS 負載平衡](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)。
+- **DNS 負載平衡。** 前端集區和 Edge Server 集區，具有部署 SIP 流量的 DNS 負載平衡。 如此一來，Edge Server 就不需要硬體負載平衡器，這樣可大幅減少為其他集區安裝和維護硬體負載平衡器的工作，因為只有 HTTP 流量才需要硬體負載平衡器。 如需詳細資訊，請參閱 [DNS 負載平衡](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)。
 
-- **Exchange UM 部署。** 這個參照拓撲包含 Exchange 整合通訊（UM）伺服器，該伺服器會執行 Microsoft Exchange Server，而不是商務用 Skype 伺服器。
+- **Exchange UM 部署。** 此參考拓撲包含 Exchange 整合通訊 (UM) Server，它會執行 Microsoft Exchange Server，而不是商務用 Skype Server。
 
-- **Office Web Apps 伺服器。** 我們建議您在使用 Web 會議的每一個組織中部署 Office Web Apps Server 或 Office Web Apps 伺服器群。 Office Web Apps 伺服器可讓 Powerpoint 投影片呈現在網路會議中。
+- **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office Web Apps Server 或 Office Web Apps Server 伺服器陣列。 Office Web Apps Server 可以在 Web 會議中呈現 Powerpoint 投影片。
 
-- **您可以新增控制器。** 如果此組織想要協助加強抵禦拒絕服務攻擊的安全性，也可以部署一個控制器池。 Director 是商務用 Skype Server 中不是家用使用者帳戶或提供目前狀態或會議服務的個別、選擇性的伺服器角色。 它是一種內部的下一個躍點伺服器，可讓邊緣伺服器路由發往內部伺服器的入站 SIP 流量。 主管對輸入要求進行預驗證，並將它們重新導向至使用者的主區或伺服器。 在主管中進行預驗證，可在部署時丟棄使用者帳戶的要求。 控制器可協助將前端伺服器與惡意流量（例如拒絕服務（DoS）攻擊）隔離。 如果網路充斥在攻擊中的無效外部通信量，通信量就會結束在 Director 上。
+- **可以新增 director。** 如果此組織想要協助提高安全性以防範拒絕服務攻擊，也可以部署 Director 集區。 Director 是商務用 Skype Server 中的個別非選用伺服器角色，不會家用使用者帳戶，也不會提供目前狀態或會議服務。 它充當內部的下一個躍點伺服器，Edge Server 會將傳入 SIP 流量路由傳送至內部伺服器。 Director 對輸入要求進行預先驗證，並將它們重新導向至使用者的主集區或伺服器。 Director 的預先驗證可讓您從部署中未知的使用者帳戶中丟棄要求。 Director 可協助將前端伺服器與惡意流量（如拒絕服務 (DoS) 攻擊）隔離。 如果網路在這類攻擊中以不正確外部流量淹沒，該流量會結束于 Director。
 
-- **建議使用 System Center Operations Manager。** 我們建議您監視商務用 Skype Server 部署的健康情況，以協助確保最終使用者的服務可用性。 您可以使用系統中心作業管理器管理套件（適用于商務用 Skype），以免費從 Microsoft 下載。 有了商務用 Skype 管理套件，您就能在問題發生時主動取得即時通知、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等。 這可協助您在最終使用者體驗到您的部署之前，提前回應您的部署問題。
+- **建議使用 System Center Operations Manager。** 建議您監視商務用 Skype Server 部署的健康情況，以協助確保使用者的服務可用性。 您可以使用 System Center Operations Manager 管理元件作為商務用 Skype，可免費從 Microsoft 下載。 透過商務用 Skype 管理元件，您可以在發生問題時，主動取得即時警示、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等等。 這可協助您在使用者體驗之前，主動回應部署的問題。
 
 ## <a name="reference-topology-for-a-large-organization"></a>大型組織的參考拓撲
 
-具有多個資料中心支援的大型組織的參照拓撲，是針對有一個以上的中心網站的組織規模。 下圖中的確切拓撲是針對50000使用者的組織，在中央網站 A 上有20000個使用者，並在中央網站 B 進行20000，以及在中央網站 C 和分支網站上的10000總計。 此圖表中顯示的拓撲類型可容納擁有任何數量使用者的組織。
+具有多個資料中心支援之大型組織的參考拓撲，適用于具有多部中央網站的組織規模。 下圖中的實際拓撲是針對50000使用者的組織，其中的20000使用者在中央網站 A，20000位於中央網站 B。中央網站 C 和分支網站上的總10000。 此圖表所顯示的拓撲類型可容納具有任意數目使用者的組織。
 
-除了由前端伺服器池所提供的高可用性之外，此拓朴還新增災害復原支援。 中央站台 A 和 B 的前端池是成對搭配。 如果其中一個池出現停機，系統管理員可以將受影響之使用者的服務移至未受影響網站的配對池。
+除了前端伺服器集區所提供的高可用性之外，此拓撲還會新增嚴重損壞修復支援。 中央網站 A 和 B 的前端集區會成對搭配。 如果其中一個集區中斷，系統管理員可以將受影響使用者的服務移至未受影響之網站的配對集區。
 
-此拓朴會顯示在多個圖表中，並先進行概要，然後再按中央網站的詳細視圖。
+這種拓撲會顯示在多個圖表中，並優先于中央網站的詳細視圖。
 
-**具有多個資料中心之大型組織的參照拓撲概覽**
+**具有多個資料中心之大型組織的參考拓撲概述**
 
 ![多個資料中心的參考拓撲](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
 
@@ -115,39 +115,39 @@ ms.locfileid: "41801703"
 
 ![拓撲3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
-- **前端池已配對以啟用災害復原。** [網站 A] 和 [網站 B] 的前端池會彼此配對，以提供災害復原支援。 如果一個網站上的池發生故障，系統管理員可以將該網站的使用者容錯移轉到另一個網站上的成對的前端池，且使用者的服務中斷最低。 這兩個前端池中的每一個都有六個伺服器，對於在容錯移轉時，兩個池中的所有40000使用者都足夠。 如需詳細資訊，請參閱[在商務用 Skype 伺服器中規劃高可用性和災害復原](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+- **前端集區配對以啟用嚴重損壞修復。** 網站 A 和網站 B 的前端集區彼此配對，以提供嚴重損壞修復支援。 如果某個網站上的集區失敗，系統管理員可以從該網站將使用者容錯移轉至另一個網站的配對前端集區，並為使用者最低的服務中斷。 這兩個前端集區共有六部伺服器，也足以用於兩個集區中的所有40000使用者，以防容錯移轉。 如需詳細資訊，請參閱 [在商務用 Skype Server 中規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 
-- **後端伺服器已鏡像**為了提供更高的基本使用者功能可用性，組織已為每個前端池部署一個鏡像對後端伺服器。 這是選擇性拓撲，您可以選擇部署單一後端伺服器。 還支援 SQL 群集和 AlwaysOn 可用性群組。 如需詳細資訊，請參閱[在商務用 Skype server 中返回端伺服器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
+- **後端伺服器已鏡像** 若要提供更高的基本使用者功能可用性，該組織已為每一個前端集區部署一組鏡像的後端伺服器。 這是選用的拓撲，而您可以選擇部署單一後端伺服器。 也支援 SQL 叢集和 AlwaysOn 可用性群組。 如需詳細資訊，請參閱 [在商務用 Skype server 中的後端伺服器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
 
-- **在分支網站使用標準版伺服器。** 此組織會將網站 C 視為分支網站，因為它只有600員工。 不過，使用者本身之間有許多 A/V 會議。 如果它是在商務用 Skype Server 中部署為分支網站，這些會議的媒體將會跨廣域網路（WAN）執行，並從已部署前端伺服器的中央網站進行。 為了避免這種可能的頻寬載入，他們已在此網站上安裝一對標準版伺服器，這會主持這些會議。 而且由於標準版伺服器已安裝在該處，商務用 Skype Server （依定義）認為它是中央網站，而且在拓撲建立器和規劃工具中會被視為如此。
+- **在分支網站上使用 Standard Edition server。** 此組織會將網站 C 視為分支網站，因為它只有600名員工。 不過，使用者彼此之間有許多 A/V 會議。 如果它是部署在商務用 Skype 伺服器做為分支網站，則這些會議的媒體會透過廣域網路絡執行 (WAN) 與已部署前端伺服器的中央網站。 為了避免這種可能的頻寬負載，使用者已在此網站上安裝一對 Standard Edition 伺服器，這會主控這些會議。 而且由於已安裝 Standard Edition Server，因此商務用 Skype Server 依定義將其視為中央網站，在拓撲產生器和規劃工具中會被視為這類功能。
 
-    只要有一個標準版伺服器的效能，就能達到此目的，但組織已將兩個和成對的專案部署在一起，以在一個伺服器停機時提供高可用性。
+    在這裡，只要一部 Standard Edition server 會有足夠的效能，但是該組織已部署兩個搭配搭配，以提供高可用性，以防一部伺服器宕機。
 
-    雖然網站 C 被視為中心網站，但您不需要在其中部署邊緣伺服器。 在這個範例中，Site C 會使用在網站 A 部署的邊緣伺服器。
+    雖然網站 C 被視為中央網站，但您不需要在此部署 Edge Server。 在此範例中，Site C 會使用部署于網站 A 的 Edge Server。
 
-- **監控與**封存此組織已部署監視與封存。 當您部署監視或封存時，它會在每個前端伺服器上執行。 這些功能的資料庫可與後端資料庫 collocated，或位於另一個伺服器上。 此組織已將這些資料庫放在與後端伺服器（位於中央網站 B）之外的伺服器上。[資料庫] 中的資料庫會從所有網站中的前端伺服器接收監控及歸檔資料。
+- **監視與** 封存此組織已同時部署監控與封存。 當您部署監控或封存時，它會在每一部前端伺服器上執行。 這些功能的資料庫可以與後端資料庫組合，也可以位於不同的伺服器上。 此組織已將這些資料庫放在與後端伺服器不同的伺服器上（位於中央網站 B）。資料庫這裡會從所有網站中的前端伺服器接收監控和封存資料。
 
-- **分支網站部署選項。** 這個組織實際有超過50個分支網站，只有其中兩個會顯示在詳細圖表中。 分支網站1沒有指向中央網站的復原 WAN 連結，因此他們已部署 Survivable 分支裝置來提供電話語音，以防 WAN 連結進入中央網站。 分支網站2不過有一個彈性 WAN 連結，因此它只需要一個公用的交換電話網絡（PSTN）閘道。 部署的 PSTN 閘道支援媒體旁路，因此分支網站2不需要任何轉送伺服器。 如需決定要在分支網站上安裝哪些內容的詳細資訊，請參閱[商務用 Skype Server 中的企業語音復原方案](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
+- **分支網站部署選項。** 此組織實際上具有超過50個分支網站，詳細資訊圖表中只會顯示兩個分支網站。 分支網站1沒有指向中央網站的彈性 WAN 連結，因此他們已部署 Survivable 分支裝置以提供電話語音，以防中央網站的 WAN 連結停止運作。 分支網站2不過具有彈性 WAN 連結，因此只需要公用交換電話網路 (PSTN) 閘道。 此網站部署的 PSTN 閘道支援媒體旁路，所以分支網站 2 不需要有中繼伺服器。 如需決定在分支網站安裝之專案的詳細資訊，請參閱 [在商務用 Skype Server 中規劃 Enterprise Voice 韌性](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
 
-- **SIP 中繼和中繼伺服器。** 請注意，在中央網站 B，中繼伺服器無法與前端伺服器 collocated。 這是因為對於使用 SIP 中繼的網站，我們建議使用獨立的中繼伺服器。 在大多數其他情況下，我們建議您 collocate 中繼伺服器與前端伺服器。 如需有關中繼伺服器拓撲的詳細資料，請參閱規劃檔中的[中繼伺服器元件與拓撲](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx)。
+- **SIP 主幹和轉送伺服器。** 請注意，在中央網站 B 上，轉送伺服器不會與前端伺服器組合。 這是因為針對使用 SIP 主幹的網站，建議使用獨立的轉送伺服器。 在其他大多數的情況下，我們建議您組合轉送伺服器與前端伺服器。 如需有關轉送伺服器拓撲的詳細資訊，請參閱規劃檔中的中繼 [伺服器元件和拓撲](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx) 。
 
-- **已部署持續聊天。** 此組織已部署啟用持續聊天所需的伺服器。 它已部署多個持續聊天前端伺服器，以處理池中的使用者數目的負荷，並提供高可用性。 它也已部署持續性聊天的相容性，並在個別的伺服器上，找到永久聊天存放區和持續交談合規性存放區。 這些存儲可以是 collocated，甚至可以與後端伺服器 collocated，但此組織已選擇將它們分開，以提供更佳的效能。
+- **部署持續性聊天。** 此組織已部署啟用持續性聊天所需的伺服器。 它已部署多個持續性聊天前端伺服器來處理集區中使用者數目的負載，並提供高可用性。 它也部署了持續性聊天的相容性，並已在不同的伺服器上找到 Persistent chat Store 和 Persistent Chat 規範存放區。 這些存放區可能是組合，甚至可以與後端伺服器組合，但這項組織已選擇將其分開，以提供更好的效能。
 
     > [!NOTE]
-    > 商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊，請參閱[Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
+    > 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。
 
-- **DNS 負載平衡。** [前端] 池和 [Edge 伺服器] 池使用 [DNS 負載平衡]。 這就消除了邊緣伺服器內部介面的硬體負載平衡器需求，而且大大減少了在設定和維護其他池之硬體負載平衡器（例如硬體載入）時所花費的時間量。平衡器僅在 HTTP 流量中需要。 如需詳細資訊，請參閱（.。。/../plan-your-deployment/network-requirements/load-balancing.md # BKMK_DNSLoadBalancing）。
+- **DNS 負載平衡。** 前端集區和 Edge Server 集區使用 DNS 負載平衡。 這樣就不需要對 Edge Server 的內部介面進行硬體負載平衡器，也能大幅減少對其他集區的硬體負載平衡器進行設定與維護所需花費的時間，因為只有 HTTP 流量需要硬體負載平衡器。 如需詳細資訊，請參閱 (。/../plan-your-deployment/network-requirements/load-balancing.md # BKMK_DNSLoadBalancing) 。
 
-- **Exchange UM 部署。** 商務用 Skype 伺服器可搭配 Exchange 整合訊息（UM）與託管 Exchange UM 的內部部署部署使用。 中央網站 A 包含 Exchange 整合通訊（UM）伺服器，該伺服器會執行 Microsoft Exchange Server，而不是商務用 Skype 伺服器。 商務用 Skype 伺服器的 Exchange UM 功能會在前端池執行。
+- **Exchange UM 部署。** 商務用 Skype 伺服器可搭配 Exchange 整合通訊 (UM) 和主控 Exchange UM 的內部部署。 中央網站 A 包含 Exchange 整合通訊 (UM) Server，它會執行 Microsoft Exchange Server，而不是商務用 Skype Server。 商務用 Skype 伺服器的 Exchange UM 功能會在前端集區上執行。
 
-    中央網站 B 使用託管 Exchange，因此也會託管 Exchange UM 伺服器功能。
+    中央網站 B 使用託管 Exchange，因此也會主控 Exchange UM 伺服器功能。
 
-    如需 Exchange UM 的詳細資訊，請參閱規劃檔中的[內部部署 Exchange 整合訊息整合](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)及[託管 Exchange 整合訊息整合](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)。
+    如需 Exchange UM 的詳細資訊，請參閱規劃檔中的 [On-Premises Exchange 整合通訊整合](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) 和 [主控 Exchange 整合通訊整合](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx) 。
 
-- **Office Web Apps 伺服器。** 我們建議您在使用 Web 會議的每一個組織中部署 Office Web Apps Server 或 Office Web Apps 伺服器群。 您可以在一個網站中部署單一的 Office Web Apps 伺服器群，以提供來自所有網站的流量，或在每個網站上部署。 Office Web Apps 伺服器可讓 Powerpoint 投影片呈現在網路會議中。
+- **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office Web Apps Server 或 Office Web Apps Server 伺服器陣列。 您可以在一個網站中部署單一的 Office Web Apps Server 伺服器陣列，以便從所有網站提供流量，或是在每個網站中部署。 Office Web Apps Server 可以在 Web 會議中呈現 Powerpoint 投影片。
 
-- **您可以新增控制器。** 如果此組織想要加強抵禦拒絕服務攻擊的安全性，也可以部署一個控制器池。 Director 是商務用 Skype Server 中不是家用使用者帳戶或提供目前狀態或會議服務的個別、選擇性的伺服器角色。 它是一種內部的下一個躍點伺服器，可讓邊緣伺服器路由發往內部伺服器的入站 SIP 流量。 主管對輸入要求進行預驗證，並將它們重新導向至使用者的主區或伺服器。 在主管中進行預驗證，可在部署時丟棄使用者帳戶的要求。 控制器可協助將前端伺服器與惡意流量（例如拒絕服務（DoS）攻擊）隔離。 如果網路充斥在攻擊中的無效外部通信量，通信量就會結束在 Director 上。
+- **可以新增 director。** 如果此組織想要提高安全性以防範拒絕服務攻擊，也可以部署 Director 集區。 Director 是商務用 Skype Server 中的個別非選用伺服器角色，不會家用使用者帳戶，也不會提供目前狀態或會議服務。 它充當內部的下一個躍點伺服器，Edge Server 會將傳入 SIP 流量路由傳送至內部伺服器。 Director 對輸入要求進行預先驗證，並將它們重新導向至使用者的主集區或伺服器。 Director 的預先驗證可讓您從部署中未知的使用者帳戶中丟棄要求。 Director 可協助將前端伺服器與惡意流量（如拒絕服務 (DoS) 攻擊）隔離。 如果網路在這類攻擊中以不正確外部流量淹沒，該流量會結束于 Director。
 
-- **建議使用 System Center Operations Manager。** 我們建議您監視商務用 Skype Server 部署的健康情況，以協助確保最終使用者的服務可用性。 您可以使用系統中心作業管理器管理套件（適用于商務用 Skype），以免費從 Microsoft 下載。 有了商務用 Skype 管理套件，您就能在問題發生時主動取得即時通知、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等。 這可協助您在最終使用者體驗到您的部署之前，提前回應您的部署問題。
+- **建議使用 System Center Operations Manager。** 建議您監視商務用 Skype Server 部署的健康情況，以協助確保使用者的服務可用性。 您可以使用 System Center Operations Manager 管理元件作為商務用 Skype，可免費從 Microsoft 下載。 透過商務用 Skype 管理元件，您可以在發生問題時，主動取得即時警示、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等等。 這可協助您在使用者體驗之前，主動回應部署的問題。
 
 

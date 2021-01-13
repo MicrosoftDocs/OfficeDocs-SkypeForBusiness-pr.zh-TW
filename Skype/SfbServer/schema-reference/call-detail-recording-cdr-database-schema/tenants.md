@@ -1,8 +1,8 @@
 ---
-title: Tenants 表格
+title: 承租人表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-description: '[承租人] 資料表是一個支援資料表，可儲存各種租使用者的清單。 資料表中的每一筆記錄代表一個租使用者。'
-ms.openlocfilehash: ecc83a429cb2e95426b289216f69d3a14e1826d8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 承租人資料表是一種支援資料表，可儲存各種承租人的清單。 表格中的每筆記錄代表一位承租人。
+ms.openlocfilehash: f22837f21bd431c83848d3b055a36930c9db2fd5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814851"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831713"
 ---
-# <a name="tenants-table"></a>Tenants 表格
+# <a name="tenants-table"></a>承租人表格
  
-[承租人] 資料表是一個支援資料表，可儲存各種租使用者的清單。 資料表中的每一筆記錄代表一個租使用者。
+承租人資料表是一種支援資料表，可儲存各種承租人的清單。 表格中的每筆記錄代表一位承租人。
   
 > [!NOTE]
-> 在內部部署中，CDR 使用內傳內部租使用者識別碼來指示不同的驗證類型，例如公用 IM 連線、同盟與匿名。 
+> 在內部部署中，CDR 使用內建承租人租使用者識別碼來表示不同的驗證類型，例如公用 IM 連線、同盟和匿名。 
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**TenantId** <br/> |int  <br/> |首選  <br/> |標識此租使用者識別碼的唯一號碼。  <br/> |
-|**TenantKey** <br/> |Nvarchar （256）  <br/> || 允許的值： <br/>  00000000-0000-0000-0000-000000000000-企業 <br/>  00000000-0000-0000-0000-000000000001-同盟 <br/>  00000000-0000-0000-0000-000000000002-匿名 <br/>  00000000-0000-0000-0000-000000000003-公用 IM 連線 <br/> |
+|**TenantId** <br/> |int  <br/> |主要  <br/> |用於識別此租使用者識別碼的唯一號碼。  <br/> |
+|**TenantKey** <br/> |Nvarchar (256)   <br/> || 允許的值： <br/>  00000000-0000-0000-0000-000000000000-企業 <br/>  00000000-0000-0000-0000-000000000001-同盟 <br/>  00000000-0000-0000-0000-000000000002-匿名 <br/>  00000000-0000-0000-0000-000000000003-公用 IM 連線能力 <br/> |
    
 

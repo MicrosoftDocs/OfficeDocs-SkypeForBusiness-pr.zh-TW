@@ -1,7 +1,7 @@
 ---
 title: 雲端語音功能的網路設定
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031829"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834333"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 團隊中雲端語音功能的網路設定
 

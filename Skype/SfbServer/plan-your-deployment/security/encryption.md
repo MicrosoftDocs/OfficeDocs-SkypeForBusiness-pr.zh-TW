@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的加密
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,46 +12,46 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: 商務用 Skype 伺服器使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部網路或交叉對內部網路周邊，所有伺服器對伺服器的流量都必須是 MTLS。 將商務用 Skype Server 連線至協力廠商 IPPBX 系統或 SIP trunks TLS 是選擇性的，但強烈建議在中繼伺服器與媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自中繼伺服器信任的 CA 的憑證進行設定。
-ms.openlocfilehash: 64e7199cf761ad7d7ec18b00e8f3b7f27fed6f04
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 商務用 Skype Server 使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部網路或越過內部網路周邊，所有伺服器對伺服器的流量都需要 MTLS。 將商務用 Skype 伺服器連接到協力廠商 IPPBX 系統或 SIP 主幹 TLS 是選用的，但強烈建議在轉送伺服器和媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自轉送伺服器所信任之 CA 的憑證加以設定。
+ms.openlocfilehash: 48af03d7f6aed5b744ad4e0c460622194a87d96e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815661"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832203"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>商務用 Skype Server 的加密
  
-商務用 Skype 伺服器使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部網路或交叉對內部網路周邊，所有伺服器對伺服器的流量都必須是 MTLS。 將商務用 Skype Server 連線至協力廠商 IPPBX 系統或 SIP trunks TLS 是選擇性的，但強烈建議在中繼伺服器與媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自中繼伺服器信任的 CA 的憑證進行設定。
+商務用 Skype Server 使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部網路或越過內部網路周邊，所有伺服器對伺服器的流量都需要 MTLS。 將商務用 Skype 伺服器連接至協力廠商 IPPBX 系統或 SIP 主幹 TLS 是選用的，但強烈建議在轉送伺服器和媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自轉送伺服器所信任之 CA 的憑證加以設定。
   
 > [!NOTE]
-> 已在2014中發佈有關 SSL 3.0 的安全性通知。 在商務用 Skype Server 2015 中停用 SSL 3.0 是受支援的選項。 若要深入瞭解安全性建議，請參閱[在 Lync server 2013 和商務用 Skype server 2015 中停用 SSL 3.0](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/)。<br/>
-**安全性注意事項：** 為了確保使用最強的加密通訊協定，商務用 Skype Server 2015 將以下列順序向用戶端提供 TLS 加密通訊協定： **tls 1.2、tls 1.1、TLS 1.0**。 TLS 是商務用 Skype Server 2015 的一個重要層面，因此需要維持支援的環境。<br/>
-**安全性注意事項：** 為了確保使用最強的加密通訊協定，商務用 Skype Server 2019 將以下列順序向用戶端提供 TLS 加密通訊協定： **tls 1.3、tls 1.2**。 TLS 是商務用 Skype Server 2019 的一個重要層面，因此需要維持支援的環境。 
+> 有關 SSL 3.0 的安全性通報已在2014中發佈。 在商務用 Skype Server 2015 中停用 SSL 3.0 是支援的選項。 若要深入瞭解安全性通報，請參閱 [在 Lync server 2013 和商務用 Skype server 2015 中停用 SSL 3.0](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/)。<br/>
+**安全性附注：** 為了確保使用最強的加密通訊協定，商務用 Skype Server 2015 會依照下列順序為用戶端提供 TLS 加密通訊協定： **tls 1.2，tls 1.1，tls 1.0**。 TLS 是商務用 Skype Server 2015 的重要層面，因此必須用來維護支援的環境。<br/>
+**安全性附注：** 為了確保使用最強的加密通訊協定，商務用 Skype Server 2019 會依照下列順序為用戶端提供 TLS 加密通訊協定： **tls 1.3，tls 1.2**。 TLS 是商務用 Skype Server 2019 的重要層面，因此必須用來維護支援的環境。 
   
-下表摘要列出每種通信量類型的通訊協定需求。 
+下表摘要說明每一種流量類型的通訊協定需求。 
   
-**交通防護**
+**流量保護**
 
-|**流量類型**|**受**|
+|**流量類型**|**提供保護的通訊協定**|
 |:-----|:-----|
-|伺服器與伺服器  <br/> |MTLS  <br/> |
-|用戶端到伺服器  <br/> |EAP-TLS  <br/> |
-|立即訊息與顯示狀態  <br/> |EAP-TLS  <br/> |
-|媒體的音訊和影片與桌面共用  <br/> |SRTP  <br/> |
-|桌面共用（信號）  <br/> |EAP-TLS  <br/> |
-|網路會議  <br/> |EAP-TLS  <br/> |
-|會議內容下載、通訊錄下載、通訊群組延伸  <br/> |IP-HTTPS  <br/> |
+|伺服器對伺服器  <br/> |MTLS  <br/> |
+|用戶端對伺服器  <br/> |TLS  <br/> |
+|立即訊息和目前狀態  <br/> |TLS  <br/> |
+|音訊和視訊及媒體的桌面共用  <br/> |SRTP  <br/> |
+|桌面共用 (訊號)  <br/> |TLS  <br/> |
+|Web 會議  <br/> |TLS  <br/> |
+|會議內容下載、通訊錄下載、通訊群組擴充  <br/> |HTTPS:  <br/> |
    
 ## <a name="media-encryption"></a>媒體加密
 
-媒體流量是使用安全的 RTP （SRTP）來加密，這是一種即時傳輸通訊協定（RTP）設定檔，可為 RTP 流量提供保密性、驗證及重放攻擊保護。 此外，在中繼伺服器與其內部下一個躍點之間的兩個方向上，媒體也會使用 SRTP 來加密。 在中繼伺服器與媒體閘道之間的兩個方向上，媒體的流動方式都有選擇性地加密及建議。 中繼伺服器可以支援對媒體閘道進行加密，但閘道必須支援 MTLS 和儲存憑證。
+媒體流量都是使用安全 RTP (SRTP) 加密，它是即時傳輸通訊協定 (RTP) 的設定檔，為 RTP 流量提供機密性、驗證功能和重播攻擊防護。 此外，中繼伺服器與其下一個內部躍點之間的雙向媒體流量也是使用 SRTP 來加密。 轉送伺服器和媒體閘道之間的兩種方向的媒體都是可選擇性地加密及建議的。 中繼伺服器可支援媒體閘道加密，但是閘道必須支援 MTLS 和憑證存放。
   
 > [!NOTE]
-> 如需設定混合式混合式的詳細資訊，請參閱[規劃混合式連線性](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。
+> 如需設定混合式的詳細資訊，請參閱 [規劃混合](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)式連線。
   
-## <a name="fips"></a>FIPS
+## <a name="fips"></a>Fips
 
-商務用 Skype Server 和 Microsoft Exchange Server 2016 的運作方式支援聯邦資訊處理標準（FIPS）140-2 演算法（如果 Windows 伺服器作業系統已設定為使用 FIPS 140-2 演算法進行系統加密）. 若要實現 FIPS 支援，您必須設定執行商務用 Skype Server 的每個伺服器以支援它。
+商務用 Skype Server 和 Microsoft Exchange Server 2016 的運作方式支援聯邦資訊處理標準 (FIPS) 140-2 演算法（如果 Windows Server 作業系統設定為使用 FIPS 140-2 演算法進行系統加密）。 若要實施 FIPS 支援，您必須設定每台執行商務用 Skype Server 的伺服器，以支援。
   
 

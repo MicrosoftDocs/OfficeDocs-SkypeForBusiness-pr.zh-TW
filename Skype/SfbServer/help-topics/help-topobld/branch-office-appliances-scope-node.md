@@ -1,8 +1,8 @@
 ---
 title: Branch Office Appliance 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: '[Survivable Branch Appliance] 節點會列出此分支網站上的 Survivable Branch Appliance。 您可以執行下列動作：'
-ms.openlocfilehash: 608825b71a80cca39ac6579e250ddca9e0f37843
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 0d6b790d8775a46f27145c41a590c38c3f567a7e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216134"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833153"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Branch Office Appliance 範圍節點
  
-[Survivable Branch Appliance]**** 節點會列出此分支網站上的 Survivable Branch Appliance。 您可以執行下列動作：
+[Survivable Branch Appliance] 節點會列出此分支網站上的 Survivable Branch Appliance。 您可以執行下列動作：
   
 - **新增 Survivable Branch Appliance**。 啟動 [ **定義新的 Survivable 分支裝置** ] 導向，用來將新的 Survivable 分支裝置新增至此網站。
     

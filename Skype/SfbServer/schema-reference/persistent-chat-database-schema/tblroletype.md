@@ -1,8 +1,8 @@
 ---
 title: tblRoleType
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
-description: tblRoleType 是一個靜態查閱表格，其中包含角色類型及其關聯的許可權集。
-ms.openlocfilehash: 888628c1aca01e90694ed946569a81b1b7394b95
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblRoleType 表格是一種靜態查閱表格，其中含有角色類型與其相關的權限組。
+ms.openlocfilehash: c440463d822b908a89c84eb9c85b70e9daf442be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812901"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831523"
 ---
 # <a name="tblroletype"></a>tblRoleType
  
-tblRoleType 是一個靜態查閱表格，其中包含角色類型及其關聯的許可權集。
+tblRoleType 表格是一種靜態查閱表格，其中含有角色類型與其相關的權限組。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|rtypeID  <br/> |int，not null  <br/> |角色類型 ID。  <br/> |
-|rtypeDesc  <br/> |Nvarchar （256），not null  <br/> | 角色類型描述。 共有四個可用的角色： <br/>  成員：聊天室成員 <br/>  管理員：聊天室管理員 <br/>  濁音： auditorium 聊天室的簡報者 <br/>  建立者：可以建立聊天室 <br/> |
-|rtypeAllowedPermSet  <br/> |Bigint，not null  <br/> | 角色的許可權集。 已使用的位數如下： <br/>  2：如果角色可以管理節點，則為 True。 <br/>  4：如果角色可以建立子節點，則為 True。 <br/>  7：如果角色可以加入聊天室（或類別的子聊天室），則為 True。 <br/>  8：如果角色可以在聊天室（或在子類別的 [兒童聊天室] 聊天室）中聊天，則為 True。 <br/>  10： True，如果角色可以讀取聊天記錄，即使未加入聊天室也一樣。 <br/>  11：如果角色可以查看聊天室，則為 True。 （例如範圍和可見度等因素進一步改進。） <br/>  12：如果角色可以在 auditorium 聊天室中聊天，則為 True。 <br/>  13：如果角色在查看節點時可以略過可見度規則，則為 True。 <br/> |
+|rtypeID  <br/> |int，非 null  <br/> |角色類型識別碼。  <br/> |
+|rtypeDesc  <br/> |nvarchar (256)，非 null  <br/> | 角色類型描述。以下是四個可用的角色： <br/>  Member：聊天室成員 <br/>  Manager：聊天室管理員 <br/>  Voiced：視聽中心聊天室簡報者 <br/>  Creator：可建立聊天室 <br/> |
+|rtypeAllowedPermSet  <br/> |bigint，非 null  <br/> | 角色的權限組。使用的位元如下： <br/>  2: 若角色可管理節點則為 True。 <br/>  4: 若角色可建立子節點則為 True。 <br/>  7: 若角色可加入聊天室 (或類別的子聊天室) 則為 True。 <br/>  8: 若角色可在聊天室 (或類別的子聊天室) 中交談則為 True。 <br/>  10: 若角色可讀取聊天記錄則為 True (即使未加入聊天室時亦可)。 <br/>  11: 若角色可看到聊天室則為 True (可進一步依據範圍和可見度等因素來調整)。 <br/>  12: 若角色可在視聽中心聊天室中交談則為 True。 <br/>  13: 若角色可在檢視節點時略過可見度規則則為 True。 <br/> |
    
-**機碼**
+**Key**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|rtypeID  <br/> |主鍵。  <br/> |
+|rtypeID  <br/> |主索引鍵。  <br/> |
    
 

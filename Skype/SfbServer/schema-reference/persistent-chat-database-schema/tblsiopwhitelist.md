@@ -1,8 +1,8 @@
 ---
 title: tblSiopWhiteList
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-description: tblSiopWhiteList 是可與節點相關聯的已註冊增益集清單。
-ms.openlocfilehash: ae287a1a32b09ce309c688dac2a042913383a263
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblSiopWhiteList 是可與節點相關聯的註冊增益集清單。
+ms.openlocfilehash: cf7a727bd34e5c6f29f5bf0b203411983c90ae53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812111"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831483"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  
-tblSiopWhiteList 是可與節點相關聯的已註冊增益集清單。
+tblSiopWhiteList 是可與節點相關聯的註冊增益集清單。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|siopID  <br/> |GUID，不是 null  <br/> |增益集的 GUID。  <br/> |
-|siopName  <br/> |Nvarchar （50），not null  <br/> |顯示-增益集的名稱。  <br/> |
-|siopUrl  <br/> |Nvarchar （255），not null  <br/> |增益集的 URL。  <br/> |
+|siopID  <br/> |GUID，非 null  <br/> |增益集的 GUID。  <br/> |
+|siopName  <br/> |nvarchar (50)，非 null  <br/> |增益集的顯示名稱。  <br/> |
+|siopUrl  <br/> |nvarchar (255)，非 null  <br/> |增益集的 URL。  <br/> |
    
-**機碼**
+**Key**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|siopID  <br/> |主鍵。  <br/> |
+|siopID  <br/> |主索引鍵。  <br/> |
    
 

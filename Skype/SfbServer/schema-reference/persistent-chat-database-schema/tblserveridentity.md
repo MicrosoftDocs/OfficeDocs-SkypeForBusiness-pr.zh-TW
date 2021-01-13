@@ -1,8 +1,8 @@
 ---
 title: tblServerIdentity
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: tblServerIdentity 包含持續聊天伺服器池中的活動聊天伺服器。
-ms.openlocfilehash: 4f6389f21c35da914b4943a279d8d485b6ec1eae
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblServerIdentity 包含 Persistent Chat Server 集區中的主動聊天伺服器。
+ms.openlocfilehash: 7fa8c1b804432b3a9368785682f45e9ce8d7898e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812271"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831493"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-tblServerIdentity 包含持續聊天伺服器池中的活動聊天伺服器。
+tblServerIdentity 包含 Persistent Chat Server 集區中的主動聊天伺服器。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|serverID  <br/> |int，not null  <br/> |[伺服器識別碼]。 與中央管理存放區中的實例識別碼相對應。  <br/> |
-|serverAddress  <br/> |Nvarchar （256），not null  <br/> |使用 Windows Communication Foundation 位址的伺服器位址。  <br/> |
-|serverLastPingTime  <br/> |datetime  <br/> |頻道伺服器更新此列以提供其所執行證據的最晚時間。  <br/> |
+|serverID  <br/> |int，非 null  <br/> |伺服器識別碼。 對應至中央管理存放區的實例識別碼。  <br/> |
+|serverAddress  <br/> |nvarchar (256)，非 null  <br/> |使用 Windows Communication Foundation 位址的伺服器位址。  <br/> |
+|serverLastPingTime  <br/> |datetime  <br/> |通道伺服器更新此列以證明其為執行中的最新時間。  <br/> |
    
-**機碼**
+**Key**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|serverID  <br/> |主鍵。  <br/> |
+|serverID  <br/> |主索引鍵。  <br/> |
    
 

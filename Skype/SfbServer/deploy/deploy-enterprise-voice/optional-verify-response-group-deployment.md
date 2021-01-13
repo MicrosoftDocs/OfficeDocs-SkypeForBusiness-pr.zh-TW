@@ -1,8 +1,8 @@
 ---
-title: （選用）在商務用 Skype 中的驗證回應群組部署
+title: " (選用) 在商務用 Skype 中驗證回應群組部署"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,37 +12,37 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: 確認您的回應群組部署成功，skype for Business Server Enterprise Voice。
-ms.openlocfilehash: 55faa68531d9e82cafc4ecbb25354343355dfe3f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 在商務用 Skype Server Enterprise Voice 中驗證回應群組部署是否成功。
+ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028904"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830883"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>（選用）在商務用 Skype 中的驗證回應群組部署
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a> (選用) 在商務用 Skype 中驗證回應群組部署
  
-確認您的回應群組部署成功，skype for Business Server Enterprise Voice。
+在商務用 Skype Server Enterprise Voice 中驗證回應群組部署是否成功。
   
-設定回應群組之後，您必須確認組態，確定您的回應群組如預期般運作。 在最低限度下，使用下列類型的使用者驗證下列案例：
+在您設定回應群組之後，您必須驗證設定，以確保回應群組如預期般運作。 至少要使用下列類型的使用者驗證下列案例：
   
- **Users**
+ **使用者**
   
-- 隸屬於商務用 Skype 使用者
+- 駐留在商務用 Skype 中的使用者
     
-- 使用公用交換的電話網路 (PSTN) 外部使用者
+- 使用公用交換電話網路的外部使用者 (PSTN) 
     
-- 隸屬於商務用 Skype 代理程式
+- 位於商務用 Skype 的代理人
     
   **Scenarios**
   
-- Skype 商務使用者呼叫回應群組。
+- 商務用 Skype 使用者呼叫回應群組。
     
 - 外部使用者呼叫回應群組。
     
 - 當專員在接聽另一通電話而排入佇列時，使用者呼叫回應群組。
 
     > [!NOTE]
-    > 如果回應群組無法運作作為預期請選取下一個連結：https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
+    > 如果回應群組沒有如預期般運作，請選取 [下一步] 連結： https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

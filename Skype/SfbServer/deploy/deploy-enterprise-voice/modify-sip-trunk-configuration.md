@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中修改 SIP 中繼設定設定
+title: 在商務用 Skype Server 中修改 SIP 主幹設定設定
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,66 +15,66 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
-description: 摘要：瞭解如何使用商務用 Skype Server [控制台] 來修改 SIP 幹線設定設定。
-ms.openlocfilehash: 137407525319f729eae28d91cfac8cd3aa1b456d
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：瞭解如何使用商務用 Skype Server [控制台] 修改 SIP 主幹設定設定。
+ms.openlocfilehash: 43d32e04716423578173d7eed412445f196f9b65
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767096"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830773"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中修改 SIP 中繼設定設定
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中修改 SIP 主幹設定設定
  
-**摘要：** 瞭解如何使用商務用 Skype Server [控制台] 來修改 SIP 幹線設定設定。
+**摘要：** 瞭解如何使用商務用 Skype Server [控制台] 修改 SIP 主幹設定設定。
   
-SIP 幹線設定設定會定義在服務提供者上，exchange 中繼伺服器與公用交換式電話網絡（PSTN）閘道、IP 公用分支 eXchange （PBX）或會話邊界控制器（SBC）之間的關聯性與能力。 這些設定會以指定的方式執行以下操作：
+SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) 閘道、IP-Public 分支 eXchange (PBX) 或會話邊界控制器（在服務提供者上 (SBC) ）之間的關聯性和功能。 這些設定將指定下列項目：
   
-- 是否應該在 trunks 上啟用媒體旁路。
+- 主幹是否啟用媒體旁路。
     
-- 傳送即時傳輸控制通訊協定（RTCP）資料包的條件。
+- 在哪個條件下會傳送即時傳輸控制通訊協定 (RTCP) 封包。
     
-- 每個幹線是否都需要安全的即時傳輸通訊協定（SRTP）加密。
+- 在每個主幹上是否需要 (SRTP) 加密的安全即時傳輸通訊協定。
     
-當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 中繼設定。 此外，管理員可以在網站範圍或服務範圍（僅限 PSTN 閘道服務）上建立自訂設定集合。 您可以稍後使用商務用 Skype Server 的 [控制台] 或商務用 Skype Server 管理命令介面來修改這些集合中的任何一個收藏。
+當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此外，系統管理員可以在網站範圍或服務範圍 (僅限 PSTN 閘道服務) 建立自訂設定集合。 您可以稍後使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面來修改這些集合中的任何集合。
   
-使用商務用 Skype Server [控制台] 修改 SIP 中繼設定設定時，您可以使用下列選項。
+使用商務用 Skype Server 控制台修改 SIP 主幹設定設定時，您可以使用下列選項。
   
-|**UI 設定**|**PowerShell 參數**|**說明**|
+|**UI 設定**|**PowerShell 參數**|**描述**|
 |:-----|:-----|:-----|
-|名稱  <br/> |Identity  <br/> |集合的唯一識別碼。 這個屬性是唯讀的;您無法變更主幹設定集合的身分識別。  <br/> |
-|說明  <br/> |說明  <br/> |提供一種方式，讓系統管理員可以儲存有關設定的附加資訊（例如，主幹設定的用途）。  <br/> |
-|支援的最大早期對話方塊  <br/> |MaxEarlyDialogs  <br/> |在服務提供者上，PSTN 閘道、IP PBX 或 SBC 的分叉回應數目上限，可能會收到傳送到轉送伺服器的邀請。  <br/> |
-|加密支援層級  <br/> |SRTPMode  <br/> | 指示在服務提供者上的中繼伺服器與 PSTN 閘道、IP PBX 或 SBC 之間保護媒體流量的支援層級。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用[新的-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmediaconfiguration?view=skype-ps)和[CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) Cmdlet 來設定。 <br/>  允許的值為： <br/>  必要：必須使用 SRTP 加密。 <br/>  [選用]：如果閘道支援，則會使用 SRTP。 <br/>  不支援：不支援 SRTP 加密，因此將無法使用。 <br/>  只有在閘道設定為使用傳輸層安全性（TLS）時，才會使用 SRTPMode。 如果將閘道設定為傳輸控制通訊協定（TCP）作為傳輸，則 SRTPMode 會在內部設定為 [不支援]。 <br/> |
-|請參閱支援人員  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |如果設定為**允許傳送參照閘道**，則表示主幹支援從中繼伺服器接收參考要求。  <br/> 如果設定為**啟用 [使用協力廠商通話控制**]，則表示3pcc 通訊協定可以用來允許轉接呼叫繞過託管的網站。 3pcc 亦稱為「第三方控制」，並且會在使用第三方來連接一對通話者時出現 (例如，操作員安排從人員 A 接到人員 B 的通話)。  <br/> |
-|啟用媒體旁路  <br/> |EnableBypass  <br/> |指出是否已針對此主幹啟用媒體旁路。 只有在已啟用**集中媒體處理**的情況中，才能啟用媒體旁路功能。 <br/> |
-|中央媒體處理  <br/> |ConcentratedTopology  <br/> |指出是否有已知的媒體端接點。 (舉例來說，PSTN 閘道就是已知的媒體終端點，其中媒體終端的 IP 與訊號終端相同)。  <br/> |
-|啟用 RTP 閉鎖  <br/> |EnableRTPLatching  <br/> |指出 SIP 主幹是否支援 RTP 鎖定。 RTP 鎖定是可以透過 NAT (網路位址轉譯器) 裝置或防火牆進行 RTP/RTCP 連線的技術。  <br/> |
-|啟用轉寄通話記錄  <br/> |ForwardCallHistory  <br/> |指出是否透過主幹轉送通話記錄資訊。  <br/> |
-|啟用前 P 斷言身分識別資料  <br/> |ForwardPAI  <br/> |指出 P-Asserted-Identity (PAI) 標頭是否要隨通話轉接。 PAI 標頭可用於驗證來電者的身分識別。  <br/> |
-|啟用輸出路由容錯移轉計時器  <br/> |EnableFastFailoverTimer  <br/> |指出閘道不會在10秒內接聽的出站通話，會路由至下一個可用的幹線;如果沒有其他 trunks，則會自動放棄通話。 組織的網路速度與閘道回應速度若是很慢，可能會造成來電不必要地遭到掛斷。  <br/> |
-|關聯的 PSTN 用法  <br/> |PSTNUsages  <br/> |指派給主幹的 PSTN 使用方式集合。  <br/> |
-|要測試的已翻譯數位  <br/> |不適用  <br/> |可用於對主幹設定設定執行點對點測試的電話號碼。  <br/> |
-|關聯的翻譯規則  <br/> |OutboundTranslationRulesList  <br/> |電話號碼轉譯規則的集合，這些規則會套用至由輸出路由（路由至 PBX 或 PSTN 目的地）所處理的通話。  <br/> |
-|呼叫編號轉譯規則  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |指派給主幹的撥出電話號碼轉譯規則集合。  <br/> |
-|要測試的電話號碼  <br/> |不適用  <br/> |可用於對翻譯規則進行特殊測試的電話號碼。  <br/> |
-|通話號碼  <br/> |不適用  <br/> |表示要測試的電話號碼為來電者的電話號碼。  <br/> |
-|叫用號碼  <br/> |不適用  <br/> |表示要測試的電話號碼是呼叫者的電話號碼。  <br/> |
+|名稱  <br/> |身分識別  <br/> |集合的唯一識別碼。此為唯讀屬性，您無法變更主幹組態設定集合的 Identity。  <br/> |
+|描述  <br/> |描述  <br/> |為系統管理員提供儲存設定相關資訊 (例如，主幹組態的用途) 的方法。  <br/> |
+|支援的最大早期對話  <br/> |MaxEarlyDialogs  <br/> |服務提供者的 PSTN 閘道、IP-PBX 或 SBC 對其傳送到中繼伺服器的 Invite，可接收的分支回應數上限。  <br/> |
+|加密支援等級  <br/> |SRTPMode  <br/> | 指出支援等級，以保護中繼伺服器和服務提供者之 PSTN 閘道、IP-PBX 或 SBC 之間的媒體流量。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用 [新的-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) 及 [CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) Cmdlet 來設定。 <br/>  允許的值為： <br/>  Required：必須使用 SRTP 加密。 <br/>  Optional：如果閘道支援，即會使用 SRTP。 <br/>  Not Supported：不支援 SRTP 加密，因此不會使用此加密。 <br/>  只有閘道設定為使用傳輸層安全性 (TLS) 時，才能使用 SRTPMode。如果將閘道設定為在傳輸時使用傳輸控制通訊協定 (TCP)，系統會從內部將 SRTPMode 設為 Not Supported。<br/> |
+|轉接支援  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |如果設定為 **[啟用傳送轉接至閘道]**，表示主幹支援接收來自中繼伺服器的 Refer 要求。  <br/> 如果設定為 **[使用協力廠商撥號控制來啟用轉接]**，表示可以使用 3pcc 通訊協定允許轉接通話略過主控網站。3pcc 也稱為「第三方控制」，當使用第三方來連接一組來電者時 (例如，由接線員撥打從 A 到 B 的電話)，就會發生此情況。<br/> |
+|啟用媒體旁路  <br/> |EnableBypass  <br/> |表示此主幹是否啟用媒體旁路。只有在也啟用 **[集中式媒體處理]** 時，才能啟用媒體旁路。<br/> |
+|集中式媒體處理  <br/> |ConcentratedTopology  <br/> |指出是否有已知的媒體終端點 (已知的媒體終端點範例是 PSTN 閘道，其媒體終端的 IP 與訊號終端相同)。  <br/> |
+|啟用 RTP 栓  <br/> |EnableRTPLatching  <br/> |指出 SIP 主幹是否支援 RTP 栓。RTP 栓是一種技術，可讓 RTP/RTCP 透過 NAT (網路位址轉譯器) 裝置或防火牆連線。  <br/> |
+|啟用轉接來電記錄  <br/> |ForwardCallHistory  <br/> |指出是否將透過主幹來轉接來電記錄資訊。  <br/> |
+|啟用轉寄 P-Asserted-Identity 資料  <br/> |ForwardPAI  <br/> |指出 P-Asserted-Identity (PAI) 標頭是否會和通話一起轉寄。PAI 標頭提供確認來電者身分識別的方法。  <br/> |
+|啟用輸出路由容錯移轉計時器  <br/> |EnableFastFailoverTimer  <br/> |指出閘道未在 10 秒內接聽的撥出電話將會被路由傳送到下一個可用的主幹；如果沒有其他主幹，就會自動捨棄此電話。在網路和閘道回應速度緩慢的組織中，這可能會造成電話平白遭到捨棄。  <br/> |
+|關聯的 PSTN 使用方式  <br/> |PSTNUsages  <br/> |指派給主幹的 PSTN 使用方式集合。  <br/> |
+|要測試的轉譯號碼  <br/> |不適用  <br/> |可用於進行主幹組態設定臨機測試的電話號碼。  <br/> |
+|關聯的轉譯規則  <br/> |OutboundTranslationRulesList  <br/> |套用到由「輸出路由」處理的電話 (路由傳送到 PBX 或 PSTN 目的地的電話) 的電話號碼轉譯規則集合。  <br/> |
+|撥打號碼轉譯規則  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |指派給主幹的撥出電話號碼轉譯規則集合。  <br/> |
+|測試的電話號碼  <br/> |不適用  <br/> |可用於進行轉譯規則臨機測試的電話號碼。  <br/> |
+|撥打號碼  <br/> |不適用  <br/> |指出要測試的電話號碼是來電者的電話號碼。  <br/> |
+|撥打的號碼  <br/> |不適用  <br/> |指出要測試的電話號碼是受話者的電話號碼。  <br/> |
    
 > [!NOTE]
-> Lync Server New-cstrunkconfiguration Cmdlet 支援其他無法在 Lync Server [控制台] 中顯示的屬性。 如需詳細資訊，請參閱[new-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) Cmdlet 的說明主題。
+> Lync Server Get-cstrunkconfiguration Cmdlet 支援未顯示在 Lync Server 控制台中的其他屬性。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
   
-### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 修改 SIP 幹線設定設定
+### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台修改 SIP 主幹設定設定
 
-1. 在商務用 Skype Server 的 [控制台] 中，按一下 [**語音路由**]，然後按一下 [**幹線配置**]。
+1. 在商務用 Skype Server 控制台中，依序按一下 [ **語音路由**] 和 [ **主幹** 設定]。
     
-2. 在 [**幹線**設定] 索引標籤上，按兩下要修改的幹線設定設定。 請注意，您只可以一次編輯一個設定集合。 如果您想要對多個集合進行相同的變更，請改為使用 Windows PowerShell。
+2. 在 [主幹組態] 索引標籤上，連按兩下要修改的主幹組態設定。請注意，一次只能編輯一個集合的設定。如果要針對多個集合進行相同的變更，請改用 Windows PowerShell。
     
-3. 在 [**編輯主幹**設定] 對話方塊中，進行適當的選取，然後按一下 **[確定]**。
+3. 在 [ **編輯主幹** 設定] 對話方塊中，進行適當的選擇，然後按一下 **[確定]**。
     
-4. 集合的**State**屬性會更新為**未提交**。 若要確認變更，並刪除收藏，請按一下 [**認可**]，然後按一下 [**全部確認**]。
+4. 集合的 **[狀態]** 屬性將會更新為 **[未認可]**。如要認可變更並刪除集合，請按一下 **[認可]**，然後按一下 **[全部認可]**。
     
-5. 在 [**未提交的語音設定**] 對話方塊中，按一下 **[確定]**。
+5. 在 **[未認可的語音組態設定]** 對話方塊中，按一下 **[確定]**。
     
-6. 在**商務用 Skype Server**的 [控制台] 對話方塊中，按一下 **[確定]**。
+6. 在 [ **商務用 Skype 伺服器控制台** ] 對話方塊中，按一下 **[確定**]。
     
 

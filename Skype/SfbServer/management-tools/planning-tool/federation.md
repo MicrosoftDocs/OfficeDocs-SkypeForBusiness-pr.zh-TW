@@ -1,8 +1,8 @@
 ---
 title: '同盟 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 您可以設定 Edge Server，以允許您的內部和外部使用者存取夥伴組織或服務上的連絡人。
-ms.openlocfilehash: 16ac8fb77a8f15be9da7bc58f96954ffff2c7255
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e8598f0bba3fd7c8c9b08c40c7018cda7de3880e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219798"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834773"
 ---
 # <a name="federation-planning-tool"></a>同盟 (規劃工具) 
  

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Online 與 Exchange server 之間的整合
 ms.reviewer: cbland
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
@@ -13,55 +13,55 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
-description: 在 Exchange 內部部署與商務用 Skype Online 之間設定 OAuth 驗證，可啟用功能支援中所述的商務用 Skype 與 Exchange 整合功能。
-ms.openlocfilehash: b673332ea4c4428e68d6434c4638cbc78aa0ba7d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 設定 Exchange 內部部署和商務用 Skype Online 之間的 OAuth 驗證，可啟用功能支援中所述的商務用 Skype 和 Exchange 整合功能。
+ms.openlocfilehash: ac8bfe2f30e813e47a0256a68e4e81852d5bae68
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797044"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833973"
 ---
-# <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>在商務用 Skype Online 與 Exchange Server 之間設定整合與 OAuth 
+# <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>設定商務用 Skype Online 與 Exchange Server 之間的整合及 OAuth 
 
-設定 Exchange server 與商務用 Skype Online 之間的整合，可啟用[功能支援](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)中所述的商務用 Skype 與 Exchange 整合功能。
+設定 Exchange server 與商務用 Skype Online 之間的整合，可啟用 [功能支援](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)中所述的商務用 Skype 和 Exchange 整合功能。
 
-本主題適用于與 Exchange Server 2013 至2019的整合。
+本主題適用于與 Exchange Server 2013 到2019的整合。
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>開始之前，您需要知道什麼？
+## <a name="what-do-you-need-to-know-before-you-begin"></a>開始之前有哪些須知？
 
-- 完成此工作所需的估計時間：15分鐘
+- 完成此工作的預估時間：15 分鐘
 
--  您必須先獲指派許可權，才能執行此程式或程式。 若要查看您需要的許可權，請參閱[Exchange 與 Shell 基礎結構許可權](https://go.microsoft.com/fwlink/p/?LinkId=746511)主題。
+-  您必須已獲指派權限，才能執行此程序或這些程序。 若要查看您需要的許可權，請參閱 [Exchange 及命令介面基礎結構許可權](https://go.microsoft.com/fwlink/p/?LinkId=746511) 主題。
 
-- 如需有關適用于本主題中之程式的鍵盤快速鍵的詳細資訊，請參閱[Exchange 系統管理中心的鍵盤快速鍵]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
+- 如需適用於此主題中程序的快速鍵相關資訊，請參閱 [Exchange 系統管理中心的鍵盤快速鍵]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
 
-- 如需相容性的相關資訊，請參閱[商務用 Skype 與 Office app 的相容性](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)。
+- 如需相容性的相關資訊，請參閱 [商務用 Skype 相容性與 Office 應用程式](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)。
 
-## <a name="configure-integration-between-exchange-server-and-o365"></a>設定 Exchange Server 與 O365 之間的整合
+## <a name="configure-integration-between-exchange-server-and-o365"></a>設定 Exchange Server 和 O365 之間的整合
 
-### <a name="step-1-configure-oauth-authentication-between-exchange-server-and-o365"></a>步驟1：在 Exchange Server 和 O365 之間設定 OAuth 驗證
+### <a name="step-1-configure-oauth-authentication-between-exchange-server-and-o365"></a>步驟1：設定 Exchange Server 和 O365 之間的 OAuth 驗證
 
-請執行下列文章中的步驟：
+執行下列文章中的步驟：
 
-[在 Exchange 與 Exchange Online 組織之間設定 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[設定 Exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
-### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>步驟2：針對商務用 Skype Online 合作夥伴應用程式建立新的郵件使用者帳戶
+### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>步驟2：為商務用 Skype Online 夥伴應用程式建立新的郵件使用者帳戶
 
-此步驟是在 Exchange 伺服器上完成。 它會建立一個郵件使用者，並將適當的管理角色許可權指派給它。 這個帳戶將會在下一個步驟中使用。
+此步驟是在 Exchange 伺服器上完成。 它會建立郵件使用者，並為其指派適當的管理角色權力。 然後，將在下一個步驟中使用此帳戶。
 
-為您的 Exchange 組織指定驗證的網域。 這個網域應該是用來做為內部部署 Exchange 帳戶的主要 SMTP 網域的同一個網域。 在下列程式中， \<這個網域稱為\>您的驗證網域。 此外， \<DomainControllerFQDN\>應該是網網域控制站的 FQDN。
+為您的 Exchange 組織指定已驗證的網域。 這個網域應該是用來做為內部部署 Exchange 帳戶使用的主要 SMTP 網域的相同網域。 下列程式中稱為此網域 \<your Verified Domain\> 。 此外， \<DomainControllerFQDN\> 應為網域控制站的 FQDN。
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
-這個命令會將新的郵件使用者從地址清單中隱藏。
+此命令會將新的郵件使用者從通訊清單中隱藏。
 
 ```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
 
-接下來的兩個命令會將 [UserApplication] 和 [ArchiveApplication] 管理角色指派給這個新的帳戶。
+接下來的兩個命令會將 UserApplication 和 ArchiveApplication 管理角色指派給這個新帳戶。
 
 ```powershell
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
@@ -71,9 +71,9 @@ New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainC
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online"></a>步驟3：針對商務用 Skype Online 建立及啟用合作夥伴應用程式 
+### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online"></a>步驟3：建立及啟用商務用 Skype Online 的夥伴應用程式 
 
-建立新的合作夥伴應用程式，並將使用您剛建立的帳戶。 在您的內部部署 Exchange 組織中的 Exchange PowerShell 中執行下列命令。
+建立新的夥伴應用程式，並將使用您剛才建立的帳戶。 在內部部署 Exchange 組織的 Exchange PowerShell 中執行下列命令。
 
 ```powershell
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
@@ -81,9 +81,9 @@ New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1
 
 ### <a name="step-4-export-the-on-premises-authorization-certificate"></a>步驟4：匯出內部部署授權憑證
 
-執行 PowerShell 腳本以匯出內部部署授權憑證，您將在下一個步驟中匯入到商務用 Skype Online 組織。
+執行 PowerShell 腳本，以匯出內部部署授權憑證，在下一個步驟中，您將匯入商務用 Skype Online 組織。
 
-將下列文字儲存到一個名為的 PowerShell 腳本檔案中，例如 ExportAuthCert. ps1。
+將下列文字儲存到 PowerShell 指令碼檔案 (例如 ExportAuthCert.ps1)。
 
 ```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
@@ -99,15 +99,15 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 [System.IO.File]::WriteAllBytes($CertFile, $certBytes)
 ```
 
-在您的內部部署 Exchange 組織中的 Exchange PowerShell 中，執行您剛建立的 PowerShell 腳本。 例如： .\ExportAuthCert.ps1
+在內部部署 Exchange 組織的 Exchange PowerShell 中，執行您剛才建立的 PowerShell 腳本。 例如： .\ExportAuthCert.ps1
 
-### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>步驟5：將內部部署授權憑證上傳到 Azure Active Directory ACS
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>步驟5：將內部部署授權憑證上傳至 Azure Active Directory ACS
 
-接著，使用 Windows PowerShell 將您在上一個步驟中匯出的內部部署授權憑證上傳至 Azure Active Directory 存取控制服務（ACS）。 若要這樣做，必須先安裝適用于 Windows PowerShell Cmdlet 的 Azure Active Directory 模組。 如果沒有安裝，請移[https://aka.ms/aadposh](https://aka.ms/aadposh)至安裝適用于 Windows PowerShell 的 Azure Active Directory 模組。 在安裝 Windows PowerShell 的 Azure Active Directory 模組之後，請完成下列步驟。
+接下來，使用 Windows PowerShell，將您在上一個步驟中匯出的內部部署授權憑證上傳至 Azure Active Directory 存取控制服務 (ACS) 。 若要這麼做，必須已安裝 Windows PowerShell Cmdlet 的 Azure Active Directory 模組。 若未安裝，請移至 [https://aka.ms/aadposh](https://aka.ms/aadposh) 安裝 Azure Active Directory Module For Windows PowerShell。 安裝 Windows PowerShell 的 Azure Active Directory 模組後，請完成下列步驟。
 
-1. 按一下 [**適用于 Windows powershell 的 Azure Active Directory 模組**] 快捷方式，以開啟已安裝 Azure AD Cmdlet 的 Windows PowerShell 工作區。 此步驟中的所有命令都將使用 Windows PowerShell for Azure Active Directory 主控台來執行。
+1. 按一下 [ **適用于 windows 的 Azure Active Directory 模組] PowerShell** 快捷方式，開啟已安裝 Azure AD Cmdlet 的 Windows PowerShell workspace。 在此步驟中的所有命令，都將使用適用于 Azure Active Directory 主控台的 Windows PowerShell 執行。
 
-2. 將下列文字儲存到一個名為的 PowerShell 腳本檔案，例如`UploadAuthCert.ps1`。
+2. 將下列文字儲存至名為的 PowerShell 腳本檔案，例如  `UploadAuthCert.ps1` 。
 
    ```powershell
    Connect-MsolService;
@@ -124,34 +124,34 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
 
-3. 執行您在上一個步驟中建立的 PowerShell 腳本。 例如：`.\UploadAuthCert.ps1`
+3. 執行您在前一個步驟中建立的 PowerShell 指令碼。 例如：  `.\UploadAuthCert.ps1`
 
-4. 啟動腳本之後，就會顯示 [認證] 對話方塊。 輸入您的 Microsoft Online Azure AD 組織的租使用者系統管理員帳號憑證。 執行腳本之後，請將 [Windows PowerShell for Azure AD 會話] 保持開啟。 您將在下一個步驟中使用此程式來執行 PowerShell 腳本。
+4. 啟動指令碼之後，即會顯示認證對話方塊。 輸入您的 Microsoft Online Azure AD 組織之租使用者系統管理員帳戶的認證。 執行腳本後，請保持 Windows PowerShell Azure AD 會話開啟狀態。 您將在下一個步驟中以此工作階段執行 PowerShell 指令碼。
 
-### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>步驟6：確認憑證已上傳到商務用 Skype 服務主體
-1. 在已開啟並驗證至 Azure Active Directory 的 PowerShell 中，執行下列動作：
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>步驟6：確認憑證已上傳至商務用 Skype 服務主體
+1. 在 [PowerShell 開啟及驗證至 Azure Active Directory 中，執行下列
 ```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
-2. 出現 ReturnKeyValues 提示時按下 Enter
-3. 確認您看到的索引鍵是與您的 Exchange Oauth 憑證開始和結束日期相符的 [開始日期] 和 [結束] 資料
+2. 當系統提示 ReturnKeyValues 時按 Enter 鍵
+3. 請確認您會看到列出與 Exchange Oauth 憑證開始和結束日期相符的 [開始日期] 和 [結束] 資料的按鍵
 
-### <a name="verify-your-success"></a>驗證您的成功
+### <a name="verify-your-success"></a>驗證您是否成功
 
-驗證部分功能是否順利運作，以確認設定正確無誤。 
+驗證某些功能是否順利運作，以驗證設定是否正確。 
 
-1. 在有混合式 Exchange 伺服器設定的組織中，確認有雲端語音信箱服務的商務用 Skype 使用者可以順利變更其語音信箱問候語。
+1. 請確認在具有混合 Exchange 伺服器設定的組織中，使用雲端語音信箱服務的商務用 Skype 使用者可以成功變更其語音信箱問候語。
 
-2. 確認行動用戶端的交談歷程記錄會顯示在 Outlook [交談記錄] 資料夾中。
+2. 確認行動用戶端的交談記錄會顯示在 Outlook [交談記錄] 資料夾中。
 
-3. 在 [清除] 資料夾中，使用[EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)確認已歸檔的聊天訊息會存放在使用者的內部部署信箱中。
+3. 使用 [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)，確認已封存的聊天訊息會存放在使用者的內部部署信箱中的 [清除] 資料夾中。
 
-或者，查看您的流量。 OAuth 握手中的流量確實是獨特的（且看起來不像基本驗證），特別是在領域中，您將會開始查看發行人流量，看起來像這樣： 00000004-0000-0ff1-ce00-000000000000 @ （有時候在 @ 符號前），在傳遞的權杖中。 您不會看到 [使用者名稱] 或 [密碼]，也就是 OAuth 的端點。 但您會看到「Office」 issuer （在此例中，"4" 是商務用 Skype，以及您的訂閱領域）。
+或者，查看您的流量。 OAuth 握手中的流量十分獨特 (而且看起來不像基本驗證) （特別是在領域之外），您可以在這裡看到如下所示的發行人流量： 00000004-0000-0ff1-ce00-000000000000 @ (有時候會在所傳遞的標記中使用 @ 符號) 。 您不會看到使用者名稱或密碼，也就是 OAuth 的點。 不過，您會看到「Office」簽發者–在此案例中，"4" 是商務用 Skype –以及您訂閱的領域。
 
-如果您想要確定您使用的是 OAuth 成功，請確認您知道要取得的內容，並瞭解流量應該看起來的樣子。 以下是您預期的做法，以下是[Microsoft 應用程式中的 OAuth 流量標準範例](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)（雖然它不使用重新整理權杖），而且還有 Fiddler 擴充[功能](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)可讓您查看 OAuth JWT （JSON Web 權杖）。
+如果您想要確定成功使用 OAuth，請確定您知道預期的內容，並知道流量應該類似。 以下是您 [預期的目標](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)，以下是 [Microsoft 應用 (程式中 OAuth 流量的](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  一個很好的標準範例，雖然它不會使用重新整理權杖) ，但仍有 Fiddler 擴充功能可讓您查看 OAuth JWT (JSON Web Token) 。
 
-以下是[一個設定一個範例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)，但是您可以使用任何您想要執行此程式的網路追蹤工具。
+以下是 [一個設定的範例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)，但是您可以使用任何您想要執行此程式的網路追蹤工具。
 
 ## <a name="related-topics"></a>相關主題
 
-[在 Exchange 與 Exchange Online 組織之間設定 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[設定 Exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

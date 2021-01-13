@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype Server 中啟用企業語音的使用者
+title: 在商務用 Skype Server 中啟用使用者的 Enterprise Voice
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,61 +15,61 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: 摘要：瞭解如何在商務用 Skype Server 中使用企業語音來撥打及接聽通話。
-ms.openlocfilehash: 571f708e43b271252840d03ec08e1602f62854d1
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：瞭解如何在商務用 Skype Server 中使用 Enterprise Voice，讓使用者能夠撥打和接聽電話。
+ms.openlocfilehash: 3c18836f1c2b03d2c6d50712f33d9e3a900b43b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767256"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830873"
 ---
-# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用企業語音的使用者
+# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用使用者的 Enterprise Voice
  
-**摘要：** 瞭解如何在商務用 Skype Server 中使用企業語音來撥打和接聽通話。
+**摘要：** 瞭解如何使用商務用 Skype Server 中的 Enterprise Voice，讓使用者能夠撥打和接聽電話。
   
-透過工作部署企業語音或通話之後，您可以使用下列程式，讓使用者使用企業語音撥打通話：
+在您部署企業語音或呼叫透過工作之後，您可以使用下列程式，讓使用者使用 Enterprise Voice 進行呼叫：
   
 > [!NOTE]
-> 在下列程式中，只有第一個程式可以使用商務用 Skype Server 的 [控制台] 執行。 在其餘的程式中，您只能使用商務用 Skype Server Management Shell。 
+> 在下列程式中，只有 first 可以使用商務用 Skype Server 控制台執行。 對於其餘的程式，您只能使用商務用 Skype Server 管理命令介面。 
   
-- 啟用企業語音的使用者帳戶。
+- 啟用 Enterprise Voice 的使用者帳戶。
     
-- 可選指派使用者帳戶專用的語音原則。
+-  (選用) 指派使用者特有的語音原則的使用者帳戶。
     
-- 可選將使用者帳戶指派給使用者專用的撥號方案。
+-  (選用) 指派使用者特定撥號對應表的使用者帳戶。
     
 ### <a name="to-enable-a-user-account-for-enterprise-voice"></a>啟用企業語音的使用者帳戶
 
-1. 以 RTCUniversalServerAdmins 群組的成員或**CsVoiceAdministrator**、 **CsServerAdministrator**或**CsAdministrator**系統管理角色的成員的身分登入電腦。
+1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 **CsVoiceAdministrator**、 **CsServerAdministrator** 或 **CsAdministrator** 系統管理角色的成員身分登入電腦。
     
-2. 開啟商務用 Skype Server 的 [控制台]。
+2. 開啟商務用 Skype Server 控制台。
     
-3. 在左側導覽列中，按一下 [**使用者**]。
+3. 在左導覽列中，按一下 **[使用者]**。
     
-4. 在 [**搜尋使用者**] 方塊中，輸入您要啟用的使用者帳戶的全部或第一部分的顯示名稱、名字、姓氏、安全帳戶管理員（SAM）帳戶名稱、SIP 位址或行統一資源識別項（URI），然後按一下 [**尋找**]。
+4. 在 [ **搜尋使用者** ] 方塊中，輸入全部或部分的顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別項 (URI) 的使用者帳戶，然後按一下 [ **尋找**]。
     
-5. 在表格中，按一下您要為企業語音啟用的使用者帳戶。
+5. 在表格中，按一下您要為 Enterprise Voice 啟用的使用者帳戶。
     
-6. 按一下 [**編輯**] 功能表上的 [**顯示詳細資料**]。
+6. 在 **[編輯]** 功能表上，按一下 **[顯示詳細資料]**。
     
-7. 在 [**編輯商務用 Skype Server 使用者**] 頁面的 [**電話**] 底下，按一下 [**企業語音**]。
+7. 在 [ **編輯商務用 Skype 伺服器使用者** ] 頁面的 [ **電話** 語音] 下，按一下 [ **企業語音**]。
     
-8. 按一下 [**行 URI**]，然後輸入唯一的、標準化的電話號碼（例如電話： + 14255550200）。
+8. 按一下 [ **行 URI**]，然後輸入唯一的標準化電話號碼 (例如，電話： + 14255550200) 。
     
-9. 按一下 [認可]****。
+9. 按一下 **[認可]**。
     
-若要為使用者啟用企業語音，請確定使用者已獲指派語音原則和撥號方案，不論全域（預設為指派）或使用者專用。根據預設，所有使用者都會獲指派全域語音原則和撥號方案。 如果使用者帳戶所在網站的網站層級存在語音原則或撥號方案，這些網站原則將會自動套用至使用者。 若要將每個使用者的語音原則或撥號方案套用至使用者，您必須執行**授與 CsVoicePolicy**並**授與 CsDialPlan** Cmdlet。 如需詳細資訊，請參閱本主題中的下列程式。
+若要完成為使用者啟用 Enterprise Voice，請確定使用者已獲指派語音原則和撥號對應表，不論是預設指派的全域 () 或使用者特有的。根據預設，會為所有使用者指派通用語音原則和撥號對應表。 如果語音原則或撥號對應表存在於使用者帳戶所在網站的網站層級上，這些網站原則將會自動套用至使用者。 若要將個別使用者的語音原則或撥號對應表套用至使用者，您必須執行 **Grant-CsVoicePolicy** 和 **Grant-CsDialPlan** Cmdlet。 如需詳細資訊，請參閱本主題中的下列程式。
 ## <a name="voice-policy-assignment"></a>語音原則指派
 
-全域及網站層級語音原則會自動指派給所有已啟用企業語音的使用者帳戶。 您也可以建立適用于特定使用者或群組的語音原則。 這些每個使用者的原則必須明確指派給使用者或群組。 如果您想要針對所有已啟用企業語音的使用者使用全域或網站語音原則，您可以略過此區段，然後繼續本主題稍後的[撥號計畫作業](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment)區段。
+全域與網站層級語音原則會自動指派給所有已啟用 Enterprise Voice 的使用者帳戶。 您也可以建立適用于特定使用者或群組的語音原則。 這些每個使用者的原則都必須明確指派給使用者或群組。 如果您想要針對所有已啟用 Enterprise Voice 的使用者使用全域或網站語音原則，您可以略過此區段，然後繼續本主題稍後的 [撥號對應表 [指派](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) ] 區段。
   
-### <a name="to-assign-a-user-specific-voice-policy"></a>指派使用者專用的語音原則
+### <a name="to-assign-a-user-specific-voice-policy"></a>指派使用者特有的語音原則
 
-1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-3. 若要將現有的使用者語音原則指派給使用者，請在命令提示字元執行下列動作：
+3. 若要將現有的使用者語音原則指派給使用者，請在命令提示字元中執行下列命令：
     
    ```powershell
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
@@ -81,20 +81,20 @@ ms.locfileid: "41767256"
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
-    在這個範例中，使用顯示名稱 Bob 凱利的使用者會獲指派「名稱**VoicePolicyJapan**」的語音原則。
+    在此範例中，具有顯示名稱小明凱利的使用者會被指派名稱為 **VoicePolicyJapan** 的語音原則。
     
-## <a name="dial-plan-assignment"></a>撥號方案指派
+## <a name="dial-plan-assignment"></a>撥號對應表指派
 <a name="BKMK_DialPlanAssignment"> </a>
 
-若要為企業語音或電話撥入式會議的使用者完成使用者帳戶設定，必須為使用者指派撥號方案。 如果您不明確指派現有的每個使用者撥號方案，使用者帳戶就會自動使用全域撥號方案，或（如果有的話）。 如果您想要針對所有已啟用企業語音的使用者使用全域或網站撥號方案，您可以略過本節。
+若要為企業語音使用者或電話撥入式會議的使用者完成使用者帳戶設定，必須為使用者指定撥號對應表。 當您未明確指派現有的個別使用者撥號對應表時，使用者帳戶會自動使用全域撥號對應表或網站層級撥號對應表（如果有的話）。 如果您想要針對所有已啟用 Enterprise Voice 的使用者使用全域或網站撥號對應表，您可以略過本節。
   
-### <a name="to-assign-a-user-specific-dial-plan"></a>指派使用者專用的撥號方案
+### <a name="to-assign-a-user-specific-dial-plan"></a>指派使用者特有的撥號對應表
 
-1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-3. 若要指派使用者特定的撥號方案，請在命令提示字元執行下列動作：
+3. 若要指派使用者特有的撥號對應表，請在命令提示字元中執行下列命令：
     
    ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
@@ -106,6 +106,6 @@ ms.locfileid: "41767256"
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 
-    在這個範例中，使用顯示名稱 Bob 凱利的使用者會被指派名稱為**DialPlanJapan**的使用者撥號計畫。
+    在此範例中，具有顯示名稱小明凱利的使用者會被指派名稱為 **DialPlanJapan** 的使用者撥號對應表。
     
 

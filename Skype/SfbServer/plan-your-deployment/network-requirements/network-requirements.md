@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype 的網路需求
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要：在實施商務用 Skype Server 之前，請先複查下列網路元件考慮。
-ms.openlocfilehash: 709da2ddd60b5b6ee69c22264c159d5d94ab91e3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0b5d183ecc11d09569427e432121fab7de8f401b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025794"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834353"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>規劃商務用 Skype 的網路需求
 
@@ -29,7 +29,7 @@ ms.locfileid: "42025794"
 
 這些主題中的資訊也會在 [Lync Server 的白皮書網路規劃、監控及疑難排解](https://www.microsoft.com/download/details.aspx?id=39084) 中討論，以及其他詳細資料與深度。 雖然內容明確表示 Lync 2010 和 Lync 2013，但不會變更商務用 Skype Server 的考慮。
 
-同樣地，如果您的網路包括 wi-fi 和有線存取，則透過 [Wi-Fi 提供 Lync 2013 即時通訊](https://www.microsoft.com/download/details.aspx?id=36494) 的白皮書是很好的參考，而且同樣適用于商務用 Skype Server。
+同樣地，如果您的網路包括 wi-fi 和有線存取，則透過 [Wi-Fi 傳送 Lync 2013 Real-Time 通訊](https://www.microsoft.com/download/details.aspx?id=36494) 的白皮書是很好的參考，而且同樣適用于商務用 Skype Server。
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -118,7 +118,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 **音訊編解碼器頻寬**
 
-|**音訊編解碼器**|**案例**|**音訊負載位元速率 (KBPS) **|**僅頻寬音訊承載和 IP 標頭 (Kbps)**|**頻寬音訊承載、IP 標頭、UDP、RTP 和 SRTP (Kbps)**|**頻寬音訊承載、IP 標頭、UDP、RTP、SRTP 和正向錯誤更正 (Kbps)**|
+|**音訊編解碼器**|**案例**|**音訊負載位元速率 (KBPS)**|**僅頻寬音訊承載和 IP 標頭 (Kbps)**|**頻寬音訊承載、IP 標頭、UDP、RTP 和 SRTP (Kbps)**|**頻寬音訊承載、IP 標頭、UDP、RTP、SRTP 和正向錯誤更正 (Kbps)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |RTAudio 寬頻  <br/> |對等  <br/> |29.0  <br/> |45.0  <br/> |57.0  <br/> |86.0  <br/> |
 |RTAudio 窄頻  <br/> |對等 PSTN  <br/> |11.8  <br/> |27.8  <br/> |39.8  <br/> |51.6  <br/> |
@@ -140,7 +140,7 @@ G.722 編解碼器的立體版本是由以 Lync 會議室系統為基礎的系�
 
 **視訊解析度頻寬**
 
-|**視訊轉碼器**|**解析度和外觀比例**|**最大影片負載位元速率 (Kbps) **|**最小影片負載位元速率 (Kbps) **|
+|**視訊轉碼器**|**解析度和外觀比例**|**最大影片負載位元速率 (Kbps)**|**最小影片負載位元速率 (Kbps)**|
 |:-----|:-----|:-----|:-----|
 |H-p  <br/> |320x180 (16:9)   <br/> 212x160 (4:3)   <br/> |250  <br/> |15   <br/> |
 |上的 264/RTVideo  <br/> |424x240 (16:9)   <br/> 320x240 (4:3)   <br/> |350  <br/> |100  <br/> |
@@ -202,7 +202,7 @@ G.722 編解碼器的立體版本是由以 Lync 會議室系統為基礎的系�
 
 - **使用 FEC 的最大頻寬** Stream 使用的最大頻寬。 這包括資料流程的一般活動，以及與 FEC 案例中使用的一般編解碼器。 當資料流程為100% 活動時，這就是頻寬，而且會發生封包遺失，觸發使用 FEC 以提升品質。 這可用於計算必須分配多少頻寬以允許在特定案例中使用編解碼器，以及允許使用 FEC，以在封包遺失的情況下保留品質。
 
-下表還列出其他頻寬值**一般頻寬**。 這是 stream 消耗的平均頻寬。 這包括資料流程的一般活動，以及案例中使用的一般編解碼器。 此頻寬可用於 polyline 特定時間的媒體流量所耗用的頻寬量，但不應用於容量規劃，因為當活動層級大於平均值時，個別呼叫會超出此值。 下表中的一般影片頻寬是根據衡量的客戶資料中所觀測的不同影片解析度混合而成，較小的安裝可能會有不同于資料表資料的實際數位。 例如，在點對點工作階段中，大部分使用者會使用預設的 [影片轉譯] 視窗，而某些部分的使用者可能會增加或最大化商務用 Skype Server 應用程式，以允許更好的影片解析度。
+下表還列出其他頻寬值 **一般頻寬**。 這是 stream 消耗的平均頻寬。 這包括資料流程的一般活動，以及案例中使用的一般編解碼器。 此頻寬可用於 polyline 特定時間的媒體流量所耗用的頻寬量，但不應用於容量規劃，因為當活動層級大於平均值時，個別呼叫會超出此值。 下表中的一般影片頻寬是根據衡量的客戶資料中所觀測的不同影片解析度混合而成，較小的安裝可能會有不同于資料表資料的實際數位。 例如，在點對點工作階段中，大部分使用者會使用預設的 [影片轉譯] 視窗，而某些部分的使用者可能會增加或最大化商務用 Skype Server 應用程式，以允許更好的影片解析度。
 
 下表提供各種案例的值。
 

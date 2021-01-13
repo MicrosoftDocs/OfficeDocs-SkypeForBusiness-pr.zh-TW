@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype Server 中的主要安全性功能
+title: 商務用 Skype Server 中的重要安全性功能
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,71 +12,71 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
-description: 商務用 Skype 伺服器包含數種安全性功能，包括伺服器到伺服器驗證、以角色為基礎的存取控制，以及集中式儲存配置資料。
-ms.openlocfilehash: ac1891194d231c4d494ba4014e4abd8bd7f1185b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 商務用 Skype 伺服器包含數個安全性功能，包括伺服器對伺服器驗證、角色型存取控制，以及設定資料的集中式儲存區。
+ms.openlocfilehash: 1163216f2aeb369576f51af53180297f8028813e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815651"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832173"
 ---
-# <a name="key-security-features-in-skype-for-business-server"></a>商務用 Skype Server 中的主要安全性功能
+# <a name="key-security-features-in-skype-for-business-server"></a>商務用 Skype Server 中的重要安全性功能
  
-商務用 Skype 伺服器包含數種安全性功能，包括伺服器到伺服器驗證、以角色為基礎的存取控制，以及集中式儲存配置資料。 
+商務用 Skype 伺服器包含數個安全性功能，包括伺服器對伺服器驗證、角色型存取控制，以及設定資料的集中式儲存區。 
   
-這篇文章供應商務用 Skype Server 安全性的高層次概覽。 
+本文供應商務用 Skype Server 安全性的高層次概述。 
   
-## <a name="key-security-features-in-skype-for-business-server"></a>商務用 Skype Server 中的主要安全性功能
+## <a name="key-security-features-in-skype-for-business-server"></a>商務用 Skype Server 中的重要安全性功能
 
-安全性是一個非常廣泛的主題。 安全性達到商務用 Skype Server 的每項功能，以及組成商務用 Skype Server 生態系統的資料庫、服務和硬體。 本文將概述商務用 Skype Server 中的部分功能，特別是針對安全性設計的。
+安全性是非常廣泛的主題。 每一項商務用 Skype 伺服器的功能，以及組成商務用 Skype Server 生態系統的資料庫、服務和硬體，都能達到安全性。 本文概述商務用 Skype Server 中的一些特別是針對安全性而設計的功能。
   
-### <a name="planning-and-design-tools"></a>規劃和設計工具
+### <a name="planning-and-design-tools"></a>規劃及設計工具
 
-商務用 skype 伺服器提供兩種工具，可協助規劃及設計並減少錯誤地設定商務用 Skype 伺服器元件的機率。 
+商務用 skype 伺服器提供兩個工具，可協助規劃及設計，並減少誤設定商務用 Skype Server 元件的機率。 
   
-- **拓撲規劃工具**自動化了許多拓撲設計程式。 您可以將規劃工具的結果匯出至 [拓撲建立器]，這是安裝執行商務用 Skype Server 的每個伺服器所需的工具。
+- **拓撲規劃工具** 會使大部分的拓撲設計程式自動化。 您可以將規劃工具的結果匯出至拓撲產生器，這是安裝執行商務用 Skype Server 的各部伺服器所需的工具。
     
-- **拓撲**建立器會將所有配置資訊儲存在中央管理儲存區中。
+- **拓撲** 產生器會將所有設定資訊儲存在中央管理存放區中。
     
-如需這些工具的詳細資訊，請參閱[商務用 Skype Server 管理工具](../../management-tools/management-tools.md)。
+如需這些工具的詳細資訊，請參閱 [商務用 Skype Server 管理工具](../../management-tools/management-tools.md)。
   
-### <a name="central-management-store"></a>中央管理存放區
+### <a name="central-management-store"></a>Central Management Store
 
-在商務用 Skype Server 中，伺服器與服務的設定資料是集中式管理儲存體的一部分。 [中央管理] 商店提供資料的強健、schematized 儲存，以定義、設定、維護、管理、描述及操作商務用 Skype Server 部署。 它也會驗證資料，以確保配置一致性。 此設定資料的所有變更都會出現在中央管理商店，消除「不同步」問題。 
+在商務用 Skype Server 中，有關伺服器和服務的設定資料是中央管理存放區的一部分。 中央管理存放區為定義、設定、維護、管理、描述及操作商務用 Skype Server 部署所需的資料提供了可靠的 schematized 儲存。 它也驗證資料，以確保設定一致性。 對此設定資料所做的所有變更都會發生在中央管理存放區，消除「不同步」的問題。 
   
-唯讀複本會將資料複製到拓撲中的所有伺服器，包括 Edge 伺服器和 Survivable 分支裝置。 複製是由預設會在網路服務內容下執行的服務所管理，可減少電腦上簡單使用者的權利和許可權。 
+資料的唯讀複本會複製到拓撲中的所有伺服器，包括 Edge Server。 複寫是由預設會在網路服務內容下執行的服務所管理，可減少電腦上的簡易使用者的權利和許可權。 
   
-### <a name="server-to-server-authentication"></a>伺服器對伺服器驗證
+### <a name="server-to-server-authentication"></a>Server-to-Server 驗證
 
-在商務用 Skype Server 中，您可以使用開啟授權（OAuth）通訊協定，在伺服器之間設定驗證。 例如，您可以將商務用 Skype 伺服器設定為使用執行 Microsoft Exchange Server 2016 的伺服器進行驗證。 使用 OAuth 通訊協定，商務用 Skype 伺服器與 Microsoft Exchange 伺服器可以相互信任。 這能讓您以流暢的方式整合產品。 如需詳細資訊，請參閱[管理商務用 Skype server 中的伺服器到伺服器驗證（OAuth）和合作夥伴應用程式](../../manage/authentication/server-to-server-and-partner-applications.md)。
+在商務用 Skype Server 中，您可以使用「開啟授權 (OAuth) 通訊協定，在伺服器之間設定驗證。 例如，您可以將商務用 Skype 伺服器設定為使用執行 Microsoft Exchange Server 2016 的伺服器進行驗證。 使用 OAuth 通訊協定，商務用 Skype 伺服器和 Microsoft Exchange Server 可以相互信任。 這讓您能夠以無縫的方式整合產品。 如需詳細資訊，請參閱 [Manage server to server 驗證 (OAuth) 和商務用 Skype server 中的夥伴應用程式](../../manage/authentication/server-to-server-and-partner-applications.md)。
   
-### <a name="windows-powershell-based-management-and-web-based-management-interface"></a>Windows PowerShell 式管理和網路式管理介面
+### <a name="windows-powershell-based-management-and-web-based-management-interface"></a>Windows PowerShell 型管理和以網路為基礎的管理介面
 
-商務用 Skype 伺服器提供功能強大的管理介面（在 Windows PowerShell 命令列介面上建立）。 它包含管理安全性的 Cmdlet，而且預設會啟用 Windows PowerShell 安全性功能，讓使用者不會輕易或無意中執行腳本。 這表示軟體預設值會設定為自動協助最大化安全性並減少攻擊途徑。 如需在商務用 Skype Server 中的 Windows PowerShell 管理支援的詳細資訊，請參閱[商務用 Skype Server 管理命令](../../manage/management-shell.md)介面。 
+商務用 Skype 伺服器提供強大的管理介面，以 Windows PowerShell 命令列介面為基礎。 它包含管理安全性的 Cmdlet，預設會啟用 Windows PowerShell 安全性功能，讓使用者無法輕易或無意中執行腳本。 這表示軟體預設值設為自動協助最大化安全性，並減少攻擊途徑。 如需商務用 Skype Server 中 Windows PowerShell 管理支援的詳細資訊，請參閱 [商務用 Skype Server 管理命令](../../manage/management-shell.md)介面。 
   
-### <a name="role-based-access-control-rbac"></a>以角色為基礎的存取控制（RBAC）
+### <a name="role-based-access-control-rbac"></a>角色型存取控制 (RBAC)
 
-商務用 Skype 伺服器提供以角色為基礎的存取控制（RBAC），可讓您委派管理工作，同時維持高安全性的標準。 您可以使用 RBAC 遵循「最低許可權」的原則，在此原則中，使用者只會得到他們工作所需的管理許可權。 商務用 Skype Server 提供建立新角色的功能，以及修改現有角色的功能。 
+商務用 Skype 伺服器提供以角色為基礎的存取控制 (RBAC) ，可讓您委派管理工作，同時維持高安全性標準。 您可以使用 RBAC 遵循「最低許可權」的原則，讓使用者只會獲得其工作所需的系統管理許可權。 商務用 Skype Server 可讓您建立新的角色，以及修改現有角色的能力。 
   
-## <a name="network-address-translation-nat"></a>網路位址轉譯（NAT）
+## <a name="network-address-translation-nat"></a>網路位址轉譯 (NAT) 
 
-商務用 Skype Server 不支援在 Edge 伺服器的內部介面上使用網路位址轉譯（NAT），但它支援將存取邊緣服務、Web 會議邊緣服務的外部介面與路由器或防火牆背後的 A/V 邊緣服務搭配執行，可同時針對單一和縮放的合併邊緣伺服器拓撲進行網路位址轉譯（NAT）。 在硬體負載平衡器後的多個邊緣伺服器無法使用 NAT。 如果有多個邊緣伺服器在其外部介面上使用 NAT，則需要網功能變數名稱稱系統（DNS）負載平衡。 接著，您可以使用 DNS 負載平衡，在 Edge 伺服器池中減少每個邊緣伺服器的公用 IP 位址數目。 如需詳細資訊，請參閱[商務用 Skype server 中的邊緣伺服器案例](../../plan-your-deployment/edge-server-deployments/scenarios.md)。
+商務用 Skype Server 不支援在 Edge Server 的內部介面上使用網路位址轉譯 (NAT) ，但它不支援將 Access Edge service、Web 會議 Edge service 和 A/V Edge service 的外部介面放在路由器或防火牆後面，該路由器或防火牆之後可對單一及調整式合併 Edge Server 拓撲執行網路位址轉譯 (NAT) 。 硬體負載平衡器背後的多部 Edge Server 無法使用 NAT。 如果有多部 Edge Server 在其外部介面上使用 NAT，則需要網域名稱系統 (DNS) 負載平衡。 反過來，使用 DNS 負載平衡可讓您減少 Edge Server 集區中每一 Edge Server 的公用 IP 位址數目。 如需詳細資訊，請參閱 [在商務用 Skype server 中的 Edge Server 案例](../../plan-your-deployment/edge-server-deployments/scenarios.md)。
   
 > [!NOTE]
-> 如果您是與已安裝 Microsoft Office 通訊伺服器2007部署的企業聯盟，而且您需要在企業與同盟企業之間使用音訊/視頻，則埠需求就會是部署的較舊版本的邊緣伺服器的需求。 例如，在聯盟合作夥伴將其 Edge 伺服器升級到商務用 Skype 伺服器之前，必須為這兩個企業開啟這些較舊版本所需的埠範圍。 此時，您可以根據新設定來審查並減少埠需求。 
+> 如果您與具有 Microsoft Office 通訊伺服器2007部署的企業同盟，且您需要在您的企業和同盟企業之間使用音訊/視頻，則埠需求將會是部署的舊版 Edge Server 的需求。 例如，必須為這兩個企業開啟這些舊版本所需的埠範圍，直到同盟協力廠商伺服器將其 Edge Server 升級至商務用 Skype Server 為止。 在這個階段，您可以根據新設定來檢查和縮短埠需求。 
   
-## <a name="simplified-certificates-for-edge-servers"></a>簡化的邊緣伺服器憑證
+## <a name="simplified-certificates-for-edge-servers"></a>簡化 Edge Server 的憑證
 
-[部署嚮導] 可自動填入消費者名稱（SNs）和消費者備用名稱（San），減少包括不必要和可能不安全的專案的可能性。
+部署嚮導可自動將主體名稱填入 (SNs) 和主體替代名稱 (SANs) ，以減少包含不必要的可能不安全專案的可能性。
   
-## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>可信計算安全性開發週期（SDL）
+## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>可信賴的計算安全性開發生命週期 (SDL) 
 
-商務用 Skype Server 的設計與開發符合[Microsoft 高可信計算安全性開發週期](https://go.microsoft.com/fwlink/p/?linkid=68761)（SDL）。
+商務用 Skype 伺服器的設計和開發符合 [Microsoft 可信賴的計算安全性開發生命週期](https://go.microsoft.com/fwlink/p/?linkid=68761) (SDL) 。
   
-- **根據設計信任**建立更安全的整合通訊系統的第一個步驟是設計威脅模型，並測試每個功能的設計。 此外，Microsoft 還會在設計的行為以外執行測試，以找出意外產品行為所產生的安全性漏洞。 編碼程式與做法內建了多個安全性相關的改良功能。 在將程式碼簽入最終產品之前，組建時間工具會偵測緩衝區溢位及其他潛在安全性威脅。 當然，可能無法針對所有未知的安全性威脅進行設計。 任何系統都不能保證完整的安全性。 不過，由於產品開發採用了從開始、商務用 Skype 伺服器的安全設計原則，因此將業界標準安全技術納入其架構的基本部分。
+- **以設計為可信** 建立更安全的整合通訊系統的第一步是設計威脅模型，並在設計時測試每項功能。 此外，Microsoft 會在設計行為以外執行測試，以找出意外產品行為所產生的安全性弱點。 編碼程式和作法內建了多種安全性相關的增強功能。 組建時間工具會在將程式碼存回最終產品之前，偵測緩衝區溢位及其他潛在安全性威脅。 當然，不可能針對所有未知的安全性威脅進行設計。 任何系統都不能保證完整的安全性。 不過，因為產品開發採用從開始的安全性設計原則，所以商務用 Skype 伺服器將業界標準安全性技術併入其架構的基礎部分。
     
-- **預設為可信**根據預設，商務用 Skype Server 中的網路通訊是經過加密的。 因為所有伺服器都使用憑證和 Kerberos 驗證、TLS、安全的即時傳輸通訊協定（SRTP），以及其他業界標準的加密技術，包括128位進階加密標準（AES）加密，幾乎所有 Skype 都適用于商務伺服器資料在網路上受到保護。 此外，角色式存取控制能讓您部署執行商務用 Skype Server 的伺服器，讓每個伺服器角色只執行服務，而且只有與這些服務相關聯的許可權，這些都適用于伺服器角色。
+- **預設為可信** 依預設，商務用 Skype Server 中的網路通訊都會加密。 由於所有伺服器都使用憑證及 Kerberos 驗證、TLS、安全 Real-Time 傳輸通訊協定 (SRTP) 和其他業界標準加密技術，包括128位的進階加密標準 (AES) 加密，實際上所有的商務用 Skype 伺服器資料都會在網路上受到保護。 此外，以角色為基礎的存取控制可讓您部署執行商務用 Skype 伺服器的伺服器，如此一來，每個伺服器角色都只執行服務，而且只會具有與這些服務相關的許可權，這些都適用于伺服器角色。
     
-- **受部署信任**所有商務用 Skype Server 檔都包含最佳做法和建議，可協助您判斷並設定您的部署的最佳安全等級，並評估啟用非預設選項的安全性風險。
+- **信任的部署** 所有商務用 Skype Server 檔都包含最佳作法和建議，可協助您決定及設定部署的最佳安全性層級，並評估啟用非預設選項的安全性風險。
     
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊系統管理中心的團隊協力廠商應用程式購買服務
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: aeff6f363c1ae594a4a122055204d98b43d246e8
-ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
+ms.openlocfilehash: 8ee5b5c56a26ed054cdef559bc623b3cca4baa43
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818152"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834323"
 ---
 <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心的團隊協力廠商應用程式購買服務
 ======================================================
@@ -42,9 +42,9 @@ Microsoft [團隊系統管理中心] 中的 [ [管理應用程式](manage-apps.m
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。 您必須是全域系統管理員或團隊服務系統管理員，才能存取該頁面。
 2. 搜尋您要的應用程式。 若要識別擁有付費 SaaS 訂閱的 app，請查看 [ **授權** ] 欄。 每個應用程式都將具有下列其中一個值：
     - [**立即購買**]： App 提供 SaaS 訂閱，且可供購買。  
-    - 已**購買**： App 提供 SaaS 訂閱，且您已為其購買授權。
+    - 已 **購買**： App 提供 SaaS 訂閱，且您已為其購買授權。
     - **--**：應用程式不會提供 SaaS 訂閱。
-3. 找到應用程式後，請按一下 [ **立即購買** ]，移至 [應用程式詳細資料] 頁面的 [ **方案與定價** ] 索引標籤。 查看應用程式的 SaaS 優惠方案和價格資訊。 如果您需要更多相關資訊，請按一下[AppSource](https://appsource.microsoft.com/)上的 [**深入瞭解**] 連結，移至應用程式的頁面。  
+3. 找到應用程式後，請按一下 [ **立即購買** ]，移至 [應用程式詳細資料] 頁面的 [ **方案與定價** ] 索引標籤。 查看應用程式的 SaaS 優惠方案和價格資訊。 如果您需要更多相關資訊，請按一下 [AppSource](https://appsource.microsoft.com/)上的 [**深入瞭解**] 連結，移至應用程式的頁面。  
 4. 若要購買方案，請按一下 [ **立即購買**]。 您將會被重新導向到與團隊 app 相關聯之優惠的購買體驗。 您可以在此完成服務或 SaaS 產品的購買。
 5. 選擇您想要的方案。 如果 SaaS 提供包含一個以上的計畫，請按一下 [ **變更** ]，查看可用方案的清單。
 6. 選取您的帳單期限 ([ **每月** ] 或 [ **每年** ]) ，然後輸入您想要購買的使用者授權數目。
@@ -54,7 +54,7 @@ Microsoft [團隊系統管理中心] 中的 [ [管理應用程式](manage-apps.m
 
 在您購買與團隊 app 相關聯的 SaaS 優惠之後，您可以在 [應用程式詳細資料] 頁面的 [ **方案與定價** ] 索引標籤上，查看下列購買詳細資料。
 
-- **授權啟用日期**：啟用授權的日期。 如果您的帳戶尚未設定，這會顯示為 [ **訂閱擱置**中的啟用]。
+- **授權啟用日期**：啟用授權的日期。 如果您的帳戶尚未設定，這會顯示為 [ **訂閱擱置** 中的啟用]。
 - **授權**：您購買的授權數量。
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="[應用程式詳細資料] 頁面的 [方案與定價] 索引標籤":::

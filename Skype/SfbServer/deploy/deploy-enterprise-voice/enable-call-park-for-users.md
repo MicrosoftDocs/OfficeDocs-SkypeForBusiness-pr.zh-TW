@@ -1,8 +1,8 @@
 ---
-title: 在商務用 Skype 中啟用電話寄存給使用者
+title: 為商務用 Skype 中的使用者啟用通話駐留
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,51 +15,51 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: 在商務用 Skype Server Enterprise Voice 中，允許通話駐留的使用者使用。
-ms.openlocfilehash: 6642af2a7af698a1127ff2a9bb4e45df73d18c50
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在商務用 Skype Server Enterprise Voice 中為使用者啟用通話駐留功能。
+ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767276"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830953"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a>在商務用 Skype 中啟用電話寄存給使用者
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>為商務用 Skype 中的使用者啟用通話駐留
  
-在商務用 Skype Server Enterprise Voice 中，允許通話駐留的使用者使用。
+在商務用 Skype Server Enterprise Voice 中為使用者啟用通話駐留功能。
   
-根據預設，會停用所有使用者的 [通話駐留]。 使用者在語音原則中啟用通話駐留前，不能寄存通話或取得停用通話。
+預設會停用所有使用者的通話駐留。 使用者在語音原則中為通話駐留啟用電話時，無法寄存通話或取得寄存的通話。
   
-您可以在全域範圍或在網站範圍或使用者範圍中啟用通話駐留。 [使用者範圍] 的優先順序高於 [網站範圍]，而 [網站範圍] 的優先順序高於 [全域範圍]。 如果您有多個語音原則，請查看所有原則來啟用通話駐留，而不只是全域原則。
+您可以在全域範圍或網站範圍或使用者範圍上啟用通話駐留。 使用者範圍優先于網站範圍，而網站範圍優先于全域範圍。 如果您有多個語音原則，請複習所有原則以啟用通話駐留，而不只是全域原則。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>若要使用商務用 Skype Server 的 [控制台] 來為使用者啟用通話駐留
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>使用商務用 Skype Server 控制台為使用者啟用通話駐留
 
-1. 以**RTCUniversalServerAdmins**群組的成員或**CsVoiceAdministrator**、 **CsServerAdministrator**或**CsAdministrator**系統管理角色的成員的身分登入電腦。
+1. 以 **RTCUniversalServerAdmins** 群組成員的身分，或是 **CsVoiceAdministrator**、 **CsServerAdministrator** 或 **CsAdministrator** 系統管理角色的成員身分登入電腦。
     
-2. 開啟商務用 Skype Server 的 [控制台]。
+2. 開啟商務用 Skype Server 控制台。
     
-3. 在左側導覽列中，按一下 [**語音路由**]。
+3. 在左導覽列中，按一下 **[語音路由]**。
     
-4. 按一下 [**語音原則**] 索引標籤。
+4. 按一下 [ **語音原則** ] 索引標籤。
     
-5. 按兩下現有的語音原則，以開啟 [**編輯語音原則**] 對話方塊。
+5. 按兩下現有的語音原則，以開啟 [ **編輯語音原則** ] 對話方塊。
     
-6. 在 [**呼叫功能**] 底下，選取 [**啟用通話駐留**]。
+6. 在 [ **通話功能**] 底下，選取 [ **啟用通話駐留**]。
     
-7. 按一下 **[確定]** 儲存語音原則
+7. 按一下 **[確定]** 以儲存語音原則
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>若要使用 Cmdlet 來為使用者啟用通話駐留
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>若要使用 Cmdlet 為使用者啟用通話駐留
 
-1. 以 RTCUniversalServerAdmins 群組的成員或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 系統管理角色的成員的身分登入電腦。
+1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 系統管理角色的成員身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-3. 用盡
+3. 運行：
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    例如，若要針對預設的全域語音原則啟用通話駐留，請執行下列動作：
+    例如，若要啟用預設全域語音原則的通話駐留：
     
    ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
@@ -69,5 +69,5 @@ ms.locfileid: "41767276"
 
 
 
-[在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用記錄](voice-policy-and-pstn-usage-records.md)
+[在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄](voice-policy-and-pstn-usage-records.md)
 

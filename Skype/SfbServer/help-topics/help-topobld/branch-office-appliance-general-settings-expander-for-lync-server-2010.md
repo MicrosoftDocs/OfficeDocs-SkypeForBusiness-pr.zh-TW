@@ -1,8 +1,8 @@
 ---
 title: Branch Office Appliance 一般設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 若要編輯 Survivable Branch 裝置或 Survivable Branch 伺服器的屬性，請在 [一般] 下設定：
-ms.openlocfilehash: 5bdcc283ce9f503af307e37a7c2f76c922d5facb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 72bbd89ffd20108cc6b4bcf0786fec7130eea382
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216154"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833213"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Branch Office Appliance 一般設定展開工具 (適用於 Lync Server 2010)
  
@@ -46,7 +46,7 @@ ms.locfileid: "48216154"
     
     如果尚未建立要與此 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的監控伺服器，請按一下 [ **新增** ]。
     
-    **關聯媒體元件的 Edge 集區 () ** 從清單中，選取您要與 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的 Edge Server 或 Edge 集區。
+    **關聯媒體元件的 Edge 集區 ()** 從清單中，選取您要與 Survivable Branch 裝置或 Survivable Branch 伺服器建立關聯的 Edge Server 或 Edge 集區。
     
   **確定**：接受並認可對話方塊的變更。
   

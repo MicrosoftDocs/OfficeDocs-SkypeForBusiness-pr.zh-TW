@@ -1,8 +1,8 @@
 ---
-title: 商務用 Skype Server 中的災害復原測試
+title: 商務用 Skype Server 中的嚴重損壞修復測試
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,50 +10,50 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 針對商務用 Skype 伺服器池伺服器執行系統復原，以測試您已記錄的災害復原程式
-ms.openlocfilehash: f3eba25d59c56f085b9bd6d347fcde910f11a00d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 為商務用 Skype 伺服器集區伺服器執行系統復原，以測試您已記錄的災難修復程式
+ms.openlocfilehash: 92515a59f4ada2589a371cc9384c63a376e96cf8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817299"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832813"
 ---
-# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>商務用 Skype Server 中的災害復原測試
+# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>商務用 Skype Server 中的嚴重損壞修復測試
 
-針對商務用 Skype 伺服器池伺服器執行系統復原，以測試您已記錄的災害復原程式。 這個測試將會模擬一台伺服器的完整硬體故障，並將協助保證資源、方案及資料可供恢復使用。 請嘗試每月變換測試重點，以便您組織每次都能測試不同伺服器的故障狀況或設備的其他部件。 
+為商務用 Skype 伺服器集區伺服器執行系統復原，以測試您已記錄的嚴重損壞修復程式。 這項測試會模擬一部伺服器的完整硬體故障，並協助保證資源、計畫及資料可用於復原。 嘗試每月旋轉測試的焦點，使組織每次測試不同伺服器或其他裝置的失敗。 
 
-請注意，組織執行災害復原測試的排程各不相同，切勿忽略或疏於進行災害復原測試。 
+請注意，組織執行嚴重損壞修復測試的排程會有所不同。 不會忽視或忽略嚴重損壞修復測試，這一點很重要。 
 
-將商務用 Skype 伺服器拓撲、原則和設定設定匯出至檔案。 除此之外，在升級、發生硬體故障或某些其他問題而造成資料遺失之後，此檔案還可在用於將此資訊還原至中央管理存放區。
+將商務用 Skype 伺服器拓撲、原則和設定值匯出至檔案。 除此之外，您也可以使用此檔案在升級、硬體故障或其他問題導致資料遺失的情況下，將此資訊還原至中央管理存放區。
 
-將商務用 Skype 伺服器拓朴、原則和設定的設定匯入到中央管理商店或本機電腦上，如下列命令所示： 
+將商務用 Skype 伺服器拓撲、原則及設定，匯入中央管理存放區或本機電腦（如下列命令所示）： 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]` 
 
-若要備份生產資料：
+若要備份實際執行資料：
 
-- 使用標準的 SQL Server 備份程式將資料庫轉儲至檔案或磁帶轉儲裝置，以備份 RTC 及 LCSLog 資料庫。
-- 使用協力廠商備份應用程式，將資料備份至檔案或磁帶。
-- 使用 Export-CsUserData cmdlet 來建立整個 RTC 資料庫的 XML 匯出。
+- 使用標準 SQL Server 備份程式備份 RTC 和 LCSLog 資料庫，以將資料庫轉儲至檔案或磁帶轉儲裝置。
+- 使用協力廠商備份應用程式將資料備份至檔案或磁帶。
+- 使用 Export-CsUserData Cmdlet 來建立整個 RTC 資料庫的 XML 匯出。
 - 使用檔案系統備份或協力廠商備份來備份會議內容和合規性記錄。
-- 使用 Export CsConfiguration 命令列工具來備份商務用 Skype Server 設定。
+- 使用 Export-CsConfiguration 命令列工具來備份商務用 Skype 伺服器設定。
 
-容錯移轉程序的第一步驟包含將使用者從生產集區強制移至災害復原集區。 此一步驟將為強制移動，因為生產集區將無法接受使用者遷移。
+容錯移轉程式中的第一個步驟包括將使用者從生產集區強制移至嚴重損壞修復集區。 這將會強制移動，因為實際生產集區無法接受使用者重新安置。
 
-除了 RTC SQL 資料庫上的記錄更新之外，商務用 Skype Server 移動使用者程式也會對使用者帳戶物件上的屬性有實際的變更。 您可以使用標準的 SQL Server 還原程式，或使用協力廠商的備份/還原公用程式，從生產 SQL Server 上的原始備份轉儲裝置還原此資料。
+商務用 Skype Server 的移動使用者程式，會變更使用者帳戶物件上的屬性，以及 RTC SQL 資料庫上的記錄更新。 您可以使用標準的 SQL server 還原程式，或使用協力廠商備份/還原公用程式，從生產 SQL Server 還原原始備份轉儲裝置的資料。
 
-還原此資料之後，使用者就能有效地連線到災害復原池，並正常運作。 若要讓使用者能夠連線到災害復原池，就必須變更 DNS 記錄。
+還原此資料之後，使用者就能有效地連接至災害復原集區，並照常運作。 若要讓使用者能夠連線至災害復原集區，將需要 DNS 記錄變更。
 
-用戶端將會使用自動設定和 DNS SRV 記錄來參照商務用 Skype 泳池池：
+使用的自動設定和 DNS SRV 記錄，用戶端將會參考生產商務用 Skype 集區：
 
-- SRV： _sip _tls。\<網域>/CNAME： SIP。\<網域>
-- CNAME： SIP。\<網域>/cvc-pool-1。\<網域>
+- SRV： _tls。\<domain> /CNAME： SIP。\<domain>
+- CNAME： SIP。\<domain> /cvc-pool-1.\<domain>
 
-若要輔助容錯移轉，必須更新這項 CNAME 記錄才能參考 DROCSPool FQDN：
+若要協助容錯移轉，必須更新此 CNAME 記錄，以參考 DROCSPool FQDN：
 
-- CNAME： SIP。<domain> /DROCSPool.\<網域>
-- 呼吸.\<網域>
-- AV.\<網域>
-- webconf.\<網域>
+- CNAME： SIP。<domain> /DROCSPool.\<domain>
+- Sip。\<domain>
+- Av。\<domain>
+- webconf.\<domain>

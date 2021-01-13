@@ -1,8 +1,8 @@
 ---
 title: tblScopePrincipal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-description: tblScopePrincipal 包含指派給節點的作用中。
-ms.openlocfilehash: 24a38ef4acf3e0d500c7652f5ca418af585343b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblScopePrincipal 包含指派給節點的範圍。
+ms.openlocfilehash: efda792ab6f6c6cc7b188a9dffdaa7c324b24797
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812441"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831513"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
-tblScopePrincipal 包含指派給節點的作用中。
+tblScopePrincipal 包含指派給節點的範圍。
   
-**分欄**
+**Columns**
 
-|**左欄**|**類型**|**說明**|
+|**欄**|**類型**|**描述**|
 |:-----|:-----|:-----|
-|scopeNodeID  <br/> |int，not null  <br/> |作用中所適用的節點識別碼。  <br/> |
-|scopePrinID  <br/> |int，not null  <br/> |Principal ID。  <br/> |
-|scopeIsDenied  <br/> |bit、not null  <br/> |如果範圍類型為 Deny，則為 True;如果允許，則為 False。  <br/> |
-|scopeUpdatedBy  <br/> |int，not null  <br/> |上次更新此專案的主體 ID。  <br/> |
+|scopeNodeID  <br/> |int，非 null  <br/> |套用範圍的節點識別碼。  <br/> |
+|scopePrinID  <br/> |int，非 null  <br/> |主體識別碼。  <br/> |
+|scopeIsDenied  <br/> |位元，非 null  <br/> |True 是表示如果範圍的類型是 Deny;False 表示允許。  <br/> |
+|scopeUpdatedBy  <br/> |int，非 null  <br/> |最後更新此專案的主體識別碼。  <br/> |
    
-**鍵**
+**Keys**
 
-|**左欄**|**說明**|
+|**欄**|**描述**|
 |:-----|:-----|
-|\<scopeNodeID, scopePrinID\>  <br/> |主鍵。  <br/> |
-|scopeNodeID  <br/> |在 tblNode 資料表中使用 [查閱] 的外鍵。  <br/> |
-|scopePrinID  <br/> |在 tblPrincipal prinID 資料表中使用 [查閱] 的外鍵。  <br/> |
+|\<scopeNodeID, scopePrinID\>  <br/> |主索引鍵。  <br/> |
+|scopeNodeID  <br/> |在 tblNode.nodeID 表格中查閱外部索引鍵。  <br/> |
+|scopePrinID  <br/> |在 tblPrincipal.prinID 表格中查閱外部索引鍵。  <br/> |
    
 

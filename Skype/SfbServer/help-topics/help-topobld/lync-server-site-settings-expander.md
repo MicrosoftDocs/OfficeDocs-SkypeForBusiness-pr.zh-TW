@@ -1,8 +1,8 @@
 ---
 title: Lync Server 網站設定展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 若要編輯現有網站的屬性，請執行下列操作：
-ms.openlocfilehash: 69555a04be4125e213ba2eca7afd7255100c0444
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217564"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832913"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 網站設定展開工具
 
@@ -43,7 +43,7 @@ ms.locfileid: "48217564"
 > [!CAUTION]
 > 此設定會影響所有網站。 請確定您在此網站上設定的設定適用于所有網站。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 如需詳細資訊，請參閱 [外部使用者存取的拓撲](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)。
 

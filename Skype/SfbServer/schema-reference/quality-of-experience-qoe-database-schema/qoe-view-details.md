@@ -1,8 +1,8 @@
 ---
 title: QoE 檢視詳細資料
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
-description: '[視圖] 涵蓋從 QoE SQL 資料庫傳回資料最常見的案例。 它是用來建立自訂報表的建議視圖，而不是直接存取資料庫資料表;這是因為視圖更可能會維持與未來版本的向後相容性。'
-ms.openlocfilehash: d207c2cff86c398fed62023b30d193e974cbca7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 檢視涵蓋從 QoE SQL 資料庫傳回資料時最常見的案例。 它是用來建立自訂報告的建議方式，而不是直接存取資料庫資料表;這是因為視圖很可能會讓未來的版本保持向後相容性。
+ms.openlocfilehash: cabe483da624d801b9b87d51ba61caed7a22f7d4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807171"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834473"
 ---
 # <a name="qoe-view-details"></a>QoE 檢視詳細資料
  
-[視圖] 涵蓋從 QoE SQL 資料庫傳回資料最常見的案例。 它是用來建立自訂報表的建議視圖，而不是直接存取資料庫資料表;這是因為視圖更可能會維持與未來版本的向後相容性。
+檢視涵蓋從 QoE SQL 資料庫傳回資料時最常見的案例。 它是用來建立自訂報告的建議方式，而不是直接存取資料庫資料表;這是因為視圖很可能會讓未來的版本保持向後相容性。
   
-|**[視圖名稱]**|**說明**|
+|**視圖名稱**|**描述**|
 |:-----|:-----|
-|[AudioStreamDetail 視圖](audiostreamdetail.md) <br/> |儲存資料庫中每個音訊資料流程的相關資訊。  <br/> |
-|[MediaLine 視圖](medialine.md) <br/> |儲存資料庫中每個媒體線的相關資訊。 一個音訊會話通常包含一個音訊媒體線。 一個音訊與影片（A/V）會話通常包含一個音訊媒體線和一個影片媒體線;不過，如果使用會議裝置或使用圖庫視圖，該會話可能會包含兩個視頻媒體線。  <br/> |
-|[NetworkConfigurationSettings 視圖](networkconfigurationsettings.md) <br/> |儲存網路設定的相關資訊。  <br/> |
-|[[會話] 視圖](session-0.md) <br/> |儲存在資料庫中有記錄的會話的相關資訊。  <br/> |
-|[UserAgent 視圖](useragent-0.md) <br/> |儲存在資料庫中有記錄的會話中所涉及之使用者代理程式的相關資訊。  <br/> |
-|[VideoStreamDetail 視圖](videostreamdetail.md) <br/> |儲存資料庫中每個影片資料流程的相關資訊。  <br/> |
+|[AudioStreamDetail view](audiostreamdetail.md) <br/> |儲存資料庫中每個音訊資料流的資訊。  <br/> |
+|[MediaLine view](medialine.md) <br/> |儲存資料庫中每個媒體行的資訊。 一個音訊工作階段通常包含一個音訊媒體行。 一個音訊和視訊 (A/V) 工作階段通常包含一個音訊媒體行和一個視訊媒體行；不過，如果使用會議裝置或使用圖庫檢視，則工作階段可能包含兩個媒體行。  <br/> |
+|[NetworkConfigurationSettings view](networkconfigurationsettings.md) <br/> |儲存網路設定的資訊。  <br/> |
+|[會話視圖](session-0.md) <br/> |儲存在資料庫中擁有記錄之工作階段的資訊。  <br/> |
+|[UserAgent view](useragent-0.md) <br/> |儲存使用者代理程式的資訊，這些使用者代理程式與在資料庫中擁有記錄的工作階段相關。  <br/> |
+|[VideoStreamDetail view](videostreamdetail.md) <br/> |儲存在資料庫中每個視訊資料流的資訊。  <br/> |
    
 

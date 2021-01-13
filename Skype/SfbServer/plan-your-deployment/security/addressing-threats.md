@@ -1,8 +1,8 @@
 ---
-title: 針對商務用 Skype Server 的核心基礎結構解決威脅
+title: 定址商務用 Skype Server 的核心基礎結構威脅
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-description: 除了遵循商務用 Skype Server 部署的最佳做法之外，您還可以在部署的特定區域中查看、瞭解及解決任何需求，以協助確保安全性。
-ms.openlocfilehash: f48eac3393875c7ffbd7be93ca5f1e4568e0021f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 除了遵循商務用 Skype Server 部署的最佳作法之外，您還可以在部署的特定區域中查看、瞭解及解決任何需求，以確保安全性。
+ms.openlocfilehash: d959b20bed51e5c496f70cb107f5bd32670b8449
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815701"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832273"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>針對商務用 Skype Server 的核心基礎結構解決威脅
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>定址商務用 Skype Server 的核心基礎結構威脅
  
-除了遵循商務用 Skype Server 部署的最佳做法之外，您還可以在部署的特定區域中查看、瞭解及解決任何需求，以協助確保安全性。
+除了遵循商務用 Skype Server 部署的最佳作法之外，您還可以在部署的特定區域中查看、瞭解及解決任何需求，以確保安全性。
   
 ## <a name="in-this-section"></a>本節內容
 
-- [商務用 Skype Server 中的核心基礎結構最佳做法](best-practices.md)
+- [商務用 Skype Server 中核心基礎結構的最佳作法](best-practices.md)
     
 

@@ -1,41 +1,42 @@
 ---
-title: Edge 網路（規劃工具）
+title: 'Edge Network (規劃工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.EdgeNetwork
+- ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: 大部分的邊緣元件都是在周邊網路中部署。 下列元件構成周邊網路的邊緣拓撲。 除非另有說明，否則在商務用 Skype Server 2015 中，元件是 Edge 伺服器案例的一部分，且位於周邊網路中。 Edge 元件包括下列各項：
-ms.openlocfilehash: 33346bfdb91053d4633cfdfdbcdd00db3e5504c3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，這些元件是商務用 Skype 2015 Server 中的 Edge Server 案例的一部分，且位於周邊網路中。 Edge 元件包括：
+ms.openlocfilehash: e3cc16f7cea0ba57a2c9acca8e9ba8b8ccf5e4fc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816452"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834913"
 ---
-# <a name="edge-network-planning-tool"></a>Edge 網路（規劃工具）
+# <a name="edge-network-planning-tool"></a>Edge Network (規劃工具) 
  
-大部分的邊緣元件都是在周邊網路中部署。 下列元件構成周邊網路的邊緣拓撲。 除非另有說明，否則在商務用[Skype server 2015 中，元件是 Edge 伺服器案例](../../plan-your-deployment/edge-server-deployments/scenarios.md)的一部分，且位於周邊網路中。 Edge 元件包括下列各項：
+大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，這些元件是 [商務用 Skype 2015 server 中的 Edge server 案例](../../plan-your-deployment/edge-server-deployments/scenarios.md) 的一部分，且位於周邊網路中。 Edge 元件包括：
   
-- Edge 伺服器
+- Edge Server
     
-- 反向 proxy
+- 反向 Proxy
     
 - 防火牆
     
-- 控制器（可省略，且在內部網路上的邏輯位置）
+- Director (選用，並在內部網路上以邏輯方式放置) 
     
-- 針對調整後的邊緣拓撲（DNS 負載平衡或硬體負載平衡器）進行負載平衡
+- 調整式 Edge 拓撲的負載平衡 (DNS 負載平衡或硬體負載平衡器)
     
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 2015 中規劃 Edge 伺服器部署](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[在商務用 Skype Server 2015 中規劃 Edge Server 部署](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[商務用 Skype Server 2015 中的 Edge 伺服器系統需求](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[商務用 Skype Server 中的 Edge Server 系統需求2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

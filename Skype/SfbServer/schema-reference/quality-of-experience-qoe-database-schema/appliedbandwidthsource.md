@@ -1,8 +1,8 @@
 ---
 title: AppliedBandwidthSource 表格
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
-description: AppliedBandwidthSource 資料表是支援資料表。 每個記錄代表一個來源。
-ms.openlocfilehash: 875f6d105a2fef0bf710e57ec389bee4f2613c66
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: AppliedBandwidthSource 表格是支援的表格。 每筆記錄代表一個來源。
+ms.openlocfilehash: bf7e1be3b98bcd56fea16dbd7aa7171b056a7f3c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811441"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831403"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource 表格
  
-AppliedBandwidthSource 資料表是支援資料表。 每個記錄代表一個來源。
+AppliedBandwidthSource 表格是一種支援資料表，其中的每一項記錄都代表一種來源。
   
-|**左欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
+|**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
-|**AppliedBandwidthSourceKey** <br/> |int  <br/> |首選  <br/> |標識來源的唯一號碼。  <br/> |
-|**AppliedBandwidthSource** <br/> |Varchar （256）  <br/> |唯一  <br/> |這是強加頻寬上限的來源。 它描述頻寬限制的來源（例如，「原則伺服器」、「轉換伺服器」或「模態」）。  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |int  <br/> |主要  <br/> |用於識別來源的唯一號碼。  <br/> |
+|**AppliedBandwidthSource** <br/> |Varchar (256)   <br/> |Unique  <br/> |這是所採用的頻寬容量來源。 它說明頻寬限制來自 (，例如「原則伺服器」、「輪流伺服器」或「模態」 ) 。  <br/> |
    
 

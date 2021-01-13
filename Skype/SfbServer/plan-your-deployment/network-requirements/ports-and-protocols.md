@@ -1,8 +1,8 @@
 ---
 title: 伺服器的埠與通訊協定需求
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,24 +17,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：在實施商務用 Skype Server 之前，請先複查埠使用方式考慮。
-ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 227fcbccf815886c5afa55c843ba59688f471a29
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220383"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834303"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>伺服器的埠與通訊協定需求
  
 **摘要：** 在實施商務用 Skype Server 之前，請先複查埠使用方式考慮。
   
-商務用 Skype 伺服器需要開啟外部和內部防火牆上的特定埠。 此外，如果您的組織中已部署網際網路通訊協定安全性（IPsec），則必須停用傳遞音訊、影片及全景影片的埠範圍上的 IPsec。 
+商務用 Skype 伺服器需要開啟外部和內部防火牆上的特定埠。 此外，如果您的組織中已部署網際網路通訊協定安全性 (IPsec) ，IPsec 必須透過用於傳遞音訊、影片及全景影片的埠範圍加以停用。 
   
-雖然這種方式最初似乎有點令人望而生畏，但使用[商務用 Skype Server 2015 規劃工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)，進行規劃的工作量也會非常高。 當您已完成您計畫使用哪些功能的嚮導問題後，針對您所定義的每個網站，您可以在 Edge 管理報告中查看防火牆報告，並使用這裡所列的資訊來建立 yourfirewall 規則。 您也可以調整使用的名稱和 IP 位址，如需詳細資訊，請參閱[複查防火牆報告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 請記住，您可以將 Edge 系統管理員報告匯出至 Excel 試算表，而防火牆報告將會是檔案中的其中一個工作表。 
+雖然這種方式最初似乎有點令人望而生畏，但使用 [商務用 Skype Server 2015 規劃工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)，進行規劃的工作量也會非常高。 當您已完成您計畫使用哪些功能的嚮導問題後，針對您所定義的每個網站，您可以在 Edge 管理報告中查看防火牆報告，並使用這裡所列的資訊來建立 yourfirewall 規則。 您也可以調整使用的名稱和 IP 位址，如需詳細資訊，請參閱 [複查防火牆報告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 請記住，您可以將 Edge 系統管理員報告匯出至 Excel 試算表，而防火牆報告將會是檔案中的其中一個工作表。 
   
-您也可以在 [圖表] 表單中，透過查看[商務用 Skype Server 2015 文章的技術圖表](../../technical-diagrams.md)所連結的通訊協定工作負載海報，以找出這些表格中的資訊。
+您也可以在 [圖表] 表單中，透過查看 [商務用 Skype Server 2015 文章的技術圖表](../../technical-diagrams.md) 所連結的通訊協定工作負載海報，以找出這些表格中的資訊。
 > [!NOTE]
-> - 如果您要實現商務用 Skype Online （Microsoft 365 或 Office 365），請參閱[microsoft 365 和 office 365 URLs 及 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合式環境必須參考本主題，也會[規劃混合](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)式連線。
+> - 如果您要實現商務用 Skype Online (Microsoft 365 或 Office 365) 請參閱 [Microsoft 365 和 office 365 URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合式環境必須參考本主題，也會 [規劃混合](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)式連線。
 > - 您可以有硬體或軟體防火牆，不需要特定的模型或版本。 重要的是哪些埠是白名單，所以防火牆不會影響商務用 Skype Server 的運作。
   
 ## <a name="port-and-protocol-details"></a>埠與通訊協定詳細資料
@@ -44,84 +44,84 @@ ms.locfileid: "44220383"
 > [!NOTE]
 > 當商務用 Skype Server 啟動時，它會在 Windows 防火牆中開啟必要的埠。 在大多數普通的應用程式中，Windows 防火牆應該已經執行，但如果沒有使用商務用 Skype 伺服器，將無法運作。 
   
-如需 edge 元件的防火牆設定的詳細資訊，請參閱[商務用 Skype server 2015 中的 Edge Server 案例](../../plan-your-deployment/edge-server-deployments/scenarios.md)。 
+如需 edge 元件的防火牆設定的詳細資訊，請參閱 [商務用 Skype server 2015 中的 Edge Server 案例](../../plan-your-deployment/edge-server-deployments/scenarios.md)。 
   
 下表列出每個內部伺服器角色上必須開啟的埠。 
   
-**必要的伺服器埠（依伺服器角色）**
+**伺服器角色所 (的必要伺服器埠)**
 
-|伺服器角色|服務名稱|連接埠|Protocol (通訊協定)|附註|
+|伺服器角色|服務名稱|連接埠|Protocol (通訊協定)|注意事項|
 |:-----|:-----|:-----|:-----|:-----|
 |所有伺服器  |SQL 瀏覽器  |1434  |Udp  |SQL Browser 的中央管理存放區資料庫本地複寫複本。  |
-|前端伺服器  |商務用 Skype Server 前端服務  |5060  |TCP  |可選擇性地由 Standard Edition server 和前端伺服器用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
-|前端伺服器  |商務用 Skype Server 前端服務  |5061  | TCP （TLS） |由 Standard Edition server 和前端集區用於伺服器（MTLS）之間的所有內部 SIP 通訊、伺服器與用戶端（TLS）之間的 SIP 通訊，以及前端伺服器與轉送伺服器（MTLS）之間的 SIP 通訊。 也用來與監控伺服器進行通訊。  |
-| 前端伺服器 |商務用 Skype Server 前端服務  |444  | HTTPS: <br/> TCP  |用於主要（管理會議狀態之商務用 Skype Server 元件）和個別伺服器之間的 HTTPS 通訊。  <br/> 此埠也用於 Survivable 分支裝置和前端伺服器之間的 TCP 通訊。  |
-|前端伺服器  |商務用 Skype Server 前端服務  |135  |DCOM 和遠端程序呼叫（RPC）  |用於以 DCOM 為基礎的作業，例如移動使用者、使用者複製器同步處理及通訊錄同步處理。  |
-|前端伺服器  |商務用 Skype Server IM 會議服務  |5062  |TCP  |用於立即訊息（IM）會議的傳入 SIP 要求。  |
-|前端伺服器  |商務用 Skype Server Web 會議服務  |8057  |TCP （TLS）  |用於聆聽來自用戶端的持續性共用物件模型（PSOM）連線。  |
-|前端伺服器  |商務用 Skype Server Web 會議相容性服務  |8058  |TCP （TLS）  |用於聆聽 Live Meeting 用戶端和舊版商務用 Skype Server 的持續性共用物件模型（PSOM）連線。  |
-|前端伺服器  |商務用 Skype Server Audio/Video 會議服務  |5063  |TCP  |用於音訊/視頻（A/V）會議的傳入 SIP 要求。  |
+|前端伺服器  |商務用 Skype Server Front-End 服務  |5060  |TCP  |可選擇性地由 Standard Edition server 和前端伺服器用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
+|前端伺服器  |商務用 Skype Server Front-End 服務  |5061  | TCP (TLS)  |由 Standard Edition server 和前端集區用於伺服器 (MTLS) 、伺服器與用戶端之間的 SIP 通訊 (TLS) 及前端伺服器與轉送伺服器之間的 SIP 通訊 (MTLS) 。 也用來與監控伺服器進行通訊。  |
+| 前端伺服器 |商務用 Skype Server Front-End 服務  |444  | HTTPS: <br/> TCP  |用於可管理會議狀態的 (商務用 Skype Server 元件) 和個別伺服器的商務用 Skype Server 元件之間的 HTTPS 通訊。  <br/> 此埠也用於 Survivable 分支裝置和前端伺服器之間的 TCP 通訊。  |
+|前端伺服器  |商務用 Skype Server Front-End 服務  |135  |DCOM 和遠端過程呼叫 (RPC)   |用於以 DCOM 為基礎的作業，例如移動使用者、使用者複製器同步處理及通訊錄同步處理。  |
+|前端伺服器  |商務用 Skype Server IM 會議服務  |5062  |TCP  |用於立即訊息 (IM) 會議的傳入 SIP 要求。  |
+|前端伺服器  |商務用 Skype Server Web 會議服務  |8057  |TCP (TLS)   |用於聆聽持續性共用物件模型 (PSOM) 來自用戶端的連線。  |
+|前端伺服器  |商務用 Skype Server Web 會議相容性服務  |8058  |TCP (TLS)   |用於聆聽持續性共用物件模型 (PSOM) 從 Live Meeting 用戶端和舊版商務用 Skype Server 的連線。  |
+|前端伺服器  |商務用 Skype Server Audio/Video 會議服務  |5063  |TCP  |用於音訊/視頻 (A/V) 會議的傳入 SIP 要求。  |
 |前端伺服器  |商務用 Skype Server Audio/Video 會議服務  |57501-65535  |TCP/UDP  |用於視訊會議的媒體埠範圍。  |
-|前端伺服器  |商務用 Skype Server Web 相容性服務  |80  |HTTP:  |用於在未使用 HTTPS 時，從前端伺服器到網頁伺服器陣列 Fqdn （IIS web 元件所使用的 URLs）的通訊。  |
-|前端伺服器  |商務用 Skype Server Web 相容性服務  |443  |HTTPS:  |用於從前端伺服器到網頁伺服器陣列 Fqdn （IIS web 元件所使用的 URLs）的通訊。  |
+|前端伺服器  |商務用 Skype Server Web 相容性服務  |80  |HTTP:  |用於從前端伺服器到網頁伺服器陣列 Fqdn 的通訊 (IIS web 元件所使用的 URLs) 不使用 HTTPS 時。  |
+|前端伺服器  |商務用 Skype Server Web 相容性服務  |443  |HTTPS:  |用於從前端伺服器到網頁伺服器陣列 Fqdn 的通訊 (IIS web 元件所使用的 URLs) 。  |
 |前端伺服器  |商務用 Skype Server Web 相容性服務  |8080  |TCP 和 HTTP  |供外部存取的 web 元件使用。  |
-|前端伺服器  |網頁伺服器元件  |4443  |HTTPS:  |HTTPS （來自反向 Proxy）和 HTTPS 前端集區間的自動探索登入通訊。  |
-|前端伺服器  |網頁伺服器元件  |8060  |TCP （MTLS）  ||
-|前端伺服器  |網頁伺服器元件  |8061  |TCP （MTLS）  ||
-|前端伺服器  |行動服務元件  |5086  |TCP （MTLS）  |行動服務內部程式使用的 SIP 埠  |
-|前端伺服器  |行動服務元件  |5087  |TCP （MTLS）  |行動服務內部程式使用的 SIP 埠  |
+|前端伺服器  |網頁伺服器元件  |4443  |HTTPS:  |HTTPS (，來自反向 Proxy) 與 HTTPS 前端集區間的自動探索登入通訊。  |
+|前端伺服器  |網頁伺服器元件  |8060  |TCP (MTLS)   ||
+|前端伺服器  |網頁伺服器元件  |8061  |TCP (MTLS)   ||
+|前端伺服器  |行動服務元件  |5086  |TCP (MTLS)   |行動服務內部程式使用的 SIP 埠  |
+|前端伺服器  |行動服務元件  |5087  |TCP (MTLS)   |行動服務內部程式使用的 SIP 埠  |
 |前端伺服器  |行動服務元件  |443  |HTTPS:  ||
-|前端伺服器  |商務用 Skype Server 會議助理服務（電話撥入式會議）  |5064  |TCP  |用於電話撥入式會議的傳入 SIP 要求。  |
-|前端伺服器  |商務用 Skype Server 會議助理服務（電話撥入式會議）  |5072  |TCP  |用於接聽的傳入 SIP 要求（撥打電話會議）。  |
+|前端伺服器  |商務用 Skype Server 會議助理服務 (電話撥入式會議)   |5064  |TCP  |用於電話撥入式會議的傳入 SIP 要求。  |
+|前端伺服器  |商務用 Skype Server 會議助理服務 (電話撥入式會議)   |5072  |TCP  |用於在會議) 中傳入的 SIP 要求 (撥號語音應答。  |
 |同時執行組合轉送伺服器的前端伺服器  |商務用 Skype Server 中繼服務  |5070  |TCP  |由轉送伺服器用於來自前端伺服器到轉送伺服器的傳入要求。  |
-|同時執行組合轉送伺服器的前端伺服器  |商務用 Skype Server 中繼服務  |5067  |TCP （TLS）  |用於從 PSTN 閘道到轉送伺服器的傳入 SIP 要求。  |
+|同時執行組合轉送伺服器的前端伺服器  |商務用 Skype Server 中繼服務  |5067  |TCP (TLS)   |用於從 PSTN 閘道到轉送伺服器的傳入 SIP 要求。  |
 |同時執行組合轉送伺服器的前端伺服器  |商務用 Skype Server 中繼服務  |5068  |TCP  |用於從 PSTN 閘道到轉送伺服器的傳入 SIP 要求。  |
 |同時執行組合轉送伺服器的前端伺服器  |商務用 Skype Server 中繼服務  |5081  |TCP  |用於從轉送伺服器到 PSTN 閘道的傳出 SIP 要求。  |
-|同時執行組合轉送伺服器的前端伺服器  |商務用 Skype Server 中繼服務  |5082  |TCP （TLS）  |用於從轉送伺服器到 PSTN 閘道的傳出 SIP 要求。  |
+|同時執行組合轉送伺服器的前端伺服器  |商務用 Skype Server 中繼服務  |5082  |TCP (TLS)   |用於從轉送伺服器到 PSTN 閘道的傳出 SIP 要求。  |
 |前端伺服器  |商務用 Skype Server 應用程式共用服務  |5065  |TCP  |用於應用程式共用的傳入 SIP 聆聽要求。  |
 |前端伺服器  |商務用 Skype Server 應用程式共用服務  |49152-65535  |TCP  |用於應用程式共用的媒體埠範圍。  |
-|前端伺服器  |商務用 Skype Server 會議宣告服務  |5073  |TCP  |用於商務用 Skype Server 會議宣告服務的傳入 SIP 要求（亦即，電話撥入式會議）。  |
+|前端伺服器  |商務用 Skype Server 會議宣告服務  |5073  |TCP  |用於商務用 Skype Server 會議宣告服務 (的傳入 SIP 要求，也就是用於電話撥入式會議) 。  |
 |前端伺服器  |商務用 Skype Server 通話駐留服務  |5075  |TCP  |用於通話駐留應用程式的傳入 SIP 要求。  |
 |前端伺服器  |商務用 Skype Server 音訊測試服務  |5076  |TCP  |用於音訊測試服務的傳入 SIP 要求。  |
-|前端伺服器  |不適用  |5066  |TCP  |用於輸出增強型9-1-1 （E9-1-1）閘道。  |
+|前端伺服器  |不適用  |5066  |TCP  |用於輸出增強型 9-1-1 (E9-1-1) 閘道。  |
 |前端伺服器  |商務用 Skype Server 回應群組服務  |5071  |TCP  |用於回應群組應用程式的傳入 SIP 要求。  |
-|前端伺服器  |商務用 Skype Server 回應群組服務  |8404  |TCP （MTLS）  |用於回應群組應用程式的傳入 SIP 要求。  |
+|前端伺服器  |商務用 Skype Server 回應群組服務  |8404  |TCP (MTLS)   |用於回應群組應用程式的傳入 SIP 要求。  |
 |前端伺服器  |商務用 Skype Server 頻寬原則服務  |5080  |TCP  |用於 A/V Edge 輪流流量的頻寬原則服務的通話許可控制。  |
 |前端伺服器  |商務用 Skype Server 檔案共用伺服器存取  |445   |SMB/TCP  | 用來取得通訊錄、會議內容，以及儲存在檔案共用伺服器上的其他專案。  |
 |前端伺服器  |商務用 Skype Server 頻寬原則服務  |448  |TCP  |用於商務用 Skype Server 頻寬原則服務的通話許可控制。  |
 |中央管理存放區所在的前端伺服器  | 商務用 Skype Server 主複製器代理程式服務 |445  |TCP  |用來將設定資料從中央管理存放區推入執行商務用 Skype 伺服器的伺服器。  |
 |所有伺服器  |SQL 瀏覽器  |1434  |Udp  |本機 SQL Server 實例中中央管理存放區資料的本機複製副本的 SQL 瀏覽器  |
-|所有內部伺服器  |各種  |49152-57500  |TCP/UDP  |用於所有內部伺服器的音訊會議的媒體埠範圍。 由終止音訊的所有伺服器使用：前端伺服器（適用于商務用 Skype Server 會議應答服務、商務用 skype Server 會議宣告服務，以及商務用 Skype Server Audio/Video 會議服務）和轉送伺服器。  |
+|所有內部伺服器  |各種  |49152-57500  |TCP/UDP  |用於所有內部伺服器的音訊會議的媒體埠範圍。 由終止音訊的所有伺服器使用：前端伺服器 (用於商務用 Skype Server 會議應答服務、商務用 Skype Server 會議宣告服務，以及商務用 Skype Server Audio/Video 會議服務) 和轉送伺服器。  |
 |Office Web Apps Server  ||443  ||供商務用 Skype Server 用來連線到 Office Web Apps Server。  |
-|董事  |商務用 Skype Server 前端服務  |5060  |TCP  |選擇性地用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
-|董事  |商務用 Skype Server 前端服務  |444  |HTTPS:  <br/> TCP  |前端和 Director 之間的伺服器間通訊。 此外，用戶端憑證發行（至前端伺服器）或驗證用戶端憑證是否已發佈。  |
-|董事  |商務用 Skype Server Web 相容性服務  |80  |TCP  |用於從 Director 到 web 伺服器陣列 Fqdn （IIS web 元件所使用的 URLs）的初始通訊。 在正常作業中，會使用埠443和通訊協定類型 TCP 切換到 HTTPS 流量。  |
-|董事  |商務用 Skype Server Web 相容性服務  |443  |HTTPS:  |用於從 Director 到網頁伺服器陣列 Fqdn （IIS web 元件所使用的 URLs）的通訊。  |
-|董事  |商務用 Skype Server 前端服務  |5061  |TCP  |用於伺服器與用戶端連線之間的內部通訊。  |
+|董事  |商務用 Skype Server Front-End 服務  |5060  |TCP  |選擇性地用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
+|董事  |商務用 Skype Server Front-End 服務  |444  |HTTPS:  <br/> TCP  |前端和 Director 之間的伺服器間通訊。 此外，用戶端憑證發行 (至前端伺服器) 或驗證是否已發佈用戶端憑證。  |
+|董事  |商務用 Skype Server Web 相容性服務  |80  |TCP  |用於從 Director 到 web 伺服器陣列 Fqdn (的初始通訊) IIS web 元件所使用的 URLs。 在正常作業中，會使用埠443和通訊協定類型 TCP 切換到 HTTPS 流量。  |
+|董事  |商務用 Skype Server Web 相容性服務  |443  |HTTPS:  |用於從 Director 到 web 伺服器陣列 Fqdn 的通訊 (IIS web 元件所使用的 URLs) 。  |
+|董事  |商務用 Skype Server Front-End 服務  |5061  |TCP  |用於伺服器與用戶端連線之間的內部通訊。  |
 |轉送伺服器  |商務用 Skype Server 中繼服務  |5070  |TCP  |由轉送伺服器用於來自前端伺服器的傳入要求。  |
-|轉送伺服器  |商務用 Skype Server 中繼服務  |5067  |TCP （TLS）  |用於來自 PSTN 閘道的傳入 SIP 要求。  |
+|轉送伺服器  |商務用 Skype Server 中繼服務  |5067  |TCP (TLS)   |用於來自 PSTN 閘道的傳入 SIP 要求。  |
 |轉送伺服器  |商務用 Skype Server 中繼服務  |5068  |TCP  |用於來自 PSTN 閘道的傳入 SIP 要求。  |
-|轉送伺服器  |商務用 Skype Server 中繼服務  |5070  |TCP （MTLS）  |用於來自前端伺服器的 SIP 要求。  |
-|Persistent Chat 前端伺服器  |Persistent Chat SIP  |5041  |TCP （MTLS）  ||
-|Persistent Chat 前端伺服器  |Persistent Chat Windows Communication Foundation （WCF）  |881  |TCP （TLS）及 TCP （MTLS）  ||
-|Persistent Chat 前端伺服器  |Persistent Chat File 傳遞服務  |443  |TCP （TLS）  ||
+|轉送伺服器  |商務用 Skype Server 中繼服務  |5070  |TCP (MTLS)   |用於來自前端伺服器的 SIP 要求。  |
+|Persistent Chat 前端伺服器  |Persistent Chat SIP  |5041  |TCP (MTLS)   ||
+|Persistent Chat 前端伺服器  |Persistent Chat Windows Communication Foundation (WCF)   |881  |TCP (TLS) 和 TCP (MTLS)   ||
+|Persistent Chat 前端伺服器  |Persistent Chat File 傳遞服務  |443  |TCP (TLS)   ||
    
 > [!NOTE]
-> 某些遠端呼叫控制案例需要在前端伺服器或 Director 和 PBX 之間建立 TCP 連線。 雖然商務用 Skype 伺服器不再使用 TCP 埠5060，但在遠端呼叫控制部署期間，您會建立信任的伺服器設定，此設定會將 RCC 線路伺服器 FQDN 與前端伺服器或 Director 用來連接 PBX 系統的 TCP 通訊埠產生關聯。 如需詳細資訊，請參閱商務用 Skype Server 管理命令介面檔中的**CsTrustedApplicationComputer** Cmdlet。
+> 某些遠端呼叫控制案例需要在前端伺服器或 Director 和 PBX 之間建立 TCP 連線。 雖然商務用 Skype 伺服器不再使用 TCP 埠5060，但在遠端呼叫控制部署期間，您會建立信任的伺服器設定，此設定會將 RCC 線路伺服器 FQDN 與前端伺服器或 Director 用來連接 PBX 系統的 TCP 通訊埠產生關聯。 如需詳細資訊，請參閱商務用 Skype Server 管理命令介面檔中的 **CsTrustedApplicationComputer** Cmdlet。
   
-針對只使用硬體負載平衡的集區（非 DNS 負載平衡），下表顯示需要開啟硬體負載平衡器的埠。
+針對只使用硬體負載平衡的集區 (不) DNS 負載平衡]，下表顯示需要開啟硬體負載平衡器的埠。
   
 **硬體負載平衡器埠（如果只使用硬體負載平衡）**
 
 |負載平衡器|連接埠|Protocol (通訊協定)|
 |:-----|:-----|:-----|
-|前端伺服器負載平衡器  |5061  |TCP （TLS）  |
+|前端伺服器負載平衡器  |5061  |TCP (TLS)   |
 |前端伺服器負載平衡器  |444  |HTTPS:  |
-|前端伺服器負載平衡器  |135  |DCOM 和遠端程序呼叫（RPC）  |
+|前端伺服器負載平衡器  |135  |DCOM 和遠端過程呼叫 (RPC)   |
 |前端伺服器負載平衡器  |80  |HTTP:  |
 |前端伺服器負載平衡器  |8080  |TCP-用戶端和裝置對來自前端伺服器-用戶端和裝置的根憑證的驗證  |
 |前端伺服器負載平衡器  |443  |HTTPS:  |
-|前端伺服器負載平衡器  |4443  |HTTPS （來自反向 proxy）  |
+|前端伺服器負載平衡器  |4443  |反向 proxy 中的 HTTPS ()   |
 |前端伺服器負載平衡器  |5072  |TCP  |
 |前端伺服器負載平衡器  |5073  |TCP  |
 |前端伺服器負載平衡器  |5075  |TCP  |
@@ -130,11 +130,11 @@ ms.locfileid: "44220383"
 |前端伺服器負載平衡器  |5080  |TCP  |
 |前端伺服器負載平衡器  |448  |TCP  |
 |轉送伺服器負載平衡器  |5070  |TCP  |
-|前端伺服器負載平衡器（若集區也會執行轉送伺服器）  |5070  |TCP  |
+|前端伺服器負載平衡器 (如果集區也執行轉送伺服器)   |5070  |TCP  |
 |Director 負載平衡器  |443  |HTTPS:  |
 |Director 負載平衡器  |444  |HTTPS:  |
 |Director 負載平衡器  |5061  |TCP  |
-|Director 負載平衡器  |4443  |HTTPS （來自反向 proxy）  |
+|Director 負載平衡器  |4443  |反向 proxy 中的 HTTPS ()   |
    
 使用 DNS 負載平衡的前端集區和 Director 集區也必須部署硬體負載平衡器。 下表顯示這些硬體負載平衡器上需要開啟的埠。
   
@@ -145,38 +145,38 @@ ms.locfileid: "44220383"
 |前端伺服器負載平衡器  |80  |HTTP:  |
 |前端伺服器負載平衡器  |443  |HTTPS:  |
 |前端伺服器負載平衡器  |8080  |TCP-用戶端和裝置對來自前端伺服器-用戶端和裝置的根憑證的驗證  |
-|前端伺服器負載平衡器  |4443  |HTTPS （來自反向 proxy）  |
+|前端伺服器負載平衡器  |4443  |反向 proxy 中的 HTTPS ()   |
 |Director 負載平衡器  |443  |HTTPS:  |
-|Director 負載平衡器  |4443  |HTTPS （來自反向 proxy）  |
+|Director 負載平衡器  |4443  |反向 proxy 中的 HTTPS ()   |
 
 **必要的用戶端埠**
 
-|元件|連接埠|Protocol (通訊協定)|附註|
+|元件|連接埠|Protocol (通訊協定)|注意事項|
 |:-----|:-----|:-----|:-----|
-|用戶端  |67/68  |Dhcp  |由商務用 Skype Server 用來尋找註冊機 FQDN （亦即，如果 DNS SRV 失敗且未設定手動設定）。  |
-|用戶端  |443  |TCP （TLS）  |用於外部使用者存取的用戶端對伺服器 SIP 流量。  |
-|用戶端  |443  |TCP （PSOM/TLS）  |用於外部使用者存取 web 會議會話。  |
-|用戶端  |443  |TCP （STUN/MSTURN）  |用於外部使用者存取 A/V 會話與媒體（TCP）  |
-|用戶端  |3478  |UDP （STUN/MSTURN）  |用於外部使用者存取 A/V 會話和媒體（UDP）  |
-|用戶端  |5061  |TCP （MTLS）  |用於外部使用者存取的用戶端對伺服器 SIP 流量。  |
+|用戶端  |67/68  |Dhcp  |由商務用 Skype Server 用來尋找註冊機 FQDN (也就是說，如果 DNS SRV 失敗，且未設定) 手動設定。  |
+|用戶端  |443  |TCP (TLS)   |用於外部使用者存取的用戶端對伺服器 SIP 流量。  |
+|用戶端  |443  |TCP (PSOM/TLS)   |用於外部使用者存取 web 會議會話。  |
+|用戶端  |443  |TCP (STUN/MSTURN)   |用於外部使用者存取 A/V 會話和媒體 (TCP)   |
+|用戶端  |3478  |UDP (STUN/MSTURN)   |用於外部使用者存取 A/V 會話和媒體 (UDP)   |
+|用戶端  |5061  |TCP (MTLS)   |用於外部使用者存取的用戶端對伺服器 SIP 流量。  |
 |用戶端  |6891-6901  |TCP  |用於商務用 Skype 用戶端和舊版用戶端之間的檔案傳輸。  |
-|用戶端  |1024-65535\*  |TCP/UDP  |音訊埠範圍（最少需要20個埠）  |
-|用戶端  |1024-65535\*  |TCP/UDP  |影片埠範圍（最少需要20個埠）。  |
-|用戶端  |1024-65535\*  |TCP  |對等檔案傳輸（適用于會議檔案傳輸，用戶端會使用 PSOM）。  |
-|用戶端  |1024-65535\*  |TCP  |應用程式共用。  |
-|Aastra 6721ip 公共區域電話  <br/> Aastra 6725ip 電話機  <br/> HP 4110 IP 電話（公共區域電話）  <br/> HP 4120 IP 電話 (電話機)  <br/> Polycom CX500 IP 公共區域電話  <br/> Polycom CX600 IP 電話機  <br/> Polycom CX700 IP 服務台電話  <br/> Polycom CX3000 IP 會議電話  |67/68  |Dhcp  |由所列裝置使用以尋找商務用 Skype 伺服器憑證、布建 FQDN 和註冊機 FQDN。  |
+|用戶端  |1024-65535 \*  |TCP/UDP  |音訊埠範圍 (至少需要20個埠)   |
+|用戶端  |1024-65535 \*  |TCP/UDP  |影片埠範圍 (至少需要20個埠) 。  |
+|用戶端  |1024-65535 \*  |TCP  |對等檔案傳輸 (若為會議檔案傳輸，用戶端會使用 PSOM) 。  |
+|用戶端  |1024-65535 \*  |TCP  |應用程式共用。  |
+|Aastra 6721ip 公共區域電話  <br/> Aastra 6725ip 電話機  <br/> HP 4110 IP 電話 (通用區域電話)   <br/> HP 4120 IP 電話 (電話機)  <br/> Polycom CX500 IP 公共區域電話  <br/> Polycom CX600 IP 電話機  <br/> Polycom CX700 IP 服務台電話  <br/> Polycom CX3000 IP 會議電話  |67/68  |Dhcp  |由所列裝置使用以尋找商務用 Skype 伺服器憑證、布建 FQDN 和註冊機 FQDN。  |
    
-\*若要設定這些媒體類型的特定埠，請使用 CsConferencingConfiguration Cmdlet （ClientMediaPortRangeEnabled、ClientMediaPort 及 ClientMediaPortRange 參數）。
+\* 若要設定這些媒體類型的特定埠，請使用 CsConferencingConfiguration Cmdlet (ClientMediaPortRangeEnabled、ClientMediaPort 及 ClientMediaPortRange 參數) 。
   
 > [!NOTE]
 > 商務用 Skype 用戶端的安裝程式會自動在用戶端電腦上建立所需的作業系統防火牆例外狀況。 
 
 > [!NOTE]
-> 在用戶端必須透過組織防火牆的任何情況下（例如，其他組織所主控的外部通訊或會議），都需要用於外部使用者存取的埠。 
+> 在用戶端必須透過組織的防火牆 (的任何情況下（例如，其他組織所主控的外部通訊或會議) ），都需要用於外部使用者存取的埠。 
   
 ## <a name="ipsec-exceptions"></a>IPsec 例外狀況
 
-針對網際網路通訊協定安全性（IPsec）（請參閱 IETF RFC 4301-4309）已部署的商業網路，必須透過用於傳遞音訊、影片及全景影片的埠範圍停用 IPsec。 為了避免在媒體連接埠分配期間，因為 IPSec 交涉而導致出現延遲現象，建議您這麼做。
+針對網際網路通訊協定安全性 (IPsec)  (的商業網路請參閱 IETF RFC 4301-4309) 已部署，IPsec 必須透過用於傳遞音訊、影片及全景影片的埠範圍加以停用。 為了避免在媒體連接埠分配期間，因為 IPSec 交涉而導致出現延遲現象，建議您這麼做。
   
 下表說明建議採用的 IPSec 例外設定。 
   
@@ -188,8 +188,8 @@ ms.locfileid: "44220383"
 |A/V Edge Server (輸入的外部流量)  |任何  |A/V Edge Server (外部流量)  |UDP 和 TCP  |任何  |任何  |不要驗證  |
 |A/V Edge Server (輸出的內部流量)  |A/V Edge Server (內部流量)  |任何  |UDP &amp; TCP  |任何  |任何  |不要驗證  |
 |A/V Edge Server (輸出的外部流量)  |A/V Edge Server (外部流量)  |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|中繼伺服器 (輸入流量)  |任何  |調解  <br/> 伺服器  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|中繼伺服器 (輸出流量)  |調解  <br/> 伺服器  |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
+|中繼伺服器 (輸入流量)  |任何  |調解  <br/> 伺服器 (s)   |UDP 和 TCP  |任何  |任何  |不要驗證  |
+|中繼伺服器 (輸出流量)  |調解  <br/> 伺服器 (s)   |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
 |會議服務員 (輸入流量)  |任何  |執行會議服務員的前端伺服器  |UDP 和 TCP  |任何  |任何  |不要驗證  |
 |會議服務員 (輸出流量)  |執行會議服務員的前端伺服器  |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
 |A/V 會議 (輸入流量)  |任何  |前端伺服器  |UDP 和 TCP  |任何  |任何  |不要驗證  |

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 視訊的螢幕畫面分享
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -12,189 +12,189 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: 商務用 Skype Server 規劃與影片畫面共用的配置資訊（VbSS）
-ms.openlocfilehash: f0d474772b94389c1d69264be61b3bee2b46a385
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '商務用 Skype Server 的規劃和設定資訊，以影片的螢幕共用 (VbSS) '
+ms.openlocfilehash: 6c24ad9e2f74495fc616a66472f338f1b0b281d4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817043"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832763"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>商務用 Skype Server 視訊的螢幕畫面分享 
  
-商務用 Skype Server 2015 中的影片畫面共用（VbSS）現已可供下載：[商務用 Skype server 2015 累計更新 KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)。 VbSS 隨附于商務用 Skype Server 2019。
+在商務用 Skype Server 2015 中，影片的畫面 (VbSS) 現在可供下載： [商務用 Skype server 2015 累計更新 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)。 VbSS 隨附于商務用 Skype Server 2019。
   
-以影片為基礎的畫面共用或 VbSS，會隨著 Lync 螢幕共用而增長。 VbSS 與傳統螢幕共用的差異，必須與所使用的基本協定以及其 excel 位於何處。 螢幕共用使用遠端桌面通訊協定（RDP），這相當於在人員電腦之間建立數以千計的1對1會話。 較新的技術（VbSS）會使用使用者資料包通訊協定（UDP）。
+以影片為基礎的螢幕共用或 VbSS，會成長至 Lync 螢幕共用。 VbSS 與傳統畫面共用之間的差異，必須與所用的基礎通訊協定及 excel 的定義相同。 螢幕共用使用遠端桌面通訊協定 (RDP) ，它非常適合在人員的電腦之間建立數千個1對1會話。 更新的技術 VbSS 會使用使用者資料包通訊協定 (UDP) 。
   
-商務用 Skype Server 想要改善人員的1對1，以及其一對多（多方）交談和會議體驗。 VbSS 會使用媒體平臺（依賴 UDP 做為基礎通訊協定），目的是改善影片啟動時間、觀賞品質（尤其是您正在觀看的內容是快速的移動），以及整體的可靠性。
+商務用 Skype 伺服器想要提升人員的1對1，以及他們的一對多 (多方) 交談和會議經驗。 VbSS 會利用以 UDP 為基礎通訊協定) 的媒體平臺 (，其目的是為了縮短影片的開始時間，在您所觀賞的情況下，您所看到的內容的觀賞品質 (尤其是在您所觀賞的情況下，您所看到的內容的) 速度和整體可靠性。
   
-改善螢幕共用的其中一個原因，就是 VbSS 和 RDP 之間的轉換會盡可能順暢地進行。 由於 VbSS 是在商務用 Skype Server 的螢幕共用中所使用的基礎技術的更新，因此，除非您是在網路流量中查看 SIP 詳細資料，或是您要共用的內容，否則可能難以偵測到您正在使用的技術為快速移動或立體。 例如，如果您的工作場所有許多舊版用戶端，則在您的會議和交談中，RDP 仍可提供安全的故障。 商務用 Skype Server 在用戶端連線時，會使用內部邏輯來決定要套用哪兩種方法（VbSS 或傳統螢幕共用）。 在情況下，RDP 可以和將取代為 VbSS，因此您的流覽體驗不會中斷。
+改善螢幕共用的目的之一是，在 VbSS 和 RDP 之間的轉變會盡可能順利進行。 因為 VbSS 是用於商務用 Skype Server 之螢幕共用中所用的基礎技術更新，所以除非您在網路流量中查看 SIP 詳細資料，或是要共用快移或立體的內容，否則可能很難偵測出您要使用的技術。 例如，如果您的工作場所有許多舊版用戶端，則 RDP 仍可作為您的會議和交談的安全。 商務用 Skype Server 使用內部邏輯來決定兩種方法中的哪一種 (VbSS 或傳統的螢幕共用) 在用戶端連線時套用。 當情況呼叫它時，RDP 可以和會取代 VbSS，因此您的觀賞體驗不會中斷。
   
 ## <a name="planning"></a>規劃
 
-### <a name="vbss-pros-and-cons"></a>VbSS 的優點與缺點
+### <a name="vbss-pros-and-cons"></a>VbSS 優點和缺點
 
-切換到 VbSS 旨在改善三項主要功能：
+切換至 VbSS 旨在進行三項重要改進：
   
-1. 進行螢幕共用（最多5%）與 RDP 單獨比較，以獲得更可靠的對比。
+1. 將螢幕共用 (高達5% 的 ) 比獨立于 RDP 更可靠。
 
-2. 讓會話設定和影片體驗與 RDP （半時間）更快速，且每秒的畫面改善6:1。
+2. 將會話設定和影片體驗與 RDP 個別相較于 RDP (安裝程式的速度提高了一半，6:1 但每秒幀數的) 都會提高。
 
-3. 在低頻寬情況下，即使是在共用高運動內容（例如3D 圖形）時，它的運作效果都比 RDP 要好得多。
+3. 即使在共用高運動內容時（例如立體圖形），在低頻寬條件下，它的運作方式要好于 RDP。
     
-請記住，這些數位依賴于健康情況和對您網路的適當效能調整，如果您的用戶端在行動裝置上，也可能會包含您自己的外部網路。
+請記住，這些數位取決於您網路的健康情況和適當效能調整，如果您的用戶端在行動裝置上，可能會包含您自己的網路。
   
-您也應該注意，您的共用內容的一些逼真度/crispness 已經過大量的可靠性、速度和效能。 在大多數情況下，使用者不會看到這種情況。
+您也應該知道，共用內容的一些逼真度/crispness 已針對可靠性、速度和效能而提高效益。 在大多數情況下，使用者不會看到這種情況。
   
 ### <a name="ports-and-protocols"></a>連接埠和通訊協定
 
-**所需的伺服器埠**
+**必要的伺服器埠**
 
-|**伺服器角色**|**服務名稱**|**埠或埠範圍**|**通訊協定**|**筆記**|
+|**伺服器角色**|**服務名稱**|**埠或埠範圍**|**Protocol** (通訊協定)|**附註**|
 |:-----|:-----|:-----|:-----|:-----|
-|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |5065  <br/> |TCP-OUT  <br/> |用於應用程式共用的傳入 SIP 偵聽要求。  <br/> |
-|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |用來共用應用程式的媒體埠範圍。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |5065  <br/> |TCP  <br/> |用於應用程式共用的傳入 SIP 聆聽要求。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |用於應用程式共用的媒體埠範圍。  <br/> |
    
-**所需的用戶端埠**
+**必要的用戶端埠**
 
-|**元件**|**埠範圍**|**通訊協定**|**筆記**|
+|**元件**|**連接埠範圍**|**Protocol** (通訊協定)|**附註**|
 |:-----|:-----|:-----|:-----|
-|台  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |應用程式共用。  <br/> |
+|用戶端  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |應用程式共用。  <br/> |
    
-如果已啟用下列媒體埠的 QoS，且 VbSS 已啟用，則在包含桌面共用作為 MCU 的會議期間，就會使用下方以粗體顯示的視訊連接埠設定，以供螢幕共用流量使用。 
+如果已啟用下列媒體埠的 QoS，而且 VbSS 也已啟用，則在包含桌面共用的會議期間，您的畫面共用流量會使用以粗體顯示的影片埠設定。 
   
 > [!IMPORTANT]
-> 這些設定是一個特殊的情況，在同時執行這兩個功能時，必須使用這些確切的設定。 這會覆寫 [QoS][檔](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx)中的其他建議設定。 針對應用程式共用，除了定義這些埠值之外，您還需要在 QoS GPO 中指定 ASMCUSVC。 
+> 這些設定為特殊案例，在同時執行這兩種功能時，必須使用這些設定。 這會覆寫 [QoS 檔](https://technet.microsoft.com/library/gg405409%28v=ocs.15%29.aspx)中的其他建議設定。 針對應用程式共用，除了定義這些埠值之外，還需要在 QoS GPO 中指定 ASMCUSVC.exe。 
   
-**應用程式伺服器 QoS/VbSS 必要的設定**
+**Application Server QoS/VbSS 必要設定**
 
-|**Property**|**埠值**|**通訊協定**|
+|**屬性**|**埠值**|**Protocol** (通訊協定)|
 |:-----|:-----|:-----|
-|AudioPortStart  <br/> |49152  <br/> |UDP-IN  <br/> |
-|AudioPortCount  <br/> |8348  <br/> |UDP-IN  <br/> |
-|**VideoPortStart** <br/> |**57501** <br/> |UDP-IN  <br/> |
-|**VideoPortCount** <br/> |**8034** <br/> |UDP-IN  <br/> |
-|AppSharingPortStart  <br/> |40803  <br/> |TCP-OUT  <br/> |
-|AppSharingPortCount  <br/> |8348  <br/> |TCP-OUT  <br/> |
+|AudioPortStart  <br/> |49152  <br/> |Udp  <br/> |
+|AudioPortCount  <br/> |8348  <br/> |Udp  <br/> |
+|**VideoPortStart** <br/> |**57501** <br/> |Udp  <br/> |
+|**VideoPortCount** <br/> |**8034** <br/> |Udp  <br/> |
+|AppSharingPortStart  <br/> |40803  <br/> |TCP  <br/> |
+|AppSharingPortCount  <br/> |8348  <br/> |TCP  <br/> |
    
 ### <a name="capacity-planning"></a>容量規劃
 
-每個執行商務用 Skype Server 2015 累積更新2（CU2）或更新版本的前端伺服器，都支援最多375個參與者使用 RDP 進行畫面共用（不過每個會議僅有250）。 此容量不會變更 CU3，而是在推出 VbSS 時使用。
+每個執行商務用 Skype Server 2015 累計更新 2 (CU2) 或更新版本375可支援使用 RDP (的畫面共用，但僅限250每個會議) 。 當引進和使用 VbSS 時，此容量不會變更 CU3 後的容量。
   
-我們所說的是，我們已在實驗室中完成效能與壓力測試，而且應該考慮使用您自己的部署（視情況而定）。
+也就是說，我們已在實驗室中完成效能和應力測試，而且也應視您的部署 (考慮，視) 的使用方式而定，也應考慮下列度量。
   
-假如
+假設：
   
-- 您在部署中使用商務用 Skype Server 2015 CU2 或更新版本。
+- 您使用的是商務用 Skype Server 2015 CU2 或更新版本的部署。
     
-- 商務用 Skype Server 環境中的所有使用者都有比1920x1080 高的螢幕解析度。
+- 商務用 Skype 伺服器環境中的所有使用者的畫面解析度都高於1920x1080。
     
-在完整容量（如上所述）是每個前端伺服器總的375螢幕共用參與者，但在每個會議中只有250，則您的前端伺服器可能會利用的是1十億位元網卡的 ~ 89%。 這是因為商務用 Skype Server CU2 （RDP）中現有的螢幕共用技術會以簡報者電腦的原生解析度來傳送螢幕內容。 如此一來，使用商務用 Skype Server 2015 CU2，您可能已遇到網路瓶頸，讓螢幕解析度更高。
+在上面所述的完整容量 (（如以上所述）為每個前端伺服器的375螢幕共用參與者總數，雖然每個會議只有 250) ，但您的前端伺服器可能會使用大約 1 Gb 網路卡的89%。 這是因為商務用 Skype Server CU2 中的現有螢幕共用技術 (RDP) 會以原生解析度在簡報者的電腦上，以原生解析度傳送螢幕上的內容。 因此，在中所述的螢幕解析度越高，您可能會遇到與商務用 Skype Server 2015 CU2 的畫面共用的網路瓶頸。
   
-若要緩解此情況，下列其中一或多個選項可能很有用：
+為了緩解這種情況，下列一或多個選項可能很有用：
   
-- 將您的前端伺服器從1千兆網卡升級為 10 Gigabit 乙太網卡。
+- 將前端伺服器從 1 Gb 的網卡升級為 10 Gb 的乙太網卡。
 
-- 增加前端伺服器的數目，以進行負載平衡流量。
+- 增加前端伺服器數目，以進行負載平衡流量。
 
-- 將 cap 放在任何一個通道所使用的最大頻寬，限制 VbSS 和 RDP 所使用的頻寬（位元速率）。
+- 將 cap 置於任一通道所使用的最大頻寬上，以限制 VbSS 和 RDP 所用的頻寬 (位元速率) 。
     
-此表格中的數位會受到個別網路以及共用內容的影響。 請進行測試，為您的網路或網路建立比較基準。
+此表格中的數位會受到個別網路及共用內容的影響。 請測試以建立網路或網路的基準。
   
-|**1080p 內容**|**RDP 平均值**|**RDP 峰值**|**VbSS 平均值**|**VbSS 峰值**|
+|**1080p 內容**|**RDP 平均**|**RDP 峰值**|**平均 VbSS**|**VbSS 峰**|
 |:-----|:-----|:-----|:-----|:-----|
-|.PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
-|CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
-|顯示器  <br/> |5mbps  <br/> |7mbps  <br/> |1.3 mbps  <br/> |2.2 mbps  <br/> |
+|Ppt  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
+|Cad  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
+|影片  <br/> |5mbps  <br/> |7mbps  <br/> |1.3 mbps  <br/> |2.2 mbps  <br/> |
    
 ### <a name="network-bandwidth-requirements-for-media-traffic"></a>媒體流量的網路頻寬需求
 
-VbSS 頻寬為：
+VbSS 頻寬如下：
   
-|**影片編碼解碼器**|**解析度和長寬比**|**最大視頻有效負載位元速率（Kbps）**|**最小視頻有效負載位元速率（Kbps）**|
+|**視訊轉碼器**|**解析度和外觀比例**|**最大影片負載位元速率 (Kbps)**|**最小影片負載位元速率 (Kbps)**|
 |:-----|:-----|:-----|:-----|
-|H-p  <br/> |1920x1080 （16:9）  <br/> （[長寬比] 視共用的監視器解析度而定，並不會永遠為16:9）  <br/> |4000  <br/> |1500  <br/> |
+|H-p  <br/> |1920x1080 (16:9)   <br/>  (的方位比例取決於共用者的監視器解析度，而且不一定會是 16:9)   <br/> |4000  <br/> |1500  <br/> |
    
 ## <a name="clients-and-servers-support"></a>用戶端和伺服器支援
 
-以影片為基礎的螢幕共用需要商務用 Skype Server 2015 CU3 或更新版本，以及適用于商務用 Skype 與[會議支援](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)的行動[用戶端功能比較](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)中所列的支援用戶端目前版本。 
+以影片為基礎的螢幕共用需要商務用 Skype Server 2015 CU3 或更新版本，以及適用于商務用 Skype 和[會議支援](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)的行動[用戶端功能比較](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)中列出的目前支援用戶端版本。 
   
 在某些情況下，螢幕共用會轉換為 RDP，如下所示：
   
-- 如果您的帳戶是託管在 ASMCU 不符合支援 VbSS 之最小組建的環境中。
-- 如果有人使用較舊版本的商務用 Skype 用戶端加入您的會話，例如任何使用低於16.0.6330.1000 的任何 Windows 用戶端版本、商務用 Skype 房間系統裝置或商務用 Skype 行動裝置 App。 
+- 如果您的帳戶主控于 ASMCU 未符合支援 VbSS 的最低組建的環境中。
+- 如果使用舊版商務用 Skype 用戶端的人員加入您的會話，例如，使用任何 Windows 用戶端版本低於16.0.6330.1000、商務用 Skype 會議室系統裝置或商務用 Skype 行動應用程式的人員。 
 - 如果使用者是從商務用 Skype Web App 共用。
-- 如果有人使用 Mac 版商務用 Skype，而不是託管于商務用 skype Online，或使用7月、2018累計更新（或更新版本）的商務用 skype Server 2015。
-- 如果有人啟動任何程式/Windows 共用，
-- 如果有人開始錄製會議。
-- 如果有人在會話期間喚醒打電話給遠端螢幕控制。 
-- 超過250個參與者的會議（目前不支援 VbSS）。
+- 如果有人在 Mac 上使用商務用 Skype，而非位於7月、2018累計更新 (或更新) 版本的 skype Online 或商務用 Skype Server 2015。
+- 如果有人啟動任何程式/Windows 共用。
+- 如果有人開始記錄會話。
+- 如果有人在會話期間呼叫遠端螢幕控制。 
+- 超過250位參與者的會議 (目前不支援 VbSS) 。
 
-請注意，一旦會話轉換為 RDP，就不會轉換回 VbSS。 同樣地，從 VbSS 轉場是無縫的，而且在大多數情況下，都不容易偵測到您的願望。
+請注意，一旦會話轉換至 RDP，它就不會轉換回 VbSS。 同樣地，從 VbSS 的過渡是指無縫的，而且在大多數情況下，使用願望也不會偵測到。
     
 > [!NOTE]
-> 在商務用 Skype 畫面共用中，不支援封鎖或嘗試封鎖、從 VbSS 轉換為 RDP。 
+> 在商務用 Skype 螢幕共用中，不支援封鎖或嘗試封鎖、從 VbSS 轉換為 RDP。 
   
-## <a name="enabling-disabling-and-configuring-vbss"></a>啟用、停用和設定 VbSS
+## <a name="enabling-disabling-and-configuring-vbss"></a>啟用、停用及設定 VbSS
 
-最重要的是，一旦您安裝商務用 Skype Server 2015 累計更新3（CU3）或更新版本之後，您的所有使用者預設都會啟用1到1和多方 VbSS。 如果您有理由讓所有使用者都無法使用此功能，這可能會給您帶來問題。 在這種情況下，您可以使用這些步驟來停用使用者（[啟用使用者] 步驟如下所示）：
+最棒的是，當您已安裝商務用 Skype Server 2015 累計更新 3 (CU3) 或更新版本之後，預設會為1對1和多方 VbSS 啟用所有使用者。 如果您有理由不讓所有使用者啟用此功能，這可能會造成問題。 在此情況下，您可以使用這些步驟來停用使用者 (啟用使用者的步驟將遵循) ：
   
-### <a name="how-to-disable-users-from-using-vbss"></a>如何從 VbSS 停用使用者
+### <a name="how-to-disable-users-from-using-vbss"></a>如何使用 VbSS 來停用使用者
 
-- 您可以在商務用 Skype 管理主控台中執行此 Cmdlet 來指派不允許 VbSS 使用 VbSS 的使用者原則（將 [PolicyName] 取代為您所執行的原則）：
+- 您可以在商務用 Skype 管理主控台中執行此指令程式，以將不允許 VbSS 的使用者原則指派給不允許 VbSS 的任何使用者， (取代 [PolicyName] 以進行) 的原則：
     
   ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
-- 您也可以更新全域會議原則，這將會影響所有沒有指派原則的使用者：
+- 您也可以更新全域會議原則，此原則會影響所有未指派原則的使用者：
     
   ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    如需此命令的詳細資訊，請參閱[設定 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
-- 如果您需要完全關閉 VbSS，您可以執行此命令：
+- 如果您需要完全關閉 VbSS，您可以執行下列命令：
     
   ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    如需此命令的詳細資訊，請參閱[設定 CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在多方商務用 Skype 會議中，所有用戶端端點都會遵循會議召集人的原則設定。 
   
-### <a name="how-to-enable-users-to-use-vbss"></a>如何讓使用者使用 VbSS
+### <a name="how-to-enable-users-to-use-vbss"></a>如何讓使用者能夠使用 VbSS
 
-- 您可以在商務用 Skype 管理主控台中執行此 Cmdlet 來指派允許 VbSS 使用 VbSS 的特定使用者原則（將 [PolicyName] 取代為您所執行的原則）：
+- 您可以在商務用 Skype 管理主控台中執行此指令程式，以指定特定的使用者原則，以 VbSS 允許任何需要使用 VbSS 的使用者， (取代 [PolicyName] 以進行) 的原則：
     
   ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
-- 您也可以更新全域會議原則，這將會影響所有沒有指派原則的使用者：
+- 您也可以更新全域會議原則，此原則會影響所有未指派原則的使用者：
     
   ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    如需此命令的詳細資訊，請參閱[設定 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
-- 如果您需要在關閉後再開啟 VbSS （預設為開啟），您可以執行這個命令：
+- 如果您需要在關閉 VbSS 後再開啟它 () 預設為開啟狀態，您可以執行下列命令：
     
   ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    如需此命令的詳細資訊，請參閱[設定 CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在多方商務用 Skype 會議中，所有用戶端端點都會遵循會議召集人的原則設定。 
   
 ## <a name="see-also"></a>另請參閱
 
-[商務用 Skype Server 2015 累計更新 KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
+[商務用 Skype Server 2015 累計更新 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   
-[商務用 Skype Server 2015 提供影片畫面共用（VBSS）](https://support.microsoft.com/en-us/kb/3170163)
+[在商務用 Skype Server 2015 中可使用以影片為基礎的螢幕共用 (VBSS) ](https://support.microsoft.com/kb/3170163)

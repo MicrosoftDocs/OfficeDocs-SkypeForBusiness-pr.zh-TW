@@ -1,8 +1,8 @@
 ---
 title: Branch Office Appliance 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: 此節點會顯示完整功能變數名稱 (FQDN) 、關聯的集區和伺服器，以及此 Survivable Branch 裝置的復原資訊。 您可以執行下列動作：
-ms.openlocfilehash: 4ea58b26a3afa6dd2a96479d878aa043b0633f6c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 5a8d23759d7cec93f606fed91e5bba869abf1399
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216104"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833173"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Branch Office Appliance 範圍節點
  

@@ -1,8 +1,8 @@
 ---
-title: 通話詳細資料錄製建立新的或編輯現有的
+title: 詳細通話記錄建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 21f31565093c842265d52e8383de8314798e68b4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您要執行的工作 按一下您要執行之任務的連結。
+ms.openlocfilehash: 4cc910c8278c42c39bafc053130fdc0589e4bada
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796392"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833673"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>詳細通話記錄：建立新的或編輯現有
  
-您要做什麼？ 按一下您要執行之任務的連結。
+您要執行的工作 按一下您要執行之任務的連結。
   
-- [在商務用 Skype Server 中啟用呼叫詳細資料錄製](../../../manage/health-and-monitoring/enable-cdr.md)
+- [啟用商務用 Skype Server 中的詳細通話記錄](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [在商務用 Skype Server 中指定 CDR 資料的保留](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [在商務用 Skype Server 中指定保留 CDR 資料](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

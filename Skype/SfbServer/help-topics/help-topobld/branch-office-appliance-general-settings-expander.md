@@ -1,8 +1,8 @@
 ---
 title: Branch Office Appliance 一般設定展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 若要編輯現有 Survivable Branch 裝置或 Survivable Branch 伺服器的設定，您會看到下列區段：
-ms.openlocfilehash: 40ebf4a22bcfc3392c2f1dc8238a46b610d22281
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 95f842e72066f7ef19c474b10f7293f05c83cd67
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216124"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833203"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 一般設定展開工具
 
@@ -74,7 +74,7 @@ Survivable Branch 裝置或 Survivable Branch 伺服器上無法使用 [ **組�
 
 如果您有多個閘道與中繼伺服器相關聯，則第一個關聯的閘道將是預設閘道。 如果您必須選擇另一個閘道作為預設閘道，請選取您要設為預設的閘道，然後按一下 [ **成為預設**]。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 如需定義及設定 Survivable Branch 裝置或 Survivable Branch Server 之設定的詳細資訊，請參閱 [Branch-Site 恢復性解決方案](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx)。
 

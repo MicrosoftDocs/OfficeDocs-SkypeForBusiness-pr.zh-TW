@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype 2015 Server 中的 Persistent Chat Server 的硬體和軟體需求
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器的硬體和軟體需求。
-ms.openlocfilehash: 39204b675feff78fef56ee02e1c7e381eb36f65f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 32ba0d94679e6f326fa1821cbe3401d031854037
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213229"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834533"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>商務用 Skype 2015 Server 中的 Persistent Chat Server 的硬體和軟體需求
  
