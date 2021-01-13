@@ -1,8 +1,8 @@
 ---
 title: 驗證網域中的複寫
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,35 +14,35 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要驗證在步驟1：準備架構中完成的網域準備，必須從商務用 Skype Server Management Shell Lync Server 管理命令介面執行 Cmdlet。 若要執行 Windows PowerShell Cmdlet，請登入您已準備之網域成員的電腦，以及作為網域管理員群組的成員。 請執行下列步驟：
-ms.openlocfilehash: fffe6a227ad8a0dd0214080b21d743382845478b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要驗證在步驟1： Prepare 架構中完成的網域準備作業，必須從商務用 Skype Server 管理命令介面 Lync Server 管理命令介面執行 Cmdlet。 若要執行 Windows PowerShell Cmdlet，請登入您準備好之網域成員的電腦，並以 Domain Admins 群組成員的身分登入。 執行下列動作：
+ms.openlocfilehash: 9ec39551702e0f3480671787536929863cb61f6b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794762"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801653"
 ---
-# <a name="verify-replication-in-the-domain"></a><span data-ttu-id="51fbf-105">驗證網域中的複寫</span><span class="sxs-lookup"><span data-stu-id="51fbf-105">Verify Replication in the Domain</span></span>
+# <a name="verify-replication-in-the-domain"></a><span data-ttu-id="3f803-105">驗證網域中的複寫</span><span class="sxs-lookup"><span data-stu-id="3f803-105">Verify Replication in the Domain</span></span>
  
-<span data-ttu-id="51fbf-106">若要驗證在**步驟1：準備架構**中完成的網域準備，必須從商務用 Skype Server Management Shell Lync Server 管理命令介面執行 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="51fbf-106">To verify replication of the domain preparation accomplished in **Step 1: Prepare Schema**, it is necessary to run a cmdlet from the Skype for Business Server Management Shell Lync Server Management Shell.</span></span> <span data-ttu-id="51fbf-107">若要執行 Windows PowerShell Cmdlet，請登入您已準備之網域成員的電腦，以及作為網域管理員群組的成員。</span><span class="sxs-lookup"><span data-stu-id="51fbf-107">To run the Windows PowerShell cmdlet, log on to a computer that is a member of the domain that you have prepared, and as a member of the Domain Admins group.</span></span> <span data-ttu-id="51fbf-108">請執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="51fbf-108">Do the following:</span></span>
+<span data-ttu-id="3f803-106">若要驗證在 **步驟1： Prepare 架構** 中完成的網域準備作業，必須從商務用 Skype Server 管理命令介面 Lync Server 管理命令介面執行 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="3f803-106">To verify replication of the domain preparation accomplished in **Step 1: Prepare Schema**, it is necessary to run a cmdlet from the Skype for Business Server Management Shell Lync Server Management Shell.</span></span> <span data-ttu-id="3f803-107">若要執行 Windows PowerShell Cmdlet，請登入您準備好之網域成員的電腦，並以 Domain Admins 群組成員的身分登入。</span><span class="sxs-lookup"><span data-stu-id="3f803-107">To run the Windows PowerShell cmdlet, log on to a computer that is a member of the domain that you have prepared, and as a member of the Domain Admins group.</span></span> <span data-ttu-id="3f803-108">執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="3f803-108">Do the following:</span></span>
   
-1. <span data-ttu-id="51fbf-109">啟動商務用 Skype Server 管理命令介面：請依序按一下 [**開始**]、[**所有程式**]、[**商務用 skype**]，然後按一下 [**商務用 skype server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="51fbf-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="3f803-109">啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。</span><span class="sxs-lookup"><span data-stu-id="3f803-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="51fbf-110">在 Windows PowerShell 中，輸入下列內容：</span><span class="sxs-lookup"><span data-stu-id="51fbf-110">In Windows PowerShell, type the following:</span></span>
+2. <span data-ttu-id="3f803-110">在 [Windows PowerShell] 中，輸入下列專案：</span><span class="sxs-lookup"><span data-stu-id="3f803-110">In Windows PowerShell, type the following:</span></span>
     
    ```PowerShell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
-    <span data-ttu-id="51fbf-111">例如：</span><span class="sxs-lookup"><span data-stu-id="51fbf-111">For example:</span></span>
+    <span data-ttu-id="3f803-111">例如：</span><span class="sxs-lookup"><span data-stu-id="3f803-111">For example:</span></span>
     
    ```PowerShell
    Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="51fbf-112">GlobalSettingsDomainController 參數可讓您指出全域設定的存放位置。</span><span class="sxs-lookup"><span data-stu-id="51fbf-112">The parameter GlobalSettingsDomainController enables you to indicate where global settings are stored.</span></span> <span data-ttu-id="51fbf-113">如果您的設定是儲存在系統容器中（這通常是使用未將全域設定遷移至配置容器的升級部署），您可以在 Active Directory 網域服務林的根目錄中定義網網域控制站。</span><span class="sxs-lookup"><span data-stu-id="51fbf-113">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global setting migrated to the Configuration container), you define a domain controller in the root of your Active Directory Domain Services forest.</span></span> <span data-ttu-id="51fbf-114">如果全域設定位於 Configuration 容器中 (在全新部署或升級部署作業期間，當設定已經移轉至 Configuration 容器時的常見現象)，您可以在樹系中定義任何網域控制站。</span><span class="sxs-lookup"><span data-stu-id="51fbf-114">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="51fbf-115">如果您沒有指定此參數，Cmdlet 會假設設定會儲存在配置容器中，並參照 Active Directory 中的任何網網域控制站。</span><span class="sxs-lookup"><span data-stu-id="51fbf-115">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in Active Directory.</span></span> 
+    > <span data-ttu-id="3f803-112">GlobalSettingsDomainController 參數可讓您指出全域設定的存放位置。</span><span class="sxs-lookup"><span data-stu-id="3f803-112">The parameter GlobalSettingsDomainController enables you to indicate where global settings are stored.</span></span> <span data-ttu-id="3f803-113">如果您的設定儲存在系統容器中 (（一般情況下，升級部署尚未將全域設定遷移至設定容器) ），您可以在 Active Directory 網域服務樹系的根目錄中定義網域控制站。</span><span class="sxs-lookup"><span data-stu-id="3f803-113">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global setting migrated to the Configuration container), you define a domain controller in the root of your Active Directory Domain Services forest.</span></span> <span data-ttu-id="3f803-114">如果全域設定位於 Configuration 容器中 (在全新部署或升級部署作業期間，當設定已經移轉至 Configuration 容器時的常見現象)，您可以在樹系中定義任何網域控制站。</span><span class="sxs-lookup"><span data-stu-id="3f803-114">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="3f803-115">如果您未指定此參數，Cmdlet 會假設設定儲存在設定容器中，並參照至 Active Directory 中的任何網域控制站。</span><span class="sxs-lookup"><span data-stu-id="3f803-115">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in Active Directory.</span></span> 
   
-    <span data-ttu-id="51fbf-116">如果您沒有指定 Domain 參數，則會將此值設定至本機網域。</span><span class="sxs-lookup"><span data-stu-id="51fbf-116">If you do not specify the Domain parameter, the value is set to the local domain.</span></span> <span data-ttu-id="51fbf-117">這個 Cmdlet 會在網域準備工作完成時，傳回 **LC_DOMAIN_SETTINGS_STATE_READY** 值。</span><span class="sxs-lookup"><span data-stu-id="51fbf-117">This cmdlet returns a value of **LC_DOMAIN_SETTINGS_STATE_READY** if domain preparation was successful.</span></span>
+    <span data-ttu-id="3f803-116">如果您沒有指定 Domain 參數，這個值會設為本機網域。</span><span class="sxs-lookup"><span data-stu-id="3f803-116">If you do not specify the Domain parameter, the value is set to the local domain.</span></span> <span data-ttu-id="3f803-117">這個 Cmdlet 會在網域準備工作順利完成時，傳回值 **LC_DOMAIN_SETTINGS_STATE_READY**。</span><span class="sxs-lookup"><span data-stu-id="3f803-117">This cmdlet returns a value of **LC_DOMAIN_SETTINGS_STATE_READY** if domain preparation was successful.</span></span>
     
 

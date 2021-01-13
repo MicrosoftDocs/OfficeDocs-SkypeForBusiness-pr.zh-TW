@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server IP 選項
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 商務用 Skype Server 可讓您針對 Edge 伺服器和 Edge 池的每個介面設定 IPv4 與 IPv6 位址。 若要這樣做，請執行下列動作：
-ms.openlocfilehash: 5b63847f3044411dcb8e04e29eea21492597993d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 商務用 Skype Server 可讓您為 Edge Server 和 Edge 集區的每個介面設定 IPv4 和 IPv6 位址。 若要這樣做，請執行下列動作：
+ms.openlocfilehash: f940e0480c51b1a2541386401a71f0d7d9818566
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798200"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801073"
 ---
-# <a name="add-edge-server-ip-options"></a><span data-ttu-id="0535e-104">新增 Edge Server IP 選項</span><span class="sxs-lookup"><span data-stu-id="0535e-104">Add Edge Server IP Options</span></span>
+# <a name="add-edge-server-ip-options"></a><span data-ttu-id="fcba2-104">新增 Edge Server IP 選項</span><span class="sxs-lookup"><span data-stu-id="fcba2-104">Add Edge Server IP Options</span></span>
  
-<span data-ttu-id="0535e-105">商務用 Skype Server 可讓您針對 Edge 伺服器和 Edge 池的每個介面設定 IPv4 與 IPv6 位址。</span><span class="sxs-lookup"><span data-stu-id="0535e-105">Skype for Business Server allows you to configure IPv4 and IPv6 addresses for each interface for the Edge Server and Edge pool.</span></span> <span data-ttu-id="0535e-106">若要這樣做，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="0535e-106">To do this, you do the following:</span></span>
+<span data-ttu-id="fcba2-105">商務用 Skype Server 可讓您為 Edge Server 和 Edge 集區的每個介面設定 IPv4 和 IPv6 位址。</span><span class="sxs-lookup"><span data-stu-id="fcba2-105">Skype for Business Server allows you to configure IPv4 and IPv6 addresses for each interface for the Edge Server and Edge pool.</span></span> <span data-ttu-id="fcba2-106">若要這樣做，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="fcba2-106">To do this, you do the following:</span></span>
   
-- <span data-ttu-id="0535e-107">**在內部介面上啟用 ipv4**：如果您想要將 ipv4 位址套用至 edge 伺服器或 edge 池內部介面，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="0535e-107">**Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface</span></span>
+- <span data-ttu-id="fcba2-107">**在內部介面上啟用 IPv4**：若要將 IPv4 位址套用至 edge Server 或 edge 集區內部介面，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="fcba2-107">**Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface</span></span>
     
-- <span data-ttu-id="0535e-108">**在內部介面上啟用 ipv6**：如果您想要將 ipv6 位址套用至 edge 伺服器或 edge 池內部介面，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="0535e-108">**Enable IPv6 on internal interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool internal interface</span></span>
+- <span data-ttu-id="fcba2-108">**在內部介面上啟用 IPv6**：若要將 IPv6 位址套用至 edge Server 或 edge 集區內部介面，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="fcba2-108">**Enable IPv6 on internal interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool internal interface</span></span>
     
-- <span data-ttu-id="0535e-109">**在外部介面上啟用 ipv4**：如果您想要將 ipv4 位址套用至 edge 伺服器或 edge 池外部介面，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="0535e-109">**Enable IPv4 on external interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool external interface</span></span>
+- <span data-ttu-id="fcba2-109">**在外部介面上啟用 IPv4**：若要將 IPv4 位址套用至 edge Server 或 edge 集區外部介面，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="fcba2-109">**Enable IPv4 on external interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool external interface</span></span>
     
-- <span data-ttu-id="0535e-110">**在外部介面上啟用 ipv6**：如果您想要將 ipv6 位址套用至 edge 伺服器或 edge 池外部介面，請選取核取方塊。</span><span class="sxs-lookup"><span data-stu-id="0535e-110">**Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface</span></span>
+- <span data-ttu-id="fcba2-110">**在外部介面上啟用 IPv6**：若要將 IPv6 位址套用至 edge Server 或 edge 集區外部介面，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="fcba2-110">**Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface</span></span>
     
-<span data-ttu-id="0535e-111">您也可以將 Edge 伺服器或 Edge 池設定為使用網路位址轉譯位址作為外部 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="0535e-111">You can also configure the Edge Server or Edge pool to use a network address translation address for the external IP addresses.</span></span> <span data-ttu-id="0535e-112">您可以選取**此邊緣池的外部 IP 位址（由 NAT 轉譯**）來執行此動作。</span><span class="sxs-lookup"><span data-stu-id="0535e-112">You do this by selecting the check box **The external IP address of this Edge pool is translated by NAT**.</span></span>
+<span data-ttu-id="fcba2-111">您也可以將 Edge Server 或 Edge 集區設定為使用網路位址轉譯位址的外部 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="fcba2-111">You can also configure the Edge Server or Edge pool to use a network address translation address for the external IP addresses.</span></span> <span data-ttu-id="fcba2-112">您可以藉由選取 [此 Edge 集區的外部 IP 位址由 NAT 轉譯] 核取方塊，來執行此動作。</span><span class="sxs-lookup"><span data-stu-id="fcba2-112">You do this by selecting the check box **The external IP address of this Edge pool is translated by NAT**.</span></span>
   
-<span data-ttu-id="0535e-113">NAT 支援。</span><span class="sxs-lookup"><span data-stu-id="0535e-113">NAT support.</span></span> <span data-ttu-id="0535e-114">如果您使用的是硬體負載平衡，就不支援網路位址轉譯（NAT），所以如果您要部署含硬體負載平衡的 Edge 伺服器池，請不要選取 NAT 選項。</span><span class="sxs-lookup"><span data-stu-id="0535e-114">Network address translation (NAT) is not supported when you are using hardware load balancing, so do not select the NAT option if you are deploying an Edge Server pool with hardware load balancing.</span></span>
+<span data-ttu-id="fcba2-113">NAT 支援。</span><span class="sxs-lookup"><span data-stu-id="fcba2-113">NAT support.</span></span> <span data-ttu-id="fcba2-114">當您使用硬體負載平衡時，不支援 [網路位址轉譯 (NAT) ]，所以如果您要部署具有硬體負載平衡的 Edge Server 集區，請勿選取 NAT 選項。</span><span class="sxs-lookup"><span data-stu-id="fcba2-114">Network address translation (NAT) is not supported when you are using hardware load balancing, so do not select the NAT option if you are deploying an Edge Server pool with hardware load balancing.</span></span>
   
 
