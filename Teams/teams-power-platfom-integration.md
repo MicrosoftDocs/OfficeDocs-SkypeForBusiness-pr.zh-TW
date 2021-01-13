@@ -1,7 +1,7 @@
 ---
 title: 團隊與 Microsoft Power Platform 整合
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: kvivek
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解團隊與 Microsoft Power Platform 工具整合的相關資訊，包括 Power BI、Power app、Power 自動化及 Power Virtual Agent。
-ms.openlocfilehash: 81d673069e972f4627a8bfab18095e81803dd4b1
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 0fb05596fb5fa87ab4e209325cc35b7a3eae56d9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085672"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804563"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>團隊與 Microsoft Power Platform 整合
 

@@ -2,8 +2,8 @@
 title: 適用於零售業的 Teams
 description: 瞭解可供您管理並充分利用零售商店和工作力小組的管理員資源。
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 f1.keywords:
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c343dec360a910019a46dd7741ea28bc36dcd48d
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576887"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802583"
 ---
 # <a name="teams-for-retail"></a>適用於零售業的 Teams
 

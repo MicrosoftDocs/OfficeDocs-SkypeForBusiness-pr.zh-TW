@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊需求 |加強服務
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a000cb8b09f4b1eebf5ca1c2805d52222ce7ec5c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: ddac2cb17ce132af624274abc052ed3eefabe155
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369198"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809063"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>在升級後充分發揮團隊的效用
 

@@ -5,8 +5,8 @@ ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '當您設定原則以支援與同盟協力廠商的通訊時，這些原則會套用至同盟網域的使用者。 '
-ms.openlocfilehash: 447aad751ce6fc91bf2d6b80c8a14e92f9d4da82
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2b7976492fe4f789c2f3130fb51deaaef44af701
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037403"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817298"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中設定控制同盟使用者存取的原則
 
@@ -37,7 +37,7 @@ ms.locfileid: "42037403"
 
 2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。
 
-3.  在左導覽列中，依序按一下 [外部使用者存取]**** 及 [外部存取原則]****。
+3.  在左導覽列中，依序按一下 [外部使用者存取] 及 [外部存取原則]。
 
 4.  在 **[外部存取原則]** 頁面中，執行下列其中一項：
     
@@ -49,7 +49,7 @@ ms.locfileid: "42037403"
     
       - 若要變更現有原則，按一下表中所列之適當原則，然後按一下 **[編輯]**，接著按一下 **[顯示詳細資料]**。
 
-5.  (選用) 如果您想要新增或編輯說明，請在 [說明]**** 中指定原則資訊。
+5.  (選用) 如果您想要新增或編輯說明，請在 [說明] 中指定原則資訊。
 
 6.  執行下列其中一項作業：
     
@@ -67,7 +67,7 @@ ms.locfileid: "42037403"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  啟動商務用 Skype server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令**介面]。
+2.  啟動商務用 Skype server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
 3.  在商務用 Skype Server 管理命令介面中輸入下列專案：
     
@@ -84,7 +84,7 @@ ms.locfileid: "42037403"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft 商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令**介面]。
+2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **Microsoft 商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
 
 3.  在商務用 Skype Server 管理命令介面中輸入下列專案：
     

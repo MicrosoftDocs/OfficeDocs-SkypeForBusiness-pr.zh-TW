@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中管理語音路由策略
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中建立及管理語音路由原則。
-ms.openlocfilehash: 2bef422f22dc212b2c615e2ca2ab98806b396e9f
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 00b70363f0034ebc8d99aa59e037658e406af2a5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217654"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802553"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理語音路由策略
 
 如果您已在組織中部署 [電話系統直接路由](direct-routing-landing-page.md) ，您可以使用語音路由策略，讓小組和商務用 Skype Online 使用者使用您的內部部署電話結構 () PSTN 來接收並撥打電話給公開的交換電話網絡。
 
-[語音路由策略] 是 PSTN 使用記錄的容器。 您可以移至**Voice**  >  Microsoft 團隊系統管理中心的語音**語音路由策略**，或使用 Windows PowerShell，來建立及管理語音路由原則。
+[語音路由策略] 是 PSTN 使用記錄的容器。 您可以移至  >  Microsoft 團隊系統管理中心的語音 **語音路由策略**，或使用 Windows PowerShell，來建立及管理語音路由原則。
 
 您可以使用全域 (組織範圍的預設) 原則，或是建立並指派自訂原則。 除非您建立並指派自訂原則，否則使用者會自動取得全域原則。 請記住，您可以編輯全域原則中的設定，但無法重新命名或刪除。
 
@@ -44,7 +44,7 @@ ms.locfileid: "48217654"
 3. 在 [ **PSTN 使用記錄**] 底下，按一下 [ **新增 PSTN 使用量**]，然後選取您要新增的記錄。 如果您需要建立新的 PSTN 使用記錄，請按一下 [ **新增**]。
 4. 如果您已新增多個 PSTN 使用記錄，請依您想要的順序排列它們。
 5. 完成後， **請按一下 [** 套用]。
-6. 按一下 [儲存]****。
+6. 按一下 **[儲存]**。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

@@ -1,7 +1,7 @@
 ---
 title: 管理使用者對 Microsoft 團隊的存取權
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d370bec6eb8a3319427c934593016f2b85d6c26
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: c4fdfddfe43fd977099a02df61bb74146afcb05d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611457"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804403"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 

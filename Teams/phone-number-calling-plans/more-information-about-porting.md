@@ -1,7 +1,7 @@
 ---
 title: 移植的詳細資訊
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article
@@ -19,28 +19,28 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 取得將您的電話號碼移植至 Microsoft 團隊所需的指導方針。
-ms.openlocfilehash: 2c84b8bcba4b41488db64cbda42c9162daaf268d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: bb63e22b7cc3aa787ddb984f82180937c5aaf9fc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827961"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802513"
 ---
 # <a name="more-information-about-porting"></a>移植的詳細資訊
 
 您可以在這裡找到將您的電話號碼移植至 Microsoft 團隊的詳細資訊。
 
-如需完整的逐步指示，請參閱[將電話號碼轉移至團隊](transfer-phone-numbers-to-teams.md)。
+如需完整的逐步指示，請參閱 [將電話號碼轉移至團隊](transfer-phone-numbers-to-teams.md)。
 
-如果您需要協助，或如果您需要取得更多電話號碼，請聯絡[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)說明。
+如果您需要協助，或如果您需要取得更多電話號碼，請聯絡 [PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)說明。
 
 ## <a name="port-order-account-information"></a>埠訂單帳戶資訊
 
-當您在 [移植嚮導] 的 [**新增帳戶資訊**] 頁面上，要提交一個埠順序時，您將會輸入幾乎所有您在 LOA 中提供的資訊，包括：
+當您在 [移植嚮導] 的 [ **新增帳戶資訊** ] 頁面上，要提交一個埠順序時，您將會輸入幾乎所有您在 LOA 中提供的資訊，包括：
   
 - 服務提供者或承運人的帳戶號碼
     
-- 帳單電話號碼（BTN）
+- 帳單電話號碼 (BTN) 
     
 - PIN-如果您目前的服務提供者或電信公司需要
     
@@ -58,7 +58,7 @@ ms.locfileid: "41827961"
   
 若要輕鬆提交埠順序並避免錯誤，請務必執行下列動作：
   
-- 移除與您的號碼相關聯的任何功能（例如，查尋群組）。 確認在這些電話號碼上沒有啟用任何高級通話控制功能，例如通話查尋或特殊鈴聲。
+- 移除任何功能 (例如與您的號碼相關聯的 [查尋群組]) 。 確認在這些電話號碼上沒有啟用任何高級通話控制功能，例如通話查尋或特殊鈴聲。
     
 - 確定您還沒有加入任何新的服務訂單，或中斷與目前服務提供者的連線。
     
@@ -71,14 +71,14 @@ ms.locfileid: "41827961"
 
 ## <a name="authorized-person-on-the-account"></a>帳戶上的授權人員
 
-在 [移植嚮導] 中，您必須輸入有權變更服務提供者或電信公司之帳戶的人員名稱。 該名稱不是用來處理埠順序，但在爭議的情況下是使用，或者是在您用來移植號碼時出現不正確的情況。 此人負責針對埠順序的授權信件（LOA）。
+在 [移植嚮導] 中，您必須輸入有權變更服務提供者或電信公司之帳戶的人員名稱。 該名稱不是用來處理埠順序，但在爭議的情況下是使用，或者是在您用來移植號碼時出現不正確的情況。 此人對授權 (LOA) 針對埠順序有責任。
   
 > [!NOTE]
-> 該框不能超過15個字元（包括空格）。 在方塊中沒有完整的名稱，就不會延遲或取消埠順序。
+> 該框的長度不能超過15個字元 (包括空格) 。 在方塊中沒有完整的名稱，就不會延遲或取消埠順序。
   
 ## <a name="whats-my-billing-telephone-number"></a>什麼是帳單電話號碼？
 
-帳單電話號碼（BTN）是包含在帳單上並由您的服務提供者或承運人支付的主要電話號碼。 如果您要從只有一個電話號碼的帳戶轉移電話號碼，您必須輸入此電話號碼。 如果您要傳送的電話號碼是一個以上的帳戶，您可以查看帳單或與您的服務提供者或承運人聯繫，以判斷您帳戶的 BTN。
+帳單電話號碼 (BTN) 是包含在帳單上的主要電話號碼，並由您的服務提供者或承運人支付。 如果您要從只有一個電話號碼的帳戶轉移電話號碼，您必須輸入此電話號碼。 如果您要傳送的電話號碼是一個以上的帳戶，您可以查看帳單或與您的服務提供者或承運人聯繫，以判斷您帳戶的 BTN。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我應該如何輸入帳戶號碼？
 
@@ -108,7 +108,7 @@ ms.locfileid: "41827961"
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>如何查看我的埠順序狀態？
 
-查看[您的埠訂單狀態為何？](port-order-status.md)
+查看 [您的埠訂單狀態為何？](port-order-status.md)
 
 ## <a name="related-topics"></a>相關主題
 

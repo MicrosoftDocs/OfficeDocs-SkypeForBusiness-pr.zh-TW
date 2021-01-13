@@ -1,7 +1,7 @@
 ---
 title: 團隊和 Outlook 電子郵件整合
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 675834cd36c4e86d34d179e91fe66905e3860b32
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: c6e260148cfcdb45c516958bae03ecfadc1bbd64
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429439"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802393"
 ---
 # <a name="teams-and-outlook-email-integration"></a>團隊和 Outlook 電子郵件整合
 

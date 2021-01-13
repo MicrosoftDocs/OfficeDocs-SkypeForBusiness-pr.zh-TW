@@ -1,8 +1,8 @@
 ---
 title: 簡單 URL 設定展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 若要指定新的、移除現有的，或變更使用中的簡易 URLs，請執行下列操作：
-ms.openlocfilehash: 79a5bba3cf16ae8e3a57b80947f5157978c9d3ef
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 4a6f01dde6259171c1c31669f7f87adf5261acc9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219748"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818253"
 ---
 # <a name="simple-url-settings-expander"></a>簡單 URL 設定展開工具
 
@@ -30,9 +30,9 @@ ms.locfileid: "48219748"
 
 若要修改或定義簡易 URLs，請先決定要編輯或變更三個簡單 URLs 中的哪一個。 您可以選擇電話存取 URL、會議 URL，以及系統管理存取 URL。
 
-若要修改電話存取 URL 或會議 URL，請選取您需要變更的 URL。 按一下 [編輯 URL]****。 編輯 URL，然後按一下 **[確定]** 儲存 url。 按一下 [取消]**** 捨棄任何變更。
+若要修改電話存取 URL 或會議 URL，請選取您需要變更的 URL。 按一下 [編輯 URL]。 編輯 URL，然後按一下 **[確定]** 儲存 url。 按一下 [取消] 捨棄任何變更。
 
-若要新增 URL，請按一下 [新增]****。 在 [ **新增簡單 URL** ] 對話方塊中，指定 url，然後按一下 **[確定]** 儲存 url。 如果您需要將新的 URL 設成作用中的 URL，請選取 [成為選取網域的作用中 URL]****。 按一下 [取消]**** 捨棄任何變更。
+若要新增 URL，請按一下 [新增]。 在 [ **新增簡單 URL** ] 對話方塊中，指定 url，然後按一下 **[確定]** 儲存 url。 如果您需要將新的 URL 設成作用中的 URL，請選取 [成為選取網域的作用中 URL]。 按一下 [取消] 捨棄任何變更。
 
 若要讓不同的 URL 成為使用中的 url (URL) 旁邊的綠色核取記號，請選取 URL，然後按一下 [ **啟用**]。
 
@@ -48,7 +48,7 @@ ms.locfileid: "48219748"
 
 在 [編輯內容] 頁面上完成所有變更之後，按一下 **[確定]** 儲存變更。按一下 **[取消]** 捨棄任何變更。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 如需詳細資料，請參閱[規劃簡單 URL](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
 

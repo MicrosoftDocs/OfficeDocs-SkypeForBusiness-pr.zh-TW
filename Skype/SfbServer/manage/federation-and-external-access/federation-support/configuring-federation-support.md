@@ -5,8 +5,8 @@ ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '如果您在組織中部署商務用 Skype，則可以與一或多部商務用 Skype Online 客戶的網域同盟。 '
-ms.openlocfilehash: b7488d21463782a978c9a3d6263d9fdfc2e59dd9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f09e717af9e5209a0bb4bfdeb0ea50abbdaf7f86
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037283"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817233"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>在商務用 Skype Server 中為商務用 Skype Online 客戶設定同盟支援 
 
@@ -63,7 +63,7 @@ ms.locfileid: "42037283"
 
 ### <a name="to-configure-support-for-a-hosting-provider"></a>針對裝載提供者設定支援
 
-1.  從前端伺服器啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype server 管理命令**介面]。
+1.  從前端伺服器啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype server 管理命令** 介面]。
 
 2.  執行 **New-CsHostingProvider** Cmdlet，以建立和設定裝載提供者。 例如，執行：
     

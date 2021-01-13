@@ -1,8 +1,8 @@
 ---
 title: 登錄器設定展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 恢復功能提供註冊區集區的高可用性和嚴重損壞修復。 藉由在主要登錄器發生失敗時提供備份登錄器，備份登錄器可以接手失敗的登錄器，並允許使用者登入和通訊。 使用者可能會發現功能減少，視主要登錄器上失敗的系統而定。
-ms.openlocfilehash: f6ea6907942111db92ca3bfe2dfef1712bd53a62
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 8ab5fc804b6fad1f049e70477d7c16cb35111f79
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217154"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818293"
 ---
 # <a name="registrar-settings-expander"></a>登錄器設定展開工具
  
@@ -32,9 +32,9 @@ ms.locfileid: "48217154"
     
 - **啟用容錯移轉和回切** 選取此設定，以允許自動偵測失敗的註冊機構，並自動判斷主要註冊機已備份，且可以繼續進行註冊程式的處理常式。
     
-- **失敗偵測間隔 (秒) ** 輸入在判斷主要註冊機構失敗之前所應經過的秒數。 預設值為 120 秒。 如果您選取 [ **啟用容錯移轉和容錯回復**]，則此欄位是必要的。
+- **失敗偵測間隔 (秒)** 輸入在判斷主要註冊機構失敗之前所應經過的秒數。 預設值為 120 秒。 如果您選取 [ **啟用容錯移轉和容錯回復**]，則此欄位是必要的。
     
-- **後備偵測間隔 (秒) ** 輸入在判斷主要註冊機已備份之前，應經過的秒數。 預設值為240秒。 如果您選取 [ **啟用容錯移轉和回退**]，則需要此欄位。
+- **後備偵測間隔 (秒)** 輸入在判斷主要註冊機已備份之前，應經過的秒數。 預設值為240秒。 如果您選取 [ **啟用容錯移轉和回退**]，則需要此欄位。
     
 > [!IMPORTANT]
 > 當您定義失敗偵測間隔和後援偵測間隔時，請小心不要讓輸入的間隔導致在登錄器短時間無法回應時，發生容錯移轉和容錯回復。根據集區或伺服器的負載，主要登錄器可能會在短時間內無法回應。 

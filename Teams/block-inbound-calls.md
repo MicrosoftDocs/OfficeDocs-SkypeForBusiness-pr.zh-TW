@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中封鎖撥入通話
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 3bb1222f0662228e5c0de7b2253cbac162571b1e
-ms.sourcegitcommit: a36514c7c8ea47bde4edb09c11ff99061b1f74c0
+ms.openlocfilehash: ca2f8de5962572a08ab2a0ae7127446d14334c83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094679"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799903"
 ---
 # <a name="block-inbound-calls"></a>封鎖撥入通話
 
@@ -38,21 +38,21 @@ ms.locfileid: "45094679"
 
 您可以使用 [**新增**]、[**取得**]、[**設定**]、[**移除**  - **CsInboundBlockedNumberPattern** ] Cmdlet 來管理數位模式。 您可以使用這些 Cmdlet 來管理指定的模式，包括切換指定模式啟用的功能。
 
-- [CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern)會傳回已新增至租使用者清單的所有封鎖數位模式清單，包括名稱、描述、啟用 (True/False) ，以及每個的模式。
+- [CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) 會傳回已新增至租使用者清單的所有封鎖數位模式清單，包括名稱、描述、啟用 (True/False) ，以及每個的模式。
 - [[新-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) ] 會將封鎖的數位模式新增至租使用者清單。
-- [移除-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern)會從租使用者清單中移除封鎖的數位模式。
+- [移除-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern) 會從租使用者清單中移除封鎖的數位模式。
 - [[設定] CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern)會修改租使用者清單中封鎖數位模式的一個或多個參數。
 
-查看並啟用整個呼叫封鎖功能是透過**取得**、**設定**  - **CsTenantBlockingCallingNumbers** Cmdlet 來管理。
+查看並啟用整個呼叫封鎖功能是透過 **取得**、**設定**  - **CsTenantBlockingCallingNumbers** Cmdlet 來管理。
 
-- [CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers)會傳回全域封鎖號碼清單的參數，包括啟用 (True/False) 。 只有在開啟或關閉此功能時，才能手動修改單一全域租使用者原則。
-- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers)可讓您在租使用者層級開啟和關閉全域租使用者封鎖通話。
+- [CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) 會傳回全域封鎖號碼清單的參數，包括啟用 (True/False) 。 只有在開啟或關閉此功能時，才能手動修改單一全域租使用者原則。
+- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) 可讓您在租使用者層級開啟和關閉全域租使用者封鎖通話。
 
 ### <a name="examples"></a>範例
 
 #### <a name="block-a-number"></a>封鎖數位
 
-在這個範例中，[**啟用**] 和 [**描述**] 參數是選用的。
+在這個範例中，[ **啟用** ] 和 [ **描述** ] 參數是選用的。
 
 ```powershell
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
@@ -66,13 +66,13 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 #### <a name="allow-a-number"></a>允許數位
 
-在這個範例中，需要身分**識別**參數。
+在這個範例中，需要身分 **識別** 參數。
 
 ```powershell
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-如果身分識別不可知，請使用**CsInboundBlockedNumberPattern** Cmdlet，先找出適當的模式，並記下身分識別。 然後，執行**CsTenantBlockedNumberPattern** Cmdlet，並傳遞適當的身分識別值。
+如果身分識別不可知，請使用 **CsInboundBlockedNumberPattern** Cmdlet，先找出適當的模式，並記下身分識別。 然後，執行 **CsTenantBlockedNumberPattern** Cmdlet，並傳遞適當的身分識別值。
 
 在進行測試和驗證前，請先留出時間進行複製。
 
@@ -90,16 +90,16 @@ Get-CsInboundBlockedNumberPattern
 
 您可以使用 [**新增**]、[**取得**]、[**設定**]、[**移除**  - **CsTenantBlockNumberExceptionPattern** ] Cmdlet，在封鎖的數位模式中新增例外狀況。
 
-- [新-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern)會將數位例外模式新增至租使用者清單。 
-- [CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern)會傳回已新增至租使用者清單的所有數位例外模式清單。
+- [新-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) 會將數位例外模式新增至租使用者清單。 
+- [CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) 會傳回已新增至租使用者清單的所有數位例外模式清單。
 - [[設定] CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern)會將一個或多個參數修改為租使用者清單中的數位例外模式。
-- [移除-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern)會移除租使用者清單中的數位例外模式。
+- [移除-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) 會移除租使用者清單中的數位例外模式。
 
 ### <a name="examples"></a>範例
 
 #### <a name="add-a-number-exception"></a>新增數位例外狀況
 
-在這個範例中，會建立新的數位例外模式，而且預設會將模式新增為 [啟用]。 [**啟用**] 和 [**描述**] 參數是選擇性的。
+在這個範例中，會建立新的數位例外模式，而且預設會將模式新增為 [啟用]。 [ **啟用** ] 和 [ **描述** ] 參數是選擇性的。
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -111,7 +111,7 @@ New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="view-all-number-exceptions"></a>查看所有數位例外狀況
 
-在這個範例中，身分**識別**參數是選擇性的。 如果未指定身分**識別**參數，這個 Cmdlet 會傳回為租使用者輸入的所有數位例外模式清單。
+在這個範例中，身分 **識別** 參數是選擇性的。 如果未指定身分 **識別** 參數，這個 Cmdlet 會傳回為租使用者輸入的所有數位例外模式清單。
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -123,7 +123,7 @@ Get-CsTenantBlockedNumberExceptionPattern -Tenant daacb588-18ef-4f77-8c83-955af9
 
 #### <a name="modify-a-number-exception"></a>修改數位例外狀況
 
-在這個範例中，身分**識別**參數是強制性的。 **CsTenantBlockedNumberExceptionPattern** Cmdlet 可讓您針對指定的數位模式身分修改一或多個參數。
+在這個範例中，身分 **識別** 參數是強制性的。 **CsTenantBlockedNumberExceptionPattern** Cmdlet 可讓您針對指定的數位模式身分修改一或多個參數。
  
 ```powershell
 Set-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -135,7 +135,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>移除數位例外狀況
 
-在這個範例中，需要身分**識別**參數。 這個 Cmdlet 會從租使用者清單中移除指定的數位模式。  如果身分識別不可知，請使用**CsInboundBlockedNumberPattern** Cmdlet，先找出適當的模式，並記下身分識別。 然後，執行**CsTenantBlockedNumberExceptionPattern** Cmdlet，並傳遞適當的身分識別值。在進行測試和驗證前，請先留出時間進行複製。  
+在這個範例中，需要身分 **識別** 參數。 這個 Cmdlet 會從租使用者清單中移除指定的數位模式。  如果身分識別不可知，請使用 **CsInboundBlockedNumberPattern** Cmdlet，先找出適當的模式，並記下身分識別。 然後，執行 **CsTenantBlockedNumberExceptionPattern** Cmdlet，並傳遞適當的身分識別值。在進行測試和驗證前，請先留出時間進行複製。  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -147,9 +147,9 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 ### <a name="test-whether-a-number-is-blocked"></a>測試是否已封鎖某個數位
 
-使用**CsInboundBlockedNumberPattern** Cmdlet 來驗證租使用者中是否有一個數位被封鎖。
+使用 **CsInboundBlockedNumberPattern** Cmdlet 來驗證租使用者中是否有一個數位被封鎖。
  
-在這個範例中， **PhoneNumber**和**租**使用者參數是必要的。 **PhoneNumber**參數應該是不含任何其他字元（例如 + 或-）的數值字串。 在 TRPS 中，**租使用者參數**是選擇性的。 如果該數位在租使用者中遭到封鎖，則所產生的**isNumberBlocked**參數會傳回 True 值，如果未封鎖，則傳回 False。
+在這個範例中， **PhoneNumber** 和 **租** 使用者參數是必要的。 **PhoneNumber** 參數應該是不含任何其他字元（例如 + 或-）的數值字串。 在 TRPS 中， **租使用者參數** 是選擇性的。 如果該數位在租使用者中遭到封鎖，則所產生的 **isNumberBlocked** 參數會傳回 True 值，如果未封鎖，則傳回 False。
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

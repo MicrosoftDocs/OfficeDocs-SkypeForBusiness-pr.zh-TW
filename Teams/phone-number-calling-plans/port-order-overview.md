@@ -1,7 +1,7 @@
 ---
 title: 什麼是移轉訂單？
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 瞭解什麼是埠訂單，以及如何將電話號碼從服務提供者轉移至團隊。
-ms.openlocfilehash: ecc14566573cf90d24323e65491851be86252b1a
-ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
+ms.openlocfilehash: 4f1f8ca843db8c2b27eaa467b0014befe6f2b519
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399518"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802503"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
@@ -116,9 +116,9 @@ ms.locfileid: "47399518"
 
 以下是如何針對每種類型的號碼提交編號移植要求的詳細資訊：
   
-- 不同的運營商所提供的**電話號碼**，對於每個運營商而言，都需要有唯一的號碼移植要求。
+- 不同的運營商所提供的 **電話號碼**，對於每個運營商而言，都需要有唯一的號碼移植要求。
 
-- 含區號（例如：800、844、855、866、877和888）的**免付費電話號碼**，不能包含其他類型的數位移植要求。 若要移植這些免付費電話號碼，您必須 [手動提交一個埠順序](manually-submit-port-order.md)。 您無法將這些號碼移植至 Microsoft 團隊系統管理中心。 如需詳細資訊，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- 含區號（例如：800、844、855、866、877和888）的 **免付費電話號碼**，不能包含其他類型的數位移植要求。 若要移植這些免付費電話號碼，您必須 [手動提交一個埠順序](manually-submit-port-order.md)。 您無法將這些號碼移植至 Microsoft 團隊系統管理中心。 如需詳細資訊，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
     對於您想要移植的國家/地區和電話號碼類型，請務必使用正確的授權 (LOA) 。 您可以 [在這裡下載所需的 LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 

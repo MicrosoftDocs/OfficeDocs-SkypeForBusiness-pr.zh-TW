@@ -1,8 +1,8 @@
 ---
 title: Edge Server 範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: '[Edge 集區] 節點會列出您拓撲中的 Edge 集區。 您可以執行下列動作：'
-ms.openlocfilehash: d5bc14f7222aa4cd682869754d962ec154c54957
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: eb7c71e95364087f094e22fa4d9337ed93f69f5e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218164"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818413"
 ---
 # <a name="edge-servers-scope-node"></a>Edge Server 範圍節點
  

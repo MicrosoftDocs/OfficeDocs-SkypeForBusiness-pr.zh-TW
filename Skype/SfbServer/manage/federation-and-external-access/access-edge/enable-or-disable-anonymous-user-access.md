@@ -5,8 +5,8 @@ ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,59 +15,59 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 40b365f25abccc05a5eb5156e1c7d79106a7537c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 7e828745810bd49f9b8f3ea9e7bee1d023e4fc67
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818404"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817443"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用匿名使用者存取
 
-匿名使用者是在組織的 Active Directory 網域服務或受支援的聯盟網域中沒有使用者帳戶的使用者，但在內部部署會議中可以受邀參與遠端參與。 透過允許匿名參與會議，您可以啟用匿名使用者（也就是僅透過會議或會議金鑰驗證身分識別的使用者）加入會議。 允許匿名參與需要為您的組織啟用。
+匿名使用者是指沒有組織的 Active Directory 網域服務或支援的同盟網域中的使用者帳戶的使用者，但可邀請他們在內部部署會議中遠端參與。 透過允許匿名參與會議，您可以啟用匿名使用者 (也就是說，其身分識別透過會議或會議金鑰驗證的使用者，只) 加入會議。 允許匿名參與必須為您的組織啟用它。
 
-如果您稍後想要暫時或永久避免匿名使用者的存取權，您可以針對您的組織停用它。 您可以使用本節中的程式來啟用或停用您組織的匿名使用者存取權。
+如果您稍後想要暫時或永久禁止匿名使用者進行存取，您可以對組織停用。 使用本節中的程式來啟用或停用組織的匿名使用者存取。
 
 > [!NOTE]  
-> 透過針對您的組織啟用匿名使用者存取，您只會指定執行存取邊緣服務的伺服器支援由匿名使用者進行存取。 匿名使用者無法參與貴組織中的任何會議，除非您也設定了至少一個會議原則，並將它套用至一或多個使用者或使用者群組。 只有指派會議原則且設定為支援匿名使用者的使用者，才能邀請匿名使用者加入會議的使用者。 如需設定會議原則以支援邀請匿名使用者的詳細資料，請參閱[管理會議原則](../../conferencing/conferencing-policies.md)。
+> 透過為您的組織啟用匿名使用者存取，您只會指定執行 Access Edge service 的伺服器支援匿名使用者的存取。 除非您也至少要設定一個會議原則，並將其套用至一或多個使用者或使用者群組，否則匿名使用者無法參與您組織中的任何會議。 只有被指派為支援匿名使用者之會議原則的使用者，才可邀請匿名使用者加入會議的使用者。 如需設定會議原則以支援邀請匿名使用者的詳細資訊，請參閱 [管理會議原則](../../conferencing/conferencing-policies.md)。
 
-## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>若要啟用或停用您組織的匿名使用者存取權
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>啟用或停用組織的匿名使用者存取
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
 
-3.  在左側導覽列中，按一下 [**外部使用者存取**]，然後按一下 [**存取邊緣**設定]。
+3.  在左導覽列中，按一下 [ **外部使用者存取**]，然後按一下 [ **Access Edge** 設定]。
 
-4.  在 [**存取邊緣**設定] 頁面上，按一下 [**全域**]，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。
+4.  在 [ **Access Edge** 設定] 頁面上，依序按一下 [ **全域**]、[ **編輯**]，然後按一下 [ **顯示詳細資料**]。
 
-5.  在 [**編輯存取邊緣**設定] 中，執行下列其中一項操作：
+5.  在 [ **編輯 Access Edge** 設定] 中，執行下列其中一項操作：
     
-      - 若要為您的組織啟用匿名使用者存取，請選取 [**啟用與匿名使用者的通訊**] 核取方塊。
+      - 若要為您的組織啟用匿名使用者存取，請選取 [ **啟用與匿名使用者的通訊** ] 核取方塊。
     
-      - 若要停用您組織的匿名使用者存取，請清除 [**啟用與匿名使用者的通訊**] 核取方塊。
+      - 若要停用組織的匿名使用者存取，請清除 [ **啟用與匿名使用者的通訊** ] 核取方塊。
 
-6.  按一下 [認可]****。
+6.  按一下 **[認可]**。
 
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來啟用或停用匿名使用者存取
 
-您可以使用 Windows PowerShell 和**CsAccessEdgeConfiguration** Cmdlet 來管理匿名使用者存取。 您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 **Set-CsAccessEdgeConfiguration** Cmdlet 來管理匿名使用者存取。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
 
 ## <a name="to-enable-anonymous-user-access"></a>啟用匿名使用者存取
 
-  - 若要啟用匿名使用者存取，請將**AllowAnonymousUsers**屬性的值設定為 True （$True）：
+  - 若要啟用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性的值設為 True ($True) ：
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
-## <a name="to-disable-anonymous-user-access"></a>若要停用匿名使用者存取
+## <a name="to-disable-anonymous-user-access"></a>停用匿名使用者存取
 
-  - 若要停用匿名使用者存取，請將**AllowAnonymousUsers**屬性的值設定為 False （$False）：
+  - 若要停用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性值設為 False ($False) ：
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
-[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
   

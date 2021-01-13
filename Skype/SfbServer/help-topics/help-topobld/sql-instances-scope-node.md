@@ -1,8 +1,8 @@
 ---
 title: SQL 執行個體範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: '[SQL 存放區] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：'
-ms.openlocfilehash: 1491a45bcf39160f7a5d4fe0bf83cbd130724560
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 38d11c4074fea1df299e8394e7a7fc93f88ace15
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219628"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818123"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 執行個體範圍節點
  

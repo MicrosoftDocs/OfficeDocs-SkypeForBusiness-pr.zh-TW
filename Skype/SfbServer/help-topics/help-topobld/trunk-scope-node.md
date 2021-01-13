@@ -1,8 +1,8 @@
 ---
 title: 主幹範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 您可以在拓撲產生器中，以滑鼠右鍵按一下現有的 SIP 主幹，以執行下列作業：
-ms.openlocfilehash: fa99bdd6294c8b22cec3a0fc5ce161a2fcd1d76d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 05e64f5903f46c3f103ebbea88d17d2248e6db3d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215914"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818043"
 ---
 # <a name="trunk-scope-node"></a>主幹範圍節點
  
 您可以在拓撲產生器中，以滑鼠右鍵按一下現有的 SIP 主幹，以執行下列作業：
   
-- **編輯內容**：啟動用來編輯或重新定義現有 SIP 主幹設定的 [編輯內容精靈]****
+- **編輯內容**：啟動用來編輯或重新定義現有 SIP 主幹設定的 [編輯內容精靈]
     
 除了 [編輯內容] 選項，您還可以執行下列一般工作：
   

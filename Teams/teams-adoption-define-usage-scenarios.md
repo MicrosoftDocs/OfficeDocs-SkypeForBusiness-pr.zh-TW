@@ -1,7 +1,7 @@
 ---
 title: 定義 Microsoft 團隊的使用案例
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: fb5f1370369da20c14a658f7a2525704f71195a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997264"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804593"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>定義 Microsoft 團隊的使用案例
 
-請確定您已瞭解將會在您的實現的此階段範圍中的商務專案（案例）。 看看這個範例案例清單，這些案例是先期採用者程式的絕佳候選方案。 您可以從簡易的 wins 開始，例如：
+請確定您已瞭解商務專案 (案例) ，這些案例將會在您實現的此階段的範圍內。 看看這個範例案例清單，這些案例是先期採用者程式的絕佳候選方案。 您可以從簡易的 wins 開始，例如：
 
 - 個人生產力
 - 現代專案管理
@@ -65,11 +65,11 @@ ms.locfileid: "43997264"
 
 ![識別案例的架構圖例](media/teams-adoption-identify-scenarios.png)
 
-在對一或多個商務專案關係人講話之後，您可以根據影響與難點來排定案例的優先順序。 （您的案例可能除了上述所建議的案例之外。）針對您的實驗階段適當的候選人，可能會有較高的影響及中等難度。 這可確保您的專案不會受到範圍蔓延或技術問題影響，您就可以顯示工作的價值。 圖範例如下所示。
+在對一或多個商務專案關係人講話之後，您可以根據影響與難點來排定案例的優先順序。  (您的案例可能是您上述所建議的案例。針對您的實驗階段 ) 適當的候選人，會有較高的影響和中等難度。 這可確保您的專案不會受到範圍蔓延或技術問題影響，您就可以顯示工作的價值。 圖範例如下所示。
 
 ![顯示案例影響與難點的圖例](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 我們總是渴望瞭解我們的客戶如何以新的創新方式使用團隊。 在我們的[推動採納研討論壇](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)中與我們分享您的 #TeamsStories。 在您的文章中加入 [井號] **#TeamsStories** 。 我們一直都對您在組織中使用團隊的方式感興趣。
+> 我們總是渴望瞭解我們的客戶如何以新的創新方式使用團隊。 在我們的 [推動採納研討論壇](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)中與我們分享您的 #TeamsStories。 在您的文章中加入 [井號] **#TeamsStories** 。 我們一直都對您在組織中使用團隊的方式感興趣。
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示： [內[建先行的](teams-adoption-onboard-early-adopters.md)使用中] 和 [收集意見反應]。
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [內 [建先行的](teams-adoption-onboard-early-adopters.md)使用中] 和 [收集意見反應]。

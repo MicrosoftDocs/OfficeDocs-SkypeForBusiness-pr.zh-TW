@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊轉場電子郵件與調查 |基本升級
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31dfb96d4ad883593e49b71aa8ec86a86b25e660
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665945"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809073"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件與調查範例
 
@@ -207,7 +207,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用團隊進行 IM/與其他人聊天 | | | | | | | | | | |
 | 使用團隊進行線上會議 | | | | | | | | | | |
-| 使用團隊共同作業（團隊和頻道） | | | | | | | | | | |
+| 使用團隊進行共同作業 (團隊和頻道)  | | | | | | | | | | |
 | 在我的行動裝置上使用團隊 | | | | | | | | | | |
 
 | **如果有任何問題，您無法使用 Microsoft 團隊嗎？** | **選取所有適用的** |
@@ -221,9 +221,9 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 我嘗試使用它，但遇到技術問題或不佳的體驗 | &#9744; |
 | 我們的支援中心無法協助我解決問題 | &#9744; |
 | 沒有，我目前使用它 | &#9744; |
-| 其他（請指定） | &#9744; |
+| 其他 (請指定)  | &#9744; |
 
-**您可能會將 Microsoft 團隊推薦給朋友/同事的可能性為何？（0 = 根本不可能 .。。10 = 極有可能）**
+**您可能會將 Microsoft 團隊推薦給朋友/同事的可能性為何？ (0 = 根本不可能 .。。10 = 極有可能)**
 
 | 0 | 1 | 2 | 3 | 4 | 500 | 6 | utf-7 | 型 | 9 | 第 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

@@ -1,7 +1,7 @@
 ---
 title: '[加入檢查清單]-設定核心功能-Microsoft 團隊'
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1881afc4897ca6321cd56609e491aef144e10da
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+ms.openlocfilehash: a2987b507b9fa149ad874b1035a753586c05b23d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456087"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802303"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>設定 Microsoft 團隊核心功能
 
-| 否 | 活動或任務 | 說明 | 完畢? | 其他資訊 |
+| 否 | 活動或任務 | 描述 | 完畢? | 其他資訊 |
 |----|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | 確認您的環境包含所有團隊先決條件 | 團隊依賴其他平臺來建立端對端的共同作業方案。 與您的 IT 團隊共同作業，以確保您已部署並正確設定 Exchange、SharePoint Online 和商務用 OneDrive。 | | [SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md) <br/><br/>[Exchange 與 Microsoft 團隊如何互動](exchange-teams-interact.md) |
+| 1  | 確認您的環境包含所有團隊先決條件 | 團隊依賴其他平臺來建立端對端的共同作業方案。 與您的 IT 團隊共同作業，以確保您已部署並正確設定 Exchange、SharePoint Online 和商務用 OneDrive。 | | [SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md) <br/><br/>[Exchange 和 Microsoft Teams 如何互動](exchange-teams-interact.md) |
 | 2  | 驗證已針對租使用者啟用團隊 | 預設會為所有組織開啟團隊。 檢查 Microsoft 365 系統管理中心的 [ **服務] & 的增益集** 頁面，確認您的組織已啟用該小組，並視需要啟用該小組。 | | [在 Microsoft 365 或 Office 365 中設定 Microsoft 團隊](office-365-set-up.md) |
 | 3  | 設定角色和許可權 | 團隊支援兩種類型的角色：成員和擁有者。 <br/><br/>將成員新增至團隊之後，擁有者也可以將成員升級為擁有者角色。 最佳做法，我們建議您至少有指派給每個小組的兩個擁有者。 <br/><br/>根據預設，組織中擁有 Exchange Online 之信箱的每個人都可以建立小組。 建立新團隊的使用者會自動獲得該小組的擁有者角色。 <br/><br/>如有需要，您可以設定 Microsoft 365 群組設定，只讓特定使用者建立新的團隊。 | | [在 Microsoft 團隊中指派角色和許可權](assign-roles-permissions.md) <br/><br/>[Microsoft 365 群組和 Microsoft 團隊](office-365-groups.md) <br/><br/>[管理哪些人可以建立 Microsoft 365 群組](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
 | 4  | 設定租使用者範圍的團隊設定 | 您可以在租使用者層級設定一些團隊設定。 針對團隊啟用的使用者會從租使用者設定繼承這些設定：<ul><li>一般</li><li>電子郵件整合</li><li>應用程式</li><li>自訂雲端儲存空間</li><li>通話與會議</li><li>訊息傳送</li></ul>| | [管理組織的 Microsoft Teams 設定](enable-features-office-365.md) |

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 根範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 8/10/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: Lync Server 節點會列出您拓撲中的中央網站。 您可以執行下列動作：
-ms.openlocfilehash: 85a9543c27faab8d994e2ac2727bf8e328554682
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: fef2ccbf7e321aff7b2538b53f53e4381163d986
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217704"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818193"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>商務用 Skype Server 根範圍節點
  
-**Lync Server**節點會列出您拓撲中的中央網站。 您可以執行下列動作：
+**Lync Server** 節點會列出您拓撲中的中央網站。 您可以執行下列動作：
   
 - **新的中央網站**。 啟動 [定義新的中央網站] 嚮導，用來將新的中央網站新增至拓撲。
     

@@ -1,8 +1,8 @@
 ---
 title: SIP 視訊主幹範圍節點
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: cc364ff58771a47d1f587c2ca980d5736101a976
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 3ab1eb816a208309012537eee54d9ad6455e9451
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219678"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818213"
 ---
 # <a name="sip-video-trunks-scope-node"></a>SIP 視訊主幹範圍節點
  
@@ -34,6 +34,6 @@ ms.locfileid: "48219678"
   
  若要在 Cisco GUI 中設定之 VTC 的設定，以便與影片閘道和 VIS 進行交互操作，請參閱 [Configure a VTC for](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)business To business Server 2015 中的互用性。
   
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 2015 中規劃影片 Interop 伺服器](../../plan-your-deployment/video-interop-server.md)

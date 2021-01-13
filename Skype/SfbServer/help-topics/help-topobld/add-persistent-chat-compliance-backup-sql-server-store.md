@@ -1,8 +1,8 @@
 ---
 title: 新增常設聊天室規範備份 SQL Server 儲存區
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: 您可以設定備份規範 SQL Server 儲存區，為 Persistent Chat Server 或 Persistent Chat Server 規範 SQL Server 儲存區提供備份資料庫。
-ms.openlocfilehash: 9251c322560d06652c4eefe80b6c05a51aa9f922
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 9b380091978d62294c6ea16ffa8586b9f8d9d322
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218694"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818713"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>新增常設聊天室規範備份 SQL Server 儲存區
  
@@ -36,19 +36,19 @@ ms.locfileid: "48218694"
   
 按一下 [ **新增** ] 可定義新的 SQL server，並選擇性地定義 PERSISTENT Chat SQL server 鏡像的新實例。
   
-選取 [使用 SQL Server 鏡像見證啟用自動容錯移轉]**** 清單，此 SQL Server 會在容錯移轉案例中擔任見證伺服器。 見證伺服器不會鏡像或裝載 Persistent 聊天伺服器的資料，但可確保鏡像設定中每次只有一部 SQL Server 成為使用中的 SQL Server。
+選取 [使用 SQL Server 鏡像見證啟用自動容錯移轉] 清單，此 SQL Server 會在容錯移轉案例中擔任見證伺服器。 見證伺服器不會鏡像或裝載 Persistent 聊天伺服器的資料，但可確保鏡像設定中每次只有一部 SQL Server 成為使用中的 SQL Server。
   
 按一下 [ **新增** ] 可定義新的 SQL Server 見證，並選擇性地定義持久聊天備份規範 SQL server 鏡像見證的實例。
   
-按 [上一步]**** 回到上一個集區定義對話方塊。
+按 [上一步] 回到上一個集區定義對話方塊。
   
 完成輸入此集區之備份 SQL Server 儲存區設定的選項之後，按 **[下一步]** ，以繼續使用 Persistent Chat Server 集區定義。
   
-按一下 [取消]**** 捨棄所有變更，並結束 [定義新的常設聊天室集區精靈]****。
+按一下 [取消] 捨棄所有變更，並結束 [定義新的常設聊天室集區精靈]。
   
-按一下 [說明]**** 存取即時線上說明，例如此頁面。
+按一下 [說明] 存取即時線上說明，例如此頁面。
   
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 2015 中規劃 Persistent Chat Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

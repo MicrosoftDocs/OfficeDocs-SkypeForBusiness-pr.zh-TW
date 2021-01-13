@@ -1,8 +1,8 @@
 ---
 title: 建立前端與監視的關聯
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 description: 每個前端集區和 Survivable Branch Appliance 只能有一個相關聯的監控伺服器。當網站啟用監控時，監控伺服器會提供詳細通話記錄 (CDR) 和經驗品質 (QoE) 的資料收集與報告。
-ms.openlocfilehash: e40ab549a207a78e11979e84c0da1338f4a72c26
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 8e6a3ce9789c3a26c7f729c76b08c2c57a7701dc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216304"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818473"
 ---
 # <a name="associate-front-end-with-monitoring"></a>建立前端與監視的關聯
  

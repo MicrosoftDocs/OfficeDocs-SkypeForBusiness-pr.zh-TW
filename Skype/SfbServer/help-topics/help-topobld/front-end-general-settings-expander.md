@@ -1,8 +1,8 @@
 ---
 title: 前端一般設定展開工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 若要編輯現有前端集區或 Standard Edition server 的設定，您會看到下列各節：
-ms.openlocfilehash: 6f66fadbc722f59bdc7bcb54b149bf05fa322afb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 2560c07e8e9a59259bcf9dbfd1af385fdb18845d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215504"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818383"
 ---
 # <a name="front-end-general-settings-expander"></a>前端一般設定展開工具
 
@@ -65,7 +65,7 @@ ms.locfileid: "48215504"
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-  - **Archiving**封存。 建立封存伺服器存放區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的封存 SQL Server 儲存區，或按一下 [ **新增** ] 以指定新的封存伺服器。
+  - 封存。 建立封存伺服器存放區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的封存 SQL Server 儲存區，或按一下 [ **新增** ] 以指定新的封存伺服器。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
@@ -74,13 +74,13 @@ ms.locfileid: "48215504"
 
     選取 **[使用 SQL Server 鏡像見證啟用自動容錯移轉** ]，以選取要用來做為鏡像見證的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
 
-  - **監視 (CDR 和 QoE 度量) **。 選取可將監控 SQL Server 儲存區與前端集區產生關聯。 您可以從清單中選取伺服器，以選取已定義的監控伺服器，或按一下 [ **新增** ] 以指定新的監控伺服器。
+  - **監視 (CDR 和 QoE 度量)**。 選取可將監控 SQL Server 儲存區與前端集區產生關聯。 您可以從清單中選取伺服器，以選取已定義的監控伺服器，或按一下 [ **新增** ] 以指定新的監控伺服器。
 
     選取 [ **啟用 SQL Server 儲存區鏡像**]，然後選取要用於鏡像的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
 
     選取 **[使用 SQL Server 鏡像見證啟用自動容錯移轉** ]，以選取要用來做為鏡像見證的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
 
-  - [**建立媒體元件的 Edge 集區 (]) **。 建立 Edge Server 或集區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的 Edge Server 或集區，或按一下 [ **新增** ] 以指定新的 edge server 或集區。
+  - [**建立媒體元件的 Edge 集區 (])**。 建立 Edge Server 或集區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的 Edge Server 或集區，或按一下 [ **新增** ] 以指定新的 edge server 或集區。
 
   - **建立集區與 Office Web Apps Server 的關聯**。 選取這個選項，將 Office Web Apps Server 與前端集區產生關聯。 從清單中選取現有的伺服器，或按一下 [ **新增** ] 建立新的 Office Web Apps server。
 
@@ -94,7 +94,7 @@ ms.locfileid: "48215504"
 > 在定義失敗偵測和回退間隔時，您應該注意不要輸入一個間隔，當伺服器無法回應一小段時間時，就會發生容錯移轉和回退。 根據集區或伺服器的載入，主伺服器可能會在短時間內無法回應。 Pool to pool 或 pool to Standard Edition server 的容錯移轉和回退的預設值是300秒和600秒。 在 Survivable Branch 裝置或網站中的 Survivable 分支伺服器事件到集區或 Standard Edition server 時，預設值為120秒的容錯移轉和240秒以供回退。
 
 > [!CAUTION]
-> **容錯移轉間隔**的最小值不應該設定為低於90秒。 如果您將值設定為小於90秒，則會使用90秒的值。 Intercluster ping time 為30秒，設定小於90秒時，可能會造成主要和備份伺服器迴圈啟動和關閉，造成對生產的不良影響，因為伺服器會嘗試解析另一種可行的狀態。 小於90秒不允許足夠的時間來判斷主伺服器是否實際無法使用。
+> **容錯移轉間隔** 的最小值不應該設定為低於90秒。 如果您將值設定為小於90秒，則會使用90秒的值。 Intercluster ping time 為30秒，設定小於90秒時，可能會造成主要和備份伺服器迴圈啟動和關閉，造成對生產的不良影響，因為伺服器會嘗試解析另一種可行的狀態。 小於90秒不允許足夠的時間來判斷主伺服器是否實際無法使用。
 
 ### <a name="web-services"></a>Web 服務
 
@@ -121,11 +121,11 @@ ms.locfileid: "48215504"
 
 - 如果您組合轉送伺服器與集區，請選取 [ **組合的轉送伺服器已啟用** ] 核取方塊。 如果您選擇不組合轉送伺服器，則此區段沒有任何設定可供使用。
 
-- 如果您啟用中繼伺服器的組合，便會在集區伺服器上針對傳輸層安全性 (TLS) 定義聆聽連接埠範圍。 此連接埠預設為 5067。 如果您選取 [啟用 TCP 連接埠]****，則必須為組合的中繼伺服器定義傳輸控制通訊協定 (TCP) 連接埠。 這是選用的設定，您應該參考閘道或 PSTN 需求，來決定是否需要這項設定。 TCP 連接埠值預設為 5068。
+- 如果您啟用中繼伺服器的組合，便會在集區伺服器上針對傳輸層安全性 (TLS) 定義聆聽連接埠範圍。 此連接埠預設為 5067。 如果您選取 [啟用 TCP 連接埠]，則必須為組合的中繼伺服器定義傳輸控制通訊協定 (TCP) 連接埠。 這是選用的設定，您應該參考閘道或 PSTN 需求，來決定是否需要這項設定。 TCP 連接埠值預設為 5068。
 
 - 與組合中繼伺服器相關聯的主幹。如果已經定義主幹，可以將其用來與中繼伺服器相關聯。
 
-- 如果您有多個主幹與轉送伺服器相關聯，您可以選取閘道，然後按一下 [ **成為預設**]，以指定預設主幹。 若要取消選取成為預設的閘道，請按一下 [取消預設]****。
+- 如果您有多個主幹與轉送伺服器相關聯，您可以選取閘道，然後按一下 [ **成為預設**]，以指定預設主幹。 若要取消選取成為預設的閘道，請按一下 [取消預設]。
 
 如需定義和設定前端集區之設定的詳細資訊，請參閱 [部署轉送伺服器及定義對等](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
 
@@ -158,7 +158,7 @@ ms.locfileid: "48215504"
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-  - **Archiving**封存。 將封存 SQL Server 儲存區與 Standard Edition Server 產生關聯。 您可以從清單中選取伺服器，以選取已定義的封存儲存區，或按一下 [ **新增** ] 以指定新的封存存放區。
+  - 封存。 將封存 SQL Server 儲存區與 Standard Edition Server 產生關聯。 您可以從清單中選取伺服器，以選取已定義的封存儲存區，或按一下 [ **新增** ] 以指定新的封存存放區。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
@@ -167,7 +167,7 @@ ms.locfileid: "48215504"
 
   - **建立集區與 Office Web Apps Server 的關聯**。 選取這個選項，將 Office Web Apps Server 與前端集區產生關聯。 從清單中選取現有的伺服器，或按一下 [ **新增** ] 建立新的 Office Web Apps server。
 
-  - **建立 Edge 集**區的關聯。 將 Edge Server 或集區與 Standard Edition server 產生關聯。 您可以從清單中選取伺服器，以選取已定義的 Edge Server 或集區，或按一下 [ **新增** ] 以指定新的 edge server 或集區。
+  - **建立 Edge 集** 區的關聯。 將 Edge Server 或集區與 Standard Edition server 產生關聯。 您可以從清單中選取伺服器，以選取已定義的 Edge Server 或集區，或按一下 [ **新增** ] 以指定新的 edge server 或集區。
 
 ### <a name="resiliency"></a>彈性
 
@@ -196,7 +196,7 @@ ms.locfileid: "48215504"
 
 ### <a name="mediation-server"></a>中繼伺服器
 
-針對 [中繼伺服器]****，您可以指定下列內容：
+針對 [中繼伺服器]，您可以指定下列內容：
 
 - 如果您組合轉送伺服器與伺服器，請選取 [組合的中繼 **伺服器已啟用**] 核取方塊。 如果您選擇不組合轉送伺服器，則此區段沒有任何設定可供使用。
 
@@ -204,7 +204,7 @@ ms.locfileid: "48215504"
 
 - 與組合中繼伺服器相關聯的主幹。如果已經定義主幹，可以將其用來與中繼伺服器相關聯。
 
-- 如果您有多個閘道與轉送伺服器相關聯，您可以選取閘道，然後按一下 [ **成為預設**]，以指定預設閘道。 若要取消選取成為預設的閘道，請按一下 [取消預設]****。
+- 如果您有多個閘道與轉送伺服器相關聯，您可以選取閘道，然後按一下 [ **成為預設**]，以指定預設閘道。 若要取消選取成為預設的閘道，請按一下 [取消預設]。
 
 如需定義及設定 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 及 [部署轉送伺服器及定義對等](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
 

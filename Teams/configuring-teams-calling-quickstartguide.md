@@ -1,7 +1,7 @@
 ---
 title: 快速入門手冊-設定通話方案
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -19,14 +19,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eed9ec99445c2f632f1443343b7076aadfbb70a8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: c43decd3b3f7d5e23e0e7937a93b4663a80aa583
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739041"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799763"
 ---
-<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入門手冊：在 Microsoft 團隊中設定通話方案
+<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入門手冊：設定 Microsoft Teams 中的通話方案
 ==============================================================
 
 本指南將協助您讓一組使用者開始並執行，讓他們能夠探索團隊中的通話方案。
@@ -58,7 +58,7 @@ ms.locfileid: "48739041"
 TeamsUpgradePolicy 的預設設定為 [孤島] 模式，可確保現有的商務工作流程不會在團隊部署期間中斷。 根據預設，VoIP、PSTN 和對使用者的同盟呼叫將會繼續路由到商務用 Skype，直到您更新原則以啟用到團隊的撥入通話。  當收件者處於孤島模式時：
 
  - 在商務用 Skype 中產生的打入 VOIP 電話，在收件者的商務用 Skype 用戶端中永遠不會。
- - *如果寄件者和收件者在相同的租使用者中，則*會在團隊中的小組內站通話。
+ - *如果寄件者和收件者在相同的租使用者中，則* 會在團隊中的小組內站通話。
  - 傳入的同盟 VOIP (，不論是哪一個用戶端產生) ，而 PSTN 呼叫在收件者的商務用 Skype 用戶端中永遠都是居住的。
  
 若要確保傳入 VOIP 和 PSTN 呼叫永遠位於使用者的團隊用戶端，請將使用者的共存模式更新為 [ (TeamsOnly]，這表示將 TeamsUpgradePolicy 的 [UpgradeToTeams] 實例指派給它們。  如需共存模式與 TeamsUpgradePolicy 的詳細資訊，請參閱 [與商務用 Skype 搭配使用團隊之組織的遷移與互通性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
@@ -80,7 +80,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
 [與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[含有通話方案的電話系統](calling-plan-landing-page.md)
+[具有通話方案的電話系統](calling-plan-landing-page.md)
 
 [商務用 Skype PowerShell Cmdlet 參考](https://docs.microsoft.com/powershell/module/skype)
 
