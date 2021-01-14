@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的團隊和頻道概覽
-author: SerdarSoysal
-ms.author: serdars
+author: MikePlumleyMSFT
+ms.author: mikeplum
 ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534950"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865167"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -43,7 +43,7 @@ ms.locfileid: "48534950"
     
     設計團隊的目的是聚集一群人，讓他們以密切合作的方式來完成工作。 專案型工作 (例如啟動產品、建立數位戰情室) 的團隊可以是動態且持續性的，以反映組織的內部結構 (例如部門和辦公室位置)。 團隊中的聊天、檔案和記事只會對團隊成員顯示。
 
-- **頻道**是團隊內的專用區段，可依據特定主題、專案或訓練等適合團隊的分類來讓交談保持在井然有序的狀態中！ 您在頻道中共用的檔案 (位於 [檔案] 索引標籤上) 會儲存在 SharePoint 中。 如需詳細資訊，請參閱 [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
+- **頻道** 是團隊內的專用區段，可依據特定主題、專案或訓練等適合團隊的分類來讓交談保持在井然有序的狀態中！ 您在頻道中共用的檔案 (位於 [檔案] 索引標籤上) 會儲存在 SharePoint 中。 如需詳細資訊，請參閱 [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
 
     - 頻道是指交談發生的位置，以及實際完成工作的位置。 您可以為所有團隊成員開啟頻道，或將頻道設為私人頻道 (如果您需要挑選對象)。 標準頻道是團隊中每個人都可參與的頻道，而[私人頻道](private-channels.md)會限制僅與團隊內一小群人員交談。
     - 頻道若以包含索引標籤、連接器和 Bot 的應用程式進行擴充，則其對於團隊成員的作用，將最具價值。 若要深入了解，請參閱 [Teams 中的應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
