@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
-ms.openlocfilehash: 62250644d29f65a9c650db0e80477eec6baf4f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49839459"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49862583"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
@@ -64,8 +64,8 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 |教育版 (教師)     |建立適用于教師的一組原則與原則設定。      |
 |使用遠端學習 (主要學校老師的教育版)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |使用遠端學習) 的主要學校學生 (教育版    |建立適用於學生的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
-|第一線員工管理員 |建立一組原則，並將這些設定套用到貴組織中的第一線員工管理員。 |
-|第一線員工 worker |建立一組原則，並將這些設定套用到貴組織中的第一線員工工作人員。 |
+|第一線管理員 |建立一組原則，並將這些設定套用到貴組織中的 Fronttline 管理員。 |
+|Fronttline worker |建立一組原則，並將這些設定套用到貴組織中的 Fronttline 工作人員。 |
 |醫療保健臨床工人  |建立一組原則與原則設定，提供臨床工人（例如註冊的護士、充電護士、醫生和社會員工）完整存取聊天、通話、值班管理和會議。 |
 |醫療保健資訊工作者  |建立一組原則與原則設定，以提供資訊工作者，例如 IT 人員、informatics 員工、財務人員及合規性監察官，完整存取聊天、通話及會議。|
 |醫療保健患者機房  |建立一組原則與原則設定，適用于您的保健組織中的患者會議室。|

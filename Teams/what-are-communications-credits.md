@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解 (PSTN 消費) 帳單、如何尋找比率，以及所取得的服務的通訊點數。 '
-ms.openlocfilehash: 0af2e17351277bac49ac713b1f5e9fc9676beb28
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 694626fcd78956888fbca0b38754461c1f5ec158
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030949"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49848845"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
@@ -53,7 +53,7 @@ ms.locfileid: "49030949"
   
 ## <a name="what-are-the-communications-credits-rates"></a>通訊富餘利率為何？
 
-如果您想知道通話方案的通話成本為何，請參閱通話方案的通訊點數 [率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates) (向下滾動至 [查看您要撥打的位置] ) 。
+如果您不知道通話方案需要打電話的費用，請參閱用於 [語音通話的雲端電話系統](https://go.microsoft.com/fwlink/p/?LinkId=799523) (向下滾動至 [查看您要撥打的位置] ) 。
   
 ## <a name="what-is-it"></a>這是什麼？
 
@@ -67,16 +67,16 @@ ms.locfileid: "49030949"
 您可以使用預付支付餘額的 **一次性資助** ， **或** 設定 **自動** 加值 ( **建議** ) 金額加上將觸發針對該重新付款金額購買之採購的最小餘額。 首先，建議您設定自動加值金額，讓您監視實際使用量，並找出符合您需求與使用方式模式的正確自動充電閥值。 通訊點數應該在一段時間內受到監視，然後根據每個組織的需求調整所需的最小平衡和重新充電金額。
   
 > [!NOTE]
-> 您可以登 [入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並前往 **帳單**  >  **訂閱**  >  **新增訂閱** ，以查看方案和價格。 
+> 您可以登 [入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並前往 **帳單**  >  **訂閱**  >  **新增訂閱**，以查看方案和價格。 
   
-在 **Microsoft 365 系統管理中心**  >  **帳單**  >  **購買服務** 中  >  **Add Ons** ，您可以選取 [通訊點數] 來新增點數，而且您可以隨時手動新增信用額度。 您也可以啟用 **自動** 加值選項，當餘額低於您所設定的閾值時，就會允許自動重填帳戶。 如果您選擇將通訊點數與一次性金額進行資金平衡，然後餘額降到零，則上述其他通話案例將無法再運作，包括免付費電話號碼。 如此一來，建議您使用 **自動** 加值設定，以避免通訊點數平衡達到 0 (零) 時的任何服務中斷。 您可以前往 **帳單**  >  **您的產品**  >  **通訊點數** 來查看您目前的通訊點數平衡。
+在 **Microsoft 365 系統管理中心**  >  **帳單**  >  **購買服務** 中  >   ，您可以選取 [通訊點數] 來新增點數，而且您可以隨時手動新增信用額度。 您也可以啟用 **自動** 加值選項，當餘額低於您所設定的閾值時，就會允許自動重填帳戶。 如果您選擇將通訊點數與一次性金額進行資金平衡，然後餘額降到零，則上述其他通話案例將無法再運作，包括免付費電話號碼。 如此一來，建議您使用 **自動** 加值設定，以避免通訊點數平衡達到 0 (零) 時的任何服務中斷。 您可以前往 **帳單**  >  **您的產品**  >  **通訊點數** 來查看您目前的通訊點數平衡。
 
 > [!NOTE]
 >您將會透過 Lync Service 系統管理員、公司系統管理員、計費管理員、公司管理員、使用者帳戶系統管理員、支援人員管理員、服務支援管理員來傳送電子郵件給 **所有使用者** 。計費系統管理員，Lync 服務系統管理員，裝置管理員，應用程式管理員，授權系統管理員，[雲端裝置管理員]，[驗證系統管理員]，管理驗證管理員，小組通訊管理員，小組通訊支援工程師，小組溝通支援專家，小組服務系統管理員的角色，當費用交易成功時， (的充電交易會失敗) ，或通訊點數餘額達到 0 (零) 
   
 ## <a name="communications-credits"></a>通訊點數
 
-每個組織會有不同的通話方案數量與比率，以進行考慮。 您必須從目前的服務提供者取得這種類型的使用資料。 對於使用團隊已成為其服務提供者的組織，您可以透過在 Microsoft 團隊管理中心 > **分析 & 報告**  >  **使用狀況報告** ，然後選取 **PSTN 使用量** 來取得使用方式資料。
+每個組織會有不同的通話方案數量與比率，以進行考慮。 您必須從目前的服務提供者取得這種類型的使用資料。 對於使用團隊已成為其服務提供者的組織，您可以透過在 Microsoft 團隊管理中心 >**分析 & 報告**  >  **使用狀況報告**，然後選取 **PSTN 使用量** 來取得使用方式資料。
   
 當您設定通訊點數時，您需要調查貴組織的通話使用量，以判斷您需要加入的金額。 您可以透過查看 PSTN 使用狀況報告來取得通話使用量資訊。 此報告可讓您將通話資料記錄匯出至 Excel 並建立自訂報表。
 
@@ -118,7 +118,7 @@ ms.locfileid: "49030949"
     
 - [電話系統](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-您也可以登 [入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至 **帳單**  >  **購買服務** ，以查看有關定價的資訊。
+您也可以登 [入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至 **帳單**  >  **購買服務**，以查看有關定價的資訊。
   
 若要查看含有每個功能所需的授權或授權的表格，請參閱 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
   
