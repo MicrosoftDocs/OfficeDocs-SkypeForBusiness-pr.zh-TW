@@ -19,32 +19,35 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 瞭解商務用 Skype Online 的 Skype 會議廣播功能，可讓您安排、產生及廣播會議或事件給最多10000出席者的大型線上使用者。
-ms.openlocfilehash: 05e970e7859b361a4ec8c9656aedbe54f0de6f4f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b774c368674f421c11f36339ef7188ea8de82e64
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706118"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865157"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>為您的 Skype 會議廣播設定網路
 
-在您[啟用 Skype 會議廣播](enable-skype-meeting-broadcast.md)Skype 會議廣播之後，您必須設定您的網路。 如果您想要為企業外部的人員舉行網路研討會和其他廣播，請執行此步驟。
+在您 [啟用 Skype 會議廣播](enable-skype-meeting-broadcast.md) Skype 會議廣播之後，您必須設定您的網路。 如果您想要為企業外部的人員舉行網路研討會和其他廣播，請執行此步驟。
 
-如果您不熟悉如何設定防火牆，請考慮聘用[Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089)來為您執行此步驟。
+> [!IMPORTANT]
+> 商務用 Skype Online 已于2021年7月31日停用，此時將會結束存取服務的時間。 我們鼓勵客戶開始升級至 Microsoft 團隊，即在 Microsoft 365 中進行通訊與團隊合作的核心用戶端。
 
-若要略過此步驟，而改為將其他公司新增到您的同盟，以便邀請他們進行廣播，請依照[允許使用者聯繫外部商務用 Skype 使用者](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)的步驟操作。
+如果您不熟悉如何設定防火牆，請考慮聘用 [Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089) 來為您執行此步驟。
+
+若要略過此步驟，而改為將其他公司新增到您的同盟，以便邀請他們進行廣播，請依照 [允許使用者聯繫外部商務用 Skype 使用者](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)的步驟操作。
 
 ## <a name="step-1-set-up-allowed-domains"></a>步驟1：設定允許的網域
 
-使用下列**其中一**種方法來設定 [允許的網域]：
+使用下列 **其中一** 種方法來設定 [允許的網域]：
 
 ## #
 
  **方法1：使用系統管理中心**
 
-1. 移至系統管理中心，然後在左導覽中，按一下 [**設定** > **服務&amp;增益集**]，然後選擇 [**商務用 Skype**]。
+1. 移至系統管理中心，然後在左導覽中，按一下 [**設定**  >  **服務 &amp; 增益集**]，然後選擇 [**商務用 Skype**]。
 
-2. 在 [**外部共用**] 頁面上的 [**網域例外**] 底下，選取 [**除了] 以外的所有網域**，然後輸入下列網域，並以逗號（，）分隔：
+2. 在 [ **外部共用** ] 頁面上的 [ **網域例外**] 底下，選取 [ **除了] 以外的所有網域**，然後輸入下列網域，並以逗號 ( ) ：
 
    - noammeetings.lync.com
 
@@ -54,13 +57,13 @@ ms.locfileid: "41706118"
 
    - resources.lync.com
 
-3. 按一下 [**儲存**]。
+3. 按一下 **[儲存]**。
 
 ## #
 
  **方法2：使用 Windows PowerShell**
 
-- 從 [**開始] 功能表**，以滑鼠右鍵按一下 [ **Windows PowerShell** ]，然後按一下 [**以系統管理員身分執行**]。 在 [ **Windows PowerShell** ] 視窗中，輸入每一行，然後按 enter 鍵。
+- 從 [ **開始] 功能表**，以滑鼠右鍵按一下 [ **Windows PowerShell** ]，然後按一下 [ **以系統管理員身分執行**]。 在 [ **Windows PowerShell** ] 視窗中，輸入每一行，然後按 enter 鍵。
 
   ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
@@ -94,7 +97,7 @@ ms.locfileid: "41706118"
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>在混合式部署與組織中設定 Skype 會議廣播
 
-如果您有商務用 Skype Online 組織和內部部署的 Lync Server 2010、Microsoft Lync Server 2013 及商務用 Skype Server 2015，且使用者都在線上和內部部署中，您將需要執行其他設定步驟您可以在上述方案中加入，以讓您的內部部署組織與商務用 Skype Online 進行通訊，並允許您所有的使用者加入 Skype 會議廣播。 若要查看這些需求，請參閱[設定 Skype 會議廣播的內部部署部署](https://go.microsoft.com/fwlink/?LinkId=617070)。
+如果您有商務用 Skype Online 組織與內部部署的 Lync Server 2010，Microsoft Lync Server 2013 和商務用 Skype Server 2015，且使用者都在線上和內部部署中，除了上述步驟之外，還需要執行其他設定步驟，才能讓您的內部部署組織與商務用 Skype Online 進行通訊，並允許您的所有使用者加入 Skype 會議廣播。 若要查看這些需求，請參閱 [設定 Skype 會議廣播的內部部署部署](https://go.microsoft.com/fwlink/?LinkId=617070)。
 
 ## <a name="related-topics"></a>相關主題
 

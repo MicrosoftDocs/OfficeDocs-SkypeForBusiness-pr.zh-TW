@@ -19,19 +19,24 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 在貴組織中的人員可以使用 Skype 會議廣播之前，您必須先啟用它。 若要這樣做，您必須知道如何使用 Windows PowerShell。 如果您不知道 Windows PowerShell，請考慮聘用 Microsoft 合作夥伴來為您執行此步驟。
-ms.openlocfilehash: 20d3671beb608413c5d0d61f599f65a47b55732d
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 1ba8f11913c932d695806ae4fd30db5e8609530f
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753428"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865137"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>啟用 Skype 會議廣播
 
 > [!IMPORTANT]
-> Microsoft 團隊系統管理中心已將商務用 Skype 系統管理中心 (舊版入口網站) 。 管理商務用 Skype 的所有設定現在都是在團隊系統管理中心。 您必須獲指派全域系統管理員或商務用 Skype 系統管理員的 [AZURE AD 管理員角色](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ，才能管理團隊系統管理中心的商務用 skype 功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
+> 商務用 Skype Online 已于2021年7月31日停用，此時將會結束存取服務的時間。 我們鼓勵客戶開始升級至 Microsoft 團隊，即在 Microsoft 365 中進行通訊與團隊合作的核心用戶端。
 
 在貴組織中的人員可以使用 Skype 會議廣播之前，您必須先啟用它。 若要這樣做，您必須知道如何使用 Windows PowerShell。 如果您不知道 Windows PowerShell，請考慮聘用 [Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089) 來為您執行此步驟。
+
+
+
+> [!NOTE]
+> Microsoft 團隊系統管理中心已將商務用 Skype 系統管理中心 (舊版入口網站) 。 管理商務用 Skype 的所有設定現在都是在團隊系統管理中心。 您必須獲指派全域系統管理員或商務用 Skype 系統管理員的 [AZURE AD 管理員角色](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ，才能管理團隊系統管理中心的商務用 skype 功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>使用商務用 Skype 系統管理中心啟用 Skype 會議廣播
@@ -40,9 +45,9 @@ ms.locfileid: "48753428"
 
 1. 使用您的全域系統管理員帳戶或商務用 Skype 系統管理中心帳戶登入 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。
     
-2. 在系統管理中心中，移至 [系統**管理中心**]  >  **小組**。
+2. 在系統管理中心中，移至 [系統 **管理中心**]  >  **小組**。
     
-3. 在**團隊系統管理中心**中，移至**舊版入口網站**  >  **線上會議**  >  **廣播會議**，然後選取 [**啟用 Skype 會議廣播**]。
+3. 在 **團隊系統管理中心** 中，移至 **舊版入口網站**  >  **線上會議**  >  **廣播會議**，然後選取 [**啟用 Skype 會議廣播**]。
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>使用 PowerShell 啟用 Skype 會議廣播
 
@@ -50,13 +55,13 @@ ms.locfileid: "48753428"
     
 2. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
     
-3. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
+3. 在 **Windows PowerShell** 視窗中輸入 [_取得主機_]，以檢查版本。
     
 4. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
     
 5. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從 [適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     
-6. 從 [ **開始] 功能表**中，選擇 [ **Windows PowerShell**]。
+6. 從 [ **開始] 功能表** 中，選擇 [ **Windows PowerShell**]。
     
 7. 在 **Windows PowerShell** 視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     

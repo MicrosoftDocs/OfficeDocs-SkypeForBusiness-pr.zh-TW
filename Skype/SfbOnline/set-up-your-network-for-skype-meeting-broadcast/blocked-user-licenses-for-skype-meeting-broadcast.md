@@ -18,17 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 遺憾的是，當使用者移至https://broadcast.skype.com並想要使用 Skype 會議廣播時，系統會封鎖某些使用者授權。 如果使用者看到這則訊息，就會將封鎖的授權指派給他們。 如果您仍想要他們使用，請指派另一個 Office 365 授權。
-ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 遺憾的是，當使用者移至 https://broadcast.skype.com 並想要使用 Skype 會議廣播時，系統會封鎖某些使用者授權。 如果使用者看到這則訊息，就會將封鎖的授權指派給他們。 如果您仍想要他們使用，請指派另一個 Office 365 授權。
+ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706138"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865147"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>主持 Skype 會議廣播的封鎖使用者授權
 
-遺憾的是，當使用者移至https://broadcast.skype.com並想要主持 Skype 會議廣播時，系統會封鎖某些使用者授權。 如果使用者看到這則訊息，就會將封鎖的授權指派給他們。 如果您仍想要他們使用，請指派另一個 Office 365 授權。
+> [!IMPORTANT]
+> 商務用 Skype Online 已于2021年7月31日停用，此時將會結束存取服務的時間。 我們鼓勵客戶開始升級至 Microsoft 團隊，即在 Microsoft 365 中進行通訊與團隊合作的核心用戶端。
+
+遺憾的是，當使用者移至 https://broadcast.skype.com 並想要主持 Skype 會議廣播時，系統會封鎖某些使用者授權。 如果使用者看到這則訊息，就會將封鎖的授權指派給他們。 如果您仍想要他們使用，請指派另一個 Office 365 授權。
   
  *「您的公司原則不允許您使用 Skype 會議廣播。請與您的系統管理員確認已啟用服務且您有正確的授權。* 
   
