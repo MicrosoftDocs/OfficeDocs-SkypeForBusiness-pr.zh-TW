@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06244553c051677533d275ad6cd47052775d01f7
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865247"
+ms.locfileid: "49868338"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 
-設定團隊目標階層可讓您的組織將內容發佈至大型小組。 團隊目標階層定義層次結構中的所有團隊如何彼此關聯，哪些使用者可以發佈工作，以及使用者有權發佈至哪些團隊。 除非針對您的組織設定團隊目標階層，否則所有使用者都停用發佈功能。 若要設定團隊目標階層，您需要建立一個定義階層的檔案，然後將其上傳至團隊，將其套用到您的組織。 上傳架構之後，小組中的 app 就可以使用它。 您可以在 [此處](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#Create-a-sample-hierarchy)練習使用腳本來設定階層並將其上傳到您的小組租使用者。
+設定團隊目標階層可讓您的組織將內容發佈至大型小組。 團隊目標階層定義層次結構中的所有團隊如何彼此關聯，哪些使用者可以發佈工作，以及使用者有權發佈至哪些團隊。 除非針對您的組織設定團隊目標階層，否則所有使用者都停用發佈功能。 若要設定團隊目標階層，您需要建立一個定義階層的檔案，然後將其上傳至團隊，將其套用到您的組織。 上傳架構之後，小組中的 app 就可以使用它。
 
 > [!IMPORTANT]
 > 初次發行時，只有 [任務] app 支援階層式團隊。  將團隊目標階層套用至您的組織將會在 [工作] app 中啟用 [任務發佈](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 。 在 Microsoft 團隊的其他區域中，您不會看到小組的階層。

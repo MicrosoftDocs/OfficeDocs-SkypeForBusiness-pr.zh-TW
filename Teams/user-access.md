@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdfddfe43fd977099a02df61bb74146afcb05d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804403"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871012"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 
@@ -106,10 +106,6 @@ $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```powershell
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
-
-## <a name="manage-teams-at-the-organization-level"></a>在組織層級管理團隊
-
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 ## <a name="related-topics"></a>相關主題
 

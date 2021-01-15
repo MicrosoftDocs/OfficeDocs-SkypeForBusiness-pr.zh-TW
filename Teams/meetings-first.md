@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: francoid
+ms.reviewer: lsomi
 description: 首先瞭解會議，在這裡使用者可以在小組中建立會議，同時繼續使用商務用 Skype 進行聊天、通話和目前狀態。
 localization_priority: Normal
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c4e4eba45e7f6719b1fb3427ebd169b69a1e86c9
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809503"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871074"
 ---
 # <a name="meetings-first"></a>會議優先
 
@@ -32,7 +32,7 @@ ms.locfileid: "49809503"
 
 ## <a name="what-is-meetings-first"></a>什麼是會議優先？
 
-[會議優先] 是以 **SfBWithTeamsCollabAndMeetings** 共存模式為基礎。 會議優先不是產品或功能，它是一種可利用團隊和商務用 Skype 功能來提供唯一量身定制的共存體驗的設定。
+[會議優先] 是以 **SfBWithTeamsCollabAndMeetings** 共存模式為基礎。 會議優先不是產品或功能，它是使用團隊與商務用 Skype 的功能和功能來提供唯一量身定制的共存體驗的配置。
 
 在會議優先中，使用者會在團隊中建立會議，同時繼續使用商務用 Skype 進行聊天、通話和目前狀態。 團隊與商務用 Skype 之間沒有形式的重迭。 [聊天]、[通話] 和 [目前狀態] 是在商務用 Skype 和小組中關閉。 這可讓商務用 Skype 與團隊在共存期間加強使用者體驗的功能，以及與 **小組** 使用者之間的互通性案例。
 

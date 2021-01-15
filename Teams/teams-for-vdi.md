@@ -1,7 +1,7 @@
 ---
 title: 適用於虛擬桌面架構的 Teams
-author: cichur
-ms.author: v-cichur
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687726febc81a727c4f6da4824487672c602809e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820983"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868348"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -120,10 +120,12 @@ VMware 範圍是一個現代平臺，可在混合式雲端上安全地傳送虛�
 
 針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。  (若要深入瞭解，請參閱 [安裝或更新 VDI 區段上的團隊桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi) 。 ) 這可確保在使用者會話期間有效啟動團隊 app。
 
-將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間，會快取使用者資料、設定檔和設定) 等適當的使用者特定資訊 (範例。 請確定這兩個資料夾中的資料已同步處理。  
-
+在非持久性設定中使用團隊也需要配置檔案快取管理員，以便高效團隊執行時間資料同步處理。 高效的資料同步處理可確保在使用者的會話期間，會快取使用者特定的資訊 (例如使用者的資料、設定檔或設定) 。 請確定這兩個資料夾中的資料已同步處理：<br>
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache) 
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams) 
+
+> [!NOTE]
+> 漫遊資料夾 (或者，如果您使用的是資料夾重新導向，則需要使用緩存管理員) ，以確保團隊 app 擁有執行應用程式所需的執行時間資料和檔案。 這對於減少網路延遲問題或網路難題是必要的，否則會因無法使用的資料和檔案而造成應用程式錯誤和緩慢的體驗。
 
 有許多可用的緩存管理器解決方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 如需特定的設定指示，請參閱您的快取管理員提供者。
 
