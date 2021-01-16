@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找有關在 Microsoft 團隊的愛爾蘭中取得及管理電話號碼的資訊。
-ms.openlocfilehash: 8795dd57e165f354318d780da1ccee4d87cff9a4
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
+ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868288"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876707"
 ---
 # <a name="phone-number-management-for-ireland"></a>愛爾蘭的電話號碼管理
 
-您可以在此表格中尋找有關在 Microsoft 團隊的愛爾蘭中取得及管理電話號碼的資訊。 
+您可以在此表格中尋找有關在 Microsoft 團隊的愛爾蘭中取得及管理電話號碼的資訊。
   
 如需詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   
