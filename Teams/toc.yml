@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: 需求
               href: rooms/requirements.md
+            - name: 安全性
+              href: rooms/security.md
             - name: 線上授權
               href: rooms/rooms-licensing.md
             - name: 使用 Azure 監視器規劃管理
@@ -354,6 +356,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: 管理 Teams 中的白板
       href: manage-whiteboard.md
+    - name: 為 Google Workspace 設定 Teams 會議附加元件
+      href: google-workspace-addon-teams.md
     - name: 音訊會議
       items:
         - name: 規劃您的部署
