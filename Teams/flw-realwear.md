@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262510"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909387"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
 
-本文涵蓋適用於 RealWear 頭戴式穿戴裝置的 Microsoft Teams 用戶端。 使用 RealWear HMT-1 和 HMT-1Z1 的第一線工作者現在可以使用 Teams 的視訊通話來與遠端專業人員共同作業。 透過語音控制的使用者介面，適用於 RealWear 的 Teams 允許現場工作者具有 100% 免持式能力，並且同時在吵雜與危險環境中保持對環境的警覺。 透過即時顯示現場工作者看到的內容，可協助現場工作者節省解決問題的時間，並降低昂貴的停機風險。
+本文涵蓋適用於 RealWear 頭戴式穿戴裝置的 Microsoft Teams 用戶端。 使用 RealWear HMT-1 和 HMT-1Z1 的第一線工作者現在可以使用 Teams 的視訊通話來與遠端專家共同作業。 透過語音控制的使用者介面，適用於 RealWear 的 Teams 允許現場工作者具有 100% 免持式能力，並且同時在吵雜與危險環境中保持對環境的警覺。 透過即時顯示現場工作者看到的內容，可協助現場工作者節省解決問題的時間，並降低昂貴的停機風險。
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>如何部署適用於 RealWear 的 Microsoft Teams
 
