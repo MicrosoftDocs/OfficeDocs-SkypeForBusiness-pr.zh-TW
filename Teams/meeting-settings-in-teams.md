@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806213"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903564"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -51,6 +51,26 @@ ms.locfileid: "49806213"
 
 > [!CAUTION]
 > 如果您不想讓匿名使用者加入由組織中的使用者排程的會議，請關閉此設定。
+
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允許匿名使用者與會議中的 app 互動
+
+匿名使用者現在將繼承使用者層級全域預設許可權原則。 只要使用者層級許可權原則啟用應用程式，此控制項就會允許匿名使用者與團隊會議中的 app 互動。 請注意，匿名使用者只能與會議中已經提供且無法取得及/或管理這些應用程式的應用程式互動。 
+
+> [!IMPORTANT]
+> 根據預設，允許匿名使用者與 [會議] 中的應用程式互動的設定為 [已啟用]。
+
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+
+您必須是團隊服務管理員，才能存取此設定。 請參閱 [使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，瞭解如何取得管理員角色和許可權。
+
+1. 移至系統管理中心。
+
+2. 在左側導覽中，移至 [會議]  >  [會議設定]。
+
+3. 在 [ **參與者**] 底下， **匿名使用者的設定可以與會議中的 app 互動** 。
+
+> [!CAUTION]
+> 如果您不希望匿名使用者與您組織中的使用者排程的會議中的 app 互動，請關閉此設定。
 
 ## <a name="customize-meeting-invitations"></a>自訂會議邀請
 

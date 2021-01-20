@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理您的政府組織的小組原則套件。
-ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812883"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909077"
 ---
 # <a name="teams-policy-packages-for-government"></a>政府團隊原則套件
 
@@ -46,8 +46,8 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 |Microsoft 團隊系統管理中心中的套件名稱|最適合用於|描述 |
 |---------|---------|---------|
 |公開安全官員  |政府組織中的公用安全官員  |建立一組原則與原則設定，適用于貴組織中的公用安全主管。 |
-|第一線員工管理員  |第一線員工政府組織中的經理 |建立一組原則，並將這些設定套用到貴組織中的第一線員工管理員。|
-|第一線員工 worker  |在您的政府組織中第一線員工工人 |建立一組原則，並將這些設定套用到貴組織中的第一線員工工作人員。|
+|第一線管理員  |第一線政府組織中的經理 |建立一組原則，並將這些設定套用到貴組織中的第一線管理員。|
+|第一線 worker  |在您的政府組織中第一線工人 |建立一組原則，並將這些設定套用到貴組織中的第一線工作人員。|
 
 ![醫療保健原則套件的螢幕擷取畫面](media/policy-packages-gov.png)
 

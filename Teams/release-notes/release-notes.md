@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
-ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
+ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "49728163"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909377"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
@@ -79,9 +79,9 @@ Microsoft 團隊顯示的是一種由一體式專用團隊裝置組成的類別�
 
 ## <a name="october-16-2020"></a>2020年10月16日
 
-### <a name="manage-shift-based-access-for-firstline-workers"></a>管理第一線員工工作者的倒班式存取
+### <a name="manage-shift-based-access-for-frontline-workers"></a>管理第一線工作者的倒班式存取
 
-身為系統管理員，您可以將團隊設定為顯示您組織中的第一線員工工作人員的一組班次的目前狀態，以指出他們是在何時開啟和關閉班次。 使用值班式存取時，您可以在第一線員工工作人員離開班次時管理團隊的存取權。 例如，您可以將團隊設定為顯示一則訊息，讓第一線員工工人必須承認，才能使用小組，而不是排定的班次。 [深入了解](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+身為系統管理員，您可以將團隊設定為顯示您組織中的第一線工作人員的一組班次的目前狀態，以指出他們是在何時開啟和關閉班次。 使用值班式存取時，您可以在第一線工作人員離開班次時管理團隊的存取權。 例如，您可以將團隊設定為顯示一則訊息，讓第一線工人必須承認，才能使用小組，而不是排定的班次。 [深入了解](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
 
 ## <a name="october-15-2020"></a>2020年10月15日
 
@@ -181,7 +181,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 
 ### <a name="manage-the-praise-app"></a>管理稱讚應用程式
 
-Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的成員顯示感謝。 稱讚應用程式會選取供您選擇的徽章集，並提供建立您自己徽章的選項。 稱讚的設計目的是協助您認識到小組使用者在團隊使用者所做的大量工作（從教育者到第一線員工員工）所做的努力。 [深入了解](../manage-praise-app.md)。
+Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的成員顯示感謝。 稱讚應用程式會選取供您選擇的徽章集，並提供建立您自己徽章的選項。 稱讚的設計目的是協助您認識到小組使用者在團隊使用者所做的大量工作（從教育者到第一線員工）所做的努力。 [深入了解](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft 團隊聊天室和 Surface Hub 來設定協同會議
 
@@ -387,7 +387,7 @@ Microsoft 團隊中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="teams-for-realwear"></a>RealWear 的團隊
 
-RealWear 的 Microsoft 團隊用戶端可讓第一線員工工作者使用 RealWear 的 ruggedized head 掛載 wearables 來操作團隊100%%，並使用團隊視頻通話從專家尋求遠端協助。 [深入了解](../flw-realwear.md)。
+RealWear 的 Microsoft 團隊用戶端可讓第一線工作者使用 RealWear 的 ruggedized head 掛載 wearables 來操作團隊100%%，並使用團隊視頻通話從專家尋求遠端協助。 [深入了解](../flw-realwear.md)。
 
 ## <a name="march-31-2020"></a>2020年3月31日
 

@@ -21,28 +21,28 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 71238c4ec0ae2e413732bd289bbb868bedd573b7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f699b60bddba6bcf5ffa884760540e5c20378f81
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815733"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909217"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
-團隊會為貴組織中的第一線員工工作者提供他們需要高效溝通和共同作業的工具，並完成其最佳工作。 您可以在這裡找到設定及管理倒班（小組中的排程管理工具）所需的管理指導方針。
+團隊會為貴組織中的第一線工作人員提供他們需要高效地溝通及共同作業的工具。 本文說明如何設定及管理。 在團隊中移動並使用排程管理工具。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>為您的組織設定及管理倒班
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![任務-工作表-規劃-小組](../media/task-checklist-planning-teams-small.svg) | **[管理組織中的倒班](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![方案](../media/Help-small.svg)  | **[倒班第一線員工工作者的協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![任務-工作表-規劃-小組](../media/task-checklist-planning-teams-small.svg) | **[管理組織中的倒班](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![方案](../media/Help-small.svg)  | **[倒班第一線工作者的協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>班次延伸
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[移動圖形 api](/graph/api/resources/shift?view=graph-rest-1.0)** 班圖 Api 可讓您將倒班資料與外部工作力管理系統整合，讓您可以靈活地在後端建立自訂倒班體驗，同時為使用者提供團隊中的豐富的前端體驗。             |
+| ![api](../media/api-small.svg) | **[移動圖形 api](/graph/api/resources/shift?view=graph-rest-1.0)** 班圖 Api 可讓您將倒班資料與外部工作力管理系統整合。 您可以靈活地在後端建立自訂倒班體驗，同時為使用者提供團隊中豐富的前端體驗。             |
 | ![api](../media/api-small.svg) | **[工作力管理](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 整合如果您使用的是協力廠商的工作力管理系統（例如 Kronos 和 JDA）來進行排程、時間和出勤，您可以直接結合倒班與開放來源整合的圖形 Api 與 SDK。 |
 | ![api](../media/process-flow-teams-small.svg) | **[自動切換 + 電源](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** 班次 + 電源自動化可讓您從倒班中取得資訊，並以其他 app 建立自訂工作流程，並以比例執行作業。 只需少量程式碼就能自動化重要程式。 觸發程式和範本支援各種案例，例如在不需要管理員核准時，針對倒班要求啟用自動核准。 |
 

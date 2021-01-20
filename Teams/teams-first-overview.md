@@ -15,12 +15,12 @@ description: 使用本指導方針將 Microsoft 團隊作為您的第一份 Micr
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f7acdfb092e74ae5e10e818b4007c4e22762a36
-ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
+ms.openlocfilehash: a30d5bed9443df3077ab7384cd8266d2f049148d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950859"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909477"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>先推出 Microsoft 團隊
 
@@ -60,7 +60,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 
 您在 Microsoft 365 或 Office 365 中的旅程，以及小組中提供的功能，取決於您的起點，以及現有的內部部署商務用 Skype 或 Lync server。 除了上述必備元件之外，下列各節將詳細說明基本功能和配置選項。 我們已將起點案例分解成下列主題：
 
-**租使用者小組**設定：租使用者和使用者模式是用來控制收件者的行為。 您可以在租使用者層級或組織中的使用者層級指派這些設定。 若要深入瞭解，請參閱 [與商務用 Skype 共存](coexistence-chat-calls-presence.md)。
+**租使用者小組** 設定：租使用者和使用者模式是用來控制收件者的行為。 您可以在租使用者層級或組織中的使用者層級指派這些設定。 若要深入瞭解，請參閱 [與商務用 Skype 共存](coexistence-chat-calls-presence.md)。
 
 **團隊中的聊天/外部通訊**：聊天服務會參照對等與組織內或外部的對等或群組聊天交談。 外部通訊也稱為商務用 Skype 中的同盟。
 
@@ -71,7 +71,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 團隊支援兩種類型的 PSTN 連線。 Microsoft 通話方案： Microsoft 提供電話結構，包括使用者的電話號碼，或直接路由設定，客戶可以在其中為團隊使用者提供電話語音連線 (SBC) 。  
 若要深入瞭解，請閱讀適合 [您的通話方案](calling-plan-landing-page.md) ，以及 [電話系統直接路由](direct-routing-landing-page.md)。
 
-團隊中的**團隊和頻道**共同作業：團隊中的團隊是共同作業、專案或共同興趣的人員群組。 團隊是由頻道組成。 每個頻道都是圍繞主題建立，例如「團隊活動」、部門名稱或只是有趣的。 頻道是您在其中召開會議、進行交談及共同處理檔案的位置。 在共同作業期間
+團隊中的 **團隊和頻道** 共同作業：團隊中的團隊是共同作業、專案或共同興趣的人員群組。 團隊是由頻道組成。 每個頻道都是圍繞主題建立，例如「團隊活動」、部門名稱或只是有趣的。 頻道是您在其中召開會議、進行交談及共同處理檔案的位置。 在共同作業期間
 
 **小組中的商務用 onedrive (P2P 檔案) 共用**：團隊和頻道以外的團隊使用者可以使用商務用 OneDrive 或其他 P2P 共用檔案程式（例如 Citrix 檔案、DropBox、Box 和 Google 雲端硬碟）來共用檔案對等。 針對商務用 OneDrive，使用者必須已指派 SharePoint Online 授權。
 
@@ -94,7 +94,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 <thead>
 <tr class="header">
 <th>項目</th>
-<th>筆記</th>
+<th>注釋</th>
 </tr>
 </thead>
 <tbody>
@@ -174,7 +174,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 <thead>
 <tr class="header">
 <th>項目</th>
-<th>筆記</th>
+<th>注釋</th>
 </tr>
 </thead>
 <tbody>
@@ -253,7 +253,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 
 ## <a name="closing-statement"></a>落款語句
 
-Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工作者及第一線員工工作人員放在單一平臺上。 您現在可以 [開始](https://products.office.com/microsoft-teams/group-chat-software) 使用。 您可以在 [這裡](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)與所有最新的宣告及每月產品更新保持聯繫。
+Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工作者及第一線工作人員放在單一平臺上。 您現在可以 [開始](https://products.office.com/microsoft-teams/group-chat-software) 使用。 您可以在 [這裡](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)與所有最新的宣告及每月產品更新保持聯繫。
 
 此外，隨著世界各地的公司所管理的是目前的 COVID-19，我們已建立一系列的內容，協助您利用團隊來取得貴組織的最大影響。
 
@@ -284,7 +284,7 @@ Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工�
   - Exchange Online 用於行事曆功能，並將對等的訊息儲存在團隊中。 若要深入瞭解，請閱讀 [Exchange 與團隊互動的方式](exchange-teams-interact.md)
 
 > [!IMPORTANT]
-> 針對使用 Exchange 內部部署的團隊互通性，您必須按照 [設定 exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述的方式來設定新的 Exchange OAuth 驗證通訊協定。
+> 針對使用 Exchange 內部部署的團隊互通性，您必須按照 [設定 exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述的方式來設定新的 Exchange OAuth 驗證通訊協定。
 
   - SharePoint 是用於頻道中的檔案共用，而商務用/OneDrive 則用於1:1 或群組聊天中的檔案共用。 若要深入瞭解，請參閱 [SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md)。
 

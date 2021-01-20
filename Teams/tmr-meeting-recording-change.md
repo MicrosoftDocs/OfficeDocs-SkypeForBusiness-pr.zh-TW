@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea07079a94e2f76f8833e0854fd0161b4ff9ec09
-ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
+ms.openlocfilehash: 51046148620c804dfadb4296d718a1759b618b44
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620708"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903554"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -90,7 +90,7 @@ Microsoft 團隊有一個儲存會議錄製的新方法。 作為從傳統 Micro
 3. 匯入 SkypeOnline 連接器，並以團隊管理員身分登入。
 
    ```powershell
-   Import-Module SkypeOnlineConnector
+   Import-Module MicrosoftTeams
    $sfbSession = New-CsOnlineSession
    Import-PSSession $sfbSession
    ```

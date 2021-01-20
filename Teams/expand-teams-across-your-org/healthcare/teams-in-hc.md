@@ -20,16 +20,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 瞭解 Microsoft 團隊 telehealth、EHR 整合、第一線員工 worker 系統整合，以及患者 app 等健康護理功能。
+description: 瞭解 Microsoft 團隊 telehealth、EHR 整合、第一線 worker 系統整合，以及患者 app 等健康護理功能。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 623958e8d2b3185e2e46fe1fe50330d7d084a6cb
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878707"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909247"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊
 
@@ -135,8 +135,8 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工以 Microsoft
 
 您可以允許貴組織使用核准應用程式，並將其新增至您的小組。 若要深入瞭解如何管理應用程式，請參閱 [在 Microsoft 團隊系統管理中心管理您的應用程式](../../manage-apps.md)。
 
-### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-firstline-worker-integration"></a>使用倒班 app 建立、管理及共用排程，並第一線員工工作人員整合
+### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-frontline-worker-integration"></a>使用倒班 app 建立、管理及共用排程，並第一線工作人員整合
 
-Microsoft 團隊會與倒班 app 和第一線員工工作者整合，這可以用來共同調整倒班人員的功能。 例如，在倒班中，護士經理可以為員工設定與協調排程，而護士可以檢查排程及調換班次。 團隊包含內建的第一線員工 Worker 應用程式設定原則，您可以將它指派給貴組織中的第一線員工工作人員。 根據預設，原則包含活動、班次、聊天及呼叫 app。 此原則會控制這些 app 的行為，例如，將倒班 app 釘選到應用程式行，讓團隊能快速存取。
+Microsoft 團隊會與倒班 app 和第一線工作者整合，這可以用來共同調整倒班人員的功能。 例如，在倒班中，護士經理可以為員工設定與協調排程，而護士可以檢查排程及調換班次。 團隊包含內建的第一線 Worker 應用程式設定原則，您可以將它指派給貴組織中的第一線工作人員。 根據預設，原則包含活動、班次、聊天及呼叫 app。 此原則會控制這些 app 的行為，例如，將倒班 app 釘選到應用程式行，讓團隊能快速存取。
 
 若要深入瞭解，請參閱 [在 Microsoft 團隊中管理貴組織的倒班應用程式](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。

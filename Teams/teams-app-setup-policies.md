@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 7d5a2c70eae9227b550e1e435634a6a8773be39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32b2accc906b0f4f0dc85b5edf1d9501b64dda14
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821113"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909527"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -117,7 +117,7 @@ ms.locfileid: "49821113"
 
 - **全域 (組織範圍的預設)**：此預設原則適用于貴組織中的所有使用者，除非您指派其他原則。 編輯 [全域原則]，將最重要的 app 釘選到您的使用者。
 
-- **FirstLineWorker**：此原則適用于第一線員工工作者。 您可以將它指派給貴組織中的第一線員工工作人員。 請務必注意，您所建立的自訂原則，您必須將原則指派給使用者，才能讓設定生效。 如需詳細資訊，請移至本文的將 [自訂應用程式設定原則指派給 [使用者](#assign-a-custom-app-setup-policy-to-users) ] 區段。
+- **FrontlineWorker**：此原則適用于第一線工作者。 您可以將它指派給貴組織中的第一線工作人員。 請務必注意，您所建立的自訂原則，您必須將原則指派給使用者，才能讓設定生效。 如需詳細資訊，請移至本文的將 [自訂應用程式設定原則指派給 [使用者](#assign-a-custom-app-setup-policy-to-users) ] 區段。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我無法在 [新增釘選的 app] 窗格中找到應用程式
 

@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42bb303a42ce2f532e5790e642f86b78ce12a7e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1d91792eeda482ff396791325ee902ee54a59847
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825293"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909507"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
 2020年6月30日生效，Microsoft StaffHub 已停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。
 
-這些變更是我們繼續努力的一部分，可讓每位員工都能使用 Microsoft 365。 在團隊中現在有第一線員工工作的功能時，貴組織中的每個員工都能使用團隊來簡化其 workday、與同事共同作業，以及存取訊號和專業知識，協助他們完成工作。
+這些變更是我們繼續努力的一部分，可讓每位員工都能使用 Microsoft 365。 在團隊中現在有第一線工作的功能時，貴組織中的每個員工都能使用團隊來簡化其 workday、與同事共同作業，以及存取訊號和專業知識，協助他們完成工作。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
@@ -63,7 +63,7 @@ StaffHub 已停止針對2020年6月30日的所有使用者使用。 嘗試開啟
 
 #### <a name="what-is-shifts"></a>什麼是倒班？
 
-團隊中的 [倒班] 應用程式是一種排程管理工具，可讓第一線員工工作表保持連線並進行同步處理。管理員建立、更新及管理團隊的倒班排程，小組成員可以查看其排程、查看當天排程的人員、要求交換或提供倒班，以及要求下班時間，全部都來自行動裝置。  
+團隊中的 [倒班] 應用程式是一種排程管理工具，可讓第一線工作表保持連線並進行同步處理。管理員建立、更新及管理團隊的倒班排程，小組成員可以查看其排程、查看當天排程的人員、要求交換或提供倒班，以及要求下班時間，全部都來自行動裝置。  
 
 #### <a name="which-plans-is-shifts-available-in"></a>倒班中有哪些方案可供使用？
 
@@ -110,7 +110,7 @@ StaffHub 已停止針對2020年6月30日的所有使用者使用。 嘗試開啟
 
 如需管理員指示，請參閱 [在團隊中管理組織的倒班應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-如需最終使用者說明，請移至 [第一線員工工人的倒班](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)說明。
+如需最終使用者說明，請移至 [第一線工人的倒班](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)說明。
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>我需要哪些團隊授權？
 
@@ -144,11 +144,11 @@ StaffHub 已停止針對2020年6月30日的所有使用者使用。 嘗試開啟
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>倒班與 Outlook 行事曆之間是否有整合？ 我可以將排程匯出至行事曆嗎？
  
-第一線員工工人可以一目了然地查看其整個工作排程。 我們將在我們的藍圖中支援原生與 Outlook 行事曆的原始整合。 在這種情況下，使用 Microsoft 流程來設定與團隊和 Outlook 和 Google 日曆中的倒班進行整合。
+第一線工人可以一目了然地查看其整個工作排程。 我們將在我們的藍圖中支援原生與 Outlook 行事曆的原始整合。 在這種情況下，使用 Microsoft 流程來設定與團隊和 Outlook 和 Google 日曆中的倒班進行整合。
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>有哪些管理員控制項可供您管理組織中的使用者是否可以使用倒班？  
   
-您可以針對組織中的所有使用者開啟或關閉 [倒班] （組織）。 在 Microsoft 團隊系統管理中心中，您也可以使用第一線員工 Worker 應用程式設定原則，為您的第一線員工員工自訂團隊。 原則是針對活動、倒班、聊天及呼叫 app 進行設定。 指派原則將這些 app 釘選到 [小組中的應用程式行]，讓使用者能快速且輕鬆地存取。 
+您可以針對組織中的所有使用者開啟或關閉 [倒班] （組織）。 在 Microsoft 團隊系統管理中心中，您也可以使用第一線 Worker 應用程式設定原則，為您的第一線員工自訂團隊。 原則是針對活動、倒班、聊天及呼叫 app 進行設定。 指派原則將這些 app 釘選到 [小組中的應用程式行]，讓使用者能快速且輕鬆地存取。 
 
 若要深入瞭解，請參閱 [在團隊中管理您組織的倒班應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)。
 

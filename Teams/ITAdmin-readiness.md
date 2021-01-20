@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b3aac3aa5678608a4020b603026401d8cf8e6b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 33519f6873d2c2479f01dc6a408f279e47e35718
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809383"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908927"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
@@ -84,7 +84,7 @@ ms.locfileid: "49809383"
 | 在 Microsoft 團隊中設定管轄                                     | 瞭解如何為您的組織建立團隊訊息保留原則，以及如何封存、刪除及還原個別團隊                                                                                   |  [在 Microsoft 團隊指南中設定管轄](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | 設定和部署 Microsoft 團隊會議                          | 逐步完成針對 Microsoft 團隊部署會議工作負載的程式。                                                                                                                                       |  [設定和部署 Microsoft 團隊會議指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | 設定 Microsoft 團隊的音訊會議                            | 探索小組中音訊會議的功能，並瞭解如何指派會議橋接和撥入電話號碼。                                                                                          |  [設定 Microsoft 團隊版語音會議指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 為第一線員工工作者設定 Microsoft 團隊                           | 瞭解如何針對您的第一線員工工作力設定和部署正確的 Microsoft 團隊環境。                                                                                                                  | [為第一線員工工作人員配置 Microsoft 團隊指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 為第一線工作者設定 Microsoft 團隊                           | 瞭解如何針對您的第一線工作力設定和部署正確的 Microsoft 團隊環境。                                                                                                                  | [為第一線工作人員配置 Microsoft 團隊指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>快速入門手冊</h2>
 

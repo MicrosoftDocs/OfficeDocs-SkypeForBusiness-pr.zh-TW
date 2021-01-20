@@ -1,5 +1,5 @@
 ---
-title: 針對團隊中的第一線員工工作者管理以倒班為基礎的存取權
+title: 針對團隊中的第一線工作者管理以倒班為基礎的存取權
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -8,21 +8,21 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何針對貴組織中的第一線員工工作人員，在小組中管理以倒班為基礎的存取權。
+description: 瞭解如何針對貴組織中的第一線工作人員，在小組中管理以倒班為基礎的存取權。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b73fe9b3c4b39e7d3fa7b31427f563c47e5a737
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 437902136bf72685dabf5bd6359dd6221c7467de
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823013"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909467"
 ---
-# <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>針對團隊中的第一線員工工作者管理以倒班為基礎的存取權
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>針對團隊中的第一線工作者管理以倒班為基礎的存取權
 
 > [!IMPORTANT]
 > 2020年6月30日生效，Microsoft StaffHub 已停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 已停止針對2020年6月30日的所有使用者使用。 任何試圖開啟 StaffHub 的人都會顯示一則訊息，讓他們下載團隊。 若要深入瞭解，請參閱 [Microsoft StaffHub 已停](microsoft-staffhub-to-be-retired.md)用。  
@@ -31,19 +31,19 @@ ms.locfileid: "49823013"
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft 團隊中的目前狀態表示使用者目前的可用性與其他使用者的狀態。 與其他員工相比，目前的工作時間通常不是相同的，因此第一線員工工作者的狀態通常不會太容易被人預測。 身為系統管理員，您可以將團隊設定為顯示您組織中的第一線員工工作人員的一組班次的目前狀態，以指出他們是在何時開啟和關閉班次。
+Microsoft 團隊中的目前狀態表示使用者目前的可用性與其他使用者的狀態。 與其他員工相比，目前的工作時間通常不是相同的，因此第一線工作者的狀態通常不會太容易被人預測。 身為系統管理員，您可以將團隊設定為顯示您組織中的第一線工作人員的一組班次的目前狀態，以指出他們是在何時開啟和關閉班次。
 
 這些以移動為基礎的線上狀態會以 &mdash; ![ 純綠色核取記號表示 [倒班 ](../../media/flw-presence-on-shift.png) **上** 的 shift， ![ 灰色圓圈（含 x）] 表示 [向下移動] 表示 [忙碌] 的 [忙碌] 與 ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; [團隊中的目前 [狀態] 狀態](../../presence-admins.md)是分開的。 在這兩組目前狀態的狀態中，您可以根據組織中的人員角色來設定不同的體驗。
 
-使用值班式存取時，您可以在第一線員工工作人員離開班次時管理團隊的存取權。 例如，您可以將團隊設定為顯示一則訊息，讓第一線員工工人必須承認，才能使用小組，而不是排定的班次。  
+使用值班式存取時，您可以在第一線工作人員離開班次時管理團隊的存取權。 例如，您可以將團隊設定為顯示一則訊息，讓第一線工人必須承認，才能使用小組，而不是排定的班次。  
 
 ## <a name="scenario"></a>案例
 
 以下範例說明您的組織可以如何管理以倒班為基礎的存取。
 
-您的組織中有第一線員工的工作人員，只應支付其主管排程和核准之班次所進行的工時。 不應針對排程班次以外的時間所花費的時間進行支付，包括使用團隊 app。 您設定的自訂訊息指出「當您在小組中時，您的時間不會計算在應付時數」，這會在第一線員工工作人員嘗試在關閉班次時存取團隊時顯示。 如果他們選擇使用團隊，按一下 [ **我接受** ]，就能瞭解他們目前不會支付。
+您的組織中有第一線的工作人員，只應支付其主管排程和核准之班次所進行的工時。 不應針對排程班次以外的時間所花費的時間進行支付，包括使用團隊 app。 您設定的自訂訊息指出「當您在小組中時，您的時間不會計算在應付時數」，這會在第一線工作人員嘗試在關閉班次時存取團隊時顯示。 如果他們選擇使用團隊，按一下 [ **我接受** ]，就能瞭解他們目前不會支付。
 
-您的組織中也有資訊工作者正在 salaried，而其他人不會有任何作用。 您可以將您的資訊工作者設定為在團隊中使用預設的目前狀態狀態，而提供您的第一線員工工作者輪換式的目前狀態。
+您的組織中也有資訊工作者正在 salaried，而其他人不會有任何作用。 您可以將您的資訊工作者設定為在團隊中使用預設的目前狀態狀態，而提供您的第一線工作者輪換式的目前狀態。
 
 ## <a name="shift-based-presence-states"></a>依移動狀態
 
@@ -53,11 +53,11 @@ Microsoft 團隊中的目前狀態表示使用者目前的可用性與其他使�
 |---------|---------|---------|
 |![[實心綠色] 核取記號，代表 [倒班]](../../media/flw-presence-on-shift.png) 在班次上     |         |在班次開始時自動設定         |
 |![含 x 的灰色圓圈表示離開班次](../../media/flw-presence-off-shift.png) 關閉班次     |         |在班次結束時自動設定         |
-|![紅色實心圓圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌      | ![紅色實心圓圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌         |自動設定。 您也可以在第一線員工工人開啟倒班時手動設定。|
+|![紅色實心圓圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌      | ![紅色實心圓圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌         |自動設定。 您也可以在第一線工人開啟倒班時手動設定。|
 
 ## <a name="off-shift-access-to-teams"></a>關閉對團隊的 shift 存取權
 
-此功能可讓您在第一線員工的工作人員關閉班次時管理團隊的存取權。 您可以將團隊設定為在員工在關閉時存取小組時，顯示訊息來第一線員工工作人員。 第一線員工工作人員必須按一下 [ **我接受** ] 來確認訊息，才能使用小組。
+此功能可讓您在第一線的工作人員關閉班次時管理團隊的存取權。 您可以將團隊設定為在員工在關閉時存取小組時，顯示訊息來第一線工作人員。 第一線工作人員必須按一下 [ **我接受** ] 來確認訊息，才能使用小組。
 
 您可以使用預設訊息、選擇一組預先定義的郵件，或自訂郵件以顯示任何您想要的文字。 以下是預設訊息：
 
@@ -67,7 +67,7 @@ Microsoft 團隊中的目前狀態表示使用者目前的可用性與其他使�
 
 ## <a name="manage-shift-based-access"></a>管理以 shift 為基礎的存取
 
-做為管理員，您可以使用原則來控制貴組織中第一線員工工作人員的移動狀態。 您可以使用下列 PowerShell Cmdlet 來管理這些原則：
+做為管理員，您可以使用原則來控制貴組織中第一線工作人員的移動狀態。 您可以使用下列 PowerShell Cmdlet 來管理這些原則：
 
 - [新-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 - [CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)

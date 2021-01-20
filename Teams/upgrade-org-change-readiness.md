@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b422fc9542f989cd335bfb3064fbdecb7f59bfe7
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: a65b3f163995feb2a82d18261ebc374d6252783e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578286"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909177"
 ---
 # <a name="assess-organizational-change-readiness"></a>評估組織的變更整備程度
 
@@ -147,7 +147,7 @@ Microsoft 團隊擴大商務用 Skype 的功能，提供全面的溝通與共同
 
   - 銷售團隊/地區-公路 warriors、輕鬆存取資源、快速的回應
   - 每個部門都要經過標準化的人力資源，以一致的方式進行聘用
-  - 第一線員工工作者–連線至其對等/管理、存取程式、NEO
+  - 第一線工作者–連線至其對等/管理、存取程式、NEO
 
 - 請牢記下列考慮事項：
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820993"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909487"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -59,7 +59,6 @@ Api 可讓合作夥伴開發並整合小組的 CCaaS 方案。 此外，我們�
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
-
 
 此清單會隨著更多合作夥伴加入並符合認證準則而更新。
 
@@ -123,7 +122,7 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 團隊圖形 Api 和雲端溝通 Api 與團隊整合 
 
-  - 以團隊為基礎的應用程式經驗 
+  - 以小組為基礎的代理程式經驗 
 
   - 團隊成為代理的主要呼叫端點 
 

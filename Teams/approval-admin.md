@@ -18,16 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4326408b7e27aa19af8e6c404d7275d26ba90969
-ms.sourcegitcommit: d73d732591944b899a9366f79b4ea97f4a7f2260
+ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675171"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909517"
 ---
 # <a name="teams-approvals-app-availability"></a>團隊核准應用程式可用性
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 [核准] 應用程式可作為個人 app 提供給所有 Microsoft 團隊使用者使用。
 核准 app 提供一種簡單的方法，可將審核、合規性、責任及工作流程帶入小組中的結構化和非結構化核准。
@@ -109,7 +107,7 @@ ms.locfileid: "49675171"
 
 核准 App 會在 Microsoft 365 安全性與合規性中心內記錄審核事件。 您可以查看審核記錄。
 
-1. 移至 M365 規範網站。
+1. 移至 Microsoft 365 合規性網站。
 
 2. 選取 [ **審計** ] 區段。
 
@@ -139,7 +137,7 @@ ms.locfileid: "49675171"
 
 您可以在 [Microsoft 365 安全性與合規性中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)中進一步自訂審核。
 
-1. 若要使用預先設定的報告，請登入 Office 365 安全性與合規性。
+1. 若要使用預先設定的報告，請登入 Microsoft 365 安全性與合規性。
 
 2. 選取 [ **搜尋 & 調查**]。
 
@@ -149,7 +147,7 @@ ms.locfileid: "49675171"
 
 ## <a name="security"></a>安全性
 
-在團隊核准應用程式中，使用者有權建立新核准並查看他們已傳送和接收的核准。 使用者無法存取其他人所建立的核准，除非他們是要求的回應者或查看者。
+透過 [團隊核准] 應用程式，使用者就能建立新的核准，並查看他們已傳送和接收的核准。 使用者無法存取其他人所建立的核准，除非他們是要求的回應者或查看者。
 
 > [!Note]
 > 如果使用者是已建立核准的聊天或頻道的一部分，就會有該要求的查看者角色。 如果您在建立核准時沒有取得該角色，他們就不能在要求上採取動作。
