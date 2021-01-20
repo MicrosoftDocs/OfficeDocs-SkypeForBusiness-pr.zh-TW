@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 瞭解如何在通話品質儀表板 (CQD) 中上傳租使用者和組建資料。
-ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385630"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909347"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通話品質儀表板中上傳租使用者並建立資料 (CQD) 
 
@@ -178,7 +178,6 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
   **範例列：**
 
   `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
-
 
 ## <a name="update-a-building-file"></a>更新組建檔案
 
