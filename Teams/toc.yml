@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: 建立其他使用者
           href: business-voice/create-users.md
-        - name: 範例 - 設定通話佇列
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 設定通話佇列
-          href: business-voice/set-up-call-queues.md
-        - name: 範例 - 設定自動語音應答
-          href: tutorial-org-aa.yml
+          href: business-voice/create-a-phone-system-call-queue-smb.md
         - name: 設定自動語音應答
-          href: business-voice/set-up-auto-attendants.md
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: 管理您的設定
       items:
         - name: 建立一或多個使用者
@@ -1175,13 +1171,13 @@
           href: teams-edu-licensing.md
         - name: 教育版 SKU 參考
           href: sku-reference-edu.md
-    - name: 適用於第一線員工的 Teams
+    - name: 適用於前線員工的 Teams
       items:
-        - name: 適用於第一線員工的快速入門
-          href: firstline-workers-quickstart.yml
-        - name: 第一線員工編寫指令碼部署
+        - name: 適用於前線員工的快速入門
+          href: flw-quickstart.yml
+        - name: 前線員工編寫指令碼部署
           href: flw-scripted-deployment.md
-        - name: 為第一線員工管理以班次為基礎的存取
+        - name: 為前線員工管理以班次為基礎的存取
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: 適用於 Microsoft Teams 的 RealWear
           href: flw-realwear.md
