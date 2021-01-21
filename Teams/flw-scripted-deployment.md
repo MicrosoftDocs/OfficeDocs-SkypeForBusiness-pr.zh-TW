@@ -1,5 +1,5 @@
 ---
-title: 為第一線員工大規模佈建 Microsoft Teams
+title: 為一線員工大規模佈建 Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: 使用指令碼為第一線員工部署或佈建 Microsoft Teams 的指導方針。
+description: 使用指令碼為一線員工部署或佈建 Microsoft Teams 的指導方針。
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028169"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909367"
 ---
-# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何為第一線員工大規模佈建 Teams
+# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
 您是否需要讓大量使用者快速加入 Microsoft Teams，並為他們設定簡化的使用體驗？ 逐步完成下列指示，您就可以快速佈建身分識別、設定小組，並指派所有相關原則來控制使用者的使用者體驗。
 
@@ -39,7 +39,7 @@ ms.locfileid: "45028169"
 - 將大量使用者指派到指定的小組。
 
 > [!NOTE]
-> 如果您已檢閱此資訊，但仍覺得需要協助或有一些問題，則可以[**按一下這裡**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u)，以聯繫 White Glove Support。
+> 如果您已檢閱此資訊，但仍覺得需要協助或有一些問題，則可以 [**按一下這裡**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u)，以聯繫 White Glove Support。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -132,11 +132,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 ## <a name="create-and-set-up-teams"></a>建立及設定小組
 
-為了與您的第一線員工交流並進行共同作業，您必須先建立一系列的小組，並為這些小組新增標準頻道，我們將在下一節中說明。
+為了與您的一線員工交流並進行共同作業，您必須先建立一系列的小組，並為這些小組新增標準頻道，我們將在下一節中說明。
 
 ### <a name="create-teams"></a>建立團隊
 
-小組是組織內人員、內容和工具的集合。 對於大部分以第一線員工為中心的組織而言，最佳做法是以實體位置為中心來定位小組。 例如，為下列每一項建立團隊：
+小組是組織內人員、內容和工具的集合。 對於大部分以一線員工為中心的組織而言，最佳做法是以實體位置為中心來定位小組。 例如，為下列每一項建立團隊：
 
 - 商店
 - 配送中心
@@ -144,7 +144,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 - 醫院
 - 雜貨店
 
-*最佳做法討論*：設計小組時，務必注意[小組限制和規格](limits-specifications-teams.md)。 對於較小的組織，可使用整個組織作為小組來簡化溝通工作，並讓實體位置結構變得更完整。 對其他組織來說，結構良好的實體位置小組命名慣例，有助於公司透過交叉發佈輕鬆地同時與多個小組通訊。 例如，若要以所有「美國」地區的團隊為目標，您可以搜尋名稱中有「美國」的所有 Teams，並對其進行交叉發佈。 您可以在[這裡](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295)找到有關交叉發佈的詳細資訊。
+*最佳做法討論*：設計小組時，務必注意 [小組限制和規格](limits-specifications-teams.md)。 對於較小的組織，可使用整個組織作為小組來簡化溝通工作，並讓實體位置結構變得更完整。 對其他組織來說，結構良好的實體位置小組命名慣例，有助於公司透過交叉發佈輕鬆地同時與多個小組通訊。 例如，若要以所有「美國」地區的團隊為目標，您可以搜尋名稱中有「美國」的所有 Teams，並對其進行交叉發佈。 您可以在[這裡](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295)找到有關交叉發佈的詳細資訊。
 
 #### <a name="steps-to-create-teams"></a>建立團隊的步驟
 
@@ -179,13 +179,13 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 如果您是系統管理員，您可以使用 Microsoft Teams 中的小組原則來控制您組織中使用者可看見和可執行的項目。 例如，您可以控制要將哪些應用程式釘選到桌面或網頁瀏覽器的左側滑軌，或行動裝置的底部工具列，以簡化加入大量使用者的使用者體驗。 其中有些原則可使用 PowerShell 建立，但其他原則必須在 Teams 系統管理員主控台上手動建立。
 
-*最佳做法討論*：針對下列每個原則，我們將選擇實際建立兩個原則：一個用於第一線員工，一個用於第一線管理者。 您可以根據自己的喜好，選擇建立任意數量的原則。 對大部分客戶而言，兩個是較佳的起點 (即使您一開始對每個群組都進行相同的設定)。 隨著您對 Teams 愈來愈熟悉，您可以選擇進一步區別他們的經驗，若已建立此兩個原則，則可讓此動作變得更簡單。
+*最佳做法討論*：針對下列每個原則，我們將選擇實際建立兩個原則：一個用於一線員工，一個用於一線管理者。 您可以根據自己的喜好，選擇建立任意數量的原則。 對大部分客戶而言，兩個是較佳的起點 (即使您一開始對每個群組都進行相同的設定)。 隨著您對 Teams 愈來愈熟悉，您可以選擇進一步區別他們的經驗，若已建立此兩個原則，則可讓此動作變得更簡單。
 
 ### <a name="create-teams-message-policies"></a>建立 Teams 訊息原則
 
 管理原則是用來控制 Microsoft Teams. 中使用者可使用的聊天及頻道訊息功能。
 
-*最佳做法討論*：雖然您可以使用自動建立的預設全域原則，但我們選擇使用下列步驟建立自訂原則，以便為第一線管理者和第一線員工提供更隱密、簡單且與眾不同的使用體驗。
+*最佳做法討論*：雖然您可以使用自動建立的預設全域原則，但我們選擇使用下列步驟建立自訂原則，以便為一線管理者和一線員工提供更隱密、簡單且與眾不同的使用體驗。
 
 #### <a name="steps-to-create-teams-message-policies"></a>建立 Teams 訊息原則的步驟
 
@@ -207,22 +207,22 @@ Connect-MicrosoftTeams -Credential $teams_cred
 |---------|---------|---------|
 |![將應用程式釘選到 *應用程式* 列的 Teams 桌面用戶端螢幕擷取畫面。](media/FLW-Teams-Desktop-Client.png)         |         |![將應用程式釘選到 *底部* 工具列的 Teams 桌面用戶端螢幕擷取畫面。](media/FLW-Teams-Mobile-Client.png) |
 
-*最佳做法討論*：您可以在 Microsoft Teams 系統管理中心管理應用程式設定原則。 這些原則無法使用 PowerShell 建立。 您可以使用全域 (預設為全組織) 原則或建立自訂原則，並指派給使用者。 除非您建立並指派自訂原則，否則您組織中的使用者將會自動獲派全域原則。 根據我們的目的，我們要為第一線員工和第一線管理者建立兩個新的原則，為他們提供更簡單且更精簡的體驗，以便輕鬆地同時加入大量使用者。 您可以選擇根據業務需求來自訂體驗。
+*最佳做法討論*：您可以在 Microsoft Teams 系統管理中心管理應用程式設定原則。 這些原則無法使用 PowerShell 建立。 您可以使用全域 (預設為全組織) 原則或建立自訂原則，並指派給使用者。 除非您建立並指派自訂原則，否則您組織中的使用者將會自動獲派全域原則。 根據我們的目的，我們要為一線員工和一線管理者建立兩個新的原則，為他們提供更簡單且更精簡的體驗，以便輕鬆地同時加入大量使用者。 您可以選擇根據業務需求來自訂體驗。
 
-#### <a name="create-the-firstline-manager-app-setup-policy"></a>建立第一線管理員的應用程式設定原則
+#### <a name="create-the-frontline-manager-app-setup-policy"></a>建立一線管理員的應用程式設定原則
 
 您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。  
-3. 輸入原則的名稱和描述。 範例：**第一線管理者的應用程式設定原則**。
-![第一線管理者的應用程式設定原則影像。](media/FLW-FLM-App-Setup-Policy.png)
+3. 輸入原則的名稱和描述。 範例：**一線管理者的應用程式設定原則**。
+![一線管理者的應用程式設定原則影像。](media/FLW-FLM-App-Setup-Policy.png)
 
 4. 關閉 **[上傳自訂應用程式]**。
 5. 關閉 **[允許使用者釘選]**。
 ![允許使用者釘選的切換影像。](media/FLW-Allow-User-Pinning.png)
 
-6. 新增 **Shifts**應用程式 (如果尚未列出的話)。 如需有關 **Shifts** 的詳細資訊，請按一下[這裡](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
+6. 新增 **Shifts** 應用程式 (如果尚未列出的話)。 如需有關 **Shifts** 的詳細資訊，請按一下 [這裡](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
 ![新增釘選應用程式的畫面，並顯示 [新增] 按鈕旁邊已列出 Shifts 應用程式。](media/FLW-Add-Pinned-Apps.png)
 
 7. 移除 [通話] 功能 (如果有的話)。 注意：移除此功能不會為使用者停用此功能，但會防止其顯示在應用程式列上，藉此簡化使用者體驗。
@@ -233,20 +233,20 @@ Connect-MicrosoftTeams -Credential $teams_cred
     1. 行事曆
     1. Shifts ![依序列出管理者應用程式的螢幕擷取畫面](media/FLW-Manager-Pinned-Apps.png)
 
-#### <a name="create-the-firstline-worker-app-setup-policy"></a>建立第一線員工的應用程式設定原則
+#### <a name="create-the-frontline-worker-app-setup-policy"></a>建立一線員工的應用程式設定原則
 
 您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。
-3. 輸入原則的名稱和描述。 範例：**第一線員工的應用程式設定原則**。
-![第一線員工的應用程式設定原則影像。](media/FLW-FLW-App-Setup-Policy.png)
+3. 輸入原則的名稱和描述。 範例：**一線員工的應用程式設定原則**。
+![一線員工的應用程式設定原則影像。](media/FLW-FLW-App-Setup-Policy.png)
 
 4. 關閉 **[上傳自訂應用程式]**。
 5. 關閉 **[允許使用者釘選]**。
 ![允許使用者釘選的切換影像。](media/FLW-Allow-User-Pinning.png)
 
-6. 新增 **Shifts**應用程式 (如果尚未列出的話)。 如需有關 **Shifts** 的詳細資訊，請按一下這裡。
+6. 新增 **Shifts** 應用程式 (如果尚未列出的話)。 如需有關 **Shifts** 的詳細資訊，請按一下這裡。
 ![新增釘選應用程式的畫面，並顯示 [新增] 按鈕旁邊已列出 Shifts 應用程式。](media/FLW-Add-Pinned-Apps.png)
 
 7. 移除 [會議] 和 [通話] \(如果有的話)。 注意：移除這些功能不會為使用者停用這些功能，但會防止其顯示在應用程式列上，藉此簡化使用者體驗。
@@ -260,9 +260,9 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 身為系統管理員，您可以使用應用程式權限原則來控制組織中 Microsoft Teams 使用者可使用的應用程式。 您可以允許或封鎖所有應用程式，或是由 Microsoft、第三方和您組織發行的特定應用程式。 當您封鎖應用程式時，擁有原則的使用者將無法從 Teams 應用程式商店安裝該應用程式。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
-*最佳做法討論*：您可以在 Microsoft Teams 系統管理中心管理應用程式設定原則。 這些原則無法使用 PowerShell 建立。 您可以使用全域 (預設為全組織) 原則或建立自訂原則，並指派給使用者。 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 根據我們的目的，我們要為第一線員工和第一線管理者建立兩個新的原則，為他們提供安全且更精簡的體驗，以便輕鬆地同時加入大量使用者。 當然，您可以選擇根據您的業務需求來自訂體驗。
+*最佳做法討論*：您可以在 Microsoft Teams 系統管理中心管理應用程式設定原則。 這些原則無法使用 PowerShell 建立。 您可以使用全域 (預設為全組織) 原則或建立自訂原則，並指派給使用者。 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 根據我們的目的，我們要為一線員工和一線管理者建立兩個新的原則，為他們提供安全且更精簡的體驗，以便輕鬆地同時加入大量使用者。 當然，您可以選擇根據您的業務需求來自訂體驗。
 
-#### <a name="create-the-firstline-manager-app-permission-policy"></a>建立第一線管理者的應用程式權限原則
+#### <a name="create-the-frontline-manager-app-permission-policy"></a>建立一線管理者的應用程式權限原則
 
 您可以根據業務需求來自訂下列設定。 以下是根據最佳做法提供的建議選項，可讓您更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-permission-policies.md)。
 
@@ -270,13 +270,13 @@ Connect-MicrosoftTeams -Credential $teams_cred
 2. 按一下  **[新增]**。
 ![顯示新增應用程式權限原則頁面，其中包含 Microsoft、第三方和租用戶應用程式的區段。](media/FLW-add-app-permission-policy.png)
 
-3. 輸入原則的名稱和描述。 範例：第一線管理者的應用程式權限原則。
+3. 輸入原則的名稱和描述。 範例：一線管理者的應用程式權限原則。
 4. 在 [Microsoft 應用程式] 底下，選取 **[允許所有應用程式]**。
 5. 在 [第三方應用程式] 底下，選取 **[允許所有應用程式]**。
 6. 在 [租用戶應用程式] 底下，選取 **[允許所有應用程式]**。
 7. 按一下  **[儲存]**。
 
-#### <a name="create-the-firstline-worker-app-permission-policy"></a>建立第一線員工的應用程式權限原則
+#### <a name="create-the-frontline-worker-app-permission-policy"></a>建立一線員工的應用程式權限原則
 
 您可以根據業務需求來自訂下列設定。 以下是根據最佳做法提供的建議選項，可讓您更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-permission-policies.md)。
 
@@ -284,7 +284,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 2. 按一下  **[新增]**。
 ![顯示新增應用程式權限原則頁面，其中包含 Microsoft、第三方和租用戶應用程式的區段。](media/FLW-add-app-permission-policy.png)
 
-3. 輸入原則的名稱和描述。 範例：第一線員工的應用程式權限原則。
+3. 輸入原則的名稱和描述。 範例：一線員工的應用程式權限原則。
 4. 在 [Microsoft 應用程式] 底下，選取 **[允許所有應用程式]**。
 5. 在 [第三方應用程式] 底下，選取 **[封鎖所有應用程式]**。
 6. 在 [租用戶應用程式] 底下，選取 **[允許所有應用程式]**。
@@ -301,7 +301,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
   - Workday - [教學課程：設定 Workday 以自動佈建使用者](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial)。
 - 如果其他系統中有您的使用者資訊，請繼續執行下列步驟。
 
-若要以更有效率的方式管理大量使用者，您必須為第一線員工和第一線管理者建立兩個安全性群組，並按照下列步驟將這些使用者直接佈建到安全性群組：
+若要以更有效率的方式管理大量使用者，您必須為一線員工和一線管理者建立兩個安全性群組，並按照下列步驟將這些使用者直接佈建到安全性群組：
 
 1. 在存放庫的 scripts 資料夾中，尋找 **Users.csv** 檔案。
 1. 使用您組織的特定資訊來更新 **Users.csv** 檔案。
@@ -359,11 +359,11 @@ Microsoft 付費雲端服務 (例如 Microsoft 365、Office 365、Enterprise Mob
 完成所有步驟之後，您就可以驗證您所完成的工作了。
 
 1. 建立的使用者將會具有的初始密碼位於 CreateUsers.ps1 中，且使用者必須在第一次登入時變更密碼。
-1. 確認 Teams 的外觀與風格是否與您所預期的相同。 如果不是，請檢閱**建立 Teams 原則**和**指派 Teams 原則給使用者**區段。
-1. 驗證使用者是否屬於正確的小組。 如果不是，請檢閱**建立及設定使用者**和**將使用者指派給小組**區段。
+1. 確認 Teams 的外觀與風格是否與您所預期的相同。 如果不是，請檢閱 **建立 Teams 原則** 和 **指派 Teams 原則給使用者** 區段。
+1. 驗證使用者是否屬於正確的小組。 如果不是，請檢閱 **建立及設定使用者** 和 **將使用者指派給小組** 區段。
 
 > [!NOTE]
-> 如果第一線員工佈建是透過您的身分識別和存取管理團隊來管理，您將必須遵循其用於提供員工認證的程序。
+> 如果一線員工佈建是透過您的身分識別和存取管理團隊來管理，您將必須遵循其用於提供員工認證的程序。
 
 ### <a name="check-for-errors"></a>檢查錯誤
 

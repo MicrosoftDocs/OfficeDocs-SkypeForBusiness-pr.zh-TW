@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3a4e827016622910aad0ee46318ba19c44aac0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136017"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909147"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -44,7 +44,7 @@ ms.locfileid: "48136017"
   - 操作訊息擴充使用量。
 - **active_session_banner_dismissed** - 已關閉共用作用中提醒的位置。
 - **activityChatClicked** - 當系統選取 **[活動]** 索引標籤中的 [非即時聊天]，或顯示出分割視圖時，進行觸發。
-- **activityCoNtextMenu ** - 活動摘要中的溢出動作。
+- **activityCoNtextMenu** - 活動摘要中的溢出動作。
 - **activityFeedClick** - 已點選活動摘要專案，並導至聊天機器人。
 - **activityFeedLongPress** - 在摘要專案上擷取長按手勢。
 - **activityFeedSwipe** - 在摘要專案上擷取滑動手勢。
@@ -69,15 +69,15 @@ ms.locfileid: "48136017"
 - **alertsNavAlert** - 點選摘要專案。
 - **android：null** - 將聊天機器人設為靜音或取消靜音。 這會加強聊天中現有的遙測，只會增加應用程式資訊。
 - **anonymousMeetingJoin** - 系統在匿名加入提供名稱頁面中選取 **[加入會議]**，或在名稱對話方塊中點選 **[確定]**。
-- **anonymousMeetingJoinWelcome ** - 系統在匿名加入會議登陸頁面中選取 **[以來賓身分加入] **。
+- **anonymousMeetingJoinWelcome** - 系統在匿名加入會議登陸頁面中選取 **[以來賓身分加入]**。
 - **anonymousMeetingPostMeetingChat** - 通話結束畫面中的聊天的使用者觀看次數。
 - **anonymousMeetingPostMeetingRejoin** - 匿名使用者嘗試重新加入會議的次數。
 - **anonymousMeetingSignIn** - 使用者從名稱輸入畫面瀏覽到登入畫面的次數。
-- **anonymousMeetingSignInWelcome **系統在匿名加入會議登陸頁面中選取 **[登入並加入]**。
+- **anonymousMeetingSignInWelcome** 系統在匿名加入會議登陸頁面中選取 **[登入並加入]**。
 - **anonymousMeetingToggleMuted** - 靜音切換按鈕已選取的次數。
 - **anonymousMeetingToggleVideo** - 選取影片切換按鈕的次數。
 - **appKilled** - 應用程式已終止。
-- **approveTimeOffRequest** - 當第一線員工 (FLW) 主管批准第一線員工休假的要求時。
+- **approveTimeOffRequest** - 當前線工作者 (FLW) 主管批准前線工作者休假的要求時。
 - **assigneeChange** - 當新的受託人被新增至工作專案時，觸發。
 - **assignmentPickerClicked** - 選取 **[指派給]** 按鈕，並開啟受託人選擇器頁面。
 - **assignmentRemoved** - 當選取 **x** 將受託人自工作專案移除時 (這是移除受託人的唯一方法)時，觸發。
@@ -133,7 +133,7 @@ ms.locfileid: "48136017"
 - **callControlsManualInvoke** - 通話控制項是手動調用。
 - **callHistoryItemExpand** - 通話記錄專案展開。
 - **callHistoryTab** -  在 [通話] 中已選取 **[CallHistory]** 索引標籤。
-- **callInProgressShown** - A ***進行中的通話** 條已顯示。
+- **callInProgressShown** - 將顯示**_進行中的通話_* 橫幅。
 - **callMePSTNConnected** - **[與我通話]** 成功。
 - **callOrMeetUpAddParticipants** - 觸發時機：
   - 已於一對一通話螢幕中點選 [新增參與者] 按鈕。
@@ -482,7 +482,7 @@ ms.locfileid: "48136017"
 - **dueDatePickerClicked** - 當已選取 [工作詳細資料] 中的 **[到期日]** 按鈕時，觸發，並開啟到期日選擇器頁面。
 - **dueDateSelected** - 當使用者在查看工作清單時，以到期日套用篩選條件時，進行觸發。
 - **dueDateUnselected** - 當使用者在查看工作清單時，未以到期日套用篩選條件時，進行觸發。
-- 在聊天訊息中**編輯** - **[編輯]** 按鈕。
+- 在聊天訊息中 **編輯** - **[編輯]** 按鈕。
 - **editChannel** - 使用者選取按鈕來編輯他們所擁有或管理的頻道。
 - **editContact** - 使用者編輯現有的私人連絡人，可透過瀏覽至連絡人卡片來完成。
 - **editMeetingResponse** - 從會議詳細資料頁面編輯會議回復。
@@ -513,11 +513,11 @@ ms.locfileid: "48136017"
 - **endEditing** -  已按 **[儲存]** 按鈕。
 - **endFileShare** -  已在檔案共用對話方塊上選取 **[返回]**。
 - **endMyShift** - 共用模式的裝置數量或登出次數。
-- **endPhotoShare** - 從相片共用**x**。
-- **entryPointClicked** - 選取 **[排程]** 索引標籤中的 **[要求]**。要求是用於當第一線工作者 (FLW) 要求班次時間等等時。
+- **endPhotoShare** - 從相片共用 **x**。
+- **entryPointClicked** - 選取 **[排程]** 索引標籤中的 **[要求]**。要求是用於當前線工作者 (FLW) 要求班次時間等等時。
 - **endPSTNCallSelected** - 使用者結束 PSTN 和內容通話。
 - **endPSTNCallShown** - 系統提示使用者結束 PSTN 或內容通話。
-- **endVideoShare** - 從影片中共用**x**。
+- **endVideoShare** - 從影片中共用 **x**。
 - **errorShown** - 顯示錯誤。
 - **展開/摺疊** - 裝置連絡人或公司連絡人區段。
 - **expandCollapseSection** - 點選區段標題來展開或摺疊區段。
@@ -913,8 +913,8 @@ ms.locfileid: "48136017"
 - **replyViaMsgOptions** -使用者開始透過快顯功能表回覆。
 - **replyViaSwipe** -使用者開始透過滑動回覆。
 - **requestActedOn** - 當主管處理待認領班次要求時觸發。
-- **requestActionClicked** - 當使用者要求採取動作時，例如當選取了班次要求時 (第一線員工 (FLW) 主管或第一線員工進行檢視。
-- **requestDetailsClicked** - 當選取了班次要求時 (第一線員工 (FLW) 主管或第一線員工進行檢視)。
+- **requestActionClicked** - 當使用者要求採取動作時，例如當選取了班次要求時 (前線工作者 (FLW) 主管或前線工作者進行檢視。
+- **requestDetailsClicked** - 當選取了班次要求時 (前線工作者 (FLW) 主管或前線工作者進行檢視)。
 - **requestJoinTeam** - 已按 **[要求]** 按鈕。
 - **requestSent** - 記錄檔，是否已傳送要求。
 - **requestToJoinTeam** - 要求加入團隊 (公開或私下)。
