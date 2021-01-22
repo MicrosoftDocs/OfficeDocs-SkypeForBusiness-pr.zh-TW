@@ -19,31 +19,31 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 您可以在此表格中尋找在 Microsoft 團隊中取得與管理電話號碼的相關資訊。
-ms.openlocfilehash: 69e2b59ec048b1294f3d1de4c3aa619dacf6f858
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: 使用此表格尋找有關在法國取得和管理 Microsoft Teams 電話號碼的資訊。
+ms.openlocfilehash: 2e3af4509e900ca26904913355ae2e66fbc4bab4
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361753"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923815"
 ---
 # <a name="phone-number-management-for-france"></a>法國的電話號碼管理
 
-您可以在此表格中尋找在 Microsoft 團隊中取得與管理電話號碼的相關資訊。 
+使用此表格尋找有關在法國取得和管理 Microsoft Teams 電話號碼的資訊。 
   
-如需詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
+詳細資訊請參閱管理 [您組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   
-|**您想要做什麼？**|**下載正確的表單，並將其傳送給我們**|
+|**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
-|取得 Microsoft 團隊系統管理中心未列出的新使用者或服務電話號碼。   <br/> | 下載其中一個表單。 <br/> [法國 (的新電話號碼要求，)  (fr-fr) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(fr-fr).pdf?raw=true) <br/>  [法國 (的新電話號碼要求)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。  <br/> 
-|取得傳送給我們的電話號碼。  <br/> |下載其中一個表單。 <br/><br/> 針對使用者電話號碼：<br/>[授權 (LOA) 為法國 (地理數位)  (v.)  (fr) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/><br/>免付費電話號碼： <br/>[ () 的授權函式 ( (freephone 號碼) ) v. () fr ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/> <br/> 填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。  <br/> |
-|在國內電話目錄中發佈/取消發佈電話號碼 (s) 。  <br/> |[傳送](mailto:ptneu@microsoft.com) 您想要發佈/取消發佈的電話號碼清單給我們。 <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[向我們傳送](mailto:ptneu@microsoft.com) 您想要轉換成服務號碼的使用者號碼清單。 <br/> |
-|將目錄服務更新設為通話佇列或自動語音應答號碼|若要新增或變更通話佇列或自動語音應答號碼，請聯絡 [PSTN 服務服務台](contact-pstn-service-desk.md)。 |
+|取得未列在 Microsoft Teams 系統管理中心的新使用者和服務電話號碼。   <br/> | 下載其中一個表單。 <br/> [針對法國撥打至 v.6.0 (的新電話號碼要求)  (fr-fr) ](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [針對法國 5.0 版 (5.0 版)  (的新電話號碼要求) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。  <br/> 
+|將電話號碼移轉至我們。  <br/> |下載其中一個表單。 <br/><br/> 對於使用者電話號碼：<br/>[法國的 (LOA) 授權信 (地理號碼)  (v.5.0)  (fr-fr) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/><br/>免付費電話號碼： <br/>[適用于法國 (LOA) 授權信 (免費電話號碼)  (v.5.0)  (fr-fr) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/> <br/> 填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。  <br/> |
+|發佈/取消發佈電話號碼 () 國家/) 目錄中發佈的電話號碼。  <br/> |[請將](mailto:ptneu@microsoft.com) 您想要發佈/取消發佈的電話號碼清單傳送給我們。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[請將您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者號碼清單傳送給我們。 <br/> |
+|讓目錄服務更新為通話佇列或自動 Attendant 號碼|若要新增或變更通話佇列或自動撥打號碼，請連連絡人 [PSTN 技術支援中心](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
 
-[通話方案所用的不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用於通話方案的電話號碼類型](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 

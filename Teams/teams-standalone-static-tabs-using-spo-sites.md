@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 取得現有的 SharePoint Online 網站或頁面，並建立獨立的靜態索引標籤，以作為組織的內部網路入口網站。
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731111"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923805"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」
 
@@ -100,9 +100,6 @@ ms.locfileid: "49731111"
 如果您想讓新的應用程式出現在左側功能表中的較高位置，則必須使用應用程式原則設定來進行。 您可以在 [Teams 管理員] 區段 > [應用程式原則] > [新增釘選的應用程式] 底下找到此設定。 當您指派原則給使用者以進行測試時，此變更會在數小時後才顯示。 在了解這一點的情況下，請盡早決定應用程式的顯示位置以免造成延遲。
 
 若要在行動裝置上檢視並測試新的應用程式，請點選畫面底部附近索引標籤列上方的＞形箭號 (**^**)，以開啟應用程式選單。 尋找您的應用程式，並在您的行動裝置上瀏覽至該應用程式。
-
-> [!CAUTION]
-> 目前已在開發人員預覽中支援行動裝置。 若要啟用「開發人員預覽」，請瀏覽至 [設定] > [關於]，然後啟用 [開發人員預覽] 模式。
 
 ## <a name="a-sample-manifestjson-file"></a>範例 Manifest.JSON 檔案
 

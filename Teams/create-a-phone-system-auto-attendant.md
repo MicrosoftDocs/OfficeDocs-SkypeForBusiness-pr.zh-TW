@@ -1,5 +1,5 @@
 ---
-title: 為 Microsoft 團隊設定自動助手
+title: 設定 Microsoft Teams 的自動 Attendant
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,226 +21,226 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 瞭解如何為 Microsoft 團隊設定及測試自動語音應答。
-ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
-ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
+description: 瞭解如何設定和測試 Microsoft Teams 的自動 Attendant。
+ms.openlocfilehash: 4809965eaad0f8cd81b59823d3890bd895998906
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49751781"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919027"
 ---
-# <a name="set-up-an-auto-attendant"></a>設定自動語音應答
+# <a name="set-up-an-auto-attendant"></a>設定自動 Attendant
 
-自動語音應答讓其他人打電話給您的組織，並流覽功能表系統，以與正確的部門通話、呼叫佇列、人員或接線員。 您可以使用 Microsoft 團隊系統管理中心或 PowerShell，為您的組織建立自動語音應答。
+自動有聲人員可打電話給貴組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 為貴組織建立自動 Attendant。
 
-請確定您已閱讀 [小組自動語音應答] [和 [呼叫佇列](plan-auto-attendant-call-queue.md) ] 的 [規劃]，然後依照本文 [中的程式](plan-auto-attendant-call-queue.md#getting-started) 執行。
+按照本文中的程式進行之前，請務必先閱讀[Teams](plan-auto-attendant-call-queue.md)自動撥打和通話[](plan-auto-attendant-call-queue.md#getting-started)佇列的規劃，並遵循入門步驟。
 
-自動語音應答可以根據來電者的輸入，將呼叫定向至下列其中一個目的地： <a name="call-routing-options" ></a>
+自動語音回應可以根據來電者的輸入，將電話直接撥打至下列其中一個目的地： <a name="call-routing-options" ></a>
 
-- **組織中的人員** -您組織中能夠接聽語音通話的人員。 這可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。
-- **語音 app** -另一個自動語音應答或通話佇列。  (選擇 [選擇此目的地時，與自動語音應答或通話佇列] 相關聯的資源帳戶。 ) 
-- **外部電話號碼** -任何電話號碼。  (查看 [外部轉接技術詳細資料](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)) 。
-- **語音信箱** -與您指定的 Microsoft 365 群組相關聯的語音信箱。
-- **Operator** -為自動語音應答定義的運算子。 定義運算子是選擇性的。 操作員可以定義為此清單中的任何其他目的地。
+- **組織中可以接聽** 語音通話的人，這是貴組織的人。 這可以是線上使用者，或使用商務用 Skype Server 託管于內部部署的使用者。
+- **語音應用程式** - 另一個自動語音語音機或通話佇列。  (選擇此目的地.) 
+- **外部電話號碼** - 任何電話號碼。  (外部[移轉技術詳細資料，) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
+- **語音** 信箱 - 與所指定的 Microsoft 365 群組相關聯的語音信箱。
+- **運算子** - 自動 Attendant 所定義的運算子。 定義運算子是選擇性的。 運算子可以定義為此清單中的其他任何目的地。
 
-當您設定自動語音應答時，系統會提示您在各個階段選擇其中一個選項。
+當您設定自動語音機時，系統會提示您在各種階段選擇其中一個選項。
 
-若要設定自動語音應答，請在 [小組管理中心] 中，展開 [語音]，按一下 [**自動****語音**]，然後按一下 [**新增**]。
+若要設定自動語音留言，請在 Teams 系統管理中心展開[語音 **，按一下自動** 語音語音，然後按一下 [**新增**。
 
 ## <a name="general-info"></a>一般資訊
 
-![[名稱]、[操作員]、[時區]、[語言] 和 [語音輸入] 的自動助理設定的螢幕擷取畫面](media/auto-attendant-general-info-page-new.png)
+![名稱、運算子、時區、語言和語音輸入的自動語音留言設定螢幕擷取畫面](media/auto-attendant-general-info-page-new.png)
 
-1. 在頂端方塊中輸入自動語音應答的名稱。
+1. 在頂端的方塊中輸入自動參與人員的名稱。
 
-2. 如果您想要指派運算子，請指定呼叫操作員的目的地。 這是選擇性 (但建議) 。 您可以設定 [ **運算子** ] 選項，讓呼叫者中斷功能表並向指定的人朗讀。
+2. 如果您要指定運算子，請指定該運算子的通話目的地。 這是選擇性選項 (，但建議您) 。 您可以設定 **運算子** 選項，讓來電者離開功能表，與指定的人員通話。
 
-3. 指定此自動語音應答的時區。 如果您在 [下班後建立單獨的通話流程](#call-flow-for-after-hours)，則會使用時區來計算上班時間。
+3. 指定此自動 Attendant 的時區。 如果您為後半小時另外建立一個通話流程，時區會用於 [計算上班時間](#call-flow-for-after-hours)。
 
-4. 指定此自動語音應答的語言。 這是將用於系統產生的語音提示的語言。
+4. 指定此自動翻譯人員的語言。 這是系統產生語音提示時所會使用的語言。
 
-5. 選擇是否要啟用語音輸入。 啟用時，每個功能表選項的名稱都會變成語音辨識關鍵字。 例如，來電者可以說「一」，選取對應至鍵1的功能表選項，或者說「銷售」來選取名為「銷售」的功能表選項。
+5. 選擇是否要啟用語音輸入。 啟用時，每個功能表選項的名稱都會變成語音辨識關鍵字。 例如，來電者可以說「一」以選取對應到按鍵 1 的功能表選項，或說出「銷售」以選取名為「銷售」的功能表選項。
 
-6. 按一下 **[下一步]**。
+6. 按一下 [ **下一步**。
 
 ## <a name="call-flow"></a>通話流程
 
-![問候訊息設定的螢幕擷取畫面](media/auto-attendant-call-flow-greeting-message.png)
+![問候語訊息設定螢幕擷取畫面](media/auto-attendant-call-flow-greeting-message.png)
 
-選擇當自動語音接聽來電時，是否要播放問候語。
+選擇當自動回應接聽電話時，是否要播放問候語。
 
-如果您選取 [ **播放音訊** 檔]，您可以使用 [ **上傳** 檔案] 按鈕，上傳儲存為音訊的錄製問候語訊息。WAV，。[MP3] 或。WMA 格式。 錄製不能大於 5 MB。
+如果您選取了 **播放音訊檔案，** 您可以使用上傳檔案按鈕來上傳儲存為音訊的錄製問候語訊息。Wav。MP3 或 .WMA 格式。 錄製內容不能大於 5 MB。
 
-如果您選取 [ **輸入問候語** ]，系統將會朗讀您在其中輸入文字的文字， (最多1000個字元) 當自動語音接聽來電時。
+如果您選取了輸入問候語訊息，當自動 (接聽電話時，系統就會讀出您輸入的文字) 最多 1000 個字元。
 
-![呼叫路由設定的螢幕擷取畫面](media/auto-attendant-call-flow-route-call-message.png)
+![通話路由設定螢幕擷取畫面](media/auto-attendant-call-flow-route-call-message.png)
 
-選擇您要路由通話的方式。
+選擇通話路由方式。
 
-如果您選取 **[中斷連線]**，自動語音應答就會掛斷通話。
+如果您選取了中斷 **連接**，自動電話機會掛斷通話。
 
-如果您選取 [重新 **導向通話**]，您可以選擇其中一個呼叫路由目標。
+如果您選取重新 **導向通話**，您可以選擇其中一個通話路由目的地。
 
-如果您選取 [ **播放] 功能表選項**，您可以選擇 **播放音訊** 檔案或 **輸入問候語** ，然後選擇 [功能表選項] 和 [目錄搜尋]。
+如果您選取了播放 **功能表選項**，您可以選擇播放音訊檔案或輸入問候語，然後選擇功能表選項和目錄搜尋。
 
 ### <a name="menu-options"></a>功能表選項
 
-![[撥號鍵] 選項的螢幕擷取畫面](media/auto-attendant-call-flow-menu-options-complete.png)
+![撥號鍵選項的螢幕擷取畫面](media/auto-attendant-call-flow-menu-options-complete.png)
 
-針對撥號選項，您可以將電話鍵台的0-9 金鑰指派給其中一個呼叫路由目標。  (按鍵 \* (重複) ，而 \# (返回) 是由系統保留，且無法重新指派。 ) 
+針對撥號選項，您可以將電話鍵盤上的 0-9 鍵指派給其中一個通話路由目的地。  (系統 (重複 \*)  (上) 的按鍵，且無法重新指派。) \#
 
-金鑰組應不一定是連續的。 例如，您可以建立一個鍵0、1及3對應至選項的功能表，而不使用2鍵。
+金鑰映射表不必是連續的。 例如，建立一個功能表時，有按鍵 0、1 和 3 對應到選項，而 2 個按鍵則沒有使用。
 
-如果您已設定一個，我們建議將0鍵對應至運算子。 如果運算子未設定為任何鍵，語音命令 "Operator" 也會停用。
+建議您將 0 鍵與運算子進行比對操作 。如果您已經進行一項安裝，建議您將 0 鍵與運算子進行比對。 如果運算子未設定為任何按鍵，語音命令「運算子」也會停用。
 
-針對每個功能表選項，指定下列各項：
+請為每個功能表選項指定下列專案：
 
-- **撥號鍵** -電話鍵臺上的按鍵可存取此選項。 如果有可用的語音輸入，呼叫者也可以說此號碼來存取此選項。
+- **撥號鍵** - 電話鍵盤上的按鍵，可存取此選項。 如果可以使用語音輸入，來電者也可以說出這個號碼來存取選項。
 
-- **Voice 命令** -定義來電者可提供的語音命令來存取此選項（如果已啟用語音輸入）。 它可以包含多個字詞，例如「客戶服務」或「作業與不限」。 例如，來電者可以按2、說「二」或說「銷售」，選取對應至2鍵的選項。 此文字也會由針對服務確認提示的文字轉換語音，可能是「將您的電話轉接到銷售」之類的內容。
+- **語音** 命令 - 定義來電者可給予存取此選項的語音命令 ，如果已啟用語音輸入。 它可以包含多個字詞，例如「客戶服務」或「營運與訂單」。 例如，來電者可以按 2，說「兩」或說「銷售」以選取對應到 2 鍵的選項。 系統也會以服務確認提示的文字到語音轉場呈現此文字，例如「將通話轉接至銷售」。
 
-- [**重定向至**]-呼叫路由目的地（在來電者選擇此選項時使用）。 如果您要重新導向自動語音應答或通話佇列，請選擇與其關聯的資源帳戶。
+- **重新導向** 至 - 來電者選擇此選項時所使用的通話路由目的地。 如果您要重新導向至自動有回應或通話佇列，請選擇與其相關聯的資源帳戶。
 
 ### <a name="directory-search"></a>目錄搜尋
 
-如果您指派撥號鍵至目的地，我們建議您選擇 [ **無** ] 進行 **目錄搜尋**。 如果來電者嘗試使用指派給特定目的地的金鑰來撥打名稱或分機，可能會在完成輸入名稱或副檔名之前，意外地路由到目的地。 我們建議您為目錄搜尋建立一個單獨的自動語音應答，並透過撥號鍵讓您的主要自動語音應答連結。
+如果您將撥號鍵指派給目的地，我們建議您針對目錄搜尋選擇 **None。** 如果來電者嘗試使用指定給特定目的地的金鑰撥打名稱或分機，他們可能會在您輸入完名稱或分機前，意外路由至目的地。 建議您為目錄搜尋建立個別的自動 Attendant，並透過撥號鍵讓主要自動 Attendant 連結連至該人員。
 
-如果您沒有指派撥號鍵，請選擇 [ **目錄搜尋**] 的選項。
+如果您未指派撥號鍵，請選擇一個目錄 **搜尋選項**。
 
-**依名稱撥號** -如果您啟用此選項，則呼叫者可以說出使用者的名稱，或在電話鍵臺上輸入密碼。 任何線上使用者或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可以使用 [撥號者名稱] 找到。  (您可以在 [ [撥號作用域](#dial-scope) ] 頁面上設定目錄中的人員，且不會包含在目錄中。 ) 
+**按名稱** 撥號 - 如果您啟用此選項，來電者可以說出使用者的名稱，或在電話鍵盤上輸入。 任何線上使用者或任何使用商務用 Skype Server 在內部部署託管的使用者，都是合格的使用者，您可以使用 Dial 的名稱找到。  (您可以在撥號範圍頁面上設定哪些人不在目錄中) [](#dial-scope)
 
-[透過 **分機撥號**]-如果您啟用此選項，則呼叫者可以撥打電話給您組織中的使用者。 任何線上使用者或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，可透過 **分機** 找到。  (您可以在 [ [撥號作用域](#dial-scope) ] 頁面上設定目錄中的人員，且不會包含在目錄中。 ) 
+**分機號碼** - 如果您啟用此選項，來電者可以撥打分機號碼，與貴組織的使用者聯繫。 任何線上使用者或任何使用商務用 Skype Server 在內部部署託管的使用者，都是合格的使用者，而且可以使用 **分機號碼撥號。**  (您可以在撥號範圍頁面上設定哪些人不在目錄中) [](#dial-scope)
 
-您想要讓撥打電話使用的使用者必須將延伸指定為下列其中一個電話屬性（在 Active Directory 或 Azure Active Directory 中定義），如需詳細資訊，請參閱 [新增使用者或大量](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) (。 ) 
+若要提供撥號指定分機功能的使用者，其擴充功能必須做為 Active Directory 或 Azure Active Directory 中定義的下列其中一個電話屬性的一部分來[](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)指定 (請參閱個別或大量新增使用者以瞭解更多資訊。) 
 
 - OfficePhone
 - HomePhone
 - 行動/MobilePhone
-- Telephonenumber 相同/PhoneNumber
+- TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-在 [使用者電話號碼] 欄位中輸入延伸所需的格式，可以是：
+在使用者電話號碼欄位中輸入分機所需的格式為：
 
-- *+\<phone number>; ext =\<extension>*
-- *+\<phone number>pci-x\<extension>*
-- *pci-x\<extension>*
+- *+\<phone number>;ext=\<extension>*
+- *+\<phone number>X\<extension>*
+- *X\<extension>*
 
-- 範例1： Set-MsolUser UserPrincipalName usern@domain.com-Phonenumber "+ 15555555678; ext = 5678"
-- 範例2： Set-MsolUser UserPrincipalName usern@domain.com-Phonenumber "+ 15555555678x5678"
-- 範例3： Set-MsolUser UserPrincipalName usern@domain.com-Phonenumber "x5678"
+- 範例 1：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678;ext=5678"
+- 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678x5678"
+- 範例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-您可以在 [Microsoft 365 系統管理中心](https://admin.microsoft.com/) 或 [Azure Active Directory 系統管理中心](https://aad.portal.azure.com)中設定延伸。 [自動語音應答] 和 [呼叫佇列] 可使用變更前需要12小時的時間。
+您可以在 [Microsoft 365](https://admin.microsoft.com/) 系統管理中心或 Azure [Active Directory](https://aad.portal.azure.com)系統管理中心設定擴充功能。 最多可能需要 12 小時，才能讓自動參與人員與通話佇列使用變更。
 
 > [!NOTE]
-> 如果您想要同時使用 [ **撥號者名稱** ] 和 [透過 **撥** 打電話] 功能，您可以在主自動語音應答上指派撥號鍵，即可透過 **名稱撥打** 自動語音應答。 在該自動語音應答中，您可以將沒有任何與它相關聯之字母的1金鑰 (指派) 來透過分機自動語音應答來取得 **撥號** 。
+> 如果您想要同時使用撥號者名稱及撥號者分機功能，您可以指派主自動 Attendant 上的撥號鍵，以撥打名稱啟用的自動 **attendant。** 您可以在該自動 attendant 中，指派 1 鍵按鍵 (該按鍵沒有關聯的字母，) 撥打 **分機** 自動 attendant。
 
-選取 **目錄搜尋** 選項之後，請按 **[下一步]**。
+選取目錄 **搜尋選項後** ，請按一下 [下一 **步**。
 
-## <a name="call-flow-for-after-hours"></a>下班時間的通話流程
+## <a name="call-flow-for-after-hours"></a>數小時後的通話流程
 
-![[時間] 和 [時間] 設定的螢幕擷取畫面](media/auto-attendant-business-hours.png)
+![小時之後日與時間設定螢幕擷取畫面](media/auto-attendant-business-hours.png)
 
-每個自動語音應答的上班時間都可以設定。 如果未設定上班時間，則當天的所有日期和所有的時間都被視為「上班時間」，因為預設會設定24/7 排程。 您可以在一天中使用時段來設定上班時間，而且所有未設為「上班時間」的小時都會被視為時間。 您可以設定不同的來電處理選項和問候語（在下班後）。
+您可以針對每個自動 Attendant 設定上班時間。 如果未設定上班時間，則一天中所有的天和小時會被視為上班時間，這是因為預設會設定 24/7 排程。 您可以設定上班時間與一天中的時間，未設定為上班時間的所有小時會被視為後半小時。 您可以為後半小時設定不同的來電處理選項和問候語。
 
-視您設定自動語音應答及呼叫佇列的方式而定，您可能只需要使用直接電話號碼，指定自動語音接聽的時間呼叫路由。
+根據您為自動撥打的號碼和通話佇列的配置，您可能只需要使用直接電話號碼指定自動電話機的後半小時通話路由。
 
-如果您想要在下班後的呼叫者單獨撥打通話路線，請指定每天的上班時間。 按一下 [ **新增時間** ]，為指定日期指定多組小時數（例如指定午餐時間）。
+如果您想要為後半小時來電者進行個別的通話路由，請指定每天的上班時間。 例如 **，按一下 [新增時間** 以指定指定一天的多組時數，以指定午餐時間。
 
-指定上班時間之後，請選擇您的通話路線選項，以供下班時間使用。 對於您在上述指定的商務時間呼叫路由，您可以使用相同的選項。
+指定上班時間之後，再選擇數小時的通話路由選項。 這些選項與上述指定的上班時間通話路由選項相同。
 
-完成後，請按 **[下一步]** 。
+完成 **時** 按一下 [下一步。
 
-## <a name="call-flows-during-holidays"></a>假日期間的通話流程
+## <a name="call-flows-during-holidays"></a>在假日期間通話流程
 
-![假日和假日問候語設定的螢幕擷取畫面](media/auto-attendant-holiday-greeting.png)
+![假日和假日問候語設定螢幕擷取畫面](media/auto-attendant-holiday-greeting.png)
 
-您的自動語音應答可以針對 [您設定](set-up-holidays-in-teams.md)的每一個假日進行通話流程。 您最多可以將20個排定的假日新增至每個自動語音應答。
+您的自動助理可以針對您設定的每個假日安排 [通話流程](set-up-holidays-in-teams.md)。 您最多可以將 20 個排程的假日加到每個自動 Attendant 中。
 
-1. 在 [假日通話設定] 頁面上，按一下 [ **新增**]。
+1. 在 [假日通話設定> 頁面上，按一下 [ **新增**。
 
 2. 輸入此假日設定的名稱。
 
-3. 從 [ **假日** ] 下拉式清單中，選擇您要使用的假日。
+3. 從 **假日下** 拉選，選擇您想要使用的假日。
 
-4. 選擇您要使用的問候類型。
+4. 選擇您想要使用的問候語類型。
 
-    ![假日通話動作設定的螢幕擷取畫面](media/auto-attendant-holiday-actions.png)
+    ![假日通話動作設定螢幕擷取畫面](media/auto-attendant-holiday-actions.png)
 
-5. 選擇您是否要 **中斷** 連線，或重新 **導向** 通話。
+5. 選擇您是否要中斷 **連接** 或 **重新導向** 通話。
 
-6. 如果您選擇 [重新導向]，請選擇通話的呼叫傳送目的地。
+6. 如果您選擇重新導向，請選擇通話的通話路由目的地。
 
 7. 按一下 **[儲存]**。
 
-![[假日] 設定的螢幕擷取畫面，其中列出假日](media/auto-attendant-holiday-call-settings.png)
+![已列出假日的假日設定螢幕擷取畫面](media/auto-attendant-holiday-call-settings.png)
 
-視需要針對每個額外的假日重複程式。
+針對每一個額外的假日，根據需要重複此程式。
 
-當您新增完所有假日之後，請按 **[下一步]**。
+當您新增所有的假日時，按一下 [下一 **步**。
 
-## <a name="dial-scope"></a>撥號作用中
+## <a name="dial-scope"></a>撥號範圍
 
-![[撥號作用中包括] 和 [排除] 選項的螢幕擷取畫面](media/auto-attendant-dial-scope.png)
+![撥號範圍包含與排除選項的螢幕擷取畫面](media/auto-attendant-dial-scope.png)
 
-*撥號作用* 中定義來電者使用按名稱撥號或撥號延伸時，在目錄中可使用的使用者。 **所有線上使用者** 的預設值都是您組織中的所有使用者，或是使用商務用 Skype Server 主機內部部署的所有使用者。
+撥號 *範圍* 會定義當來電者使用電話撥入式名稱或按分機號碼時，哪些使用者可以在目錄中使用。 根據預設 **，所有線上使用者** 會包含貴組織的所有使用者，這些使用者都是線上使用者，或是使用商務用 Skype Server 託管于內部部署。
 
-您可以選取 [**包括**] 或 [**排除**] 底下的 [**自訂使用者組**]，然後選擇一或多個 Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定的使用者。 例如，您可能想要將貴組織中的主管從撥號目錄中排除。  (如果使用者同時位於兩個清單中，則會將其從目錄中排除。 ) 
+您可以在包含或排除下選取自訂使用者群組，並選擇一或多個Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織高主管排除在撥號目錄中。  (如果使用者同時位於這兩個清單中，他們將從目錄.) 
 
 > [!NOTE]
-> 最多可能需要36小時，才能讓新使用者將其名稱列在目錄中。
+> 新使用者最多可能需要 36 小時，才能將名稱列在目錄中。
 
-完成設定撥號作用中的範圍之後，請按 **[下一步]**。
+設定完撥號範圍之後，請按一下 [下一 **步**。
 
 ## <a name="resource-accounts"></a>資源帳戶
 
-所有自動語音應答都必須有關聯的資源帳戶。  第一層自動語音應答將至少需要一個有相關服務號碼的資源帳戶。 如果您想要的話，您可以將多個資源帳戶指派給自動語音應答，每個都有不同的服務號碼。
+所有自動 attendants 都必須有相關聯的資源帳戶。  第一層自動出席者至少需要一個擁有相關聯服務號碼的資源帳戶。 如果您想要的話，您可以將數個資源帳戶指派給自動 Attendant，每個帳戶都有個別的服務號碼。
 
-![資源帳戶 [新增帳戶] 面板的螢幕擷取畫面](media/auto-attendant-add-resource-account.png)
+![資源帳戶新增帳戶面板的螢幕擷取畫面](media/auto-attendant-add-resource-account.png)
 
-若要新增資源帳戶，請按一下 [ **新增帳戶** ]，然後搜尋您要新增的帳戶。 按一下 [ **新增**]，然後按一下 [ **新增**]。
+若要新增資源帳戶，請按一下 [ **新增** 帳戶，然後搜尋您想要新增的帳戶。 按一下 **[新增**，然後按一下 [ **新增**。
 
-![[資源帳戶] 清單的螢幕擷取畫面，其中顯示已指派服務號碼的資源帳戶](media/auto-attendant-resource-account-assigned.png)
+![顯示有已指派服務編號之資源帳戶清單的螢幕擷取畫面](media/auto-attendant-resource-account-assigned.png)
 
-完成新增服務帳戶後，請按一下 [ **提交**]。 這會完成自動助理設定。
+完成新增服務帳戶後，請按一下 **[提交**。 這會完成自動 attendant 的安裝。
 
-## <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼傳輸-技術詳細資料
+## <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼轉接 - 技術詳細資料
 
-請參閱 [必備元件](plan-auto-attendant-call-queue.md#prerequisites) ，以允許自動語音接聽外部轉接來電。  另外：
+請參閱先決條件 [，](plan-auto-attendant-call-queue.md#prerequisites) 以允許自動 Attendant 將電話轉接至外部。  另外：
 
-- 針對含有 [通話方案](calling-plans-for-office-365.md) 編號的資源帳戶，必須以 (+ [國家/地區碼] [區號] [電話號碼] ) ，以164格式輸入外部轉接電話號碼。
+- 對於有通話方案號碼的資源[](calling-plans-for-office-365.md)帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國碼][區碼][電話號碼]) 。
 
-- 對於擁有直接傳送號碼的資源帳戶，外部轉接電話號碼格式是由 [ (SBC) 設定的會話邊界控制器 ](direct-routing-connect-the-sbc.md) 所依賴。
+- 針對具有直接路由號碼的資源帳戶，外部轉接電話號碼格式會設定在會話邊界控制器上 ([SBC) ](direct-routing-connect-the-sbc.md) 設定。
 
-顯示的輸出電話號碼是由以下所示：
+顯示的電話號碼會以以下方式判斷：
 
-  - 針對通話方案編號，會顯示原始來電者的電話號碼。
-  - 針對直接銀行代號，傳送的數位是以 P 斷言身分識別 (PAI 在 SBC 上) 設定，如下所示：
-    - 如果設定為 [停用]，則會顯示原始來電者的電話號碼。 這是預設及建議的設定。
-    - 如果設定為 [啟用]，則會顯示資源帳戶的電話號碼。
+  - 針對通話方案號碼，會顯示原始來電者的電話號碼。
+  - 針對直接路由號碼，傳送的號碼是根據 SBC (PAI) 設定，如下所示：
+    - 如果設為停用，則會顯示原始來電者的電話號碼。 這是預設且建議使用的設定。
+    - 如果設為已啟用，則會顯示資源帳戶電話號碼。
 
-在商務用 Skype 混合式環境中，若要將自動語音來電轉接到 PSTN，請建立一個新的內部部署使用者，並將 [來電轉接] 設定為 PSTN 號碼。 使用者必須啟用企業語音並指派語音原則。 若要深入瞭解，請參閱 [自動通話轉接至 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
+在商務用 Skype 混合式環境中，若要將自動參與通話轉接到 PSTN，請建立一個新的內部部署使用者，將來電轉接設定為 PSTN 號碼。 使用者必須啟用企業語音，並指派語音策略。 若要深入瞭解，請參閱自動 [將電話轉接到 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)的自動 Attendant 通話。
 
-### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 建立自動助理
+### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 建立自動 Attendant
 
-您也可以使用 PowerShell 來建立及設定自動語音應答。 以下是您需要管理自動語音應答的 Cmdlet：
+您也可以使用 PowerShell 來建立及設定自動 Attendant。 以下是管理自動 attendant 時所需的 Cmdlet：
 
-- [新-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
 - [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
-- [CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
-- [CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
-- [移除-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
-- [新-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
-- [新-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
-- [新-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
-- [新-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
-- [新-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
-- [新-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
-- [CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [新-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [匯入-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
-- [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendant一idays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsOnline在一起](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendant一idays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendant一idays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -249,7 +249,5 @@ ms.locfileid: "49751781"
 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
 [音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-[小型企業範例-設定自動助手](/microsoftteams/tutorial-org-aa)
 
 [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
