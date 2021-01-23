@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 896e60e8de6e01208a07c40e757a79a12192383a
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: f4ea2d747d40c221d9e99b51fc7b15da8e2cdd12
+ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611817"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49944598"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用 Microsoft 團隊匯出 Api 匯出內容
 
-團隊匯出 Api 可讓您從 Microsoft 團隊匯出1:1 和群組聊天訊息。 如果您的組織需要匯出 Microsoft 團隊郵件，您可以使用團隊匯出 Api 來提取這些訊息。 *聊天訊息* 代表 [頻道](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 或 [聊天](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)中的個別聊天訊息。 聊天訊息可以是根聊天訊息，或是由聊天訊息中的 **replyToId** 屬性所定義的回復執行緒的一部分。
+團隊匯出 Api 可讓您從 Microsoft 團隊匯出1:1、群組聊天及頻道訊息。 如果您的組織需要匯出 Microsoft 團隊郵件，您可以使用團隊匯出 Api 來提取這些訊息。 *聊天訊息* 代表 [頻道](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 或 [聊天](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)中的個別聊天訊息。 聊天訊息可以是根聊天訊息，或是由聊天訊息中的 **replyToId** 屬性所定義的回復執行緒的一部分。
 
 以下是如何使用這些匯出 Api 的一些範例：
 
-- **範例 1**：如果您已在貴組織中啟用 microsoft 團隊，並想要以程式設計方式將所有 microsoft 團隊郵件匯出至 [日期]，請傳送指定使用者的日期範圍。
-- **範例 2**：如果您想要以程式設計方式將所有使用者郵件匯出為每天，請提供日期範圍。 匯出 Api 可以檢索在指定日期範圍內建立或更新的所有訊息。
+- **範例 1**：如果您已在貴組織中啟用 microsoft 團隊，並想要以程式設計方式將所有 microsoft 團隊郵件匯出至 [日期]，只要傳遞給特定使用者或團隊的日期範圍即可。
+- **範例 2**：如果您想要以程式設計方式，每日透過提供日期範圍來匯出所有使用者或團隊訊息。 匯出 Api 可以檢索在指定日期範圍內建立或更新的所有訊息。
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>團隊匯出 Api 支援哪些專案？
 
@@ -47,35 +47,40 @@ ms.locfileid: "49611817"
 
 ## <a name="how-to-access-teams-export-apis"></a>如何存取團隊匯出 Api
 
-- **範例 1** 是一個簡單查詢，可在沒有任何篩選的情況下，檢索使用者的所有訊息：
+- **範例 1** 是一個簡單的查詢，可在沒有任何篩選的情況下，檢索使用者或團隊的所有訊息：
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
+     ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages
+    ```
 
-- **範例 2** 是一個範例查詢，可透過指定日期時間篩選與前50封郵件來檢索使用者的所有訊息：
+- **範例 2** 是一個範例查詢，可透過指定日期時間篩選與前50封郵件來檢索使用者或團隊的所有訊息：
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
-
+```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    ```
 >[!NOTE]
->如果有多個結果，API 會傳回 [下一個頁面] 連結的回應。 若要取得下一組結果，只要呼叫從 @odata 取得 url 即可。 如果 @odata 不存在或 null，則會檢索所有訊息。
+>The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
-## <a name="prerequisites-to-access-teams-export-apis"></a>存取團隊匯出 Api 的先決條件 
+## Prerequisites to access Teams Export APIs 
 
-- 團隊匯出 Api 目前在預覽中。 只有具備 Api [所需授權](https://aka.ms/teams-changenotification-licenses) 的使用者和承租人才能使用它。 在將來，Microsoft 可能會要求您或您的客戶根據透過 API 存取的資料量來支付額外費用。
-- Microsoft Graph 中的 microsoft 團隊 Api （可存取機密資料）會被視為受保護的 Api。 匯出 Api 需要您在使用前進行額外的驗證（除了許可權和同意），才能使用它們。 若要要求存取這些受保護的 Api，請完成 [ [要求] 表單](https://aka.ms/teamsgraph/requestaccess)。
-- 在沒有登入使用者的情況下執行的 app 會使用應用程式許可權;只有系統管理員才能同意應用程式許可權。 需要下列許可權：
+- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](https://aka.ms/teams-changenotification-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
+- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
+- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
 
-    - [*聊天]。 [全部*]：可讓您存取所有1:1 和群組聊天訊息 
-    - [*使用者]。 [全部*]：可存取租使用者的使用者清單 
+    - *Chat.Read.All*: enables access to all 1:1 and Group chat messages 
+    - *User.Read.All*: enables access to the list of users for a tenant 
 
-## <a name="json-representation"></a>JSON 標記法
+## JSON representation
 
-下列範例是資源的 JSON 標記法：
+The following example is a JSON representation of the resource:
 
-命名空間： microsoft. 圖形
+Namespace: microsoft.graph
 
 ```JSON
 {

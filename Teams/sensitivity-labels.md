@@ -1,8 +1,8 @@
 ---
 title: Microsoft 團隊的敏感度標籤
 ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: cabailey
+manager: laurawi
 ms.reviewer: abgupta
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -16,75 +16,46 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中定義及使用敏感度標籤。
-ms.openlocfilehash: d021954a32cc2d93fb7b17726720396e66b4fd39
-ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
+description: 瞭解如何使用敏感度標籤來保護您的小組在 Microsoft 團隊中。
+ms.openlocfilehash: 3b994bd7f1aa8fbc1fde13aaf49b195a1698695a
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49795770"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937525"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 團隊的敏感度標籤
 
-[敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 可讓團隊管理員控制在團隊中共同作業期間建立的機密組織內容的存取權。 您可以在 [規範中心](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)定義敏感度標籤及其相關聯的原則。 這些標籤與原則會自動套用至貴組織中的小組。  
+[敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 可讓團隊管理員保護並控制在團隊中共同作業期間建立的機密組織內容的存取權。 在 [Microsoft 合規性中心](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)中使用相關聯的原則設定敏感度標籤之後，這些標籤就可以套用到貴組織中的小組。
+
+目前不支援使用團隊教育版 Sku 的客戶使用敏感度標籤。 若要深入瞭解授權，請參閱 [Microsoft 團隊服務說明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>敏感度標籤與團隊保密標籤之間的差異為何？
 
-敏感度標籤與分類標籤不同。 分類標籤是可與 Microsoft 365 群組相關聯但沒有任何相關聯之實際原則的文字字串。 您可以使用分類標籤做為中繼資料，透過內部工具和腳本手動強制執行原則。
+敏感度標籤與分類標籤（亦稱為 Azure AD 群組分類）不同。 分類標籤是可與 Microsoft 365 群組相關聯但沒有任何相關聯之實際原則的文字字串。 您使用分類標籤做為中繼資料，然後必須使用其他方法（例如內部工具和腳本）來強制執行原則。
 
-另一方面，敏感度標籤及其原則會自動強制執行，以結合群組平臺、安全性 & 合規性中心及團隊服務的組合來進行。 敏感度標籤可提供強大的基礎結構支援，以保護貴組織的機密資料。  
+使用敏感度標籤的優點是，其原則會透過 Microsoft 365 群組平臺、合規性中心及團隊服務的組合，自動強制執行。 敏感度標籤可提供強大的基礎結構支援，以保護貴組織的機密資料，並確保遵守您的內部原則或管理法規。
 
-若要將您現有的群組從使用分類標籤移至使用敏感度標籤，請使用 [Microsoft 365 群組的 Azure Active Directory 分類及敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels)中的指示。
+如果您目前使用的是分類標籤，請參閱下列檔，以取得詳細資訊，以及如何將其遷移至敏感度標籤的相關指示： [傳統 AZURE AD 群組分類](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
 
-## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>建立、管理及發佈小組的敏感度標籤
+## <a name="example-scenarios-for-sensitivity-labels"></a>敏感度標籤範例案例
 
-如需如何啟用、建立及發佈小組的敏感度標籤，請參閱 [使用敏感度標籤來保護 Microsoft 團隊、microsoft 365 群組和 SharePoint 網站中的內容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
+您可以如何將敏感度標籤與組織中的小組搭配使用的範例案例：
 
->[!IMPORTANT]
->建立、更新及刪除敏感度標籤時，需要小心地將發佈標籤與使用者進行排序。 順序中的任何偏差都可能會導致所有使用者的持續性團隊建立錯誤。 因此，當您 <a href="#createpublishlabels">建立及發佈標籤</a>、 <a href="#modifydeletelabels">修改及刪除已發佈的標籤</a>，以及 <a href="#manageerrors">管理團隊建立錯誤</a>時，請務必執行下列動作。
+- [針對團隊 (公開或私人) 設定隱私權層級](#set-the-privacy-level-for-teams)
+- [控制對團隊的來賓存取權](#control-guest-access-to-teams)
 
-**建立及發佈標籤** <a name="createpublishlabels"></a>
+### <a name="set-the-privacy-level-for-teams"></a>設定團隊的隱私權等級
 
-在合規性中心建立及發佈標籤時，最多可能需要10分鐘的時間才能讓標籤在團隊建立介面中變為可見。 使用下列步驟來發佈租使用者中所有使用者的標籤：
-1. 建立標籤並將其發佈，以在租使用者中進行幾個選取的使用者帳戶。
-2. 在標籤發佈時，請等候10分鐘。
-3. 10分鐘之後，嘗試使用可存取標籤的其中一個使用者帳戶來建立擁有標籤的小組。
-4. 如果團隊在步驟3中成功建立，請繼續進行併發布租使用者中其餘使用者的標籤。
+您可以建立及設定在小組建立期間套用的敏感度標籤，讓使用者能夠在公開或私人) 設定中，建立具有特定隱私權 (小組。
 
-**修改及刪除已發佈的標籤** <a name="modifydeletelabels"></a>
+例如，您可以建立併發布一個名為「機密」的敏感度標籤，並將 [標籤隱私權] 選項設定為 [ **私人**]。 因此，使用此標籤建立的任何團隊都必須是私人團隊。 
 
-刪除或修改與靈敏度原則相關聯的標籤時，可能會導致小組建立跨租使用者失敗。 因此，在您刪除或修改標籤之前，您必須先解除標籤與其相關聯原則的關聯。 使用下列步驟  
-若要刪除或修改標籤：
-1. 從使用標籤的所有原則中移除標籤。 或者，您也可以刪除原則本身。
-2. 從原則移除標籤，或原則本身遭到刪除時，請稍等10分鐘，然後再繼續進行。
-3. 10分鐘後，啟動團隊建立介面，並確認租使用者中的任何使用者都看不到該標籤。
-4. 現在，您可以安全地刪除或修改標籤。
-
-**管理團隊建立錯誤** <a name="manageerrors"></a>
-
-如果小組建立在公眾預覽版期間開始失敗，您有兩個選項：
- - 在小組建立期間，請確定任何使用者都不強制使用敏感度標籤。
- - 使用 [ [啟用此預覽](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)] 中的腳本關閉敏感度標籤。
-
-請注意，EnableMIPLabels 設定必須設定為 false，如下所示：
-
-```console
-$setting["EnableMIPLabels"] = "False"
-```
-
-## <a name="using-sensitivity-labels-with-teams"></a>在團隊中使用敏感度標籤
-
-以下是一些範例，說明如何將敏感度標籤與組織中的小組搭配使用。
-
-### <a name="privacy-setting-of-teams"></a>團隊的隱私權設定
-
-您可以建立可在小組建立期間套用的敏感度標籤，讓使用者能夠在公開或私人) 設定中，建立具有特定隱私權 (小組。
-
-例如，您會在安全性 & 合規性中心建立名為 "機密" 的標籤，並設定團隊，讓使用此標籤建立的任何小組都必須是私人團隊。 當使用者建立新的小組並選取 [ **機密** ] 標籤時，使用者可以使用的唯一隱私權選項是 [ **私人**]。 使用者已停用其他隱私權選項，例如公用與組織範圍。
+當使用者建立新的小組並選取 [ **機密** ] 標籤時，使用者可以使用的唯一隱私權選項是 [ **私人**]。 使用者無法選取其他隱私權選項（例如公用與組織範圍）：
 
 ![[機密敏感度] 標籤的螢幕擷取畫面](media/sensitivity-labels-confidential-example.png)
 
-同樣地，如果使用者在建立新團隊時選取 **[一般** ]，他們就只能建立公用或組織範圍的團隊。
+同樣地，您也可以建立併發布名為「一般」的敏感度標籤，並將 [標籤隱私權] 選項設定為 [ **公開**]。 當使用者建立新的小組時，他們在選取此標籤時，只會建立公用或組織範圍的團隊：
 
 ![一般敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-general-example.png)
 
@@ -96,32 +67,36 @@ $setting["EnableMIPLabels"] = "False"
 
 ![團隊屬性中敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-edit-team.png)
 
-### <a name="guest-access-to-teams"></a>對團隊的來賓存取權
+### <a name="control-guest-access-to-teams"></a>控制對團隊的來賓存取權
 
-您可以指定使用特定標籤建立的小組是否允許來賓存取。 只有貴組織中的使用者可以使用不允許來賓存取權的標籤建立的團隊。 您組織外部的人員無法新增至小組。
+您可以使用敏感度標籤來控制來賓對您團隊的存取權。 只有貴組織中的使用者可以使用不允許來賓存取權的標籤建立的團隊。 您組織外部的人員無法新增至小組。
 
-### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心的敏感度標籤
+## <a name="microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心
 
-您可以在 Microsoft 團隊系統管理中心建立或編輯小組時，設定敏感度標籤。 在團隊屬性以及 Microsoft 團隊系統管理中心 [管理團隊] 頁面上的 [ **分類** ] 欄中，也會顯示敏感度標籤。
+當您在 Microsoft 團隊系統管理中心建立或編輯小組時，您可以套用敏感度標籤。 
 
-## <a name="known-issues"></a>已知問題
+在團隊屬性以及 Microsoft 團隊系統管理中心 [**管理團隊**] 頁面上的 [**分類**] 欄中，也會顯示敏感度標籤。
 
-**支援小組圖形 Api、PowerShell Cmdlet 及範本中的敏感度標籤**
+## <a name="limitations"></a>有限
 
-目前，使用者將無法在直接透過圖形 Api、PowerShell Cmdlet 及範本建立的小組上套用敏感度標籤。
+在您針對團隊使用敏感度標籤之前，請注意下列限制：
 
-**在團隊 EDU Sku 中支援敏感度標籤**
+- **Sublabels 不會顯示父標籤名稱**
+    
+    團隊支援 sublabels，但不會顯示父標籤的名稱。 例如，[ **機密**] \\ **所有員工都會** 顯示為 [ **所有員工**]。
 
-目前不支援使用團隊教育版 Sku 的客戶使用敏感度標籤。
+- **團隊圖形 Api、PowerShell Cmdlet 及範本不支援敏感度標籤**
+    
+    使用者將無法在直接透過團隊圖形 Api、團隊 PowerShell Cmdlet 和團隊範本建立的團隊上套用敏感度標籤。
 
-**在私人頻道的 SharePoint 網站集合上直接編輯敏感度標籤**
+- **支援專用通道**
+    
+    在團隊中建立的專用頻道會繼承已套用在小組中的敏感度標籤。 在 [私人頻道] 的 SharePoint 網站集合上，系統會自動套用相同的標籤。
+    
+    不過，如果使用者在 SharePoint 網站上直接變更私人頻道的敏感度標籤，則該標籤變更不會反映在團隊用戶端中。 在這種情況下，使用者會繼續在私人通道標題中查看在團隊上套用的原始敏感度標籤。
 
-在團隊中建立的專用頻道會繼承已套用在小組中的敏感度標籤。 此外，在 [私人頻道] 的 SharePoint 網站集合上會自動套用相同的標籤。
+## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>如何建立及設定小組的敏感度標籤
 
-如果使用者直接更新私人頻道之 SharePoint 網站集合上的敏感度標籤，就不會在團隊用戶端中更新該標籤。 在這種情況下，使用者會繼續在私人通道標題中查看在團隊上套用的敏感度標籤。
+使用 Microsoft 365 檔中的指示來建立及設定小組的敏感度標籤： 
 
-**套用至團隊 app 外敏感度標籤變更的傳播時間**
-
-在團隊 app 外對敏感度標籤所做的變更，可能需要長達24小時才能反映在團隊 app 中。 這適用于針對您啟用或停用租使用者的標籤所做的任何變更、標籤名稱、設定及原則的變更。
-
-此外，直接針對支援小組的群組或 SharePoint 網站集合所做的任何變更，都可能需要長達24小時才能傳播至團隊 app。
+- [使用敏感度標籤來保護 Microsoft 團隊、microsoft 365 群組和 SharePoint 網站中的內容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。

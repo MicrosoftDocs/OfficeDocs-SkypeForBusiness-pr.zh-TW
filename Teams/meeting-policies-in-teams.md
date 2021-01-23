@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718627"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918909"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -41,11 +41,11 @@ ms.locfileid: "49718627"
 
 您可以透過下列方式來實施原則，這會影響使用者在會議開始之前、會議期間或會議之後的會議體驗。
 
-|實現類型  |描述  |
+|實現類型  |說明  |
 |---------|---------|
 |每個召集人    |當您實施每個召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動承認人員** 是每個召集人原則，並控制使用者是否要直接加入會議，或在會議廳中等待指派原則的使用者所排程的會議。          |
 |每位使用者    |當您執行每個使用者的原則時，只會套用每個使用者的原則，以限制召集人和/或會議參與者的特定功能。 例如，[ **允許在頻道中立即開會** ] 是每個使用者的原則。     |
-|每個召集人和每位使用者     |當您實現每個召集人與每個使用者的原則組合時，某些功能會根據其原則和召集人原則，限制會議參與者。 例如，[ **允許雲端錄製** ] 是每個召集人和每個使用者的原則。 開啟此設定可讓會議召集人與參與者開始並停止錄製。
+|每個召集人和每位使用者     |當您實現每個召集人與每個使用者的原則組合時，某些功能會根據其原則和召集人原則，限制會議參與者。 例如，[ **允許雲端錄製** ] 是每個召集人和每個使用者的原則。 開啟此設定可讓使用者開始並停止錄製。
 
 您可以編輯全域原則中的設定，或是建立並指派一或多個自訂原則。 除非您建立並指派自訂原則，否則使用者會取得全域原則。
 
@@ -197,7 +197,7 @@ ms.locfileid: "49718627"
 
 ### <a name="allow-cloud-recording"></a>允許雲端錄製
 
-這是每個組織單位和每個使用者原則的組合。 此設定控制是否可以錄製此使用者的會議。 如果參與者已開啟該原則設定，且是來自同一個組織的經過驗證的使用者，則錄製可以由會議召集人或其他會議參與者啟動。
+這是依每個使用者的原則進行控制。 此設定控制使用者是否可以錄製。 錄製可以由會議召集人或其他會議參與者啟動（如果他們的特定原則設定已開啟，而且他們是與召集人相同組織的經過驗證的使用者）。
 
 貴組織外部人員（例如同盟與匿名使用者）無法啟動錄製。 來賓使用者無法啟動或停止錄製。
 
@@ -211,7 +211,7 @@ ms.locfileid: "49718627"
 |Amanda | Location1MeetingPolicy | 按|
 |John (外部使用者)  | 不適用 | 不適用|
 
-依 Daniela 組織的會議無法錄製，且 Amanda 已啟用原則設定的使用者，無法錄製由 Daniela 組織的會議。 您可以錄製由 Amanda 組織的會議，但 Daniela，誰已停用原則設定，而誰是外部使用者，就無法錄製由 Amanda 組織的會議。
+Daniela，即使她因為其原則設定為 [關閉] 而無法記錄。 已啟用原則設定的 Amanda，可以記錄會議，即使是由 Daniela 組織的人員。 如果 Amanda 是組織會議，她將能夠錄製會議，不過，Daniela，誰已停用原則設定，而誰是外部使用者，則無法錄製該會議。
 
 若要深入瞭解雲端會議錄製，請參閱 [小組雲端會議錄製](cloud-recording.md)。
 
@@ -329,8 +329,8 @@ ms.locfileid: "49718627"
 
 ### <a name="screen-sharing-mode"></a>螢幕畫面分享模式
 
-> [!Note]
-> 此功能仍在開發中。 螢幕共用是每個參與者的原則。
+> [!NOTE]
+> 此功能仍在開發中。 [螢幕共用] 是一個依參與者的原則，它可能會受到召集人的螢幕共用設定影響，如本節所述。
 
 此設定控制使用者的會議是否允許桌面和/或視窗共用。 沒有任何 (指派任何原則的會議參與者（例如匿名、來賓、B2B 及同盟參與者）) 會繼承會議召集人的原則。
 
@@ -418,7 +418,7 @@ Amanda 無法在會議中共用白板，即使她是會議召集人也一樣。 
 
 ### <a name="allow-shared-notes"></a>允許共用筆記
 
-這是每個使用者的原則。 此設定可控制使用者是否可以在會議中建立和共用筆記。 外部使用者（包括匿名、B2B 及同盟使用者）繼承會議召集人的原則。 目前僅支援超過20名參與者的會議中的 [ **會議記事** ] 索引標籤。
+這是每個使用者的原則。 此設定可控制使用者是否可以在會議中建立和共用筆記。 外部使用者（包括匿名、B2B 及同盟使用者）繼承會議召集人的原則。 最多100個參與者的會議支援 [ **會議記錄** ] 索引標籤。
 
 我們來看看下列範例。
 
@@ -547,20 +547,13 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 |**NoFilters**     |使用者無法自訂其影片背景。|
 |**BlurOnly**     |使用者可以選擇將影片背景模糊。 |
 |**BlurandDefaultBackgrounds**     |使用者可以選擇將影片背景模糊，或從預設的影像集合中選擇，以做為其背景。 |
-|**AllFilters**     |使用選項可讓影片背景變模糊、選擇預設的影像，或上傳自訂圖像來作為其背景。 |
+|**AllFilters**     |使用者可以選擇將影片背景模糊、從預設的一組圖像中選擇，或上傳自訂圖像，以做為其背景。 |
 
-> [!NOTE]
+> [!IMPORTANT]
 > 使用者上傳的影像不會受到小組的篩選。 當您使用 [ **AllFilters** ] 設定時，您應該擁有內部組織原則，以防止使用者上傳冒犯性或不適當的影像，或貴組織沒有許可權可供團隊會議背景使用。
 
-## <a name="meeting-policy-settings---allow-breakout-rooms"></a>會議原則設定-允許專題討論會議室
-
-這是每個使用者的原則。 小組中的 [[專題討論](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d)] 是用來將會議分割成個別、較小的會議會議室。 此設定可控制會議召集人是否有在排程或開始的會議中建立和管理 [專題討論] 會議室的選項。 此原則設定會影響所有會議，包括 [立即開會] 會議。
-
-目前您只能使用 PowerShell 來設定此原則設定。 您可以使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用 [新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
-
-根據預設， **AllowBreakOutRooms** 參數會設定為 **True** ，且獲指派此原則的使用者，可以選擇在他們排程或開始的會議中建立及管理 [專題討論] 會議室。 使用者也可以將參與者指派給會議室，並在會議室之間移動參與者。 請記住，目前只有小組桌面用戶端提供在會議中建立和管理破斷會議室。 若要深入瞭解，請參閱 [在課程會議中建立和管理破斷會議室](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d)。
-
-若要防止使用者建立破斷會議室，請將 **AllowBreakOutRooms** 參數設定為 **False**。 指派了此原則的使用者無法選擇建立或管理 [專題討論] 會議室。
+> [!NOTE]
+> 所有團隊用戶端都無法使用這些功能。 如需詳細資訊，請參閱 [會議和即時事件](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)中的 _影片和背景_ 標題。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 至 Microsoft Phone System。
-ms.openlocfilehash: 0256078cd641c437d067bea9eb63861abcf5868e
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 77757cf76215dbed0b3ec572b5f1f57120551d86
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712321"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923825"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -159,9 +159,9 @@ Microsoft 建議您在 (CSR) 中產生認證簽署要求，以要求 SBC 的憑�
   > [!NOTE]
   > 大多數憑證授權單位 (CAs) 需要私密金鑰大小至少為2048。 產生 CSR 時，請記住這一點。
 
-在 subject 欄位中，憑證必須將 SBC FQDN 作為常見名稱 (CN) 。 證書應該直接由憑證授權單位（而不是從中間提供者）頒發。
+憑證必須將 SBC FQDN 作為常見名稱 (CN) ，或 [subject 備用名稱] ([SAN) ] 欄位。 證書應該直接由憑證授權單位（而不是從中間提供者）頒發。
 
-或者，直接路由支援 SAN 中的萬用字元，而萬用字元必須符合 [TLS 上標準 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)的要求。 \*在 SAN 中將會使用 contoso.com，這會與 SBC FQDN sbc.contoso.com 相符，但不會與 sbc.test.contoso.com 相符。
+或者，直接路由支援 CN 和/或 SAN 中的萬用字元，而萬用字元必須符合 [TLS 上標準 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)的要求。 使用 contoso.com 的範例會 \* 與 SBC FQDN sbc.contoso.com 相符，但不會與 sbc.test.contoso.com 相符。
 
 憑證需要由下列其中一個根憑證授權單位產生：
 

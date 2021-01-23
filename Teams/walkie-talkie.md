@@ -18,30 +18,30 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 605ba58582210c71561cd60442aa66f97be0be0d
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 63cd853b8a068e7acfc5752e3cd94b5d0102bc2f
+ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262500"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49944588"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 團隊中的 Walkie Talkie 應用程式
 
 小組中的 Walkie Talkie 應用程式可為您的小組提供立即推播 (PTT) 溝通，且現已在 Android 上提供。 Walkie Talkie 可讓使用者使用其成員的相同基礎頻道與其團隊進行連線。 只有在頻道中連接至 Walkie Talkie 的使用者才會成為參與者，而且可以使用推入式交談與對方進行通訊。
 
-在團隊中使用 Walkie Talkie，第一線員工工作者現在可以與熟悉的 PTT 體驗安全地溝通，而不需要攜帶容量龐大的無線電，而且 Walkie Talkie 可在任何地方使用 WiFi 或行動電話網際網路連線。
+在團隊中使用 Walkie Talkie，第一線工作者現在可以與熟悉的 PTT 體驗安全地溝通，而不需要攜帶容量龐大的無線電，而且 Walkie Talkie 可在任何地方使用 WiFi 或行動電話網際網路連線。
 
 ## <a name="getting-started"></a>快速入門
 
 ### <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
-目前尚未預先安裝 Walkie Talkie。 若要針對貴組織中的使用者啟用此功能，您必須將 Walkie Talkie 新增 [App Setup Policy](teams-app-setup-policies.md)至   指派給團隊系統[管理中心](https://admin.teams.microsoft.com/)使用者的 App 設定原則。
+目前尚未預先安裝 Walkie Talkie。 若要針對貴組織中的使用者啟用此功能，您必須將 Walkie Talkie 新增 [](teams-app-setup-policies.md)至   指派給團隊系統[管理中心](https://admin.teams.microsoft.com/)使用者的 App 設定原則。
 
 一旦啟用，在48小時內，Android 應用程式就可以使用 Walkie Talkie。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>將 Walkie Talkie 新增至您的應用程式清單
 
-在 Microsoft 團隊系統管理中心的 [**團隊 app**  >  **設定原則**] 底下，您應該將 [**允許使用者釘**選] 設為 [**開啟**]。 接著，在 [固定的 App] 區段底下，按一下 [ **+ 新增 app**]。
+在 Microsoft 團隊系統管理中心的 [**團隊 app**  >  **設定原則**] 底下，您應該將 [**允許使用者釘** 選] 設為 [**開啟**]。 接著，在 [固定的 App] 區段底下，按一下 [ **+ 新增 app**]。
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="顯示 [固定的 app] 區段以及要選取的 [新增應用程式] 按鈕。":::
 
@@ -73,7 +73,7 @@ Walkie Talkie 應用程式現在應該會出現在釘選的 app 清單中，而�
 
 ### <a name="walkie-talkie-devices"></a>Walkie Talkie 裝置
 
-第一線員工工人通常需要朗讀並接收 Walkie Talkie 通話，即使他們的手機已鎖定也一樣。 透過專用的 PTT 按鈕，就可以使用這種體驗。
+第一線工人通常需要朗讀並接收 Walkie Talkie 通話，即使他們的手機已鎖定也一樣。 透過專用的 PTT 按鈕，就可以使用這種體驗。
 
 - 耳機
   - 有線耳機 ([Klein 電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)) 
@@ -96,7 +96,7 @@ Walkie Talkie 應用程式包含在 [Office 365 訂閱](https://docs.microsoft.c
 ## <a name="further-information"></a>進一步資訊
 
 - ITAdmins 可以透過應用程式原則維持對誰使用 Walkie Talkie 的控制權。
-- 如果您的第一線員工工作者使用行動資料來透過團隊進行通訊，Walkie Talkie 會使用相同的方法。
+- 如果您的第一線工作者使用行動資料來透過團隊進行通訊，Walkie Talkie 會使用相同的方法。
 - 在低頻寬情況下，Walkie Talkie 應該能正常運作，或讓您的智慧型手機連線並正常運作的情況。 如果根本沒有連線，Walkie Talkie 將無法運作。
 
 如需有關最終使用者體驗的進一步閱讀，請參閱：

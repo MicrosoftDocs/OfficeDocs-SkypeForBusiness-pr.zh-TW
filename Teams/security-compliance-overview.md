@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a9ee7d3d4cd7d877925b649bb3f3b6a8da72ddf0
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662498"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937435"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -101,19 +101,23 @@ Microsoft 365 中的通訊合規性可讓您將使用者新增至範圍內原則
 
 Microsoft 團隊中的保留原則可讓您保留貴組織所重要的資料，以符合法規、法律、商業或其他原因，以及移除與保留不相關的內容與通訊。 您也可以使用保留原則，將資料保留一段時間，然後將其刪除。 如需進一步資訊，請參閱 [Microsoft 團隊文章中的保留原則](retention-policies.md) 。
 
+## <a name="sensitivity-labels"></a>敏感度標籤
+
+套用 [敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ，以保護並控制在團隊內共同作業期間建立的機密組織內容的存取權。 例如，套用設定隱私權 (公開或私人) 團隊、控制來賓存取權和外部共用，以及管理非託管裝置的存取權的標籤。 如需進一步資訊，請參閱 [Microsoft 團隊文章中的敏感度標籤](sensitivity-labels.md) 。
+
 ### <a name="data-loss-prevention-dlp"></a> (DLP) 的資料遺失防護
 
 Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 365 或 Office 365 的較大 DLP 故事，在保護機密檔和資料時，也會涉及業務就緒性。 無論您是否擔心郵件或檔中的機密資訊，DLP 原則都可以協助確保您的使用者不會與錯誤的人員共用此機密資料。
 
 如需有關團隊資料遺失防範功能的詳細資訊，請參閱 [Microsoft 團隊的 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)。 關於 O365 DLP 問題的好文章，就是 [資料遺失防護的概況](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
 
-### <a name="ediscovery"></a>eDiscovery
+### <a name="ediscovery"></a>電子文件探索
 
 電子查詢（或 eDiscovery）是識別、收集及出具以電子方式儲存資訊 () ESI 的電子資料，以回應法律訴訟或調查中的生產要求。 功能包括案例管理、保留、搜尋、分析，以及匯出團隊資料。 這包括聊天、訊息與檔案、會議和通話摘要。 針對團隊會議和通話，在會議和通話中所發生事件的摘要會在 eDiscovery 中建立並提供。
 
 如需有關如何在安全性中心與合規性中心中執行 Microsoft 365 或 Office 365 eDiscovery 的詳細資料，以及執行小組內容的規範內容搜尋，請參閱下列連結：
 
-[eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
+[電子文件探索](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
 [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
 
@@ -121,7 +125,7 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 客戶可以根據電子檔的需求來利用 eDiscovery 或 [高級 ediscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) 。 下表說明兩個專案之間的差異：
 
-| |eDiscovery  |高級 eDiscovery  |
+| |電子文件探索  |高級 eDiscovery  |
 |---------|---------|---------|
 |案例管理     |X        |X         |
 |存取控制  |X         |X         |
