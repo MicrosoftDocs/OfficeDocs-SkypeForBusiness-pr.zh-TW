@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 在商務用 Skype Server 2019 中使用雲端自動語音應答的概覽
-ms.openlocfilehash: f6a1b8959bb5411909f8627c5d02a6cdc1935b20
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 50cd9bb8b20e44d750dab68ec6fecb30bd02e203
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359079"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918689"
 ---
 # <a name="plan-cloud-auto-attendants"></a>規劃雲端自動語音應答
 
@@ -82,7 +82,7 @@ Microsoft 建議下列遷移路徑：
 
 目前，我們不支援在 Exchange 2013 或2016中建立的 UM 自動語音應答系統上自動遷移至雲端。 若要手動重新建立自動語音應答系統，您必須：
 
-1. 使用 Exchange 系統管理 powershell 命令來檢查舊自動語音應答系統的結構，包括任何嵌套的自動語音應答及通話佇列。  
+1. 使用 Exchange admin PowerShell 命令，檢查舊自動語音應答系統的結構，包括任何嵌套的自動語音應答及通話佇列。  
 2. 建立與每個 UM 自動語音應答節點相關聯的文字到語音腳本或錄製的訊息複本。
 3. 針對每個自動語音應答節點建立內部部署端點，包括將測試電話號碼和授權指派給物件。 請注意，您現在可以指派線上服務（如電話系統）所使用的內部部署電話號碼授權。
 4. 使用 Microsoft 小組和電話系統來執行新的雲端自動語音應答服務。 請參閱 [設定資源帳戶](configure-onprem-ra.md) 以取得執行詳細資料。 當您這麼做時，請上傳文字到語音的腳本或與每個 UM 自動語音應答節點相關聯的錄製郵件。
@@ -90,10 +90,6 @@ Microsoft 建議下列遷移路徑：
 6. 將指派給舊 Exchange UM 自動語音應答的電話號碼重新指派給新建立的主雲端自動語音應答。
 
 如需這些步驟的詳細資訊，請參閱將 [EXCHANGE UM 自動語音應答或通話佇列移至電話系統](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) 。
-
-## <a name="additional-planning-resources"></a>其他規劃資源
-
-名為 Small business 的教學課程 [範例-設定自動](/microsoftteams/tutorial-org-aa) 語音應答會透過收集使用者需求相關資訊的程式，規劃自動語音應答和使用者的結構， (及可能通話佇列) 、撰寫功能表提示，以及在小組系統管理中心中實施方案。 請參閱教學課程，並使用練習以建立您的計畫。
 
 當您具有符合您需求的實體結構，以及可有效指導客戶有效的腳本時，請繼續 [設定資源帳戶](configure-onprem-ra.md)。
 

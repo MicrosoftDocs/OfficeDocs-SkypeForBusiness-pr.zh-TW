@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 為商務用 Skype Server 2019 設定資源帳戶。
-ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 1d8294eb717982b5ac68df06a5370059e83a62c5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868682"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919009"
 ---
 # <a name="configure-resource-accounts"></a>設定資源帳戶
 
@@ -58,7 +58,7 @@ ms.locfileid: "46868682"
 
 1. 埠或取得收費或免付費服務號碼。 無法將號碼指派給任何其他語音服務或資源帳戶。
 
-   在您將電話號碼指派給資源帳戶之前，您必須先取得或接收您現有收費或免付費服務號碼的埠。 當您取得收費或免付費服務電話號碼後，他們會顯示在**Microsoft 小組系統管理中心**的  >  **語音**  >  **電話號碼**中，而且所列的**號碼類型**會列為「**服務-免付費**」。 若要取得服務號碼，請參閱 [取得服務電話號碼](/MicrosoftTeams/getting-service-phone-numbers) ，如果您想要轉接現有的服務號碼，請參閱 [將電話號碼轉移給小組](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
+   在您將電話號碼指派給資源帳戶之前，您必須先取得或接收您現有收費或免付費服務號碼的埠。 當您取得收費或免付費服務電話號碼後，他們會顯示在 **Microsoft 小組系統管理中心** 的  >  **語音**  >  **電話號碼** 中，而且所列的 **號碼類型** 會列為「**服務-免付費**」。 若要取得服務號碼，請參閱 [取得服務電話號碼](/MicrosoftTeams/getting-service-phone-numbers) ，如果您想要轉接現有的服務號碼，請參閱 [將電話號碼轉移給小組](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
 
    如果您是在美國境外，您就無法使用 Microsoft 團隊系統管理中心取得服務號碼。 請移至 [ [管理組織的電話號碼](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) ]，以瞭解如何從美國以外的國家/地區執行。
 
@@ -119,8 +119,6 @@ ms.locfileid: "46868682"
 
 8. 將資源帳戶與您先前所選擇的電話系統自動語音應答或通話佇列相關聯。
 
-小型企業可使用小型企業的範例範例  [-設定自動](/microsoftteams/tutorial-org-aa) 語音應答和 [小型企業範例-設定通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)。
-
 ## <a name="create-a-resource-account-without-a-phone-number"></a>建立沒有電話號碼的資源帳戶
 
 本節討論如何建立駐留在內部部署的資源帳戶。 若要在 [Microsoft 小組的 [管理資源帳戶] 中](/MicrosoftTeams/manage-resource-accounts)討論如何建立以線上處理的資源帳戶。
@@ -149,8 +147,6 @@ ms.locfileid: "46868682"
    - [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [建立雲端通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. 關聯先前所選的資源帳戶和電話系統自動語音應答或通話佇列。
-
-小型企業可使用小型企業的範例範例  [-設定自動](/microsoftteams/tutorial-org-aa) 語音應答和 [小型企業範例-設定通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)。
 
 ## <a name="test-the-implementation"></a>測試實施
 
@@ -187,8 +183,8 @@ ms.locfileid: "46868682"
 
 4. 如先前所述，設定電話系統自動語音應答或使用端點的通話佇列。
 
-   您可能會發現使用「 [小型企業」範例](/microsoftteams/tutorial-org-aa) 中的練習，設定自動語音應答來建立舊 Exchange UM 系統中階層的邏輯對應。
 5. 測試電話系統自動語音應答或通話佇列。
+
 6. 將連結至 Exchange UM 通話佇列或自動語音應答的電話號碼重新指派至對應的電話系統自動語音應答或通話佇列。  
 
    此時，如果您已遷移 UM 語音信箱，您應該位於遷移至 Exchange Server 2019 的位置。
