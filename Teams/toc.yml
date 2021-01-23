@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: 管理團隊和頻道原則
       href: teams-policies.md
-    - name: 適用於 Teams 的敏感度標籤
-      href: sensitivity-labels.md
     - name: 在 Teams 中設定頻道仲裁
       href: manage-channel-moderation-in-teams.md
     - name: 在 Teams 中共用檔案
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: 通話和會議的原則式錄製
           href: teams-recording-policy.md
+        - name: 敏感度標籤
+          href: sensitivity-labels.md
         - name: 資料外洩防護
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: 電子文件探索
