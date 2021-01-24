@@ -12,14 +12,14 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: 取得現有的 SharePoint Online 網站或頁面，並建立獨立的靜態索引標籤，以作為組織的內部網路入口網站。
+description: 取得現有的 SharePoint Online 網站或頁面，並建立獨立的個人索引標籤，以作為組織的內部網路入口網站。
 localization_priority: Priority
-ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923805"
+ms.locfileid: "49937505"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」
 
@@ -37,15 +37,26 @@ ms.locfileid: "49923805"
 開始之前：
 
 1. 您必須知道 SharePoint Online 新式通訊或 Teams 網站或頁面的 URL。
-    - 這些網站的路徑中一律會有 */teams/* 或 */sites/*。
+
+   這些網站的路徑中一律會有 */teams/* 或 */sites/*。
 
 2. 您必須知道租用戶的子網域，以便用於預留位置 **{{subdomain}}**。
 
 3. 本文會使用 **{{siteUrl}}** 作為預留位置來指出您所選網站或頁面的 *URL*。
-    - 範例 *URL*：`https://contoso.sharepoint.com/teams/Contoso`
-        *或*`https://contoso.sharepoint.com/sites/Contoso`
-4. 此外，會使用 **{{sitePath}}** 來表示 URL 的 *「路徑」* (例如：/teams/Contoso)。
-    - 範例 *「路徑」*：/teams/Contoso *或*/sites/Contoso
+
+   範例 *URL*：
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*或*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+        
+4. 此外，會使用 **{{sitePath}}** 來表示 URL 的 *path* (例如：/teams/Contoso)。
+
+   範例 *paths*：
+   
+   - /teams/Contoso
+     <br/>*或*
+   - /sites/Contoso
 
 請遵循下列步驟來開始：
 
@@ -69,10 +80,13 @@ ms.locfileid: "49923805"
 
 10. 填寫 **contentURL 和網站 URL**。
 
-- **contentUrl**：{{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**：{{siteUrl}}
+    - **contentUrl**：{{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+    
+    - **websiteUrl**：{{siteUrl}}
 
-    範例 **contentURL**：`https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+      範例 **contentURL**：
+      
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. 瀏覽至 **[網域和權限]**。 請確定有效的網域區段包含了您的 SharePoint Online 網域名稱。
 
@@ -80,20 +94,24 @@ ms.locfileid: "49923805"
 
 12. 新增下列 Web應用程式 **單一登入** 屬性：
 
-     範例：**AAD 應用程式識別碼**：00000003-0000-0ff1-ce00-000000000000  **Resource Url**：{{subdomain}}.sharepoint.com
+    範例：
+    
+    - **AAD 應用程式識別碼**：00000003-0000-0ff1-ce00-000000000000
+    
+    - **資源 URL**：{{subdomain}}.sharepoint.com
 
-    ![含有識別碼和 URL 的 Web 應用程式單一登入。](media/personal-app.png)
+      ![含有識別碼和 URL 的 Web 應用程式單一登入。](media/personal-app.png)
 
 13. **儲存** 這些屬性，然後瀏覽至 **[儲存及散發]**。
 
 14. 安裝應用程式以親自測試應用程式。
 
-> [!IMPORTANT]
-> 如果您使用的不是 Teams App Studio，則必須先將剛才建立的 manifest.JSON 檔案壓縮成 Zip 檔、瀏覽至 Teams 中的 App Store，然後按一下 **[上傳自訂應用程式]** 連結 (位於 App Store 右下角)。 這會讓您可以使用應用程式。
+    > [!IMPORTANT]
+    > 如果您使用的不是 Teams App Studio，則必須先將剛才建立的 manifest.JSON 檔案壓縮成 Zip 檔、瀏覽至 Teams 中的 App Store，然後按一下 **[上傳自訂應用程式]** 連結 (位於 App Store 右下角)。 這會讓您可以使用應用程式。
 
-15. 現在，應用程式便能以靜態索引標籤的形式供您在 Teams 中載入和檢視。
+15. 現在，應用程式便能以個人索引標籤的形式供您在 Teams 中載入和檢視。
 
-## <a name="test-and-view-your-new-static-tab"></a>測試和檢視新的靜態索引標籤
+## <a name="test-and-view-your-new-personal-tab"></a>測試和檢視您的新個人索引標籤
 
 若要檢視 Teams 桌面上的新索引標籤，請瀏覽至應用程式列左側的省略號 (**...**)。 尋找您的新應用程式、加以載入，然後在 Teams 中測試您的獨立應用程式。
 
@@ -105,7 +123,7 @@ ms.locfileid: "49923805"
 
 您所產生的 JSON 檔案會如下所示。
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
