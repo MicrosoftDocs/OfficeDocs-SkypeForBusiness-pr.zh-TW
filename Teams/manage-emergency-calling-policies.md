@@ -20,12 +20,12 @@ description: 瞭解如何在 Microsoft 團隊中使用和管理緊急通話原�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 1e516252317a0e5f14e705b674255048fb3defb5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e58f428fbaa25b03534ce9f168ecf347b183eda3
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804683"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973137"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話原則
 
@@ -46,9 +46,9 @@ ms.locfileid: "49804683"
 3. 輸入原則的名稱和描述。
 4. 在進行緊急通話時，設定您想要如何通知組織中的人員（通常是安全服務台）。 若要執行此動作，請在 [ **通知模式]** 底下，選取下列其中一項：
     - **僅傳送通知**： [小組聊天] 訊息會傳送給您指定的使用者和群組。
-    - **Conferenced in 但已靜音**： [團隊聊天] 訊息會傳送給您指定的使用者和群組，而且他們可以偵聽 (但無法參與呼叫者與 PSAP 運算子之間交談中的) 。
-    - **在 Conferenced 中，** 我們即將 **) 推出已取消靜音 (**： [團隊聊天] 訊息會傳送給您指定的使用者和群組，而且他們可以取消靜音來偵聽來電者與 PSAP 運算子之間的交談。
-5.  如果您 **已在 [Conferenced] 中** 選取 [靜音通知] 模式，請在 [ **撥打緊急電話通知的號碼** ] 方塊中，輸入使用者或群組的 PSTN 電話號碼來撥打電話並加入緊急通話。 例如，輸入貴組織的 security 辦公桌編號，該號碼會在發出緊急通話時接聽來電，然後可以接聽通話。
+    - **Conferenced 為靜音且無法取消靜音**： [小組聊天] 訊息會傳送給您指定的使用者和群組，而且他們可以偵聽 (但無法參與呼叫者與 PSAP 運算子之間交談中的) 。
+    - **Conferenced** 為 [已靜音]，但可以取消靜音： [團隊聊天] 訊息會傳送給您指定的使用者和群組，而且可以取消靜音來偵聽來電者與 PSAP 運算子之間的交談。
+5.  如果您 **在靜音** 通知模式中選取了其中一個會議，請在 [ **撥打緊急電話通知的號碼** ] 方塊中，輸入使用者或群組的 PSTN 電話號碼來撥打電話並加入緊急通話。 例如，輸入貴組織的 security 辦公桌編號，該號碼會在發出緊急通話時接聽來電，然後可以接聽通話。 即使將模式設定為靜音中的 [Conferenced]， **但卻可以取消靜音**，否則 PSTN 手機無法進行已取消靜音。
 6. 搜尋並選取一或多個使用者或群組（例如貴組織的安全服務台），以在進行緊急通話時通知您。  通知可以傳送到使用者、通訊群組和安全性群組的電子郵件地址。 最多可以通知50使用者。
 7. 按一下 **[** 套用]。
 

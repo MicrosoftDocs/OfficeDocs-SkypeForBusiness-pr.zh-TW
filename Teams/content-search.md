@@ -14,32 +14,32 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 瞭解如何在 Microsoft 團隊中使用內容搜尋來查詢 Microsoft 團隊資訊，例如 Exchange、SharePoint Online、商務用 OneDrive 和 OneNote。
+description: 瞭解如何使用 Microsoft 365 合規性中心中的內容搜尋來搜尋儲存在 Exchange Online、SharePoint Online、商務用 OneDrive 和 OneNote 中的 Microsoft 團隊內容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: f91e630b6f0666def3e64e40e68a6a3f18097152
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121523"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980437"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft 團隊中使用內容搜尋
 =====================================
 
 > [!NOTE]
-> 在[私人通道](private-channels.md)中，郵件和檔案的內容搜尋與在標準通道中的運作方式不同。 若要深入瞭解，請參閱[私人頻道的內容搜尋](#content-search-of-private-channels)。
+> 在 [私人通道](private-channels.md) 中，郵件和檔案的內容搜尋與在標準通道中的運作方式不同。 若要深入瞭解，請參閱 [私人頻道的內容搜尋](#content-search-of-private-channels)。
 
 [內容搜尋] 提供一種方式，可查詢 Microsoft 團隊資訊跨越 Exchange、SharePoint Online 和商務用 OneDrive。
 
-若要深入瞭解，請參閱[Microsoft 365 或 Office 365 中的內容搜尋](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+若要深入瞭解，請參閱 [Microsoft 365 中的內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/content-search)。
 
-例如，針對您的製造規格信箱和製造規格 SharePoint 網站使用**內容搜尋**，您可以從 Exchange、檔案上傳和 SharePoint Online 的修改，以及 OneNote 變更，在小組標準頻道交談中搜尋。
+例如，針對您的製造規格信箱和製造規格 SharePoint 網站使用 **內容搜尋** ，您可以從 Exchange、檔案上傳和 SharePoint Online 的修改，以及 OneNote 變更，在小組標準頻道交談中搜尋。
 
-您也可以將查詢準則新增至**內容搜尋**，以縮小傳回的結果範圍。 在上述範例中，您可以尋找已使用 [**新的工廠規格]** 關鍵字的內容。
+您也可以將查詢準則新增至 **內容搜尋** ，以縮小傳回的結果範圍。 在上述範例中，您可以尋找已使用 [**新的工廠規格]** 關鍵字的內容。
 
 > [!TIP]
-> 新增搜尋條件之後，您可以將報表或資料匯出到您的電腦以進行分析。
+> 新增搜尋條件之後，您可以將報表或實際內容匯出到您的電腦以進行分析。
 
 ## <a name="content-search-of-private-channels"></a>私人頻道的內容搜尋
 
@@ -47,13 +47,13 @@ ms.locfileid: "45121523"
 
 因為每個私人通道都有自己的 SharePoint 網站集合與父小組網站分開，所以專用通道中的檔案會獨立于父團隊進行管理。
 
-小組不支援在單一頻道中搜尋內容，所以必須搜尋整個小組。 若要執行私人頻道的內容搜尋，請在整個小組中搜尋、與私人頻道相關聯的網站集合（包括檔案），以及私人頻道成員的信箱（以包含郵件）。
+小組不支援在單一頻道中搜尋內容，所以必須搜尋整個小組。 若要執行私人頻道的內容搜尋，請在整個小組中搜尋，與專用通道相關聯的網站集合 (，以包含) 的檔案，以及私人頻道成員的信箱 (，以包含) 的郵件。
 
 使用下列步驟來識別私人頻道中要包含在內容搜尋中的檔案和訊息。
 
 ### <a name="include-private-channel-files-in-a-content-search"></a>在內容搜尋中包含私人通道檔案
 
-在執行這些步驟之前，請先安裝[Sharepoint Online 管理命令介面並聯機至 SharePoint online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
+在執行這些步驟之前，請先安裝 [Sharepoint Online 管理命令介面並聯機至 SharePoint online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
 
 1. 執行下列動作，以取得與團隊中的私人頻道相關聯的所有 SharePoint 網站集合的清單。
 
@@ -76,7 +76,7 @@ ms.locfileid: "45121523"
 
 ### <a name="include-private-channel-messages-in-a-content-search"></a>在內容搜尋中包含私人通道訊息
 
-在執行這些步驟之前，請確定您已安裝[最新版本的團隊 PowerShell 模組](teams-powershell-overview.md)。
+在執行這些步驟之前，請確定您已安裝 [最新版本的團隊 PowerShell 模組](teams-powershell-overview.md) 。
 
 1. 執行下列動作，取得小組中的私人頻道清單。
 

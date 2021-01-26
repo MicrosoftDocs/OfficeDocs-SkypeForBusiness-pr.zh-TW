@@ -17,12 +17,12 @@ description: 瞭解當您需要執行 eDiscovery 時要採取的動作，例如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 25729dea68d2d8ea75fae894387316dfbcd1975a
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: aa6b1212fda3983cc612885e41aa1131bb6f496d
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661908"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980457"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 
@@ -34,25 +34,27 @@ ms.locfileid: "49661908"
 
 電子檔探索 [私人通道](private-channels.md) 中的訊息和檔案，與在標準通道中的運作方式不同。 若要深入瞭解，請參閱電子檔探索（ [私人頻道](#ediscovery-of-private-channels)）。
 
-並非所有團隊內容都是 eDiscoverable。 下表顯示可透過 eDiscovery 找到的內容類型。
+並非所有團隊內容都是 eDiscoverable。 下表顯示您可以使用 Microsoft eDiscovery 工具搜尋的內容類型：
 
 | 內容類型 | eDiscoverable | 注釋 |
-|:--- | --- |:--- |
-| 小組聊天訊息 | 是 |  |
-| 私人通道訊息 | 是 | |
-| 頻道名稱 | 否 | |
-| 會議 IM 交談 | 是 | |
-| 會議中繼資料<sup>1</sup> | 是 |  |
-| 已編輯的郵件 | 是 | 如果使用者已保留，則會保留先前版本的已編輯郵件。 |
-| Emoji、Gif、不乾膠標籤 | 是 | |
-| 程式碼片段 | 否 | |
-| 聊天連結 | 是 | |
-|  (贊、紅心大戰等) 的反應 | 否 | |
-| 內嵌圖像 | 是 | |
-| 該表 | 是 | |
-| 主題 | 是 | |
-| 引述 | 是 | 已報價的內容可供搜尋。 不過，搜尋結果不會指出內容已加上引號。 |
-| 音訊錄製 | 否 | |
+|:--- | :--- |:--- |
+|音訊錄製 | 否 | |
+|卡片內容|是|如需詳細資訊，請參閱 [搜尋卡片內容](#search-for-card-content) 。|
+|聊天連結 | 是 | |
+|聊天訊息 | 是 |這包括團隊頻道中的內容、1:1 聊天、1： N 群組聊天，以及與來賓使用者參與者聊天。  |
+|程式碼片段 | 否 | |
+|已編輯的郵件 | 是 | 如果使用者已保留，則會保留先前版本的已編輯郵件。 |
+|Emoji、Gif 及貼紙 | 是 | |
+|內嵌圖像 | 是 | |
+|會議 IM 交談 | 是 | |
+|會議中繼資料<sup>1</sup> | 是 |  |
+|頻道名稱 | 否 | |
+|私人通道訊息 | 是 | |
+|引述 | 是 | 已報價的內容可供搜尋。 不過，搜尋結果不會指出內容已加上引號。 |
+|反應 (例如贊、心形及其他反應)  | 否 | |
+|主題 | 是 | |
+|該表 | 是 | |
+|||
 
 <sup>1</sup> 會議 (並呼叫) 中繼資料包括下列各項：
 
@@ -63,10 +65,10 @@ ms.locfileid: "49661908"
 - 聯盟使用者加入
 - 來賓使用者加入
 
-影像會顯示中繼資料的範例。
+  影像顯示會議中繼資料的範例。
 
-> [!div class="mx-imgBorder"]
-> ![Image 是 CVR 記錄會議中繼資料。](media/conversationOption3.png)
+  > [!div class="mx-imgBorder"]
+  > ![Image 是 CVR 記錄會議中繼資料。](media/conversationOption3.png)
 
 以下是會議期間參與者之間的 IM 交談範例。
 
@@ -77,7 +79,7 @@ ms.locfileid: "49661908"
 
 如需有關進行 eDiscovery 調查的詳細資訊，請參閱 [核心 EDiscovery 快速](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)入門。
 
-Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交談。 您可以 `.pst` 在 Outlook 中開啟檔案，以在匯出後查看這些郵件。
+Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交談。 您可以在 [Outlook] 中開啟檔案， `.pst` 以便在您匯出郵件後加以查看。
 
 針對小組查看 .pst 檔案時，所有交談都會保留在 [交談歷程記錄] 底下的 [小組聊天] 資料夾中。 郵件標題包含團隊名稱和頻道名稱。 例如，下圖顯示的是來自王俊元的訊息，其中 messaged 製造規範小組的專案7標準頻道。
 
@@ -188,6 +190,27 @@ Microsoft 團隊資料將在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
    - 在 **查詢** 欄位旁邊，按一下 [ **編輯** ] 以編輯，然後重新執行搜尋。 例如，您可以新增搜尋查詢來縮小結果範圍。
 
    - 按一下 [ **匯出結果** ]，匯出並下載搜尋結果。
+
+## <a name="search-for-card-content"></a>搜尋卡片內容
+
+在團隊頻道、1:1 聊天及1xN 聊天中，由應用程式所產生的卡片內容會儲存在信箱中，而且可以搜尋。 *卡片* 是簡短內容片段的 UI 容器。 卡片可以有多個屬性和附件，而且可以包含可觸發卡片動作的按鈕。 如需詳細資訊，請參閱 [卡片](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+
+與其他團隊內容一樣，儲存卡片內容的位置是以信用卡使用的位置為基礎。 在團隊頻道中使用的卡片內容會儲存在 [團隊] 群組信箱中。 1:1 和1xN 聊天的卡片內容會儲存在聊天參與者的信箱中。
+
+若要搜尋卡片內容，您可以使用 `kind:microsoftteams` 或 `itemclass:IPM.SkypeTeams.Message` 搜尋條件。 當您查看搜尋結果時，由 bot 在團隊頻道中產生的卡片內容是 **寄件者/作者** 電子郵件屬性 `<appname>@teams.microsoft.com` ，其中 `appname` 是產生卡片內容的 app 名稱。 如果使用者已產生卡片內容，則 **寄件者/作者** 的值會識別使用者。
+
+在內容搜尋結果中查看卡片內容時，內容會以附件的形式顯示在郵件中。 附件已命名 `appname.html` ，其中 `appname` 是產生卡片內容之應用程式的名稱。 下列螢幕擷取畫面顯示名為 Asana 之 app 的卡片內容 () 會出現在 [團隊] 和 [搜尋] 的結果中。
+
+**小組中的卡片內容**
+
+![小組頻道訊息中的卡片內容](media/CardContentTeams.png)
+
+**搜尋結果中的卡片內容**
+  
+![內容搜尋結果中的相同卡片內容](media/CardContentEdiscoverySearchResults.png)
+
+> [!NOTE]
+> 若要在搜尋結果中顯示卡片內容的影像， (例如先前螢幕擷取畫面中的核取記號) ，您必須登入團隊 (在 https://teams.microsoft.com) 您用來查看搜尋結果的同一個瀏覽器會話中的另一個索引標籤上。 否則，就會顯示圖像預留位置。
 
 ## <a name="advanced-ediscovery"></a>高級 eDiscovery
 

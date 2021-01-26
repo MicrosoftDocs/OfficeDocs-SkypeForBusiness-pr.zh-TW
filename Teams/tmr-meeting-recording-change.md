@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51046148620c804dfadb4296d718a1759b618b44
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
+ms.openlocfilehash: a3b7a3917f47bd07bd5d66ce5fdb524b91b0299e
+ms.sourcegitcommit: d5732f043b7b5aa9b889aae185a7bc7e6ffad409
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903554"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49979750"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>在會議錄製中使用商務用 OneDrive 和 SharePoint 或串流
 
@@ -134,13 +134,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **會議錄製將儲存在哪裡？**
 
-- 對於非頻道會議，錄製會儲存在屬於開始會議錄製之人員之商務用 OneDrive 的最上層的資料夾中。 範例
+- 對於非頻道會議，錄製會儲存在屬於開始會議錄製之人員之商務用 OneDrive 的最上層的資料夾中。 範例：
 
   <i>錄影機的商務</i> / 用 OneDrive **錄製**
 
-- 對於頻道會議，錄製會儲存在名為 [ **錄製**] 資料夾的 [小組網站] 文件庫中。 範例
+- 對於頻道會議，錄製會儲存在名為 [ **錄製**] 資料夾的 [小組網站] 文件庫中。 範例：
 
   <i>團隊名稱-頻道名稱</i> /**檔** /**錄製**
+
+**當) 儲存在 SharePoint/OneDrive 中的資料流程檔案 (（例如錄製）時，它會如何決定要移至哪裡？系統管理員能夠變更其所處的位置嗎？**
+
+根據預設，所有錄製檔案都會移至選取 [ **記錄**] 的使用者的 OneDrive 帳戶。 對於頻道會議，錄製將會一直移至頻道的 SharePoint 網站。 系統管理員無法變更錄製的儲存位置。
 
 **我要如何處理來自離職員工的錄製？**
 

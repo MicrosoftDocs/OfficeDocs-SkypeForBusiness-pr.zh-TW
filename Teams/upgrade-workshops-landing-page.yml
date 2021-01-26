@@ -24,30 +24,22 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
+  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583280"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "49973157"
 productDirectory:
   items:
   - title: 規劃您的升級 (從這裡開始！)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: '探索要協助您成功升級至 Teams，您所需的一切。 物件-所有 (的企業贊助商、IT 系統管理員、使用者就緒/變更管理員、專案領導) '
+    summary: '不論您是要升級至商務用 Skype Online (2021 年7月31日、) 或將案例從商務用 Skype 內部部署環境移至團隊，成功的轉換都會解決技術與使用者的準備情況。 探索我們經驗證的架構、最佳做法及資源，旨在協助您從商務用 Skype Online、商務用 Skype 伺服器或混合式環境順利轉至團隊。 物件-所有 (的企業贊助商、IT 系統管理員、使用者就緒/變更管理員、專案領導) '
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: 讓您的使用者做好準備
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 設計使用者整備狀況戰略，協助您的使用者喜愛並採用 Teams。 物件-使用者準備就緒/變更管理員
-    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
-  - title: 識別您的升級方法
+  - title: 實施團隊升級
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: 根據您目前的商務用 Skype 實作和升級目標，判斷最適合的方法。 物件-IT 系統管理員
-    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
-  - title: 實作您的升級方法
-    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-    summary: 隨著您的正式升級方案執行您定義的升級方法。 物件-IT 系統管理員
-    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+    summary: 您可以根據您的目標和您目前的商務用 Skype 環境，讓我們找出並準備執行最佳技術做法，以將所有工作負載移至團隊。 已完成成功轉換的大多數客戶，都能讓團隊與目前的商務用 Skype Online、商務用 Skype 伺服器或混合式實現功能。 這個會話將分享重要考慮與重要資源，協助您為貴組織定義最佳的遷移策略。 物件-IT 系統管理員
+    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:

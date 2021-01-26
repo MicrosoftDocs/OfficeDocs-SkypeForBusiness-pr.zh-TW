@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ee7d3d4cd7d877925b649bb3f3b6a8da72ddf0
-ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
+ms.openlocfilehash: cfbf0ededcb1a5f3037bfb896242902daaa2a79b
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937435"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973077"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -37,7 +37,7 @@ ms.locfileid: "49937435"
 >  - 更新2020年4月2日： [團隊安全性指南](teams-security-guide.md)
 
 
-Microsoft 團隊是以 Microsoft 365 和 Office 365 超規模、企業級雲端為基礎，提供客戶預期的高級安全性與合規性功能。 如需在 Microsoft 365 或 Office 365 中規劃安全性的詳細資訊，您可以開始 [使用安全性藍圖](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) 。 如需在 Microsoft 365 或 Office 365 中規劃合規性的詳細資訊，您可以從 [安全性與合規性](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) 文章的方案開始。
+Microsoft 團隊是以 Microsoft 365 和 Office 365 超規模、企業級雲端為基礎，提供客戶預期的高級安全性與合規性功能。 如需在 Microsoft 365 或 Office 365 中規劃安全性的詳細資訊，您可以開始 [使用安全性藍圖](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) 。 如需在 Microsoft 365 或 Office 365 中規劃合規性的詳細資訊，您可以開始使用 [安全性 & 合規性方案](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)。
 
 
 本文將提供更多關於小組特定安全性與合規性的資訊。 不要錯過這些關於安全性與合規性的 Microsoft 規範影片：
@@ -63,7 +63,7 @@ Microsoft 團隊是以 Microsoft 365 和 Office 365 超規模、企業級雲端�
 
 Microsoft 團隊提供高級威脅防護 (ATP) ，以及 SharePoint 和 OneDrive 等與團隊進行內容管理的應用程式。 ATP 可讓您判斷這些應用程式中的內容是否具有惡意性質，並封鎖來自使用者存取的內容。
 
-在檢測到您在 Microsoft 365 或 Office 365 中所選取的設定之後，受影響內容的管理方式。 我們強烈建議您在設定 ATP 時考慮所有應用程式，並進一步閱讀 [SharePoint、OneDrive 和 Microsoft 團隊](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 文章的相關詳細資訊，以取得如何開始使用的相關資訊。
+在檢測到您在 Microsoft 365 或 Office 365 中所選取的設定之後，受影響內容的管理方式。 我們強烈建議您在設定 ATP 時考慮所有應用程式，並進一步閱讀 [ [SharePoint、OneDrive 和 Microsoft 團隊的 atp](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) ]，以取得如何開始使用的詳細資訊。
 
 ### <a name="safe-links"></a>安全連結
 
@@ -71,13 +71,23 @@ Microsoft 團隊提供高級威脅防護 (ATP) ，以及 SharePoint 和 OneDrive
 
 ### <a name="safe-attachments"></a>安全附件
 
-[安全附件] 是專門用來加強使用者安全性的功能，方法是檢查及偵測惡意附件。 全域或安全性系統管理員會建立處理這些可疑的惡意附件的 [原則](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) ，避免它們被傳送給使用者、按一下，以及採取的動作。 SharePoint、OneDrive 和 Microsoft 團隊都提供安全的附件保護功能，而且 Microsoft 365 或 Office 365 [高級威脅防護方案1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 都有這項功能。 瞭解更多關於安全附件的資訊，以及他們如何協助保護[貴組織。](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+[安全附件] 是專門用來加強使用者安全性的功能，方法是檢查及偵測惡意附件。 全域或安全性系統管理員會建立處理這些可疑的惡意附件的 [原則](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) ，避免它們被傳送給使用者、按一下，以及採取的動作。 SharePoint、OneDrive 和 Microsoft 團隊都提供安全的附件保護功能，而且 Microsoft 365 或 Office 365 [高級威脅防護方案1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 都有這項功能。 閱讀更多關於安全附件的資訊，以及如何協助保護貴組織在 [Microsoft Defender For Office 365 的安全附件中](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)。
+
+### <a name="secure-score"></a>安全分數
+
+Microsoft Secure 計分是組織的安全性狀況測量，較高的數位表示所採取的改進動作。 它可以在 [Microsoft 365 安全中心](https://security.microsoft.com/securescore)中找到。 遵循安全得分建議可保護貴組織免遭威脅。 從 Microsoft 365 安全中心的中央儀表板，組織可以監視並使用其 Microsoft 365 身分識別、應用程式及裝置的安全性。 Microsoft 團隊現在已提供安全分數的建議，且鼓勵管理員在平臺上監視其安全性建議。
+
+安全分數可協助組織：
+- 報告組織安全狀況的目前狀態。
+- 提供可探索性、可視性、指導方針及控制能力，以改善其安全性的狀況。
+- 與準則比較，並建立主要效能指標 (Kpi) 。
+
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>條件式存取原則對於團隊的運作方式
 
 Microsoft 團隊大量依賴 Exchange Online、SharePoint 及商務用 Skype Online 來取得核心生產力案例，例如會議、行事曆、交互操作聊天和檔案共用。 針對這些雲端應用程式設定的條件式存取原則，在使用者直接登入 Microsoft 團隊時（任何用戶端），都適用于 Microsoft 團隊。
 
-Microsoft 團隊獨立支援在 Azure Active Directory 條件式存取原則中作為雲端 app。 在使用者登入時，針對 Microsoft 團隊雲端 app 設定的條件式存取原則適用于 Microsoft 團隊。 不過，在其他 app （例如 Exchange Online 和 SharePoint）上沒有正確的原則，使用者仍然可以直接存取這些資源。 如需在 azure 入口網站中設定條件式存取原則的詳細資訊，請移至： [Azure Active Directory 快速入門](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
+Microsoft 團隊獨立支援在 Azure Active Directory 條件式存取原則中作為雲端 app。 在使用者登入時，針對 Microsoft 團隊雲端 app 設定的條件式存取原則適用于 Microsoft 團隊。 不過，在其他 app （例如 Exchange Online 和 SharePoint）上沒有正確的原則，使用者仍然可以直接存取這些資源。 如需在 Azure 入口網站中設定條件式存取原則的詳細資訊，請參閱 [Azure Active Directory 快速入門](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
 
 適用于 Windows 和 Mac 的 Microsoft 團隊桌面用戶端支援新式驗證。 新式驗證會根據 Azure Active Directory 驗證庫（ () ADAL），在跨平臺的 Microsoft Office 用戶端應用程式中提供登入。
 
@@ -99,11 +109,11 @@ Microsoft 365 中的通訊合規性可讓您將使用者新增至範圍內原則
 
 ### <a name="retention-policies"></a>保留原則
 
-Microsoft 團隊中的保留原則可讓您保留貴組織所重要的資料，以符合法規、法律、商業或其他原因，以及移除與保留不相關的內容與通訊。 您也可以使用保留原則，將資料保留一段時間，然後將其刪除。 如需進一步資訊，請參閱 [Microsoft 團隊文章中的保留原則](retention-policies.md) 。
+Microsoft 團隊中的保留原則可讓您保留貴組織所重要的資料，以符合法規、法律、商業或其他原因，以及移除與保留不相關的內容與通訊。 您也可以使用保留原則，將資料保留一段時間，然後將其刪除。 如需進一步資訊，請參閱 [Microsoft 團隊中的保留原則](retention-policies.md)。
 
 ## <a name="sensitivity-labels"></a>敏感度標籤
 
-套用 [敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ，以保護並控制在團隊內共同作業期間建立的機密組織內容的存取權。 例如，套用設定隱私權 (公開或私人) 團隊、控制來賓存取權和外部共用，以及管理非託管裝置的存取權的標籤。 如需進一步資訊，請參閱 [Microsoft 團隊文章中的敏感度標籤](sensitivity-labels.md) 。
+套用 [敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ，以保護並控制在團隊內共同作業期間建立的機密組織內容的存取權。 例如，套用設定隱私權 (公開或私人) 團隊、控制來賓存取權和外部共用，以及管理非託管裝置的存取權的標籤。 如需進一步資訊，請參閱 [Microsoft 團隊中的敏感度標籤](sensitivity-labels.md)。
 
 ### <a name="data-loss-prevention-dlp"></a> (DLP) 的資料遺失防護
 
@@ -117,9 +127,9 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 如需有關如何在安全性中心與合規性中心中執行 Microsoft 365 或 Office 365 eDiscovery 的詳細資料，以及執行小組內容的規範內容搜尋，請參閱下列連結：
 
-[電子文件探索](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
+ - [電子文件探索](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
-[內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
+ - [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
 
 我們有一個小組專用文章，如需詳細資訊，請 [EDiscovery 電子檔探索](eDiscovery-investigation.md)。
 
@@ -145,20 +155,20 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 在任何一種情況下，只要設定保留，就能確保即使使用者刪除或編輯群組信箱中的頻道訊息，該內容的不變複本仍能透過 eDiscovery 搜尋進行維護和使用。 法律封存一般會套用在 eDiscovery 案例的內容中。
 
-請參閱 [保留原則](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 文章的概覽，以深入瞭解 Microsoft 365 規範中心中保留並保留的資訊。 如需法律封存的相關小組特定資訊，我們也可以讓 [Microsoft 團隊使用者或團隊在法律封存](legal-hold.md) 中取得詳細資訊。
+請參閱 [保留原則的概覽](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) ，以深入瞭解 Microsoft 365 規範中心中保留和保留的資訊。 如需法律封存的更多小組特定資訊，我們也可以讓 [Microsoft 團隊使用者或團隊在法律封存人員處](legal-hold.md) 進一步瞭解。
 
 ### <a name="compliance-content-search"></a>合規性內容搜尋
 
-您可以使用內容搜尋，透過豐富的篩選功能搜尋所有團隊資料。 產生的資料可以匯出到特定容器，以進行合規性和訴訟支援。 您可以使用或不使用 eDiscovery 案例來完成此操作。 這可讓合規性系統管理員收集所有使用者的小組資料、審閱並匯出，以進行進一步的處理。 如需深入瞭解如何在 Microsoft 365 規範中心中搜尋 Microsoft 團隊以及其他 Microsoft 365 或 Office 365 內容，請參閱此 [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/content-search) 文章。
+您可以使用內容搜尋，透過豐富的篩選功能搜尋所有團隊資料。 產生的資料可以匯出到特定容器，以進行合規性和訴訟支援。 您可以使用或不使用 eDiscovery 案例來完成此操作。 這可讓合規性系統管理員收集所有使用者的小組資料、審閱並匯出，以進行進一步的處理。 請參閱 [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/content-search) ，深入瞭解如何在 microsoft 365 規範中心中進行 microsoft 團隊以及其他 microsoft 365 或 Office 365 內容的相容性內容搜尋。
 
 > [!TIP]
 > 使用內容搜尋，您可以在必要時篩選到 Microsoft 團隊中的 [僅限交談] 和 [頻道訊息]、[會議] 和 [通話] 等內容。
 
-如果您想進一步瞭解如何設定內容搜尋的相關資訊，請參閱 [Microsoft 團隊文章中的內容搜尋](content-search.md) 。
+如果您想要進一步瞭解如何設定內容搜尋，請參閱 [Microsoft 團隊中的內容搜尋](content-search.md)。
 
 ### <a name="auditing-and-reporting"></a>審核與報告
 
-在 Microsoft 365 合規性中心直接進行審核記錄搜尋，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以針對 Microsoft 365 合規性中心內的所有審核記錄資料設定警示，並篩選及匯出此資料以進行進一步分析。 請參閱 [搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 文章，進一步瞭解如何執行 Microsoft 365 或 Office 365 的審核記錄搜尋。 若要深入瞭解在 Microsoft 365 規範中心中搜尋 Microsoft 團隊活動，我們也會在 [團隊文章中開啟 [審核](audit-log-events.md) ]，讓您複習。
+在 Microsoft 365 合規性中心直接進行審核記錄搜尋，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以針對 Microsoft 365 合規性中心內的所有審核記錄資料設定警示，並篩選及匯出此資料以進行進一步分析。 請參閱 [搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) ，進一步瞭解如何執行 Microsoft 365 或 Office 365 的審核記錄搜尋。 若要深入瞭解在 Microsoft 365 規範中心中搜尋 Microsoft 團隊活動，我們也會 [開啟小組中的審核](audit-log-events.md) 來供您查看。
 
 ## <a name="privacy"></a>隱私權
 
@@ -172,11 +182,13 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 
 下圖顯示小組檔案和郵件的 [從 Exchange 與 SharePoint 接收] 資料的攝取流程。
 
-![[小組] 資料至 Exchange 和 SharePoint 的工作流程圖表](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+> [!div class="mx-imgBorder"]
+> ![[小組] 資料至 Exchange 和 SharePoint 的工作流程圖表](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 下圖顯示團隊會議的攝取流程和呼叫資料至 Exchange。
 
-![小組工作流程的圖表及呼叫資料至 Exchange](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+> [!div class="mx-imgBorder"]
+> ![小組工作流程的圖表及呼叫資料至 Exchange](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > 若要探索小組內容，最多可以有24小時的延遲時間。
@@ -186,6 +198,7 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 當您遇到資訊保護功能時，Microsoft 365 訂閱、Office 365 訂閱及相關聯的獨立授權將決定可用的功能集。
 
 如需判斷授權必須實現安全性與合規性功能的相關資訊，請參閱安全性與合規性功能的 [授權需求](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 。
+
 > [!NOTE]
 > 在安全性 & 合規性中心中不需要啟用 [內容搜尋] 和 [eDiscovery]，就能正常運作。
 
@@ -195,7 +208,8 @@ Teams 中的資料位於與 Microsoft 365 或 Office 365 組織關聯的地理�
 
 如果您需要查看哪個地區駐留您租使用者的資料，請移至 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)  >  **設定**  >  **組織設定檔**。 向下捲動到 **資料位置**。
 
-![資料位置資料表的螢幕擷取畫面，其中包含系統管理中心的團隊](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> [!div class="mx-imgBorder"]
+> ![資料位置資料表的螢幕擷取畫面，其中包含系統管理中心的團隊](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>合規性標準
 
