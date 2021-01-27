@@ -1155,8 +1155,12 @@
           href: edu-remote-low-bandwidth.md
         - name: Teams 教育版原則精靈
           href: easy-policy-setup-edu.md
-        - name: 開始使用深入解析
-          href: class-insights.md
+        - name: 教育深入解析
+          items:
+            - name: 開始使用深入解析
+              href: class-insights.md
+            - name: 同步處理深入解析和 SIS 資料
+              href: education-insights-sis-data-sync.md
         - name: Teams 教育版中的作業
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams 教育版系統管理員的資源
