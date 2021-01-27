@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786785"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973067"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -39,7 +39,7 @@ ms.locfileid: "49786785"
 |一個小組中的成員數目 | 10,000<sup>5</sup>     |
 |每個小組擁有者人數 | 100   |
 |一個租用戶中允許的全組織小組數目 | 5     |
-|一個[全組織小組](create-an-org-wide-team.md)中的成員數目 | 5,000       |
+|一個[全組織小組](create-an-org-wide-team.md)中的成員數目 | 10,000       |
 |一位全域系統管理員可以建立的小組數目        |  500,000   |
 |一個 Microsoft 365 或 Office 365 組織可以擁有的小組數目    | 500,000&sup2;     |
 |每個小組的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
@@ -57,7 +57,7 @@ ms.locfileid: "49786785"
 
 <sup>4</sup> 28 KB 是大約限制，因為它包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
 
-<sup>5</sup> GCC 中的 Teams 只能容納 5,000 個成員，而 GCCH/DoD 中只能容納 2,500 個成員。
+<sup>5</sup> GCC 中的 Teams 只能容納成員，且 GCCH/DoD 中的 Teams 只能容納 2,500 個成員。
 
 ## <a name="messaging"></a>訊息傳送
 
