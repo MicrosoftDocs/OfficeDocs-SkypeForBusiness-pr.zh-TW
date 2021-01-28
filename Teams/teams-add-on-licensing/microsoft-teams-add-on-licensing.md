@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解 Microsoft 團隊的附加元件授權，以及每個授權所取得的功能。
-ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: b17e4a15741687414dec94e9f2b4d411490812ae
+ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731141"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032402"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 團隊附加元件授權
 
@@ -46,7 +46,7 @@ ms.locfileid: "49731141"
 |**電話系統** <br/> |[[電話系統](../what-is-phone-system-in-office-365.md)] 是一種託管電話語音，可讓您撥打通話控制和私人分支 EXCHANGE (PBX) 功能，以及連接至公用的交換電話網絡 (PSTN) 的選項。 電話系統功能包括雲端語音信箱、本機號碼、通話駐留、來電轉接、自動語音應答、通話佇列、來電轉接、本機號碼等等。 <br>若要深入瞭解，請參閱 [以下是您使用電話系統所取得的結果](../here-s-what-you-get-with-phone-system.md)。 如需定價資訊，請參閱 [電話系統價格](https://go.microsoft.com/fwlink/?linkid=799763)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**通話方案** <br/> |如果您想讓使用者能夠撥打貴組織外部的電話號碼，請接聽 [通話方案](../calling-plans-for-office-365.md)。 共有國內通話方案和國內和國際通話方案。 如需定價資訊，請參閱 [通話方案的價格](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams 會議室** <br/> |[Microsoft [團隊會議室](../rooms/index.md) ] 不是附加元件，但會將影片、音訊及內容共用功能提供給會議室。 請參閱 [小組會議室授權](../rooms/rooms-licensing.md)。  <br/> |&#x2713;|&#x2713;|
-|**高級通訊** <br/> |[[高級通訊](advanced-communications.md)] 包含增強的通話和會議功能，例如大型會議、會議自訂、通訊整合，以及通訊管理的高級工具。 針對最多20000參與者和1000參與者的互動式會議，向較大的使用者提供即時活動。 其他功能包括自訂品牌會議大廳來調整您的會議、整合會議及呼叫工作流程的能力，以及監視、追蹤及分析使用者和裝置上資料的工具。   |&#x2713;|&#x2713;|
+|**高級通訊** <br/> |[[高級通訊](advanced-communications.md)] 包含 [高級會議] 自訂和工具，可用於管理貴組織的通訊原則。 其他功能包括自訂品牌會議大廳來調整您的會議，以及在使用者和裝置上監視、追蹤及分析資料的工具。   |&#x2713;|&#x2713;|
 
 <sup>1</sup> 如果您是有 Microsoft 365 企業版方案的中小型企業或中型企業，您仍然可以購買這些語音功能的附加元件授權，但我們建議您考慮 [Microsoft 365 商務](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) 方案和 [商務語音](https://www.microsoft.com/microsoft-365/business/business-voice)。
 

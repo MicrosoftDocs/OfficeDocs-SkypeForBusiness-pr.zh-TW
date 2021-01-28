@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 [通話品質儀表板] 的詳細資訊，請參閱 Microsoft (CQD) for Microsoft 團隊及商務用 Skype Online。
-ms.openlocfilehash: 5903f9006e4e4980e92b3a14119674af4b50d80a
-ms.sourcegitcommit: bf4dde013689bc3e76ffb03fe763cd9ff90e0add
+ms.openlocfilehash: fc5515b0eea9df234a1f4439b1db61a93ba19713
+ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49990608"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032432"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質儀表板中提供的尺寸和量化指標 (CQD) 
 
@@ -409,7 +409,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第一個電話號碼|String|第一個端點使用者的電話號碼。 僅已填入 PSTN 端點。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。|
 | 第二個電話號碼|String|第二個端點使用者的電話號碼。 僅已填入 PSTN 端點。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。|
 | 第一個 UPN|String|第一個端點使用者的使用者主要名稱 (UPN) 。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。|
-| 第二個 UPN|String|第二個端點使用者的使用者主要名稱 (UPN) 。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。|
+| 第二個 UPN|String|第二個端點使用者的使用者主要名稱 (UPN) 。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。| <br/>&bull; 並非所有 UserTypes 都有 Upn;包含第二個 UserType 或第二個使用者 ObjectId 大小，以深入瞭解這些端點 |
 | 第一個意見反應文字|String|在通話結束時，由第一個端點的使用者所提供的原義意見反應文字（如果有的話）。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。 | |
 | 第二個意見反應文字|String| 通話結束時，由第二個端點的使用者所提供的原義意見反應文字（如果有的話）。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。|
 | 第一個用戶端端點名稱|String|第一個端點的電腦名稱稱。 僅適用于過去28天的資料，只有擁有角色允許 EUII 存取權的使用者才可看到這些資料。|

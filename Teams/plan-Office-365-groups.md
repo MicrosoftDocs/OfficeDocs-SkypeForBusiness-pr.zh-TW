@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 05e1f03d260fe9ee5fc3af21f8d67dd905419358
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a6d52b656726d793649f4c6fadc117ec9e052816
+ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030569"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032362"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft 團隊中建立小組時規劃 Microsoft 365 群組
 ==========================================================
@@ -34,7 +34,7 @@ ms.locfileid: "49030569"
 
 有兩種情況可在規劃 Microsoft 365 群組及其對 (或) Microsoft 團隊的影響時，提供相關討論：
 
--   首先，因為客戶可以在群組中擁有現有投資，所以我們目前支援不超過5000成員的公用和私人群組。 如先前所述，您想要使用團隊用戶端（而非 Microsoft 365 系統管理中心），管理人員至團隊的成員資格。 在此案例中，如果使用者是用來在 Microsoft 365 群組中進行執行緒交談，則值得注意的是，群組交談實質上是電子郵件，而不是團隊頻道中的聊天訊息。 在小組中教育您的人員，並建議他們採用更具彈性的聊天訊息格式，而不是使用 Outlook 或 OWA 以電子郵件傳送群組。
+-   首先，由於客戶可以在群組中使用現有投資，因此我們目前支援公用和私人群組（針對目前支援的成員數量），請參閱 [Microsoft 團隊的限制與規格](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)。 如先前所述，您想要使用團隊用戶端（而非 Microsoft 365 系統管理中心），管理人員至團隊的成員資格。 在此案例中，如果使用者是用來在 Microsoft 365 群組中進行執行緒交談，則值得注意的是，群組交談實質上是電子郵件，而不是團隊頻道中的聊天訊息。 在小組中教育您的人員，並建議他們採用更具彈性的聊天訊息格式，而不是使用 Outlook 或 OWA 以電子郵件傳送群組。
 
 -   其次，對於沒有 Microsoft 365 中定義之現有群組的客戶，您可以使用 Microsoft 365 系統管理中心、團隊網頁或桌面用戶端來建立它們。 如先前所述，您可以使用團隊用戶端管理所有未來的成員資格至 Microsoft 365 群組。 因為成員資格成為小組，所以也定義了 Microsoft 365 群組的成員資格，所以您應該為人員準備此變更。
 

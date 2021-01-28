@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 (（例如耳機、免持聽筒、網路攝影機和監視器) 認證給 Microsoft 團隊）的 USB 外設和裝置。
-ms.openlocfilehash: 4f473db3cf82e20c71ea22503095adea6df0ec12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5a5777b0ee32cce1986e6b8a07e6d4940f2dc617
+ms.sourcegitcommit: f3ab9437759db8d3ab67b57111cb7bf47eb9c18e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825343"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50033334"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -78,7 +78,7 @@ ms.locfileid: "49825343"
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Jabra                |Evolve2 30 頭戴式耳機                                         |12/31/2020      |針對 Microsoft 團隊認證                           |
+|Poly                 |使用 Poly BT600 USB 轉換器同步處理 40 + 話筒           |1/19/2021       |針對 Microsoft 團隊認證                           |
 |Yealink              |UH34 雙/單聲道耳機                                     |12/23/2020      |針對 Microsoft 團隊認證                           |
 |Yealink              |MP50 USB 電話                                             |12/23/2020      |針對 Microsoft 團隊認證                           |
 |Yealink              |WH67 DECT 耳機                                          |12/23/2020      |針對 Microsoft 團隊認證                           |
