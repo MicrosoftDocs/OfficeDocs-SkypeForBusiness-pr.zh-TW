@@ -1,5 +1,5 @@
 ---
-title: Teams 教育版深入解析的IT 系統管理員指南
+title: Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
-description: Microsoft Teams 教育版深入解析的 IT 系統管理員指南。
+description: Microsoft Teams 教育版中 Insights 的 IT 系統管理員指南。
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -16,109 +16,211 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b63ea1a1a09a55d9a51fb2a110c024960f23f6f4
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: cd60e20d4218c9deaca84974b890280f942fe1be
+ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803521"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49986389"
 ---
-# <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Teams 教育版深入解析的IT 系統管理員指南
+# <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
-透過 Microsoft Teams 教育版深入解析，教育者和領導者可以存取有關數位參與、作業工作負載、成績、通訊等的分析資料。 深入解析是由道德原則所驅動，將教育者和學生擺在第一位，符合隱私權標準，並確保您的機構持續遵循法規。
+本文件提供讓 Education Insights 在 Microsoft Teams 中順利運作所需的步驟，並協助授課者和教育領導者採用平台並成功地使用該應用程式。
 
-深入解析會在 Office 365 教育版 SKU A1、A3 和 A5 中使用。
+## <a name="overview"></a>概觀
+**每個學生都有獨特的體驗、技能和心聲。**<br/>
+**Insights 可協助您了解學生並回應其需求。**
+
+Insights 可提供其班級內學生進度和活動的即時分析。 利用容易理解的視覺效果，學校社群可以主動且輕鬆地追蹤學生的體驗。 系統會為授課者和教育領導者提供有意義且可靠的資料，得以對其班級團隊做出明智的決策。 根據此資料，授課者可獲得要確保學生的情感、社交和學術需求能被滿足所需的資訊。  
+
+當授課者知道哪些策略適合其學生時，學校社群就可以將精力集中，並達成更顯著的影響。 透過 Insights 提供的及時資料，授課者和教育領導者能夠將時間和精力聚焦於採行可提升學習環境、推動學生成功，以及並協助學習者成長的動作上。 
+
+## <a name="who-uses-insights"></a>誰會使用 Insights？
+
+### <a name="educators"></a>授課者
+授課者是擁有班級團隊的任何人。 授課者可以包括教師、講師和教授。 
+
+授課者可在班級層級存取 Insights。 他們會看到指派給其班級的學生活動，但無法存取來自其他班級的資料。 Insights 可協助授課者了解並支援其學生。
+
+使用 Insights 沒有特別的必要條件，授課者只需要在 Teams 中將 Insights 新增至左側的應用程式列或以索引標籤形式新增至他們的每個班級即可。
+
+授課者會依教職員授權識別。 授課者必須擁有教職員授權，並成為班級團隊的擁有者，才能在 Insights 中查看資料。
+
+### <a name="education-leaders"></a>教育領導者
+教育領導者是機構中的所有角色，其需要組織面的檢視來了解其學生的參與、進度、狀況良好等等。如果授課者擁有班級團隊且需要較班級檢視更多的資訊 (例如專業科系主任)，則授課者也可以是教育領導者。 
+
+教育領導者可能包括學務長、科系主任、校區領導者、學校校長、首席教師、顧問、專業科系主任、計畫主任、社交工作者和心理學家。
+
+教育領導者會獲得組織的檢視，將視 IT 系統管理員指派的權限而定。例如，學校校區系統管理員可以查看他們存取的所有學校。 相反地，學校校長或學校主管只會看到學校的成績層級和班級。 
+
+假設監督人也能授課，則會將其同時視為授課者和教育領導者，且可以存取 Insights 的這兩個檢視 (授課者和教育領導者)。 在這裡，Insights 可協助教育領導者支援授課者和學生。 在組織層級，IT 系統管理員必須連接學生資訊系統，並指派權限給每個角色，以存取與他們相關的學校或科系。
+
+教育領導者會依教職員授權來識別，而且他們也需要來自 IT 全域系統管理員的 *明確權限*，才能檢視其組織的 Insights 報告。
+
 
 > [!NOTE]
-> 教育者，請於此瞭解如何使用 [深入解析]： [Microsoft Teams 深入解析的教育者指南](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181)。
+> **關於學生：**
+>
+> Insights 會收集關於 Teams 中學生活動的資料。
+>
+> 學生是 Teams 內班級團隊的成員。 依其授權加以識別，且他們 **無權存取** Insights 應用程式或索引標籤 (即使他們是團隊擁有者)。
+>
+> 來賓 *無法* 被視為學生。 
 
-## <a name="use-insights"></a>使用 [深入解析]
 
-### <a name="user-types"></a>使用者類型
-- **學生** 是由其授權所識別，且  _無權存取_ [深入分析] 索引標籤 (即使他們是團隊的擁有者)。 
-- **教育者** 由教職員授權所識別。 教育者必須擁有教職員授權，並成為課程小組擁有者，以新增和查看 [深入分析] 索引標籤所顯示的資料。 
-- **領導者** 也由教職員授權所識別，但在某些狀況下，需取得 IT 全域系統管理員的明確授與的權限，才能檢視 [深入解析] 應用程式中的報告。
-- 來賓帳戶 _不具備_ [深入解析] 存取權。
 
-### <a name="entry-points"></a>進入點
-教育者和領導者有不同的進入點，可讓他們探索並使用深入解析。
+## <a name="where-do-users-find-insights"></a>使用者可在哪裡找到 Insights？
+授課者和教育領導者可以採用不同的方式存取 Insights。 
 
-**教育者** 可以使用這兩個進入點：
-- [索引標籤](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - 上方瀏覽功能表新增的索引標籤提供了適用於他們所擁有的每個班級的索引標籤。 [深入解析] 將會從班級團隊內的所有通道呈現活動資料，但只能新增為公用頻道的索引標籤。 該索引標籤會反映非擁有者的班級團隊中所有人的活動 (包括非團隊擁有者的教師)。
-- [個人應用程式](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - 可從左側 Teams 應用程式列取得的所有作用中課程概覽。
+### <a name="educators"></a>授課者
+授課者可使用下列這兩個方法：
 
-**領導者** 可以使用 [深入解析] 作為 [個人應用程式](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
+*   [個人應用程式](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - 可從 Teams 左側應用程式列取得、其所有活動中班級的概觀，並能夠向下切入班級資料。
+*   [索引標籤](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) - 針對他們所擁有特定班級的 Insights，可從班級團隊上方瀏覽功能表的索引標籤取得。 此索引標籤可讓授課者處於 Teams 中的該班級時直接存取相關資料，以查看班級內容中的該資料。 
 
-### <a name="manage-setup-policy"></a>管理設定原則
-如果您是系統管理員，您可以使用 [應用程式設定原則](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)，在教育者和領導人啟動 Teams 時，根據預設為您的教職員安裝 [深入解析]。
-使用該原則，您可以自訂 Teams 以強調 [深入解析]，並將它釘選在應用程式列中。
+Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能新增為公用頻道的索引標籤。 該索引標籤會反映來自非擁有者 (包括非班級團隊擁有者的授課者) 的班級團隊中每個人的活動。
+
+在這兩個檢視中，授課者都可以存取班級資料。 使用個人應用程式，授課者必須向下切入班級層級，而使用索引標籤則可讓其直接存取班級資料。
+
+在班級層級，如果某位授課者擁有班級團隊，就可以使用 Insights，而不需要 IT 系統管理員進行任何其他動作。
+
+### <a name="education-leaders"></a>教育領導者
+教育領導者可以使用 Insights 做為可從 Teams 左側應用程式列取得的個人應用程式。
+
+在組織層級，IT 系統管理員必須連接學生資訊系統，並指派權限給每個角色，以存取與他們相關的學校或科系。
+
+例如，校長只會看到其學校的班級，或是科系主任只會看到該科系的班級。 學生資料會於班級、科系、學校和校區層級彙總，而我們會在每個層級 (根據每位使用者的權限) 提供深入解析。授課者和教育領導者能夠放大審視並查看個別學生的資料。
+
+**若要在 Teams 中新增 Insights 應用程式：**
+* 按一下 "**…**" 於應用程式列上。
+* 搜尋 **Insights** 並選取它。
+* 描述畫面將隨即開啟。 按一下 [新增 **]**。
+
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="將 Insights 新增至 Teams":::
+
+* 在 Insights 圖示上按一下滑鼠右鍵，然後選取 [釘選 **]**。
+
+:::image type="content" source="media/insights-pin-app.png" alt-text="釘選 Insights 應用程式":::
+
+## <a name="when-is-insights-used"></a>Insights 的使用時機？ 
+Insights 在整個 **學習週期** 支援學習社群。 透過多個維度的即時度量，Insights 可支援學校社群成員之間的識別、反映、討論和採取行動的持續循環。
+*   **識別** 學生與授課者、課程教材及其同儕互動的方式和時間，以及他們執行作業的情況。 
+*   **反映** 該意見如何支援學生以獲得成功，判斷成長領域，以及需要協助之處。
+*   與學生和學校社群 **討論** 發現的項目，以強化關聯、目標設定、自我檢討、激發共同作業，並改善成果。
+*   **採取行動** 來發展介入，提供有關成長領域的意見反應、修改教學策略，並識別需要的額外支援。
+
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights 在整個學習週期支援學習社群":::
+
+## <a name="how-insights-works"></a>Insights 的運作方式為何？
+Insights 可產生功能強大的分析，以協助授課者提供更完善的學習成果。 其做法是透過分析 Teams 內的學生活動，並選擇性地運用您提供的學生資訊系統 (SIS) 資料來協助將該活動情境化和分組。 
+
+開始為您的機構部署 Insights 之前，請先快速查看 Insights 的運作方式、我們對資料道德的承諾，以及所需的授權。
+
+### <a name="data-collection"></a>資料收集
+將為 Insights 從 Teams 中的學生和授課者活動收集資料。 不會收集來賓資料。
+
+Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可行的深入解析，以協助您參與教學和學習。
+
+目前，資料會從班級團隊的以下幾個領域收集：
+
+| Teams 元件   | 收集的資料 |
+|-------------------|-----------------------------|
+| **作業** | 開啟、繳交和對作業評分。|
+| **頻道參與** |  造訪頻道、建立貼文、回覆貼文並按讚 (不包括聊天內容)。|
+| **檔案** |   上傳、下載、存取、修改、註解及共用檔案 (不包括檔案內容)。|
+| **會議** |    出席 (不包括會議內容)。|
+
+> [!NOTE]
+> 收集的資料多數會在幾分鐘內出現在 Insights 中。 班級會議 (與其中一個班級頻道相關聯的會議) 中的出席資訊，會在會議結束後顯示幾小時 (通常最多為 24 小時)。
+
+### <a name="privacy-and-security"></a>隱私權和安全性
+透過 Insights 收集和顯示的資訊，符合[超過 90 個法規和產業標準](https://docs.microsoft.com/compliance/regulatory/offering-home)，其中包括 [GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) 和針對學生與兒童安全性的[家庭教育權和隱私權法案 (FERPA)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa)，以及其他類似的以隱私權為導向法規。
+
+資料屬於機構，而 Microsoft 只會收集資料並儲存資料。 Microsoft 人員無法存取資料或查看資料，除非合規性以經稽核的方式允許，以便維護服務 (例如資料復原)。
+
+> [!NOTE]
+> 若要深入了解 Microsoft 如何保護您的資料，請造訪 [Microsoft 信任中心](https://www.microsoft.com/trust-center)。
+
+### <a name="performance-and-reliability"></a>效能和可靠性
+Insights 的設計可處理從 Teams 活動收集的大量資料，並具有最佳效能和可靠性。 我們無法保證 100% 的可用性，但我們會努力盡可能接近該目標。
+
+資料收集程序會在不同伺服器上，針對 Teams 中的 Insights 索引標籤安裝進行。 Insights 索引標籤或個人應用程式不會影響使用其餘 Teams 功能的授課者和學生的應用程式效能或網路頻寬。
 
 > [!TIP]
-> 如需適用於教育界的 Teams 原則和原則套件的資訊，請參閱 [[適用於教育界的 Teams 原則和原則套件]](https://docs.microsoft.com/microsoftteams/policy-packages-edu)。
+> 如需詳細資訊，請參閱[協助 Teams 教育版的低頻寬情況](edu-remote-low-bandwidth.md)。
 
+### <a name="data-storage"></a>資料儲存
+Insights 目前於歐洲和美國部署。 以歐洲為基礎的使用者資料會儲存在歐洲的伺服器上。 以澳洲和美國使用者為基礎的使用者資料會儲存在美國的伺服器上。 歐洲、澳洲或美國以外使用者的資料，會儲存在我們其中一個地理區域中。 
 
+### <a name="using-data-ethically"></a>有道德地使用資料
+我們致力於負責地且有道德地使用資料。 Insights 遵循 Microsoft 針對負責任的資料和 AI 的原則。 這表示我們對資料的使用方式是透明的，而我們會以授課者和學生的利益優先。  我們採用最高的安全性和隱私權標準，監視持續的可靠性和準確性，並確保您的機構的持續合規性。
 
-## <a name="compliance"></a>合規性
+Microsoft 從頭開始建立 Insights，以確保資料保護。 我們知道資料使用方式的潛在敏感度，並且重視您的資料和個人的隱私權。 
 
-深入解析具備產業領先的合規性承諾，並被分類為 Office 365 合規性架構內的 C 層服務。
+#### <a name="data-to-support-learning"></a>支援學習的資料
+Insights 聚焦於學生學習和數位參與。 資料可支援學習，並展現數位學習平台上的學生參與層級。 雖然您可以向下切入班級活動的個別層級，但 Microsoft **並未指派任何正數或負數值** 指派給這些動作。 收集資料的目的是為了支援學生與授課者，以便達成最佳成果。
+
+授課者最知道並了解其學生。 Insights 中提供的資訊可協助他們在數位學習案例中 **為學生提供支援**。 它會複製一般可在面對面體驗中獲得的深入解析。 例如，假設某個學生在特定期間未處於非活動中狀態，或未在上週準時完成其所有作業。 該資料會向授課者呈現，以便對學生適當催促或查勤。 與學生或與學生的家長或監護人進行互動仍為授課者的責任，以找出所偵測任何活動中或非活動中的基礎原因。
+
+Insights 的設計可同時支援學生和授課者的數位學習環境架構。 Insights **不會直接擷取關於授課者的資料**。 除了個別的學生資料之外，它還為特定授課者提供學生活動和成果的彙總，以讓教育授課者可支援學生和授課者。
+
+### <a name="licensing"></a>授權
+若要存取 Insights，使用者必須具備適用於 Microsoft 365 的 A1、A3 或 A5 教職員授權。
+
+## <a name="student-information-system-sis-integration"></a>學生資訊系統 (SIS) 整合
+送入 Insights 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
+
+若要提供組織層級 Insights，我們必須使用[學校資料同步處理 (SDS)](https://docs.microsoft.com/SchoolDataSync) 來連線到學生資訊系統 (SIS)，使得 Insights 會有正確對應的教育系統階層結構。 
+
+以班級授課者身分檢視班級層級的 Insights 並 *不需要* 此動作，因為我們會使用 Teams 的班級結構和權限。
+
+若要深入了解，請參閱[將學生資訊系統 (SIS) 資料與 Education Insights 同步處理](education-insights-sis-data-sync.md)。
+
+## <a name="manage-permissions"></a>管理權限
+您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社交工作者和心理學家提供權限。 當授課者擁有班級團隊時，系統就會自動提供其權限。
 
 > [!NOTE]
-> 若要深入瞭解 Microsoft 如何保護您的資料，請造訪 [Microsoft 信任中心](https://www.microsoft.com/trust-center)。
+> 僅將權限提供給需要的教育領導者，並僅限他們負責的團隊。 如果您不確定是否需要特定組織的使用者權限，請洽詢您機構的隱私權主題專家，例如法務或人力資源人員。
 
-## <a name="privacy"></a>隱私權
+## <a name="manage-the-setup-policy"></a>管理設定原則
+身為 IT 系統管理員，您可以使用應用程式設定原則，在授課者和領導者啟動 Teams 時，預設為其安裝 Insights。 使用設定原則，您可以自訂 Teams 以突顯 Insights，並將它釘選在應用程式列中。
 
-透過深入解析收集和顯示的資訊，符合 90 多個監管和產業標準，其中包括 GDPR 和針對學生與兒童的「家庭教育權和隱私權法案 (FERPA)」，以及其他類似的、以隱私權為導向法規。 IT 系統管理員務必知道，以每個學生為基礎所收集的資訊僅限用於班級環境，以允許授課者和領導者判斷學生行為。 收集這些資訊是為了提供有意義的學習活動，例如班級會議出席者、發布訊息、回應同學的貼文、寫作業、編輯檔案等等。 比如，我們不會顯示私人交談或 Teams 登入的資訊。
+如果授課者想要直接存取每個班級，他們可以在上方瀏覽功能表手動安裝 Insights 索引標籤。 此索引標籤可讓授課者處於 Teams 中的該班級時直接存取相關資料，以查看班級內容中的該資料。 
 
-我們的目標是協助授課者瞭解參與情況，並聚焦在學生學習上。 雖然這些課程活動可以集中到學生層級的動作上，但 Microsoft Teams 對這些動作沒有意見評判，而且也不會根據準則對個別學生有身分判斷識別。 深入解析中的資訊會通知授課者，例如，某個學生在某段期間內未在工具中處於使用中狀態，或他們已準時完成上週的所有作業。 授課者則得負責與學生和學生的家長或監護人進行互動，以找出任何有使用或沒有使用的基本原因。
-
-## <a name="data-collection"></a>資料收集
-
-- 為租用戶開啟「教育版分析」時，我們會收集「深入解析」的資料。 資料會從 Teams 活動收集而來，以呈現可用於教學和學習的可操作資訊。
-- [深入解析] _不會_ 收集來賓資料。
-- 根據預設，[教育分析] **開啟** 了。
-
-目前，這項資料從課程小組中的學生和教師活動的以下方面提取的：
-
-|Teams 元件  |收集的資料  |
-|-----------------|------------------------|------------------------|
-|作業 |打開、成交和評分作業。 |
-|頻道參與 |造訪頻道、建立貼文、回復貼文並按讚（不包括聊天內容）。 |
-|檔案 |上傳、下載、存取、修改、批註及共用檔案（不包括檔案內容）。 |
-|會議 |出席（不含會議內容）。 |
-
-## <a name="data-location"></a>資料位置
-
-以歐洲租用戶為基礎的深入解析資料，會儲存在歐洲的伺服器上。 以美國租用戶為基礎的資料，則會儲存在美國的伺服器上。 如果您使用深入解析，而您的 Office 365 租用戶位於歐洲或美國以外的地區，則您的資料會儲存在適當的地理區域。
-
-## <a name="performance-and-reliability"></a>效能和可靠性
-
-深入解析的設計目的在於處理從 Teams 活動收集的大量資料，並具有最佳效能和可靠性。
-
-無論 Teams 是否有安裝 [深入解析] 索引標籤，資料收集程序都會在不同的伺服器上進行。 [深入解析] 索引標籤或個人應用程式不會影響授課者和學生使用其餘 Teams 功能的應用程式效能或網路頻寬。
+在這兩個檢視中，授課者都可以存取班級資料。 使用個人應用程式，授課者必須向下切入班級層級，而使用索引標籤則可讓其直接存取班級資料。
 
 > [!TIP]
-> 如需在頻寬不足時使用 Teams 教育版的資訊，請參閱 [[Teams 教育版在低頻寬情況下的說明]](edu-remote-low-bandwidth.md)。
+> 如需詳細資訊，請參閱[適用於教育界的 Teams 原則和原則套件](https://docs.microsoft.com/microsoftteams/policy-packages-edu)。
 
-## <a name="how-to-delete-your-data"></a>如何刪除資料
+## <a name="encourage-the-adoption-of-insights"></a>鼓勵採用 Insights
+讓您的教育機構對於使用 Insights 感到振奮。
 
-[教育] 服務會儲存課程小組上下文中的學生和教師動作。 這項資料視為是混合資料集，因此，一旦從組織中刪除了學生或授課者的使用者帳戶，就不會自動從服務中刪除了。
+您可以隨意將下列資料發佈給 **授課者**：
+*   如需詳細說明，請查看 [ Insights 支援頁面](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)。
+* 快速啟動並執行 - [取得 Insights 一頁式 PDF](https://aka.ms/insights/start)。
+*   閱讀[完整的 PDF](https://aka.ms/insights/guide)。
+*   觀看[逐步教學課程](https://aka.ms/insights/resources)以了解如何使用 Insights。
+*   使用 Microsoft 教育工作者中心[免費的 Insights 課程](https://aka.ms/insights/course)訓練您自己
+*   最後，查看 Insights 專屬的[此部落格](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091)。
 
-> [!NOTE]
-> 刪除資料會對 [深入分析] 分析班級團隊參與度的能力產生負面影響。
+近期將會發佈適用於 **教育領導者** 的資料。
 
-- 在 [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support) 開啟支員票證。 支援票證必須明確聲明對 [GDPR Delete DSR] 操作的請求，並包含要刪除的使用者物件識別碼。 無法限制刪除的資料集或時間窗口。
-- 一旦歸檔，支援票證就會在佇列中等候一周，以符合合規性最低保留原則。 您可以在此期間取消該作業。
-- 一周之後，[教育分析] 小組會採取行動，以確保與該使用者識別碼相關的所有資料都已從服務中刪除。 Microsoft 支援服務會監視 ICM 票證，並會在刪除程序完成後28天內通知您。
+## <a name="turn-insights-off-or-on"></a>關閉或開啟 Insights
+Insights 會預設開啟。 當您選擇退出時，我們會 *刪除針對 Insights 收集的所有資料*。 重新開啟 Insights，我們就會從重新啟用的時間開始收集資料。
 
-## <a name="turn-insights-off-and-on-using-school-data-sync-sds"></a>使用學校資料同步處理 (SDS) 關閉和開啟 [深入分析]。
+### <a name="turn-insights-off-using-school-data-sync-sds"></a>使用學校資料同步處理 (SDS) 關閉和開啟 Insights
+學校資料同步處理 (SDS) 可協助您將與 Teams 進行學生資訊系統 (SIS) 資料的匯入與同步處理自動化。
 
-學校資料同步處理 (SDS) 會協助自動化匯入和同步處理學生資訊系統 (SIS) 資料與 Office 365 的程序。
+使用 Insights *不要求* 使用 SDS。 不過，您可以隨時選擇退出 Insights。 開啟 SDS 系統管理中心，並移至 [設定 **]**  >  [管理 Education Insights **]**。 關閉 [為 Insights 收集資料 **]**，以停用 Insights。 
 
-使用深入解析不需要使用 SDS。 不過，您可以隨時通過關閉 SDS 管理中心 **[設定]** > **[管理教育分析]** 下的切換選項來退出 [教育分析]。
+:::image type="content" source="media/insights-sds-settings.png" alt-text="用來啟用或停用 Insights 的切換開關。":::
 
-:::image type="content" source="media/class-insights-on-off.png" alt-text="用來啟用或停用深入解析的切換。":::
+### <a name="turn-insights-on"></a>開啟 Insights
+如果您已關閉 Insights，則可以快速將它開啟。 開啟 SDS 系統管理中心，並移至 [設定 **]**  >  [管理 Education Insights **]**。 開啟 [為 Insights 收集資料 **]** 以啟用 Insights
 
-預設會開啟「教育版分析」和「深入解析」。 當您選擇退出 [分析] 時，我們會刪除針對 [深入解析] 索引標籤收集的所有資料。重新開啟 [分析]，我們便會從重新啟用的時間開始收集資料。
-
-## <a name="additional-resources"></a>其他資源
-- [[深入解析] 的教育者指南](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)
+### <a name="how-to-delete-your-data"></a>如何刪除您的資料
+Insights 會儲存在班級團隊內容中執行的學生和授課者動作。 這項資料視為是混合資料集，因此，一旦從組織中刪除了學生或授課者的使用者帳戶，就不會自動從服務中刪除了。
+附註：刪除資料會損及 Insights 分析一段時間班級團隊參與度的能力。
+* [開啟支援票證](https://edusupport.microsoft.com/support)。 支援票證必須明確聲明對 [GDPR Delete DSR] 操作的請求，並包含要刪除的使用者物件識別碼。 無法限制刪除的資料集或時間窗口。
+*   一旦提出，支援票證就會在佇列中等候一週，以符合合規性的最低保留原則。 您可以在此期間取消該作業。
+*   一週之後，Education Insights 團隊會確保與該使用者識別碼相關的所有資料都已從服務中刪除。 Microsoft 支援服務會監視該票證，並會在刪除程序完成後 28 天內通知您。
