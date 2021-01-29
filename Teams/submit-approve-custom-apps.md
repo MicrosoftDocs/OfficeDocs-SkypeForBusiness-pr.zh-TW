@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 Microsoft 團隊中的小組 App 提交 API 來核准已提交的自訂應用程式。
-ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: 6b9304cf2af9e45dd9fd2955cda6498ce1dbc3ae
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776884"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043967"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過團隊 App 提交 API 提交的自訂應用程式
 
@@ -69,9 +69,9 @@ Microsoft 團隊開發人員平臺可讓開發人員輕鬆地整合您自己的 
 
 按一下應用程式名稱，移至 [應用程式詳細資料] 頁面。 在 [ **關於** ] 索引標籤上，您可以查看應用程式的詳細資料，包括描述、狀態、提交者和應用程式識別碼。
 
-！已提交 app 的 app 詳細資料頁面 (媒體/custom-app-lifecycle-app-details.png) 
+![已提交應用程式的應用程式詳細資料頁面](media/custom-app-lifecycle-app-details.png)
 
-如需使用圖形 API 檢查 **發佈狀態** 的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">這裡</a>。
+如需使用圖形 API 檢查 **發佈狀態** 的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-1.0&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">這裡</a>。
 
 ## <a name="publish"></a>出版
 

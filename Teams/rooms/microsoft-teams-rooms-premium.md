@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊聊天室管理的服務。
 f1keywords: ''
-ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662658"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043947"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft 團隊聊天室管理的服務
 
@@ -36,7 +36,7 @@ Microsoft 團隊聊天室管理服務是以在軟體支援的端點、機器學�
 
 以下概述 Microsoft 團隊聊天室管理服務的功能。
 
-|功能  |描述  |
+|功能  |說明  |
 |---------|---------|
 |**會議室規劃與推出**   |會議室規劃功能，可讓您瞭解會議室設備庫存，並針對新的房間部署進行設備標準的決定。         |
 |**監控和疑難排解**  |可偵測房間系統和週邊設備問題並提供由 Microsoft 所驅動的前瞻性事件管理回應的會議室健康情況監視。         |
@@ -44,7 +44,7 @@ Microsoft 團隊聊天室管理服務是以在軟體支援的端點、機器學�
 |**深入資訊與建議**     |深入瞭解客戶的健康情況、使用量、利用率及裝置可靠性。         |
 |**合規性與認證**   |符合 Microsoft Online 服務的所有適用標準。         |
 |**客戶支援**   |您可透過專用 Microsoft 團隊會議室 managed services 服務操作中心 (SOC) 來支援24x7x365 支援。 如果適用的話，請您代表其他主要廠商上報。 若要深入瞭解，請參閱 [客戶支援](#customer-support)。|
-|**支援的裝置**    |已認證的 Microsoft 團隊房間系統及其外設。         |
+|**支援的裝置**    |已認證的 Microsoft 團隊房間系統及其外設。<br>*Surface Hub 支援即將在2021的下半年推出*        |
 |**支援的區域**    |請參閱 [支援的地區](#supported-regions)。        |
 |**結合**    |目前可與客戶託管服務整合的功能。         |
 
@@ -52,7 +52,7 @@ Microsoft 團隊聊天室管理服務是以在軟體支援的端點、機器學�
 
 以下摘要說明 Microsoft 團隊聊天室管理服務提供支援上述功能的重要功能。
 
-|功能  |描述  |
+|功能  |說明  |
 |---------|---------|
 |**庫存管理**   |使用大量匯出選項列出會議室裝置、週邊設備、製作及模型的房間庫存追蹤。         |
 |**房間登記**   |在 Microsoft 小組聊天室管理的服務中，輕鬆地自行註冊會議室裝置。          |
@@ -91,29 +91,86 @@ Microsoft 團隊聊天室受管理的服務是透過專用的 Microsoft 團隊�
 
 ## <a name="supported-regions"></a>支援的區域
 
-下列國家和地區提供 Microsoft 團隊聊天室 managed 服務。
+下列國家和地區提供 Microsoft 團隊聊天室 managed 服務。 
 
+- 安道爾
 - 澳洲
 - 奧地利
 - 比利時
-- 加拿大 (不包括魁北克) 
+- Bouvet 島
+- 巴西
+- 保加利亞
+- 加拿大
+- 聖誕島
+- 科科斯 (奇林) 群島
+- 庫擁有群島
+- 克羅埃西亞
+- 賽普勒斯
+- 捷克共和國
 - 丹麥
-- 芬蘭
+- 愛沙尼亞
+- 法羅群島
+- 斐濟
+- 法國
 - 德國
+- 直布羅陀
 - 希臘
+- 格陵蘭
+- 赫德島與麥克唐納群島
+- 香港特別行政區
+- 匈牙利
+- 冰島
+- 印度
 - 愛爾蘭
 - 義大利
+- 日本
+- Kiribati
+- 拉脫維亞
+- 賴索托
+- 列支敦斯登
+- 立陶宛
 - 盧森堡
+- 澳門特別行政區
+- 馬爾他
+- 馬紹爾群島
+- 墨西哥
+- 密克羅尼西亞
 - 摩納哥
+- Nauru
 - 荷蘭
 - 紐西蘭
+- Niue
+- 諾福克島
+- 北馬利安納群島
 - 挪威
+- 帛琉
+- 巴布亞紐幾內亞
+- 皮特凱恩群島
+- 波蘭
 - 葡萄牙
+- 羅馬尼亞
+- 俄羅斯
+- 聖匹島
+- 美屬薩摩亞
+- 聖馬利諾
+- 新加坡
+- 斯洛伐克
+- 斯洛維尼亞
+- 索羅門群島
+- 南非
 - 西班牙
+- 史瓦濟蘭
 - 瑞典
 - 瑞士
+- 台灣
+- Tokelau
+- 語
+- Tuvalu
 - 英國
 - 美國
+- 瓦努阿圖
+- 梵蒂岡城
+- 瓦利斯與富圖納
 
 ## <a name="support-inclusions-and-exclusions"></a>支援包含及排除
 

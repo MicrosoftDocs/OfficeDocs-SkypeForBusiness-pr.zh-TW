@@ -3,17 +3,18 @@ title: 在團隊系統管理中心管理稱讚應用程式
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.reviewer: adotey
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 瞭解 Microsoft 團隊系統管理中心的稱讚應用程式中的系統管理設定
-ms.openlocfilehash: 122e7f0ffad914e62ede56ebd1811d1504f3fcd7
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: acb9d000aeec61daa35421c5ded389888032873f
+ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909187"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50037849"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中管理稱讚應用程式
 
