@@ -1255,6 +1255,8 @@
           href: content-search.md
         - name: 稽核
           href: audit-log-events.md
+        - name: 使用 Microsoft Teams API 匯出內容
+          href: export-teams-content.md
         - name: Teams 租用戶層級的客戶金鑰
           href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
     - name: 隱私權
@@ -1726,8 +1728,6 @@
           href: emergency-calling-terms-and-conditions.md
     - name: 升級探索問卷
       href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: 使用 Microsoft Teams API 匯出內容
-      href: export-teams-content.md
     - name: Teams 系統管理員功能的版本資訊
       href: release-notes/release-notes.md
     - name: Microsoft Teams 中的公開預覽
