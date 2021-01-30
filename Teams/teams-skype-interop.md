@@ -1,7 +1,7 @@
 ---
 title: 團隊與 Skype 互通性
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的團隊使用者與 Skype (消費者) 使用者之間的互通性功能。
 localization_priority: Normal
-ms.openlocfilehash: 9063fc0f13bab9d0168296f9e77c5136e760b7a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8bb6a83eddc60ff680d1a08c7266e082dd8b0188
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802353"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055645"
 ---
 # <a name="teams-and-skype-interoperability"></a>團隊與 Skype 互通性
 

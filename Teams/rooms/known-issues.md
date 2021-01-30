@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解 Microsoft 團隊聊天室的已知問題清單，包括更新、使用者介面、硬體、限制及預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: afa1bf4a2a4fdd36bd45d8b237998ec461dcc1f4
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 63a646fa6fb404cb46de889c318181146cb44b2a
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865237"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055735"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -35,7 +35,7 @@ ms.locfileid: "49865237"
 |  [SfB 會議內容共用] 不會顯示全螢幕         |    在商務用 Skype 會議中，使用高 DPI 設定顯示房間中的會議室會出現問題，即在會議中共用的內容不會顯示會議室顯示的全螢幕。 這是由於 Windows 10 遠端桌面通訊協定 (RDP) API 中的基礎問題所造成。 | 使用 `<WinRTRdpEnabled>` XML 設定來停用 Windows 10 RDP API 來解決此問題。 若要停用，您必須將值指定為 `false` 。 如需詳細資訊，請參閱 [使用 XML 設定檔管理主控台設定](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)。 | 無 |
 |  App 已過期         |    Microsoft [團隊聊天室] 主控台顯示「系統組態已過期」錯誤。                |   [使用 Microsoft 團隊會議室恢復工具](recovery-tool.md)             |  無 |
 |  裝置更新為不受支援的 Windows 10 版本   |    Windows 10 裝置從版本1803更新至不受支援的版本1809。 支援的版本為1903。 |   如果 DeferFeatureUpdatesPeriodinDays 設定的 [群組原則或 MDM](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 設定（可讓您將功能更新推遲至指定的天數），則會發生這種情況，將其設定為最大值365天。 <br><br> Microsoft 團隊聊天室不支援 Windows 10 版本1809，而版本1903則受支援。 不過，從2020年3月27日起，版本1809超過365天。 如果此設定未變更，Windows 會嘗試安裝版本1809，這可能會導致 Microsoft 團隊聊天室發生問題。<br><br>若要避免這種情況，請 **移除** 任何群組原則或任何推遲更新的 MDM 設定。 這可讓 Windows 更新到最新支援的 OS 版本。 <br><br>**重要** 必須 **移除** [群組原則] 或 [MDM] 設定， (保留 **未設定) 且未設定為 0**。 如果原則設定為0，Windows 會採用可能不受支援的最新可用版本。 |  無 |
-|  Cisco 房間裝置無法加入團隊會議   |    在 Cisco 機房裝置中使用直接來賓加入來加入團隊會議失敗，且呼叫會在使用者選取 [ **加入**] 後結束。 |  小組 web 用戶端的變更，可讓 Cisco 房間裝置加入小組會議，從而導致這個回歸。 我們正在發佈此問題的修正程式，此問題將由1/15/2020 部署至所有租使用者。 Cisco 與 Microsoft 共同合作，避免日後發生類似問題。   |  無 |
+
 
 
 <a name="OS-conflicts"> </a>  
