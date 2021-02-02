@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 瞭解如何在通話品質儀表板 (CQD) 中上傳租使用者和組建資料。
-ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909347"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067138"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通話品質儀表板中上傳租使用者並建立資料 (CQD) 
 
@@ -71,6 +71,8 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
 
 - 如果資料行使用 [字串] 資料類型，資料欄位可以是空的，但仍必須以 tab 或逗號分隔。 空白資料欄位只會指派空的字串值。
 
+- 每個租使用者資料檔的列數限制為1000000。
+
 - 每個資料列必須有15個數據行，每一欄都必須具有適當的資料類型，且欄必須按照下表所列的順序 (逗號或定位字元分隔) ：
 
   **建立資料檔案格式**
@@ -106,7 +108,7 @@ CQD 中的第一個租使用者資料檔類型就是 **組建** 資料檔案。 
 > [!IMPORTANT]
 > 網路範圍可以用來代表幾個子網的 (supernet 組合，) 的單一路由前置詞。 所有新的建築物上傳都會被檢查，以取得任何重迭的範圍。 如果您先前上傳的是組建檔案，您應該下載目前的檔案，然後重新上傳以找出任何重疊，並修正問題，然後再重新上傳。 先前上傳的檔案中的任何交疊，可能會導致無法正確地將子網對應至報表中的建築物。 某些 VPN 實現不會精確地報告子網資訊。 
 >
-> [VPN] 欄是選擇性的，預設為0。 如果 VPN 欄的值設為1，則該資料列所代表的子網將會完全展開，以符合子網中的所有 IP 位址。  請謹慎使用這個方式，然後只針對 VPN 子網，因為完全擴充這些子網會對涉及建立資料之查詢的查詢時間造成負面影響。
+> [VPN] 欄是選擇性的，預設為0。 如果 VPN 欄的值設為1，則該資料列所代表的子網將會完全展開，以符合子網中的所有 IP 位址。 請謹慎使用這個方式，然後只針對 VPN 子網，因為完全擴充這些子網會對涉及建立資料之查詢的查詢時間造成負面影響。 如果子網的延伸結果超出了1000000的展開列限制，就不會接受組建檔案。
 
 
 ### <a name="supernetting"></a>Supernetting

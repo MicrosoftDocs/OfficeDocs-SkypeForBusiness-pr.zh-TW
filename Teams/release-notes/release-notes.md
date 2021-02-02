@@ -16,16 +16,52 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 3dd48c9f2da10d4238d05d9de610867b5d94b873
+ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909377"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50070928"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
+
+## <a name="january-27-2021"></a>2021年1月27日
+
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>與團隊整合的虛擬走訪融入 EHR
+
+我們已更新 Microsoft 團隊電子健康情況記錄 (EHR) 連接器與連接器的介面，讓臨床醫師輕鬆地在 EHR 系統中與其他團隊提供者一起啟動虛擬患者造訪或諮詢。 [深入了解](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin)。
+
+## <a name="january-22-2021"></a>2021年1月22日
+
+### <a name="firstline-workers-are-now-called-frontline-workers"></a>第一線員工工人現在稱為第一線工人
+
+我們已將第一線員工工作者的標題變更為第一線工作人員。
+
+## <a name="january-21-2021"></a>2021年1月21日
+
+### <a name="offline-documentation"></a>離線檔
+
+即使您處於離線狀態或正在執行低頻寬條件時，小組仍會繼續執行。 小組會將所有未傳送 (的郵件儲存在最多24小時) ，然後在您返回線上時立即傳送。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues)。
+
+## <a name="january-19-2021"></a>2021年1月19日
+
+### <a name="teams-approvals-app-availability"></a>團隊核准應用程式可用性
+
+[核准] 應用程式可作為個人 app 提供給所有 Microsoft 團隊使用者使用。 核准 app 提供一種簡單的方法，可將審核、合規性、責任及工作流程帶入小組中的結構化和非結構化核准。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/approval-admin)。
+
+## <a name="january-15-2021"></a>2021年1月15日
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>針對 Google Workspace 設定 Microsoft 團隊會議附加元件
+
+您必須先由小組管理員啟用 Google Workspace 的 Microsoft 團隊會議附加元件，才能讓租使用者存取 app。 [深入了解](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams)。
+
+## <a name="january-4-2021"></a>2021年1月4日
+
+### <a name="calendar-sharing"></a>行事曆共用
+
+我們新增了新增頻道至 [行事曆] 索引標籤的功能。
 
 ## <a name="december-21-2020"></a>2020年12月21日
 

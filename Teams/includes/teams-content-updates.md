@@ -3,6 +3,43 @@
 
 
 
+## <a name="week-of-january-25-2021"></a>2021年1月25日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 1/25/2021 | [在 Microsoft Teams 中建立全組織小組](/MicrosoftTeams/create-an-org-wide-team) | 日期 |
+| 1/25/2021 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 1/25/2021 | [管理 Microsoft 團隊中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 日期 |
+| 1/25/2021 | [安全性與合規性概述](/MicrosoftTeams/security-compliance-overview) | 日期 |
+| 1/25/2021 | [Teams 升級規劃研討會](/MicrosoftTeams/upgrade-workshops-landing-page) | 日期 |
+| 1/25/2021 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 日期 |
+| 1/25/2021 | [在 Microsoft 團隊中使用內容搜尋](/MicrosoftTeams/content-search) | 日期 |
+| 1/25/2021 | [對內容進行 eDiscovery 調查](/MicrosoftTeams/ediscovery-investigation) | 日期 |
+| 1/25/2021 | [在法律封存上放置 Microsoft 團隊使用者或團隊](/MicrosoftTeams/legal-hold) | 日期 |
+| 1/26/2021 | [將學生資訊系統 (SIS) 資料與 Education Insights 同步處理。](/MicrosoftTeams/education-insights-sis-data-sync) | 相加 |
+| 1/26/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
+| 1/26/2021 | [尺寸與測量-通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
+| 1/26/2021 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 1/27/2021 | [Microsoft 團隊的高級通訊附加元件](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 日期 |
+| 1/27/2021 | [Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 日期 |
+| 1/27/2021 | [尺寸與測量-通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
+| 1/27/2021 | [在建立團隊時規劃 Microsoft 365 群組](/MicrosoftTeams/plan-office-365-groups) | 日期 |
+| 1/27/2021 | [Microsoft 團隊適用的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 日期 |
+| 1/28/2021 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 日期 |
+| 1/28/2021 | [在團隊系統管理中心管理稱讚應用程式](/MicrosoftTeams/manage-praise-app) | 日期 |
+| 1/28/2021 | [Microsoft Teams 中的公開預覽](/MicrosoftTeams/public-preview-doc-updates) | 日期 |
+| 1/28/2021 | [Microsoft 團隊聊天室管理的服務](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 日期 |
+| 1/28/2021 | [使用小組 App 提交 API 來提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 日期 |
+| 1/29/2021 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
+| 1/29/2021 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 1/29/2021 | [針對虛擬走訪的小組](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 日期 |
+| 1/29/2021 | [管理外部存取 (同盟) ](/MicrosoftTeams/manage-external-access) | 日期 |
+| 1/29/2021 | [Microsoft 團隊中的外部 (聯盟) 使用者的原生聊天體驗](/MicrosoftTeams/native-chat-for-external-users) | 日期 |
+| 1/29/2021 | [已知問題](/MicrosoftTeams/rooms/known-issues) | 日期 |
+| 1/29/2021 | [團隊與 Skype 互通性](/MicrosoftTeams/teams-skype-interop) | 日期 |
+
+
 ## <a name="week-of-january-18-2021"></a>2021年1月18日
 
 
