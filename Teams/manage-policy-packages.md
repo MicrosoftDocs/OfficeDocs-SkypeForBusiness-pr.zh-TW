@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
-ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
-ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
+ms.openlocfilehash: 395b0f2c05278224bf024c1cf3e453a2f51bd725
+ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49862583"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50085188"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
@@ -64,8 +64,8 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 |教育版 (教師)     |建立適用于教師的一組原則與原則設定。      |
 |使用遠端學習 (主要學校老師的教育版)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |使用遠端學習) 的主要學校學生 (教育版    |建立適用於學生的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
-|第一線管理員 |建立一組原則，並將這些設定套用到貴組織中的 Fronttline 管理員。 |
-|Fronttline worker |建立一組原則，並將這些設定套用到貴組織中的 Fronttline 工作人員。 |
+|第一線管理員 |建立一組原則，並將這些設定套用到貴組織中的第一線管理員。 |
+|第一線 worker |建立一組原則，並將這些設定套用到貴組織中的第一線工作人員。 |
 |醫療保健臨床工人  |建立一組原則與原則設定，提供臨床工人（例如註冊的護士、充電護士、醫生和社會員工）完整存取聊天、通話、值班管理和會議。 |
 |醫療保健資訊工作者  |建立一組原則與原則設定，以提供資訊工作者，例如 IT 人員、informatics 員工、財務人員及合規性監察官，完整存取聊天、通話及會議。|
 |醫療保健患者機房  |建立一組原則與原則設定，適用于您的保健組織中的患者會議室。|
@@ -94,7 +94,7 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 2. 輸入套件的名稱和描述。
     :::image type="content" source="media/policy-packages-add-custom.png" alt-text="新增自訂策略套件的螢幕擷取畫面":::
 3. 選取要包含在套件中的原則類型和原則名稱。
-4. 按一下 **[儲存]**。
+4. 按一下 [儲存 **]**。
 
 ## <a name="how-to-use-policy-packages"></a>如何使用原則套件
 
@@ -167,7 +167,7 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 ## <a name="related-topics"></a>相關主題
 
-[指派策略給小組中的使用者](assign-policies.md)
+[在 Teams 中將原則指派給使用者](assign-policies.md)
 
 [EDU 管理員的團隊原則套件](policy-packages-edu.md)
 

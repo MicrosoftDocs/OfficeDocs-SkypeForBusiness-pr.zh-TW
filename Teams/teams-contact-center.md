@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 0913bef8a77e66ae3b82905a8d154940f32c2392
+ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909487"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084746"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -62,29 +62,9 @@ Api 可讓合作夥伴開發並整合小組的 CCaaS 方案。 此外，我們�
 
 此清單會隨著更多合作夥伴加入並符合認證準則而更新。
 
-## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>連絡人中心解決方案在 Microsoft 團隊中的運作方式為何？
-
-Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解決方案，包括：
-
-1. [直接路由連線](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
-
-2. [Microsoft Graph 雲端通訊 Api](https://docs.microsoft.com/graph/cloud-communications-get-started)
-
-3. 團隊平臺與擴充性
-
-4. 團隊 Sdk
-
-總之，這些功能可讓您實現三種整合模型：
-
-  - 透過 [直接路由 **]** 連線 () 
-
-  - 連線 **並延伸** (直接路由、圖形 Api 與團隊 app 平臺) 
-
-  -  (將團隊 Sdk 內嵌到原生團隊互動的3p 應用程式中 **，延伸及加電**) 
-
 ### <a name="connect"></a>至
 
-此模型會將 CCaaS 合作夥伴與 Microsoft 團隊手機系統基礎結構連線，以增強路由、設定及系統深入分析。 在此模型中，[接觸中心] 合作夥伴解決方案也可以為所選的號碼和使用者提供電話語音。
+此模型會將 CCaaS 合作夥伴與 Microsoft 團隊手機系統基礎結構連線，以增強路由、設定及系統深入分析。 
 
 使用在連線模型上建立之解決方案的代理程式可將資訊 & insights 收集，以及直接將來電轉接至團隊專家，以確保他們的可用性。
 
@@ -98,15 +78,13 @@ Microsoft 團隊提供一系列的功能，可支援開發協力廠商語音解�
 
   - 來自團隊使用者的目前狀態指示 
 
-  - 透過 [測試方案] 中的指示，透過直接路由 (通話流程)  
-
   - 支援使用團隊使用者轉移和群組通話 
 
   - 團隊圖形 Api 和雲端溝通 Api 與團隊整合 
 
   - 能夠支援多租使用者 SIP 中繼，以支援合作夥伴的 SBC 中的數個客戶。  
 
-  - 要在 SBC 中實現[ <span class="underline">Microsoft 認證會話邊界控制器 (</span>的合作夥伴) ](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 使用[ <span class="underline">Microsoft 認證會話邊界控制器 (SBC</span>的合作夥伴) ](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>連接並延伸
 
