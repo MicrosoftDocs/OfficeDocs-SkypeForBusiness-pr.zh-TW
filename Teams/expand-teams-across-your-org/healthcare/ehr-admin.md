@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft 團隊設定您的虛擬走訪系統
-ms.openlocfilehash: 6753afbabf6bbcb420f9ddf479249a968d33eb2c
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
+ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055692"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50101331"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>與團隊整合的虛擬走訪融入 EHR
 
@@ -46,7 +46,7 @@ Microsoft 團隊電子健康情況記錄 (EHR) 連接器可讓臨床醫師輕鬆
 
 - 在 [長篇應用程式果園 marketplace](https://apporchard.epic.com/Gallery?id=6153)中使用 Microsoft 團隊 app 的存取權。
 
-- 適用于 Microsoft 雲端保健或訂閱 Microsoft 團隊 EHR 連接器獨立優惠的有效訂閱。
+- [適用于 Microsoft 雲端的 Microsoft 雲端訂閱] 或 [Microsoft 團隊訂閱] 的 [使用中訂閱]，只會在生產測試) 中強制執行 (。
 
 - 使用者必須具備適當的 Microsoft 365 或 Office 365 授權，包括 Microsoft 團隊會議。
 

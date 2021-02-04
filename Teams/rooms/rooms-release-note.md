@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
-ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
+ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
+ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49670747"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50101321"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -29,6 +29,7 @@ ms.locfileid: "49670747"
 
 |最新發佈 |已發佈至 <br/> Microsoft 網上商店 |
 |--- |--- |
+|4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
@@ -69,6 +70,11 @@ ms.locfileid: "49670747"
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 團隊聊天室功能簡介和問題解決
+
+### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021) 
+
+此更新中引入的專案：
+- 品質與可靠性修正程式
 
 ### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020) 
 
