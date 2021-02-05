@@ -30,18 +30,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578176"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110316"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>開始從商務用 Skype 升級至 Microsoft 團隊
 
 恭喜您將要開始從商務用 Skype 升級至 Microsoft Teams 的升級。 無論您是剛開始使用 Teams、已在使用 Teams 搭配商務用 Skype，或是已準備好進行升級，我們都想要確保您具備前往 Teams 的成功旅程所需的一切。
 
 無論您要從商務用 Skype Online 升級到 Teams，或從商務用 Skype 內部部署環境升級到 Teams，升級架構會根據您的商務案例引導您完成程序。
+
+| 圖示 | 說明 |
+| --- | --- |
+|![逐步符](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **升級中樞**：您可以在 [規劃從商務用 Skype 升級到 Microsoft 團隊](upgrade-skype-teams.yml)時，從商務用 skype 升級至小組，以取得所有指導方針、訓練及資源的概覽。|
+
+繼續閱讀關於升級的常見問題。
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>為什麼要升級至 Microsoft Teams？
 

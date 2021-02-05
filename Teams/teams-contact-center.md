@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心作為服務 (CCaaS Microsoft 團隊的) 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0913bef8a77e66ae3b82905a8d154940f32c2392
-ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
+ms.openlocfilehash: 4094af6a9e79cf8bdabf17e056024c24f1802130
+ms.sourcegitcommit: 33093f90489adeddbca56a6234ecf36e59126f05
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084746"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107037"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 團隊的連絡人中心整合
 
@@ -40,20 +40,24 @@ Microsoft 團隊支援客戶互動工作資料流程，方法是在其溝通模�
 
 Api 可讓合作夥伴開發並整合小組的 CCaaS 方案。 此外，我們已開發 Microsoft 團隊認證計畫的線上連絡人中心，為客戶提供每個參與合作夥伴的解決方案都經過測試和驗證，以提供他們預期的品質、相容性及可靠性（由 Microsoft 解決方案提供）。
 
+下列合作夥伴已為 Microsoft 團隊提供經過認證的解決方案，且已準備好參與客戶：
+
+|  Partner                                                                                                                               |  解決方案網站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+
 下列合作夥伴正在驗證其 Microsoft 團隊的解決方案，且已準備好參與客戶：
 
 |  Partner                                                                                                                               |  解決方案網站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `8x8` | https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams?locale=us |
-| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
-| 'Geomant' | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
+| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |

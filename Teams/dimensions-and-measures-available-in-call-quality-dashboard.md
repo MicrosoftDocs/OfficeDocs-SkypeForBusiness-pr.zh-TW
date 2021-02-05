@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 [通話品質儀表板] 的詳細資訊，請參閱 Microsoft (CQD) for Microsoft 團隊及商務用 Skype Online。
-ms.openlocfilehash: fc5515b0eea9df234a1f4439b1db61a93ba19713
-ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
+ms.openlocfilehash: 35f92ac94c8ebe08f979fc9fe7797bc4114eda4c
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032432"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110356"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質儀表板中提供的尺寸和量化指標 (CQD) 
 
@@ -219,8 +219,8 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第二個本機媒體轉接位址 | String | 第二個端點所分配媒體轉送伺服器的 Microsoft IP 位址。 <br/> 這與第二個中繼 IP 是類似的資訊，但會透過傳輸診斷事件（而不是 QoE）來報告。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
 | 第一個遠端媒體轉送位址 | String | 第二個端點所分配的媒體轉送伺服器的 Microsoft IP 位址，並與第一個端點交換。 <br/> 因任何原因而無法使用第二個端點上的傳輸診斷事件時所需的額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
 | 第二個遠端媒體轉接位址 | String | 由第一個端點所指派的媒體轉送伺服器的 Microsoft IP 位址，並與第二個端點交換。 <br/> 因任何原因而無法使用第一個端點上的傳輸診斷事件時所需的額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
-| 第一次傳輸通訊協定 | 列舉字串 | 第一個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/> | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
-| 第二個傳輸通訊協定 | 列舉字串 | 第二個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/> | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
+| 第一次傳輸通訊協定 | 列舉字串 | 第一個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/>&bull;MultiTCP-使用多個 TCP 連線的連接模型，並使用迴圈分發資料包給每個連結。 </br> | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
+| 第二個傳輸通訊協定 | 列舉字串 | 第二個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/>&bull;MultiTCP-使用多個 TCP 連線的連接模型，並使用迴圈分發資料包給每個連結。 </br> | &bull; 未報告傳輸診斷類型 <br/>&bull; 媒體路徑沒有建立 |
 |**裝置**| |||
 | 第一次捕獲開發人員  | String  | 第一個端點所使用的捕獲裝置名稱。 作為 <br/> **音訊串流** = 麥克風使用的裝置 <br/> **影片串流** = 相機使用的裝置 <br/> 以 **影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程** = 空白 <br/> **範例值：** Microsoft LifeChat LX (的耳機麥克風-6000)   | &bull; 端點未報告資料 <br/>&bull; 媒體路徑沒有建立 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用。  |
 | 第二個捕獲開發人員  | String  | 第二個端點所使用的捕獲裝置名稱。  <br/> **音訊串流** = 麥克風使用的裝置 <br/> **影片串流** = 相機使用的裝置 <br/> 以 **影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程** = 空白 <br/> **範例值：** Microsoft LifeChat LX (的耳機麥克風-6000)  | <br/>&bull; 端點未報告資料 <br/>&bull; 未建立媒體路徑 <br/>&bull; 資料流程是以影片為基礎的畫面共用或應用程式共用   |

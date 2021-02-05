@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973067"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110206"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -57,7 +57,7 @@ ms.locfileid: "49973067"
 
 <sup>4</sup> 28 KB 是大約限制，因為它包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
 
-<sup>5</sup> GCC 中的 Teams 只能容納成員，且 GCCH/DoD 中的 Teams 只能容納 2,500 個成員。
+<sup>5</sup> GCC 中的 Teams 只能容納 5,000 個成員，而 GCCH/DoD 中只能容納 2,500 個成員。
 
 ## <a name="messaging"></a>訊息傳送
 

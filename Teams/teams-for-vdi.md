@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: 8022e6b1c4d6ebcaeb70ec7cc23e1f4cad5d929a
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868348"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110286"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -386,6 +386,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 不支援下列通話與會議功能：
 
+- 任何多視窗功能（例如新的會議體驗），或新的會議體驗所帶來的任何功能
 - 增強的緊急服務
 - 小組 app 與裝置之間的 HID 按鈕和 LED 控制項
 - 背景模糊和效果

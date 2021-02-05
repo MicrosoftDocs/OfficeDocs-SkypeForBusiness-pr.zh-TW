@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我們從我們想要使用音訊會議的客戶所取得的主要問題。
-ms.openlocfilehash: ff6b7d195c2ecd47eb47a924129422a2154f70c4
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 7bc540969222badd245180361405c58ed0ebf9b1
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235801"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110266"
 ---
 # <a name="audio-conferencing-common-questions"></a>音訊會議的常見問題
 
@@ -123,7 +123,7 @@ ms.locfileid: "48235801"
 商務用 Skype 或 Microsoft 團隊使用者可以在設定之後，在要傳送給他們的電子郵件中找到 PIN。
   
 > [!NOTE]
-> 商務用 Skype 或 Microsoft 團隊使用者將無法重設其 PIN。 PIN 只能由您（管理員）來重設。重設 PIN 之後，系統會傳送電子郵件給使用者。 
+> 團隊使用者可以變更其 pin。 在會議邀請底部有一個連結，以重設其 pin。 
   
 我們正在努力解決解決方案，讓使用者可以在沒有組織管理員的協助下存取及重設 PIN。
   

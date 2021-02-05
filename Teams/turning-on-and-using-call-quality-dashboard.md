@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。
-ms.openlocfilehash: 9a864b0ad0f48e3a0bd8665b8dfeb917e67f4062
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 60363ed86e4e073b7ca5a752261ac806188900b1
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48918654"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50112839"
 ---
 # <a name="set-up-call-quality-dashboard-cqd"></a>設定通話品質儀表板 (CQD) 
 
-開啟 Microsoft 通話品質儀表板 (CQD) 在 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (使用您的管理員認證登入) 。 或移至 [團隊管理中心]，然後選取 [ **通話品質儀表板** ]。 
+開啟 Microsoft 通話品質儀表板 (CQD) 在 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (使用您的管理員認證登入) 。 或移至 [團隊管理中心]，然後選取 [ **通話品質儀表板**]。 
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="[團隊管理中心] 中 [通話品質儀表板] 按鈕的螢幕擷取畫面":::
 
@@ -53,16 +53,16 @@ CQD 會顯示通話與會議品質，在組織範圍中，針對 Microsoft 團�
 
 |  |查看報表  |[查看 EUII] 欄位  |建立報表  |上傳資料  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 全域系統管理員     |是         |是         |是         |是         |
+|全域系統管理員     |是         |是         |是         |是         |
 |Teams 服務管理員     |是         |是         |是         |是         |
 |Teams 通訊系統管理員     |是         |是         |是         |是         |
 |Teams 通訊支援工程師     |是         |是         |是         |否         |
 |團隊溝通支援專家     |是         |否         |是         |否         |
 |商務用 Skype 系統管理員     |是         |是         |是         |是         |
-|Azure AD 全域讀取器 |是         |是         |是         |否         |
-|Office 365 報告讀取器<sup>1</sup>     |是         |否         |是         |否         |
+|全域閱讀程式 |是         |是         |是         |否         |
+|報告讀取器<sup>1</sup>     |是         |否         |是         |否         |
 
-<sup>1</sup> 除了讀取 CQD 報表之外，Office 365 報告閱讀者還可以查看系統管理中心的所有 [活動報告](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) ，以及 [Microsoft 365 採用內容套件](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有報告。
+<sup>1</sup> 除了讀取 CQD 報表之外，報表閱讀者還可以查看系統管理中心的所有 [活動報告](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) ，以及 [Microsoft 365 採用內容套件](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有報告。
 
 > [!NOTE]
 > 如果您沒有看到 [EUII (使用者可辨識的資訊) ](CQD-data-and-reports.md#euii-data) ，且您擁有允許其查看這項資訊的角色，請記住 CQD 只能在28天內保留 EUII。 已刪除超過28天的任何專案。

@@ -17,19 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 Microsoft 團隊中的小組 App 提交 API 來核准已提交的自訂應用程式。
-ms.openlocfilehash: 6b9304cf2af9e45dd9fd2955cda6498ce1dbc3ae
-ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
+ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50043967"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110226"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過團隊 App 提交 API 提交的自訂應用程式
 
 ## <a name="overview"></a>概觀
 
 > [!NOTE]
-> 當您發佈自訂團隊 app 時，您組織的 app store 中的使用者就能使用該應用程式。 發佈自訂應用程式的方式有兩種，您使用的方式取決於您取得 app 的方式。 **本文重點說明如何核准併發布開發人員透過團隊 App 提交 API 提交的自訂應用程式**。 當開發人員以 .zip 格式傳送您的應用程式套件時，會使用另一個方法（上傳自訂的應用程式）。 若要深入瞭解該方法，請參閱 <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">上傳應用程式套件以發佈自訂應用程式</a>。
+> 當您發佈自訂團隊 app 時，您組織的 app store 中的使用者就能使用該應用程式。 發佈自訂應用程式的方式有兩種，您使用的方式取決於您取得 app 的方式。 **本文重點說明如何核准併發布開發人員透過團隊 App 提交 API 提交的自訂應用程式**。 當開發人員以 .zip 格式傳送您的應用程式套件時，會使用另一個方法（上傳自訂的應用程式）。 若要深入瞭解該方法，請參閱 <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">上傳應用程式套件以發佈自訂應用程式</a>。 在 GCC 租使用者中無法使用 [核准] app 小工具。 
 
 本文提供如何將您的小組 app 從開發移至部署到探索的端對端指導方針。 您將掌握團隊在 app 週期中提供的連線體驗的概覽，以簡化在組織的 app store 中開發、部署及管理自訂應用程式的方式。
 
@@ -47,9 +47,9 @@ Microsoft 團隊開發人員平臺可讓開發人員輕鬆地整合您自己的 
 
 ### <a name="submit-the-app"></a>提交應用程式
 
-當應用程式準備好在生產中使用時，開發人員可以使用小組 App 提交 API 來提交應用程式，這可以從 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">圖表 API</a>、整合開發環境 (IDE) （例如 Visual Studio 程式碼），或諸如電源 App 與 Power Virtual agent 之類的平臺。 如此一來，Microsoft 團隊系統管理中心的 [ <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">管理</a> app] 頁面上的應用程式可供使用，您可以在此查看及核准。
+當應用程式準備好在生產中使用時，開發人員可以使用小組 App 提交 API 來提交應用程式，這可以從 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">圖表 API</a>、整合開發環境 (IDE) （例如 Visual Studio 程式碼），或諸如電源 App 與 Power Virtual agent 之類的平臺。 如此一來，Microsoft 團隊系統管理中心的 [ <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">管理</a> app] 頁面上的應用程式可供使用，您可以在此查看及核准。
 
-<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">建立于 Microsoft Graph</a>的小組 APP 提交 API 可讓您的組織在您選擇的平臺上進行開發，並自動針對團隊中的自訂應用程式提供核准式提交程式。
+<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">建立于 Microsoft Graph</a>的小組 APP 提交 API 可讓您的組織在您選擇的平臺上進行開發，並自動針對團隊中的自訂應用程式提供核准式提交程式。
 
 以下是這個 app 提交步驟在 Visual Studio 程式碼中的外觀範例：
 
@@ -57,7 +57,7 @@ Microsoft 團隊開發人員平臺可讓開發人員輕鬆地整合您自己的 
 
 請記住，這並不會將 app 發佈到貴組織的 app store。 此步驟會將 app 提交至 Microsoft 團隊系統管理中心，您可以在其中核准發佈至組織的 app store。
 
-如需使用圖形 API 來提交應用程式的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">這裡</a>。
+如需使用圖形 API 來提交應用程式的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">這裡</a>。
 
 ## <a name="validate"></a>核實
 
@@ -71,7 +71,7 @@ Microsoft 團隊開發人員平臺可讓開發人員輕鬆地整合您自己的 
 
 ![已提交應用程式的應用程式詳細資料頁面](media/custom-app-lifecycle-app-details.png)
 
-如需使用圖形 API 檢查 **發佈狀態** 的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-1.0&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">這裡</a>。
+如需使用圖形 API 檢查 **發佈狀態** 的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-beta&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">這裡</a>。
 
 ## <a name="publish"></a>出版
 
@@ -129,7 +129,7 @@ Microsoft 團隊開發人員平臺可讓開發人員輕鬆地整合您自己的 
 - 當應用程式獲核准時，任何人都可以提交應用程式的更新。 這表示其他開發人員，包括最初提交 app 的開發人員，可以提交應用程式的更新。
 - 當開發人員提交應用程式且要求擱置時，只有同一位開發人員才能提交應用程式的更新。 其他開發人員只能在應用程式核准後提交更新。
 
-如需使用圖形 API 來更新應用程式的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">這裡</a>。
+如需使用圖形 API 來更新應用程式的詳細資訊，請參閱 <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">這裡</a>。
 
 ### <a name="update-experience-for-users"></a>使用者的更新體驗
 
@@ -156,4 +156,4 @@ Microsoft 團隊開發人員平臺可讓開發人員輕鬆地整合您自己的 
 - [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
 - [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
 - [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)
-- <a href="https://docs.microsoft.com/graph/api/resources/teamsapp?view=graph-rest-1.0" target="_blank">適用于團隊 app 的 Microsoft Graph API</a>
+- <a href="https://docs.microsoft.com/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">適用于團隊 app 的 Microsoft Graph API</a>
