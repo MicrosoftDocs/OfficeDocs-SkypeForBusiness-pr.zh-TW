@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
-  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+  ms.openlocfilehash: 9cefe2a8558b10a6d53a6b6c49c519f9f8aa13f3
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/13/2021
-  ms.locfileid: "49841474"
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110336"
 title: 常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 summary: ''
 sections:
@@ -46,9 +46,9 @@ sections:
   - question: 我可以在哪裡深入了解 Microsoft Teams 系統管理中心的共存模式？
     answer: >
       在 Microsoft Teams 系統管理中心，您會發現共存模式的選項，讓您的組織能夠管理適合組織的商務用 Skype 至 Teams 旅程。 深入了解[共存與升級模式](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
-  - question: 我應該如何準備升級？
+  - question: 我該如何準備升級？
     answer: >
-      若要成功升級，除了使用者接受整備程度之外，還包含驗證技術整備程度。 即使您判斷您的組織還未準備好升級至 Teams，您還是可以立即開始規劃程序。 此外，您也可以隨著商務用 Skype 一起啟用 Teams，開始實現 Teams 的價值。 立即開始您的 [Skype 至 Teams 旅程](https://aka.ms/skypetoteams-home))。
+      若要成功升級，除了使用者接受整備程度之外，還包含驗證技術整備程度。 即使您判斷您的組織還未準備好升級至 Teams，您還是可以立即開始規劃程序。 此外，您也可以隨著商務用 Skype 一起啟用 Teams，開始實現 Teams 的價值。 立即開始[您的 Skype 至 Teams 旅程](https://aka.ms/skypetoteams-home) (英文)。
 
 
       Microsoft 也提供即時互動的研討會，分享專為開始升級規劃和實作所設計的指引、最佳做法和資源。 [深入了解升級規劃研討會](https://aka.ms/SkypeToTeamsPlanning) (英文)。
@@ -121,4 +121,4 @@ sections:
     answer: >
       [會議室裝置](https://products.office.com/microsoft-teams/across-devices)對於我們目前現代化工作場所的願景而言至關重要。 [雲端視頻互通性服務](https://docs.microsoft.com/microsoftteams/cloud-video-interop)可以使用可透過我們的合作夥伴 Pexip、Polycom 及 Blue Jeans 取得的現有 VTC 系統，支援 Teams 會議。
   - question: 最新一代的 Skype 會議室系統 v2 是否支援在 Teams 中舉行會議？
-    answer: 我們將「Skype 會議室系統」更名為「Microsoft Teams 會議室」，它完整支援 Microsoft Teams 會議，並且提供從商務用 Skype 移至 Teams 的簡單移轉路徑，只要在裝置上啟用 Teams 即可。 除了可讓使用者使用鄰近偵測來識別附近的「Microsoft Teams 會議室」的功能之外，還能透過按一下加入 Teams 會議、雙螢幕支援、Microsoft Whiteboard，而且我們會持續引進創新功能，例如具有智慧擷取的內容相機。
+    answer: 我們將 Skype 室系統 rebranded 到 Microsoft 團隊聊天室，完全支援 Microsoft 團隊會議，並提供從商務用 Skype 到團隊的簡單遷移路徑（只要在裝置上啟用小組即可）。 除了可讓使用者使用鄰近性偵測來識別附近的 Microsoft 團隊聊天室之外，團隊會議可以使用單一按一下、雙畫面支援、Microsoft 白板，以及使用智慧捕獲來繼續提供內容相機等創新的功能。
