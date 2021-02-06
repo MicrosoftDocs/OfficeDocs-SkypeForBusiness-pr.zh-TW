@@ -15,14 +15,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 ms.reviewer: ''
 description: 使用預訂 App 進行 Microsoft 團隊和虛擬走訪
-ms.openlocfilehash: 684c442765b868ca96e9d1bf243817f9378f0b5d
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790615"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125746"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft 團隊和預定 app 進行虛擬走訪
 
@@ -55,13 +57,13 @@ Microsoft 團隊中的 [預定] 應用程式提供一種簡單的方式來排程
 
 ## <a name="recommended-meeting-policy-settings"></a>建議的會議原則設定
 
-若要為預訂提供最佳的使用體驗，請建立員工會議原則來自動承認 **貴組織中的每個人** 。 這可讓員工自動加入約會，並啟用外部出席者的會議廳體驗。 您可以深入瞭解如何 [將人員自動 admitting 到會議](meeting-policies-in-teams.md#automatically-admit-people)。
+若要為預訂提供最佳的使用體驗，請建立員工會議原則來自動承認 **貴組織中的每個人**。 這可讓員工自動加入約會，並啟用外部出席者的會議廳體驗。 您可以深入瞭解如何 [將人員自動 admitting 到會議](meeting-policies-in-teams.md#automatically-admit-people)。
 
 ### <a name="optional-staff-approvals-setting"></a>選用員工核准設定
 
 如果您是額外的隱私權設定，您可以選擇 [要求員工在排程的可用性資訊透過預訂共用之後，且可在預訂約會前進行選擇。  
 
-若要啟用此設定，請移至 **Microsoft 365 系統管理中心** \> **設定** \> **設定** ，然後選取 [ **預定** ]。
+若要啟用此設定，請移至 **Microsoft 365 系統管理中心** \> **設定** \> **設定**，然後選取 [ **預定**]。
 
 開啟此設定時，員工將會收到一封電子郵件，要求他們在其中向預定行事曆核准成員資格。  
 
@@ -92,7 +94,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 功能缺口或遺失的功能
   - 錯誤或問題
   
-若要傳送意見反應，請 **按一下位於小組** 左側導覽列附近的 [說明] 按鈕，然後按一下 [針對 **所有** 問題 **報告問題** ]。 請注意，您要傳送意見反應給您的意見反應報告開始，您會收到「預定」的意見反應，讓我們可以輕鬆找出預訂問題。
+若要傳送意見反應，請 **按一下位於小組** 左側導覽列附近的 [說明] 按鈕，然後按一下 [針對 **所有** 問題 **報告問題**]。 請注意，您要傳送意見反應給您的意見反應報告開始，您會收到「預定」的意見反應，讓我們可以輕鬆找出預訂問題。
 
 ## <a name="related-topics"></a>相關主題
 

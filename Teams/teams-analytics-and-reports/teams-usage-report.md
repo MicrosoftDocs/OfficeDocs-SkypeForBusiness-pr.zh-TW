@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: kojika
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63193b6540a40e9ad4a2171c95f638dfb7c1d112
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 993c1b124737a0f335e9c9b1e720af72fcc88a8e
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809263"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122253"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 團隊使用量報告
 
@@ -37,7 +37,7 @@ Microsoft 團隊系統管理中心中的 [團隊使用方式] 報告可讓您大
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以針對過去7天、30或90天的趨勢，查看 [團隊使用狀況] 活動報告。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 67194f02c92bac390083e3ea3e983e7b8518e595
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918909"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125799"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -81,7 +81,7 @@ ms.locfileid: "49918909"
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議**  >  **會議原則**]。
 2. 按一下原則名稱左邊的，然後選取 [ **編輯**]，選取原則。
-3. 您可以從這裡進行所要的變更。
+3. 從此處，進行您需要的變更。
 4. 選取 [ **儲存**]。
 
 > [!NOTE]
@@ -499,13 +499,17 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 [ **可以出席的人員** ] 設定可讓會議召集人選擇要在會議中成為簡報者的人員。 若要深入瞭解，請參閱[在團隊會議中](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)[變更團隊會議](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)與角色的參與者設定。
 
-目前您只能使用 PowerShell 來設定此原則設定。 您可以使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用 [新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
+您可以使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用 [新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
 
 若要指定 [ **可以提出的人員** ] 的預設值，請將 **DesignatedPresenterRoleMode** 參數設定為下列其中一項：
 
 - **EveryoneUserOverride**：所有會議參與者都可以是簡報者。 此為預設值。 這個參數會對應到 [小組] 中的 [ **所有人** ] 設定。
 - **EveryoneInCompanyUserOverride**：組織中經過驗證的使用者，包括來賓使用者，都可以是簡報者。 這個參數會對應到 [ **我的組織** 中的人員] 設定。
 - **OrganizerOnlyUserOverride**：只有會議召集人可以成為簡報者，且所有會議參與者都指定為出席者。 這個參數會對應到 [團隊] 中的 [ **僅自己** ] 設定。
+
+此外，您可以在 [團隊管理中心] 編輯此原則。 
+
+![團隊系統管理中心的螢幕擷取畫面](media/designated-presenter-role.png)
 
 請記住，在您設定預設值之後，會議召集人仍可在團隊中變更此設定，並選擇誰可以在排程的會議中出席。
 
@@ -558,5 +562,5 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [指派策略給小組中的使用者](assign-policies.md)
+- [在 Teams 中將原則指派給使用者](assign-policies.md)
 - [從使用者移除 RestrictedAnonymousAccess 團隊會議原則](meeting-policies-restricted-anonymous-access.md)

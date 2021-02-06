@@ -17,16 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft 團隊設定您的虛擬走訪系統
-ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101331"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125776"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>與團隊整合的虛擬走訪融入 EHR
 
@@ -90,7 +92,7 @@ Microsoft 團隊電子健康情況記錄 (EHR) 連接器可讓臨床醫師輕鬆
 
 - FHIR 基底 URL 是與您的伺服器 FHIR API 端點相對應的靜態位址。 範例 URL 是 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` 。
 
-- [設定核准者名稱] 是要在下一步中負責核准設定的長篇客戶分析員的名稱。 長篇故事客戶分析員是您組織中的人員，可以登入對長篇的存取權。
+- [設定核准者名稱] 是要在下一步中負責核准設定的長篇客戶分析員的名稱。 長篇故事客戶分析機構是您組織中的人員，且具有 [登入] 存取長篇故事。
 
   ![設定核准者的名稱是從 EHR 連接器的清單中選取。](../../media/teams-ehr-connector.png)
 

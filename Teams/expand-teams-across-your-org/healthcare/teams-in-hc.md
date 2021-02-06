@@ -17,6 +17,8 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-overview
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
@@ -24,12 +26,12 @@ description: 瞭解 Microsoft 團隊 telehealth、EHR 整合、第一線 worker 
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 623958e8d2b3185e2e46fe1fe50330d7d084a6cb
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: a5b8ea7cddba8def74a1f5b839710cf73bafc67e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909247"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125766"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊
 
@@ -49,6 +51,19 @@ Microsoft 團隊提供許多適用于醫院和其他醫療保健組織的 teleme
 
 > [!NOTE]
 > 本區段中的內容假設您已在組織中部署團隊。 如果您尚未推出小組，請先閱讀 [瞭解如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)。
+
+下列案例適用于醫療保健組織：
+
+| 案例 | 說明 | 需求 |
+| -------- | -------- | -------- |
+| [使用電子醫療保健記錄的虛擬造訪 (EHR) 整合](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 使用患者排程、管理及進行虛擬走訪。 這個案例會連接 Microsoft 團隊與長篇故事平臺，以支援虛擬走訪。 | 適用于 Microsoft 雲端保健或訂閱 Microsoft 團隊 EHR 連接器獨立優惠的有效訂閱。 <br> 使用者必須具備適當的 Microsoft 365 或 Office 365 授權，包括 Microsoft 團隊會議 *。 <br> 組織必須具有長篇故事版本2018年11月或更新版本。 <br>[EHR 需求的詳細資料](ehr-admin.md#before-you-begin) |
+| [使用 Microsoft 預訂和預定 app 進行虛擬走訪](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 使用患者排程、管理及進行虛擬走訪。 這個案例依賴 Microsoft 預訂來支援虛擬走訪。 | 您必須為組織開啟 Microsoft 預訂。 <br> 預訂 app 的所有使用者和參與會議的所有人員都必須擁有支援小組會議排程的授權。 <br>[預訂需求的詳細資料](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [團隊原則套件](#teams-policy-packages)| 確保臨床工作者、資訊工作者和患者機房裝置具備適當的團隊功能存取權。| 使用者必須具備適當的授權 *。 |
+| [安全訊息](#secure-messaging) | 讓您更容易注意到緊急郵件，並確信郵件已收到並閱讀。 | 使用者必須具備適當的授權 *。  |
+| [團隊範本](#teams-templates-for-healthcare-organizations) | 建立小組，在 ward、pod 或部門中，或在醫院中的多個 wards、箱與部門之間，包含預先定義的設定範本、頻道及預先安裝的 app。 | 使用者必須具備適當的授權 *。  |
+| [護理協調與共同作業](#care-coordination-and-collaboration) | 在排程、檔、工作等上，臨床醫師與教職員可以在內部共同作業。| 使用者必須具備適當的授權 *。 |
+
+* 支援 Office 365 A3、A5、E3 和 E5，以及 Microsoft 365 商務標準、A3、A5、E3 和 E5。 如需有關一般團隊授權的詳細資訊，請參閱 [管理使用者對團隊的存取權](../../user-access.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虛擬走訪與電子醫療保健記錄 (EHR) 整合
 
@@ -140,3 +155,11 @@ Microsoft 團隊可讓醫生、臨床醫師、護士及其他員工以 Microsoft
 Microsoft 團隊會與倒班 app 和第一線工作者整合，這可以用來共同調整倒班人員的功能。 例如，在倒班中，護士經理可以為員工設定與協調排程，而護士可以檢查排程及調換班次。 團隊包含內建的第一線 Worker 應用程式設定原則，您可以將它指派給貴組織中的第一線工作人員。 根據預設，原則包含活動、班次、聊天及呼叫 app。 此原則會控制這些 app 的行為，例如，將倒班 app 釘選到應用程式行，讓團隊能快速存取。
 
 若要深入瞭解，請參閱 [在 Microsoft 團隊中管理貴組織的倒班應用程式](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
+
+## <a name="help-your-clinical-and-information-workers-get-going-with-teams"></a>協助您的臨床與資訊工作者參與團隊
+
+有許多資源可協助貴組織中的所有使用者使用團隊感到舒適：
+
+- 如果您只是開始與團隊進行歷程，或是將團隊擴大至更多組織範圍，請造訪 [團隊採用中心](https://adoption.microsoft.com/microsoft-teams/) ，以取得推出團隊的建議。
+- 考慮為您的使用者設定自訂 [學習路徑](https://adoption.microsoft.com/microsoft-365-learning-pathways/) ，以涵蓋所需執行的工作。
+- 針對您的使用者取得協助和訓練，瞭解如何在 [團隊支援網站](https://support.microsoft.com/teams)上的 Microsoft 團隊中執行基本工作，包括 [快速訓練](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)影片。 此網站也提供小組 app 的說明與訓練，包括 [清單](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) [、工作](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)、 [核准](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)、 [預訂](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)及 [倒班](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。

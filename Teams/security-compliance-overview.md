@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbf0ededcb1a5f3037bfb896242902daaa2a79b
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 0c400f6f3fdb0c0cf5abce3a34f05c8488909aab
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973077"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122203"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -169,6 +169,18 @@ Microsoft 團隊中的 [資料遺失防護] (DLP) ，以及適用于 Microsoft 3
 ### <a name="auditing-and-reporting"></a>審核與報告
 
 在 Microsoft 365 合規性中心直接進行審核記錄搜尋，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以針對 Microsoft 365 合規性中心內的所有審核記錄資料設定警示，並篩選及匯出此資料以進行進一步分析。 請參閱 [搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) ，進一步瞭解如何執行 Microsoft 365 或 Office 365 的審核記錄搜尋。 若要深入瞭解在 Microsoft 365 規範中心中搜尋 Microsoft 團隊活動，我們也會 [開啟小組中的審核](audit-log-events.md) 來供您查看。
+
+## <a name="customer-key"></a>客戶金鑰
+
+Microsoft 365 在針對您的內容的服務加密上提供額外的加密層級。 客戶金鑰使用您提供的金鑰會在 Microsoft 團隊中加密幾種不同類型的資料。 在應用程式層級使用客戶金鑰，客戶金鑰會對儲存在 SharePoint Online 中的小組檔案進行加密。 如需詳細資訊，請參閱 [使用客戶金鑰的服務加密](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview)。 
+
+在租使用者層級使用客戶金鑰，客戶金鑰會進行加密：
+- 小組聊天訊息 (1:1 聊天、群組聊天、會議聊天和頻道交談) 
+- 小組媒體訊息 (影像、程式碼片段、影片和 wiki 影像) 
+- 團隊通話和會議錄製儲存在團隊儲存中
+- 團隊聊天通知
+- 透過 Cortana 進行的小組聊天建議
+- 小組狀態訊息如需詳細資訊，請參閱 [在租使用者層級 Microsoft 365 的客戶金鑰概述](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) ，並閱讀 microsoft 團隊博客，涵蓋 microsoft 團隊 [在公眾預覽版中的客戶重要支援](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)。 如需在租使用者層級隨附客戶金鑰的 Microsoft 資訊保護版本資訊，請閱讀 [宣佈新的 Microsoft 資訊保護功能，以瞭解及保護您的機密資料](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
 
 ## <a name="privacy"></a>隱私權
 
