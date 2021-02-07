@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 7063fc09ab7ba93a050d6fe1fd0ec9ae74888b27
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110206"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125625"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -36,28 +36,30 @@ ms.locfileid: "50110206"
 |-----------|---------------|
 |一位使用者可以建立的小組數目 | 受限於 250 的物件限制&sup1;         |
 |一位使用者可以加入成為成員的團隊數目|1,000&sup2;|
-|一個小組中的成員數目 | 10,000<sup>5</sup>     |
+|一個小組中的成員數目 | 10,000<sup>6</sup>     |
 |每個小組擁有者人數 | 100   |
 |一個租用戶中允許的全組織小組數目 | 5     |
 |一個[全組織小組](create-an-org-wide-team.md)中的成員數目 | 10,000       |
 |一位全域系統管理員可以建立的小組數目        |  500,000   |
-|一個 Microsoft 365 或 Office 365 組織可以擁有的小組數目    | 500,000&sup2;     |
-|每個小組的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
-|每個小組的私人頻道數量    |30| (包含已刪除的頻道)&sup3;
+|一個 Microsoft 365 或 Office 365 組織可以擁有的小組數目    | 500,000&sup3;     |
+|每個小組的頻道數目    | 200 (包含已刪除的頻道)&sup4;         |
+|每個小組的私人頻道數量    |30| (包含已刪除的頻道)&sup4;
 |私人頻道中的成員數目    |250|
 |可匯入小組中的通訊群組清單、安全性群組或 Office 365 群組的大小上限    |3,500|
-|Office 365 群組中可轉換成小組的成員數目上限    |10,000<sup>5</sup>     |
-|頻道交談貼文大小 | 每篇貼文約 28 KB<sup>4</sup> |
+|Office 365 群組中可轉換成小組的成員數目上限    |10,000<sup>6</sup>     |
+|頻道交談貼文大小 | 每篇貼文約 28 KB<sup>5</sup> |
 
 <sup>1</sup> Azure Active Directory 中的任何目錄物件都會計入此限制。全域系統管理員會從此限制豁免，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式亦然。
 
-<sup>2</sup> 此限制包含已封存的小組。 若要超出 Microsoft 365 或 Office 365 組織可以擁有的小組數量上限，您必須與 Microsoft 支援服務連絡，並要求進一步增加您的租用戶中 Azure Active Directory 物件的數量。
+<sup>2</sup> 此限制包含已封存的小組。 
 
-<sup>3</sup> 已刪除的頻道可以在 30 天內還原。在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道或 30 個私人頻道的限制。30 天後，已刪除的頻道及其內容會永久刪除，且該頻道不再會計入每個小組頻道的限制。
+<sup>3</sup> 若要進一步增加小組數目，您必須與 Microsoft 支援服務連絡，並要求進一步增加您的租用戶中 Azure Active Directory 物件的數量。 只有實際生產案例才會增加。
 
-<sup>4</sup> 28 KB 是大約限制，因為它包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
+<sup>4</sup> 已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道或 30 個私人頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，且該頻道不再會計入每個小組頻道的限制。
 
-<sup>5</sup> GCC 中的 Teams 只能容納 5,000 個成員，而 GCCH/DoD 中只能容納 2,500 個成員。
+<sup>5</sup> 28 KB 是大約限制，因為其包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
+
+<sup>6</sup> GCC 中的 Teams 只能容納 5,000 個成員，而 GCCH/DoD 中只能容納 2,500 個成員。
 
 ## <a name="messaging"></a>訊息傳送
 
