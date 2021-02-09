@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 274a83925a47519dba174a75bd92582670dab1d6
+ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101321"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150879"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -330,7 +330,7 @@ ms.locfileid: "50101321"
 
 - 錯誤/損毀修正以改善穩定性
 - 支援可變大小的主控台
-- 週邊音訊處理卸載 (其他媒體 whitelisting) 
+- 週邊音訊處理卸載 (其他媒體 allowlist) 
 - 使 IT 專業人員能夠使用 Windows 10 版本1709（更新版及更新版本）來建立自己動手影像的優化。
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017) 

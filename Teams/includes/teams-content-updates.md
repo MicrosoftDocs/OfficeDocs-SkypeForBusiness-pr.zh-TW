@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-february-01-2021"></a>2021年2月1日的周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 2/1/2021 | [在通話品質儀表板中上傳租使用者並建立資料 (CQD) ](/MicrosoftTeams/cqd-upload-tenant-building-data) | 日期 |
+| 2/1/2021 | [Microsoft Teams 中 Education Insights 的 IT 系統管理員指南](/MicrosoftTeams/class-insights) | 日期 |
+| 2/1/2021 | [將學生資訊系統 (SIS) 資料與 Education Insights 同步處理](/MicrosoftTeams/education-insights-sis-data-sync) | 日期 |
+| 2/1/2021 | [Microsoft 團隊中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams) | 日期 |
+| 2/1/2021 | [管理及監視團隊](/MicrosoftTeams/manage-teams-overview) | 相加 |
+| 2/1/2021 | [Microsoft 團隊版本資訊](/MicrosoftTeams/release-notes/release-notes) | 日期 |
+| 2/2/2021 | [使用 Microsoft 365 和自訂連接器](/MicrosoftTeams/office-365-custom-connectors) | 日期 |
+| 2/2/2021 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
+| 2/2/2021 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
+| 2/3/2021 | [使用 Microsoft 團隊匯出 Api 匯出內容](/MicrosoftTeams/export-teams-content) | 日期 |
+| 2/3/2021 | [瑞士的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 日期 |
+| 2/3/2021 | [將會話邊界控制器 (SBC) 連線至直接路由](/MicrosoftTeams/direct-routing-connect-the-sbc) | 日期 |
+| 2/3/2021 | Microsoft 團隊 \| 環境就緒性 \| 採納，探索 | 移除 |
+| 2/3/2021 | [針對虛擬走訪的小組](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 日期 |
+| 2/3/2021 | [版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 日期 |
+| 2/4/2021 | [小組連絡人中心](/MicrosoftTeams/teams-contact-center) | 日期 |
+| 2/4/2021 | [通話品質儀表板 (CQD) 常見問題 (常見問題) ](/MicrosoftTeams/cqd-frequently-asked-questions) | 日期 |
+| 2/4/2021 | [從商務用 Skype 升級至 Teams 的常見問題集](/MicrosoftTeams/faq-journey) | 日期 |
+| 2/4/2021 | [音訊會議的常見問題](/MicrosoftTeams/audio-conferencing-common-questions) | 日期 |
+| 2/4/2021 | [尺寸與測量-通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
+| 2/4/2021 | [設定會話邊界控制器-多重承租人](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
+| 2/4/2021 | [Microsoft 團隊管理員說明文件 # < 60 字元](/MicrosoftTeams/index) | 日期 |
+| 2/4/2021 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 2/4/2021 | [使用小組 App 提交 API 來提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 日期 |
+| 2/4/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
+| 2/4/2021 | [呼叫 & 會議的小組原則錄製簡介](/MicrosoftTeams/teams-recording-policy) | 日期 |
+| 2/4/2021 | [設定通話品質儀表板 (CQD) ](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
+| 2/4/2021 | [開始將商務用 Skype 升級至團隊](/MicrosoftTeams/upgrade-start-here) | 日期 |
+| 2/5/2021 | [安全性與合規性概述](/MicrosoftTeams/security-compliance-overview) | 日期 |
+| 2/5/2021 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
+| 2/5/2021 | [在 Microsoft 365 多地域環境中的團隊體驗](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 日期 |
+| 2/5/2021 | [管理管理中心的團隊範本](/MicrosoftTeams/templates-policies) | 相加 |
+| 2/5/2021 | [在 Microsoft 團隊中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 2/5/2021 | [針對虛擬走訪的小組](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 日期 |
+| 2/5/2021 | [開始使用適用于醫療保健組織的團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
+| 2/5/2021 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 2/5/2021 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 2/5/2021 | [使用 Microsoft 端點建構管理員安裝團隊](/MicrosoftTeams/msi-deployment) | 日期 |
+| 2/5/2021 | [規劃小組自動語音應答及呼叫佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 日期 |
+
+
 ## <a name="week-of-january-25-2021"></a>2021年1月25日
 
 
@@ -17,7 +63,7 @@
 | 1/25/2021 | [在 Microsoft 團隊中使用內容搜尋](/MicrosoftTeams/content-search) | 日期 |
 | 1/25/2021 | [對內容進行 eDiscovery 調查](/MicrosoftTeams/ediscovery-investigation) | 日期 |
 | 1/25/2021 | [在法律封存上放置 Microsoft 團隊使用者或團隊](/MicrosoftTeams/legal-hold) | 日期 |
-| 1/26/2021 | [將學生資訊系統 (SIS) 資料與 Education Insights 同步處理。](/MicrosoftTeams/education-insights-sis-data-sync) | 相加 |
+| 1/26/2021 | [將學生資訊系統 (SIS) 資料與 Education Insights 同步處理](/MicrosoftTeams/education-insights-sis-data-sync) | 相加 |
 | 1/26/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
 | 1/26/2021 | [尺寸與測量-通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
 | 1/26/2021 | [認證以直接路由的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |

@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 32b2accc906b0f4f0dc85b5edf1d9501b64dda14
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ffc2f15cdbef49daf36e09ca9676925ebb1ac99e
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909527"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145920"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
-
-> [!NOTE]
-> 如果您已啟用整個組織內的應用程式設定， **允許與自訂應用程式互動**，您可能不會在 Microsoft 團隊系統管理中心看到 app 設定原則。 目前正在推出，且即將在您的組織中提供此功能。
 
 做為管理員，您可以使用應用程式設定原則來執行下列工作：
 
@@ -45,7 +42,7 @@ ms.locfileid: "49909527"
 
 若要查看其預先安裝的應用程式，請在應用程式行中，使用者選取 **.。。** 團隊桌面及網頁用戶端中的其他應用程式，並在行動用戶端中向上滑動。
 
-您可以在 Microsoft [團隊管理中心] 管理 app 設定原則。 使用全域 (組織範圍的預設) 原則，或建立並指派自訂原則。  除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
+您可以在 Microsoft [團隊管理中心] 管理 app 設定原則。 使用全域 (組織範圍的預設) 原則，或建立並指派自訂原則。  除非您建立並指派自訂原則，否則組織中的使用者將會自動取得全域原則。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
 您編輯全域原則中的設定，以包含您想要的 app。 若要針對貴組織中不同群組的使用者自訂小組，請建立並指派一或多個自訂原則。
 
@@ -101,7 +98,7 @@ ms.locfileid: "49909527"
 
 2. 按一下原則名稱左邊的，然後選取 [ **編輯**]，選取原則。
 
-3. 您可以從這裡進行所要的變更。
+3. 從此處，進行您需要的變更。
 
 4. 選取 [ **儲存**]。
 
@@ -137,7 +134,7 @@ ms.locfileid: "49909527"
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>原則變更要花多久時間才能生效
 
-在您編輯或指派原則之後，可能需要幾個小時的時間，變更才會生效。
+編輯或指派原則之後，變更可能需要幾個小時的時間才會生效。
 
 ### <a name="user-experience"></a>使用者體驗
 
@@ -172,6 +169,6 @@ ms.locfileid: "49909527"
 
 ## <a name="related-topics"></a>相關主題
 
-[在 Teams 中的應用程式系統管理設定](admin-settings.md)
+[在 Teams 中管理應用程式的設定](admin-settings.md)
 
-[指派策略給小組中的使用者](assign-policies.md)
+[在 Teams 中將原則指派給使用者](assign-policies.md)

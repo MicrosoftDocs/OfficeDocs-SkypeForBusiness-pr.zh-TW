@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 Microsoft 團隊中的小組 App 提交 API 來核准已提交的自訂應用程式。
-ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 0003bc218b425383ba117296ba847a637d76ac43
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110226"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145800"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過團隊 App 提交 API 提交的自訂應用程式
 
@@ -30,6 +30,9 @@ ms.locfileid: "50110226"
 
 > [!NOTE]
 > 當您發佈自訂團隊 app 時，您組織的 app store 中的使用者就能使用該應用程式。 發佈自訂應用程式的方式有兩種，您使用的方式取決於您取得 app 的方式。 **本文重點說明如何核准併發布開發人員透過團隊 App 提交 API 提交的自訂應用程式**。 當開發人員以 .zip 格式傳送您的應用程式套件時，會使用另一個方法（上傳自訂的應用程式）。 若要深入瞭解該方法，請參閱 <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">上傳應用程式套件以發佈自訂應用程式</a>。 在 GCC 租使用者中無法使用 [核准] app 小工具。 
+
+> [!IMPORTANT]
+> 此方法目前不適用於 GCC 環境。 您必須使用 *上傳自訂的應用程式* 方法。
 
 本文提供如何將您的小組 app 從開發移至部署到探索的端對端指導方針。 您將掌握團隊在 app 週期中提供的連線體驗的概覽，以簡化在組織的 app store 中開發、部署及管理自訂應用程式的方式。
 

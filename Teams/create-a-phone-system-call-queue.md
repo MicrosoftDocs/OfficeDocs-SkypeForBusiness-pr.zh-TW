@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中設定電話聯絡佇列，提供問候語、等候音樂、呼叫重新導向及其他功能。
-ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 0253fb15a8672d83e672e3e3e18f8455d292214c
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125786"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145890"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -119,12 +119,15 @@ ms.locfileid: "50125786"
 
 **Agent 警示時間** 指定在佇列將呼叫重新導向至下一個代理程式之前，該電話會響鈴的時間。
 
-對於大量的佇列，我們建議您進行下列設定：
+建議使用下列設定：
 
 - **自動** 進行 **會議模式**
-- **傳送路由方法** 來 **傳送路由**
+- **傳送方式** 是 **迴圈或****最長空閒**
 - [目前 **狀態] 路由** 至 [**開啟**]
 - **Agent 提醒時間：** **20 秒**
+
+> [!NOTE]
+> 如果未啟用目前狀態的路由，且佇列中有多個通話，系統會同時將這些來電加入到工程師，而不管其目前狀態為何。 這將會導致多個代理程式呼叫通知，特別是在某些代理程式沒有應答提供給他們的初始呼叫時。
 
 ## <a name="call-overflow-handling"></a>呼叫溢出處理
 

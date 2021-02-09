@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110367"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150869"
 highlightedContent:
   items:
   - title: 利用我們經驗證的升級架構
@@ -99,7 +99,7 @@ productDirectory:
   - title: Ignite 會話：設計您的團隊路徑
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: 從 Ignite 2020 的這個會話可協助您找出最適合您的商務用 Skype 實現與目標的方法。
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Microsoft 團隊方案與定價
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: 為您的企業尋找合適的 Microsoft 團隊。
