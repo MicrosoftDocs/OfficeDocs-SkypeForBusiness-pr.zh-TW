@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 (（例如耳機、免持聽筒、網路攝影機和監視器) 認證給 Microsoft 團隊）的 USB 外設和裝置。
-ms.openlocfilehash: 5a5777b0ee32cce1986e6b8a07e6d4940f2dc617
-ms.sourcegitcommit: f3ab9437759db8d3ab67b57111cb7bf47eb9c18e
+ms.openlocfilehash: 21c74ce59830f9cac63200e8e7f4f99cfc54235f
+ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50033334"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173099"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -78,6 +78,7 @@ ms.locfileid: "50033334"
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |同步處理40免持聽筒                                       |1/19/2021       |針對 Microsoft 團隊認證                           |
 |Poly                 |使用 Poly BT600 USB 轉換器同步處理 40 + 話筒           |1/19/2021       |針對 Microsoft 團隊認證                           |
 |Yealink              |UH34 雙/單聲道耳機                                     |12/23/2020      |針對 Microsoft 團隊認證                           |
 |Yealink              |MP50 USB 電話                                             |12/23/2020      |針對 Microsoft 團隊認證                           |
