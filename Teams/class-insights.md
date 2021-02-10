@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067128"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145900"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -102,6 +102,9 @@ Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能�
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="釘選 Insights 應用程式":::
 
+> [!TIP]
+> 您也可以透過以下連結找到 Insights 應用程式：[https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## <a name="when-is-insights-used"></a>Insights 的使用時機？ 
 Insights 在整個 **學習週期** 支援學習社群。 透過多個維度的即時度量，Insights 可支援學校社群成員之間的識別、反映、討論和採取行動的持續循環。
 *   **識別** 學生與授課者、課程教材及其同儕互動的方式和時間，以及他們執行作業的情況。 
@@ -177,10 +180,9 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 若要深入了解，請參閱 [**將學生資訊系統 (SIS) 資料與 Education Insights 同步處理**](education-insights-sis-data-sync.md)。
 
 ## <a name="manage-permissions"></a>管理權限
-您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社交工作者和心理學家提供權限。 當授課者擁有班級團隊時，系統就會自動提供其權限。
+您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社交工作者和心理學家提供權限。 當授課者擁有班級團隊時，系統就會 *自動* 提供其權限。
 
-> [!NOTE]
-> 僅將權限提供給需要的教育領導者，並僅限他們負責的團隊。 如果您不確定是否需要特定組織的使用者權限，請洽詢您機構的隱私權主題專家，例如法務或人力資源人員。
+若要深入了解，請參閱 [**管理 Education Insights 的使用者存取權**](education-insights-manage-access.md)。
 
 ## <a name="manage-the-setup-policy"></a>管理設定原則
 身為 IT 系統管理員，您可以使用應用程式設定原則，在授課者和領導者啟動 Teams 時，預設為其安裝 Insights。 使用設定原則，您可以自訂 Teams 以突顯 Insights，並將它釘選在應用程式列中。

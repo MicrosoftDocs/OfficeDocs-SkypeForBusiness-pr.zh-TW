@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067118"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145820"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>將學生資訊系統 (SIS) 資料與 Education Insights 同步處理
 送入 [Education Insights](class-insights.md) 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
@@ -56,10 +56,10 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
 > 在部署過程中，您可以决定是使用 SDS 在 Teams 中設定使用者和班級，還是只使用 SDS 向 Insights 提供資料。
 
 ## <a name="best-practices"></a>最佳做法
-階層的精確對應以及每個人在該階層中所屬的位置使 Insights 能够為不同類型的教育領導者提供準確的資料和更精確和相關的深入解析。
+階層的精確對應以及每個人在該階層中所屬的位置，使 Insights 能够為不同類型的教育領導者提供準確的資料和更精確和相關的深入解析。
 
 在這裡提供的詳細資料越多，報告和焦點就越好、越相關。
-以下是一些確保 SDS 順利部署的最佳做法，從而使您的使用者能够充分利用這些深入解析。
+以下是一些確保 SDS 順利部署的最佳做法，從而使您的使用者能够充分利用這些 Insights。
 
 ### <a name="users"></a>使用者
 *   確保 *所有使用者* 都列在您提供並同步處理的檔案中。 這包括所有需要查看所涵蓋組織單位資料的學生和員工。

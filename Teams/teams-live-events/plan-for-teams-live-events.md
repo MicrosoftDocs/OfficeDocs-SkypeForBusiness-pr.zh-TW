@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757758"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145910"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -40,10 +40,11 @@ ms.locfileid: "49757758"
 
 使用者需要具備下列必要條件，才能排定 Teams 即時活動。
 
-若要產生或出席 Teams 即時活動，您必須獲派以下授權：  
+若要組織、產生或出席 Teams 即時活動，您必須獲派以下授權：  
 
-- Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，或 Office 365 教育版 A3 或 A5 授權。這項需求的例外情況是，如果符合[來賓使用者](plan-for-teams-live-events.md#guest-to-present)的其他準則，來賓使用者就可以不使用授權出席。
-- Microsoft Teams 授權：這包含在第一個項目符號列出的授權中。
+- **若要組織：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 授權。 
+- **若要產生或出席：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 授權。 這項需求的例外情況是，如果符合[來賓使用者](plan-for-teams-live-events.md#guest-to-present)的其他準則，來賓使用者就可以不使用授權出席。
+- Microsoft Teams 授權 - 這包含在第一個和第二個項目符號列出的授權中。
 - Microsoft Stream 授權 - 如果您打算將內容共用給外部應用程式或裝置，就必須有此授權；請參閱 [Microsoft Stream 授權](https://docs.microsoft.com/stream/license-overview)。
 
   如果您只想讓使用者錄影及下載錄製檔，則使用者不需獲指派 Microsoft Stream 授權。這表示，錄製檔不會儲存在 Microsoft Stream 而是會儲存在 Azure Media Services (AMS) 中，並將於 180 天的時間限制後刪除。目前系統管理員並無法控制或管理此機制，以包括刪除它的功能。
