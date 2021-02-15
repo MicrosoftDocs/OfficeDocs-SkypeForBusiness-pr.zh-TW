@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611807"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196467"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
@@ -52,7 +52,7 @@ Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Director
 - Whiteboard (方案 1)
 - Yammer Enterprise
 
-  <sup>1</sup> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。 啟動時，您將可以選擇加入此體驗。 在 11 月，如果您想繼續使用 Stream，您將必須選擇退出。 2021 年初，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
+  <sup>1</sup> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。 啟動時，您將可以選擇加入此體驗。 在 11 月，如果您想繼續使用 Stream，您將必須選擇退出。 2021 年初，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
 
 ## <a name="whos-eligible"></a>符合使用資格的對象
 
@@ -60,6 +60,8 @@ Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Director
 
 - 有受管理的 Azure AD 網域電子郵件地址。
 - 屬於具有付費訂閱的租用戶。
+- 沒有有效的 Teams 授權。
+- 不在已建立授權指派原則的租用戶中。
 
 必須啟用使用者才能註冊應用程式和試用版 (於 Microsoft 365 系統管理中心)。如需詳細資訊，請參閱本文稍後的[管理 Teams Exploratory 體驗](#manage-the-teams-exploratory-experience)。
 
@@ -169,17 +171,13 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 體驗持續時間
 
-Microsoft Teams Exploratory 體驗可免費使用 12 個月 (從第一位使用者註冊開始) 加上 30 天的寬限期。 屆時 Microsoft Exploratory 體驗授權的使用者將需要移至包括 Teams 的付費授權。 相同租用戶中的所有使用者適用相同的結束日期，即第一位使用者註冊日期開始的 12 個月。
+自 2021 年年初起，Teams Exploratory 將以 12 個月訂閱形式 (從使用者初始註冊起) 提供所有新客戶使用。 新的 Teams Exploratory 訂閱會在組織中的第一個使用者註冊 Teams Exploratory 時開始，並且會在 12 個月之後到期。 由於 12 個月是從第一位使用者註冊日期開始，到期日將對相同租用戶中的所有使用者套用。
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>如果使用者在週年日或續約日到期前起始 Microsoft Teams Exploratory 體驗，會發生什麼情況
+> [!NOTE]
+> 體驗的結束日期在組織層級設定，表示它會套用至相同組織中的所有使用者。 例如，使用者 1 在 2021 年 1 月 1 日註冊取得訂閱。 這會起始 2021 年 12 月 31 日的訂閱結束日期。 另一位使用者，使用者 2 在 2021 年 10 月 1 日註冊取得訂閱。 使用者 2 可以使用 Teams Exploratory 兩個月，因為其結束日期將為 2021 年 12 月 31 日，因為他們與使用者 1 屬於相同組織的訂閱。
 
-在您的 **合約週年日** 或 **續約** 日 90 天內起始的 Microsoft Teams Exploratory 體驗授權，直到下一個週年日或續約週期為止前，都不需移到付費授權。
+### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>在 12 個月的 Teams Exploratory 體驗結束時，系統管理員應該執行什麼動作
 
-### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>如果我的合約沒有週年日或每年續約日期 (例如月對月合約)，該怎麼辦
+在 12 個月訂閱結束時，系統管理員應將所有 Teams Exploratory 使用者轉換成包括 Teams 在內的付費授權。 確保在 Teams Exploratory 訂閱到期之前完成此工作是非常重要的，以避免對使用者的體驗造成中斷。
 
-對於沒有周年紀念日或每年續約日期的合約，在第一位使用者啟用 Microsoft Teams Exploratory 體驗授權後的第二年將被視為周年紀念日或續約日期。 根據本文中所述原則，必須在每年的該日期之前將擁有 Microsoft Teams Exploratory 授權的使用者轉換為付費授權。
-
-例如，如果第一位使用者在 2020 年 6 月 19 日啟用了 Microsoft Teams Exploratory，則他們和客戶租用戶中的所有其他合格使用者必須在 2021 年 6 月 19 日之前轉換為 Teams 的付費授權。
-
-> [!Note]
-> 在前一個 Exploratory 體驗授權到期後的 3 個月內客戶將被停用並封鎖開始新 Explaratory 授權。
+如需詳細資訊，請參閱本文上方的[從 Teams Exploratory 授權升級使用者](#upgrade-users-from-the-teams-exploratory-license)。
