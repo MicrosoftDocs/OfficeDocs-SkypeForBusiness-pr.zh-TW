@@ -1,5 +1,5 @@
 ---
-title: 管理貴組織的清單應用程式
+title: 管理貴組織的 [清單] 應用程式
 author: cichur
 ms.author: v-cichur
 ms.reviewer: anach,v-jasuk
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 瞭解如何針對貴組織中的使用者管理團隊中的 [清單] 應用程式。
+description: 瞭解如何針對貴組織中的使用者管理 Teams 中的 [清單] 應用程式。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,101 +24,101 @@ appliesto:
 ms.custom: ''
 ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
 ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/23/2021
 ms.locfileid: "49944608"
 ---
-# <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的清單應用程式
+# <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
-## <a name="overview-of-lists"></a>清單概覽
+## <a name="overview-of-lists"></a>[清單] 概觀
 
-Microsoft 團隊中的 [清單] 應用程式可協助組織中的使用者追蹤資訊、組織工作，以及管理工作流程。 使用者可以使用清單來追蹤問題、資產、常式、連絡人、庫存、事件、貸款、患者等資料，並使用可自訂的視圖、規則和通知來保持小組中的每個人都保持同步。
+Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者追蹤資訊、整理工作及管理工作流程。 使用 [清單]，使用者可以使用可自訂的視圖、規則和警示來追蹤相關資料，例如問題、資產、例行會議、連絡人、庫存、事件、貸款、病人等，以保持團隊中的每個人同步。
 
-在團隊中，使用者會將清單作為頻道中的索引標籤存取。 按一下 **+** 以開啟索引標籤圖庫，然後新增 [清單] 應用程式索引標籤實例至頻道，即可開始使用。
+在 Teams 中，使用者將 [清單] 視為頻道中的索引標籤加以存取。 按一下 **+** 以開啟索引標籤庫，並將新 [清單] 應用程式索引標籤實例新增至頻道，以開始使用。
 
 ![索引標籤庫中的 [清單] 應用程式](media/lists-tab.png)
 
-使用者可以從相同團隊或其他人有權存取的 SharePoint 網站建立新清單或釘選現有清單。 您可以從內建的範本、根據現有清單的結構或從 Excel 活頁簿匯入資料，從頭開始建立新的清單。 [清單] app 可在小組桌面、web 和行動用戶端中取得。
+使用者可以建立新清單，或從同一小組內或他們有存取權的不同 SharePoint 網站釘選現有清單。 可根據現有清單的結構，或從 Excel 活頁簿匯入資料，以從頭、從內建範本來建立新清單。 [清單] 應用程式可在 Teams 的桌上型電腦、Web 和行動用戶端使用。
 
 ![如何在 [清單] 應用程式中建立清單](media/lists-create-list.png)
 
-## <a name="templates"></a>模版
+## <a name="templates"></a>範本
 
-清單中的範本是針對使用者的常見資訊追蹤案例量身定制的。 每個範本都有一個預先定義的清單結構、表單版面配置及格式設定選項（在 [清單] 視圖和 [詳細資料] 視圖層級）中，以協助使用者快速入門。 選取範本之後，使用者就會預覽清單的外觀，以及一些範例資料。 以下範例說明貴組織中的小組如何在清單中使用預先定義的範本：
+[清單] 中的範本是針對使用者的常見資訊追蹤案例而量身打造的。 每個範本都有一組預先定義的清單結構、表單版面配置和格式設定選項 (清單視圖和詳細資料視圖層級)，可協助使用者快速開始使用。 選取範本之後，使用者會看到清單外觀的預覽，以及一些範例資料。 下列範例說明貴組織中的小組可如何使用 [清單] 中預先定義的範本：
 
-- 使用 [問題追蹤器] 範本追蹤問題並讓他們關閉。
-- 使用 [事件路線] 範本來整理您的所有活動詳細資料。
-- 使用患者範本，在您的醫療保健組織中記錄患者在健康小組中的需求和狀態，以監控及協調護理。
-- 使用貸款範本追蹤貸款申請的狀態。
+- 使用 [問題追蹤器] 範本來追蹤問題並直到解決問題。
+- 使用 [活動時間表] 範本來整理您所有的活動詳細資料。
+- 您可以使用病人範本來記錄患者的需求和狀態，以便讓醫療保健組織中的健康小組監視和協調照護。
+- 使用貸款範本來追蹤貸款申請的狀態。
 
 ## <a name="example-scenario"></a>範例案例
 
-當地的郵局負責在他們的地區中排序並傳送郵件。 每早上，郵局都有一個小組 huddle 來審查日常目標、共用公告，並討論已知的事件。
+本地郵局負責在其地區中排序和傳送郵件。 每天早上，郵局都會有小組聚會來檢閱每日目標、分享公告，並討論已知的事件。
 
-Huddle 之後，郵件載體會拾取其郵件，並開始傳送傳送路線。 事件可能會沿著路線進行，例如交通意外、狗相關的問題，或社交 unrest 拒付。 當郵件運營商遇到事件時，他們會在行動裝置上使用團隊來記錄事件詳細資料，並在團隊頻道清單中追蹤這些活動。 小組中的每個人（包括欄位中的郵件載體）都可以看到這項資訊並保持及時瞭解。
+聚會之後，郵件運送人就會撿拾自己的郵件並啟動其遞送路線。 在遞送路線中可能會發生事件，例如車輛事故、狗相關的問題或社會動亂的抗議。 當郵件運送人遇到事件時，他們會利用其行動裝置上的 Teams 來記錄事件詳細資料，並透過小組頻道的清單追蹤。 小組中的每個人 (包括在外面的郵件運送人) 都能看到這項資訊並取得最新訊息。
 
-在移至團隊之前，郵件運營商必須回到郵局，才能完成硬拷貝表單，以報告在 Excel 試算表中輸入的事件。 團隊首先為郵件運營商提供行動裝置，讓他們可以在其中使用清單來報告其在欄位中的事件、與小組成員共用事件詳細資料、在頻道中取得相關的交談，以及將事件放到解決方案中。
+移至 Teams 之前，郵件運送人必須回到郵局，完成紙本表單，以報告在 Excel 試算表中輸入的事件。 Teams 先提供郵件運送人一個行動裝置，讓他們體會可以在何處使用 [清單] 來報告實地發生的事件、與小組成員分享事件詳細資料、在頻道中進行討論以及取得問題的解決方法。
 
-## <a name="what-you-need-to-know-about-lists"></a>清單所需注意的事項
+## <a name="what-you-need-to-know-about-lists"></a>必須知道的有關 [清單] 的事情
 
-### <a name="lists-is-available-in-every-team-and-channel"></a>清單在每個團隊和頻道中都有提供
+### <a name="lists-is-available-in-every-team-and-channel"></a>在每個小組和頻道中都可取得 [清單]
 
-清單是針對所有團隊使用者預先安裝的，可直接在每個團隊和頻道的索引標籤庫中取得。 這表示使用者不需要移至 [小組 app store] 就能安裝它。
+所有 Teams 使用者都會有預先安裝的 [清單]，且可直接在每個小組和頻道的索引標籤庫中取得。 這表示使用者不需要移至 Teams 應用程式市集就能安裝。
 
-### <a name="lists-and-sharepoint"></a>清單和 SharePoint
+### <a name="lists-and-sharepoint"></a>[清單] 和 SharePoint
 
-清單資料會儲存在 SharePoint Online 小組網站中。 若要深入瞭解 SharePoint Online 與團隊互動的方式，請參閱 [Sharepoint online 與商務用 OneDrive 與團隊互動的方式](SharePoint-OneDrive-interact.md)。
+[清單] 資料會儲存在 SharePoint Online 小組網站中。 如需 SharePoint Online 與 Teams 如何互動的詳細資訊，請參閱 [Sharepoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
 
-在 SharePoint 中設定的許可權會套用至 [清單] 應用程式中建立的清單。 根據預設，清單會繼承其所屬網站的許可權。 這些許可權會控制使用者可以執行的動作類型，例如是否可以建立或編輯清單。 若要深入瞭解，請參閱 [sharepoint 中的許可權等級](https://docs.microsoft.com/sharepoint/understanding-permission-levels) ，以及 [sharepoint Server 中的使用者許可權和許可權等級](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)。
+在 SharePoint 中設定的權限會套用至 [清單] 應用程式中建立的清單。 根據預設，清單會繼承其所屬網站的權限。 這些權限會掌控使用者可以執行的動作類型，例如是否可建立或編輯清單。 若要深入瞭解，請參閱 [SharePoint 的權限等級](https://docs.microsoft.com/sharepoint/understanding-permission-levels)以及 [SharePoint Server 中的使用者權限和權限等級](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)。
 
-在某些情況下，您可能會想要限制使用者可以在清單中執行的動作。 例如，小組中的人員會編輯清單視圖，這會針對所有小組成員進行變更，而您想要只允許團隊擁有者或特定小組成員編輯清單視圖。 若要深入瞭解，請參閱 [自訂 SharePoint 清單或文件庫的許可權](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
+在某些情況下，您可能會想限制使用者可在清單中執行的動作。 例如，小組中的某人編輯清單視圖，使得所有小組成員的視圖都跟著改變，而您只想讓小組擁有者或特定小組成員可以編輯清單視圖。 若要深入瞭解，請參閱[自訂 SharePoint 清單或文件庫的權限](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
 
 > [!NOTE]
-> 此時，小組中的擁有者和成員許可權不會以任何方式連結至小組網站中的許可權，以控制清單或清單應用程式的行為。 不過，根據客戶的意見反應和使用量，我們會考慮未來的產品反覆運算。  
+> 此時，小組中的擁有者和成員的權限不會以任何方式連結到小組網站中掌控清單行為或 [清單] 應用程式的權限。 不過，根據客戶的意見反應和使用狀況，我們會在產品的未來反覆項目中將此考慮在內。  
 
-### <a name="limitations"></a>有限
+### <a name="limitations"></a>限制
 
-透過清單，使用者可以取得桌面、網站和行動裝置體驗。 請務必知道，使用者無法使用小組行動用戶端上的清單來建立新的清單或釘選現有清單。 若要查看或編輯小組行動用戶端上的清單，必須先使用小組桌面或 web 用戶端上的清單來建立或新增清單。
+使用者可使用 [清單] 獲得桌上型電腦、Web 和行動裝置的體驗。 請務必瞭解，使用者無法使用 Teams 行動用戶端的 [清單] 建立新清單，或釘選現有清單。 若要在 Teams 行動用戶端查看或編輯清單，必須先使用 Teams 桌面版或 Web 用戶端上的清單建立或新增清單。
 
-來賓無法建立或刪除清單。 他們可以在現有清單中新增清單專案、開始建立清單專案的新交談，以及回復清單專案的現有交談。
+訪客無法建立或刪除清單。 他們可以將清單項目新增至現有清單、開始新的清單項目交談，以及回覆有關清單項目的現有交談。
 
-### <a name="lists-and-the-sharepoint-app"></a>清單和 SharePoint 應用程式
+### <a name="lists-and-the-sharepoint-app"></a>[清單] 和 SharePoint 應用程式
 
-如果貴組織中的使用者使用 SharePoint 應用程式建立清單，這些清單將會自動移至清單，而不需要使用者進行任何動作。 若要在小組中取得最佳最豐富的清單整合體驗，請使用清單 app 並釘選現有清單。
+如果您的組織中的使用者使用 SharePoint 應用程式建立清單，這些清單將會自動移至清單應用程式，而不需要使用者執行任何動作。 若要在 Teams 中取得最豐富的清單整合體驗，請使用 [清單] 應用程式並釘選現有清單。
 
-## <a name="set-up-lists"></a>設定清單
+## <a name="set-up-lists"></a>設定 [清單]
 
-### <a name="enable-or-disable-lists-in-your-organization"></a>啟用或停用貴組織中的清單
+### <a name="enable-or-disable-lists-in-your-organization"></a>啟用或停用組織中的 [清單]
 
-預設會針對貴組織中的所有團隊使用者啟用清單。 您可以在 Microsoft 團隊系統管理中心的 [ [管理應用程式](manage-apps.md) ] 頁面上關閉或開啟組織階層的 app。
+您的組織中的所有 Teams 使用者預設會啟用 [清單]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
-2. 執行下列其中一項動作：
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
+2. 執行下列其中一項：
 
-    - 若要關閉貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **封鎖**]。
-    - 若要開啟貴組織的清單，請搜尋 [清單] 應用程式，選取它，然後按一下 [ **允許**]。
+    - 若要關閉貴組織的 [清單]，請搜尋 [清單] 應用程式，加以選取，然後按一下 **封鎖**。
+    - 若要開啟貴組織的 [清單]，請搜尋 [清單] 應用程式，加以選取，然後按一下 **允許**。
 
-### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>啟用或停用貴組織中特定使用者的清單
+### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [清單]
 
-若要允許或封鎖貴組織中的特定使用者使用清單，請確定您的組織已開啟 [ [管理應用程式](manage-apps.md) ] 頁面上的清單，然後建立自訂應用程式許可權原則，並將其指派給那些使用者。 若要深入瞭解，請參閱 [在團隊中管理 app 許可權原則](teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用 [清單]，請確定您的組織在[管理應用程式](manage-apps.md)頁面上已開啟 [清單]，然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
-## <a name="search-the-audit-log-for-list-events"></a>在審核記錄中搜尋清單事件
+## <a name="search-the-audit-log-for-list-events"></a>搜尋清單活動的稽核記錄檔
 
-清單是以企業級審核啟用，因此您可以在安全性 & 合規性中心的 [審核] 記錄中搜尋清單及清單專案事件。 若要深入瞭解，請參閱 [在安全性 & 合規性中心搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+您可以使用企業層級稽核啟用清單，以便在安全性與合規性中心的稽核記錄檔中搜尋清單和清單項目事件。 若要深入了解，請參閱[搜尋安全性與合規性中心的稽核記錄檔](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
-如需小組中與 [清單] 應用程式相關的審核事件清單，請參閱 [SharePoint 清單活動](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
+如需和 Teams 中 [清單] 應用程式相關的稽核活動清單，請參閱 [SharePoint 清單活動](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
 
-在您可以搜尋審核記錄之前，您必須先在 [安全性 & 合規性中心](https://protection.office.com)開啟審核。 請記住，審核資料只能從您開啟審核的位置取得。
+在您可以搜尋稽核記錄檔之前，您必須先在[安全性與合規性中心](https://protection.office.com)中開啟稽核。 請記住，只有當您開啟稽核時，才能使用稽核資料。
 
-## <a name="power-automate-power-apps-and-graph-api"></a>電源自動化、Power App 及圖形 API
+## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate、Power Apps 和圖形 API
 
-清單支援工作流程的 [電源自動](https://docs.microsoft.com/power-automate/flow-types) 作業及清單表單的 [power app](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) 。 開發人員可以使用 [清單 API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) ，將清單資料作為來源，透過 Microsoft Graph 連線。
+[清單] 支援工作流程的 [Power Automate](https://docs.microsoft.com/power-automate/flow-types)以及清單表單 [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) 。 開發人員可利用[清單 API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) ，透過 Microsoft Graph 將清單資料連線為來源。
 
-## <a name="give-feedback-or-report-an-issue"></a>提供意見反應或報告問題
+## <a name="give-feedback-or-report-an-issue"></a>提供意見反應或回報問題
   
-若要向我們傳送意見反應或報告問題， **請按一下 [** 團隊] 左側導覽底部附近的 [說明]，然後選取 [ **報告問題**]。 選取 [ **清單**]，然後輸入您的意見反應或您所遇到之問題的詳細資料。
+若要傳送意見反應或報告問題，請按一下 Teams 左邊瀏覽列底部附近的 **說明** ，然後選取 **報告問題**。 選取 **清單**，然後輸入您的意見反應或您所遇到問題的詳細資料。
 
 ## <a name="related-topics"></a>相關主題
 
-- [清單說明文件](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
+- [[清單] 說明文件](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
