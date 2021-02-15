@@ -1,5 +1,5 @@
 ---
-title: 美國電話號碼管理
+title: 美國的電話號碼管理
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,36 +21,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 您可以在美國 (中取得與管理電話號碼的相關資訊，包括 Microsoft 團隊的波多黎各) 。
-ms.openlocfilehash: 9e86f6d067fbd8235e8a25fc184f043115accc27
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: 使用下表尋找取得及管理美國電話號碼的資訊，包括波多黎各 (波多黎各) Microsoft Teams。
+ms.openlocfilehash: 4d99067e94f53b4197a08ee9c7d2fa7fd7329f48
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130464"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196847"
 ---
-# <a name="phone-number-management-for-the-united-states"></a>美國電話號碼管理
+# <a name="phone-number-management-for-the-united-states"></a>美國的電話號碼管理
 
-您可以在美國 (中取得與管理電話號碼的相關資訊，包括 Microsoft 團隊的波多黎各) 。
+使用下表尋找取得及管理美國電話號碼的資訊，包括波多黎各 (波多黎各) Microsoft Teams。
 
-如需詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
+詳細資訊請參閱管理 [您組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   
 | 您想要做什麼？ | 執行這些步驟並下載正確的表單 |
 |:-----|:-----|
-|取得 Microsoft 團隊系統管理中心未列出的新使用者或服務電話號碼。  <br/> |下載此表單。<br/>  [美國的新電話號碼要求 (v.)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 填寫並 [傳送給我們](mailto:gcstnmsd@microsoft.com)。 |
-|取得傳送給我們的電話號碼。  <br/> | 下載下列其中一個表單： <br/> [ (LOA) 的授權信件 (使用者和服務號碼)  (v.) # B6 en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/>[ (的授權信件) 美國 (免付費電話)  (LOA) # B6 en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**記事** 如果您嘗試取得超過999的訂閱者或使用者電話號碼，您將需要填寫一份授權 (LOA) 並傳送給我們。 如需詳細資訊，請參閱 [將電話號碼轉接至團隊](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 。          <br/>  <br/>   填寫並 [傳送給我們](mailto:ptn@microsoft.com)。  <br/> |
-|將使用者的號碼變更為服務號碼或服務號碼至使用者的號碼  <br/> |[傳送](mailto:ptn@microsoft.com) 您的 PIN 及您想要轉換的號碼清單。 若要設定 PIN，請參閱 [這裡](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
-|將號碼從一個 Microsoft 365 或 Office 365 轉移到另一個。  <br/> |傳送使用者 (訂閱者[清單，) ](mailto:ptn@microsoft.com)您想要轉移的電話號碼，以及您要從中轉移號碼之來源組織的 PIN。 若要設定 PIN，請參閱 [這裡](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
-|將目錄服務更新設為通話佇列或自動語音應答號碼|若要新增或變更通話佇列或自動語音應答號碼，請聯絡 [PSTN 服務服務台](contact-pstn-service-desk.md)。 |
-   
-## <a name="related-topics"></a>相關主題 
+|取得 Microsoft Teams 系統管理中心未列出的新使用者或服務電話號碼。  <br/> |下載此表單。<br/>  [適用于美國的新電話號碼要求 (v.5.0)  (10) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 填寫並 [傳送給我們](mailto:gcstnmsd@microsoft.com)。 |
+|將電話號碼轉接給我們。  <br/> | 下載以下其中一個表單： <br/> [美國 (3.3) 美國使用者與 (授權書授權書)  (3.3)  (授權書) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/>[適用于美國 (3.3 ()  (美國 (授權書的 LO) A)  (授權書) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**附注** 如果您嘗試取得超過 999 個訂閱者或使用者電話號碼，您必須填寫授權書 (LOA) 並傳送給我們。 請參閱 [將電話號碼轉接到 Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 以瞭解更多資訊。          <br/>  <br/>   填寫並 [傳送給我們](mailto:ptn@microsoft.com)。  <br/> |
+|將使用者編號變更為服務號碼，或將服務號碼變更為使用者編號  <br/> |[將您的](mailto:ptn@microsoft.com) PIN 和要轉換的數位清單傳送給我們。 若要設定 PIN，請參閱 [這裡](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
+|將號碼從一個 Microsoft 365 或 Office 365 移轉到另一個。  <br/> |[傳送您想要](mailto:ptn@microsoft.com) 移轉 () 之來源組織的 PIN 碼之使用者清單。 若要設定 PIN，請參閱 [這裡](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
+|將目錄服務更新為通話佇列或自動 Attendant 號碼|若要新增或變更通話佇列或自動電話機號碼，請連 [上 PSTN 服務台](contact-pstn-service-desk.md)。 |
 
-[通話方案所用的不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+## <a name="related-topics"></a>相關主題
+
+[用於通話方案的電話號碼類型](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
   
-[緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 
- 
+[緊急通話免責聲明標籤](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

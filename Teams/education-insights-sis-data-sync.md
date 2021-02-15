@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145820"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196577"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>將學生資訊系統 (SIS) 資料與 Education Insights 同步處理
 送入 [Education Insights](class-insights.md) 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
 
 若要提供組織層級 Insights，我們必須使用[學校資料同步處理 (SDS)](https://docs.microsoft.com/SchoolDataSync) 來連線到學生資訊系統 (SIS)，使得 Insights 會有正確對應的教育系統階層結構。 
 
-以班級授課者的身份檢視班級層級的 Insights 並 *不需要* 這樣做，因為我們使用 Teams 的班級結構和權限。
+以班級授課者身分檢視班級層級的 Insights 並 *不需要* 此同步動作，因為我們會使用 Teams 的班級結構和權限。
 
 ## <a name="plan-your-sis-integration"></a>規劃 SIS 整合
 SIS 資料提供了教育系統的階層結構，並對應了指派給使用者的位置。
@@ -40,17 +40,17 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
 | 資料類型 |   V1 | V2 (建議新客戶使用) |
 |:--- |:--- |:--- |
 | **使用者** | V1 格式包含 **僅授課者**，因此要為教育領導者設定組織層級權限，您需要搜尋他們並手動定義每個人的權限。 | V2 格式包含 **所有角色**，因此您可以指派以角色為基礎的權限。 |
-| **組織** | V1 格式包含 **僅學校**，因此只能看到一個彙總層級 (所有學校)。 您可以使用一般清單放大至特定學校，但此清單可能包含大量學校或包含難以比較的不同類型學校 (如小學到中學或科學到藝術學校)。<br/><br/> 當有階層結構時，您可以建立易辨識的層級，例如科學或藝術系。| V2 格式包含 **您所在地區或機构的完整階層結構**，包括大學、學院、教職員、校園、地區、項目等。<br/><br/> 使用階層圖，您可以按階層結構的每個層級查看相關彙總，快速比較每個層級的組織單位，為特定層級指派權限，按組織層級設定目標，等等。|
+| **組織** | V1 格式包含 **僅學校**，因此只能看到一個彙總層級 (所有學校)。 您可以使用一般清單放大至特定學校，但此清單可能包含大量學校或包含難以比較的不同類型學校 (如小學到中學或科學到藝術學校)。<br/><br/> 當有階層結構時，您可以建立易辨識的層級，例如科學或藝術系。| V2 格式包含 **您所在地區或機構的完整階層結構**，包括大學、學院、學系、校區、地區、計劃等。<br/><br/> 使用階層圖，您可以按階層結構的每個層級查看相關彙總，快速比較每個層級的組織單位，為特定層級指派權限，按組織層級設定目標，等等。|
 
 ### <a name="type-of-data-required"></a>要求的資料類型
 下表格提供了充分利用 Insights 所需的資料類型。
 
 | 資料類型 | 您需要提供的範例|為什麼重要？|
 |:--- |:--- |:--- |
-| **使用者** |   角色 (例如學生)<br/> 年級/年層級 (如 10)<br/> 組織 (名稱) | 當我們正確地將每個人指派給他們的角色、年級/年層級以及組織時，我們可以確保摘要和彙總是正確的。|
+| **使用者** |   角色 (例如學生)<br/> [年級/學年層級](#supported-grade-level-values) (如 10)<br/> 組織 (名稱) | 當我們正確地將每個人指派給他們的角色、年級/年層級以及組織時，我們可以確保摘要和彙總是正確的。|
 | **組織** | 組織類型 (例如學院) |   此處的階層十分重要。 例如，學校可能屬於一個地區，而該地區可能屬於一個州。<br/> 當一個地區的教育領導被允許查看資料時，只能查看該地區學校的資料。|
-| **班級** | 標題 (例如電腦科學 101) | 這將詳細說明組織中的班級。 這必須正確對應，這樣我們才能將學生指派到正確的班級。 |
-| **註冊** | 角色 (例如學生) | 這針對學生和教育工作者，使我們能够知道他們在哪個班級注册。 |
+| **班級** | 標題 (例如電腦科學 101) | 此表格會詳細說明組織中的班級。 此表格必須正確對應，這樣我們才能將學生指派到正確的班級。 |
+| **註冊** | 角色 (例如學生) | 此表格適用於學生和授課者，並可讓我們知道他們所註冊的班級。 |
 
 > [!NOTE]
 > 在部署過程中，您可以决定是使用 SDS 在 Teams 中設定使用者和班級，還是只使用 SDS 向 Insights 提供資料。
@@ -70,7 +70,7 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
     
 *   確保 *提供每個使用者的名字和姓氏*。 若無則可由電子郵件地址參照它們，這在報告和焦點中提供了不太積極的體驗 (具有學生活動或表現之深入解析的卡片)。
 
-*   *必須以 2 位數輸入年級/年層級* (例如，7 年級為 07)。 查看[對應清單](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)。 
+*   *必須以 2 位數輸入年級/年層級* (例如，7 年級為 07)。 查看[對應清單](#supported-grade-level-values)。 
 
 *   *將年級/年層級新增到所有學生* 十分重要，以便年級/年層級可以過濾資料。    
 
@@ -80,7 +80,7 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
     
     *   根據員工的組織單元，您可以定義相關的權限。 確保它們與正確的單元層級相關聯，以便它們取得所需的權限。 例如，指派到四所學校的輔導員需要查看這些學校的所有班級；校長需要查看他們學校的所有班級。 
     
-*   這個角色至關重要。 雖然這是封閉清單，但請嘗試將[清單中](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)的角色與上載的每個使用者的真實角色相比對。 這樣，就可以相應地指派以角色為基礎的權限。 例如，為所有校長提供查看其學校班級的權限，或為所有教授提供查看其教職員的權限。 
+*   這個角色至關重要。 雖然此清單為封閉式，請嘗試將[此清單](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)的角色與您上傳的每個使用者的真實角色相對應。 這樣，就可以相應地指派以角色為基礎的權限。 例如，為所有校長提供查看其學校班級的權限，或為所有教授提供查看其教職員的權限。 
 
 ### <a name="organizations"></a>組織
 
@@ -101,7 +101,7 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
 
 首先，需要開啟 Insights 切換以啟動同步處理程序。
 
-* 在 [**SDS 入口網站**](https://sds.microsoft.com)上，前往 **[設定]**，向下捲動至 **[收集 Insights 資料]**，並檢查其是否已啟用 (預設為 *啟用*)。
+* 在 [**SDS 入口網站**](https://sds.microsoft.com)上，前往 [設定 **]**，向下捲動至 [收集 Insights 的資料 **]**，並檢查其是否已啟用 (預設為 *啟用*)。
 
 * 向下捲動到下一個開關，**從 SDS 同步組織資料 (預覽)**，然後啟用。
 
@@ -134,3 +134,77 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
 
 > [!IMPORTANT]
 > 如果您遇到任何問題，[客戶支援](https://aka.ms/edusupport)會協助您。
+
+## <a name="supported-grade-level-values"></a>支援的年級值
+
+在 SDS 檔案中，年級/學年等級會定義為列舉值，表示您只能在 CSV 檔案內提供一組選取的值。 指定值以外的任何值，都會導致同步處理期間發生錯誤。
+
+> [!NOTE]
+> *必須以 2 位數輸入年級/學年層級* (例如，7 年級為 07)。
+
+下列小節定義使用者檔案中支援的值。
+
+### <a name="united-states--worldwide-grade-levels"></a>美國/全球年級
+|檔案中的值 (成績欄) | Insights 中的標籤|
+|:---|:---| 
+|IT|嬰兒|
+|PR|學齡前|
+|PK|幼稚園前|
+|TK|過渡幼稚園|
+|KG|幼稚園|
+|01|一年級|
+|02|二年級|
+|03|三年級|
+|04|四年級|
+|05|五年級|
+|06|六年級|
+|07|七年級|
+|08|八年級|
+|09|九年級|
+|10|十年級|
+|11|十一年級|
+|12|十二年級|
+|PS|後高中|
+|PS1|後高中新鮮人|
+|PS2|後高中二年級|
+|PS3|後高中三年級|
+|PS4|後高中四年級|
+|undergraduate|大學|
+|graduate|研究生|
+|postgraduate|研究生 (具有重點研究的研究生)|
+|alumni|校友|
+|adultEducation|成人教育|
+|UG|未分級|
+|Other|其他|
+
+### <a name="united-kingdom-year-groups"></a>英國年級群組
+|檔案中的值 (成績欄) | Insights 中的標籤|
+|:---|:---| 
+|IT|幼托|
+|PR|學齡前|
+|PK|接待處|
+|01|1 年級|
+|02|2 年級|
+|03|3 年級|
+|04|4 年級|
+|05|5 年級|
+|06|6 年級|
+|07|7 年級|
+|08|8 年級|
+|09|9 年級|
+|10|10 年級|
+|11|11 年級|
+|12|12 年級|
+|13|13 年級|
+|PS|後高中|
+|PS1|後高中 1 年級|
+|PS2|後高中 2 年級|
+|PS3|後高中 3 年級|
+|PS4|後高中 4 年級|
+|undergraduate|大學|
+|graduate|研究生|
+|postgraduate|研究生 (具有重點研究的研究生)|
+|alumni|校友|
+|adultEducation|成人教育|
+|UG|未分級|
+|Other|其他|

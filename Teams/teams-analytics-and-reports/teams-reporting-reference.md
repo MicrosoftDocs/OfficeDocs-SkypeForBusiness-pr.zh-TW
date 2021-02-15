@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊分析和報告
+title: Microsoft Teams 分析和報告
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -14,45 +14,45 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 在本文中，您將瞭解 Microsoft 團隊系統管理中心提供的小組報表。
+description: 本文將說明 Microsoft Teams 系統管理中心提供的 Teams 報告。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 902320f1ea2bc9071bbb9fc2be531117dabc8eef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 684afe6e001ecb7b897a8574813eaed42108bb82
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809273"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196827"
 ---
-# <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
+# <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和報告
 
-Microsoft 團隊系統管理中心提供 Microsoft 團隊的新分析與報告體驗。 您可以執行不同的報表，深入瞭解貴組織中的使用者使用團隊的方式。 例如，您可以查看有多少使用者透過頻道和聊天訊息以及它們用來連線至團隊的裝置類型進行通訊。 貴組織可以使用報表中的資訊，更清楚地瞭解使用模式、協助進行商務決策，以及通知訓練與溝通工作。
+Microsoft Teams 系統管理中心提供 Microsoft Teams 的新分析和報告體驗。 您可以執行不同的報告，以深入瞭解貴組織的使用者如何使用 Teams。 例如，您可以查看有多少使用者透過頻道和聊天訊息進行通訊，以及他們用於連接 Teams 的裝置類型。 貴組織可以使用報告中的資訊，進一步瞭解使用模式、協助做出商務決策，以及為訓練與溝通工作提供資訊。
 
-## <a name="how-to-access-the-reports"></a>如何存取報表
+## <a name="how-to-access-the-reports"></a>如何存取報告
 
-若要存取報表，您必須是 Microsoft 365 或 Office 365、團隊服務系統管理員或商務用 Skype 系統管理員的全域系統管理員。若要深入瞭解團隊管理員角色，以及每個管理員角色可以存取哪些報表，請參閱 [使用團隊管理員角色管理團隊](../using-admin-roles.md)。
+若要存取報告，您必須是 Microsoft 365 或 Office 365 中的全域系統管理員、Teams 服務系統管理員或商務用 Skype 系統管理員。若要深入瞭解 Teams 系統管理員角色，以及每個系統管理員角色可存取的報告，請參閱使用[Teams 系統管理員角色來管理 Teams。](../using-admin-roles.md)
 
-移至 [Microsoft 團隊系統管理中心]，在左側導覽中，選取 [ **分析] & 報表**]，然後在 [ **報表**] 底下，選擇您要執行的報表。
+前往 Microsoft Teams 系統管理中心，選取左側導&**報表**，然後在報表下，選擇您想要執行的報告。 
 
 > [!NOTE]
-> Microsoft [團隊管理中心] 中的報表與 Microsoft 365 系統管理中心的 Microsoft 365 報表中的團隊活動報告是分開的。 如需 Microsoft 365 系統管理中心的活動報告的詳細資訊，請參閱[microsoft 365 系統管理中心的團隊活動報告](../teams-activity-reports.md)。
+> Microsoft Teams 系統管理中心中的報告與屬於 Microsoft 365 系統管理中心 Microsoft 365 報告一部分的 Teams 活動報告是分開的。 有關 Microsoft 365 系統管理中心活動報告的資訊，請參閱[Microsoft 365 系統](../teams-activity-reports.md)管理中心的 Teams 活動報告
 
-## <a name="teams-reporting-reference"></a>團隊報告參考
+## <a name="teams-reporting-reference"></a>Teams 報告參考
 
-以下是 Microsoft 團隊系統管理中心提供的小組報表清單，以及每個報表中提供的一些資訊的概覽。
+以下是 Microsoft Teams 系統管理中心提供的 Teams 報告清單，以及每個報告中提供的一些資訊概觀。
 
-我們會持續改善團隊的報表體驗，並新增功能和功能。 隨著時間的推移，我們會在報表中建立額外的功能，並在 Microsoft 團隊系統管理中心新增報表。
+我們會持續改善 Teams 報告體驗，並新增功能。 一段時間之後，我們會將其他功能建新到報告中，並新增 Microsoft Teams 系統管理中心中的報告。
 
-|Report  |測量的專案是什麼？ |
+|報告  |測量的是什麼？ |
 |---------|---------|
-|[Teams 使用報告](teams-usage-report.md)  |  作用中的使用者<br/>團隊和頻道中的作用中使用者<br/>現用頻道<br/>錯誤資訊<br/>團隊的隱私權設定<br/>團隊中的來賓   |
-|[Teams 使用者活動報告](user-activity-report.md)  |  1:1 通話使用者參與<br/>使用者在小組聊天中張貼的訊息<br/>使用者在私人聊天中張貼的訊息<br/>使用者的上一個活動日期     |
+|[Teams 使用報告](teams-usage-report.md)  |  使用中使用者<br/>團隊和頻道中的使用中使用者<br/>使用中頻道<br/>消息<br/>團隊的隱私權設定<br/>團隊中的來賓   |
+|[Teams 使用者活動報告](user-activity-report.md)  | 在團隊聊天中張貼的使用者訊息<br/>在私人聊天中張貼的使用者訊息<br/>  使用者參與的 1 對 1 通話<br/> 已組織的會議使用者數目 <br/>參與會議的使用者數目<br/>會議音訊、視音訊和螢幕畫面分享時間<br/>   使用者的上次活動日期     |
 |[Teams 裝置使用報告](device-usage-report.md)   |  Windows 使用者<br/>Mac 使用者<br/>iOS 使用者<br/>Android 手機使用者     |
-|[Teams 即時活動使用報告](teams-live-event-usage-report.md)   |  總計視圖<br>開始時間<br>事件狀態<br>召集人<br>代表<br>方<br>錄製設定<br>生產類型    |
-|[團隊 PSTN 封鎖的使用者報告](pstn-blocked-users-report.md)   |  顯示名稱<br>電話號碼<br>不必<br>動作類型<br>動作日期和時間   |
-|[團隊 PSTN 分鐘池報告](pstn-minute-pools-report.md) |  國家或地區<br> (授權) 的功能 <br>總分鐘數<br>使用的分鐘數<br>可用分鐘數|
-|[團隊 PSTN 使用方式報告-通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話號碼<br>通話類型 <br>呼叫給<br>移至國家或地區 <br>呼叫來源 <br>從國家或地區<br>收費<br>貨幣<br>內<br>國內/國際<br>通話 ID<br>數位類型<br>國家或地區<br>會議 ID<br> (授權) 的功能|
-|[團隊 PSTN 使用方式報告-直接路由](pstn-usage-report.md#direct-routing)  |  時間戳記<br>顯示名稱<br>SIP 位址<br>電話號碼 <br>通話類型<br>呼叫給<br>開始時間<br>邀請時間<br>失敗時間<br>結束時間<br>內<br>數位類型<br>媒體旁路<br>SBC FQDN<br>Azure 區域<br>事件種類<br>最終 SIP 代碼<br>最終的 Microsoft 子代碼<br>最終 SIP 片語<br>相關識別碼  |
+|[Teams 即時活動使用報告](teams-live-event-usage-report.md)   |  總視圖<br>開始時間<br>活動狀態<br>召集人<br>主持人<br>生產者<br>錄製設定<br>生產類型    |
+|[Teams PSTN 封鎖的使用者報告](pstn-blocked-users-report.md)   |  顯示名稱<br>電話號碼<br>原因<br>動作類型<br>動作日期和時間   |
+|[Teams PSTN 分鐘數資料庫報告](pstn-minute-pools-report.md) |  國家或地區<br>功能 (授權)  <br>總分鐘數<br>使用的分鐘數<br>可用的分鐘數|
+|[Teams PSTN 使用方式報告 - 通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話號碼<br>通話類型 <br>已叫到<br>到國家/地區 <br>從 <br>從國家/地區或地區<br>負責<br>貨幣<br>時間<br>國內/國際<br>通話識別碼<br>數位類型<br>國家或地區<br>會議 ID<br>功能 (授權) |
+|[Teams PSTN 使用方式報告 - 直接路由](pstn-usage-report.md#direct-routing)  |  時間戳記<br>顯示名稱<br>SIP 位址<br>電話號碼 <br>通話類型<br>已叫到<br>開始時間<br>邀請時間<br>失敗時間<br>結束時間<br>時間<br>數位類型<br>媒體旁路<br>SBC FQDN<br>Azure 地區<br>事件種類<br>最終 SIP 代碼<br>最終 Microsoft 子代碼<br>最終 SIP 片語<br>相關識別碼  |
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

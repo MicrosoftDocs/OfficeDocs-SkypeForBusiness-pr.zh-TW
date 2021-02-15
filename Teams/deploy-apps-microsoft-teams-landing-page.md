@@ -7,7 +7,7 @@ author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 audience: admin
-ms.date: 01/28/2019
+ms.date: 02/10/2021
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -18,24 +18,39 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: d1a6462d0cb1581142eb2f5076e6b2ebad2b9003
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177333"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196517"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
 
-您可利用應用程式在最愛的服務中尋找內容，然後在 Teams 中分享。 他們可幫助您執行作業，例如在頻道最上方釘選服務、與 Bot 聊天或共用及指派工作。 若要深入了解，請參閱[ Teams 中的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
+應用程式可讓您透過喜好服務尋找內容，並在 Teams 中分享它。 他們可幫助您執行作業，例如在頻道最上方釘選服務、與 Bot 聊天或共用及指派工作。 若要深入了解，請參閱[ Teams 中的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。 
 
-建議您在一開始推出 Teams 時能夠包含我們的精選應用程式，例如 Planner。 然後在推廣 Teams 的採用時，新增其他應用程式、Bot 和連接器。
+您可以使用隨著 Microsoft Teams 提供的應用程式、使用認證的協力廠商應用程式和範本，以及透過建立您自己的自訂應用程式，將應用程式新增到您的 Teams 部署。
 
-您也可以選擇建立自訂應用程式。 如需詳細資訊，請參閱我們的[開發人員文件](/microsoftteams/platform/overview)。
+## <a name="use-microsoft-provided-apps"></a>使用 Microsoft 提供的應用程式
+
+Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在一開始推出 Teams 時能夠包含 Teams 的精選應用程式，例如 Planner。 在推廣 Teams 的採用時，新增其他應用程式、Bot 和連接器。
+
+## <a name="use-third-party-apps"></a>使用協力廠商應用程式
+
+除了 Microsoft 提供的應用程式，您還可以使用 Microsoft 認證的協力廠商應用程式。 Microsoft 與 Microsoft 365 開發人員合作夥伴合作，以提供以加快使用 Teams 應用程式和增益集的決策所需的資訊。如需詳細資訊，請參閱 [Microsoft Teams 應用程式安全性與合規性](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps)。
+
+## <a name="use-teams-templates"></a>使用 Teams 範本
+
+您也可以使用 [Teams 範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)，其為針對由社群驅動、開放原始碼且可在 GitHub 上取得的適用於 Microsoft Teams 的生產就緒應用程式。
+
+## <a name="create-custom-apps"></a>建立自訂應用程式
+
+您可以使用與 [Microsoft Power Platform](teams-power-platfom-integration.md) 的 Teams 整合來快速建立自訂低程式碼解決方案。 您也可以建立自己的自訂應用程式，以符合您的商務需求。 如需詳細資訊，請參閱[為 Microsoft Teams 建立應用程式](https://docs.microsoft.com/microsoftteams/platform/overview)。  
+
 
 ## <a name="apps-deployment-decisions"></a>應用程式部署決策
 
-Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組織認為預設設定就能滿足其需求。 本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。 我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
+Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組織認為預設設定就能滿足其需求。本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
 
@@ -43,7 +58,7 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 ### <a name="app-availability-settings"></a>應用程式可用性設定 
 
-Teams 提供數個由 Microsoft 發行的應用程式和第三方應用程式，以吸引使用者、支援生產活動，並將常用的商務服務整合到 Teams 中。 從 Teams 市集取得應用程式。 根據預設，所有的應用程式 (包括透過 [Teams 市集核准程序](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自訂應用程式) 都會針對所有使用者開啟。 例如，使用者可以使用 Planner 應用程式來建立和管理 Teams 中的小組工作。
+Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使用者、支援生產活動，並將常用的商務服務整合到 Teams 中。 從 Teams 市集取得應用程式。 根據預設，所有的應用程式 (包括透過 [Teams 市集核准程序](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自訂應用程式) 都會針對所有使用者開啟。 例如，使用者可以使用 Planner 應用程式來建立和管理 Teams 中的小組工作。
 
 根據預設，您可使用所有由 Microsoft 及協力廠商提供和自訂的應用程式，並且可開啟或關閉個別應用程式。 這是全組織的設定，可讓您開啟或關閉整個組織的所有協力廠商的和/或自訂的應用程式。
 
@@ -111,9 +126,6 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 |||
 
 
-## <a name="next-steps"></a>後續步驟
-- [推廣採用](adopt-microsoft-teams-landing-page.md)精選應用程式，例如 Planner。
-- [推出會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)
-- [推出雲端語音](cloud-voice-landing-page.md)
+
 
 
