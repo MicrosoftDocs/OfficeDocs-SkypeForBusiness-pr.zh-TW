@@ -333,6 +333,8 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Teams 的 Cortana
         href: cortana-in-teams.md
+      - name: 設定您的團隊目標階層
+        href: set-up-your-team-hierarchy.md
   - name: 會議和研討會
     items:
       - name: 快速入門 - 會議與即時活動
@@ -1027,50 +1029,54 @@ items:
     items:
       - name: 概觀
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: 與 Power Platform 整合
-        href: teams-power-platfom-integration.md
-      - name: 管理 Teams 應用程式
-        href: manage-apps.md
-      - name: 在 Teams 中的應用程式系統管理設定
-        href: admin-settings.md
-      - name: 使用內建和自訂索引標籤
-        href: built-in-custom-tabs.md
-      - name: 使用 Microsoft 365 或 Office 365 和自訂連接器
-        href: Office-365-custom-connectors.md
-      - name: 特定資源的同意
-        href: resource-specific-consent.md
-      - name: 自訂應用程式
+      - name: 來自 Microsoft 的應用程式
         items:
-          - name: 發佈透過 Teams 應用程式提交 API 提交的自訂應用程式
-            href: submit-approve-custom-apps.md
+          - name: 管理清單應用程式
+            href: manage-lists-app.md
+          - name: 管理組織的 Tasks 應用程式
+            href: manage-tasks-app.md
+          - name: 管理 Praise 應用程式
+            href: manage-praise-app.md
+          - name: 管理 Teams 核准應用程式
+            href: approval-admin.md
+          - name: '在 Teams 中管理組織的 [班次] 應用程式'
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 協力廠商應用程式
+        items:
+          - name: 應用程式認證
+            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+          - name: 為 Teams 購買第三方應用程式
+            href: purchase-third-party-apps.md
+      - name: 適用於 Teams 的應用程式範本
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 如何建立及自訂您自己的應用程式
+        items:
+          - name: 與 Power Platform 整合
+            href: teams-power-platfom-integration.md
           - name: 在 Microsoft Teams 系統管理中心管理 Power Platform
             href: manage-power-platform-apps.md
+          - name: 發佈透過 Teams 應用程式提交 API 提交的自訂應用程式
+            href: submit-approve-custom-apps.md
           - name: 透過上傳應用程式套件發佈自訂應用程式
             href: upload-custom-apps.md
           - name: 自訂應用程式商城
             href: customize-your-app-store.md
-      - name: 應用程式認證
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: 在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意
-        href: app-permissions-admin-center.md
-      - name: 應用程式權限和考量
-        href: app-permissions.md
-      - name: 為 Teams 第三方應用程式購買服務
-        href: purchase-third-party-apps.md
-      - name: 適用於 Teams 的應用程式範本
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: 在 Teams 中管理組織的清單應用程式
-        href: manage-lists-app.md
-      - name: 管理組織的 Tasks 應用程式
-        href: manage-tasks-app.md
-      - name: 設定您的團隊目標階層
-        href: set-up-your-team-hierarchy.md
-      - name: 在 Teams 系統管理中心管理稱讚應用程式
-        href: manage-praise-app.md
-      - name: 設定 Skype 會議應用程式以搭配使用 Teams
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Teams Approvals 應用程式可用性
-        href: approval-admin.md
+      - name: 管理 Teams 應用程式
+        items:
+          - name: 概觀
+            href: manage-apps.md
+          - name: 在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意
+            href: app-permissions-admin-center.md
+          - name: 特定資源的同意
+            href: resource-specific-consent.md
+          - name: 應用程式權限和考量
+            href: app-permissions.md
+          - name: 在 Teams 中的應用程式系統管理設定
+            href: admin-settings.md
+          - name: 使用內建和自訂索引標籤
+            href: built-in-custom-tabs.md
+          - name: 使用 Microsoft 365 或 Office 365 和自訂連接器
+            href: Office-365-custom-connectors.md
   - name: 採用
     items:
       - name: 概觀
