@@ -1,5 +1,5 @@
 ---
-title: 在系統管理中心使用團隊醫療保健範本
+title: 使用 Teams 醫療保健範本建立團隊
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,41 +20,188 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 使用系統管理中心的 Microsoft 團隊範本，透過提供預先定義的設定、頻道和應用程式範本，快速且輕鬆地建立小組。
+description: 在系統管理中心或 Microsoft Graph 使用 Microsoft Teams 範本，提供預先定義的設定、頻道和應用程式範本，以快速且輕鬆地建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662228"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260305"
 ---
-# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>在系統管理中心使用團隊醫療保健範本
+# <a name="create-a-team-using-teams-healthcare-templates"></a>使用 Teams 醫療保健範本建立團隊
 
-Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預先安裝應用程式範本，快速且輕鬆地建立小組。
+Microsoft Teams 範本提供預先定義的設定、頻道和預先安裝應用程式的範本，讓您快速且輕鬆地建立團隊。
 
-針對醫療保健組織而言，範本特別實用，因為它們為使用者提供結構，以瞭解如何有效地利用團隊。 範本也可讓系統管理員在組織中部署一致的團隊。 本文適用于您負責規劃、部署及管理整個醫療保健組織中的多個小組。
+對醫療保健組織來說，範本特別強大，因為範本提供結構讓使用者熟悉如何有效地使用 Teams。 範本也允許系統管理員在組織中部署一致的團隊。 如果您負責規劃、部署和管理整個醫療保健組織的多個團隊，本文適合您。
 
-我們目前提供兩個第一方醫療保健範本，您可以在各種情況下使用。 若要深入瞭解小組範本的詳細資訊，請參閱系統管理中心的 [ [團隊範本快速](../../get-started-with-teams-templates-in-the-admin-console.md)入門]。
+使用 Teams 醫療保健範本選擇建立團隊的方法：
 
-## <a name="collaborate-on-patient-care"></a>在患者治療上共同作業
+| 誰 | 使用方法： |
+| ---- | --------- |
+| 系統管理員和 IT 專業人員 | [使用 Teams 系統管理中心](#use-the-teams-templates-in-the-teams-admin-center) 根據醫療保健 Teams 範本建立團隊。|
+| 開發人員和系統整合者 | [使用 Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) 根據醫療保健 Teams 範本建立團隊。 |
 
- 在 ward、pod 或部門中簡化醫療保健溝通與共同作業。 範本可用於協助患者管理和 ward 的操作需求。
+## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>使用 Teams 系統管理中心的 Teams 範本
 
-| 基底範本類型 |baseTemplateId| 此基礎範本隨附的屬性 |
+Microsoft Teams 系統管理員可以使用 Teams 系統管理中心，使用 Teams 範本建立團隊。 我們目前提供兩種可用於各種情況的第一方醫療保健範本。 若要深入瞭解團隊範本，請參閱在系統管理中心 [開始使用 Teams 範本](../../get-started-with-teams-templates-in-the-admin-console.md)。
+
+### <a name="collaborate-on-patient-care"></a>在病患照護上共同合作
+
+ 簡化醫療保健通訊和部門內的共同作業。 範本可用來協助病患管理和操作需求。
+
+| 基本範本類型 |baseTemplateId| 此基本範本提供的屬性 |
 | ------------------ |---|----------------------------------------------------- |
-| 在患者治療上共同作業 |`healthcareWard` | 管道<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人員</li><li>訓練</li></ul> 應用 <ul><li>Wiki</li><li>清單</li></ul>|
+| 在病患照護上共同合作 |`healthcareWard` | 管道：<ul><li>一般</li><li>公告</li><li>Huddles</li><li>輪</li><li>人手</li><li>訓練</li></ul> 應用程式： <ul><li>維琪</li><li>清單</li></ul>|
 ||||
 
-## <a name="hospital"></a>醫院
+### <a name="hospital"></a>醫院
 
-在醫院中的多個 wards、箱與部門之間簡化溝通與共同作業。 此範本包含一組醫院作業的基底頻道，而且可以自行延伸以納入專業、零星。
+簡化醫院內多個醫生、容器和部門之間的通訊和共同作業。 此範本包含一組醫院作業的基本通道，而且可自我擴充以包含特殊專案，即臨時操作。
 
-| 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
+| 基本範本類型 |baseTemplateId | 此基本範本提供的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|醫院|`healthcareHospital`|管道 <ul><li>一般</li><li>公告</li><li>合規性</li><li>Custodial</li><li>人力資源</li><li>藥房</li></ul> 應用 <ul><li>Wiki</li><li>清單 </li></ul>|
+|醫院|`healthcareHospital`|管道： <ul><li>一般</li><li>公告</li><li>合規性</li><li>保管</li><li>人力資源</li><li>藥學</li></ul> 應用程式： <ul><li>維琪</li><li>清單 </li></ul>|
 ||||
 
-## <a name="related-topics"></a>相關主題
 
-[開始使用 Teams 範本](../../get-started-with-teams-templates-in-the-admin-console.md)
+## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>使用 Teams 範本與 Microsoft Graph
+
+開發人員可以使用 Microsoft Graph 使用 Teams 範本建立團隊。 我們目前提供兩種可用於各種情況的第一方醫療保健範本。 若要深入瞭解團隊範本，請參閱 Teams 範本 [入門](../../get-started-with-teams-templates.md)。 有關 Teams 範本和 Microsoft Graph 的資訊，請參閱 [Microsoft Teams API 概觀](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) 和 [teamsTemplate 資源類型](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+
+### <a name="ward-template"></a>範本範本
+
+此範本適用于在小公司、容器或部門內進行通訊和共同合作。 範本可用來協助病患管理，以及一個風險企業的運作需求。 例如，公告公告可以張貼在公告頻道中，而班次可以在 *Staffing 中管理*。 如果您想要簡化您的服務運作方式，則此範本適合您。
+
+|基本範本類型 |baseTemplateId |比較基準範本通道|
+|:--- |:---|:---|
+|醫療保健 - 小品 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 公告\* <br> Huddles\* <br> 輪\* <br> 人手\* <br> 訓練\* |
+|     | |         |
+
+\* 自動將我的最愛
+
+### <a name="hospital-template"></a>醫院範本
+
+該醫院範本適用于醫院內多個醫院、容器和部門之間的通訊和共同合作。 此範本包含數個營運頻道，包括公告、小通和行銷，但我們也會在下方提供腳本，以各種額外的部門或以特殊為主的頻道延伸範本，您可以新增、刪除或編輯您喜歡的頻道。  例如，如果您有一個內鏈系，但不需要一個 *Ophthalmoph* 的頻道，則腳本可以調整為包含一個內文 *學* 通道，並移除 *Ophthalmoph 通道*。 建議您不要自動將這些特殊或以小動物模型模式使用的頻道做為我的最愛，以避免通知飽和度。 使用者通常會將任何他們覺得相關的頻道最愛。
+
+|基本範本類型 |baseTemplateId |比較基準範本通道|
+|:--- |:---|:---|
+|醫療保健 - 醫院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 公告\* <br> 合規性\* <br> 保管 <br> 人力資源 <br> 藥學 |
+| | |  |
+
+\* 自動將我的最愛 
+
+### <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
+
+若要使用這些範本，只要將要求內文中的 template@odata.bind' 屬性從 "standard" 變更為上述 TemplateIDs。  如何部署 Teams 範本，請參閱如何建立團隊的 Microsoft Graph [文章](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+
+> [!NOTE]
+> 範本中的頻道會自動在一般 Tab 下建立。
+
+#### <a name="example-hospital-template-extension-script"></a>範例：醫院範本擴充功能腳本
+
+``` Powershell
+{ 
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')",
+          "DisplayName": "Contoso Hospital",
+          "Description": "Team for all staff in Contoso Hospital",
+          "Channels": [
+            {
+              "displayName": "Ambulatory",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Anesthesiology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Cardiology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "CCU",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Ear, Nose, and Throat",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Emergency Care",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Family Medicine",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Gynecology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "ICU",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Mother-Baby",
+              "IsFavoriteByDefault": false
+            }, 
+            {
+              "displayName": "Neonatal",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Neurology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Oncology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Ophthalmology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "PACU",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Psychiatric",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Radiology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Rehabilitation",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Surgical",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Urology",
+              "IsFavoriteByDefault": false
+            },
+            {
+              "displayName": "Women's Health",
+              "IsFavoriteByDefault": false
+            }
+          ],
+          "Apps": [
+            {
+              "Id": "1542629c-01b3-4a6d-8f76-1938b779e48d"
+            }
+          ]
+          }
+
+```
+
+### <a name="related-topics"></a>相關主題
+
+[開始使用 Teams 範本](../../get-started-with-teams-templates.md)
+
+[開始使用適用於醫療保健組織的 Teams](teams-in-hc.md)
