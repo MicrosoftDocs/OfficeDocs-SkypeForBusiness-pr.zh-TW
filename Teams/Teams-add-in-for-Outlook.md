@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
-ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
+ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037799"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278553"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -77,7 +77,7 @@ FindTime 是 Outlook 的增益集，可協助使用者在跨公司會議的時�
 
 ## <a name="authentication-requirements"></a>驗證需求
 
-Teams 會議增益集需要使用者使用新式驗證來登入 Teams。 如果使用者不是使用此方法登入，他們仍然可以使用 Teams 用戶端，但是無法使用 Outlook 增益集來排程 Teams 線上會議。 若要修正此問題，請執行下列其中一項操作：
+Teams 會議增益集需要使用者使用新式驗證來登入 Teams。 如果使用者沒有使用此方法來登錄，他們仍然可以使用 Teams 用戶端，但無法使用 Outlook 外掛程式排程 [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) 線上會議。 若要修正此問題，請執行下列其中一項操作：
 
 - 如果您的組織未設定新式驗證，則您應設定新式驗證。
 - 如果已設定新式驗證，但在對話方塊中將其取消，您應指示使用者使用多重要素驗證再次登入。
@@ -182,4 +182,4 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 - [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
-- [從 Outlook 排程團隊會議](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+- [從 Outlook 排程 Teams 會議](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

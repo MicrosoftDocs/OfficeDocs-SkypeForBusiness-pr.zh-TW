@@ -21,20 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中使用通話停駐和取回來保留通話。
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260325"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278713"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的通話停駐和取回
 
-通話保留和取回是一項功能，可讓使用者保留通話。 當通話被停駐時，服務會產生唯一的代碼以用於呼叫取回。 接著，將通話停駐的使用者或其他人就可以在支援的 App 或裝置上使用該代碼來取回通話。  (請參閱在 Teams [中](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) 將通話停駐在團隊中以尋找詳細資料。) 
+通話保留和取回是一項功能，可讓使用者保留通話。 當通話被停駐時，服務會產生唯一的代碼以用於呼叫取回。 接著，將通話停駐的使用者或其他人就可以在支援的 App 或裝置上使用該代碼來取回通話。  (請參閱在 Teams [中](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) 將通話停駐，以尋找詳細資料。) 
 
 使用通話停駐的一些常見案例有：
 
-- 總機會為在工廠工作的人打電話。 然後，在公用電話系統上，接收者會宣告通話和代碼號碼。 來電使用者接著可以在工廠區拿起 Teams 電話，然後輸入代碼以取回通話。
+- 總機會為在工廠工作的人打電話。 然後，在公用電話系統上，接收者會宣告通話和代碼號碼。 接著，來電使用者就可以在工廠工廠拿起 Teams 電話，然後輸入代碼以取回通話。
 - 使用者將通話放在行動裝置上，因為裝置電池電力不足。 然後，使用者可以輸入代碼，從 Teams 電話機取回通話。
 - 支援代表會建立客戶通話的管道，並傳送公告給 Teams 頻道，讓專家取回通話並協助客戶。 專家在 Teams 用戶端中輸入代碼以取回通話
 
@@ -45,12 +45,12 @@ ms.locfileid: "50260325"
 
 ## <a name="configure-call-park-and-retrieve"></a>設定通話停駐和取回
 
-您必須是 Teams 系統管理員，才能設定通話停駐和取回。 它預設為停用。 您可以為使用者啟用它，以及使用通話停駐政策建立使用者群組。 當您將相同的原則套用至一組使用者時，他們可以自行停駐和取回通話。
+您必須是 Teams 系統管理員，才能設定通話停駐和取回。 它預設為停用。 您可以為使用者啟用通話，以及使用通話停駐政策建立使用者群組。 當您將相同的原則套用至一組使用者時，他們可以自行停駐和取回通話。
 
 啟用通話停駐政策
 
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **語音**  >  **通話公園政策**。
-2. 在 [ **管理政策> 的選項卡** 上，按一下 [ **新增**。
+2. 在 [ **管理政策> 的選項卡** 上，按一下 **[新增**。
 3. 為策略命名，然後將允許 **通話停駐切換** 為 **開啟**。
 
     ![通話停駐政策設定螢幕擷取畫面](media/call-park-add-policy.png)
@@ -68,9 +68,9 @@ ms.locfileid: "50260325"
 3. 選擇與其他群組作業比較的排名。
 4. 在 **選取一個策略** 下，選擇要指派給此群組的策略。
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![公園政策圖像](media/call-park-assign-policy-to-group.png)
 
-5. 按一下 **[申請**。
+5. 選取Apply 。
 
 ## <a name="related-topics"></a>相關主題
 

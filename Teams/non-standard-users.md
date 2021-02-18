@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 683ba9a20c51a23fa1468c07407a389c23dba507
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 66754565737929ec9d34125ca421c7e3eed9fe65
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237494"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278543"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>適用于非標準使用者的 Microsoft Teams 應用程式行為
 
@@ -49,13 +49,13 @@ ms.locfileid: "50237494"
 
 Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來賓無法以 1：1 訊息給 Bot、@ 提及 Bot，或與與 Bot 通訊的介面卡互動。
 
-來賓將遵守針對任何應用程式的主機租使用者所設定之全域和全組織許可權原則。  (換句話說，如果整個主機組織都封鎖了應用程式，則來賓也因此無法使用此 App。) 
+來賓將遵守針對任何應用程式的主機租使用者所設定之全域和全組織許可權原則。 換句話說，如果整個主機組織都封鎖了應用程式，則來賓也無法使用此 App。
 
 設定原則不適用於來賓使用者。 這表示系統管理員從預設政策釘寄的應用程式不會影響來賓使用者。
 
 ## <a name="external-federated-user-access"></a>外部 (伺服器) 使用者存取權
 
-### <a name="install-update-and-delete-for-external-users"></a>安裝、更新及刪除外部使用者
+### <a name="install-update-and-delete-for-external-users"></a>為外部使用者安裝、更新和刪除
 
 外部使用者無法在任何內容中安裝、更新或刪除應用程式，例如個人、聊天、頻道或會議。 他們無法存取 Teams App Store。
 
@@ -75,4 +75,4 @@ Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來�
 
 匿名使用者無法直接在會議中使用應用程式。 如果匿名使用者存在，原生使用者可以繼續使用會議應用程式。 如果應用程式在聊天中傳送自適性卡片，匿名使用者可以與卡片互動。
 
-匿名使用者將繼承使用者層級的全域預設權限原則。 此控制項可讓匿名使用者與 Teams 會議中的應用程式互動，只要使用者層級的權限原則已啟用應用程式。 匿名使用者只能與已在會議使用的應用程式互動，而且無法取得及/或管理這些應用程式。
+匿名使用者將繼承使用者層級的全域預設權限原則。 此控制項可讓匿名使用者與 Teams 會議中的應用程式互動 ，如果使用者層級的權限原則已啟用應用程式。 匿名使用者只能與已在會議使用的應用程式互動，而且無法取得及/或管理這些應用程式。
