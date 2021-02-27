@@ -1,5 +1,5 @@
 ---
-title: 適用于團隊的電話和裝置
+title: Teams 的電話和裝置
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -20,156 +20,158 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 瞭解哪些桌面與會議已認證，讓 Microsoft 團隊能產生最佳結果。
-ms.openlocfilehash: 05598dfa351e62674c3ff9a9498672614f41a5d1
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 的認證，以產生最佳結果。
+ms.openlocfilehash: e93756b1d7aaadb3027e0172d9495393be650e7b
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718597"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347834"
 ---
-# <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
+# <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 的 IP 電話認證
 
-IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能體驗高品質的語音通話和會議體驗。
+IP 電話認證計畫可確保使用通過認證的電話機和會議電話的客戶，將能體驗高品質的音訊通話和會議體驗。
 
-## <a name="announcing-certified-for-microsoft-teams"></a>宣佈已針對 Microsoft 團隊進行認證
+## <a name="announcing-certified-for-microsoft-teams"></a>宣佈 Microsoft Teams 認證
 
-除了為客戶提供一系列的商務用 Skype 認證 IP 電話之外，作為小組 IP 電話認證計畫的一部分，我們宣佈推出新的 IP 電話硬體，以供 Microsoft 團隊認證。 這個認證計畫可確保較高品質的狀態列，以及較高的效能目標和音訊品質指標。 電話供應商正在努力滿足此較高的需求，並將根據此行事歷年的新需求來認證。 我們的一些合作夥伴也在努力在與團隊 IP 電話相同的硬體上供應商務用 Skype 服務支援。 團隊認證 IP 電話的好處包括：
+除了提供客戶各種經商務用 Skype 認證的 IP 電話之外，作為 Teams IP 電話認證計畫的一部分，我們宣佈將推出 Microsoft Teams 的新 IP 電話硬體。 此認證計畫可確保品質較高的長條，具有較高的績效目標及音訊品質計量。 手機廠商正積極努力符合這個較高的需求列，並符合這個日曆年度的新需求。 我們的部分合作夥伴也正在努力針對與 Teams IP 電話相同的硬體供應商務用 Skype 服務的支援。 Teams 認證 IP 電話的權益包括：
 
-- 使用硬體按鈕整合與 LED 通知的原生團隊體驗
-- 行事曆整合與單一觸控會議加入
-- 透過使用 Intune 整合的 Microsoft 裝置管理解決方案來部署和管理
+- 整合硬體按鈕和 LED 通知的原生 Teams 體驗
+- 整合的日曆和單鍵會議加入
+- 透過與 Intune 整合的 Microsoft 裝置管理解決方案部署及管理
 
-## <a name="currently-certified-ip-phones"></a>目前認證的 IP 電話
+## <a name="currently-certified-ip-phones"></a>目前通過認證的 IP 電話
 
-下列手機認證適用于 Microsoft 團隊：
+下列手機通過 Microsoft Teams 的認證：
 
-| 電話模型                            | 固件版本                                                                                                                                                                                                                           | 發行日期                 |
+| 手機型號                            | 內文版本                                                                                                                                                                                                                           | 發行日期                 |
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes C450HD                      | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
-| 僅限 Audiocodes C448HD (CAP 模式)       | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
-|Crestron UC-2                           |1.0.1.46                                                  | 2020年7月                    |
-| Crestron M100                          | 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的 [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 從5/11/2020 終止 |
-| Crestron Flex UC-P100 & UC-T    | 本產品已停產。 如需詳細資訊，請造訪 Crestron 網站上的 [ [UC 電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) ]。                  | 從5/11/2020 終止 |
-| [聯想 ThinkSmart] 視圖                 | 18781Y 200410.067                                                                                                                                                                                                                       | 2020年4月                   |
-| Poly 組 C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020年4月                   |
-| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020年1月                 |
-| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020年1月                 |
-| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019年12月                |
-| Poly 組 8500/8800 (僅限共用模式)  | 5.9.0.10869                                                                                                                                                                                                                                | 2019年6月                    |
-| Yealink MP58 | 122.15.0.27| 2020年12月 |
-| Yealink MP54 | 122.15.0.27| 2020年11月 |
-| Yealink MP56 | 122.15.0.6 | 2020年3月    |
-| Yealink VP59 | 91.15.0.16 | 2019年6月     |
-| Yealink T55  | 58.15.0.36 | 2019年5月      |
-| Yealink CP 960| 73.15.0.20 | 2018年12月|
-| Yealink T58 & T56 系列 | 58.15.0.20 | 2018年12月 |
+| C450HD 支援的音訊編碼擴充模組 |C450HD_TEAMS_0.225                                        | 2021 年 1 月                 |
+| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
+| 音訊編碼 C448HD (CAP 模式只)       | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
+|Crs本 UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
+| Crs本 M100                          | 此產品已中止。 如要詳細資訊，請流覽[Crs本網站上的Crs本M100。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 自 2020/5/11 起停用 |
+| Cres本 Flex UC-P100-T & UC-P110-T    | 此產品已中止。 如要詳細資訊 [，請流覽](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) Crs本網站上 UC Phone。                  | 自 2020/5/11 起停用 |
+| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020 年 4 月                   |
+| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 年 4 月                   |
+| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 年 1 月                 |
+| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 年 1 月                 |
+| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 年 12 月                |
+| Poly 8500/8800 (共用模式)  | 5.9.0.10869                                                                                                                                                                                                                                | 2019 年 6 月                    |
+| 在 T56、T58、MP56、MP58、VP59 支援 Yealink EXP50| 針對每個支援的裝置型號，請參閱#7更新 | 2021 年 1 月 |
+| Yealink MP58 | 122.15.0.27| 2020 年 12 月 |
+| Yealink MP54 | 122.15.0.27| 2020 年 11 月 |
+| Yealink MP56 | 122.15.0.6 | 2020 年 3 月    |
+| YealinkVP59 | 91.15.0.16 | 2019 年 6 月     |
+| Yealink T55  | 58.15.0.36 | 2019 年 5 月      |
+| Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
+| Yealink T58 & T56 系列 | 58.15.0.20 | 2018 年 12 月 |
 
-## <a name="currently-certified-collaboration-bars"></a>目前認證的共同作業條
+## <a name="currently-certified-collaboration-bars"></a>目前通過認證的共同合作橫條圖
 
-下列共同作業條是針對 Microsoft 團隊認證：
+下列共同合作橫條圖通過 Microsoft Teams 的認證：
 
-| 共同作業條模型 | 固件版本 | 發行日期  | 會議室大小 (最多)                                          |
+| 共同合作橫條圖模型 | 內文版本 | 發行日期  | 會議室大小 (最多)                                          |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A20  | 133.15.0.19      | 2020年11月 |  (3m x 3m) 的焦點房間 </br> 小型會議室 (4.5 m x 4.5 m)  |
-| Poly Studio X30         | 3.1.1.216109     | 2020年6月     |  (3m x 3m) 的焦點房間 </br> 小型會議室 (4.5 m x 4.5 m)  |
-| Poly Studio X50         | 3.1.1.216109     | 2020年6月     |  (3m x 3m) 的焦點房間 </br> 小型會議室 (4.5 m x 4.5 m)  |
-| Yealink VC210           | 118.15.0.14      | 2020年2月 |  (3m x 3m) 的焦點房間 </br> 小型會議室 (4.5 m x 4.5 m)  |
+| Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
+| Poly Studio X30         | 3.1.1.216109     | 2020 年 6 月     | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
+| Poly Studio X50         | 3.1.1.216109     | 2020 年 6 月     | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
+| Yealink VC210           | 118.15.0.14      | 2020 年 2 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
 
-## <a name="currently-certified-teams-display"></a>目前認證的團隊顯示
-下列團隊顯示已針對 Microsoft 團隊認證：
+## <a name="currently-certified-teams-display"></a>目前通過認證的 Teams 顯示器
+下列 Teams 顯示已通過 Microsoft Teams 的認證：
 
-| 團隊顯示模型 | 固件版本 | 發行日期  |                                         
+| Teams 顯示模型 | 內文版本 | 發行日期  |                                         
 |:------------------------|:-----------------|:--------------|
-|[聯想 ThinkSmart] 視圖|18781Y 201006.099|2020年10月 |
+|Lenovo ThinkSmart View|CD-18781Y.201006.099|2020 年 10 月 |
 
-### <a name="product-release-information-for-teams-phones"></a>團隊手機的產品發行資訊
+### <a name="product-release-information-for-teams-phones"></a>Teams 手機的產品發行資訊
 
-以下是最新的團隊 IP phone 應用程式和固件版本。
+以下是最新的 Teams IP 電話 App 和內文版本。
 
-#### <a name="app-versions"></a>App 版本
+#### <a name="app-versions"></a>應用程式版本
 
-| 產品發行 | 發行日期  | Microsoft 團隊 app 版本 | 公司入口網站版本 | 管理代理程式版本 |
+| 產品發行 | 發行日期  | Microsoft Teams 應用程式版本 | 公司入口網站版本 | 系統管理代理程式版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 更新 #7  | 2020年12月8日  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132 (. 223)  |
-| 更新 #6  | 2020年10月12日  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446 (216)  |
-| 更新 #5  | 2020年8月31日 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446 (216)  |
-| 更新 #4  | 2020年6月30日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| 更新 #3  | 2020年5月13日  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
+| 更新#7  | 2020 年 12 月 8 日  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223)  |
+| 更新#6  | 2020 年 10 月 12 日  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product (216)  |
+| 更新#5  | 2020 年 8 月 31 日 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product (216)  |
+| 更新#4  | 2020 年 6 月 30 日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| 更新#3  | 2020 年 5 月 13 日  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
-#### <a name="firmware-versions"></a>固件版本
+#### <a name="firmware-versions"></a>內文版本
 
-當您在裝置上安裝新的固件版本時，您可以透過在 **隨附產品發行** 資料行中尋找產品發行資料，來判斷已安裝的 Microsoft 團隊 App、公司入口網站和管理員代理程式版本。 然後查詢上述 [ **App 版本** ] 資料表中的 [產品發行]。
+當您在裝置上安裝新版新版時，您可以在包含的產品發行欄中尋找已安裝的產品版本，以判斷對應的 Microsoft Teams 應用程式、公司入口網站及系統管理 **代理程式。** 然後，在上方的 App 版本 **資料表中查看** 產品版本。
 
-| 裝置模型        | 固件版本     | 年/隨附的產品發行  |
+| 裝置模型        | 內文版本     | 年份/包含的產品發行  |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1 8.288  | 2020更新 #7           |
-| AudioCodes C450HD   | C450HD_TEAMS_1 8.288  | 2020更新 #7           |
-| [聯想 ThinkSmart] 視圖|18781Y 200922.098 | 2020更新 #6           |
-| Poly CCX400         | 6.2.23.0202         | 2020更新 #7           |
-| Poly CCX500/CCX600  | 6.2.23.0202         | 2020更新 #7          |
-| Poly 組 C60       | 6.2.23.0202          | 2020更新 #7          |
-| Yealink T55/T56/T58 | 58.15.0.118         | 2020更新 #7           |
-| Yealink MP56        | 122.15.0.27          | 2020更新 #7           |
-| Yealink VP59        | 91.15.0.50          | 2020更新 #7           |
-| Yealink CP960       | 73.15.0.111       | 2020更新 #7           |
+| AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 更新#7           |
+| AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 更新#7           |
+| Lenovo ThinkSmart View|CD-18781Y.200922.098 | 2020 更新#6           |
+| Poly CCX400         | 6.2.23.0202         | 2020 更新#7           |
+| Poly CCX500/CCX600  | 6.2.23.0202         | 2020 更新#7          |
+| Poly Trio C60       | 6.2.23.0202          | 2020 更新#7          |
+| Yealink T55/T56/T58 | 58.15.0.118         | 2020 更新#7           |
+| Yealink MP56        | 122.15.0.27          | 2020 更新#7           |
+| YealinkVP59        | 91.15.0.50          | 2020 更新#7           |
+| Yealink CP960       | 73.15.0.111       | 2020 更新#7           |
 
-### <a name="product-release-information-for-collaboration-bars"></a>共同作業橫條圖的產品發行資訊
+### <a name="product-release-information-for-collaboration-bars"></a>共同合作橫條圖的產品發行資訊
 
-以下是最新的團隊共同作業列 app 和固件版本。
+以下是最新的 Teams 共同合作工具列 App 和內文版本。
 
-#### <a name="app-versions"></a>App 版本
+#### <a name="app-versions"></a>應用程式版本
 
-| 產品發行| 發行日期 | Microsoft 團隊 app 版本 | 公司入口網站版本 | 管理代理程式版本 |
+| 產品發行| 發行日期 | Microsoft Teams 應用程式版本 | 公司入口網站版本 | 系統管理代理程式版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 更新 #3  |2020年11月24日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446. 產品 versioncode：216 |
-| 更新 #2  | 2020年8月24日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. 產品 versioncode：212|
-| 更新 #1  | 2020年5月13日 | . 040901                     | . 4715                  | . 210                |
+| 更新#3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product versioncode： 216 |
+| 更新#2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode： 212|
+| 更新#1  | 2020 年 5 月 13 日 | .040901                     | .4715                  | .210                |
 
-#### <a name="firmware-versions"></a>固件版本
+#### <a name="firmware-versions"></a>內文版本
 
-當您在裝置上安裝新的固件版本時，您可以透過在 **隨附產品發行** 資料行中尋找產品發行資料，來判斷已安裝的 Microsoft 團隊 App、公司入口網站和管理員代理程式版本。 然後查詢上述 [ **App 版本** ] 資料表中的 [產品發行]。
+當您在裝置上安裝新版新版時，您可以在包含的產品發行欄中尋找已安裝的產品版本，以判斷對應的 Microsoft Teams 應用程式、公司入口網站及系統管理 **代理程式。** 然後，在上方的 App 版本 **資料表中查看** 產品版本。
 
-| 裝置模型  | 固件版本 | 年/隨附的產品發行 |
+| 裝置模型  | 內文版本 | 年份/包含的產品發行 |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.42     | 2020、更新 #3    |
-| Poly Studio X30 | 3.2.3.280012          | 2020、更新 #3    |
-| Poly Studio X50 | 3.2.3.280012          | 2020、更新 #3    |
+| Yealink VC210 + CP900 | 118.15.0.42     | 2020、更新#3    |
+| Poly Studio X30 | 3.2.3.280012          | 2020、更新#3    |
+| Poly Studio X50 | 3.2.3.280012          | 2020、更新#3    |
 
-### <a name="product-release-information-for-teams-display"></a>團隊顯示的產品發行資訊
+### <a name="product-release-information-for-teams-display"></a>Teams 顯示的產品發行資訊
 
-以下是最新的團隊顯示 app 和固件版本。
+以下是最新的 Teams 顯示 App 和內文版本。
 
-#### <a name="app-versions"></a>App 版本
+#### <a name="app-versions"></a>應用程式版本
 
-|產品發行| 發行日期 | Microsoft 團隊 app 版本 | 公司入口網站版本 | 管理代理程式版本 |
+|產品發行| 發行日期 | Microsoft Teams 應用程式版本 | 公司入口網站版本 | 系統管理代理程式版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|更新 #1  |2020年10月22日 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446 產品|
+|更新#1  |2020 年 10 月 22 日 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
 
-#### <a name="firmware-versions"></a>固件版本
+#### <a name="firmware-versions"></a>內文版本
 
-當您在裝置上安裝新的固件版本時，您可以透過在 **隨附產品發行** 資料行中尋找產品發行資料，來判斷已安裝的 Microsoft 團隊 App、公司入口網站和管理員代理程式版本。 然後查詢上述 [ **App 版本** ] 資料表中的 [產品發行]。
+當您在裝置上安裝新版新版時，您可以在包含的產品發行欄中尋找已安裝的產品版本，以判斷對應的 Microsoft Teams 應用程式、公司入口網站及系統管理 **代理程式。** 然後，在上方的 App 版本 **資料表中查看** 產品版本。
 
-| 裝置模型  | 固件版本 | 年/隨附的產品發行|
+| 裝置模型  | 內文版本 | 年份/包含的產品發行|
 |:--------------|:-----------------|:-------------------------|
-|[聯想 ThinkSmart] 視圖| 18781Y 201006.099 |2020、更新 #1 |
+|Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020、更新#1 |
 
-如需這些裝置支援之功能的資訊，請參閱 [Microsoft 團隊手機功能集](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 。
+請參閱 [Microsoft Teams 手機功能](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 集，瞭解這些裝置支援的功能相關資訊。
 
-請參閱在行動 [裝置上尋找固件版本](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) ，以判斷行動裝置上的裝置固件版本。
+請參閱 [在行動裝置上尋找](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) 該版本的裝置，以判斷行動裝置上的裝置內文版本。
 
-Microsoft 團隊授權可以在 [microsoft 365 或 Office 365 訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)中購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的 [電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams 授權可購買為 [Microsoft 365 或 Office 365 訂閱的一部分](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用 Microsoft Teams 所需的授權，請參閱可用的 [電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
-如需取得團隊的詳細資訊，請參閱 [如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+若要取得 Teams，請參閱 [如何取得 Microsoft Teams 的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 * * *
 
-如果您是尋找加入認證計畫的供應商，請參閱 [如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 需求與可用的程式。
+如果您是尋求加入認證計畫的廠商，請參閱如何 [加入要求和](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 可用計畫。
 
 ## <a name="additional-resources"></a>其他資源
 
-瞭解 [商務用 Skype 和 Microsoft 團隊認證計畫](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
+瞭解商務 [用 Skype 和 Microsoft Teams 認證計畫](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
-[探索 Microsoft 團隊手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
+[探索 Microsoft Teams 手機和通過認證的裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[團隊與 Skype 互通性](../teams-skype-interop.md)
+[Teams 和 Skype 互通性](../teams-skype-interop.md)

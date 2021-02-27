@@ -3,6 +3,30 @@
 
 
 
+## <a name="week-of-february-15-2021"></a>2021 年 2 月 15 日當周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 2/16/2021 | [Microsoft Teams 中的通話停駐和取回](/MicrosoftTeams/call-park-and-retrieve) | 改 性 |
+| 2/16/2021 | [使用 Teams 醫療保健範本建立團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 改 性 |
+| 2/16/2021 | [醫療保健組織的範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 改 性 |
+| 2/16/2021 | [商務用 Skype 與 Microsoft Teams 之間的互通性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 改 性 |
+| 2/17/2021 | [遠端桌面版 Teams](/MicrosoftTeams/teams-for-rdp) | 添加 |
+| 2/17/2021 | [使用 Teams 與遠端桌面服務](/MicrosoftTeams/teams-on-rdp) | 添加 |
+| 2/17/2021 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 改 性 |
+| 2/17/2021 | [Microsoft Teams 中的通話停駐和取回](/MicrosoftTeams/call-park-and-retrieve) | 改 性 |
+| 2/17/2021 | [通過直接路由認證的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
+| 2/17/2021 | [將會話邊界控制器 (SBC) 直接路由](/MicrosoftTeams/direct-routing-connect-the-sbc) | 改 性 |
+| 2/17/2021 | [電話系統直接路由](/MicrosoftTeams/direct-routing-protocols-sip) | 改 性 |
+| 2/17/2021 | 醫療保健組織的範本 | 刪除 |
+| 2/17/2021 | [適用于非標準使用者的 Teams 應用程式行為](/MicrosoftTeams/non-standard-users) | 改 性 |
+| 2/17/2021 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 改 性 |
+| 2/17/2021 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 改 性 |
+| 2/17/2021 | 遠端桌面版 Teams | 刪除 |
+| 2/17/2021 | [安裝、管理及指派 Teams 學習應用程式的許可權， (預覽) ](/MicrosoftTeams/teams-learning-app-overview) | 改 性 |
+
+
 ## <a name="week-of-february-08-2021"></a>2021 年 2 月 8 日當周
 
 
@@ -36,7 +60,7 @@
 | 2/10/2021 | [Teams 連絡人中心](/MicrosoftTeams/teams-contact-center) | 改 性 |
 | 2/10/2021 | [Teams 會議通話以政策為基礎的錄製&簡介](/MicrosoftTeams/teams-recording-policy) | 改 性 |
 | 2/10/2021 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 改 性 |
-| 2/10/2021 | [Microsoft Teams 中的應用程式、bot&連接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 改 性 |
+| 2/10/2021 | [Microsoft Teams 中的應用程式&機器人與連接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 改 性 |
 | 2/10/2021 | [直接路由 SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 改 性 |
 | 2/10/2021 | [購買 Teams 的協力廠商應用程式](/MicrosoftTeams/purchase-third-party-apps) | 改 性 |
 | 2/10/2021 | [Microsoft Teams 會議室](/MicrosoftTeams/rooms/index) | 改 性 |
@@ -151,7 +175,7 @@
 | 1/29/2021 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 改 性 |
 | 1/29/2021 | [通過直接路由認證的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
 | 1/29/2021 | [進行虛擬訪問的 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 改 性 |
-| 1/29/2021 | [管理外部存取 (聯) ](/MicrosoftTeams/manage-external-access) | 改 性 |
+| 1/29/2021 | [管理外部存取 (和) ](/MicrosoftTeams/manage-external-access) | 改 性 |
 | 1/29/2021 | [Microsoft Teams 中外部 (的) 聊天體驗](/MicrosoftTeams/native-chat-for-external-users) | 改 性 |
 | 1/29/2021 | [已知問題](/MicrosoftTeams/rooms/known-issues) | 改 性 |
 | 1/29/2021 | [Teams 和 Skype 互通性](/MicrosoftTeams/teams-skype-interop) | 改 性 |
@@ -223,115 +247,3 @@
 | 1/22/2021 | [Microsoft Teams 的敏感度標籤](/MicrosoftTeams/sensitivity-labels) | 改 性 |
 | 1/22/2021 | [Microsoft Teams 的 Advanced Communications 附加元件](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 改 性 |
 | 1/22/2021 | [從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 改 性 |
-
-
-## <a name="week-of-december-21-2020"></a>2020 年 12 月 21 日當周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 12/22/2020 | [Microsoft Teams 版本資訊](/MicrosoftTeams/release-notes/release-notes) | 改 性 |
-| 12/22/2020 | [在 Teams 中使用分組討論區](/MicrosoftTeams/using-breakout-rooms) | 改 性 |
-| 12/23/2020 | [將病患應用程式連線至 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 改 性 |
-| 12/23/2020 | [管理貴組織的 [清單] 應用程式](/MicrosoftTeams/manage-lists-app) | 改 性 |
-| 12/23/2020 | [入門檢查清單 - 設定雲端語音工作負載 - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 改 性 |
-| 12/23/2020 | [使用 Teams 應用程式提交 API 來提交和核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 改 性 |
-| 12/23/2020 | [Microsoft Teams 附加元件授權](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 改 性 |
-| 12/23/2020 | [從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 改 性 |
-| 12/23/2020 | [Microsoft Teams \| 服務管理品質 \| 的作業](/MicrosoftTeams/upgrade-operate-my-service) | 改 性 |
-| 12/23/2020 | [使用 Advisor for Teams 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 改 性 |
-
-
-## <a name="week-of-january-11-2021"></a>2021 年 1 月 11 日當周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 1/11/2021 | [Microsoft Teams 的敏感度標籤](/MicrosoftTeams/sensitivity-labels) | 改 性 |
-| 1/11/2021 | [在 Microsoft Teams 中共用檔案和資料夾](/MicrosoftTeams/sharing-files-in-teams) | 改 性 |
-| 1/12/2021 | [Microsoft Teams 的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 改 性 |
-| 1/12/2021 | [Teams 連絡人中心](/MicrosoftTeams/teams-contact-center) | 改 性 |
-| 1/12/2021 | [從商務用 Skype 升級至 Teams 的常見問題集](/MicrosoftTeams/faq-journey) | 改 性 |
-| 1/12/2021 | [直接路由 - 連接類比裝置](/MicrosoftTeams/direct-routing-analog-devices) | 改 性 |
-| 1/12/2021 | [Microsoft Teams \| 服務管理品質 \| 的作業](/MicrosoftTeams/upgrade-operate-my-service) | 改 性 |
-| 1/13/2021 | [在 Microsoft Teams 中管理政策套件](/MicrosoftTeams/manage-policy-packages) | 改 性 |
-| 1/13/2021 | [管理 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-manage) | 改 性 |
-| 1/13/2021 | [設定您的團隊目標階層](/MicrosoftTeams/set-up-your-team-hierarchy) | 改 性 |
-| 1/13/2021 | [什麼是通訊點數？](/MicrosoftTeams/what-are-communications-credits) | 改 性 |
-| 1/13/2021 | [已知問題](/MicrosoftTeams/rooms/known-issues) | 改 性 |
-| 1/13/2021 | [Microsoft Teams 中的團隊和頻道概覽](/MicrosoftTeams/teams-channels-overview) | 改 性 |
-| 1/14/2021 | [愛爾蘭的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 改 性 |
-| 1/14/2021 | [義大利的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 改 性 |
-| 1/14/2021 | [英國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 改 性 |
-| 1/14/2021 | [設定您的團隊目標階層](/MicrosoftTeams/set-up-your-team-hierarchy) | 改 性 |
-| 1/14/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
-| 1/14/2021 | [管理貴組織的設定](/MicrosoftTeams/enable-features-office-365) | 改 性 |
-| 1/14/2021 | [會議第一次 - Microsoft Teams](/MicrosoftTeams/meetings-first) | 改 性 |
-| 1/14/2021 | [管理使用者對 Microsoft Teams 的存取權](/MicrosoftTeams/user-access) | 改 性 |
-| 1/15/2021 | [愛爾蘭的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 改 性 |
-| 1/15/2021 | [荷蘭的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 改 性 |
-
-
-## <a name="week-of-december-14-2020"></a>2020 年 12 月 14 日當周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 12/15/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 改 性 |
-| 12/15/2020 | [啟用 Teams 會議室裝置以加入協力廠商會議](/MicrosoftTeams/rooms/third-party-join) | 改 性 |
-| 12/15/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 改 性 |
-| 12/15/2020 | [在 Microsoft Teams 中規劃語音解決方案](/MicrosoftTeams/cloud-voice-landing-page) | 改 性 |
-| 12/15/2020 | [Microsoft Teams 中的 Cortana 語音協助](/MicrosoftTeams/cortana-in-teams) | 改 性 |
-| 12/15/2020 | [直接路由本地媒體優化](/MicrosoftTeams/direct-routing-media-optimization) | 改 性 |
-| 12/15/2020 | [從商務用 Skype 內部部署升級到 Teams 時，PSTN 的考慮](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 改 性 |
-| 12/16/2020 | [規劃 Teams 自動 Attendant 和通話佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 改 性 |
-| 12/16/2020 | [在 Microsoft Teams 中規劃語音解決方案](/MicrosoftTeams/cloud-voice-landing-page) | 改 性 |
-| 12/16/2020 | [維度和度量 - 通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 改 性 |
-| 12/16/2020 | [設定直接路由](/MicrosoftTeams/direct-routing-configure) | 改 性 |
-| 12/16/2020 | [Microsoft Teams 版本資訊](/MicrosoftTeams/release-notes/release-notes) | 改 性 |
-| 12/16/2020 | [設定通話方案](/MicrosoftTeams/set-up-calling-plans) | 改 性 |
-| 12/16/2020 | [設定組織的電話系統](/MicrosoftTeams/setting-up-your-phone-system) | 改 性 |
-| 12/16/2020 | [Azure Sentinel 和 Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 改 性 |
-| 12/16/2020 | [在 Microsoft 365 for Teams 中試用或購買音訊會議](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 改 性 |
-| 12/16/2020 | [Teams voice Contoso 案例研究](/MicrosoftTeams/voice-case-study-overview) | 改 性 |
-| 12/17/2020 | 從商務用 Skype 升級至 Teams 的常見問題集 | 刪除 |
-| 12/17/2020 | [Microsoft Teams 的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 改 性 |
-| 12/17/2020 | [通過直接路由認證的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
-| 12/17/2020 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 改 性 |
-| 12/17/2020 | [終止對商務用 Skype Online 的支援](/MicrosoftTeams/skype-for-business-online-retirement) | 改 性 |
-| 12/18/2020 | [Teams 連絡人中心](/MicrosoftTeams/teams-contact-center) | 改 性 |
-| 12/18/2020 | [Teams 的電話和裝置](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 12/18/2020 | [Microsoft Teams 的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 改 性 |
-| 12/18/2020 | [Teams 教育原則精靈，輕鬆將原則用於安全學習](/MicrosoftTeams/easy-policy-setup-edu) | 改 性 |
-| 12/18/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 改 性 |
-| 12/18/2020 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
-| 12/18/2020 | [什麼是撥號對應表？](/MicrosoftTeams/what-are-dial-plans) | 改 性 |
-
-
-## <a name="week-of-january-04-2021"></a>2021 年 1 月 4 日當周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 1/4/2021 | [設定 Microsoft Teams 的自動 Attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 改 性 |
-| 1/4/2021 | [自動語音機和通話佇列撥號和語音辨識參考](/MicrosoftTeams/dial-voice-reference) | 改 性 |
-| 1/4/2021 | [通過直接路由認證的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
-| 1/4/2021 | [設定會話邊界控制器 - 多個租使用者](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 改 性 |
-| 1/5/2021 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
-| 1/5/2021 | [增強現有的 Microsoft 365 群組](/MicrosoftTeams/enhance-office-365-groups) | 改 性 |
-| 1/5/2021 | [SharePoint Online 和商務用 OneDrive 如何與 Microsoft Teams 互動](/MicrosoftTeams/sharepoint-onedrive-interact) | 改 性 |
-| 1/5/2021 | [Microsoft 365 啟用多重地理位置環境的 Teams 體驗](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 改 性 |
-| 1/5/2021 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 改 性 |
-| 1/5/2021 | [Teams 會議通話以政策為基礎的錄製&簡介](/MicrosoftTeams/teams-recording-policy) | 改 性 |
-| 1/5/2021 | [在 Microsoft Teams 疑難排解中使用記錄檔案](/MicrosoftTeams/log-files) | 改 性 |
-| 1/6/2021 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 改 性 |
-| 1/6/2021 | [使用 Graph API 管理 Microsoft Teams 中的私人頻道](/MicrosoftTeams/private-channels-life-cycle-management) | 改 性 |
-| 1/6/2021 | [在 Microsoft Teams 中管理團隊政策](/MicrosoftTeams/teams-policies) | 改 性 |
-| 1/6/2021 | [通過直接路由認證的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
-| 1/6/2021 | [使用 Teams 應用程式提交 API 來提交和核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 改 性 |
-| 1/7/2021 | [使用 Microsoft Teams 限域目錄搜尋](/MicrosoftTeams/teams-scoped-directory-search) | 改 性 |
-| 1/7/2021 | [通過直接路由認證的會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
-| 1/8/2021 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 改 性 |
-| 1/8/2021 | [Microsoft Teams 中的保留政策](/MicrosoftTeams/retention-policies) | 改 性 |
-| 1/8/2021 | [開啟或關閉 Microsoft Teams 的來賓存取](/MicrosoftTeams/set-up-guests) | 改 性 |
-| 1/8/2021 | [Teams 教育原則精靈，輕鬆將原則用於安全學習](/MicrosoftTeams/easy-policy-setup-edu) | 改 性 |

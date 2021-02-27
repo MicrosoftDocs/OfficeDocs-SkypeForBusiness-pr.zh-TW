@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ac88778fca7034446d0ec42a0a4a65d7c76f979
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278885"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347874"
 ---
 # <a name="teams-in-remote-desktop-services"></a>遠端桌面服務中的 Teams
 
@@ -33,27 +33,27 @@ ms.locfileid: "50278885"
 遠端桌面 (RDS) 是每個最終客戶的需求建立虛擬化解決方案的首選平臺。 RDS 可讓您提供個別的虛擬應用程式、提供安全的行動和遠端桌面存取，以及讓使用者從雲端執行其應用程式和桌面。
 
 RDS 提供部署彈性、成本效率及可延延性。 RDS 會透過各種部署選項提供，包括內部部署 Windows Server 2016、雲端部署的 Microsoft Azure，以及一系列強大的合作夥伴解決方案。
-視您的環境和喜好設定，您可以將 RDS 解決方案設定為會話型虛擬化的虛擬桌面基礎結構 (VDI) 
+視您的環境和喜好設定，您可以將 RDS 解決方案設定為會話式虛擬化，做為虛擬桌面基礎結構 (VDI) 
 
-目前，遠端桌面服務環境中的 Teams 可支援共同合作和聊天功能。 若要確保最佳的使用者體驗，請遵循本文中的指引。
+目前，遠端桌面服務環境中的 Teams 可支援共同合作和聊天功能。 若要確保獲得最佳使用者體驗，請遵循本文中的指引。
 
-## <a name="teams-on-vdi-with-chat-and-collaboration"></a>使用聊天和共同合作功能在 VDI 上的 Teams
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>RDS 上的 Teams 與聊天和共同合作
 
 如果貴組織只想使用 Teams 中的聊天和共同合作功能，您可以設定使用者層級政策，以關閉 Teams 中的通話和會議功能。
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>設定關閉通話和會議功能的策略
 
-您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定策略。 可能需要一些時間 (，) 變更才能傳播。 如果您沒立即看到所給帳戶的變更，請在幾個小時後再試一次。
+您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定策略。 可能需要幾個小時 (，) 變更才能傳播。 如果您沒立即看到所給帳戶的變更，請在幾個小時後再試一次。
 
-[**通話規定**](teams-calling-policy.md)：Teams 包含內建的 DisallowCalling 通話政策，其中會關閉所有通話功能。 將不允許的Calling 政策指派給組織中在虛擬環境中使用 Teams 的所有使用者。
+[**通話規定**](teams-calling-policy.md)：Teams 包含內建的 DisallowCalling 通話政策，其中所有通話功能都已關閉。 將不允許的Calling 政策指派給組織中在虛擬環境中使用 Teams 的所有使用者。
 
-[**會議政策**](meeting-policies-in-teams.md)：Teams 包含內建的 AllOff 會議政策，其中會關閉所有會議功能。 將 AllOff 策略指派給組織中在虛擬環境中使用 Teams 的所有使用者。
+[**會議政策**](meeting-policies-in-teams.md)：Teams 包含內建的 AllOff 會議政策，其中所有會議功能都已關閉。 將 AllOff 策略指派給組織中在虛擬環境中使用 Teams 的所有使用者。
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心指派政策
 
-若要將不允許的通話策略和 AllOff 會議政策指派給使用者：
+若要將不允許的Calling 通話策略和 AllOff 會議政策指派給使用者：
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，請前往 **使用者**。
+1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **使用者**。
 2. 選取使用者名稱左側以選取使用者，然後選取編輯 **設定**。
 3. 執行下列步驟：
 
@@ -73,7 +73,7 @@ RDS 提供部署彈性、成本效率及可延延性。 RDS 會透過各種部�
 
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往您想要指派的政策。 例如：
 
-    - 請前往 **語音**  >  **通話政策**，然後選取 **不允許Calling。**
+    - 前往 **語音**  >  **通話政策**，然後選取 **不允許Calling。**
     - 前往 **會議**  >  **會議政策，** 然後選取 **AllOff。**
 
 2. 選取 [管理使用者]。
