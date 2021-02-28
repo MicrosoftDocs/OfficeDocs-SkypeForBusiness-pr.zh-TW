@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Teams 顯示器
             href: devices/teams-displays.md
+          - name: Teams 窗格
+            href: devices/teams-panels.md
+          - name: 使用 Teams 窗格
+            href: devices/use-teams-panels.md
           - name: 將 Teams 電話升級為 Teams 顯示器
             href: devices/upgrade-phones-to-displays.md
           - name: 使用 Intune 部署 Teams 電話與 Teams 顯示器
