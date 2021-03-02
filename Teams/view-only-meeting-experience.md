@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解適用于系統管理員、簡報者和出席者的 Teams 唯一查看會議體驗
+description: 瞭解系統管理員、簡報者和出席者的 Teams 唯一查看會議體驗
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54bbb3c00aae8a2785e867be9614f8509ca9344d
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237453"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397558"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 只能查看會議體驗
 
 > [!Note]
-> 將于 2021 年 3 月初提供只能觀看的會議體驗。
+> 將于 2021 年 3 月初提供只能觀看的會議體驗。 這項功能將于 2021 年 3 月 1 日啟用為預設關閉。 如果您希望功能為預設 ON，您必須在日期之後變更預設政策。 使用 PowerShell 啟用該策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` 。
 
 > [!Note]
-> 我們已為 20，000 名出席者暫時增加只能觀看體驗，但我們將在 2021 年 6 月 30 日將支援回復為 10，000 位出席者。
+> 我們已暫時增加 20，000 名出席者只能觀看的體驗，但我們將在 2021 年 6 月 30 日將支援回復為 10，000 位出席者。
 
 Microsoft Teams 允許最多 10，000 位出席者加入 Teams 會議。 達到主要會議容量後，其他出席者會以只能觀看的體驗加入。
 
@@ -42,9 +42,9 @@ Microsoft Teams 允許最多 10，000 位出席者加入 Teams 會議。 達到�
 > [!Note]
 > 在 WW 中，可聊天和通話參與會議人數目前限制為 300 人，GCC、GCC High 和 DoD 為 250 人。
 
-根據預設，任何擁有 E3/E5/A3/A5 SKU 的召集人，都啟用只能觀看的體驗。 無需進一步設定或設定。
+任何擁有 E3/E5/A3/A5 SKU 的召集人，預設會停用只能觀看的體驗。 無需進一步設定或設定。
 
-### <a name="disable-teams-view-only-experience"></a>停用 Teams 只能查看體驗
+## <a name="disable-teams-view-only-experience"></a>停用 Teams 只能查看體驗
 
 系統管理員可以使用 PowerShell 停用只能查看的體驗。
 
@@ -61,9 +61,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 當達到主要會議容量時，如果下列任一項為 True，出席者將無法加入會議：
 
 - 系統管理員已停用 Teams 只能查看的體驗。
-- 出席者沒有避開大廳的許可權。
+- 出席者沒有跳過大廳的許可權。
 
-當達到主要會議容量時，會議召集人和簡報者會看到橫幅，通知他們已達會議容量，且新的出席者將加入只能觀看的出席者。
+當達到主要會議容量時，會議召集人和簡報者會看到橫幅，通知他們會議容量已到達，且新的出席者將加入只能觀看的出席者。
 
   ![適用于召集人和簡報者的 Teams 用戶端和橫幅亂七八糟](media/chat-and-banner-message.png)
 
@@ -76,8 +76,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 如果尚未設定簡報者/出席者角色，主會議的空格會先到先用。 一旦達到會議容量，所有其他使用者就會以只能查看的體驗加入。
 
 ## <a name="impact-to-meeting-presenters"></a>對會議簡報者的影響
-
-我們會為會議選項中明確指出為簡報者的使用者保留一般會議空間。 如果簡報者離開，之後又重新加入會議，就會讓他們以簡報者的名加入會議。
 
 會議簡報者的限制包括：
 
@@ -96,12 +94,11 @@ Teams 只能查看體驗可讓出席者：
 - 如果使用中喇叭正在分享視 (，請觀看使用中喇叭的視) 。
 - 查看使用共用桌面功能共用的內容。
 
-只有看視圖的出席者將無法在會議中體驗下列選項：
+只有觀看的出席者將無法在會議中體驗下列選項：
 
 - 如果出席者沒有許可權根據設定大廳政策或選項來避開大廳，請加入會議。
 - 透過音訊會議加入溢位會議室。
 - 透過 Microsoft Teams Room 系統或透過雲端視 (CVI 服務加入溢位) 聊天室。
-- 透過 Teams Android 行動應用程式加入溢位會議室。
 - 分享他們的音訊或視視。
 - 查看或參與會議聊天。
 - 除非參與者是活動演講者，否則請觀看會議參與者的影片來源。
@@ -109,11 +106,11 @@ Teams 只能查看體驗可讓出席者：
 
 ## <a name="view-only-feature-limitations"></a>僅查看功能限制
 
-- 不論會議的即時字幕設定如何，只有觀看的出席者一定會看到即時字幕。 目前僅支援英文標題。
+- 不論會議的即時字幕設定如何，只有觀看的出席者一定會看到即時字幕。 目前僅支援英文字幕。
 - 串流技術將支援只有觀看的出席者。
 - 只有查看的出席者不會包含在出席報告中。
 - 只有觀看的出席者將擁有單一影片體驗。 他們可以看到使用中的喇叭或共用的內容，但無法同時看到兩者。
-- 我們目前不支援圖庫 **、****大型** 圖庫或只供出席者使用共聚模式版面配置。  
+- 我們目前不支援只有觀看的出席者使用圖庫、大型圖庫或共聚模式版面配置。   
 - 只有觀看的出席者不會有與一般出席者相同的延遲時間。 <sup>1</sup>
 
   <sup>1</sup> 只有觀看的出席者在會議進行 30 秒的視像和音訊延遲。  

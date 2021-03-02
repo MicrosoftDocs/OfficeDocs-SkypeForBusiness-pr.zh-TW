@@ -1,9 +1,9 @@
 ---
-title: Teams 的電話和裝置
+title: Teams 的裝置
 ms.author: dstrome
 author: dstrome
 manager: serdars
-ms.reviewer: dvank, kponnus
+ms.reviewer: divank
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -21,30 +21,28 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 的認證，以產生最佳結果。
-ms.openlocfilehash: e93756b1d7aaadb3027e0172d9495393be650e7b
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7425ec0e637600e600987f43d85c7656e31919a4
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347834"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397528"
 ---
-# <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 的 IP 電話認證
+# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認證的裝置
 
-IP 電話認證計畫可確保使用通過認證的電話機和會議電話的客戶，將能體驗高品質的音訊通話和會議體驗。
+Microsoft Teams 認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-## <a name="announcing-certified-for-microsoft-teams"></a>宣佈 Microsoft Teams 認證
-
-除了提供客戶各種經商務用 Skype 認證的 IP 電話之外，作為 Teams IP 電話認證計畫的一部分，我們宣佈將推出 Microsoft Teams 的新 IP 電話硬體。 此認證計畫可確保品質較高的長條，具有較高的績效目標及音訊品質計量。 手機廠商正積極努力符合這個較高的需求列，並符合這個日曆年度的新需求。 我們的部分合作夥伴也正在努力針對與 Teams IP 電話相同的硬體供應商務用 Skype 服務的支援。 Teams 認證 IP 電話的權益包括：
+Microsoft Teams 認證計畫可確保品質較高的長條，具有較高的績效目標及音訊品質計量。 合作夥伴正積極努力符合此較高水準列，且符合裝置符合認證要求。 我們的部分合作夥伴也正在努力在與 Teams 手機相同的硬體上，為商務用 Skype 服務提供支援。 Microsoft Teams 認證裝置的好處包括：
 
 - 整合硬體按鈕和 LED 通知的原生 Teams 體驗
 - 整合的日曆和單鍵會議加入
-- 透過與 Intune 整合的 Microsoft 裝置管理解決方案部署及管理
+- 透過 Teams 系統管理中心與 Intune 整合來部署及管理
 
-## <a name="currently-certified-ip-phones"></a>目前通過認證的 IP 電話
+## <a name="currently-certified-teams-phones"></a>目前通過認證的 Teams 電話
 
-下列手機通過 Microsoft Teams 的認證：
+下列裝置在 Microsoft Teams 手機認證計畫下通過認證：
 
-| 手機型號                            | 內文版本                                                                                                                                                                                                                           | 發行日期                 |
+|裝置模型                         | 內文版本                                                                                                                                                                                                                           | 發行日期                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | C450HD 支援的音訊編碼擴充模組 |C450HD_TEAMS_0.225                                        | 2021 年 1 月                 |
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
@@ -67,27 +65,38 @@ IP 電話認證計畫可確保使用通過認證的電話機和會議電話的�
 | Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
 | Yealink T58 & T56 系列 | 58.15.0.20 | 2018 年 12 月 |
 
-## <a name="currently-certified-collaboration-bars"></a>目前通過認證的共同合作橫條圖
+## <a name="currently-certified-teams-rooms-on-android"></a>Android 上目前已通過認證的 Teams 會議室
 
-下列共同合作橫條圖通過 Microsoft Teams 的認證：
+下列裝置在 Android 認證計畫的 Microsoft Teams 會議室下通過認證：
 
-| 共同合作橫條圖模型 | 內文版本 | 發行日期  | 會議室大小 (最多)                                          |
+| 裝置模型 | 內文版本 | 發行日期  | 會議室大小 (最多)                                          |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
+| Yealink CTP18 觸控主控台  | 137.15.0.28    | 2021 年 3 月 | 與會議欄 A20 和會議欄 A30 相容 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
 | Poly Studio X30         | 3.1.1.216109     | 2020 年 6 月     | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
 | Poly Studio X50         | 3.1.1.216109     | 2020 年 6 月     | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
 | Yealink VC210           | 118.15.0.14      | 2020 年 2 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
 
-## <a name="currently-certified-teams-display"></a>目前通過認證的 Teams 顯示器
-下列 Teams 顯示已通過 Microsoft Teams 的認證：
+## <a name="currently-certified-teams-displays"></a>目前通過認證的 Teams 顯示器
 
-| Teams 顯示模型 | 內文版本 | 發行日期  |                                         
+下列裝置在 Microsoft Teams 顯示認證計畫下通過認證：
+
+| 裝置模型 | 內文版本 | 發行日期  |                                         
 |:------------------------|:-----------------|:--------------|
 |Lenovo ThinkSmart View|CD-18781Y.201006.099|2020 年 10 月 |
 
-### <a name="product-release-information-for-teams-phones"></a>Teams 手機的產品發行資訊
+## <a name="currently-certified-teams-panels"></a>目前通過認證的 Teams 面板
+下列裝置在 Microsoft Teams 面板認證計畫下通過認證：
 
-以下是最新的 Teams IP 電話 App 和內文版本。
+| 裝置模型| 內文版本 | 發行日期  |                                         
+|:------------------------|:-----------------|:--------------|
+|Cres本 TSS-770 | 1.003.0082 |2021 年 2 月 |
+|Cres本 TSS-1070 | 1.003.0082 |2021 年 2 月 |
+
+### <a name="product-release-information-for-teams-phones"></a>Teams 手機的產品版本資訊
+
+以下是最新的 Teams 手機 App 和內文版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -116,9 +125,9 @@ IP 電話認證計畫可確保使用通過認證的電話機和會議電話的�
 | YealinkVP59        | 91.15.0.50          | 2020 更新#7           |
 | Yealink CP960       | 73.15.0.111       | 2020 更新#7           |
 
-### <a name="product-release-information-for-collaboration-bars"></a>共同合作橫條圖的產品發行資訊
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上的 Teams 會議室產品發行資訊
 
-以下是最新的 Teams 共同合作工具列 App 和內文版本。
+以下是 Android 應用程式與新版 Teams 的 Teams 會議室。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -138,7 +147,7 @@ IP 電話認證計畫可確保使用通過認證的電話機和會議電話的�
 | Poly Studio X30 | 3.2.3.280012          | 2020、更新#3    |
 | Poly Studio X50 | 3.2.3.280012          | 2020、更新#3    |
 
-### <a name="product-release-information-for-teams-display"></a>Teams 顯示的產品發行資訊
+### <a name="product-release-information-for-teams-displays"></a>Teams 的產品發行資訊會顯示
 
 以下是最新的 Teams 顯示 App 和內文版本。
 
@@ -169,8 +178,6 @@ Microsoft Teams 授權可購買為 [Microsoft 365 或 Office 365 訂閱的一部
 如果您是尋求加入認證計畫的廠商，請參閱如何 [加入要求和](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 可用計畫。
 
 ## <a name="additional-resources"></a>其他資源
-
-瞭解商務 [用 Skype 和 Microsoft Teams 認證計畫](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
 [探索 Microsoft Teams 手機和通過認證的裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 

@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供如何使用 Teams 面板裝置之指引。
-ms.openlocfilehash: 9ff2b9ec969336ada04ed7a872cf3c5d8ea358ab
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348017"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395324"
 ---
-# <a name="use-microsoft-teams-panels"></a>使用 Microsoft Teams 面板
+# <a name="how-to-use-microsoft-teams-panels"></a>如何使用 Microsoft Teams 面板
 
 Microsoft Teams 面板是小型的數字顯示裝置，安裝在會議空間外，通常位於進入處旁邊。 這些觸控螢幕面板是專用的 Microsoft Teams 裝置，可快速查看您的會議空間和已排程會議。 使用生動的色彩編碼 LED 和主畫面指示器，您可以判斷空間是否可用或保留距離。 您可以使用 Teams 面板，為臨時會議保留可用的會議空間。
 
@@ -63,7 +63,7 @@ Teams 面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 **1-目前的時間、日期、日期及會議空間詳細資料** | 顯示目前的時間、日期、日期及會議空間名稱。 會議空間名稱是已登錄至面板的資源帳戶名稱。
 **2 會議空間可用性和會議詳細資料** | 表示會議空間可用性，並顯示會議詳細資料。 查看 [會議空間可用性和會議詳細資料磚](#meeting-space-availability-and-meeting-details-tile)。
 **3-近期的日曆** | 顯示從目前時間起最多 24 小時的會議空間日曆和可用性。 向上或向下卷卷來判斷哪些時段可以使用，哪些時段是保留的。
-**4-設定** | 顯示設定圖示。 點一下以開啟 **設定畫面** 來報告問題或更新可用的裝置設定。
+**4-設定** | 顯示設定 **圖示** 。 點一下以報告問題或更新可用的裝置設定。
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>會議空間可用性和會議詳細資料磚
 
@@ -223,4 +223,4 @@ Teams 面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 否，您未來無法從面板保留會議空間。 開始時間一直是從面板排程之臨時會議的時間。
 
 **我可以為臨時會議保留可用會議空間多久？**  
-您可以預約從目前時間開始到下一個排定的會議時間，或是從目前時間開始最多 24 小時 ，以較早的時間為准。 例如，如果目前的時間是上午 10 點，而下一個會議開始時間是下午 2 點，您可以將會議空間從上午 10 點保留到下午 2 點。
+您可以預約從目前時間開始到下一個排定的會議時間，或從目前時間起最多 24 小時 ，以較早的時間為准。 例如，如果目前的時間是上午 10 點，而下一個會議開始時間是下午 2 點，您可以將會議空間從上午 10 點保留到下午 2 點。

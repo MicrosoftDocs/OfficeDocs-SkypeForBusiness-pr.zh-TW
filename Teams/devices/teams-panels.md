@@ -16,18 +16,18 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供 Microsoft Teams 面板所支援之功能概觀。
-ms.openlocfilehash: f694a45fda56fd58871e93a7a0e8a1e9373a67b5
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348006"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395335"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
 Microsoft Teams 面板是安裝在會議空間外 ，通常是在進入旁的精簡觸控螢幕裝置。 Teams 面板提供您一目了然地查看位置和會議詳細資料的能力，並保留現場可用的會議空間。 您可以使用豐富的大型文字和色彩編碼的標記，從遠處查看會議空間的可用性。
 
-Teams 面板是專用的 Microsoft Teams 裝置，可顯示透過 Teams 或 Outlook 365 日曆應用程式排程的會議詳細資料。 當會議詳細資料醒目顯示時，出席者可以確認他們在正確的會議空間、在正確的時間，以及正確的會議。
+Teams 面板是專用的 Microsoft Teams 裝置，可顯示透過 Teams 或 Outlook 365 日曆應用程式排程的會議詳細資料。 當會議詳細資料醒目顯示時，出席者可以確認他們位於正確的會議空間、適當的時間，以及正確的會議。
 
 本文提供 Teams 面板概觀，可協助規劃、提供和管理貴組織的 Teams 面板裝置。
 
@@ -48,7 +48,7 @@ Teams 面板支援下列功能：
 您可以向下列其中一個合作夥伴取得 Teams 面板裝置：
 
 - 寇里s本
--  (Yealink) 推出
+-  (Yealink 中) 推出
 
 ## <a name="teams-panels-requirements"></a>Teams 面板需求
 
@@ -61,7 +61,7 @@ Teams 面板支援下列功能：
 > [!Note]
 >
 > - 如果您已經在安裝 Teams 面板的會議空間中部署 Microsoft Teams 會議室，則不需要額外授權才能使用 Teams 面板。
-> - 您需要 Microsoft Teams 會議室進位版授權，才能使用即將推出的其他進一步 Teams 面板功能。
+> - 您需要 Microsoft Teams 會議室進一步授權，才能使用即將推出的其他進一步 Teams 面板功能。
 
 ## <a name="deploy-teams-panels-devices"></a>部署 Teams 面板裝置
 
@@ -71,7 +71,7 @@ Teams 面板裝置部署可以細分為下列工作：
 
 - [會議空間庫存與功能規劃](#inventory-sites-and-meeting-spaces)：建立貴組織網站和會議空間的庫存，以部署 Teams 面板裝置。
 - [採購](#procurement)：從您所選的裝置合作夥伴購買裝置。  
-- [網站就緒](#site-readiness)：確認您的部署 (空間) 符合部署需求。
+- [網站就緒](#site-readiness)：確認您的部署位置 (會議) 符合部署需求。
 - [組配置與部署](#configuration-and-deployment)：建立資源帳戶，並將其指派給裝置。
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>庫存網站和會議空間
@@ -86,12 +86,12 @@ Teams 面板裝置部署可以細分為下列工作：
 
 ## <a name="site-readiness"></a>網站就緒
 
-當訂購的裝置送達貴組織時，請與網路、設施及音訊及視覺團隊合作，以確保符合部署需求，而且每個網站和會議空間在電源和網路方面已準備就緒。
+當訂購的裝置送達貴組織時，請與網路、設施及音訊-視覺小組合作，以確保符合部署需求，而且每個網站和會議空間在電源和網路方面已準備就緒。
 
 我們針對 Teams 面板網站的建議為：
 
 - 專用資源帳戶
-- 電源供應 (面板通常支援 Power over 乙太網路， (PoE+) 電源。 請參閱 OEM 檔，以尋找任何裝置的特定電源需求。) 
+- 電源供應 (面板通常支援 Power over 乙太網路加 (PoE+) 電源。 請參閱 OEM 檔，以尋找任何裝置的特定電源需求。) 
 - Microsoft Teams (網路上) QoS 的服務品質
 
 針對實體安裝考慮，請參閱 OEM 檔，如果您有的話，在安裝及安裝裝置及執行接線之前，請使用音訊視覺小組的體驗。
@@ -134,5 +134,7 @@ Teams 面板裝置部署可以細分為下列工作：
 [如何使用 Microsoft Teams 面板裝置](use-teams-panels.md)
 
 ## <a name="see-also"></a>另請參閱
+
+[Teams 面板上的 Microsoft Teams 部落格](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [開始使用 Teams 面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)

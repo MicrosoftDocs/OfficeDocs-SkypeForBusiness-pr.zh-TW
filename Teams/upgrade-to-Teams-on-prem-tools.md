@@ -17,34 +17,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347844"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397538"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>適用于 IT 系統管理員升級至 Teams &mdash; 的工具
 
-本文將說明升級至 Teams 的工具。 本文是說明 IT 系統管理員升級概念和實現之數的第三篇文章。  
+本文將說明從商務用 Skype 升級到 Teams 的工具。 
 
-- [概觀](upgrade-to-teams-on-prem-overview.md)
-- [升級方法](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **管理升級工具 (**   本文) 
-- [使用商務用 Skype 內部部署之組織的其他考慮](upgrade-to-teams-on-prem-considerations.md)
-- [實施您的升級](upgrade-to-teams-on-prem-implement.md)
-- [公用交換電話網路 (PSTN) 考慮](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-此外，下列文章說明重要的升級概念和共存行為：
+在開始升級之前，Microsoft 會建議下列文章說明重要的升級概念和共存行為：
 
 - [Teams 和商務用 Skype 的共存](upgrade-to-teams-on-prem-coexistence.md)
 - [共存模式 - 參照](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams 用戶端體驗和遵從共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-
 ## <a name="tools-for-managing-the-upgrade"></a>管理升級的工具
 
-無論您選擇哪一種升級方法，對於已經有商務用 Skype Online 的使用者，您都使用 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)管理 TeamsOnly 的轉換，該轉換會控制使用者的共存模式。 對於在商務用 Skype Server 中擁有內部部署帳戶的使用者，您也可以將它們移到 `Move-CsUser` [雲端](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有關每個模式的資訊，請參閱 [共存模式](migration-interop-guidance-for-teams-with-skype.md)。
+無論您選擇哪一種升級方法，對於已經有商務用 Skype Online 的使用者，您都使用 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)管理 TeamsOnly 的轉換，此模式會控制使用者的共存模式。 對於在商務用 Skype Server 中擁有內部部署帳戶的使用者，您也可以將它們移至 `Move-CsUser` [雲端](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有關每個模式的資訊，請參閱 [共存模式](migration-interop-guidance-for-teams-with-skype.md)。
 
 > [!NOTE]
 > 如果您目前使用商務用 Skype Online Connector 來管理服務，您必須移至 Teams PowerShell 模組並更新現有的 PowerShell 腳本。 詳細資訊 [請參閱從商務用 Skype Online Connector](teams-powershell-move-from-sfbo.md) 移至 Teams PowerShell 模組。
@@ -59,7 +51,7 @@ ms.locfileid: "50347844"
 
 -   2 個步驟：執行 Move-CsUser 之後，使用 TeamsUpgradePolicy 將 TeamsOnly 模式授予使用者。
 
-不同于其他政策，在 Microsoft 365 或 Office 365 中無法建立 TeamsUpgradePolicy 的新實例。 所有現有的實例都內建于服務中。   (請注意，模式是 TeamsUpgradePolicy 中的屬性，而不是一個策略實例的名稱。) 在某些情況中 ，但並非全部，該策略實例的名稱與模式相同。 特別是，若要將 TeamsOnly 模式指派給使用者，您必須將 TeamsUpgradePolicy 的「UpgradeToTeams」實例授予該使用者。 若要查看所有實例的清單，您可以執行下列命令：
+不同于其他策略，在 Microsoft 365 或 Office 365 中無法建立 TeamsUpgradePolicy 的新實例。 所有現有的實例都內建于服務中。   (請注意，模式是 TeamsUpgradePolicy 中的屬性，而不是一個策略實例的名稱。) 在某些情況中 ，但並非全部，該策略實例的名稱與模式相同。 特別是，若要將 TeamsOnly 模式指派給使用者，您必須將 TeamsUpgradePolicy 的「UpgradeToTeams」實例授予該使用者。 若要查看所有實例的清單，您可以執行下列命令：
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -112,7 +104,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 ## <a name="meeting-migration"></a>會議移移
 
-當使用者移轉至 TeamsOnly 模式時，根據預設，他們組織的現有商務用 Skype 會議將會轉換成 Teams。 您可以選擇性地停用將 TeamsOnly 模式指派給使用者時的預設行為。 將使用者從內部部署移轉時，會議必須移至雲端，以使用線上使用者帳戶運作，但如果您未指定 -MoveToTeams，會議會移轉為商務用 Skype 會議，而不是轉換成 Teams。 
+當使用者移轉至 TeamsOnly 模式時，根據預設，他們組織的現有商務用 Skype 會議將會轉換成 Teams。 您可以選擇性地停用將 TeamsOnly 模式指派給使用者時的預設行為。 從內部部署移動使用者時，會議必須移至雲端，以使用線上使用者帳戶運作，但如果您未指定 -MoveToTeams，會議會以商務用 Skype 會議方式移轉，而不是轉換成 Teams。 
 
 在租使用者層級指派 TeamsOnly 模式時，不會針對任何使用者觸發會議移移。 如果您想要在租使用者層級指派 TeamsOnly 模式並移移會議，您可以使用 PowerShell 在租使用者 (中取得使用者清單 (例如，使用 Get-CsOnlineUser 具有所需的任何篩選準則) 然後迴圈流覽這些使用者，以使用 Start-CsExMeetingMigration 觸發會議移入。 有關詳細資料，請參閱使用會議移 ([MMS) 。](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
@@ -120,7 +112,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 ## <a name="related-links"></a>相關連結
 
-[適用于將 Teams 與商務用 Skype 一起使用的組織之移移和互通性指南](migration-interop-guidance-for-teams-with-skype.md) 
+[共存模式 - 參照](migration-interop-guidance-for-teams-with-skype.md) 
 
 [設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
