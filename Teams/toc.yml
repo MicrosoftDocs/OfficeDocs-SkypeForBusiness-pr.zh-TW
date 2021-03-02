@@ -1,36 +1,254 @@
 items:
   - name: 歡迎使用 Teams
     href: teams-overview.md
-  - name: 架構和電話語音解決方案海報
-    href: teams-architecture-solutions-posters.md
-  - name: 支援遠端工作者 (WFH)
-    href: support-remote-work-with-teams.md
-  - name: 訓練
+  - name: 開始使用
     items:
-      - name: 概觀
-        href: training-microsoft-teams-landing-page.md
-      - name: Teams 的管理訓練
-        href: itadmin-readiness.md
-      - name: Ignite 2020 中的 Teams 工作階段
-        href: ignite-2020-landing-page.md
-      - name: Teams 即時訓練
-        href: instructor-led-training-teams-landing-page.yml
-      - name: Teams 線上訓練
-        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-  - name: 如何推出 Teams
-    href: How-to-roll-out-teams.md
-  - name: 快速入門
+      - name: 部署概觀
+        href: deploy-overview.md
+      - name: 快速入門
+        items:
+          - name: 快速入門概觀
+            href: get-started-with-teams-quick-start.md
+          - name: 步驟 1：建立您的首批團隊和頻道
+            href: get-started-with-teams-create-your-first-teams-and-channels.md
+          - name: 步驟 2：讓早期採用者快速上手
+            href: get-started-with-teams-onboard-early-adopters.md
+          - name: 步驟 3：監視使用情況和意見反應
+            href: get-started-with-teams-monitor-usage-and-feedback.md
+          - name: 步驟 4：規劃推出至整個組織
+            href: get-started-with-teams-resources-for-org-wide-rollout.md
+          - name: 支援遠端工作者 (WFH)
+            href: support-remote-work-with-teams.md
+      - name: 小型企業設定
+        href: deploy-small-business.md
+      - name: 企業設定
+        items:
+          - name: 企業設定概觀
+            href: deploy-enterprise-overview.md
+          - name: 架構和電話語音解決方案海報
+            href: teams-architecture-solutions-posters.md
+          - name: 為您的組織做好準備
+            items:
+              - name: 針對 Teams 準備組織的網路
+                href: prepare-network.md
+              - name: 使用適用於 Teams 的建議程式來推出 Teams
+                href: use-advisor-teams-roll-out.md
+              - name: 使用 Teams 的網路規劃中心
+                href: network-planner.md
+              - name: 網路規劃中心逐步解說
+                href: tutorial-network-planner-example.yml
+              - name: Teams 或商務用 Skype Online 的 Proxy 伺服器
+                href: proxy-servers-for-skype-for-business-online.md
+              - name: 在 Teams 中建立團隊時，規劃 Microsoft 365 群組
+                href: plan-office-365-groups.md
+              - name: 規劃 Teams 中的生命週期管理
+                href: plan-teams-lifecycle.md
+              - name: 規劃 Teams 中的控管
+                href: plan-teams-governance.md
+          - name: 在貴組織設定 Teams
+            href: deploy-enterprise-setup.md
+          - name: 採用
+            items:
+              - name: 概觀
+                href: adopt-microsoft-teams-landing-page.md
+              - name: 快速入門
+                href: teams-adoption-get-started.md
+              - name: 階段 1 - 開始
+                items:
+                  - name: 開始
+                    href: teams-adoption-phase1.md
+                  - name: 了解團隊和頻道
+                    href: teams-adoption-understand-teams-and-channels.md
+                  - name: 建立首批團隊
+                    href: teams-adoption-your-first-teams.md
+                  - name: 組織的 Teams 整備程度如何？
+                    href: teams-adoption-assess-readiness.md
+              - name: 階段 2 - 試驗
+                items:
+                  - name: 試驗
+                    href: teams-adoption-phase2-experiment.md
+                  - name: 建立您的支持者計畫
+                    href: teams-adoption-create-champions-program.md
+                  - name: 管理快速入門
+                    href: teams-adoption-governance-quick-start.md
+                  - name: 定義使用案例
+                    href: teams-adoption-define-usage-scenarios.md
+                  - name: 讓早期採用者快速上手並收集意見反應
+                    href: teams-adoption-onboard-early-adopters.md
+                  - name: 快速上手的支援
+                    href: teams-adoption-onboard-support.md
+              - name: 階段 3 - 調整
+                items:
+                  - name: 調整
+                    href: teams-adoption-phase3-enable.md
+                  - name: 定義成果和成功
+                    href: teams-adoption-define-outcomes.md
+                  - name: 最佳化意見反應和報告
+                    href: teams-adoption-optimize-feedback-and-reporting.md
+                  - name: 促提高意識和實施訓練
+                    href: teams-adoption-drive-awareness.md
+                  - name: 排程服務健康情況檢閱
+                    href: teams-adoption-schedule-service-health-reviews.md
+          - name: 部署 Teams 用戶端
+            items:
+              - name: 取得 Teams 用戶端
+                href: get-clients.md
+              - name: 在中國取得 Android 版 Teams
+                href: get-teams-android-in-china.md
+              - name: Teams 應用程式的硬體需求
+                href: hardware-requirements-for-the-teams-app.md
+              - name: 硬體解碼器和編碼器驅動程式的建議
+                href: hardware-decoders-and-encoders.md
+              - name: 使用 MSI 安裝 Teams
+                href: msi-deployment.md
+              - name: 開啟組織中的 Teams
+                href: Office-365-set-up.md
+              - name: Microsoft Teams 如何使用記憶體
+                href: teams-memory-usage-perf.md
+              - name: Microsoft 365 和 Office 365 URL 和 IP 位址範圍
+                href: office-365-urls-ip-address-ranges.md
+              - name: 適用於虛擬桌面基礎架構 (VDI) 的 Teams
+                href: teams-for-vdi.md
+              - name: 適用遠端桌面環境 (RDP) 的 Teams
+                href: teams-on-rdp.md
+              - name: 為 Surface Hub 部署 Teams
+                href: teams-surface-hub.md
+              - name: Teams 用戶端更新
+                href: teams-client-update.md
+              - name: 疑難排解安裝和更新問題
+                href: troubleshoot-installation.md
+          - name: Teams 訓練
+            items:
+              - name: 概觀
+                href: training-microsoft-teams-landing-page.md
+              - name: Teams 的管理訓練
+                href: itadmin-readiness.md
+              - name: Ignite 2020 中的 Teams 工作階段
+                href: ignite-2020-landing-page.md
+              - name: Teams 即時訓練
+                href: instructor-led-training-teams-landing-page.yml
+              - name: Teams 線上訓練
+                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: 自商務用 Skype 升級
     items:
-      - name: 概觀
-        href: get-started-with-teams-quick-start.md
-      - name: 步驟 1：建立您的首批團隊和頻道
-        href: get-started-with-teams-create-your-first-teams-and-channels.md
-      - name: 步驟 2：讓早期採用者快速上手
-        href: get-started-with-teams-onboard-early-adopters.md
-      - name: 步驟 3：監視使用情況和意見反應
-        href: get-started-with-teams-monitor-usage-and-feedback.md
-      - name: 步驟 4：規劃推出至整個組織
-        href: get-started-with-teams-resources-for-org-wide-rollout.md
+      - name: 快速入門
+        href: upgrade-start-here.md
+      - name: 關於升級架構
+        href: upgrade-framework.md
+      - name: 規劃您的升級旅程
+        items:
+          - name: 規劃您的專案和需求
+            items:
+              - name: 概觀
+                href: upgrade-plan-journey.md
+              - name: 列出您的專案關係人
+                href: upgrade-enlist-stakeholders.md
+              - name: 定義專案範圍
+                href: upgrade-define-project-scope.md
+              - name: 了解共存和互通性
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: PSTN 考量
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: 選擇您的升級旅程
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: 規劃使用者試驗
+                href: pilot-essentials.md
+          - name: 準備 Teams 的環境
+            items:
+              - name: 技術整備概觀
+                href: upgrade-prepare-environment.md
+              - name: 準備負責 Teams 的 IT 人員
+                href: upgrade-prepare-IT-pros.md
+              - name: 必要條件
+                href: upgrade-plan-journey-prerequisites.md
+              - name: 評估您的環境
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: 準備您的服務
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: 為組織做好使用 Teams 的準備
+            items:
+              - name: 組織的整備概觀
+                href: upgrade-prepare-organization.md
+              - name: 評估組織變更整備程度
+                href: upgrade-org-change-readiness.md
+              - name: 準備使用者整備方案
+                href: upgrade-user-readiness.md
+      - name: 實施您的升級
+        items:
+          - name: 概觀
+            href: upgrade-to-Teams.md
+          - name: 將商務用 Skype Online 升級為 Teams
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: 將商務用 Skype 內部部署升級為 Teams
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+      - name: 操作、採用和最佳化
+        href: continue-journey.md
+      - name: 淘汰商務用 Skype Online
+        href: skype-for-business-online-retirement.md
+      - name: 常見問題集
+        href: FAQ-journey.yml
+      - name: 技術文件庫
+        items:
+          - name: IT 系統管理員的升級指導方針
+            items:
+              - name: 概觀
+                href: upgrade-to-teams-on-prem-overview.md
+              - name: 升級方法
+                href: upgrade-to-teams-on-prem-upgrade-methods.md
+              - name: 管理升級的工具
+                href: upgrade-to-teams-on-prem-tools.md
+              - name: 針對使用商務用 Skype 內部部署的組織的考慮事項
+                href: upgrade-to-teams-on-prem-considerations.md
+              - name: 實施您的升級
+                href: upgrade-to-teams-on-prem-implement.md
+              - name: Teams 和商務用 Skype 共存
+                href: upgrade-to-teams-on-prem-coexistence.md
+              - name: 共存模式 - 參考
+                href: migration-interop-guidance-for-teams-with-skype.md
+              - name: Teams 用戶端體驗和遵從共存模式
+                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 設定共存和升級設定
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: 會議優先
+            href: meetings-first.md
+  - name: 混合式連線
+    items:
+      - name: 規劃混合式連線
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: 設定混合式連線
+        items:
+          - name: 概觀
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: 針對混合式環境設定 Azure AD Connect
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: 設定商務用 Skype 混合式
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: 在內部部署和雲端之間移動使用者
+        items:
+          - name: 概觀
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: 將使用者從內部部署移動至 Teams
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: 將使用者從內部部署移動至商務用 Skype Online
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: 將使用者從雲端移動至內部部署
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: 管理會議移轉
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: 停用混合式以完成移轉至雲端
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: 部署資源樹系拓撲
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: Teams 和商務用 Skype Online 的雲端整合
+        items:
+          - name: 概觀
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: 更新 Microsoft Edge 憑證
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: 更新 AAD Connect 以包含多個樹系
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: 與 Exchange 和 SharePoint 的整合
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 安全性、隱私權與合規性
     items:
       - name: 概觀
@@ -1079,168 +1297,6 @@ items:
             href: Office-365-custom-connectors.md
           - name: 非標準使用者的 Teams 應用程式行爲
             href: non-standard-users.md
-  - name: 採用
-    items:
-      - name: 概觀
-        href: adopt-microsoft-teams-landing-page.md
-      - name: 快速入門
-        href: teams-adoption-get-started.md
-      - name: 階段 1 - 開始
-        items:
-          - name: 開始
-            href: teams-adoption-phase1.md
-          - name: 了解團隊和頻道
-            href: teams-adoption-understand-teams-and-channels.md
-          - name: 建立首批團隊
-            href: teams-adoption-your-first-teams.md
-          - name: 組織的 Teams 整備程度如何？
-            href: teams-adoption-assess-readiness.md
-      - name: 階段 2 - 試驗
-        items:
-          - name: 試驗
-            href: teams-adoption-phase2-experiment.md
-          - name: 建立您的支持者計畫
-            href: teams-adoption-create-champions-program.md
-          - name: 管理快速入門
-            href: teams-adoption-governance-quick-start.md
-          - name: 定義使用案例
-            href: teams-adoption-define-usage-scenarios.md
-          - name: 讓早期採用者快速上手並收集意見反應
-            href: teams-adoption-onboard-early-adopters.md
-          - name: 快速上手的支援
-            href: teams-adoption-onboard-support.md
-      - name: 階段 3 - 調整
-        items:
-          - name: 調整
-            href: teams-adoption-phase3-enable.md
-          - name: 定義成果和成功
-            href: teams-adoption-define-outcomes.md
-          - name: 最佳化意見反應和報告
-            href: teams-adoption-optimize-feedback-and-reporting.md
-          - name: 促提高意識和實施訓練
-            href: teams-adoption-drive-awareness.md
-          - name: 排程服務健康情況檢閱
-            href: teams-adoption-schedule-service-health-reviews.md
-  - name: 升級至 Teams
-    items:
-      - name: 快速入門
-        href: upgrade-start-here.md
-      - name: 關於升級架構
-        href: upgrade-framework.md
-      - name: 規劃您的升級旅程
-        items:
-          - name: 規劃您的專案和需求
-            items:
-              - name: 概觀
-                href: upgrade-plan-journey.md
-              - name: 列出您的專案關係人
-                href: upgrade-enlist-stakeholders.md
-              - name: 定義專案範圍
-                href: upgrade-define-project-scope.md
-              - name: 了解共存和互通性
-                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-              - name: PSTN 考量
-                href: upgrade-to-teams-on-prem-pstn-considerations.md
-              - name: 選擇您的升級旅程
-                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-              - name: 規劃使用者試驗
-                href: pilot-essentials.md
-          - name: 準備 Teams 的環境
-            items:
-              - name: 技術整備概觀
-                href: upgrade-prepare-environment.md
-              - name: 準備負責 Teams 的 IT 人員
-                href: upgrade-prepare-IT-pros.md
-              - name: 必要條件
-                href: upgrade-plan-journey-prerequisites.md
-              - name: 評估您的環境
-                href: upgrade-plan-journey-evaluate-environment.md
-              - name: 準備您的服務
-                href: upgrade-prepare-environment-prepare-service.md
-          - name: 為組織做好使用 Teams 的準備
-            items:
-              - name: 組織的整備概觀
-                href: upgrade-prepare-organization.md
-              - name: 評估組織變更整備程度
-                href: upgrade-org-change-readiness.md
-              - name: 準備使用者整備方案
-                href: upgrade-user-readiness.md
-      - name: 實施您的升級
-        items:
-          - name: 概觀
-            href: upgrade-to-Teams.md
-          - name: 將商務用 Skype Online 升級為 Teams
-            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-          - name: 將商務用 Skype 內部部署升級為 Teams
-            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-      - name: 操作、採用和最佳化
-        href: continue-journey.md
-      - name: 淘汰商務用 Skype Online
-        href: skype-for-business-online-retirement.md
-      - name: 常見問題集
-        href: FAQ-journey.yml
-      - name: 技術文件庫
-        items:
-          - name: IT 系統管理員的升級指導方針
-            items:
-              - name: 概觀
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: 升級方法
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: 管理升級的工具
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: 針對使用商務用 Skype 內部部署的組織的考慮事項
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: 實施您的升級
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Teams 和商務用 Skype 共存
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: 共存模式 - 參考
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Teams 用戶端體驗和遵從共存模式
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
-          - name: 設定共存和升級設定
-            href: setting-your-coexistence-and-upgrade-settings.md
-          - name: 會議優先
-            href: meetings-first.md
-  - name: 混合式連線
-    items:
-      - name: 規劃混合式連線
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: 設定混合式連線
-        items:
-          - name: 概觀
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: 針對混合式環境設定 Azure AD Connect
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: 設定商務用 Skype 混合式
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: 在內部部署和雲端之間移動使用者
-        items:
-          - name: 概觀
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: 將使用者從內部部署移動至 Teams
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: 將使用者從內部部署移動至商務用 Skype Online
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: 將使用者從雲端移動至內部部署
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: 管理會議移轉
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: 停用混合式以完成移轉至雲端
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: 部署資源樹系拓撲
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Teams 和商務用 Skype Online 的雲端整合
-        items:
-          - name: 概觀
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: 更新 Microsoft Edge 憑證
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: 更新 AAD Connect 以包含多個樹系
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: 與 Exchange 和 SharePoint 的整合
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 產業和政府指引
     items:
       - name: 概觀
@@ -1380,52 +1436,6 @@ items:
     items:
       - name: Teams 的限制和規格
         href: limits-specifications-teams.md
-      - name: 準備好推出 Teams
-        items:
-          - name: 針對 Teams 準備組織的網路
-            href: prepare-network.md
-          - name: 使用適用於 Teams 的建議程式來推出 Teams
-            href: use-advisor-teams-roll-out.md
-          - name: 使用 Teams 的網路規劃中心
-            href: network-planner.md
-          - name: 網路規劃中心逐步解說
-            href: tutorial-network-planner-example.yml
-          - name: Teams 或商務用 Skype Online 的 Proxy 伺服器
-            href: proxy-servers-for-skype-for-business-online.md
-          - name: 在 Teams 中建立團隊時，規劃 Microsoft 365 群組
-            href: plan-office-365-groups.md
-          - name: 規劃 Teams 中的生命週期管理
-            href: plan-teams-lifecycle.md
-          - name: 規劃 Teams 中的控管
-            href: plan-teams-governance.md
-      - name: 安裝 Teams
-        items:
-          - name: 取得 Teams 用戶端
-            href: get-clients.md
-          - name: 在中國取得 Android 版 Teams
-            href: get-teams-android-in-china.md
-          - name: Teams 應用程式的硬體需求
-            href: hardware-requirements-for-the-teams-app.md
-          - name: 硬體解碼器和編碼器驅動程式的建議
-            href: hardware-decoders-and-encoders.md
-          - name: 使用 MSI 安裝 Teams
-            href: msi-deployment.md
-          - name: 開啟組織中的 Teams
-            href: Office-365-set-up.md
-          - name: Microsoft Teams 如何使用記憶體
-            href: teams-memory-usage-perf.md
-          - name: Microsoft 365 和 Office 365 URL 和 IP 位址範圍
-            href: office-365-urls-ip-address-ranges.md
-          - name: 適用於虛擬桌面基礎架構 (VDI) 的 Teams
-            href: teams-for-vdi.md
-          - name: 適用遠端桌面環境 (RDP) 的 Teams
-            href: teams-on-rdp.md
-          - name: 為 Surface Hub 部署 Teams
-            href: teams-surface-hub.md
-          - name: Teams 用戶端更新
-            href: teams-client-update.md
-          - name: 疑難排解安裝和更新問題
-            href: troubleshoot-installation.md
       - name: 授權
         items:
           - name: 管理 Teams 的使用者存取
