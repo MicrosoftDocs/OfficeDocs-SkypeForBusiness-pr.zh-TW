@@ -19,17 +19,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347653"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50401307"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留政策
 
 > [!NOTE]
-> 如果您是在 Teams 中看到訊息的使用者，該訊息指出您的聊天和訊息已由保留原則刪除，請參閱 Teams 關於保留原則 [的訊息](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。
+> 如果您在 Teams 中看到一則訊息，指出您的聊天或訊息已由保留政策刪除，請參閱 [Teams 關於保留原則的訊息](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。
 > 
 > 本頁面上的資訊適用于管理這些保留原則的 IT 系統管理員。
 
@@ -54,7 +54,7 @@ Teams 聊天訊息會儲存在聊天中包含的每個使用者信箱中的隱�
 - 如果保留或刪除相同內容之間發生衝突，則一直保留內容。
 - 如果保留相同內容的時間有衝突，會保留最長保留期間。
 
-這兩個保留原則可解決當您有多個 Teams 保留原則時所可能產生的衝突，但詳細資訊請參閱保留原則，或 [優先處理哪些專案？](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+這兩個保留原則可解決當您有多個 Teams 保留原則時所可能產生的衝突，但如需要詳細資訊，請參閱保留原則，或 [優先處理哪些專案？](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## <a name="when-to-use-retention-policies-for-teams"></a>何時使用 Teams 的保留政策
 
@@ -88,7 +88,7 @@ Teams 聊天訊息會儲存在聊天中包含的每個使用者信箱中的隱�
 > [!NOTE]
 > 使用者因刪除的郵件而看到的顯示訊息目前無法進行設置。
 
-這些顯示的郵件中的連結會前往 [Teams 關於保留政策的郵件](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 本文適用于使用者，可協助回答關於其郵件為何遭到刪除的基本問題。 不過，在保留原則部署中，請務必與使用者及技術支援人員溝通您設定設定的影響。
+這些顯示的郵件中的連結會前往 [Teams 關於保留政策的郵件](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 本文適用于使用者，可協助回答使用者訊息為何遭到刪除的基本問題。 不過，在保留原則部署中，請務必與使用者及技術支援人員溝通您設定設定的影響。
 
 ## <a name="related-topics"></a>相關主題
 

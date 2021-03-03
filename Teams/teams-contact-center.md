@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams 的 CCaaS (整合式) 中心概觀
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 207b39fd0ac7b879002355921d001b2bbb01070b
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
+ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196369"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50402859"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合
 
@@ -26,13 +26,13 @@ ms.locfileid: "50196369"
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什麼是 Microsoft Teams 的連絡人中心整合？
 
-現今的聯絡中心提供的支援比支援還多，它們可做為互動的主要工具之一，並針對客戶與品牌的體驗進行未篩選的意見回饋。 由於現今客戶偏好跨電話、電子郵件、文字、社交等頻道互動，以及目前購買程式的相關觸控點數量擴大，許多組織已發現兩個額外的實際狀況：
+現今的聯絡中心提供的支援比支援還多，它們可做為互動的主要工具之一，並針對客戶與品牌的體驗進行未篩選的意見回饋。 由於現今客戶偏好跨電話、電子郵件、文字、社交等頻道互動，以及目前購買程式的相關觸控點數量擴大，許多組織已發現其他兩種實際狀況：
 
 1. 組織的每一個成員都有可能直接與客戶互動，因此必須配備適當的工具。
 
-2. 這種擴大的客戶互動範圍需要有助於推動一致性、持續改善和擴充的工具。
+2. 這種擴大的客戶互動範圍需要工具，有助於推動一致性、持續改善和擴充。
 
-Microsoft Teams 可在其通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶聯繫的中心，以支援客戶互動資料流程。 對部分公司來說，Microsoft Teams[的雲端](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)語音功能 ，包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自動](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)語音機和通話佇列，會提供功能與組態，以滿足其需求。
+Microsoft Teams 可在其通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶聯繫的中心，以支援客戶互動工作資料流程。 對部分公司來說，Microsoft Teams[的雲端](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)語音功能 ，包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自動](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)語音機和通話佇列，會提供功能與組態，以滿足其需求。
 
 針對想要整合商務工具和工作流程以推動客戶旅程的其他人，Microsoft Teams 也整合了業界一些頂尖的服務中心 (CCaaS) 解決方案提供者。
 
@@ -44,10 +44,11 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 |  解決方案提供者                                                                                                                               |  解決方案網站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 
-### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>目前正在進行認證程式之已連接的連絡人中心解決方案
+### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>目前進行認證程式之已連接的連上中心解決方案
 
 |  解決方案提供者                                                                                                                               |  解決方案網站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -93,7 +94,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 ### <a name="connect-and-extend"></a>連接並延伸
 
-此模型會利用 [Teams](https://docs.microsoft.com/microsoftteams/platform/overview)用戶端平臺 [、Microsoft](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) Graph 中的 Teams Graph API 和雲端通訊 [API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 整合 Teams 用戶端，並針對所有聯絡中心通話和通話控制體驗使用 Teams 電話系統，以延伸連絡人中心人員和代理人體驗。 在此模型中，聯絡中心解決方案提供者除了 Microsoft 365 外，也做為電話電信業者。
+此模型會使用 Teams 用戶端平臺[、Microsoft](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) Graph 中的 Teams Graph API 和雲端通訊[API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)與[Teams](https://docs.microsoft.com/microsoftteams/platform/overview)用戶端整合，以延伸連絡人中心人員和代理人體驗，並使用 Teams 電話系統進行所有聯絡中心通話和通話控制體驗。 在此模型中，連絡人中心解決方案提供者除了 Microsoft 365 外，也做為電話電信業者。
 
 使用 Connect 和延伸型解決方案，代理人可以在開始互動之前，從多個系統產生關聯資料的動態關聯式筆記獲益，然後在 Teams 中原生地進行內部共同合作和外部通訊，以避免轉換內容的成本高。
 
@@ -113,7 +114,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
   - 代理人體驗應用程式應該可以同時在 Teams Web 及行動用戶端上工作
 
-  - Teams 內 CCaaS 應用程式中的代理程式分析、工作流程管理、角色型體驗
+  - Teams 中 CCaaS 應用程式中的代理程式分析、工作流程管理、角色型體驗
 
   - 與 Teams 用戶端整合的聊天和共同合作體驗 
 
@@ -129,9 +130,9 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 **功能重點：**
 
-雖然下列不是此整合模型的功能全面清單，但除了連接和延伸模型提供的功能外，這些功能會強調區域。
+雖然下列不是此整合模型的功能全面清單，但除了連接和延伸模型提供的功能外，這些重點區域也一樣。
 
-  - 透過 Teams SDK 原生地啟用正式代理程式體驗，以透過 Teams 進行頻道通訊 
+  - 透過 Teams SDK 原生地啟用正式代理程式體驗進行資訊廣告通道通訊 
 
   - 使用 Teams 共同合作服務進行代理人共同合作和客戶互動  
 
@@ -178,8 +179,8 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 </tr>
 <tr class="even">
 <td>使用 Teams 通話的使用者？</td>
-<td>非正式、IBM</td>
-<td>非正式、IBM</td>
+<td>非正式的、IBM</td>
+<td>非正式的、IBM</td>
 <td>非正式、IBM、正式</td>
 <td>非正式、IBM、正式</td>
 </tr>
