@@ -1,7 +1,7 @@
 ---
 title: 開始使用 Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
@@ -19,58 +19,65 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a0188b544c69d3779282aff06b007f4f06910b85
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030429"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395347"
 ---
 # <a name="get-started-with-microsoft-teams"></a>開始使用 Microsoft Teams
 
-> [!IMPORTANT]
-> 如果您想要迅速推出 Microsoft Teams 以因應支援 **遠端工作** 的增加需求，請使用此快速入門指南，為您整個組織推廣 Teams。 即使 Teams 是您的第一個 Microsoft 365 或 Office 365 工作負載，本指南仍然適用。
+> [!TIP]
+> 您是否正在尋找有關如何在電腦或行動裝置上安裝 Teams 用戶端的資訊？ 請至：[下載 Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app)。
 
-若要快速開始使用 Teams，建議您為一組精選的早期採用者建立兩或三個團隊和頻道。 透過小規模推出 Teams，您將利用使用 Teams 來了解 Teams，並取得寶貴的深入資訊，以告訴您如何在整個組織中部署 Teams。 如果您是小型企業，則本快速入門手冊是要在您的整個組織推出 Teams 所需的全部。
+## <a name="start-here"></a>從這裡開始
 
+無論您是小型企業或跨國企業，這裡就是開始推出 Teams 的位置。 這些文章會逐步引導您完成小規模推出 Teams，若您是小型企業，或者要快速推出 Teams 並作為初次 Microsoft 365 工作負載以支援 **遠端工作者**，這就是您所需要的功能。
 
-Teams 可讓您快速凝聚團隊與組織內外的人員，藉由交談快速地與他人展開全面對話、安全地共用及共同撰寫文件，以及逐一查看專案。 新增共用記事、網頁和應用程式的快速存取來自訂 Teams。 使用會議和通話功能即時與使用者共同作業 (無論使用者在何處)。 Teams 可將您對 Microsoft 365 或 Office 365 服務和協力廠商應用程式的存取簡化，以成為您共同作業和通訊需求的新重心。 鼓勵您的早期採用者同時安裝桌面和行動應用程式，以獲得最佳體驗和最準確的意見反應。
+若您的組織規模較大，請使用這些文章，以一小組早期採用者試驗 Teams，使得您能夠了解 Teams，並開始規劃整個組織的部署。 稍後，請使用在 [Microsoft Teams 採用](https://adoption.microsoft.com/microsoft-teams/#get-started) 網站上的指導方針，以協助您將 Teams 推出至整個組織。
 
-![顯示桌面和行動用戶端使用者介面的螢幕擷取畫面](media/get-started-microsoft-teams.png "顯示 Teams 桌面用戶端和行動用戶端使用者介面的螢幕擷取畫面" ) 
+建議您在組織準備就緒時，依照工作負載，分階段推出 Teams。 **您不需要等到一個步驟完成，即可移至下一個步驟。** 有些組織可能會想要一次推出所有 Teams 功能，而其他人則可能偏好分階段推出。 以下是 Teams 的工作負載，以我們建議的推出順序排列：
 
-以下說明如何推出您的第一組團隊和頻道，讓您的早期者可以開始交談、共用檔案及進行共同作業。
+- [聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)
+- [雲端語音](cloud-voice-landing-page.md)
 
-- 步驟 1：[建立您的首批團隊和頻道](get-started-with-teams-create-your-first-teams-and-channels.md)
-- 步驟 2：[讓早期採用者快速上手](get-started-with-teams-onboard-early-adopters.md)
-- 步驟 3：[監視使用情況和意見反應](get-started-with-teams-monitor-usage-and-feedback.md)
-- 步驟4：[取得資源來規劃整個組織的推出](get-started-with-teams-resources-for-org-wide-rollout.md)
+![圖示說明 Teams 部署路徑](media/get-started-with-teams-quick-start-pathways.png)
 
-如果您是大型組織，具有混合式或內部部署商務用 Skype 組態，擁有嚴格的法規或合規性需求，或如果您想要推出會議或語音功能 (例如通話方案或電話系統)，請從閱讀[如何推出 Teams](how-to-roll-out-teams.md) 開始。 建議您仍從這個 **開始使用** 一節開始，來建立您的技能並開始規劃整個組織的部署。 「使用 Teams 規劃 Teams。」 從小規模推出具有聊天、團隊、頻道和應用程式的 Teams 開始，並從中開始建立。 這些初步體驗將協助您進行 Teams 的相關宣傳，在整個組織中引領潮流，讓您進行下一個啟動階段。 
+如果您有中型或大型組織， [使用適用於 Microsoft Teams 的建議程式](use-advisor-teams-roll-out.md) 以協助您規劃在整個組織中推出這些工作負載。 建議程式會使用 Teams 本身以建立計畫工作，並將其指派給擁有者、共用文件，以及啟用部署小組之間的討論。
 
-如果您是小型企業，或如果 **要立即推出 Teams 來支援新的遠端員工**，請使用這項快速入門指南來全面推廣貴組織中的 Teams。 請務必查看專為小型企業提供的範本，使得在您的組織中的部署更輕鬆且更簡潔。 請參閱[開始使用適用於中小型企業的 Teams 範本](https://docs.microsoft.com/microsoftteams/smb-templates)。
-
-## <a name="before-you-get-started"></a>開始之前
+## <a name="make-sure-youre-ready"></a>確定您已準備就緒
 
 若要為您的 Teams 推出做好準備，無論 Teams 是您的第一個工作負載 ("Teams First") 或現有 Microsoft 365 或 Office 365 部署中的下一個工作負載，以下為您需要進行的動作：
 
 - [針對 Teams 準備組織的網路](prepare-network.md)
-    - 這包含設定您的 Microsoft 365 或 Office 365 網域、SharePoint Online、Exchange Online 和商務用 OneDrive。
+  - 這包含設定您的 Microsoft 365 或 Office 365 網域、SharePoint Online、Exchange Online 和商務用 OneDrive。
 
 - 為每個人取得 Teams 授權。 請查看 [Teams 方案](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) 以及 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 - [了解安裝桌面、Web 和行動用戶端的優點](get-clients.md)
 
-- 由內部部署的商務用 Skype 或 Lync Server 開始
-   - [將商務用 Skype 內部部署升級為 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
-   
-   - [規劃商務用 Skype Server 和 Office 365 之間的混合式連線](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
-   
-   > [!NOTE]
-   > 如果貴組織執行的是內部部署商務用 Skype Server (或 Lync Server)，您必須[設定 Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)，以與 Microsoft 365 或 Office 365 同步處理您的內部部署目錄。 
+## <a name="get-familiar-with-teams"></a>熟悉 Teams
 
+如果您是 Teams 的新使用者，熟悉 Teams 的最好方式就是立即開始使用 Teams。 Teams 的最大優點就是，您現在所設定的任何事項，都不會影響您稍後可能需要執行的任何升級或移轉動作。
 
-## <a name="next-steps"></a>後續步驟
+> [!TIP]
+> 查看在 [Microsoft Learn for Teams](/learn/teams/) 中可以使用的學習路徑和模組。 您可以參觀 [Teams 系統管理中心](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/)、瞭解如何 [設定適用於 Teams 的網路](/learn/modules/m365-teams-connectivity/)、取得如何以最佳方式 [將使用者上線至 Teams](/learn/modules/m365-teams-onboard-users/) 的想法和其他資訊！
 
-[建立您的首批團隊和頻道](get-started-with-teams-create-your-first-teams-and-channels.md)
+使用下列步驟來設定幾個團隊，並導入一些早期採用者，以協助您熟悉 Teams。
 
-請使用我們的互動式 [Teams 採用指南](https://aka.ms/teamstoolkit)來深入了解。
+- 步驟 1：[建立您的首批團隊和頻道](get-started-with-teams-create-your-first-teams-and-channels.md)
+- 步驟 2：[讓早期採用者快速上手](get-started-with-teams-onboard-early-adopters.md)
+- 步驟 3：[監視使用情況和意見反應](get-started-with-teams-monitor-usage-and-feedback.md)
+- 步驟 4：[開始在整個組織推動](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+## <a name="upgrade-or-migrate-from-skype-for-business"></a>從商務用 Skype® 2015 升級或移轉
+
+如果您是從商務用 Skype® 2015 (線上或內部部署) 進入 Teams，或如果您需要混合式設定，您仍然需要依照上述針對 Teams 部署的建議路徑進行，但首先您需進行一些額外的規劃。 從檢閱下表中適用於貴組織設定檔的指導方針開始。
+
+|  |貴組織的設定檔|指導方針  |
+|---------|---------|---------|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|我目前使用商務用 Skype Online，並準備好要移至 Teams。 |移至[升級至 Teams](upgrade-start-here.md)。        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的組織執行商務用 Skype Server，而我想要推出 Teams。 |若要全面推出 Teams，您必須先在內部部署環境與 Microsoft 365 之間設定混合式連線。從閱讀[規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity) (部分機器翻譯) 開始。<br><br>您也應該檢閱[升級至 Teams](upgrade-start-here.md)。   |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我沒有商務用 Skype Server，但有內部部署 PSTN 解決方案。我想要推出 Teams，但想要保留我的內部部署 PSTN 解決方案。 |按照上方[建議的路徑](#recommended-path-to-teams)中的步驟來推出 Teams。<br><br>然後閱讀[規劃直接路由](direct-routing-plan.md)，了解如何使用電話系統直接路由來將您的內部部署 PSTN 解決方案與 Teams 對接。|

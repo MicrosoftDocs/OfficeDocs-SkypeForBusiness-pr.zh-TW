@@ -1,14 +1,14 @@
 ---
-title: 選擇在整個組織推出的路徑
-author: SerdarSoysal
-ms.author: serdars
+title: 開始在整個組織推出 Microsoft Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dstrome
-description: 一旦您建立了第一個團隊，了解移至尋找 Microsoft Teams 深入部署與採用資源的位置。
+description: 完成設定第一個 Teams 之後，瞭解如何將 Microsoft Teams 部署到您的組織。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-mar2020
@@ -21,15 +21,48 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e36cb67a226b220e172517bd5ef3bb9f360a699d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: df4cc9e8c71622fd8564420b31bd5a06d7ac73b2
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030449"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395285"
 ---
-# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>選擇在整個組織推出 Microsoft Teams 的路徑
+# <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>開始在整個組織推出 Microsoft Teams
 
-現在您已成功設定您的第一個團隊，並在推動使用的同時使一組初始使用者上線，現在應了解如何在推動採用的同時，於組織的其餘部分部署 Teams 的未來規劃。 首先請從第一項工作負載，即[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)開始。
+現在，您已成功設定您的第一個 Teams 並讓一些早期採用者快速上手，是時候開始將 Teams 推出至組織的其餘部分。
 
-如需協助選擇推出 Teams 的路徑，請閱讀[如何推出 Teams](How-to-roll-out-teams.md)。
+> [!TIP]
+> 在您開始推動 Teams 之前，我們強烈建議您完成 [Microsoft 365 和 Microsoft Learn 模組的 Teams 部署](/learn/modules/m365-teams-collab-prepare-deployment/)。 這個 30 分鐘的單元模組會讓您快速開始瞭解 Teams，並討論您在推出 Teams 時需做出的重要決策。
+>
+> 如果您想要查看更多適用於 Teams 的學習路徑和模組，請參閱 [Microsoft Learn for Teams](/learn/teams/)。
+
+如果您只有少數員工或沒有多個位置或複雜的網路，請選取 **小型企業**。
+
+請選取 **中/大型企業**；若您想為重要專案關係人建立正式採用流程；擁有多個位置或具有 Proxy 伺服器或多個防火牆的大型網路；具備複雜的合規性需求；或擁有其他需要額外規劃的非標準需求。
+
+#### <a name="small-business"></a>[小型企業](#tab/SmallBusiness)
+
+Teams 小型企業設定適合於想要 Teams 的所有功能但不需要額外規劃之大型組織特性的組織。 例如，小型組織可能不需要大規模部署程序，或不需要符合多個國家/地區中的法規需求。
+
+如果這看起來像您的組織，您可以完成 Teams 小型企業設定。 小型企業設定可快速啟動及執行 Teams，讓您略過大型組織特定的一些考慮。
+
+> [!div class="nextstepaction"]
+> [移至小型企業](deploy-small-business.md)
+
+#### <a name="mediumlarge-business"></a>[中型/大型企業](#tab/LargeBusiness)
+
+許多企業只要使用 [小型企業設定](deploy-small-business.md) 便可部署 Teams。 不過，有些組織有複雜的需求，例如下列需求，便需要額外的規劃：
+
+- 多個辦公室位置
+- 合規性和隱私權需求
+- 分散在多個位置的數千個使用者
+- 許多裝置和會議室類型
+- 非標準電話語音執行
+
+如果這看起來像您的組織，您需要完成 Teams 企業設定。 企業設定可協助規劃您的部署，並提供如何建立採用計畫以盡可能提升 Teams 的使用建議。
+
+> [!div class="nextstepaction"]
+> [移至企業設定](deploy-advanced.md)
+
+---
