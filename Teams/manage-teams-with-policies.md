@@ -1,5 +1,5 @@
 ---
-title: 使用策略管理團隊
+title: 使用策略管理 Teams
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad39b24ee177e8e8282c6ad948b69fbdf866aa56
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347672"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421298"
 ---
-# <a name="manage-teams-with-policies"></a>使用策略管理團隊
+# <a name="manage-teams-with-policies"></a>使用策略管理 Teams
 
 策略是管理 Teams 的重要一部分。 使用本文流覽如何使用對貴組織有説明的政策。
 
