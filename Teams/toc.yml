@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: 管理原則
         items:
+          - name: 概觀
+            href: manage-teams-with-policies.md
           - name: 將原則指派給使用者
             href: assign-policies.md
           - name: 在活動記錄中檢視您的原則指派
             href: activity-log.md
-          - name: 在 Teams 中管理應用程式權限原則
-            href: teams-app-permission-policies.md
-          - name: 在 Teams 中管理應用程式設定原則
-            href: teams-app-setup-policies.md
-          - name: 在 Teams 中管理自訂應用程式原則和設定
-            href: teams-custom-app-policies-and-settings.md
           - name: 在 Teams 中管理意見反應原則
             href: manage-feedback-policies-in-teams.md
           - name: 在 Teams 中管理原則套件
@@ -773,6 +769,8 @@ items:
     items:
       - name: 規劃您的 Teams 語音解決方案
         href: cloud-voice-landing-page.md
+      - name: 管理 Teams 中的語音和通話原則
+        href: voice-and-calling-policies.md
       - name: 電話系統
         items:
           - name: 什麼是電話系統
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: 概觀
             href: manage-apps.md
-          - name: 在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意
+          - name: 管理 Teams 中的應用程式原則
+            href: app-policies.md
+          - name: 檢視應用程式權限並授與系統管理員同意
             href: app-permissions-admin-center.md
           - name: 特定資源的同意
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: 非標準使用者的 Teams 應用程式行爲
             href: non-standard-users.md
+          - name: 在 Teams 中管理應用程式權限原則
+            href: teams-app-permission-policies.md
+          - name: 在 Teams 中管理應用程式設定原則
+            href: teams-app-setup-policies.md
+          - name: 在 Teams 中管理自訂應用程式原則和設定
+            href: teams-custom-app-policies-and-settings.md
   - name: 產業和政府指引
     items:
       - name: 概觀
