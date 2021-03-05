@@ -22,65 +22,65 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付款選項。
-ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+description: 瞭解為使用 Microsoft 大量授權的組織啟用音訊會議功能的每分鐘付費選項。
+ms.openlocfilehash: 846c169206a96c4587ecee5bbb55215dd9dc4081
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788677"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460673"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
-除了標準音訊會議的每個使用者授權之外，大量和授權組織也可以選擇為其組織啟用音訊會議功能的每分鐘付費優惠。
+除了標準每個使用者的音訊會議授權之外，大量和授權組織也可以選擇每分鐘付費優惠，為組織啟用音訊會議功能。
   
 
-您可以瞭解您的 [國家/地區是否支援](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 音訊會議。
+您可以瞭解音訊會議 [是否支援](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 您的國家/地區。
 
   
 > [!NOTE]
-> 因為這個優惠只適用于大量和授權客戶，所以您必須與您的帳戶代表合作，才能取得這些授權。 
+> 由於此優惠僅適用于大量和授權客戶，您必須與您的客戶代表合作以取得這些授權。 
   
 ## <a name="need-some-details"></a>需要一些詳細資料嗎？
 
-[音訊會議每使用者授權] 提供的電話撥入使用量和一些撥出使用量，語音會議每分鐘支付一次， **就能在不付費每位使用者每月授權的情況下，每分鐘支付一次音訊會議使用方式**。 如此一來，所有撥入和撥出通話都將以每分鐘為單位收取費用，包括：
+雖然音訊會議每個使用者授權方案包含電話撥入使用量和部分撥出使用量，但音訊會議每分鐘付費可讓您以每分鐘支付所有音訊會議使用量，而不需要支付每個使用者的每月授權費用。 這樣一來，所有撥入和撥出電話都會以每分鐘計費，包括：
   
-- 您組織的電話撥入式音訊會議號碼。
+- 撥打貴組織的付費音訊會議號碼的來電。
     
-- 給貴組織的免付費電話會議號碼撥入通話。
+- 撥打貴組織免付費音訊會議號碼的來電。
     
-- 從您組織的會議中，將傳出通話放到外部電話號碼。
+- 從貴組織會議撥打給外部電話號碼的外寄電話。
     
 > [!NOTE]
-> 您可以透過 [[音訊會議](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)] 中的 [**查看您要通話的頻率] 區段**，找出與這些通話類型相關聯的撥入和撥出率。
+> 您可以在音訊會議中查看通話區段的查看費率，以找出與這類通話相關聯的撥入和撥出[費率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。 
   
-[每分鐘支付] 要求您的組織設定 [通訊信用額度](what-are-communications-credits.md) 。 它也要求每個使用者都必須指派每分鐘付費授權和通訊信用權授權，才能使用音訊會議。 如果您需要更多詳細資料，請參閱 [為您的組織](set-up-communications-credits-for-your-organization.md) 和/或 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)設定通訊點數。
+貴組織必須設定通訊信用 [額度](what-are-communications-credits.md) ，以每分鐘付費。 這也需要同時指派每分鐘付費授權和通訊信用額度授權給每個使用者，音訊會議才能使用。 如果您需要更多詳細資料，請參閱為[](set-up-communications-credits-for-your-organization.md)您的組織和/或 Microsoft Teams 附加元件授權[設定通訊信用額度](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
   
-若要讓貴組織中的使用者每分鐘支付一次語音會議，請參閱 [在 Microsoft Office 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+若要為貴組織的使用者啟用每分鐘付費的音訊會議，請參閱 [在 Microsoft Office 365 或 Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)中試用或購買音訊會議。
 
 ## <a name="why-is-it-best-for-you"></a>為什麼最適合您？
 
-- 每分鐘支付的費用只會在排程的會議期間根據每個出席者的每一分鐘數收取， (費率會因付費或免付費通話而異) ，而不是在行動裝置或電腦上使用商務用 Skype 或團隊應用程式。
+- 每一位出席者在排定會議期間所撥打的每一個傳入或外寄電話 (費率會因付費電話或免付費電話和目的地) 而異，而不是在行動裝置或 PC 中使用商務用 Skype 或 Teams 應用程式。
 
-- 管理成本的功能，因為系統管理員可以控制，限制可從召集人會議中完成的 (國際及國內) 的撥出類型。 查看 [出站通話限制原則以進行音訊會議與使用者 PSTN 通話](/microsoftteams/outbound-calling-restriction-policies)
+- 管理成本的功能，因為系統管理員可以控制限制可于 (會議) 撥出類型。 查看[音訊會議和使用者的 PSTN](/microsoftteams/outbound-calling-restriction-policies)通話輸出通話限制政策
 
-- 如果您有音訊會議每分鐘付費的授權，您就不需要為每位使用者分別指派通訊信用額度授權， (您可能仍需要指派其他服務) 。
+- 如果您擁有音訊會議每分鐘付費授權，則不必針對音訊會議使用量將通訊信用額度授權個別指派給每個使用者 (您可能仍然需要將它們指派給其他服務) 。
 
-- 使用通訊點數控制和監控每分鐘付款費用。
+- 使用通訊信用額度控制及監控每分鐘的付款費用。
 
-- 針對不需要所有使用者進行訂閱的客戶，提供更大的彈性。 
+- 針對不需要訂閱所有使用者的客戶，在價格方面更有彈性。 
 
-- 啟用 [語音會議] 與 [每月付款] 或 [獨立音訊會議訂閱] 一起支付每分鐘費用，這兩項服務都將以相同的方式繼續運作。 變更不會影響音訊會議或通訊點數的運作。
+- 啟用音訊會議每分鐘付費以及 E5 的每月訂閱或獨立音訊會議訂閱，這兩種服務會繼續以相同方式工作。 變更對音訊會議或通訊信用額度的運作沒有任何影響。
   
-## <a name="want-to-find-out-more-about-pricing"></a>想要瞭解更多關於定價的資訊嗎？
+## <a name="want-to-find-out-more-about-pricing"></a>想要進一瞭解更多價格資訊嗎？
 
- **想要尋找價格嗎？** 請參閱下列內容：
+ **想要尋找價格嗎？** 請參閱下列專案：
   
-- [音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
     
-- [電話系統的定價](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [電話系統的定價](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
     
-- [通話方案的價格](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [通話方案定價](https://go.microsoft.com/fwlink/?linkid=799763)
     
 ## <a name="related-topics"></a>相關主題
   

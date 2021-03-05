@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
-ms.translationtype: HT
+ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616947"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460553"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -51,7 +51,8 @@ ms.locfileid: "49616947"
 || ![空心灰色圓圈，表示狀態不明](media/Presence_Unknown.png) 狀態不明|
 || ![紫色圓圈加箭號，表示外出](media/Presence_OOF.png) 外出。 設定為自動回復時，會使用 [外出] 功能。 (只可供 Outlook 使用) |
 |||
-
+ > [!Note]
+ > 對於擁有信箱託管服務的使用者，預期其目前狀態延遲最大為一小時。
 應用程式設定的目前狀態是根據使用者活動 (有空、離開)、Outlook 行事曆狀態 (會議中)、或是 Teams 應用程式狀態 (通話中、簡報中)。 當您在行事曆中使用 [焦點模式] 時，人員會在 Teams 上看到顯示為 **[專注中]** 的狀態。 在其他產品中，焦點模式會顯示為 **請勿打擾**。
 
 當您鎖定電腦或當您的電腦進入閒置或睡眠模式時，您目前的顯示狀態會變更為 [離開]。 在行動裝置上，只要 Teams 應用程式在背景作業時，您的顯示狀態即會變更為 [離開]。

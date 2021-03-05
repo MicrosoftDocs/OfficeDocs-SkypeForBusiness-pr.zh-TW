@@ -1,5 +1,5 @@
 ---
-title: 僅限團隊的模式考慮
+title: Teams 模式考慮
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
-description: 系統管理員可以瞭解如何準備在 Microsoft 團隊系統管理中心升級至 [僅 Microsoft 團隊專用模式]。
+description: 系統管理員可以瞭解如何在 Microsoft Teams 系統管理中心準備升級至 Microsoft Teams 僅模式。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -22,39 +22,34 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c27d8619a436c6a77ab435cfcb2cc4133befe0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4a38967ffb80f59fab88006b5aad2e6ecb76395c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802373"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460993"
 ---
-# <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
+# <a name="teams-only-mode-considerations"></a>Teams 模式考慮
 
-如果您是 Microsoft 365 或 Office 365 組織中的系統管理員，您現在會在 Microsoft 團隊系統管理中心中看到 [升級為團隊專用模式] 的選項。 使用此功能，您可以升級個別使用者或整個租使用者。  
+Microsoft 365 或 Office 365 組織的系統管理員可以將個別使用者或整個租使用者升級至 Teams 模式。  
 
-升級至 [僅限團隊] 模式可透過單一用戶端體驗，為使用者提供 Microsoft 團隊的全部好處，即在 Microsoft 365 或 Office 365 中進行團隊合作的中心。 此外，[團隊專用] 模式中的使用者會在團隊中收到所有通話和聊天，不論寄件者是使用商務用 Skype 還是小組，以及互通性與同盟支援的好處。
+升級到 Teams 模式可為使用者提供 Microsoft Teams 的完整權益，Microsoft 365 或 Office 365 中的團隊合作中心，透過單一用戶端體驗。 不論寄件者是使用商務用 Skype 或 Teams，Teams 模式的使用者都能在 Teams 中接聽所有通話和聊天，並受益于交互操作和聯盟支援。
 
-雖然成千上萬的客戶已成功升級至 Microsoft 團隊，但在這種情況下，可能也會影響貴組織的升級時程表和使用者體驗。 特別是，升級選項並不一定表示貴組織已準備好進行這項變更。 為了獲得最佳使用者體驗，請確認 Teams 符合您的共同作業與通訊需求，並確認您的網路已準備好可支援 Teams，並在將使用者升級至 Teams 之前，先進行您的使用者整備計劃。 
-
-> [!IMPORTANT]
-> 如果您剛剛開始升級規劃，請務必參閱我們 [的 Microsoft 團隊快速入門升級](upgrade-start-here.md) 指南。 
-
-**共存考慮**：已使用商務用 skype Online 和/或商務用 skype 伺服器的組織，會以符合其需求的節奏，將小組引入他們的環境中。 組織可以視需要將團隊逐漸推出給所需的使用者組，而使用團隊的使用者可以與使用商務用 Skype 的使用者通訊，反之亦然。 若要管理此體驗，系統管理員會使用共存模式來定義最終使用者用戶端體驗、傳入聊天和通話的傳送行為，以及是否在團隊或商務用 Skype 中排程新會議。 如果使用者只升級至 **團隊**，則使用者可以與其他組織中的使用者聯盟;不過，當兩個使用者都使用團隊時，就會提供最佳體驗。 已升級至團隊的使用者仍然可以加入商務用 Skype 會議。 
+雖然有數千位客戶已成功升級至 Microsoft Teams，但有些考慮可能會影響貴組織的升級時程表和使用者體驗。 為了獲得最佳使用者體驗，請確認 Teams 符合您的共同作業與通訊需求，並確認您的網路已準備好可支援 Teams，並在將使用者升級至 Teams 之前，先進行您的使用者整備計劃。 
 
 > [!IMPORTANT]
-> 如需有關共存的詳細資訊，請參閱 [瞭解 Microsoft 團隊及商務用 Skype 共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 如需有關團隊與 Skype (消費者) 的詳細資訊，請參閱 [小組和 skype 互通性](teams-skype-interop.md)。
+> 如果您才剛開始規劃升級，請務必參考 [Microsoft Teams](upgrade-start-here.md) 升級指南的入門指南。 
 
-**整個租** 使用者的考慮：我們正在努力在下列環境中啟用團隊;不過，如果您的商務用 Skype 租使用者是以下列其中一種環境為宿主，系統管理員就不應該升級組織中的任何使用者：
+**共存考慮**：已經使用商務用 Skype Online 和/或商務用 Skype Server 的組織，可以以符合其需求的步調將 Teams 介紹至其環境。 組織可以根據需要，將 Teams 逐步推出給一組想要的使用者，而使用 Teams 的使用者可以與使用商務用 Skype 的使用者通訊，反之亦然。 若要管理此體驗，系統管理員會使用共存模式來定義使用者用戶端體驗、傳入聊天和通話的路由行為，以及是否要在 Teams 或商務用 Skype 中排程新的會議。 如果使用者升級至 Teams，使用者可以與其他組織的使用者 **進行聯盟**;不過，當兩個使用者都使用 Teams 時，提供最佳體驗。 升級到 Teams 的使用者可以加入商務用 Skype 會議。 
 
- - 由世紀互聯運營的 Office 365
- - Office 365 德國
- - 商務用 Skype 租使用者託管于韓國 **，** 組織需要將團隊資料儲存在韓國中。 目前，以韓國所儲存的商務用 Skype 資料升級至團隊的組織，會將其小組資料儲存在亞太地區，而不是在韓國資料中心區域中。
+> [!IMPORTANT]
+> 如需有關共存的詳細資訊，請參閱瞭解 Microsoft Teams 和商務用 [Skype 共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 有關 Teams 和 Skype (消費者) ，請參閱 Teams [和 Skype 互通性](teams-skype-interop.md)。
 
-**使用者專用的考慮**：有些使用者案例仍在演變，管理員可能會決定在升級組織中的其他使用者時，暫時推遲特定使用者的升級。 特別是，我們仍在針對主要裝置是使用 VDI 的使用者解決案例。 請監控 [Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap) 網站以取得通知。
+
+**使用者特定的考慮**：某些使用者案例仍在演進中，系統管理員可能會決定暫時延後升級組織其他使用者時，特定使用者的升級。 特別是，我們仍在努力解決主要裝置為 VDI 型使用者的情況。 針對網站公告，請監控 [Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap)。
 
 > [!NOTE]
-> 在您移至 [僅限團隊] 模式前，您需要更換或更新不支援小組的裝置。 
+> 在移至 Teams 模式之前，您需要取代或更新不支援 Teams 的裝置。 
 
 > [!IMPORTANT]
-> **請記住**： [移至] 團隊不只是技術遷移。 成功的升級會評估技術就緒性和最終使用者就緒性。 如需規劃升級至團隊的相關詳細資訊，請參閱商務用 Skype 的團隊 [升級指導](upgrade-framework.md) 方針。  
+> **請記住**：移轉 Teams 不只進行技術移轉。 成功的升級會評估技術準備和使用者準備。 請參閱我們的商務用 Skype 到 Teams 升級 [指南](upgrade-framework.md) ，以進一步規劃將升級至 Teams 的規劃。  

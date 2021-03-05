@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 團隊的活動報告
+title: 使用 Microsoft Teams 的活動報告
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -12,107 +12,107 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用活動報告來查看貴組織中的使用者如何使用 Microsoft 團隊。
+description: 瞭解如何使用活動報告來查看貴組織的使用者如何使用 Microsoft Teams。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8428135d2d4baa40fd1957f6f5d02eb658732a6c
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: ff2c013f286e6a6e64b88f74dc0685e3876f517e
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918669"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460633"
 ---
-<a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft 團隊的活動報告 
+<a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft Teams 的活動報告 
 ========================================
 
-您可以在 Microsoft 365 系統管理中心使用活動報告，查看貴組織中的使用者如何使用 Microsoft 團隊。 例如，如果有些人還沒有使用 Microsoft 團隊，他們可能不知道如何開始使用，或瞭解如何使用團隊更具效率與共同作業。 組織可以使用活動報告來決定要優先進行訓練和溝通的方面。
+您可以在 Microsoft 365 系統管理中心使用活動報告，查看貴組織的使用者如何使用 Microsoft Teams。 例如，如果有些人尚未使用 Microsoft Teams，他們可能無法瞭解如何開始使用，或瞭解如何使用 Teams 來提高工作效率和共同合作。 組織可以使用活動報告來決定要優先進行訓練和溝通的方面。
 
-## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>如何在 [報表] 儀表板中查看團隊報表
+## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>如何在報表儀表板中查看 Teams 報表
 
-1. 在 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)中，選取 [**報告**  >  **使用方式**]。
+1. 在 [Microsoft 365 系統管理中心，](https://portal.office.com/adminportal/home)選取 **報告**  >  **使用方式**。
  
-2. 在 [ **使用狀況** ] 頁面上，選擇 [ **選取報告**]，然後在 [ **Microsoft 團隊** ] 清單中，選擇您要查看的報告。
+2. 在使用方式 **頁面上**，選擇選取報告，然後在 **報告清單中的 Microsoft Teams** 下，選擇您想要查看的報告。
 
-## <a name="teams-activity-reports-that-are-available"></a>可使用的團隊活動報告
+## <a name="teams-activity-reports-that-are-available"></a>可用的 Teams 活動報告
 
-目前有兩個您可以查看的活動報告：
+目前您可以查看兩個活動報告：
 
-- [Microsoft 團隊使用者活動報告](#microsoft-teams-user-activity-report) 
-- [Microsoft 團隊裝置使用量報告](#microsoft-teams-device-usage-report) 
+- [Microsoft Teams 使用者活動報告](#microsoft-teams-user-activity-report) 
+- [Microsoft Teams 裝置使用量報告](#microsoft-teams-device-usage-report) 
 
-### <a name="microsoft-teams-user-activity-report"></a>Microsoft 團隊使用者活動報告
+### <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 使用者活動報告
 
-[團隊使用者活動] 報告可讓您查看使用者在團隊中執行的最常見活動。 這包括有多少人參與頻道中的聊天、透過私人聊天訊息溝通的數量，以及參與通話或會議的次數。 您可以查看整個組織及每個個別使用者的這項資訊。
+Teams 使用者活動報告提供您使用者在 Teams 中執行之最常見活動的視圖。 這包括有多少人參與頻道中的聊天、有多少人透過私人聊天訊息進行通訊，以及有多少人參與通話或會議。 您可以看到整個組織以及每個使用者的這項資訊。
 
-![系統管理中心的 [使用者活動] 報告螢幕擷取畫面。](media/teams-user-activity-report.png)
+![系統管理中心使用者活動報告的螢幕擷取畫面。](media/teams-user-activity-report.png)
 
-#### <a name="interpret-the-microsoft-teams-user-activity-report"></a>解釋 Microsoft 團隊使用者活動報告
+#### <a name="interpret-the-microsoft-teams-user-activity-report"></a>解讀 Microsoft Teams 使用者活動報告
 
-您可以透過查看 [ **活動** ] 和 [ **使用者** ] 圖表來查看團隊使用者活動。
+您可以查看活動和使用者圖表，以取得 Teams 使用者 **活動的** 視圖。
 
-![含編號標注的使用者活動報告螢幕擷取畫面。](media/teams-user-activity-report-with-callouts.png)
+![使用者活動報告與編號圖說義的螢幕擷取畫面。](media/teams-user-activity-report-with-callouts.png)
 
-|圖說文字 |說明  |
+|標注 |說明  |
 |--------|-------------|
-|**1**   |您可以在過去7天、30天、90天或180天的趨勢中查看團隊使用者活動報告。 不過，如果您按一下報表中的特定時間範圍，則表格 (7) 會顯示30天內的資料，最多為產生報告的日期 (2) 。 |
-|**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
-|**3**   |[ **活動** ] 視圖會根據活動類型顯示 Microsoft 團隊活動數目。 活動類型包括「小組聊天」訊息、私人聊天訊息、通話及會議等數目。 |
-|**4**   |[ **使用者** ] 視圖會顯示活動類型的使用者數目。 活動類型包括「小組聊天」訊息、私人聊天訊息、通話及會議等數目。 |
-|**500**   |圖表上的 X 軸是特定報表的已選取日期範圍。 <ul><li>在 [ **活動** ] 圖表上，Y 軸是指定活動的計數。</ul></li> <ul><li>在 [ **使用者** ] 圖表上，Y 軸是參與團隊聊天、私人聊天、通話或會議的使用者數目。</ul></li> |
-|**6**   |您可以按一下圖例中的專案，篩選您在圖表上看到的系列。 例如，在 [ **活動** ] 圖表中，按一下或敲擊 [ **頻道訊息**]、[ **交談訊息**]、[ **通話**] 或 [ **會議** ]，只查看與每個專案相關的資訊。 變更選取範圍不會變更格線表格中的資訊。 |
-|**utf-7**   |在最寬 (180 天) 報告時間範圍內的作用中小組清單。  活動計數會根據選取的日期而有所不同。 <br><br> 若要查看表格中的下列資訊，請確定您已將欄新增至資料表。 <ul><li>[使用者 **名稱**] 是使用者的電子郵件地址。 您可以顯示實際的電子郵件地址，或將此欄位設為匿名。</ul></li> <ul><li>**上次活動日期 (UTC)** 是指使用者參與 Microsoft 團隊活動的最後一個日期。</ul></li> <ul><li>[**頻道訊息**] 是使用者在特定的時段內，在小組聊天中張貼的唯一訊息數目。</ul></li> <ul><li>[**交談訊息**] 是使用者在特定的時段內，在私人聊天中張貼的唯一訊息數目。</ul></li> <ul><li>[**通話**] 是使用者在特定的時段內參與的呼叫次數。</ul></li> <ul><li>[**會議**] 是使用者在特定的時段內參與的線上會議數目。</ul></li> <ul><li>[**其他活動**] 是使用者的其他團隊活動數目，其中包括（且不限於）：對訊息、應用程式、處理檔案、搜尋、追蹤團隊和頻道，以及 favoriting。</ul></li> <ul><li>[**已刪除**] 表示該小組是否已刪除。 如果小組已刪除，但在報告期間有活動，則會顯示在 [已刪除] 設定為 true 的格線中。</ul></li> <ul><li>[**刪除日期**] 是指使用者刪除的日期。</ul></li> <ul><li>[**已指派的產品**] 是指派給使用者的產品清單。</ul></li>如果您組織的原則禁止您查看使用者資訊可識別的報告，您可以變更所有這些報告的隱私權設定。 請參閱 [Microsoft 365 系統管理中心預覽的活動報告](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)中的 [**如何隱藏使用者層級詳細資料？** ] 區段。</ui> |
-|**型**   |按一下或輕觸 [ **欄** ]，以新增或移除表格中的欄。 |
-|**9**   |按一下或輕觸 [ **匯出** ]，將報表資料匯出至 Excel .csv 檔案。 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 如果您的使用者少於2000，您可以在報表本身的資料表中排序和篩選。 如果您的使用者超過2000個，您將需要匯出資料來篩選和排序報表。 
+|**1**   |您可以針對過去 7 天、30 天、90 天或 180 天的趨勢來查看 Teams 使用者活動報告。 不過，如果您按一下報告中的特定時間範圍，表格 (7) 會顯示 30 天內的資料，最多會顯示報告產生的日期 (2) 。 |
+|**2**   |每個報表都有產生此報表的日期。 報告通常會反映啟用時間 24 到 48 小時的延遲。 |
+|**3**   |活動 **視圖** 會按活動類型顯示 Microsoft Teams 活動的數量。 活動類型包括團隊聊天訊息數、私人聊天訊息、通話和會議。 |
+|**4**   |使用者 **視圖** 會按活動類型顯示使用者數目。 活動類型包括團隊聊天訊息數、私人聊天訊息、通話和會議。 |
+|**5**   |圖表上的 X 軸是特定報表的選取日期範圍。 <ul><li>在 **活動圖表** 上，Y 軸是指定活動的計數。</ul></li> <ul><li>在使用者 **圖表** 上，Y 軸是參與團隊聊天、私人聊天、通話或會議的使用者數目。</ul></li> |
+|**6**   |您可以按一下圖例中的專案，篩選圖表上看到的數列。 例如，在活動圖表上，按一下或點一下 **頻道訊息**、**聊天訊息**、通話或 **會議**，只查看每個訊息的相關資訊。  變更此選取範圍不會變更格線表格中的資訊。 |
+|**7**   |在報告時間範圍的 180 天 (中) 團隊清單。  活動計數會因日期選取範圍而異。 <br><br> 若要查看下表的以下資訊，請確定您將欄新增到資料表。 <ul><li>**使用者** 名稱是使用者的電子郵件地址。 您可以顯示實際的電子郵件地址，或將此欄位匿名。</ul></li> <ul><li>**上次活動日期 (UTC)** 是指使用者最後一次參與 Microsoft Teams 活動的日期。</ul></li> <ul><li>**頻道訊息** 是使用者在指定的時段內，在團隊聊天中張貼的唯一訊息數目。</ul></li> <ul><li>**聊天訊息** 是使用者在指定的時段內于私人聊天中張貼的唯一訊息數目。</ul></li> <ul><li>**通話** 是使用者在指定的時段內參與的通話數。</ul></li> <ul><li>**會議** 是使用者在指定的時段內參與的線上會議數目。</ul></li> <ul><li>其他活動 **是使用者** 參與的其他團隊活動數目，其中一些活動包括但不限於：對訊息按贊、應用程式、處理檔案、搜尋、正在搜尋、正在搜尋團隊和頻道，以及支援這些團隊和頻道。</ul></li> <ul><li>**已刪除** 代表團隊是否被刪除。 如果小組已被刪除，但報告期間有活動，該團隊會顯示在格線中，已刪除設定為 True。</ul></li> <ul><li>**刪除日期** 是使用者被刪除的日期。</ul></li> <ul><li>**指派的產品** 是指派給使用者的產品清單。</ul></li>如果貴組織的政策禁止您檢視可辨識使用者資訊的報告，您可以變更所有這些報表的隱私權設定。 請參閱 Microsoft  365 系統管理中心預覽中活動報告[中的如何隱藏使用者層級詳細資料？一節](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)。</ui> |
+|**8**   |按一下或點 **一下 [欄** 以新增或移除表格中的欄。 |
+|**9**   |按一下或點一 **下 [匯出** 以將報表資料匯出至 Excel .csv 檔案。 這會匯出所有使用者的資料，並可讓您執行簡單的排序和篩選，以便進一步分析。 如果您的使用者少於 2，000 個，您可以在報表本身的表格內進行排序和篩選。 如果您的使用者超過 2，000 個，您必須匯出資料以篩選及排序報表。 
 
-### <a name="microsoft-teams-device-usage-report"></a>Microsoft 團隊裝置使用量報告
+### <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 裝置使用量報告
 
-[團隊裝置使用方式] 報告可提供使用者連線至團隊的相關資訊，包括行動應用程式。 此報告可協助您瞭解貴組織中受歡迎的裝置，以及有多少使用者可以使用 [移至]。
+Teams 裝置使用量報告會提供使用者如何連接至 Teams 的資訊，包括行動裝置 App。 報告可協助瞭解貴組織中哪些裝置很熱門，以及有多少使用者正在外工作。
 
-![小組裝置使用方式報告的螢幕擷取畫面。](media/teams-device-usage-report.png)
+![Teams 裝置使用量報告的螢幕擷取畫面。](media/teams-device-usage-report.png)
 
-### <a name="interpret-the-microsoft-teams-device-usage-report"></a>解釋 Microsoft 團隊裝置使用方式報告
+### <a name="interpret-the-microsoft-teams-device-usage-report"></a>解讀 Microsoft Teams 裝置使用量報告
 
-您可以透過查看 [ **使用者** ] 和 [ **配送** ] 圖表，來查看團隊裝置使用量。
+您可以查看使用者和通訊組圖表，以取得 Teams 裝置 **使用量的視圖**。
 
-![小組裝置使用方式報告的螢幕擷取畫面，編號標注。](media/teams-device-usage-report-with-callouts.png)
+![Teams 裝置使用量報告與編號圖說義的螢幕擷取畫面。](media/teams-device-usage-report-with-callouts.png)
 
-|圖說文字 |說明  |
+|標注 |說明  |
 |--------|-------------|
-|**1**   |您可以針對過去7天、30天、90天或180天的趨勢，查看團隊裝置報告。 不過，如果您按一下報表中的特定時間範圍，則表格 (7) 會顯示30天內的資料，最多為產生報告的日期 (2) 。 |
-|**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
-|**3**   |[ **使用者** ] 視圖會顯示依裝置類型列出的每日使用者數目。 |
-|**4**   |[ **配送** ] 視圖會透過裝置顯示所選時間範圍內的使用者數目。  |
-|**500**   | <ul><li>在 [ **使用者** ] 圖表上，X 軸是報表所選取的日期範圍，而 Y 軸則是依裝置類型的使用者數目。</ul></li> <ul><li>在 **配送** 圖表上，X 軸會顯示連接至團隊的不同裝置，而 Y 軸則是使用裝置的使用者數目。</ul></li> |
-|**6**   |您可以按一下圖例中的專案，篩選您在圖表上看到的系列。 例如，在 [ **分發** ] 圖表上，按一下或敲擊 [ **Windows**]、[ **Mac**]、[ **Linux**]、[ **Web**]、[ **iOS**] 或 [ **Android** ]，只查看與每個專案相關的資訊。 變更選取範圍不會變更格線表格中的資訊。 |
-|**utf-7**   |在最寬 (180 天) 報告時間範圍內的作用中小組清單。  活動計數會根據選取的日期而有所不同。 <br><br> 若要在表格中查看下列資訊，請確定您已將欄新增至資料表。 <ul><li>[使用者 **名稱**] 是使用者的電子郵件地址。 您可以顯示實際的電子郵件地址，或將此欄位設為匿名。</ul></li> <ul><li>**上次活動日期 (UTC)** 指的是使用者在團隊活動中參與的最後一個日期。</ul></li> <ul><li>[**已刪除**] 表示該小組是否已刪除。 如果小組已刪除，但在報告期間有活動，則會顯示在 [已刪除] 設定為 true 的格線中。</ul></li><ul><li>[**刪除日期**] 是指使用者刪除的日期。</ul></li> <ul><li>如果使用者是在 Windows 電腦上的小組桌面用戶端中使用中，則會選取 [ **Windows** ]。</ul></li> <ul><li>如果使用者在 macOS 電腦上的小組桌面用戶端中處於作用中，則會選取 **Mac** 。</ul></li>  <ul><li>如果使用者使用的是 Linux 電腦上的小組桌面用戶端，則會選取 [ **Linux** ]。</ul></li>   <ul><li>如果使用者在團隊網頁用戶端上是作用中的，則會選取 [**網站**]。</ul></li> <ul><li>如果使用者在 iOS 的 [小組行動用戶端] 上是作用中的，就會選取 **ios** 。</ul></li> <ul><li>如果使用者在 Android 版團隊行動用戶端上是作用中的，則會選取 [ **android 手機**]。</ul></li></li> <ui>如果您組織的原則禁止您查看使用者資訊可識別的報告，您可以變更所有這些報告的隱私權設定。請參閱 [Microsoft 365 系統管理中心預覽的活動報告](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)中的 [**如何隱藏使用者層級詳細資料？** ] 區段。</ui> |
-|**型**   |按一下或輕觸 [ **欄** ]，以新增或移除表格中的欄。 |
-|**9**   |按一下或輕觸 [ **匯出** ]，將報表資料匯出至 Excel .csv 檔案。 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 如果您的使用者少於2000，您可以在報表本身的資料表中排序和篩選。 如果您的使用者超過2000個，您將需要匯出資料來篩選和排序報表。 
+|**1**   |您可以針對過去 7 天、30 天、90 天或 180 天的趨勢來查看 Teams 裝置報告。 不過，如果您按一下報告中的特定時間範圍，表格 (7) 會顯示 30 天內的資料，最多會顯示報告產生的日期 (2) 。 |
+|**2**   |每個報表都有產生此報表的日期。 報告通常會反映啟用時間 24 到 48 小時的延遲。 |
+|**3**   |使用者 **視圖** 會按裝置類型顯示每日使用者數。 |
+|**4**   |通訊 **分配** 視圖會顯示所選時段內按裝置顯示的使用者數目。  |
+|**5**   | <ul><li>在使用者 **圖表** 上，X 軸是報表的選取日期範圍，而 Y 軸是按裝置類型顯示的使用者數目。</ul></li> <ul><li>在 **通訊圖** 上，X 軸會顯示用來連接 Teams 的不同裝置，而 Y 軸是使用裝置的使用者數目。</ul></li> |
+|**6**   |您可以按一下圖例中的專案，篩選圖表上看到的數列。 例如，在 [發佈圖> 上，按一下或點 **一下** Windows、Mac、Linux、Web、iOS 或 **Android，** 只查看每個圖表的相關資訊。     變更此選取範圍不會變更格線表格中的資訊。 |
+|**7**   |在報告時間範圍的 180 天 (中) 團隊清單。  活動計數會因日期選取範圍而異。 <br><br> 若要在資料表中查看下列資訊，請確定您將欄新增到資料表。 <ul><li>**使用者** 名稱是使用者的電子郵件地址。 您可以顯示實際的電子郵件地址，或將此欄位匿名。</ul></li> <ul><li>**上次活動日期 (UTC)** 是指使用者上次參與 Teams 活動的日期。</ul></li> <ul><li>**已刪除** 代表團隊是否被刪除。 如果小組已被刪除，但報告期間有活動，該團隊會顯示在格線中，已刪除設定為 True。</ul></li><ul><li>**刪除日期** 是使用者被刪除的日期。</ul></li> <ul><li>**如果使用者**  在 Windows 電腦上使用 Teams 桌面用戶端，系統即會選取 Windows。</ul></li> <ul><li>**如果使用者在 macOS** 電腦上使用 Teams 桌面用戶端，則選取 Mac。</ul></li>  <ul><li>**如果使用者** 在 Linux 電腦上使用 Teams 桌面用戶端，則選取 Linux。</ul></li>   <ul><li>**如果使用者** 在 Teams Web 用戶端上為使用中，系統即會選取 Web。</ul></li> <ul><li>**如果使用者使用 iOS** 版 Teams 行動用戶端，即會選取 iOS。</ul></li> <ul><li>**如果使用者使用**  Android 版 Teams 行動用戶端，系統即會選取 Android 手機。</ul></li></li> <ui>如果貴組織的政策禁止您檢視可辨識使用者資訊的報告，您可以變更所有這些報表的隱私權設定。請參閱 Microsoft  365 系統管理中心預覽中活動報告[中的如何隱藏使用者層級詳細資料？一節](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)。</ui> |
+|**8**   |按一下或點 **一下 [欄** 以新增或移除表格中的欄。 |
+|**9**   |按一下或點一 **下 [匯出** 以將報表資料匯出至 Excel .csv 檔案。 這會匯出所有使用者的資料，並可讓您執行簡單的排序和篩選，以便進一步分析。 如果您的使用者少於 2，000 個，您可以在報表本身的表格內進行排序和篩選。 如果您的使用者超過 2，000 個，您必須匯出資料以篩選及排序報表。 
 
-## <a name="who-can-access-the-teams-activity-reports"></a>誰可以存取團隊活動報告
+## <a name="who-can-access-the-teams-activity-reports"></a>誰可以存取 Teams 活動報告
 
-已指派的使用者可以存取活動報告：
+指派的使用者可以存取活動報告：
 
-- 全域管理員角色
-- 特定產品的管理員角色 (Exchange、商務用 Skype 或 SharePoint) 
-- 報告閱讀者角色
+- 全域系統管理員角色
+- Exchange、商務 (或 SharePoint 應用程式的特定產品系統管理員) 
+- 報表讀者角色
 
-### <a name="reports-reader-role"></a>報告閱讀者角色
+### <a name="reports-reader-role"></a>報表讀者角色
 
-您可以將報告閱讀者角色指派給沒有系統管理員許可權的人員，但負責推動團隊的採納或追蹤授權使用。 若要瞭解如何指派角色，請參閱 [將系統管理員和管理員角色指派給使用 Azure Active Directory 的使用者](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
+您可以將報告讀者角色指派給沒有系統管理員許可權，但負責推動 Teams 採用或追蹤授權使用方式的人。 若要瞭解如何指派角色，請參閱指派[系統管理員和非系統管理員角色給使用者與 Azure Active Directory。](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
-## <a name="other-information-on-the-reports-dashboard"></a>[報表] 儀表板上的其他資訊
+## <a name="other-information-on-the-reports-dashboard"></a>報表儀表板上的其他資訊
 
-### <a name="at-a-glance-activity-widget"></a>一覽式活動小工具
+### <a name="at-a-glance-activity-widget"></a>快速流覽活動小工具
 
-[報告] 儀表板包括來自團隊在「一覽式活動」小工具中的使用資料，可讓您使用 Microsoft 365 或 Office 365 中的其他各種服務來溝通及共同作業。
+報告儀表板包含 Teams 在快速流覽活動小工具中的使用資料，讓您以跨產品模式查看使用者在 Microsoft 365 或 Office 365 中使用其他各種服務通訊和共同作業的方式。
 
-![[團隊一覽] 活動小工具的螢幕擷取畫面。](media/at-a-glance-activity-widget.png)
+![Teams 快速流覽活動小工具的螢幕擷取畫面。](media/at-a-glance-activity-widget.png)
 
-### <a name="teams-activity-card"></a>團隊活動卡片
+### <a name="teams-activity-card"></a>Teams 活動卡片
 
-[報表] 儀表板上的 [團隊活動卡] 可讓您大致瞭解團隊中的活動，包括作用中的使用者人數，以便您快速瞭解使用該服務的使用者數目。 按一下儀表板上的活動卡片會將您帶到 [小組使用者] 活動報告。 
+報告儀表板上的 Teams 活動卡片提供 Teams 活動概觀，包括使用中使用者的數量，讓您快速瞭解有多少使用者使用服務。 按一下儀表板上的活動卡片，即可將您帶至 Teams 使用者活動報告。 
 
-![[小組] 活動卡片的螢幕擷取畫面。](media/teams-activity-card.png)
+![Teams 活動卡片的螢幕擷取畫面。](media/teams-activity-card.png)

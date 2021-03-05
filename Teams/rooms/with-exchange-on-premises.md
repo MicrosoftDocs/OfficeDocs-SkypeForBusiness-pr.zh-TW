@@ -1,5 +1,5 @@
 ---
-title: 使用 Exchange 內部部署來部署 Microsoft 團隊聊天室
+title: 使用 Exchange 內部部署部署 Microsoft Teams 會議室
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -16,109 +16,109 @@ ms.custom:
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
-description: 請閱讀本主題，以瞭解如何使用 Exchange 內部部署在混合式環境中部署 Microsoft 團隊聊天室的相關資訊。
-ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+description: 請閱讀本主題，以瞭解如何在混合式環境中與 Exchange 內部部署部署 Microsoft Teams 會議室。
+ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662318"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460513"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange 內部部署來部署 Microsoft 團隊聊天室
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>在內部部署 Exchange 部署 Microsoft Teams 會議室
 
-請閱讀本主題，瞭解如何使用 Exchange 內部部署、Microsoft 團隊或商務用 Skype Online，在混合式環境中部署 Microsoft 團隊聊天室。
+請閱讀本主題，以瞭解如何在混合式環境中部署 Microsoft Teams 會議室與 Exchange 內部部署和 Microsoft Teams 或商務用 Skype Online。
   
-如果您的組織有混合服務、部分裝載于內部部署和部分託管的網路，則您的設定將取決於託管每個服務的位置。 本主題涵蓋 Microsoft 團隊聊天室的混合式部署，Exchange 託管于內部部署。 因為這種類型的部署有這麼多不同的變化，所以不可能提供所有專案的詳細指示。 下列處理常式適用于許多設定。 如果程式不適合您的設定，建議您使用 Windows PowerShell 來取得與其他部署選項相同的最終結果。
+如果貴組織混合使用各種服務，其中一些是內部部署，另一部分則由線上託管，則您的組配置取決於每個服務的託管位置。 本主題涵蓋內部部署的 Microsoft Teams 會議室與 Exchange 的混合式部署。 由於這種類型的部署有許多不同的變化，因此無法針對所有部署提供詳細指示。 下列程式適用于許多組配置。 如果此程式適用于您的設定，建議您使用 Windows PowerShell 來達到與本文所述相同的最終結果，以及其他部署選項。
 
-Microsoft 提供 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、可協助您建立新使用者帳戶的腳本，或驗證現有的資源帳戶，以協助您將它們轉換成相容的 Microsoft 團隊聊天室使用者帳戶。 如果您想要的話，您可以依照下列步驟來設定您的 Microsoft 團隊聊天室裝置將會使用的帳戶。
+Microsoft 提供 [SkypeRoomProvisioningScript.ps1， ](https://go.microsoft.com/fwlink/?linkid=870105)此腳本可協助建立新使用者帳戶，或驗證您現有的資源帳戶，以便將它們轉換為相容的 Microsoft Teams 會議室使用者帳戶。 您可以視需要遵循下列步驟來設定 Microsoft Teams 會議室裝置將會使用的帳戶。
   
 ## <a name="requirements"></a>需求
 
-在使用 Exchange 內部部署部署 Microsoft 團隊聊天室之前，請確定您已滿足需求。 如需詳細資訊，請參閱 [Microsoft 團隊會議室需求](requirements.md)。
+在部署內部部署 Exchange 的 Microsoft Teams 會議室之前，請確定您符合需求。 詳細資訊請參閱 Microsoft [Teams 會議室需求](requirements.md)。
   
-如果您是使用 Exchange 內部部署來部署 Microsoft 團隊聊天室，您將會使用 Active Directory 系統管理工具來為您的內部部署網域帳戶新增電子郵件地址。 此帳戶將會同步處理至 Microsoft 365 或 Office 365。 您將需要：
+如果您要在內部部署具有 Exchange 的 Microsoft Teams 會議室，您將使用 Active Directory 管理工具為您的內部部署網域帳戶新增電子郵件地址。 這個帳戶將會同步到 Microsoft 365 或 Office 365。 您必須：
   
-- 建立帳戶並將帳戶與 Active Directory 同步處理。
+- 建立帳戶，並同步處理帳戶與 Active Directory。
 
 - 啟用遠端信箱並設定屬性。
 
 - 指派 Microsoft 365 或 Office 365 授權。
 
-- 在商務用 Skype Server 上啟用裝置帳戶。 若要啟用裝置帳戶，您的環境必須符合下列先決條件：
+- 使用商務用 Skype Server 啟用裝置帳戶。 若要啟用裝置帳戶，您的環境必須符合下列先決條件：
 
-  - 您必須在 Microsoft 365 或 Office 365 方案中，將商務用 Skype Online (方案 2) 或更新版本。 方案需要支援會議功能。
+  - 您的 Microsoft 365 或 Office 365 方案 (商務用 Skype Online) 或更高版本。 此方案需要支援會議功能。
   
-  - 如果您需要企業語音 (PSTN 電話) 使用 windows 版商務用 Skype Online 的電話服務提供者，請 (方案 3) 。
+  - 如果您需要企業語音 (PSTN 電話) 使用 Microsoft Teams 會議室的電話服務提供者，您需要商務用 Skype Online (方案 3) 。
   
-  - 您的租使用者必須有 Exchange 信箱。
+  - 您的租使用者使用者必須擁有 Exchange 信箱。
   
-  - 您的 Microsoft 團隊會議室帳戶需要商務用 Skype Online (方案 2) 或商務用 Skype Online (方案 3) 授權，但不需要 Exchange Online 授權。
+  - 您的 Microsoft Teams 會議室帳戶確實需要商務用 Skype Online (方案 2) 或商務用 Skype Online (方案 3) 授權，但不需要 Exchange Online 授權。
 
-- 將商務用 Skype Server 授權指派給您的 Microsoft 團隊聊天室帳戶。
+- 指派商務用 Skype Server 授權給 Microsoft Teams 會議室帳戶。
 
-### <a name="create-an-account-and-synchronize-with-active-directory"></a>建立帳戶並與 Active Directory 同步處理
+### <a name="create-an-account-and-synchronize-with-active-directory"></a>建立帳戶並同步處理 Active Directory
 
-1. 在 [ **Active Directory 使用者和電腦** ] 工具中，以滑鼠右鍵按一下您要在其中建立 Microsoft 團隊房間帳戶的資料夾或組織單位，按一下 [ **新增**]，然後按一下 [ **使用者**]。
+1. 在 **Active Directory** 使用者與電腦工具中，以滑鼠右鍵按一下要建立 Microsoft Teams 會議室帳戶的資料夾或組織單位，按一下 [ **新增**，然後按一下 **[使用者**。
 
-2. 在 [ **完整名稱** ] 方塊中輸入上一個 Cmdlet 的顯示名稱，然後在 [ **使用者登入名稱** ] 方塊中輸入別名。 按一下 **[下一步]**。
+2. 在全名方塊中輸入上一個 Cmdlet 的顯示名稱，將別名輸入到 **使用者登入名稱** 方塊。  按一下 [ **下一步**。
 
-3. 輸入此帳戶的密碼。 您必須重新輸入，才能進行驗證。 確認 [ **密碼永不過期** ] 核取方塊是唯一選取的選項。
+3. 輸入此帳戶的密碼。 您必須重新輸入以進行驗證。 請確定選取 **的唯一選項是** 密碼永不過期核取方塊。
 
     > [!NOTE]
-    > 選取 [ **密碼永不過期** ] 是 Microsoft 團隊聊天室的商務用 Skype 伺服器需求。 您的網域規則可能會禁止沒有過期的密碼。 如果是這樣，您將需要針對每個 Microsoft 團隊聊天室裝置帳戶建立例外狀況。
+    > 選取 **密碼永不過期** 是 Microsoft Teams 會議室商務用 Skype Server 的一項要求。 您的網域規則可能會禁止密碼過期。 若是如此，您必須為每個 Microsoft Teams 會議室裝置帳戶建立例外。
   
-4. 建立帳戶之後，請執行目錄同步處理。 完成後，請移至 Microsoft 365 系統管理中心的 [使用者] 頁面，確認在先前步驟中建立的帳戶已合併至 [線上]。
+4. 建立帳戶之後，請執行目錄同步處理。 完成後，請前往 Microsoft 365 系統管理中心的使用者頁面，並確認先前步驟建立的帳戶已合併至線上。
 
-### <a name="enable-the-remote-mailbox-and-set-properties"></a>啟用遠端信箱並設定屬性
+### <a name="enable-the-remote-mailbox-and-set-properties"></a>啟用遠端信箱和設定屬性
 
-1. [開啟 Exchange 管理命令](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) 介面或 [使用遠端 PowerShell 連線至您的 Exchange 伺服器](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)。
+1. [開啟 Exchange 管理命令區](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell)[，或使用遠端 PowerShell 連接到 Exchange 伺服器](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)。
 
-2. 在 Exchange PowerShell 中， (信箱建立信箱，方法是執行下列命令以啟用帳戶) ：
+2. 在 Exchange PowerShell 中，為帳戶建立 (信箱，以執行下列) 啟用帳戶：
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   如需詳細的語法與參數資訊，請參閱 [啟用-信箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)。
+   有關詳細的語法和參數資訊，請參閱[Enable-Mailbox。](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)
 
-3. 在 Exchange PowerShell 中，設定會議室信箱上的下列設定，以改善會議體驗：
+3. 在 Exchange PowerShell 中，在會議室信箱上設定下列設定以改善會議體驗：
 
-   - AutomateProcessing： AutoAccept (會議召集人直接在沒有人工干預的情況下收到會議室保留決策：閑 = 接受;忙碌 = 拒絕. ) 
+   - 自動化處理：自動接受 (會議召集人直接收到會議室預約決定，無需人工介入：free = accept;busy = decline.) 
 
-   - AddOrganizerToSubject： $false (會議召集人不會新增至會議邀請的主旨。 ) 
+   - AddOrganizerToSubject：$false (會議召集人不會新增到會議要求的主題中。) 
 
-   - DeleteComments： $false (保留傳入會議邀請郵件內文中的任何文字。 ) 
+   - DeleteComments：$false (會議要求的郵件內文保留任何文字。) 
 
-   - DeleteSubject： $false (保持收到的會議邀請主題。 ) 
+   - DeleteSubject：$false (保留傳入會議要求的主題。) 
 
-   - RemovePrivateProperty： $false (可確保在原始會議邀請中由會議召集人所傳送的私人標誌保持為已指定。 ) 
+   - RemovePrivateProperty：$false (確保會議召集人在原始會議要求中所送出的私人標號維持為指定狀態。) 
 
-   - AddAdditionalResponse： $true (會將 AdditionalResponse 參數指定的文字新增至會議邀請。 ) 
+   - AddAdditionalResponse：$true (AdditionalResponse 參數指定的文字會新增到會議要求中。) 
 
-   - AdditionalResponse：「這是 Skype 會議室！」  (要新增至會議邀請的其他文字。 ) 
+   - 其他Response：「這是 Skype 會議室！  (新增到會議要求的其他文字。) 
 
-   這個範例會在名為 Project-Rigel-01 的聊天室信箱上設定這些設定。
+   此範例在名為 Project-Rigel-01 的會議室信箱上設定這些設定。
 
    ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   如需詳細的語法與參數資訊，請參閱 [設定 CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
+   有關詳細的語法和參數資訊，請參閱[Set-CalendarProcessing。](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>指派 Microsoft 365 或 Office 365 授權
 
-1. 連線至 Azure Active Directory。 如需 Active Directory 的詳細資料，請參閱 [Azure ActiveDirectory (import-module msonline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+1. 連接到 Azure Active Directory。 有關 Active Directory 的詳細資訊，請參閱[Azure ActiveDirectory (MSOnline) 1.0。](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 不受支援。 
 
-2. 裝置帳戶必須具備有效的 Microsoft 365 或 Office 365 授權，否則 Exchange 與 Microsoft 團隊將無法運作。 如果您有授權，您必須將使用位置指派給您的裝置帳戶，這會決定您的帳戶可使用哪些授權 Sku。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以取得可用的 Sku 清單。
+2. 裝置帳戶必須擁有有效的 Microsoft 365 或 Office 365 授權，否則 Exchange 和 Microsoft Teams 無法工作。 如果您有授權，您必須將使用位置指派給裝置帳戶，這決定您的帳戶可以使用哪些授權 SKUS。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以取回可用的 SKUS 清單。
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ``` -->
 
-3. 接下來，您可以使用 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> Cmdlet. 在此案例中，$strLicense 是您所看到的 SKU 程式碼 (例如 contoso： STANDARDPACK) 。
+3. 接下來，您可以使用 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> Cmdlet。 在此案例中，$strLicense是您看到的 SKU (例如 contoso：STANDARDPACK) 。
 
   ``` PowerShell
   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -132,17 +132,17 @@ Microsoft 提供 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwli
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   如需詳細指示，請參閱 [使用 Office 365 PowerShell 指派授權給使用者帳戶](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
+   有關詳細指示，請參閱使用 [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)指派授權給使用者帳戶。
 
 ### <a name="enable-the-device-account"></a>啟用裝置帳戶
 
-商務用 skype Online PowerShell 是用來管理 Microsoft 團隊和商務用 Skype Online 的服務。
+商務用 Skype Online PowerShell 可用來管理 Microsoft Teams 和商務用 Skype Online 的服務。
 
 1. 從電腦建立遠端 Windows PowerShell 會話，如下所示：
 > [!NOTE]
-> 商務用 Skype Online 連接器目前是最新團隊 PowerShell 模組的一部分。
+> 商務用 Skype Online Connector 目前是最新 Teams PowerShell 模組的一部分。
 >
-> 如果您使用的是最新的 [團隊 PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，就不需要安裝商務用 Skype Online 連接器。
+> 如果您使用的是最新的 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公開發行，則不需要安裝商務用 Skype Online Connector。
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
@@ -156,32 +156,32 @@ Microsoft 提供 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwli
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. 若要啟用您的 Microsoft 團隊聊天室帳戶，請執行此命令：
+3. 若要啟用您的 Microsoft Teams 會議室帳戶，請執行此命令：
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-   如果您不確定要在您的環境中使用 RegistrarPool 參數的值，您可以使用此命令從現有的使用者取得值：
+   如果您不確定要用於您環境中 RegistrarPool 參數的值，可以使用此命令從現有使用者取得值：
 
    ``` Powershell
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>將授權指派給您的 Microsoft 團隊聊天室帳戶
+### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>指派授權給 Microsoft Teams 會議室帳戶
 
-1. 以租使用者管理員身分登入，開啟 Microsoft 365 系統管理中心，然後按一下 [管理] 應用程式。
-2. 按一下 [ **使用者和群組** ]，然後按一下 [ **新增使用者、重設密碼等等**]。
-3. 按一下 [Microsoft 團隊聊天室] 帳戶，然後按一下手寫筆圖示，即可編輯帳戶資訊。
-4. 按一下 [ **授權**]。
-5. 在 [ **指派授權**] 中，選取 [商務用 Skype (方案 2]) 或 [商務用 skype] (方案 3) ，視您的授權和企業語音需求而定。 如果您想要在 Microsoft 團隊聊天室使用企業語音，您必須使用 [方案3授權]。
-6. 按一下 [儲存]。
+1. 以租使用者系統管理員的名登入、開啟 Microsoft 365 系統管理中心，然後按一下系統管理應用程式。
+2. 按一下使用者 **和群組，** 然後按一下 **[新增使用者、重設密碼等等**。
+3. 按一下 Microsoft Teams 會議室帳戶，然後按一下筆圖示以編輯帳戶資訊。
+4. 按一下 **[授權**。
+5. 在 **指派授權** 中，根據您的授權和企業語音 (，選取商務用 Skype (方案 2) 或商務用 Skype (方案 3) 。 如果您想要在 Microsoft Teams 會議室使用企業語音，您必須使用方案 3 授權。
+6. 按一下 [儲存 **]**。
 
-針對驗證，您應該可以使用任何用戶端登入此帳戶。
+若要驗證，您應該可以使用任何用戶端登入此帳戶。
   
 ## <a name="related-topics"></a>相關主題
 
-[設定 Microsoft 團隊聊天室的帳戶](rooms-configure-accounts.md)
+[設定 Microsoft Teams 會議室的帳戶](rooms-configure-accounts.md)
 
 [規劃 Microsoft Teams 會議室](rooms-plan.md)
   

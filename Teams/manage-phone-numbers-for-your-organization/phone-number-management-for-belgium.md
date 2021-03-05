@@ -20,26 +20,26 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用下表尋找在比利時取得及管理 Microsoft Teams 電話號碼的資訊。
-ms.openlocfilehash: 453e99ee47fd472fa637f851d8ae432c97395296
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 10cb478ddd262bb6181af612ab1213ff6da842f5
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237443"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460983"
 ---
 # <a name="phone-number-management-for-belgium"></a>比利時的電話號碼管理
 
 使用下表尋找在比利時取得及管理 Microsoft Teams 電話號碼的資訊。
   
-詳細資訊請參閱管理 [貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
+詳細資訊請參閱管理 [您組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   
 |**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
-|取得 Microsoft Teams 系統管理中心未列出的新使用者和服務電話號碼。   <br/> |在比利時，使用 Microsoft Teams 系統管理中心無法取得貴組織的電話號碼，您必須提交新的電話號碼要求。 <br/><br/>下載以下其中一個表單： <br/>  [針對比利時的新電話號碼要求 (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (fr-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (nl-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [適用于比利時的新電話號碼要求 (v.5.0)  (2010) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/>|
-|將電話號碼轉接給我們。  <br/> | 下載其中一個表單。 <br/>[比利時 (LOA) 授權書 (所有號碼)  (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [比利時 (LOA) 授權書 (所有號碼)  (v.6.0)  (fr-be) ](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(fr-be).pdf)<br/> [比利時 (LOA) 授權書 (所有號碼)  (v.6.0)  (nl-be) ](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(nl-be).pdf) <br/>   <br/>   填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/> |
+|取得 Microsoft Teams 系統管理中心未列出的新使用者和服務電話號碼。   <br/> |在比利時，使用 Microsoft Teams 系統管理中心無法取得貴組織的電話號碼，您必須提交新的電話號碼要求。 <br/><br/>下載以下其中一個表單： <br/>  [針對比利時的新電話號碼要求 (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (fr-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (nl-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [適用于比利時的新電話號碼要求 (v.5.0)  () ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/>|
+|將電話號碼轉接給我們。  <br/> | 下載其中一個表單。 <br/>[比利時 (LOA) 授權書 (所有號碼)  (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [比利時的 (授權書) LOA ()  (v.6.1)  (所有號碼) ](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.1)-(fr-be).pdf)<br/> [比利時 (LOA) 授權書 (所有號碼)  (v.6.0)  (nl-be) ](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(nl-be).pdf) <br/>   <br/>   填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/> |
 |發佈/取消發佈電話號碼 () 的國家/) 目錄中發佈/ 取消發佈電話號碼。  <br/> |[傳送](mailto:ptneu@microsoft.com) 您想要發佈/取消發佈的電話號碼清單給我們。      <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[將您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者編號清單傳送給我們。 <br/> |
-|將目錄服務更新為通話佇列或自動 Attendant 號碼|若要新增或變更通話佇列或自動電話機號碼，請連 [上 PSTN 服務台](contact-pstn-service-desk.md)。 |
+|將目錄服務更新為通話佇列或自動電話機碼|若要新增或變更通話佇列或自動電話機號碼，請連 [上 PSTN 服務台](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
 

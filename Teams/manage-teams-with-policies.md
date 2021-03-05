@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: 瞭解 Teams 政策。
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421298"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460493"
 ---
 # <a name="manage-teams-with-policies"></a>使用策略管理 Teams
 
@@ -72,5 +72,6 @@ ms.locfileid: "50421298"
 
 * [在 Microsoft Teams 中管理意見回饋政策](manage-feedback-policies-in-teams.md)
 * [在 Microsoft Teams 中管理團隊政策](teams-policies.md)
+* [在活動記錄中查看政策指派](activity-log.md)
 * [在 Microsoft Teams 中設定即時活動](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams 教育政策與政策套件](policy-packages-edu.md)

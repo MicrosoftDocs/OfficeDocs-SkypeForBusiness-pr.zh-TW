@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用下表尋找在瑞典取得及管理 Microsoft Teams 電話號碼的資訊。
-ms.openlocfilehash: bd3c262b402ab851f9cb58fa2f1bb8b36baf5fa6
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 28c9a44e884cc0ca883335f1efcc24c0a17d9de0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196657"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460833"
 ---
 # <a name="phone-number-management-for-sweden"></a>瑞典的電話號碼管理
 
@@ -35,10 +35,10 @@ ms.locfileid: "50196657"
 |**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
 |取得 Microsoft Teams 系統管理中心未列出的新使用者或服務電話號碼。   <br/> |下載其中一個表單。 <br/>  [瑞典的新電話號碼要求 (v.5.0)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [適用于瑞典的新電話號碼要求 (v.5.0)  () ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。|
-將電話號碼轉接給我們。  <br/> |下載此表單。 <br/>[瑞典的 (LOA) 授權書 (所有號碼)  (v.5.0)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf?raw=true)<br/><br/> 填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/> |
+將電話號碼轉接給我們。  <br/> |下載此表單。 <br/>[瑞典的 (LOA) 授權書 (所有號碼)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/> |
 |發佈/取消發佈電話號碼 () 的國家/) 目錄中發佈/ 取消發佈電話號碼。  <br/> |[傳送](mailto:ptneu@microsoft.com) 您想要發佈/取消發佈的電話號碼清單給我們。      <br/> |
-|將使用者的號碼變更為服務編號。  <br/> |[將您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者編號清單傳送給我們。 <br/> |
-|將目錄服務更新為通話佇列或自動 Attendant 號碼|若要新增或變更通話佇列或自動電話機號碼，請連 [上 PSTN 服務台](contact-pstn-service-desk.md)。 |
+|將使用者的號碼變更為服務號碼。  <br/> |[將您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者編號清單傳送給我們。 <br/> |
+|將目錄服務更新為通話佇列或自動電話機碼|若要新增或變更通話佇列或自動電話機號碼，請連 [上 PSTN 服務台](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
 

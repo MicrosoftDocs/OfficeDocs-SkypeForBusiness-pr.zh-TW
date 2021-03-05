@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: 瞭解 Teams 語音和通話政策。
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d0ea4db57fbfdc3ab76e8c6c9991e032103b260
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347998"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460583"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理語音和通話政策
 
@@ -72,7 +72,7 @@ ms.locfileid: "50347998"
 
 * [在 Microsoft Teams 中管理緊急通話政策](manage-emergency-calling-policies.md)
 * [管理緊急電話路由原則](manage-emergency-call-routing-policies.md)
-* [在 Microsoft Teams 中管理本機號碼政策](caller-id-policies.md)
+* [管理 Microsoft Teams 中的來電顯示原則](caller-id-policies.md)。
 * [管理語音路由策略](manage-voice-routing-policies.md)
 * [Microsoft Teams 中的通話政策](teams-calling-policy.md)
 * [Microsoft Teams 中的通話停駐和取回](call-park-and-retrieve.md)

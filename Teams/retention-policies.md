@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401307"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460653"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留政策
 
@@ -41,9 +41,11 @@ Teams 支援聊天和頻道訊息的保留政策，因此，您可以主動決�
 
 Teams 保留原則的最低授權需求為 Microsoft 365 E3。 若要深入瞭解授權，請參閱 Microsoft [Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
-## <a name="how-teams-retention-policies-work"></a>Teams 保留政策如何執行
+## <a name="how-teams-retentiondeletion-policies-work"></a>Teams 保留/刪除政策如何執行
 
-Teams 聊天訊息會儲存在聊天中包含的每個使用者信箱中的隱藏資料夾中，而 Teams 頻道訊息會儲存在團隊群組信箱中的類似隱藏資料夾中。 若要保留受保留政策限制的郵件，內容複本會自動保留在名為 **Holds** 的隱藏資料夾中，做為 **Exchange** 可復原的專案資料夾中的子資料夾。 在這些郵件從Holds 資料夾永久刪除之前，eDiscovery 工具仍然可以搜尋這些郵件。
+Teams 聊天訊息會儲存在兩個位置。 主要副本會儲存在 Azure 中，這是用於編譯策略的次要副本，會儲存在聊天中包含的每個使用者 Exchange 線上信箱的隱藏資料夾中，而 Teams 頻道訊息則儲存在小組群組信箱中的類似隱藏資料夾中。 當聊天訊息刪除原則已適用于使用者或小組時，次要副本會先刪除，再刪除主要副本。 eDiscovery 或 Teams 搜尋是根據儲存在次要副本中的郵件所產生，因此當次要副本刪除時，郵件便無法搜尋。 
+
+當聊天訊息保留問題已應用至使用者或小組，且郵件因其他刪除原則或使用者本身 (而刪除時) ，主要複本就會刪除，因此 Teams 用戶端會看到訊息消失，但次要複本會自動移至名為 **Holds** 的隱藏資料夾，此資料夾是 **Exchange** 可復原的專案資料夾中的子資料夾。 在這些郵件從Holds 資料夾永久刪除之前，eDiscovery 工具仍然可以搜尋這些郵件。
 
 如需 Teams 保留政策包含與排除之內容的詳細資訊，以及這些策略如何根據您的策略組組而執行，請參閱深入瞭解 Microsoft Teams 的[保留。](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 

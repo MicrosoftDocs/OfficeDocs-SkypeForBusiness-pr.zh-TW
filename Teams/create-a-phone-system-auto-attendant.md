@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何設定和測試 Microsoft Teams 的自動 Attendant。
-ms.openlocfilehash: deb9bf013136bb8efd9171e5562de5e2ba1b631f
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347864"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460883"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動 attendant
 
@@ -92,7 +92,7 @@ ms.locfileid: "50347864"
 
 ![撥號鍵選項的螢幕擷取畫面](media/auto-attendant-call-flow-menu-options-complete.png)
 
-針對撥號選項，您可以將電話鍵臺上的 0-9 鍵指派給其中一個呼叫路由目的地。  (系統 (重複)  (Back) 的按鍵，且無法重新指派 \* \# 。) 
+針對撥號選項，您可以將電話鍵臺上的 0-9 鍵指派給其中一個通話路由目的地。  (系統 (重複)  (Back) 的按鍵，且無法重新指派 \* \# 。) 
 
 金鑰映射不必是連續的。 例如，可以建立一個功能表，其中按鍵 0、1 和 3 對應到選項，而兩個按鍵則沒有使用。
 
@@ -112,9 +112,9 @@ ms.locfileid: "50347864"
 
 如果您未指派撥號鍵，請選擇目錄 **搜尋選項**。
 
-**按名稱** 撥號 - 如果您啟用此選項，來電者可以說出使用者的名稱，或在電話鍵台輸入。 任何線上使用者或任何使用商務用 Skype Server 在內部部署託管的使用者，都是合格的使用者，而且可以使用撥號名稱找到。  (您可以設定撥號範圍頁面上的目錄中包含和不包含哪些人。) [](#dial-scope)
+**按名稱** 撥號 - 如果您啟用此選項，來電者可以說出使用者的名稱，或在電話鍵台輸入。 任何線上使用者或任何使用商務用 Skype Server 在內部部署託管的使用者，都是合格的使用者，而且可以使用撥號名稱找到。  (您可以設定撥號範圍頁面的目錄中包含和不包含哪些人。) [](#dial-scope)
 
-**分機號碼** - 如果您啟用此選項，來電者可以撥打其電話分機，與貴組織的使用者聯繫。 任何線上使用者或任何使用商務用 Skype Server 託管于內部部署的使用者，都是符合資格的使用者，而且可撥打分機 **號碼。**  (您可以設定撥號範圍頁面上的目錄中包含和不包含哪些人。) [](#dial-scope)
+**分機號碼** - 如果您啟用此選項，來電者可以撥打其電話分機，與貴組織的使用者聯繫。 任何線上使用者或任何使用商務用 Skype Server 託管于內部部署的使用者，都是符合資格的使用者，而且可撥打分機 **號碼。**  (您可以設定撥號範圍頁面的目錄中包含和不包含哪些人。) [](#dial-scope)
 
 想要提供撥號分機服務的使用者，必須擁有在 Active Directory 或 Azure Active Directory 中定義的下列其中一個電話屬性的擴充功能 (請參閱個別或大量[](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)新增使用者以瞭解更多資訊。) 
 
@@ -127,8 +127,8 @@ ms.locfileid: "50347864"
 在使用者電話號碼欄位中輸入分機所需的格式為：
 
 - *+\<phone number>;ext=\<extension>*
-- *+\<phone number>X\<extension>*
-- *X\<extension>*
+- *+\<phone number>Ⅹ\<extension>*
+- *Ⅹ\<extension>*
 
 - 範例 1：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678;ext=5678"
 - 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
@@ -212,14 +212,14 @@ ms.locfileid: "50347864"
 
 請參閱先決條件 [，](plan-auto-attendant-call-queue.md#prerequisites) 以允許自動電話機將電話轉接至外部。  另外：
 
-- 對於具有通話方案號碼的資源[](calling-plans-for-office-365.md)帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國碼][區碼][電話號碼]) 。
+- 對於具有通話方案授權的資源[](calling-plans-for-office-365.md)帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國碼][區碼][電話號碼]) 。
 
-- 對於具有直接路由號碼的資源帳戶，外部移轉電話號碼格式取決於會話邊界控制器 ([SBC) ](direct-routing-connect-the-sbc.md) 設定。
+- 對於具有電話系統授權和直接路由線上語音路由策略的資源帳戶，外部轉接電話號碼格式是在會話邊界控制器 ([SBC ](direct-routing-connect-the-sbc.md)) 設定。
 
 顯示外發電話號碼的判定方式如下：
 
   - 針對通話方案號碼，會顯示原始來電者的電話號碼。
-  - 針對直接路由號碼，傳送的號碼是根據 SBC 上的 P-就地識別 (PAI) 設定，如下所示：
+  - 針對直接路由號碼，傳送的號碼是以 SBC 上的 P-就地識別 (PAI) 設定為基礎，如下所示：
     - 如果設為停用，會顯示原始來電者的電話號碼。 這是預設及建議設定。
     - 如果設為啟用，會顯示資源帳戶電話號碼。
 

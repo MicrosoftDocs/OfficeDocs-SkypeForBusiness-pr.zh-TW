@@ -20,23 +20,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430c64fed77412ca555048adf3cf5e323fa20856
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397588"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460603"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft Teams 和商務用 Skype 共存與互通性
 
 ![升級歷程圖，強調專案定義階段](media/upgrade-banner-project-definition.png "升級階段，強調專案定義階段")
 
-本文是升級過程中專案定義階段的一部分。 建立贊助贊助小組和專案小組，並定義專案的範圍、目標及計畫之後，就完成。 繼續進行之前，請確認您已完成下列活動：
+本文是升級過程中專案定義階段的一部分。 在您建立贊助贊助小組和專案小組，並定義專案的範圍、目標及計畫之後，就完成。 繼續進行之前，請確認您已完成下列活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 
-如果貴組織今天使用商務用 Skype，而您正開始將 Teams 與商務用 Skype 同時使用，或者您正開始升級至 Teams，瞭解這兩個應用程式如何並存、何時及如何交互操作，以及如何管理使用者的移移，一路從商務用 Skype 升級至 Teams，這一點非常重要。
+如果貴組織現在使用商務用 Skype，而您正開始將 Teams 與商務用 Skype 同時使用，或者您正開始升級至 Teams，瞭解這兩個應用程式如何並存、何時及如何交互操作，以及如何管理使用者的移移，一路從商務用 Skype 升級至 Teams，非常重要。
 
 > [!Tip]
 > 觀看下列會話以瞭解 [共存和互通性](https://aka.ms/teams-upgrade-coexistence-interop)。
@@ -49,7 +49,7 @@ ms.locfileid: "50397588"
 
 下列各節說明當您決定升級 Teams 時可用的共存模式，以及每個模式提供的功能。 此外，我們描述在商務用 Skype 用戶端與 Teams 用戶端使用者之間 (交互操作) 的互通性，以及所選共存模式對交互操作的影響。
 
- Teams 提供共同合作功能、聊天、通話和會議功能。 視您選擇部署 Teams 的方式不同，這些功能可能會與商務用 Skype 為使用者提供的功能重迭。 預設模式是同時使用功能重迭的商務用 Skype 來執行 Teams。 不過，使用者可以被指派幾個共存模式之一 (也稱為升級模式) ，其設計目的是確保這些功能不會與該使用者重迭 (在這種情況下，可以使用 Teams 和商務用 Skype 之間的互通性) 。 例如，如果您的商務用 Skype Server 內部部署具有複雜的企業語音部署，但希望使用者儘快享受新式會議，您可能會想要評估會議為替代路徑。 [](meetings-first.md)
+ Teams 提供共同合作功能、聊天、通話和會議功能。 視您選擇部署 Teams 的方式不同，這些功能可能會與商務用 Skype 為使用者提供的功能重迭。 預設模式是使用功能重迭的商務用 Skype 來同時執行 Teams。 不過，使用者可以被指派幾個共存模式之一 (也稱為升級模式) ，其設計目的是確保這些功能不會與該使用者重迭 (在這種情況下，可以使用 Teams 和商務用 Skype 之間的互通性) 。 例如，如果您的商務用 Skype Server 內部部署資產具有複雜的企業語音部署，但希望使用者儘快享受新式會議，您可能會想要評估會議為替代路徑。 [](meetings-first.md)
 
 建議您查看下列共存模式，協助判斷適合貴組織的路徑。
 
@@ -60,7 +60,7 @@ ms.locfileid: "50397588"
 
 根據預設，使用者可以將 Teams 與商務用 Skype 同時執行，做為提供類似和重迭功能的兩種獨立解決方案。 這些功能包括目前狀態、聊天、通話和會議。 Teams 使用者也可以利用新的共同合作功能，例如團隊和頻道、存取 Microsoft 365 或 Office 365 中的檔案，以及應用程式。
 
-在這個稱為群島的共存模式中，每個用戶端應用程式會以個別的島嶼方式運作。 商務用 Skype 與商務用 Skype 交談，Teams 與 Teams 交談。 使用者預期會一併執行這兩個用戶端，而且可以在開始進行通訊的用戶端內進行原生通訊。 因此，在群島模式中 **不需要互通性。**
+在這個稱為 **群島** 的共存模式中，每個用戶端應用程式會以個別的島嶼方式運作。 商務用 Skype 與商務用 Skype 交談，Teams 與 Teams 交談。 使用者預期會一併執行這兩個用戶端，而且可以在開始通訊的用戶端內進行原生通訊。 因此，在群島模式中 **不需要互通性。**
 
 為了避免造成混淆或倒退的商務用 Skype 體驗，商務用 Skype 會處理下列在 Teams **Islands** 模式中未處理的整合：
 
@@ -72,16 +72,16 @@ ms.locfileid: "50397588"
 在群島模式中，Teams 不支援 **電話** 系統。 **群島** 模式不支援企業語音用戶端是商務用 Skype。
 
 > [!Important]
-> 在 **群島** 模式中，所有來自貴組織外部 (使用者的訊息和通話) 傳送到商務用 Skype。 升級到 Teams **模式** 後，組織外部的所有訊息和通話會傳送至 Teams。
+> 在 **群島** 模式中，所有來自貴組織外部 (使用者的訊息和通話) 傳送到商務用 Skype。 升級到 Teams **模式** 之後，組織外部的所有訊息和通話會傳送至 Teams。
 
 > [!Tip]
 > 商務用 Skype Online 客戶建議的路徑是，從預設 **群島** 模式開始、推動 Teams 在組織中採用飽和度，然後快速移至 **Teams 僅** 模式。 內部部署和混合式客戶 ，尤其是複雜的客戶，可能從部署商務用 Skype 與 **Teams** 共同合作模式做為起點，而不是以群島模式為起點，從該模式進入商務用 Skype 與 **Teams** 共同合作與會議模式 (即會議第一) ，以及當組織準備好採用 Teams 時，則採用 **Teams** 模式。
 
 ### <a name="teams-only"></a>僅 Teams
 
-Teams **使用者** (*升級的使用者* ，) Teams 中所有功能的存取權限。 他們可以保留商務用 Skype 用戶端，以加入由未升級的使用者或外部方所組織的商務用 Skype 會議。 升級的使用者可以使用 Teams 和商務用 Skype (之間的互通性功能，繼續與組織中仍在使用商務用 Skype 的其他使用者通訊 (但商務用 Skype 使用者不處於 **群島** 模式) 。 不過，升級的使用者無法啟動商務用 Skype 聊天、通話或會議。
+Teams **使用者** (升級 *的使用者，)* Teams 中所有功能的存取權限。 他們可以保留商務用 Skype 用戶端，以加入由未升級的使用者或外部方所組織的商務用 Skype 會議。 升級的使用者可以使用 Teams 和商務用 Skype (之間的互通性功能，繼續與組織中仍在使用商務用 Skype 的其他使用者通訊 (但商務用 Skype 使用者不處於 **群島** 模式) 。 不過，升級的使用者無法啟動商務用 Skype 聊天、通話或會議。
 
-當貴組織準備好讓部分或所有使用者使用 Teams 作為他們唯一的通訊和共同處理工具時，請將這些使用者升級至 **Teams 僅模式** 。 如果您是從群島模式升級，建議您在開始升級程式之前，先將 Teams 的採用時間飽和至整個組織。 這項採用可避免因群島模式未提供互通性而中斷通訊案例。
+一旦貴組織準備好讓部分或所有使用者使用 Teams 作為他們唯一的通訊和共同處理工具，請將這些使用者升級至 **Teams 模式** 。 如果您是從群島模式升級，建議您在開始升級程式之前，先將 Teams 的採用時間飽和到整個組織。 這項採用可避免因群島模式未提供互通性而中斷通訊案例。
 
 在 Teams **模式** 時，Teams 是 SIP/Tel 通訊協定的預設應用程式。 Teams 會處理 Outlook 中使用者連絡人卡片中用於通話或聊天的連結。
 
@@ -105,7 +105,7 @@ Teams **使用者** (*升級的使用者* ，) Teams 中所有功能的存取權
 
 在此模式中，Teams 私人聊天、通話和排程會議預設為關閉。
 
-從內部部署或混合式商務用 Skype Server 開始著手的組織，若想讓使用者在通訊方面具備互通性和可預測性，以及擁有可預測的升級到 Teams (的時程表，而非仰賴在群島模式) 中的採用飽和度，則應考慮此模式作為群島模式的替代模式。 
+從內部部署或混合式商務用 Skype Server 開始著手的組織，若想讓使用者在通訊方面具備互通性和可預測性，以及擁有可預測的升級到 Teams (的時程表，而不是仰賴在群島模式) 中的採用飽和度，則應考慮此模式作為群島模式的替代模式。 
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>商務用 Skype 與 Teams 共同合作與會議，也稱為會議第一
 
@@ -153,7 +153,7 @@ Teams **使用者** (*升級的使用者* ，) Teams 中所有功能的存取權
 
 根據先前所述指派給使用者的共存模式 (，) 提供下列原生交互操作體驗：
 
-商務用 Skype 使用者可以與 Teams 使用者進行一對一交談，反之亦然。 交互操作聊天需要透過 Teams 雲端服務所建立之一部分的交互操作閘道 (因此僅存在線上) 。 交互操作聊天是純文字：不支援豐富的文字和圖釋。 Teams 和商務用 Skype 中的使用者會收到交談是交互操作交談的通知。
+商務用 Skype 使用者可以與 Teams 使用者進行一對一交談，反之亦然。 交互操作聊天需要透過 Teams 雲端服務網內一部分的交互操作閘道 (因此僅存在於線上) 。 交互操作聊天是純文字：不支援豐富的文字和圖釋。 Teams 和商務用 Skype 中的使用者會收到交談是交互操作交談的通知。
 
 <!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
@@ -164,7 +164,7 @@ Teams **使用者** (*升級的使用者* ，) Teams 中所有功能的存取權
 > [!Important]
 > 內部部署商務用 Skype 的交互操作體驗需要內部部署環境與 Microsoft 365 或 Office 365 商務用 Skype 採用混合模式。 有關詳細資料，請參閱 [移移和互通性指南](https://aka.ms/SkypeToTeams-Interop)。
 
-這些交互操作體驗可供指派下列其中一種共存模式的使用者之間使用：商務用 **Skype with Teams 共同** 合作、商務用 Skype with Teams 共同合作和 **會議**、商務用 **Skype** 或 **Teams。** 在群島模式中，使用者 **之間沒有互通性** 。
+這些交互操作體驗可供指派下列其中一種共存模式的使用者之間使用：商務用 **Skype with Teams 共同** 合作、商務用 Skype with Teams 共同合作和 **會議**、商務用 **Skype** 或 **Teams。** 在群島模式中，使用者 **沒有互通性** 。
 
 #### <a name="native-interop-experience-limitations"></a>原生交互操作體驗限制
 
@@ -172,7 +172,7 @@ Teams **使用者** (*升級的使用者* ，) Teams 中所有功能的存取權
 
 - Teams 或商務用 Skype 不支援 Markdown、豐富文字和完整的圖釋集。 不支援 Teams 聊天中撰寫方塊的其他原生功能。
 - 在 Teams (商務用 Skype 之間) 桌面或應用程式的螢幕畫面分享功能不受原生支援。 不過，透過相互升級支援。
-- 群組聊天 (Teams 中的) 交談只能包含使用 Teams 的參與者。
+- Teams 中的 (進行群組聊天) 群組交談只能包含使用 Teams 的參與者。
 - 商務用 Skype (群組聊天) 方 IM 交談只能包含使用商務用 Skype 的參與者。 不過，商務用 Skype 提供多方服務升級功能。
 - 不支援將進行中的對等語音或視音訊通話升級為涉及 Teams 和商務用 Skype 使用者的多方通話。
 - 不支援雙方聊天的檔案傳輸，或群組聊天中的檔案附件，從 Teams 傳輸至商務用 Skype，反之亦然。
@@ -190,19 +190,19 @@ Teams **使用者** (*升級的使用者* ，) Teams 中所有功能的存取權
 
 另一方會透過交互操作聊天收到會議加入連結，然後按一下該連結即可加入。 如果商務用 Skype 使用者有 Teams 帳戶，且由 Teams 使用者邀請，他們將加入已驗證的會議。 否則，他們將以匿名參與者的加入。 相反地，Teams 使用者幾乎一定都有商務用 Skype 帳戶和商務用 Skype 用戶端，他們可以使用經驗證的參與者加入商務用 Skype 會議，但他們也可能以匿名參與者的名加入，例如使用 Skype 會議應用程式。
 
-當各方加入會議後，他們可以進行會議支援的任何活動，例如桌面或內容共用、檔案共用或傳輸、新增其他參與者等等。
+當各方加入會議後，就可以進行會議支援的任何活動，例如桌面或內容共用、檔案共用或傳輸、新增其他參與者等等。
 
 #### <a name="interop-escalation-from-skype-for-business"></a>商務用 Skype 的相互升級
 
 在 2019 年 7 月每月 C2R 的建立中更新了商務用 Skype 的交互操作和交互操作升級。 之前，商務用 Skype 並未事先知道遠端派對正在使用 Teams。 它只能從會話建立後收到的訊號中猜測。
 
-當訊號指出回應來自 (或透過) 交互操作閘道時，它會顯示黃色商業橫條 (橫幅) 表示另一方並未使用商務用 Skype。 隨著我們的服務變革，這導致誤認為商務用 Skype 使用者在連接至雲端語音信箱服務或其他雲端語音服務時，會看到商務用 Skype 的商務欄，而不是實際只有 **Teams 的使用者** 。
+當訊號指出回應來自 (或透過) 交互操作閘道時，它會顯示黃色商業橫條 (橫幅) 表示另一方並未使用商務用 Skype。 隨著我們的服務變革，這導致誤誤，商務用 Skype 使用者在連接至雲端語音信箱服務或其他雲端語音服務時，會看到商務用 Skype，而不是實際 **只有 Teams 的使用者** 。
 
 為了避免這些誤誤，當另一方是 Teams 實際使用者時，目前狀態服務現在會通知商務用Skype 用戶端。 這可讓商務用 Skype 在建立前先建立交互操作交談，而且交談視窗必須特別針對交互操作進行。
 
 ![Teams 訊息與商務用 Skype 使用者建立交互操作交談的螢幕擷取畫面](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
-例如，如果商務用 Skype 使用者想要共用桌面，會通知他們我們將開始會議，並引導您完成這些步驟。
+例如，如果商務用 Skype 使用者想要共用桌面，會通知他們我們將開始會議，並引導您完成步驟。
 
 ![Teams 訊息開始與 Teams 使用者開會的螢幕擷取畫面](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
@@ -212,13 +212,13 @@ Teams **使用者** (*升級的使用者* ，) Teams 中所有功能的存取權
 
 #### <a name="interop-escalation-from-teams"></a>Teams 的相互升級
 
-Teams 使用者現在可在租使用者間交互操作對話中選取桌面共用按鈕時，從 Teams 升級至 Teams 會議，或是跨租使用者交互操作聯盟執行緒。 1 對 1 聊天交談或 1 對 1 通話支援交互操作升級。
+Teams 使用者現在可在租使用者間對話中選取桌面共用按鈕，與商務用 Skype 使用者或在跨租使用者間合作對話中選取桌面共用按鈕，即可從 Teams 升級至 Teams 會議。 1 對 1 聊天交談或 1 對 1 通話支援交互操作升級。
 
 此功能支援 Windows 版 Teams 桌面用戶端、Mac 版 Teams 桌面用戶端，以及支援內容共用的瀏覽器上的 Teams Web 用戶端，同時可與商務用 Skype 用戶端版本進行通訊。
 
-在互通性執行緒和聯合互通性執行緒中，Teams 使用者現在擁有 (按鈕) 開始內容共用。 當 Teams 使用者選取按鈕時，他們看到一個額外的功能表，通知他們若要共用內容，他們需要啟動 Teams 會議。
+在互通性執行緒和聯合互通性執行緒中，Teams 使用者現在擁有 (按鈕) 開始內容共用。 當 Teams 使用者選取按鈕時，系統就會顯示一個額外的功能表，通知他們若要共用內容，他們需要啟動 Teams 會議。
 
-如果使用者在通話中，功能表也會警告使用者，當他們進入 Teams 會議時，他們目前在 Teams 和商務用 Skype 之間的通話將會終止。 如果他們選擇的話，可以在接受之前警告商務用 Skype 使用者。
+如果使用者在通話中，功能表也會警告他們，當他們進入 Teams 會議時，他們目前在 Teams 和商務用 Skype 之間的通話將會終止。 如果他們選擇的話，可以在接受之前警告商務用 Skype 使用者。
 
 ![與商務用 Skype 使用者共用會議之 Teams 訊息的螢幕擷取畫面](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
@@ -228,7 +228,7 @@ Teams 使用者現在可在租使用者間交互操作對話中選取桌面共�
 
 此 Teams 會議升級為租使用者間交互操作和跨租使用者聯盟通話和聊天。 此設定預設為啟用，且系統管理員無需進行任何設定。 不過，如果系統管理員設定為 .，則使用者已關閉 ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` ``$false`` 此設定。
 
-在您閱讀本文之後，請參閱選擇[](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)您的升級旅程、移移和互通性[指引](https://aka.ms/SkypeToTeams-Interop)、與商務用[Skype](coexistence-chat-calls-presence.md)共存，以及設定您的共存和[升級](https://aka.ms/SkypeToTeams-SetCoexistence)設定來瞭解詳細資料。 我們也建議使用下列影片：[影片：管理 SfB](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)和 Teams 之間的共存和互通性
+在您閱讀本文之後，請參閱選擇[](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)您的升級旅程、移移和互通性[指引](https://aka.ms/SkypeToTeams-Interop)、與商務用[Skype](coexistence-chat-calls-presence.md)共存，以及設定您的共存與[升級](https://aka.ms/SkypeToTeams-SetCoexistence)設定以詳細資料。 我們也建議使用下列影片：[影片：管理 SfB](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)和 Teams 之間的共存和互通性
 
 ## <a name="technical-details-of-teams-and-skype-for-business-coexistence"></a>Teams 和商務用 Skype 共存的技術詳細資料
 
@@ -236,18 +236,16 @@ Teams 使用者現在可在租使用者間交互操作對話中選取桌面共�
 
 - [會議](#meetings)
 - [互 操作 性](#interoperability)
-- [Teams 交談對話-Interop 與原生對話](#teams-conversations---interop-versus-native-threads)
+- [交互操作與原生交談對話](#interop-versus-native-conversation-threads)
 - [目前狀態](#presence)
 - [同盟](#federation)
 - [連絡人](#contacts)
-
-
 
 ### <a name="meetings"></a>會議
 
 無論使用者以何種模式，都能隨時加入他們受邀參與的任何類型會議，無論是商務用 Skype 或 Teams。  不過，使用者必須使用符合會議類型的對應用戶端加入會議：
 
-- 如果會議是 Teams 會議，所有參與者 (TeamsOnly、Islands 或商務用 Skype 使用者，) 使用 Teams 用戶端加入會議。 如果未安裝 Teams，使用者嘗試加入會議時，會導向至網路。
+- 如果會議是 Teams 會議，則所有參與者 (TeamsOnly、Islands 或商務用 Skype 使用者，) 使用 Teams 用戶端加入會議。 如果未安裝 Teams，使用者嘗試加入會議時，會導向至網路。
 
 - 如果會議是商務用 Skype 會議，則所有參與者 (無論是 TeamsOnly、Islands 或商務用 Skype 使用者) 請使用商務用 Skype 用戶端加入會議。 如果尚未安裝商務用 Skype 用戶端，使用者會透過 Skype 會議應用程式被導向至網路以加入。
 
@@ -256,29 +254,29 @@ Teams 使用者現在可在租使用者間交互操作對話中選取桌面共�
 | 召集人模式    |      行為 |
 | :------------------ | :---------------- |
 | TeamsOnly、SfbWithTeamsCollabAndMeetings |    在 Teams 中排程的所有會議。 Outlook 中未供應商務用 Skype 附加元件。 | 
-| SfbWithTeamsCollab， SfbOnly   | 在商務用 Skype 中排程的所有會議。 Teams 外掛程式在 Outlook 中無法使用。 | 
-| 離島 | 根據預設，會議可以在商務用 Skype 或 Teams 中排程。 這兩個附加元件在 Outlook 中都可用。 不過，您可以選擇性地要求群島中的使用者一直在 Teams 中排程會議，方法為他們指派一個使用 PreferredMeetingProviderForislandsMode=Teams 的 TeamsMeetingPolicy 實例。| 
+| SfbWithTeamsCollab， SfbOnly   | 在商務用 Skype 中排程的所有會議。 Teams Add in not available in Outlook. | 
+| 離島 | 根據預設，會議可以在商務用 Skype 或 Teams 中排程。 這兩個附加元件都可在 Outlook 中使用。 不過，您可以選擇性地要求群島中的使用者一直在 Teams 中排程會議，方法為他們指派一個使用 PreferredMeetingProviderForislandsMode=Teams 的 TeamsMeetingPolicy 實例。| 
 
 
 ### <a name="interoperability"></a>互 操作 性
 
-如上述 Teams 和商務用 [Skype](#interoperability-of-teams-and-skype-for-business)的互通性所述，Teams 支援在某些情況下與商務用 Skype 進行互動。 交互操作通訊是指商務用 Skype 使用者與 Teams 使用者之間的聊天或通話。  只有兩個使用者之間才能進行交互操作通訊;不支援多方聊天/通話或新增其他使用者。
+如上述 Teams 和商務用 [Skype](#interoperability-of-teams-and-skype-for-business)的互通性所述，Teams 在某些情況下支援與商務用 Skype 的交交互操作。 交互操作通訊是指商務用 Skype 使用者與 Teams 使用者之間的聊天或通話。  只有兩個使用者之間才能進行交互操作通訊;不支援多方聊天/通話或新增其他使用者。
 
 當下列各為 True 時，會建立兩個使用者之間的交互操作聊天或通話：
 
 - 一個使用者正在使用 Teams，另一個使用者則使用商務用 Skype。
 
-- 初始通訊的收件者模式為 NOT Islands (否則如果兩個使用者都在同一個組織中，該通訊會位於同一個用戶端) 。 在聯盟情況下，傳送使用者使用的是 Teams，而收件者不是在 TeamsOnly 模式。 
+- 初始通訊的收件者模式為 NOT Islands (否則如果兩個使用者都在同一個組織中，該通訊會位於同一個用戶端) 。 在聯盟情況下，傳送的使用者是使用 Teams，而收件者不是在 TeamsOnly 模式。 
 
 - Teams 使用者沒有內部部署商務用 Skype 帳戶。
 
-在交互操作通訊中，聊天為純文字。 此外，在交互操作聊天本身中無法共用檔案 *和螢幕畫面*。 不過，在交互操作交談中的使用者，只要在交互操作聊天中建立會議，就可以輕鬆達成檔案和/或螢幕畫面共用，如下所述：
+在交互操作通訊中，聊天為純文字。 此外，在交互操作聊天本身中無法共用檔案 *和螢幕畫面*。 不過，在交互操作交談中的使用者可以從內部交談中建立即時會議，輕鬆達成檔案和/或螢幕共用，如下所述：
 
-- 如果 Teams 使用者嘗試共用其螢幕畫面，系統會自動建立一個 Teams 邀請會議，然後該會議的邀請連結會送到商務用 Skype 使用者的用戶端。 按一下連結後，商務用 Skype 使用者就會開啟 Teams 並加入會議。 這兩個使用者現在都參與 Teams 會議，而且可以根據需要共用。
+- 如果 Teams 使用者嘗試共用其螢幕畫面，系統會自動建立一個 Teams 邀請會議，而該會議的邀請連結會送到商務用 Skype 使用者的用戶端。 按一下連結後，商務用 Skype 使用者就會開啟 Teams 並加入會議。 這兩個使用者現在都參與 Teams 會議，而且可以根據需要共用。
 
-- 如果商務用 Skype 使用者使用的是 2018 或更新的用戶端，並嘗試共用任何內容，系統會自動建立商務用 Skype 會議，並且會向 Teams 使用者的用戶端發送該會議的邀請連結。 按一下連結後，Teams 使用者將嘗試加入商務用 Skype 會議。 如果 Teams 使用者已安裝商務用 Skype 用戶端，系統會開啟該用戶端，並提示使用者 (尚未) 。  如果 Teams 使用者未安裝商務用 Skype 用戶端，系統會提示使用者使用網頁版。 兩個使用者一旦都一旦簽署後，即會參與商務用 Skype 會議，並可以根據需要共用。
+- 如果商務用 Skype 使用者從 2018 或更新期間使用用戶端，並嘗試共用任何內容，系統會自動建立隨用商務用 Skype 會議，且該會議的邀請連結會送到 Teams 使用者的用戶端。 按一下連結後，Teams 使用者將嘗試加入商務用 Skype 會議。 如果 Teams 使用者已安裝商務用 Skype 用戶端，系統會開啟該用戶端，並提示使用者 (尚未) 。  如果 Teams 使用者未安裝商務用 Skype 用戶端，系統會提示使用者使用網頁版。 兩個使用者一旦一一登錄，即會參與商務用 Skype 會議，並可以共用。
 
-### <a name="teams-conversation-threads---interop-versus-native-threads"></a>Teams 交談對話 - 交互操作與原生對話
+### <a name="interop-versus-native-conversation-threads"></a>交互操作與原生交談對話
 
 由於交互操作通訊並不支援原生 Teams 交談的所有功能，因此 Teams 用戶端會針對 Teams-to-Teams 和 Teams-to-Skype 商務用通訊維護個別的交談對話。 這些交談在使用者介面中的呈現方式不同：Interop 執行緒可以與一般原生 Teams 執行緒區別：：
 
@@ -307,7 +305,7 @@ Teams 使用者現在可在租使用者間交互操作對話中選取桌面共�
 
 - 如果使用者使用 TeamsOnly 模式，無論該使用者使用哪個用戶端，所有其他使用者都會看到該使用者的 Teams 目前狀態。
 
-- 如果使用者在任何商務用 Skype 模式中，所有其他使用者都會看到該使用者的商務用 Skype 目前狀態，無論該使用者使用哪個用戶端。
+- 如果使用者在任何商務用 Skype 模式中，所有其他使用者都會看到該使用者的商務用 Skype 目前狀態，不論他們使用哪個用戶端。
 
 - 如果使用者是在群島模式，在商務用 Skype 和 Teams 中發佈的目前狀態是獨立的，因此向同一組織的使用者顯示目前狀態取決於其他使用者的用戶端。 由於以群島模式使用者為聯盟流量的群島使用者位於商務用 Skype 中，因此，在聯盟組織中使用者會看到該使用者的目前狀態，其狀態取決於他們的商務用 Skype 活動。
 
@@ -319,10 +317,10 @@ Teams 使用者現在可在租使用者間交互操作對話中選取桌面共�
 使用商務用 Skype 將 Teams 與其他使用者進行連線時，Teams 使用者必須連線到商務用 Skype。 TeamsUpgradePolicy 會控制內聯聊天和通話的路由。 除了在群島模式中，聯合路由行為與同一租使用者案例相同。 當收件者位於群島模式時：
 
 - 如果收件者位於聯盟租使用者中，則從 Teams 啟動的聊天和通話會位於商務用 Skype 中。
-- 如果收件者位於相同的租使用者中，則從 Teams 啟動的聊天和通話會位於 Teams 中。
+- 如果收件者位於相同的租使用者，則從 Teams 啟動的聊天和通話會位於 Teams 中。
 - 從商務用 Skype 啟動的聊天和通話一直位於商務用 Skype 中。
 
-聯盟聊天可以是原生對話或交互操作對話。 請參閱 [Teams 交談---對原生對話](#teams-conversations---interop-versus-native-threads)。
+聯盟聊天可以是原生對話或交互操作對話。 請參閱 [Interop 與原生交談對話](#interop-versus-native-conversation-threads)。
 
 - 如果收件者與寄件者都同時在 TeamsOnly 升級模式中，交談就會是包含所有豐富訊息和通話功能的原生聊天體驗。 若要深入瞭解，請閱讀 Teams 中外部 [ (的原生) 聊天體驗](native-chat-for-external-users.md)。 
 
@@ -334,7 +332,7 @@ Teams 使用者現在可在租使用者間交互操作對話中選取桌面共�
 
 Teams 和商務用 Skype 有個別的連絡人清單。 這表示在一個系統中新增、移除和修改的連絡人不會同步處理至另一個系統。 不過，當發生兩種特定事件之一時，商務用 Skype 的連絡人會自動複製到 Teams： 
 
-- 對於任何商務用 Skype Online 使用者，他們第一次登入 Teams 時，會從商務用 Skype 將連絡人複製到 Teams。  在商務用 Skype Server 中擁有內部部署帳戶的使用者無法執行此行為。  
+- 對於任何商務用 Skype Online 使用者，第一次登入 Teams 時，商務用 Skype 的連絡人會複製到 Teams。  在商務用 Skype Server 中擁有內部部署帳戶的使用者無法執行此行為。  
 
 - 使用者升級至 TeamsOnly (後，無論是透過指派 TeamsUpgradePolicy 或透過 Move-CsUser -MoveToTeams) ，下次使用者登入 Teams 時，商務用 Skype 中的現有連絡人將會與 Teams 中現有的連絡人合併。 不論使用者的商務用 Skype 帳戶位於內部部署或線上，都會發生此行為。 
 
