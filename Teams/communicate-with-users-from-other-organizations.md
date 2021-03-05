@@ -1,5 +1,5 @@
 ---
-title: 與其他組織的使用者通話與聊天
+title: 使用來賓存取和外部存取與組織外的人員共同作業
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部存取 (同盟) 和來賓存取在 Microsoft Teams 中通話、聊天、尋找和新增來自組織外部的使用者。
-ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145832"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421318"
 ---
-# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中與來自組織外部的人員通話、聊天和共同作業
+# <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用來賓存取和外部存取與組織外的人員共同作業
 
 當您需要與組織外部的人員通訊和共同作業時，Microsoft Teams 提供您兩個選項：
 

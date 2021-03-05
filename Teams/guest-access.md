@@ -19,16 +19,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: 6bbee4609bad74fb89f98debadd3a37efc9b7759
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: bf1e5083b160bf79c1abe06bffd2a68bf4c0aaab
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908987"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421188"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
 透過來賓存取，您可以向組織外部的人員提供團隊、頻道中的文件、資源、聊天和應用程式的存取權，同時又能保有自身公司資料的完整控制權。
+
+> [!NOTE]
+> 如果您只想尋找、通話、聊天及設定與其他組織人員的會議，請使用[外部存取](manage-external-access.md)。
 
 來賓是不屬於員工、學生或組織成員的人員。 他們沒有貴組織的學校或公司帳戶。 例如，來賓可能包括有合作夥伴、廠商、供應商或顧問。 只要是不屬於貴組織成員的任何人都可以在 Teams 中新增為來賓。 這表示任何擁有商務帳戶（也就是 Azure Active Directory 帳戶）或消費者電子郵件帳戶（使用 Outlook.com、Gmail.com 或其他）的人員都能以來賓身分參與 Teams，擁有對團隊和頻道體驗的存取權。
 
