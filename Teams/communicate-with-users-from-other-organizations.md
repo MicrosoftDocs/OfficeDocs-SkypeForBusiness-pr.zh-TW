@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部存取 (同盟) 和來賓存取在 Microsoft Teams 中通話、聊天、尋找和新增來自組織外部的使用者。
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421318"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461043"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用來賓存取和外部存取與組織外的人員共同作業
 
@@ -43,6 +43,9 @@ ms.locfileid: "50421318"
 ![外部存取設定的螢幕擷取畫面](media/external-access-federation-settings.png)
 
 若要設定外部存取，請參閱[管理外部存取](manage-external-access.md)。 
+
+>[!NOTE]
+>Microsoft Teams 免費授權不支援外部存取。
 
 ## <a name="guest-access"></a>來賓存取
 
@@ -65,8 +68,8 @@ ms.locfileid: "50421318"
 | 查看來自另一個組織的人員是否可以通話或聊天 | 是 | 是<sup>1</sup> |
 | 搜尋其他組織中的人員 | 是<sup>2</sup> | 否 |
 | 共用檔案 | 否 | 是 |
-| 查看其不在辦公室訊息 | 否 | 是 |
-| 封鎖另一個組織中的人員 | 否 | 是 |
+| 查看另一個組織中某人的外出訊息 | 否 | 是 |
+| 封鎖另一個組織的某人  | 否 | 是 |
 | 使用 @ 提及 | 是<sup>3</sup> | 是 |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>組織外部的人員可以執行的動作
