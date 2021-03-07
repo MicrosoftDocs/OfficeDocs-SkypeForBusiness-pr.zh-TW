@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196787"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460443"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -36,14 +36,14 @@ ms.locfileid: "50196787"
 |-----------|---------------|
 |一位使用者可以建立的小組數目 | 受限於 250 的物件限制&sup1;         |
 |一位使用者可以加入成為成員的團隊數目|1,000&sup2;|
-|一個小組中的成員數目 | 10,000<sup>6</sup>     |
+|一個小組中的成員數目 | 25,000<sup>6</sup>     |
 |每個小組擁有者人數 | 100   |
 |一個租用戶中允許的全組織小組數目 | 5     |
 |一個[全組織小組](create-an-org-wide-team.md)中的成員數目 | 10,000       |
 |一位全域系統管理員可以建立的小組數目        |  500,000   |
 |一個 Microsoft 365 或 Office 365 組織可以擁有的小組數目    | 500,000&sup3;     |
-|每個小組的頻道數目    | 200 (包含已刪除的頻道)&sup4;         |
-|每個小組的私人頻道數量    |30| (包含已刪除的頻道)&sup4;
+|每個小組的頻道數目    | 200 (包含已刪除的頻道)<sup>4</sup>        |
+|每個小組的私人頻道數量    |30 (包含已刪除的頻道)<sup>4</sup>        |
 |私人頻道中的成員數目    |250|
 |可匯入小組中的通訊群組清單、安全性群組或 Office 365 群組的大小上限    |3,500|
 |Office 365 群組中可轉換成小組的成員數目上限    |10,000<sup>6</sup>     |
@@ -59,7 +59,7 @@ ms.locfileid: "50196787"
 
 <sup>5</sup> 28 KB 是大約限制，因為其包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
 
-<sup>6</sup> GCC 中的 Teams 只能容納 5,000 個成員，而 GCCH/DoD 中只能容納 2,500 個成員。
+<sup>6</sup> GCC 中的 Teams 可以容納 25,000 個成員，而 GCCH/DoD 中的 Teams 只能容納 2,500 個成員。 進一步請注意，團隊/頻道提及在超過 10,000 個成員的小組中會封鎖。
 
 ## <a name="messaging"></a>訊息傳送
 
