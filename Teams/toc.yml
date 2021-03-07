@@ -501,8 +501,6 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 製造類別 Teams 範本
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: 建立及管理範本原則
-            href: templates-policies.md
       - name: 與外部使用者通訊
         items:
           - name: 與其他組織的使用者通訊
