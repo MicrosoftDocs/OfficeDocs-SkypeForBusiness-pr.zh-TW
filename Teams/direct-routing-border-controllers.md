@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 系統管理員可以瞭解哪些會話邊界控制器 (SBC) 通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5887e69e5cc8dc36070da2c22be997a7deef771c
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: 31a9003015fc9f9d6f12595e313022c305faab8a
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278693"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568929"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -38,7 +38,7 @@ Microsoft 會與每個廠商合作，以：
 
 
   > [!NOTE]
-  > Microsoft 只有在通過認證的裝置或裝置透過直接路由進行連接時，才支援電話系統。 Microsoft 保留拒絕未通過認證裝置透過直接路由連接至電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，客戶將需要與 SBC 廠商聯繫以提供支援。
+  > Microsoft 只有在通過認證的裝置或裝置透過直接路由進行連接時，才支援電話系統。 Microsoft 保留拒絕未通過認證的裝置透過直接路由連接至電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，客戶將需要與 SBC 廠商聯繫以提供支援。
 
 下表列出通過直接路由認證的裝置。  (哪些 SBC 廠商支援本地媒體優化， [請參閱設定直接](direct-routing-media-optimization-configure.md)路由 .) 
 
@@ -81,7 +81,7 @@ Microsoft 會與每個廠商合作，以：
 |                     [Avya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avya 會話 Border Controller for Enterprise ( ASBCE)     |     &#10004;     |           |       版本 8.1.1       |     |    | 
 |                     [諾基亞](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 會話邊界控制器    |     &#10004;     |           |       1908 (19.5)        |     |    | 
 |                     |    Nokia 會話邊界控制器    |     &#10004;     |           |       20.8       |      <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW (內緊急閘道) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       支援 5.0 (建議 5.1)      |     |    | 
 |                     [愛立信](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
@@ -107,5 +107,5 @@ Microsoft 會與每個廠商合作，以：
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  使用 Grandstream GXW42xx (V1.0.7.10)  |     &#10004;     |
   | [思科](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 多平臺類比電話轉接器 |     &#10004;     |
   
-若要提供 Teams 產品意見，例如新功能的構想，請參閱[Uservoice。](https://microsoftteams.uservoice.com)
+若要提供有關 Teams 的產品意見，例如新功能的構想，請參閱[Uservoice。](https://microsoftteams.uservoice.com)
 請注意，授予主要版本的認證。 這表示支援主要版本之後 SBC 中任何號碼的內建。

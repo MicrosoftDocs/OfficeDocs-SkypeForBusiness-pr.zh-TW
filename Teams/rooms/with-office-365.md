@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請閱讀本主題，瞭解如何使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 會議室，其中 Teams 或商務用 Skype 和 Exchange 都位於線上。
-ms.openlocfilehash: 4ec54763379e4a13a69eb3e08019924708873faf
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196207"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569119"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 會議室
 
@@ -34,7 +34,7 @@ ms.locfileid: "50196207"
 
 若要啟用商務用 Skype，您必須有下列專案：
 
-- 商務用 Skype Online (方案 2，或是 Microsoft 365 或 Office 365) 或更高版本的企業型方案。 方案需要允許電話撥入式會議功能。
+- 商務用 Skype Online (Microsoft 365 或 Office 365 方案) 方案 2 或企業型方案或更高版本。 此方案需要允許電話撥入式會議功能。
 
 - 如果您需要會議的電話撥入功能，您需要音訊會議和電話系統授權。  如果您需要會議撥出功能，您需要音訊會議授權。
 
@@ -76,7 +76,7 @@ ms.locfileid: "50196207"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     此範例會啟用具有別名為 Rigel2 的現有會議室信箱帳戶，並且將密碼設定為 9898P@$$W 0rd。 請注意，由於現有的別名Rigel2@contoso.onmicrosoft.com帳戶將會被刪除。
+     此範例會啟用具有 Alias 值 Rigel2 的現有會議室信箱帳戶，並且將密碼設定為 9898P@$$W 0rd。 請注意，由於現有的別名Rigel2@contoso.onmicrosoft.com帳戶將會被刪除。
 
      ``` PowerShell
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -94,7 +94,7 @@ ms.locfileid: "50196207"
 
    - DeleteSubject：$false (保留傳入會議要求的主題。) 
 
-   - RemovePrivateProperty：$false (確保會議召集人在原始會議要求中所送出的私人標號維持為指定狀態。) 
+   - RemovePrivateProperty：$false (確保會議召集人在原始會議要求中所送出的私人旗標維持為指定狀態。) 
 
    - AddAdditionalResponse：$true (AdditionalResponse 參數指定的文字會新增到會議要求中。) 
 
@@ -124,7 +124,7 @@ ms.locfileid: "50196207"
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   此範例會設定帳戶密碼Rigel1@contoso.onmicrosoft.com永不過期。
+   此範例會設定帳戶的密碼Rigel1@contoso.onmicrosoft.com永不過期。
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
@@ -147,9 +147,9 @@ ms.locfileid: "50196207"
    ```  -->
 
 > [!NOTE]
-> 如果密碼未設定為永不過期，當帳戶到達到期日時，該帳戶將不再在裝置上登錄。 然後需要變更帳戶的密碼，同時也在位於本地的則由該裝置更新。
+> 如果密碼未設定為永不過期，當帳戶到達到期日時，該帳戶將不再在裝置上登錄。 然後需要變更帳戶的密碼，同時也需要在當地更新的 。在 12 月 24 日之後，系統就會更新該裝置。
 
-6. 裝置帳戶必須擁有有效的 Microsoft 365 或 Office 365 授權，否則 Exchange 和 Microsoft Teams 或商務用 Skype 無法工作。 如果您有授權，您必須將使用位置指派給裝置帳戶，這決定您的帳戶可以使用哪些授權 SKUS。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以如下方式為 Microsoft 365 或 Office 365 組織取回可用的 SUS 清單：
+6. 裝置帳戶必須擁有有效的 Microsoft 365 或 Office 365 授權，否則 Exchange 和 Microsoft Teams 或商務用 Skype 無法工作。 如果您有授權，您必須將使用位置指派給裝置帳戶，這決定您的帳戶可以使用哪些授權 SKUS。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 來為 Microsoft 365 或 Office 365 組織取回可用的 SUS 清單，如下所示：
 
    ```Powershell
    Get-MsolAccountSku
@@ -175,7 +175,7 @@ ms.locfileid: "50196207"
 
    有關詳細指示，請參閱使用 [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)指派授權給使用者帳戶。
 
-   您也可以新增電話系統功能至此帳戶，但您必須先進行設定。 請參閱 [什麼是電話系統？](../what-is-phone-system-in-office-365.md) 以進一步查看詳細資料。 此範例會新增國內及國際 PSTN 通話方案：
+   您也可以將電話系統功能新增到此帳戶，但您必須先進行設定。 請參閱 [什麼是電話系統？](../what-is-phone-system-in-office-365.md) 以進一步查看詳細資料。 此範例會新增國內及國際 PSTN 通話方案：
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
@@ -183,7 +183,7 @@ ms.locfileid: "50196207"
 
 7. 接下來，您需要使用商務用 Skype 啟用裝置帳戶。 請確定您的環境符合 Microsoft Teams [會議室中定義的需求](requirements.md)。
 
-   啟動遠端 [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 會話，如下所示 (請務必安裝商務用 [Skype Online PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 元件) ：
+   啟動遠端 [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 會話，如下所示 (安裝 [商務用 Skype Online PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 元件) ：
 
 > [!NOTE]
 > 商務用 Skype Online Connector 目前是最新 Teams PowerShell 模組的一部分。
@@ -191,9 +191,11 @@ ms.locfileid: "50196207"
 > 如果您使用的是最新的 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公開發行，則不需要安裝商務用 Skype Online Connector。
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess = New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
    從正在設定的新使用者帳戶取得 RegistrarPool 資訊，如以下範例所示：

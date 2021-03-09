@@ -18,18 +18,18 @@ description: 瞭解在 Microsoft Teams 中指派策略給使用者的不同方�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3a788ff2712c065d0273d4dfb6233f03e2272337
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 50d0ddf3da73addde36cb045a3d61eb9a5618e8c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196289"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568989"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
 
 做為系統管理員，您可以使用策略來控制組織中使用者可用的 Teams 功能。 例如，通話政策、會議政策及傳訊策略只是幾個。
 
-組織擁有不同類型的使用者，具有獨特的需求。 您建立和指派的自訂策略，讓您根據這些需求量身訂做不同的使用者群組原則設定。
+組織擁有不同類型的使用者，具有獨特的需求。 您建立並指派的自訂策略，讓您根據這些需求量身訂做不同的使用者群組原則設定。
 
 為了輕鬆管理貴組織內的政策，Teams 提供數種指派策略給使用者的方法。 直接指派一個策略給使用者，無論是個別指派或透過批次指派來縮放，或是指派給使用者是成員的群組。 您也可以使用策略套件，為組織中具有類似角色的使用者指派一組預先設定好的政策集合。 您選擇的選項取決於您所管理之策略的數量，以及您指派之策略的使用者數目。 全域 (全組織的預設) 原則會適用于貴組織中數量最多的使用者。 您只需要將策略指派給需要特殊策略的使用者。
 
@@ -39,13 +39,13 @@ ms.locfileid: "50196289"
 
 使用者針對每一種政策類型都有一個有效政策。 使用者有可能直接被指派一個策略，也是一或多個指派相同類型之策略的群組成員。 在這類情況下，哪一個策略會優先？ 使用者的有效原則是根據優先順序規則決定，如下所示。
 
-如果使用者直接被指派一個 (或透過批次指派) ，該策略會優先。 在下列視覺化範例中，使用者的有效政策是直接指派給使用者的長方形會議政策。
+如果使用者是個別或透過批次指派 (指派，該) 優先。 在下列視覺化範例中，使用者的有效政策是直接指派給使用者的長方形會議政策。
 
 ![顯示直接指派之策略的優先順序圖表](media/assign-policies-example-directly-assigned.png)
 
 如果使用者未直接指派指定類型的策略，則指派給使用者為成員之群組的規則會優先。 如果使用者是多個群組的成員，則具有指定之策略類型最高群組指派排名[](#group-assignment-ranking)的規則會優先。
 
-在此視覺化範例中，使用者的有效原則是 Exec Teams 和 HD 政策，其工作分派排名最高，相對於使用者為成員的其他群組，且系統也會指派相同政策類型的策略。  
+在此視覺化範例中，使用者的有效原則是 Exec Teams 和 HD 策略，其工作分派排名相對於使用者成員的其他群組最高，而且也會被指派相同政策類型的策略。  
 
 ![圖表顯示繼承自群組之策略的優先順序](media/assign-policies-example-group.png)
 
@@ -63,10 +63,10 @@ ms.locfileid: "50196289"
 
 |請這麼做  |如果。。。  | 使用。。。
 |---------|---------|----|
-|[指派一個策略給個別使用者](#assign-a-policy-to-individual-users)    | 您剛開始使用 Teams，或者您只需要將一或多個策略指派給少數使用者。 |商務用 Skype Online PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet
+|[指派一個策略給個別使用者](#assign-a-policy-to-individual-users)    | 您剛開始使用 Teams，或者只需要將一或多個策略指派給少數使用者。 |Teams PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet
 |[指派一個策略給群組](#assign-a-policy-to-a-group) |根據使用者的群組成員資格指派策略。 例如，將一個策略指派給安全性群組或通訊群組清單中的所有使用者。| Teams PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet|
 |[指派一個策略給一批使用者](#assign-a-policy-to-a-batch-of-users)   | 指派策略給大量使用者。 例如，一次指派一個策略給貴組織數百或數千個使用者。 |Teams PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet|
-| [指派一個策略套件給使用者](#assign-a-policy-package-to-users)  |指派多個策略給組織中具有相同或類似角色的特定使用者集合。 例如，將教育 (教師) 套件指派給學校中的教師，讓他們能完全存取聊天、通話和會議。 將教育 (中學生) 套件指派給中學生，以限制某些功能，例如私人通話。  |Teams PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet|
+| [指派一個策略套件給使用者](#assign-a-policy-package-to-users)  |將多個策略指派給組織中具有相同或類似角色的特定使用者集合。 例如，將教育 (教師) 套件指派給您學校的教師，讓他們能完全存取聊天、通話和會議。 將教育 (中學生) 套件指派給中學生，以限制某些功能，例如私人通話。  |Teams PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet|
 | [在私人預覽版中將](#assign-a-policy-package-to-a-group) (套件指派給群組)    |指派多個策略給貴組織中具有相同或類似角色的使用者群組。 例如，將策略套件指派給安全性群組或通訊群組清單中的所有使用者。 |Microsoft Teams 系統管理中心 (Teams PowerShell 模組) 或 PowerShell Cmdlet 即將推出|
 | [指派一個策略套件給一批使用者](#assign-a-policy-package-to-a-batch-of-users)|指派多個策略給貴組織中具有相同或類似角色的一批使用者。 例如，使用批次 (指派) 指派給學校的所有教師，讓他們能完全存取聊天、通話和會議。 將教育 (中學生) 套件指派給一批中學生，以限制某些功能，例如私人通話。|Teams PowerShell 模組中的 PowerShell Cmdlet|
 
@@ -128,17 +128,17 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 或者，您也可以執行下列操作：
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往政策頁面。
+1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往該政策頁面。
 2. 按一下該策略名稱的左側，選取您想要指派的策略。
 3. 選取 [管理使用者]。
 4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
-5. 完成新增使用者後， **請選取** Apply。
+5. 當您完成新增使用者時， **請選取應用程式**。
 
 ### <a name="use-powershell"></a>使用 PowerShell
 
-每一種策略類型都有一組自己的 Cmdlet 來管理它。 使用 ```Grant-``` 指定之策略類型的 Cmdlet 來指派該策略。 例如，使用 ```Grant-CsTeamsMeetingPolicy``` Cmdlet 將 Teams 會議政策指派給使用者。 這些 Cmdlet 包含在商務用 Skype Online PowerShell 模組中，並記錄在商務用 [Skype Cmdlet 參照中](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
+每一種策略類型都有一組自己的 Cmdlet 來管理它。 使用 ```Grant-``` 指定之策略類型的 Cmdlet 來指派該策略。 例如，使用 ```Grant-CsTeamsMeetingPolicy``` Cmdlet 將 Teams 會議政策指派給使用者。 這些 Cmdlet 包含在 Teams PowerShell 模組中，並記錄在商務用 [Skype Cmdlet 參照中](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
 
- 下載並安裝商務用 [Skype Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366) 模組 (如果您尚未) ，請執行下列操作以連線至商務用 Skype Online 並開始會話。
+ 如果您尚未安裝 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (，請下載並安裝) ，然後執行下列操作以連結。
 
 > [!NOTE]
 > 商務用 Skype Online Connector 目前是最新 Teams PowerShell 模組的一部分。
@@ -146,10 +146,11 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 > 如果您使用的是最新的 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公開發行，則不需要安裝商務用 Skype Online Connector。
 
 ```powershell
-Import-Module -Name MicrosoftTeams
-$Cred = Get-Credential
-$CSSession = New-CsOnlineSession -Credential $Cred
-Import-PSSession -Session $CSSession
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 在此範例中，我們將名為 Student Meeting Policy 的 Teams 會議政策指派給名為 Reda 的使用者。
@@ -166,7 +167,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 建議最多 50，000 個使用者群組使用指派至群組的策略，但也會與較大的群組一起使用。
 
-當您指派該策略時，該策略會立即指派給群組。 不過，將策略指派傳播給群組成員會做為背景作業執行，視群組大小不同，可能需要一些時間。 當從群組中取消分配一個策略，或將成員新增到群組或從群組中移除時，也是如此。
+當您指派該策略時，該策略會立即指派給群組。 不過，將策略指派傳播給群組成員會做為背景作業執行，視群組大小不同，可能需要一些時間。 當從群組中取消分配一個策略，或將成員新增到群組或移除群組時，也是如此。
 
 群組原則指派只會傳播給群組的直接成員。 指派不會傳播到巢式群組的成員。
 
@@ -176,23 +177,23 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 #### <a name="precedence-rules"></a>優先順序規則
 
-針對給定政策類型，使用者的有效政策取決於下列各項：
+針對給定政策類型，使用者的有效政策會依據下列條件判斷：
 
-- 直接指派給使用者的規則會優先于指派給群組之相同類型的其他任何政策。 換句話說，如果使用者直接獲指派指定類型的策略，該使用者不會從群組繼承相同類型之策略。 這也表示，如果使用者擁有已直接指派給該使用者之指定類型的策略，您必須從使用者移除該策略，他們才能從群組繼承相同類型的策略。
+- 直接指派給使用者的規則會優先于指派給群組之相同類型的其他任何政策。 換句話說，如果使用者直接獲指派指定類型的策略，該使用者不會從群組繼承相同類型之策略。 這也表示，如果使用者擁有已直接指派給該使用者之指定類型的策略，您必須從使用者移除該策略，他們才能從群組繼承相同類型之策略。
 - 如果使用者未直接指派一個策略，而且它是兩個或多個群組的成員，而且每個群組都有指派給該群組的相同類型之策略，則使用者會繼承排名最高的群組指派之策略。
 - 如果使用者不是任何指派原則之群組的成員，該原則類型的全域 (組織預設) 原則會適用于該使用者。
 
 使用者的有效原則會根據這些規則更新：
 
-- 將使用者新加入或移除已指派之策略的群組時。
+- 將使用者新加入或移除已指派策略的群組時。
 - 系統會從群組中取消分配一個策略。
 - 直接指派給使用者的政策會移除。
 
 #### <a name="group-assignment-ranking"></a>群組作業排名
 
-當您將策略指派給群組時，您可以指定群組作業的排名。 這是用來判斷如果使用者是兩個或多個群組的成員，且每個群組都獲得相同類型之一個策略，使用者應繼承哪一個策略做為其有效原則。
+當您將策略指派給群組時，您可以指定群組作業的排名。 這是用來判斷如果使用者是兩個或多個群組的成員，且每個群組都獲得相同類型之政策，使用者應繼承為有效政策。
 
-群組作業排名相對於其他相同類型的群組作業。 例如，如果您要將通話策略指派給兩個群組，將一個作業的排名設定為 1，另一個設定為 2，其中 1 為最高排名。 群組指派排名指出哪些群組成員資格在繼承方面比其他群組成員資格重要或更相關。
+群組作業排名相對於其他相同類型的群組作業。 例如，如果您要將通話策略指派給兩個群組，將一個作業的排名設定為 1，另一個設定為 2，其中 1 為最高排名。 群組工作分派排名指出哪些群組成員資格在繼承方面比其他群組成員資格重要或更相關。
 
 例如，您擁有兩個群組：Store Employees 和 Store Managers。 這兩個群組會分別指派 Teams 通話政策、Store 員工通話政策與市管理員通話政策。 對於同時位於這兩個群組中的商店經理，其經理角色比員工角色更相關，因此指派給市管理群組的通話政策應該具有較高的排名。
 
@@ -216,7 +217,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 選取您想要指派的策略。
     4. 選取Apply 。
 
-若要移除群組原則指派，請在策略頁面的群組原則指派分頁上，選取群組指派，**然後選取移除**。
+若要移除群組原則工作分派，請在策略頁面的群組原則工作分派分頁上，選取群組指派，**然後選取移除**。
 
 若要變更群組作業的排名，您首先必須移除群組原則工作分派。 然後，按照上述步驟，將策略指派給群組。
 
@@ -233,7 +234,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 使用 [New-CsGroupPolicyAssignment Cmdlet](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 將策略指派給群組。 您可以使用物件識別碼、SIP 位址或電子郵件地址來指定群組。
 
-在此範例中，我們將名為零售管理員會議策略的 Teams 會議政策指派給作業排名為 1 的群組。
+在此範例中，我們將名為零售管理員會議策略的 Teams 會議政策指派給工作分派排名為 1 的群組。
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -249,7 +250,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
 ```
 
-在此範例中，我們會將指派給 Teams 會議政策的所有群組都退回。
+在此範例中，我們會退回所有指派為 Teams 會議策略的群組。
 
 ```powershell
 Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
@@ -326,7 +327,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-在 Teams PowerShell 模組中，使用下列 Cmdlet，在批次策略指派中以縮放比例執行此作業，其中 $users 是指定的使用者清單。
+在 Teams PowerShell 模組中，使用下列 Cmdlet 可縮放執行此作業，但批次$users指派，其中 $users 是您指定的使用者清單。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -424,7 +425,7 @@ Teams 中的策略套件是預先定義之策略和策略設定的集合，您�
 ### <a name="assign-a-policy-package-to-one-user"></a>指派一個策略套件給一個使用者
 
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **使用者**，然後選取使用者。
-2. 在使用者的頁面上，**選取政策，** 然後在策略套件 **旁選取編輯****。**
+2. 在使用者的頁面上，**選取政策，** 然後在策略套件 **旁，選取****編輯。**
 3. 在指派 **策略套件窗格中** ，選取要指派的套件， **然後選取儲存**。
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>指派一個策略套件給多個使用者
@@ -436,13 +437,11 @@ Teams 中的策略套件是預先定義之策略和策略設定的集合，您�
 
 ## <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
 
-**這項功能在私人預覽中**
-
 透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
 
-建議最多 50，000 個使用者群組將策略套件指派給群組，但也會與較大的群組一起使用。
+建議最多 50，000 個使用者群組將策略套件指派給群組，但也適用于較大的群組。
 
-當您指派策略套件時，該套件會立即指派給群組。 不過，將策略指派傳播給群組成員會做為背景作業執行，視群組大小不同，可能需要一些時間。 當從群組中取消分配一個策略，或將成員新增到群組或從群組中移除時，也是如此。
+當您指派策略套件時，該套件會立即指派給群組。 不過，將策略指派傳播給群組成員會做為背景作業執行，視群組大小不同，可能需要一些時間。 當從群組中取消分配一個策略，或將成員新增到群組或移除群組時，也是如此。
 
 > [!IMPORTANT]
 > 在您開始使用之前，瞭解優先順序規則和群組指派排名[非常重要](#group-assignment-ranking)。 [](#precedence-rules) 請確定您閱讀並瞭解本文稍早所[](#what-you-need-to-know-about-policy-assignment-to-groups)說明的關於將政策指派給群組的需知概念。
@@ -454,7 +453,7 @@ Teams 中的策略套件是預先定義之策略和策略設定的集合，您�
 3. 選取群組原則工作分派的選項卡。
 4. 選取 **新增群組**，然後在指派策略套件至群組窗格中，執行下列操作：
 
-    a. 搜尋並新增您想要指派策略套件的群組。
+    a. 搜尋並新增要指派策略套件的群組。
 
     b. 選取一個策略套件。
 
@@ -473,9 +472,9 @@ Teams 中的策略套件是預先定義之策略和策略設定的集合，您�
 
 有關逐步指引，請參閱安裝 Teams [PowerShell。](teams-powershell-install.md)
 
-#### <a name="assign-a-policy-package-to-a-group-of-users"></a>指派一個策略套件給一組使用者
+#### <a name="assign-a-policy-package-to-a-group-of-users"></a>將策略套件指派給一組使用者
 
-使用 [Grant-CsGroupPolicyPackageAssignment Cmdlet](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) 將策略套件指派給群組。 您可以使用物件識別碼、SIP 位址或電子郵件地址來指定群組。 當您指派策略套件時， [請指定策略](#group-assignment-ranking) 套件中每一種策略類型的群組指派排名。
+使用 [Grant-CsGroupPolicyPackageAssignment Cmdlet](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) 將策略套件指派給群組。 您可以使用物件識別碼、SIP 位址或電子郵件地址來指定群組。 當您指派策略套件時 [，請指定](#group-assignment-ranking) 策略套件中每一種策略類型的群組指派排名。
 
 在此範例中，我們將 Education_Teacher 策略套件指派給一個群組，其中 TeamsAppSetupPolicy 和 TeamsMeetingBroadcastPolicy 的作業排名為 1，而 TeamsMeetingPolicy 的排名為 2。
 

@@ -18,15 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理 Teams 範本
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507966"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569009"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>在系統管理中心建立及管理 Teams 範本
+# <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
 在系統管理中心建立範本策略，來管理使用者看到的 Teams 範本。 在每個範本策略中，您可以指定顯示或隱藏哪些範本。
 將不同的使用者指派給不同的範本策略，這樣您的使用者就只會查看指定的 Teams 範本子集。
@@ -57,14 +56,14 @@ ms.locfileid: "50507966"
 
 1. 選取要取消隱藏的範本， **然後選取顯示**。
 
-   ![選取的未隱藏範本](media/template-policies-3.png)
+   ![選取的範本未隱藏](media/template-policies-3.png)
 
    選取的範本會顯示在可觀看的 **範本資料** 表中。
 3. 選取 **儲存**。
 
-   新的範本策略會顯示在範本策略 **清單中** 。
+   新的範本策略會顯示在 **範本策略清單中** 。
 
-## <a name="assign-users-to-the-template-policies"></a>將使用者指派給範本策略
+## <a name="assign-users-to-the-template-policies"></a>指派使用者至範本策略
 
 指派給該政策的使用者只能查看該政策內可查看的範本。
 
@@ -85,7 +84,7 @@ ms.locfileid: "50507966"
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
-**問：我可以批次指派使用者至小組範本政策嗎？**
+**問：我可以批次指派使用者至小組範本策略嗎？**
   
 答：是，我們支援 PowerShell 中範本策略的批次指派。 此動作的策略類型為 TeamsTemplatePermissionPolicy。 [瞭解更多資訊](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
 
@@ -121,7 +120,7 @@ ms.locfileid: "50507966"
 
 ![選取的範本策略和查看使用者](media/template-policies-5.png)
 
-**問：我可以透過 PowerShell 管理範本政策嗎？**
+**問：我可以透過 PowerShell 管理範本策略嗎？**
 
 答：不支援在 PowerShell 中管理範本。
 

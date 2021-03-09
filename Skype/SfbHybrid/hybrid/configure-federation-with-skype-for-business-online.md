@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：瞭解如何設定內部部署和商務用 Skype Online 之間的互通性。
-ms.openlocfilehash: 0df507fcc47157a9290018a199e1362cb203048b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: a97072c9c4b65b4cc13d29a733b8ddc840529363
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221447"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569215"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>設定商務用 Skype 混合式
 
@@ -33,7 +33,7 @@ ms.locfileid: "44221447"
 - [設定您的內部部署環境，以信任 Microsoft 365 或 Office 365 並啟用共用 SIP 位址空間](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365)。
 - [在 Microsoft 365 或 Office 365 組織中啟用共用 SIP 位址空間](#enable-shared-sip-address-space-in-your-organization)。
 
-請注意，如果您有 Exchange 內部部署，您可能想要在 Exchange 內部部署和商務用 Skype Online 環境之間設定 OAuth。 如需詳細資訊，請參閱[管理商務用 Skype server 中的伺服器對伺服器驗證](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)，以及[規劃整合商務用 skype 與 Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)。 
+請注意，如果您有 Exchange 內部部署，您可能想要在 Exchange 內部部署和商務用 Skype Online 環境之間設定 OAuth。 如需詳細資訊，請參閱  [管理商務用 Skype server 中的伺服器對伺服器驗證](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) ，以及 [規劃整合商務用 skype 與 Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)。 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>將內部部署 Edge service 設定為與 Microsoft 365 或 Office 365 同盟
 
@@ -46,7 +46,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 如果 '-EnablePartnerDiscovery ' 值設定為 $True，商務用 Skype 伺服器會使用 DNS 記錄來嘗試並探索未列在 AllowedDomains 清單中的夥伴網域。 如果此值設為 $False，商務用 Skype 伺服器只會與 AllowedDomains 清單中找到的網域同盟。 如果使用 DNS 服務路由，則需要此參數。
 
 > [!NOTE]
-> 如需在您的內部部署商務用 Skype 部署使用者與商務用 skype Online 組織的使用者之間啟用同盟的詳細資訊，請參閱[在商務用 Skype Server 中設定商務用 Skype online 客戶的同盟支援](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)。
+> 如需在您的內部部署商務用 Skype 部署使用者與商務用 skype Online 組織的使用者之間啟用同盟的詳細資訊，請參閱 [在商務用 Skype Server 中設定商務用 Skype online 客戶的同盟支援](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)。
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>設定您的內部部署環境，以啟用共用 SIP 位址空間與 Microsoft 365 或 Office 365
@@ -78,16 +78,18 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > SharedSipAddressSpace 屬性必須保留為 "True"，直到移動至線上狀態為終稿，且沒有使用者保留內部部署。 
   
-若要建立與小組或商務用 Skype Online 的遠端 PowerShell 會話，您必須先安裝適用于 Windows PowerShell 的商務用 Skype Online 連接器模組，您可以在[這裡](https://go.microsoft.com/fwlink/p/?LinkId=391911)找到。
+若要建立與小組或商務用 Skype Online 的遠端 PowerShell 會話，您必須先將 [團隊安裝 PowerShell 模組](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
   
 安裝模組之後，您可以建立具有下列 Cmdlet 的遠端會話：
-  
-```PowerShell
-$cred = Get-Credential
-Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
-```
+   ```powershell
+   # When using Teams PowerShell Module
 
-如需如何使用商務用 Skype Online 建立遠端 PowerShell 會話的詳細資訊，以及如何使用商務用 Skype Online 連接器模組，請參閱[設定您的電腦以進行 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+
+如需如何使用商務用 Skype Online 建立遠端 PowerShell 會話的詳細資訊，以及如何使用商務用 Skype Online 連接器模組，請參閱 [設定您的電腦以進行 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
   
 
 
