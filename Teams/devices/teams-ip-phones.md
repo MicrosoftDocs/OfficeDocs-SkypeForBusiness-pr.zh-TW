@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 的認證，以產生最佳結果。
-ms.openlocfilehash: ad0e89d51172f0e8704f805cc3d85875ffcf8728
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 319ddccf45f9930f69d6ff58b3da2347f2f7b9f5
+ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460743"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50558422"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認證的裝置
 
 Microsoft Teams 認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams 認證計畫可確保品質較高的長條，具有較高的績效目標及音訊品質計量。 合作夥伴正積極努力符合此較高水準列，且符合裝置符合認證要求。 我們的部分合作夥伴也正在努力在與 Teams 手機相同的硬體上，為商務用 Skype 服務提供支援。 Microsoft Teams 認證裝置的好處包括：
+Microsoft Teams 認證計畫可確保品質較高的長條，具有較高的績效目標及音訊品質計量。 合作夥伴正積極努力符合此較高水準列，且符合裝置符合認證要求。 我們的部分合作夥伴也正在努力針對與 Teams 手機相同的硬體供應商務用 Skype 服務的支援。 Microsoft Teams 認證裝置的好處包括：
 
 - 整合硬體按鈕和 LED 通知的原生 Teams 體驗
 - 整合的日曆和單鍵會議加入
@@ -40,7 +40,7 @@ Microsoft Teams 認證計畫可確保品質較高的長條，具有較高的績�
 
 ## <a name="currently-certified-teams-phones"></a>目前通過認證的 Teams 電話
 
-下列裝置在 Microsoft Teams 手機認證計畫下通過認證：
+下列裝置在 Microsoft Teams 電話認證計畫下通過認證：
 
 |裝置模型                         | 內文版本                                                                                                                                                                                                                           | 發行日期                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
@@ -69,9 +69,9 @@ Microsoft Teams 認證計畫可確保品質較高的長條，具有較高的績�
 
 下列裝置在 Android 認證計畫的 Microsoft Teams 會議室下通過認證：
 
-| 裝置模型 | 內文版本 | 發行日期  | 會議室大小 (最多)                                          |
+| 裝置模型 | 內文版本 | 發行日期  | 會議室大小                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
+| Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 中型會議室大小 (4.5m x 6m)  |
 | Yealink CTP18 觸控主控台  | 137.15.0.28    | 2021 年 3 月 | 與會議欄 A20 和會議欄 A30 相容 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
 | Poly Studio X30         | 3.1.1.216109     | 2020 年 6 月     | 焦點會議室 (3m x 3m)  </br> 小型會議室大小 (4.5m x 4.5m)  |
@@ -110,7 +110,7 @@ Microsoft Teams 認證計畫可確保品質較高的長條，具有較高的績�
 
 #### <a name="firmware-versions"></a>內文版本
 
-當您在裝置上安裝新版新版時，您可以判斷 Microsoft Teams 應用程式、公司入口網站及系統管理代理程式對應的安裝版本。 若要這麼做，請于包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
+當您在裝置上安裝新版新版時，您可以判斷 Microsoft Teams App、公司入口網站及系統管理代理程式對應的安裝版本。 若要這麼做，請于包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
 
 | 裝置模型        | 內文版本     | 年份/包含的產品發行  |
 |:--------------------|:---------------------|:-------------------------|
@@ -128,7 +128,7 @@ Microsoft Teams 認證計畫可確保品質較高的長條，具有較高的績�
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上的 Teams 會議室產品發行資訊
 
-以下是 Android 應用程式的最新 Teams 會議室和內文版本。
+以下是 Android 應用程式與新版 Teams 的 Teams 會議室。
 
 #### <a name="app-versions"></a>應用程式版本
 

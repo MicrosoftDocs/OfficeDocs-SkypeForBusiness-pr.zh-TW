@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 瞭解如何為商務用 Skype 使用者啟用電話系統語音服務。
-ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: bbcf8b35d91015067943eec2cbe43525e952a7f7
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625109"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569355"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>為使用者啟用企業語音線上版和電話系統語音信箱
  
@@ -51,35 +51,16 @@ ms.locfileid: "48625109"
     
 3. 輸入下列專案，然後按 Enter：
     
-   ```powershell
+ ```powershell
+  # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
-4. 輸入下列專案，然後按 Enter：
-    
-   ```powershell
-   $cred = Get-Credential
-   ```
-
-    按 Enter 後，您應該會看到 [Windows PowerShell 認證] 對話方塊。
-    
-5. 輸入您的租使用者管理員使用者名稱和密碼，然後按一下 **[確定]**。
-    
-6. 在 [PowerShell] 視窗中，輸入下列專案，然後按 Enter：
-    
-   ```powershell
-   $Session = New-CsOnlineSession -Credential $cred -Verbose
-   ```
-
-7. 輸入下列 Cmdlet 以匯入會話：
-    
-   ```powershell
-   Import-PSSession $Session -AllowClobber
-   ```
-
-    在商務用 Skype 伺服器上執行 PowerShell 時，當您開啟 PowerShell 時，已載入本機商務用 Skype Cmdlet。 您必須指定-AllowClobber 參數以允許線上 Cmdlet 覆寫具有相同名稱的內部部署 Cmdlet。
-    
-8. 使用 Set-CsUser Cmdlet，將 $EnterpriseVoiceEnabled 和 $HostedVoiceMail 屬性指派給您的使用者，如下所示：
+  
+4. 使用 Set-CsUser Cmdlet，將 $EnterpriseVoiceEnabled 和 $HostedVoiceMail 屬性指派給您的使用者，如下所示：
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true

@@ -15,13 +15,13 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: 本文提供 Microsoft Teams 面板所支援之功能概觀。
-ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+description: 本文提供 Microsoft Teams 面板支援之概觀和功能。
+ms.openlocfilehash: 913924e62483c1a8d44bfade29e5bc700f92b646
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460503"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568919"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
@@ -48,7 +48,7 @@ Teams 面板支援下列功能：
 您可以向下列其中一個合作夥伴取得 Teams 面板裝置：
 
 - 寇里s本
--  (Yealink) 推出
+-  (Yealink 中) 推出
 
 ## <a name="teams-panels-requirements"></a>Teams 面板需求
 
@@ -76,7 +76,7 @@ Teams 面板裝置部署可以細分為下列工作：
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>庫存網站和會議空間
 
-清點貴組織現有的可預約會議空間。 找出部署 Teams 面板的範圍內的網站和會議空間。 請和您的裝置和音訊及視覺小組合作，決定要在何處及如何安裝 Teams 面板裝置，以及安裝面板時還需要任何其他硬體。
+清點貴組織中現有的可預約會議空間。 找出部署 Teams 面板的範圍內的網站和會議空間。 請和您的裝置和音訊及視覺小組合作，決定要在何處及如何安裝 Teams 面板裝置，以及安裝面板時還需要任何其他硬體。
 
 ## <a name="procurement"></a>採購
 
@@ -86,7 +86,7 @@ Teams 面板裝置部署可以細分為下列工作：
 
 ## <a name="site-readiness"></a>網站就緒
 
-當訂購的裝置送達貴組織時，請與網路、設施及音訊及視覺團隊合作，以確保符合部署需求，而且每個網站和會議空間在電源和網路方面已準備就緒。
+當訂購的裝置送達貴組織時，請與網路、設施及音訊-視覺小組合作，以確保符合部署需求，而且每個網站和會議空間在電源和網路方面已準備就緒。
 
 我們針對 Teams 面板網站的建議為：
 
@@ -120,7 +120,7 @@ Teams 面板裝置部署可以細分為下列工作：
 >- 對於大型會議空間 ，例如會議室或會議室，有多個進入，您可以在每個進入處安裝一個面板裝置。 屬於單一會議空間的多個面板會共用相同的資源帳戶，並使用相同的認證來登錄。 您不需要針對相同的空間為每個面板建立個別的資源帳戶。
 
 > [!TIP]
-> 建議在實際 Teams 面板安裝之前建立資源帳戶。
+> 建議在實際的 Teams 面板安裝之前建立資源帳戶。
 > 考慮使用 Teams 面板資源帳戶的命名慣例。 讓 Microsoft 365 資源帳戶的顯示名稱具有描述性且容易理解。 這些是使用者在 Outlook 或 Teams 日曆中排程會議時搜尋會議空間時會看到的名稱。
 
 ### <a name="testing"></a>測試
@@ -140,3 +140,5 @@ Teams 面板裝置部署可以細分為下列工作：
 [Teams 面板上的 Microsoft Teams 部落格](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [開始使用 Teams 面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[在 Microsoft Teams 面板認證計畫下通過認證的裝置](teams-ip-phones.md#currently-certified-teams-panels)
