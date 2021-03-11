@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: 741068fc16c60e6cd253057a8b1487680dc32266
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 51c3f640bd9d98bcda9d5dd69406461e9c8393fd
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818793"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711740"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未指派電話號碼：建立新的或編輯現有
 
@@ -42,7 +42,7 @@ ms.locfileid: "49818793"
 
   - 如果範圍的開始號碼或範圍的結束號碼包含分機號碼，則範圍的開始號碼和結束號碼都必須包含分機，且開始號碼和結束號碼的分機號碼必須相同。
 
-  - 號碼必須符合正則運算式 (電話： ) ？ (\+) ？ [1-9] \d {0,17} (; ext = [1-9] \d {0,9}) ？。 這表示數位可以從電話號碼開始： (如果您未指定該字串將會自動新增至您) 、加號 (+) 及數位1到9。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
+  - 此數位必須符合正則運算式 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 這表示 `tel:` 如果您未指定該字串將會自動為您新增) 、加號 (+) 及數位1到9，則 (的數位可以以字串開頭。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
 
 - **宣告服務** 選取 [ **宣告** ]，讓宣告應用程式處理來電或 **exchange Um** ，讓 exchange um 自動語音應答處理傳入的呼叫。
 

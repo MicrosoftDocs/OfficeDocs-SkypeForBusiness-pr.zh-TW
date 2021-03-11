@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 在商務用 Skype Server Enterprise Voice 中建立、修改或刪除未指派的號碼範圍給宣告應用程式。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: 180db35a5ea7c2c55dcdbbdcb3be70f868149d88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 19a30aa4063f8ec0f4e890c4e244309347ed99c6
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837083"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711630"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改未指派號碼範圍
  
@@ -64,7 +64,7 @@ ms.locfileid: "49837083"
     
    - 如果範圍的開始號碼或範圍的結束號碼包含分機號碼，則範圍的開始號碼和結束號碼都必須包含分機，且開始號碼和結束號碼的分機號碼必須相同。
     
-   - 號碼必須符合正則運算式 (電話： ) ？ (\+) ？ [1-9] \d {0,17} (; ext = [1-9] \d {0,9}) ？。 這表示數位可以從電話號碼開始： (若您未指定該字串，就會自動為您新增) 、加號 (+) 及數位1到9。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
+   - 此數位必須符合正則運算式 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 這表示數位可以以字串開頭 `tel:` (如果您未指定該字串，將會自動為您新增) 、加號 (+) 及數位1到9。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
     
 6. 在 **[宣告服務]** 中，執行下列其中一個動作： 
     
@@ -169,7 +169,7 @@ ms.locfileid: "49837083"
     > [!NOTE]
     > 如需更多選項的詳細資訊，請參閱 [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)。 
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
 [New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   

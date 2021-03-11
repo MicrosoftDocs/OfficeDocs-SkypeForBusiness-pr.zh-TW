@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何封鎖特定使用者對 SharePoint 的存取
-ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203836"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615079"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>封鎖特定使用者對 SharePoint 的存取
 
@@ -63,7 +63,7 @@ ms.locfileid: "48203836"
 
 6. 驗證是否僅選取 SharePoint 作為目標 [雲端應用程式]
 
-    ![選取 Sharepoint 作為目標應用程式。](media/no-sharepoint-access3.png)
+    ![選取 Microsoft Office SharePoint Online 作為目標應用程式。](media/no-sharepoint-access3.png)
 
 7. 更新 **[條件]** 以包括桌面用戶端。
 
@@ -83,7 +83,7 @@ ms.locfileid: "48203836"
 
  ![「找不到項目」訊息。](media/access-denied-sharepoint.png)
 
-在 Sharepoint 中，您將收到拒絕存取的訊息。
+在 SharePoint 中，您將收到拒絕存取的訊息。
 
 ![拒絕存取訊息。](media/blocked-access-warning.png)
 

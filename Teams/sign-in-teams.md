@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909117"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711640"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 ==========================
@@ -161,7 +161,7 @@ Teams Android 應用程式現在支援全域登入和登出，為第一線員工
 Teams 需要連線到網際網路。 若要瞭解客戶在 Office 365 方案、政府和其他雲端中使用 Teams 能夠連線的端點，請參閱 [Office 365 URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!IMPORTANT]
-> Teams 目前需要讓所有使用者存取 (TCP 通訊埠 443) 連線到 Google ssl.gstatic.com 服務 (<https://ssl.gstatic.com)>。即使您沒有使用 Gstatic 亦同。 Teams 很快會移除此要求 (2020 年初)，我們到時候也會更新本文。
+> Teams 目前要求所有使用者取得Google ssl.gstatic.com 服務的存取權 (TCP 通訊埠 443)，即使您未使用 Gstatic 也是一樣。 Teams 很快會移除此要求 (2020 年初)，我們到時候也會更新本文。
 
 ## <a name="related-topics"></a>相關主題
 
