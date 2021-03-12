@@ -24,17 +24,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理會議政策設定。 使用策略設定來控制使用者排程會議的會議參與者可使用的功能。
-ms.openlocfilehash: 2b148cc619da43e4033a8c503470da3e765b7d5c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460613"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726427"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的會議原則
 
 ::: zone target="docs"
-使用會議策略來控制組織中使用者排程的會議參與者可使用的功能。 您可以使用自動建立 (自訂) 全域自訂規則。 您可以在 Microsoft Teams 系統管理中心或 PowerShell 中管理 [會議政策](teams-powershell-overview.md)。
+使用會議策略來控制組織中使用者排程之會議的會議參與者可使用的功能。 您可以使用全域規則 (自動建立) 自訂策略的全組織預設規則。 您可以在 Microsoft Teams 系統管理中心或 PowerShell 中管理 [會議政策](teams-powershell-overview.md)。
 
 > [!NOTE]
 > 有關使用角色管理會議簡報者和出席者許可權的資訊，請參閱 [Teams 會議中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
@@ -43,11 +43,11 @@ ms.locfileid: "50460613"
 
 |執行類型  |說明  |
 |---------|---------|
-|每個召集人    |當您執行每個會議召集人的政策時，所有會議參與者會繼承該召集人的政策。 例如， **自動准許人員進入** 是每個召集人的一項政策。 它會控制使用者是否直接加入會議，或是在大廳等候指派該政策的使用者所排程的會議。          |
+|每個召集人    |當您執行每個召集人策略時，所有會議參與者會繼承該召集人的政策。 例如， **自動准許人員是** 每個召集人的一項政策。 它會控制使用者是否直接加入會議，或是在大廳等候已指派該政策的使用者所排程的會議。          |
 |每個使用者    |當您執行每個使用者原則時，只有每個使用者原則會適用于限制召集人和/或會議參與者的某些功能。 例如，在頻道 **中允許現在開會** 是每個使用者的政策。     |
-|每一個召集人和每個使用者     |當您執行每個召集人和每個使用者的組合時，某些功能會受限於會議參與者，其基礎是他們的政策與召集人的政策。 例如， **允許雲端錄製** 是每個召集人和每個使用者的政策。 開啟此設定以允許使用者開始和停止錄製。
+|每一個召集人和每個使用者     |當您執行每個召集人和每個使用者的組合時，根據會議參與者及其政策，某些功能會受限於會議參與者。 例如， **允許雲端錄製** 是每個召集人和每個使用者的政策。 開啟此設定以允許使用者開始和停止錄製。
 
-您可以編輯全域原則中的設定，或建立及指派一或多個自訂策略。 除非您建立並指派自訂策略，否則使用者會取得全域原則。
+您可以編輯全域原則中的設定，或建立並指派一或多個自訂策略。 除非您建立並指派自訂策略，否則使用者會取得全域原則。
 
 > [!NOTE]
 > 如果使用者已啟用音訊會議授權，或使用者允許進行音訊會議，則會議詳細資料按鈕將可供使用。
@@ -80,7 +80,7 @@ ms.locfileid: "50460613"
 您可以編輯全域原則和您建立的任何自訂策略。
 
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **會議**  >  **會議政策**。
-2. 按一下政策名稱的左側以選取該政策， **然後選取編輯**。
+2. 按一下該政策名稱的左側以選取該政策， **然後選取編輯**。
 3. 從此處，進行您需要的變更。
 4. 選取 **儲存**。
 
@@ -117,7 +117,7 @@ ms.locfileid: "50460613"
 
 ### <a name="allow-meet-now-in-channels"></a>在頻道中允許現在開會
 
-允許 **開會** 是一項每個使用者原則，在會議開始之前即適用。 此設定可控制使用者是否可以在 Teams 頻道中啟動非計畫的會議。 如果您開啟此設定，使用者可以選取會議按鈕來開始非計畫的會議，或在頻道中排程會議。 預設值為 True。
+允許 **開會** 是一項每個使用者原則，在會議開始之前即適用。 此設定可控制使用者是否可以在 Teams 頻道中啟動非計畫的會議。 如果您開啟此設定，使用者可以選取會議按鈕，在頻道中開始非計畫的會議或排程會議。 預設值為 True。
 
 ![顯示訊息下方的目前開會圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png)
 
@@ -131,9 +131,9 @@ ms.locfileid: "50460613"
 
 ### <a name="allow-channel-meeting-scheduling"></a>允許頻道會議排程
 
-使用現有的 AllowChannelMeeting 排程策略來控制可以在小組頻道日曆上建立的事件種類。 這是每個使用者原則，在會議開始之前適用。 此設定會控制使用者是否可以在 Teams 頻道中排程會議。 此設定預設為開啟。
+使用現有的 AllowChannelMeeting 排程策略來控制可以在小組頻道日曆上建立的事件種類。 這是每個使用者原則，在會議開始之前即適用。 此設定會控制使用者是否可以在 Teams 頻道中排程會議。 此設定預設為開啟。
 
-如果關閉此政策，使用者無法建立新頻道會議。 不過，活動召集人可以編輯現有的頻道會議。
+如果關閉此策略，使用者無法建立新頻道會議。 不過，活動召集人可以編輯現有的頻道會議。
 
 排程會議將會停用。
 
@@ -168,13 +168,13 @@ ms.locfileid: "50460613"
 
 ### <a name="allow-scheduling-private-meetings"></a>允許排程私人會議
 
-排程私人會議是一項每個使用者原則，在會議開始之前即適用。 此設定會控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到團隊中的頻道時，會議即為私人會議。
+排程私人會議是一項每個使用者原則，在會議開始之前即適用。 此設定會控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到團隊中的頻道時，會議是私人的。
 
 如果您關閉允許排 **程** 私人會議和允許頻道會議 **排** 程，Teams 中的使用者會停用新增必要的出席者及新增頻道選項。 此設定預設為開啟。
 
 ### <a name="allow-meet-now-in-private-meetings"></a>在私人會議中允許現在開會
 
-這是每個使用者原則，在會議開始之前適用。 此設定可控制使用者是否可以啟動非計畫的私人會議。 此設定預設為開啟。
+這是每個使用者原則，在會議開始之前即適用。 此設定可控制使用者是否可以啟動非計畫的私人會議。 此設定預設為開啟。
 
 <a name="bkaudioandvideo"> </a>
 
@@ -189,12 +189,11 @@ ms.locfileid: "50460613"
 
 ### <a name="allow-transcription"></a>允許抄寫
 
-允許抄寫是每個使用者的一項政策。 此設定會控制是否可以轉譯此使用者的會議。
+此政策會開啟即時抄寫。 允許抄寫是每個使用者的一項政策。 此設定會控制是否可以轉譯此特定團隊的會議。
 
-:::image type="content" source="media/live-transcription.png" alt-text="顯示抄寫選項的螢幕擷取畫面":::
-錄製的會議文字抄寫功能目前僅支援在 Teams 中將語言設定為英文，以及會議中會使用英文的使用者。
+![會議政策中的文字記錄選項](media/live-transcription.png)
 
-即時抄寫功能在幾乎即時的會議期間顯示語音對語音內容的語音對文字。 文字會顯示在會議影片旁邊，包括演講者的姓名和時間戳記。 若要深入瞭解，請參閱在 Teams 會議 [中查看即時抄寫](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)。
+即時抄寫功能幾乎即時顯示 Teams 會議期間的語音對語音內容文字。 文字會顯示在會議影片旁邊，包括演講者的姓名和時間戳記。 若要深入瞭解，請參閱在 Teams 會議 [中查看即時抄寫](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)。
 
 目前，Teams 桌面用戶端支援即時抄寫功能。 美國英文口語支援文字抄寫功能。 文字記錄可在 Teams 電腦版或 Web 版會議後使用。
 
@@ -202,16 +201,16 @@ ms.locfileid: "50460613"
 
 |允許抄寫|允許雲端錄製|行為|
 |---------|---------|---------|
-|**On**|**On**|會議 **提供開始** 抄寫選項。 會議召集人或會議參與者可以開始和停止抄寫。 會議 **提供** 開始錄製選項。 會議召集人或會議參與者可以開始和停止錄製。 |
-|**On**|**關閉**|會議 **提供開始** 抄寫選項。 會議 **沒有** 提供開始錄製選項。 |
-|**關閉**|**On**|會議 **提供** 開始錄製選項。 會議 **未提供** 開始抄寫選項。|
-|**關閉**|**關閉**|會議無法錄製和抄寫。  |
+|**On**|**On**|Teams **會議提供** 開始文字記錄選項。 會議召集人或會議參與者可以開始和停止抄寫。 Teams **會議提供** 開始錄製選項。 會議召集人或會議參與者可以開始和停止錄製。 |
+|**On**|**關閉**|Teams **會議提供** 開始文字記錄選項。 Teams **會議** 沒有提供開始錄製選項。 |
+|**關閉**|**On**|Teams **會議提供** 開始錄製選項。 Teams **會議未** 提供開始抄寫選項。|
+|**關閉**|**關閉**|Teams 會議無法錄製和抄寫。  |
 
 ### <a name="allow-cloud-recording"></a>允許雲端錄製
 
-允許雲端錄製會以每個使用者策略控制。 此設定會控制使用者是否可以錄製。 如果會議召集人或另一個會議參與者的特定策略設定已開啟，且如果他們是來自與會議召集人同一個組織的已驗證使用者，就可以開始錄製。
+允許雲端錄製會以每個使用者策略控制。 此設定會控制使用者是否可以錄製。 如果會議召集人或另一個會議參與者的特定策略設定已開啟，而且如果他們是來自與會議召集人同一個組織的已驗證使用者，就可以開始錄製。
 
-組織外部人員 ，例如聯盟和匿名使用者，無法開始錄製。 來賓使用者無法開始或停止錄製。
+組織外部人員 ，例如聯盟和匿名使用者，無法開始錄製。 來賓使用者無法啟動或停止錄製。
 
 ![錄製選項](media/meeting-policies-recording.png)
 
@@ -223,7 +222,7 @@ ms.locfileid: "50460613"
 |艾曼達 | Location1MeetingPolicy | On|
 |John (外部使用者)  | 不適用 | 不適用|
 
-她即使是召集人，也無法錄製，因為她的政策已設定為關閉。 已啟用該政策設定的安百達可以錄製會議，包括由 Daniela 組織的會議。 如果 Amanda 要組織會議，她將能夠錄製會議。 不過，已停用該政策設定且 John 是外部使用者，因此無法錄製該會議。
+她即使是召集人，也無法錄製，因為她的政策已設定為關閉。 已啟用該策略設定的安百達可以錄製會議，包括由方安達組織的會議。 如果 Amanda 要組織會議，她將能夠錄製會議。 不過，已停用該政策設定且 John 是外部使用者，因此無法錄製該會議。
 
 若要深入瞭解雲端會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
@@ -238,7 +237,7 @@ IP 音訊模式是每個使用者的政策。 此設定可控制是否可以在�
 
 如果使用者設為停用，該使用者仍然可以排程和組織會議，但無法使用音訊。 若要加入會議，使用者必須透過公用交換電話網路 (PSTN) 或讓會議通話以透過電話加入使用者。 未指派任何規則的會議參與者 (例如，匿名參與者) 預設會啟用撥出和傳入音訊。  在 Teams 行動用戶端上，如果這項設定已停用，使用者必須透過 PSTN 撥入會議。
 
-此設定不適用於 1 對 1 通話。 若要限制 1 對 1 通話，請設定 Teams [通話政策](teams-calling-policy.md) ，並關閉撥打私人 **電話** 設定。 這項設定也不適用於會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
+此設定不適用於 1 對 1 通話。 若要限制 1 對 1 通話，請設定 Teams [通話政策](teams-calling-policy.md) ，並關閉撥打 **私人通話** 設定。 這項設定也不適用於會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
 
 Microsoft 365 政府社群雲端 (GCC) 、GCC High 或美國 (DoD 環境) 這項設定。
 
@@ -251,7 +250,7 @@ IP 影片模式是每個使用者的一項政策。 此設定可控制是否可�
 |設定值 |行為  |
 |---------|---------|
 |**已啟用外向和傳入視**    | 會議預設會允許外發和傳入視音訊。 |
-|**禁用**     | 外發和傳入的視音訊在會議中會關閉。 在 Teams 行動用戶端上，使用者無法共用會議中的影片或相片。 <br><br>請注意，如果 **IP 音訊模式** 已停用， **則 IP** 視障模式也會維持停用狀態。  |
+|**禁用**     | 傳出和傳入的視音訊在會議中會關閉。 在 Teams 行動用戶端上，使用者無法共用會議中的影片或相片。 <br><br>請注意，如果 **IP 音訊模式** 已停用， **則 IP** 視障模式也會維持停用狀態。  |
 
 如果使用者設為停用，該使用者無法開啟視障或觀看其他會議參與者共用的影片。 未指派任何規則的會議參與者 (例如，匿名參與者) 預設會啟用此設定為外) 和傳入影片。 
 
@@ -260,18 +259,18 @@ IP 影片模式是每個使用者的一項政策。 此設定可控制是否可�
 Microsoft 365 政府社群雲端 (GCC) 、GCC High 或美國 (DoD 環境) 這項設定。
 
 > [!NOTE]
-> 請記住，此設定會控制外發和傳入視事，而 **允許 IP 視** 區設定則控制外接視。 若要深入瞭解，請參閱 [哪個 IP 視視策略設定為優先？](#which-ip-video-policy-setting-takes-precedence) 以及管理會議參與者 [的音訊/視音訊](#manage-audiovideo-for-meeting-participants)。
+> 請記住，此設定會控制外發和傳入視事，而 **允許 IP 視** 區設定則控制外接視。 若要深入瞭解，請參閱 [哪個 IP 視視策略設定為優先？](#which-ip-video-policy-setting-takes-precedence) 以及管理 [會議參與者的音訊/視音訊](#manage-audiovideo-for-meeting-participants)。
 
 若要深入瞭解，請參閱管理 [會議參與者的音訊/影片](#manage-audiovideo-for-meeting-participants)。
 
 ### <a name="allow-ip-video"></a>允許 IP 視訊
 
-允許 IP 影片是每個召集人和每個使用者政策的組合。 影片是會議的重要元件。 在某些組織中，系統管理員可能會想要進一控制哪些使用者的會議有視音訊。 此設定可控制是否可以在使用者主持的會議，以及由使用者啟動的 1：1 和群組通話中開啟視訊。 在 Teams 行動用戶端上，此設定可控制使用者是否可以在會議共用相片和影片。
+允許 IP 影片是每個召集人和每個使用者政策的組合。 影片是會議的重要元件。 在某些組織中，系統管理員可能會想要進一控制哪些使用者的會議有視音訊。 此設定可控制是否可以在使用者主持的會議，以及由使用者啟動的 1：1 和群組通話中開啟視訊。 在 Teams 行動用戶端上，此設定可控制使用者是否可以在會議中共用相片和影片。
 
 由已啟用此策略設定的使用者所組織的會議，允許會議參與者在會議中共用視像，如果參與者也已啟用該策略設定。 未指派任何策略的會議參與者 (例如匿名和) 繼承會議召集人的策略。
 
 > [!NOTE]
-> 請記住，此設定會控制外接視視， **而 IP 視** 區模式則同時控制外接和傳入視事。 若要深入瞭解，請參閱 [哪個 IP 視視策略設定為優先？](#which-ip-video-policy-setting-takes-precedence) 以及管理會議參與者 [的音訊/視音訊](#manage-audiovideo-for-meeting-participants)。
+> 請記住，此設定會控制外接視視， **而 IP 視** 區模式則同時控制外接和傳入視事。 若要深入瞭解，請參閱 [哪個 IP 視視策略設定為優先？](#which-ip-video-policy-setting-takes-precedence) 以及管理 [會議參與者的音訊/視音訊](#manage-audiovideo-for-meeting-participants)。
 
 | Teams 桌面與 Web 用戶端 |Teams 行動用戶端  |
 |:-------:|:-------:|
@@ -284,7 +283,7 @@ Microsoft 365 政府社群雲端 (GCC) 、GCC High 或美國 (DoD 環境) 這項
 |Daniela   | 全域   | On       |
 |艾曼達    | Location1MeetingPolicy        | 關閉      |
 
-由 Daniela 主持的會議允許開啟視區。 Daniela 可以加入會議並開啟影片。 Amanda 無法開啟在雅可的會議視區，因為安百達的這個政策設定為不允許視視。 Amanda 可以在會議中查看其他參與者共用的影片。
+由 Daniela 主持的會議允許開啟視音訊。 Daniela 可以加入會議並開啟影片。 Amanda 無法開啟在立達的會議視區，因為安百達的這個政策設定為不允許視視。 Amanda 可以在會議中查看其他參與者共用的影片。
 
 在由 Amanda 主持的會議中，無論指派的視音訊策略如何，沒有人可以開啟視音訊。 這表示在安甘達的會議中，有一段影片無法開啟。  
 
@@ -292,7 +291,7 @@ Microsoft 365 政府社群雲端 (GCC) 、GCC High 或美國 (DoD 環境) 這項
 
 若要深入瞭解，請參閱管理 [會議參與者的音訊/影片](#manage-audiovideo-for-meeting-participants)。
 
-#### <a name="which-ip-video-policy-setting-takes-precedence"></a>哪個 IP 視視策略設定優先
+#### <a name="which-ip-video-policy-setting-takes-precedence"></a>哪個 IP 視區策略設定為優先
 
 對於使用者，影片的最嚴格政策設定會優先。 以下是一些範例。
 
@@ -320,7 +319,7 @@ Microsoft 365 政府社群雲端 (GCC) 、GCC High 或美國 (DoD 環境) 這項
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於 Teams 行動用戶端的使用者，在會議期間共用相片和影片的能力取決於允許 **IP 視視** 或 **IP 視區模式設定** 。 根據優先處理哪些政策設定，無法共用影片和相片。 這不會影響螢幕畫面分享，因為螢幕畫面分享是使用個別的螢幕 [畫面分享模式](#screen-sharing-mode) 設定所設定。 此外，您可以設定 [Teams 行動](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) 性政策，防止行動使用者以行動資料線連接使用 IP 影片，這表示他們必須使用 WiFi 連接。
+對於 Teams 行動用戶端上的使用者，在會議期間共用相片和影片的能力取決於允許 IP **視片** 或 **IP 視區模式** 設定。 根據優先處理哪些政策設定，無法共用影片和相片。 這不會影響螢幕畫面分享，因為螢幕畫面分享是使用個別的螢幕 [畫面分享模式](#screen-sharing-mode) 設定所設定。 此外，您可以設定 [Teams 行動](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) 性政策，防止行動使用者以行動資料連線使用 IP 影片，這表示他們必須使用 WiFi 連接。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (Kb) 
 
@@ -373,7 +372,7 @@ Daniela 主持的會議允許會議參與者共用其整個螢幕或特定應用
 
 如果使用者的設定已關閉， **則沒有提供** 控制項選項。
 
-![螢幕擷取畫面顯示沒有提供控制權選項](media/meeting-policies-give-control-not-available.png)
+![螢幕擷取畫面顯示沒有提供控制項選項](media/meeting-policies-give-control-not-available.png)
 
 讓我們看看下列範例。
 
@@ -413,7 +412,7 @@ Daniela 主持的會議允許會議參與者共用其整個螢幕或特定應用
 |Daniela   | 全域   | On       |
 |艾曼達   | Location1MeetingPolicy        | 關閉   |
 
-即使 Amanda 是會議召集人，她也無法共用會議中的 PowerPoint 幻燈片組。 即使會議是由張安達組織，但方安達也可以共用 PowerPoint 幻燈片組。 雖然她無法共用 PowerPoint 幻燈片組，她還是可以查看會議中其他人共用的 PowerPoint 幻燈片組。
+即使 Amanda 是會議召集人，她也無法共用會議中的 PowerPoint 幻燈片組。 即使會議是由安安達組織，但方安達也可以共用 PowerPoint 幻燈片組。 雖然她無法共用 PowerPoint 幻燈片組，她還是可以查看會議中其他人共用的 PowerPoint 幻燈片組。
 
 ### <a name="allow-whiteboard"></a>允許白板
 
@@ -460,7 +459,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 不能在任何�
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
-這是允許無主席電話撥入式會議之每個召集人的政策。 此設定會控制撥入使用者是否可以在未經過驗證的組織使用者的情況下加入會議。 根據預設，此設定為關閉，這表示撥入式使用者將等候在大廳，直到組織已驗證的使用者加入會議。
+這是允許無主席電話撥入式會議之每個召集人的政策。 此設定會控制撥入使用者是否可以在未經過驗證的組織使用者出席的情況下加入會議。 根據預設，此設定為關閉，這表示撥入式使用者將等候在大廳，直到組織已驗證的使用者加入會議。
 
 > [!NOTE]
 > 如果此設定已關閉，且電話撥入使用者會先加入會議，且位於大廳，則組織使用者必須與 Teams 用戶端加入會議，以從大廳准許使用者進入。 沒有大廳控制項可供撥入的使用者使用。
@@ -471,7 +470,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 不能在任何�
 
 ![顯示與使用者在大廳開會的螢幕擷取畫面](media/meeting-policies-lobby.png)
 
- 會議召集人可以在會議 **邀請** 中選取會議選項，以針對他們排定的每一個會議變更此設定。
+ 會議召集人可以在會議 **邀請** 中選取會議選項，以針對他們排程的每一個會議變更此設定。
 
 > [!NOTE]
 > 在會議選項中，設定會標示為「誰可以避開大廳」。 如果您變更任何使用者的預設設定，該設定會適用于該使用者組織的所有新會議，以及使用者未修改會議選項的任何先前會議。
@@ -479,13 +478,13 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 不能在任何�
 |設定值  |加入行為 |
 |---------|---------|
 |**任何人**   |所有會議參與者直接加入會議，而不需要在大廳等候。 這包括已驗證的使用者、來自信任組織的外部 (、) 、來賓和匿名使用者。     |
-|**貴組織及聯盟組織的每個人**     |組織中已驗證的使用者 ，包括來賓使用者和來自信任組織的使用者，可以直接加入會議，而不需要在大廳等候。  匿名使用者在大廳等候。   |
+|**貴組織及聯盟組織的每個人**     |組織中已驗證的使用者 ，包括來賓使用者和信任的組織使用者，可以直接加入會議，而不需要在大廳等候。  匿名使用者在大廳等候。   |
 |**貴組織所有人**    |組織內部已驗證的使用者 ，包括來賓使用者，可以直接加入會議，而不需要在大廳等候。  來自信任組織和匿名使用者的使用者在大廳等候。 這是預設設定。           |
 |**僅召集人**    |只有會議召集人可以直接加入會議，而不必在大廳等候。 其他所有人 ，包括組織中已驗證的使用者、來賓使用者、信任組織的使用者和匿名使用者，都必須在大廳等候。           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允許撥入使用者旁路大廳
 
-這是每個召集人的政策。 此設定會控制不論自動准許人員進入，是否由電話撥入的人直接加入會議或在大廳 **等候** 。 此設定預設為關閉。 關閉此設定時，撥入使用者會等候在大廳，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入。 開啟此設定時，撥入使用者會在組織使用者加入會議時自動加入會議。
+這是每個召集人的政策。 此設定會控制以電話撥入的人是否直接加入會議，或在大廳等候，而不管自動 **准許人員設定** 。 此設定預設為關閉。 關閉此設定時，撥入使用者會等候在大廳，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入。 開啟此設定時，撥入使用者會在組織使用者加入會議時自動加入會議。
 
 > [!NOTE]
 > 如果撥入式使用者在組織使用者加入會議之前加入會議，他們會被放置在大廳，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入。 如果您變更任何使用者的預設設定，該設定會適用于該使用者組織的所有新會議，以及使用者未修改會議選項的任何先前會議。
@@ -515,9 +514,9 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 不能在任何�
 
 誰 **可以出席？** 設定可讓會議召集人選擇會議簡報者。 若要深入瞭解，請參閱變更 Teams 會議的參與者 [設定](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 和 [Teams 會議的角色](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
 
-您可以使用 [Set-CsTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議政策，並將它指派給使用者。
+您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議政策，並將它指派給使用者。
 
-若要在 Teams 中指定 Who **can present？** 設定預設值，請設定 **DesignatedPresenterRoleMode** 參數為下列其中一項：
+若要在 Teams 中指定 Who **can present？** 設定預設值，請設定 **DesignatedPresenterRoleMode** 參數至下列其中一項：
 
 - **EveryoneUserOverride：** 所有會議參與者都可以是簡報者。 此為預設值。 此參數會對應到 Teams **中的所有人** 設定。
 - **EveryoneInCompanyUserOverride：** 組織中已驗證的使用者 ，包括來賓使用者，可以是簡報者。 此參數會對應到 Teams **中的組織** 人員設定。
@@ -533,7 +532,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 不能在任何�
 
 這是每個使用者的策略。 此設定會控制會議召集人是否可以下載 [會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-目前，您僅能使用 PowerShell 來設定此策略設定。 您可以使用 [Set-CsTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議政策，並將它指派給使用者。
+目前，您僅能使用 PowerShell 來設定此策略設定。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議政策，並將它指派給使用者。
 
 若要讓會議召集人下載會議出席報告，請設定 **AllowEngagementReport 參數** 為 **Enabled。** 啟用時，下載報表的選項會顯示在參與者 **窗格中** 。
 
@@ -541,16 +540,16 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 不能在任何�
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>會議政策設定 - 群島模式的會議提供者
 
-這是每個使用者的策略。 此設定會控制哪些 Outlook 會議附加元件適用于位於 *群島模式的使用者*。 您可以指定使用者只能使用 [Teams 會議] 增益集，或是可同時使用 [Teams 會議] 和 [商務用 Skype 會議] 增益集在 Outlook 中排程會議。
+這是每個使用者的策略。 此設定會控制哪些 Outlook 會議附加元件適用于 *位於群島模式的使用者*。 您可以指定使用者只能使用 [Teams 會議] 增益集，或是可同時使用 [Teams 會議] 和 [商務用 Skype 會議] 增益集在 Outlook 中排程會議。
 
 您只能將此原則套用到處於離島模式的使用者，並在其 Teams 會議原則中將 **AllowOutlookAddIn** 參數設定為 **True**。
 
-目前，您僅能使用 PowerShell 設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議政策，並將它指派給使用者。
+目前，您僅能使用 PowerShell 設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議政策，並將它指派給使用者。
 
-若要指定您想要提供給使用者使用的會議附加元件，請設定 **PreferredMeetingProviderForIslandsMode** 參數，如下所示：
+若要指定您想要提供給使用者使用的會議附加元件，請設定 **PreferredMeetingProviderForislandsMode** 參數，如下所示：
 
 - 將參數設定為 **TeamsAndSfB，** 以在 Outlook 中同時啟用 Teams 會議附加元件和商務用 Skype 附加元件。 此為預設值。
-- 將參數設定為 **Teams，** 以在 Outlook 中僅啟用 Teams 會議附加元件。 此策略設定可確保所有未來的會議都有 Teams 會議加入連結。 它不會將現有的商務用 Skype 會議加入連結遷移到 Teams。 此策略設定不會影響目前狀態、聊天、PSTN 通話，或商務用 Skype 中的其他任何功能，這表示使用者將繼續使用商務用 Skype 來使用這些功能。
+- 將參數設定為 **Teams，** 以在 Outlook 中僅啟用 Teams 會議外掛程式。 此策略設定可確保所有未來的會議都有 Teams 會議加入連結。 它不會將現有的商務用 Skype 會議加入連結遷移到 Teams。 此策略設定不會影響目前狀態、聊天、PSTN 通話，或商務用 Skype 中的其他任何功能，這表示使用者將繼續使用商務用 Skype 來使用這些功能。
 
   如果您將參數設定為 **Teams，** 然後切換回 **TeamsAndSfB，** 兩個會議附加元件都已啟用。 現有的 Teams 會議加入 **連結不會** 移入商務用 Skype。 只有變更之後排程的商務用 Skype 會議會擁有商務用 Skype 會議加入連結。
 
@@ -558,7 +557,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 不能在任何�
 
 這是每個使用者的策略。 此設定會控制使用者是否可以在會議中自訂其視視背景。
 
-目前，您僅能使用 PowerShell 設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議政策，然後將該策略指派給使用者。
+目前，您僅能使用 PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議政策，然後將該策略指派給使用者。
 
 若要指定使用者是否可以在會議中自訂視訊背景，請設定 **VideoFiltersMode** 參數，如下所示：
 

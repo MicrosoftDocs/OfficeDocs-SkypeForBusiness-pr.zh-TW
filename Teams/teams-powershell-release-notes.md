@@ -13,25 +13,25 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24fa58e50ad42d3204fd4dc1269c8f59a3349d5e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3e464071252ebbd713495ba070ba3f9ae8a23c3b
+ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569395"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741894"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
-此頁面提供適用于一般可用性和公開預覽版的最新 Teams PowerShell 變更記錄。
+此頁面提供適用于公開發行和公開預覽版的最新 Teams PowerShell 變更記錄。
 
 ## <a name="release-notes"></a>版本資訊
 
 > [!NOTE]
-> **-在下方** 版本欄中的預覽代表 Teams PowerShell 公開預覽的更新。
+> **-以下版本** 欄中的預覽代表 Teams PowerShell 公開預覽的更新。
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>使用 MSAL 進行驗證&授權</li><li>已重新群組原則套件 Cmdlet 並新增群組套件指派</li><li>Cmdlet 的 Mezzo 和批次Get-Team增強功能</li> <li>改善現有 Cmdlet 的記錄與錯誤選項 </li> <li>新增範本管理 Cmdlet</li> <li>已New-CsOnlineSession</li>|
+| 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>使用 MSAL 進行驗證&授權</li><li>已重新群組原則套件 Cmdlet 並新增群組套件指派</li><li>Cmdlet 的Get-Team增強功能</li> <li>改善現有 Cmdlet 的記錄與錯誤選項 </li> <li>新增範本管理 Cmdlet</li> <li>已New-CsOnlineSession</li>|
 | 2021 年 2 月 | [1.1.11 預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>新增範本管理 Cmdlet</li><li>Cmdlet 的 Mezzo 和批次Get-Team增強功能</li> <li>改善現有 Cmdlet 的記錄與錯誤選項 </li> <li>已重做要素的 Policy Package Cmdlet</li>|
 | 2020 年 12 月 | [1.1.10 預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>更新至 New-team Cmdlet 且提高重試和睡眠持續時間</li>|
 | 2020 年 12 月 | [1.1.9 預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>商務用 Skype Online 整合的更新</li><li>使用 Teams 修正重複Connect-Microsoft提示</li>|
@@ -49,7 +49,7 @@ ms.locfileid: "50569395"
 ### <a name="cmdlet-availability"></a>Cmdlet 可用性
 
 > [!NOTE]
-> 下表中的清單僅包含原始為 Teams PowerShell 模組一部分的 Cmdlet。 不會顯示商務用 S[kype Online 連接器模組](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) 中的 Teams Cmdlet。 不過，當這些 Cmdlet 以原生移轉至 Teams PowerShell 時，我們會將它們新增到這個資料表中。
+> 下表中的清單僅包含原始為 Teams PowerShell 模組一部分的 Cmdlet。 商務用 S[kype Online Connector](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) 模組中的 Teams Cmdlet 不會顯示。 不過，當這些 Cmdlet 原生地移入 Teams PowerShell 時，我們會將它們新增到這個資料表中。
 
 | Cmdlet | 在公開預覽中提供 | 可在 GA 中使用 |
 | -| -- | --|
@@ -106,4 +106,4 @@ ms.locfileid: "50569395"
 
 [Microsoft Teams Cmdlet 參照](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-[商務用 Skype Cmdlet 參照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[商務用 Skype Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)

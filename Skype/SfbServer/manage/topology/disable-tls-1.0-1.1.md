@@ -11,25 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 摘要：在您的環境中準備及執行停用 TLS 1.0 和1.1。
-ms.openlocfilehash: da76280540f9d18435ed929aace6cf6fc439a4cf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在您的環境中準備及執行停用 TLS 1.0 和1.1。
+ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826393"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726394"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 
-本文的目的在於為您提供必要的指南，以便在您的環境中準備及執行停用 TLS 1.0 和1.1。 此程式需要大量的規劃與準備工作。 請務必仔細閱讀本文中的所有資訊，以停用您組織的 TLS 1.0 和1.1。 請注意，禁用 TLS 1.0/1.1 時，可能會影響許多外部相依性和連線條件，因此需要進行大量的規劃與測試。
+本文可協助您準備及執行，在您的環境中停用 TLS 1.0 和1.1。 此程式需要大量的規劃與準備工作。 當您為組織停用 TLS 1.0 和1.1 時，請仔細閱讀本文中的所有資訊。 停用 TLS 1.0/1.1 時，可能會影響許多外部相依性和連線狀況，所以有保證進行大量的規劃和測試。
 
-## <a name="in-this-article"></a>本文內容
-
-- [背景和範圍](#background)
+- [背景和範圍](#background-and-scope)
 - [必要條件及處理常式](#prerequisites-and-process)
 - [高級部署案例](#advanced-deployment-scenarios)
 
-## <a name="background"></a>Background
+## <a name="background-and-scope"></a>背景和範圍
 
 提供 TLS 1.0 和1.1 的主要驅動程式停用商務用 Skype Server On-Premises 是支付卡行業 (PCI) 安全性標準理事會和聯邦資訊處理標準需求。 您可以在 [這裡](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)找到 PCI 需求的詳細資訊。  Microsoft 不會提供您的組織是否需要遵守這些或其他需求的指導方針。 您必須決定是否需要在您的環境中停用 TLS 1.0 和/或1.1。
 
@@ -476,7 +474,7 @@ Windows Registry Editor Version 5.00
 
 **選項2：** 預先安裝本機 SQL 實例 (RTCLOCAL 和 LYNCLOCAL) 
 
-1. 下載並複製 SQL Express 2014 SP2 ( # A0) 在 FE 上的本機資料夾。 讓我們說 <SQL_FOLDER_PATH> 的資料夾路徑。
+1. 下載並複製 SQL Express 2014 SP2 (SQLEXPR_x64.exe) 至 FE 上的本機資料夾。 讓我們說 <SQL_FOLDER_PATH> 的資料夾路徑。
 2. 啟動 PowerShell 或命令提示字元，並流覽至 <SQL_FOLDER_PATH>。
 3. 執行下列命令，以建立 RTCLOCAL SQL 實例。 請等到 SQLEXPR_x64.exe 完成，再繼續執行：
 

@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: 設定 Teams 即時活動設定
             href: teams-live-events/configure-teams-live-events.md
+          - name: 即時活動錄製原則
+            href: teams-live-events/live-events-recording-policies.md
   - name: 語音 - 電話系統與 PSTN 連線
     items:
       - name: 規劃您的 Teams 語音解決方案
