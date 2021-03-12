@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030609"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726234"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用 [快速入門精靈] 設定商務語音
 
@@ -53,7 +53,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
 <table>
     <tr>
         <td>如果需要變更緊急地址，請按一下 <b>[編輯]</b>，然後輸入新地址。 您提供的地址需經過驗證，以確認其合法性且格式正確，可供緊急回應服務時使用。 然後，此地址會指派給在下一個步驟中指派號碼的所有使用者。 如果您有位於超過單一位置的員工，請參閱<a href="./customize-business-voice.md">商務語音設計自訂</a>，了解如何在準備 [快速入門精靈] 後，新增並指派更多緊急地址。</td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="wizard choose number"></td></tr>
 </table>
 
 如需詳細資訊，請參閱[什麼是緊急位置、地址和通話路由](../what-are-emergency-locations-addresses-and-call-routing.md)？
@@ -64,7 +64,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
     <tr>
         <td>除了新的當地電話號碼以外，您還可以購買免付費電話號碼，或將現有的號碼移轉到 Microsoft 365。 若要設定免付費電話號碼，您必須購買通訊點數。 若要將一或多個號碼移轉至 Microsoft 365，請在精靈完成後，前往 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心</a>。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="choose number">
         </td>
     </tr>
 </table>
@@ -78,7 +78,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
     <tr>
         <td>若要指派使用者授權，請選取組織中需要撥打或接聽 Teams 外部電話 (例如與供應商通話) 的人員。 您只能指派可用的商務語音授權數量。 如果需要更多，您可以在精靈完成後購買額外的授權。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400" alt="get numbers">
         </td>
     </tr>
 </table>
@@ -92,7 +92,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
     <tr>
         <td>您可以上傳最多 5 Mb 的音效檔 (MP3 或 WAV) 做為來電問候語，或可以輸入您的問候語，而 Microsoft 365 會使用 [文字轉換語音] 功能將其讀給來電者。 當來電者撥打貴公司的電話號碼時，來電者首先聽到的即是該問候語。 若為文字轉換語音，您可能需要使用拼音來正確發音。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400" alt="greeting">
         </td>
     </tr>
 </table>
@@ -104,7 +104,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
         <td>您可以將所有來電轉接給特定使用者，或設定來電者可選擇的功能表選項。 如果建立通話功能表，您可以指定來電者透過語音或在電話鍵盤上按數字來選取選項。 每個功能表選項皆可將通話轉接給特定使用者。<br><br>
         您可以上傳最多 5MB 的音效檔 (MP3 或 WAV) 以提供來電者指示，或者直接輸入指示。 Microsoft 365 會使用 [文字轉換語音] 將指示讀給來電者。 您可能需要按照發音拼音字詞，以獲得正確發音。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400" alt="call forwarding">
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
         <td> <p>[快速入門精靈] 會使用您輸入的資訊來設定商務語音。 您可以在<b>概觀</b>頁面看到指派給使用者的電話號碼、查看通話功能表，聆聽問候語等。</p>
              <p>設定需要數分鐘的時間。 若您選取 <b>[完成]</b>，我們會繼續在背景中設定商務語音。 您也可以等待設定完成。 完成之後，請移至 <a href="https://admin.teams.microsoft.com" target="_blank">[Teams 系統管理中心]</a> 的 <b>[語音]</b>，以設定更多商務語音功能。</p>
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400" alt="finish page">
         </td>
     </tr>
 </table>

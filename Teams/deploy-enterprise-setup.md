@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fea59dd39023e9ac9a3234491742bc5a998926a
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: d8144b830bec7f51bd97c59211d629aae7ffb3c9
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395422"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726384"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在您的企業中設定 Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "50395422"
 
 #### <a name="chat-teams-and-channels"></a>[聊天、團隊和頻道](#tab/ChatTeamsChannels)
 
-聊天、團隊和頻道是 Teams 的基礎。 **聊天** 可讓一或多個使用者彼此交談、共用檔案，以及私下開會。 **團隊**，(可選擇允許貴組織所有人或只有團隊中的人員可以看到) 可讓適當的人員無論工作或場合為何、無論是長時間作業的專案或是規劃生日派對，皆能共同作業。 團隊中的 **頻道** 可以區隔主題、專案、部門或其他任何對您的團隊有意義的項目。 如需聊天、團隊和頻道的詳細資訊，請參閱 [團隊和頻道概觀](teams-channels-overview.md)。
+聊天、團隊和頻道是 Teams 的基礎。 **聊天** 可讓一或多個使用者彼此交談、共用檔案，以及私下開會。 **Teams**，讓貴組織所有人或只有團隊中的人員可以看到，讓適當的人員無論工作或場合進行共同合作，無論是長時間執行的專案或規劃生日派對。 團隊中的 **頻道** 可以區隔主題、專案、部門或其他任何對您的團隊有意義的項目。 如需聊天、團隊和頻道的詳細資訊，請參閱 [團隊和頻道概觀](teams-channels-overview.md)。
 
 > [!TIP]
 > 在 Microsoft Learn 上完成 [管理 Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) 模組，以瞭解如何管理團隊角色、存取權限與訊息傳遞原則。
@@ -72,7 +72,7 @@ ms.locfileid: "50395422"
 | 決策 | 描述 |
 |--|--|
 | 應套用哪些訊息傳遞原則？ | 訊息傳迪原則可控制哪些聊天和頻道傳訊功能 (例如誰可以使用聊天、誰可以編輯及刪除已傳送的訊息等等) 可供 Teams 使用者使用。 Teams 具有適用於所有人的全域原則。 全域原則中的所有功能依預設為 **開啟**。<p>如果您想要將相同的原則套用于所有人，您只需要變更此全域原則 (例如，關閉交談中的 Meme 支援)。<p>如果您想要將不同的原則套用于不同的人員群組 (例如，將一個原則套用于辦公室員工，另一個原則套用于工廠員工)，您可以建立並指派原則。 當您將原則指派給使用者時，他們將不再適用全域原則。<p>[管理 Teams 中的訊息傳遞原則](messaging-policies-in-teams.md) |
-| 應套用哪些 Teams 設定？ | Teams 設定可讓您為團隊設定使用電子郵件整合、雲端儲存選項、組織索引標籤、會議室裝置設定和搜尋範圍等功能。 對這些設定進行變更時，設定會套用到組織中的所有團隊。 <p>[Teams 設定](enable-features-office-365#teams-settings)  |
+| 應套用哪些 Teams 設定？ | Teams 設定可讓您為團隊設定使用電子郵件整合、雲端儲存選項、組織索引標籤、會議室裝置設定和搜尋範圍等功能。 對這些設定進行變更時，設定會套用到組織中的所有團隊。 <p>[Teams 設定](enable-features-office-365.md#teams-settings)  |
 
 ### <a name="external-and-guest-access"></a>外部和來賓存取
 
@@ -156,7 +156,7 @@ Teams 和 Microsoft 365 提供許多工具，協助符合貴公司和使用者�
 
 當您準備好讓使用者開始使用 Teams 時，他們可以在其 Windows、Mac 或 Linux 電腦或其 Android 或 iOS 裝置上安裝 Teams 用戶端。 使用者可以直接從 <https://teams.microsoft.com/downloads>下載 Teams 用戶端。
 
-請確定所有將使用 Teams 的人都具有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
+確定所有將使用 Teams 的人都擁有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
 
 > [!TIP]
 > 完成 Microsoft Learn 上的 [部署 Microsoft Teams 用戶端](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) 模組，以取得規劃 Teams 用戶端部署的建議。
