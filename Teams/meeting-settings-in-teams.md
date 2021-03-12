@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
-ms.translationtype: MT
+ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903564"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711760"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -37,9 +37,9 @@ ms.locfileid: "49903564"
 
 利用匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者的身分加入會議。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
 
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-您必須是團隊服務管理員，才能進行這些變更。 請參閱 [使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，瞭解如何取得管理員角色和許可權。
+您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles)，以了解取得系統管理員角色和權限。
 
 1. 移至系統管理中心。
 
@@ -52,25 +52,25 @@ ms.locfileid: "49903564"
 > [!CAUTION]
 > 如果您不想讓匿名使用者加入由組織中的使用者排程的會議，請關閉此設定。
 
-## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允許匿名使用者與會議中的 app 互動
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允許匿名使用者與會議中的應用程式互動
 
-匿名使用者現在將繼承使用者層級全域預設許可權原則。 只要使用者層級許可權原則啟用應用程式，此控制項就會允許匿名使用者與團隊會議中的 app 互動。 請注意，匿名使用者只能與會議中已經提供且無法取得及/或管理這些應用程式的應用程式互動。 
+匿名使用者現在會繼承使用者層級的全域預設權限原則。 只要使用者層級權限原則已啟用應用程式，此控制項就會允許匿名使用者與 Teams 會議中的應用程式互動。 請注意，匿名使用者只能與已在會議提供的應用程式互動，且無法取得和/或管理這些應用程式。 
 
 > [!IMPORTANT]
-> 根據預設，允許匿名使用者與 [會議] 中的應用程式互動的設定為 [已啟用]。
+> 預設會啟用允許匿名使用者與會議中應用程式互動的設定。
 
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-您必須是團隊服務管理員，才能存取此設定。 請參閱 [使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，瞭解如何取得管理員角色和許可權。
+您必須是 Teams 服務系統管理員才能存取此設定。 請參閱[使用 Teams 系統管理員角色來管理 Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles)，以了解取得系統管理員角色和權限。
 
 1. 移至系統管理中心。
 
-2. 在左側導覽中，移至 [會議]  >  [會議設定]。
+2. 在左側瀏覽中，移至 [會議 **]**  >  [會議設定 **]**。
 
-3. 在 [ **參與者**] 底下， **匿名使用者的設定可以與會議中的 app 互動** 。
+3. 在 [參與者 **]** 中，可以變更 [匿名使用者可以在會議中使用應用程式進行互動 **]** 設定。
 
 > [!CAUTION]
-> 如果您不希望匿名使用者與您組織中的使用者排程的會議中的 app 互動，請關閉此設定。
+> 如果您不想讓匿名使用者與組織中使用者排程的會議中的應用程式互動，請關閉此設定。
 
 ## <a name="customize-meeting-invitations"></a>自訂會議邀請
 
@@ -86,7 +86,7 @@ ms.locfileid: "49903564"
 
 ### <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 移至系統管理中心。
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
@@ -106,12 +106,12 @@ ms.locfileid: "49903564"
 
 <a name="bknetwork"> </a>
 
-如果您使用的是服務品質 (QoS) 來排定網路流量的優先順序，您可以為每種媒體流量啟用 QoS 標記和設定埠範圍。 針對不同流量類型設定連接埠範圍，在處理即時媒體中只需一個步驟；如需更多詳細資訊，請參閱 [Teams 中的服務品質 (QoS)](qos-in-teams.md)。
+如果您使用服務品質 (QoS) 來排程網路流量的優先順序，則可以啟用 QoS 標記，並針對每個類型的媒體流量設定連接埠範圍。 針對不同流量類型設定連接埠範圍，在處理即時媒體中只需一個步驟；如需更多詳細資訊，請參閱 [Teams 中的服務品質 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
-> 如果您在 [團隊服務] 的 Microsoft [團隊管理中心] 啟用 [QoS] 或 [變更設定]，您也必須 [將 [相符] 設定套用到所有的使用者裝置](QoS-in-Teams-clients.md) 和所有內部網路裝置，才能完全實現團隊中的 QoS 變更。
+> 如果您在 Microsoft Teams 系統管理中心針對 Teams 服務啟用 QoS 或變更設定，您也必須[將相符設定套用到所有使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，以便對 Teams 中的 QoS 完整實作變更。
 
- ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 1. 移至系統管理中心。
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 3. 在 [網路] 底下，執行下列動作：
@@ -120,10 +120,10 @@ ms.locfileid: "49903564"
 
     - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > DSCP 標記通常是透過來源埠完成，而 UDP 流量預設會以3478的目的地埠路由到傳輸中繼。 如果您的公司需要在目的地埠上加上標記，請聯絡支援人員來啟用傳輸中繼與 UDP 埠 3479 (音訊) 、3480 (視頻) ，以及 3481 (共用) 。
+        > DSCP 標記通常是透過來源連接埠完成，且 UDP 流量預設會路由至目的地連接埠為 3478 的傳輸轉送。 如果您的公司需要標記目的地連接埠，請連絡支援人員，以啟用使用 UDP 連接埠 3479 (音訊)、3480 (視訊) 和 3481 (共用) 對傳輸轉送的通訊。
     - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍] 旁選取 [指定連接埠範圍]，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。 若要實作 QoS，需要選取此選項。 
         > [!Note]
-        > 如果已開啟 **即時媒體流量的服務品質 (QoS) 標記** ，則您必須管理您的埠設定。 它們不會自動進行管理。
+        > 如果 [插入即時媒體流量的服務品質 (QoS) 標記 **]** 已開啟，則必須管理您的連接埠設定。 不會自動管理。
         
         > [!IMPORTANT]
         > 如果您選取 [自動使用任何可用的連接埠]，則會使用 1024 和 65535 之間的可用連接埠。 只有在不實作 QoS 時才使用此選項。
@@ -138,9 +138,9 @@ ms.locfileid: "49903564"
 |:---             |:---                         |:---    |:---      |:---      |
 |音訊            | 50,000-50,019               |TCP/UDP |46        |快速式轉送 (EF)|
 |影片            | 50,020-50,039               |TCP/UDP |34        |保證式轉送 (AF41)|
-|應用程式/螢幕共用| 50,040-50,059      |TCP/UDP |滿        |保證式轉送 (AF21)|
+|應用程式/螢幕共用| 50,040-50,059      |TCP/UDP |18        |保證式轉送 (AF21)|
 | | | | |
 
-\* 您指定的埠範圍無法重迭，且應該彼此相鄰。
+\* 您指派的連接埠範圍不能重疊，且應該彼此相鄰。
 
 在使用 QoS 一段時間後，您將會獲得這三個工作負載相關需求的使用資訊，而且您可以根據自己的特定需求來選擇要進行的變更。 [通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)對此應該有幫助。
