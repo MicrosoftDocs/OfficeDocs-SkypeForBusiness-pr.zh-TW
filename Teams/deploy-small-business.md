@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395415"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726214"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>在小型企業中設定 Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "50395415"
 > [!TIP]
 > 瞭解如何在 Microsoft Learn 上完成 [管理 Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) 模組，以管理小組角色、存取權和訊息原則。
 
-當您考慮推出團隊和頻道時，您必須決定誰應該可以建立團隊和頻道、組織外部的來賓是否可以存取它們等等。 文章 [Microsoft Teams 中的聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 提供許多有關聊天、團隊和頻道規劃的資訊，不過，以下是該文章中您應該思考的一些重點。 若您想要更多相關資訊，請按一下決策。
+當您考慮推出團隊和頻道時，您必須決定誰應該可以建立團隊和頻道、組織外部的來賓是否可以存取它們等等。 文章 [Microsoft Teams 中的聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 提供許多有關聊天、團隊和頻道規劃的資訊，不過，以下是該文章中您應該思考的一些重點。 若您想要更多相關資訊，請選取該決策。
 
 | 決策 | 說明 |
 |--|--|
@@ -62,7 +62,7 @@ ms.locfileid: "50395415"
 您不需要為使用者執行其他動作，使用者即可開始使用聊天、團隊和頻道。 不過，有許多選項可用來控制 Teams 的使用方式。 您可以現在變更，或等到您看到人員如何使用 Teams。 如需詳細資訊，請查看下列文章：
 
 - [管理 Teams 中的訊息原則](messaging-policies-in-teams.md)
-- [Teams 設定](enable-features-office-365#teams-settings)
+- [Teams 設定](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>會議和研討會
 
@@ -92,7 +92,7 @@ Teams 中的會議依預設為啟用狀態，不過，您可以控制召集人�
 
 當您準備好讓使用者開始使用 Teams 時，他們可以在 Windows、Mac 或 Linux 電腦或 Android 或 iOS 裝置上安裝 Teams 用戶端。 使用者可以直接從 <https://teams.microsoft.com/downloads>下載 Teams 用戶端。
 
-確定所有將使用 Teams 的人都擁有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
+確定將使用 Teams 的每個人都擁有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
 
 > [!TIP]
 > 完成 Microsoft Learn 上的 [部署 Microsoft Teams 用戶端](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) 模組，以取得規劃 Teams 用戶端部署的建議。
