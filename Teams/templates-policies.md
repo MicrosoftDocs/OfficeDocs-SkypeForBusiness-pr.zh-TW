@@ -18,17 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理 Teams 範本
-ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
+ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569009"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50765826"
 ---
-# <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
+# <a name="manage-teams-templates-in-the-admin-center"></a>在系統管理中心管理 Teams 範本
 
 在系統管理中心建立範本策略，來管理使用者看到的 Teams 範本。 在每個範本策略中，您可以指定顯示或隱藏哪些範本。
 將不同的使用者指派給不同的範本策略，這樣您的使用者就只會查看指定的 Teams 範本子集。
+
+請觀看這段短片，瞭解如何管理範本策略。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>建立範本策略並指派可用的範本
 
@@ -84,9 +88,9 @@ ms.locfileid: "50569009"
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
-**問：我可以批次指派使用者至小組範本策略嗎？**
+**問：我可以批次指派使用者至小組範本政策嗎？**
   
-答：是，我們支援 PowerShell 中範本策略的批次指派。 此動作的策略類型為 TeamsTemplatePermissionPolicy。 [瞭解更多資訊](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+答：是，我們支援 PowerShell 中範本策略的批次指派。 此動作的策略類型為 TeamsTemplatePermissionPolicy。 [瞭解更多資訊](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **問：群組可以指派給小組範本政策嗎？**
 
@@ -94,7 +98,7 @@ ms.locfileid: "50569009"
 
 **問：如果已建立新範本，該範本會包含在我的政策中嗎？**
 
-答：根據預設，任何新的範本都會顯示。 您可以選擇隱藏系統管理中心的範本，位於範本政策區段。
+答：根據預設，任何新範本都會顯示。 您可以選擇隱藏系統管理中心的範本，位於範本政策區段。
 
 **問：刪除範本時會發生什麼情況？**
 
@@ -140,4 +144,4 @@ ms.locfileid: "50569009"
 
 - [在 Microsoft Teams 中指派策略給使用者 - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [批次指派使用者至策略](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [批次指派使用者至策略](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)

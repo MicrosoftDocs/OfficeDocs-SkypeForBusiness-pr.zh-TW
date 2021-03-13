@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a58cbf682760249ee3b269d1765a265cc58d3022
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615089"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756179"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式設定政策
-
-> [!NOTE]
-> 如果您已啟用整個組織的應用程式設定，允許與自訂應用程式互動，您可能尚未在 Microsoft Teams 系統管理中心看到應用程式設定政策。 目前正在推出，並即將在貴組織中推出。
 
 系統管理員可以使用應用程式設定策略執行下列工作：
 
@@ -46,7 +43,7 @@ ms.locfileid: "50615089"
 |---------|---------|
 |![Teams 桌面用戶端](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Teams 行動用戶端](media/mobile-app-ui.png)      |
 
-若要查看系統管理員安裝的應用程式，請在應用程式欄中，使用者選取 **...Teams 電腦** 版和 Web 用戶端中的更多應用程式，在行動用戶端中向上滑動。
+若要查看系統管理員安裝的應用程式，請在應用程式欄中，使用者選取 **...Teams 桌面** 用戶端和 Web 用戶端中的更多應用程式，在行動用戶端中向上滑動。
 
 您可以在 Microsoft Teams 系統管理中心管理應用程式設定政策。 使用全域 (整個組織的預設) 或建立及指派自訂策略。  除非您建立並指派自訂原則，否則組織中的使用者將會自動取得全域原則。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
@@ -55,7 +52,7 @@ ms.locfileid: "50615089"
 ![應用程式設定政策頁面](media/app-setup-policies.png)
 
 > [!NOTE]
-> 如果您有 Teams 教育課程，請注意，全域原則中預設會釘上作業應用程式，即使目前未在全域原則中顯示。 它將是 Teams 用戶端上釘定應用程式清單中的第四個應用程式。
+> 如果您有 Teams 教育課程，請注意，全域原則中預設會釘上作業應用程式，即使目前您未在全域原則中看見它。 它將是 Teams 用戶端上釘定應用程式清單中的第四個應用程式。
 
 ## <a name="create-a-custom-app-setup-policy"></a>建立自訂應用程式設定政策
 
@@ -69,7 +66,7 @@ ms.locfileid: "50615089"
 
 3. 輸入原則的名稱和描述。
 
-4. 視您是否 **要讓使用者將** 自訂應用程式上傳至 Teams，開啟或關閉上傳自訂應用程式。 如果全組織 App 設定中已關閉允許協力廠商應用程式，您即[無法變更此設定](manage-apps.md#manage-org-wide-app-settings)。
+4. 視您是否 **要讓使用者將** 自訂應用程式上傳到 Teams 而開啟或關閉上傳自訂應用程式。 如果全組織 App 設定中已關閉允許協力廠商應用程式，您即[無法變更此設定](manage-apps.md#manage-org-wide-app-settings)。
 
 5. 視您是否要讓使用者將應用程式 **釘** 上以個人化其應用程式行，請開啟或關閉允許使用者釘釘。
 
@@ -86,7 +83,7 @@ ms.locfileid: "50615089"
 
 7. 若要釘上應用程式，請執行下列步驟：
 
-    1. 在 **釘選的應用程式下**，選取新增 **應用程式**。
+    1. 在 **釘選的應用程式下**，選取 **新增應用程式**。
 
     2. 在新增釘 **選的應用程式窗格中** ，搜尋您想要新增的應用程式， **然後選取新增**。 您也可以根據應用程式權限原則來篩選應用程式。 當您選擇要釘選的應用程式清單時， **請選取新增**。
 
@@ -102,7 +99,7 @@ ms.locfileid: "50615089"
 
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **Teams 應用程式**  >  **設定政策**。
 
-2. 按一下政策名稱的左側以選取該政策， **然後選取編輯**。
+2. 按一下該政策名稱的左側以選取該政策， **然後選取編輯**。
 
 3. 從此處，進行您需要的變更。
 
@@ -120,7 +117,7 @@ ms.locfileid: "50615089"
 
 - **全域 (全組織預設) ：** 除非您指派其他原則，否則此預設原則會適用于貴組織中的所有使用者。 編輯全域原則以釘上對使用者最重要的應用程式。
 
-- **FrontlineWorker：** 此政策適用于前線工作人員。 您可以將它指派給貴組織的前線工作人員。 請注意，您必須像您建立自訂策略一樣，將設定指派給使用者，設定為使用中。 詳細資訊，請前往本文的指派自訂 [應用程式設定政策給使用者](#assign-a-custom-app-setup-policy-to-users) 一節。
+- **FrontlineWorker：** 此政策適用于前線工作人員。 您可以將它指派給貴組織的前線工作人員。 請注意，您必須像您建立自訂策略一樣，將設定指派給使用者，設定即為使用中。 有關詳細資訊，請前往本文的指派自訂應用程式設定政策 [給使用者](#assign-a-custom-app-setup-policy-to-users) 一節。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我在新增釘寄的應用程式窗格中找不到應用程式
 
@@ -134,7 +131,7 @@ Teams 教育用中無法使用通話應用程式。 當您建立新的自訂應�
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>可新增多少個釘點應用程式至策略
 
-iOS 和 Android (中，至少必須釘) 。 如果一個策略少於兩個 App，行動用戶端不會反映該策略設定，而是繼續使用現有的設定。
+iOS 和 Android (中必須釘 (兩個 App) 。 如果一個策略少於兩個 App，行動用戶端不會反映該策略設定，而是繼續使用現有的設定。
 
 您可以新增到策略的釘上 App 數量沒有限制。
 
@@ -161,11 +158,11 @@ iOS (Android) Teams 行動用戶端目前不支援使用靜態選項卡的個人
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>使用者可以變更透過政策釘寄的應用程式順序嗎？
 
-如果開啟了允許使用者釘選選項，使用者就可以在 Teams 桌面及行動用戶端上變更釘選應用程式的順序。 使用者無法變更在 Teams Web 用戶端上釘上 App 的順序。
+如果開啟了允許使用者釘選選項，使用者可以在 Teams 桌面及行動用戶端上變更釘選應用程式的順序。 使用者無法變更在 Teams Web 用戶端上釘上 App 的順序。
 
 #### <a name="does-user-pinning-take-precedence"></a>使用者釘取是否優先
 
-如果指派給使用者的應用程式設定政策已變更為封鎖使用者 App 釘釘，Teams 會移除釘上至應用程式欄的任何應用程式。 如果系統變更此政策以允許使用者釘上應用程式，使用者必須重新釘上先前釘上的應用程式。
+如果指派給使用者的應用程式設定政策已變更為封鎖使用者 App 釘釘，Teams 會移除釘上至應用程式欄的任何應用程式。 如果系統變更此政策以允許使用者釘上應用程式，使用者必須重新釘上先前釘寄的應用程式。
 
 ### <a name="custom-teams-apps"></a>自訂 Teams 應用程式
 

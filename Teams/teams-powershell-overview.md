@@ -13,18 +13,18 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c2c626d61a10437fc5bb349dd128415d64448a7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569019"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756151"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 概觀
 
 Microsoft Teams PowerShell 是一組 Cmdlet，可直接從 PowerShell 命令列管理 Teams。 Teams PowerShell 以 .NET Standard 撰寫，可于 Windows 上的 PowerShell 5.1、PowerShell 6.x 及更新版本在所有平臺上運作，包括 Azure Cloud Shell。
 
-您開始使用 PowerShell 之前，必須[安裝 PowerShell。](teams-powershell-install.md) 
+開始使用 PowerShell 之前，您必須[安裝 PowerShell。](teams-powershell-install.md) 
 
 > [!WARNING]
 > PowerShell 7 和 Teams PowerShell 有已知問題。 建議您使用 PowerShell 5.1，直到問題解決為止。
@@ -50,7 +50,7 @@ Teams PowerShell 在 [PowerShell 圖庫中提供](https://www.powershellgallery.
 > [!NOTE]
 > [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公開發行版本 1.1.6 或更新版本已與商務用 Skype Online Connector 整合，提供 Teams PowerShell 管理的單一模組。
 
-- [商務用 Skype PowerShell 連接器](https://www.microsoft.com/download/details.aspx?id=39366)：商務用 Skype PowerShell 連接器現在是 Teams PowerShell 模組的一部分。
+- [商務用 Skype PowerShell 連接器](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)：商務用 Skype PowerShell 連接器現在是 Teams PowerShell 模組的一部分。
 
 如需使用這些模組管理 Teams 的完整指南，請參閱使用[Teams PowerShell 管理 Teams。](teams-powershell-managing-teams.md)
 
@@ -65,6 +65,6 @@ Teams PowerShell 在 [PowerShell 圖庫中提供](https://www.powershellgallery.
 
 [Microsoft Teams Cmdlet 參照](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-[商務用 Skype Cmdlet 參照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[商務用 Skype Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 
 [使用 Microsoft Teams 系統管理員角色來管理 Teams](using-admin-roles.md)

@@ -1,5 +1,5 @@
 ---
-title: 在小組中規劃管理-Microsoft 團隊
+title: 在 Teams 中規劃管理 - Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 在本文中，您將瞭解如何規劃在團隊中實施系統管理功能。
+description: 本文將瞭解如何在 Teams 中規劃如何執行管理功能。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,159 +17,149 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2180c819491b3067225ada993aec60ec052bc69f
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 38e51b85e7ecf8efc61c6ca78ca16e4366372885
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416911"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756229"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
-團隊會提供一組豐富的工具來實施貴組織可能需要的任何管轄功能。 本文將指導 IT 專業人員提出正確的問題，以決定其管理需求，以及如何滿足他們的需求。 
+Teams 提供豐富的工具，可實施貴組織可能需要的任何管理功能。 本文會引導 IT 專業人員提出正確的問題，以判斷其監管需求，以及如何符合這些需求。 
 
 > [!Tip] 
-> 請觀看下列會話，深入瞭解 Microsoft 團隊中的管轄： [管理、管理與生命週期](https://aka.ms/teams-governance)
+> 觀看下列會話以深入瞭解 Microsoft Teams 中的管理[：Microsoft Teams](https://aka.ms/teams-governance)中的管理、管理和生命週期
 
-## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>群組和小組建立、命名、分類和來賓存取
+## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>群組和團隊建立、命名、分類和來賓存取
 
-您的組織可能會要求您在小組命名及分類的方式上執行嚴格的控制，您可以將來賓新增為小組成員，以及誰可以建立團隊。 您可以使用 Azure Active Directory (Azure AD) 及敏感度標籤來設定這些區域。 
+您的組織可能會要求您對團隊的命名與分類方式、來賓是否可以新增為團隊成員，以及誰可以建立團隊，進行嚴格控制。 您可以使用 Azure Active Directory 和 Azure AD (和敏感度) 設定這些區域。 
 
 <br>
 
-|         |         |         |
+|-        |-        |-        |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |決策點|<ul><li>貴組織是否需要適用于團隊的特定命名慣例？</li><li>小組創作者是否需要能夠將組織特定分類指派給團隊？</li><li>您是否需要限制將來賓新增到小組的人員的能力？</li><li>貴組織是否需要限制誰可以建立團隊？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|後續步驟|<ul><li>記錄貴組織建立、命名、分類和來賓存取的需求。</li><li>規劃將這些需求作為小組推出的一部分來執行。</li><li>溝通及發佈您的原則，以告知小組使用者他們可以預期的行為。</li></ul>|
-
-> [!TIP]
-> 使用下表來捕獲貴組織的需求。
-
-|功能 |詳細資料 |Azure AD Premium <br> 需要授權 |決議 |
-|---------|---------|---------|---------|
-|團隊命名原則 | 使用以前置詞為基礎的自訂封鎖字。 |P1 |TBD |
-|小組分類 |指派分類給小組。 |P1 |TBD |
-|小組來賓存取 |允許或禁止將來賓新增至小組。 |否 |TBD |
-|小組建立 |將小組建立限制為管理員。 |否 |TBD|
-|小組建立 |將小組建立限制為安全群組成員。 |P1 |TBD|
-|敏感度標籤|設定隱私權與來賓共用|否|TBD|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |決策點|<ul><li>您的組織是否需要團隊的特定命名慣例？</li><li>團隊創作者需要將組織特定的分類指派給團隊嗎？</li><li>您需要根據每個團隊限制將來賓新增到團隊的能力嗎？</li><li>您的組織是否需要限制誰可以建立團隊？</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|後續步驟|<ul><li>記錄貴組織建立團隊、命名、分類和來賓存取的需求。</li><li>規劃在 Teams 推出時執行這些需求。</li><li>溝通併發布您的政策，讓 Teams 使用者瞭解他們預期的行為。</li></ul>|
 
 > [!NOTE]
-> 若要協助您預先規劃，請 [進一步瞭解如何設定這些原則以及他們所需的授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
+> 若要協助您提前規劃， [請深入瞭解如何設定這些策略，以及需要哪些授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制群組和小組建立可能會降低使用者的生產力，因為許多 Microsoft 365 和 Office 365 服務都需要建立群組才能正常運作。 如需其他資訊，請流覽並展開 [控制誰能建立 Microsoft 365 群組的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
+> 限制群組和團隊建立可能會降低使用者的生產力，因為許多 Microsoft 365 和 Office 365 服務都需要建立群組，才能讓服務運作。 有關其他資訊，請流覽至並展開 [為什麼控制建立 Microsoft 365 群組的人](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
 
 #### <a name="additional-information"></a>其他資訊
 
-在您決定需求之後，您可以使用 Azure AD 控制項來實現它們。 如需如何實現這些設定的技術指導方針，請參閱：
+決定需求之後，您可以使用 Azure AD 控制項來將其實施。 有關如何執行這些設定的技術指引，請參閱：
 
-- [Azure Active Directory Cmdlet 用於配置群組設定](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [用於設定群組設定之 Azure Active Directory Cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [在 Azure Active Directory 中強制執行 Microsoft 365 群組的命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [在 Azure Active Directory 中針對 Microsoft 365 群組強制執行命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Microsoft 365 群組命名原則](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+- [Microsoft 365 群組命名政策](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [使用敏感度標籤來保護 Microsoft 團隊、Microsoft 365 群組和 SharePoint 網站中的內容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [使用敏感度標籤來保護 Microsoft Teams、Microsoft 365 群組和 SharePoint 網站中的內容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [群組、團隊和 Yammer 的生命週期選項結束時間](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [群組、團隊和 Yammer 的生命週期結束選項](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
-## <a name="group-and-team-expiration-retention-and-archiving"></a>群組和小組到期、保留及封存
+## <a name="group-and-team-expiration-retention-and-archiving"></a>群組和團隊到期、保留和存檔
 
-您的組織可能對設定到期、保留及封存團隊及小組資料 (通道訊息及) 通道檔案的其他需求。 您可以設定群組過期原則來自動管理群組和保留原則的生命週期，以根據需要保留或刪除資訊，而且您可以將團隊封存 (將其設為唯讀模式) ，以保留不在使用中的小組的時間點視圖。 請注意，已封存的小組會繼續套用過期原則，除非排除或續約，否則可能會被刪除。
+貴組織可能對於設定到期、保留和存檔團隊和團隊資料、頻道訊息和頻道檔案 (設定額外) 。 您可以設定群組到期政策，以自動管理群組的生命週期和保留原則，以視需要保留或刪除資訊，也可以將團隊 (設為唯讀模式) ，以保留不再使用中團隊的時間點模式。 請注意，已存檔的團隊會繼續使用到期原則，除非已排除或續約，否則可能會被刪除。
 
-|           |            |
+|-          |-           |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>貴組織是否需要指定團隊的到期日？</li><li>貴組織是否需要將特定的資料保留原則套用至團隊？</li><li>貴組織是否希望能夠封存不活躍的小組，以保持內容處於唯讀狀態？</li></ul>|
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄貴組織的小組到期、資料保留及封存需求。</li><li>規劃將這些需求作為您團隊推出的一部分來執行。</li><li>溝通及發佈您的原則，以告知小組使用者他們可以預期的行為。</li></ul>|
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您的組織是否需要指定團隊的到期日？</li><li>您的組織是否需要將特定的資料保留原則適用于團隊？</li><li>您的組織預期需要能夠將非使用中的團隊存檔，才能將內容保留為唯讀狀態嗎？</li></ul>|
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄貴組織對於團隊到期日、資料保留和存檔的需求。</li><li>規劃在 Teams 推出時執行這些需求。</li><li>溝通併發布您的政策，讓 Teams 使用者瞭解他們預期的行為。</li></ul>|
 
 > [!TIP]
-> 使用下表來捕獲貴組織的需求。
+> 使用下表來記錄貴組織的需求。
 
-|功能 |詳細資料 |需要 Azure AD Premium 授權 |決議 |
+|功能 |詳細資料 |需要 Azure AD Premium 授權 |決策 |
 |---------|---------|---------|---------|
-|過期原則 |設定過期原則，管理 Microsoft 365 群組的週期。 |P1 |TBD|
-|保留原則 |在安全性 & 合規性中心設定小組的保留原則，以保留或刪除特定時段內的資料。 **注意**：使用這項功能需要授權 Microsoft 365 或 Office 365 Enterprise E3 或更新版本。 |否 |TBD |
-|封存和還原 |當小組已不在使用中，但您想要保留以供參考或在將來重新啟用時，請封存團隊。 |否 |TBD |
+|到期政策 |設定到期政策來管理 Microsoft 365 群組的生命週期。 |P1 |待定|
+|保留政策 |在安全性與合規性中心設定 Teams 的保留&資料。 **注意**：使用此功能需要 Microsoft 365 或 Office 365 企業版 E3 或更新版的授權。 |否 |待定 |
+|存檔和還原 |當團隊不再作用中，但您想要保留該團隊供參考或日後重新啟用時，請將其存檔。 |否 |待定 |
 
 > [!Note]
-> [群組到期] 是 Azure AD Premium 功能。 若要使用此功能，您的租使用者必須具備 Azure AD Premium 的訂閱，以及設定受影響群組之成員之系統管理員的授權。
+> 群組到期是 Azure AD Premium 功能。 若要使用此功能，您的租使用者必須擁有 Azure AD Premium 的訂閱，以及設定及受影響群組成員的系統管理員授權。
 
 #### <a name="additional-information"></a>其他資訊
 
-如需如何實現這些設定的技術指導方針，請參閱：
+有關如何執行這些設定的技術指引，請參閱：
 
-- [設定 Microsoft 365 群組到期](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)日。
+- [設定 Microsoft 365 群組到期](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)。
 
-- [設定小組保留原則](retention-policies.md)。
+- [設定 Teams 保留政策](retention-policies.md)。
 
-- 封存[或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。
+- [存檔或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。
 
 ## <a name="group-and-team-membership-management"></a>群組和小組成員資格管理
 
-在需要快速加入和脫離或使用者和來賓的小組中，始終如一地管理以專案為基礎的成員或受限制的群組是必要的。 貴組織也可能需要確保所有目前成員都能在小組中進行業務調整。 管理成員可能很困難，因為小組擁有者可以離開，而且使用者通常不會在專案結束或變更角色時離開群組本身。 管理群組成員資格的最佳方式，可讓使用者在需要時取得存取權，但確定群組沒有不當存取的風險是透過兩個地區流程： [權利管理與存取權審查]。
+對於需要快速上機和登出的團隊，或使用者和來賓，需要一致地管理專案成員或受限制的群組。 您的組織可能也需要確認目前所有成員都有業務理由可以組成團隊。 管理成員可能比較困難，因為團隊擁有者可以離開，而使用者通常不會在專案結束時或變更角色時自行離開群組。 管理群組成員資格，讓使用者可于需要時取得存取權，但確保群組沒有不當存取的風險，最好的方式就是透過兩個區程式：權利管理和存取審查。
 
-[[權利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)] 可讓您委派給某個人（例如專案經理），以便將所需的所有資源（包括團隊成員資格）收集到單一套件中。 他們也可以定義誰可以發出要求：您租使用者中的使用者或來自其他已連接的組織。 專案經理將會在其電子郵件中收到存取要求，並在 MyAccess 入口網站中核准或拒絕要求。 系統管理員可以設定 access 的條件，以包含到期日或期間（除非 access 已更新），否則將會從團隊中移除使用者或來賓。 系統管理員也可以設定與團隊相關聯的群組，以參與 access 評論。 針對 [access 評論](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，群組擁有者會收到定期提醒，以查看小組成員。 Access 評論包括建議，讓群組擁有者能更輕鬆地完成標準認證程式。
+[權益管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) 可讓您委派給專案經理等人員，以收集所有所需的資源，包括團隊成員資格，並整合成單一套件。 他們也可以定義誰可以提出要求：租使用者中的使用者或其他已連接的組織。 專案經理將會收到電子郵件中的存取要求，並核准或拒絕 MyAccess 入口網站中的要求。 除非續約存取，否則系統管理員可以設定存取的條件，以包含使用者或來賓從團隊中移除的到期日或期間。 系統管理員也可以設定與團隊相關聯的群組，以參與存取審查。 針對 [存取權審查](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，群組擁有者會收到定期提醒，以評論團隊成員。 Access 評論包含建議，讓群組擁有者能更輕鬆地完成一般證明程式。
 
-||||
+|-|-|-|
 |:-|:-|:-|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 決策點 | 貴組織需要一致的程式來管理一或多位團隊的成員資格嗎？ <br> 貴組織是否需要擁有者或成員本身，以定期向一或多個小組的持續成員資格進行調整？ <br> 您的組織是否需要核准使用者和來賓要求對資源的存取權，包括團隊、群組、SharePoint 網站和應用程式？ |
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 後續步驟？ | 針對每個小組或特定小組，為成員資格到期記錄您的組織需求。<br>規劃貴組織可以如何將團隊、群組、SharePoint 網站和應用程式捆綁到 access 套件中。<br>規劃哪些人（例如要求者的管理員）、專案經理、連線組織的主辦人或貴組織中的安全專員，都必須核准或拒絕存取要求。 |
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 決策點 | 您的組織是否需要一致的程式來管理一或多個團隊的成員資格？ <br> 貴組織是否需要擁有者或成員本身，以證明他們定期擁有一或多個團隊的成員資格？ <br> 您的組織是否需要核准使用者和來賓，以要求存取團隊、群組、SharePoint 網站和應用程式等資源？ |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 下一個步驟？ | 記錄您組織對於每個團隊或特定團隊的成員資格到期需求。<br>規劃貴組織如何將小組、群組、SharePoint 網站和應用程式組合在存取套件中。<br>規劃哪些人員需要核准或拒絕存取要求，例如要求人的主管、專案經理、關係企業贊助商或貴組織的安全性人員。 |
 
 > [!TIP]
-> 使用下表來捕獲貴組織的需求。
+> 使用下表來記錄貴組織的需求。
 
-| 功能 | 詳細資料 | 需要 Azure AD Premium 授權 | 決議 |
+| 功能 | 詳細資料 | 需要 Azure AD Premium 授權 | 決策 |
 |:-|:-|:-|:-|
-| Access 評論 | 設定存取權審查，以定期 recertify 特定團隊的成員資格 | 又 | TBD |
-| 權利管理 | 設定存取套件，讓使用者與客人要求對團隊進行存取權 | 又 | TBD |
+| Access 評論 | 設定存取權審查，以定期重新認證特定團隊的成員資格 | P2 | 待定 |
+| 權利管理 | 設定存取套件，讓使用者和來賓要求存取團隊 | P2 | 待定 |
 
 > [!NOTE]
-> 若要協助您預先規劃，請 [進一步瞭解他們所需的授權](https://azure.microsoft.com/pricing/details/active-directory/)。
+> 若要協助您提前規劃， [請深入瞭解他們需要哪些授權](https://azure.microsoft.com/pricing/details/active-directory/)。
 
 ### <a name="additional-information"></a>其他資訊
 
-如需如何實現這些設定的技術指導方針，請參閱：
+有關如何執行這些設定的技術指引，請參閱：
 
 - [權利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
 - [Access 評論](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
-## <a name="teams-feature-management"></a>團隊功能管理
+## <a name="teams-feature-management"></a>Teams 功能管理
 
-小組管理與生命週期管理的另一個重要方面，就是控制您的使用者可以存取哪些功能的功能。 您可以在 Microsoft 365 或 Office 365 組織層級或每位使用者，管理訊息、會議和通話功能。
+Teams 的控管與生命週期管理的另一項重要層面，是能夠控制使用者可存取的功能。 您可以在 Microsoft 365 或 Office 365 組織層級或每個使用者管理訊息、會議及通話功能。
 
 
-|         |         |
+|-        |-        |
 |---------|---------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>貴組織是否需要限制您整個租使用者的小組功能？</li><li>貴組織是否需要限制特定使用者的小組功能？</li></ul>|
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>在租使用者層級中記錄您組織限制小組功能的需求。</li><li>規劃將您的特定需求作為小組推出的一部分來實現。</li><li>溝通及發佈您的原則，以告知小組使用者他們可以預期的行為。</li></ul>|
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您的組織是否需要限制整個租使用者 Teams 的功能？</li><li>您的組織是否需要限制特定使用者的 Teams 功能？</li></ul>|
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄貴組織在租使用者和使用者層級限制 Teams 功能的需求。</li><li>在 Teams 推出時規劃如何執行您的特定需求。</li><li>溝通併發布您的政策，讓 Teams 使用者瞭解他們預期的行為。</li></ul>|
 
-### <a name="teams-feature-management-focus-areas"></a>團隊功能管理焦點區域
+### <a name="teams-feature-management-focus-areas"></a>Teams 功能管理焦點區域
 
-團隊可透過原則提供精確的功能，以控制訊息、會議、通話及即時事件功能等等。 根據貴組織的需求，預設或每位使用者都可以套用不同的原則。 
+Teams 透過政策提供精細的功能，可控制傳訊、會議、通話和即時活動功能等。 根據預設，或貴組織可要求將不同的原則適用于所有使用者或每個使用者。 
 
-如需所有設定的詳細清單，包括如何針對您的組織實施相關的技術指導方針，請參閱下列文章：
+若要瞭解所有設定的詳細清單，包括如何為貴組織執行這些設定的技術指引，請參閱下列文章：
 
 - [管理組織的 Microsoft Teams 設定](enable-features-office-365.md)
 - [在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Microsoft Teams 中的私人頻道](private-channels.md)
-- [在團隊中管理會議原則](meeting-policies-in-teams.md)
-- [管理小組中的訊息傳遞原則](messaging-policies-in-teams.md)
-- [在 Microsoft 團隊系統管理中心管理您的應用程式](manage-apps.md)
+- [管理 Teams 中的會議原則](meeting-policies-in-teams.md)
+- [管理 Teams 中的訊息傳遞原則](messaging-policies-in-teams.md)
+- [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
 
-此外，您可以為頻道設定裁決，並向特定使用者提供仲裁者的功能，讓他們能夠控制誰可以建立頻道發佈及回復。 如需詳細資訊，請參閱 [在 Microsoft 團隊中設定和管理 [頻道裁決](manage-channel-moderation-in-teams.md) ]。
+此外，您可以設定頻道仲裁，並給予仲裁者功能給特定使用者，讓他們可以控制誰可以建立頻道文章並回復他們。 請參閱在 Microsoft Teams 中設定及 [管理頻道的審核，](manage-channel-moderation-in-teams.md) 以瞭解更多資訊。
 
 ## <a name="security-and-compliance"></a>安全性與合規性
 
-團隊是以 Microsoft 365 和 Office 365 的高級安全性與合規性功能為基礎，並支援審核與報告、合規性內容搜尋、電子探索、法律封存及保留原則。
+Teams 建立在 Microsoft 365 和 Office 365 進位的安全性與合規性功能上，支援稽核與報告、合規性內容搜尋、電子探索、法務保留和保留政策。
 
 > [!Important]
-> 如果您的組織具備合規性與安全性需求，請參閱在 [Microsoft 團隊中的安全性與合規性一](security-compliance-overview.md)文中所提供的深入閱讀本主題的內容。
+> 如果貴組織有合規性和安全性需求，請查閱 Microsoft Teams 中安全性與合規性概觀一文提供之本主題 [的深入內容](security-compliance-overview.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 [Teams 的控管快速入門](teams-adoption-governance-quick-start.md) (英文)
+
+[Microsoft 365 安全性與合規性&指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 <!--
 ## Teams lifecycle management
