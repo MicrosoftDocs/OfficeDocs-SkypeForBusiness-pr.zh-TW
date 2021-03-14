@@ -1,5 +1,5 @@
 ---
-title: 在系統管理中心使用團隊零售範本
+title: 在系統管理中心中使用 Teams 零售業範本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用 [團隊範本]，透過使用系統管理中心提供預先定義的設定、頻道及預先安裝的 app，來建立專為零售商所需的小組結構。
+description: 了解如何使用 Teams 範本，使用系統管理中心透過提供預先定義的設定、頻道和預先安裝的應用程式，以建立專為零售商需求設計的團隊結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,37 +21,37 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662638"
 ---
-# <a name="use-teams-retail-templates-in-the-admin-center"></a>在系統管理中心使用團隊零售範本
+# <a name="use-teams-retail-templates-in-the-admin-center"></a>在系統管理中心中使用 Teams 零售業範本
 
-團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
+Teams 範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-團隊範本擁有圍繞零售商需求設計之小組結構的預先建立的定義。 您可以使用團隊範本快速建立適用于零售商的團隊類型，並在整個組織中進行部署。 您也可以延伸團隊範本，建立專為您特定組織需求量身定制的小組。
+Teams 範本具有專為零售商需求設計的團隊結構預先建立的定義。 您可以使用 Teams 範本快速建立適合零售商的團隊類型，並在整個組織中部署。 您也可以擴充 Teams 範本，以建立專為您特定組織需求量身打造的團隊。
 
-在本文中，我們將介紹每個團隊範本，以及我們建議使用它們的方式。
+本文將介紹各個 Teams 範本，並建議如何使用範本。
 
-如果您負責規劃、部署及管理多個零售組織中的多個小組，本文適用于您。 我們假設您已在貴組織中已部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
+如果您負責規劃、部署和管理整個零售組織的多個團隊，本文適合您。 我們假定您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](How-to-roll-out-teams.md)。
 
-若要深入瞭解小組範本的整體資訊，請參閱 [開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
+如需深入了解一般 Teams 範本，請參閱 [Teams 範本入門](get-started-with-teams-templates-in-the-admin-console.md)。
 
-## <a name="organize-a-store"></a>整理商店
+## <a name="organize-a-store"></a>組織商店
 
-將您的零售員工集中在一個集中體驗中，以管理工作、共用文件並解決客戶問題。 整合其他應用程式，以簡化倒班開始 & 結束程式。
+將零售員工彙集在集中的體驗，以管理工作、共用文件及解決客戶問題。 整合其他應用程式，以簡化班次的開始與結束程序。
 
-| 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
+| 基本範本類型 |baseTemplateId | 此基本範本提供的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|整理商店|`retailStore`|管道 <ul><li>一般<li>倒班切換</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|組織商店|`retailStore`|頻道： <ul><li>一般<li>班次交班</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li></ul>|
 ||||
 
-## <a name="manager-collaboration"></a>Manager 共同作業
+## <a name="manager-collaboration"></a>主管共同作業
 
-Manager 共同工作範本適用于為一組主管建立小組，以便在商店/地區等共同作業。例如，如果您的組織有地區，您可以為加利福尼亞地區建立經理共同作業小組，並包含該地區的所有書店管理員，以及該地區的地區經理。
+管理員共同作業範本適合用來建立團隊，以讓一組主管跨商店及區域等進行共同作業。例如，如果您的組織有不同地區，您可以為加州地區建立主管共同作業團隊，並包含該區域的所有商店主管，以及該地區的地區主管。
 
-| 基底範本類型| baseTemplateId | 此基礎範本隨附的屬性 |
+| 基本範本類型| baseTemplateId | 此基本範本提供的屬性 |
 | ------------------|- |----------------------------------------------------- |
-|零售經理共同作業|`retailManagerCollaboration` |管道 <ul><li>一般<li>營運</li><li>教學</li></ul> 應用 <ul><li>Wiki</li></ul>|
+|零售 - 主管共同作業|`retailManagerCollaboration` |頻道： <ul><li>一般<li>營運</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li></ul>|
 ||||

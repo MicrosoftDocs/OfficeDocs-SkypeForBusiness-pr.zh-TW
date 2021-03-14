@@ -1,5 +1,5 @@
 ---
-title: 在團隊中核准應用程式可用性
+title: Teams 中的核准應用程式可用性
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: 瞭解 Microsoft 團隊中的 [核准應用程式可用性]。
+description: 了解 Microsoft Teams 中的核准應用程式可用性。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -20,134 +20,134 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
 ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909517"
 ---
-# <a name="teams-approvals-app-availability"></a>團隊核准應用程式可用性
+# <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
-[核准] 應用程式可作為個人 app 提供給所有 Microsoft 團隊使用者使用。
-核准 app 提供一種簡單的方法，可將審核、合規性、責任及工作流程帶入小組中的結構化和非結構化核准。
+核准應用程式可以個人應用程式形式供所有 Microsoft Teams 使用者使用。
+核准應用程式提供一個簡單的方法，將稽核、合規性、責任和工作流程帶到 Teams 中的結構化和非結構化核准。
 
  ![顯示核准應用程式](media/approvals-selection.png)
 
-使用者可以釘選 [核准] 應用程式，將其儲存至功能表列。
+使用者可以釘選核准應用程式，以將其儲存到功能表列。
 
- ![顯示具有 [pin] 選項的 [核准] 應用程式](media/approvalApp-pin.png)
+ ![顯示具有釘選選項的核准應用程式](media/approvalApp-pin.png)
 
-從核准 app 建立的第一次核准將會觸發在預設的一般資料服務 (光碟) 環境中提供核准方案。 從核准 app 建立的核准將會儲存在預設的 CD 環境中。
+從核准應用程式建立的第一個核准，會觸發在預設 Common Data Service (CDS) 環境中提供核准解決方案。 從核准應用程式建立的核准將會儲存在預設的 CDS 環境中。
 
-本文將說明核准 app 需求與角色。
+本文章說明核准應用程式的需求和角色。
 
-## <a name="required-permissions-and-licenses"></a>所需的許可權和授權
+## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
-若要使用 [核准] 應用程式，您需要下列專案的許可權：
+若要使用核准應用程式，您需要下列項目的權限：
 
-- 建立 Microsoft CD 資料庫的許可權。
+- 建立 Microsoft CDS 資料庫的權限。
 
-- [Flow.microsoft.com](https://flow.microsoft.com/)上的帳戶
+- 位於 [flow.microsoft.com](https://flow.microsoft.com/) 的帳戶
 
 - 目標環境中的系統管理員角色。
 
-- [ [電源自動化](https://docs.microsoft.com/power-automate/get-started-approvals)]、[Office 365] 或 [Dynamics 365] 的授權。
+- [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的授權。
 
-## <a name="storage-with-cds"></a>使用光碟儲存檔案
+## <a name="storage-with-cds"></a>CDS 的儲存空間
 
-常見的資料模型 (CDM) 是在 CD 中的商務與分析應用程式所使用的共用資料語言。 它包含由 Microsoft 和合作夥伴所發佈的一組標準化、可擴展資料架構，可在應用程式和業務程式之間一致資料及其意義。 進一步瞭解 [Microsoft Power Platform 的一般資料模型](https://docs.microsoft.com/power-automate/get-started-approvals)。
+Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它包含一組由 Microsoft 和我們的合作夥伴所發佈的標準化、可延伸資料架構，可跨應用程式和商務程序實現資料的一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](https://docs.microsoft.com/power-automate/get-started-approvals)。
 
-深入瞭解 [核准工作流程](https://docs.microsoft.com/power-automate/modern-approvals)。
+深入了解[核准工作流程](https://docs.microsoft.com/power-automate/modern-approvals)。
 
-## <a name="approvals-teams-app-permissions"></a>核准小組 app 許可權
+## <a name="approvals-teams-app-permissions"></a>核准 Teams 應用程式權限
 
-[核准團隊] 應用程式可讓您存取下列功能：
+核准 Teams 應用程式可讓您存取下列功能：
 
-- 接收您提供給它的訊息和資料。
+- 接收您提供的訊息和資料。
 
 - 傳送訊息和通知給您。
 
-- 在沒有團隊提供的標頭的情況下，轉譯個人 app 與對話方塊。
+- 在沒有 Teams 提供的標頭的情況下，呈現個人應用程式和對話方塊。
 
-- 存取您的個人檔案資訊，例如您的名稱、電子郵件地址、公司名稱及喜好語言。
+- 存取您的設定檔資訊，例如您的姓名、電子郵件地址、公司名稱和偏好的語言。
 
-- 接收小組成員在頻道中提供給它的訊息和資料。
+- 接收小組成員在頻道中提供的訊息和資料。
 
-- 傳送頻道中的訊息和通知。
+- 在頻道中傳送訊息和通知。
 
-- 存取您團隊的資訊：
-  - 團隊名稱
+- 存取小組的資訊：
+  - 小組名稱
   - 頻道清單
-  - [名單] (小組成員的名稱和電子郵件地址) 。
+  - 名冊 (小組成員的名稱和電子郵件地址)。
 
-- 使用小組的資訊來與他們取得聯繫。
+- 使用小組的資訊來連絡他們。
 
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
-預設會提供 [核准] app。 您可以在 [團隊系統管理中心] 中停用應用程式。
+核准應用程式預設可供使用。 您可以在 Teams 系統管理中心停用該應用程式。
 
-  1. 登入團隊系統管理中心。
+  1. 登入 Teams 系統管理中心。
 
-  2. 展開 [ **團隊 app** ]，然後選取 [ **管理應用程式**]。
+  2. 展開 [Teams 應用程式 **]**，然後選取 [管理應用程式 **]**。
 
-  3. 搜尋 [核准] 應用程式。
+  3. 搜尋核准應用程式。
 
-![顯示 [系統管理中心導覽] 與 [團隊 App] > [管理應用程式] 醒目提示](media/manage-approval-apps.png)
+![顯示系統管理中心瀏覽，並強調顯示 [Teams 應用程式] > [管理應用程式]](media/manage-approval-apps.png)
 
   4. 選取 [核准]。
 
-  5. 選取 [切換] 來針對您的組織停用應用程式。
+  5. 選取切換以為組織停用該應用程式。
 
-![顯示核准 app 的詳細資料](media/approvals-details.png)
+![顯示核准應用程式的詳細資料](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>保留原則
 
-從核准 App 建立的核准會儲存在預設的 CD 環境中，這項功能目前不支援備份。 深入瞭解如何 [備份及還原環境-Power Platform \| Microsoft 文檔](https://docs.microsoft.com/power-platform/admin/backup-restore-environments)。
+從核准應用程式建立的核准會儲存在預設 CDS 環境中，該選項目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments)。
 
-## <a name="auditing"></a>表明
+## <a name="auditing"></a>稽核
 
-核准 App 會在 Microsoft 365 安全性與合規性中心內記錄審核事件。 您可以查看審核記錄。
+核准應用程式會記錄 Microsoft 365 安全性與合規性中心內的稽核事件。 您可以檢視稽核記錄。
 
 1. 移至 Microsoft 365 合規性網站。
 
-2. 選取 [ **審計** ] 區段。
+2. 選取 [稽核 **]** 區段。
 
-3. 搜尋 **Microsoft 團隊核准活動** 下的活動。
+3. 在 [Microsoft Teams 核准活動 **]** 下搜尋活動。
 
 您可以搜尋下列活動：
 
-- 建立新的核准要求
+- 建立新核准要求
 
-- 查看核准要求詳細資料
+- 檢視核准要求詳細資料
 
-- 核准核准要求
+- 核准的核准要求
 
-- 拒絕核准要求
+- 拒絕的核准要求
 
-- 已取消核准要求
+- 取消的核准要求
 
-- 共用核准要求
+- 共用的核准要求
 
-- 附加至核准要求的檔案
+- 已附加到核准要求的檔案
 
-- 指派核准要求
+- 重新指派的核准要求
 
-- 已將電子簽名新增至核准要求
+- 已新增至核准要求的電子簽章
 
-若要存取流程中的更多審核核准，請在主要核准實體核准、核准要求和核准回應的預設環境中啟用和設定審核。 [建立]、[更新] 和 [刪除] 作業是核准記錄的可審核事件。 深入瞭解有關 [安全性與合規性的審核資料和使用者活動-Power Platform \| Microsoft](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)檔。
+若要存取流程內的更多稽核核准，請針對主要核准實體「核准」、「核准要求」和「核准回應」，在預設環境中啟用和設定稽核。 建立、更新和刪除作業是核准記錄的可稽核事件。 深入了解[安全性與合規性的稽核資料和使用者活動 - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)。
 
-您可以在 [Microsoft 365 安全性與合規性中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)中進一步自訂審核。
+您可以在 [Microsoft 365 安全性與合規性中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)進一步自訂稽核。
 
 1. 若要使用預先設定的報告，請登入 Microsoft 365 安全性與合規性。
 
-2. 選取 [ **搜尋 & 調查**]。
+2. 選取 [搜尋與調查 **]**。
 
-3. 搜尋 [審計記錄]，然後選取 [ **Dynamics 365 活動** ] 索引標籤。
+3. 搜尋稽核記錄，並選取 [Dynamics 365 活動 **]** 索引標籤。
 
-深入瞭解 [Microsoft Dataverse 及模型驅動的 app 活動記錄-Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)。
+深入了解 [Microsoft Dataverse 和模型導向的應用程式活動記錄 - Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)。
 
 ## <a name="security"></a>安全性
 
-透過 [團隊核准] 應用程式，使用者就能建立新的核准，並查看他們已傳送和接收的核准。 使用者無法存取其他人所建立的核准，除非他們是要求的回應者或查看者。
+使用者可以從 Teams 核准應用程式建立新的核准，並檢視他們已傳送和接收的核准。 使用者無法存取其他人所建立的核准，除非他們是回應者或要求的檢視者。
 
 > [!Note]
-> 如果使用者是已建立核准的聊天或頻道的一部分，就會有該要求的查看者角色。 如果您在建立核准時沒有取得該角色，他們就不能在要求上採取動作。
+> 如果使用者是建立核准所在的聊天或頻道的一部分，就會獲授與要求的檢視者角色。 如果在建立核准時未提供他們該角色，他們即無法對要求採取動作。
