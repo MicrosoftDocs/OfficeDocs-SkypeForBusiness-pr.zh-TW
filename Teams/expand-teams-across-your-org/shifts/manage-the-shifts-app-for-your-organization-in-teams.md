@@ -1,5 +1,5 @@
 ---
-title: 為您的組織管理倒班應用程式
+title: 管理組織的 [班次] 應用程式
 author: cichur
 ms.author: v-cichur
 ms.reviewer: lisawu,gumariam
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 瞭解如何針對貴組織中的第一線工作人員，在小組中設定和管理倒班 app。
+description: 了解如何在組織的前線員工在 Teams 中設定及管理班次應用程式。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,75 +24,75 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 218b041d83cde91a23201ab864160ce3b8b7cb6e
 ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909087"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
 > [!IMPORTANT]
-> 2020年6月30日生效，Microsoft StaffHub 已停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 已停止針對2020年6月30日的所有使用者使用。 任何試圖開啟 StaffHub 的人都會顯示一則訊息，讓他們下載團隊。 若要深入瞭解，請參閱 [Microsoft StaffHub 已停](microsoft-staffhub-to-be-retired.md)用。  
+> 自 2020 年 6 月 30 起，已終止對 Microsoft StaffHub 的支援。 我們正在將 StaffHub 功能建入 Microsoft Teams。 今天，Teams 包含用於排程管理的班次應用程式，並且會陸續推出其他功能。 所有使用者自 2020 年 6 月 30 日起皆無法再使用 StaffHub。 任何嘗試開啟 StaffHub 的人，都會看到一則訊息，指示他們下載 Teams。 如需深入了解，請參閱[已終止對 Microsoft StaffHub 的支援](microsoft-staffhub-to-be-retired.md)。  
 
-## <a name="overview-of-shifts"></a>班次的概覽
+## <a name="overview-of-shifts"></a>班次概觀
 
-Microsoft 團隊中的 [倒班] 應用程式會讓第一線工作人員保持連線並同步處理。它會先建立行動裝置，以快速且有效地管理和溝通小組的時間。 [倒班] 讓第一線工作者及其主管使用行動裝置管理排程，並保持聯繫。
+Microsoft Teams 中的班次應用程式讓前線員工保持聯繫並同步。它以行動裝置為導向，專門為快速且有效的團隊時間管理和通訊而打造。 班次可讓前線工作者及其主管使用行動裝置來管理排程，以及保持聯繫。
 
-- 管理員建立、更新及管理團隊的倒班排程。 他們可以將訊息傳送給一個人， ( 「地面上有溢出」」 ) 或整個團隊 ( 「地區 GM 已超過20分鐘」 ) 。 他們也可以傳送原則檔、新聞佈告及影片。 
-- 員工要查看其近期倒班，請查看當天排程的人員、要求交換或提供倒班，以及要求下班時間。 
+- 主管建立、更新及管理團隊的排班表。 主管也可以傳送訊息給單一個人 (「地板上有打翻的液體」) 或整個團隊 (「區域總經理將於 20 分鐘後抵達」)。 主管還可以傳送原則文件、新訊佈告欄或影片。 
+- 員工可查看預排的班次、查看當天還有誰已排班、要求調班或調班，以及要求請假。 
 
-我們必須知道，倒班目前不支援來賓使用者。 這表示當您在小組中開啟來賓存取功能時，小組中的來賓不能加入或使用倒班排程。 
+請注意，班次目前不支援來賓使用者。 這表示在 Teams 中開啟來賓存取時，團隊中的來賓無法新增或使用班次排程。 
 
 > [!Note]
-> 如需在不同平臺上移動功能的詳細資訊，請參閱 [依平臺的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 如需有關不同平台上班次功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
-## <a name="availability-of-shifts"></a>倒班的可用性
+## <a name="availability-of-shifts"></a>班次的可用性
 
-在可使用團隊的所有企業 Sku 中，都提供倒班。
+班次可在可用 Teams 的所有企業 SKUS 中使用。
 
-## <a name="location-of-shifts-data"></a>倒班資料的位置
+## <a name="location-of-shifts-data"></a>班次資料的位置
 
-倒班資料目前儲存在北美、西歐及亞太地區資料中心的 Azure 中。 如需有關資料儲存位置的詳細資訊，請參閱 [我的資料在哪裡](http://o365datacentermap.azurewebsites.net/)？
+班次資料目前儲存在位於北美洲、西歐和亞太地區資料中心的 Azure 中。 如需有關資料儲存位置的詳細資訊，請參閱[我的資料在哪裡](http://o365datacentermap.azurewebsites.net/)？
 
-## <a name="set-up-shifts"></a>設定倒班
+## <a name="set-up-shifts"></a>設定班次
 
-### <a name="enable-or-disable-shifts-in-your-organization"></a>在組織中啟用或停用倒班
+### <a name="enable-or-disable-shifts-in-your-organization"></a>啟用或停用組織中的 [班次]
 
-預設會針對貴組織中的所有團隊使用者啟用班次。 您可以在 Microsoft 團隊系統管理中心的 [ [管理應用程式](../../manage-apps.md) ] 頁面上關閉或開啟組織階層的 app。
+您的組織中的所有 Teams 使用者預設會啟用 [班次]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](../../manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
 2. 在應用程式清單中，執行下列其中一項動作：
 
-    - 若要關閉貴組織的倒班，請搜尋 [倒班] app，選取它，然後選取 [ **封鎖**]。
-    - 若要為您的組織開啟倒班，請搜尋 [倒班] app，選取它，然後選取 [ **允許**]。
+    - 若要關閉貴組織的 [班次]，請搜尋 [班次] 應用程式，加以選取，然後選取 **封鎖**。
+    - 若要開啟貴組織的 [班次]，請搜尋 [班次] 應用程式，加以選取，然後選取 **允許**。
 
-### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>針對貴組織中的特定使用者啟用或停用班次
+### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [班次]
 
-若要允許或封鎖貴組織中的特定使用者使用倒班，請確定您的組織已開啟 [ [管理應用程式](../../manage-apps.md) ] 頁面上的 [倒班]，然後建立自訂應用程式許可權原則，並將其指派給那些使用者。 若要深入瞭解，請參閱 [在團隊中管理 app 許可權原則](../../teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用 [班次]，請確定您的組織在[管理應用程式](../../manage-apps.md)頁面上已開啟 [班次]，然後建立自訂應用程式權限原則，並將其指派給這些使用者。 如需深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
 
-### <a name="use-the-frontlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FrontlineWorker 應用程式設定原則釘選到團隊
+### <a name="use-the-frontlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FrontlineWorker 應用程式設定原則將班次釘選至 Teams
 
-App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者最重要的 app。 原則中設定的應用程式會釘選到應用程式行， &mdash; 以及小組行動用戶端的右側列， &mdash; 使用者可以快速且輕鬆地存取。
+應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式列&mdash;位於 Teams 桌面版用戶端側邊列，以及位於 Teams 行動版用戶端底部&mdash;，可讓使用者快速且輕鬆地存取。
  
-團隊包含內建的 FrontlineWorker 應用程式設定原則，您可以將它指派給貴組織中的第一線工作人員。 根據預設，原則包含活動、班次、聊天及呼叫 app。 
+Teams 包含內建的 FrontlineWorker 應用程式設定原則，您可以指派給貴組織的前線員工。 根據預設，此策略包含活動、班次、聊天和通話應用程式。 
 
-若要查看 FrontlineWorker 原則，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**小組 app**  >  **應用程式] 設定原則**。
+如需檢視 FrontlineWorker 原則，請前往 Microsoft Teams 系統管理中心左側瀏覽的 **Teams 應用程式** > **應用程式設原則**。
 
-![FrontlineWorker 應用程式設定原則的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "Microsoft 團隊系統管理中心的 FrontlineWorker 應用程式設定原則的螢幕擷取畫面")
+![FrontlineWorker 應用程式設定原則的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 系統管理中心的 FrontlineWorker 應用程式設定原則螢幕擷取畫面")
 
 #### <a name="assign-the-frontlineworker-app-setup-policy-to-users"></a>將 FrontlineWorker 應用程式設定原則指派給使用者
 
 [!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
-## <a name="search-the-audit-log-for-shifts-events"></a>搜尋審核記錄，以取得倒班事件
+## <a name="search-the-audit-log-for-shifts-events"></a>搜尋班次活動的稽核記錄檔
 
 **(預覽)**
 
-您可以搜尋 [審核記錄]，在您的組織中查看倒班活動。  若要深入瞭解如何搜尋審核記錄，以及查看已記錄在審核記錄中的 [倒班活動](../../audit-log-events.md#shifts-in-teams-activities) 清單，請參閱 [搜尋小組中事件的審核記錄](../../audit-log-events.md)。
+您可以搜尋稽核記錄來查看貴組織的班次活動。  如需深入了解如何搜尋稽核記錄，以及查看稽核記錄中記錄的[班次活動](../../audit-log-events.md#shifts-in-teams-activities)清單，請參閱 [在 Teams 中搜尋活動的稽核記錄](../../audit-log-events.md)。
 
-在您可以搜尋審核記錄之前，您必須先在 [安全性 & 合規性中心](https://protection.office.com)開啟審核。 若要深入瞭解，請參閱 [開啟或關閉審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。 請記住，審核資料只能從您開啟審核的位置取得。
+在您可以搜尋稽核記錄檔之前，您必須先在[安全性與合規性中心](https://protection.office.com)中開啟稽核。 如需深入了解，請參閱[開啟或關閉稽核記錄](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。 請記住，只有當您開啟稽核時，才能使用稽核資料。
 
 ## <a name="related-topics"></a>相關主題
 
-- [倒班第一線工作者的協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [指派策略給小組中的使用者](../../assign-policies.md)
+- [前線員工班次說明](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [將原則指派給 Teams 中的使用者](../../assign-policies.md)

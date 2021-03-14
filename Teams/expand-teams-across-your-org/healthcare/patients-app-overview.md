@@ -1,5 +1,5 @@
 ---
-title: '適用于團隊管理員的患者應用程式 '
+title: '適用於 Teams 系統管理員的病患應用程式 '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 瞭解適用于團隊管理員的患者應用程式
+description: 了解適用於 Teams 系統管理員的病患應用程式
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
 ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/30/2020
 ms.locfileid: "48803501"
@@ -28,51 +28,51 @@ ms.locfileid: "48803501"
 # <a name="patients-app-overview"></a>病患應用程式概觀
 
 > [!NOTE]
-> 2020年10月30日生效，患者 app 已停用，且已由小組中的 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 所有與患者 app 相關的資料都會保留在這個群組中，但無法再透過使用者介面存取。 使用者可以使用 [ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
+> 自 2020 年 10 月 30 日起，病患應用程式已淘汰並且由 Teams 中的[清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)取代。 病患應用程式資料會儲存在支援小組之 Office 365 群組的群組信箱中。 所有與病患應用程式相關聯的資料會保留在此群組中，但是無法再透過使用者介面存取。 使用者可以使用[清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)來重新建立他們的清單。
 >
->透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。 查看清單中的患者範本以開始使用。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+>使用清單，您的醫療保健組織照護小組可以針對各種案例建立病患清單，範圍從會診和跨學科小組會議到一般病患監視。 請查看清單中的病患範本以開始使用。 若要深入了解如何在組織中管理清單應用程式，請參閱[管理清單應用程式](../../manage-lists-app.md)。
 
-患者應用程式是適用于所有團隊使用者的 Microsoft 團隊商店應用程式。 應用程式可讓患者健康小組參與 (例如，護士、醫生、社交員工) 可以彙整和審閱患者的清單，包括從倒角和 interdisciplinary 團隊會議到一般患者監控等案例。
+病患應用程式是 Microsoft Teams 市集應用程式，可供所有 Teams 使用者使用。 此應用程式可讓臨床工作者 (例如護士、醫生、社會工作者) 所組成的病患健康小組，針對各種案例 (從會診和跨學科小組會議到一般病患監視) 來策劃和檢閱病患清單。
 
-App 有兩種模式：
+應用程式有兩種模式：
 
-- 透過 FHIR 連接至 EMRs 的 EMR 連線模式。 EMR 連線模式 app 會保留在私人預覽中，感興趣的客戶或系統管理員可能會透過在 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 中除去 microsoft 電子郵件，並提供其 Microsoft 365 組織的相關資訊，以要求存取 app。
-- 可讓健康團隊手動新增/加入患者資訊的手動模式。 您可以在 [小組 app] 商店中找到應用程式，讓使用者在私人預覽中下載。 在團隊中，您可以使用 [app 設定原則](../../teams-app-setup-policies.md) ，將 app 限制在特定的使用者區段。 若要取得 app 的存取權，您的租使用者必須是技術採納計畫的一部分 (輕觸) 。 請在 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 中放下我們的電子郵件，以啟動處理常式來要求存取權。
+- 透過 FHIR 連線到 EMR 的 EMR 連線模式。 EMR 連線模式應用程式會保持為私人預覽，而有興趣的客戶或系統管理員可以在 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 留下包含其 Microsoft 365 組織相關資訊的電子郵件給 Microsoft，以要求存取該應用程式。
+- 讓健康小組手動新增/加入病患資訊的手動模式。 應用程式可在 Teams 應用程式市集中供使用者以私人預覽模式下載。 應用程式可以限制為使用 Teams 中[應用程式設定原則](../../teams-app-setup-policies.md)的特定部分使用者。 若要存取應用程式，您的租用戶必須是技術採用方案 (TAP) 的成員。 請於 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 傳送電子郵件給我們，以開始要求存取權的程序。
 
-## <a name="usage-example"></a>用法範例
+## <a name="usage-example"></a>使用範例
 
-在醫學 wards 的每個倒班期間，臨床醫師在 nursing 站上收集，以在 ward 中與患者進行最新的更新。  它們會醒目提示重要的度量標準， (不需要醫療，或是在患者的病歷) 上明確，並確保患者在適當的 glide 路徑上，以根據其診斷而放電。 為了圍繞這些患者，[費用護士] 會在新增所有臨床醫師的小組中設定患者應用程式，並將患者新增至患者清單。 在舍入期間，在行動裝置上的患者 access Microsoft 團隊和患者應用程式的護士與其他護理 givers，並更新其裝置上的相關患者資訊，並在健康小組中的其他人都能看到這些更新與記事，並保持同步處理。每天兩次，在班次的開始和結束時，他們也會有多項專業團隊會議，透過患者清單進行，並使用患者 app 來建立每個患者的相關資訊，並使用大型顯示畫面上的患者 app 分享有關每個患者的資訊。 通常情況下，某些臨床醫師可能也會在遠端撥入這些團隊會議，而且仍是討論的一部分。
+在醫療病房中每個班次的會診期間，臨床醫生會到護理站聚集，與病房中的病患討論進度的最新更新。  他們著重在主要的關鍵計量 (不一定是醫療或在病患醫療記錄上明確顯示)，並且確保病患根據其診斷是往正確的出院方向前進。 為了對這些病患會診，護士會在小組中的病患應用程式設定費用，其中新增所有臨床醫生，並且將病患新增至病患清單。 在會診期間，護士和病患的其他照護人員可以在其行動裝置上存取 Microsoft Teams 和病患應用程式，並更新裝置上的相關病患資訊，然後健康小組中的其他人就可以查看這些更新和筆記，並保持同步。一天兩次，在班次的開始與結束時，他們也會舉行多次跨學科小組會議來查看病患清單，使用病患應用程式讓自己有基本認識，並且在大型顯示器螢幕上使用病患應用程式來分享每個病患的資訊。 通常，某些臨床醫生可能也會從遠端撥入這些 Teams 會議，參與討論。
 
-## <a name="configure-patients-app"></a>設定患者 app
+## <a name="configure-patients-app"></a>設定病患應用程式
 
-如需如何準備您的環境以使用 EMR 模式患者 app 的詳細資訊，請參閱將 [電子醫療保健記錄整合至 Microsoft 團隊](patients-app.md)。 您也需要 [在 Microsoft 團隊中查看 [管理應用程式設定原則](../../teams-app-setup-policies.md) ]，以便為您的組織啟用患者 app。
+如需如何準備環境以使用 EMR 模式病患應用程式的詳細資訊，請參閱[將電子醫療保健記錄整合至 Microsoft Teams](patients-app.md)。 您也需要參閱[在 Microsoft Teams 中管理應用程式設定原則](../../teams-app-setup-policies.md)，才能為您的組織啟用病患應用程式。
 
-如需使用者如何存取並將患者 App 安裝至他們擁有或管理之小組的相關資訊，請參閱 [Microsoft 團隊患者快速入門](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)。
+如需使用者如何存取及安裝病患應用程式至他們擁有或管理的小組的詳細資訊，請參閱[開始使用 Microsoft Teams 病患服務](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)。
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
-## <a name="frequently-asked-questions-faq"></a>常見問題 (常見問題) 
+## <a name="frequently-asked-questions-faq"></a>常見問題集 (FAQ)
 
-**患者應用程式資料儲存在哪裡？**
+**病患應用程式資料儲存在哪裡？**
 
-使用者在患者 app 中輸入的所有資料（包括欄/欄位架構），在清單中輸入的實際資料以及清單專案 (（亦即患者) ）都儲存在 secure 相容性 Exchange Online 基礎結構中。 所有資料都儲存在與小組相關聯的群組信箱中。 這個架構可讓患者 App 輕鬆地完成資料派駐、政府雲端支援 (未來的) 以及 eDiscovery 支援等其他合規性/資訊保護功能。 患者 app 會在團隊範圍中運作。 您將需要安裝每個團隊的 app 實例。
+使用者在病患應用程式中輸入的所有資料，包括欄/欄位結構描述、輸入到清單和清單項目 (即病患) 的實際資料，都會儲存在安全且符合規範的 Exchange Online 基礎結構中。 所有資料都儲存在與小組相關聯的群組信箱中。 此架構可讓病患應用程式輕鬆履行資料落地、政府雲端支援 (未來提供) 以及其他合規性/資訊保護功能，例如電子文件探索支援。 病患應用程式在小組範圍內運作。 您必須為每個小組安裝應用程式執行個體。
 
 <!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
 
-**我可以從哪裡取得患者應用程式？**
+**我可以在哪裡取得病患應用程式？**
 
-如果患者 app 由其系統管理員啟用，任何使用者都可以移至 [小組] app 商店，並將患者 app 新增至他們所屬的小組。 如需詳細資訊，請參閱 [在 Microsoft 團隊中管理 app 設定原則](../../teams-app-setup-policies.md)。
+如果病患應用程式是由組織的系統管理員為組織啟用，則任何使用者都可以前往 Teams 應用程式市集，並且將病患應用程式新增至他們是其成員的小組。 如需詳細資訊，請參閱[管理 Microsoft Teams 中的應用程式設定原則](../../teams-app-setup-policies.md)。
 
-**我可以在小組中有多個患者應用程式實例，因為我的 ward/單元的運作方式為何？**
+**我能否在小組中擁有多個病患應用程式執行個體，因為這是我的病房/單位的運作方式？**
 
-目前，您只能針對特定團隊安裝一個患者應用程式實例，且僅適用于 [一般] 頻道。 不過，在應用程式中，可以建立多個清單來處理多聲道或隔離/分隔案例。 根據預設，小組中的所有成員都會有權存取 [一般] 頻道中的 [患者] 索引標籤。 
+目前您只能為指定小組安裝一個病患應用程式執行個體，且只能在一般頻道中安裝。 不過，在應用程式中可以建立多個清單來解決多重頻道或隔離/分離案例。 根據預設，小組的所有成員可以存取一般頻道中的 [病患] 索引標籤。 
 
-**我可以從患者 app 匯出所有資料嗎？**
-目前尚不提供此功能，但即將推出這項功能。 
+**我可以從病患應用程式匯出所有資料嗎？**
+目前不行，但是此功能即將推出。 
 
-**因為這個 app 可容納 PHI，所以是否有審核來防止未經授權的存取或合規性遵從管理法規？**
+**由於此應用程式會容納 PHI，是否有稽核來防止未經授權的存取或法規遵循？**
 
-是的，就是。 Microsoft 團隊使用者在患者 app 上執行的每個單一 UI 動作都會在安全性與合規性中心進行審核並提供。 詳細資料請見 [患者 app 的審核記錄](patients-audit.md)。
+是，有稽核。 Microsoft Teams 使用者在病患應用程式上執行的每一個 UI 動作都會進行稽核，並可在安全性與合規性中心使用。 詳細資料會在[病患應用程式的稽核記錄](patients-audit.md)中說明。
 
 ## <a name="related-topics"></a>相關主題
 
