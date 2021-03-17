@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：瞭解如何遷移使用者設定，以及將使用者移至團隊。
-ms.openlocfilehash: 49763d7674946eb179188554326863f4860252c3
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: c84cdbe5f91816ddfabd476540e47f3d1871a427
+ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130644"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50836980"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移動至 Teams
 
@@ -79,6 +79,13 @@ ms.locfileid: "49130644"
   Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
   ```
 
+> [!TIP]
+> 在不同的情況下，需要不同的參數，大多數案例的預設命令為：
+
+```powershell
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -UseOAuth -HostedMigrationOverrideUrl $url
+```
+
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>移至使用商務用 Skype Server 的小組控制台
 
 1. 開啟商務用 Skype Server [控制台] 應用程式。
@@ -114,7 +121,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 DownloadTeams 的值預設為 True;不過，只有在指定的使用者 NotifySfbUser = True 時， *才* 會使用此參數。
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 
