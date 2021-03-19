@@ -18,16 +18,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196467"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867042"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
-Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (Azure AD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。系統管理員可以為其組織中的使用者開啟或關閉這項功能。舊版 [Microsoft 商務雲端試用版](iw-trial-teams.md)現在已由 Teams Exploratory 體驗取代。
+Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (Azure AD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版](iw-trial-teams.md)現在已由 Teams Exploratory 體驗取代。
+
+> [!NOTE]
+> 每個租用戶有 100 個 Microsoft Teams Exploratory 授權的限制。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Microsoft Teams Exploratory 體驗有什麼內容
 
@@ -131,8 +134,8 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 4. 在 **[產品授權]** 窗格中，將此探勘授權的開關切換至 **[關閉]**。
 
-    >[!Note]
-    >組織中的第一個使用者啟動 Teams Exploratory 體驗之後，將會出現 [Teams Exploratory] 切換開關。
+    > [!NOTE]
+    > 組織中的第一個使用者啟動 Teams Exploratory 體驗之後，將會出現 [Teams Exploratory] 切換開關。
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>管理適用於擁有 Teams Exploratory 授權之使用者的 Teams
 
@@ -180,4 +183,9 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 在 12 個月訂閱結束時，系統管理員應將所有 Teams Exploratory 使用者轉換成包括 Teams 在內的付費授權。 確保在 Teams Exploratory 訂閱到期之前完成此工作是非常重要的，以避免對使用者的體驗造成中斷。
 
+
+> [!NOTE]
+> 在前一個 Exploratory 體驗授權到期後的 3 個月內客戶將被停用並封鎖開始新 Explaratory 授權。
+
 如需詳細資訊，請參閱本文上方的[從 Teams Exploratory 授權升級使用者](#upgrade-users-from-the-teams-exploratory-license)。
+

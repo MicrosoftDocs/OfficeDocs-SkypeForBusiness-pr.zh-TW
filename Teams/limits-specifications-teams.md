@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b029a5cb53965ad59bab1342f90fb8e505da82e1
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460443"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50866912"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -225,7 +225,7 @@ Microsoft Teams 教育版提供專為獨特教育案例 (例如教室教學) 所
 |每個小組的標記數量    | 100        |
 |每個小組的建議預設標記數量    | 25        |
 |指派給標記的小組成員人數    |100         |
-|指派給使用者的標記數量    |25         |
+|每個小組指派給使用者的標記數量    |25         |
 
 ## <a name="contacts"></a>連絡人
 
