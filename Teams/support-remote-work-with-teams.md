@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235821"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875093"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -33,34 +33,34 @@ ms.locfileid: "48235821"
 
 - 請確認所有人都能使用[包含 Teams 的付費訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)存取 Teams。 作為選擇，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
 
--  如果您已擁有包含 Teams 的訂閱，請**[為每個人開啟](user-access.md)**。
+-  如果您已擁有包含 Teams 的訂閱，請 **[為每個人開啟](user-access.md)**。
     
 - 了解如何讓組織開始使用 **[Teams 中的會議和即時活動](quick-start-meetings-live-events.md)**。 
 
-如需詳細資訊，請參閱下方[支援遠端工作者的其他資源](#additional-resources-for-supporting-remote-workers) (英文)。
+如需詳細資訊，請參閱下方[支援遠端工作者的其他資源](#additional-resources-for-supporting-remote-workers)。
 
 
 ## <a name="end-user-communications"></a>使用者通訊
 
-準備好要向使用者推出 Teams？ 取得包含此類精彩電子郵件範本的**[客戶成功套件](https://aka.ms/TeamsCustomerSuccess)**：
+準備好要向使用者推出 Teams？ 取得包含此類精彩電子郵件範本的 **[客戶成功套件](https://aka.ms/TeamsCustomerSuccess)**：
 
-- 使用**通知電子郵件**告知使用者 Teams 可供使用。
+- 使用 **通知電子郵件** 告知使用者 Teams 可供使用。
 
-- 傳送**倒數計時 - 第一天使用 Teams 電子郵件**，以協助使用者迅速地感受到生產力。
+- 傳送 **倒數計時 - 第一天使用 Teams 電子郵件**，以協助使用者迅速地感受到生產力。
 
-- 幾天後，傳送**秘訣和訣竅電子郵件**，以協助使用者充分利用 Teams。
+- 幾天後，傳送 **秘訣和訣竅電子郵件**，以協助使用者充分利用 Teams。
 
 ## <a name="end-user-guidance"></a>終端使用者指導方針
 
 與使用者共用這些資產與影片，以協助他們快速入門：
 
-- 觀看**[歡迎使用影片](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** 以取得 Teams 的概觀。
+- 觀看 **[歡迎使用影片](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** 以取得 Teams 的概觀。
 
-- 下載**[快速入門手冊](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** 以了解 Teams 基本概念。
+- 下載 **[快速入門手冊](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** 以了解 Teams 基本概念。
 
-- 觀看一系列簡短的**[快速入門影片](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** 以取得 Teams 逐步解說。
+- 觀看一系列簡短的 **[快速入門影片](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** 以取得 Teams 逐步解說。
 
-- 觀看**[會議影片](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** 以了解如何使用 Teams 中的會議。
+- 觀看 **[會議影片](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** 以了解如何使用 Teams 中的會議。
 
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>支援遠端工作者的其他資源
@@ -71,10 +71,10 @@ ms.locfileid: "48235821"
 
 1. 閱讀最新的部落格文章：
    
-   - [Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (英文)
-   - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/) (英文)
+   - [Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
+   - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT 為其員工啟用遠端作業最熱門的九種方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT 為其員工啟用遠端作業最熱門的九種方式](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 適用於教育的 Teams 
@@ -86,9 +86,9 @@ ms.locfileid: "48235821"
 
    - 有限的頻寬會影響 Teams 會議中的音訊品質。 為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。 
 
-   - 請閱讀這篇最新的部落格 (2020 年 3 月 6 日)，[如何快速優化遠端員工的 Microsoft 365 或 Office 365 流量，並降低基礎結構負載](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571) (英文)。
+   - 請閱讀這篇最新的部落格 (2020 年 3 月 6 日)，[如何快速優化遠端員工的 Microsoft 365 或 Office 365 流量，並降低基礎結構負載](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
 
-   - 2020 的 3 月 26 日部落格：[在 VPN 上執行：Microsoft 如何保持遠端工作力的聯繫](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/) (英文)
+   - 2020 的 3 月 26 日部落格：[在 VPN 上執行：Microsoft 如何保持遠端工作力的聯繫](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
    - 如果您在中國，請參閱 [Microsoft 365 或 Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china) (部分機器翻譯)。
 
@@ -98,7 +98,7 @@ ms.locfileid: "48235821"
 
    - [從家裡更安全工作的最佳祕訣](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
-   - Microsoft 安全部落格 (2020 年 3 月 26 日)：[在今日獨特的遠端工作情境中，安全專業人員與 IT 達到現代安全控制的另一種方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (英文)
+   - Microsoft 安全部落格 (2020 年 3 月 26 日)：[在今日獨特的遠端工作情境中，安全專業人員與 IT 達到現代安全控制的另一種方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [遠端工作，保持安全 - 適用於 CISO 指引](https://www.microsoft.com/security/blog/?p=90736)
 
@@ -124,7 +124,7 @@ ms.locfileid: "48235821"
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：
         
-      - Microsoft 部落格 (2020 年 3 月 10 日)：[使用 Teams 遠端工作時保持生產力](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) (英文)
+      - Microsoft 部落格 (2020 年 3 月 10 日)：[使用 Teams 遠端工作時保持生產力](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
       
       - [使用 Teams 遠端作業](https://products.office.com/microsoft-teams/work-remotely)
 

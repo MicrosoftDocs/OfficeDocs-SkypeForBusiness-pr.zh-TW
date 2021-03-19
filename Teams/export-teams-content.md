@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1bca4eb70bff07e809630e1b997f377064b5e0e
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: 948b30e9494bbac78dc7cf2e3e276242feea306e
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861407"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874683"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用 Microsoft Teams 匯出 API 匯出內容
 
-Teams 匯出 API 允許您從 Microsoft Teams 匯出 1：1、群組聊天和頻道訊息。 如果貴組織需要匯出 Microsoft Teams 郵件，您可以使用 Teams 匯出 API 來解壓縮郵件。 *聊天訊息* 代表頻道或 [聊天中的個別](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 聊天 [訊息](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)。 聊天訊息可以是根聊天訊息，或由 **聊天訊息中的 replyToId** 屬性定義的回復對話的一部分。
+Teams 匯出 API 允許您從 Microsoft Teams 匯出 1：1、群組聊天、會議聊天和頻道訊息。 如果貴組織需要匯出 Microsoft Teams 郵件，您可以使用 Teams 匯出 API 來解壓縮郵件。 *聊天訊息* 代表頻道或 [聊天中的個別](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 聊天 [訊息](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)。 聊天訊息可以是根聊天訊息，或由 **聊天訊息中的 replyToId** 屬性定義的回復對話的一部分。
 
 以下是一些如何使用這些匯出 API 的範例：
 
@@ -41,7 +41,7 @@ Teams 匯出 API 允許您從 Microsoft Teams 匯出 1：1、群組聊天和頻�
 
     如果您已經熟悉將 App 與 Microsoft 身分識別平臺整合以取得權杖，請參閱下[](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)一個步驟一節，以取得 Microsoft Graph 特有的資訊和範例。
 - **混合式環境：** 匯出 API 支援在混合式環境中部署的使用者所 (Exchange 和 Teams) 。 任何為混合式環境所配置的使用者所送出的郵件，都可以使用匯出 API 來訪問。
-- **使用者刪除的郵件：** 使用者從 Teams 用戶端刪除的郵件，最多可在刪除後 30 天內使用匯出 API 存取。
+- **使用者刪除的郵件：** 使用者從 Teams 用戶端刪除的郵件，可在刪除後最多 21 天內使用匯出 API 存取。
 - **郵件附件：** 匯出 API 包含作為郵件一部分所送出之附件的連結。 您可以使用匯出 API 來取回郵件中附加的檔案。
 - **聊天訊息內容：** 請參閱此處的 Teams 匯出 API 支援的完整 [屬性清單](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
 
@@ -50,19 +50,19 @@ Teams 匯出 API 允許您從 Microsoft Teams 匯出 1：1、群組聊天和頻�
 - **範例 1** 是一個簡單的查詢，可在沒有篩選的情況下，提取使用者或小組的所有郵件：
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
     ```
 
 - **範例 2** 是範例查詢，可指定日期時間篩選和前 50 個郵件，以取回使用者或小組的所有郵件：
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >如果有多個結果，API 會以下一頁連結來回複。 為了取得下一組結果，只要從 @odata.nextlink @odata GET。 如果 @odata.nextlink 不存在或 Null，則所有郵件會全部取用。

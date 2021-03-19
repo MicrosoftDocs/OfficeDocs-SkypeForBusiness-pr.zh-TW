@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊 app 許可權和考慮
+title: Microsoft Teams 應用程式的許可權與考慮
 author: rmw2890
 ms.author: rowille
 manager: serdars
@@ -12,185 +12,187 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 系統管理員可以瞭解 Microsoft 團隊 app 從其組織要求哪些資料和許可權。
+description: 系統管理員可以瞭解 Microsoft Teams 應用程式向組織要求哪些資料和許可權。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 295bee65120e3c349efe1aa5fbc1e7b42c8da87a
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 1e6628467d4300130c39a3bade87919fb064a14f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739381"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874703"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 團隊 app 許可權和考慮
+# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 應用程式的許可權與考慮
 
-Microsoft 團隊 app 是一種將一或多項功能匯總成 _應用程式套件_ 的方法，可供安裝、升級及卸載。 這些功能包括：
+Microsoft Teams 應用程式是一種將一或多個功能匯總到可安裝、升級和卸載的應用程式套件的方法。 這些功能包括：
 
-- Bot
-- 郵件擴充功能
+- 機器人
+- 訊息擴充功能
 - 索引標籤
 - 連接器
 
-應用程式受到使用者的同意，且由策略的觀點加以管理。 不過，在大多數情況下，應用程式的許可權和風險設定檔是由 app 所包含之功能的許可權和風險設定檔所定義。 因此，本文著重說明功能層級的許可權和考慮。
+應用程式是由使用者同意，由 IT 從策略角度進行管理。 不過，應用程式的許可權和風險設定檔大部分是由應用程式包含的許可權和風險設定檔所定義。 因此，本文著重于功能層級的許可權與考慮。
 
-下列是大寫字母（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）中所列的許可權，不會出現在 [Microsoft 團隊開發人員檔](https://aka.ms/teamsdevdocs) 中的任何位置或 [microsoft Graph 的許可權](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)中。 它們只是本文用途的描述性簡寫。
+下列以大寫字母列出的許可權 ，例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE，不會顯示在 [Microsoft Teams](https://aka.ms/teamsdevdocs) 開發人員檔或 [Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)的許可權中。 它們只是本文目的的描述性簡寫。
 
 
-| 標題   | 說明    |
+| 標題   | 描述    |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您可以使用下表做為說明，瞭解您正在調查哪些應用程式要求哪些許可權。</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>研究 app 或服務本身，決定是否要允許您組織中的存取權。 例如，bot 會從使用者傳送及接收訊息，除了企業自訂機器人之外，它們位於合規性界限外。 因此，任何包含 bot 的 app 都需要這些許可權，並至少擁有該風險設定檔。 </li></ul>|
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>使用下表做為指南，瞭解您調查的應用程式要求哪些許可權。</li></ul> |
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>研究應用程式或服務本身，決定是否要允許在貴組織中存取它。 例如，Bot 會傳送和接收來自使用者的訊息，而且除了企業自訂 Bot 之外，它們位於合規性邊界之外。 因此，任何包含 Bot 的應用程式都需要這些許可權，且至少具備該風險設定檔。 </li></ul>|
 
-## <a name="global-app-permissions-and-considerations"></a>全域 app 許可權和考慮
+另請參閱 [要求 Microsoft Teams 選項卡的裝置許可權](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
 
-### <a name="required-permissions"></a>所需許可權
+## <a name="global-app-permissions-and-considerations"></a>全域應用程式許可權與考慮
+
+### <a name="required-permissions"></a>必要的許可權
 
 無
 
-### <a name="optional-permissions"></a>選用許可權
+### <a name="optional-permissions"></a>選擇性許可權
 
 無
 
 ### <a name="considerations"></a>考量
 
-- 應用程式必須披露它所使用的資料，以及資料在其使用條款和隱私權原則連結中的用途。
+- 應用程式必須公開其使用哪些資料，以及資料在使用條款和隱私權政策連結中的用途。
 
-- [資源特定的同意](resource-specific-consent.md) 提供應用程式可要求的一組許可權，該許可權會出現在 app 的安裝畫面上。 若要深入瞭解資源特定的同意許可權，請參閱 [圖表許可權參考](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)。
+- [特定資源同意](resource-specific-consent.md) 提供一組應用程式可要求的許可權，這些許可權會顯示在應用程式的安裝畫面上。 若要深入瞭解資源特定同意許可權，請參閱 [圖形許可權參照](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-- App 也可能需要除資源特定的同意許可權之外的許可權。 安裝應用程式後，應用程式可能會透過同意提示要求圖表許可權。 若要深入瞭解，請參閱 [瞭解 AZURE AD 應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 您可以在 Azure 入口網站中設定 API 許可權和同意。 若要深入瞭解，請參閱 [Azure Active Directory 同意架構](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
+- 應用程式可能也需要資源特定同意許可權外的許可權。 安裝 App 之後，應用程式可能會透過同意提示要求 Graph 許可權。 若要深入瞭解，請參閱 [瞭解 Azure AD 應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 您可以在 Azure 入口網站中設定 API 許可權和同意。 若要深入瞭解，請參閱 [Azure Active Directory 同意架構](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>Bot 和訊息擴充功能
 
-### <a name="required-permissions"></a>所需許可權
+### <a name="required-permissions"></a>必要的許可權
 
-- RECEIVE_MESSAGE、REPLYTO_MESSAGE。 Bot 可以接收來自使用者的訊息並回復。<sup>1</sup>
+- RECEIVE_MESSAGE，REPLYTO_MESSAGE。 Bot 可以接收使用者的郵件並回復使用者。<sup>1</sup>
 
-- POST_MESSAGE_USER]。 使用者將郵件傳送到 bot 之後，該 bot 就可以隨時將使用者的直接訊息傳送 (也稱為 *主動型郵件* 。
+- POST_MESSAGE_USER。 在使用者傳送郵件給 Bot 之後，bot 可以傳送使用者直接 (或稱為 *主動* 式訊息。
 
-- GET_CHANNEL_LIST]。 新增至團隊的 bot 可以取得團隊中頻道的名稱和識別碼清單。
+- GET_CHANNEL_LIST。 新加入團隊的 Bot 可以取得團隊中頻道的名稱和 ID 清單。
 
-### <a name="optional-permissions"></a>選用許可權
+### <a name="optional-permissions"></a>選擇性許可權
 
-- 等. 在頻道中使用時，應用程式的機器人可以存取小組成員的基本身分識別資訊 (名字、姓氏、使用者主體名稱 [UPN]、電子郵件地址) ;在個人或群組聊天中使用時，bot 可以為這些使用者存取相同的資訊。
+- 身份。 在頻道中使用時，App 的 Bot 可以存取小組成員的基本身分識別資訊 (名字、姓氏、使用者主體名稱 [UPN]、電子郵件地址) ;當 Bot 用於個人或群組聊天時，Bot 可以存取這些使用者的相同資訊。
 
-- POST_MESSAGE_TEAM]。 您可以隨時將直接 (主動) 訊息傳送給任何小組成員，即使使用者之前從未與 bot 交談也一樣。
+- POST_MESSAGE_TEAM。 允許 App 的 bot 隨時 (主動) 傳送訊息給任何團隊成員，即使使用者之前從未與 Bot 交談過。
 
-- 下列內容不是明確的許可權，但會顯示在資訊清單中，RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用 bot 的範圍（在資訊清單中宣告）：
+- 下列不是明確許可權，但由 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可在其中使用 bot 的範圍所隱含，在清單中宣告：
  
-    - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
+    - RECEIVE_MESSAGE_PERSONAL，REPLYTO_MESSAGE_PERSONAL
+    - RECEIVE_MESSAGE_GROUPCHAT，REPLYTO_MESSAGE_GROUPCHAT
+    - RECEIVE_MESSAGE_TEAM，REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES、RECEIVE_FILES。<sup>2</sup> 控制 bot 是否可以在個人聊天中傳送和接收檔案， (尚無群組聊天或頻道) 支援。
+- SEND_FILES，RECEIVE_FILES。<sup>2</sup> 控制 Bot 是否可以在個人聊天中傳送 (尚未支援群組聊天或頻道) 。
 
 ### <a name="considerations"></a>考量
 
-- Bot 只能存取已新增給他們的小組，或是已安裝他們的使用者。
+- Bot 只能存取已新增到的團隊或已安裝這些團隊的使用者。
 
-- Bot 只會接收使用者明確提及的訊息。 這個資料離開了公司網路。
+- Bot 只會收到使用者明確提及的訊息。 此資料會離開公司網路。
 
-- Bot 只能回復提到的交談。
+- Bot 只能回復提及這些聊天的交談。
 
-- 在使用者與 bot conversed 之後，如果 bot 儲存該使用者的識別碼，就可以隨時將該使用者傳送給該使用者。
+- 在使用者與 Bot 進行交談之後，如果 Bot 儲存該使用者的識別碼，它隨時都可以傳送該使用者的直接訊息。
 
-- 在理論上，bot 郵件可能會包含網路釣魚或惡意程式碼網站的連結，但使用者、租使用者管理員或由 Microsoft 全域封鎖機器人。
+- 從理論上來說，Bot 郵件可能包含網路釣魚或惡意程式碼網站的連結，但 Bot 可能會由使用者、租使用者系統管理員或 Microsoft 全域封鎖。
 
-- Bot 可以取得 (，並且可能會儲存應用程式新增至之小組成員的基本身分識別資訊，或是個人或群組聊天中個別使用者的) 。 若要取得這些使用者的進一步資訊，bot 必須要求他們登入 Azure Active Directory (Azure AD) 。
+- Bot 可以 (應用程式) 小組成員，或個人或群組聊天中的個別使用者，儲存最基本的身分識別資訊。 若要取得這些使用者的進一步資訊，Bot 必須要求他們以 Azure AD 帳戶 (Azure Active Directory) 。
 
-- Bot 可以取得 (，而且可能會將) 儲存在團隊中的頻道清單中;這個資料離開了公司網路。
+- Bot 可以 (，並) 團隊中的頻道清單;此資料會離開公司網路。
 
-- 當檔案傳送至 bot 時，檔案會離開公司網路。 傳送和接收檔案需要針對每個檔案進行使用者核准。 
+- 當檔案送到 Bot 時，檔案會離開公司網路。 傳送和接收檔案需要使用者針對每個檔案核准。 
 
-- 根據預設，bot 無法代表使用者執行動作，但機器人可以要求使用者登入;只要使用者登入，bot 就會有存取權杖，讓它可以執行其他專案。 這些額外的專案取決於 bot 以及使用者登入的位置： bot 是已註冊的 Azure AD app https://apps.dev.microsoft.com/ ，而且可以有自己的許可權集。
+- 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者進行登錄;使用者一旦登錄，Bot 就會有一個存取權杖，可以執行其他工作。 這些額外專案究竟是什麼，取決於 Bot 和使用者登錄位置：Bot 是註冊在 Azure AD App，而且可以擁有自己的一組 https://apps.dev.microsoft.com/ 許可權。
 
-- 每當在小組中新增或刪除使用者時，系統會通知機器人。
+- 每當使用者新加入或刪除團隊時，就會通知 Bot。
 
-- Bot 看不到使用者的 IP 位址或其他推薦的資訊。 所有資訊都來自 Microsoft。  (有一個例外狀況：如果 bot 實現自己的登入體驗，登入 UI 就會看到使用者的 IP 位址和引用資訊。 ) 
+- Bot 不會看到使用者的 IP 位址或其他參考資訊。 所有資訊都來自 Microsoft。  (有一個例外：如果 Bot 實現自己的登錄體驗，則登錄 UI 會看到使用者的 IP 位址和參照者資訊。) 
 
-- 另一方面，訊息擴充功能請參閱使用者的 IP 位址和引用資訊。
+- 另一方面，訊息擴充功能則會看到使用者的 IP 位址和參照者資訊。
 
-- 應用程式指導方針 (和我們的 AppSource 審查程式) 需要在將個人聊天訊息張貼給使用者時 (透過 POST_MESSAGE_TEAM 許可權) ，以獲得有效用途。 在使用不當的情況下，使用者可以封鎖機器人，租使用者系統管理員可以封鎖 app，而且 Microsoft 可以視需要集中封鎖機器人。
+- 應用程式指導方針 (我們的 AppSource 審查程式) 需要謹慎處理，才能透過 (許可權POST_MESSAGE_TEAM使用者) 張貼個人聊天訊息。 萬一遭到濫用，使用者可以封鎖 Bot，租使用者系統管理員可以封鎖應用程式，而 Microsoft 可以視需要集中封鎖 Bot。
 
-<sup>1</sup> 部分機器人只會傳送訊息 (POST_MESSAGE_USER) 。 它們稱為「只通知」機器人，但該詞彙並未參照允許或不允許 bot 執行的動作，這表示 bot 不想公開會話中的體驗。 團隊使用此欄位來停用通常會啟用的 UI 中的功能;bot 與確實會公開會話體驗的 bot 相比，未受到任何允許的限制。
+<sup>1</sup> 部分 Bot 只會傳送 (POST_MESSAGE_USER) 。 它們稱為「僅通知」Bot，但這個術語並未提及允許或不允許 Bot 執行什麼操作，這表示 Bot 不想公開交談體驗。 Teams 會使用此欄位來停用 UI 中通常會啟用的功能;與公開交談體驗的 Bot 相比，Bot 不會受限於允許執行什麼操作。
 
-<sup>2</sup> 是由 supportsFiles 的應用程式檔案的 [bot] manifest.js物件上的 [布林值] 屬性所控制。
+<sup>2</sup> 受應用程式檔案中 bot 物件上的支援Files Boolean 屬性manifest.js管理。
 
 > [!NOTE]
-> 如果 bot 有自己的登入，在使用者第一次登入時，會有另一個不同的方式：同意體驗。
+> 如果 Bot 擁有自己的登錄，使用者第一次登錄時，第二個同意體驗會有所不同。
 >
->目前，與團隊 app 內任何功能相關聯的 Azure AD 許可權 (bot、索引標籤、連接器或訊息延伸) ，都與此處所列的小組許可權完全不同。
+>目前，與 Teams App (bot、Tab、連接器或訊息延伸模組) 內任何功能相關聯的 Azure AD 許可權與此處所列的 Teams 許可權完全分開。
 
 ## <a name="tabs"></a>索引標籤
 
-[索引標籤] 是在團隊內執行的網站。
+Tab 是在 Teams 內運作的網站。
 
-### <a name="required-permissions"></a>所需許可權
+### <a name="required-permissions"></a>必要的許可權
 
 SEND_AND_RECEIVE_WEB_DATA
 
-### <a name="optional-permissions"></a>選用許可權
+### <a name="optional-permissions"></a>選擇性許可權
 
-目前沒有) 的 (
+目前 (沒有) 
 
 ### <a name="considerations"></a>考量
 
-- 索引標籤的風險設定檔與在瀏覽器索引標籤上執行的相同網站幾乎完全相同。 
+- 一個定位停駐點的風險設定檔幾乎與在瀏覽器選項卡中運行的同一個網站相同。 
 
-- 索引標籤也會取得執行中的內容，包括目前使用者的登入名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在的 Microsoft 365 群組的識別碼 (如果是團隊) 、租使用者識別碼，以及使用者目前的地區設定。 不過，若要將這些識別碼對應至使用者的資訊，索引標籤會必須讓使用者登入 Azure AD。
+- 一個 Tab 也會獲得其執行內容，包括目前使用者的登錄名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在 Microsoft 365 群組的識別碼 (如果是團隊) 、租使用者識別碼，以及使用者的目前地區設置。 不過，若要將這些 ID 與使用者的資訊進行比對，該選項卡必須讓使用者登錄 Azure AD。
 
 ## <a name="connectors"></a>連接器
 
-當外部系統中的事件發生時，連接器會將訊息張貼到頻道。
+當外部系統發生事件時，連接器會將訊息張貼到頻道。
 
-### <a name="required-permissions"></a>所需許可權
+### <a name="required-permissions"></a>必要的許可權
 
 POST_MESSAGE_CHANNEL
 
-### <a name="optional-permissions"></a>選用許可權
+### <a name="optional-permissions"></a>選擇性許可權
 
-REPLYTO_CONNECTOR_MESSAGE]。 某些連接器支援可操作的訊息，讓使用者能夠將回應傳送給連接器訊息，例如新增對 GitHub 問題的回復或將日期新增至 Trello 卡片。
+REPLYTO_CONNECTOR_MESSAGE。 某些連接器支援可採取動作的郵件，允許使用者將目標回復張貼到連接器訊息，例如新增 GitHub 問題的回復，或新增日期至 Trello 卡片。
 
 ### <a name="considerations"></a>考量
 
-- 傳送連接器訊息的系統不會知道要傳送給哪個人或誰接收訊息：不透露給收件者的任何資訊。  (Microsoft 是實際的收件者，而不是租使用者;Microsoft 會將實際的文章張貼到頻道。 ) 
+- 張貼連接器郵件的系統不知道郵件的張貼物件或接收郵件者：不會公開收件者的資訊。  (Microsoft 是實際的收件者，而不是租使用者;Microsoft 會實際張貼到 channel.) 
 
-- 將連接器郵件張貼到頻道時，任何資料都不會離開公司網路。
+- 當連接器訊息張貼到頻道時，沒有任何資料會離開公司網路。
 
-- 支援可操作郵件 (REPLYTO_CONNECTOR_MESSAGE 許可權的連接器) 也看不到 IP 位址和引用資訊;此資訊會傳送至 Microsoft，然後路由至先前已在連接器入口網站中向 Microsoft 註冊的 HTTP 端點。
+- 支援可採取動作 (REPLYTO_CONNECTOR_MESSAGE具有) 許可權的連接器，也看不到 IP 位址和參照者資訊;這項資訊會傳送至 Microsoft，然後路由至先前在連接器入口網站中向 Microsoft 註冊的 HTTP 端點。
 
-- 每次為頻道設定連接器時，就會建立該連接器實例的唯一 URL。 如果該連接器實例已刪除，就不能再使用該 URL。
+- 每次為通道配置連接器時，即會建立該連接器實例的唯一 URL。 如果刪除該連接器實例，就無法再使用 URL。
 
-- 連接器郵件不能包含檔附件。
+- 連接器郵件不能包含檔案附件。
 
-- 連接器實例 URL 應該視為機密/機密：任何擁有該 URL 的人都可以張貼到該 url，例如電子郵件地址。 因此，有一些垃圾郵件或連結至網路釣魚網站或惡意程式碼的威脅。 如果發生這種情況，小組擁有者可以刪除連接器實例。
+- 連接器實例 URL 應視為機密/機密：任何擁有該 URL 的人都可以張貼至該 URL，例如電子郵件地址。 因此，有一些垃圾郵件或網路釣魚或惡意網站連結的風險。 如果發生這種情況，團隊擁有者可以刪除連接器實例。
 
-- 如果傳送連接器訊息的服務遭到破壞並開始傳送垃圾郵件/網路釣魚/惡意程式碼連結，租使用者管理員可以避免建立新的連接器實例，而且 Microsoft 可以集中封鎖它們。
+- 如果傳送連接器郵件的服務遭到入侵，並開始傳送垃圾郵件/網路釣魚/惡意程式碼連結，租使用者系統管理員可以防止建立新的連接器實例，而 Microsoft 可以集中封鎖它們。
 
 > [!NOTE]
-> 目前不可能知道哪些連接器支援可操作的郵件 (REPLYTO_CONNECTOR_MESSAGE 許可權) 。
+> 目前無法知道哪些連接器支援可採取動作的郵件 (REPLYTO_CONNECTOR_MESSAGE許可權) 。
 
-## <a name="outgoing-webhooks"></a>外寄 webhooks
+## <a name="outgoing-webhooks"></a>外發網頁連結
 
-*外寄 webhooks* 是由小組擁有者或團隊成員動態建立。 它們不是團隊 app 的功能;包含此資訊是為了提供完整功能。
+*待發網頁連結* 是由團隊擁有者或小組成員在飛航中建立。 它們不是 Teams 應用程式的功能;這項資訊會包含完整性。
 
-### <a name="required-permissions"></a>所需許可權
+### <a name="required-permissions"></a>必要的許可權
 
-RECEIVE_MESSAGE、REPLYTO_MESSAGE。 可以接收來自使用者的訊息並回復。
+RECEIVE_MESSAGE，REPLYTO_MESSAGE。 可以接收來自使用者的訊息並回復他們。
 
-### <a name="optional-permissions"></a>選用許可權
+### <a name="optional-permissions"></a>選擇性許可權
 
 無
 
 ### <a name="considerations"></a>考量
 
-- 外寄 webhooks 與 bot 類似，但許可權較少。 您必須明確提及它們，就像機器人一樣。
+- 外發網頁連結與 Bot 類似，但許可權較少。 它們必須明確提及，就像 Bot 一樣。
 
-- 註冊外寄 webhook 後，會產生秘密，這可讓傳出 webhook 驗證寄件者是否為 Microsoft 團隊，而不是惡意攻擊者。 這個秘密應該會保密;有權存取的任何人都可以模仿 Microsoft 團隊。 如果機密遭到破壞，就可以刪除並重新建立傳出 webhook，並產生新的密碼。
+- 當已註冊外寄網頁搖動時，會產生一個機密，可讓待發網頁搖動驗證寄件者是 Microsoft Teams，而不是惡意攻擊者。 此機密應維持為機密;任何有存取權的人都可以模仿 Microsoft Teams。 如果機密遭到入侵，可以刪除並重新建立待發網頁連結，並產生新的密碼。
 
-- 雖然您可以建立無法驗證密碼的傳出 webhook，但我們建議您不要使用它。
+- 雖然您可以建立未驗證機密的外發網頁連結，但我們建議您不要這樣做。
 
-- 除了接收和回復郵件以外，待發 webhooks 無法進行許多動作：他們無法主動傳送郵件、無法傳送或接收檔案，除了接收和回復郵件以外，其他人也無法進行任何其他操作。
+- 除了接收和回復郵件之外，外寄網頁連結無法執行許多操作：無法主動傳送郵件、無法傳送或接收檔案、除了接收和回復郵件之外，他們無法執行 Bot 可以執行的其他工作。

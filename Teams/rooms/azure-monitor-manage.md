@@ -1,5 +1,5 @@
 ---
-title: 使用 Azure 監視器管理 Microsoft 團隊聊天室裝置
+title: 使用 Azure 監視器管理 Microsoft Teams 會議室裝置
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -13,40 +13,40 @@ localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
-description: 本文將討論如何使用 Azure 監視器以整合的方式來管理 Microsoft 團隊聊天室裝置。
+description: 本文討論如何使用 Azure 監視器以整合方式管理 Microsoft Teams 會議室裝置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16105e77c8e66afa00f089d1337984b7e7d9a502
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 41375c313940099b6ed6e102e2452290e0817bec
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662048"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874763"
 ---
-# <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>使用 Azure 監視器管理 Microsoft 團隊聊天室裝置
+# <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>使用 Azure 監視器管理 Microsoft Teams 會議室裝置
 
-本文將討論如何使用 Azure 監視器以整合的方式來管理 Microsoft 團隊聊天室裝置。
+本文討論如何使用 Azure 監視器以整合方式管理 Microsoft Teams 會議室裝置。
 
-您可以將 Azure 監視器設定為提供基本遙測，以協助您管理 Skype 會議室裝置。 如需詳細資訊，請參閱 [使用 Azure 監視器規劃 Microsoft 團隊聊天室管理](azure-monitor-plan.md) ，並 [部署 microsoft 團隊聊天室管理（含 azure 監視器](azure-monitor-deploy.md) ）。 隨著您的管理解決方案逐漸成熟，您可以使用其他資料和管理功能來建立更詳細的裝置效能視圖。
+您可以設定 Azure 監視器以提供基本遙測，協助管理 Microsoft Teams 會議室裝置。 請參閱 [使用 Azure 監視器規劃 Microsoft Teams 會議室](azure-monitor-plan.md) 管理 [，以及使用 Azure](azure-monitor-deploy.md) 監視器部署 Microsoft Teams 會議室管理以瞭解詳細資料。 隨著您的管理解決方案成熟，您可以使用額外的資料和管理功能來建立更詳細的裝置績效視圖。
 
 ## <a name="understand-the-log-entries"></a>瞭解記錄專案
 
-當 Microsoft 團隊聊天室 app 在 Windows 事件記錄檔中記錄對應的資訊時，系統會將下列事件描述插入到 [事件記錄檔描述] 欄位（每隔五分鐘）。 Microsoft Monitoring Agent 會將這些記錄傳遞到 Azure 監視器中的記錄分析，這會將這些記錄解析成您在 [使用 Azure 監視器部署 Microsoft 團隊聊天室管理](azure-monitor-deploy.md)中所建立的儀表板。 您可以在儀表板中查看個別記錄專案，以判斷需要的動作課程。
+當 Microsoft Teams 會議室應用程式在 Windows 事件記錄中記錄對應資訊時，每隔五分鐘，下列事件描述會插入事件記錄描述欄位。 Microsoft 監控代理程式會將這些記錄傳遞至 Azure 監視器中的記錄分析，將記錄剖析到在使用 Azure 監視器部署 [Microsoft Teams 會議室](azure-monitor-deploy.md)管理中建立儀表板。 有了儀表板，您可以查看個別的記錄專案，以判斷動作路線 。如果需要的話。
 
-事件識別碼2000和3000代表問題裝置正常運作。 事件 Id 2001 和3001代表發現問題。 如果您所設定的比較基準或您組織中其他部署的裝置，則事件 ID 4000 可能需要採取動作。
+事件 ID 2000 和 3000 表示該裝置如預期一樣工作。 事件 2001 和 3001 表示找到問題。 如果事件識別碼 4000 比您設定比較基準或組織中其他已部署裝置看到的結果超過預期，可能需要採取動作。
 
-瞭解這些事件描述會立即提醒您問題，並為進一步的疑難排解提供起點。
+瞭解這些事件描述可快速提醒您問題，並提供進一步疑難排解的起點。
 
-| 事件 &nbsp; 識別碼 &nbsp; 層級|事件 &nbsp; 行為&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|事件 &nbsp; 描述&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 事件 &nbsp; 識別碼 &nbsp; 層級|事件 &nbsp; 行為&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|活動 &nbsp; 描述&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---    |:---   |:---  |
-| 2000  <br> 錯誤資訊 | 這是正常的心跳事件。 每5分鐘，Microsoft [小組聊天室] 都會檢查其是否已登入 Microsoft 團隊或商務用 Skype，且具有網路和 Exchange 連線能力。 <br> 如果所有3個要素皆為 true，則會將事件 ID 2000 每5分鐘寫入一個事件記錄，直到裝置離線或已不再滿足一或多個條件為止。 | {"描述"： "心跳正常。"，"ResourceState"： "完好"，"OperationName"： "心跳"，"OperationResult"： "Pass"，"OS"： "Windows 10"，"OSVersion"： "10.0.14393.693"，"別名"： "Alias <span></span> @contoso .com"，"DisplayName"： "顯示名稱"，"AppVersion"： "1.0.38.0"，"IPv4Address"： "10.10.10.10"，"IPv6Address"： "IP v6 address"} <br><br> 在這個範例中，已滿足所有的心跳條件，Microsoft 團隊聊天室裝置會標示為健康情況。 如果發生錯誤，應用程式會改為記錄事件 ID 2001。 |
-| 2001  <br> 出錯 | 這是應用程式錯誤事件。 Microsoft 球隊聊天室會每隔5分鐘檢查其是否已登入 Microsoft 團隊或使用網路和 Exchange 連線的商務用 Skype。 如果有一個或多個因素不是 true，它會將 EventID 2001，每隔5分鐘寫入一個事件記錄，直到裝置離線，或再次符合所有條件。  | {「描述」：」網路狀態：健康。 Exchange 狀態：已連線。 **登出狀態：不正常。** "，" ResourceState "：" 不健康 "，" OperationName "：" 心跳 "，" OperationResult "：" 失敗 "，" OS "：" Windows 10 "，" OSVersion "：" 10.0.14393.693 "，" Alias "：" "，" DisplayName "：" 顯示名稱 "，" AppVersion "：" 1.0.38.0 "，" IPv4Address "：" 10.10.10.10 "，" IPv6Address "：" ip v6 address "} <br><br>  在這個範例中，Microsoft 球隊聊天室決定網路連線正常運作，且 app 已連線到 Exchange，但粗體部分指示該應用程式未連線。 這可能是裝置或主機上的配置問題。  <br> <br> 網路狀態顯示為 [健康] 或 [不正常]。 如果狀態不正常，可能是網路問題或裝置已被拔出 (但接著您可能也會有 Exchange、Microsoft 團隊或商務用 Skype 錯誤) 。  <br><br> Exchange 狀態顯示為 [已連接] 或 [下列其中一個]：已中斷連線、連線、AutodiscoveryError (最常看到的錯誤) 、GeneralError 或 ServerVersionNotSupported。 如果狀態是 [連線]，請等到傳送下一個健康情況訊息為止，否則其他錯誤，請參閱解決 Exchange 問題之系統管理員的問題。  <br><br>  [登入狀態] (指出 app 已在) 顯示為 [健康] 或「不健康中」。 如果狀態不正常，請傳送一個技術人員來進一步調查。 |
-| 3000  <br> 錯誤資訊 | 這個事件會驗證硬體檢查是否已執行併發現正常。 Microsoft 團隊聊天室會每隔5分鐘檢查已設定的硬體元件（例如會議室顯示、麥克風、喇叭及攝影機），並已連接並運作。 如果所有元件都健康，它會將 EventID 3000 寫入事件記錄檔。 除非連線的裝置出現問題，否則此事件會每隔5分鐘寫入一次。  <br> | {"描述"： "HardwareCheckEngine 不健康]，" ResourceState "：" 完好 "，" OperationName "：" HardwareCheckEngine "，" OperationResult "：" Pass "，" OS "：" Windows 10 "，" OSVersion "：" 10.0.14393.693 "，" 別名 "：" alias <span></span> @contoso .com "，" DisplayName "：" 顯示名稱 "，" AppVersion "：" 1.0.38.0 "，" IPv4Address "：" 10.10.10.10 "，" IPv6Address "：" ip v6 address "}  <br><br> 在這個範例中，所有硬體檢查都已過。 如果發生錯誤，應用程式會改為記錄事件 ID 3001。 |
-| 3001  <br> 錯誤事件  | 這是硬體錯誤事件。 Microsoft [小組聊天室] app 有一個程式，會檢查已連接之硬體元件的健康情況， (房間、麥克風、喇叭、相機) 每5分鐘。 如果一或多個元件不健全，它會將 EventID 3001 寫入事件記錄檔。 這個事件每5分鐘寫入一次，直到修正裝置的問題為止。   | {「描述」：」 **會議室的正面顯示狀態：不正常。** 已設定顯示計數為2。 實際顯示數目為0。 **會議麥克風狀態：不正常。** 會議演講者狀態：健康情況。 預設演講者狀態：健康情況。 相機狀態： [完好]。 "，" ResourceState "：" 不健康 "，" OperationName "：" HardwareCheckEngine "，" OperationResult "：" 失敗 "，" OS "：" Windows 10 "，" OSVersion "：" 10.0.14393.1198 "，" 別名 "：" Alias <span></span> @contoso .com "，" DisplayName "：" Yosemite 會議室 "，" AppVersion "：" 2.0.58.0 "，" IPv4Address "：" 10.10.10.10 "，" IPv6Address "：" IPv6Address "，" IPv4Address2 "：" 10.10.10.10 "} <br><br>  硬體外設顯示為 [健康] 或 [不健康]。 <br> 在這個範例中，有兩個房間的會議室顯示為已設定，目前都不提供。 會議麥克風狀態不健康，可能有幾個可能的原因。 因為至少有一個資源沒有通過檢查，所以 ResourceState 會列為不正常。 傳送技術人員來進一步調查。 |
-| 4000  <br> 錯誤資訊  <br> | 這是應用程式重新開機事件。 每次重新開機應用程式時，都會將這個事件記錄到 Windows 事件記錄檔。  <br> | {"描述"： "App 重新開機。"，"ResourceState"： "完好"，"OperationName"： "重新開機"，"OperationResult"： "Pass"，"OS"： "Windows 10"，"OSVersion"： "10.0.14393.693"，"別名"： "Alias <span></span> @domain .com"，"DisplayName"： "顯示名稱"，"AppVersion"： "1.0.38.0"，"IPv4Address"： "10.10.10.10"，"IPv6Address"： "ip v6 address"} <br><br> 應用程式可能會因各種原因重新開機。 比較相同建築物和不同建築物中裝置的重新開機頻率。 請記住已知問題（例如，電源波動與失敗），因為這可能會提供基礎結構問題的線索。|
+| 2000  <br> 資訊 | 這是正常的心跳事件。 每 5 分鐘，Microsoft Teams 會議室會檢查是否已登錄 Microsoft Teams 或商務用 Skype，並擁有網路和 Exchange 連接。 <br> 如果所有 3 個要素都成立，它會每隔 5 分鐘將事件 ID 2000 寫入事件記錄，直到裝置離線或不再符合一或多個條件。 | `{"Description":"Heartbeat is healthy.", "ResourceState":"Healthy", "OperationName":"Heartbeat", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com",  "DisplayName":"Display name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10",  "IPv6Address":"IP v6 address"}` <br><br> 在此範例中，所有心跳條件都符合，且 Microsoft Teams 會議室裝置已標示為健康。 如果發生錯誤，應用程式會改為記錄事件識別碼 2001。 |
+| 2001  <br> 錯誤 | 這是應用程式錯誤事件。 每 5 分鐘，Microsoft Teams 會議室會檢查是否使用網路和 Exchange 連接功能，將它登錄至 Microsoft Teams 或商務用 Skype。 如果一或多個因素不成立，它會每隔 5 分鐘將 EventID 2001 寫入事件記錄，直到裝置離線或再次符合所有條件。  | `{"Description":"Network status : Healthy. Exchange status : Connected. Signin status: Unhealthy. ", "ResourceState":"Unhealthy", "OperationName":"Heartbeat", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br>  在此範例中，Microsoft Teams 會議室會判斷網路連接正常，且 App 已連接到 Exchange，但粗體部分表示 App 未連接。 這可能是裝置或主機上的組組問題。  <br> <br> 網路狀態會顯示為健康狀態或不正常狀態。 如果狀態不健康，表示您可能有網路問題，或裝置可能已經拔除 (但您可能也會有 Exchange 和 Microsoft Teams 或商務用 Skype 錯誤) 。  <br><br> Exchange 狀態會顯示為已連接或下列其中一項：已中斷連接、正在連接、自動探索Error (最常見的錯誤) 、GeneralError 或 ServerVersionNotSupported。 如果狀態為正在連接，請等到下一個健康情況訊息被送出，因為其他錯誤會將問題參照到具有解決 Exchange 問題經驗的系統管理員。  <br><br>  表示 _應用程式已_ (的登錄狀態) 顯示為健康或不 _健康_。  如果狀態不健康，請傳送技術人員進一步調查。 |
+| 3000  <br> 資訊 | 此事件會驗證已執行硬體檢查，併發現狀態正常。 Microsoft Teams 會議室每隔 5 分鐘會檢查會議室顯示器、麥克風、喇叭和相機等已配置的硬體元件是否已連接且運作正常。 如果所有元件都正常，它會將 EventID 3000 寫入事件記錄。 除非已連接裝置發生問題，否則此事件會每 5 分鐘撰寫一次。  <br> | `{"Description":"HardwareCheckEngine is healthy.",  "ResourceState":"Healthy", "OperationName":"HardwareCheckEngine",  "OperationResult":"Pass", "OS":"Windows 10",  "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0",  "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> 在此範例中，所有硬體檢查都通過。 如果發生錯誤，應用程式會改為記錄事件識別碼 3001。 |
+| 3001  <br> 錯誤事件  | 這是硬體錯誤事件。 Microsoft Teams Room 應用程式有一個程式，每 5 分鐘檢查 (、麥克風、喇叭、相機) 連接硬體元件的健康狀態。 如果一或多個元件不健康，它會將 EventID 3001 寫入事件記錄。 此事件會每隔 5 分鐘撰寫一次，直到裝置問題修正。   | `{"Description":" Front of Room Display status : Unhealthy. Configured display count is 2. Real display count is 0. Conference Microphone status : Unhealthy. Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"}` <br><br>  硬體周邊設備會顯示為健康或不健康。 <br> 在此範例中，有兩個會議室的前方顯示器已配置，目前兩者均無法使用。 會議 _麥克風狀態_ 不 _健康_，可能有幾個可能的原因。 由於至少有一個資源未通過檢查，因此 ResourceState 會列為不健康狀態。 傳送技術人員進一步調查。 |
+| 4000  <br> 資訊  <br> | 這是 App 重新開機事件。 每次重新開機應用程式時，它會將此事件記錄在 Windows 事件記錄中。  <br> | `{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> 應用程式可能會因為各種原因重新開機。 比較同一棟大樓和不同建築物中的裝置重新開機頻率。 請記住電源波動和失敗等已知問題，因為這可能提供基礎結構問題的線索。|
 
 ## <a name="related-topics"></a>相關主題
  
 
-[使用 Azure 監視器規劃 Microsoft 團隊聊天室管理](azure-monitor-plan.md)
+[使用 Azure 監視器規劃 Microsoft Teams 會議室管理](azure-monitor-plan.md)
 
-[使用 Azure 監視器部署 Microsoft 團隊聊天室管理](azure-monitor-deploy.md)
+[使用 Azure 監視器部署 Microsoft Teams 會議室管理](azure-monitor-deploy.md)

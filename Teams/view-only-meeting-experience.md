@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解系統管理員、簡報者和出席者的 Teams 僅查看會議體驗
+description: 瞭解適用于系統管理員、簡報者和出席者的 Teams 僅查看會議體驗
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,22 +16,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867062"
+ms.locfileid: "50875053"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 只能查看會議體驗
 
 > [!Note]
-> Microsoft 365 E3/E5 和 Microsoft 365 A3/A5 中將提供僅觀看廣播。 此功能將于 2021 年 3 月 1 日啟用為預設關閉。 Microsoft 365 政府版 G3/G5 方案中的這項功能將于稍後提供。 如果您想要將功能預設為 ON，您必須在此日期之後變更預設政策。 使用 PowerShell 啟用該策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
+> Microsoft 365 E3/E5 和 Microsoft 365 A3/A5 提供僅觀看廣播。 此功能將于 2021 年 3 月 1 日啟用為預設關閉。 Microsoft 365 政府社群雲端 (GCC) 將于 2021 年 3 月底開始推出。 政府社群雲端高 (GCCH) 和 (DoD) 將于稍後推出。 如果您想要將功能預設為 ON，您必須在此日期之後變更預設政策。 使用 PowerShell 啟用該策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
 
 > [!Note]
-> 如果您的會議或網路研討會達到容量，Teams 將會順暢地縮放，以容納 10，000 人只能觀看的廣播體驗。 此外，在增加遠端工作的這一期間，利用今年底甚至超過 20，000 人的廣播。
+> 如果您的會議或網路研討會達到容量，Teams 將會順暢地縮放，以容納 10，000 人只能觀看的廣播體驗。 此外，在增加遠端工作的這一期間，利用到今年年底超過 20，000 人的廣播。
 
-Microsoft Teams 最多允許 10，000 位出席者加入 Teams 會議。 達到主要會議的容量後，其他出席者將會加入，並享有只能觀看的體驗。
+Microsoft Teams 最多允許 10，000 位出席者加入 Teams 會議。 達到主要會議的容量後，其他出席者會以僅以視點功能加入會議。
 
 第一次加入會議的出席者，最多達會議容量，將會獲得完整的 Teams 會議體驗。 他們可以共用音訊和視音訊、查看共用影片，以及參與會議聊天。
 
@@ -52,7 +52,7 @@ Microsoft Teams 最多允許 10，000 位出席者加入 Teams 會議。 達到�
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-未來，系統管理員也可以停用 Teams 系統管理中心中的僅查看體驗。
+未來，系統管理員也可以停用 Teams 系統管理中心的僅查看體驗。
 
 ## <a name="impact-to-users"></a>對使用者的影響
 
@@ -73,7 +73,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 如果有空間，使用者一定會加入主會議。 如果主要會議達到容量，且一或多個出席者離開主會議，則主會議具有可用的容量。 加入會議 (或重新加入) 出席者會加入主會議，直到會議再次達到容量。 只有使用模式體驗的出席者不會自動升級至主要會議，目前無法手動升級至主要會議。
 
-如果尚未設定簡報者/出席者角色，主會議的空格會以先到先得為基礎填入。 達到會議容量後，所有其他使用者都會以僅以視圖為體驗加入會議。
+如果尚未設定簡報者/出席者角色，主會議的空格會先到先得。 達到會議容量後，所有其他使用者都會以僅以視圖為體驗加入會議。
 
 ## <a name="impact-to-meeting-presenters"></a>對會議簡報者的影響
 
@@ -91,7 +91,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 Teams 只能查看體驗可讓出席者：
 
 - 聆聽 Teams 主要會議的參與者。
-- 如果使用中喇叭正在共用視 (，請參閱使用中喇叭) 。
+- 如果使用中喇叭正在共用視 (，請參閱使用中喇叭的視) 。
 - 查看使用共用桌面功能共用的內容。
 
 只有觀看的出席者將無法在會議中體驗下列選項：
@@ -111,6 +111,6 @@ Teams 只能查看體驗可讓出席者：
 - 出席報告不會包含僅顯示出席者。
 - 僅觀看的出席者將享有單一影片體驗。 他們可以看到使用中的喇叭或正在共用的內容，但無法同時看到兩者。
 - 我們目前不支援僅供出席者使用圖庫、大型圖庫或共同模式版面配置。   
-- 僅查看出席者與一般出席者不會有相同的延遲。 <sup>1</sup>
+- 只有觀看的出席者不會有與一般出席者相同的延遲。 <sup>1</sup>
 
   <sup>1</sup> 僅觀看的出席者將在會議進行 30 秒的視像和音訊延遲。  

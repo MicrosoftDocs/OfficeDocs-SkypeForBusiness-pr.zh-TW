@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661898"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874893"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -64,8 +64,7 @@ ms.locfileid: "49661898"
 
 <sup>6</sup> 僅限預設連絡人資料夾中的連絡人。 不支援存取其他連絡人資料夾或子資料夾。
 
-<sup>7</sup> Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果 **[-SetPhotoEnabled]** 在原則中設定為關閉狀態，使用者將無法新增、變更或移除他們的個人資料相片。 例如，如果使用者上傳由貴組織 IT 或人力資源部門核准的個人資料相片，其則不需要採取任何動作。 但如果使用者上載了不當的圖片，請根據組織的內部原則進行變更。
-
+<sup>7</sup> Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果在策略中關閉 **-SetPhotoEnabled** 設定，使用者就無法新增、變更或移除其設定檔圖片，因此如果系統管理員變更相片，就不會將 porfile 圖片同步至團隊。
 <sup>8</sup> 您需要滿足[為內部部署主控的的郵箱建立和檢視會議的需求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)列出的要求。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的需求
