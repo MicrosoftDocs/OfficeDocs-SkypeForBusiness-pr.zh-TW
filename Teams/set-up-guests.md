@@ -22,20 +22,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何以 Office 365 系統管理員身份在 Microsoft Teams 中開啟或關閉來賓存取功能。
-ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786775"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884517"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft Teams 的來賓存取
 
 > [!Note]
 
-> 在 **2021 年2月** 之前，來賓存取預設為關閉狀態。 在系統管理員或小組擁有者可以新增來賓之前，必須為 Teams 開啟來賓存取。 開啟來賓存取後，可能需要幾個小時的時間，變更才會生效。 如果使用者在您嘗試將來賓新增至其小組時，請 **與您的系統管理員聯繫** ，可能是因為沒有開啟來賓存取，或設定尚未生效。 
+> 在 **2021 年 2** 月之前，來賓存取預設為關閉。 在系統管理員或小組擁有者可以新增來賓之前，必須為 Teams 開啟來賓存取。 開啟來賓存取權後，變更可能需要幾個小時才能生效。 如果使用者在嘗試將來賓新到小組時看到訊息，請連上您的系統管理員，可能是來賓存取尚未開啟，或是設定尚未生效。
 
-> **2021 年2月** 之後，對於尚未設定此設定的現有客戶 &，Microsoft 團隊中的來賓存取權會預設為開啟狀態。 在實施此變更時，如果您尚未在 Microsoft 團隊中設定來賓存取能力，該功能將會在您的租使用者中啟用。 如果您想讓您的組織仍停用來賓存取權，您必須確認 [來賓存取設定] 設定為 [ **關閉** ] 而不是 [ **服務預設值**]。
+> **2021** 年 2 月之後，對於尚未設定此設定的現有客戶&，Microsoft Teams 中的來賓存取預設會開啟。 執行此變更時，如果您尚未在 Microsoft Teams 中配置來賓存取功能，該功能就會在租使用者中啟用。 如果您希望貴組織的來賓存取保持停用狀態，您必須確認來賓存取設定已設定為 **關閉，而非****服務預設值**。
 
 > [!IMPORTANT]
 > 開啟來賓存取取決於 Azure Active Directory、Microsoft 365、SharePoint 和 Teams 的設定。 如需詳細資訊，請參閱 [在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
@@ -48,7 +48,7 @@ ms.locfileid: "49786775"
 
 3. 將 **[允許 Microsoft Teams 中的來賓存取]** 設定為 **[開啟]**。
 
-    ![允許來賓存取開關設定為開啟 ](media/set-up-guests-image1.png)
+    ![允許來賓存取開關設定為開啟 ](media/guest-access-setting.png)
 
 4. 在 **[通話]**、**[會議]** 和 **[通訊]** 下，根據要允許來賓使用者使用的功能，為每個功能選擇 **[開啟]** 或 **[關閉]**。
 
@@ -66,13 +66,13 @@ ms.locfileid: "49786775"
       - **Giphy 內容分級** –  從下拉式清單中選取分級：
           - **[允許所有內容]** - 來賓可以在聊天中插入所有 Giphy，而無論內容分級為何。
           - **[中等]**，來賓可以在聊天中插入 Giphy，但會適當限制成人內容。
-          - [**嚴格**]-來賓可以在聊天中插入 giphy，但會限制插入成人內容。
+          - **嚴格** - 來賓可以在聊天中插入 Giphys，但禁止插入成人內容。
       - **在交談中使用 Meme** – **[開啟]** 此設定可允許來賓在交談中使用 Meme。
       - **在交談中使用貼圖** – **[開啟]** 此設定可允許來賓在交談中使用貼圖。
 
     ![Teams 中的來賓權限設定](media/manage-guest-access-image1.png)
 
-5. 選取 [ **儲存**]。
+5. 選取 **儲存**。
 
 ## <a name="external-access-federation-vs-guest-access"></a>外部存取 (同盟) 與來賓存取
 

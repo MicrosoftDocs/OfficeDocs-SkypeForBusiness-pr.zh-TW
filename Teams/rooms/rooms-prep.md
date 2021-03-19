@@ -13,155 +13,150 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: 瞭解如何準備您的基礎結構以部署 Microsoft 團隊聊天室，讓您充分利用所有的功能。
+description: 瞭解如何準備基礎結構以部署 Microsoft Teams 會議室，以便利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662428"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884567"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
-本節概述準備您的環境所需執行的步驟，讓您可以使用 Microsoft 團隊聊天室的所有功能。
+本節包含準備環境所需的步驟概觀，以便您可以使用 Microsoft Teams 會議室的所有功能。
   
-1. 為每個 Microsoft 團隊聊天室主控台準備一個裝置帳戶。 如需詳細資訊，請參閱 [部署 Microsoft 團隊會議室](rooms-deploy.md) 。
+1. 準備每個 Microsoft Teams 會議室主控台的裝置帳戶。 請參閱 [部署 Microsoft Teams 會議室](rooms-deploy.md) 以瞭解詳細資料。
     
-2. 請確定有可供裝置使用的網路/網際網路連線正常。 
+2. 請確保裝置有可使用的網路/網際網路連接。 
     
-   - 它必須能夠使用 DHCP 接收 IP 位址。 在第一次啟動時，無法使用靜態 IP 位址來設定 Microsoft team 會議室 (，但之後就可以在裝置或上游交換器或路由器上設定該裝置的靜態 IP 位址。 ) 
-   - 除了開啟媒體) 的一般埠之外，還必須開啟這些埠 (：
+   它必須能夠使用 DHCP 接收 IP 位址。  (第一次裝置啟動時，Microsoft Teams 會議室無法以靜態 IP 位址進行配置，但之後，裝置上的靜態 IP 位址可以在裝置或上行交換器或路由器上) 
+
+   除了開啟媒體的一般 (之外，還必須開啟這些埠) ：
    - HTTPS：443
    - HTTP：80
-   - 如果您的網路是透過 proxy 執行，您也需要 proxy 位址或腳本資訊。
+
+   如果您的網路是透過 Proxy 執行，您也需要 Proxy 位址或腳本資訊。
     
-     > [!IMPORTANT]
-     > Microsoft 團隊聊天室不支援 proxy 驗證，因為它可能會干擾聊天室的常規操作。 在進入生產前，請先確認已免除來自 proxy 驗證的 Microsoft 團隊會議室。
+   > [!IMPORTANT]
+   > Microsoft Teams 會議室不支援 Proxy 驗證，因為它可能會干擾聊天室的一般作業。 在投入生產之前，請確保 Microsoft Teams 會議室已免于 Proxy 驗證。
   
-3. 為了改善您的體驗，Microsoft 會收集資料。 若要允許 Microsoft 收集資料，請允許下列網站：
+3. 為了改善您的體驗，Microsoft 會收集資料。 若要允許 Microsoft 收集資料，請允許這些網站：
 
    - 遙測用戶端端點： https://vortex.data.microsoft.com/
-   - [遙測設定] 端點： https://settings.data.microsoft.com/
+   - 遙測設定端點： https://settings.data.microsoft.com/
     
-### <a name="create-and-test-a-device-account"></a>建立並測試裝置帳戶
+### <a name="create-and-test-a-device-account"></a>建立和測試裝置帳戶
 
-*裝置帳戶* 是 Microsoft 團隊聊天室用戶端用來存取 Exchange 功能（例如行事曆），以及啟用商務用 Skype 的帳戶。 如需詳細資訊，請參閱 [部署 Microsoft 團隊會議室](rooms-deploy.md) 。
+裝置  *帳戶*  是 Microsoft Teams 會議室用戶端用來從 Exchange 存取功能的帳戶，例如日曆，以及啟用商務用 Skype。 請參閱 [部署 Microsoft Teams 會議室](rooms-deploy.md) 以瞭解詳細資料。
   
 ### <a name="check-network-availability"></a>檢查網路可用性
 
-為了能正常運作，Microsoft 團隊聊天室裝置必須能夠存取符合這些需求的有線網路：
+若要正常運作，Microsoft Teams 會議室裝置必須能夠存取符合這些要求的有線網路：
   
-- 存取 Active Directory 或 Azure Active Directory (Azure AD) 實例，以及您的 Microsoft Exchange 與商務用 Skype 伺服器。
-- 存取可使用 DHCP 提供 IP 位址的伺服器。 在第一次啟動時，無法使用靜態 IP 位址來設定 Microsoft 團隊會議室。
-- 存取 HTTP 埠80和443。
-- TCP 和 UDP 埠已設定為適用于內部部署商務用 Skype 伺服器實現的 [伺服器埠與通訊協定需求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) ，或 microsoft [365 和 Office 365 Url 以及](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) microsoft 團隊或商務用 SKYPE online 實現的 IP 位址範圍。
+- 存取 Active Directory 或 Azure Active Directory (Azure AD) 實例，以及您的 Microsoft Exchange 和商務用 Skype 伺服器。
+
+- 存取可以使用 DHCP 提供 IP 位址的伺服器。 Microsoft Teams 會議室無法在第一個單元啟動時使用靜態 IP 位址進行配置。
+
+- 存取 HTTP 埠 80 和 443。
+
+- 針對內部部署商務用 Skype Server[](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)的部署，或 Microsoft Teams 或商務用 Skype 線上實現之[Microsoft 365 和 Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) URL 和 IP 位址範圍的伺服器埠和通訊協定需求中所述，所配置的 TCP 和 UDP 埠。
 
 > [!IMPORTANT]
-> 請務必使用有線 1 Gbps 網路連線，以確保您會有所需的頻寬。
+> 請務必使用有線 1Gbps 網路連接，以確保您擁有所需的頻寬。
 
 > [!NOTE]
-> Microsoft 團隊聊天室的軟體更新會自動從商務用 Microsoft 網上商店下載。 請參閱 [Microsoft Store For Business 和教育版的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) ，確認聊天室主機能夠存取商店及自我更新。
+> Microsoft Teams 會議室的軟體更新會自動從商務用 Microsoft Store 下載。 請參閱 [商務用和教育用 Microsoft Store](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 的先決條件，以確認會議室主控台能夠存取該商店並自我更新。
   
 ### <a name="certificates"></a>證書
 
-您的 Microsoft 團隊聊天室裝置會使用 Exchange Web 服務、Microsoft 團隊或商務用 Skype、網路使用量和驗證的憑證。 如果相關伺服器使用公用憑證（適用于線上和某些內部部署的部署），系統管理員必須在安裝憑證的部分不需要採取進一步的動作。 另一方面，如果是內部部署部署的專用 CA，則憑證授權單位是 (常見的 CA) 則裝置必須相信該 CA，這表示裝置上已安裝 CA + CA 鏈證書。 新增裝置至網域可能會自動執行此工作。
+您的 Microsoft Teams 會議室裝置使用 Exchange Web Services、Microsoft Teams 或商務用 Skype、網路使用方式和驗證的憑證。 如果相關伺服器使用公用憑證 ，例如 Online 和部分內部部署，則系統管理員無需執行其他動作來安裝憑證。 另一方面，如果憑證授權單位是私人 CA (通常是內部部署) 則裝置必須信任該 CA，這表示裝置上已安裝 CA + CA 鏈證書。 將裝置新加入網域可能會自動執行這項工作。
   
-您可以按照與任何其他 Windows 用戶端相同的方式來安裝證書。 
+您安裝憑證的方式，與任何其他 Windows 用戶端相同。 
   
 > [!NOTE]
-> 您可能需要證書，才能讓 Microsoft 團隊聊天室使用商務用 Skype 伺服器。
+> 若要讓 Microsoft Teams 會議室使用商務用 Skype Server，可能需要憑證。
   
-### <a name="proxy"></a>Proxy
+### <a name="proxy"></a>代理
 
-Microsoft 團隊聊天室是設計來從 Windows 作業系統繼承 Proxy 設定。 以下列方式存取 Windows 作業系統：
+Microsoft Teams 會議室是設計用來繼承 Windows OS 的 Proxy 設定。 以下列方式存取 Windows 作業系統：
   
-1. 在 Microsoft [團隊聊天室] UI 中，按一下 [設定] 齒輪圖示，系統會在其中提示您輸入本機系統管理員密碼 (預設密碼為 **sfb**) 。
-2. 按一下 [ **設定** ]，然後敲擊 [ **移至 Windows** ] 按鈕，然後敲擊 [ **移** 至 Windows] 按鈕，然後按一下 [ **管理員** ] 按鈕 (如果電腦已加入網域，請選擇 [ **其他使用者]，** 然後使用 .\admin 作為使用者名稱) 。
-3. 在 regedit 中的 [ **搜尋 Windows** ] 方塊的左下方類型 (您長按畫面或按一下滑鼠右鍵，然後選擇 [以 **系統管理員身分執行** ]) 。
-4. 按一下 [HKEY_USERS] 資料夾 (，您會看到一份電腦使用者 Sid 清單) 確保已選取 [根資料夾 HKEY_USERS]。
+1. 在 Microsoft Teams 會議室 UI 中，按一下 [設定> 齒輪圖示，系統會提示您輸入裝置上的當地系統管理員密碼 (預設密碼為 **sfb**) 。
+2. 點選 **設定**，然後點選前往 **Windows** 按鈕，然後點選前往管理員登錄按鈕，然後按一下管理員按鈕 (如果電腦已加入網域，請選擇其他使用者，然後使用 .\admin 做為使用者名稱) 。 
+3. 在 Regedit 中的 [**搜尋 Windows** 方塊 (長按螢幕或以滑鼠右鍵按一下，然後選擇 [以系統管理員) 。
+4. 按一下 [HKEY_USERS資料夾 (，您就會看到電腦使用者 SID 清單，) 已選取HKEY_USERS資料夾。
        
-5. 按一下 [檔案]，然後選擇 [ **載入 Hive]。**
-6. 流覽至 [ **C:\Users\Skype** ] 資料夾，然後在 [檔案名] 方塊中輸入 NTUSER，然後按 [開啟] 按鈕
+5. 按一下 [檔案>，然後選擇 [ **載入配置單元。**
+6. 流覽至 **C：\Users\Skype** 資料夾，然後輸入檔案名方塊 NTUSER.dat，然後按開啟按鈕
 
-7. 系統會提示您輸入新載入的配置單元的索引鍵名;在 Skype 中輸入 (您現在應該會看到 Skype 使用者) 的登錄設定。
+7. 系統會提示您為新載入的 Hive 輸入金鑰名稱;輸入 Skype (現在您應該會看到 Skype 使用者帳戶的登錄) 。
  
-8. 開啟 Skype 金鑰並流覽至 [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]，然後確保輸入這些設定： 
+8. 開啟 Skype 鍵並流覽至HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings，然後確保已輸入這些設定： 
     
-    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
+    ```console
+    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "MigrateProxy"=dword:00000001
+    "ProxyEnable"=dword:00000001
+    "ProxyServer"="xx.xx.xx.xx:8080"
+    ```
     
-    `"MigrateProxy"=dword:00000001`
+    如果 ProxyServer 不存在，您可能需要將此金鑰新增為字串，將 xx.xx.xx.xx：8080 變更為 Proxy 伺服器的 ip/host 和埠。
+ 
+    如果客戶使用 PAC 檔案，該組組看起來會類似下列範例：
+
+     ```console
+    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "MigrateProxy"=dword:00000001
+    "ProxyEnable"=dword:00000001
+    "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
+    ```
     
-    `"ProxyEnable"=dword:00000001`
+9. 完成變更後，請針對 Skype) 的 Skype 使用者金鑰 (根資料夾進行反提示，然後選擇從登錄檔案功能表卸載 Hive (系統會提示您確認 - 選取是) 。 
     
-    `"ProxyServer"="xx.xx.xx.xx:8080"`
+10. 現在，您可以關閉登錄編輯器，然後輸入登入 Windows 搜尋方塊。
     
-    如果 ProxyServer 不存在，您可能需要將此金鑰新增為字串，將 xx. xx：8080變更為您 Proxy 伺服器的 ip/主機和埠。
+11. 回到登錄畫面，選擇 **Skype** 使用者。 如果上述所有步驟都成功，Microsoft Teams 會議室裝置將會順利登錄。
     
-9. 當您完成變更後，請將 skype 使用者金鑰 (根資料夾的 [skype]) ，然後從 [登錄檔案] 功能表中選擇 [卸載 Hive]， (系統會提示您確認-選取 **[是 ) ]** 。
-    
-10. 您現在可以關閉 [登錄編輯程式]，然後在 Windows 搜尋方塊中輸入 [登出]。
-    
-11. 回到登入畫面，選擇 **Skype** 使用者。 如果上述所有步驟都已成功完成，Microsoft 團隊聊天室裝置將會順利登入。
-    
-若要使用此應用程式，您必須能夠連線到下方所述的端點。 若要查看 IP 位址，請展開描述流量流程之資料表下方的 [IP 位址] 區段。
+請參閱 [網路安全性](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) 文章，瞭解 Microsoft Teams 會議室所需的 FQDN、埠和 IP 位址範圍的完整詳細資料。
   
-**防火牆 Proxy 主機名稱/埠範例**
-
-|特殊|來源或認證|來源埠|目的地|CDN|適用于 Office 365 的 ExpressRoute|目的地 IP|目的地埠|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|驗證與身分識別  <br/> |請參閱 [Microsoft 365 和 Office 365 驗證與身分識別](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|入口網站與共享  <br/> |請參閱 [Microsoft 365 系統管理中心及共用](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
-|SIP 信號  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|持續性共用物件模型 (PSOM) 連線網路會議  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|HTTPS 下載  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|音訊  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50000-50019  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
-|影片  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50020-50039  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
-|桌面共用  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50040-50059  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443，50000-59999  <br/> |
-|在 iOS 裝置上 Lync mobile 2010 的 lync Mobile 推播通知。 您不需要 Android、Nokia Symbian 或 Windows Phone 行動裝置。  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Skype 遙測  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
-|Skype 用戶端快速秘訣  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
-
-> [!NOTE]
-> Contoso.com 和 broadcast.skype.com 的萬用字元代表一個長清單，這些節點專供 Microsoft 365 或 Office 365 使用。 
   
-### <a name="create-provisioning-packages"></a>建立預配套件
+### <a name="create-provisioning-packages"></a>建立部署套件
 
-您將會使用 [預配套件] 來驗證 Exchange Server、Microsoft 365 或 Office 365。
+您將使用部署套件來驗證 Exchange Server、Microsoft 365 或 Office 365。
   
-### <a name="admin-group-management"></a>管理員群組管理
+### <a name="admin-group-management"></a>系統管理群組管理
 
-加入網域之後，您可以使用 [群組原則] 或 [本機電腦管理]，將安全性群組設定為本機管理員，就像您在網域中的 Windows 電腦一樣。 屬於該安全群組成員的任何人都可以輸入其認證及解除鎖定設定。
+加入網域之後，您可以使用群組原則或本地電腦管理將安全性組設定為本地系統管理員，就像您網域內 Windows 電腦一樣。 任何加入該安全性群組的人都可以輸入其認證並解除鎖定設定。
   
 > [!NOTE]
-> 如果您的 Microsoft 團隊聊天室裝置無法與 (網域進行信任，例如，如果您在網域) 加入網域之後，從網域中移除 Microsoft [團隊聊天室]，您將無法在裝置上進行驗證，也無法開啟 [設定]。 解決方法是使用本機管理員帳戶登入。 
+> 如果您的 Microsoft Teams 會議室裝置失去對網域 (的信任，例如，如果您在加入網域) 後從網域移除 Microsoft Teams 會議室，您將無法驗證至裝置並開啟設定。 解決方法是使用本地系統管理員帳戶登入。 
   
-## <a name="local-accounts"></a>本機帳戶
+## <a name="local-accounts"></a>本地帳戶
 
-### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft 團隊聊天室本機使用者帳戶
+### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams 會議室本地使用者帳戶
 
-裝置帳戶通常不會使用密碼。 您可以為它提供密碼，但會產生一些後果，包括使用者可能在密碼到期時封鎖主控台應用程式的可能性。 因此，管理員應該採取的行動，以確保不允許密碼過期。
+裝置帳戶通常不會使用密碼。 您可以為它輸入密碼，但會產生一些後果，包括使用者可能在密碼到期時被鎖定在主控台應用程式外。 因此，系統管理員應該採取一些措施，確保密碼不會過期。
   
-### <a name="admin---local-administrator-account"></a>"管理員"-本機系統管理員帳戶
+### <a name="admin---local-administrator-account"></a>「系統管理員」- 本地系統管理員帳戶
 
-Microsoft 團隊會議室預設密碼設定為 "sfb"。 您可以在本機變更密碼：移至 windows \> 或 AutoUnattend.xml 檔案 (使用 ADK 的 Windows 系統影像管理員來變更 xml 檔案) 。
+Microsoft Teams 會議室的預設密碼設定為「sfb」。 您可以前往 Windows 設定前往 Windows，或在 AutoUnattend.xml 檔案中變更密碼 (使用 ADK 的 Windows System Image manager 變更 xml 檔案 \>) 。
   
 > [!CAUTION]
-> 請務必儘快變更 Microsoft 團隊會議室密碼。 
+> 請務必儘快變更 Microsoft Teams 會議室密碼。 
   
-您也可以設定網域管理員設為「本機管理員」的群群組原則，來管理本機系統管理員密碼。
+您也可以設定群組原則，將網域系統管理員設定為本地系統管理員，以管理本地系統管理員密碼。
   
-在安裝期間，不會將本機系統管理員密碼作為選項包含。
+在設定期間，系統不會提供本地系統管理員密碼做為選項。
   
 ### <a name="machine-account"></a>電腦帳戶
 
-與任何 Windows 裝置一樣，您可以在 [ \> 重新命名電腦] 的 [設定] 中以滑鼠右鍵按一下來重新命名電腦名稱稱 \> 。
+就像任何 Windows 裝置一樣，以滑鼠右鍵按一下關於重新命名電腦的設定，即可 \>  \> **重新命名電腦名稱稱**。
   
- 如果您想要在將電腦加入網域之後重新命名，請使用 Rename-Computer PowerShell 命令，後面接著電腦的新名稱。
+如果您想要在將電腦加入網域後重新命名，請使用 **重新命名-電腦**，即 PowerShell 命令，後面接著電腦的新名稱。
   
 ## <a name="related-topics"></a>相關主題
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
 
 [Microsoft Teams 會議室需求](requirements.md)
   
@@ -171,4 +166,4 @@ Microsoft 團隊會議室預設密碼設定為 "sfb"。 您可以在本機變更
   
 [管理 Microsoft Teams 會議室](rooms-manage.md)
 
-[Microsoft Store for Business 和教育版的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[商務與教育用 Microsoft Store 的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
