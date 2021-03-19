@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊 PSTN 使用方式報告
+title: Microsoft Teams PSTN 使用方式報告
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -13,154 +13,154 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組 PSTN 使用量] 報告，以取得貴組織中通話和音訊會議的使用方式的概覽。
+description: 瞭解如何在 Microsoft Teams 系統管理中心使用 Teams PSTN 使用方式報告，以概觀瞭解貴組織的通話和音訊會議使用方式。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cc2b1ae0b6df29e29a55152dbafb9b76ae31e973
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2b6957effb494e2b7509d0e8ddc15f64baeb30be
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809293"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867052"
 ---
-# <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 團隊 PSTN 使用方式報告
+# <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用方式報告
 
-Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您在組織中進行通話和音訊會議活動的概覽。 如果您使用自己的電話運營商，您可以查看通話方案的詳細通話活動（如果您使用的是電話語音運營商），以及直接路由。
+Microsoft Teams 系統管理中心的 Teams PSTN 使用方式報告提供您組織中通話和音訊會議活動概觀。 如果您使用 Microsoft 做為電話電信業者，您可以查看通話方案的詳細通話活動;如果您使用自己的電話電信業者，也可以查看直接路由的詳細通話活動。
 
-[ **通話方案** ] 索引標籤會顯示資訊，包括使用者在輸入和輸出 PSTN 通話中所花費的分鐘數，以及這些通話的成本。 [ **直接路由** ] 索引標籤會顯示您的資訊，包括 SIP 位址及呼叫開始和結束時間。 使用此報告中的資訊，深入瞭解貴組織中的 PSTN 使用量，並協助您調查、規劃及做出業務決策。
+[ **通話方案>** 選項卡會顯示資訊，包括使用者在傳入和外接 PSTN 通話中花費的分鐘數，以及這些通話的成本。 直接 **路由選項卡** 會顯示包括 SIP 位址和通話開始時間和結束時間在內的資訊。 使用此報告中的資訊，深入瞭解貴組織的 PSTN 使用方式，並説明您調查、規劃及做出商務決策。
 
 > [!NOTE]
-> 如果您有 Telstra 或 Softbank 通話方案，就不會在 PSTN 使用狀況報告中看到任何通話詳細資料記錄。 如需報告需求，請與 Telstra 或 Softbank。 
+> 如果您有 Telstra 或 Softbank 通話方案，將不會在 PSTN 使用方式報告中看到任何通話詳細資料記錄。 如需報告需求，請聯絡 Telstra 或 Softbank。 
 
-## <a name="view-the-pstn-usage-report"></a>查看 PSTN 使用狀況報告
+## <a name="view-the-pstn-usage-report"></a>查看 PSTN 使用方式報告
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告**  >  **使用方式報告**。 在 [ **查看報表** ] 索引標籤的 [ **報表**] 底下，選取 [ **PSTN 使用方式報告**]。
-2. 在 [ **日期範圍**] 底下，選取7或28天的預先定義範圍，或設定自訂範圍，然後選取 [ **執行報表**]。
+1. 在 Microsoft Teams 系統管理中心的左側流覽中，按一下 [分析&**報告**  >  **使用方式報告**。 在 [ **查看報表>** 選項卡的 [ **報表> 下**，選取 **[PSTN 使用方式報告>**。
+2. 在 **日期範圍** 下，選取預先定義的 7 或 28 天範圍，或設定自訂範圍，然後選取執行 **報表**。
 
-## <a name="interpret-the-report"></a>解讀報表
+## <a name="interpret-the-report"></a>解譯報表
 
 ### <a name="calling-plans"></a>通話方案
 
-[系統![管理中心的通話方案 PSTN 使用報告報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "[Microsoft 團隊系統管理中心] 中含有編號標注的 PSTN 使用狀況報告螢幕擷取畫面")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+[![系統管理中心的通話方案 PSTN 使用方式報告螢幕擷取畫面](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Microsoft Teams 系統管理中心的 PSTN 使用方式報告螢幕擷取畫面，包含編號圖說說義")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
-|圖說文字 |描述  |
+|標注 |說明  |
 |--------|-------------|
-|**1**   |您可以在過去7天、28天或您設定的自訂日期範圍中查看趨勢 |
-|**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
-|**3**   |X 軸是特定報表的已選取日期範圍。 Y 軸是在所選時段內的通話總數目。 <br>將游標暫留在指定日期上的點上，即可查看該日期的總通話情況。  |
-|**4**   |下表提供每個通話的 PSTN 使用量細分。 <ul><li>**時間戳記 (UTC)** 是呼叫開始的時間。</li><li>[**顯示名稱**] 是使用者的顯示名稱。 您可以按一下顯示名稱，移至 Microsoft 團隊系統管理中心的 [使用者設定] 頁面。</li><li>[**使用者名**] 是使用者的登入名稱。</li><li>[**電話號碼**] 是已接收撥入通話通話或撥出通話電話號碼的號碼。</li><li>**呼叫類型** ：撥打電話為 PSTN 輸出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話）。 您可能會看到的呼叫類型包括：<br><br>**團隊使用者通話類型**<ul><li>**user_in** -使用者收到輸入 PSTN 通話。</li><li>**user_out** -使用者設定出站 PSTN 通話</li><li>**user_out_conf** -使用者將兩個或多個 PSTN 參與者加入通話中，例如三向電話會議</li><li>**user_out_transfer** -使用者將來電轉接至 PSTN 號碼</li><li>**user_out_forwarding** -使用者將呼叫轉寄至 PSTN 號碼</li><li>**conf_in** -音訊會議橋接器的入站通話</li><li>**conf_out** -從音訊會議橋接的出站通話通常是將 PSTN 號碼新增到會議中</li></ul><br>**團隊機器人呼叫類型**<ul><li>**ucap_in** -對團隊 bot 的入站 PSTN 呼叫（例如自動語音應答或通話佇列）</li><li>**ucap_out** -來自團隊 bot （例如自動語音應答或通話佇列）的出站 PSTN 呼叫</li></ul><br><li>**呼叫為** 撥打的號碼。</li><li>[**國家或地區**] 是已撥的國家或地區。</li><li>[**寄件者**] 是撥打電話的號碼。</li><li>[**從國家或地區**] 是撥打通話位置的國家或地區。</li><li>[**收取費用**] 是支付給您帳戶之通話的金額或成本。 </li><li>**貨幣** 是用來計算通話成本的貨幣類型。 </li><li>[**持續時間**] 是通話的連線時間。</li><li>**國內/國際** 是根據使用者的位置，告訴您該通話 (是在國家或地區內，還是在國家或) 地區以外的國際 (以外的國家或地區) 。</li><li>[**通話 id** ] 是通話的通話 id。 它是呼叫 Microsoft 支援時可以使用之通話的識別碼。</li><li>[ **Number type** ] 是使用者的電話號碼類型，例如免付費電話號碼的服務。 </li><li>[**國家或地區**] 是使用位置。 </li> <li>[**會議 id** ] 是音訊會議的會議 id。 </li><li>**功能** 是通話使用的授權。 您可能會看到的授權類型包括：<ul><li>**MCOPSTNPP** -通訊點數</li><li>**MCOEV 或 MCOEV_VIRTUALUSER** 語音應用程式（例如自動會議或通話佇列）</li><li>**FREECALL** -如果發生技術問題，導致我們無法進行定價通話，通話會免費提供，且會以這項功能顯示</li><li>**MCOPSTN1** -國內通話方案 (3000 分美元/1200 分歐盟方案) </li><li>**MCOPSTN2** -國際通話方案</li><li>**MCOPSTN5** -國內通話方案 (120 最小通話方案) </li><li>**MCOPSTN6** -國內通話方案 (240 最小通話方案) </li><li>**MCOMEETADD** -音訊會議</li><li>**MCOMEETACPEA** -每分鐘付款音訊會議</li></ul></li></ul> 若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。|
-|**500**   |選取 [ **編輯欄** ] 以新增或移除表格中的欄。 |
-|**6**   |選取 [ **篩選** ]，依使用者名稱或通話類型篩選報表 |
-|**utf-7**   |選取 [ **全螢幕** ]，以全螢幕模式查看報告。 |
-|**型**   |您可以將報表匯出為 CSV 檔案，以便進行離線分析。 按一下 [ **匯出至 Excel**]，然後在 [ **下載** ] 索引標籤上，按一下 [ **下載** ] 以在準備好時下載報告。|
+|**1**   |您可以針對過去 7 天、28 天或您設定自訂的日期範圍來查看報表的趨勢 |
+|**2**   |每個報表都有產生日期。 報告通常會反映啟用時間起 24 到 48 小時的延遲。 |
+|**3**   |X 軸是特定報表的選取日期範圍。 Y 軸是所選時段的通話總數。 <br>將游標停留在給定日期的點上方，以查看該日期的總通話。  |
+|**4**   |表格提供您每個通話的 PSTN 使用量明細。 <ul><li>**UTC (時間戳記)** 是通話開始的時間。</li><li>**顯示名稱** 是使用者的顯示名稱。 您可以按一下顯示名稱，以前往 Microsoft Teams 系統管理中心的使用者的設定頁面。</li><li>**使用者** 名稱是使用者的登錄名稱。</li><li>**電話號碼** 是接聽來電的號碼，或撥出電話撥打的號碼。</li><li>**通話類型** 是通話是 PSTN 外寄或輸入通話，以及通話類型，例如使用者撥打的通話或音訊會議。 您可能會看到的通話類型包括：<br><br>**Teams 使用者通話類型**<ul><li>**user_in** - 使用者收到傳入 PSTN 通話。</li><li>**user_out** - 使用者撥打了外寄 PSTN 通話</li><li>**user_out_conf** - 使用者在通話中新增兩個或多個 PSTN 參與者，例如三方電話會議</li><li>**user_out_transfer** - 使用者將通話轉接到 PSTN 號碼</li><li>**user_out_forwarding** - 使用者將通話轉往 PSTN 號碼</li><li>**conf_in** - 音訊會議橋接器的輸入通話</li><li>**conf_out** - 音訊會議橋接器的外線通話，通常可新增 PSTN 號碼至會議</li></ul><br>**Teams Bots 通話類型**<ul><li>**ucap_in** - 將 PSTN 通話傳入 Teams Bot，例如自動電話機或通話佇列</li><li>**ucap_out** - 來自 Teams Bot 的外發 PSTN 通話，例如自動電話機或通話佇列</li></ul><br><li>**已撥入** 號碼。</li><li>**撥號至國家/地區** 的國家/地區。</li><li>**從呼叫** 是撥打該電話的號碼。</li><li>**從國家/地區** 是撥打電話的省/市或地區。</li><li>**費用** 是向您的帳戶收取的通話金額或費用。 </li><li>**貨幣** 是用來計算通話成本的貨幣類型。 </li><li>**持續時間** 是通話已連接多久。</li><li>國內 **/國際** 會依據使用者的位置 (國家/地區) 或 (國家/地區) 內撥打國內電話。</li><li>**通話識別碼** 是通話的通話識別碼。 這是撥打 Microsoft 支援服務時，您可以使用的通話識別碼。</li><li>**號碼類型** 是使用者的電話號碼類型，例如免付費號碼的服務。 </li><li>**國家/地區是** 使用位置。 </li> <li>**會議 ID** 是音訊會議的會議 ID。 </li><li>**功能** 是通話所使用的授權。 您可能會看到下列授權類型：<ul><li>**MCOEV 或 MCOEV_VIRTUALUSER 或 MCOEV_VIRTUALUSER_GOV** - 語音應用程式，例如自動語音語音或通話佇列</li><li>**FREECALL** - 如果發生技術問題，讓我們無法為通話定價，通話會免費提供，而且會顯示此功能</li><li>**MCOPSTN1** - 國內通話方案 (3000 分鐘美國 / 1200 分鐘的歐盟方案) </li><li>**MCOPSTN2** - 國際通話方案</li><li>**MCOPSTN5** - 國內通話方案 (120 分鐘的通話方案) </li><li>**MCOPSTN6** - 國內通話方案 (240 分鐘的通話方案) </li><li>**MCOPSTN8** - 每個使用者的國內通話方案 120 分鐘 (不會像其他通話方案一樣跨使用者進行) </li><li>**MCOPSTN9** - 國際通話方案</li><li>**MCOPSTNCAP** - 公用區域電話</li><li>**MCOPSTNPP** - Communications Credits</li><li>**MCOMEETADD** - 音訊會議</li><li>**MCOMEETACPEA** - 每分鐘付費音訊會議</li></ul></li></ul> 若要在表格中查看您想要的資訊，請務必新增欄至資料表。|
+|**5**   |選取 **編輯欄** 以新增或移除表格中的欄。 |
+|**6**   |選取 **篩選** 以根據使用者名稱或通話類型篩選報表 |
+|**7**   |選取 **全螢幕** 以全螢幕模式來查看報表。 |
+|**8**   |您可以將報表匯出至 CSV 檔案，進行離線分析。 按一下 **[匯出至 Excel，** 然後在[下載> 選項卡上，按一下 **[下載** 以在報表準備就緒時下載報表。|
 
 ### <a name="direct-routing"></a>直接路由
 
-[系統![管理中心 [直接路由 PSTN 使用狀況報告] 報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "在 Microsoft 團隊系統管理中心使用編號標注直接路由 PSTN 使用方式報告的螢幕擷取畫面")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
+[![系統管理中心中直接路由 PSTN 使用方式報表的螢幕擷取畫面](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Microsoft Teams 系統管理中心中具有編號圖說義的直接路由 PSTN 使用方式報告的螢幕擷取畫面")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
-|圖說文字 |描述  |
+|標注 |說明  |
 |--------|-------------|
-|**1**   |您可以在過去7天或28天的趨勢中查看報告。 |
-|**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
-|**3**   |X 軸是特定報表的已選取日期範圍。 Y 軸是在所選時段內的通話總數目。<br>將游標暫留在指定日期上的點上，即可查看該日期的總通話情況。  |
-|**4**   |下表提供每個通話的 PSTN 使用量細分。 <ul><li>**時間戳記 (UTC)** 是呼叫開始的時間。</li><li>[**顯示名稱**] 是使用者的顯示名稱。 您可以按一下顯示名稱，移至 Microsoft 團隊系統管理中心的 [使用者設定] 頁面。 名稱也可以是 bot 的名稱，例如通話佇列或雲端自動語音應答。 </li><li>[ **Sip 位址**] 是指接收或撥打電話之使用者或 BOT 的 sip 位址。</li><li>**來電者號碼** 是撥打通話的使用者號碼或 bot。 </li><li>[**被呼叫者號碼**] 是指已接聽通話的使用者號碼或 bot。 針對團隊使用者的撥入通話會成為團隊使用者，在來自團隊使用者的出站通話中，它會是 PSTN 使用者。 </li><li>**呼叫類型** ：撥打電話為 PSTN 輸出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話）。 您可能會看到的呼叫類型包括：<br><br>**團隊使用者通話類型**<ul><li>**dr_in** -使用者收到輸入 PSTN 通話</li><li>**dr_out** -使用者設定出站 PSTN 通話</li><li>**dr_out_user_conf** -使用者將 PSTN 參與者新增到通話中</li><li>**user_out_transfer** -使用者將來電轉接至 PSTN 號碼</li><li>**dr_out_user_forwarding** -使用者將呼叫轉寄至 PSTN 號碼</li><li>**dr_out_user_transfer** -使用者將來電轉接至 PSTN 號碼</li><li>**dr_emergency_out** -使用者進行緊急通話</li></ul><br>**團隊機器人呼叫類型**<ul><li>**dr_in_ucap** -對團隊 bot （例如自動語音應答或通話佇列）的入站 PSTN 呼叫</li><li>**dr_out_ucap** -來自團隊 bot （例如自動語音應答或通話佇列）的出站 PSTN 呼叫</li></ul><br><li>[**呼叫** 者] 是接聽通話的使用者號碼。</li><li>[**開始時間 ) ] (UTC)** 是 sip proxy 在撥出呼叫 (將團隊/bot 傳送到 PSTN 使用者) 時，或在 SIP Proxy 將邀請傳送給團隊/bot (中的 [團隊 200 (結束] 中的下一個 [小組] 中，將邀請傳送給小組中的下一個躍點。 </li><li>**邀請時間 (UTC)** 是在來自團隊使用者或 bot 呼叫給 sbc，或從 Sbc 直接路由的 SIP Proxy 元件呼叫給小組或 bot 呼叫的撥出通話中，初始邀請的時間。</li><li>**(UTC) 的失敗時間** 是呼叫失敗的時間。 僅限失敗的通話。 最終 SIP 程式碼、最終的 Microsoft 子代碼及最終 SIP 片語，提供通話失敗的原因，以及協助疑難排解。 </li><li>[**結束時間] (UTC)** 是通話結束的時間 (只) 的成功呼叫。</li><li>[**持續時間**] 是通話的連線時間。</li><li>[ **Number type** ] 是使用者的電話號碼類型，例如免付費電話號碼的服務。 </li><li>[**媒體旁路**] 表示主幹是否已啟用媒體旁路功能。 </li> <li>**SBC FQDN** 是會話邊界控制器 (SBC)  (FQDN) 的完整功能變數名稱。 </li><li>**媒體的 Azure 區域** 是在非旁路通話中作為媒體路徑使用的資料中心。 </li><li>[發 **信號的 Azure 地區**] 是用來針對旁路與非旁路通話進行信號的資料中心。 </li><li>**事件種類** 是通話的事件種類。 您將會看到成功呼叫成功，並嘗試失敗的通話。 </li><li>**最終 SIP 代碼** 是通話結束的程式碼。</li><li>**最終的 Microsoft 子代碼** 是指示發生的特定動作的程式碼。</li><li>**最終 sip 片語** 是 sip 代碼與 Microsoft 子代碼的描述。</li><li>[**相關性 ID** ] 是呼叫 Microsoft 支援時可以使用之通話的唯一識別碼。</li><li>**共用的相關識別碼** 只會顯示在可下載的 CSV 檔案中，且不存在於入口網站中。 共用的相關 ID 至少存在於兩個相互關聯的通話中。 請參閱下方的詳細描述。</li></ul> 若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。|
-|**500**   |選取 [ **編輯欄** ] 以新增或移除表格中的欄。 |
-|**6**   |選取 [ **全螢幕** ]，以全螢幕模式查看報告。 |
-|**utf-7**   |選取 [ **匯出至 Excel** ]，將資料下載到以逗號分隔的檔案 (CSV) 進行離線分析，或將它做為帳單系統的輸入。 |
+|**1**   |您可以針對過去 7 天或 28 天的趨勢來查看報表。 |
+|**2**   |每個報表都有產生日期。 報告通常會反映啟用時間起 24 到 48 小時的延遲。 |
+|**3**   |X 軸是特定報表的選取日期範圍。 Y 軸是所選時段的通話總數。<br>將游標停留在給定日期的點上方，以查看該日期的總通話。  |
+|**4**   |表格提供您每個通話的 PSTN 使用量明細。 <ul><li>**UTC (時間戳記)** 是通話開始的時間。</li><li>**顯示名稱** 是使用者的顯示名稱。 您可以按一下顯示名稱，以前往 Microsoft Teams 系統管理中心的使用者的設定頁面。 名稱也可以是 Bot 的名稱，例如通話佇列或雲端自動助理。 </li><li>**SIP 位址** 是使用者或接收或撥打來電的 Bot 的 SIP 位址。</li><li>**來電者** 號碼是撥打此電話的使用者或 Bot 號碼。 </li><li>**通話者號碼** 是接到來電的使用者或 Bot 號碼。 在給 Teams 使用者的輸入通話中，該使用者為 Teams 使用者，在 Teams 使用者的外線通話中，該使用者即為 PSTN 使用者。 </li><li>**通話類型** 是通話是 PSTN 外寄或輸入通話，以及通話類型，例如使用者撥打的通話或音訊會議。 您可能會看到的通話類型包括：<br><br>**Teams 使用者通話類型**<ul><li>**dr_in** - 使用者收到傳入 PSTN 通話</li><li>**dr_out** - 使用者撥打了外寄 PSTN 通話</li><li>**dr_out_user_conf** - 使用者在通話中新增 PSTN 參與者</li><li>**user_out_transfer** - 使用者將通話轉接到 PSTN 號碼</li><li>**dr_out_user_forwarding** - 使用者將通話轉往 PSTN 號碼</li><li>**dr_out_user_transfer** - 使用者將通話轉接到 PSTN 號碼</li><li>**dr_emergency_out** - 使用者撥打緊急電話</li></ul><br>**Teams Bots 通話類型**<ul><li>**dr_in_ucap** - 將 PSTN 通話傳入 Teams Bot，例如自動電話機或通話佇列</li><li>**dr_out_ucap** - 來自 Teams Bot 的外發 PSTN 通話，例如自動電話機或通話佇列</li></ul><br><li>**呼叫者** 是接到來電的使用者號碼。</li><li>開始時間 **(UTC)** 是 SIP Proxy 在外寄通話 (Teams/Bot 上從 SBC 收到最後答案 (SIP 訊息 "200 確定") ) 的時間，或是 SIP Proxy 將邀請傳送至傳入通話 (PSTN 使用者至 Teams/Bot) 的 Teams 後端下一躍點之後。 </li><li>邀請 **時間 (UTC)** 是初始邀請從 Teams 使用者或 Bot 通話傳送至 SBC 的外寄通話，或是從 SBC 直接路由的 SIP Proxy 元件在傳入通話中接收 Teams 或 Bot 通話的時間。</li><li>**UTC (的)** 時間是通話失敗的時間。 僅適用于失敗的通話。 最終 SIP 程式碼、最終 Microsoft 子代碼和最終 SIP 片語提供通話失敗的原因，並有助於進行疑難排解。 </li><li>**UTC (結束時間)** 通話結束時間， (通話成功) 。</li><li>**持續時間** 是通話已連接多久。</li><li>**號碼類型** 是使用者的電話號碼類型，例如免付費號碼的服務。 </li><li>**媒體旁** 路會指出是否已啟用媒體旁路的主幹。 </li> <li>**SBC FQDN** 是會話邊界控制器和 SBC (FQDN) 的 (功能變數名稱) 。 </li><li>**Azure 媒體區域** 是一個在非旁路通話中做為媒體路徑的資料中心。 </li><li>**訊號的 Azure 區域** 是資料中心，用於旁路和非旁路通話的訊號。 </li><li>**事件種類** 是通話的事件種類。 您會看到成功的通話和嘗試失敗的通話。 </li><li>**最終 SIP 程式** 代碼是通話結束時使用的代碼。</li><li>**最終 Microsoft 副程式** 代碼是指出已發生特定動作的代碼。</li><li>**最終 SIP 詞** 組是 SIP 程式碼和 Microsoft 子代碼的描述。</li><li>**關聯識別碼** 是通話的唯一識別碼，您可以在撥打 Microsoft 支援服務時使用。</li><li>**共用關聯識別碼** 只會顯示在可下載的 CSV 檔案中，且不存在於入口網站中。 共用的關聯識別碼至少存在於兩個相關的通話中。 請參閱下方的詳細描述。</li></ul> 若要在表格中查看您想要的資訊，請務必新增欄至資料表。|
+|**5**   |選取 **編輯欄** 以新增或移除表格中的欄。 |
+|**6**   |選取 **全螢幕** 以全螢幕模式來查看報表。 |
+|**7**   |選取 **匯出至 Excel，** 以逗號分隔的檔案 (CSV) 離線分析，或使用它做為帳單系統的輸入。 |
 
-#### <a name="callercallee-fields-considerations"></a>來電者/被叫方的欄位考慮
+#### <a name="callercallee-fields-considerations"></a>來電/通話者欄位考慮事項
 
-根據呼叫方向，來電者或叫用方程式名稱可以包含非 E164 的號碼。
+視通話方向不同，來電者或通話者名稱可以包含非 E164 號碼。
 
-這些欄位可以來自客戶 SBC (s) 。 SBC 可以傳送至直接路由的格式有三種： E. 164 個數字、非 E. 164 個數字和字串。
+這些欄位可以來自客戶 SBC () 。 SBC 可以傳送三種格式至直接路由：E.164 號碼、非 E.164 數位和字串。
 
-- 如果使用者使用的是 e. 164 號碼的使用者，則會有164個電話號碼。 
-- 從非 E. 164 號碼撥打電話。 使用直接佈線的協力廠商 PBX 相互連接的使用者，就能呼叫小組使用者。 在這種情況下，來電者號碼可以是任何非 E. 164 個數字，例如 + 1001。 
-- 垃圾郵件者來電，不會顯示數位，只是名稱，例如「內部收入服務」。 這個字串將會顯示在報表中。
+- E.164 電話號碼，從擁有 E.164 號碼的使用者，到也擁有 E.164 號碼的使用者。 
+- 從非 E.164 號碼撥打。 協力廠商 PBX 與直接路由相互連結的使用者會撥打給 Teams 使用者。 在這種情況下，來電號碼可能是任何非 E.164 號碼，例如 +1001。 
+- 垃圾郵件寄件者會撥打電話，而且不會顯示號碼，只會顯示名稱，例如「國稅服務」。 此字串會顯示在報告中。
 
-#### <a name="about-shared-correlation-id"></a>關於共用的相關識別碼
+#### <a name="about-shared-correlation-id"></a>關於共用關聯識別碼
 
-共用的相關識別碼只會存在於您下載的匯出 Excel 檔案中，並指出兩個或多個通話是相關的。 下列說明不同的案例，以及共用的相關識別碼存在時。
+共用關聯識別碼僅存在於您下載的匯出 Excel 檔案中，表示兩個或多個通話是相關的。 下列說明不同的案例，以及共用關聯識別碼出現時間。
 
-1.    Pstn 使用者1在團隊用戶端上名為「團隊使用者1」的 PSTN 端點上，通話類型 Dr_In，相關識別碼 57f28917-42k5-4c0c-9433-79734873f2ac，無共用的關聯 ID。
-2.    小組使用者1在 PSTN 端點上稱為 PSTN 使用者1的團隊用戶端上，呼叫 type Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4，無共用的相關識別碼。
-3.    PSTN 使用者1在團隊用戶端上稱為團隊使用者2，呼叫類型 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9，共用相關識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
-4.    現有的呼叫3，相關 ID 為 "f45e9a25-9f94-46e7-a457-84f5940efde9"。 在與團隊使用者2通話中的 PSTN 使用者1。 團隊使用者2已將 (盲人或諮詢式) 呼叫團隊或 PSTN 使用者、呼叫類型 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共用的相關識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
+1.    PSTN User 1 位於 Teams 用戶端上稱為 Teams User 1 的 PSTN 端點上，通話類型 Dr_In，相關識別碼 57f28917-42k5-4c0c-9433-79734873f2ac，沒有共用的關聯識別碼。
+2.    Teams User 1 在 PstN 端點上的 Teams 用戶端上稱為 PSTN User 1，通話類型 Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4，沒有共用的關聯識別碼。
+3.    PSTN User 1 在 Teams 用戶端上稱為 Teams User 2 的 PSTN 端點上，通話類型 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9，共用相關識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
+4.    具有相關識別碼 「f45e9a25-9f94-46e7-a457-84f5940efde9」的現有通話 3。 與 Teams User 2 通話中的 PSTN 使用者 1。 Teams User 2 轉接 (視) 或諮詢電話給 Teams 或 PSTN 使用者， 通話類型 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0，共用關聯識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
 
 ## <a name="exporting-the-reports"></a>匯出報表
-按一下 [ **匯出至 Excel**]，然後在 [ **下載** ] 索引標籤上，按一下 [ **下載** ] 以在準備好時下載報告。 匯出程式可能需要幾秒鐘到數分鐘的時間，才能完成，視資料數量而定。
+按一下 **[匯出至 Excel，** 然後在[下載> 選項卡上，按一下 **[下載** 以在報表準備就緒時下載報表。 匯出程式可能需要幾秒鐘到幾分鐘才能完成，視資料量而不同。
 
-這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 匯出的檔案包含無法在線上報表中使用的其他欄位。 這些都可以用來進行疑難排解和自動化工作流程。
+這會匯出所有使用者的資料，並可讓您執行簡單的排序和篩選，以便進一步分析。 匯出的檔案包含線上報告中沒有的其他欄位。 這些可用於疑難排解和自動化工作流程。
 
- 您會收到名為「**通話. 匯出」的 zip `[identifier]` 檔案。zip**"，且識別碼是匯出的唯一識別碼，可以用來進行疑難排解。
+ 您會收到名為「通話 **.匯出.」的 zip 檔案 `[identifier]` 。zip"，** 識別碼是匯出的唯一識別碼，可用來進行疑難排解。
 
-如果您同時擁有通話方案和直接路由，匯出的檔案可能會包含這兩個產品的資料。 PSTN 使用狀況報告檔案將會有檔案名 "**PSTN. `[UTC date]` 。csv**"與直接路由"**DirectRouting `[UTC date]` 。csv**"。
+如果您同時擁有通話方案與直接路由，匯出的檔案可能包含這兩種產品的資料。 PSTN 使用方式報告檔案將會有檔案名 **"PSTN.通話 `[UTC date]` 。.csv**" 和 Direct Routing "**DirectRouting.calls. `[UTC date]` .csv**".
 
- 除了 PSTN 和直接路由檔案之外，封存還包含檔案 "**parameters.json**"，以及所選匯出時間範圍和功能。
+ 除了 PSTN 和直接路由檔案之外，該檔案還包含 [parameters.js **檔案**，以及選取的匯出時間範圍和功能。
 
-匯出的檔案是以逗號分隔的值 (CSV) 格式，符合 [RFC 4180](https://tools.ietf.org/html/rfc4180) 標準。 您可以在 Excel 或任何其他符合標準的編輯者中開啟檔案，而不需要任何轉換。
+匯出的檔案採用逗號分隔值 (CSV) 格式，符合 [RFC 4180](https://tools.ietf.org/html/rfc4180) 標準。 檔案可以在 Excel 或其他符合標準的編輯器中開啟，而不需要任何轉換。
 
-CSV 的第一列包含資料行名稱。 所有日期都是 UTC，且是 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 格式。
+CSV 的第一列包含欄名稱。 所有日期都是 UTC 和 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 格式。
 
-### <a name="exported-pstn-usage-report"></a>已匯出的 PSTN 使用狀況報告
+### <a name="exported-pstn-usage-report"></a>匯出的 PSTN 使用方式報告
 
- 除非國家/地區專用的規章禁止將資料保留12個月，否則您可以從目前日期開始匯出一年的資料。
+ 除非特定國家/地區法規禁止保留資料 12 個月，否則您最多可以從目前日期匯出資料一年。
 
 > [!div class="has-no-wrap"]  
-> | # | 名稱 | [ (SQL Server) 的資料類型 ](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
+> | # | 名稱 | [SQL Server (資料類型) ](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
 > | :-: | :-: | :-: |:------------------- |
-> | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
-> | 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |
+> | 0 | UsageId | `uniqueidentifier` | 唯一通話識別碼 |
+> | 1 | 通話識別碼 | `nvarchar(64)` | 通話識別碼。 不保證是唯一的 |
 > | 2 | 會議 ID | `nvarchar(64)` | 音訊會議的識別碼 |
-> | 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中呼叫使用者的 ID。<br/> 對於 bot 呼叫類型 (ucap_in、ucap_out) ，此和其他使用者資訊將會是 null/空。 |
-> | 500 | UPN | `nvarchar(128)` | UserPrincipalName (在 Azure Active Directory 中) 登入名稱。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
-> | 6 | 使用者顯示名稱 | `nvarchar(128)` | 使用者的顯示名稱 |
-> | utf-7 | 來電顯示 | `nvarchar(128)` | 已接收撥入通話通話或撥出通話電話號碼的號碼。 [E. 164](https://en.wikipedia.org/wiki/E.164) 格式 |
-> | 型 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 輸出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話） |
-> | 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費電話號碼的服務 |
-> | 第 | 國內/國際 | `nvarchar(16)` | 根據使用者的位置，在國家或地區內) 或國際 () 以外的電話撥打電話給國內 ( |
-> | 11 | 已撥號目的地 | `nvarchar(64)` | 已撥打國家或地區 |
-> | 之間 | 目的地編號 | `nvarchar(32)` | 以 [164](https://en.wikipedia.org/wiki/E.164) 格式撥打的號碼 |
-> | 合 | 開始時間 | `datetimeoffset` | 呼叫開始時間 |
-> | 4 | 結束時間 | `datetimeoffset` | 通話結束時間 |
-> | 工資 | 持續時間秒 | `int` | 通話的連線時間 |
-> | 位 | 連線費用 | `numeric(16, 2)` | 連接費價格 |
-> | 11x17 | 收費 | `numeric(16, 2)` | 支付給帳戶所需通話的金額或成本 |
-> | 滿 | 貨幣 | `nvarchar(3)` | 用來計算通話成本的貨幣類型 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217))  |
-> | 合 | 功能 | `nvarchar(32)` | 通話所用的授權 |
+> | 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼 [，ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中撥打使用者的識別碼。<br/> 此及其他使用者資訊在 bot 通話類型中為 null/empty， (ucap_in ucap_out)  |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (Azure Active Directory) 名稱。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
+> | 6 | 使用者顯示名稱 | `nvarchar(128)` | 顯示使用者名稱 |
+> | 7 | 來電顯示 | `nvarchar(128)` | 接聽來電的號碼或撥出電話的號碼。 [E.164](https://en.wikipedia.org/wiki/E.164) 格式 |
+> | 8 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 外寄或輸入通話，以及通話類型，例如使用者撥打的通話或音訊會議 |
+> | 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費號碼的服務 |
+> | 10 | 國內/國際 | `nvarchar(16)` | 通話是國內通話 (國家/地區) 或 (國家/地區) 根據使用者的位置撥打國際電話 |
+> | 11 | 已撥入目的地 | `nvarchar(64)` | 已撥打的國家/地區 |
+> | 12 | 目的地號碼 | `nvarchar(32)` | 以 [E.164 格式](https://en.wikipedia.org/wiki/E.164) 撥打的號碼 |
+> | 13 | 開始時間 | `datetimeoffset` | 通話開始時間 |
+> | 14 | 結束時間 | `datetimeoffset` | 通話結束時間 |
+> | 15 | 持續時間秒數 | `int` | 通話已連接多久 |
+> | 16 | 連線費用 | `numeric(16, 2)` | 連線費用價格 |
+> | 17 | 負責 | `numeric(16, 2)` | 向您的帳戶收取的金額或通話費用 |
+> | 18 | 貨幣 | `nvarchar(3)` | 用來計算 ISO [4217 (通話費用的貨幣](https://en.wikipedia.org/wiki/ISO_4217))  |
+> | 19 | 功能 | `nvarchar(32)` | 通話所使用的授權 |
 
-### <a name="exported-direct-routing-usage-report"></a>已匯出直接路由使用方式報告
+### <a name="exported-direct-routing-usage-report"></a>匯出的直接路由使用方式報告
 
-您最多可以將資料匯出至五個月 (150 天) 從目前日期開始，除非國家或地區特定的規章禁止保留該期間的資料。
+除非特定國家/地區法規禁止保留該期間的資料，否則 (從目前日期起) 150 天內，您最多可以匯出五個月的資料。
 
 > [!div class="has-no-wrap"]  
-> | # | 名稱 | [ (SQL Server) 的資料類型 ](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
+> | # | 名稱 | [SQL Server (資料類型) ](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
 > | :-: | :-: | :-: |:------------------- |
-> | 0 | Id | `uniqueidentifier` | 唯一的呼叫識別碼 |
-> | 1 | SIP 位址 | `nvarchar(128)` | 撥打或接聽電話的使用者或 bot 的位址。<br/>請注意，這實際上是 (UPN，在 Azure Active Directory 中登入名稱) ，這通常與 SIP 位址相同 |
-> | 2 | 顯示名稱 | `nvarchar(128)` | 使用者或通話 bot 的名稱 (例如，通話佇列或自動語音應答) 在 Microsoft 365 系統管理中心設定 |
-> | 3 | 使用者所在國家/地區 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | 邀請時間 | `datetimeoffset` | 當初始邀請是從團隊使用者或 bot 呼叫到 SBC，或從 SBC 直接路由的 SIP Proxy 元件呼叫給團隊或 bot 撥入時 |
-> | 500 | 開始時間 | `datetimeoffset` | SIP proxy 收到最終的回應 (SIP 訊息 "200 確定" ) 從輸出 (小組/Bot 的 SBC 到 PSTN 使用者) ，或者在 SIP Proxy 將邀請傳送給在撥入呼叫 (PSTN 使用者的「團隊結束」) 中的下一個躍點。<br/>對於失敗與未接聽的通話，這可以等於邀請或失敗時間 |
-> | 6 | 失敗時間 | `datetimeoffset` | 僅存在失敗的 (未完全建立) 通話 |
-> | utf-7 | 結束時間 | `datetimeoffset` | 僅存在成功 (完全建立) 通話的情況。 通話結束的時間 |
-> | 型 | 持續時間 (秒)  | `int` | 通話持續時間 |
-> | 9 | 成功案例 | `nvarchar(3)` | [是/否]。 成功或嘗試 |
-> | 第 | 來電者號碼 | `nvarchar(32)` | 撥打電話之使用者或 bot 的號碼。 在輸入時，如果是 PSTN 使用者，就會將它設為「團隊」使用者電話的外部使用者電話號碼。 |
-> | 之間 | 被呼叫者號碼 | `nvarchar(32)` | 接收通話之使用者或 bot 的號碼。 在 [輸入至小組使用者] 呼叫它將是 [小組] 使用者，在 [由小組使用者通話的出站] 中，它將是 PSTN 使用者 |
-> | 合 | 通話類型 | `nvarchar(32)` | 通話類型和方向 |
-> | 4 | 媒體的 Azure 區域 | `nvarchar(8)` | 在非旁路通話中用於媒體路徑的資料中心 |
-> | 工資 | Azure 地區以進行信號 | `nvarchar(8)` | 針對旁路與非旁路通話的信號所用的資料中心 |
-> | 位 | 最終 SIP 代碼 | `int` | 通話結束的程式碼， [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-> | 11x17 | 最終的 Microsoft 子代碼 | `int` | 除了 SIP 代碼之外，Microsoft 還提供指示特定問題的子代碼 |
-> | 滿 | 最終 SIP 片語 | `nvarchar(256)` | SIP 代碼與 Microsoft 子代碼的描述 |
-> | 合 | SBC FQDN | `nvarchar(64)` | 會話邊界控制器的完整功能變數名稱 |
-> | 20 | 媒體旁路 | `nvarchar(3)` | [是/否]。 指出是否已針對媒體旁路啟用主幹 |
-> | 日前 | 共用的相關識別碼 | `uniqueidentifier` | 表示兩個或多個通話是相關的 |
+> | 0 | CorrelationId | `uniqueidentifier` | 唯一通話識別碼 |
+> | 1 | SIP 位址 | `nvarchar(128)` | 撥打或接收通話的使用者或 Bot 位址。<br/>請注意，這實際上是 UserPrincipalName (UPN，在 Azure Active Directory) 登錄名稱，通常與 SIP 位址相同 |
+> | 2 | 顯示名稱 | `nvarchar(128)` | 使用者或通話機器人的名稱 (例如，在 Microsoft 365 系統管理中心) 通話佇列或自動助理員 |
+> | 3 | 使用者國家/地區 | `nvarchar(2)` | 使用者的國家/地區代碼 [，ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | 邀請時間 | `datetimeoffset` | 當從 Teams 使用者或 Bot 通話的外寄時，或從 SBC 直接路由的 SIP Proxy 元件在輸入到 Teams 或 Bot 通話時收到邀請時 |
+> | 5 | 開始時間 | `datetimeoffset` | SIP Proxy 從外寄 (Teams/Bot 上的 SBC 收到最終答案 (SIP 訊息 "200 確定") 給 PSTN 使用者) 的時間，或 SIP Proxy 在傳入通話 (PSTN 使用者傳送邀請至 Teams/Bot) 的 Teams 後端下一個躍點的時間。<br/>如果通話失敗和未接聽，這等於邀請或失敗時間 |
+> | 6 | 失敗時間 | `datetimeoffset` | 只有未完全 (通話失敗) 存在 |
+> | 7 | 結束時間 | `datetimeoffset` | 只有在完全建立 (通話) 存在。 通話結束時間 |
+> | 8 | 持續時間 (秒)  | `int` | 通話持續時間 |
+> | 9 | 成功 | `nvarchar(3)` | 是/否。 成功或嘗試 |
+> | 10 | 來電 | `nvarchar(32)` | 撥打此電話的使用者或 Bot 號碼。 在輸入到 Teams 使用者通話時，它會是 PSTN 使用者，從 Teams 使用者撥打時，它會是 Teams 使用者號碼 |
+> | 12 | 通話者號碼 | `nvarchar(32)` | 接到來電的使用者或 Bot 號碼。 在輸入到 Teams 使用者通話時，它會是 Teams 使用者，從 Teams 使用者撥打時，它會是 PSTN 使用者 |
+> | 13 | 通話類型 | `nvarchar(32)` | 通話類型和方向 |
+> | 14 | Azure 媒體區域 | `nvarchar(8)` | 用於非旁路通話中媒體路徑的資料中心 |
+> | 15 | 用於訊號的 Azure 區域 | `nvarchar(8)` | 用於對旁路和非旁路通話進行訊號的資料中心 |
+> | 16 | 最終 SIP 程式碼 | `int` | 結束通話的代碼 [，RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 17 | 最終 Microsoft 子代碼 | `int` | 除了 SIP 代碼之外，Microsoft 也擁有自己的子代碼，指出特定問題 |
+> | 18 | 最終 SIP 片語 | `nvarchar(256)` | SIP 程式碼和 Microsoft 子代碼的描述 |
+> | 19 | SBC FQDN | `nvarchar(64)` | 會話邊界控制器的完全合格的功能變數名稱 |
+> | 20 | 媒體旁路 | `nvarchar(3)` | 是/否。 指出中繼是否已啟用媒體旁路 |
+> | 21 | 共用關聯識別碼 | `uniqueidentifier` | 表示兩個或多個通話是相關的 |
 
 
 ## <a name="related-topics"></a>相關主題
 
-- [團隊分析和報告](teams-reporting-reference.md)
+- [Teams 分析和報告](teams-reporting-reference.md)

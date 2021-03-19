@@ -26,12 +26,12 @@ description: 瞭解 Microsoft Teams 遠距健康、電子健康記錄 (EHR) 整�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 1bf890c7ffb6fa13730870cb1f4eabecb5df7c85
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
-ms.translationtype: HT
+ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558382"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867032"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -128,7 +128,7 @@ Microsoft Teams 可讓醫生、臨床醫生、護士和其他員工更有效率�
 
 Microsoft Teams 中的 [清單] 應用程式可協助追蹤資訊和整理工作。 此應用程式已為所有 Teams 使用者預先安裝完成，可供每個團隊和頻道作為索引標籤使用。 建立清單的方式可以從頭開始、從預先定義的範本開始，或將資料匯出至 Excel。
 
-健康小組可以從使用病患範本以開始使用。 他們可以建立清單以追蹤病患的需求和狀態。 可以帶入 Excel 試算表上的現有病患資料以在 Teams 中建立清單。 這些清單可用於輪次和病患監視等案例，以協調照護。
+健康小組可以使用病患範本開始使用。 他們可以建立清單以追蹤病患的需求和狀態。 可以帶入 Excel 試算表上的現有病患資料以在 Teams 中建立清單。 這些清單可用於輪次和病患監視等案例，以協調照護。
 
 例如，護士長會在包含所有健康小組成員的小組中建立病患清單。 在輪次期間，健康小組會在其行動裝置上存取 Teams，並更新清單中的病患資訊，小組中的每個人都可檢視這些資訊以保持資訊同步。在健康小組開會討論及評估關鍵健康效能指標的輪班工作階段中，確保病患處於正確的出院途徑，並可在大型顯示畫面上使用 Teams 共用此資訊。 不在現場的健康小組成員可以遠端加入會議。
 

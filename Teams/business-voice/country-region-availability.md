@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170602"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861417"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice 的適用國家與地區
 
@@ -30,7 +30,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 
 部分 Business Voice 功能 (特別是通話方案和快速入門精靈) 僅適用於特定國家與地區。 這些功能是否能在租用戶的位置使用決定您是否可以自行設定，或需要由 Microsoft 合作夥伴或轉銷商協助。
 
-在**具有**通話方案和快速入門精靈的國家與地區，您可以從 Microsoft 購買 Business Voice，然後設定電話號碼，或將現有的電話號碼轉移到 Microsoft。 這樣做可讓您在 Microsoft 365 中管理所有電話號碼。 完成移轉至 Business Voice 之後：
+在 **具有** 通話方案和快速入門精靈的國家與地區，您可以從 Microsoft 購買 Business Voice，然後設定電話號碼，或將現有的電話號碼轉移到 Microsoft。 這樣做可讓您在 Microsoft 365 中管理所有電話號碼。 完成移轉至 Business Voice 之後：
 
 - Microsoft 365 會成為您的電信業者，國內當地和長途電話會隨附於 Business Voice中。  Microsoft 會直接向您收取免費和國際長途電話費用。
 - 您不再需要訂閱協力廠商電信業者來管理您的電話號碼。
@@ -38,7 +38,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 
 如果您的租用戶位於支援通話方案和快速入門精靈的國家或地區，請參閱[使用含通話方案的 Microsoft 365 商務語音需要購買哪些項目?](what-to-buy.md)
 
-在**不**支援通話方案和快速入門精靈的國家與地區，您必須從 Microsoft 合作夥伴或轉銷商購買 Business Voice。 購買 Business Voice 後，您必須與合作夥伴或轉銷商及協力廠商電信業者合作，以在內部部署電話語音硬體和 Microsoft 365 之間設定直接路由。
+在 **不** 支援通話方案和快速入門精靈的國家與地區，您必須從 Microsoft 合作夥伴或轉銷商購買 Business Voice。 購買 Business Voice 後，您必須與合作夥伴或轉銷商及協力廠商電信業者合作，以在內部部署電話語音硬體和 Microsoft 365 之間設定直接路由。
 
 - 您的電信業者不會變更。 所有當地、長途和免付費電話會由您現有的協力廠商電信業者計費。
 - 您的電信業者會繼續管理您的電話號碼。 如果要新增或移除電話號碼，您需要與電信業者協調變更。
@@ -56,7 +56,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 美國        | X                                    | X<sup>1</sup>                                               | X                      |
 | 阿根廷            |                                      | X                                                           |                        |
 | 澳洲            |                                      | X                                                           |                        |
-| 奧地利              |                                      | X                                                           |                        |
+| 奧地利              | X                                    | X                                                           |                        |
 | 比利時              |                                      | X                                                           |                        |
 | 波士尼亞與赫塞哥維納 |                                      | X                                                           |                        |
 | 巴西               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 克羅埃西亞              |                                      | X                                                           |                        |
 | 賽普勒斯               |                                      | X                                                           |                        |
 | 捷克共和國       |                                      | X                                                           |                        |
-| 丹麥              |                                      | X                                                           |                        |
+| 丹麥              | X                                    | X                                                           |                        |
 | 多明尼加   |                                      | X                                                           |                        |
 | 厄瓜多              |                                      | X                                                           |                        |
 | 埃及                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 印尼            |                                      | X                                                           |                        |
 | 愛爾蘭              |                                      | X                                                           |                        |
 | 以色列               |                                      | X                                                           |                        |
-| 義大利                |                                      | X                                                           |                        |
+| 義大利                | X                                    | X                                                           |                        |
 | 日本                |                                      | X<sup>2</sup>                                               |                        |
 | 約旦               |                                      | X                                                           |                        |
 | 肯亞                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 秘魯                 |                                      | X                                                           |                        |
 | 菲律賓          |                                      | X                                                           |                        |
 | 波蘭               |                                      | X                                                           |                        |
-| 葡萄牙             |                                      | X                                                           |                        |
+| 葡萄牙             | X                                    | X                                                           |                        |
 | 波多黎各          |                                      | X                                                           |                        |
 | 卡達                |                                      | X                                                           |                        |
 | 羅馬尼亞              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 南韓          |                                      | X                                                           |                        |
 | 西班牙                |                                      | X                                                           |                        |
 | 斯里蘭卡            |                                      | X                                                           |                        |
-| 瑞典               |                                      | X                                                           |                        |
-| 瑞士          |                                      | X                                                           |                        |
+| 瑞典               | X                                    | X                                                           |                        |
+| 瑞士          | X                                    | X                                                           |                        |
 | 台灣               |                                      | X                                                           |                        |
 | 泰國             |                                      | X                                                           |                        |
 | 千里達及托巴哥  |                                      | X                                                           |                        |
