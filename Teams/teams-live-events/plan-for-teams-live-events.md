@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中規劃即時活動
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569235"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884577"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -45,7 +44,7 @@ ms.locfileid: "50569235"
 
 - **若要組織：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 授權。 
 - **若要產生或出席：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 授權。 這項需求的例外情況是，如果符合[來賓使用者](plan-for-teams-live-events.md#guest-to-present)的其他準則，來賓使用者就可以不使用授權出席。
-- Microsoft Teams 授權 - 這包含在第一個和第二個項目符號列出的授權中。
+- Microsoft Teams 授權 - 此授權包含在第一個和第二個項目符號列出的授權中。
 - Microsoft Stream 授權 - 如果您打算將內容共用給外部應用程式或裝置，就必須有此授權；請參閱 [Microsoft Stream 授權](https://docs.microsoft.com/stream/license-overview)。
 
   如果您只想讓使用者錄影及下載錄製檔，則使用者不需獲指派 Microsoft Stream 授權。這表示，錄製檔不會儲存在 Microsoft Stream 而是會儲存在 Azure Media Services (AMS) 中，並將於 180 天的時間限制後刪除。目前系統管理員並無法控制或管理此機制，以包括刪除它的功能。
@@ -80,13 +79,13 @@ ms.locfileid: "50569235"
 
 ### <a name="guest-to-present"></a>[出席來賓](#guest-to-present)
 
-若要讓來賓在即時活動中簡報，請執行下列動作：
+若要讓來賓在即時活動中簡報，請執行下列工作：
 
 1. [將使用者新增為團隊的來賓](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. 讓使用者接受來賓邀請並加入團隊。
 3. [排程即時活動，並將來賓新增至您的活動群組](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-最佳做法是，建議您為即時活動的製作人和簡報者建立頻道，使得他們可以在活動前交談和共用資訊。沒有 Microsoft 365 認證的來賓就不會看到 Teams 中的行事曆。若要讓他們能夠輕鬆加入活動，製作人可以將活動連結張貼到頻道。然後，簡報者可以開啟 Teams，前往頻道，然後按一下連結以加入活動。
+最佳做法是，建議您為即時活動的製作人和簡報者建立頻道，使得他們可以在活動前交談和共用資訊。 沒有 Microsoft 365 認證的來賓就不會看到 Teams 中的行事曆。 若要讓他們能夠輕鬆加入活動，製作人可以將活動連結張貼到頻道。 然後，簡報者可以開啟 Teams、前往頻道，然後選取連結以加入活動。
 
 ## <a name="who-can-watch-live-events"></a>誰可以觀看即時活動？
 
@@ -165,9 +164,10 @@ ms.locfileid: "50569235"
 **這些國家/地區的資料位置 (支援)**
 
 - 澳洲
+- 巴西
 - 加拿大
-- 德國
 - 法國
+- 德國
 - 印度
 - 日本
 - 南非
@@ -178,12 +178,11 @@ ms.locfileid: "50569235"
 
 **不支援這些國家/地區和雲端**
 
-- 巴西
 - 挪威
 - 政府社群雲端 (GCC)-H
-- 美國國防部
+- 美國國防部 (DOD)
 
-**排除和考量**
+**排除和考量事項**
 
 - **資料位置：** Teams 資料位置，目前不支援上述以外的國家/地區。
 - **中國：** 活動小組成員和出席者無法使用 Teams 即時活動，因為無法在中國存取 Azure CDN。因應措施是使用公司 VPN 連線，透過客戶的公司網路，讓用戶端連線到 CDN。
