@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874893"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997321"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -50,7 +50,7 @@ ms.locfileid: "50874893"
 | **Exchange Online**                                                 | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
 | **Exchange Online 專用 vNext**                                 | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
 | **Exchange Online 專用 – 舊版** (需要同步到 Azure AD)  | 是 <sup>1</sup> | 是 <sup>1，2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
-| **Exchange 內部部署** (同步到 Azure AD) | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
+| **Exchange 內部部署** (同步到 Azure AD) | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
 
 <sup>1</sup> 所有代管選項都支援 eDiscovery 和針對管道訊息的合規性保留。
 
@@ -66,6 +66,8 @@ ms.locfileid: "50874893"
 
 <sup>7</sup> Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果在策略中關閉 **-SetPhotoEnabled** 設定，使用者就無法新增、變更或移除其設定檔圖片，因此如果系統管理員變更相片，就不會將 porfile 圖片同步至團隊。
 <sup>8</sup> 您需要滿足[為內部部署主控的的郵箱建立和檢視會議的需求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)列出的要求。
+
+<sup>9</sup> 也至少需要 Exchange Online 方案 1 授權。 詳細資訊，請參閱 [搜尋內部部署使用者的 Teams 聊天資料](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的需求
 
@@ -105,12 +107,12 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 
 要為這些使用者啟用行事曆委派，請執行以下操作：
 
-- 您還必須完成步驟 2-3，如設定[商務用 Skype Online 和 Exchange Server 之間的整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 中所述；這些步驟將為 Teams 排程應用程式提供確認委派權限所需的權限。
+- 您也必須完成步驟，如在商務用 Skype Online 和 Exchange Server 之間設定整合和 [OAuth 中所述](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);這些步驟會為 Teams 排程應用程式提供確認代理人許可權所需的許可權。
  
   > [!NOTE]
   > 步驟 2 包括 ArchiveApplication 的角色指派，這不是委派所必需的。
 
-- Teams 排程 Outlook 增益集代表某人安排會議時需要 Exchange 2013 CU19 或更高版本。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
+- 當代表其他人排程會議時，Outlook 的 Teams 排程附加元件需要 Exchange 2013 CU19 或更新更新。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他考量因素
 
