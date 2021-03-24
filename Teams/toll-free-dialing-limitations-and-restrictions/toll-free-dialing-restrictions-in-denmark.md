@@ -1,5 +1,5 @@
 ---
-title: 丹麥的免付費撥號限制
+title: 丹麥免付費撥號限制
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -21,34 +21,33 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: 4164bdbd16b40442789f801c4e84686fad1ba8e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
+ms.openlocfilehash: fbc6933c24ef119f4bb63a0c7f976034f831780b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815603"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098159"
 ---
-# <a name="toll-free-dialing-restrictions-in-denmark"></a><span data-ttu-id="8dfba-105">丹麥的免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="8dfba-105">Toll-free dialing restrictions in Denmark</span></span>
+# <a name="toll-free-dialing-restrictions-in-denmark"></a><span data-ttu-id="a0fbf-105">丹麥免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="a0fbf-105">Toll-free dialing restrictions in Denmark</span></span>
 
-<span data-ttu-id="8dfba-106">[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="8dfba-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="a0fbf-106">[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="a0fbf-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="8dfba-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="8dfba-107">**Details**</span></span>|<span data-ttu-id="8dfba-108">**描述**</span><span class="sxs-lookup"><span data-stu-id="8dfba-108">**Description**</span></span>|
+|<span data-ttu-id="a0fbf-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="a0fbf-107">**Details**</span></span>|<span data-ttu-id="a0fbf-108">**描述**</span><span class="sxs-lookup"><span data-stu-id="a0fbf-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8dfba-109">免費通話嗎？</span><span class="sxs-lookup"><span data-stu-id="8dfba-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="8dfba-110">是</span><span class="sxs-lookup"><span data-stu-id="8dfba-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="8dfba-111"> (s) 撥號格式</span><span class="sxs-lookup"><span data-stu-id="8dfba-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="8dfba-112">801</span><span class="sxs-lookup"><span data-stu-id="8dfba-112">801</span></span><br/>  <span data-ttu-id="8dfba-113">802</span><span class="sxs-lookup"><span data-stu-id="8dfba-113">802</span></span><br/>  <span data-ttu-id="8dfba-114">803</span><span class="sxs-lookup"><span data-stu-id="8dfba-114">803</span></span><br/><span data-ttu-id="8dfba-115">804</span><span class="sxs-lookup"><span data-stu-id="8dfba-115">804</span></span><br/><span data-ttu-id="8dfba-116">8060</span><span class="sxs-lookup"><span data-stu-id="8dfba-116">8060</span></span><br/><span data-ttu-id="8dfba-117">8061</span><span class="sxs-lookup"><span data-stu-id="8dfba-117">8061</span></span><br/><span data-ttu-id="8dfba-118">8062</span><span class="sxs-lookup"><span data-stu-id="8dfba-118">8062</span></span><br/><span data-ttu-id="8dfba-119">8063</span><span class="sxs-lookup"><span data-stu-id="8dfba-119">8063</span></span><br/><span data-ttu-id="8dfba-120">807</span><span class="sxs-lookup"><span data-stu-id="8dfba-120">807</span></span><br/><span data-ttu-id="8dfba-121">808</span><span class="sxs-lookup"><span data-stu-id="8dfba-121">808</span></span><br/><span data-ttu-id="8dfba-122">809</span><span class="sxs-lookup"><span data-stu-id="8dfba-122">809</span></span><br/> |
-|<span data-ttu-id="8dfba-123">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="8dfba-123">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="8dfba-124">深</span><span class="sxs-lookup"><span data-stu-id="8dfba-124">DK</span></span>  <br/> |
-|<span data-ttu-id="8dfba-125">已覆蓋的島/地區</span><span class="sxs-lookup"><span data-stu-id="8dfba-125">Island/territory covered</span></span>  <br/> |<span data-ttu-id="8dfba-126">不適用</span><span class="sxs-lookup"><span data-stu-id="8dfba-126">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="8dfba-127">未涵蓋的島/區域</span><span class="sxs-lookup"><span data-stu-id="8dfba-127">Island/territory not covered</span></span>  <br/> | <span data-ttu-id="8dfba-128">沒有來自法羅群島或格陵蘭的存取權。</span><span class="sxs-lookup"><span data-stu-id="8dfba-128">No access from Faroe Islands or Greenland.</span></span> <br/> |
-|<span data-ttu-id="8dfba-129">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="8dfba-129">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="8dfba-130">是</span><span class="sxs-lookup"><span data-stu-id="8dfba-130">Yes</span></span>  <br/> |
-|<span data-ttu-id="8dfba-131">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="8dfba-131">Mobile network availability</span></span>  <br/> | <span data-ttu-id="8dfba-132">是的。</span><span class="sxs-lookup"><span data-stu-id="8dfba-132">Yes.</span></span> <span data-ttu-id="8dfba-133">在特優比率中提供。</span><span class="sxs-lookup"><span data-stu-id="8dfba-133">Available at premium rate.</span></span> <br/> |
-|<span data-ttu-id="8dfba-134">批註、限制及存取問題</span><span class="sxs-lookup"><span data-stu-id="8dfba-134">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="8dfba-135">無</span><span class="sxs-lookup"><span data-stu-id="8dfba-135">None</span></span>  <br/> |
+|<span data-ttu-id="a0fbf-109">免付費通話是否可用？</span><span class="sxs-lookup"><span data-stu-id="a0fbf-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="a0fbf-110">是</span><span class="sxs-lookup"><span data-stu-id="a0fbf-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="a0fbf-111">撥號格式 () </span><span class="sxs-lookup"><span data-stu-id="a0fbf-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="a0fbf-112">801</span><span class="sxs-lookup"><span data-stu-id="a0fbf-112">801</span></span><br/>  <span data-ttu-id="a0fbf-113">802</span><span class="sxs-lookup"><span data-stu-id="a0fbf-113">802</span></span><br/>  <span data-ttu-id="a0fbf-114">803</span><span class="sxs-lookup"><span data-stu-id="a0fbf-114">803</span></span><br/><span data-ttu-id="a0fbf-115">804</span><span class="sxs-lookup"><span data-stu-id="a0fbf-115">804</span></span><br/><span data-ttu-id="a0fbf-116">8060</span><span class="sxs-lookup"><span data-stu-id="a0fbf-116">8060</span></span><br/><span data-ttu-id="a0fbf-117">8061</span><span class="sxs-lookup"><span data-stu-id="a0fbf-117">8061</span></span><br/><span data-ttu-id="a0fbf-118">8062</span><span class="sxs-lookup"><span data-stu-id="a0fbf-118">8062</span></span><br/><span data-ttu-id="a0fbf-119">8063</span><span class="sxs-lookup"><span data-stu-id="a0fbf-119">8063</span></span><br/><span data-ttu-id="a0fbf-120">807</span><span class="sxs-lookup"><span data-stu-id="a0fbf-120">807</span></span><br/><span data-ttu-id="a0fbf-121">808</span><span class="sxs-lookup"><span data-stu-id="a0fbf-121">808</span></span><br/><span data-ttu-id="a0fbf-122">809</span><span class="sxs-lookup"><span data-stu-id="a0fbf-122">809</span></span><br/> |
+|<span data-ttu-id="a0fbf-123">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="a0fbf-123">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="a0fbf-124">Dk</span><span class="sxs-lookup"><span data-stu-id="a0fbf-124">DK</span></span>  <br/> |
+|<span data-ttu-id="a0fbf-125">涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="a0fbf-125">Island/territory covered</span></span>  <br/> |<span data-ttu-id="a0fbf-126">不適用</span><span class="sxs-lookup"><span data-stu-id="a0fbf-126">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="a0fbf-127">未涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="a0fbf-127">Island/territory not covered</span></span>  <br/> | <span data-ttu-id="a0fbf-128">法羅群島或格陵蘭島無法存取。</span><span class="sxs-lookup"><span data-stu-id="a0fbf-128">No access from Faroe Islands or Greenland.</span></span> <br/> |
+|<span data-ttu-id="a0fbf-129">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="a0fbf-129">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="a0fbf-130">是</span><span class="sxs-lookup"><span data-stu-id="a0fbf-130">Yes</span></span>  <br/> |
+|<span data-ttu-id="a0fbf-131">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="a0fbf-131">Mobile network availability</span></span>  <br/> | <span data-ttu-id="a0fbf-132">是的。</span><span class="sxs-lookup"><span data-stu-id="a0fbf-132">Yes.</span></span> <span data-ttu-id="a0fbf-133">以進位費率提供。</span><span class="sxs-lookup"><span data-stu-id="a0fbf-133">Available at premium rate.</span></span> <br/> |
+|<span data-ttu-id="a0fbf-134">批註、限制和存取問題</span><span class="sxs-lookup"><span data-stu-id="a0fbf-134">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="a0fbf-135">無</span><span class="sxs-lookup"><span data-stu-id="a0fbf-135">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="8dfba-136">相關主題</span><span class="sxs-lookup"><span data-stu-id="8dfba-136">Related topics</span></span>
-[<span data-ttu-id="8dfba-137">免付費電話的撥號限制</span><span class="sxs-lookup"><span data-stu-id="8dfba-137">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="a0fbf-136">相關主題</span><span class="sxs-lookup"><span data-stu-id="a0fbf-136">Related topics</span></span>
+[<span data-ttu-id="a0fbf-137">免付費電話的撥號限制</span><span class="sxs-lookup"><span data-stu-id="a0fbf-137">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="8dfba-138">取得服務電話 numberss</span><span class="sxs-lookup"><span data-stu-id="8dfba-138">Getting service phone numberss</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="a0fbf-138">取得服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="a0fbf-138">Getting service phone numberss</span></span>](../getting-service-phone-numbers.md)
 
   
- 

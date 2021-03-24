@@ -13,64 +13,62 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 摘要：為商務用 Skype Server 刪除使用者的電話撥入式會議 PIN。
-ms.openlocfilehash: 6cf93d2ade053ba6e4bdbe7aabf0138206fdff88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b85d2bb29f8a1a28279a59f72957d201886d1dc4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828393"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096789"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server"></a><span data-ttu-id="41864-103">在商務用 Skype Server 中刪除 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="41864-103">Delete a PIN policy in Skype for Business Server</span></span>
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a><span data-ttu-id="cdc31-103">在商務用 Skype Server 中刪除 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="cdc31-103">Delete a PIN policy in Skype for Business Server</span></span>
  
-<span data-ttu-id="41864-104">**摘要：** 為商務用 Skype Server 刪除使用者的電話撥入式會議 PIN。</span><span class="sxs-lookup"><span data-stu-id="41864-104">**Summary:** Delete a user's dial-in conferencing PIN for Skype for Business Server.</span></span>
+<span data-ttu-id="cdc31-104">**摘要：** 為商務用 Skype Server 刪除使用者的電話撥入式會議 PIN。</span><span class="sxs-lookup"><span data-stu-id="cdc31-104">**Summary:** Delete a user's dial-in conferencing PIN for Skype for Business Server.</span></span>
   
-<span data-ttu-id="41864-105">遵循下列步驟，可刪除個人識別碼 (PIN) 原則。</span><span class="sxs-lookup"><span data-stu-id="41864-105">Follow these steps to delete a personal identification number (PIN) policy.</span></span>
+<span data-ttu-id="cdc31-105">遵循下列步驟，可刪除個人識別碼 (PIN) 原則。</span><span class="sxs-lookup"><span data-stu-id="cdc31-105">Follow these steps to delete a personal identification number (PIN) policy.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="41864-106">您無法刪除全域 PIN 原則。</span><span class="sxs-lookup"><span data-stu-id="41864-106">You cannot delete the global PIN policy.</span></span> 
+> <span data-ttu-id="cdc31-106">您無法刪除全域 PIN 原則。</span><span class="sxs-lookup"><span data-stu-id="cdc31-106">You cannot delete the global PIN policy.</span></span> 
   
-### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a><span data-ttu-id="41864-107">在商務用 Skype Server 控制台中刪除 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="41864-107">To delete a PIN policy in Skype for Business Server Control Panel</span></span>
+### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a><span data-ttu-id="cdc31-107">在商務用 Skype Server 控制台中刪除 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="cdc31-107">To delete a PIN policy in Skype for Business Server Control Panel</span></span>
 
-1.  <span data-ttu-id="41864-108">從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="41864-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
+1.  <span data-ttu-id="cdc31-108">從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="cdc31-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
     
-2. <span data-ttu-id="41864-109">開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="41864-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
+2. <span data-ttu-id="cdc31-109">開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。</span><span class="sxs-lookup"><span data-stu-id="cdc31-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
     
-3. <span data-ttu-id="41864-110">在左導覽列中，依序按一下 **[安全性]** 和 **[PIN 原則]**。</span><span class="sxs-lookup"><span data-stu-id="41864-110">In the left navigation bar, click **Security** and then click **PIN Policy**.</span></span>
+3. <span data-ttu-id="cdc31-110">在左導覽列中，依序按一下 **[安全性]** 和 **[PIN 原則]**。</span><span class="sxs-lookup"><span data-stu-id="cdc31-110">In the left navigation bar, click **Security** and then click **PIN Policy**.</span></span>
     
-4. <span data-ttu-id="41864-111">在 **[PIN 原則]** 頁面的搜尋欄位中，輸入您要刪除之原則的完整或部分名稱。</span><span class="sxs-lookup"><span data-stu-id="41864-111">On the **PIN Policy** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
+4. <span data-ttu-id="cdc31-111">在 **[PIN 原則]** 頁面的搜尋欄位中，輸入您要刪除之原則的完整或部分名稱。</span><span class="sxs-lookup"><span data-stu-id="cdc31-111">On the **PIN Policy** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
     
-5. <span data-ttu-id="41864-112">在原則清單中，按一下您要的原則，再按一下 **[編輯]**，然後按一下 **[刪除]**。</span><span class="sxs-lookup"><span data-stu-id="41864-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+5. <span data-ttu-id="cdc31-112">在原則清單中，按一下您要的原則，再按一下 **[編輯]**，然後按一下 **[刪除]**。</span><span class="sxs-lookup"><span data-stu-id="cdc31-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
     
-6. <span data-ttu-id="41864-113">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="41864-113">Click **OK**.</span></span>
+6. <span data-ttu-id="cdc31-113">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="cdc31-113">Click **OK**.</span></span>
     
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="41864-114">使用 Windows PowerShell Cmdlet 移除 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="41864-114">Removing PIN Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="cdc31-114">使用 Windows PowerShell Cmdlet 移除 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="cdc31-114">Removing PIN Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="41864-115">您可以使用 Windows PowerShell 和 Remove-CsPinPolicy Cmdlet 來刪除 PIN 原則。</span><span class="sxs-lookup"><span data-stu-id="41864-115">You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPolicy cmdlet.</span></span> <span data-ttu-id="41864-116">您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="41864-116">You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="41864-117">如需使用遠端 Windows PowerShell 連線到商務用 Skype 伺服器的詳細資訊，請參閱博客文章 [：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。</span><span class="sxs-lookup"><span data-stu-id="41864-117">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="41864-118">商務用 Skype Server 中的程式相同。</span><span class="sxs-lookup"><span data-stu-id="41864-118">The process is the same in Skype for Business Server.</span></span>
+<span data-ttu-id="cdc31-115">您可以使用 Windows PowerShell 和 Remove-CsPinPolicy Cmdlet 來刪除 PIN 原則。</span><span class="sxs-lookup"><span data-stu-id="cdc31-115">You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPolicy cmdlet.</span></span> <span data-ttu-id="cdc31-116">您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="cdc31-116">You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="cdc31-117">如需使用遠端 Windows PowerShell 連線到商務用 Skype 伺服器的詳細資訊，請參閱博客文章 [：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。</span><span class="sxs-lookup"><span data-stu-id="cdc31-117">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="cdc31-118">商務用 Skype Server 中的程式相同。</span><span class="sxs-lookup"><span data-stu-id="cdc31-118">The process is the same in Skype for Business Server.</span></span>
   
-### <a name="to-remove-a-specific-pin-policy"></a><span data-ttu-id="41864-119">移除特定 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="41864-119">To remove a specific PIN policy</span></span>
+### <a name="to-remove-a-specific-pin-policy"></a><span data-ttu-id="cdc31-119">移除特定 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="cdc31-119">To remove a specific PIN policy</span></span>
 
-- <span data-ttu-id="41864-120">這個命令將移除含有 Identity RedmondPinPolicy 的 PIN 原則：</span><span class="sxs-lookup"><span data-stu-id="41864-120">This command removes the PIN policy with the Identity RedmondPinPolicy:</span></span>
+- <span data-ttu-id="cdc31-120">這個命令將移除含有 Identity RedmondPinPolicy 的 PIN 原則：</span><span class="sxs-lookup"><span data-stu-id="cdc31-120">This command removes the PIN policy with the Identity RedmondPinPolicy:</span></span>
     
   ```PowerShell
   Remove-CsPinPolicy -Identity "RedmondPinPolicy"
   ```
 
-### <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a><span data-ttu-id="41864-121">若要移除所有套用至網站範圍的 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="41864-121">To remove all the PIN policies applied to the site scope</span></span>
+### <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a><span data-ttu-id="cdc31-121">若要移除所有套用至網站範圍的 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="cdc31-121">To remove all the PIN policies applied to the site scope</span></span>
 
-- <span data-ttu-id="41864-122">這個命令將移除網站範圍設定的所有 PIN 原則：</span><span class="sxs-lookup"><span data-stu-id="41864-122">This command removes all the PIN policies configured at the site scope:</span></span>
+- <span data-ttu-id="cdc31-122">這個命令將移除網站範圍設定的所有 PIN 原則：</span><span class="sxs-lookup"><span data-stu-id="cdc31-122">This command removes all the PIN policies configured at the site scope:</span></span>
     
   ```PowerShell
   Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
   ```
 
-### <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a><span data-ttu-id="41864-123">移除允許使用共同模式的所有 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="41864-123">To remove all the PIN policies that allow the use of common patterns</span></span>
+### <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a><span data-ttu-id="cdc31-123">移除允許使用共同模式的所有 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="cdc31-123">To remove all the PIN policies that allow the use of common patterns</span></span>
 
-- <span data-ttu-id="41864-124">而且，這個將移除允許使用共同模式的所有 PIN 原則：G</span><span class="sxs-lookup"><span data-stu-id="41864-124">And this one removes all the PIN policies that allow the use of common patterns:G</span></span>
+- <span data-ttu-id="cdc31-124">而且，這個將移除允許使用共同模式的所有 PIN 原則：G</span><span class="sxs-lookup"><span data-stu-id="cdc31-124">And this one removes all the PIN policies that allow the use of common patterns:G</span></span>
     
   ```PowerShell
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 
-<span data-ttu-id="41864-125">如需詳細資訊，請參閱 [get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="41864-125">For more information, see the help topic for the [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) cmdlet.</span></span>
-  
-
+<span data-ttu-id="cdc31-125">如需詳細資訊，請參閱 [get-cspinpolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="cdc31-125">For more information, see the help topic for the [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) cmdlet.</span></span>

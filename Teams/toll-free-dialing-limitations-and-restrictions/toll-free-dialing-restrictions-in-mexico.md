@@ -1,5 +1,5 @@
 ---
-title: 墨西哥免付費電話撥號限制
+title: 墨西哥免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解如何在墨西哥撥打免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
-ms.openlocfilehash: ab4540cb2c311ca0e869e60f1a638f4d0517c06b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 瞭解撥打墨西哥的免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+ms.openlocfilehash: e047914928d1fec4e7becfff36fcbf2cef6804b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140322"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097899"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a><span data-ttu-id="52127-103">墨西哥免付費電話撥號限制</span><span class="sxs-lookup"><span data-stu-id="52127-103">Toll-free dialing restrictions in Mexico</span></span>
+# <a name="toll-free-dialing-restrictions-in-mexico"></a><span data-ttu-id="e6cb9-103">墨西哥免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="e6cb9-103">Toll-free dialing restrictions in Mexico</span></span>
 
-<span data-ttu-id="52127-104">[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="52127-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="e6cb9-104">[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="52127-105">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="52127-105">**Details**</span></span>|<span data-ttu-id="52127-106">**描述**</span><span class="sxs-lookup"><span data-stu-id="52127-106">**Description**</span></span>|
+|<span data-ttu-id="e6cb9-105">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="e6cb9-105">**Details**</span></span>|<span data-ttu-id="e6cb9-106">**描述**</span><span class="sxs-lookup"><span data-stu-id="e6cb9-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="52127-107">免費通話嗎？</span><span class="sxs-lookup"><span data-stu-id="52127-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="52127-108">是</span><span class="sxs-lookup"><span data-stu-id="52127-108">Yes</span></span>  <br/> |
-|<span data-ttu-id="52127-109">撥號格式（s）</span><span class="sxs-lookup"><span data-stu-id="52127-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="52127-110">001 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="52127-110">001 800 XXX XXXX</span></span> <br/>  <span data-ttu-id="52127-111">01 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="52127-111">01 800 XXX XXXX</span></span> <br/> |
-|<span data-ttu-id="52127-112">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="52127-112">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="52127-113">MX</span><span class="sxs-lookup"><span data-stu-id="52127-113">MX</span></span>  <br/> |
-|<span data-ttu-id="52127-114">已覆蓋的島/地區</span><span class="sxs-lookup"><span data-stu-id="52127-114">Island/territory covered</span></span>  <br/> |<span data-ttu-id="52127-115">不適用</span><span class="sxs-lookup"><span data-stu-id="52127-115">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="52127-116">未涵蓋的島/區域</span><span class="sxs-lookup"><span data-stu-id="52127-116">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="52127-117">不適用</span><span class="sxs-lookup"><span data-stu-id="52127-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="52127-118">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="52127-118">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="52127-119">部分.</span><span class="sxs-lookup"><span data-stu-id="52127-119">Partial.</span></span> <span data-ttu-id="52127-120">請參閱批註。</span><span class="sxs-lookup"><span data-stu-id="52127-120">See comments.</span></span>  <br/> |
-|<span data-ttu-id="52127-121">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="52127-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="52127-122">部分.</span><span class="sxs-lookup"><span data-stu-id="52127-122">Partial.</span></span> <span data-ttu-id="52127-123">請參閱批註。</span><span class="sxs-lookup"><span data-stu-id="52127-123">See comments.</span></span>  <br/> |
-|<span data-ttu-id="52127-124">批註、限制及存取問題</span><span class="sxs-lookup"><span data-stu-id="52127-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="52127-125">不保證從國際 roamers 存取。</span><span class="sxs-lookup"><span data-stu-id="52127-125">Access isn't guaranteed from international roamers.</span></span>  <br/> <span data-ttu-id="52127-126">針對001-800 編號格式：針對固定存取-Telmex。</span><span class="sxs-lookup"><span data-stu-id="52127-126">For the 001-800 number format: For Fixed access - Telmex.</span></span> <span data-ttu-id="52127-127">僅限行動存取-Telcel。</span><span class="sxs-lookup"><span data-stu-id="52127-127">For Mobile access - Telcel only.</span></span> <span data-ttu-id="52127-128">已收取 Airtime。</span><span class="sxs-lookup"><span data-stu-id="52127-128">Airtime is charged.</span></span> <span data-ttu-id="52127-129">如果最終客戶使用 Telmex 作為其當地和長途供應商，就不需要額外費用。</span><span class="sxs-lookup"><span data-stu-id="52127-129">No additional charge if end customer is with Telmex as their local and long distance provider.</span></span>  <br/> <span data-ttu-id="52127-130">針對01-800 編號格式：已收取行動存取 airtime。</span><span class="sxs-lookup"><span data-stu-id="52127-130">For the 01-800 number format: Mobile access airtime is charged.</span></span>  <br/> |
+|<span data-ttu-id="e6cb9-107">免付費通話是否可用？</span><span class="sxs-lookup"><span data-stu-id="e6cb9-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="e6cb9-108">是</span><span class="sxs-lookup"><span data-stu-id="e6cb9-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="e6cb9-109">撥號格式 () </span><span class="sxs-lookup"><span data-stu-id="e6cb9-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="e6cb9-110">001 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="e6cb9-110">001 800 XXX XXXX</span></span> <br/>  <span data-ttu-id="e6cb9-111">01 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="e6cb9-111">01 800 XXX XXXX</span></span> <br/> |
+|<span data-ttu-id="e6cb9-112">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="e6cb9-112">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="e6cb9-113">Mx</span><span class="sxs-lookup"><span data-stu-id="e6cb9-113">MX</span></span>  <br/> |
+|<span data-ttu-id="e6cb9-114">涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="e6cb9-114">Island/territory covered</span></span>  <br/> |<span data-ttu-id="e6cb9-115">不適用</span><span class="sxs-lookup"><span data-stu-id="e6cb9-115">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e6cb9-116">未涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="e6cb9-116">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="e6cb9-117">不適用</span><span class="sxs-lookup"><span data-stu-id="e6cb9-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e6cb9-118">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="e6cb9-118">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="e6cb9-119">部分。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-119">Partial.</span></span> <span data-ttu-id="e6cb9-120">查看批註。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-120">See comments.</span></span>  <br/> |
+|<span data-ttu-id="e6cb9-121">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="e6cb9-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="e6cb9-122">部分。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-122">Partial.</span></span> <span data-ttu-id="e6cb9-123">查看批註。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-123">See comments.</span></span>  <br/> |
+|<span data-ttu-id="e6cb9-124">批註、限制和存取問題</span><span class="sxs-lookup"><span data-stu-id="e6cb9-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="e6cb9-125">國際漫遊者無法保證存取權。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-125">Access isn't guaranteed from international roamers.</span></span>  <br/> <span data-ttu-id="e6cb9-126">針對 001-800 數位格式：適用于固定存取 - Telmex。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-126">For the 001-800 number format: For Fixed access - Telmex.</span></span> <span data-ttu-id="e6cb9-127">行動存取 - 僅適用于 Telcel。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-127">For Mobile access - Telcel only.</span></span> <span data-ttu-id="e6cb9-128">會收取 Airtime 的費用。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-128">Airtime is charged.</span></span> <span data-ttu-id="e6cb9-129">如果最終客戶以 Telmex 作為當地和長途服務提供者，則無需支付額外費用。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-129">No additional charge if end customer is with Telmex as their local and long distance provider.</span></span>  <br/> <span data-ttu-id="e6cb9-130">針對 01-800 數位格式：會收取行動存取時數。</span><span class="sxs-lookup"><span data-stu-id="e6cb9-130">For the 01-800 number format: Mobile access airtime is charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="52127-131">相關主題</span><span class="sxs-lookup"><span data-stu-id="52127-131">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e6cb9-131">相關主題</span><span class="sxs-lookup"><span data-stu-id="e6cb9-131">Related topics</span></span>
 
-[<span data-ttu-id="52127-132">免付費電話的撥號限制</span><span class="sxs-lookup"><span data-stu-id="52127-132">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="e6cb9-132">免付費電話的撥號限制</span><span class="sxs-lookup"><span data-stu-id="e6cb9-132">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="52127-133">取得商務用 Skype 和 Microsoft Teams 的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="52127-133">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="e6cb9-133">取得商務用 Skype 和 Microsoft Teams 的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="e6cb9-133">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 
