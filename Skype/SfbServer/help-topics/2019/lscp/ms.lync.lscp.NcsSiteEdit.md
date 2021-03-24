@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 49ed9b9867cd5ace760c655ee77ad274d2fd229b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 27e560c7893e46f12d2911886c25d931de5790eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808493"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100299"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="bec05-104">設定網站：建立新的或編輯現有</span><span class="sxs-lookup"><span data-stu-id="bec05-104">Configure a Network Site: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="ad0e7-104">設定網站：建立新的或編輯現有</span><span class="sxs-lookup"><span data-stu-id="ad0e7-104">Configure a Network Site: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="bec05-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="bec05-105">What do you want to do?</span></span> <span data-ttu-id="bec05-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="bec05-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ad0e7-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="ad0e7-105">What do you want to do?</span></span> <span data-ttu-id="ad0e7-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="ad0e7-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="bec05-107">設定網路網站</span><span class="sxs-lookup"><span data-stu-id="bec05-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
-
-
-
+- [<span data-ttu-id="ad0e7-107">設定網路網站</span><span class="sxs-lookup"><span data-stu-id="ad0e7-107">Configuring Network Sites</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)

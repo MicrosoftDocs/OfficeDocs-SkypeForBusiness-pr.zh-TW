@@ -15,56 +15,54 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: 會議設定設定會定義會議類型 (也是 calledmeetings) 使用者可以建立，並 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: 804aa22f750c86aacacb9bd4d938d364967b86f9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e53297aaae7707f8cc0ae4821a97afb78e0382e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099659"
 ---
-# <a name="meeting-configuration"></a><span data-ttu-id="ca59a-105">會議組態</span><span class="sxs-lookup"><span data-stu-id="ca59a-105">Meeting Configuration</span></span>
+# <a name="meeting-configuration"></a><span data-ttu-id="7aa2b-105">會議組態</span><span class="sxs-lookup"><span data-stu-id="7aa2b-105">Meeting Configuration</span></span>
 
-<span data-ttu-id="ca59a-106">會議設定設定會定義使用者可以建立的會議 (類型 ) ，也可以 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。</span><span class="sxs-lookup"><span data-stu-id="ca59a-106">Meeting configuration settings define the type of conferences (also called "meetings") that users can create, and control how (or whether) anonymous users and dial-in conferencing users can join these conferences.</span></span> <span data-ttu-id="ca59a-107">這些設定只適用于排程的會議。</span><span class="sxs-lookup"><span data-stu-id="ca59a-107">These settings only apply to scheduled meetings.</span></span> <span data-ttu-id="ca59a-108">在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。</span><span class="sxs-lookup"><span data-stu-id="ca59a-108">They do not apply to ad-hoc meetings created by clicking the Meet Now option in the client.</span></span>
+<span data-ttu-id="7aa2b-106">會議設定設定會定義使用者可以建立的會議 (類型 ) ，也可以 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-106">Meeting configuration settings define the type of conferences (also called "meetings") that users can create, and control how (or whether) anonymous users and dial-in conferencing users can join these conferences.</span></span> <span data-ttu-id="7aa2b-107">這些設定只適用于排程的會議。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-107">These settings only apply to scheduled meetings.</span></span> <span data-ttu-id="7aa2b-108">在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-108">They do not apply to ad-hoc meetings created by clicking the Meet Now option in the client.</span></span>
 
-<span data-ttu-id="ca59a-109">會議設定會套用在全域、網站或集區層級：</span><span class="sxs-lookup"><span data-stu-id="ca59a-109">Meeting configurations apply on the global, site, or pool level:</span></span>
+<span data-ttu-id="7aa2b-109">會議設定會套用在全域、網站或集區層級：</span><span class="sxs-lookup"><span data-stu-id="7aa2b-109">Meeting configurations apply on the global, site, or pool level:</span></span>
 
-- <span data-ttu-id="ca59a-110">**全域會議設定：** 預設會建立全域會議設定。</span><span class="sxs-lookup"><span data-stu-id="ca59a-110">**Global meeting configuration:** The global meeting configuration is created by default.</span></span> <span data-ttu-id="ca59a-111">您只可編輯全域會議設定，而無法加以刪除。</span><span class="sxs-lookup"><span data-stu-id="ca59a-111">You can edit the global meeting configuration, but you cannot delete it.</span></span> <span data-ttu-id="ca59a-112">如果您嘗試移除全域會議設定，所有設定皆會重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="ca59a-112">If you try to remove the global meeting configuration, all the settings are reset to the default values.</span></span>
+- <span data-ttu-id="7aa2b-110">**全域會議設定：** 預設會建立全域會議設定。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-110">**Global meeting configuration:** The global meeting configuration is created by default.</span></span> <span data-ttu-id="7aa2b-111">您只可編輯全域會議設定，而無法加以刪除。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-111">You can edit the global meeting configuration, but you cannot delete it.</span></span> <span data-ttu-id="7aa2b-112">如果您嘗試移除全域會議設定，所有設定皆會重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-112">If you try to remove the global meeting configuration, all the settings are reset to the default values.</span></span>
 
-- <span data-ttu-id="ca59a-113">**網站會議設定 (選用) ：** 您可以建立一或多個網站會議設定，每個設定會套用至特定網站。</span><span class="sxs-lookup"><span data-stu-id="ca59a-113">**Site meeting configuration (optional):** You can create one or more site meeting configurations, each of which applies to a specific site.</span></span> <span data-ttu-id="ca59a-114">網站設定優先於全域設定。</span><span class="sxs-lookup"><span data-stu-id="ca59a-114">Site configurations override the global configuration.</span></span>
+- <span data-ttu-id="7aa2b-113">**網站會議設定 (選用) ：** 您可以建立一或多個網站會議設定，每個設定會套用至特定網站。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-113">**Site meeting configuration (optional):** You can create one or more site meeting configurations, each of which applies to a specific site.</span></span> <span data-ttu-id="7aa2b-114">網站設定優先於全域設定。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-114">Site configurations override the global configuration.</span></span>
 
-- <span data-ttu-id="ca59a-115">**集區會議設定 (選用) ：** 您可以建立一或多個集區會議設定，每個設定會套用至特定集區。</span><span class="sxs-lookup"><span data-stu-id="ca59a-115">**Pool meeting configuration (optional):** You can create one or more pool meeting configurations, each of which applies to a specific pool.</span></span> <span data-ttu-id="ca59a-116">集區設定優先於全域設定。</span><span class="sxs-lookup"><span data-stu-id="ca59a-116">Pool configurations override the global configuration and site configurations.</span></span>
+- <span data-ttu-id="7aa2b-115">**集區會議設定 (選用) ：** 您可以建立一或多個集區會議設定，每個設定會套用至特定集區。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-115">**Pool meeting configuration (optional):** You can create one or more pool meeting configurations, each of which applies to a specific pool.</span></span> <span data-ttu-id="7aa2b-116">集區設定優先於全域設定。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-116">Pool configurations override the global configuration and site configurations.</span></span>
 
-<span data-ttu-id="ca59a-117">「會議設定」頁面會顯示為組織所定義之所有會議設定的清單。</span><span class="sxs-lookup"><span data-stu-id="ca59a-117">The **Meeting Configuration** page displays a list of all the meeting configurations that are defined for your organization.</span></span>
+<span data-ttu-id="7aa2b-117">「會議設定」頁面會顯示為組織所定義之所有會議設定的清單。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-117">The **Meeting Configuration** page displays a list of all the meeting configurations that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="ca59a-118">您可以執行的工作</span><span class="sxs-lookup"><span data-stu-id="ca59a-118">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="7aa2b-118">您可以執行的工作</span><span class="sxs-lookup"><span data-stu-id="7aa2b-118">Tasks you can perform</span></span>
 
-<span data-ttu-id="ca59a-119">您可以在「會議設定」頁面上執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="ca59a-119">You can perform the following tasks from the **Meeting Configuration** page:</span></span>
+<span data-ttu-id="7aa2b-119">您可以在「會議設定」頁面上執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="7aa2b-119">You can perform the following tasks from the **Meeting Configuration** page:</span></span>
 
-- <span data-ttu-id="ca59a-120">建立新的網站會議設定或集區會議設定</span><span class="sxs-lookup"><span data-stu-id="ca59a-120">Create a new site meeting configuration or pool meeting configuration</span></span>
+- <span data-ttu-id="7aa2b-120">建立新的網站會議設定或集區會議設定</span><span class="sxs-lookup"><span data-stu-id="7aa2b-120">Create a new site meeting configuration or pool meeting configuration</span></span>
 
-- <span data-ttu-id="ca59a-121">變更全域設定或現有的網站設定或集區設定</span><span class="sxs-lookup"><span data-stu-id="ca59a-121">Change the global configuration or an existing site configuration or pool configuration</span></span>
+- <span data-ttu-id="7aa2b-121">變更全域設定或現有的網站設定或集區設定</span><span class="sxs-lookup"><span data-stu-id="7aa2b-121">Change the global configuration or an existing site configuration or pool configuration</span></span>
 
-- <span data-ttu-id="ca59a-122">刪除網站設定或集區設定</span><span class="sxs-lookup"><span data-stu-id="ca59a-122">Delete a site configuration or pool configuration</span></span>
+- <span data-ttu-id="7aa2b-122">刪除網站設定或集區設定</span><span class="sxs-lookup"><span data-stu-id="7aa2b-122">Delete a site configuration or pool configuration</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="ca59a-123">UI 參考</span><span class="sxs-lookup"><span data-stu-id="ca59a-123">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="7aa2b-123">UI 參考</span><span class="sxs-lookup"><span data-stu-id="7aa2b-123">UI Reference</span></span>
 
-<span data-ttu-id="ca59a-124">下列清單說明頁面上的命令。</span><span class="sxs-lookup"><span data-stu-id="ca59a-124">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="7aa2b-124">下列清單說明頁面上的命令。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-124">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="ca59a-125">**新** 啟動新的網站會議設定或集區會議設定。</span><span class="sxs-lookup"><span data-stu-id="ca59a-125">**New** Starts a new site meeting configuration or pool meeting configuration.</span></span>
+- <span data-ttu-id="7aa2b-125">**新** 啟動新的網站會議設定或集區會議設定。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-125">**New** Starts a new site meeting configuration or pool meeting configuration.</span></span>
 
-- <span data-ttu-id="ca59a-126">**編輯** 開啟選取的會議設定進行編輯、選取清單中所有的會議設定，或刪除選取的網站設定或集區設定。</span><span class="sxs-lookup"><span data-stu-id="ca59a-126">**Edit** Opens the selected meeting configuration to edit it, selects all meeting configurations in the list, or deletes the selected site configuration or pool configuration.</span></span>
+- <span data-ttu-id="7aa2b-126">**編輯** 開啟選取的會議設定進行編輯、選取清單中所有的會議設定，或刪除選取的網站設定或集區設定。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-126">**Edit** Opens the selected meeting configuration to edit it, selects all meeting configurations in the list, or deletes the selected site configuration or pool configuration.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ca59a-127">**刪除** 會將全域會議設定的設定重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="ca59a-127">For the global meeting configuration, **Delete** resets the settings to the default values.</span></span>
+    > <span data-ttu-id="7aa2b-127">**刪除** 會將全域會議設定的設定重設為預設值。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-127">For the global meeting configuration, **Delete** resets the settings to the default values.</span></span>
 
-- <span data-ttu-id="ca59a-128">**Refresh** 重新整理會議設定清單。</span><span class="sxs-lookup"><span data-stu-id="ca59a-128">**Refresh** Refreshes the list of meeting configurations.</span></span>
+- <span data-ttu-id="7aa2b-128">**Refresh** 重新整理會議設定清單。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-128">**Refresh** Refreshes the list of meeting configurations.</span></span>
 
-<span data-ttu-id="ca59a-129">下列清單說明頁面上的欄位。</span><span class="sxs-lookup"><span data-stu-id="ca59a-129">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="7aa2b-129">下列清單說明頁面上的欄位。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-129">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="ca59a-130">**名稱** 識別會議設定。</span><span class="sxs-lookup"><span data-stu-id="ca59a-130">**Name** Identifies the meeting configuration.</span></span>
+- <span data-ttu-id="7aa2b-130">**名稱** 識別會議設定。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-130">**Name** Identifies the meeting configuration.</span></span>
 
-- <span data-ttu-id="ca59a-131">**範圍** 識別會議設定的範圍：全域、網站或集區。</span><span class="sxs-lookup"><span data-stu-id="ca59a-131">**Scope** Identifies the scope of the meeting configuration: global, site, or pool.</span></span>
+- <span data-ttu-id="7aa2b-131">**範圍** 識別會議設定的範圍：全域、網站或集區。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-131">**Scope** Identifies the scope of the meeting configuration: global, site, or pool.</span></span>
 
-<span data-ttu-id="ca59a-132">如需使用會議設定的詳細資訊，請參閱作業文件中的＜[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)＞。</span><span class="sxs-lookup"><span data-stu-id="ca59a-132">For details about working with meeting configurations, see [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) in the Operations documentation.</span></span>
-
-
+<span data-ttu-id="7aa2b-132">如需使用會議設定的詳細資訊，請參閱作業文件中的＜[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)＞。</span><span class="sxs-lookup"><span data-stu-id="7aa2b-132">For details about working with meeting configurations, see [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) in the Operations documentation.</span></span>

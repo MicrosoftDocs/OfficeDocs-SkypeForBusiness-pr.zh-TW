@@ -15,50 +15,50 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: 測試裝置功能會搭配裝置更新功能一起運作。 您可以將測試裝置新增至 [測試裝置] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server [控制台] 的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: cf4895e84e486939515094042010383854587f46
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6a472923040dbf1101044a28667cb1358399f808
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819063"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099369"
 ---
-# <a name="test-device-create-new-or-edit-existing"></a><span data-ttu-id="802cf-107">測試裝置：建立新的或編輯現有裝置</span><span class="sxs-lookup"><span data-stu-id="802cf-107">Test Device: Create New or Edit Existing</span></span>
+# <a name="test-device-create-new-or-edit-existing"></a><span data-ttu-id="5ecfc-107">測試裝置：建立新的或編輯現有裝置</span><span class="sxs-lookup"><span data-stu-id="5ecfc-107">Test Device: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="802cf-108">測試裝置功能會搭配裝置更新功能一起運作。</span><span class="sxs-lookup"><span data-stu-id="802cf-108">The Test Device feature works in conjunction with the Device Update feature.</span></span> <span data-ttu-id="802cf-109">您可以將測試裝置新增至 [ **測試裝置** ] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。</span><span class="sxs-lookup"><span data-stu-id="802cf-109">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="802cf-110">您可以在整個環境) 或單一網站內，測試裝置全域 (。</span><span class="sxs-lookup"><span data-stu-id="802cf-110">You can test a device globally (throughout your entire environment) or within a single site.</span></span> <span data-ttu-id="802cf-111">您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。</span><span class="sxs-lookup"><span data-stu-id="802cf-111">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="802cf-112">當您新增裝置時，它會顯示在商務用 Skype Server [控制台] 的 [ **測試裝置** ] 頁面上的清單中。</span><span class="sxs-lookup"><span data-stu-id="802cf-112">When you add a device, it appears in the list on the **Test Device** page of the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="5ecfc-108">測試裝置功能會搭配裝置更新功能一起運作。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-108">The Test Device feature works in conjunction with the Device Update feature.</span></span> <span data-ttu-id="5ecfc-109">您可以將測試裝置新增至 [ **測試裝置** ] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-109">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="5ecfc-110">您可以在整個環境) 或單一網站內，測試裝置全域 (。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-110">You can test a device globally (throughout your entire environment) or within a single site.</span></span> <span data-ttu-id="5ecfc-111">您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-111">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="5ecfc-112">當您新增裝置時，它會顯示在商務用 Skype Server [控制台] 的 [ **測試裝置** ] 頁面上的清單中。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-112">When you add a device, it appears in the list on the **Test Device** page of the Skype for Business Server Control Panel.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="802cf-113">您可以執行的工作</span><span class="sxs-lookup"><span data-stu-id="802cf-113">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="5ecfc-113">您可以執行的工作</span><span class="sxs-lookup"><span data-stu-id="5ecfc-113">Tasks you can perform</span></span>
 
-<span data-ttu-id="802cf-114">您可以在「 **新增測試裝置** 」或「 **編輯測試裝置** 」頁面上執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="802cf-114">You can perform the following tasks on the **New Test Device** or **Edit Test Device** page:</span></span>
+<span data-ttu-id="5ecfc-114">您可以在「 **新增測試裝置** 」或「 **編輯測試裝置** 」頁面上執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="5ecfc-114">You can perform the following tasks on the **New Test Device** or **Edit Test Device** page:</span></span>
 
-- <span data-ttu-id="802cf-115">新增測試裝置。</span><span class="sxs-lookup"><span data-stu-id="802cf-115">Add a new test device.</span></span>
+- <span data-ttu-id="5ecfc-115">新增測試裝置。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-115">Add a new test device.</span></span>
 
-- <span data-ttu-id="802cf-116">修改現有測試裝置的屬性。</span><span class="sxs-lookup"><span data-stu-id="802cf-116">Modify the properties of an existing test device.</span></span>
+- <span data-ttu-id="5ecfc-116">修改現有測試裝置的屬性。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-116">Modify the properties of an existing test device.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="802cf-117">UI 參考</span><span class="sxs-lookup"><span data-stu-id="802cf-117">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="5ecfc-117">UI 參考</span><span class="sxs-lookup"><span data-stu-id="5ecfc-117">UI Reference</span></span>
 
-<span data-ttu-id="802cf-118">下列清單說明頁面上的功能表、命令、欄位及內容。</span><span class="sxs-lookup"><span data-stu-id="802cf-118">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="5ecfc-118">下列清單說明頁面上的功能表、命令、欄位及內容。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-118">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="802cf-119">**範圍** 識別測試裝置的範圍 (全域或網站) 。</span><span class="sxs-lookup"><span data-stu-id="802cf-119">**Scope** Identifies the scope (Global or Site) of the test device.</span></span>
+- <span data-ttu-id="5ecfc-119">**範圍** 識別測試裝置的範圍 (全域或網站) 。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-119">**Scope** Identifies the scope (Global or Site) of the test device.</span></span>
 
-- <span data-ttu-id="802cf-120">**名稱** 您可以新增或修改測試裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="802cf-120">**Name** You can add or modify the name of the test device.</span></span>
+- <span data-ttu-id="5ecfc-120">**名稱** 您可以新增或修改測試裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-120">**Name** You can add or modify the name of the test device.</span></span>
 
-- <span data-ttu-id="802cf-121">**裝置名稱** 您可以新增或修改測試裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="802cf-121">**Device name** You can add or modify the name of the test device.</span></span>
+- <span data-ttu-id="5ecfc-121">**裝置名稱** 您可以新增或修改測試裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-121">**Device name** You can add or modify the name of the test device.</span></span>
 
-- <span data-ttu-id="802cf-122">**識別碼類型** 您可以選取下列其中一項，以選取用來識別裝置的方法：</span><span class="sxs-lookup"><span data-stu-id="802cf-122">**Identifier type** You can select the method to use to identify the device by selecting one of the following:</span></span>
+- <span data-ttu-id="5ecfc-122">**識別碼類型** 您可以選取下列其中一項，以選取用來識別裝置的方法：</span><span class="sxs-lookup"><span data-stu-id="5ecfc-122">**Identifier type** You can select the method to use to identify the device by selecting one of the following:</span></span>
 
-  - <span data-ttu-id="802cf-123">**MAC 位址**</span><span class="sxs-lookup"><span data-stu-id="802cf-123">**MAC address**</span></span>
+  - <span data-ttu-id="5ecfc-123">**MAC 位址**</span><span class="sxs-lookup"><span data-stu-id="5ecfc-123">**MAC address**</span></span>
 
-  - <span data-ttu-id="802cf-124">**序號**</span><span class="sxs-lookup"><span data-stu-id="802cf-124">**Serial number**</span></span>
+  - <span data-ttu-id="5ecfc-124">**序號**</span><span class="sxs-lookup"><span data-stu-id="5ecfc-124">**Serial number**</span></span>
 
-- <span data-ttu-id="802cf-125">**唯一識別碼** 您可以輸入裝置的 MAC 位址或序號。</span><span class="sxs-lookup"><span data-stu-id="802cf-125">**Unique identifier** You can type the MAC address or serial number of the device.</span></span>
+- <span data-ttu-id="5ecfc-125">**唯一識別碼** 您可以輸入裝置的 MAC 位址或序號。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-125">**Unique identifier** You can type the MAC address or serial number of the device.</span></span>
 
-<span data-ttu-id="802cf-126">如需測試裝置的詳細資訊，請參閱 Operations 檔中的 [Add a Device To Test Update 功能性](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="802cf-126">For details about testing devices, see [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in the Operations documentation.</span></span>
-## <a name="see-also"></a><span data-ttu-id="802cf-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="802cf-127">See also</span></span>
+<span data-ttu-id="5ecfc-126">如需測試裝置的詳細資訊，請參閱 Operations 檔中的 [Add a Device To Test Update 功能性](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-device-to-test-update-functionality) 。</span><span class="sxs-lookup"><span data-stu-id="5ecfc-126">For details about testing devices, see [Add a Device to Test Update Functionality](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-device-to-test-update-functionality) in the Operations documentation.</span></span>
+## <a name="see-also"></a><span data-ttu-id="5ecfc-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5ecfc-127">See also</span></span>
 
-[<span data-ttu-id="802cf-128">測試裝置</span><span class="sxs-lookup"><span data-stu-id="802cf-128">Test Device</span></span>](test-device.md)
+[<span data-ttu-id="5ecfc-128">測試裝置</span><span class="sxs-lookup"><span data-stu-id="5ecfc-128">Test Device</span></span>](test-device.md)
 
-[<span data-ttu-id="802cf-129">新 CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="802cf-129">New-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[<span data-ttu-id="5ecfc-129">新 CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="5ecfc-129">New-CsTestDevice</span></span>](/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
-[<span data-ttu-id="802cf-130">CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="802cf-130">Set-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+[<span data-ttu-id="5ecfc-130">CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="5ecfc-130">Set-CsTestDevice</span></span>](/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
-[<span data-ttu-id="802cf-131">查看您組織中裝置的軟體更新</span><span class="sxs-lookup"><span data-stu-id="802cf-131">View Software Updates for Devices in Your Organization</span></span>](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[<span data-ttu-id="5ecfc-131">查看您組織中裝置的軟體更新</span><span class="sxs-lookup"><span data-stu-id="5ecfc-131">View Software Updates for Devices in Your Organization</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-view-software-updates-for-devices-in-your-organization)
