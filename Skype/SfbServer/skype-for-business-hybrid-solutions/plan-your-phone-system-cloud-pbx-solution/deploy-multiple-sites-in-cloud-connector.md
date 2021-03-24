@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 瞭解如何在雲端連接器 Edition 中部署多個 PSTN 網站。
-ms.openlocfilehash: 3c777c54690b1eb31671f71cff915f1bb4854a0d
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 059b9a39a082e876b1dd9cd772a235c384a29107
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358919"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098399"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在 Cloud Connector 中部署多個網站
 
 > [!Important] 
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 瞭解如何在雲端連接器 Edition 中部署多個 PSTN 網站。
   
@@ -84,20 +84,18 @@ ExternalMRPublicIPs=104.42.226.134
   
 |**類別**|**項目**|**具有高可用性的單一網站**|**多網站**|
 |:-----|:-----|:-----|:-----|
-|設定  <br/> |裝置主機名稱 <br/> |各裝置**不同** <br/> |各 PSTN 網站**不同** <br/> |
+|設定  <br/> |裝置主機名稱 <br/> |各裝置 **不同** <br/> |各 PSTN 網站 **不同** <br/> |
 |設定  <br/> |共用資料夾  <br/> |跨裝置需要 **相同** 的共用資料夾 <br/> |需要跨裝置使用 **不同** 的共用資料夾 <br/> |
 |設定  <br/> |VirtualMachineDomain  <br/> |需要跨裝置的 **相同** 網域 <br/> |需要跨 PSTN 網站的 **相同** 網域 <br/> |
-|設定  <br/> |SIPDomains  <br/> |跨裝置的功能變數名稱和順序應該**相同** <br/> |各 PSTN 網站的功能變數名稱和順序應該**相同** <br/> |
+|設定  <br/> |SIPDomains  <br/> |跨裝置的功能變數名稱和順序應該 **相同** <br/> |各 PSTN 網站的功能變數名稱和順序應該 **相同** <br/> |
 |設定  <br/> |網站名稱  <br/> |**相同** 跨裝置的網站名稱 <br/> |**不同** PSTN 網站上的網站名稱 <br/> |
-|設定  <br/> |伺服器名稱  <br/> |各裝置**不同** <br/> |各 PSTN 網站**不同** <br/> |
-|設定  <br/> |內部集區 Fqdn  <br/> |跨裝置**相同** <br/> |跨 PSTN 網站**相同** <br/> |
-|設定  <br/> |內部 Ip  <br/> |各裝置**不同** <br/> |各 PSTN 網站**不同** <br/> |
-|設定  <br/> |外部 FQDN  <br/> |跨裝置**相同** <br/> |各 PSTN 網站**不同** <br/> |
-|設定  <br/> |外部 Ip  <br/> |各裝置**不同** <br/> |各 PSTN 網站**不同** <br/> |
-|設定  <br/> |PSTN GW 設定  <br/> |跨裝置**相同** <br/> |各 PSTN 網站**不同** <br/> |
+|設定  <br/> |伺服器名稱  <br/> |各裝置 **不同** <br/> |各 PSTN 網站 **不同** <br/> |
+|設定  <br/> |內部集區 Fqdn  <br/> |跨裝置 **相同** <br/> |跨 PSTN 網站 **相同** <br/> |
+|設定  <br/> |內部 Ip  <br/> |各裝置 **不同** <br/> |各 PSTN 網站 **不同** <br/> |
+|設定  <br/> |外部 FQDN  <br/> |跨裝置 **相同** <br/> |各 PSTN 網站 **不同** <br/> |
+|設定  <br/> |外部 Ip  <br/> |各裝置 **不同** <br/> |各 PSTN 網站 **不同** <br/> |
+|設定  <br/> |PSTN GW 設定  <br/> |跨裝置 **相同** <br/> |各 PSTN 網站 **不同** <br/> |
 |設定  <br/> |DNS 記錄  <br/> |新增具有 **相同** 外部存取 fqdn 和 **不同** IP 位址的記錄 <br/> |使用 **不同** 的外部存取 fqdn 和 **不同** 的 IP 位址新增記錄 <br/> |
 |設定  <br/> |混合租使用者  <br/> |設定 HybridPSTNSite  <br/> 設定 PeerDestination 為 fallback  <br/> |設定 HybridPSTNSite  <br/> 設定 PeerDestination 為 fallback  <br/> |
 |設定  <br/> |閘道  <br/> |此網站中的 MS GW **M:N** 對應 <br/> |PSTN 閘道 (s) 在每個 PSTN 網站中應該只連接至相同網站的轉送伺服器 (s)   <br/> |
-|設定  <br/> |使用者  <br/> |設定 UserPSTNSettings  <br/> |設定 UserPSTNSettings  <br/> |
-   
-
+|設定  <br/> |User  <br/> |設定 UserPSTNSettings  <br/> |設定 UserPSTNSettings  <br/> |

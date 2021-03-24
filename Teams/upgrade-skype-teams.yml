@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: 規劃從商務用 Skype 升級至 Microsoft Teams
-summary: Microsoft Teams 是專為協助人員保持聯繫、順暢地共同作業，以及以安全且符合規範的方式簡化工作所設計，這一切都在一個地方完成。 您可以在這裡找到從商務用 Skype 成功升級至 Teams 的指引、訓練和資源。
+summary: Microsoft Teams 是專為協助人員保持連線、順暢地共同作業，以及以安全且規範的方式簡化工作所設計，這一切都在一個地方進行。 您可以在這裡找到從商務用 Skype 成功升級至 Teams 的指引、訓練和資源。
 brand: teams
 metadata:
   title: 規劃從商務用 Skype 升級至 Microsoft Teams
-  description: Microsoft Teams 是專為協助人員保持聯繫、順暢地共同作業，以及以安全且符合規範的方式簡化工作所設計，這一切都在一個地方完成。 您可以在這裡找到從商務用 Skype 成功升級至 Teams 的指引、訓練和資源。
+  description: Microsoft Teams 是專為協助人員保持連線、順暢地共同作業，以及以安全且規範的方式簡化工作所設計，這一切都在一個地方進行。 您可以在這裡找到從商務用 Skype 成功升級至 Teams 的指引、訓練和資源。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -22,84 +22,84 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 74cc8ce21951f3ec6aaca032f92cd1280392e992
-  ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+  ms.openlocfilehash: ffcafd40419de2c467370fed311ff94bd71bf04d
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/12/2021
-  ms.locfileid: "50196197"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51096057"
 highlightedContent:
   items:
   - title: 運用經過驗證的指引，成功升級
     itemType: how-to-guide
-    url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+    url: ./upgrade-framework.md
   - title: 註冊免費升級規劃研討會
     itemType: learn
-    url: https://aka.ms/upgradeworkshops
-  - title: 瞭解八&中黑色 Veatch 如何轉換到 Teams
+    url: ./upgrade-workshops-landing-page.yml
+  - title: 瞭解 Veatch &在八周內如何轉換至 Teams
     itemType: video
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
   title: 規劃 Teams 升級及更新成功的資源
   summary: 健康的技術環境、持續採用使用者，以及達成您的商業目標，都是從適當的規劃開始。
   items:
-  - title: Teams 升級案例
+  - title: Teams 升級故事
     imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
     links:
     - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
-      text: Dsm - 商務用 Skype Server to Teams
+      text: 王家 DSM – 商務用 Skype Server to Teams
     - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
-      text: 使用 使用 用 用 SKYPE – 將商務用 Skype Server 對 Teams
+      text: 2010 - 商務用 Skype Server 至 Teams
     - url: https://customers.microsoft.com/story/782385-williams-energy-teams
-      text: Teams – 商務用 Skype Server to Teams
+      text: Williams – 商務用 Skype Server to Teams
     - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
-      text: Teams – 商務用 Skype Online 到 Teams
+      text: Trek – 商務用 Skype Online 到 Teams
     - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
-      text: 讓 Aegis Network - 商務用 Skype Online 到 Teams
+      text: 達克蘇 Aegis 網路 – 商務用 Skype Online 至 Teams
     - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
-      text: Berkrkrk Healthcare – 商務用 Skype Online to Teams
+      text: 伯克郡醫療保健 – 商務用 Skype Online 至 Teams
   - title: 點出會話：設計 Teams 的路徑
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
-    summary: Ignite 2020 的此會話可協助找出最適合您商務用 Skype 的實現與目標的方法。
+    summary: 來自 Ignite 2020 的此會話可協助您找到最適合您商務用 Skype 的實現和目標的方法。
     url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: 升級成功套件
     imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
-    summary: 下載使用者就緒資料，包括通訊範本、使用者問卷，以及範例專案和試驗測試計劃。
+    summary: 下載使用者準備情況資料，包括通訊範本、使用者問卷，以及範例專案和試驗測試計劃。
     url: https://aka.ms/UpgradeSuccessKit
   - title: Teams 系統管理檔
     imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
-    summary: 瞭解如何推出及管理 Teams，並為使用者準備新的通訊和共同合作體驗。
-    url: https://docs.microsoft.com/MicrosoftTeams/
+    summary: 瞭解如何推出和管理 Teams，並為使用者準備新的通訊和共同合作體驗。
+    url: ./index.yml
   - title: 由講師帶領的 Teams 訓練
     imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
-    summary: 專為使用 Teams 而設計的免費、即時線上訓練課程，
-    url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+    summary: 免費、即時、線上訓練課程，專為使用 Teams 而設計。
+    url: ./instructor-led-training-teams-landing-page.yml
   - title: 展開 Teams 案例
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
-    summary: 我們的 Teams 粉筆課程線上研討會是專為協助 IT 專業人員從 Teams 中取得最大優點所設計。
-    url: http://aka.ms/TeamsChalkTalks
+    summary: 我們的 Teams 粉筆課程線上研討會是專為協助 IT 專業人員從 Teams 獲得最大説明所設計。
+    url: ./chalk-talks-landing-page.yml
   - title: 終止對商務用 Skype Online 的支援
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 準備在 2021 年 7 月 31 日結束商務用 Skype Online 服務，並瞭解如何規劃順利轉換至 Teams。
-    url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    summary: 準備于 2021 年 7 月 31 日結束商務用 Skype Online 服務，並瞭解如何規劃順利轉換至 Teams。
+    url: ./skype-for-business-online-retirement.md
   - title: Microsoft Teams 部落格
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
-    summary: 直接從 Microsoft Teams 背後的小組瞭解最佳做法、新訊和趨勢。
+    summary: 直接從 Microsoft Teams 背後的小組瞭解最佳做法、新聞和趨勢。
     url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
   - title: Teams 的總經濟影響
     imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
-    summary: 深入探討採用 Teams 後，員工和公司績效的改善情況之 For上er Research 報告。
+    summary: 深入瞭解 Forrester Research 報告，該報告會量化採用 Teams 後員工和公司績效的改善。
     url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
 additionalContent:
   sections:
   - title: 需要其他協助嗎？
   - items:
     - title: 使用 FastTrack 以尋求部署協助
-      summary: 當 Teams 部署專案需要更多參與的協助時，具有合格訂閱的客戶可以與 FastTrack 互動以取得支援。
+      summary: 當 Teams 部署專案需要更多參與協助時，具有合格訂閱的客戶可以與 FastTrack 互動以取得支援。
       url: https://www.microsoft.com/fasttrack
     - title: 尋找 Microsoft 合作夥伴
-      summary: 需要其他指引嗎？ Microsoft 解決方案提供者可協助管理升級的技術和物流。
+      summary: 需要其他指引嗎？ Microsoft 解決方案提供者可協助您管理升級的技術與物流。
       url: https://www.microsoft.com/solution-providers/home
     - title: Microsoft Teams 方案與價格
-      summary: 尋找適合您公司的 Microsoft Teams。
+      summary: 尋找適合您商務的 Microsoft Teams。
       url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options

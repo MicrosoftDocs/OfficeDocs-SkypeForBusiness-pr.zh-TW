@@ -1,5 +1,5 @@
 ---
-title: 土耳其的免付費撥號限制
+title: 土耳其免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解如何在土耳其撥免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
-ms.openlocfilehash: 0d69feb1b5a4496fef479260ebaa0f96febac6a3
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 瞭解在土耳其撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+ms.openlocfilehash: 4e082cf2ea2ae069960136c9ab9c13d52e35f44d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139722"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097619"
 ---
-# <a name="toll-free-dialing-restrictions-in-turkey"></a>土耳其的免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-turkey"></a>土耳其免付費撥號限制
 
-[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
+[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
 
 |**詳細資料**|**描述**|
 |:-----|:-----|
-|免費通話嗎？  <br/> |是  <br/> |
-|撥號格式（s）  <br/> |00 800 XXXX XXXXX  <br/> |
-|國家/地區 ISO 代碼  <br/> |TR  <br/> |
-|已覆蓋的島/地區  <br/> |不適用  <br/> |
-|未涵蓋的島/區域  <br/> |不適用  <br/> |
-|有線/固定線路可用性  <br/> | 是，但在超線上時除外。 <br/> |
+|免付費通話是否可用？  <br/> |是  <br/> |
+|撥號格式 ()   <br/> |00 800 XXXX XXXXX  <br/> |
+|國家/地區 ISO 代碼  <br/> |Tr  <br/> |
+|涵蓋的島嶼/地區  <br/> |不適用  <br/> |
+|未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
+|有線/固定線路可用性  <br/> | 是，除了來自 Super Online。 <br/> |
 |行動網路可用性  <br/> |否  <br/> |
-|批註、限制及存取問題  <br/> |無  <br/> |
+|批註、限制和存取問題  <br/> |無  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
   
- 

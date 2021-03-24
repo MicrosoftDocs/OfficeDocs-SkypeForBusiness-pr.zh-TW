@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要：在商務用 Skype Server 中設定雙因素驗證。
-ms.openlocfilehash: a7c5b4489b6b39e924a85c5e99796044d892c11f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8651be3fbc07bb890637bc8d1c7c99a827d1ea1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814413"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096819"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中設定雙因素驗證
 
@@ -30,7 +30,7 @@ ms.locfileid: "49814413"
 
 下列步驟說明如何設定企業根 CA 以支援智慧卡驗證：
 
-如需如何安裝企業根 CA 的詳細資訊，請參閱 [install a Enterprise Root 核證機關](https://go.microsoft.com/fwlink/p/?LinkID=313364)。
+如需如何安裝企業根 CA 的詳細資訊，請參閱 [install a Enterprise Root 核證機關](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))。
 
 1. 使用網域管理員帳戶登入 Enterprise CA 電腦。
 
@@ -116,7 +116,7 @@ ms.locfileid: "49814413"
 
 有兩種方法可供您登記智慧卡驗證的使用者。 較簡單的方法是讓使用者直接註冊使用 web 註冊的智慧卡驗證，而更複雜的方法則是使用註冊代理程式。 本主題著重于智慧卡憑證的自我註冊。
 
-如需以登錄代理程式名義註冊使用者的詳細資訊，請參閱 [代表其他使用者註冊憑證](https://go.microsoft.com/fwlink/p/?LinkID=313367)。
+如需以登錄代理程式名義註冊使用者的詳細資訊，請參閱 [代表其他使用者註冊憑證](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11))。
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>註冊使用者的智慧卡驗證
 
@@ -179,7 +179,7 @@ ms.locfileid: "49814413"
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>設定 Active Directory Federation Services (AD FS 2.0) 
 
-下列章節說明如何設定 Active Directory Federation Services (AD FS 2.0) 以支援多重要素驗證。 如需如何安裝 AD FS 2.0 的詳細資訊，請參閱 [AD fs 2.0 逐步和操作方法指南](https://go.microsoft.com/fwlink/p/?LinkId=313374)。
+下列章節說明如何設定 Active Directory Federation Services (AD FS 2.0) 以支援多重要素驗證。 如需如何安裝 AD FS 2.0 的詳細資訊，請參閱 [AD fs 2.0 逐步和操作方法指南](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))。
 
 > [!NOTE]
 > 安裝 AD FS 2.0 時，請勿使用 Windows Server 管理員來新增 Active Directory Federation Services 角色。 相反地，請下載並安裝 [Active Directory Federation Services 2.0 幫手 rtw 套件](https://go.microsoft.com/fwlink/p/?LinkId=313375)。

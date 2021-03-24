@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 表包含的資訊可指定是否 (和何時會自動從 CDR 資料庫中刪除) 過期的詳細通話記錄。 請注意，您也可以透過執行下列命令，在商務用 Skype Server 2015 中取得清除相關資訊：
-ms.openlocfilehash: c90c36dc91eaaac6fe38c6eea8e2a5617264e200
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2e834f64ca5500f8d8bab1d89fb263d2708fa60c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098659"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 表格
  
@@ -28,7 +28,7 @@ PurgeSettings 表包含的資訊可指定是否 (和何時會自動從 CDR 資�
 Get-CsCdrConfiguration
 ```
 
-管理員應該將 PurgeSettings 表格視為唯讀：只有在使用 [新的-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) 或 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 時，才應進行通話詳細資料清除設定的變更。
+管理員應該將 PurgeSettings 表格視為唯讀：只有在使用 [新的-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) 或 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 時，才應進行通話詳細資料清除設定的變更。
   
 此表格已引進 Microsoft Lync Server 2013。
   
@@ -39,5 +39,3 @@ Get-CsCdrConfiguration
 |**KeepCallDetailForDays** <br/> |int  <br/> ||會指定要從資料庫中清除之 CDR 記錄的保留天數)  (：如果啟用清除，則舊于此值以上的 CDR 記錄會從資料庫中移除。 預設值為 60 天。  <br/> |
 |**KeepErrorReportForDays** <br/> |int  <br/> ||指定要從資料庫中清除的錯誤報表記錄 (天數) ：若啟用清除功能，則會從資料庫中移除比此值還舊的錯誤報表記錄。 預設值為 60 天。  <br/> |
 |**PurgeHour** <br/> |int  <br/> ||指定要執行資料庫清除的時間。 時間是以 24 小時制指定，0 代表午夜 (上午 12:00)，而 23 則代表下午 11:00。 請注意，您僅能指定時間的時數：允許將值設為 10 (代表上午 10:00)，但不允許設為 10:30 的 10.5 (代表上午 10:30)。 預設值為 2 (2:00 AM)。  <br/> |
-   
-

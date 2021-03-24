@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: 為商務用 Skype Server 規劃行動的實施。
-ms.openlocfilehash: 6452154db1047cfe91a7c8ceaf6ee6c63b94ee6b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5c33c88d13dd3720d1526c1620f852fe176a9750
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810073"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096639"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>為商務用 Skype Server 規劃行動性
  
@@ -237,16 +237,16 @@ ms.locfileid: "49810073"
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>您是否要讓所有使用者都存取所有行動功能，或要指定可以存取這些功能的使用者嗎？
 
-我們有一個表格可協助所有使用者使用的部分功能，以及這些功能是否是以預設值設定。 如需完整清單，請參閱 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+我們有一個表格可協助所有使用者使用的部分功能，以及這些功能是否是以預設值設定。 如需完整清單，請參閱 [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
   
 > [!NOTE]
 > 所有這些功能的範圍為全域/網站/使用者。 
   
 |**功能**|**參數名稱**|**描述**|**預設設定**|
 |:-----|:-----|:-----|:-----|
-|啟用行動性  <br/> |EnableMobility  <br/> |控制已安裝商務用 Skype mobile 用戶端之指定範圍內的使用者。 若原則設定為 False，您的使用者將無法使用用戶端登入。  <br/> |是  <br/> |
-|外語音  <br/> |EnableOutsideVoice  <br/> |可讓使用者使用「來電」功能，讓使用者可以使用其公司電話號碼，而不是其行動電話號碼來傳送和接收通話。 如果將其設為 False，使用者在使用其公司電話號碼時，將無法在行動電話上撥打或接聽電話。  <br/> |是  <br/> |
-|啟用 IP 音訊和影片  <br/> |EnableIPAudioVideo  <br/> |設定為預設值，讓使用者可以使用 VoIP 在其行動裝置上撥打或接聽電話或視頻通話。 設為 False 時，您的使用者將無法使用行動裝置執行這兩項作業。  <br/> |是  <br/> |
+|啟用行動性  <br/> |EnableMobility  <br/> |控制已安裝商務用 Skype mobile 用戶端之指定範圍內的使用者。 若原則設定為 False，您的使用者將無法使用用戶端登入。  <br/> |對  <br/> |
+|外語音  <br/> |EnableOutsideVoice  <br/> |可讓使用者使用「來電」功能，讓使用者可以使用其公司電話號碼，而不是其行動電話號碼來傳送和接收通話。 如果將其設為 False，使用者在使用其公司電話號碼時，將無法在行動電話上撥打或接聽電話。  <br/> |對  <br/> |
+|啟用 IP 音訊和影片  <br/> |EnableIPAudioVideo  <br/> |設定為預設值，讓使用者可以使用 VoIP 在其行動裝置上撥打或接聽電話或視頻通話。 設為 False 時，您的使用者將無法使用行動裝置執行這兩項作業。  <br/> |對  <br/> |
 |需要 IP 音訊的 WiFi  <br/> |RequireWiFiForIPAudio  <br/> |定義用戶端是否需要在 WiFi 上使用 VoIP，而不是行動電話資料網路，來撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |False  <br/> |
 |需要 IP 影片的 WiFi  <br/> |RequireWiFiForIPVideo  <br/> |定義用戶端是否需要在 WiFi，而不是行動電話資料網路上撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |False  <br/> |
    
@@ -262,5 +262,3 @@ ms.locfileid: "49810073"
   
 > [!NOTE]
 > 想要使用 [按一下以加入] 的行動使用者需要語音原則，以及相關的 PSTN 使用方式記錄和語音路由，因為當他們在行動裝置上按一下該連結時，就會產生來自商務用 Skype 伺服器的撥出電話。 
-  
-

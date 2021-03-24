@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype 使用者的用戶端經驗。
-ms.openlocfilehash: 2125f911927bfe1aa8898c89c6ad70439186a8c0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1816ff9af6c8c6e28ca72420f843d224587b2c70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805953"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096007"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>使用商務用 Skype 2015 設定用戶端體驗
  
@@ -133,10 +133,10 @@ Lync
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端經驗**|
 |:-----|:-----|:-----|
 |商務用 Skype Server |預設  <br/> |商務用 Skype  <br/> |
-|商務用 Skype Server  |是  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server  |對  <br/> |商務用 Skype  <br/> |
 |商務用 Skype Server  |False  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。)   <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。)   <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |是  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |商務用 Skype  <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |False  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。)   <br/> |
 |不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者無法切換至商務用 Skype)   <br/> |
    
@@ -145,9 +145,9 @@ Lync
 
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端 UI = Lync**|**用戶端 UI = 商務用 Skype**|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype Server |是  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
 |商務用 Skype Server |False  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |是  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |False  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
 |不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |Lync 模式 (無法切換至商務用 Skype)   <br/> |Lync 模式 (無法切換至商務用 Skype)   <br/> |
    
@@ -167,7 +167,7 @@ Lync
 
 1. 啟動 [ **群組原則管理主控台**]。
     
-    如需如何使用「群組原則管理主控台」的詳細資訊，請參閱 [群組原則管理主控台](https://go.microsoft.com/fwlink/?LinkId=532759)。
+    如需如何使用「群組原則管理主控台」的詳細資訊，請參閱 [群組原則管理主控台](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11))。
     
 2. 在 [ **群組原則物件** ] 節點上按一下滑鼠右鍵，然後在功能表上選取 [ **新增** ]。
     
@@ -216,5 +216,3 @@ gpupdate /target:user
     您應該會看到 "指派的群組原則物件"，具有您在下方所建立的 GPO 名稱。
     
 您也可以檢查登錄，以確認 GPO 是否已成功更新使用者電腦上的登錄。 開啟 [登錄編輯程式]，然後流覽至 **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** 機碼。 如果 GPO 成功更新登錄，您將會看到名為 EnableSkypeUI 的值，其值為0。
-  
-

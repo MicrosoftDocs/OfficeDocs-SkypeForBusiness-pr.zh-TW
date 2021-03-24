@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在規劃整合商務用 Skype Server 與 Exchange 2013 或2016時，請參閱本主題。
-ms.openlocfilehash: 1ae93ebeda07fccf6c9019d5bb78c63f7c722192
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 95df4d0fa9d2a57385c5dd61c95bc07c07a8fa7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810113"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096659"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>在商務用 Skype 中規劃 Exchange 整合通訊整合
 
@@ -54,7 +54,7 @@ ms.locfileid: "49810113"
 
 - **自動** 語音應答自動語音應答是一種 Exchange UM 功能，可用來設定使用者可以撥出的電話號碼，以到達公司代表。 特別是，它提供了一系列的語音提示，可協助外部來電者瀏覽功能表系統。 [可用選項] 清單是由 Exchange um 管理員在 Exchange UM 伺服器上設定。
 
-- **傳真服務** Exchange UM 包含傳真功能，可讓使用者在其 Exchange 信箱中接收傳入的傳真。 如需詳細資訊，請參閱 Microsoft Exchange Server 檔中的 [整合通訊](https://go.microsoft.com/fwlink/p/?linkId=135652) 。
+- **傳真服務** Exchange UM 包含傳真功能，可讓使用者在其 Exchange 信箱中接收傳入的傳真。 如需詳細資訊，請參閱 Microsoft Exchange Server 檔中的 [整合通訊](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) 。
 
     > [!NOTE]
     > Exchange UM 伺服器所提供的傳真服務無法在商務用 Skype Server 中使用，這些部署是與 Microsoft Exchange Server 2010、Exchange 2010 搭配最新 service pack、Exchange 2013 或 Exchange 2016 整合。
@@ -65,7 +65,7 @@ ms.locfileid: "49810113"
 
 若要提供 Exchange UM 功能和服務中所述的整合式整合 [通訊和商務用 Skype Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) 至組織中的 Enterprise Voice 使用者，您必須部署 Microsoft Exchange 信箱伺服器和用戶端存取伺服器，該伺服器主控使用者信箱，並提供電子郵件及語音信箱的單一存放位置。 Exchange UM 在 Exchange 信箱和用戶端存取伺服器上以服務的身分執行。
 
-如需 Microsoft Exchange Server 2010 中 Exchange UM 元件的詳細資訊，請參閱 [部署 On-Premises EXCHANGE UM，以提供 Lync Server 2013 預覽語音信箱](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) 。
+如需 Microsoft Exchange Server 2010 中 Exchange UM 元件的詳細資訊，請參閱 [部署 On-Premises EXCHANGE UM，以提供 Lync Server 2013 預覽語音信箱](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) 。
 
 ### <a name="supported-topologies"></a>支援的拓撲
 
@@ -130,13 +130,13 @@ ms.locfileid: "49810113"
 
 在範例 2 中，於正常運作情況下，Tukwila 資料中心內的 Exchange UM 伺服器 1 和伺服器 2 均已啟用；Dublin 資料中心內的 Exchange UM 伺服器 3 和伺服器 4 均已啟用。這四部伺服器均包含在 Tukwila 使用者的 SIP URI 撥號對應表中，不過伺服器 3 和 4 均已停用。當 Tukwila 的 Exchange UM 伺服器發生如停止運作等的情況時，應停用 Exchange UM 伺服器 1 和 2 並啟用 Exchange UM 伺服器 3 和 4，以將 Tukwila Exchange UM 的流量路由傳送至 Dublin 的伺服器。
 
-如需如何在 Exchange 2013 上啟用或停用整合通訊的詳細資訊，請參閱將  [exchange 2013 UM 與 Lync Server 整合](https://go.microsoft.com/fwlink/p/?LinkId=265372)。 提供的資訊同樣適用于商務用 Skype Server。
+如需如何在 Exchange 2013 上啟用或停用整合通訊的詳細資訊，請參閱將  [exchange 2013 UM 與 Lync Server 整合](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help)。 提供的資訊同樣適用于商務用 Skype Server。
 
 如需如何在 Microsoft Exchange Server 2010 上啟用或停用整合通訊的詳細資訊，請參閱：
 
-- [在 Exchange 2010 上啟用整合通訊](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [在 Exchange 2010 上啟用整合通訊](/previous-versions/office/exchange-server-2010/aa997908(v=exchg.141))
 
-- [停用 Exchange 2010 的整合通訊](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [停用 Exchange 2010 的整合通訊](/previous-versions/office/exchange-server-2010/bb123529(v=exchg.141))
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 

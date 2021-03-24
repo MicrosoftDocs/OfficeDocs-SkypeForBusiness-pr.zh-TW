@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: 針對 [中繼伺服器]，您可以指定下列內容：
-ms.openlocfilehash: b3b22cfbe4b85a237dfffbce1c22da3abde75f57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e3593fd98c9207b6dd7033e5aac26170988ae956
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819503"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096899"
 ---
 # <a name="mediation-service-settings-expander"></a>中繼服務設定展開工具
 
@@ -34,6 +34,4 @@ ms.locfileid: "49819503"
 
 如果您有多個閘道與中繼伺服器相關聯，則第一個關聯的閘道將是預設閘道。如果需要選擇另一個閘道作為預設閘道，請選取您要作為預設的閘道，然後按一下 [成為預設]。若要取消成為預設的閘道，請按一下 [取消預設]。
 
-如需定義及設定 Enterprise Edition 前端集區或 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 及 [部署轉送伺服器及定義對等](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
-
-
+如需定義及設定 Enterprise Edition 前端集區或 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) 及 [部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。

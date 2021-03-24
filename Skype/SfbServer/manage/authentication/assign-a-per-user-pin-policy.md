@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：為商務用 Skype Server 階段 AV 和 OAuth 憑證。
-ms.openlocfilehash: 6a0d0a1824e809a70dfee419fb5da1f663d8d779
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a5cd533dccffb878fad7d7562ded3da301fc0ce3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828523"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096829"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中指派每個使用者的 PIN 原則
 
@@ -92,7 +92,7 @@ ms.locfileid: "49828523"
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>將每一使用者 PIN 原則指派給多個使用者
 
-- 下列命令會將個別使用者 PIN 原則 RedmondUsersPinPolicy 指派給 Redmond 的城市中所有工作的使用者。 如需此命令中使用之 LdapFilter 參數的詳細資訊，請參閱 [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)。
+- 下列命令會將個別使用者 PIN 原則 RedmondUsersPinPolicy 指派給 Redmond 的城市中所有工作的使用者。 如需此命令中使用之 LdapFilter 參數的詳細資訊，請參閱 [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps)。
     
   ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -106,7 +106,7 @@ ms.locfileid: "49828523"
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-如需詳細資訊，請參閱 [授與 get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
+如需詳細資訊，請參閱 [授與 get-cspinpolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
   
 ## <a name="see-also"></a>另請參閱
 

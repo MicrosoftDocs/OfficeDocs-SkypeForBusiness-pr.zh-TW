@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 從 Slack 移轉到 Microsoft Teams 的完全指引。
-ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030639"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098359"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>從 Slack 移轉到 Microsoft Teams
 
@@ -89,7 +89,7 @@ Slack 中的應用程式就如同 Teams 中的應用程式。 當您在工作區
 
 如果您使用付費的 Slack 服務方案，您可以移至 *<your Slack workspace>.slack.com/admin/stats#members* 以取得成員詳細資料，例如每位使用者的電子郵件地址和帳戶類型 (如單一與多頻道來賓)。
 
-以下是您可以用來比較來自 Slack 匯出和 Azure AD 電子郵件地址的指令碼，以協助解決名稱模稜兩可的情形。 如果啟用 Teams 時也會報告。 如果您需要 PowerShell 的說明，請參閱[開始使用 Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps)。
+以下是您可以用來比較來自 Slack 匯出和 Azure AD 電子郵件地址的指令碼，以協助解決名稱模稜兩可的情形。 如果啟用 Teams 時也會報告。 如果您需要 PowerShell 的說明，請參閱[開始使用 Azure PowerShell](/powershell/azure/get-started-azureps)。
 
 ```azurepowershell
 Connect-AzureAD
@@ -212,7 +212,7 @@ Slack 工作區可以代表單一團隊、多個團隊或整個組織。 當您�
 
 針對儲存在 Slack 中的檔案，一旦您設定好 Teams 中的團隊和頻道，可以以程式設計的方式由 Slack 將其複製到目標的 Teams 頻道。
 
-以下指令碼從 Slack 擷取檔案。 它會在您的電腦上搜尋特定的 Slack 匯出，在每個目標頻道中建立資料夾，並將所有檔案下載到該位置。 現有協力廠商解決方案可以解壓縮資料。 如果您需要 PowerShell 的說明，請參閱[開始使用 Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps)。
+以下指令碼從 Slack 擷取檔案。 它會在您的電腦上搜尋特定的 Slack 匯出，在每個目標頻道中建立資料夾，並將所有檔案下載到該位置。 現有協力廠商解決方案可以解壓縮資料。 如果您需要 PowerShell 的說明，請參閱[開始使用 Azure PowerShell](/powershell/azure/get-started-azureps)。
 
 
 
@@ -361,7 +361,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 
 一旦建立好團隊和頻道之後，開始將檔案從 Slack 頻道複製到 Teams，並設定您的應用程式。 如果您使用解決方案來保留歷程記錄，也可以立即設定。 然後您可以開始授權使用者 (如果他們尚未取得授權)，並將他們新增至適當的團隊。 若要減少額外匯出和檔案複製的需求，請考慮在每個使用者加入團隊同時的商定日期移除 Slack 存取權。 這樣就可避免檔案和歷程記錄上之重新匯出和匯入的差異變更。
 
-按照下列圖表中的步驟在貴組織中推出 Teams。 如需詳細資訊，請參閱[如何推出 Teams](How-to-roll-out-teams.md)。
+按照下列圖表中的步驟在貴組織中推出 Teams。 如需詳細資訊，請參閱[如何推出 Teams](./deploy-overview.md)。
 
 
 :::image type="content" source="media/migrate-slack-to-teams-image4.png" alt-text="圖表列出了從 Slack 移至 Teams 的步驟。":::

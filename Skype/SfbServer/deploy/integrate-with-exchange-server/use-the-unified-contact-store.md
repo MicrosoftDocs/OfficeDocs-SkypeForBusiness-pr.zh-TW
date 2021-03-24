@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要：設定 Exchange Server 和商務用 Skype 伺服器的整合連絡人存放區。
-ms.openlocfilehash: 4b96a0c4f3294146c987794ffce083c46d94bb48
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9d9601e7a060b6d93a27e872bf05f798d470aa85
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833863"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095987"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>設定商務用 Skype 伺服器以使用整合連絡人存放區
  
@@ -58,7 +58,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 
 指派原則之後，商務用 Skype 伺服器就會開始將使用者的連絡人遷移至整合連絡人存放區。 遷移完成後，使用者將會在 Exchange 中儲存其連絡人，而不是商務用 Skype Server。 若使用者在遷移完成時登入 Lync 2013，將會出現一個訊息方塊，而要求他或她會登入商務用 Skype，然後重新登入，以完成此程式。 尚未被指派此個別使用者原則的使用者，將不會將其連絡人遷移至整合連絡人存放區。 這是因為這些使用者是由全域原則所管理，且已在全域原則中停用統一連絡人存放區。
   
-您可以從商務用 Skype Server 管理命令介面中執行 [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) Cmdlet，以確認使用者的連絡人是否已順利遷移至整合連絡人存放區：
+您可以從商務用 Skype Server 管理命令介面中執行 [Test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) Cmdlet，以確認使用者的連絡人是否已順利遷移至整合連絡人存放區：
   
 ```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
@@ -87,7 +87,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
   
 在處理整合連絡人存放區時，須牢記「防止 Ken 的連絡人移轉至整合連絡人存放區」這個術語。 單單將新的使用者服務原則指派給 Ken 並不會將其連絡人從整合連絡人存放區移出。 當使用者登入商務用 Skype 伺服器時，系統會檢查使用者的使用者服務原則，以查看其連絡人是否應該保留在統一連絡人存放區中。 如果結果為肯定 (也就是說，如果 UcsAllowed 屬性設為 $True)，那些連絡人就會移轉至整合連絡人存放區 (假設那些連絡人尚未存放在整合連絡人存放區)。 如果答案是 [否]，則商務用 Skype 伺服器只會略過使用者的連絡人，然後移至下一個工作。 這表示商務用 Skype 伺服器不會自動將使用者的連絡人從統一連絡人存放區移出，不論 UcsAllowed 屬性的值為何。
   
-這也表示，在指派使用者新的使用者服務原則之後，您必須執行 [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) 指令程式，以便將使用者的連絡人移出 Exchange Server 並回到商務用 Skype 伺服器。 例如，在將新的使用者服務原則指派給 Ken Myer 之後，您就可以使用下列命令將其連絡人移出整合連絡人存放區：
+這也表示，在指派使用者新的使用者服務原則之後，您必須執行 [Invoke-CsUcsRollback](/powershell/module/skype/invoke-csucsrollback?view=skype-ps) 指令程式，以便將使用者的連絡人移出 Exchange Server 並回到商務用 Skype 伺服器。 例如，在將新的使用者服務原則指派給 Ken Myer 之後，您就可以使用下列命令將其連絡人移出整合連絡人存放區：
   
 ```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
@@ -96,5 +96,3 @@ Invoke-CsUcsRollback -Identity "Ken Myer"
 果您變更使用者服務原則，但是未執行 Invoke-CsUcsRollback Cmdlet，Ken 的連絡人就不會從整合連絡人存放區移除。 如果您執行 Invoke-CsUcsRollback，但未變更 Ken Myer 的使用者服務原則，會有什麼結果呢？ 在這種情況下，Ken 的連絡人會暫時從整合連絡人存放區中遭移除。 您務必牢記此移除作業為暫時性的。 當 Ken 的連絡人從整合連絡人存放區中移除之後，商務用 Skype 伺服器會等候7天，然後查看已指派給 Ken 的使用者服務原則。 如果指派給 Ken 的原則仍然可啟用整合來連絡人存放區，其連絡人就會自動移回連絡人存放區。 若要將連絡人從整合連絡人存放區永久移除，除了執行 Invoke-CsUcsRollback Cmdlet 之外，您還必須變更使用者服務原。
   
 由於大量可影響遷移的變數，因此很難估計帳戶完全遷移至整合連絡人存放區之前所需的時間。 不過，作為一般規則，遷移不會立即生效：即使遷移少量的連絡人，移動作業完成後，可能需要10分鐘或更多時間。
-  
-

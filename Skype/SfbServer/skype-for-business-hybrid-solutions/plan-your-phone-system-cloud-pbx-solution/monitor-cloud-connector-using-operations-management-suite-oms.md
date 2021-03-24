@@ -13,25 +13,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 閱讀此主題以瞭解如何使用 Microsoft Operations Management Suite (OMS) 來監視您的雲端連接器版本2.1 和更新版本。
-ms.openlocfilehash: eca2f56bf564e376717a42bd8d297710905f8dc6
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 55685aae01bdcc3c7c979627dbba910bb33203fa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359089"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098539"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 監控 Cloud Connector
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 閱讀此主題以瞭解如何使用 Microsoft Operations Management Suite (OMS) 來監視您的雲端連接器版本2.1 和更新版本。
 
-您現在可以使用 Operations Management Suite (OMS) Microsoft 雲端 IT 管理解決方案，監視您的雲端連接器版本2.1 和更新版本的部署。 OMS 記錄分析可讓您監視及分析資源的可用性和效能（包括實體和虛擬機器）。 如需 OMS 和記錄分析的詳細資訊，請參閱 [什麼是 Operations Management Suite (OMS) ？](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
+您現在可以使用 Operations Management Suite (OMS) Microsoft 雲端 IT 管理解決方案，監視您的雲端連接器版本2.1 和更新版本的部署。 OMS 記錄分析可讓您監視及分析資源的可用性和效能（包括實體和虛擬機器）。 如需 OMS 和記錄分析的詳細資訊，請參閱 [什麼是 Operations Management Suite (OMS) ？](/azure/operations-management-suite/operations-management-suite-overview)
 
 本主題包含下列各節：
 
-- 必要條件
+- 先決條件
 
 - 設定 Cloud Connector 以使用 OMS
 
@@ -41,15 +41,15 @@ ms.locfileid: "47359089"
 
 - 建議的監控集
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
 您必須先具備下列各項，您才能使用 OMS 來監視您的雲端連接器部署：
 
-- **Azure 帳戶和 OMS 工作區。** 如果您尚無 Azure 帳戶，您必須建立一個，以使用 OMS 記錄分析。 如需如何建立 Azure 帳戶及設定 OMS 工作區的詳細資訊，請參閱 [開始使用 Log Analytics 工作區](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started)。
+- **Azure 帳戶和 OMS 工作區。** 如果您尚無 Azure 帳戶，您必須建立一個，以使用 OMS 記錄分析。 如需如何建立 Azure 帳戶及設定 OMS 工作區的詳細資訊，請參閱 [開始使用 Log Analytics 工作區](/azure/log-analytics/log-analytics-get-started)。
 
 - **雲端連接器版本2.1 或更新版本**
 
-- 需要記錄分析-雲端連接器監控需要**新的記錄搜尋**。 如需詳細資訊，請參閱 [Upgrade a Azure Log Analytics workspace to new Log search](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade)。
+- 需要記錄分析-雲端連接器監控需要 **新的記錄搜尋**。 如需詳細資訊，請參閱 [Upgrade a Azure Log Analytics workspace to new Log search](/azure/log-analytics/log-analytics-log-search-upgrade)。
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>設定 Cloud Connector 以使用 OMS
 
@@ -59,13 +59,13 @@ ms.locfileid: "47359089"
 
 如何設定 Cloud Connector 以使用 OMS 取決於您的案例：
 
-- 若要**安裝新的雲端連接器裝置，或想要重新部署裝置**，請在執行 CcAppliance 之前，先遵循下列步驟：
+- 若要 **安裝新的雲端連接器裝置，或想要重新部署裝置**，請在執行 CcAppliance 之前，先遵循下列步驟：
 
     1. 在 [CloudConnector.ini 檔案 [通用] 區段中，將 OMSEnabled 參數設定為 True。
 
         每次部署或升級 Cloud Connector 時，它都會嘗試將 OMS 代理程式自動安裝至 Vm。 啟用這項功能，使 OMS 代理程式可以繼續使用雲端連接器自動更新。
 
-    2. 若要設定 OMS 識別碼和機碼，請執行 CcCredential-AccountType OMSWorkspace。 
+    2. 若要設定 OMS 識別碼和機碼，請執行 Set-CcCredential-AccountType OMSWorkspace。 
 
 - **若要在現有的雲端連接器裝置上安裝 OMS 代理程式**，請遵循下列步驟：
 
@@ -80,7 +80,7 @@ ms.locfileid: "47359089"
 
 - **如果您想要更新 Cloud Connector 裝置中已安裝 OMS 代理程式的 OMS 工作區識別碼或機碼，請執行下列動作：**
 
-    1. 若要設定 OMS 識別碼和機碼，請執行 CcCredential-AccountType OMSWorkspace。 
+    1. 若要設定 OMS 識別碼和機碼，請執行 Set-CcCredential-AccountType OMSWorkspace。 
 
     2. 若要套用更新，請執行 CcOMSAgent 安裝程式。 
 
@@ -109,7 +109,7 @@ ms.locfileid: "47359089"
      > [!NOTE]
      > 您必須在文字方塊中手動輸入 Lync Server。 它不會出現在下拉式清單中的選項。 
 
-     如需詳細資訊，請參閱 [記錄分析中的 Windows 事件記錄檔資料來源](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+     如需詳細資訊，請參閱 [記錄分析中的 Windows 事件記錄檔資料來源](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. 移至 [設定]-[ \> 資料- \> Windows 效能計數器]，然後新增下列專案的效能計數器： 
 
@@ -132,11 +132,11 @@ ms.locfileid: "47359089"
      > [!NOTE]
      > 您必須在文字方塊中手動輸入效能計數器。 它們不會顯示為下拉式清單中的選項。 
 
-     如需詳細資訊，請參閱 [記錄分析中的 Windows 和 Linux 效能資料來源](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     如需詳細資訊，請參閱 [記錄分析中的 Windows 和 Linux 效能資料來源](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>建立提醒
 
-OMS 中有兩種警示類型： [結果] 警示和 [衡量度量值] 警示的數目。 如需建立提醒的詳細資訊，請參閱使用 [記錄分析中的警示規則](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating)。
+OMS 中有兩種警示類型： [結果] 警示和 [衡量度量值] 警示的數目。 如需建立提醒的詳細資訊，請參閱使用 [記錄分析中的警示規則](/azure/log-analytics/log-analytics-alerts-creating)。
 
 建立提醒時，您應該考慮下列事項：
 
@@ -164,7 +164,7 @@ OMS 中有兩種警示類型： [結果] 警示和 [衡量度量值] 警示的�
 
     查詢使用電腦  *包含 "MediationServer"*  的電腦篩選。 篩選器只會選取其名稱中包含字串 "MediationServer" 的電腦。
 
-     您可以將篩選取代為您自己的電腦篩選，也可以只加以移除。 您可以建立沒有正則運算式的複雜字串篩選。 如需詳細資訊，請參閱 [String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)。 您也可以選擇使用正則運算式。 此外，您可以儲存搜尋查詢，並使用該群組做為提醒查詢中的電腦篩選，以建立電腦群組。 如需詳細資訊，請參閱 [Log Analytics 記錄搜尋中的電腦群組](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups)。
+     您可以將篩選取代為您自己的電腦篩選，也可以只加以移除。 您可以建立沒有正則運算式的複雜字串篩選。 如需詳細資訊，請參閱 [String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)。 您也可以選擇使用正則運算式。 此外，您可以儲存搜尋查詢，並使用該群組做為提醒查詢中的電腦篩選，以建立電腦群組。 如需詳細資訊，請參閱 [Log Analytics 記錄搜尋中的電腦群組](/azure/log-analytics/log-analytics-computer-groups)。
 
     在每一部電腦上，錯誤查詢都會取得 RTCMEDSRV 服務啟動和服務停止的最後一個事件記錄檔。 如果最後一個事件是服務停止事件，它會傳回一個記錄，否則會傳回一個記錄。如果最後一個事件是服務啟動事件，它會傳回 nothing。 簡而言之，查詢會傳回 RTCMEDSRV 已停止在時間範圍內的伺服器清單。 
 
@@ -208,7 +208,7 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>分析 Log Analytics 存放庫中的警示
 
-若要分析存放庫中的警示，請使用警示管理解決方案。 如需詳細資訊，請參閱 [Operations Management Suite 中的警示管理解決方案 (OMS) ](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
+若要分析存放庫中的警示，請使用警示管理解決方案。 如需詳細資訊，請參閱 [Operations Management Suite 中的警示管理解決方案 (OMS) ](/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>建議的最小監控集
 
@@ -250,12 +250,10 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 如需使用 OMS 的詳細資訊，請參閱下列各項：
 
-- [在記錄分析中使用記錄搜尋來尋找資料](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
+- [在記錄分析中使用記錄搜尋來尋找資料](/azure/log-analytics/log-analytics-log-searches)
 
 - [Azure 記錄分析語言參考](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [瞭解記錄分析中的警示](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
+- [瞭解記錄分析中的警示](/azure/log-analytics/log-analytics-alerts)
 
-- [將 Windows 電腦連線到 Azure 中的 Log Analytics 服務](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
-
-
+- [將 Windows 電腦連線到 Azure 中的 Log Analytics 服務](/azure/log-analytics/log-analytics-windows-agents)

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何針對 Windows 上的 Teams 桌面用戶端應用程式進行安裝和更新問題的疑難排解。
-ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 283b1818789624428aa772a4d71360a07eed6f00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804553"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097549"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解
 
@@ -67,7 +67,7 @@ Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移�
 
 ## <a name="collect-and-analyze-application-and-system-logs"></a>收集和分析應用程式記錄與系統記錄
 
-本節將說明如何收集和分析應用程式記錄與系統記錄，以便取得更全面的資訊來進行疑難排解。 您可以使用 Sysinternals 工具來完成這些步驟。 若要深入了解，請參閱 [Windows Sysinternals](https://docs.microsoft.com/sysinternals/)。
+本節將說明如何收集和分析應用程式記錄與系統記錄，以便取得更全面的資訊來進行疑難排解。 您可以使用 Sysinternals 工具來完成這些步驟。 若要深入了解，請參閱 [Windows Sysinternals](/sysinternals/)。
 
 ### <a name="collect-logs"></a>收集記錄
 
@@ -123,7 +123,7 @@ Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移�
 - 若要確認這就是您遇到的問題，請結束 Teams (在工作列上以右鍵按一下 Teams，然後按一下 [結束])。 然後在 Windows 中開啟工作管理員，查看 Teams 執行個體是否仍在執行。  
 - 如果您不在發生此問題的電腦上，請檢查發生此問題的電腦收集的 SquirrelTemp.log，並尋找 "Program: Unable to terminate the process in the log" (程式: 無法終止記錄中的處理程序) 項目。
 - 若要判斷導致 Teams 無法結束的原因，請查看 Dll.txt 和 Handles.txt 記錄。 這些記錄會告訴您導致 Teams 無法結束的處理程序。
-- 導致 Teams 無法結束的另一個可能原因是核心模式檔案系統篩選器驅動程式。 您可以使用 SysInternals 工具 [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump)，執行 ```procdump -mk <pid>``` (其中 <pid> 是從工作管理員取得的處理程序識別碼) 收集核心模式處理程序傾印。 您也可以檢查 Driverquery.txt 記錄檔，查看可能干擾 Teams 的作用中篩選器驅動程式。
+- 導致 Teams 無法結束的另一個可能原因是核心模式檔案系統篩選器驅動程式。 您可以使用 SysInternals 工具 [ProcDump](/sysinternals/downloads/procdump)，執行 ```procdump -mk <pid>``` (其中 <pid> 是從工作管理員取得的處理程序識別碼) 收集核心模式處理程序傾印。 您也可以檢查 Driverquery.txt 記錄檔，查看可能干擾 Teams 的作用中篩選器驅動程式。
 - 若要從此狀態復原，請重新啟動電腦。
 
 #### <a name="file-permissions"></a>檔案權限
@@ -141,17 +141,17 @@ Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移�
 疑難排解提示：
 
 - 在 SquirrelTemp.log 或 Logs.txt 中尋找 "access denied" (拒絕存取) 的證據。 檢查這些檔案，查看是否曾經嘗試寫入檔案但失敗。
-- 開啟 Icacls,txt，尋找由非系統管理員的使用者封鎖寫入作業的有效存取控制項目 (ACE)。這通常會在其中一個 DACL 項目中。 如需詳細資訊，請參閱 [icacls 文件](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls)。
+- 開啟 Icacls,txt，尋找由非系統管理員的使用者封鎖寫入作業的有效存取控制項目 (ACE)。這通常會在其中一個 DACL 項目中。 如需詳細資訊，請參閱 [icacls 文件](/windows-server/administration/windows-commands/icacls)。
 
 #### <a name="file-corrupted"></a>檔案損毀
 
 在某些情況下，加密軟體可以變更 %LocalAppData%\Microsoft\Teams 資料夾中的檔案，這可能會導致 Teams 無法啟動。 即使應用程式沒有更新，也可能會發生這個問題。 不幸的是，當檔案損毀時，從此狀態復原的唯一方法是解除安裝 Teams 後再重新安裝。
 
 > [!NOTE]
-> 如果您無法使用上述任何步驟判斷問題的根源，您可以嘗試使用 [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) 工作階段。 Process Monitor 是一種 Sysinternals 工具，可記錄對登錄和檔案系統的存取。
+> 如果您無法使用上述任何步驟判斷問題的根源，您可以嘗試使用 [Process Monitor](/sysinternals/downloads/procmon) 工作階段。 Process Monitor 是一種 Sysinternals 工具，可記錄對登錄和檔案系統的存取。
 
 ## <a name="related-topics"></a>相關主題
 
 - [取得 Teams 用戶端](get-clients.md)
 - [Teams 用戶端更新](teams-client-update.md)
-- [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)

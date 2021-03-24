@@ -1,5 +1,5 @@
 ---
-title: 埃及式免付費撥號限制
+title: 埃及免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解如何在埃及中撥打免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
-ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: 瞭解在埃及撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130664"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098139"
 ---
-# <a name="toll-free-dialing-restrictions-in-egypt"></a>埃及式免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-egypt"></a>埃及免付費撥號限制
 
-[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
+[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
 
 |**詳細資料**|**描述**|
 |:-----|:-----|
-|免費通話嗎？  <br/> |否  <br/> |
-| (s) 撥號格式  <br/> |0800-XXX-XXXX  <br/> |
-|國家/地區 ISO 代碼  <br/> |例如  <br/> |
-|已覆蓋的島/地區  <br/> |不適用  <br/> |
-|未涵蓋的島/區域  <br/> |不適用  <br/> |
-|有線/固定線路可用性  <br/> |僅從電信的埃及。  <br/> |
+|免付費通話是否可用？  <br/> |否  <br/> |
+|撥號格式 ()   <br/> |0800-XXX-XXXX  <br/> |
+|國家/地區 ISO 代碼  <br/> |EG  <br/> |
+|涵蓋的島嶼/地區  <br/> |不適用  <br/> |
+|未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
+|有線/固定線路可用性  <br/> |僅從埃及電信。  <br/> |
 |行動網路可用性  <br/> |否  <br/> |
-|批註、限制及存取問題  <br/> |無  <br/> |
+|批註、限制和存取問題  <br/> |無  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
   
- 

@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 閱讀此主題以瞭解如何規劃雲端連接器 Edition PSTN 網站，以確保有效且經濟划算的呼叫路由。
-ms.openlocfilehash: 3b4320e12a87c771e28fce445102327c7783a5d2
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: b42f9109a52b5c30996abc3e42ef4ff0aa5f31dc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358799"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096227"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>規劃 Cloud Connector Edition PSTN 網站
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
  
 閱讀此主題以瞭解如何規劃雲端連接器 Edition PSTN 網站，以確保有效且經濟划算的呼叫路由。
   
@@ -83,5 +83,3 @@ ms.locfileid: "47358799"
     因此，即使來電來自載波 A，Centralia 區號360中的電信公司的呼叫路由軟體可能會拒絕來自 Bellevue 區功能變數代碼425中使用者 B 的傳入緊急通話。 在此情況下，電信公司請務必確認 Centralia PSTN 網站中的雲端連接器和其相關聯的主幹可以跨距離和地區碼處理呼叫。
     
 - 中的使用者 D 使用由載體 B 所提供的號碼和主幹，因此，載體 B 不太可能會從電信公司 A 所擁有的電話號碼進行緊急通話。因此，使用者 D 和主幹中的雲端連接器裝置和關聯的必須位於不同的 PSTN 網站。
-    
-

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: 9cef4ae8075bf4982ab9c3ddd857062d4fa1a824
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 49837269f81eaee09a0c191008234345d1d6d19f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711730"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097049"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未指派電話號碼：建立新的或編輯現有
 
@@ -59,6 +59,4 @@ ms.locfileid: "50711730"
 
   - **自動語音應答電話號碼** 選取 Exchange UM 自動語音應答的電話號碼。
 
-如需公告功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype 中規劃宣告應用程式](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)＞。
-
-
+如需公告功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype 中規劃宣告應用程式](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)＞。

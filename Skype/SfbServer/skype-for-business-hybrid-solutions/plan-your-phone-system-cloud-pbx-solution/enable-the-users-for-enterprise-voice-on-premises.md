@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 若要讓使用者 (Cloud PBX) ，您必須先啟用企業語音，並為其指定電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
-ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: b26e51ba316c63e0f992b843a7763586d7e9b575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359189"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098589"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>為使用者啟用企業語音-內部部署
  
 若要讓使用者 (Cloud PBX) ，您必須先啟用企業語音，並為其指定電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
 
 > [!Important]
-> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>為使用者啟用企業語音內部部署和指派電話號碼
 
@@ -49,7 +49,7 @@ ms.locfileid: "47359189"
     
 6. 在 [ **編輯** ] 功能表上，按一下 [ **顯示詳細資料**]。
     
-7. 在 [ **電話**語音] 下，按一下 [ **Enterprise Voice**]。
+7. 在 [ **電話** 語音] 下，按一下 [ **Enterprise Voice**]。
     
 8. 按一下 [ **行 URI**]，然後輸入唯一的標準化電話號碼 (例如電話： + 14255550200) 。 然後按一下 [ **認可**]。
     
@@ -78,5 +78,3 @@ ms.locfileid: "47359189"
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
   ```
-
-

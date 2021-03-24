@@ -19,26 +19,26 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701231"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098179"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
 
 Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色。 由於 Teams 服務涉及雲端中的許多基礎技術，因此在 *搜尋記錄* 和 *即時監控會議* 時，都可以從人工和自動化分析中受益。 Azure Sentinel 提供系統管理員以下解決方案。
 
 > [!NOTE]
-> 需要回顧 Azure Sentinel 的功能嗎？ [這篇文章](https://docs.microsoft.com/azure/sentinel/overview)就是您需要的。
+> 需要回顧 Azure Sentinel 的功能嗎？ [這篇文章](/azure/sentinel/overview)就是您需要的。
 
 ## <a name="sentinel-and-microsoft-teams-activity-logs"></a>Azure Sentinel 和 Microsoft Teams
 
 本文主要說明如何在 Azure Sentinel 中收集 Teams 活動記錄。 除了允許系統管理員將安全性管理放在單一窗格 (包括任何已選取的協力廠商裝置、Microsoft 威脅防護及其他 Microsoft 365 工作負載) 之下，Sentinel Workbook 和 Runbook 都能進行系統化的安全性監視。 此程序的第一步是收集所需的記錄進行分析。
 
 > [!NOTE]
-> 可以在同一個 Azure Sentinel 執行個體顯示多個 Microsoft 365 訂閱。 這樣就可以允許[即時監視](https://docs.microsoft.com/azure/sentinel/livestream)並在歷史記錄檔中尋找威脅。 系統管理員將能使用位於單一資源群組中的[跨資源查詢](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query)、跨資源群組或在其他訂閱中使用搜尋。
+> 可以在同一個 Azure Sentinel 執行個體顯示多個 Microsoft 365 訂閱。 這樣就可以允許[即時監視](/azure/sentinel/livestream)並在歷史記錄檔中尋找威脅。 系統管理員將能使用位於單一資源群組中的[跨資源查詢](/azure/azure-monitor/log-query/cross-workspace-query)、跨資源群組或在其他訂閱中使用搜尋。
 
 ## <a name="step-1-collect-teams-logs"></a>步驟 1：收集 Teams 記錄
 
@@ -50,7 +50,7 @@ Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色�
 
 ### <a name="enable-audit-logs-in-m365"></a>啟用 M365 中的稽核記錄
 
-由於 Teams 會透過 M365 記錄活動，因此預設不會收集稽核記錄。 透過[以下步驟](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)開啟此功能。 Teams 資料會在 M365 稽核中的 *[Audit.General]* 下進行收集。
+由於 Teams 會透過 M365 記錄活動，因此預設不會收集稽核記錄。 透過[以下步驟](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)開啟此功能。 Teams 資料會在 M365 稽核中的 *[Audit.General]* 下進行收集。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>在 Microsoft Azure 中註冊應用程式以收集記錄
 
@@ -163,7 +163,7 @@ Azure Sentinel Playbooks (又稱為邏輯應用程式) 將允許 Azure 擷取您
 為了了解大量收集的資料，要做的第一件事是透過資料剖析使其具有意義。 會使用 Kusto查詢語言 (KQL) 函數來完成資料剖析，該函數可讓資料更易於使用。
 
 > [!NOTE]
-> KQL 函數是 KQL 查詢，但儲存為稱為「函數」的資料類型。 可在 Sentinel 中的查詢方塊輸入 KQL 函數的別名，以便再次快速執行查詢。 如需 KQL 函數以及如何建置剖析器函數的詳細資訊，請參閱[此技術社群文章](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381) (英文)。
+> KQL 函數是 KQL 查詢，但儲存為稱為「函數」的資料類型。 可在 Sentinel 中的查詢方塊輸入 KQL 函數的別名，以便再次快速執行查詢。 如需 KQL 函數以及如何建置剖析器函數的詳細資訊，請參閱[此技術社群文章](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381)。
  
  以下剖析器是可自訂的範例，目的在選取與 *[Teams]* 相關的 Office 365 管理 API 欄位的子集。 還有一個建議剖析器 [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)，但以下的剖析器可供修改，以符合不同的需求和喜好設定。
 
@@ -180,7 +180,7 @@ O365API_CL
           Settings=iif(Operation_s contains "Setting", pack("Name", columnifexists('Name_s', ""), "Old Value", columnifexists('OldValue_s', ""), "New Value", columnifexists('NewValue_s', "")),""),
           Details=pack("Id", columnifexists('Id_g', ""),  "OrganizationId", columnifexists('OrganizationId_g', ""), "UserType", columnifexists('UserType_d', ""), "UserKey", columnifexists('UserKey_g', ""), "TeamGuid", columnifexists('TeamGuid_s', "")) 
 ```
- 將剖析器儲存為 KQL 函數，其別名為 TeamsData。 它將用於後續查詢。 如需有關如何設定及使用 KQL 函數作為剖析器的詳細資訊，請參閱本[技術社群文章](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381) (英文)。
+ 將剖析器儲存為 KQL 函數，其別名為 TeamsData。 它將用於後續查詢。 如需有關如何設定及使用 KQL 函數作為剖析器的詳細資訊，請參閱本[技術社群文章](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381)。
 
 ## <a name="helpful-hunting-kql-queries"></a>實用的搜捕 KQL 查詢
 
@@ -201,7 +201,7 @@ TeamsData
 ```
 
 > [!TIP]
-> 若要深入了解 Teams 中的外部和來賓存取類型，請參閱 [本文](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)，或 [Teams 安全性指南](https://docs.microsoft.com/microsoftteams/teams-security-guide)中的 *參與者類型* 一節。
+> 若要深入了解 Teams 中的外部和來賓存取類型，請參閱 [本文](./communicate-with-users-from-other-organizations.md)，或 [Teams 安全性指南](./teams-security-guide.md)中的 *參與者類型* 一節。
 
 #### <a name="who-recently-joined--whose-role-changed"></a>最近加入/角色變更的人員
 
@@ -437,8 +437,8 @@ SigninLogs
 
 **Pete Bryan、Nicholas DiCola 和 Matthew Lowe，感謝各位參與內容共同作業。** Pete Bryan 及與他共同作業的人員將繼續為 Teams 開發偵測查詢和搜尋查詢，因此請與此 [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) 存放庫保持聯繫，以取得最新消息。  追蹤本文所使用的[剖析器](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)和[邏輯應用程式](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data)的更新。 您也可以加入並參與 [Azure Sentinel 社群](https://github.com/Azure/Azure-Sentinel/wiki)。 感謝您！ 祝您搜尋開心。
 
-[在 Azure AD 中註冊您的應用程式](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[在 Azure AD 中註冊您的應用程式](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[開啟或關閉稽核記錄搜尋](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+[開啟或關閉稽核記錄搜尋](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)
 
-[什麼是 Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview)
+[什麼是 Azure Sentinel](/azure/sentinel/overview)

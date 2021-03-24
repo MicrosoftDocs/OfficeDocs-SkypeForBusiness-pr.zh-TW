@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本節將說明樹系準備步驟所建立的全域設定與物件，以及萬用服務和管理群組。
-ms.openlocfilehash: 4e8032cb91b012c710dc509708a813d55825f7a2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b304dbb12cb7e05e7bc82bdc56ffc330ce0221c7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831913"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098649"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>在商務用 Skype Server 中進行樹系準備所進行的變更
 
@@ -108,7 +108,7 @@ ms.locfileid: "49831913"
 
 - CsResponseGroupManager
 
-如需 RBAC 角色以及各角色可執行的工作的詳細資訊，請參閱規劃文件中的＜[Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)＞。
+如需 RBAC 角色以及各角色可執行的工作的詳細資訊，請參閱規劃文件中的＜[Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)＞。
 
 樹系準備會同時建立私人與公用 ACE。 它會在商務用 Skype Server 所使用的全域設定容器上建立專用 Ace。 此容器只會由商務用 Skype 伺服器使用，而且可以位於設定容器或根域的系統容器中，視您儲存全域設定的位置而定。 樹系準備所建立的公用 ACE 列於下表。
 
@@ -134,5 +134,3 @@ ms.locfileid: "49831913"
 - 在每一個語言組織單位 (OU) 顯示規範 (例如，CN=organizationalUnit-Display,CN=409,CN=DisplaySpecifiers) 的 **extraColumns** 屬性下新增 **msRTCSIP-PrimaryUserAddress**，並複製預設顯示 (例如，CN=default-Display、CN=409、CN=DisplaySpecifiers) 的 **extraColumns** 屬性值。
 
 - 在 Users、Contacts 與 InetOrgPerson 物件的每一個語言顯示規範的 **attributeDisplayNames** 屬性下，新增 **msRTCSIP-PrimaryUserAddress**、**msRTCSIP-PrimaryHomeServer** 與 **msRTCSIP-UserEnabled** 篩選屬性 (以英文為例：CN=user-Display、CN=409、CN=DisplaySpecifiers)。
-
-

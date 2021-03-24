@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要：瞭解如何在商務用 Skype Server 中測試電話撥入式會議。
-ms.openlocfilehash: 214ec05c49072825e6a8744cb92db66d864e3d34
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096729"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>測試商務用 Skype Server 中的電話撥入式會議
  
@@ -39,7 +39,7 @@ ms.locfileid: "49827933"
 
     此 Cmdlet 會傳回所有電話撥入式會議地區未由存取號碼使用的撥號對應表。
     
-如需詳細資訊，請參閱 [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+如需詳細資訊，請參閱 [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>尋找未指派地區的存取號碼
 
@@ -55,7 +55,7 @@ ms.locfileid: "49827933"
 
     此 Cmdlet 會傳回與地區無關聯的所有電話撥入式會議存取號碼。
     
-如需詳細資訊，請參閱 [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+如需詳細資訊，請參閱 [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="test-webpage-and-access-numbers"></a>測試網頁和存取號碼
 
@@ -82,6 +82,4 @@ ms.locfileid: "49827933"
 
     產生的報告會顯示「成功」或「失敗」，以及特定的診斷資訊。 -Verbose 旗標提供找到多少存取號碼及相關詳細資料的詳細資訊。
     
-如需詳細資訊，請參閱 [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
-  
-
+如需詳細資訊，請參閱 [Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。

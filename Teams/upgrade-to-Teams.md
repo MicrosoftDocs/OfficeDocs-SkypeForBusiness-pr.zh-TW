@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中實施升級的概覽
+title: 將升級至 Microsoft Teams 概觀
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 根據您目前的商務用 Skype 部署，決定 Microsoft 團隊的最佳升級路徑。
+description: 根據您目前的商務用 Skype 部署，決定 Microsoft Teams 的最佳升級路徑。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,44 +20,44 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 3eb6c65d414217810c795aa72701a8e546f30643
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578356"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096027"
 ---
-# <a name="overview-of-implementing-your-upgrade"></a>實施升級的概覽
+# <a name="overview-of-implementing-your-upgrade"></a>執行升級概觀
 
-![升級歷程階段，重點是部署與實施階段](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
+![升級歷程的階段，強調部署與執行階段](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 
-本文是升級歷程的部署與實施階段的一部分。 
+本文是升級歷程的部署與執行階段的一部分。 
 
 
 
 ## <a name="prerequisite-planning-activities"></a>先決條件規劃活動
 
 > [!IMPORTANT]
-> 在繼續進行升級前，請確認您已閱讀規劃內容開始規劃 [升級](upgrade-plan-journey.md) ，以確保您已完成所有必備的規劃活動。
+> 繼續進行升級實施之前，請確認您從規劃升級開始閱讀規劃內容，以確保您[](upgrade-plan-journey.md)已完成所有先決條件規劃活動。
 
 
-- [已登記您的專案干係人](upgrade-enlist-stakeholders.md)
-- [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
-- [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
-- [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
+- [已定義專案範圍](./upgrade-define-project-scope.md)
+- [瞭解商務用 Skype 和 Teams 的共存與互通性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [已規劃使用者試驗](pilot-essentials.md)
-- [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
+- [準備您的環境](./upgrade-prepare-environment.md)
+- [準備您的組織](./upgrade-prepare-organization.md)
 
-## <a name="choose-your-upgrade-starting-point"></a>選擇您的升級起始點
+## <a name="choose-your-upgrade-starting-point"></a>選擇升級起點
 
-您針對團隊進行升級所採取的步驟，取決於您目前的商務用 Skype 部署：
+升級至 Teams 的步驟取決於您目前部署商務用 Skype：
 
-根據您目前的環境，選擇您的起始點：  
+根據您的目前環境，選擇您的起點：  
 
-- **如果您要從商務用 Skype online 升級至小組**，請按照 [從商務用 skype Online 升級至團隊](https://aka.ms/SkypeToTeams-UpgradeOnline)中的步驟進行。
+- **如果您要從** 商務用 Skype Online 升級至 Teams，請遵循從 [商務](./upgrade-to-teams-execute-skypeforbusinessonline.md)用 Skype Online 升級至 Teams 中的步驟。
 
--  **如果您是從商務用 Skype 內部部署環境升級**，您必須執行一些額外的步驟，才能在您的內部部署與線上環境之間設定連線，然後再將您的使用者移至團隊。 如需詳細資訊，請參閱 [將商務用 Skype 內部部署升級至團隊](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)。
+-  **如果您是從** 商務用 Skype 內部部署環境升級，您必須執行一些額外步驟，在將使用者移至 Teams 之前，先設定內部部署與線上環境之間的連線。 詳細資訊，請參閱將 [商務用 Skype 內部部署升級至 Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)。
 
 
 

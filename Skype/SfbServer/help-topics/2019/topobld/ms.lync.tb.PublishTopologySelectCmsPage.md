@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用拓撲產生器，發佈已設定的拓撲。 系統會要求您從清單中選取前端伺服器或前端集區，以擔當存放中央管理存放區的角色。 在任何指定時間，只有一部前端伺服器或前端集區可以持有此角色。
-ms.openlocfilehash: d4af4756dc42c54790ee1120b418eb5e6a349387
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fe3e7ed8c0a58b0547ede0eb02f0ea476bce94bc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822183"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096879"
 ---
 # <a name="publish-topology-select-cms-page"></a>發行拓撲選取 CMS 頁面
  
@@ -31,4 +31,4 @@ ms.locfileid: "49822183"
   
 ## <a name="see-also"></a>另請參閱
 
-[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps)

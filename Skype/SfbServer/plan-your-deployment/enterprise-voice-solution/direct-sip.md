@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 商務用 Skype Server 和兩部 PSTN 閘道和 Enterprise Voice IP-PBX 都支援直接 SIP 連線。
-ms.openlocfilehash: 6e30a24bd4509d20a4ad19192e677e3bea21fff9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7a70a6f3afd303ef5847993240b26b47d1b4ceac
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834453"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096413"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>在商務用 Skype Server 中的直接 SIP 連線
 
@@ -59,7 +59,7 @@ ms.locfileid: "49834453"
 ![部門遷移選項圖表](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> 如果您要將商務用 Skype Server 部署連接至認可的 Direct SIP 夥伴，則不需要在轉送伺服器和 PBX 之間使用公用交換電話網路 (PSTN) 閘道。 如需認證直接 SIP 夥伴的清單，請參閱  [Microsoft 整合通訊開啟互通性計畫](https://go.microsoft.com/fwlink/p/?linkId=203309)。
+> 如果您要將商務用 Skype Server 部署連接至認可的 Direct SIP 夥伴，則不需要在轉送伺服器和 PBX 之間使用公用交換電話網路 (PSTN) 閘道。 如需認證直接 SIP 夥伴的清單，請參閱  [Microsoft 整合通訊開啟互通性計畫](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
 
 > [!NOTE]
 > 在此圖中所示的媒體路徑已啟用媒體旁路 (建議的設定) 。 如果您選用停用媒體旁路，媒體路徑會透過轉送伺服器進行路由傳送。
@@ -128,7 +128,7 @@ Enterprise Voice 可提供新的企業，以及現有公司的新 office 網站�
 
 如需規劃多個閘道的詳細資訊，請參閱 [M:N 主幹 In 商務用 Skype Server](m-n-trunk.md)。
 
-如需其他輸出路由增強功能的詳細資訊，請參閱 [通話路由](https://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx)。
+如需其他輸出路由增強功能的詳細資訊，請參閱 [通話路由](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes)。
 
 #### <a name="gateway-topologies"></a>閘道拓撲
 
@@ -165,5 +165,3 @@ Enterprise Voice 可提供新的企業，以及現有公司的新 office 網站�
 針對您必須支援的任何特定使用者數目，您可以選擇部署較少、更大的閘道或較小的閘道。 一般來說，如果一個閘道失敗時，建議至少有兩個組織閘道可維護可用性。
 
 您部署的每個 PSTN 閘道都必須至少有一個對應的轉送伺服器。
-
-

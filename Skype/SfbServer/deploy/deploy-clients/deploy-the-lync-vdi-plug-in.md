@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的部署程式。
-ms.openlocfilehash: f7ff99045c861c4435675d9e9e86deaedd499c10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6db05fb3bcd9638a3181eb454de3a3097831b997
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095997"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>使用商務用 Skype Server 部署 Lync VDI 外掛程式
  
@@ -32,7 +32,7 @@ ms.locfileid: "49805933"
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>準備您的環境以進行 Lync VDI 外掛程式
 <a name="Prepare_vdi"> </a>
 
-1. 在商務用 Skype Server 中，確定所有 Lync VDI 外掛程式使用者的 EnableMediaRedirection 設定為 TRUE。 如需詳細資訊，請參閱 [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) Cmdlet 及 [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) Cmdlet 的說明主題。
+1. 在商務用 Skype Server 中，確定所有 Lync VDI 外掛程式使用者的 EnableMediaRedirection 設定為 TRUE。 如需詳細資訊，請參閱 [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) Cmdlet 及 [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) Cmdlet 的說明主題。
     
 2. 在資料中心伺服器上，在所有虛擬機器上安裝商務用 Skype 用戶端。
     
@@ -45,7 +45,7 @@ ms.locfileid: "49805933"
 
 若要準備 Lync VDI 外掛程式的遠端桌面連線，請在本機電腦上執行下列步驟：
   
-1. 如果本機電腦正在執行 Windows 8，請略過此步驟。 如果本機電腦執行的是 Windows 7 與 SP1，請安裝最新的 Windows 8 版的 [遠端桌面服務用戶端](https://go.microsoft.com/fwlink/p/?LinkId=268032)。
+1. 如果本機電腦正在執行 Windows 8，請略過此步驟。 如果本機電腦執行的是 Windows 7 與 SP1，請安裝最新的 Windows 8 版的 [遠端桌面服務用戶端](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
     
 2. 按一下 [ **開始**]，然後按一下 [ **遠端桌面** 連線]，以啟動遠端桌面服務用戶端。
     

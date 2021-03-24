@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb00501a0c795f754c927dd9ed3bd5114f61fab7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875043"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097459"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 應用程式
 
@@ -88,7 +88,7 @@ Teams 中的 Walkie Talkie 需要網際網路連接，且網路條件低於網�
 
 ### <a name="license-requirements"></a>授權需求
 
-在 Office [365](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)訂閱中，Walkie Talkie 應用程式會包含在 Teams 的所有付費授權中。 若要取得 Teams 詳細資訊，請參閱如何 [取得 Microsoft Teams 的存取權](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
+在 Office [365](/office365/servicedescriptions/teams-service-description)訂閱中，Walkie Talkie 應用程式會包含在 Teams 的所有付費授權中。 若要取得 Teams 詳細資訊，請參閱如何 [取得 Microsoft Teams 的存取權](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
 
 > [!NOTE]
 > 某些進位功能可能需要額外授權。 例如，與 Samsung Galaxy XCover Pro 整合需要 Knx 授權。

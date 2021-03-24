@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: 商務用 Skype Server Enterprise Voice 中支援的呼叫管理功能的概覽。
-ms.openlocfilehash: 506ffa9dca87544be8798f2bf98dc6a24cb2d7c9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 926ffe294c2819b9f68af76e61410a0ce4a9f63b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825943"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096433"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>在商務用 Skype 中規劃通話管理功能
 
@@ -41,12 +41,10 @@ Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式
 
 ## <a name="in-this-section"></a>本節內容
 
-- [規劃通話駐留](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
+- [規劃通話駐留](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-call-park)
 
-- [規劃群組裝貨](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
+- [規劃群組裝貨](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-group-call-pickup)
 
-- [規劃回應群組](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
+- [規劃回應群組](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-response-groups)
 
-- [規劃宣告](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
-
-
+- [規劃宣告](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-announcements)

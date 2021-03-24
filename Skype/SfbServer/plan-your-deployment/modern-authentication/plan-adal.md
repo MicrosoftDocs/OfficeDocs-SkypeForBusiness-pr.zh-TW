@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 本文說明使用 Active Directory 驗證程式庫 (ADAL) 和 OAuth 2.0) 的新式驗證 (。
-ms.openlocfilehash: bd5d172fe4589cbd28c5b22507ad8603695ed62f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1df07491881b90efc16c97e7cd5cec0953cfb346
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816223"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096609"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何搭配商務用 Skype) 使用新式驗證 (ADAL
  
@@ -37,7 +37,7 @@ ADAL 是「Active Directory 驗證程式庫」的縮寫，以及 OAuth 2.0，是
     
 - 有 OAuth 連線，也就是說，專門用來  *授權*  使用者存取資源的連線。  (OAuth 也是更具描述性的名稱「Server-to-Server ' 驗證，而且通常是 S2S 的縮寫。 ) 
     
-在商務用 Skype Server 新式驗證 (ADAL) 交談中，商務用 Skype Server 會在 Windows Server 2012 R2) 中透過 ADFS (ADFS 3.0 進行通訊。 驗證可能會使用其他一些身分識別提供者 (IdP) ，但商務用 Skype 伺服器必須設定為與 ADFS 直接通訊。 如果您未設定 ADFS 搭配商務用 Skype Server，請完成 [ADFS 安裝](https://technet.microsoft.com/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx)。
+在商務用 Skype Server 新式驗證 (ADAL) 交談中，商務用 Skype Server 會在 Windows Server 2012 R2) 中透過 ADFS (ADFS 3.0 進行通訊。 驗證可能會使用其他一些身分識別提供者 (IdP) ，但商務用 Skype 伺服器必須設定為與 ADFS 直接通訊。 如果您未設定 ADFS 搭配商務用 Skype Server，請完成 [ADFS 安裝](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))。
   
 ADAL 會包含在商務用 Skype Server 2015 的2016年3月累積更新，以及商務用 Skype 的2016三月份累積更新 **必須** 安裝，才能成功設定。 若為商務用 Skype Server 2019，可從產品的初始版本取得。
   
@@ -46,4 +46,4 @@ ADAL 會包含在商務用 Skype Server 2015 的2016年3月累積更新，以及
   
 包含具有 ADAL 所使用之命令的 ps1 檔案的 PowerShell 套件，必須下載，以取得成功的設定。
 
-如需如何在商務用 Skype 中執行新式驗證的詳細資訊，請參閱： [如何使用現代驗證 (ADAL) 搭配商務用 skype](../../manage/authentication/use-adal.md)
+如需如何在商務用 Skype 中執行新式驗證的詳細資訊，請參閱： [如何使用現代驗證 (ADAL) 搭配商務用 skype](/microsoft-365/enterprise/hybrid-modern-auth-overview)

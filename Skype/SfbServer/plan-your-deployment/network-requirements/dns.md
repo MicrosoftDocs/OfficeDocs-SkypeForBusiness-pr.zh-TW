@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要：在實施商務用 Skype Server 之前，請先複查本主題中的 DNS 考慮。
-ms.openlocfilehash: 3db3641e5b884ef5bca43222fcf001bd4c5a538a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ee69019df0c137fa4cd64260bd804769747ff2a3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825273"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096237"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>商務用 Skype Server 的 DNS 需求
 
 **摘要：** 在執行商務用 Skype Server 之前，請先複查本主題中的 DNS 考慮。
 
-本文只討論群組織內部部署網路上商務用 Skype Server 部署的 DNS 規劃。 若為商務用 Skype Online，請參閱 at 的「Office 365 URLs 和 IP 位址範圍」 [https://aka.ms/o365ips](https://aka.ms/o365ips) 。
+本文只討論群組織內部部署網路上商務用 Skype Server 部署的 DNS 規劃。 若為商務用 Skype Online，請參閱 at 的「Office 365 URLs 和 IP 位址範圍」 [https://aka.ms/o365ips](/microsoft-365/enterprise/urls-and-ip-address-ranges) 。
 
  (DNS) 伺服器的功能變數名稱服務會對應至 www 等主機名稱 (。 <span></span>contoso <span></span> .com （大概是網頁伺服器) 的 IP 位址 (如 10.10.10.10) ）。 它可協助用戶端和相互關聯的伺服器在網路上彼此通訊。 當您設定商務用 Skype Server 2015 的實施時，您必須確定新伺服器名稱的對應 (通常會反映其所要採取的角色) 與所指派的 IP 位址相符。
 
@@ -128,7 +128,7 @@ ms.locfileid: "49825273"
 
 如果您計畫讓部分使用者位於線上，且某些使用者位於內部部署，請參閱混合式連線規劃文章 [商務用 Skype server 2019](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。 您必須將 DNS 當做商務用 Skype Server 2015 設定為 normal，也可以新增額外的 DNS 記錄。
 
-您也應該參閱「Office 365 URLs 和 IP 位址範圍」 [https://aka.ms/o365ips](https://aka.ms/o365ips) ，以確認您的使用者可以存取所需的線上資源。
+您也應該參閱「Office 365 URLs 和 IP 位址範圍」 [https://aka.ms/o365ips](/microsoft-365/enterprise/urls-and-ip-address-ranges) ，以確認您的使用者可以存取所需的線上資源。
 
 ## <a name="simple-urls"></a>簡單 URL
 <a name="BK_Simple"> </a>
@@ -176,5 +176,3 @@ ms.locfileid: "49825273"
 - [裂腦 DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS)
 
 - [商務用 Skype 用戶端尋找服務的演練](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
-
-

@@ -17,76 +17,76 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用及管理 Microsoft 團隊中的緊急呼叫路由策略，以設定緊急電話號碼，以及指定如何傳送緊急通話。
+description: 瞭解如何在 Microsoft Teams 中使用和管理緊急電話路由策略來設定緊急號碼，並指定緊急電話的路由方式。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: f2e7ce7ee2557745f3819efc84dada77b4a70635
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804673"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096177"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
+# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理緊急電話路由策略
 
-如果您已在組織中部署 [電話系統直接路由](direct-routing-landing-page.md) ，您可以使用 Microsoft 團隊中的緊急呼叫路由策略來設定緊急電話號碼，並指定緊急通話的傳送方式。 緊急呼叫路由策略會判斷是否為指派了原則的使用者啟用 [增強式緊急服務]，這些號碼是用來呼叫緊急服務 (例如，911在美國) ，以及如何傳送緊急服務通話。
+如果您在組織中部署電話 [系統](direct-routing-landing-page.md) 直接路由，您可以使用 Microsoft Teams 中的緊急電話路由策略來設定緊急號碼，並指定緊急電話的路由方式。 緊急呼叫路由策略會決定為指派該策略的使用者啟用增強型緊急服務、用來撥打緊急服務 (例如美國) 的 911 號碼，以及撥打緊急服務電話的路由方式。
 
-您可以  >  在 Microsoft 團隊系統管理中心或使用 Windows PowerShell 移至語音 **緊急策略**，管理緊急通話路由原則。 您可以將原則指派給使用者和 [網路網站](cloud-voice-network-settings.md)。
+您可以到 Microsoft Teams 系統管理中心的語音緊急策略，或使用  >  **** Windows PowerShell 來管理緊急電話路由策略。 可以將策略指派給使用者和網路 [網站](cloud-voice-network-settings.md)。
 
-針對使用者，您可以使用全域 (組織範圍的預設) 原則，或是建立並指派自訂原則。 除非您建立並指派自訂原則，否則使用者會自動取得全域原則。 請記住，您可以編輯全域原則中的設定，但無法重新命名或刪除。 針對網路網站，您可以建立並指派自訂原則。
+對於使用者，您可以使用全域 (全組織的預設) ，或建立及指派自訂策略。 除非您建立並指派自訂策略，否則使用者會自動取得全域原則。 請記住，您可以編輯全域原則中的設定，但無法重新命名或刪除。 針對網路網站，您可以建立並指派自訂策略。
 
-如果您已將緊急呼叫路由原則指派給網路網站和使用者，而且如果該使用者是在該網路網站上，則指派給網路網站的原則會覆寫指派給使用者的原則。
+如果您將緊急通話路由策略指派給網路網站和使用者，且該使用者位於該網路網站，則指派給網路網站的策略會重寫指派給使用者的策略。
 
-## <a name="create-a-custom-emergency-call-routing-policy"></a>建立自訂緊急通話路由策略
+## <a name="create-a-custom-emergency-call-routing-policy"></a>建立自訂緊急電話路由策略
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **緊急原則**]，然後按一下 [**呼叫路由策略**] 索引標籤。
-2. 按一下 [ **新增**]。
+1. 在 Microsoft Teams 系統管理中心的左側導航中，前往 **[語音** 緊急處理政策>，  >  然後按一下 [**通話路由策略> 定位** 點。
+2. 按一下 [新增 **]**。
 3. 輸入原則的名稱和描述。
-4. 若要啟用動態緊急通話，請開啟 [ **動態緊急通話**]。 啟用動態緊急通話時，小組會從服務中檢索原則和位置資訊，並將該資訊包含在緊急通話中。
-5. 定義一或多個緊急電話號碼。 若要這樣做，請在 [ **緊急數位**] 底下，按一下 [ **新增**]，然後執行下列動作：
-    1. [**緊急撥號字串**]：輸入 [緊急撥號字串]。 這個撥號字串表示通話是緊急通話。
+4. 若要啟用動態緊急電話，請開啟 **動態緊急電話**。 啟用動態緊急電話時，Teams 會從服務中取回策略和位置資訊，並包含該資訊做為緊急通話的一部分。
+5. 定義一或多個緊急號碼。 若要執行此操作，請按一下 [ **緊急** 號碼> 下的 [ **新增**，然後執行下列操作：
+    1. **緊急撥號字串**：輸入緊急撥號字串。 此撥號字串表示通話是緊急通話。
         > [!NOTE]
-        > 在直接路由中，我們正從緊急撥號字串前面的「+」傳送緊急通話的小組用戶端轉移。 在轉換完成之前，與緊急撥號字串相符的語音路由模式應該可確保符合的字串有且沒有前面的 "+" （例如911和 + 911）。 例如，^ \\ +？911或. *。
-    2. **緊急撥號遮罩**：針對每個緊急電話號碼，您可以指定零個或多個緊急撥號遮罩。 撥號遮罩是您要翻譯成緊急撥號字串值的數位。 這可讓您撥打備用的緊急電話號碼，仍能取得緊急通話服務的來電。 <br>例如，您會將112新增為緊急撥號遮罩，這是大多數歐洲的緊急服務號碼，而911則是緊急撥號字串。 歐洲造訪的團隊使用者可能不知道911是美國的緊急電話號碼，而且當他們撥打112時，通話是911。 若要定義多個撥號遮罩，請以分號分隔每個值。 例如，112; 212。
-    3. **PSTN 使用記錄**：選取公開交換電話網絡 (PSTN) 使用方式記錄。 PSTN 使用記錄是用來判斷使用哪個路由來傳送緊急呼叫給有權使用的使用者。 與此使用相關聯的路由應該指向會話初始通訊協定 (SIP) 專用於緊急呼叫或緊急位置識別號碼 (ELIN) 閘道，以將緊急呼叫路由到最接近的公用安全應答點 (PSAP) 。
+        > 針對直接路由，我們正在從 Teams 用戶端轉場，在緊急撥號字串前面傳送緊急電話時，會以「+」表示。 在轉換完成之前，符合緊急撥號字串的語音路由模式應確保符合具有且沒有前面 "+" 的字串，例如 911 和 +911。 例如，^ \\ +？？911 或 .*。
+    2. **緊急撥號遮罩**：針對每個緊急號碼，您可以指定零個或多個緊急撥號遮罩。 撥號遮罩是您想要轉換成緊急撥號字串值的號碼。 這可讓您撥打替代的緊急號碼，而且仍可撥打到緊急服務。 <br>例如，您新增 112 做為緊急撥號遮罩，這是歐洲大部分地區緊急服務號碼，而 911 則做為緊急撥號字串。 來自歐洲的 Teams 使用者可能不知道 911 是美國的緊急號碼，當他們撥打 112 時，撥打到 911。 若要定義多個撥號遮罩，請以分號分隔每個值。 例如，112;212。
+    3. **PSTN 使用記錄**：選取 [公用交換電話網路絡 (PSTN) 使用記錄。 PSTN 使用量記錄是用來判斷使用哪一個路由路由從有權使用緊急電話的使用者路由緊急電話。 與此使用關聯的路由應指向會話初始通訊協定 (SIP) 主幹，專門用於緊急通話，或指向緊急位置識別號碼 (ELIN) 閘道，將緊急電話路由到最近的公用安全應答點 (PSAP) 。
 
     > [!NOTE]
-    > 撥號字串和撥號遮罩在原則中必須是唯一的。 這表示對於原則而言，您可以定義多個緊急電話號碼，而且您可以為撥號字串設定多個撥號遮罩，但每個撥號字串和撥號遮罩只能使用一次。
+    > 撥號字串和撥號遮罩在策略中必須是唯一的。 這表示針對一個策略，您可以定義多個緊急號碼，也可以為撥號字串設定多個撥號遮罩，但每個撥號字串和撥號遮罩只能使用一次。
 
-6. 按一下 **[儲存]**。
+6. 按一下 [儲存]。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-請參閱 [新-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy)。
+請參閱 [New-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy)。
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>編輯緊急通話路由策略
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-您可以編輯全域原則或您建立的任何自訂原則。
+您可以編輯全域原則或任何您建立的任何自訂策略。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **緊急原則**]，然後按一下 [**呼叫路由策略**] 索引標籤。
-2. 按一下原則名稱左邊的，然後按一下 [ **編輯**]，選取原則。
-3. 進行您想要的變更，然後按一下 [ **儲存**]。
+1. 在 Microsoft Teams 系統管理中心的左側導航中，前往 **[語音** 緊急處理政策>，  >  然後按一下 [**通話路由策略> 定位** 點。
+2. 按一下原則名稱左側來選取原則，然後按一下 [編輯 **]**。
+3. 進行您想要的變更，然後按一下 [ **儲存**。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-請參閱 [設定 CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy)。
+請參閱 [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)。
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>將自訂緊急通話路由原則指派給使用者
+## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>指派自訂緊急電話路由策略給使用者
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-另請參閱 [授與 CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
+另請參閱 [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>將自訂緊急通話路由原則指派給網路網站
+## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>將自訂緊急電話路由策略指派給網路網站
 
-使用 [CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) Cmdlet，將緊急呼叫路由策略指派給網路網站。
+使用 [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) Cmdlet 將緊急通話路由策略指派給網路網站。
 
-這個範例示範如何將稱為緊急呼叫路由策略1的原則指派給 Site1 網站。
+此範例顯示如何將稱為緊急電話路由策略 1 的策略指派給 Site1 網站。
 
 ```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
@@ -94,8 +94,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 ## <a name="related-topics"></a>相關主題
 
-[管理團隊中的緊急通話原則](manage-emergency-calling-policies.md)
+[在 Teams 中管理緊急通話政策](manage-emergency-calling-policies.md)
 
 [Teams PowerShell 概觀](teams-powershell-overview.md)
 
-[指派策略給小組中的使用者](assign-policies.md)
+[在 Teams 中將原則指派給使用者](assign-policies.md)

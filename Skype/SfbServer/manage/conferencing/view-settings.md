@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 摘要：瞭解如何在商務用 Skype Server 中查看會議配置設定。
-ms.openlocfilehash: e30543c566775d38e20e2103c4cc0f41278c1020
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81f5ef1bc0ce28c7741aa99529e7ba107ff4127f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096699"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中查看會議配置設定
  
@@ -68,6 +68,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-如需詳細資訊，包括完整的參數清單，請參閱 [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。
-  
-
+如需詳細資訊，包括完整的參數清單，請參閱 [Get-CsMeetingConfiguration](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。

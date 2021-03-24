@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要：請參閱本主題，以取得如何整合商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 的相關資訊。
-ms.openlocfilehash: f2a9dfc718b7891a0cbe9b7b1455df24531a6ed0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b2fdab1a25db7d56c99e965877cb684d102da36
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810098"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098669"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>規劃整合商務用 Skype 和 Exchange
  
@@ -28,7 +28,7 @@ ms.locfileid: "49810098"
   
 如需有關安裝 Exchange Server 的詳細資訊，請參閱 exchange Server 的 Exchange Server 規劃和部署檔，以瞭解您的 Exchange 版本。 
    
-在伺服器啟動並執行後，您必須將伺服器對伺服器驗證憑證指派給商務用 Skype Server 和 Exchange Server。這些憑證允許商務用 Skype Server 和 Exchange Server 交換資訊，並彼此通訊。 當您安裝 Exchange Server 時，會為您建立具有名稱為 Microsoft Exchange Server 驗證憑證的自我簽署憑證。 此憑證可以在本機電腦憑證存放區中找到，以供 Exchange 伺服器上的伺服器對伺服器驗證使用。 如需在 Exchange Server 中指派憑證的詳細資訊，請參閱 [設定郵件流程和用戶端存取](https://go.microsoft.com/fwlink/p/?LinkId=268540)。
+在伺服器啟動並執行後，您必須將伺服器對伺服器驗證憑證指派給商務用 Skype Server 和 Exchange Server。這些憑證允許商務用 Skype Server 和 Exchange Server 交換資訊，並彼此通訊。 當您安裝 Exchange Server 時，會為您建立具有名稱為 Microsoft Exchange Server 驗證憑證的自我簽署憑證。 此憑證可以在本機電腦憑證存放區中找到，以供 Exchange 伺服器上的伺服器對伺服器驗證使用。 如需在 Exchange Server 中指派憑證的詳細資訊，請參閱 [設定郵件流程和用戶端存取](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)。
   
 若為商務用 Skype Server，您可以使用現有的商務用 Skype 伺服器憑證作為伺服器對伺服器驗證憑證;例如，您的預設憑證也可以當做 OAuthTokenIssuer 憑證使用。 商務用 Skype Server 可讓您使用任何網頁伺服器憑證作為伺服器對伺服器驗證的憑證，但前提是：
   
@@ -64,7 +64,7 @@ Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Fo
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-如需自動探索服務的詳細資訊，請參閱 [自動探索服務](https://go.microsoft.com/fwlink/p/?LinkId=268542)。
+如需自動探索服務的詳細資訊，請參閱 [自動探索服務](/Exchange/architecture/client-access/autodiscover)。
   
 設定自動探索服務之後，您必須修改商務用 Skype Server OAuth 設定設定;這可確保商務用 Skype 伺服器知道哪裡可以找到自動探索服務。 若要修改商務用 Skype Server 中的 OAuth 設定設定，請在商務用 Skype Server 管理命令介面中執行下列命令。 當您執行此命令時，請確定您指定的是在 Exchange 伺服器上執行之自動探索服務的 URI，而且您使用 **自動探索。 svc** 指向服務位置，而不是 **autodiscover.xml** (指向服務位置) 所使用的 XML 檔案：
   
@@ -126,6 +126,6 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 [整合商務用 Skype Server 與 Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
-[如何將 Exchange Server 2013 與 Lync Server 2013、商務用 Skype Online 或 Lync Server 2013 混合式部署整合](https://go.microsoft.com/fwlink/p/?LinkId=746494)
+[如何將 Exchange Server 2013 與 Lync Server 2013、商務用 Skype Online 或 Lync Server 2013 混合式部署整合](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-hybrid-deployments)
   
 [在商務用 Skype Server 和 Microsoft Exchange Server 中設定合作夥伴應用程式](../../deploy/integrate-with-exchange-server/configure-partner-applications.md)

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '您可以將兩個網路地區間的連結設定為通話許可控制 (CAC) 的一部分。 '
-ms.openlocfilehash: 0a4f5c63b4470fbfe6d2677f0e9e6f52841f7ebb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 163f214b05ba0dca3bc7dd4ec722f148cafe724e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816463"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096679"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>連結商務用 Skype Server 中的網路地區
 
@@ -62,7 +62,7 @@ ms.locfileid: "49816463"
         NetworkRegionID2    : California
 
 
-如需詳細資訊，請參閱 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)。
+如需詳細資訊，請參閱 [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)。
 
 
 ## <a name="configure-network-region-links"></a>設定網路地區連結 
@@ -133,10 +133,10 @@ ms.locfileid: "49816463"
 
 ## <a name="see-also"></a>另請參閱
 
-[新 CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[新 CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 
-[CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[CsNetworkRegionLink](/powershell/module/skype/Set-CsNetworkRegionLink)  
 
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[Remove-CsNetworkRegionLink](/powershell/module/skype/Remove-CsNetworkRegionLink)  
 
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)

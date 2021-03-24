@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要：瞭解如何為商務用 Skype Server 中的電話撥入式會議管理 PIN 碼原則。
-ms.openlocfilehash: 6544586071f1107537232a117de196dfbffeb4aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827949"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096745"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>為商務用 Skype Server 中的電話撥入式會議管理 PIN 碼原則
  
@@ -53,7 +53,7 @@ ms.locfileid: "49827949"
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)。
+如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps)。
   
 ## <a name="modify-the-global-pin-policy"></a>修改通用 PIN 原則
 
@@ -98,7 +98,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
+如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
   
 ## <a name="create-a-user-or-site-pin-policy"></a>建立使用者或網站 PIN 原則
 
@@ -149,7 +149,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- 如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps)。
+ 如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [get-cspinpolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps)。
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>修改使用者或網站 PIN 原則
 
@@ -179,7 +179,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
+如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>刪除使用者或網站 PIN 原則
 
@@ -205,6 +205,4 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Remove-get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps)。
-  
-
+如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [Remove-get-cspinpolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)。

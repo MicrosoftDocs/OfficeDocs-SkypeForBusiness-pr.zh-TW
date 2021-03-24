@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 閱讀此主題以查看使用雲端連接器 Edition 版本2.0 和更新版本執行媒體旁路的規劃考慮。 如需部署媒體旁路的詳細資訊，請參閱在雲端連接器 Edition 中部署媒體旁路。
-ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bae10c77a6b382eaca7189ed6ae52960a6fb1bf9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220253"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096197"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>規劃 Cloud Connector Edition 中的媒體旁路
  
-閱讀此主題以查看使用雲端連接器 Edition 版本2.0 和更新版本執行媒體旁路的規劃考慮。 如需部署媒體旁路的詳細資訊，請參閱[在雲端連接器 Edition 中部署媒體旁路](deploy-media-bypass-in-cloud-connector.md)。
+閱讀此主題以查看使用雲端連接器 Edition 版本2.0 和更新版本執行媒體旁路的規劃考慮。 如需部署媒體旁路的詳細資訊，請參閱 [在雲端連接器 Edition 中部署媒體旁路](deploy-media-bypass-in-cloud-connector.md)。
   
-媒體旁路可讓用戶端直接將媒體傳送到公用交換電話網路（PSTN）的下一個躍點：閘道或會話邊界控制器（SBC），並從媒體路徑中消除雲端連接器版本元件。
+媒體旁路可讓用戶端直接將媒體傳送到公用交換電話網路 (PSTN) 下一個躍點（閘道或會話邊界控制器 (SBC) ），並從媒體路徑中消除雲端連接器版本元件。
   
 媒體旁路可減少延遲、封包遺失的可能性，以及可能失敗的點數，以改善語音品質。 取消略過通話的媒體處理會減少雲端連接器上的負載，使並行通話數量變得更高，而且可提高可擴充性。 
   
@@ -37,7 +37,7 @@ ms.locfileid: "44220253"
 
 當信號使用或不具有媒體旁路的相同路徑時，媒體流程會有所不同。 下列圖表顯示使用和不使用媒體旁路的拓撲中的媒體和信號路徑。 
   
-例如，在下列拓撲中（不採用媒體旁路）：商務用 Skype 用戶端將 PSTN 通話加入外部號碼，SIP 信號會移至 Microsoft 365 或 Office 365，這會根據使用者語音原則來指示信號流量。 針對 Cloud Connector 使用者，語音原則會將信號流量指引至雲端連接器 Edge Server，然後透過雲端連接器轉送伺服器將信號流量路由傳送至 PSTN 會話邊界控制器（SBC）或閘道。 媒體會從商務用 Skype 用戶端傳送至雲端連接器轉送伺服器，然後再流向 SBC 或閘道，如下圖所示：
+例如，在下列拓撲中（不採用媒體旁路）：商務用 Skype 用戶端將 PSTN 通話加入外部號碼，SIP 信號會移至 Microsoft 365 或 Office 365，這會根據使用者語音原則來指示信號流量。 對於 Cloud Connector 使用者，語音原則會將信號流量指引至雲端連接器 Edge Server，然後透過雲端連接器轉送伺服器將信號流量路由傳送至 PSTN 會話邊界控制器 (SBC) 或閘道。 媒體會從商務用 Skype 用戶端傳送至雲端連接器轉送伺服器，然後再流向 SBC 或閘道，如下圖所示：
   
 **沒有媒體旁路的媒體和信號路徑**
 
@@ -80,13 +80,13 @@ ms.locfileid: "44220253"
 > [!NOTE]
 > 如果您使用的是用戶端 VPN 方案，並結合商務用 Skype 用戶端，則只有 VPN 分割隧道設定支援媒體旁路。 
   
-如需發行通道的詳細資訊，請參閱[適用于企業的 Microsoft 365 應用程式更新通道](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
+如需發行通道的詳細資訊，請參閱 [適用于企業的 Microsoft 365 應用程式更新通道](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
   
-如需不同通道之用戶端的目前發行版本本資訊，請參閱適用[于企業的 Microsoft 365 應用程式更新版本資訊](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)。 
+如需不同通道之用戶端的目前發行版本本資訊，請參閱適用 [于企業的 Microsoft 365 應用程式更新版本資訊](/officeupdates/release-notes-office365-proplus)。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>媒體旁路的雲端連接器容量考慮
 
-沒有媒體旁路，而且視硬體而定，雲端連接器裝置可以處理從50到500同時通話，以要求透過轉送伺服器進行媒體傳送。 如需詳細資訊，請參閱[Plan For 商務用 Skype Cloud Connector Edition](https://technet.microsoft.com/library/mt605227.aspx)。 
+沒有媒體旁路，而且視硬體而定，雲端連接器裝置可以處理從50到500同時通話，以要求透過轉送伺服器進行媒體傳送。 如需詳細資訊，請參閱 [Plan For 商務用 Skype Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md)。 
   
 啟用媒體旁路時，支援的版本上的內部用戶端不會使用轉送伺服器，因此內部用戶端的數目會大幅增加。 
   
@@ -96,18 +96,18 @@ ms.locfileid: "44220253"
 
 雲端連接器只支援 Always 略用模式。 在內部部署環境中，有兩種選擇：永遠略過和使用網站與地區資訊。
   
-Always 旁路表示對內部用戶端的所有 PSTN 來電嘗試媒體旁路，以作為原始或目的地點。 若要判斷用戶端是否為內部或外部用戶端，則使用轉送伺服器虛擬機器上的網站。 如果用戶端可以到達網站，則會將它視為內部和媒體旁路使用。 如果用戶端無法到達網站（例如，用戶端在家用網路上），則不會使用媒體旁路。 
+Always 旁路表示對內部用戶端的所有 PSTN 來電嘗試媒體旁路，以作為原始或目的地點。 若要判斷用戶端是否為內部或外部用戶端，則使用轉送伺服器虛擬機器上的網站。 如果用戶端可以到達網站，則會將它視為內部和媒體旁路使用。 如果用戶端無法到達網站 (例如，用戶端位於家用網路) 上，就不會使用媒體旁路。 
   
 Always 旁路要求使用者與 PSTN 網站中的 PSTN 閘道之間有沒有障礙的連線能力。 
   
-如需詳細資訊，請參閱[Plan For 商務用 Skype Cloud Connector Edition](https://technet.microsoft.com/library/mt605227.aspx)。 
+如需詳細資訊，請參閱 [Plan For 商務用 Skype Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md)。 
   
-例如，在下圖中，歐洲使用者必須順利連線至三個會話邊界控制器（SBCs）中的阿姆斯特丹，我們的西部使用者必須順利連接至西雅圖的兩個 SBCs。 已正確連接表示它們是位於與 SBCs 或閘道相同的網站，或透過具有適當頻寬的 WAN 連結。
+例如，在下圖中，歐洲使用者必須順利連線至三個會話邊界控制器 (SBCs) 在阿姆斯特丹中，我們的西部使用者必須順利連接至西雅圖的兩個 SBCs。 已正確連接表示它們是位於與 SBCs 或閘道相同的網站，或透過具有適當頻寬的 WAN 連結。
   
 ![雲端連接器容量](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> 如果來自蘇黎世的使用者已前往西雅圖 office，而您想要使用內部網路來傳遞歐洲的旅行使用者與閘道之間的媒體流量（而不是透過網際網路進行），則必須確定西雅圖 office 和阿姆斯特丹 office （其中歐洲的 SBCs 或閘道）已正確連接。 
+> 如果來自蘇黎世的使用者已前往西雅圖 office，而您想要使用內部網路來傳遞 (歐洲的旅行使用者與閘道之間的媒體流量，而不是透過網際網路) ，則必須確定西雅圖 office 和阿姆斯特丹 office 所在的歐洲 SBCs 或閘道已正確連接。 
   
 ## <a name="codecs-used-in-media-bypass"></a>媒體旁路中使用的編解碼器
 
