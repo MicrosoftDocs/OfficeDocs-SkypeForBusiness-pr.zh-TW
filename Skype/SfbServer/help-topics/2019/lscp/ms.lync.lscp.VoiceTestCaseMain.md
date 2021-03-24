@@ -15,24 +15,21 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7f803533e7c209203e5e377b5d3facc3b5d3a63f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8aa2e01e24648cfa6e924b9124fdf20387e28145
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830123"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100249"
 ---
 # <a name="test-voice-routing-test-cases"></a>測試語音路由：測試案例
 
 您要執行的工作 按一下您要執行之任務的連結。
 
-- [建議語音路由測試案例](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [建議語音路由測試案例](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-voice-routing-test-case)
 
-- [匯出語音路由測試案例](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+- [匯出語音路由測試案例](/previous-versions/office/lync-server-2013/lync-server-2013-export-voice-routing-test-cases)
 
-- [匯入語音路由測試案例](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+- [匯入語音路由測試案例](/previous-versions/office/lync-server-2013/lync-server-2013-import-voice-routing-test-cases)
 
-- [執行語音路由測試案例](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
-
-
-
+- [執行語音路由測試案例](/previous-versions/office/lync-server-2013/lync-server-2013-run-voice-routing-test-cases)

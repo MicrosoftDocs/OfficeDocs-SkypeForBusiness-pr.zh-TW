@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: 會議設定設定會定義會議類型 (也是 calledmeetings) 使用者可以建立，並 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: 804aa22f750c86aacacb9bd4d938d364967b86f9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e53297aaae7707f8cc0ae4821a97afb78e0382e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099659"
 ---
 # <a name="meeting-configuration"></a>會議組態
 
@@ -65,6 +65,4 @@ ms.locfileid: "49810893"
 
 - **範圍** 識別會議設定的範圍：全域、網站或集區。
 
-如需使用會議設定的詳細資訊，請參閱作業文件中的＜[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)＞。
-
-
+如需使用會議設定的詳細資訊，請參閱作業文件中的＜[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)＞。

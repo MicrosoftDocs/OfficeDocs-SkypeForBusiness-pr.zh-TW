@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: 會議設定設定會為使用者排程的會議定義使用者加入體驗。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: dc37e3d76a81a09fe2cbd2407f4d3a2dff3d703e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 21cc12cd025edfc573e1e2f21ed08181f1a0c926
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099669"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>會議組態：建立新的或編輯現有組態
 
@@ -56,6 +56,4 @@ ms.locfileid: "49803933"
 
 - **自訂頁腳文字** 輸入要用於自訂會議邀請的文字。
 
-如需使用會議設定的詳細資訊，請參閱作業文件中的＜[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)＞。 如需針對大型會議設定會議設定的詳細資訊，請參閱規劃檔中的 [設定大型會議的支援](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) 。
-
-
+如需使用會議設定的詳細資訊，請參閱作業文件中的＜[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)＞。 如需針對大型會議設定會議設定的詳細資訊，請參閱規劃檔中的 [設定大型會議的支援](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings) 。

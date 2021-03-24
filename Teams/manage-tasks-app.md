@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909397"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101149"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -81,7 +81,7 @@ ms.locfileid: "49909397"
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>如果使用者已取得 Exchange Online 授權，則會顯示使用者的 [我的工作]
 
-如果您不希望使用者看到 **我的工作**，可將其隱藏。 若要這麼做，請[移除使用者的 Exchange Online 授權](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。 請務必瞭解，在移除 Exchange Online 授權之後，該使用者將無法再存取其信箱。  信箱資料會保留 30 天，之後資料將被移除且無法復原，除非信箱位於[就地保留或訴訟封存](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)。
+如果您不希望使用者看到 **我的工作**，可將其隱藏。 若要這麼做，請[移除使用者的 Exchange Online 授權](/microsoft-365/admin/manage/remove-licenses-from-users)。 請務必瞭解，在移除 Exchange Online 授權之後，該使用者將無法再存取其信箱。  信箱資料會保留 30 天，之後資料將被移除且無法復原，除非信箱位於[就地保留或訴訟封存](/exchange/security-and-compliance/in-place-and-litigation-holds)。
 
 我們不會建議資訊工作者使用這種方式，但可能會發生可套用這種方式的情況，例如不依賴電子郵件的第一線工作者。
 
@@ -123,5 +123,5 @@ Contoso 總部和中級經理可以查看報告，以瞭解每個商店和商店
 
 [工作] 可支援待辦事項的 Power Automate 以及 Planner 的圖形 API。 若要深入了解，請參閱：
 
-- [Planner 工作和計畫 API 概觀](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Planner 工作和計畫 API 概觀](/graph/planner-concept-overview)
 - [透過 Power Automate 使用 Microsoft To Do](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

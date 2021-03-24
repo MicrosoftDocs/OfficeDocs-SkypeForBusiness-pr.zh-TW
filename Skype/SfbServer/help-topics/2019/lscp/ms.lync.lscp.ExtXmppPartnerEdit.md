@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 8bb7e7cd0b9273d4c6635444eea75af6b791cdc2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 58148b1901071ee3579b7c183712e141357cb1d7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833713"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100469"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP 同盟協力廠商：建立新的或編輯現有
 
@@ -29,7 +29,6 @@ ms.locfileid: "49833713"
 
 您要執行的工作 按一下您要執行之任務的連結。
 
-- [建立或編輯 XMPP 夥伴設定](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [建立或編輯 XMPP 夥伴設定](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-xmpp-partner-configuration)
 
-- [XMPP 同盟協力廠商的協商設定表格](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
-
+- [XMPP 同盟協力廠商的協商設定表格](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)

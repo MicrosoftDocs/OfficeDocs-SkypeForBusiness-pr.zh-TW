@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '當您設定原則以支援與同盟協力廠商的通訊時，這些原則會套用至同盟網域的使用者。 '
-ms.openlocfilehash: 2b7976492fe4f789c2f3130fb51deaaef44af701
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6107615767d0360180baf9f22d5fddc6a5f8e565
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817298"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099039"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中設定控制同盟使用者存取的原則
 
@@ -131,10 +131,8 @@ ms.locfileid: "49817298"
  
 [管理貴組織的 SIP 同盟提供者](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
-[Get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[新 Get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Remove-Get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
-[授與 Get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  
-  
-
+[Get-csexternalaccesspolicy](/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[新 Get-csexternalaccesspolicy](/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-Get-csexternalaccesspolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[授與 Get-csexternalaccesspolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy)  

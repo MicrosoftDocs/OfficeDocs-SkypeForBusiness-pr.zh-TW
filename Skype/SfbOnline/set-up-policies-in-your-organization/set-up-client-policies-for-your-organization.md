@@ -18,32 +18,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 用戶端策略可協助判斷提供給使用者的商務用 Skype Online 功能;例如，您可能會給予部分使用者傳輸檔案的權利，同時拒絕其他使用者這項權利。
-ms.openlocfilehash: 65a346f0f16892d5995b723431fc796e3faa1a3b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: 用戶端政策可協助判斷可供使用者使用的商務用 Skype Online 功能;例如，您可以給予部分使用者傳輸檔案的權利，同時拒絕將這項權利授予其他使用者。
+ms.openlocfilehash: 3706e6b4fafe15aa8b799170001af61b837968da
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569225"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100529"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>設定組織的用戶端原則
 
-用戶端策略可協助判斷提供給使用者的商務用 Skype Online 功能;例如，您可能會給予部分使用者傳輸檔案的權利，同時拒絕其他使用者這項權利。
+用戶端政策可協助判斷可供使用者使用的商務用 Skype Online 功能;例如，您可以給予部分使用者傳輸檔案的權利，同時拒絕將這項權利授予其他使用者。
   
-您可以在建立策略時設定用戶端策略設定，或者您可以使用 **Set-CsClientPolicy** Cmdlet 來修改現有策略的設定。
+您可以在建立策略時設定用戶端策略設定，或者您可以使用 **Set-CsClientPolicy** Cmdlet 修改現有策略的設定。
   
-## <a name="set-your-client-policies"></a>設定您的用戶端策略
+## <a name="set-your-client-policies"></a>設定用戶端策略
 
 > [!NOTE]
-> 針對商務用 Skype Online 的所有用戶端策略設定，您必須使用 Windows PowerShell，而且無法使用商務用 **Skype 系統管理中心**。 
+> 針對商務用 Skype Online 中所有的用戶端策略設定，您必須使用 Windows PowerShell，而且您不得使用 **商務用 Skype 系統管理中心**。  
   
 ### <a name="start-windows-powershell"></a>啟動 Windows PowerShell
 
 > [!NOTE]
-> 商務用 Skype Online Connector 目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行，則不需要安裝商務用 Skype Online Connector。
-1. 安裝 [Teams PowerShell 模組](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
+> 商務用 Skype Online Connector 目前是 Teams PowerShell 最新模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行，則不需要安裝商務用 Skype Online 連接器。
+1. 安裝 [Teams PowerShell 模組](/microsoftteams/teams-powershell-install)。
     
-2. 開啟 Windows PowerShell 命令提示程式，然後執行下列命令： 
+2. 開啟 Windows PowerShell 命令提示符，然後執行下列命令： 
 
     ```powershell
    # When using Teams PowerShell Module
@@ -52,9 +52,9 @@ ms.locfileid: "50569225"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   如果您想要有關啟動 Windows PowerShell 的資訊，請參閱在單一 Windows PowerShell 視窗中連接到所有[Microsoft 365 或 Office 365](https://technet.microsoft.com/library/dn568015.aspx)服務，或設定[您的電腦以使用 Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   如果您想要啟動 Windows PowerShell 的更多相關資訊，請參閱在單一 Windows PowerShell 視窗中連接到所有 [Microsoft 365 或 Office 365 服務](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) ，或設定 [電腦以使用 Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
  
-### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>停用圖釋和目前狀態通知，並防止存存的 IMS
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>停用圖釋和目前狀態通知，並防止保存 IMS
 
 - 若要為這些設定建立新策略，請執行：
     
@@ -63,20 +63,20 @@ ms.locfileid: "50569225"
    New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
    ```
 
-  查看 [New-CsClientPolicy Cmdlet](https://technet.microsoft.com/library/mt779155.aspx) 的更多資訊。
+  請參閱 [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) Cmdlet。
     
-- 若要將您建立的新政策授予貴組織的所有使用者，請執行：
+- 若要將您建立的新政策授予貴組織中所有使用者，請執行：
     
  
    ```powershell
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
    ```
 
-  查看 [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的更多資訊。
+  請參閱 [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) Cmdlet。
     
-如果您已經建立原則，您可以使用 [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 對現有原則進行變更，然後使用 [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用至您的使用者。
+如果您已經建立原則，您可以使用 [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) Cmdlet 對現有原則進行變更，然後使用 [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) Cmdlet 將設定套用給使用者。
   
-### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>在立即資訊中啟用可點按一下的 URL 或超連結
+### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>啟用 URL 或超連結在 IMs 中可按一下
 
 - 若要為這些設定建立新策略，請執行：
     
@@ -85,18 +85,18 @@ ms.locfileid: "50569225"
    New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
    ```
 
-  查看 [New-CsClientPolicy Cmdlet](https://technet.microsoft.com/library/mt779155.aspx) 的更多資訊。
+  請參閱 [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) Cmdlet。
     
-- 若要將您建立的新政策授予貴組織的所有使用者，請執行：
+- 若要將您建立的新政策授予貴組織中所有使用者，請執行：
     
  
    ```powershell
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
    ```
 
-  查看 [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的更多資訊。
+  請參閱 [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) Cmdlet。
     
-如果您已經建立原則，您可以使用 [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 對現有原則進行變更，然後使用 [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用至您的使用者。
+如果您已經建立原則，您可以使用 [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) Cmdlet 對現有原則進行變更，然後使用 [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) Cmdlet 將設定套用給使用者。
   
 ### <a name="prevent-showing-recent-contacts"></a>防止顯示最近的連絡人
 
@@ -106,40 +106,39 @@ ms.locfileid: "50569225"
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  查看 [New-CsClientPolicy Cmdlet](https://technet.microsoft.com/library/mt779155.aspx) 的更多資訊。
+  請參閱 [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) Cmdlet。
     
-- 若要將您建立的新策略授予 Amos Marble，請執行：
+- 若要將您建立的新政策授予 Amos Marble，請執行：
    
    ```powershell
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
    ```
 
-  查看 [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 的更多資訊。
+  請參閱 [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) Cmdlet。
     
-  如果您已經建立原則，您可以使用 [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) Cmdlet 對現有原則進行變更，然後使用 [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) Cmdlet 將設定套用至您的使用者。
+  如果您已經建立原則，您可以使用 [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) Cmdlet 對現有原則進行變更，然後使用 [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) Cmdlet 將設定套用給使用者。
   
-## <a name="want-to-know-more-about-windows-powershell"></a>想要進一瞭解更多 Windows PowerShell 嗎？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要進一瞭解 Windows PowerShell 嗎？
 
-- Windows PowerShell 就是管理使用者，以及允許或禁止使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單點系統管理來管理 Microsoft 365 或 Office 365 和商務用 Skype Online，當您有多個任務作作時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365 和商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [Windows PowerShell 與 Lync Online 的簡介](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [為何要使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的六個原因](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [您可能會想要使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的六個原因](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 在速度、簡易性和生產力方面有許多優點，比只使用 Microsoft 365 系統管理中心有許多優點，例如當您一次為許多使用者進行設定變更時。 在下列主題中瞭解這些優點：
+- Windows PowerShell 比使用 Microsoft 365 系統管理中心在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
     
-  - [使用 Windows PowerShell 管理商務用 Skype Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [使用 Windows PowerShell 管理商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 執行一般商務用 Skype Online 管理工作](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [使用 Windows PowerShell 執行常見的商務用 Skype Online 管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相關主題
 [建立自訂外部存取原則](create-custom-external-access-policies.md)
 
-[封鎖點對點檔案傳輸](block-point-to-point-file-transfers.md)
+[封鎖點到點檔案傳輸](block-point-to-point-file-transfers.md)
 
 [在組織中設定會議策略](set-up-conferencing-policies-for-your-organization.md)
 
   
- 

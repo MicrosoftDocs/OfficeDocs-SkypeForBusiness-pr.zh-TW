@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要指定網站的網站詳細資料，請執行下列操作：
-ms.openlocfilehash: 8efb8225e725dbadc3bb6e82f22a6845e58c0c4c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 15097700648634ad3865971e7e8e6742e101f561
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100169"
 ---
 # <a name="add-branch-site-details"></a>新增分支網站詳細資料
 
@@ -32,6 +32,4 @@ ms.locfileid: "49811933"
 
 為新的分支網站指定國家/地區代碼名稱。「國家/地區代碼」值為選用項目。
 
-如需其他資訊，請參閱＜[Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)＞。
-
-
+如需其他資訊，請參閱＜[Sites](/previous-versions/office/lync-server-2013/lync-server-2013-sites)＞。

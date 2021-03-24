@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918679"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101269"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -69,7 +69,7 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|我的網路是否已準備好進行 Teams 會議部署？ | 若要確認您的網路已準備就緒，請參閱：<ul><li>[針對 Microsoft Teams 準備組織的網路](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL 和 IP 位址範圍](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|我的網路是否已準備好進行 Teams 會議部署？ | 若要確認您的網路已準備就緒，請參閱：<ul><li>[針對 Microsoft Teams 準備組織的網路](./prepare-network.md)</li><li>[URL 和 IP 位址範圍](./office-365-urls-ip-address-ranges.md)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
@@ -83,7 +83,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 | 問問自己 | 動作 |
 |--------------|--------|
 |誰將獲指派 Teams 通訊系統管理員角色？|若要深入了解 Teams 系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色管理來管理 Teams](using-admin-roles.md)。|
-|誰將獲指派 Teams 通訊支援工程師角色？|若要指派系統管理員角色，[使用 Azure Active Directory 將系統管理員和非系統管理員角色指派給使用者](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
+|誰將獲指派 Teams 通訊支援工程師角色？|若要指派系統管理員角色，[使用 Azure Active Directory 將系統管理員和非系統管理員角色指派給使用者](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
 |誰將獲指派 Teams 通訊支援專員角色？||
 |||
 
@@ -119,7 +119,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 | 問問自己 | 動作 |
 |--------------|--------|
 |我要為使用者購買個人裝置嗎？ |請閱讀[在 Teams 中管理裝置](devices/device-management.md)。 |
-|我要為會議室購買並部署會議室系統裝置嗎？|請閱讀[會議室裝置和解決方案](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。|
+|我要為會議室購買並部署會議室系統裝置嗎？|請閱讀[會議室裝置和解決方案](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)。|
 |||
 
 ### <a name="reporting"></a>報告
@@ -181,7 +181,7 @@ Teams 即時事件原則用於管理使用者群組的事件設定。 您可以�
 
 | 問問自己 | 動作 |
 |--------------|--------|
-| 要推出會議室系統，我需要做什麼？|請查看[規劃 Microsoft Teams 會議室](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)文章。|
+| 要推出會議室系統，我需要做什麼？|請查看[規劃 Microsoft Teams 會議室](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)文章。|
 |||
 
 ### <a name="cloud-video-interop"></a>雲端視訊 Interop

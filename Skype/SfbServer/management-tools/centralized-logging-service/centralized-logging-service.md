@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 摘要：瞭解商務用 Skype Server 2015 中集中式記錄服務的服務元件和設定設定。
-ms.openlocfilehash: f4cb47204aa4970e0a86d5f1d556099b52afd07c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7cc49d258011334d7c72bca3f55d5f83ae5d06af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835263"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098869"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>商務用 Skype 2015 中的集中式記錄服務
  
@@ -60,7 +60,7 @@ ms.locfileid: "49835263"
   
 您使用 Windows Server 命令列介面或使用商務用 Skype Server 管理命令介面發出命令。 命令會在您登入的電腦上執行，並傳送至本機的 ClsAgent，或部署中的其他電腦及集區。
   
-ClsAgent 會維護全部的索引檔案。在本機電腦上的快取檔。 ClsAgent 會將其分配給它們，使其平均分散于選項 CacheFileLocalFolders 所定義的各個磁片區上，每個磁片區絕對使用超過 80% (也就是說，本機快取位置和百分比可使用 **Set-CsClsConfiguration** Cmdlet) 來設定。 ClsAgent 也負責帳齡舊的快取事件追蹤記錄檔 ( .etl) 本機電腦。 在兩周後 (也就是說，可使用 **Set-CsClsConfiguration** Cmdlet 來設定時間範圍) 這些檔案會複製到檔案共用，並從本機電腦刪除。 如需詳細資訊，請參閱 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)。 當接收搜尋要求時，搜尋準則是用來選取一組快取的 .etl 檔案，以根據代理程式所維護之索引中的值來執行搜尋。
+ClsAgent 會維護全部的索引檔案。在本機電腦上的快取檔。 ClsAgent 會將其分配給它們，使其平均分散于選項 CacheFileLocalFolders 所定義的各個磁片區上，每個磁片區絕對使用超過 80% (也就是說，本機快取位置和百分比可使用 **Set-CsClsConfiguration** Cmdlet) 來設定。 ClsAgent 也負責帳齡舊的快取事件追蹤記錄檔 ( .etl) 本機電腦。 在兩周後 (也就是說，可使用 **Set-CsClsConfiguration** Cmdlet 來設定時間範圍) 這些檔案會複製到檔案共用，並從本機電腦刪除。 如需詳細資訊，請參閱 [Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)。 當接收搜尋要求時，搜尋準則是用來選取一組快取的 .etl 檔案，以根據代理程式所維護之索引中的值來執行搜尋。
   
 > [!NOTE]
 > 從本機電腦移至檔案共用的檔案，可依 ClsAgent 進行搜尋。 一旦 ClsAgent 將檔案移至檔案共用，檔案的老化和移除不會由 ClsAgent 維護。 您應定義管理工作，以監視檔案共用中的檔案大小，並刪除或封存檔案。 
@@ -125,5 +125,3 @@ ClsAgent 會維護全部的索引檔案。在本機電腦上的快取檔。 ClsA
 |**ComponentThrottleLimit** <br/> |定義在觸發自動節流限制器之前，元件每秒可以產生的追蹤上限。  <br/> |
 |**ComponentThrottleSample** <br/> |60 秒內可超過 ComponentThrottleLimit 的次數。  <br/> |
 |**MinimumClsAgentServiceVersion** <br/> |允許執行的 CLSAgent 最小版本。 此元素適用于 Microsoft 365 或 Office 365。  <br/> |
-   
-

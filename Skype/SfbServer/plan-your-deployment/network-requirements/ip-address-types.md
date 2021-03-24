@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要：在實施商務用 Skype Server 之前，複查下列的 IP 位址類型考慮。
-ms.openlocfilehash: d5e50b8d3a964bb4e4dcbc502527e5249af3a1e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825254"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101249"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>設定商務用 Skype 中的 IP 位址類型
 
@@ -53,7 +53,7 @@ ms.locfileid: "49825254"
    - **PSTN IP 位址**。當中繼伺服器在前端伺服器上組合時，請定義 PSTN IP 位址。此位址必須符合所選位址類型的格式。
 
 > [!NOTE]
-> 安裝額外的網路介面卡 (Nic) 以支援 PSTN IP 位址設定 (或其他任何) 在前端伺服器上的原因，都不受支援。 如需商務用 Skype Server 支援的 NIC 設定的詳細資訊，請參閱 [伺服器硬體平臺的 Lync server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。
+> 安裝額外的網路介面卡 (Nic) 以支援 PSTN IP 位址設定 (或其他任何) 在前端伺服器上的原因，都不受支援。 如需商務用 Skype Server 支援的 NIC 設定的詳細資訊，請參閱 [伺服器硬體平臺的 Lync server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)。
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>在轉送伺服器上部署 IP 位址類型
 

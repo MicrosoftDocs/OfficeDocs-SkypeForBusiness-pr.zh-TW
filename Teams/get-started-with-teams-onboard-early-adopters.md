@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8062b0f1ada28289b2a6c62dc6a29c3b6cf1f751
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c85d22179887fa797bb91fedbc0e5ec40b08a03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809493"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101189"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>將早期採用者上線至 Microsoft Teams
 
@@ -55,7 +55,7 @@ Teams 有適用於桌面 (Windows 和 Mac)、Web 和行動裝置 (iOS 和 Androi
 
 ### <a name="desktop-client"></a>桌面用戶端
 
-Teams 桌面用戶端為 Windows 和 Mac 使用者提供最佳的整體體驗。 若要深入了解，請參閱[取得 Teams 用戶端 (桌面用戶端)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) 和 [Microsoft Teams 應用程式的硬體需求](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)。
+Teams 桌面用戶端為 Windows 和 Mac 使用者提供最佳的整體體驗。 若要深入了解，請參閱[取得 Teams 用戶端 (桌面用戶端)](./get-clients.md#desktop-client) 和 [Microsoft Teams 應用程式的硬體需求](./hardware-requirements-for-the-teams-app.md)。
 
 > [!NOTE]
 > 如果您是系統管理員，可以選擇將安裝檔案發佈到組織中電腦的方法，例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。
@@ -84,7 +84,7 @@ Teams 提供功能豐富的 Web 用戶端，[https://teams.microsoft.com](https:
 
 ### <a name="mobile-client"></a>行動用戶端
 
-iOS 和 Android 的 Teams 行動用戶端讓使用者隨時隨地都能保持連線且具生產力。 若要深入了解，請參閱[取得 Teams 用戶端 (行動用戶端)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients)。
+iOS 和 Android 的 Teams 行動用戶端讓使用者隨時隨地都能保持連線且具生產力。 若要深入了解，請參閱[取得 Teams 用戶端 (行動用戶端)](./get-clients.md#mobile-clients)。
 
 #### <a name="teams-for-ios"></a>iOS 版 Teams 
 

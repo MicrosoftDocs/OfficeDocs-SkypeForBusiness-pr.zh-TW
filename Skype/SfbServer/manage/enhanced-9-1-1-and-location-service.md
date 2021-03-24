@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 商務用 skype 伺服器支援增強型 9-1-1 (E9-1-1) 呼叫從商務用 Skype 用戶端。 當您設定 E9-1-1 的商務用 Skype Server 時，來自商務用 Skype 的緊急通話包含緊急回應位置 (ERL) 位置資訊服務資料庫中的資訊。
-ms.openlocfilehash: c5b626763de78495a2feaa5ecb1ba77e367bd77d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4b786d3285b5075a13f43f3b7c7cb75b79182a9f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817473"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099059"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>在 Busines Server 的 Skype 中管理增強型9-1-1 與位置服務
 
@@ -77,7 +77,7 @@ ms.locfileid: "49817473"
         
           - **不需要**   不會提示使用者輸入位置。 當通話沒有地點資訊時，緊急服務提供者會接聽來電，並要求地點。
         
-          - **免責聲明**   此選項與 **必要條件** 相同，只是使用者無法在未輸入位置資訊的情況下關閉提示。 使用者仍可完成緊急通話，但沒有輸入資訊，可以完成其他電話。 此外，還會向使用者顯示免責聲明文字，以提醒他們拒絕輸入位置資訊的後果。 若要設定免責聲明文字，您必須使用商務用 Skype Server 管理命令介面來執行 **CsLocationPolicy** Cmdlet 或具有 EnhancedEmergencyServiceDisclaimer 參數的 **New-CsLocationPolicy** Cmdlet。 如需詳細資訊，請參閱 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 或 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)。
+          - **免責聲明**   此選項與 **必要條件** 相同，只是使用者無法在未輸入位置資訊的情況下關閉提示。 使用者仍可完成緊急通話，但沒有輸入資訊，可以完成其他電話。 此外，還會向使用者顯示免責聲明文字，以提醒他們拒絕輸入位置資訊的後果。 若要設定免責聲明文字，您必須使用商務用 Skype Server 管理命令介面來執行 **CsLocationPolicy** Cmdlet 或具有 EnhancedEmergencyServiceDisclaimer 參數的 **New-CsLocationPolicy** Cmdlet。 如需詳細資訊，請參閱 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 或 [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)。
           
     
       - **僅限緊急服務的使用位置** 商務用 Skype 可使用位置資訊，原因如下 (例如，將您目前位置的小組通知) 。 選取此核取方塊可確保位置資訊僅供緊急通話之用。
@@ -154,10 +154,10 @@ ms.locfileid: "49817473"
 
 [建立或修改網路網站](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)  
 
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
+[Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 
  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[Remove-CsLocationPolicy](/powershell/module/skype/Remove-CsLocationPolicy)  
 
-[Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[Get-CsLocationPolicy](/powershell/module/skype/Get-CsLocationPolicy)

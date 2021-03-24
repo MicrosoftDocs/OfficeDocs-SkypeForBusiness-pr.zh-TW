@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: 您可以將測試裝置新增至 [測試裝置] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server [控制台] 的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: fd32fafd3b334344fe90c28e130e016dfbcf5043
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e48c76237f8d9cafb1642e8ec1e598dcc24453c3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819043"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099349"
 ---
 # <a name="test-device"></a>測試裝置
 
@@ -54,13 +54,13 @@ ms.locfileid: "49819043"
 
 - **Refresh** 您可以重新整理測試裝置清單，以確認所有測試裝置選項的狀態。
 
-如需測試裝置的詳細資訊，請參閱 Operations 檔中的 [Add a Device To Test Update 功能性](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) 。
+如需測試裝置的詳細資訊，請參閱 Operations 檔中的 [Add a Device To Test Update 功能性](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-device-to-test-update-functionality) 。
 ## <a name="see-also"></a>另請參閱
 
 [測試裝置：建立新的或編輯現有裝置](test-device-create-new-or-edit-existing.md)
 
-[新 CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[新 CsTestDevice](/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
-[CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+[CsTestDevice](/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
-[查看您組織中裝置的軟體更新](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[查看您組織中裝置的軟體更新](/previous-versions/office/lync-server-2013/lync-server-2013-view-software-updates-for-devices-in-your-organization)

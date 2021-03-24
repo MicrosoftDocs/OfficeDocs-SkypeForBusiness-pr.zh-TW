@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 摘要：瞭解如何管理商務用 Skype Server 中的電話撥入式會議存取號碼。
-ms.openlocfilehash: 868d757edc6728254c1ab09d22398cd3dc60901b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4008293015beaa684f9a3d9fa0ec0dedf05e5b2b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806483"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099149"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>管理商務用 Skype Server 中的電話撥入式會議存取號碼
  
@@ -70,7 +70,7 @@ HostingProvider    :
 Regions            : {US}
 </pre>
 
-如需詳細資訊，請參閱 [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+如需詳細資訊，請參閱 [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>修改電話撥入式會議存取號碼
 
@@ -146,7 +146,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
-如需詳細資訊，請參閱 [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)。
+如需詳細資訊，請參閱 [Set-CsDialInConferencingAccessNumber](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>刪除電話撥入式會議存取號碼
 
@@ -186,6 +186,4 @@ Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConfer
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 
-如需詳細資訊，請參閱 [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps)。
-  
-
+如需詳細資訊，請參閱 [Remove-CsDialInConferencingAccessNumber](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps)。

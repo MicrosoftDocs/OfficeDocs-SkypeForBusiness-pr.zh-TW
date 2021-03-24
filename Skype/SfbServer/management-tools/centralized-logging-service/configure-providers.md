@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 摘要：瞭解如何為商務用 Skype Server 2015 中的集中式記錄服務設定案例提供者。
-ms.openlocfilehash: c96a87ea76930dbd99341667852a9731e56b88b5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cd0364d6497aa53d258b5346090d6cdd7c338cc3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098849"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定集中式記錄服務的提供者
  
@@ -143,7 +143,7 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-命令的最終結果是，案例 site:Redmond/RedmondLyssInfo 會有更新的旗標和層級供指派給案例的提供者使用。 您可以使用 Get-CsClsScenario 檢視新案例。 如需詳細資訊，請參閱 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)。
+命令的最終結果是，案例 site:Redmond/RedmondLyssInfo 會有更新的旗標和層級供指派給案例的提供者使用。 您可以使用 Get-CsClsScenario 檢視新案例。 如需詳細資訊，請參閱 [Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps)。
 > [!CAUTION]
 > **New-ClsCsProvider** 不會進行檢查來決定旗標是否有效。 請確認旗標的拼字 (例如 TF_DIAG 或 TF_CONNECTION) 正確無誤。 如果旗標的拼字不正確，提供者就無法傳回預期的記錄資訊。
   
@@ -186,12 +186,12 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 在使用 **Remove-CsClsScenario** Cmdlet 移除案例時，您可以將案例從範圍完全移除。 若要使用您建立的案例，及使用做為案例之一部分的提供者，您需建立新的提供者，並將其指派給新的案例。
 ## <a name="see-also"></a>另請參閱
 
-[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
+[Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
-[New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
+[New-CsClsScenario](/powershell/module/skype/new-csclsscenario?view=skype-ps)
   
-[Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/remove-csclsscenario?view=skype-ps)
+[Remove-CsClsScenario](/powershell/module/skype/remove-csclsscenario?view=skype-ps)
   
-[Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
+[Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
-[New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)
+[New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps)

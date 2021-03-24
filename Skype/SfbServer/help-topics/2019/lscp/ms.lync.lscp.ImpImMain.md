@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 8a3d695d26101235dc968bebbfade1611e44aafc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 16dcd0170aa9294b37ed5ae42c32d19afbaaadd3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833694"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100379"
 ---
 # <a name="url-filter"></a>URL 篩選器
 
 您要執行的工作 按一下您要執行之任務的連結。
 
-- [修改預設 URL 篩選器](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [修改預設 URL 篩選器](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-url-filter)
 
-- [建立新的 URL 篩選器以處理 IM 交談中的超連結](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
-
-
-
+- [建立新的 URL 篩選器以處理 IM 交談中的超連結](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations)

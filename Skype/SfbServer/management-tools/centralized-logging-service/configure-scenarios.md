@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中建立、修改及移除集中式記錄服務的案例。
-ms.openlocfilehash: 8778530826cdbd0c3ecc5128385644f2191a858e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6ec6764ce3717f38fead9e88c570895f1676310f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835183"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098839"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定集中式記錄服務的案例
  
@@ -28,7 +28,7 @@ ms.locfileid: "49835183"
 案例會定義範圍 (，例如全域、網站、集區或電腦) ，以及要在集中式記錄服務中使用的提供者。 使用案例，您可以啟用或停用提供者的追蹤功能 (例如，S4、SIPStack、IM 及顯示狀態) 。 透過設定案例，您可以將特定邏輯集合的所有提供者分組，以解決特定問題的條件。 如果您發現案例必須修改以符合疑難排解和記錄需求，則商務用 Skype Server 2015 調試工具會提供一個名為 ClsScenarioEdit 的 Windows PowerShell 模組，此模組包含 namedEdit-New-csclsscenario 函數的 sharepointsync.psm1。 模組的用途是編輯指定之案例的屬性。 本主題提供此模組的運作方式範例。 下載商務用 Skype Server 2015 [調試工具](https://go.microsoft.com/fwlink/p/?LinkId=285257) ，再繼續進行其他任何工作。
   
 > [!IMPORTANT]
-> 針對任何指定的範圍（即 site、global、pool 或 computer），您可以在任何指定時間執行最多兩個案例。 若要判斷目前正在執行的案例，請使用 Windows PowerShell 和 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)。 使用 Windows PowerShell 和 [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)，您可以動態變更正在執行的案例。 您可以修改在記錄會話期間執行哪些案例，以調整或精煉所收集的資料，以及提供者。 
+> 針對任何指定的範圍（即 site、global、pool 或 computer），您可以在任何指定時間執行最多兩個案例。 若要判斷目前正在執行的案例，請使用 Windows PowerShell 和 [Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps)。 使用 Windows PowerShell 和 [Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps)，您可以動態變更正在執行的案例。 您可以修改在記錄會話期間執行哪些案例，以調整或精煉所收集的資料，以及提供者。 
   
 若要使用商務用 Skype Server 管理命令介面來執行集中式記錄服務功能，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組的成員，或是包含這兩個群組之任一個自訂 RBAC 角色的成員。 若要傳回所有獲指派此 Cmdlet 的 RBAC 角色清單（包括您自行建立的自訂 RBAC 角色），請從商務用 Skype Server 管理命令介面或 Windows PowerShell 提示中執行下列命令：
   
@@ -59,7 +59,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-2. 若要建立記錄會話的新案例，請使用 [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) 及定義案例的名稱 (也就是說，它會如何唯一識別) 。 從 WPP (選擇一種記錄格式，也就是 Windows 軟體追蹤預處理程式和預設) ，EventLog (也就是 Windows 事件記錄格式) 或 IISLog (，也就是根據 IIS 記錄檔格式) 的 ASCII 格式檔案。 接下來，以本主題所述) 中的 [記錄層級]，將 Level (定義為 [定義]，並在本主題) 的 [旗標] 底下標示 (。
+2. 若要建立記錄會話的新案例，請使用 [New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps) 及定義案例的名稱 (也就是說，它會如何唯一識別) 。 從 WPP (選擇一種記錄格式，也就是 Windows 軟體追蹤預處理程式和預設) ，EventLog (也就是 Windows 事件記錄格式) 或 IISLog (，也就是根據 IIS 記錄檔格式) 的 ASCII 格式檔案。 接下來，以本主題所述) 中的 [記錄層級]，將 Level (定義為 [定義]，並在本主題) 的 [旗標] 底下標示 (。
     
     在此範例案例中，我們使用 LyssProvider 做為範例提供者變數。
     
@@ -92,7 +92,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!NOTE]
-    > 如 Windows PowerShell 中所知，用來建立值之雜湊表的約定  `@{<variable>=<value1>, <value2>, <value>…}` 是已知的 assplatting。 如需有關 Windows PowerShell 中的 splatting 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760) 。 
+    > 如 Windows PowerShell 中所知，用來建立值之雜湊表的約定  `@{<variable>=<value1>, <value2>, <value>…}` 是已知的 assplatting。 如需有關 Windows PowerShell 中的 splatting 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)) 。 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>使用 Set-CsClsScenario Cmdlet 修改現有的案例
 

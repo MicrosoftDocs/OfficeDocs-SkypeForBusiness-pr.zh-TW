@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 摘要：查看商務用 Skype Server 中的使用者 PIN 碼資訊。
-ms.openlocfilehash: fa5385c1ca318c4a41e17088368d9928fd6d0e0b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c016e6edf258f63166b930be833542bf9e730f15
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806503"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099219"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看使用者 PIN 資訊
  
@@ -85,7 +85,7 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-如需詳細資訊，請參閱 [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) Cmdlet 的 [說明] 主題。
   
 ## <a name="see-also"></a>另請參閱
 

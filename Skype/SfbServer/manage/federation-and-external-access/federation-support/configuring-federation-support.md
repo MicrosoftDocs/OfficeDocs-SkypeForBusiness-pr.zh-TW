@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '如果您在組織中部署商務用 Skype，則可以與一或多部商務用 Skype Online 客戶的網域同盟。 '
-ms.openlocfilehash: f09e717af9e5209a0bb4bfdeb0ea50abbdaf7f86
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c241af4700662c11366a71a55afad28ed3f8b7db
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817233"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098949"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>在商務用 Skype Server 中為商務用 Skype Online 客戶設定同盟支援 
 
@@ -50,7 +50,7 @@ ms.locfileid: "49817233"
 
 若要與商務用 Skype Online 客戶同盟，您必須完成下列步驟：
 
-  - 為商務用 Skype Online 2010 客戶 (網域設定支援（例如，contoso.onmicrosoft.com) ）。 如在 [與商務用 Skype Online 客戶進行同盟的必要條件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)中所指定，您應該已經為組織啟用同盟。 啟用同盟需要指定同盟網域用來控制存取的方法。 如果您將組織設定成使用探索，則可選擇是否將網域新增至組織的允許清單中。 如果您未啟用網域探索，您必須將商務用 Skype Online 客戶的功能變數名稱新增至您的允許的網域清單。 您可以使用商務用 Skype Server 控制台或執行 **CSAllowedDomain** Cmdlet，新增功能變數名稱。 如需使用商務用 Skype Server 控制台（包括啟用網域探索）的詳細資訊，請參閱 [在商務用 Skype Server 中管理組織的 SIP 同盟提供者](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。 如需使用 **CSAllowedDomain** Cmdlet 新增網域的詳細資訊，請參閱 [New-CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain)。
+  - 為商務用 Skype Online 2010 客戶 (網域設定支援（例如，contoso.onmicrosoft.com) ）。 如在 [與商務用 Skype Online 客戶進行同盟的必要條件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)中所指定，您應該已經為組織啟用同盟。 啟用同盟需要指定同盟網域用來控制存取的方法。 如果您將組織設定成使用探索，則可選擇是否將網域新增至組織的允許清單中。 如果您未啟用網域探索，您必須將商務用 Skype Online 客戶的功能變數名稱新增至您的允許的網域清單。 您可以使用商務用 Skype Server 控制台或執行 **CSAllowedDomain** Cmdlet，新增功能變數名稱。 如需使用商務用 Skype Server 控制台（包括啟用網域探索）的詳細資訊，請參閱 [在商務用 Skype Server 中管理組織的 SIP 同盟提供者](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。 如需使用 **CSAllowedDomain** Cmdlet 新增網域的詳細資訊，請參閱 [New-CsAllowedDomain](/powershell/module/skype/New-CsAllowedDomain)。
 
     > [!NOTE]  
     > 商務用 Skype Online 客戶可以有多個網域。 如果您想要與一個以上的網域同盟，您必須為想要支援同盟的各個個別網域設定支援，並且商務用 Skype Online 客戶的系統管理員必須針對每個要同盟的網域啟用同盟。
@@ -85,7 +85,7 @@ ms.locfileid: "49817233"
     
       - **IsLocal** 會指出裝載提供者所使用的 proxy 伺服器是否包含在商務用 Skype 伺服器拓撲中。
     
-    如需使用此 Cmdlet 的詳細資訊，請參閱 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider)。
+    如需使用此 Cmdlet 的詳細資訊，請參閱 [New-CsHostingProvider](/powershell/module/skype/New-CsHostingProvider)。
 
 ## <a name="configure-user-access-for-federation-with-a-skype-for-business-online-customer"></a>使用商務用 Skype Online 客戶設定同盟的使用者存取 
 
@@ -99,4 +99,4 @@ ms.locfileid: "49817233"
   - 設定內部部署中的網域存取支援。 這包括建立主機提供者專案和設定您的部署，以允許從商務用 Skype Online 客戶的網域進行存取。 如需詳細資訊，請參閱 [Configure 商務用 Skype Online 網域的同盟支援](#configure-federation-support-for-a-skype-for-business-online-domain)。
   - 設定您的使用者帳戶以支援同盟。 如需詳細資訊，請參閱 [使用商務用 Skype Online 客戶設定同盟的使用者存取](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)。
 
-完成所有這些步驟之後，商務用 Skype Online 客戶的系統管理員完成所有設定其線上服務以支援與組織的同盟，請測試組織內部使用者與商務用 Skype Online 客戶之間的通訊，以驗證通訊。 如果通訊不成功，請使用 Edge Server 中的記錄工具來捕獲記錄檔和追蹤檔，以便疑難排解問題。 
+完成所有這些步驟之後，商務用 Skype Online 客戶的系統管理員完成所有設定其線上服務以支援與組織的同盟，請測試組織內部使用者與商務用 Skype Online 客戶之間的通訊，以驗證通訊。 如果通訊不成功，請使用 Edge Server 中的記錄工具來捕獲記錄檔和追蹤檔，以便疑難排解問題。

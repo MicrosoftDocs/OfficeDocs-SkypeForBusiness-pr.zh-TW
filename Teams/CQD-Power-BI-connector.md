@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI Connector 以使用通話品質儀表板 (CQD) 查詢範本
-ms.openlocfilehash: 188e030d4f1ef6eaff21bef83a09c22d29bb51c5
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875033"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101519"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安裝 Power BI Connector 以使用 CQD 查詢範本
 
@@ -28,20 +28,20 @@ ms.locfileid: "50875033"
 
 請參閱使用 Power BI 分析 Teams 的 [CQD](CQD-Power-BI-query-templates.md) 資料，以瞭解這些範本。
 
-請確定您擁有正確的 [CQD 存取角色](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) ，以存取 Power BI 報表。
+請確定您擁有正確的 [CQD 存取角色](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) ，以存取 Power BI 報表。
 
 > [!NOTE]
 > CQD Power BI Connector 僅支援 Power BI 中的 DirectQuery;不支援輸入模式。 
 
 ## <a name="installation"></a>安裝
 
-Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使用 [的過程](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)。 為了簡單起見，以下是快速說明：
+Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使用 [的過程](/power-bi/desktop-connector-extensibility)。 為了簡單起見，以下是快速說明：
 
 1. 檢查您的電腦是否已經有檔 *\[ Power BI \] \\ 桌面 \\ 自訂連接器* 資料夾。 如果沒有，請建立此資料夾。<sup>1</sup>
 
 2. 下載連接器檔案 (*\* .mez* 或 *\* .pqx* 檔案) 並放在 *自訂連接器* 目錄中。
 
-3. **如果連接器檔案是 *\* .mez* 檔案**，您也需要調整安全性設定，如自訂連接器設定檔 [所述](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)。
+3. **如果連接器檔案是 *\* .mez* 檔案**，您也需要調整安全性設定，如自訂連接器設定檔 [所述](/power-bi/desktop-connector-extensibility#data-extension-security)。
 
 如果 Microsoft Teams 版 Power BI Connector 發行新版本，只要將自訂連接器目錄中的舊連接器檔案取代為新檔案。
 
@@ -65,7 +65,7 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
 
 6. 此時，Power BI 會將資料模型載入至視窗右側。 頁面會保留空白，且預設不會載入任何查詢。 繼續進行下方的 **建立** 查詢，以建立查詢並返回資料。
 
-如果此設定程式期間的任何步驟並未完全清楚，可以在快速入門中找到程式的詳細說明：在 [Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)中連接到資料。
+如果此設定程式期間的任何步驟並未完全清楚，可以在快速入門中找到程式的詳細說明：在 [Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)中連接到資料。
 
 ## <a name="building-queries"></a>建立查詢
 
@@ -80,20 +80,20 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
     ![螢幕擷取畫面：Power BI Connector](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
-    > 通話品質儀表板需要執行任何查詢的量值。 若無法新增量值至查詢，則會導致該查詢失敗。
+    > 通話品質儀表板需要量值，以執行任何查詢。 若無法將量值新增到查詢，則會導致該查詢失敗。
 
-3. 接下來，選取您想要篩選的任何維度，然後將這些維度拖曳到此視覺欄位的篩選窗格。  CQD Power BI Connector 目前支援基本篩選 (從可能維度值清單中選取值) 、進位 *篩選 (* 手動指定要篩選的值和操作 *數，類似* Advanced CQD) ，以及僅適用于結束時間和開始時間維度) 的相對日期篩選 (。    CQD 不支援根據 *前 N* 個篩選。
+3. 接下來，選取您想要篩選的任何維度，然後將這些維度拖曳到此視覺欄位的篩選窗格。  CQD Power BI Connector 目前支援基本篩選 (從可能維度值清單中選取值) 、進位篩選 *(* 手動指定要篩選的值和操作 *數，類似* Advanced CQD) ，以及僅適用于結束時間和開始時間維度) 的相對日期篩選 (。    CQD 不支援根據 *前 N* 個篩選。
 
     ![螢幕擷取畫面：Power BI Connector](media/CQD-power-bi-connector5-resize.png)
 
-4. 最後，選取視覺效果 *窗格中* 的格式 *索引* 點，以樣式和格式化查詢。
+4. 最後，選取視覺效果 *窗格中* 的格式索引鍵，以為查詢設置樣式和格式。
 
     > [!NOTE]
     > CQD 查詢至少需要一個量值才能執行。 如果您的查詢未載入，請仔細檢查您是否在查詢中包含量值。
 
 ## <a name="creating-a-drillthrough-report"></a>建立鑽研報表
 
-[Power BI 中的鑽](https://docs.microsoft.com/power-bi/desktop-drillthrough) 取可讓您建立焦點報表，您可以使用其他報表的值做為上下文來快速篩選。 瞭解如何使用 CQD Connector 建立第一個查詢之後，建立切線就更簡單了。
+[Power BI 中的鑽](/power-bi/desktop-drillthrough) 取可讓您建立焦點報表，您可以使用其他報表的值做為上下文快速篩選。 瞭解如何使用 CQD Connector 建立第一個查詢之後，建立切線就更簡單了。
 
 1. 為焦點報表建立另一個頁面，然後將查詢新增到該頁面。
 
@@ -113,9 +113,9 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
 
 ## <a name="limitations"></a>限制
 
-雖然已使用 Power BI，但並非所有 Power BI 功能都受到 CQD Connector 的支援，無論是因為 CQD 資料模型或 DirectQuery 連接器的一般限制。 下列清單會說明連接器的一些較值得注意的限制，但這份清單不應視為詳盡無遺：
+雖然使用 Power BI，但並非所有 Power BI 功能都受到 CQD Connector 的支援，無論是因為 CQD 資料模型或 DirectQuery 連接器的一般限制。 下列清單會說明連接器的一些較值得注意的限制，但這份清單不應視為詳盡無遺：
 
-1. **計算欄 –** DirectQuery 連接器一般對 Power BI 中計算結果欄的支援有限。 雖然某些計算結果欄可能用於連接器，但應視為例外。 根據一般規則，計算結果欄無法運作。
+1. **計算欄 –** DirectQuery 連接器一般對 Power BI 中計算結果欄的支援有限。 雖然某些計算結果欄可能與連接器一起使用，但應視為例外。 根據一般規則，計算結果欄不會運作。
 
 2. **匯總 –** CQD 資料模型是建在 Cube 模型上，這表示匯總已經以度量形式支援。 嘗試手動將匯總新增到不同的維度或變更度量的匯總類型，無法與連接器一起使用，而且通常會導致錯誤。
 
@@ -127,7 +127,7 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
 
 6. **政府社群雲端 (GCC) 支援 –** 對於 GCC 環境中的客戶，CQD Power BI Connector 將在使用 Power BI Desktop 時使用。 CQD Power BI 連接器與 GCC 客戶的 Power BI 服務相容。
 
-這些問題大部分是 Power BI 中 DirectQuery 連接器設計的限制，或是 CQD 資料模型設計的基本問題。
+這些問題大部分是 Power BI 中 DirectQuery 連接器設計的限制，或是 CQD 資料模型設計的基礎。
 
 ## <a name="troubleshooting"></a>疑難排解
 
@@ -171,14 +171,14 @@ Power BI Connector 不支援日期分割器。 若要指定日期範圍，請對
 
 詳細資訊，請參閱下列文章：
 
-- [Power BI 優化指南](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
-- [DirectQuery 模型指南](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+- [Power BI 優化指南](/power-bi/guidance/power-bi-optimization)
+- [DirectQuery 模型指南](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>我發現執行查詢時，會經常遇到 10，000 列的限制。 如何讓連接器返回超過 10，000 列
 
 10，000 列的限制實際上是在 API 端指定，其設計可協助大幅提升績效，並降低因記憶體不足而造成查詢執行錯誤的風險。
 
-與其嘗試增加結果列數，最好根據連接器最佳做法來重新組織報表。 我們包含的範本是專為示範這些最佳做法所設計。 如果可能的話，首先使用較寬、基數較低的維度來查看 KPI，例如月、年、日期、地區、國家/地區等。您可以在那裡向下向下切入到愈高基數維度。 說明台和Location-Enhanced報表都提供此向下切入工作流程的範例。
+與其嘗試增加結果列數，最好根據連接器最佳做法來重新組織報表。 我們包含的範本是專為示範這些最佳做法所設計。 如果可能的話，首先請用較寬、較低基數維度來查看 KPI，例如月、年、日期、地區、國家/地區等。您可以在那裡向下向下切入到愈高基數維度。 說明台和Location-Enhanced報表都提供此向下切入工作流程的範例。
 
 
 

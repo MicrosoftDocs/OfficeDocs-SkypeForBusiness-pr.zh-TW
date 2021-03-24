@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議服務器設定設定。
-ms.openlocfilehash: 7f8714a4098285e955b559b2baf70d74957159a1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: db44ad62acb99bab32b732ea0686784b14c3b2b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828283"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099089"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議服務器設定設定
  
@@ -37,10 +37,10 @@ ms.locfileid: "49828283"
 
 |**指令程式**|**描述**|
 |:-----|:-----|
-|[Get-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |傳回組織的會議設定設定資訊。  <br/> |
-|[New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |會建立新的會議配置設定集合。  <br/> |
-|[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |移除指定的會議配置設定集合。  <br/> |
-|[Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |修改現有會議配置設定的集合。  <br/> |
+|[Get-CsConferencingConfiguration](/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |傳回組織的會議設定設定資訊。  <br/> |
+|[New-CsConferencingConfiguration](/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |會建立新的會議配置設定集合。  <br/> |
+|[Remove-CsConferencingConfiguration](/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |移除指定的會議配置設定集合。  <br/> |
+|[Set-CsConferencingConfiguration](/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |修改現有會議配置設定的集合。  <br/> |
    
 下列命令會為 Redmond 網站 (site： Redmond) 建立新的會議配置設定集合。 在此範例中，會包含另一個參數 (組織) 用以將組織屬性值設定為 Litwareinc： 
   
@@ -65,5 +65,3 @@ Set-CsConferencingConfiguration -Instance $x
 ```
 
 如果您未呼叫 **Set-CsConferencingConfiguration** Cmdlet，新設定永遠不會生效。 相反地，當您結束 Windows PowerShell 會話或刪除變數 $x 時，它們會立即消失。
-  
-

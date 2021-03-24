@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中針對集中式記錄服務，來取得、更新及建立設定。
-ms.openlocfilehash: dd292465d65116dc1f497a733ca8e010e57b9137
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fb2d66e6ff72bc5fb5a4c8c987713f3ca7030ab5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835153"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098859"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理集中式記錄服務設定設定
 
@@ -30,9 +30,9 @@ ms.locfileid: "49835153"
 > [!IMPORTANT]
 >  並非針對集中式記錄服務所列出的所有 Windows PowerShell Cmdlet，都適用于商務用 Skype Server 2015 內部部署。 雖然似乎可以運作，但下列 Cmdlet 並非設計為在商務用 Skype Server 2015 內部部署環境中運作：
 
--  **CsClsRegion Cmdlet：** [Get-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) 、[Set-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps)、 [New-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)及 [Remove-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps)。
--  **CsClsSearchTerm Cmdlet：** [Get-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) 和 [Set-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps)。
--  **CsClsSecurityGroup Cmdlet：** [Get-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps)、 [Set-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps)、  [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)及 [Remove-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps)。
+-  **CsClsRegion Cmdlet：** [Get-CsClsRegion](/powershell/module/skype/get-csclsregion?view=skype-ps) 、[Set-CsClsRegion](/powershell/module/skype/set-csclsregion?view=skype-ps)、 [New-CsClsRegion](/powershell/module/skype/new-csclsregion?view=skype-ps)及 [Remove-CsClsRegion](/powershell/module/skype/remove-csclsregion?view=skype-ps)。
+-  **CsClsSearchTerm Cmdlet：** [Get-CsClsSearchTerm](/powershell/module/skype/get-csclssearchterm?view=skype-ps) 和 [Set-CsClsSearchTerm](/powershell/module/skype/set-csclssearchterm?view=skype-ps)。
+-  **CsClsSecurityGroup Cmdlet：** [Get-CsClsSecurityGroup](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps)、 [Set-CsClsSecurityGroup](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps)、  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)及 [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps)。
 
 在這些 Cmdlet 中定義的設定將不會妨礙或導致任何不良行為，但其設計目的是用於 Microsoft 365 或 Office 365，而且不會在內部部署部署中產生預期的結果。 這並不是說，在內部部署中不會使用這些 Cmdlet，但是其使用是本檔中未涵蓋的更高級主題。
 
@@ -53,7 +53,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 > [!NOTE]
 > 您可以在 Windows PowerShell 或 CLSController 中執行的命令列命令之間有基本差異。 Windows PowerShell 提供豐富的方法來設定及定義案例，並以有意義的方式針對疑難排解案例重複使用這些案例。 雖然 CLSController 提供快速且有效的方式來發出命令並取得結果，但 CLSController 的命令設定會受限於您在命令列中使用的有限命令。 與 Windows PowerShell Cmdlet 不同的是，CLSController 無法定義新案例、管理網站或全域層級的範圍，以及無法動態設定之有限命令集的其他許多限制。 雖然 CLSController 提供快速執行的方法，但 Windows PowerShell 提供一種方法來擴充集中式記錄服務功能，以超越 CLSController 的可能。
 
-您可以在使用-computer 參數的 [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)、 [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)、 [Start-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps)、 [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)、 [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) 和 [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) 命令的執行期間定義單一電腦範圍。 -Computer 參數會接受以逗號分隔的完整功能變數名稱清單， (Fqdn) 目的電腦。
+您可以在使用-computer 參數的 [Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps)、 [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps)、 [Start-CsClsLogging](/powershell/module/skype/start-csclslogging?view=skype-ps)、 [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)、 [Sync-CsClsLogging](/powershell/module/skype/sync-csclslogging?view=skype-ps) 和 [Update-CsClsLogging](/powershell/module/skype/update-csclslogging?view=skype-ps) 命令的執行期間定義單一電腦範圍。 -Computer 參數會接受以逗號分隔的完整功能變數名稱清單， (Fqdn) 目的電腦。
 
 > [!TIP]
 > 您也可以定義集區和以逗號分隔的集區清單，您想要在其上執行記錄指令。
@@ -61,7 +61,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 網站和全域範圍是在 **新的**、 **集合** 及 **移除** 集中式記錄服務 Cmdlet 中定義。 下列範例會示範如何設定網站和全域範圍。
 
 > [!IMPORTANT]
-> 所顯示的命令可能包含其他章節中所涵蓋的參數和概念。 範例命令的目的是為了示範如何使用 **-Identity** 參數定義範圍，並包含其他參數的完整性，並指定範圍。 如需 **Set-CsClsConfiguration** Cmdlet 的詳細資訊，請參閱 Operations 檔中的 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) 。
+> 所顯示的命令可能包含其他章節中所涵蓋的參數和概念。 範例命令的目的是為了示範如何使用 **-Identity** 參數定義範圍，並包含其他參數的完整性，並指定範圍。 如需 **Set-CsClsConfiguration** Cmdlet 的詳細資訊，請參閱 Operations 檔中的 [Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps) 。
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>若要取得目前的集中式記錄服務設定
 
@@ -153,7 +153,7 @@ Cmdlet **Get-CsClsConfiguration** 一定會顯示屬於特定範圍設定之部�
    ```
 
     > [!NOTE]
-    > New-CsClsConfiguration 提供大量選用設定設定的存取權。 如需設定選項的詳細資訊，請參閱 [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) 和 [瞭解集中式記錄服務設定設定](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx)。
+    > New-CsClsConfiguration 提供大量選用設定設定的存取權。 如需設定選項的詳細資訊，請參閱 [Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps) 和 [瞭解集中式記錄服務設定設定](/previous-versions/office/lync-server-2013/lync-server-2013-understanding-centralized-logging-service-configuration-settings)。
 
 例如，若要建立新的設定以定義快取檔案的網路資料夾、滾動表檔的記錄檔和翻轉大小的時間週期，您可以輸入：
 
@@ -190,10 +190,10 @@ Cmdlet **Get-CsClsConfiguration** 一定會顯示屬於特定範圍設定之部�
 
 [商務用 Skype 2015 中的集中式記錄服務](centralized-logging-service.md)
 
-[Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
-[Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
+[Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
 
-[New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
+[New-CsClsConfiguration](/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
 
-[Remove-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
+[Remove-CsClsConfiguration](/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)

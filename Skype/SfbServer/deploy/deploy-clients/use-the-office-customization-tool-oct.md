@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 摘要：如何搭配商務用 Skype 用戶端使用 Office 自訂工具。
-ms.openlocfilehash: ba99f0556f3fb1d0e0f6870d1eaa7a3d2108b4d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32cd7951690ce5b1e38c20d83c8f53a9c48cd19c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812563"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100449"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>在商務用 Skype Server 中使用 Office 自訂工具 (OCT) 
  
@@ -41,6 +41,4 @@ OCT 是安裝程式的一部分，只用于大量授權版本的產品。 您可
     
 - **Outlook** 用來自訂使用者的預設 Outlook 設定檔、指定 Exchange 設定、新增帳戶、移除帳戶和匯出設定，以及指定傳送/接收群組。
     
-如需 OCT 的詳細資訊，請參閱 [使用 oct 自訂 Office 2013](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))。 請注意，此資訊也適用于更新版本的 Office。
-  
-
+如需 OCT 的詳細資訊，請參閱 [使用 oct 自訂 Office 2013](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))。 請注意，此資訊也適用于更新版本的 Office。

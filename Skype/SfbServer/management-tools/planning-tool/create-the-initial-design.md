@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: 在您完成安裝商務用 Skype Server 規劃工具後，您就可以開始規劃工具及開始設計擬議中的商務用 Skype Server 2015 基礎結構。
-ms.openlocfilehash: 7de930de8d7e194f14145c1a976fbe6b96cf234a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 756c59ce0598af186a5cedabe250f7f1e7ec323c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834963"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098679"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>為商務用 Skype Server 2015 建立初始拓撲設計
 
@@ -79,4 +79,4 @@ ms.locfileid: "49834963"
 
 ## <a name="see-also"></a>另請參閱
 
-[編輯設計](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[編輯設計](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

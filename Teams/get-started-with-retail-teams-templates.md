@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
-ms.translationtype: HT
+ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424633"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101199"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>開始使用零售業 Teams 範本
 
@@ -34,7 +34,7 @@ Teams 範本具有專為零售商需求設計的團隊結構預先建立的定�
 
 本文將介紹各個 Teams 範本，並建議如何使用範本。
 
-如果您負責規劃、部署和管理整個零售組織的多個團隊，本文適合您。 您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](How-to-roll-out-teams.md)。
+如果您負責規劃、部署和管理整個零售組織的多個團隊，本文適合您。 您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](./deploy-overview.md)。
 
 如需深入了解一般 Teams 範本，請參閱 [Teams 範本入門](get-started-with-teams-templates.md)。
 
@@ -68,7 +68,7 @@ Teams 範本具有專為零售商需求設計的團隊結構預先建立的定�
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 
-若要使用這些範本，請將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  若要了解如何部署 Teams 範本，請參閱 Microsoft Graph 文章，以了解如何[建立團隊](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要使用這些範本，請將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  若要了解如何部署 Teams 範本，請參閱 Microsoft Graph 文章，以了解如何[建立團隊](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 範本中的頻道會自動在 [一般] 索引標籤下建立。

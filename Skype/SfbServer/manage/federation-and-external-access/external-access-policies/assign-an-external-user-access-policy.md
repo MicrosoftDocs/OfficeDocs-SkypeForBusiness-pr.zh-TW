@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 如果使用者已啟用商務用 Skype Server，您可以將適當的原則套用至特定使用者，以在商務用 Skype Server 控制台中設定 SIP 同盟、遠端使用者存取和公用立即訊息 (IM) 連線。
-ms.openlocfilehash: 25e9a63363dc4f982e142defd2164c2423471961
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 45e22a0d7951bfe4d58d90a1e5190aa242f7b29a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826623"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099049"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>將外部使用者存取原則指派給啟用商務用 Skype 的使用者
 
@@ -63,7 +63,7 @@ ms.locfileid: "49826623"
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>將個別使用者外部存取原則指派給多個使用者
 
-  - 此命令可將個別使用者外部存取原則 USAExternalAccessPolicy，指派給所有具有 Active Directory 中之 UnitedStates OUto 帳戶的使用者。 如需此命令中所使用之 OU 參數的詳細資訊，請參閱 [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) Cmdlet 的檔。
+  - 此命令可將個別使用者外部存取原則 USAExternalAccessPolicy，指派給所有具有 Active Directory 中之 UnitedStates OUto 帳戶的使用者。 如需此命令中所使用之 OU 參數的詳細資訊，請參閱 [Get-CsUser](/powershell/module/skype/Get-CsUser) Cmdlet 的檔。
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -76,6 +76,4 @@ ms.locfileid: "49826623"
 
 
 
-如需詳細資訊，請參閱 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) Cmdlet 的 [說明] 主題。
-
-
+如需詳細資訊，請參閱 [get-csexternalaccesspolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) Cmdlet 的 [說明] 主題。

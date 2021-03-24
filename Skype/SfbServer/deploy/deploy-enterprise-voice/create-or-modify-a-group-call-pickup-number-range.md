@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 在商務用 Skype Server Enterprise Voice 中建立或修改群組呼叫收取號碼範圍。
-ms.openlocfilehash: f487c277b8eaa03a5b31ce0dc9696b0efe712340
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e71915519014b1fa4cfffa3172327e9949ed73a2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822403"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100419"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改群組呼叫收取號碼範圍
 
@@ -79,8 +79,8 @@ ms.locfileid: "49822403"
 
 ## <a name="see-also"></a>另請參閱
 
-[新 Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[新 Get-cscallparkorbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Get-cscallparkorbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[刪除通話駐留軌道範圍](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[刪除通話駐留軌道範圍](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

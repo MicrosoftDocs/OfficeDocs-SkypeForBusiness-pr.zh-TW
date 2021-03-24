@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 您可以設定位置原則，以判斷是否已啟用增強型 9-1-1 (E9-1-1) ，以及如何使用位置資訊，以及使用者和連絡人的使用方式。
-ms.openlocfilehash: f171d841ec68b3e0b0b4f7c8b9d374ff2261d149
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 587d239551111c028026aef463c853a1ac93714f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803963"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099709"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置原則：建立新的或編輯現有原則
 
@@ -68,6 +68,4 @@ ms.locfileid: "49803963"
 
   - **雙向** 指定協力廠商可以參與呼叫方和 PSAP 操作員之間的呼叫。
 
-如需有關 Enterprise Voice 急診 service 功能及功能的詳細資訊，請參閱規劃檔中的 [E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) 。 如需使用位置原則的詳細資訊，請參閱作業文件中的＜[Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx)＞。
-
-
+如需有關 Enterprise Voice 急診 service 功能及功能的詳細資訊，請參閱規劃檔中的 [E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 。 如需使用位置原則的詳細資訊，請參閱作業文件中的＜[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)＞。

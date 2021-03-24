@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 若要得以部署 SQL 鏡像，您的伺服器至少必須執行 SQL Server 2008 R2。 此版本必須執行於以下所有相關伺服器：主要伺服器、鏡像伺服器、見證伺服器。 如需詳細資訊，請參閱累積更新套件9（適用于 SQL Server 2008 Service Pack 1）。
-ms.openlocfilehash: 8a546f65d8ad5c701eea20fb2c9c3bf0e026ff1f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 38c3e749b39cd510623232e9f29ace03a1c19f6c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830553"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100719"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>為商務用 Skype server 2015 中的後端伺服器高可用性部署 SQL 鏡像
 
@@ -32,19 +32,19 @@ ms.locfileid: "49830553"
 
 - 主要與鏡像伺服器必須具有相同的 SQL Server 版本，見證伺服器可能有不同的版本。
 
-如需有關見證角色支援哪些 SQL 版本的 SQL 最佳作法，請參閱 [資料庫鏡像見證](https://go.microsoft.com/fwlink/p/?LinkId=247345)。
+如需有關見證角色支援哪些 SQL 版本的 SQL 最佳作法，請參閱 [資料庫鏡像見證](/sql/database-engine/database-mirroring/database-mirroring-witness)。
 
 您可以使用拓撲產生器來部署 SQL 鏡像。 您可以在 [拓撲產生器] 中選取一個選項，以鏡像資料庫，而拓撲產生器會設定鏡像 (包括設定見證，如果您想要在發行拓撲時) 。 請注意，設定或移除鏡像伺服器也會同時設定或移除見證伺服器。 僅部署或移除見證伺服器並無個別的命令。
 
-若要設定伺服器鏡像，您必須先正確設定 SQL 資料庫權限。 如需詳細資訊，請參閱 [設定資料庫鏡像的登入帳戶或 AlwaysOn 可用性群組 (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkId=268454)。
+若要設定伺服器鏡像，您必須先正確設定 SQL 資料庫權限。 如需詳細資訊，請參閱 [設定資料庫鏡像的登入帳戶或 AlwaysOn 可用性群組 (SQL Server) ](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)。
 
 有了 SQL 鏡像，資料庫復原模式會一律設為 **[完整]**，這表示您必須密切監控交易紀錄的大小並定期備份交易紀錄，以避免用盡後端伺服器上的磁碟機空間。 交易記錄的備份頻率取決於記錄的成長率，即根據使用者在前端集區上活動所發生的資料庫交易。 建議您決定部署工作負載預期的交易記錄檔成長程度，以便據此進行規劃。 下列文章提供 SQL 備份以及記錄管理的其他資訊：
 
-- [資料庫恢復模型](https://go.microsoft.com/fwlink/p/?LinkId=268446)
+- [資料庫恢復模型](/sql/relational-databases/backup-restore/recovery-models-sql-server)
 
-- [備份概述](https://go.microsoft.com/fwlink/p/?LinkId=268449)
+- [備份概述](/sql/relational-databases/backup-restore/backup-overview-sql-server)
 
-- [備份交易記錄檔](https://go.microsoft.com/fwlink/p/?LinkId=268452)
+- [備份交易記錄檔](/sql/relational-databases/backup-restore/back-up-a-transaction-log-sql-server)
 
 有了 SQL 鏡像，您可在建立集區時或在建立集區後設定鏡像的拓撲。
 
@@ -119,9 +119,9 @@ ms.locfileid: "49830553"
 
 - 在相同伺服器上為其他應用程式配置的連接埠 (包含為其他 SQL 執行個體配置的)，均不應用於隨時可取用的已安裝 SQL 執行個體。這表示，如果您有一個以上的 SQL 執行個體安裝於相同的伺服器上，不得使用相同的連接埠進行鏡像處理。如需詳細資訊，請參閱以下文章：
 
-  - [指定伺服器網路位址 (資料庫鏡像) ](https://go.microsoft.com/fwlink/p/?LinkId=247346)
+  - [指定伺服器網路位址 (資料庫鏡像) ](/sql/database-engine/database-mirroring/specify-a-server-network-address-database-mirroring)
 
-  - [資料庫鏡像端點 (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkId=247347)
+  - [資料庫鏡像端點 (SQL Server) ](/sql/database-engine/database-mirroring/the-database-mirroring-endpoint-sql-server)
 
 ## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>使用商務用 Skype Server 2015 管理命令介面 Cmdlet 來設定 SQL 鏡像
 
@@ -289,6 +289,4 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName
 
     不過，請不要執行該步驟，也不要像那樣輸入  `Uninstall-CsMirrorDatabase` ，否則會卸載整個鏡像設定。
 
-4. 若要從 SQL Server 設定只移除見證，請依照 [從資料庫鏡像會話移除見證 (SQL server) ](https://go.microsoft.com/fwlink/p/?LinkId=268456)中的指示進行。
-
-
+4. 若要從 SQL Server 設定只移除見證，請依照 [從資料庫鏡像會話移除見證 (SQL server) ](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)中的指示進行。

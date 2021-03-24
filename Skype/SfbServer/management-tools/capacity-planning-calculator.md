@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量計算機工具。
-ms.openlocfilehash: ca7266f5a18e21dbb964f18a791de9b8903a7f0c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cc78e9d5cbf22a9cc194f0a434f246a8560f5382
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802993"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098879"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>商務用 Skype Server 容量規劃電腦
  
@@ -36,7 +36,7 @@ ms.locfileid: "49802993"
   
 如果您有特定使用者設定檔的確切詳細資訊，您可以從計算機獲得最大益處。 例如，啟用語音功能的使用者數目、每位使用者每小時平均通話量、通話持續時間，以及會議中並行使用者的百分比，都可能會對伺服器的需求造成極大的影響。 計算機所建立之建議的準確性取決於您提供的資訊準確性。
   
-當您使用規劃工具和容量規劃計算機之後，您應該模擬建議和計畫的負載，以確保已正確布建商務用 Skype 伺服器。 若要在模擬負載下執行壓力測試，請使用商務用[Skype server 壓力和效能工具](https://technet.microsoft.com/library/mt631400.aspx)中所記錄的[商務用 skype 伺服器壓力和效能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
+當您使用規劃工具和容量規劃計算機之後，您應該模擬建議和計畫的負載，以確保已正確布建商務用 Skype 伺服器。 若要在模擬負載下執行壓力測試，請使用商務用[Skype server 壓力和效能工具](./stress-and-performance-tool/stress-and-performance-tool.md)中所記錄的[商務用 skype 伺服器壓力和效能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
   
 ## <a name="using-the-capacity-calculator"></a>使用容量計算機
 
@@ -117,4 +117,3 @@ ms.locfileid: "49802993"
 試算表中的所有 CPU 使用量圖假設每一部商務用 Skype Server 2015 伺服器都有雙處理器、hex 核心和 2.26 GHz，至少有 32 GB 的記憶體，以及8個或更多的 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間。 針對每個商務用 Skype Server 2019 server，試算表中的所有 CPU 使用狀況圖表都會假定每個伺服器都有雙處理器、hex 核心與 Intel 強 E5 2673 v3，至少 64 GB 的記憶體，以及8個或更多的 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間。
   
 如果您的伺服器具有不同的處理器，您可以調整這些圖形，使其符合您的硬體。
-  

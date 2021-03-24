@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以指定環境中支援的用戶端版本。 當執行不同版本的兩個用戶端互動時，這兩個用戶端可用的功能會受限於彼此的功能。
-ms.openlocfilehash: c2d6dc4f68a7c40668db9042d420f2f341e35ca0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 57c273198a9c88ae26540518c9f892b218b96118
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100689"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>用戶端版本原則：建立新的或編輯現有原則
 
@@ -55,5 +55,4 @@ ms.locfileid: "49824893"
 
 - **向上及向中箭** 號此選項會以優先順序向上或向內移動選取的用戶端版本規則。 規則會依照所列順序進行處理。
 
-如需用戶端與用戶端版本間互通性的詳細資訊，請參閱 [Client 互用性](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。 如需使用用戶端版本原則的詳細資訊，請參閱操作文件中的＜[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)＞。
-
+如需用戶端與用戶端版本間互通性的詳細資訊，請參閱 [Client 互用性](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)。 如需使用用戶端版本原則的詳細資訊，請參閱操作文件中的＜[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)＞。

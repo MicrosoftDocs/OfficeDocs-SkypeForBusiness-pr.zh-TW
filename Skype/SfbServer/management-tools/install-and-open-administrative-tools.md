@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本主題說明如何安裝及開啟部署和管理商務用 Skype 所需的系統管理工具。
-ms.openlocfilehash: d31fe784b62a5d709049dc5061e323034065df37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 72966026e414b3b36cfc49ab61bf41f045e1f864
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098779"
 ---
 # <a name="install-and-open-administrative-tools"></a>安裝及開啟系統管理工具
 
@@ -73,14 +73,14 @@ ms.locfileid: "49835093"
 使用下列其中一個程式來開啟商務用 Skype Server 控制台，以管理環境中的伺服器、使用者、用戶端和裝置的設定。
 
 > [!NOTE]
-> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在商務用 Skype Server 控制台中執行任何工作。 您可以使用其他角色登入商務用 Skype Server 控制台，以執行與您需要執行的工作相關的特定管理工作。 例如，您可以在商務用 Skype Server [控制台] 中使用 CSArchivingAdministrator 管理封存。 如需角色的詳細資訊，請參閱 [規劃角色型存取控制](https://technet.microsoft.com/library/gg425917(v=ocs.15).aspx)。 如需您可以用來執行特定工作的角色的詳細資訊，請參閱任務的檔。 
+> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在商務用 Skype Server 控制台中執行任何工作。 您可以使用其他角色登入商務用 Skype Server 控制台，以執行與您需要執行的工作相關的特定管理工作。 例如，您可以在商務用 Skype Server [控制台] 中使用 CSArchivingAdministrator 管理封存。 如需角色的詳細資訊，請參閱 [規劃角色型存取控制](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)。 如需您可以用來執行特定工作的角色的詳細資訊，請參閱任務的檔。 
 
 **若要從組織防火牆內部的任何電腦開啟商務用 Skype Server 控制台**
 
 1. 從指派給要執行之工作的 CsAdministrator 角色或其他角色的使用者帳戶，登入內部部署中的任何電腦，最小螢幕解析度為 1024 x 768。
 
     > [!IMPORTANT]
-    > 如果您已將管理簡單的統一資源定位器設定 (URL) ，您可以從組織防火牆內任何電腦上執行的網際網路瀏覽器，存取商務用 Skype Server 控制台。 如需設定管理簡易 URL 的詳細資訊，請參閱 [規劃簡易 URLs](https://technet.microsoft.com/library/gg398287(v=ocs.15).aspx) 及 [編輯或設定簡單 URLs](https://technet.microsoft.com/library/gg398063(v=ocs.15).aspx)。 
+    > 如果您已將管理簡單的統一資源定位器設定 (URL) ，您可以從組織防火牆內任何電腦上執行的網際網路瀏覽器，存取商務用 Skype Server 控制台。 如需設定管理簡易 URL 的詳細資訊，請參閱 [規劃簡易 URLs](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls) 及 [編輯或設定簡單 URLs](/previous-versions/office/lync-server-2013/lync-server-2013-edit-or-configure-simple-urls)。 
 
 2. 開啟瀏覽器視窗，然後輸入為您的組織設定的管理 URL。
 
@@ -94,7 +94,7 @@ ms.locfileid: "49835093"
 使用下列程式來開啟商務用 Skype Server 管理命令介面，以使用命令列管理環境中的伺服器、使用者、用戶端和裝置。
 
 > [!NOTE]
-> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在商務用 Skype Server 管理命令介面中執行任何工作。 您可以使用其他角色登入，以執行特定的管理工作，取決於您需要執行的工作。 例如，您可以使用 CSArchivingAdministrator 來執行與封存管理相關的 Cmdlet。 如需角色的詳細資訊，請參閱 [規劃角色型存取控制](https://technet.microsoft.com/library/gg425917(v=ocs.15).aspx)。 如需您可以用來執行特定 Cmdlet 的角色的詳細資訊，請參閱 Cmdlet 的檔。<br/><br/>您也可以使用 RTCUniversalServerAdmins、RTCUniversalUserAdmins 或 RTCUniversalReadOnlyAdmins 群組中的使用者帳戶來執行某些 Cmdlet，視 Cmdlet 而定。 
+> 您可以使用指派給 CsAdministrator 角色的使用者帳戶，在商務用 Skype Server 管理命令介面中執行任何工作。 您可以使用其他角色登入，以執行特定的管理工作，取決於您需要執行的工作。 例如，您可以使用 CSArchivingAdministrator 來執行與封存管理相關的 Cmdlet。 如需角色的詳細資訊，請參閱 [規劃角色型存取控制](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)。 如需您可以用來執行特定 Cmdlet 的角色的詳細資訊，請參閱 Cmdlet 的檔。<br/><br/>您也可以使用 RTCUniversalServerAdmins、RTCUniversalUserAdmins 或 RTCUniversalReadOnlyAdmins 群組中的使用者帳戶來執行某些 Cmdlet，視 Cmdlet 而定。 
 
 **開啟商務用 Skype Server 管理命令介面**
 

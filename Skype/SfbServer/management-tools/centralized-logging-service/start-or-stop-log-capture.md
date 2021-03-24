@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中啟動或停止集中式記錄服務記錄捕獲會話。
-ms.openlocfilehash: cd6864b0d4d16e952f93fe321b49522028d76e5b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 773b93f62690b01d33f84bc5eb68b135280842ea
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835133"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098819"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中開始或停止 CLS 記錄捕獲
  
@@ -50,7 +50,7 @@ ms.locfileid: "49835133"
    ```
 
     > [!NOTE]
-    > AlwaysOn 案例沒有預設期間。 此案例會一直執行，直到您使用 **Stop-CsClsLogging** Cmdlet 明確加以停止。 如需詳細資訊，請參閱＜[Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)＞。 其他所有案例的預設期間為 4 小時。 
+    > AlwaysOn 案例沒有預設期間。 此案例會一直執行，直到您使用 **Stop-CsClsLogging** Cmdlet 明確加以停止。 如需詳細資訊，請參閱＜[Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)＞。 其他所有案例的預設期間為 4 小時。 
   
 3. 按 Enter 鍵執行命令。 
     
@@ -89,7 +89,7 @@ ms.locfileid: "49835133"
 ## <a name="stop-the-centralized-logging-service-log-capture"></a>停止集中式記錄服務記錄捕獲
 <a name="stop"> </a>
 
-您可以用 Stop-CsClsLogging Cmdlet 來停止目前執行中的記錄工作階段。 一般來說，在許多情況下，您不需要停止記錄會話。 例如，您不需要先停止記錄，就可以搜尋記錄及變更設定。 如果您有兩個案例正在執行，例如 AlwaysOn 和 UserReplicator，而您需要收集有關驗證的資訊，則必須先停止其中一個案例 (在全域、網站、集區或電腦範圍)，才能開始執行驗證案例。 如需詳細資訊，請參閱＜[Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)＞。
+您可以用 Stop-CsClsLogging Cmdlet 來停止目前執行中的記錄工作階段。 一般來說，在許多情況下，您不需要停止記錄會話。 例如，您不需要先停止記錄，就可以搜尋記錄及變更設定。 如果您有兩個案例正在執行，例如 AlwaysOn 和 UserReplicator，而您需要收集有關驗證的資訊，則必須先停止其中一個案例 (在全域、網站、集區或電腦範圍)，才能開始執行驗證案例。 如需詳細資訊，請參閱＜[Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)＞。
   
 > [!NOTE]
 > 在決定您可以在指定的部署、集區或電腦上執行哪些案例時，您必須記得 **每台電腦** 都限制執行兩個案例： AlwaysOn 和一個自訂案例。 如果您要在集區上記錄活動，則應將集區當做單一實體來處理。 在大部分情況下，在集區中的每部電腦上執行不同的案例並沒有意義。 但是查看您收集資料的相關問題，並思考在整體部署中，哪個案例對給定電腦的影響最大，這就有意義了。 例如，如果您考慮 UserReplicator 案例，在 Edge Server 或 Edge 集區上執行 UserReplicator 時，會有很小的價值。 
@@ -123,7 +123,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
    ![呼叫 Show-CsCl 後的 Windows PowerShell 主控台](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-   Show-CsClsLogging 的結果是執行中案例及其執行範圍的摘要。 如需詳細資訊，請參閱＜[Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)＞。
+   Show-CsClsLogging 的結果是執行中案例及其執行範圍的摘要。 如需詳細資訊，請參閱＜[Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps)＞。
     
 3. 若要停止使用特定案例的目前執行中記錄工作階段，請輸入：
     
@@ -139,7 +139,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    此命令將會停止 pool01.contoso.net 上使用 UserReplicatior 案例的記錄。
     
     > [!NOTE]
-    > 在此記錄工作階段期間，使用 UserReplicator 案例來建立的記錄並不會刪除。 您還是可以使用該記錄來執行使用 Search-CsClsLogging 命令的搜尋作業。 如需詳細資訊，請參閱＜[Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)＞。 
+    > 在此記錄工作階段期間，使用 UserReplicator 案例來建立的記錄並不會刪除。 您還是可以使用該記錄來執行使用 Search-CsClsLogging 命令的搜尋作業。 如需詳細資訊，請參閱＜[Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps)＞。 
   
 Stop-CsClsLogging Cmdlet 與 Start-CsClsLogging 搭配使用時，會結束記錄工作階段 (由案例定義)，並保留記錄工作階段所建立的記錄。您隨時都可以在給定的電腦上執行兩個案例。用一個案例停止另一個案例來收集資訊的方法，是在大部分工作量疑難排解期間都可以執行的常用工作。
 ## <a name="see-also"></a>另請參閱

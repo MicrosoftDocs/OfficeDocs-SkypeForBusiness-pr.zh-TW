@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 479d7e6f81872286143b64f8e2b829c4bce1db5d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1961c43193cf6f3cd67f07fe14a98752d34066a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812173"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100339"
 ---
 # <a name="network-configuration-global-setting"></a>網路組態：通用設定
 
 您要執行的工作 按一下您要執行之任務的連結。
 
-- [啟用通話許可控制](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [啟用通話許可控制](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-call-admission-control)
 
-- [啟用媒體旁路](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
-
-
-
+- [啟用媒體旁路](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-network-media-bypass)

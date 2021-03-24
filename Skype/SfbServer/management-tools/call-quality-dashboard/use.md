@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: ed1e5563a4677dce33648280590530ca2a9b1b9b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d4787671955159d2bef0144872c50caccbbbb8eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803103"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098959"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用商務用 Skype Server 的通話品質儀表板
 
@@ -207,7 +207,7 @@ CQD 不使用來電者/被叫用方欄位，而是使用 "First" 和 "Second"，
 |4 (商務用 Skype)  |4 (商務用 Skype)  |MediaLine 的來電者 |MMediaLine 中的被呼叫者 |
 |||||
 
-如果兩個端點都是相同類型，則 CQD 會先將來電者專案和被叫方的第二個端點。 如需端點名稱的詳細資訊，請參閱 [此博客](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)。
+如果兩個端點都是相同類型，則 CQD 會先將來電者專案和被叫方的第二個端點。 如需端點名稱的詳細資訊，請參閱 [此博客](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)。
 
 ## <a name="accounting-for-vpn"></a>VPN 的記帳
 
