@@ -15,36 +15,36 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯或修改 SIP 主幹的設定，請執行下列動作：
-ms.openlocfilehash: 43cce7d0e61cf2e2c4f5fa6e4bcb845fd63fbc03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 907348defb35ef872ce36f84e6e6cc7695921529
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807533"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101779"
 ---
-# <a name="trunk-settings-expander"></a><span data-ttu-id="d8227-103">主幹設定展開工具</span><span class="sxs-lookup"><span data-stu-id="d8227-103">Trunk Settings Expander</span></span>
+# <a name="trunk-settings-expander"></a><span data-ttu-id="e9a1c-103">主幹設定展開工具</span><span class="sxs-lookup"><span data-stu-id="e9a1c-103">Trunk Settings Expander</span></span>
 
-<span data-ttu-id="d8227-104">若要編輯或修改 SIP 主幹的設定，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="d8227-104">To edit or modify the settings for a SIP trunk, you do the following:</span></span>
+<span data-ttu-id="e9a1c-104">若要編輯或修改 SIP 主幹的設定，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="e9a1c-104">To edit or modify the settings for a SIP trunk, you do the following:</span></span>
 
- <span data-ttu-id="d8227-105">[主幹名稱] 是唯一識別部署中 SIP 主幹的必要項目。</span><span class="sxs-lookup"><span data-stu-id="d8227-105">**Trunk name** is a required entry and uniquely identifies the SIP trunk in the deployment.</span></span>
+ <span data-ttu-id="e9a1c-105">[主幹名稱] 是唯一識別部署中 SIP 主幹的必要項目。</span><span class="sxs-lookup"><span data-stu-id="e9a1c-105">**Trunk name** is a required entry and uniquely identifies the SIP trunk in the deployment.</span></span>
 
- <span data-ttu-id="d8227-106">**關聯的 PSTN 閘道**：選取部署中已定義的現有 PSTN 閘道。</span><span class="sxs-lookup"><span data-stu-id="d8227-106">**Associated PSTN gateway**: Select an existing PSTN gateway that has been defined in the deployment.</span></span>
+ <span data-ttu-id="e9a1c-106">**關聯的 PSTN 閘道**：選取部署中已定義的現有 PSTN 閘道。</span><span class="sxs-lookup"><span data-stu-id="e9a1c-106">**Associated PSTN gateway**: Select an existing PSTN gateway that has been defined in the deployment.</span></span>
 
- <span data-ttu-id="d8227-p101">**IP/PSTN 閘道的聆聽連接埠**：指出閘道將在哪個 TCP/IP 連接埠聆聽要求。所需的值可能依閘道的廠商而異，但預設值是連接埠 5067。</span><span class="sxs-lookup"><span data-stu-id="d8227-p101">**Listening port for IP/PSTN gateway**: Indicates what TCP/IP port the gateway will be listening for requests on. The required value may differ, based on the vendor of the gateway, but the default is port 5067.</span></span>
+ <span data-ttu-id="e9a1c-p101">**IP/PSTN 閘道的聆聽連接埠**：指出閘道將在哪個 TCP/IP 連接埠聆聽要求。所需的值可能依閘道的廠商而異，但預設值是連接埠 5067。</span><span class="sxs-lookup"><span data-stu-id="e9a1c-p101">**Listening port for IP/PSTN gateway**: Indicates what TCP/IP port the gateway will be listening for requests on. The required value may differ, based on the vendor of the gateway, but the default is port 5067.</span></span>
 
- <span data-ttu-id="d8227-p102">**SIP 傳輸通訊協定**：使用通訊協定 TCP 或 TLS。TLS 是預設值。請參閱閘道廠商文件，以了解您的閘道支援的值。預設值是 TLS，如果閘道支援 TLS 的話，應考慮使用此值作為較安全的選項。</span><span class="sxs-lookup"><span data-stu-id="d8227-p102">**SIP Transport Protocol**: The protocol used is either TCP or TLS. TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
+ <span data-ttu-id="e9a1c-p102">**SIP 傳輸通訊協定**：使用通訊協定 TCP 或 TLS。TLS 是預設值。請參閱閘道廠商文件，以了解您的閘道支援的值。預設值是 TLS，如果閘道支援 TLS 的話，應考慮使用此值作為較安全的選項。</span><span class="sxs-lookup"><span data-stu-id="e9a1c-p102">**SIP Transport Protocol**: The protocol used is either TCP or TLS. TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
 
- <span data-ttu-id="d8227-113">**關聯** 的轉送伺服器：從部署選取現有的轉送伺服器，以與 SIP 主幹產生關聯。</span><span class="sxs-lookup"><span data-stu-id="d8227-113">**Associated Mediation Server**: Select an existing Mediation Server from the deployment to associate with the SIP trunk.</span></span>
+ <span data-ttu-id="e9a1c-113">**關聯** 的轉送伺服器：從部署選取現有的轉送伺服器，以與 SIP 主幹產生關聯。</span><span class="sxs-lookup"><span data-stu-id="e9a1c-113">**Associated Mediation Server**: Select an existing Mediation Server from the deployment to associate with the SIP trunk.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d8227-114">只有根主幹可以與轉送伺服器相關聯。</span><span class="sxs-lookup"><span data-stu-id="d8227-114">Only the root trunk can be associated with a Mediation Server.</span></span>
+> <span data-ttu-id="e9a1c-114">只有根主幹可以與轉送伺服器相關聯。</span><span class="sxs-lookup"><span data-stu-id="e9a1c-114">Only the root trunk can be associated with a Mediation Server.</span></span>
 
- <span data-ttu-id="d8227-115">**關聯的轉送伺服器埠**：必要值，此值會設定為轉送伺服器設定為接聽的值。</span><span class="sxs-lookup"><span data-stu-id="d8227-115">**Associated Mediation Server port**: A required value, this is set to the value that the Mediation Server is configured to listen on.</span></span>
+ <span data-ttu-id="e9a1c-115">**關聯的轉送伺服器埠**：必要值，此值會設定為轉送伺服器設定為接聽的值。</span><span class="sxs-lookup"><span data-stu-id="e9a1c-115">**Associated Mediation Server port**: A required value, this is set to the value that the Mediation Server is configured to listen on.</span></span>
 
 ![主幹設定展開工具](../../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a><span data-ttu-id="d8227-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d8227-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e9a1c-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e9a1c-117">See also</span></span>
 
-[<span data-ttu-id="d8227-118">SIP 主幹部署檢查表</span><span class="sxs-lookup"><span data-stu-id="d8227-118">SIP Trunking Deployment Checklist</span></span>](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[<span data-ttu-id="e9a1c-118">SIP 主幹部署檢查表</span><span class="sxs-lookup"><span data-stu-id="e9a1c-118">SIP Trunking Deployment Checklist</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 
-[<span data-ttu-id="d8227-119">SIP 主幹的元件和拓撲</span><span class="sxs-lookup"><span data-stu-id="d8227-119">Components and Topologies for SIP Trunking</span></span>](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[<span data-ttu-id="e9a1c-119">SIP 主幹的元件和拓撲</span><span class="sxs-lookup"><span data-stu-id="e9a1c-119">Components and Topologies for SIP Trunking</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-sip-trunking)

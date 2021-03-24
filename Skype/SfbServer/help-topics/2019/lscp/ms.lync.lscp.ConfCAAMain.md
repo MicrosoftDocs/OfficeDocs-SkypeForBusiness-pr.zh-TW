@@ -15,19 +15,17 @@ localization_priority: Normal
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 5daa574336aba375d210460f2755a8d006c129a3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d8ff6ff1a9e4bb136fb8fe8284255926fe40867c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820383"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109579"
 ---
-# <a name="dial-in-access-number"></a><span data-ttu-id="4cb7e-104">電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="4cb7e-104">Dial-in Access Number</span></span>
+# <a name="dial-in-access-number"></a><span data-ttu-id="281d6-104">電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="281d6-104">Dial-in Access Number</span></span>
 
-<span data-ttu-id="4cb7e-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="4cb7e-105">What do you want to do?</span></span> <span data-ttu-id="4cb7e-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="4cb7e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="281d6-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="281d6-105">What do you want to do?</span></span> <span data-ttu-id="281d6-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="281d6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4cb7e-107">建立或修改電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="4cb7e-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="281d6-107">建立或修改電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="281d6-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number)
 
-- [<span data-ttu-id="4cb7e-108">刪除電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="4cb7e-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
-
-
+- [<span data-ttu-id="281d6-108">刪除電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="281d6-108">Delete a Dial-in Conferencing Access Number</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-dial-in-conferencing-access-number)
