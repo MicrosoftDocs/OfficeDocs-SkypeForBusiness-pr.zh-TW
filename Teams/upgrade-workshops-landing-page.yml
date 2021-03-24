@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Teams 升級規劃研討會
-summary: 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的規劃您的升級工作階段開始。 按一下任何要註冊的討論會標題。
+summary: 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的規劃您的升級工作階段開始。 按一下任何研討會標題即可註冊。
 brand: teams
 metadata:
   title: Teams 升級規劃研討會
-  description: 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的規劃您的升級工作階段開始。 按一下任何要註冊的討論會標題。
+  description: 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的規劃您的升級工作階段開始。 按一下任何研討會標題即可註冊。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -24,31 +24,31 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
-  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+  ms.openlocfilehash: 1fea5f1d806058d8b7ff6d37414543347ba6adf8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/25/2021
-  ms.locfileid: "49973157"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51093743"
 productDirectory:
   items:
   - title: 規劃您的升級 (從這裡開始！)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: '不論您是要升級至商務用 Skype Online (2021 年7月31日、) 或將案例從商務用 Skype 內部部署環境移至團隊，成功的轉換都會解決技術與使用者的準備情況。 探索我們經驗證的架構、最佳做法及資源，旨在協助您從商務用 Skype Online、商務用 Skype 伺服器或混合式環境順利轉至團隊。 物件-所有 (的企業贊助商、IT 系統管理員、使用者就緒/變更管理員、專案領導) '
+    summary: '無論您是在 20) 21 年 7 月 31 日商務用 Skype Online (停用之前升級至 Teams，或將商務用 Skype 內部部署環境案例移轉至 Teams，成功的轉換都適用于技術和使用者整備狀態。 探索我們經過驗證的框架、最佳做法和資源，這些設計可協助您順利從商務用 Skype Online、商務用 Skype Server 或混合式環境轉換至 Teams。 物件 – (商務贊助者、IT 系統管理員、使用者準備/變更管理員、專案潛在客戶) '
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: 實施團隊升級
+  - title: 執行 Teams 升級
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: 您可以根據您的目標和您目前的商務用 Skype 環境，讓我們找出並準備執行最佳技術做法，以將所有工作負載移至團隊。 已完成成功轉換的大多數客戶，都能讓團隊與目前的商務用 Skype Online、商務用 Skype 伺服器或混合式實現功能。 這個會話將分享重要考慮與重要資源，協助您為貴組織定義最佳的遷移策略。 物件-IT 系統管理員
+    summary: 請加入我們，根據您的目標及您目前的商務用 Skype 環境，找出並準備執行最佳技術方法，將所有工作負載移往 Teams。 大部分已完成成功轉場的客戶，都讓 Teams 與目前商務用 Skype Online、商務用 Skype Server 或混合式實現同時啟用。 此會話將分享重要的考慮事項和寶貴的資源，説明您為組織定義最佳的移移策略。 物件 - IT 系統管理員
     url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
-    - title: 自行觀看這些討論會
-      summary: 請造訪升級至 YouTube 上的 Microsoft 團隊。
+    - title: 自行查看這些研討會
+      summary: 流覽 YouTube 上的升級至 Microsoft Teams。
       url: https://aka.ms/UpgradeOnDemand
-    - title: 展開您的小組案例？
-      summary: 請查看我們的小組專為 IT 專業人員提供的「粉筆交談」討論會。
-      url: https://aka.ms/TeamsChalkTalks
+    - title: 展開 Teams 案例？
+      summary: 查看我們的 It 專業人員 Teams 粉筆交談研討會。
+      url: ./chalk-talks-landing-page.yml
     - title: Teams 的新使用者嗎？
-      summary: 深入瞭解如何開始使用團隊。
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      summary: 深入瞭解開始使用 Teams。
+      url: ./teams-overview.md

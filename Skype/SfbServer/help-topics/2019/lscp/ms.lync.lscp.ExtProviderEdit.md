@@ -15,17 +15,15 @@ localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: c246030f0cafa77133b81199110710614a1c0a8f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 58559c74fa8d39ac2e3417904d541eb3aba7af07
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820303"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095827"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="69670-104">SIP 同盟提供者：建立新的或編輯現有</span><span class="sxs-lookup"><span data-stu-id="69670-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="1dd0e-104">SIP 同盟提供者：建立新的或編輯現有</span><span class="sxs-lookup"><span data-stu-id="1dd0e-104">SIP Federated Providers: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="69670-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="69670-105">What do you want to do?</span></span> <span data-ttu-id="69670-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="69670-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1dd0e-105">您要執行的工作</span><span class="sxs-lookup"><span data-stu-id="1dd0e-105">What do you want to do?</span></span> <span data-ttu-id="1dd0e-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="1dd0e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="69670-107">管理組織的 SIP 同盟提供者</span><span class="sxs-lookup"><span data-stu-id="69670-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-
-
+- [<span data-ttu-id="1dd0e-107">管理組織的 SIP 同盟提供者</span><span class="sxs-lookup"><span data-stu-id="1dd0e-107">Manage SIP Federated Providers for Your Organization</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-manage-sip-federated-providers-for-your-organization)
