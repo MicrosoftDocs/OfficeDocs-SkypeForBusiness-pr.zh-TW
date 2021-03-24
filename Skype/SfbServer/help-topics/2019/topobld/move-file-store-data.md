@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果您需要移除目前做為商務用 Skype 伺服器部署之檔案存放區的檔案伺服器，或者您需要進行其他變更，使目前的檔案存放區無法使用，您必須先建立新的共用。 接著，您必須執行下列步驟：
-ms.openlocfilehash: 6121083d736075fa9ec58380dbc09ef6a8c4ef68
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a2870f024964a385852b7ecc781dbfb5647550b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819603"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093301"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>在商務用 Skype Server 中將檔案存放區資料移至新的檔案存放區
 
@@ -57,7 +57,7 @@ ms.locfileid: "49819603"
 10. 在 [ **定義新的檔案存放區**] 的 [檔案 **伺服器 FQDN**] 下，輸入檔案伺服器的完整功能變數名稱 (FQDN) 。 在 [檔案 **共用**] 底下，輸入新檔共用的資料夾名稱，然後按一下 **[確定]**。
 
      > [!IMPORTANT]
-     > 這個步驟會定義新的檔案存放區，以供拓撲產生器使用。 您只能將它定義一次，而不是針對每一部伺服器。 在發行拓撲之前，您必須在定義的檔案伺服器上建立已定義的檔案共用。 如需詳細資訊，請參閱[定義前端的檔案存放區](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)。
+     > 這個步驟會定義新的檔案存放區，以供拓撲產生器使用。 您只能將它定義一次，而不是針對每一部伺服器。 在發行拓撲之前，您必須在定義的檔案伺服器上建立已定義的檔案共用。 如需詳細資訊，請參閱[定義前端的檔案存放區](/previous-versions/office/communications/gg133895(v=ocs.14))。
 
 11. 針對每個使用檔案存放區的伺服器或集區，執行下列作業：
 
@@ -65,7 +65,7 @@ ms.locfileid: "49819603"
 
 13. 在 [ **編輯屬性**] 的 [ **關聯**] 下，選取 [檔案 **存放區**] 中的新檔案共用，然後按一下 **[確定]**。
 
-14. 發佈拓撲，檢查複寫狀態，然後視需要執行商務用 Skype Server 部署嚮導。 如需詳細資訊，請參閱＜[Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx)＞。
+14. 發佈拓撲，檢查複寫狀態，然後視需要執行商務用 Skype Server 部署嚮導。 如需詳細資訊，請參閱＜[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))＞。
 
 15. 啟動命令提示字元：按一下 [ **開始**]，按一下 [ **執行**]，然後輸入 cmd.exe。
 
@@ -82,12 +82,12 @@ ms.locfileid: "49819603"
 
 18. 針對您停止服務的每一部伺服器或集區，選取伺服器或集區，按一下 [ **動作**]，然後按一下 [ **啟動所有服務**]。
 
-19. 從拓撲中移除舊的檔案存放區，然後發行拓撲。 如需詳細資訊，請參閱 [移除檔存放區](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)。
+19. 從拓撲中移除舊的檔案存放區，然後發行拓撲。 如需詳細資訊，請參閱 [移除檔存放區](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14))。
 
 20.  (選用) 登入包含您剛才移除為本機 Administrators 群組成員或 Domain Admins 群組成員的電腦，然後移除舊的檔案共用及目錄。
 
 ## <a name="see-also"></a>另請參閱
 
-[將伺服器重新指派至其他檔案存放區](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
+[將伺服器重新指派至其他檔案存放區](/previous-versions/office/skype-server-2010/gg195633(v=ocs.14))
 
-[移除檔存放區](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
+[移除檔存放區](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14))

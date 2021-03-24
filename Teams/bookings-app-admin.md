@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 使用 Bookings 應用程式進行 Microsoft Teams 和虛擬會面
-ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125746"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092781"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面
 
@@ -53,7 +53,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制貴組織中 Bookings 的存取權
 
-有幾種方法可控制能存取 Bookings 應用程式及應用程式特定功能的人員。 如需了解如何在 Microsoft 365 系統管理中心開啟或關閉 Microsoft Bookings，以及如何建立 Bookings 應用程式原則以讓選取的使用者建立 Bookings 行事曆，請參閱[取得 Microsoft Bookings](https://support.microsoft.com/zh-TW/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 您也可以了解如何[建立 Teams 應用程式原則，以釘選特定使用者的 Bookings 應用程式](teams-app-setup-policies.md)。
+有幾種方法可控制能存取 Bookings 應用程式及應用程式特定功能的人員。 如需了解如何在 Microsoft 365 系統管理中心開啟或關閉 Microsoft Bookings，以及如何建立 Bookings 應用程式原則以讓選取的使用者建立 Bookings 行事曆，請參閱[取得 Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 您也可以了解如何[建立 Teams 應用程式原則，以釘選特定使用者的 Bookings 應用程式](teams-app-setup-policies.md)。
 
 ## <a name="recommended-meeting-policy-settings"></a>建議的會議原則設定
 
@@ -73,7 +73,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 設定 Bookings 信箱時，系統會使用 Microsoft 365 或 Office 365 組織的預設電子郵件網域。 不過，這可能會導致將會議邀請傳送給外部收件者時發生問題；您的邀請可能會被標為垃圾郵件，且移至收件者的垃圾郵件資料夾，因此收件者可能永遠不會看到您的邀請。
 
-建議您在建立 Bookings 信箱之前先變更預設網域。 如需了解如何執行這項功能，請參閱[網域常見問題](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)。
+建議您在建立 Bookings 信箱之前先變更預設網域。 如需了解如何執行這項功能，請參閱[網域常見問題](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)。
 
 如果您在 Bookings 信箱建立之後需要變更預設網域，您可以使用 PowerShell 執行此作業：
 
@@ -81,7 +81,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-如需詳細資訊，請參閱 [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) Cmdlet 的 PowerShell 文件。
+如需詳細資訊，請參閱 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox) Cmdlet 的 PowerShell 文件。
 
 > [!NOTE]
 > 如果您使用 Exchange 混合式原則，建議您在變更預設網域時，徹底測試內部部署 Exchange 和 Exchange Online 之間的郵件流程。

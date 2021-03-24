@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e93e30c2c6eeffc2232b6d9049af8d1224f24532
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030979"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094399"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
-如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
+如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](./deploy-overview.md) 開始。
 
 如果您是 Teams 新手，想要深入了解，請查看我們的簡短[歡迎使用 Teams](https://www.youtube.com/embed/s3aQV3T0D6c) 影片 (55 秒)。
 
@@ -52,7 +52,7 @@ Teams 的建置基礎為 Microsoft 365 群組、Microsoft Graph，以及與其�
 
 當您從現有的群組建立團隊，該群組的成員資格、網站、信箱和筆記本都會顯示在 Teams 中。 若要深入了解，請查看此海報：[適用於 IT 結構設計師的 Microsoft 365 中的群組](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-若要自訂及延伸 Teams，請透過[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)新增第三方應用程式。 有了 Teams，您可以將組織外部的人員[新增為團隊或頻道的來賓](guest-access.md)。 Teams 成為 Microsoft 365 及 Office 365 的一部分，可提供穩健的[開發平台](https://docs.microsoft.com/microsoftteams/platform)，使得您可以建置組織所需的團隊工作中樞。 
+若要自訂及延伸 Teams，請透過[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)新增第三方應用程式。 有了 Teams，您可以將組織外部的人員[新增為團隊或頻道的來賓](guest-access.md)。 Teams 成為 Microsoft 365 及 Office 365 的一部分，可提供穩健的[開發平台](/microsoftteams/platform)，使得您可以建置組織所需的團隊工作中樞。 
 
 > [!TIP]
 > 若要深度剖析 Teams 架構，請觀看 [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy) 上的影片。
@@ -101,9 +101,8 @@ Teams 是 Microsoft 365 和 Office 365 中用於智慧通訊的主要用戶端�
 
 ## <a name="teams-known-issues"></a>Teams 的已知問題
 
-請參閱 [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)。
+請參閱 [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)。
 
 ## <a name="teams-client-release-notes"></a>Teams 用戶端版本資訊
 
 請參閱 [Teams 的新增功能](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)。
-

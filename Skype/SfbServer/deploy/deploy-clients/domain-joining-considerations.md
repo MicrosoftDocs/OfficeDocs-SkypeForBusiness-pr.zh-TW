@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 閱讀此主題以瞭解如何將 Skype 室系統裝置電腦加入您的網域。
-ms.openlocfilehash: 6d6decf689b1a38615851911b42676050a823e4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cf98f98a7294ead0920b3d6b07b00879cbfe15f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805913"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093567"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 會議室系統網域加入考慮
  
@@ -62,7 +62,7 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-即使您建立個別的 OU 和封鎖繼承，有些原則也有可能導致較高等級的問題。 [不含覆寫的群組原則] 設定會勝過使用 [封鎖原則繼承] 設定的 OU。 如需詳細資訊，請參閱與群組原則檔中的 [封鎖原則繼承](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) 一文中的「沒有覆寫」一文。
+即使您建立個別的 OU 和封鎖繼承，有些原則也有可能導致較高等級的問題。 [不含覆寫的群組原則] 設定會勝過使用 [封鎖原則繼承] 設定的 OU。 如需詳細資訊，請參閱與群組原則檔中的 [封鎖原則繼承](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) 一文中的「沒有覆寫」一文。
   
 您可能會有多種方法可解決這些問題。 我們建議您與您的 Active Directory 專家協商，以確保您已在具有適當 GPO 設定的 OU 中提供，或是至少在先前描述的原則不存在的 OU 中提供。 建議您為 Skype 會議室系統裝置啟用 [服務品質 (QoS) ]。
 

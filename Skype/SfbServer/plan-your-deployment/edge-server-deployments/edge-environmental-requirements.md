@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的環境需求。
-ms.openlocfilehash: 3757a67d36260cce7d14ddf451a3a436429f24fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8370fb2c8fa8a9b1d083ba336decd85715e31d25
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813833"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095017"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 環境需求
  
@@ -287,7 +287,7 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
   
 ### <a name="external-certificates"></a>外部憑證
 
-指定給外部 Edge Server 介面的憑證至少必須由公用憑證頒發機構單位 (CA) 所提供。 我們無法為您推薦特定 CA，但我們有一個 Ca、 [整合通訊憑證合作夥伴](/SkypeForBusiness/certification/services-ssl) 清單，您可以查看您的首選 CA 是否已列出。
+指定給外部 Edge Server 介面的憑證至少必須由公用憑證頒發機構單位 (CA) 所提供。 我們無法為您推薦特定 CA，但我們有一個 Ca、 [整合通訊憑證合作夥伴](../../../SfbPartnerCertification/certification/services-ssl.md) 清單，您可以查看您的首選 CA 是否已列出。
   
 您何時需要向 CA 提交此公用憑證的要求，以及您如何執行此動作？ 有幾種方式可以完成此作業：
   
@@ -386,9 +386,9 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
 |STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable 分支裝置或 Survivable Branch 伺服器之間 A/V 媒體傳輸的慣用路徑。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable Branch 裝置或 Survivable Branch 伺服器之間的 A/V 媒體傳輸的回退路徑（如果 UDP 通訊無法運作）。 然後，使用 TCP 進行檔案傳輸和桌面共用。  <br/> |
 |HTTPS:  <br/> |TCP  <br/> |4443  <br/> |任何：  <br/> •具有中央管理存放區的前端伺服器  <br/> •具有中央管理存放區的前端集區  <br/> |Edge Server 內部介面  <br/> |從中央管理存放區對 Edge Server 所做的變更複寫。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 Cmdlet，ClsController 命令列 ( # A0) 或 agent ( # A1) 命令和記錄檔集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 Cmdlet，ClsController 命令列 ( # A0) 或 agent ( # A1) 命令和記錄檔集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 Cmdlet，ClsController 命令列 ( # A0) 或 agent ( # A1) 命令和記錄檔集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
    
 ### <a name="hardware-load-balancers-for-edge-port-tables"></a>Edge 埠表的硬體負載平衡器
 
@@ -419,9 +419,9 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |前端伺服器或每一部前端伺服器的 Web 會議流量 (若您的 Edge Server 內部介面) 有前端集區。  <br/> |
 |STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable 分支裝置或 Survivable Branch 伺服器之間 A/V 媒體傳輸的慣用路徑。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任何：  <br/> •前端伺服器  <br/> •集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable Branch 裝置或 Survivable Branch 伺服器之間的 A/V 媒體傳輸的回退路徑（如果 UDP 通訊無法運作）。 然後，使用 TCP 進行檔案傳輸和桌面共用。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 Cmdlet，ClsController 命令列 ( # A0) 或 agent ( # A1) 命令和記錄檔集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 Cmdlet，ClsController 命令列 ( # A0) 或 agent ( # A1) 命令和記錄檔集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 Cmdlet，ClsController 命令列 ( # A0) 或 agent ( # A1) 命令和記錄檔集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
    
 #### <a name="external-interface-virtual-ips"></a>外部介面虛擬 Ip
 

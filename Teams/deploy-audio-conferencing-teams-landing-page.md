@@ -21,12 +21,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7846a5f31b07681dc39651b133f0922c1ec9629
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 92a103262c0d6f997ace41fa0f1d6240452bb8d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031239"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094369"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -46,7 +46,7 @@ ms.locfileid: "49031239"
 |問問自己|動作 |
 |------------|-------|
 |我所在的國家/地區是否可使用音訊會議？|若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
-|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Microsoft 365 或 Office 365 E5 訂閱取得，或是從 Microsoft 365 商務標準版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Microsoft 365 或 Office 365 中的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除 Microsoft 365 Apps 商務版的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。 </li><li>若要查看包含在各方案中的雲端功能，請參閱[根據您方案的授權選項](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
+|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Microsoft 365 或 Office 365 E5 訂閱取得，或是從 Microsoft 365 商務標準版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Microsoft 365 或 Office 365 中的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除 Microsoft 365 Apps 商務版的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看包含在各方案中的雲端功能，請參閱[根據您方案的授權選項](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)文章。</li></ul>|
 |對於獲得音訊會議授權的使用者，我是否需要為他們購買通訊點數？|若要深入了解，請參閱[什麼是通訊點數](what-are-communications-credits.md)，然後查看下方的[通訊點數](#communications-credits) 一節。|
 |||
 
@@ -63,7 +63,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 | 問問自己 | 動作 |
 |--------------|--------|
 |誰將獲指派 Teams 通訊系統管理員角色？|若要深入了解 Teams 系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色管理來管理 Teams](using-admin-roles.md)。|
-|誰將獲指派 Teams 通訊支援工程師角色？|若要指派系統管理員角色，[使用 Azure Active Directory 將系統管理員和非系統管理員角色指派給使用者](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
+|誰將獲指派 Teams 通訊支援工程師角色？|若要指派系統管理員角色，[使用 Azure Active Directory 將系統管理員和非系統管理員角色指派給使用者](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
 |誰將獲指派 Teams 通訊支援專員角色？||
 |||
 
@@ -75,7 +75,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 |問問自己|動作 |
 |------------|-------|
-|是否需要新增新的會議橋接器號碼？| 若要新增新號碼，請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。|
+|是否需要新增新的會議橋接器號碼？| 若要新增新號碼，請參閱[取得服務電話號碼](./getting-service-phone-numbers.md)。|
 |需要修改橋接器設定嗎？|若要修改橋接器設定，請參閱[變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)。|
 |需要連接埠號碼搭配音訊會議使用嗎？|如需連接埠號碼的詳細資訊，請參閱[將電話號碼移轉至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。|
 |||
@@ -87,7 +87,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 |問問自己|動作 |
 |------------|-------|
-| 自動語音應答問候語應選擇哪些語言？ | 若要選擇語言，請參閱[設定音訊會議的自動語音應答語言](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。|
+| 自動語音應答問候語應選擇哪些語言？ | 若要選擇語言，請參閱[設定音訊會議的自動語音應答語言](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)。|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>會議橋接器設定 

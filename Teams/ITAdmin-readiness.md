@@ -16,15 +16,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 - seo-marvel-mar2020
-description: 針對系統管理員提供如何規劃、部署及執行 Microsoft Teams 的訓練影片、PowerPoint 幻燈片組、教學課程及其他資源。
+description: 針對系統管理員提供如何規劃、部署及執行 Microsoft Teams 的訓練影片、PowerPoint 幻燈片組、教學課程和其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b764e7843defac163e4d111a49b1cf9a321f27
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874873"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094565"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 系統管理訓練入門
 
@@ -32,8 +32,8 @@ ms.locfileid: "50874873"
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![描繪手和向上箭號的圖示](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [使用幾個團隊和頻道快速入門](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述兩個使用者的圖示](https://docs.microsoft.com/office/media/icons/users-people.png) | [取得使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![描述核取方塊的圖示](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![工作剪貼簿符號](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams 粉筆交談：瞭解熱門 Teams 案例的最佳作法和實用指南](https://aka.ms/TeamsChalkTalks) |
+| ![描繪手和向上箭號的圖示](/office/media/icons/get-started-teams.png) | [使用幾個團隊和頻道快速入門](./get-started-with-teams-quick-start.md) | ![描述兩個使用者的圖示](/office/media/icons/users-people.png) | [取得使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![描述核取方塊的圖示](/office/media/icons/success-teams.png) | [在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![工作剪貼簿符號](/office/media/icons/task-checklist-planning-teams.png) | [Teams 粉筆交談：瞭解熱門 Teams 案例的最佳作法和實用指南](./chalk-talks-landing-page.yml) |
 
 <h2>技術訓練</h2>
 
@@ -63,7 +63,7 @@ ms.locfileid: "50874873"
 | 單元 1：Microsoft Teams 會議室簡介 (18：29)  | [影片](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | 單元 2：Microsoft Teams 網路 (34：10 分鐘)  | [影片](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
 | 單元 3：在 18：45 (選擇適合空間的裝置)  | [影片](https://www.youtube.com/watch?v=jUac7mT7xP4) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| 單元 4：在 56：36 (部署 Microsoft Teams 會議室)  | [影片](https://www.youtube.com/watch?v=IJZPczMAsEM) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| 單元 4：部署 Microsoft Teams 會議室 (56：36 分鐘)  | [影片](https://www.youtube.com/watch?v=IJZPczMAsEM) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
 | 單元 5：在 32：27 (開始 Microsoft Teams 會議室)  | [影片](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
 | 單元 6：管理 Microsoft Teams 會議室，第 1 (18：31 分鐘)  | [影片](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
 | 單元 7：管理 Microsoft Teams 會議室，第 2 部分 (41：06 分鐘)  | [影片](https://www.youtube.com/watch?v=vDCYM5sKylc) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
@@ -84,7 +84,7 @@ ms.locfileid: "50874873"
 | 在 Microsoft Teams 中設定管理                                     | 瞭解如何為貴組織建立 Teams 訊息保留政策，以及如何存檔、刪除及還原個別的 Teams                                                                                   |  [在 Microsoft Teams 指南中設定管理](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | 建立及部署 Microsoft Teams 會議                          | 逐步完成 Microsoft Teams 會議工作負載的部署程式。                                                                                                                                       |  [Microsoft Teams 會議指南的建立與部署](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | 設定 Microsoft Teams 的音訊會議                            | 探索 Teams 中的音訊會議功能，並瞭解如何指派會議橋接器和撥入電話號碼。                                                                                          |  [Microsoft Teams 音訊會議指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 為第一線員工配置 Microsoft Teams                           | 瞭解如何為第一線員工設定及部署正確的 Microsoft Teams 環境。                                                                                                                  | [第一線員工之 Microsoft Teams 的組組指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 為第一線員工組組 Microsoft Teams                           | 瞭解如何為第一線員工設定及部署正確的 Microsoft Teams 環境。                                                                                                                  | [第一線員工之 Microsoft Teams 的組組指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 部署 Microsoft Teams 會議室                           | 瞭解如何建立和設定帳戶以用於 Microsoft Teams 會議室，以及如何在 Microsoft Teams 系統管理中心管理裝置。                                                                                                                  | [部署 Microsoft Teams 會議室](https://aka.ms/teamsroomslab)              |
 
 <h2>快速入門手冊</h2>
@@ -100,5 +100,5 @@ ms.locfileid: "50874873"
 
 <h2>課程</h2>
 
-- [使用 Microsoft Teams 啟用團隊合作](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
-- [Microsoft 服務採用專家](https://aka.ms/AdoptionCert)
+- [使用 Microsoft Teams 啟用團隊合作](/learn/paths/m365-manage-team-collaboration)
+- [Microsoft 服務採用專家](/learn/paths/m365-service-adoption/)

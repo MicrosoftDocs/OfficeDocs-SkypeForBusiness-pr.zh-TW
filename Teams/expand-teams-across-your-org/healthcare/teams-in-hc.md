@@ -26,12 +26,12 @@ description: 瞭解 Microsoft Teams 遠距健康、電子健康記錄 (EHR) 整�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867032"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092681"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -43,14 +43,14 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 - Teams 範本
 - 協調照護與共同合作
 
-此功能是 Microsoft Cloud for Healthcare 的一部分。 深入瞭解使用此解決方案，此解決方案將 Azure、Dynamics 365 和 Microsoft 365 的功能彙集在 [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare)。
+此功能是 Microsoft Cloud for Healthcare 的一部分。 深入瞭解使用此解決方案，此解決方案將 Azure、Dynamics 365 和 Microsoft 365 的功能彙集在 [Microsoft Cloud for Healthcare](/industry/healthcare)。
 
 請觀看下列影片，深入瞭解使用醫療保健資料集以增強 Microsoft Teams 中的健康小組共同作業。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> 本章節內容假設您已在貴組織中部署 Teams。 如果您尚未推出 Teams，請先閱讀 [如何推出 Microsoft Teams](../../How-to-roll-out-teams.md)。
+> 本章節內容假設您已在貴組織中部署 Teams。 如果您尚未推出 Teams，請先閱讀 [如何推出 Microsoft Teams](../../deploy-overview.md)。
 
 下列案例為醫療保健組織可用的案例：
 
@@ -99,7 +99,7 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>適用於醫療保健組織的 Teams 範本
 
-建立 Teams 的新範本已開發並套用至醫院環境，預計很快就會推出更多範本。 這可更輕鬆地建立醫療保健工作者用於各科或各病房間的患者共同照護團隊。 若要深入了解，請參閱 [開始使用適用於醫療保健組織的 Teams 範本](healthcare-templates.md)。 Teams 可以針對內部部門 (例如心臟科或照護病房) 啟用，而且正在開發其他更多範本。
+建立 Teams 的新範本已開發並套用至醫院環境，預計很快就會推出更多範本。 這可更輕鬆地建立醫療保健工作者用於各科或各病房間的患者共同照護團隊。 若要深入了解，請參閱 [開始使用適用於醫療保健組織的 Teams 範本](./healthcare-templates-admin-console.md)。 Teams 可以針對內部部門 (例如心臟科或照護病房) 啟用，而且正在開發其他更多範本。
 
 ## <a name="care-coordination-and-collaboration"></a>協調照護與共同合作
 

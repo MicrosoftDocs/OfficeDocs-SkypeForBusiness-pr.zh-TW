@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 在商務用 Skype Server 中建立或修改網路地區連結，以供 Enterprise Voice 通話許可控制使用。
-ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822463"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093101"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路地區連結
  
@@ -72,10 +72,10 @@ ms.locfileid: "49822463"
     
 ## <a name="see-also"></a>另請參閱
 
-[新 CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[新 CsNetworkRegionLink](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[Get-CsNetworkRegionLink](/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[CsNetworkRegionLink](/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[Remove-CsNetworkRegionLink](/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

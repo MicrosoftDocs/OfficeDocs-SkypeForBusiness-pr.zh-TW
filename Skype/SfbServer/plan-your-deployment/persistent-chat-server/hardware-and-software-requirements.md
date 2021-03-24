@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器的硬體和軟體需求。
-ms.openlocfilehash: 32ba0d94679e6f326fa1821cbe3401d031854037
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d4609d557e5c55b680c4c0761f24cc4f320afcbd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834533"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095107"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>商務用 Skype 2015 Server 中的 Persistent Chat Server 的硬體和軟體需求
  
@@ -69,22 +69,20 @@ Persistent Chat Server 需要 SQL Server 資料庫軟體，以儲存聊天室記
 
 - Microsoft SQL Server 2017 搭配最新的 service pack。
 
-- Microsoft SQL Server 2016 Service Pack 1，您必須使用商務用 Skype Server 累計更新7或更新版本執行。 建議使用最新的 service pack 來執行 SQL Server 2016。 如需如何安裝 Microsoft SQL Server 2016 的詳細資訊，請參閱 [安裝 SQL server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)。
+- Microsoft SQL Server 2016 Service Pack 1，您必須使用商務用 Skype Server 累計更新7或更新版本執行。 建議使用最新的 service pack 來執行 SQL Server 2016。 如需如何安裝 Microsoft SQL Server 2016 的詳細資訊，請參閱 [安裝 SQL server 2016](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)。
 
-- Microsoft SQL Server 2014，必須使用商務用 Skype Server 累計更新6或更新版本執行。 建議使用最新的 service pack 來執行 SQL Server 2014。 如需如何安裝 Microsoft SQL Server 2014 的詳細資訊，請參閱 [安裝 SQL server 2014](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)。
+- Microsoft SQL Server 2014，必須使用商務用 Skype Server 累計更新6或更新版本執行。 建議使用最新的 service pack 來執行 SQL Server 2014。 如需如何安裝 Microsoft SQL Server 2014 的詳細資訊，請參閱 [安裝 SQL server 2014](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)。
 
-- Microsoft SQL Server 2012 (64-位版本) ，我們建議使用最新的 service pack 來執行。 如需如何安裝 Microsoft SQL Server 2012 的詳細資訊，請參閱 [安裝 SQL server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559)。
+- Microsoft SQL Server 2012 (64-位版本) ，我們建議使用最新的 service pack 來執行。 如需如何安裝 Microsoft SQL Server 2012 的詳細資訊，請參閱 [安裝 SQL server 2012](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110))。
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>Persistent Chat Server 憑證需求
 
 如需取得憑證、建立 SQL Server 資料庫及建立檔案存放區的詳細資訊，請參閱 [部署商務用 Skype Server 2015](../../deploy/deploy.md)。 
   
-## <a name="for-more-information"></a>相關資訊
+## <a name="for-more-information"></a>如需詳細資訊
 
 如需硬體和軟體需求的詳細資訊，請參閱下列主題：
   
 - [商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
 - [商務用 Skype Server 2015 的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
-    
-

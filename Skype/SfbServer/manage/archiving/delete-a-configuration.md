@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除封存設定。
-ms.openlocfilehash: a9d24a17ec769f5686502beb325e021c8b0f39c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817623"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095407"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除封存設定
 
@@ -70,4 +70,4 @@ Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $Fal
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-如需詳細資訊，請參閱 [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Remove-CsArchivingConfiguration](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。

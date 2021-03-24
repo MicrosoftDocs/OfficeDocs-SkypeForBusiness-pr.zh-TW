@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a188caf30f7d20ddff618884c2bbcca2b24fe5bb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583912"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092661"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 ==============================
 
-2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 或者，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
+2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 或者，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
 
 
 如果您是 Teams 教育版客戶，請參閱免費 [Office 365 A1 授權](teams-edu-licensing.md)。
@@ -53,16 +53,16 @@ ms.locfileid: "46583912"
 
 3. 指派新購買的授權。
 
-如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+如需詳細資訊，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
 > 如果 E1 試用版結束，且使用者未立即升級為包含 Teams 的訂閱，則不會移除使用者資料。 使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。 一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>移除 Office 365 E1 試用版授權
 
-- 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果您想要透過系統管理入口網站移除此授權，請參閱：[刪除組織的使用者](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+- 如果您想要透過系統管理入口網站移除此授權，請參閱：[刪除組織的使用者](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>相關主題
 

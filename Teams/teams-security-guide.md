@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
-ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
+ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49530970"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093993"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
@@ -100,7 +100,7 @@ Spim 是未經同意的商業立即訊息或目前狀態訂閱要求 (例如垃�
 
 - Azure Active Directory (Azure AD)，可為使用者帳戶提供單一的受信任後端存放庫。 使用者設定檔資訊會透過 Microsoft Graph 的行動而儲存在 Azure AD 中。
   - 請注意，如果您追蹤網路流量，可能會發現多個已核發的權杖。 這包括可能會在查看聊天和音訊流量時於追蹤內看到的 Skype 權杖。
-- 傳輸層安全性 (TLS) 和相互 TLS (MTLS)，可加密立即訊息流量，並啟用端點驗證。 系統會使用安全即時傳輸通訊協定 (SRTP) 加密點對點音訊、視訊和應用程式共用串流，並進行完整性檢查。 您可能也會在追蹤內看到 OAuth 流量，特別是在 Teams 中切換不同索引標籤而交涉權限時，例如要從「貼文」移至「檔案」。 如需索引標籤的 OAuth 流量範例，[請參閱此文件](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab)。
+- 傳輸層安全性 (TLS) 和相互 TLS (MTLS)，可加密立即訊息流量，並啟用端點驗證。 系統會使用安全即時傳輸通訊協定 (SRTP) 加密點對點音訊、視訊和應用程式共用串流，並進行完整性檢查。 您可能也會在追蹤內看到 OAuth 流量，特別是在 Teams 中切換不同索引標籤而交涉權限時，例如要從「貼文」移至「檔案」。 如需索引標籤的 OAuth 流量範例，[請參閱此文件](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab)。
 - Teams 會盡可能使用業界標準通訊協定來驗證使用者。
 
 以下各節會討論其中的某些核心技術。
@@ -136,11 +136,11 @@ Teams 會使用 TLS 和 MTLS 來加密立即訊息。 伺服器對伺服器的�
 
 下表摘要說明 Teams 使用的通訊協定。
 
-***流量加密** _
+***流量加密***
 
 |||
 |:-----|:-----|
-|_ *流量類型**|**加密工具**|
+|**流量類型**|**加密工具**|
 |伺服器對伺服器|MTLS|
 |用戶端對伺服器 (例如 立即訊息與目前狀態)|TLS|
 |媒體流量 (例如 媒體的音訊和視訊共用)|TLS|
@@ -156,7 +156,7 @@ Teams 會使用認證型權杖，以便透過 TURN 安全地存取媒體轉送�
 
 #### <a name="fips"></a>FIPS
 
-Teams 會使用符合 FIPS (聯邦資訊處理標準) 規範的演算法來交換加密金鑰。 如需有關 FIPS 實作的詳細資訊，請參閱[聯邦資訊處理標準 (FIPS) 出版物 140-2](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide) \(英文\)。
+Teams 會使用符合 FIPS (聯邦資訊處理標準) 規範的演算法來交換加密金鑰。 如需有關 FIPS 實作的詳細資訊，請參閱[聯邦資訊處理標準 (FIPS) 出版物 140-2](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide) \(英文\)。
 
 ### <a name="user-and-client-authentication"></a>使用者和用戶端驗證
 
@@ -164,7 +164,7 @@ Teams 會使用符合 FIPS (聯邦資訊處理標準) 規範的演算法來交�
 
 驗證是將使用者認證佈建到受信任伺服器或服務的程序。 Teams 會根據使用者的狀態和位置，而使用下列驗證通訊協定。
 
-- **新式驗證 (MA)** 是 Microsoft 針對用戶端到伺服器的通訊所進行的 OAUTH 2.0 實作。 此驗證可啟用多重要素驗證和條件式存取等安全性功能。 若要使用 MA，就必須為線上租用戶和用戶端啟用 MA。 電腦和行動裝置上的 Teams 用戶端以及 Web 用戶端[全都支援 MA](https://docs.microsoft.com/microsoftteams/sign-in-teams)。
+- **新式驗證 (MA)** 是 Microsoft 針對用戶端到伺服器的通訊所進行的 OAUTH 2.0 實作。 此驗證可啟用多重要素驗證和條件式存取等安全性功能。 若要使用 MA，就必須為線上租用戶和用戶端啟用 MA。 電腦和行動裝置上的 Teams 用戶端以及 Web 用戶端[全都支援 MA](./sign-in-teams.md)。
 
 > [!NOTE]
 > 如果需要複習 Azure AD 的驗證和授權方法，本文的＜簡介＞和＜Azure AD 中的驗證基本知識＞可提供協助。
@@ -183,7 +183,7 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>將 Teams 的存取設定在網際網路界限
 
-若要讓 Teams 正常運作 (以便使用者能夠加入會議等)，客戶需要設定其網際網路存取，以允許流向 Teams 雲端服務的輸出 UDP 和 TCP 流量。 如需詳細資訊，請參閱這裡：[Office 365 URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+若要讓 Teams 正常運作 (以便使用者能夠加入會議等)，客戶需要設定其網際網路存取，以允許流向 Teams 雲端服務的輸出 UDP 和 TCP 流量。 如需詳細資訊，請參閱這裡：[Office 365 URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 和 TCP 443
 
@@ -240,7 +240,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 召集人也可以進行設定，讓撥入的來電者成為第一個進入會議的人。 您可以在 [音訊會議] 設定中為使用者進行這項設定，並套用至該使用者所排程的所有會議。
 
 > [!NOTE]
-> 如需 Teams 中來賓和外部存取的詳細資訊，請參閱這篇[文章](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)。 文中會討論來賓或外部使用者在登入 Teams 時可以看到和使用的功能。 <p> 如果您正在錄製會議，並想要查看存取內容的權限矩陣，請查閱[此文章](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)及其矩陣。
+> 如需 Teams 中來賓和外部存取的詳細資訊，請參閱這篇[文章](./communicate-with-users-from-other-organizations.md)。 文中會討論來賓或外部使用者在登入 Teams 時可以看到和使用的功能。 <p> 如果您正在錄製會議，並想要查看存取內容的權限矩陣，請查閱[此文章](./tmr-meeting-recording-change.md)及其矩陣。
 
 ### <a name="participant-roles"></a>參與者角色
 
@@ -259,7 +259,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 1. **屬於租用戶的使用者**：這些使用者在 Azure Active Directory 中擁有租用戶的認證。
     a. *組織中的人員*：這些使用者在 Azure Active Directory 中擁有租用戶的認證。 *組織中的人員* 包括受邀的來賓帳戶。
     b. *遠端使用者*：這些使用者是從公司網路外部加入會議的。 這些人包括在家、在外工作的員工和其他人 (例如受信任供應商的員工)，且必須已獲得可在服務期間使用的企業認證。 遠端使用者可以建立和加入會議並擔任簡報者。
-。
+.
 2. **不屬於租用戶的使用者**：這些使用者在 Azure AD 中沒有租用戶的認證。
     a. *同盟使用者*：同盟使用者擁有對同盟合作夥伴有效的認證，因此可視為已由 Teams 驗證，但其對會議召集人租用戶來說仍屬匿名。 同盟使用者可加入會議，並在加入會議後提升為簡報者，但他們無法在所同盟的企業中建立會議。
     b. *匿名使用者*：匿名使用者沒有 Active Directory 身分識別，且未與租用戶同盟。
@@ -297,14 +297,14 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 
 ## <a name="related-topics"></a>相關主題
 
-[安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+[安全性團隊支援在家工作最常見的 12 項工作](/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Microsoft 信任中心](https://microsoft.com/trustcenter)
 
-[在 Microsoft Teams 中管理會議設定](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+[在 Microsoft Teams 中管理會議設定](./meeting-settings-in-teams.md)
 
-[使用 VPN 分割通道將遠端使用者的 Microsoft 365 或 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[使用 VPN 分割通道將遠端使用者的 Microsoft 365 或 Office 365 連線能力最佳化](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [實作 VPN 分割通道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [實作 VPN 分割通道](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Teams 中的會議錄製，錄製的儲存位置及哪些人可以存取](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
+[Teams 中的會議錄製，錄製的儲存位置及哪些人可以存取](./tmr-meeting-recording-change.md)

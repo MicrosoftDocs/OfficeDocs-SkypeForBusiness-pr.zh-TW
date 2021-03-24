@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 深入瞭解商務用 Skype Server 中的前端集區管理，包括管理集區、仲裁遺失，以及僅有兩部前端伺服器的集區的特殊步驟。
-ms.openlocfilehash: 3f1924b7a8ad26b880f8674ada4f0c99a1bc4596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47e4b2157961a2856256e3d96a0676dd86d3f996
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802793"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093071"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端集區高可用性和管理
  
@@ -45,7 +45,7 @@ ms.locfileid: "49802793"
   
 |集區中的伺服器總數  <br/> |第一次啟動集區時必須執行的伺服器數目  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|2   <br/> |1  <br/> |
 |3   <br/> |3   <br/> |
 |4   <br/> |3   <br/> |
 |5   <br/> |4   <br/> |
@@ -60,10 +60,10 @@ ms.locfileid: "49802793"
 
 
    
-每次後續的集區啟動時，應啟動85% 的伺服器 (，如上表) 所示。 若無法啟動此伺服器數目 (但是可以啟動足夠的伺服器，以致于您不會在集區層級仲裁遺失) 中，您可以使用  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` Cmdlet 來啟用集區以從此路由群組層級仲裁遺失中復原，並進行進展。 如需如何使用此 Cmdlet 的詳細資訊，請參閱 [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
+每次後續的集區啟動時，應啟動85% 的伺服器 (，如上表) 所示。 若無法啟動此伺服器數目 (但是可以啟動足夠的伺服器，以致于您不會在集區層級仲裁遺失) 中，您可以使用  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` Cmdlet 來啟用集區以從此路由群組層級仲裁遺失中復原，並進行進展。 如需如何使用此 Cmdlet 的詳細資訊，請參閱 [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
   
 > [!NOTE]
-> 在具有偶數伺服器數目的集區中，商務用 Skype 伺服器使用主要 SQL 資料庫作為見證。 在此像這樣的集區中，如果您關閉主資料庫並切換至鏡像副本，並關閉足夠的前端伺服器，以便根據上表的情況執行足夠的前端伺服器，則整個集區將會停止運作。 如需詳細資訊，請參閱 [資料庫鏡像見證](https://go.microsoft.com/fwlink/?LinkId=393672)。 
+> 在具有偶數伺服器數目的集區中，商務用 Skype 伺服器使用主要 SQL 資料庫作為見證。 在此像這樣的集區中，如果您關閉主資料庫並切換至鏡像副本，並關閉足夠的前端伺服器，以便根據上表的情況執行足夠的前端伺服器，則整個集區將會停止運作。 如需詳細資訊，請參閱 [資料庫鏡像見證](/sql/database-engine/database-mirroring/database-mirroring-witness)。 
   
 #### <a name="pool-level-quorum-loss"></a>集區層級仲裁遺失
 
@@ -71,7 +71,7 @@ ms.locfileid: "49802793"
   
 |集區中的前端伺服器總數  <br/> |集區執行運作所需的伺服器數目  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|2   <br/> |1  <br/> |
 |3-4  <br/> |任何2  <br/> |
 |5-6  <br/> |任何3  <br/> |
 |7   <br/> |任何4  <br/> |
@@ -82,7 +82,7 @@ ms.locfileid: "49802793"
 在上表中，第一次啟動集區時，"first servers" 是第一次啟動的伺服器。 若要判斷這些伺服器，您可以使用  `Get-CsComputer` Cmdlet 搭配 `-PoolFqdn` 選項。 此 Cmdlet 會以拓撲中顯示的順序顯示伺服器，而位於清單頂端的伺服器是第一部伺服器。
   
 > [!IMPORTANT]
-> [商務用 Skype Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)中的前端伺服器數目上限已增加至16
+> [商務用 Skype Server 2019](../../../SfBServer2019/plan/user-model-2019.md)中的前端伺服器數目上限已增加至16
 > 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>確定集區運作的其他步驟
 
@@ -117,5 +117,3 @@ ms.locfileid: "49802793"
 - 發行新的拓撲之後，您必須重新開機集區中的每一部前端伺服器。 一次重新開機一個。
     
 - 如果在設定變更期間整個集區都已停機，請在發佈新的拓撲之後，執行下列 Cmdlet：  `Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
-    
-

@@ -22,67 +22,67 @@ ms.custom:
 - Reporting
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 瞭解通話品質儀表板 (CQD) ，以及如何使用它在 Microsoft 團隊中查看會議和通話品質的報告。
-ms.openlocfilehash: 9ba1956533887314a9ffa7ad994cbb4c81ffe103
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: 瞭解 CQD (通話品質) ，以及如何使用它來查看 Microsoft Teams 中的會議與通話品質報告。
+ms.openlocfilehash: c78e427ef87f7485932fac207c10add71c8bf269
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583482"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094937"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>什麼是通話品質儀表板 (CQD) ？
 
-Microsoft 通話品質儀表板 (CQD) - [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) -顯示通話與會議品質，在**組織範圍內**、Microsoft 團隊、商務用 Skype Online 及商務用 skype Server 2019。 
+Microsoft 通話品質儀表板 (CQD) [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) - 顯示 Microsoft Teams、商務用 Skype **** Online 和商務用 Skype Server 2019 全組織層級的通話和會議品質。 
 
   
-最新版本的 CQD 功能是[近即時 (NRT) 資料](CQD-data-and-reports.md)摘要，這表示在通話結束後的30分鐘內，就能使用 CQD 的通話記錄。
+最新版本的 CQD 具有接近即時 [的 (NRT) ](CQD-data-and-reports.md)資料摘要，這表示通話記錄可在通話結束的 30 分鐘內在 CQD 中提供。
 
-無論是 CQD 包含[使用者可識別資訊 (EUII) 資料](CQD-data-and-reports.md#euii-data)，其管理方式都與[Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)中的 EUII 一樣。
+無論 CQD 包含使用者標識資訊 ([EUII) 資料，](CQD-data-and-reports.md#euii-data)其管理方式與 [整個 Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)的 EUII 相同。
 
-CQD 的設計目的是協助小組系統管理員、商務用 Skype 系統管理員，以及網路工程人員在組織範圍內監視通話與會議品質。 您將會使用 CQD 來協助您**優化網路**，以提高效能品質。 當您需要查看**特定使用者**的通話與會議資訊時，請結合使用 CQD 資料與每個使用者的[呼叫分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
+CQD 是專為協助 Teams 系統管理員、商務用 Skype 系統管理員和網路工程師監控全組織層級的通話和會議品質所設計。 您將使用 CQD 來協助 **優化您的網路** ，以提升績效品質。 當您需要查看特定使用者的通話和會議資訊時，請使用CQD 資料與每個使用者的通話[分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
 
-例如，您可以使用 CQD 來判斷您使用每個使用者的呼叫分析所觀察的使用者不佳通話品質 (，) 是因為網路問題也會影響許多其他使用者。 CQD 會捕獲個人通話體驗，以及使用團隊或商務用 Skype 所做的總體通話品質。 使用 CQD 時，整個模式可能會變得很明顯，因此網路工程師可以進行通話品質的及時評估。 CQD 提供通話品質度量的報告，可讓您深入瞭解整個通話品質、伺服器用戶端資料流程、用戶端用戶端資料流程，以及語音品質[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。 
+例如，使用 CQD，您可以判斷使用者使用每個使用者通話分析 (所觀察到的通話品質不佳) 是因為網路問題也會影響到許多其他使用者。 CQD 會同時取得使用 Teams 或商務用 Skype 進行之通話的個人通話體驗和整體品質。 有了 CQD，整體模式可能會變得明顯，因此網路工程師可以做出明智的通話品質評定。 CQD 提供通話品質度量報告，可深入瞭解整體通話品質、伺服器-用戶端資料流程、用戶端-用戶端資料流程和語音品質[SLA。](https://go.microsoft.com/fwlink/p/?linkid=846252) 
   
 ![通話品質儀表板的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-在 CQD 中，我們鼓勵您上傳建築物與端點資訊，讓您使用位置改良式報告來分析使用者組建中的通話品質與可靠性。 您可以評估資料來判斷問題是獨立于單一使用者，還是會影響較大的使用者區段。 若要在 CQD 中開啟組建或端點專用的視圖，系統管理員必須在 CQD**租使用者資料**上傳頁面上的[建築物或端點資訊](CQD-upload-tenant-building-data.md)。
+在 CQD 中，我們鼓勵您上傳建築物和端點資訊，讓您使用 Location-Enhanced 報告來分析使用者建築物內的通話品質和可靠性。 您可以評估資料，以判斷問題是否與單一使用者隔離，或影響較大的使用者區段。 若要在 CQD 中開啟建築物或端點特定視圖，系統管理員必須在 [](CQD-upload-tenant-building-data.md)CQD **租** 使用者資料上傳頁面上上傳建築物或端點資訊。
 
-![[通話品質儀表板] 的位置改良報告的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![通話品質儀表板的螢幕擷取畫面Location-Enhanced報表。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
-不要錯過我們的 [[管理通話與會議品質](quality-of-experience-review-guide.md)] 文章，這會為負責管理團隊中的服務品質的小組系統管理員或支援工程師提供深入指引。
+請勿錯過我們的管理通話和會議 [品質](quality-of-experience-review-guide.md) 文章，本文為負責在 Teams 中管理服務品質的 Teams 系統管理員或支援工程師提供深入指引。
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>較舊版本的 CQD (CQD.lync.com) 
+## <a name="older-version-of-cqd-cqdlynccom"></a>舊版 CQD (CQD.lync.com) 
 
-目前版本的 CQD (https://CQD.Teams.microsoft.com) 取代舊版的 CQD (https://CQD.lync.com) 。 您仍然可以使用 CQD.lync.com (從商務用 Skype 系統管理中心) ，但從2020年7月1日起，就是使用來自 CQD 的資料。Teams.microsoft.com。 我們將關閉 CQD.lync.com 的 access，因此您應該移至 CQD。如果您尚未這麼做，請 Teams.microsoft.com。
+目前版本的 CQD (https://CQD.Teams.microsoft.com) 取代舊版 CQD https://CQD.lync.com) (。 您仍可使用 CQD.lync.com (商務用 Skype 系統管理中心) 提供的資料，但自 2020 年 7 月 1 日起，它使用的是 CQD 的資料。Teams.microsoft.com。 我們很快就會關閉 CQD.lync.com，因此您應該移至 CQD。Teams.microsoft.com 尚未執行。
 
 > [!IMPORTANT]
-> 從2020年7月1日起，您將無法再從舊版 CQD 中查看或修改您的建立或查詢資料)  (CQD.lync.com。 如果您還沒有從 CQD.lync.com 遷移這些資料，但仍需要，請記錄支援票證。
+> 自 2020 年 7 月 1 日起，您無法再從舊的 CQD 資料表來查看或修改建築物或查詢 (CQD.lync.com) 。 如果您尚未從資料庫移 CQD.lync.com，請記錄支援票證。
 
-## <a name="use-power-bi-to-analyze-cqd-data"></a>使用 Power BI 來分析 CQD 資料
+## <a name="use-power-bi-to-analyze-cqd-data"></a>使用 Power BI 分析 CQD 資料
 
-2020年1月[的新功能：下載 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可自訂的 Power BI 範本，您可以用來分析及報告您的 CQD 資料。
+2020 年 1 月新增： [下載 CQD 的 Power BI](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)查詢範本。 您可以使用可自訂的 Power BI 範本來分析及報告您的 CQD 資料。
 
-已閱讀 [[使用 POWER BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)] 以深入瞭解。
+請閱讀 [使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md) 以深入瞭解。
 
 
 
 ## <a name="related-topics"></a>相關主題
 
-[改善及監視團隊的通話品質](monitor-call-quality-qos.md)
+[改善及監控 Teams 的通話品質](monitor-call-quality-qos.md)
 
 [設定通話品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[上傳租使用者及組建資料](CQD-upload-tenant-building-data.md)
+[上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 
 [CQD 資料和報表](CQD-data-and-reports.md)
 
-[使用 CQD 管理通話與會議品質](quality-of-experience-review-guide.md)
+[使用 CQD 管理通話和會議品質](quality-of-experience-review-guide.md)
 
-[CQD 中可用的維度與量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[CQD 中可用的維度和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [CQD 中的資料流程分類](stream-classification-in-call-quality-dashboard.md)
 
-[使用 Power BI 來分析 CQD 資料](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
 
 
-[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)

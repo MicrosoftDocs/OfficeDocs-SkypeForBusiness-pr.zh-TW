@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 疑難排解 Cloud Connector Edition 部署。
-ms.openlocfilehash: 7a1caea67c5b5899c2dc0909ef771a57c7c50389
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 9da10f1b3e8dd800e57b46f6a56eb6a82c29e22c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359329"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094821"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>疑難排解您的 Cloud Connector 部署
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
  
 疑難排解 Cloud Connector Edition 部署。
   
@@ -59,7 +59,7 @@ ms.locfileid: "47359329"
     
   - Edge Server 服務： RTCSRV
     
-- 復原**處理常式：** 如果任何監控的服務已關機，裝置會標示為已關機，而且服務會停止並標示手動，直到解決所有問題為止。 這會使呼叫無法路由傳送至可能導致呼叫失敗的裝置。
+- 復原 **處理常式：** 如果任何監控的服務已關機，裝置會標示為已關機，而且服務會停止並標示手動，直到解決所有問題為止。 這會使呼叫無法路由傳送至可能導致呼叫失敗的裝置。
     
     Cloud Connector Management service 會重試自動復原，如下所示
     
@@ -162,7 +162,7 @@ ms.locfileid: "47359329"
 
     或者，您也可以手動檢查並安裝更新。 請參閱下一節。
     
-- **問題：您收到錯誤訊息：無法註冊裝置，因為您目前的輸入/ \<SiteName\> 設定 \<ApplianceName\> 或 \<Mediation Server FQDN\> \<Mediation Server IP Address\> 與現有裝置 (s) 有衝突。移除衝突裝置或更新輸入/設定資訊，然後再註冊一次。' 當執行 CcAppliance 註冊目前裝置至線上時。**
+- **問題：您收到錯誤訊息：無法註冊裝置，因為您目前的輸入/ \<SiteName\> 設定 \<ApplianceName\> 或 \<Mediation Server FQDN\> \<Mediation Server IP Address\> 與現有裝置 (s) 有衝突。移除衝突裝置或更新輸入/設定資訊，然後再註冊一次。' 當執行 Register-CcAppliance，將目前的裝置登錄到線上。**
     
     **解決方法：** 的值 \<ApplianceName\> ， \<Mediation Server FQDN\> 且 \<Mediation Server IP Address\> 必須是唯一的，且僅適用于一個裝置註冊。 根據預設，來自 \<ApplianceName\> 主機名稱。 \<Mediation Server FQDN\> 和 \<Mediation Server IP Address\> 定義在設定 ini 檔案中。
     
@@ -183,13 +183,13 @@ ms.locfileid: "47359329"
   ```
 
     
-- **問題：如果主機上有已部署的裝置，CcRunningVersion Cmdlet 會傳回空值。**
+- **問題：如果主機上有已部署的裝置，則 Get-CcRunningVersion Cmdlet 會傳回空值。**
     
   **解決方法：** 當您從1.3.4 或1.3.8 升級至1.4.1 時，可能會發生這種情況。 使用 .msi 安裝版本1.4.1 之後，您必須先執行， `Register-CcAppliance` 再執行任何其他 Cmdlet。 `Register-CcAppliance` 會將 module.ini 檔案從%UserProfile%\CloudConnector 遷移至%ProgramData%\CloudConnector。 如果您錯過了它，將會在%ProgramData%\CloudConnector 資料夾中建立新的 module.ini，並取代1.3.4 或1.3.8 的執行/備份版本資訊。
     
   比較%UserProfile%\CloudConnector 和%ProgramData%\CloudConnector 資料夾中的 module.ini 檔案。 如果有差異，請刪除%ProgramData%\CloudConnector 中的 module.ini 檔案，然後重新執行  `Register-CcAppliance` 。 您也可以手動將檔案修改為正確的執行和備份版本。
     
-- **問題：當您執行 CcVersion 指令程式來切換至與目前腳本版本不同的舊版本時，此舊版本沒有高可用性支援。**
+- **問題：執行 Switch-CcVersion Cmdlet 以切換到與目前腳本版本不同的舊版本時，此舊版本沒有高可用性支援。**
     
     **解決方法：** 例如，您已從1.4.1 升級到1.4.2。 您目前的腳本版本（可以透過執行 `Get-CcVersion` ）和您的執行版本（這  `Get-CcRunningVersion` 兩種都是1.4.2）所決定。 在此情況下，如果您執行將執行 `Switch-CcVersion` 中的版本切換回1.4.1，則此舊版本將無法提供高可用性支援。
     
@@ -200,15 +200,15 @@ ms.locfileid: "47359329"
     **解決方法：** 商務用 Skype 憑證授權憑證在五年之內有效。 發佈至中央管理存放區、轉送伺服器和 Edge Server 的內部憑證是兩年有效。
     
     > [!NOTE]
-    > 在雲端連接器版本2.0 和更新版本中，CcServerCertificate Cmdlet 已變更為 CcServerCertificate，且 CcCACertificate Cmdlet 已變更為 Update-CcCACertificate。 
+    > 在雲端連接器版本2.0 和更新版本中，Renew-CcServerCertificate Cmdlet 已變更為 Update-CcServerCertificate，且 Renew-CcCACertificate Cmdlet 已變更為 CcCACertificate。 
   
-    如果向中央管理存放區、轉送伺服器和 Edge Server 發行的內部憑證接近到期或遭到損害，請執行 CcServerCertificate 或 Update-CcServerCertificate Cmdlet 來更新您的憑證。
+    如果向中央管理存放區、轉送伺服器和 Edge Server 發行的內部憑證接近到期或遭到損害，請執行 Renew-CcServerCertificate 或 Update-CcServerCertificate Cmdlet 以更新憑證。
     
-    如果憑證授權單位憑證接近到期，請執行 CcCACertificate 或 Update-CcCACertificate Cmdlet 來更新憑證。
+    如果憑證授權單位憑證接近到期，請執行 Renew-CcCACertificate 或 Update-CcCACertificate Cmdlet 以更新憑證。
     
     **如果憑證授權單位憑證遭到損害，且網站中只有一個裝置，請** 執行下列步驟：
     
-1. 執行 Enter-CcUpdate 指令程式以排出服務，並將裝置置於維護模式。
+1. 執行 Enter-CcUpdate Cmdlet 以排出服務，並將裝置置於維護模式。
    
    ```powershell
    Enter-CcUpdate
@@ -232,13 +232,13 @@ ms.locfileid: "47359329"
     Remove-CcLegacyServerCertificate 
     ```
     
-3. 如果閘道和轉送伺服器之間使用 TLS，請從裝置執行 Export-CcRootCertificate 指令程式，然後將匯出的憑證安裝到您的 PSTN 閘道。 您可能還需要重新簽發您的閘道上的憑證。
+3. 如果閘道和轉送伺服器之間使用 TLS，請從裝置執行 Export-CcRootCertificate Cmdlet，然後將匯出的憑證安裝到您的 PSTN 閘道。 您可能還需要重新簽發您的閘道上的憑證。
 
    ```powershell
    Export-CcRootCertificate
    ```
 
-4. 執行 CcUpdate 指令程式，以啟動服務並退出維護模式。
+4. 執行 Exit-CcUpdate Cmdlet 以啟動服務並退出維護模式。
 
    ```powershell
    Exit-CcUpdate
@@ -249,13 +249,13 @@ ms.locfileid: "47359329"
     
     Microsoft 建議您在非峰使用時間內執行這些步驟。
     
-1. 在第一個裝置上，執行 CcCertificationAuthorityFile Cmdlet 以清除目錄中的 CA 備份檔案 \<SiteRoot\> 。
+1. 在第一個裝置上，執行 Remove-CcCertificationAuthorityFile Cmdlet 以清除目錄中的 CA 備份檔案 \<SiteRoot\> 。
 
      ```powershell
      Remove-CcCertificationAuthorityFile
      ```
     
-2. 執行 Enter-CcUpdate 指令程式以排出服務，並將每個裝置置於維護模式。
+2. 執行 Enter-CcUpdate Cmdlet 以排出服務，並將每個裝置置於維護模式。
 
      ```powershell
      Enter-CcUpdate
@@ -293,13 +293,13 @@ ms.locfileid: "47359329"
      Remove-CcLegacyServerCertificate 
      ```
      
-6. 如果閘道和轉送伺服器之間使用 TLS，請從網站的任何裝置執行 Export-CcRootCertificate 指令程式，然後將匯出的憑證安裝到您的 PSTN 閘道。 您可能還需要重新簽發您的閘道上的憑證。
+6. 如果閘道和轉送伺服器之間使用 TLS，請從網站中的任何裝置執行 Export-CcRootCertificate Cmdlet，然後將匯出的憑證安裝到您的 PSTN 閘道。 您可能還需要重新簽發您的閘道上的憑證。
   
      ```powershell
      Export-CcRootCertificate
      ```
      
-7. 執行 CcUpdate 指令程式，以啟動服務並退出維護模式。 
+7. 執行 Exit-CcUpdate Cmdlet 以啟動服務並退出維護模式。 
 
      ```powershell
      Exit-CcUpdate
@@ -314,7 +314,7 @@ ms.locfileid: "47359329"
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- **問題：在您變更用於部署之主機伺服器帳戶的密碼之後，您會收到下列錯誤訊息：「ConvertTo-SecureString：在指定的狀態中使用的機碼無效。」在%ProgramFiles%\Skype for Business 雲端 Connector Edition\ManagementService\CceManagementService.log 或執行 CcCredential Cmdlet。**
+- **問題：在您變更用於部署之主機伺服器帳戶的密碼之後，您會收到下列錯誤訊息：「ConvertTo-SecureString： Get-CcCredential 在指定的狀態中使用的金鑰]。在%ProgramFiles%\Skype for Business 雲端 Connector Edition\ManagementService\CceManagementService.log 或執行 Cmdlet 時。**
     
     **解決方法：** 所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
     
@@ -338,7 +338,7 @@ ms.locfileid: "47359329"
     
      若快取密碼檔是以雲端連接器版本1.4.2 產生，且 DomainAdmin 和 VMAdmin 密碼不同，您必須執行下列步驟：
     
-  7. 執行 Set-CcCredential-AccountType DomainAdmin，如下所示：
+  7. 執行 Set-CcCredential AccountType DomainAdmin，如下所示：
     
   8. 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
@@ -346,19 +346,19 @@ ms.locfileid: "47359329"
     
      若快取密碼檔是以 Cloud Connector 版本2.0 或更新版本產生，則根據預設，VmAdmin 和 DomainAdmin 會使用與 CceService 相同的密碼。 如果您變更了 DomainAdmin 和 VMAdmin 密碼，您必須執行下列步驟：
     
-  10. 執行 Set-CcCredential-AccountType DomainAdmin，如下所示：
+  10. 執行 Set-CcCredential AccountType DomainAdmin，如下所示：
     
        1. 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證
     
        2. 當系統提示您輸入新的帳號憑證時，請輸入您之前所用之 DomainAdmin 密碼的密碼。
     
-  11. 執行 Set-CcCredential-AccountType VmAdmin，如下所示：
+  11. 執行 Set-CcCredential AccountType VmAdmin，如下所示：
     
        1. 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證
     
        2. 當系統提示您輸入新的帳號憑證時，請輸入您之前所用之 VmAdmin 密碼的密碼。 
     
-- **問題：使用雲端連接器版本2.1 和更新版本時，在裝置上執行 CcAppliance 或其他 Cmdlet 時，會收到一則錯誤訊息，例如，針對每個物件： "the the the the the property the the the the the the the the the the the the the the the the the the the the確認該屬性存在。C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1： 681 char： 14 "**
+- **問題：使用雲端連接器版本2.1 和更新版本時，當您在裝置上執行 Register-CcAppliance 或其他 Cmdlet 時，會收到錯誤訊息，例如： "For Each-Object：無法在此物件上找到屬性「Common」。確認該屬性存在。C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1： 681 char： 14 "**
     
     **解決方法：** Cloud Connector 2.1 和更新版本需要 .NET Framework 4.6.1 或更新版本。 請將裝置上的 .NET Framework 更新為版本4.6.1 或更新版本，然後再次執行 Cmdlet () 。
 
@@ -368,9 +368,9 @@ ms.locfileid: "47359329"
 
    「狀態」列必須具有值，但無法從 Cloudconnector.ini 檔移除「狀態」行。
 
-- **問題：您收到下列錯誤訊息：「卸裝-WindowsImage： WindowsImage 失敗」。在安裝或升級 Cloud Connector Edition 時，錯誤代碼 = 0xc1550115 "。**
+- **問題：您收到下列錯誤訊息：「卸載-WindowsImage： Dismount-WindowsImage 失敗。在安裝或升級 Cloud Connector Edition 時，錯誤代碼 = 0xc1550115 "。**
     
-    **解決方法：** 以系統管理員身分啟動 PowerShell 主控台，請執行「DISM-清除-Wim '」。 這會清除所有的 troubled 影像。 再次執行 Install-CcAppliance，或等候 bits 自動升級。
+    **解決方法：** 以系統管理員身分啟動 PowerShell 主控台，請執行「DISM-清除-Wim '」。 這會清除所有的 troubled 影像。 請再次執行 Install-CcAppliance，或等候 bits 自動升級。
     
 - **問題：在 HA 環境中部署第一個雲端連接器裝置失敗**
     
@@ -380,9 +380,9 @@ ms.locfileid: "47359329"
     
   - 如果第一個雲端連接器裝置因次要問題而失敗，例如外部憑證問題，您可能能夠修正問題，而不需重新安裝裝置。 然後，您可以使用租使用者 remote PowerShell，將部署標示為成功，如下所示。  (您也可以在第一次部署成功時使用下列步驟，但由於某些原因，Cloud Connector 無法報告部署成功。 ) 
     
-  - 若要取得第一個雲端連接器裝置的身分識別 (GUID) ，請執行 CsHybridPSTNAppliance Cmdlet。
+  - 若要取得第一個雲端連接器裝置的身分識別 (GUID) ，請執行 Get-CsHybridPSTNAppliance Cmdlet。
     
-  - 若要將裝置標示為已成功部署，請執行 CsCceApplianceDeploymentStatus，如下所示：
+  - 若要將裝置標示為已成功部署，請執行 Set-CsCceApplianceDeploymentStatus，如下所示：
     
   ```powershell
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
@@ -406,14 +406,14 @@ ms.locfileid: "47359329"
     
      - 或者，您可以 Import-Module CloudConnector-Force 執行。 
  
--   **問題：「字詞 ' Stop-CsWindowsService ' 不會被辨識為 Cmdlet、function、script file 或 run program 的名稱。嘗試執行 CcUpdate 指令程式時發生錯誤。**
+-   **問題：「字詞 ' Stop-CsWindowsService ' 不會被辨識為 Cmdlet、function、script file 或可執行檔程式的名稱。嘗試執行 Enter-CcUpdate 指令程式時發生錯誤。**
 
     **解決方法：** 刪除 $HOME 的 \AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache 檔案。
 PowerShell 會將此檔案建立為其所找到之模組的指令程式快取，這樣就不必每次重新分析所有的模組，這樣做會使事情變得非常緩慢。 在從該快取中讀取郵件時，可能會有一些檔案損毀，提供要 PowerShell 的誤導結果。
 
 -   **問題： "Import-Module CloudConnector" 產生錯誤 "Import-Module：指定的模組" CloudConnector "未載入，因為在任何模組目錄中找不到有效的模組檔案"**
 
-    **解決方案：**
+    **解決方法：**
     - 驗證 CloudConnector 模組是否確實存在於 c:\Program Files\WindowsPowerShell\Modules
     
     - 在驗證 CloudConnector 模組存在於此位置下之後，可以變更儲存模組位置路徑的 PSModulePath 環境變數：

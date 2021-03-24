@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 摘要：瞭解如何在商務用 Skype Server 中 (QoE) 設定中刪除經驗品質。
-ms.openlocfilehash: 45150b6aa2e6f48eedb28f180cfff8f291f58abc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b48ddb9af715cd33b11d3c2f1c7ea90b3746aa4a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095277"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>刪除商務用 Skype Server 中的經驗品質設定設定
  
@@ -29,7 +29,7 @@ ms.locfileid: "49816933"
   
 請注意，您也可以「刪除」全域設定。 不過，全域設定實際上不會被移除。 相反地，該集合中的所有屬性都會重設為預設值。 例如，預設會在 QoE 設定設定的集合中啟用清除。 假設您修改全域集合以停用清除。 如果您稍後刪除全域設定，所有屬性都會重設為其預設值。 在此情況下，這表示會再次啟用清除。
   
-您可以使用商務用 Skype Server 控制台或使用 [Remove-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps) Cmdlet 來移除 QoE 設定設定。
+您可以使用商務用 Skype Server 控制台或使用 [Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps) Cmdlet 來移除 QoE 設定設定。
   
 ### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台刪除 QoE 配置設定
 
@@ -71,9 +71,8 @@ ms.locfileid: "49816933"
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 
-如需詳細資訊，請參閱 [Remove-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)。
+如需詳細資訊，請參閱 [Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)。
   
 ## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 中手動清除詳細通話記錄與經驗品質資料庫](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
-

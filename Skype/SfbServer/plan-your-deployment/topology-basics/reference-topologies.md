@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 商務用 Skype 伺服器的參考拓撲，包括針對大型、中型和 small 組織所進行的圖表和決策。
-ms.openlocfilehash: 958f6630faf295a16aebe7513ee9e5c98daeeaa5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f92474cf1d5a2057a81a0b69abef26d6a9d744f2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831733"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092871"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>商務用 Skype Server 的參考拓撲
 
@@ -129,7 +129,7 @@ ms.locfileid: "49831733"
 
 - **分支網站部署選項。** 此組織實際上具有超過50個分支網站，詳細資訊圖表中只會顯示兩個分支網站。 分支網站1沒有指向中央網站的彈性 WAN 連結，因此他們已部署 Survivable 分支裝置以提供電話語音，以防中央網站的 WAN 連結停止運作。 分支網站2不過具有彈性 WAN 連結，因此只需要公用交換電話網路 (PSTN) 閘道。 此網站部署的 PSTN 閘道支援媒體旁路，所以分支網站 2 不需要有中繼伺服器。 如需決定在分支網站安裝之專案的詳細資訊，請參閱 [在商務用 Skype Server 中規劃 Enterprise Voice 韌性](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
 
-- **SIP 主幹和轉送伺服器。** 請注意，在中央網站 B 上，轉送伺服器不會與前端伺服器組合。 這是因為針對使用 SIP 主幹的網站，建議使用獨立的轉送伺服器。 在其他大多數的情況下，我們建議您組合轉送伺服器與前端伺服器。 如需有關轉送伺服器拓撲的詳細資訊，請參閱規劃檔中的中繼 [伺服器元件和拓撲](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx) 。
+- **SIP 主幹和轉送伺服器。** 請注意，在中央網站 B 上，轉送伺服器不會與前端伺服器組合。 這是因為針對使用 SIP 主幹的網站，建議使用獨立的轉送伺服器。 在其他大多數的情況下，我們建議您組合轉送伺服器與前端伺服器。 如需有關轉送伺服器拓撲的詳細資訊，請參閱規劃檔中的中繼 [伺服器元件和拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-mediation-server) 。
 
 - **部署持續性聊天。** 此組織已部署啟用持續性聊天所需的伺服器。 它已部署多個持續性聊天前端伺服器來處理集區中使用者數目的負載，並提供高可用性。 它也部署了持續性聊天的相容性，並已在不同的伺服器上找到 Persistent chat Store 和 Persistent Chat 規範存放區。 這些存放區可能是組合，甚至可以與後端伺服器組合，但這項組織已選擇將其分開，以提供更好的效能。
 
@@ -142,12 +142,10 @@ ms.locfileid: "49831733"
 
     中央網站 B 使用託管 Exchange，因此也會主控 Exchange UM 伺服器功能。
 
-    如需 Exchange UM 的詳細資訊，請參閱規劃檔中的 [On-Premises Exchange 整合通訊整合](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) 和 [主控 Exchange 整合通訊整合](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx) 。
+    如需 Exchange UM 的詳細資訊，請參閱規劃檔中的 [On-Premises Exchange 整合通訊整合](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration) 和 [主控 Exchange 整合通訊整合](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration) 。
 
 - **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office Web Apps Server 或 Office Web Apps Server 伺服器陣列。 您可以在一個網站中部署單一的 Office Web Apps Server 伺服器陣列，以便從所有網站提供流量，或是在每個網站中部署。 Office Web Apps Server 可以在 Web 會議中呈現 Powerpoint 投影片。
 
 - **可以新增 director。** 如果此組織想要提高安全性以防範拒絕服務攻擊，也可以部署 Director 集區。 Director 是商務用 Skype Server 中的個別非選用伺服器角色，不會家用使用者帳戶，也不會提供目前狀態或會議服務。 它充當內部的下一個躍點伺服器，Edge Server 會將傳入 SIP 流量路由傳送至內部伺服器。 Director 對輸入要求進行預先驗證，並將它們重新導向至使用者的主集區或伺服器。 Director 的預先驗證可讓您從部署中未知的使用者帳戶中丟棄要求。 Director 可協助將前端伺服器與惡意流量（如拒絕服務 (DoS) 攻擊）隔離。 如果網路在這類攻擊中以不正確外部流量淹沒，該流量會結束于 Director。
 
 - **建議使用 System Center Operations Manager。** 建議您監視商務用 Skype Server 部署的健康情況，以協助確保使用者的服務可用性。 您可以使用 System Center Operations Manager 管理元件作為商務用 Skype，可免費從 Microsoft 下載。 透過商務用 Skype 管理元件，您可以在發生問題時，主動取得即時警示、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等等。 這可協助您在使用者體驗之前，主動回應部署的問題。
-
-

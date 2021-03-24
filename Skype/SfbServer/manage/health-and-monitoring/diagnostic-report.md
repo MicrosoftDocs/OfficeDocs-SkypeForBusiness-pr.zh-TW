@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：瞭解商務用 Skype Server 中的診斷報告。
-ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095237"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的診斷報告
  
@@ -39,13 +39,13 @@ ms.locfileid: "49816893"
 
 無。 您無法篩選診斷報告。
   
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出每個會話的診斷報告中提供的資訊。
   
 **診斷報告計量**
 
-|**名稱**|**可以排序這個項目嗎？**|**描述**|
+|**Name**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
 |**報告時間** <br/> |否  <br/> |報告的記錄日期與時間。  <br/> |
 |**回應碼** <br/> |否  <br/> |會話失敗時傳送的 SIP 回應碼。  <br/> |
@@ -60,6 +60,4 @@ ms.locfileid: "49816893"
 |**會議加入時間 (毫秒)** <br/> |否  <br/> |使用者加入會議所需的時間（以毫秒為單位）)  (量。  <br/> |
 |**診斷標頭** <br/> |否  <br/> |診斷識別碼描述。  <br/> |
    
-您可以在 [Ms Diagnostics 頁首頁面](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)上找到診斷錯誤的清單。
-  
-
+您可以在 [Ms Diagnostics 頁首頁面](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)上找到診斷錯誤的清單。

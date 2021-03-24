@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 摘要：瞭解如何為商務用 Skype Server 建立新的封存原則。
-ms.openlocfilehash: 3e1f538aba26025f5868a09babd3b67df36f9a3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817643"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095417"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中建立新的封存原則
 
@@ -58,7 +58,7 @@ ms.locfileid: "49817643"
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>使用 Windows PowerShell 建立新的封存原則
 
-您也可以使用 Windows PowerShell **New-CsArchivingPolicy** Cmdlet 來建立新的封存原則。 如需詳細資訊，請參閱 [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。
+您也可以使用 Windows PowerShell **New-CsArchivingPolicy** Cmdlet 來建立新的封存原則。 如需詳細資訊，請參閱 [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>在網站層級建立新的封存原則
 

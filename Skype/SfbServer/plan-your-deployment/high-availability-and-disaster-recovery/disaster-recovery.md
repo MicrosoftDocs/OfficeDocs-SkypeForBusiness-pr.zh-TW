@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 針對嚴重損壞修復，商務用 Skype 伺服器提供集區配對與容錯移轉，以防一個集區中斷。
-ms.openlocfilehash: d77a0d56c7a3e3d80c6e735fd6eff178606f667a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 949b0c51ba3ad545210f70c311f8db1912623291
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802913"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093131"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>商務用 Skype Server 中的前端集區嚴重損壞修復
  
@@ -86,7 +86,7 @@ ms.locfileid: "49802913"
   
 ### <a name="mitigating-security-risks"></a>降低安全性風險
 
-您有許多方式可以增強備份服務流量的安全性保護。 這範圍包括限制資料中心存取，以保護兩個資料中心之間的 WAN 傳輸。 在大多數情況下，部署商務用 Skype 伺服器的企業可能已具備必要的安全性基礎結構。 針對尋求指導的企業，Microsoft 提供了如何建立安全 IT 基礎結構的範例。 如需詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544) 。 
+您有許多方式可以增強備份服務流量的安全性保護。 這範圍包括限制資料中心存取，以保護兩個資料中心之間的 WAN 傳輸。 在大多數情況下，部署商務用 Skype 伺服器的企業可能已具備必要的安全性基礎結構。 針對尋求指導的企業，Microsoft 提供了如何建立安全 IT 基礎結構的範例。 如需詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
   
 我們並不表示這是唯一的解決方案，也不表示它是商務用 Skype 伺服器的慣用解決方案。 我們建議企業客戶根據其 IT 安全性基礎結構和需求，選擇可滿足其特定需求的解決方案。 Microsoft 解決方案範例使用 IPSec 和群組原則來進行伺服器和網域隔離。
   

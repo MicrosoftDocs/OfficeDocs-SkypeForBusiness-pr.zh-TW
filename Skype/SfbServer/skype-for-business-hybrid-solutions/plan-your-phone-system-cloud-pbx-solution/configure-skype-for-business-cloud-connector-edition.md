@@ -20,17 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: 瞭解如何設定商務用 Skype 雲端連接器 Edition，這是一種最少的內部部署拓撲，可讓您的內部部署語音基礎結構與電話系統 (Cloud PBX) 語音服務的商務用 Skype Online。
-ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 4d24e5a312275158f276856aa78396ad63dff615
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358789"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094871"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>設定及管理商務用 Skype 雲端連接器 Edition
  
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 瞭解如何設定商務用 Skype 雲端連接器 Edition，這是一種最少的內部部署拓撲，可讓您的內部部署語音基礎結構與電話系統 (Cloud PBX) 語音服務的商務用 Skype Online。 
   
@@ -55,5 +55,3 @@ ms.locfileid: "47358789"
 |[在雲端連接器 Edition 中部署媒體旁路](deploy-media-bypass-in-cloud-connector.md) <br/> |瞭解如何在雲端連接器中部署媒體旁路。  <br/> |
 |[Cloud Connector Cmdlet 參考](cloud-connector-cmdlet-reference.md) <br/> |瞭解雲端連接器中使用的 PowerShell Cmdlet。  <br/> |
 |[疑難排解您的 Cloud Connector 部署](troubleshoot-your-cloud-connector-deployment.md) <br/> |在雲端連接器部署中遇到的常見問題的解決方案。  <br/> |
-   
-

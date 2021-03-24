@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 瞭解如何設定 Cloud Connector 整合與您的 Microsoft 365 或 Office 365 組織。
-ms.openlocfilehash: bf5d8c4fb9684a205670701428fa8db30835a871
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 74696023dcffbc91641bb4e9950f2988a89abbdd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359069"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095087"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>設定與您的 Microsoft 365 或 Office 365 組織的雲端連接器整合
 
 > [!Important] 
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 瞭解如何設定 Cloud Connector 整合與您的 Microsoft 365 或 Office 365 組織。
   
@@ -48,7 +48,7 @@ ms.locfileid: "47359069"
     
 3. 在轉送伺服器上，匯入發給您閘道之憑證的根 CA 憑證。 如果您需要取得閘道的 SSL 憑證，您可以使用雲端連接器 Active Directory 電腦上所執行的憑證授權單位服務，如下所示：
     
-   - 修改現有的 Web 服務器範本，讓已驗證的使用者能夠註冊，或是建立新的網頁伺服器範本以設定其他屬性，並讓已驗證的使用者能夠進行註冊。 如需詳細指示，請參閱 [憑證範本](https://technet.microsoft.com/library/cc730705.aspx)。
+   - 修改現有的 Web 服務器範本，讓已驗證的使用者能夠註冊，或是建立新的網頁伺服器範本以設定其他屬性，並讓已驗證的使用者能夠進行註冊。 如需詳細指示，請參閱 [憑證範本](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))。
     
    - 使用憑證嵌入式管理單元要求憑證選取您已啟用的 Web 服務器範本。 請務必在 [替代名稱] 中，使用「閘道的 FQDN」來新增 Subject 和 DNS 名稱中的 [一般名稱]，然後在 [主要選項] 下，確認已選取 [可匯出私密金鑰] 的私密金鑰。 
     
@@ -70,7 +70,7 @@ ms.locfileid: "47359069"
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>設定 Cloud Connector Edition 和 Microsoft 365 或 Office 365 之間的混合式連線
 
-若要設定商務用 Skype Cloud Connector Edition 部署和您的 Microsoft 365 或 Office 365 組織之間的混合式連線，請在遠端 PowerShell 會話中執行下列 Cmdlet。 若要瞭解如何建立遠端 PowerShell 會話，請參閱： [設定您的電腦 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)。
+若要設定商務用 Skype Cloud Connector Edition 部署和您的 Microsoft 365 或 Office 365 組織之間的混合式連線，請在遠端 PowerShell 會話中執行下列 Cmdlet。 若要瞭解如何建立遠端 PowerShell 會話，請參閱： [設定您的電腦 Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 Cmdlet 會設定 Access Edge 的外部 FQDN。 在第一個命令中， \<External Access Edge FQDN\> 應該是 SIP Access Edge role 的一個。 根據預設，這應該是 \<Domain Name\> ap。
   
@@ -94,7 +94,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 3. 在轉送伺服器上，匯入發給您閘道之憑證的根 CA 憑證。 如果您需要取得閘道的 SSL 憑證，您可以使用雲端連接器 Active Directory 電腦上所執行的憑證授權單位服務，如下所示：
     
-   - 修改現有的 Web 服務器範本，讓已驗證的使用者能夠註冊，或是建立新的網頁伺服器範本以設定其他屬性，並讓已驗證的使用者能夠進行註冊。 如需詳細指示，請參閱 [憑證範本](https://technet.microsoft.com/library/cc730705.aspx)。
+   - 修改現有的 Web 服務器範本，讓已驗證的使用者能夠註冊，或是建立新的網頁伺服器範本以設定其他屬性，並讓已驗證的使用者能夠進行註冊。 如需詳細指示，請參閱 [憑證範本](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))。
     
    - 使用憑證嵌入式管理單元要求憑證選取您已啟用的 Web 服務器範本。 請務必在 [替代名稱] 中，使用「閘道的 FQDN」來新增 Subject 和 DNS 名稱中的 [一般名稱]，然後在 [主要選項] 下，確認已選取 [可匯出私密金鑰] 的私密金鑰。 
     
@@ -108,7 +108,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   
 ## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>為使用者啟用電話語音系統語音和語音信箱服務
  
-將使用者新增至 Microsoft 365 或 Office 365 後，請啟用其帳戶的電話語音服務（包括語音信箱）。 若要啟用這些功能，您必須以全域系統管理員角色的帳戶登入您的 Microsoft 365 或 Office 365 組織，並且能夠執行遠端 PowerShell。 若要瞭解如何建立遠端 PowerShell 會話，請參閱： [設定電腦的 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
+將使用者新增至 Microsoft 365 或 Office 365 後，請啟用其帳戶的電話語音服務（包括語音信箱）。 若要啟用這些功能，您必須以全域系統管理員角色的帳戶登入您的 Microsoft 365 或 Office 365 組織，並且能夠執行遠端 PowerShell。 若要瞭解如何建立遠端 PowerShell 會話，請參閱： [設定電腦的 Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 - 將原則指派給您的使用者，並設定使用者的商務語音電話號碼，並以 **Identity** 參數的值來指定：
     
@@ -147,7 +147,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
   
 ## <a name="assign-users-to-pstn-sites"></a>將使用者指派至 PSTN 網站
 
-使用租使用者遠端 PowerShell 將網站指派給使用者，即使您只部署了單一網站也是一樣。 若要瞭解如何建立遠端 PowerShell 會話，請參閱： [設定您的電腦 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)。
+使用租使用者遠端 PowerShell 將網站指派給使用者，即使您只部署了單一網站也是一樣。 若要瞭解如何建立遠端 PowerShell 會話，請參閱： [設定您的電腦 Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 ```powershell
 # Set the site to users
@@ -196,4 +196,3 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     針對  *EdgeServerExternalFQDN*  ，使用為 Edge Server Access Proxy 定義的外部 FQDN。 如果有多個雲端連接器 PSTN 網站，請選擇指派給轉送伺服器所在之網站的 Edge Server Access Proxy FQDN。
     
 4. 如果有多個 Cloud Connector 轉送伺服器 (多個網站的 HA) ，請對每個伺服器重複上述步驟。
-    

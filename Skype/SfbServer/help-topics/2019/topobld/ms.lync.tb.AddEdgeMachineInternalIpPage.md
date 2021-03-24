@@ -15,17 +15,15 @@ localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用此頁面指定 Edge Server 的內部 IP 位址和內部完整網域名稱 (FQDN)。
-ms.openlocfilehash: db8ed184a89b75d696333d62661218902fb87a75
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff6c965c6256e26ebe905ce25e15c9e18a2cd0d2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835973"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095817"
 ---
 # <a name="add-edge-machine-internal-ip"></a>新增 Edge 電腦內部 IP
 
 使用此頁面指定 Edge Server 的內部 IP 位址和內部完整網域名稱 (FQDN)。
 
-您指定的 FQDN 必須與伺服器上設定的電腦名稱相同。 根據預設，未加入網域的電腦的電腦名稱是簡短名稱，不是 FQDN。 拓撲產生器使用 Fqdn，而非短名稱。 因此，在要部署為 Edge Server 的電腦 (未加入網域) 名稱中，您必須設定網域名稱系統 (DNS) 尾碼。 如需在電腦名稱中加上 DNS 尾碼的詳細資訊，請參閱＜[Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)＞。
-
-
+您指定的 FQDN 必須與伺服器上設定的電腦名稱相同。 根據預設，未加入網域的電腦的電腦名稱是簡短名稱，不是 FQDN。 拓撲產生器使用 Fqdn，而非短名稱。 因此，在要部署為 Edge Server 的電腦 (未加入網域) 名稱中，您必須設定網域名稱系統 (DNS) 尾碼。 如需在電腦名稱中加上 DNS 尾碼的詳細資訊，請參閱＜[Configure DNS for Edge Support](/previous-versions/office/lync-server-2013/lync-server-2013-configure-dns-for-edge-support)＞。

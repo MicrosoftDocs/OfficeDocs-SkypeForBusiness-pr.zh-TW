@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 閱讀此主題以瞭解如何在多樹系內部部署環境中部署 Skype 會議室系統。
-ms.openlocfilehash: 168244033a681b9aa9dc6e4c9697b7e3c7e89127
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d215ce13059c414d6c6142d7cd1e93ea9011c97b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805743"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093527"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype 會議室系統多個樹系內部部署
  
 閱讀此主題以瞭解如何在多樹系內部部署環境中部署 Skype 會議室系統。
   
 > [!NOTE]
-> 為了在多個樹系中部署，Skype 會議室系統需要 Exchange Server 2013 CU6 于年8月 26 2014 日發行。 避免重複使用 Skype 會議室系統的現有信箱。 使用新 (刪除舊的信箱，並為 Skype 會議室系統重新建立) 資源信箱。 若要還原因刪除信箱而遺失的會議，請參閱連線 [或還原已刪除的信箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
+> 為了在多個樹系中部署，Skype 會議室系統需要 Exchange Server 2013 CU6 于年8月 26 2014 日發行。 避免重複使用 Skype 會議室系統的現有信箱。 使用新 (刪除舊的信箱，並為 Skype 會議室系統重新建立) 資源信箱。 若要還原因刪除信箱而遺失的會議，請參閱連線 [或還原已刪除的信箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
   
 在建立信箱之後，您可以使用 Set-CalendarProcessing 來設定信箱。 如需詳細資訊，請參閱單一樹系內部部署底下的步驟3到6。 為商務用 skype 會議室建立 Exchange 資源信箱之後，請遵循在單一樹系內部部署中啟用商務用 skype 的 skype 會議室系統帳戶中的步驟，為商務用 Skype 啟用帳戶。
   
@@ -47,5 +47,3 @@ ms.locfileid: "49805743"
 $cred=Get-Credential AuthForest\LinkedRoomTest1
 Set-mailbox -Alias LinkedRoomTest1 -LinkedMasterAccount AuthForest\LinkedRoomTest1 -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -Name LinkedRoomTest1 -LinkedCredential $cred -Identity LinkedRoomTest1
 ```
-
-

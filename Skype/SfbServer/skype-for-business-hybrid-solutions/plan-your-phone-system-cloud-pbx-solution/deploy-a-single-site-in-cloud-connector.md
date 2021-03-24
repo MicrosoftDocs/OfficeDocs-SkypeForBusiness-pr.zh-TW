@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 瞭解如何在雲端連接器 Edition 中部署單一 PSTN 網站。
-ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 32c981b0f7de3d596dc25c3336000871db9fee65
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358929"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094831"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>在 Cloud Connector 中部署單一網站
  
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 瞭解如何在雲端連接器 Edition 中部署單一 PSTN 網站。
   
@@ -94,5 +94,3 @@ Install-CcAppliance
    ```powershell
    Uninstall-CcAppliance
    ```
-
-

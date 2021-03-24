@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 9cefe2a8558b10a6d53a6b6c49c519f9f8aa13f3
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 6ba7e86d6abd9cca8fa6745549eb85f064bdc9d1
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110336"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51094841"
 title: 常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 summary: ''
 sections:
@@ -35,8 +35,8 @@ sections:
   - question: 客戶從商務用 Skype Online 移至 Teams，是否有確切的截止日期？
     answer: >
       是的。 [商務用 Skype Online 將於 2021 年 7 月 31 日淘汰](skype-for-business-online-retirement.md)，屆時將不再可存取也不再支援。 我們鼓勵商務用 Skype Online 客戶開始使用 Teams，並且立即開始規劃升級，以便在停用日期之前完成升級。
-  - question: Skype 會議廣播要與商務用 Skype online 同時淘汰嗎？
-    answer: "是的。 [團隊即時事件] 是 Skype 會議廣播的後續方案。    \n"
+  - question: Skype 會議廣播會與商務用 Skype 線上同時淘汰嗎？
+    answer: "是的。 Teams Live Events 是 Skype 會議廣播的接續解決方案。    \n"
   - question: 將我的組織升級至 Teams 需要多久時間？
     answer: >
       貴組織從商務用 Skype 至 Teams 的旅程掌握在您手中。 為了協助您規劃和執行，我們已根據旨在協助您瀏覽變更技術和組織元素的經實證架構，開發了全面的升級指導方針。 您可以藉由熟悉[升級成功架構](upgrade-framework.md)與相關聯資源 (這些資源是讓您瀏覽從商務用 Skype 至 Teams 旅程的基礎)，來開始您的旅程。
@@ -48,10 +48,10 @@ sections:
       在 Microsoft Teams 系統管理中心，您會發現共存模式的選項，讓您的組織能夠管理適合組織的商務用 Skype 至 Teams 旅程。 深入了解[共存與升級模式](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
   - question: 我該如何準備升級？
     answer: >
-      若要成功升級，除了使用者接受整備程度之外，還包含驗證技術整備程度。 即使您判斷您的組織還未準備好升級至 Teams，您還是可以立即開始規劃程序。 此外，您也可以隨著商務用 Skype 一起啟用 Teams，開始實現 Teams 的價值。 立即開始[您的 Skype 至 Teams 旅程](https://aka.ms/skypetoteams-home) (英文)。
+      若要成功升級，除了使用者接受整備程度之外，還包含驗證技術整備程度。 即使您判斷您的組織還未準備好升級至 Teams，您還是可以立即開始規劃程序。 此外，您也可以隨著商務用 Skype 一起啟用 Teams，開始實現 Teams 的價值。 立即開始[您的 Skype 至 Teams 旅程](./upgrade-start-here.md) (英文)。
 
 
-      Microsoft 也提供即時互動的研討會，分享專為開始升級規劃和實作所設計的指引、最佳做法和資源。 [深入了解升級規劃研討會](https://aka.ms/SkypeToTeamsPlanning) (英文)。
+      Microsoft 也提供即時互動的研討會，分享專為開始升級規劃和實作所設計的指引、最佳做法和資源。 [深入了解升級規劃研討會](./upgrade-workshops-landing-page.yml) (英文)。
   - question: 我的組織已經一起執行商務用 Skype 與 Teams。 我是否可以直接停用商務用 Skype？
     answer: >
       否，您要將使用者切換至 [僅 Teams] 模式，以完成升級至 Teams。 如果您的組織準備好升級至 Teams，請花時間與使用者溝通，讓他們知道會發生什麼事，讓他們能夠適應 Teams。 這可協助確保他們有正面的升級體驗，並協助減少與您技術支援人員的通話。 如需範例通訊範本，請下載我們的[升級成功套件](https://aka.ms/UpgradeSuccessKit)。
@@ -93,7 +93,7 @@ sections:
       請參閱 [Microsoft 365 藍圖](https://aka.ms/O365Roadmap)。
   - question: 哪些 API 和 SDK 適用於 Teams？
     answer: >
-      如需可用 API 與 SDK 的相關資訊，請造訪 [Microsoft Teams 開發人員平台](https://docs.microsoft.com/microsoftteams/platform/) (英文)。
+      如需可用 API 與 SDK 的相關資訊，請造訪 [Microsoft Teams 開發人員平台](/microsoftteams/platform/) (英文)。
   - question: 你是否會在 Teams 中支援第三方開發機會？
     answer: >
       是，應用程式整合是採用 Teams 的其中一個主要優點。 我們目前在 Teams 中支援第三方 Bot、連接器和延伸模組。 此外，我們有大型的增益集生態系統，可於 Microsoft Teams 應用程式市集中取得。
@@ -101,7 +101,7 @@ sections:
     answer: >
       Teams 可在所有 Microsoft 365 教育版套件授權 (Microsoft A1、A3 和 A5) 中取得。
   - question: Teams 是否可以在政府社群雲端 (GCC) 中取得？
-    answer: "是，美國政府社群雲端 (GCC) 提供 Teams。 若要深入了解，請參閱[適用於 Microsoft 365 GCC 部署的方案](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc)。\n  \n"
+    answer: "是，美國政府社群雲端 (GCC) 提供 Teams。 若要深入了解，請參閱[適用於 Microsoft 365 GCC 部署的方案](./plan-for-government-gcc.md)。\n  \n"
   - question: Microsoft 線上語音功能的計劃為何?
     answer: >
       我們的語音解決方案核心是電話系統，這是目前可用的解決方案。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Microsoft 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對您組織的需求，將兩者混合及搭配在一起，以具備完整的語音解決方案。
@@ -113,12 +113,12 @@ sections:
       對於想要將自己的電話服務帶到 Teams 的客戶，現在可以使用[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359) (英文) 的一般可用性來完成這項操作。 在 Microsoft Teams 中，直接路由和通話方案是撥號音的兩種選擇。
   - question: Teams 中的音訊會議涵蓋範圍與商務用 Skype 中的是否不同？
     answer: >
-      因為音訊會議在 Teams 中的可用性，所以音訊會議涵蓋範圍沒有任何變更。 我們目前的涵蓋範圍是 90 個以上的國家/地區、400 個以上的城市，在這兩項產品中都會繼續保持。 如需目前的清單，請參閱[音訊會議與通話方案的適用國家/地區](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
+      因為音訊會議在 Teams 中的可用性，所以音訊會議涵蓋範圍沒有任何變更。 我們目前的涵蓋範圍是 90 個以上的國家/地區、400 個以上的城市，在這兩項產品中都會繼續保持。 如需目前的清單，請參閱[音訊會議與通話方案的適用國家/地區](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   - question: 在 Teams 中是否支援第三方音訊會議提供者 (ACP)？
     answer: >
       在 Teams 中沒有支援第三方音訊會議提供者 (ACP) 的方案。 我們相信對於使用 Teams 和商務用 Skype 的客戶而言，最佳的音訊會議體驗就是使用我們的音訊會議服務。 需要在商務用 Skype 會議中運用 ACP 支援的客戶，可以繼續使用他們的商務用 Skype 用戶端加入商務用 Skype 會議。 在 Teams 中排程的會議需要使用 Microsoft 365 的音訊會議服務。 對於將第三方音訊會議提供者 (ACP) 整合到商務用 Skype Online 的支援，已延長到 2021 年 7 月 31 日，對於其餘使用中租用戶具有有限支援，以允許額外的轉換時間。 這是在 2018 年 4 月所公告 ACP 時間表的更新。
   - question: Teams 會議視訊互通性支援的計劃為何?
     answer: >
-      [會議室裝置](https://products.office.com/microsoft-teams/across-devices)對於我們目前現代化工作場所的願景而言至關重要。 [雲端視頻互通性服務](https://docs.microsoft.com/microsoftteams/cloud-video-interop)可以使用可透過我們的合作夥伴 Pexip、Polycom 及 Blue Jeans 取得的現有 VTC 系統，支援 Teams 會議。
+      [會議室裝置](https://products.office.com/microsoft-teams/across-devices)對於我們目前現代化工作場所的願景而言至關重要。 [雲端視頻互通性服務](./cloud-video-interop.md)可以使用可透過我們的合作夥伴 Pexip、Polycom 及 Blue Jeans 取得的現有 VTC 系統，支援 Teams 會議。
   - question: 最新一代的 Skype 會議室系統 v2 是否支援在 Teams 中舉行會議？
-    answer: 我們將 Skype 室系統 rebranded 到 Microsoft 團隊聊天室，完全支援 Microsoft 團隊會議，並提供從商務用 Skype 到團隊的簡單遷移路徑（只要在裝置上啟用小組即可）。 除了可讓使用者使用鄰近性偵測來識別附近的 Microsoft 團隊聊天室之外，團隊會議可以使用單一按一下、雙畫面支援、Microsoft 白板，以及使用智慧捕獲來繼續提供內容相機等創新的功能。
+    answer: 我們將 Skype 會議室系統重新建立為 Microsoft Teams 會議室，完全支援 Microsoft Teams 會議，只要在裝置上啟用 Teams，就可以輕鬆從商務用 Skype 移至 Teams。 除了讓使用者使用鄰近偵測功能識別附近的 Microsoft Teams 會議室之外，Teams 會議還可以加入單鍵、雙螢幕支援 Microsoft Whiteboard，並繼續提供創新功能，例如具有智慧捕獲的內容相機。

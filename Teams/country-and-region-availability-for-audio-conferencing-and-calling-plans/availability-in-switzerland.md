@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊（適用于瑞士）的 Microsoft 365 和 Office 365 服務。
-ms.openlocfilehash: 5b896ae2cc7d0e0e1581a269c654603df5f11c57
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: 以下是適用于瑞士的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 8fbcbe1e241817729e70f311e0187182b43fd663
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320748"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092671"
 ---
 # <a name="availability-in-switzerland"></a>瑞士的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊（適用于瑞士）的 Microsoft 365 和 Office 365 服務。
+以下是適用于瑞士的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於： <br/><ul><li> 蘇黎世</ul>如果您需要專用的電話號碼，請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於： <br/><ul><li> 蘇黎世</ul>如果您想要專用電話號碼，請參閱取得 [服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>電話系統
@@ -60,9 +60,9 @@ ms.locfileid: "48320748"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的分鐘數。 |每個行事曆月提供四個方案選項： <ul><li>120分鐘國內通話方案 </li><li>240分鐘國內通話方案</li></li><li>1200分鐘國內通話方案 </li></li><li>國內和國際通話方案：1200分鐘的國內或600分鐘的國際通話 (，) 行事曆月份中的第一筆。</li></li> |
-|可以撥出電話給津貼號碼嗎？  <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 至196個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li> |
+|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
@@ -72,7 +72,7 @@ ms.locfileid: "48320748"
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得 [服務電話號碼](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -84,10 +84,8 @@ ms.locfileid: "48320748"
   
 ## <a name="related-topics"></a>相關主題
 
-[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得服務電話號碼](../getting-service-phone-numbers.md)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

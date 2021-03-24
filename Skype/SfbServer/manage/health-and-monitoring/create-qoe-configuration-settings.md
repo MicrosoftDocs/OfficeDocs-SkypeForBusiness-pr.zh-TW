@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 摘要：瞭解商務用 Skype Server 中 (QoE) 設定的經驗品質。
-ms.openlocfilehash: d1d0b299b5cf0bbaf3627b7c90f90e7e1d958d10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8cce0731112166ae232b6273b556d37d693564e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816993"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095347"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立經驗品質設定設定
  
@@ -27,7 +27,7 @@ ms.locfileid: "49816993"
   
 當您安裝商務用 Skype Server 時，會為您建立單一、全域 QoE 設定的集合。 系統管理員也可以選擇建立網站範圍的自訂設定。 只要使用這些網站範圍的設定，其優先順序就高於全域設定。 例如，如果為 Redmond 網站建立網站範圍的設定，則會使用這些設定 (而非全域設定) 來管理 Redmond 的 QoE。
   
-您可以使用商務用 Skype Server 控制台或 [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Cmdlet 來建立 QoE 設定設定。 如果您使用商務用 Skype Server 控制台建立新的設定，您可以使用下列選項：
+您可以使用商務用 Skype Server 控制台或 [New-CsQoEConfiguration](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Cmdlet 來建立 QoE 設定設定。 如果您使用商務用 Skype Server 控制台建立新的設定，您可以使用下列選項：
   
 |**UI 設定**|**PowerShell 參數**|**描述**|
 |:-----|:-----|:-----|
@@ -37,7 +37,7 @@ ms.locfileid: "49816993"
 |將 QoE 資料保留最大持續期間 (天)  <br/> |KeepQoEDataForDays  <br/> |QoE 資料從資料庫清除之前將會儲存的天數。如果停用清除，將會忽略此值。  <br/> |
    
 > [!NOTE]
-> New-CsQoEConfiguration Cmdlet 包含商務用 Skype Server [控制台] 中無法使用的其他選項。 如需詳細資訊，請參閱 CsQoEConfiguration 的「 [新增-](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) 說明主題。
+> New-CsQoEConfiguration Cmdlet 包含商務用 Skype Server [控制台] 中無法使用的其他選項。 如需詳細資訊，請參閱 CsQoEConfiguration 的「 [新增-](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) 說明主題。
   
 ### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立 QoE 配置設定
 
@@ -89,6 +89,4 @@ ms.locfileid: "49816993"
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
   ```
 
-如需詳細資訊，請參閱 [CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
-  
-
+如需詳細資訊，請參閱 [CsQoEConfiguration](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。

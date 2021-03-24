@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 摘要：瞭解如何為商務用 Skype 伺服器建立封存設定。
-ms.openlocfilehash: c5c8dde9a12d0599d962d8c7bcf402796022af7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817653"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095427"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中建立封存設定
 
@@ -85,4 +85,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-如需詳細資訊，請參閱 [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [New-CsArchivingConfiguration](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。

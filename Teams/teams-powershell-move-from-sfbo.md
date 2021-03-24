@@ -1,5 +1,5 @@
 ---
-title: 從商務用 Skype Online Connector 移至 Teams PowerShell 模組
+title: 從商務用 Skype Online 連接器移至 Teams PowerShell 模組
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
@@ -12,20 +12,20 @@ ms.collection:
 description: 瞭解如何從商務用 Skype Online Connector 移至 Teams PowerShell 模組來管理 Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5a2b502edc84c853a0a140a11f8c028b7c78aca6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569079"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094124"
 ---
-# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>從商務用 Skype Online Connector 移至 Teams PowerShell 模組
+# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>從商務用 Skype Online 連接器移至 Teams PowerShell 模組
 
 若要從使用商務用 Skype Online Connector 移至 Teams PowerShell 模組來管理 Teams，您必須更新現有的 PowerShell 腳本。 本文將說明如何執行此工作。
 
-1. 安裝最新的 Teams PowerShell 模組。 有關步驟，請參閱[安裝 Microsoft Teams Powershell。](teams-powershell-install.md)
-2. 卸載商務用 Skype Online 連接器。 若要這麼做，請在控制台中，前往程式和功能，選取 **商務用 Skype Online、Windows PowerShell 模組**，然後 **選取卸載**。 
-3. 在 PowerShell 腳本中，變更參照自 或 至 ```Import-Module``` 的 ```SkypeOnlineConnector``` 模組 ```LyncOnlineConnector``` 名稱 ```MicrosoftTeams``` 。
+1. 安裝最新的 Teams PowerShell 模組。 有關步驟，請參閱 [安裝 Microsoft Teams Powershell](teams-powershell-install.md)。
+2. 卸載商務用 Skype Online 連接器。 若要這麼做，請在控制台中，前往程式和功能，選取商務用 **Skype Online、Windows PowerShell 模組**，然後 **選取卸載**。 
+3. 在 PowerShell 腳本中，將參照的模組名稱變更為 ```Import-Module``` 或 ```SkypeOnlineConnector``` ```LyncOnlineConnector``` ```MicrosoftTeams``` 。
 
     例如，變更 ```Import-Module -Name SkypeOnlineConnector``` 為 ```Import-Module -Name MicrosoftTeams``` 。
 4. 使用 Teams PowerShell 模組 2.0 或更高版本時，請將 New-csOnlineSession 變更為 Connect-MicrosoftTeams。 
@@ -51,6 +51,6 @@ ms.locfileid: "50569079"
 
 [Teams PowerShell 版本資訊](teams-powershell-release-notes.md)
 
-[Microsoft Teams Cmdlet 參照](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams Cmdlet 參照](/powershell/teams/?view=teams-ps)
 
-[商務用 Skype Cmdlet 參照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[商務用 Skype Cmdlet 參照](/powershell/skype/intro?view=skype-ps)

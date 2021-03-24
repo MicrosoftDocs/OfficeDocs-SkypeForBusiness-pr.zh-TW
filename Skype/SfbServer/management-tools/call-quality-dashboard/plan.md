@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：瞭解在規劃通話品質儀表板時所應考慮的事項。
-ms.openlocfilehash: 6a1fc39dd26f6c4e9e455babcecb124888629179
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d75e7a07d6f461c6b4b8e1e33ae86869984aae08
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803173"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095187"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>規劃商務用 Skype Server 的通話品質儀表板 
  
@@ -35,7 +35,7 @@ ms.locfileid: "49803173"
 - **存取報表結構及分析 Cube 資料的 Web API。** 儀表板報表架構並非從 Cube 顯示資料的唯一方式。 CQD 提供數個使用 HTML 和 JavaScript 的範例，以從 CQD Web APIs 中取得資料，並以自訂格式轉譯資料。 報表編輯器和 CQD 網頁 APIs 的組合，可讓報表和自訂報表版面配置的快速原型。
 
 > [!NOTE]
-> 管理員現在可以使用 [CQD 第3版](https://cqd.teams.microsoft.com) (以系統管理員認證) 登入來管理商務用 Skype Server 2019。 這需要混合式的實施，以及使用「呼叫資料連線器 (CDC) 。 如需啟用 CDC 的詳細資訊，請參閱 [規劃通話資料連線器](/SkypeForBusiness/hybrid/plan-call-data-connector) 。 如需 CQD 第3版的檔，請參閱 [開啟和使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) ，以取得更多有關 CQD 版本3的資訊。
+> 管理員現在可以使用 [CQD 第3版](https://cqd.teams.microsoft.com) (以系統管理員認證) 登入來管理商務用 Skype Server 2019。 這需要混合式的實施，以及使用「呼叫資料連線器 (CDC) 。 如需啟用 CDC 的詳細資訊，請參閱 [規劃通話資料連線器](../../../SfbHybrid/hybrid/plan-call-data-connector.md) 。 如需 CQD 第3版的檔，請參閱 [開啟和使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) ，以取得更多有關 CQD 版本3的資訊。
 
 ## <a name="cqd-design-goals"></a>CQD 設計目標
 
@@ -311,7 +311,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
   
 設定 SSAS 安裝程式時，請在 Analysis Services 設定中，將「伺服器模式」設定為「維度和資料採礦模式」。 
   
-如需安裝及設定 SQL Server 商務智慧功能的詳細說明，請參閱 [Install Analysis Services In 多維及資料採礦模式](https://msdn.microsoft.com/library/ms143708%28v=sql.110%29.aspx)。
+如需安裝及設定 SQL Server 商務智慧功能的詳細說明，請參閱 [Install Analysis Services In 多維及資料採礦模式](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110))。
   
 #### <a name="account-requirements"></a>帳戶需求
 
@@ -346,5 +346,3 @@ CQD 的設計是針對 QoEMetrics 的最小影響：此程式碼已優化為不�
 - SSIS Cube 會將資料壓縮為與 DB 相比快 10 10。
     
 - 資料每月分割;可刪除磁碟分割
-    
-

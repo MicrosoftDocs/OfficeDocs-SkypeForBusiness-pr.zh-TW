@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731131"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093763"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -70,7 +70,7 @@ Advisor for Teams 目前提供下列方案:
     - Planner 計劃，包括採用工作
     - Forms 使用者問卷
     - Advisor for Teams Bot
-    - 專為目前正在使用商務用 Skype Online 或商務用 Skype 內部部署環境的客戶設計，商務用 Skype 升級計畫可幫助您擺脫升級過程中的猜測。 該計劃將利用一個行之有效的成功框架來實作變更，無論您是剛開始使用 Teams、已經將 Teams與商務用 Skype 搭配使用還是準備進行升級，它都將指導您逐步進行操作。 該計劃還將提供您[線上指南和最佳做法](https://aka.ms/SkypeToTeams)、[可下載資產](https://aka.ms/UpgradeSuccessKit)、[即時一對多規劃研討會](https://aka.ms/UpgradeWorkshops)以及其他資源，以支援您成功升級。
+    - 專為目前正在使用商務用 Skype Online 或商務用 Skype 內部部署環境的客戶設計，商務用 Skype 升級計畫可幫助您擺脫升級過程中的猜測。 該計劃將利用一個行之有效的成功框架來實作變更，無論您是剛開始使用 Teams、已經將 Teams與商務用 Skype 搭配使用還是準備進行升級，它都將指導您逐步進行操作。 該計劃還將提供您[線上指南和最佳做法](./upgrade-start-here.md)、[可下載資產](https://aka.ms/UpgradeSuccessKit)、[即時一對多規劃研討會](./upgrade-workshops-landing-page.yml)以及其他資源，以支援您成功升級。
 
 我們建議您從交談、團隊、頻道和應用程式的方案開始。 您完成該工作負載的部署後，請返回 Advisor for Teams，選取 **[新增頻道]** 以開始下一項工作負載。
 
@@ -90,11 +90,11 @@ Advisor for Teams 目前提供下列方案:
 
 |評估測試  |代表意義  |
 |---------|---------|
-|已設定虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域 (例如 @contoso.onmicrosoft.com)。 當然，您可以選擇使用 @onmicrosoft.com 網域或設定虛名網域。 如需詳細資訊，請參閱[新增網域至 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)。 |
-|Teams 授權     |這是必要條件，您 **必須具有** Teams 授權才能推出 Teams。 查詢 Microsoft Graph，查看您是否具有 Teams 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
+|已設定虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域 (例如 @contoso.onmicrosoft.com)。 當然，您可以選擇使用 @onmicrosoft.com 網域或設定虛名網域。 如需詳細資訊，請參閱[新增網域至 Microsoft 365](/microsoft-365/admin/setup/add-domain)。 |
+|Teams 授權     |這是必要條件，您 **必須具有** Teams 授權才能推出 Teams。 查詢 Microsoft Graph，查看您是否具有 Teams 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。    |
 |Exchange Online 授權     |您的可用 Exchange Online 授權是否為有效訂閱。 雖然 Exchange 並非 Teams 基本功能的必要項目，但是與 Exchange 整合可以提供最佳的 Teams 體驗。 查詢 Microsoft Graph 以分析與租用戶相關聯的訂閱，並驗證您是否具有合格的 Exchange Online 授權訂閱 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Exchange 和 Teams 如何互動](exchange-teams-interact.md)。    |
-|SharePoint Online 授權     |您的可用 SharePoint Online 授權是否為有效訂閱。 我們建議採用每位使用者 SharePoint Online 授權，以便在聊天中提供商務用 OneDrive 用於檔案儲存。 查詢 Microsoft Graph，查看您是否具有 SharePoint Online 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Sharepoint 和商務用 OneDrive 如何與 Teams 互動](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
-|已啟用來賓存取     |是否已開啟[來賓存取](guest-access.md)。 來賓存取可讓您邀請外部使用者加入您的團隊。 查閱 [在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)逐步引導您開啟 Teams 中的來賓存取；此檢查清單包含所需的 Azure AD 設定。 |
+|SharePoint Online 授權     |您的可用 SharePoint Online 授權是否為有效訂閱。 我們建議採用每位使用者 SharePoint Online 授權，以便在聊天中提供商務用 OneDrive 用於檔案儲存。 查詢 Microsoft Graph，查看您是否具有 SharePoint Online 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Sharepoint 和商務用 OneDrive 如何與 Teams 互動](./sharepoint-onedrive-interact.md)。    |
+|已啟用來賓存取     |是否已開啟[來賓存取](guest-access.md)。 來賓存取可讓您邀請外部使用者加入您的團隊。 查閱 [在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)逐步引導您開啟 Teams 中的來賓存取；此檢查清單包含所需的 Azure AD 設定。 |
 |已設定外部存取     |是否已開啟[外部存取](manage-external-access.md)。 預設為開啟，並採用開放式同盟。 |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>聊天、團隊、頻道和應用程式評估
@@ -103,8 +103,8 @@ Advisor for Teams 目前提供下列方案:
 
 |評估測試  |代表意義  |
 |---------|---------|
-|Microsoft 365 群組命名原則已設定完成     |是否已針對 Microsoft 365 群組設定命名標準。 Microsoft 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Microsoft 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [群組命名原則](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)。    |
-|Microsoft 365 群組到期原則已設定完成。     |是否已為 Microsoft 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Microsoft 365 群組到期原則](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|Microsoft 365 群組命名原則已設定完成     |是否已針對 Microsoft 365 群組設定命名標準。 Microsoft 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Microsoft 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [群組命名原則](/microsoft-365/admin/create-groups/groups-naming-policy)。    |
+|Microsoft 365 群組到期原則已設定完成。     |是否已為 Microsoft 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Microsoft 365 群組到期原則](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>會議和研討會評估
 
@@ -112,7 +112,7 @@ Advisor for Teams 目前提供下列方案:
 
 |評估測試  |代表意義  |
 |---------|---------|
-|音訊會議授權    |您的音訊會議授權是否為有效訂閱。 如果您要部署音訊會議橋接器，這是必要條件。 查詢 Microsoft Graph，查看您是否具有音訊會議授權 (至少有一個授權可供指派)。如需詳細資訊，請參閱 [Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。    |
+|音訊會議授權    |您的音訊會議授權是否為有效訂閱。 如果您要部署音訊會議橋接器，這是必要條件。 查詢 Microsoft Graph，查看您是否具有音訊會議授權 (至少有一個授權可供指派)。如需詳細資訊，請參閱 [Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。    |
 |Stream 授權     |您是否有使用 Microsoft Stream 授權的有效訂閱。 如果您要開啟會議錄製，這是必要條件。 查詢 Microsoft Graph，查看您是否具有 Microsoft Stream 授權 (至少有一個授權可供指派)。 如需有關 Stream 和開啟方式的詳細資訊，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>商務用 Skype 升級評估
@@ -143,7 +143,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 ## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Advisor for Teams 和 Microsoft 365 學習路徑
 
-[Microsoft 365 學習路徑](https://docs.microsoft.com/office365/customlearning/) 是隨選學習解決方案，您可以自訂以訓練您的使用者，並提高您組織中對於 Teams 的使用及採用。 將學習路徑與 Advisor for Teams 搭配使用，以讓您的使用者快速設定並執行和推動採用。
+[Microsoft 365 學習路徑](/office365/customlearning/) 是隨選學習解決方案，您可以自訂以訓練您的使用者，並提高您組織中對於 Teams 的使用及採用。 將學習路徑與 Advisor for Teams 搭配使用，以讓您的使用者快速設定並執行和推動採用。
 
 學習路徑可提供您 SharePoint Online 網站範本，以及為使用者輕鬆建立學習網站的能力。 您可以自訂學習路徑訓練入口網站，以包含特定於使用者需求的訓練與支援內容。 從 Microsoft online 目錄使用 Teams 播放清單，並新增您自己的播放清單。
 
@@ -155,9 +155,9 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 ### <a name="get-started-in-learning-pathways"></a>開始使用學習路徑
 
-若要開始使用學習路徑，請參閱 [開始使用學習路徑](https://docs.microsoft.com/office365/customlearning/)。
+若要開始使用學習路徑，請參閱 [開始使用學習路徑](/office365/customlearning/)。
 
-若要在您的環境中設定新的學習路徑解決方案，請參閱 [提供新的學習路徑解決方案](https://docs.microsoft.com/office365/customlearning/custom_provision)。
+若要在您的環境中設定新的學習路徑解決方案，請參閱 [提供新的學習路徑解決方案](/office365/customlearning/custom_provision)。
 
 ### <a name="create-a-learning-plan"></a>建立學習計劃
 
@@ -165,13 +165,13 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 在您將網站建立在學習路徑中之前，請先花時間檢閱並收集您可以使用的學習資源和功能。 透過學習路徑，您可以使用在 Microsoft 365 訓練頁面中的內容，並新增您建立的內容，以量身打造具您獨特需求的網站。
 
-若要深入瞭解，請參閱 [規劃您的學習路徑內容](https://docs.microsoft.com/office365/customlearning/custom_plancontent)，以及 [支援遠端工作力的資源](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources)。
+若要深入瞭解，請參閱 [規劃您的學習路徑內容](/office365/customlearning/custom_plancontent)，以及 [支援遠端工作力的資源](/office365/customlearning/custom_plancontent_remoteresources)。
 
 #### <a name="explore-teams-content-in-learning-pathways"></a>探索學習路徑中的 Teams 內容
 
 學習路徑提供 SharePoint 網站，其中包含已連線至線上目錄的網頁組件。 主控網頁元件的 Microsoft 365 訓練頁面顯示出學習路徑中可供使用的所有訓練。 請多看看以熟悉有哪些服務，及內容的組織方式。
 
-[移至您的學習路徑網站](https://docs.microsoft.com/office365/customlearning/custom_goto)，選取 [ **Microsoft 365 訓練**]，然後選取 **Microsoft Teams** 以查看線上目錄中所有的 Teams 訓練播放清單。 選取播放清單，然後選取 **[下一步]** 和 **上一步** 按鈕以進行瀏覽。 您也可以按一下向下鍵，以檢視播放清單內容，並移至特定主題。
+[移至您的學習路徑網站](/office365/customlearning/custom_goto)，選取 [ **Microsoft 365 訓練**]，然後選取 **Microsoft Teams** 以查看線上目錄中所有的 Teams 訓練播放清單。 選取播放清單，然後選取 **[下一步]** 和 **上一步** 按鈕以進行瀏覽。 您也可以按一下向下鍵，以檢視播放清單內容，並移至特定主題。
 
 #### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>清查貴組織中的 Teams 學習資源
 
@@ -179,7 +179,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 #### <a name="build-your-site-in-learning-pathways"></a>在學習路徑中建立您的網站
 
-學習路徑中的 [系統管理成功中心](https://docs.microsoft.com/office365/customlearning/custom_successcenter) 提供指引和資源，以協助您規劃和自訂您組織中的學習路徑。 瞭解如何 [自訂網站](https://docs.microsoft.com/office365/customlearning/custom_overview)、顯示及隱藏內容、建立自訂播放清單等等。
+學習路徑中的 [系統管理成功中心](/office365/customlearning/custom_successcenter) 提供指引和資源，以協助您規劃和自訂您組織中的學習路徑。 瞭解如何 [自訂網站](/office365/customlearning/custom_overview)、顯示及隱藏內容、建立自訂播放清單等等。
 
 若要存取 [系統管理成功中心]，請在學習路徑首頁上選取 **系統管理成功中心**。
 
@@ -200,7 +200,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 如需有關針對 Teams 準備您的支援人員和擁護者的指引和資源，請參閱 [訓練您的組織](https://adoption.microsoft.com/microsoft-teams/#train-your-org) 和 [打造擁護者](https://adoption.microsoft.com/microsoft-teams/#build-champions)。
 
-當您的使用者針對「操作方法」」問題而移至聯絡時，您的技術人員和擁護者可使用 [學習路徑] 網站以訓練使用者，並將該網站視為建立支援票證的其他選項。 透過建立訓練和支援頁面，鼓勵您的技術人員和擁護者以 [自訂您的學習路徑網站](https://docs.microsoft.com/office365/customlearning/)，然後在小組中將其 [以索引標籤新增至頻道中](#add-your-site-to-teams) 供使用者自助服務。
+當您的使用者針對「操作方法」」問題而移至聯絡時，您的技術人員和擁護者可使用 [學習路徑] 網站以訓練使用者，並將該網站視為建立支援票證的其他選項。 透過建立訓練和支援頁面，鼓勵您的技術人員和擁護者以 [自訂您的學習路徑網站](/office365/customlearning/)，然後在小組中將其 [以索引標籤新增至頻道中](#add-your-site-to-teams) 供使用者自助服務。
 
 ### <a name="drive-adoption"></a>推動採用
 
@@ -212,7 +212,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 請檢視這些資源，其中包括指引、採用套件、最佳做法等等，以協助您執行成功的推出和採用計畫。  
 
-- [推動採用學習路徑](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [推動採用學習路徑](/office365/customlearning/driveadoption)
 - [採用 Teams](adopt-microsoft-teams-landing-page.md)
 - [Teams 的採用資源](https://adoption.microsoft.com/microsoft-teams/)
 
@@ -268,10 +268,10 @@ Advisor for Teams 會尋求您的同意才收集非 EUII (使用者識別資訊)
 
 ## <a name="related-topics"></a>相關主題
 
-[自訂您的 Teams Advisor](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
+[自訂您的 Teams Advisor](/office365/customlearning/custom_teamsadvisor)
 
-[如何推出 Teams](How-to-roll-out-teams.md)
+[如何推出 Teams](./deploy-overview.md)
 
 [在 Teams 中組織團隊的最佳做法](best-practices-organizing.md)
 
-[用於授權的產品名稱和服務方案識別碼](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+[用於授權的產品名稱和服務方案識別碼](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

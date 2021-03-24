@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: 在商務用 Skype Server Enterprise Voice 中，自訂通話駐留等候音樂。
-ms.openlocfilehash: 766b51895acda27c0558352968d21a39764b13a6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 87dea58d9e339293b047373ac6c44a16bed3bdb3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837073"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093041"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>自訂通話駐留 inSkype for Business 的等候音樂
  
@@ -38,16 +38,16 @@ ms.locfileid: "49837073"
     
 2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
     
-3. 運行：
+3. 執行：
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
    ```
 
     > [!TIP]
-    > 使用 **Get-CsService** Cmdlet 來識別服務。 如需詳細資訊，請參閱 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)。 
+    > 使用 **Get-CsService** Cmdlet 來識別服務。 如需詳細資訊，請參閱 [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)。 
   
-    下列範例顯示如何取得檔案 soothingmusic.wma 的位元組陣列內容，並將其指派給變數。 然後將音訊檔案指派為通話駐留時的等候音樂檔案。 如需詳細資訊，請參閱 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)。
+    下列範例顯示如何取得檔案 soothingmusic.wma 的位元組陣列內容，並將其指派給變數。 然後將音訊檔案指派為通話駐留時的等候音樂檔案。 如需詳細資訊，請參閱 [Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)。
     
    ```powershell
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
@@ -56,6 +56,6 @@ ms.locfileid: "49837073"
 
 ## <a name="see-also"></a>另請參閱
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
+[Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)

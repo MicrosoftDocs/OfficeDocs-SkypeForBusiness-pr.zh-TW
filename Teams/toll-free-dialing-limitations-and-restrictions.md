@@ -22,21 +22,21 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - seo-marvel-mar2020
-description: 瞭解如何在國家/地區撥打免付費電話號碼，包括可用性、有線/固定線及行動網路可用性，以及限制。
-ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: 瞭解撥打國家/地區免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322302"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093893"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免付費電話的撥號限制
 
-這將協助您瞭解如何在每個國家或地區撥打免費電話號碼。 選取國家/地區之後，系統會將您帶到一個頁面，其中包含特定的詳細資料、限制及限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
+這可協助您瞭解如何撥打每個國家/地區免付費號碼。 選取國家/地區之後，它會將您帶至包含免付費服務的頁面，其中包含特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
   
-如果您已經準備好，請選取國家或地區：
+如果您準備好，請選取某個國家/地區：
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>選取您的國家或地區，以查看撥號碼、限制與限制。
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>選取您的國家/地區以查看撥號代碼、限制和限制。
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -105,26 +105,25 @@ ms.locfileid: "48322302"
 > - [委內瑞拉](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [越南](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>以下是您要記住免費電話號碼的一些重要事項：
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>以下是一些有關免付費號碼的重要資訊：
 
-- **免費電話號碼只能在每個國家/地區內運作。** 例如，您的使用者將無法撥打澳大利亞以外的澳大利亞免付費電話號碼。
+- **免付費號碼僅在每個國家/地區內運作。** 例如，您的使用者無法撥打澳洲以外的免付費號碼。
     
-- **不支援取得或移植通用國際 Freephone 號碼 (UIFN) 。**
+- **不支援在 UIFN (或) 通用國際免費電話號碼。**
     
-- **在多個國家/地區，國家/地區的調壓器/電信機構需要每個免付費免費電話號碼，才能維持該號碼，每個月至少要有100分鐘的使用量。**
+- **在多個國家/地區，國家/地區的監管者/電信機構要求每個免付費電話號碼維持每月至少 100 分鐘的使用量，才能保留號碼。**
     
     > [!NOTE]
-    > 如果您收到免付費電話號碼，且數位的使用方式不符合這些最低需求，則調壓/電信機構可能會受到 Microsoft 的要求，以回收您的數位。 
+    > 如果您收到免付費號碼，且號碼使用量不符合這些最低需求，則由監管機構/電信機構可能會強迫 Microsoft 向您回收號碼。 
   
-- **有線、固定線路及行動網路存取免付費電話號碼，可能會受到完全或部分限制。** 撥號格式描述在每個國家/地區內所需的存取代碼，以使用免費電話號碼撥打電話。
+- **免付費號碼的有線電話、固定線路和行動電話網路存取權可能會受到全部或部分限制。** 撥號格式描述每個國家/地區內使用免付費號碼撥打電話所需的存取碼。
     
-- **北美編號方案免費電話號碼：** 北美編號方案的每分鐘工資費用是由來源國家/地區的電話號碼決定。 從美國地圖到定義為「北美」的工資，每分鐘免費通話的工資率。 不過，來自其他北美國家/地區（例如加拿大、波多黎各等）的通話是免費的。
+- **北美號碼方案免付費號碼：** 北美號碼方案免付費號碼的每分鐘費率是由來源國家/地區決定。 從美國撥打的免付費每分鐘費率，會與定義為「北美」的費率進行比對。 不過，來自其他北美國家 ，例如加拿大、波多黎各等的通話有特定的免付費費率。
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼，請 [聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## <a name="related-topics"></a>相關主題
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](./getting-service-phone-numbers.md)
 
   
- 

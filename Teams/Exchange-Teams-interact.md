@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997321"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094635"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -37,7 +37,7 @@ ms.locfileid: "50997321"
 必須將裝載於: Exchange Online 專用 (舊版) 的使用者同步到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他們可以建立和加入小組和頻道，新增和設定索引標籤和機器人，並使用聊天和通話功能。 但是，他們不能修改使用者設定檔圖片、管理會議、存取 Outlook 連絡人或管理連接器。
 
 > [!IMPORTANT]
-> 為了與內部部署整合，強烈建議您使用 Exchange Server 2016 或更高版本進行 Exchange 完全經典混合式部署。 例如，新式混合支援僅限於空閒/忙碌，不會提供從 Teams 到內部部署郵箱的行事曆整合。 有關設定混合式部署的詳細資訊，請參閱 [Exchange Server 混合式部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
+> 為了與內部部署整合，強烈建議您使用 Exchange Server 2016 或更高版本進行 Exchange 完全經典混合式部署。 例如，新式混合支援僅限於空閒/忙碌，不會提供從 Teams 到內部部署郵箱的行事曆整合。 有關設定混合式部署的詳細資訊，請參閱 [Exchange Server 混合式部署](/exchange/exchange-hybrid)。
 
 具有內部部署主控的郵箱的使用者必須同步到 Azure Active Directory。 他們可以利用上述案例中的所有功能，但另外，如果滿足[內部部署主控的郵箱要求部分列出的需求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)，他們可以管理會議。
 
@@ -64,10 +64,10 @@ ms.locfileid: "50997321"
 
 <sup>6</sup> 僅限預設連絡人資料夾中的連絡人。 不支援存取其他連絡人資料夾或子資料夾。
 
-<sup>7</sup> Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果在策略中關閉 **-SetPhotoEnabled** 設定，使用者就無法新增、變更或移除其設定檔圖片，因此如果系統管理員變更相片，就不會將 porfile 圖片同步至團隊。
+<sup>7</sup> Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果在策略中關閉 **-SetPhotoEnabled** 設定，使用者就無法新增、變更或移除其個人檔案圖片，因此如果系統管理員變更相片，就不會將 porfile 圖片同步至團隊。
 <sup>8</sup> 您需要滿足[為內部部署主控的的郵箱建立和檢視會議的需求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)列出的要求。
 
-<sup>9</sup> 也至少需要 Exchange Online 方案 1 授權。 詳細資訊，請參閱 [搜尋內部部署使用者的 Teams 聊天資料](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup> 也至少需要 Exchange Online 方案 1 授權。 詳細資訊，請參閱 [搜尋內部部署使用者的 Teams 聊天資料](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的需求
 
@@ -90,24 +90,24 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 
 - 需要為 Azure Active Directory 同步使用者指派所需的 Teams 授權。
 
-- 使用者必須同步到 Azure Active Directory。 有關如何使用 Azure AD Connect 與 Azure Active Directory 同步的資訊，請參閱[混合式身分識別檔案](https://docs.microsoft.com/azure/active-directory/hybrid/)。
+- 使用者必須同步到 Azure Active Directory。 有關如何使用 Azure AD Connect 與 Azure Active Directory 同步的資訊，請參閱[混合式身分識別檔案](/azure/active-directory/hybrid/)。
 
 - 郵箱託管在 Exchange Server 2016 累積更新 3 或更高版本中。
 
 - 自動探索和 Exchange Web 服務是在外部發佈的。
 
-- OAuth 驗證最好透過執行完全混合式設定 (傳統或新式) 的 Exchange 混合式設定精靈進行設定。 如果無法使用混合式設定精靈，請按照[設定 Exchange 和 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中的說明設定 OAuth。
+- OAuth 驗證最好透過執行完全混合式設定 (傳統或新式) 的 Exchange 混合式設定精靈進行設定。 如果無法使用混合式設定精靈，請按照[設定 Exchange 和 Exchange Online 組織之間的 OAuth 驗證](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中的說明設定 OAuth。
 
   > [!NOTE]
   > Exchange信 任來自 Teams 服務 (稱為 EvoSTS) 的 OAuth 權杖。 第 1 步應該足够了，但是只有 EvoSTS；ACS 用於行事曆中的空閒/忙碌查閲。
 
 - 已設定 Azure AD Connect 中 Exchange 混合式部署功能的核取方塊。
 
-- 對於行事曆應用程式支援和 Mac 版 Teams Outlook 增益集，Exchange Web 服務 URL 必須設定為 Exchange 服務主體的租用戶 Azure AD 中的 SPN。 這一步是透過混合組態精靈完成的，或者遵循[混合式新式驗證的手動步驟](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)來完成的。
+- 對於行事曆應用程式支援和 Mac 版 Teams Outlook 增益集，Exchange Web 服務 URL 必須設定為 Exchange 服務主體的租用戶 Azure AD 中的 SPN。 這一步是透過混合組態精靈完成的，或者遵循[混合式新式驗證的手動步驟](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)來完成的。
 
 要為這些使用者啟用行事曆委派，請執行以下操作：
 
-- 您也必須完成步驟，如在商務用 Skype Online 和 Exchange Server 之間設定整合和 [OAuth 中所述](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);這些步驟會為 Teams 排程應用程式提供確認代理人許可權所需的許可權。
+- 您也必須完成步驟，如在商務用 Skype Online 和 Exchange Server 之間設定整合和 [OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);這些步驟會為 Teams 排程應用程式提供確認代理人許可權所需的許可權。
  
   > [!NOTE]
   > 步驟 2 包括 ArchiveApplication 的角色指派，這不是委派所必需的。
@@ -122,12 +122,12 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 
 - 使用條件式存取控制和保護 Teams 和 Exchange 中合規性原則的設定。 有關更多資訊，請參閱[條件式存取原則如何為 Teams 工作？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- 如果貴組織有合規性需求以確保所有會議討論都可探索，則如果召集人有 Exchange 內部部署郵箱，則應停用私人會議。 有關詳細資訊，請參閱[允許排程私人會議](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings)。
+- 如果貴組織有合規性需求以確保所有會議討論都可探索，則如果召集人有 Exchange 內部部署郵箱，則應停用私人會議。 有關詳細資訊，請參閱[允許排程私人會議](./meeting-policies-in-teams.md#allow-scheduling-private-meetings)。
 
-- 在 Exchange 混合式部署中，聊天訊息中的內容都是可搜尋的，而不管聊天參與者是使用雲端式郵箱還是內部部署信箱。 若要了解更多資訊，請參閲[搜尋內部部署的雲端式郵箱](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 要瞭解如何在 Teams 中搜尋內容，請閱讀[Microsoft 365 合規性中心中的內容搜尋](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+- 在 Exchange 混合式部署中，聊天訊息中的內容都是可搜尋的，而不管聊天參與者是使用雲端式郵箱還是內部部署信箱。 若要了解更多資訊，請參閲[搜尋內部部署的雲端式郵箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 要瞭解如何在 Teams 中搜尋內容，請閱讀[Microsoft 365 合規性中心中的內容搜尋](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
-- 對於目前狀態，Microsoft Teams 必須檢查郵箱是裝載於 Exchange Online 還是内部部署。 然後服務决定存取郵箱的位置。 若要使 Teams 服務能够透過對 Exchange Online 服務的 REST API 呼叫檢查郵箱位置，您必須透過執行 Exchange 混合組態精靈來部署 Exchange 混合環境，如[使用混合組態精靈建立混合部署](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid)中所述。
+- 對於目前狀態，Microsoft Teams 必須檢查郵箱是裝載於 Exchange Online 還是内部部署。 然後服務决定存取郵箱的位置。 若要使 Teams 服務能够透過對 Exchange Online 服務的 REST API 呼叫檢查郵箱位置，您必須透過執行 Exchange 混合組態精靈來部署 Exchange 混合環境，如[使用混合組態精靈建立混合部署](/exchange/hybrid-deployment/deploy-hybrid)中所述。
 
 ## <a name="troubleshooting"></a>疑難排解
 
-有關此主題的完整疑難排解指南，請確保查看[Microsoft Teams 和 Exchange Server 互動問題疑難排解](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)。
+有關此主題的完整疑難排解指南，請確保查看[Microsoft Teams 和 Exchange Server 互動問題疑難排解](/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)。

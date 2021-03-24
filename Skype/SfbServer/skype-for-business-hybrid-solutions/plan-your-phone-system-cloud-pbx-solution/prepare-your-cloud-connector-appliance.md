@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 瞭解如何準備您的雲端連接器裝置，以進行部署，並與電話系統 (Cloud PBX) 搭配使用。
-ms.openlocfilehash: 74c4885a25b4176f4d5eb3ac27926bd9528387c6
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 536e9b98520e4274e00d43d57224267f5b824dc9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358939"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092631"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>準備 Cloud Connector 設備
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 瞭解如何準備您的雲端連接器裝置，以進行部署，並與電話系統 (Cloud PBX) 搭配使用。
 
@@ -65,7 +65,7 @@ ms.locfileid: "47358939"
 
     該命令應該會傳回商務用 Skype 雲端連接器 Edition 的 Cmdlet 清單。
 
-2. Vhd、SfBBits 及 VersionInfo 檔會儲存在 **網站目錄**中。
+2. Vhd、SfBBits 及 VersionInfo 檔會儲存在 **網站目錄** 中。
 
     您可以使用下列 Cmdlet 找到 **網站目錄** 的位置：
 
@@ -73,7 +73,7 @@ ms.locfileid: "47358939"
    Get-CcSiteDirectory
    ```
 
-    命令應該會傳回您的檔案系統中的位置。 該位置可以是本機資料夾或檔案共用。 **網站目錄**的預設位置為：%USERPROFILE%\CloudConnector\SiteRoot。 在每個網站中建立的第一個裝置上，應將預設位置變更為檔案共用。
+    命令應該會傳回您的檔案系統中的位置。 該位置可以是本機資料夾或檔案共用。 **網站目錄** 的預設位置為：%USERPROFILE%\CloudConnector\SiteRoot。 在每個網站中建立的第一個裝置上，應將預設位置變更為檔案共用。
 
     您選取的位置必須是：
 
@@ -89,11 +89,11 @@ ms.locfileid: "47358939"
 
     若要為網站部署高可用性 (HA) ，請確定您執行 Cmdlet，將 **網站目錄** 設定為網站中每個主機伺服器上的相同位置。
 
-    當您登入並部署網站中的每個裝置時，請確定您目前的登入帳戶具有 **網站目錄**的正確存取權。
+    當您登入並部署網站中的每個裝置時，請確定您目前的登入帳戶具有 **網站目錄** 的正確存取權。
 
-3. **裝置目錄**是商務用 Skype 雲端連接器 Edition 的本機工作根目錄，以及儲存外部憑證、實例及記錄檔的位置。 預設位置為：%USERPROFILE%\CloudConnector\ApplianceRoot。
+3. **裝置目錄** 是商務用 Skype 雲端連接器 Edition 的本機工作根目錄，以及儲存外部憑證、實例及記錄檔的位置。 預設位置為：%USERPROFILE%\CloudConnector\ApplianceRoot。
 
-    若要尋找 **裝置目錄**的位置，請執行下列 Cmdlet：
+    若要尋找 **裝置目錄** 的位置，請執行下列 Cmdlet：
 
    ```powershell
    Get-CcApplianceDirectory
@@ -108,7 +108,7 @@ ms.locfileid: "47358939"
     裝置目錄應設定為裝置上的本機資料夾。 您應只在啟動商務用 Skype Cloud Connector Edition 部署之前，先設定 **裝置目錄** 。 如果您在部署後變更它，您將需要重新部署主伺服器。
 
     > [!IMPORTANT]
-    > **裝置目錄**的路徑不能包含任何空格。
+    > **裝置目錄** 的路徑不能包含任何空格。
 
 ## <a name="set-the-path-for-the-external-edge-certificate"></a>設定外部 Edge 憑證的路徑
 
@@ -124,7 +124,7 @@ ms.locfileid: "47358939"
     指定外部憑證的完整路徑，包含檔案名。 憑證可以儲存在本機或檔案共用上。 如果憑證儲存于共用資料夾中，則必須在每個網站的第一個裝置上建立共用資料夾，而且必須可供屬於相同網站的其他裝置存取。 此 Cmdlet 會將外部憑證複製到 **裝置目錄**。
 
     > [!IMPORTANT]
-    > **如果您已更新 Cloud Connector 版本1.4.2 或更新版本**，請確定準備好的外部憑證包含私密金鑰和完整的憑證鏈，包括根 ca 憑證和中間 ca 憑證。 若尚未**更新為雲端連接器版本 1.4.2**，請確定準備好的外部憑證包含私密金鑰。 此外部憑證必須由 Windows 所信任的憑證授權單位單位所發出。
+    > **如果您已更新 Cloud Connector 版本1.4.2 或更新版本**，請確定準備好的外部憑證包含私密金鑰和完整的憑證鏈，包括根 ca 憑證和中間 ca 憑證。 若尚未 **更新為雲端連接器版本 1.4.2**，請確定準備好的外部憑證包含私密金鑰。 此外部憑證必須由 Windows 所信任的憑證授權單位單位所發出。
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>設定外部 PSTN 閘道/SBC 憑證的路徑
 
@@ -139,7 +139,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>在 Hyper-V 管理員中建立虛擬交換器
 
-1. 開啟**Hyper-V 管理員**  >  **虛擬交換器管理員**]，然後選取 [**新增虛擬交換器管理員**]。
+1. 開啟 **Hyper-V 管理員**  >  **虛擬交換器管理員**]，然後選取 [**新增虛擬交換器管理員**]。
 
 2. 建立外部虛擬交換器，並將它系結至連接至您的內部網路網域的實體網路介面卡：
 
@@ -149,23 +149,23 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
     取消選取 [ **允許管理作業系統為此虛擬交換器共用此網路介面卡** ]。
 
-4. 設定將周邊網路連接至內部網路網域的交換器名稱 **SFB CCE**網路的參數。
+4. 設定將周邊網路連接至內部網路網域的交換器名稱 **SFB CCE** 網路的參數。
 
-    設定將周邊網路連接至網際網路 **SFB CCE 網際網路參數**的交換器名稱。
+    設定將周邊網路連接至網際網路 **SFB CCE 網際網路參數** 的交換器名稱。
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>更新 CloudConnector.ini 設定檔
 
 使用您在 [在[商務用 Skype 雲端連接器的方案](plan-skype-for-business-cloud-connector-edition.md)] 中收集的[部署參數](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)中所收集的資訊準備 CloudConnector.ini 檔案。
 
-若要更新檔，請先執行下列 Cmdlet，以取得範例範本 ( # A0) ：
+若要更新檔，請先執行下列 Cmdlet，以取得範例範本 (CloudConnector.Sample.ini) ：
 
 ```powershell
 Export-CcConfigurationSampleFile
 ```
 
-範例範本是儲存在 **裝置目錄**中。
+範例範本是儲存在 **裝置目錄** 中。
 
-在您使用環境的值進行更新後，請將檔案儲存為 **裝置目錄**中的 CloudConnector.ini。 您可以執行 **CcApplianceDirectory** 來決定 **裝置目錄**的路徑。
+在您使用環境的值進行更新後，請將檔案儲存為 **裝置目錄** 中的 CloudConnector.ini。 您可以執行 **CcApplianceDirectory** 來決定 **裝置目錄** 的路徑。
 
 更新 .ini 檔案時，請考慮下列各項：
 
@@ -178,7 +178,7 @@ Export-CcConfigurationSampleFile
 
 - **ServerName：** 伺服器名稱不應該包含功能變數名稱，且應該限制為15個字元。
 
-- **HardwareType：** 如果您未設定或保留值為 null，則會使用 **標準** 的預設值。 如果您打算部署較大型版本的雲端連接器，以支援500的[商務用 Skype 雲端連接器 Edition](plan-skype-for-business-cloud-connector-edition.md)中所述的，請使用**Normal** 。 使用 **最小值** 進行同時支援50同時通話的部署。
+- **HardwareType：** 如果您未設定或保留值為 null，則會使用 **標準** 的預設值。 如果您打算部署較大型版本的雲端連接器，以支援500的 [商務用 Skype 雲端連接器 Edition](plan-skype-for-business-cloud-connector-edition.md)中所述的，請使用 **Normal** 。 使用 **最小值** 進行同時支援50同時通話的部署。
 
 - **網際網路/公司網路/管理虛擬交換器：**：新增您已建立的虛擬交換器名稱。 針對管理虛擬交換器，保留預設值。 部署腳本會在部署開始時建立管理虛擬交換器，並在部署完成時加以刪除。
 
@@ -266,7 +266,7 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 
 指定 ISO 映像的完整路徑（包括檔案名）。 例如： C:\ISO\WindowsServer2012R2.iso。
 
-建立的 VHD 檔案儲存在 [ **網站目錄** \Bits\VHD] 資料夾中。 您可以執行**CcSiteDirectory**，以取得**網站目錄**的路徑。
+建立的 VHD 檔案儲存在 [ **網站目錄** \Bits\VHD] 資料夾中。 您可以執行 **CcSiteDirectory**，以取得 **網站目錄** 的路徑。
 
 > [!IMPORTANT]
 > 根據預設，不會在基本 VM 上設定 proxy 設定。 如果您的網路環境中需要有 proxy，以透過 Windows Update 更新 VM，您應該在執行 "Convert-CcIsoToVhdx" 時，新增-PauseBeforeUpdate 參數。 在 Windows 更新之前，腳本會暫停，您將有機會手動設定 VM 上的 proxy。 在設定 proxy 並且 VM 可以存取網際網路之後，您可以繼續執行腳本，以完成其餘的步驟。 
@@ -315,5 +315,3 @@ CceService 帳戶是在商務用 Skype Cloud Connector Edition 部署期間建�
 某些 Microsoft 365 和 Office 365 設定步驟需要您使用租使用者 Remote PowerShell (TRPS) 來設定您的 Microsoft 365 或 Office 365 組織。 **這應該安裝在主伺服器上。** 您可以從： [商務用 Skype online、Windows PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)下載 PowerShell 的商務用 skype online 模組。
 
 為雲端連接器線上管理建立專用的商務用 Skype 系統管理員帳戶，例如 CceOnlineManagmentAdministrator。 裝置將使用此帳戶來新增或移除裝置、啟用或停用自動作業系統更新、啟用或停用自動二進位更新。 將此帳戶的密碼設為永不過期，這樣就不需要在每次到期時變更服務。
-
-

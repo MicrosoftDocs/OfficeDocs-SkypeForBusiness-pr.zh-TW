@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[定義新的 Office Web Apps Server] 嚮導會在您的部署中定義新的 Office Web Apps Server。 您填寫下列資訊：'
-ms.openlocfilehash: dc82ea7b6b846940ab1975d93b70fbcb4dd9e983
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 84ebc3b3ca7a413d81b4a36e62cc33a4f3fd91f0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807723"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095777"
 ---
 # <a name="add-office-web-apps-server"></a>新增 Office Web Apps Server
 
@@ -37,4 +37,4 @@ ms.locfileid: "49807723"
 
 ## <a name="see-also"></a>另請參閱
 
-[會議的元件和拓撲](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[會議的元件和拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

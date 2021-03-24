@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 瞭解如何使用系統管理角色來指定需要不同層級存取權才能管理 Teams 的系統管理員。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11f771f355b3be7c34dd3715d760c6968bb1f7ea
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 201cc1d73166825d729b4581d183ea58cfda64af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874633"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093733"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft Teams 系統管理員角色管理 Teams
 
@@ -50,17 +50,17 @@ ms.locfileid: "50874633"
 | Teams 裝置系統管理員              | 管理已針對 Teams 服務所配置的裝置。                    | 管理裝置設定和更新、審查已連接之周邊的裝置健康情況與狀態、設定及套用設定設定檔，以及重新開機裝置。<p>Teams 裝置系統管理員角色不提供通話品質資料或通話分析的存取權。 若要查看通話品質資料或通話分析，您必須指派 Teams Communications 系統管理員角色。 |
 
 <sup>1</sup> [PowerShell - Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) 模組 (公開發行 1.1.6 或更新版本已與商務用 Skype Online Connector.) <br>
-<sup>2</sup> [Microsoft Teams 系統管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>2</sup> [Microsoft Teams 系統管理中心](./manage-teams-skypeforbusiness-admin-center.md)
 <!-- <sup>3</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>4</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
-有關可用於管理 Microsoft Teams 的管理工具詳細資訊，請參閱 [管理 Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
+有關可用於管理 Microsoft Teams 的管理工具詳細資訊，請參閱 [管理 Microsoft Teams](./manage-teams-skypeforbusiness-admin-center.md)。
 
 有關適用于 Teams 的限制、規格及其他需求詳細資訊，請參閱 Microsoft Teams 的限制 [和規格](limits-specifications-teams.md)。
 
 ## <a name="assign-users-to-each-role"></a>將使用者指派給每個角色
 
-您可以在 Azure AD 中將使用者指派給這些角色。 若要瞭解如何在 Azure AD 中指派系統管理角色給使用者，請參閱在 Azure Active Directory 中指派使用者 [至系統管理員角色](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
+您可以在 Azure AD 中將使用者指派給這些角色。 若要瞭解如何在 Azure AD 中指派系統管理角色給使用者，請參閱在 Azure Active Directory 中指派使用者 [至系統管理員角色](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
 
 ## <a name="cmdlets-available-for-each-role"></a>每個角色可用的 Cmdlet
 
@@ -75,5 +75,5 @@ Get-Command -Module MicrosoftTeams
 ### <a name="related-topics"></a>相關主題
 
 - [Microsoft Teams PowerShell 概觀](teams-powershell-overview.md)
-- [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [在 Microsoft Teams 中指派 Teams 擁有者和成員](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)
+- [在 Microsoft Teams 中指派 Teams 擁有者和成員](./assign-roles-permissions.md)

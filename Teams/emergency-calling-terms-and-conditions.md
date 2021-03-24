@@ -21,30 +21,29 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: '瞭解緊急服務（911）與傳統的電話語音有何不同，以及如何撥打電話。 '
-ms.openlocfilehash: 70978907e8fffa74a7284b3c0179088287a2b181
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: '瞭解 911 (緊急服務) 與傳統電話語音的不同，以及如何進行通話。 '
+ms.openlocfilehash: 3fd78707fc822b008eaca4046ff1d974b1ad1e06
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691449"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092641"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話條款及條件
 
 ## <a name="important-information"></a>重要資訊
 
-緊急服務通話在 Microsoft 365 或 Office 365 中與傳統電話語音通話方案有不同的作用。 您必須瞭解這些差異，並以 Microsoft 365 或 Office 365 中的通話方案傳達給所有使用者，這一點非常重要。 您已確認並同意您已閱讀並瞭解緊急服務通話中的差異，並會針對每位使用者提供 Microsoft 365 或 Office 365 中的通話方案通知。
+在 Microsoft 365 或 Office 365 中，緊急服務通話的運作方式與傳統電話語音不同。 您必須瞭解這些差異，然後使用 Microsoft 365 或 Office 365 中的通話方案與所有使用者進行溝通。 您確認並同意您閱讀並瞭解我們緊急服務通話的差異，並且會以 Microsoft 365 或 Office 365 中的通話方案，向每個使用者提供此通知。
   
-緊急服務通話功能的差異包括：（i）商務用 Skype 和小組可能不知道呼叫者進行緊急服務通話的實際位置，這可能會導致呼叫被路由到錯誤的緊急服務話務中心，而/或緊急服務被傳送到錯誤的位置;（ii）如果使用者的小組用戶端已離線，或使用者的裝置因任何原因而無法存取網際網路（例如網路中斷或電源中斷），在 Microsoft 365 或 Office 365 中透過電話系統進行緊急服務通話不受支援，而且預期無法運作;而且（iii）雖然 Microsoft 365 或 Office 365 中的呼叫方案可以在網際網路連線的世界各地使用，但使用者不應從其家用國家/地區以外的位置進行緊急服務呼叫，因為通話可能不會傳送到該國家/地區的適當話務中心。
+我們緊急服務通話功能的差異包括下列各項： (i) 商務用 Skype 和 Teams 可能無法知道撥打緊急服務電話的來電者的實際位置，這可能會導致呼叫被路由到錯誤的緊急服務電話中心和/或緊急服務被分派到錯誤的位置; (ii) 如果使用者的 Teams 用戶端離線，或使用者的裝置因任何原因無法存取網際網路 ，例如網路中斷或電源中斷，則不支援透過 Microsoft 365 或 Office 365 中的電話系統撥打緊急服務電話，且預期無法工作; (iii) 雖然 Microsoft 365 或 Office 365 中的通話方案可在網際網路可用的任何位置使用，但使用者不應該從其國家/地區以外的位置撥打緊急服務電話，因為電話可能不會路由至該國家/地區的適當電話中心。
   
 ## <a name="related-topics"></a>相關主題
-[移轉電話號碼的常見問題](transferring-phone-numbers-common-questions.md)
+[移轉電話號碼的常見問題](./phone-number-calling-plans/port-order-overview.md)
 
-[通話方案所用的不同類型的電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[用於通話方案的各種電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

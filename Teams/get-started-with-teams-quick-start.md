@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4382fe5069095854713244b230ef04bd10f4ad0
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726414"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092241"
 ---
 # <a name="get-started-with-microsoft-teams"></a>開始使用 Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "50726414"
 - [針對 Teams 準備組織的網路](prepare-network.md)
   - 這包含設定您的 Microsoft 365 或 Office 365 網域、SharePoint Online、Exchange Online 和商務用 OneDrive。
 
-- 為每個人取得 Teams 授權。 請查看 [Teams 方案](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) 以及 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+- 為每個人取得 Teams 授權。 請查看 [Teams 方案](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) 以及 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 - [了解安裝桌面、Web 和行動用戶端的優點](get-clients.md)
 
@@ -63,7 +63,7 @@ ms.locfileid: "50726414"
 如果您是 Teams 的新使用者，熟悉 Teams 的最好方式就是立即開始使用 Teams。 Teams 的最大優點就是，您現在所設定的任何事項，都不會影響您稍後可能需要執行的任何升級或移轉動作。
 
 > [!TIP]
-> 查看在 [Microsoft Learn for Teams](/learn/teams/) 中可以使用的學習路徑和模組。 您可以參觀 [Teams 系統管理中心](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/)、瞭解如何 [設定適用於 Teams 的網路](/learn/modules/m365-teams-connectivity/)、取得如何以最佳方式 [將使用者上線至 Teams](/learn/modules/m365-teams-onboard-users/) 的想法和其他資訊！
+> 查看在 [Microsoft Learn for Teams](/learn/teams/) 中可以使用的學習路徑和模組。 您可以參觀 [Teams 系統管理中心](/learn/modules/m365-teams-navigate-admin-portal/)、瞭解如何 [設定適用於 Teams 的網路](/learn/modules/m365-teams-connectivity/)、取得如何以最佳方式 [將使用者上線至 Teams](/learn/modules/m365-teams-onboard-users/) 的想法和其他資訊！
 
 使用下列步驟來設定幾個團隊，並導入一些早期採用者，以協助您熟悉 Teams。
 
@@ -79,5 +79,5 @@ ms.locfileid: "50726414"
 |  |貴組織的設定檔|指導方針  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|我目前使用商務用 Skype Online，並準備好要移至 Teams。 |移至[升級至 Teams](upgrade-start-here.md)。        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的組織執行商務用 Skype Server，而我想要推出 Teams。 |若要全面推出 Teams，您必須先在內部部署環境與 Microsoft 365 之間設定混合式連線。從閱讀[規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity) (部分機器翻譯) 開始。<br><br>您也應該檢閱[升級至 Teams](upgrade-start-here.md)。   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的組織執行商務用 Skype Server，而我想要推出 Teams。 |若要全面推出 Teams，您必須先在內部部署環境與 Microsoft 365 之間設定混合式連線。從閱讀[規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](/skypeforbusiness/hybrid/plan-hybrid-connectivity) (部分機器翻譯) 開始。<br><br>您也應該檢閱[升級至 Teams](upgrade-start-here.md)。   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我沒有商務用 Skype Server，但有內部部署公共交換電話網路 (PSTN) 解決方案。 我想要推出 Teams，但想要保留我的內部部署 PSTN 解決方案。 |遵循本文中的建議以開始使用 Teams。<br><br>然後閱讀[規劃直接路由](direct-routing-plan.md)，了解如何使用電話系統直接路由來將您的內部部署 PSTN 解決方案與 Teams 對接。|

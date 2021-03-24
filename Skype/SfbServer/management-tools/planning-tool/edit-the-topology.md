@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 在完成最初的面試問題之後，您可以編輯該網站的 (FQDN) 和 IP 位址的完整功能變數名稱。 若要這麼做，請在 [全域拓撲] 頁面上，連按兩下您要編輯的網站。
-ms.openlocfilehash: ba18070b21494028d31b4167ab92a622794c5e51
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834883"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093181"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中編輯拓撲
 
@@ -84,4 +84,4 @@ ms.locfileid: "49834883"
 ## <a name="see-also"></a>另請參閱
 <a name="Edit_Network_diagram"> </a>
 
-[編輯設計](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[編輯設計](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

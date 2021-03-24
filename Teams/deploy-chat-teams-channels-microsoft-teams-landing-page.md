@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: cefcb240e27f5934538c88f5316181be25f24a60
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a5cf7c91ef3b0e91504753a1e04ed334f4132adc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031229"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094359"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -66,7 +66,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 | 問問自己 | 動作 |
 |--------------|--------|
 |誰將獲指派 Teams 通訊系統管理員角色？|若要深入了解 Teams 系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色管理來管理 Teams](using-admin-roles.md)。|
-|誰將獲指派 Teams 通訊支援工程師角色？|若要指派系統管理員角色，[使用 Azure Active Directory 將系統管理員和非系統管理員角色指派給使用者](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
+|誰將獲指派 Teams 通訊支援工程師角色？|若要指派系統管理員角色，[使用 Azure Active Directory 將系統管理員和非系統管理員角色指派給使用者](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
 |誰將獲指派 Teams 通訊支援專員角色？||
 |||
 
@@ -88,7 +88,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 |------------|-------|
 |我要自訂全域訊息原則嗎？|如需使用 Microsoft Teams 系統管理中心來變更全域訊息原則或新增原則的相關資訊，請參閱[在 Teams 中管理訊息原則](messaging-policies-in-teams.md)。|
 |我需要多個訊息原則嗎？|若要在 PowerShell 中建立並指派訊息原則，請參閱 [PowerShell 指令碼範例 - 建立並指派訊息原則](scripts/powershell-script-teams-messaging-policy-edu.md)。|
-|我如何判斷哪些使用者群組可以獲得哪個訊息原則？|若要了解 CsTeamsMessagingPolicy Cmdlet，請參閱 [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。|
+|我如何判斷哪些使用者群組可以獲得哪個訊息原則？|若要了解 CsTeamsMessagingPolicy Cmdlet，請參閱 [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。|
 ||| 
 
 ### <a name="external-access"></a>外部存取
@@ -102,7 +102,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="guest-access"></a>來賓存取
 
-Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您可以使用來賓存取設定來控制來賓使用者可以或不能使用的功能。來賓存取依預設為關閉。若要深入了解，請參閱 [Teams 中的來賓存取](https://docs.microsoft.com/microsoftteams/guest-access)。
+Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您可以使用來賓存取設定來控制來賓使用者可以或不能使用的功能。來賓存取依預設為關閉。若要深入了解，請參閱 [Teams 中的來賓存取](./guest-access.md)。
 
 > [!NOTE]
 > 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
@@ -135,11 +135,11 @@ Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預�
 
 ### <a name="teams-usage-reporting"></a>Teams 使用情況報告
 
-全域系統管理員、Teams 服務系統管理員和報告讀取者角色可檢視 Teams 使用情況報告。若要深入了解，請參閱 [Microsoft 365 流量分析](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)。
+全域系統管理員、Teams 服務系統管理員和報告讀取者角色可檢視 Teams 使用情況報告。若要深入了解，請參閱 [Microsoft 365 流量分析](/microsoft-365/admin/usage-analytics/usage-analytics)。
 
 |問問自己|動作 |
 |------------|-------|
-|<br> 誰需要查看 Teams 使用情況報告，以及他們是否具備檢視報告的正確角色？ |<ul><li>如果使用者不是系統管理員，請[指派報告讀取者角色](teams-activity-reports.md#reports-reader-role)。</li><li>請參閱[角色和使用權限](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)和[檢視和指派角色](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)來了解如何在 Azure Active Directory 中指派系統管理員角色。 |
+|<br> 誰需要查看 Teams 使用情況報告，以及他們是否具備檢視報告的正確角色？ |<ul><li>如果使用者不是系統管理員，請[指派報告讀取者角色](teams-activity-reports.md#reports-reader-role)。</li><li>請參閱[角色和使用權限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)和[檢視和指派角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)來了解如何在 Azure Active Directory 中指派系統管理員角色。 |
 |||
 
 ### <a name="teams-default-apps"></a>Teams 預設應用程式 
@@ -154,11 +154,11 @@ Teams 提供大量的第一方 (Microsoft 提供) 和第三方應用程式，用
 
 ### <a name="teams-licensing"></a>Teams 授權
 
-Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。若要深入了解 Teams 授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。若要深入了解 Teams 授權，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 |問問自己|動作 |
 |------------|-------|
-|我的使用者是否擁有使用我要推出的 Teams 所有功能所需的授權？ | 若要深入瞭解授權需求，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。|
+|我的使用者是否擁有使用我要推出的 Teams 所有功能所需的授權？ | 若要深入瞭解授權需求，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互通性
@@ -181,7 +181,7 @@ Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。若要深入�
 
 ### <a name="urls-and-ports"></a>URL 和連接埠
 
-對網際網路流量保有精細控制的組織，應閱讀 [URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)，以取得必須為 Teams 正確設定的最新 URL、IP 位址、連接埠和通訊協定的清單。Microsoft 會持續改善 Microsoft 365 及 Office 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。建議您透過 RSS 訂閱，以便在此資訊更新或變更時收到通知。至少，請確認您已開放以上的[聊天部署先決條件](#chat-deployment-prerequisites)中所列的連接埠。
+對網際網路流量保有精細控制的組織，應閱讀 [URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)，以取得必須為 Teams 正確設定的最新 URL、IP 位址、連接埠和通訊協定的清單。Microsoft 會持續改善 Microsoft 365 及 Office 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。建議您透過 RSS 訂閱，以便在此資訊更新或變更時收到通知。至少，請確認您已開放以上的[聊天部署先決條件](#chat-deployment-prerequisites)中所列的連接埠。
 
 |問問自己|動作 |
 |------------|-------|
@@ -196,7 +196,7 @@ Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。若要深入�
 | 問問自己 | 動作 |
 |--------------|--------|
 |我是否需要對可以建立團隊的人員實作控制？| 請閱讀[規劃 Teams 中的控管](plan-teams-governance.md)。|
-|我是否需要對團隊的命名方式實作控制？|請閱讀[在 Azure AD 中對 Microsoft 365 群組強制執行命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。|
+|我是否需要對團隊的命名方式實作控制？|請閱讀[在 Azure AD 中對 Microsoft 365 群組強制執行命名原則](/azure/active-directory/users-groups-roles/groups-naming-policy)。|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 應用程式原則 (側邊欄控制)
@@ -226,7 +226,7 @@ Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。若要深入�
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|<br>我需要為 Teams 設定條件式存取嗎？|<ul><li>若要了解存取原則的運作方式，請參閱[條件式存取原則如何適合 Teams？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要為 Teams 設定多重要素驗證 (MFA)，請參閱：<ul><li>[快速入門：透過 Azure Active Directory 條件式存取來要求特定應用程式需要 MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 條件式存取設定參考](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>我需要為 Teams 設定條件式存取嗎？|<ul><li>若要了解存取原則的運作方式，請參閱[條件式存取原則如何適合 Teams？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要為 Teams 設定多重要素驗證 (MFA)，請參閱：<ul><li>[快速入門：透過 Azure Active Directory 條件式存取來要求特定應用程式需要 MFA](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 條件式存取設定參考](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

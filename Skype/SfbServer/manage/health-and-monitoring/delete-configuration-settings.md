@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 摘要：瞭解如何在商務用 Skype Server 中移除 CDR 設定設定。
-ms.openlocfilehash: ca6691d6a1a19e0d9219a256986b683b719da885
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ac961df352f26891ece9c69b7d62b37c4c015d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816963"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095307"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除現有 CDR 設定設定集合
  
@@ -29,7 +29,7 @@ ms.locfileid: "49816963"
   
 請注意，您也可以「刪除」全域設定。 不過，全域設定實際上不會被移除。 相反地，該集合中的所有屬性都會重設為預設值。 例如，預設會在 CDR 設定設定的集合中啟用清除。 假設您修改全域集合以停用清除。 如果您稍後刪除全域設定，所有屬性都會重設為其預設值。 在此情況下，這表示會再次啟用清除。
   
-您可以使用商務用 Skype Server 控制台或 [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) Cmdlet 來移除 CDR 設定設定。
+您可以使用商務用 Skype Server 控制台或 [Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) Cmdlet 來移除 CDR 設定設定。
   
 ### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台移除 CDR 設定設定
 
@@ -69,9 +69,8 @@ ms.locfileid: "49816963"
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
-如需詳細資訊，請參閱 [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
   
 ## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 中手動清除詳細通話記錄與經驗品質資料庫](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
-

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 摘要：瞭解如何在商務用 Skype 伺服器失敗的情況下封鎖 IM 和會議會話，以避免封存。
-ms.openlocfilehash: 9a39c5f54fbdd4a738f4e67e7f70ff199a204672
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817673"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095447"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>設定封存選項，以處理商務用 Skype Server 中的失敗
 
@@ -57,6 +57,4 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $Tr
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-如需詳細資訊，請參閱 [get-csarchivingconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
-  
-
+如需詳細資訊，請參閱 [get-csarchivingconfiguration](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。

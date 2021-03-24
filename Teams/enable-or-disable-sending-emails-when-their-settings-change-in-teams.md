@@ -20,54 +20,54 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '瞭解如何啟用或停用 Skype 將電子郵件傳送給使用者，例如 pin 變更或 Microsoft 團隊中的預設會議號碼變更等設定。 '
-ms.openlocfilehash: 36c7e9dce17de1e6f9bbf8b812d62ddd91bc6ffe
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: '瞭解如何啟用或停用 Skype 在 Microsoft Teams 中的釘釘變更或預設會議號碼變更等設定時傳送電子郵件給使用者。 '
+ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691599"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092701"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用 Microsoft 團隊中的音訊會議設定變更時傳送電子郵件
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用在 Microsoft Teams 中音訊會議設定變更時傳送電子郵件
 
-當使用者啟用音訊會議時，系統會自動透過電子郵件收到通知。 不過，有時您可能會想要減少傳送給 Microsoft 團隊使用者的電子郵件數目。 在這種情況下，您可以停用傳送電子郵件。
+使用者啟用音訊會議時，會自動收到電子郵件通知。 不過，有時候您可能會想要減少寄給 Microsoft Teams 使用者的電子郵件數量。 在這種情況下，您可以停用傳送電子郵件。
   
-如果您停用傳送電子郵件，語音會議電子郵件不會傳送給您的使用者，包括使用者在音訊會議中啟用或停用的電子郵件、其 PIN 重設時，以及會議 ID 和預設會議電話號碼的變更。
+如果您停用傳送電子郵件，音訊會議電子郵件將不會傳送給使用者，包括使用者啟用或停用音訊會議、PIN 重設時間，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
   
-以下是在啟用音訊會議時傳送給使用者的電子郵件範例：
+以下是啟用音訊會議時，會寄給使用者的電子郵件範例：
   
 ![音訊會議電子郵件訊息範例](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a>何時要傳送電子郵件給使用者？
+## <a name="when-are-emails-being-sent-to-your-users"></a>何時會將電子郵件寄給您的使用者？
 
-- 在啟用音訊會議之後，會有幾封電子郵件會傳送給貴組織中的使用者：
+- 啟用音訊會議後，會向貴組織的使用者數封電子郵件：
     
-  - 將**音訊會議**授權指派給他們時。
+  - 當 **音訊會議授權** 指派給他們時。
     
   - 當您手動重設使用者的音訊會議 PIN 時。
     
-  - 手動重設使用者的會議 ID。
+  - 當您手動重設使用者的會議 ID 時。
     
-  - 從他們移除**音訊會議**授權時。
+  - 從 **音訊會議授權** 中移除時。
     
-  - 當使用者的音訊會議提供者從 Microsoft 變更為另一個提供者或 [**無**] 時。
+  - 當使用者的音訊會議提供者從 Microsoft 變更為另一個提供者或無 **時**。
     
   - 當使用者的音訊會議提供者變更為 Microsoft 時。
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>啟用或停用傳送電子郵件給使用者的電子郵件
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>啟用或停用電子郵件，禁止將電子郵件寄給使用者
 
-您可以使用 Microsoft 團隊或 Windows PowerShell 來啟用或停用傳送給使用者的電子郵件。
+您可以使用 Microsoft Teams 或 Windows PowerShell 啟用或停用發送給使用者的電子郵件。
 
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，前往 [**會議**  >  **會議橋**]。 
+1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 
-2. 在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。 
+2. 在 [會議橋接器 **」** 頁面頂端，按一下 [ **橋接器設定>**。 
 
-3. 在 [**橋設定**] 窗格中，如果使用者的撥入設定變更，請啟用或停用**自動傳送電子郵件給使用者**。
+3. 在橋接器 **設定窗格中** ，啟用或停用在使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
 
-4. 按一下 [儲存]****。
+4. 按一下 [儲存]。
 
   
 > [!Note]
@@ -75,24 +75,22 @@ ms.locfileid: "44691599"
 
 **使用 Windows PowerShell**
   
-如需詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
 
     
-## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要進一瞭解 Windows PowerShell 嗎？
 
-Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
     
-如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。
+有關 Windows PowerShell 的資訊，請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
     
   
 ## <a name="related-topics"></a>相關主題
 
-[在使用者的音訊會議設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[當使用者的音訊會議設定變更時，寄來的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 [傳送內含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-
-

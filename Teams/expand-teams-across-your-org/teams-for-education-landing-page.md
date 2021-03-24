@@ -1,6 +1,6 @@
 ---
 title: 適用於教育的 Teams
-description: 瞭解可用的系統管理資源，協助您在學校或機構中成功部署、採用及管理小組。
+description: 瞭解可協助在學校或機構中成功部署、採用及管理 Teams 的可用系統管理資源。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -19,23 +19,22 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 85f1d16a258955e08086b851a503bfac87604bf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821123"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092501"
 ---
 # <a name="teams-for-education"></a>適用於教育的 Teams
 
-使用小組、教育版和教職員，您可以建立共同作業教室、連線至專業學習社區，以及與學生和教育者進行溝通。 您可以在這裡使用系統管理資源，協助您在學校或機構中順利部署、採用及管理小組。 
+有了 Teams，授課者和教職員可以建立共同合作教室、在專業學習社群中聯繫，以及與學生和授課者進行溝通。 您可以使用這裡的系統管理資源，協助您在學校或機構中成功部署、採用及管理 Teams。 
 
 
 |               |               |
 | ------------- | ------------- |
-| ![箭號-右-2-團隊](../media/arrow-right-2-teams.svg)  |  [快速入門 - Teams 教育版系統管理員](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![註冊團隊](../media/sign-up-teams.svg) | [Teams 教育版中的作業](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![深入資訊-團隊](../media/insights-teams.svg) | [在教育版團隊中的深入資訊](https://docs.microsoft.com/microsoftteams/class-insights) |
-| !["](../media/toolbox.svg)  |  [適用于教育系統管理員的小組資源](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![任務-工作表-規劃-小組](../media/task-checklist-planning-teams.svg)  |  [針對教育版管理員的小組的管轄管理常見問題](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
-
+| ![向右鍵圖示的螢幕擷取畫面](../media/arrow-right-2-teams.svg)  |  [快速入門 - Teams 教育版系統管理員](../teams-quick-start-edu.yml) |
+| ![紙張和鉛筆圖示的螢幕擷取畫面](../media/sign-up-teams.svg) | [Teams 教育版中的作業](./assignments-in-teams.md) |
+| ![深入見解圖示的螢幕擷取畫面](../media/insights-teams.svg) | [Teams 教育用深入資訊](../class-insights.md) |
+| ![工具箱圖示的螢幕擷取畫面](../media/toolbox.svg)  |  [Teams 教育用系統管理員的資源](../resources-teams-edu.md) |
+| ![檢查清單圖示的螢幕擷取畫面](../media/task-checklist-planning-teams.svg)  |  [Teams 教育用系統管理員的管理常見問題](../plan-teams-governance-edu.md) |

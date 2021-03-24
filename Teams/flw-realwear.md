@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909387"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092281"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
 
@@ -44,12 +44,12 @@ Microsoft Teams 授權屬於 Microsoft 365 和 Office 365 訂閱的一部分。 
 
 您可以使用 Android 裝置系統管理員模式來管理 RealWear 裝置。 由於裝置目前沒有提供 Google Mobile Services (GMS) ，因此透過 Android 企業版的管理支援有所限制。
 
-- 若要深入了解在 Microsoft 端點管理員上管理 RealWear 裝置的方法，請參閱 [Intune 中 Android 裝置系統管理員註冊](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator) (英文)。
-- 如需有關原則的詳細資訊，請參閱[如何在沒有 Google Mobile Services 的環境中使用 Intune](https://docs.microsoft.com/mem/intune/apps/manage-without-gms) (英文)。
+- 若要深入了解在 Microsoft 端點管理員上管理 RealWear 裝置的方法，請參閱 [Intune 中 Android 裝置系統管理員註冊](/mem/intune/enrollment/android-enroll-device-administrator)。
+- 如需有關原則的詳細資訊，請參閱[如何在沒有 Google Mobile Services 的環境中使用 Intune](/mem/intune/apps/manage-without-gms)。
 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>協力廠商企業行動力管理員 (EMM)
 
-如需第三方 EMM 的指導方針，請參閱[支援的企業行動力管理提供者](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/) (英文)。
+如需第三方 EMM 的指導方針，請參閱[支援的企業行動力管理提供者](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/)。
 
 ## <a name="end-user-content"></a>使用者內容
 

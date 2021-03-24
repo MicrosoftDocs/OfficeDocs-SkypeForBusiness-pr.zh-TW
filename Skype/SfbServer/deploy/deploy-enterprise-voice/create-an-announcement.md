@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 在商務用 Skype Server Enterprise Voice 中建立或刪除宣告應用程式宣告。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: 9f2b4fcda8e98d4b939b6b443da875dbe153546c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 571dce52366430c0e13f442de4917a2c51ed056f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824903"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093281"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或刪除宣告
 
@@ -31,7 +31,7 @@ ms.locfileid: "49824903"
 
 您必須先建立宣告，再定義未指派的號碼表。 您必須對使用音訊提示、TTS 提示或無提示的所有宣告執行此步驟。
 
-本主題說明如何匯入和建立宣告。 如需在未指派號碼表中指派宣告的詳細資訊，請參閱 [Configure The 未指派號碼表格](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)。
+本主題說明如何匯入和建立宣告。 如需在未指派號碼表中指派宣告的詳細資訊，請參閱 [Configure The 未指派號碼表格](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table)。
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>建立未指派號碼的新宣告
 
@@ -62,7 +62,7 @@ ms.locfileid: "49824903"
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. 運行：
+5. 執行：
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -84,7 +84,7 @@ ms.locfileid: "49824903"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   如需這些 Cmdlet 的詳細資訊，以及若要查看在 **TextToSpeechPrompt** 參數中使用的語言代碼清單，請參閱 [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)。
+   如需這些 Cmdlet 的詳細資訊，以及若要查看在 **TextToSpeechPrompt** 參數中使用的語言代碼清單，請參閱 [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps)。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>刪除未指派號碼的宣告
 
@@ -113,17 +113,16 @@ ms.locfileid: "49824903"
    ```
 
     > [!NOTE]
-    > 如需更多選項的詳細資訊，請參閱 [CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) 和 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)。
+    > 如需更多選項的詳細資訊，請參閱 [CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) 和 [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps)。
 
 ## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 中建立或刪除宣告](create-an-announcement.md)
 
-[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
-
+[CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps)

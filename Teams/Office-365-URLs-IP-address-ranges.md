@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 和 Office 365 Url 與 IP 位址範圍
+title: Microsoft 365 和 Office 365 URL 和 IP 位址範圍
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -8,7 +8,7 @@ ms.date: 08/21/2018
 ms.topic: article
 audience: admin
 ms.service: msteams
-description: 瞭解如何正確地設定 Microsoft 365 或 Office 365 Url 與 IP 位址範圍，以及如何在 Microsoft 團隊服務連線時略過轉寄 proxy。
+description: 瞭解如何正確設定 Microsoft 365 或 Office 365 URL 和 IP 位址範圍，並盡可能針對與 Microsoft Teams 服務進行連接而忽略轉轉 Proxy。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,20 +20,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ad3ffdfd47b67ce21fb7f47a911afa67159f3e7
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 9a29984b0b389bacb50a9aa6512a9ccc8bfe07de
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650816"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094515"
 ---
-<a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 和 Office 365 Url 與 IP 位址範圍
+<a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 和 Office 365 URL 和 IP 位址範圍
 =======================================================
 
-移至 [Microsoft 365 和 Office 365 url 與 ip 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) ，以取得必須針對團隊正確設定的 URL、IP 位址、埠和通訊協定的詳細資訊和最新清單。 Microsoft 會持續改善 Microsoft 365 及 Office 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。 我們建議您透過 [RSS 進行訂閱](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) ，以便在更新或變更此資訊時接收通知。
+請前往 [Microsoft 365 和 Office 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) URL 和 IP 位址範圍，以查看必須為 Teams 正確配置的 URL、IP 位址、埠和通訊協定的詳細且最新的清單。 Microsoft 會持續改善 Microsoft 365 及 Office 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。 我們建議您透過 [RSS](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 訂閱，以在更新或變更此資訊時收到通知。
 
-團隊通話和會議體驗是在由 Skype 與商務用 Skype 同時使用的下一代雲端基礎結構上建立。 這些技術投資包括適用于媒體處理的 Azure 雲端服務和信號、.H 視頻編解碼器、絞絲及 Opus 音訊編解碼器、網路復原、遙測及品質診斷。 如此一來，可能會有與 Skype 和商務用 Skype 相關聯所需的 Url 和 Ip。
+Teams 通話和會議體驗建立在新一代雲端式基礎結構上，也由 Skype 和商務用 Skype 使用。 這些技術投資包括媒體處理和訊號的 Azure 雲端服務、H.264 視訊編解碼器、SILK 和 Opus 音訊編解碼器、網路復原能力、遙測和品質診斷。 因此，有些 URL 和 IP 可能同時與 Skype 和商務用 Skype 相關聯。
 
-針對所有 Microsoft 365 和 Office 365 的工作負載，建議的 [團隊服務] 連線方法是在可能的情況下略過轉寄 proxy。 當 proxy 伺服器位於用戶端與 Office 365 資料中心時，媒體可能會受到 TCP （而不是 UDP）的影響，而不會影響媒體質量。 下載範例 proxy PAC 檔案，這些檔案可以用來設定從 [管理 Microsoft 365 和 Office 365 端點](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)繞過的流量旁路。
+針對所有 Microsoft 365 和 Office 365 工作負載，建議使用 Teams 服務的連接方法，盡可能忽略轉轉 Proxy。 當 Proxy 伺服器位於用戶端和 Office 365 資料中心之間時，媒體可能會強制超過 TCP 而非 UDP，這會影響媒體質量。 下載範例 Proxy PAC 檔案，可用來從管理 [Microsoft 365 和 Office 365](/office365/enterprise/managing-office-365-endpoints)端點設定流量旁路。
 
-如果您的網路和安全性原則需要 Microsoft 365 或 Office 365 流量，才能透過 proxy 伺服器進行流動，請務必先滿足上述需求，然後才能將團隊部署到生產中。 如需詳細資訊，請參閱 [小組或商務用 Skype Online 的 Proxy 伺服器](proxy-servers-for-skype-for-business-online.md)。
+如果您的網路和安全性原則要求 Microsoft 365 或 Office 365 流量在 Proxy 伺服器之間流動，請確定在將 Teams 部署到生產之前，已經符合上述需求。 詳細資訊，請參閱 [Teams Proxy 伺服器或商務](proxy-servers-for-skype-for-business-online.md)用 Skype Online 。

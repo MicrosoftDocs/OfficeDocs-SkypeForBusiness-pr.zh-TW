@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 摘要：瞭解如何在商務用 Skype Server 中啟用 (CDR) 記錄的詳細通話記錄。
-ms.openlocfilehash: 48d21be6d377df24e859c3ffa6bb8b7858076d29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2f652eeef77c336fb34be07c123f1ef026d458c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816883"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095227"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>啟用商務用 Skype Server 中的詳細通話記錄
 
@@ -28,7 +28,7 @@ ms.locfileid: "49816883"
 使用下列程序來為整個組織或組織內的個別網站啟用 CDR。
 
 > [!NOTE]
-> 如要啟用 CDR，您必須設定監控及監控資料庫。 如需詳細資訊，請參閱＜[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)＞。
+> 如要啟用 CDR，您必須設定監控及監控資料庫。 如需詳細資訊，請參閱＜[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)＞。
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>啟用具有商務用 Skype Server 控制台的 CDR
 
@@ -71,10 +71,10 @@ ms.locfileid: "49816883"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-如需詳細資訊，請參閱 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
 
 ## <a name="see-also"></a>另請參閱
 
-[規劃監控](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[規劃監控](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[部署監控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[部署監控](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

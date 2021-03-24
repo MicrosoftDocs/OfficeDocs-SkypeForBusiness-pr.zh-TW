@@ -1,5 +1,5 @@
 ---
-title: 在系統管理中心使用團隊政府範本
+title: 在系統管理中心使用 Teams 政府範本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用。 團隊範本：使用系統管理中心提供預先定義的設定、頻道及預先安裝的 app，以建立專為政府需求設計的小組結構。
+description: 瞭解如何使用。 使用系統管理中心提供預先定義的設定、頻道和預先安裝的 App，以建立專為政府需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,30 +19,30 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db0d8fa4a2744f0f3c3591918230e3f569727ae7
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: db22de142b9e7f2bead93e607dd01c9dd362ddba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662198"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092211"
 ---
-# <a name="use-teams-government-templates-in-the-admin-center"></a>在系統管理中心使用團隊政府範本
+# <a name="use-teams-government-templates-in-the-admin-center"></a>在系統管理中心使用 Teams 政府範本
 
-團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
+Teams 範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-團隊範本有預先建立的小組結構定義，專為政府需求而設計。 您也可以延伸團隊範本，建立專為您特定組織需求量身定制的小組。
+Teams 範本有預先建立的團隊結構定義，專為政府需求所設計。 您也可以擴充 Teams 範本，以建立專為您特定組織需求量身打造的團隊。
 
-在本文中，我們將介紹每個團隊範本，並建議如何使用它們。
+本文介紹每個 Teams 範本，並建議如何使用這些範本。
 
-本文適用于您負責規劃、部署及管理政府組織中的多個小組。 您已在組織中部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
+如果您負責規劃、部署及管理整個政府組織的多個團隊，本文適合您閱讀。 您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](./deploy-overview.md)。
 
-若要深入瞭解小組範本的整體資訊，請參閱 [開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
+如需深入了解一般 Teams 範本，請參閱 [Teams 範本入門](get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="coordinate-incident-response"></a>協調事件回應
 
-針對危機管理或事件回應小組集中溝通與重要資源。 在這個小組中，您可以加入許多不同類型的檔案，協助您為所有檔建立一個集中位置。 使用線上會議來改善資訊流與形勢感知。
+集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的中央位置。 使用線上會議改善資訊流程及情境認知度。
 
-| 基底範本類型 |baseTemplateId | 此基礎範本隨附的屬性 |
+| 基本範本類型 |baseTemplateId | 此基本範本提供的屬性 |
 |-------------------|-------|---------------------------------------------------------------------------|
-|協調事件回應|`com.microsoft.teams.template.CoordinateIncidentResponse`|管道 <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>修復</li><li>非常</li></ul> 應用 <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|協調事件回應|`com.microsoft.teams.template.CoordinateIncidentResponse`|頻道： <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>恢復</li><li>緊急</li></ul> 應用程式： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>Sharepoint</li><li>Planner</li></ul>|
 ||||

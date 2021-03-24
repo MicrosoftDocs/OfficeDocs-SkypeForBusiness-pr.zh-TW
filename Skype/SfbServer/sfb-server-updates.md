@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: 2da3556286213498a2b14a6e4943b76641ecff4c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092851"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -234,7 +234,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 套件名稱/連結|發行日期|
 |:--- |:--- |
 |[Lync Server 2010 檔說明檔案](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|March 2012 |
-|[Lync Server 2010 歡迎頁面](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|October 2012 |
+|[Lync Server 2010 歡迎頁面](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|October 2012 |
 |[IM Microsoft Lync Server 2010 檔的專家](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|March 2012 |
 |[Lync 2010 版本](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3)資訊。 .aspx) |January 2011 |
 |[Lync Server 2010 版本資訊](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|January 2011 |
@@ -268,6 +268,6 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ## <a name="related-topics"></a>相關主題
 
-- [安裝商務用 Skype Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [升級至商務用 Skype Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [安裝商務用 Skype Server 2015](./deploy/install/install.md)
+- [升級至商務用 Skype Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [使用 Windows Installer (MSI) 的商務用 Skype 版本的最新更新 ](sfb-client-updates.md)

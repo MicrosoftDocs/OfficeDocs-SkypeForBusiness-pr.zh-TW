@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: 若要定義新的 SQL 存放區，這表示您指定的是 SQL Server 資料庫和 SQL Server 實例（預設實例或命名實例），請指定下列各項。
-ms.openlocfilehash: 79429b596eef1ed0695aeb24594ea08ce12093be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 28018a7320bc42761a668aaff385302016781592
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833303"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095597"
 ---
 # <a name="add-sql-store"></a>新增 SQL 存放區
 
@@ -30,6 +30,4 @@ ms.locfileid: "49833303"
 
 指定將主控資料的 SQL Server 實例。 您可以指定預設實例，也可以指定命名實例。
 
-組合在特定實例中的資料庫，應明確瞭解。 如需伺服器組合及資料庫實例組合的詳細資訊，請參閱[Standard Edition Server 部署](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx)中[前端集區部署](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx)和伺服器組合中的伺服器組合。
-
-
+組合在特定實例中的資料庫，應明確瞭解。 如需伺服器組合及資料庫實例組合的詳細資訊，請參閱[Standard Edition Server 部署](/previous-versions/office/lync-server-2013/lync-server-2013-server-collocation-in-a-standard-edition-server-deployment)中[前端集區部署](/previous-versions/office/lync-server-2013/lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment)和伺服器組合中的伺服器組合。

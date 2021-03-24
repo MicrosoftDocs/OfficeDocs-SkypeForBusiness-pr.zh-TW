@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: 下表列出商務用 Skype 雲端連接器 Edition Cmdlet，具有簡短描述，以及詳細資訊的連結。
-ms.openlocfilehash: 8d33cd8c493c3acc165661e5af80625e773e2d0d
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 3739518dd8ddcd17bce8108228d0d643ebaa79a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359049"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092931"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cloud Connector Cmdlet 參考
  
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 下表列出商務用 Skype 雲端連接器 Edition Cmdlet，具有簡短描述，以及詳細資訊的連結。
   
@@ -46,13 +46,13 @@ ms.locfileid: "47359049"
 |[Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md) <br/> |傳回雲端連接器部署的外部憑證檔案路徑。 使用者準備此憑證。  <br/> |
 |[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |顯示存放網站層級設定檔的目前目錄。 資料夾包含基本 VHD 和 Cloud Connector 安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。  <br/> |
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |顯示儲存雲端連接器之網站層級記錄的目前目錄。  <br/> |
-|[Get-CcVersion](get-ccversion.md) <br/> 版本2.0 和更新版本  <br/> |傳回雲端連接器實例上的版本。 CCVersion 只能用於 Cloud Connector 的主機電腦。  <br/> |
+|[Get-CcVersion](get-ccversion.md) <br/> 版本2.0 和更新版本  <br/> |傳回雲端連接器實例上的版本。 Get-CCVersion 只能用於 Cloud Connector 的主機電腦。  <br/> |
 |[Import-CcConfiguration](import-ccconfiguration.md) <br/> 版本2.0 和更新版本  <br/> |將商務用 Skype 雲端連接器版本設定從本機檔案匯入雲端連接器主機伺服器。  <br/> |
 |[Install-CcAppliance](install-ccappliance.md) <br/> |在主伺服器上安裝 Cloud Connector 裝置（包括 AD、中央管理存放區、轉送伺服器和 Edge Server 虛擬機器）。  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | 從線上承租人設定取得高可用性資訊，並將其發佈至主伺服器上的雲端連接器裝置。 <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | 在線上承租人設定中向 PSTN 網站註冊裝置資訊。 裝置必須先註冊，雲連接器管理服務才能部署及管理。 <br/> |
 |[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <br/> 版本1.4.2 和更新版本  <br/> |將 CA 資料夾中的憑證授權單位服務備份檔案「 \<SiteRootDirectory\> \CA\SFB CCE 根類」移除在雲端連接器的網站共用目錄下。  <br/> |
-|[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <br/> 版本1.4.2 和更新版本  <br/> |在執行 CcCACertificate 或更新 CcServerCertificate Cmdlet 後，在中央管理存放區、轉送伺服器和 Edge Server 上移除舊版伺服器憑證。  <br/> |
+|[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <br/> 版本1.4.2 和更新版本  <br/> |在執行 Renew-CcCACertificate 或更新 CcServerCertificate Cmdlet 後，在中央管理存放區、轉送伺服器和 Edge Server 上移除舊版伺服器憑證。  <br/> |
 |[Renew-CcCACertificate](renew-cccacertificate.md) <br/> 僅限版本1.4。2  <br/> |重新安裝憑證授權單位服務 AD Server，以建立新的根 CA 憑證。  <br/> |
 |[Renew-CcServerCertificate](renew-ccservercertificate.md) <br/> 僅限版本1.4。2  <br/> |當 Cloud Connector 的憑證接近到期或已到期時，會進行續訂。  <br/> |
 |[Reset-CcCACertificate](reset-cccacertificate.md) <br/> 版本1.4.2 和更新版本  <br/> |重設憑證授權單位伺服器以安裝新的憑證授權憑證。  <br/> |
@@ -70,5 +70,3 @@ ms.locfileid: "47359049"
 |[Unregister-CcAppliance](unregister-ccappliance.md) <br/> |在線上租使用者設定中從 PSTN 網站登出目前的雲端連接器裝置。  <br/> |
 |[Update-CcCACertificate](update-cccacertificate.md) <br/> 版本2.0 和更新版本  <br/> |重新安裝憑證授權單位服務 AD Server，以建立新的根 CA 憑證。  <br/> |
 |[Update-CcServerCertificate](update-ccservercertificate.md) <br/> 版本2.0 和更新版本  <br/> |當 Cloud Connector 的憑證接近到期或已到期時，會進行續訂。  <br/> |
-   
-

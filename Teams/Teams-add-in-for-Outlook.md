@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614929"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092601"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -121,7 +121,7 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 
 Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
-- Teams 會議增益集需要一個 Exchange 信箱，讓主要使用者排程會議。 請確定您在 Outlook 設定檔中至少設定了一個 Exchange 信箱，並使用該信箱透過增益集來排程 Teams 會議。 如需 Exchange 需求，請參閱 [Exchange 與 Teams 如何互動](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) (部分機器翻譯)。
+- Teams 會議增益集需要一個 Exchange 信箱，讓主要使用者排程會議。 請確定您在 Outlook 設定檔中至少設定了一個 Exchange 信箱，並使用該信箱透過增益集來排程 Teams 會議。 如需 Exchange 需求，請參閱 [Exchange 與 Teams 如何互動](./exchange-teams-interact.md) (部分機器翻譯)。
 - 此增益集適用於具有特定參與者的排程會議 (不適用於頻道中的會議)。 頻道會議必須從 Teams 內排程。
 - 如果 [驗證 Proxy] 位於使用者電腦與 Teams 服務的網路路徑，則增益集將無法運作。
 - 使用者無法從 Outlook 中安排即時活動。 請移至 Teams 以安排即時活動。 如需詳細資訊，請參閱[什麼是 Microsoft Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)。
@@ -142,7 +142,7 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 - Windows 7 使用者必須[在 Windows 上安裝通用 C 執行階段的更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 會議增益集才能正常運作。
 - 檢查使用者是否擁有可在 Teams 中排程會議的 Teams 升級原則。 如需詳細資訊，請參閱[從商務用 Skype 升級至 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) (部分機器翻譯)。
-- 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資訊，請參閱[在 Teams 中管理會議原則](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
+- 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資訊，請參閱[在 Teams 中管理會議原則](./meeting-policies-in-teams.md#allow-the-outlook-add-in)。
 - 確定使用者已安裝 Teams 桌面用戶端。 只使用 Teams 網頁用戶端時，不會安裝會議增益集。
 - 確定使用者已安裝 Outlook 2013 或更新版本。
 - 確定使用者擁有執行 regsvr32 的權限。
@@ -175,11 +175,11 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理人排程無法運作
 
-如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 您的系統管理員可以將下列字串新增至 EWS 允許清單：「*SchedulingService*」，作為因應措施。 
+如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 您的系統管理員可以將下列字串新增至 EWS 允許清單：「*SchedulingService*」，作為因應措施。 
 
 
 ## <a name="related-topics"></a>相關主題
 
-- [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)
 
 - [從 Outlook 排程 Teams 會議](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

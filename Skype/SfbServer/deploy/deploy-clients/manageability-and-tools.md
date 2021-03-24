@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 閱讀此主題以瞭解 Skype 會議室系統的管理工具。
-ms.openlocfilehash: f46d636bba0779cc42532cc2110ef94abdb6b982
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81adbb93c71abc201d9099d86e8414a524d85dff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805793"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093547"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 室系統可管理性及工具
  
@@ -50,7 +50,7 @@ ms.locfileid: "49805793"
   - 商務用 Skype Health Analysis 工具 (Excel)     
   - 商務用 Skype Connectivity Analyzer 32-位或64位
     
-- 檢查 [Office 365 的有用新疑難排解和分析工具](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/)。 確認您具有商務用 Skype 集區和 Office Web Apps server，而且可以使用商務用 Skype 用戶端來共用 PowerPoint 的卡片組。
+- 檢查 [Office 365 的有用新疑難排解和分析工具](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365)。 確認您具有商務用 Skype 集區和 Office Web Apps server，而且可以使用商務用 Skype 用戶端來共用 PowerPoint 的卡片組。
     
 - 如果會議室已有資源信箱，請為商務用 Skype 啟用該信箱。
     
@@ -135,5 +135,3 @@ Skype 會議室系統會在背景中執行商務用 Skype 桌面用戶端。 如
 附注： Office Web Apps 2013 server 可能與商務用 Skype 共用同一個 CA。 如果不能在會議中共用 PowerPoint。 如以上所述，請與其一起檢查，並從 CA 網路共用 CertEnroll 取得 CRT 和 CRL 檔案。 
   
 網域成員資格可以簡化某些事項，因為您可以將 Skype 會議室系統視為 Windows 系統，而且可以針對某些憑證內容使用 Active Directory。 不過，最好是手動管理這種方式。
-  
-

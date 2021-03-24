@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 閱讀此主題以瞭解如何在商務用 Skype Server Enterprise Voice 中，設定增強型緊急服務 (E9-1-1) 位置原則。
-ms.openlocfilehash: 4230d6ac1a820cb9612d58b21a2e5b6ae36d8f77
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cee02204a9c5b3708a83e9433f6a88c70230fd64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822543"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093141"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立位置原則
 
@@ -29,7 +29,7 @@ ms.locfileid: "49822543"
 
 商務用 skype 伺服器會在用戶端註冊期間，使用位置原則，為 E9-1-1 啟用商務用 Skype 用戶端。 位置原則包含定義 E9-1-1 將如何執行的設定。 如需詳細資訊，請參閱 [規劃商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
 
-您可以使用商務用 Skype 控制台或使用 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來定義位置原則。
+您可以使用商務用 Skype 控制台或使用 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來定義位置原則。
 
 > [!NOTE]
 > 商務用 Skype 伺服器現在支援為用戶端設定多個緊急號碼。 如果您想要設定多個緊急號碼，必須遵循在商務用 skype [Server 中規劃多個緊急](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) 號碼的資訊，並 [在商務用 skype 中設定多個緊急號碼](configure-multiple-emergency-numbers.md)。 
@@ -38,7 +38,7 @@ ms.locfileid: "49822543"
 
 若要建立位置原則，您必須使用 RTCUniversalServerAdmins 群組成員的帳戶，或是 CsVoiceAdministrator 系統管理角色的成員，或具有相等的系統管理員許可權。
 
-如需詳細資訊，請參閱 [規劃商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 此程式中的 Cmdlet 使用使用下列值定義的位置原則。 如需 Cmdlet 參數和值的完整說明，請參閱 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
+如需詳細資訊，請參閱 [規劃商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 此程式中的 Cmdlet 使用使用下列值定義的位置原則。 如需 Cmdlet 參數和值的完整說明，請參閱 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
 
 
 | **元素**                               | **值**                                                                                                                                                                          |

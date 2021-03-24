@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: 若要編輯或指定 Edge Server 的外部設定，您必須先決定是否要針對會話初始通訊協定使用個別的 IP 位址 (SIP) 存取、Web 會議 Edge service 及 Audio/Video Edge service。
-ms.openlocfilehash: 7bca4f934e321edbf3c32d9d075b4a1cccd2bbf6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d2589ccd8bcd3d7f7bfccd39e3adf726f8839ad8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807083"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095558"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Edge Server FQDN 設定展開工具
 
@@ -38,6 +38,4 @@ ms.locfileid: "49807083"
 > [!IMPORTANT]
 > 如果您變更其中任何設定，包括使用個別 FQDN 和 IP 位址或埠，您必須更新其他所有依賴初始設定值的服務。
 
-如需定義及設定 Edge service 設定的詳細資訊，請參閱 [定義您的 Edge 拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
-
-
+如需定義及設定 Edge service 設定的詳細資訊，請參閱 [定義您的 Edge 拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。

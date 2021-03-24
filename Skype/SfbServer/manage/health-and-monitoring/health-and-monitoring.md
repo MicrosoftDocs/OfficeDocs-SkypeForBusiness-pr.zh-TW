@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 摘要：瞭解商務用 Skype Server 中的監控和健康情況設定工作。
-ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 613df0616214e4fbe2a9504e930fcf76c4cfa8c4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823513"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095197"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>在商務用 Skype Server 中管理健康情況與監控
 
@@ -39,7 +39,6 @@ ms.locfileid: "49823513"
 
 
 
-[規劃監控](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[規劃監控](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[部署監控功能](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-
+[部署監控功能](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

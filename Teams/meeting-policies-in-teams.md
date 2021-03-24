@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理會議策略設定。 使用策略設定來控制提供給會議參與者的功能，供使用者排程的會議使用。
-ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
-ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
+ms.openlocfilehash: e7f6ce21f918143270c7769df74c32b167244339
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929549"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092291"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的會議原則
 
@@ -319,7 +319,7 @@ Daniela 主持的會議允許開啟視像。 Daniela 可以加入會議並開啟
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於 Teams 行動用戶端上的使用者，會議期間共用相片和影片的能力取決於允許 IP **視** 像或 **IP 視像模式設定** 。 視哪一個策略設定為優先，無法共用影片和相片。 這不會影響螢幕共用，因為螢幕共用是使用個別的螢幕 [共用模式設定來](#screen-sharing-mode) 設定。 此外，您可以設定 [Teams 行動](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) 能力政策，以防止行動使用者以行動網路連接使用 IP 視像，這表示他們必須使用 WiFi 連接。
+對於 Teams 行動用戶端上的使用者，會議期間共用相片和影片的能力取決於允許 IP **視** 像或 **IP 視像模式設定** 。 視哪一個策略設定為優先，無法共用影片和相片。 這不會影響螢幕共用，因為螢幕共用是使用個別的螢幕 [共用模式設定來](#screen-sharing-mode) 設定。 此外，您可以設定 [Teams 行動](/powershell/module/skype/new-csteamsmobilitypolicy) 能力政策，以防止行動使用者以行動網路連接使用 IP 視像，這表示他們必須使用 WiFi 連接。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (Kbs) 
 
@@ -455,7 +455,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 - [允許在會議中聊天](#allow-chat-in-meetings)
 
 > [!NOTE]
->加入會議的選項會因每個 Teams 群組的設定和連接方法而異。 如果您的群組有音訊會議，並使用音訊會議進行連接，請參閱 [音訊會議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)。 如果您的 Teams 群組沒有音訊會議，請參閱在 Teams [中加入會議](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
+>加入會議的選項會因每個 Teams 群組的設定和連接方法而異。 如果您的群組有音訊會議，並使用音訊會議進行連接，請參閱 [音訊會議](./audio-conferencing-in-office-365.md)。 如果您的 Teams 群組沒有音訊會議，請參閱在 Teams [中加入會議](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
@@ -514,7 +514,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 " **誰可以出席？」** 設定可讓會議召集人選擇誰可以在會議中做簡報者。 若要深入瞭解，請參閱 [變更 Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 會議的參與者設定和 [Teams 會議中的角色](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
 
-您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，並將其指派給使用者。
+您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，並將其指派給使用者。
 
 若要在 Teams 中指定誰可以展示 **？** 設定預設值，請設定 **SpecifyedPresenterRoleMode** 參數至下列其中一項：
 
@@ -532,7 +532,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 這是每個使用者的策略。 此設定可控制會議召集人是否可以下載 [會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-目前，您只能使用 PowerShell 來設定此策略設定。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，並將其指派給使用者。
+目前，您只能使用 PowerShell 來設定此策略設定。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，並將其指派給使用者。
 
 若要讓會議召集人下載會議出席報告，請設定 **AllowEngagementReport 參數** 為 **啟用**。 啟用時，下載報表的選項會顯示在參與者 **窗格中** 。
 
@@ -544,7 +544,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 您只能將此原則套用到處於離島模式的使用者，並在其 Teams 會議原則中將 **AllowOutlookAddIn** 參數設定為 **True**。
 
-目前，您只能使用 PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，並將其指派給使用者。
+目前，您只能使用 PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，並將其指派給使用者。
 
 若要指定使用者想要使用的會議附加元件，請設定 **PreferredMeetingProviderForIslandsMode** 參數，如下所示：
 
@@ -557,7 +557,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 這是每個使用者的策略。 此設定可控制使用者是否可以自訂會議中的視音訊背景。
 
-目前，您只能使用 PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，然後將該策略指派給使用者。
+目前，您只能使用 PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的 Teams 會議政策。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的 Teams 會議策略，然後將該策略指派給使用者。
 
 若要指定使用者是否可以自訂會議中的視訊背景，請設定 **VideoFiltersMode** 參數，如下所示：
 

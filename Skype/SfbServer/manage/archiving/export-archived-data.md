@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: 摘要：瞭解如何匯出商務用 Skype 伺服器的封存資料。
-ms.openlocfilehash: caff65e829b24dc83760c7a505e344905c9e09e1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e69c283304395d697e99ef0607e2aec1eb7960e4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817563"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095377"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>在商務用 Skype Server 中匯出封存的資料
 
@@ -43,6 +43,4 @@ Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -St
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-如需詳細資訊，請參閱 [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) Cmdlet 的 [說明] 主題。
-  
-
+如需詳細資訊，請參閱 [Export-CsArchivingData](/powershell/module/skype/export-csarchivingdata?view=skype-ps) Cmdlet 的 [說明] 主題。

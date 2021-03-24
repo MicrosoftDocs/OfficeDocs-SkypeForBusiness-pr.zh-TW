@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：在實施商務用 Skype Server 之前，請先複查埠使用方式考慮。
-ms.openlocfilehash: 227fcbccf815886c5afa55c843ba59688f471a29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 70caf72231797c4e245ac3117ec7fcc9241185f0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834303"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094947"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>伺服器的埠與通訊協定需求
  
@@ -34,7 +34,7 @@ ms.locfileid: "49834303"
   
 您也可以在 [圖表] 表單中，透過查看 [商務用 Skype Server 2015 文章的技術圖表](../../technical-diagrams.md) 所連結的通訊協定工作負載海報，以找出這些表格中的資訊。
 > [!NOTE]
-> - 如果您要實現商務用 Skype Online (Microsoft 365 或 Office 365) 請參閱 [Microsoft 365 和 office 365 URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合式環境必須參考本主題，也會 [規劃混合](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)式連線。
+> - 如果您要實現商務用 Skype Online (Microsoft 365 或 Office 365) 請參閱 [Microsoft 365 和 office 365 URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合式環境必須參考本主題，也會 [規劃混合](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)式連線。
 > - 您可以有硬體或軟體防火牆，不需要特定的模型或版本。 重要的是哪些埠是白名單，所以防火牆不會影響商務用 Skype Server 的運作。
   
 ## <a name="port-and-protocol-details"></a>埠與通訊協定詳細資料
@@ -50,7 +50,7 @@ ms.locfileid: "49834303"
   
 **伺服器角色所 (的必要伺服器埠)**
 
-|伺服器角色|服務名稱|連接埠|Protocol (通訊協定)|注意事項|
+|伺服器角色|服務名稱|連接埠|Protocol (通訊協定)|附註|
 |:-----|:-----|:-----|:-----|:-----|
 |所有伺服器  |SQL 瀏覽器  |1434  |Udp  |SQL Browser 的中央管理存放區資料庫本地複寫複本。  |
 |前端伺服器  |商務用 Skype Server Front-End 服務  |5060  |TCP  |可選擇性地由 Standard Edition server 和前端伺服器用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
@@ -151,7 +151,7 @@ ms.locfileid: "49834303"
 
 **必要的用戶端埠**
 
-|元件|連接埠|Protocol (通訊協定)|注意事項|
+|元件|連接埠|Protocol (通訊協定)|附註|
 |:-----|:-----|:-----|:-----|
 |用戶端  |67/68  |Dhcp  |由商務用 Skype Server 用來尋找註冊機 FQDN (也就是說，如果 DNS SRV 失敗，且未設定) 手動設定。  |
 |用戶端  |443  |TCP (TLS)   |用於外部使用者存取的用戶端對伺服器 SIP 流量。  |

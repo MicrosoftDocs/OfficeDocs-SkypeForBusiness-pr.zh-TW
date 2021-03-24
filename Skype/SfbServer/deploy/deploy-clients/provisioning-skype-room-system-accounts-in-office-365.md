@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 室系統帳戶。
-ms.openlocfilehash: 8e44e648e12ec4db1e8acf9617c02937f9418c41
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 94390effb246a37745d797289c1146ed3d347604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569375"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093517"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中布建 Skype 室系統帳戶
  
@@ -29,7 +29,7 @@ ms.locfileid: "50569375"
 
 您的線上租使用者必須符合下列需求：
   
-- Microsoft 365 或 Office 365 計畫必須包含商務用 Skype Online 方案2或 Office 365 E1，E3 或 E5。 <br/>如需商務用 Skype Online 方案的詳細資訊，請參閱 [商務用 Skype Online 服務說明](https://technet.microsoft.com/library/jj822172.aspx)。
+- Microsoft 365 或 Office 365 計畫必須包含商務用 Skype Online 方案2或 Office 365 E1，E3 或 E5。 <br/>如需商務用 Skype Online 方案的詳細資訊，請參閱 [商務用 Skype Online 服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
     
 - 您的租使用者必須已啟用商務用 Skype 的會議功能。
     
@@ -69,7 +69,7 @@ ms.locfileid: "50569375"
     
 ## <a name="exchange-online-provisioning"></a>Exchange Online 布建
 
-首先，依照主題的 [連線 [至 Exchange online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554)] 主題中的指示，連線至 exchange online PowerShell。
+首先，依照主題的 [連線 [至 Exchange online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)] 主題中的指示，連線至 exchange online PowerShell。
   
 若要為 Skype 室系統設定現有的資源會議室信箱帳戶，請在 Exchange Online 中執行下列命令 PowerShell:
   
@@ -101,7 +101,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 以先前所顯示的方式建立及啟用資源會議室信箱帳戶後，且已授權商務用 Skype Online 帳戶，該帳戶會使用 Windows Azure Active Directory 樹系，從 Exchange Online 樹系同步處理至商務用 Skype Online 樹系。 在商務用 Skype Online 集區中布建 Skype 室系統帳戶時，需要進行下列步驟。 針對現有資源信箱帳戶或新建立的帳戶 (confrm1 或 confrm2) ，這些步驟都相同，因為在 Exchange Online 中啟用這些帳戶後，這兩個帳戶會以相同方式同步處理至商務用 Skype Online：
   
-1. 建立遠端 PowerShell 會話。 請注意，您將需要下載 [小組 PowerShell 模組](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
+1. 建立遠端 PowerShell 會話。 請注意，您將需要下載 [小組 PowerShell 模組](/microsoftteams/teams-powershell-install)。
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,9 +143,8 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-如需詳細資訊，請參閱 [設定您的電腦以進行 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如需詳細資訊，請參閱 [設定您的電腦以進行 Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 ## <a name="validate"></a>驗證
 
 針對驗證，您應該能夠使用任何商務用 Skype 用戶端登入您建立的帳戶。
-

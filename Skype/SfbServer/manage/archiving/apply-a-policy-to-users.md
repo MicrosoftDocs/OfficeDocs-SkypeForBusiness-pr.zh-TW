@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 摘要：瞭解如何將封存原則指派給商務用 Skype Server 中的使用者。
-ms.openlocfilehash: 8dc74fcc8befe39b424b89c77aebca683fe17586
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817763"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095487"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>將封存原則套用至商務用 Skype Server 中的使用者
 
@@ -57,7 +57,7 @@ ms.locfileid: "49817763"
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-這個命令會將個別使用者的封存原則 RedmondArchivingPolicy 指派給所有具有位於註冊機構集區 atl-cs-001.contoso.com 之帳戶的使用者。 如需此命令中使用之 Filter 參數的詳細資訊，請參閱 [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) Cmdlet 檔。
+這個命令會將個別使用者的封存原則 RedmondArchivingPolicy 指派給所有具有位於註冊機構集區 atl-cs-001.contoso.com 之帳戶的使用者。 如需此命令中使用之 Filter 參數的詳細資訊，請參閱 [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps) Cmdlet 檔。
   
 ```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
@@ -69,6 +69,4 @@ Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchiv
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-如需詳細資訊，請參閱 [Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) Cmdlet 檔。
-  
-
+如需詳細資訊，請參閱 [Grant-CsArchivingPolicy](/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) Cmdlet 檔。

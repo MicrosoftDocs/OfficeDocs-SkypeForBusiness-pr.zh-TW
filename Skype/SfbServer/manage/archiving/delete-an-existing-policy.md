@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 摘要：瞭解如何刪除商務用 Skype 伺服器的封存原則。
-ms.openlocfilehash: 7d71fd9ca03f743cd51e0161cd1a3b437be43cb2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817613"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095387"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除現有的封存原則
 
@@ -59,4 +59,4 @@ Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-如需詳細資訊，請參閱 [grant-csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [grant-csarchivingpolicy](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。

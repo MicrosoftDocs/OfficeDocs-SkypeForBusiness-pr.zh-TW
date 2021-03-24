@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 摘要：在實施商務用 Skype Server 之前，請先檢查負載平衡考慮。
-ms.openlocfilehash: 5790ef1ba0d32774ced45be5af257f70fc4cf594
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7a3851b73443db6be12ef2fd1a875b034eafff74
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834373"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095007"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>商務用 Skype 的負載平衡需求
  
@@ -62,7 +62,7 @@ ms.locfileid: "49834373"
 > [!NOTE]
 > 商務用 Skype Server 不支援 direct server 傳回 (DSR) NAT。 
   
-若要判斷您的硬體負載平衡器是否支援商務用 Skype Server 所需的功能，請參閱 [商務用 skype 的基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。 
+若要判斷您的硬體負載平衡器是否支援商務用 Skype Server 所需的功能，請參閱 [商務用 skype 的基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)。 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>執行 A/V Edge Service 之 Edge Server 的硬體負載平衡器需求
 
@@ -112,7 +112,7 @@ ms.locfileid: "49834373"
 > 如果您要部署行動裝置，您的硬體負載平衡器必須能夠在 TCP 連線中個別地對每個要求進行負載平衡。 最新版的 Apple iOS 行動應用程式需要傳輸層安全性 (TLS) 版本 1.2。  
   
 > [!CAUTION]
-> 如需協力廠商硬體負載平衡器的詳細資訊，請參閱適用于 [商務用 Skype 的基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。  
+> 如需協力廠商硬體負載平衡器的詳細資訊，請參閱適用于 [商務用 Skype 的基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)。  
   
 下面是 Director 與前端集區 Web 服務的硬體負載平衡器需求：
   
@@ -161,7 +161,7 @@ ms.locfileid: "49834373"
 
 ![DNS 網狀圖表範例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-相較於將硬體負載平衡器用於全部的流量類型，如果使用 DNS 負載平衡也能讓您購買成本較低的硬體負載平衡器。 您應該使用已透過商務用 Skype 伺服器進行互通性資格測試的負載平衡器。 如需負載平衡器互通性測試的詳細資訊，請參閱 [Lync Server 2010 負載平衡器合作夥伴](https://go.microsoft.com/fwlink/p/?linkId=202452)。 適用于商務用 Skype Server 的內容。
+相較於將硬體負載平衡器用於全部的流量類型，如果使用 DNS 負載平衡也能讓您購買成本較低的硬體負載平衡器。 您應該使用已透過商務用 Skype 伺服器進行互通性資格測試的負載平衡器。 如需負載平衡器互通性測試的詳細資訊，請參閱 [Lync Server 2010 負載平衡器合作夥伴](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 適用于商務用 Skype Server 的內容。
   
 DNS 負載平衡支援前端集區、Edge Server 集區、Director 集區和獨立中繼伺服器集區。
   
@@ -290,5 +290,3 @@ DNS 負載平衡及同盟流量：
 如果您使用 DNS 負載平衡，而且需要封鎖特定電腦的流量，只是移除集區 FQDN 的 IP 位址專案是不夠的。 您也必須移除電腦的 DNS 專案。 
   
 請注意，針對伺服器對伺服器的流量，商務用 Skype 伺服器使用拓撲感知負載平衡。 伺服器讀取中央管理存放區中已發佈的拓撲，以取得拓撲中的伺服器 Fqdn，並在伺服器間自動散佈流量。 若要封鎖伺服器接收伺服器對伺服器的流量，您必須從拓撲中移除伺服器。 
-  
-

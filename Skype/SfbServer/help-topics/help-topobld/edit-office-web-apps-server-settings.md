@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 您編輯已設定之 Office Web Apps Server 的屬性。 您可以編輯下列內容：
-ms.openlocfilehash: 11e70f61c2eee33ab19ec0fa0b2f9fb3310a4542
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e9f4a188c5cb58be685db4ea44157f2897ebe5ba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810303"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095537"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>編輯 Office Web Apps Server 設定
 
@@ -36,4 +36,4 @@ ms.locfileid: "49810303"
 
 ## <a name="see-also"></a>另請參閱
 
-[會議的元件和拓撲](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[會議的元件和拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

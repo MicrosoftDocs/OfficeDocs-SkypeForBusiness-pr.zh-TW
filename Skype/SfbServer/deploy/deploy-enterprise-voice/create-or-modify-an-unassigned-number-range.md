@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 在商務用 Skype Server Enterprise Voice 中建立、修改或刪除未指派的號碼範圍給宣告應用程式。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: 19a30aa4063f8ec0f4e890c4e244309347ed99c6
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 72c9ec5b6b1e3d4577507ede0a5ed61560928f03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711630"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093051"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改未指派號碼範圍
  
@@ -167,12 +167,12 @@ ms.locfileid: "50711630"
    ```
 
     > [!NOTE]
-    > 如需更多選項的詳細資訊，請參閱 [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)。 
+    > 如需更多選項的詳細資訊，請參閱 [Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)。 
   
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
-[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
+[Set-CsUnassignedNumber](/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
-[CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
+[CsUnassignedNumber](/powershell/module/skype/get-csunassignednumber?view=skype-ps)

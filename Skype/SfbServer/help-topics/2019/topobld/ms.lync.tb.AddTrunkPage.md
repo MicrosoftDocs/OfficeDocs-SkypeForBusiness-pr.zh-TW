@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以透過提供下列資訊來定義新的會話初始通訊協定 (SIP) 主幹：
-ms.openlocfilehash: db98c6d6f6aacf31b4e0b228dbe499f40ea01bdf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 540076814d2916f74a5e11be42f99b57711da2b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093271"
 ---
 # <a name="define-a-new-trunk"></a>定義新主幹
 
@@ -42,4 +42,4 @@ ms.locfileid: "49800893"
 
 [在商務用 Skype Server 中 M:N 主幹](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[如何執行 SIP 主幹？](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[如何執行 SIP 主幹？](/previous-versions/office/lync-server-2013/lync-server-2013-how-do-i-implement-sip-trunking)

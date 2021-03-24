@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944608"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092251"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
@@ -70,7 +70,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 [清單] 資料會儲存在 SharePoint Online 小組網站中。 如需 SharePoint Online 與 Teams 如何互動的詳細資訊，請參閱 [Sharepoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
 
-在 SharePoint 中設定的權限會套用至 [清單] 應用程式中建立的清單。 根據預設，清單會繼承其所屬網站的權限。 這些權限會掌控使用者可以執行的動作類型，例如是否可建立或編輯清單。 若要深入瞭解，請參閱 [SharePoint 的權限等級](https://docs.microsoft.com/sharepoint/understanding-permission-levels)以及 [SharePoint Server 中的使用者權限和權限等級](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)。
+在 SharePoint 中設定的權限會套用至 [清單] 應用程式中建立的清單。 根據預設，清單會繼承其所屬網站的權限。 這些權限會掌控使用者可以執行的動作類型，例如是否可建立或編輯清單。 若要深入瞭解，請參閱 [SharePoint 的權限等級](/sharepoint/understanding-permission-levels)以及 [SharePoint Server 中的使用者權限和權限等級](/sharepoint/sites/user-permissions-and-permission-levels)。
 
 在某些情況下，您可能會想限制使用者可在清單中執行的動作。 例如，小組中的某人編輯清單視圖，使得所有小組成員的視圖都跟著改變，而您只想讓小組擁有者或特定小組成員可以編輯清單視圖。 若要深入瞭解，請參閱[自訂 SharePoint 清單或文件庫的權限](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
 
@@ -105,15 +105,15 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 ## <a name="search-the-audit-log-for-list-events"></a>搜尋清單活動的稽核記錄檔
 
-您可以使用企業層級稽核啟用清單，以便在安全性與合規性中心的稽核記錄檔中搜尋清單和清單項目事件。 若要深入了解，請參閱[搜尋安全性與合規性中心的稽核記錄檔](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+您可以使用企業層級稽核啟用清單，以便在安全性與合規性中心的稽核記錄檔中搜尋清單和清單項目事件。 若要深入了解，請參閱[搜尋安全性與合規性中心的稽核記錄檔](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
-如需和 Teams 中 [清單] 應用程式相關的稽核活動清單，請參閱 [SharePoint 清單活動](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
+如需和 Teams 中 [清單] 應用程式相關的稽核活動清單，請參閱 [SharePoint 清單活動](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
 
 在您可以搜尋稽核記錄檔之前，您必須先在[安全性與合規性中心](https://protection.office.com)中開啟稽核。 請記住，只有當您開啟稽核時，才能使用稽核資料。
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate、Power Apps 和圖形 API
 
-[清單] 支援工作流程的 [Power Automate](https://docs.microsoft.com/power-automate/flow-types)以及清單表單 [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) 。 開發人員可利用[清單 API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) ，透過 Microsoft Graph 將清單資料連線為來源。
+[清單] 支援工作流程的 [Power Automate](/power-automate/flow-types)以及清單表單 [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) 。 開發人員可利用[清單 API](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) ，透過 Microsoft Graph 將清單資料連線為來源。
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供意見反應或回報問題
   

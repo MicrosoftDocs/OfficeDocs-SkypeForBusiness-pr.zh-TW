@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: 商務用 Skype Server 計畫工具
-ms.openlocfilehash: f317b2963e6db83e733a3f0b259a6d0bfe466c9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4084d263a693a064e06a814d2fab4542ca3142c0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819823"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093321"
 ---
 # <a name="feature-overview-planning-tool"></a> (規劃工具的功能綜述) 
  
@@ -66,7 +66,7 @@ ms.locfileid: "49819823"
     Persistent Chat 可讓多位使用者參與交談，以在其中張貼和存取特定主題的內容，包括文字、連結及檔案。 雖然使用者可以在會話中即時進行通訊，但每個會話的內容都是持續性的，這表示當會話結束後，它仍可繼續使用。
 
     > [!NOTE] 
-    > 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [商務用 Skype To Microsoft 小組升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
+    > 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [商務用 Skype To Microsoft 小組升級](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
     
 ### <a name="users"></a>使用者
 
@@ -178,5 +178,3 @@ ms.locfileid: "49819823"
     > CAC 只會控制即時流量，而且不會影響資料流量。 
   
     如果新的語音或影片會話超過您在 WAN 上所指派的頻寬限制，則會話會封鎖或 (僅限通話) 重新路由至 PSTN。
-    
-
