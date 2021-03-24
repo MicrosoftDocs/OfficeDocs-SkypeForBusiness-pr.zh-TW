@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。
-ms.openlocfilehash: c473c3fc19138ac91b44dff8552555418d36533f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 03b2ea63df8135edfdb3d63d9010aaace9266fd1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102989"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看主幹設定資訊
 
@@ -74,7 +74,4 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-如需詳細資訊，請參閱 [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。
-
-
-
+如需詳細資訊，請參閱 [Get-CsTrunkConfiguration](/powershell/module/skype/Get-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。

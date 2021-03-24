@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台建立或修改撥號對應表。
-ms.openlocfilehash: 858ddf652d4c9308c5ec4088fb0d01d284318703
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 718d0733aa5fabc072991708d09983ce8cb4267d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831023"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104899"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改撥號對應表
 
@@ -148,7 +148,7 @@ ms.locfileid: "49831023"
 11.  (選用) 請輸入號碼以測試撥號對應表，然後按一下 [ **移至**]。 測試結果會顯示在 [ **輸入要測試的號碼**] 底下。
 
     > [!NOTE]
-    > 您可以儲存尚未通過測試的撥號對應表，然後再加以重新設定。 如需詳細資訊，請參閱 [測試語音路由](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)。
+    > 您可以儲存尚未通過測試的撥號對應表，然後再加以重新設定。 如需詳細資訊，請參閱 [測試語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。
 
 12. 按一下 **[確定]**。
 
@@ -160,4 +160,3 @@ ms.locfileid: "49831023"
 ## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype 中將擱置的變更發佈至語音路由設定](voice-route-config-changes.md)
-

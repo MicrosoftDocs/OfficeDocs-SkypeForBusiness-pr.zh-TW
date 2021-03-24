@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: 您可以在此頁面上設定屬性，將 Edge Server 指向 Access Edge service、Web 會議 Edge service 和 A/V Edge service 的外部位置。
-ms.openlocfilehash: 92292c626f35e0bdaa4e4c88c9559506ded87bd0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b93330d1e3e93d516264748fedba1ad1b6bde4da
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815293"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103399"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>新增 Edge Server 外部 IP 2010
 
@@ -34,6 +34,4 @@ ms.locfileid: "49815293"
 
 - 按一下 [說明] 閱讀此說明主題。
 
-如需將 Edge Server 新增至現有拓撲的詳細資訊，請參閱 [定義您的 Edge 拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。 如需有關遷移 Edge server 的詳細資訊，請參閱 [階段5：將 Lync server 2013 Preview Edge Server 新增至試驗集](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx)區。
-
-
+如需將 Edge Server 新增至現有拓撲的詳細資訊，請參閱 [定義您的 Edge 拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。 如需有關遷移 Edge server 的詳細資訊，請參閱 [階段5：將 Lync server 2013 Preview Edge Server 新增至試驗集](/previous-versions/office/lync-server-2013/phase-5-add-lync-server-2013-edge-server-to-pilot-pool)區。

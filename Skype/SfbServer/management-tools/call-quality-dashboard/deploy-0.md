@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要：瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: 797288428530a055987d8b0a8e1ebf6a9e8b9dcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1f59209575284035fcdca52e4f18220aa05337af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832713"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114109"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>為商務用 Skype Server 部署通話品質儀表板
  
@@ -88,7 +88,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
    - **SQL 代理程式工作使用者-使用者名稱 &amp; 密碼：** 網域服務帳戶名稱和密碼 (已遮罩) ，用來執行 SQL Server 代理程式工作的「QoE 封存資料」步驟 (它會執行預存程式，以從 QoE 度量 db 中取得資料，以取得封存資料庫中的資料，所以此帳戶必須具有 QoE 度量 db 的「讀取」存取權，如 [帳戶] 區段中所示。 此帳戶在 QoE 封存 SQL Server 實例) 中也需要登入。
     
      > [!NOTE]
-     > 執行 SQL Server 實例的帳戶（如 NT SERVICE\MSSQLSERVER）必須具有上述所述目錄的存取權/許可權，安裝才會成功。 如需詳細資訊，請參閱 [設定資料庫引擎存取的檔案系統許可權](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
+     > 執行 SQL Server 實例的帳戶（如 NT SERVICE\MSSQLSERVER）必須具有上述所述目錄的存取權/許可權，安裝才會成功。 如需詳細資訊，請參閱 [設定資料庫引擎存取的檔案系統許可權](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
   
 7. 按 [下一步] 時，安裝程式會執行先決條件檢查，並在遇到任何問題時報告。 當所有必要條件檢查都通過時，安裝程式會移至 [Cube 設定] 頁面。 
     
@@ -104,7 +104,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
    - **Cube 分析伺服器：** 要在其中建立 cube 的 SQL Server Analysis Service 實例名稱。 這可以是不同的機器，但是安裝使用者必須是目標 SQL Server Analysis Service 實例之伺服器管理員的成員。
     
      > [!NOTE]
-     >  如需設定 Analysis Services 伺服器管理員許可權的詳細資訊，請參閱 [授與伺服器管理員許可權 (Analysis Services) ](https://msdn.microsoft.com/library/ms174561.aspx)
+     >  如需設定 Analysis Services 伺服器管理員許可權的詳細資訊，請參閱 [授與伺服器管理員許可權 (Analysis Services) ](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
   
    - **使用多個磁碟分割：** 預設值是設定為 "多個分割區"，這需要 SQL Server 的商務智慧 edition 或 Enterprise edition。 在 [Standard edition] 中，選取 [單一分割區] 選項。 請注意，如果使用單一分割區，cube 處理效能可能會受到影響。
     
@@ -233,7 +233,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
   
 在 IIS 中啟用 SSL/TLS，並強制使用者透過安全 HTTPS 進行連線，而不是 HTTP:
   
-1. 在 IIS 中設定安全通訊端層，請參閱 [在 iis 7 中設定安全通訊端層](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx)。 完成後，請  `http` 取代 `https` 。
+1. 在 IIS 中設定安全通訊端層，請參閱 [在 iis 7 中設定安全通訊端層](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10))。 完成後，請  `http` 取代 `https` 。
     
 2. 如需在 SQL Server 連線中啟用 TLS 的相關指示，請參閱 how [to 使用 Microsoft Management Console 為 SQL server 實例啟用 SSL 加密](https://support.microsoft.com/kb/316898/)。
     
@@ -388,7 +388,7 @@ BuildingKey、BuildingName、BuildingShortName、OwnershipTypeId、BuildingTypeI
 > [!NOTE]
 > 這是選用的步驟，但建議使用。
   
-匯入子網並將其對應至上一個步驟中匯入的大樓。 如果決定不填入 NetworkName，請確定此表格中的每個專案都使用0的 NetworkNameID。 如需有關通話品質儀表板之 SQL 語法和參數的詳細資訊，請參閱 [使用商務用 Skype Server 的通話品質儀表板](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use)。
+匯入子網並將其對應至上一個步驟中匯入的大樓。 如果決定不填入 NetworkName，請確定此表格中的每個專案都使用0的 NetworkNameID。 如需有關通話品質儀表板之 SQL 語法和參數的詳細資訊，請參閱 [使用商務用 Skype Server 的通話品質儀表板](./use.md)。
   
  **範例 SQL 語法**
   
@@ -444,5 +444,3 @@ VALUES
 將您的第一筆記錄的日期， (識別使用 [選取 MIN (StartTime) 從 CqdPartitionedStreamView SQL 命令 ) ，在明天 EndDate，最後兩個值則為 Null。
   
 資料與資料流程資料關聯之後，SSIS Cube 便需要重新處理所有記錄。 大量新增 BSSID/ISP 資料時，也會套用這種情況。 確定已選取「處理完整」。
-  
-

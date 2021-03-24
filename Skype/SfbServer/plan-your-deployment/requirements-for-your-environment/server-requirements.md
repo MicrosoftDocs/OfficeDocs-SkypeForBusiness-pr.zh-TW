@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：使用本主題準備商務用 Skype Server 2015 伺服器。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以協助確保成功安裝及部署您的伺服器陣列。
-ms.openlocfilehash: b1e7e37e46d0f3f547ed843ce2510d8445a34267
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d1a80fd991b8fe078f2a53d73e7f37eb66903220
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832073"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104039"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的伺服器需求
  
@@ -51,7 +51,7 @@ ms.locfileid: "49832073"
 |:-----|:-----|
 |CPU  <br/> |64位雙處理器、六角-核心、2.26 ghz (GHz) 或更高版本。  <br/> 商務用 Skype Server 2015 角色不支援 Intel Itanium 處理器。  <br/> |
 |記憶體  <br/> |32 gb (GB) 。  <br/> |
-|磁片  <br/> |可  <br/> •8個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁片磁碟機， (兩個磁片使用 raid 1 和6，使用 RAID 10) 。  <br/> OR  <br/> •固態磁片磁碟機 (Ssd) 能夠為 8 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。  <br/> |
+|磁片  <br/> |可  <br/> •8個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁片磁碟機， (兩個磁片使用 raid 1 和6，使用 RAID 10) 。  <br/> 「或」  <br/> •固態磁片磁碟機 (Ssd) 能夠為 8 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。  <br/> |
 |網路  <br/> |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 前端伺服器、後端伺服器、Standard Edition server 和 Persistent Chat Server **不** 支援雙重或多穴設定。 <br/> 只要未對作業系統公開，而且正用來監視和管理伺服器硬體，您就可以使用無頻帶管理系統，例如 DRAC 或 ILO。 此案例不會組成多穴伺服器，而且支援此案例。  <br/> |
    
 Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的建議硬體：
@@ -60,7 +60,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 |:-----|:-----|
 |CPU  <br/> |64位雙處理器、四核心、2.26 ghz (GHz) 或更高版本。  <br/> 商務用 Skype Server 2015 角色不支援 Intel Itanium 處理器。  <br/> |
 |記憶體  <br/> |16 gb。  <br/> |
-|磁片  <br/> |可  <br/> •4個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間 (磁片應該位於2倍的 RAID 1 設定) 中。  <br/> OR  <br/> •固態磁片磁碟機 (Ssd) 能夠為 4 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。  <br/> |
+|磁片  <br/> |可  <br/> •4個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間 (磁片應該位於2倍的 RAID 1 設定) 中。  <br/> 「或」  <br/> •固態磁片磁碟機 (Ssd) 能夠為 4 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。  <br/> |
 |網路  <br/> |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 視頻 Interop 伺服器及 Director **不** 支援雙重或多穴設定。 <br/> Edge server 需要兩個網路介面為雙埠網路介面卡、1 Gbps 或更高的 (或兩個配對的網路介面卡（總共四個），每一組都是以單一 MAC 位址和單一 IP 位址組成，每個組的總數都是兩對) 。  <br/> 在獨立轉送伺服器上，安裝額外的網路介面卡 (Nic) 以允許設定特定 PSTN IP 位址的支援。  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的作業系統
@@ -127,7 +127,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 > [!NOTE]
 > 若要支援非位於 Exchange 伺服器的使用者，或是不想要使用 Microsoft Exchange 整合選項，您必須使用64位的 SQL Server 資料庫部署封存儲存區。 
     
-在部署及啟用封存之前，您必須先設定 SQL Server 平臺。 若要用來發行拓撲的帳戶具有適當的系統管理員許可權，您可以在發行拓撲時，建立封存資料庫 (LcsLog) 。 您也可以稍後再建立資料庫（包括安裝程式的一部分）。 如需 SQL Server 的詳細資訊，請參閱 [SQL server 檔](https://go.microsoft.com/fwlink/p/?linkID=129045)。
+在部署及啟用封存之前，您必須先設定 SQL Server 平臺。 若要用來發行拓撲的帳戶具有適當的系統管理員許可權，您可以在發行拓撲時，建立封存資料庫 (LcsLog) 。 您也可以稍後再建立資料庫（包括安裝程式的一部分）。 如需 SQL Server 的詳細資訊，請參閱 [SQL server 檔](/sql/sql-server/)。
     
 封存的負載增加可能會很大。 因此，您應該確定啟用封存之前端伺服器的磁碟空間已夠用。
 
@@ -166,7 +166,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 > [!IMPORTANT]
 > 若要升級，我們確實想要在升級前至少安裝 SQL Server 2012 SP1。 如果您想要立即下載它，以下是 SP1[的連結](https://www.microsoft.com/download/details.aspx?id=35575)。
   
-如果您需要深入瞭解 SQL 鏡像，我們在商務用 Skype Server 2015 主題中有一個後端伺服器高可用性。 為商務用 Skype Server 2015 設定 SQL Server 叢集具有準備集群的步驟。 在 SQL 的容錯移轉叢集上還有進一步的連結，針對 [2014](https://technet.microsoft.com/library/hh231721.aspx)、 [2012](https://technet.microsoft.com/library/hh231721%28v=sql.110%29.aspx)及 [2008](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx)。
+如果您需要深入瞭解 SQL 鏡像，我們在商務用 Skype Server 2015 主題中有一個後端伺服器高可用性。 為商務用 Skype Server 2015 設定 SQL Server 叢集具有準備集群的步驟。 在 SQL 的容錯移轉叢集上還有進一步的連結，針對 [2014](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation)、 [2012](/previous-versions/sql/sql-server-2012/hh231721(v=sql.110))及 [2008](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105))。
   
 > [!NOTE]
 > 2015版本的新功能是支援 SQL Always On。 您可以支援它，也可以在 [商務用 Skype server 2015 主題的後端伺服器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) 中深入瞭解。
@@ -208,7 +208,7 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
 ```
 
 > [!NOTE] 
-> 命令會尋找特定順序的來源檔案。 如果您是線上，命令就會存取 Windows Update。 不過，如果您已離線，您必須確定可在命令中使用的來源檔案。 如需使用 PowerShell 來安裝角色及功能的詳細資訊，請參閱安裝 [或卸載角色、角色服務或功能](https://technet.microsoft.com/library/hh831809.aspx) 。在您安裝必要條件之後，即使您使用 PowerShell 命令，也不會忘記再次執行 Windows 更新。
+> 命令會尋找特定順序的來源檔案。 如果您是線上，命令就會存取 Windows Update。 不過，如果您已離線，您必須確定可在命令中使用的來源檔案。 如需使用 PowerShell 來安裝角色及功能的詳細資訊，請參閱安裝 [或卸載角色、角色服務或功能](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) 。在您安裝必要條件之後，即使您使用 PowerShell 命令，也不會忘記再次執行 Windows 更新。
 
  **Director 也需要：**
   
@@ -266,10 +266,8 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **Persistent Chat Servers 也需要：**
   
-訊息佇列，也稱為 MSMQ。 它是 Windows Server 元件，您可以在 [伺服器管理員] 的 [功能] 區段中安裝它。 若要進一步閱讀此資訊，請參閱 [安裝和管理訊息佇列](https://technet.microsoft.com/library/cc771474.aspx)。
+訊息佇列，也稱為 MSMQ。 它是 Windows Server 元件，您可以在 [伺服器管理員] 的 [功能] 區段中安裝它。 若要進一步閱讀此資訊，請參閱 [安裝和管理訊息佇列](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771474(v=ws.11))。
   
  **最後思維：**
   
 請不要安裝任何 Microsoft Internet Security and 加速 (ISA) Server 用戶端軟體或任何其他 Winsock 分層服務提供者 (LSP) 軟體 (任何協力廠商防火牆或防病毒網路檢查軟體會包含在任何前端伺服器或獨立轉送伺服器上) 。 安裝軟體時，看到的媒體流量效能不良。
-  
-

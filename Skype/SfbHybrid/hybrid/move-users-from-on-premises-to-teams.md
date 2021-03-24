@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：瞭解如何遷移使用者設定，以及將使用者移至團隊。
-ms.openlocfilehash: c84cdbe5f91816ddfabd476540e47f3d1871a427
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 4a57d802d6405652724ce28ed2d26221dcc8db0f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836980"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110649"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移動至 Teams
 
@@ -121,11 +121,11 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 DownloadTeams 的值預設為 True;不過，只有在指定的使用者 NotifySfbUser = True 時， *才* 會使用此參數。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
-[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
+[Move-CsUser](/powershell/module/skype/move-csuser)
 
-[授與 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
+[授與 CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
 [搭配使用 Teams 與商務用 Skype 之組織的移轉和互通性指引](/microsoftteams/migration-interop-guidance-for-teams-with-skype)

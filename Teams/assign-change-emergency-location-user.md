@@ -16,50 +16,50 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 在本文中，您將瞭解如何為貴組織中的使用者指派或變更緊急位置。
+description: 本文將瞭解如何為貴組織的使用者指派或變更緊急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8352c702d2c6d32b6384599499aa326def49fa4e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7dd986085a8c42df34d6634cbadc6e96fdfb14ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809563"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102979"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
-當您設定通話方案時，您必須將緊急位置指派給每個電話號碼或使用者。 在歐洲國家/地區，當您從 Microsoft 365 或 Office 365 取得電話號碼時，或當您將電話號碼轉接到 Microsoft 365 或 Office 365 時，緊急位置會與電話號碼產生關聯。 在美國，緊急位置會與指派給使用者的電話號碼相關聯。 如果您指派的使用者移至新的位置，就可以變更緊急位址。 如需有關緊急位址和位置的詳細資訊，請參閱 [什麼是緊急位置、地點及呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
+當您設定通話方案時，您必須為每個電話號碼或使用者指派緊急位置。 在歐盟國家/地區，當您從 Microsoft 365 或 Office 365 取得電話號碼，或將電話號碼移轉至 Microsoft 365 或 Office 365 時，緊急位置會與電話號碼相關聯。 在美國，緊急位置會與指派給使用者的電話號碼相關聯。 如果指派給緊急位址的使用者移至新位置，可以變更緊急位址。 有關緊急位址和位置的更多資訊，請參閱什麼是緊急位置、地點 [和通話路由？](./what-are-emergency-locations-addresses-and-call-routing.md)。
   
-若要瞭解如何取得通話方案和成本，請參閱 [小組附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+若要瞭解如何取得通話方案及其費用，請參閱 [Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-您可以在 Microsoft 團隊系統管理中心或使用 PowerShell 指派或變更使用者的緊急位置。
+您可以在 Microsoft Teams 系統管理中心或 PowerShell 中指派或變更使用者的緊急位置。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**語音**  >  **電話號碼**]。
+1. 在 Microsoft Teams 系統管理中心的左側流覽中，按一下 **[語音**  >  **電話號碼>**。
 
-2. 在 [ **電話號碼** ] 頁面上，按一下 [ **數位** ] 索引標籤，選取清單中的使用者編號，然後按一下 [ **編輯**]。
+2. 在 [**電話號碼>** 頁面上，按一下 [數位 **>** 選項卡，選取清單中的使用者號碼，然後按一下 [**編輯。**
 
-3. 在 [ **編輯** ] 窗格的 [ **緊急位置**] 底下，執行下列其中一項操作：
+3. 在編輯 **窗格** 的緊急 **位置下**，執行下列其中一項操作：
 
    - 若要指派緊急位置，請搜尋並選取緊急位置。
 
-   - 若要變更已指派給使用者的緊急位置，請按一下 [ **X** ] 以移除現有的位置，然後搜尋並選取您要指派的位置。
+   - 若要變更已指派給使用者的緊急位置，請按一下 **[X** 以移除現有位置，然後搜尋並選取您想要指派的位置。
 
-4. 視您是否想要傳送電子郵件給使用者的電話號碼資訊而定，請關閉或開啟 **含有電話號碼資訊的電子郵件使用者**。 根據預設，這是開啟的。
+4. 根據您是否要傳送包含其電話號碼資訊的電子郵件給使用者，請關閉或開啟包含電話號碼 **資訊的電子郵件使用者**。 根據預設，這會是啟用狀態。
 
-5. 按一下 **[** 套用]。
+5. 按一下 **[Apply.**
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-請參閱 [設定 CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser)。 
+請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)。 
 
     
 ## <a name="related-topics"></a>相關主題
 
-- [管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)
+- [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
 - [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
 - [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
 - [指派或變更使用者緊急位置的地方](assign-change-emergency-place-user.md)
 - [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
+- [緊急通話條款及條件](./emergency-calling-terms-and-conditions.md)
 - [Teams PowerShell 概觀](teams-powershell-overview.md)

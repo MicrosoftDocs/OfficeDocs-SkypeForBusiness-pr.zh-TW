@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 團隊粉筆與粉筆交談
-summary: 專為 IT 專業人員和決策者設計而設計，可提供獨特的機會來掌握最佳做法，以及小組中一些最受歡迎且引人注目的案例的實際指導方針。
+title: Microsoft Teams 粉筆交談
+summary: Teams 粉筆會議專為 IT 專業人員和決策者所設計，提供一個獨一無二的機會，以學習 Teams 中一些最熱門且吸引人的案例的最佳作法和實用指南。
 brand: teams
 metadata:
-  title: Microsoft 團隊粉筆與粉筆交談
-  description: 專為 IT 專業人員和決策者設計而設計，可提供獨特的機會來掌握最佳做法，以及小組中一些最受歡迎且引人注目的案例的實際指導方針。 透過行業專家的協助工具，這些線上互動式研討會將可與您深入瞭解，以增強您的團隊實現，並為使用者提供額外的價值。 按一下下列任何討論會標題，即可查看可用的日期和時間，並立即註冊！
+  title: Microsoft Teams 粉筆交談
+  description: Teams 粉筆會議專為 IT 專業人員和決策者所設計，提供一個獨一無二的機會，以學習 Teams 中一些最熱門且吸引人的案例的最佳作法和實用指南。 這些線上互動式研討會受到主題專家的協助，可為您提供深入見解，強化 Teams 的執行工作，並為使用者提供額外的價值。 按一下下方的任何研討會標題以查看可用的日期和時間，並立即註冊！
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,40 +25,40 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
-  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/28/2020
-  ms.locfileid: "48790595"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102699"
 productDirectory:
-  summary: 按一下任何要註冊的討論會標題。
+  summary: 按一下任何研討會標題即可註冊。
   items:
-  - title: 所以 .。。您想要與團隊進行通話嗎？
+  - title: 所以。。。您想要使用 Teams 撥打電話嗎？
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 若要深入瞭解如何將 PSTN 呼叫功能新增至您的小組部署，請加入我們。 我們將逐步逐步說明如何呼叫術語、主要概念及設定。
+    summary: 請加入我們，深入瞭解如何新增 PSTN 通話功能至您的 Teams 部署。 我們會一起介紹通話術語、重要概念和組組。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: 在團隊中收取音訊/視頻品質
+  - title: 負責 Teams 的音訊/視音訊品質
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 想要確保使用者能使用會議和語音功能的最佳體驗嗎？ 我們將討論工具、報告和最佳做法，以協助您管理服務品質--從建立前瞻性戰略來解決常見問題。
+    summary: 想要確保使用者擁有會議與語音功能的最佳體驗嗎？ 我們將討論可協助您管理服務品質的工具、報告和最佳做法 ，從建立主動式策略到解決常見問題。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: 團隊基礎中的應用程式
+  - title: Teams 基本功能中的應用程式
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: 此基礎會話涵蓋包括 app 管理和安全性在內的基本功能。 瞭解如何將您的工作流程、生產力應用程式，以及每天使用的服務整合成單一、整合的體驗。
+    summary: 此基礎會話涵蓋基本功能，包括應用程式管理和安全性。 瞭解如何將工作流程、生產力應用程式，以及您每天使用的服務整合成單一、整合的體驗。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: 在團隊中使用應用程式 Supercharge 重要工作流程
+  - title: 在 Teams 中以應用程式為主要工作流程加值
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: 透過將貴組織所依賴的 app 納入小組中，連線您的系統、提高自動化，並為使用者提供改良的體驗。
+    summary: 將貴組織所仰賴的應用程式加入 Teams，以連接系統、提高自動化程度，以及為使用者提供改良的體驗。
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
     - title: 仍在使用商務用 Skype 嗎？
-      summary: 查看我們的升級討論會系列。
+      summary: 請查看我們的升級研討會系列。
       url: upgrade-workshops-landing-page.yml
-    - title: 為您的使用者做好準備
-      summary: 讓您的使用者與團隊即時訓練課程保持聯繫並繼續運作。
-      url: https://aka.ms/TeamsLiveTraining
+    - title: 準備您的使用者
+      summary: 使用 Teams Live 訓練讓使用者更上一流。
+      url: ./instructor-led-training-teams-landing-page.yml
     - title: Teams 的新使用者嗎？
-      summary: 深入瞭解如何開始使用團隊。
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      summary: 深入瞭解開始使用 Teams。
+      url: ./teams-overview.md

@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何封鎖特定使用者對 SharePoint 的存取
-ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: dce6581abe4fee70a6622817be7aefb0e3379e2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615079"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092891"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>封鎖特定使用者對 SharePoint 的存取
 
 在 Microsoft 365 中對 SharePoint 套用任何條件式存取 (CA) 原則也會套用至 Teams。 但是，有些組織希望封鎖對 SharePoint 檔案的存取 (上載、下載、檢視、編輯、建立)，但允許其員工在未受管理的裝置上使用Teams 桌面、行動裝置和 web 用戶端。 根據 CA 原則規則，封鎖 SharePoint 也會導致封鎖 Teams。 本文將解釋如何克服這一限制，允許員工繼續使用 Teams，同時完全封鎖對存儲在 SharePoint 中的檔的存取。
 
 > [!Note]
-> 封鎖或限制對未受管理裝置的存取取決於 Azure AD 條件式存取原則。 深入了解[Azure AD 授權](https://azure.microsoft.com/pricing/details/active-directory/)。 有關 Azure AD 中條件式存取的概覽，請參閱 [Azure Active Directory 中的條件式存取](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)。 有關推薦的 SharePoint Online 存取原則的資訊，請參閱 [用於保護 SharePoint 網站和檔的原則建議](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)。 如果限制未受管理裝置上的存取，則受管理裝置上的使用者必須使用其中一個[受支援的作業系統和流覽器組合](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)，否則他們的存取權限也將受到限制。
+> 封鎖或限制對未受管理裝置的存取取決於 Azure AD 條件式存取原則。 深入了解[Azure AD 授權](https://azure.microsoft.com/pricing/details/active-directory/)。 有關 Azure AD 中條件式存取的概覽，請參閱 [Azure Active Directory 中的條件式存取](/azure/active-directory/conditional-access/overview)。 有關推薦的 SharePoint Online 存取原則的資訊，請參閱 [用於保護 SharePoint 網站和檔的原則建議](/microsoft-365/enterprise/sharepoint-file-access-policies)。 如果限制未受管理裝置上的存取，則受管理裝置上的使用者必須使用其中一個[受支援的作業系統和流覽器組合](/azure/active-directory/conditional-access/technical-reference#client-apps-condition)，否則他們的存取權限也將受到限制。
 
 您可以封鎖或限制存取：
 
@@ -89,4 +89,4 @@ ms.locfileid: "50615079"
 
 ## <a name="related-topics"></a>相關主題
 
-[在 SharePoint 中控制對未受管理裝置的存取](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[在 SharePoint 中控制對未受管理裝置的存取](/sharepoint/control-access-from-unmanaged-devices)

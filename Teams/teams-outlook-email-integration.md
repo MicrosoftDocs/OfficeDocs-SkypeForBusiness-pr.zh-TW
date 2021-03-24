@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469017eb9d03cbba55017ca609f49da9ebfe07a
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819359"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104049"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams 和 Outlook 電子郵件整合
 
@@ -31,17 +31,17 @@ Microsoft Teams 包含的功能，可讓使用者輕鬆在 Outlook 中的電子�
 
 ![顯示 Teams 中共用至 Outlook 功能之螢幕擷取畫面](media/share-to-outlook.png)
 
-若要使用這項功能，使用者必須開啟 Outlook 網頁。 如果 Outlook 網頁化已關閉，使用者的 Teams 中不會顯示共用至 **Outlook** 選項。 若要瞭解如何開啟和關閉 Outlook 網頁流覽的步驟，請參閱啟用或停用[信箱的 Outlook 網頁。](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+若要使用這項功能，使用者必須開啟 Outlook 網頁。 如果 Outlook 網頁化已關閉，使用者的 Teams 中不會顯示共用至 **Outlook** 選項。 若要瞭解如何開啟和關閉 Outlook 網頁流覽的步驟，請參閱啟用或停用[信箱的 Outlook 網頁。](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>可採取行動的活動電子郵件
 
 使用者會自動收到可採取動作的未接活動電子郵件，協助他們趕上 Teams 中未接的交談。 未接活動電子郵件會顯示來自交談的最新回復，包括未接郵件後所寄的郵件，使用者可以按一下 **[回復** 來直接從 Outlook 內回復。 若要深入瞭解，請參閱回復 Outlook 中錯過 [的活動電子郵件](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)。 
 
 > [!NOTE]
-> Mac 版 Outlook 或某些舊版 Windows 版 Outlook 不支援此功能。 詳細資訊，請參閱 [Outlook 和 Office 365](https://docs.microsoft.com/outlook/actionable-messages/)群組中的可採取動作的郵件。
+> Mac 版 Outlook 或某些舊版 Windows 版 Outlook 不支援此功能。 詳細資訊，請參閱 [Outlook 和 Office 365](/outlook/actionable-messages/)群組中的可採取動作的郵件。
 
 ![顯示未接活動電子郵件的螢幕擷取畫面](media/missed-activity-email.png)
 
 ![顯示如何回復未接活動電子郵件的螢幕擷取畫面](media/missed-activity-email-reply.png)
 
-您可以將 [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) Cmdlet 與 **SmtpActionableMessagesEnabled 參數** 一起使用，以關閉可採取動作的電子郵件。 根據預設 **，SmtpActionableMessagesEnabled 參數** 會設為 **true。** 將參數設定為 **False** 會關閉 Office 365 上可採取動作的電子郵件訊息。 對於 Teams 使用者，這表示未接活動電子郵件中無法直接在 Outlook 中回復的回復選項。 相反地，錯過的活動電子郵件會 **包含一個** Teams 中的回復選項，讓使用者在 Teams 中回復。
+您可以將 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) Cmdlet 與 **SmtpActionableMessagesEnabled 參數** 一起使用，以關閉可採取動作的電子郵件。 根據預設 **，SmtpActionableMessagesEnabled 參數** 會設為 **true。** 將參數設定為 **False** 會關閉 Office 365 上可採取動作的電子郵件訊息。 對於 Teams 使用者，這表示未接活動電子郵件中無法直接在 Outlook 中回復的回復選項。 相反地，錯過的活動電子郵件會 **包含一個** Teams 中的回復選項，讓使用者在 Teams 中回復。

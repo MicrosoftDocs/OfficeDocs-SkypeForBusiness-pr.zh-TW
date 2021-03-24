@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: 在商務用 Skype Server Enterprise Voice 中，設定 SNMP 應用程式來搭配 E9-1-1。
-ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f8b4c7503524dacdc20e85fc68f0a79286e38c2e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804153"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103629"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 SNMP 應用程式
  
@@ -46,5 +46,4 @@ ms.locfileid: "49804153"
 
 ## <a name="see-also"></a>另請參閱
 
-[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
-
+[Set-CsWebServiceConfiguration](/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)

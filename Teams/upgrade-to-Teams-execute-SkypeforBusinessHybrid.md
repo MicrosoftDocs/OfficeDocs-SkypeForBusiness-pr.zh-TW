@@ -1,5 +1,5 @@
 ---
-title: 將商務用 Skype 混合式部署升級至團隊
+title: 將商務用 Skype 混合式部署升級至 Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何從商務用 Skype 混合式部署將您的組織升級至 Microsoft 團隊。
+description: 瞭解如何從商務用 Skype 混合式部署將貴組織升級至 Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,45 +20,45 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67bb6c10bb8cc5f37d332459d8e147f4f626497d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 97725e7a9790f47f9789366567981f0167fdd806
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802343"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104019"
 ---
-# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>從商務用 Skype 混合式部署升級至團隊
+# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>從商務用 Skype 混合式部署升級至 Teams
 
-![升級歷程階段，重點是部署與實施階段](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
+![升級歷程的階段，強調部署與執行階段](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 
-本文是升級歷程部署與實施階段的一部分。 繼續之前，請確認您已完成下列活動：
+本文是升級歷程的部署與執行階段之一。 繼續進行之前，請確認您已完成下列活動：
 
-- [已登記您的專案干係人](upgrade-enlist-stakeholders.md)
-- [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
-- [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
-- [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
-- [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
+- [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
+- [已定義專案範圍](./upgrade-define-project-scope.md)
+- [瞭解商務用 Skype 和 Teams 的共存與互通性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [準備您的環境](./upgrade-prepare-environment.md)
+- [準備您的組織](./upgrade-prepare-organization.md)
+- [進行試驗](./pilot-essentials.md)
 
-如果您已部署商務用 Skype 或 Microsoft Lync 內部部署，且已在與您的 Microsoft 365 或 Office 365 組織進行混合式部署中進行設定，且您的組織想要使用多個共存模式（或全式），將其升級至團隊，請遵循本文中的指導方針。 針對升級歷程，您必須將使用者移至商務用 Skype Online (（如果尚未在) 線上進行），然後再指派適當的共存與升級模式。
+如果您已經部署商務用 Skype 或 Microsoft Lync 內部部署，且已與 Microsoft 365 或 Office 365 組織進行混合式部署，且貴組織想要選擇性升級至 Teams，請遵循本文中的指引，使用多種共存模式或全功能。 在任一升級過程中，您必須將使用者移至商務用 Skype Online (如果他們還沒有線上家用) 然後指派適當的共存和升級模式。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-move-users-to-skype-for-business-online"></a>步驟1：將使用者移至商務用 Skype Online
+## <a name="step-1-move-users-to-skype-for-business-online"></a>步驟 1：將使用者移至商務用 Skype Online
 
-此步驟適用于目前駐留內部部署的使用者。 如需將這些使用者移至商務用 Skype Online 的詳細資訊，請參閱 [將使用者從內部部署移至商務用 Skype online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
+此步驟適用于目前位於內部部署的使用者。 若要進一步將這些使用者移至商務用 Skype Online，請參閱將使用者從內部部署移至[商務用 Skype Online。](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
-## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>步驟2：指派共存與升級模式
+## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>步驟 2：指派共存與升級模式
 
-將使用者移至商務用 Skype Online 之後，您就可以根據貴組織所選擇的升級歷程，指派適當的共存模式。 如需詳細資訊，請參閱 [設定您的共存與升級設定](https://aka.ms/SkypeToTeams-SetCoexistence) 及 [TeamsUpgradePolicy：管理移植與共存](upgrade-to-teams-on-prem-tools.md)。
+將使用者移至商務用 Skype Online 之後，您可以根據貴組織所選擇的升級歷程，為使用者指派適當的共存模式。 詳細資訊，請參閱設定 [您的共存和升級設定](./setting-your-coexistence-and-upgrade-settings.md) 及 [TeamsUpgradePolicy：管理移移和共存](upgrade-to-teams-on-prem-tools.md)。
 
 > [!NOTE]
-> 在商務用 Skype Server 2019 以及未來的商務用 skype Server 2015 累積更新中，您就可以執行步驟 1 (將使用者移至商務用 Skype Online) 並步驟 2 (將使用者升級至團隊) 一步。 在發行商務用 Skype Server 2019 之後，將會提供更多相關資訊。
+> 有了商務用 Skype Server 2019，以及未來商務用 Skype Server 2015 的累積更新，您就能執行步驟 1 (將使用者移至商務用 Skype Online) ，而步驟 2 (則單一步驟就能將使用者升級至 Teams) 。 更多資訊將在商務用 Skype Server 2019 發行後提供。
 
-## <a name="phone-system-and-teams-upgrade"></a>手機系統與團隊升級
+## <a name="phone-system-and-teams-upgrade"></a>電話系統與 Teams 升級
 
-如果您要將商務用 Skype 混合式部署轉換為含有通話方案的電話系統，Microsoft 將是您的公開交換電話網絡 (PSTN) 提供者—並假設您已完成電話號碼移植，將您的使用者升級至團隊後，就會自動將入站 PSTN 通話轉場給小組。
+如果您要將商務用 Skype 混合式部署轉換為具有通話方案的電話系統，而 Microsoft 將成為您的公用交換電話網路絡 (PSTN) 提供者 ，而且假設您已完成電話號碼的轉移，將使用者升級至 Teams 會自動將傳入 PSTN 通話轉換至 Teams。
 
-如果通話方案無法使用，或您想要使用現有的 PSTN 連線提供者，您必須將企業語音部署（或使用您現有內部部署或雲端連接器版本的混合式語音部署）轉換為 Microsoft 手機系統 Direct 路由。 若要將您的使用者升級至小組，請參閱 [手機系統直接路由的其他考慮](2-envision-make-my-service-decisions-direct-routing.md)。
+如果通話方案無法使用，或您打算使用現有的 PSTN 連接提供者，您必須將使用現有內部部署或雲端連接器版的企業語音部署或混合式語音部署，轉換為 Microsoft Phone System Direct 路由。 若要將使用者升級至 Teams，請參閱電話 [系統直接路由的其他考慮](./direct-routing-landing-page.md)。

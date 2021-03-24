@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 在商務用 Skype Server Enterprise Voice 中規劃媒體旁路所需的決策。 包含通話許可控制 (CAC) 的交互操作。
-ms.openlocfilehash: a6d49b8abaa75e555f3de4c44b890e18b6de664a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825373"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101389"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>在商務用 Skype 中規劃媒體旁路
 
@@ -104,7 +104,7 @@ Wi-Fi 網路通常會比有線網路體驗更大的封包遺失。 從這封包�
 
     即便 CAC 已經全域停用，如果您想要使用網站與地區組態來控制旁路決策時，還是需要針對每個網站與連結定義頻寬原則。 頻寬限制或其模態的實際值無關緊要。 最終目標是讓系統自動計算不同的旁路 ID 以便和未能順利連接的不同區域產生關聯。 依據定義，定義頻寬限制代表某個連結並未順利連接。
 
-- CAC 已啟用而媒體旁路未啟用。 只有當所有閘道與 IP-PBX 並未順利連接，或是不符合其他媒體旁路需求時，才會套用此設定。 如需媒體旁路需求詳細資料，請參閱＜[Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx)＞。
+- CAC 已啟用而媒體旁路未啟用。 只有當所有閘道與 IP-PBX 並未順利連接，或是不符合其他媒體旁路需求時，才會套用此設定。 如需媒體旁路需求詳細資料，請參閱＜[Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass)＞。
 
 ## <a name="technical-requirements"></a>技術需求
 
@@ -117,5 +117,3 @@ Wi-Fi 網路通常會比有線網路體驗更大的封包遺失。 從這封包�
 - 轉送伺服器對等必須直接接受來自商務用 Skype 端點的媒體流量。 許多 ITSPs 都允許其 SBC 只從轉送伺服器接收流量。 請與您的 ITSP 聯繫，以判斷其 SBC 是否直接接受來自商務用 Skype 端點的媒體流量。
 
 - 商務用 Skype 用戶端和轉送伺服器對等必須已正確連接，這表示它們位於相同網路地區或網路網站，這些連結是以沒有頻寬限制的 WAN 連結連線至區域。
-
-

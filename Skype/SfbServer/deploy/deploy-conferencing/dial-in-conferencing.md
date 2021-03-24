@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中設定電話撥入式會議。
-ms.openlocfilehash: 92c282c87576e3d46353dabd8235521fe0097c11
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5f618e22cc45585baddf1e8d6090b9e211dc5681
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820723"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103849"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>設定商務用 Skype Server 中的電話撥入式會議
  
@@ -99,7 +99,7 @@ ms.locfileid: "49820723"
     
 4. 檢閱傳回的撥號對應表，檢查是否有任何一項缺少電話撥入式會議區域。 
     
-如需詳細資訊，請參閱 [Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps)。
+如需詳細資訊，請參閱 [Get-CsDialPlan](/powershell/module/skype/get-csdialplan?view=skype-ps)。
   
 ### <a name="to-set-the-region-property-for-a-dial-plan"></a>若要設定撥號對應表的區域屬性
 
@@ -121,7 +121,7 @@ ms.locfileid: "49820723"
 
    在此範例中，將修改識別為 Redmond 的撥號對應表，以將其 DialinConferencingRegion 屬性設為 "US West Coast"。 
     
-如需詳細資訊，請參閱 [Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps)。
+如需詳細資訊，請參閱 [Set-CsDialPlan](/powershell/module/skype/set-csdialplan?view=skype-ps)。
   
 ## <a name="configure-dial-in-access-numbers"></a>設定撥入存取號碼
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
@@ -134,7 +134,7 @@ ms.locfileid: "49820723"
 > 您無法使用新的撥入存取號碼，除非 Active Directory 網域服務 (AD DS) 該存取號碼的複寫已完成。 複寫可能需要數小時才能完成。 
   
 > [!NOTE]
-> 在您建立撥入存取號碼之後，您可以修改 Active Directory 連絡人物件的顯示名稱，讓使用者可以更輕鬆地識別正確的存取號碼。 若要修改顯示名稱，請使用 [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) Cmdlet。 您不應該手動修改 Active Directory 物件。
+> 在您建立撥入存取號碼之後，您可以修改 Active Directory 連絡人物件的顯示名稱，讓使用者可以更輕鬆地識別正確的存取號碼。 若要修改顯示名稱，請使用 [Set-CsDialInConferencingAccessNumber](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) Cmdlet。 您不應該手動修改 Active Directory 物件。
   
 ### <a name="to-create-a-dial-in-access-number"></a>若要建立撥入存取號碼
 
@@ -174,7 +174,7 @@ ms.locfileid: "49820723"
 9. 在 [ **集** 區] 中，按一下執行支援此撥入存取號碼之會議助理實例的集區。
     
     > [!NOTE]
-    > 如果您在建立存取號碼之後需要變更集區，則必須使用 [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) Cmdlet，或刪除並重新建立存取號碼。
+    > 如果您在建立存取號碼之後需要變更集區，則必須使用 [Move-CsApplicationEndpoint](/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) Cmdlet，或刪除並重新建立存取號碼。
   
 10. 在 [ **主要語言**] 中，按一下為此撥入存取號碼播放提示時所使用的語言。 
     
@@ -220,5 +220,3 @@ ms.locfileid: "49820723"
     > 只有在 **電話語音** 設定為 **僅限 pc 對電腦**、 **Enterprise Voice**、**遠端呼叫控制** 或 **遠端呼叫控制** 時，您才可以指定 **行 URI** 。 
   
 7. 按一下 **[認可]**。
-    
-

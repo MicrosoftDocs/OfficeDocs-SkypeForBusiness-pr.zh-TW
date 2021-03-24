@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 使用 [選取服務] 對話方塊，尋找您環境中可用的服務。 若要使用現有的服務，請按一下清單中的服務，然後按一下 [確定]。
-ms.openlocfilehash: c1f0f1c3f5add413f6f2f801bb54c84179b46f91
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829193"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108039"
 ---
 # <a name="select-a-service"></a>選取服務
 
@@ -32,11 +32,11 @@ ms.locfileid: "49829193"
 
 您可以在 [ **選取服務** ] 頁面上執行下列工作：
 
-- [設定類別](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [設定類別](/previous-versions/office/lync-server-2013/lync-server-2013-configure-categories)
 
-- [為聊天室設定增益集](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
+- [為聊天室設定增益集](/previous-versions/office/lync-server-2013/lync-server-2013-configure-add-ins-for-rooms)
 
-- [以全域方式設定或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [以全域方式設定或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
 如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
 
@@ -52,5 +52,4 @@ ms.locfileid: "49829193"
 
 在 [ **選取服務**] 中，選取要設定之持久聊天伺服器集區相關聯的服務。
 
-如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱規劃檔中的 [Persistent Chat Server 綜述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) 。 如需使用持續性聊天伺服器設定的詳細資訊，請參閱設定 [Persistent Chat server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) In the Deployment 檔和 [管理 Lync Server 2013，Persistent Chat server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in Operations 檔中。
-
+如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱規劃檔中的 [Persistent Chat Server 綜述](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 。 如需使用持續性聊天伺服器設定的詳細資訊，請參閱設定 [Persistent Chat server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) In the Deployment 檔和 [管理 Lync Server 2013，Persistent Chat server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in Operations 檔中。

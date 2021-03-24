@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 摘要：檢查 Exchange Server 2016 或 Exchange Server 2013 和商務用 Skype 伺服器的整合步驟。
-ms.openlocfilehash: 6b5c63c0ad6783c11fd8fde25d1b00dc84d7e15a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b19aa73e62b12674551690b716144fb67b4cd715
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833733"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104849"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>整合商務用 Skype Server 與 Exchange Server
 
@@ -27,7 +27,7 @@ ms.locfileid: "49833733"
 
 Exchange Server 2013 （或更新版本）和商務用 Skype Server 相容，且能夠順利整合。 例如，您可以在 Microsoft Outlook 中報告商務用 Skype 使用者目前狀態資訊。同樣地，商務用 Skype 可以存取使用者的 Outlook 行事曆，請注意使用者已排程會議，並在會議期間顯示使用者目前狀態為忙碌。 雖然您不需要執行 Exchange 伺服器以執行商務用 Skype Server (或反過來) 這兩種產品同時增強使用者的使用者經驗。
 
-本檔提供整合商務用 Skype Server 和 Exchange Server 2016 或 Exchange Server 2013 的資訊，但假設這兩種產品的初始設定和設定已經發生。 如需部署商務用 Skype 伺服器的詳細資訊，請參閱 [商務用 Skype Server 技術中心](https://go.microsoft.com/fwlink/p/?LinkId=246127)。 如需部署 Exchange 伺服器的詳細資訊，請參閱 Exchange 版本的部署檔。
+本檔提供整合商務用 Skype Server 和 Exchange Server 2016 或 Exchange Server 2013 的資訊，但假設這兩種產品的初始設定和設定已經發生。 如需部署商務用 Skype 伺服器的詳細資訊，請參閱 [商務用 Skype Server 技術中心](../../../Hub/index.yml)。 如需部署 Exchange 伺服器的詳細資訊，請參閱 Exchange 版本的部署檔。
 
 如果您要將商務用 Skype 伺服器的內部部署安裝與 Microsoft Exchange Online 整合，請參閱 [設定內部部署商務用 Skype server 與 Outlook Web App 之間的整合](outlook-web-app.md)。
 
@@ -47,7 +47,7 @@ Exchange Server 2013 （或更新版本）和商務用 Skype Server 相容，且
 
 [為商務用 Skype Server 語音信箱設定 Exchange Server 整合通訊](exchangeunified-messaging-for-voice-mail.md)
 
-[整合商務用 Skype Server 和 Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
+[整合商務用 Skype Server 和 Microsoft Outlook Web App 2013](/previous-versions/office/communications/jj688055(v=ocs.16))
 
 [在用戶端電腦上設定個人連絡人存放區以供商務用 Skype Server](personal-contacts-store.md)
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909517"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103009"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -50,13 +50,13 @@ ms.locfileid: "49909517"
 
 - 目標環境中的系統管理員角色。
 
-- [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的授權。
+- [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的授權。
 
 ## <a name="storage-with-cds"></a>CDS 的儲存空間
 
-Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它包含一組由 Microsoft 和我們的合作夥伴所發佈的標準化、可延伸資料架構，可跨應用程式和商務程序實現資料的一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](https://docs.microsoft.com/power-automate/get-started-approvals)。
+Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它包含一組由 Microsoft 和我們的合作夥伴所發佈的標準化、可延伸資料架構，可跨應用程式和商務程序實現資料的一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
 
-深入了解[核准工作流程](https://docs.microsoft.com/power-automate/modern-approvals)。
+深入了解[核准工作流程](/power-automate/modern-approvals)。
 
 ## <a name="approvals-teams-app-permissions"></a>核准 Teams 應用程式權限
 
@@ -101,7 +101,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 ## <a name="retention-policy"></a>保留原則
 
-從核准應用程式建立的核准會儲存在預設 CDS 環境中，該選項目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments)。
+從核准應用程式建立的核准會儲存在預設 CDS 環境中，該選項目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
 ## <a name="auditing"></a>稽核
 
@@ -133,7 +133,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 - 已新增至核准要求的電子簽章
 
-若要存取流程內的更多稽核核准，請針對主要核准實體「核准」、「核准要求」和「核准回應」，在預設環境中啟用和設定稽核。 建立、更新和刪除作業是核准記錄的可稽核事件。 深入了解[安全性與合規性的稽核資料和使用者活動 - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)。
+若要存取流程內的更多稽核核准，請針對主要核准實體「核准」、「核准要求」和「核准回應」，在預設環境中啟用和設定稽核。 建立、更新和刪除作業是核准記錄的可稽核事件。 深入了解[安全性與合規性的稽核資料和使用者活動 - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
 
 您可以在 [Microsoft 365 安全性與合規性中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)進一步自訂稽核。
 
@@ -143,7 +143,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 3. 搜尋稽核記錄，並選取 [Dynamics 365 活動 **]** 索引標籤。
 
-深入了解 [Microsoft Dataverse 和模型導向的應用程式活動記錄 - Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)。
+深入了解 [Microsoft Dataverse 和模型導向的應用程式活動記錄 - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing)。
 
 ## <a name="security"></a>安全性
 

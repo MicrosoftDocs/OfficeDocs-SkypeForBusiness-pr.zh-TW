@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9b084afa7730d849f221de1d297f07359d200c79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726234"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102829"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用 [快速入門精靈] 設定商務語音
 
@@ -110,7 +110,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
 </table>
 
 > [!IMPORTANT]
-> [快速入門精靈] 可協助您設定簡單的通話功能表，讓您快速上手。 如果要設定通話功能表中的多個電話號碼，或者要設定更複雜的通話功能表 (也稱為自動語音應答)，您可以在結束精靈後，參閱[設定雲端自動語音應答](set-up-auto-attendants.md)。
+> [快速入門精靈] 可協助您設定簡單的通話功能表，讓您快速上手。 如果要設定通話功能表中的多個電話號碼，或者要設定更複雜的通話功能表 (也稱為自動語音應答)，您可以在結束精靈後，參閱[設定雲端自動語音應答](./create-a-phone-system-auto-attendant-smb.md)。
 
 <table>
     <tr>

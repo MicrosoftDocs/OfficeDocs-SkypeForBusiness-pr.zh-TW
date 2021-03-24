@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。
-ms.openlocfilehash: 1dff6eaf5c3c9b0d7ea2378dc5499568b0bd65a3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a1be9ff54da001b1d59cdc2bda47c8bd3611418a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823413"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104359"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立主幹設定的新集合
 
@@ -34,7 +34,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 |名稱|身分識別|集合的唯一識別碼。此為唯讀屬性，您無法變更主幹組態設定集合的 Identity。|
 |描述|描述|為系統管理員提供儲存設定相關資訊 (例如，主幹組態的用途) 的方法。|
 |支援的最大早期對話|MaxEarlyDialogs|服務提供者的 PSTN 閘道、IP-PBX 或 SBC 對其傳送到中繼伺服器的 Invite，可接收的分支回應數上限。|
-|加密支援等級|SRTPMode|指出支援等級，以保護中繼伺服器和服務提供者之 PSTN 閘道、IP-PBX 或 SBC 之間的媒體流量。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用 [新的-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration) 及 [CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration) Cmdlet 來設定。<br/>允許的值為：<br/><br/>**必要**：必須使用 SRTP 加密。<br/>**選用**：如果閘道支援 SRTP，將會使用。<br/>**不支援**：不支援 SRTP 加密，因此不會使用此加密。<br/><br/>只有閘道設定為使用傳輸層安全性 (TLS) 時，才能使用 SRTPMode。如果將閘道設定為在傳輸時使用傳輸控制通訊協定 (TCP)，系統會從內部將 SRTPMode 設為 Not Supported。|
+|加密支援等級|SRTPMode|指出支援等級，以保護中繼伺服器和服務提供者之 PSTN 閘道、IP-PBX 或 SBC 之間的媒體流量。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用 [新的-CsMediaConfiguration](/powershell/module/skype/New-CsMediaConfiguration) 及 [CsMediaConfiguration](/powershell/module/skype/Set-CsMediaConfiguration) Cmdlet 來設定。<br/>允許的值為：<br/><br/>**必要**：必須使用 SRTP 加密。<br/>**選用**：如果閘道支援 SRTP，將會使用。<br/>**不支援**：不支援 SRTP 加密，因此不會使用此加密。<br/><br/>只有閘道設定為使用傳輸層安全性 (TLS) 時，才能使用 SRTPMode。如果將閘道設定為在傳輸時使用傳輸控制通訊協定 (TCP)，系統會從內部將 SRTPMode 設為 Not Supported。|
 |轉接支援|Enable3pccRefer<br/>EnableReferSupport|如果設定為 **[啟用傳送轉接至閘道]**，表示主幹支援接收來自中繼伺服器的 Refer 要求。<br/>如果設定為 **[使用協力廠商撥號控制來啟用轉接]**，表示可以使用 3pcc 通訊協定允許轉接通話略過主控網站。3pcc 也稱為「第三方控制」，當使用第三方來連接一組來電者時 (例如，由接線員撥打從 A 到 B 的電話)，就會發生此情況。|
 |啟用媒體旁路|EnableBypass|表示此主幹是否啟用媒體旁路。只有在也啟用 **[集中式媒體處理]** 時，才能啟用媒體旁路。|
 |集中式媒體處理|ConcentratedTopology|指出是否有已知的媒體終端點 (已知的媒體終端點範例是 PSTN 閘道，其媒體終端的 IP 與訊號終端相同)。|
@@ -52,7 +52,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 ||||
 
 > [!Note]
-> 商務用 Skype Server Get-cstrunkconfiguration Cmdlet 支援其他屬性，但不會顯示在商務用 Skype Server 控制台中。 如需詳細資訊，請參閱 [get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
+> 商務用 Skype Server Get-cstrunkconfiguration Cmdlet 支援其他屬性，但不會顯示在商務用 Skype Server 控制台中。 如需詳細資訊，請參閱 [get-cstrunkconfiguration](/powershell/module/skype/New-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
 
 **使用商務用 Skype Server 控制台建立新的主幹設定設定**
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 深入瞭解通話許可控制，其可能會在商務用 Skype Server Enterprise Voice 中，防止來電出現不良的媒體質量。
-ms.openlocfilehash: 07b1e057e9edc296d0eee694e323e3c3c27ef05f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a802babc1b97eaf73b338f56c8c0a2b6c1f0efd6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825953"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105309"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃通話許可控制
 
@@ -185,7 +185,7 @@ CAC 頻寬原則可定義下列任一或所有項目：
 > 所有 CAC 頻寬值都代表最大的  *單向*  頻寬限制。
 
 > [!NOTE]
-> 商務用 Skype 伺服器語音原則功能可讓使用者 (不會針對使用者) 所撥打的撥出電話，覆寫對撥入電話的頻寬原則檢查功能。 工作階段建立完畢後，便可準確地計算頻寬使用量。 為順利做出適宜的通話許可控制決策，請勿頻繁使用此設定，能不用就不用。 如需詳細資訊，請參閱 [建立或修改語音原則及設定在商務用 Skype 中的 pstn 使用方式記錄](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) 或 [修改語音原則，以及設定](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) 部署檔中的 pstn 使用方式記錄。
+> 商務用 Skype 伺服器語音原則功能可讓使用者 (不會針對使用者) 所撥打的撥出電話，覆寫對撥入電話的頻寬原則檢查功能。 工作階段建立完畢後，便可準確地計算頻寬使用量。 為順利做出適宜的通話許可控制決策，請勿頻繁使用此設定，能不用就不用。 如需詳細資訊，請參閱 [建立或修改語音原則及設定在商務用 Skype 中的 pstn 使用方式記錄](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) 或 [修改語音原則，以及設定](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) 部署檔中的 pstn 使用方式記錄。
 
 若要最佳化個別工作階段的頻寬使用，請斟酌要使用的音訊與視訊轉碼器類型。具體地說，請避免分配過少的頻寬給預期將頻繁使用的轉碼器。相反地，如果您想要防止媒體使用會消耗大量頻寬的轉碼器，請儘可能將每個工作階段的最大頻寬設為最小值以抑制此類用途。對音訊而言，並非每一種情況都有可用的轉碼器。例如：
 
@@ -255,9 +255,7 @@ G.722 是商務用 Skype Server 會議的預設編解碼器，與722.1 和 Siren
 
 - 使用 CAC 頻寬原則來補充 QoS 設定。
 
-- 如果您想要將封鎖的來電重新路由至 PSTN，請驗證 PSTN 功能和容量。 如需詳細資訊，請參閱 [規劃撥出電話路由](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx)。
+- 如果您想要將封鎖的來電重新路由至 PSTN，請驗證 PSTN 功能和容量。 如需詳細資訊，請參閱 [規劃撥出電話路由](/previous-versions/office/lync-server-2013/lync-server-2013-planning-outbound-voice-routing)。
 
     > [!NOTE]
     > 「容量」指的是您需要開啟以支援潛在 PSTN 重新路由的埠數目。
-
-

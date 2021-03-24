@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主題說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
-ms.openlocfilehash: bf1a1d946c998466b118e0ab2038044a48d90970
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c09aa7c21e90a1783c0819a0877ecb87ff250d16
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822033"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114079"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源工具組工具檔
 
@@ -852,7 +852,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ### <a name="description"></a>描述
 
-網路設定檢視器 ( # A0) 可讓系統管理員執行下列工作：
+網路設定檢視器 (NetworkConfigurationViewer.exe) 可讓系統管理員執行下列工作：
 
 - 從商務用 Skype Server 2015 部署中，以圖形格式載入和查看 CAC 網路拓撲。
 
@@ -951,7 +951,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 回應群組代理程式 Live 需要 .NET Framework 4.0。 此外，若要利用目前狀態和連絡人卡片功能，必須在本機安裝商務用 Skype (並執行) 。
 
-#### <a name="configuration"></a>組態
+#### <a name="configuration"></a>設定
 
 回應群組代理程式 Live 可透過應用程式中的 [選項] 對話方塊，自訂為個別喜好設定。 此外，管理員可以直接編輯 RGAgentLive.exe.config 檔案的 defaultHostAddress 屬性，來定義預設的主機位址。
 
@@ -1429,7 +1429,7 @@ SYSPrep.ps1 是一種 Windows PowerShell 腳本，可在您的 Windows Server 20
 在執行 SYSPrep.ps1 腳本之前，您必須將必要條件檔案複製到 Windows Server 2008 作業系統電腦上的本機資料夾中 (例如 **D:\Setup)**。 此資料夾也必須包含商務用 Skype Server 2015 檔案的複本，尤其是 **Setup.exe。** 您可以從下列位置下載必要檔：
 
 
-| **前提**                                | **位置**                                                            |
+| **先決條件**                                | **位置**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .Net Framework 4。5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
@@ -1539,7 +1539,7 @@ Web 會議資料工具可讓商務用 Skype Server 2015 通訊軟體的系統管
 4. 當使用者從一個集區移至另一個集區時，移動所有與單一使用者相關聯的 Web 會議資料。
 
     > [!NOTE]
-    > Lync Server 2010 的資源工具組工具支援在使用者從一個集區移至另一個集區時，移動所有與單一使用者相關聯的 Web 會議資料。 這項功能現在已被取代為此工具，取而代之的 **MoveConferenceData** 參數。 如需此參數的詳細資訊，請參閱 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) Cmdlet。
+    > Lync Server 2010 的資源工具組工具支援在使用者從一個集區移至另一個集區時，移動所有與單一使用者相關聯的 Web 會議資料。 這項功能現在已被取代為此工具，取而代之的 **MoveConferenceData** 參數。 如需此參數的詳細資訊，請參閱 [Move-CsUser](/powershell/module/skype/move-csuser.md?view=skype-ps) Cmdlet。
 
 工具只會刪除非使用中會議的會議資料。 無法刪除會話) 中的使用中會議 (或會議。
 
@@ -1580,5 +1580,3 @@ WebConfDataTool.exe /User:user0@contoso.com /Action:delete
 ### <a name="summary"></a>摘要
 
 對於需要更精確控制會議會議資料的系統管理員，此工具是一種重要資源。
-
-

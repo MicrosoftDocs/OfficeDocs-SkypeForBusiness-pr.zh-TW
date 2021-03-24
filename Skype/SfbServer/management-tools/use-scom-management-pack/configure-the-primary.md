@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2015 的管理套件。
-ms.openlocfilehash: be7e484814e241b4aebb042a23497ed4806693e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ace25e1b4971c561dc1544290b04f481f36c9676
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814863"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111639"
 ---
 # <a name="configure-the-primary-management-server"></a>設定主要管理伺服器
 
@@ -48,7 +48,7 @@ ms.locfileid: "49814863"
 
 如需這些產品及其安裝的詳細資訊，請參閱下列連結：
 
-- [System Center Operations Manager 2012](https://go.microsoft.com/fwlink/p/?linkid=257527)
+- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
 - [System Center Configuration Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
@@ -61,7 +61,7 @@ ms.locfileid: "49814863"
 - **Component 和 User Management Pack** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) 會追蹤事件記錄檔中記錄的商務用 Skype Server 問題、由效能計數器所註冊，或是記錄在詳細通話記錄 (cdr) 或經驗品質 (QoE) 資料庫。 針對嚴重問題，您可以設定 System Center Operations Manager 立即透過電子郵件、立即訊息或 SMS 訊息通知系統管理員。  (短信或短訊息服務是用來將文字訊息從一部行動裝置傳送至另一部行動裝置的技術。 ) 
 
     > [!NOTE]
-    >  如需設定 Operations Manager 通知的詳細資訊，請參閱設定 [通知](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)。
+    >  如需設定 Operations Manager 通知的詳細資訊，請參閱設定 [通知](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10))。
 
 - **使用中的 Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) 主動測試重要的商務用 Skype Server 元件，例如登入系統、交換立即訊息，或撥打位於公用交換電話網路 (PSTN) 的電話。 這些測試是透過商務用 Skype Server 綜合交易 Cmdlet 來執行。 例如， **Test-CsIM** Cmdlet 是用來模擬一對測試使用者之間的立即訊息交談。 如果此模擬交談失敗，就會產生警示。
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 閱讀此主題以瞭解如何在商務用 Skype Server Enterprise Voice 中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。
-ms.openlocfilehash: 1e89c2f0ea9d5115b29e9bc6d77b3863bb11888c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d9c574d18351594d9773f02770e960c993ae401
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825533"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101449"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>規劃商務用 Skype Server 的位置原則
  
@@ -30,7 +30,7 @@ ms.locfileid: "49825533"
 > [!NOTE]
 > 商務用 Skype 伺服器現在支援為用戶端設定多個緊急號碼。 如果您想要設定多個緊急號碼，必須遵循在商務用 skype [Server 中規劃多個緊急](multiple-emergency-numbers.md) 號碼的資訊，並 [在商務用 skype 中設定多個緊急號碼](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。 
   
-您可以使用商務用 Skype 控制台或使用 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來建立位置原則。 如需詳細資訊，請參閱 [在商務用 Skype Server 中建立位置原則](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
+您可以使用商務用 Skype 控制台或使用 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來建立位置原則。 如需詳細資訊，請參閱 [在商務用 Skype Server 中建立位置原則](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
   
 每個位置原則都包含下列資訊：
   
@@ -90,5 +90,3 @@ PSTN 使用方式的名稱，此介面包含決定 SIP 主幹、PSTN 閘道或 E
  **位置重新整理間隔**
   
 指定從位置資訊服務之位置更新之用戶端要求 (的時間) （以小時為單位）。 此值可設為1到12之間的任何值。 預設值為 4。
-  
-

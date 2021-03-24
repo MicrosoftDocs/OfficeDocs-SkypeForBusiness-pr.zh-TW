@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: 瞭解位於商務用 Skype Server 的前端伺服器上的 Enterprise Voice 元件，包括轉譯服務和各種路由元件。
-ms.openlocfilehash: fcf1e30c0f6bbe0a292de54e4cc4b264774f9c7f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 830f54e59e0d2135e3748fd03474b19e22741136
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825653"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101489"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>適用于商務用 Skype Server 的前端伺服器 VoIP 元件
 
@@ -69,7 +69,7 @@ Exchange UM 路由元件也會在 Exchange UM 伺服器無法使用時，處理�
 
 為了啟用語音信箱重新路由，我們建議您的 Exchange 管理員設定 Exchange UM 自動語音應答 (AA) 僅接受郵件。
 
-如需這些功能的詳細資訊，請分別參閱＜[On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)＞及＜[Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)＞。
+如需這些功能的詳細資訊，請分別參閱＜[On-Premises Exchange Unified Messaging Integration](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)＞及＜[Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)＞。
 
 ## <a name="intercluster-routing-component"></a>Intercluster 路由元件
 
@@ -84,5 +84,3 @@ Intercluster 路由元件負責將通話路由傳送至被呼叫者的主要註�
 - **使用者複寫器。** 從 Active Directory 網域服務析取使用者電話號碼，並將它們寫入 RTC 資料庫中的表格，以供使用者服務和通訊錄服務器使用。 使用者複製器是所有前端伺服器上的核心元件。
 
 - **Address Book Server。** 將 Active Directory 網域服務的全域通訊清單資訊提供給商務用 Skype Server 用戶端。 它也會從 RTC 資料庫中取得使用者和連絡人資訊，並將資訊寫入通訊錄檔案，然後將檔案儲存在由商務用 Skype 用戶端下載之共用資料夾。 Address Book Server 會將資訊寫入 RTCAb 資料庫，而通訊錄 Web 查詢服務會使用該資訊，回應商務用 Skype mobile 的使用者搜尋查詢。 它會選擇性地正常化為了在商務用 Skype 中布建使用者連絡人而寫入 RTC 資料庫的企業使用者電話號碼。 預設會在所有前端伺服器上安裝通訊錄服務。 預設會隨每一部前端伺服器上的 Web 服務安裝通訊錄 Web 查詢服務。
-
-

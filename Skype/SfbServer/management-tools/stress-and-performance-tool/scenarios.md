@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: 使用壓力和效能工具，將商務用 Skype Server 2015 設定為執行效能和負載測試時所需執行的工作。
-ms.openlocfilehash: 3edc945f09ef5b2c7c6ecdefcbc66166f0945aec
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e0a3cc3767cf7652bda9bfacb14ced6632e32d87
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814703"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105369"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 應力和效能工具的效能案例
  
@@ -39,7 +39,7 @@ ms.locfileid: "49814703"
   
 ## <a name="stress-and-performance-tool-client-version-names"></a>應力和效能工具用戶端版本名稱
 
-如果您先前已變更預設值的設定，您可能需要設定用戶端版本檢查原則。 如果您不確定這一點，請查看 [用戶端版本檢查檔](https://msdn.microsoft.com/vsto/jj923060)。
+如果您先前已變更預設值的設定，您可能需要設定用戶端版本檢查原則。 如果您不確定這一點，請查看 [用戶端版本檢查檔](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules)。
   
 當與商務用 Skype Server 2015 通訊時，壓力和效能工具預設會使用下列使用者代理程式版本：
   
@@ -52,5 +52,3 @@ ms.locfileid: "49814703"
 - UCWA Perf 工具/Web 會議
     
 - UCWA Perf 工具/行動裝置
-    
-

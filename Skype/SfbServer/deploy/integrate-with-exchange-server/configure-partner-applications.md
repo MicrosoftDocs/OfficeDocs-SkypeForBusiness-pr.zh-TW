@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 摘要：將伺服器設定為 Exchange Server 2016 或 Exchange Server 2013 和商務用 Skype Server 的伺服器驗證。
-ms.openlocfilehash: a707836a43965f477dc037f71bb68cbda8c8e96c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47f192ce11a48ab4c256ac6a1f499aa24563a725
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834043"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110109"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>在商務用 Skype Server 和 Exchange Server 中設定合作夥伴應用程式
  
@@ -61,7 +61,7 @@ iisreset atl-exchange-001
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-在商務用 Skype Server 中，會使用 [New-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) Cmdlet 來設定夥伴應用程式。 除了指定中繼資料 URI 之外，您還應該將應用程式信任層級設定為 [完整]。這可讓 Exchange 同時代表該領域中的自身和任何經授權的使用者。 例如：
+在商務用 Skype Server 中，會使用 [New-CsPartnerApplication](/powershell/module/skype/new-cspartnerapplication?view=skype-ps) Cmdlet 來設定夥伴應用程式。 除了指定中繼資料 URI 之外，您還應該將應用程式信任層級設定為 [完整]。這可讓 Exchange 同時代表該領域中的自身和任何經授權的使用者。 例如：
   
 ```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -69,7 +69,7 @@ New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -Metadat
 
 或者，您也可以複製及修改商務用 Skype Server 的伺服器對伺服器驗證檔中找到的腳本程式碼，以建立合作夥伴應用程式。 如需詳細資訊，請參閱 [管理伺服器對伺服器驗證 (OAuth) 和商務用 Skype server 文章中的夥伴應用程式](../../manage/authentication/server-to-server-and-partner-applications.md) 。
   
-如果您已成功設定商務用 Skype Server 和 Exchange Server 的夥伴應用程式，您也已成功設定兩種產品之間的伺服器對伺服器驗證。 商務用 skype 伺服器包含 Windows PowerShell Cmdlet [Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) ，可讓您驗證服務器對伺服器驗證是否已正確設定，以及商務用 Skype Server Storage Service 是否可以連線至 Exchange 伺服器。 此 Cmdlet 的執行方式是連線至 Exchange Server 使用者的信箱、將專案寫入該使用者的 [交談記錄] 資料夾中，然後 (選擇性) 刪除該專案。
+如果您已成功設定商務用 Skype Server 和 Exchange Server 的夥伴應用程式，您也已成功設定兩種產品之間的伺服器對伺服器驗證。 商務用 skype 伺服器包含 Windows PowerShell Cmdlet [Test-CsExStorageConnectivity](/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) ，可讓您驗證服務器對伺服器驗證是否已正確設定，以及商務用 Skype Server Storage Service 是否可以連線至 Exchange 伺服器。 此 Cmdlet 的執行方式是連線至 Exchange Server 使用者的信箱、將專案寫入該使用者的 [交談記錄] 資料夾中，然後 (選擇性) 刪除該專案。
   
 若要測試商務用 Skype Server 和 Exchange Server 的整合，請從商務用 Skype Server 管理命令介面執行類似下列的命令：
   
@@ -80,6 +80,6 @@ Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 在上述命令中，SipUri 代表在 Exchange 伺服器上具有帳戶之使用者的 SIP 位址;您的命令將會失敗。這不是有效的使用者帳戶。
   
 > [!NOTE]
-> 如果您收到來自此 Cmdlet 的401回應，這可能是因為 Exchange 的預設設定不支援接受 Oauth 權杖。 如需在 Exchange 中使用 Oauth 的詳細資訊，請參閱 [Configure OAuth authentication with SharePoint 2013 And 商務用 Skype Server](https://go.microsoft.com/fwlink/p/?LinkId=513103)。 
+> 如果您收到來自此 Cmdlet 的401回應，這可能是因為 Exchange 的預設設定不支援接受 Oauth 權杖。 如需在 Exchange 中使用 Oauth 的詳細資訊，請參閱 [Configure OAuth authentication with SharePoint 2013 And 商務用 Skype Server](/exchange/configure-oauth-authentication-with-sharepoint-2013-and-lync-2013-exchange-2013-help)。 
   
 如果測試成功且已建立連線，您就可以繼續設定選用的功能，例如封存整合和整合連絡人存放區。

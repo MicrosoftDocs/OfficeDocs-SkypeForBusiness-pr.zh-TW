@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: 在商務用 Skype Server Enterprise Voice 中管理應用層級回應群組設定，例如「暫停音樂」和「回電設定」。
-ms.openlocfilehash: d41211b83e5ce0c27bb9efe1d3d15a6289ae38fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830783"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103469"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>在商務用 Skype 中管理應用層級回應群組設定
  
@@ -58,8 +58,8 @@ ms.locfileid: "49830783"
 
 ## <a name="see-also"></a>另請參閱
 
-[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[Get-CsRgsConfiguration](/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[Set-CsRgsConfiguration](/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

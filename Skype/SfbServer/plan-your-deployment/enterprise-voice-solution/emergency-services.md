@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 深入瞭解商務用 Skype Server Enterprise Voice 中的增強型 9-1-1 (E9-1-1) 服務，包括位置取得及通話路由。
-ms.openlocfilehash: e8eb805a4e4d55f08a4c6aec1a57618c74bcfa02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d480a679367da4e8b6070c69127735b7ab59252d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825763"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101549"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃緊急服務
 
@@ -82,7 +82,7 @@ ms.locfileid: "49825763"
 
 若要讓用戶端取得位置，必須進行下列步驟：
 
-1. 系統管理員會以網路線路圖將各種網路位址對應至對應緊急回應位置（ (Erl) # A3）的 [網路] (表格，填入位置資訊服務資料庫。
+1. 系統管理員會以網路線路圖 (表格，將各種網路位址類型對應至對應的緊急回應位置 (Erl) ) 。
 
 2. 如果您使用 SIP 主幹 E9-1-1 服務提供者，則系統管理員會依照主要街道位址指南 (MSAG) E9-1-1 服務提供者所維護的資料庫來驗證 Erl 的市政位址部分。 如果您使用的是 ELIN 閘道，則系統管理員會確保 PSTN 載波將 Elin 上傳至自動位置識別 (阿裡) 資料庫。
 
@@ -92,7 +92,7 @@ ms.locfileid: "49825763"
 
 ## <a name="routing-e9-1-1-calls-using-a-sip-trunk"></a>使用 SIP 主幹路由傳送 E9-1-1 通話
 
-使用 SIP 主幹來連線到合格的 E9-1-1 服務提供者，是部署 E9-1-1 的方式之一。 如需使用 ELIN 閘道來連線到公用交換電話網路 (PSTN) 型 E9-1-1 服務提供者的詳細資訊，請參閱＜[Routing E9-1-1 Calls by Using an ELIN Gateway](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx)＞。
+使用 SIP 主幹來連線到合格的 E9-1-1 服務提供者，是部署 E9-1-1 的方式之一。 如需使用 ELIN 閘道來連線到公用交換電話網路 (PSTN) 型 E9-1-1 服務提供者的詳細資訊，請參閱＜[Routing E9-1-1 Calls by Using an ELIN Gateway](/previous-versions/office/lync-server-2013/lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway)＞。
 
 下圖顯示當您使用 SIP 主幹和合格的 E9-1-1 服務提供者時，緊急通話如何從商務用 Skype Server 路由傳送至公用安全回應點 (PSAP) 。
 
@@ -116,7 +116,7 @@ ms.locfileid: "49825763"
 
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>使用 ELIN 閘道路由傳送 E9-1-1 通話
 
-Unified Communications Open Interoperability Program 中的部分合作夥伴會提供具合格緊急位置識別碼 (ELIN) 功能的閘道，對合格的 E9-1-1 服務提供者而言，這些閘道可用來作為 SIP 主幹連線的替代方式。 ELIN 閘道支援 ISDN 或集中式自動訊息記帳 (CAMA) 連線到公用交換電話網路 (PSTN) E9-1-1 服務的功能。 如需提供 ELIN 閘道和其檔連結的合作夥伴詳細資訊，請參閱 Microsoft Lync 和[商務用 Skype 基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)的[合格基礎結構](https://go.microsoft.com/fwlink/p/?LinkId=248425)。
+Unified Communications Open Interoperability Program 中的部分合作夥伴會提供具合格緊急位置識別碼 (ELIN) 功能的閘道，對合格的 E9-1-1 服務提供者而言，這些閘道可用來作為 SIP 主幹連線的替代方式。 ELIN 閘道支援 ISDN 或集中式自動訊息記帳 (CAMA) 連線到公用交換電話網路 (PSTN) E9-1-1 服務的功能。 如需提供 ELIN 閘道和其檔連結的合作夥伴詳細資訊，請參閱 Microsoft Lync 和[商務用 Skype 基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)的[合格基礎結構](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
 
 與 E9-1-1 服務提供者的 SIP 主幹連線，ELIN 閘道也會提供方法，將緊急通話路由傳送至來電者最適當的公用安全回應點 (PSAP) ，但這些閘道使用 ELIN 做為位置識別碼。 您為組織中的每個緊急回應位置 (ERL) 定義 Elin (如需詳細資訊，請參閱 [在商務用 Skype Server) 中管理 ELIN 閘道的位置](elin-gateways.md) 。
 
@@ -127,7 +127,7 @@ Unified Communications Open Interoperability Program 中的部分合作夥伴會
 ELIN 閘道僅支援從您組織的網路內部撥打的緊急通話。 這些閘道不支援從您網路外部撥打的緊急通話。
 
 > [!NOTE]
-> 如需針對緊急通話使用 SIP 主幹連線的詳細資訊，請參閱＜[Routing E9-1-1 Calls by Using a SIP Trunk](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx)＞。
+> 如需針對緊急通話使用 SIP 主幹連線的詳細資訊，請參閱＜[Routing E9-1-1 Calls by Using a SIP Trunk](/previous-versions/office/lync-server-2013/lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk)＞。
 
 下圖顯示當您使用 ELIN 閘道時，緊急通話如何從商務用 Skype Server 路由傳送至 PSAP。
 
@@ -146,5 +146,3 @@ ELIN 閘道僅支援從您組織的網路內部撥打的緊急通話。 這些�
 5. 如果您已設定通知的位置原則，則會傳送一或多個組織的安全性監察官，以傳送特殊的商務用 Skype 緊急通知立即訊息。 此訊息永遠會在安全性監察官的畫面上彈出 (s) 並包含來電者的名稱、電話號碼、時間和位置，讓安全性人員能夠使用立即訊息或語音，快速回應緊急來電者。
 
 6. 如果通話提前中斷，PSAP 會使用 ELIN 直接連絡來電者。ELIN 閘道會將 ELIN 更換為來電者的 DID。
-
-

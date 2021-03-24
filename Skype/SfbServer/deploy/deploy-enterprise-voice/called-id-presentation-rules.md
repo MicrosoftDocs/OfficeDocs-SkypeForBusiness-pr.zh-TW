@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要：瞭解如何使用商務用 Skype Server 中的組建轉譯規則工具來定義轉譯規則。
-ms.openlocfilehash: b93d271abd0ade1b178e859f2a0599464a6759e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804193"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103639"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改呼叫識別碼簡報的轉譯規則
 
 **摘要：** 瞭解如何使用商務用 Skype Server 中的組建轉譯規則工具來定義轉譯規則。
 
-若要定義轉譯規則，請在 [ **組建轉譯規則** ] 工具中輸入一組值，並啟用商務用 Skype Server 控制台，為您產生對應的相符模式和轉譯規則，以執行下列步驟。 或者，您可以手動寫入正則運算式，以定義符合的模式和轉譯規則。 如需詳細資訊，請參閱 [手動建立或修改轉譯規則](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)。
+若要定義轉譯規則，請在 [ **組建轉譯規則** ] 工具中輸入一組值，並啟用商務用 Skype Server 控制台，為您產生對應的相符模式和轉譯規則，以執行下列步驟。 或者，您可以手動寫入正則運算式，以定義符合的模式和轉譯規則。 如需詳細資訊，請參閱 [手動建立或修改轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)。
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>使用組建轉譯規則工具定義規則
 
@@ -110,4 +110,3 @@ ms.locfileid: "49804193"
 [在商務用 Skype 中將擱置的變更發佈至語音路由設定](voice-route-config-changes.md)
 
 [在商務用 Skype Server 中部署媒體旁路](deploy-media-bypass.md)
-

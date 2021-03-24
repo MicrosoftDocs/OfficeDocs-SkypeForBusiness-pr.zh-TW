@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組假日集。
-ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830983"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103679"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (選用) 在商務用 Skype 中定義回應群組假日集
  
@@ -59,6 +59,6 @@ ms.locfileid: "49830983"
 
 [在商務用 Skype 中設計及建立回應群組工作流程](designing-and-creating-response-group-workflows.md)
 
-[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[New-CsRgsHolidaySet](/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

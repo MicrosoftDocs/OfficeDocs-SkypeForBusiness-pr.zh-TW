@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 摘要：瞭解如何在商務用 Skype Server 中定義、建立及修改正常化規則。
-ms.openlocfilehash: 6f8619304e9d3d801dfa430e6addb5105a2b82a2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3550e27884d125f065c4688fec2ace797f9e8ce2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830763"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103389"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>在商務用 Skype 中建立或修改正規化規則
 
@@ -33,7 +33,7 @@ ms.locfileid: "49830763"
 
 1. 開啟商務用 Skype Server 控制台
 
-2.  (選用) 請遵循下列步驟，以在 [商務用 Skype Server 中建立或修改撥號對應表中](dial-plans.md) 的步驟11或修改透過步驟 10 [的撥號](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) 對應表。
+2.  (選用) 請遵循下列步驟，以在 [商務用 Skype Server 中建立或修改撥號對應表中](dial-plans.md) 的步驟11或修改透過步驟 10 [的撥號](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) 對應表。
 
 3. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，5DigitExtension) 。
 
@@ -66,7 +66,7 @@ ms.locfileid: "49830763"
 8.  (選用) 請輸入號碼以測試正規化規則，然後按一下 [ **移至**]。 測試結果會顯示在 [ **輸入要測試的號碼**] 底下。
 
     > [!NOTE]
-    > 您可以儲存尚未通過測試的正規化規則，然後稍後再加以重新設定。 如需詳細資訊，請參閱＜[Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)＞。
+    > 您可以儲存尚未通過測試的正規化規則，然後稍後再加以重新設定。 如需詳細資訊，請參閱＜[Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)＞。
 
 9. 按一下 **[確定]** 儲存正規化規則。
 
@@ -109,5 +109,3 @@ ms.locfileid: "49830763"
 
     > [!NOTE]
     > 當您建立或變更正規化規則時，您必須執行 [ **全部認可** ] 命令來發佈設定變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
-
-

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: 「用戶端行動性原則」頁面會顯示您可在部署中使用的行動性原則。
-ms.openlocfilehash: 41dbe29e29d97f1b50ff818494ebca00a5870502
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4ea7e3113a1a2b12920f83d2d8c5a3e5d0df0a97
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807473"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103435"
 ---
 # <a name="clients-mobility-policy"></a>用戶端：行動性原則
 
@@ -50,10 +50,10 @@ ms.locfileid: "49807473"
 
 - **Refresh** 重新整理顯示的原則清單。 當 **您按一下 [** 重新整理] 時，會清除搜尋篩選字串並顯示所有現有的原則。
 
-如需設定行動性原則的詳細資訊，請參閱＜[Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)＞。
+如需設定行動性原則的詳細資訊，請參閱＜[Configuring Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy)＞。
 
 ## <a name="see-also"></a>另請參閱
 
-[行動規劃](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[行動規劃](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 
-[部署行動性](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[部署行動性](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)

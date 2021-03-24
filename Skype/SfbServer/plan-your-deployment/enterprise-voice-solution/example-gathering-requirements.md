@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 提供在商務用 Skype Server Enterprise Voice 中規劃通話許可控制的詳細範例，包括收集網路網站、地區和頻寬的相關資訊。
-ms.openlocfilehash: a51ffe9248a8d5daf1e21a9c20bb753ddb26898f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 65bf3c07b2186ae8251c570880d54242944ff6e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101509"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>範例：在商務用 Skype Server 中收集通話許可控制需求
 
@@ -238,6 +238,4 @@ ms.locfileid: "49825683"
 收集必要資訊之後，您可以使用商務用 Skype Server 管理命令介面或商務用 Skype Server 控制台執行 CAC 部署。
 
 > [!NOTE]
-> 雖然您可以使用商務用 Skype Server 控制台執行大部分的網路設定工作，但若要建立子網和網站間連結，則必須使用商務用 Skype Server 管理命令介面。 如需詳細資訊，請參閱 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 和 [CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。 
-
-
+> 雖然您可以使用商務用 Skype Server 控制台執行大部分的網路設定工作，但若要建立子網和網站間連結，則必須使用商務用 Skype Server 管理命令介面。 如需詳細資訊，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 和 [CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。

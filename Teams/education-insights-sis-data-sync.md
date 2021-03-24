@@ -16,24 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: d0403e2e804397249dfd07eb03843e6b0b38653c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196577"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102119"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>將學生資訊系統 (SIS) 資料與 Education Insights 同步處理
 送入 [Education Insights](class-insights.md) 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
 
-若要提供組織層級 Insights，我們必須使用[學校資料同步處理 (SDS)](https://docs.microsoft.com/SchoolDataSync) 來連線到學生資訊系統 (SIS)，使得 Insights 會有正確對應的教育系統階層結構。 
+若要提供組織層級 Insights，我們必須使用[學校資料同步處理 (SDS)](/SchoolDataSync) 來連線到學生資訊系統 (SIS)，使得 Insights 會有正確對應的教育系統階層結構。 
 
 以班級授課者身分檢視班級層級的 Insights 並 *不需要* 此同步動作，因為我們會使用 Teams 的班級結構和權限。
 
 ## <a name="plan-your-sis-integration"></a>規劃 SIS 整合
 SIS 資料提供了教育系統的階層結構，並對應了指派給使用者的位置。
 
-Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format)時效果最好，但也支援功能有 *限制* 的 [SDS V1 檔案格式](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds)。
+Insights 在使用 [SDS V2 檔案格式](/schooldatasync/sds-v2-csv-file-format)時效果最好，但也支援功能有 *限制* 的 [SDS V1 檔案格式](/schooldatasync/school-data-sync-format-csv-files-for-sds)。
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 和 V2 檔案格式之間的差异
 
@@ -80,7 +80,7 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
     
     *   根據員工的組織單元，您可以定義相關的權限。 確保它們與正確的單元層級相關聯，以便它們取得所需的權限。 例如，指派到四所學校的輔導員需要查看這些學校的所有班級；校長需要查看他們學校的所有班級。 
     
-*   這個角色至關重要。 雖然此清單為封閉式，請嘗試將[此清單](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)的角色與您上傳的每個使用者的真實角色相對應。 這樣，就可以相應地指派以角色為基礎的權限。 例如，為所有校長提供查看其學校班級的權限，或為所有教授提供查看其教職員的權限。 
+*   這個角色至關重要。 雖然此清單為封閉式，請嘗試將[此清單](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)的角色與您上傳的每個使用者的真實角色相對應。 這樣，就可以相應地指派以角色為基礎的權限。 例如，為所有校長提供查看其學校班級的權限，或為所有教授提供查看其教職員的權限。 
 
 ### <a name="organizations"></a>組織
 
@@ -89,7 +89,7 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
 * 確保 *組織樹下的所有組織單元都包含學生或班級*，以便為他們彙總學生資料。 我們建議學生處於樹的最低支。
 
 > [!NOTE]
-> 有關 SDS 部署的更多詳細資訊，請造訪[規劃 SDS](https://docs.microsoft.com/schooldatasync/planning-school-data-sync)。
+> 有關 SDS 部署的更多詳細資訊，請造訪[規劃 SDS](/schooldatasync/planning-school-data-sync)。
 
 ## <a name="integrate-sis-using-sds"></a>使用 SDS 整合 SIS
 
@@ -116,7 +116,7 @@ Insights 在使用 [SDS V2 檔案格式](https://docs.microsoft.com/schooldatasy
 
 :::image type="content" source="media/insights-sds-profile-sync.png" alt-text="與 Insights 同步設定檔切換":::
 
-**如果您尚未使用 SDS**，那麼您需要 [部署它](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)。
+**如果您尚未使用 SDS**，那麼您需要 [部署它](/schooldatasync/deploying-school-data-sync)。
 
 在部署過程中，您可以决定是使用 SDS 在 Teams 中設定使用者和班級，還是只使用 SDS 向 Insights 提供資料。
 

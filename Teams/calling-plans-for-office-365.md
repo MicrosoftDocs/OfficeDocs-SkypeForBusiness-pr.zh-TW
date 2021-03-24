@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 通話方案
+title: Microsoft 365 的通話方案
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,70 +25,70 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: '瞭解通話方案 (PSTN 通話方案) 中的 [商務用 Skype] 選項，以及如何取得貴組織的授權。 '
-ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: '瞭解商務用 Skype (PSTN 通話) 方案，以及如何取得貴組織授權。 '
+ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130414"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102739"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 通話方案
+# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 的通話方案
 
-呼叫其他商務用 Skype 和 Microsoft 團隊使用者是免費的，但如果您想讓使用者能夠呼叫一般電話，而您還沒有服務提供者撥打語音通話，您必須購買通話方案。 如需詳細資訊，請參閱 [電話系統和通話方案](calling-plan-landing-page.md)。
+撥打給其他商務用 Skype 和 Microsoft Teams 使用者是免費的，但如果您希望使用者能夠撥打一般電話，而且您還沒有服務提供者進行語音通話，您需要購買通話方案。 詳細資訊，請參閱 [電話系統與通話方案](calling-plan-landing-page.md)。
   
 以下是通話方案選項：
   
-- **國內通話方案**：授權的使用者可以撥出在 Microsoft 365 或 Office 365 中指派給他們的國家/地區號碼。
+- **國內通話方案**：授權使用者可以撥打位於在 Microsoft 365 或 Office 365 中指派之國家/地區的號碼。
     
-- **國內和國際通話方案**：授權的使用者可以撥打 Microsoft 365 或 Office 365 授權根據使用者的位置指派給使用者的電話號碼，以及在 [196 國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)的國際電話號碼。
+- 國內和國際通話方案：授權使用者可以撥打位於其 Microsoft 365 或 Office 365 授權指派給使用者的國家/地區號碼，以及[196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)個國家/地區的國際號碼。
 
-同一個國家/地區中的所有使用者 (這是在 Microsoft 365 系統管理中心的授權區域中定義的使用者國家地區位置，) 使用相同的通話方案共用一或幾分鐘的時間。 例如，如果您的100使用者位於同一個國家/地區，且指派了120分鐘的國內通話方案，則它們會共用一個12000分鐘的文件庫。 所有超過這些分鐘數的通話都會每分鐘計費。
+同一個國家/地區的所有使用者 (這是 Microsoft 365 系統管理中心授權區域中定義的使用者國家/地區位置) 同一通話方案共用一個通話區。 例如，如果您指派了 120 分鐘的國內通話方案，而在同一個國家/地區有 100 位使用者，則他們共用 12，000 分鐘的通話時間。 超過這些分鐘的所有通話都按每分鐘計費。
     
-造訪 [國家/地區的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，找出每個國家/地區的每個組織可使用的每月通話分鐘數。
+流覽 [國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，瞭解每個國家/地區每個組織每月可用的分鐘數。
   
 > [!IMPORTANT]
-> [國家/地區] 是以 **microsoft 365 系統管理中心**[作用中使用者] 的使用者授權位置為基礎  >  **Active users** ，**而不** 是以 **microsoft 365 系統管理中心**[**組織設定檔**] 底下所列的帳單位址為基礎。   
+> 國家/地區是根據使用者授權在 **Microsoft 365** 系統管理中心作用中使用者的位置，而非  >  **** Microsoft  **365** 系統管理中心中列在組織 **設定檔** 下的帳單位址。   
 ![使用者授權位置的螢幕擷取畫面](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-如需使用限制和使用條款的詳細資訊，請參閱 [音訊會議免費撥出期間](complimentary-dial-out-period.md)。
+有關使用限制及使用條款的詳細資訊，請參閱 [音訊會議免費撥出期間](complimentary-dial-out-period.md)。
   
 ## <a name="how-to-buy-a-calling-plan"></a>如何購買通話方案
 
-1. <strong>您必須先購買 * * 電話系統</strong>附加元件授權 <strong>。若要這樣做，請登 [入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，然後選擇 [* * 帳單</strong>  >  **購買服務**]  >  **附加元件訂閱**（  >  **立即購買**）。
+1. <strong>您必須先購買 **Phone System</strong>附加元件授權 <strong>。若要這麼做，請 [登錄 Microsoft 365 系統](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)</strong>管理中心，然後選擇 **帳單  >  **購買服務** 附加元件  >  **訂閱** 立即  >  **購買**。
     
-    ![螢幕擷取畫面顯示購買語音通話方案的選項。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![顯示購買語音通話方案選項的螢幕擷取畫面。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 視您的方案而定，您可能需要購買更多附加元件，才能購買電話系統授權。 若要深入瞭解，請參閱 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+    > 視您的方案，您可能需要購買更多附加元件，才能購買電話系統授權。 若要深入瞭解，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-2. 購買電話系統授權之後，您可以登入 **Microsoft 365 管理中心**，選擇 [**帳單**  >  **購買服務**  >  **附加元件訂閱**]，然後按一下 [**立即購買**]，即可購買通話方案。 您會在這裡看到通話方案。
+2. 購買電話系統授權之後，您可以登錄 **Microsoft 365** 系統管理中心，選擇帳單購買服務附加元件訂閱，然後按一下立即購買來購買通話  >    >  ******方案**。 您可以在此看到通話方案。
     
     ![顯示語音通話方案選項的螢幕擷取畫面。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-您可以根據組織的需求，購買並指派不同的通話方案給不同的使用者。 在您選取所需的通話方案後，請繼續結帳。 您可以在 Microsoft 365 系統管理中心將計畫指派給每個使用者。 若要瞭解做法，請參閱 [指派 Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+您可以視貴組織的需求，購買不同的通話方案並指派給不同的使用者。 選取所需的通話方案之後，請繼續結帳。 您指派方案給 Microsoft 365 系統管理中心的每個使用者。 若要瞭解如何進行，請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>您是否有服務提供者為混合式使用者提供內部部署 PSTN 連線能力？
+## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>您是否有服務提供者為混合式使用者提供內部部署 PSTN 連接？
 
-如果是這樣，您就不需要購買通話方案。 Office 365 企業版 E5 包括 [ **電話系統** ] 附加元件，所以您可以繼續結帳。
+如果是這樣，則不需要購買通話方案。 Office 365 企業版 E5 包含 **電話系統** 附加元件，因此您可以繼續結帳。
   
-然後，將企業版 E5 或 **電話系統** 附加元件授權指派給 Microsoft 365 系統管理中心的使用者。 若要瞭解做法，請參閱 [指派 Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+接著，將企業版 E5 或 **Phone System** 附加元件授權指派給 Microsoft 365 系統管理中心的使用者。 若要瞭解如何進行，請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="pricing-information"></a>定價資訊
 
-- [通話方案和電話系統的價格](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
+- [通話方案與電話系統的定價](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
     
 - [音訊會議的定價](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings)
     
-## <a name="for-more-information"></a>如需詳細資訊
+## <a name="for-more-information"></a>詳細資訊
 
-以下是更多相關文章，說明如何設定您的通話方案：
+以下是說明如何設定通話方案之更多文章：
   
 - [設定通話方案](set-up-calling-plans.md)
     
-- [Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [以下是您在 Microsoft 365 或 Office 365 中的電話系統所取得的結果](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [以下是 Microsoft 365 或 Office 365 中的電話系統功能](./here-s-what-you-get-with-phone-system.md)
     
    
 ## <a name="related-topics"></a>相關主題
@@ -100,4 +100,3 @@ ms.locfileid: "49130414"
 - [設定通話方案](set-up-calling-plans.md)
     
 - [加值和管理通訊點數](add-funds-and-manage-communications-credits.md)
- 

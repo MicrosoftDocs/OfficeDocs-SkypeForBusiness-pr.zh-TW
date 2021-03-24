@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有前端集區或 Standard Edition server 的設定，您會看到下列各節：
-ms.openlocfilehash: d1fa04d2b581fbdb359e01fc776fea8c16d9eb52
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0eff10b89c05980e5b2d425c43266fafd70461e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833493"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101899"
 ---
 # <a name="front-end-general-settings-expander"></a>前端一般設定展開工具
 
@@ -36,7 +36,7 @@ ms.locfileid: "49833493"
 
 ## <a name="front-end-pool"></a>前端集區
 
-若為前端集區，您可以設定一般、恢復、web 服務及轉送伺服器設定。 如需詳細資訊，請參閱下列小節中的資訊。 如需定義和設定前端集區之設定的詳細資訊，請參閱 [部署轉送伺服器及定義對等](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+若為前端集區，您可以設定一般、恢復、web 服務及轉送伺服器設定。 如需詳細資訊，請參閱下列小節中的資訊。 如需定義和設定前端集區之設定的詳細資訊，請參閱 [部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ### <a name="general-settings"></a>一般設定
 
@@ -127,11 +127,11 @@ ms.locfileid: "49833493"
 
 - 如果您有多個主幹與轉送伺服器相關聯，您可以選取閘道，然後按一下 [ **成為預設**]，以指定預設主幹。 若要取消選取成為預設的閘道，請按一下 [取消預設]。
 
-如需定義和設定前端集區之設定的詳細資訊，請參閱 [部署轉送伺服器及定義對等](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+如需定義和設定前端集區之設定的詳細資訊，請參閱 [部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ## <a name="standard-edition-server"></a>Standard Edition Server
 
-對於 Standard Edition server，您可以設定一般、恢復性、web 服務及轉送伺服器設定。 如需詳細資訊，請參閱下列小節中的資訊。 如需定義及設定 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 及 [部署轉送伺服器及定義對等](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+對於 Standard Edition server，您可以設定一般、恢復性、web 服務及轉送伺服器設定。 如需詳細資訊，請參閱下列小節中的資訊。 如需定義及設定 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) 及 [部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ### <a name="general-settings"></a>一般設定
 
@@ -206,6 +206,4 @@ ms.locfileid: "49833493"
 
 - 如果您有多個閘道與轉送伺服器相關聯，您可以選取閘道，然後按一下 [ **成為預設**]，以指定預設閘道。 若要取消選取成為預設的閘道，請按一下 [取消預設]。
 
-如需定義及設定 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) 及 [部署轉送伺服器及定義對等](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
-
-
+如需定義及設定 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) 及 [部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。

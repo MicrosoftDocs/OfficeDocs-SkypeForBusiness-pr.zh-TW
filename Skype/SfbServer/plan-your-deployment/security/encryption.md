@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: 商務用 Skype Server 使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部網路或越過內部網路周邊，所有伺服器對伺服器的流量都需要 MTLS。 將商務用 Skype 伺服器連接到協力廠商 IPPBX 系統或 SIP 主幹 TLS 是選用的，但強烈建議在轉送伺服器和媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自轉送伺服器所信任之 CA 的憑證加以設定。
-ms.openlocfilehash: 48af03d7f6aed5b744ad4e0c460622194a87d96e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 269a5394f5438802c68dabed17081c71a353a2b5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832203"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104229"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>商務用 Skype Server 的加密
  
 商務用 Skype Server 使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部網路或越過內部網路周邊，所有伺服器對伺服器的流量都需要 MTLS。 將商務用 Skype 伺服器連接至協力廠商 IPPBX 系統或 SIP 主幹 TLS 是選用的，但強烈建議在轉送伺服器和媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自轉送伺服器所信任之 CA 的憑證加以設定。
   
 > [!NOTE]
-> 有關 SSL 3.0 的安全性通報已在2014中發佈。 在商務用 Skype Server 2015 中停用 SSL 3.0 是支援的選項。 若要深入瞭解安全性通報，請參閱 [在 Lync server 2013 和商務用 Skype server 2015 中停用 SSL 3.0](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/)。<br/>
+> 有關 SSL 3.0 的安全性通報已在2014中發佈。 在商務用 Skype Server 2015 中停用 SSL 3.0 是支援的選項。 若要深入瞭解安全性通報，請參閱 [在 Lync server 2013 和商務用 Skype server 2015 中停用 SSL 3.0](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013)。<br/>
 **安全性附注：** 為了確保使用最強的加密通訊協定，商務用 Skype Server 2015 會依照下列順序為用戶端提供 TLS 加密通訊協定： **tls 1.2，tls 1.1，tls 1.0**。 TLS 是商務用 Skype Server 2015 的重要層面，因此必須用來維護支援的環境。<br/>
 **安全性附注：** 為了確保使用最強的加密通訊協定，商務用 Skype Server 2019 會依照下列順序為用戶端提供 TLS 加密通訊協定： **tls 1.3，tls 1.2**。 TLS 是商務用 Skype Server 2019 的重要層面，因此必須用來維護支援的環境。 
   
@@ -53,5 +53,3 @@ ms.locfileid: "49832203"
 ## <a name="fips"></a>Fips
 
 商務用 Skype Server 和 Microsoft Exchange Server 2016 的運作方式支援聯邦資訊處理標準 (FIPS) 140-2 演算法（如果 Windows Server 作業系統設定為使用 FIPS 140-2 演算法進行系統加密）。 若要實施 FIPS 支援，您必須設定每台執行商務用 Skype Server 的伺服器，以支援。
-  
-

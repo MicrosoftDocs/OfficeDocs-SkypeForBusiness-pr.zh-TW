@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 本文說明如何管理在商務用 Skype 伺服器拓撲中執行的服務。
-ms.openlocfilehash: 05bf37248e710424b7540fe0dbcc10338bd1f4bb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d0669eab34795de3241c954f2eda593eda474193
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816593"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104379"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>管理商務用 Skype Server 的服務
 
@@ -77,7 +77,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 |{ConferencingServer}  <br/> |正在執行  <br/> |
 |{MediationServer}  <br/> |正在執行  <br/> |
    
-如需詳細資訊，請參閱 [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)。
+如需詳細資訊，請參閱 [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)。
   
 ## <a name="view-details-about-a-service"></a>查看服務的詳細資料
 <a name="view_details"> </a>
@@ -153,5 +153,3 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 7. 按一下 **[動作]**。
 8. 按一下 **[阻止對服務的新工作階段]**。
 9. 按一下 **[關閉]**。
-    
-

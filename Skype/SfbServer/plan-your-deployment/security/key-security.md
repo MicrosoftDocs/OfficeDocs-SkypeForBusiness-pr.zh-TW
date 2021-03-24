@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: 商務用 Skype 伺服器包含數個安全性功能，包括伺服器對伺服器驗證、角色型存取控制，以及設定資料的集中式儲存區。
-ms.openlocfilehash: 1163216f2aeb369576f51af53180297f8028813e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1cf1e5f2866a3d03d77604afc83061b420658468
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832173"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104219"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>商務用 Skype Server 中的重要安全性功能
  
@@ -71,12 +71,10 @@ ms.locfileid: "49832173"
   
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>可信賴的計算安全性開發生命週期 (SDL) 
 
-商務用 Skype 伺服器的設計和開發符合 [Microsoft 可信賴的計算安全性開發生命週期](https://go.microsoft.com/fwlink/p/?linkid=68761) (SDL) 。
+商務用 Skype 伺服器的設計和開發符合 [Microsoft 可信賴的計算安全性開發生命週期](/previous-versions/ms995349(v=msdn.10)) (SDL) 。
   
 - **以設計為可信** 建立更安全的整合通訊系統的第一步是設計威脅模型，並在設計時測試每項功能。 此外，Microsoft 會在設計行為以外執行測試，以找出意外產品行為所產生的安全性弱點。 編碼程式和作法內建了多種安全性相關的增強功能。 組建時間工具會在將程式碼存回最終產品之前，偵測緩衝區溢位及其他潛在安全性威脅。 當然，不可能針對所有未知的安全性威脅進行設計。 任何系統都不能保證完整的安全性。 不過，因為產品開發採用從開始的安全性設計原則，所以商務用 Skype 伺服器將業界標準安全性技術併入其架構的基礎部分。
     
 - **預設為可信** 依預設，商務用 Skype Server 中的網路通訊都會加密。 由於所有伺服器都使用憑證及 Kerberos 驗證、TLS、安全 Real-Time 傳輸通訊協定 (SRTP) 和其他業界標準加密技術，包括128位的進階加密標準 (AES) 加密，實際上所有的商務用 Skype 伺服器資料都會在網路上受到保護。 此外，以角色為基礎的存取控制可讓您部署執行商務用 Skype 伺服器的伺服器，如此一來，每個伺服器角色都只執行服務，而且只會具有與這些服務相關的許可權，這些都適用于伺服器角色。
     
 - **信任的部署** 所有商務用 Skype Server 檔都包含最佳作法和建議，可協助您決定及設定部署的最佳安全性層級，並評估啟用非預設選項的安全性風險。
-    
-

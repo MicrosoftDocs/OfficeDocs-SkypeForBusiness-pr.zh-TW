@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 回應群組佇列會將呼叫保留給回應群組，直到代理接聽來電為止。 佇列已指派代理人群組。 當您建立或編輯佇列時，您可以使用 [選取群組] 對話方塊，選取要指派給佇列的一或多個代理人群組。
-ms.openlocfilehash: 34f0ca972e14a502c8374c4057875d9fb10ddd9f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9ea42d4418bebd4192954d681f041923327fa355
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821873"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107899"
 ---
 # <a name="select-groups"></a>選取群組
 
@@ -38,6 +38,4 @@ ms.locfileid: "49821873"
 
 - **路由方法** 顯示為 agent 群組定義的路由類型。
 
-如需使用佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 。
-
-
+如需使用佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 。

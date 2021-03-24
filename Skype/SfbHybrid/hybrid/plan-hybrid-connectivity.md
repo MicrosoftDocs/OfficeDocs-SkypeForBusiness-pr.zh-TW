@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 透過設定商務用 Skype 混合模式，規劃在商務用 Skype Server 和團隊或商務用 skype Online 之間實施混合式連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 856172d5fba3df96b2456f0ceca1c661120e84e4
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 1a43243f4b5ce827a7c688c1aad1983466aa6ca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878577"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110259"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線
 
@@ -38,7 +38,7 @@ ms.locfileid: "48878577"
 閱讀本主題並準備好設定混合式連線後，請參閱 [設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線。 設定主題為設定內部部署與小組或商務用 Skype Online 之間設定混合式連線的逐步指引。
 
 > [!Important]
-> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 ## <a name="about-shared-sip-address-space-functionality"></a>關於共用 SIP 位址空間功能
 
@@ -72,7 +72,7 @@ ms.locfileid: "48878577"
     > [!NOTE]
     > 您可以使用單一租使用者進行混合式設定與您的內部部署。
     
-- Azure Active Directory Connect 以將您的內部部署目錄與 Microsoft 365 或 Office 365 同步。 如需詳細資訊，請參閱 [AZURE AD Connect：帳戶和許可權](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- Azure Active Directory Connect 以將您的內部部署目錄與 Microsoft 365 或 Office 365 同步。 如需詳細資訊，請參閱 [AZURE AD Connect：帳戶和許可權](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
 - 商務用 Skype Server 系統管理工具。 這些是將使用者從內部部署移至雲端的必要條件。 這些工具必須安裝在具有內部部署和網際網路存取權的伺服器上。
 - 線上系統管理工具。 您可以使用團隊系統管理中心或 Windows PowerShell 來管理團隊和商務用 Skype Online。 若要使用 PowerShell 管理小組或商務用 Skype Online，請下載並安裝商務用 Skype Online 連接器。
@@ -94,7 +94,7 @@ ms.locfileid: "48878577"
   - Lync Server 2013 和商務用 Skype Server 2019
   - Lync Server 2013 和商務用 Skype Server 2015
 
-*如果任何拓撲中需要混合式語音* ，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱 [Plan Phone System WITH PSTN Connectivity In 商務用 Skype Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
+*如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱 [Plan Phone System WITH PSTN Connectivity In 商務用 Skype Server](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)。
 
 下列包括 Lync Server 2010 的拓撲支援立即訊息和會議的 **商務用 Skype Online** 。 **混合式語音或小組不支援包含 Lync Server 2010** 的拓撲。
 
@@ -117,7 +117,7 @@ Microsoft 支援下列多樹系混合式案例類型：
 
 - **多個樹系中商務用 Skype Server 的多個部署。** 這項設定會因合併和收購案例，以及更複雜的企業而產生。 若有多個商務用 Skype 部署的組織，您可以在單一 Microsoft 365 或 Office 365 組織中，將所有使用者從內部部署整合至雲端，但前提是符合下列主要需求：
   - 最多隻能有一個 Microsoft 365 或 Office 365 組織參與。 不支援在具有多個組織之案例中進行合併。
-  - 在任何指定時間，只有一個內部部署商務用 Skype 樹系可以在混合模式中 (共用 SIP 位址空間) 。 其他所有的內部部署商務用 Skype 樹系都必須完全在內部部署中 (，並將每個其他) 的同盟。 請注意，如有需要，這些其他內部部署組織可以與 AAD 同步處理，以停用於12月2018的 [線上 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) 。
+  - 在任何指定時間，只有一個內部部署商務用 Skype 樹系可以在混合模式中 (共用 SIP 位址空間) 。 其他所有的內部部署商務用 Skype 樹系都必須完全在內部部署中 (，並將每個其他) 的同盟。 請注意，如有需要，這些其他內部部署組織可以與 AAD 同步處理，以停用於12月2018的 [線上 SIP 網域](/powershell/module/skype/disable-csonlinesipdomain) 。
 
     在多個樹系中部署商務用 Skype 的客戶，必須透過分割網域 (共用 SIP 位址空間) 功能，將每個商務用 skype 樹系完全遷移到 Microsoft 365 或 Office 365 組織中，然後再停用內部部署的混合式，再繼續遷移下一個內部部署商務用 Skype 部署。 此外，在遷移至雲端之前，內部部署使用者仍保持同盟狀態，而不是在相同使用者的內部部署目錄中呈現任何使用者。 如需詳細資訊，請參閱 [Cloud 整合小組和商務用 Skype](cloud-consolidation.md)。
 
@@ -164,4 +164,4 @@ Microsoft 支援下列多樹系混合式案例類型：
 
 根據您的 Microsoft 線上服務資料中心的位置，您也必須設定網路防火牆裝置，以接受以萬用字元功能變數名稱為基礎的連線 (例如，所有來自 \* outlook.com) 的流量。 如果您組織的防火牆不支援萬用字元名稱設定，您必須手動判斷您要允許的 IP 位址範圍和指定的埠。
 
-如需詳細資訊，包括埠和通訊協定需求的詳細資訊，請參閱 [Microsoft 365 和 Office 365 URLs 及 IP 位址範圍](https://go.microsoft.com/fwlink/p/?LinkId=252942)。
+如需詳細資訊，包括埠和通訊協定需求的詳細資訊，請參閱 [Microsoft 365 和 Office 365 URLs 及 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)。

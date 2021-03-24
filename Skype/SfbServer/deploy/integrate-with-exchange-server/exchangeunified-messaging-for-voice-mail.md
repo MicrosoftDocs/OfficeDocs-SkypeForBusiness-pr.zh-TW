@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要：設定適用于商務用 Skype Server 語音信箱的 Exchange Server 整合通訊。
-ms.openlocfilehash: 68cf4a11deccac9ad71bdb6216c4126362787498
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24bad46103433f6af9caebbe1894b1b3b2aa83d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834033"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109819"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>為商務用 Skype Server 語音信箱設定 Exchange Server 整合通訊
  
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 在上一個命令中，Extensions 參數代表使用者的電話分機號碼。在此範例中，使用者的分機號碼為 100。
   
-啟用 kenmyer@litwareinc.com 的信箱後，該使用者應該就能使用 Exchange 整合通訊。 您可以從商務用 Skype Server 管理命令介面中執行 [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) Cmdlet，以確認使用者可以連線至 Exchange UM：
+啟用 kenmyer@litwareinc.com 的信箱後，該使用者應該就能使用 Exchange 整合通訊。 您可以從商務用 Skype Server 管理命令介面中執行 [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) Cmdlet，以確認使用者可以連線至 Exchange UM：
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-若您還有第二個啟用了整合通訊的使用者，您可使用 [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) Cmdlet 來驗證第二個使用者是否能語音留言給第一個使用者。
+若您還有第二個啟用了整合通訊的使用者，您可使用 [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) Cmdlet 來驗證第二個使用者是否能語音留言給第一個使用者。
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -219,5 +219,3 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 1. 在執行 Exchange UM 的伺服器上，于 MMC 中展開 [憑證 (本機電腦]) 中，展開 [受信任的根憑證授權單位]，然後按一下 [憑證]。
 2. 在詳細資料窗格中，確認您的 CA 位於受信任的 CA 清單上。
-
-

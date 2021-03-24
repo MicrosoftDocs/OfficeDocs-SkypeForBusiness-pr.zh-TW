@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 使用 [選取網站] 對話方塊，尋找您環境中可用的網站。 若要使用現有的網站，請按一下清單中的網站，再按一下 [確定]。
-ms.openlocfilehash: 90fbb178c550e492148703f070e076b7c1c768e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bc07720a1a929b7db508ce5f04d9b7005038d2e4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108019"
 ---
 # <a name="select-a-site"></a>選取網站
 
@@ -35,9 +35,9 @@ ms.locfileid: "49829163"
 
 您可以在「選取站台」頁面上執行下列工作：
 
-- [以全域方式設定或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [以全域方式設定或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-- [建立常設聊天室的網站原則](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
+- [建立常設聊天室的網站原則](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-site-policy-for-persistent-chat)
 
 如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
 
@@ -49,5 +49,4 @@ ms.locfileid: "49829163"
 
 在 [選取站台] 中，按一下要套用該原則的網站。
 
-如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱規劃檔中的 [Persistent Chat Server 綜述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) 。 如需使用持續性聊天伺服器設定的詳細資訊，請參閱設定 [Persistent Chat server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) In the Deployment 檔和 [管理 Lync Server 2013，Persistent Chat server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in Operations 檔中。
-
+如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱規劃檔中的 [Persistent Chat Server 綜述](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 。 如需使用持續性聊天伺服器設定的詳細資訊，請參閱設定 [Persistent Chat server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) In the Deployment 檔和 [管理 Lync Server 2013，Persistent Chat server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in Operations 檔中。

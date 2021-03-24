@@ -14,19 +14,19 @@ search.appverid: MET150
 description: 本文概述您會在 Microsoft Teams 中看到的選擇性連結體驗。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8824d49eb7f9c028b57f41e6643e80425522a753
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 228a14c29d082037de1bbcd1f9f5ee45e3a35728
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444260"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094073"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Microsoft Teams 中選擇性連線體驗的概觀
 
-如果您有公司或學校帳戶，在使用 Microsoft Teams 的同時，組織的系統管理員可能已提供您使用一或多個以雲端為基礎服務的能力 (也稱為**選擇性連線體驗**)，例如 GIPHY 和/或 URL 預覽服務。 這些以雲端為基礎的服務是選擇性的。 是否使用由您決定。 將它們提供給您是依據與  [Microsoft Online Service 條款](https://www.microsoft.com/licensing/product-licensing/products)不同的條款，如每個個別的選擇性服務所述。 本文將列出我們的 Teams 雲端支援服務。
+如果您有公司或學校帳戶，在使用 Microsoft Teams 的同時，組織的系統管理員可能已提供您使用一或多個以雲端為基礎服務的能力 (也稱為 **選擇性連線體驗**)，例如 GIPHY 和/或 URL 預覽服務。 這些以雲端為基礎的服務是選擇性的。 是否使用由您決定。 將它們提供給您是依據與  [Microsoft Online Service 條款](https://www.microsoft.com/licensing/product-licensing/products)不同的條款，如每個個別的選擇性服務所述。 本文將列出我們的 Teams 雲端支援服務。
 
 > [!NOTE]
-> 如果您是系統管理員，請參閱[管理隱私權控制](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls)一文，以了解如何授與或限制使用者使用選擇性連線體驗的能力。
+> 如果您是系統管理員，請參閱[管理隱私權控制](/deployoffice/privacy/manage-privacy-controls)一文，以了解如何授與或限制使用者使用選擇性連線體驗的能力。
 
 ## <a name="giphy"></a>GIPHY
 
@@ -42,8 +42,8 @@ GIPHY 是雲端支援的服務，可讓您在 Teams 聊天中使用 GIF。 如�
 
 ## <a name="related-articles"></a>相關文章
 
-- [Microsoft 365 Apps 企業版隱私權控制項的概觀](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)
+- [Microsoft 365 Apps 企業版隱私權控制項的概觀](/deployoffice/privacy/overview-privacy-controls)
 - [Teams 原則控制的概觀](policy-control-overview.md)
 - [隱私權和 Microsoft Teams](teams-privacy.md)
-- [Office 的必要服務資料](https://docs.microsoft.com/deployoffice/privacy/required-service-data)
+- [Office 的必要服務資料](/deployoffice/privacy/required-service-data)
 - [帳戶隱私權設定](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)

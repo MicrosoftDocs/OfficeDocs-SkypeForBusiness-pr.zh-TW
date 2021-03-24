@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 深入瞭解商務用 Skype 中的外寄語音路由（包括通話路由設定、撥號對應表、正常化規則、語音原則、PSTN 使用方式記錄和語音路由）。
-ms.openlocfilehash: f29feabe8ad13a38af3e3818936be7cfbcdf5f06
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 70681e995068a0999324694a78806421e0f2d129
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809913"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101279"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃撥出語音路由
  
@@ -137,7 +137,7 @@ ms.locfileid: "49809913"
 
 正規化規則使用 .NET Framework 正則運算式，指定伺服器用以將撥號字串轉譯為 e.164 格式，以執行反向號碼查閱的數位匹配模式。 您可以在商務用 Skype Server 控制台中建立正規化規則，方法是手動輸入運算式，或輸入要比對的撥號字串的開始位數和長度，並讓商務用 Skype Server 控制台為您產生對應的正則運算式。 無論是哪一種方式，當您完成時，您都可以輸入測試號碼，以驗證正規化規則如預期的方式運作。
   
-如需使用 .NET Framework 正則運算式的詳細資訊，請參閱「 [.Net Framework 正則運算式](https://go.microsoft.com/fwlink/p/?linkId=140927)」。
+如需使用 .NET Framework 正則運算式的詳細資訊，請參閱「 [.Net Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)」。
   
 #### <a name="sample-normalization-rules"></a>正常化規則範例
 <a name="BKMK_SampleNormalizationRules"> </a>
@@ -332,5 +332,3 @@ PSTN 使用方式記錄本身不會執行任何動作。 為了讓他們能夠�
 - 如果使用者未啟用 Enterprise Voice，則伺服器會依照適當方式套用其他路由邏輯。
     
 - 如果呼叫路由傳送至已完全佔用的閘道 (所有的骨幹路都會忙碌) 中，閘道會拒絕通話，而輸出路由邏輯會將呼叫重新導向至下一個最低成本的路由。 請特別注意，由於小型辦公室海外的閘道大小 (例如，蘇黎世) 實際上可能會攜帶大量非使用中的流量，以供瑞士撥打國際電話。 如果此額外流量的閘道大小不正確，則通話的電話會透過德國的閘道來路由傳送，進而產生較大的計費。
-    
-

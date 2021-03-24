@@ -1,5 +1,5 @@
 ---
-title: 在您通過電話號碼移植之後，您需要做些什麼？
+title: 在將電話號碼進行移植之後，您需要執行什麼工作？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,38 +21,37 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: 在將您的電話號碼移植到商務用 Skype 之後，查看下一步所需執行的動作。
-ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 查看將電話號碼移植到商務用 Skype 後，接下來需要執行哪些工作。
+ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769226"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101859"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在您通過電話號碼移植之後，您需要做些什麼？
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在將電話號碼進行移植之後，您需要執行什麼工作？
 
-提交您的埠順序之後，我們將會與您的運營商取得聯繫，並在其上完成詳細資料。 當您設定最終的轉移日期之後，我們會透過電子郵件通知您。 不過，在等待您的承運人接受訂單時，請繼續進行，並建立您將用於這些號碼的必要緊急位址。
+提交您的埠訂單之後，我們會與您的電信公司聯繫，並找出詳細資料給他們。 當最終移轉日期設定完成時，我們會透過電子郵件通知您。 不過，在等待您的電信公司接受訂單時，請繼續建立您需要的緊急位址，以便與這些數位一起使用。
   
-- 深入瞭解[什麼是緊急位置、位址及呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
+- 深入瞭解 [什麼是緊急位置、位址和通話路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
     
-- 如有需要，您可以[新增或移除組織的緊急位址](add-or-remove-an-emergency-address-for-your-organization.md)。
+- 如果需要 [，您可以](/MicrosoftTeams/add-change-remove-emergency-location-organization) 新增或移除組織的緊急位址。
     
-- 如果您的電話號碼已經有緊急位址，請[新增、變更或移除組織的緊急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
+- 如果您的電話號碼已經有緊急位址，請新增、變更或移除貴組織的 [緊急位置](/MicrosoftTeams/add-change-remove-emergency-place-organization)。
     
 - [指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
     
 ## <a name="related-topics"></a>相關主題
 [移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話方案所用的不同類型的電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[用於通話方案的各種電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
 [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

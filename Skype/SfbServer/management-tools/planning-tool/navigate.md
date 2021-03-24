@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 您可以使用工具列、頁面特定按鈕和連結的組合，以及內容特有的窗格，流覽商務用 Skype Server 2015 規劃工具。 內容特有的窗格提供規劃與容量相關的設計資訊，與特定頁面上的選取選項有關。
-ms.openlocfilehash: ecf0857cb5e2ce4b450bf53a2b40ce08b39917c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 80e455abcd1534cc37ed9747e801b81fd778cf25
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823383"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104369"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中流覽規劃工具
 
@@ -49,6 +49,6 @@ ms.locfileid: "49823383"
 
 [為商務用 Skype Server 2015 建立初始拓撲設計](create-the-initial-design.md)
 
-[編輯設計](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[編輯設計](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
 
-[檢閱管理員報告](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[檢閱管理員報告](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

@@ -19,12 +19,12 @@ description: Microsoft 365 商務語音是進行語音通話的實惠選擇，�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ac79d8ad612d24c3db2cf9e1bfd276ef788bac5a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6071264efda73f129890ce4c43131a7580fe0595
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030779"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102809"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什麼是 Microsoft 365 商務語音？
 
@@ -79,5 +79,4 @@ Microsoft 365 商務語音可讓中小型組織輕鬆將 Microsoft Teams 轉變�
     </tr>
 </table>
 
-請造訪 [Microsoft 365 商務語音服務描述](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description) (英文)，您就能看見「商務語音」包含的所有內容。
-
+請造訪 [Microsoft 365 商務語音服務描述](/office365/servicedescriptions/microsoft-365-business-voice-service-description)，您就能看見「商務語音」包含的所有內容。

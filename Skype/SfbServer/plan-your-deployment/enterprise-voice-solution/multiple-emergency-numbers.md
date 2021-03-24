@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃多個緊急號碼。
-ms.openlocfilehash: eb5fbc55bc7f2e783fbfa98c7bc7fb6db67ff748
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47ac1a93a39a95710bf1581aace0ec12a39caec6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813863"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101599"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃多個緊急號碼
  
@@ -59,7 +59,7 @@ ms.locfileid: "49813863"
   
 設定多個緊急數位之前，請記住下列事項：
   
-- 若要設定多個緊急號碼，您必須使用 New-CsEmergencyNumber Cmdlet，而且您必須透過使用 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) 及 [Set CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Cmdlet 指定 EmergencyNumbers 參數，來定義支援一個以上緊急號碼的位置原則。
+- 若要設定多個緊急號碼，您必須使用 New-CsEmergencyNumber Cmdlet，而且您必須透過使用 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) 及 [Set CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Cmdlet 指定 EmergencyNumbers 參數，來定義支援一個以上緊急號碼的位置原則。
     
 - 如果您已使用 Set-CsLocationPolicy 或 New-CsLocationPolicy Cmdlet 使用 EmergencyDialString 和 EmergencyDialMask 參數定義現有的號碼，則使用 EmergencyNumbers 參數所指定的值將優先于舊值。 也就是說，EmergencyDialString 及 EmergencyDialMask 參數的值會被忽略。
     
@@ -108,5 +108,3 @@ ms.locfileid: "49813863"
 || Aastra 6721ip and Aastra 6725ip 電話機-2016 年9月累積更新 (組建 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110 和 HP 4120 電話-9 月2016累計更新 (組建 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
 ||Polycom CX500、Polycom CX600 和 Polycom CX3000 電話機-2016 年9月累積更新 (組建 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
-   
-

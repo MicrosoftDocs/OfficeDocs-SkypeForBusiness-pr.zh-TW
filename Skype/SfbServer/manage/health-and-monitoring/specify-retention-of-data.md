@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 摘要：瞭解如何管理商務用 Skype Server (CDR) 資料的詳細通話記錄。
-ms.openlocfilehash: 01b4765a9fa98a898255c1374115e17c4966e797
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: abf6461a76ced9d3ba07e4c5157dd4d14bab60a3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814213"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104389"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>在商務用 Skype Server 中指定保留 CDR 資料
  
@@ -68,7 +68,7 @@ ms.locfileid: "49814213"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-如需詳細資訊，請參閱 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
   
 ## <a name="see-also"></a>另請參閱
 

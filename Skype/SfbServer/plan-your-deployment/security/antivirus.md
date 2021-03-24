@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: 與商務用 Skype Server 的防病毒掃描程式互用性。
-ms.openlocfilehash: b59a5c474a96d312ebe3a648536ebe827e684931
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832263"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104239"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>商務用 Skype Server 的防病毒掃描排除
 
@@ -140,8 +140,6 @@ ms.locfileid: "49832263"
 
   - 在拓撲產生器) 中指定的檔案共用儲存區 (。 檔存放區是在拓撲產生器中指定的。
 
-  - SQL Server 資料和記錄檔，包括後端資料庫、使用者存放區、封存儲存區、監控儲存區及應用程式存放區的檔案。 您可以在拓撲產生器中指定資料庫和記錄檔。 如需每個資料庫之資料和記錄檔（包括預設名稱）的詳細資訊，請參閱部署檔中的 [SQL Server 資料和記錄檔位置](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) 。
+  - SQL Server 資料和記錄檔，包括後端資料庫、使用者存放區、封存儲存區、監控儲存區及應用程式存放區的檔案。 您可以在拓撲產生器中指定資料庫和記錄檔。 如需每個資料庫之資料和記錄檔（包括預設名稱）的詳細資訊，請參閱部署檔中的 [SQL Server 資料和記錄檔位置](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) 。
 
   - SQL Server 資料和記錄檔，包括前端資料庫、商務用 Skype 書店和 RtcDatabase 存放區的檔案。 它們通常是在%localdrive%\CSData。
-
-

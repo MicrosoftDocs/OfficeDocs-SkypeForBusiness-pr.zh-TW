@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組的上班時間。
-ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d4a8101749e7fde06fc4c3d88ab343eb6e4d0f1d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830993"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103669"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a> (選用) 在商務用 Skype 中定義回應群組上班時間 
  
@@ -66,6 +66,6 @@ ms.locfileid: "49830993"
 
 ## <a name="see-also"></a>另請參閱
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[New-CsRgsTimeRange](/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[新 CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[新 CsRgsHoursOfBusiness](/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

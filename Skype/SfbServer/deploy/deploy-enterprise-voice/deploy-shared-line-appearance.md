@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 2015，2015累計更新中，部署共用線外觀 (SLA) 。 SLA 是一種功能，可用於處理特定號碼（稱為共用號碼）上的多個通話。
-ms.openlocfilehash: a692768744782f547b57b635a58864c858389d7c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812403"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104909"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中部署共用線外觀
 
@@ -60,7 +60,7 @@ ms.locfileid: "49812403"
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>建立 SLA 群組並新增使用者
 
-1. 使用 [CsSlaConfiguration 指令程式](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) 建立 SLA 群組：
+1. 使用 [CsSlaConfiguration 指令程式](/powershell/module/skype/set-csslaconfiguration?view=skype-ps) 建立 SLA 群組：
 
    ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
@@ -81,7 +81,7 @@ ms.locfileid: "49812403"
     > [!NOTE]
     > 請注意，您指定的  `-Identity` 必須是有效的現有企業語音使用者帳戶。
 
-2. 使用 [CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) Cmdlet 將委派新增至群組：
+2. 使用 [CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps) Cmdlet 將委派新增至群組：
 
    ```powershell
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
@@ -98,7 +98,7 @@ ms.locfileid: "49812403"
 
 ### <a name="configure-the-sla-group-busy-option"></a>設定 SLA 群組忙碌選項
 
-- 使用 [CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) Cmdlet 來設定 SLA 群組忙碌選項：
+- 使用 [CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration?view=skype-ps) Cmdlet 來設定 SLA 群組忙碌選項：
 
   ```powershell
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -112,7 +112,7 @@ ms.locfileid: "49812403"
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>設定 SLA 群組未接來電選項
 
-1. 使用 [CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) Cmdlet 來設定 SLA 群組未接來電選項：
+1. 使用 [CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration?view=skype-ps) Cmdlet 來設定 SLA 群組未接來電選項：
 
    ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
@@ -126,7 +126,7 @@ ms.locfileid: "49812403"
 
 ### <a name="remove-a-delegate-from-a-group"></a>從群組中移除代理人
 
-- 使用 [CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) Cmdlet 從群組中移除委派：
+- 使用 [CsSlaDelegates](/powershell/module/skype/remove-cssladelegates?view=skype-ps) Cmdlet 從群組中移除委派：
 
   ```powershell
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -140,7 +140,7 @@ ms.locfileid: "49812403"
 
 ### <a name="delete-an-sla-group"></a>刪除 SLA 群組
 
-- 使用 [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) CMDLET 刪除 SLA 群組：
+- 使用 [Remove-CsSlaConfiguration](/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) CMDLET 刪除 SLA 群組：
 
   ```powershell
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
@@ -151,5 +151,3 @@ ms.locfileid: "49812403"
   ```powershell
   Remove-CsSlaConfiguration -Identity SLAGroup1
   ```
-
-

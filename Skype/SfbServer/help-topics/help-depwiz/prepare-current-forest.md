@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: 若要準備 Active Directory 網域服務樹系，您必須順利擴充架構（如執行架構準備的主題中所述），並確定架構已複製。
-ms.openlocfilehash: eaeabfb543d258e65b387afeafddf15367f6caf7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 94d41a993b2fe976ef7ede885d277c00417ff7dc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815433"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103459"
 ---
 # <a name="prepare-current-forest"></a>準備目前的樹系
 
-若要準備 Active Directory 網域服務樹系，您必須順利擴充架構（如執行 [架構準備](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)的主題中所述），並確定架構已複製。
+若要準備 Active Directory 網域服務樹系，您必須順利擴充架構（如執行 [架構準備](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-the-active-directory-schema)的主題中所述），並確定架構已複製。
 
 完成這些先決條件之後，您就可以開始「步驟 3：準備目前的樹系」。若要準備樹系，請在樹系根中以 Domain Admins 成員身分 (或是以正在準備之樹系的 Enterprise Admins 成員身分) 登入樹系根裡的電腦。
 
@@ -43,5 +43,3 @@ ms.locfileid: "49815433"
 
     > [!TIP]
     > 如果您需要複查由商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟之 Active Directory 網域服務使用者的 [使用者] 目錄中，找到其上執行「部署」嚮導的電腦。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp
-
-

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要：瞭解如何在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: e6aa1dde01f7f91b7d1c18b1664a3658911cf50b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9ead15e0fd80d92d366eea5fd197516e9991b4a3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104859"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓撲中的伺服器上安裝商務用 Skype Server
  
@@ -120,7 +120,7 @@ ms.locfileid: "49801683"
     > 商務用 Skype 伺服器包括對 SHA-2 套件的支援 (SHA-2 使用摘要的224、256、384或 512 bits) 的摘要雜湊和簽署演算法，以用於來自執行 Windows 10、Windows 8、Windows 7、Windows Server 2012 R2、Windows Server 2012 或 Windows Server 2008 R2 作業系統之用戶端的連線。 若要使用 SHA-2 套件來支援外部存取，外部憑證是由公用 CA 所發出，也可以使用相同位長度的摘要來發出憑證。 
   
     > [!IMPORTANT]
-    > 您可以選擇哪些雜湊摘要和簽署演算法取決於用戶端和將使用憑證的伺服器，以及用戶端和伺服器要與其通訊的其他電腦和裝置，也必須瞭解如何使用憑證中所用的演算法。 如需作業系統和某些用戶端應用程式中支援摘要長度的詳細資訊，請參閱 [WINDOWS PKI 博客-SHA2 和 Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002)。 
+    > 您可以選擇哪些雜湊摘要和簽署演算法取決於用戶端和將使用憑證的伺服器，以及用戶端和伺服器要與其通訊的其他電腦和裝置，也必須瞭解如何使用憑證中所用的演算法。 如需作業系統和某些用戶端應用程式中支援摘要長度的詳細資訊，請參閱 [WINDOWS PKI 博客-SHA2 和 Windows](/archive/blogs/pki/sha2-and-windows)。 
   
     每個 Standard Edition 或前端伺服器最多需要四個憑證： oAuthTokenIssuer 憑證、預設憑證、網頁內部憑證和網頁外部憑證。 不過，您可以使用適當的主體替代名稱專案以及 oAuthTokenIssuer 憑證要求並指派單一預設憑證。 如需憑證需求的詳細資訊，請參閱商務用 skype server 的 [環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 或 [商務用 skype Server 2019 的伺服器需求](../../../SfBServer2019/plan/system-requirements.md)。
     
@@ -163,7 +163,7 @@ ms.locfileid: "49801683"
     
 16. 在 [ **線上憑證要求狀態** ] 頁面上，複查傳回的資訊。 您應注意，已簽發憑證並將其安裝至本機憑證儲存區。 若報告為已簽發並已安裝，但無效，請確定伺服器的根信任 CA 存放區中已安裝 CA 的根憑證。 請參閱您的 CA 檔，瞭解如何取得信任的根 CA 憑證。 如果您需要查看已檢索的憑證，請按一下 [ **查看憑證詳細資料**]。 根據預設，會選取 [ **指派憑證給商務用 Skype 伺服器憑證** 的] 核取方塊。 若要手動指派憑證，請清除核取方塊，然後按一下 **[完成]**。
     
-17. 如果您已清除 [ **將憑證指派給舊版的商務用 Skype 伺服器憑證使用** 方式] 核取方塊，將會出現 [ **憑證指派** ] 頁面。 按 **[下一步]**。
+17. 如果您已清除 [ **將憑證指派給舊版的商務用 Skype 伺服器憑證使用** 方式] 核取方塊，將會出現 [ **憑證指派** ] 頁面。 按 [下一步 **]**。
     
 18. 在 [ **憑證存放區** ] 頁面上，選取您要求的憑證。 如果您想要查看憑證，請按一下 [ **查看憑證詳細資料**]，然後按 **[下一步]** 繼續。
     
@@ -182,7 +182,7 @@ ms.locfileid: "49801683"
     > 如果您是在實驗室環境中安裝，而且只是使用 Active Directory 憑證服務設定憑證授權單位單位，則您必須重新開機執行憑證服務的伺服器，以及前端伺服器，之後才能成功地完成憑證指派。 
   
     > [!TIP]
-    >  如需 Active Directory 憑證服務中憑證的詳細資訊，請參閱 [Active Directory 憑證服務](https://technet.microsoft.com/windowsserver/dd448615.aspx)。 
+    >  如需 Active Directory 憑證服務中憑證的詳細資訊，請參閱 [Active Directory 憑證服務](/windows/deployment/deploy-whats-new)。 
   
 ### <a name="step-4-start-services"></a>步驟4：啟動服務
 
@@ -198,5 +198,3 @@ ms.locfileid: "49801683"
     > 在伺服器上啟動服務的命令是一項最佳的方式，可報表服務實際已開始。 它可能不會反映服務的實際狀態。 建議您使用 step **Service Status (Optional)** 開啟 Microsoft Management CONSOLE (MMC) ，並確認服務是否已順利啟動，如圖所示。 若尚未啟動任何商務用 Skype Server 服務，您可以在 MMC 中以滑鼠右鍵按一下該服務，然後按一下 [ **啟動**]。 
   
      ![確認已啟動服務。](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)
-  
-

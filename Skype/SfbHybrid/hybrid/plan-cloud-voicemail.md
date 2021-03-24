@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文說明實施 Microsoft Cloud 語音信箱服務的優點、規劃考慮和需求。 如需設定雲端語音信箱的詳細資訊，請參閱設定雲端語音信箱。
-ms.openlocfilehash: 8a75c670448cf69cf6d9d772c670c9451fd94f80
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 4ae274f33d2b7d52c486cd9031d01bc3a532a6b3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662088"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110279"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>規劃內部部署使用者的雲端語音信箱服務
 
@@ -82,7 +82,7 @@ ms.locfileid: "49662088"
 
 - 必須設定外部 Exchange Web 服務 (EWS) URL 和自動探索，否則將會限制某些雲端語音信箱功能。
 
-- 如果您有內部部署 Exchange 伺服器，請使用 [設定 Exchange Server 信箱使用者的雲端語音信箱](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)中的步驟，來設定雲端語音信箱。
+- 如果您有內部部署 Exchange 伺服器，請使用 [設定 Exchange Server 信箱使用者的雲端語音信箱](/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)中的步驟，來設定雲端語音信箱。
 
 ## <a name="migration-and-interoperability"></a>遷移和互通性
 

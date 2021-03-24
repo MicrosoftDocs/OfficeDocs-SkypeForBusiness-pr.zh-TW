@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 在商務用 Skype Server Enterprise Voice 中，針對使用 SIP 主幹提供者的 E9-1-1 部署規劃位置資訊資料庫或類似外部資料庫所需的決策。
-ms.openlocfilehash: 9918fc2cb6bc9d05166d648ab3285a964d15f290
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b175c2cc3d0ed02a124a365787c8cb5d7cd37d10
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825433"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101439"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 SIP 主幹服務提供者的位置
 
 在商務用 Skype Server Enterprise Voice 中，針對使用 SIP 主幹提供者的 E9-1-1 部署規劃位置資訊資料庫或類似外部資料庫所需的決策。
 
-若要將商務用 Skype 伺服器設定為自動在網路中尋找用戶端，您必須使用網路線路圖填滿位置資訊服務資料庫，併發布位置，或連結至已經包含正確對應的外部資料庫。 在此程式中，您必須使用 E9-1-1 服務提供者驗證位置的市政位址。 如需詳細資訊，請參閱部署檔中 [的 Configure Location 資料庫](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
+若要將商務用 Skype 伺服器設定為自動在網路中尋找用戶端，您必須使用網路線路圖填滿位置資訊服務資料庫，併發布位置，或連結至已經包含正確對應的外部資料庫。 在此程式中，您必須使用 E9-1-1 服務提供者驗證位置的市政位址。 如需詳細資訊，請參閱部署檔中 [的 Configure Location 資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) 。
 
 您可以使用 ERL) （包含市政位址及大樓內的特定位址） (的 [緊急回應] 位置，填入位置資訊服務資料庫。 位置資訊服務 **位置** 欄位是大樓內的特定位置，其最大長度為20個字元 (包含空格) 。 在此有限長度內，嘗試包含下列專案：
 
@@ -38,7 +38,7 @@ ms.locfileid: "49825433"
 - 如果該位置是由無線存取點所決定，您可以新增 **[near]** (例如，「接近第一層1234」 ) 。
 
 > [!NOTE]
-> 在使用商務用 Skype Server 管理命令介面命令來發佈至中央位置資料庫時，這些位置會無法供用戶端使用，而且會複製到集區的本機存放區。 如需詳細資訊，請參閱部署檔中 [的發佈位置資料庫](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) 。
+> 在使用商務用 Skype Server 管理命令介面命令來發佈至中央位置資料庫時，這些位置會無法供用戶端使用，而且會複製到集區的本機存放區。 如需詳細資訊，請參閱部署檔中 [的發佈位置資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) 。
 
 下列各節討論在填充及維護位置資料庫時，需要考慮的考慮事項。
 
@@ -54,9 +54,9 @@ ms.locfileid: "49825433"
 
 使用 [次要位置資訊服務] 選項來連線至協力廠商資料庫，您可以使用離線平臺來分組和管理位置。 這種方法的好處是，除了將位置與網路識別碼相關聯之外，也可以將位置與使用者產生關聯。 這表示位置資訊服務可以傳回多個來自次要位置資訊服務的位址到商務用 Skype 用戶端。 然後，使用者可以選擇最適合的位置。
 
-若要與位置資訊服務整合，協力廠商資料庫必須遵循 Lync Server 位置要求/回應架構。 如需詳細資訊，請參閱  [[E911WS]： E911 支援通訊協定規格的 Web 服務]](https://go.microsoft.com/fwlink/p/?linkid=213819)。 如需部署次要位置資訊服務的詳細資訊，請參閱部署檔中的 [在商務用 Skype Server 中設定次要位置資訊服務](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 。
+若要與位置資訊服務整合，協力廠商資料庫必須遵循 Lync Server 位置要求/回應架構。 如需詳細資訊，請參閱  [[E911WS]： E911 支援通訊協定規格的 Web 服務]](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 如需部署次要位置資訊服務的詳細資訊，請參閱部署檔中的 [在商務用 Skype Server 中設定次要位置資訊服務](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 。
 
-如需有關填充位置資料庫的詳細資訊，請參閱部署檔中 [的 Configure Location 資料庫](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) 。
+如需有關填充位置資料庫的詳細資訊，請參閱部署檔中 [的 Configure Location 資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) 。
 
 ## <a name="maintaining-the-location-database"></a>維護位置資料庫
 
@@ -69,5 +69,3 @@ ms.locfileid: "49825433"
  **您是否會使用 SNMP 應用程式，將 Lync 用戶端 MAC 位址與埠及切換識別碼對應？**
 
 如果您使用 SNMP 應用程式，則必須開發手動程式，以在 SNMP 應用程式和位置資料庫之間保持切換底盤及埠資訊的一致性。 如果 SNMP 應用程式傳回資料庫中未包含的主機殼 IP 位址或埠識別碼，則位置資訊服務將無法傳回用戶端的位置。
-
-

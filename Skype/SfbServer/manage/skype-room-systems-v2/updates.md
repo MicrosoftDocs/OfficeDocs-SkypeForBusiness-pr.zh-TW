@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: 管理 Microsoft 團隊聊天室的 Windows 更新
-ms.openlocfilehash: 4f7fd6d49c78b229a3909e88689423dc95ce2c48
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cb3007acd31f84cedb8996f440b9634f0551f638
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832873"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103199"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 
@@ -33,13 +33,13 @@ Windows 更新可透過幾種不同的方式來管理：
 - 品質更新及驅動程式將會自動下載並安裝第一天。 
 - 功能更新。 請參閱下列其他附注。 
 
-## <a name="windows-updates-for-business-gpo-or-intune"></a>[Windows 更新](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO 或 Intune)    
+## <a name="windows-updates-for-business-gpo-or-intune"></a>[Windows 更新](/windows/deployment/update/waas-manage-updates-wufb) (GPO 或 Intune)    
 - 更新會從 WU 或您的 WSUS 下載，但已設定的延遲超過 KB 的原始發行日期。 
 - 與多個 OU 或篩選的原則組合在一起，可讓您建立部署 "振鈴"，讓系統管理員可以指定哪些裝置會先安裝品質更新，以及將在稍後安裝哪些裝置。 這可讓您在整個部署期間進行可靠性和效能測試，而不需要在 Microsoft 端點設定管理員中管理 Windows 更新（範例）。
-- 如果您想要同時進行頻寬管理，以及 Windows 的 Windows 更新所提供的控制，WSUS 和 Windows 更新可在 [同一時間進行設定](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) 。
+- 如果您想要同時進行頻寬管理，以及 Windows 的 Windows 更新所提供的控制，WSUS 和 Windows 更新可在 [同一時間進行設定](/windows/deployment/update/waas-integrate-wufb) 。
 - 功能更新。 請參閱下列其他附注。
 
-## <a name="wsusconfiguration-manager"></a>[WSUS/設定管理員](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsusconfiguration-manager"></a>[WSUS/設定管理員](/windows/deployment/update/waas-manage-updates-configuration-manager)
 - 很像是企業的 Windows 更新，但有其他選項，針對每個「震鈴」或整個部署中的特定 KB。 每個更新都可以個別地部署及測試，而不只是僅依賴延遲。 
 - 功能更新。 請參閱下列其他附注。
 

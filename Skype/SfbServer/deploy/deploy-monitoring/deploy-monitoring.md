@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要：瞭解如何在商務用 Skype Server 中部署監控。
-ms.openlocfilehash: 89474b7d40a63911c6a79bee719573516a9d423a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1db32530546884735333554535ccb976a0c48810
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802273"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101989"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>在商務用 Skype Server 中部署監控
 
@@ -57,7 +57,7 @@ ms.locfileid: "49802273"
 
 |**階段**|**步驟**|**角色與群組的成員資格**|**文件**|
 |:-----|:-----|:-----|:-----|
-|**安裝必備硬體和軟體** <br/> |在要作為監控之用的後端資料存放區的電腦上，安裝支援的 Microsoft SQL Server 版本。  <br/> |同時也是本機系統管理員群組成員的網域使用者。  <br/> |[受支援的硬體](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [伺服器軟體和基礎結構支援](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
+|**安裝必備硬體和軟體** <br/> |在要作為監控之用的後端資料存放區的電腦上，安裝支援的 Microsoft SQL Server 版本。  <br/> |同時也是本機系統管理員群組成員的網域使用者。  <br/> |[受支援的硬體](/previous-versions/office/lync-server-2013/lync-server-2013-supported-hardware) <br/> [伺服器軟體和基礎結構支援](/previous-versions/office/lync-server-2013/lync-server-2013-server-software-and-infrastructure-support) <br/> |
 |**[建立適當的內部拓撲以支援監控]** <br/> |使用商務用 Skype Server 拓撲產生器將監控資料庫新增至拓撲，然後發佈更新的拓撲。  <br/> |如果要定義拓樸，屬於本機使用者群組成員的使用者。  <br/> 如果要發行拓樸，屬於網域管理員群組和 RTCUniversalServerAdmins 群組成員的使用者。  <br/> |[在商務用 Skype Server 中建立監控儲存區與前端集區的關聯](associate-a-monitoring-store.md) <br/> |
 |**啟用適當的監控設定** <br/> |啟用詳細通話記錄 (CDR) 和/或經驗品質 (QoE) 在全域及（或）網站範圍內監視。  <br/> |屬於 RTCUniversalServerAdmins 群組成員的使用者，或被指派提供 CsCdrConfiguration 和 CsQoEConfiguration Cmdlet 存取權的 RBAC 角色的使用者。  <br/> |[在商務用 Skype Server 中設定詳細通話記錄及經驗品質設定](call-detail-recording-and-qoe.md) <br/> |
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有單一或多部伺服器 Edge 集區的設定，您會看到下列各節：
-ms.openlocfilehash: cc8e0094a601faaf89c6a932172d5b6cb3522f2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822433"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108799"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 
@@ -63,6 +63,4 @@ Edge Server 集區的內部集區完整功能變數名稱 (FQDN) 。 編輯集�
 
 ## <a name="see-also"></a>另請參閱
 
-如需定義及設定 Edge Service 設定的詳細資訊，請參閱 [定義您的 Edge 拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
-
-
+如需定義及設定 Edge Service 設定的詳細資訊，請參閱 [定義您的 Edge 拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。

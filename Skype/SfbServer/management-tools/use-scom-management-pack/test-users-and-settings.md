@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 摘要：為商務用 Skype 伺服器綜合交易設定測試使用者帳戶和監視者節點設定。
-ms.openlocfilehash: 687aec65089939d2f4cb7b110b4139eca28433fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4069b1b51dc826beb631306e941eb40146188f42
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814833"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111599"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>設定監視節點測試使用者和設定
  
@@ -378,7 +378,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 若要安裝 VISSTSupportPackage.msi 請確定已安裝 msi 的 [系統需求]) 的相依性 (。 執行 VISSTSupportPackage.msi 以執行簡單安裝。 .Msi 會安裝下列路徑中的所有檔案：「%ProgramFiles%\VIS 綜合交易支援套件」。
   
-如需如何執行 VIS 綜合交易的詳細資訊，請參閱 [CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) Cmdlet 的檔。
+如需如何執行 VIS 綜合交易的詳細資訊，請參閱 [CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) Cmdlet 的檔。
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>變更綜合交易的執行頻率
 <a name="special_synthetictrans"> </a>
@@ -452,4 +452,4 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 在 System Center Operations Manager 內執行的綜合交易，會自動產生這些記錄檔失敗。 如果執行失敗之前商務用 Skype Server PowerShell 能夠載入並執行綜合交易，將不會產生這些記錄。 
   
 > [!IMPORTANT]
-> 依預設，商務用 Skype 伺服器會將記錄檔儲存至未共用的資料夾。 若要讓這些記錄立即可供存取，您應該共用此資料夾。 例如： \\ atl-觀察程式-001。 litwareinc com\WatcherNode。 
+> 依預設，商務用 Skype 伺服器會將記錄檔儲存至未共用的資料夾。 若要讓這些記錄立即可供存取，您應該共用此資料夾。 例如： \\ atl-觀察程式-001。 litwareinc com\WatcherNode。

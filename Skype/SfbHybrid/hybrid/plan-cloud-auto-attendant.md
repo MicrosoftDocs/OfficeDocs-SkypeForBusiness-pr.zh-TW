@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 在商務用 Skype Server 2019 中使用雲端自動語音應答的概覽
-ms.openlocfilehash: 50cd9bb8b20e44d750dab68ec6fecb30bd02e203
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: b144576b3e572137a512881f4bdcd1ab0e06d0ba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918689"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110349"
 ---
 # <a name="plan-cloud-auto-attendants"></a>規劃雲端自動語音應答
 
@@ -41,7 +41,7 @@ Exchange Server 2019 或 Exchange Online 中已不再提供 Exchange 整合通�
 另請參閱：
 
 - [設定雲端自動語音應答](/microsoftteams/create-a-phone-system-auto-attendant)
-- [自動接聽和路由傳送來電](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+- [自動接聽和路由傳送來電](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## <a name="requirements"></a>需求
 
@@ -57,7 +57,7 @@ Exchange Server 2019 或 Exchange Online 中已不再提供 Exchange 整合通�
 
    如需詳細資訊，請參閱 [規劃商務用 Skype server 與 microsoft 365 或 office 365 之間的混合](plan-hybrid-connectivity.md) 式連線，以及 [設定商務用 Skype server 與 Microsoft 365 或 office 365 的混合](configure-hybrid-connectivity.md)式連線。
 
-- 如果您要將電話號碼指派給您的自動語音應答，則需要 [Office 365 企業版 E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) 授權。
+- 如果您要將電話號碼指派給您的自動語音應答，則需要 [Office 365 企業版 E5](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md) 授權。
 - 為每個自動語音應答建立線上 [資源帳戶](/MicrosoftTeams/manage-resource-accounts.md) 或內部部署 [資源帳戶](configure-onprem-ra.md) ，並指派電話號碼和授權。 
 
 ## <a name="migration-and-interoperability"></a>遷移和互通性
@@ -102,13 +102,13 @@ Microsoft 建議下列遷移路徑：
 
 [設定資源帳戶](configure-onprem-ra.md)
 
-[使用電話使用者介面錄製自訂提示](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[使用電話使用者介面錄製自訂提示](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
 [什麼是雲端自動語音應答？](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [設定雲端自動語音應答](/microsoftteams/create-a-phone-system-auto-attendant)
 
-Exchange UM： [自動接聽和路由傳送來電](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+Exchange UM： [自動接聽和路由傳送來電](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 [規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](plan-hybrid-connectivity.md)
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要：瞭解在安裝商務用 Skype Server 之前，如何建立、發佈和驗證新的拓撲。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: c18d0340c48a8bf07771d0892bed4d0740c63186
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3a7ffd600ae3929b00018587296b5b673c221eb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812143"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104889"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>在商務用 Skype Server 中建立及發行新的拓撲
  
@@ -140,7 +140,7 @@ ms.locfileid: "49812143"
      > [!NOTE]
      > 商務用 Skype Server 的檔案共用可以是組合，但出於效能原因，建議您不要這樣做。 請注意，在此範例中，檔案共用位於一部專門伺服器，可充當檔案共用。 不過，建議使用其他更健壯的檔案共用系統（如使用 Windows Server 2012 R2 的 DFS）。 如需支援的檔案共用系統的詳細資訊，請參閱 [商務用 Skype 環境的需求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 如需建立檔案共用的詳細資訊，請參閱 [在商務用 Skype Server 中建立檔案共用](create-a-file-share.md)。 您不需要先建立檔案共用，就能定義檔案共用。 在您發行拓撲之前，必須先在定義檔案共用的位置上加以建立。 
   
-10. 在 [指定 Web 服務 URL] 頁面上，您必須決定是否需要覆寫內部 Web 服務集區基底 URL。 此覆寫的原因必須與負載平衡有關。 基本 SIP 流量可以透過簡單的 DNS 負載平衡進行負載平衡。 不過，HTTP/S Web 服務網路流量必須使用支援的硬體或軟體負載平衡解決方案。 如需支援的負載平衡器，請參閱適用于 [商務用 Skype 的基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。 在此範例中，我們使用 DNS 負載平衡進行 SIP 流量，以及支援的軟體負載平衡解決方案。 因為我們會以這種方式來分割流量，所以我們需要覆寫內部 Web 服務集區 FQDN。 或者，如果我們有最上層的負載平衡器，而且透過它傳送所有流量，而不是使用 DNS 負載平衡來進行 SIP 流量，則不需要覆寫 Web 服務 URL。 
+10. 在 [指定 Web 服務 URL] 頁面上，您必須決定是否需要覆寫內部 Web 服務集區基底 URL。 此覆寫的原因必須與負載平衡有關。 基本 SIP 流量可以透過簡單的 DNS 負載平衡進行負載平衡。 不過，HTTP/S Web 服務網路流量必須使用支援的硬體或軟體負載平衡解決方案。 如需支援的負載平衡器，請參閱適用于 [商務用 Skype 的基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)。 在此範例中，我們使用 DNS 負載平衡進行 SIP 流量，以及支援的軟體負載平衡解決方案。 因為我們會以這種方式來分割流量，所以我們需要覆寫內部 Web 服務集區 FQDN。 或者，如果我們有最上層的負載平衡器，而且透過它傳送所有流量，而不是使用 DNS 負載平衡來進行 SIP 流量，則不需要覆寫 Web 服務 URL。 
     
     在本主題的 [DNS] 區段中，我們為 webint 建立了 A 記錄。 這是我們用於 web 服務 HTTP/S 流量的 URL，且必須透過我們所設定的支援軟體負載平衡器進行設定。 因此，在此範例中，我們會覆寫 URL，讓商務用 Skype 伺服器知道所有的 HTTP/S 流量應該移至 webint （而非集區），如圖所示。 如需負載平衡的詳細資訊，請參閱 [商務用 Skype 的負載平衡需求](../../plan-your-deployment/network-requirements/load-balancing.md)。
     
@@ -248,5 +248,3 @@ ms.locfileid: "49812143"
     資料庫建立的「完成時包含警告」訊息並不表示發生錯誤。 安裝程式必須在 SQL Server 中變更設定，商務用 Skype 伺服器才能正常運作。 在 SQL Server 中變更設定時，會將它記錄為警告，讓 SQL Server 系統管理員可以確切瞭解安裝程式完成的專案。 如果您收到警告，您可以選取記錄，然後按一下 [ **查看記錄** 檔] 以查看警告的詳細資料。
     
     順利發行拓撲時，您可以開始在拓撲中執行商務用 Skype Server 的每部伺服器上安裝中央管理存放區的本機複本。 建議您從第一部前端集區開始。 
-    
-

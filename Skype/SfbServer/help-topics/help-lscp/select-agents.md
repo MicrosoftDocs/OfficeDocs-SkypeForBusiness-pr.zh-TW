@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: 代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 合格的使用者啟用商務用 Skype Server 和 Enterprise Voice。
-ms.openlocfilehash: 3c79d46096a39cde01ea4c3246f71b972933c4d6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c245ea9816d60fc8448eeeb00bdfc8351e345784
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829143"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107999"
 ---
 # <a name="select-agents"></a>選取代理程式
 
@@ -46,6 +46,4 @@ ms.locfileid: "49829143"
 
 - **已啟用** 顯示針對使用者所定義之 [ **已啟用的 Lync Server** ] 欄位的值。
 
-如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)＞。
-
-
+如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)＞。

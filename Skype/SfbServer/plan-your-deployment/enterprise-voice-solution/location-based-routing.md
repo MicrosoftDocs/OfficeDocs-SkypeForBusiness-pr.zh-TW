@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 規劃商務用 Skype Server Enterprise Voice 中的位置基礎路由，包括與同時響鈴和委派互動，以及位置基礎路由支援的案例。
-ms.openlocfilehash: 473ed77dce8edaee3b43822adcb8920027795d9e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 99a76d3cda40bb1fdc71bdffc7f6c896c96c5cc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825553"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101479"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>規劃商務用 Skype 中的 Location-Based 路由
 
@@ -239,7 +239,7 @@ Location-Based 路由需要在特定拓撲中的所有前端集區和 Standard E
 |Lync Mobile 2010  <br/> |是  <br/> ||
 
 > [!NOTE]
-> 若要停用商務用 Skype 用戶端的 VoIP，請為啟用 Location-Based 路由之所有使用者的設定、IP Audio/Video、停用設定指派行動性原則。 如需行動原則的詳細資訊，請參閱 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+> 若要停用商務用 Skype 用戶端的 VoIP，請為啟用 Location-Based 路由之所有使用者的設定、IP Audio/Video、停用設定指派行動性原則。 如需行動原則的詳細資訊，請參閱 [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Location-Based 路由不支援的功能
 
@@ -263,6 +263,4 @@ Location-Based 路由不適用於下列類型的互動。 當商務用 Skype 端
 
 - 涉及 PSTN 端點的諮詢轉移
 
-若要啟用 Location-Based 的會議路由，請參閱 [會議的位置基礎路由](https://technet.microsoft.com/library/e1acb1ba-0ed2-4abf-8a7b-1ca3049e95e3.aspx)。
-
-
+若要啟用 Location-Based 的會議路由，請參閱 [會議的位置基礎路由](/previous-versions/office/lync-server-2013/lync-server-2013-location-based-routing-for-conferencing)。

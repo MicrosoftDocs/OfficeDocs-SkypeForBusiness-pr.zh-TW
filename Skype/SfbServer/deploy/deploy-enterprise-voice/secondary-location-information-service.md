@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: 為商務用 Skype Server Enterprise Voice 中的 E9-1-1，設定次要位置來源 (SLS) 資料庫。
-ms.openlocfilehash: fd70957526d193951b56211c0d5a6623a26419e2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7a81d8573ca0425d4d445dc00f257f014a39d8c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830643"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103379"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在商務用 Skype Server 中設定次要位置資訊服務
  
@@ -41,5 +41,4 @@ ms.locfileid: "49830643"
 
 ## <a name="see-also"></a>另請參閱
 
-[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
-
+[Set-CsWebServiceConfiguration](/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)

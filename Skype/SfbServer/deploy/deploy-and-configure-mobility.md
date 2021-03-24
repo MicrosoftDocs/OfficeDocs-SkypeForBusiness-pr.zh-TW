@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文將引導您完成設定現有商務用 Skype Server 安裝的步驟，以使用行動性服務，讓行動裝置能夠利用商務用 Skype 伺服器行動功能。
-ms.openlocfilehash: 420d34dcf1406df776e438e01007770e515c0d4a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2ba0a81350dac6e47f4e909b4cfba256ee90de18
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103859"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>為商務用 Skype Server 部署及設定行動性  
  
@@ -262,7 +262,7 @@ ms.locfileid: "49820893"
 
 下列步驟並不是完全遵循。 這是因為在舊版本的產品中，我們已引導您完成，例如設定威脅管理閘道 (TMG) ，但如果您沒有使用該功能，則必須從那裡使用您自己的版本。
   
-TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設定，則可以查看 [Lync Server 2013 的步驟](https://technet.microsoft.com/library/hh690011%28v=ocs.15%29.aspx)。 不過，下列資訊的目的應該更普遍有用，即使沒有任何方法可以提供每個反向 proxy 的特定逐步步驟。
+TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設定，則可以查看 [Lync Server 2013 的步驟](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-the-reverse-proxy-for-mobility)。 不過，下列資訊的目的應該更普遍有用，即使沒有任何方法可以提供每個反向 proxy 的特定逐步步驟。
   
 我們有兩個主要考慮事項：
   
@@ -319,9 +319,9 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
    - 您應輸入 lyncdiscover 的 **名稱** **。** <sipdomain> (這是) 的外部自動探索服務 URL。 現在，如果您要為前端集區上的外部 Web 服務 URL 建立規則，您必須在前端集區上輸入外部 Web 服務的 FQDN (例如，lyncwebextpool01.contoso.com) 。
     
-   - 將會有 **路徑** 選項，您必須在 **/\\** 這裡輸入 _。
+   - 會有一個 **路徑** 選項，您必須在 **/\\** 這裡輸入 *。
     
-   - 您必須使用最新的公開憑證，選取 [SSL 接聽程式 *]*。
+   - 您必須選取具有最新公開憑證的 **SSL 攔截器** 。
     
    - **驗證委派** 應設定為 [ **不委派**]，但 **應** 允許直接用戶端驗證。
     
@@ -365,11 +365,11 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
    - 您應輸入 lyncdiscover 的 **名稱** **。** <sipdomain> (這是) 的外部自動探索服務 URL。
     
-   - 將會有 **路徑** 選項，您必須在 **/\\** 這裡輸入 _。
+   - 會有一個 **路徑** 選項，您必須在 **/\\** 這裡輸入 *。
     
    - 您必須選取網頁接聽程式，或允許您的反向 proxy 為您建立一個攔截器。
     
-   - _ *驗證委派** 應該設定為 [ **不委派**]，但 **不** 允許直接的用戶端驗證。
+   - **驗證委派** 應該設定為 [ **不委派**]，但 **不** 允許直接的用戶端驗證。
     
    - 規則應設定為 [ **所有使用者**]。
     
@@ -463,7 +463,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-若要進一步複查命令過程，您可以取出 [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) 和 [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
+若要進一步複查命令過程，您可以取出 [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) 和 [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
   
 ## <a name="configure-for-push-notifications"></a>設定推入通知
 <a name="ConfigPush"> </a>
@@ -592,7 +592,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     > [!NOTE]
     > 您可以在不關閉行動存取的情況下，關閉工作的來電。 不過，您不能關閉行動性，也不會關閉「從公司通話」。 
   
-    如需詳細資訊，請參閱 [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)。
+    如需詳細資訊，請參閱 [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)。
     
 ### <a name="modify-mobility-policy-by-site"></a>依網站修改行動性原則
 
@@ -606,7 +606,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    若要深入瞭解，請參閱 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+    若要深入瞭解，請參閱 [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
     
 ### <a name="modify-mobility-policy-by-user"></a>依使用者修改行動性原則
 
@@ -630,5 +630,3 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 
     > [!NOTE]
     > 您可以在不關閉行動存取的情況下，關閉工作的來電。 不過，您不能關閉行動性，也不會關閉「從公司通話」。 
-  
-

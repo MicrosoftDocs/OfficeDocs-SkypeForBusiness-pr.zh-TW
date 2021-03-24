@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 系統管理員報告包含部署和作業的詳細資訊。 會根據設計網站中標示的選取專案產生報告。 設計師可以編輯網路圖，以及定義伺服器、集區和負載平衡器的完整 IP 位址和完整網域名稱 (FQDN)，提升系統管理員報告的價值。
-ms.openlocfilehash: b8c18dcfef28ac93e8c2036fee7f7b105f5c69bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dbef33351e7032e769e1d5ee68c5f0d582317eb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823343"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104319"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中複查管理員報告
 
@@ -88,4 +88,4 @@ DNS 報告是系統管理員報告的一部分，詳述內部、周邊及外部�
 ## <a name="see-also"></a>另請參閱
 <a name="DNS_Report"> </a>
 
-[檢閱管理員報告](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[檢閱管理員報告](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

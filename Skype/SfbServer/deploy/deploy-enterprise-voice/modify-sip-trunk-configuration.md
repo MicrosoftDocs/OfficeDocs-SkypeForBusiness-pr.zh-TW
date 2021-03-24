@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 摘要：瞭解如何使用商務用 Skype Server [控制台] 修改 SIP 主幹設定設定。
-ms.openlocfilehash: 43d32e04716423578173d7eed412445f196f9b65
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 34db4126f8f91ecfd7d68f0f982be5c81769b455
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830773"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103411"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中修改 SIP 主幹設定設定
  
@@ -44,7 +44,7 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
 |名稱  <br/> |身分識別  <br/> |集合的唯一識別碼。此為唯讀屬性，您無法變更主幹組態設定集合的 Identity。  <br/> |
 |描述  <br/> |描述  <br/> |為系統管理員提供儲存設定相關資訊 (例如，主幹組態的用途) 的方法。  <br/> |
 |支援的最大早期對話  <br/> |MaxEarlyDialogs  <br/> |服務提供者的 PSTN 閘道、IP-PBX 或 SBC 對其傳送到中繼伺服器的 Invite，可接收的分支回應數上限。  <br/> |
-|加密支援等級  <br/> |SRTPMode  <br/> | 指出支援等級，以保護中繼伺服器和服務提供者之 PSTN 閘道、IP-PBX 或 SBC 之間的媒體流量。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用 [新的-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) 及 [CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) Cmdlet 來設定。 <br/>  允許的值為： <br/>  Required：必須使用 SRTP 加密。 <br/>  Optional：如果閘道支援，即會使用 SRTP。 <br/>  Not Supported：不支援 SRTP 加密，因此不會使用此加密。 <br/>  只有閘道設定為使用傳輸層安全性 (TLS) 時，才能使用 SRTPMode。如果將閘道設定為在傳輸時使用傳輸控制通訊協定 (TCP)，系統會從內部將 SRTPMode 設為 Not Supported。<br/> |
+|加密支援等級  <br/> |SRTPMode  <br/> | 指出支援等級，以保護中繼伺服器和服務提供者之 PSTN 閘道、IP-PBX 或 SBC 之間的媒體流量。 若是媒體旁路的情況，此值必須與媒體組態中的 EncryptionLevel 設定相容。 媒體設定是使用 [新的-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) 及 [CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) Cmdlet 來設定。 <br/>  允許的值為： <br/>  Required：必須使用 SRTP 加密。 <br/>  Optional：如果閘道支援，即會使用 SRTP。 <br/>  Not Supported：不支援 SRTP 加密，因此不會使用此加密。 <br/>  只有閘道設定為使用傳輸層安全性 (TLS) 時，才能使用 SRTPMode。如果將閘道設定為在傳輸時使用傳輸控制通訊協定 (TCP)，系統會從內部將 SRTPMode 設為 Not Supported。<br/> |
 |轉接支援  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |如果設定為 **[啟用傳送轉接至閘道]**，表示主幹支援接收來自中繼伺服器的 Refer 要求。  <br/> 如果設定為 **[使用協力廠商撥號控制來啟用轉接]**，表示可以使用 3pcc 通訊協定允許轉接通話略過主控網站。3pcc 也稱為「第三方控制」，當使用第三方來連接一組來電者時 (例如，由接線員撥打從 A 到 B 的電話)，就會發生此情況。<br/> |
 |啟用媒體旁路  <br/> |EnableBypass  <br/> |表示此主幹是否啟用媒體旁路。只有在也啟用 **[集中式媒體處理]** 時，才能啟用媒體旁路。<br/> |
 |集中式媒體處理  <br/> |ConcentratedTopology  <br/> |指出是否有已知的媒體終端點 (已知的媒體終端點範例是 PSTN 閘道，其媒體終端的 IP 與訊號終端相同)。  <br/> |
@@ -61,7 +61,7 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
 |撥打的號碼  <br/> |不適用  <br/> |指出要測試的電話號碼是受話者的電話號碼。  <br/> |
    
 > [!NOTE]
-> Lync Server Get-cstrunkconfiguration Cmdlet 支援未顯示在 Lync Server 控制台中的其他屬性。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+> Lync Server Get-cstrunkconfiguration Cmdlet 支援未顯示在 Lync Server 控制台中的其他屬性。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
   
 ### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台修改 SIP 主幹設定設定
 
@@ -76,5 +76,3 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
 5. 在 **[未認可的語音組態設定]** 對話方塊中，按一下 **[確定]**。
     
 6. 在 [ **商務用 Skype 伺服器控制台** ] 對話方塊中，按一下 **[確定**]。
-    
-

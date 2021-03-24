@@ -1,5 +1,5 @@
 ---
-title: 購買 Microsoft 365 商務語音所需的管理員許可權
+title: 購買 Microsoft 365 商務語音所需的系統管理員許可權
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,33 +16,33 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: b1f031a538872aac7bf0891c6dc56886f7eae048
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 236b3444d78950ea4f84fb28187d6d4d3046205c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868440"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102849"
 ---
-# <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>購買 Microsoft 365 商務語音所需的管理員許可權
+# <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>購買 Microsoft 365 商務語音所需的系統管理員許可權
 
-你好！ 您已傳送到此頁面，因為您已嘗試購買[Microsoft 365 商務語音](../whats-business-voice.md)授權，但沒有必要的許可權。
+您好！ 因為您嘗試購買 [Microsoft 365 商務](../whats-business-voice.md) 語音授權，但您沒有所需的許可權，因此您被送上此頁面。
 
-首先，如果您意外按下連結，而不是說您要試用並購買商務語音授權，您可以直接關閉此頁面。 如果您想要購買商務語音授權（或**您想要**深入瞭解商務語音），請繼續閱讀！
+首先，如果您意外按一下連結，但不想嘗試購買商務語音授權，您可以關閉此頁面。 如果您想要 **購買** 商務語音授權 (或想要進一瞭解 Business Voice) ，請繼續閱讀！
 
-## <a name="how-can-i-buy-business-voice"></a>我要如何購買商務用語音？
+## <a name="how-can-i-buy-business-voice"></a>如何購買商務語音？
 
-商務語音是 Microsoft 365 和 Office 365 的附加元件。 您必須先註冊 Microsoft 365 或 Office 365，才能購買商務用語音。 在您註冊之後，或者如果您已經有 microsoft 365 或 Office 365 訂閱，您可以移至[microsoft 365 系統管理中心](https://admin.microsoft.com)  >  **付費**  >  **購買服務**  >  **附加**元件（滾動至頁面底部）來購買商務語音附加元件授權，> **Microsoft 365 商務版語音**。
+商務語音是 Microsoft 365 和 Office 365 的附加元件。 購買商務語音之前，您必須註冊 Microsoft 365 或 Office 365。 註冊之後，或者如果您已經有 Microsoft 365 或 Office 365 訂閱，您可以到 [Microsoft 365](https://admin.microsoft.com)系統管理中心帳單購買服務附加元件 (卷起至頁面底部  >    >    >  ****) > **Microsoft 365 商務** 語音 。
 
-## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>為什麼我看不到購買商務用語音的選項？
+## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>為什麼我看不到購買商務語音的選項？
 
-如果您無法存取 Microsoft 365 系統管理中心，如果您沒有看到購買商務用語音的選項，或如果您收到錯誤，可能是下列其中一種原因：
+如果您無法存取 Microsoft 365 系統管理中心，如果您沒看到購買商務語音的選項，或收到錯誤，可能是下列其中一個原因：
 
-- **許可權不足**-若要新增授權（包括商務語音）至 Microsoft 365 或 Office 365 組織，您的帳戶必須是全域管理員或必須指派帳單管理員角色。 請與您的 Microsoft 365 或 Office 365 系統管理員聯繫，以協助您取得正確的許可權，或為您新增商務語音授權。
-- **已登入非系統管理員帳戶**-如果您是 Microsoft 365 或 Office 365 組織的全域系統管理員或帳單管理員，且按照建議的做法，請登出您的一般使用者帳戶並登入您的系統管理員帳戶。
-- **未登入**-請確認您已登入您想要管理的 Microsoft 365 或 Office 365 組織中的全域系統管理員或帳單管理員帳戶。
-- **已登入錯誤的組織**-如果您有多個 Microsoft 365 或 Office 365 組織的存取權，請確認您已登入正確的組織。 您必須登出目前的 Office 365 帳戶，並登入您想要管理的組織中的帳戶。
-- **商務語音**無法在有限數量的國家和地區中取得商務用語音。 查看[商務用語音](../whats-business-voice.md)，查看您所在的位置是否有可用的商務語音。
+- 許可權 **不足**- 若要新增授權 ，包括商務語音，到您的 Microsoft 365 或 Office 365 組織，您的帳戶必須全域系統管理員，或需要指派帳單系統管理員角色。 請與 Microsoft 365 或 Office 365 系統管理員聯繫，以取得正確的許可權，或新增商務語音授權。
+- 已登錄非系統管理員帳戶 **-** 如果您是 Microsoft 365 或 Office 365 組織的全域系統管理員或帳單系統管理員，並遵循與系統管理員帳戶分開的「一般」使用者帳戶的建議作法，請登出您的一般使用者帳戶並登錄您的系統管理員帳戶。
+- **未登錄** - 確認您已登錄您想要管理的 Microsoft 365 或 Office 365 組織中全域系統管理員或帳單系統管理員帳戶。
+- **已登錄錯誤的組織** - 如果您能夠存取多個 Microsoft 365 或 Office 365 組織，請確定您已登錄正確的組織。 您必須登出目前的 Office 365 帳戶，並登入您想要管理之組織中的帳戶。
+- **您目前無法** 使用商務語音 - 商務語音目前可在數量有限的國家和地區使用。 請查看 [什麼是商務語音](../whats-business-voice.md) ，查看您目前位置是否供應商務語音。
 
-## <a name="what-if-im-still-having-trouble"></a>如果我仍有問題，該怎麼辦？
+## <a name="what-if-im-still-having-trouble"></a>如果我仍有問題呢？
 
-如果您已檢查上述所有原因，但仍無法購買商務用語音，請參閱[商務用客戶支援部門-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。
+如果您已經檢查上述所有原因，但仍然無法購買 Business Voice，請參閱與商務產品 [支援人員聯繫 - 系統管理說明](/microsoft-365/admin/contact-support-for-business-products)。

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供 Microsoft Teams 面板所支援之概觀和功能。
-ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937850"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102139"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
@@ -36,7 +36,7 @@ Teams 面板是專用的 Microsoft Teams 裝置，可顯示透過 Teams 或 Outl
 Teams 面板支援下列功能：
 
 - **會議空間和會議詳細資料專用的顯示。** 您可以快速取得會議空間的詳細資訊，包括會議空間的位置和可用性。 對於保留的會議空間，您可以查看重要的會議詳細資料，例如會議標題、會議排程和會議召集人。
-- **為臨時會議保留可用的會議空間。** 您可以使用觸控螢幕面板，在當場為臨時會議保留可用的會議空間，然後從室內的 Microsoft  Teams 會議室或 Surface Hub 裝置加入該 Teams 會議。
+- **為臨時會議保留可用的會議空間。** 您可以使用觸控螢幕面板，就地為臨時會議保留可用的會議空間，然後從室內的 Microsoft Teams會議室或 Surface Hub 裝置加入該 Teams 會議。
 - **空間可用性狀態的色彩編碼標記。** 您可以使用生動的 LED 和主畫面指示器，近距離查看會議空間的可用性。 綠色表示會議空間可供使用，如有需要，您可以從面板本身保留會議空間。 紅色或紫色表示已保留會議空間。
 - **自訂牆紙和保留狀態指示器。** 管理員可以透過設定變更面板的預設面板。 例如，系統管理員可以變更背景牆紙，或變更忙碌狀態指示器的色彩。
 - **協助工具。** Teams 面板有幾個協助工具功能，例如高對比文字，讓任何人都能更輕鬆地使用這些功能。
@@ -52,11 +52,11 @@ Teams 面板支援下列功能：
 
 ## <a name="teams-panels-requirements"></a>Teams 面板需求
 
-部署面板裝置的硬體、軟體和網路需求可能會根據您部署的面板裝置類型而不同。 請參閱原始設備製造商 (OEM) 檔，瞭解一組裝置所需的功能。
+部署面板裝置的硬體、軟體和網路需求可能會根據您部署的面板裝置類型而不同。 請參閱原始設備製造商 (OEM) 檔，瞭解一組裝置需要哪些功能。
 
 ## <a name="license-requirement"></a>授權需求
 
-若要使用 Teams 面板，您需要 [Microsoft Teams 會議室標準授權](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)。
+若要使用 Teams 面板，您需要 [Microsoft Teams 會議室標準授權](../rooms/rooms-licensing.md)。
 
 > [!Note]
 > 如果您已經在安裝 Teams 面板的會議空間中部署 Microsoft Teams 會議室，則不需要額外的授權才能使用 Teams 面板。
@@ -68,7 +68,7 @@ Teams 面板支援下列功能：
 Teams 面板裝置部署可以細分為下列工作：
 
 - [會議空間庫存與功能規劃](#inventory-sites-and-meeting-spaces)：建立貴組織網站與會議空間的庫存，以部署 Teams 面板裝置。
-- [採購](#procurement)：從您選取的裝置合作夥伴購買裝置。  
+- [採購](#procurement)：從所選裝置合作夥伴購買裝置。  
 - [網站就緒](#site-readiness)：確認您的部署位置 (會議) 符合部署需求。
 - [組配置與部署](#configuration-and-deployment)：建立資源帳戶，並將其指派給裝置。
 
@@ -78,13 +78,13 @@ Teams 面板裝置部署可以細分為下列工作：
 
 ## <a name="procurement"></a>採購
 
-根據部署 Teams 面板的範圍會議空間數量，從其中一個通過 Teams 面板認證的合作夥伴取得 [裝置](#partners-certified-for-teams-panels)。 請流覽合作夥伴的網站，深入瞭解裝置和採購選項。
+根據部署 Teams 面板的範圍會議空間數目，從其中一個經 Teams 面板認證的合作夥伴取得 [裝置](#partners-certified-for-teams-panels)。 請流覽合作夥伴的網站，深入瞭解裝置和採購選項。
 
 貴組織的會議空間在安裝或安裝裝置時，可能有不同的硬體需求。 例如，將裝置安裝在玻璃、灰灰、幹牆或木材面板上所需的硬體可能不同。 請參閱裝置合作夥伴的檔，以尋找可用的安裝選項。
 
 ## <a name="site-readiness"></a>網站準備就緒
 
-當訂購的裝置傳送到貴組織時，請與網路、設施及音訊-視覺小組合作，以確保符合部署需求，且每個網站和會議空間在電源和網路方面已準備就緒。
+當訂購的裝置傳送給貴組織時，請與網路、設施及音訊-視覺小組合作，以確保符合部署需求，且每個網站和會議空間在電源和網路方面已準備就緒。
 
 我們針對 Teams 面板網站的建議為：
 
@@ -96,7 +96,7 @@ Teams 面板裝置部署可以細分為下列工作：
 
 ## <a name="configuration-and-deployment"></a>組配置與部署
 
-組配置與部署規劃涵蓋下列主要領域：
+組組和部署規劃涵蓋下列主要領域：
 
 - 資源帳戶資源配置
 - 測試
@@ -105,13 +105,13 @@ Teams 面板裝置部署可以細分為下列工作：
 
 每個 Teams 面板裝置都需要 Microsoft 365 會議室資源帳戶。 您可以使用資源帳戶認證在面板裝置上登錄 Microsoft Teams 應用程式。
 
-若要為 Teams 面板設定 Microsoft 365 資源帳戶，我們建議您購買 [Microsoft Teams 會議室標準授權](#license-requirement)。 若要瞭解如何建立資源帳戶並為其指派授權，請參閱使用 [Microsoft 365](resource-account-ui.md)系統管理中心建立資源帳戶。
+若要為 Teams 面板設定 Microsoft 365 資源帳戶，我們建議您購買 [Microsoft Teams 會議室標準授權](#license-requirement)。 若要瞭解如何建立資源帳戶並指派授權給資源帳戶，請參閱使用 Microsoft [365](resource-account-ui.md)系統管理中心建立資源帳戶。
 
 > [!NOTE]
 >
 >- 如果您已經針對要安裝面板的會議空間設定會議室資源帳戶，請使用相同的會議室資源帳戶來登錄面板裝置。 不過，請確定會議室資源帳戶已指派 Microsoft Teams 會議室標準授權給該帳戶，才能將其做為面板資源帳戶使用。
 >
->- 如果您已經在安裝 Teams 面板的會議空間中部署 Microsoft Teams 會議室，則不需要購買另一個授權來部署面板。 系統管理員以與 Microsoft Teams 會議室相同的認證，以相同的空間來登錄面板裝置。
+>- 如果您已經在安裝 Teams 面板的會議空間中部署 Microsoft Teams 會議室，則不需要購買個別授權來部署面板。 系統管理員以與 Microsoft Teams 會議室相同的認證，以相同的空間來登錄面板裝置。
 >
 >- 對於大型會議空間 ，例如會議室或會議室，有多個入口，您可以在每個入口安裝一個面板裝置。 屬於單一會議空間的多個面板會共用相同的資源帳戶，並使用相同的認證來登錄。 您不需要為相同空間的每個面板建立個別的資源帳戶。
 

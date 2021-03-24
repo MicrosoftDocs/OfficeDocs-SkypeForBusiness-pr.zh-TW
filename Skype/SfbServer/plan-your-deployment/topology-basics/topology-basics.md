@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要：選擇您的商務用 Skype 伺服器拓撲。 瞭解適用于商務用 Skype Server 的伺服器組合。
-ms.openlocfilehash: 9b0dbe6a74a5982c2816c022e5ea7a99ba2abf07
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 39a75de6162f51d5d838ace557a546db3500ac01
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831753"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103989"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>商務用 Skype Server 的拓撲基礎
 
@@ -136,7 +136,7 @@ ms.locfileid: "49831753"
 
 - 網頁元件至支援的 web 工作，例如 web 排程器及加入啟動器。
 
-- （選用）封存 IM 通訊和會議內容，以符合合規性的原因。 如需詳細資訊，請參閱規劃檔中的 [規劃](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) 封存。
+- （選用）封存 IM 通訊和會議內容，以符合合規性的原因。 如需詳細資訊，請參閱規劃檔中的 [規劃](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-archiving) 封存。
 
     在 Lync Server 2010 和舊版中，監控和封存是不同的伺服器角色，不會組合在前端伺服器上。
 
@@ -251,7 +251,7 @@ Standard Edition server 具有下列角色組合 (其他設定也是) ，但在 
 
 - Enterprise Edition 前端集區的任何後端資料庫
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>企業
 
 下列資料庫可以在同一部後端 SQL Server 上組合：
 

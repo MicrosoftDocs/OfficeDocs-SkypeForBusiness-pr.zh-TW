@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 在商務用 Skype Server 中，可將多個主幹指派給單一 PSTN 閘道;這表示閘道和主幹不是一或相同，管理員必須使用 Get-CsTrunk Cmdlet 來查看個別 SIP 主幹的相關資訊。
-ms.openlocfilehash: b49846ed7244dec2f51f51f262becc440662026c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: eebba2982a6f574ca2af99609f19ba5426139acb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826173"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102999"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>在商務用 Skype Server 中查看個別 SIP 主幹的相關資訊
 
-在商務用 Skype Server 中，可將多個主幹指派給單一 PSTN 閘道;這表示閘道和主幹不是一個，而且必須使用 [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) Cmdlet 來查看個別 SIP 主幹的相關資訊。
+在商務用 Skype Server 中，可將多個主幹指派給單一 PSTN 閘道;這表示閘道和主幹不是一個，而且必須使用 [Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) Cmdlet 來查看個別 SIP 主幹的相關資訊。
 
 Get-CsTrunk Cmdlet 可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行。
 

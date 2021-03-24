@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034067"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111079"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>協助 Teams 教育版的低頻寬情況
 
@@ -62,13 +62,13 @@ ms.locfileid: "43034067"
 - 完全停用影片，讓所有人都無法啟用影片。
 - 媒體位元速率 (根據每位使用者來加以設定)。
 
-若要深入了解您的選項，並逐步查看必須為會議和影片設定的具體原則，請參閱 [Teams 中的會議原則設定：音訊和影片](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)，以取得詳細的逐步說明資訊。
+若要深入了解您的選項，並逐步查看必須為會議和影片設定的具體原則，請參閱 [Teams 中的會議原則設定：音訊和影片](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)，以取得詳細的逐步說明資訊。
 
 #### <a name="screen-sharing-policies"></a>螢幕共用原則
 
 在其他情況下，老師可能會與學生共用其整個螢幕，這個時候，共用範圍應限制在與所授課程有關的應用程式上。 如果不想讓老師個別做選擇，而是有其他更想要的方式，那麼您也可以透過原則來設定此限制。
 
-若要了解有什麼好方法可以讓您透過原則設定來限制螢幕共用，請參閱 [Teams 中的會議原則設定：螢幕共用](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)。
+若要了解有什麼好方法可以讓您透過原則設定來限制螢幕共用，請參閱 [Teams 中的會議原則設定：螢幕共用](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
 
 #### <a name="dial-in-number-for-meetings"></a>會議的撥入號碼
 

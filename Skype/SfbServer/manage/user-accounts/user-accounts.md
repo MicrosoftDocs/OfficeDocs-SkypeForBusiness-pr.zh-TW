@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文的各節說明如何啟用、暫時停用或移除商務用 Skype Server 中的 Active Directory 使用者。
-ms.openlocfilehash: aa1b1b21ba089815af20b61da3360179fb10935e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0cf78b4ebe7023bc5a0f1b4af75c5d9e5a45db1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832773"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103119"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理商務用 Skype Server 的使用者帳戶
 
 本文的各節說明如何啟用、暫時停用或移除商務用 Skype Server 中的 Active Directory 使用者。
 
-如需如何啟用 Active Directory 使用者的詳細資訊，請參閱 [建立新的使用者帳戶](https://technet.microsoft.com/library/cc732336%28v=ws.11%29.aspx)。 如需如何刪除 Active Directory 使用者的詳細資訊，請參閱 [刪除使用者帳戶](https://technet.microsoft.com/library/cc753730%28v=ws.11%29.aspx)。
+如需如何啟用 Active Directory 使用者的詳細資訊，請參閱 [建立新的使用者帳戶](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732336(v=ws.11))。 如需如何刪除 Active Directory 使用者的詳細資訊，請參閱 [刪除使用者帳戶](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))。
 
 當商務用 Skype 使用率最低時，應在維護時段內執行這些程式。 在每日或每週排程上進行的工作是否取決於組織的需求。
 
@@ -74,7 +74,7 @@ ms.locfileid: "49832773"
 
 在 [Active Directory 使用者及電腦] 中啟用使用者帳戶之後，您可以使用商務用 Skype Server 控制台，將 Active Directory 使用者新增至商務用 Skype Server，以建立及啟用新的商務用 Skype Server 使用者帳戶。
 
-您也可以使用 Cmdlet，特別是 [Enable-get-csuser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)。
+您也可以使用 Cmdlet，特別是 [Enable-get-csuser](/powershell/module/skype/enable-csuser?view=skype-ps)。
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
@@ -133,7 +133,7 @@ ms.locfileid: "49832773"
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-如需詳細資訊，請參閱 [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) Cmdlet 的 [說明] 主題。
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>停用企業語音的使用者
 <a name="Disable_EV"> </a>
@@ -161,7 +161,7 @@ ms.locfileid: "49832773"
 
 8. 按一下 **[認可]**。
 
-使用者現在無法使用 Enterprise Voice 功能。 相關資訊： <br/>[Enterprise Voice 和行動性](https://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [在商務用 Skype Server 中啟用使用者的 Enterprise Voice](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [商務用 Skype Server 管理命令介面](../management-shell.md)
+使用者現在無法使用 Enterprise Voice 功能。 相關資訊： <br/>[Enterprise Voice 和行動性](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [在商務用 Skype Server 中啟用使用者的 Enterprise Voice](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [商務用 Skype Server 管理命令介面](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>移除具有商務用 Skype Server 管理命令介面的使用者帳戶
 <a name="Remove"> </a>
 
@@ -197,11 +197,11 @@ ms.locfileid: "49832773"
 
     After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-如需詳細資訊，請參閱 [get-csuser 指令程式](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps) 的 [說明] 主題。
+如需詳細資訊，請參閱 [get-csuser 指令程式](/powershell/module/skype/disable-csuser?view=skype-ps) 的 [說明] 主題。
 
 ## <a name="see-also"></a>另請參閱
 <a name="Remove"> </a>
 
-[Enable-Get-csuser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
+[Enable-Get-csuser](/powershell/module/skype/enable-csuser?view=skype-ps)
 
-[停用 Get-csuser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
+[停用 Get-csuser](/powershell/module/skype/disable-csuser?view=skype-ps)

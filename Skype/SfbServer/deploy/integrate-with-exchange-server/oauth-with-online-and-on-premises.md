@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 設定 Exchange 內部部署和商務用 Skype Online 之間的 OAuth 驗證，可啟用功能支援中所述的商務用 Skype 和 Exchange 整合功能。
-ms.openlocfilehash: ac8bfe2f30e813e47a0256a68e4e81852d5bae68
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 342362926ad0af169acd6c9af4715008425e71c7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833973"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109709"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>設定商務用 Skype Online 與 Exchange Server 之間的整合及 OAuth 
 
@@ -31,11 +31,11 @@ ms.locfileid: "49833973"
 
 - 完成此工作的預估時間：15 分鐘
 
--  您必須已獲指派權限，才能執行此程序或這些程序。 若要查看您需要的許可權，請參閱 [Exchange 及命令介面基礎結構許可權](https://go.microsoft.com/fwlink/p/?LinkId=746511) 主題。
+-  您必須已獲指派權限，才能執行此程序或這些程序。 若要查看您需要的許可權，請參閱 [Exchange 及命令介面基礎結構許可權](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help) 主題。
 
 - 如需適用於此主題中程序的快速鍵相關資訊，請參閱 [Exchange 系統管理中心的鍵盤快速鍵]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
 
-- 如需相容性的相關資訊，請參閱 [商務用 Skype 相容性與 Office 應用程式](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)。
+- 如需相容性的相關資訊，請參閱 [商務用 Skype 相容性與 Office 應用程式](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)。
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>設定 Exchange Server 和 O365 之間的整合
 
@@ -43,7 +43,7 @@ ms.locfileid: "49833973"
 
 執行下列文章中的步驟：
 
-[設定 Exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[設定 Exchange 與 Exchange Online 組織之間的 OAuth 驗證](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>步驟2：為商務用 Skype Online 夥伴應用程式建立新的郵件使用者帳戶
 
@@ -103,7 +103,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 ### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>步驟5：將內部部署授權憑證上傳至 Azure Active Directory ACS
 
-接下來，使用 Windows PowerShell，將您在上一個步驟中匯出的內部部署授權憑證上傳至 Azure Active Directory 存取控制服務 (ACS) 。 若要這麼做，必須已安裝 Windows PowerShell Cmdlet 的 Azure Active Directory 模組。 若未安裝，請移至 [https://aka.ms/aadposh](https://aka.ms/aadposh) 安裝 Azure Active Directory Module For Windows PowerShell。 安裝 Windows PowerShell 的 Azure Active Directory 模組後，請完成下列步驟。
+接下來，使用 Windows PowerShell，將您在上一個步驟中匯出的內部部署授權憑證上傳至 Azure Active Directory 存取控制服務 (ACS) 。 若要這麼做，必須已安裝 Windows PowerShell Cmdlet 的 Azure Active Directory 模組。 若未安裝，請移至 [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) 安裝 Azure Active Directory Module For Windows PowerShell。 安裝 Windows PowerShell 的 Azure Active Directory 模組後，請完成下列步驟。
 
 1. 按一下 [ **適用于 windows 的 Azure Active Directory 模組] PowerShell** 快捷方式，開啟已安裝 Azure AD Cmdlet 的 Windows PowerShell workspace。 在此步驟中的所有命令，都將使用適用于 Azure Active Directory 主控台的 Windows PowerShell 執行。
 
@@ -144,14 +144,14 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. 確認行動用戶端的交談記錄會顯示在 Outlook [交談記錄] 資料夾中。
 
-3. 使用 [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)，確認已封存的聊天訊息會存放在使用者的內部部署信箱中的 [清除] 資料夾中。
+3. 使用 [EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor)，確認已封存的聊天訊息會存放在使用者的內部部署信箱中的 [清除] 資料夾中。
 
 或者，查看您的流量。 OAuth 握手中的流量十分獨特 (而且看起來不像基本驗證) （特別是在領域之外），您可以在這裡看到如下所示的發行人流量： 00000004-0000-0ff1-ce00-000000000000 @ (有時候會在所傳遞的標記中使用 @ 符號) 。 您不會看到使用者名稱或密碼，也就是 OAuth 的點。 不過，您會看到「Office」簽發者–在此案例中，"4" 是商務用 Skype –以及您訂閱的領域。
 
 如果您想要確定成功使用 OAuth，請確定您知道預期的內容，並知道流量應該類似。 以下是您 [預期的目標](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)，以下是 [Microsoft 應用 (程式中 OAuth 流量的](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  一個很好的標準範例，雖然它不會使用重新整理權杖) ，但仍有 Fiddler 擴充功能可讓您查看 OAuth JWT (JSON Web Token) 。
 
-以下是 [一個設定的範例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)，但是您可以使用任何您想要執行此程式的網路追蹤工具。
+以下是 [一個設定的範例](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)，但是您可以使用任何您想要執行此程式的網路追蹤工具。
 
 ## <a name="related-topics"></a>相關主題
 
-[設定 Exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[設定 Exchange 與 Exchange Online 組織之間的 OAuth 驗證](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

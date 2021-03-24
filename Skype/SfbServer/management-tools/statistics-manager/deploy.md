@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 79e07c29a5df4a5da239687708a9bb52e995d191
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814813"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105379"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署商務用 Skype Server 統計資料
  
@@ -108,7 +108,7 @@ ms.locfileid: "49814813"
     
    - **AppData 目錄：** 這是用來儲存記錄檔資料夾及其他資料的目錄。 您可以從預設值變更它。 卸載時不會將其刪除。
     
-3. 按一下 **安裝**。
+3. 按一下 **[安裝]**。
     
 若要驗證安裝，請執行下列步驟：
   
@@ -138,7 +138,7 @@ ms.locfileid: "49814813"
     
    - **AppData 目錄：** 這是用來儲存記錄檔資料夾及其他資料的目錄。 您可以從預設值變更它。 卸載時不會將其刪除。
     
-3. 按一下 **安裝**。
+3. 按一下 **[安裝]**。
     
 若要查看網站，請開啟瀏覽器，然後流覽至： http://localhost ，webport \> /。
   
@@ -168,7 +168,7 @@ Web 安裝程式會新增稱為 StatsManWebSiteUsers 的本機安全性群組。
     
    - **AppData 目錄：** 這是儲存 Logs 資料夾及加密 password.txt 檔案的目錄。 您可能會多謝從預設值變更。 卸載時不會將其刪除。
     
-3. 按一下 **安裝**。
+3. 按一下 **[安裝]**。
     
 若要在許多機器上安裝代理程式，您可能想要在自動模式中執行這項作業。 例如： 
   
@@ -179,7 +179,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>匯入拓撲
 <a name="BKMK_ImportTopology"> </a>
 
-在安裝並執行統計資料管理員之後，您必須匯入商務用 Skype 伺服器拓撲，使統計資料管理員知道每一部伺服器的網站、集區和角色。 若要匯入商務用 Skype 伺服器拓撲，您將會使用 [Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) Cmdlet，以取得組織中所使用之每個集區的相關資訊，然後將此資訊匯入至統計資料管理員。
+在安裝並執行統計資料管理員之後，您必須匯入商務用 Skype 伺服器拓撲，使統計資料管理員知道每一部伺服器的網站、集區和角色。 若要匯入商務用 Skype 伺服器拓撲，您將會使用 [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) Cmdlet，以取得組織中所使用之每個集區的相關資訊，然後將此資訊匯入至統計資料管理員。
   
 若要匯入商務用 Skype 伺服器拓撲，請遵循下列步驟：
   
@@ -296,7 +296,7 @@ Microsoft 強烈建議您使用受信任的憑證授權單位單位所簽署的�
     
 9. 按一下 **[確定]**。
     
-## <a name="for-more-information"></a>相關資訊
+## <a name="for-more-information"></a>如需詳細資訊
 <a name="BKMK_SelfCert"> </a>
 
 如需詳細資訊，請參閱下列各主題：

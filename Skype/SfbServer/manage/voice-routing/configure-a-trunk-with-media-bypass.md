@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '請遵循下列步驟，設定啟用媒體旁路的主幹。 '
-ms.openlocfilehash: 157aa7fe7c38f5c177f58db0239af7984e644692
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 91c1d495854a91e588c42fd22f6bd8e53fded7d8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832733"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103029"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中設定含媒體旁路的主幹
 
@@ -126,7 +126,6 @@ ms.locfileid: "49832733"
 20. 在 **[主幹組態]** 頁面上，按一下 **[認可]**，再按一下 **[全部認可]**。 
 
     > [!Note]
-    > 只要建立或修改主幹組態後，都應執行 **[全部認可]** 命令以發行組態變更。 如需詳細資訊，請參閱 [將擱置的變更發佈至語音路由](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx)設定。  (需要新連結？ ) 
+    > 只要建立或修改主幹組態後，都應執行 **[全部認可]** 命令以發行組態變更。 如需詳細資訊，請參閱 [將擱置的變更發佈至語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration)設定。  (需要新連結？ ) 
 
 設定主幹之後，請選擇通用媒體旁路選項，繼續設定媒體旁路，如在 [商務用 Skype Server 中部署媒體旁路中](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md)所述。
-

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 在商務用 Skype Server 中，管理工具是使用 Windows PowerShell 來執行。 Windows PowerShell 包含命令列環境、產品特有的命令，以及完整的指令碼語言。 使用 Windows PowerShell 執行的商務用 Skype 伺服器工具組括下列各項：
-ms.openlocfilehash: 740a5e3d7998523970e1b0adc1e72aa85d0b09c4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61f5acdacc1a401a3541ba9d08213ad7f054374a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832153"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104199"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 和商務用 Skype Server 管理工具
  
@@ -31,6 +31,4 @@ ms.locfileid: "49832153"
     
 這些工具使用 Windows PowerShell Cmdlet 來管理您的部署，包含接近550產品特有的 Cmdlet。 商務用 Skype Server 中所包含的安全性 Cmdlet 主要用來管理驗證，以及使用者權利和許可權。 有各種各樣的指令程式可用於管理驗證，包括憑證和個人識別碼 (PIN) 驗證的 Cmdlet。 此外，一些 Cmdlet 可讓您使用新的 Role-Based 存取控制 (RBAC) 功能委派商務用 Skype Server 的管理控制。 如需商務用 Skype Server Cmdlet 的詳細資訊，請參閱 [商務用 Skype Server 管理命令](../../manage/management-shell.md)介面。
   
-Windows PowerShell 的腳本安全性功能是專門設計來協助避免舊版技術（包括 Microsoft Visual Basic Script Edition (VBScript) ）的腳本相關安全性問題。 Windows PowerShell 的安全性功能主要是用來建立使用者無法輕易或無意中執行腳本的環境。 依預設，Windows PowerShell 的安全性功能都會啟用。 您可以修改這些功能的狀態，以滿足您的腳本需求和各種安全性目標。 這並不是說命令介面讓使用者無法執行腳本。 相反地，命令介面會使使用者在執行腳本時不會有這麼大的難度。 如需詳細資訊，請參閱 [Windows PowerShell 腳本安全性](https://go.microsoft.com/fwlink/p/?LinkId=213145)。
-  
-
+Windows PowerShell 的腳本安全性功能是專門設計來協助避免舊版技術（包括 Microsoft Visual Basic Script Edition (VBScript) ）的腳本相關安全性問題。 Windows PowerShell 的安全性功能主要是用來建立使用者無法輕易或無意中執行腳本的環境。 依預設，Windows PowerShell 的安全性功能都會啟用。 您可以修改這些功能的狀態，以滿足您的腳本需求和各種安全性目標。 這並不是說命令介面讓使用者無法執行腳本。 相反地，命令介面會使使用者在執行腳本時不會有這麼大的難度。 如需詳細資訊，請參閱 [Windows PowerShell 腳本安全性](/previous-versions/msdn10/gg261722(v=msdn.10))。

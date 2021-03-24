@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要：瞭解如何使用商務用 Skype Server 管理命令介面來測試 SIP 主幹設定設定。
-ms.openlocfilehash: 8b3a98d54fd0d2dc8bb69e553e0c0a3a7b98b1ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6f569c7e397e7902cb347e13b4077acb5a9b34fb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830633"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103369"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中測試 SIP 主幹設定設定
  
@@ -37,7 +37,7 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
     
 當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此外，系統管理員可以在網站範圍或服務範圍 (僅限 PSTN 閘道服務) 建立自訂設定集合。 管理員也可以使用 Test-CsTrunkConfiguration Cmdlet 來驗證主幹是否可將使用者所撥打的號碼轉換為閘道可以處理的號碼。
   
-您只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) Cmdlet 來測試主幹設定設定。 您可以從商務用 Skype Server 管理命令介面或從商務用 Skype Server 管理命令介面的遠端會話執行此 Cmdlet。
+您只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) Cmdlet 來測試主幹設定設定。 您可以從商務用 Skype Server 管理命令介面或從商務用 Skype Server 管理命令介面的遠端會話執行此 Cmdlet。
   
 ### <a name="to-test-sip-trunk-configuration-settings"></a>測試 SIP 主幹設定設定
 
@@ -47,5 +47,3 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
   Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
   ```
-
-

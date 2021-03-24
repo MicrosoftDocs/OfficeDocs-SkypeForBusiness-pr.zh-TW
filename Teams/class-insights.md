@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145900"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102619"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -137,7 +137,7 @@ Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可�
 > 收集的資料多數會在幾分鐘內出現在 Insights 中。 班級會議 (與其中一個班級頻道相關聯的會議) 中的出席資訊，會在會議結束後顯示幾小時 (通常最多為 24 小時)。
 
 ### <a name="privacy-and-security"></a>隱私權和安全性
-透過 Insights 收集和顯示的資訊，符合[超過 90 個法規和產業標準](https://docs.microsoft.com/compliance/regulatory/offering-home)，其中包括 [GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) 和針對學生與兒童安全性的[家庭教育權和隱私權法案 (FERPA)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa)，以及其他類似的以隱私權為導向法規。
+透過 Insights 收集和顯示的資訊，符合[超過 90 個法規和產業標準](/compliance/regulatory/offering-home)，其中包括 [GDPR](/compliance/regulatory/gdpr) 和針對學生與兒童安全性的[家庭教育權和隱私權法案 (FERPA)](/compliance/regulatory/offering-ferpa)，以及其他類似的以隱私權為導向法規。
 
 資料屬於機構，而 Microsoft 只會收集資料並儲存資料。 Microsoft 人員無法存取資料或查看資料，除非合規性以經稽核的方式允許，以便維護服務 (例如資料復原)。
 
@@ -173,7 +173,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 ## <a name="student-information-system-sis-integration"></a>學生資訊系統 (SIS) 整合
 送入 Insights 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
 
-若要提供組織層級 Insights，我們必須使用[學校資料同步處理 (SDS)](https://docs.microsoft.com/SchoolDataSync) 來連線到學生資訊系統 (SIS)，使得 Insights 會有正確對應的教育系統階層結構。 
+若要提供組織層級 Insights，我們必須使用[學校資料同步處理 (SDS)](/SchoolDataSync) 來連線到學生資訊系統 (SIS)，使得 Insights 會有正確對應的教育系統階層結構。 
 
 以班級授課者身分檢視班級層級的 Insights 並 *不需要* 此動作，因為我們會使用 Teams 的班級結構和權限。
 
@@ -192,7 +192,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 在這兩個檢視中，授課者都可以存取班級資料。 使用個人應用程式，授課者必須向下切入班級層級，而使用索引標籤則可讓其直接存取班級資料。
 
 > [!TIP]
-> 如需詳細資訊，請參閱[適用於教育界的 Teams 原則和原則套件](https://docs.microsoft.com/microsoftteams/policy-packages-edu)。
+> 如需詳細資訊，請參閱[適用於教育界的 Teams 原則和原則套件](./policy-packages-edu.md)。
 
 ## <a name="encourage-the-adoption-of-insights"></a>鼓勵採用 Insights
 讓您的教育機構對於使用 Insights 感到振奮。
@@ -255,6 +255,3 @@ Insights 會儲存在班級團隊內容中執行的學生和授課者動作。 �
 
 > [!NOTE]
 > 如果您的問題仍未獲得回覆，請[開啟支援票證](https://aka.ms/edusupport)。 請包含代表問題的相關螢幕擷取畫面和問題發生的日期。 新增您認為可能有助於我們解決問題的任何其他資料。
-
-
-

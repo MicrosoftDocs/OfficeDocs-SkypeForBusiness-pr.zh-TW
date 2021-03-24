@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 摘要：在 Exchange Server 2019、Exchange Server 2016、Exchange Server 2013 或 Exchange Online 和商務用 Skype Server 中設定高解析度相片的使用。
-ms.openlocfilehash: c55e5a90e222ea024dd63f72b26627141b2f113e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f5cc44f9f390c1d3241e7fae68054754ff7b0f76
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834003"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109799"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>在商務用 Skype Server 中設定高解析度相片的使用
  
@@ -47,7 +47,7 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 上一個範例中的第一個命令會使用 `Get-Content` Cmdlet 讀取檔案 C:\Photos\Kenmyer.jpg 的內容，並將該資料儲存在名為 $photo 的變數中。 在第二個命令中，Exchange Cmdlet `Set-UserPhoto` 是用來上傳相片，並將該相片附加到 Ken Myer 的使用者帳戶。
   
 > [!NOTE]
-> 在此範例中，Ken Myer 的 Active Directory 顯示名稱是用來做為使用者帳戶身分識別。 您也可以使用其他識別碼（例如使用者的 SMTP 位址或其使用者主要名稱）來參考使用者帳戶。 如需詳細資訊，請參閱 Set-UserPhoto Cmdlet 的檔 [https://go.microsoft.com/fwlink/p/?LinkId=268536](https://go.microsoft.com/fwlink/p/?LinkId=268536) 。
+> 在此範例中，Ken Myer 的 Active Directory 顯示名稱是用來做為使用者帳戶身分識別。 您也可以使用其他識別碼（例如使用者的 SMTP 位址或其使用者主要名稱）來參考使用者帳戶。 如需詳細資訊，請參閱 Set-UserPhoto Cmdlet 的檔 [https://go.microsoft.com/fwlink/p/?LinkId=268536](/powershell/module/exchange/set-userphoto) 。
   
 上傳相片不會像指派該相片到 Ken Myer 的使用者帳戶。 相反地，上載照片只會導致在 [Outlook Web App 選項] 頁面上顯示該相片的預覽。 若要將該相片實際指派給使用者帳戶，使用者必須按一下 [選項] 頁面上的 [ **儲存** ]，否則系統管理員必須執行範例中的第三個命令。 第三個命令使用 Save 參數將相片指派給 Ken Myer 的使用者帳戶：
   

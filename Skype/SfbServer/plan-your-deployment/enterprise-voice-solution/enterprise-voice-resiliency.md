@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 瞭解如何在商務用 Skype Server Enterprise Voice （位於中央網站和分支網站）上支援語音恢復功能。 分支網站選項包括部署 Survivable 分支裝置或 Survivable Branch Server。
-ms.openlocfilehash: d2b3efe36470e11d901b9b298cf955a04dd40766
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 357fca70ac179a23d733542bede540031a6dafdd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825753"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101529"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃 Enterprise Voice 韌性
 
@@ -246,11 +246,11 @@ Survivable 分支裝置也包含 PSTN 主幹、類比埠和乙太網路介面卡
 
 Survivable 分支裝置是由原始設備製造商生產，與 Microsoft 合作，並由增值零售商自行部署。 只有在中央網站部署商務用 Skype Server 之後，才會發生此部署，分支網站的 WAN 連線已到位，且已啟用分支網站使用者的 Enterprise Voice。
 
-如需這些階段的詳細資訊，請參閱部署文件中的＜[Deploying a Survivable Branch Appliance or Server](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx)＞。
+如需這些階段的詳細資訊，請參閱部署文件中的＜[Deploying a Survivable Branch Appliance or Server](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-a-survivable-branch-appliance-or-server)＞。
 
 |**階段**|**步驟**|**使用者權限**|
 |:-----|:-----|:-----|
-|為 Survivable Branch 裝置設定 Active Directory 網域服務  <br/> |**在中央網站上：** <br/>  在分支網站上，為將安裝及啟動 Survivable 分支裝置的技術人員建立網域使用者帳戶 (或企業身分識別) 。 <br/>  使用 Active Directory 網域服務中 Survivable Branch 裝置的適用的完整功能變數名稱 (FQDN) # A3，建立電腦帳戶 (。 <br/>  在 [拓撲產生器] 中，建立併發布 Survivable Branch 裝置。 <br/> |技術人員的使用者帳戶必須是 RTCUniversalSBATechnicians 的成員。 Survivable 分支裝置必須屬於 RTCSBAUniversalServices 群組，這會在您使用拓撲產生器時自動進行。  <br/> |
+|為 Survivable Branch 裝置設定 Active Directory 網域服務  <br/> |**在中央網站上：** <br/>  在分支網站上，為將安裝及啟動 Survivable 分支裝置的技術人員建立網域使用者帳戶 (或企業身分識別) 。 <br/>  使用 Active Directory 網域服務中 Survivable Branch 裝置的適用的完整功能變數名稱 (FQDN) ) ，建立電腦帳戶 (。 <br/>  在 [拓撲產生器] 中，建立併發布 Survivable Branch 裝置。 <br/> |技術人員的使用者帳戶必須是 RTCUniversalSBATechnicians 的成員。 Survivable 分支裝置必須屬於 RTCSBAUniversalServices 群組，這會在您使用拓撲產生器時自動進行。  <br/> |
 |安裝和啟動 Survivable 分支裝置。  <br/> |**在分支網站上：** <br/>  將 Survivable 分支裝置連接至乙太網路埠和 PSTN 埠。 <br/>  啟動 Survivable 分支裝置。 <br/>  使用在中央網站為 Survivable Branch 裝置建立的網域使用者帳戶，將 Survivable 分支裝置加入網域。 設定 FQDN 與 IP 位址，使其符合在電腦帳戶中建立的 FQDN。 <br/>  使用 OEM 使用者介面設定 Survivable 分支裝置。 <br/>  測試 PSTN 連線。 <br/> |技術人員的使用者帳戶必須是 RTCUniversalSBATechnicians 的成員。  <br/> |
 
 #### <a name="survivable-branch-server-details"></a>Survivable Branch Server 詳細資料
@@ -277,17 +277,17 @@ Survivable 分支裝置是由原始設備製造商生產，與 Microsoft 合作�
 
 #### <a name="voice-routing-for-branch-users"></a>分支使用者的語音路由
 
-建議您建立個別的使用者層級語音 over 網際網路通訊協定 (VoIP 分支網站中使用者的) 原則。 這個原則應包含使用 Survivable Branch 裝置或 Branch server 閘道的主要路由，以及一個或多個在中央網站上使用具有公用電話 (交換網之公用電話) 閘道的主幹的備份路由。 如果主要路由無法使用，則改為使用使用一或多部中央網站閘道的備份路由。 這種方式不論登錄使用者的位置為何（位於中央網站的分支網站註冊機構或備份註冊機構集區），使用者的 VoIP 原則都是有效的。 這是容錯移轉案例的重要考慮。 例如，如果您需要重新命名 Survivable 分支裝置，或重新設定 Survivable Branch 裝置以連線至中央網站的備份註冊機構集區，則必須將分支網站使用者移至中央網站的持續時間。  (如需重新命名或重新配置 Survivable 分支裝置的詳細資訊，請參閱附錄 B：在部署檔中 [管理 Survivable 分支裝置](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) 。 ) 如果這些使用者沒有使用者層級 VoIP 原則或使用者層級撥號對應表，當使用者移至另一個網站時，網站層級 VoIP 原則和網站層級撥號對應表會依預設套用至使用者，而不是分支網站網站層級 VoIP 原則和撥號對應表。 在此情況下，除非備份註冊機構集區所使用的網站層級 VoIP 原則和網站層級撥號對應表也可以套用至分支網站使用者，否則他們的呼叫將會失敗。 例如，如果位於日本的分支網站中的使用者已移至 Redmond 中的中央網站，則在其上預置 + 1425 至所有7位數通話的正規化規則的撥號對應表，將不會適當地為這些使用者轉譯來電。
+建議您建立個別的使用者層級語音 over 網際網路通訊協定 (VoIP 分支網站中使用者的) 原則。 這個原則應包含使用 Survivable Branch 裝置或 Branch server 閘道的主要路由，以及一個或多個在中央網站上使用具有公用電話 (交換網之公用電話) 閘道的主幹的備份路由。 如果主要路由無法使用，則改為使用使用一或多部中央網站閘道的備份路由。 這種方式不論登錄使用者的位置為何（位於中央網站的分支網站註冊機構或備份註冊機構集區），使用者的 VoIP 原則都是有效的。 這是容錯移轉案例的重要考慮。 例如，如果您需要重新命名 Survivable 分支裝置，或重新設定 Survivable Branch 裝置以連線至中央網站的備份註冊機構集區，則必須將分支網站使用者移至中央網站的持續時間。  (如需重新命名或重新配置 Survivable 分支裝置的詳細資訊，請參閱附錄 B：在部署檔中 [管理 Survivable 分支裝置](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) 。 ) 如果這些使用者沒有使用者層級 VoIP 原則或使用者層級撥號對應表，當使用者移至另一個網站時，網站層級 VoIP 原則和網站層級撥號對應表會依預設套用至使用者，而不是分支網站網站層級 VoIP 原則和撥號對應表。 在此情況下，除非備份註冊機構集區所使用的網站層級 VoIP 原則和網站層級撥號對應表也可以套用至分支網站使用者，否則他們的呼叫將會失敗。 例如，如果位於日本的分支網站中的使用者已移至 Redmond 中的中央網站，則在其上預置 + 1425 至所有7位數通話的正規化規則的撥號對應表，將不會適當地為這些使用者轉譯來電。
 
 > [!IMPORTANT]
 > 當您建立分支辦公室備份路由時，建議您將兩個 PSTN 電話使用方式記錄新增至分支 office 使用者原則，並將個別的路由指派給每個。 第一個或 [主要] 路由會直接呼叫與 Survivable Branch 裝置相關聯的閘道 (SBA) 或分支伺服器;第二個或 [備份] 路由會將呼叫直接呼叫至中央網站的閘道。 在接聽來電中，SBA 或 branch 伺服器會先嘗試所有指派給第一個 PSTN 使用方式記錄的路由，再嘗試第二個使用方式記錄。
 
-若要協助確定分支網站使用者的來電網關或 Survivable 分支裝置網站的 Windows 元件無法使用時，是否會到達這些使用者， (會發生此情況。例如，如果 Survivable 分支裝置或分支閘道停機以進行維護) ，請在閘道上建立容錯移轉路由 (或使用直接向內撥號 (已) 提供者) 將來電重新導向至中央網站的備份註冊機構集區。 在此，來電會透過 WAN 連結路由傳送至分支使用者。 請確定路由會轉譯數位，使其符合 PSTN 閘道或其他主幹對等公認的電話號碼格式。 如需建立容錯移轉路由的詳細資訊，請參閱設定 [容錯移轉路由](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx)。 另外，也為分支網站上與閘道相關聯的主幹建立服務層級撥號對應表，以正常化來電。 如果您有兩個 Survivable 分支裝置在分支網站上，您可以為這兩種方案建立一個網站層級撥號對應表，除非每個必要都要有個別的服務層級計畫。
+若要協助確定分支網站使用者的來電網關或 Survivable 分支裝置網站的 Windows 元件無法使用時，是否會到達這些使用者， (會發生此情況。例如，如果 Survivable 分支裝置或分支閘道停機以進行維護) ，請在閘道上建立容錯移轉路由 (或使用直接向內撥號 (已) 提供者) 將來電重新導向至中央網站的備份註冊機構集區。 在此，來電會透過 WAN 連結路由傳送至分支使用者。 請確定路由會轉譯數位，使其符合 PSTN 閘道或其他主幹對等公認的電話號碼格式。 如需建立容錯移轉路由的詳細資訊，請參閱設定 [容錯移轉路由](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)。 另外，也為分支網站上與閘道相關聯的主幹建立服務層級撥號對應表，以正常化來電。 如果您有兩個 Survivable 分支裝置在分支網站上，您可以為這兩種方案建立一個網站層級撥號對應表，除非每個必要都要有個別的服務層級計畫。
 
 > [!NOTE]
 > 若要使用依賴中央網站以進行顯示狀態、會議或容錯移轉的任何分支網站使用者，針對中央網站資源的消費，建議您考慮每個分支網站使用者，就像使用者已向中央網站註冊。 分支網站使用者數目（包括註冊 Survivable Branch 裝置的使用者）目前沒有任何限制。
 
-此外，我們也建議您建立使用者層級撥號對應表和語音原則，然後將其指派給分支網站使用者。 如需詳細資訊，請參閱 [建立或修改商務用 Skype Server 中的撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md) 表，並在部署檔中 [建立分支使用者的 VoIP 路由原則](https://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) 。
+此外，我們也建議您建立使用者層級撥號對應表和語音原則，然後將其指派給分支網站使用者。 如需詳細資訊，請參閱 [建立或修改商務用 Skype Server 中的撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md) 表，並在部署檔中 [建立分支使用者的 VoIP 路由原則](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) 。
 
 #### <a name="routing-extension-numbers"></a>路由分機號碼
 
@@ -384,11 +384,9 @@ Survivable 分支伺服器的需求與前端伺服器的需求相同。 如需�
 
 | **路由名稱**             | **號碼模式** | **電話使用方式**         | **樹幹**                                 | **閘道**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Redmond 本地路由  <br/> | ^\+1 (425           | 206                     | 253) # A1\d {7}) $  <br/>                       | 本機  <br/> RedmondLocal  <br/>                |
-| Dallas 本地路由  <br/>  | ^\+1 (972           | 214                     | 469) # A1\d {7}) $  <br/>                       | 本機  <br/>                                    |
+| Redmond 本地路由  <br/> | ^\+1 (425           | 206                     | 253)  ( \d {7}) $  <br/>                       | 本機  <br/> RedmondLocal  <br/>                |
+| Dallas 本地路由  <br/>  | ^\+1 (972           | 214                     | 469)  ( \d {7}) $  <br/>                       | 本機  <br/>                                    |
 | 全域路由  <br/>     | ^\+？ ( \d \*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> 達拉斯-GW1  <br/> |
 | Dallas 使用者路由  <br/>  | ^\+？ ( \d \*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | 達拉斯-GW1  <br/>                               |
 
 表 1 中，在「Dallas 通話原則」的「DallasUsers」電話使用方式後，將新增 GlobalPSTNHopoff 電話使用方式。如此可讓具有「Dallas 通話原則」的電話在無法使用 DallasUsers 電話使用方式的路由時，可以使用為 GlobalPSTNHopoff 電話使用方式所設定的路由。
-
-

@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 摘要：設定舊版用戶端所使用的個人連絡人存放區。
-ms.openlocfilehash: 66ef1c3726ea020669894769b48b2313e1da2e0e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5f2131fd1e960e658d4257f0c86dd61a241aa499
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109669"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>在 Lync 2010 用戶端電腦上設定個人連絡人存放區
   
@@ -37,5 +37,4 @@ ms.locfileid: "49833933"
 5. 建立新值後，輸入 PersonalContactStoreOverride，然後按 ENTER 鍵來重新命名值。
 6. 確認 PersonalContactStoreOverride 的值設為0，然後關閉 [登錄編輯程式]。
 
-如果您需要在多部電腦上進行相同的變更，您可以建立自訂的群組原則物件。 如需在 Windows 10 中執行此動作的詳細資訊，請參閱 [建立群組原則物件](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) 文章。
-  
+如果您需要在多部電腦上進行相同的變更，您可以建立自訂的群組原則物件。 如需在 Windows 10 中執行此動作的詳細資訊，請參閱 [建立群組原則物件](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) 文章。

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: '商務用 Skype Server 的規劃和設定資訊，以影片的螢幕共用 (VbSS) '
-ms.openlocfilehash: 6c24ad9e2f74495fc616a66472f338f1b0b281d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9d2466a314876a4ce576727c7673474003994365
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832763"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103059"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>商務用 Skype Server 視訊的螢幕畫面分享 
  
@@ -64,7 +64,7 @@ ms.locfileid: "49832763"
 如果已啟用下列媒體埠的 QoS，而且 VbSS 也已啟用，則在包含桌面共用的會議期間，您的畫面共用流量會使用以粗體顯示的影片埠設定。 
   
 > [!IMPORTANT]
-> 這些設定為特殊案例，在同時執行這兩種功能時，必須使用這些設定。 這會覆寫 [QoS 檔](https://technet.microsoft.com/library/gg405409%28v=ocs.15%29.aspx)中的其他建議設定。 針對應用程式共用，除了定義這些埠值之外，還需要在 QoS GPO 中指定 ASMCUSVC.exe。 
+> 這些設定為特殊案例，在同時執行這兩種功能時，必須使用這些設定。 這會覆寫 [QoS 檔](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos)中的其他建議設定。 針對應用程式共用，除了定義這些埠值之外，還需要在 QoS GPO 中指定 ASMCUSVC.exe。 
   
 **Application Server QoS/VbSS 必要設定**
 
@@ -153,7 +153,7 @@ VbSS 頻寬如下：
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    如需此命令的詳細資訊，請參閱 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - 如果您需要完全關閉 VbSS，您可以執行下列命令：
     
@@ -161,7 +161,7 @@ VbSS 頻寬如下：
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    如需此命令的詳細資訊，請參閱 [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在多方商務用 Skype 會議中，所有用戶端端點都會遵循會議召集人的原則設定。 
@@ -180,7 +180,7 @@ VbSS 頻寬如下：
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    如需此命令的詳細資訊，請參閱 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - 如果您需要在關閉 VbSS 後再開啟它 () 預設為開啟狀態，您可以執行下列命令：
     
@@ -188,7 +188,7 @@ VbSS 頻寬如下：
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    如需此命令的詳細資訊，請參閱 [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    如需此命令的詳細資訊，請參閱 [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 在多方商務用 Skype 會議中，所有用戶端端點都會遵循會議召集人的原則設定。 

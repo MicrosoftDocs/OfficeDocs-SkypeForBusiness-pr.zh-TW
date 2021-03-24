@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓撲產生器提供一種方法，可在 SQL Server 儲存區上安裝資料庫。 當您使用拓撲產生器安裝資料庫時，應用程式會讀取拓撲中的資訊，然後在指定的 SQL Server 電腦或 SQL Server 叢集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫，或是必須安裝組合資料庫，則必須改用 Windows PowerShell 命令列介面和 Install-CsDatabase Cmdlet。
-ms.openlocfilehash: 1092840305d1a455aa094776ae757cf074f7e89a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 92e0c8c0221fbd697ce59587ff4543d6cf7e119d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822283"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101829"
 ---
 # <a name="create-database"></a>建立資料庫
  
-拓撲產生器提供一種方法，可在 SQL Server 儲存區上安裝資料庫。 當您使用拓撲產生器安裝資料庫時，應用程式會讀取拓撲中的資訊，然後在指定的 SQL Server 電腦或 SQL Server 叢集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫，或是必須安裝組合資料庫，則必須改用 Windows PowerShell 命令列介面和 [Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) Cmdlet。
+拓撲產生器提供一種方法，可在 SQL Server 儲存區上安裝資料庫。 當您使用拓撲產生器安裝資料庫時，應用程式會讀取拓撲中的資訊，然後在指定的 SQL Server 電腦或 SQL Server 叢集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫，或是必須安裝組合資料庫，則必須改用 Windows PowerShell 命令列介面和 [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) Cmdlet。
   
 ### <a name="creating-a-database"></a>建立資料庫
 
@@ -43,5 +43,3 @@ ms.locfileid: "49822283"
 5. 在「建立資料庫」頁面上，按 [下一步]。
     
 6. 在「資料庫建立完成」頁面上，按一下 [完成]。
-    
-

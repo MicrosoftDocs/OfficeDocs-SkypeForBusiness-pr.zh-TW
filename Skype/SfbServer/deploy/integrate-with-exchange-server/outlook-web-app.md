@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 摘要：整合商務用 Skype Server 和 Outlook Web App。
-ms.openlocfilehash: 0a6358c93356bd059aeed34033b07916d856bf10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: daa9430034d82a3a8dee980a9b075b2fc5656c86
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833963"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109689"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>設定內部部署商務用 Skype Server 和 Outlook Web App 之間的整合
 
@@ -92,6 +92,6 @@ Get-CsHostingProvider -LocalStore
 
 ## <a name="see-also"></a>另請參閱
 
-[在主控 Exchange UM 上供應商務用 Skype Server 使用者語音信箱](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[在主控 Exchange UM 上供應商務用 Skype Server 使用者語音信箱](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 
-[商務用 Skype Server 中的主控 Exchange 整合通訊整合](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
+[商務用 Skype Server 中的主控 Exchange 整合通訊整合](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)

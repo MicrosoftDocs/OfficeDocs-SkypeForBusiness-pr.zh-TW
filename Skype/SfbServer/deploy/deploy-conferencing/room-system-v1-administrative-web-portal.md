@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 商務用 Skype Server Skype 聊天室 Systems server v1 (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一種網頁入口網站，可供組織用來維護其 Skype 室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
-ms.openlocfilehash: 7d7bef99149d09ebf72c9b633370f262e535b23f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 94e163ccbeff3bde78569aa864b44525b267ccd8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804533"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103879"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 SRS v1 系統管理 Web 入口網站
 
@@ -132,7 +132,7 @@ ms.locfileid: "49804533"
 
     HTTPs:// \<fe-server\> /lrs
 
-    若要存取此頁面，您必須以「[自動用戶端 Sign-In 所需的 Dns 記錄](https://go.microsoft.com/fwlink/p/?LinkId=318056)」所述，新增 DNS 記錄。
+    若要存取此頁面，您必須以「[自動用戶端 Sign-In 所需的 Dns 記錄](/previous-versions/office/communications-server/bb663700(v=office.12))」所述，新增 DNS 記錄。
 
 ## <a name="use-the-srs-administrative-web-portal"></a>使用 SRS 系統管理 Web 入口網站
 <a name="Use_Portal"> </a>
@@ -249,5 +249,3 @@ ms.locfileid: "49804533"
 #### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS 的管理網頁入口網站是否與 Microsoft 團隊聊天室一起運作？
 
 否。
-
-

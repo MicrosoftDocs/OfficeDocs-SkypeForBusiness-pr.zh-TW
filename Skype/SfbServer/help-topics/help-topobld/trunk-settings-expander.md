@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 若要編輯或修改 SIP 主幹的設定，請執行下列動作：
-ms.openlocfilehash: 827399a74f2af29645d77f28efe9b7f2fc5fb3ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5859686a6fedf8c4da15ada5c4ad92f47c24b756
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818017"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114139"
 ---
 # <a name="trunk-settings-expander"></a>主幹設定展開工具
 
@@ -45,6 +45,6 @@ ms.locfileid: "49818017"
 
 ## <a name="see-also"></a>另請參閱
 
-[SIP 主幹部署檢查表](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[SIP 主幹部署檢查表](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 
-[SIP 主幹的元件和拓撲](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[SIP 主幹的元件和拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-sip-trunking)

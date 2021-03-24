@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 摘要：流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2015 及升級舊版的 Lync Server。
-ms.openlocfilehash: fb2216ad6a4458054f6cd7e6938deffe8d9c1536
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 96f44bb169e90d610f4edb442fa42aea2cc55586
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801753"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101699"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>部署商務用 Skype Server 2015
  
@@ -51,7 +51,7 @@ ms.locfileid: "49801753"
 |![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[安裝商務用 Skype Server 2015](install/install.md) <br/> |瞭解如何在實體和虛擬環境的各種拓撲中安裝商務用 Skype Server。  <br/> |
 |![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[升級至商務用 Skype Server 2015](upgrade-to-skype-for-business-server.md) <br/> |瞭解如何從舊版的 Lync Server 升級。  <br/> |
 |![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[使用商務用 Skype 設定用戶端經驗](deploy-clients/configure-the-client-experience.md) <br/> |瞭解如何設定用戶端經驗。  <br/> |
-|![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 與商務用 Skype Online 之間部署混合式連接](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |瞭解如何設定混合式部署的必要條件，然後設定您的部署，以管理商務用 Skype Server 內部部署和商務用 Skype Online 之間的使用者。  <br/> |
+|![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 與商務用 Skype Online 之間部署混合式連接](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) <br/> |瞭解如何設定混合式部署的必要條件，然後設定您的部署，以管理商務用 Skype Server 內部部署和商務用 Skype Online 之間的使用者。  <br/> |
 |![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 2015 中部署 Edge Server](deploy-edge-server/deploy-edge-server.md) <br/> |如果您組織中的使用者與未登入內部網路的外部使用者通訊，您會想要部署 Edge Server。  <br/> |
 |![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 2015 中部署企業語音](deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |瞭解如何部署完整的 Voice over IP (VoIP) enterprise Voice 解決方案，提供與 Outlook 和 Exchange 的豐富整合，以及許多功能強大的功能，例如回應群組、通話駐留、小組通話、群組通話收取，以及增強型緊急 E9-1-1 支援。  <br/> |
 |![數位方式圖示](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 2015 中部署 Persistent Chat Server](deploy-persistent-chat-server/deploy-persistent-chat-server.md) <br/> |如果您想讓組織中的使用者加入一段時間後的主題式交談，您會想要部署 Persistent Chat Server。  <br/> |
@@ -63,9 +63,7 @@ ms.locfileid: "49801753"
   
 ||**內容**|**描述**|
 |:-----|:-----|:-----|
-|![文檔圖示](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[適用于 IT 專業人員的商務用 Skype 伺服器](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |流覽資源中心以存取影片、社區網站、檔、下載專案等等。  <br/> |
-|![開發人員內容的圖示](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype 開發人員平臺](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |尋找商務用 Skype 伺服器的開發人員資源，包括程式碼範例、訓練與 Sdk。  <br/> |
+|![文檔圖示](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[適用于 IT 專業人員的商務用 Skype 伺服器](../../Hub/index.yml) <br/> |流覽資源中心以存取影片、社區網站、檔、下載專案等等。  <br/> |
+|![開發人員內容的圖示](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype 開發人員平臺](/skype-sdk/skypedeveloperplatform) <br/> |尋找商務用 Skype 伺服器的開發人員資源，包括程式碼範例、訓練與 Sdk。  <br/> |
 |![新聞、博客等的圖示](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> 
 [Skype 小組博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |從建立和記錄商務用 Skype Server 的小組追蹤新聞。  <br/> |
-   
-

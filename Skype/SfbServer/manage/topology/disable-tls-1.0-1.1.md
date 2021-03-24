@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 在您的環境中準備及執行停用 TLS 1.0 和1.1。
-ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726394"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103209"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 
@@ -51,7 +51,7 @@ Microsoft 已于 [這裡](https://cloudblogs.microsoft.com/microsoftsecure/2017/
 
 - Lync 2013 (商務用 Skype) 桌面用戶端，MSI 和 C2R，包含基本 [15.0.5023.1000 或更高版本](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - 商務用 Skype 2016 桌面用戶端（MSI [16.0.4678.1000 或更新版本](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)），包含基本
-- 商務用 Skype 2016 請按一下以執行（需要 [4 月 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) 更新）： 
+- 商務用 Skype 2016 請按一下以執行（需要 [4 月 2018](/officeupdates/release-notes-office365-proplus) 更新）： 
     - 每月和 Semi-Annual 目標，16 \. 0 \. 9126 \. 2152 或更高版本
     - Semi-Annual 和延時通道，16 \. 0 \. 8431 \. 2242 或更高版本
 - Mac 16.15 或以上版本的商務用 Skype
@@ -239,7 +239,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-針對 Enterprise Edition 集區的 SQL 後端，應將必要條件和 TLS 停用視為任何 SQL 或作業系統更新;請參閱： [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+針對 Enterprise Edition 集區的 SQL 後端，應將必要條件和 TLS 停用視為任何 SQL 或作業系統更新;請參閱： [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 當必要的應用程式和 TLS 停用步驟都能結合時，強烈建議先套用所有必要條件，再繼續停用作業系統層級的 TLS 1.0 和1.1。 最佳作法方法是部署所有必要條件，以驗證工作負載是否正常運作及預期，然後繼續執行 TLS 1.0/1.1，以準備環境。
 
@@ -455,7 +455,7 @@ Windows Registry Editor Version 5.00
 
 1. 啟動 Internet Explorer。
 2. 選取 [**工具**  >  **網際網路選項**]。
-3. 選取 [ **高級** ] 索引標籤。
+3. 選取 [進階] 索引標籤。
 4. 在 [ **設定**] 底下，向下移動。
 5. 確認 TLS 1.0、TLS 1.1 及 TLS 1.2 皆已啟用。
 6. 流覽 SfB 2015 集區 (的內部 Web 服務 URL，) 應該成功連接。

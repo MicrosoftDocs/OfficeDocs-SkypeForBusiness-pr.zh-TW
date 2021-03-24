@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 在商務用 Skype Server 中建立或修改網路地區、網路網站及建立網路子網。 所有這些皆用於高級 Enterprise Voice 功能：媒體旁路、通話許可控制和位置基礎路由。
-ms.openlocfilehash: 408715cb1baa31e1fe864827a2b2a14d8e4788c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: adfcf418fd2b1ef607947687afb766fee6b64715
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812433"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103519"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>在商務用 Skype 中部署網路地區、網站和子網
 
@@ -283,7 +283,7 @@ ms.locfileid: "49812433"
 7. 按一下 [ **網路網站識別碼**]，然後選取您要新增此子網的網站的網站識別碼。
 
     > [!NOTE]
-    > 如果您尚未建立網路網站，此清單將會是空的。 如需程式的詳細資訊，請參閱 [建立或修改網路網站](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)。 您也可以執行 **Get-CsNetworkSite** Cmdlet，以取得部署的網站 IDs。 如需詳細資訊，請參閱商務用 Skype Server 管理命令介面檔。
+    > 如果您尚未建立網路網站，此清單將會是空的。 如需程式的詳細資訊，請參閱 [建立或修改網路網站](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site)。 您也可以執行 **Get-CsNetworkSite** Cmdlet，以取得部署的網站 IDs。 如需詳細資訊，請參閱商務用 Skype Server 管理命令介面檔。
 
 8. （選用）按一下 [ **描述**]，然後輸入其他資訊以描述這個子網。
 
@@ -317,19 +317,18 @@ ms.locfileid: "49812433"
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
+[Get-CsNetworkRegion](/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
+[Set-CsNetworkRegion](/powershell/module/skype/set-csnetworkregion?view=skype-ps)
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
+[Remove-CsNetworkRegion](/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
-[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
+[Get-CsNetworkSubnet](/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[CsNetworkSubnet](/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
-
+[Remove-CsNetworkSubnet](/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)

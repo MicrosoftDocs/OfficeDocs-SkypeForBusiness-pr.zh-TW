@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。 '
-ms.openlocfilehash: a4c91d447fd61a2763fcabce492e4f85f88cb538
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e426f2d9980f49a5203bec2cb47555f94f7551f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827723"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114119"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中修改 SIP 主幹設定設定
 
@@ -53,7 +53,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 |||
 
 > [!Note]
-> 商務用 Skype Server Get-cstrunkconfiguration Cmdlet 支援其他屬性，但不會顯示在商務用 Skype Server 控制台中。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
+> 商務用 Skype Server Get-cstrunkconfiguration Cmdlet 支援其他屬性，但不會顯示在商務用 Skype Server 控制台中。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
 
 **使用商務用 Skype Server 控制台修改 SIP 主幹設定設定**
 

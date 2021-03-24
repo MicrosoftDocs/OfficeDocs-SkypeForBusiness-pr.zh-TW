@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組佇列。
-ms.openlocfilehash: 9ab714b974601599f591880886a2cf64e35262ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808673"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103579"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>在商務用 Skype 中建立或修改佇列
  
@@ -121,7 +121,7 @@ ms.locfileid: "49808673"
    ```
 
    > [!NOTE]
-   > 若要使用音訊檔以進行提示，請使用 **Import-CsRgsAudioFile** Cmdlet。 如需詳細資訊，請參閱 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+   > 若要使用音訊檔以進行提示，請使用 **Import-CsRgsAudioFile** Cmdlet。 如需詳細資訊，請參閱 [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 4. 定義達到佇列的超時臨界值時要採取的動作，並將它儲存在變數中。 在命令列中執行：
     
@@ -130,7 +130,7 @@ ms.locfileid: "49808673"
    ```
 
    > [!NOTE]
-   > 如需可能的動作及其語法的詳細資訊，請參閱 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+   > 如需可能的動作及其語法的詳細資訊，請參閱 [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
     例如：
     
@@ -151,7 +151,7 @@ ms.locfileid: "49808673"
    ```
 
       > [!NOTE]
-      > 若要使用音訊檔以進行提示，請使用 **Import-CsRgsAudioFile** Cmdlet。 如需詳細資訊，請參閱 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+      > 若要使用音訊檔以進行提示，請使用 **Import-CsRgsAudioFile** Cmdlet。 如需詳細資訊，請參閱 [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 6. 定義達到佇列溢出閾值時要採取的動作，並將其儲存在變數中。 在命令列中執行：
     
@@ -160,7 +160,7 @@ ms.locfileid: "49808673"
    ```
 
     > [!NOTE]
-    > 如需可能的動作及其語法的詳細資訊，請參閱 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+    > 如需可能的動作及其語法的詳細資訊，請參閱 [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
     例如：
     
@@ -181,7 +181,7 @@ ms.locfileid: "49808673"
    ```
 
     > [!NOTE]
-    > 如需建立代理人群組的詳細資訊，請參閱 [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > 如需建立代理人群組的詳細資訊，請參閱 [New-CsRgsAgentGroup](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. 建立佇列。 在命令列中執行：
     
@@ -195,7 +195,7 @@ ms.locfileid: "49808673"
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
-10. 確認已建立佇列。 運行：
+10. 確認已建立佇列。 執行：
     
     ```powershell
     Get-CsRgsQueue -Name "Help Desk"
@@ -203,16 +203,16 @@ ms.locfileid: "49808673"
 
 ## <a name="see-also"></a>另請參閱
 
-[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[Get-CsRgsQueue](/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-CsRgsQueue](/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

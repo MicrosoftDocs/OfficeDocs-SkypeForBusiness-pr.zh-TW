@@ -17,18 +17,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要：瞭解為您的內部部署商務用 Skype Server 混合部署執行的 Skype 會議廣播所需執行的步驟。
-ms.openlocfilehash: c016d60b416c7b6d935b15718f3f1a10f439b9ab
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b70272ee90146bdac87264acf0c7673b8def05c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820703"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103689"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>為 Skype 會議廣播設定內部部署
  
 **摘要：** 瞭解為您的內部部署商務用 Skype Server 混合部署執行的 Skype 會議廣播所需執行的步驟。
   
-Skype 會議廣播是 Office 365 的一部分線上服務。 如果您正在執行商務用 Skype Server 內部部署，且想要在您的環境中使用 Skype 會議廣播，您必須遵循本主題中的設定步驟。 開始之前，您的環境必須設定為搭配商務用 Skype Online 的混合環境。 如需詳細資訊，請參閱 [規劃商務用 Skype server 與商務用 Skype online 之間的混合式連線性](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) ，以及 [在商務用 Skype server 與商務用 Skype online 之間部署混合式連線](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。
+Skype 會議廣播是 Office 365 的一部分線上服務。 如果您正在執行商務用 Skype Server 內部部署，且想要在您的環境中使用 Skype 會議廣播，您必須遵循本主題中的設定步驟。 開始之前，您的環境必須設定為搭配商務用 Skype Online 的混合環境。 如需詳細資訊，請參閱 [規劃商務用 Skype server 與商務用 Skype online 之間的混合式連線性](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) ，以及 [在商務用 Skype server 與商務用 Skype online 之間部署混合式連線](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>為 Skype 會議廣播設定混合式環境
 
@@ -88,6 +88,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-完成這些設定步驟之後，您就可以開始在您的部署中使用 Skype 會議廣播。 如需有關 Skype 會議廣播的詳細資訊，請參閱 [什麼是 Skype 會議廣播？](https://go.microsoft.com/fwlink/?LinkId=617071) 和 [Skype 會議廣播管理員指南](https://go.microsoft.com/fwlink/?LinkId=617075)。
-  
-
+完成這些設定步驟之後，您就可以開始在您的部署中使用 Skype 會議廣播。 如需有關 Skype 會議廣播的詳細資訊，請參閱 [什麼是 Skype 會議廣播？](https://go.microsoft.com/fwlink/?LinkId=617071) 和 [Skype 會議廣播管理員指南](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)。
