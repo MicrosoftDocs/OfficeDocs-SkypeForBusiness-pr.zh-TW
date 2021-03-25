@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除會議原則。
-ms.openlocfilehash: eedb0b3676f0cc046e6096dca2cb1ec5ced5d6ec
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9aadaf82aea7f057cf1969f06d4257992b64a86a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828193"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119502"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除會議原則
  
@@ -51,6 +51,4 @@ Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-如需詳細資訊，包括完整的語法及參數清單，請參閱 [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。
-  
-
+如需詳細資訊，包括完整的語法及參數清單，請參閱 [Remove-CsConferencingPolicy](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。

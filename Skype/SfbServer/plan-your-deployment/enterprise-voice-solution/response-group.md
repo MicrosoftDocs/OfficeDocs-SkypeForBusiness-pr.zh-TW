@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 在商務用 Skype Server Enterprise Voice 中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
-ms.openlocfilehash: 5abf043531079e8eef707b8cdfc4efe70f8be4bb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b27f3d1c40a384bd7465e7d2c8843a0523687d19
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813473"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114599"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃回應群組應用程式
 
@@ -78,7 +78,7 @@ ms.locfileid: "49813473"
 
 - 商務用 Skype Server 管理命令介面
 
-回應群組可非常適合部門或工作組環境 (如需詳細資訊，請參閱 [容量規劃，以進行回應群組](https://technet.microsoft.com/library/a2459a69-1f45-4f2f-bca5-d4f442708e44.aspx)) ，而且可以部署于全新的電話語音安裝中。 它支援來自 Enterprise Voice 部署和本機電信公司網路的撥入電話。 代理程式可以使用商務用 Skype、Lync 2013、Lync 2010、Lync 2010 語音應答或 Lync Phone Edition，將通話路由傳送給他們。
+回應群組可非常適合部門或工作組環境 (如需詳細資訊，請參閱 [容量規劃，以進行回應群組](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) ，而且可以部署于全新的電話語音安裝中。 它支援來自 Enterprise Voice 部署和本機電信公司網路的撥入電話。 代理程式可以使用商務用 Skype、Lync 2013、Lync 2010、Lync 2010 語音應答或 Lync Phone Edition，將通話路由傳送給他們。
 
 ## <a name="deployment-and-requirements"></a>部署和需求
 
@@ -216,5 +216,3 @@ Windows Media 音訊檔案格式要求 Windows Media Format Runtime 已安裝在
 |主動代理 (正式和非正式)   <br/> |2400  <br/> |2400  <br/> |
 |群組搜尋數目  <br/> |800  <br/> |800  <br/> |
 |IVR 群組 (使用語音辨識的數目)   <br/> |400  <br/> |400  <br/> |
-
-

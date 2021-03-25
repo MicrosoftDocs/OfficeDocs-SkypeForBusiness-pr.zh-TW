@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 閱讀此主題以瞭解使用雲端連接器 Edition 版本2.0 和更新版本部署媒體旁路的步驟。
-ms.openlocfilehash: eeb566e2a1a16e235813c077d4e4bf6903a467d7
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: c9dc79a3079fd27e8901d31abf1a27310d18ed28
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359309"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119362"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在雲端連接器 Edition 中部署媒體旁路
  
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 閱讀此主題以瞭解使用雲端連接器 Edition 版本2.0 和更新版本部署媒體旁路的步驟。 
   
@@ -48,7 +48,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-啟用媒體旁路是兩個步驟的處理常式。 CsNetworkMedia Cmdlet 不會立即儲存新的設定。它只會在記憶體中建立設定。 此 Cmdlet 所建立的物件必須儲存在變數中，然後指定給網路設定的 MediaBypassSettings 屬性。 如需詳細資訊，請參閱 [範例：在複雜的多網站環境中媒體旁路網站 DNS 記錄](deploy-media-bypass-in-cloud-connector.md#Example)。
+啟用媒體旁路是兩個步驟的處理常式。 New-CsNetworkMedia Cmdlet 不會立即儲存新的設定。它只會在記憶體中建立設定。 此 Cmdlet 所建立的物件必須儲存在變數中，然後指定給網路設定的 MediaBypassSettings 屬性。 如需詳細資訊，請參閱 [範例：在複雜的多網站環境中媒體旁路網站 DNS 記錄](deploy-media-bypass-in-cloud-connector.md#Example)。
   
 在內部部署和線上元件之間進行的複寫可能需要長達24小時，所以 Microsoft 建議您先執行必要的命令，再啟用使用者。
   
@@ -118,11 +118,11 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>範例：在複雜的多網站環境中，媒體旁路網站 DNS 記錄
 <a name="Example"> </a>
 
-用戶端將從內部 DNS 伺服器接收媒體旁路 web 服務的網址。 所有雲端連接器裝置和雲端連接器 PSTN 網站上的 web 服務名稱都是相同的。 在複雜的多網站環境中，我們建議您針對地理位置的流量管理使用 Windows 2016 DNS 原則，讓用戶端可以重新導向至其網路的本機 web 服務。 
+用戶端將從內部 DNS 伺服器接收媒體旁路 web 服務的網址。 所有雲端連接器裝置和雲端連接器 PSTN 網站上的 web 服務名稱都是相同的。 在複雜的多網站環境中，我們建議使用 Windows 2016 DNS 原則進行 Geo-Location 的流量管理，讓用戶端可以重新導向至其網路的本機 web 服務。 
   
-有關 Windows 2016 DNS 原則的詳細資訊，請參閱 [使用 DNS 原則進行地理位置的流量管理與主要伺服器](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)。
+有關 Windows 2016 DNS 原則的詳細資訊，請參閱 [使用 DNS 原則 Geo-Location 對主伺服器進行流量管理](/windows-server/networking/dns/deploy/primary-geo-location)。
   
-以下是針對地理位置流量管理使用 Windows 2016 DNS 原則之公司的設定範例。
+以下是一家公司設定的範例，其中包含使用 Windows 2016 DNS 原則進行 Geo-Location 的流量管理的多個網站。
   
 旁路服務的名稱是 "hybridvoice.adatum.biz"。
   
@@ -144,7 +144,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
     
 - 10.10.1.10
     
-使用地理位置的流量管理，DNS 伺服器的設定如下：
+使用以 Geo-Location 為基礎的流量管理，DNS 伺服器的設定如下：
   
 1. 為阿姆斯特丹和西雅圖子網建立 DNS 用戶端子網。
     
@@ -187,7 +187,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 此時，從阿姆斯特丹子網進行 DNS 查詢的用戶端將會傳回192.168.1.45、192.168.1.46、192.168.1.47 和192.168.1.48 位址，而建立相同查詢表單西雅圖的用戶端將會傳回10.10.1.8、10.10.1.9 和10.10.1.10。
 
 > [!NOTE]
-> 如果 CCE 裝置似乎沒有取得更新的設定，請查看裝置是否可以透過遠端 PowerShell 聯繫租使用者。 您可以使用 [遠端 PowerShell] 以 CsHybridPSTNAppliance 檢查裝置狀態，或在 CCE 主機上使用 PowerShell，檢查 CcApplianceStatus 的狀態。
+> 如果 CCE 裝置似乎沒有取得更新的設定，請查看裝置是否可以透過遠端 PowerShell 聯繫租使用者。 您可以使用 [遠端 PowerShell] 以 Get-CsHybridPSTNAppliance 檢查裝置狀態，或使用 CCE 主機上 PowerShell 來檢查 CcApplianceStatus 的狀態。
 
   
 ## <a name="see-also"></a>另請參閱

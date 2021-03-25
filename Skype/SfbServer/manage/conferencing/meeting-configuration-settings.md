@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議配置設定。
-ms.openlocfilehash: c34723219839061e36b2684dff81efd5cd914843
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1e6ef11992a547456d2a971c2f8de6f3097b166e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828083"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119432"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議配置設定
  
@@ -59,9 +59,7 @@ ms.locfileid: "49828083"
 
 |**指令程式**|**描述**|
 |:-----|:-----|
-|[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |會傳回組織中目前使用之會議設定設定的相關資訊。  <br/> |
-|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |在網站或服務範圍建立新的會議組態設定集合。  <br/> |
-|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |會刪除現有的會議配置設定集合。  <br/> |
-|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |修改組織中目前使用的會議設定設定。  <br/> |
-   
-
+|[Get-CsMeetingConfiguration](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |會傳回組織中目前使用之會議設定設定的相關資訊。  <br/> |
+|[New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |在網站或服務範圍建立新的會議組態設定集合。  <br/> |
+|[Remove-CsMeetingConfiguration](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |會刪除現有的會議配置設定集合。  <br/> |
+|[Set-CsMeetingConfiguration](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |修改組織中目前使用的會議設定設定。  <br/> |

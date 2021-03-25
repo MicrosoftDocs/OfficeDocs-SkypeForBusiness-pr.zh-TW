@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要：為商務用 Skype Server 階段 AV 和 OAuth 憑證。
-ms.openlocfilehash: a2586e9ebda1bae1605fd6033681b469e6731b8c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 87527d4bb51a5c38e0f85f72b299b67f235f2cf8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806553"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119562"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>在商務用 Skype Server 中的階段 AV 和 OAuth 憑證 Set-CsCertificate 中使用-擲入
  
@@ -86,7 +86,7 @@ A/V 驗證服務是專用來核發 Token，以供用戶端和其他 A/V 取用�
   
 |**Callout**|**Stage**|
 |:-----|:-----|
-|1   <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證是由於7/22/2015 于 2:00:00 PM 到期。 這取決於憑證上到期的時間戳記。 規劃您的憑證取代和翻轉，以計算8小時的重疊 (預設權杖存留期) 在現有憑證達到到期時間之前。 在此範例中，會使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來預先設定新憑證，並在6:00:00 上午的時間前進行布建。  <br/> |
+|1  <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證是由於7/22/2015 于 2:00:00 PM 到期。 這取決於憑證上到期的時間戳記。 規劃您的憑證取代和翻轉，以計算8小時的重疊 (預設權杖存留期) 在現有憑證達到到期時間之前。 在此範例中，會使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來預先設定新憑證，並在6:00:00 上午的時間前進行布建。  <br/> |
 |2   <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 在 Edge Server 上設定憑證，有效期為 6:00:00 AM (4 小時內推時間為此範例，但可使用 Set-CsCertificate 類型 \<certificate usage type\> 的指紋-EffectiveDate) 更長的時間。 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
 |3   <br/> |7/22/2015 6:00 AM-7/22/2015 2:00 下午  <br/> 若要驗證權杖，請先嘗試新的憑證，如果新的憑證無法驗證權杖，就會嘗試舊的憑證。 此程式適用于8小時 (預設權杖存留期) 重疊期間內的所有標記。  <br/> |
 |4   <br/> |結束： 7/22/2015 2:00:01 PM  <br/> 舊憑證已過期，且已取得新憑證。 舊憑證可以安全地移除，使用 Remove-CsCertificate 類型 \<certificate usage type\> 先前版本  <br/> |
@@ -135,6 +135,6 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 [在商務用 Skype Server 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式](server-to-server-and-partner-applications.md)
 
-[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
+[Set-CsCertificate](/powershell/module/skype/set-cscertificate?view=skype-ps)
   
-[Remove-Update-cscertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
+[Remove-Update-cscertificate](/powershell/module/skype/remove-cscertificate?view=skype-ps)

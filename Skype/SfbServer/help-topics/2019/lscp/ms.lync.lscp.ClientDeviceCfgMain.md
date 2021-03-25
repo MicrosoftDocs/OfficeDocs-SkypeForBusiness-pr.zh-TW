@@ -15,19 +15,19 @@ localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: 裝置更新 Web 服務會自動建立記錄檔，記錄裝置更新活動。 在組織的資料管理原則中，您可能會想要設定記錄檔資料快取大小、記錄檔大小，或在清除記錄檔之前保留的時間長度閾值。 您可以根據組織的需求來變更這些設定。 如果您不想讓裝置更新 Web 服務自動清除記錄檔，您可以視需要手動清除記錄檔。 記錄設定可全域變更或每個網站。
-ms.openlocfilehash: 118f2e6d90e9c3f7559a5e129c844ccdf1ea9bf1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c9bd2c3077325540e6151fabd7bc4127b909a12a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830333"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120272"
 ---
 # <a name="device-log-configuration"></a>裝置記錄組態
 
 裝置更新 Web 服務會自動建立記錄檔，記錄裝置更新活動。 在組織的資料管理原則中，您可能會想要設定記錄檔資料快取大小、記錄檔大小，或在清除記錄檔之前保留的時間長度閾值。 您可以根據組織的需求來變更這些設定。 如果您不想讓裝置更新 Web 服務自動清除記錄檔，您可以視需要手動清除記錄檔。 記錄設定可全域變更或每個網站。
 
 > [!NOTE]
-> 您也可以設定一天中的哪一天，當您想要讓裝置更新 Web 服務自動刪除舊于您設定服務的記錄檔時，其記錄檔的保留天數會為預設值，即超過10天之舊) 記錄檔的記錄檔 (。 此設定無法使用商務用 Skype Server 控制台進行修改。 相反地，您必須使用商務用 Skype Server 管理命令介面。 若要指定一天中刪除過期記錄檔的時間，請使用 **New-CsDeviceUpdateConfiguration** Cmdlet 搭配-LogCleanUpTimeOfDay 參數。 如需詳細資訊，請參閱 [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
+> 您也可以設定一天中的哪一天，當您想要讓裝置更新 Web 服務自動刪除舊于您設定服務的記錄檔時，其記錄檔的保留天數會為預設值，即超過10天之舊) 記錄檔的記錄檔 (。 此設定無法使用商務用 Skype Server 控制台進行修改。 相反地，您必須使用商務用 Skype Server 管理命令介面。 若要指定一天中刪除過期記錄檔的時間，請使用 **New-CsDeviceUpdateConfiguration** Cmdlet 搭配-LogCleanUpTimeOfDay 參數。 如需詳細資訊，請參閱 [New-CsDeviceUpdateConfiguration](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
 
 > [!CAUTION]
 > 永久清除檔案會將檔案從檔案系統中移除。 清除檔案之後，便無法復原。
@@ -62,4 +62,4 @@ ms.locfileid: "49830333"
 
 ## <a name="see-also"></a>另請參閱
 
-[修改裝置更新活動的記錄檔設定](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
+[修改裝置更新活動的記錄檔設定](/previous-versions/office/lync-server-2013/lync-server-2013-modify-settings-for-device-update-log-files)

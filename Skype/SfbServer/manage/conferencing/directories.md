@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: 摘要：瞭解如何在商務用 Skype Server 中建立會議目錄。
-ms.openlocfilehash: 6a7b8d110f06b089f166fc6ff2eb35ae35632370
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e4d73cc73a5c3c343e8a4734923cf80fb2590211
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828133"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119472"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>在商務用 Skype Server 中建立會議目錄
  
@@ -44,6 +44,4 @@ ms.locfileid: "49828133"
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 
-如需詳細資訊，請參閱 [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps)。
-  
-
+如需詳細資訊，請參閱 [New-CsConferenceDirectory](/powershell/module/skype/new-csconferencedirectory?view=skype-ps)。

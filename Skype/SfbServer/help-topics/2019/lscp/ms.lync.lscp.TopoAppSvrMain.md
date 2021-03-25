@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[拓撲：伺服器應用程式] 頁面會顯示您部署中的伺服器應用程式。'
-ms.openlocfilehash: 4c76e2abc488e650819d5fe6fa19f9b0abbd6d36
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 719f49ca48ac8c9b5808178779405e56f47fc7fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836273"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120184"
 ---
 # <a name="topology-server-application"></a>拓撲：伺服器應用程式
 
@@ -38,6 +38,6 @@ ms.locfileid: "49836273"
 
 ## <a name="see-also"></a>另請參閱
 
-[啟用或停用 Microsoft SIP 處理語言 (MSPL) 伺服器應用程式](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[啟用或停用 Microsoft SIP 處理語言 (MSPL) 伺服器應用程式](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application)
 
-[將 Microsoft SIP 處理語言 (MSPL) 應用程式標示為關鍵或非關鍵](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[將 Microsoft SIP 處理語言 (MSPL) 應用程式標示為關鍵或非關鍵](/previous-versions/office/lync-server-2013/lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical)

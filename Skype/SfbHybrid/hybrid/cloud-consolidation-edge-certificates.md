@@ -1,5 +1,5 @@
 ---
-title: 更新邊緣憑證
+title: 更新 Microsoft Edge 憑證
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,25 +20,25 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: 本附錄包含 microsoft Teams 和商務用 Skype 雲端合併彙算的過程中更新邊緣憑證的詳細的步驟。
-ms.openlocfilehash: 3e6b151e340a0942b561edd2233795fad94c3a9e
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 本附錄包含更新 edge 憑證以供小組和商務用 Skype 進行雲端合併的詳細步驟。
+ms.openlocfilehash: 724ac63239c881283368fbd617ce0654d49fc0e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888602"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120342"
 ---
-# <a name="update-the-edge-certificate"></a>更新邊緣憑證
+# <a name="update-the-edge-certificate"></a>更新 Microsoft Edge 憑證
 
-更新邊緣憑證是重要步驟，確保 SipDomain1 與內部部署環境可以加入 SipDomain2 的雲端環境，並確保跨兩個 SIP 網域共用的位址空間環境中適當路由。 請參閱中的步驟 14[雲端彙總針對小組與商務用 Skype](cloud-consolidation.md)內容中，您可能會執行此步驟。 在我們的範例，SipDomain1 是 AcquiredCompany。<span>com 和 SipDomain2 是 OriginalCompany。<span>com。
+更新 edge 憑證是重要步驟，可確保具有 SipDomain1 的部署環境可以加入雲端環境與 SipDomain2，並確保在共用位址空間環境中正確地路由傳送到兩個 SIP 網域。 如需執行此步驟的內容，請參閱 [Cloud 整合中針對團隊和商務用 Skype](cloud-consolidation.md) 的步驟14。 在我們的範例中，SipDomain1 是 AcquiredCompany。 <span>com 和 SipDomain2 為 OriginalCompany。 <span>Com。
 
-必須更新內部部署環境中的所有 edge server 上的憑證的主體替代名稱 (SAN)，以包括單純的線上租用戶中存在的所有 SIP 網域 (不含任何 onmicrosoft。<span>com 網域），格式為 「 sip。\<網域> 」。  在我們的範例，這是 sip。OriginalCompany。<span>com。 此步驟是關鍵移轉至雲端的任何使用者之前執行。
+在內部部署環境中，所有 edge server 上的主體替代名稱 (的憑證) 必須更新，以包含存在於純線上承租人中的所有 SIP 網域 (排除任何 name.onmicrosoft.com17。 <span>com 網域) ，格式為 "sip \<domain> "。  在我們的範例中，這是 sip。OriginalCompany。 <span>Com。 在將任何使用者遷移至雲端之前，這是非常重要的步驟。
 
 **步驟：**
 
-1.  取得新的外部邊緣憑證邊緣具有雲端環境中的所有 SIP 網域在 SAN 中的所有現有項目加上額外的項目 (不含 *。 onmicrosoft.com 網域) 中的表單 」 sip。<DomainName>"。
-2.  將憑證安裝在本機上每部 edge server，並將其指派給每個 edge service 的 Skype Edge 服務。  如需詳細步驟，請參閱[在商務用 Skype Server 2015 中部署 Edge Service](https://technet.microsoft.com/library/dn951368.aspx)中的 「 外部 Edge 介面的憑證 」 一節。
-3.  重新啟動每一部 edge server 上的 [Edge service。 您可以針對單一] 方塊中，使用下列 PowerShell 命令來這麼做：
+1.  針對雲端環境中的所有 SIP 網域，取得現有的現有專案和 SAN 中的其他專案的新外部 Edge 憑證 (包含) "SIP" 的 onmicrosoft.com 網域 <DomainName> 。
+2.  在每一部 edge server 上以本機方式安裝憑證，並將它指派給每個 edge service 上的 Skype Edge service。  如需詳細步驟，請參閱 [Deploy Edge Service In 商務用 Skype Server 2015](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md)中的「外部 Edge interface 憑證」一節。
+3.  在每一部 Edge server 上重新開機 Edge service。 您可以使用下列 PowerShell 命令，在單一方塊中執行這項操作：
 
     ```PowerShell
     Stop-CsWindowsService
@@ -47,4 +47,4 @@ ms.locfileid: "41888602"
 
 ## <a name="see-also"></a>另請參閱
 
-[針對小組與 Skype for Business 的雲端彙總](cloud-consolidation.md)
+[小組和商務用 Skype 的雲端整合](cloud-consolidation.md)

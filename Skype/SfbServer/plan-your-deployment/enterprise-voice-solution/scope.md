@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: 在商務用 Skype Server Enterprise Voice 中規劃 E9-1-1 部署的必要決策。
-ms.openlocfilehash: bec80e94c5bc2044359875f7c56f92a1348464c9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 39397064fe525a2b1324b8ef0a0f0bb1df287653
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813423"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114569"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>在商務用 Skype Server 中定義 E9-1-1 部署的範圍
 
@@ -39,7 +39,7 @@ ms.locfileid: "49813423"
 
  **您要如何將 E9-1-1 部署至分支網站？**
 
- 在分支網站部署 E9-1-1 時，語音恢復能力是必須要了解的重要概念。 如果您已集中式電子 9-1-1 SIP 主幹，且發生 WAN 中斷，則登入的用戶端可能無法從位置資訊服務取得位置，或無法連線至緊急服務服務提供者。 商務用 Skype 提供數個策略，用來處理分支辦公室中的語音彈性，包括：具有可恢復的資料網路、在每個分支部署 SIP 主幹，或在中斷期間將緊急呼叫推出至本機閘道。 如需詳細資訊，請參閱＜[Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)＞。
+ 在分支網站部署 E9-1-1 時，語音恢復能力是必須要了解的重要概念。 如果您已集中式電子 9-1-1 SIP 主幹，且發生 WAN 中斷，則登入的用戶端可能無法從位置資訊服務取得位置，或無法連線至緊急服務服務提供者。 商務用 Skype 提供數個策略，用來處理分支辦公室中的語音彈性，包括：具有可恢復的資料網路、在每個分支部署 SIP 主幹，或在中斷期間將緊急呼叫推出至本機閘道。 如需詳細資訊，請參閱＜[Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)＞。
 
  **您是否會為在網路以外工作的使用者啟用 E9-1-1？**
 
@@ -51,5 +51,3 @@ ms.locfileid: "49813423"
  **您是否要提供路由至美國以外網站的緊急電話？**
 
  您可以為公司中不受緊急服務的服務提供者所涵蓋的區域 (例如駐外地點) 提供緊急路由。若要這麼做，請建立新網站，然後為其指派語音原則，並讓此語音原則參照透過本機 PSTN 閘道路由電話的 PSTN 使用方式。
-
-

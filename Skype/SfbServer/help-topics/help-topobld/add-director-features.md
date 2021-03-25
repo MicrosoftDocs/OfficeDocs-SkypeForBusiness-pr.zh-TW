@@ -15,17 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 description: 如果您希望 Director 集區包含監控伺服器，請選取 [監視] (CDR 和 QoE 度量) 。
-ms.openlocfilehash: e154e0c7603b414d023a8c5f0b7afcda7acff94a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 246aafa8b8b8ae12461d64f01813eb493f75972e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804883"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119822"
 ---
 # <a name="add-director-features"></a>新增 Director 功能
 
 如果您希望 Director 集區包含監控伺服器，請選取 [ **監視] (CDR 和 QoE 度量)**。
 
-如需新增 Director 集區的詳細資訊，請參閱 [director 的案例](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) 及 [設定 director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)。
-
-
+如需新增 Director 集區的詳細資訊，請參閱 [director 的案例](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) 及 [設定 director](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director)。

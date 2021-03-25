@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: 遠端呼叫控制是舊版 Lync Server 中的功能，可讓使用者透過 Lync Server 控制其 PBX 電話。 在商務用 Skype Server 中，此功能已由「透過公司來電」取代。 在商務用 Skype Server 2015 的用戶端版本中，繼續進行遠端呼叫控制，用戶端將無法再進行設定，已將其移除供使用。
-ms.openlocfilehash: b48eeed656f5889d08fe892da7d7a6896f8a11c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1ec6bb59b34505f17451be72baa44cdcc466c0d3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813513"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114609"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>在商務用 Skype 中規劃遠端呼叫控制
  
@@ -31,13 +31,13 @@ ms.locfileid: "49813513"
   
 ||**啟用 Skype 使用者介面的商務用 skype 用戶端**|**已啟用 Lync 使用者的商務用 Skype 用戶端**|**商務用 Skype 2016 用戶端**|**Lync 2013 用戶端**|**Lync 2010 用戶端**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| 商務用 Skype Server <br/> |從公司通話  <br/> |1  <br/> |從公司通話  <br/> |1  <br/> |1  <br/> |
-| Lync Server 2013 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1  <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
-| Lync Server 2010 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1  <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
+| 商務用 Skype Server <br/> |從公司通話  <br/> |1 <br/> |從公司通話  <br/> |1 <br/> |1 <br/> |
+| Lync Server 2013 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
+| Lync Server 2010 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
    
 1. 這兩項功能都不受支援。
   
-如需詳細資訊，請參閱 Lync Server 2013 檔中的 [遠端呼叫控制](https://go.microsoft.com/fwlink/p/?LinkId=530208) 。
+如需詳細資訊，請參閱 Lync Server 2013 檔中的 [遠端呼叫控制](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-remote-call-control) 。
   
 ## <a name="see-also"></a>另請參閱
 
@@ -46,4 +46,3 @@ ms.locfileid: "49813513"
 [商務用 Skype 的桌面用戶端功能比較](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
 [進行商務用 Skype 通話，但使用您的 PBX 桌面電話進行音訊](https://support.office.com/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
-

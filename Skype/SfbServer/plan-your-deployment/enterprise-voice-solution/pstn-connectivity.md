@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: 深入瞭解商務用 Skype Server 中的企業語音 SIP 主幹及 PSTN 閘道。
-ms.openlocfilehash: 6261b95906699777e62c025889d23e03d381f09d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 402aa365556ef52d135c3ee6c0a2e36e9bd2e780
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813533"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114619"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>商務用 Skype Server 中的 PSTN 連線元件
  
@@ -58,10 +58,8 @@ PSTN 閘道是協力廠商裝置，可轉譯企業語音基礎結構與 PSTN 或
 - 含有獨立 PSTN 閘道的分時多工 (TDM) PBX。
     
 > [!NOTE]
-> 媒體旁路不會與每個 PSTN 閘道、IP-PBX 以及 SBC 相互溝通。 Microsoft 已測試一組 PSTN 閘道，並與認證的協力廠商 SBCs，並利用 Cisco IP PBXs 進行一些測試。 只有在 [整合通訊開啟互通性計畫-Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)所列的產品及版本支援媒體旁路。 
+> 媒體旁路不會與每個 PSTN 閘道、IP-PBX 以及 SBC 相互溝通。 Microsoft 已測試一組 PSTN 閘道，並與認證的協力廠商 SBCs，並利用 Cisco IP PBXs 進行一些測試。 只有在 [整合通訊開啟互通性計畫-Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)所列的產品及版本支援媒體旁路。 
   
 如需提供企業語音解決方案之合作夥伴的詳細資訊，請參閱 [Microsoft 整合通訊合作夥伴網站](https://go.microsoft.com/fwlink/p/?linkId=202836)。
   
 如需提供企業語音硬體解決方案（包括 PSTN 閘道）合作夥伴的詳細資訊，請參閱 [Microsoft 整合通訊合作夥伴網站](https://go.microsoft.com/fwlink/p/?linkId=202836)。
-  
-

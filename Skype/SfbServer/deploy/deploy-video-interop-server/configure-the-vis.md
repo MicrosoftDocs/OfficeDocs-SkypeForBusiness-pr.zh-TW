@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 摘要：在商務用 Skype Server 中設定 (VIS) 角色的視頻 Interop 伺服器。
-ms.openlocfilehash: 84ab821249ae388bc1ba0dc41cb980c90d4f0853
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8d5da36d07583cc1c20407d842b94531062947ba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820693"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120302"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>在商務用 Skype Server 中設定視頻 Interop 伺服器
  
@@ -69,7 +69,7 @@ ms.locfileid: "49820693"
 
 需要使用 **Remove-get-csvoicenormalizationrule** 命令來覆寫會干擾預期 VIS 和 CUCM 互動的預設規則。
 > [!NOTE]
-> 可以使用[get-csdialplan](https://docs.microsoft.com/powershell/module/skype/remove-csdialplan?view=skype-ps)移除撥號對應表。
+> 可以使用[get-csdialplan](/powershell/module/skype/remove-csdialplan?view=skype-ps)移除撥號對應表。
   
 針對來自視頻閘道（要求 URI 包含非 e.164 號碼）的影片 SIP 主幹呼叫，VIS 會讀取與關聯主幹相關聯的撥號對應表名稱，並將撥號對應表名稱包含在 VIS 傳送至前端之邀請中之要求 URI 的電話內容部分中。 前端的翻譯應用程式接著會解壓縮並套用與撥號對應表相關聯的正規化規則到要求 URI。
 ## <a name="trunk-configuration-options"></a>主幹設定選項

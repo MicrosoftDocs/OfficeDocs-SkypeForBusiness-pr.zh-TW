@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: 在完成發行拓撲時，會顯示「發行精靈完成」頁面。
-ms.openlocfilehash: 1974ac4e9c2e6d6f617e85af7743a620f3cb6c07
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 318eec747fd812bc411a9d900e917bce0fc4a7d4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119612"
 ---
 # <a name="publish-topology-next-step"></a>發行拓撲下一個步驟
 
@@ -31,10 +31,8 @@ ms.locfileid: "49823683"
 > [!NOTE]
 > 並非發行拓撲程序期間的所有步驟都會有相關聯的記錄檔。如果您選取步驟且能夠使用 [檢視記錄檔]，這個步驟便已建立了記錄檔。如果無法使用 [檢視記錄檔] 按鈕 (呈現灰色)，則未針對此步驟建立記錄檔。
 
-若要檢閱完成拓撲所建議的後續步驟，請按一下連結 [按一下這裡開啟待辦事項清單]。 按一下這個連結所開啟的文字檔，會指出您需要執行本機設定的伺服器，以及任何其他您要完成部署所需要採取的步驟。 針對每個列出來的工作，請參閱部署文件中的適當小節。 如需詳細資訊，請參閱＜[Deploying Lync Server 2013 Preview](https://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx)＞，並參閱待辦事項清單中所註明的每個伺服器角色相關小節。
+若要檢閱完成拓撲所建議的後續步驟，請按一下連結 [按一下這裡開啟待辦事項清單]。 按一下這個連結所開啟的文字檔，會指出您需要執行本機設定的伺服器，以及任何其他您要完成部署所需要採取的步驟。 針對每個列出來的工作，請參閱部署文件中的適當小節。 如需詳細資訊，請參閱＜[Deploying Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-lync-server)＞，並參閱待辦事項清單中所註明的每個伺服器角色相關小節。
 
 按一下 [完成]。
 
-如需詳細資訊，請參閱＜[Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx)＞。
-
-
+如需詳細資訊，請參閱＜[Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)＞。

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包含針對團隊和商務用 Skype 進行雲整合時停用混合式的詳細步驟。
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874693"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120352"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>停用混合式，以完成將遷移至雲端：一覽
 
@@ -99,7 +99,7 @@ ms.locfileid: "50874693"
 
   ![Active Directory 使用者和電腦工具](../media/disable-hybrid-1.png)
   
--  如果使用者在 `msRTCSIP-Line` 移動之前沒有內部部署的值，您可以使用 `onpremLineUri` 商務用 Skype Online PowerShell 模組的 [Set-CsUser Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) 中的-參數修改電話號碼。
+-  如果使用者在 `msRTCSIP-Line` 移動之前沒有內部部署的值，您可以使用 `onpremLineUri` 商務用 Skype Online PowerShell 模組的 [Set-CsUser Cmdlet](/powershell/module/skype/set-csuser?view=skype-ps) 中的-參數修改電話號碼。
 
 在您停用混合式之後所建立的新使用者，這些使用者不需要這些步驟，而且可以直接在雲端中管理這些使用者。 如果您習慣使用這些方法的組合，以及在內部部署 Active Directory 中就地保留 msRTCSIP 屬性，則可以直接重新影像內部部署商務用 Skype 伺服器。 不過，如果您想要清除所有 msRTCSIP 屬性，並執行傳統的商務用 Skype 伺服器卸載，請使用方法2。
 

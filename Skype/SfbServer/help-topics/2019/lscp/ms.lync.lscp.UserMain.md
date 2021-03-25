@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用搜尋查詢的結果，為商務用 Skype 伺服器設定使用者。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
-ms.openlocfilehash: f74c1dfe7f1b8184c59261ff03a01f2f5b39db18
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff98ed04ce4d411c118e9b0b497a2118ba38e17e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820243"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120092"
 ---
 # <a name="control-panel---updated-user-search"></a>控制台 - 已更新：使用者搜尋
 
@@ -30,21 +30,21 @@ ms.locfileid: "49820243"
 
 您可以在 [ **使用者搜尋** 控制台] 頁面上執行下列工作：
 
-- [搜尋使用者](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [搜尋使用者](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 
-- [啟用或停用使用者](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [啟用或停用使用者](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
 - [移動使用者](ms.lync.lscp.UserMove.md)
 
 - [移動所有使用者](ms.lync.lscp.UserMoveAll.md)
 
-- [將原則指派給使用者](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [將原則指派給使用者](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
 - [在商務用 Skype Server 中啟用使用者的 Enterprise Voice](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-- [設定使用者的電話語音](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [設定使用者的電話語音](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
 
 
@@ -105,5 +105,3 @@ ms.locfileid: "49820243"
   - **將選取的使用者移至集** 區開啟 [ [移動使用者](ms.lync.lscp.UserMove.md) ] 對話方塊，您可以在其中選取要將選取的使用者移至其中的集區。
 
   - **將所有使用者移至集** 區開啟 [ [移動使用者](ms.lync.lscp.UserMove.md) ] 對話方塊，您可以在其中選取要將所有選取的使用者移至其中的集區。
-
-

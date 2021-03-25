@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 摘要：瞭解如何在商務用 Skype Server 中修改會議配置設定。
-ms.openlocfilehash: 80ba12266ebc45fdae3256f5238ecf18415734c8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827993"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119412"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>修改商務用 Skype Server 中的會議設定設定
  
@@ -49,6 +49,4 @@ ms.locfileid: "49827993"
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-如需詳細資訊，包括完整的參數清單，請參閱 [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)。
-  
-
+如需詳細資訊，包括完整的參數清單，請參閱 [Set-CsMeetingConfiguration](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)。

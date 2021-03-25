@@ -15,17 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 在商務用 Skype Server 中，監控是用來收集使用狀況資訊和經驗品質 (QoE) 有關您的使用者所參與之通訊會話的資料。
-ms.openlocfilehash: 0b365a9eb7a0c1c500e315e83ccac5522b4519b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 19377007c5e3bb13244c7309dff46eef88b19ba6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120032"
 ---
 # <a name="monitoring-planning-tool"></a>監視 (規劃工具) 
 
 在商務用 Skype Server 中，監控是用來收集使用狀況資訊和經驗品質 (QoE) 有關您的使用者所參與之通訊會話的資料。
 
-如需規劃監控伺服器的詳細資訊，請參閱 [規劃監控](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)。
-
-
+如需規劃監控伺服器的詳細資訊，請參閱 [規劃監控](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)。

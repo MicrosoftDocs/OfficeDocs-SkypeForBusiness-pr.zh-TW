@@ -15,24 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 8af9959349d70eac7ef2b1a0150bd322c3ffca03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a757c7bd4bc12f0aa03ec50ea3dff6e2a3db3992
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818913"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119892"
 ---
 # <a name="topology-view-service-detail"></a>拓撲：檢視服務詳細資訊
 
 您要執行的工作 按一下您要執行之任務的連結。
 
-- [查看執行 Lync Server 2010 的電腦清單](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [查看執行 Lync Server 2010 的電腦清單](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
-- [查看服務的詳細資料](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [查看服務的詳細資料](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 
-- [啟動或停止 Lync Server 2010 服務](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [啟動或停止 Lync Server 2010 服務](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
 
-- [防止新的服務連線](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [防止新的服務連線](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
 如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
-

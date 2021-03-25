@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 若要編輯現有 Survivable Branch 裝置或 Survivable Branch 伺服器的設定，您會看到下列區段：
-ms.openlocfilehash: 95f842e72066f7ef19c474b10f7293f05c83cd67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f77a7b12800d9eba091218de92f4eec17bf2154
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833203"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119692"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 一般設定展開工具
 
@@ -76,6 +76,4 @@ Survivable Branch 裝置或 Survivable Branch 伺服器上無法使用 [ **組�
 
 ## <a name="see-also"></a>另請參閱
 
-如需定義及設定 Survivable Branch 裝置或 Survivable Branch Server 之設定的詳細資訊，請參閱 [Branch-Site 恢復性解決方案](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx)。
-
-
+如需定義及設定 Survivable Branch 裝置或 Survivable Branch Server 之設定的詳細資訊，請參閱 [Branch-Site 恢復性解決方案](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-solutions)。

@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 摘要：設定 Exchange Server 2016 或 Exchange Server 2013 和商務用 Skype Server 的 IM 記錄。
-ms.openlocfilehash: f051e5f3798b76b5e3943893d2a18e113ae8ab16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 43a57fc227f7fc0dbcb33b2ecb4808f3e9762ad6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120312"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>設定商務用 Skype Server 以使用 Exchange Server 封存
 
@@ -28,7 +28,7 @@ ms.locfileid: "49833893"
 商務用 Skype 伺服器讓管理員可以選擇將立即訊息和 Web 會議記錄封存到使用者的 Exchange Server 2016 或 Exchange Server 2013 信箱，而不是 SQL Server 資料庫。 若您啟用了此選項，系統就會將記錄寫入使用者信箱的「清理」資料夾。 「清理」資料夾是「可復原項目」資料夾中的隱藏資料夾。 雖然使用者看不到此資料夾，但該資料夾是由 Exchange 搜尋引擎編制索引，而且可以使用 Exchange 信箱搜尋和/或 Microsoft SharePoint Server 2013 來探索。 因為資訊儲存在 Exchange In-Place 保留功能所使用的相同資料夾中 (負責封存電子郵件和其他 Exchange 通訊) ，所以系統管理員可以使用單一工具來搜尋所有為使用者封存的電子通訊。
 
 > [!IMPORTANT]
-> 若要完全停用交談封存，您也必須停用交談記錄。 如需詳細資訊，請參閱下列主題： [管理商務用 Skype Server 中的內部和外部通訊](https://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx)封存、 [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)和 [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)。
+> 若要完全停用交談封存，您也必須停用交談記錄。 如需詳細資訊，請參閱下列主題： [管理商務用 Skype Server 中的內部和外部通訊](/previous-versions/office/lync-server-2013/lync-server-2013-managing-the-archiving-of-internal-and-external-communications)封存、 [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps)和 [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps)。
 
 若要將記錄封存至 Exchange Server，您必須先設定商務用 Skype Server 與 Exchange Server 之間的伺服器對伺服器驗證。 在進行伺服器對伺服器驗證之後，您就可以在商務用 Skype Server 中執行下列工作 (請注意，視您的設定和設定而定，您可能不需要完成下列所有工作) ：
 
@@ -145,5 +145,3 @@ Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Sel
 ```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
-
-

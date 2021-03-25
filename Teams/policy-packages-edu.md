@@ -21,21 +21,23 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908612"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117791"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > 如需更多有關 Microsoft Teams 中原則的案例，請參閱[在 Microsoft Teams 中將原則指派給您的使用者](assign-policies.md)。
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>系統管理員：開始使用 Microsoft Teams 原則管理
 
-Microsoft Teams 讓使用者能夠參與線上會議或即時活動、聊天、進行通話及使用應用程式。 若要為 Teams 中的學生打造安全的學習環境，設定合適的 Microsoft Teams 原則是關鍵性的步驟。 身為系統管理員，您可使用原則來控制教育機構使用者可使用的 Teams 功能。  在大多數的情況下，您必須針對學生和教師調整原則，以確保環境的安全。  
+Microsoft Teams 讓使用者能夠參與線上會議或即時活動、聊天、進行通話及使用應用程式。 若要為 Teams 中的學生打造安全的學習環境，設定合適的 Microsoft Teams 原則是關鍵性的步驟。 身為系統管理員，您可使用原則來控制教育機構使用者可使用的 Teams 功能。 在大多數的情況下，您必須針對學生和教師調整原則，以確保環境的安全。  
 
 以下是您可在 Microsoft Teams 中找到的主要原則區域清單。 若要深入瞭解每個區域中的原則及其控制的功能，請使用下列連結：
 
@@ -74,7 +76,7 @@ Microsoft Teams 讓使用者能夠參與線上會議或即時活動、聊天、�
 1. 只要沒有指派其他原則定義，全域 (全組織預設值) 原則定義就會套用在學生身上。
 
 
-若要建立或編輯原則定義，請移至您要使用的原則功能區域 (例如，訊息原則)。 選取 **[新增]** 以建立新的自訂原則定義。 若要變更現有的原則定義，選取 **[編輯]** 。
+若要建立或編輯原則定義，請移至您要使用的原則功能區域 (例如，訊息原則)。 選取 **[新增]** 以建立新的自訂原則定義。 若要變更現有的原則定義，選取 **[編輯]**。
 
 :::image type="content" source="media/edu-messaging-policies-add-closeup.png" alt-text="具有 [新增] 按鈕檢視的 [訊息原則] 區段特寫。":::
 
@@ -83,7 +85,7 @@ Microsoft Teams 讓使用者能夠參與線上會議或即時活動、聊天、�
 ![具有您所選原則區域相關原則選項的頁面。](media/edu-global-policy-definition.png)
 
 > [!IMPORTANT]
-> 離開頁面之前，請不要忘記選取 **[儲存]** 。
+> 離開頁面之前，請不要忘記選取 **[儲存]**。
 
 ### <a name="assigning-policy-definitions"></a>指派原則定義 
 您可以使用多種方法指派原則定義給使用者。 每種方式都有其各自的優點和缺點，並將因您機構的獨特需求而有所不同。  
@@ -103,11 +105,11 @@ Microsoft Teams 讓使用者能夠參與線上會議或即時活動、聊天、�
 > 指派原則定義時，可能需要一段時間才會散佈給所有使用者和用戶端。 您可能想要在 Azure/M365 中第一次建立使用者帳戶時，以及在新學生加入教育機構時執行此動作。
 
 
-建立或更新原則定義後，如要將原則指派給使用者，您可在原則頁面中選取 **[管理使用者]** ，搜尋所需的使用者，然後套用原則。
+建立或更新原則定義後，如要將原則指派給使用者，您可在原則頁面中選取 **[管理使用者]**，搜尋所需的使用者，然後套用原則。
 
 ![[管理使用者] 面板在右側的 [訊息原則] 頁面上方。](media/edu-manage-users-pane.png)
 
-您也可導覽至 **[使用者]** ，選取您要更新原則的使用者、選取 **[原則]** ，然後選取 **[編輯]** ，進而將原則指派給使用者。 您可以在此選取您要指派給每個功能區域使用者的原則定義。
+您也可導覽至 **[使用者]**，選取您要更新原則的使用者、選取 **[原則]**，然後選取 **[編輯]**，進而將原則指派給使用者。 您可以在此選取您要指派給每個功能區域使用者的原則定義。
 
 ![[編輯使用者原則] 窗格 (位於 [指派的原則] 頁面的右側)。](media/edu-edit-user-policies-pane.png)
 
@@ -155,13 +157,13 @@ Microsoft Teams 目前包含下列原則套件：
 
 ### <a name="view"></a>檢視
 
-在指派套件之前，請查看原則套件中每個原則的設定。 在 Microsoft Teams 系統管理中心的左側流覽中，選取 **[原則套件]** ，選取套件名稱，然後選取原則名稱。
+在指派套件之前，請查看原則套件中每個原則的設定。 在 Microsoft Teams 系統管理中心的左側流覽中，選取 **[原則套件]**，選取套件名稱，然後選取原則名稱。
 
 决定預先定義的值是否適合貴組織，或者您是否需要根據組織的需求將它們自訂為更嚴格或更寬鬆的值。
 
 ### <a name="customize"></a>自訂
 
-視需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 要編輯原則套件中原則的設定，請在 Microsoft Teams 系統管理中心，選取該原則套件，選取要編輯的原則名稱，然後選取 **[編輯]** 。
+視需要自訂原則套件中的原則設定，以符合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 要編輯原則套件中原則的設定，請在 Microsoft Teams 系統管理中心，選取該原則套件，選取要編輯的原則名稱，然後選取 **[編輯]**。
 
 請記住，您可以在指派原則套件之後變更套件中的原則設定。 若要深入了解，請參閱 [自訂原則套件中的原則](manage-policy-packages.md#customize-policies-in-a-policy-package)。 
 
@@ -171,7 +173,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>將原則套件指派給一或多個使用者
 
-若要將原則套件指派給一或多個使用者，請在 Microsoft Teams 系統管理中心的左側流覽窗格中，移至 **原則套件** ，然後選取 **管理使用者** 。  
+若要將原則套件指派給一或多個使用者，請在 Microsoft Teams 系統管理中心的左側流覽窗格中，移至 **原則套件**，然後選取 **管理使用者**。  
 
 ![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-healthcare-assign.png)
 
@@ -189,7 +191,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>為一大組 (批) 使用者指派原則套件
 
-使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
+使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
 
 批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 

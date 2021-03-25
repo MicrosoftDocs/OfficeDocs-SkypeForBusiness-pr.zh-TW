@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 摘要：鎖定或解除鎖定使用者的電話撥入式會議 PIN 碼以供商務用 Skype Server 使用。
-ms.openlocfilehash: 73bd9affa159fba4ab35844896b9662eea3e1780
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828363"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119592"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>鎖定或解除鎖定使用者 PIN 碼中的商務用 Skype Server
  
@@ -108,4 +108,4 @@ ms.locfileid: "49828363"
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-如需詳細資訊，請參閱 [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) 和 [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) 和 [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) Cmdlet 的 [說明] 主題。

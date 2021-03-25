@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 摘要：管理商務用 Skype Server 的註冊機設定設定。
-ms.openlocfilehash: 9a56e803470054ab8c2ba3cf9e2c758d4e71e17a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a1cd1048ea37a249126ec892560312a482459d44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828323"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119572"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理商務用 Skype Server 中的註冊器設定設定
  
@@ -130,6 +130,4 @@ ms.locfileid: "49828323"
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 
-如需詳細資訊，請參閱 [Remove-set-csproxyconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps)。
-  
-
+如需詳細資訊，請參閱 [Remove-set-csproxyconfiguration](/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps)。

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 深入瞭解商務用 Skype Server 中支援的後端伺服器高可用性選項，包括 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: bbb55ded0d5ce1127f5dcab829907c533cc6316e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 31ec37d898bd1f04c07142de1849928656f3238e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119372"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>商務用 Skype Server 中的後端伺服器高可用性
  
@@ -78,9 +78,9 @@ ms.locfileid: "49802923"
     
 - 主要與鏡像伺服器必須具有相同的 SQL Server 版本，見證伺服器可能有不同的版本。
     
-如需有關見證角色支援哪些 SQL 版本的 SQL 最佳作法，請參閱 MSDN Library 中的「  [資料庫鏡像見證](https://go.microsoft.com/fwlink/p/?LinkId=247345) 」。
+如需有關見證角色支援哪些 SQL 版本的 SQL 最佳作法，請參閱 MSDN Library 中的「  [資料庫鏡像見證](/sql/database-engine/database-mirroring/database-mirroring-witness) 」。
   
-設定伺服器鏡像之前，必須先正確設定 SQL 資料庫許可權。 如需詳細資訊，請參閱  [設定資料庫鏡像的登入帳戶或 AlwaysOn 可用性群組 (SQL Server) ]](https://go.microsoft.com/fwlink/p/?LinkId=268454)。
+設定伺服器鏡像之前，必須先正確設定 SQL 資料庫許可權。 如需詳細資訊，請參閱  [設定資料庫鏡像的登入帳戶或 AlwaysOn 可用性群組 (SQL Server) ]](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)。
   
 有了 SQL 鏡像，資料庫復原模式會一律設為 **[完整]**，這表示您必須密切監控交易紀錄的大小並定期備份交易紀錄，以避免用盡後端伺服器上的磁碟機空間。交易記錄的備份頻率取決於記錄的成長率，即根據使用者在前端集區上活動所發生的資料庫交易。建議您針對 Lync 部署工作負載判斷交易記錄的預期成長率，以便進行相應的規劃。下列文章提供 SQL 備份以及記錄管理的其他資訊：
   
@@ -132,7 +132,7 @@ ms.locfileid: "49802923"
 > SQL Server 2019、2017及2016是商務用 Skype Server 2019 所支援的唯一版本。
 
 > [!NOTE]
-> 在 SQL 2016、2017及 2019 Standard Edition 中， **不** 支援 Always On 可用性群組，但您可以使用 Always On 容錯移轉叢集實例。 若要深入瞭解，請參閱 [SQL Server 2016 的版本及支援的功能](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) 。
+> 在 SQL 2016、2017及 2019 Standard Edition 中， **不** 支援 Always On 可用性群組，但您可以使用 Always On 容錯移轉叢集實例。 若要深入瞭解，請參閱 [SQL Server 2016 的版本及支援的功能](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) 。
   
 > [!IMPORTANT]
 > 多個 AlwaysOn 可用性群組實例的實例名稱必須相同。 
@@ -153,12 +153,11 @@ ms.locfileid: "49802923"
     
 - SQL Server 2012 SP2 和 CU2，Enterprise Edition 和 Standard Edition
 
-若要使用 SQL 容錯移轉叢集，您應該先安裝及設定 SQL Server 叢集，再部署前端集區。 如需 SQL Server 2012 中容錯移轉叢集的最佳作法和設定指示，請參閱 [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx) 。
+若要使用 SQL 容錯移轉叢集，您應該先安裝及設定 SQL Server 叢集，再部署前端集區。 如需 SQL Server 2012 中容錯移轉叢集的最佳作法和設定指示，請參閱 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) 。
 
 > [!NOTE]
 > SQL Server 2019、2017及 SQL Server 2016 是商務用 Skype Server 2019 所支援的唯一版本。
     
-若要使用 SQL 容錯移轉叢集，您應該先安裝及設定 SQL Server 叢集，再部署前端集區。 如需 SQL Server 2014 和2016中容錯移轉叢集的最佳作法和設定指示，請參閱 [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx) 。 如需 SQL Server 2008 中的容錯移轉叢集，請參閱 [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx) 。
+若要使用 SQL 容錯移轉叢集，您應該先安裝及設定 SQL Server 叢集，再部署前端集區。 如需 SQL Server 2014 和2016中容錯移轉叢集的最佳作法和設定指示，請參閱 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) 。 如需 SQL Server 2008 中的容錯移轉叢集，請參閱 [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)) 。
   
 在安裝 SQL Server 時，應安裝 SQL Server Management Studio 以管理資料庫的位置與記錄檔位置。 您在安裝 SQL Server 時，可以選用性元件的形式安裝 SQL Server Management Studio。
-  

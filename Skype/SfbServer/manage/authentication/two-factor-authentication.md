@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要：在商務用 Skype Server 中管理雙因素驗證。
-ms.openlocfilehash: 415eb23779450bc09cdaa25ea2e60b6cf3526e40
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8e8f665d824cd5f21cc2ca874668eba90bc97c4b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806536"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119542"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中管理雙因素驗證
  
@@ -55,7 +55,7 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
 
 已部署 Microsoft Exchange 的兩個要素驗證的客戶，可能會發現用戶端中的某些功能無法使用。 這是目前的設計，因為商務用 Skype 用戶端不支援依存于 Exchange 整合的功能的兩個要素驗證。
   
-## <a name="contacts"></a>聯絡人
+## <a name="contacts"></a>Contacts
 
 設定為使用整合連絡人存放區功能的商務用 Skype 使用者，會發現使用雙因素驗證來登入後，使用者的連絡人已不再可用。
   
@@ -103,7 +103,7 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
 
 AD FS 2.0 提供的功能稱為「權杖重新顯示偵測」，可以偵測出使用相同權杖的多個權杖要求，然後再將其丟棄。 啟用此功能時，權杖重新顯示偵測會在 WS-Federation 被動式設定檔和 SAML WebSSO 設定檔中保護驗證要求的完整性，請確定永遠不會使用相同的權杖。
   
-在安全性非常重要的情況下，例如使用亭時，應啟用此功能。 如需權杖重新顯示偵測的相關資訊，請參閱 [安全規劃及部署 AD FS 2.0 的最佳作法](https://go.microsoft.com/fwlink/p/?LinkId=309215)。
+在安全性非常重要的情況下，例如使用亭時，應啟用此功能。 如需權杖重新顯示偵測的相關資訊，請參閱 [安全規劃及部署 AD FS 2.0 的最佳作法](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))。
   
 ## <a name="external-user-access"></a>外部使用者存取
 
@@ -112,4 +112,3 @@ AD FS 2.0 提供的功能稱為「權杖重新顯示偵測」，可以偵測出�
 ## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 中設定雙因素驗證](configure-two-factor.md)
-  

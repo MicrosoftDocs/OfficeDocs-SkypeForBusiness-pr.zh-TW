@@ -21,69 +21,69 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及它們的自動指派方式。
-ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 瞭解哪些國家/地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
+ms.openlocfilehash: 6badaf3234b174f4261d93f82239045f0d49bcff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164712"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114219"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>商務用 Skype Online 中音訊會議的電話號碼
 
 > [!NOTE]
-> 如需 Microsoft 團隊中電話號碼的相關資訊，請參閱[Microsoft 團隊中音訊會議的電話號碼](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)。
+> 有關 Microsoft Teams 中電話號碼的資訊，請參閱 [Microsoft Teams 的音訊會議電話號碼](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)。
 
-當您設定商務用 Skype 的**音訊會議**時，撥入電話號碼會自動指派給您的組織。 您可以移至**商務用 Skype 系統管理中心** > **音訊會議** > **Microsoft 橋接器**，以查看指派給您音訊會議橋接器的電話號碼。 請參閱[音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers.md)。
+當您 **設定商務用** Skype 的音訊會議時，撥入電話號碼會自動指派給貴組織。 您可以到商務用 **Skype** 系統管理中心音訊會議 Microsoft 橋接器，查看指派給音訊會議橋接器  >    >  **的電話號碼**。 請參閱 [查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers.md)。
   
 > [!NOTE]
-> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用**商務用 Skype 系統管理中心** > **語音** > **電話號碼**，按一下 [新增]，**然後按一下 [****新的服務號碼**]。 使用 [國家/地區]****、[州/地區]**** 和 [城市]**** 的清單來篩選搜尋。 此外，如果您正在尋找免付費服務號碼，請從 [**省/市/地區**] 清單中選取 [**免付費電話**]。
+> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用商務用 **Skype** 系統管理中心語音電話號碼，按一下 [新增，然後按一下 [新增  >    >  ******服務號碼**> 。  使用 [國家/地區]、[州/地區] 和 [城市] 的清單來篩選搜尋。 此外，如果您要尋找免付費服務號碼， **請從州** /地區清單中選取免 **付費** 。
   
-## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議覆蓋範圍與定價
+## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議涵蓋範圍和價格
 
-如需所有可提供音訊會議的國家/地區和城市完整清單，請參閱[音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 如需定價資訊，請參閱[音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+有關所有提供音訊會議的國家/地區和城市的完整清單，請參閱音訊會議與通話方案的國家/地區 [可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 有關定價資訊，請參閱 [音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>會議邀請中的撥入電話號碼
 
-當商務用 Skype Online 使用者在 Outlook 或 Outlook Web App 中排程會議時，為使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多位使用者選取不同的預設號碼，您可以移至商務用 Skype 系統**管理中心** > **音訊會議** > **使用者**來變更該預設值。 請參閱[設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
+當商務用 Skype Online 使用者在 Outlook 或 Outlook Web App 中排程會議時，為該使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多個使用者選取不同的預設號碼，您可以到 **商務** 用 Skype 系統管理中心音訊  >  會議使用者來  >  **變更該號碼**。 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
   
-按一下會議邀請中的 [**尋找當地電話號碼**] 連結，即可看到其他撥入號碼。
+按一下會議邀請中的尋找當地號碼連結，即可看到其他撥入號碼。
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>音訊會議橋接器上設定的撥入電話號碼
 
-可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用**和**專用**。 任何呼叫者都可以使用這兩種類型的數位來加入您組織中的音訊會議。
+可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織進行的音訊會議。
   
- **專用電話號碼**是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
+ **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
- **共用的電話號碼**是可與其他 Microsoft 365 或 Office 365 帳戶共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
+ **共用電話號碼** 是可與其他 Microsoft 365 或 Office 365 帳戶共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
-雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼]**** 連結，來取得可用來加入會議的電話號碼清單。
+雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼] 連結，來取得可用來加入會議的電話號碼清單。
   
 ## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>自動指派的音訊會議電話號碼
 
 組織若已啟用音訊會議功能，系統便會自動將共用的音訊會議電話號碼指派給組織。 指派電話號碼時，系統會將電話號碼指派為會議橋接器的預設電話號碼。 指派為橋接器預設號碼的電話號碼，將會是來自組織的國家/地區的電話號碼。
   
 > [!NOTE]
-> 您可以登入 Microsoft 365 系統管理中心並查看 [**組織設定檔**] 底下，找到貴組織的國家或地區位置。 
+> 您可以登錄 Microsoft 365 系統管理中心，並查看組織設定檔下的 ，找到貴組織的國家/地區 **位置**。 
   
 > [!CAUTION]
-> 由於在委內瑞拉、印尼、越南及阿拉伯聯合大公國（UAE）中，付費電話號碼的可用性有限，因此來自這些國家/地區的組織將無法自動獲指派音訊會議的電話號碼。 來自這些位置的免付費電話號碼是否可供使用，視可用庫存而定。 
+> 由於在委內瑞拉、印尼、越南 和阿拉伯聯合大公國 (EMIRATE) 的付費電話號碼有限，來自這些國家/地區的組織不會自動指派音訊會議付費號碼給他們。 來自這些位置的免付費電話號碼是否可供使用，視可用庫存而定。 
   
-專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用**商務用 Skype 系統管理中心**來找到服務號碼。 如需詳細資訊，請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用商務用 Skype 系統管理中心找到 **服務號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 若要查看已自動指派電話號碼給組織之國家/地區的清單，請參閱[音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
   
-## <a name="what-else-should-you-know"></a>您還應該知道什麼？
+## <a name="what-else-should-you-know"></a>您還需要知道什麼？
 
-- 若要查看音訊會議支援的語言清單，請參閱[音訊會議支援的語言](/MicrosoftTeams/audio-conferencing-supported-languages)。
+- 若要查看音訊會議支援的語言清單，請參閱 [音訊會議支援的語言](/MicrosoftTeams/audio-conferencing-supported-languages)。
     
-- 您可以使用[CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) Cmdlet 來查看您組織的音訊會議專用電話號碼。
+- 您可以使用 [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) Cmdlet 來查看貴組織的音訊會議專用電話號碼。
     
-- 您可以使用[get-csonlinedialinconferencinglanguagessupported](https://go.microsoft.com/fwlink/?LinkId=617684) Cmdlet 來查看可在專用撥入電話號碼上設定的語言。
+- 您可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) Cmdlet 來查看可在專用撥入電話號碼上設定的語言。
     
-- 您最多可以為每個音訊會議電話號碼設定四種語言-一個主要和三個次要。 您也可以在專用的音訊會議電話號碼上設定語言。
+- 您可以針對每個音訊會議電話號碼設定最多四種語言 -一個主要和三個次要電話號碼。 您也可以在專用音訊會議電話號碼上設定語言。
     
-- 若要為使用者設定撥入電話號碼，請參閱[設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
+- 若要設定使用者的撥入電話號碼，請參閱設定邀請 [中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

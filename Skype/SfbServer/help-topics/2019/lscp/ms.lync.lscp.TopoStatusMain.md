@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[拓撲：狀態] 頁面會顯示商務用 Skype 拓撲中的伺服器狀態。'
-ms.openlocfilehash: f3ad11966ad5ca2690f2c954820e64113008a82f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c324f56304ef6b5cb0d34686d4c89e914d03f8e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836153"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120132"
 ---
 # <a name="topology-status"></a>拓撲：狀態
 
@@ -30,13 +30,10 @@ ms.locfileid: "49836153"
 
 您可以在 **拓撲** 的 [ **狀態** ] 頁面上執行下列工作：
 
-- [查看執行商務用 Skype Server 或 Lync Server 的電腦清單](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [查看執行商務用 Skype Server 或 Lync Server 的電腦清單](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
-- [查看服務的詳細資料](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [查看服務的詳細資料](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 
-- [啟動或停止服務](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [啟動或停止服務](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
 
-- [防止新的服務連線](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
-
-
-
+- [防止新的服務連線](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)

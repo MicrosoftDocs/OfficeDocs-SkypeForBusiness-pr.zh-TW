@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: 以滑鼠右鍵按一下 [Office Web Apps Servers]，然後選取 [新增 Office Web Apps Server] 以開啟嚮導。
-ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 38aee5489caaf6d7eea2b0b0e76d3febabe9b78e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119622"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 範圍節點
 
@@ -34,4 +34,4 @@ ms.locfileid: "49823893"
 
 ## <a name="see-also"></a>另請參閱
 
-[設定 Office Web Apps Server 與 Lync Server 2013 的整合](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[設定 Office Web Apps Server 與 Lync Server 2013 的整合](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

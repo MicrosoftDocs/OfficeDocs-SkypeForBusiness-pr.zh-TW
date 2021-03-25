@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議加入和離開宣告。
-ms.openlocfilehash: 9ca73d3d32ce03a8119d805b5e7260c0a871eb27
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828103"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119452"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議加入和離開宣告
  
@@ -66,6 +66,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-如需詳細資訊，包括語法和完整的參數清單，請參閱 [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
-  
-
+如需詳細資訊，包括語法和完整的參數清單，請參閱 [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。

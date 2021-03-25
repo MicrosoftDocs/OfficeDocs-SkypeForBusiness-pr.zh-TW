@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 閱讀此主題以瞭解如何在單一樹系內部部署環境中部署 Skype 會議室系統。
-ms.openlocfilehash: 0449a5e909fa044df12766aec0a036bf97315386
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: df213b24ef3400aa5551a090d2dd218d05794988
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820753"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120322"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 會議室系統單一樹系內部部署
  
@@ -27,7 +27,7 @@ ms.locfileid: "49820753"
   
 ## <a name="single-forest-on-premises-deployments"></a>單一樹系內部部署
 
-如果您已經有會議室的資源信箱帳戶，您可以使用它。 否則，您將需要建立一個新的。 您可以使用 Exchange 管理命令介面 (PowerShell) 或 Exchange 管理主控台來建立新的資源信箱帳戶。 我們建議使用新的 (刪除舊的信箱，並為 Skype 會議室系統重新建立) 資源信箱。 請務必先備份信箱資料，然後再將其匯出回使用 Outlook 用戶端重新建立的信箱 (請參閱匯出或備份郵件、行事曆、工作和連絡人，以取得詳細資訊) 。 若要還原因刪除信箱而遺失的會議，請參閱連線 [或還原已刪除的信箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
+如果您已經有會議室的資源信箱帳戶，您可以使用它。 否則，您將需要建立一個新的。 您可以使用 Exchange 管理命令介面 (PowerShell) 或 Exchange 管理主控台來建立新的資源信箱帳戶。 我們建議使用新的 (刪除舊的信箱，並為 Skype 會議室系統重新建立) 資源信箱。 請務必先備份信箱資料，然後再將其匯出回使用 Outlook 用戶端重新建立的信箱 (請參閱匯出或備份郵件、行事曆、工作和連絡人，以取得詳細資訊) 。 若要還原因刪除信箱而遺失的會議，請參閱連線 [或還原已刪除的信箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
   
 若要使用現有的資源信箱帳戶 (例如，LRS-01) 請遵循下列步驟：
   
@@ -115,5 +115,3 @@ ms.locfileid: "49820753"
 
 > [!NOTE]
 > 如果您為 Skype 聊天室系統會議室帳戶啟用 Enterprise Voice，請務必設定適用于您組織的受限制語音原則。 如果商務用 Skype 會議室是公開提供的資源，任何人都可以使用該會議室加入會議，無論是排程或即席會議。 加入會議之後，使用者可以撥出任何號碼。 在商務用 Skype Server 中，「從會議撥出」功能使用使用者的語音原則，在此案例中是用來加入會議的 Skype 會議室系統帳戶。 在舊版的 Lync Server 中，會使用召集人的語音原則。 因此，如果舊版 Lync Server 的使用者排程會議室和邀請商務用 skype 會議室帳戶，任何人都可以使用商務用 Skype 會議室加入會議，而且可以撥打任何國內/地區或國際電話號碼，只要召集人可以撥打這些號碼。 
-  
-

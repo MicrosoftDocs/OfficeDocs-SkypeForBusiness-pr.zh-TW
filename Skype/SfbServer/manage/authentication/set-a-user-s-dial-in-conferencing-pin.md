@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 摘要：為商務用 Skype 伺服器設定使用者的電話撥入式會議 PIN。
-ms.openlocfilehash: cd7375519fa9fc161c6414dcf1b9d0fbf6de6ef0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c34e895471fdffb13a4cdb10806bd07146474e44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828294"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119552"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN
  
@@ -77,7 +77,7 @@ ms.locfileid: "49828294"
     
    - 按一下 [ **開啟我的電子郵件應用程式]，將新的 PIN 碼傳送給使用者** ，以便透過電子郵件傳送 pin 碼。 如果 Microsoft Office Outlook 是您的電子郵件用戶端，則 PIN 碼會自動複製到新的電子郵件中。 如果您使用不同的電子郵件用戶端，請選取 [ **顯示 pin** ] 核取方塊以查看 pin 碼，然後將其複製到您的電子郵件訊息中。
     
-10. 按一下 **[關閉]**。
+10. 按一下 [關閉 **]**。
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派使用者 PIN
 
@@ -99,6 +99,4 @@ ms.locfileid: "49828294"
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-如需詳細資訊，請參閱 [unlock-csclientpin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) Cmdlet 的 [說明] 主題。
-  
-
+如需詳細資訊，請參閱 [unlock-csclientpin](/powershell/module/skype/set-csclientpin?view=skype-ps) Cmdlet 的 [說明] 主題。

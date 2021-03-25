@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 摘要：為商務用 Skype Server 查看使用者的 PIN 原則資訊。
-ms.openlocfilehash: 4c223d5736df7f5f8ee1dbee11401a9fef2237cb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 80383ce7e78ba8806119121f8c27c6e469363003
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806523"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119532"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看 PIN 原則資訊
  
@@ -62,7 +62,7 @@ PINLifetime          : 0
 MaximumLogonAttempts :
 </pre>
 
-如需詳細資訊，請參閱 [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) Cmdlet 的 [說明] 主題。
   
 ## <a name="see-also"></a>另請參閱
 

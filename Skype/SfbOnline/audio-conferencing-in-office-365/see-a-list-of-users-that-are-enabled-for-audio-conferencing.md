@@ -20,74 +20,74 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '瞭解如何在商務用 Skype 系統管理中心中，查看您組織中已啟用電話撥入式會議的使用者清單。 '
-ms.openlocfilehash: 206bd52d1b2e0cfc1a72bb557c5d5dc4c0162534
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: '瞭解如何在商務用 Skype 系統管理中心內，查看組織中已啟用電話撥入式會議的使用者清單。 '
+ms.openlocfilehash: 2cb4481f480f5be9f45064aed1fd48f9f5c28496
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163922"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114129"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>在商務用 Skype Online 中查看已啟用音訊會議的使用者清單
 
 > [!NOTE]
-> 如需在 Microsoft 團隊中啟用使用者的相關資訊，請參閱[在 Microsoft 團隊中查看已啟用音訊會議的使用者清單](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)。
+> 有關 Microsoft Teams 中已啟用使用者的資訊，請參閱查看在 Microsoft Teams 中啟用音訊 [會議的使用者清單](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)。
 
-在貴組織中啟用商務用 Skype 使用者以進行音訊會議之後，您就可以查看已啟用的使用者清單。 當您查看清單時，系統會針對清單中的每位使用者，查看其所使用的音訊會議提供者類型、使用者的預設撥入電話號碼，以及貴組織是否未啟用動態會議 Id，以及他們所組織的音訊會議會議的靜態會議 Id。
+在貴組織中啟用商務用 Skype 使用者進行音訊會議之後，您可以查看已啟用的使用者清單。 當您查看清單時，您也會在清單中為每個使用者看到他們使用的音訊會議提供者類型、使用者的預設撥入電話號碼，以及如果您的組織未啟用動態會議 ID，即他們組織之音訊會議會議的靜態會議 ID。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a>查看使用者清單
+## <a name="viewing-a-list-of-users"></a>檢視使用者清單
 
    
-- 在左側導覽中，移至 [**音訊會議** > **使用者**]。
+- 在左側流覽中，前往 **音訊會議**  >  **使用者**。
 
 ## <a name="what-else-should-i-know"></a>我還需要知道什麼？
 
-- 當您查看已啟用的使用者清單時，您可以從清單中選取使用者，然後使用 [動作] 窗格來編輯該使用者的音訊會議設定。
+- 當您查看已啟用的使用者清單時，可以從清單中選取使用者，並使用動作窗格編輯該使用者的音訊會議設定。
     
-- 當您選取一個被設定為使用 Microsoft 作為音訊會議提供者的使用者時，您可以查看預設的電話號碼，以及您的組織是否已啟用動態會議 Id，而且您可以重設使用者所組織之會議的會議 ID。
+- 當您選取已設定為使用 Microsoft 作為音訊會議提供者的單一使用者時，您可以查看預設電話號碼，以及貴組織是否已啟用動態會議 ID，也可以重設使用者組織的會議 ID。
     
-- 當您選取一個被設定為使用協力廠商音訊會議提供者的使用者時，您可以查看音訊會議提供者的名稱、付費電話號碼，以及免付費電話號碼（如果已設定）。
+- 當您選取已設定為使用協力廠商音訊會議提供者的單一使用者時，您可以查看音訊會議提供者的名稱、付費電話號碼，以及免付費電話號碼 (如果他們已設定) 。
     
-- 您可以使用篩選選項來顯示具有下列專案的使用者：
+- 您可以使用篩選選項來顯示具有：
     
-  - **音訊會議開啟**
+  - **音訊會議在**
     
   - **音訊會議關閉**
     
-  - **會議提供者-Microsoft**
+  - **會議提供者 - Microsoft**
     
-  - **會議提供者-其他**
+  - **會議提供者 - 其他**
     
-- 您可以使用 [搜尋] 按鈕來搜尋清單中的個別使用者。
+- 您可以使用搜尋按鈕搜尋清單中的個別使用者。
     
-- 您可以選取一個以上的使用者，然後執行下列動作：
+- 您可以選取多個使用者，然後執行下列操作：
     
   - 為這些使用者選取不同的預設號碼。
     
-  - 將提供者變更為 [**無**]，即可關閉使用者的音訊會議。
+  - 將提供者變更為 None 以關閉使用者的音訊 **會議**。
     
-  - 如果使用者已獲指派**音訊會議**授權，請切換至 Microsoft 作為音訊會議提供者。
+  - 如果使用者已指派音訊會議授權，請切換到 Microsoft 做為音訊會議 **提供者** 。
     
-  - 允許/不允許匿名使用者啟動所選使用者的電話會議。
+  - 允許/不允許匿名使用者啟用選取的使用者電話會議。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？
 
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點管理 Microsoft 365 或 Office 365 及商務用 Skype Online，當您有多個工作需要執行時，可簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365 和商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [Windows PowerShell 與 Lync Online 的簡介](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 在速度、簡潔性和生產率上都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者設定變更時。 請參閱下列主題，瞭解這些優點：
+- Windows PowerShell 比使用 Microsoft 365 系統管理中心在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
     
-  - [使用 Windows PowerShell 管理商務用 Skype Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [使用 Windows PowerShell 管理商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 來執行常見的商務用 Skype Online 管理工作](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [使用 Windows PowerShell 執行常見的商務用 Skype Online 管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相關主題
 

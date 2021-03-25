@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 摘要：瞭解如何在商務用 Skype Server 中修改會議原則。
-ms.openlocfilehash: eafeb56dd9b0c36afffab07830a9efb71bde18fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6bbba82c9785e074da492eb66cbdd943dc0cea35
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828003"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119422"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>修改商務用 Skype Server 中的會議原則
  
@@ -49,6 +49,4 @@ ms.locfileid: "49828003"
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
-如需詳細資訊，包括完整的語法及參數清單，請參閱 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
-  
-
+如需詳細資訊，包括完整的語法及參數清單，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。

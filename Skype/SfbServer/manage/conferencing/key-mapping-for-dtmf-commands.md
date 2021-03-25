@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 摘要：瞭解如何在商務用 Skype Server 中管理雙色調多頻率 (DTMF) 命令的按鍵對應。
-ms.openlocfilehash: b804c9a0923630f6de3d1b5af2acdda123cc6331
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119442"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 DTMF 命令的按鍵對應
  
@@ -59,6 +59,4 @@ ms.locfileid: "49828093"
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-如需詳細資訊，請參閱 [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)、 [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)和 [set-csdialinconferencingdtmfconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)。
-  
-
+如需詳細資訊，請參閱 [Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)、 [Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)和 [set-csdialinconferencingdtmfconfiguration](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)。

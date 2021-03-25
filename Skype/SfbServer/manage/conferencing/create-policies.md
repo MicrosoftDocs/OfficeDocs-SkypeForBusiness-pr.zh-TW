@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要：瞭解如何在商務用 Skype Server 中建立會議原則。
-ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828233"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119522"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立會議原則
  
@@ -126,6 +126,4 @@ ms.locfileid: "49828233"
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。
-  
-
+如需詳細資訊，包括完整的語法描述及參數清單，請參閱 [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。

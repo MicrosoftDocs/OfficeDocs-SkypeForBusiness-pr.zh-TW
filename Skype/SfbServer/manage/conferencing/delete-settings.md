@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除會議配置設定。
-ms.openlocfilehash: 418ce7418be5a09658626491121dd2e2b3542110
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b0c739f0149b4e28ca23df1437caab0505e1118d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828177"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119492"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除會議配置設定
  
@@ -53,6 +53,4 @@ Remove-CsMeetingConfiguration -Identity "site:Redmond"
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 
-如需詳細資訊，包括完整的參數清單，請參閱 [Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps)。
-  
-
+如需詳細資訊，包括完整的參數清單，請參閱 [Remove-CsMeetingConfiguration](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps)。

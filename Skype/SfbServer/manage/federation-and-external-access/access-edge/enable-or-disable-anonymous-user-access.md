@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 7e828745810bd49f9b8f3ea9e7bee1d023e4fc67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817443"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119382"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用匿名使用者存取
 
@@ -69,5 +69,4 @@ ms.locfileid: "49817443"
 
 ## <a name="see-also"></a>另請參閱
 
-[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
-  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  

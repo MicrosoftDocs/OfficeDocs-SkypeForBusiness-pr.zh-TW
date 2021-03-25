@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 摘要：瞭解如何在商務用 Skype Server 中設定 PIN 不足的會議加入選項。
-ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 76a2fb401c684e0eb685b733cb1b0a63ecbd9907
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827983"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119392"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 PIN 較少的會議加入
  
@@ -45,7 +45,7 @@ ms.locfileid: "49827983"
     
 ## <a name="configure-pin-less-meeting-join"></a>設定 PIN 較少的會議加入
 
-若要為您的使用者啟用 PIN 碼較少的會議加入，請使用 [CsDialInConferencingConfiguration 指令程式](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) 搭配 AllowAnonymousPstnActivation 參數，如下所示：
+若要為您的使用者啟用 PIN 碼較少的會議加入，請使用 [CsDialInConferencingConfiguration 指令程式](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) 搭配 AllowAnonymousPstnActivation 參數，如下所示：
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -63,6 +63,4 @@ Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstn
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-如需詳細資訊，請參閱 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
-  
-
+如需詳細資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: 裝置設定是用於管理商務用 Skype Phone Edition 裝置（全域或網站內）的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
-ms.openlocfilehash: 4c5ce8858e957d84215f4e62f1571a8455b7ebdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 23bedeba6b1ab2bf8a620818e6b77bb8c8b2eebe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807323"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119912"
 ---
 # <a name="device-configuration"></a>裝置設定
  
@@ -58,4 +58,4 @@ ms.locfileid: "49807323"
 
 [裝置組態：建立新的或編輯現有組態](device-configuration-create-new-or-edit-existing.md)
 
-[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

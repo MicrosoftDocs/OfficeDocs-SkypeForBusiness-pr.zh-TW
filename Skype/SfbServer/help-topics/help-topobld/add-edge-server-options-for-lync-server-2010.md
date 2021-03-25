@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 您會定義新的 Edge Server 或 Edge 集區，並會呈現機會，以定義新伺服器或集區的功能。 您可以選擇的選項包括：
-ms.openlocfilehash: b6f6e07c3555101103aeaad7f1c45f4449c25078
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dfc8238bbbe4899f9819118a11fc11ba47fe21f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835513"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119802"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>新增 Edge Server 選項 (適用於 Lync Server 2010)
 
@@ -37,6 +37,6 @@ ms.locfileid: "49835513"
 
 ## <a name="see-also"></a>另請參閱
 
-[規劃外部使用者存取](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+[規劃外部使用者存取](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-external-user-access)
 
-[部署外部使用者存取](https://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
+[部署外部使用者存取](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-external-user-access)
