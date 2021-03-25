@@ -18,159 +18,158 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [商務用 Skype PSTN 使用詳細資料] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
-ms.openlocfilehash: 09d372f6526d14a65e878271a1b277fc19d7d3e4
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+description: 新的商務用 Skype 系統管理中心報告區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用商務用 Skype PSTN 使用方式詳細資料包表，查看用於輸入/外接通話的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用方式詳細資料，包括通話費用，以便了解您的使用量和通話帳單詳細資料，以判斷貴組織的使用量。
+ms.openlocfilehash: 831c1e7168bcffc72acb8ef1573167fe63ff44f5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201167"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106469"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用報告
 
-新的商務用 Skype 系統管理中心**報告**區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [**商務用 SKYPE PSTN 使用詳細資料**] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
+新的商務用 Skype 系統管理中心 **報告區域** 會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用商務用 **Skype PSTN** 使用方式詳細資料包表，查看用於輸入/外接通話的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用方式詳細資料，包括通話費用，以便了解您的使用量和通話帳單詳細資料，以判斷貴組織的使用量。
   
-查看[報表總覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以取得更多可用報表。
+請查看報告 [概觀以](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 查看更多可用的報告。
   
-此報告以及其他商務用 Skype 報告，提供活動的詳細資料，包括在整個組織中呼叫使用方式。 當您調查、規劃及針對貴組織進行其他業務決策，以及設定[通訊點數](/microsoftteams/what-are-communications-credits)時，這些詳細資料非常有用。
+此報告與其他商務用 Skype 報告一起，提供您活動的詳細資訊，包括整個組織的通話使用方式。 當您調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時，這些詳細資料非常 [實用](/microsoftteams/what-are-communications-credits)。
   
 > [!NOTE]
-> 當您以系統管理員身分登入 Microsoft 365 系統管理中心時，您可以看到所有商務用 Skype 報告。 
+> 當您以系統管理員登入 Microsoft 365 系統管理中心時，可以看到所有商務用 Skype 報告。 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>如何取得商務用 Skype PSTN 使用狀況詳細資料包告
+## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>如何取得商務用 Skype PSTN 使用方式詳細資料包告
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-- 移至系統管理中心 > 系統**管理中心**  >  **商務用 Skype 系統管理中心**  >  **報告**  >  **PSTN 使用狀況詳細資料**。
+- 請前往系統管理中心>系統管理 **中心的** 商務用  >  **Skype 系統管理中心**  >  **報告**  >  **PSTN 使用方式詳細資料**。
     
     > [!NOTE]
-    > 視您擁有的 Microsoft 365 或 Office 365 訂閱而定，您可能不會看到這裡顯示的所有產品和報表。
+    > 視您擁有 Microsoft 365 或 Office 365 訂閱不同，您可能看不到此處顯示的所有產品與報告。
   
-## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>解讀商務用 Skype PSTN 使用量報告
+## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>解譯商務用 Skype PSTN 使用方式報告
 
-您可以透過查看每個顯示的欄，來取得使用者的商務用 Skype PSTN 使用量。
+您可以查看所顯示的每一欄，以取得使用者商務用 Skype PSTN 使用方式的視圖。
   
-這就是報表看起來的樣子。
+這就是報表的外觀。
   
-[![商務用 SKYPE PSTN 使用方式報告 ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![商務用 Skype PSTN 使用方式報告 ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![數位1](../images/sfbcallout1.png)<br/>下表顯示每個使用者的所有 PSTN 使用量明細。 這會顯示已指派商務用 Skype 的所有使用者以及其 PSTN 使用方式。 您可以在資料表中新增/移除資料行。
-*    [**通話 id** ] 是通話的通話 id。 它是呼叫 Microsoft 服務支援時所使用之通話的識別碼。
-*    [**使用者識別碼**] 是使用者的登入名稱。
-*    [**電話號碼**] 是已接收撥入通話通話或撥出通話電話號碼的商務用 Skype 電話號碼。
-*    [**使用者位置**] 是使用者所在的國家/地區。
-*    **本機號碼**為撥入通話的電話號碼（來電者識別碼），或撥打電話的電話號碼，或通話發出的 Skype 電話號碼。
-*    **呼叫類型**：此通話是 PSTN 撥出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話）。 您可能會看到的呼叫類型如下： 
+![數位 1](../images/sfbcallout1.png)<br/>下表顯示每個使用者所有 PSTN 使用量的明細。 這會顯示已指派商務用 Skype 的所有使用者及其 PSTN 使用方式。 您可以在表格中新增/移除欄。
+*    **通話識別碼** 是通話的通話識別碼。 這是呼叫 Microsoft 服務支援時所使用的通話識別碼。
+*    **使用者識別碼** 是使用者的登錄名稱。
+*    **電話號碼是** 接收來電的商務用 Skype 電話號碼，或撥出電話撥打的號碼。
+*    **使用者位置** 是使用者所在的國家/地區。
+*    來電 **顯示是** 來電者的電話號碼 (來電) 號碼、來電來源號碼或商務用 Skype 號碼。來電來源為外撥電話。
+*    **通話類型** 是通話是 PSTN 撥出或來電，以及通話類型，例如使用者撥打的通話或音訊會議。 您可能會看到的通話類型為： 
 
-     **通話方案呼叫類型** 
-     *    **user_in** （使用者收到輸入 PSTN 通話） 
-     *    **user_out** （使用者已發出出站 PSTN 通話） 
-     *    **user_out_conf** （使用者已將2個或更多 PSTN 參與者加入通話中，例如3路會議通話） 
-     *    **user_out_transfer** （使用者已將來電轉接至 PSTN 號碼） 
-     *    **user_out_forwarding** （使用者將呼叫轉寄至 PSTN 號碼）
+     **通話方案通話類型** 
+     *    **user_in (** 使用者收到傳入 PSTN 通話)  
+     *    **user_out (** 使用者撥打了外寄 PSTN)  
+     *    **user_out_conf (** 新增 2 或多個 PSTN 參與者到通話中，例如 3 路電話會議)  
+     *    **user_out_transfer (** 將通話轉接到 PSTN 號碼)  
+     *    **user_out_forwarding (** 將通話轉往 PSTN 號碼) 
 
-     **音訊會議呼叫類型**
-     *    **conf_in** （撥入通話至音訊會議橋）。 針對此通話類型的記錄，[**使用者識別碼**] 欄中指定的使用者會對應到會議的召集人。
-     *    **conf_out** （來自音訊會議橋接器的撥出通話，通常是用來在會議中新增 PSTN 號碼）。 針對此通話類型的記錄，[**使用者識別碼**] 欄中指定的使用者會對應到會議的召集人。
+     **音訊會議通話類型**
+     *    **conf_in (** 音訊會議橋接器的輸入) 。 針對此通話類型的記錄，在使用者 **識別碼** 欄中指定的使用者會對應到會議的召集人。
+     *    **conf_out (** 音訊會議橋接器撥打外線電話，通常是將 PSTN 號碼新增到會議) 。 針對此通話類型的記錄，在使用者 **識別碼** 欄中指定的使用者會對應到會議的召集人。
 
-     **整合通訊應用程式（UCAP）** 
-     *    **ucap_in** （針對自動語音應答或通話佇列等 UC 應用程式的入站 PSTN 呼叫） 
-     *    **ucap_out** （來自 UC 應用程式的輸出 PSTN 呼叫，例如自動語音應答或通話佇列）
+     **UCAP (統一通訊應用程式)** 
+     *    **ucap_in (** 傳入 PSTN 通話至 UC 應用程式，例如自動電話機或通話佇列)  
+     *    **ucap_out (** UC 應用程式撥打出站 PSTN 通話，例如自動電話機或通話佇列) 
          > [!NOTE]
-         > 從 UC 應用程式傳送給使用者的呼叫（例如自動語音應答或呼叫佇列）不會出現在 PSTN 使用狀況報告中，因為這些呼叫腿是對等（P2P）音訊通話。 您可以在商務用 Skype 系統 > 管理中心的 [商務用 Skype 通話分析] 底下存取 P2P 通話，然後依使用者名稱或 SIP 位址來搜尋，依日期/時間和/或來源 CLID （通話行識別碼）來進行通話。 
+         > 從 UC 應用程式傳輸給使用者的通話 ，例如自動語音機或通話佇列，不會出現在 PSTN 使用方式報告中，因為這些通話支線是對等 (P2P) 音訊通話。 您可以在 「工具 > 商務用 Skype 通話分析」下，存取商務用 Skype 系統管理中心中的 P2P 通話，並依據使用者名稱或 SIP 位址搜尋，以日期/時間與/或原始 CLID (通話線路識別碼) 關聯。 
 
-     **國內/國際**是根據使用者的位置，告訴您所設定的通話是國內（在國家/地區內）還是國際（位於國家/地區外）。 
-*    [**目的地撥號**] 是您撥打的國家/地區目的地（例如華北、德國或美國）的名稱。 
-*    **Number type**是來自使用者電話號碼、服務或免付費電話號碼的電話號碼類型。  
-*    **開始時間（UTC）** 是呼叫開始或撥入的時間。 
-*    [**持續時間**] 是通話的連線時間。  
-*    **ConfID**是音訊會議的會議 ID。 
-*    [**收取費用**] 是支付給您帳戶之通話的金額或成本。 
-*    **貨幣**是用來計算通話成本的貨幣類型。 
-*    **功能**是通話使用的授權。 您可能會看到的授權類型如下： 
-     *    **MCOPSTNPP** -通訊點數 <br/> **MCOPSTN1** -國內通話方案（3000美元/1200 分歐盟方案） 
-     *    **MCOPSTN2** -國際通話方案 
-     *    **MCOPSTN5** -國內通話方案（120最小通話方案） 
-     *    **MCOPSTN6** -國內通話方案（240 min 通話方案）注意：有限的可用性
-     *    **MCOMEETADD** -音訊會議
-     *    **MCOMEETACPEA** -每分鐘付款音訊會議
+     根據使用者的位置，國內 **/** 國際會告訴您所撥打的來電是否被視為國家/地區 (國內) 或國際 (國家/地區) 以外的國家/地區。 
+*    **已撥號目的地** 是撥打的國家/地區目的地名稱，例如法國、德國或美國 (美國) 。 
+*    **號碼** 類型是使用者電話號碼、服務或免付費號碼的電話號碼類型。  
+*    **UTC (開始時間)** 是通話開始或撥打的時間。 
+*    **持續時間** 是通話已連接多久。  
+*    **ConfID** 是音訊會議的會議 ID。 
+*    **費用** 是向您的帳戶收取的通話金額或費用。 
+*    **貨幣** 是用來計算通話成本的貨幣類型。 
+*    **功能** 是通話所使用的授權。 您可能會看到以下授權類型： 
+     *    **MCOPSTNPP** - Communications Credits <br/> **MCOPSTN1** - 國內通話方案 (3000 分鐘美國 / 1200 分鐘的歐盟方案)  
+     *    **MCOPSTN2** - 國際通話方案 
+     *    **MCOPSTN5** - 國內通話方案 (120 分鐘的通話方案)  
+     *    **MCOPSTN6** - 國內通話方案 (240 分鐘通話方案) 注意：有限可用性
+     *    **MCOMEETADD** - 音訊會議
+     *    **MCOMEETACPEA** - 每分鐘付費音訊會議
      
 > [!NOTE]
-> 如果您想要執行報表，以便只包含通話或會議訂閱中不包含的每分鐘工資通話，請使用「MCOPSTNPP」功能篩選報表。 如此一來，就會提供每分鐘工資通話的明細。  針對每分鐘付費音訊會議，請依「MCOMEETACPEA」篩選，而不是「MCOPSTNPP」。  
+> 如果您想要執行報表，只包含通話或會議訂閱中不包含的每分鐘付費通話，請篩選具有 「MCOPSTNPP」功能的報告。 這麼做會提供每分鐘通話的所有付費專案。  針對每分鐘付費音訊會議，請以「MCOMEETACPEA」而非「MCOPSTNPP」來篩選。  
 
 > [!NOTE]
-> 在某些欄位中，您可能也會看到「沒有資料」。 "無資料" 表示該欄位不適用於呼叫類型或功能。 
+> 您可能也會在某些欄位中看到「無資料」。 「無資料」表示該欄位不適用於通話類型或功能。 
 
 > [!NOTE]
-> 如果您有 Telstra 或 Softbank 通話方案，就不會在 PSTN 使用狀況報告中看到任何通話詳細資料記錄。 如需報告需求，請與 Telstra 或 Softbank。 
+> 如果您有 Telstra 或 Softbank 通話方案，將不會在 PSTN 使用方式報告中看到任何通話詳細資料記錄。 如需報告需求，請聯絡 Telstra 或 Softbank。 
 ***
-![數位2](../images/sfbcallout2.png)<br/>按一下以將欄拖曳至依據特定欄進行分組，如果您想要建立一個將一或多個欄中的所有資料組成群組的視圖 **，請在這裡拖曳欄標題**。
+![數位 2](../images/sfbcallout2.png)<br/>若要將欄拖曳到按特定欄分組，如果您想要建立將一或多個資料行中所有資料組成群組的視圖，請在這裡拖放欄標題。
  ***
 
-## <a name="exporting-pstn-usage-report"></a>匯出 PSTN 使用狀況報告
+## <a name="exporting-pstn-usage-report"></a>匯出 PSTN 使用方式報告
 
-按一下或敲擊 [**匯出至 Excel** ] 按鈕可讓您下載 PSTN 使用方式報告。 除非國家/地區專用的規章禁止將資料保留12個月，否則您可以從目前日期開始匯出一年的資料。
+按一下或點選 [ **匯出至 Excel>** 按鈕可讓您下載 PSTN 使用方式報告。 除非特定國家/地區法規禁止保留資料 12 個月，否則您最多可以從目前日期匯出資料一年。
 
-這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。
+這會匯出所有使用者的資料，並可讓您執行簡單的排序和篩選，以便進一步分析。
 
-匯出程式可能需要幾秒鐘到數分鐘的時間，才能完成，視資料數量而定。 當伺服器完成匯出時，您會收到名為「**Calls. [] 的 zip 檔案。 `identifier`zip**"，且識別碼是匯出的唯一識別碼，這可以用來進行疑難排解。
+匯出程式可能需要幾秒鐘到幾分鐘才能完成，視資料量而不同。 當伺服器完成匯出時，您會收到名為「**通話.匯出」的 zip 檔案 `identifier` 。zip"，** 識別碼是匯出的唯一識別碼，可用於疑難排解。
 
-如果您同時擁有通話方案和直接路由，匯出的檔案可能會包含這兩個產品的資料。 PSTN 使用狀況報告檔案將會有檔案名 "**PSTN. [ `UTC date` ]。csv**"。 除了 PSTN 和直接路由檔案之外，封存還包含檔案 "**parameters.js開啟**]，以及所選匯出時間範圍和功能（如果有的話）。
+如果您同時擁有通話方案與直接路由，匯出的檔案可能包含這兩種產品的資料。 PSTN 使用方式報告檔案將會有檔案名"**PSTN.calls.[ `UTC date` ]。csv**". 除了 PSTN 和直接路由檔案之外，檔案也包含 **[parameters.js** 上的檔案，其中選取的匯出時間範圍和功能會 (任何) 。
 
-匯出的檔案是與[RFC 4180](https://tools.ietf.org/html/rfc4180)標準相容的逗號分隔值（CSV）檔。 您可以在 Excel 或任何其他符合標準的編輯工具中開啟檔案，而不需要任何轉換。
+匯出的檔案是 CSV (分隔值) ，符合 [RFC 4180](https://tools.ietf.org/html/rfc4180) 標準。 檔案可以在 Excel 或其他符合標準的編輯器中開啟，而不需要任何轉換。
 
-CSV 的第一列包含資料行名稱。
+CSV 的第一列包含欄名稱。
 
 ### <a name="fields-in-the-export"></a>匯出中的欄位
 
-匯出的檔案包含無法在線上報表中使用的其他欄位。 這些都可以用來進行疑難排解和自動化工作流程。
+匯出的檔案包含線上報告中沒有的其他欄位。 這些可用於疑難排解和自動化工作流程。
 
 > [!div class="has-no-wrap"]  
-> | #  | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
+> | #  | 名稱 | [SQL Server (資料類型) ](/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
 > | :-: | :-: | :-: |:------------------- |
-> | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
-> | 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |
+> | 0 | UsageId | `uniqueidentifier` | 唯一通話識別碼 |
+> | 1 | 通話識別碼 | `nvarchar(64)` | 通話識別碼。 不保證是唯一的 |
 > | 2 | 會議 ID | `nvarchar(64)` | 音訊會議的識別碼 |
-> | 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中呼叫使用者的 ID。<br/> 在 bot 呼叫類型（ucap_in、ucap_out）中，此和其他使用者資訊將會是 null/空。 |
-> | 500 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登入名稱）。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
-> | 6 | 使用者顯示名稱 | `nvarchar(128)` | 使用者的顯示名稱 |
-> | utf-7 | 來電顯示 | `nvarchar(128)` | 已接收撥入通話通話或撥出通話電話號碼的號碼。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
-> | 型 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 輸出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話） |
-> | 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費電話號碼的服務 |
-> | 第 | 國內/國際 | `nvarchar(16)` | 通話是國內（在國家或地區內）或國際（在國家或地區外），根據使用者的位置來決定 |
-> | 11 | 已撥號目的地 | `nvarchar(64)` | 已撥打國家或地區 |
-> | 之間 | 目的地編號 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式撥打的號碼 |
-> | 合 | 開始時間 | `datetimeoffset` | 呼叫開始時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
-> | 4 | 結束時間 | `datetimeoffset` | 通話結束時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
-> | 工資 | 持續時間秒 | `int` | 通話的連線時間 |
-> | 位 | 連線費用 | `numeric(16, 2)` | 連接費價格 |
-> | 11x17 | 收費 | `numeric(16, 2)` | 支付給帳戶所需通話的金額或成本 |
-> | 滿 | 貨幣 | `nvarchar(3)` | 用來計算通話成本的貨幣類型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
-> | 合 | 功能 | `nvarchar(32)` | 通話所用的授權 |
+> | 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼 [，ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中撥打使用者識別碼。<br/> 此及其他使用者資訊在 bot 通話類型中為 null/empty， (ucap_in ucap_out)  |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (Azure Active Directory) 名稱。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
+> | 6 | 使用者顯示名稱 | `nvarchar(128)` | 顯示使用者名稱 |
+> | 7 | 來電顯示 | `nvarchar(128)` | 接聽來電的號碼或撥出電話的號碼。 [E.164](https://en.wikipedia.org/wiki/E.164) 格式 |
+> | 8 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 外寄或輸入通話，以及通話類型，例如使用者撥打的通話或音訊會議 |
+> | 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費號碼的服務 |
+> | 10 | 國內/國際 | `nvarchar(16)` | 通話是國內通話 (國家/地區) 或 (國家/地區外) 根據使用者的位置進行撥打 |
+> | 11 | 已撥入目的地 | `nvarchar(64)` | 已撥入的國家/地區 |
+> | 12 | 目的地號碼 | `nvarchar(32)` | 以 [E.164 格式](https://en.wikipedia.org/wiki/E.164) 撥打的號碼 |
+> | 13 | 開始時間 | `datetimeoffset` | 通話開始時間 ([UTC、ISO 8601](https://en.wikipedia.org/wiki/ISO_8601))  |
+> | 14 | 結束時間 | `datetimeoffset` | 通話結束時間 ([UTC、ISO 8601](https://en.wikipedia.org/wiki/ISO_8601))  |
+> | 15 | 持續時間秒數 | `int` | 通話已連接多久 |
+> | 16 | 連線費用 | `numeric(16, 2)` | 連線費用價格 |
+> | 17 | 負責 | `numeric(16, 2)` | 向您的帳戶收取的金額或通話費用 |
+> | 18 | 貨幣 | `nvarchar(3)` | 用來計算 ISO [4217 (通話費用的貨幣](https://en.wikipedia.org/wiki/ISO_4217))  |
+> | 19 | 功能 | `nvarchar(32)` | 通話使用授權 |
 
     
-## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype 報表嗎？
+## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype 報告嗎？
 
-- [商務用 Skype 活動報告](activity-report.md)您可以查看使用者使用對等、組織的方式，以及參與會議會話的數量。
+- [商務用 Skype 活動報告](activity-report.md) 您可以瞭解使用者使用對等、組織及參與會議會話的多少。
     
-- [商務用 Skype 裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括已安裝商務用 Skype 應用程式的 Windows 作業系統和行動裝置，以及用於 IM 和會議的行動裝置。
+- [商務用 Skype 裝置使用方式報告](device-usage-report.md) 您可以查看已安裝商務用 Skype App 且正在用於 IM 和會議的裝置，包括 Windows 作業系統和行動裝置。
     
-- [商務用 Skype 會議召集人活動報告](conference-organizer-activity-report.md)您可以查看您的使用者使用 IM、音訊/視頻、應用程式共用、Web、/dial out-協力廠商及/dial 的方式來組織會議的數量。
+- [商務用 Skype 會議召集人活動報告](conference-organizer-activity-report.md) 您可以查看使用者組織使用 IM、音訊/視像、應用程式共用、Web、/dial out - 協力廠商和 /dial out - Microsoft 的會議。
     
-- [商務用 Skype 會議參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視頻、應用程式共用、網頁和撥出音訊會議都在參與。
+- [商務用 Skype 會議參與者活動報告](conference-participant-activity-report.md) 您可以查看有多少 IM、音訊/視像、應用程式共用、Web 和撥出音訊會議參與。
     
-- [商務用 Skype 對等活動報告](peer-to-peer-activity-report.md)您可以查看您的使用者使用 IM、音訊/視頻、應用程式共用和傳送檔案的數量。
+- [商務用 Skype 對等活動報告](peer-to-peer-activity-report.md) 您可以瞭解使用者正在使用 IM、音訊/視像、應用程式共用和傳輸檔案。
     
-- [商務用 Skype 使用者封鎖報告](users-blocked-report.md)您可以看到貴組織中已封鎖進行 PSTN 通話的使用者。
+- [商務用 Skype 使用者封鎖報表](users-blocked-report.md) 您可以看見貴組織中遭到封鎖的使用者，無法撥打 PSTN 通話。
 
-- [商務用 SKYPE PSTN 分鐘池報告](pstn-minute-pools-report.md)您可以查看貴組織內的當月所消耗的分鐘數。
+- [商務用 Skype PSTN 分鐘數庫報告](pstn-minute-pools-report.md) ，您可以查看貴組織中當月所耗用分鐘數。
 
-- [商務用 Skype 會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗的詳細資料。
+- [商務用 Skype 會話詳細資料包表](session-details-report.md) 您可以查看個別使用者的通話體驗詳細資料。
     
 ## <a name="related-topics"></a>相關主題
 [系統管理中心的活動報告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
- 

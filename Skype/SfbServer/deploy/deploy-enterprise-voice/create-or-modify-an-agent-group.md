@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 在 [商務用 Skype 伺服器 Enterprise Voice] 中，以回應群組建立或修改代理程式群組。
-ms.openlocfilehash: dfa09c3341ad47f2646939738cb67db7b7f27304
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c0e7d54008ba6affa2bae5bd3228c93e430a114
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105809"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>在商務用 Skype 中建立或修改代理人群組
  
@@ -138,7 +138,7 @@ ms.locfileid: "49837093"
     > [!IMPORTANT]
     > 「代理程式警示時間」設定不得超過180秒。 如果代理程式警示時間大於180秒，用戶端應用程式會拒絕呼叫，因為 SIP 交易計時器已達到其最長等待時間。 
   
-4. 確認已建立代理人群組。 運行：
+4. 確認已建立代理人群組。 執行：
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
@@ -146,10 +146,10 @@ ms.locfileid: "49837093"
 
 ## <a name="see-also"></a>另請參閱
 
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)
   
-[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+[New-CsRgsAgentGroup](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
-[Get-csrgsagentgroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
+[Get-csrgsagentgroup](/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
-[Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)
+[Get-CsRgsAgentGroup](/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解如何將 Skype Room System 裝置電腦加入 Active Directory 網域，以及這麼做的考慮。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 806dcac8f73f555227c03f7612f30fe4a598812f
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997411"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117551"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -46,9 +46,9 @@ ms.locfileid: "50997411"
   - 在所有加入網域的電腦上建立另一個網域使用者帳戶。
   - 將 Windows Update 推送到 Skype 會議室系統
     
-- 或者，您可能會決定將裝置電腦留在工作組中。 與桌上出版 Microsoft Teams 或商務用 Skype 用戶端一樣，這要求您在 Skype Room System 裝置 PC 上手動導入根憑證鏈。 如果您的部署是使用公用憑證 (例如委託、VeriSign 等等，則不需要將根憑證鏈) 。 
+- 或者，您可能會決定將裝置電腦留在工作組中。 與桌上出版 Microsoft Teams 或商務用 Skype 用戶端一樣，這要求您在 Skype Room System 裝置 PC 上手動導入根憑證鏈。 如果您的部署是使用公用憑證 (例如，委託、VeriSign 等等，則不需要將根憑證鏈) 。 
     
-如果您打算將 Skype 會議室系統電腦加入網域，為了避免不小心將 Skype 會議室系統電腦加入非預期的 OU ，而該 OU 可能並非 GPO 所提供，請確定您加入正確的 OU。 您可以使用 Skype Room System 電腦中的下列 Cmdlet 加入正確的 OU，而且不會收到可能會封鎖 LRS 功能的 GPO。 請與您的系統管理員或 OEM 合作夥伴聯繫，以執行這些 Cmdlet：
+如果您打算將 Skype Room System 電腦加入網域，為了避免不小心將 Skype 會議室系統電腦加入非預期的 OU ，而此 OU 可能並非 GPO 所提供，請確定您加入正確的 OU。 您可以使用 Skype Room System 電腦中的下列 Cmdlet 加入正確的 OU，而且不會收到可能會封鎖 LRS 功能的 GPO。 請與您的系統管理員或 OEM 合作夥伴聯繫，以執行這些 Cmdlet：
   
 ```powershell
 $username = "contso.local\LRS01"
@@ -57,9 +57,9 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-即使您建立個別的 OU 和封鎖繼承，也有一些可能會導致較高層級的問題。 具有無重寫設定之群組原則會以封鎖策略繼承設定比對 OU。 詳細資訊請參閱群組原則檔中與封鎖策略 [繼承](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) 比較的無重寫。
+即使您建立個別的 OU 和封鎖繼承，也有一些可能會導致較高層級的問題。 具有 No Override 設定的群組原則會以封鎖策略繼承設定比對 OU。 若要詳細資訊，請參閱群組原則檔中與封鎖 [策略繼承](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) 比較的無重寫。
   
-您可能有多種方法可以解決這些問題。 我們建議您諮詢 Active Directory 專家，以確保您獲得具有適當 GPO 設定的 OU，或至少一個不存在先前所述之策略的 OU。 我們建議您針對 Skype 會議室系統裝置啟用 QoS (QoS) 服務品質。
+您可能有多種方法可以解決這些問題。 我們建議您諮詢 Active Directory 專家，以確保您獲得具有適當 GPO 設定的 OU，或至少提供不存在先前所述之策略的 OU。 我們建議您針對 Skype 會議室系統裝置啟用 QoS (QoS) 服務品質。
 
 ## <a name="related-topics"></a>相關主題
   

@@ -15,15 +15,13 @@ localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定您要在此集區中，新增為 Edge Server 之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以隨時更新電腦的 FQDN 或從集區中移除該電腦，然後再發佈拓撲。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需設計 Edge 集區之拓撲的詳細資訊，請參閱 Edge 部署檔中的定義 Edge 拓撲。
-ms.openlocfilehash: 1fe8b307e5f14b1762a88ad65e50cd539966d9a9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 027d07f8e94e101dcef53049a27d4635d3fb8955
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822523"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116391"
 ---
 # <a name="edge-server-add-machine"></a>Edge Server 新增電腦
 
-指定您要在此集區中，新增為 Edge Server 之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以隨時更新電腦的 FQDN 或從集區中移除該電腦，然後再發佈拓撲。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需設計 Edge 集區之拓撲的詳細資訊，請參閱 Edge 部署檔中的 [定義 Edge 拓撲](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) 。
-
-
+指定您要在此集區中，新增為 Edge Server 之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以隨時更新電腦的 FQDN 或從集區中移除該電腦，然後再發佈拓撲。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需設計 Edge 集區之拓撲的詳細資訊，請參閱 Edge 部署檔中的 [定義 Edge 拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) 。

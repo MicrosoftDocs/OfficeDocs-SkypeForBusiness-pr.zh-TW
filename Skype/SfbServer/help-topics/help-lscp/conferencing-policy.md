@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 會議原則定義使用者可以在會議中使用的特性與功能。
-ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d69c463a9aa8a1e151b0787dfbfebf4e24fb693
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807393"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115363"
 ---
 # <a name="conferencing-policy"></a>會議原則
 
@@ -77,6 +77,4 @@ ms.locfileid: "49807393"
 
 - **錄製** 檢查會議原則是否指定允許在會議中錄製。
 
-如需會議功能及功能的詳細資訊，請參閱規劃檔中的 [會議綜述](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) 。 如需使用會議原則的詳細資訊，請參閱 Operations 檔中的 [會議原則](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) 。
-
-
+如需會議功能及功能的詳細資訊，請參閱規劃檔中的 [會議綜述](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) 。 如需使用會議原則的詳細資訊，請參閱 Operations 檔中的 [會議原則](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) 。

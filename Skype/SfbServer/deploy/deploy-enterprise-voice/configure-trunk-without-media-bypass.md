@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要：設定不啟用商務用 Skype 伺服器的媒體旁路的主幹。
-ms.openlocfilehash: c7941087dc2af820969a80cf68e8d01aa4356948
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff1c34e36906c8b9f5c88495e3c24239f572184a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803973"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106379"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中設定無媒體旁路的主幹
 
@@ -169,5 +169,4 @@ ms.locfileid: "49803973"
 
 [在商務用 Skype Server 中設定含媒體旁路的主幹](configure-trunk-with-media-bypass.md)
 
-[定義轉譯規則](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-
+[定義轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

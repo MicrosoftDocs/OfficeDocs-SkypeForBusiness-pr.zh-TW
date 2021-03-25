@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 閱讀如何在商務用 Skype Server 中安裝及設定忙碌選項。
-ms.openlocfilehash: e1480809eb1f14dd25837d11fd54ed6bb5cac534
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830803"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106309"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>為商務用 Skype Server 安裝及設定忙碌選項
 
@@ -50,7 +50,7 @@ ms.locfileid: "49830803"
 
 安裝程式將會部署最新版本的「忙碌選項」應用程式。 不過，預設不會啟用該應用程式。 若要啟用此應用程式，請執行下列步驟：
 
-1. 執行 [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) Cmdlet 以全域啟用忙碌選項，如下列範例所示：
+1. 執行 [Set-CsVoicePolicy](/powershell/module/skype/set-csvoicepolicy?view=skype-ps) Cmdlet 以全域啟用忙碌選項，如下列範例所示：
 
    ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
@@ -58,7 +58,7 @@ ms.locfileid: "49830803"
 
 2. 接下來，如果網站有語音原則，您必須啟用語音原則的「忙碌」選項，如下所示：
 
-    首先，執行 [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) 以取得網站的名稱：
+    首先，執行 [Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps) 以取得網站的名稱：
 
    ```powershell
    Get-CsSite
@@ -76,7 +76,7 @@ ms.locfileid: "49830803"
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. 接下來，執行 [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) Cmdlet 以將忙碌選項新增至伺服器應用程式清單，如下列範例所示：
+3. 接下來，執行 [New-CsServerApplication](/powershell/module/skype/new-csserverapplication?view=skype-ps) Cmdlet 以將忙碌選項新增至伺服器應用程式清單，如下列範例所示：
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
@@ -85,13 +85,13 @@ ms.locfileid: "49830803"
     > [!NOTE]
     > 您必須以特定集區的完整功能變數名稱取代% FQDN%。
 
-4. 接下來，執行 [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) Cmdlet 以更新「忙碌」選項 CMDLET (RBAC) 角色的角色型存取控制，如下列範例所示：
+4. 接下來，執行 [Update-CsAdminRole](/powershell/module/skype/update-csadminrole?view=skype-ps) Cmdlet 以更新「忙碌」選項 CMDLET (RBAC) 角色的角色型存取控制，如下列範例所示：
 
    ```powershell
    Update-CsAdminRole
    ```
 
-5. 最後，使用執行 [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) 命令，在已安裝及啟用 [忙碌] 選項的所有集區中，啟動所有前端伺服器上的商務用 Skype Server Windows 服務：
+5. 最後，使用執行 [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) 命令，在已安裝及啟用 [忙碌] 選項的所有集區中，啟動所有前端伺服器上的商務用 Skype Server Windows 服務：
 
    ```powershell
    Start-CsWindowsService
@@ -141,7 +141,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 
 ## <a name="verify-and-troubleshoot"></a>驗證及疑難排解
 
-安裝忙碌選項之後，您可以使用 [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) Cmdlet 來取得伺服器應用程式的清單，以確認安裝成功。 如果已正確安裝忙碌選項，指令指令的輸出應會顯示「忙碌選項」設定，如下所示：
+安裝忙碌選項之後，您可以使用 [Get-CsServerApplication](/powershell/module/skype/get-csserverapplication?view=skype-ps) Cmdlet 來取得伺服器應用程式的清單，以確認安裝成功。 如果已正確安裝忙碌選項，指令指令的輸出應會顯示「忙碌選項」設定，如下所示：
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions

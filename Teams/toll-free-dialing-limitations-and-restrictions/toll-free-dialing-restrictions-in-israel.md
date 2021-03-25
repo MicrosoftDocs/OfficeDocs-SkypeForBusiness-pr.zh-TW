@@ -1,5 +1,5 @@
 ---
-title: 以色列免付費撥號限制
+title: 在以色列免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: d83b50ebcdf13b0034a0ec7b43bde8af7c764910
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
+ms.openlocfilehash: 7736d3018f0ef3b8d957381b565f6326c9bfa286
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693578"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116681"
 ---
-# <a name="toll-free-dialing-restrictions-in-israel"></a>以色列免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-israel"></a>在以色列免付費撥號限制
 
-[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
+[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
 
-|**詳細資料**|**說明**|
+|**詳細資料**|**描述**|
 |:-----|:-----|
-|免費通話嗎？  <br/> |是  <br/> |
-|撥號格式（s）  <br/> | 1-80-94X <br/>  1-80-92X <br/> |
-|國家/地區 ISO 代碼  <br/> |伊利諾斯  <br/> |
-|已覆蓋的島/地區  <br/> |不適用  <br/> |
-|未涵蓋的島/區域  <br/> | 無法存取巴勒斯坦民族地區。 <br/> |
+|免付費通話是否可用？  <br/> |是  <br/> |
+|撥號格式 ()   <br/> | 1-80-94X-XXXX <br/>  1-80-92X-XXXX <br/> |
+|國家/地區 ISO 代碼  <br/> |I l  <br/> |
+|涵蓋的島嶼/地區  <br/> |不適用  <br/> |
+|未涵蓋的島嶼/地區  <br/> | 無法從領土存取。 <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
-|行動網路可用性  <br/> | 部分. 請參閱批註。 <br/> |
-|批註、限制及存取問題  <br/> |行動裝置存取：無法從 Paltel &amp; Jawal/Watania 行動裝置網路存取。  <br/> |
+|行動網路可用性  <br/> | 部分。 查看批註。 <br/> |
+|批註、限制和存取問題  <br/> |行動存取：從Paltel &amp; Jawal/Jawania 行動網路無法存取。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
   
- 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何準備基礎結構以部署 Microsoft Teams 會議室，以便利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884567"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117421"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -30,7 +30,7 @@ ms.locfileid: "50884567"
     
 2. 請確保裝置有可使用的網路/網際網路連接。 
     
-   它必須能夠使用 DHCP 接收 IP 位址。  (第一次裝置啟動時，Microsoft Teams 會議室無法以靜態 IP 位址進行配置，但之後，裝置上的靜態 IP 位址可以在裝置或上行交換器或路由器上) 
+   它必須能夠使用 DHCP 接收 IP 位址。  (第一次裝置啟動時，Microsoft Teams 會議室無法以靜態 IP 位址進行配置，但之後，裝置上的靜態 IP 位址可以在裝置上或上行交換器或路由器上) 
 
    除了開啟媒體的一般 (之外，還必須開啟這些埠) ：
    - HTTPS：443
@@ -56,7 +56,7 @@ ms.locfileid: "50884567"
   
 - 存取 Active Directory 或 Azure Active Directory (Azure AD) 實例，以及您的 Microsoft Exchange 和商務用 Skype 伺服器。
 
-- 存取可以使用 DHCP 提供 IP 位址的伺服器。 Microsoft Teams 會議室無法在第一個單元啟動時使用靜態 IP 位址進行配置。
+- 存取可以使用 DHCP 提供 IP 位址的伺服器。 Microsoft Teams 會議室無法在第一次裝置啟動時以靜態 IP 位址進行配置。
 
 - 存取 HTTP 埠 80 和 443。
 
@@ -66,11 +66,11 @@ ms.locfileid: "50884567"
 > 請務必使用有線 1Gbps 網路連接，以確保您擁有所需的頻寬。
 
 > [!NOTE]
-> Microsoft Teams 會議室的軟體更新會自動從商務用 Microsoft Store 下載。 請參閱 [商務用和教育用 Microsoft Store](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 的先決條件，以確認會議室主控台能夠存取該商店並自我更新。
+> Microsoft Teams 會議室的軟體更新會自動從商務用 Microsoft Store 下載。 請參閱 [商務用和教育用 Microsoft Store](/microsoft-store/prerequisites-microsoft-store-for-business) 的先決條件，以確認會議室主控台能夠存取該商店並自我更新。
   
 ### <a name="certificates"></a>證書
 
-您的 Microsoft Teams 會議室裝置使用 Exchange Web Services、Microsoft Teams 或商務用 Skype、網路使用方式和驗證的憑證。 如果相關伺服器使用公用憑證 ，例如 Online 和部分內部部署，則系統管理員無需執行其他動作來安裝憑證。 另一方面，如果憑證授權單位是私人 CA (通常是內部部署) 則裝置必須信任該 CA，這表示裝置上已安裝 CA + CA 鏈證書。 將裝置新加入網域可能會自動執行這項工作。
+您的 Microsoft Teams 會議室裝置會使用 Exchange Web Services、Microsoft Teams 或商務用 Skype、網路使用方式和驗證的憑證。 如果相關伺服器使用公用憑證 ，例如 Online 和部分內部部署，則系統管理員無需執行其他動作來安裝憑證。 另一方面，如果憑證頒發機構是私人 CA (通常是內部部署) 則裝置必須信任該 CA，這表示裝置上安裝 CA + CA 鏈證書。 將裝置新加入網域可能會自動執行這項工作。
   
 您安裝憑證的方式，與任何其他 Windows 用戶端相同。 
   
@@ -83,13 +83,13 @@ Microsoft Teams 會議室是設計用來繼承 Windows OS 的 Proxy 設定。 �
   
 1. 在 Microsoft Teams 會議室 UI 中，按一下 [設定> 齒輪圖示，系統會提示您輸入裝置上的當地系統管理員密碼 (預設密碼為 **sfb**) 。
 2. 點選 **設定**，然後點選前往 **Windows** 按鈕，然後點選前往管理員登錄按鈕，然後按一下管理員按鈕 (如果電腦已加入網域，請選擇其他使用者，然後使用 .\admin 做為使用者名稱) 。 
-3. 在 Regedit 中的 [**搜尋 Windows** 方塊 (長按螢幕或以滑鼠右鍵按一下，然後選擇 [以系統管理員) 。
-4. 按一下 [HKEY_USERS資料夾 (，您就會看到電腦使用者 SID 清單，) 已選取HKEY_USERS資料夾。
+3. 在 regedit 中的 [**搜尋 Windows** (方塊中，長按螢幕或以滑鼠右鍵按一下，然後選擇 [以系統管理員) 。
+4. 按一下 [HKEY_USERS資料夾 (，就會看到電腦使用者 SID 清單，) 已選取HKEY_USERS資料夾。
        
 5. 按一下 [檔案>，然後選擇 [ **載入配置單元。**
 6. 流覽至 **C：\Users\Skype** 資料夾，然後輸入檔案名方塊 NTUSER.dat，然後按開啟按鈕
 
-7. 系統會提示您為新載入的 Hive 輸入金鑰名稱;輸入 Skype (現在您應該會看到 Skype 使用者帳戶的登錄) 。
+7. 系統會提示您為新載入的 Hive 輸入 Key Name;輸入 Skype (現在您應該會看到 Skype 使用者帳戶的登錄) 。
  
 8. 開啟 Skype 鍵並流覽至HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings，然後確保已輸入這些設定： 
     
@@ -111,13 +111,13 @@ Microsoft Teams 會議室是設計用來繼承 Windows OS 的 Proxy 設定。 �
     "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
     ```
     
-9. 完成變更後，請針對 Skype) 的 Skype 使用者金鑰 (根資料夾進行反提示，然後選擇從登錄檔案功能表卸載 Hive (系統會提示您確認 - 選取是) 。 
+9. 一旦完成變更，請針對 Skype) 的 Skype 使用者金鑰 (根資料夾，並選取從登錄檔案功能表卸載 Hive (系統會提示您確認 - 選取是) 。 
     
 10. 現在，您可以關閉登錄編輯器，然後輸入登入 Windows 搜尋方塊。
     
 11. 回到登錄畫面，選擇 **Skype** 使用者。 如果上述所有步驟都成功，Microsoft Teams 會議室裝置將會順利登錄。
     
-請參閱 [網路安全性](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) 文章，瞭解 Microsoft Teams 會議室所需的 FQDN、埠和 IP 位址範圍的完整詳細資料。
+請參閱 [網路安全性](./security.md#network-security) 文章，瞭解 Microsoft Teams 會議室所需的 FQDN、埠和 IP 位址範圍的完整詳細資料。
   
   
 ### <a name="create-provisioning-packages"></a>建立部署套件
@@ -135,7 +135,7 @@ Microsoft Teams 會議室是設計用來繼承 Windows OS 的 Proxy 設定。 �
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams 會議室本地使用者帳戶
 
-裝置帳戶通常不會使用密碼。 您可以為它輸入密碼，但會產生一些後果，包括使用者可能在密碼到期時被鎖定在主控台應用程式外。 因此，系統管理員應該採取一些措施，確保密碼不會過期。
+裝置帳戶通常不會使用密碼。 您可以提供密碼，但會產生一些後果，包括使用者可能在密碼到期時被鎖定在主機應用程式外。 因此，系統管理員應該採取一些措施，確保密碼不會過期。
   
 ### <a name="admin---local-administrator-account"></a>「系統管理員」- 本地系統管理員帳戶
 
@@ -166,4 +166,4 @@ Microsoft Teams 會議室的預設密碼設定為「sfb」。 您可以前往 Wi
   
 [管理 Microsoft Teams 會議室](rooms-manage.md)
 
-[商務與教育用 Microsoft Store 的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[商務與教育用 Microsoft Store 的先決條件](/microsoft-store/prerequisites-microsoft-store-for-business)

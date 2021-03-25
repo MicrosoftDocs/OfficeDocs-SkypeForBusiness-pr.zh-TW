@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要：使用商務用 Skype Server 控制台建立或修改語音原則及設定 PSTN 使用方式記錄。
-ms.openlocfilehash: 3e0fe5cebfc9d46f5c21554f1e18b54799d2d1e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ca97c4c75004849f2ea404c083878da6c726c2e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830403"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105759"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄
 
@@ -305,7 +305,7 @@ ms.locfileid: "49830403"
 
    - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
 
-   - 若要編輯已經與此 PSTN 使用方式記錄建立關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱＜[Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)＞。
+   - 若要編輯已經與此 PSTN 使用方式記錄建立關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱＜[Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)＞。
 
      d. 按一下 **[確定]**。
 
@@ -321,7 +321,7 @@ ms.locfileid: "49830403"
 
      - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
 
-     - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱＜[Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)＞。
+     - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱＜[Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)＞。
 
      c. 按一下 **[確定]**。
 
@@ -345,4 +345,3 @@ ms.locfileid: "49830403"
 [在商務用 Skype 中將擱置的變更發佈至語音路由設定](voice-route-config-changes.md)
 
 [在商務用 Skype 中設定語音信箱轉義](configure-voice-mail-escape.md)
-

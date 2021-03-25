@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 在商務用 Skype Server Enterprise Voice 中建立或修改通話駐留軌道範圍表。
-ms.openlocfilehash: 6a17b4faaad026376bccad060cb421a5e2cfa1df
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: eab1c3e6e53eaa878546b5fe4a9684147a00c583
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805473"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106319"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改通話駐留軌道範圍
 
@@ -102,8 +102,8 @@ ms.locfileid: "49805473"
 
 ## <a name="see-also"></a>另請參閱
 
-[新 Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[新 Get-cscallparkorbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Get-cscallparkorbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[刪除通話駐留軌道範圍](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[刪除通話駐留軌道範圍](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

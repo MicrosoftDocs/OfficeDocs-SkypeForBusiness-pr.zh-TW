@@ -15,19 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: fdbc90d577ce124b7b4f2908bdc89207c19cd859
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2430352629fe55d5f3ad1037c08e667fb3987bea
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810993"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115261"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>電話撥入式會議存取號碼：建立新的或編輯現有
 
 您要執行的工作 按一下您要執行之任務的連結。
 
-- [建立或修改電話撥入式會議存取號碼](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [建立或修改電話撥入式會議存取號碼](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number)
 
-- [刪除電話撥入式會議存取號碼](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
-
-
+- [刪除電話撥入式會議存取號碼](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-dial-in-conferencing-access-number)

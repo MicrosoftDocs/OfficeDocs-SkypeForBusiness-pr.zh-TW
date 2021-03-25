@@ -1,5 +1,5 @@
 ---
-title: PowerShell 腳本範例-建立新的人員管理員小組
+title: PowerShell 腳本範例 - 建立新的人員管理員團隊
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本，為每個主管建立小組，並將其指引為小組成員。
+description: 使用此 PowerShell 腳本為每位主管建立一個團隊，其直接人員是小組成員。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f17ccf2372b10d8b0a14e4259faf9db22fc72ce
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8343348816c1dfeb4b10f67001e3ecb3698983b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583110"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117301"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 腳本範例-建立新的人員管理員小組
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 腳本範例 - 建立新的人員管理員團隊
 
-使用此 PowerShell 腳本，為每個主管建立小組，並將其指引為小組成員。 在執行此腳本之前，請先執行[匯出管理器](powershell-script-create-teams-from-managers-export-managers.md)腳本，從 Active Directory 匯出 () 您組織的管理員及其導向者清單。
+使用此 PowerShell 腳本為每位主管建立一個團隊，其直接人員是小組成員。 執行此腳本之前，請執行匯出[](powershell-script-create-teams-from-managers-export-managers.md)管理員腳本， (Active Directory 匯出) 管理員及其組織主管清單。
 
-若要瞭解此 PowerShell 腳本，請閱讀[建立人員管理員小組](../create-manager-directs-teams.md)。
+若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。
 
-如果您是 PowerShell 新手，且需要開始協助，請參閱[Azure PowerShell 的概覽](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。
+如果您剛開始使用 PowerShell，需要協助開始使用，請參閱 Azure [PowerShell 概觀](/powershell/azure/overview?view=azurermps-5.1.1)。
 
 
-## <a name="create-new-people-manager-teams"></a>建立新的人員管理員小組 
+## <a name="create-new-people-manager-teams"></a>建立新的人員管理員團隊 
 
 ```powershell
 <# 
@@ -213,5 +213,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Exiting.."
 #endregion
 
 ```
-
-

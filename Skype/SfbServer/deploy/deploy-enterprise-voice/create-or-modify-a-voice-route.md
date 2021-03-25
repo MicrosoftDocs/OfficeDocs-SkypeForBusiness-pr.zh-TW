@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台建立或修改商務用 Skype Server 中的語音路由。
-ms.openlocfilehash: c9f1a234bf8aeeb1bfeb05f1464a48eb0e964405
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c6f1e50971551866cfa6cb12eb6a259ac2f932f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820453"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105839"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音路由
  
@@ -51,7 +51,7 @@ ms.locfileid: "49820453"
     
    - **例外** 狀況：如果您想要為前置詞值指定一或多個例外狀況，請反白顯示首碼，然後按一下 [ **例外** 狀況]。 針對您  *不*  想要此路由容納的相符模式輸入一個或多個值。 例如，若要從路由中排除從 + 425237 開始的數位，請在 [ **例外日期** ] 欄位中輸入 [+ 425237] 的值，然後按一下 **[確定]**。
     
-   - 若要手動定義相符的模式，請按一下 [**組建要搭配的模式**] 中的 [**編輯**]，然後輸入 .net Framework 正則運算式，以指定要套用路由之目的地電話號碼的相符模式。 如需如何撰寫正則運算式的詳細資訊，請參閱「 [.Net Framework 正則運算式](https://go.microsoft.com/fwlink/p/?linkId=140927)」。 
+   - 若要手動定義相符的模式，請按一下 [**組建要搭配的模式**] 中的 [**編輯**]，然後輸入 .net Framework 正則運算式，以指定要套用路由之目的地電話號碼的相符模式。 如需如何撰寫正則運算式的詳細資訊，請參閱「 [.Net Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)」。 
     
 9. 如果您不想讓撥出電話的電話號碼對來電收件者顯示，請選取 [ **抑制來電者識別碼** ]。 如果您選取此選項，則必須指定要在收件者的來電者 ID 顯示上顯示的 **替代來電者識別碼** 。
     
@@ -98,7 +98,7 @@ ms.locfileid: "49820453"
     
    - **例外** 狀況：如果您想要為前置詞值指定一或多個例外狀況，請反白顯示首碼，然後按一下 [ **例外** 狀況]。 針對您  *不*  想要此路由容納的相符模式輸入一個或多個值。 例如，若要從路由中排除從 + 425237 開始的數位，請在 [ **例外日期** ] 欄位中輸入 [+ 425237] 的值，然後按一下 **[確定]**。
     
-   - 若要手動定義相符的模式，請按一下 [**組建要搭配的模式**] 中的 [**編輯**]，然後輸入 .net Framework 正則運算式，以指定要套用路由之目的地電話號碼的相符模式。如需如何撰寫正則運算式的詳細資訊，請參閱「 [.Net Framework 正則運算式](https://go.microsoft.com/fwlink/p/?linkId=140927)」。 
+   - 若要手動定義相符的模式，請按一下 [**組建要搭配的模式**] 中的 [**編輯**]，然後輸入 .net Framework 正則運算式，以指定要套用路由之目的地電話號碼的相符模式。如需如何撰寫正則運算式的詳細資訊，請參閱「 [.Net Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)」。 
     
 7. 如果您不想讓撥出呼叫出現在來電收件者的電話識別碼，請選取 [ **抑制來電者識別碼** ]。 如果您選取此選項，則必須指定要在收件者的來電者 ID 顯示上顯示的 **替代來電者識別碼** 。
     
@@ -130,4 +130,3 @@ ms.locfileid: "49820453"
 [在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄](voice-policy-and-pstn-usage-records.md)
   
 [在商務用 Skype 中將擱置的變更發佈至語音路由設定](voice-route-config-changes.md)
-

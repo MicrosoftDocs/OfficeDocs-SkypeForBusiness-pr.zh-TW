@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義新的分支網站，請指定下列專案：
-ms.openlocfilehash: 3ab0f19c66d1238454dac08a9094d7a95ffbc04d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3452c80cce4941d33d1781a5e90dff26841131cb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116461"
 ---
 # <a name="add-branch-site-name"></a>新增分支網站名稱
 
@@ -30,6 +30,4 @@ ms.locfileid: "49811923"
 
 選用的描述欄位可讓您指定額外的描述性資訊，這不是基礎結構名稱的一部分，只是提供位置讓您輸入文字來進一步描述網站。
 
-如需詳細資訊，請參閱[網站](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)。
-
-
+如需詳細資訊，請參閱[網站](/previous-versions/office/lync-server-2013/lync-server-2013-sites)。

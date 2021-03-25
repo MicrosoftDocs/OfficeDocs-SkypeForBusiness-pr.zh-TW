@@ -21,92 +21,92 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: '從 Polycom、HP 和 Mitel，以及所需的授權，瞭解哪些手機可搭配商務用 Skype 使用。 '
-ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: '瞭解哪些電話可與 Polycom、HP 和 Mitel 的商務用 Skype 一起使用，以及所需的授權。 '
+ms.openlocfilehash: 03f9a6d5cf3ac496c4828825e68f068ec98a14ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220433"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106439"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>取得商務用 Skype Online 的電話
 
-商務用 skype Online 可為想要取得傳統電話經驗的使用者（而不是使用商務用 Skype 應用程式）提供和支援桌面電話。 本主題涵蓋在商務用 Skype Online 中支援使用的電話和固件版本，以及當您在組織中設定手機時可協助您的其他資訊。
+商務用 Skype Online 可針對想要擁有傳統電話體驗，而非使用商務用 Skype 應用程式的使用者，提供桌面電話的資格和支援。 本主題涵蓋商務用 Skype Online 中支援的電話和固件版本，以及當您在組織中設定電話時可協助您的其他資訊。
 
 > [!NOTE]
-> 商務用 Skype 在 Microsoft 365 和 Office 365 中將會以 Microsoft 團隊的主要通訊方式來取代。  如需詳細資訊，請參閱[Office 365 中適用于智慧通訊的新構想](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)。
+> 商務用 Skype 將會慢慢被 Microsoft Teams 取代為 Microsoft 365 和 Office 365 的主要通訊方式。  請參閱 [Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) 智慧型通訊的新願景以瞭解更多資訊。
 >
->若要取得最新的更新以及支援的裝置上的最新資訊，請參閱[適用于智慧通訊的 Microsoft 團隊裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
+>若要在支援的裝置上取得最新更新和最新資訊，請參閱適用于智慧通訊的 Microsoft [Teams 裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
   
-## <a name="supported-phones"></a>支援的電話
+## <a name="supported-phones"></a>支援的手機
   
-Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作並共同合作，透過合作夥伴 IP Phone 程式（PIP）為手機系統開發並認證各種裝置。
+Microsoft 正與 Polycom、Yealink 和 AudioCodes 密切合作，透過電話系統的合作夥伴 IP 電話計畫 (PIP) 開發及認證各種裝置。
   
-針對商務用 Skype 排序新電話時，請務必購買擁有*正確產品識別碼*的手機。 這些產品識別碼可確保您收到的手機已安裝商務用 Skype Online 的合格版本。
+訂購商務用 Skype 的新電話時，購買產品識別碼正確的 *電話非常重要*。 這些產品的 ID 可確保您收到的電話已安裝商務用 Skype Online 合格版本。
   
 |||
 |:-----|:-----|
 |**電話合作夥伴** <br/> |**商務用 Skype 特定產品識別碼** <br/> |
-|Polycom  <br/> |產品識別碼-019  <br/> |
-|Yealink  <br/> |SIP-TXXG 商務用 Skype 版本  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|Polycom  <br/> |產品識別碼 -019  <br/> |
+|Yealink  <br/> |SIP-TXXG 商務用 Skype Edition  <br/> |
+|音訊代碼  <br/> |UCXXXHDEG (SfB)   <br/> |
    
-如需有關 Polycom 手機的詳細資訊，請參閱[Poly 文件庫](https://documents.polycom.com/category/voice)。
+有關 Polycom 電話的詳細資訊，請參閱 [Poly 文件庫](https://documents.polycom.com/category/voice)。
   
-如需有關 Yealink 手機的詳細資訊，請參閱[商務用 SKYPE IP 電話](http://www.yealink.com/products_list_10.html#filter2)。
+有關 Yealink 電話的詳細資訊，請參閱 [商務用 Skype IP 電話](http://www.yealink.com/products_list_10.html#filter2)。
   
-如需有關 AudioCodes 手機的詳細資訊，請參閱[商務用 SKYPE IP 電話](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
+有關 AudioCodes 電話的詳細資訊，請參閱 [商務用 Skype IP 電話](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
   
 > [!NOTE]
-> Lync Phone Edition 支援商務用 Skype Online，但不適用於 Microsoft 團隊。 LPW 平臺的主流支援已于4月/10/2014 年結束，延伸支援直到2013年4月/11/2023 年與 Lync Server 的產品支援週期相符。 如需 LPW 生命週期的詳細資訊，請參閱[Microsoft 產品生命週期](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 商務用 Skype Online 不支援 LPW CAP 模型。
+> Lync Phone Edition 受商務用 Skype Online 支援，但 Microsoft Teams 不支援。 LPE 平臺的主流支援已于 2014 年 4 月 10 日結束，並延長支援直到 2023 年 4 月 11 日，以配合 Lync Server 2013 的產品支援週期。 請參閱 [Microsoft 產品生命週期](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) 以瞭解有關 LPE 生命週期的詳細資訊。 商務用 Skype Online 不支援 LPE CAP 模型。
 >
-> 今年之後，Office 365 將不支援任何版本低於1.2 的 TLS。 因為 LPW 基礎作業系統不支援 TLS 1.2，所以 LPW 將不會受到支援，因此無法連線至 Office 365。 如需詳細資訊，請參閱[準備 Office 365 中的 TLS 1.2 的強制使用](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)。
+> 今年稍後，Office 365 不支援任何 1.2 以前的 TLS 版本。 由於 LPE 的基礎作業系統不支援 TLS 1.2，因此不再支援 LPE 連接到 Office 365。 請參閱 [準備在 Office 365 中強制使用 TLS 1.2](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) 以瞭解更多資訊。
   
 ## <a name="supported-firmware"></a>支援的固件
 
-這是支援的電話與電話系統搭配使用所需的最低軟體發行：
+這是支援電話使用電話系統所需的最低軟體版本：
   
 ||||
 |:-----|:-----|:-----|
-|**電話類型** <br/> |**最低固件** <br/> |**發行日期** <br/> |
-|已優化（Lync 手機版）  <br/> |4.0.7577.4463  <br/> |2015年5月  <br/> |
-|已驗證的 Polycom VVX 系列  <br/> |5.4。0  <br/> |2015年12月  <br/> |
-|Yealink  <br/> |X.x.x.x 8.1.52  <br/> |2017年2月  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |2016年12月  <br/> |
+|**電話類型** <br/> |**最小固件** <br/> |**發行日期** <br/> |
+|Lync Phone Edition (優化)   <br/> |4.0.7577.4463  <br/> |2015 年 5 月  <br/> |
+|通過認證的 Polycom VVX 系列  <br/> |5.4.0A  <br/> |2015 年 12 月  <br/> |
+|Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
+|音訊代碼  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
 
-如需目前認證的固件版本的詳細資訊，請參閱[商務用 SKYPE IP 電話](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones)。
+有關目前通過認證的固件版本的詳細資訊，請參閱 [商務用 Skype IP 電話](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
 
 > [!NOTE]
-> 在將這些使用者移至商務用 Skype Online 之前，您在內部部署中設定的 Lync Phone Edition （LPW）手機必須更新為最低或較新的所需固件。 如果您在更新手機上的固件前將使用者從內部部署移至商務用 Skype Online，則這些手機將無法連線至商務用 Skype Online。 
+> Lync Phone Edition (LPE) 您為內部部署所設定的電話，必須先更新為最低或更新必要的固件，才能將這些使用者移往商務用 Skype Online。 如果您在更新手機上的固件之前，先將使用者從內部部署移至商務用 Skype Online，這些電話將無法連線到商務用 Skype Online。 
   
-## <a name="required-licenses"></a>所需的授權
+## <a name="required-licenses"></a>必要的授權
 
-商務用 Skype Online 不需要使用者授權以外的任何其他 Microsoft 授權。 若要深入瞭解所需的使用者授權，請參閱[商務用 Skype 和 Microsoft 團隊附加元件授權](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+商務用 Skype Online 不需要使用者授權外的其他 Microsoft 授權。 若要深入瞭解所需的使用者授權，請參閱商務用 Skype 和 [Microsoft Teams 附加元件授權](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
-[製造商授權模型] 可能會因開啟的 SIP 與商務用 Skype 認證固件而有所不同。 如果您要使用開啟的 SIP 固件來重新調整認證模型的用途，您必須與製造商驗證固件授權需求。
+開啟的 SIP 和商務用 Skype 認證固件之間，製造商授權模式可能會有所不同。 如果您是使用 Open SIP 固件重新調整認證模型用途，您必須向製造商驗證固件授權需求。
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>已設定商務用 Skype Online 的手機功能集
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>商務用 Skype Online 連線電話功能集
 
-如需完整裝置功能與功能，請參閱製造商使用者指南。
+有關完整的裝置功能，請查看製造商的使用者指南。
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-|**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPW** <br/> |
-|使用使用者認證登入  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|透過電腦（配對）登入，僅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|使用登入（網頁登入）  <br/>  <br/> **注意：** 檢查 [部署指南] 中的 [支援清單]。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|按一下 [加入會議]  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|按一下撥打（配對）  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**音訊代碼 3PIP** <br/> |**LPE** <br/> |
+|使用使用者認證來登錄  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|透過 PC 帳戶 (配對) ，僅適用于 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|使用網頁 (帳戶)   <br/>  <br/> **注意：** 檢查部署指南中的可支援性矩陣。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|單鍵加入會議  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|按一下以撥號 ([配對)   <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |會議控制項  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |視覺語音信箱  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |電話鎖定  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |裝置更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|頻帶內配  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|帶內資源調配  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |QoE  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|記錄上傳  <br/> <br/> **注意：** 目前，所有的記錄都只會上傳到 Microsoft 支援小組;客戶無法存取手機記錄。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|記錄上傳  <br/> <br/> **注意：** 目前，所有記錄只會上傳到 Microsoft 支援小組;目前還無法取得客戶對電話記錄的存取權限。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |新式驗證  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |多個緊急號碼  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange 行事曆整合 *  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：** 需要電腦 tethering           |
+|Exchange 日曆整合*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：** 需要電腦系系           |
 |目前狀態整合  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |公司目錄  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |委派  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
@@ -115,17 +115,16 @@ Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作並共同合作，
 
      
 > [!NOTE]
-> CX 600 或任何其他 Aries 手機不支援多重要素驗證（MFA）。 如果您強制進行 MFA，這些裝置將無法登入。 這些裝置必須只使用組織識別碼來進行 authetication。
+> CX 600 或其他 Aries 手機不支援 MFA (多重要素) 。 如果您強制 MFA，這些裝置將無法登錄。 這些裝置只能使用組織識別碼才能使用。
  
-## <a name="what-else-should-you-know"></a>您還應該知道什麼？
-如需逐步設定指示，請參閱[部署商務用 Skype Online 手機](deploying-skype-for-business-online-phones.md)。
+## <a name="what-else-should-you-know"></a>您還需要知道什麼？
+有關逐步設定指示，請參閱部署商務用 [Skype Online 電話](deploying-skype-for-business-online-phones.md)。
 
 ## <a name="related-topics"></a>相關主題
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
 [以下是可透過電話系統獲得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
- 

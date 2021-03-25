@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊中的小組到期與更新
+title: Microsoft Teams 中的團隊到期與續約
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,38 +11,38 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解小組到期及續約，以及如何使用 Microsoft 365 群組過期原則，自動清理 Microsoft 團隊中未使用的小組。
+description: 瞭解團隊到期與續約，以及如何使用 Microsoft 365 群組到期政策，自動清理 Microsoft Teams 中未使用的團隊。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b111ddd6b874fef22a7d221f6eb932c4c14c7b70
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 606d957b703725d631beec38237f4d9b4272433e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809403"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116951"
 ---
-# <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 團隊中的小組到期與更新
+# <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft Teams 中的團隊到期與續約
 
-擁有大量小組的組織通常會有小組，這些都不是實際使用。 這可能是因為幾個原因，包括產品實驗、短期團隊共同作業，或團隊擁有者離開組織。 隨著時間的推移，此類團隊可以在租使用者資源上累計並產生負擔。  
+擁有大量團隊的組織通常擁有從未實際使用的團隊。 發生此情況的原因有幾個，包括產品試驗、短期小組共同合作，或團隊擁有者離開組織。 隨著時間的過去，這類團隊可能會累積並給租使用者資源造成負擔。  
 
-若要將未使用的團隊數作為系統管理員，您可以使用 [Microsoft 365 群組過期原則](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) 自動清理未使用的團隊。 由於團隊是由群組來支援，因此群組過期原則也會自動套用至小組。
+若要限制未使用的團隊數量，作為系統管理員，您可以使用 [Microsoft 365 群組](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) 到期政策來自動清理未使用的團隊。 由於團隊是由群組所支援，因此群組到期原則也會自動適用于團隊。
 
-當您將過期原則套用至小組時，小組擁有者會在團隊的到期日之前，在30天、15天和1天之前收到小組更新通知。 當小組擁有者收到通知時，他們可以按一下 [團隊設定] 中的 [ **立即更新** ] 來更新小組。
+當您將到期原則適用于團隊時，團隊擁有者會于團隊到期日前 30 天、15 天和 1 天收到小組續約通知。 當團隊擁有者收到通知時，他們可以按一下 **[在** 小組設定中立即續約以續約團隊。
 
-![[立即更新] 按鈕的螢幕擷取畫面，用來更新小組設定中的小組](media/team-expiration.png "[立即更新] 按鈕的螢幕擷取畫面，用來更新小組設定中的小組")
+![在小組設定中更新團隊的立即續約按鈕螢幕擷取畫面](media/team-expiration.png "在小組設定中更新團隊的立即續約按鈕螢幕擷取畫面")
 
-如果小組擁有者沒有更新小組，而且團隊沒有任何其他活動，直到到期原則結束，該小組會放在 [虛刪除] 狀態，這表示它可以在未來30天內還原。
+如果團隊擁有者未為小組續約，且在到期政策結束之前團隊中沒有任何進一步活動，團隊會置於「柔刪除」狀態，這表示小組可以在接下來 30 天內還原。
 
 ## <a name="team-auto-renewal"></a>小組自動續約
 
-有時候，小組擁有者可能無法更新小組，可能是因為他們忘記在續約時續約或離開。 在這些案例中，活動中使用的小組可能會因套用至小組的過期原則而被刪除。  
+有時候，團隊擁有者可能因為忘記續約或因為續約到期而無法續約。 在這些情況下，使用中團隊可能會因為適用于團隊的到期原則而被刪除。  
 
-若要防止意外刪除，自動續約會自動啟用群組過期原則中的小組。 設定了群組過期原則之後，只要任何小組成員的到期日，就會自動更新，而不需要由團隊擁有者手動干預。
+為了避免意外刪除，群組到期政策中的小組會自動啟用自動續約。 設定群組到期政策時，任何在到期日之前至少有一個頻道流覽的小組都會自動續約，而不需要團隊擁有者手動介入。
 
 ## <a name="known-issues"></a>已知問題
 
-**團隊和基礎群組的到期日不相符**
+**團隊與基礎群組的到期日不相符**
 
-在更新小組之前，會先續約支援小組的群組。 在續約時，會在群組中針對未來日期設定新的到期日。 在團隊中可能不會立即看到這個新日期。 同步處理可能需要長達24小時。如果您在團隊及其基礎群組的到期日之間看到差異，請等候24小時，再尋求進一步的支援。
+在團隊續約之前，先續約支援小組的群組。 續約的一部分，會為群組設定未來日期的新到期日。 這個新日期可能不會在 Teams 中立即顯示。 同步最多可能需要 24 小時。如果您看到團隊及其基礎群組的到期日有差異，請等候 24 小時，再尋求進一步支援。

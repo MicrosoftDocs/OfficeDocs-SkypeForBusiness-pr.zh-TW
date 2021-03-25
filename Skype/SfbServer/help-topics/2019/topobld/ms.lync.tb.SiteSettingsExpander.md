@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有網站的屬性，請執行下列操作：
-ms.openlocfilehash: 30e11a6b580b80719ffd6f745c7c37edf2cf358e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4bcf07ef1b550fb96ce503f31b4026ccc4ae6960
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805563"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115373"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 網站設定展開工具
 
@@ -32,7 +32,7 @@ ms.locfileid: "49805563"
 
 在 [網站內容] 中，您可以變更或修改網站名稱 (必要) 、描述 (選用) 、城市 (optional) 、省/直轄市 (optional) ，以及國家/地區碼 (optional) 。
 
-如需網站屬性的詳細資訊，請參閱 [將分支網站新增至您的拓撲](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)。
+如需網站屬性的詳細資訊，請參閱 [將分支網站新增至您的拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-add-branch-sites-to-your-topology)。
 
 ## <a name="federation-route-properties"></a>同盟路由屬性
 
@@ -45,6 +45,4 @@ ms.locfileid: "49805563"
 
 ## <a name="see-also"></a>另請參閱
 
-如需詳細資訊，請參閱 [外部使用者存取的拓撲](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)。
-
-
+如需詳細資訊，請參閱 [外部使用者存取的拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access)。

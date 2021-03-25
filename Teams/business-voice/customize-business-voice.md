@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac33cd0c815aec39855351dbd1abf16ce4f52b7f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824821"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116001"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>自訂 Microsoft 365 商務語音
 
@@ -33,7 +33,7 @@ ms.locfileid: "41824821"
 | 工作                                                          | 描述                                                                                          |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [將電話號碼移至商務語音](port-phone-numbers.md) | 將現有的電話號碼攜至商務語音。                                                 |
-| [設定自動語音應答](set-up-auto-attendants.md)           | 新增更多通話功能表，以擴充來電者在撥打您的主要電話號碼時可使用的選項。        |
+| [設定自動語音應答](./create-a-phone-system-auto-attendant-smb.md)           | 新增更多通話功能表，以擴充來電者在撥打您的主要電話號碼時可使用的選項。        |
 | [設定通話原則](set-up-policies.md)                 | 控制使用者是否可以執行撥打私人通話、使用來電轉接和代理人通話等動作。        |
 | [建立其他使用者](create-users.md)                    | 新增更多使用者，並指派新的或現有的電話號碼給他們。                                     |
-| [設定通話佇列](set-up-call-queues.md)                   | 建立佇列，讓來電者等候下一個可用代理程式。                                  |
+| [設定通話佇列](./create-a-phone-system-call-queue-smb.md)                   | 建立佇列，讓來電者等候下一個可用代理程式。                                  |

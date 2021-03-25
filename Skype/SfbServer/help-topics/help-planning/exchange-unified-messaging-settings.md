@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: 商務用 Skype Server 2015 支援與 Exchange 整合通訊 (UM) 整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
-ms.openlocfilehash: 8e2a5c755222aaa4ed5d178de67a244af293a4a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7f73e3ea6f7033103242c9ff8ee425963e9f6729
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800313"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116111"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange 整合通訊設定 (規劃工具) 
 
@@ -29,10 +29,8 @@ ms.locfileid: "49800313"
 
 如需詳細資訊，請參閱：
 
-- [規劃 Exchange 整合通訊整合](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [規劃 Exchange 整合通訊整合](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)
 
-- 「整合通訊」，網址為 [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
+- 「整合通訊」，網址為 [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- 「規劃整合通訊」的位置 [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) 。
-
-
+- 「規劃整合通訊」的位置 [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) 。

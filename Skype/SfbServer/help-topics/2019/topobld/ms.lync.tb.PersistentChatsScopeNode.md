@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以在拓撲產生器中，以滑鼠右鍵按一下 Persistent Chat 集區，以執行下列作業：
-ms.openlocfilehash: 9708a425511ba53c3e465d40103bb3e276e8c68f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 87512ae3ecba6eab5bb3e896b16c9c33a1716786
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822323"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115383"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>建立常設聊天室伺服器範圍節點
 
 > [!NOTE] 
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [商務用 Skype To Microsoft 小組升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。
+> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [商務用 Skype To Microsoft 小組升級](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。

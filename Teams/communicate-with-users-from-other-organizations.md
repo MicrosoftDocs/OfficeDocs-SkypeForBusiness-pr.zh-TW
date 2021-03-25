@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部存取 (同盟) 和來賓存取在 Microsoft Teams 中通話、聊天、尋找和新增來自組織外部的使用者。
-ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461043"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115991"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用來賓存取和外部存取與組織外的人員共同作業
 
@@ -53,7 +53,7 @@ ms.locfileid: "50461043"
 
 來賓會以 B2B 使用者的身分新增至組織的 Azure Active Directory 中，且必須使用其來賓帳戶登入 Teams。 這表示他們可能必須登出自己的組織，才能登入您的組織。
 
-若要為 Teams 設定來賓存取，請參閱[在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
+若要為 Teams 設定來賓存取，請參閱[在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)。
 
 ## <a name="compare-external-and-guest-access"></a>比較外部和來賓存取
 
@@ -105,4 +105,3 @@ ms.locfileid: "50461043"
 [Teams 中的外部存取](manage-external-access.md)
 
 [Teams 中的來賓存取](guest-access.md)
-

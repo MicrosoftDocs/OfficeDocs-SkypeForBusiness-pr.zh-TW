@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要：商務用 Skype Server 2019 或商務用 Skype Online 系統管理員可以使用這些表格，瞭解哪些用戶端支援哪些功能。
-ms.openlocfilehash: 9fcc86f59943ef770947b8311952b03f213d268b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 05bb3b39e8e150591fcb11b574f16c0f4f791791
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808713"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106649"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的桌面用戶端功能比較
 
@@ -29,12 +29,12 @@ ms.locfileid: "49808713"
 
  在您部署或升級至商務用 Skype Server 之前，請先檢查您組織中已使用的用戶端。 使用下表來瞭解對這些用戶端的功能支援影響。 這可協助您向使用者傳達變更、節奏向外延展程式，以及充分瞭解升級為最新用戶端的益處。
 
-商務用 skype Online 中無法使用商務用 Skype Server 2019 提供的某些功能;如需詳細資訊，請參閱 [線上或混合的使用者帳戶限制](feature-comparison.md#Online-Hybrid) 。 商務用 skype Online 系統管理員可能會想要參考 [商務用 Skype Online 服務說明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) ，以瞭解可用之不同方案的詳細資訊。
+商務用 skype Online 中無法使用商務用 Skype Server 2019 提供的某些功能;如需詳細資訊，請參閱 [線上或混合的使用者帳戶限制](feature-comparison.md#Online-Hybrid) 。 商務用 skype Online 系統管理員可能會想要參考 [商務用 Skype Online 服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) ，以瞭解可用之不同方案的詳細資訊。
 
 下表顯示可搭配商務用 Skype Server 2019 或商務用 Skype Online 使用之每個用戶端可用的功能。 您也可以參考商務用 Skype 的行動 [用戶端功能比較](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) ，以進行智慧型電話和平板電腦用戶端功能的比較。 您的組織購買的用戶端存取許可證或使用者訂閱授權也會影響使用者可使用的功能。 您是否要將完整或基本用戶端部署給使用者，取決於您的組織選擇購買的授權或計畫。 如需詳細資訊，請參閱 [授權指南](https://products.office.com/skype-for-business/it-pros) 。
 
 > [!IMPORTANT]
-> 商務用 skype Server 2019 和商務用 Skype Online 支援下列先前發佈的用戶端： Lync 2013、商務用 skype 2015 和商務用 skype 2016，以及商務用 Skype 2019 用戶端。 如需這些用戶端與其他伺服器搭配使用時的詳細資訊，請參閱 Lync Server 2013 和[桌面用戶端功能比較的](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)[用戶端比較表](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx)（適用于商務用 Skype 2015）。 
+> 商務用 skype Server 2019 和商務用 Skype Online 支援下列先前發佈的用戶端： Lync 2013、商務用 skype 2015 和商務用 skype 2016，以及商務用 Skype 2019 用戶端。 如需這些用戶端與其他伺服器搭配使用時的詳細資訊，請參閱 Lync Server 2013 和[桌面用戶端功能比較的](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)[用戶端比較表](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables)（適用于商務用 Skype 2015）。 
 
 
 > [!NOTE]
@@ -105,11 +105,11 @@ ms.locfileid: "49808713"
 此表格涵蓋與會議支援相關的功能。
 
 > [!NOTE]
->  商務用 skype Online 獨立方案1中無法使用商務用 skype 會議功能。  方案1即將 [停](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+>  商務用 skype Online 獨立方案1中無法使用商務用 skype 會議功能。  方案1即將 [停](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
 )用。
 
 在 Skype to Skype 會話中，如果使用者受到具有共用功能存取權的使用者邀請，則商務用 Skype Online 方案1使用者可以參與桌面共用和應用程式共用。
-如需詳細資訊，請參閱 [商務用 Skype Online 服務說明](https://technet.microsoft.com/library/jj822172.aspx)。 
+如需詳細資訊，請參閱 [商務用 Skype Online 服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。 
 
 |功能/功能 | 商務用 Skype 2016 用戶端 | Mac 版商務用 Skype | 商務用 Skype Web App | 商務用 Skype 2015 用戶端 | Lync 2013 用戶端 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
@@ -159,7 +159,7 @@ ms.locfileid: "49808713"
 此表格涵蓋語音服務支援相關的功能。
 
 > [!NOTE]
-> 商務用 skype 語音 (電話語音) 功能限制在特定商務用 Skype Online 訂閱者案中。 如需詳細資訊，請參閱 [商務用 Skype Online 服務說明](https://technet.microsoft.com/library/jj822172.aspx)。 
+> 商務用 skype 語音 (電話語音) 功能限制在特定商務用 Skype Online 訂閱者案中。 如需詳細資訊，請參閱 [商務用 Skype Online 服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。 
 
  | 功能/功能 | 商務用 Skype 2015、2016或2019用戶端 | Mac 版商務用 Skype | Lync 2013 用戶端 |  
 |:-----|:-----|:-----|:-----| 

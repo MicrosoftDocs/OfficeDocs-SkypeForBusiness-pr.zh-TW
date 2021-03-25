@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 摘要：使用啟用商務用 Skype 伺服器的媒體旁路來設定主幹。 這可讓您將轉送伺服器的數目降至最低，presuming 您的 SIP 主幹提供者支援該伺服器。
-ms.openlocfilehash: 66cb30a3de3680f562596bbbaa5b04ce1d1fbe98
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 12f9abc49830e0af9c1934f4da56fe29be861114
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804063"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106389"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中設定含媒體旁路的主幹
 
@@ -34,7 +34,7 @@ ms.locfileid: "49804063"
 強烈建議您啟用媒體旁路。 不過，在 SIP 主幹上啟用媒體旁路之前，請先確認您合格的 SIP 主幹提供者支援媒體旁路，而且能夠滿足成功啟用此案例的需求。 具體而言，提供者必須具有組織內部網路中伺服器的 IP 位址。
 
 > [!NOTE]
-> 媒體旁路不會與每一部公用交換電話網路 (PSTN) 閘道、IP-PBX 和會話邊界控制器 (SBC) 互動。 Microsoft 已測試過一組 PSTN 閘道和認證合作夥伴的 SBCs。 只有產品和 [商務用 Skype Server 頁面的電話語音基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) 中所列的版本，才支援媒體旁路。
+> 媒體旁路不會與每一部公用交換電話網路 (PSTN) 閘道、IP-PBX 和會話邊界控制器 (SBC) 互動。 Microsoft 已測試過一組 PSTN 閘道和認證合作夥伴的 SBCs。 只有產品和 [商務用 Skype Server 頁面的電話語音基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md) 中所列的版本，才支援媒體旁路。
 
 如下所述的主幹設定群組一組套用至主幹指派此主幹設定的參數。 特定的主幹組態可涵蓋全域 (涵蓋至不具更明確網站或集區組態的所有主幹)，或涵蓋至網站或集區。 集區層級組態是用於將明確主幹組態涵蓋至單一主幹。
 
@@ -190,7 +190,6 @@ ms.locfileid: "49804063"
 
 [在商務用 Skype Server 中部署媒體旁路](deploy-media-bypass.md)
 
-[定義轉譯規則](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+[定義轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)
 
-[設定媒體旁路](https://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
-
+[設定媒體旁路](/previous-versions/office/lync-server-2013/lync-server-2013-configure-media-bypass)

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 摘要：在規劃商務用 Skype Server 中的監控服務時，複查這個主題。
-ms.openlocfilehash: b2f269d3e4cc62ca08ee423858e13d12b23bddd1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0fce6f3a47c7b1b76bfb12dcfca8b3bb222f8c80
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825623"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116041"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃監控
 
@@ -114,4 +114,4 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 ## <a name="see-also"></a>另請參閱
 
 
-[部署監控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[部署監控](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

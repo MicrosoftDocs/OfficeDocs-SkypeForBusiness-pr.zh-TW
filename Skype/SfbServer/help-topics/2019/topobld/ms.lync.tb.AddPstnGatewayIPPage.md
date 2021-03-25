@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: 透過選取 [啟用 IPv4] 或 [啟用 IPv6]，即可定義 IP 或公用交換電話網路 (PSTN) 閘道的 IPv4 或 IPv6 位址。 您可以選擇 [使用所有設定的 IP 位址] 或 [將服務使用方式限制為選取的 IP 位址]。
-ms.openlocfilehash: 850e5dcc0553047ea951a4b07b9cc3f86e4d67e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b21d2cb3d117c41654e1245bdfb80ad1ae93e8e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830043"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116421"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定義 IP 或 PSTN 閘道的 IP 位址
 
@@ -30,4 +30,4 @@ ms.locfileid: "49830043"
 
 ## <a name="see-also"></a>另請參閱
 
-[會議需求 Dial-In](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[會議需求 Dial-In](/previous-versions/office/lync-server-2013/lync-server-2013-dial-in-conferencing-requirements)

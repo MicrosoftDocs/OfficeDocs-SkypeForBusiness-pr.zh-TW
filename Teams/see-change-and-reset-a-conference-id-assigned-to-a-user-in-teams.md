@@ -20,82 +20,82 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 瞭解如何將會議 ID 指派給 Microsoft 團隊中的使用者，以及會議 Id 參數的用途。
-ms.openlocfilehash: 4f24fb85479e6a52c8b2658b7a8a41beb0e1c6ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 瞭解如何在 Microsoft Teams 中指派會議 ID 給使用者，以及會議 ID 參數應該是什麼。
+ms.openlocfilehash: b57a419266ceca09a73fc4bf75bb12153e41ea91
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691149"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117206"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中查看及重設指派給使用者的會議 ID
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中查看並重設指派給使用者的會議 ID
 
-當您在 Microsoft 365 或 Office 365 中設定音訊會議，且使用 Microsoft 作為音訊會議提供者時，會自動將會議 ID 指派給 Microsoft 團隊使用者。 在會議排程時，指派的會議 ID 會在會議邀請中傳送。 使用者排程的每個會議都會指派唯一的會議 ID。 
+在 Microsoft 365 或 Office 365 中設定音訊會議並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給 Microsoft Teams 使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得唯一的會議 ID。 
   
-雖然系統會自動建立會議 ID 並將其指派給使用者，但有時候使用者不想要使用此識別碼，而且您想要將它設定為特定的數位，或是您的使用者無法記住或遺失其會議 ID。 您可以使用 Microsoft 團隊系統管理中心或 Windows PowerShell 來查看、變更及重設其會議 ID。
+雖然會自動建立會議 ID 並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是使用者不記得或遺失其會議 ID。 您可以使用 Microsoft Teams 系統管理中心或 Windows PowerShell 來查看、變更及重設其會議 ID。
   
-系統會傳送電子郵件給使用者，並提供會議 ID 和預設的音訊會議電話號碼; 或者，如果您重設會議 ID，就會傳送不同的電子郵件，並包含會議 ID，但不包含 PIN。 如需如何重設會議召集人的 PIN 的詳細資訊，請參閱[重設為 Microsoft 團隊使用者的會議 ID](reset-a-conference-id-for-a-user-in-teams.md) 。 
+電子郵件會以會議 ID 和預設的音訊會議電話號碼寄給使用者，或者如果您重設會議 ID，將會送出包含會議 ID 但不包含 PIN 的不同電子郵件。 請參閱 [在 Microsoft Teams 中](reset-a-conference-id-for-a-user-in-teams.md) 重設使用者的會議 ID，以瞭解如何重設會議召集人的 PIN。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="view-and-reset-conference-ids"></a>查看及重設會議 Id
+## <a name="view-and-reset-conference-ids"></a>查看和重設會議 ID
 
 ### <a name="to-view-the-conference-id"></a>若要查看會議 ID
 
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
 
-2. 按一下頁面頂端的 [**編輯**]。
+2. 按一下頁面頂端的 [ **編輯>**。
 
-3. 在 [**音訊會議**] 下，查看 [**會議 ID**] 底下。
+3. 在 **音訊會議下**，查看會議 **ID** 下的 。
 
     > [!TIP]
-    > 您可以按一下 [透過**電子郵件傳送會議資訊**] 連結，在包含會議 ID 和音訊電話號碼的電子郵件中傳送所有會議資訊給使用者。
+    > 您可以按一下電子郵件中傳送會議資訊的連結，以包含會議 ID 和音訊電話號碼的電子郵件傳送所有會議 **資訊給使用者** 。
   
 **使用 Windows PowerShell**
 
-如需詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
     
   
 ### <a name="to-reset-the-conference-id"></a>若要重設會議 ID
 
-您可以重設使用者的會議 ID （例如忘記它）。
+例如，如果使用者忘記會議 ID，您可以重設會議 ID。
   
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
 
-2. 按一下頁面頂端的 [**編輯**]。
+2. 按一下頁面頂端的 [ **編輯>**。
 
-3. 在 [**音訊會議**] 底下，按一下 [**重設會議 ID**]。
+3. 在 **[音訊會議」** 下，按一下 **[重設會議 ID。**
 
-4. 在 [**重設會議 ID** ] 視窗中，按一下 [**重設**]。 系統會自動建立會議 ID，並以新的會議 ID 傳送給使用者的電子郵件。
+4. 在 [ **重設會議 ID>** 視窗中，按一下 [ **重設**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。
   
 **使用 Windows PowerShell**
 
-如需詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
 
 
-## <a name="what-else-should-you-know"></a>您還應該知道什麼？
+## <a name="what-else-should-you-know"></a>您還需要知道什麼？
 
    > [!IMPORTANT]
-   >  在建立新的會議 ID 或重新設定之後，舊的會議 ID 無法由呼叫者使用。 您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。 
+   >  建立新會議 ID 或重設會議 ID 後，來電者無法使用舊的會議 ID。 您應該通知使用者重新排期現有的會議邀請，以確保新會議 ID 已新加入邀請中。 
   
     
-- 會議 ID 必須符合在音訊會議橋設定的位數長度。 您不能在會議 Id 中使用字母或特殊字元;只有數位可以使用。
+- 會議 ID 必須符合音訊會議橋接器上設定的數位長度。 會議 ID 中無法使用字母或特殊字元;只能使用數位。
    
     
-## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要進一瞭解 Windows PowerShell 嗎？
 
-Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
     
-如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。
+有關 Windows PowerShell 的資訊，請參閱 [Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps) 以瞭解更多資訊。
     
 ## <a name="related-topics"></a>相關主題
 

@@ -1,5 +1,5 @@
 ---
-title: 中國的免付費撥號限制-南部
+title: 中國 -南部免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解如何在中國南部撥打免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
-ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 瞭解撥打中國南部免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140452"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116781"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中國-南部的免付費撥號限制（10 800 140 XXXX 範圍）
+# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中國 -南部地區免付費撥號限制 (10 800 140 XXXX) 
 
-[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
+[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
 
 |**詳細資料**|**描述**|
 |:-----|:-----|
-|免費通話嗎？  <br/> |是  <br/> |
-|撥號格式（s）  <br/> | 10 800 140 XXXX <br/> |
-|國家/地區 ISO 代碼  <br/> |CN  <br/> |
-|已覆蓋的島/地區  <br/> |僅限南部/中國電訊網路  <br/> |
-|未涵蓋的島/區域  <br/> |北中國  <br/> |
-|有線/固定線路可用性  <br/> |僅限中國電訊  <br/> |
-|行動網路可用性  <br/> |部分. 請參閱批註。  <br/> |
-|批註、限制及存取問題  <br/> |無法從 payphone 存取。  <br/> |
+|免付費通話是否可用？  <br/> |是  <br/> |
+|撥號格式 ()   <br/> | 10 800 140 XXXX <br/> |
+|國家/地區 ISO 代碼  <br/> |快遞 之 家  <br/> |
+|涵蓋的島嶼/地區  <br/> |僅中國南部 / 中國電信網路  <br/> |
+|未涵蓋的島嶼/地區  <br/> |華北地區  <br/> |
+|有線/固定線路可用性  <br/> |僅從中國電信  <br/> |
+|行動網路可用性  <br/> |部分。 查看批註。  <br/> |
+|批註、限制和存取問題  <br/> |無法從付費電話進行。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
   
- 

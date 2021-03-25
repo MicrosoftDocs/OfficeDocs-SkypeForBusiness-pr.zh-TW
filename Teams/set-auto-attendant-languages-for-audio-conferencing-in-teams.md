@@ -1,5 +1,5 @@
 ---
-title: 設定音訊會議自動語音應答語言
+title: 設定音訊會議自動語音處理語言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,55 +21,54 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 瞭解如何在 Microsoft 團隊中針對音訊會議號碼選取音訊會議自動語音應答語言。
-ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 瞭解如何在 Microsoft Teams 中為音訊會議號碼選取音訊會議自動語音處理語言。
+ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691129"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117181"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft 團隊中設定音訊會議的自動助理語言
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中設定音訊會議自動語音處理語言
 
-Microsoft 團隊的音訊會議自動語音應答可以在加入會議時，以多種不同語言向音訊來電者。
+Microsoft Teams 的音訊會議自動語音機可在音訊來電者加入會議時，以多種語言向來電者致意。
   
-選擇一種主要語言，以及最多四個次要語言。 您首先會使用您所設定的主要語言，並依您選取的順序，自動助理會使用次要語言。 
+選擇一種主要語言，最多四種次要語言。 您設定的主要語言會先使用，而次要語言會由自動翻譯使用，以便您選取。 
   
 > [!NOTE]
->  您只能變更專用類別之音訊會議號碼的語言。 無法變更共用音訊會議號碼的語言。
+>  您只可以變更專屬類別之音訊會議號碼的語言。 無法變更共用音訊會議號碼的語言。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>設定會議自動語音應答語言
+## <a name="set-the-conferencing-auto-attendant-languages"></a>設定會議自動語音服務語言
 
-![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，前往 [**會議**  >  **會議橋**]。
+1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。
 
-2. 從清單中選取**專用**的音訊會議電話號碼，然後按一下頁面頂端的 [**編輯**]。 只可以變更專用音訊會議號碼的語言。 [**編輯**] 選項只有在選取了專用的音訊會議號碼時才會顯示。
+2. 從 **清單中** 選取 [專用音訊會議電話號碼，然後按一下頁面頂端的 [ **編輯**> 。 只能變更專用音訊會議號碼的語言。 只有在 **已** 選取專用音訊會議號碼時，才能顯示編輯選項。
 
 3. 在右側窗格中，選擇您想要的預設語言及任何替代語言。 
  
     > [!NOTE]
-    > 列出支援的預設及替代語言。 您在清單中選取它們的順序就會是提供給呼叫者的語言順序。 
+    > 系統列出支援的預設和替代語言。 在清單中選取它們的順序，就是呈現給來電者的語言順序。 
 
-4. 按一下 [儲存]****。
+4. 按一下 [儲存]。
 
     
-## <a name="want-else-should-i-know"></a>還需要知道嗎？
+## <a name="want-else-should-i-know"></a>想要我應該知道嗎？
 
-- 若要查看音訊會議支援的語言清單，請參閱[音訊會議支援的語言](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages)。
+- 若要查看音訊會議支援的語言清單，請參閱 [音訊會議支援的語言](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages)。
     
-- 您可以將 [語言] 設定為 [專用]，而不是用於共用的電話號碼。
+- 語言可以設定為專用，但不能設定為共用電話號碼。
     
-- 若要查看在 Microsoft 365 或 Office 365 中使用 Microsoft 作為提供者的音訊會議的國家/地區清單，請參閱[音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
+- 若要查看在 Microsoft 365 或 Office 365 中提供使用 Microsoft 作為提供者的音訊會議可用的國家/地區清單，請參閱音訊會議 [的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell 嗎？
 
-如需詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
   
 ## <a name="related-topics"></a>相關主題
 
 [在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

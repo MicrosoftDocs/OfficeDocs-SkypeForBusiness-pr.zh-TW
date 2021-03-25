@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何以 Office 365 系統管理員身份在 Microsoft Teams 中開啟或關閉來賓存取功能。
-ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 34759e601f5c0cd232bcd6227ff5c7d1fef1d3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884517"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107399"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft Teams 的來賓存取
 
@@ -35,10 +35,10 @@ ms.locfileid: "50884517"
 
 > 在 **2021 年 2** 月之前，來賓存取預設為關閉。 在系統管理員或小組擁有者可以新增來賓之前，必須為 Teams 開啟來賓存取。 開啟來賓存取權後，變更可能需要幾個小時才能生效。 如果使用者在嘗試將來賓新到小組時看到訊息，請連上您的系統管理員，可能是來賓存取尚未開啟，或是設定尚未生效。
 
-> **2021** 年 2 月之後，對於尚未設定此設定的現有客戶&，Microsoft Teams 中的來賓存取預設會開啟。 執行此變更時，如果您尚未在 Microsoft Teams 中配置來賓存取功能，該功能就會在租使用者中啟用。 如果您希望貴組織的來賓存取保持停用狀態，您必須確認來賓存取設定已設定為 **關閉，而非****服務預設值**。
+> **在 2021** 年 2 月之後，對於尚未設定此設定的現有客戶&預設會開啟 Microsoft Teams 中的來賓存取。 執行此變更時，如果您尚未在 Microsoft Teams 中配置來賓存取功能，該功能就會在租使用者中啟用。 如果您希望貴組織的來賓存取保持停用狀態，您必須確認來賓存取設定已設定為 **關閉，而非****服務預設值**。
 
 > [!IMPORTANT]
-> 開啟來賓存取取決於 Azure Active Directory、Microsoft 365、SharePoint 和 Teams 的設定。 如需詳細資訊，請參閱 [在小組中與來賓共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
+> 開啟來賓存取取決於 Azure Active Directory、Microsoft 365、SharePoint 和 Teams 的設定。 如需詳細資訊，請參閱 [在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)。
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>在 Teams 系統管理中心設定來賓存取
 
@@ -80,8 +80,8 @@ ms.locfileid: "50884517"
 
 ## <a name="see-also"></a>另請參閱
 
-[使用 Microsoft 365 設定安全的共同作業](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[使用 Microsoft 365 設定安全的共同作業](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[封鎖特定小組的來賓使用者](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[封鎖特定小組的來賓使用者](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)

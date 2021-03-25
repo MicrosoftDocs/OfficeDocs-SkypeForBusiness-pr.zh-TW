@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861417"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116021"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice 的適用國家與地區
 
@@ -46,7 +46,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 
 如果您的租用戶位於不支援通話方案和快速入門精靈的國家或地區，請參閱[從 Microsoft 轉銷商或合作夥伴取得協助](reseller-partner-support.md)。
 
-若要查看含通話方案與不含通話方案的 Business Voice 包含哪些內容，請參閱 [Microsoft 365 Business Voice 服務描述](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)。
+若要查看含通話方案與不含通話方案的 Business Voice 包含哪些內容，請參閱 [Microsoft 365 Business Voice 服務描述](/office365/servicedescriptions/microsoft-365-business-voice-service-description)。
 
 
 | 國家或地區    | Business Voice<br> 含通話方案 | Business Voice<br> 不含通話方案<br>(直接路由) | 快速入門精靈 |

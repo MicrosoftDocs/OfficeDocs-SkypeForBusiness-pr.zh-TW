@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 電話系統-虛擬使用者授權
+title: Microsoft 365 Phone System – 虛擬使用者授權
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,59 +19,59 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 瞭解如何為貴組織中的資源帳戶指派免費的電話系統-虛擬使用者授權或付費電話系統使用者授權。
-ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+description: 瞭解如何為貴組織的資源帳戶指派免費的 Phone System–虛擬使用者授權或付費電話系統使用者授權。
+ms.openlocfilehash: 8e5322ccf7e3e7ad05c499b3dbcfdac65d0dfedb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868650"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116921"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話系統-虛擬使用者授權
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Phone System – 虛擬使用者授權
 
-擁有手機系統授權使用者的組織可以指派免費的 Microsoft 365 手機系統-虛擬使用者授權或付費電話系統使用者授權給資源帳戶。 不需要通話方案。 所有自動語音應答或通話佇列都需要相關聯的資源帳戶。 需要電話號碼的資源帳戶必須具備免費的 Microsoft 365 Phone 系統-虛擬使用者授權或付費電話系統使用者授權，才能將電話號碼套用至資源帳戶。
+擁有電話系統授權使用者的組織可以將免費的 Microsoft 365 電話系統 – 虛擬使用者授權或付費電話系統使用者授權指派給資源帳戶。 不需要通話方案。 所有自動電話機或通話佇列都需要相關聯的資源帳戶。 需要電話號碼的資源帳戶需要免費的 Microsoft 365 電話系統 - 虛擬使用者授權或付費的 Phone System 使用者授權，才能將電話號碼用於資源帳戶。
 
 > [!TIP]
-> 如果資源帳戶將用於未指派電話號碼的嵌套自動語音應答或通話佇列，就不需要授權。 如需參考，請參閱下列圖表： 
+> 資源帳戶不需要授權，而資源帳戶會與巢式自動總機或未指派電話號碼的通話佇列一起使用。 請參閱下列圖表以參考： 
 
 ![虛擬使用者授權](../media/resource-account.png)
 
-## <a name="virtual-user-license-allocation"></a>虛擬使用者授權分派
+## <a name="virtual-user-license-allocation"></a>虛擬使用者授權配置
 
-您的組織會根據其總體大小，為您的組織分派 Microsoft 365 電話系統-虛擬使用者授權。 已新增至少有一項授權（包括電話系統或已加入手機系統）的任何組織，都有25個可用的虛擬使用者授權（無成本）。 當您在貴組織中新增10個電話系統使用者授權時，將會有一個更多 Microsoft 365 Phone 系統-虛擬使用者授權可供使用。
-
-> [!NOTE]
-> [電話系統] 是 Microsoft 365 和 Office 365 E1 與 E3 提供的附加元件授權。 手機系統也包含在 Microsoft 365 E5、Office 365 E5 及 Microsoft 365 商務語音授權中。
-
-如果您的組織在建立自動語音應答或通話佇列節點時，使用免費的 Microsoft 365 Phone 系統（虛擬使用者授權），您仍然可以將付費電話系統授權用於資源帳戶。 大多陣列織會根據縮放方案，擁有足夠的虛擬使用者授權。 
-
-### <a name="license-allocation-example"></a>授權分派範例
-
-Contoso，Inc. 購買包含電話系統的600授權（每位員工一個）。 Contoso 已被分派初始25加 60 Microsoft 365 電話系統（虛擬使用者授權，共85個）。 其組織具有電話號碼的90通話佇列和自動語音應答。 他們需要指派所有 Microsoft 365 電話系統-虛擬使用者授權，並取得五個標準價格的電話系統授權。
-
-Contoso 應該考慮重新設計自動語音應答及呼叫佇列系統。 如果他們使用較少的電話號碼，以及不需要電話號碼的嵌套節點，他們就能簡化實施並減少成本。
-
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>如何購買 Microsoft 365 Phone 系統-虛擬使用者授權
-
-1. 登入 Microsoft 365 系統管理中心。
-2. 移至**帳單**  >  **購買服務**  >  **附加**元件
-3. 向下滾動至 [結束]，找到 [ **Microsoft 365 電話系統-虛擬使用者**授權]。 選取 [**立即購買**]。
+貴組織已根據整體大小配置 Microsoft 365 Phone System – 虛擬使用者授權。 任何擁有至少一個授權的組織 ，包括電話系統或已新增電話系統，都提供 25 個虛擬使用者授權，且無需付費。 當您在貴組織中新增 10 個 Phone System 使用者授權時，再新增一個 Microsoft 365 Phone System - 虛擬使用者授權即可供使用。
 
 > [!NOTE]
-> 請記住，即使是成本為零，您仍然必須**購買**授權。
+> Phone System 是 Microsoft 365 和 Office 365 E1 和 E3 提供的附加元件授權。 電話系統也包含在 Microsoft 365 E5、Office 365 E5 和 Microsoft 365 商務語音授權中。
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>變更現有的資源帳戶以使用 Microsoft 365 Phone System –虛擬使用者授權
+如果貴組織在建立自動電話機或通話佇列節點時，已使用可用的免費 Microsoft 365 電話系統 - 虛擬使用者授權，您仍可使用付費電話系統授權與資源帳戶。 根據縮放比例方案，大部分組織都會擁有足夠的虛擬使用者授權。 
 
-如果您決定要將資源帳戶的授權從電話系統授權切換至 Microsoft 365 電話系統-虛擬使用者授權：
+### <a name="license-allocation-example"></a>授權配置範例
 
-1. 取得新的 Microsoft 365 Phone 系統-虛擬使用者授權。
-2. 遵循 Microsoft 365 系統管理中心的連結步驟，[將使用者移至不同的訂閱](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
+Contoso， Inc. 已購買 600 個授權，每個員工 (一個包含電話系統) 。 Contoso 已分配初始 25 加 60 個 Microsoft 365 Phone System – 虛擬使用者授權，總計 85 個。 他們的組織有 90 個通話佇列和具有電話號碼的自動電話機。 他們需要指派所有 Microsoft 365 Phone System – 虛擬使用者授權，並取得五個固定價格的電話系統授權。
+
+Contoso 應考慮重新設計自動電話機和通話佇列系統。 如果他們使用的電話號碼較少，且巢中節點更多，而不需要電話號碼，則能簡化實現並降低成本。
+
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>如何購買 Microsoft 365 Phone System – 虛擬使用者授權
+
+1. 請登錄 Microsoft 365 系統管理中心。
+2. 前往 **帳單**  >  **購買服務**  >  **附加元件**
+3. 卷起到最後尋找 **Microsoft 365 Phone System – 虛擬使用者** 授權。 選取 **立即購買**。
+
+> [!NOTE]
+> 請記住，您仍必須  **購買授權** ，即使其成本為零。
+
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>變更現有的資源帳戶以使用 Microsoft 365 電話系統 – 虛擬使用者授權
+
+如果您決定將資源帳戶上的授權從電話系統授權切換到 Microsoft 365 電話系統 – 虛擬使用者授權：
+
+1. 取得新的 Microsoft 365 Phone System – 虛擬使用者授權。
+2. 請遵循 Microsoft 365 系統管理中心的連結步驟，將 [使用者移至不同的訂閱](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
-> 在相同的授權活動中，請務必移除完整的電話系統授權，並將 Microsoft 365 Phone System （虛擬使用者授權）指派給您。 如果您移除舊的授權，請儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法如期運作。 如果發生這種情況，我們建議您為 Microsoft 365 Phone System （虛擬使用者授權）建立新的資源帳戶，並移除中斷的資源帳戶。 
+> 永遠移除完整的電話系統授權，並在同一個授權活動中指派 Microsoft 365 Phone System – 虛擬使用者授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能不再如預期運作。 如果發生這種情況，我們建議您為 Microsoft 365 Phone System - 虛擬使用者授權建立新資源帳戶，並移除中斷的資源帳戶。 
 
 ## <a name="related-information"></a>相關資訊
 
-[自動語音應答和通話佇列服務更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+[自動電話機和通話佇列服務更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
 [在 Microsoft Teams 中管理資源帳戶](../manage-resource-accounts.md)

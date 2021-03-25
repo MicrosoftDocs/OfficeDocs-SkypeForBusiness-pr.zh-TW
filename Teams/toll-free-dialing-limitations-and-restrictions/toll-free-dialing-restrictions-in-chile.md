@@ -1,5 +1,5 @@
 ---
-title: 智利的免付費撥號限制
+title: 智利免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,34 +23,33 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解在智利中撥打免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
-ms.openlocfilehash: 00aec8e288ca1424eec9754e1f74f9cec9a5e579
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 瞭解在智利撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140472"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116801"
 ---
-# <a name="toll-free-dialing-restrictions-in-chile"></a>智利的免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-chile"></a>智利免付費撥號限制
 
-[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
+[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
 
 |**詳細資料**|**描述**|
 |:-----|:-----|
-|免費通話嗎？  <br/> |是  <br/> |
-|撥號格式（s）  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
-|國家/地區 ISO 代碼  <br/> |CL  <br/> |
-|已覆蓋的島/地區  <br/> |不適用  <br/> |
-|未涵蓋的島/區域  <br/> |沒有來自復活節群島的存取權。  <br/> |
-|有線/固定線路可用性  <br/> |部分. 請參閱批註。  <br/> |
-|行動網路可用性  <br/> |部分. 請參閱批註。  <br/> |
-|批註、限制及存取問題  <br/> |188 800 XXX XXX number 格式可從 Telefonica 網路存取。 123 XXXX XXXX number 格式只能從 Entel 網路存取。 您可以同時使用這兩種格式進行行動存取。  <br/> |
+|免付費通話是否可用？  <br/> |是  <br/> |
+|撥號格式 ()   <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
+|國家/地區 ISO 代碼  <br/> |Cl  <br/> |
+|涵蓋的島嶼/地區  <br/> |不適用  <br/> |
+|未涵蓋的島嶼/地區  <br/> |從東島無法存取。  <br/> |
+|有線/固定線路可用性  <br/> |部分。 查看批註。  <br/> |
+|行動網路可用性  <br/> |部分。 查看批註。  <br/> |
+|批註、限制和存取問題  <br/> |188 800 XXX XXX 號碼格式可從 Telefonica 網路進行。 123 XXXX XXXX 號碼格式只能從 Entel 網路進行。 這兩種數位格式都可以存取行動存取。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
   
- 

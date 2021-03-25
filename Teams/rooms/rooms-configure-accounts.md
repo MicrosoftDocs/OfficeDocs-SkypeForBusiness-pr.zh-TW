@@ -1,5 +1,5 @@
 ---
-title: 設定 Microsoft 團隊聊天室的帳戶
+title: 設定 Microsoft Teams 會議室的帳戶
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -14,75 +14,75 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: ''
-description: 請閱讀本主題，瞭解如何針對 Exchange 和商務用 Skype 中的 Microsoft 團隊聊天室設定帳戶。
-ms.openlocfilehash: e171ef22dd1733c06b03a4a9483f591d73d70cb9
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+description: 請閱讀本主題以瞭解在 Exchange 和商務用 Skype 中為 Microsoft Teams 會議室進行帳戶的組組。
+ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662518"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117471"
 ---
-# <a name="configure-accounts-for-microsoft-teams-rooms"></a>設定 Microsoft 團隊聊天室的帳戶
+# <a name="configure-accounts-for-microsoft-teams-rooms"></a>設定 Microsoft Teams 會議室的帳戶
  
-請閱讀本主題以瞭解 Microsoft 團隊聊天室，以及它如何與 Exchange 與商務用 Skype 整合。
+請閱讀本主題以瞭解 Microsoft Teams 會議室及其如何與 Exchange 和商務用 Skype 整合。
   
-本主題介紹如何在 Microsoft Exchange 和商務用 Skype 中建立 Microsoft 團隊聊天室所使用的帳戶。 Microsoft 團隊聊天室裝置的部署指示將在 [ [設定 Microsoft 團隊聊天室] 主控台](console.md)中講述。 您的基礎結構可能會分為下列其中一個設定：
+本主題將介紹如何在 Microsoft Exchange 和商務用 Skype 中建立 Microsoft Teams 會議室所使用的帳戶。 Microsoft Teams 會議室裝置部署指示涵蓋在設定 [Microsoft Teams 會議室主控台中](console.md)。 您的基礎結構可能會屬於下列其中一種配置：
   
-- 線上部署：貴組織的環境完全部署在 Microsoft 365 或 Office 365 上。 如需詳細資訊，請參閱 [使用 microsoft 365 或 Office 365 部署 Microsoft 團隊聊天室](with-office-365.md)。
+- 線上部署：貴組織的環境完全部署在 Microsoft 365 或 Office 365 上。 詳細資訊請參閱使用 [Microsoft 365 或 Office 365](with-office-365.md)部署 Microsoft Teams 會議室。
     
-- 內部部署：您的組織擁有它所控制的伺服器，其中包含 Active Directory、Exchange 及商務用 Skype Server 的主機。 如需詳細資訊，請參閱 [使用商務用 Skype Server 部署 Microsoft 團隊聊天室](with-skype-for-business-server-2015.md)
+- 內部部署：貴組織有它所控制的伺服器，其中 Active Directory、Exchange 和商務用 Skype Server 是託管伺服器。 詳細資訊，請參閱使用[商務用 Skype Server](with-skype-for-business-server-2015.md)部署 Microsoft Teams 會議室
     
-- 混合式部署：您的組織有混合式的服務，其中一些主機託管在內部部署，一些是透過 Microsoft 365 或 Office 365 進行託管。 使用 Microsoft 團隊聊天室時，支援下列混合式案例：
+- 混合式部署：貴組織有混合式服務，有些是內部部署，有些則透過 Microsoft 365 或 Office 365 在線上託管。 Microsoft Teams 會議室支援下列混合式案例：
     
-  - Exchange Online 與商務用 Skype Server 內部部署。 如需詳細資訊，請參閱 [使用 Exchange Online (混合式) 部署 Microsoft 團隊會議室 ](with-exchange-online.md)。
+  - 內部部署商務用 Skype Server 的 Exchange Online。 詳細資訊，請參閱使用[Exchange Online 部署 Microsoft Teams 會議室 (混合式) 。](with-exchange-online.md)
     
-  - 使用 Microsoft 團隊或商務用 Skype Online 在內部部署的 Exchange。 如需詳細資訊，請參閱 [使用 Exchange 內部部署的 Microsoft 團隊聊天室 (混合式) ](with-exchange-on-premises.md)。
+  - 使用 Microsoft Teams 或商務用 Skype Online 在內部部署中交換。 詳細資訊，請參閱在內部部署 Exchange 部署[Microsoft Teams 會議室 (混合式) 。](with-exchange-on-premises.md)
     
-您所擁有的設定會影響您準備裝置設定的方式。
+您擁有哪些設定將會影響您準備裝置設定時如何進行。
   
-Microsoft 團隊聊天室需要在 Active Directory、Exchange 和商務用 Skype 中指派「裝置帳戶」。 帳戶可用來存取其會議行事曆，並建立 Microsoft 團隊或商務用 Skype 連線。 使用者可以透過排程會議來預訂此帳戶。 Microsoft 團隊聊天室將能夠加入該會議，並為會議出席者提供各種功能。
+Microsoft Teams 會議室需要在 Active Directory、Exchange 和商務用 Skype 中指派「裝置帳戶」。 該帳戶可用來存取其會議日曆並建立 Microsoft Teams 或商務用 Skype 的連接。 人員可以預約此帳戶，並排程會議。 Microsoft Teams 會議室將能夠加入該會議，並提供各種功能給會議出席者。
   
 > [!IMPORTANT]
-> 若沒有裝置帳戶，這些功能都將無法運作。 
+> 沒有裝置帳戶，這些功能都不起作用。 
   
-每個裝置帳戶對於單一 Microsoft 團隊房間裝置而言都是唯一的，需要進行一些設定：
+每個裝置帳戶都是單一 Microsoft Teams 會議室裝置所特有的，而且需要一些設定：
   
-- 裝置帳戶必須設定正確。
+- 裝置帳戶必須正確配置。
     
-- 您的基礎結構必須設定為允許 Microsoft 團隊聊天室驗證裝置帳戶，然後才能到達適當的 Microsoft 服務。
+- 您的基礎結構必須配置為允許 Microsoft Teams 會議室驗證裝置帳戶，並取得適當的 Microsoft 服務。
     
 > [!IMPORTANT]
-> 強烈建議在實際的硬體安裝之前，建立帳戶，以進行良好的完成。 理想的情況是，帳戶準備必須在安裝前兩到三周內開始。 
+> 強烈建議在實際硬體安裝之前先完成帳戶建立。 在理想情況下，帳戶準備是在安裝前兩到三周開始。 
 
-在混合式環境中，Microsoft 團隊聊天室所用的帳戶必須在 Azure Active Directory 中啟用密碼同步處理 (AAD) 同步處理，因為 Microsoft 團隊聊天室驗證需要 Microsoft 365 或 Office 365 驗證。 設定帳戶時，請確定帳戶的 SIP 位址符合 AAD 中的使用者主體名稱 (UPN) 。 
+在混合式環境中，用於 Microsoft Teams 會議室的帳戶必須在 Azure Active Directory (AAD) 同步) 啟用密碼同步，因為 Microsoft Teams 會議室驗證需要 Microsoft 365 或 Office 365 驗證。 設定帳戶時，請確認帳戶的 SIP 位址與 AAD 中的使用者主體名稱 (UPN) 一起。 
   
-您可以將裝置帳戶看作是人們辨識為會議室或會議空間帳戶的資源帳戶。 當您想要使用該會議室排程會議時，您邀請該帳戶加入該會議。 若要最有效地使用 Microsoft 團隊聊天室，您可以對指派給它們的裝置帳戶執行相同的動作。
+您可以將裝置帳戶視為資源帳戶，而使用者可以將該帳戶視為會議室或會議空間的帳戶。 當您想要使用該會議室排程會議時，請邀請帳戶加入該會議。 若要最有效地使用 Microsoft Teams 會議室，請對指派給每個會議室的裝置帳戶執行相同的操作。
   
-如果您已為安裝 Microsoft 團隊聊天室的會議空間設定資源信箱帳戶，您可以將該資源帳戶變更為裝置帳戶。 完成後，您只需將裝置帳戶新增至 Microsoft 團隊聊天室裝置即可。 請參閱下列提供的裝置帳戶設定範例。
+如果您已經針對要安裝 Microsoft Teams 會議室的會議空間設定資源信箱帳戶，您可以將該資源帳戶變更為裝置帳戶。 完成後，您只需要將裝置帳戶新增到 Microsoft Teams 會議室裝置。 請參閱下方提供的裝置帳戶設定範例。
   
-有了其他設定，就可以使用 Microsoft Azure 監視器來 [規劃 microsoft 的小組會議室管理](azure-monitor-plan.md)、使用 azure 監視器來 [部署 microsoft](azure-monitor-deploy.md)團隊聊天室管理，以及 [使用 Azure 監視器管理 microsoft 團隊機房裝置](azure-monitor-manage.md)。 
+使用其他組組時，您可以如規劃 Microsoft Teams 會議室管理與 Azure 監視器、使用[Azure](azure-monitor-deploy.md)監視器部署 Microsoft Teams 會議室管理，以及使用 Azure 監視器管理 Microsoft [Teams](azure-monitor-plan.md)會議室裝置中所述，使用 Microsoft Azure 監視器進行遠端[管理](azure-monitor-manage.md)。 
   
-## <a name="basic-configuration"></a>基本設定
+## <a name="basic-configuration"></a>基本組組
 
-這些屬性代表與 Microsoft 團隊聊天室搭配使用之裝置帳戶的最小設定。 您的裝置帳戶可能需要進一步設定。
+這些屬性代表裝置帳戶使用 Microsoft Teams 會議室的最低組組。 您的裝置帳戶可能需要進一步設定。
   
-|**屬性**|**特殊**|
+|**屬性**|**目的**|
 |:-----|:-----|
-|Exchange 信箱 (Exchange 2013 SP1 或更新版本，或是 Exchange Online)   <br/> |啟用具有 Exchange 信箱的帳戶可讓裝置帳戶能夠接收並傳送郵件和會議邀請，以及在 Microsoft 團隊聊天室裝置上顯示會議行事曆。 Microsoft 團隊聊天室信箱必須是會議室信箱。  <br/> |
-|已啟用商務用 Skype  <br/> |必須啟用商務用 Skype，才能使用各種會議功能，例如，影片通話、IM 和螢幕畫面分享。 支援商務用 Skype Online 與商務用 Skype 伺服器。  <br/> |
-|已啟用密碼  <br/> |裝置帳戶必須以密碼啟用，否則無法使用 Exchange 或商務用 Skype 伺服器進行驗證。  <br/> |
+|Exchange 信箱 (Exchange 2013 SP1 或更高版本，或 Exchange Online)   <br/> |使用 Exchange 信箱啟用帳戶，讓裝置帳戶能夠接收及傳送郵件和會議要求，以及顯示 Microsoft Teams 會議室裝置上的會議日曆。 Microsoft Teams 會議室信箱必須是會議室信箱。  <br/> |
+|已啟用商務用 Skype  <br/> |商務用 Skype 必須啟用，才能使用各種會議功能，例如視像通話、IM 和螢幕分享。 同時支援商務用 Skype Online 和商務用 Skype Server。  <br/> |
+|啟用密碼  <br/> |裝置帳戶必須使用密碼啟用，或無法使用 Exchange 或商務用 Skype Server 進行驗證。  <br/> |
    
-## <a name="advanced-configuration"></a>[高級設定]
+## <a name="advanced-configuration"></a>進位組
 
-雖然基本設定的屬性可以讓裝置帳戶在簡單的環境中設定，但您的環境可能對目錄帳戶有其他限制，而您必須滿足這些帳戶，Microsoft 團隊聊天室才能成功使用裝置帳戶。
+雖然基本設定的屬性會允許在簡單的環境中設定裝置帳戶，但您的環境可能對於目錄帳戶有其他限制，Microsoft Teams 會議室才能順利使用裝置帳戶。
   
-|**屬性**|**特殊**|
+|**屬性**|**目的**|
 |:-----|:-----|
-|以憑證為基礎的驗證  <br/> |Exchange 和商務用 Skype Server 都可能需要證書。 若要部署憑證，您可以在以系統管理員身分登入時載入證書。  <br/> |
+|憑證式驗證  <br/> |Exchange 和商務用 Skype Server 可能需要憑證。 若要部署憑證，您可以在以系統管理員登入時載入憑證。  <br/> |
    
-設定裝置帳戶最簡單的方法，就是使用遠端 Windows PowerShell 加以設定。 Microsoft 提供 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、可協助您建立新裝置帳戶的腳本，或驗證現有的資源帳戶，以協助您將它們轉換成相容的 Microsoft 團隊聊天室裝置帳戶。
+設定裝置帳戶最簡單的方法是使用遠端 Windows PowerShell 來設定它們。 Microsoft 提供 [SkypeRoomProvisioningScript.ps1， ](https://go.microsoft.com/fwlink/?linkid=870105)此腳本可協助建立新裝置帳戶，或驗證您現有的資源帳戶，以便協助您將這些帳戶轉換為相容的 Microsoft Teams 會議室裝置帳戶。
   
-如果您想要在 Windows PowerShell Cmdlet 上使用 Microsoft 365 或 Office 365 UI，一些步驟可以手動執行。 請參閱 [使用 Microsoft 365 或 Office 365 建立裝置帳戶](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
+如果您想要使用 Microsoft 365 或 Office 365 UI，而不想使用 Windows PowerShell Cmdlet，可以手動執行一些步驟。 請參閱 [使用 Microsoft 365 或 Office 365 建立裝置帳戶](/surface-hub/create-a-device-account-using-office-365)。
   
 ## <a name="see-also"></a>另請參閱
 
@@ -91,4 +91,3 @@ Microsoft 團隊聊天室需要在 Active Directory、Exchange 和商務用 Skyp
 [設定 Microsoft Teams 會議室主控台](console.md)
   
 [管理 Microsoft Teams 會議室](rooms-manage.md)
-

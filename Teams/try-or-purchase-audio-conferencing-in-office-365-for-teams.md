@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '瞭解如何嘗試或購買音訊會議 (PSTN 會議) Microsoft 365 或 Office 365 授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: f93ce6306dfa4ab7b5eb198363a698a352763d93
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867022"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116531"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 Microsoft 365 for Microsoft Teams 中試用或購買音訊會議
 
@@ -51,11 +51,11 @@ ms.locfileid: "50867022"
 
    - **在購買** 前先試用：您可以註冊包含音訊會議的 Office 365 企業版 E5 免費試用版。 請參閱 [Office 365 企業版 E5 試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **購買：** 請參閱 [Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+   - **購買：** 請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-3. [指派授權給](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 組織中要排程或主導會議的使用者。
+3. [指派授權給](/microsoft-365/admin/manage/assign-licenses-to-users) 貴組織中要排程或主導會議的使用者。
 
-4. 如果您購買音訊會議附加元件授權及通訊信用額度授權，請同時指派這些授權。 有關指示，請參閱 [指派 Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+4. 如果您購買音訊會議附加元件授權及通訊信用額度授權，也請指派這些授權。 有關指示，請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>購買並指派每分鐘付費音訊會議授權
 
@@ -68,18 +68,18 @@ ms.locfileid: "50867022"
 3. [為貴組織設定組織的](set-up-communications-credits-for-your-organization.md) 通訊信用額度。 若要設定通訊信用額度，請參閱 [什麼是通訊信用額度？](what-are-communications-credits.md)
 
     > [!IMPORTANT]
-    > 如果尚未設定通訊信用額度，音訊會議將無法適用于任何擁有每分鐘付費授權的使用者。
+    > 如果尚未設定通訊信用額度，音訊會議將無法適用于擁有每分鐘付費授權的任何使用者。
 
-4. [指派授權給](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 組織中要排程或主導會議的使用者。
+4. [指派授權給](/microsoft-365/admin/manage/assign-licenses-to-users) 貴組織中要排程或主導會議的使用者。
 
     > [!NOTE]
     > 如果您有音訊會議按分鐘付費授權，您也必須個別指派通訊信用額度授權給每個使用者。
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟 2：設定引導或排程會議之人員的音訊會議提供者
 
-當您將音訊會議授權指派給貴組織中未將商務用 Skype 與協力廠商音訊會議提供者整合的人員時，這些人員已設定好並準備就緒！  (您不需要設定其音訊會議提供者。) 
+當您將音訊會議授權指派給貴組織中未將商務用 Skype 與協力廠商音訊會議提供者整合的人員時，這些人員已全部設定好並準備就緒！  (您不需要設定其音訊會議提供者。) 
 
-如果您使用協力廠商音訊會議提供者啟用使用者，您必須將這些使用者的提供者變更為 Microsoft。 若要變更使用者的提供者，請參閱指派 [Microsoft 做為音訊會議提供者](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+如果您使用協力廠商音訊會議提供者啟用使用者，您必須將這些使用者的提供者變更為 Microsoft。 若要變更使用者的提供者，請參閱指派 [Microsoft 做為音訊會議提供者](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="step-3-other-admin-tasks"></a>步驟 3：其他系統管理員工作
 

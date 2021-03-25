@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊的板載支援
+title: Microsoft Teams 的板載支援
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 使用線上訓練資源，讓支援人員在團隊採納的實驗階段提供板載支援。
+description: 使用線上訓練資源，讓支援人員加入 Teams 採用實驗階段。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,20 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d61c407e8f969084c1f3775ddd9ede9070a61dc1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d19033ac0feb9e88b3564e725574a14a1564022
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806133"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116883"
 ---
-# <a name="onboard-support-for-microsoft-teams"></a>Microsoft 團隊的板載支援
+# <a name="onboard-support-for-microsoft-teams"></a>Microsoft Teams 的板載支援
 
-若要確保早期的使用方式和擁護者團隊在開始使用團隊時都能提供適當的支援，請與您的支援人員見面，並審查團隊的功能。 支援組織的主要成員可能想要加入您的前期程式。 鼓勵他們在自己的案例中使用團隊。 使用我們的線上訓練資源，透過產品的基本加入進行。  
+若要確保早期採用者與領獎團隊在使用 Teams 時獲得適當的支援，請與支援人員開會，並審查 Teams 的功能。 支援組織的重要成員可能會想要加入您的早期採用者計畫。 鼓勵他們在他們自己的案例使用 Teams。 使用我們的線上訓練資源，讓他們完成產品的基本上線。  
 
-- [Microsoft 團隊基礎-核心元件](https://youtu.be/V6B4KraD-FM)
-- [疑難排解小組](https://youtu.be/0KNh9KNpXcA)
-- [已知問題與疑難排解](https://aka.ms/TeamsKnownIssues)
-- [Microsoft Teams 訓練](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
+- [基礎 - Microsoft Teams 的核心元件](https://youtu.be/V6B4KraD-FM)
+- [Teams 疑難排解](https://youtu.be/0KNh9KNpXcA)
+- [已知問題和疑難排解](/MicrosoftTeams/troubleshoot/teams-welcome)
+- [Microsoft Teams 訓練](./training-microsoft-teams-landing-page.md)
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [ [Microsoft 團隊採納階段3：縮放](teams-adoption-phase3-enable.md)]。
+![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示 [：Microsoft Teams 採用階段 3：縮放](teams-adoption-phase3-enable.md)。

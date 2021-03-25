@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: ca0c5e3f9b4a574d6beb21b22fc7d6f73038b476
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c789a1e745b1f00c4d6757cc30415e4107c67486
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818823"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116381"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>主幹組態：建立新的或編輯現有組態
 
@@ -32,7 +32,6 @@ ms.locfileid: "49818823"
 
 - [在商務用 Skype Server 2015 中建立或修改呼叫識別碼簡報的轉譯規則](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [手動建立或修改轉譯規則](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [手動建立或修改轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
 
 如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
-

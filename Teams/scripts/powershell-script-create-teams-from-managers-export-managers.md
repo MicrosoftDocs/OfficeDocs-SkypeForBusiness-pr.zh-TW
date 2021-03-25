@@ -1,5 +1,5 @@
 ---
-title: PowerShell 腳本範例匯出管理員及其指引
+title: PowerShell 腳本範例 - 匯出管理員及其指示
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 您可以使用此 PowerShell 腳本，匯出貴組織的管理員及其指導者清單，以準備為每位經理建立小組，並將其指引為小組成員。
+description: 使用此 PowerShell 腳本來匯出貴組織的主管及其主管清單，以準備為每位主管建立一個團隊，並且將主管的直接人員當做小組成員。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583120"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117311"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 腳本範例匯出管理員及其指引
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 腳本範例 - 匯出管理員及其指示
 
-您可以使用此 PowerShell 腳本，匯出貴組織的管理員及其指導者清單，以準備為每位經理建立人員主管小組，並將其指引為小組成員。
+使用此 PowerShell 腳本來匯出貴組織的主管及其主管清單，以準備為每位主管建立一個主管團隊，並且將主管的直接人員當做小組成員。
 
-若要瞭解此 PowerShell 腳本，請閱讀[建立人員管理員小組](../create-manager-directs-teams.md)。
+若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。
 
-如果您是 PowerShell 新手，且需要開始協助，請參閱[Azure PowerShell 的概覽](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。
+如果您剛開始使用 PowerShell，需要協助開始使用，請參閱 Azure [PowerShell 概觀](/powershell/azure/overview?view=azurermps-5.1.1)。
 
 
-## <a name="export-managers-script"></a>Export-主管腳本
+## <a name="export-managers-script"></a>Export-Managers腳本
 
 ```powershell
 <# 
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-

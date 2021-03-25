@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以透過設定下列項目，來定義 IP 或公用交換電話網路 (PSTN) 的根主幹：
-ms.openlocfilehash: dae2078aea093f14e4cfd2642a98e73ec7eb4293
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 183787e78fee0fa827bd3cc554fb7d43188014d2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807653"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116411"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定義新的 IP 或 PSTN 閘道的根主幹
 
@@ -42,4 +42,4 @@ ms.locfileid: "49807653"
 
 [在商務用 Skype Server 中設定無媒體旁路的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[SIP 主幹支援](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[SIP 主幹支援](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

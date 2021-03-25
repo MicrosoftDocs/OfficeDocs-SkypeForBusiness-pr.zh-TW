@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如 DNS 原則案例指南。 您可以選擇協力廠商的解決方案（如果您願意）。
-ms.openlocfilehash: dc60bab84220cad306deee408a6a09fc16df5a10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2e8655cb53228fbfe23bc62aaebbdfd5a02ce4f4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825583"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116031"
 ---
 # <a name="dns-basics"></a>DNS 基本知識
  
-Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如 [DNS 原則案例指南](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide)。 您可以選擇協力廠商的解決方案（如果您願意）。
+Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如 [DNS 原則案例指南](/windows-server/networking/dns/deploy/dns-policy-scenario-guide)。 您可以選擇協力廠商的解決方案（如果您願意）。
   
 建議的最佳作法是，在您的實施中指定特定的伺服器，以提供 DNS。 您可以在其中一個專用於商務用 Skype server 角色的伺服器上進行設定，但是如果該伺服器也是集區的一部分，而在意外的商務用 Skype 中取得解除授權，直到重新建立 DNS 服務為止。
   
@@ -59,5 +59,3 @@ Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能�
 您可以使用 DNS 在設定成伺服器集區的數部伺服器間共用流量負載。 若要這麼做，您可以為集區的 FQDN 建立數個記錄，每個記錄指向集區中節點的 IP 位址。
   
 請參閱 [DNS 負載平衡](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSLB) 以取得額外的負載平衡討論。
-  
-

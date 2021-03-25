@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：流覽下列連結，以瞭解如何針對設定商務用 Skype Server 2019 功能、伺服器及拓撲，開發概念、邏輯和實體設計。
-ms.openlocfilehash: 9177a5108c3b3d8f3d80bf93144cff1d8522de2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 241d26b097976d1aac7d6f183c057b1f4b742809
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815343"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106619"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>規劃商務用 Skype Server 2019 部署
  
@@ -60,6 +60,6 @@ ms.locfileid: "49815343"
   
 |&nbsp;&nbsp;&nbsp;|內容|描述|
 |:--- |:--- |:--- |
-|![DMC 圖示](../media/paragraph_writing.png)| [適用于 IT 專業人員的商務用 Skype 伺服器](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |流覽 docs.microsoft.com 和資源中心以存取影片、社區網站、檔、下載等等。    |
-|![開發人員內容的圖示](../media/developer.png)|[Skype 開發人員平臺](https://go.microsoft.com/fwlink/?LinkId=619775)   | 尋找商務用 Skype 伺服器的開發人員資源，包括程式碼範例、訓練與 Sdk。    |
+|![DMC 圖示](../media/paragraph_writing.png)| [適用于 IT 專業人員的商務用 Skype 伺服器](../../Hub/index.yml)   |流覽 docs.microsoft.com 和資源中心以存取影片、社區網站、檔、下載等等。    |
+|![開發人員內容的圖示](../media/developer.png)|[Skype 開發人員平臺](/skype-sdk/skypedeveloperplatform)   | 尋找商務用 Skype 伺服器的開發人員資源，包括程式碼範例、訓練與 Sdk。    |
 |![新聞、博客等的圖示](../media/blog_site.png) | <UL><LI>[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 技術博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 小組博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |從建立和記錄商務用 Skype Server 的小組追蹤新聞。    |

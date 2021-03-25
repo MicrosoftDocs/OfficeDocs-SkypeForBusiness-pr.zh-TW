@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116941"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -31,7 +31,7 @@ ms.locfileid: "50875093"
 
 ## <a name="it-admin-guidance"></a>IT 系統管理員指導方針
 
-- 請確認所有人都能使用[包含 Teams 的付費訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)存取 Teams。 作為選擇，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
+- 請確認所有人都能使用[包含 Teams 的付費訂閱](/office365/servicedescriptions/teams-service-description)存取 Teams。 作為選擇，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
 
 -  如果您已擁有包含 Teams 的訂閱，請 **[為每個人開啟](user-access.md)**。
     
@@ -90,7 +90,7 @@ ms.locfileid: "50875093"
 
    - 2020 的 3 月 26 日部落格：[在 VPN 上執行：Microsoft 如何保持遠端工作力的聯繫](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - 如果您在中國，請參閱 [Microsoft 365 或 Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china) (部分機器翻譯)。
+   - 如果您在中國，請參閱 [Microsoft 365 或 Office 365 針對中國使用者的全域租用戶效能最佳化](/Office365/Enterprise/office-365-networking-china) (部分機器翻譯)。
 
    - 如果您需要有關通話或會議品質的疑難排解或問題修正之協助，則請遵循本文最下方的[已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。
 
@@ -102,9 +102,9 @@ ms.locfileid: "50875093"
 
    - [遠端工作，保持安全 - 適用於 CISO 指引](https://www.microsoft.com/security/blog/?p=90736)
 
-   - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   - [安全性團隊支援在家工作最常見的 12 項工作](/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [使用 VPN 分割通道將遠端使用者的 Microsoft 365 或 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [使用 VPN 分割通道將遠端使用者的 Microsoft 365 或 Office 365 連線能力最佳化](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - [安全性和 Teams](teams-security-guide.md) 進入 Teams 安全性的所有技術詳細資料，做為 Microsoft 365 企業級安全性最佳做法與程序的一部分。
 
@@ -119,7 +119,7 @@ ms.locfileid: "50875093"
 
    - 與想要深入了解的使用者分享[深入訓練影片](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)。
 
-   - 閱讀[如何推出 Teams](How-to-roll-out-teams.md)，以了解如何為使用與管理 Teams 做好準備。
+   - 閱讀[如何推出 Teams](./deploy-overview.md)，以了解如何為使用與管理 Teams 做好準備。
 
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：
@@ -146,7 +146,7 @@ ms.locfileid: "50875093"
 
 8. 使用 Teams 與員工保持連絡：
 
-   - [整個組織的 Teams](create-an-org-wide-team.md) 和[公司 Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 應用程式範本。
+   - [整個組織的 Teams](create-an-org-wide-team.md) 和[公司 Communicator](/microsoftteams/platform/samples/app-templates#company-communicator) 應用程式範本。
     
    - 傳送有關組織的在家工作以及健康和安全原則資訊。
     

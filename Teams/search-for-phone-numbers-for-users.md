@@ -20,65 +20,64 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 瞭解如何搜尋您可以指派給使用者的電話號碼、根據國家或地區和城市，以及指定您所需的號碼數量。
-ms.openlocfilehash: 14098f2fa769040bfe3224711f1927d84fb5a90d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 瞭解如何根據國家/地區及城市來搜尋可指派給使用者的電話號碼，並指定您需要的電話號碼數量。
+ms.openlocfilehash: 3b62812829f2c8742fb9910b1997b64101fe2ff8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838173"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117251"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>搜尋使用者的電話號碼
 
-當您將組織中的使用者設定為撥打及接聽電話時，您必須使用**Microsoft 團隊系統管理中心**，並首先取得可指派給使用者的電話號碼。 您指派給使用者的電話號碼將是您為組織所選的電話號碼，當您編輯使用者的屬性並按一下 [**指派**] 時，就會列在下拉式清單中。
+當您在組織中設定使用者撥打和接聽電話時，您必須使用 **Microsoft Teams** 系統管理中心，並先取得可指派給使用者的電話號碼。 您指派給使用者的電話號碼，就是您為貴組織選擇的電話號碼，當您編輯使用者屬性並按一下 [指派」 時，就會列在下拉式 **清單中。**
   
-在您可以將電話號碼指派給使用者之前，您必須使用 [**取得新號碼**] 頁面來搜尋您在區域中可供您使用的數位。 您可以依**國家或地區**、**編號類型**和**位置**進行搜尋，然後輸入使用者所需的電話號碼數量。 
+在您可以指派電話號碼給使用者之前，您必須使用取得新號碼頁面來搜尋區域中可用的號碼。 您可以 **根據國家/** 地區、號碼類型 **及位置** 進行搜尋，然後輸入使用者所需的電話號碼數目。 
   
-如果您需要取得電話號碼的協助，您可以參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)或[與商務用客戶支援部門-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+如果您需要取得電話號碼的一些協助，請參閱管理貴組織的電話號碼[](/microsoftteams/manage-phone-numbers-for-your-organization)或聯絡商務產品支援人員[- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="search-for-phone-numbers"></a>搜尋電話號碼
 
-**搜尋使用者的電話號碼**
+**為使用者搜尋電話號碼**
 
-![](media/teams-logo-30x30.png) **使用 Microsoft [團隊管理中心**] 顯示小組標誌的圖示
+![顯示 Teams 標誌 ](media/teams-logo-30x30.png) **的圖示使用 Microsoft Teams 系統管理中心**
   
-1. 移至**Microsoft 團隊系統管理中心**。
+1. 請前往 **Microsoft Teams 系統管理中心**。
 
-2. 在左導覽中，選取 [**語音** > **電話號碼** > ] 以**取得新號碼**。
+2. 在左側流覽中，選取 **語音**  >  **電話號碼**  >  **取得新號碼**。
   
     > [!IMPORTANT]
-    > 若要在 Microsoft 團隊系統管理中心的左側導覽中看到 [**語音**] 選項，您必須先購買至少一個**企業版 E5 授權**、一個**電話系統**附加元件授權或一個**音訊會議**附加元件授權。  
+    > 若要在 Microsoft  Teams 系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **企業版 E5** 授權、一個電話 **系統** 附加元件授權，或一個音訊會議附加元件授權。  
 
-3. 在 [**選取位置及數量**] 頁面上，從 [**國家或地區**] 下拉式清單中選取位置。
+3. 在選取 **位置和數量** 頁面上，從國家/地區下拉式清單中選取位置。
 
-4. 從 [**數位類型**] 下拉式清單中選取數位類型。
+4. 從數位類型下拉式 **清單中選取數位** 類型。
 
-5. 在 [**位置**] 方塊中，輸入使用者所在城市的名稱，然後從清單中選取該位置。 如果您想要的位置沒有出現在清單上，請按一下 [**新增位置**]。
+5. 在 **位置** 方塊中，輸入使用者所在的城市名稱，然後從清單中選取位置。 如果 **您想要的位置** 未出現在清單中，請按一下 [新增位置。
 
-6. 選取位置的區功能變數代碼。
+6. 選取位置的區碼。
 
-7. 在 [**數量**] 底下，輸入您想要的組織電話號碼數目，然後按一下 **[下一步]**。 您有10分鐘的時間來選取您的電話號碼。 如果您需要10分鐘以上的時間，這些數位將會傳回電話號碼的池中。
+7. 在 **[數量**」 下，輸入貴組織想要的電話號碼數目，然後按一下 [下 **一步**。 您還有 10 分鐘的時間來選取電話號碼。 如果您花的時間超過 10 分鐘，號碼會回到電話號碼的集中。
 
     > [!NOTE]
-    > 您可以在 [**數量**] 旁邊的清單中，查看您可供您使用的電話號碼數量（根據授權數量而定）。 
+    > 您可以看見可用電話號碼 (這是根據授權數量，) 數量 **旁邊列出**。 
   
-8. 在 [**取得號碼**] 頁面上，選取您想要的電話號碼，按一下 [**取得號碼**]，然後按 **[下一步]**。
+8. 在 [ **取得號碼>** 頁面上，選取您想要的電話號碼，按一下 [ **取得號碼**，然後按一下 [下 **一步**。
 
     > [!IMPORTANT]
-    > 您可以取得超過您授權的其他電話號碼。 若要判斷您可以取得多少電話號碼，請用您的授權數量，加上10% 的授權數量，然後再加上10。 例如，如果您有 100**國內通話方案**和/或**國際通話方案**授權，您可以保留120電話號碼，假設您還沒有取得這些100使用者的電話號碼。 如需更多詳細資料，請參閱[您可以取得多少電話號碼？](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > 您可以取得比您擁有授權更多的電話號碼。 若要決定您可以取得的電話號碼數目，請取得授權數目、新增 10% 的授權數量，然後新增 10 個。 例如，如果您有 100 個國內通話方案及/或國際通話方案授權，您可以保留 120 個電話號碼，假設您尚未為這 100 個使用者取得部分電話號碼。 有關詳細資料，請參閱您可以 [取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)
 
-9. 在**確認**頁面上，確認您的選擇，然後按一下 [**下單**]。
+9. 在 [**確認」** 頁面上，確認您的選擇，然後按一下 **[下單。**
 
-10. 當您回到 [**電話號碼**] 頁面時，請選取您要指派的電話號碼，然後按一下 [**編輯**] 將它指派給使用者。  
+10. 當您返回 [**電話號碼**> 頁面時，選取要指派的電話號碼或號碼，然後按一下 [編輯以指派給使用者。  
 
 ## <a name="related-topics"></a>相關主題
-[移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
+[移轉電話號碼的常見問題](./phone-number-calling-plans/port-order-overview.md)
 
-[通話方案所用的不同類型的電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[用於通話方案的各種電話號碼](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話條款及條件](./emergency-calling-terms-and-conditions.md)
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 摘要：瞭解如何使用商務用 Skype Server 管理命令介面，在商務用 Skype Server 中設定語音信箱轉義。
-ms.openlocfilehash: c6326360a0e49715feb7e9f9c3c123ec42b9c330
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106369"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>在商務用 Skype 中設定語音信箱轉義
 
@@ -50,5 +50,4 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>另請參閱
 
-[設定用於授權撥號功能和權限的語音原則和 PSTN 使用方式記錄](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
-
+[設定用於授權撥號功能和權限的語音原則和 PSTN 使用方式記錄](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges)

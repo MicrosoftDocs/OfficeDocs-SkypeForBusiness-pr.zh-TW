@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 在商務用 Skype Server 中部署 SEFAUtil 工具。
-ms.openlocfilehash: 20cda161c182c8dfb426f61b793366b7f60f37d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 013890e3b65dfd3a8360da859a1c9179fa9b5a13
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812383"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105799"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>在商務用 Skype 中部署 SEFAUtil 工具
  
@@ -35,7 +35,7 @@ ms.locfileid: "49812383"
 您可以在部署中的任何前端集區中執行 SEFAUtil 工具。 若要執行 SEFAUtil 工具，您必須在受信任的應用程式電腦上，從商務用 Skype 部署嚮導執行步驟1、2和3。 SEFAUtil 需要有本機設定存放區，以及憑證。
   
 > [!NOTE]
-> 如需有關執行 SEFAUtil 的詳細資訊，請參閱博客文章：「[如何取得 SEFAUtil 執行？](https://go.microsoft.com/fwlink/?LinkId=278940)」。 
+> 如需有關執行 SEFAUtil 的詳細資訊，請參閱博客文章：「[如何取得 SEFAUtil 執行？](/archive/blogs/jenstr/how-to-get-sefautil-running)」。 
   
 ### <a name="to-deploy-sefautil"></a>若要部署 SEFAUtil
 
@@ -81,5 +81,3 @@ ms.locfileid: "49812383"
    ```
 
 將會顯示使用者的「來電轉接」設定。
-    
-

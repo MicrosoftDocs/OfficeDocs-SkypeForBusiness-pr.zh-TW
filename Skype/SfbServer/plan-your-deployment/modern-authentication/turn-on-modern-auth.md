@@ -14,19 +14,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 本文概述的 Cmdlet 可讓系統管理員更深入地控制企業內部及外部使用的驗證方法。 管理員可以在內部或外部開啟或關閉驗證方法。
-ms.openlocfilehash: dca7dca332564442110c626a222f7ed5d138efaf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d7217167f7e72c4db0ec438fb20d746cd612cc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810023"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116051"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>規劃在內部和外部關閉舊版驗證方法。
 
 > [!NOTE]
 > 如果您即將閱讀本文，您應該已經知道支援的新式驗證拓撲、ADAL 和關於新式驗證設定，但是如果您不想這麼做，請參閱以下所需的文章： 
->  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
->  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](./topologies-supported.md)
+>  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](/skypeforbusiness/manage/authentication/use-adal)
   
 新式驗證不只是啟用更安全的驗證方法，例如 Two-Factor 驗證或以憑證為基礎的驗證，只要不需要使用者名稱或密碼，就能對您的使用者執行授權。 這十分實用。
 
@@ -102,8 +102,8 @@ __Type 5 Description：__ *對外*，您的現代 ADAL 用戶端將使用 MA，�
 
 ## <a name="links"></a>連結 
 - 如需詳細 PowerShell 資訊：
-    -  [CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
-    -  [CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/set-csauthconfig?view=skype-ps)
+    -  [CsAuthConfig](/powershell/module/skype/get-csauthconfig?view=skype-ps)
+    -  [CsAuthConfig](/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
 - 如需如何使用命令或執行安裝所需之 CU 的相關指導：
     - [Cmdlet 簡報](https://support.microsoft.com/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
@@ -111,4 +111,3 @@ __Type 5 Description：__ *對外*，您的現代 ADAL 用戶端將使用 MA，�
     - [2018 年7月日的商務用 Skype Server 2015，核心元件 CU](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534) 
 
 
- 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711640"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107299"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 ==========================
@@ -109,9 +109,9 @@ iOS 和 Android 版 Teams 提供 IT 系統管理員將帳戶設定推入 Microso
 
 當帳戶設定完成之後， Teams 會限制登入的能力，因此只有登入的裝置上允許的帳戶才能取得存取權。
 
-若要為受管理的 iOS/iPadOS 裝置建立應用程式設定原則，請參閱 [為受控 iOS/iPadOS 裝置新增應用程式設定原則](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)。
+若要為受管理的 iOS/iPadOS 裝置建立應用程式設定原則，請參閱 [為受控 iOS/iPadOS 裝置新增應用程式設定原則](/mem/intune/apps/app-configuration-policies-use-ios)。
 
-若要為受管理的 Android 裝置建立應用程式設定原則，請參閱[新增受管理的 Android 裝置應用程式設定原則](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)。
+若要為受管理的 Android 裝置建立應用程式設定原則，請參閱[新增受管理的 Android 裝置應用程式設定原則](/mem/intune/apps/app-configuration-policies-use-android)。
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>如何限制在桌面裝置上登入
 Windows 和 MacOS 上的 Teams 應用程式可支援限制登入組織的裝置原則。 這些原則可以透過一般的裝置管理解決方案 (例如 MDM (行動裝置管理) 或 GPO (群組原則物件)) 進行設定。 
@@ -150,7 +150,7 @@ Windows 和 MacOS 上的 Teams 應用程式可支援限制登入組織的裝置�
 
 ### <a name="global-sign-in-and-sign-out"></a>全域登入和登出
 
-Teams Android 應用程式現在支援全域登入和登出，為第一線員工提供輕鬆便利的登入和登出體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其班次期間將之作為自己的裝置。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還回裝置集區。 若要取得這項功能，裝置必須處於共用模式。 若要瞭解如何設定共用裝置，請參閱 [如何在 Android 上使用共用裝置模式](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
+Teams Android 應用程式現在支援全域登入和登出，為第一線員工提供輕鬆便利的登入和登出體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其班次期間將之作為自己的裝置。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還回裝置集區。 若要取得這項功能，裝置必須處於共用模式。 若要瞭解如何設定共用裝置，請參閱 [如何在 Android 上使用共用裝置模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
 登入體驗看起來類似我們的標準 Teams 登入體驗，而登出則看來像以下兩個圖片：
 
@@ -158,11 +158,11 @@ Teams Android 應用程式現在支援全域登入和登出，為第一線員工
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 位址範圍
 
-Teams 需要連線到網際網路。 若要瞭解客戶在 Office 365 方案、政府和其他雲端中使用 Teams 能夠連線的端點，請參閱 [Office 365 URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+Teams 需要連線到網際網路。 若要瞭解客戶在 Office 365 方案、政府和其他雲端中使用 Teams 能夠連線的端點，請參閱 [Office 365 URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!IMPORTANT]
 > Teams 目前要求所有使用者取得Google ssl.gstatic.com 服務的存取權 (TCP 通訊埠 443)，即使您未使用 Gstatic 也是一樣。 Teams 很快會移除此要求 (2020 年初)，我們到時候也會更新本文。
 
 ## <a name="related-topics"></a>相關主題
 
-[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)

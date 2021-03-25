@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 在商務用 Skype Server Enterprise Voice 中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
-ms.openlocfilehash: 3ebd5f2705547aa96a9ebfcc6857781ef25854b5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 678dcb25f5f802f101016a2a289015a60e48ba88
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831033"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105779"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在商務用 Skype 中設計及建立回應群組工作流程
 
@@ -65,7 +65,7 @@ ms.locfileid: "49831033"
 8. 若要允許同盟使用者撥打群組，請選取 **[針對同盟啟用]** 核取方塊。 您也必須具有適用于同盟設定之回應群組應用程式的外部存取原則。
 
     > [!NOTE]
-    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx)。 如需同盟設定的詳細資訊，請參閱 [Set-get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
+    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 如需同盟設定的詳細資訊，請參閱 [Set-get-csexternalaccesspolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
 
     > [!NOTE]
     > 在商務用 Skype Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。 這在混合式部署中，以及內部部署與商務用 Skype Online 部署的同盟情況皆為 true。
@@ -112,7 +112,7 @@ ms.locfileid: "49831033"
     - 若要使用聲波 (.wav) 或 Windows Media 音訊 (.wma) 檔案錄音做為歡迎訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的音訊檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
     > [!NOTE]
-    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 18. 在 **[步驟 4 指定您的上班時間]** 的 **[您的時區]** 中，按一下工作流程的時區。
 
@@ -148,7 +148,7 @@ ms.locfileid: "49831033"
     - 若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
       > [!NOTE]
-      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 23. 指定在播放訊息之後如何處理通話 (如果有設定訊息)：
 
@@ -175,7 +175,7 @@ ms.locfileid: "49831033"
     - 若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
       > [!NOTE]
-      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 26. 指定在播放訊息之後如何處理通話 (如果有設定訊息)：
 
@@ -196,7 +196,7 @@ ms.locfileid: "49831033"
     - 若要使用音訊檔案錄音做為等候音樂，請按一下 **[選取音樂檔案]**。如果您想要上傳新的音訊檔案，請按一下 **[音樂檔案]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
       > [!NOTE]
-      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 29. 按一下 **[部署]**。
 
@@ -219,7 +219,7 @@ ms.locfileid: "49831033"
    ```
 
      > [!NOTE]
-     > 若要使用音訊檔以進行提示，請使用 **Import-CsRgsAudioFile** Cmdlet。 如需詳細資訊，請參閱 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
+     > 若要使用音訊檔以進行提示，請使用 **Import-CsRgsAudioFile** Cmdlet。 如需詳細資訊，請參閱 [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
 
 4. 取得會定向來電之佇列或問題的身分識別。 在命令列中執行：
 
@@ -227,7 +227,7 @@ ms.locfileid: "49831033"
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    如需建立佇列的詳細資訊，請參閱 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)。
+    如需建立佇列的詳細資訊，請參閱 [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)。
 
 5. 定義當工作流程在上班時間開啟時所採取的預設動作，並將其儲存在變數中。 在命令列中執行：
 
@@ -246,7 +246,7 @@ ms.locfileid: "49831033"
 
 6. 若要定義上班時間和假日，您必須在建立或修改工作流程之前加以建立。 如需詳細資訊，請參閱 [ (Optional) 在商務用 skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md) 和 [ (選用) 在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md)。
 
-7. 如果您想要在上班時間或假期內收到來電的提示，請使用 **New-CsRgsPrompt** Cmdlet 來定義提示，然後使用 **New-CsRgsCallAction** 來定義要在提示之後採取的動作。 如需詳細資訊，請參閱 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) 和 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
+7. 如果您想要在上班時間或假期內收到來電的提示，請使用 **New-CsRgsPrompt** Cmdlet 來定義提示，然後使用 **New-CsRgsCallAction** 來定義要在提示之後採取的動作。 如需詳細資訊，請參閱 [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) 和 [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
 
 8. 取得 Lync Server 回應群組服務的服務名稱，並將其指派給變數。 在命令中執行：
 
@@ -270,7 +270,7 @@ ms.locfileid: "49831033"
      > 指派給工作流程管理員的所有使用者，都必須指派 CsResponseGroupManager 角色。
 
      > [!NOTE]
-     > 如需其他選擇性參數的詳細資訊，請參閱 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) 或 [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > 如需其他選擇性參數的詳細資訊，請參閱 [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) 或 [Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
 ## <a name="designing-an-interactive-workflow"></a>設計互動式工作流程
 
@@ -398,7 +398,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 8. 若要允許同盟使用者撥打群組，請選取 **[針對同盟啟用]** 核取方塊。 您也必須具有適用于同盟設定之回應群組應用程式的外部存取原則。
 
     > [!NOTE]
-    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx)。 如需同盟設定的詳細資訊，請參閱檔中 **的 get-csexternalaccesspolicy** 。
+    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 如需同盟設定的詳細資訊，請參閱檔中 **的 get-csexternalaccesspolicy** 。
 
     > [!NOTE]
     > 在商務用 Skype Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。 這在混合式部署中，以及內部部署與商務用 Skype Online 部署的同盟情況皆為 true。
@@ -442,7 +442,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
     - 若要使用 Wave 或 Windows Media 音訊檔案錄音做為歡迎訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的音訊檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
     > [!NOTE]
-    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 18. 在 **[步驟 4 指定您的上班時間]** 的 **[您的時區]** 方塊中，按一下工作流程的時區。
 
@@ -475,7 +475,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
     - 若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
     > [!NOTE]
-    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 23. 指定在播放訊息之後如何處理通話 (如果有設定訊息)：
 
@@ -502,7 +502,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
     - 若要使用音訊檔案錄音做為訊息，請按一下 **[選取錄音]**。如果您想要上傳新的音訊檔案，請按一下 **[一筆記錄]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
       > [!NOTE]
-      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的音訊檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 26. 指定在播放訊息之後如何處理通話 (如果有設定訊息)：
 
@@ -521,7 +521,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
     - 若要使用音訊檔案錄音做為等候音樂，請按一下 **[選取音樂檔案]**。如果您想要上傳新的音訊檔案，請按一下 **[音樂檔案]** 連結。在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取想要使用的檔案，然後按一下 **[開啟]**。按一下 **[上傳]** 載入音訊檔案。
 
     > [!NOTE]
-    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 28. 在 **[步驟 7 設定互動語音回應**] 的 **[使用者將聽到下列文字或錄製的訊息]** 標題下，依下列方式指定要詢問來電者的問題：
 
@@ -536,7 +536,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
     - 若要使用包含問題的預錄音訊檔案，請按一下 **[選取錄音]**，然後按一下 **[一筆記錄]** 連結以上傳檔案。 在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取音訊檔案，然後按一下 **[開啟]**。 按一下 **[上傳** ] 以載入檔案，然後選擇性地在文字方塊中輸入問題 (此動作可讓您將問題及來電者的回應，轉送到回應的代理人) 。
 
       > [!NOTE]
-      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 29. 在 **[回應 1]** 中，藉由下列動作指定問題的第一個可能答覆：
 
@@ -572,69 +572,69 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-4. 互動式工作流程需要兩個以上的佇列以及兩個以上的代理人群組。 首先，建立代理人群組。 運行：
+4. 互動式工作流程需要兩個以上的佇列以及兩個以上的代理人群組。 首先，建立代理人群組。 執行：
 
    ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
-5. 建立佇列。 運行：
+5. 建立佇列。 執行：
 
    ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
-6. 建立第一個回應群組提示。 運行：
+6. 建立第一個回應群組提示。 執行：
 
    ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
-7. 然後建立在提示後要執行的動作。 運行：
+7. 然後建立在提示後要執行的動作。 執行：
 
    ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
-8. 建立第一個回應群組答案。 運行：
+8. 建立第一個回應群組答案。 執行：
 
    ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
-9. 現在，建立第二個提示、通話動作和答案。 請先建立提示。 運行：
+9. 現在，建立第二個提示、通話動作和答案。 請先建立提示。 執行：
 
    ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
-10. 建立第二個通話動作。 運行：
+10. 建立第二個通話動作。 執行：
 
     ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
-11. 建立第二個回應群組答案。 運行：
+11. 建立第二個回應群組答案。 執行：
 
     ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
-12. 建立最高層級提示。 運行：
+12. 建立最高層級提示。 執行：
 
     ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
-13. 建立最上層問題。 運行：
+13. 建立最上層問題。 執行：
 
     ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
-14. 現在建立工作流程。 運行：
+14. 現在建立工作流程。 執行：
 
     ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
@@ -650,11 +650,10 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
 [ (選用) 在商務用 Skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md)
 
-[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 
-[Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+[Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
-
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)

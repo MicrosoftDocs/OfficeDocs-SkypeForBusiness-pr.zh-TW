@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊聊天室中的驗證
+title: Microsoft Teams 會議室中的驗證
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -13,101 +13,101 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-collaboration
-description: 瞭解如何設定 Microsoft 團隊聊天室的新式驗證
-ms.openlocfilehash: 41a65743e5da851dd8e0197e9382deaf696cd9ec
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+description: 瞭解如何為 Microsoft Teams 會議室設定新式驗證
+ms.openlocfilehash: 93577c74005c8ad266739da0991f31e384a57ba6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662578"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117481"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 團隊聊天室中的驗證
+# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 會議室中的驗證
 
-Microsoft 團隊會議室裝置的帳戶管理是在應用程式層級處理。 應用程式會連線至 Microsoft 團隊、商務用 Skype 和 Exchange，以取得房間帳戶的資源，以啟用通話和會議體驗。 裝置會保持不限帳戶，以允許永不使用的功能、呼叫案例 (針對使用通話方案) 設定的裝置，以及在這些裝置上執行的自訂鎖定機制。 這表示這些裝置的驗證與終端使用者裝置的使用方式不同。  
+Microsoft Teams 會議室裝置的帳戶管理是在應用程式層級處理。 應用程式會連接到 Microsoft Teams、商務用 Skype 和 Exchange，以取得會議室帳戶的資源，以啟用通話和會議體驗。 裝置會保持帳戶不可知，以允許一直使用功能、通話案例 (適用于使用通話方案) 的裝置，以及在這些裝置上執行的自訂鎖定機制。 這表示這些裝置驗證的方式與使用者裝置不同。  
 
-針對使用 microsoft 365 或 Office 365 的 Microsoft 團隊聊天室裝置的所有客戶，建議進行新式驗證。 如果您有 Exchange server 或商務用 Skype server 的內部部署，請將混合式 [新式驗證](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) 與 Azure Active Directory (azure AD) ，以啟用新式驗證。
+建議所有使用 Microsoft Teams 會議室裝置與 Microsoft 365 或 Office 365 的客戶使用新式驗證。 如果您有 Exchange 伺服器或商務用 Skype 伺服器內部部署，請設定[](/office365/enterprise/hybrid-modern-auth-overview)Azure Active Directory (Azure AD) 混合式新式驗證，以啟用新式驗證。
 
-Microsoft 團隊聊天室版本4.4.25.0 及更新版本支援新式驗證。
+Microsoft Teams 會議室版本 4.4.25.0 及更新版本支援新式驗證。
 
 ## <a name="modern-authentication"></a>新式驗證
 
-當您將新式驗證與 Microsoft 團隊聊天室應用程式搭配使用時，Active Directory 驗證庫 (ADAL) 是用來連線至 Microsoft 團隊、Exchange 和商務用 Skype。 Microsoft 團隊聊天室裝置是共用的裝置，會執行夜間重新開機，以確保順利運作，並取得重要的作業系統、驅動程式、固件或應用程式更新。 新式驗證機制在 OAuth 2.0 中使用 [資源擁有者密碼身分](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) 驗證授權類型（不需要任何使用者干預）。 這是與 Microsoft 團隊聊天室應用程式所使用之資源帳戶相比，新式驗證運作方式的主要差異之一。 因此，Microsoft 團隊機房資源帳戶不應設定為使用多重要素驗證 (MFA) 、智慧卡驗證或用戶端憑證驗證 (，這些都可供使用者) 使用。
+當您在 Microsoft Teams 會議室應用程式中使用新式驗證時，Active Directory 驗證文件庫 (ADAL) 會用來連接到 Microsoft Teams、Exchange 和商務用 Skype。 Microsoft Teams 會議室裝置是共用裝置，會執行夜間重新開機，以確保運作順暢，並取得重要的作業系統、驅動程式、固件或應用程式更新。 新式驗證機制使用 OAuth 2.0 中的資源擁有者 [密碼認證](/azure/active-directory/develop/v2-oauth-ropc) 授權授權類型，這不需要任何使用者介入。 這是新式驗證如何適用于使用者帳戶與 Microsoft Teams 會議室應用程式使用的資源帳戶之間的其中一個主要差異。 因此，Microsoft Teams 會議室資源帳戶不應被配置為使用多重要素驗證 (MFA) 、智慧卡驗證或用戶端憑證式驗證 (這些都適用于使用者) 。
 
-現代驗證在 Microsoft 團隊聊天室裝置和終端使用者裝置上的運作方式之間的其他主要差異是，您無法在 Azure Active Directory 和端點管理員中使用資源帳戶來套用裝置層級的條件式存取原則，因為使用此授與類型時不會傳遞裝置資訊。 相反地，您可以在 Microsoft 端點管理員中註冊裝置，並使用透過 [Intune 管理團隊會議室](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)中所提供的指導方針來套用合規性原則。
+新式驗證在 Microsoft Teams 會議室裝置和使用者裝置上運作方式的另一個關鍵差異是，使用此授權類型時，您不得使用資源帳戶在 Azure Active Directory 和端點管理員中將裝置層級的條件式存取原則當做裝置資訊傳遞。 您可以改為在 Microsoft 端點管理員中註冊裝置，然後使用使用 Intune 管理 Teams 會議室所提供的指引來 [適用合規性原則](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。
 
-## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>在 Microsoft 團隊聊天室裝置上啟用新式驗證
+## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>在 Microsoft Teams 會議室裝置上啟用新式驗證
 
-針對 Microsoft 團隊聊天室，若要在商務用 Skype 和 Exchange 中使用新式驗證，請在 Microsoft 團隊聊天室裝置上啟用新式驗證的用戶端設定。 您可以在 [裝置設定] 或 XML 設定檔中執行此動作。
+若要讓 Microsoft Teams 會議室在商務用 Skype 和 Exchange 中使用新式驗證，請啟用 Microsoft Teams 會議室裝置上新式驗證的用戶端設定。 您可以在裝置設定或 XML 設定檔中執行此操作。
 
 > [!NOTE]
-> 在您啟用新式驗證的用戶端設定之前，請確定您的環境已正確設定為使用新式驗證。
+> 啟用新式驗證的用戶端設定之前，請確定您的環境已正確設定為使用新式驗證。
 
 ### <a name="using-device-settings"></a>使用裝置設定
 
-1. 在 Microsoft 團隊聊天室裝置上，移至 [ **更多** (**...**) ]。
+1. 在 Microsoft 小組會議室裝置上，**前往其他 (** **...) 。**
     
-2. 選取 [ **設定**]，然後輸入裝置管理員的使用者名稱和密碼。
-3. 移至 [ **帳戶** ] 索引標籤，開啟 [ **新式驗證**]，然後選取 [ **儲存並** 結束]。
+2. 選取 **設定**，然後輸入裝置系統管理員使用者名稱和密碼。
+3. 請前往帳戶 **選項卡** ，開啟 **新式驗證**，然後選取儲存 **並離開**。
 
 ### <a name="using-the-xml-config-file"></a>使用 XML 設定檔
 
-在您的 SkypeSettings.xml 檔案中，將新式驗證 XML 元素設定為 **True**，如下所示。
+在 SkypeSettings.xml檔案中，將新式驗證 XML 元素設為 **True，** 如下所示。
 
 ```
 <ModernAuthEnabled>True</ModernAuthEnabled>
 ```
 
-若要套用設定，請參閱 [使用 XML 設定檔遠端系統管理 Microsoft 球隊聊天室主控台設定](xml-config-file.md)。
+若要適用設定，請參閱使用 XML 設定檔遠端系統管理 [Microsoft Teams 會議室主控台設定](xml-config-file.md)。
 
-## <a name="prepare-your-environment-for-modern-authentication"></a>針對新式驗證準備您的環境
+## <a name="prepare-your-environment-for-modern-authentication"></a>準備您的環境進行新式驗證
 
-開始之前，請確定您已瞭解搭配 Office 365 和 Azure AD 使用的身分識別模型。 您可以在 [Office 365 身分識別模型與 Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) ，以及 [Microsoft 365 或 Office 365 的混合式身分識別和目錄同步](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)處理中，找到更多相關資訊。
+開始之前，請務必瞭解要用於 Office 365 和 Azure AD 的身分識別模型。 您可以在 Office [365 身分](/Office365/Enterprise/about-office-365-identity) 識別模型和 Azure Active Directory 以及 Microsoft [365 或 Office 365](/Office365/Enterprise/plan-for-directory-synchronization)的混合身分識別與目錄同步處理找到詳細資訊。
 
 ### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>在 Microsoft 365 或 Office 365 中啟用新式驗證
 
-若要開啟 Exchange Online 的新式驗證，請參閱 [啟用 Exchange online 中的新式驗證](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)。 如果您使用商務用 Skype Online，您也應該確認已針對商務用 Skype Online 開啟新式驗證。 若要深入瞭解，請參閱 [商務用 Skype Online：針對新式驗證啟用您的租使用者](https://aka.ms/SkypeModernAuth)。
+若要開啟 Exchange Online 的新式驗證，請參閱在 Exchange Online 中 [啟用新式驗證](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)。 如果您使用商務用 Skype Online，您也應該確認商務用 Skype Online 已開啟新式驗證。 若要深入瞭解，請參閱 [商務用 Skype Online：啟用租使用者進行新式驗證](https://aka.ms/SkypeModernAuth)。
 
-建議您不要移除 Exchange Online 的基本驗證原則，或針對您的租使用者停用基本驗證原則，除非您已驗證 Microsoft 團隊會議室裝置能夠成功使用 Exchange Online、團隊和商務用 Skype Online 登入。
+我們建議您不要移除 Exchange Online 的基本驗證政策，或停用租使用者的基本驗證，直到您驗證 Microsoft Teams 會議室裝置可以順利使用 Exchange Online、Teams 和商務用 Skype Online 進行登錄。
 
-如需在 Exchange Online 中停用基本驗證的詳細資訊，請參閱 [停用 Exchange online 中的基本驗證](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)。
+若要進一步停用 Exchange Online 中的基本驗證，請參閱在 Exchange Online 中停用 [基本驗證](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)。
 
 ## <a name="hybrid-modern-authentication"></a>混合式新式驗證
 
-若要確保成功驗證您的內部部署 Exchange server 和/或商務用 Skype server，您必須確認與 Microsoft 團隊聊天室搭配使用的資源帳戶已設定為從 Azure AD 取得授權。 
+若要確保內部部署 Exchange 伺服器和/或商務用 Skype 伺服器的驗證成功，您必須確定 Microsoft Teams 會議室所使用的資源帳戶已配置為從 Azure AD 取得授權。 
 
-小組會議室驗證流程會根據您的驗證設定而有所不同。 針對使用受管理網域的客戶，小組聊天室會使用 Azure Active Directory 的 [OAuth 2.0 資源擁有者密碼認證](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) 。 不過，對於使用聯盟網域的客戶，會使用 [OAuth 2.0 SAML 載荷流程](https://docs.microsoft.com/azure/active-directory/develop/v2-saml-bearer-assertion) 。
+Teams 會議室驗證流程會根據您的驗證組式而不同。 對於使用受管理網域的客戶，Teams 會議室會使用 [OAuth 2.0 資源擁有者密碼認證](/azure/active-directory/develop/v2-oauth-ropc) 與 Azure Active Directory。 不過，對於使用聯盟網域的客戶，會使用 [OAuth 2.0 SAML Bearer 聲明流程](/azure/active-directory/develop/v2-saml-bearer-assertion) 。
 
 > [!NOTE]
-> 您的身分識別提供者可能需要特定的設定或設定，才能與 Azure Active Directory 或 Office 365 整合。 如果您需要協助您設定小組間的驗證，請聯絡您的身分識別提供者。
+> 您的身分識別提供者可能需要特定設定或設定，以與 Azure Active Directory 或 Office 365 整合。 如果您需要有關使用 Teams 會議室進行驗證的協助，請與您的身分識別提供者聯繫。
 
 
-### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Microsoft 團隊聊天室專用的先決條件
+### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Microsoft Teams 會議室特有的先決條件
 
-在混合式拓朴中啟用新式驗證的先決條件，涵蓋 [混合式新式驗證概述與使用內部部署商務用 Skype 和 Exchange 伺服器的先決條件](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)。 本文中所述的所有先決條件都是適用的。
+混合式拓撲中啟用新式驗證的先決條件會涵蓋混合式新式驗證概觀，以及使用內部部署商務用 Skype 和 Exchange 伺服器 [的先決條件](/office365/enterprise/hybrid-modern-auth-overview)。 本文討論的所有先決條件都適用。
 
-不過，因為 Microsoft 團隊聊天室會使用 [資源擁有者密碼](https://tools.ietf.org/html/rfc6749#section-1.3.3) 認證授權，以及適用于新式驗證的基礎 REST api，所以以下是針對 Microsoft 團隊聊天室所特有的重要差異。
+不過，由於 Microsoft Teams[](https://tools.ietf.org/html/rfc6749#section-1.3.3)會議室使用資源擁有者密碼認證授權和基礎 REST API 進行新式驗證，因此請注意，以下是 Microsoft Teams 會議室特有的重要差異。
 
-- 您必須有 Exchange Server 2016 CU8 或更新版本，或是 Exchange Server 2019 CU1 或更新版本。
-- 您必須擁有商務用 Skype Server 2015 CU5 或更新版本，或是商務用 Skype Server 2019 或更新版本。
-- 不論您有何種拓撲，都不支援 MFA。
-- Microsoft 團隊聊天室不支援 SIP 與 UPN 不相符。 您必須使用相同的 UPN 和 SIP 建立 Microsoft 球隊會議室帳戶，才能運作。
-- 如果您使用的是 Azure AD 支援的協力廠商驗證提供者，則它必須支援透過 WS-TRUST 進行的作用中驗證流程。
-- 請勿針對使用應用程式設定的資源帳戶使用裝置層級設定的條件式存取原則。 這樣做會導致登入失敗。 請改為在 Microsoft Intune 中註冊裝置，並使用在 [使用 Intune 管理團隊](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)會議室中發佈的指導方針來套用合規性原則。
+- 您必須擁有 Exchange Server 2016 CU8 或更新版，或 Exchange Server 2019 CU1 或更新版。
+- 您必須擁有商務用 Skype Server 2015 CU5 或更新版，或商務用 Skype Server 2019 或更新版。
+- 無論您擁有何種拓撲，都不支援 MFA。
+- Microsoft Teams 會議室不支援 SIP 和 UPN 不一樣。 您必須使用相同的 UPN 和 SIP 建立 Microsoft Teams 會議室帳戶，讓帳戶能夠使用。
+- 如果您使用 Azure AD 支援的協力廠商驗證提供者，它必須支援透過 WS-Trust 進行的活動驗證流程。
+- 請勿針對使用應用程式所配置的資源帳戶使用裝置層級的條件式存取策略。 這麼做會導致登錄失敗。 請改為在 Microsoft Intune 中註冊裝置，然後使用 Intune 管理 Teams 會議室中發佈的指引 [來適用合規性原則](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。
 
 ### <a name="configure-exchange-server"></a>設定 Exchange Server
 
-若要在 Exchange Server 中啟用混合式新式驗證，請參閱 [如何將 Exchange Server 內部部署設定為使用混合式新式驗證](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。
+若要在 Exchange Server 中啟用混合式新式驗證，請參閱如何將 Exchange Server 內部部署設定 [為使用混合式新式驗證](/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。
 
 ### <a name="configure-skype-for-business-server"></a>設定商務用 Skype Server
 
-若要在商務用 Skype Server 上啟用混合式新式驗證，請參閱 [如何將商務用 skype 內部部署設定為使用混合式新式驗證](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。
+若要使用商務用 Skype Server 啟用混合式新式驗證，請參閱如何將商務用 Skype 內部部署設定 [為使用混合式新式驗證](/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。
 
 ### <a name="remove-or-disable-skype-for-business-and-exchange"></a>移除或停用商務用 Skype 和 Exchange
 
-如果您的設定不允許混合式新式驗證，或者您需要移除或停用 Exchange 或商務用 Skype 的混合式新式驗證，請參閱 [移除或停用商務用 skype 和 Exchange 中的混合式新式驗證](https://docs.microsoft.com/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)。
+如果您的設定不允許混合式新式驗證，或您需要移除或停用 Exchange 或商務用 Skype 的混合式新式驗證，請參閱從商務用 Skype 和 Exchange 移除或停用混合式新式 [驗證](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)。
 
 ### <a name="azure-ad-conditional-access"></a>Azure AD 條件式存取
 
-您可以針對 IP/位置式存取，設定與 Microsoft 團隊聊天室搭配使用的資源帳戶。 若要深入瞭解，請參閱 [條件式存取：依位置封鎖存取](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)。
+您可以設定與 Microsoft Teams 會議室一起使用的資源帳戶，以取得 IP/位置式存取。 若要深入瞭解，請參閱條件 [式存取：根據位置封鎖存取](/azure/active-directory/conditional-access/howto-conditional-access-policy-location)。
 
-不支援其他條件式存取原則。 如需裝置合規性的詳細資訊，請參閱 [使用 Intune 管理團隊會議室](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。  
+不支援其他條件式存取策略。 有關裝置合規性詳細資訊，請參閱使用 [Intune 管理 Teams 會議室](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。
