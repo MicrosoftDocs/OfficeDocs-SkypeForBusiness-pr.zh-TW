@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有 Survivable Branch 裝置或 Survivable Branch 伺服器的設定，您會看到下列區段：
-ms.openlocfilehash: a191c89fc41bc5a4fc7f33c2e6802c87455259f5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: be0deea657fa33db300c7aa73c9e3f3304113f0f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811273"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118662"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 一般設定展開工具
 
@@ -74,6 +74,4 @@ Survivable Branch 裝置或 Survivable Branch 伺服器上無法使用 [ **組�
 如果您有多個閘道與中繼伺服器相關聯，則第一個關聯的閘道將是預設閘道。 如果您必須選擇另一個閘道作為預設閘道，請選取您要設為預設的閘道，然後按一下 [ **成為預設**]。
 
 
-如需定義及設定 Survivable Branch 裝置或 Survivable Branch Server 之設定的詳細資訊，請參閱 [Branch-Site 恢復性解決方案](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx)。
-
-
+如需定義及設定 Survivable Branch 裝置或 Survivable Branch Server 之設定的詳細資訊，請參閱 [Branch-Site 恢復性解決方案](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-solutions)。

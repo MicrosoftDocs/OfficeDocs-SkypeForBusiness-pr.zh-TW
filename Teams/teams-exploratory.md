@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 368c4dace7a7ba14cb13f3a027b9d04ee63dc17b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867042"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119202"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
-Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (Azure AD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版](iw-trial-teams.md)現在已由 Teams Exploratory 體驗取代。
+Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (Azure AD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版]()現在已由 Teams Exploratory 體驗取代。
 
 > [!NOTE]
 > 每個租用戶有 100 個 Microsoft Teams Exploratory 授權的限制。
@@ -151,7 +151,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 3. 指派新購買的授權。
 
-如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+如需詳細資訊，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
 > 如果 Teams Exploratory 授權結束，並且使用者沒有立即陞級至包含 Teams 的訂閱，那麼他們有 30 天的寬限期，然後其後 30 天過後資料將被删除。使用者仍然存在於 Azure Active Directory 中。一旦將新授權指派給使用者以再次啟用 Teams 功能，則如果在寬限期時間範圍內新增使用者，則所有內容仍將存在。
@@ -164,13 +164,13 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ### <a name="remove-a-teams-exploratory-license"></a>移除 Teams Exploratory 授權
 
-- 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果您想要透過系統管理入口網站移除此授權，請參閱：[從貴組織刪除使用者](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+- 如果您想要透過系統管理入口網站移除此授權，請參閱：[從貴組織刪除使用者](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="what-is-the-data-retention-policy"></a>什麼是資料保留原則
 
-請參閲 [Microsoft 365 訂閱資訊](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)。
+請參閲 [Microsoft 365 訂閱資訊](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)。
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 體驗持續時間
 
@@ -188,4 +188,3 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 > 在前一個 Exploratory 體驗授權到期後的 3 個月內客戶將被停用並封鎖開始新 Explaratory 授權。
 
 如需詳細資訊，請參閱本文上方的[從 Teams Exploratory 授權升級使用者](#upgrade-users-from-the-teams-exploratory-license)。
-

@@ -17,34 +17,34 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858628"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119232"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>指派 Microsoft Teams 教育版授權
 
 Microsoft Teams 是將交談、內容和應用程式集中在同一個位置的數位中心。 因為它是在 Office 365 的基礎上建立，學校可以與他們熟悉的 Office 應用程式和服務整合。 您的機構可以使用 Microsoft Teams 建立共同作業教室、在專業學習社群中交流，以及與學校教職員溝通，這些都來自 Office 365 教育版的單一體驗。
 
-若要開始使用，IT 系統管理員必須使用 Microsoft 365 系統管理中心[為您的學校啟用 Microsoft Teams](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。
+若要開始使用，IT 系統管理員必須使用 Microsoft 365 系統管理中心[為您的學校啟用 Microsoft Teams](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。
 完成之後，您必須將授權指派給使用者帳戶，您的教職員、員工和學生才能存取 Office 365 服務，例如 Microsoft Teams。
 
 您可以採用個別方式或透過群組成員資格，將授權指派給使用者帳戶。 本文將逐步引導您瞭解如何透過 Microsoft 365 系統管理中心，將 Office 365 授權指派給個別或一小部分的使用者帳戶。 若要透過群組成員資格自動指派授權，請參閱我們其中一篇支援文章：
 
-- [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Active Directory 中的群組型授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Active Directory 中的群組型授權](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
-您可以在 [授權]**** 頁面或 [作用中使用者]**** 頁面上將授權指派給使用者。 所使用的方法取決於您要指派產品授權給特定使用者，還是要將使用者授權指派給特定產品。
+您可以在 [授權] 頁面或 [作用中使用者] 頁面上將授權指派給使用者。 所使用的方法取決於您要指派產品授權給特定使用者，還是要將使用者授權指派給特定產品。
 
 > [!NOTE]
-> 如果您使用的不是新的 Microsoft 365 系統管理中心，您可以選取位於首頁頂端的 **[試用新的系統管理中心] **開關將它開啟。
+> 如果您使用的不是新的 Microsoft 365 系統管理中心，您可以選取位於首頁頂端的 **[試用新的系統管理中心]** 開關將它開啟。
 
 ## <a name="assign-licenses-to-users-on-the-licenses-page"></a>在 [授權] 頁面上指派授權給使用者
 
 > [!NOTE]
-> 您必須是全域系統管理員、計費系統管理員、授權系統管理員或使用者管理系統管理員。如需詳細資訊，請參閱[關於 Office 365 系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)。
+> 您必須是全域系統管理員、計費系統管理員、授權系統管理員或使用者管理系統管理員。如需詳細資訊，請參閱[關於 Office 365 系統管理員角色](/microsoft-365/admin/add-users/about-admin-roles)。
 
 使用 **[授權]** 頁面指派授權時，您可以指派特定產品的授權給最多 20 位使用者。 在 **[授權]** 頁面上，您會看到您訂閱的所有產品清單，以及每個產品的授權總數、已獲指派多少個授權，以及有多少個授權可供使用。
 

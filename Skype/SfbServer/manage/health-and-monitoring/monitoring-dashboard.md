@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 摘要：瞭解商務用 Skype Server 中的監控儀表板。
-ms.openlocfilehash: 98a96b8a513bad485a25aff76a69d787fb3079b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827783"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118602"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>在商務用 Skype Server 中使用監控儀表板
  
@@ -31,7 +31,7 @@ ms.locfileid: "49827783"
     
 - 每月的總數，以及過去六個月的趨勢總計 (僅限系統使用量) 。
     
-請注意，您可以使用 [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) Cmdlet 來傳回用來存取商務用 Skype Server Monitoring REPORTS 的 URL：
+請注意，您可以使用 [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) Cmdlet 來傳回用來存取商務用 Skype Server Monitoring REPORTS 的 URL：
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -196,5 +196,3 @@ Get-CsReportingConfiguration
 您也可以建立包含即時資料摘要的 Excel 試算表，其中包含最新監控儀表板資料的連結。 若要建立即時資料摘要檔案，請按一下工具列中的 [橙色 **匯出至資料** 摘要] 圖示。
   
 如果您想要列印目前的儀表板，請按一下工具列中的印表機圖示。
-  
-

@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。
-ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 7fdfdd5ac5a76ebbc3ac58e12a69e2e3af1330cd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359109"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109169"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改現有 Cloud Connector 部署的組態
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。 
   
@@ -184,11 +184,11 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. 執行下列命令，以取得稍後需要的密碼： 
     
-   - CcCredential-AccountType DomainAdmin-DisplayPassword
+   - Get-CcCredential AccountType DomainAdmin-DisplayPassword
     
-   - CcCredential-AccountType VMAdmin-DisplayPassword
+   - Get-CcCredential AccountType VMAdmin-DisplayPassword
     
-   - CcCredential-AccountType CceService-DisplayPassword
+   - Get-CcCredential AccountType CceService-DisplayPassword
     
 2. 變更您的帳戶在主伺服器上的密碼。
     
@@ -200,13 +200,13 @@ Set-CcCredential -AccountType TenantAdmin
     
 根據預設，VmAdmin 和 DomainAdmin 會使用與 CceService 相同的密碼。 如果步驟1中傳回的 DomainAdmin、VMAdmin 和 CceService 密碼不同，您必須執行下列步驟：
   
-1. 執行 Set-CcCredential-AccountType DomainAdmin，如下所示：
+1. 執行 Set-CcCredential AccountType DomainAdmin，如下所示：
     
 1. 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
 2. 當系統提示您輸入新的帳號憑證時，請輸入步驟1中所傳回之 DomainAdmin 密碼的密碼。
     
-2. 執行 Set-CcCredential-AccountType VmAdmin，如下所示：
+2. 執行 Set-CcCredential AccountType VmAdmin，如下所示：
     
 1. 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
@@ -244,31 +244,31 @@ Set-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType DomainAdmin -DisplayPassword
    ```
 
-2. 執行 CcUpdate 指令程式以耗盡裝置，並將其移入手動維護模式。
+2. 執行 Enter-CcUpdate Cmdlet 以耗盡裝置，並將其移入手動維護模式。
     
 3. 更新主伺服器上 CceService 帳戶的密碼。
     
 4. 重新開機主機伺服器。
     
-5. 執行 CcCredentials 指令程式，以在描述之後重新輸入密碼。 
+5. 執行 Restore-CcCredentials Cmdlet，以在描述之後重新輸入密碼。 
     
     請確定輸入的密碼與您在雲端連接器部署之前所輸入的密碼相同，但 CceService 帳戶除外。 若為 CceService 帳戶，請輸入新的密碼。 請確定 CceService 帳戶的新密碼對 PSTN 網站中的所有裝置都是相同的。
     
 6. 根據預設，VmAdmin 和 DomainAdmin 會使用與 CceService 相同的密碼。 如果步驟1中傳回的 DomainAdmin、VMAdmin 和 CceService 密碼不同，您必須執行下列步驟：
     
-7. 執行 Set-CcCredential-AccountType DomainAdmin，如下所示：
+7. 執行 Set-CcCredential AccountType DomainAdmin，如下所示：
     
    - 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
    - 當系統提示您輸入新的帳號憑證時，請輸入步驟1中所傳回之 DomainAdmin 密碼的密碼。
     
-8. 執行 Set-CcCredential-AccountType VmAdmin，如下所示：
+8. 執行 Set-CcCredential AccountType VmAdmin，如下所示：
     
    - 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
    - 當系統提示您輸入新的帳號憑證時，請輸入步驟1中所傳回之 VmAdmin 密碼的密碼。 
     
-9. 執行 CcUpdate Cmdlet，將裝置移出手動維護模式。
+9. 執行 Exit-CcUpdate Cmdlet，將裝置移出手動維護模式。
     
 10. 在相同 PSTN 網站中的所有裝置上完成這些步驟之後，請在網站根目錄中刪除下列檔案：
     
@@ -363,7 +363,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 當您需要取代雲端連接器裝置上的外部 Edge 憑證時，您必須取得新的 Edge 憑證，準備包含私密金鑰和完整憑證鏈的 PFX 檔案，然後在每個裝置上執行下列動作：
   
-1. 使用 Enter-CcUpdate 指令程式，讓裝置進入維護模式。
+1. 使用 Enter-CcUpdate Cmdlet，將裝置置於維護模式。
     
 2. 執行下列命令： 
     
@@ -373,8 +373,6 @@ Set-CcCredential -AccountType TenantAdmin
 
 3. 
     
-    如果新憑證的密碼與舊憑證相同，則匯入將會成功。 如果密碼不同，您會收到錯誤，指出密碼錯誤，您必須使用-Local 參數執行 CcAppliance Cmdlet 來重設密碼，然後重複步驟2。 
+    如果新憑證的密碼與舊憑證相同，則匯入將會成功。 如果密碼不同，您會收到錯誤訊息，指出密碼錯誤，您必須使用-Local 參數執行 Register-CcAppliance Cmdlet 來重設密碼，然後重複步驟2。 
     
 4. 使用 CcUpdate 指令程式，讓裝置停止維護模式。
-    
-

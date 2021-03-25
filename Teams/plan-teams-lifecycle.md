@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 44be1d139fe37a34cad620cb449ac8bfe10eb99b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 4b371d696008d7ef58ce7722e6a9f27e9c9bc970
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416920"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117801"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -63,7 +63,7 @@ _團隊_ 是促進共同作業的人員、內容和工具的集合。 團隊會�
 -   *來賓* 是組織外部的使用者。 如果您的組織已啟用[來賓存取](guest-access.md)，則擁有電子郵件地址的任何人都可以受邀成為來賓。
 
 > [!Note]
-> 若要深入了解團隊擁有者和團隊成員的能力，請參閱[在 Microsoft Teams 中指派角色和權限](assign-roles-permissions.md) (英文)。
+> 若要深入了解團隊擁有者和團隊成員的能力，請參閱[在 Microsoft Teams 中指派角色和權限](assign-roles-permissions.md)。
 
 Teams 系統管理員角色決定每個系統管理員角色持有者所擁有的能力。 下表將說明這些角色。
 
@@ -100,10 +100,10 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 <tr>
 </tbody>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell - 商務用 Skype 模組</a>或 <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams 模組</a>或 <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">僅 <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td>
+<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
+">PowerShell - 商務用 Skype 模組</a>或 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams 模組</a>或 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">僅 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td>
 </tr>
 </tfoot>
 </table>
@@ -121,7 +121,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 每個團隊都有開始，就是團隊建立和頻道設定的時候；中期時，團隊會被使用且共同作業會發生以符合工作流程的節奏；接著 (有時) 是結束，團隊會完成其目的並到達使用期限的終點。 
 
-如需詳細資訊，請參閱[在 Microsoft Teams 系統管理中心管理團隊](manage-teams-in-modern-portal.md) (英文)。
+如需詳細資訊，請參閱[在 Microsoft Teams 系統管理中心管理團隊](manage-teams-in-modern-portal.md)。
 
 ### <a name="stage-1-beginning"></a>階段 1：開始
 
@@ -145,10 +145,10 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 請利用下列連結取得更多有關組織團隊的詳細資訊：
 
--   [在 Teams 中組織團隊的最佳做法](best-practices-organizing.md) (英文)
--   [部署交談、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md) (英文)
--   [部署會議和研討會](deploy-meetings-microsoft-teams-landing-page.md) (英文)
--   [部署雲端語音](cloud-voice-landing-page.md) (英文)
+-   [在 Teams 中組織團隊的最佳做法](best-practices-organizing.md)
+-   [部署交談、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+-   [部署會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)
+-   [部署雲端語音](cloud-voice-landing-page.md)
 
 
 |    |     |
@@ -210,4 +210,4 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 ## <a name="related-topics"></a>相關主題
 
-[Teams 的控管快速入門](teams-adoption-governance-quick-start.md) (英文)
+[Teams 的控管快速入門](teams-adoption-governance-quick-start.md)

@@ -1,5 +1,5 @@
 ---
-title: 在巴巴多斯中的可用性
+title: 在巴布達斯的可用性
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（用於巴巴多斯）。
-ms.openlocfilehash: bce1458ce3506e5c09f466c48f4b1d88d2cadb45
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于巴布達的 Microsoft Teams。
+ms.openlocfilehash: f7c8d8527e4a604395a1ce432b7aecb91331cac7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821193"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118382"
 ---
-# <a name="availability-in-barbados"></a>在巴巴多斯中的可用性
+# <a name="availability-in-barbados"></a>在巴布達斯的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（用於巴巴多斯）。
+以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于巴布達的 Microsoft Teams。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是，僅限[每分鐘支付](../audio-conferencing-pay-per-minute.md)  <br/> |
+|音訊會議是否可供購買？  <br/> |是 [，僅按分鐘](../audio-conferencing-pay-per-minute.md) 付費  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> | 否 |
-|使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊點數 <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊信用額度 <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
@@ -64,15 +64,15 @@ ms.locfileid: "49821193"
 
 如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
+## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 不適用 <br/> |
 |有提供付費電話號碼嗎？  <br/> |否 <br/> |
-|免費提供免付費電話號碼嗎？ <br/> |是  <br/> |
+|是否提供免付費號碼？ <br/> |是  <br/> |
    
- 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在 [商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得商務用 Skype 和 [Microsoft Teams](../getting-service-phone-numbers.md)的服務電話號碼。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -84,7 +84,6 @@ ms.locfileid: "49821193"
   
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

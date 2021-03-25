@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 摘要：在規劃、實施或管理商務用 Skype Server 時，視需要複查這些海報。
-ms.openlocfilehash: f7adb80cd9d5ac7876b10d021c9b5c0f460dde17
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 816beb1ab2ca332b411bbbb9f5efdfac57bf7179
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827353"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109099"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>商務用 Skype 伺服器的技術圖表
 
@@ -41,7 +41,7 @@ ms.locfileid: "49827353"
 
 這些海報會詳細說明特定的技術區域，並將用於對應的文章或下載中心中提供的內容。
 
-如需使用 Microsoft 團隊的詳細資訊，請參閱 [Microsoft 團隊 IT 架構和電話語音解決方案海報](https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters)。
+如需使用 Microsoft 團隊的詳細資訊，請參閱 [Microsoft 團隊 IT 架構和電話語音解決方案海報](/MicrosoftTeams/teams-architecture-solutions-posters)。
 
 |職稱|描述|
 |:---|:---|

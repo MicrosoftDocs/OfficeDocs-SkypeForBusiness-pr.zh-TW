@@ -21,46 +21,46 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 會議召集人可以瞭解如何使用 [團隊] 應用程式撥出，讓其他人使用自己的手機加入相同的會議。
-ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+description: 會議召集人可以瞭解如何使用 Teams 應用程式撥出，讓其他人使用他們的電話加入同一個會議。
+ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788757"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119282"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft 團隊會議撥出，讓其他人可以加入
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft Teams 會議撥出，讓其他人可以加入會議
 
-就像會議召集人一樣，您可以使用 [小組] 應用程式撥出，讓其他人使用自己的手機加入相同的會議。
+作為會議召集人，您可以使用 Teams 應用程式撥出，讓其他人使用他們的電話加入同一個會議。
 
-當您向某人撥出時，建議您使用完整的電話號碼來執行， (包括國家/地區碼-E. 164 格式) 。
+當您撥出給某人時，建議您使用他們的完整電話號碼 (包括國家/地區代碼 - E.164 格式) 。
   
   請注意：
 
-- 您只能在使用小組加入會議時撥出。
-- 會議召集人已啟用音訊會議，或者在未指派音訊會議授權的情況下，您可以透過線上通話方案或直接路由撥打電話給公用交換電話網絡。
-- 已授與會議召集人的 [線上撥出原則，允許從會議撥出](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
+- 您只有在使用 Teams 加入會議時才能撥出。
+- 會議召集人已啟用音訊會議功能，或者，如果尚未指派音訊會議授權，則允許透過線上通話方案或直接路由撥打公用交換電話網絡。
+- 會議召集人獲 [授予線上撥出政策，可啟用從會議撥出功能](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-以下說明如何開始撥出作業：
+以下是如何讓撥出工作：
 
- **步驟1：** 在會議中，使用 [新增人員] 按鈕選項的 [ **新增人員**] ![ 螢幕擷取畫面 ](media/add-people-button.png) 撥出電話號碼。
- **步驟2：** 輸入完整的電話號碼，包括 [ **邀請某人或撥打電話號碼** ] 方塊中的國家/地區碼。
+ **步驟 1：** 在會議中，使用新增人員按鈕選項的新增人員螢幕擷取畫面來撥出 ![ ](media/add-people-button.png) 到電話號碼。
+ **步驟 2：** 在邀請某人或撥打號碼方塊中輸入完整的電話號碼，包括國家/ **地區** 代碼。
   
-![[邀請某人或撥打電話號碼] 方塊的螢幕擷取畫面](media/invite-someone-box.png)
+![邀請某人或撥打號碼方塊的螢幕擷取畫面](media/invite-someone-box.png)
     
-## <a name="supported-countries-and-regions"></a>支援的國家和地區
+## <a name="supported-countries-and-regions"></a>支援的國家/地區
 
-撥出功能只適用于部分國家/地區。 如需完整清單，請參閱 [音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+撥出功能僅適用于部分國家/地區。 有關完整清單，請參閱音訊會議與通話方案的國家 [/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 ## <a name="allow-users-to-dial-in"></a>允許使用者撥入
 
-如果您正在尋找如何讓您的使用者撥入團隊會議的指示，請參閱 [Microsoft 團隊中的音訊會議電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
+如果您正在尋找如何讓使用者撥入 Teams 會議的指示，請參閱 [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md)的音訊會議電話號碼。
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>想要深入瞭解音訊會議嗎？
+## <a name="want-to-know-more-about-audio-conferencing"></a>想要進一瞭解音訊會議嗎？
 
-[試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[嘗試或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Microsoft Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+[Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

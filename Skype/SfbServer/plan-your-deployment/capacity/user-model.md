@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 本文針對該網站上的使用者數目（如商務用 Skype Server 中所述的使用方式），提供在網站上的多少伺服器所需的指導方針。
-ms.openlocfilehash: e0b145ddfc766ba7db9012d4f3aaa7333f4f5d72
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a0fb1c193787f62e210f6d5bb7911ccfa40e5cf3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827633"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118522"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>用於商務用 Skype Server 的容量規劃使用者模型使用狀況
 
@@ -52,7 +52,7 @@ ms.locfileid: "49827633"
 |一個 Director  <br/> |12000並行遠端使用者。  <br/> |
 |監控和封存  <br/> |監視和封存前端服務會在每個前端伺服器上執行，而不是在不同的伺服器角色上執行。  <br/> 監視和封存每個仍然需要自己的資料庫存放區。 如果您也執行 Exchange 2013 或更新版本，您可以將封存資料保存在 Exchange 中，而不是放在專用的 SQL 資料庫中。  <br/> |
 |一個轉送伺服器  <br/> |組合與前端伺服器的轉送伺服器，可在集區中的每一部前端伺服器上執行，並且應該為集區中的使用者提供足夠的容量。 若為獨立轉送伺服器，請參閱本主題稍後的「轉送伺服器」一節。  <br/> |
-|一個 Standard Edition server  <br/> |強烈建議您，如果您使用 Standard Edition server 來主控使用者，則在 [規劃高可用性和嚴重損壞修復](https://technet.microsoft.com/library/15a72073-0336-45dd-b2a0-35e7522c6000.aspx)時，一定要使用兩部伺服器（搭配建議）。 配對中的每一部伺服器都可以主控最多2500個使用者，如果一部伺服器失敗，則剩餘的伺服器可支援容錯移轉案例中的5000使用者。  <br/>  如果您的部署包含大量的音訊或影片流量，則伺服器效能可能會受到每一部伺服器的2500多個使用者的影響。 在此情況下，您應該考慮新增更多 Standard Edition 伺服器或移至商務用 Skype Server Enterprise Edition。 <br/> |
+|一個 Standard Edition server  <br/> |強烈建議您，如果您使用 Standard Edition server 來主控使用者，則在 [規劃高可用性和嚴重損壞修復](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery)時，一定要使用兩部伺服器（搭配建議）。 配對中的每一部伺服器都可以主控最多2500個使用者，如果一部伺服器失敗，則剩餘的伺服器可支援容錯移轉案例中的5000使用者。  <br/>  如果您的部署包含大量的音訊或影片流量，則伺服器效能可能會受到每一部伺服器的2500多個使用者的影響。 在此情況下，您應該考慮新增更多 Standard Edition 伺服器或移至商務用 Skype Server Enterprise Edition。 <br/> |
 
 ## <a name="front-end-server"></a>前端伺服器
 
@@ -84,7 +84,7 @@ ms.locfileid: "49827633"
 |1.3 Kpbs  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> 若要改善前端伺服器上歸置 A/V 會議和轉送伺服器功能的媒體效能，您應該在前端伺服器上的網路介面卡上啟用接收端伸縮 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱 [Windows Server 2012 檔中的接收端擴充 (RSS) ](https://go.microsoft.com/fwlink/p/?LinkId=620365)。 如需如何啟用 RSS 的詳細資訊，您必須參考您的網路介面卡檔。
+> 若要改善前端伺服器上歸置 A/V 會議和轉送伺服器功能的媒體效能，您應該在前端伺服器上的網路介面卡上啟用接收端伸縮 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱 [Windows Server 2012 檔中的接收端擴充 (RSS) ](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 如需如何啟用 RSS 的詳細資訊，您必須參考您的網路介面卡檔。
 
 ## <a name="conferencing-maximums"></a>會議最大
 
@@ -103,19 +103,19 @@ ms.locfileid: "49827633"
 > [!NOTE]
 > 此伺服器角色不支援延伸集區。
 
-您應該針對同時存取網站的每個12000遠端使用者部署一部 Edge Server。 至少我們建議使用兩部 Edge 伺服器以取得高可用性。 這些建議假設 Edge server 的硬體符合 [伺服器硬體平臺](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)的建議。
+您應該針對同時存取網站的每個12000遠端使用者部署一部 Edge Server。 至少我們建議使用兩部 Edge 伺服器以取得高可用性。 這些建議假設 Edge server 的硬體符合 [伺服器硬體平臺](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)的建議。
 
 當您考慮 Edge Server 的使用者人數時，請在與此網站的前端集區相關聯的分支辦公室上，加入位於 Survivable Branch 裝置和 Survivable 分支伺服器的使用者。
 
 > [!NOTE]
-> 若要提高 Edge Server 上 A/V 會議 Edge service 的效能，您應該在 Edge Server 上的網路介面卡上啟用接收端伸縮 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱[Windows Server 2012 中的接收端擴充 (RSS) ](https://go.microsoft.com/fwlink/p/?linkId=268731)。 如需如何啟用 RSS 的詳細資訊，您必須參考您的網路介面卡檔。
+> 若要提高 Edge Server 上 A/V 會議 Edge service 的效能，您應該在 Edge Server 上的網路介面卡上啟用接收端伸縮 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱[Windows Server 2012 中的接收端擴充 (RSS) ](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 如需如何啟用 RSS 的詳細資訊，您必須參考您的網路介面卡檔。
 
 ## <a name="director"></a>Director
 
 > [!NOTE]
 > 此伺服器角色不支援延伸集區。
 
-如果您部署 Director 伺服器角色，我們建議您針對同時存取網站的每個12000遠端使用者部署一個 Director。 至少我們建議使用兩個 Director 以取得高可用性。 這些建議假設 Edge server 的硬體符合 [伺服器硬體平臺](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)的建議。
+如果您部署 Director 伺服器角色，我們建議您針對同時存取網站的每個12000遠端使用者部署一個 Director。 至少我們建議使用兩個 Director 以取得高可用性。 這些建議假設 Edge server 的硬體符合 [伺服器硬體平臺](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)的建議。
 
 當您考慮 Director 的使用者人數時，請在與此網站的前端集區相關聯的分支辦公室中，加入位於 Survivable Branch 裝置和 Survivable 分支伺服器的使用者。
 
@@ -128,7 +128,7 @@ ms.locfileid: "49827633"
 
 如果您部署獨立的轉送伺服器集區，則要部署的轉送伺服器數目取決於許多因素，包括用於轉送伺服器的硬體、您擁有的 VoIP 使用者數目、每個轉送伺服器集區所控制的閘道對等數目、透過這些閘道的繁忙小時流量，以及繞過轉送伺服器之媒體的呼叫百分比。
 
-下表提供一項指導方針，使轉送伺服器可以處理的並行呼叫數，假設轉送伺服器的硬體符合 [伺服器硬體平臺](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) 中的需求，且已啟用超執行緒功能。 如需轉送伺服器伸縮性的詳細資訊，請參閱[在商務用 Skype server 中](mediation-server-deployment-guidelines.md)評估適用于商務用 skype Server 和部署指導方針的[語音使用狀況與流量](estimating-voice-traffic.md)。
+下表提供一項指導方針，使轉送伺服器可以處理的並行呼叫數，假設轉送伺服器的硬體符合 [伺服器硬體平臺](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) 中的需求，且已啟用超執行緒功能。 如需轉送伺服器伸縮性的詳細資訊，請參閱[在商務用 Skype server 中](mediation-server-deployment-guidelines.md)評估適用于商務用 skype Server 和部署指導方針的[語音使用狀況與流量](estimating-voice-traffic.md)。
 
 下表是 [商務用 Skype Server 中的使用者模型](user-models.md)所摘要的使用方式。
 
@@ -152,11 +152,11 @@ ms.locfileid: "49827633"
 > 此數位遠遠小於獨立轉送伺服器的號碼。 這是因為前端伺服器除了語音通話所需的其他功能之外，還必須針對其所在的6600使用者處理其他功能和功能。
 
 > [!NOTE]
-> 若要改善轉送伺服器的效能，您應該啟用轉送伺服器上網路介面卡上的接收端擴充 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱[Windows Server 2012 中的接收端調整](https://go.microsoft.com/fwlink/p/?linkId=268731)。 如需如何啟用 RSS 的詳細資訊，您必須參考您的網路介面卡檔。
+> 若要改善轉送伺服器的效能，您應該啟用轉送伺服器上網路介面卡上的接收端擴充 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱[Windows Server 2012 中的接收端調整](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 如需如何啟用 RSS 的詳細資訊，您必須參考您的網路介面卡檔。
 
 ## <a name="back-end-server"></a>後端伺服器
 
-雖然大部分的資料庫資訊都會儲存在前端伺服器上，但您應確定後端伺服器是否符合本節先前和 [伺服器硬體平臺](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)中所列的硬體建議。
+雖然大部分的資料庫資訊都會儲存在前端伺服器上，但您應確定後端伺服器是否符合本節先前和 [伺服器硬體平臺](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)中所列的硬體建議。
 
 為了提供後端伺服器的高可用性，我們建議您部署 AlwaysOn 可用性群組或伺服器鏡像。 如需詳細資訊，請參閱 [在商務用 Skype server 中的後端伺服器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
 
@@ -186,12 +186,10 @@ Microsoft 使用下表中的硬體，以在其效能測試期間監控和封存�
 |**Drive** <br/> |**RAID 設定** <br/> |**磁片數目** <br/> |
 |:-----|:-----|:-----|
 |單一磁片磁碟機上的 CDR、QoE 及封存資料庫資料檔案  <br/> |1 + 0  <br/> |16   <br/> |
-|CDR 資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
-|QoE 資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
-|封存資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
+|CDR 資料庫記錄檔  <br/> |1  <br/> |2   <br/> |
+|QoE 資料庫記錄檔  <br/> |1  <br/> |2   <br/> |
+|封存資料庫記錄檔  <br/> |1  <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>影片 Interop 伺服器容量
 
 如果您部署了視頻 Interop 伺服器，但您需要判斷容量，您會看到同時撥打的最大視頻電話會議系統 (VTCs) 數目。 例如，如果您的組織中有 250 VTCs，而且使用者模型估計最多有20% 的使用者可能會同時進行通話，您可以根據50同時 VTCs 的容量規劃。
-
-

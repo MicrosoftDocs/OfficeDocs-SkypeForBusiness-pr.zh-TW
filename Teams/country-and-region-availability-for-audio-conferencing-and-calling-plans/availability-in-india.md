@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于印度商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
-ms.openlocfilehash: 745ab3de04c33e5679e372190572ab07b87a331d
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347794"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117991"
 ---
 # <a name="availability-in-india"></a>印度的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "50347794"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |Microsoft 不會在印度銷售音訊會議。 TATA Communications 提供與 Microsoft Teams 會議相容的撥入和撥出服務。 如需詳細資訊，請流覽 [TATA Communications 的網站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li> 孟買</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li> 孟買</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |可用  <br/> |
 
 ## <a name="phone-system"></a>電話系統
@@ -69,11 +69,11 @@ ms.locfileid: "50347794"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>奈</li><li>孟買<li>應要求 [的其他城市](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>奈</li><li>孟買<li>其他城市 [可要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
 
- 請注意，印度的服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議付費和免付費電話號碼，請參閱取得商務用 Skype 和 [Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 請注意，印度的服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議免付費電話號碼，請參閱取得商務用 Skype 和 [Microsoft Teams](../getting-service-phone-numbers.md)的服務電話號碼。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -85,6 +85,6 @@ ms.locfileid: "50347794"
   
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

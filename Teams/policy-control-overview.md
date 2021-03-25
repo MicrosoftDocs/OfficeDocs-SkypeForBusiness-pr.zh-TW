@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3665f386f43d8e9b8c49a024663265c25ae96214
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136009"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117781"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 原則控制概覽
 
@@ -29,13 +29,13 @@ Microsoft 致力於為您提供所需的資訊和控制，以便您在使用 Mic
 
 本文旨在提供以下區域隱私權控制的相關資訊：
 
-- 收集並傳送給 Microsoft 的**診斷資料**，其中包含您的組織中執行 Windows 的電腦上所使用 Teams 和 Office 軟體的資料。
+- 收集並傳送給 Microsoft 的 **診斷資料**，其中包含您的組織中執行 Windows 的電腦上所使用 Teams 和 Office 軟體的資料。
 - **[連線體驗]**：使用以雲端為基礎的功能來為您和您的使用者提供增強的 Teams 和 Office 功能。
 
 這些變更的其中一個部分，是提供新的及更新的使用者介面 (UI) 元素和原則設定。
 
 > [!IMPORTANT]
-> 如想進一步閱讀，請參閱 M365 內容的 [原則控制概覽](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)。
+> 如想進一步閱讀，請參閱 M365 內容的 [原則控制概覽](/deployoffice/privacy/overview-privacy-controls)。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>從 Microsoft 365 Apps 企業版傳送到 Microsoft 的診斷資料
 
@@ -91,10 +91,10 @@ Teams 軟體有三個層級的診斷資料可供選擇：
 - **功能資料**，這包括連線體驗執行其工作所需的資訊，例如有關 App 的組態資訊。
 - **服務診斷資料**，這是讓服務安全、最新且如預期執行所需的資料。 因為此資料嚴格上來說僅與連線體驗相關，它會與必要或選用診斷資料層級分開。
 
-您可以選擇不提供這項功能給您的使用者，在這種情況下，此資料就不會提供給 Microsoft 來支援連線體驗的功能。 您可以深入瞭解 [必要服務資料](https://docs.microsoft.com/deployoffice/privacy/required-service-data)。
+您可以選擇不提供這項功能給您的使用者，在這種情況下，此資料就不會提供給 Microsoft 來支援連線體驗的功能。 您可以深入瞭解 [必要服務資料](/deployoffice/privacy/required-service-data)。
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams 的基本服務
 
 還有一組服務是 Microsoft 365 Apps 企業版運作的基礎，因此不能停用。 例如，可確認您取得使用 Microsoft 365 Apps 企業版正確授權的授權服務。 無論您設定了哪些其他原則設定，都會收集有關這些服務的必要服務資料並將其傳送給 Microsoft。
 
-如需詳細資訊，請參閱 [Office 的基本服務](https://docs.microsoft.com/deployoffice/privacy/essential-services)。
+如需詳細資訊，請參閱 [Office 的基本服務](/deployoffice/privacy/essential-services)。

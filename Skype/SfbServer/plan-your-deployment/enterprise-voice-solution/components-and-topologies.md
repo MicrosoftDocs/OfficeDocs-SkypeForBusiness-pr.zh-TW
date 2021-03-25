@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: 如果您有 MPLS 網路、SIP 主幹或協力廠商 PSTN 閘道或 PBX，請規劃通話許可控制 (CAC) 。 適用于商務用 Skype Server Enterprise Voice。
-ms.openlocfilehash: e40525121020259a40f10d90cd79d70aaa749ac3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825843"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109189"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>商務用 Skype 中通話許可控制的元件和拓撲
 
@@ -55,14 +55,14 @@ ms.locfileid: "49825843"
 
 若要在 SIP 主幹上設定 CAC，您必須在 CAC 部署期間執行下列工作：
 
-1. 建立代表 ITSP 的網路網站。 讓此網路網站與適當的網路地區相關聯，並為此網路網站的音訊與視訊功能配置零的頻寬。 如需詳細資訊，請參閱部署文件中的＜[Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx)＞。
+1. 建立代表 ITSP 的網路網站。 讓此網路網站與適當的網路地區相關聯，並為此網路網站的音訊與視訊功能配置零的頻寬。 如需詳細資訊，請參閱部署文件中的＜[Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac)＞。
 
     > [!NOTE]
     > 對 ITSP 而言，此網路網站組態沒有作用。 頻寬原則值實際是在步驟 2 套用。
 
-2. 針對您在步驟 1 建立的網站使用相關的參數值，建立 SIP 主幹的網站間連結。 例如，您可以使用企業中網路網站的名稱作為 NetworkSiteID1 參數的值，並以 ITSP 網路網站作為 NetworkSiteID2 參數的值。 如需詳細資訊，請參閱部署檔中的在 [商務用 Skype Server 中建立網路網站間原則](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) ，以及 [新的-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
+2. 針對您在步驟 1 建立的網站使用相關的參數值，建立 SIP 主幹的網站間連結。 例如，您可以使用企業中網路網站的名稱作為 NetworkSiteID1 參數的值，並以 ITSP 網路網站作為 NetworkSiteID2 參數的值。 如需詳細資訊，請參閱部署檔中的在 [商務用 Skype Server 中建立網路網站間原則](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) ，以及 [新的-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
 
-3. 從 ITSP 取得會話邊界控制器的 (SCB) 媒體端接點的 IP 位址。 將該子網路遮罩為32的 IP 位址，新增至代表 ITSP 的網路網站。 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
+3. 從 ITSP 取得會話邊界控制器的 (SCB) 媒體端接點的 IP 位址。 將該子網路遮罩為32的 IP 位址，新增至代表 ITSP 的網路網站。 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)。
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>使用協力廠商 PSTN 閘道或 PBX 的通話許可控制
 
@@ -91,7 +91,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 > 請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。
 
 > [!NOTE]
-> 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
+> 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)。
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>案例2：轉送伺服器和具有媒體終止點之協力廠商 PBX 之間的 CAC
 
@@ -116,7 +116,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 > 請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。
 
 > [!NOTE]
-> 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
+> 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)。
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>案例3：轉送伺服器和不具有媒體終端點之協力廠商 PBX 之間的 CAC
 
@@ -137,6 +137,4 @@ Case 3 與前兩個案例稍有不同。 如果在協力廠商 PBX 上沒有 MTP
 > 請確定轉送伺服器的兩個介面都屬於的 IP 子網已設定，並與網路網站1產生關聯。
 
 > [!NOTE]
-> 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)。
-
-
+> 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)。

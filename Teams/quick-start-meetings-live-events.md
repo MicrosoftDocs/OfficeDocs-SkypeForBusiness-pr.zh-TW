@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f871e8e741856253667649484ac429bb68dd2c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460823"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117671"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
@@ -50,7 +50,7 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。請使用此文�
 >
 > <sup>2</sup> 若是撥出至 [**撥打** 這支電話給我](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或 [音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。[撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。
 
-若要深入了解授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+若要深入了解授權，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="make-sure-your-networks-ready"></a>確定網路已準備就緒
 
@@ -66,7 +66,7 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。請使用此文�
 
 - 若要深入了解管理會議的選項，請參閱[變更 Teams 會議的參與者設定](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。
 
-- 別忘了[管理使用者的裝置](device-management.md) - 電話、耳機、相機。若要取得有關經過 Teams 認證的裝置最新資訊，請移至 [Teams 裝置](https://office.com/teamsdevices)。
+- 別忘了[管理使用者的裝置](./devices/device-management.md) - 電話、耳機、相機。若要取得有關經過 Teams 認證的裝置最新資訊，請移至 [Teams 裝置](https://office.com/teamsdevices)。
 
 ## <a name="live-events"></a>即時事件
 

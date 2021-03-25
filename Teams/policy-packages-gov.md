@@ -1,5 +1,5 @@
 ---
-title: 政府團隊原則套件
+title: 政府用 Teams 政策套件
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,44 +16,44 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用及管理您的政府組織的小組原則套件。
-ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+description: 瞭解如何為貴政府組織使用及管理 Teams 策略套件。
+ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909077"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117771"
 ---
-# <a name="teams-policy-packages-for-government"></a>政府團隊原則套件
+# <a name="teams-policy-packages-for-government"></a>政府用 Teams 政策套件
 
 > [!NOTE]
-> 原則套件目前無法在 Microsoft 365 政府版 GCC 或 DoD 部署中使用。
+> Microsoft 365 政府 GCC High 或 DoD 部署目前無法提供策略套件。
 
 ## <a name="overview"></a>概觀
 
-Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義的原則與原則設定的集合，您可以指派給在組織中擁有相似角色的使用者。 原則套件可簡化原則管理，並有助於達到一致性。 您可以自訂套件中原則的設定，以符合您的使用者需求。 當您變更原則套件中的原則設定時，指派給該套件的所有使用者都會取得更新的設定。 您可以使用 Microsoft [團隊系統管理中心] 或 [PowerShell] 管理 [原則套件]。
+Microsoft Teams 中的 [原則套件](manage-policy-packages.md) 是預先定義的原則和原則設定的集合，您可以將之指派給組織中具有類似角色的使用者。 原則套件可簡化原則管理，並有助於達到一致性。 您可以自訂套件中的原則之設定，以符合使用者的需求。 當您變更原則套件中的原則設定時，指派給該套件的所有使用者會取得更新的設定。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來管理原則套件。
 
-原則套件根據套件預先定義下列各項原則：
+以下項目的預先定義原則之原則套件，依套件而訂：
 
 - 訊息傳送
 - 會議
 - 通話
-- App 設定
-- 即時事件
+- 應用程式設定
+- 即時活動
 
-團隊目前包含適用于政府的下列原則套件。
+Teams 目前包含下列政府政策套件。
 
-|Microsoft 團隊系統管理中心中的套件名稱|最適合用於|描述 |
+|Microsoft Teams 系統管理中心所列的套件名稱|最適合用於|描述 |
 |---------|---------|---------|
-|公開安全官員  |政府組織中的公用安全官員  |建立一組原則與原則設定，適用于貴組織中的公用安全主管。 |
-|第一線管理員  |第一線政府組織中的經理 |建立一組原則，並將這些設定套用到貴組織中的第一線管理員。|
-|第一線 worker  |在您的政府組織中第一線工人 |建立一組原則，並將這些設定套用到貴組織中的第一線工作人員。|
+|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公開安全人員之原則與原則設定。 |
+|前線管理員  |您政府組織的前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。|
+|前線工作人員  |您政府組織的前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線工作人員。|
 
 ![醫療保健原則套件的螢幕擷取畫面](media/policy-packages-gov.png)
 
-系統會為每個個別原則指定原則套件的名稱，以便您輕鬆識別連結到原則套件的原則。 例如，當您將公用安全專員原則套件指派給貴組織中的使用者時，會針對套件中的每個原則，建立一個名為 PublicSafety_Officer 的原則。
+每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將公用安全人員政策套件指派給貴組織的使用者時，會針對套件中的每個PublicSafety_Officer建立名為 PublicSafety_Officer 的策略。
 
-![醫療保健臨床工人套件中的原則的螢幕擷取畫面](media/policy-packages-public-safety-officer.png)
+![醫療保健臨床工作者套件中的原則螢幕擷取畫面](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>管理原則套件
 
@@ -93,7 +93,7 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>為一大組 (批) 使用者指派原則套件
 
-使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
+使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
 
 批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 
@@ -101,4 +101,4 @@ Microsoft 團隊中的 [原則套件](manage-policy-packages.md) 是預先定義
 
 [在 Teams 中管理原則套件](manage-policy-packages.md)
 
-[指派策略給小組中的使用者](assign-policies.md) 
+[在 Teams 中將原則指派給使用者](assign-policies.md)

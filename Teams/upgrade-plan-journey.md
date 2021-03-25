@@ -1,5 +1,5 @@
 ---
-title: 規劃您的商務用 Skype 至 Microsoft 團隊升級
+title: 規劃商務用 Skype 升級至 Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 瞭解如何透過登記干係人來規劃升級，然後為專案加上範圍。
+description: 瞭解如何招募專案關係人來規劃升級，然後界定專案範圍。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578436"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119072"
 ---
 # <a name="plan-for-your-upgrade"></a>規劃升級
 
-![團隊升級歷程的圖表](media/upgrade-banner-main.png "確定您的專案已針對適當的專案小組進行成功設定。定義您的專案範圍、目標及時程表。確認技術與使用者的就緒情況。執行您的推出方案。維持勢頭，以獲得最佳結果。")
+![Teams 升級歷程圖表](media/upgrade-banner-main.png "請確定您的專案已設定好，以適當的專案小組取得成功。定義專案範圍、目標及時程表。確認技術和使用者準備就緒。執行您的推出計畫。保持動力以最大化結果。")
 
-良好的技術環境、持續的使用者採納，以及所有您的業務目標都是以適當的規劃開始的方式來實現。 實體方案提供升級專案的架構，並確保所有專案關係人都能達到相同的目標。 只要花時間就能正確定義成功，您就可以在您的部署過程中測量結果，並確認您要達到想要的結果。 規劃您的旅程包括：
+健康的技術環境、持續採用使用者，以及達成您的商業目標，都是從適當的規劃開始。 可靠的計畫會提供升級專案架構，並確保所有專案關係人都朝相同的目標努力。 只要花時間正確定義成功，就可以在部署進行時測量結果，並確認您正取得想要的結果。 規劃您的行程包括：
 
-- [登記專案干係人](upgrade-enlist-stakeholders.md)
-- [定義專案的範圍](https://aka.ms/SkypetoTeams-Scope)
-- [瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
+- [招募專案專案關係人](upgrade-enlist-stakeholders.md)
+- [定義專案範圍](./upgrade-define-project-scope.md)
+- [瞭解商務用 Skype 和 Teams 的共存與互通性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [根據您的業務需求選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [規劃使用者試驗](pilot-essentials.md)
 
-規劃歷程後，您將會閱讀在[實施升級](upgrade-to-teams.md)前[準備您的環境](upgrade-prepare-environment.md)並[準備貴組織](upgrade-prepare-organization.md)的相關主題。  
+規劃好您的行程之後，您將閱讀有關準備環境及準備組織[](upgrade-prepare-environment.md)的主題，然後再執行[升級](upgrade-to-teams.md)。 [](upgrade-prepare-organization.md)  
 
 > [!TIP]
-> 加入即時、互動式研討會，我們將分享指導方針、最佳做法，以及專為開始升級規劃與實施方案而設計的資源。
+> 與我們一起參與即時互動式研討會，我們將在這裡分享指導、最佳做法和資源，以啟動升級規劃與實作。
 >
-> 首先加入 [升級會話方案](https://aka.ms/SkypeToTeamsPlanning) ，以開始使用。
+> 首先 [加入規劃升級](./upgrade-workshops-landing-page.yml) 會話以開始使用。

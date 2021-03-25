@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662638"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117611"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>在系統管理中心中使用 Teams 零售業範本
 
@@ -34,7 +34,7 @@ Teams 範本具有專為零售商需求設計的團隊結構預先建立的定�
 
 本文將介紹各個 Teams 範本，並建議如何使用範本。
 
-如果您負責規劃、部署和管理整個零售組織的多個團隊，本文適合您。 我們假定您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](How-to-roll-out-teams.md)。
+如果您負責規劃、部署和管理整個零售組織的多個團隊，本文適合您。 我們假定您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](./deploy-overview.md)。
 
 如需深入了解一般 Teams 範本，請參閱 [Teams 範本入門](get-started-with-teams-templates-in-the-admin-console.md)。
 

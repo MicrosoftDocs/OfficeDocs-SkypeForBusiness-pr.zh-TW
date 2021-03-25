@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 摘要：瞭解適用于舊版用戶端的商務用 Skype Server 2015 支援的行動服務 (Mcx) 。
-ms.openlocfilehash: 5fb9e66efa468e8755fe369c3ce4f2a4b8979e57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7d0d15b4c3db3d768117d73ed610b38c7a819196
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823503"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118632"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中監控 IIS 要求的追蹤記錄檔
  
@@ -38,6 +38,4 @@ ms.locfileid: "49823503"
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-如需 **HTTPLogging** 命令的詳細資訊，請參閱 [命令參考](https://go.microsoft.com/fwlink/p/?linkId=234927)。
-  
-
+如需 **HTTPLogging** 命令的詳細資訊，請參閱 [命令參考](/previous-versions/iis/settings-schema/aa347466(v=vs.90))。

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 閱讀此主題以瞭解在 Mac 上執行商務用 Skype 的硬體、軟體和基礎結構需求。
-ms.openlocfilehash: 5f967bab3a5dcc41a3419324c9fe09b48a8fb674
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 866eda0cc5e82db1da1b69bee3eb4bf26df6d7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109279"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Mac 用戶端需求的商務用 Skype
  
@@ -40,9 +40,9 @@ Mac 用戶端上的商務用 Skype 需要 Mac OS X El Capitan 及更高版本，
 
 商務用 Skype Server 2015 也支援下列舊版用戶端在執行 Mac OS 10.5.8 或最新 service pack 或版本 (的電腦上，目前不) 支援以 Intel 為基礎的) 作業系統 (Mac 作業系統10.9 作業系統。 如需支援的功能的詳細資訊，請參閱 [適用于商務用 Skype 的桌面用戶端功能比較](desktop-feature-comparison.md)。
   
-- Microsoft Lync for Mac 2011 (請參閱 [Lync For mac 2011 部署指南](https://go.microsoft.com/fwlink/p/?LinkId=268786)) 
+- Microsoft Lync for Mac 2011 (請參閱 [Lync For mac 2011 部署指南](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))) 
     
-- Microsoft Communicator for Mac 2011 (請參閱 [Communicator For mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268787)) 
+- Microsoft Communicator for Mac 2011 (請參閱 [Communicator For mac 2011 Deployment Guide](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))) 
  
 商務用 Skype Server 2019 不支援這些用戶端。
    
@@ -74,7 +74,7 @@ Mac 用戶端的商務用 Skype 支援以 Cert 為基礎的驗證、Microsoft �
     
 - lyncdiscover.\<sipdomain\>
     
-如需詳細資訊，請參閱： [在 Lync server 2013 部署行動性](https://go.microsoft.com/fwlink/p/?LinkId=798224)，以及 [Microsoft Lync Server 2010 行動指南](https://go.microsoft.com/fwlink//p/?LinkId=798226)。
+如需詳細資訊，請參閱： [在 Lync server 2013 部署行動性](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)，以及 [Microsoft Lync Server 2010 行動指南](https://go.microsoft.com/fwlink//p/?LinkId=798226)。
   
 ## <a name="see-also"></a>另請參閱
 <a name="Infrastructure"> </a>

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 本主題說明轉送伺服器部署的規劃指導方針。
-ms.openlocfilehash: 245916286fe5f1590581989b8a09daf637c03aa9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ffb60abaf3027541f13fe73294eafda51e5d1d0f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800083"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118532"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>商務用 Skype Server 中轉送伺服器的部署指導方針
  
@@ -58,6 +58,4 @@ ms.locfileid: "49800083"
 最後，如果您的中央網站上有 TDM PBX，或是您的 IP-PBX 非得使用 PSTN 閘道不可，則您必須在連接中繼伺服器與 PBX 的電話路由上部署閘道。
   
 > [!NOTE]
-> 若要改善獨立轉送伺服器的媒體效能，您應該在這些伺服器的網路介面卡上啟用接收端伸縮 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱「[Windows Server 中的接收端擴充功能增強功能](https://go.microsoft.com/fwlink/p/?LinkId=268731)」。 如需如何啟用 RSS 的詳細資訊，請參閱您的網路介面卡檔。 
-  
-
+> 若要改善獨立轉送伺服器的媒體效能，您應該在這些伺服器的網路介面卡上啟用接收端伸縮 (RSS) 。 RSS 可讓伺服器上的多個處理器同時處理內送的封包。 如需詳細資訊，請參閱「[Windows Server 中的接收端擴充功能增強功能](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))」。 如需如何啟用 RSS 的詳細資訊，請參閱您的網路介面卡檔。 

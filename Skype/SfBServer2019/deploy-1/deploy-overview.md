@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2019。
-ms.openlocfilehash: 4f486c06280b72aab83996d2aba1df68146bee3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 10bc82f47bc6805821241913dbdb86a08469ff20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808733"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110159"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>部署商務用 Skype Server 2019
  
@@ -38,15 +38,15 @@ ms.locfileid: "49808733"
   
 ||內容|描述|
 |:-----|:-----|:-----|
-|![檔圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[商務用 Skype Server 2019 的系統需求](../plan/system-requirements.md)  <br/> |深入瞭解商務用 Skype Server 的伺服器及環境需求。  <br/> |
-|![檔圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[商務用 Skype Server 的拓撲基礎](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |深入瞭解商務用 Skype Server 的拓撲選項和伺服器組合案例。  <br/> |
-|![數位方式圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[安裝商務用 Skype Server](../../SfbServer/deploy/install/install.md)<br/> |瞭解如何在實體和虛擬環境的各種拓撲中安裝商務用 Skype Server。  <br/> |
-|![數位方式圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [遷移至商務用 Skype Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |瞭解如何從舊版的商務用 Skype 或 Lync Server 進行遷移。  <br/> |
-|![數位方式圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[使用商務用 Skype 設定用戶端經驗](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |瞭解如何設定用戶端經驗。  <br/> |
-|![數位方式圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [設定商務用 Skype Server 與商務用 Skype Online 之間的混合式連接](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |瞭解如何設定混合式部署的必要條件，然後設定您的部署，以管理商務用 Skype Server 內部部署和商務用 Skype Online 之間的使用者。  <br/> |
-|![數位方式圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署 Edge Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |如果您組織中的使用者與未登入內部網路的外部使用者通訊，您會想要部署 Edge Server。  <br/> |
-|![數位方式圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署企業語音](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |瞭解如何部署完整的 Voice over IP (VoIP) enterprise Voice 解決方案，提供與 Outlook 和 Exchange 的豐富整合，以及許多功能強大的功能，例如回應群組、通話駐留、小組通話、群組通話收取，以及增強型緊急 E9-1-1 支援。  <br/> |
-| ![數位方式圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署影片 Interop 伺服器](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |如果您想支援影片互用性，請參閱如何在 VIS) 中部署視頻 Interop 伺服器 (。  <br/> |
+|![檔圖示](/office/media/icons/paragraph-writing-blue.svg)|[商務用 Skype Server 2019 的系統需求](../plan/system-requirements.md)  <br/> |深入瞭解商務用 Skype Server 的伺服器及環境需求。  <br/> |
+|![檔圖示](/office/media/icons/paragraph-writing-blue.svg)|[商務用 Skype Server 的拓撲基礎](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |深入瞭解商務用 Skype Server 的拓撲選項和伺服器組合案例。  <br/> |
+|![數位方式圖示](/office/media/icons/list-123-blue.svg)|[安裝商務用 Skype Server](../../SfbServer/deploy/install/install.md)<br/> |瞭解如何在實體和虛擬環境的各種拓撲中安裝商務用 Skype Server。  <br/> |
+|![數位方式圖示](/office/media/icons/list-123-blue.svg)| [遷移至商務用 Skype Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |瞭解如何從舊版的商務用 Skype 或 Lync Server 進行遷移。  <br/> |
+|![數位方式圖示](/office/media/icons/list-123-blue.svg)|[使用商務用 Skype 設定用戶端經驗](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |瞭解如何設定用戶端經驗。  <br/> |
+|![數位方式圖示](/office/media/icons/list-123-blue.svg)| [設定商務用 Skype Server 與商務用 Skype Online 之間的混合式連接](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |瞭解如何設定混合式部署的必要條件，然後設定您的部署，以管理商務用 Skype Server 內部部署和商務用 Skype Online 之間的使用者。  <br/> |
+|![數位方式圖示](/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署 Edge Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |如果您組織中的使用者與未登入內部網路的外部使用者通訊，您會想要部署 Edge Server。  <br/> |
+|![數位方式圖示](/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署企業語音](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |瞭解如何部署完整的 Voice over IP (VoIP) enterprise Voice 解決方案，提供與 Outlook 和 Exchange 的豐富整合，以及許多功能強大的功能，例如回應群組、通話駐留、小組通話、群組通話收取，以及增強型緊急 E9-1-1 支援。  <br/> |
+| ![數位方式圖示](/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署影片 Interop 伺服器](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |如果您想支援影片互用性，請參閱如何在 VIS) 中部署視頻 Interop 伺服器 (。  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有關規劃商務用 Skype Server 的其他資源
 
@@ -54,8 +54,6 @@ ms.locfileid: "49808733"
   
 ||**內容**|**描述**|
 |:-----|:-----|:-----|
-|![文檔圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[適用于 IT 專業人員的商務用 Skype 伺服器](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |流覽資源中心以存取影片、社區網站、檔、下載專案等等。|
-|![開發人員內容的圖示](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype 開發人員平臺](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |尋找商務用 Skype 伺服器的開發人員資源，包括程式碼範例、訓練與 Sdk。  <br/> |
-|![新聞、博客等的圖示](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 小組博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |從建立和記錄商務用 Skype Server 的小組追蹤新聞。  <br/> |
-   
-
+|![文檔圖示](/office/media/icons/paragraph-writing-blue.svg)|[適用于 IT 專業人員的商務用 Skype 伺服器](../../Hub/index.yml) <br/> |流覽資源中心以存取影片、社區網站、檔、下載專案等等。|
+|![開發人員內容的圖示](/office/media/icons/developer-blue.svg)|[Skype 開發人員平臺](/skype-sdk/skypedeveloperplatform) <br/> |尋找商務用 Skype 伺服器的開發人員資源，包括程式碼範例、訓練與 Sdk。  <br/> |
+|![新聞、博客等的圖示](/office/media/icons/blog-site-blue.svg)|[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 小組博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |從建立和記錄商務用 Skype Server 的小組追蹤新聞。  <br/> |

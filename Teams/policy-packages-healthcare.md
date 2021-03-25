@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 瞭解如何使用和管理適用于貴醫療保健組織的 Teams 原則套件。
-ms.openlocfilehash: af6f5923d5c97fc03c77585ba94292264aacc027
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812853"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117761"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>適用於醫療保健的 Teams 原則套件
 
@@ -106,7 +106,7 @@ Teams 目前包含下列醫療保健原則套件。
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>為一大組 (批) 使用者指派原則套件
 
-使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
+使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
 
 批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 

@@ -15,31 +15,31 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: 瞭解如何管理組織中舉辦的 Teams 即時活動的設定。
+description: 瞭解如何管理貴組織中舉辦的 Teams 即時活動的設定。
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bcb5edea00066c861b2288791f3ff3e0ee58431
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e5f19aa6cfee7d4cce19ef5a0936a5a72e954648
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461013"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119342"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動設定
 
-使用 Teams 即時活動設定來設定貴組織中舉辦的即時活動設定。 您可以設定支援 URL，並設定協力廠商影片發佈提供者。 這些設定會適用于組織中建立的所有即時活動。
+使用 Teams 即時活動設定來設定貴組織中舉辦的即時活動設定。 您可以設定支援 URL，並設定協力廠商視音訊發佈提供者。 這些設定適用于在貴組織中建立的所有即時活動。
 
-您可以在 Microsoft Teams 系統管理中心輕鬆管理這些設定。 在左側流覽中，前往 **會議**  >  **即時活動設定**。
+您可以在 Microsoft Teams 系統管理中心輕鬆管理這些設定。 在左側流覽中，前往 **會議**  >  **Live 事件設定**。
 
-![Teams 即時活動設定螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在 Microsoft Teams 系統管理中心設定之 Teams 即時活動設定螢幕擷取畫面")
+![Teams 即時活動設定螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在 Microsoft Teams 系統管理中心設定 Teams 即時活動設定螢幕擷取畫面")
 
-## <a name="set-up-event-support-url"></a>設定事件支援 URL
+## <a name="set-up-event-support-url"></a>設定活動支援 URL
 
-此 URL 會顯示給即時活動出席者。 新增貴組織的支援 URL，讓出席者在即時活動中與支援人員聯繫。
+此 URL 會顯示給即時活動出席者。 新增貴組織的支援 URL，讓出席者在即時活動期間與支援人員聯繫。
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
@@ -55,25 +55,25 @@ ms.locfileid: "50461013"
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-詳細資訊請參閱[Set-CsTeamsMeetingBroadcastConfiguration。](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
-## <a name="configure-a-third-party-video-distribution-provider"></a>設定協力廠商影片發佈提供者 
+詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
+## <a name="configure-a-third-party-video-distribution-provider"></a>設定協力廠商視音訊發佈提供者 
 
-如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請設定 Teams 中的即時活動提供者。 
+如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請設定 Teams 中的即時事件提供者。 
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
 1. 在左側流覽中，前往 **會議**  >  **即時活動設定**。
 2. 在 **協力廠商視訊發佈提供者下**，完成下列操作： 
 
-    ![系統管理中心中的協力廠商視音訊發佈提供者設定](../media/teams-live-events-settings-distribution-provider.png "即時活動的協力廠商影片發佈提供者設定螢幕擷取畫面")
+    ![系統管理中心的協力廠商視音訊發佈提供者設定](../media/teams-live-events-settings-distribution-provider.png "即時活動的協力廠商視音訊發佈提供者設定螢幕擷取畫面")
 
-    - **使用協力廠商發佈提供者** 開啟此選項以啟用協力廠商視音訊發佈提供者。
-    - **SDN 提供者名稱** 選擇您目前使用的提供者。
+    - **使用協力廠商通訊提供者** 開啟此選項以啟用協力廠商視音訊發佈提供者。
+    - **SDN 提供者名稱** 選擇您使用的提供者。
     - **提供者授權金鑰** 輸入您從提供者連絡人獲得授權識別碼。
     - **SDN API 範本 URL** 輸入您從提供者連絡人獲得之 API 範本 URL。
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
-從提供者連絡人取得授權識別碼或 API 權杖和 API 範本，然後根據您使用的提供者執行下列其中一項：
+從提供者連絡人取得授權識別碼或 API 權杖和 API 範本，然後根據您使用的提供者執行下列其中一項操作：
 
 **蜂巢** 
 ```PowerShell
@@ -88,10 +88,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
 
-詳細資訊請參閱[Set-CsTeamsMeetingBroadcastConfiguration。](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
 
 > [!NOTE]
-> 如果您打算使用外部 App 或裝置建立即時活動，您也需要使用 Microsoft Stream 設定 [eCDN 提供者](https://docs.microsoft.com/stream/network-caching)。 
+> 如果您打算使用外部 App 或裝置建立即時活動，您也需要使用 Microsoft Stream 設定 [您的 eCDN 提供者](/stream/network-caching)。 
 
 >[!Note]
 > 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶對新會議錄製使用商務用 OneDrive 和 SharePoint。

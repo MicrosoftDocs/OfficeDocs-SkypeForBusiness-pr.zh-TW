@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中重設使用者的音訊會議 PIN，並瞭解 PIN 的重要事實。
-ms.openlocfilehash: 1ee3360668084bf6bf99b3ede25584ce9800dd5b
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861437"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117631"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重設音訊會議 PIN
 
@@ -72,7 +72,7 @@ PIN 是由每個啟用音訊會議之 Microsoft Teams 使用者所建立的數�
     
 - 當您設定音訊會議時，您可以設定組織中 PIN 所需的位數。 PIN 可以是 4 到 12 位數 -預設值為 5。 如果您變更 PIN 長度設定，則設定只會在新產生的 PIN 上，而且不會適用于已啟用音訊會議的現有使用者的 PIN 設定。 請參閱 [設定音訊會議 PIN 的長度](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 根據預設，電子郵件會設定為使用者的 Microsoft 365 或 Office 365 主要 SMTP 位址。 您可以傳送電子郵件至非 Microsoft 365 或非 Office 365 位址，例如 Hotmail 或 MSN 電子郵件地址。 您可以使用 Windows PowerShell 來取代預設電子郵件地址。 如果使用者在 Microsoft 365 或 Office 365 中沒有 Exchange 信箱，這項功能會很有用。
+- 根據預設，電子郵件會設定為使用者的 Microsoft 365 或 Office 365 主要 SMTP 位址。 您可以將電子郵件傳送至非 Microsoft 365 或非 Office 365 位址，例如 Hotmail 或 MSN 電子郵件地址。 您可以使用 Windows PowerShell 來取代預設電子郵件地址。 如果使用者在 Microsoft 365 或 Office 365 中沒有 Exchange 信箱，這項功能會很有用。
 
     
 
@@ -80,11 +80,11 @@ PIN 是由每個啟用音訊會議之 Microsoft Teams 使用者所建立的數�
 
 Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
     
-有關 Windows PowerShell 的資訊，請參閱 [Microsoft Teams PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 以瞭解更多資訊。
+有關 Windows PowerShell 的資訊，請參閱 [Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps) 以瞭解更多資訊。
   
 ## <a name="related-topics"></a>相關主題
 

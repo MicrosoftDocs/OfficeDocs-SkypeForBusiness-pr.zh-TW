@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理群組會定義接聽回應群組 (稱為代理) 電話的人選，以及要套用至群組中所有代理的設定。
-ms.openlocfilehash: d38886289bdadc1f82bd87f93a8a108641fa1128
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 944cd48745a2524ccfcd795d9edc60e806859301
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808273"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118962"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>回應群組：建立新代理群組或編輯現有代理群組
 
@@ -71,6 +71,4 @@ ms.locfileid: "49808273"
 
     使用向上鍵及向下鍵可在代理清單中移動選取的代理。代理在清單中的順序，會影響代理接聽循環配置資源電話及循序路由電話的順序。
 
-如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 中規劃回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)＞。
-
-
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 中規劃回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)＞。

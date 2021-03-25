@@ -24,35 +24,35 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（即阿根廷）。
-ms.openlocfilehash: 96956aefc5e26e90372c5cf7751e45c865876c7f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 以下是適用于阿根廷的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: c4f37f08c095b1f3581ceb14136f72c96ea75bb3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230471"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118462"
 ---
 # <a name="availability-in-argentina"></a>阿根廷的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（即阿根廷）。
+以下是適用于阿根廷的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li>布宜諾斯艾利斯</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊點數 <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li>布宜諾斯艾利斯</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊信用額度 <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-|自動語音應答 <br/> |有空  <br/> |
-|通話佇列  <br/> |有空  <br/> |
+|自動語音應答 <br/> |可用  <br/> |
+|通話佇列  <br/> |可用  <br/> |
 |語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
@@ -66,15 +66,15 @@ ms.locfileid: "44230471"
 如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
 
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
+## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？   | <ul><li>布宜諾斯艾利斯 <li>Cordoba <li>La Plata <li>三月 Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？   | <ul><li>布宜諾斯艾利斯 <li>科爾多瓦 <li>拉普拉塔 <li>Mar Del Plata <li>門多薩 <br/>  <li>聖 Miguel de Tucuman <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
-|免費提供免付費電話號碼嗎？  <br/> |是  <br/> |
+|免付費號碼是否可用？  <br/> |是  <br/> |
    
- 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在[商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得商務用 Skype 和 [Microsoft Teams](../getting-service-phone-numbers.md)的服務電話號碼。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -86,7 +86,6 @@ ms.locfileid: "44230471"
   
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

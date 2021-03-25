@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 為商務用 Skype Server 2019 設定資源帳戶。
-ms.openlocfilehash: 1d8294eb717982b5ac68df06a5370059e83a62c5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: eb8f82a9551c3607068b0d62cc04518d58d09987
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919009"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118932"
 ---
 # <a name="configure-resource-accounts"></a>設定資源帳戶
 
@@ -74,7 +74,7 @@ ms.locfileid: "49919009"
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
-    如需此命令的詳細資訊，請參閱 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
+    如需此命令的詳細資訊，請參閱 [CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
 4.  (選用) 建立資源帳戶後，您可以等候 AD 在線上和內部部署之間同步處理，或是強制進行同步處理，並繼續進行電話系統自動語音應答或通話佇列的線上設定。 若要強制進行同步處理，您必須在執行 AAD Connect (的電腦上執行下列命令，否則您必須先載入 `import-module adsync` 才能執行命令) ：
 
@@ -82,11 +82,11 @@ ms.locfileid: "49919009"
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    如需此命令的詳細資訊，請參閱 [ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 。
+    如需此命令的詳細資訊，請參閱 [ADSyncSyncCycle](/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 。
     
-    注意-此時，該帳戶可能已同步處理，但布建可能無法完成。  檢查 [CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint)的輸出。  若同步處理的端點尚未完成布建，則不會出現在這裡。  您可以在「 [小組設定狀態](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)」下的 M365 入口網站中檢查布建要求的狀態。  此布建階段最多可能需要24小時。
+    注意-此時，該帳戶可能已同步處理，但布建可能無法完成。  檢查 [CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint)的輸出。  若同步處理的端點尚未完成布建，則不會出現在這裡。  您可以在「 [小組設定狀態](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)」下的 M365 入口網站中檢查布建要求的狀態。  此布建階段最多可能需要24小時。
 
-5. 將電話系統虛擬使用者或電話系統授權指派給資源帳戶。 請參閱 [指派 Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) ，並 [指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+5. 將電話系統虛擬使用者或電話系統授權指派給資源帳戶。 請參閱 [指派 Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) ，並 [指派授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
    若要將電話號碼指派給資源帳戶，您現在可以使用「成本免費電話系統-虛擬」使用者授權。 這為組織層級的電話號碼提供電話系統功能，並讓您建立自動語音應答及通話佇列功能。
 
@@ -97,7 +97,7 @@ ms.locfileid: "49919009"
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
     ```
 
-    請參閱 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) 以取得更多有關此命令的詳細資料。
+    請參閱 [CsHybridApplicationEndpoint](/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) 以取得更多有關此命令的詳細資料。
 
     若要將直接路由或混合式號碼指派給資源帳戶，請使用下列 Cmdlet：
 
@@ -133,7 +133,7 @@ ms.locfileid: "49919009"
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
-    如需此命令的詳細資訊，請參閱 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
+    如需此命令的詳細資訊，請參閱 [CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
 2.  (選用) 建立資源帳戶後，您可以等候 AD 在線上和內部部署之間同步處理，或是強制進行同步處理，並繼續進行電話系統自動語音應答或通話佇列的線上設定。 若要強制進行同步處理，您必須在執行 AAD Connect (的電腦上執行下列命令，否則您必須先載入 `import-module adsync` 才能執行命令) ：
 
@@ -141,7 +141,7 @@ ms.locfileid: "49919009"
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    如需此命令的詳細資訊，請參閱 [ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 。
+    如需此命令的詳細資訊，請參閱 [ADSyncSyncCycle](/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 。
 
 3. 建立電話系統自動語音應答或通話佇列。 請參閱下列其中一項：
    - [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant)
@@ -171,7 +171,7 @@ ms.locfileid: "49919009"
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
 
-    如需這個命令的詳細資訊，請參閱 [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) 。 您可能需要捕獲的完整選項清單是在 [disable-umautoattendant 成員](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) ，但是最重要的附注如下：
+    如需這個命令的詳細資訊，請參閱 [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) 。 您可能需要捕獲的完整選項清單是在 [disable-umautoattendant 成員](/previous-versions/office/exchange-server-api/ff340649(v=exchg.150)) ，但是最重要的附注如下：
 
     - 營業時間
     - 非上班時間
@@ -203,8 +203,8 @@ ms.locfileid: "49919009"
 
 [規劃內部部署使用者的雲端語音信箱服務](plan-cloud-voicemail.md)
 
-[新 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+[新 CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
-[新 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[新 CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
 [管理 Microsoft 小組](/MicrosoftTeams/manage-resource-accounts)  -  \( 中的資源帳戶建立線上資源帳戶\)

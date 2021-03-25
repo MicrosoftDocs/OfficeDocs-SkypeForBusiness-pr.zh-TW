@@ -1,5 +1,5 @@
 ---
-title: 設定混合式部署中的音訊會議提供者的同盟
+title: 為混合式部署中的音訊會議提供者設定同盟
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -17,26 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 摘要： 了解如何在 Skype for Business Online 設定音訊會議提供者同盟。
-ms.openlocfilehash: a19704327d1cf5591a1ebb3f62aa23f46fe09d10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+description: 摘要：瞭解如何為商務用 Skype Online 中的音訊會議提供者設定同盟。
+ms.openlocfilehash: 5d9c49299452f579cd7c58adf54facb09f0b8a21
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726883"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118972"
 ---
-# <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>設定混合式部署中的音訊會議提供者的同盟
+# <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>為混合式部署中的音訊會議提供者設定同盟
 
-**摘要：** 了解如何在 Skype for Business Online 設定音訊會議提供者同盟。
+**摘要：** 瞭解如何為商務用 Skype Online 中的音訊會議提供者設定同盟。
 
-如果您想要在混合式部署 （內部部署與線上） 中使用音訊會議提供者 (ACP)，您需要將您的內部部署和 ACP 夥伴之間的同盟設定為允許協力程式伺服器。 您可以設定同盟新增 Edge server （這也稱為 Access Proxy） 與 ACP 協力廠商網域到同盟網域清單為您的內部部署。 ACP 夥伴然後必須允許同盟的網域清單中新增您的內部部署 Edge Server 集區的 FQDN。 如需詳細資訊，請連絡您 ACP 提供者。 ACP 夥伴然後必須允許同盟的網域清單中新增您的內部部署 Edge Server 集區的 FQDN。
+如果您想要在混合部署中使用音訊會議提供者 (ACP)  (內部部署與線上) ，您必須設定內部部署與 ACP 夥伴之間的同盟為允許的夥伴伺服器。 您可以新增 ACP partner domain 及 Edge server (此設定同盟也稱為存取 Proxy) 內部部署的同盟網域清單。 您的 ACP 合作夥伴必須將您的內部部署 Edge Server 集區的 FQDN 新增至其允許的同盟網域清單。 如需其他詳細資料，請與您的 ACP 提供者聯繫。 您的 ACP 合作夥伴必須將您的內部部署 Edge Server 集區的 FQDN 新增至其允許的同盟網域清單。
 
-- **新增 Edge Server 與 ACP 網域為允許同盟網域**
+- **將 ACP 網域和 Edge Server 新增為允許的同盟網域**
 
-    若要新增 ACP 網域為允許協力程式伺服器 （允許同盟網域），請遵循[設定支援允許的外部網域](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)中的步驟。 針對 Edge Server] 新增 ACP 夥伴的 Edge Server 的 FQDN。 您可能需要您取得其 Edge Server，可能也會參照您 ACP 作為其 Access Proxy FQDN 的 ACP 合作夥伴連絡。
+    若要將 ACP 網域新增為允許的同盟伺服器 (允許的同盟網域) ，請依照 [Configure Support for The 允許的外部網域](/previous-versions/office/lync-server-2013/lync-server-2013-configure-support-for-allowed-external-domains)中的步驟進行。 針對 Edge Server，新增 ACP partner Edge Server 的 FQDN。 您可能需要聯繫 ACP 合作夥伴，以取得其 Edge Server 的 FQDN，而您的 ACP 也可能會將其稱為存取 Proxy。
 
-- **ACP 協力廠商提供 Edge Server 集區的 FQDN**
+- **提供 Edge Server 集區的 FQDN 至 ACP partner**
 
-    ACP 合作夥伴必須設定為允許協力程式伺服器新增您的內部部署網域新增 Edge Server 集區的 FQDN，以允許同盟網域同盟。
-
-
+    ACP 合作夥伴必須將 Edge Server 集區的 FQDN 新增為允許的同盟網域，才能設定同盟以將您的內部部署網域新增為允許的夥伴伺服器。

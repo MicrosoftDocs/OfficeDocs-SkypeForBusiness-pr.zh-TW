@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（香港）。
-ms.openlocfilehash: b6b73a1965fb25fc43a20524aa5e1b618c9e018a
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 以下是適用于香港特別行政區的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 6d037821197ae5d28409845cbb18088eee23c825
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230561"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118011"
 ---
 # <a name="availability-in-hong-kong"></a>香港適用的功能
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（香港）。
+以下是適用于香港特別行政區的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li> 香港</ul> 如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li> 香港</ul> 如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>電話系統
@@ -73,7 +73,7 @@ ms.locfileid: "44230561"
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -85,8 +85,6 @@ ms.locfileid: "44230561"
   
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-

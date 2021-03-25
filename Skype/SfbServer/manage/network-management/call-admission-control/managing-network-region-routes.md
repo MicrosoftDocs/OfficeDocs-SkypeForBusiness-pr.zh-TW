@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 網路地區路由會定義一對網路地區之間的路由。 在您的通話許可控制部署中的每一對網路地區都需要網路地區路由。
-ms.openlocfilehash: 23dec126511b941ff3e25b22c37cbba0854b13bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c91f46ff45dd50f638cdb4f256fb93f2d33781ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816433"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118552"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路地區路由
 
@@ -62,7 +62,7 @@ ms.locfileid: "49816433"
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-如需詳細資訊，請參閱 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) Cmdlet 的 [說明] 主題。
 
 
 ## <a name="create-or-modify-network-region-routes"></a>建立或修改網路地區路由
@@ -140,10 +140,10 @@ ms.locfileid: "49816433"
 
 [管理商務用 Skype Server 中的網路地區](managing-network-regions.md)
 
-[新 CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[新 CsNetworkInterRegionRoute](/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 
-[CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
+[CsNetworkInterRegionRoute](/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
  
-[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
 
-[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute)

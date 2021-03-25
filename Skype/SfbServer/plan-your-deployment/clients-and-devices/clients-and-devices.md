@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：檢查支援的用戶端和商務用 Skype 相關應用程式。
-ms.openlocfilehash: 1c88786680699c81c9dd06dc8156bff333ae98ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24434271d33584c76c732d688f7222b73b34fc2d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802753"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109309"
 ---
 # <a name="plan-for-clients-and-devices"></a>規劃用戶端和裝置
 
@@ -84,7 +84,7 @@ Microsoft 團隊會議室是 Microsoft 最新的會議解決方案，其使用�
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 上的商務用 Skype
 
-Microsoft Surface Hub 是一種一體式生產力裝置，適用于集體討論會、共同作業及簡報。 它擁有自己的商務用 Skype 用戶端反覆運算，已在 [Microsoft Surface Hub 系統管理中心手冊](https://docs.microsoft.com/surface-hub/)中記錄。
+Microsoft Surface Hub 是一種一體式生產力裝置，適用于集體討論會、共同作業及簡報。 它擁有自己的商務用 Skype 用戶端反覆運算，已在 [Microsoft Surface Hub 系統管理中心手冊](/surface-hub/)中記錄。
 
 ## <a name="choosing-your-organizations-preferred-client"></a>選擇您組織的慣用用戶端
 <a name="BK_client_choose"> </a>
@@ -93,7 +93,7 @@ Microsoft Surface Hub 是一種一體式生產力裝置，適用于集體討論�
 
 您的使用者可以自行安裝用戶端，以在 [所有裝置上下載商務用 Skype](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 當使用者在 Windows 上安裝 Microsoft 365 或 Office 365 時，也會安裝用戶端。 如果您的部分使用者有 Mac，這些使用者會有一組不同的功能，如先前章節所述。
 
-在商務用 skype Online 或商務用 Skype Server 2019 中無法使用商務用 Skype Server 2015 的部分功能。如需詳細資訊，請參閱 [線上或混合的使用者帳戶限制](desktop-feature-comparison.md#Online-Hybrid) （適用于2019的2015或 [線上或混合使用者帳戶限制](desktop-feature-comparison.md#Online-Hybrid) ）。 商務用 skype Online 系統管理員可能會想要參考 [商務用 Skype Online 服務說明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) ，以瞭解可用之不同方案的詳細資訊。
+在商務用 skype Online 或商務用 Skype Server 2019 中無法使用商務用 Skype Server 2015 的部分功能。如需詳細資訊，請參閱 [線上或混合的使用者帳戶限制](desktop-feature-comparison.md#Online-Hybrid) （適用于2019的2015或 [線上或混合使用者帳戶限制](desktop-feature-comparison.md#Online-Hybrid) ）。 商務用 skype Online 系統管理員可能會想要參考 [商務用 Skype Online 服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) ，以瞭解可用之不同方案的詳細資訊。
 
  在您部署或升級至商務用 Skype 之前，請先檢查您組織中已使用的用戶端。 使用 [商務用 Skype 的桌面用戶端功能比較](desktop-feature-comparison.md) ，瞭解對這些用戶端的功能支援影響。 這可協助您向使用者傳達變更、節奏向外延展程式，以及充分瞭解升級為最新用戶端的益處。
 
@@ -139,7 +139,7 @@ MSI 是一種較為傳統的安裝方法，用於商務用 Skype 2015 和2016用
 
 商務用 skype Server 2019 和商務用 Skype Online 支援下列先前發佈的用戶端：商務用 Skype 2016、商務用 Skype 2015、Lync 2013。
 
-商務用 Skype Server 2015 支援下列先前發佈的用戶端： Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 語音應答。 如需這些用戶端與其他伺服器搭配使用時的詳細資訊，請參閱 lync server [2013 的用戶端比較表](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) 和 [lync Server 2010 的用戶端比較表](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx)。
+商務用 Skype Server 2015 支援下列先前發佈的用戶端： Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 語音應答。 如需這些用戶端與其他伺服器搭配使用時的詳細資訊，請參閱 lync server [2013 的用戶端比較表](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) 和 [lync Server 2010 的用戶端比較表](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))。
 
 
 ## <a name="client-system-requirements"></a>用戶端系統需求
@@ -165,7 +165,7 @@ MSI 是一種較為傳統的安裝方法，用於商務用 Skype 2015 和2016用
 
 - [Mac 用戶端需求的商務用 Skype](mac-requirements.md)
 
-- [規劃 Microsoft 團隊聊天室](skype-room-systems-v2-0.md)
+- [規劃 Microsoft 團隊聊天室](/MicrosoftTeams/rooms/rooms-plan)
 
 - [規劃 VDI 環境中的商務用 Skype](vdi-environments.md)
 

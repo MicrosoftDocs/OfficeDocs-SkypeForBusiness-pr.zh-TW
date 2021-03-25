@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 網站是指通話許可控制 (CAC)、E9-1-1 和媒體旁路部署的每一個網路地區內的辦公室或位置。
-ms.openlocfilehash: dbe02c78c40cab48a79d7c63d3c6239b4ae59458
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0b339f15e53dd94bda655884f70c041f9da9e5a8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816453"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118562"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>在商務用 Skype Server 中的網站管理通話許可控制
 
@@ -38,7 +38,7 @@ ms.locfileid: "49816453"
     
     這個範例會建立名為雷諾的新網路站台連結 \_ ，此連結會設定雷諾和上點網路網站之間的頻寬限制。 網路網站與頻寬原則設定檔在執行此命令前即必須存在。
 
-如需詳細的參數描述，請參閱 [CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)。 若要擷取可套用至網路網站連結之頻寬原則設定檔的清單，請呼叫 **Get-CsNetworkBandwidthPolicyProfile** Cmdlet。 如需詳細資訊，請參閱 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)。
+如需詳細的參數描述，請參閱 [CsNetworkInterSitePolicy](/powershell/module/skype/New-CsNetworkInterSitePolicy)。 若要擷取可套用至網路網站連結之頻寬原則設定檔的清單，請呼叫 **Get-CsNetworkBandwidthPolicyProfile** Cmdlet。 如需詳細資訊，請參閱 [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)。
 
 ### <a name="to-modify-a-network-site-link"></a>若要修改網路網站連結
 
@@ -50,7 +50,7 @@ ms.locfileid: "49816453"
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-如需詳細的參數描述，請參閱 [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)。
+如需詳細的參數描述，請參閱 [Set-CsNetworkInterSitePolicy](/powershell/module/skype/Set-CsNetworkInterSitePolicy)。
 
 
 ### <a name="to-delete-a-network-site-link"></a>若要刪除網路網站連結
@@ -63,7 +63,7 @@ ms.locfileid: "49816453"
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-如需詳細的參數描述，請參閱 [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)。
+如需詳細的參數描述，請參閱 [Remove-CsNetworkInterSitePolicy](/powershell/module/skype/Remove-CsNetworkInterSitePolicy)。
 
 
 ## <a name="view-network-site-information"></a>查看網路網站資訊
@@ -106,7 +106,7 @@ ms.locfileid: "49816453"
         BWPolicyProfileID :
         LocationPolicy    :
 
-如需詳細資訊，請參閱＜[Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)＞Cmdlet 的說明主題。
+如需詳細資訊，請參閱＜[Get-CsNetworkSite](/powershell/module/skype/Get-CsNetworkSite)＞Cmdlet 的說明主題。
 
 
 ## <a name="create-or-modify-network-sites"></a>建立或修改網路網站 
@@ -196,20 +196,20 @@ ms.locfileid: "49816453"
 ## <a name="see-also"></a>另請參閱
 
 
-[新 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
+[新 CsNetworkInterSitePolicy](/powershell/module/skype/New-CsNetworkInterSitePolicy) 
  
-[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Set-CsNetworkInterSitePolicy](/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
 
-[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
 
-[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get-CsNetworkInterSitePolicy](/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
 
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
+[New-CsNetworkSite](/powershell/module/skype/New-CsNetworkSite)
 
-[Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
+[Set-CsNetworkSite](/powershell/module/skype/Set-CsNetworkSite)
 
-[Remove-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
+[Remove-CsNetworkSite](/powershell/module/skype/Remove-CsNetworkSite)  
 
-[Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  
+[Get-CsNetworkSite](/powershell/module/skype/Get-CsNetworkSite)

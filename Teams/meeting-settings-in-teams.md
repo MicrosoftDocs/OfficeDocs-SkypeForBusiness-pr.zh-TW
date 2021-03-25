@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711760"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117891"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -39,7 +39,7 @@ ms.locfileid: "50711760"
 
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles)，以了解取得系統管理員角色和權限。
+您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
 1. 移至系統管理中心。
 
@@ -61,7 +61,7 @@ ms.locfileid: "50711760"
 
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-您必須是 Teams 服務系統管理員才能存取此設定。 請參閱[使用 Teams 系統管理員角色來管理 Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles)，以了解取得系統管理員角色和權限。
+您必須是 Teams 服務系統管理員才能存取此設定。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
 1. 移至系統管理中心。
 

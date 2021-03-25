@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 瞭解如何升級 Cloud Connector Edition 部署。
-ms.openlocfilehash: dc9473dbf605f00df76daa1a88a29c7d5ed65fd8
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359289"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109129"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>升級至新版 Cloud Connector
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
  
 瞭解如何升級 Cloud Connector Edition 部署。
   
@@ -74,7 +74,7 @@ Cloud Connector Edition Edition 1.4.1 及更新版本預設會執行自動更新
 
 如果您要升級的網站中只有一個裝置，請執行下列操作：
   
-1. 在 [控制台] 的 [程式 ** \> \> 和功能**] 中卸載現有的雲端連接器版本。
+1. 在 [控制台] 的 [程式 **\> \> 和功能**] 中卸載現有的雲端連接器版本。
     
 2. 從安裝新版本的 CloudConnector.msi [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。
     
@@ -124,5 +124,3 @@ Set-CcCredential -AccountType TenantAdmin
 <a name="BKMK_Upgrade"> </a>
 
 遵循升級單一網站的步驟，一次為部署中的每個網站升級一個網站。 升級每個網站後，請確定並 [驗證您的雲端連接器部署](validate-your-cloud-connector-deployment.md) 。
-  
-

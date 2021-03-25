@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 中會議的硬體和軟體需求。
-ms.openlocfilehash: 59ad84cd0f4445709b236baecafeeab240e6ea65
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6ffa86266d8782e9e49c708998714bef4dbbed51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814013"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118512"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>商務用 Skype Server 中的會議硬體和軟體需求
 
@@ -69,7 +69,7 @@ ms.locfileid: "49814013"
 
 若要使用 web 會議功能，您必須安裝 Office Web Apps Server 和設定商務用 Skype Server，才能與 Office Web Apps Server 通訊。
 
-Office Web Apps Server 應該安裝在未執行商務用 Skype Server、SQL Server 或任何其他伺服器應用程式的獨立電腦上。  (您不能在該電腦上安裝任何版本的 Office。 ) 任何用來執行 Office Web Apps Server 的電腦也必須有一組特定的軟體安裝 (（包括 .NET Framework 4.5 和 Windows PowerShell 3.0) ）。 [Microsoft Office Web Apps 部署網站](https://go.microsoft.com/fwlink/p/?linkid=257525)會詳細討論這些需求，以及設定憑證和 Internet information SERVICES (IIS) 的相關資訊。
+Office Web Apps Server 應該安裝在未執行商務用 Skype Server、SQL Server 或任何其他伺服器應用程式的獨立電腦上。  (您不能在該電腦上安裝任何版本的 Office。 ) 任何用來執行 Office Web Apps Server 的電腦也必須有一組特定的軟體安裝 (（包括 .NET Framework 4.5 和 Windows PowerShell 3.0) ）。 [Microsoft Office Web Apps 部署網站](/webappsserver/deploy-the-infrastructure-office-web-apps-server)會詳細討論這些需求，以及設定憑證和 Internet information SERVICES (IIS) 的相關資訊。
 
 如需如何設定商務用 Skype Server 與 Office Web Apps Server 搭配使用的詳細資訊，請參閱 [設定商務用 Skype server 中的 Office Web Apps server 整合](../../deploy/deploy-conferencing/office-web-app-server.md)。
 
@@ -81,7 +81,7 @@ Office Web Apps Server 應該安裝在未執行商務用 Skype Server、SQL Serv
 
 您可以使用 [通話許可控制] (CAC) 管理 A/V 會議所使用的網路頻寬。 這對限制網路很重要，例如中央和分支網站之間有限的頻寬連結。 如需詳細資訊，請參閱 [在商務用 Skype Server 中規劃通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
 
-如果您在網路中部署音訊會議，您的使用者將需要諸如耳機等音訊裝置參加音訊會議。 如果您部署了影片會議，您必須部署影片裝置，例如使用者的網路攝像機。 針對音訊和影片裝置，裝置部署和使用者訓練為您考慮考慮的重要步驟。 如需詳細資訊，請參閱 [規劃用戶端和裝置](../../plan-your-deployment/clients-and-devices/clients-and-devices.md)。 Microsoft 建議您針對所有的裝置類型，針對由 Microsoft 認證的 UC) 裝置，使用整合通訊 (，以確保最佳的使用者體驗。 如需 UC 驗證裝置的詳細資訊，請參閱 [電話和商務用 Skype 的裝置](https://go.microsoft.com/fwlink/?LinkId=619916)。
+如果您在網路中部署音訊會議，您的使用者將需要諸如耳機等音訊裝置參加音訊會議。 如果您部署了影片會議，您必須部署影片裝置，例如使用者的網路攝像機。 針對音訊和影片裝置，裝置部署和使用者訓練為您考慮考慮的重要步驟。 如需詳細資訊，請參閱 [規劃用戶端和裝置](../../plan-your-deployment/clients-and-devices/clients-and-devices.md)。 Microsoft 建議您針對所有的裝置類型，針對由 Microsoft 認證的 UC) 裝置，使用整合通訊 (，以確保最佳的使用者體驗。 如需 UC 驗證裝置的詳細資訊，請參閱 [電話和商務用 Skype 的裝置](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
 
 ## <a name="requirements-for-dial-in-conferencing"></a>電話撥入式會議的需求
 
@@ -158,5 +158,3 @@ Office Web Apps Server 應該安裝在未執行商務用 Skype Server、SQL Serv
 |1024-65535 \*  <br/> |TCP/UDP  <br/> |音訊埠範圍 (至少需要20個埠)   <br/> |
 |1024-65535 \*  <br/> |TCP/UDP  <br/> |影片埠範圍 (至少需要20個埠) 。  <br/> |
 |1024-65535 \*  <br/> |TCP  <br/> |應用程式共用。  <br/> |
-
-

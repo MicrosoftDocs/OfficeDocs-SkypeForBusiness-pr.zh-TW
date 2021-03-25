@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 設定呼叫資料連線器的指示，允許使用商務用 Skype Online 工具來查看商務用 Skype 內部部署的遙測。
-ms.openlocfilehash: 0354f5a1fd1b4794af29d23e0a0fc1bf49dfebd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f78d59d02964bd826fc705bc193cae3e21b293a5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118992"
 ---
 # <a name="configure-call-data-connector"></a>設定通話資料連接器
 
@@ -38,18 +38,18 @@ ms.locfileid: "41726923"
 
 | 指令程式| 描述|
 | :-----------------|---------------:|
-| 新 CsCloudCallDataConnection | 建立線上資料收集器的線上 Cmdlet。|
-| CsCloudCallDataConnection | 可檢索現有線上資料收集器的線上 Cmdlet。|  
-| CsCloudCallDataConnector | 內部部署 Cmdlet，會檢索由 CsCloudCallDataConnection Cmdlet 所建立的連線資訊。 |
-| CsCloudCallDataConnector | 內部部署指令程式，可儲存 CsCloudCallDataConnection Cmdlet 所建立之連線資訊的內部部署複本。 |  
-| CsCloudCallDataConnectorConfiguration | 內部部署指令程式，可讓您啟用或停用連接器及自訂範圍層級。|
+| New-CsCloudCallDataConnection | 建立線上資料收集器的線上 Cmdlet。|
+| Get-CsCloudCallDataConnection | 可檢索現有線上資料收集器的線上 Cmdlet。|  
+| Get-CsCloudCallDataConnector | 內部部署 Cmdlet，會檢索 New-CsCloudCallDataConnection Cmdlet 所建立的連線資訊。 |
+| Set-CsCloudCallDataConnector | 內部部署指令程式，可儲存 New-CsCloudCallDataConnection Cmdlet 所建立之連線資訊的內部部署複本。 |  
+| Set-CsCloudCallDataConnectorConfiguration | 內部部署指令程式，可讓您啟用或停用連接器及自訂範圍層級。|
 
 > [!NOTE]
 > 若要清除您的設定並從頭開始，請使用 csclouddatconnectorconfiguration Cmdlet。
 
 ### <a name="configure-your-environment"></a>設定您的環境 
 
-若要設定環境以啟用線上資料收集器，您必須先以系統管理員身分登入商務用 Skype Online PowerShell。 如需詳細資訊，請參閱 [使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+若要設定環境以啟用線上資料收集器，您必須先以系統管理員身分登入商務用 Skype Online PowerShell。 如需詳細資訊，請參閱 [使用 Office 365 PowerShell 管理商務用 Skype Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 有兩種方法可登入商務用 Skype Online PowerShell:
 
@@ -95,7 +95,7 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 ### <a name="configure-the-scope"></a>設定範圍
 
-您可以在商務用 Skype Server 管理命令介面中使用 CsCloudCallDataConnectorConfiguration 指令程式，為特定網站或整個商務用 Skype Server 部署啟用呼叫資料連線器。 例如，下列命令會在全域範圍內啟用呼叫資料連線器：
+您可以在商務用 Skype Server 管理命令介面中使用 Set-CsCloudCallDataConnectorConfiguration Cmdlet，為特定網站或整個商務用 Skype Server 部署啟用呼叫資料連線器。 例如，下列命令會在全域範圍內啟用呼叫資料連線器：
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
@@ -124,7 +124,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 
 停用呼叫資料連線器時，不會解除與前端集區的關聯，也不會卸載，否則會影響後端監控資料庫。 當您停用通話資料連線器時，會停止將通話資料上傳至雲端的商務用 Skype Server。 
 
-您可以從商務用 Skype Server 管理命令介面中，使用 CsCloudCallDataConnectorConfiguration 指令程式來停用通話資料連線器。 例如，下列命令會透過將 EnableCallDataConnector 屬性設定為 $False，停用全域範圍的呼叫資料連線器：
+您可以從商務用 Skype Server 管理命令介面中，使用 Set-CsCloudCallDataConnectorConfiguration Cmdlet 來停用通話資料連線器。 例如，下列命令會透過將 EnableCallDataConnector 屬性設定為 $False，停用全域範圍的呼叫資料連線器：
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
@@ -138,13 +138,13 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>透過線上儀表板查看內部部署資料
 
- 啟用呼叫資料連線器之後，您可以在「呼叫分析儀表板」或「通話品質」儀表板上查看您的內部部署呼叫資料，如  [使用呼叫分析來疑難排解不良品質](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) ，以及 [開啟和使用 Microsoft 小組和商務用 Skype Online 的通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)。
+ 啟用呼叫資料連線器之後，您可以在「呼叫分析儀表板」或「通話品質」儀表板上查看您的內部部署呼叫資料，如  [使用呼叫分析來疑難排解不良品質](/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) ，以及 [開啟和使用 Microsoft 小組和商務用 Skype Online 的通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)。
 
-## <a name="for-more-information"></a>相關資訊
+## <a name="for-more-information"></a>如需詳細資訊
 
 如需 Cmdlet 的詳細資訊，您可以使用來自商務用 Skype Server 管理命令介面的 Get-Help 命令。 例如：
 
-Get-Help CsCloudCallDataConnector |更
+Get-Help Get-CsCloudCallDataConnector |更
 
 Get-Help Set-CsCloudCallDataConnector |更
 

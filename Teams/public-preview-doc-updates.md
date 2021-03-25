@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196217"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117701"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196217"
 
 Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存取。預覽版可讓您探索並測試即將推出的功能。我們也歡迎您提供對於公開預覽中任何功能的意見反應。公開預覽將針對每個 Teams 使用者啟用，因此您不需要擔心會影響整個組織。
 
-如需 Teams 公開預覽中所提供內容的清單，請瀏覽 [Office 目前通道 (預覽) 的版本資訊](https://docs.microsoft.com/officeupdates/current-channel-preview)。
+如需 Teams 公開預覽中所提供內容的清單，請瀏覽 [Office 目前通道 (預覽) 的版本資訊](/officeupdates/current-channel-preview)。
 
 ## <a name="set-the-update-policy"></a>設定更新原則
 
@@ -58,5 +58,4 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 
 ## <a name="related-topics"></a>相關主題
 
-[公開開發人員預覽](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[公開開發人員預覽](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

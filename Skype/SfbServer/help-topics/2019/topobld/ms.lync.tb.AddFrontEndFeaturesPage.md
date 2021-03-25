@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: 選取您要為前端集區啟用的每一個功能。 在最低限度下，您必須部署立即訊息 (IM) ，該永遠啟用，且無法取消選取。 您也可以選擇將其他功能（例如會議、Enterprise Voice 及通話許可控制）部署 (CAC) 。 有些功能取決於您的拓撲。
-ms.openlocfilehash: 140837ad8a8f9272341da597677a8f8dfb8e8a02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 12fb968a9ed0b1f9c88419158c8774fd0dc9f25c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811703"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118712"
 ---
 # <a name="add-front-end-features"></a>新增前端功能
 
@@ -39,6 +39,4 @@ ms.locfileid: "49811703"
 > [!NOTE]
 > 如果您想要在部署中啟用 CAC，您必須在每個中央網站剛好一個集區中啟用 CAC。 如果您要部署語音功能或 A/V 會議，建議 CAC。
 
-如需指定 Enterprise Edition 集區之功能的詳細資訊，請參閱部署檔中的 [定義和設定前端集](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) 區。
-
-
+如需指定 Enterprise Edition 集區之功能的詳細資訊，請參閱部署檔中的 [定義和設定前端集](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) 區。

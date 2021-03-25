@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 在系統管理中心或 Microsoft Graph 使用 Microsoft Teams 範本，提供預先定義的設定、頻道和應用程式範本，以快速且輕鬆地建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
-ms.translationtype: HT
+ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260305"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117871"
 ---
 # <a name="create-a-team-using-teams-healthcare-templates"></a>使用 Teams 醫療保健範本建立團隊
 
@@ -67,7 +67,7 @@ Microsoft Teams 系統管理員可以使用 Teams 系統管理中心，並透過
 
 ## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>使用 Teams 範本與 Microsoft Graph
 
-開發人員可以使用 Microsoft Graph 搭配 Teams 範本建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 如需深入了解一般小組範本，請參閱 [Teams 範本入門](../../get-started-with-teams-templates.md)。 而有關 Teams 範本和 Microsoft Graph 的資訊，請參閱 [Microsoft Teams API 概觀](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) 和 [teamsTemplate 資源類型](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+開發人員可以使用 Microsoft Graph 搭配 Teams 範本建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 如需深入了解一般小組範本，請參閱 [Teams 範本入門](../../get-started-with-teams-templates.md)。 而有關 Teams 範本和 Microsoft Graph 的資訊，請參閱 [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0) 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 ### <a name="ward-template"></a>Word 範本
 
@@ -93,7 +93,7 @@ Microsoft Teams 系統管理員可以使用 Teams 系統管理中心，並透過
 
 ### <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 
-若要使用這些範本，只需將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  如需了解如何部署 Teams 範本，請參閱 Microsoft Graph 文章，以了解如何[建立團隊](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要使用這些範本，只需將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  如需了解如何部署 Teams 範本，請參閱 Microsoft Graph 文章，以了解如何[建立團隊](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 範本中的頻道會自動在 [一般] 索引標籤下建立。

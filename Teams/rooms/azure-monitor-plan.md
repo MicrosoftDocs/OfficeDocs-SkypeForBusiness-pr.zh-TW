@@ -1,5 +1,5 @@
 ---
-title: 使用 Azure 監視器規劃 Microsoft 團隊聊天室管理
+title: 使用 Azure 監視器規劃 Microsoft Teams 會議室管理
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,59 +13,59 @@ localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
-description: 本文將討論使用 Azure 監視器來管理商務用 Skype 或團隊實現中的 Microsoft 團隊會議室裝置的規劃考慮。
+description: 本文討論在商務用 Skype 或 Teams 中使用 Azure 監視器管理 Microsoft Teams 會議室裝置時，規劃的考慮。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 16a962d7414407cf5f2f5734b7a2f39a56f7d281
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 56b22dddfc475efc83fb5bb3ef5734743b1eb0c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137603"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117581"
 ---
-# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure 監視器規劃 Microsoft 團隊聊天室管理
+# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure 監視器規劃 Microsoft Teams 會議室管理
  
- 本文將討論使用 Azure 監視器來管理 Microsoft 團隊或商務用 Skype 實現中的 Microsoft 團隊會議室裝置的規劃考慮。
+ 本文討論在 Microsoft Teams 或商務用 Skype 的實現中使用 Azure 監視器管理 Microsoft Teams 會議室裝置的計畫考慮。
   
-[Azure 監視器](https://docs.microsoft.com/azure/azure-monitor/overview)是從開始就在雲端中設計的管理服務集合。 Azure 監視器元件完全託管于 Azure 中，而不是部署和管理內部部署資源。 配置最小，在幾分鐘內您就可以依原義地啟動並執行。 有了一些自訂作業，it 能協助您管理 Microsoft 團隊會議室會議系統，方法是提供即時通知給個別房間系統的系統健康情況或錯誤，而且可能會擴大以管理數千個 Microsoft 團隊會議室會議室。
+[Azure 監視器](/azure/azure-monitor/overview) 是一組從一開始在雲端中設計的管理服務集合。 Azure 監視器元件完全託管在 Azure 中，而不是部署和管理內部部署資源。 組組是最小的，您只需要幾分鐘就可以順利上電。 在一些自訂作業中，它可提供個別會議室系統健康情況或錯誤即時通知，協助管理 Microsoft Teams 會議室會議系統，而且可能會放大管理數千個 Microsoft Teams 會議室會議室。
   
-本文提供針對 microsoft 團隊會議室會議裝置的 Azure 監視器管理所需執行的需求、設計/架構和實施最佳做法的討論，並提供有關針對 microsoft 團隊會議室進行即時監視的詳細文章的連結。 
+本文提供實管 Microsoft Teams 會議室會議裝置之 Azure 監視器管理所需的需求、設計/架構及實做最佳做法的討論，並提供有關為 Microsoft Teams 會議室實做 Azure 監視器的詳細文章連結，以及持續監控 Microsoft Teams 會議室的重要參考資訊。 
   
-## <a name="functional-overview"></a>功能概覽
+## <a name="functional-overview"></a>功能概觀
 
-![使用 Azure 監視器的 Microsoft 團隊聊天室管理圖表](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![使用 Azure 監視器管理 Microsoft Teams 會議室的圖表](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-主機裝置上的 Microsoft [小組聊天室] app 會將事件寫入其 Windows 事件記錄檔。 安裝 Microsoft Monitoring agent 之後，就會將資訊傳送到 Azure 監視器服務。 
+主機裝置上的 Microsoft Teams 會議室應用程式會將事件寫入其 Windows 事件記錄。 安裝之後，Microsoft 監控代理程式會將資訊傳遞至 Azure Monitor 服務。 
   
-設定正確之後，Log Analytics 會分析事件描述中內嵌的 JSON 負載，說明每個 Microsoft 團隊聊天室系統如何運作，以及偵測到哪些故障。 
+正確配置之後，Log Analytics 會剖析事件描述內嵌的 JSON 負載，以描述每個 Microsoft Teams 會議室系統的運作方式，以及偵測到哪些錯誤。 
   
-使用 Azure 監視器的管理員可以取得離線或遇到 app、連線或硬體故障的 Microsoft 團隊聊天室系統通知，以及瞭解是否需要重新開機系統。 每個系統狀態都會經常更新，因此這些通知會接近即時更新。
+使用 Azure 監視器的系統管理員可以取得離線或遇到 App、連線或硬體故障的 Microsoft Teams 會議室系統通知，以及知道系統是否必須重新開機。 每個系統狀態會經常更新，因此這些通知會接近即時更新。
   
 ## <a name="azure-monitor-requirements"></a>Azure 監視器需求
 
-您必須具備有效的 Azure 監視器 Azure 訂閱才能使用 Log Analytics 功能。 請參閱[開始使用 Log Analytics 工作區](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)，為您的組織建立訂閱。
+您必須擁有有效的 Azure 訂閱，才能使用 Azure 監視器的記錄分析功能。 請參閱 [開始使用記錄分析工作區](/azure/azure-monitor/learn/quick-create-workspace) ，為貴組織建立訂閱。
   
-您應該熟悉如何使用 Log Analytics 視圖設計工具。 如需詳細資訊，請參閱[記錄分析中的視圖](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)。
+您應該視需要熟悉如何使用記錄分析視圖設計工具。 請參閱 [記錄分析中的查看，](/azure/azure-monitor/platform/view-designer) 瞭解這些詳細資料。
   
-### <a name="related-tasks"></a>相關任務
+### <a name="related-tasks"></a>相關工作
 
-1. 訂閱 Azure 監視器記錄分析之後，請建立自訂欄位（如[對應自訂欄位](azure-monitor-deploy.md#Custom_fields)所述），以分析將從 Microsoft 團隊聊天室主控台傳送的資訊。 這包括瞭解在[瞭解記錄專案](azure-monitor-manage.md#understand-the-log-entries)中記錄的 JSON 架構。
+1. 訂閱 Azure 監視器記錄分析之後，請建立自訂欄位 (如地圖 [自訂](azure-monitor-deploy.md#Custom_fields) 欄位) 所述，以剖析從 Microsoft Teams 會議室主控台所送出的資訊。 這包括瞭解在瞭解記錄專案中記載的 [JSON 架構](azure-monitor-manage.md#understand-the-log-entries)。
     
-2. 在 Log Analytics 中開發 Microsoft 團隊聊天室管理檢視。 您可以使用 import 方法或[手動建立 Microsoft 團隊聊天室儀表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)，來[建立 microsoft 團隊聊天室儀表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method)。
+2. 在記錄分析中開發 Microsoft Teams 會議室管理檢視。 您可以使用輸入方法建立 [Microsoft Teams 會議室儀表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) ，或手動建立 [Microsoft Teams 會議室儀表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)。
     
-## <a name="individual-microsoft-teams-rooms-console-requirements"></a>個別 Microsoft 團隊會議室的需求
+## <a name="individual-microsoft-teams-rooms-console-requirements"></a>個別 Microsoft Teams 會議室主機需求
 
-每個 Microsoft [團隊聊天室] 主控台都是在 kiosk 模式（通常是設定為可以在裝置上執行）的 Surface Pro 裝置上執行的 app。 就像任何 Windows app 一樣，Microsoft 團隊聊天室 app 會將啟動和硬體故障等事件寫入 Windows 事件記錄檔。 在 Microsoft 團隊聊天室裝置上新增 Microsoft 監視器代理程式後，就能收集這些事件。 （如需詳細資訊，請參閱[將 Windows 電腦連線至 Azure 中的 Log Analytics 服務](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)。）
+每個 Microsoft Teams 會議室主控台都是在 Surface Pro 裝置上以資訊站模式執行的應用程式 (通常，它已配置為唯一可在裝置上執行的應用程式) 。 如同任何 Windows App 一樣，Microsoft Teams 會議室應用程式會將啟動和硬體錯誤等事件寫入 Windows 事件記錄。 在 Microsoft Teams 會議室裝置上新增 Microsoft Monitor 代理程式可讓您收集這些事件。  (請參閱 [將 Windows 電腦連接到 Azure](/azure/azure-monitor/platform/agent-windows) 中的記錄分析服務以) 
   
 ## <a name="ongoing-management"></a>持續管理
 
-使用 Azure 監視器來管理 Microsoft 團隊聊天室裝置時，您必須瞭解 Azure 監視器所使用的事件記錄中所包含的資訊。 如需這些狀況訊息的詳細資料，請參閱[瞭解記錄專案](azure-monitor-manage.md#understand-the-log-entries)。
+使用 Azure 監視器管理 Microsoft Teams 會議室裝置時，您必須瞭解 Azure 監視器使用的事件記錄中包含的資訊。 請參閱 [瞭解這些健康情況訊息](azure-monitor-manage.md#understand-the-log-entries) 的詳細資訊記錄專案。
   
-### <a name="related-tasks"></a>相關任務
+### <a name="related-tasks"></a>相關工作
 
-- 瞭解 Microsoft 團隊聊天室所產生的通知，以及如何解決這些警報（請參閱標題為[瞭解記錄專案](azure-monitor-manage.md#understand-the-log-entries)的章節）
+- 瞭解 Microsoft Teams 會議室產生的通知，以及如何解決 (請參閱瞭解記錄專案) [](azure-monitor-manage.md#understand-the-log-entries)
     
 ## <a name="see-also"></a>另請參閱
 
-[使用 Azure 監視器部署 Microsoft 團隊聊天室管理](azure-monitor-deploy.md)
+[使用 Azure 監視器部署 Microsoft Teams 會議室管理](azure-monitor-deploy.md)
   
-[使用 Azure 監視器管理 Microsoft 團隊聊天室裝置](azure-monitor-manage.md)
+[使用 Azure 監視器管理 Microsoft Teams 會議室裝置](azure-monitor-manage.md)

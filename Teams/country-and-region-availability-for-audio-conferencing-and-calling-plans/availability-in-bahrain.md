@@ -1,5 +1,5 @@
 ---
-title: 巴林中的可用性
+title: 在巴達裡達的可用性
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,35 +24,35 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（適用于巴林）。
-ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
-ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
+description: 以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于巴達的 Microsoft Teams。
+ms.openlocfilehash: 0cdc1839d4d88b9679ab6a4f551a905bdf1cf871
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391621"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118402"
 ---
-# <a name="availability-in-bahrain"></a>巴林中的可用性
+# <a name="availability-in-bahrain"></a>在巴達裡達的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（適用于巴林）。
+以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于巴達的 Microsoft Teams。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |否  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於： <br/><ul><li>Manama</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> |需要通訊點數  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於： <br/><ul><li>麥納瑪</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> |需要通訊信用額度  <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-| 自動語音應答 <br/> |有空  <br/> |
-|通話佇列  <br/> |有空  <br/> |
+| 自動語音應答 <br/> |可用  <br/> |
+|通話佇列  <br/> |可用  <br/> |
 |語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
@@ -70,11 +70,11 @@ ms.locfileid: "45391621"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Manama  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |麥納瑪  <br/> |
 |有提供付費電話號碼嗎？  <br/> |否  <br/> |
 |是否提供免付費電話號碼？  <br/> |否  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -86,6 +86,6 @@ ms.locfileid: "45391621"
   
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

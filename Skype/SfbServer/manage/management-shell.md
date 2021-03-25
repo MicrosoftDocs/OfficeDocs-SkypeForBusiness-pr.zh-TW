@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是以 Windows PowerShell 為基礎，包含一組完整的 Skype 和舊版 Lync server 產品特有的管理和管理 Cmdlet。
-ms.openlocfilehash: 0653faa542bc9bc579bd7617e40d3efed030569f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24da9ac341129239399ea17218be8547f3549d6f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816533"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118582"
 ---
 # <a name="skype-for-business-server-management-shell"></a>商務用 Skype Server 管理命令介面
  
@@ -54,7 +54,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
   
 - 商務用 skype Server 管理命令介面會自動安裝在每家商務用 Skype Server Enterprise Edition 前端伺服器或 Standard Edition server 上。
     
-- 您可以執行 [Update-Help](https://technet.microsoft.com/library/hh849720.aspx) Cmdlet 來更新商務用 Skype Server 管理命令介面說明內容。 Update-Help Cmdlet 會下載並安裝適用于電腦上所有模組的最新説明檔案，包括商務用 Skype Cmdlet 的更新。
+- 您可以執行 [Update-Help](/powershell/module/microsoft.powershell.core/update-help) Cmdlet 來更新商務用 Skype Server 管理命令介面說明內容。 Update-Help Cmdlet 會下載並安裝適用于電腦上所有模組的最新説明檔案，包括商務用 Skype Cmdlet 的更新。
     
     根據預設， **Update-Help** Cmdlet 會更新所有安裝在商務用 Skype Server 上的模組。 如果您只想更新特定的模組，您可以使用 _Module_ 參數來限制 Cmdlet 的範圍。 下列範例只會更新商務用 Skype 模組。
     
@@ -62,7 +62,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
   Update-Help -Module SkypeforBusiness
   ```
 
-    如果您需要更新未連接至網際網路之伺服器上的說明，您可以使用 [Save-Help](https://technet.microsoft.com/library/hh849724.aspx) Cmdlet 來取得最新版本的說明，並將其儲存至您指定的位置。 然後，您可以在未連線至網際網路的伺服器上使用 _-SourcePath_ 參數的 **Update-Help** Cmdlet，以從選取的位置取得更新的說明。 下列範例顯示如何將說明檔案儲存至網路檔案共用，然後從檔案共用更新商務用 Skype 模組的說明。
+    如果您需要更新未連接至網際網路之伺服器上的說明，您可以使用 [Save-Help](/powershell/module/microsoft.powershell.core/save-help) Cmdlet 來取得最新版本的說明，並將其儲存至您指定的位置。 然後，您可以在未連線至網際網路的伺服器上使用 _-SourcePath_ 參數的 **Update-Help** Cmdlet，以從選取的位置取得更新的說明。 下列範例顯示如何將說明檔案儲存至網路檔案共用，然後從檔案共用更新商務用 Skype 模組的說明。
     
   ```PowerShell
   // Save the help files
@@ -71,9 +71,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 
-    如需詳細資訊，請參閱 [關於可更新的協助](https://technet.microsoft.com/library/hh847735.aspx)。
+    如需詳細資訊，請參閱 [關於可更新的協助](/powershell/module/microsoft.powershell.core/about/about_updatable_help)。
     
     > [!NOTE]
-    > 如果您遠端使用 PowerShell，您可能需要透過防火牆允許通訊。 若要深入瞭解 PowerShell 遠端使用的埠，請參閱 [Remoting 使用哪個埠 PowerShell？](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/)。
-    
-
+    > 如果您遠端使用 PowerShell，您可能需要透過防火牆允許通訊。 若要深入瞭解 PowerShell 遠端使用的埠，請參閱 [Remoting 使用哪個埠 PowerShell？](/archive/blogs/christwe/what-port-does-powershell-remoting-use)。

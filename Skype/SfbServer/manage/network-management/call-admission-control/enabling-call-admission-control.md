@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " 將通話許可控制設定 (CAC) 網路之後，您必須啟用 CAC 以強制執行頻寬限制。"
-ms.openlocfilehash: 8e996b4d2272144a35f667a5d6987b2cb91af708
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816503"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118572"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用通話許可控制
 
@@ -50,8 +50,8 @@ ms.locfileid: "49816503"
  
 [設定通話許可控制](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-CsNetworkConfiguration](/powershell/module/skype/Get-CsNetworkConfiguration)  
 
-[CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[CsNetworkConfiguration](/powershell/module/skype/Set-CsNetworkConfiguration)  
 
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](/powershell/module/skype/Remove-CsNetworkConfiguration)

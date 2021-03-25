@@ -21,19 +21,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 瞭解如何將 Microsoft 電話撥入式會議提供者指派給商務用 Skype。
-ms.openlocfilehash: 8ce128c2fa19668ed93c6ad387feecbee2e00a8d
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 瞭解如何將商務用 Skype 電話撥入式會議提供者指派給 Microsoft。
+ms.openlocfilehash: b0276b0f5ed50e3c287bc872de45d6c1c4c69157
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164514"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110039"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>將 Microsoft 指派為音訊會議提供者
 
-若要在 Microsoft 365 或 Office 365 中使用商務用 Skype 和 Microsoft 團隊的音訊會議，貴組織中的使用者必須具備指派音訊會議授權。 請參閱[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365.md)，以取得授權及成本的詳細資訊。
+若要在 Microsoft 365 或 Office 365 中使用音訊會議與商務用 Skype 和 Microsoft Teams，貴組織的使用者必須指派音訊會議授權給他們。 請參閱 [在 Microsoft 365 或 Office 365](try-or-purchase-audio-conferencing-in-office-365.md) 中試用或購買音訊會議，以取得授權和費用詳細資訊。
 
-Microsoft 音訊會議提供撥入式電話號碼、Pin 及會議 Id，可供會議參與者加入貴組織的會議。 您只需將 Microsoft 作為音訊會議提供者指派給要排程或引導商務用 Skype 或 Microsoft 團隊會議的人員。
+Microsoft 音訊會議提供撥入式電話號碼、PIN 和會議編號，會議參與者可用來加入貴組織的會議。 您只需要將 Microsoft 指派為音訊會議提供者給打算排程或主導商務用 Skype 或 Microsoft Teams 會議的人員。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -42,55 +42,55 @@ Microsoft 音訊會議提供撥入式電話號碼、Pin 及會議 Id，可供會
 
 ### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![顯示商務用 Skype 標誌的圖示](../images/sfb-logo-30x30.png) 使用商務用 Skype 系統管理中心
 
-1. 移至**Microsoft [團隊管理中心** > ] 的**舊版入口網站**。
+1. 請前往 **Microsoft Teams 系統管理中心**  >  **舊版入口網站**。
     
-2. 在**商務用 Skype 系統管理中心**的左導覽中，前往 [**音訊會議**]。
+2. 在商務 **用 Skype 系統管理中心** 左側的流覽中，前往 **音訊會議**。
     
-3. 如果您看到橫幅通知您有指派**音訊會議**授權的使用者，但尚未將 Microsoft 設定為其音訊會議提供者，請按一下 [**按一下這裡以進行移動**]。 如果您沒有看到橫幅，請在 [**商務用 Skype 系統管理中心**] 中按一下 [**使用者**]，然後選取 [**準備好要移至音訊會議的使用者**] 篩選。
+3. 如果您看到橫幅，通知您有使用者已指派音訊會議授權，但尚未將Microsoft 設定為其音訊會議提供者，請按一下 [按一下這裡以移動 **他們**。 如果您沒看到橫幅，請在商務用 **Skype** 系統管理中心按一下 [使用者，然後選取準備好要移至 **音訊會議篩選的使用者**。
     
-4. 在使用者的 [屬性] 頁面的 [**提供者名稱**] 底下，選取下拉式清單中的 [ **Microsoft** ]。
+4. 在使用者的屬性頁面上，在提供者 **名稱** 下，選取下拉式清單中的 **Microsoft。**
     
     > [!NOTE]
-    > 由於您是使用 Microsoft 作為音訊會議提供者，而且有多個電話號碼，因此您可以使用 [**預設收費號碼**] 下拉式清單來選取使用者的預設音訊號碼。
+    > 由於您使用的是 Microsoft 作為音訊會議提供者，而且有多個電話號碼，因此您可以使用預設付費號碼下拉式清單來選取使用者的預設音訊號碼。
   
-5. 按一下 [儲存]****。
+5. 按一下 [儲存]。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
-### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>針對少數幾個使用者使用 Windows PowerShell 腳本
+### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>為少數使用者使用 Windows PowerShell 腳本
 
-若要節省時間或將這項作業自動化，您可以使用下列 PowerShell 腳本，為少數使用者將 Microsoft 設定為音訊會議提供者。
+若要節省時間或自動化這項功能，您可以使用下列 PowerShell 腳本將 Microsoft 設定為少數使用者的音訊會議提供者。
 
 > [!NOTE]
-> 當提供者從另一個提供者變更為**Microsoft**時，使用者的音訊會議資訊（會議 ID、付費和免付費電話號碼）將會被取代。 變更提供者前，您應該先儲存此資訊。 
+> 當提供者從另一個提供者變更為 **Microsoft** 時，系統將會 (會議 ID、付費和免付費號碼) 使用者的音訊會議資訊。 在變更提供者之前，您應該先儲存此資訊。 
 
   
-若要針對少數使用者將提供者變更為 Microsoft，您可以使用[Enable-get-csonlinedialinconferencinguser](https://technet.microsoft.com/library/mt243813.aspx) Cmdlet。
+若要針對少數使用者將提供者變更為 Microsoft，您可以使用  [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/Enable-CsOnlineDialInConferencingUser) Cmdlet。
   
 
-### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>針對大量使用者使用 Windows PowerShell 腳本
-若要節省時間或將這項作業自動化，您可以使用下列 PowerShell 腳本，將 Microsoft 設定為大量使用者的音訊會議提供者。
+### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>為大量使用者使用 Windows PowerShell 腳本
+若要節省時間或將這項功能自動化，您可以使用下列 PowerShell 腳本，將 Microsoft 設定為大量使用者的音訊會議提供者。
 
-當提供者從另一個提供者變更為**Microsoft**時，使用者的音訊會議資訊（會議 ID、付費和免付費電話號碼）將會被取代。 變更提供者前，您應該先儲存此資訊。 
+當提供者從另一個提供者變更為 **Microsoft** 時，系統將會 (會議 ID、付費和免付費號碼) 使用者的音訊會議資訊。 在變更提供者之前，您應該先儲存此資訊。 
   
-您可以將下列腳本儲存為 PowerShell 腳本檔案，然後使用其任何輸入參數執行。
+您可以將下列腳本儲存為 PowerShell 腳本檔案，然後使用任何輸入參數執行。
 
-**範例1：** 您可以提供您想要更新的使用者清單，以執行此腳本。
+**範例 1：** 您可以提供您想要更新的使用者清單，以執行此腳本。
    
   ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
-**範例2：** 您可以提供一個 .csv 檔案，其中包含您要更新之每個使用者的電子郵件地址（別名），以執行此腳本。
+**範例 2：** 您可以提供包含電子郵件地址的 .csv 檔案， () 更新每個使用者的別名，以執行此腳本。
    
   ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**範例3：** 在這個範例中，您可以使用此腳本，將音訊會議提供者從 Intercall （或另一個提供者）變更為適用于貴組織中大量使用者的**Microsoft** 。
+**範例 3：** 在此範例中，您可以使用此腳本，將音訊會議提供者從 Intercall (或另一) 提供者變更為 **Microsoft，** 供貴組織中大量使用者使用。
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
@@ -193,9 +193,8 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-如需使用 Windows PowerShell 的詳細資訊，請參閱[使用 Windows PowerShell 來執行常見的商務用 Skype Online 管理工作](https://go.microsoft.com/fwlink/?LinkId=525038)。
+有關使用 Windows PowerShell 的資訊，請參閱使用 [Windows PowerShell 執行常見的商務](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)用 Skype Online 管理工作。
   
 ## <a name="related-topics"></a>相關主題
-[在 Microsoft 365 或 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-中試用或購買音訊會議[設定商務用 Skype Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
+[設定商務用 Skype Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

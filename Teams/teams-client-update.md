@@ -1,5 +1,5 @@
 ---
-title: 團隊更新
+title: Teams 更新
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -13,53 +13,54 @@ ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 在本文中，您將瞭解更新 Microsoft 團隊桌面用戶端之後的程式。
+description: 在本文中，您將瞭解更新 Microsoft Teams 桌面用戶端背後的程式。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f8681f3f4cc7c25e9499e25e3978848084086a2a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 68e26325f4efcc5ffd7731b73e397f1f96579dd5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031879"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119242"
 ---
-# <a name="teams-update-process"></a>小組更新流程
+# <a name="teams-update-process"></a>Teams 更新程式
 
-團隊 web app 會每週更新一次。
+Teams Web App 每週更新一次。
 
-團隊桌面用戶端更新會在經過我們的技術採納計畫之後，每兩周發行一次， (攻) 。 這通常會在星期二進行。 如果需要重要更新，小組會略過此排程，並在更新推出後立即發行更新。
+透過我們的技術採用計畫與 TAP (，每兩周發佈一次 Teams 桌面) 。 更新通常會在星期二進行。 如果需要重大更新，Teams 會忽略此排程，並儘快發佈更新。
 
-桌面用戶端會自動更新。 團隊會在幕後每隔幾小時檢查更新、下載更新，然後等到電腦處於空閒狀態，然後才能自行安裝更新。
+桌面用戶端會自動更新本身。 Teams 會每隔幾個小時在幕後檢查更新、下載更新，然後等待電腦閒置，再以無提示方式安裝更新。
 
-使用者也可以按一下應用程式右上方的 [檢查 **設定檔** ] 下拉式功能表上的 [ **檢查更新** ]，手動下載更新。 如果有可用的更新，系統會在電腦空閒時下載並自動安裝。
+使用者也可以選取應用程式右上方的設定檔下拉式功能表上的檢查更新，以手動下載更新。 如果有可用的更新，系統就會在電腦閒置時下載並以無提示方式安裝更新。
 
-使用者必須登入，才能下載更新。 
+使用者必須登錄，以下載更新。
 
-從2019年7月31日起，團隊用戶端更新在更新期間使用明顯較低的網路頻寬。 此功能預設為開啟，且不需要系統管理員或使用者執行任何動作。
+自 2019 年 7 月 31 日起，Teams 用戶端更新在更新期間會使用較低的網路頻寬。 此更新預設為開啟，且不需要系統管理員或使用者執行任何動作。
 
-## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>針對企業版 Microsoft 365 應用程式的更新，該怎麼辦？
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>適用于企業的 Microsoft 365 App 更新呢？
 
-依將 [Microsoft 團隊與企業版 microsoft 365 應用程式一起部署](https://docs.microsoft.com/DeployOffice/teams-install)，在預設情況下，小組會自行安裝 Microsoft 365 應用程式的新安裝。 
+根據預設，Teams 會安裝新的 Microsoft 365 企業版應用程式安裝，如使用 [Microsoft 365](/DeployOffice/teams-install)企業版 App 部署 Microsoft Teams 中所述。
 
-團隊會依照上面所述的更新程式，而不是其他辦公室應用程式（例如 Word 和 Excel）的更新程式。 若要深入瞭解，請參閱適用 [于企業的 Microsoft 365 應用程式更新通道的概覽](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+如上所述，Teams 會遵循自己的更新程式。 Teams 不會遵循其他辦公室應用程式的更新程式，例如 Word 和 Excel。 若要深入瞭解，請參閱 [企業版 Microsoft 365 應用程式更新通道概觀](/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的小組更新為何？
+## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的 Teams 更新呢？
 
-虛擬桌面基礎結構上的團隊用戶端 (VDI) 不會自動更新非 VDI 團隊用戶端的方式。 您必須安裝新的 MSI 來更新 VM 影像，如在 [VDI 上安裝小組](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)中所述。 您必須卸載目前的版本，才能更新為較新的版本。
 
-## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>管理員是否可以部署更新，而不是團隊自動更新？
+虛擬桌面基礎結構上的 Teams (VDI) 不會以非 VDI Teams 用戶端的方式自動更新。 您必須按照在 VDI 上安裝 Teams 的指示，安裝新的 [MSI](teams-for-vdi.md)來更新 VM 映射。 您必須卸載目前的版本，以更新至較新版本。
 
-團隊不會給予管理員透過任何傳遞機制部署更新的功能。
+## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>系統管理員可以部署更新，而不是 Teams 自動更新嗎？
 
-## <a name="servicing-agreement"></a>服務合約
+Teams 不會提供系統管理員透過任何傳遞機制部署更新的能力。
 
-作為現代的線上服務，小組用戶端會每兩周自動更新一次。 由於團隊是由現代的生命週期原則所管理，因此，使用者可能會保持最新版本的桌面用戶端。 這可確保使用者擁有最新的功能、效能增強、安全性和服務可靠性。
+## <a name="servicing-agreement"></a>維護協定
 
-若要在桌面用戶端過期時開始協助識別，如果使用者的目前版本在一到三個月之間，且有可用的新版本，就會顯示應用程式內警示。 此應用程式內訊息鼓勵使用者更新到最新版本的小組，或視需要向 IT 系統管理員進行更新。 在超過三個月之前的小組桌面用戶端上，系統會顯示封鎖頁面，提供立即更新、與 IT 管理員聯繫，或繼續在網路上的小組中的選項。
+Teams 用戶端是一種新式線上服務，每兩周自動更新一次。 由於 Teams 受新式生命週期策略所規範，因此使用者預期會維持在桌面用戶端的最新版本。 自動更新可確保使用者擁有最新的功能、增強功能、安全性和服務可靠性。
 
-在第一次安裝和/或第一次執行團隊後的桌面用戶端版本超過三個月，在遇到上述服務資訊之前，會有28天的寬限期。 在此期間，自動更新程式將會更新團隊用戶端。 如果未更新，使用者就會看到應用程式內的警示，鼓勵他們手動更新為最新版本的團隊，或視需要向 IT 系統管理員確認。 這包括使用小組桌面用戶端的使用者做為適用于企業套件的 Microsoft 365 應用程式的一部分。
+若要識別桌面用戶端何時過期，如果使用者的目前版本介於 1 到 3 個月之間，以及是否有可用的新版本，則會顯示應用程式內通知。 此 App 內訊息可鼓勵使用者更新至最新版本的 Teams，或在必要時與 IT 系統管理員聯繫以執行這項操作。 超過三個月的 Teams 桌面用戶端使用者會看到封鎖頁面，提供現在更新、連至 IT 系統管理員或繼續使用 Teams 網頁版的選項。
 
-政府群的小組桌面用戶端目前有此服務協定的例外狀況，直到進一步通知。
+第一次安裝及/或第一次執行 Teams 時超過 3 個月的桌面用戶端版本，在遇到上述維護資訊之前，有 28 天的寬限期。 在此期間，自動更新程式會更新 Teams 用戶端。 如果未更新，使用者會看到應用程式內通知，鼓勵他們手動更新至最新版本的 Teams。 系統可能會提示使用者與 IT 系統管理員聯繫以進行更新。 這包括使用 Teams 桌面用戶端作為 Microsoft 365 應用程式企業套件一部分的使用者。
 
-如需新版版本的詳細資訊，請參閱 [訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)或移至 **協助**  >  用戶端 **的新增功能** 。
+在進一步通知之前，政府雲端上的 Teams 桌面用戶端目前有此服務協定的例外。
+
+有關新版本發行的資訊，請查看 [訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)或前往說明  >  **用戶端** 的新增功能。

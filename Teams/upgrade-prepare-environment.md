@@ -1,5 +1,5 @@
 ---
-title: 準備您的環境以升級至團隊
+title: 準備您的環境以升級至 Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在開始從商務用 Skype 升級至團隊之前，請先驗證您的環境和網路準備情況。
+description: 在從商務用 Skype 升級至 Teams 之前，先驗證您的環境和網路準備狀態。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,30 +20,30 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb736a0398d1ab77ed67919f02a80400bd2ae19e
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: f75d899f2b14915e265ce8d36c57daeaf0ce72d2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578246"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119052"
 ---
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>準備您的環境以升級至團隊
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>準備您的環境以升級至 Teams
 
-![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
+![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是您升級歷程的技術就緒階段（您可以與使用者準備階段並行完成的活動）的一部分。 繼續之前，請先確認您已從先前階段完成這些活動：
+本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
 
-- [已登記您的專案干係人](upgrade-enlist-stakeholders.md)
-- [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
-- [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
-- [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
+- [已定義專案範圍](./upgrade-define-project-scope.md)
+- [瞭解商務用 Skype 和 Teams 的共存與互通性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-若要推動貴組織中成功的小組升級，請務必驗證目前的商務用 Skype 環境與您的網路準備情況。 準備目前的環境，除了改善團隊中的使用者體驗品質之外，還能協助您立即保證高品質的使用者體驗。 花點時間來規劃個別步驟可協助加速您的部署，並確保您未略過任何重要的動作專案。
+若要在貴組織中推動 Teams 升級成功，您必須驗證您目前的商務用 Skype 環境和您的網路準備狀態。 準備您目前的環境，除了改善 Teams 中的使用者體驗品質之外，現在也有助於確保高品質的使用者體驗。 花時間規劃個別步驟有助於加速部署，並確保您未略過任何重要動作專案。
 
-與您的使用者準備就緒準備並行完成這些活動：
+在使用者準備準備的同時完成這些活動：
 
-- 為[您的 IT 員工做好準備](upgrade-prepare-IT-pros.md)，協助確保他們有成功升級歷程所需的專案。
-- 確認您的環境符合所有 [先決條件](upgrade-plan-journey-prerequisites.md)，並瞭解 Microsoft 365 或 Office 365 服務與團隊之間的相依性。
-- 若要[評估您的環境](upgrade-plan-journey-evaluate-environment.md)，請使用範例問卷問卷來執行環境探索，以確認貴組織已準備好將升級遷移到團隊。
-- 針對您的網路規劃、準備及採取任何必要的修正步驟來[準備您的網路](prepare-network.md)，以支援小組工作負載。
-- 使用 [加入檢查清單][準備您的服務](upgrade-prepare-environment-prepare-service.md)以進行推出，以確保您的小組配置已準備好支援將您的使用者從商務用 Skype 遷移至團隊。
+- [準備您的 IT 員工](upgrade-prepare-IT-pros.md) ，協助確保他們擁有成功升級旅程所需的功能。
+- 確認您的環境 [符合所有先決條件](upgrade-plan-journey-prerequisites.md)，並瞭解 Microsoft 365 或 Office 365 服務和 Teams 之間的相依性。
+- [使用範例問卷](upgrade-plan-journey-evaluate-environment.md) 來執行環境探索，以確認貴組織準備好要成功升級 Teams，以評估您的環境。
+- [規劃、準備您的網路](prepare-network.md) ，並針對您的網路採取任何必要的補救步驟，以支援 Teams 工作負載。
+- [使用登錄檢查](upgrade-prepare-environment-prepare-service.md) 清單準備服務以推出，確保您的 Teams 組組已準備就緒，可支援將使用者從商務用 Skype 移轉至 Teams。

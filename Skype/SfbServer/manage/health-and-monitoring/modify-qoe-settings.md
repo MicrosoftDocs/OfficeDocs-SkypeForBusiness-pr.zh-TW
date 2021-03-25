@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 摘要：瞭解如何在商務用 Skype Server 中指定 QoE 資料的保留。
-ms.openlocfilehash: 18776e9b8eec9dcff6ced9f654d8153d7fa01777
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cba8b2b98aa809c0583ad7323ff846e654ca9ace
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827793"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118612"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>修改商務用 Skype Server 中的經驗品質設定
 
@@ -66,8 +66,8 @@ ms.locfileid: "49827793"
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-如需詳細資訊，請參閱 [Set CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Set CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
 
 ## <a name="see-also"></a>另請參閱
 
-[部署監控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[部署監控](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)
