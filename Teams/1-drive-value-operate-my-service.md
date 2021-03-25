@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊的操作指南
+title: Microsoft Teams 的操作指南
 author: rmw2890
 ms.author: Rowille
 audience: admin
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 小組服務管理所需的工作和活動，包括監控服務健康情況，以及評估並確保網路品質與使用方式。
+description: Teams 服務管理所需的工作和活動，包括監控服務健康情況，以及評估及確保網路品質和使用狀況。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,268 +18,268 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1762c3462f4758766f3b6996539b5c83342eedd6
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 5684ad62107fa61af7c9f2f22c6f15b4bfe1da30
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085109"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112649"
 ---
 # <a name="operate-my-service"></a>營運我的服務
 
-本文將為您的組織成功操作雲端語音服務的需求進行概覽。 透過正常運作您的雲端語音服務，您可以確定您為貴組織提供優質且可靠的體驗。
+本文概觀貴組織成功營運雲端語音服務的需求。 您可以正確操作雲端語音服務，確保為貴組織提供高品質、可靠的體驗。
 
 ## <a name="introduction-to-the-operations-guide"></a>操作指南簡介
 
-[操作指南] 可讓您大致瞭解 Microsoft 團隊服務管理功能所需的所有工作和活動。
+操作指南提供 Microsoft Teams 服務管理功能之一部分之所有工作與活動概觀。
 
-服務管理是一個廣泛的主題，涵蓋在部署並為使用者啟用 Microsoft 團隊服務之後的日常作業。 [團隊服務] 包含 Microsoft 365 或 Office 365，以及部署于內部部署的基礎結構元件（例如 [網路]）。
+服務管理是一個廣泛的主題，涵蓋 Microsoft Teams 服務在部署並啟用使用者之後，其日常運作。 Teams 服務包含 Microsoft 365 或 Office 365，以及部署在內部部署基礎結構元件 (例如網路) 。
 
-服務管理的概念很可能不是大多陣列織的新概念。 您可能已經實現與現有服務相關聯的進程和工作。 如此一來，您可能會在規劃服務管理，在未來為支援小組時，增加目前的程式。
+服務管理的概念對於大多陣列織來說，很可能不是一個新概念。 您可能已經實施與現有服務相關聯的程式與工作。 也就是說，當您今天規劃服務管理以支援 Teams 時，您或許可以擴充目前的程式。
 
-服務管理包括管理團隊的所有活動與程式，以端到端的方式進行。 如先前所述，服務管理的部分元件（Microsoft 365 或 Office 365 服務本身組成的基礎架構）是 Microsoft 的責任，而您（如果您的客戶）負責管理您所提供之團隊、網路和端點的各個方面。
+服務管理包含管理 Teams 端對端的所有活動與程式。 如先前所述，Microsoft 365 或 Office 365 服務本身所組成的基礎結構，是服務管理的某些元件，由 Microsoft 負責，而客戶則負責管理 Teams、網路和您提供的端點的各個層面。
 
-本指南中的任務和活動會分為八個類別，如下列圖表所示。 在下列各節中，您將會展開這些類別中的每一種。
+本指南中的工作和活動會分成八個類別，如下圖所示。 以下各節將展開這些類別。
 
-![描述任務與活動類別清單的圖表](media/operate-my-service-image1.png "說明小組服務管理所包含之任務與活動類別清單的圖表。圖表也會說明服務管理主要是客戶任務。")
+![描述工作與活動類別清單的圖表](media/operate-my-service-image1.png "描述 Teams 服務管理所組成之工作與活動的類別清單的圖表。圖表也說明服務管理主要是客戶工作。")
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定將如何針對團隊執行作業。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>完整回顧 [操作指南]。</li><li>實施與貴組織的目標相符的作業戰略，以提供雲端語音工作負載的品質與穩定性。</li><li>查看[監視器通話品質](monitor-call-quality-qos.md)。</li><li> 實施作業策略，定期執行經驗檢查，以確保雲端語音部署在其峰值功能中運作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定如何針對 Teams 執行作業。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>完整閱覽作業指南。</li><li>執行符合貴組織目標的操作策略，以提供雲端語音工作負載的品質和可靠性。</li><li>檢 [閱監控通話品質](monitor-call-quality-qos.md)。</li><li> 執行營運策略，定期執行體驗品質檢閱，以確保您的雲端語音部署以最佳功能運作。</li></ul></td></tr>
 </table>
 
 
-### <a name="operational-role-mapping"></a>操作角色對應
+### <a name="operational-role-mapping"></a>操作角色映射
 
-規劃您在構想階段進行的作業 undertook 是至關重要的，因為當您第一次試驗使用者啟用時，就會開始執行作業活動。 本指南列出必須在每天、每週、每月或依需要執行的活動和工作，以維持高品質的小組部署。 本指南提供如何執行這些重要活動與工作的相關知識與指導方針。
+在構想階段期間，您針對作業所進行規劃至關重要，因為當第一個試驗使用者啟用時，作業活動即會開始。 本指南列出必須每天、每週、每月或需要執行的活動和工作，以維護高品質的 Teams 部署。 本指南提供如何執行這些重要活動和工作的知識與指引。
 
-成功部署的一個重要元件是確保您在構想階段初期所做的規劃包括決定誰負責執行特定的活動。 在您發現哪些工作及活動適用于您的部署之後，他們需要先瞭解，然後再加上您指派給他們的群組或人員。
+成功部署的其中一個至關重要的元件，是確保您在構想階段早期進行的計畫包括決定負責執行特定活動的人。 在您找出哪些工作和活動適用于您的部署之後，您必須瞭解並遵循您指派給這些工作與活動的群組或個人。
 
-您所識別的每個小組都必須審查並同意已識別的工作和職責，並開始準備作業。 這可能包括訓練及準備工作，提供人員編制規劃的更新，或確保外部提供者已準備好提供。
+您識別的每個小組都必須審查並同意所識別的工作與職責，並開始準備。 這可能包括訓練和準備、提供人員配置計畫更新，或確保外部提供者準備好提供。
 
-本指南中定義的活動和角色，在大多數情況下都應該是有效的，但每個團隊部署都是唯一的;因此，您可以使用本指南作為自訂活動和預設角色的起點，以符合您的需求。
+本指南中定義的活動和角色在大部分情況下應該都有效，但每個 Teams 部署都是唯一的;因此，您可以使用本指南做為起點來自訂活動和預設角色，以滿足您的需求。
 
-確定每個有責任的小組對執行服務所需的活動有充分的瞭解。 在第一個試驗開始前，每個小組都必須接受並登出貴組織中的責任，這一點很重要。
+確保每個負責的團隊都瞭解執行服務所需的活動。 第一個試驗開始之前，每個小組必須接受並簽署貴組織的責任。
 
-達成合約之後，對應的小組就應該開始 operationalize 他們的角色。
+在簽訂合約之後，對應的團隊應該開始執行其角色。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td>
-<td><ul><li>使用這份檔協助操作角色對應練習。</li><li>與各個支援小組見面，以將名稱指派給所需活動清單中的每個專案。</li><li>取得指派角色的接受或登出。</li><li>確定對應的小組有適當的訓練、準備及資源，以完成他們所需的活動。</li></ul></td></table>
+<td><ul><li>使用這份檔來協助操作角色的繪圖作業。</li><li>與各自的支援小組開會，將名稱指派給所需活動清單中的每個專案。</li><li>取得已指派角色的接受或簽收。</li><li>請確定對應的團隊擁有適當的訓練、準備狀態和資源，以完成所需的活動。</li></ul></td></table>
 
-### <a name="teams-service-dependencies"></a>團隊服務相依性
+### <a name="teams-service-dependencies"></a>Teams 服務相依性
 
-Microsoft 團隊將跨 Microsoft 365 或 Office 365 的技術結合在一起，為團隊合作提供中樞。 範例包括：
+Microsoft Teams 將 Microsoft 365 或 Office 365 的技術彙集在一起，提供團隊合作的中心。 範例包括：
 
--   Azure Active Directory （Azure AD）為團隊提供驗證與授權服務。
+-   Azure Active Directory (Azure AD) 提供 Teams 的驗證和授權服務。
 
--   Exchange Online 提供法律封存和電子調查等高級功能。
+-   Exchange Online 提供進一步功能，例如法律保留與電子探索。
 
--   SharePoint Online 提供共用頻道中檔案的能力，而商務用 OneDrive 則提供在私人聊天中共用檔案的機制。
+-   SharePoint Online 提供在頻道中共用檔案的能力，而商務用 OneDrive 提供在私人聊天中共用檔案的機制。
 
-組織也可以在內部部署基礎結構中利用現有投資。 例如，現有的內部部署 Active Directory 帳戶可以利用 Azure AD Connect 來進行驗證。 您可以使用某些 Exchange Server 版本來取代 Exchange Online。
+組織也可以利用內部部署基礎結構的現有投資。 例如，現有的內部部署 Active Directory 帳戶可以使用 Azure AD Connect 進行驗證。 某些版本的 Exchange Server 可用於更換 Exchange Online。
 
-這些技術結合在一起，為使用者提供豐富、共同且智慧型的通訊套件。 這項緊密整合是團隊的主要優點，但同時也促進了跨這些技術進行服務管理的需求。
+這些技術彙集在一起，為使用者提供豐富、共同合作且智慧型通訊套件。 這種緊密整合是 Teams 的一大優點，但也推動跨這些技術的服務管理需求。
 
-本指南涵蓋管理團隊服務的主要重點領域。 您最有可能的是，針對小組所依賴的支援技術，您有適當的服務管理方案。 如果不是，您將需要為那些技術元件（內部部署和線上）建立適當的服務管理方案。 這將有助於確保您的使用者能在小組中享受高品質、可靠的體驗。
+本指南涵蓋管理 Teams 服務的主要焦點區域。 最有可能的是，您針對 Teams 所依賴的支援技術，有一些服務管理計畫。 如果沒有，您也需要為內部部署和線上 (技術元件建立) 方案。 這可協助確保您的使用者在 Teams 中享有高品質、可靠的體驗。
 
-#### <a name="references"></a>提到 
+#### <a name="references"></a>引用 
 
-[Microsoft 團隊概覽](teams-overview.md)
+[Microsoft Teams 概觀](teams-overview.md)
 
-[Exchange 與 Microsoft 團隊如何互動](exchange-teams-interact.md)
+[Exchange 和 Microsoft Teams 如何互動](exchange-teams-interact.md)
 
-[SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md)
+[SharePoint Online 和商務用 OneDrive 如何與 Microsoft Teams 互動](sharepoint-onedrive-interact.md)
 
-[Microsoft 團隊及商務用 Skype 共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-
-<!--ENDOFSECTION-->
-
-## <a name="operations-guide-activities"></a>操作指南活動
-
-下列各節提供成功操作 Microsoft 團隊服務所需的活動的概覽。 它們包含對工具、內容資訊和其他內容的參照，以協助您瞭解活動，並協助準備就緒計畫。
+[Microsoft Teams 與商務用 Skype 共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 <!--ENDOFSECTION-->
 
-## <a name="monitor-service-health"></a>監視服務健康情況
+## <a name="operations-guide-activities"></a>作業指南活動
 
-您必須瞭解 Microsoft 團隊服務的整體健康情況，才能在您的組織中主動提醒任何影響服務的活動。 如前文所述，小組依賴于其他 Microsoft 365 或 Office 365 服務（例如 Azure Active Directory、Exchange Online、SharePoint Online 和商務用 OneDrive）。 因此，請務必監視相依服務的健康情況。
+下列各節提供成功操作 Microsoft Teams 服務所需的活動概觀。 它們包括參考工具、關係資訊和其他內容，以協助您瞭解活動，並協助進行準備計畫。
 
-將此活動納入您的事件管理流程，以主動告知使用者、技術人員及您的操作小組，準備處理使用者升級。
+<!--ENDOFSECTION-->
 
-下列各節說明您可以利用哪些工具監視影響團隊服務的[服務事件](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1)。 下表提供每個工具的優點摘要，以及每個工具的使用時機。
+## <a name="monitor-service-health"></a>監控服務健康情況
 
-| [監視] 工具                       | 獲益                                            | 使用時機                                                                                  |
+您必須瞭解 Microsoft Teams 服務的整體健康情況，以便主動提醒貴組織中其他人任何影響服務的事件。 如先前所述，Teams 會依賴其他 Microsoft 365 或 Office 365 服務，例如 Azure Active Directory、Exchange Online、SharePoint Online 和商務用 OneDrive。 因此，監控從屬服務的健康情況也相當重要。
+
+將此活動納入您的事件管理程式，以主動通知使用者、技術支援人員及您的營運小組，準備處理使用者升級。
+
+下列各節說明您可以用來監控影響 Teams 服務之[](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity#Anchor_1)服務事件的工具。 下表包含每個工具優點的摘要，以及您應該何時使用每個工具。
+
+| 監控工具                       | 優點                                            | 使用時間                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Microsoft 365 系統管理中心                     | 可從任何裝置使用支援的瀏覽器。 | 在您不需要即時通知時使用。                                          |
-| Microsoft 365 或 Office 365 系統管理應用程式                  | 向您的行動裝置提供推播通知。  | 當您在旅途中需要通知服務事件時，請使用。                  |
-| Microsoft System Center               | 與 Microsoft System Center 整合。           | 在您需要高級監視功能和通知支援時使用。                       |
-| Microsoft 365 或 Office 365 服務通訊 API | 以程式設計方式存取 Microsoft 365 或 Office 365 服務健康情況。   | 當您需要與協力廠商監視工具整合或想要建立自己的解決方案時使用。 |
+| Microsoft 365 系統管理中心                     | 可從任何具有支援瀏覽器的裝置使用。 | 當您不需要即時通知時，請使用。                                          |
+| Microsoft 365 或 Office 365 系統管理應用程式                  | 提供推入通知至您的行動裝置。  | 當您在外時需要收到服務事件通知時，請使用。                  |
+| Microsoft System Center               | 與 Microsoft System Center 整合。           | 當您需要進一級的監控功能和通知支援時，請使用。                       |
+| Microsoft 365 或 Office 365 服務通訊 API | 以程式化方式存取 Microsoft 365 或 Office 365 服務健康狀態。   | 當您需要整合協力廠商監控工具或想要建立您自己的解決方案時，請使用。 |
 
 > [!NOTE]
-> 只有獲指派 [**全域管理員**] 或 [**服務管理員**] 角色的人員，才能查看服務健康情況。
+> 只有指派全域系統管理員或服務系統管理員 **角色的個人才能** 查看服務健康狀態。
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心進行監控
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心監控
 
-[Microsoft 365 系統管理中心](https://portal.office.com/)提供[服務健康情況儀表板](https://portal.office.com/adminportal/home#/servicehealth)，您除了相依的服務之外，您還可以在其中查看團隊服務目前的健康情況。
+[Microsoft 365 系統](https://portal.office.com/)管理中心提供服務健康情況[儀表板](https://portal.office.com/adminportal/home#/servicehealth)，除了從屬服務之外，您還可以在這裡查看 Teams 服務目前的健康情況。
 
-### <a name="monitoring-with-the-mobile-app"></a>使用行動裝置 app 進行監控
+### <a name="monitoring-with-the-mobile-app"></a>使用行動應用程式監控
 
-Apple iOS、Android 和 Windows （PC 和 mobile）都提供 Microsoft 365 或 Office 365 系統管理應用程式。 App 提供服務健康情況與即將進行變更的服務系統管理員資訊。 App 支援推播通知，在公告發布之後幾乎立即就能提醒您。 這可協助您隨時掌握服務的狀態、健康情況及任何即將進行的變更。 通知支援會將它提供給系統管理員的建議監視工具。 如需詳細資訊，請參閱：
+Microsoft 365 或 Office 365 系統管理應用程式可在 Apple iOS、Android 和 Windows (PC 和行動) 。 應用程式會提供服務系統管理員有關服務健康情況及近期變更的資訊。 應用程式支援推入通知，可在公告發布後立即提醒您。 這可協助您隨時瞭解服務的狀態、健康情況，以及任何即將進行的變更。 通知支援使它成為建議系統管理員的監控工具。 詳細資訊，請參閱：
 
-[Office 365 Admin 行動裝置 App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Office 365 系統管理行動應用程式](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[下載 Office 365 Admin 行動裝置 App](https://products.office.com/business/manage-office-365-admin-app)
+[下載 Office 365 系統管理行動應用程式](https://products.office.com/business/manage-office-365-admin-app)
 
-### <a name="monitoring-with-microsoft-system-center"></a>使用 Microsoft System Center 進行監控
+### <a name="monitoring-with-microsoft-system-center"></a>使用 Microsoft System Center 監控
 
-Microsoft System Center 是一個整合的管理平臺，可協助您管理資料中心、用戶端裝置及混合式雲端 IT 環境。 使用 System Center 的 Office 365 系統管理員現在可以選擇匯入 Office 365 管理套件，讓他們可以在系統中心的 Operations Manager 中查看所有服務通訊。 使用這個工具可讓您存取已訂閱服務的狀態、使用中及已解決的服務事件，以及您的訊息中心通訊（即將進行的變更）。 如需詳細資訊，請參閱下列[博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
+Microsoft System Center 是一個整合式管理平臺，可協助您管理資料中心、用戶端裝置和混合式雲端 IT 環境。 使用 System Center 的 Office 365 系統管理員現在可以選擇輸入 Office 365 管理套件，讓他們在系統中心中的 Operations Manager 中查看所有服務通訊。 使用此工具，您可以存取訂閱服務的狀態、使用中和已解決的服務事件，以及訊息中心通訊 (變更) 。 若要詳細資訊，請參閱下列 [部落格文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
 
-如果您利用 System Center 監視團隊服務健康情況（以及相依的服務），您可以進一步自訂管理套件，以提醒或通知特定群組或已識別對事件作出反應的人員。
-這些群組可以包含服務擁有者、服務台、第二層和第三層支援群組，以及貴組織中的事件管理員。
+如果您利用 System Center 監控 Teams 服務健康情況 (和從屬服務) ，您可以進一步自訂管理套件，以提醒或通知已識別為回應事件的特定群組或個人。
+這些群組可以包含貴組織中服務擁有者、技術支援人員、第二層和第三層支援群組，以及事件管理員。
 
-### <a name="monitoring-for-advanced-scenarios"></a>監視高級案例
+### <a name="monitoring-for-advanced-scenarios"></a>監控進位案例
 
-您可以利用 Office 365 服務通訊 API，以程式設計方式存取 Office 365 服務健康情況及變更，以監控服務健康情況與即將進行的變更。 您可以使用這個 API 來建立您自己的監視工具，或將現有的監視工具連線到 Office 365 服務通訊，這可能會簡化您的環境監視方式。 如需詳細資訊，請參閱[適用于企業開發人員的 Office 365](https://developer.microsoft.com/office)。
+您可以利用 Office 365 服務通訊 API 以程式化方式存取 Office 365 服務健康情況及變更，以監控服務健康情況及即將到來的變更。 使用此 API 建立您自己的監控工具，或將現有的監控工具連接到 Office 365 服務通訊，可能簡化您監控環境的方法。 詳細資訊，請參閱企業版 [Office 365 開發人員](https://developer.microsoft.com/office)。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/需要的工作
 
-| 活動               | 描述                                                                                                                                                                                                               | 節奏   | 指派的小組 |
+| 活動               | 說明                                                                                                                                                                                                               | 節奏   | 已指派團隊 |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| 監視服務健康情況 | 使用可用的工具，主動監視 Microsoft 團隊服務健康情況（以及相依服務）。 相依服務包括： Exchange Online、SharePoint Online、商務用 OneDrive、Azure Active Directory。 | 即時 |               |
-| 事件通知  | 通知內部干係人影響團隊服務的活動。 內部的專案關係人可加入使用者、服務中心及事件管理器。                                                                          | 視需要 |               |
+| 監控服務健康情況 | 使用可用的工具，主動 (Microsoft Teams 服務健康情況、) 和從屬服務。 從屬服務包括：Exchange Online、SharePoint Online、商務用 OneDrive、Azure Active Directory。 | 即時 |               |
+| 事件通知  | 將影響 Teams 服務的事件通知內部專案關係人。 內部關係人可以包含使用者、技術支援人員及事件管理員。                                                                          | 需要時 |               |
 
-### <a name="references"></a>提到 
+### <a name="references"></a>引用 
 
-[如何檢查 Office 365 服務健康情況](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+[如何檢查 Office 365 服務健康狀態](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
-[驗證 Microsoft 團隊的服務健康情況](service-health.md)
+[驗證 Microsoft Teams 的服務健康狀態](service-health.md)
 
-[服務健康情況與連續性](https://technet.microsoft.com/library/office-365-service-health.aspx)
+[服務健康與持續性](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-organizational-change"></a>管理組織變更
 
-Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功能和功能。 提供日常的創新為組織帶來明顯的好處，但需要適當地在組織內管理這些變更，以避免使用者抵抗或上報給您的技術支援人員。
+Microsoft Teams 是雲端式服務。 有了這項功能，您才能快速提供新功能。 持續創新為組織帶來明顯的好處，但貴組織內部必須妥善管理這些變更，以避免使用者對技術支援人員造成阻力或升級。
 
-小組的更新會自動向您的使用者推出。 您的使用者將永遠擁有團隊服務中提供的最新用戶端和功能。 您無法針對您的使用者管理團隊更新推出，因此您必須透過有效的通訊、訓練及採納程式管理變更，這對您而言至關重要。 如果您的使用者知道所做的變更、教育的好處，以及充分利用其新功能，就能 &mdash; 更快速且更歡迎地調整變更。
+Teams 更新會自動推出給使用者。 您的使用者將一直擁有 Teams 服務中的最新用戶端和功能。 無法管理 Teams 更新的推出給使用者，因此透過有效的通訊、訓練和採用計畫來管理變更非常重要。 如果您的使用者已經瞭解這項變更、瞭解其優點，並有權運用新功能，就能更快速地進行調整，並歡迎 &mdash; 這項變更。
 
 ### <a name="monitoring-for-change"></a>監控變更
 
-變更管理中的第一個步驟是監視針對團隊規劃的變更。 監視這些變更的最佳來源是[Office 365 藍圖](https://products.office.com/business/office-365-roadmap)，其中列出目前正在開發、向客戶推出或完全啟動的功能。 您可以使用所提供的篩選來搜尋小組特定的功能，或將藍圖下載至 Excel 檔案以進行進一步分析。 針對每個功能，藍圖會提供簡短的描述，以及預期的發行日期。
+變更管理的第一個步驟是監控 Teams 規劃的變更。 監控這些變更的最佳來源是 Office [365 藍圖](https://products.office.com/business/office-365-roadmap)，其中列出目前正在開發、正在推出給客戶或已完全啟動的功能。 您可以使用提供的篩選來搜尋 Teams 特定功能，也可以將藍圖下載至 Excel 檔案以進一步分析。 藍圖會針對每項功能提供簡短描述，以及預期的發行日期。
 
-在[Microsoft 團隊博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)中，您可以瞭解有關團隊產品更新的最佳做法、趨勢及新聞。 預期會在此找到要宣佈的小組主要功能更新。 您也可以透過 RSS 摘要訂閱博客。 然後，您可以直接將[RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog)摘要新增至團隊頻道，所以所有重要的新聞都直接在小組中傳送。
+在 [Microsoft Teams 部落](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)格中，您可以瞭解 Teams 產品更新的最佳作法、趨勢和新聞。 預期會在這裡找到 Teams 的主要功能更新。 您也可以透過 RSS 提要訂閱部落格。 接著，您可以將 [RSS 提](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) 要直接新增到 Teams 頻道，讓所有重要消息直接在 Teams 內傳遞。
 
-所有已發行的功能都記錄在[Microsoft 團隊的版本](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)資訊中。
-您可以在這裡找到針對桌上型電腦、web 版和行動裝置發行的功能清單。 您也可以在 [說明] 的 [**新增功能**] 索引標籤上使用相同的版本[資訊](get-help-in-microsoft-teams.md)。
+所有發行的功能會記錄在 Microsoft Teams 的發行 [資訊中](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)。
+您可以在這裡找到針對桌面、Web 和行動裝置所發行的功能清單。 同一組版本資訊也可在說明的新增功能選項卡[上找到](get-help-in-microsoft-teams.md)。
 
-熟悉可用的資源，並確定您指派適用的擁有者來監視變更。
+熟悉可用的資源，並確保您指派適用的擁有者來監控變更。
 
 ### <a name="planning-for-change"></a>規劃變更
 
-現在您已經知道對 [團隊服務] 的即將進行的變更，下一個步驟就是進行相應的準備及規劃。 針對每個變更進行評估，判斷哪些變更需要與使用者進行通訊、認識活動、支援小組或使用者的訓練，或功能評估與採納活動。 這是貴組織中變更管理小組的主要角色。 以下是可協助您規劃變更的範例表格集合。
+現在，您已經發現 Teams 服務即將進行變更，下一個步驟就是準備並據此進行規劃。 評估每個變更，以判斷哪些變更需要與使用者溝通、認知活動、支援小組或使用者的訓練，或功能評估與採用活動。 這是貴組織中變更管理團隊的主要角色。 以下是可協助規劃變更之範例資料表集合。
 
-#### <a name="feature-cloud-recording-release-date-january-2018"></a>功能：雲端錄製（發行日期：2018年1月）
+#### <a name="feature-cloud-recording-release-date-january-2018"></a>功能：雲端錄製 (發行日期：2018 年 1 月) 
 
 **一般追蹤**
 
-| 變更就緒性 | 狀態值   | 備忘稿/後續步驟 | 擁有者 |
+| 變更準備狀態 | 地位   | 附注/下一個步驟 | 擁有者 |
 |----|----|----|-----|
-| 法律審查   | 完畢     | 此功能是加入訓練小組的先決條件。 | 專案小組  |
+| 法律評論   | 完成     | 這項功能是加入訓練小組的先決條件。 | 專案小組  |
 
 **技術變更管理**
 
-|       變更就緒性       | 狀態值 |                      備忘稿/後續步驟                      |    擁有者     |
+|       變更準備狀態       | 地位 |                      附注/下一個步驟                      |    擁有者     |
 |------------------------------|--------|------------------------------------------------------------|--------------|
-|     需要變更      |  是   | 系統管理員只需要為已識別的使用者啟用錄製。 | 支援小組 |
-| 技術就緒已完成 |  是   |                                                            | 支援小組 |
+|     IT 變更為必填專案      |  是   | 系統管理員只需要為識別的使用者啟用錄製。 | 支援小組 |
+| 技術整備完成 |  是   |                                                            | 支援小組 |
 |                              |        |                                                            |              |
 
 **使用者變更管理** 
 
-| 變更就緒性 | 狀態值   | 備忘稿/後續步驟 | 擁有者 |
+| 變更準備狀態 | 地位   | 附注/下一個步驟 | 擁有者 |
 |----|----|----|-----|
-| 使用者影響                  | 低溫                  |                                                                 |                        |
-| 需要使用者就緒      | 是                  |                                                                 |                        |
-| 通訊就緒         | 否                   | 通訊電子郵件已起草（待定審閱）。            | 溝通小組    |
-| 訓練準備               | 是                  | 訓練將會利用現有的 Microsoft 影片。                | 訓練小組          |
+| 使用者影響                  | 低                  |                                                                 |                        |
+| 需要使用者準備狀態      | 是                  |                                                                 |                        |
+| 通訊就緒         | 否                   | 通訊電子郵件已草擬，待審查。            | 通訊小組    |
+| 訓練就緒               | 是                  | 訓練會運用現有的 Microsoft 影片。                | 訓練小組          |
 
-**狀態軌**
+**狀態追蹤**
 
-| 變更就緒性 | 狀態值   | 備忘稿/後續步驟 | 擁有者 |
+| 變更準備狀態 | 地位   | 附注/下一個步驟 | 擁有者 |
 |----|----|----|-----|
-| 發行狀態               | 進行中          | 由主管主管進行的待定審查。               | 變更管理小組 |
-| 解除簽核             |                      |                                                                 |                        |
+| 發行狀態               | 進行中          | 等待執行贊助人審查。               | 變更管理團隊 |
+| 發行登出             |                      |                                                                 |                        |
 | 發行日期                 |                      |                                                                 |                        |
 
-如需針對團隊進行變更管理規劃的詳細資訊，請參閱[建立 Microsoft 團隊的變更管理策略](change-management-strategy.md)。
+有關使用 Teams 規劃變更管理的資訊，請參閱為 Microsoft Teams 建立 [變更管理策略](change-management-strategy.md)。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/需要的工作
 
-| 活動               | 描述                                                                                                                                                                                                                | 節奏   | 指派的小組 |
+| 活動               | 說明                                                                                                                                                                                                                | 節奏   | 已指派團隊 |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| 監控變更     | 監視 Microsoft 團隊服務即將進行的變更。                                                                                                                                                                   | 日常     |               |
-| 規劃變更    | 評估並規劃新功能，包括溝通方案、線上認知活動，以及訓練。                                                                                                     | 視需要 |               |
-| 使用者準備就緒             | 執行目標通訊、認知或訓練活動，以確保使用者已準備好進行即將進行的變更。                                                                                                        | 視需要 |               |
-| 支援小組就緒性 | 執行目標通訊、意識或訓練活動，以確保支援小組已就緒。 支援小組可以包含「白色 glove」團隊、支援人員、第2層或第3層支援、外部合作夥伴等。 | 視需要 |               |
+| 監控變更     | 監控 Microsoft Teams 服務即將進行的變更。                                                                                                                                                                   | 日常     |               |
+| 規劃變更    | 評估及規劃新功能和功能，包括通訊計畫、認知活動及訓練。                                                                                                     | 需要時 |               |
+| 使用者準備狀態             | 執行目標通訊、認知或訓練活動，以確保使用者準備好進行即將到來的變更。                                                                                                        | 需要時 |               |
+| 支援小組準備狀態 | 執行目標通訊、認知或訓練活動，以確保支援小組準備就緒。 支援小組可以包括「白手套」小組、技術支援人員、第 2 層或第 3 層支援、外部合作夥伴等等。 | 需要時 |               |
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-teams-usage"></a>評估團隊使用量
+## <a name="assess-teams-usage"></a>評估 Teams 使用方式
 
-初始試驗開始之後，請務必建立定期頻率來測量實際的團隊使用量。 這可讓您的組織深入瞭解在您的構想階段，實際使用量如何與您預期的使用量相符。 雖然此區段側重于團隊使用量，但這應該是進一步努力來測量和評估 Office 365 使用方式的一部分。
+初始試驗開始之後，建立一般步頻以測量實際的 Teams 使用量至關重要。 這可讓貴組織深入瞭解實際使用量如何與在構想階段預測的使用量保持一致。 雖然本節著重于 Teams 使用方式，但此部分應成為衡量及評估整體 Office 365 使用方式之較廣泛工作的一部分。
 
-在部署初期回顧使用量，為您提供機會：
+在部署早期經常檢查使用方式，讓您有機會：
 
--   驗證使用者是否正在使用團隊。
+-   驗證使用者是否正在使用 Teams。
 
--   找出潛在的採納難題，然後再在整個組織中產生重要問題。
+-   找出潛在的採用挑戰，再在整個組織中造成重大問題。
 
 -   瞭解構想階段需求與實際使用量之間是否有差異。
 
-如果使用方式與預期不一樣，可能是由於部署問題，或採用方案未正常執行或其他問題。 根據低使用量背後的實際原因，服務管理員必須與相關團隊共同作業，以協助移除使用障礙。
+如果使用量與預期不同，這可能是因為部署問題、採用計畫未正確執行或其他問題。 根據低使用量背後的實際原因，服務系統管理員必須與相關的小組共同合作，協助移除使用障礙。
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心測量使用量
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心測量使用方式
 
-[報表] 儀表板提供來自小組的使用資料。 您可以在三個不同的報表中找到團隊使用資料。 第一個報表提供的叉積視圖，說明使用者如何使用 Office 365 中的各種服務進行通訊與共同作業。 您可以在此找到以下報告： Office 365 作用中的[使用者報告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+Teams 的使用狀況資料可在報告儀表板中提供。 Teams 使用方式資料可在三個不同的報告中找到。 第一份報告提供使用者使用 Office 365 中各種服務進行通訊和共同合作的方式的跨產品視圖。 此報告可在這裡找到 [：Office 365 使用中使用者報告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
-其他兩個報表是團隊專用的，而且它們提供來自使用者和裝置的團隊使用量的進一步詳細資料。 您可以在以下位置找到兩種報告：
+其他兩個報表是 Teams 專用報表，它們從使用者和裝置的角度提供 Teams 使用方式的進一步詳細資料。 這兩個報告都可以在這裡找到：
 
-[Microsoft 團隊裝置使用量報告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Microsoft Teams 裝置使用方式報告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
-[Microsoft 團隊使用者活動報告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Microsoft Teams 使用者活動報告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
-#### <a name="required-permissions"></a>所需許可權
+#### <a name="required-permissions"></a>必要的許可權
 
-系統管理中心的使用方式報告可由獲指派**全域管理員**角色的人員或產品特定的系統管理員角色（**Exchange 系統**管理員、**商務用 Skype 系統**管理員、 **SharePoint 系統管理員**）存取。
+系統管理中心中的使用方式報告可由已指派全域系統管理員角色或產品特定系統管理員角色的人員存取 (**Exchange** 系統管理員、**商務** 用 Skype 系統管理員 **、SharePoint** 系統管理員) 。
 
-此外，對於需要存取報表的使用者，也可以使用 [**報表閱讀**者角色]，但不要執行任何需要系統管理員層級許可權的工作。 您指派這個角色來為任何擁有者的人提供使用方式報告，以監控和推動採用。 如需其他可用角色的詳細資訊，請參閱[關於 Office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+此外，報表 **讀取** 者角色可供需要報表存取權，但不執行任何需要系統管理員層級許可權的工作的使用者使用。 您可以指派此角色，以向任何關係人提供使用方式報告，以監控和推動採用。 有關可用不同角色的資訊，請參閱 [關於 Office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="assessing-usage"></a>評估使用量
 
-在您使用 [報告儀表板] 來測量使用量之後，請務必將測量的使用方式與您在專案的構想階段中定義的任何重要成功指標（KSIs）進行比較。 您可以定義一個可能定義為作用中用法的 KSI，或是一個間接連結至作用中用法的。
+使用報告儀表板測量使用量之後，比較測量使用量與專案構想階段期間定義的任何關鍵成功 (KSIs) 非常重要。 您可以定義可定義為作用中使用量的 KSI，或間接連結至作用中使用量的 KSI。
 
-在繼續推出給其他網站或使用者之前，請務必先找出實際與預計使用量之間的任何差異。 您可能會發現組織學習專案做為此活動的一部分，您可以利用它來確保下一批網站或使用者不會遇到相同的問題。
+在繼續向其他網站或使用者推出之前，必須找出實際使用量和計畫使用量之間的任何差異。 您很可能會將組織學習識別為此活動的一部分，您可以利用這項活動，以確保下一批網站或使用者不會遇到相同的問題。
 
-首先，找出這是採用或技術問題。 首先，按照順序調查下列專案，以判斷問題所在。
+首先，找出這是採用還是技術問題。 首先調查下列專案，以便判斷問題所在位置。
 
-1.  透過執行經驗檢查品質審查來驗證品質（如需詳細資訊，請參閱[改善及監視團隊的通話品質](monitor-call-quality-qos.md)）。
+1.  若要驗證品質，請執行體驗品質檢閱 (請參閱改善及監控 [Teams](monitor-call-quality-qos.md) 的通話品質，以) 。
 
-2.  與技術支援小組合作，檢查是否有任何趨勢問題無法讓使用者存取或使用服務。 如果問題趨勢確實存在，請使用本文稍後所述的 [[端點疑難排解](#endpoint-troubleshooting)] 區段，嘗試先解決問題，然後再吸引支援。
+2.  與技術服務小組合作，檢查是否有導致使用者無法存取或使用服務的熱門技術問題。 如果問題趨勢存在，請使用本文稍後[](#endpoint-troubleshooting)的端點疑難排解區段，在吸引支援之前嘗試解決問題。
 
-3.  使用訓練與採納小組，收集使用者的直接意見反應（請參閱本文稍後的[評估使用者觀點](#assess-user-sentiment)），並查看認知與採納活動的效能。
+3.  請與訓練和採用小組合作，收集使用者 [ (請參閱本文](#assess-user-sentiment) 稍後) 評估使用者情緒，並檢查認知和採用活動的有效性。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/需要的工作
 
-| 活動                         | 描述                                                                                                                      | 節奏   | 指派的小組 |
+| 活動                         | 說明                                                                                                                      | 節奏   | 已指派團隊 |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| 測量使用量（啟用階段） | 在啟用階段繼續 onboarded 網站時，測量及評估團隊使用方式。 根據需要解決使用方式問題。 | 周更新    |               |
-| 測量使用量（磁片磁碟機值階段）                           | 在「磁片磁碟機價值」階段中測量及評估團隊的使用方式（部署完成後）。 根據需要解決使用方式問題。 | 快遞  |               |
-| 更新採納方案             | 根據測量的使用方式與規劃目標的對比來更新您的採用方案。                                         | 視需要 |               |
+| 測量啟用 (階段的使用量)  | 當網站在啟用階段持續上移時，測量及評估 Teams 使用量。 按需要解決使用問題。 | 每週    |               |
+| 測量使用 (磁碟機值階段)                            | 在部署完成之後，在 (階段測量及評估 Teams 使用量) 。 按需要解決使用問題。 | Biweekly  |               |
+| 更新採用計畫             | 根據測量使用量與規劃目標的比較，更新您的採用計畫。                                         | 需要時 |               |
 
-### <a name="references"></a>提到 
+### <a name="references"></a>引用 
 
 [關於 Microsoft 365 系統管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -287,219 +287,219 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-user-sentiment"></a>評估使用者觀點
+## <a name="assess-user-sentiment"></a>評估使用者情緒
 
-瞭解使用者觀點可以做為您的小組部署成功測量的重要指示。 使用者意見反應可以推動貴組織中的變更。這可能包含對您通訊方案、訓練程式，或您提供給使用者支援的方式的變更。
+瞭解使用者情緒可做為衡量 Teams 部署成功與否的重要指示器。 使用者的意見回饋可以推動貴組織的變更;這可能包括變更通訊計畫、訓練計畫，或您為使用者提供支援的方式。
 
-務必提前取得意見反應，並在整個專案週期中繼續評估使用者觀點。 使用下列指導方針來判斷貴組織將向外尋找意見反應的時間間隔：
+及早取得意見回饋並持續評估專案整個生命週期及以後的使用者情緒非常重要。 請使用下列指南來判斷貴組織尋求意見回饋的時間間隔：
 
--   **專案開始**：透過在專案開始時評估使用者觀點，您可以快速瞭解使用者對其團隊體驗的想法。
+-   **專案開始時**：在專案開始時評估使用者情緒，您可以提早瞭解使用者對於 Teams 體驗的感受。
 
--   在**主要里程碑之後**：透過收集意見反應在整個專案週期中，您可以持續測量使用者觀點，並視需要進行變更。 這在主要的里程碑之後特別有用。
+-   **重大里程碑之後**：收集整個專案週期的意見回饋，您可以持續評估使用者情緒，並根據需要進行變更。 在重大里程碑之後，這項功能特別有用。
 
--   **專案結論**：在專案結束時評估使用者觀點會告訴您已完成的工作，以及仍需要完成工作的位置，並可讓您將結果與前一個問捲進行比較。
+-   **專案結束**：在專案結束時評估使用者情緒會告訴您完成得有多好，以及工作還需要在哪裡完成，並讓您比較結果與上一次問卷。
 
--   **持續**：繼續以無限期測量使用者觀點。 使用者觀點中的變更可能是您組織的環境中的變更，或是小組服務中的變更。 透過定期測量使用者觀點，您可以瞭解服務管理團隊的執行狀況，以及貴組織回應團隊服務變更的方式。
+-   **進行** 中：繼續無限期測量使用者情緒。 使用者情緒的變化可能是因為貴組織環境的變化，或是 Teams 服務中的變更。 您可以定期測量使用者情緒，瞭解服務管理團隊的績效，以及貴組織如何回應 Teams 服務中的變更。
 
-您可以透過多種不同的方法來評估使用者觀點。 這些包括電子郵件問卷、人員或電話風格的訪談，或只是在團隊或 Yammer 中建立意見反應頻道。 如需詳細資訊，請參閱[Microsoft 團隊中使用者意見反應方法的最佳做法](best-practices-feedback.md)。
+使用者情緒可以透過許多不同的方法進行評估。 這些可能包括電子郵件問卷、個人或電話式面試，或直接在 Teams 或 Yammer 中建立意見回饋通道。 詳細資訊請參閱 Microsoft [Teams 中的使用者意見回饋方法最佳做法](best-practices-feedback.md)。
 
-您也可以使用 industrywide 方法來評估稱為 net promotor 計分（NPS）的使用者觀點，如下一節所述。
+您也可以使用全產業的方法，評估稱為 NPS (淨) 的使用者情緒，如下一節所述。
 
-### <a name="nps"></a>NPS 
+### <a name="nps"></a>Nps 
 
-Net promoter 計分（NPS）是一種 industrywide 的客戶忠誠度指標，以及用來評估使用者觀點的好方法。 您可以提出以下兩個問題來計算 NPS：「您可能會將團隊推薦給同事嗎？」，後面接著手中的 [為什麼？]
+NPS (淨) 分數是一項全產業的客戶效度度量，也是評估使用者情緒的一個好方法。 NPS 的計算方式有兩個問題：「您建議同事使用 Teams 的可能性為何？」，後面接著「為什麼？
 
-NPS 是一種索引，範圍從–100到100，以衡量客戶對於建議公司的產品或服務的意願。 NPS 是以透過電子郵件或其他電子方式傳送給使用者的匿名問卷來建立。 NPS 會測量提供者與消費者之間的忠誠度。 它只包含一個問題，要求使用者從1到10對其體驗進行評分，以及提供其他批註的選項。 然後根據下列評分來分類使用者：
+NPS 是一種從 –100 到 100 的索引，可測量客戶建議公司產品或服務的意願。 NPS 是以透過電子郵件或其他電子方式傳送給使用者的匿名問卷為基礎。 NPS 會測量提供者與消費者之間的滿意度。 它只包含一個問題，要求使用者從 1 到 10 評等其體驗，並提供其他批註的選項。 然後根據下列評等來將使用者分類：
 
--   9或10是支援者：忠誠發燒者將促銷您的服務並燃油其他人。
+-   9 或 10 是促銷者：會宣傳您的服務和為他人提供動力的效心愛好者。
 
--   7或8為被動式：已滿意但 unenthusiastic，易受其他服務或服務的影響。
+-   7 或 8 為被動式：滿意但無法接受，容易受到其他服務或方案的影響。
 
--   從1到6是 Detractors：不滿意可能會損害您服務並妨礙增長的客戶。
+-   從 1 到 6 是破壞者：不滿意的客戶可能會破壞您的服務並阻礙成長。
 
-![說明 NPS 縮放比例的圖表](media/operate-my-service-image2.png "此圖表示範 NPS 的縮放比例。它顯示0到6的排名是 detractors，7到8是無源，9到10是支援者。")
+![顯示 NPS 刻度的圖表](media/operate-my-service-image2.png "此圖表示範 NPS 刻度。這表示 0 到 6 的排名是誹謗者，7 到 8 是被動排名，而 9 到 10 是宣傳者。")
 
-雖然基 NPS 編號很有用，但您可以從分析使用者的意見來取得最大的價值。 他們將協助您瞭解使用者為何（或不會）建議團隊給其他人。 這些意見反應可提供寶貴的意見反應，以協助專案或服務管理小組瞭解提供品質服務所需的調整。
+雖然基本 NPS 數位很有用，但分析使用者批註會獲得最大的值。 它們可協助您瞭解使用者為何會 (建議) Teams 給其他人。 這些批註可以提供寶貴的意見，協助專案或服務管理團隊瞭解提供高品質服務所需的調整。
 
-若要將 NPS 問卷提供給您的組織，您可以利用您最愛的線上問卷工具。
+若要提供 NPS 問卷給貴組織，您可以利用您最喜愛的線上問卷工具。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/視需要的任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/如果需要的工作
 
-| 活動              | 描述                                                                                                                                                                         | 節奏   | 指派的小組 |
+| 活動              | 說明                                                                                                                                                                         | 節奏   | 已指派團隊 |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| 評估使用者觀點 | 使用問卷調查或訪談，或透過團隊或 Yammer 中的意見反應頻道來捕獲及評估使用者觀點。                                                                 | 視需要 |               |
-| 更新採納方案 | 根據使用者意見反應，在您的組織中變更磁片磁碟機;這可能包含您的通訊方案變更、訓練程式，或您提供給使用者支援的方式。 | 視需要 |               |
+| 評估使用者情緒 | 使用問卷或面談，或透過 Teams 或 Yammer 的意見回饋通道來收集及評估使用者情緒。                                                                 | 需要時 |               |
+| 更新採用計畫 | 根據使用者的意見回饋，推動貴組織中發生變更;這可能包括變更您的通訊計畫、訓練計畫，或您為使用者提供支援的方式。 | 需要時 |               |
 
-### <a name="references"></a>提到 
+### <a name="references"></a>引用 
 
-[淨 Promoter 分數](https://en.wikipedia.org/wiki/Net_Promoter)
+[淨啟動者分數](https://en.wikipedia.org/wiki/Net_Promoter)
 
-[使用 Yammer 收集意見反應](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
+[使用 Yammer 收集意見](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
 
-[使用者意見反應的最佳做法](best-practices-feedback.md)
+[使用者意見回饋的最佳作法](best-practices-feedback.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-network-quality"></a>管理網路品質
 
-許多核心規劃元素會進入優化、調整大小及修正您的網路基礎結構，以確保 Microsoft 團隊服務的高品質、高效的路徑。 規劃工作與需求在我們的[網路準備](3-envision-evaluate-my-environment.md#network-readiness)指導方針中講述。 網路由於升級、擴充或其他業務需求而經常隨著時間不斷演化。 您必須針對網路規劃活動中的小組需求加以考慮，這一點非常重要。
+許多核心規劃元素會進入優化、正確調整大小及補救您的網路基礎結構，以確保 Microsoft Teams 服務有高品質且有效率的路徑。 我們的網路準備指南涵蓋規劃工作 [與](3-envision-evaluate-my-environment.md#network-readiness) 需求。 由於升級、擴充或其他商務需求，網路通常會隨著時間而演進。 您必須在網路規劃活動中，針對 Teams 的需求進行說明。
 
-雖然網路規劃是小組部署的重要層面，但務必確保網路保持健康狀態，並根據變更的業務或技術需求保持在最新狀態。
+雖然網路規劃是 Teams 部署的重要一面，但根據業務或技術需求的變化，確保網路保持健康並維持最新狀態也相當重要。
 
-若要確保您的網路健康情況，必須定期執行許多作業活動。
+為了確保網路健康，需要定期執行一些作業活動。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/需要的工作
 
-| 活動                                                       | 描述                                                                                                                                                                                                                                                                                                                                                                 | 節奏                | 指派的小組 |
+| 活動                                                       | 說明                                                                                                                                                                                                                                                                                                                                                                 | 節奏                | 已指派團隊 |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------|
-| 監視 Office 365 IPs 與 Url                                | 使用提供的[RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要來監控[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)的任何變更，並啟動適用網路群組的變更要求。                                                                                                                                | 日常                  |               |
-| 根據 Office 365 IPs 和 Url 的變更來更新網路 | 更新適用的網路元件（防火牆、proxy 伺服器、Vpn、用戶端防火牆等等），以反映[Office 365 url 與 IP 位址範圍](https://aka.ms/o365ips)的變更。                                                                                                                                                              | 視需要              |               |
-| 提供建築物資料                                          | 針對品質擁護者（或相關的股東）提供更新的子網資訊，以確保[CQD 中的建築物定義](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)保持在最新狀態。 | 視需要              |               |
-| 實施變更                                               | 在網路上實施變更，以支援變更團隊的業務與技術需求。 網路元素可以包含：<ul><li>道</li><li>疑難排解</li><li>有線和 Wi-fi 網路</li><li>網際網路連線與 ExpressRoute</li><li>DNS</li></ul>     | 視需要              |               |
-| 網路監視與報告                               | 使用您現有的協力廠商網路管理工具和您的網路供應商提供的報告功能，監控網路端以結束可用性、利用率和容量趨勢。 使用趨勢資料進行網路容量規劃。                                                                                                            | 每日、每週、每月 |               |
-| 容量規劃                                              | 與團隊服務擁有者共同作業，以瞭解變更可能增加額外容量變更的業務與技術需求。                                | 視需要              |               |
-| 網路疑難排解與修正                        | 協助團隊技術人員、服務擁有者和主要的專案關係人，進行疑難排解並修正與團隊連線、可靠性或品質相關的問題。 網路元素可以包含：<ul><li>道</li><li>疑難排解</li><li>有線和 Wi-fi 網路</li><li>網際網路連線與 ExpressRoute</li><li>DNS</li></ul>    | 視需要              |               |
-| 災害復原與高可用性測試                | 在網路基礎結構上執行一般的高可用性和災害復原測試，以確保它符合小組服務的規定服務等級目標（Slo）或服務層級協定（Sla）。                                                                                                                                                  | 次                |               |
+| 監控 Office 365 IP 和 URL                                | 使用提供的 RSS 提要來監控[Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges) URL 和[](https://go.microsoft.com/fwlink/p/?linkid=236301)IP 位址範圍的任何變更，並針對適用的網路群組提出變更要求。                                                                                                                                | 日常                  |               |
+| 根據 Office 365 IP 和 URL 的變更更新網路 | 更新適用的網路元件 (防火牆、Proxy 伺服器、VPN、用戶端防火牆等) 以反映 [Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges)URL 和 IP 位址範圍的變更。                                                                                                                                                              | 需要時              |               |
+| 提供建築物資料                                          | 提供更新的子網資訊給品質 (或相關的關係人) 以確保 [CQD](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) 中的建築物定義保持在最新狀態。 | 需要時              |               |
+| 執行變更                                               | 在網路上執行變更，以支援變更 Teams 商務與技術需求。 網路元素可以包括：<ul><li>防火牆</li><li>Vpn</li><li>有線Wi-Fi網路</li><li>網際網路連接和 ExpressRoute</li><li>DNS</li></ul>     | 需要時              |               |
+| 網路監控與報告                               | 使用網路提供者提供的現有協力廠商網路管理工具和報告功能，以端對端監控網路的可用性、使用方式和容量趨勢。 使用趨勢資料進行網路容量規劃。                                                                                                            | 每日、每週、每月 |               |
+| 容量規劃                                              | 與 Teams 服務擁有者共同合作，以瞭解可能推動其他容量變更的變更業務和技術需求。                                | 需要時              |               |
+| 網路疑難排解和補救                        | 協助 Teams 支援人員、服務擁有者和重要專案關係人疑難排解和補救與 Teams 連接、可靠性或品質相關的問題。 網路元素可以包括：<ul><li>防火牆</li><li>Vpn</li><li>有線Wi-Fi網路</li><li>網際網路連接和 ExpressRoute</li><li>DNS</li></ul>    | 需要時              |               |
+| 災害復原和高可用性測試                | 在網路基礎結構上執行一般高可用性和災害復原測試，以確保它符合針對 Teams 服務所 (SLOs) 或服務等級協定 (SLA) 的已規定服務等級目標。                                                                                                                                                  | 每月                |               |
 
 
-### <a name="references"></a>提到 
+### <a name="references"></a>引用 
 
-[Office 365 URL 與 IP 位址範圍](https://aka.ms/o365ips)
+[Office 365 URL 與 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
-[建立資料架構](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
+[建立資料架構](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-and-ensure-quality"></a>評估並確保品質 
+## <a name="assess-and-ensure-quality"></a>評估及確保品質 
 
-所有組織都需要有一個群組或個人負責品質。 這是服務管理中最重要的角色。 品質擁護者角色會指派給熱情使用者體驗的人員或群組。
-這個角色需要技能來識別環境中的趨勢，以及與其他團隊合作來促進修正的贊助。 品質擁護者的最佳候選人通常是客戶服務擁有者。 根據組織的大小與複雜性，您可以使用熱情的人員或群組，以確保高品質的使用者體驗。
+所有組織都需要一個群組或個人對品質負責。 這是服務管理中最重要的角色。 品質保護者角色會指派給對使用者體驗充滿熱忱的人或群組。
+這個角色需要識別環境趨勢的技能，以及與其他團隊合作推動補救的贊助。 品質優等者的最佳候選人通常是客戶服務擁有者。 根據組織的規模和複雜度，這可能是任何一位對確保高品質的使用者體驗充滿熱忱的人或群組。
 
-[品質擁護者] 利用現有的工具與已記錄的程式（例如 [通話品質儀表板] （CQD））來監視使用者體驗、識別品質趨勢，以及在必要時進行磁片磁碟機修正。
-品質擁護者應該與各個小組合作，以促進修正動作，並向指導委員會報告進度和任何已開啟的問題。
+品質支援者利用現有工具和檔化程式 ，例如通話品質儀表板 (CQD) ，以監控使用者體驗、識別品質趨勢，並視需要推動補救。
+品質促進者應該與各自的小組合作，推動補救動作，並報告進度和任何未解決問題的監督委員會。
 
-閱讀 [[改善及監視團隊的通話品質](monitor-call-quality-qos.md)]，其中包含的活動會評估並提供對改善使用者體驗影響最大的重要區域中的修正指導方針。 本文中所提供的指導方針主要是使用 CQD 作為主要工具來報告和調查每一個區域，並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化，以改善音訊體驗，也會直接翻譯成影片和桌面共用的改良功能。
+請閱讀 [改善及](monitor-call-quality-qos.md)監控 Teams 的通話品質，其中說明評估活動，並提供對改善使用者體驗影響最大的重要地區的補救指引。 本文所提供的指引著重于使用 CQD 做為報告及調查每個區域的主要工具，並著重于音訊，以最大化採用和影響。 對網路進行的任何優化以改善音訊體驗，也會直接轉換成改善視像和桌面共用。
 
-我們強烈建議您提前提名品質擁護者。 命名之後，他們應該開始熟悉[顯示器通話品質](monitor-call-quality-qos.md)內容及相關的訓練資料。
+我們強烈建議您及早提名品質優等獎得主。 被提名後，他們應開始熟悉 [監控通話品質](monitor-call-quality-qos.md) 內容和相關的訓練教材。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/需要的工作
 
-| 活動                               | 描述                                                                                                                                                                                                                                                                                                 | 節奏                             | 指派的小組 |
+| 活動                               | 說明                                                                                                                                                                                                                                                                                                 | 節奏                             | 已指派團隊 |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|---------------|
-| 提名與訓練品質擁護者（s） | 提名並訓練品質專家。                                                                                                                                                                                                                                                                   | 視需要                           |               |
-| 執行經驗檢查品質審查（QERs）     | 執行 QER 以找出品質與可靠性的趨勢、針對已定義的目標進行審查，以及向組織中的主要干係人報告。                                                                                                                            | 每月（在部署期間每週） |               |
-| 磁片磁碟機修正                      | 根據 QER 評估與調查，在整個組織中協調修正活動。                                                                                                                                                                                                           | 視需要                           |               |
-| 在 CQD 中更新組建資料            | 在 CQD 變更網路時，在中更新或新增新的建築物定義（請參閱[上傳建築物資訊](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)）。 | 視需要                           |               |
-| 填入品質擁護者角色      | 組織中品質的端對端責任。 這包括：<ul><li>確保定期進行 QER。</li><li>向 [品質狀態] 上報告主要的專案關係人。</li><li>確定組建資料定義是最新的。</li><li>在整個組織中協調修正工作，以確保使用者擁有團隊的高品質體驗。</li></ul>          | 日常                               |               |
+| 提名並訓練品質 ()  | 提名並訓練品質優等獎得主。                                                                                                                                                                                                                                                                   | 需要時                           |               |
+| 在 QERs (品質檢閱)      | 執行 QER 以找出品質和可靠性的趨勢、針對已定義的目標檢閱，以及向組織的重要專案關係人報告。                                                                                                                            | 部署 (每週一次)  |               |
+| 雲端硬碟修復                      | 根據 QER 評定和結果，協調整個組織的補救工作。                                                                                                                                                                                                           | 需要時                           |               |
+| 更新 CQD 中的建築物資料            | 當網路變更時，更新或新增 CQD 中的新建築物定義 [ (請參閱上傳](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) 建築物) 。 | 需要時                           |               |
+| 填寫品質冠軍角色      | 組織中品質的端對端責任。 這包括：<ul><li>確保定期進行 QER。</li><li>向重要專案關係人報告品質狀態。</li><li>確定建築物資料定義是最新的。</li><li>協調整個組織的補救工作，以確保使用者在 Teams 中擁有高品質的體驗。</li></ul>          | 日常                               |               |
 
 
 
-### <a name="references"></a>提到 
+### <a name="references"></a>引用 
 
 
-[在 CQD 中上傳租使用者和組建資料](CQD-upload-tenant-building-data.md)
+[在 CQD 中上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 
-[改善及監視團隊的通話品質](monitor-call-quality-qos.md)
+[改善及監控 Teams 的通話品質](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-endpoints"></a>管理端點
 
-Microsoft 團隊端點可以定義為任何執行團隊用戶端的 PC、Mac、平板電腦或行動裝置（或任何其他）裝置。 這個字詞*不*只會包含裝置本身，但使用者如何連線到裝置，例如，使用裝置內建的麥克風或喇叭、earbuds 或優化的耳機。 部署之後，就不一定會忘記端點。 團隊端點需要持續的護理與維護。 下列各節說明焦點所在的特定區域。
+Microsoft Teams 端點可以定義為任何電腦、Mac、平板電腦或行動裝置 (或執行 Teams 用戶端) 裝置。 端點一詞不僅包含裝置本身，也包含使用者如何連接到裝置，例如，使用裝置內建的麥克風或喇叭、耳塞或優化的耳機。 部署端點之後，不得忘記端點。 Teams 端點需要持續保養和維護。 下列各節說明要專注的特定區域。
 
 ### <a name="endpoint-requirements"></a>端點需求
 
-團隊的其中一個主要優點是，用戶端會自動保持為最新狀態。 PC 和 Mac 上的用戶端會使用背景處理常式來更新，在 app 空閒時檢查新的組建並下載新的用戶端。 團隊行動應用程式會透過其各自的 app 存放區保持最新狀態。
+Teams 的主要優點之一是用戶端會自動保持在最新狀態。 PC 和 Mac 上的用戶端會使用背景程式進行更新，此程式會檢查新建立，並下載應用程式閒置時的新用戶端。 Teams 行動應用程式會透過各自的 App Store 保持最新狀態。
 
-團隊用戶端在基礎軟體平臺方面的需求最低。 這些需求可能會隨著時間變更，因此請務必監視它們的變更。 例如，團隊用戶端擁有最低的 iOS 版本。 如果用戶端使用網際網路瀏覽器，則瀏覽器也必須保持在最新狀態。 您可以在[取得 Microsoft 團隊的用戶端](get-clients.md)中找到支援的平臺清單。
+Teams 用戶端對基礎軟體平臺的最低需求。 這些要求可能會隨著時間而變更，因此您必須監控這些需求以檢查變更。 例如，Teams 用戶端具有最小 iOS 版本。 如果用戶端使用網際網路瀏覽器，瀏覽器也需要保持最新狀態。 您可以在取得 Microsoft Teams 的用戶端中找到支援 [的平臺清單](get-clients.md)。
 
 ### <a name="endpoint-firewalls"></a>端點防火牆
 
-用戶端防火牆對使用者體驗的影響可能會有很大的影響。
-用戶端防火牆可能會影響通話品質，甚至可以避免建立通話。 在用戶端防火牆上設定適當的排除項之後，必須根據[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)中的資訊，讓它們保持在最新狀態。 您的協力廠商廠商將提供有關如何更新排除項的特定指導方針。
+用戶端防火牆會對使用者體驗有重大的影響。
+用戶端防火牆可能會影響通話品質，甚至防止建立通話。 在用戶端防火牆上已配置適當的排除專案之後，必須依據 [Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges)URL 和 IP 位址範圍的資訊來保持最新狀態。 您的協力廠商廠商將擁有如何更新排除專案的特定指引。
 
-### <a name="wi-fi-drivers"></a>Wi-fi 驅動程式
+### <a name="wi-fi-drivers"></a>Wi-Fi驅動程式
 
-Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會在存取點之間產生非常嚴格的漫遊行為，可能會造成不必要的存取點切換，從而導致通話品質不佳。 執行品質不佳的 Wi-fi 驅動程式可能會透過經驗檢查（如需詳細資訊[，請參閱改善及監視團隊的通話品質](monitor-call-quality-qos.md)）。 必須執行一個品質驅動的程式來監視新的 Wi-fi 驅動程式，並確保在將其部署到一般使用者群體之前，對其進行測試。
+Wi-Fi驅動程式可能有問題。 例如，驅動程式在訪問點之間可能有非常積極的漫遊行為，這會造成不必要的訪問點切換，導致通話品質不佳。 如果驅動程式Wi-Fi品質檢閱，可能會發現品質不佳 (請參閱改善及監控 [Teams](monitor-call-quality-qos.md) 的通話品質以) 。 必須執行品質導向程式，監控新的Wi-Fi驅動程式，並確保在部署到一般使用者之前先測試這些驅動程式。
 
 ### <a name="endpoint-management"></a>端點管理
 
-支援的端點和介面裝置（例如耳機）的目錄應該可供使用並維護。 此目錄將包含已選取並驗證為構想與板載階段一部分的核准裝置清單。 通常會針對貴組織中的每個角色類型選取特定裝置，以符合該角色的屬性需求。 所有端點都有週期，您需要管理與這些裝置相關聯的供應商合約、保修、取代、發佈及修復原則。
+支援端點和介面裝置 (例如耳機) 應該可供使用及維護。 此目錄會包含已選取並驗證為構想和板載階段一部分的核准裝置清單。 一般來說，會針對貴組織中每個人員類型選取特定裝置，以滿足該人員屬性的需求。 所有端點都有生命週期，您需要管理與這些裝置相關聯的廠商合約、保固、更換、發佈及維修政策。
 
 ### <a name="endpoint-troubleshooting"></a>端點疑難排解
 
-即使您已遵循前一個指南，貴組織中的使用者仍可能會遇到團隊的問題。 雖然問題可能不是端點本身，但問題的症狀通常是透過用戶端傳送給使用者。 下列指導方針旨在提供解決問題所需採取的一般步驟。這並不是一個全面的疑難排解指南。 這些步驟是以特定順序提供，但不需要明確追蹤，也可能不適用，視問題的性質而定。
+即使您遵循了先前的指引，貴組織中使用者仍可能會遇到 Teams 問題。 雖然問題可能並不存在於端點本身，但問題症狀通常會透過用戶端向使用者顯示。 下列指南旨在提供您可以採取之一般步驟以解決問題;這不一定只是一份完整的疑難排解指南。 這些步驟會以特定順序提供，但不必明確遵循，且可能不適用，視問題的性質而不同。
 
-1.  **驗證服務健康情況：** 使用者可能遇到的問題，可能與對團隊服務或其相依服務產生負面影響的事件有關。 第一步，我們建議您確認沒有作用中的服務問題。 請參閱[如何檢查 Office 365 服務健康情況](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。
-    請記得檢查相依服務的狀態（例如，Exchange、SharePoint、商務用 OneDrive）。 如需深入瞭解服務健康情況，請在上一節 [[監視服務健康情況](#monitor-service-health)] 中進一步討論。
+1.  **驗證服務健康狀態：** 使用者可能會遇到的問題可能與事件有關，而該事件會對 Teams 服務及其從屬服務造成負面影響。 首先，建議您確認沒有使用中服務問題。 請參閱 [如何檢查 Office 365 服務健康狀態](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。
+    請記得檢查從屬服務的狀態 (例如 Exchange、SharePoint、商務用 OneDrive) 。 在上一節的監控服務健康情況中，會更詳細的討論服務 [健康情況監控](#monitor-service-health)。
 
-2.  **驗證用戶端連線：** 連線問題導致小組中的功能或登入問題。 我們建議您驗證與服務的連線性（尤其是新網站或位置）。 請確定每個網站都遵循下列[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)指引。 您可以利用[Microsoft 網路評量工具](https://www.microsoft.com/download/details.aspx?id=53885)來執行連線測試，以驗證媒體埠是否已正確開啟以取得雲端語音功能。 [網路就緒](3-envision-evaluate-my-environment.md#network-readiness)指示中提供如何執行連線測試的詳細步驟。
+2.  **驗證用戶端連接：** 連接問題會造成 Teams 中的功能或登錄問題。 我們建議您 (新網站或位置，) 驗證服務的連接。 確保每個網站都遵循下列 [Office 365 URL](/microsoft-365/enterprise/urls-and-ip-address-ranges) 和 IP 位址範圍指南。 您可以利用 [Microsoft 網路評定工具](https://www.microsoft.com/download/details.aspx?id=53885) 執行連接測試，驗證媒體埠已正確開啟雲端語音功能。 網路準備指南提供如何執行連接測試 [的詳細](3-envision-evaluate-my-environment.md#network-readiness) 步驟。
 
-3.  **檢查已知問題清單：** 請參閱[小組的疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)，判斷是否有其中一個問題對使用者造成負面影響。 遵循提供的因應措施（如果有的話）來解決問題。
+3.  **檢查已知問題清單：** 請參閱 [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams) ，判斷使用者是否受到這些問題之一的不良影響。 如果有一個 (，請遵循) 以解決問題。
 
-4.  **造訪 Microsoft 團隊社區：**[Microsoft 團隊社區](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)為團隊提供專用空間。 團隊群組會在團隊周圍提供討論清單、博客文章和公告。 您可以張貼問題或搜尋先前的討論，以解決您的問題。
+4.  **流覽 Microsoft Teams 社群：**[Microsoft Teams 社群提供](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)Teams 專用空間。 Teams 社群提供以 Teams 為中心的討論清單、部落格文章和公告。 您可以張貼問題或搜尋先前的討論，以尋找問題的解決方案。
 
-5.  **聯繫 Microsoft 支援人員：** 您可以與 Microsoft 支援人員聯繫，以解決團隊線上或手機的問題。 如需詳細資訊，請參閱[商務用客戶支援](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。
-    針對 Premier 客戶，您可以依照[Microsoft 團隊的連絡人支援（Premier 客戶）](https://support.microsoft.com/premier/contacts)來啟動支援要求。
+5.  **請聯絡 Microsoft 支援服務：** 如需 Teams 線上或電話的問題，您可以與 Microsoft 支援服務聯繫。 如需詳細資訊，請參閱 [與商務產品的支援人員聯繫](/microsoft-365/admin/contact-support-for-business-products)。
+    針對頂級客戶，支援要求可以遵循 Microsoft Teams 與頂級客戶或頂級客戶的連絡人支援 (提出[) 。](https://support.microsoft.com/premier/contacts)
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/需要的工作
 
-| 活動                 | 描述                                                                                                                                                                                                                                                                                                                                                                     | 節奏   | 指派的小組 |
+| 活動                 | 說明                                                                                                                                                                                                                                                                                                                                                                     | 節奏   | 已指派團隊 |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| 端點需求    | 確定團隊端點繼續符合在[Microsoft 團隊取得用戶端](get-clients.md)中所列之團隊的所有軟體需求。                                                                                                                                                                                       | 次   |               |
-| 端點防火牆       | 根據[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)中的資訊，在端點防火牆上維護適當的排除。 您的協力廠商廠商將提供有關如何維護排除項的特定指導方針。 訂閱[rss](https://support.office.com/o365ip/rss)摘要，以自動收到變更的通知。 | 視需要 |               |
-| Wi-fi 驅動程式            | 在電腦上測試並更新 Wi-fi 驅動程式。 使用 CQD 驗證結果（[改善及監視團隊的通話品質](monitor-call-quality-qos.md)）。                                                                                                                                                                                                                                                                   | 視需要 |               |
-| 端點管理      | 維護支援的端點和介面裝置的編目（例如耳機）。 管理供應商合約、保修、發行、取代及修復原則。                                                                                                                                                                                                        | 次   |               |
-| 端點疑難排解 | 疑難排解工作可以包含驗證連線、查閱已知問題清單、記錄收集、分析，以及升級至 Microsoft 支援或協力廠商廠商。                                                                                                                                                                                               | 視需要 |               |
+| 端點需求    | 請確保 Teams 端點繼續符合取得 Microsoft Teams 用戶端中列出的 Teams [的所有軟體需求](get-clients.md)。                                                                                                                                                                                       | 每月   |               |
+| 端點防火牆       | 根據 Office [365](/microsoft-365/enterprise/urls-and-ip-address-ranges)URL 和 IP 位址範圍的資訊，在端點防火牆上維持適當的排除。 您的協力廠商廠商將擁有如何維護排除專案的特定指引。 訂閱 [RSS 提要](https://support.office.com/o365ip/rss) ，以自動收到變更的通知。 | 需要時 |               |
+| Wi-Fi驅動程式            | 測試並Wi-Fi PC 上的驅動程式。 使用 CQD (改善及監控 [Teams](monitor-call-quality-qos.md) 通話品質以驗證) 。                                                                                                                                                                                                                                                                   | 需要時 |               |
+| 端點管理      | 維護支援的端點和介面裝置目錄，例如 (耳機) 。 管理廠商合約、保固、分配、更換及維修政策。                                                                                                                                                                                                        | 每月   |               |
+| 端點疑難排解 | 疑難排解工作可能包括驗證連接、諮詢已知問題清單、記錄收集、分析，以及升級至 Microsoft 支援服務或協力廠商廠商。                                                                                                                                                                                               | 需要時 |               |
 
-### <a name="references"></a>提到 
+### <a name="references"></a>引用 
 
-[Office 365 URL 與 IP 位址範圍](https://aka.ms/o365ips)
+[Office 365 URL 與 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 [取得 Microsoft Teams 用戶端](get-clients.md)
 
-[Microsoft 團隊社區](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
+[Microsoft Teams 社群](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)
 
-[驗證 Microsoft 團隊的服務健康情況](service-health.md)
+[驗證 Microsoft Teams 的服務健康狀態](service-health.md)
 
-[連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[連絡商務產品的客戶支援 - 系統管理說明](/microsoft-365/admin/contact-support-for-business-products)
 
-[連絡人 Premier 支援](https://support.microsoft.com/premier/contacts)
+[與頂級支援人員聯繫](https://support.microsoft.com/premier/contacts)
 
-[疑難排解小組影片](https://www.youtube.com/watch?v=4O4d_7uZTQY)
+[Teams 影片疑難排解](https://www.youtube.com/watch?v=4O4d_7uZTQY)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-teams"></a>管理 Teams
 
-部署 Microsoft 團隊服務之後，您必須執行數個與其管理相關的活動。 活動範圍包括從管理服務和個別使用者到容量規劃，以及提供授權與電話號碼。 下列各節涵蓋一些常見的管理工作。
+部署 Microsoft Teams 服務之後，您必須執行數個與系統管理相關的活動。 活動範圍從管理服務和個別使用者，到容量規劃與供應授權和電話號碼。 下列各節涵蓋這些常見的管理工作。
 
 ### <a name="service-administration"></a>服務管理
 
-[團隊服務] 有多項設定可設定為全租租使用者。
-對租使用者設定所做的變更會影響已針對團隊啟用的所有使用者。 如需這些設定的詳細清單，請參閱[管理貴組織的 Microsoft 團隊設定](enable-features-office-365.md)。
+Teams 服務有多個可設定整個租使用者範圍的設定。
+對租使用者設定進行變更會影響已啟用 Teams 的所有使用者。 有關這些設定的詳細清單，請參閱 [管理貴組織的 Microsoft Teams 設定](enable-features-office-365.md)。
 
 ### <a name="user-administration"></a>使用者管理
 
-若要支援使用者，組織可能需要任何數量的相關工作，具體的工作會因組織而異。 最終，這些工作需要由已獲指派這些作業職責的支援小組來管理。 若要支援小組中的使用者，通常需要下列工作。
+若要支援使用者，組織可能需要任何數目的相關工作，而特定工作會因組織而異。 最終，這些工作必須由已指派這些營運職責的支援小組管理。 在 Teams 中支援使用者時，一般需要執行下列工作。
 
 #### <a name="general-tasks"></a>一般工作
 
-[管理使用者對 Microsoft 團隊的存取權](user-access.md)
+[管理 Microsoft Teams 的使用者存取權](user-access.md)
 
-#### <a name="common-tasks-for-phone-system"></a>電話系統的一般工作
+#### <a name="common-tasks-for-phone-system"></a>電話系統的常見工作
 
-[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+[指派、變更或移除使用者的電話號碼](./assign-change-or-remove-a-phone-number-for-a-user.md)
 
-[指派或變更使用者的緊急位址](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
+[指派或變更使用者的緊急位址](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
 
-[新增、變更或移除貴組織的緊急位置](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
+[新增、變更或移除貴組織的緊急位置](/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [建立和管理撥號對應表](create-and-manage-dial-plans.md)
 
-#### <a name="common-tasks-for-audio-conferencing"></a>音訊會議的一般工作
+#### <a name="common-tasks-for-audio-conferencing"></a>音訊會議的常見工作
 
 [變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)
 
@@ -511,63 +511,63 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="license-management"></a>授權管理
 
-隨著您的組織發展或合約，您必須規劃目前與未來需求的授權。 除了授權提供雲端語音功能（[電話系統](here-s-what-you-get-with-phone-system.md)和[音訊會議](https://products.office.com/skype-for-business/audio-conferencing)）之外，還有基本團隊授權。
+隨著貴組織成長或合約，您必須針對目前和未來的需求規劃授權。 除了授權雲端語音功能外，還有基本 Teams 授權 ([電話](here-s-what-you-get-with-phone-system.md)系統與音訊[會議) 。](https://products.office.com/skype-for-business/audio-conferencing)
 
-針對團隊，電話系統授權需要相關的[通話方案](calling-plan-landing-page.md)授權。 通話方案授權可讓您撥打及接聽國內和/或國際電話。 這些方案是以使用方式為基礎的，並將分鐘池與它們相關聯。 [配[點數通訊信用](what-are-communications-credits.md)] 可確保您永遠不會用盡服務。
+對於 Teams，電話系統授權需要相關聯的 [通話方案](calling-plan-landing-page.md) 授權。 通話方案授權可讓您撥打及接聽國內和/或國際電話。 這些方案是以使用量為基礎，而且有相關聯的分鐘數庫。 撥 [備通訊信用額度](what-are-communications-credits.md) 可確保您永遠不會用完服務。
 
-[音訊會議] 可讓您 tolled 電話撥入式會議和國內撥出式會議服務。 免付費電話撥入式會議或非國內撥出案例可能會導致您產生額外的費用，以供您需要[通訊信用額度](what-are-communications-credits.md)。
+音訊會議可讓您使用付費電話撥入式會議和國內撥出式會議服務。 免付費電話撥入式會議或非國內撥出案例可能會導致您產生額外的費用，而 [必須支付通訊](what-are-communications-credits.md) 額度。
 
-通訊點數可以補充通話方案和音訊會議授權。 通話方案授權和通訊點數都是以使用方式為基礎，因此需要加以監視及進行配置。
+通訊信用額度可以同時補充通話方案與音訊會議授權。 通話方案授權和通訊信用額度都是以使用量為基礎，因此需要監控並針對此進行配置。
 
-您可以利用[PSTN 使用狀況報告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)，協助您監控通話方案紀要與通訊點數的使用方式。 根據此活動的結果，您可以據調整您的授權。 我們即將推出[PSTN 分鐘池](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)報告，以更有效地協助此工作。
+您可以利用 [PSTN 使用方式報告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) ，協助監控通話方案通話分鐘數和通訊額度的使用方式。 根據此活動的結果，您可以調整授權。 我們即將推出 [PSTN 分鐘數庫](/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) 報告，以更有效地協助這項工作。
 
 ### <a name="telephone-number-management"></a>電話號碼管理
 
-在團隊中取得數位的方法有兩種：您可以從另一個提供者移植電話號碼，或者您可以直接從 Microsoft 的編號庫存中提供號碼。 這兩種方法都在[取得使用者的電話號碼](getting-phone-numbers-for-your-users.md)中說明。
+在 Teams 中取得號碼的方法有兩種：您可以從另一個提供者埠電話號碼，或直接從 Microsoft 的數位庫存中配置號碼。 這兩種方法在取得 [使用者的電話號碼中都有說明](getting-phone-numbers-for-your-users.md)。
 
-您可以從 Microsoft 編號庫存提供的電話號碼數目有限制。 限制是由[您可以取得多少電話號碼](how-many-phone-numbers-can-you-get.md)的幾個因素決定。
-限制是依據號碼類型（免付費服務號碼、收費服務號碼和訂閱者（使用者）號碼）而定。 每個都有自己的限制，而且必須獨立管理。 如果您接近限制（或達到限制），您可以套用超過限制的增量。 本程式將在前一段的文章中說明。
+您可以從 Microsoft 的號碼庫存中撥備的電話號碼數量有限制。 限制是由一些詳細因素所決定，詳細資料如下：您可以取得多少[電話號碼？。](how-many-phone-numbers-can-you-get.md)
+限制取決於號碼類型：免付費服務號碼、付費服務號碼，以及訂閱者 (使用者) 號碼。 每個都有各自的限制，而且必須獨立管理。 如果您接近限制 (或已達到限制) ，您可以申請增加限制。 上一個段落中的一文說明此程式。
 
-有時候，可能無法在提供服務的區域中提供數位。 如需有關申請號碼之程式的詳細資訊，請參閱[管理貴組織的電話號碼](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+有時候，在服務可用的地區可能無法提供號碼。 有關要求號碼程式的資訊，請參閱 [管理貴組織的電話號碼](/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
 
-### <a name="team-creation-optional"></a>小組建立（選用）
+### <a name="team-creation-optional"></a>小組建立 (選) 
 
-根據預設，所有在 Exchange Online 中擁有信箱的使用者，都有權建立 Microsoft 365 群組，因此也有在 Microsoft 團隊中的小組。 如果您想要更加嚴密地控制和[限制新團隊的建立](assign-roles-permissions.md#permissions-to-create-teams)（並由此建立新的 Microsoft 365 群組），您可以將群組建立與管理許可權委派給一組管理員。 如果您的組織想要使用此選項，請參閱本文所述的程式，讓使用者能夠提交由指派的小組處理的要求。
+根據預設，在 Exchange Online 中擁有信箱的所有使用者都有權在 Microsoft Teams 中建立 Microsoft 365 群組，因此也有權建立團隊。 如果您想要更嚴密地控制並限制建立新團隊 [ (](assign-roles-permissions.md#permissions-to-create-teams) 並因此建立新的 Microsoft 365 群組) ，您可以將群組的建立和管理許可權委派給一組系統管理員。 如果貴組織想要執行此選項，請參閱本文所述的程式，以允許使用者提交指派的團隊處理的要求。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/需要的工作
 
-| 活動                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                             | 節奏   | 指派的小組 |
+| 活動                    | 說明                                                                                                                                                                                                                                                                                                                                                                                                             | 節奏   | 已指派團隊 |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| 服務管理      | 管理整個租使用者的團隊設定。                                                                                                                                                                                                                                                                                                                                                                           | 視需要 |               |
-| 使用者管理         | 在小組中管理使用者的設定和授權。                                                                                                                                                                                                                                                                                                                                                           | 視需要 |               |
-| 授權管理          | 利用[pstn 使用量報告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)和[pstn 分鐘池](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)報告，規劃使用者與消費的授權（通話方案與通訊點數）目前與未來的需求。 | 周更新    |               |
-| 電話號碼管理 | 管理未來增長所能使用的電話號碼，並調整庫存階層，以符合您的組織需求。                                                                                                                                                                                                                                                                                                | 周更新    |               |
-| 小組建立（選用）    | 審查及處理小組建立的要求。                                                                                                                                                                                                                                                                                                                                                                          | 視需要 |               |
+| 服務管理      | 管理租使用者範圍的 Teams 設定。                                                                                                                                                                                                                                                                                                                                                                           | 需要時 |               |
+| 使用者管理         | 在 Teams 中管理使用者型設定和授權。                                                                                                                                                                                                                                                                                                                                                           | 需要時 |               |
+| 授權管理          | 利用 [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) 使用方式報表和 [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) 分鐘數庫報告，規劃使用者和消費型授權 (通話方案與通訊) 目前和未來的需求。 | 每週    |               |
+| 電話號碼管理 | 管理未來成長所需的電話號碼，並調整庫存量以滿足組織需求。                                                                                                                                                                                                                                                                                                | 每週    |               |
+| 小組建立 (選)     | 審查並處理建立小組的要求。                                                                                                                                                                                                                                                                                                                                                                          | 需要時 |               |
 
 <!--ENDOFSECTION-->
 
-## <a name="improve-and-monitor-call-quality"></a>改善並監控通話品質
+## <a name="improve-and-monitor-call-quality"></a>改善及監控通話品質
 
-[改善及監視團隊的通話品質](monitor-call-quality-qos.md)，包括一組活動，可在對改善使用者體驗產生最大影響的重要區域中評估和提供修正指導方針，如下所示。
+[改善及監控 Teams](monitor-call-quality-qos.md) 的通話品質包括一組活動，可評估對改善使用者體驗有最大影響的重要領域，並提供補救指引，如下圖所示。
 
-![在體驗品質檢查期間檢查的區域圖表](media/plan-my-service-management-image2.png "體驗品質檢查期間要檢查的主要區域：音訊、可靠性及使用者問卷結果。")
+![體驗品質檢閱期間要檢查的區域圖表](media/plan-my-service-management-image2.png "在體驗品質檢閱期間要檢查的主要領域：音訊、可靠性及使用者問卷結果。")
 
-透過不斷評估並修正指南中所述的區域，您可以減少對使用者經驗造成負面影響的可能性。 在部署中遇到的大多數使用者體驗問題，都可以分為下列類別：
+您可以持續評估及補救指南所述區域，以降低其潛在性，對使用者體驗造成負面影響。 部署中遇到的大多數使用者體驗問題可以分成下列類別：
 
--   防火牆或 proxy 配置不完整
+-   不完整的防火牆或 Proxy 組
 
--   低 wi-fi 覆蓋範圍
+-   低Wi-Fi覆蓋
 
 -   頻寬不足
 
--   點對點
+-   Vpn
 
--   使用未優化或內建的音訊裝置
+-   使用非初始化或內建的音訊裝置
 
 -   有問題的子網或網路裝置
 
-[改善及監視團隊通話品質的](monitor-call-quality-qos.md)指導方針重點是使用通話品質儀表板（CQD）作為主要工具來報告和調查所述的每個區域，並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化，以改善音訊體驗，也會直接翻譯成影片和桌面共用的改良功能。
+改善及監控 [Teams](monitor-call-quality-qos.md) 通話品質所提供的指引，著重于使用通話品質儀表板 (CQD) Online 做為報告及調查所述每個區域的主要工具，並著重于音訊，以最大化採用和影響。 對網路進行的任何優化以改善音訊體驗，也會直接轉換成改善視像和桌面共用。
 
-我們強烈建議您提前提名品質擁護者。 命名之後，他們應該開始熟悉[改善及監視團隊通話品質的](monitor-call-quality-qos.md)內容。
+我們強烈建議您及早提名品質優等獎得主。 被提名後，他們應開始熟悉改善及監控 Teams 通話 [品質中的內容](monitor-call-quality-qos.md)。
 
 <!--ENDOFSECTION-->

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 摘要：瞭解新的商務用 Skype 和您可以採取的步驟，以準備您的環境和使用者進行更新，不論您使用的是商務用 Skype Online、商務用 skype Server 2019、商務用 skype Server 2015、Lync Server 2013 或 Lync Server 2010。
-ms.openlocfilehash: 1136bcf95a0c9ee045d9947bd7a2f7771dae16fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4f61876ab9826644fb7ef22db99d54adb2afe403
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112799"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>規劃使用者的商務用 Skype 2015 用戶端體驗
  
@@ -115,9 +115,9 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 
 當商務用 Skype 用戶端部署在內部部署 Lync Server 部署中時，這是預設的體驗。 您不需要設定任何用戶端原則使用 Lync 用戶端體驗，但是您可能想要控制用戶端的第一次執行行為。 根據預設，使用者第一次啟動商務用 Skype 用戶端時，會使用 Skype 用戶端經驗，並向使用者顯示通知，要求他們重新開機用戶端以取得 Lync 用戶端體驗。 您可以設定您的環境，讓使用者第一次啟動用戶端時顯示 Lync 用戶端經驗，以及在用戶端電腦上修改系統登錄以關閉用戶端教學課程。 如需在部署商務用 Skype 用戶端之前所需執行的步驟，請參閱下列其中一個主題：
   
-- **Lync server 2013**，請參閱 [Configure Client experience With 商務用 Skype in Lync server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532732)
+- **Lync server 2013**，請參閱 [Configure Client experience With 商務用 Skype in Lync server 2013](/previous-versions/office/lync-server-2013/configure-the-skype-for-business-client-in-lync-server-2013)
     
-- **Lync server 2010** 請參閱 [Configure Client experience With 商務用 Skype in Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
+- **Lync server 2010** 請參閱 [Configure Client experience With 商務用 Skype in Lync Server 2010](/previous-versions/office/skype-server-2010/dn955209(v=ocs.14))
     
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>使用 Lync 用戶端與商務用 Skype Server 內部部署的經驗
 <a name="LyncwithSfBServer"> </a>
@@ -185,7 +185,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 
 在您設定用戶端原則之後，部署商務用 Skype 用戶端，組建 4711.1002 (四月，2015) 或更新版本。
   
-如需如何使用商務用 Skype Online 設定用戶端經驗的詳細資訊，包括如何控制第一個執行經驗的步驟，以及可用來設定環境的 PowerShell 腳本，請參閱 [在商務用 skype 和 Lync 用戶端使用者介面之間切換](https://aka.ms/SfBOUI)。
+如需如何使用商務用 Skype Online 設定用戶端經驗的詳細資訊，包括如何控制第一個執行經驗的步驟，以及可用來設定環境的 PowerShell 腳本，請參閱 [在商務用 skype 和 Lync 用戶端使用者介面之間切換](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md)。
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>協助您準備支援小組和使用者進行更新的資源
 <a name="support"> </a>
@@ -201,5 +201,3 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 - [商務用 Skype：新使用者的逐步指南](https://go.microsoft.com/fwlink/p/?LinkId=544815)
     
 - [為何我在使用 Lync 時看到商務用 Skype？](https://go.microsoft.com/fwlink/p/?LinkID=544712)
-    
-

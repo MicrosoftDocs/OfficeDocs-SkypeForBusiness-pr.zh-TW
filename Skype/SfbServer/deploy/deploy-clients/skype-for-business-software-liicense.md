@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 閱讀此主題以瞭解如何檢查您是否有商務用 Skype 軟體大量授權。
-ms.openlocfilehash: 20e04f69ba5a931bae6ac8598567165a7a6043a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 40b72e39fc0edc23b4cc0d17f82ba633c2ac24af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113089"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype 聊天室系統：商務用 Skype 軟體授權
  
@@ -33,7 +33,7 @@ Skype 室系統會使用已安裝的商務用 Skype 用戶端，這需要軟體�
   
 如需詳細資訊，請參閱 how [to 透過 DNS 探索 Office 和 WINDOWS KMS 主機，並移除未授權的實例](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx)。 
   
-若要設定 KMS，請參閱 [office 2013](https://technet.microsoft.com/library/ee624357.aspx) 和 Gvlk 的 kms 啟用， [以取得 OFFICE 2013 的 Kms 和 Active Directory 啟用](https://technet.microsoft.com/library/dn385360.aspx)
+若要設定 KMS，請參閱 [office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) 和 Gvlk 的 kms 啟用， [以取得 OFFICE 2013 的 Kms 和 Active Directory 啟用](/DeployOffice/vlactivation/gvlks)
   
 Office 2013 通用大量授權金鑰，適用于 Lync： 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (此機碼會使 Skype 會議室系統在網路上尋找 KMS。 ) 
   
@@ -58,5 +58,3 @@ Office 2013 通用大量授權金鑰，適用于 Lync： 2MG3G-3BNTT-3MFW9-KDQW3
 - 部署日期
     
 - 如果客戶有 Microsoft 技術客戶經理，TAM 的名稱和連絡人資訊
-    
-

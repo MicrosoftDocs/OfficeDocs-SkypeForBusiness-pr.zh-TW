@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 中設定多個緊急號碼。
-ms.openlocfilehash: fe53e914eb0c406a4f7013df2f6ec106fa781f56
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dc05e94e88b371bb9ee22568eff567e758311233
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804103"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111889"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>在商務用 Skype 中設定多個緊急數量
 
@@ -33,7 +33,7 @@ ms.locfileid: "49804103"
 
 ## <a name="configure-multiple-emergency-numbers"></a>設定多個緊急電話號碼
 
-若要設定多個緊急數位，您可以使用 New-CsEmergencyNumber Cmdlet，然後使用 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) 及 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Cmdlet 來指定 EmergencyNumbers 參數。 如需所有位置原則參數（例如 PSTN 使用方式和位置）的完整說明，請參閱 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)。
+若要設定多個緊急數位，您可以使用 New-CsEmergencyNumber Cmdlet，然後使用 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) 及 [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Cmdlet 來指定 EmergencyNumbers 參數。 如需所有位置原則參數（例如 PSTN 使用方式和位置）的完整說明，請參閱 [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)。
 
 下列命令使用 New-CsEmergency Cmdlet，以撥號字串911建立新的緊急號碼：
 

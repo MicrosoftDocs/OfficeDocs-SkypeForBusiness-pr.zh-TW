@@ -19,19 +19,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cb28295b0a9700a0eb7531111022a9498517d93
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: ff9e407edeab7d14e0d495c5f30a85abfb9ce02f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611587"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112439"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端 
 
 Microsoft Teams 具有適用於 Web、桌面 (Windows、Mac 和 Linux) 及行動裝置 (Android 和 iOS) 的用戶端。 這些用戶端都需要使用有效的網際網路連線，且並不支援離線模式。 
 
 > [!Note]
-> 如需不同平臺上每個用戶端功能的詳細資訊，請參閱 [依平臺的團隊功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 有關不同平臺上每個用戶端功能的詳細資訊，請參閱 [平臺的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 > [!NOTE]
 > 2018 年 11 月 29 日起，您將無法再使用 Microsoft Store 提供的 Windows 10 S 版 Microsoft Teams (預覽版) 應用程式。 但是您現在可以在執行 Windows 10 S 模式的裝置上，下載並安裝 Teams 桌面版用戶端。 若要下載桌面版用戶端，請移至 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)。 Teams 桌面版用戶端的 MSI 組建尚不適用於執行 Windows 10 S 模式的裝置。
@@ -43,14 +43,14 @@ Microsoft Teams 具有適用於 Web、桌面 (Windows、Mac 和 Linux) 及行動
 > [!TIP]
 > 請觀看下列工作階段，以了解 Windows 桌面版用戶端的優點、規劃方式及部署方式：[Teams 的 Windows 桌面版用戶端](https://aka.ms/teams-clients)
 
-Microsoft 團隊桌面用戶端是獨立的應用程式，也 [可在適用于企業的 Microsoft 365 應用程式中使用](https://docs.microsoft.com/deployoffice/teams-install)。 團隊可在32和64位版本的 Windows (8.1 或更新版本) 中，在 ARM 上使用 Windows 10 版 ARM64，以及 Windows Server (2012 R2 或更新版本) ，以及 (的 macOS 和 Linux) `.deb` `.rpm` 格式。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更新版本；如果您沒有此元件，Teams 安裝程式將會為您安裝。 在 Linux 上，套件管理員 (例如 `apt` 和 `yum`) 會嘗試為您安裝任何需求。 不過，如果套件管理員沒有這麼做，您必須先安裝所有回報的需求，然後再安裝 Linux 版 Teams。
+Microsoft Teams 桌面用戶端是獨立應用程式，也可在 [適用于企業的 Microsoft 365 App 中使用](/deployoffice/teams-install)。 Teams 適用于 32 位和 64 位版本的 Windows (8.1 或更新版本) 、ARM 版 Windows 10 的 ARM64 和 Windows Server (2012 R2 或更新版本) ，以及 macOS 和 Linux (的) 格式。 `.deb` `.rpm` 在 Windows 上，Teams 需要 .NET Framework 4.5 或更新版本；如果您沒有此元件，Teams 安裝程式將會為您安裝。 在 Linux 上，套件管理員 (例如 `apt` 和 `yum`) 會嘗試為您安裝任何需求。 不過，如果套件管理員沒有這麼做，您必須先安裝所有回報的需求，然後再安裝 Linux 版 Teams。
 
 桌面版用戶端提供即時通訊支援 (音訊、視訊和內容共用)，可用於進行小組會議、群組通話和個人的一對一通話。
 
 如果終端使用者擁有適當的本機權限 (在 PC 上安裝 Teams 用戶端不需要系統管理員權限，但在 Mac 上安裝則需要系統管理員權限)，他們可以直接從 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下載和安裝桌面版用戶端。
 
 > [!NOTE]
-> 如需在 Chromebook 上安裝團隊的詳細資訊，請參閱 [如何在 Chromebook 上安裝及執行 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)。
+> 如需在 Chromebook 上安裝 Teams 的詳細資訊，請參閱如何在 Chromebook 上安裝及執行[Microsoft Office。](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)
 
 IT 系統管理員可以選擇其偏好的方式，將安裝檔案發佈到組織中的電腦。 例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 若要取得 Windows 發行版本的 MSI 套件，請參閱[使用 MSI 安裝 Microsoft Teams](msi-deployment.md)。  
 
@@ -79,9 +79,9 @@ Windows 用戶端會部署至使用者設定檔中的 [AppData] 資料夾。 部
 ![Windows 安全性警示對話方塊的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> 即使您選取「取消」來忽略提示，Windows 防火牆設定仍會變更。 將使用 TCP 和 UDP 通訊協定的 [允許] 動作來建立 teams.exe 的兩個入站規則。
+> 即使您選取「取消」來忽略提示，Windows 防火牆設定仍會變更。 系統將會針對teams.exe TCP 和 UDP 通訊協定建立兩個內入規則。
 
-如果您想要防止團隊在使用者第一次從團隊撥打電話時，提示使用者建立防火牆規則，請使用下列 [範例 PowerShell 腳本-入站防火牆規則](#sample-powershell-script---inbound-firewall-rule) 。 
+如果您想要防止 Teams 在使用者第一次從 Teams 進行通話時提示使用者建立防火牆規則，請使用下方的範例 PowerShell 腳本 [- 輸入防火牆](#sample-powershell-script---inbound-firewall-rule) 規則。 
 
 ### <a name="mac"></a>Mac
 
@@ -111,15 +111,15 @@ IT 系統管理員可以使用 Teams 的受控部署，將安裝檔案發佈到�
 ### <a name="linux"></a>Linux
 
 使用者能夠安裝 `.deb` 和 `.rpm` 格式的原生 Linux 套件。
-安裝 DEB 或 RPM 套件時，將會自動安裝套件儲存庫。
+安裝 DEB 或 RPM 套件會自動安裝套件存放庫。
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
 使用系統套件管理員來啟用自動更新所需的簽署金鑰也會自動安裝。 不過，也可以在以下位置找到：(https://packages.microsoft.com/keys/microsoft.asc)。 Microsoft Teams 會每月傳送，而且如果存放庫安裝正確，則系統套件管理員會使用與系統中其他套件相同的方式處理自動更新。
 
 > [!NOTE] 
-> 如果您發現錯誤，請使用用戶端內部的 `Report a Problem` 提交錯誤。 如有已知問題，請參閱 [貴組織的支援小組](Known-issues.md)。
-> 如需適用於 Teams 的 Linux 支援，您可以使用 [Microsoft Q&A 上的 Linux 論壇支援頻道](https://docs.microsoft.com/answers/topics/teams.html)。 請務必在張貼問題時使用 `teams-linux` 標籤。 
+> 如果您發現錯誤，請使用用戶端內部的 `Report a Problem` 提交錯誤。 針對已知問題，請參閱 [貴組織中支援 Teams](/MicrosoftTeams/troubleshoot/teams-welcome)。
+> 如需適用於 Teams 的 Linux 支援，您可以使用 [Microsoft Q&A 上的 Linux 論壇支援頻道](/answers/topics/teams.html)。 請務必在張貼問題時使用 `teams-linux` 標籤。 
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 套件安裝 Teams
 
@@ -226,7 +226,7 @@ Microsoft Teams 行動裝置應用程式支援的行動平台如下：
 
 ![通知設定的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script---inbound-firewall-rule"></a>PowerShell 腳本-入站防火牆規則範例
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>範例 PowerShell 腳本 - 內入防火牆規則
 
 此指令碼範例必須在系統管理員帳戶權限已提升的用戶端電腦上執行，才能為 c:\users 中的每個使用者資料夾建立新的輸入防火牆規則。 當 Teams 找到此規則時，該規則會防止 Teams 應用程式在使用者第一次從 Teams 進行通話時，提示使用者建立防火牆規則。 
 

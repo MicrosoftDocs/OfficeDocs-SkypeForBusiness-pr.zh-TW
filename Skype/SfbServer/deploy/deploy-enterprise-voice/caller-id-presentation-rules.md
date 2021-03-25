@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 摘要：瞭解如何使用商務用 Skype Server [控制台] 設定來電者識別碼。
-ms.openlocfilehash: ca1451a051a1c9053b88861222d2c4d42c5d555b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2ffe547927c9f4d6df16a06cc8c95dff9814fc7f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804183"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113029"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改呼叫者識別碼簡報的轉譯規則
 
@@ -43,15 +43,13 @@ ms.locfileid: "49804183"
 
    - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[來電號碼轉譯規則]** 中，按一下您想要與主幹建立關聯的規則，然後按一下 **[確定]**。
 
-   - 若要定義新的轉譯規則並將其與主幹建立關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的  [定義轉譯規則](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) 。
+   - 若要定義新的轉譯規則並將其與主幹建立關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的  [定義轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules) 。
 
-   - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署文件中的[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)。
+   - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署文件中的[Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)。
 
-   - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，＜[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)＞。
+   - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，＜[Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)＞。
 
    - 若要從主幹移除轉譯規則，請反白顯示該規則名稱並按一下 **[移除]**。
 
      > [!CAUTION]
      > 如果您已在相關聯的主幹對等上設定轉譯規則，則請勿將轉譯規則與主幹建立關聯，因為兩種規則可能會衝突。
-
-

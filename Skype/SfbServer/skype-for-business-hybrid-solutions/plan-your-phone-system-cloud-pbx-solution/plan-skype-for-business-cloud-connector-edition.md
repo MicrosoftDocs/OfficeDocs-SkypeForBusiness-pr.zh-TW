@@ -20,21 +20,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 尋找適用于商務用 Skype 雲端連接器 Edition 的資訊，一組封裝式虛擬機器 (Vm) ，以 (雲端 PBX) 執行內部部署 PSTN 連線。
-ms.openlocfilehash: ec96662e3dbe432ce8cebe7dc59004350124451e
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358989"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113709"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype Cloud Connector Edition
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 尋找適用于商務用 Skype 雲端連接器 Edition 的資訊，一組封裝式虛擬機器 (Vm) ，以 (雲端 PBX) 執行內部部署 PSTN 連線。
 
-如果您沒有現有的 Lync Server 或商務用 Skype Server 部署，雲端連接器 Edition 可能是貴組織的正確解決方案。 如果您仍在調查哪一個電話系統解決方案適合您的企業，請參閱 [Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+如果您沒有現有的 Lync Server 或商務用 Skype Server 部署，雲端連接器 Edition 可能是貴組織的正確解決方案。 如果您仍在調查哪一個電話系統解決方案適合您的企業，請參閱 [Microsoft 電話語音解決方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)。
 
 這份檔描述 Cloud Connector Edition 需求和支援的拓撲，並協助您規劃雲端連接器 Edition 部署。 在設定雲端連接器環境之前，請務必閱讀本主題。 當您準備好部署及設定 Cloud Connector Edition 時，請參閱 [configure and Manage 商務用 Skype Cloud Connector edition](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -61,7 +61,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 - 雲端連接器不需要完整的內部部署商務用 Skype Server 部署。
 
-    目前，Cloud Connector 無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移至 Microsoft 365，並持續為使用者提供內部部署電話語音，請考慮使用現有的商務用 Skype 伺服器部署，使用具有內部部署連線的電話系統。 如需詳細資訊，請參閱[在商務用 Skype Server 中](plan-phone-system-with-on-premises-pstn-connectivity.md)[規劃您的電話系統 (雲端 PBX) 解決方案](plan-your-phone-system-cloud-pbx-solution.md)及規劃使用內部部署 PSTN 連線的電話系統。
+    目前，Cloud Connector 無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移至 Microsoft 365，並持續為使用者提供內部部署電話語音，請考慮使用現有的商務用 Skype 伺服器部署，使用具有內部部署連線的電話系統。 如需詳細資訊，請參閱[在商務用 Skype Server 中](plan-phone-system-with-on-premises-pstn-connectivity.md)[規劃您的電話系統 (雲端 PBX) 解決方案](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)及規劃使用內部部署 PSTN 連線的電話系統。
 
 - 如果您有舊版商務用 Skype 或 Lync Server 部署，而且您已擴充架構，只要您已從環境中移除所有商務用 Skype 或 Lync Server 元件，便不需要清除雲端連接器部署的架構。
 
@@ -128,11 +128,11 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 - **網域控制站** -Cloud Connector Active Directory 網域服務，用來儲存部署雲端連接器元件所需的所有全域設定和群組。 每個雲端連接器裝置都會建立一個樹系。 網域控制站不能與實際執行 Active Directory 的任何連接。 Active Directory 服務包括：
 
-  - Active Directory Domain Services
+  - Active Directory 網域服務
 
   - 發行內部憑證的 Active Directory 憑證服務
 
-- 中繼**元件**-在商務用 SKYPE 與 PSTN 閘道之間實現 SIP 和媒體閘道對應通訊協定。 包含一個 CMS 複本，它會同步處理全域 CMS 資料庫的設定。
+- 中繼 **元件**-在商務用 SKYPE 與 PSTN 閘道之間實現 SIP 和媒體閘道對應通訊協定。 包含一個 CMS 複本，它會同步處理全域 CMS 資料庫的設定。
 
 ## <a name="cloud-connector-edition-topologies"></a>雲端連接器版本拓撲
 <a name="BKMK_Topologies"> </a>
@@ -186,7 +186,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 ### <a name="multiple-cloud-connector-appliances-within-a-single-pstn-site"></a>單一 PSTN 網站中的多個雲端連接器裝置
 
- 出於可伸縮性和高可用性的目的，您可以選擇在單一 PSTN 網站內有多個雲端連接器版本，如下圖所示。 請考慮下列項目：
+ 出於可伸縮性和高可用性的目的，您可以選擇在單一 PSTN 網站內有多個雲端連接器版本，如下圖所示。 考慮下列事項：
 
 - 通話會以隨機順序分配至一個集區中的雲端連接器。
 
@@ -231,7 +231,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
   - 4 600 GB (或更好) 10K RPM 128M 快取 SAS 6Gbps 磁片，已在 RAID 5 設定中設定
 
-  - 三個 1 Gbps RJ45 高輸送量網路介面卡
+  - 3 1 Gbps RJ45 高輸送量網路介面卡
 
 - 如果您選擇部署支援高達50同時通話的較小版本的雲端連接器版本，則需要下列硬體：
 
@@ -249,13 +249,13 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
   - 指定每個機器的 proxy 設定，而非每個使用者。 否則 Cloud Connector 下載將會失敗。 您可以使用登錄變更或「群組原則」設定來指定每台電腦的 proxy 設定，如下所示：
 
-  - 登錄 **：** HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword：00000000
+  - **Registry：** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword：00000000
 
   - **群組原則：** 電腦系統 \> 管理範本 \> Windows 元件 \> ： Internet Explorer：以每個機器 (，而不是依據每個使用者來建立 Proxy 設定) 
 
 - 合格的 PBX/主幹或合格的 SBC/閘道 () 建議至少兩個閘道。
 
-    雲端連接器支援相同的會話邊界控制器 (已驗證商務用 Skype 的 SBCs) 。 如需詳細資訊，請參閱 [商務用 Skype 的電話語音基礎結構](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。
+    雲端連接器支援相同的會話邊界控制器 (已驗證商務用 Skype 的 SBCs) 。 如需詳細資訊，請參閱 [商務用 Skype 的電話語音基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)。
 
 - 本機伺服器管理員帳戶，具有在主伺服器上安裝及設定 Hyper-V 的許可權。 此帳戶必須在安裝及設定 Hyper-V 的本機伺服器上具有系統管理員許可權。
 
@@ -361,7 +361,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 \*\*\* 請注意，如果 SBC/閘道製造商允許，您也可以限制 SBC/閘道上的埠範圍。
 
-基於安全性的考慮，您可以使用 [Set-CsMediationServer](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) Cmdlet 來限制中繼元件的埠範圍。
+基於安全性的考慮，您可以使用 [Set-CsMediationServer](/powershell/module/skype/set-csmediationserver?view=skype-ps) Cmdlet 來限制中繼元件的埠範圍。
 
 例如，下列命令會限制在) 中，中繼元件將用於音訊 (的媒體流量為 50 000-51 000 的埠數目。 中繼元件將可以使用此設定來處理250同時進行的呼叫。 請注意，您也可能想要在 SBC/PSTN 閘道上限制此範圍：
 
@@ -369,7 +369,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
-若要取得轉送元件的名稱並查看預設埠，您可以使用 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) Cmdlet，如下所示：
+若要取得轉送元件的名稱並查看預設埠，您可以使用 [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps) Cmdlet，如下所示：
 
 ```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
@@ -514,8 +514,8 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |媒體轉送名稱  <br/> |音訊影片媒體轉送 Edge 的名稱;例如先生。 一個外部集區名稱將用於集區中的所有 Edge 元件。 每個 PSTN 網站需要一個 Edge Media 轉送集區。  <br/> .Ini 檔案中的名稱： "ExternalMRFQDNPoolName"，位於 "Edge Servers 集區的參數" 底下。  <br/> |不得超過15個字元。 請僅輸入 Netbios 名稱。  <br/> |
 |媒體轉送 Edge 的外部 IP  <br/> |目前只支援一個 IP，因此這會與 Access Edge 相同（公用或對應的 IP (）請指定對應) 的兩個位址。 可以是 Access Edge 之 Edge 元件的外部 IP 位址。 附注如果 Edge 位於 NAT 背後，您也必須指定下一個參數的值。  <br/> .Ini 檔案中的名稱： "ExternalMRIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
 |Media 轉送 Edge 的外部 IP (如果 Edge 位於 NAT 之後)   <br/> |如果您的 Edge 位於 NAT 之後，您也必須指定 NAT 裝置的公用位址。  <br/> .Ini 檔案中的名稱： "ExternalMRPublicIPs"，位於 "Edge Servers 集區的參數" 底下。  <br/> ||
-|語音閘道1制定和模型  <br/> |指定 SBC/Voice 閘道的 make 和 model。 請注意，您可以從已測試裝置清單中連接裝置或 SIP 主幹 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) 。  <br/> ||
-|如果您有兩個以上的閘道，則為語音閘道 2 Make and Model (複製此列)   <br/> |指定語音閘道的制定和模型。 請注意，您可以從已測試裝置清單中連接裝置 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) 。  <br/> ||
+|語音閘道1制定和模型  <br/> |指定 SBC/Voice 閘道的 make 和 model。 請注意，您可以從已測試裝置清單中連接裝置或 SIP 主幹 [https://technet.Microsoft.com/UCOIP](../../../SfbPartnerCertification/certification/overview.md) 。  <br/> ||
+|如果您有兩個以上的閘道，則為語音閘道 2 Make and Model (複製此列)   <br/> |指定語音閘道的制定和模型。 請注意，您可以從已測試裝置清單中連接裝置 [https://technet.Microsoft.com/UCOIP](../../../SfbPartnerCertification/certification/overview.md) 。  <br/> ||
 |語音閘道1名稱  <br/> |用於產生電腦 FQDN 與 AD 網域。 若要在中繼元件和語音閘道之間使用 TLS，則為必要的。 如果您不打算使用 FQDN，例如，TLS 不是必要的，或語音閘道不支援使用 FQDN (唯一的 IP) —請指定。  <br/> ||
 |語音閘道2名稱 (複製此列（如果您有超過2個閘道)   <br/> |用於產生電腦 FQDN 與 AD 網域。 若 TLS 將用於中繼元件和語音閘道，則為必要。 如果您不打算使用 FQDN，例如，TLS 不是必要的，或語音閘道不支援使用 FQDN (唯一的 IP) —請指定。  <br/> ||
 |語音閘道 1 IP 位址  <br/> |語音閘道的 IP 位址。  <br/> ||
@@ -534,10 +534,10 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |CABackupFile  <br/> 版本2.0 和更新版本  <br/> |用於在雲端連接器網站中部署多個裝置時，將憑證授權單位服務從 Active Directory 伺服器儲存至檔案。 請務必為一個雲端連接器網站中的所有裝置使用相同的密碼，以便將 CA 備份檔案匯入至已成功新增的裝置。  <br/> ||
 |CCEService  <br/> 版本2.0 和更新版本  <br/> |用於雲端連接器管理服務;需要存取雲端連接器網站目錄。 請務必為一個雲端連接器網站內的所有裝置使用相同的密碼。  <br/> ||
 |Microsoft 365 或 Office 365 租使用者系統管理員  <br/> | 雲端連接器會使用此帳戶來更新及管理雲端連接器的租使用者設定： <br/>  版本2.0 和更新版本：具有商務用 Skype 系統管理員許可權專用 Microsoft 365 或 Office 365 帳戶的認證。 <br/>  2.0 以前的版本：具有全域承租人系統管理員權力之專用 Microsoft 365 或 Office 365 帳戶的認證。 <br/> ||
-|啟用參考支援  <br/> |這會定義在主幹設定上啟用或停用 SIP 對您的 IP/PBX 的 SIP 是否有説明。 預設值為 True。 如果您的 IP/PBX 閘道支援 [參考支援]，請將此值保留為 True。 否則，必須將此值變更為 False。 如果您不確定您的閘道是否支援 [參考]，請參閱 [合格的 IP-PBXs 和閘道](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)。   <br/> ||
+|啟用參考支援  <br/> |這會定義在主幹設定上啟用或停用 SIP 對您的 IP/PBX 的 SIP 是否有説明。 預設值為 True。 如果您的 IP/PBX 閘道支援 [參考支援]，請將此值保留為 True。 否則，必須將此值變更為 False。 如果您不確定您的閘道是否支援 [參考]，請參閱 [合格的 IP-PBXs 和閘道](../../../SfbPartnerCertification/certification/infra-gateways.md)。   <br/> ||
 |EnableFastFailoverTimer  <br/> 版本2.0 和更新版本  <br/> |預設值為 "True" 時，如果閘道不會在10秒內接聽撥出電話，它們會路由傳送至下一個可用的閘道;如果沒有其他主幹，則會自動丟棄通話。  <br/> 不過，在具有慢速網路和閘道回應的組織中，或在建立通話的程式需要超過10秒時，可能會導致通話不必要地中斷。  <br/> 在撥打某些國家/地區的電話時（例如 UAE 或阿富汗），通話建立程式可能需要10秒以上的時間。 如果您遇到類似的問題，您必須將此值變更為 False。 請勿忘記變更所連接的 SBC 或閘道上的對應設定。  <br/> 這個值可以是 True 或 False。 預設值為 True。  <br/> ||
-|ForwardCallHistory  <br/> 版本2.0 和更新版本  <br/> | 此參數是用來開啟 SIP 標頭，用來在同時震鈴、來電轉接及來電轉接案例中報告初始來電者。 將參數設定為 True，會開啟兩個 SIP 標頭： <br/>  History-Info <br/>  稱為 <br/>  History-Info 標頭可用於重新導向 SIP 要求，以及 "提供 () 標準機制來捕獲要求記錄資訊，以便為網路和使用者啟用多種服務， ([RFC 4244-區段 1.1](http://www.ietf.org/rfc/rfc4244.txt)) 。 在雲端連接器主幹介面中，這是用於 Simulring 和來電轉接案例。  <br/>  這個值可以是 True 或 False。 預設值為 False。 <br/> ||
-|轉寄 PAI  <br/> 版本2.0 和更新版本  <br/> |PAI 是 SIP 的私人擴充，可讓 SIP 伺服器斷言已驗證使用者的身分識別。 若為 SIP 主幹提供者，PAI 可能會用於計費目的，但未出現 History-Info 和「參照方標頭」的事件。 在設定中啟用轉寄 P-Asserted-Identity 時，轉送伺服器會將 SIP &amp; 電話 URI 的 PAI 標頭從雲端連接器轉寄至 SIP 主幹。 轉送伺服器將會轉寄 PAI 標頭，且電話 URI 的 e.164 &amp; 號碼只會在 SIP 主幹與雲端連接器上接收。 轉送伺服器也會轉寄任何方向接收的任何隱私權標頭。 如果轉送伺服器所傳送的 SIP 要求包含表單的隱私權標頭-"隱私權： id" 與 PAI 標頭一起，則宣稱的身分識別應以保密的方式存放在網路信任網域之外。  <br/> 這個值可以是 True 或 False。 預設值為 False。  <br/> ||
+|ForwardCallHistory  <br/> 版本2.0 和更新版本  <br/> | 此參數是用來開啟 SIP 標頭，用來在同時震鈴、來電轉接及來電轉接案例中報告初始來電者。 將參數設定為 True，會開啟兩個 SIP 標頭： <br/>  History-Info <br/>  Referred-By <br/>  History-Info 標頭可用於重新導向 SIP 要求，以及 "提供 () 標準機制來捕獲要求記錄資訊，以便為網路和使用者啟用多種服務， ([RFC 4244-區段 1.1](http://www.ietf.org/rfc/rfc4244.txt)) 。 在雲端連接器主幹介面中，這是用於 Simulring 和來電轉接案例。  <br/>  這個值可以是 True 或 False。 預設值為 False。 <br/> ||
+|轉寄 PAI  <br/> 版本2.0 和更新版本  <br/> |PAI 是 SIP 的私人擴充，可讓 SIP 伺服器斷言已驗證使用者的身分識別。 若為 SIP 主幹提供者，當 History-Info 和 Referred-By 標頭不存在時，PAI 可能會用於計費目的。 在設定中啟用轉寄 P-Asserted-Identity 時，轉送伺服器會將 SIP &amp; 電話 URI 的 PAI 標頭從雲端連接器轉寄至 SIP 主幹。 轉送伺服器將會轉寄 PAI 標頭，且電話 URI 的 e.164 &amp; 號碼只會在 SIP 主幹與雲端連接器上接收。 轉送伺服器也會轉寄任何方向接收的任何隱私權標頭。 如果轉送伺服器所傳送的 SIP 要求包含表單的隱私權標頭-"隱私權： id" 與 PAI 標頭一起，則宣稱的身分識別應以保密的方式存放在網路信任網域之外。  <br/> 這個值可以是 True 或 False。 預設值為 False。  <br/> ||
 
 ### <a name="certificate-requirements"></a>憑證需求
 <a name="BKMK_Certs"> </a>
@@ -618,11 +618,11 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
     如果某個裝置中的 Edge 元件無法使用，則輸入和輸出通話的行為會與下列專案有所不同：
 
-  - 撥**出電話**-從網際網路向 PSTN 網路撥打的電話。
+  - 撥 **出電話**-從網際網路向 PSTN 網路撥打的電話。
 
     雲端中的呼叫散佈機制會識別一部 Edge 元件已停機，而且會將所有呼叫路由傳送至另一個裝置，所以輸出通話成功。
 
-  - 撥**入呼叫**-從 PSTN 網路呼叫至本機網路或網際網路中的使用者。
+  - 撥 **入呼叫**-從 PSTN 網路呼叫至本機網路或網際網路中的使用者。
 
      如果接收通話之裝置的 Edge 元件無法正常運作，由於中繼元件無法將呼叫重新導向至其他裝置中的 Edge 元件，所以對此裝置的輸入呼叫將不會成功。
 
@@ -706,17 +706,15 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 Cloud Connector 2.1 和更新版本支援使用 Operations Management Suite (OMS) 來監視雲端連接器。 如需詳細資訊，請參閱 [使用 Operations Management Suite Monitor Cloud Connector (OMS) ](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
-## <a name="for-more-information"></a>相關資訊
+## <a name="for-more-information"></a>如需詳細資訊
 <a name="BKMK_MoreInfo"> </a>
 
 如需詳細資訊，請參閱下列各主題：
 
-- [Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 電話語音解決方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
 
 - [設定及管理商務用 Skype 雲端連接器 Edition](configure-skype-for-business-cloud-connector-edition.md)
 
 - [規劃 Cloud Connector Edition 中的媒體旁路](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [在雲端連接器 Edition 中部署媒體旁路](deploy-media-bypass-in-cloud-connector.md)
-
-

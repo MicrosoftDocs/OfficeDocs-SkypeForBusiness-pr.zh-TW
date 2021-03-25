@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 在商務用 Skype Server Enterprise Voice 中規劃宣告應用程式，以設定組織中未指派電話號碼的電話通話方式。 包括音訊檔需求。
-ms.openlocfilehash: b1929fa14b105fd8eccd0f178ae7ef77c1bdf086
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e1309fe58942f3b9cd720b3643966ae9494bb0cb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813753"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112709"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>在商務用 Skype 中規劃宣告應用程式
 
@@ -50,6 +50,4 @@ ms.locfileid: "49813753"
 
 ### <a name="audio-file-requirements"></a>音訊檔案需求
 
-宣告應用程式支援波形 ( .wav) 檔案格式和 Windows Media 音訊)  ( 的音樂和宣告的檔案格式。 宣告應用程式的音訊檔需求與回應群組應用程式相同。 如需詳細資訊，請參閱 [回應群組的技術需求](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
-
-
+宣告應用程式支援波形 ( .wav) 檔案格式和 Windows Media 音訊)  ( 的音樂和宣告的檔案格式。 宣告應用程式的音訊檔需求與回應群組應用程式相同。 如需詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。

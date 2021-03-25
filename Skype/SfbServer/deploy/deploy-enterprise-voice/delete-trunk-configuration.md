@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台刪除主幹設定設定的集合。
-ms.openlocfilehash: a9065304860a257a7787c557e59da38d03abfef0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8ea3ef931c8e09a235adc816cd993468d7d79b47
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836973"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111849"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除現有的 SIP 主幹設定設定集合
  
@@ -35,7 +35,7 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
     
 - 在每個主幹上是否需要 (SRTP) 加密的安全即時傳輸通訊協定。
     
-當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此設定的全域集合無法刪除。 不過，您可以使用商務用 Skype Server 控制台或 [get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) Cmdlet，將全域集合中的屬性「重設」為其預設值。 例如，如果已將 Enable3pccRefer 屬性設為 True，則在重設全域集合時，Enable3pccRefer 屬性會還原為預設值 False。
+當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此設定的全域集合無法刪除。 不過，您可以使用商務用 Skype Server 控制台或 [get-cstrunkconfiguration](/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) Cmdlet，將全域集合中的屬性「重設」為其預設值。 例如，如果已將 Enable3pccRefer 屬性設為 True，則在重設全域集合時，Enable3pccRefer 屬性會還原為預設值 False。
   
 管理員也可建立網站範圍或服務範圍 (針對個別 PSTN 閘道) 的自訂主幹組態設定；這些自訂設定是可移除的。移除這些自訂設定時，請注意下列事項：
   
@@ -85,6 +85,4 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-如需詳細資訊，請參閱 [get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
-  
-
+如需詳細資訊，請參閱 [get-cstrunkconfiguration](/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。

@@ -19,79 +19,79 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '瞭解如何使用 Microsoft 365 或 Office 365 中的 PowerShell 在商務用 Skype 和 Lync 用戶端使用者介面之間切換 '
-ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: '瞭解如何在 Microsoft 365 或 Office 365 中使用 PowerShell 在商務用 Skype 和 Lync 用戶端使用者介面之間切換 '
+ms.openlocfilehash: c82f2bb9877c29038a6861c00036ba92de100561
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164302"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113209"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在商務用 Skype 和 Lync 用戶端使用者介面之間切換
 
-針對商務用 Skype Online 組織，您可以在 Microsoft 365 或 Office 365 中使用遠端 PowerShell，讓您的商務用 Skype 使用者使用商務用 Skype 用戶端或商務用 Skype （Lync）用戶端使用者介面。 預設設定是供使用者使用商務用 Skype 用戶端使用者介面。 如果您喜歡使用 Lync 用戶端體驗，您可以依照本主題稍後的步驟，管理第一次啟動用戶端行為，以顯示 Lync 使用者介面。
+對於商務用 Skype Online 組織，您可以使用 Microsoft 365 或 Office 365 中的遠端 PowerShell，讓商務用 Skype 使用者能夠使用商務用 Skype 用戶端或商務用 Skype (Lync) 用戶端使用者介面。 預設設定是讓使用者使用商務用 Skype 用戶端使用者介面。 如果您想要使用 Lync 用戶端體驗，您可以遵循本主題稍後的步驟，管理第一次啟動用戶端行為以顯示 Lync 使用者介面。
   
 > [!NOTE]
-> Lync 2013 用戶端體驗不是商務用 Skype 2016 用戶端版本的選項。 在您嘗試將用戶端環境設定為使用 Lync 2013 用戶端之前，請先檢查用戶端版本，以確保它不是以數位16開頭;例如： x.x.x。 
+> Lync 2013 用戶端體驗不是商務用 Skype 2016 用戶端版本的選項。 在嘗試將用戶端環境設定為使用 Lync 2013 用戶端之前，請先檢查用戶端版本，以確保該版本不是從數位 16 開始;例如：16.x.x.x.x。 
   
 > [!TIP]
-> 如果您想要輕鬆地切換使用者介面，且不想執行手動步驟，請參閱 PowerShell 腳本的[Microsoft 下載中心](https://go.microsoft.com/fwlink/?LinkId=532431)，讓它變得更容易。
+> 如果您想要輕鬆切換使用者介面，但不想執行手動步驟，請參閱 Microsoft 下載中心中的 [PowerShell](https://go.microsoft.com/fwlink/?LinkId=532431) 腳本，以簡化操作。
   
-## <a name="switching-the-skype-for-business-user-interface-for-users"></a>為使用者切換商務用 Skype 使用者介面
+## <a name="switching-the-skype-for-business-user-interface-for-users"></a>切換使用者的商務用 Skype 使用者介面
 
-商務用 Skype Online 的 Windows PowerShell 模組可讓您建立連接到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只支援在64位電腦上從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如需其他資訊，請參閱針對[商務用 Skype Online 管理設定您的電腦](https://go.microsoft.com/fwlink/?LinkId=534539)。
+商務用 Skype Online 的 Windows PowerShell 模組可讓您建立連接到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組僅支援 64 位電腦，可從商務用 Skype Online 版 Windows [PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)的 Microsoft 下載中心下載。 有關其他資訊，請參閱 [為](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)商務用 Skype Online 管理配置您的電腦。
   
 > [!IMPORTANT]
-> 切換使用者介面的_全域_原則設定將不會套用到已套用自訂原則的使用者。 若要能夠變更使用者介面，您必須針對已套用自訂原則的每個使用者執行下列動作：
+> 切換  _使用者_ 介面的全域原則設定不會適用于已採用自訂原則的使用者。 若要變更使用者介面，您必須針對已應用自訂原則的每個使用者執行下列操作：
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
 > [!CAUTION]
-> _ClientPolicyEnableSkypeUI_原則會取代使用者現有的自訂策略設定。
+> _ClientPolicyEnableSkypeUI_ 策略會取代使用者的現有自訂策略設定。
   
-若要讓貴組織中的所有使用者都能使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
+若要讓貴組織中所有使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell 並輸入下列專案：
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
-如果您設定了原則，就會看到：
+如果您正確設定了該政策，就會看到：
   
-![PowerShell： SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell：SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
-若要讓貴組織中的所有使用者都能使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容： 
+若要讓貴組織中所有使用者使用商務用 Skype (Lync) 用戶端，請開啟遠端 PowerShell 並輸入下列專案： 
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
-如果您設定了原則，就會看到：
+如果您正確設定了該政策，就會看到：
   
-![PowerShell： SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell：SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
-若要允許貴組織中的一位使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
+若要允許貴組織的單一使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell 並輸入下列專案：
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
-如果您設定了原則，就會看到：
+如果您正確設定了該政策，就會看到：
   
-![商務用 Skype Online-啟用 UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![商務用 Skype Online - 啟用 UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
-若要允許貴組織中的一位使用者使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容：
+若要允許貴組織中單一使用者使用商務用 Skype (Lync) 用戶端，請開啟遠端 PowerShell 並輸入下列專案：
   
 ```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
-如果您設定了原則，就會看到：
+如果您正確設定了該政策，就會看到：
   
-![商務用 Skype Online-已停用 UI](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![商務用 Skype Online - UI 已停用](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
-若要允許貴組織中的多位使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
+若要允許貴組織中多個使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell 並輸入下列專案：
   
 
 ```PowerShell
@@ -100,7 +100,7 @@ $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
-若要允許貴組織中的多位使用者使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容：
+若要允許貴組織中多個使用者使用商務用 Skype (Lync) 用戶端，請開啟遠端 PowerShell 並輸入下列專案：
   
 ```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
@@ -108,175 +108,175 @@ $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
-若要允許貴組織中的一組使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
+若要允許貴組織中一組使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell 並輸入下列專案：
   
 ```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
-若要允許貴組織中的一組使用者使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容：
+若要允許貴組織中一組使用者使用商務用 Skype (Lync) 用戶端，請開啟遠端 PowerShell 並輸入下列專案：
   
 ```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
 > [!NOTE]
->  使用者的名稱是應該指派原則的使用者帳戶名稱。 使用者的帳戶名稱可以採用下列其中一種格式：使用者的 > SIP 位址> 使用者的使用者主體名稱（UPN）>\\使用者> Active Directory 顯示名稱
+>  使用者的名稱是應該指派該策略的使用者帳戶名稱。 使用者帳戶名稱可以下列其中一種格式輸入：> 使用者> 使用者主體名稱 (UPN) 使用者> Active Directory 顯示名稱的 \\> SIP 位址
   
-[使用 Windows PowerShell 管理 Lync Online](https://go.microsoft.com/fwlink/?LinkID=525453)
+[使用 Windows PowerShell 管理 Lync Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="skype-for-business-online-policy-settings"></a>商務用 Skype Online 原則設定
+## <a name="skype-for-business-online-policy-settings"></a>商務用 Skype Online 政策設定
 
-下表顯示原則第一次套用至使用者時的使用者體驗：
+下表顯示原則第一次適用于使用者的使用者體驗：
   
-|**管理員原則設定**|**顯示使用者介面**|
+|**系統管理策略設定**|**顯示的使用者介面**|
 |:-----|:-----|
-|原則沒有設定。 |使用者將繼續使用商務用 Skype 用戶端使用者介面。|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|使用者將繼續使用商務用 Skype 用戶端使用者介面。|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|使用者會被要求切換到商務用 Skype （Lync）用戶端使用者介面。 他們可以稍後切換。|
+|尚未設定該政策。 |使用者會繼續使用商務用 Skype 用戶端使用者介面。|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|使用者會繼續使用商務用 Skype 用戶端使用者介面。|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|系統將會要求使用者切換到商務用 Skype (Lync) 用戶端使用者介面。 他們可以稍後切換。|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|使用者將使用商務用 Skype 用戶端使用者介面。 |
-`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|使用者會被要求切換到商務用 Skype （Lync）用戶端使用者介面。 系統管理員可以在將來變更設定，將其切換到商務用 Skype 用戶端使用者介面。 |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|系統將會要求使用者切換到商務用 Skype (Lync) 用戶端使用者介面。 系統管理員日後可以變更設定，將其切換至商務用 Skype 用戶端使用者介面。 |
    
-下表顯示原則變更時的使用者體驗：
+下表顯示變更策略時的使用者體驗：
   
-|**管理員原則設定**|**商務用 Skype （Lync）使用者介面**|**商務用 Skype 使用者介面**|
+|**系統管理策略設定**|**商務用 Skype (Lync) 使用者介面**|**商務用 Skype 使用者介面**|
 |:-----|:-----|:-----|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|使用者會被要求切換到商務用 Skype 用戶端使用者介面。  <br/> |使用者將繼續使用商務用 Skype 用戶端使用者介面。  <br/> |
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|使用者將繼續使用商務用 Skype （Lync）介面。  <br/> |使用者會被要求切換到商務用 Skype （Lync）用戶端使用者介面。  <br/> |
-|原則沒有設定。  <br/> |如果沒有設定原則，使用者就不會看到商務用 Skype （Lync）用戶端使用者介面。 他們將永遠使用商務用 Skype 用戶端使用者介面。  <br/> |使用者將繼續使用商務用 Skype 用戶端使用者介面。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|系統將會要求使用者切換到商務用 Skype 用戶端使用者介面。  <br/> |使用者會繼續使用商務用 Skype 用戶端使用者介面。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|使用者會繼續使用商務用 Skype (Lync) 介面。  <br/> |系統將會要求使用者切換到商務用 Skype (Lync) 用戶端使用者介面。  <br/> |
+|尚未設定該政策。  <br/> |如果未設定該政策，使用者 (Lync) 用戶端使用者介面看到商務用 Skype。 他們一定會使用商務用 Skype 用戶端使用者介面。  <br/> |使用者會繼續使用商務用 Skype 用戶端使用者介面。  <br/> |
    
-下表顯示所有可用的線上自訂原則。 在 EnableSkypeUI 旗標間切換時，系統會建立新的原則，以提供管理員靈活性來保留舊的自訂原則。 請使用上方的 Cmdlet 來向您的使用者授予下列其中一項原則。
+此表格顯示所有可用的線上自訂策略。 已建立新政策，可讓系統管理員在切換 EnableSkypeUI 標標時，保留舊的自訂策略。 請使用上方的 Cmdlet，將下列其中一項政策授予您的使用者。
   
-|**原則名稱**|**EnableSkypeUI**|
+|**策略名稱**|**EnableSkypeUI**|
 |:-----|:-----|
 `ClientPolicyDefaultPhoto`||
-`ClientPolicyDefaultPhotoDisableSkypeUI` |虛假|
+`ClientPolicyDefaultPhotoDisableSkypeUI` |假|
 `ClientPolicyNoIMURL`||
-`ClientPolicyNoIMURLDisableSkypeUI` |虛假|
+`ClientPolicyNoIMURLDisableSkypeUI` |假|
 `ClientPolicyNoIMURLPhoto`||
-`ClientPolicyNoIMURLPhotoDisableSkypeUI` |虛假|
+`ClientPolicyNoIMURLPhotoDisableSkypeUI` |假|
 `ClientPolicyNoSaveIMNoArchivingI`||
-`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |虛假|
+`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |假|
 `ClientPolicyNoSaveIMNoArchivingNoIMURL`||
-`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |虛假|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |假|
 `ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto` ||
-`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|虛假|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|假|
 `ClientPolicyNoSaveIMNoArchivingPhoto`||
-`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |虛假|
+`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |假|
 
    
 若要開始使用 Windows PowerShell，請參閱以下主題：
   
-- [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>第一次啟動用戶端行為
 
-根據預設，當使用者第一次啟動商務用 Skype 時，他們將永遠會看到商務用 Skype 的使用者介面，即使您已透過將用戶端原則設定為 Lync 用戶端體驗（），（`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`如先前所述），您已選取 lync 用戶端的使用經驗。 幾分鐘之後，系統會要求使用者切換到 Lync 模式。
+根據預設，當使用者第一次啟動商務用 Skype 時，他們一定會看到商務用 Skype 使用者介面，即使您已選取 Lync 用戶端體驗，將用戶端策略設定為 Lync 用戶端體驗 () 如先前所述。 `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` 幾分鐘之後，系統就會要求使用者切換到 Lync 模式。
   
-如果您想要在使用者第一次啟動商務用 Skype 用戶端時顯示 Lync 使用者介面，請在用戶端第一次更新之後，按照下列步驟進行：
+如果您想要在使用者第一次啟動商務用 Skype 用戶端時顯示 Lync 使用者介面，請遵循下列步驟，在用戶端更新後第一次啟動用戶端之前：
   
-1. 請依照本主題前面所述的步驟進行，並確認用戶端原則已設定為停用商務用 Skype 使用者介面。
+1. 請遵循本主題之前的步驟，並確認用戶端策略已設定為停用商務用 Skype 使用者介面。
     
-2. 更新使用者電腦上的系統登錄。 您應該在使用者第一次啟動商務用 Skype 用戶端之前執行此動作，而您只能執行此動作一次。 如需如何建立群組原則物件以更新加入網域的電腦上的登錄的相關資訊，請參閱主題稍後的章節。
+2. 更新使用者電腦上系統登錄。 您應該在使用者第一次啟動商務用 Skype 用戶端之前執行此工作，而且應該只執行一次。 若要瞭解如何建立群組原則物件以更新已加入網域電腦的註冊表，請參閱本主題稍後的一節。
     
-    在 **[\\HKEY_CURRENT_USER\\軟體 Microsoft\\Office\\Lync]** 金鑰中，建立新的**二進位**值。
+    在 **[HKEY_CURRENT_USER Microsoft \\ \\ Office \\ \\ Lync]** 金鑰中，建立新的 **二進位** 值。
     
-    **值名稱**必須是**EnableSkypeUI**，而**值資料**必須設定為**00 00 00 00**。
+    值 **名稱必須是** **EnableSkypeUI，** 且 **值** 資料必須設為 **00 00 00 00 。**
     
-    此索引鍵看起來應該像以下這樣：
+    該金鑰看起來應該如下所示：
     
-    [HKEY_CURRENT_USER\\軟體\\Microsoft\\Office\\Lync]
+    [HKEY_CURRENT_USER \\軟體 \\ Microsoft \\ Office \\ Lync]
     
-    "CanSharePptInCollab" = dword：00000001
+    "CanSharePptInCollab"=dword：00000001
     
-    "CanShareOneNoteInCollab" = dword：00000001
+    "CanShareOneNoteInCollab"=dword：00000001
     
-    "CanAppShareInCollab" = dword：00000001
+    "CanAppShareInCollab"=dword：00000001
     
-    "EnableSkypeUI" = 十六進位：00、00、00、00
+    "EnableSkypeUI"=十六進位：00，00，00，00，00
     
-Lync 使用者介面現在會在使用者第一次啟動商務用 Skype 用戶端時顯示。
+當使用者第一次啟動商務用 Skype 用戶端時，現在會顯示 Lync 使用者介面。
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>控制歡迎畫面教學課程的顯示
 
-當使用者開啟商務用 Skype 用戶端時，預設行為是顯示 [歡迎] 畫面，其中包含*大部分人要求的7個快速秘訣*。 您可以在用戶端電腦上新增下列登錄值，以關閉歡迎畫面的顯示，但仍允許使用者存取教學課程：
+當使用者開啟商務用 Skype 用戶端時，預設的行為是顯示歡迎畫面，其中包含大多數使用者要求 *的 7* 個快速秘訣。 您可以關閉歡迎畫面的顯示，但仍允許使用者在用戶端電腦上新增下列登錄值來存取教學課程：
   
-在 **[\\HKEY_CURRENT_USER 軟體\\Microsoft\\Office\\15.0\\Lync]** 金鑰中，建立新的**DWORD （32位）值**。 **值名稱**必須是**IsBasicTutorialSeenByUser**，而**值資料**必須設定為**1**。
+在 **[HKEY_CURRENT_USER Microsoft \\ \\ Office \\ \\ 15.0 \\ Lync]** 金鑰中，建立新的 DWORD (**32 位) 值**。 值 **名稱必須是** **IsBasicTutorialSeenByUser，** 且 **值** 資料必須設為 **1。**
   
-此索引鍵看起來應該像以下這樣：
+該金鑰看起來應該如下所示：
   
 `"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>關閉用戶端教學課程
 
-如果您不想讓使用者存取教學課程，您可以使用下列登錄值來關閉用戶端教學課程：
+如果您不希望使用者能夠存取教學課程，您可以使用下列登錄值關閉用戶端教學課程：
   
-在 **[\\HKEY_CURRENT_USER 軟體\\Microsoft\\Office\\15.0\\Lync]** 金鑰中，建立新的**DWORD （32位）值**。 **值名稱**必須是**TutorialFeatureEnabled**，而**值資料**必須設定為**0**。
+在 **[HKEY_CURRENT_USER Microsoft \\ \\ Office \\ \\ 15.0 \\ Lync]** 金鑰中，建立新的 DWORD (**32 位) 值**。 值 **名稱必須是** **TutorialFeatureEnabled，** 且 **值資料** 必須設為 **0。**
   
 ```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
-您可以將**值資料**設定為**1**，將教學課程改回開啟。
+您可以將值資料設定為 **1，** 以 **重新開啟** 教學課程。
   
-## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>建立群組原則物件來修改加入網域的電腦上的登錄
+## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>建立群組原則物件以修改已加入網域電腦的註冊表
 
-在使用者第一次啟動商務用 Skype 用戶端時，若要顯示 Lync 用戶端體驗的登錄更新，則必須只進行一次。 如果您使用群組原則物件（GPO）來更新註冊表，您需要定義物件來建立新的值，而不是更新值資料。 當套用 GPO 時，如果新值不存在，GPO 將會建立它，並將值資料設定為0。
+第一次使用者啟動商務用 Skype 用戶端時，顯示 Lync 用戶端體驗的登錄更新應只完成一次。 如果您使用群組原則物件 (GPO) 更新註冊表，您必須定義物件以建立新值，而不是更新值資料。 套用 GPO 時，如果新值不存在，GPO 會建立它，並設定值資料為 0。
   
-下列程式說明如何修改註冊表，以便在使用者第一次啟動商務用 Skype 時顯示 Lync 用戶端體驗。 您也可以使用此程式來更新註冊表，如前文所述，停用歡迎畫面教學課程。
+下列程式說明如何修改登錄，讓使用者第一次啟動商務用 Skype 時，顯示 Lync 用戶端體驗。 您也可以使用這個程式來更新註冊表，以停用歡迎畫面教學課程，如先前所述。
   
  **建立 GPO**
   
-1. 啟動**群組原則管理主控台**。
+1. 啟動 **群組原則管理主控台**。
     
-    如需如何使用群組原則管理主控台的相關資訊，請參閱[群群組原則管理主控台](https://go.microsoft.com/fwlink/?LinkId=532759)。
+    若要瞭解如何使用群組原則管理主控台，請參閱 [群組原則管理主控台](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11))。
     
-2. 以滑鼠右鍵按一下 [**群群組原則物件**] 節點，然後在功能表上選取 [**新增**]。
+2. 以滑鼠右鍵按一下 **群組原則物件****節點，然後** 選取功能表上的 [新增。
     
-3. 在 [**新增 gpo** ] 對話方塊中，輸入 GPO 的名稱，例如 [MakeLyncDefaultUI]，然後按一下 **[確定]**。
+3. 在 [ **新增 GPO>** 對話方塊中，輸入 GPO 的名稱，例如 MakeLyncDefaultUI，然後按一下 **[確定**。
     
-4. 以滑鼠右鍵按一下您剛建立的新 GPO，然後從功能表中選取 [**編輯**]。
+4. 以滑鼠右鍵按一下您剛剛建立的新 GPO，然後 **從功能表** 選取 [編輯。
     
-5. 在 [**群組原則管理編輯器**] 中，展開 [**使用者**設定]，展開 [**喜好**設定]，展開 [ **Windows 設定**]，然後**選取 [登錄**] 節點。
+5. 在組 **策略管理編輯器** 中，展開 **使用者設定**、展開 **喜好設定**、展開 **Windows 設定**，然後選取 **登錄節點** 。
     
-6. 以滑鼠右鍵**按一下 [登錄**] 節點，然後選取 [**新增** > **註冊專案**]。
+6. 以滑鼠右鍵按一下 **[註冊表>** 節點，然後選取 [  >  **新增登錄機碼目**> 。
     
-7. 在 [**新增登錄屬性**] 對話方塊中，更新下列專案：
+7. 在 [ **新增註冊表屬性>** 對話方塊中，更新下列專案：
     
-|**域**|**要選取或輸入的值**|
+|**領域**|**要選取或輸入的值**|
 |:-----|:-----|
-|**動作** <br/> |**建立** <br/> |
-|**一兩** <br/> | HKEY_CURRENT_USER <br/> |
-|**索引鍵路徑** <br/> |軟體\\Microsoft\\Office\\Lync  <br/> |
+|**動作** <br/> |**創建** <br/> |
+|**蜂巢** <br/> | HKEY_CURRENT_USER <br/> |
+|**金鑰路徑** <br/> |軟體 \\ Microsoft \\ Office \\ Lync  <br/> |
 |**值名稱** <br/> |EnableSkypeUI  <br/> |
 |**數值型別** <br/> |REG_BINARY  <br/> |
 |**值資料** <br/> |00000000  <br/> |
    
-按一下 **[確定]** 儲存變更，然後關閉該 GPO。
+按一下 **[確定** 以儲存您的變更，然後關閉 GPO。
     
-接著，您必須將您所建立的 GPO 連結至您要指派原則的使用者群組（例如 OU）。
+接下來，您必須將您建立 GPO 連結至要指派策略的使用者群組，例如 OU。
   
- **使用 GPO 指派原則**
+ **若要使用 GPO 指派策略**
   
-1. 在 [群組原則管理主控台] 中，以滑鼠右鍵按一下您要指派原則的 OU，然後選取 [**連結到現有的 GPO**]。
+1. 在群組原則管理主控台中，以滑鼠右鍵按一下要指派策略的 OU，然後選取 [連結 **至現有的 GPO。**
     
-2. 在 [**選取 gpo** ] 對話方塊中，選取您所建立的 GPO，然後選取 **[確定]**。
+2. 在 [ **選取 GPO」** 對話方塊中，選取您建立 GPO，然後選取 [ **確定**。
     
-3. 在目標使用者的電腦上，開啟命令提示字元，然後輸入下列命令：
+3. 在目標使用者的電腦上，開啟命令提示，然後輸入下列命令：
     
-    **gpupdate/target： user**
+    **gpupdate /target：user**
     
-    訊息「正在更新原則 ...」會在應用 GPO 時顯示。 完成後，就會顯示「使用者原則更新已成功完成」訊息。
+    訊息「正在更新策略...」。會以 GPO 的適用方式顯示。 完成後，系統會顯示「使用者策略更新已完成」訊息。
     
-4. 在命令提示字元中，輸入下列命令：
+4. 在命令提示符中，輸入下列命令：
     
-    **gpresult/r**
+    **gpresult /r**
     
-    您應該會看到「指派的群群組原則物件」與您所建立之 GPO 的名稱，如下所示。
+    您應該會看到下方顯示「已指派的群組原則物件」，並顯示您建立 GPO 的名稱。
     
-您也可以檢查登錄，以驗證 GPO 是否已在使用者的電腦上成功更新登錄。 開啟 [登錄編輯程式]，然後流覽至 **[\\HKEY_CURRENT_USER\\\\軟體\\Microsoft Office Lync]** 金鑰。 如果 GPO 成功更新了註冊表，您會看到一個名為 EnableSkypeUI 的值，其值為0。
+您也可以檢查登錄，確認 GPO 已成功更新使用者電腦上登錄。 開啟 [登錄編輯程式]，然後流覽 **至 [HKEY_CURRENT_USER \\ Microsoft Office \\ \\ \\ Lync]** 金鑰。 如果 GPO 成功更新登錄，會看到名為 EnableSkypeUI 的值，值為 0。
   
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)
@@ -284,4 +284,3 @@ Lync 使用者介面現在會在使用者第一次啟動商務用 Skype 用戶�
 [讓商務用 Skype 使用者新增 Skype 連絡人](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

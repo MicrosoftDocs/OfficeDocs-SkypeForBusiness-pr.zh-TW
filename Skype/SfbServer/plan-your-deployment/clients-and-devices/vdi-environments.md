@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的規劃考慮。
-ms.openlocfilehash: 66fe9dd0be2dd079597837b8d25c29b3f047b0c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ca466b490fc04f44f2b8402c2f05aa1560e79774
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816103"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112789"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>規劃 VDI 環境中的商務用 Skype
  
@@ -106,7 +106,7 @@ Lync VDI 外掛程式允許音訊和視頻通話支援的虛擬化技術。 在�
 
 Lync VDI 外掛程式支援個人虛擬桌面案例中的完整桌面遠端會話，但不支援在遠端桌面會話案例中。 您可以將這些案例描述如下：
   
-- **支援：個人化虛擬桌面或虛擬桌面基礎結構 (VDI) 。** 在此案例中，每一位使用者都登入至可自訂的虛擬桌面機，而且能夠將保留在會話中的檔案儲存在桌面機上。 Microsoft 遠端桌面服務和 VMware 地平線模式是已測試為搭配商務用 Skype 2015 使用的範例實施方案。 其他進行驗證的實施包括 Citrix XenDesktop。 如需廠商特有的 VDI 環境及已由 Microsoft 測試的用戶端硬體資訊，請參閱 [Microsoft Lync 的基礎結構限定](https://go.microsoft.com/fwlink/?LinkID=313435)。
+- **支援：個人化虛擬桌面或虛擬桌面基礎結構 (VDI) 。** 在此案例中，每一位使用者都登入至可自訂的虛擬桌面機，而且能夠將保留在會話中的檔案儲存在桌面機上。 Microsoft 遠端桌面服務和 VMware 地平線模式是已測試為搭配商務用 Skype 2015 使用的範例實施方案。 其他進行驗證的實施包括 Citrix XenDesktop。 如需廠商特有的 VDI 環境及已由 Microsoft 測試的用戶端硬體資訊，請參閱 [Microsoft Lync 的基礎結構限定](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
     
 - **不支援：遠端桌面會話。** 在此案例中，每一位使用者都登入無法自訂的一般虛擬桌面會話。 範例包括 (RDSH) 和 Citrix XenApp 結合 Citrix 接收器的 Microsoft 遠端桌面會話。
     
@@ -120,7 +120,7 @@ Lync VDI 外掛程式的設計目的是使用獨立于平臺的 APIs，稱為動
 在 VDI 環境中，虛擬機器和使用者的本機電腦必須符合本節所述的需求。
   
 > [!NOTE]
->  您的虛擬化解決方案供應商可以提供如何安裝及部署其環境的詳細資料。 如需根據 Hyper-V 和遠端桌面服務部署虛擬化環境的一般資訊，請參閱 Microsoft Library 中的下列文章： [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514)， [遠端桌面服務，在 Windows Server 2008 R2 中](https://go.microsoft.com/fwlink/p/?linkid=247513) 
+>  您的虛擬化解決方案供應商可以提供如何安裝及部署其環境的詳細資料。 如需根據 Hyper-V 和遠端桌面服務部署虛擬化環境的一般資訊，請參閱 Microsoft Library 中的下列文章： [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))， [遠端桌面服務，在 Windows Server 2008 R2 中](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
   
 虛擬機器必須設定 Windows 8、Windows 7 或 Windows Server 2008 R2 搭配最新的 service pack。
   
@@ -132,7 +132,7 @@ Lync VDI 外掛程式的設計目的是使用獨立于平臺的 APIs，稱為動
     
 - 如果您使用的是遠端桌面服務，請選擇32位或64位的 Lync VDI 外掛程式，以符合本機電腦的作業系統。 本機電腦和虛擬機器都不需要有32位或64位作業系統。 如果您使用的是其他虛擬化解決方案或平臺，請參閱提供者的需求。
     
-- 本機電腦必須執行 [最新版本的遠端桌面用戶端](https://go.microsoft.com/fwlink/p/?LinkId=268032)。 從 Microsoft 或您的虛擬化解決方案供應商，安裝遠端桌面服務用戶端的最新更新（或最新的遠端桌面用戶端軟體）。 
+- 本機電腦必須執行 [最新版本的遠端桌面用戶端](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。 從 Microsoft 或您的虛擬化解決方案供應商，安裝遠端桌面服務用戶端的最新更新（或最新的遠端桌面用戶端軟體）。 
     
 - 在本機電腦上，必須設定遠端桌面用戶端設定，以便在本機電腦上播放音訊，並停用遠端錄製。 若要在 Windows 中為遠端桌面連線設定這些設定，請參閱下一節「設定遠端桌面連線設定」。 
     
@@ -170,4 +170,3 @@ Microsoft 365 或 Office 365 環境中不支援 Lync VDI 外掛程式。
 <a name="Citrix_RT"> </a>
 
 [使用商務用 Skype Server 部署 Lync VDI 外掛程式](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
-

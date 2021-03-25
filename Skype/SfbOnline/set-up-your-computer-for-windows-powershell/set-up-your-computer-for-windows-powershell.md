@@ -19,22 +19,22 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 瞭解透過 Windows PowerShell 遠端系統管理商務用 Skype Online 的需求，包括支援的作業系統。
-ms.openlocfilehash: 42f1a8d922d3ecdd738aa82e13567540f53af231
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814382"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113139"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>設定 Windows PowerShell 電腦
 
-只有在執行下列其中一個作業系統的64位電腦上，才支援使用 Microsoft PowerShell 在商務用 Skype Online 進行遠端系統管理：
+只有在執行下列其中一個作業系統之一的 64 位電腦上，才支援使用 Microsoft PowerShell 遠端系統管理商務用 Skype Online：
 
 - Windows Server 2016
 
 - Windows 10
     
-- Windows 8。1
+- Windows 8.1
     
 - Windows 8
     
@@ -46,22 +46,21 @@ ms.locfileid: "47814382"
     
 - Windows 7
     
-除了支援的作業系統之外，電腦也必須執行下列作業：
+除了支援的作業系統之外，電腦也必須同時進行下列操作：
   
 - PowerShell
     
-- 團隊 PowerShell 模組 
+- Teams PowerShell 模組 
     
-您可以在下列主題中找到下載及安裝這些專案的相關資訊：
+您可以在下列主題中尋找有關下載及安裝這些專案的資訊：
   
-- [下載並安裝團隊 Powershell 模組](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
+- [下載並安裝 Teams Powershell 模組](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [下載並安裝 Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [使用 Office 365 PowerShell 管理商務用 Skype Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## <a name="related-topics"></a>相關主題
-[使用商務用 skype online 連接器診斷連線問題](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[診斷商務用 Skype 線上連接器的連線問題](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
- 

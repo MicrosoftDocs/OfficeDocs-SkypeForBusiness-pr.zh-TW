@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊的疑難排解中使用記錄檔
+title: 使用記錄檔案疑難排解 Microsoft Teams
 ms.reviewer: tejeshs
 author: SerdarSoysal
 ms.author: serdars
@@ -13,20 +13,20 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 瞭解 Microsoft 團隊所產生的調試、媒體和桌面記錄，以及可在哪裡找到這些記錄，以及如何協助疑難排解。
+description: 瞭解 Microsoft Teams 所製作的 Debug、Media 和桌面記錄，以及這些記錄可以在哪裡找到，以及如何協助進行疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
-ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
+ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49761091"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112189"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在 Microsoft 團隊的疑難排解中使用記錄檔
+<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>使用記錄檔案疑難排解 Microsoft Teams
 =================================================
 
-用戶端自動產生三種類型的記錄檔案，可利用這些檔案協助 Microsoft 團隊進行疑難排解：
+用戶端自動產生的記錄檔案類型有三種，可運用這些記錄檔案以協助 Microsoft Teams 進行疑難排解：
 
 -   調試記錄
 
@@ -34,115 +34,115 @@ ms.locfileid: "49761091"
 
 -   桌面記錄
 
-建立含 Microsoft 支援的支援要求時，支援工程師將需要調試記錄。 在建立支援要求之前，先準備好調試記錄，就能讓 Microsoft 快速開始疑難排解問題。 **媒體** 或 **桌面** 記錄只有 Microsoft 要求時才是必要的。
+使用 Microsoft 支援服務建立支援要求時，支援工程師需要調試記錄。 建立支援要求之前，先將調試記錄放在手邊，Microsoft 就會快速開始疑難排解問題。 **媒體** 或 **桌面** 記錄只有在 Microsoft 要求時才能使用。
 
 > [!NOTE]
-> 在本文中，「 **調試記錄** 」一詞是指用來進行疑難排解的記錄。 不過，為這些記錄產生的檔案，會在其名稱中包含字詞 **診斷記錄** 。  
+> 在本文中，" **調試記錄** "一詞是指用於疑難排解的記錄。 不過，這些記錄產生的檔案名稱中會包含診斷 **記錄** 一詞。  
 
-下表列出各種用戶端及其相關記錄。 記錄檔案會儲存在用戶端與作業系統專用的位置。
+下表概述各種用戶端及其相關聯的記錄。 記錄檔案會儲存在用戶端和作業系統的特定位置。
 
 
-|用戶端 |Debug|桌面|媒體|
+|用戶端 |調試|桌面|媒體|
 |---------|---------|---------|---------|
-|網站    |X         |-         |-         |
+|Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
 |Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
-如需支援的作業系統和瀏覽器的完整清單，請參閱 [取得 Microsoft 團隊的用戶端](get-clients.md)。
+有關支援的作業系統和瀏覽器的完整清單，請參閱取得 Microsoft [Teams 的用戶端](get-clients.md)。
 
 <a name="debug-logs"></a>調試記錄
 ---------------------------
 
-這些是最常見的記錄，而且對於所有 Microsoft 支援案例都是必要的。 調試記錄是由 Windows 和 Mac 桌面用戶端以及瀏覽器的用戶端產生。 這些記錄都是以文字為基礎，並從下到上閱讀。 它們可以使用任何文字型編輯器讀取，而且會在登入用戶端時建立新的記錄。
+這些是最常見的記錄，且所有 Microsoft 支援案例都需要這些記錄。 調試記錄是由 Windows 和 Mac 桌面用戶端以及瀏覽器型用戶端所產生。 記錄是以文字為基礎，由下而上讀取。 您可以使用任何文字型編輯器來讀取，登入用戶端時會建立新記錄。
 
-[調試記錄] 會顯示下列資料流程程：
+調試記錄會顯示下列資料流程：
 
--   Id
+-   登錄
 
--   連接要求至中介層服務
+-   到中介層服務的連接要求
 
 -   通話/交談
 
-調試記錄是使用下列 OS 專用方法產生：
+使用下列 OS 特定方法產生調試記錄：
 
--   時間
+-   窗戶：
 
-      鍵盤快速鍵： Ctrl + Alt + Shift + 1
+      鍵盤快速鍵：Ctrl + Alt + Shift + 1
 
 -   Mac OSX：
 
-      鍵盤快速鍵： Option + Command + Shift + 1
+      鍵盤快速鍵：Option + Command + Shift+1
 
--   Linux
+-   Linux：
 
-      鍵盤快速鍵： Ctrl + Alt + Shift + 1
+      鍵盤快速鍵：Ctrl + Alt + Shift + 1
 
-調試記錄會自動下載到下列資料夾：
+系統會自動將調試記錄下載到下列資料夾：
 
--   Windows：% userprofile% \\ 下載
+-   Windows：%userprofile% \\ 下載
 
--   Mac OSX： ~/Downloads
+-   Mac OSX：~/Downloads
 
--   Linux： ~/Downloads
+-   Linux：~/Downloads
 
--   瀏覽器：系統會提示您將調試記錄儲存到預設的儲存位置
+-   瀏覽器：系統會提示您將調試記錄儲存到預設儲存位置
 
 <a name="media-logs"></a>媒體記錄
 ---------------------------
 
-媒體記錄包含有關團隊會議中音訊、影片和螢幕共用的診斷資料。 它們對於連結至通話相關問題的支援案例是必要的。
+媒體記錄包含 Teams 會議中音訊、視像和螢幕分享的診斷資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
 
-媒體記錄會預設為關閉狀態。 若要記錄團隊會議的診斷資料，使用者必須開啟團隊用戶端中的選項。 移至  >  **[設定一般**]，選取 [**啟用會議診斷記錄] (需要重新開機團隊**) 核取方塊、重新開機團隊，然後再現問題。 
+媒體記錄預設為關閉。 若要記錄 Teams 會議的診斷資料，使用者必須開啟 Teams 用戶端中的選項。 前往設定一般，選取啟用會議診斷記錄 (需要重新開機 Teams) 核取方塊、重新開機  >  **** Teams，然後重現問題。  
 
-下表列出媒體記錄位置。 當您將記錄檔傳送給 Microsoft 支援時，請確認記錄檔的時間戳記，以確保記錄在您再現問題時能覆蓋時間範圍。
+下表概述媒體記錄位置。 當您將記錄檔案傳送給 Microsoft 支援人員時，請確認記錄檔案的時間戳記，以確保記錄在您重現問題時涵蓋時間範圍。
 
 |用戶端 |位置 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *. 博客         |
-|            |%appdata%\Microsoft\Teams\skylib \\ *. 博客
-|            |%appdata%\Microsoft\Teams\media-stack \\ * .etl         |
-|Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/media-stack/*. 博客         |
-|            |~ 路徑/library/application support 支援/Microsoft/團隊/skylib/*. 博客         |
-|Linux       |~/.config/Microsoft/Microsoft 團隊/media-stack/*. 博客         |
-|            |~/.config/Microsoft/Microsoft 團隊/skylib/*. 博客         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *.blog         |
+|            |%appdata%\Microsoft\Teams\skylib \\ *.blog
+|            |%appdata%\Microsoft\Teams\media-stack \\ *.etl         |
+|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack/*.blog         |
+|            |~/Library/Application Support/Microsoft/Teams/skylib/*.blog         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*.blog         |
+|            |~/.config/Microsoft/Microsoft Teams/skylib/*.blog         |
 
-以下列出所產生的記錄檔及其包含的資訊。
+以下是產生的記錄檔案清單及其包含的資訊。
 
-|記錄檔案名  |描述  |
+|記錄檔案名  |說明  |
 |---------|---------|
-|Msrtc-0-s1039525249。     | 包含媒體堆疊的相關資訊。 這包括通道狀態（例如解析度、使用的解碼器和編碼器），以及傳送和接收的畫面數，以及攝影機與影片螢幕共用 (VBSS) 會話狀態。         |
-|rtmcontrol msrtc-0-2415069487. 博客      |記錄與遠端控制動作相關的資訊，例如控制權的時間戳記，以及滑鼠指標資訊。          |
-|Teams_MediaStackETW-2-U-xr-U      |記錄媒體堆疊追蹤事件。         |
-|調試-0-s2790420889。    | 包含媒體代理程式的相關資訊，包括轉譯品質。          |
-|tscalling-0-2061129496   |在 ts 呼叫 API 中記錄事件。       |
+|Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼器及編碼器，以及接收和接收的畫面數量，以及視 (VBSS) 會話狀態。         |
+|rtmcontrol.msrtc-0-2415069487.blog      |記錄與遠端控制動作相關的資訊，例如提供控制項時時間戳記，以及滑鼠指標資訊。          |
+|Teams_MediaStackETW-2-U-xr-U.etl      |記錄媒體堆疊追蹤事件。         |
+|Debug-0-s2790420889.blog    | 包含媒體代理程式相關資訊，包括呈現品質。          |
+|tscalling-0-2061129496.blog   |在 ts-calling API 中記錄事件。       |
 
 <a name="desktop-logs"></a>桌面記錄
 ---------------------
 
-桌面記錄（也稱為引導程式記錄）包含在桌面用戶端與瀏覽器之間所發生的記錄資料。 就像媒體記錄一樣，只有 Microsoft 要求時才需要這些記錄。 這些記錄是以文字為基礎的，而且可以使用以自上而下格式為基礎的任何文字編輯器來閱讀。
+桌面記錄 ，也稱為 bootstrapper 記錄，包含桌面用戶端與瀏覽器之間發生的記錄資料。 與媒體記錄一樣，這些記錄只有在 Microsoft 要求時才能使用。 記錄是以文字為基礎，而且可以使用由上而下格式的任何文字型編輯器來讀取。
 
-時間
+窗戶：
 
- - 以滑鼠右鍵按一下系統託盤中的 [ **Microsoft 團隊** ] 圖示，然後選取 [ **取得記錄**]。
+ - 以滑鼠右鍵按一下 **系統工作列** 中的 Microsoft Teams 圖示，然後選取 [ **取得記錄記錄**> 。
 
 Mac OsX：
 
- - 從 **[說明] 下拉式功能表中** 選擇 [**取得記錄**]。
+ - 從 **説明下拉式功能表****選擇取得記錄**。
 
-Linux
+Linux：
 
- - 按一下系統託盤中的 [ **Microsoft 團隊** ] 圖示，然後選取 [ **取得記錄**]。
+ - 按一下系統工作列 **中的 Microsoft Teams** 圖示，然後選取 [ **取得記錄記錄**> 。
 
 |用戶端 |位置 |
 |---------|---------|
-|Windows     |% appdata% \Microsoft\Teams\logs.txt         |
-|Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/logs.txt         |
-|Linux       |~/.config/Microsoft/Microsoft 小組/logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
+|Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
 ## <a name="related-topics"></a>相關主題
 
-[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)
