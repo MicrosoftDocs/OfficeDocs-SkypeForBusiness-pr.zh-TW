@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解商務用 Skype Online 登入錯誤的常見原因，並對這些問題進行疑難排解。 '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164322"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103839"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>系統管理員適用的商務用 Skype 登入錯誤問題疑難排解
 
@@ -61,7 +61,7 @@ ms.locfileid: "44164322"
 
 | **可能的原因**                                                                                                                                                    | **解決方案**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 登入時會顯示一個對話方塊，內含下列字詞︰**無法針對您的登入地址確認伺服器是否可信任。仍要連線？** <br/> | 確認對話方塊中的網域名稱是您的組織中受信任的伺服器，例如，**domainName.contoso.com**。 要求使用者選取 [永遠信任此伺服器]**** 核取方塊，然後按一下 [連線]****。 <br/> 企業客戶只要修改在每個使用者電腦上的 Windows 登錄，即可以在使用者第一次登入時避免這個訊息出現。 如需詳細資料，請參閱[修改 TrustModelData 登錄機碼](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)。<br/> |
+| 登入時會顯示一個對話方塊，內含下列字詞︰**無法針對您的登入地址確認伺服器是否可信任。仍要連線？** <br/> | 確認對話方塊中的網域名稱是您的組織中受信任的伺服器，例如，**domainName.contoso.com**。 要求使用者選取 **[永遠信任此伺服器]** 核取方塊，然後按一下 **[連線]**。 <br/> 企業客戶只要修改在每個使用者電腦上的 Windows 登錄，即可以在使用者第一次登入時避免這個訊息出現。 如需詳細資料，請參閱[修改 TrustModelData 登錄機碼](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)。<br/> |
 | 登入位址、使用者名稱或密碼輸入錯誤  <br/>                                                                                                               | 確認使用者的登入名稱和密碼正確。 <br/>  驗證使用者的登入名稱格式如下：<strong>bobk@contoso.com</strong>。 這可能與您用來登入組織網路的格式不同。  <br/>  我們可能會要求使用者再次登入。 <br/>                                                                                                                                                                                                                             |
 | 忘記密碼  <br/>                                                                                                                                             | 重設使用者的密碼，並通知使用者新的臨時密碼。  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 未獲授權使用商務用 Skype Online  <br/>                                                                                                                  | 確認使用者已註冊為商務用 Skype Online 使用者。 如果沒有，請註冊該使用者，然後要求使用者再次登入。  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -86,7 +86,7 @@ ms.locfileid: "44164322"
 |伺服器暫時無法使用  <br/> |如果組織有自訂網域，則必要的網域名稱系統 (DNS) 設定可能遺失或不正確。  <br/> |[更新 DNS 設定](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
 |伺服器暫時無法使用  <br/> |如果組織使用單一登入與 Active Directory 同盟服務 (ADFS) 搭配，則您可能是使用自我簽署的安全通訊端層 (SSL) 認證，而非第三方憑證授權單位提供的認證。  <br/> |[在您的 ADFS 伺服器上安裝第三方 SSL 憑證](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
 |取得登入所需的個人憑證時發生問題  <br/> |如果您已移除用於登入的快取伺服器資料，但錯誤持續出現，則使用者的安全性認證可能已損毀，或使用者電腦上的 RSA 資料夾可能封鎖驗證。  <br/> |[更新安全性認證](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
-|使用者第一次登入時出現憑證信任對話方塊。  <br/> |如果您的商務用 Skype 伺服器尚未列在 **TrustModelData ** 登錄機碼中，就會顯示這個對話方塊。 <br/> |[修改 TrustModelData 登錄機碼](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
+|使用者第一次登入時出現憑證信任對話方塊。  <br/> |如果您的商務用 Skype 伺服器尚未列在 **TrustModelData** 登錄機碼中，就會顯示這個對話方塊。 <br/> |[修改 TrustModelData 登錄機碼](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
 |使用者未啟用 SIP  <br/> |如果組織具有 Microsoft Office Communications Server 或 Microsoft Lync Server 2010 的舊版安裝，您可能未在將伺服器解除委任之前從伺服器刪除使用者。 因此，**msRTCSIP-UserEnabled** 屬性仍會在 Active Directory 網域服務中設定為 **FALSE**。 <br/> |[在 Active Directory 中更新使用者設定](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
 
 ### <a name="add-a-firewall-entry-for-msoidsvcexe-to-your-proxy-server"></a>將 msoidsvc.exe 防火牆項目新增至您的 Proxy 伺服器
@@ -100,13 +100,13 @@ ms.locfileid: "44164322"
 
 若要在 Forefront TMG 2010 中建立 Msoidsvc.exe 的應用程式項目，請遵循這些步驟：
 
-1. 在 Forefront 的左窗格中，按一下 [網路]****。
+1. 在 Forefront 的左窗格中，按一下 **[網路]**。
 
-2. 按一下 [網路]**** 索引標籤。在右窗格的 [任務]**** 索引標籤下，按一下 [設定 Forefront TMG 用戶端設定]****。
+2. 按一下 **[網路]** 索引標籤。在右窗格的 **[任務]** 索引標籤下，按一下 **[設定 Forefront TMG 用戶端設定]**。
 
-3. 在 [Forefront TMG 用戶端設定]**** 對話方塊中，按一下 [新增]****。
+3. 在 **[Forefront TMG 用戶端設定]** 對話方塊中，按一下 **[新增]**。
 
-4. 在 [應用程式項目設定]**** 對話方塊中，設定下列規則：
+4. 在 **[應用程式項目設定]** 對話方塊中，設定下列規則：
 
 |**應用程式**|**機碼**|**值**|
 |:-----|:-----|:-----|
@@ -124,7 +124,7 @@ ms.locfileid: "44164322"
 
   - **DNS 記錄類型**：CNAME
 
-  - **名稱 **：sip
+  - **名稱**：sip
 
   - **值/目的地**：sipdir.online.lync.com
 
@@ -146,21 +146,21 @@ ms.locfileid: "44164322"
 
 若要消除可能的憑證或認證問題，請先在 Windows 憑證管理員中更新使用者的憑證。 若要這樣做，請執行下列步驟：
 
-1. 開啟 Windows 憑證管理員。 若要執行此動作，請依序按一下 [開始]**** 及 [執行]****，並輸入 **certmgr.msc**，然後按一下 [確定]****。
+1. 開啟 Windows 憑證管理員。 若要執行此動作，請依序按一下 **[開始]** 及 **[執行]**，並輸入 **certmgr.msc**，然後按一下 **[確定]**。
 
-2. 按兩下 [個人]****，然後按兩下 [憑證]****。
+2. 按兩下 **[個人]**，然後按兩下 **[憑證]**。
 
-3. 依 [發行者]**** 欄排序，然後尋找 Communications Server 所核發的憑證。
+3. 依 **[發行者]** 欄排序，然後尋找 Communications Server 所核發的憑證。
 
-4. 以滑鼠右鍵按一下憑證，然後按一下 [刪除]****。
+4. 以滑鼠右鍵按一下憑證，然後按一下 **[刪除]**。
 
 接下來，如果使用者執行的是 Windows 7，請在 Windows 認證管理器中移除其儲存的認證。 若要這樣做，請執行下列步驟：
 
-1. 依序按一下 [開始]****、[控制台]**** 然後按一下 [認證管理員]****。
+1. 依序按一下 **[開始]**、**[控制台]** 然後按一下 **[認證管理員]**。
 
 2. 尋找用來連線至商務用 Skype Online 的認證集。
 
-3. 展開認證集，然後按一下 [從保存庫移除]****。
+3. 展開認證集，然後按一下 **[從保存庫移除]**。
 
 4. 再次登入，然後重新輸入使用者的認證。
 
@@ -168,9 +168,9 @@ ms.locfileid: "44164322"
 
 1. 使用系統管理員帳戶登入使用者的電腦。
 
-2. 如有需要，請將資料夾檢視選項 [顯示隱藏的檔案]**** 開啟。
+2. 如有需要，請將資料夾檢視選項 **[顯示隱藏的檔案]** 開啟。
 
-3. 在檔案總管的網址列中輸入以下內容：**C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**，其中的 ***UserName*** 為您的 Windows 登入名稱。
+3. 在檔案總管的網址列中輸入以下內容：**C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**，其中的 **_UserName_** 為您的 Windows 登入名稱。
 
 4. 刪除具有名稱 **S-1-5-21-** 後面接著數字字串的任何資料夾。
 
@@ -182,7 +182,7 @@ ms.locfileid: "44164322"
 - 建立並部署一個可將商務用 Skype 網域名稱 (例如 domainName. contoso) 附加到 HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData 的目前值的 GPO。
 
 > [!IMPORTANT]
->  您必須將您的網域名稱*附加*到現有值，而非只是將它取代。
+>  您必須將您的網域名稱 *附加* 到現有值，而非只是將它取代。
 
 如需詳細資訊，請參閱 Microsoft 知識庫文章 2531068：[商務用 Skype (Lync) 無法針對您的登入地址確認伺服器是否可信任](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068)。
 
@@ -195,13 +195,13 @@ ms.locfileid: "44164322"
 
 1. 將所有受影響使用者的 **msRTCSIP-UserEnabled** 屬性更新為 **TRUE**。
 
-2. 重新執行 Microsoft Online Services 目錄同步作業工具 (DirSync)。 如需詳細資訊，請參閱[整合您的內部部署目錄與 Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx)。
+2. 重新執行 Microsoft Online Services 目錄同步作業工具 (DirSync)。 如需詳細資訊，請參閱[整合您的內部部署目錄與 Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity)。
 
 若要針對商務用 Skype Online 登入錯誤進行疑難排解，請從消除登入困難的最常見原因開始。 如有需要，您可以根據錯誤類型執行特定的解決步驟。 如果使用者仍無法登入，請收集其他資訊，然後尋求其他協助。
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>使用 Microsoft 支援服務疑難排解指南
 <a name="toc325626447"> </a>
 
-如果仍無法解決使用者的登入問題，請檢閱 Microsoft 知識庫文章 2541980 中的建議：[如何疑難排解 商務用 Skype 中的登入問題](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980) (英文)。
+如果仍無法解決使用者的登入問題，請檢閱 Microsoft 知識庫文章 2541980 中的建議：[如何疑難排解 商務用 Skype 中的登入問題](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980)。
 
 ## <a name="collect-more-information-and-seek-additional-help"></a>收集更多資訊並尋求其他協助
 <a name="collect-more-information"> </a>
@@ -220,5 +220,3 @@ ms.locfileid: "44164322"
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)
 
 [讓商務用 Skype 使用者新增 Skype 連絡人](let-skype-for-business-users-add-skype-contacts.md)
-
-
