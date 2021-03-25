@@ -15,17 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 商務用 Skype Server 中的行動功能可支援行動裝置上的商務用 Skype 功能。
-ms.openlocfilehash: dd28a768137f4f035c657f582c6ead5b3288a9a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9f446891cece9d0689ea2925c05fa9a1f7acfdef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819703"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116491"
 ---
-# <a name="mobility-planning-tool"></a><span data-ttu-id="32c75-103">行動性 (規劃工具) </span><span class="sxs-lookup"><span data-stu-id="32c75-103">Mobility (Planning Tool)</span></span>
+# <a name="mobility-planning-tool"></a><span data-ttu-id="27af9-103">行動性 (規劃工具) </span><span class="sxs-lookup"><span data-stu-id="27af9-103">Mobility (Planning Tool)</span></span>
  
-<span data-ttu-id="32c75-104">商務用 Skype Server 中的行動功能可支援行動裝置上的商務用 Skype 功能。</span><span class="sxs-lookup"><span data-stu-id="32c75-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
+<span data-ttu-id="27af9-104">商務用 Skype Server 中的行動功能可支援行動裝置上的商務用 Skype 功能。</span><span class="sxs-lookup"><span data-stu-id="27af9-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
   
-<span data-ttu-id="32c75-105">商務用 Skype Server 中的行動功能與 Lync Server 2013 中的功能相同。</span><span class="sxs-lookup"><span data-stu-id="32c75-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="32c75-106">如需準備行動環境的詳細資訊，請參閱 [在 Lync Server 2013 中規劃行動](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="32c75-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).</span></span>
-  
-
+<span data-ttu-id="27af9-105">商務用 Skype Server 中的行動功能與 Lync Server 2013 中的功能相同。</span><span class="sxs-lookup"><span data-stu-id="27af9-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="27af9-106">如需準備行動環境的詳細資訊，請參閱 [在 Lync Server 2013 中規劃行動](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)。</span><span class="sxs-lookup"><span data-stu-id="27af9-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).</span></span>

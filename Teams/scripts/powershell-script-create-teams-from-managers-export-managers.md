@@ -1,5 +1,5 @@
 ---
-title: PowerShell 腳本範例匯出管理員及其指引
+title: PowerShell 腳本範例 - 匯出管理員及其指示
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 您可以使用此 PowerShell 腳本，匯出貴組織的管理員及其指導者清單，以準備為每位經理建立小組，並將其指引為小組成員。
+description: 使用此 PowerShell 腳本來匯出貴組織的主管及其主管清單，以準備為每位主管建立一個團隊，並且將主管的直接人員當做小組成員。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583120"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117311"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="b19fa-103">PowerShell 腳本範例匯出管理員及其指引</span><span class="sxs-lookup"><span data-stu-id="b19fa-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="4c097-103">PowerShell 腳本範例 - 匯出管理員及其指示</span><span class="sxs-lookup"><span data-stu-id="4c097-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="b19fa-104">您可以使用此 PowerShell 腳本，匯出貴組織的管理員及其指導者清單，以準備為每位經理建立人員主管小組，並將其指引為小組成員。</span><span class="sxs-lookup"><span data-stu-id="b19fa-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="4c097-104">使用此 PowerShell 腳本來匯出貴組織的主管及其主管清單，以準備為每位主管建立一個主管團隊，並且將主管的直接人員當做小組成員。</span><span class="sxs-lookup"><span data-stu-id="4c097-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="b19fa-105">若要瞭解此 PowerShell 腳本，請閱讀[建立人員管理員小組](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="b19fa-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="4c097-105">若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="4c097-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="b19fa-106">如果您是 PowerShell 新手，且需要開始協助，請參閱[Azure PowerShell 的概覽](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="b19fa-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="4c097-106">如果您剛開始使用 PowerShell，需要協助開始使用，請參閱 Azure [PowerShell 概觀](/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="4c097-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="b19fa-107">Export-主管腳本</span><span class="sxs-lookup"><span data-stu-id="b19fa-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="4c097-107">Export-Managers腳本</span><span class="sxs-lookup"><span data-stu-id="4c097-107">Export-Managers script</span></span>
 
 ```powershell
 <# 
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-
