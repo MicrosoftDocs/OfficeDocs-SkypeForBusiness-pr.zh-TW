@@ -11,25 +11,25 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: ec8397ba718cf31a5b92f9b4ce8c26f6e5b709be
-  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189342"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118502"
 landingContent:
 - title: 關於商務用 Skype Server 2015
   linkLists:
   - linkListType: overview
     links:
     - text: 環境需求
-      url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+      url: ./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
     - text: 網路需求
-      url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+      url: ./plan-your-deployment/network-requirements/network-requirements.md
     - text: Skype 會議廣播
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: 技術圖表
-      url: /SkypeForBusiness/technical-diagrams
+      url: ./technical-diagrams.md
   - linkListType: download
     links:
     - text: 立即下載！
@@ -39,31 +39,31 @@ landingContent:
   - linkListType: overview
     links:
     - text: 規劃部署
-      url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+      url: ./plan-your-deployment/plan-your-deployment.md
     - text: 規劃混合式連線
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: 規劃用戶端和裝置
-      url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
+      url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
     - text: 規劃企業語音解決方案
-      url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+      url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
 - title: 安裝和管理
   linkLists:
   - linkListType: deploy
     links:
     - text: 部署商務用 Skype Server
-      url: /SkypeForBusiness/deploy/deploy
+      url: ./deploy/deploy.md
     - text: 安裝商務用 Skype Server
-      url: /SkypeForBusiness/deploy/install/install
+      url: ./deploy/install/install.md
     - text: 升級為商務用 Skype Server
-      url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+      url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: 部署企業語音
-      url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+      url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
     - text: 為 Skype 會議廣播設定內部部署
-      url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+      url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
     - text: 管理商務用 Skype Server
-      url: /SkypeForBusiness/manage/manage
+      url: ./manage/manage.md
 - title: 其他資源
   linkLists:
   - linkListType: overview
@@ -71,6 +71,6 @@ landingContent:
     - text: 商務用 Skype 預備系列
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
     - text: 商務用 Skype Server 2019 檔
-      url: /SkypeForBusiness/skype-for-business-server-2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
     - text: Lync Server 2013 檔
       url: /lyncserver/microsoft-lync-server-2013

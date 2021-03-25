@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 商務用 Skype Online 系統管理員
-summary: 商務用 Skype Online 已于2021年7月31日停用，此時將會結束存取服務的時間。 我們鼓勵客戶開始升級至 Microsoft 團隊，即在 Microsoft 365 中進行團隊合作的中心。
+summary: 商務用 Skype Online 將于 2021 年 7 月 31 日停用，此時服務存取權將會結束。 我們鼓勵客戶開始升級至 Microsoft 365 中團隊合作的中心 Microsoft Teams。
 metadata:
   title: 商務用 Skype Online 系統管理員
-  description: 瞭解如何為您的組織管理商務用 Skype Online。
+  description: 瞭解如何為貴組織管理商務用 Skype Online。
   services: skype-for-business-online-admin
   ms.service: skype-for-business-online-admin
   ms.topic: landing-page
@@ -17,18 +17,18 @@ metadata:
   ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
   ms.date: 06/24/2020
-  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
-  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.openlocfilehash: 46c5502a9dbcdb06f16845cbaf36c04db6021393
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/29/2020
-  ms.locfileid: "46522959"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118922"
 landingContent:
 - title: 關於商務用 Skype Online
   linkLists:
   - linkListType: whats-new
     links:
-    - text: 在2021中停用商務用 Skype Online
+    - text: 商務用 Skype Online 將于 2021 年停用
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -36,29 +36,29 @@ landingContent:
       url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
   - linkListType: overview
     links:
-    - text: 我們在這裡協助您
+    - text: 我們在此提供協助
       url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
-    - text: 需要登入商務用 Skype 的協助嗎？
+    - text: 需要協助您登錄商務用 Skype 嗎？
       url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
-    - text: 疑難排解商務用 Skype Online 的相關問題
-      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
-    - text: 從商務用 Skype 旅程移至團隊
-      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+    - text: 疑難排解商務用 Skype Online 的問題
+      url: ./set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md
+    - text: 從商務用 Skype 到 Teams 的歷程
+      url: /MicrosoftTeams/upgrade-start-here
 - title: 新功能
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: 設定組織的電話系統
       url: /microsoftteams/setting-up-your-phone-system
-    - text: 與音訊會議進行協力廠商整合
-      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: 與音訊會議的協力廠商整合
+      url: ./legal-and-regulatory/end-of-integration-with-3rd-party-providers.md
     - text: 設定音訊會議
       url: /microsoftteams/audio-conferencing-in-office-365
   - linkListType: overview
     links:
-    - text: 在加拿大撥打電話方案（一般可用性）
+    - text: '加拿大的通話方案 (一般) '
       url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
-    - text: 在澳大利亞通話方案（僅限預覽版）
+    - text: '澳洲的通話方案 (預覽) '
       url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
 - title: 音訊會議
   linkLists:
@@ -66,12 +66,12 @@ landingContent:
     links:
     - text: 音訊會議的常見問題
       url: /MicrosoftTeams/audio-conferencing-common-questions
-    - text: 查看您的國家/地區是否有可用的音訊會議
+    - text: 查看您的國家/地區是否提供音訊會議
       url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
   - linkListType: how-to-guide
     links:
     - text: 管理組織的音訊會議設定
-      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+      url: ./audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md
     - text: 比較音訊會議提供者
       url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
 - title: 設定
@@ -79,17 +79,17 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: 設定商務用 Skype Online
-      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+      url: ./set-up-skype-for-business-online/set-up-skype-for-business-online.md
     - text: 允許使用者連絡外部商務用 Skype 使用者
-      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+      url: ./set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
     - text: 讓商務用 Skype 使用者新增 Skype 連絡人
-      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+      url: ./set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md
 - title: 附加元件授權
   linkLists:
   - linkListType: overview
     links:
-    - text: 商務用 Skype 和 Microsoft 團隊附加元件授權
-      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: 商務用 Skype 和 Microsoft Teams 附加元件授權
+      url: ./skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
     - text: 什麼是通訊點數？
       url: /MicrosoftTeams/what-are-communications-credits
 - title: 通話方案
@@ -112,13 +112,13 @@ landingContent:
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
     - text: 以下是可透過電話系統獲得的功能
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
-- title: 改善通話與視頻品質
+- title: 改善通話和視音訊品質
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 疑難排解商務用 Skype 中的連線問題
+    - text: 疑難排解商務用 Skype 中的連接問題
       url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
-    - text: 疑難排解商務用 Skype 的音訊和影片
+    - text: 疑難排解商務用 Skype 的音訊和視音訊
       url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
-    - text: 調整商務用 Skype Online 效能
+    - text: 調整商務用 Skype Online 的績效
       url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802

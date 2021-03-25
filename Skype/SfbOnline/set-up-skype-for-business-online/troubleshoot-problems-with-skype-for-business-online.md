@@ -1,5 +1,5 @@
 ---
-title: 疑難排解商務用 Skype Online 的相關問題
+title: 疑難排解商務用 Skype Online 的問題
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,73 +18,73 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 瞭解如何在 Microsoft 365 和 Office 365 中修正商務用 Skype 的管理員和使用者問題。
-ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 瞭解如何在 Microsoft 365 和 Office 365 中修正商務用 Skype 系統管理員和使用者的問題。
+ms.openlocfilehash: b9186064cab1932d34c49c2ed0d48bde2ce88787
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109899"
 ---
-# <a name="troubleshoot-problems-with-skype-for-business-online"></a><span data-ttu-id="735bb-103">疑難排解商務用 Skype Online 的相關問題</span><span class="sxs-lookup"><span data-stu-id="735bb-103">Troubleshoot problems with Skype for Business Online</span></span>
+# <a name="troubleshoot-problems-with-skype-for-business-online"></a><span data-ttu-id="b8372-103">疑難排解商務用 Skype Online 的問題</span><span class="sxs-lookup"><span data-stu-id="b8372-103">Troubleshoot problems with Skype for Business Online</span></span>
 
-<span data-ttu-id="735bb-104">有時候不會像預期的那樣運作。</span><span class="sxs-lookup"><span data-stu-id="735bb-104">Sometimes things aren't working like you expect.</span></span> <span data-ttu-id="735bb-105">以下是可協助您修正問題（無論您是管理商務用 Skype Online，還是協助使用者解決問題的主題清單）。</span><span class="sxs-lookup"><span data-stu-id="735bb-105">Here is a list of topics that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.</span></span>
+<span data-ttu-id="b8372-104">有時候事情沒有如預期一樣正常。</span><span class="sxs-lookup"><span data-stu-id="b8372-104">Sometimes things aren't working like you expect.</span></span> <span data-ttu-id="b8372-105">以下是可協助修正問題的主題清單，無論您是管理商務用 Skype Online 或協助使用者解決問題。</span><span class="sxs-lookup"><span data-stu-id="b8372-105">Here is a list of topics that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.</span></span>
 
-## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a><span data-ttu-id="735bb-106">疑難排解商務用 Skype Online 的系統管理問題</span><span class="sxs-lookup"><span data-stu-id="735bb-106">Troubleshoot admin issues for Skype for Business Online</span></span>
+## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a><span data-ttu-id="b8372-106">疑難排解商務用 Skype Online 的系統管理員問題</span><span class="sxs-lookup"><span data-stu-id="b8372-106">Troubleshoot admin issues for Skype for Business Online</span></span>
 
-<span data-ttu-id="735bb-107">您可以在本文中針對大部分的商務用 Skype Online 問題，取得答案，以[瞭解商務用 Skype online 登入錯誤的常見原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。</span><span class="sxs-lookup"><span data-stu-id="735bb-107">You can get answers for most of your Skype for Business Online questions in the article [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094).</span></span> <span data-ttu-id="735bb-108">下列知識庫文章也包含許多疑難排解資源和錯誤代碼參考：[針對系統管理員，針對商務用 Skype Online 登入錯誤進行疑難排解](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)。</span><span class="sxs-lookup"><span data-stu-id="735bb-108">The following KB article also includes many troubleshooting resources and error code references: [Troubleshooting Skype for Business Online sign-in errors for administrators](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).</span></span>
+<span data-ttu-id="b8372-107">您可以在檢查商務用 Skype Online 登錄錯誤的常見原因一文中，取得大部分商務用 [Skype Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094)問題的解答。</span><span class="sxs-lookup"><span data-stu-id="b8372-107">You can get answers for most of your Skype for Business Online questions in the article [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094).</span></span> <span data-ttu-id="b8372-108">下列知識庫文章也包含許多疑難排解資源及錯誤碼參照：疑難排解商務用 Skype Online 的系統管理員 [登錄錯誤](./troubleshooting-sign-in-errors-for-admins.md)。</span><span class="sxs-lookup"><span data-stu-id="b8372-108">The following KB article also includes many troubleshooting resources and error code references: [Troubleshooting Skype for Business Online sign-in errors for administrators](./troubleshooting-sign-in-errors-for-admins.md).</span></span>
 
-<span data-ttu-id="735bb-109">如需電話撥入式會議問題，請參閱[音訊會議疑難排解和已知問題](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="735bb-109">For dial-in conferencing issues, see [Audio Conferencing troubleshooting and known issues](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).</span></span>
+<span data-ttu-id="b8372-109">有關電話撥入式會議問題，請參閱 [音訊會議疑難排解和已知問題](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="b8372-109">For dial-in conferencing issues, see [Audio Conferencing troubleshooting and known issues](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).</span></span>
 
-## <a name="additional-help-for-skype-for-business-online-admin-issues"></a><span data-ttu-id="735bb-110">商務用 Skype Online 系統管理問題的其他說明</span><span class="sxs-lookup"><span data-stu-id="735bb-110">Additional help for Skype for Business Online admin issues</span></span>
+## <a name="additional-help-for-skype-for-business-online-admin-issues"></a><span data-ttu-id="b8372-110">商務用 Skype Online 系統管理問題的其他協助</span><span class="sxs-lookup"><span data-stu-id="b8372-110">Additional help for Skype for Business Online admin issues</span></span>
 
-- [<span data-ttu-id="735bb-111">疑難排解商務用 Skype Online DNS 問題</span><span class="sxs-lookup"><span data-stu-id="735bb-111">Troubleshoot Skype for Business Online DNS issues</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=786985)
+- [<span data-ttu-id="b8372-111">疑難排解商務用 Skype Online DNS 問題</span><span class="sxs-lookup"><span data-stu-id="b8372-111">Troubleshoot Skype for Business Online DNS issues</span></span>](/SkypeForBusiness/troubleshoot/online-configuration/dns-configuration-issue)
 
-- [<span data-ttu-id="735bb-112">商務用 Skype Online 使用者無法與外部連絡人通訊</span><span class="sxs-lookup"><span data-stu-id="735bb-112">Skype for Business Online users can't communicate with external contacts</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=786984)
+- [<span data-ttu-id="b8372-112">商務用 Skype Online 使用者無法與外部連絡人通訊</span><span class="sxs-lookup"><span data-stu-id="b8372-112">Skype for Business Online users can't communicate with external contacts</span></span>](/SkypeForBusiness/troubleshoot/online-im-presence/cannot-communicate-with-external-contacts)
 
-- [<span data-ttu-id="735bb-113">商務用 Skype 和 Lync 疑難排解指南（可下載的 PDF）</span><span class="sxs-lookup"><span data-stu-id="735bb-113">Skype for Business and Lync Troubleshooting Guide (downloadable PDF)</span></span>](https://gallery.technet.microsoft.com/office/Skype-for-Business-and-7857597d/view/Discussions)
+- [<span data-ttu-id="b8372-113">商務用 Skype 和 Lync 疑難排解指南 (下載的 PDF) </span><span class="sxs-lookup"><span data-stu-id="b8372-113">Skype for Business and Lync Troubleshooting Guide (downloadable PDF)</span></span>](https://gallery.technet.microsoft.com/office/Skype-for-Business-and-7857597d/view/Discussions)
 
-- [<span data-ttu-id="735bb-114">使用商務用 Skype Online 診斷及解決 PowerShell 連線問題</span><span class="sxs-lookup"><span data-stu-id="735bb-114">Diagnosing and resolving PowerShell connection problems with Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=786983)
+- [<span data-ttu-id="b8372-114">診斷及解決商務用 Skype Online 的 PowerShell 連線問題</span><span class="sxs-lookup"><span data-stu-id="b8372-114">Diagnosing and resolving PowerShell connection problems with Skype for Business Online</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="help-your-skype-for-business-online-users"></a><span data-ttu-id="735bb-115">協助您的商務用 Skype Online 使用者</span><span class="sxs-lookup"><span data-stu-id="735bb-115">Help your Skype for Business Online users</span></span>
+## <a name="help-your-skype-for-business-online-users"></a><span data-ttu-id="b8372-115">協助商務用 Skype Online 使用者</span><span class="sxs-lookup"><span data-stu-id="b8372-115">Help your Skype for Business Online users</span></span>
 
-<span data-ttu-id="735bb-116">商務用 Skype Online 使用者所面臨的大部分問題都與忘記的密碼有關。</span><span class="sxs-lookup"><span data-stu-id="735bb-116">Most of the problems faced by Skype for Business Online users are related to forgotten passwords.</span></span> <span data-ttu-id="735bb-117">您可以遵循下列兩個主題中的指示來解決大部分的登入問題：</span><span class="sxs-lookup"><span data-stu-id="735bb-117">You can solve most of the sign-in problems by following the instructions in these two topics:</span></span>
+<span data-ttu-id="b8372-116">商務用 Skype Online 使用者所面臨的大部分問題與忘記密碼有關。</span><span class="sxs-lookup"><span data-stu-id="b8372-116">Most of the problems faced by Skype for Business Online users are related to forgotten passwords.</span></span> <span data-ttu-id="b8372-117">您可以遵循這兩個主題中的指示來解決大部分的登錄問題：</span><span class="sxs-lookup"><span data-stu-id="b8372-117">You can solve most of the sign-in problems by following the instructions in these two topics:</span></span>
 
-- [<span data-ttu-id="735bb-118">需要登入商務用 Skype 的協助嗎？</span><span class="sxs-lookup"><span data-stu-id="735bb-118">Need help signing in to Skype for Business?</span></span>](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
+- [<span data-ttu-id="b8372-118">需要協助您登錄商務用 Skype 嗎？</span><span class="sxs-lookup"><span data-stu-id="b8372-118">Need help signing in to Skype for Business?</span></span>](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
 
-- [<span data-ttu-id="735bb-119">需要登入商務用 Skype 的協助嗎？</span><span class="sxs-lookup"><span data-stu-id="735bb-119">Need help signing in to Skype for Business?</span></span>](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05#bkmk-reset-password)
+- [<span data-ttu-id="b8372-119">需要協助您登錄商務用 Skype 嗎？</span><span class="sxs-lookup"><span data-stu-id="b8372-119">Need help signing in to Skype for Business?</span></span>](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05#bkmk-reset-password)
 
-## <a name="additional-resources-to-help-your-skype-for-business-online-users"></a><span data-ttu-id="735bb-120">協助商務用 Skype Online 使用者的其他資源</span><span class="sxs-lookup"><span data-stu-id="735bb-120">Additional resources to help your Skype for Business Online users</span></span>
+## <a name="additional-resources-to-help-your-skype-for-business-online-users"></a><span data-ttu-id="b8372-120">其他資源，可協助商務用 Skype Online 使用者</span><span class="sxs-lookup"><span data-stu-id="b8372-120">Additional resources to help your Skype for Business Online users</span></span>
 
-- [<span data-ttu-id="735bb-121">卸載商務用 Skype</span><span class="sxs-lookup"><span data-stu-id="735bb-121">Uninstall Skype for Business</span></span>](https://support.office.com/article/28c4a036-7f22-406c-b7f4-87894cbaf902)
+- [<span data-ttu-id="b8372-121">卸載商務用 Skype</span><span class="sxs-lookup"><span data-stu-id="b8372-121">Uninstall Skype for Business</span></span>](https://support.office.com/article/28c4a036-7f22-406c-b7f4-87894cbaf902)
 
-- [<span data-ttu-id="735bb-122">疑難排解商務用 Skype 的音訊和影片</span><span class="sxs-lookup"><span data-stu-id="735bb-122">Troubleshoot audio and video in Skype for Business</span></span>](https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc)
+- [<span data-ttu-id="b8372-122">疑難排解商務用 Skype 的音訊和視音訊</span><span class="sxs-lookup"><span data-stu-id="b8372-122">Troubleshoot audio and video in Skype for Business</span></span>](https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc)
 
-- [<span data-ttu-id="735bb-123">疑難排解商務用 Skype 中的連線問題</span><span class="sxs-lookup"><span data-stu-id="735bb-123">Troubleshoot connection issues in Skype for Business</span></span>](https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771)
+- [<span data-ttu-id="b8372-123">疑難排解商務用 Skype 中的連接問題</span><span class="sxs-lookup"><span data-stu-id="b8372-123">Troubleshoot connection issues in Skype for Business</span></span>](https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771)
 
-- [<span data-ttu-id="735bb-124">重設 PIN （個人識別碼）</span><span class="sxs-lookup"><span data-stu-id="735bb-124">Reset your PIN (Personal Identification Number)</span></span>](https://support.office.com/article/b62e7fc0-5ccc-4aac-925b-6ab94f18dfcd)
+- [<span data-ttu-id="b8372-124">重設 PIN (個人識別碼) </span><span class="sxs-lookup"><span data-stu-id="b8372-124">Reset your PIN (Personal Identification Number)</span></span>](https://support.office.com/article/b62e7fc0-5ccc-4aac-925b-6ab94f18dfcd)
 
-- [<span data-ttu-id="735bb-125">商務用 Skype 會議說明</span><span class="sxs-lookup"><span data-stu-id="735bb-125">Skype for Business meeting help</span></span>](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
+- [<span data-ttu-id="b8372-125">商務用 Skype 會議協助</span><span class="sxs-lookup"><span data-stu-id="b8372-125">Skype for Business meeting help</span></span>](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [<span data-ttu-id="735bb-126">商務用 Skype 訓練</span><span class="sxs-lookup"><span data-stu-id="735bb-126">Skype for Business training</span></span>](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [<span data-ttu-id="b8372-126">商務用 Skype 訓練</span><span class="sxs-lookup"><span data-stu-id="b8372-126">Skype for Business training</span></span>](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
-- [<span data-ttu-id="735bb-127">在商務用 Skype 中展示程式</span><span class="sxs-lookup"><span data-stu-id="735bb-127">Present programs in Skype for Business</span></span>](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
+- [<span data-ttu-id="b8372-127">在商務用 Skype 中展示程式</span><span class="sxs-lookup"><span data-stu-id="b8372-127">Present programs in Skype for Business</span></span>](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 
-- [<span data-ttu-id="735bb-128">在 Lync 開啟錯誤記錄</span><span class="sxs-lookup"><span data-stu-id="735bb-128">Turn on error logs in Lync</span></span>](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)
+- [<span data-ttu-id="b8372-128">在 Lync 中開啟錯誤記錄</span><span class="sxs-lookup"><span data-stu-id="b8372-128">Turn on error logs in Lync</span></span>](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)
 
-## <a name="still-need-help-contact-support"></a><span data-ttu-id="735bb-129">仍需要協助嗎？</span><span class="sxs-lookup"><span data-stu-id="735bb-129">Still need help?</span></span> <span data-ttu-id="735bb-130">聯絡支援人員。</span><span class="sxs-lookup"><span data-stu-id="735bb-130">Contact support.</span></span>
-<span data-ttu-id="735bb-131"><a name="BK_SupportBridge_1"> </a></span><span class="sxs-lookup"><span data-stu-id="735bb-131"><a name="BK_SupportBridge_1"> </a></span></span>
+## <a name="still-need-help-contact-support"></a><span data-ttu-id="b8372-129">仍然需要協助嗎？</span><span class="sxs-lookup"><span data-stu-id="b8372-129">Still need help?</span></span> <span data-ttu-id="b8372-130">請與支援人員聯繫。</span><span class="sxs-lookup"><span data-stu-id="b8372-130">Contact support.</span></span>
+<span data-ttu-id="b8372-131"><a name="BK_SupportBridge_1"> </a></span><span class="sxs-lookup"><span data-stu-id="b8372-131"><a name="BK_SupportBridge_1"> </a></span></span>
 
-<span data-ttu-id="735bb-132">如果您是商務用 Microsoft 365 應用程式的系統管理員，您就能免費存取我們的豐富支援專員，以取得售前、帳戶和帳單支援，以及協助解決技術問題。</span><span class="sxs-lookup"><span data-stu-id="735bb-132">As an admin for Microsoft 365 Apps for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues.</span></span> <span data-ttu-id="735bb-133">您也可以代表您組織中的 Microsoft 365 和 Office 365 使用者，[與支援人員取得聯繫](https://go.microsoft.com/fwlink/p/?LinkID=518322)。</span><span class="sxs-lookup"><span data-stu-id="735bb-133">You can also [contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322) on behalf of Microsoft 365 and Office 365 users in your organization.</span></span>
+<span data-ttu-id="b8372-132">做為商務用 Microsoft 365 App 的系統管理員，您可以免費存取我們知識豐富的支援代理，以取得售前、帳戶和帳單支援，以及解決技術問題的協助。</span><span class="sxs-lookup"><span data-stu-id="b8372-132">As an admin for Microsoft 365 Apps for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues.</span></span> <span data-ttu-id="b8372-133">您也可以代表 [貴組織的](/microsoft-365/Admin/contact-support-for-business-products) Microsoft 365 和 Office 365 使用者與支援人員聯繫。</span><span class="sxs-lookup"><span data-stu-id="b8372-133">You can also [contact support](/microsoft-365/Admin/contact-support-for-business-products) on behalf of Microsoft 365 and Office 365 users in your organization.</span></span>
 
-- [<span data-ttu-id="735bb-134">從 Microsoft 365 和 Office 365 社區論壇取得協助</span><span class="sxs-lookup"><span data-stu-id="735bb-134">Get help from the Microsoft 365 and Office 365 community forums</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [<span data-ttu-id="b8372-134">從 Microsoft 365 和 Office 365 社群論壇取得協助</span><span class="sxs-lookup"><span data-stu-id="b8372-134">Get help from the Microsoft 365 and Office 365 community forums</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
-- [<span data-ttu-id="735bb-135">系統管理員：撥打電話給支援人員</span><span class="sxs-lookup"><span data-stu-id="735bb-135">Admins: Call Support</span></span>](https://go.microsoft.com/fwlink/p/?LinkID=518322)
+- [<span data-ttu-id="b8372-135">系統管理員：打電話給支援人員</span><span class="sxs-lookup"><span data-stu-id="b8372-135">Admins: Call Support</span></span>](/microsoft-365/Admin/contact-support-for-business-products)
 
 > [!NOTE]
-> <span data-ttu-id="735bb-136">如果您使用的是中國由世紀運營的 Office 365，請[聯絡世紀支援小組](https://go.microsoft.com/fwlink/p/?linkid=847978)。</span><span class="sxs-lookup"><span data-stu-id="735bb-136">If you're using Office 365 operated by 21Vianet in China, please [contact the 21Vianet support team](https://go.microsoft.com/fwlink/p/?linkid=847978).</span></span>
+> <span data-ttu-id="b8372-136">如果您使用的是由中國 21Vianet 所經營之 Office 365，請聯絡 [21Vianet 支援小組](/microsoft-365/Admin/contact-support-for-business-products)。</span><span class="sxs-lookup"><span data-stu-id="b8372-136">If you're using Office 365 operated by 21Vianet in China, please [contact the 21Vianet support team](/microsoft-365/Admin/contact-support-for-business-products).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="735bb-137">相關主題</span><span class="sxs-lookup"><span data-stu-id="735bb-137">Related topics</span></span>
-[<span data-ttu-id="735bb-138">設定商務用 Skype Online</span><span class="sxs-lookup"><span data-stu-id="735bb-138">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="b8372-137">相關主題</span><span class="sxs-lookup"><span data-stu-id="b8372-137">Related topics</span></span>
+[<span data-ttu-id="b8372-138">設定商務用 Skype Online</span><span class="sxs-lookup"><span data-stu-id="b8372-138">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="735bb-139">讓商務用 Skype 使用者新增 Skype 連絡人</span><span class="sxs-lookup"><span data-stu-id="735bb-139">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="b8372-139">讓商務用 Skype 使用者新增 Skype 連絡人</span><span class="sxs-lookup"><span data-stu-id="b8372-139">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)

@@ -204,41 +204,41 @@ items:
       - name: 混合式連線
         items:
           - name: 規劃混合式連線
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+            href: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
           - name: 設定混合式連線
             items:
               - name: 概觀
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+                href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
               - name: 針對混合式環境設定 Azure AD Connect
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+                href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
               - name: 設定商務用 Skype 混合式
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+                href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
           - name: 在內部部署和雲端之間移動使用者
             items:
               - name: 概觀
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+                href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
               - name: 將使用者從內部部署移動至 Teams
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
               - name: 將使用者從內部部署移動至商務用 Skype Online
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
               - name: 將使用者從雲端移動至內部部署
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+                href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: 管理會議移轉
-                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+                href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: 停用混合式以完成移轉至雲端
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+            href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
           - name: 部署資源樹系拓撲
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+            href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
           - name: Teams 和商務用 Skype Online 的雲端整合
             items:
               - name: 概觀
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation
               - name: 更新 Microsoft Edge 憑證
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
               - name: 更新 AAD Connect 以包含多個樹系
-                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: 與 Exchange 和 SharePoint 的整合
-            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+            href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
   - name: 安全性、隱私權與合規性
     items:
       - name: 概觀
@@ -254,7 +254,7 @@ items:
           - name: 登入 Microsoft Teams
             href: sign-in-teams.md
           - name: Teams 中的安全連結
-            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: AppLocker 應用程式控制原則
             href: applocker-in-teams.md
           - name: 封鎖對 Sharepoint 的存取
@@ -272,7 +272,7 @@ items:
           - name: 敏感度標籤
             href: sensitivity-labels.md
           - name: 資料外洩防護
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: 電子文件探索
             href: ediscovery-investigation.md
           - name: 法務保存措施
@@ -282,7 +282,7 @@ items:
           - name: 稽核
             href: audit-log-events.md
           - name: 客戶金鑰
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+            href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: 隱私權
         items:
           - name: 隱私權和 Microsoft Teams
@@ -342,7 +342,7 @@ items:
               - name: 關於來賓存取
                 href: guest-access.md
               - name: 來賓存取檢查清單
-                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+                href: /microsoft-365/solutions/collaborate-as-team
               - name: 來賓體驗
                 href: guest-experience.md
               - name: 授權來賓存取
@@ -522,7 +522,7 @@ items:
               - name: 關於來賓存取
                 href: guest-access.md
               - name: 來賓存取檢查清單
-                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+                href: /microsoft-365/solutions/collaborate-as-team
               - name: 來賓體驗
                 href: guest-experience.md
               - name: 授權來賓存取
@@ -680,7 +680,7 @@ items:
               - name: 音訊會議的適用國家/地區
                 href: audio-conferencing-zones.md
               - name: 影片：Teams 的音訊會議
-                href: audio-conferencing-videos.md
+                href: ./audio-conferencing-in-office-365.md
       - name: 即時活動
         items:
           - name: 什麼是 Teams 即時活動？
@@ -1258,11 +1258,11 @@ items:
       - name: 協力廠商應用程式
         items:
           - name: 應用程式認證
-            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+            href: /microsoft-365-app-certification/overview
           - name: 為 Teams 購買第三方應用程式
             href: purchase-third-party-apps.md
       - name: 適用於 Teams 的應用程式範本
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+        href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: 如何建立及自訂您自己的應用程式
         items:
           - name: 與 Power Platform 整合
@@ -1363,6 +1363,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Teams 教育版原則精靈
             href: easy-policy-setup-edu.md
+          - name: 監督 Teams 中的聊天
+            href: supervise-chats-edu.md
           - name: 教育深入解析
             items:
               - name: 開始使用深入解析
@@ -1422,7 +1424,7 @@ items:
           - name: 適用於政府的 Teams 原則套件
             href: policy-packages-gov.md
   - name: 疑難排解
-    href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
+    href: /MicrosoftTeams/troubleshoot/teams
     items:
       - name: 疑難排解安裝和更新問題
         href: troubleshoot-installation.md
@@ -1435,7 +1437,7 @@ items:
       - name: 驗證 Teams 的服務健康情況
         href: service-health.md
       - name: 連絡商務產品的客戶支援 - 系統管理說明
-        href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+        href: /microsoft-365/admin/contact-support-for-business-products
       - name: 如何查閱您的支援 PIN
         href: support-pin.md
   - name: 參考
@@ -1480,7 +1482,7 @@ items:
               - name: '設定 Exchange 混合式組織以搭配使用 Teams '
                 href: exchange-hybrid-organization.md
               - name: 使用 Exchange 的郵件流程規則
-                href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
+                href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和商務用 OneDrive 如何與 Teams 互動
             href: sharepoint-onedrive-interact.md
           - name: 在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗
@@ -1532,9 +1534,9 @@ items:
           - name: 自商務用 Skype Online 連接器移至 Teams PowerShell 模組
             href: teams-powershell-move-from-sfbo.md
           - name: Teams 的 Cmdlet 參考
-            href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
+            href: /powershell/module/teams/?view=teams-ps
       - name: Teams 開發人員文件
-        href: 'https://docs.microsoft.com/microsoftteams/platform'
+        href: /microsoftteams/platform
       - name: Teams 內容更新
         href: teams-updates.md
       - name: 音訊會議與通話方案的適用國家/地區
