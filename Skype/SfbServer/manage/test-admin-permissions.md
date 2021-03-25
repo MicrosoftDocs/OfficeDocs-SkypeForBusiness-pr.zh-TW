@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 如何在商務用 Skype Server 中測試系統管理員許可權
-ms.openlocfilehash: 27ae50cca0018985ad59dbc4487dd3630cb5cf87
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 535911c26bac5e3f1dadb2c8d59cffe82dc20c7a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800088"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122397"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>在商務用 Skype Server 中測試系統管理員許可權
 
@@ -31,7 +31,7 @@ ms.locfileid: "49800088"
 
 當您安裝商務用 Skype Server 時，安裝程式執行的其中一個工作會讓 RTCUniversalUserAdmins 群組管理使用者、電腦、連絡人、應用程式連絡人及 InetOrg 人員所需的 Active Directory 許可權。 如果您已在 Active Directory 中停用許可權繼承，安裝程式將無法指派這些許可權。 因此，RTCUniversalUserAdmins 群組的成員將無法管理商務用 Skype Server 實體。 只有網域系統管理員可以使用這些管理許可權。 
 
-Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所需的必要許可權是否已在 Active Directory 容器上設定。 若未設定這些許可權，您可以執行 [Grant-CsOUPermission Cmdlet](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)來解決此問題。 
+Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所需的必要許可權是否已在 Active Directory 容器上設定。 若未設定這些許可權，您可以執行 [Grant-CsOUPermission Cmdlet](/powershell/module/skype/Grant-CsOUPermission)來解決此問題。 
 
 請注意，Grant-CsOUPermission 只能將許可權指派給 RTCUniversalUserAdmins 群組的成員。 您無法使用此 Cmdlet 將許可權授與任意使用者或群組。 若要讓不同的使用者或群組擁有使用者管理許可權，您應該將該使用者 (或群組) 新增至 RTCUniversalUserAdmins 群組。 
 
@@ -46,13 +46,13 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"`
 
-如需詳細資訊，請參閱 [Test-CsOUPermission Cmdlet](https://docs.microsoft.com/powershell/module/skype/test-csoupermission)的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsOUPermission Cmdlet](/powershell/module/skype/test-csoupermission)的 [說明] 主題。
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
 如果已設定必要的許可權，Test-CsOUPermission 會傳回一個單字回應：
 
-是
+對
 
 如果未設定必要的許可權，Test-CsOUPermission 會傳回值 False。 您可能需要搜尋一會兒，以找出此值。 它通常會內嵌在數個伴隨的警告內。 例如：
 
@@ -72,4 +72,4 @@ False
 
 `Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"`
 
-如需詳細資訊，請參閱 [Test-CsOUPermission Cmdlet](https://docs.microsoft.com/powershell/module/skype/test-csoupermission)的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsOUPermission Cmdlet](/powershell/module/skype/test-csoupermission)的 [說明] 主題。

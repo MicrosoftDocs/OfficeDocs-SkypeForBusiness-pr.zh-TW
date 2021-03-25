@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 在您使用商務用 Skype Server 2015 規劃工具開始設計及規劃商務用 Skype Server 2015 基礎結構之前，您必須先安裝規劃工具。 規劃工具不需要部署到屬於您計畫安裝商務用 Skype Server 2015 的網域或基礎結構中的工作站或伺服器上。 規劃工具附帶的讀我檔案詳細說明安裝及使用此工具的重要資訊。 為了清楚起見，自述檔中的部分資訊是重複的。
-ms.openlocfilehash: 902249e042694a37594c6dc0b753b0c1388c0729
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 29a3bd35191cf326cafd1f4ad4f14fab50e47ea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834723"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122377"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中安裝規劃工具
 
@@ -111,4 +111,4 @@ ms.locfileid: "49834723"
 ## <a name="see-also"></a>另請參閱
 <a name="Optional_Software"> </a>
 
-[安裝規劃工具](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[安裝規劃工具](/previous-versions/office/lync-server-2013/lync-server-2013-installing-the-planning-tool)

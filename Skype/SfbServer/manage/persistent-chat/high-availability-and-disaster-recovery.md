@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: 7ec7182d8fe2866499f731b43df712a69c44bc42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4fb3a38fadf2a8a063715e389718859dcc7ddbdd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815043"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122407"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復
  
@@ -63,7 +63,7 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
 
 2. 從備份共用複製所有未複製的備份檔案至備份伺服器的複製目的地資料夾。
     
-3. 依序將所有未套用的交易記錄備份套用至次要資料庫。 如需詳細資訊，請參閱 how [to：將交易記錄備份 (Transact-SQL) ](https://go.microsoft.com/fwlink/p/?linkid=247428)。
+3. 依序將所有未套用的交易記錄備份套用至次要資料庫。 如需詳細資訊，請參閱 how [to：將交易記錄備份 (Transact-SQL) ](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))。
     
 4. 若要使備份 mgc 資料庫上線。請使用步驟 1b 中開啟的查詢視窗，執行下列動作：
     
@@ -176,6 +176,4 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-如需詳細資訊，請參閱 [Set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) Cmdlet 的 [說明] 主題。
-  
-
+如需詳細資訊，請參閱 [Set-CsPersistentChatState](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) Cmdlet 的 [說明] 主題。

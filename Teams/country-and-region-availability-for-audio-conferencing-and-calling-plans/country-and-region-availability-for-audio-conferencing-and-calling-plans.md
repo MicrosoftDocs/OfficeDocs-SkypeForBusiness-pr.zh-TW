@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解國家/地區是否提供音訊會議、電話系統、通話方案、通訊信用額度，以及免付費和免付費電話號碼。
-ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875123"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122267"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -161,11 +161,11 @@ ms.locfileid: "50875123"
 
 ***
 
-確認其中一個商務用 Skype 或 Microsoft Teams 服務是否可用之後，可以看到商務用 Skype 和 [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 附加元件授權，可協助您購買授權，並將授權指派給使用者。
+確認其中一個商務用 Skype 或 Microsoft Teams 服務是否可用之後，可以看到商務用 Skype 和 [Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 附加元件授權，可協助您購買授權，並將授權指派給使用者。
 
 > [!NOTE]
 >
-> 如果您需要為使用者取得更多電話號碼，請參閱[為使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)，如果要索取電話號碼要求表單，則請參閱[管理組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+> 如果您需要為使用者取得更多電話號碼，請參閱[為使用者取得電話號碼](../getting-phone-numbers-for-your-users.md)，如果要索取電話號碼要求表單，則請參閱[管理組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 ## <a name="want-to-learn-more-about-these-services"></a>想要深入瞭解這些服務
 
@@ -193,9 +193,9 @@ ms.locfileid: "50875123"
   
 ### <a name="phone-system"></a>電話系統
 
-使用電話系統，您可以建立自動電話 (電話佇列，並) 電話或免付費號碼，以接聽貴組織的來電。 當您為使用者新增通話方案時，他們可以使用商務用 Skype 處理基本的通話控制工作，例如撥打和接聽來電、轉接通話，以及將通話設為靜音和取消靜音。 **電話系統** 使用者按一下通訊錄中的名稱，而商務用 Skype 會打電話給該人員。 若要撥打和接聽電話， **電話** 系統使用者使用他們的行動裝置、膝上型電腦或 PC 耳機，或許多商務用 Skype 的其中一部 IP 電話。
+使用電話系統，您可以建立自動電話 (電話佇列，並) 電話或免付費號碼，以接聽貴組織的來電。 當您為使用者新增通話方案時，他們可以使用商務用 Skype 處理基本的通話控制工作，例如撥打和接聽來電、轉接通話，以及將通話靜音和取消靜音。 **電話系統** 使用者按一下通訊錄中的名稱，而商務用 Skype 會打電話給該人員。 若要撥打和接聽電話， **電話** 系統使用者使用他們的行動裝置、膝上型電腦或 PC 耳機，或許多商務用 Skype 的其中一部 IP 電話。
 
-> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼等服務，例如電話會議 () 、自動語音機和通話佇列。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。 您也可以參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
+> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼的服務，例如電話會議 () 、自動語音電話和通話佇列。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](../getting-service-phone-numbers.md)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](../getting-phone-numbers-for-your-users.md)。 您也可以參閱[指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 [電話系統的定價](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -206,9 +206,9 @@ ms.locfileid: "50875123"
 
 ### <a name="calling-plans"></a>通話方案
 
-與電話系統一起使用時，通話方案可讓使用者撥打及接聽電話。 您先將使用者 (使用者) 電話號碼 (而不是) 指派給使用者的服務號碼，然後指派通話方案。 可用的通話方案有兩種：**國內** 與 **國內及國際**。 如需詳細資訊，請參閱[電話系統和通話方案](../calling-plan-landing-page.md)。
+與電話系統一起使用時，通話方案可讓使用者撥打及接聽電話。 您先將使用者 (使用者) 電話號碼 (而不是要指派給使用者的服務) ，然後指派通話方案。 可用的通話方案有兩種：**國內** 與 **國內及國際**。 如需詳細資訊，請參閱[電話系統和通話方案](../calling-plan-landing-page.md)。
 
-您也可以參閱[電話系統和通話方案授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)以取得授權資訊。
+您也可以參閱[電話系統和通話方案授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)以取得授權資訊。
 
 > [!NOTE]
 > 國家/地區所根據的是使用者授權在 [Microsoft 365 系統管理中心] > [作用中的使用者] 中的位置，**而非** [Microsoft 365 系統管理中心] 的 [組織設定檔] 底下所列的帳單地址。
@@ -219,7 +219,7 @@ ms.locfileid: "50875123"
   
 以下是一份首都和主要城市的清單，您可以從這份清單中取得可與音訊會議和通話方案搭配使用的付費服務號碼。 您可以使用商務用 Skype 系統管理中心從這些位置取得 **付費服務號碼**。
   
-如果您想要取得付費或免付費服務號碼，請參閱取得 [服務電話號碼](/microsoftteams/getting-service-phone-numbers)。 如果您已經有想要從其他提供者轉移的付費或免付費服務號碼，請參閱管理 [貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+如果您想要取得付費或免付費服務號碼，請參閱取得 [服務電話號碼](../getting-service-phone-numbers.md)。 如果您已經有想要從其他提供者轉接的付費或免付費服務號碼，請參閱管理 [貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 請使用頁面頂端的下拉式清單來搜尋國家/地區以及可用的服務。
 
@@ -231,4 +231,4 @@ ms.locfileid: "50875123"
 
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)

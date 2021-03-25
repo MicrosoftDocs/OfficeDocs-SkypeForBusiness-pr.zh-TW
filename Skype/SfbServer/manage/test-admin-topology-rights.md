@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 如何在商務用 Skype Server 中測試拓撲許可權
-ms.openlocfilehash: a6bbebd44387911fdb69679a16ab052c673f0b10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d9c0ec5560dcb6f1a6872f0b38f2930e46b2364c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832843"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122387"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>在商務用 Skype Server 中測試系統管理員拓撲許可權
 
@@ -29,7 +29,7 @@ ms.locfileid: "49832843"
 
 ## <a name="description"></a>描述
 
-根據預設，只有網域管理員可以啟用商務用 Skype 伺服器拓撲，並對商務用 Skype 伺服器基礎結構進行大型變更。 只要您的網域管理員和商務用 Skype 伺服器管理員都是相同的，這就不是問題。 在許多組織中，商務用 Skype 伺服器管理員不會保留整個網域的系統管理許可權。 根據預設，這表示這些系統管理員 (定義為 RTCUniversalServerAdmins 群組的成員) 無法進行商務用 Skype 伺服器拓撲變更。 若要授與 RTCUniversalServerAdmins 群組的成員進行拓撲變更，您必須使用 [Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) Cmdlet 指派必要的 Active Directory 許可權。
+根據預設，只有網域管理員可以啟用商務用 Skype 伺服器拓撲，並對商務用 Skype 伺服器基礎結構進行大型變更。 只要您的網域管理員和商務用 Skype 伺服器管理員都是相同的，這就不是問題。 在許多組織中，商務用 Skype 伺服器管理員不會保留整個網域的系統管理許可權。 根據預設，這表示這些系統管理員 (定義為 RTCUniversalServerAdmins 群組的成員) 無法進行商務用 Skype 伺服器拓撲變更。 若要授與 RTCUniversalServerAdmins 群組的成員進行拓撲變更，您必須使用 [Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) Cmdlet 指派必要的 Active Directory 許可權。
  
 Test-CsSetupPermission Cmdlet 會驗證安裝商務用 Skype 伺服器或其其中一個元件所需的必要許可權是否已在指定的 Active Directory 容器上進行設定。 若未指派許可權，您可以執行 Grant-CsSetupPermission 指令程式，給 RTCUniversalServerAdmins 群組的成員提供安裝及啟用商務用 Skype 伺服器的權利。
 
@@ -39,13 +39,13 @@ Test-CsSetupPermission Cmdlet 會驗證安裝商務用 Skype 伺服器或其其�
 
 `Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"`
 
-如需詳細資訊，請參閱 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsSetupPermission](/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。
 
 ## <a name="determining-success-or-failure"></a>決定成功或失敗
 
 如果 Test-CsSetupPermission 判斷已經在 Active Directory 容器上設定必要的許可權，則 Cmdlet 會傳回值 True：
 
-是 
+對 
 
 如果未設定許可權，Test-CsSetupPermission 會傳回值 False。 請注意，此值通常會包含在許多警告訊息中。 例如：
 
@@ -65,4 +65,4 @@ False
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 
-如需詳細資訊，請參閱 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Test-CsSetupPermission](/powershell/module/skype/Test-CsSetupPermission) Cmdlet 的 [說明] 主題。

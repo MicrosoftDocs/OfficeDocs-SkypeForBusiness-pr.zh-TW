@@ -1,5 +1,5 @@
 ---
-title: 撥打電話給這些國家/地區
+title: 撥打到這些國家/地區的外接電話
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 本主題包含使用者在擁有通話方案時，所能致電的所有國家/地區。
-ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6287fb3adb1532ffa423cd9becd65b2f1028b604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141046"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122257"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>使用者可以致電給這些國家和地區
 
@@ -93,7 +93,6 @@ ms.locfileid: "43141046"
 
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
   
- 

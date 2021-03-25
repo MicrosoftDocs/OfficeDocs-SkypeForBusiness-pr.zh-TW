@@ -17,205 +17,205 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-description: 團隊 & 商務用 Skype 的共存行為，包括路線參數、聊天 & 通話路由、聊天 & 來自預先存在的執行緒的通話，& 目前狀態。
-ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
-ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
+description: Teams &商務用 Skype 之間的共存行為，包括路由參數、聊天 & 通話路由、聊天&來自現有線程的通話，&目前狀態。
+ms.openlocfilehash: 603356df5e6f5006ea67f6a84141acf1347c1235
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48661345"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122337"
 ---
 # <a name="coexistence-with-skype-for-business"></a>與商務用 Skype 共存
 
-商務用 Skype 與團隊用戶端與使用者之間的共存與互通性是由 TeamsUpgrade 模式所定義，且 [與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](migration-interop-guidance-for-teams-with-skype.md)中所述。
+商務用 Skype 與 Teams 用戶端與使用者之間的共存和互通性是由 TeamsUpgrade 模式所定義，適用于使用 [Teams](migration-interop-guidance-for-teams-with-skype.md)與商務用 Skype 的組織移移及互通性指南中所述。
 
-任何指定的使用者，都會依預設或由系統管理員明確指派 TeamsUpgrade 模式。 預設值為 [ *孤島*]。 已升級至團隊的使用者具有 *TeamsOnly*模式。 *SfBOnly*、 *SfBWithTeamsCollab*和 *SfBWithTeamsCollabAndMeetings* 也是可能的模式。
+根據預設，任何指定使用者都會獲得 TeamsUpgrade 模式，或由系統管理員明確指派。 預設值為 *Islands*。 升級至 Teams 的使用者具有 *TeamsOnly 模式*。  *SfBOnly、SfBWithTeamsCollab* 和 *SfBWithTeamsCollabAndMeetings* 也是可能的模式。
 
 
 ## <a name="routing-parameters"></a>路由參數
 
-收件者的 TeamsUpgrade 模式是在租使用者內和同盟租使用者之間，決定聊天、通話和目前狀態的行為的關鍵。
+收件者的 TeamsUpgrade 模式是決定租使用者內部和跨聯邦租使用者之間聊天、通話和目前狀態行為的關鍵。
 
-如果寄件者是使用小組，則在建立新的交談線索時會進行路由決定。 團隊中的現有交談執行緒總是保留在建立執行緒時所決定的路由方法：團隊支援持久性執行緒。
+如果寄件者使用 Teams，則建立新交談對話時，會做出路由決策。 Teams 中現有的交談執行緒一直保留建立執行緒時所決定的路由方法：Teams 支援永久執行緒。
 
- 執行緒路由方法包括：  
+ 執行緒路由方法為：  
 
-- 團隊在租使用者中的*原生*小組交談
-- 團隊在租使用者中進行商務用 Skype 交談的*交互操作*性
-- *針對租使用者進行聯盟交談* 的同盟
+- *本機* 適用于 Teams 到 Teams 的租使用者交談
+- *在租* 使用者內進行商務用 Teams 到 Skype 交談的交互操作
+- *跨租* 使用者之聯合交談的聯盟
 
-決定執行緒路由方法的參數如下：
+決定執行緒路由方法的參數為：
 
 - 收件者的 TeamsUpgrade 模式
-- 寄件者所用的用戶端
-- 交談為新的或現有的執行緒的一部分
-- 交談是否為租使用者或同盟
-- 是否可以進行交談
-    - *在租* 使用者互通性要求租使用者是純線上或商務用 Skype 混合式。 純粹內部部署承租人不能有租使用者互通性。
-    - *跨租使用者同盟* 總是需要正確的商務用 Skype 同盟設定，以及來自兩個承租人的正確團隊同盟設定。 任何一個租使用者都不需要商務用 Skype 混合式。
-    - 如果始發者的商務用 Skype 帳戶是駐留在內部部署的，該使用者就無法使用 [團隊用戶端] 來進行租使用者互通性或同盟。 該使用者只能使用商務用 Skype 用戶端進行互通性與同盟。
-    - 團隊若要在租使用者中進行團隊溝通，請務必這樣做。
+- 寄件者使用的用戶端
+- 交談是新的，還是現有對話的一部分
+- 交談是租使用者內交談還是聯盟交談
+- 交談是否可行
+    - *租使用者內* 互通性要求租使用者為純線上或商務用 Skype 混合式。 純粹內部部署租使用者無法擁有租使用者內部互通性。
+    - *跨租使用者聯盟* 一直需要兩個租使用者的適當商務用 Skype 聯盟組組，以及適當的 Teams 聯合組。 任何一個租使用者都不需要商務用 Skype 混合式。
+    - 如果原始使用者的商務用 Skype 帳戶是內部部署，該使用者就無法將 Teams 用戶端用於租使用者內部互通性或聯盟。 該使用者只能使用商務用 Skype 用戶端進行互通性和聯盟。
+    - Teams 到 Teams 通訊永遠在租使用者中是有可能的。
 
 > [!NOTE]
-> 如果收件者和寄件者都在 TeamsOnly 升級模式中，則交談將是一個固有的聊天體驗，包括所有豐富的訊息和呼叫功能。 若要深入瞭解，請閱讀 [團隊中的外部 (聯盟) 使用者的原生聊天體驗](native-chat-for-external-users.md)。 如果其中一個交談參與者不在 TeamsOnly 升級模式中，則交談仍會有純文字訊息的交互操作體驗。
+> 如果收件者與寄件者都同時在 TeamsOnly 升級模式中，交談會提供原生聊天體驗，其中包含所有豐富的訊息和通話功能。 若要深入瞭解，請閱讀 [Teams](native-chat-for-external-users.md)中 (使用者) 原生聊天體驗。 如果任一交談參與者不在 TeamsOnly 升級模式中，交談會保留純文字訊息的交互操作體驗。
 
 ## <a name="chat-and-call-routing"></a>聊天和通話路由
 
 ### <a name="in-tenant-routing-for-new-chats-or-calls"></a>新聊天或通話的租使用者內路由 
 
-下表會捕獲受租使用者的聊天和通話的路由，而且對於不是從預先存在的執行緒開始的新通話或聊天而言，都是有效的。 它描述哪個用戶端會收到新的通話或聊天（如果左側的使用者產生）至右側的租使用者收件者。
+下表會捕獲租使用者內聊天和通話的路由，且適用于未從現有對話啟動的新通話或聊天。 它會說明哪一個用戶端會收到新的通話或聊天，如果是由左側的使用者所發，則接收給右側租使用者中的收件者使用者。
 
-傳送給 TeamsOnly 使用者的郵件將永遠會傳送給團隊。 傳送給 SfB \* 使用者的郵件將會一直路由到商務用 Skype （如果有的話），如上述所述。 傳送給孤島使用者的訊息，永遠會傳送到傳送給他們的同一個用戶端。
+發送給 TeamsOnly 使用者的郵件一定會路由至 Teams。 如果可以如上述所述進行交談，則寄給 SfB 使用者的郵件一定會路由至 \* 商務用 Skype。 寄到群島使用者的郵件一定會路由到其接收的同一個用戶端。
 
-下表顯示在指定模式中，哪個用戶端會收到來自發信方 (三個最左邊的欄) ，視始發者的模式、用戶端，以及其商務用 Skype 用戶端 (在內部部署或線上) 所駐留的位置。
+下表顯示在給定模式中，哪些用戶端會從發端者 (三個最左邊的欄) 接收來電，視發端者模式、用戶端選擇，以及其商務用 Skype 用戶端的主 (on-prem 或線上) 。
 
 在下列資料表中： 
-- **SfB \* *_ 代表下列任何一種模式： _SfBOnly *、 *SfBWithTeamsCollab*、 *SfBWithTeamsCollabAndMeetings*。
+- **SfB \** _ 代表下列任何一種模式：_SfBOnly*、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings 。  
 
-- *斜體文字* 會醒目提示交互操作交談。
+- *Italic 文字* 會強調交互操作交談。
 
-- **無法** 代表無法進行聊天或通話的情況。 發信方必須使用商務用 Skype，而不是在這些情況下。 這是 Microsoft 對內部部署/混合式客戶的說明性指導方針的其中一個原因，就是使用孤島以外的模式 (通常是 SfBWithTeamsCollab) 做為團隊升級歷程的起點。
+- **Not Possible** 代表無法進行聊天或通話的情況。 在這種情況下，發件者必須使用商務用 Skype。 這是 Microsoft 對 on-prem/hybrid 客戶的規範性指引，其中一個原因，就是使用群島 (通常是 SfBWithTeamsCollab) 模式作為他們升級 Teams 的起點。
 
-**資料表1a：租使用者新聊天或呼叫路由至孤島模式收件者**
+**表格 1a：租使用者內新聊天或呼叫路由至島嶼模式收件者**
 
-| <br/><br/> 下 | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 宿主 |<br/><br/>Route-->| 人 <br/><br/> 離島  |
+| <br/><br/> 模式 | 鼻祖 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 家用 |<br/><br/>路由-->| 收件者 <br/><br/> Islands  |
 |--- |--- |--- |--- |--- |
-| 離島 | Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype| Online<br/> Online<br/> 內部部署<br/>內部部署| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype|
-|SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> |&boxv;<br/>&boxv;|商務用 Skype<br/>商務用 Skype<br/>|
-|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
+| Islands | Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype| 線上<br/> 線上<br/> On-prem<br/>On-prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype|
+|SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | 線上<br/> On-prem<br/> |&boxv;<br/>&boxv;|商務用 Skype<br/>商務用 Skype<br/>|
+|TeamsOnly |Teams| 線上<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**資料表1b：在租使用者的新聊天中，或以 SfB 模式呼叫路由至收件者 \***
+**表格 1b：在 SfB 模式中，租使用者內新聊天或呼叫路由給收件 \* 者**
 
-| <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 宿主 |<br/><br/>Route--> |   人 <br/><br/> SfB\*   |
+| <br/><br/> 模式   | 鼻祖 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 家用 |<br/><br/>路由--> |   收件者 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| 離島 |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype  |Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype<br/> **無法進行** <br/>商務用 Skype<br/> |
-|SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> |&boxv;<br/>&boxv; |  商務用 Skype<br/>商務用 Skype<br/> |
-|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *商務用 Skype* <br/>| 
+| Islands |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype  |線上<br/> 線上<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype<br/> **無法** <br/>商務用 Skype<br/> |
+|SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | 線上<br/> On-prem<br/> |&boxv;<br/>&boxv; |  商務用 Skype<br/>商務用 Skype<br/> |
+|TeamsOnly |Teams| 線上<br/>|&boxv;<br/> |  *商務用 Skype* <br/>| 
 | | | | | |
 
-**資料表1c：租使用者新聊天或呼叫路由至 TeamsOnly 模式收件者**
+**表格 1c：租使用者內新聊天或通話路由至 TeamsOnly 模式收件者**
 
-| <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 宿主 |<br/><br/>Route-->|   人 <br/><br/> TeamsOnly  |
+| <br/><br/> 模式   | 鼻祖 <br/><br/> 用戶端 | <br/><br/> SfB &nbsp; 家用 |<br/><br/>路由-->|   收件者 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| 離島   |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype<br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*團隊* <br/>Teams <br/>*團隊*  |
-|SfB\*  | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> | &boxv;<br/>&boxv; | *團隊*  <br/>*團隊*   |
-|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
+| Islands   |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype<br/>|線上<br/> 線上<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*團隊* <br/>Teams <br/>*團隊*  |
+|SfB\*  | 商務用 Skype<br/>商務用 Skype<br/> | 線上<br/> On-prem<br/> | &boxv;<br/>&boxv; | *團隊*  <br/>*團隊*   |
+|TeamsOnly  | Teams | 線上 |  &boxv; |Teams   |
 |  |  |  | | |
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>新聊天或通話的聯盟路由
   
-下表會捕獲同盟通話與聊天的路由，且適用于新的通話或聊天。 它們說明哪個用戶端會收到新的通話或聊天（如果是由左邊的使用者發起）到右側的聯盟目標使用者。
+下表會捕獲聯盟通話和聊天的路由，且適用于新的通話或聊天。 他們描述哪一個用戶端會收到新的通話或聊天，如果是由左側的使用者所撥打，則會收到給右邊的聯盟目標使用者。
 
-在摘要中，如果可以如上所述進行交談，傳送給 TeamsOnly 使用者的訊息將永遠位於小組中;傳送給 SfB 使用者的郵件 \* 將永遠位於商務用 skype 中; 傳送給孤島使用者的訊息，無論傳送給您的客戶，都將永遠居住在商務用 skype 中。 聯盟聊天和通話的路由與在該孤島中的租使用者內路由不同，在商務用 Skype 中，將永遠會收到聯盟通訊。
+摘要來說，如果可以如上述所述進行交談，則發送給 TeamsOnly 使用者的郵件一定會在 Teams 中登陸;寄給 SfB 使用者的訊息一定會在商務用 Skype 中登陸;寄給群島使用者的郵件一定會在商務用 Skype 中登陸，無論他們來自哪個 \* 用戶端。 聯合聊天和通話的路由與租使用者內路由不同，因為群島使用者一定會在商務用 Skype 中接收聯盟通訊。
 
-這是因為我們無法假設聯合商務用 Skype 合作夥伴已在使用孤島模式時使用團隊。 [孤島] 是預設模式，但我們無法假設所有孤島使用者都執行團隊。 透過傳送到商務用 Skype，我們可以確保沒有孤島的通訊失敗。 如果我們路由至團隊，如果目標不是使用小組，就可能會錯過該通訊。 [路由到商務用 Skype] 可確保郵件永遠收到。  
+這是因為我們無法假設如果聯合商務用 Skype 合作夥伴在群島模式中，已使用 Teams。 群島是預設模式，但我們無法假設所有群島使用者都執行 Teams。 路由至商務用 Skype，我們可確保與群島使用者的通訊不會失敗。 如果我們路由至 Teams，如果目標不使用 Teams，可能會錯過該通訊。 路由至商務用 Skype 可確保永遠收到郵件。  
 
 > [!NOTE]
-> 目前的團隊同盟實現是以商務用 Skype 同盟為基礎，因此它利用互通性基礎結構 (，要求始發者的租使用者是純線上或商務用 Skype 混合式) ，並提供與原生執行緒相比的一組精簡的功能。 我們預期會在將來為團隊同盟提供原生團隊，此時，該執行緒就會成為原生，並提供完整功能。
+> Teams 聯盟目前的實現是以商務用 Skype 聯盟為基礎，因此它利用互通性基礎結構 (要求來源的租使用者為純線上或商務用 Skype 混合式) ，並提供比原生執行緒更縮減的功能集。 我們預期未來會提供原生 Teams 至 Teams 聯盟，此時該執行緒會為原生，並提供完整功能。
 
-下表說明哪個用戶端會從始發者 (三個最左邊的欄) ，視始發者的模式、用戶端，以及其商務用 Skype 用戶端 (在內部部署或線上) 的位置而定。
+下表說明哪一個用戶端會從發端者 (最左邊的三個數據行) 接收來電，視發端者模式、所選的用戶端，以及其商務用 Skype 用戶端的 (on-prem 或線上) 。
 
-**表格2a：同盟新聊天或通話路由至孤島收件者**
+**表格 2a：將新聊天或通話路由聯合到群島收件者**
 
-| <br/><br/>下   | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主|<br/><br/>Route--> | 人<br/><br/> 離島 |
+| <br/><br/>模式   | 鼻祖<br/><br/> 用戶端| <br/><br/>SfB 家用|<br/><br/>路由--> | 收件者<br/><br/> Islands |
 |--- |--- |--- |--- |--- |
-| 離島 |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype  |Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法進行**   <br/> 商務用 Skype |
-| SfB\* |商務用 Skype <br/>商務用 Skype |Online<br/> 內部部署<br/> | &boxv;<br/>&boxv;|商務用 Skype <br/>商務用 Skype |
-| TeamsOnly |Teams |Online| &boxv;|*商務用 Skype* |
+| Islands |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype  |線上<br/> 線上<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法**   <br/> 商務用 Skype |
+| SfB\* |商務用 Skype <br/>商務用 Skype |線上<br/> On-prem<br/> | &boxv;<br/>&boxv;|商務用 Skype <br/>商務用 Skype |
+| TeamsOnly |Teams |線上| &boxv;|*商務用 Skype* |
 |  | | | | 
 
-**表格2b：同盟新聊天或通話以 SfB 模式傳送給收件者 \***
+**表格 2b：在 SfB 模式中將新聊天或通話路由聯合到收件 \* 者**
 
-| <br/><br/>下   | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主|<br/><br/>Route-->|  人<br/><br/> SfB\* |  
+| <br/><br/>模式   | 鼻祖<br/><br/> 用戶端| <br/><br/>SfB 家用|<br/><br/>路由-->|  收件者<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| 離島 |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法進行** <br/>商務用 Skype <br/> |  
-| SfB\* |商務用 Skype <br/>商務用 Skype  |Online<br/> 內部部署<br/>  |&boxv;<br/>&boxv; | 商務用 Skype <br/>商務用 Skype  |
-| TeamsOnly | Teams|Online |&boxv; |*商務用 Skype*  |
+| Islands |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|線上<br/> 線上<br/> On-prem<br/> On-prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法** <br/>商務用 Skype <br/> |  
+| SfB\* |商務用 Skype <br/>商務用 Skype  |線上<br/> On-prem<br/>  |&boxv;<br/>&boxv; | 商務用 Skype <br/>商務用 Skype  |
+| TeamsOnly | Teams|線上 |&boxv; |*商務用 Skype*  |
 |  | | | | |
 
-**表格2c：同盟新聊天或呼叫路由至 TeamsOnly 模式收件者**
+**表格 2c：將新聊天或通話路由聯合到 TeamsOnly 模式收件者**
 
-| <br/><br/>下 | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主|<br/><br/>Route-->|  人<br/>  <br/> TeamsOnly  |
+| <br/><br/>模式 | 鼻祖<br/><br/> 用戶端| <br/><br/>SfB 家用|<br/><br/>路由-->|  收件者<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| 離島  |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*團隊* <br/>**無法進行** <br/>*團隊* |
-| SfB\* |商務用 Skype <br/>商務用 Skype  | Online<br/> 內部部署| &boxv;<br/>&boxv;|*團隊* <br/>*團隊*   |
-| TeamsOnly |Teams |Online |&boxv; |Teams |
+| Islands  |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|線上<br/> 線上<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*團隊* <br/>**無法** <br/>*團隊* |
+| SfB\* |商務用 Skype <br/>商務用 Skype  | 線上<br/> On-prem| &boxv;<br/>&boxv;|*團隊* <br/>*團隊*   |
+| TeamsOnly |Teams |線上 |&boxv; |Teams |
 |  | | | | |
 
-## <a name="chats-and-calls-from-pre-existing-threads"></a>來自預先存在的執行緒的聊天與通話
+## <a name="chats-and-calls-from-pre-existing-threads"></a>來自現有對話的聊天和通話
 
-### <a name="from-teams"></a>從團隊
+### <a name="from-teams"></a>從 Teams
 
-在小組中預先存在的持久性執行緒開始的通話或聊天，會以與該執行緒相同的方式進行路由（如果該 [路由] 選項仍可使用）。
+從 Teams 中現有永久執行緒開始的通話或聊天，如果仍然可以使用該路由選項，其路由方式會與該對話相同。
 
-如果在小組中預先存在的持久性執行緒是原生執行緒 (亦即路由至團隊) ，則其他聊天訊息和來自該執行緒的呼叫都會移至團隊。 如果它是交互操作執行緒 (（例如路由到商務用 Skype) ），則其他聊天訊息和通話會移至商務用 Skype (再次假設路由選項可供使用) 。
+如果 Teams 中現有的永久執行緒是原生執行緒 (即路由至 Teams) ，則來自該執行緒的其他聊天訊息和通話會傳送到 Teams。 如果這是一個交互操作執行緒 (即路由至商務用 Skype) ，其他聊天訊息和通話會再次傳送到商務用 Skype (假設路由選項) 。
 
 > [!NOTE]
-> 小組中的預先存在的執行緒可能無法再進行路由，例如當執行緒是交互操作執行緒給現在已升級至團隊的使用者時。 由於它是以交互操作執行緒的方式建立，所以該執行緒會傳送到商務用 skype，但該使用者不再可以使用商務用 Skype 聊天和通話。 在這種情況下，該執行緒將停用，而不會允許進一步的通訊。
+> Teams 中現有的執行緒可能無法再路由，例如當該執行緒是一個交互操作執行緒給現在已升級至 Teams 的使用者時。 由於該對話是建立為交互操作執行緒，因此該執行緒會路由至商務用 Skype，但該使用者無法再使用商務用 Skype 進行聊天和通話。 在這種情況下，執行緒會停用，且不允許進一步通訊。
 
 ### <a name="from-skype-for-business"></a>從商務用 Skype
 
-商務用 Skype 執行緒不會保留在10分鐘的 SIP 會話超時以外。 在 SIP 會話到期前，在商務用 Skype 中，來自現有線程的聊天和呼叫將會以與執行緒相同的方式進行路由。 除了 SIP 會話超時之外，在商務用 Skype 中，來自現有的執行緒的通話和聊天，都將路由到遠端參與方的商務用 Skype，不論原始執行緒是來自其他人的那一方。
+商務用 Skype 執行緒不會持續超過 10 分鐘。SIP 會話超時。 在 SIP 會話到期之前，從商務用 Skype 的現有對話中的聊天和通話，會以與對話相同的方式路由。 在 SIP 會話超時之後，從商務用 Skype 中現有線程撥打的通話和聊天，將會路由至遠端派對的商務用 Skype，無論原始對話來自另一方哪一方。
 
-### <a name="availability"></a>供應
+### <a name="availability"></a>可用 性
 
-上述所述的租使用者與同盟行為都提供，且有下列限制：
+上述租使用者內和聯盟行為均可用，且有下列限制：
 
-- 租使用者位於不同 GoLocal 部署或地理位置的外部參與者在「同盟」會議中不會看到 IM 聊天
-- 不支援多租戶 O365 與主權雲彩之間的同盟與互通性
+- 租使用者位於其他 GoLocal 部署或地理位置的外部出席者在「聯盟」會議時不會看到 IM 聊天
+- 不支援 Multitenant O365 與主權雲端之間的聯合及交互操作
 
 ## <a name="presence"></a>目前狀態
 
-當您有部分使用者使用團隊用戶端，而其他使用者仍在使用商務用 Skype 用戶端時，您可能會有許多使用這兩個用戶端的使用者。 您仍想要與所有使用者共用目前狀態狀態，而不需考慮個別使用者所擁有的用戶端。 在組織中共用這種情況時，使用者可以更好地判斷是否適合啟動聊天或撥打通話。
+當您的一些使用者使用 Teams 用戶端，而另一些使用者仍在使用商務用 Skype 用戶端時，您可能會有一些使用者同時使用這兩個用戶端。 您仍希望與所有使用者共用目前狀態，而不考慮個別使用者擁有哪一個用戶端。 當這項功能在整個組織中共用時，使用者可以更妥善地判斷啟動聊天或撥打電話是否適當。
 
-例如，如果始發者的聊天或通話應該位於目標的商務用 Skype 用戶端上，那麼就是商務用 Skype 用戶端的目前狀態，應該顯示給始發者。 如果它應該位於目標的團隊用戶端，則是團隊用戶端的目前狀態。
+例如，如果發端者聊天或通話應位於目標商務用 Skype 用戶端上，則應該向發端者顯示的是商務用 Skype 用戶端的目前狀態。 如果應該位於目標的 Teams 用戶端上，則應該顯示的是 Teams 用戶端的目前狀態。
 
-若要瞭解預期的行為，您必須瞭解目前狀態是根據使用者的共存模式進行共用：
+若要瞭解預期的行為，您必須瞭解目前狀態是根據使用者的共存模式來共用：
 
-* 如果使用者處於 TeamsOnly 模式，則任何其他使用者 (無論是在團隊或商務用 Skype) 中，都可以看到 TeamsOnly 使用者的小組目前狀態
-* 如果使用者處於任何 SfB \* 模式 (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings) ，然後任何其他使用者 (無論是在團隊或商務用 skype 中) ，都能看到 SfB \* 使用者的商務用 skype 目前狀態
-* 如果使用者使用的是孤島 (或舊版) 模式，則團隊中的目前狀態與商務用 Skype 中的目前狀態是獨立的 (值不需要符合) ，其他使用者就會看到一或多個孤島使用者的狀態，這取決於它們是位於相同的租使用者中，還是在聯盟租使用者中使用的用戶端。
-    * 從團隊來看，同一租使用者中的任何其他使用者都會看到孤島使用者的小組目前狀態。這與上述的租使用者路由表對齊
-    * 從團隊來看，同盟租使用者中的任何其他使用者都會看到孤島使用者的商務用 Skype 目前狀態;這與上述聯盟路由表對齊
-    * 在商務用 Skype 中，任何其他使用者都會看到孤島使用者的商務用 Skype 目前狀態 (在租使用者與同盟) 中;這與上述路由表對齊
+* 如果使用者在 TeamsOnly 模式中，則任何其他使用者 (Teams 或商務用 Skype) 都會看到 TeamsOnly 使用者的 Teams 目前狀態
+* 如果使用者位於任何 \* SfB 模式 (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings) ，則任何其他使用者 (無論是在 Teams 或商務用 Skype) 中，都會看到 SfB 使用者的商務用 \* Skype 目前狀態
+* 如果使用者位於群島 (或舊版) 模式中，Teams 中的目前狀態與商務用 Skype 中的目前狀態是獨立的 (這些值不需要相符) 而其他使用者會看到一或另一個群島使用者目前狀態，視他們位於同一租使用者或聯盟租使用者中，以及他們使用的用戶端
+    * 在 Teams 中，同一個租使用者中的其他任何使用者都會看到群島使用者的 Teams 目前狀態;這是與上方的租使用者內路由資料表對齊
+    * 在 Teams 中，聯盟租使用者中的其他任何使用者都會看到群島使用者的商務用 Skype 目前狀態;這是與上述的聯盟路由資料表對齊
+    * 在商務用 Skype 中，任何其他使用者都會看到群島使用者的商務用 Skype 目前狀態 (租使用者和) ;這是與上述路由資料表對齊
 
 
-### <a name="in-tenant-presence"></a>租使用者狀態
+### <a name="in-tenant-presence"></a>租使用者內目前狀態
 
-傳送給 TeamsOnly 使用者的郵件將永遠位於小組中。 傳送給 SfB \* 使用者的郵件永遠會在商務用 Skype 中保持居住，如果可以進行交談，如上述所述。 傳送給孤島使用者的訊息將永遠位於其起源的用戶端。
+寄給 TeamsOnly 使用者的郵件一定會在 Teams 中登陸。 如果可以如上述所述進行交談，則寄給 SfB 使用者的郵件一定會登陸商務 \* 用 Skype。 寄到群島使用者的郵件一定會在來源的用戶端中登陸。
 
-此表格說明發行商將會看到的發行者目前狀態，視發行者的模式和新執行緒) 的 [觀察程式] (之用戶端而定。
+下表說明由觀察程式看到的 Publisher 目前狀態，視新執行緒的 Publisher 模式和 Watcher (用戶端) 。
 
-**資料表3： (新執行緒) 的租使用者狀態 **
+**表格 3：租使用者內目前狀態 (新)**
 
-|監視器 <br/><br/>用戶端|<br/><br/>Route--> |<br/><br/>離島 |Publisher <br/><br/>SfB\* |<br/>僅限團隊|
+|觀察家 <br/><br/>用戶端|<br/><br/>路由--> |<br/><br/>Islands |Publisher <br/><br/>SfB\* |<br/>僅 Teams|
 |--- |--- |--- |--- |---|
 |商務用 Skype |&boxv;|商務用 Skype | 商務用 Skype | Teams|
 |Teams |&boxv; |Teams |商務用 Skype |Teams |
 | | | | |
 
-### <a name="federated-presence"></a>同盟目前狀態
+### <a name="federated-presence"></a>聯盟目前狀態
 
-同盟目前狀態是以表格2所示的同盟可存取性為基礎。
+聯合目前狀態是根據資料表 2 中所示的聯邦可及性。
 
-下表說明發行者會看到的發行商目前狀態，視發行者的模式和新執行緒) 的 [觀察程式] (之用戶端而定。 在實踐中，觀察程式的用戶端在此階段不會有任何不同之處。
+下表說明由觀察程式看到的 Publisher 目前狀態，視新執行緒的 Publisher 模式和 Watcher (用戶端) 。 實際上，Watcher 的用戶端在此階段對聯合沒有影響。
 
-**資料表4：同盟存在 (新執行緒) **
+**表格 4：新 (的)**
 
-|監視器 <br/><br/> 用戶端 |<br/><br/>Route-->|<br/><br/> 離島  |Publisher <br/><br/> SfB\* |<br/><br/> 僅限團隊 |
+|觀察家 <br/><br/> 用戶端 |<br/><br/>路由-->|<br/><br/> Islands  |Publisher <br/><br/> SfB\* |<br/><br/> 僅 Teams |
 |--- |--- |--- |--- |---|
 |商務用 Skype |&boxv; |商務用 Skype  | 商務用 Skype  | Teams  |
 |Teams | &boxv;|商務用 Skype |商務用 Skype |Teams|
 | | | | ||
 
-### <a name="presence-in-pre-existing-threads"></a>在預先存在的執行緒中的目前狀態
+### <a name="presence-in-pre-existing-threads"></a>現有線程中的目前狀態
 
-為了在預先存在的執行緒中對齊目前狀態和可存取性，該執行緒中公開的目前狀態必須與執行緒路由（假設路由可能）對齊。
+為了對齊現有線程中的目前狀態和可到達性，假設可以路由，該執行緒中公開的目標目前狀態必須與執行緒的路由對齊。
 
-特別是，如果收件者先前已升級至團隊的持續性互通性交談執行緒，該執行緒就不會再反映精確的目前狀態，而且將無法再進行路由。 您應該開始新的執行緒。
+特別是，如果您先前擁有永久交互操作交談對話執行緒的收件者已升級至 Teams，該對話將不再反映正確的目前狀態，也無法再路由。 您應該啟動新執行緒。
 
 ## <a name="related-links"></a>相關連結
-[與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[使用 Teams 與商務用 Skype 的組織移移和互通性指南](./migration-interop-guidance-for-teams-with-skype.md)
 
-[影片：管理 SfB 與團隊之間的共存與互通性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+[影片：管理 SfB 和 Teams 之間的共存和互通性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

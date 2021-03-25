@@ -13,16 +13,16 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解執行電子檔探索時該做什麼，例如當您需要提交所有電子檔儲存的資訊進行訴訟時。
+description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當您需要提交所有電子化儲存的資訊進行訴訟時。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3990b96981a65bb4d706cc3141abee10102c0839
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094053"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197528"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中對內容進行電子檔探索調查
 
@@ -30,7 +30,7 @@ ms.locfileid: "51094053"
 
 ## <a name="overview"></a>概觀
 
-所有 Microsoft Teams 1：1 或群組聊天會記錄到各個使用者的信箱。 所有標準頻道訊息會記錄到代表團隊的群組信箱。 在標準頻道上傳的檔案會涵蓋 SharePoint Online 和商務用 OneDrive 的 eDiscovery 功能。
+所有 Microsoft Teams 1：1 或群組聊天會記錄到各個使用者的信箱。 所有標準頻道訊息會記錄到代表團隊的群組信箱。 以標準頻道上傳的檔案會涵蓋 SharePoint Online 和商務用 OneDrive 的 eDiscovery 功能。
 
 私人頻道中郵件和檔案的 [eDiscovery](private-channels.md) 運作方式與標準頻道不同。 若要深入瞭解，請參閱 [私人頻道的 eDiscovery](#ediscovery-of-private-channels)。
 
@@ -54,6 +54,7 @@ ms.locfileid: "51094053"
 |對 (反應，例如喜歡、心和其他反應)  | 否 | |
 |主題 | 是 | |
 |表 | 是 | |
+|提要通知 | 否 | |
 |||
 
 <sup>1</sup> 會議 (和) 中繼資料包括下列專案：
@@ -77,7 +78,7 @@ ms.locfileid: "51094053"
 > [!div class="mx-imgBorder"]
 > ![eDiscovery 搜尋結果中參與者之間的交談。](media/MeetingImConversation2.png)
 
-有關執行 eDiscovery 調查的資訊，請參閱開始使用 [Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)。
+有關進行電子資料探索調查詳細資訊，請參閱開始使用 [Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)。
 
 Microsoft Teams 資料在 Excel 電子檔探索匯出輸出中會顯示為 IM 或交談。 您可以在 Outlook `.pst` 中開啟檔案，以在匯出郵件後查看這些郵件。
 
@@ -95,7 +96,7 @@ Microsoft Teams 資料在 Excel 電子檔探索匯出輸出中會顯示為 IM �
 
 Teams 不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整個團隊。 若要在私人頻道中執行 eDiscovery 內容搜尋，請搜尋整個小組、與私人頻道關聯的網站集合 (以包含檔案) ，以及私人頻道成員的信箱 (以包含郵件) 。
 
-請使用下列步驟來識別私人頻道中的檔案和訊息，以納入您的電子檔探索搜尋。
+使用下列步驟來識別私人頻道中的檔案和郵件，以納入您的電子檔探索搜尋。
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>在電子檔探索搜尋中納入私人頻道檔案
 
@@ -114,7 +115,7 @@ Teams 不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋�
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. 針對每個小組或群組識別碼，執行下列 PowerShell 腳本，以識別所有相關的私人頻道網站，$groupID是團隊的組識別碼。
+3. 針對每個小組或群組識別碼，執行下列 PowerShell 腳本，以識別所有相關的私人頻道網站，$groupID是團隊的群組識別碼。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -138,7 +139,7 @@ Teams 不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋�
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. 在 [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)搜尋查詢中，包含團隊中每個私人頻道中所有成員的信箱。
+3. 在 [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)搜尋查詢中，包含團隊中每個私人頻道所有成員的信箱。
 
 ## <a name="search-for-content-for-guest-users"></a>搜尋來賓使用者的內容
 
@@ -210,7 +211,7 @@ Teams 頻道、1：1 聊天和 1xN 聊天中應用程式產生的卡片內容會
 ![內容搜尋結果中的卡片內容相同](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 若要在搜尋結果中顯示來自卡片內容的影像 (例如上一個螢幕擷取畫面) 中的核取方塊，您必須在您用於查看搜尋結果的同一個瀏覽器會話的不同索引點，于另一個索引標上登錄 Teams (。 https://teams.microsoft.com) 否則會顯示影像預留位置。
+> 若要在搜尋結果中顯示卡片內容中的影像 (例如上一個螢幕擷取畫面) 中的核取方塊，您必須在您用於查看搜尋結果的同一個瀏覽器會話的不同索引點中，于另一個索引標上登錄 Teams (。 https://teams.microsoft.com) 否則會顯示影像預留位置。
 
 ## <a name="advanced-ediscovery"></a>進一版電子資料探索
 
@@ -218,7 +219,7 @@ Teams 頻道、1：1 聊天和 1xN 聊天中應用程式產生的卡片內容會
 
 ### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Teams 內容的進一步電子檔探索監護工作流程
 
-監護者可能是各種團隊的成員。 您可以捕獲與這些監護者相關的 Teams 內容。 有關監護工作流程的指示，請參閱在進一步 [電子資料](/microsoft-365/compliance/add-custodians-to-case)探索案例新增監護者。
+監護者可能是各種團隊的成員。 您可以捕獲與這些保管人相關的 Teams 內容。 有關監護工作流程的指示，請參閱在進一步 [電子資料](/microsoft-365/compliance/add-custodians-to-case)探索案例新增監護者。
 
 新增保管人之後，按一下 **[下** 一步> 按鈕，然後按一下 [ **新增>** 按鈕。 隨後會顯示一個視窗，提示您選取其他位置，這會顯示保管人的所有成員資格，以及其資料對應的 SharePoint 網站位置。 您可以從所有這些資料來源和團隊中，選擇您想要用於 eDiscovery 的內容，然後將該使用者和您識別的所有資料來源保留。
 
@@ -233,7 +234,7 @@ Teams 頻道、1：1 聊天和 1xN 聊天中應用程式產生的卡片內容會
 
 如果沒有任何特定使用者要指定為監管人，您可以將整個資料來源保留。 有關保留詳細資訊，請參閱在進一版 [電子資料](/microsoft-365/compliance/managing-holds)探索中管理保留。
 
-為 Teams 內容建立保留時，您可以選擇要納入保留的所有位置。 即使使用者刪除或變更內容，保留也會保留該內容的所有先前版本複本。
+建立 Teams 內容的保留時，您可以選擇要納入保留狀態的所有位置。 即使使用者刪除或變更內容，保留也會保留該內容的所有先前版本複本。
 
 您也可以使用選擇性查詢，根據關鍵字、日期範圍、作者和許多其他準則來設定保留的條件。 如果您未指定關鍵字，則來自該資料來源的所有專案都會受到保留。
 
@@ -241,17 +242,17 @@ Teams 頻道、1：1 聊天和 1xN 聊天中應用程式產生的卡片內容會
 
 您也可以搜尋 Teams 內容。 有關搜尋的資訊，請參閱在 Advanced [eDiscovery](/microsoft-365/compliance/collecting-data-for-ediscovery)中收集案例的資料。 即使有一封郵件符合搜尋查詢，搜尋也會返回整個交談。
 
-建立搜尋查詢時，您可以選擇監護者，以便搜尋所有已選取的來源。 您也可以搜尋非監護來源，例如未對應到使用者的 Teams 網站。 也可以選取查詢來縮小 Teams 內容中的搜尋範圍。
+建立搜尋查詢時，您可以選擇監護者，以便搜尋所有已選取的來源。 您也可以搜尋非監護來源，例如未對應到使用者的 Teams 網站。 也可使用選擇性查詢來縮小 Teams 內容中的搜尋範圍。
 
 建立並選取搜尋之後，視窗會顯示其他詳細資料，以及您可以在選取的搜尋上執行的動作。 如果您按一下 [統計資料> 按鈕，就可以查看搜尋的統計資料，包括根據位置類型細分、內容的原始來源，以及內容是否位於群組信箱、個別使用者信箱或 SharePoint 網站。 因此，您可以查看哪些來源對搜尋結果有説明。 您也可以使用 **查詢** 視圖，以便查看哪些個別關鍵字對結果有影響。
 
-完成搜尋之後，您可以按一下 [新增結果 **以審查** 設定按鈕並新增到評論集。 有關評論集詳細資訊，請參閱本文稍後在進一步 [eDiscovery](/microsoft-365/compliance/managing-review-sets) 和 [Review 集工作流程](#review-sets-workflow) 中管理審查集。
+完成搜尋之後，您可以按一下 [新增結果 **以審查** 設定按鈕並新增到評論集。 有關評論集的資訊，請參閱本文稍後在進一步 [電子探索](/microsoft-365/compliance/managing-review-sets) 和 [評論集工作流程](#review-sets-workflow) 中管理審查集。
 
 #### <a name="normal-review-sets-and-conversation-review-sets"></a>一般評論集和交談評論集
 
 新增搜尋至評論集時，您可以選擇一般評論集或交談評論集。
 
-一般評論集與匯出類似;它提供 Teams `.msg` 內容的個別檔案，並且以基本視圖呈現內容。 當您打算稍後使用其他軟體工具來重新處理檔案時，通常會使用一般評論集。
+一般評論集與匯出類似;它提供 Teams `.msg` 內容的個別檔案，並呈現基本視圖的內容。 當您打算稍後使用其他軟體工具重新處理檔案時，通常會使用一般評論集。
 
 交談評論集提供交談的更直覺、討論執行緒的視圖;它會以適當的順序一起顯示相關郵件。
 
@@ -266,13 +267,13 @@ Teams 頻道、1：1 聊天和 1xN 聊天中應用程式產生的卡片內容會
 
 許多邏輯準則會用來判斷其他郵件是否提供符合您查詢的郵件內容。 例如，針對 Teams 內容，啟用這些選項會因為郵件的執行緒方式，來取回父郵件和所有子郵件。
 
-也會檢查郵件時間戳記。 如果郵件符合您的查詢，則 4 小時內在其前或 4 小時內追蹤該郵件的相鄰郵件會視為交談的一部分，也會包含在結果中。
+也會檢查郵件時間戳記。 如果郵件符合您的查詢，則 4 小時內或 4 小時內追蹤該郵件的相鄰郵件會視為交談的一部分，也會包含在結果中。
 
 如果您必須確定哪些上下文相關郵件會與搜尋查詢的符合專案一起返回，則不需要使用這些選項。 您可以收集所有內容，也可以擴大搜尋的日期範圍，讓查詢的結果會退回更多郵件。
 
 ### <a name="review-sets-workflow"></a>審查集工作流程
 
-您可以按一下檢查集，來查看現有的評論集或建立新 **評論** 集。有關評論集詳細資訊，請參閱在進一版電子資料探索中管理 [評論集](/microsoft-365/compliance/managing-review-sets)。
+您可以按一下檢查集，來查看現有的評論集或 **建立** 新評論集。有關評論集詳細資訊，請參閱在進一版電子資料探索中管理 [評論集](/microsoft-365/compliance/managing-review-sets)。
 
 除了檔之外，您還可以在評論集新增電子郵件、Teams 訊息、Yammer 訊息及其他內容。 您也可以在評論集內執行許多可在其他上下文執行相同的作業，例如搜尋內容和建立自訂查詢。 這些作業僅適用于已新加入審查集的專案。
 
@@ -282,7 +283,7 @@ Teams 頻道、1：1 聊天和 1xN 聊天中應用程式產生的卡片內容會
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>摘要視圖、文字視圖和批註視圖
 
-如果您按一下評論集的 Teams 交談，它會顯示 [摘要視圖」，其中將整個 Teams 交談顯示為您可以個別互動的訊息清單。 按一下郵件右邊的向下箭箭，以顯示操作功能表，可讓您查看郵件詳細資料或下載個別 `.msg` 檔案。 按一下郵件詳細資料會顯示中繼資料摘要或郵件的完整中繼資料。
+如果您按一下評論集的 Teams 交談，它會顯示 [摘要視圖」，其中將整個 Teams 交談顯示為您可以個別互動的訊息清單。 按一下郵件右邊的向下箭鍵，以顯示操作功能表，可讓您查看郵件詳細資料或下載個別 `.msg` 檔案。 按一下郵件詳細資料會顯示中繼資料摘要或郵件的完整中繼資料。
 
 若要下載 PDF，請按一下摘要視圖右上角的下載按鈕。
 
@@ -295,11 +296,11 @@ Teams 頻道、1：1 聊天和 1xN 聊天中應用程式產生的卡片內容會
 > [!div class="mx-imgBorder"]
 > ![已修訂檔案的螢幕擷取畫面](media/RedactedFileExample.png)
 
-At the bottom of the **Annotate view** tab is the **Tag documents** button, which displays the tagging panel. 您可以在此面板中將標記適用于 Teams 交談內的所有郵件。 您可以將交談標示為回應性或非回應式、有許可權或不具有許可權、是否包含「有趣專案」、是否要包含在匯出中，以及是否需要進一步審查。 您也可以管理並應用其他可自訂的標記。
+在批註 **視圖的底** 端是顯示標記面板的標記 **檔** 按鈕。 您可以在此面板中將標記適用于 Teams 交談內的所有郵件。 您可以將交談標示為回應性或非回應式、有許可權或不具有許可權、是否包含「有趣專案」、是否要包含在匯出中，以及是否需要進一步審查。 您也可以管理並應用其他可自訂的標記。
 
 #### <a name="action-menu"></a>動作功能表
 
-在評論集視窗中，您可以按一下動作匯出來 **匯出** \> **內容**。 匯出時有許多可用的選項。
+在評論集視窗中，您可以按一下動作匯出來匯出 \> **內容**。 匯出時有許多可用的選項。
 
 若要匯出包含所有 Teams 郵件之所有中繼資料的檔案，請按一下以選取 [ **載入檔案>** 核取方塊。 若要在檔案中納入任何您已對內容所申請的標記，請按一下以選取 [ **標記>** 核取方塊。
 

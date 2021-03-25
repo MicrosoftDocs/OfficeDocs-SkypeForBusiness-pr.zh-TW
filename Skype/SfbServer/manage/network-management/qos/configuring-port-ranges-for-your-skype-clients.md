@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文說明如何為您的用戶端設定埠範圍，以及如何為在 Windows 10 上執行的用戶端在商務用 Skype Server 中設定服務品質原則。
-ms.openlocfilehash: b2961193bef799742ac3b79a4f421a7aa50c5a03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9cd5fe3fa84c4acd9365e02c0e5801b63d5497d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814199"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122427"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>為商務用 Skype Server 中的用戶端設定埠範圍和服務品質原則
 
@@ -267,4 +267,4 @@ ms.locfileid: "49814199"
 
 ## <a name="see-also"></a>另請參閱
 
-[在 Windows 10 中建立群組原則物件](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+[在 Windows 10 中建立群組原則物件](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

@@ -18,44 +18,44 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由，以將您的內部部署電話結構連線至 Microsoft 團隊。
+description: 瞭解如何設定 Microsoft Phone System Direct Routing，將您的內部部署電話基礎結構連接到 Microsoft Teams。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5388c93e741323d3dc9eda0fc51968b8b344d2cb
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701291"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122237"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
-Microsoft 手機系統 [直接路由] 可讓您將內部部署的電話結構連線至 Microsoft 團隊。 本文列出連接支援的內部部署會話邊界控制器 (SBC) 直接路由，以及如何將團隊使用者設定為使用直接路由來連線至公用的交換電話網絡 (PSTN) 。 本文將連結至相關的文章，以取得詳細資料。  
+Microsoft Phone System Direct Routing 可讓您將內部部署電話基礎結構連接到 Microsoft Teams。 本文列出將支援的內部部署會話邊界控制器 (SBC) 連接到直接路由所需的高層級步驟，以及如何設定 Teams 使用者使用直接路由來連接到公用交換電話網絡 (PSTN) 。 本文連結至相關文章以尋找詳細資料。  
 
-如需有關直銷路由是否適合貴組織的相關資訊，請參閱 [手機系統 Direct 路由](direct-routing-landing-page.md)。 如需系統必備及規劃部署的相關資訊，請參閱 [規劃直接路由](direct-routing-plan.md)。
+有關直接路由是否適合貴組織的解決方案，請參閱 [電話系統直接路由](direct-routing-landing-page.md)。 有關先決條件和規劃部署的資訊，請參閱規劃 [直接路由](direct-routing-plan.md)。
 
 > [!Tip]
-> 您也可以觀看下列會話，瞭解直接路由的優點、如何規劃，以及部署方式： [直接在 Microsoft 團隊中傳送路線](https://aka.ms/teams-direct-routing)。
+> 您也可以觀看下列會話，以瞭解直接路由的好處、如何規劃，以及如何部署 [：Microsoft Teams](https://aka.ms/teams-direct-routing)中的直接路由。
 
-若要完成本文所述的步驟，管理員需要熟悉 PowerShell Cmdlet。 如需有關使用 PowerShell 的詳細資訊，請參閱 [設定您的 Windows PowerShell 電腦](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。 
+若要完成本文說明的步驟，系統管理員需要熟悉 PowerShell Cmdlet。 有關使用 PowerShell 的資訊，請參閱為 [Windows PowerShell 設定您的電腦](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。 
 
-在執行這些文章中的步驟之前，Microsoft 建議您確認您的 SBC 已按照您的 SBC 廠商的建議進行設定： 
+在執行這些文章中的步驟之前，Microsoft 建議您確認您的 SBC 已按照 SBC 廠商的建議進行配置： 
 
 - [AudioCodes 部署檔](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Oracle 部署檔](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [功能區通訊部署檔](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-系統 (anynode) 部署檔](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [TE-Systems (任何) 部署檔](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Metaswitch 部署檔](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-如需支援的 SBCs 完整清單，請參閱針對 [直接路由認證的會話邊界控制器清單](direct-routing-border-controllers.md)。
+有關支援 SBC 的完整清單，請參閱通過直接路由認證的會話 [邊界控制器清單](direct-routing-border-controllers.md)。
 
-若要設定 Microsoft 手機系統並讓使用者使用直接路由，請依照下列步驟進行： 
+若要設定 Microsoft Phone System 並讓使用者使用直接路由，請遵循下列步驟： 
 
-- **步驟1。** [將 SBC 與 Microsoft Phone 系統連接並驗證連接](direct-routing-connect-the-sbc.md)
-- **步驟2。** [允許使用者使用直接路由、語音及語音信箱](direct-routing-enable-users.md)
-- **步驟3。** [設定語音路由](direct-routing-voice-routing.md)
-- **步驟4。** [將數位轉換成替換格式](direct-routing-translate-numbers.md) 
+- **步驟 1。** [使用 Microsoft Phone 系統連接 SBC 並驗證連接](direct-routing-connect-the-sbc.md)
+- **步驟 2.** [啟用使用者進行直接路由、語音和語音信箱](direct-routing-enable-users.md)
+- **步驟 3.** [設定語音路由](direct-routing-voice-routing.md)
+- **步驟 4.** [將數位轉換成替代格式](direct-routing-translate-numbers.md) 
 
-如果您要為多個租使用者設定 SBC，您也會想要 [為多個](direct-routing-sbc-multiple-tenants.md)租使用者閱讀 [設定 sbc]。
+如果您要為多個租使用者設定 SBC，您也會想要閱讀為多個租使用者設定[SBC。](direct-routing-sbc-multiple-tenants.md)
 
 
 ## <a name="related-topics"></a>相關主題
@@ -63,4 +63,3 @@ Microsoft 手機系統 [直接路由] 可讓您將內部部署的電話結構連
 [電話系統直接路由](direct-routing-landing-page.md)
 
 [規劃直接路由](direct-routing-plan.md)
-

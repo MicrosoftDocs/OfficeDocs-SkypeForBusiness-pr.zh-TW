@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要為信任的應用程式集區定義完整網域名稱 (FQDN)，請指定下列設定：
-ms.openlocfilehash: e34c3ba68a90e292da9441465d9077112b1ce173
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 575d4b5464b4a109bc34908f8cb86b802a20a5c0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811813"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122674"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>新增信任的應用程式集區 FQDN
  
@@ -33,6 +33,4 @@ ms.locfileid: "49811813"
 > [!IMPORTANT]
 > 之後無法將單一信任的應用程式伺服器轉換為伺服器集區。如果您認為未來可能需要集區，您現在可以部署含單一電腦的多個伺服器集區，需要時再新增伺服器。 
   
-如需信任的應用程式集區的詳細資訊，請參閱＜[New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)＞。
-  
-
+如需信任的應用程式集區的詳細資訊，請參閱＜[New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)＞。

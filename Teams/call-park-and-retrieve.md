@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中使用通話保留和取回來保留通話。
-ms.openlocfilehash: efc36a2bc90b64abf2e886c5e768a26704bd6550
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102799"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197578"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在 Microsoft Teams 中呼叫停駐和取回
 
@@ -38,10 +38,10 @@ ms.locfileid: "51102799"
 - 使用者將通話放在行動裝置上，因為裝置電池電力不足。 然後，使用者可以輸入代碼，以從 Teams 電話機取回通話。
 - 支援代表會將客戶電話寄到客戶電話上，並傳送公告給 Teams 頻道，讓專家取回通話並協助客戶。 專家在 Teams 用戶端中輸入代碼以取回通話
 
-使用者必須是企業語音使用者，且必須包含在呼叫停駐策略中，以將通話停駐和接聽來電。
+使用者必須是企業語音使用者，且必須包含在通話停駐策略中，以將通話停駐和接聽來電。
 
 > [!NOTE]
-> 只有 Teams 部署模式才能使用呼叫停駐和取回 [功能](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ，商務用 Skype IP 電話不支援。
+> 只有 Teams 部署模式才提供通話駐點和取回 [功能](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ，商務用 Skype IP 電話不支援。
 
 ## <a name="configure-call-park-and-retrieve"></a>設定呼叫停駐和取回
 
@@ -57,11 +57,11 @@ ms.locfileid: "51102799"
 
 4. 選取 **儲存**。
 
-您可以在清單中選取該策略，然後按一下 編輯 來 **編輯。**
+您可以在清單中選取該策略，然後按一下編輯來 **編輯。**
 
 為了讓該策略能夠執行，必須將它指派給使用者。 您可以 [個別指派該策略](assign-policies.md) 給使用者，或將使用者指派給群組。
 
-將通話部分策略指派給群組
+將呼叫停駐策略指派給群組
 
 1. 在 [ **通話停駐點政策」** 頁面上，按一下 [ **群群組原則指派** > 的 [新增群組> 的 **[新增群組**> 。
 2. 搜尋您想要使用的群組，然後按一下 [ **新增**。

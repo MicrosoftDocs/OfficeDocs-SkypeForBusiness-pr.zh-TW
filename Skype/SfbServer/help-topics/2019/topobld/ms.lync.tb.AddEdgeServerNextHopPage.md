@@ -15,17 +15,15 @@ localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Edge 集區的下一個躍點是前端集區 (，可以是 Enterprise 集區或 Standard Edition server) ，或者，如果您的部署包含 Director，則下一個躍點是 Director。
-ms.openlocfilehash: 366ca9ffa090f59943752519607db0437e747ad5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e997ebaa78e91156b92f56b11503759d23325389
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800973"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122714"
 ---
 # <a name="add-edge-server-next-hop"></a>新增 Edge Server 下一個躍點
 
 Edge 集區的下一個躍點是前端集區 (，可以是 Enterprise 集區或 Standard Edition server) ，或者，如果您的部署包含 Director，則下一個躍點是 Director。
 
-您可以在部署初始拓撲時新增外部使用者存取的支援，也可以稍後再新增。 如需新增 Edge Server 至現有拓撲的詳細資訊，請參閱 Edge Server 部署文件中的＜[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)＞。
-
-
+您可以在部署初始拓撲時新增外部使用者存取的支援，也可以稍後再新增。 如需新增 Edge Server 至現有拓撲的詳細資訊，請參閱 Edge Server 部署文件中的＜[Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)＞。

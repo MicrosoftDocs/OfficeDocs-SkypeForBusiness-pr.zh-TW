@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。
-ms.openlocfilehash: e2ac69190ab93b4b6d81fed13538cc6fcaa91f20
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ef771ad78f00085374038203e1049790a9179e88
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816393"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122437"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路子網路
 
@@ -62,14 +62,14 @@ ms.locfileid: "49816393"
         SubnetID      : 172.11.15.0
 
 
-如需詳細資訊，請參閱 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) Cmdlet 的說明主題。
+如需詳細資訊，請參閱 [Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet) Cmdlet 的說明主題。
 
 
 ## <a name="create-or-modify-network-subnets"></a>建立或修改網路子網 
 
 網路子網必須與網路網站相關聯，以判斷屬於該子網之主機的地理位置。 您可以使用商務用 Skype Server 控制台來設定子網。 您可以從商務用 Skype Server 控制台建立、修改或刪除網路子網。 
 
-在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。 從那裡，您可以將 **New-CsNetworkSubnet** 與 Windows PowerShell Cmdlet 匯 **入-CSV** 搭配呼叫。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 ( .csv) 檔案，並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)。
+在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。 從那裡，您可以將 **New-CsNetworkSubnet** 與 Windows PowerShell Cmdlet 匯 **入-CSV** 搭配呼叫。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 ( .csv) 檔案，並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
 
 
 ### <a name="to-create-a-network-subnet"></a>建立網路子網
@@ -116,7 +116,7 @@ ms.locfileid: "49816393"
 
 您可以使用下列程式來刪除子網。 您可以從商務用 Skype Server 控制台建立、修改或刪除網路子網。 
 
-在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。 從那裡，您可以將 **New-CsNetworkSubnet** 與 Windows PowerShell Cmdlet 匯 **入-CSV** 搭配呼叫。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 ( .csv) 檔案，並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)。
+在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。 從那裡，您可以將 **New-CsNetworkSubnet** 與 Windows PowerShell Cmdlet 匯 **入-CSV** 搭配呼叫。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 ( .csv) 檔案，並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
 
 
 ### <a name="to-delete-a-network-subnet"></a>若要刪除網路子網
@@ -139,10 +139,10 @@ ms.locfileid: "49816393"
 
 ## <a name="see-also"></a>另請參閱
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
+[New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)  
 
-[CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
+[CsNetworkSubnet](/powershell/module/skype/Set-CsNetworkSubnet)  
 
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](/powershell/module/skype/Remove-CsNetworkSubnet)  
 
-[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet)

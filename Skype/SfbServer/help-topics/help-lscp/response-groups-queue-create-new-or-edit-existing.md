@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
-ms.openlocfilehash: cfe2d212f90f8dcdf83b8f827ebf470245ce87fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4226c30ad560d4f5e5396b8af4ab657e55f087c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829313"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122554"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>回應群組佇列：建立新的或編輯現有
 
@@ -72,6 +72,4 @@ ms.locfileid: "49829313"
 
   - **轉寄到另一個佇列** 如果您選取此選項，請流覽至滿足佇列溢出閾值時要接聽通話的佇列。
 
-如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 2015 中規劃回應群組應用程式](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 。
-
-
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 2015 中規劃回應群組應用程式](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 。

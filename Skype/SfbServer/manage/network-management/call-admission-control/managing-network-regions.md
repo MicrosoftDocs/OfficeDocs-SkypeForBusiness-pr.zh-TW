@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 網路地區 * 是網路中樞或骨幹，用於設定通話許可控制、E9-1-1 和媒體旁路。
-ms.openlocfilehash: 14c8004ddd14c0a37c25d700edae845ac9adfe29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2020eea2cf8bf85c915ebf88de6f86cb3a0ee9ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816413"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122447"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路地區
 
@@ -65,7 +65,7 @@ ms.locfileid: "49816413"
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-如需詳細資訊，請參閱 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) Cmdlet 的說明主題。
+如需詳細資訊，請參閱 [Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink) Cmdlet 的說明主題。
 
 
 ## <a name="create-or-modify-network-regions"></a>建立或修改網路地區 
@@ -145,10 +145,10 @@ ms.locfileid: "49816413"
 
 [管理網路地區路由](managing-network-region-routes.md)
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[New-CsNetworkRegion](/powershell/module/skype/New-CsNetworkRegion)  
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[Set-CsNetworkRegion](/powershell/module/skype/Set-CsNetworkRegion)  
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[Remove-CsNetworkRegion](/powershell/module/skype/Remove-CsNetworkRegion)  
 
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink)

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 摘要：瞭解當您規劃升級至商務用 Skype Server 2015 時，應考慮的事項。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server 2015，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 69b1d9df20330ad0baecbc1c5abe59e76808185a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 742a582c9945e495bf150a174f8bc80101f61f7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831973"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122367"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>規劃升級至商務用 Skype Server 2015
  
@@ -44,11 +44,11 @@ ms.locfileid: "49831973"
 |:-----|:-----|
 |Lync Server 2013  <br/> | 若要升級，請在與集區相關聯的每個伺服器上，使用商務用 Skype Server 拓撲產生器和新的 In-Place 升級功能。 如需詳細步驟，請參閱 [Plan to upgrade From Lync server 2013 To 商務用 Skype server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) 及 [upgrade To 商務用 skype server 2015](../deploy/upgrade-to-skype-for-business-server.md) 。 <br/> |
 |Lync Server 2010 + Lync Server 2013 (雙模式)   <br/> |首先，升級至 Lync Server 2013，然後使用新的 In-Place 升級功能，升級至商務用 Skype Server 2015。 不過，如果您的拓撲是主要的 Lync Server 2010，您也可以將 Lync Server 2013 元件回復至 Lync Server 2010，然後直接升級至商務用 Skype Server 2015。 在此情況下，您將無法利用 In-Place 升級，並會在 Lync Server 2010 和商務用 Skype Server 2015 之間使用直聯存在性。 不支援基本存在，但支援共存。  <br/> |
-|Lync Server 2010  <br/> |開啟新的商務用 Skype Server 2015 集區，然後將使用者遷移至此新的集區。 然後，您就可以解除委任舊的 Lync Server 2010 集區。 從 Lync Server 2010 升級為商務用 Skype Server 2015 類似于從 Lync Server 2010 升級至 Lync Server 2013。 請參閱 [從 Lync server 2010 遷移至 Lync server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615)。  <br/> |
-|Office Communications Server 2007 R2  <br/> | 挑選下列兩個選項之一： <br/>  設定新的商務用 Skype Server 2015 環境。 <br/>  或者，如果您的硬體和軟體符合商務用 Skype Server 2015 的需求，請升級至 Lync Server 2013，然後使用新的 In-Place 升級功能更新至商務用 Skype Server 2015。 如需詳細資訊，請參閱 [商務用 Skype server 2015 的伺服器需求](requirements-for-your-environment/server-requirements.md) 及 [從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616)。  <br/> |
+|Lync Server 2010  <br/> |開啟新的商務用 Skype Server 2015 集區，然後將使用者遷移至此新的集區。 然後，您就可以解除委任舊的 Lync Server 2010 集區。 從 Lync Server 2010 升級為商務用 Skype Server 2015 類似于從 Lync Server 2010 升級至 Lync Server 2013。 請參閱 [從 Lync server 2010 遷移至 Lync server 2013](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013)。  <br/> |
+|Office Communications Server 2007 R2  <br/> | 挑選下列兩個選項之一： <br/>  設定新的商務用 Skype Server 2015 環境。 <br/>  或者，如果您的硬體和軟體符合商務用 Skype Server 2015 的需求，請升級至 Lync Server 2013，然後使用新的 In-Place 升級功能更新至商務用 Skype Server 2015。 如需詳細資訊，請參閱 [商務用 Skype server 2015 的伺服器需求](requirements-for-your-environment/server-requirements.md) 及 [從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013](/previous-versions/office/lync-server-2013/migration-from-office-communications-server-2007-r2-to-lync-server-2013)。  <br/> |
    
 > [!NOTE]
-> 商務用 Skype Server 2015 支援 SQL Server 2014，但在 Lync Server 2013 中不支援。 如果您想要從 SQL Server 2012 升級至 SQL Server 2014，集區必須先升級為商務用 Skype Server 2015，如本檔中所述 In-Place 升級方法。 然後您可以從 SQL Server 2012 升級至 SQL Server 2014，請參閱 [upgrade TO SQL server 2014](https://msdn.microsoft.com/library/bb677622%28v=sql.120%29.aspx)。 若要深入瞭解資料庫需求，請參閱 [商務用 Skype server 2015 的伺服器需求](requirements-for-your-environment/server-requirements.md)。 
+> 商務用 Skype Server 2015 支援 SQL Server 2014，但在 Lync Server 2013 中不支援。 如果您想要從 SQL Server 2012 升級至 SQL Server 2014，集區必須先升級為商務用 Skype Server 2015，如本檔中所述 In-Place 升級方法。 然後您可以從 SQL Server 2012 升級至 SQL Server 2014，請參閱 [upgrade TO SQL server 2014](/sql/database-engine/install-windows/upgrade-sql-server?viewFallbackFrom=sql-server-2014)。 若要深入瞭解資料庫需求，請參閱 [商務用 Skype server 2015 的伺服器需求](requirements-for-your-environment/server-requirements.md)。 
   
 ## <a name="plan-to-upgrade-from-lync-server-2013-to-skype-for-business-server-2015"></a>規劃從 Lync Server 2013 升級為商務用 Skype Server 2015
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
@@ -158,14 +158,14 @@ In-Place 升級的情形有兩種：
   
 ### <a name="kerberos-authentication-considerations"></a>Kerberos 驗證考慮
 
-如果您對 Web 服務使用 Kerberos 驗證，您必須在 In-Place 升級完成後，重新指派 Kerberos 帳戶並重設密碼。 若要瞭解如何執行這項操作，請參閱 [設定 Kerberos 驗證](https://go.microsoft.com/fwlink/p/?LinkId=530342)。
+如果您對 Web 服務使用 Kerberos 驗證，您必須在 In-Place 升級完成後，重新指派 Kerberos 帳戶並重設密碼。 若要瞭解如何執行這項操作，請參閱 [設定 Kerberos 驗證](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-kerberos-authentication)。
   
 ## <a name="support-for-coexistence-with-lync-server-2013-and-lync-server-2010"></a>支援 Lync Server 2013 和 Lync Server 2010 共存
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
 您可以在與 Lync Server 2013 或 Lync Server 2010 相同的拓撲中執行商務用 Skype Server 2015，但您無法在相同的拓撲中全部三個。
   
-如果您在 Lync Server 2010 和 Lync Server 2013 之間有共同存在，建議您將整個拓撲升級至 Lync Server 2013，然後使用 In-Place 升級升級至商務用 Skype Server 2015。 如需詳細資訊，請參閱 [從 Lync server 2010 遷移至 Lync server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615)。
+如果您在 Lync Server 2010 和 Lync Server 2013 之間有共同存在，建議您將整個拓撲升級至 Lync Server 2013，然後使用 In-Place 升級升級至商務用 Skype Server 2015。 如需詳細資訊，請參閱 [從 Lync server 2010 遷移至 Lync server 2013](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013)。
   
 如果拓撲主要是 Lync Server 2010，請先將 Lync Server 2013 元件還原至 Lync Server 2010，再將拓撲升級至商務用 Skype Server 2015。 在此情況下，您會失去 In-Place 升級的優點，並在 Lync Server 2010 和商務用 Skype Server 2015 之間具有共同存在的拓撲。
   
@@ -180,9 +180,9 @@ In-Place 升級的情形有兩種：
   
 不過，我們確實支援 Lync Server 2010 或 Lync Server 2013 SBA/SBS 的商務用 Skype Server 資料中心共存。 
   
-在規劃使用關聯的分支的 Lync Server 2013 前端 (FE) 集區的 In-Place 升級時，您可以將現有的使用者保留在 Lync Server 2013 SBA/SBS 上。 在升級期間，SBA/SBS 使用者將會進入復原模式，並將在升級完成後回到一般功能。 如需使用者在復原模式中的經驗的詳細資訊，請參閱 [Lync Server 2013 中的分支網站恢復功能](https://technet.microsoft.com/library/gg398715.aspx)。
+在規劃使用關聯的分支的 Lync Server 2013 前端 (FE) 集區的 In-Place 升級時，您可以將現有的使用者保留在 Lync Server 2013 SBA/SBS 上。 在升級期間，SBA/SBS 使用者將會進入復原模式，並將在升級完成後回到一般功能。 如需使用者在復原模式中的經驗的詳細資訊，請參閱 [Lync Server 2013 中的分支網站恢復功能](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-features)。
   
-將 Lync Server 2010 拓撲遷移至商務用 Skype Server 2015 時，必須將 SBA/SBS 重新加入至拓撲，類似遷移至 Lync Server 2013。 如需必要的步驟，請參閱 [將 Survivable Branch 裝置連線至 Lync Server 2013 前端集](https://technet.microsoft.com/library/jj688026.aspx)區。
+將 Lync Server 2010 拓撲遷移至商務用 Skype Server 2015 時，必須將 SBA/SBS 重新加入至拓撲，類似遷移至 Lync Server 2013。 如需必要的步驟，請參閱 [將 Survivable Branch 裝置連線至 Lync Server 2013 前端集](/previous-versions/office/lync-server-2013/lync-server-2013-connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool)區。
   
 對於 Lync Server 2010 和 Lync Server 2013 的共存拓撲，請先將「支援 Lync Server 2013 和 Lync 2010 Server 的共存」區段中所做的建議對齊。
   
