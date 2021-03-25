@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 818e674014104178efea3e6467d2e5bfbf553c68
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874793"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120644"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 的資訊障礙
 
@@ -37,7 +37,7 @@ IBM 政策也會防止查詢和探索。 如果您嘗試與不應該與某人通
 
 ## <a name="background"></a>背景
 
-IB 的主要推動者來自金融服務業。 金融產業監管局 (FINRA) 會審查成員公司內部的 [IBs]( https://www.finra.org) 和利益衝突，並提供管理這類衝突 (FINRA 2241、債券研究法規通知 [15-31](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)的指引。
+IB 的主要推動者來自金融服務業。 金融產業監管局 (FINRA) 會審查成員公司內的 [IB]( https://www.finra.org) 和利益衝突，並提供管理這類衝突 (FINRA 2241、債券研究法規通知 [15-31](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)的指引。
 
 不過，自從推出 IB 之後，許多其他領域發現它們很有用。 其他常見案例包括：
 
@@ -51,7 +51,7 @@ IB 的主要推動者來自金融服務業。 金融產業監管局 (FINRA) 會�
 
 例如，Enrico 屬於銀行部門，Pradeep 屬於財務顧問區段。 Enrico 和 Pradeep 無法彼此通訊，因為組織的IB 政策會阻止這兩個區段之間的通訊和共同合作。 不過，Enrico 和 Pradeep 可以在 HR 中與 Lee 通訊。
 
-![顯示資訊障礙防止區段之間通訊的範例](media/information-barriers-example.png)
+![顯示防止區段之間通訊的資訊障礙範例](media/information-barriers-example.png)
 
 ## <a name="when-to-use-information-barriers"></a>何時使用資訊障礙
 
@@ -81,7 +81,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
     ![搜尋新成員以新加入團隊並尋找不符合的螢幕擷取畫面](media/information-barriers-add-members.png)
 
-- **系統要求** 新的聊天 - 每次使用者要求與一或多個其他使用者進行新聊天時，會評估該聊天，以確保該聊天未違反任何IB 原則。 如果交談違反 IBM 原則，則交談尚未開始。
+- **系統要求** 新的聊天 - 每次使用者要求與一或多個其他使用者進行新聊天時，會評估該聊天，以確保該聊天未違反任何IB 原則。 如果交談違反 IBM 原則，則交談不會開始。
 
     以下是 1：1 聊天的範例。
 
@@ -93,7 +93,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
     > [!div class="mx-imgBorder"]
     > ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-group-chat.png)
 
-- **使用者受邀** 加入會議 - 當使用者受邀加入會議時，會根據適用于其他小組成員的 IB 原則評估適用于使用者的 IB 原則。 如果違反，使用者將不允許加入會議。
+- **邀請使用者** 加入會議 - 當使用者受邀加入會議時，會根據適用于其他小組成員的IB原則評估適用于使用者的IB 原則。 如果違反，使用者將不允許加入會議。
 
     ![顯示使用者已封鎖會議畫面的螢幕擷取畫面](media/information-barriers-meeting.png)
 
@@ -111,13 +111,13 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 - 使用者在 **Teams** 中撥打電話 - 每當使用者透過 VOIP () 向其他使用者或使用者群組啟動語音通話時，會評估該通話，以確保該通話不會違反其他小組成員的 IB 原則。 如果有任何衝突，語音通話會封鎖。
 
-- **Teams 中的來賓** - IBM 原則也適用于 Teams 中的來賓。 如果貴組織的全域通訊清單中需要可探索來賓，請參閱管理 [Microsoft 365 群組中的來賓存取權](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 一旦來賓可探索，您可以 [定義IB 政策](/office365/securitycompliance/information-barriers-policies)。
+- **Teams 中的來賓** - IBM 原則也適用于 Teams 中的來賓。 如果貴組織的全域通訊清單中需要可探索來賓，請參閱管理 [Microsoft 365 群組中的來賓存取權](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 一旦來賓可探索，您可以 [定義IB 政策](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>政策變更對現有聊天的影響
 
 當IB 原則系統管理員對原則進行變更，或因為使用者設定檔 (例如工作變更) 而啟用原則變更時，資訊障礙原則評估服務會自動搜尋成員，以確保他們在團隊中的成員資格不會違反任何原則。
 
-如果使用者之間已有聊天或其他通訊，且已設定新策略或變更現有策略，服務會評估現有的通訊，以確保仍允許通訊發生。 
+如果使用者之間已有聊天或其他通訊，而且已設定新策略或變更現有策略，服務會評估現有的通訊，以確保仍允許通訊發生。 
 
 - **1：1** 聊天 - 如果兩個使用者之間不再允許通訊 (因為有一或兩個使用者使用封鎖通訊) ，進一步通訊會封鎖。 他們現有的聊天交談會變成隻讀。
 
@@ -147,7 +147,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 目前，如果IB 策略會阻止其他使用者，使用者會遇到下列情況：
 
-- **人員選項卡** - 使用者無法看到已封鎖的使用者在 **人員選項卡上** 。
+- **人員：** 使用者無法看到已封鎖的使用者在 **人員選項卡上** 。
 
 - **人員選擇** 器 - 在人員選擇器中不會顯示封鎖的使用者。
 
@@ -184,12 +184,12 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams 策略和 SharePoint 網站
 
-建立團隊時，SharePoint 網站會針對檔案體驗進行設定並與 Microsoft Teams 建立關聯。 根據預設，此 SharePoint 網站和檔案不會遵守IB 政策。 若要啟用IB 政策，系統管理員已經填寫表單，要求在 SharePoint 和 OneDrive 上啟用IB (請參閱資訊障礙中的 [先決條件) >[一節](/sharepoint/information-barriers#prerequisites)。 如果在 SharePoint 和 OneDrive 中開啟了 IB 政策，則當使用 Microsoft Teams 建立小組時，IBM 策略就會在 SharePoint 網站上使用。
+建立團隊時，會針對檔案體驗設定 SharePoint 網站，並與 Microsoft Teams 建立關聯。 根據預設，此 SharePoint 網站和檔案不會遵守IB 政策。 若要啟用IB 政策，系統管理員已經填寫表單，要求在 SharePoint 和 OneDrive 上啟用IB (請參閱資訊障礙中的 [先決條件) >[一節](/sharepoint/information-barriers#prerequisites)。 如果在 SharePoint 和 OneDrive 中開啟了 IB 政策，則當使用 Microsoft Teams 建立小組時，IBM 策略就會在 SharePoint 網站上使用。
 
 小組 **SharePoint** 網站上IB 政策範例：在 Contoso Bank Corporation 中，使用者的 Sesha@contosobank.onmicrosoft.com 屬於投資銀行區段，而使用者 'Nikita@contosobank.onmicrosoft.com' 屬於諮詢區段。 組織的IB 政策會阻止這兩個區段之間的通訊和共同合作。
 當使用者 Sesha 為 Investment Banking 區段建立團隊時，只有 Investment Banking 使用者才能使用支援該團隊的小組和 SharePoint 網站。 使用者 Nikita 即使擁有網站連結，也無法存取該網站。
 
-詳細資訊，請參閱在 [SharePoint 中使用資訊障礙](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
+詳細資訊，請參閱在 [SharePoint 中使用資訊障礙](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
 ## <a name="required-licenses-and-permissions"></a>必要的授權和許可權
 
@@ -197,10 +197,10 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 ## <a name="known-issues"></a>已知問題
 
-- **使用者無法** 加入臨時會議：如果已啟用 IB 政策，則如果會議名冊的大小大於會議出席限制，則不允許使用者加入 [會議](limits-specifications-teams.md)。 其根本原因是，IBM 檢查取決於是否可以將使用者新加入會議聊天名冊，而且只有當使用者可以加入名冊時，才允許他們加入會議。 一旦加入會議的使用者會將該使用者加入名冊;因此，對於週期性會議，名冊可以快速填入。 一旦聊天名冊達到 [會議出席](limits-specifications-teams.md)限制，就不允許將其他使用者新加入會議。 如果租使用者已啟用 IB，且會議聊天名冊已滿 (則新使用者) 不會加入會議。 但是，如果租使用者未啟用 IB 且會議聊天名冊已滿，新使用者 (那些尚未加入名冊) 的使用者可以加入會議，雖然他們看不到會議中的聊天選項。 短期解決方案是從會議聊天名單中移除非使用中成員，為新使用者提供空間。 不過，我們會于日後增加會議聊天名冊的大小。
+- **使用者無法** 加入臨時會議：如果已啟用 IB 政策，如果會議名冊的大小大於會議出席限制，使用者就不允許加入 [會議](limits-specifications-teams.md)。 其根本原因是，IBM 檢查取決於是否可以將使用者新加入會議聊天名冊，而且只有當使用者可以加入名冊時，才允許他們加入會議。 一旦加入會議的使用者會將該使用者加入名冊;因此，對於週期性會議，名冊可以快速填入。 一旦聊天名冊達到 [會議出席](limits-specifications-teams.md)限制，就不允許將其他使用者新加入會議。 如果租使用者已啟用 IB，且會議聊天名冊已滿 (則新使用者) 不會加入會議。 但是，如果租使用者未啟用 IB 且會議聊天名冊已滿，新使用者 (那些尚未加入名冊) 的使用者可以加入會議，雖然他們看不到會議中的聊天選項。 短期解決方案是從會議聊天名單中移除非使用中成員，為新使用者提供空間。 不過，我們會于日後增加會議聊天名冊的大小。
 - **使用者無法加入頻道會議**：如果已啟用 IB 政策，如果使用者不是團隊的成員，則不允許他們加入頻道會議。 其根本原因是，IBM 檢查取決於是否可以將使用者新加入會議聊天名冊，而且只有當使用者可以加入名冊時，才允許他們加入會議。 頻道會議中的聊天對話僅適用于小組/頻道成員，非成員無法看到或存取聊天對話。 如果租使用者已啟用 IB，且非團隊成員嘗試加入頻道會議，則不允許該使用者加入會議。 不過，如果租使用者未啟用 IB，且非團隊成員嘗試加入頻道會議，則允許使用者加入會議，但他們不會在會議看到聊天選項。
 - **團隊擁有者不會** 移除：如果已採用新的 IB 原則，導致 Teams 頻道中出現兩個或多個衝突區段，則具有團隊擁有者的區段會獲得較高的喜好設定，而會移除其他區段使用者。 此外，目前不會移除團隊擁有者，即使他們與其他擁有者/使用者發生衝突。 租使用者系統管理員和其他頻道擁有者必須手動移除衝突擁有者。
-- **租使用者中允許的區** 段數上限：每個租使用者在設定IB 政策時最多可以設定 100 個區段。 您可以配置的策略數量沒有限制。
+- **租使用者中允許的區** 段數上限：每個租使用者在設定IB 政策時最多可以設定 100 個區段。 可配置的策略數量沒有限制。
 
 ## <a name="more-information"></a>詳細資訊
 

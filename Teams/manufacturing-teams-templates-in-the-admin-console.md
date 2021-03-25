@@ -1,5 +1,5 @@
 ---
-title: 在系統管理中心快速開始使用團隊生產範本
+title: 在系統管理中心開始使用 Teams 製造範本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用。 團隊範本：透過使用系統管理中心提供預先定義的設定、通道及預先安裝的應用程式，來建立專為製造業需求設計的小組結構。
+description: 瞭解如何使用。 使用系統管理中心提供預先定義的設定、頻道和預先安裝的 App，以建立專為製造需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,30 +19,30 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51a28e997e5c7c0b36fb49cd0bb46768b7808a29
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 9f5439cd8fdd053ab8444a1016eac94064638605
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662218"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120554"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在系統管理中心使用小組製造範本
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在系統管理中心使用 Teams 製造範本
 
-團隊範本可讓您透過提供預先定義的設定、通道及預先安裝應用程式範本，快速且輕鬆地建立團隊。
+Teams 範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-團隊範本有預先建立的小組結構定義，專門圍繞車間需求而設計。 您也可以延伸團隊範本，建立專為您特定組織需求量身定制的小組。
+Teams 範本有預先建立的團隊結構定義，專為製造需求所設計。 您也可以擴充 Teams 範本，以建立專為您特定組織需求量身打造的團隊。
 
-在本文中，我們將介紹每個團隊範本，並建議如何使用它們。
+本文介紹每個 Teams 範本，並建議如何使用這些範本。
 
-如果您負責規劃、部署及管理多個生產組織中的多個小組，本文適用于您。 您已在組織中部署團隊服務。 如果您還沒有推出小組，請先閱讀 [如何推出 Microsoft 團隊](How-to-roll-out-teams.md)。
+如果您負責規劃、部署及管理整個製造組織的多個團隊，本文適合您閱讀。 您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](./deploy-overview.md)。
 
-若要深入瞭解小組範本的整體資訊，請參閱 [開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
+如需深入了解一般 Teams 範本，請參閱 [Teams 範本入門](get-started-with-teams-templates-in-the-admin-console.md)。
 
-## <a name="quality-and-safety"></a>品質與安全性
+## <a name="quality-and-safety"></a>品質和安全性
 
-使用製造業車間作業團隊集中溝通、存取資源和車間作業。 包括原則與程式檔、訓練影片、安全通知、班次移交程式。
+與製造工廠小組集中通訊、存取資源，以及工廠作業。 包含政策與程式檔、訓練影片、安全注意事項、移轉程式。
 
-| 基底範本類型|baseTemplateId| 此基礎範本隨附的屬性 |
+| 基本範本類型|baseTemplateId| 此基本範本提供的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|品質與安全性|`com.microsoft.teams.template.QualitySafety` |管道 <ul><li>一般<li>公告</li><li>行1</li><li>第2行</li><li>第3行</li><li>安全</li><li>訓練</li><li>保養</li><li>有趣的內容</li></ul> 應用 <ul><li>Wiki</li><li>Planner</li></ul>|
+|品質和安全性|`com.microsoft.teams.template.QualitySafety` |頻道： <ul><li>一般<li>公告</li><li>第 1 行</li><li>第 2 行</li><li>第 3 行</li><li>安全</li><li>訓練</li><li>維護</li><li>有趣的專案</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

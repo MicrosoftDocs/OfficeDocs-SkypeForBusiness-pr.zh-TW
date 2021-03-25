@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃會議拓撲。
-ms.openlocfilehash: dc7c62d45a2ebd84f38cc67ce996ba0ac72aa794
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: acf1fecc4ab7c3ea19ca9b65b9ff2ffa2a1e93d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121581"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>規劃商務用 Skype Server 的會議拓撲
  
@@ -76,7 +76,7 @@ Web 會議需要下列專案：
 - 與 Office Web Apps Server/Office Online Server 整合，這是在會議期間共用 PowerPoint 檔案所需的。
     
 > [!NOTE]
-> Office Web Apps Server 的最新小小小，稱為 Office Online Server，它是由商務用 Skype Server 所支援。 如需詳細資訊，請參閱 [Office Online Server 檔](https://technet.microsoft.com/library/jj219456%28v=office.16%29.aspx)。 
+> Office Web Apps Server 的最新小小小，稱為 Office Online Server，它是由商務用 Skype Server 所支援。 如需詳細資訊，請參閱 [Office Online Server 檔](/officeonlineserver/office-online-server)。 
   
 商務用 Skype 伺服器提供下列方式來設定 Office Web Apps Server/Office Online Server。 視您的需求而定，您可以：
   
@@ -120,5 +120,3 @@ Web 會議需要下列專案：
 - 前端伺服器的負載平衡需要對 HTTP 流量 (例如「會議內容下載) 」的硬體負載平衡。 建議使用 DNS 負載平衡進行 SIP 流量。 如需詳細資訊，請參閱 [商務用 Skype 的負載平衡需求](../../plan-your-deployment/network-requirements/load-balancing.md)。 
     
 - 如果您想要針對專用的大型會議集區使用監控伺服器，我們建議使用監控伺服器及其在商務用 Skype Server 部署中的所有前端伺服器集區共用的資料庫。 如需詳細資訊，請參閱 [Plan for monitoring In 商務用 Skype Server](../../plan-your-deployment/monitoring.md)。
-    
-

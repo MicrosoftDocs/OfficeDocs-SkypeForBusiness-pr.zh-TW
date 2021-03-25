@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何設定商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: 21493a0d49281405b4d9d25d732f9c80c6c9dff4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f19998ad5d46074a1225ae0dd4d901bd367d823
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812773"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120382"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2019
  
@@ -62,7 +62,7 @@ ms.locfileid: "49812773"
 |作業系統  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |網路  <br/> |1 Gbps 的網路介面卡  <br/> |
    
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
 若要執行綜合交易觀察程式節點，您必須先安裝下列專案：
   
@@ -70,7 +70,7 @@ ms.locfileid: "49812773"
     
 -  Microsoft .NET Framework 4.5
     
-- 商務用 skype Server 核心安裝檔 ( # A0) 和整合通訊 Managed API (UCMA)  (版本必須符合商務用 Skype Server WatcherNode.msi 版本) 
+- 商務用 skype Server 核心安裝檔案 (OcsCore.msi) 和整合通訊 Managed API (UCMA)  (版本必須符合商務用 Skype Server WatcherNode.msi 版本) 
     
 ## <a name="files-in-this-monitoring-pack"></a>此監控套件中的檔案
 
@@ -126,7 +126,7 @@ ms.locfileid: "49812773"
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|1  <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |2   <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |3   <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |4   <br/> |目前狀態  <br/> |可用的 Lync Server 2010 及以上  <br/> |
@@ -151,7 +151,7 @@ ms.locfileid: "49812773"
 |10   <br/> |資料會議  <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |11   <br/> |立即訊息會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
 |12   <br/> | 常設聊天室 <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|13   <br/> |在排程的會議上加入啟動器 ()   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
+|13  <br/> |在排程的會議上加入啟動器 ()   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |14   <br/> |電話撥入式會議  <br/> |可用於商務用 Skype Server 2015 及以上 <br/> |
 |15   <br/> |應用程式共用會議  <br/> |可用於商務用 Skype Server 2015 及以上 <br/> |
 |16   <br/> |UCWA 會議 (web 會議加入)   <br/> |可用於商務用 Skype Server 2015 及以上 <br/> |
@@ -205,35 +205,35 @@ ms.locfileid: "49812773"
 
 下列連結可讓您連線至與 System Center 2012 Monitoring Pack 相關聯的常見工作資訊：
   
-- [管理套件生命週期](https://technet.microsoft.com/library/hh212732.aspx)
+- [管理套件生命週期](/previous-versions/system-center/system-center-2012-R2/hh212732(v=sc.12))
     
-- [如何在 Operations Manager 中匯入管理套件2012](https://technet.microsoft.com/library/hh212691.aspx)
+- [如何在 Operations Manager 中匯入管理套件2012](/previous-versions/system-center/system-center-2012-R2/hh212691(v=sc.12))
     
-- [如何覆寫規則或監視器](https://technet.microsoft.com/library/hh212869.aspx)
+- [如何覆寫規則或監視器](/previous-versions/system-center/system-center-2012-R2/hh212869(v=sc.12))
     
-- [如何在 Operations Manager 中建立執行身分帳戶2012](https://technet.microsoft.com/library/hh321655.aspx)
+- [如何在 Operations Manager 中建立執行身分帳戶2012](/previous-versions/system-center/system-center-2012-R2/hh321655(v=sc.12))
     
-- [管理執行方式帳戶和設定檔](https://technet.microsoft.com/library/hh212714.aspx)
+- [管理執行方式帳戶和設定檔](/previous-versions/system-center/system-center-2012-R2/hh212714(v=sc.12))
     
-- [如何匯出 Operations Manager 管理元件](https://technet.microsoft.com/library/hh320149.aspx)
+- [如何匯出 Operations Manager 管理元件](/previous-versions/system-center/system-center-2012-R2/hh320149(v=sc.12))
     
-- [如何移除 Operations Manager 管理元件](https://technet.microsoft.com/library/hh230746.aspx)
+- [如何移除 Operations Manager 管理元件](/previous-versions/system-center/system-center-2012-R2/hh230746(v=sc.12))
     
 下列連結可讓您連線至與 System Center 2007 Monitoring Pack 相關聯的常見工作資訊：
   
-- [管理套件生命週期](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [管理套件生命週期](/previous-versions/system-center/operations-manager-2007-r2/cc974486(v=technet.10))
     
-- [如何在 Operations Manager 中匯入管理套件2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [如何在 Operations Manager 中匯入管理套件2007](/previous-versions/system-center/operations-manager-2007-r2/cc974494(v=technet.10))
     
-- [如何使用覆寫進行監視](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [如何使用覆寫進行監視](/previous-versions/system-center/operations-manager-2007-r2/bb309719(v=technet.10))
     
-- [如何在 Operations Manager 中建立執行身分帳戶2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [如何在 Operations Manager 中建立執行身分帳戶2007](/previous-versions/system-center/operations-manager-2007-r2/bb309445(v=technet.10))
     
-- [如何修改現有的執行方式設定檔](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [如何修改現有的執行方式設定檔](/previous-versions/system-center/operations-manager-2007-r2/dd891202(v=technet.10))
     
-- [如何匯出管理套件自訂](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [如何匯出管理套件自訂](/previous-versions/system-center/operations-manager-2007-r2/cc974487(v=technet.10))
     
-- [如何移除管理套件](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [如何移除管理套件](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
 如需 Operations Manager 和監控套件的相關問題，請參閱 [System Center Operations Manager 社區論壇](https://go.microsoft.com/fwlink/p/?LinkID=179635)。
   

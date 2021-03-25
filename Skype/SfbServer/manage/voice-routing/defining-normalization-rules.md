@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換為商務用 Skype 伺服器內部所用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
-ms.openlocfilehash: d4e248dc9b814610df544bca9d932a29756a80b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1be34e5c40a4da4e9def4de294ece134f2fe229d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823373"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120915"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>在商務用 Skype Server 中定義正常化規則
 
 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換為商務用 Skype 伺服器內部所用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
 
-如需正規化規則的詳細資訊，請參閱撥號對應表 [和正常化規則](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx)。
+如需正規化規則的詳細資訊，請參閱撥號對應表 [和正常化規則](/previous-versions/office/lync-server-2013/lync-server-2013-dial-plans-and-normalization-rules)。
 
-如需如何撰寫正則運算式的詳細資訊，請參閱 [.Net Framework 正則運算式](https://go.microsoft.com/fwlink/p/?linkId=140927)。
+如需如何撰寫正則運算式的詳細資訊，請參閱 [.Net Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)。
 
 您可以使用下列其中一種方法來定義或編輯正規化規則：
 - [使用 [ **建立正規化規則** ] 工具](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) 來指定起始數位、長度、要移除的數位和要新增的數位的值，然後讓商務用 Skype Server 控制台產生對應的符合模式和轉譯規則。
@@ -36,9 +36,9 @@ ms.locfileid: "49823373"
 
 **使用組建正常化規則定義規則**
 
-1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx)。
+1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
 2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱 [Install and open the 系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
-3.  (選用) 遵循步驟 11 [建立撥號](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) 對應表中的步驟，或透過步驟 10 [修改撥號](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) 對應表。 
+3.  (選用) 遵循步驟 11 [建立撥號](../../deploy/deploy-enterprise-voice/dial-plans.md#to-create-a-dial-plan) 對應表中的步驟，或透過步驟 10 [修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md#to-modify-a-dial-plan) 對應表。 
 4. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如， **5DigitExtension**) 。
 5.  (選用) 在 [ **描述**] 中，輸入正規化規則的描述 (例如，「轉譯5位數分機」 ) 。
 6. 在 [ **建立正規化規則**] 中，在下欄欄位中輸入值：
@@ -60,13 +60,13 @@ ms.locfileid: "49823373"
 8.  (選用) 如果正規化規則會產生您組織內部的電話號碼，請選取 [ **內部分機**]。
 9.  (選用) 請輸入號碼以測試正規化規則，然後按一下 [ **移至**]。 測試結果會顯示在 [ **輸入要測試的號碼**] 底下。
     > [!Note] 
-    > 您可以儲存尚未通過測試的正規化規則，然後稍後再加以重新設定。 如需詳細資訊，請參閱 [測試語音路由](https://technet.microsoft.com/library/gg398915(v=ocs.15).aspx)。 
+    > 您可以儲存尚未通過測試的正規化規則，然後稍後再加以重新設定。 如需詳細資訊，請參閱 [測試語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。 
 
 10. 按一下 **[確定]** 儲存正規化規則。
 11. 按一下 **[確定]** 儲存撥號對應表。
 12. 在 [ **撥號** 對應表] 頁面上，按一下 [ **認可**]，然後按一下 [ **全部認可**]。 
     > [!Note]
-    > 當您建立或變更正規化規則時，您必須執行 [全部認可] 命令來發佈設定變更。 如需詳細資訊，請參閱 [將擱置的變更發佈至語音路由](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx)設定。 
+    > 當您建立或變更正規化規則時，您必須執行 [全部認可] 命令來發佈設定變更。 如需詳細資訊，請參閱 [將擱置的變更發佈至語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration)設定。 
 
 ## <a name="create-or-modify-a-normalization-rule-manually"></a>手動建立或修改正規化規則
 
@@ -74,7 +74,7 @@ ms.locfileid: "49823373"
 
 **手動定義正常化規則**
 
-1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx)。
+1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
 2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱 [Install and open the 系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3.  (選用) 遵循步驟 11 [建立撥號](GET LINK AFTER MIGRATION) 對應表中的步驟，或透過步驟 10 [修改撥號](GET LINK AFTER MIGRATION) 對應表。  
 4. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，將正規化規則名稱 **5DigitExtension**) 。
@@ -90,8 +90,8 @@ ms.locfileid: "49823373"
 9.  (選用) 請輸入號碼以測試正規化規則，然後按一下 [ **移至**]。 測試結果會顯示在 [ **輸入要測試的號碼**] 底下。
 
     > [!Note]
-    > 您可以儲存尚未通過測試的正規化規則，然後稍後再加以重新設定。 如需詳細資訊，請參閱 [測試語音路由](https://technet.microsoft.com/library/gg398915(v=ocs.15).aspx)。 
+    > 您可以儲存尚未通過測試的正規化規則，然後稍後再加以重新設定。 如需詳細資訊，請參閱 [測試語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。 
 
 10. 按一下 **[確定]** 儲存正規化規則。
 11. 按一下 **[確定]** 儲存撥號對應表。
-12. 在 [ **撥號** 對應表] 頁面上，按一下 [ **Commi** t]，然後按一下 [ **全部認可**]。 
+12. 在 [ **撥號** 對應表] 頁面上，按一下 [ **Commi** t]，然後按一下 [ **全部認可**]。

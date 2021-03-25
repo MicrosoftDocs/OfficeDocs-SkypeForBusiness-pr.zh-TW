@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，並將該電腦設定為系統中心 proxy。
-ms.openlocfilehash: 08328e430acd4fa651fccd89b827d5c103066dd1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4fd616b661f25b4414625654a645469fd44620f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806073"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120474"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>設定要監控的商務用 Skype 伺服器電腦
 
@@ -29,7 +29,7 @@ ms.locfileid: "49806073"
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>將憑證安裝在位於周邊網路外的監看員節點上
 <a name="watcher_node_outside"> </a>
 
-在周邊網路中執行的 System Center Operations Manager 代理 (例如商務用 Skype Server Edge Server)  (，例如外部綜合交易觀察器節點) 或透過 Active Directory 信任界限內，可能需要設定 System Center Operations Manager 閘道伺服器。 此伺服器角色可讓代理程式與根管理伺服器之間不具有信任關係，以引發警示。 如需詳細資訊，請參閱 [管理 Operations Manager 中的閘道伺服器 2012](https://technet.microsoft.com/library/hh212823.aspx)。
+在周邊網路中執行的 System Center Operations Manager 代理 (例如商務用 Skype Server Edge Server)  (，例如外部綜合交易觀察器節點) 或透過 Active Directory 信任界限內，可能需要設定 System Center Operations Manager 閘道伺服器。 此伺服器角色可讓代理程式與根管理伺服器之間不具有信任關係，以引發警示。 如需詳細資訊，請參閱 [管理 Operations Manager 中的閘道伺服器 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))。
 
 如果您在這些位置中的其中一個位置部署代理程式，您也需要要求及設定憑證，以啟用監看員節點，將提醒傳送至 System Center Operations Manager。 為了簡化這個程序，Operations Manager 團隊已建立一套公用程式，讓您要求正確類型的憑證，並安裝於監控程式節點電腦上。 如需詳細資訊，以及若要下載這些公用程式，請參閱 [使用憑證產生嚮導輕鬆取得未加入網域之代理程式的憑證](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)。
 
@@ -79,5 +79,3 @@ Get-SCOMAgent
 5. 成功推入代理程式的電腦會顯示在「代理程式管理」清單下，並以手動方式安裝代理人的電腦顯示在 [擱置的管理] 下，按一下 [電腦名稱稱] 並按 [核准]。
 
 6. 在電腦名稱上按一下滑鼠右鍵，然後按一下 [內容]。 在 [內容] 對話方塊的 [安全性] 索引標籤上，選取 [ **允許此代理程式成為 proxy 並探索其他電腦上的 managed 物件**]，然後按一下 **[確定]**。
-
-

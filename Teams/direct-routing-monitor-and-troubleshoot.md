@@ -15,74 +15,74 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何監視和疑難排解直接路由設定，包括會話邊界控制器、直接路由元件，以及電信 trunks。
+description: 瞭解如何監控和疑難排解直接路由組組，包括會話邊界控制器、直接路由元件和電信主幹。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 52ab594b901606ccf7c3b43fc8484d989c248fcd
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 74a67493fa2f9647e6cd0364bb4c9d6a3c05e48a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901908"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121401"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>監視和疑難排解直接路由
 
-本文說明如何監視和疑難排解直接路由設定。 
+本文將說明如何監控和疑難排解您的直接路由配置。 
 
-使用直接路由撥打及接聽電話的功能，包括下列元件： 
+使用直接路由撥打和接聽電話的能力涉及下列元件： 
 
-- 會話邊界控制器（SBCs） 
-- Microsoft 雲端中的直接路由元件 
-- 電信 trunks 
+- 會話邊界控制器 (SBC)  
+- Microsoft Cloud 中的直接路由元件 
+- 電信主幹 
 
-如果您遇到疑難排解問題，您可以在您的 SBC 轉銷商或 Microsoft 開啟支援案例。 
+如果您有疑難排解問題，您可以向 SBC 廠商或 Microsoft 開啟支援案例。 
 
-Microsoft 正在努力提供更多工具以進行疑難排解及監視。 請定期查看檔以取得更新。 
+Microsoft 正在努力提供更多疑難排解和監控工具。 請定期檢查檔以尋找更新。 
 
-## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>使用會話初始通訊協定（SIP）選項訊息監視會話邊界控制器的可用性
+## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>使用會話初始通訊協定監控會話邊界控制器的可用性 (SIP) 訊息
 
-[直接路由]：使用由會話邊界控制器傳送的 SIP 選項來監視 SBC 健康情況。 租使用者管理員無需執行任何動作，即可啟用 SIP 選項監視。 建立路由決定時，會考慮收集的資訊。 
+直接路由使用會話邊界控制器傳送的 SIP 選項來監控 SBC 健康情況。 租使用者系統管理員不需要執行任何動作來啟用 SIP 選項監控。 在做出路由決策時，會考慮收集的資訊。 
 
-例如，如果您針對特定使用者提供數種可路由通話的 SBCs，直向路由會考慮從每個 SBC 接收的 SIP 選項資訊來判斷路由。 
+例如，如果針對特定使用者，有幾個 SBC 可以路由通話，則直接路由會考慮從每個 SBC 收到的 SIP 選項資訊，以決定路由。 
 
-下圖顯示配置範例： 
+下圖顯示組組範例： 
 
-![SIP 選項配置範例](media/sip-options-config-example.png)
+![SIP 選項群組組範例](media/sip-options-config-example.png)
 
-當使用者撥打電話給 number + 1 425 \<時，任何七位數>，直向路由會評估路由。 路由中有兩個 SBCs： sbc1.contoso.com 和 sbc2.contoso.com。 兩個 SBCs 在路由中都有相同的優先順序。 在挑選 SBC 前，路由機制會根據 SBC 每次傳送 SIP 選項的時間來評估 SBCs 的健康情況。 
+當使用者撥打號碼 +1 425 \<any seven digits> 時，直接路由會評估路由。 路由有兩個 SBC：sbc1.contoso.com 和 sbc2.contoso.com。 這兩個 SBC 在路由中具有相等的優先順序。 挑選 SBC 之前，路由機制會根據 SBC 上次傳送 SIP 選項的時間，評估 SBC 的健康情況。 
 
-如果傳送通話時的統計資料顯示 SBC 每分鐘傳送選項，則會被視為健康情況。  
+如果傳送通話時的統計資料顯示 SBC 每分鐘傳送選項，則 SBC 會視為健康狀態。  
 
-撥打電話時，會套用下列邏輯：
+進行通話時，會採用下列邏輯：
 
-- SBC 已成對 11:00 AM。  
-- SBC 會在 11:01 AM、11:02 AM 等的時間傳送選項。  
-- 在11:15，使用者撥打電話，而路由機制則會選取這個 SBC。 
+- SBC 在上午 11：00 配對。  
+- SBC 會于上午 11：01、上午 11：02 等傳送選項。  
+- 在 11：15，使用者進行通話，而路由機制會選取此 SBC。 
 
-[直接傳送] 會將週期性間隔選項分為三次（定期間隔為1分鐘）。 如果在過去三分鐘內傳送選項，則會認為 SBC 健康。
+直接路由會採用三次定期間隔選項 (而一般間隔為一分鐘) 。 如果選項是在過去三分鐘內傳送的，則 SBC 會視為健康狀態。
 
-如果範例中的 SBC 在 11:12 AM 和 11:15 AM 之間（撥打的時間），則會被視為健康情況。 如果不是，則 SBC 將會從路由中降級。 
+如果範例中的 SBC 在上午 11：12 到上午 11：15 (通話時間) 之間，會被視為健康狀態。 如果沒有，SBC 將會從路由降級。 
 
-[降級] 表示不會先嘗試使用 SBC。 例如，我們有同等優先順序的 sbc1.contoso.com 和 sbc2.contoso.com。  
+降級表示不會先嘗試 SBC。 例如，我們有一 sbc1.contoso.com sbc2.contoso.com 優先順序。  
 
-如果 sbc1.contoso.com 未依先前所述的定期間隔傳送 SIP 選項，則會將它降級。 接著，sbc2.contoso.com 通話的嘗試。 如果 sbc2 無法傳送通話，則會在產生失敗前再次嘗試 sbc1.contoso.com （降級）。 
+如果 sbc1.contoso.com 未如先前所述定期傳送 SIP 選項，系統即會降級。 接下來，sbc2.contoso.com 通話。 如果 sbc2.contoso.con 無法傳遞通話，系統 sbc1.contoso.com (降級) 再試一次，然後再產生失敗。 
 
-如果在一個路線中有兩個（或多個） SBCs 是正常且相等的，則會套用 Fisher Yates 隨機播放，在 SBCs 間散佈通話。
+如果 (一個路由) 兩個或多個 SBCs 視為健康且相等，Fisher-Yates隨機播放會用於在 SBCs 之間分配通話。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>監控通話品質分析儀表板和 SBC 記錄 
  
-在某些情況下，特別是在初次配對期間，可能會發生有關 SBCs 或直接路由服務的錯誤配置問題。 
+在某些情況下，尤其是在初始配對期間，SBCs 或直接路由服務可能發生配置錯誤的問題。 
 
-您可以使用下列工具來監視您的設定：  
+您可以使用下列工具來監控您的組組：  
  
 - 通話品質儀表板 
 - SBC 記錄 
 
-直連路由服務會有一個描述為呼叫分析或 SBC 記錄的明顯的錯誤代碼。 
+直接路由服務有非常描述性的錯誤碼，會報告給通話分析或 SBC 記錄。 
 
-通話品質儀表板提供通話品質與可靠性的相關資訊。 若要進一步瞭解如何使用通話分析進行疑難排解，請參閱[開啟與使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)，並[使用呼叫分析來排查不佳的通話品質](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)問題。 
+通話品質儀表板提供有關通話品質和可靠性的資訊。 若要深入瞭解如何使用通話分析疑難排解問題，請參閱開啟並使用 [Microsoft Teams](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) 和商務用 Skype Online 的通話品質儀表板，以及使用通話分析來疑難排解通話品質 [不佳的問題](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
 
-如果通話失敗，通話分析提供標準 SIP 代碼，協助您進行疑難排解。 
+如果通話失敗，通話分析會提供標準 SIP 代碼，可協助進行疑難排解。 
 
-![通話失敗的 SIP 代碼範例](media/failed-response-code.png)
+![通話失敗範例 SIP 代碼](media/failed-response-code.png)
 
-不過，通話分析只會在來電到達直接路由的內部元件並失敗時加以協助。 如果 SBC 配對發生問題，或 SIP 「Invite」遭到拒絕的問題（例如，幹線 FQDN 的名稱未正確設定），通話分析將無法提供協助。 在這種情況下，請參閱 SBC 記錄。 直接路由會將問題的詳細描述傳送到 SBCs;您可以從 SBC 記錄中讀取這些問題。 
+不過，通話分析只有在通話到達直接路由的內部元件並失敗時，才能有所説明。 如果 SBC 配對發生問題，或 SIP "Invite" 遭到拒絕的問題 (例如，主幹 FQDN 的名稱未正確) ，通話分析將無法解決問題。 在此案例中，請參閱 SBC 記錄。 直接路由會傳送問題的詳細描述給 SBC;這些問題可以從 SBC 記錄中讀取。

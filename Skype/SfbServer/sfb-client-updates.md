@@ -1,5 +1,5 @@
 ---
-title: 使用 Windows Installer （MSI）之商務用 Skype 的最新版本更新
+title: 使用 Windows Installer (MSI) 的商務用 Skype 版本的最新更新
 ms.author: phillipg
 author: PhillipGarding
 manager: serdars
@@ -12,33 +12,33 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 為 IT 專業人員提供有關永久版本的商務用 Skype 2016、商務用 Skype 2015 和 Lync 2013 用戶端的最新更新資訊連結。
-ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: aef180d6d816c3efa8c3a193d54a34ed9248b34a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221877"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121571"
 ---
-# <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer （MSI）之商務用 Skype 的最新版本更新
+# <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的商務用 Skype 版本的最新更新
 
 使用此頁面上的連結，可取得與下載永久版本的商務用 Skype 2016、商務用 Skype 2015 和 Lync 2013 用戶端最新更新的詳細資訊。
 
 > [!NOTE]
-> - 本文中的資訊僅適用于使用 Windows Installer （MSI）安裝技術的永久版本商務用 Skype。 例如，如果您已安裝商務用 Skype 的大量授權版本，例如 Office Professional Plus 2016 隨附的商務用 Skype。
+> - 本文中的資訊僅適用于使用 Windows Installer (MSI) 安裝技術的永久商務用 Skype 商務用 Skype 版本。 例如，如果您已安裝商務用 Skype 的大量授權版本，例如 Office Professional Plus 2016 隨附的商務用 Skype。
 > - 本文中的資訊不適用於商務用 Skype 的 Microsoft 365 或 Office 365 版本，例如包含 Microsoft 365 應用程式的商務用 Skype For enterprise。
-> - 如需最新的行動用戶端更新，請移至行動用戶端（iTunes、Google Play 或 Microsoft Store）的應用程式存放區，以查看詳細資料並安裝更新。
+> - 若要取得最新的行動用戶端更新，請移至行動用戶端的應用程式存放區 (iTunes、Google Play 或 Microsoft Store) 以查看詳細資料並安裝更新。
 > - 若要找出您所使用的商務用 Skype 版本，請參閱[我擁有哪一個版本的商務](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)用 skype？
 > - 如需如何安裝 Office 更新的詳細資訊，請參閱[安裝 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。
 
 與 Microsoft 365 或 Office 365 和您的內部部署環境的商務用 Skype 相容性取決於您的部署的系統需求：
 
-- Microsoft 365 和 Office 365 可使用位於主流支援（包含最新版商務用 Skype 2016）的任何版本的商務用 Skype。 在舊版商務用 Skype 中，只有具有擴充支援的版本可以繼續使用 Microsoft 365 或 Office 365，但功能會變少。 如需詳細資訊，請參閱[Microsoft 生命週期原則](https://support.microsoft.com/lifecycle)。
+- Microsoft 365 和 Office 365 可使用位於主流支援（包含最新版商務用 Skype 2016）的任何版本的商務用 Skype。 在舊版商務用 Skype 中，只有具有擴充支援的版本可以繼續使用 Microsoft 365 或 Office 365，但功能會變少。 如需詳細資訊，請參閱 [Microsoft 生命週期原則](https://support.microsoft.com/lifecycle)。
 
 - 若為商務用 Skype Server 內部部署，請遵循您的商務用 Skype 版本的系統需求：
 
-  - [商務用 Skype 環境的需求](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [商務用 Skype 環境的需求](./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)
 
-  - [Lync Server 2013 系統需求](https://technet.microsoft.com/library/jj205115(v=ocs.15).aspx)
+  - [Lync Server 2013 系統需求](/previous-versions/office/lync-server-2013/lync-server-2013-system-requirements)
 
 ## <a name="skype-for-business-2016-client-updates"></a>商務用 Skype 2016 用戶端更新
 - [商務用 Skype 2016 的最新更新](https://support.microsoft.com/help/3123065/how-to-obtain-the-latest-update-for-skype-for-business-2016)
@@ -237,11 +237,11 @@ ms.locfileid: "44221877"
 | Aastra 6721ip 和 Aastra 6725ip 電話機的 Lync Phone Edition 累計更新                            | [KB 3050585](https://support.microsoft.com/kb/3050585)   | 2015 年 5 月     |
 | 適用于 HP 4110 和 HP 4120 電話的 Lync Phone Edition 累計更新                                        | [KB 3050587](https://support.microsoft.com/kb/3050587)   | 2015 年 5 月     |
 | Polycom CX500、Polycom CX600 和 Polycom 的 Lync Phone Edition 累計更新 CX3000                      | [KB 3050588](https://support.microsoft.com/kb/3050588)   | 2015 年 5 月     |
-| Lync Phone Edition 的累計更新，適用于 Polycom CX700 和 LG Nortel IP 電話8540電話                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | 2015 年 5 月     |
+| Polycom CX700 的 Lync Phone Edition 累計更新，以及 LG-Nortel 的 IP 電話8540電話                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | 2015 年 5 月     |
 | Aastra 6721ip 和 Aastra 6725ip 電話機的 Lync Phone Edition 累計更新                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | 2014 年 4 月   |
 | 適用于 HP 4110 和 HP 4120 電話的 Lync Phone Edition 累計更新                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | 2014 年 4 月   |
 | Lync Phone Edition 的累計更新，適用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 電話           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | 2014 年 4 月   |
-| Lync Phone Edition 的累計更新，適用于 Polycom CX700 和 LG Nortel IP 電話8540電話                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014 年 4 月   |
+| Polycom CX700 的 Lync Phone Edition 累計更新，以及 LG-Nortel 的 IP 電話8540電話                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014 年 4 月   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>下載中心上的 Lync Phone Edition 用戶端
 
@@ -249,14 +249,14 @@ ms.locfileid: "44221877"
 |:--- |:--- |:--- |
 |[HP 4110 和 HP 4120 的 Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=28158) | 2017 年 4 月 |
 |[Lync Phone Edition for Polycom CX500，Polycom CX600 和 Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | 2017 年 4 月 |
-|[Lync Phone Edition for Polycom CX700 和 LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | 2015 年 12 月 |
+|[Polycom CX700 的 Lync Phone Edition，以及 LG-Nortel 的 IP 電話8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | 2015 年 12 月 |
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 軟體
 
 套件名稱：|發行日期|
 |:--- |:--- |:--- |
-|[Lync Basic 2013 （32-位）](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
-|[Lync Basic 2013 （64-位）](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |
+|[Lync Basic 2013 (32-位) ](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
+|[Lync Basic 2013 (64-位) ](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |
 
 * * *
 
@@ -292,22 +292,22 @@ ms.locfileid: "44221877"
 
 套件名稱：|KB 號碼|發行日期|
 |:--- |:--- |:--- |
-|Lync 2010 出席者的安全性更新（系統管理員層級安裝） |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 9 月|
-|Lync 2010 出席者的安全性更新（系統管理員層級安裝） |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 6 月|
-|Lync 2010 出席者的安全性更新（使用者層級安裝） |[KB 4020734](https://support.microsoft.com/kb/4020734) |2017 年 6 月|
-|Lync 2010 出席者的 Microsoft Graphics Component 安全性更新（系統管理員層級安裝） |[KB 4010301](https://support.microsoft.com/kb/4010301) |2017 年 3 月|
-|Lync 2010 出席者的安全性更新（系統管理員層級安裝） |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016 年 10 月|
+|Lync 2010 出席者的安全性更新 (系統管理員層級安裝)  |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 9 月|
+|Lync 2010 出席者的安全性更新 (系統管理員層級安裝)  |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 6 月|
+|Lync 2010 出席者的安全性更新 (使用者層級安裝)  |[KB 4020734](https://support.microsoft.com/kb/4020734) |2017 年 6 月|
+|Lync 2010 出席者上的 Microsoft Graphics Component 安全性更新 (系統管理員層級安裝)  |[KB 4010301](https://support.microsoft.com/kb/4010301) |2017 年 3 月|
+|Lync 2010 出席者的安全性更新 (系統管理員層級安裝)  |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016 年 10 月|
 |Lync 2010 出席者系統管理員層級安裝的累計更新描述 |[KB 3171502](https://support.microsoft.com/kb/3171502)|2016 年 6 月 |
 |Lync 2010 出席者使用者層級安裝的累計更新描述 |[KB 3171496](https://support.microsoft.com/kb/3171496) |2016 年 6 月 |
-|Lync 2010 出席者的安全性更新（系統管理員層級安裝） |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015 年 9 月 |
-|Lync 2010 出席者的安全性更新（使用者層級安裝） |[KB 3081088](https://support.microsoft.com/kb/3081088) |2015 年 9 月 |
+|Lync 2010 出席者的安全性更新 (系統管理員層級安裝)  |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015 年 9 月 |
+|Lync 2010 出席者的安全性更新 (使用者層級安裝)  |[KB 3081088](https://support.microsoft.com/kb/3081088) |2015 年 9 月 |
 
-### <a name="attendant"></a>服務員
+### <a name="attendant"></a>語音應答
 
 | **套件名稱/連結**                                                                       | 發行日期  |
 |:--------------------------------------------------------------------------------------------|:--------------|
-| [Lync 2010 語音應答（32位）](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
-| [Lync 2010 語音應答（64位）](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
+| [Lync 2010 語音應答 (32 位) ](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
+| [Lync 2010 語音應答 (64 位) ](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
 
 ### <a name="attendee"></a>出席者
 

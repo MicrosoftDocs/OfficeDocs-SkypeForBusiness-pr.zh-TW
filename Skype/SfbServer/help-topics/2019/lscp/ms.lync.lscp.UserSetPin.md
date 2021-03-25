@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要產生使用者的 PIN 碼，請選取 [自動產生有效的 PIN]。
-ms.openlocfilehash: 1c5fc9cf8895e933217e7bb442311f51f41fbaa3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a57fee990e6732ba13a87d7f1de064a5e526b238
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824583"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122047"
 ---
 # <a name="set-pin"></a>設定 PIN
 
@@ -32,4 +32,4 @@ ms.locfileid: "49824583"
 
 ## <a name="see-also"></a>另請參閱
 
-[使用者 Pin](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
+[使用者 Pin](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

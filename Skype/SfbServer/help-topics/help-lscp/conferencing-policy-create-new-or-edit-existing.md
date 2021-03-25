@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 會議原則定義使用者在會議 (又稱為會議) 時可用的功能和功能。
-ms.openlocfilehash: bd4a813bf8b46c9c8dade72318cb003fb97f2a96
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 073019a46e2934f78ec0f20b8a7cb8e04c01bab9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807453"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121016"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>會議原則：建立新的或編輯現有原則
 
@@ -107,6 +107,4 @@ ms.locfileid: "49807453"
     > [!NOTE]
     > [ **允許多個影片資料流程** ] 決定會議是否允許多個影片資料流程。
 
-如需會議功能及功能的詳細資訊，請參閱規劃檔中的 [會議綜述](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) 。 如需使用會議原則的詳細資訊，請參閱 Operations 檔中的 [會議原則](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) 。
-
-
+如需會議功能及功能的詳細資訊，請參閱規劃檔中的 [會議綜述](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) 。 如需使用會議原則的詳細資訊，請參閱 Operations 檔中的 [會議原則](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) 。

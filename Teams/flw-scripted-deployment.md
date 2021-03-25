@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909367"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120744"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
@@ -190,7 +190,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 #### <a name="steps-to-create-teams-message-policies"></a>建立 Teams 訊息原則的步驟
 
 1. 在存放庫的 scripts 資料夾中，尋找 **TeamsMessagingPolicies.csv** 檔案。
-1. 使用您組織的特定資訊更新 **TeamsMessagingPolicies.csv** 檔案。 您可以在[這裡](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings)找到一些不同選項的詳細資訊。
+1. 使用您組織的特定資訊更新 **TeamsMessagingPolicies.csv** 檔案。 您可以在[這裡](./messaging-policies-in-teams.md#messaging-policy-settings)找到一些不同選項的詳細資訊。
 1. 在存放庫的 scripts 資料夾中，尋找 **CreateTeamsMessagePolicies.ps1**。
 1. 從 PowerShell，執行 **CreateTeamsMessagePolicies.ps1** 指令碼。
 
@@ -211,7 +211,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>建立一線管理員的應用程式設定原則
 
-您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)。
+您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。  
@@ -235,7 +235,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>建立一線員工的應用程式設定原則
 
-您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)。
+您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。
@@ -297,8 +297,8 @@ Connect-MicrosoftTeams -Credential $teams_cred
 若要在 Teams 中與大量使用者合作，您必須先在 Azure AD 中建立使用者。 佈建大量使用者的方法有很多種，但我們會著重說明以下內容：
 
 - 如果這些使用者已存在於下列其中一個 HR 系統中，請使用下列連結來設定使用者佈建：
-  - SAP 成功因素 - [教學課程：將 SAP SuccessFactors 設定為 Active Directory 使用者佈建](https://docs.microsoft.com/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial)。
-  - Workday - [教學課程：設定 Workday 以自動佈建使用者](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial)。
+  - SAP 成功因素 - [教學課程：將 SAP SuccessFactors 設定為 Active Directory 使用者佈建](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial)。
+  - Workday - [教學課程：設定 Workday 以自動佈建使用者](/azure/active-directory/saas-apps/workday-inbound-tutorial)。
 - 如果其他系統中有您的使用者資訊，請繼續執行下列步驟。
 
 若要以更有效率的方式管理大量使用者，您必須為一線員工和一線管理者建立兩個安全性群組，並按照下列步驟將這些使用者直接佈建到安全性群組：
@@ -310,7 +310,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在存放庫的 scripts 資料夾中，尋找 **SecurityGroups.csv** 檔案。
 1. 使用您組織的特定安全性群組資訊更新 **SecurityGroups.csv** 檔案。
     1. 請務必更新 **[MessagePolicy]**、**[AppPermissionPolicy]** 和 **[AppSetupPolicy]** 欄位，以對應您之前建立的適當原則。
-    1. 請務必更新 **[LicensePlan]** 欄位，以反映您要如何將授權提供給每位使用者。 如需產品名稱與服務方案識別碼的詳細資訊，請參閱[此處](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)的文件。
+    1. 請務必更新 **[LicensePlan]** 欄位，以反映您要如何將授權提供給每位使用者。 如需產品名稱與服務方案識別碼的詳細資訊，請參閱[此處](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)的文件。
 1. 從 PowerShell，執行資產中的 **CreateUsers.ps1** 指令碼。
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>透過群組型授權將授權指派給使用者
@@ -379,7 +379,7 @@ Microsoft 付費雲端服務 (例如 Microsoft 365、Office 365、Enterprise Mob
 
 ## <a name="further-reading"></a>深入閱讀
 
-- [新增團隊頻道 (Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [新增 Teams 訊息原則 (Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [新增團隊頻道 (Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [新增 Teams 訊息原則 (Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [在 Microsoft Teams 中將原則指派給使用者](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
-- [使用 Office 365 PowerShell 指派授權和使用者帳戶](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [使用 Office 365 PowerShell 指派授權和使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

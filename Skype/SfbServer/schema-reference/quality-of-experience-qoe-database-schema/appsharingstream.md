@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表格包含用於應用程式共用之網路資料流程的經驗品質計量。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: 675b4ef689b62577cbee1cef93a28865ca09abfe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809673"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120875"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表格
  
@@ -28,7 +28,7 @@ AppSharingStream 表格包含用於應用程式共用之網路資料流程的經
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |Datetime  <br/> |主要、外部  <br/> |會話開始的日期與時間。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主要、外部  <br/> |用來區分在相同日期和同一時間開始之會話的連續識別碼。  <br/> |
-|**MediaLineLabel** <br/> |Tinyint  <br/> |主要，外部  <br/> | 請參閱 [MediaLine Table](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)。 <br/> |
+|**MediaLineLabel** <br/> |Tinyint  <br/> |主要，外部  <br/> | 請參閱 [MediaLine Table](./medialine-0.md)。 <br/> |
 |**StreamID** <br/> |int  <br/> |主要  <br/> |應用程式共用資料流程的唯一識別碼。  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||在 RTP 封包抵達之間偵測到的平均抖動。  (抖動是指通話的 "shakiness" 量值。 ) 高抖動值通常是由擁塞或超載的媒體伺服器所造成，而且會產生失真或遺失的音訊。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||在 RTP 封包抵達之間偵測到的最大抖動。  (抖動是指通話的 "shakiness" 量值。 ) 高抖動值通常是由擁塞或超載的媒體伺服器所造成，而且會產生失真或遺失的音訊。  <br/> |
@@ -126,5 +126,3 @@ AppSharingStream 表格包含用於應用程式共用之網路資料流程的經
 |**入境** <br/> |位  <br/> ||輸入傳輸的平均每秒幀 () 的平均框架速率。  <br/> |
 |**出境** <br/> |位  <br/> ||輸出傳輸) 每秒幀中 (的平均框架速率。  <br/> |
 |**SenderIsCallerPAI** <br/> |位  <br/> ||1表示資料流程的方向從來電者到被叫方。  <br/> 0表示資料流程方向從被叫方傳送給來電者。  <br/> |
-   
-

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 受信任的使用者是指其認證已由商務用 Skype Server 中的受信任伺服器驗證的使用者。 在大部分的情況下，此伺服器可能是 Standard Edition Server、Enterprise Edition 前端伺服器或 Director。 商務用 Skype 伺服器依賴 Active Directory 網域服務做為使用者認證的單一、信任的後端存放庫。
-ms.openlocfilehash: bf0bde8478cd6c4e2eb068ffade7fba7fac14d56
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 544b661523bea73d65d64946d7bb88d4c6ecaa51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832003"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120885"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>商務用 Skype Server 的使用者和用戶端驗證
  
@@ -50,7 +50,7 @@ ICE 和 TURN 通訊協定也會使用 IETF TURN RFC 中所述的摘要式挑戰�
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>由於 ASP .NET 4.5 的加密需求 
 
-在商務用 Skype Server 2015 CU5 中，不支援 ASP.NET 4.6 的 AES，這可能會導致 Skype 會議應用程式無法啟動。 如果用戶端使用 AES 做為電腦金鑰驗證值，您需要在 IIS 的 Skype 會議應用程式網站層級將電腦金鑰值重設為 SHA-1 或其他支援的演算法。 如有必要，請參閱 [IIS 8.0 ASP.NET 設定管理](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) 以取得指示。
+在商務用 Skype Server 2015 CU5 中，不支援 ASP.NET 4.6 的 AES，這可能會導致 Skype 會議應用程式無法啟動。 如果用戶端使用 AES 做為電腦金鑰驗證值，您需要在 IIS 的 Skype 會議應用程式網站層級將電腦金鑰值重設為 SHA-1 或其他支援的演算法。 如有必要，請參閱 [IIS 8.0 ASP.NET 設定管理](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) 以取得指示。
   
 其他支援的值包括：
   
@@ -61,4 +61,3 @@ ICE 和 TURN 通訊協定也會使用 IETF TURN RFC 中所述的摘要式挑戰�
 - HMACSHA512
     
   不允許使用 AES、3DES 和 MD5 值，就像在 ASP.NET 4 中那樣。 [ASP.NET 4.5，pt 中的加密增強功能](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) 會有更多詳細資料。
-  

@@ -1,5 +1,5 @@
 ---
-title: 針對 Google Workspace 設定 Microsoft 團隊會議附加元件
+title: 設定 Google Workspace 的 Microsoft Teams 會議附加元件
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: 瞭解如何設定 Google Workspace 的 Microsoft 團隊會議附加元件。
+description: 瞭解如何設定 Google Workspace 的 Microsoft Teams 會議附加元件。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -18,40 +18,40 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c86d707a4298d88d3ae0cff389bda73490390e4
-ms.sourcegitcommit: 380cd74c08cd34e1c3f73f5c0f51da4ae2674f6f
+ms.openlocfilehash: 6e1b7024190ac51b89e09fafced86ffea13f5961
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880868"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120694"
 ---
-# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>針對 Google Workspace 設定 Microsoft 團隊會議附加元件
+# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>設定 Google Workspace 的 Microsoft Teams 會議附加元件
 
-使用 Microsoft 團隊會議附加元件可讓 Google 行事曆使用者從 Google Workspace 直接排程並加入 Microsoft 團隊會議。 使用者將能夠存取團隊會議功能，包括影片和音訊會議、螢幕共用、會議聊天、數位白板等。 保持連線與組織，以便在公司、學校和生活中共同完成工作。
+使用 Microsoft Teams 會議附加元件可讓 Google 日曆使用者直接從 Google Workspace 排程並加入 Microsoft Teams 會議。 使用者可以存取 Teams 會議功能，包括視像和音訊會議、螢幕分享、會議聊天、數位白板等。 保持聯繫並井井有條，以在公司、學校及生活中共同完成更多工作。
 
-您必須先由小組管理員啟用 Google Workspace 的 Microsoft 團隊會議附加元件，才能讓租使用者存取 app。
+在租使用者使用者存取應用程式之前，Google Workspace 的 Microsoft Teams 會議附加元件必須由 Teams 系統管理員啟用。
 
-## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>在 Azure 入口網站中啟用或停用 Google Workspace 的 Microsoft 團隊會議附加元件
+## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>在 Azure 入口網站中啟用或停用 Google Workspace 的 Microsoft Teams 會議附加元件
 
-作為租使用者管理員，您可以使用 Azure 入口網站從貴組織的管理員帳戶啟用或停用 Google Workspace 的 Microsoft 團隊會議附加元件。
+做為租使用者系統管理員，您可以使用 Azure 入口網站，從組織的系統管理員帳戶啟用或停用 Microsoft Teams 會議附加元件。
 
-預設會啟用附加元件。
+附加元件預設為啟用。
 
-1. 登入 Azure 入口網站。
+1. 請登錄 Azure 入口網站。
 
-2. 選取 [**企業應用程式**]  >  ****。
+2. 選取 **企業應用程式**  >  **所有應用程式**。
 
-3. 搜尋 **Google Workspace 的 Microsoft 團隊會議附加** 元件。
+3. 搜尋 Google Workspace 的 **Microsoft Teams 會議附加元件**。
 
    ![顯示所有應用程式的 Azure 入口網站](media/aad-add-google-workspace.png)
 
-4. 選取 **[是]**。
+4. 選取 **是**。
 
-   ![顯示 google workspace 屬性的 Azure 入口網站](media/google-workspace-properties.png)
+   ![顯示 Google 工作區屬性的 Azure 入口網站](media/google-workspace-properties.png)
 
-5.  ([選用]) 停用附加元件，請在步驟4中選取 [ **否** ] 而不是 **[是]** 。
+5.  (選擇性) 若要停用附加元件， **請選取步驟** 4 中的否，而不是 **是** 。
 
-## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>使用 PowerShell 針對 Google Workspace 停用 Microsoft 團隊會議附加元件
+## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>使用 PowerShell 停用 Google 工作區的 Microsoft Teams 會議附加元件
 
 ```powershell
 Connect-AzureAD
@@ -73,8 +73,8 @@ if ($servicePrincipal) {
 }
 ```
 
-如需詳細資訊，請參閱 [使用 Azure PowerShell 建立 azure 服務主體](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
+詳細資訊，請參閱使用 [Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)建立 Azure 服務主體 。
 
-## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>刪除 Google Workspace 的 Microsoft 團隊會議附加元件
+## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>刪除 Google Workspace 的 Microsoft Teams 會議附加元件
 
-如需相關指示，請參閱 Google 檔 [刪除 Google Workspace Marketplace 應用程式](https://support.google.com/a/answer/6216211?hl=en) 。
+請參閱 Google 檔 [刪除 Google Workspace Marketplace 應用程式](https://support.google.com/a/answer/6216211?hl=en) 以尋找相關指示。

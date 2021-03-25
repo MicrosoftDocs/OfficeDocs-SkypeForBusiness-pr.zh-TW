@@ -1,5 +1,5 @@
 ---
-title: 基本升級 PowerShell |Microsoft 團隊 |授與升級交互操作原則
+title: 基本升級 PowerShell|Microsoft Teams|授予升級交互操作策略
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 如果系統管理中心未在您的租使用者中亮起，請進一步瞭解升級至 Microsoft 團隊的 stopgap。
+description: 瞭解當系統管理中心尚未在租使用者中亮起時，升級至 Microsoft Teams 的停止區。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb9a0854268df25ebb8dc0337db22f792834b36
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ef164ee5d93cb5491923ef3b319ae51134924cc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120536"
 ---
-# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>將您的使用者從商務用 Skype Online 升級至 Microsoft 團隊
+# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>將使用者從商務用 Skype Online 升級至 Microsoft Teams
 
 > [!Note]
-> 本文所述的命令是專門用來做為 [升級基本](https://aka.ms/UpgradeBasic) 檢查清單的一部分。
+> 本文所述的命令是設計用來做為升級基本檢查清單 [的一](./upgrade-start-here.md) 部分。
 
-您升級的技術遷移層面會通知您的使用者商務用 Skype 將升級至小組，然後將他們移至 [ **僅限團隊** ] 模式。 您可以透過商務用 Skype 遠端 Windows PowerShell 會話或透過 Microsoft 團隊系統管理中心來完成這些步驟。
+升級的技術移移層面需要通知您的使用者商務用 Skype 將會升級至 Teams，然後將他們移至 **Teams 模式** 。 這些步驟可以透過商務用 Skype 遠端 Windows PowerShell 會話或透過 Microsoft Teams 系統管理中心完成。
 
-我們正積極推出 [Microsoft 團隊系統管理中心](manage-teams-skypeforbusiness-admin-center.md)的升級工具，而且您的租使用者應該會在您的租使用者提供此功能。 只要提供，您就可以在 [設定您的共存和升級設定](https://aka.ms/SkypeToTeams-SetCoexistence)中找到遷移使用者的相關資訊。
+我們正在 Microsoft [Teams](manage-teams-skypeforbusiness-admin-center.md)系統管理中心積極推出升級工具，而且應該很快就會在租使用者上推出。 一旦推出，您可以在設定共存和升級設定中尋找移移使用者 [的資訊](./setting-your-coexistence-and-upgrade-settings.md)。
 
-如果您已準備好要立即升級，您可以使用下表所列的 [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) 命令。
+如果您今天準備好升級，可以使用下表中列出的 [PowerShell](/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) 命令。
 
-| 升級基本步驟# | 下 | PowerShell 命令 |
+| 升級基本步驟# | 模式 | PowerShell 命令 |
 |---|---|---|
-| [500](upgrade-basic.md#step-5) | Islands + 通知商務用 Skype 使用者<br>如果使用者目前處於 **孤島** 模式 (預設) # A3， (使用此命令 | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(例如，$SipAddress = ' TestUser@contoso.com」 )* |
-| [500](upgrade-basic.md#step-5) | 僅限商務用 skype + 通知商務用 Skype 使用者 <br>如果使用者目前處於 [ **僅商務用 Skype** ] 模式中， (使用此命令)  | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
-| [utf-7](upgrade-basic.md#step-7) | 僅限團隊 | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |
+| [5](upgrade-basic.md#step-5) | Islands + 通知商務用 Skype 使用者<br> (如果使用者目前處於群島模式， (使用此命令) )  | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(例如，$SipAddress='TestUser@contoso.com')* |
+| [5](upgrade-basic.md#step-5) | 僅適用于商務用 Skype + 通知商務用 Skype 使用者 <br> (如果使用者目前處於商務用 **Skype** 模式，請使用此命令)  | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
+| [7](upgrade-basic.md#step-7) | 僅 Teams | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |

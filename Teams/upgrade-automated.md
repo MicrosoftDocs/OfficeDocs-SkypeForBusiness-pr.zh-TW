@@ -1,5 +1,5 @@
 ---
-title: 自動升級 |商務用 Skype 企業對團隊升級
+title: 自動升級|Skype Business 升級至 Teams
 author: serdarsoysal
 ms.author: billkau
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: billkau
 audience: admin
-description: 從商務用 Skype 自動升級至團隊的概覽
+description: 從商務用 Skype 升級到 Teams 的自動化升級概觀
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,54 +18,53 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cb3fef455e4031c61b6769e114d9cbd1d8bd3805
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780652"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120537"
 ---
-# <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>從商務用 Skype Online 到 Microsoft 團隊的自動升級
+# <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>從商務用 Skype Online 自動升級至 Microsoft Teams
 
-Microsoft 將自動升級提供給小組，以協助小型企業從商務用 Skype Online 到2021停用的服務之前，進行成功的轉換。 自動升級減少了客戶所需的技術工作，並可讓您更注重組織的準備、使用者意識及小組訓練。
+Microsoft 提供 Teams 的自動化升級，協助小型企業在 2021 年 7 月 31 日服務結束之前，順利從商務用 Skype Online 進行轉換。 自動升級可以減少客戶所需的技術工作數量，並更專注于組織準備、使用者認知和 Teams 訓練。
 
-從商務用 Skype 升級到 Microsoft 小組的成功，需要規劃技術與使用者的準備情況。 當您準備好開始使用時，Microsoft 會提供[升級行動方案](upgrade-basic.md)，其中含核心建議的活動和相關資源，可讓您從商務用 Skype 成功移至團隊。
+從商務用 Skype 成功升級至 Microsoft Teams 需要規劃技術和使用者準備。 當您準備好開始使用時，Microsoft 會提供升級行動計畫，[](upgrade-basic.md)提供核心建議活動和相關資源，以成功從商務用 Skype 移至 Teams。
 
-## <a name="notifications-for-scheduled-customers"></a>針對排程客戶的通知
+## <a name="notifications-for-scheduled-customers"></a>已排程客戶的通知
 
-符合自動升級至小組資格的商務用 Skype Online 客戶，將會在排程升級日期前的30天內收到一系列升級通知。 這些通知將會在系統管理訊息中心中傳送為變更文章的*計畫*，將電子郵件升級至全域系統管理員，並將 app 內標誌升級至最終使用者。
+符合自動升級 Teams 資格的商務用 Skype Online 客戶，將在排定的升級日期前 30 天收到一系列的升級通知。 這些通知會以系統管理訊息中心中的變更文章計畫、將電子郵件升級至全域系統管理員，以及將應用程式內標標傳送給使用者。
 
-這些通知將會傳達自動升級的排程日期，將連結到升級資源和訓練，以協助推動團隊的採納及使用，並讓客戶在其排程日期之後，有30天的時間來升級自動升級。
+這些通知會傳達自動升級的排程日期、連結至升級資源與訓練，協助推動 Teams 的採用和使用，並讓客戶選擇在未準備好在預定日期之前再延後 30 天進行自動升級。
 
 ## <a name="the-automated-upgrade-experience"></a>自動升級體驗
 
-自動升級會在他們的排程升級日期執行，在通知電子郵件、訊息中心，以及團隊管理入口網站中進行通訊。 完成升級大約需要15分鐘，在此期間使用者仍可存取商務用 Skype Online 功能。 升級完成後，使用者登出商務用 Skype Online 後，使用者將只能使用小組進行訊息、會議和通話。
+自動升級會于排定的升級日期執行，此日期會傳送至通知電子郵件、訊息中心，以及 Teams 系統管理入口網站。 升級大約需要 15 分鐘，在此期間，使用者仍可存取商務用 Skype Online 功能。 升級完成後，使用者登出商務用 Skype Online 後，使用者只能使用 Teams 進行傳訊、會議和通話。
 
 ## <a name="the-post-upgrade-experience"></a>升級後的體驗
 
-當您的自動升級完成時，**共存模式**會設定為 [僅限團隊]，而且只能透過 Microsoft 將其變更為其他共存模式。 在升級前，系統管理員應該[只審查小組的模式考慮](teams-only-mode-considerations.md)。 下表提供團隊只有使用者體驗的高層次概覽。
+當您的自動升級完成時，共存模式會設定為僅 Teams，且 Microsoft 只能變更為不同的共存模式。 系統管理員在升級之前，應 [先審查 Teams](teams-only-mode-considerations.md) Only 模式考慮事項。 下表提供 Teams Only 使用者體驗的高層次概觀。
 
 
 |  |  |
 |---------|---------|
-|**聊天與通話**     | <UL><LI>所有通話和聊天都是在小組中開始和接收<LI>使用者可以使用任何商務用 Skype 使用者進行交互操作（聊天/通話）<LI>使用者無法與使用客戶用 Skype 的使用者通訊<LI>如果使用者嘗試登入商務用 Skype，就會將他們重新導向至團隊      </UL>  |
-|**會議**     |  <UL><LI>使用者排程小組中的所有新會議（已取代外掛程式）    </UL>   |
-|**已遷移的資料**     |<UL><LI>商務用 Skype 中的現有連絡人，包括同盟（但不含通訊群組清單）<LI>現有的商務用 Skype 會議（無論是內部部署還是線上）都能轉換成團隊會議</UL>         |
+|**聊天和通話**     | <UL><LI>在 Teams 中啟動和接收所有通話和聊天<LI>使用者可以與任何商務 (使用者) 聊天/通話<LI>使用者無法與使用消費者用 Skype 的使用者通訊<LI>如果使用者嘗試登錄商務用 Skype，會重新導向至 Teams      </UL>  |
+|**會議**     |  <UL><LI>使用者在 Teams 中排程所有新會議 (外掛程式已取代)     </UL>   |
+|**移移的資料**     |<UL><LI>商務用 Skype 的現有連絡人，包括 (但沒有通訊群組清單) <LI>現有的商務用 Skype 會議 (和線上會議) 轉換成 Teams 會議</UL>         |
 
-## <a name="postponing-your-automated-upgrade"></a>推遲您的自動升級
+## <a name="postponing-your-automated-upgrade"></a>延遲自動升級
 
-從商務用 Skype Online 到 Microsoft 團隊的成功轉場需要技術規劃與使用者準備，以確保貴組織充分利用延伸的功能和小組效能。 不過，當您規劃升級時，您可能會發現貴組織目前尚未準備好升級至小組。
+從商務用 Skype Online 成功轉換至 Microsoft Teams，需要技術規劃及使用者準備，以確保貴組織準備好利用 Teams 的擴充功能與績效。 不過，當您規劃升級時，您可能會發現貴組織目前尚未準備好升級至 Teams。
 
-如果您收到有關排程自動升級至團隊的通知，且您想要推遲到較晚的日期，全域管理員可能會登入團隊管理入口網站，然後按一下 [*延遲*] 按鈕。 這麼做會將自動升級日期推出30天。 當您在延遲後重新整理團隊管理入口網站時，您會看到包含新的自動升級日期的通知。
+如果您收到有關已排程的自動升級至 Teams 的通知，而且想要延後日期，全域系統管理員可能會登入 Teams 系統管理入口網站，然後按一下 [延後>*按鈕。* 如此一來，就會將自動升級日期推出 30 天。 當您在延後之後重新更新 Teams 系統管理入口網站時，會看到包含新自動升級日期的通知。
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>降級至商務用 Skype 的要求
 
-我們允許從團隊到 SfBO 的一次性降級，以允許租使用者進一步準備其升級至小組。 已降級的租使用者將會重新參與自動升級60天，從其降級日期開始。
+我們允許從 Teams 一次降級至 SfBO，讓租使用者進一步準備升級至 Teams。 降級的租使用者將在降級日期起 60 天內重新參與自動升級。
 
 ## <a name="related-content"></a>相關內容
 
 - [開始升級您的 Microsoft Teams](upgrade-start-here.md)
 - [終止對商務用 Skype Online 的支援](skype-for-business-online-retirement.md)
-- [CsTeamsUpgradeStatus](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
-- [僅限團隊的模式考慮](teams-only-mode-considerations.md)
-
+- [Get-CsTeamsUpgradeStatus](/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
+- [Teams 僅模式考慮事項](teams-only-mode-considerations.md)

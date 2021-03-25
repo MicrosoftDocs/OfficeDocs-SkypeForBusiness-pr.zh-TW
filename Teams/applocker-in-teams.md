@@ -1,5 +1,5 @@
 ---
-title: AppLocker 控制原則
+title: AppLocker 控制項策略
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -12,36 +12,36 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解如何啟用 AppLocker 應用程式控制原則的小組桌面用戶端應用程式。
+description: 瞭解如何使用 AppLocker 應用程式控制項策略啟用 Teams 桌面用戶端應用程式。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4e70fc4502851137494c316db9eff7faefc140d1
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: d6e6040956ba5e5469076b4fbbab337f58268c68
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526689"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120845"
 ---
-# <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 團隊中的 AppLocker 應用程式控制原則
+# <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft Teams 中的 AppLocker 應用程式控制政策
 
-本文說明如何使用 AppLocker 應用程式控制策略來啟用團隊桌面用戶端應用程式。 AppLocker 的用途是專門用來限制非系統管理使用者的程式及腳本執行。 如需有關 AppLocker 的詳細資訊和指導方針，請參閱[什麼是 applocker？](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)。
+本文說明如何使用 AppLocker 應用程式控制項策略啟用 Teams 桌面用戶端應用程式。 AppLocker 的使用是專為限制非系統管理使用者執行程式與腳本所設計。 有關 AppLocker 的資訊與指引，請參閱 [什麼是 AppLocker？](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)。
 
-啟用具有 AppLocker 的小組的程式需要建立以 AppLocker 為基礎的允許清單原則。 原則是使用群組原則管理軟體及/或用於 AppLocker 的 Windows PowerShell Cmdlet 來建立（請參閱[AppLocker 技術參考](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)以取得詳細資訊）。 AppLocker 原則會儲存為 XML 格式，而且可以使用任何文字或 XML 編輯器進行編輯。
+使用 AppLocker 啟用 Teams 的流程需要建立 AppLocker 型允許清單策略。 使用群組原則管理軟體和/或使用 Windows PowerShell Cmdlet for AppLocker 建立 (請參閱 [AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) 技術參考，以) 。 AppLocker 策略會以 XML 格式儲存，而且可以使用任何文字或 XML 編輯器進行編輯。
 
-## <a name="teams-allow-list-with-applocker"></a>團隊允許清單含 AppLocker
+## <a name="teams-allow-list-with-applocker"></a>使用 AppLocker 的 Teams 允許清單
 
-AppLocker 規則會組織成集合規則。 AppLocker 規則會套用至目標應用程式，而它們是組成 AppLocker 原則的元件。  
+AppLocker 規則會整理成規則集合。 AppLocker 規則會適用于目標應用程式，而這些規則是構成 AppLocker 原則的元件。  
 
-為了允許團隊，我們建議您使用[publisher 條件規則](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)，因為所有團隊應用程式檔案都經過數位簽章。
+若要允許 Teams，建議您使用發行者 [條件規則](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) ，因為所有 Teams 應用程式檔案都是數位簽章。
   
-我們不建議使用路徑規則，因為小組安裝目錄是使用者可寫入的。 我們也不建議使用雜湊規則，因為每次更新團隊用戶端應用程式時，都會需要更新規則。
+我們不建議使用路徑規則，因為 Teams 安裝目錄是使用者可寫入的。 我們不建議使用雜湊規則，因為每次 Teams 用戶端應用程式更新時，規則必須更新。
 
-由於團隊桌面可執行檔是經過數位簽章，所以發行者條件會根據其數位簽章和內嵌版本屬性來識別應用程式檔。 數位簽章包含建立應用程式檔案（發行者）之公司的相關資訊。 從二進位資源取得的版本資訊，包括該檔案所屬的產品名稱，以及應用程式檔案的版本號碼。
+由於 Teams 桌面可執行檔是數位簽章，因此發行者條件會根據應用程式的數位簽章和內嵌版本屬性來識別應用程式檔案。 數位簽章包含建立應用程式檔案的公司資訊， (發行者) 。 從二進位資源取得的版本資訊包括檔案屬於其中一部分的產品名稱，以及應用程式檔案的版本號碼。
 
-### <a name="example-of-publisher-condition-rules"></a>Publisher 條件規則範例
+### <a name="example-of-publisher-condition-rules"></a>發行者條件規則範例
 
-對於團隊用戶端應用程式（所有檔案，所有版本），請將下列專案新增至可執行檔規則 & DLL 規則：
+針對 Teams 用戶端應用程式 (所有檔案，所有版本) 新增下列專案至 DLL 規則的可執行&規則：
 
 ```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
@@ -50,5 +50,5 @@ Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## <a name="related-topics"></a>相關主題
-[什麼是 AppLocker？](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
-[AppLocker 技術參考](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+[什麼是 AppLocker？](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
+[AppLocker 技術參考](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)

@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b751ccebfd553f59b6144ea6b6f28db515e9c1d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395411"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121411"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams 企業部署概觀
 
@@ -75,7 +75,7 @@ Teams 有三種工作負載可以彼此獨立部署：**聊天、Teams 和頻道
 Teams 顧問是 Teams 內的解決方案，將 Teams、頻道、檔案共用和 Microsoft Planner 彙集在一起，以為您的組織建立部署專案。 Teams 顧問會針對您選取的工作負載 (例如聊天、團隊和頻道) 建立專案計劃，其中包含在部署期間您應執行的建議工作。 每項工作都包含相關文章的指示、建議和連結，以引導您完成此程序。 您可以輕鬆地將工作指派給一或多個人員，並為每個工作指定開始日期和結束日期。
 
 > [!TIP]
-> 完成 Microsoft Learn 上的 [使用 Teams 顧問執行](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) 模組，以瞭解如何使用 Teams 顧問協助您規劃 Teams 部署。
+> 完成 Microsoft Learn 上的 [使用 Teams 顧問執行](/learn/modules/m365-teams-rollout-using-advisor/) 模組，以瞭解如何使用 Teams 顧問協助您規劃 Teams 部署。
 
 > [!div class="nextstepaction"]
 > [前往 Teams 顧問](https://admin.teams.microsoft.com/teams-deployment)

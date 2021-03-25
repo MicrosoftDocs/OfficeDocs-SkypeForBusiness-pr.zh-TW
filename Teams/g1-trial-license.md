@@ -15,27 +15,27 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bdfdfb180005913b650cee27c350cf7c3ad5a27
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f49adc03e8bb7481fa6cd682a2dcc401d783c0e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583220"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120734"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
 ==============================
 
-自 2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 
+自 2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 
 
 使用本文中的指導方針來管理現有的 Office 365 G1 試用版授權，包括[升級為付費訂閱](#upgrade-users-from-the-office-365-g1-trial-license)。 若要深入了解，請參閱 [Microsoft 365 政府版方案](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) 和 [GCC 雲端中可用的 Microsoft Teams 功能](plan-for-government-gcc.md)。
 
-請勿錯過 [使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)的所有指導方針。
+請勿錯過我們的[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)的所有指導方針。
 
 ## <a name="manage-the-g1-trial"></a>管理 G1 試用版
 
-啟用 Office 365 G1 試用版後，請為需要的任何使用者開啟授權。 若要了解做法，請參閱 [管理使用者對 Teams 的存取權](user-access.md)。
+啟用 Office 365 G1 試用版後，請為需要的任何使用者開啟授權。 若要了解做法，請參閱[管理使用者對 Teams 的存取權](user-access.md)。
 
-一旦您為需要的使用者開啟 G1 試用版，就可以如同管理擁有付費授權的使用者一般地管理這些使用者。 如需詳細資訊，請參閱 [管理組織的 Teams 設定](enable-features-office-365.md)。
+一旦您為需要的使用者開啟 G1 試用版，就可以如同管理擁有付費授權的使用者一般地管理這些使用者。 如需詳細資訊，請參閱[管理貴組織的 Teams 設定](enable-features-office-365.md)。
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>從 Office 365 G1 試用版授權升級使用者
 
@@ -54,9 +54,9 @@ ms.locfileid: "46583220"
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>移除 Office 365 G1 試用版授權
 
-  - 如果您想要透過 PowerShell 移除此授權，請參閱： [使用 Office 365 PowerShell 從使用者帳戶移除授權](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+  - 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-  - 如果您想要透過系統管理入口網站移除此授權，請參閱:  [刪除您的組織的使用者](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+  - 如果您想要透過系統管理入口網站移除此授權，請參閱：[刪除組織的使用者](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>相關主題
 

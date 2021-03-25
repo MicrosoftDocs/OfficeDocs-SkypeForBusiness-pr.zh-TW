@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要：部署商務用 Skype 的商務用 Skype Web App 和 Skype 會議應用程式。
-ms.openlocfilehash: afab5d0977adb8749fb514f946b676598d42ea32
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 20489dddb244b179908f8c8a565bb1f4d539a5a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122127"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Web 可下載的用戶端
 
@@ -28,7 +28,7 @@ ms.locfileid: "49805923"
 商務用 Skype Web App 中的語音、影片和共用功能，需要使用 Microsoft ActiveX 控制項，以供使用者瀏覽器做為外掛程式使用。 您可以在系統提示時，預先安裝 ActiveX 控制項，或讓使用者安裝它，這會在第一次使用商務用 Skype Web App 時，或第一次存取需要 ActiveX 控制項的功能時發生。
 
 > [!NOTE]
-> 在商務用 Skype Server Edge Server 部署中，需要在周邊網路中使用 HTTPS 反向 proxy，才能進行商務用 Skype Web App 用戶端存取。 您也必須發佈簡易 URLs。 如需詳細資訊，請參閱[為商務用 Skype Server 中的簡易 URLs](../../plan-your-deployment/network-requirements/simple-urls.md)[設定反向 Proxy 伺服器](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx)和 DNS 需求。
+> 在商務用 Skype Server Edge Server 部署中，需要在周邊網路中使用 HTTPS 反向 proxy，才能進行商務用 Skype Web App 用戶端存取。 您也必須發佈簡易 URLs。 如需詳細資訊，請參閱[為商務用 Skype Server 中的簡易 URLs](../../plan-your-deployment/network-requirements/simple-urls.md)[設定反向 Proxy 伺服器](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers)和 DNS 需求。
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>啟用商務用 Skype Web App 的 Multi-Factor 驗證
 <a name="MFA"> </a>
@@ -48,9 +48,9 @@ ms.locfileid: "49805923"
 
 ### <a name="configure-multi-factor-authentication"></a>設定 Multi-Factor 驗證
 
-1. 安裝 AD FS 同盟伺服器角色。 如需詳細資訊，請參閱 [Active Directory Federation Services 2.0 部署指南](https://go.microsoft.com/fwlink/p/?linkid=267511)
+1. 安裝 AD FS 同盟伺服器角色。 如需詳細資訊，請參閱 [Active Directory Federation Services 2.0 部署指南](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
-2. 建立 AD FS 的憑證。 如需詳細資訊，請參閱規劃及部署 AD FS 的「 [同盟伺服器憑證](https://go.microsoft.com/fwlink/p/?LinkId=285376) 」一節，以搭配單一登入主題使用。
+2. 建立 AD FS 的憑證。 如需詳細資訊，請參閱規劃及部署 AD FS 的「 [同盟伺服器憑證](/previous-versions/azure/azure-services/jj205462(v=azure.100)) 」一節，以搭配單一登入主題使用。
 
 3. 在 [Windows PowerShell] 命令列介面中，執行下列命令：
 
@@ -77,12 +77,12 @@ ms.locfileid: "49805923"
 
 Windows 7 和 Windows Server 2008 R2 中的 [BranchCache] 功能可能會干擾商務用 Skype Web App web 元件。 若要防止商務用 Skype Web App 使用者的問題，請確定未啟用 BranchCache。
 
-如需停用 BranchCache 的詳細資訊，請參閱 [BranchCache 部署指南](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
+如需停用 BranchCache 的詳細資訊，請參閱 [BranchCache 部署指南](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>驗證商務用 Skype Web App 部署
 <a name="MFA"> </a>
 
-您可以使用 Test-CsUcwaConference Cmdlet，以驗證一對測試使用者是否可以使用整合通訊 Web API (UCWA) 參與會議。 如需此 Cmdlet 的詳細資訊，請參閱商務用 Skype Server 管理命令介面檔中的 [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) 。
+您可以使用 Test-CsUcwaConference Cmdlet，以驗證一對測試使用者是否可以使用整合通訊 Web API (UCWA) 參與會議。 如需此 Cmdlet 的詳細資訊，請參閱商務用 Skype Server 管理命令介面檔中的 [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) 。
 
 ## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>在 Windows Server 2008 R2 上疑難排解外掛程式安裝
 <a name="MFA"> </a>
@@ -135,7 +135,7 @@ Windows 7 和 Windows Server 2008 R2 中的 [BranchCache] 功能可能會干擾�
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    傳送給 Microsoft 的資訊嚴格遵循商務用 [Skype 資料收集慣例](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
+    傳送給 Microsoft 的資訊嚴格遵循商務用 [Skype 資料收集慣例](/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
 
 3. 若未提供 CDN，請先設定超時，再回到本機主控的商務用 Skype Web App 體驗。 預設值為6秒。 如果此值設為0，則不會有任何超時。
 
@@ -156,4 +156,4 @@ Windows 7 和 Windows Server 2008 R2 中的 [BranchCache] 功能可能會干擾�
 
 [Microsoft Online Services 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)
 
-[授權條款和檔](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
+[授權條款與文件](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)

@@ -29,47 +29,47 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '瞭解如何針對商務用 Skype 服務 (PSTN 消費) 付費，以及查看規劃，讓使用者保持不間斷的電話系統存取。 '
-ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: '瞭解如何在商務用 Skype 服務 (PSTN 消費) 支付通訊信用額度，並查看讓使用者持續使用電話系統存取權的計畫。 '
+ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031059"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121491"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 
-通訊點數是您在 Microsoft 365 或 Office 365 中支付電話系統和通話方案的便利方式。 通訊點數可協助確保您和您的使用者永遠不會被捕獲，且無法進行下列作業：
+在 Microsoft 365 或 Office 365 中，通訊信用額度是支付電話系統與通話方案費用的便利方式。 通訊信用額度有助於確保您和使用者不會因為無法：
   
-- 使用免付費撥入電話號碼撥入音訊會議會議。
+- 使用免付費電話撥入電話號碼撥入音訊會議。
 
-- 從音訊會議會議撥出，將其他人從世界各地新增給其他人。
+- 從音訊會議撥出，從世界任何地方新增其他人。
 
-- 在已安裝商務用 Skype 或 Microsoft 團隊 app 的情況下，從音訊會議會議撥出到您的行動電話。
+- 在已安裝商務用 Skype 或 Microsoft Teams App 的行動電話上，從音訊會議撥出。
 
-- 當您有 **國內通話方案** 時，請撥打電話給任何國際電話號碼。
+- 當您有國內通話方案時，撥打 **任何國際電話號碼**。
 
-- 當您已用盡每月分鐘服務配額之後，撥出電話並每分鐘支付一次。
+- 一旦用盡每月的分鐘分配，請撥出並按分鐘付款。
 
 > [!NOTE]
-> 如果您想知道其內容和費率，請參閱 [ [通話方案](https://go.microsoft.com/fwlink/p/?LinkId=799523) ] 頁面上的 [比率] 表格。
+> 如果您想知道費用與費率，請參閱通話方案頁面上的 [費率](https://go.microsoft.com/fwlink/p/?LinkId=799523) 資料表。
   
-如果您是系統管理員，您可以手動新增資金，或者您可以設定自動加值（我們 **建議** 這麼做）。
+做為系統管理員，您可以手動新增資金，也可以設定自動加值，我們建議 **這樣做**。
   
-當餘額低於您所設定的觸發金額時，自動自動加值。 我們建議您使用自動加值功能，以便您不記得手動新增資金。 當餘額達到觸發金額時，即會自動新增資金。 如果您沒有選擇自動加值，您會在超出零的情況下，執行餘額的風險。 在該階段，您和您的使用者將無法撥打免付費電話或國際通話。
+當餘額低於您設定觸發金額時，自動充值會自動超過您的餘額。 我們建議您使用自動加價，這樣您就不必記得手動新增資金。 當您的餘額達到觸發金額時，系統會自動新增資金。 如果您沒有選擇自動充值，則您的餘額風險會低於零。 此時，您和您的使用者將無法撥打免付費電話或國際電話。
   
-您隨時可以更新付款選項。 在 [ **訂閱** ] 頁面上，選取 [ **通訊點數** ]，然後進行您的更新。
+您隨時都可以更新您的付款選項。 在訂閱 **頁面上** ，選取 **通訊信用額度**，然後進行更新。
   
-使用這些服務時，資金將只會套用到 Microsoft 已發行費率的通訊點數。 在 12 (12) 月份中未使用的任何資金，購買日期就會到期並 forfeited。
+當服務使用時，資金只會以 Microsoft 的發行費率，適用于通訊信用額度。 在購買日期的 12 (12) 內未使用的任何資金將會到期並予以沒收。
   
 > [!TIP]
-> 當您透過自動加值功能新增資金時，我們會傳送電子郵件通知，自動加值失敗時 (例如，信用卡到期時) ，以及餘額低於零。
+> 當您透過自動加值新增資金、自動加值失敗 (例如信用卡到期) ，以及餘額低於零時，我們會傳送電子郵件通知。
   
-如需詳細資訊，請參閱 [通訊信用是什麼？](what-are-communications-credits.md)
+詳細資訊請參閱 [什麼是通訊信用額度？](what-are-communications-credits.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要瞭解方案與價格
 
-您可以造訪下列其中一個連結來查看方案和定價：
+您可以流覽下列其中一個連結來查看方案與價格：
   
 - [通話方案](https://go.microsoft.com/fwlink/?LinkId=799761 )
 
@@ -77,9 +77,9 @@ ms.locfileid: "49031059"
 
 - [電話系統方案](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-您也可以登入 Microsoft 365 系統管理中心並移至 **帳單**  >  **訂閱** 的 [  >  **新增訂閱** ]，以查看資訊。
+您也可以登錄 Microsoft 365 系統管理中心，然後到帳單訂閱  >    >  **新增訂閱** 來查看資訊。
   
-若要查看含有每個功能所需的授權或授權的表格，請參閱 [Microsoft 團隊附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+若要查看每個功能所需的授權或授權資料表，請參閱 Microsoft Teams [附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相關主題
 
@@ -87,5 +87,4 @@ ms.locfileid: "49031059"
 
 - [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
 
-- 設定[Microsoft 365 或 Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)與通話方案
-
+- [設定 Microsoft](set-up-calling-plans.md) [365 或 Office 365](calling-plans-for-office-365.md)的通話方案與通話方案

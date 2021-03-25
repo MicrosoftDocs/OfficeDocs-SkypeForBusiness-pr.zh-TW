@@ -15,62 +15,62 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解從商務用 Skype Online 和團隊設定觀點來決定要從商務用 Skype 移植所需的專案。
-ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 瞭解從商務用 Skype Online 和 Teams 組配置的觀點，將哪些內容遷移到直接路由。
+ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122197"
 ---
 # <a name="migrate-to-direct-routing"></a>移轉至直接路由
 
-本文說明從商務用 Skype Online 和 Microsoft 團隊設定觀點遷移到直接路由所需的專案。 本文涵蓋從以下各項進行遷移： 
+本文將說明從商務用 Skype Online 和 Microsoft Teams 的組配置觀點，遷移到直接路由所需的內容。 本文涵蓋從下列移移： 
  
-- 含有通話方案的電話系統 (適用于團隊和商務用 Skype Online)  
-- 在商務用 skype Online 的商務用 Skype Server (中使用內部部署 PSTN 連線的電話系統)   
-- 使用適用于商務用 Skype Online 的雲端連接器 Edition (，提供含內部部署 PSTN 連線的電話系統) 
+- Teams 和商務用 Skype Online (通話方案的電話)  
+- 在商務用 Skype Server 中使用內部部署 PSTN 連線的電話 (商務用 Skype Online)   
+- 使用商務用 Skype Online 版雲端連接器版本 (內部部署 PSTN 連線的電話) 
 
 
-除了這些設定步驟之外，也需要在會話邊界控制器 () SBC 上執行設定，以將呼叫路由至新的路線。 超出本檔範圍。 如需詳細資訊，請參閱您的 SBC 供應商檔。  
+除了這些組組步驟之外，系統還需要在會話邊界控制器 (SBC) 將通話路由至新路由。 這已超出本檔的範圍。 詳細資訊請參閱您的 SBC 廠商檔。  
 
-## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>針對各種 PSTN 連接選項的使用者預配結束狀態 
+## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>各種 PSTN 連接選項的使用者配置結束狀態 
 
-下表顯示使用者為已選取的 PSTN 連線選項與電話系統所配之使用者的結束狀態。 只會顯示與語音相關的屬性。
+下表顯示已針對已選取的 PSTN 連接選項與電話系統布備的使用者的結束狀態。 只會顯示與語音相關的屬性。
 
-|使用者物件屬性 |含有通話方案的電話系統|具有內部部署 PSTN 連線的電話系統（透過商務用 Skype Server）|具有內部部署 PSTN 連線的電話系統（透過雲端連接器）|具有內部部署 PSTN 連線的電話系統（透過直接路由）|
+|使用者物件屬性 |具有通話方案的電話系統|透過商務用 Skype Server 進行內部部署 PSTN 連接的電話系統|透過雲端連接器進行內部部署 PSTN 連接的電話系統|透過直接路由進行內部部署 PSTN 連接的電話系統|
 |---|---|---|---|---|
-|用戶端|商務用 Skype 或團隊 |商務用 Skype |商務用 Skype |Teams|
-|許可證|商務用 Skype Online</br>方案2</br></br>MCOProfessional 或 MCOSTANDARD) </br></br></br>電話系統 (MCOEV) </br></br></br>通話方案</br>Teams|商務用 Skype Online 方案 2 (MCOProfessional 或 MCOSTANDARD) </br></br></br>電話系統 (MCOEV) |商務用 Skype Online 方案 2 (MCOProfessional 或 MCOSTANDARD) </br></br></br>電話系統 (MCOEV) |商務用 Skype Online 方案 2 (MCOProfessional 或 MCOSTANDARD</br></br></br>電話系統 (MCOEV) </br></br>Teams|
-OnPremLineURI |不適用|電話號碼必須從內部部署的 AD 進行同步處理。 |您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。|您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。 不過，如果組織有內部部署商務用 Skype，該號碼必須從內部部署的 Active Directory 進行同步處理。|
-|LineURI|PSTN 電話號碼|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|
-|EnterpriseVoiceEnabled|滿足|滿足|滿足|滿足|
-|HostedVoiceMail |滿足|滿足|滿足|滿足|
+|用戶端|商務用 Skype 或 Teams |商務用 Skype |商務用 Skype |Teams|
+|許可證|Skype Business Online</br>方案 2</br></br>MCOProfessional 或 MCOSTANDARD) </br></br></br>電話系統 (MCOEV) </br></br></br>通話方案</br>Teams|Skype Business Online 方案 2 (MCOProfessional 或 MCOSTANDARD) </br></br></br>電話系統 (MCOEV) |Skype Business Online 方案 2 (MCOProfessional 或 MCOSTANDARD) </br></br></br>電話系統 (MCOEV) |Skype Business Online 方案 2 (MCOProfessional 或 MCOSTANDARD</br></br></br>MCOEV (電話) </br></br>Teams|
+OnPremLineURI |不適用|電話號碼必須從內部部署 AD 同步。 |您可以在內部部署 Active Directory 或 Azure Active Directory 中管理電話號碼。|您可以在內部部署 Active Directory 或 Azure Active Directory 中管理電話號碼。 不過，如果組織有內部部署商務用 Skype，則必須從內部部署 Active Directory 同步號碼。|
+|LineURI|PSTN 通話電話號碼|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|
+|EnterpriseVoiceEnabled|真|真|真|真|
+|HostedVoiceMail |真|真|真|真|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
-|VoiceRoutingPolicy|具有值|具有值|具有值|不適用|
-|OnlineVoiceRoutingPolicy|$Null|$Null|$Null|具有值|
-|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly|$Null|$Null|TeamsOnly|
-|TeamsCallingPolicy</br>AllowPrivateCalling|滿足|不適用|不適用|滿足|
-|TeamsCallingPolicy</br>AllowGroupCalling|滿足|不適用|不適用|滿足|
+|VoiceRoutingPolicy|有值|有值|有值|不適用|
+|OnlineVoiceRoutingPolicy|$Null|$Null|$Null|有值|
+|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly， SfBOnly|$Null|$Null|TeamsOnly|
+|TeamsCallingPolicy</br>AllowPrivateCalling|真|不適用|不適用|真|
+|TeamsCallingPolicy</br>AllowGroupCalling|真|不適用|不適用|真|
 ||||||
 
-<sup>1</sup> 選擇 TeamsUpgradePolicy 的正確模式視情況而定。 請參閱 [與商務用 Skype 搭配使用團隊之組織的遷移與互通性指南](migration-interop-guidance-for-teams-with-skype.md)中的語音體驗。
+<sup>1</sup> 選擇 TeamsUpgradePolicy 的合適模式取決於案例。 請閱讀移移和互通性指南中不同模式的語音體驗，瞭解使用 Teams 與商務用 [Skype](migration-interop-guidance-for-teams-with-skype.md)的組織。
 
-在這項工作中，Microsoft 最近更新了「Microsoft 團隊系統管理中心」 (也稱為新式入口) ，以根據共存模式反映新的管理模型。 在現代入口網站中，設定 TeamsUpgradePolicy 現在會自動將 TeamsInteropPolicy 設定為一致的值，因此在使用者介面中不會再顯示 TeamsInteropPolicy。 不過，使用 PowerShell 的管理員仍必須同時設定 TeamsUpgradePolicy 和 TeamsInteropPolicy，以確保正確地進行路由。 在轉換至 TeamsUpgradePolicy 完成後，也不需要再設定 TeamsInteropPolicy。
+Microsoft 最近更新了「Microsoft Teams 系統管理中心」 (也稱為「新式入口網站」) ，以反映以共存模式為基礎的新管理模式。 在新式入口網站中，設定 TeamsUpgradePolicy 現在也會自動將 TeamsInteropPolicy 設定為一致值，因此 TeamsInteropPolicy 不會再在使用者介面中公開。 不過，使用 PowerShell 的系統管理員仍必須將 TeamsUpgradePolicy 和 TeamsInteropPolicy 設定在一起，以確保正確的路由。 轉換至 TeamsUpgradePolicy 之後，就不再需要設定 TeamsInteropPolicy。
 
-如需詳細資訊，請參閱 [與商務用 Skype 搭配使用團隊之組織的遷移與互通性指導](migration-interop-guidance-for-teams-with-skype.md)方針。
+如需詳細資訊，請參閱與商務用 Skype 一起 [使用 Teams](migration-interop-guidance-for-teams-with-skype.md)的組織移移與互通性指南。
 
-## <a name="migrating-from-calling-plans"></a>從通話方案遷移
+## <a name="migrating-from-calling-plans"></a>從通話方案移移
 
-如需從通話方案遷移的詳細資訊，請參閱：
+有關從通話方案移移的資訊，請參閱：
 
-- [設定通話方案](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice 使用者](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [設定通話方案](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Set-CsOnlineVoice 使用者](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-建議您移除先前設定的授權方案資訊，如下所示：
+建議您移除先前已配置的授權方案資訊，如下所示：
  
 ```powershell
 $companyname = “contoso” 
@@ -79,33 +79,33 @@ $lic2 = $companyname + “:MCOPSTN2”
 Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic1 
 Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2 
 ```
-## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中使用與內部部署 PSTN 連線的 Office 365 Phone 系統進行遷移
+## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中使用內部部署 PSTN 連接從 Office 365 電話系統移移
 
-如需從手機系統在商務用 Skype Server 的內部部署 PSTN 連線中進行遷移的詳細資訊，請參閱下列內容：
+有關在商務用 Skype Server 中使用內部部署 PSTN 連接從電話系統移移的資訊，請參閱下列內容：
 
-- [規劃](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [6.5](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [規劃](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [部署](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
-建議您移除先前設定的語音路由資訊，如下所示：
+建議您移除先前配置的語音路由資訊，如下所示：
 
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> 如果設定了全域 CsVoiceRoutingPolicy，建議您移除與此全域原則相關聯的任何 PSTN 使用方式。 
+> 如果已配置全域 CsVoiceRoutingPolicy，建議您移除與此全域原則相關聯的任何 PSTN 使用方式。 
 
-## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>透過雲端連接器 Edition 透過 Office 365 Phone System 與內部部署 PSTN 連線能力進行遷移 
+## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>透過雲端連接器版本從具有內部部署 PSTN 連接的 Office 365 電話系統移移 
 
 > [!Important]
-> 雲端連接器版本將于2021年7月31日與商務用 Skype Online 一起停用。 貴組織升級至團隊後，請瞭解如何使用 [直接路由](direct-routing-landing-page.md)將內部部署電話網絡連線至團隊。
+> 雲端連接器版將于 2021 年 7 月 31 日與商務用 Skype Online 一起淘汰。 您的組織升級至 Teams 之後，瞭解如何使用直接路由將您的內部部署電話網路連接到[Teams。](direct-routing-landing-page.md)
 
-如需透過雲端連接器從手機系統移植到內部部署 PSTN 連線的詳細資訊，請參閱下列內容：
+有關透過雲端連接器使用內部部署 PSTN 連接從電話系統移移的資訊，請參閱下列內容：
 
-- [規劃](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [6.5](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [使用者設定](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [規劃](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [部署](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [使用者組組](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
-建議您移除先前設定的語音路由資訊，如下所示：
+建議您移除先前配置的語音路由資訊，如下所示：
  
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
@@ -115,19 +115,18 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 ## <a name="related-links"></a>相關連結
 
-[與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](migration-interop-guidance-for-teams-with-skype.md)
+[使用 Teams 與商務用 Skype 的組織移移和互通性指南](migration-interop-guidance-for-teams-with-skype.md)
 
-[授與 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[新-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[移除-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
-
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

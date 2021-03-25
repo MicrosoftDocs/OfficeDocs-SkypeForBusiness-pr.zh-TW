@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 請閱讀本文以瞭解在 Android 上部署 Microsoft Teams 會議室。
-ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875003"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120795"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android 上部署 Microsoft Teams 會議室
 
@@ -42,12 +42,12 @@ Android 版 Microsoft Teams 會議室的部署可以分成下列階段：
 - 專用資源帳戶
 - 啟用觸控功能的顯示器
 - 乙太網路纜線連接
-- Microsoft Teams 媒體 (網路上) QoS 的服務品質
+- 在 Microsoft Teams 媒體 (上) QoS 的服務品質
 
-針對實體安裝考慮，請參閱製造商的檔，如果您有相關檔，請利用音訊-視覺小組的經驗，然後再安裝及安裝螢幕，然後執行纜線連接。
+針對實體安裝考慮，請參閱製造商的檔，如果您有相關檔，請利用音訊-視覺小組的經驗，然後再安裝及安裝螢幕，以及執行纜線連接。
 
 > [!TIP]
-> 請務必查看為 [Teams](../prepare-network.md) 準備您的網路以規劃頻寬，並評估您的網路是否適合即時流量。
+> 請務必查看準備您的 [Teams](../prepare-network.md) 網路以規劃頻寬，並評估您的網路是否適合即時流量。
 >
 > 我們不建議您在 Teams 裝置與網際網路之間放置 Proxy 伺服器。 有關 Proxy 伺服器和 Teams 的資訊，請參閱 [Teams 的 Proxy 伺服器](../proxy-servers-for-skype-for-business-online.md)。
 
@@ -62,24 +62,24 @@ Android 版 Microsoft Teams 會議室的部署可以分成下列階段：
 
 ### <a name="using-a-resource-account"></a>使用資源帳戶
 
-如果您決定設定 Microsoft 365 資源帳戶，您必須購買會議室授權。 會議室授權包含資源信箱，可讓貴組織人員透過 Outlook 或 Teams 預約會議室。 授權也會啟用視音訊會議，以及會議參與者之間的螢幕共用。
+如果您決定設定 Microsoft 365 資源帳戶，您必須購買會議室授權。 會議室授權包含資源信箱，可讓貴組織人員透過 Outlook 或 Teams 預約會議室。 授權也會在會議參與者之間啟用視像和音訊會議及螢幕分享。
 
-如果您需要接聽或撥打外部電話號碼，您可能需要通話方案或 Microsoft 365 商務語音 [附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果您的組織中已啟用直接路由，則只需要會議室 SKU。
+如果您需要接聽或撥打外部電話號碼，您可能需要通話方案或 Microsoft 365 商務語音 [附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)。 如果您的組織中已啟用直接路由，則只需要會議室 SKU。
 
 當您建立資源帳戶時，您可以選擇是否要讓帳戶自動接受或拒絕會議邀請、允許週期性會議、指定人員可以預先預約資源多遠等等。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-有關 Microsoft 365 資源帳戶的資訊，請參閱使用 [Microsoft 365](resource-account-ui.md)系統管理中心建立資源帳戶 。
+有關 Microsoft 365 資源帳戶的資訊，請參閱使用 [Microsoft 365](resource-account-ui.md)系統管理中心建立資源帳戶。
 
 |    |     |
 |-----------|------------|
 | ![描繪決策點的圖示](../media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定是否要撥打或接聽外部電話，並確定資源帳戶的授權需求。</li></ul>|
 | ![描述下一個步驟的圖示](../media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>準備資源帳戶。</li></ul>|
 
-## <a name="configuration-and-deployment"></a>組配置與部署
+## <a name="configuration-and-deployment"></a>組組和部署
 
-組配置與部署規劃涵蓋下列主要領域：
+組組和部署規劃涵蓋下列主要領域：
 
 - 資源帳戶資源配置
 - 裝置部署
@@ -89,7 +89,7 @@ Android 版 Microsoft Teams 會議室的部署可以分成下列階段：
 
 ### <a name="account-provisioning"></a>帳戶資源配置
 
-如果您打算使用 Microsoft 365 資源帳戶讓使用者預約共同合作橫條圖，請遵循使用 [Microsoft 365](resource-account-ui.md) 系統管理中心建立資源帳戶中的指示，為每個需要共同合作欄的 Microsoft 365 資源帳戶建立一個 Microsoft 365 資源帳戶。 這也是您需要在資源帳戶新增會議室授權的地方，如果您想要撥打或接聽來自外部電話號碼的通話，請加入通話方案或商務語音授權，如果貴組織並未使用直接路由。
+如果您打算使用 Microsoft 365 資源帳戶讓使用者預約共同合作橫條圖，請遵循使用 [Microsoft 365](resource-account-ui.md) 系統管理中心建立資源帳戶中的指示，為每個需要共同合作欄的 Microsoft 365 資源帳戶建立一個 Microsoft 365 資源帳戶。 這也是您需要在資源帳戶新增會議室授權的地方，如果您想要撥打或接聽來自外部電話號碼的通話，如果貴組織並未使用直接路由，則需要通話方案或商務語音授權。
 
 如果您想要將 Teams 會議室指派給個別使用者供其私人使用，則不需要設定任何其他帳戶。 使用者可以使用個人帳戶來登錄共同合作橫條圖。
 
@@ -107,14 +107,14 @@ Android 版 Microsoft Teams 會議室的部署可以分成下列階段：
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](../media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定誰將管理網站部署。</li><li> 找出將現場安裝 Teams 會議室的資源，並負責進行組組和測試。</li></ul>|
+| ![描繪決策點的圖示](../media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定誰將管理網站部署。</li><li> 找出將在網站安裝 Teams 會議室的資源，並承擔組組和測試。</li></ul>|
 | ![描述下一個步驟的圖示](../media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>開始裝置測試。</li></ul>|
 
 ### <a name="testing"></a>測試
 
-部署 Teams 會議室之後，您應該測試它們。 請登錄 Teams 會議室，並檢查預期功能是否正常。 我們強烈建議您確認它們會顯示在 Microsoft Teams 系統管理中心的裝置標籤下的共同合作列區段。 您還必須進行數次測試通話和會議，以檢查品質與績效。
+部署 Teams 會議室之後，您應該測試它們。 請登錄 Teams 會議室，並檢查預期功能是否正常。 我們強烈建議您確認它們出現在 Microsoft Teams 系統管理中心的裝置標籤下的共同合作列區段。 您還必須進行數次測試通話和會議，以檢查品質與績效。
 
-我們建議您在 Microsoft Teams 的一般推出中，設定通話品質儀表板 (CQD) 的建建檔案、監控品質趨勢，以及參與體驗品質檢閱程式。 詳細資訊，請參閱體驗 [品質檢閱指南](https://aka.ms/qerguide)。
+我們建議您設定通話品質儀表板 (CQD) 的建庫檔案，監控品質趨勢，並參與體驗品質檢閱程式。 詳細資訊，請參閱體驗 [品質檢閱指南](../quality-of-experience-review-guide.md)。
 
 ### <a name="asset-management"></a>資產管理
 

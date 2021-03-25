@@ -1,5 +1,5 @@
 ---
-title: 團隊語音 Contoso 案例研究
+title: Teams Voice Contoso 案例研究
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,43 +13,42 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 多國企業的小組語音案例研究
+description: 多國公司的 Teams 語音案例研究
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f58f3518202fd836ff962374e8f3b3a00ab71817
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 085c9994bc2522d1ab56abc1670113e22d35f642
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785982"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121301"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Contoso 案例研究：音訊會議
 
-若要瞭解音訊會議的 &mdash; 內容、其成本、可用性，以及它如何運作， &mdash; Contoso[在 Office 365 中審查音訊會議](deploy-audio-conferencing-teams-landing-page.md)。 
+若要瞭解音訊會議是什麼、費用、可用性及運作方式 &mdash; ，Contoso 已審閱 Office &mdash; [365](deploy-audio-conferencing-teams-landing-page.md)的音訊會議。 
 
 ## <a name="overview"></a>概觀 
 
-對於音訊會議，Contoso 在組織內以及外部使用的電話號碼。 由於 Contoso 想要盡可能保留這些數位，因此他們已複習將專用和共用電話號碼指派給音訊會議橋接器的相關資訊。 
+對於音訊會議，Contoso 會使用組織中以及外部都已知的電話號碼。 由於 Contoso 想要盡可能維護這些號碼，因此他們審閱了將專用和共用電話號碼指派給音訊會議橋接器的資訊。 
 
-根據其研究，Contoso 進行下列決策： 
+Contoso 根據他們的研究做出下列決定： 
 
-- 只有定期託管音訊會議呼叫的一部分人口，才會收到音訊會議授權。 
+- 只有定期主持音訊會議通話的一部分人口會收到音訊會議授權。 
 
-- Contoso 會使用專用的電話號碼，並將其現有的號碼與音訊會議搭配使用。   
+- Contoso 會使用專用電話號碼，並移植現有的號碼，以用於音訊會議。   
 
-因為 Contoso 使用者使用的是商務用 Skype，且所有使用者的信箱都在線上，所以許多使用者已安排現有的會議。 Contoso 已[使用會議遷移服務（MMS）](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)進行閱讀，以瞭解在將使用者變更為 TeamsOnly 模式時，會自動為 Contoso 更新現有的會議。  
+由於 Contoso 使用者使用的是商務用 Skype，而且所有使用者的信箱都位於線上，因此許多使用者已排程現有的會議。 Contoso 閱讀使用會議移 ([MMS) ， ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) 以瞭解當將使用者變更為 TeamsOnly 模式時，系統會自動更新 Contoso 的現有會議。  
 
 
-## <a name="configuration"></a>Configuration
+## <a name="configuration"></a>配置
 
-與音訊會議相關聯的電話號碼稱為電話系統中的服務號碼。 
+與音訊會議相關聯的電話號碼稱為電話系統內的服務號碼。 
 
-- 針對使用通話方案的位置，若要將其電話載波中的現有電話號碼移植至 Office 365，Contoso 請按照[取得服務電話號碼](getting-service-phone-numbers.md)中的步驟進行。
+- 對於使用通話方案的位置，若要將現有的電話號碼從電話電信公司移植到 Office 365，Contoso 會遵循取得服務電話號碼 [中的步驟](getting-service-phone-numbers.md)。
 
-- 若要將音訊會議授權指派給技術試驗中的最終使用者，Contoso 管理員請按照[管理貴組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)中的步驟操作。 
+- 若要在技術試驗中指派音訊會議授權給使用者，Contoso 系統管理員遵循管理貴組織的音訊會議設定 [中的步驟](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。 
 
-- 針對業務試驗與遷移，Contoso 使用以群組為基礎的授權，請按照在[Azure Active Directory 中的群組成員資格指派授權給使用者](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)。  
-
- 
+- 針對商務試驗和移移，Contoso 會遵循 Azure Active Directory 中的群組成員資格指派授權給使用者中的步驟，來使用 [群組式授權](/azure/active-directory/users-groups-roles/licensing-groups-assign)。  
 
  
+

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml 檔案指定其他安裝指示。
-ms.openlocfilehash: 1b8aeeb16e061e7816e475f01c9cd9a9146306ee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dbf4c4ba4e652f4b777e0c901fee4ffb0ad68af3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825183"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121137"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>在商務用 Skype 用戶端中使用 Config.xml 執行安裝工作
 
@@ -69,7 +69,7 @@ ms.locfileid: "49825183"
 </Configuration>
 ```
 
-您可以在使用 Config.xml 檔案執行 Office 安裝及維護工作的詳細資訊 [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514) 。
+您可以在使用 Config.xml 檔案執行 Office 安裝及維護工作的詳細資訊 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
 
 ## <a name="to-customize-the-configxml-file"></a>自訂 Config.xml 檔案
 
@@ -84,5 +84,3 @@ ms.locfileid: "49825183"
    </pre>
 
 4. 儲存 Config.xml 檔案。
-
-

@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: 在本文中，您將瞭解如何在 Microsoft 團隊中封存或永久刪除小組。
+description: 本文將瞭解如何在 Microsoft Teams 中存檔或永久刪除團隊。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: da2d330986ca2fd924df75e0fcae6fc4388c5d48
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582760"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120835"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 ===========================================
@@ -40,39 +40,39 @@ ms.locfileid: "46582760"
 
 ## <a name="archive-a-team"></a>封存小組
 
-按照這些步驟以封存小組。 您必須是團隊服務管理員，才能進行這些變更。 請參閱[使用團隊管理員角色管理團隊](https://docs.microsoft.com/microsoftteams/using-admin-roles)，瞭解如何取得管理員角色和許可權。
+按照這些步驟以封存小組。 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
-1. 在系統管理中心中，選取 [**團隊**]。
+1. 在系統管理中心中，選取 **Teams**。
 2. 按一下小組名稱以選取小組。
-3. 選取 [封存]****。 將會出現下列訊息。
+3. 選取 [封存]。 將會出現下列訊息。
 
     ![螢幕擷取畫面：Teams 封存訊息](media/teams-archive-message.png)
 
-4. 若要防止使用者編輯 SharePoint 網站與小組相關的 [Wiki] 索引標籤中的內容，請選取 **[將 sharepoint 網站設為唯讀] 給小組成員**。  (團隊擁有者仍能編輯此內容。 ) 
-5. 選取 [封存]**** 以封存小組。 小組的狀態會變更為 [已封存]****。
+4. 若要防止人員編輯與小組相關聯的 SharePoint 網站和 Wiki 選項卡中的內容，請選取將 **SharePoint 網站** 設定為小組成員的唯讀。  (Teams 擁有者仍然可以編輯此內容。) 
+5. 選取 [封存] 以封存小組。 小組的狀態會變更為 [已封存]。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中
 
 按照下列步驟，讓封存的小組成為使用中。
 
-1. 在系統管理中心中，選取 [**團隊**]。
+1. 在系統管理中心中，選取 **Teams**。
 2. 按一下小組名稱以選取小組。
-3. 選取 [解除封存]****。 小組的狀態會變更為 [使用中]****。
+3. 選取 [解除封存]。 小組的狀態會變更為 [使用中]。
 
 ## <a name="delete-a-team"></a>刪除小組
 
 如果未來不再需要小組，您可以將它刪除，而不只是封存。 按照下列步驟刪除小組。
 
-1.  在系統管理中心中，選取 [**團隊**]。
+1.  在系統管理中心中，選取 **Teams**。
 2.  按一下小組名稱以選取小組。
-3.  選取 [刪除]****。 將會出現確認訊息。
-4.  選取 [刪除]**** 以永久刪除小組。
+3.  選取 [刪除]。 將會出現確認訊息。
+4.  選取 [刪除] 以永久刪除小組。
 
 ## <a name="restore-a-deleted-team"></a>還原刪除的小組
 
-若要還原已刪除的小組，請執行下列步驟，還原與小組相關聯的 Microsoft 365 群組。 還原小組的 Microsoft 365 群組會復原小組內容，包括索引標籤、標準通道、私人頻道以及其相關的網站集合。
+請遵循下列步驟還原已刪除的團隊，還原與小組相關聯的 Microsoft 365 群組。 還原小組的 Microsoft 365 群組會還原小組內容，包括定位停駐點、標準頻道和私人頻道及其相關聯的網站集合。
 
-根據預設，已刪除的 Microsoft 365 群組會保留30天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱[還原已刪除的群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)。
+根據預設，已刪除的 Microsoft 365 群組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安裝 AzureADPreview 模組
 
@@ -99,7 +99,7 @@ ms.locfileid: "46582760"
     Connect-AzureAD
     ```
     當您看到提示時，使用您的系統管理員帳戶和密碼登入。  
-2. 執行下列動作，以顯示仍在30天保留期間內的所有虛刪除 Microsoft 365 群組清單。 如果有大量群組，請使用 **-All $True** 參數。
+2. 請執行下列操作，以顯示仍在 30 天保留期間內的所有 Microsoft 365 軟體刪除群組清單。 如果有大量群組，請使用 **-All $True** 參數。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
