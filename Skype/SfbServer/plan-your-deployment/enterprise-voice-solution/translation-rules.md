@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 深入瞭解商務用 Skype Server Enterprise Voice 中的轉譯規則和撥號字串正規化。
-ms.openlocfilehash: 0c00776dae502bfd28bbe27e90012fabb6e25c93
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d02e4d3b84c03ee40dddbcb9b174adb66dcd6cd0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110629"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>商務用 Skype Server 中的轉譯規則
 
@@ -38,11 +38,9 @@ ms.locfileid: "49802683"
 
 下列轉譯規則範例顯示如何在伺服器上開發規則，以將號碼從 E.164 格式轉譯為主幹對等的區域格式。
 
-如需如何實作轉譯規則的詳細資訊，請參閱部署文件中的＜[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)＞。
+如需如何實作轉譯規則的詳細資訊，請參閱部署文件中的＜[Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)＞。
 
 |**描述**|**開頭數字**|**Length**|**要移除的數字**|**要加入的數字**|**比對模式**|**Translation**|**範例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|美國的傳統長途撥號  <br/>  (抽出 ' + ' )   <br/> |+ 1  <br/> |剛好 12 個  <br/> |1   <br/> |0  <br/> |^\+ (1 維 {10}) $  <br/> |$1  <br/> |+14255551010 變成 14255551010  <br/> |
-|美國國際長途撥號  <br/>  (拆除 ' + ' 並新增 011)   <br/> |+  <br/> |至少 11 個  <br/> |1   <br/> |011  <br/> |^\+ ( \d {9} \d +) $  <br/> |011 $ 1  <br/> |+441235551010 變成 011441235551010  <br/> |
-
-
+|美國的傳統長途撥號  <br/>  (抽出 ' + ' )   <br/> |+ 1  <br/> |剛好 12 個  <br/> |1  <br/> |0  <br/> |^\+ (1 維 {10}) $  <br/> |$1  <br/> |+14255551010 變成 14255551010  <br/> |
+|美國國際長途撥號  <br/>  (拆除 ' + ' 並新增 011)   <br/> |+  <br/> |至少 11 個  <br/> |1  <br/> |011  <br/> |^\+ ( \d {9} \d +) $  <br/> |011 $ 1  <br/> |+441235551010 變成 011441235551010  <br/> |

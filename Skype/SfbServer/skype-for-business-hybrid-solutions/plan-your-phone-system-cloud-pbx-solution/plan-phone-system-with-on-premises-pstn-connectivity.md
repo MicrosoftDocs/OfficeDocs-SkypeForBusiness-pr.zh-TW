@@ -20,21 +20,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 深入瞭解使用內部部署 PSTN 連線的電話系統 (雲端 PBX) 規劃考慮。
-ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: e0caed5560e7b7609adbfccf79e4ef63ee4eae09
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358809"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110539"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃含有內部部署 PSTN 連線功能的電話系統
 
 > [!Important]
-> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 在2021年7月31日之後，商務用 Skype Online 將會停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線，不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online，都將不再支援。  瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
 
 深入瞭解使用內部部署 PSTN 連線的電話系統 (雲端 PBX) 規劃考慮。
 
-如果您已在內部部署中部署商務用 Skype Server 或 Lync Server 2013，則此內容是相關的。 如需其他案例，請參閱 [Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+如果您已在內部部署中部署商務用 Skype Server 或 Lync Server 2013，則此內容是相關的。 如需其他案例，請參閱 [Microsoft 電話語音解決方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)。
 
  使用內部部署 PSTN 連線的電話系統可讓您為使用者利用電話系統 (雲端 PBX) 功能。 這可協助您進行下列案例：
 
@@ -49,7 +49,7 @@ ms.locfileid: "47358809"
 
 ## <a name="feature-comparison"></a>功能比較
 
-使用內部部署 PSTN 連線的雲端 PBX 不會提供與完全內部部署企業語音解決方案相同的功能集。 為了協助您決定具有內部部署 PSTN 連線的雲端 PBX 是否會為您的組織提供正確的功能集，請參閱 [以下是您使用雲端 PBX 取得](https://go.microsoft.com/fwlink/?LinkId=715517)的功能。
+使用內部部署 PSTN 連線的雲端 PBX 不會提供與完全內部部署企業語音解決方案相同的功能集。 為了協助您決定具有內部部署 PSTN 連線的雲端 PBX 是否會為您的組織提供正確的功能集，請參閱 [以下是您使用雲端 PBX 取得](/microsoftteams/here-s-what-you-get-with-phone-system?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2ftoc.json)的功能。
 
 ## <a name="benefits-and-planning-considerations"></a>優點和規劃考慮
 
@@ -62,7 +62,7 @@ ms.locfileid: "47358809"
 
 您可以對舊版 PBX 使用自訂功能或主要附加元件，例如通話中心。 若自訂功能目前在電話系統上無法使用，您應該將需要該自訂功能的使用者留給舊版 PBX 使用，而且只需將不需要存取自訂功能的使用者的埠與內部部署 PSTN 連接。
 
-如需與商務用 Skype Server 2015 直接互動的舊版 PBXs 清單，請參閱  [Microsoft Lync 的基礎結構限定](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)。 如果您的 PBX 不在此清單上，您可以使用會話邊界控制器，在商務用 Skype Online 中使用電話系統來連接 PBX。
+如需與商務用 Skype Server 2015 直接互動的舊版 PBXs 清單，請參閱  [Microsoft Lync 的基礎結構限定](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 如果您的 PBX 不在此清單上，您可以使用會話邊界控制器，在商務用 Skype Online 中使用電話系統來連接 PBX。
 
 ### <a name="network-considerations-for-quality-and-performance"></a>品質和效能的網路考慮
 
@@ -102,21 +102,19 @@ ms.locfileid: "47358809"
 
 此外，您必須確定下列各項：
 
-- 內部部署的**Enterprise Voice 為內部部署使用者設定並測試**這包括 PSTN 連接元件。 如需詳細資訊，請參閱下列主題：如果您使用商務用 Skype Server 2015，請參閱在商務用 skype [server 2015 中規劃 Enterprise voice](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) ，以及 [在商務用 skype Server 2015 中部署企業語音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
+- 內部部署的 **Enterprise Voice 為內部部署使用者設定並測試** 這包括 PSTN 連接元件。 如需詳細資訊，請參閱下列主題：如果您使用商務用 Skype Server 2015，請參閱在商務用 skype [server 2015 中規劃 Enterprise voice](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) ，以及 [在商務用 skype Server 2015 中部署企業語音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
 
-    如果您使用的是 Lync Server 2013，請參閱在 lync server [2013 中規劃 Enterprise voice](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) ，並 [在 lync Server 2013 中部署企業語音](https://technet.microsoft.com/library/gg412876%28v=ocs.15%29.aspx)。
+    如果您使用的是 Lync Server 2013，請參閱在 lync server [2013 中規劃 Enterprise voice](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) ，並 [在 lync Server 2013 中部署企業語音](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)。
 
 - **Active Directory 同步** 處理您必須使用 Azure AD Connect 設定 Active Directory 同步處理。 如需詳細資訊，請參閱 [管理 AZURE AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)。
 
     > [!NOTE]
     > 您使用的 AAD 連線版本必須是版本1.0.9125.0 或更新版本。 如果您使用的是舊版本的 AAD Connect tools 或 DirSync，請升級至支援的版本。 您可以升級目前的安裝，並維護您在環境中所定義的任何自訂規則。 
 
-- **設定混合部署** 不論您的所有商務用 Skype 使用者目前是線上或內部部署的，還是如果您目前有混合式，您必須完成步驟以設定商務用 skype server 或 Lync Server 2013 的混合式部署，如在 [商務用 Skype server 與 Office 365 之間部署混合](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)式連線的說明所述。 如需混合式部署的更多背景資訊，請參閱 [規劃商務用 Skype Server 與 Office 365 之間的混合](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)式連線。 
+- **設定混合部署** 不論您的所有商務用 Skype 使用者目前是線上或內部部署的，還是如果您目前有混合式，您必須完成步驟以設定商務用 skype server 或 Lync Server 2013 的混合式部署，如在 [商務用 Skype server 與 Office 365 之間部署混合](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)式連線的說明所述。 如需混合式部署的更多背景資訊，請參閱 [規劃商務用 Skype Server 與 Office 365 之間的混合](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)式連線。 
 
-    如果您使用的是 Lync Server 2013，請參閱 [Lync server 2013 混合](https://technet.microsoft.com/library/jj204805%28v=ocs.15%29.aspx)式。
+    如果您使用的是 Lync Server 2013，請參閱 [Lync server 2013 混合](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid)式。
 
-- ** (建議) Active Directory Federation Services (AD FS) 。** 建議您部署 AD FS 以支援單一登入。 如需詳細資訊，請參閱 [Active Directory Federation Services (AD FS) ](https://technet.microsoft.com/library/cc736690%28v=ws.10%29.aspx)。
+- **(建議) Active Directory Federation Services (AD FS) 。** 建議您部署 AD FS 以支援單一登入。 如需詳細資訊，請參閱 [Active Directory Federation Services (AD FS) ](/previous-versions/windows/it-pro/windows-server-2003/cc736690(v=ws.10))。
 
 如需部署電話系統的相關資訊，請參閱 [在商務用 Skype Server 中使用內部部署 PSTN 連線啟用使用者的電話系統](enable-users-for-phone-system.md)。
-
-
