@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: 使用網路 Planner-範例案例
+title: 使用網路規劃工具 - 範例案例
 metadata:
-  title: 使用網路 Planner-範例案例
-  description: 這個範例案例會示範如何使用網路 Planner 工具來建立網站和角色，以及執行報表。
+  title: 使用網路規劃工具 - 範例案例
+  description: 此範例案例會說明如何使用網路規劃工具建立網站和角色，以及執行報告。
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,77 +16,77 @@ metadata:
   ms.collection:
   - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 20ecaa02743b4de8664287d41118761e1da00b74
-  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+  ms.openlocfilehash: 58a51e7b0bd132a1e0e65c304d0d96bdff119732
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/16/2020
-  ms.locfileid: "48531730"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51121321"
 items:
 - durationInMinutes: 2
-  content: "[網路 Planner] 工具可在 [團隊管理中心] 中取得。 它可協助您判斷貴組織的網路需求。 這個範例案例會示範如何使用此工具來建立名為 Contoso 的公司的網站、角色及執行報表。 \n\n## <a name=\"before-you-begin\"></a>開始之前\n\n我們假設您已瞭解團隊系統管理中心的相關資訊，而且您已經熟悉如何為小組準備網路所需執行的動作。 如果這是您在網路 Planner 中看到的第一篇文章，我們建議您先閱讀下列文章。\n\n- [針對 Teams 準備組織的網路](prepare-network.md)\n- [使用 Microsoft 團隊的網路 Planner](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 網路概覽\n\nContoso 有三個位置：\n\n- **西雅圖總部：** 這是 Contoso 的主要位置。 它有1000員工，且只有25名者通話。 網站已連線至網際網路，且有 (PSTN) 的本機電話連線。 Contoso 已設定直接路由來與團隊搭配使用本機電話連線。 \n- **Kirkland Office：** 這個分支機搆擁有400員工，而10只是通話。 網站會在網際網路和手機 (PSTN) 流量的總部使用其連線。 這個 office 是使用 WAN 連線與西雅圖總部連線。\n- **丹佛 Office：** 此 office 擁有250員工和50只能通話。 網站有自己的本機網際網路連線，但沒有 (PSTN 的直接電話連線) 。\n\n讓我們開始吧！\n"
+  content: "Teams 系統管理中心提供網路規劃工具。 它可協助您判斷貴組織的網路需求。 此範例案例顯示如何使用工具為名為 Contoso 的公司建立網站、角色及執行報表。 \n\n## <a name=\"before-you-begin\"></a>開始之前\n\n我們假設您已經熟悉 Teams 系統管理中心，而且您熟悉準備 Teams 網路所需的工作。 如果這是您在網路規劃工具上看到的第一篇文章，建議您先流覽下列文章。\n\n- [針對 Teams 準備組織的網路](prepare-network.md)\n- [使用 Microsoft Teams 的網路規劃工具](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 網路概觀\n\nContoso 有三個位置：\n\n- **西雅圖總部：** 這是 Contoso 的主要位置。 它擁有 1000 名員工，其中 25 人僅能通話。 網站已連接到網際網路，而且 PSTN (有) 。 Contoso 已設定直接路由，可與 Teams 使用當地電話連接。 \n- **柯克蘭 Office：** 這個分公司有 400 位員工，而 10 個僅提供通話。 網站會使用與總部的網際網路和電話連接， (PSTN) 流量。 此辦公室使用 WAN 連接連接到西雅圖總部。\n- **科羅拉多 Office：** 這個辦公室有 250 個員工，而 50 個僅提供通話。 該網站擁有自己的當地網際網路連接，但 PSTN (沒有) 。\n\n讓我們開始吧！\n"
 - title: 新增網路方案
   durationInMinutes: 2
-  content: "在 [團隊管理中心] 中，展開 [ **整個組織的設定** ]，然後選取 [ **網路 planner**]。 您必須做的第一件事就是建立網路方案。 \n\n1. 按一下 [**新增網路方案**] \n2. 在 [ **新增網路方案** ] 窗格中，為您的網路方案新增名稱和描述。 在這個範例中，我們將使用 *Contoso1* 作為方案名稱，並將 *Contoso 網路方案* 做為描述。\n3. 按一下 [**儲存**]\n\n![新增網路方案](media/network-planner-new-network-plan.png)\n\n儲存您的網路方案之後，就會顯示在您的網路方案清單中。 \n\n![網路方案清單](media/network-planner-network-plans.png)\n"
+  content: "在 Teams 系統管理中心，展開 **全組織設定，** 然後選取網路 **規劃工具**。 您要做的第一件事是建立網路方案。 \n\n1. 按一下 **[新增網路方案** \n2. 在新增 **網路方案窗格中** ，為您的網路方案新增名稱和描述。 在此範例中，我們將使用 *Contoso1* 做為方案名稱， *而 Contoso 網路* 方案則做為描述。\n3. 按一下 **[儲存**\n\n![新增網路方案](media/network-planner-new-network-plan.png)\n\n儲存網路方案之後，它會顯示在您的網路方案清單中。 \n\n![網路方案清單](media/network-planner-network-plans.png)\n"
 - title: 建立自訂角色
   durationInMinutes: 2
-  content: "接下來，您需要建立代表使用者所需的角色。 由於每個位置都有特殊的使用者，只需要撥打電話，所以您必須建立該角色。\n\n1. 在 [網路 planner] 頁面上，按一下 [ **角色** ] 索引標籤，然後按一下 [ **+ 自訂角色**]。 \n2. 新增此角色的名稱和描述，在這個範例中，我們只會呼叫給*它通話。*\n3. 開啟 [ **音訊** ]，然後關閉所有其他動作，讓通話成為唯一開啟的許可權。\n4. 按一下 [ **儲存** ]，將該角色新增至清單。\n\n![在網路 planner 中新增角色](media/network-planner-add-persona.png)\n"
-- title: 將網站新增至您的網路方案
+  content: "接下來，您需要建立必要的角色來代表您的使用者。 由於每個位置都有只會撥打電話的專用使用者，因此您必須建立該人員。\n\n1. 在 [網路規劃工具」 頁面上，按一下 **[角色清單**，然後按一下 **+ 自訂角色。** \n2. 新增此角色的名稱和描述，在此範例中，我們只要將其稱為通話 *。*\n3. 開啟 **音訊** 並關閉其他所有功能，讓通話是唯一開啟的許可權。\n4. 按一下 **[儲存** 並新增人員名稱至清單。\n\n![在網路規劃工具中新增人員](media/network-planner-add-persona.png)\n"
+- title: 新增網站至您的網路方案
   durationInMinutes: 5
   content: >
-    現在，您需要將三個網站新增到您的網路方案中。 下表摘要列出 Contoso 網路位置的特性。
+    現在，您需要將三個網站新增到您的網路方案。 下表摘要列出 Contoso 的網路位置特性。
 
 
-    |位置       |員工總數|只撥打電話給員工|網際網路連線       |PSTN 連接                |
+    |位置       |員工總數|只打電話給員工|網際網路連接       |PSTN 連接                |
 
     |---------------|-------------------------|----------------------|--------------------------|-------------------------------|
 
-    |北京總部     |1000                     |位                    |本機網際網路            |使用直接路由的本機 PSTN|
+    |西雅圖總部     |1000                     |25                    |當地網際網路            |使用直接路由的本地 PSTN|
 
-    |Kirkland Office|400                      |第                    |遠端網際網路到 HQ|經由 HQ 的遠端 PSTN         |
+    |柯克蘭 Office|400                      |10                    |透過總部遠端網際網路|透過總部遠端 PSTN         |
 
-    |丹佛 Office  |250                      |50                    |本機網際網路            |沒有 PSTN 連接             |
+    |達科達 Office  |250                      |50                    |當地網際網路            |沒有 PSTN 連接             |
 
 
-    1. 在網路 Planner 中按一下您的網路方案。
+    1. 在 [網路規劃工具> 中按一下您的網路方案。
 
-    2. 選取 [ **網路網站** ] 索引標籤，然後按一下 [ **新增網路網站**]。
+    2. 選取 [ **網路網站>** Tab，然後按一下 [ **新增網路網站**> 。
 
 
     ![新增網路網站](media/network-planner-add-network-site.png)
 
 
-    3. 請在上述表格中填入西雅圖總部網站的詳細資料。
+    3. 使用上表填寫西雅圖總部網站的詳細資訊。
 
 
     ![新網站詳細資料](media/network-planner-add-network-site-2.png)
 
 
-    4. 由於西雅圖總部網站有局域網和本機 PSTN 連線，因此您必須正確指定這些特性。
+    4. 由於西雅圖總部網站有當地網際網路和本地 PSTN 連接，因此您必須正確地指定這些特性。
 
 
-    ![新網站出局設定](media/network-planner-add-network-site-egress.png)
+    ![新網站出口設定](media/network-planner-add-network-site-egress.png)
 
 
-    5. 按一下 [ **儲存** ] 以完成新增西雅圖總部網站的工作。
+    5. 按一下 **[儲存** 以完成新增西雅圖總部網站>。
 
-    6. 使用相同的程式建立丹佛網站。
+    6. 使用相同的程式建立一個在洛杉磯建立網站。
 
-    7. 因為 Kirkland 網站利用網際網路和 PSTN 連線的西雅圖總部連接，所以它會被視為遠端網站。 建立 Kirkland 網站時，您必須指定它已連線至 WAN，並選取 [ *遠端* ] 以進行 **網際網路出口** 和 **PSTN 出口**。
+    7. 由於Kirkland 網站利用與西雅圖總部的網際網路和 PSTN 連接，因此它被視為遠端網站。 建立Kirkland 網站時，您必須指定該網站已連接到 WAN，然後針對網際網路出口和 **PSTN** 出口選取 [遠端。
 
 
-    ![遠端網站出局設定](media/network-planner-add-remote-site-egress.png)
+    ![遠端網站出口設定](media/network-planner-add-remote-site-egress.png)
 - title: 建立報表
   durationInMinutes: 3
-  content: "現在您已新增網站，您可以建立報表。 您將在建立報表時定義您的使用者分配。\n\n1. 選取 [ **報表** ] 索引標籤，然後按一下 [ **啟動報表**]。 這將會開啟 [使用者發佈] 頁面。 首先，新增報表的名稱和描述。\n\n![建立網路 planner 報告](media/network-planner-add-report.png)  \n\n2. 當您第一次啟動報表時，系統會自動配送每個網站的使用者數目，例如80% 至 office 工人，20% 至遠端工作人員。 您可以在這裡調整每個角色的使用者數目，以符合您的使用者人數。 假設 Contoso 在每個網站的 office 工人與遠端工作者之間有相同的80/20 分割。 請務必從 office 中的使用者數目只撥打電話給角色。 產生的散佈效果看起來應該像下圖所示。\n\n![每個網站的不同角色間的使用者分配](media/network-planner-persona-distribution-2.png)\n"
+  content: "現在已新增網站，您可以建立報表。 您將在建立報表時定義使用者發佈。\n\n1. 選取 [ **報表>** 定位停駐點，然後按一下 [ **開始報表>**。 這會開啟使用者發佈頁面。 首先，新增報表的名稱和描述。\n\n![建立網路規劃工具報表](media/network-planner-add-report.png)  \n\n2. 當您第一次開始報告時，每個網站的使用者計數會自動發佈，例如 80% 會散發給辦公室工作人員，20% 會散發給遠端工作人員。 這是您將調整每個人員的使用者數目，以配合您的使用者人口。 假設 Contoso 在每個網站的辦公室工作人員與遠端工作人員之間，有相同的 80/20 分割。 請務必將通話中只有角色從辦公室的使用者人數中除名。 產生的分配應該看起來像下圖。\n\n![每個網站不同角色之間的使用者分佈](media/network-planner-persona-distribution-2.png)\n"
 - title: 分析報表輸出
   durationInMinutes: 5
-  content: "在您產生報告之後，您會看到一個畫面，其中顯示您的頻寬需求與整體與模態的特定值。 根據預設，允許的頻寬設定為30%。 您可以變更此值，然後按一下 [ **執行報表**]，查看網路頻寬的不同影響。 任何需要增加頻寬的區域都會以紅色醒目提示。\n\n![報表分析](media/network-planner-report-output.png)\n\n網路 planner 也會根據預計小組對您的網路所產生的影響，提供建議。 按一下 [建議視圖] 圖示以查看每個網站的建議（如果有的話）。 下圖顯示範例建議視圖。\n\n![[建議] 視圖](media/network-planner-recommendation-view.png)\n\n在這裡，您可以看到目前 Kirkland 網站的頻寬需要增加，才能讓團隊發揮最佳效能。 \n"
+  content: "一旦產生報表，就會看到一個畫面，顯示您的頻寬需求為整體值和特定模式值。 根據預設，允許的頻寬設定為 30%。 變更此值 **並按一下執行** 報表，即可看到網路頻寬的不同影響。 任何需要更多頻寬的區域都會以紅色顯示。\n\n![報表分析](media/network-planner-report-output.png)\n\n網路規劃工具也會根據 Teams 對您的網路的預計影響，為您提供建議。 按一下建議視圖圖示以查看每個網站的建議 （如果有）。 下圖顯示範例建議視圖。\n\n![建議視圖](media/network-planner-recommendation-view.png)\n\n您可以在這裡看到，目前需要增加Kirkland 網站的頻寬，才能從 Teams 取得最佳效果。 \n"
 - title: 其他資源
   durationInMinutes: 1
   content: >-
-    這樣就完成了網路 Planner 的範例案例。 您可以 [回到網路 Planner 文章](network-planner.md)，或查看下列資源，以取得讓您的組織準備好團隊的詳細資訊：
+    這會完成網路規劃工具的範例案例。 您可以 [回到網路](network-planner.md)規劃工具一文，或查看下列資源以取得讓貴組織準備好使用 Teams 的資訊：
 
      - [針對 Microsoft Teams 準備組織的網路](prepare-network.md)
-     - [改善及監視團隊的通話品質](monitor-call-quality-qos.md)
-     - [Office 365 URL 與 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+     - [改善及監控 Teams 的通話品質](monitor-call-quality-qos.md)
+     - [Office 365 URL 與 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)

@@ -13,97 +13,97 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何在安裝累積更新1後，使用 PowerShell 以取得商務用 Skype Server 2019 中的 SEFAUtil 功能。
-ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868550"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120504"
 ---
-# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a><span data-ttu-id="72879-103">在商務用 Skype Server 2019 中使用 SEFAUtil 功能 PowerShell</span><span class="sxs-lookup"><span data-stu-id="72879-103">Using SEFAUtil functionality via PowerShell in Skype for Business Server 2019</span></span>
+# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a><span data-ttu-id="78dad-103">在商務用 Skype Server 2019 中使用 SEFAUtil 功能 PowerShell</span><span class="sxs-lookup"><span data-stu-id="78dad-103">Using SEFAUtil functionality via PowerShell in Skype for Business Server 2019</span></span>
 
-<span data-ttu-id="72879-104">SEFAUtil （次要分機功能啟用）可讓商務用 Skype 伺服器管理員和支援人員的代理商代表商務用 Skype 伺服器使用者設定代理人震鈴、來電轉接和群組呼叫收取設定。</span><span class="sxs-lookup"><span data-stu-id="72879-104">SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Server administrators and helpdesk agents to configure delegate-ringing, call-forwarding, and Group Call Pickup settings on behalf of a Skype for Business Server user.</span></span> <span data-ttu-id="72879-105">這個工具也可讓系統管理員查詢針對特定使用者所發佈的呼叫路由設定。</span><span class="sxs-lookup"><span data-stu-id="72879-105">This tool also allows administrators to query the call-routing settings that are published for a particular user.</span></span> <span data-ttu-id="72879-106">在您安裝商務用 Skype Server 2019 年7月累計更新後，下列目前只能透過 SEFAUtil 進行管理的功能也會透過 PowerShell: 進行管理。</span><span class="sxs-lookup"><span data-stu-id="72879-106">After you install the Skype for Business Server 2019 July cumulative update, the following functionality that can currently be managed only through SEFAUtil will be also manageable through PowerShell:</span></span>
+<span data-ttu-id="78dad-104">SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype 伺服器管理員和支援人員的代理商，以商務用 Skype Server 使用者設定代理人震鈴、來電轉接和群組呼叫收取設定。</span><span class="sxs-lookup"><span data-stu-id="78dad-104">SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Server administrators and helpdesk agents to configure delegate-ringing, call-forwarding, and Group Call Pickup settings on behalf of a Skype for Business Server user.</span></span> <span data-ttu-id="78dad-105">這個工具也可讓系統管理員查詢針對特定使用者所發佈的呼叫路由設定。</span><span class="sxs-lookup"><span data-stu-id="78dad-105">This tool also allows administrators to query the call-routing settings that are published for a particular user.</span></span> <span data-ttu-id="78dad-106">在您安裝商務用 Skype Server 2019 年7月累計更新後，下列目前只能透過 SEFAUtil 進行管理的功能也會透過 PowerShell: 進行管理。</span><span class="sxs-lookup"><span data-stu-id="78dad-106">After you install the Skype for Business Server 2019 July cumulative update, the following functionality that can currently be managed only through SEFAUtil will be also manageable through PowerShell:</span></span>
 
-- [<span data-ttu-id="72879-107">來電轉接設定</span><span class="sxs-lookup"><span data-stu-id="72879-107">Call forwarding settings</span></span>](#call-forwarding-settings)
-- [<span data-ttu-id="72879-108">委派設定</span><span class="sxs-lookup"><span data-stu-id="72879-108">Delegation settings</span></span>](#delegation-settings)
-- [<span data-ttu-id="72879-109">小組成員和相關設定</span><span class="sxs-lookup"><span data-stu-id="72879-109">Team members and related settings</span></span>](#team-members-and-related-settings)
+- [<span data-ttu-id="78dad-107">來電轉接設定</span><span class="sxs-lookup"><span data-stu-id="78dad-107">Call forwarding settings</span></span>](#call-forwarding-settings)
+- [<span data-ttu-id="78dad-108">委派設定</span><span class="sxs-lookup"><span data-stu-id="78dad-108">Delegation settings</span></span>](#delegation-settings)
+- [<span data-ttu-id="78dad-109">小組成員和相關設定</span><span class="sxs-lookup"><span data-stu-id="78dad-109">Team members and related settings</span></span>](#team-members-and-related-settings)
 
-## <a name="call-forwarding-settings"></a><span data-ttu-id="72879-110">來電轉接設定</span><span class="sxs-lookup"><span data-stu-id="72879-110">Call forwarding settings</span></span>
+## <a name="call-forwarding-settings"></a><span data-ttu-id="78dad-110">來電轉接設定</span><span class="sxs-lookup"><span data-stu-id="78dad-110">Call forwarding settings</span></span>
 
-<span data-ttu-id="72879-111">管理員可以在 PowerShell: 中使用下列 Cmdlet 變更來電轉接設定</span><span class="sxs-lookup"><span data-stu-id="72879-111">Administrators can change call forwarding settings by using the following cmdlet in PowerShell:</span></span>
+<span data-ttu-id="78dad-111">管理員可以在 PowerShell: 中使用下列 Cmdlet 變更來電轉接設定</span><span class="sxs-lookup"><span data-stu-id="78dad-111">Administrators can change call forwarding settings by using the following cmdlet in PowerShell:</span></span>
 
 - `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
-<span data-ttu-id="72879-112">這個 Cmdlet 會將指定使用者的「來電轉接」設定視為物件，並在螢幕上顯示相同。</span><span class="sxs-lookup"><span data-stu-id="72879-112">This cmdlet returns the specified user’s call forwarding settings as an object and displays the same on the screen.</span></span>
+<span data-ttu-id="78dad-112">這個 Cmdlet 會將指定使用者的「來電轉接」設定視為物件，並在螢幕上顯示相同。</span><span class="sxs-lookup"><span data-stu-id="78dad-112">This cmdlet returns the specified user’s call forwarding settings as an object and displays the same on the screen.</span></span>
 
 - `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
-<span data-ttu-id="72879-113">此 Cmdlet 會修改指定使用者的「來電轉接」設定。</span><span class="sxs-lookup"><span data-stu-id="72879-113">This cmdlet modifies the specified user’s call forwarding settings.</span></span> <span data-ttu-id="72879-114">此 Cmdlet 會以物件的形式傳回指定使用者的「來電轉接」設定，並在畫面上顯示相同的畫面，以防成功。</span><span class="sxs-lookup"><span data-stu-id="72879-114">This cmdlet returns the specified user’s call forwarding settings as an object, and displays the same on the screen, in case of success.</span></span> <span data-ttu-id="72879-115">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="72879-115">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="78dad-113">此 Cmdlet 會修改指定使用者的「來電轉接」設定。</span><span class="sxs-lookup"><span data-stu-id="78dad-113">This cmdlet modifies the specified user’s call forwarding settings.</span></span> <span data-ttu-id="78dad-114">此 Cmdlet 會以物件的形式傳回指定使用者的「來電轉接」設定，並在畫面上顯示相同的畫面，以防成功。</span><span class="sxs-lookup"><span data-stu-id="78dad-114">This cmdlet returns the specified user’s call forwarding settings as an object, and displays the same on the screen, in case of success.</span></span> <span data-ttu-id="78dad-115">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="78dad-115">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-<span data-ttu-id="72879-116">此 Cmdlet 會停用使用者的來電轉接設定（這裡會顯示兩個不同的參數範例）。</span><span class="sxs-lookup"><span data-stu-id="72879-116">This cmdlet disables the user’s call forwarding settings (we show two different parameter examples here).</span></span>
+<span data-ttu-id="78dad-116">此 Cmdlet 會停用使用者的來電轉接設定 (會在這裡顯示兩個不同的參數範例) 。</span><span class="sxs-lookup"><span data-stu-id="78dad-116">This cmdlet disables the user’s call forwarding settings (we show two different parameter examples here).</span></span>
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-<span data-ttu-id="72879-117">此 Cmdlet 會修改使用者的「來電轉接」設定。</span><span class="sxs-lookup"><span data-stu-id="72879-117">This cmdlet modifies the user’s call forwarding settings.</span></span>
+<span data-ttu-id="78dad-117">此 Cmdlet 會修改使用者的「來電轉接」設定。</span><span class="sxs-lookup"><span data-stu-id="78dad-117">This cmdlet modifies the user’s call forwarding settings.</span></span>
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-<span data-ttu-id="72879-118">此 Cmdlet 會修改 SimulRing 設定（此外，有兩個參數範例，一個用於無人接聽語音信箱，第二個則是不應答）。</span><span class="sxs-lookup"><span data-stu-id="72879-118">This cmdlet modifies the SimulRing settings (again, with two parameter examples, one for unanswered to voicemail and the second being unanswered to other).</span></span>
+<span data-ttu-id="78dad-118">此 Cmdlet 會再次修改 SimulRing 設定 (，其中有兩個參數範例，一個用於無人接聽語音信箱，第二個則是在其他) 中回復。</span><span class="sxs-lookup"><span data-stu-id="78dad-118">This cmdlet modifies the SimulRing settings (again, with two parameter examples, one for unanswered to voicemail and the second being unanswered to other).</span></span>
 
-## <a name="delegation-settings"></a><span data-ttu-id="72879-119">委派設定</span><span class="sxs-lookup"><span data-stu-id="72879-119">Delegation settings</span></span>
+## <a name="delegation-settings"></a><span data-ttu-id="78dad-119">委派設定</span><span class="sxs-lookup"><span data-stu-id="78dad-119">Delegation settings</span></span>
 
-<span data-ttu-id="72879-120">管理員可以在 PowerShell: 中使用下列 Cmdlet 變更委派設定</span><span class="sxs-lookup"><span data-stu-id="72879-120">Administrators can change delegation settings by using the following cmdlet in PowerShell:</span></span>
+<span data-ttu-id="78dad-120">管理員可以在 PowerShell: 中使用下列 Cmdlet 變更委派設定</span><span class="sxs-lookup"><span data-stu-id="78dad-120">Administrators can change delegation settings by using the following cmdlet in PowerShell:</span></span>
 
 - `Get-CsuserDelegates -Identity <UserIdParameter>`
 
-<span data-ttu-id="72879-121">此 Cmdlet 會傳回代理人清單的物件，並顯示指定使用者的代理人清單（如果成功）。</span><span class="sxs-lookup"><span data-stu-id="72879-121">This cmdlet returns an object of delegates list, and displays the specified user’s delegate list, in case of success.</span></span> <span data-ttu-id="72879-122">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="72879-122">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="78dad-121">此 Cmdlet 會傳回代理人清單的物件，並顯示指定使用者的代理人清單（如果成功）。</span><span class="sxs-lookup"><span data-stu-id="78dad-121">This cmdlet returns an object of delegates list, and displays the specified user’s delegate list, in case of success.</span></span> <span data-ttu-id="78dad-122">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="78dad-122">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-<span data-ttu-id="72879-123">此 Cmdlet 會修改指定使用者的委派設定，傳回代理人清單的物件，並顯示代理人清單，以防成功。</span><span class="sxs-lookup"><span data-stu-id="72879-123">This cmdlet modifies the specified user’s delegation settings, returns an object of delegates list and displays the list of delegates, in case of success.</span></span> <span data-ttu-id="72879-124">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="72879-124">In case of failure, an appropriate error message will be shown.</span></span> 
+<span data-ttu-id="78dad-123">此 Cmdlet 會修改指定使用者的委派設定，傳回代理人清單的物件，並顯示代理人清單，以防成功。</span><span class="sxs-lookup"><span data-stu-id="78dad-123">This cmdlet modifies the specified user’s delegation settings, returns an object of delegates list and displays the list of delegates, in case of success.</span></span> <span data-ttu-id="78dad-124">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="78dad-124">In case of failure, an appropriate error message will be shown.</span></span> 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
-<span data-ttu-id="72879-125">此 Cmdlet 會新增或移除代理人。</span><span class="sxs-lookup"><span data-stu-id="72879-125">This cmdlet adds or removes a delegate.</span></span>
+<span data-ttu-id="78dad-125">此 Cmdlet 會新增或移除代理人。</span><span class="sxs-lookup"><span data-stu-id="78dad-125">This cmdlet adds or removes a delegate.</span></span>
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]`
 
-<span data-ttu-id="72879-126">此 Cmdlet 會將委派清單設定為特定代理人。</span><span class="sxs-lookup"><span data-stu-id="72879-126">This cmdlet sets a delegate list to specific delegates.</span></span>
+<span data-ttu-id="78dad-126">此 Cmdlet 會將委派清單設定為特定代理人。</span><span class="sxs-lookup"><span data-stu-id="78dad-126">This cmdlet sets a delegate list to specific delegates.</span></span>
 
-## <a name="team-members-and-related-settings"></a><span data-ttu-id="72879-127">小組成員和相關設定</span><span class="sxs-lookup"><span data-stu-id="72879-127">Team members and related settings</span></span>
+## <a name="team-members-and-related-settings"></a><span data-ttu-id="78dad-127">小組成員和相關設定</span><span class="sxs-lookup"><span data-stu-id="78dad-127">Team members and related settings</span></span>
 
-<span data-ttu-id="72879-128">管理員可以在 PowerShell: 中使用下列 Cmdlet 變更小組成員和相關設定。</span><span class="sxs-lookup"><span data-stu-id="72879-128">Administrators can change team members and related settings by using the following cmdlet in PowerShell:</span></span>
+<span data-ttu-id="78dad-128">管理員可以在 PowerShell: 中使用下列 Cmdlet 變更小組成員和相關設定。</span><span class="sxs-lookup"><span data-stu-id="78dad-128">Administrators can change team members and related settings by using the following cmdlet in PowerShell:</span></span>
 
 - `Get-CsUserTeamMembers -Identity <UserIdParameter>`
 
-<span data-ttu-id="72879-129">此 Cmdlet 會傳回包含小組成員清單的物件，並在畫面上顯示物件，以防成功。</span><span class="sxs-lookup"><span data-stu-id="72879-129">This cmdlet returns an object that contains list of team members, and displays the object on screen, in case of success.</span></span> <span data-ttu-id="72879-130">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="72879-130">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="78dad-129">此 Cmdlet 會傳回包含小組成員清單的物件，並在畫面上顯示物件，以防成功。</span><span class="sxs-lookup"><span data-stu-id="78dad-129">This cmdlet returns an object that contains list of team members, and displays the object on screen, in case of success.</span></span> <span data-ttu-id="78dad-130">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="78dad-130">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team <PSListModifier>]`
 
-<span data-ttu-id="72879-131">此 Cmdlet 會修改指定使用者的小組成員清單，傳回包含小組成員清單的物件，並在畫面上顯示物件，以防成功。</span><span class="sxs-lookup"><span data-stu-id="72879-131">This cmdlet modifies the specified user’s team members list, returns an object that contains the team member list and displays the object on the screen, in case of success.</span></span> <span data-ttu-id="72879-132">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="72879-132">In case of failure, an appropriate error message will be shown.</span></span>
+<span data-ttu-id="78dad-131">此 Cmdlet 會修改指定使用者的小組成員清單，傳回包含小組成員清單的物件，並在畫面上顯示物件，以防成功。</span><span class="sxs-lookup"><span data-stu-id="78dad-131">This cmdlet modifies the specified user’s team members list, returns an object that contains the team member list and displays the object on the screen, in case of success.</span></span> <span data-ttu-id="78dad-132">如果失敗，就會顯示適當的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="78dad-132">In case of failure, an appropriate error message will be shown.</span></span>
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{add=[list]}] [-Team @{remove=[list]}]`
 
-<span data-ttu-id="72879-133">此 Cmdlet 會新增或移除小組成員。</span><span class="sxs-lookup"><span data-stu-id="72879-133">This cmdlet adds or removes team members.</span></span>
+<span data-ttu-id="78dad-133">此 Cmdlet 會新增或移除小組成員。</span><span class="sxs-lookup"><span data-stu-id="78dad-133">This cmdlet adds or removes team members.</span></span>
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{replace=[list]}]`
 
-<span data-ttu-id="72879-134">此 Cmdlet 會將小組清單設為特定成員。</span><span class="sxs-lookup"><span data-stu-id="72879-134">This cmdlet sets a team list to specific members.</span></span>
+<span data-ttu-id="78dad-134">此 Cmdlet 會將小組清單設為特定成員。</span><span class="sxs-lookup"><span data-stu-id="78dad-134">This cmdlet sets a team list to specific members.</span></span>
 
-## <a name="more-information"></a><span data-ttu-id="72879-135">詳細資訊</span><span class="sxs-lookup"><span data-stu-id="72879-135">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="78dad-135">其他相關資訊</span><span class="sxs-lookup"><span data-stu-id="78dad-135">More information</span></span>
 
-<span data-ttu-id="72879-136">在內部部署中，此功能中引入的指令程式只能由下列群組的成員執行，依下列所指定的訪問層級：</span><span class="sxs-lookup"><span data-stu-id="72879-136">For on-premises deployments, the cmdlets introduced in this feature can only be run by members of the following groups, per the access level specified below:</span></span>
+<span data-ttu-id="78dad-136">在內部部署中，此功能中引入的指令程式只能由下列群組的成員執行，依下列所指定的訪問層級：</span><span class="sxs-lookup"><span data-stu-id="78dad-136">For on-premises deployments, the cmdlets introduced in this feature can only be run by members of the following groups, per the access level specified below:</span></span>
 
-- <span data-ttu-id="72879-137">CsAdministrator –取得及設定所有 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="72879-137">CsAdministrator – Get and Set for all cmdlets</span></span>
-- <span data-ttu-id="72879-138">CsVoiceAdministrator-取得及設定所有 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="72879-138">CsVoiceAdministrator - Get and Set for all cmdlets</span></span>
-- <span data-ttu-id="72879-139">所有 Cmdlet 的 CsHelpDesk-取得</span><span class="sxs-lookup"><span data-stu-id="72879-139">CsHelpDesk - Get for all cmdlets</span></span>
+- <span data-ttu-id="78dad-137">CsAdministrator –取得及設定所有 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="78dad-137">CsAdministrator – Get and Set for all cmdlets</span></span>
+- <span data-ttu-id="78dad-138">CsVoiceAdministrator-取得及設定所有 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="78dad-138">CsVoiceAdministrator - Get and Set for all cmdlets</span></span>
+- <span data-ttu-id="78dad-139">所有 Cmdlet 的 CsHelpDesk-取得</span><span class="sxs-lookup"><span data-stu-id="78dad-139">CsHelpDesk - Get for all cmdlets</span></span>
 
-<span data-ttu-id="72879-140">如需這些系統管理員角色的詳細資訊，請參閱[建立商務用 Skype Server 控制台系統管理員](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。</span><span class="sxs-lookup"><span data-stu-id="72879-140">For more information on these administrator roles, see [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md).</span></span> <span data-ttu-id="72879-141">管理員可以直接或遠端登入伺服器電腦，存取這些 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="72879-141">The administrator can access these cmdlets by directly or remotely logging on to a server computer.</span></span>
-<span data-ttu-id="72879-142">若為混合式部署，商務用 Skype 管理員應該可以為所有 Cmdlet 呼叫 Get 及 Set。</span><span class="sxs-lookup"><span data-stu-id="72879-142">For a hybrid deployment, Skype for Business administrators should be able to call Get and Set for all cmdlets.</span></span> <span data-ttu-id="72879-143">如需完整角色清單的詳細資訊，請參閱[關於系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)。</span><span class="sxs-lookup"><span data-stu-id="72879-143">For more information about the full list of roles, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).</span></span>
+<span data-ttu-id="78dad-140">如需這些系統管理員角色的詳細資訊，請參閱 [建立商務用 Skype Server 控制台系統管理員](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。</span><span class="sxs-lookup"><span data-stu-id="78dad-140">For more information on these administrator roles, see [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md).</span></span> <span data-ttu-id="78dad-141">管理員可以直接或遠端登入伺服器電腦，存取這些 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="78dad-141">The administrator can access these cmdlets by directly or remotely logging on to a server computer.</span></span>
+<span data-ttu-id="78dad-142">若為混合式部署，商務用 Skype 管理員應該可以為所有 Cmdlet 呼叫 Get 及 Set。</span><span class="sxs-lookup"><span data-stu-id="78dad-142">For a hybrid deployment, Skype for Business administrators should be able to call Get and Set for all cmdlets.</span></span> <span data-ttu-id="78dad-143">如需完整角色清單的詳細資訊，請參閱 [關於系統管理員角色](/microsoft-365/admin/add-users/about-admin-roles)。</span><span class="sxs-lookup"><span data-stu-id="78dad-143">For more information about the full list of roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="72879-144">必須啟用伺服器自動探索。</span><span class="sxs-lookup"><span data-stu-id="72879-144">Server auto-discovery must be enabled.</span></span> <span data-ttu-id="72879-145">不會引入其他授權需求，以供使用 Cmdlet 使用。</span><span class="sxs-lookup"><span data-stu-id="72879-145">No additional licensing requirements will be introduced for use of the cmdlets.</span></span>
+> <span data-ttu-id="78dad-144">必須啟用伺服器自動探索。</span><span class="sxs-lookup"><span data-stu-id="78dad-144">Server auto-discovery must be enabled.</span></span> <span data-ttu-id="78dad-145">不會引入其他授權需求，以供使用 Cmdlet 使用。</span><span class="sxs-lookup"><span data-stu-id="78dad-145">No additional licensing requirements will be introduced for use of the cmdlets.</span></span>
