@@ -18,104 +18,102 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 在 Windows PowerShell 中使用 CsOnlineUser Cmdlet，以取得貴組織商務用 Skype Online 使用者的相關資訊。
-ms.openlocfilehash: 97d717d3472ae96dc66ad58ee5699f3f646a0f3b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 使用 windows Get-CsOnlineUser Windows PowerShell 中的 Cmdlet 來取得貴組織的商務用 Skype Online 使用者相關資訊。
+ms.openlocfilehash: a4675bdb438dd81f9c72aa743134f9a444f0d1f9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706238"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113149"
 ---
-# <a name="manage-user-accounts"></a><span data-ttu-id="e1dad-103">管理使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="e1dad-103">Manage user accounts</span></span>
+# <a name="manage-user-accounts"></a><span data-ttu-id="086a8-103">管理使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="086a8-103">Manage user accounts</span></span>
 
-## <a name="manage-user-accounts"></a><span data-ttu-id="e1dad-104">管理使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="e1dad-104">Manage user accounts</span></span>
+## <a name="manage-user-accounts"></a><span data-ttu-id="086a8-104">管理使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="086a8-104">Manage user accounts</span></span>
 
-<span data-ttu-id="e1dad-105">本主題包含下列各節：</span><span class="sxs-lookup"><span data-stu-id="e1dad-105">This topic contains the following sections:</span></span>
+<span data-ttu-id="086a8-105">本主題包含下列各節：</span><span class="sxs-lookup"><span data-stu-id="086a8-105">This topic contains the following sections:</span></span>
 
-- [<span data-ttu-id="e1dad-106">傳回所有 Lync Online 使用者的相關資訊</span><span class="sxs-lookup"><span data-stu-id="e1dad-106">Return information about all your Skype for Business Online users</span></span>](manage-user-accounts.md#BKMKReturnInfoAboutAllUsers)
+- [<span data-ttu-id="086a8-106">傳回所有 Lync Online 使用者的相關資訊</span><span class="sxs-lookup"><span data-stu-id="086a8-106">Return information about all your Skype for Business Online users</span></span>](manage-user-accounts.md#BKMKReturnInfoAboutAllUsers)
 
-- [<span data-ttu-id="e1dad-107">在商務用 Skype Online 中針對特定使用者返回資訊</span><span class="sxs-lookup"><span data-stu-id="e1dad-107">Return information for a specific user in Skype for Business Online</span></span>](manage-user-accounts.md#BKMKReturnInfoSpecificUser)
+- [<span data-ttu-id="086a8-107">在商務用 Skype Online 中返回特定使用者的資訊</span><span class="sxs-lookup"><span data-stu-id="086a8-107">Return information for a specific user in Skype for Business Online</span></span>](manage-user-accounts.md#BKMKReturnInfoSpecificUser)
 
-- [<span data-ttu-id="e1dad-108">針對商務用 Skype Online 中的特定使用者傳回特定資訊</span><span class="sxs-lookup"><span data-stu-id="e1dad-108">Return specific information for specific users in Skype for Business Online</span></span>](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
+- [<span data-ttu-id="086a8-108">在商務用 Skype Online 中，針對特定使用者返回特定資訊</span><span class="sxs-lookup"><span data-stu-id="086a8-108">Return specific information for specific users in Skype for Business Online</span></span>](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
 
-- [<span data-ttu-id="e1dad-109">在商務用 Skype Online 中返回篩選的使用者清單</span><span class="sxs-lookup"><span data-stu-id="e1dad-109">Return a filtered list of users in Skype for Business Online</span></span>](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
+- [<span data-ttu-id="086a8-109">在商務用 Skype Online 中返回已篩選的使用者清單</span><span class="sxs-lookup"><span data-stu-id="086a8-109">Return a filtered list of users in Skype for Business Online</span></span>](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
 
 > [!NOTE]
-> <span data-ttu-id="e1dad-110">**Move-csuser** Cmdlet 也包含在商務用 Skype Online 系統管理員所提供的一組 Cmdlet 中。</span><span class="sxs-lookup"><span data-stu-id="e1dad-110">The **Set-CsUser** cmdlet is also included in the set of cmdlets available to Skype for Business Online admins.</span></span> <span data-ttu-id="e1dad-111">不過， **move-csuser**目前無法用來管理商務用 Skype Online，除非設定_AudioVideoDisabled_參數。</span><span class="sxs-lookup"><span data-stu-id="e1dad-111">However, **Set-CsUser** cannot currently be used to manage Skype for Business Online, except for setting the _AudioVideoDisabled_ parameter.</span></span> <span data-ttu-id="e1dad-112">如果您嘗試使用任何其他參數執行 Cmdlet，則會失敗，並出現類似以下的錯誤訊息：無法設定 "SipAddress"。</span><span class="sxs-lookup"><span data-stu-id="e1dad-112">If you attempt to run the cmdlet with any other parameter, it will fail with an error message similar to this: Unable to set "SipAddress".</span></span> <span data-ttu-id="e1dad-113">此參數在遠端租使用者 PowerShell 中受到限制。</span><span class="sxs-lookup"><span data-stu-id="e1dad-113">This parameter is restricted within Remote Tenant PowerShell.</span></span>
+> <span data-ttu-id="086a8-110">**Set-CsUser** Cmdlet 也包含在商務用 Skype Online 系統管理員可用的一組 Cmdlet 中。</span><span class="sxs-lookup"><span data-stu-id="086a8-110">The **Set-CsUser** cmdlet is also included in the set of cmdlets available to Skype for Business Online admins.</span></span> <span data-ttu-id="086a8-111">不過，除了設定 _AudioVideoDisabled_ 參數之外 **，Set-CsUser** 目前無法用來管理商務用 Skype Online。</span><span class="sxs-lookup"><span data-stu-id="086a8-111">However, **Set-CsUser** cannot currently be used to manage Skype for Business Online, except for setting the _AudioVideoDisabled_ parameter.</span></span> <span data-ttu-id="086a8-112">如果您嘗試使用任何其他參數執行 Cmdlet，它會失敗，出現錯誤訊息，類似：無法設定「SipAddress」。</span><span class="sxs-lookup"><span data-stu-id="086a8-112">If you attempt to run the cmdlet with any other parameter, it will fail with an error message similar to this: Unable to set "SipAddress".</span></span> <span data-ttu-id="086a8-113">此參數在遠端租使用者 PowerShell 中受到限制。</span><span class="sxs-lookup"><span data-stu-id="086a8-113">This parameter is restricted within Remote Tenant PowerShell.</span></span>
 
-### <a name="return-information-about-all-your-skype-for-business-online-users"></a><span data-ttu-id="e1dad-114">傳回所有 Lync Online 使用者的相關資訊</span><span class="sxs-lookup"><span data-stu-id="e1dad-114">Return information about all your Skype for Business Online users</span></span>
-<span data-ttu-id="e1dad-115"><a name="BKMKReturnInfoAboutAllUsers"> </a></span><span class="sxs-lookup"><span data-stu-id="e1dad-115"><a name="BKMKReturnInfoAboutAllUsers"> </a></span></span>
+### <a name="return-information-about-all-your-skype-for-business-online-users"></a><span data-ttu-id="086a8-114">傳回所有 Lync Online 使用者的相關資訊</span><span class="sxs-lookup"><span data-stu-id="086a8-114">Return information about all your Skype for Business Online users</span></span>
+<span data-ttu-id="086a8-115"><a name="BKMKReturnInfoAboutAllUsers"> </a></span><span class="sxs-lookup"><span data-stu-id="086a8-115"><a name="BKMKReturnInfoAboutAllUsers"> </a></span></span>
 
-<span data-ttu-id="e1dad-116">若要傳回已針對商務用 Skype Online 啟用的所有使用者的相關資訊，請呼叫[CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) Cmdlet （不含任何其他參數）。</span><span class="sxs-lookup"><span data-stu-id="e1dad-116">To return information about all your users who have been enabled for Skype for Business Online, call the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet without any additional parameters.</span></span>
+<span data-ttu-id="086a8-116">若要返回已啟用商務用 Skype Online 的所有使用者相關資訊，請撥打 [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) Cmdlet，而不需要任何其他參數。</span><span class="sxs-lookup"><span data-stu-id="086a8-116">To return information about all your users who have been enabled for Skype for Business Online, call the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet without any additional parameters.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser
 ```
 
-<span data-ttu-id="e1dad-117">若要針對單一、隨機選取的使用者傳回信息（例如，將此帳戶用於測試目的），請呼叫**CsOnlineUser** Cmdlet，並將_ResultSize_參數設定為1。</span><span class="sxs-lookup"><span data-stu-id="e1dad-117">To return information for a single, randomly selected user (for example, to use this account for test purposes), call the **Get-CsOnlineUser** cmdlet and set the _ResultSize_ parameter to 1.</span></span>
+<span data-ttu-id="086a8-117">若要返回單一隨機選取使用者 (的資訊，例如，若要使用此帳戶做為測試用途) ，請撥打 **Get-CsOnlineUser** Cmdlet，將 _ResultSize_ 參數設為 1。</span><span class="sxs-lookup"><span data-stu-id="086a8-117">To return information for a single, randomly selected user (for example, to use this account for test purposes), call the **Get-CsOnlineUser** cmdlet and set the _ResultSize_ parameter to 1.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 1
 ```
 
-<span data-ttu-id="e1dad-118">這會讓**CsOnlineUser** Cmdlet 只傳回一位使用者的資訊，不論貴組織有多少使用者。</span><span class="sxs-lookup"><span data-stu-id="e1dad-118">That causes the **Get-CsOnlineUser** cmdlet to return information for just one user, regardless of how many users you have in your organization.</span></span> <span data-ttu-id="e1dad-119">若要傳回五個使用者的資訊，請將_ResultSize_參數的值設定為5。</span><span class="sxs-lookup"><span data-stu-id="e1dad-119">To return information for five users, set the value of the _ResultSize_ parameter to 5.</span></span>
+<span data-ttu-id="086a8-118">這會使 **Get-CsOnlineUser** Cmdlet 只針對一個使用者返回資訊，無論您組織中有多少使用者。</span><span class="sxs-lookup"><span data-stu-id="086a8-118">That causes the **Get-CsOnlineUser** cmdlet to return information for just one user, regardless of how many users you have in your organization.</span></span> <span data-ttu-id="086a8-119">若要返回五個使用者的資訊，請設定 _ResultSize 參數_ 的值為 5。</span><span class="sxs-lookup"><span data-stu-id="086a8-119">To return information for five users, set the value of the _ResultSize_ parameter to 5.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 5
 ```
 
-### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a><span data-ttu-id="e1dad-120">在商務用 Skype Online 中針對特定使用者返回資訊</span><span class="sxs-lookup"><span data-stu-id="e1dad-120">Return information for a specific user in Skype for Business Online</span></span>
-<span data-ttu-id="e1dad-121"><a name="BKMKReturnInfoSpecificUser"> </a></span><span class="sxs-lookup"><span data-stu-id="e1dad-121"><a name="BKMKReturnInfoSpecificUser"> </a></span></span>
+### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a><span data-ttu-id="086a8-120">在商務用 Skype Online 中返回特定使用者的資訊</span><span class="sxs-lookup"><span data-stu-id="086a8-120">Return information for a specific user in Skype for Business Online</span></span>
+<span data-ttu-id="086a8-121"><a name="BKMKReturnInfoSpecificUser"> </a></span><span class="sxs-lookup"><span data-stu-id="086a8-121"><a name="BKMKReturnInfoSpecificUser"> </a></span></span>
 
-<span data-ttu-id="e1dad-122">在呼叫[CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) Cmdlet 時，有多種方式可以參考特定的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="e1dad-122">There are multiple ways of referencing a specific user account when calling the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet.</span></span> <span data-ttu-id="e1dad-123">您可以使用使用者的 Active Directory 網域服務（AD DS）顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="e1dad-123">You can use the user's Active Directory Domain Services (AD DS) display name.</span></span>
+<span data-ttu-id="086a8-122">在呼叫 [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) Cmdlet 時，有多種方式可參照特定使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="086a8-122">There are multiple ways of referencing a specific user account when calling the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet.</span></span> <span data-ttu-id="086a8-123">您可以使用使用者的 Active Directory 網域服務 (AD DS) 顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="086a8-123">You can use the user's Active Directory Domain Services (AD DS) display name.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
 ```
 
-<span data-ttu-id="e1dad-124">您可以使用使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="e1dad-124">You can use the user's SIP address.</span></span>
+<span data-ttu-id="086a8-124">您可以使用使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="086a8-124">You can use the user's SIP address.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
-<span data-ttu-id="e1dad-125">您可以使用使用者的使用者主要名稱（UPN）。</span><span class="sxs-lookup"><span data-stu-id="e1dad-125">You can use the user's user principal name (UPN).</span></span>
+<span data-ttu-id="086a8-125">您可以使用使用者的使用者主體名稱 (UPN) 。</span><span class="sxs-lookup"><span data-stu-id="086a8-125">You can use the user's user principal name (UPN).</span></span>
 
 ```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
-### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a><span data-ttu-id="e1dad-126">針對商務用 Skype Online 中的特定使用者傳回特定資訊</span><span class="sxs-lookup"><span data-stu-id="e1dad-126">Return specific information for specific users in Skype for Business Online</span></span>
-<span data-ttu-id="e1dad-127"><a name="BKMKReturninfoSpecificUsers"> </a></span><span class="sxs-lookup"><span data-stu-id="e1dad-127"><a name="BKMKReturninfoSpecificUsers"> </a></span></span>
+### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a><span data-ttu-id="086a8-126">在商務用 Skype Online 中，針對特定使用者返回特定資訊</span><span class="sxs-lookup"><span data-stu-id="086a8-126">Return specific information for specific users in Skype for Business Online</span></span>
+<span data-ttu-id="086a8-127"><a name="BKMKReturninfoSpecificUsers"> </a></span><span class="sxs-lookup"><span data-stu-id="086a8-127"><a name="BKMKReturninfoSpecificUsers"> </a></span></span>
 
-<span data-ttu-id="e1dad-128">根據預設， [CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) Cmdlet 會針對每個商務用 Skype Online 使用者帳戶傳回大量的資訊。</span><span class="sxs-lookup"><span data-stu-id="e1dad-128">By default, the [Get-CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) cmdlet returns a huge amount of information for each Skype for Business Online user account.</span></span> <span data-ttu-id="e1dad-129">如果您只對該資訊的子集感興趣，請將傳回的資料管道傳送給**Select 物件**Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="e1dad-129">If you are interested in only a subset of that information, pipe the returned data to the **Select-Object** cmdlet.</span></span> <span data-ttu-id="e1dad-130">例如，這個命令會傳回使用者 Ken Myer 的所有資料，然後使用**Select 物件**Cmdlet 來限制在螢幕上顯示的資訊，以便將顯示的資訊限制在與 KEN 的 AD DS 顯示名稱和撥號計畫。</span><span class="sxs-lookup"><span data-stu-id="e1dad-130">For example, this command returns all the data for the user Ken Myer, and then uses the **Select-Object** cmdlet to limit the information displayed onscreen to Ken's AD DS display name and dial plan.</span></span>
+<span data-ttu-id="086a8-128">根據預設 [，Get-CsOnlineUser Cmdlet](/powershell/module/skype/Get-CsOnlineUser) 會針對每個商務用 Skype Online 使用者帳戶，返回大量的資訊。</span><span class="sxs-lookup"><span data-stu-id="086a8-128">By default, the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet returns a huge amount of information for each Skype for Business Online user account.</span></span> <span data-ttu-id="086a8-129">如果您只對該資訊的子集感興趣，請用管道將返回的資料傳輸至 **Select-Object** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="086a8-129">If you are interested in only a subset of that information, pipe the returned data to the **Select-Object** cmdlet.</span></span> <span data-ttu-id="086a8-130">例如，此命令會為使用者 Ken Myer 返回所有資料，然後使用 **Select-Object** Cmdlet 將螢幕上顯示的資訊限制為 Ken 的 AD DS 顯示名稱和撥號方案。</span><span class="sxs-lookup"><span data-stu-id="086a8-130">For example, this command returns all the data for the user Ken Myer, and then uses the **Select-Object** cmdlet to limit the information displayed onscreen to Ken's AD DS display name and dial plan.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
-<span data-ttu-id="e1dad-131">下列命令會傳回所有使用者的顯示名稱和撥號計畫。</span><span class="sxs-lookup"><span data-stu-id="e1dad-131">The following command returns the display name and dial plan for all your users.</span></span>
+<span data-ttu-id="086a8-131">下列命令會針對所有使用者返回顯示名稱和撥號方案。</span><span class="sxs-lookup"><span data-stu-id="086a8-131">The following command returns the display name and dial plan for all your users.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
-<span data-ttu-id="e1dad-132">若要尋找商務用 Skype Online 使用者帳戶的屬性，請使用下列命令。</span><span class="sxs-lookup"><span data-stu-id="e1dad-132">To find the properties of a Skype for Business Online user account, use the following command.</span></span>
+<span data-ttu-id="086a8-132">若要尋找商務用 Skype Online 使用者帳戶的屬性，請使用下列命令。</span><span class="sxs-lookup"><span data-stu-id="086a8-132">To find the properties of a Skype for Business Online user account, use the following command.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser | Get-Member
 ```
 
-### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a><span data-ttu-id="e1dad-133">在商務用 Skype Online 中返回篩選的使用者清單</span><span class="sxs-lookup"><span data-stu-id="e1dad-133">Return a filtered list of users in Skype for Business Online</span></span>
-<span data-ttu-id="e1dad-134"><a name="BKMKReturnFilteredListofUsers"> </a></span><span class="sxs-lookup"><span data-stu-id="e1dad-134"><a name="BKMKReturnFilteredListofUsers"> </a></span></span>
+### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a><span data-ttu-id="086a8-133">在商務用 Skype Online 中返回已篩選的使用者清單</span><span class="sxs-lookup"><span data-stu-id="086a8-133">Return a filtered list of users in Skype for Business Online</span></span>
+<span data-ttu-id="086a8-134"><a name="BKMKReturnFilteredListofUsers"> </a></span><span class="sxs-lookup"><span data-stu-id="086a8-134"><a name="BKMKReturnFilteredListofUsers"> </a></span></span>
 
-<span data-ttu-id="e1dad-135">透過使用[CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) Cmdlet 和_LdapFilter_或_Filter_參數，您可以輕鬆地傳回一組目標使用者的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="e1dad-135">By using the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet and the _LdapFilter_ or _Filter_ parameters, you can easily return information about a targeted set of users.</span></span> <span data-ttu-id="e1dad-136">例如，這個命令會傳回在財務部門中工作的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="e1dad-136">For example, this command returns all the users who work in the Finance department.</span></span>
+<span data-ttu-id="086a8-135">使用 [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) Cmdlet 和 _LdapFilter_ 或 _Filter_ 參數，您可以輕鬆地返回一組目標使用者的資訊。</span><span class="sxs-lookup"><span data-stu-id="086a8-135">By using the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet and the _LdapFilter_ or _Filter_ parameters, you can easily return information about a targeted set of users.</span></span> <span data-ttu-id="086a8-136">例如，此命令會返回在財務部門工作的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="086a8-136">For example, this command returns all the users who work in the Finance department.</span></span>
 
 ```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="e1dad-137">相關主題</span><span class="sxs-lookup"><span data-stu-id="e1dad-137">Related topics</span></span>
-[<span data-ttu-id="e1dad-138">使用 Windows PowerShell 設定商務用 skype online 管理電腦</span><span class="sxs-lookup"><span data-stu-id="e1dad-138">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
-
-
+## <a name="related-topics"></a><span data-ttu-id="086a8-137">相關主題</span><span class="sxs-lookup"><span data-stu-id="086a8-137">Related topics</span></span>
+[<span data-ttu-id="086a8-138">使用 Windows PowerShell 設定商務用 Skype 線上管理的電腦</span><span class="sxs-lookup"><span data-stu-id="086a8-138">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
