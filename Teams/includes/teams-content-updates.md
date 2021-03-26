@@ -10,14 +10,13 @@
 |------|------------|--------|
 | 3/15/2021 | [Microsoft Teams 裝置監控與警示](../alerts/device-health-status.md) | 添加 |
 | 3/15/2021 | [Microsoft Teams 監控與警示](../alerts/teams-admin-alerts.md) | 添加 |
-| 3/15/2021 | [將您移至 Microsoft Teams](../implement-your-move.md) | 添加 |
 | 3/15/2021 | [Teams 和 Outlook 電子郵件整合](../teams-outlook-email-integration.md) | 改 性 |
 | 3/15/2021 | [共用至 Teams](../teams-outlook-share-teams.md) | 添加 |
 | 3/16/2021 | [在 Microsoft Teams 中建立自訂小組範本](../create-a-team-template.md) | 改 性 |
 | 3/16/2021 | [規劃直接路由](../direct-routing-plan.md) | 改 性 |
 | 3/16/2021 | [電話系統直接路由](../direct-routing-protocols-sip.md) | 改 性 |
 | 3/16/2021 | [Microsoft Teams 的資訊障礙](../information-barriers-in-teams.md) | 改 性 |
-| 3/16/2021 | [安全性與合規性概觀](../security-compliance-overview.md) | 改 性 |
+| 3/16/2021 | [安全性和合規性概觀](../security-compliance-overview.md) | 改 性 |
 | 3/17/2021 | [Business Voice 的適用國家與地區](../business-voice/country-region-availability.md) | 改 性 |
 | 3/17/2021 | [使用 Microsoft Teams 匯出 API 匯出內容](../export-teams-content.md) | 改 性 |
 | 3/17/2021 | [在 Microsoft Teams 中重設音訊會議 PIN](../reset-the-audio-conferencing-pin-in-teams.md) | 改 性 |
@@ -43,7 +42,7 @@
 | 3/18/2021 | [管理和篩選 Microsoft Teams 裝置標記](../devices/manage-device-tags.md) | 改 性 |
 | 3/18/2021 | [Teams 的裝置](../devices/teams-ip-phones.md) | 改 性 |
 | 3/18/2021 | [Microsoft Teams 面板](../devices/teams-panels.md) | 改 性 |
-| 3/18/2021 | [將會話邊界控制器 (SBC) 直接路由](../direct-routing-connect-the-sbc.md) | 改 性 |
+| 3/18/2021 | [將您的會話邊界控制器 (SBC) 直接路由](../direct-routing-connect-the-sbc.md) | 改 性 |
 | 3/18/2021 | [使用 Microsoft Teams 匯出 API 匯出內容](../export-teams-content.md) | 改 性 |
 | 3/18/2021 | [Microsoft Teams 的資訊障礙](../information-barriers-in-teams.md) | 改 性 |
 | 3/18/2021 | [Microsoft Teams 的限制和規格](../limits-specifications-teams.md) | 改 性 |
@@ -60,7 +59,7 @@
 | 3/18/2021 | [安裝 Microsoft Teams PowerShell](../teams-powershell-install.md) | 改 性 |
 | 3/18/2021 | [Microsoft Teams PowerShell 版本資訊](../teams-powershell-release-notes.md) | 改 性 |
 | 3/18/2021 | [在系統管理中心管理 Teams 範本](../templates-policies.md) | 改 性 |
-| 3/18/2021 | [使用 Microsoft Teams 系統管理員角色管理 Teams](../using-admin-roles.md) | 改 性 |
+| 3/18/2021 | [使用 Microsoft Teams 系統管理員角色來管理 Teams](../using-admin-roles.md) | 改 性 |
 | 3/18/2021 | [虛擬就診的 Teams](../expand-teams-across-your-org/healthcare/ehr-admin.md) | 改 性 |
 | 3/18/2021 | [僅供檢視會議體驗](../view-only-meeting-experience.md) | 改 性 |
 | 3/18/2021 | [Microsoft Teams 中的 Walkie Talkie 應用程式](../walkie-talkie.md) | 改 性 |

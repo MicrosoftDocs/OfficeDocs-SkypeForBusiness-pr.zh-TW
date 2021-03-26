@@ -17,12 +17,12 @@ description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119162"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262655"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的即時活動錄製政策
 
@@ -50,9 +50,9 @@ ms.locfileid: "51119162"
 
 |                                 | 錄製者與簡報者可以使用錄製 | 出席者可以使用錄製 |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| 永遠錄製               | 已停用並選取                                | 已停用並選取         |
-| 召集人可以錄製或無法錄製 | 預設為已啟用且未選取                  | 預設為已啟用且未選取   |
-| 永不錄製               | 已停用且未選取                            | 已停用且未選取      |
+| 永遠錄製               | 已停用並選取                                | 已啟用並選取         |
+| 召集人可以錄製或無法錄製 | 預設為啟用和選取                  | 預設為啟用和選取   |
+| 永不錄製               | 已停用且未選取                            | 已啟用且未選取      |
 
 當策略設定為永遠記錄 **時，** 該策略頁面具有下列選取選項：
 

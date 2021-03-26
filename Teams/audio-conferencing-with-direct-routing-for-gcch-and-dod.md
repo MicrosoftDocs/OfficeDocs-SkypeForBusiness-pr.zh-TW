@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 系統管理員可以瞭解如何在 GCCH 和 DoD 環境中使用音訊會議與直接路由。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119332"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262618"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>適用於 GCC High 和 DoD 的音訊會議搭配直接路由
 
@@ -46,7 +46,7 @@ ms.locfileid: "51119332"
 啟用服務需要租使用者授權和至少一個使用者授權。 您無法僅使用租使用者授權或僅以使用者授權啟用服務。 若要取得租使用者和貴組織使用者的服務授權，請聯絡您的帳戶小組。
 
 > [!IMPORTANT]
-> 在設定撥入電話號碼，且使用者在 Teams 用戶端中擁有可工作的撥號鍵台之前，才能啟用使用直接路由的音訊會議。 我們建議您在設定本文所述的撥入電話號碼之前，不要將具有 GCC High 或 DoD 授權的音訊會議指派給使用者。
+> 在設定撥入電話號碼之前，使用者無法啟用使用直接路由的音訊會議。 我們建議您在設定本文所述的撥入電話號碼之前，不要將具有 GCC High 或 DoD 授權的音訊會議指派給使用者。  若未遵循此指引，可能會導致 Teams 用戶端中的撥號鍵台完全遺失。
 
 ### <a name="step-2-set-up-direct-routing"></a>步驟 2：設定直接路由
 
@@ -119,9 +119,9 @@ ms.locfileid: "51119332"
   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
   ```
 
-為組織定義新的語音路由時，請指定在直接路由組態期間為貴組織定義的一或多個 PSTN 線上 PSTN 閘道。 
+定義貴組織的新語音路由時，請指定在直接路由組態期間為貴組織定義的一或多個 PSTN 線上 PSTN 閘道。 
 
-號碼模式會根據通話的目的地電話號碼，指定哪些通話會透過指定的閘道清單路由。 在上例中，全球任何目的地的通話都會符合語音路由。 如果您想要限制可以從貴組織使用者會議撥打的電話號碼，您可以變更號碼模式，讓語音路由只符合目的地的號碼模式。 請注意，如果沒有任何語音路由符合所撥打之通話目的地電話號碼的號碼模式，通話將不會路由。
+號碼模式會根據通話的目的地電話號碼，指定哪些通話會透過指定的閘道清單路由。 在上例中，全球任何目的地的通話都會符合語音路由。 如果您想要限制可以從貴組織使用者會議撥打的電話號碼，您可以變更號碼模式，讓語音路由只符合目的地的號碼模式。 請注意，如果沒有任何語音路由符合所撥打之通話目的地電話號碼的號碼模式，將不會路由通話。
 
 有關其他資訊，請參閱 [New-CsOnlineVoiceRoute](/powershell/module/skype/new-csonlinevoiceroute)。
 
@@ -131,7 +131,7 @@ ms.locfileid: "51119332"
   New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
   ```
 
-如果在語音路由策略中定義多個 PSTN 使用方式，將會按照定義的順序評估。 建議根據與 PSTN 使用狀況相關聯的語音路由數模式，以較一般之最特定的順序定義 PSTN 使用量。 例如，如果 PSTN 使用量定義為將通話路由到美國，而另一個 PSTN 使用量已定義為將通話路由到全球任何其他位置，則 PSTN 通話到美國的 PSTN 使用量應列在 PSTN 使用量之前，再列在 PSTN 使用量之前，將通話路由到全球任何其他位置。
+如果在語音路由策略中定義多個 PSTN 使用方式，將會按照定義的順序進行評估。 建議根據與 PSTN 使用狀況相關聯的語音路由數模式，以較一般之最特定的順序定義 PSTN 使用量。 例如，如果 PSTN 使用量定義為將通話路由到美國，而另一個 PSTN 使用量已定義為將通話路由到全球任何其他位置，則 PSTN 通話到美國的 PSTN 使用量應列在 PSTN 使用量之前，先于 PSTN 使用方式將通話路由到全球任何其他位置。
 
 有關其他資訊，請參閱 [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
 
@@ -169,7 +169,7 @@ ms.locfileid: "51119332"
 
 以下是音訊會議功能，在具有 GCC High 和 DoD 直接路由的音訊會議中不支援：
 
-- 使用名稱錄製來進入和離開通知。 對於使用直接路由的音訊會議，進入和離開通知會以鈴聲在會議中播放。
+- 使用名稱錄製進入和離開通知。 對於使用直接路由的音訊會議，進入和離開通知會以鈴聲在會議中播放。
 
 - 音訊會議的外發通話限制政策。 限制撥出通話的使用者層級控制項不適用於透過直接路由路由的會議撥出電話。
 
