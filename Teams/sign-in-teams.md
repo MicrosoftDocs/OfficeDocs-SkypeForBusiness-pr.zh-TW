@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107299"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197518"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 ==========================
@@ -64,9 +64,9 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭�
 
 在加入網域的電腦上的使用者可能無法使用在同一 Active Directory 網域中的另一個帳戶登入 Teams。
 
-## <a name="macos-users"></a>MacOS 使用者
+## <a name="macos-users"></a>macOS 使用者
 
-在 MacOS 上，Teams 會提示使用者輸入其使用者名稱和認證，並根據貴組織的設定，可能會提示多重要素驗證。 使用者輸入認證後，就不需要再次提供這些認證。 從這時起，只要他們在同一部電腦上工作，Teams 就會自動啟動。
+在 macOS 上，Teams 會提示使用者輸入其使用者名稱和認證，並根據貴組織的設定，可能會提示多重要素驗證。 使用者輸入認證後，就不需要再次提供這些認證。 從這時起，只要他們在同一部電腦上工作，Teams 就會自動啟動。
 
 ## <a name="teams-on-ios-and-android-users"></a>iOS 和 Android 版 Teams 使用者
 
@@ -114,15 +114,15 @@ iOS 和 Android 版 Teams 提供 IT 系統管理員將帳戶設定推入 Microso
 若要為受管理的 Android 裝置建立應用程式設定原則，請參閱[新增受管理的 Android 裝置應用程式設定原則](/mem/intune/apps/app-configuration-policies-use-android)。
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>如何限制在桌面裝置上登入
-Windows 和 MacOS 上的 Teams 應用程式可支援限制登入組織的裝置原則。 這些原則可以透過一般的裝置管理解決方案 (例如 MDM (行動裝置管理) 或 GPO (群組原則物件)) 進行設定。 
+Windows 和 macOS 上的 Teams 應用程式可支援限制登入組織的裝置原則。 這些原則可以透過一般的裝置管理解決方案 (例如 MDM (行動裝置管理) 或 GPO (群組原則物件)) 進行設定。 
 
 當您在裝置上設定此原則時，使用者只能使用位於 Azure AD 租用戶 (包含於原則中定義的「租用戶允許清單」) 中的帳戶登入。 原則會套用至所有的登入，包括第一個和其他的帳戶。 如果您的組織包括多個 Azure AD 租用戶，您可以在允許清單中包含多個租用戶識別碼。 新增另一個帳戶的連結可能會持續顯示在 Teams 應用程式中，但無法操作。
 
 > [!NOTE]
 >1. 原則只會限制登入。它不會限制使用者在其他 Azure AD 租用戶中受邀為來賓，或切換到其他租用戶。
->2. 原則需要 Windows 版 Teams 版本 1.3.00.30866 或更新版本，以及 MacOS 版 Teams 版本 1.3.00.30882 (於 2020 年 11 月中發行)。
+>2. 原則需要 Windows 版 Teams 版本 1.3.00.30866 或更新版本，以及 macOS 版 Teams 版本 1.3.00.30882 (於 2020 年 11 月中發行)。
 
-**Windows 原則** [下載中心](https://www.microsoft.com/download/details.aspx?id=49030)提供了系統管理範本檔案 (ADMX/ADML)。 此外，您可以在 Windows 登錄中手動設定金鑰：
+**適用於 Windows** 系統管理範本檔案 (ADMX/ADML) 的原則可從[下載中心](https://www.microsoft.com/download/details.aspx?id=49030) 取得 (系統管理範本檔案中的原則設定描述性名稱為 [將 Teams 的登入限制為特定租用戶中的帳戶]) 提供。 此外，您可以在 Windows 登錄中手動設定金鑰：
 
 - 值名稱：RestrictTeamsSignInToAccountsFromTenantList
 - 值類型：字串
@@ -133,7 +133,7 @@ Windows 和 MacOS 上的 Teams 應用程式可支援限制登入組織的裝置�
 
 範例： SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 或 SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
 
-**MacOS 原則** 針對 MacOS 的受管理裝置，請使用 .plist 來部署登入限制。 設定檔是一個 .plist 檔案，由金鑰 (表示喜好設定的名稱) 所識別的項目所組成，後接一個值 (取決於喜好設定的性質)。 值可以為簡單 (例如數值) 或複雜 (例如喜好設定的巢狀清單)。
+**適用於 macOS 的原則** 針對 macOS 的受管理裝置，請使用 .plist 來部署登入限制。 設定檔是一個 .plist 檔案，由金鑰 (表示喜好設定的名稱) 所識別的項目所組成，後接一個值 (取決於喜好設定的性質)。 值可以為簡單 (例如數值) 或複雜 (例如喜好設定的巢狀清單)。
 
 - 網域：com.microsoft.teams
 - 金鑰：RestrictTeamsSignInToAccountsFromTenantList
