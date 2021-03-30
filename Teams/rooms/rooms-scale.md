@@ -16,7 +16,7 @@ ms.custom:
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用 Microsoft 端點群組原則管理員來部署大規模部署 Microsoft Teams 會議室。
+description: 瞭解如何使用 Microsoft 端點群組原則管理員部署大規模部署 Microsoft Teams 會議室。
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,20 +34,20 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: e755a369d3f8aa11d5346c2e5cda9cc84285dc7b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
+ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117401"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51410109"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點組組管理員部署 Microsoft Teams 會議室
 
-本文提供您所有必要的資訊，讓您使用 Microsoft 端點 Configuration Manager 來建立您的 Microsoft Teams 會議室部署。
+本文提供您所有必要的資訊，讓您使用 Microsoft 端點 Configuration Manager 建立您的 Microsoft Teams 會議室部署。
 
 使用 Configuration Manager 提供的便於使用的方法，您可以將作業系統和其他應用程式部署到多個目標裝置。
 
-請使用下列說明的方法，引導您完成 Configuration Manager 組式，並根據您的組織需要自訂本指南中提供的範例套件和腳本。
+使用下列說明的方法，引導您完成 Configuration Manager 組式，並根據您的組織需要自訂本指南中提供的範例套件和腳本。
 
 ![使用 Configuration Manager 的 Microsoft Teams 會議室部署程式](../media/room-systems-scale-image1.png)
 
@@ -66,7 +66,7 @@ ms.locfileid: "51117401"
 
 -   網站系統伺服器必須已指派通訊點角色，且啟動映射應針對 PXE ([PXE](/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)) 啟用網路啟動部署啟用。 如果未啟用 PXE 支援，您可以使用可啟動的 [媒體進行部署](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) 。
 
--   網路存取帳戶必須配置為支援新電腦 (部署) 部署案例。 若要深入瞭解網路存取帳戶的組組，請參閱 Configuration [Manager 中使用的帳戶](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)。
+-   網路存取帳戶必須配置為支援新電腦 (部署) 案例。 若要深入瞭解網路存取帳戶的組組，請參閱 Configuration [Manager 中使用的帳戶](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)。
 
 -   如果您同時將相同的[](/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)Microsoft Teams 會議室影像部署到多個單位，建議您啟用多播支援。
 
@@ -77,14 +77,14 @@ ms.locfileid: "51117401"
     > [!NOTE]
     > DHCP 租賃持續時間必須設定為超過影像部署持續時間的值。 否則，部署可能會失敗。
 
--   您的網路 ，包括切換和虛擬 LANs (VLANs) ，應該會配置為支援 PXE。 請參閱您的網路廠商，以瞭解有關 IP Helper 和 PXE 組配置的資訊。 或者，如果 [未啟用](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) PXE 支援，您也可以使用可啟動媒體進行部署。
+-   您的網路 ，包括交換器和虛擬 LANs (VLANs) ，應該會配置為支援 PXE。 請參閱您的網路廠商，以瞭解有關 IP Helper 和 PXE 組配置的資訊。 或者，如果 [未啟用](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) PXE 支援，您也可以使用可啟動媒體進行部署。
 
     > [!NOTE]
     > 對於 Surface Pro 裝置，只有在使用 Microsoft 的乙太網路適配 (或固定基座) 才能從網路啟動 PXE) 啟動。 協力廠商乙太網路介面卡不支援使用 Surface Pro 啟動 PXE。 請參閱 [乙太網路介面卡和 Surface 部署](/surface/ethernet-adapters-and-surface-device-deployment) 以瞭解更多資訊。
 
 ## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>設定作業系統部署的 Microsoft 端點設定管理員
 
-本文假設您已經擁有正常的 Configuration Manager 部署，而且不會詳述從頭部署和設定 Configuration Manager 所需的所有步驟。 Microsoft [端點 Configuration](/configmgr/) Manager 的檔和組組指南是很好的資源;如果您尚未部署 Configuration Manager，建議您從這些資源開始。
+本文假設您已經擁有正常的 Configuration Manager 部署，而且不會詳述從頭部署和設定 Configuration Manager 所需的所有步驟。 Microsoft [端點 Configuration](/configmgr/) Manager 上的檔和組組指南是很好的資源;如果您尚未部署 Configuration Manager，建議您從這些資源開始。
 
 請使用下列指示來確認作業系統部署 (OSD) 已正確配置。
 
@@ -94,7 +94,7 @@ ms.locfileid: "51117401"
 
 2.  檢查已安裝的建和尚未安裝的適用更新。
 
-3.  在 Configuration Manager 中 [查看 Windows 10 的支援](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client);如果您需要升級部署，請選取您想要安裝的更新，然後選取 **下載**。
+3.  在 Configuration Manager 中 [查看 Windows 10 的支援](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client);如果您需要升級部署，請選取要安裝的更新，然後選取 **下載**。
 
 4.  下載完成後，選取更新，然後選取安裝 **更新套件**。
 
@@ -139,20 +139,20 @@ ms.locfileid: "51117401"
     2.  選取 **確定** ，將 HTML 應用程式支援新增到啟動影像中。
 
 5.  *選擇性：* 若要自訂部署體驗，請選取自訂 **選項卡** 。
-    -   若要 **在部署 (，)** 命令提示符，才啟用命令支援。 啟用此功能後，您隨時都可以在部署期間選取 **F8，** 以啟動命令提示。
-    -   您也可以指定部署期間要顯示的自訂背景影像。 若要設定影像，請啟用在 UNC 路徑 (自訂背景圖像 **檔案，** 然後選取您的背景。
+    -   若要 **在部署 (，)** 命令提示符，才啟用命令支援。 啟用此功能後，您隨時都可以在部署期間選取 **F8** 來啟動命令提示。
+    -   您也可以指定部署期間要顯示的自訂背景影像。 若要設定影像，請啟用 **在** UNC 路徑 (自訂背景圖像檔案，然後選取您的背景。
 
 6.  當系統詢問時，請選取 **是** ，並將更新的啟動映射發佈至您的發佈點。
 
 詳細資訊，請參閱使用 [Configuration Manager 管理啟動映射](/configmgr/osd/get-started/manage-boot-images)。
 
 > [!NOTE]
-> 您可以建立可啟動的 USB 媒體，針對沒有 PXE 支援的環境啟動 Configuration Manager 工作順序型部署。 可啟動的媒體只包含啟動映射、選擇性的啟動前命令及其所需檔案，以及 Configuration Manager 二進位檔案，以支援啟動至 Windows PE 並連接到 Configuration Manager 以完成其餘的部署程式。 詳細資訊，請參閱 [建立可啟動的媒體](/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)。
+> 您可以建立可啟動的 USB 媒體，針對沒有 PXE 支援的環境啟動 Configuration Manager 工作順序型部署。 可啟動的媒體僅包含啟動映射、選擇性的啟動前命令及其所需檔案，以及 Configuration Manager 二進位檔案，可支援啟動至 Windows PE 並連接到 Configuration Manager 以完成其餘的部署程式。 詳細資訊，請參閱 [建立可啟動的媒體](/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)。
 
 ## <a name="create-configuration-manager-packages"></a>建立 Configuration Manager 套件
 
 > [!IMPORTANT]
-> 每個 SRS 安裝程式版本所需的作業系統版本會隨著每個 MSI 版本而變更。 若要判斷給定 MSI 的最佳作業系統版本，請執行一次主控台設定腳本。 若要深入瞭解，請參閱使用 [Microsoft 端點組組](rooms-scale.md)管理員部署 Microsoft Teams 會議室 。
+> 每個 SRS 安裝程式版本所需的作業系統版本會隨著每個 MSI 版本而變更。 若要判斷給定 MSI 的最佳作業系統版本，請執行一次主控台設定腳本。 若要深入瞭解，請參閱使用 [Microsoft 端點群組原則](rooms-scale.md)管理員部署 Microsoft Teams 會議室 。
 
 Configuration Manager 需要許多套件來部署和設定 Microsoft Teams 會議室單位。
 
@@ -165,8 +165,8 @@ Configuration Manager 需要許多套件來部署和設定 Microsoft Teams 會�
 | SRS v2 - Set-SRSComputerName套件 | 套裝軟體       | HTML 應用程式套件 (HTA) 在部署期間指派電腦名稱稱    |
 | SRS v2 - 設定 SRS 設定         | 套裝軟體       | 套件以設定 Microsoft Teams 會議室應用程式的部署                          |
 | SRS v2 - OS 更新套件          | 套裝軟體       | 部署強制作業系統更新的套件                                      |
-| SRS v2 - 根憑證套件    | 套裝軟體       | 選擇性 - 套件以部署根憑證 (網域聯入單位)   |
-| SRS v2 - Microsoft 監控代理套件 | 套裝軟體       | 選擇性 - 套件以部署及設定 Microsoft Operations Management Suite 代理程式|
+| SRS v2 - 根憑證套件    | 套裝軟體       | 選擇性 - 套件以部署根憑證 (加入網域的單元)   |
+| SRS v2 - Microsoft 監控代理套件 | 套裝軟體       | 選擇性 - 套件以部署和設定 Microsoft Operations Management Suite 代理程式|
 | SRS v2 - WinPE 背景套件    | 套裝軟體       | 自訂背景影像套件，以用於開機影像                           |
 | Windows 10 企業版                | 作業系統圖像 | 安裝安裝檔案套件 (.wim)                           |
 | Surface Pro                          | 驅動程式套件         | 適用于 Microsoft Surface Pro 的裝置驅動程式和固件套件                     |
@@ -178,7 +178,7 @@ Configuration Manager 需要許多套件來部署和設定 Microsoft Teams 會�
 
 Configuration Manager 要求當套件來源檔案第一次建立及更新時，以特定資料夾結構整理。
 
-在 Microsoft 端點 Configuration Manager 管理中心網站或主要網站上，或在您用於託管套件來源檔案的伺服器共用上建立下列資料夾結構：
+在 Microsoft 端點 Configuration Manager 系統管理中心網站或主要網站上，或在您用於託管套件來源檔案的伺服器共用上建立下列資料夾結構：
 
 -   SRS v2 - Microsoft 監控代理套件
 -   SRS v2 - OS 更新套件
@@ -258,7 +258,7 @@ Configuration Manager 要求當套件來源檔案第一次建立及更新時，�
 
 ### <a name="create-the-root-certificate-package-optional"></a>建立根憑證套件 (選項) 
 
-您可以建立此套件，以發佈不會加入 Active Directory 網域之裝置之根憑證。 只有在下列兩個條件都適用時，才能建立此套件：
+您可以建立此套件來發佈不會加入 Active Directory 網域之裝置之根憑證。 只有在下列兩個條件都適用時，才能建立此套件：
 -   您的部署包括內部部署 Lync 或商務用 Skype Server。
 -   Microsoft Teams 會議室單位已配置為在工作組中工作，而不是網域成員。
 
@@ -289,7 +289,7 @@ Configuration Manager 要求當套件來源檔案第一次建立及更新時，�
 4.  輸入下列資訊以建立套件：
     -   名稱 **：SRS v2 – SRS 應用程式套件**
     -   製造商 **：Microsoft Corporation**
-    -   版本 **：3.1.104.0** (輸入下載的安裝檔案) 
+    -   版本 **：3.1.104.0** (輸入下載安裝檔案的版本) 
     -   選取此 **套件包含來源檔案** 核取方塊，輸入 **SRS v2 – SRS 應用程式套件** 資料夾的路徑，然後選取下 **一步**。
 5.  選取 **不建立程式，** 然後選取 下 **一步**。
 
@@ -399,7 +399,7 @@ Configuration Manager 要求當套件來源檔案第一次建立及更新時，�
 
     -   版本 **：1.0.0**
 
-    -   選取此 **套件包含來源檔案** 核取方塊，輸入 **SRS v2 - Set-SRSComputerName套件資料夾** 的路徑，然後選取下一 **步**。
+    -   選取此 **套件包含來源檔案** 核取方塊，輸入 **SRS v2 - Set-SRSComputerName套件** 資料夾的路徑，然後選取下一 **步**。
 
 5.  選取 **不建立程式，** 然後選取 下 **一步**。
 
@@ -469,7 +469,7 @@ Configuration Manager 要求當套件來源檔案第一次建立及更新時，�
    -   名稱 **：SRS v2 - Sysprep 套件**
    -   製造商 **：Microsoft Corporation**
    -   版本 **：1.0.0**
-   -   選取此 **套件包含來源檔案** 核取方塊，輸入 **SRS v2 – Sysprep 套件資料夾** 的路徑，然後選取下一 **步**。
+   -   選取此 **套件包含來源檔案** 核取方塊，輸入 **SRS v2 – Sysprep 套件** 資料夾的路徑，然後選取下一 **步**。
 5. 選取 **不建立程式，** 然後選取 下 **一步**。
 
 6. 查看確認 **設定頁面** ，然後選取下 **一步**。
@@ -484,7 +484,7 @@ Configuration Manager 要求當套件來源檔案第一次建立及更新時，�
 
 3.  指定您剛剛複製 **的 install.wim** 檔案路徑，然後選取下 **一步**。
 
-4.  更新版本 **欄位** 以符合 Windows 10 企業版影像的建立編號，然後選取下一 **步**。
+4.  更新版本 **欄位** 以符合 Windows 10 企業版影像的建立編號，然後選取下 **一步**。
 
 5.  請閱 **閱詳細資料** 頁面，然後選取下 **一步**。
 
@@ -504,8 +504,8 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
     -   適用于 Surface Pro 4： <https://www.microsoft.com/download/details.aspx?id=49498>
 
 2.  解壓縮下載的驅動程式和固件。 開啟命令提示視窗，然後于命令提示符輸入下列其中一個命令：
-    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
-    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
+    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro"`
+    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro 4"`
 
 3.  在 Configuration Manager 主控台中，前往 **軟體文件庫** \> **作業系統** \> **驅動程式**，然後選取匯出 **驅動程式**。
 
@@ -558,7 +558,7 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
 
 1.  發佈軟體套件。
 
-    1.  在 Configuration Manager 主控台中，前往 **軟體庫** \> **應用程式管理** \> **套件**。 選取您想要發佈的所有軟體套件，然後選取 發佈 **內容**。
+    1.  在 Configuration Manager 主控台中，前往 **軟體庫** \> **應用程式管理** \> **套件**。 選取要發佈的所有軟體套件，然後選取發佈 **內容**。
 
     2.  查看套件清單，然後選取下 **一步**。
 
@@ -578,7 +578,7 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
 
 3.  發佈作業系統套件。
 
-    1.  在 Configuration Manager 主控台中，前往 **軟體文件庫** \> **作業系統** \> **映射**。 選取您想要發佈的所有作業系統影像，然後選取發佈 **內容**。
+    1.  在 Configuration Manager 主控台中，前往 **軟體庫** \> **作業系統** \> **映射**。 選取您想要發佈的所有作業系統影像，然後選取發佈 **內容**。
 
     2.  查看套件清單，然後選取下 **一步**。
 
@@ -637,9 +637,9 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
 
    6. **應用程式網路設定**：此步驟可讓您指定工作組或 Active Directory 功能變數名稱和組織單位。
       > [!NOTE]
-      > 請參閱 [加入考慮的 Skype 會議室系統](domain-joining-considerations.md) 網域，瞭解您部署 Microsoft Teams Room 單位時，以 Actve Directory 網域成員之成員時需要採取的建議動作。
-   7. **適用驅動程式：** 此步驟及其子步驟會用來根據您擁有的 Surface Pro 模型部署適用的裝置驅動程式和固件。 更新每個步驟以指定與此部署相關聯的相關驅動程式套件。
-      -   每個驅動程式套件都經過配置，可運用 Windows 管理工具 (WMI) 篩選，根據 Surface Pro 的製造和模型來部署相關的驅動程式和固件。
+      > 請參閱 [加入考慮的 Skype 會議室系統](domain-joining-considerations.md) 網域，瞭解您以 Actve Directory 網域成員之成員部署 Microsoft Teams 會議室單位時需要採取的建議動作。
+   7. **適用驅動程式：** 此步驟及其子步驟用於根據您擁有的 Surface Pro 模型部署適用的裝置驅動程式和固件。 更新每個步驟以指定與此部署相關聯的相關驅動程式套件。
+      -   每個驅動程式套件都經過配置，可運用 Windows 管理工具 (WMI) 篩選，以根據 Surface Pro 的製造和模型部署相關的驅動程式和固件。
       -   我們強烈建議您不要變更這些驅動程式的組配置，否則部署可能會失敗。
 
    8. **設定 Windows 和 Configuration Manager：** 此步驟會部署並設定 Configuration Manager 用戶端。 更新此步驟以指定內建的 Configuration Manager 用戶端套件。
@@ -649,7 +649,7 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
       -   如果您需要執行此步驟，請確認已選取 **SRS v2 -** 根憑證套件和停用 **64 位** 檔案系統重新導向。
 
    10. **安裝和設定監控代理** 程式：此步驟會安裝 64 位版本的 Microsoft Azure 監視器代理程式，並設定代理程式以連接到您的記錄分析工作區。
-       -   此步驟預設為停用。 只有在您打算使用監控代理程式監控 Microsoft Teams 會議室單位的健康情況時，才能啟用此步驟。
+       -   此步驟預設為停用。 只有在您打算使用監控代理程式監控 Microsoft Teams 會議室裝置的健康情況時，才能啟用此步驟。
        -   編輯此步驟並更新命令列參數，以指定 **您的工作區識別碼** 和 **工作區金鑰**。
        -   請參閱 [設定 Azure](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) 監控的測試裝置，以取得操作管理套件工作區識別碼和主鍵。
        -   確認已 **選取 SRS v2 - Microsoft 監控代理** 套件和 **停用 64 位檔案系統重新** 導向。
@@ -659,7 +659,7 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
        -   確認已 **選取 SRS v2 - SRS 應用程式套件** 和 **停用 64 位檔案系統重新** 導向。
 
    12. **Install-SRSv2-OS-Updates：** 此步驟會部署 Microsoft Teams 會議室部署所需的任何強制性作業系統更新。 請執行下列動作：
-       -   檢查 [設定 Microsoft Teams 會議室主控台](console.md) 以查看哪些更新為必填專案。
+       -   檢查 [設定 Microsoft Teams 會議室主控台](console.md) ，以查看需要哪些更新。
        -   確認您的 **SRS v2 – OS 更新套件** 包含所有必要的更新。
        -   確認已 **選取 SRS v2 – OS 更新** 套件。
        -   確認 PowerShell 執行策略設定為 **旁路**。
@@ -670,7 +670,7 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
 
    15. **重新開機電腦**：此步驟在 Windows 功能完成之後會重新開機電腦。 此步驟不需要自訂。
 
-   16. **新增本地 Skype 使用者**：此步驟會建立用於自動登入 Windows 的當地 Skype 帳戶，並啟動 Microsoft Teams 會議室應用程式。 此步驟沒有任何相關聯的軟體套件，而且不需要自訂。
+   16. **新增本地 Skype 使用者**：此步驟會建立用於自動登入 Windows 的當地 Skype 帳戶，並啟動 Microsoft Teams 會議室應用程式。 此步驟沒有任何相關聯的軟體套件，因此不需要自訂。
 
    17. **設定及設定 SRS 應用程式**：此步驟會為作業系統的下一次啟動設定 Microsoft Teams 會議室應用程式安裝。
        -   確認已 **選取 SRS v2 - 設定 SRS 設定套件** 和停用 **64 位檔案系統重新** 導向。
@@ -694,16 +694,16 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
 
 6. 在下列清單中選取只有媒體和 **PXE，** 然後選取下一 **步**。 
    > [!WARNING]
-   > 將用途 **設定為可用****非常重要。** 請確定用途 **未****設定為****必要的**。 此外，請確定您選取 **的只有媒體和 PXE** 在下列 **的可用。**
+   > 將用途 **設定為可用****非常重要。** 請確定用途 **未****設為必要的****。** 此外，請確定您選取 **的只有媒體和 PXE** 在下列的可用 **。**
    >
-   > 將這些值設定為其他專案可能會導致所有電腦在開機時取得 Microsoft Teams 會議室部署圖像。
+   > 將這些值設定為其他專案可能會導致所有電腦在開機時取得 Microsoft Teams 會議室部署映射。
 7. 請勿指定任何排程，然後選取下 **一步**。
 
-8. 請勿在使用者體驗區段內 **變更任何** 專案，並選取下 **一步**。
+8. 請勿在使用者體驗區段內 **變更任何** 專案，然後選取下 **一步**。
 
-9. 請勿在通知 **區段內** 變更任何內容，然後選取下 **一步**。
+9. 請勿在通知區段內 **變更** 任何專案，並選取下 **一步**。
 
-10. 請勿變更通訊點區段內 **的內容** ，然後選取下 **一步**。
+10. 請勿變更通訊點區段 **內的內容** ，然後選取下 **一步**。
 
 11. 確認設定，然後選取下 **一步**。
 
@@ -724,7 +724,7 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
 
     3.  按並放開 **Power** 按鈕。
 
-    4.  裝置開始啟動後，放開 **音量增加** 按鈕。
+    4.  裝置開始啟動後，放開音量 **增加** 按鈕。
 
     5.  選取 **啟動組配置**。
 
@@ -741,7 +741,7 @@ Microsoft Teams 會議室支援 Surface Pro 和 Surface Pro 4。 您需要為環
 
 6.  選取您先前所輸入的工作順序，然後選取下 **一步**。
 
-7.  使用磁片組組之後，系統會提示您指定裝置的電腦名稱稱。 使用者介面會顯示根據 Surface Pro 裝置序號的建議電腦名稱稱。 您可以接受建議的名稱，或指定新的名稱。 請遵循電腦名稱稱作業畫面上的指示。 當您選取接受 **時**，部署即會開始。
+7.  使用磁片組組之後，系統會提示您指定裝置的電腦名稱稱。 使用者介面會顯示根據 Surface Pro 裝置序號的建議電腦名稱稱。 您可以接受建議的名稱或指定新名稱。 請遵循電腦名稱稱作業畫面上的指示。 當您選取接受 **時**，部署即會開始。
 
 8.  其餘的部署程式是自動的，不需要使用者輸入。
 
