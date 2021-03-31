@@ -1,9 +1,9 @@
 ---
-title: 為 Microsoft 團隊設定自動語音應答-小型企業教學課程
+title: 設定 Microsoft Teams 的自動總機 - 小型企業教學課程
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: dobro
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -20,240 +20,240 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 瞭解如何為 Microsoft 365 商務語音設定及測試自動語音應答。
-ms.openlocfilehash: b3b291a91c96d75acdc8d4fe77f78790d2137914
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+description: 瞭解如何設定和測試 Microsoft 365 商務語音的自動語音機。
+ms.openlocfilehash: fef89971ad99dff15332905d6f9b98a343af6ffd
+ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909617"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51439718"
 ---
-# <a name="set-up-an-auto-attendant---small-business-tutorial"></a>設定自動語音應答-小型企業教學課程
+# <a name="set-up-an-auto-attendant---small-business-tutorial"></a>設定自動助理 - 小型企業教學課程
 
-自動語音應答讓其他人打電話給您的組織，並流覽功能表系統，以與正確的部門通話、呼叫佇列、人員或接線員。 您可以使用 Microsoft 團隊系統管理中心為貴組織建立自動語音應答。
+自動電話機可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用 Microsoft Teams 系統管理中心為貴組織建立自動助理。
 
 #### <a name="before-you-begin"></a>開始之前
 
-取得您想要的自動語音應答所需的服務號碼（透過從貴組織外撥號直接撥號即可）。 這可能包括 [從另一個提供者轉移號碼](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或 [要求新的服務號碼](../getting-service-phone-numbers.md)。
+從組織外部直接撥號，取得自動總機所需的服務號碼。 這可能包括 [從另一個提供者移轉號碼](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或 [要求新的服務號碼](../getting-service-phone-numbers.md)。
 
-取得您打算建立之每個自動語音應答的 [電話系統-虛擬使用者授權](../teams-add-on-licensing/virtual-user.md) 。 這些授權是免費的，因此我們建議您先取得幾個額外的案例，以備日後決定變更您的設定。
+取得 [電話系統 - 針對](../teams-add-on-licensing/virtual-user.md) 您計畫建立的每個自動話務員取得虛擬使用者授權。 這些授權是免費的，因此我們建議您額外取得一些授權，以防您決定日後變更您的設定。
 
-如果您想讓自動語音應答傳送在假日上以不同方式呼叫，請在建立自動語音應答前， [建立您要使用的假日](../set-up-holidays-in-teams.md) 。
+如果您想要在假日以不同方式讓自動電話機路由通話，請建立您想要[](../set-up-holidays-in-teams.md)使用的假日，然後再建立自動總機。
 
 <a name="steps"></a>
 
-#### <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>請依照下列步驟來設定您的自動語音應答
+#### <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>請遵循下列步驟來設定自動話務員
 
 # <a name="step-1brphone-number"></a>[步驟 1 <br> 電話號碼](#tab/phone-number)
 
-您建立的每個自動助理都需要有資源帳戶。 這與使用者帳戶類似，只是帳戶與自動語音應答或通話佇列無關，而不是寄件者。 在此步驟中，我們會建立帳戶，將它指派為 *Microsoft 365 電話系統-虛擬使用者* 授權，然後指派服務號碼。
+您建立的每個自動助理都需要資源帳戶。 這類似于使用者帳戶，除了該帳戶與自動通話或通話佇列相關聯，而不是與人員相關聯。 在此步驟中，我們將建立帳戶、指派 *Microsoft 365 電話系統 - 虛擬使用者* 授權，然後指派服務號碼。
 
 ### <a name="create-a-resource-account"></a>建立資源帳戶
 
-您可以在 [團隊管理中心] 中建立資源帳戶。
+您可以在 Teams 系統管理中心建立資源帳戶。
 
-1. 在 [團隊管理中心] 中，展開 [ **整個組織的設定**]，然後按一下 [ **資源帳戶**]。
+1. 在 Teams 系統管理中心，展開 **整個組織設定**，然後按一下 [ **資源帳戶**。
 
-2. 按一下 [ **新增**]。
+2. 按一下 [新增 **]**。
 
-3. 在 [**新增資源帳戶**] 窗格中，填寫 [**顯示名稱**]、[使用者名稱 **]，然後** 針對 **資源帳戶類型** 選擇 [**自動助理**]
+3. 在新增 **資源帳戶窗格中**，填寫 **顯示名稱**、**使用者名稱**，然後選擇資源帳戶類型的 **自動助理**
 
-    ![[新增資源帳戶] 使用者介面的螢幕擷取畫面](../media/resource-account-add.png)
+    ![新增資源帳戶使用者介面的螢幕擷取畫面](../media/resource-account-add.png)
 
-4. 按一下 **[儲存]**。
+4. 按一下 [儲存]。
 
-新帳戶將會出現在帳戶清單中。
+新帳戶會顯示在帳戶清單中。
 
 ![資源帳戶清單的螢幕擷取畫面](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>指派授權
 
-您必須將 *Microsoft 365 電話系統-虛擬使用者* 授權指派給資源帳戶。
+您必須將 *Microsoft 365 Phone System - 虛擬使用者* 授權指派給資源帳戶。
 
-1. 在 Microsoft 365 系統管理中心，按一下您要指派授權的資源帳戶。
+1. 在 Microsoft 365 系統管理中心，按一下要指派授權的資源帳戶。
 
-2. 在 [ **授權及應用程式** ] 索引標籤的 [ **授權**] 底下，選取 [ **Microsoft 365 電話系統-虛擬使用者**]。
+2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 
-3. 按一下 [ **儲存變更**]。
+3. 按一下 **[儲存變更**。
 
-    ![在 Microsoft 365 系統管理中心指派授權使用者介面的螢幕擷取畫面](../media/resource-account-assign-virtual-user-license.png)
+    ![Microsoft 365 系統管理中心指派授權使用者介面的螢幕擷取畫面](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="assign-a-service-number"></a>指派服務號碼
 
-如果您需要電話號碼可達到這個自動助手，請將該號碼指派給資源帳戶。
+如果您需要讓電話號碼可以聯繫到這個自動助理，請指派該號碼給資源帳戶。
 
-1. 在團隊系統管理中心的 [ **資源帳戶** ] 頁面上，選取您要指派服務號碼的資源帳戶，然後按一下 [ **指派/取消指派**]。
+1. 在 Teams 系統管理中心中的 [資源 **帳戶** > 頁面上，選取要指派服務號碼的資源帳戶，然後按一下 [ **指派/取消指派**> 。
 
-2. 在 [ **電話號碼類型** ] 下拉式清單中，選擇您要使用的號碼類型。
+2. 在 **電話號碼類型** 下拉式下拉清單中，選擇您想要使用的號碼類型。
 
-3. 在 [ **已指派的電話號碼** ] 方塊中，搜尋您要使用的號碼，然後按一下 [ **新增**]。
+3. 在 **[已指派的電話號碼** > 方塊中，搜尋您想要使用的號碼，然後按一下 [ **新增**。
 
-    ![指派服務號碼使用者介面的螢幕擷取畫面](../media/resource-account-assign-phone-number.png)
+    ![指派服務編號使用者介面的螢幕擷取畫面](../media/resource-account-assign-phone-number.png)
 
-4. 按一下 **[儲存]**。
-
-> [!div class="nextstepaction"]
-> [步驟 2-自動助理一般資訊 >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
-
-# <a name="step-2brattendant-general-info"></a>[步驟 2 <br> 助理一般資訊](#tab/general-info)
-
-設定自動語音應答
-
-1. 在 [團隊管理中心] 中，展開 [語音]，按一下 [**自動****語音**]，然後按一下 [**新增**]。
-
-2. 在頂端方塊中輸入自動語音應答的名稱。
-
-3. 如果您想要指派運算子，請指定呼叫操作員的目的地。 這是選擇性 (但建議) 。 您可以設定 [ **運算子** ] 選項，讓呼叫者中斷功能表並向指定的人朗讀。
-
-4. 指定此自動語音應答的時區。 如果您在下班後建立單獨的通話流程，則會使用時區來計算上班時間。
-
-5. 指定此自動語音應答的語言。 這是將用於系統產生的語音提示的語言。
-
-6. 選擇是否要啟用語音輸入。 啟用時，每個功能表選項的名稱都會變成語音辨識關鍵字。 例如，來電者可以說「一」，選取對應至鍵1的功能表選項，或者說「銷售」來選取名為「銷售」的功能表選項。
-
-    ![[名稱]、[操作員]、[時區]、[語言] 和 [語音輸入] 的自動助理設定的螢幕擷取畫面](../media/auto-attendant-general-info-page-new.png)
-
-7. 按一下 **[下一步]**。
+4. 按一下 [儲存]。
 
 > [!div class="nextstepaction"]
-> [步驟 3-通話流程 >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
+> [步驟 2 - 自動總>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
+
+# <a name="step-2brattendant-general-info"></a>[步驟 2 <br> Attendant 一般資訊](#tab/general-info)
+
+設定自動話務員
+
+1. 在 Teams 系統管理中心，展開 **[語音，** 按一下 **[自動語音留言**，然後按一下 **[新增**> 。
+
+2. 在頂端方塊中輸入自動助理的名稱。
+
+3. 如果您想要指定運算子，請指定撥打給接線員的目的地。 這是選擇性選項 (，但建議使用) 。 您可以將 **運算子選項設定** 為允許來電者中斷功能表，並和指定的人員通話。
+
+4. 指定此自動助理的時區。 如果您為小時後建立個別的通話流程，則時區會用來計算上班時間。
+
+5. 指定此自動翻譯的語言。 這是用於系統產生的語音提示的語言。
+
+6. 選擇是否要啟用語音輸入。 啟用時，每個功能表選項的名稱會變成語音辨識關鍵字。 例如，來電者可以說「One」，以選取對應到按鍵 1 的功能表選項，或說「銷售」以選取名為「銷售」的功能表選項。
+
+    ![名稱、運算子、時區、語言和語音輸入的自動語音留言設定螢幕擷取畫面](../media/auto-attendant-general-info-page-new.png)
+
+7. 按一下 **[下一步**。
+
+> [!div class="nextstepaction"]
+> [步驟 3 - 通話流程>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[步驟 3 <br> 通話流程](#tab/call-flow)
 
 選擇您的通話流程選項
 
-1. 選擇當自動語音接聽來電時，是否要播放問候語。
+1. 選擇當自動回應接聽來電時，是否要播放問候語。
 
-    如果您選取 [ **播放音訊** 檔]，您可以使用 [ **上傳** 檔案] 按鈕，上傳儲存為音訊的錄製問候語訊息。WAV，。[MP3] 或。WMA 格式。 錄製不能大於 5 MB。
+    如果您選取 **播放音訊檔案，** 您可以使用上傳檔案按鈕來上傳儲存為音訊的錄製問候語訊息。Wav。MP3 或 。WMA 格式。 錄製內容不能大於 5 MB。
 
-    如果您選取 [ **輸入問候語** ]，系統將會朗讀您在其中輸入文字的文字， (最多1000個字元) 當自動語音接聽來電時。
+    如果您選取輸入問候語 **訊息** ，當自動回應接聽來電時，系統會朗讀您輸入 (最多 1000 個字元) 文字。
 
-    ![問候訊息設定的螢幕擷取畫面](../media/auto-attendant-call-flow-greeting-message.png)
+    ![問候語訊息設定螢幕擷取畫面](../media/auto-attendant-call-flow-greeting-message.png)
 
-2. 選擇您要路由通話的方式。
+2. 選擇通話的路由方式。
 
-    如果您選取 **[中斷連線]**，自動語音應答就會掛斷通話。
+    如果您選取中斷 **連接**，自動電話機會掛斷通話。
 
-    如果您選取 [重新 **導向通話**]，您可以選擇其中一個呼叫路由目標。
+    如果您選取 **重新導向通話**，您可以選擇其中一個呼叫路由目的地。
 
-    如果您選取 [ **播放] 功能表選項**，您可以選擇 **播放音訊** 檔案或 **輸入問候語** ，然後選擇 [功能表選項] 和 [目錄搜尋]。
+    如果您選取 **了播放功能表選項**，您可以選擇播放音訊檔案或輸入問候語訊息，然後選擇功能表選項和目錄搜尋。
 
-    ![呼叫路由設定的螢幕擷取畫面](../media/auto-attendant-call-flow-route-call-message.png)
+    ![通話路由設定螢幕擷取畫面](../media/auto-attendant-call-flow-route-call-message.png)
 
-3. 如果您希望呼叫者使用撥號鍵來流覽，請在 [ **設定功能表選項**] 底下，選擇要在來電者按下撥號鍵時所發生的情況。  (如果您是將此自動語音應答建立為公司目錄，請將 [撥號鍵選項] 留白。 ) 
+3. 如果您希望來電者使用撥號鍵流覽，然後在設定功能表選項下，選擇當來電者按撥號鍵時要發生的專案。  (如果您要將這個自動助理建立為公司目錄，請保留撥號鍵選項空白。) 
 
     您可以將任何撥號鍵設定為下列目的地：
 
-    - **組織中的人員** -您組織中能夠接聽語音通話的人員。
-    - **語音 app** -另一個自動語音應答或通話佇列。
-    - **外部電話號碼** -任何電話號碼。 使用此格式： + [國家/地區碼] [區域碼] [電話號碼]
-    - **語音信箱** -與您指定的 Microsoft 365 群組相關聯的語音信箱。
-    - **Operator** -為自動語音應答定義的運算子。 定義運算子是選擇性的。 操作員可以定義為此清單中的任何其他目的地。
+    - **組織中能夠接聽** 語音通話的人。
+    - **語音應用程式** - 另一個自動語音留言機或通話佇列。
+    - **外部電話號碼** - 任何電話號碼。 使用此格式：+[國碼][區碼][電話號碼]
+    - **語音** 信箱 - 與您指定的 Microsoft 365 群組相關聯的語音信箱。
+    - **運算子** - 為自動話務員定義的運算子。 定義運算子是選擇性的。 運算子可定義為此清單的其他目的地。
 
-    我們建議您設定0鍵至運算子。
+    我們建議您將 0 鍵設定為運算子。
 
-    針對每個功能表選項，指定下列各項：
+    針對每個功能表選項，指定下列專案：
 
-    - **撥號鍵** -電話鍵臺上的按鍵可存取此選項。
+    - **撥號鍵** - 電話鍵臺上的按鍵，以存取此選項。
 
-    - **Voice 命令** -定義來電者可提供的語音命令來存取此選項（如果已啟用語音輸入）。 它可以包含多個字詞，例如「客戶服務」或「作業與不限」。 
+    - **Voice 命令** - 定義來電者可給予存取此選項的語音命令 ，如果已啟用語音輸入。 它可以包含多個字詞，例如「客戶服務」或「營運與理由」。 
 
-    - [**重定向至**]-來電者選擇此選項時，您想要撥打電話的位置。 如果您要重新導向自動語音應答或通話佇列，請選擇與其關聯的資源帳戶。
+    - **重新導向** 至 -當來電者選擇此選項時，您希望通話前往的地方。 如果您要重新導向到自動電話機或通話佇列，請選擇與其相關聯的資源帳戶。
 
-    ![[撥號鍵] 選項的螢幕擷取畫面](../media/auto-attendant-call-flow-menu-options-complete.png)
+    ![撥號鍵選項的螢幕擷取畫面](../media/auto-attendant-call-flow-menu-options-complete.png)
 
-4. 如果您想要將這個自動語音應答做為公司目錄，請在 [ **目錄搜尋**] 底下，選取 [ **依名稱撥號**]。 當您啟用此選項時，呼叫者可以說出使用者的名稱，或在電話鍵臺上輸入密碼。 任何具備電話系統授權的線上使用者都是符合資格的使用者，而且可以使用 [按名稱撥號] 找到。 
+4. 如果您想要使用此自動總機做為公司目錄，請在目錄搜尋 **下，選取****按名稱撥號**。 當您啟用此選項時，來電者可以說出使用者的名稱，或在電話鍵臺上輸入。 任何擁有電話系統授權的線上使用者都是合格的使用者，而且可以使用名稱撥號。 
 
-     (您可以選擇 [透過 **延伸撥號**]，但是必須在 Azure Active Directory 中設定延伸。 ) 
+     (**您可以選擇分機撥號**，不過擴充功能必須在 Azure Active Directory.) 
 
-5. 選取 **目錄搜尋** 選項之後，請按 **[下一步]**。
-
-> [!div class="nextstepaction"]
-> [步驟 4-下班後通話流程 >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
-
-# <a name="step-4brafter-hours"></a>[後4個工作的步驟 4 <br>](#tab/after-hours)
-
-每個自動語音應答的上班時間都可以設定。 如果未設定上班時間，則當天的所有日期和所有的時間都被視為「上班時間」，因為預設會設定24/7 排程。 您可以在一天中使用時段來設定上班時間，而且所有未設為「上班時間」的小時都會被視為時間。 您可以設定不同的來電處理選項和問候語（在下班後）。
-
-視您設定自動語音應答及呼叫佇列的方式而定，您可能只需要使用直接電話號碼，指定自動語音接聽的時間呼叫路由。
-
-如果您想要在下班後的呼叫者單獨撥打通話路線，請指定每天的上班時間。 按一下 [ **新增時間** ]，為指定日期指定多組小時數（例如指定午餐時間）。
-
-![[時間] 和 [時間] 設定的螢幕擷取畫面](../media/auto-attendant-business-hours.png)
-
-指定上班時間之後，請選擇您的通話路線選項，以供下班時間使用。 對於您在 **步驟3通話流程** 中指定的商務時間呼叫路由，您可以使用相同的選項。
-
-完成後，請按 **[下一步]** 。
+5. 選取目錄搜尋 **選項之後，** 請按一下 [ **下一步**。
 
 > [!div class="nextstepaction"]
-> [步驟 5-假日通話流程 >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
+> [步驟 4 - 數小時後通話流程>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+
+# <a name="step-4brafter-hours"></a>[步驟 4 <br> 小時之後](#tab/after-hours)
+
+您可以針對每個自動話務員設定上班時間。 如果未設定上班時間，則一天中所有的天數和所有時數會視為上班時間，因為預設會設定 24/7 排程。 工作時間可以設定為一天中的休息時間，所有未設定為上班時間的時數會視為工作時間之後。 您可以為工作時間設定不同的來電處理選項和問候語。
+
+根據您如何配置自動電話機和通話佇列，您可能只需要為具有直接電話號碼的自動電話機指定後通話路由。
+
+如果您想要為非工作時間的來電者個別進行通話路由，請為每天指定您的上班時間。 例如 **，按一下 [新增時間** 以指定指定一天的陣列時數，以指定午餐休息時間。
+
+![日與時數設定後小時數的螢幕擷取畫面](../media/auto-attendant-business-hours.png)
+
+指定上班時間之後，請選擇您的通話路由選項，以在數小時後進行。 在步驟 **3**- 通話流程中指定的上班時間通話路由，也提供相同的選項。
+
+完成後 **，** 請按一下 [下一步。
+
+> [!div class="nextstepaction"]
+> [步驟 5 - 假日通話流程>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[步驟 5 <br> 假日](#tab/holidays)
 
-您可以在假日上以不同于其他天數的方式傳送自動語音應答的來電。  (如果您不想要使用不同的假日通話流程，您可以略過此步驟。 ) 
+您可以讓撥打到自動電話機的通話在假日路由方式與其他日期不同。  (如果您不想為假日使用不同的通話流程，您可以略過此步驟。) 
 
 
 
-您的自動語音應答可以針對您設定的每一個假日進行通話流程。 您最多可以將20個排定的假日新增至每個自動語音應答。
+您的自動電話機可以針對您設定的每個假日設定通話流程。 您最多可以將 20 個排定的假日加到每個自動乘務員。
 
-1. 在 [假日通話設定] 頁面上，按一下 [ **新增**]。
+1. 在 [假日通話設定」 頁面上，按一下 [ **新增**。
 
 2. 輸入此假日設定的名稱。
 
-3. 從 [ **假日** ] 下拉式清單中，選擇您要使用的假日。
+3. 從假日 **下** 拉下拉，選擇您想要使用的假日。
 
-4. 選擇您要使用的問候類型。
+4. 選擇您想要使用的問候語類型。
 
-    ![假日和假日問候語設定的螢幕擷取畫面](../media/auto-attendant-holiday-greeting.png)
+    ![假日和假日問候語設定螢幕擷取畫面](../media/auto-attendant-holiday-greeting.png)
 
-5. 選擇您是否要 **中斷** 連線，或重新 **導向** 通話。
+5. 選擇是否要中斷 **連接或****重新導向** 通話。
 
-6. 如果您選擇 [重新導向]，請選擇通話的呼叫傳送目的地。
+6. 如果您選擇重新導向，請選擇通話的呼叫路由目的地。
 
-    ![假日通話動作設定的螢幕擷取畫面](../media/auto-attendant-holiday-actions.png)
+    ![假日通話動作設定螢幕擷取畫面](../media/auto-attendant-holiday-actions.png)
 
-7. 按一下 **[儲存]**。
+7. 按一下 [儲存]。
 
-視需要針對每個額外的假日重複程式。
+針對每一個額外的假日，根據需要重複此程式。
 
-![[假日] 設定的螢幕擷取畫面，其中列出假日](../media/auto-attendant-holiday-call-settings.png)
+![列出假日的假日設定螢幕擷取畫面](../media/auto-attendant-holiday-call-settings.png)
 
-當您新增完所有假日之後，請按 **[下一步]**。
+當您新增所有假日後，請按一下 [ **下一步**。
 
 > [!div class="nextstepaction"]
-> [步驟 6-選擇目錄中的人員 >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [步驟 6 - 選擇目錄中的>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[步驟 6 <br> 目錄成員](#tab/dial-scope)
 
-*撥號作用* 中定義來電者使用按名稱撥號或撥號延伸時，在目錄中可使用的使用者。 **所有線上使用者** 的預設值都是貴組織中所有以電話系統授權為線上使用者的使用者。
+撥號 *範圍* 會定義當來電者使用撥號名稱或撥號分機時，哪些使用者可在目錄中使用。 所有線上 **使用者的預設值** 包含貴組織中具有電話系統授權之線上使用者的所有使用者。
 
-您可以選取 [**包括**] 或 [**排除**] 底下的 [**自訂使用者組**]，然後選擇一或多個 Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定的使用者。 例如，您可能想要將貴組織中的主管從撥號目錄中排除。  (如果使用者同時位於兩個清單中，則會將其從目錄中排除。 ) 
+您可以選取包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時位於這兩個清單中，就會被排除在目錄中。) 
 
-![[撥號作用中包括] 和 [排除] 選項的螢幕擷取畫面](../media/auto-attendant-dial-scope.png)
+![撥號範圍包含及排除選項的螢幕擷取畫面](../media/auto-attendant-dial-scope.png)
 
 > [!NOTE]
-> 最多可能需要36小時，才能讓新使用者將其名稱列在目錄中。
+> 新使用者最多可能需要 36 小時，才能將名稱列在目錄中。
 
-完成設定撥號作用中的範圍之後，請按 **[下一步]**。
+設定好撥號範圍後，請按一下 [ **下一步**。
 
 > [!div class="nextstepaction"]
-> [步驟 7-指派資源帳戶 >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
+> [步驟 7 - 指派資源帳戶>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[步驟 7 <br> 資源帳戶](#tab/resource-accounts)
 
-所有自動語音應答都必須有關聯的資源帳戶。  第一層自動語音應答將至少需要一個有相關服務號碼的資源帳戶。 如果您想要的話，您可以將多個資源帳戶指派給自動語音應答，每個都有不同的服務號碼。
+所有自動話務員都必須有相關聯的資源帳戶。  第一層自動總機至少需要一個具有關聯服務號碼的資源帳戶。 您可以根據需要，將多個資源帳戶指派給自動助理，每個帳戶都有個別的服務號碼。
 
 新增資源帳戶
 
-1. 按一下 [ **新增帳戶** ]，然後搜尋您要新增的帳戶。 按一下 [ **新增**]，然後按一下 [ **新增**]。
+1. 按一下 **[新增帳戶** 並搜尋您想要新增的帳戶。 按一下 **[新增**，然後按一下 [ **新增**。
 
-    ![資源帳戶 [新增帳戶] 面板的螢幕擷取畫面](../media/auto-attendant-add-resource-account.png)
+    ![資源帳戶新增帳戶面板的螢幕擷取畫面](../media/auto-attendant-add-resource-account.png)
 
-2. 完成新增服務帳戶後，請按一下 [ **提交**]。
+2. 當您完成新增服務帳戶後，請按一下 [ **提交>**。
 
-    ![[資源帳戶] 清單的螢幕擷取畫面，其中顯示已指派服務號碼的資源帳戶](../media/auto-attendant-resource-account-assigned.png)
+    ![顯示資源帳戶與已指派服務編號的資源帳戶清單螢幕擷取畫面](../media/auto-attendant-resource-account-assigned.png)
 
-這會完成自動助理設定。
+這會完成自動總機配置。
 
 ---
 

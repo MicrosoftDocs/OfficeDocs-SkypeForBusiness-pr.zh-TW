@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd2b83c5b96ab9049783a774c56297b51179e68e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7972febeab134f0ec075418e351c35ef7e273fcf
+ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094033"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51439668"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>會議通話的 Teams &簡介
 
@@ -44,7 +44,7 @@ Microsoft 365 A3/A5/E3/E5/Business Premium 和 Office 365 A3/A5/E3/E5 使用者�
 
 合規性錄製解決方案整合功能也于 Ignite 2019 的合規性錄製和 Microsoft Teams 會話中 [<span class="underline">受到審查</span>](https://myignite.microsoft.com/archives/IG19-VCE40)。
 
-## <a name="teams-interaction-recording-overview"></a>團隊互動錄製概觀
+## <a name="teams-interaction-recording-overview"></a>Teams 互動錄製概觀
 
 互動錄製使用案例可以有效分成四個主要的錄製功能類別 ：便利性、功能、組織及合法截取，如影像所示：
 
@@ -61,7 +61,7 @@ Microsoft 365 A3/A5/E3/E5/Business Premium 和 Office 365 A3/A5/E3/E5 使用者�
 | Access 擁有者           | 使用者               | 合規性      |
 | 保留政策？      | 選用           | 是             |
 
-Teams 提供各種功能，方便 [<span class="underline">且</span>](./cloud-recording.md) 實用的會議與即時活動錄製。 組織錄製是指讓採用 Teams 通話和會議的組織，以系統管理政策的方式，自動錄製和捕獲通話和線上會議，以便根據相關公司或法規政策的要求進行後續處理和保留。 根據此政策的使用者會發現，正在錄製與 Teams 的數位互動，但無法停用錄製，且一旦互動完成，將無法存取錄製。 錄製成為適用于 eDiscovery、法律保留及其他公司保留用途之合規性和法務人員所使用之組織檔案的一部分。
+Teams 提供各種功能，方便 [<span class="underline">且</span>](./cloud-recording.md) 實用的會議與即時活動錄製。 組織錄製是指讓採用 Teams 通話和會議的組織，以系統管理政策的方式，自動錄製和捕獲通話和線上會議，以便根據相關公司或法規政策的要求進行後續處理和保留。 根據此政策的使用者會發現，正在錄製與 Teams 的數位互動，但無法停用錄製，且一旦互動完成，將無法存取錄製。 錄製成為適用于 eDiscovery、法律保留及其他公司保留用途之合規性和法務人員使用之組織檔案的一部分。
 
 ## <a name="example-user-needs"></a>範例使用者需求
 
@@ -83,7 +83,7 @@ Teams 提供各種功能，方便 [<span class="underline">且</span>](./cloud-r
 <tr class="even">
 <td>通訊系統管理員</td>
 <td><ul>
-<li><p>瞭解將錄製原則適用于 Teams 使用者/端點的原因及方法。</p></li>
+<li><p>瞭解為什麼以及如何將錄製原則適用于 Teams 使用者/端點。</p></li>
 <li><p>為組織設定及維護 Teams 錄製政策。</p></li>
 <li><p>監控和疑難排解 Teams 通話和會議錄製相關問題。</p></li>
 <li><p>使用使用方式、品質和可靠性的營運分析，支援內部合規性人員。</p></li>
@@ -133,7 +133,7 @@ Azure 和 Windows VM 需求僅適用于 Teams Bot 元件，這表示合作夥伴
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合規性錄製策略指派和置備
 
-IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [<span class="underline">Microsoft PowerShell 管理</span>](./teams-powershell-overview.md) ，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關 Microsoft Docs 會議 [<span class="underline">政策</span>](./meeting-policies-in-teams.md)、 [<span class="underline">通話策略</span>](./teams-calling-policy.md) 和  [<span class="underline">群群組原則的更多資訊</span>](./assign-policies.md#assign-a-policy-to-a-group)。
+IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [<span class="underline">Microsoft PowerShell</span>](./teams-powershell-overview.md) 管理，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關 Microsoft Docs [<span class="underline">會議政策</span>](./meeting-policies-in-teams.md)、通話 [<span class="underline">策略</span>](./teams-calling-policy.md) 和  [<span class="underline">群群組原則的更多資訊</span>](./assign-policies.md#assign-a-policy-to-a-group)。
 
 1. 在租使用者中建立應用程式實例。
 
@@ -206,7 +206,7 @@ IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製�
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Teams 認證計畫合規性錄製
 
-除了發佈公開可用的 API，讓合作夥伴能夠開發和整合 CCaaS 解決方案與 Teams 之外，我們還為 Microsoft Teams 認證計畫開發合規性記錄，為客戶提供保證，確保每個參與合作夥伴的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。  
+除了發佈公開可用的 API，讓合作夥伴能夠開發 CCaaS 解決方案並整合 Teams 之外，我們開發 Microsoft Teams 認證計畫的合規性記錄，為客戶提供保證，確保每個參與合作夥伴的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。  
 
 下列合作夥伴已認證其 Microsoft Teams 解決方案。
 
@@ -229,6 +229,7 @@ IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製�
 |奧克創新 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |紅色方塊 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
+|Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 
 隨著更多合作夥伴加入並符合認證準則，這份清單將會更新。
 

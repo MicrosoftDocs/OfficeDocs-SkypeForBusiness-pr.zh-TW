@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 適用 Microsoft 365 Business Voice 的國家與地區。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3a876bb7bb0cdd45210f5cb31a77fb949814f035
+ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116021"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471457"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice 的適用國家與地區
 
@@ -56,7 +56,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 美國        | X                                    | X<sup>1</sup>                                               | X                      |
 | 阿根廷            |                                      | X                                                           |                        |
 | 澳洲            |                                      | X                                                           |                        |
-| 奧地利              | X                                    | X                                                           |                        |
+| 奧地利              |                                      | X                                                           |                        |
 | 比利時              |                                      | X                                                           |                        |
 | 波士尼亞與赫塞哥維納 |                                      | X                                                           |                        |
 | 巴西               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 克羅埃西亞              |                                      | X                                                           |                        |
 | 賽普勒斯               |                                      | X                                                           |                        |
 | 捷克共和國       |                                      | X                                                           |                        |
-| 丹麥              | X                                    | X                                                           |                        |
+| 丹麥              |                                      | X                                                           |                        |
 | 多明尼加   |                                      | X                                                           |                        |
 | 厄瓜多              |                                      | X                                                           |                        |
 | 埃及                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 印尼            |                                      | X                                                           |                        |
 | 愛爾蘭              |                                      | X                                                           |                        |
 | 以色列               |                                      | X                                                           |                        |
-| 義大利                | X                                    | X                                                           |                        |
+| 義大利                |                                      | X                                                           |                        |
 | 日本                |                                      | X<sup>2</sup>                                               |                        |
 | 約旦               |                                      | X                                                           |                        |
 | 肯亞                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 秘魯                 |                                      | X                                                           |                        |
 | 菲律賓          |                                      | X                                                           |                        |
 | 波蘭               |                                      | X                                                           |                        |
-| 葡萄牙             | X                                    | X                                                           |                        |
+| 葡萄牙             |                                      | X                                                           |                        |
 | 波多黎各          |                                      | X                                                           |                        |
 | 卡達                |                                      | X                                                           |                        |
 | 羅馬尼亞              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 | 南韓          |                                      | X                                                           |                        |
 | 西班牙                |                                      | X                                                           |                        |
 | 斯里蘭卡            |                                      | X                                                           |                        |
-| 瑞典               | X                                    | X                                                           |                        |
-| 瑞士          | X                                    | X                                                           |                        |
+| 瑞典               |                                      | X                                                           |                        |
+| 瑞士          |                                      | X                                                           |                        |
 | 台灣               |                                      | X                                                           |                        |
 | 泰國             |                                      | X                                                           |                        |
 | 千里達及托巴哥  |                                      | X                                                           |                        |
