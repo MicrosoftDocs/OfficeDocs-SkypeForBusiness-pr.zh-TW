@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何使用 Microsoft 365 商務語音設定通話佇列。
-ms.openlocfilehash: f4dcd38331812053df9d08c7e8417b6d8156d5af
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439728"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478363"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>建立通話佇列 - 小型企業教學課程
 
@@ -55,7 +55,7 @@ ms.locfileid: "51439728"
 
 # <a name="step-1brcreate-a-team"></a>[步驟 1 <br> 建立團隊](#tab/create-team)
 
-建立通話佇列時，您可以新增個別使用者至佇列，或使用現有的安全性群組、Microsoft 365 群組或 Microsoft Teams 小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列的成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量。
+建立通話佇列時，您可以將個別使用者新增到佇列，或使用現有的安全性群組、Microsoft 365 群組或 Microsoft Teams 小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列的成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量。
 
 建立團隊
 
@@ -84,17 +84,17 @@ ms.locfileid: "51439728"
 2. 輸入頻道的名稱和描述，然後按一下 [ **新增**。
 
 > [!div class="nextstepaction"]
-> [步驟 2 - 資源帳戶>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [步驟 2 - 資源帳戶>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[步驟 2 <br> 資源帳戶](#tab/resource-account)
 
-您建立的每個通話佇列都需要資源帳戶。 這類似于使用者帳戶，除了該帳戶與自動通話或通話佇列相關聯，而不是與人員相關聯。 在此步驟中，我們將建立帳戶、指派 *Microsoft 365 電話系統 - 虛擬使用者* 授權，然後使用它開始建立通話佇列。
+您建立的每個通話佇列都需要資源帳戶。 這類似于使用者帳戶，除了該帳戶與自動電話機或通話佇列相關聯，而不是與人員相關聯。 在此步驟中，我們會建立帳戶、指派 *Microsoft 365 電話系統 - 虛擬使用者* 授權，然後使用它開始建立通話佇列。
 
 ### <a name="create-a-resource-account"></a>建立資源帳戶
 
 您可以在 Teams 系統管理中心建立資源帳戶。
 
-1. 在 Teams 系統管理中心，展開 **整個組織設定**，然後按一下 [ **資源帳戶**。
+1. 在 Teams 系統管理中心中，展開 **整個組織設定**，然後按一下 [ **資源帳戶**> 。
 
 2. 按一下 [新增 **]**。
 
@@ -140,10 +140,10 @@ ms.locfileid: "51439728"
 
 > [!NOTE]
 > 上傳的錄製不能大於 5 MB。
-> Teams 通話佇列中提供的預設音樂不含貴組織支付的任何版稅。 
+> Teams 通話佇列中提供的預設音樂，不含貴組織支付的任何版稅。 
 
 > [!div class="nextstepaction"]
-> [步驟 3 - 呼叫代理人>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [步驟 3 - 呼叫代理人>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[步驟 3 <br> 通話代理人](#tab/call-agents)
 
@@ -160,7 +160,7 @@ ms.locfileid: "51439728"
 > 新使用者新加入團隊時，第一次通話最多可能需要八小時才能到達。
 
 > [!div class="nextstepaction"]
-> [步驟 4 - 資源帳戶>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [步驟 4 - 資源帳戶>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[步驟 4 <br> 通話路由](#tab/call-routing)
 
@@ -172,7 +172,7 @@ ms.locfileid: "51439728"
 
     - **話務員路由** 會同時響鈴佇列中的所有代理程式。 第一個接電話的代理人會接到電話。
 
-    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
+    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打給下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
 
     - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這可能是理想的選擇，以確保所有通話代理人之間享有同等的機會。
 
@@ -189,7 +189,7 @@ ms.locfileid: "51439728"
     ![路由、退出宣告和通知時間設定螢幕擷取畫面](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [步驟 5 - 通話溢出>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [步驟 5 - 通話溢出>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[步驟 5 <br> 通話溢出](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ ms.locfileid: "51439728"
     ![通話溢出設定螢幕擷取畫面](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [步驟 6 - 通話>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [步驟 6 - 通話>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[步驟 6 <br> 通話超時](#tab/call-timeout)
 

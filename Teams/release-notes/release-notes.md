@@ -16,20 +16,55 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 系統管理功能版本資訊。
-ms.openlocfilehash: 4c7219e3850eeeb2f502431db222f531d6166c56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117661"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487227"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 系統管理功能版本資訊
 
 這些版本資訊提供有關 Microsoft Teams 新系統管理員功能的資訊。
 
+## <a name="march-31-2021"></a>2021 年 3 月 31 日
+
+### <a name="share-to-teams-from-outlook"></a>從 Outlook 共用至 Teams
+
+從 Outlook 共用至 Teams 可讓您將電子郵件訊息或交談的一份副本 ，包括附件，傳送至 Teams 聊天和頻道。 在 Outlook **功能區** 或電子郵件的動作功能表中尋找共用至 Teams 選項。 共用至 Teams 支援 Outlook 網頁版、Windows 版 Outlook，以及新的 Mac 版 Outlook Preview。 [深入了解](../teams-outlook-share-teams.md)。
+
+## <a name="march-30-2021"></a>2021 年 3 月 30 日
+
+### <a name="customize-apps-in-teams-preview"></a>在 Teams 中自訂應用程式 (預覽) 
+
+Microsoft Teams 提供應用程式自訂功能，以增強 Teams 體驗。 有些應用程式開發人員允許 Teams 系統管理員自訂應用程式。管理員可以使用 Teams 系統管理中心管理應用程式頁面，根據組織需求自訂或重新建立應用程式屬性的品牌。 [深入了解](../customize-apps.md)。
+
+## <a name="march-24-2021"></a>2021 年 3 月 24 日
+
+### <a name="enable-live-transcripts-in-teams"></a>在 Teams 中啟用即時文字記錄
+
+這是每個使用者原則，適用于會議期間。 此設定可控制使用者是否可以使用開啟即時字幕選項，並關閉使用者出席會議中即時字幕。 [深入了解](../meeting-policies-in-teams.md#enable-live-captions)。
+
+## <a name="march-23-2021"></a>2021 年 3 月 23 日
+
+### <a name="supervised-chats"></a>受監督的聊天
+
+監督式聊天可讓指定的教育者與學生開始聊天，並阻止學生開始新的聊天，除非有適當的教師出席。 啟用聊天監督時，主管不得離開聊天，而不允許其他參與者移除聊天，以確保與學生有關的聊天受到適當的監督。
+[深入了解](../supervise-chats-edu.md)。
+
+### <a name="masking-phone-numbers"></a>遮罩電話號碼
+
+我們發佈了新的系統管理員設定，以遮罩撥入參與者加入會議時的電話號碼。 系統管理員可以選擇遮罩會議會議 (所有人的電話號碼，) 外部人員的電話號碼，或已停用遮罩功能。 如果系統管理員選擇停用此設定，電話號碼將會完整顯示在會議。 [深入了解](../ptsn-mask-phone-numbers.md)。
+
+## <a name="march-1-2021"></a>2021 年 3 月 1 日
+
+### <a name="additional-golocal-support-in-teams-live-events"></a>Teams 即時活動中的其他 GoLocal 支援
+
+南非、韓國、瑞士、法國、德國和巴西的支援已新加入 Live 事件。 [瞭解更多資訊](../teams-live-events/plan-for-teams-live-events.md#regional-availability)
+
 ## <a name="february-22-2021"></a>2021 年 2 月 22 日
 
-### <a name="custom-lob-tabs-are-available-for-dod-customers"></a>DoD (提供) LOB 和自訂 LOB 的自訂選項卡
+### <a name="custom-lob-tabs-are-available-for-dod-customers"></a>DoD (可) LOB 和自訂 LOB 的自訂選項卡
 
 現在，DoD 客戶可以在 Teams 應用程式中上傳及部署自己的自訂 (LOB) 部署。
 
@@ -37,7 +72,7 @@ ms.locfileid: "51117661"
 
 ### <a name="meeting-reactions-policy"></a>會議反應政策
 
-會議反應預設為關閉。 關閉使用者的反應並不表示使用者在排程的會議中無法使用反應。 無論預設設定如何，會議召集人仍可從會議選項頁面開啟回應。 [瞭解更多資訊。](../meeting-policies-in-teams.md)
+會議反應預設為關閉。 關閉使用者的反應並不代表使用者在排程的會議中無法使用反應。 無論預設設定如何，會議召集人仍可從會議選項頁面開啟回應。 [瞭解更多資訊。](../meeting-policies-in-teams.md)
 
 ## <a name="february-11-2021"></a>2021 年 2 月 11 日
 
@@ -61,7 +96,7 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主
 
 ### <a name="offline-documentation"></a>離線檔
 
-即使您離線或以低頻寬條件執行，Teams 也持續執行。 Teams 會將您所有未傳送的郵件 (聊天) 24 小時，並一回到線上就傳送。 [深入了解](../connectivity-issues.md)。
+即使您離線或在低頻寬情況下執行，Teams 也持續執行。 Teams 會將您所有未傳送的郵件 (聊天) 24 小時，並一回到線上就傳送。 [深入了解](../connectivity-issues.md)。
 
 ## <a name="january-19-2021"></a>2021 年 1 月 19 日
 
@@ -143,7 +178,7 @@ Microsoft Teams 顯示器是一種一體式 Teams 專用裝置類別，其功能
 
 *這項功能在私人預覽中*
 
-自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增所需的策略類型與策略，以建立您自己的策略套件。 [深入了解](../manage-policy-packages.md#custom-policy-packages)。
+自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增您所需的策略類型與策略，以建立您自己的策略套件。 [深入了解](../manage-policy-packages.md#custom-policy-packages)。
 
 ### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心新增應用程式至小組
 
@@ -153,11 +188,11 @@ Microsoft Teams 顯示器是一種一體式 Teams 專用裝置類別，其功能
 
 ### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>使用商務用 OneDrive 和 SharePoint 進行會議錄製
 
-Microsoft Teams 有一種保存會議錄製的新方法。 這是從傳統 Microsoft Stream 轉換至新 Stream 的第一個階段，此方法會儲存 Microsoft 365 商務用 Microsoft OneDrive 和 SharePoint 上的錄製內容，並提供許多優點。 [深入了解](../tmr-meeting-recording-change.md)。
+Microsoft Teams 有一種用於保存會議錄製的新方法。 這是從傳統 Microsoft Stream 轉換至新 Stream 的第一個階段，此方法會儲存 Microsoft 365 商務用 Microsoft OneDrive 和 SharePoint 上的錄製內容，並提供許多優點。 [深入了解](../tmr-meeting-recording-change.md)。
 
 ### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>適用于中小型企業的免費音訊會議
 
-如果您是一家擁有最多 300 位使用者的中小型企業，而且您目前沒有任何音訊會議授權，您可以免費使用音訊會議一年。 這項免費優惠于 2020 年 10 月 1 日起提供。 [深入了解](../audio-conferencing-smb.md)。
+如果您是一家擁有最多 300 名使用者的中小型企業，而且您目前沒有任何音訊會議授權，您可以免費使用音訊會議一年。 這項免費優惠于 2020 年 10 月 1 日起提供。 [深入了解](../audio-conferencing-smb.md)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心中查看應用程式許可權並授予系統管理員同意
 
@@ -231,11 +266,11 @@ Microsoft Teams 有一種保存會議錄製的新方法。 這是從傳統 Micro
 
 ### <a name="group-chat-size-increase"></a>群組聊天大小增加
 
-我們新增了現在有 250 位參與者參與群組聊天的能力。 [深入了解](../limits-specifications-teams.md)。
+我們新增了現在讓 250 位參與者參與群組聊天的能力。 [深入了解](../limits-specifications-teams.md)。
 
 ### <a name="manage-the-praise-app"></a>管理稱讚應用程式
 
-Microsoft Teams 中的稱讚應用程式可協助使用者向組織或教室的成員表示感謝。 稱讚應用程式有一系列徽章供您選擇，並提供建立您自己的徽章的選項。 稱讚是專為協助認可 Teams 使用者從教育者到前線員工所執行之各種工作所付出的投入所設計。 [深入了解](../manage-praise-app.md)。
+Microsoft Teams 中的稱讚應用程式可協助使用者向組織或教室的成員表示感謝。 稱讚應用程式有一系列徽章供您選擇，並提供建立您自己的徽章的選項。 稱讚是專為協助認可 Teams 使用者從教育人員到前線員工所執行之各種工作所付出的投入所設計。 [深入了解](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft Teams 會議室和 Surface Hub 設定協調會議
 
@@ -243,7 +278,7 @@ Microsoft Teams 中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="tagging-by-shift"></a>以班次標記
 
-有了這項功能，在 Teams 中的 Shifts 應用程式中，系統會自動為人員指派符合排程和班次組名的標記。 [深入了解](../manage-tags.md)。
+有了這項功能，在 Teams 中的 Shifts 應用程式中，系統會自動為人員指派符合其排程和班組名的標記。 [深入了解](../manage-tags.md)。
 
 ## <a name="august-14-2020"></a>2020 年 8 月 14 日
 
@@ -277,7 +312,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過 Teams App 提交 API 提交的自訂應用程式
 
-開發人員可以使用 Teams App 提交 API 將自訂應用程式直接提交至 Microsoft Teams 系統管理中心，讓系統管理員進行審核和核准。 [深入了解](../submit-approve-custom-apps.md)。
+開發人員可以使用 Teams App 提交 API 將自訂應用程式直接提交至 Microsoft Teams 系統管理中心，讓系統管理員進行審閱和核准。 [深入了解](../submit-approve-custom-apps.md)。
 
 ## <a name="july-29-2020"></a>2020 年 7 月 29 日
 
@@ -317,7 +352,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="voicemail-support-in-call-queues"></a>通話佇列中的語音信箱支援
 
-我們新增了通話佇列支援，以使用共用語音信箱方塊。 [深入了解](../create-a-phone-system-call-queue.md)。
+我們新增了通話佇列使用共用語音信箱方塊的支援。 [深入了解](../create-a-phone-system-call-queue.md)。
 
 ## <a name="july-8-2020"></a>2020 年 7 月 8 日
 
@@ -349,7 +384,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人進行螢幕畫面共用
 
-許多 IT 系統管理員抱怨當他們停用 AllowPrivateCalling 政策時，無法讓員工從聊天分享螢幕畫面。 這項功能已使從 AllowPrivateCalling 政策啟動畫面功能的功能脫鉤，但如果其 AllowPrivateCalling 政策停用，它仍然會禁止使用者將音訊/視像新增到螢幕共用會話。
+許多 IT 系統管理員抱怨當他們停用 AllowPrivateCalling 政策時，無法讓員工從聊天分享螢幕畫面。 這項功能已使從 AllowPrivateCalling 政策啟動畫面功能的功能脫鉤，但如果使用者的 AllowPrivateCalling 政策停用，仍然無法將音訊/視像新加入螢幕共用會話。
 
 ## <a name="june-29-2020"></a>2020 年 6 月 29 日
 
@@ -423,7 +458,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="team-and-channel-analytics"></a>小組和頻道分析
 
-除了團隊分析之外，現在您也可以查看頻道層級度量和深入解析。 我們也將期間增強為 90 天，因此您可以分析較長的期間資料。 除此之外，此版本還包含關於小組或頻道的文章、回復和會議數量的新度量和圖表。 [深入了解](../teams-analytics-and-reports/view-analytics.md)。
+除了團隊分析之外，現在您也可以查看頻道層級度量和深入解析。 我們也將期間增強為 90 天，因此您可以分析較長的期間資料。 除此之外，此版本還包含有關小組或頻道的文章、回復和會議數量的新度量和圖表。 [深入了解](../teams-analytics-and-reports/view-analytics.md)。
 
 ## <a name="april-20-2020"></a>2020 年 4 月 20 日
 
@@ -435,13 +470,13 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="customize-meeting-video-backgrounds"></a>自訂會議視音訊背景
 
-當您使用視像開會時，現在可以選擇不同的靜態背景影像。 這樣一來，您就會顯示此影像，而不是您坐位置的實際背景。 [深入了解](../meeting-policies-in-teams.md)。
+當您使用視像開會時，現在可以選擇不同的靜態背景影像。 這將會讓您顯示此影像，而不是您坐位置的實際背景。 [深入了解](../meeting-policies-in-teams.md)。
 
 ## <a name="april-1-2020"></a>2020 年 4 月 1 日
 
 ### <a name="teams-for-realwear"></a>Real的 Teams
 
-適用于 RealS 的 Microsoft Teams 用戶端可讓前線員工使用 RealS 的強固式頭戴式穿戴式裝置操作 Teams 100% 免手操作，並且使用 Teams 視像通話尋求專家的遠端協助。 [深入了解](../flw-realwear.md)。
+適用于 RealS 的 Microsoft Teams 用戶端可讓前線員工使用 RealS 的強固式頭戴式穿戴式裝置操作 Teams 100% 免手操作，並且使用 Teams 視像通話向專家尋求遠端協助。 [深入了解](../flw-realwear.md)。
 
 ## <a name="march-31-2020"></a>2020 年 3 月 31 日
 
