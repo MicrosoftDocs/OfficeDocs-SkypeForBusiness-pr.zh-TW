@@ -1207,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: 執行快速入門精靈
         href: business-voice/use-getting-started-wizard.md
-      - name: 可以嘗試的動作
-        href: business-voice/things-to-try.md
       - name: 自訂您的設定
         items:
           - name: 自訂選項
