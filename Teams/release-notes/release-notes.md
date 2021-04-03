@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 系統管理功能版本資訊。
-ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
-ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
+ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51487227"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495750"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 系統管理功能版本資訊
 
@@ -55,6 +55,10 @@ Microsoft Teams 提供應用程式自訂功能，以增強 Teams 體驗。 有�
 ### <a name="masking-phone-numbers"></a>遮罩電話號碼
 
 我們發佈了新的系統管理員設定，以遮罩撥入參與者加入會議時的電話號碼。 系統管理員可以選擇遮罩會議會議 (所有人的電話號碼，) 外部人員的電話號碼，或已停用遮罩功能。 如果系統管理員選擇停用此設定，電話號碼將會完整顯示在會議。 [深入了解](../ptsn-mask-phone-numbers.md)。
+
+### <a name="create-a-phone-system-auto-attendant"></a>建立電話系統自動總機
+
+自動話務員可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 為貴組織建立自動助理。 [深入了解](../create-a-phone-system-auto-attendant.md)。
 
 ## <a name="march-1-2021"></a>2021 年 3 月 1 日
 
