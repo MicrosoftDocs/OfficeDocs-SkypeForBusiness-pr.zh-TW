@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 客戶程式來連接商務用 Skype Server。 也稱為「Skype 連線」。
-ms.openlocfilehash: ae3982375c0693c34e204e4512481a1f9f3b6ec3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9c5f7f5c275b60c5b59dc43fe0a9b4a5c9b1514b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834103"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574062"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Skype Connectivity
 
@@ -68,7 +68,7 @@ Skype 目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡
 > 如果要求率超過15個要求/秒，則 Skype graph 服務會節流任何內部部署或 Microsoft 365 或 Office 365 客戶的搜尋要求。 
   
 > [!NOTE]
-> 若為大型企業內部部署客戶，必須使用「Skype 搜尋」服務將網域列入白名單，以允許更高的要求率。 
+> 針對大型企業內部部署客戶，您必須使用 Skype 搜尋服務將網域新增至 allowlist，以允許更高的要求率。
   
 > [!NOTE]
 > 如果佇列中有太多擱置要求，商務用 Skype Server 會節流傳入的要求。 

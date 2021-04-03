@@ -10,15 +10,15 @@ ms.reviewer: anblak
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Microsoft Teams CCaaS (整合式) 中心概觀
+description: 整合式聯絡人中心服務概觀 (CCaaS) Microsoft Teams 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fd86bd7aae0e925580067c668e0e50eb8112efb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119222"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574122"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合
 
@@ -26,7 +26,7 @@ ms.locfileid: "51119222"
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合是什麼？
 
-現今的聯絡中心提供的支援遠非支援，它們可成為客戶與品牌互動和未篩選之意見的其中一個主要工具。 由於現今客戶偏好跨電話、電子郵件、文字、社交等多種頻道互動，以及與目前購買程式相關的觸控點數量擴大，許多組織已發現兩個額外的事實：
+現今的聯絡中心提供的支援遠非支援，它們可成為互動的主要工具之一，並針對客戶與品牌的體驗提供未經篩選的意見回饋。 由於現今客戶偏好跨電話、電子郵件、文字、社交等多種頻道互動，以及與目前購買程式相關的觸控點數量擴大，許多組織已發現兩個額外的事實：
 
 1. 組織的每一個成員都有可能直接與客戶互動，因此必須配備適當的工具。
 
@@ -38,7 +38,7 @@ Microsoft Teams 可在其通訊模式中，包括聊天、視訊會議和通話�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 認證計畫的已連接連絡人中心
 
-API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 此外，我們開發 Microsoft Teams 認證計畫之連接式聯絡人中心，為客戶提供每個參與提供者的解決方案都經過測試與驗證的保證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
+API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 此外，我們開發 Microsoft Teams 認證計畫之連接式聯絡人中心，為客戶提供保證，確保每個參與提供者的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
 
 ![認證徽章。](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
@@ -47,6 +47,8 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
 ### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>目前正在認證程式中的已連接聯絡人中心解決方案
 
@@ -55,14 +57,13 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
-| `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
-| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
@@ -94,7 +95,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 ### <a name="connect-and-extend"></a>連接和延伸
 
-此模型使用 Teams 用戶端平臺[、Microsoft Graph](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)中的 Teams Graph API 和雲端通訊[API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)與[Teams](/microsoftteams/platform/overview)用戶端整合，並使用 Teams 電話系統進行所有聯絡中心通話和通話控制體驗，以延伸聯絡中心人員和代理人的體驗。 在此模型中，聯絡中心解決方案提供者會和 Microsoft 365 一起做為電話業者。
+此模型使用 Teams 用戶端平臺[、Microsoft Graph](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)中的 Teams Graph API 和雲端通訊[API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)與[Teams](/microsoftteams/platform/overview)用戶端整合，並使用 Teams 電話系統進行所有聯絡中心通話和通話控制體驗，以延伸聯絡中心人員和代理人的體驗。 在此模型中，聯絡中心解決方案提供者會和 Microsoft 365 一起做為電話電信業者。
 
 使用 Connect 和 Extend 型解決方案，代理人可以在開始進行互動之前，從多個系統的資料相互關聯的動態關聯筆記中獲益，然後在 Teams 內部共同合作和外部通訊中原生地工作，以避免成本昂貴的內容切換。
 
@@ -104,7 +105,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 雖然下列不是此整合模型的功能全面清單，但它確實會強調主要焦點區域：
 
-  - Teams Graph API 和雲端通訊 API，可與 Teams 整合 
+  - 與 Teams 整合的 Teams Graph API 和雲端通訊 API 
 
   - 適用于代理人體驗的 Teams 型應用程式 
 
@@ -132,7 +133,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 雖然下列不是此整合模型的功能功能全面清單，但除了連接和延伸模型提供的功能之外，這些功能會突顯出一些區域。
 
-  - 透過 Teams SDK 原生啟用的正式代理人體驗進行全通道通訊 
+  - 正式代理體驗原生啟用，透過 Teams SDK 進行全通道通訊 
 
   - 使用 Teams 共同服務進行代理人共同合作和客戶互動  
 

@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe53da388c4f10561106bb0b2bec9d1e2898e563
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 80e6225302cb733c37ba1720d95d8d8f1a220831
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262628"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506687"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,8 +31,9 @@ ms.locfileid: "51262628"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>使用 MSAL 進行驗證&授權</li> <li>Connect-MicrosoftTeams是所有 Cmdlet 的切入點。</li><li>不再提供 New-csOnlineSession。 它已被 Connect-MicrosoftTeams 取代。</li><li>不再需要 Enable-csonlinesionforreconnection。 此功能已在 Teams PowerShell 模組中原生地實現。</li> <li>已重做群組原則套件 Cmdlet 並新增群組套件指派</li><li>Cmdlet Get-Team增強功能</li> <li>改善現有 Cmdlet 的記錄與調試選項 </li> <li>新增範本管理 Cmdlet</li> <li>已取消New-CsOnlineSession</li>|
-| 2021 年 2 月 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>新增範本管理 Cmdlet</li><li>Cmdlet 的 Mezzo 和批次處理增強功能Get-Team Cmdlet</li> <li>改善現有 Cmdlet 的記錄與調試選項 </li> <li>已重構的策略套件 Cmdlet</li>|
+| 2021 年 4 月 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>已修正現有 Cmdlet (例如 Get-CsTeamsNetworkRoamingPolicy、Get-CsTeamsMeetingPolicy、Get-CsTeamsMesagingPolicy 等) 的格式。</li><li>已更新策略管理 Cmdlet 的參數清單。</li>|
+| 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>使用 MSAL 進行驗證&授權</li> <li>Connect-MicrosoftTeams是所有 Cmdlet 的切入點。</li><li>不再提供 New-csOnlineSession。 它已被 Connect-MicrosoftTeams 取代。</li><li>不再需要 Enable-csonlinesionforreconnection。 此功能已在 Teams PowerShell 模組中原生地實現。</li> <li>已重做群組原則套件 Cmdlet 並新增群組套件指派</li><li>Cmdlet Get-Team增強功能</li> <li>改善現有 Cmdlet 的記錄及調試選項 </li> <li>新增範本管理 Cmdlet</li> <li>已取消New-CsOnlineSession</li>|
+| 2021 年 2 月 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>新增範本管理 Cmdlet</li><li>Cmdlet 的 Mezzo 和批次處理增強功能Get-Team Cmdlet</li> <li>改善現有 Cmdlet 的記錄及調試選項 </li> <li>已重構的策略套件 Cmdlet</li>|
 | 2020 年 12 月 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>更新至 New-team Cmdlet，增加重試和睡眠持續時間</li>|
 | 2020 年 12 月 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>商務用 Skype Online 整合的更新</li><li>使用 Teams 修正重複Connect-Microsoft提示</li>|
 | 2020 年 11 月 | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>新增自訂策略套件 Cmdlet</li><li>目標階層上傳命令的修正</li>|
@@ -49,7 +50,7 @@ ms.locfileid: "51262628"
 ### <a name="cmdlet-availability"></a>Cmdlet 可用性
 
 > [!NOTE]
-> 下表中的清單僅包含原生屬於 Teams PowerShell 模組的 Cmdlet。 不會顯示商務用 S kype Online 連接器模組中的 Teams[Cmdlet。](/powershell/skype/intro?view=skype-ps) 不過，由於這些 Cmdlet 會原生移入 Teams PowerShell，因此我們會將它們新加到此資料表中。
+> 下表中的清單僅包含原生屬於 Teams PowerShell 模組的 Cmdlet。 系統不會顯示商務用 S kype Online 連接器模組中的[Teams Cmdlet。](/powershell/skype/intro?view=skype-ps) 不過，由於這些 Cmdlet 會原生移入 Teams PowerShell，因此我們會將它們新加到此資料表中。
 
 | Cmdlet | 可在公用預覽版中使用 | 在 GA 中提供 |
 | -| -- | --|

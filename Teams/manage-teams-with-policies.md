@@ -15,28 +15,28 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101099"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574182"
 ---
 # <a name="manage-teams-with-policies"></a>使用策略管理 Teams
 
-策略是管理 Teams 的重要部分。 使用本文流覽如何使用策略來為貴組織帶來好處。
+策略是管理 Teams 的一項重要部分。 使用本文流覽如何使用策略來為貴組織帶來好處。
 
 ## <a name="what-you-use-policies-for"></a>您用於策略的
 
-策略用於完成貴組織中跨不同領域的許多工作，例如訊息、會議和應用程式。 您可以執行一些操作，包括允許使用者在團隊頻道中排程會議、讓使用者編輯已送出的郵件，以及控制使用者是否可以將應用程式釘到 Teams 應用程式欄。
+策略是用來在貴組織中完成跨不同領域的許多工作，例如訊息、會議和應用程式。 您可以執行一些操作，包括允許使用者在團隊頻道中排程會議、讓使用者編輯已送出的郵件，以及控制使用者是否可以將應用程式釘到 Teams 應用程式欄。
 
 ## <a name="how-to-assign-policies"></a>如何指派策略
 
-根據貴組織嘗試完成的工作，可以數種不同的方式指派策略。 您可以在 Teams 系統管理中心進行和查看作業。
+您可以根據貴組織嘗試完成的工作，以多種方式指派策略。 您可以在 Teams 系統管理中心進行及查看作業。
 
 ![群群組原則作業的螢幕擷取畫面。](media/group-policy-assignment.png)
 
-請在這裡閱讀有關指派策略 [的更多資訊](assign-policies.md)。
+深入瞭解如何在這裡指派 [策略](policy-assignment-overview.md)。
 
 ## <a name="how-to-manage-policies"></a>如何管理原則
 
@@ -60,7 +60,7 @@ ms.locfileid: "51101099"
 
 您可以使用 Microsoft Teams 管理下列政策。
 
-策略類型 | 說明
+策略類型 | 描述
 ------------|------------
 [策略套件](manage-policy-packages.md) | Microsoft Teams 中的策略套件是一組預先定義的策略和設定，您可以指派給組織中具有類似角色的使用者。
 [會議原則](meeting-policies-in-teams.md) | 會議策略是用來控制貴組織中使用者排程會議之會議參與者可用的功能。 會議政策包含下列主題。<br> - 音訊和視音訊政策<br> - 內容和螢幕畫面共用政策<br> - 參與者、來賓和存取政策<br> - 一般政策
@@ -70,8 +70,8 @@ ms.locfileid: "51101099"
 
 ## <a name="related-topics"></a>相關主題
 
+* [在 Teams 中指派策略 - 開始使用](policy-assignment-overview.md)
 * [在 Microsoft Teams 中管理意見回饋政策](manage-feedback-policies-in-teams.md)
 * [在 Microsoft Teams 中管理團隊政策](teams-policies.md)
-* [在活動記錄中查看策略指派](activity-log.md)
 * [在 Microsoft Teams 中設定即時活動](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams 教育用政策與政策套件](policy-packages-edu.md)

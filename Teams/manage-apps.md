@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft Teams 系統管理中心的管理應用�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: b3858044c52324cb52005c70c6f3afcf91e3f617
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450620"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574192"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理您的應用程式
 
@@ -81,15 +81,15 @@ ms.locfileid: "51450620"
 
 當 **開發人員使用** Teams App 提交 API 提交應用程式時，管理應用程式頁面上的擱置核准小工具會通知您。 新提交的應用程式會列出已提交之發佈狀態和封鎖 **狀態**。  請前往應用程式詳細資料頁面以查看應用程式的詳細資訊，然後發佈，將發佈 **狀態設定** 為 **發佈**。
 
-當開發人員提交更新至自訂應用程式時，您也會收到通知。 然後，您可以在應用程式詳細資料頁面上 (或拒絕) 更新。 對於更新的應用程式，所有應用程式權限原則與應用程式設定策略仍然強制執行。
+當開發人員將更新提交到自訂應用程式時，您也會收到通知。 然後，您可以在應用程式詳細資料頁面上 (或拒絕) 更新。 對於更新的應用程式，所有應用程式權限原則與應用程式設定策略仍然強制執行。
 
-若要深入瞭解，請參閱 [發佈透過 Teams](submit-approve-custom-apps.md)App 提交 API 提交的自訂應用程式。
+若要深入瞭解，請參閱 [發佈透過 Teams App](submit-approve-custom-apps.md)提交 API 提交的自訂應用程式。
 
 ### <a name="upload-an-app-package"></a>上傳應用程式套件
 
 開發人員使用 Teams App Studio 建立 [Teams 應用程式](/microsoftteams/platform/get-started/get-started-app-studio)套件，然後以 .zip 格式傳送它。 當您有應用程式套件時，您可以將它上傳到組織的 App Store。
 
-若要上傳新的自訂應用程式，請選取 **上傳** 以上傳應用程式套件。 應用程式上傳後不會加亮顯示，因此您必須在管理應用程式頁面上搜尋應用程式清單以尋找。
+若要上傳新的自訂應用程式，請選取 **上傳** 以上傳應用程式套件。 應用程式上傳後不會加亮顯示，因此您必須在管理應用程式頁面上搜尋應用程式清單，以尋找它。
 
 若要在應用程式上傳後更新應用程式，請在 [管理應用程式> 頁面上的 App 清單中，按一下應用程式名稱，然後按一下 [ **更新**。 這麼做會取代現有的應用程式，所有應用程式權限原則及應用程式設定策略會持續為更新的應用程式強制執行。
 
@@ -104,7 +104,7 @@ ms.locfileid: "51450620"
 當您封鎖或允許管理應用程式頁面上的應用程式時，該應用程式會封鎖或允許貴組織的所有使用者使用。  當您封鎖或允許 Teams 應用程式權限原則中的應用程式時，系統會封鎖或允許指派該策略的使用者使用。 若要讓使用者能夠安裝任何應用程式並與其互動，您必須在組織層級允許應用程式位於管理應用程式頁面，並允許在指派給使用者的應用程式許可權政策中。
 
  > [!NOTE]
- > 若要卸載應用程式，請以滑鼠右鍵按一下應用程式，然後按一下 [**卸載** 或使用左側的 [其他應用程式> 功能表。
+ > 若要卸載應用程式，請以滑鼠右鍵按一下應用程式，然後按一下 [**卸載** 或使用左側的 [更多應用程式> 功能表。
 
 ## <a name="add-an-app-to-a-team"></a>新增應用程式至小組
 
@@ -116,17 +116,21 @@ ms.locfileid: "51450620"
 2. 選取 **新增到團隊**。
 3. 在新增 **到團隊窗格中** ，搜尋您想要新增應用程式的團隊，選取該團隊，然後 **選取應用程式**。
 
+## <a name="customize-an-app-in-preview"></a>在預覽 (自訂應用程式) 
+
+現在，您可以自訂應用程式，以根據您的組織需求包含特定的外觀和感受。 請參閱 [在 Teams 中自訂應用程式](customize-apps.md)。
+
 ## <a name="purchase-services-for-third-party-apps"></a>購買協力廠商應用程式的服務
 
 您可以直接從管理應用程式頁面搜尋及購買貴組織使用者協力廠商應用程式所提供的服務授權。 表格中 **的** 授權欄會指出應用程式是否提供付費的 SaaS 訂閱。 按一下 **[立即購買** >，即可查看方案與定價資訊，並購買使用者授權。 若要深入瞭解，請參閱在 [Microsoft Teams 系統](purchase-third-party-apps.md)管理中心購買 Teams 協力廠商應用程式服務。
 
 ## <a name="grant-admin-consent-to-apps"></a>將系統管理員同意授予應用程式
 
-您可以審查並授權代表貴組織中所有使用者要求許可權的應用程式。 如此一來，使用者就不需要在啟動 App 時，查看並接受應用程式要求的許可權。 許可權 **欄** 會指出應用程式是否有需要同意的許可權。 針對在 Azure  AD 中註冊並擁有需要同意的許可權的每個應用程式，您會看到一個 View 詳細資料連結。 若要深入瞭解，請參閱在 Microsoft Teams 系統管理中心中查看應用程式許可權並授予 [系統管理員同意](app-permissions-admin-center.md)。
+您可以代表貴組織的所有使用者，對要求許可權的應用程式進行審查並授予同意。 如此一來，使用者就不需要在啟動 App 時，查看並接受應用程式要求的許可權。 許可權 **欄** 會指出應用程式是否有需要同意的許可權。 針對在 Azure  AD 中註冊並擁有需要同意的許可權的每個應用程式，您會看到一個 View 詳細資料連結。 若要深入瞭解，請參閱 [在 Microsoft Teams](app-permissions-admin-center.md)系統管理中心中查看應用程式許可權並授予系統管理員同意。
 
 ## <a name="view-resource-specific-consent-permissions"></a>查看特定資源同意許可權
 
-資源特定 (RSC) 許可權，讓團隊擁有者同意應用程式存取及修改小組的資料。 RSC 許可權是一種精細的 Teams 特定許可權，可定義應用程式可在特定團隊中執行哪些工作。 您可以在應用程式詳細資料頁面的許可權選項卡上，查看 RSC 許可權。 若要深入瞭解，請參閱在 Microsoft Teams 系統管理中心中查看應用程式許可權並授予 [系統管理員同意](app-permissions-admin-center.md)。
+資源特定 (RSC) 許可權，讓團隊擁有者同意應用程式存取及修改小組的資料。 RSC 許可權是精細的 Teams 特定許可權，可定義應用程式可在特定團隊中執行哪些工作。 您可以在應用程式詳細資料頁面的許可權選項卡上，查看 RSC 許可權。 若要深入瞭解，請參閱 [在 Microsoft Teams](app-permissions-admin-center.md)系統管理中心中查看應用程式許可權並授予系統管理員同意。
 
 ## <a name="manage-org-wide-app-settings"></a>管理全組織的應用程式設定
 
@@ -149,10 +153,6 @@ ms.locfileid: "51450620"
 
 3. 在 **自訂應用程式下**，關閉或開啟允許 **與自訂應用程式互動。** 此設定可控制使用者是否能與自訂應用程式互動。 若要深入了解，請參閱[在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)。
 4. 按一下 [儲存 **]**，讓全組織應用程式設定生效。
-
-## <a name="customize-an-app-in-preview"></a>在預覽 (自訂應用程式) 
-
-現在，您可以自訂應用程式，以根據您的組織需求包含特定的外觀和感受。 [在 Teams 中自訂應用程式](customize-apps.md)
 
 ## <a name="related-topics"></a>相關主題
 

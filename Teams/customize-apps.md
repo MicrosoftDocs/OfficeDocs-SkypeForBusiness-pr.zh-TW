@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中自訂應用程式。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b2e924da384b5bff54e63872aa7026d2da456311
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471497"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574152"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在 Microsoft Teams 中自訂應用程式
 
@@ -107,9 +107,9 @@ ms.locfileid: "51471497"
 下列附注包含自訂應用程式的重要詳細資料。
 
 > [!Note]
-> - 當您自訂 App 和任何與應用程式相關的描述時，請確保您遵循應用程式發行者提供的自訂指導方針。 您有責任尊重其他人對於您可能使用之協力廠商影像的權利。
-> - 系統管理提供的自訂資料會儲存在最近的地區的 Settings Store 中。 它並不一定在任何 GoLocal Cloud Teams 部署中。
-> - 您負責確保使用條款或隱私權政策的連結有效。 您必須提供適當的管理，以管理他們 (或允許對應用程式中繼資料) 進行變更。 目前的實現會提供支援，可協助您將 URL 還原為開發人員提供的 URL。 如果應用程式允許自訂 URL 或 (，您不得設定沒有 URL) 。
+> - 當您自訂應用程式，以及任何與應用程式相關的描述時，請確保遵循應用程式發行者在檔或使用條款中提供的任何自訂指導方針。 您也有責任尊重其他人對於您可能使用之任何協力廠商影像的權利。
+> - 系統管理提供的自訂資料會儲存在最近的地區。
+> - 您負責確保使用條款或隱私權政策的連結有效。
 > - 如果應用程式發行者不再允許欄位可自訂，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更都會還原為原始值。
 > - 品牌變更最多可能需要 24 小時，使用者才能看到變更。
 

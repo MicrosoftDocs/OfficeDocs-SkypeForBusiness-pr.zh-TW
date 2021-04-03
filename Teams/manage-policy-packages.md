@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中使用及管理原則套件，以簡化、簡化及協助在管理使用者群組之策略時提供一致性。
-ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162690"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51583109"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>在 Microsoft Teams 中管理原則套件
 
@@ -62,7 +62,7 @@ Teams 目前包含下列策略套件。
 |教育 (中學生)    |建立套用至主要學生的一組原則與原則設定。|
 |教育 (中學生)     |建立套用至中學生的一組原則與原則設定。         |
 |教育 (教師)     |建立套用至教師的一組原則與原則設定。      |
-|使用 (遠端學習的教師)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
+|使用 (遠端學習工具的小學教師)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |使用 (遠端學習的中學生)     |建立適用於學生的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。 |
 |前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線員工。 |
@@ -85,7 +85,7 @@ Teams 目前包含下列策略套件。
 
 **這項功能在私人預覽中**
 
-自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增所需的策略類型與策略，以建立您自己的策略套件。
+自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增您所需的策略類型與策略，以建立您自己的策略套件。
 
 若要建立新的自訂策略套件：
 
@@ -102,7 +102,7 @@ Teams 目前包含下列策略套件。
 
 ![如何使用策略套件概觀](media/manage-policy-packages-overview.png)
 
-- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)**：在策略套件中查看策略。 接著，在指派套件之前，先查看套件中每個策略的設定。 請確定您瞭解每個設定。 決定預先定義的值是否適合貴組織，或您是否需要根據貴組織的需求，將它們變更為較嚴格或寬鬆。
+- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)**：在策略套件中查看策略。 接著，在指派套件之前，先查看套件中每個策略的設定。 請確定您瞭解每個設定。 根據貴組織的需求，決定預先定義的值是否適合貴組織，或是否需要將它們變更為較嚴格或寬鬆。
 
     如果刪除一個策略，您仍然可以查看設定，但無法變更任何設定。 當您指派策略套件時，會使用預先定義的設定重新建立已刪除的策略。
 
@@ -117,7 +117,7 @@ Teams 目前包含下列策略套件。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>在策略套件中查看策略設定
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，選取策略套件，然後按一下套件名稱左側以選取策略套件。
+1. 在 Microsoft Teams 系統管理中心的左側導航中，選取策略套件，然後按一下套件名稱左側以選取策略套件。
 2. 按一下您想要查看的政策。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自訂策略套件中的策略
@@ -130,12 +130,12 @@ Teams 目前包含下列策略套件。
 2. 選取您想要編輯的政策。 連結至策略套件的策略與策略套件的名稱相同。
 3. 進行您想要的變更，然後按一下 [ **儲存**。
 
-### <a name="assign-a-policy-package"></a>指派策略套件 
+### <a name="assign-a-policy-package"></a>指派策略套件
 
 #### <a name="assign-a-policy-package-to-one-user"></a>將策略套件指派給一個使用者
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]，然後按一下該使用者。
-2. 在使用者的頁面上，按一下 **[政策**」，然後按一下 [政策套件的 **旁邊**，**編輯。**
+2. 在使用者頁面上，按一下 **[政策**」，然後按一下 [政策套件的 **旁邊**， **編輯>**。
 3. 在 [ **指派策略套件>** 窗格中，選取您想要指派的套件，然後按一下 [ **儲存**。
 
 #### <a name="assign-a-policy-package-to-multiple-users"></a>指派策略套件給多個使用者
@@ -165,7 +165,7 @@ Teams 目前包含下列策略套件。
 
 ## <a name="related-topics"></a>相關主題
 
-[將原則指派給 Teams 中的使用者](assign-policies.md)
+[指派策略套件](assign-policy-packages.md)
 
 [適用于 EDU 系統管理員的 Teams 策略套件](policy-packages-edu.md)
 

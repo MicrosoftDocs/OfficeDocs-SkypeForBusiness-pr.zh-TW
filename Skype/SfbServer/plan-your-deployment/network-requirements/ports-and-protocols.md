@@ -17,25 +17,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：在實施商務用 Skype Server 之前，請先複查埠使用方式考慮。
-ms.openlocfilehash: 70caf72231797c4e245ac3117ec7fcc9241185f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f56b8545f8c60578321354bebbe5a118bf895348
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094947"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51573982"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>伺服器的埠與通訊協定需求
  
 **摘要：** 在實施商務用 Skype Server 之前，請先複查埠使用方式考慮。
   
-商務用 Skype 伺服器需要開啟外部和內部防火牆上的特定埠。 此外，如果您的組織中已部署網際網路通訊協定安全性 (IPsec) ，IPsec 必須透過用於傳遞音訊、影片及全景影片的埠範圍加以停用。 
+商務用 Skype 伺服器要求外部和內部防火牆上的特定埠皆已開啟。 此外，如果您的組織中已部署網際網路通訊協定安全性 (IPsec) ，IPsec 必須透過用於傳遞音訊、影片及全景影片的埠範圍加以停用。 
   
-雖然這種方式最初似乎有點令人望而生畏，但使用 [商務用 Skype Server 2015 規劃工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)，進行規劃的工作量也會非常高。 當您已完成您計畫使用哪些功能的嚮導問題後，針對您所定義的每個網站，您可以在 Edge 管理報告中查看防火牆報告，並使用這裡所列的資訊來建立 yourfirewall 規則。 您也可以調整使用的名稱和 IP 位址，如需詳細資訊，請參閱 [複查防火牆報告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 請記住，您可以將 Edge 系統管理員報告匯出至 Excel 試算表，而防火牆報告將會是檔案中的其中一個工作表。 
+雖然這種方式似乎有點令人望而生畏，但使用 [商務用 Skype Server 2015 規劃工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)進行規劃的繁重工作量也是非常好的做法。 當您已完成您計畫使用哪些功能的嚮導問題後，針對您所定義的每個網站，您可以在 Edge 管理報告中查看防火牆報告，並使用這裡所列的資訊來建立防火牆規則。 您也可以調整使用的名稱和 IP 位址，如需詳細資訊，請參閱 [複查防火牆報告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 請記住，您可以將 Edge 系統管理員報告匯出至 Excel 試算表，而防火牆報告將會是檔案中的其中一個工作表。 
   
-您也可以在 [圖表] 表單中，透過查看 [商務用 Skype Server 2015 文章的技術圖表](../../technical-diagrams.md) 所連結的通訊協定工作負載海報，以找出這些表格中的資訊。
+您可以在 [圖表] 表單中，透過查看 [商務用 Skype Server 2015 文章的技術圖表](../../technical-diagrams.md) 所連結的通訊協定工作負載海報，以找出這些表格中的資訊。
+
 > [!NOTE]
-> - 如果您要實現商務用 Skype Online (Microsoft 365 或 Office 365) 請參閱 [Microsoft 365 和 office 365 URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合式環境必須參考本主題，也會 [規劃混合](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)式連線。
-> - 您可以有硬體或軟體防火牆，不需要特定的模型或版本。 重要的是哪些埠是白名單，所以防火牆不會影響商務用 Skype Server 的運作。
+> - 如果您要實現商務用 Skype Online (Microsoft 365 或 Office 365) 請參閱 [Microsoft 365 和 office 365 URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合式環境必須參考本主題，也會 [規劃混合](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)式連線。
+> - 您可以有硬體或軟體防火牆。 不需要特定的模型或版本。 重要的是將哪些埠新增至 allowlist，防火牆便不會影響商務用 Skype Server 的運作。
   
 ## <a name="port-and-protocol-details"></a>埠與通訊協定詳細資料
 
@@ -53,7 +54,7 @@ ms.locfileid: "51094947"
 |伺服器角色|服務名稱|連接埠|Protocol (通訊協定)|附註|
 |:-----|:-----|:-----|:-----|:-----|
 |所有伺服器  |SQL 瀏覽器  |1434  |Udp  |SQL Browser 的中央管理存放區資料庫本地複寫複本。  |
-|前端伺服器  |商務用 Skype Server Front-End 服務  |5060  |TCP  |可選擇性地由 Standard Edition server 和前端伺服器用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
+|Front-End 伺服器  |商務用 Skype Server Front-End 服務  |5060  |TCP  |可選擇性地由 Standard Edition server 和前端伺服器用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
 |前端伺服器  |商務用 Skype Server Front-End 服務  |5061  | TCP (TLS)  |由 Standard Edition server 和前端集區用於伺服器 (MTLS) 、伺服器與用戶端之間的 SIP 通訊 (TLS) 及前端伺服器與轉送伺服器之間的 SIP 通訊 (MTLS) 。 也用來與監控伺服器進行通訊。  |
 | 前端伺服器 |商務用 Skype Server Front-End 服務  |444  | HTTPS: <br/> TCP  |用於可管理會議狀態的 (商務用 Skype Server 元件) 和個別伺服器的商務用 Skype Server 元件之間的 HTTPS 通訊。  <br/> 此埠也用於 Survivable 分支裝置和前端伺服器之間的 TCP 通訊。  |
 |前端伺服器  |商務用 Skype Server Front-End 服務  |135  |DCOM 和遠端過程呼叫 (RPC)   |用於以 DCOM 為基礎的作業，例如移動使用者、使用者複製器同步處理及通訊錄同步處理。  |
@@ -184,18 +185,18 @@ ms.locfileid: "51094947"
 
 |規則名稱|來源 IP|目的地 IP|Protocol (通訊協定)|來源連接埠|目的地連接埠|驗證需求|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|A/V Edge Server (輸入的內部流量)  |任何  |A/V Edge Server (內部流量)  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|A/V Edge Server (輸入的外部流量)  |任何  |A/V Edge Server (外部流量)  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|A/V Edge Server (輸出的內部流量)  |A/V Edge Server (內部流量)  |任何  |UDP &amp; TCP  |任何  |任何  |不要驗證  |
-|A/V Edge Server (輸出的外部流量)  |A/V Edge Server (外部流量)  |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|中繼伺服器 (輸入流量)  |任何  |調解  <br/> 伺服器 (s)   |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|中繼伺服器 (輸出流量)  |調解  <br/> 伺服器 (s)   |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|會議服務員 (輸入流量)  |任何  |執行會議服務員的前端伺服器  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|會議服務員 (輸出流量)  |執行會議服務員的前端伺服器  |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|A/V 會議 (輸入流量)  |任何  |前端伺服器  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|A/V 會議 (輸出流量)  |前端伺服器  |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|Exchange (輸入流量)  |任何  |Exchange Unified Messaging  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|應用程式共用伺服器輸入  |任何  |應用程式共用伺服器  |TCP  |任何  |任何  |不要驗證  |
-|應用程式共用伺服器輸出  |應用程式共用伺服器  |任何  |TCP  |任何  |任何  |不要驗證  |
-|Exchange (輸出流量)  |Exchange Unified Messaging  |任何  |UDP 和 TCP  |任何  |任何  |不要驗證  |
-|用戶端  |任何  |任何  |Udp  |指定的媒體連接埠範圍  |任何  |不要驗證  |
+|A/V Edge Server (輸入的內部流量)  |任何  |A/V Edge Server (內部流量)  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|A/V Edge Server (輸入的外部流量)  |任何  |A/V Edge Server (外部流量)  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|A/V Edge Server (輸出的內部流量)  |A/V Edge Server (內部流量)  |任何  |UDP &amp; TCP  |任何  |任何  |不驗證  |
+|A/V Edge Server (輸出的外部流量)  |A/V Edge Server (外部流量)  |任何  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|中繼伺服器 (輸入流量)  |任何  |調解  <br/> 伺服器 (s)   |UDP 和 TCP  |任何  |任何  |不驗證  |
+|中繼伺服器 (輸出流量)  |調解  <br/> 伺服器 (s)   |任何  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|會議服務員 (輸入流量)  |任何  |執行會議服務員的前端伺服器  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|會議服務員 (輸出流量)  |執行會議服務員的前端伺服器  |任何  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|A/V 會議 (輸入流量)  |任何  |前端伺服器  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|A/V 會議 (輸出流量)  |前端伺服器  |任何  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|Exchange (輸入流量)  |任何  |Exchange Unified Messaging  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|應用程式共用伺服器輸入  |任何  |應用程式共用伺服器  |TCP  |任何  |任何  |不驗證  |
+|應用程式共用伺服器輸出  |應用程式共用伺服器  |任何  |TCP  |任何  |任何  |不驗證  |
+|Exchange (輸出流量)  |Exchange Unified Messaging  |任何  |UDP 和 TCP  |任何  |任何  |不驗證  |
+|用戶端  |任何  |任何  |Udp  |指定的媒體連接埠範圍  |任何  |不驗證  |
