@@ -317,10 +317,12 @@ items:
         items:
           - name: 概觀
             href: manage-teams-with-policies.md
-          - name: 將原則指派給使用者
-            href: assign-policies.md
-          - name: 在活動記錄中檢視您的原則指派
-            href: activity-log.md
+          - name: 在 Teams 中指派原則 - 開始使用
+            href: policy-assignment-overview.md
+          - name: 將原則指派給使用者和群組
+            href: assign-policies-users-and-groups.md
+          - name: 指派原則套件
+            href: assign-policy-packages.md
           - name: 在 Teams 中管理意見反應原則
             href: manage-feedback-policies-in-teams.md
           - name: 在 Teams 中管理原則套件
