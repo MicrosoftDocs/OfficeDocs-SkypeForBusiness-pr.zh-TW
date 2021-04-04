@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122187"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506660"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -47,7 +47,7 @@ ms.locfileid: "51122187"
 若要新增或封鎖網域：
 
 1. 請選取 **[新增網域]**。
-2. 在 [新增網域] 窗格中，輸入網域名稱，然後按一下空格鍵儲存名稱。
+2. 在 [新增網域] 窗格中，輸入網域名稱，然後選取空格鍵儲存名稱。
 3. 選取 **[允許]** 或 **[封鎖]**。
 4. 選取 **[完成]** 來儲存變更。 
 
@@ -94,9 +94,13 @@ Microsoft Teams 中的 **來賓存取** 可將團隊和頻道的存取權授與�
 Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允許組織建立虛擬邊界，以控制使用者可以如何尋找組織中的其他使用者並與其通訊。 在下列情況下，您可能會想要使用範圍目錄搜尋：
 
 - 貴組織的租用戶中有多家公司，您想要將其分開。 
-- 學校需要限制教職員與學生之間的交談。 
+- 學校需要限制教職員與學生之間的交談。
 
 將此設定設為 **[開啟]** 以開啟範圍目錄搜尋。
+
+#### <a name="safety-and-communications"></a>安全和溝通
+
+受監督的聊天可讓組織和學校使用以角色為基礎的權限來限制聊天功能。 這些權限可控制使用者與其他人聊天時所需的監督量。 深入了解[監督的聊天](supervise-chats-edu.md)。
 
 ### <a name="skype-for-business"></a>商務用 Skype
 
