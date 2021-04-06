@@ -17,18 +17,18 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用敏感度標籤來保護 Microsoft Teams 中的團隊。
-ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117191"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593861"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams 的敏感度標籤
 
-[敏感度標籤](/microsoft-365/compliance/sensitivity-labels) 可以讓 Teams 系統管理員保護並規範在團隊內共同合作期間所建立之機密組織內容的存取權。 在 Microsoft 合規性中心中設定敏感度標籤及其關聯原則[](/microsoft-365/compliance/go-to-the-securitycompliance-center)之後，這些標籤可以適用于貴組織的小組。
+[敏感度標籤](/microsoft-365/compliance/sensitivity-labels) 可允許 Teams 系統管理員保護並規範在團隊內共同合作期間所建立之機密組織內容的存取權。 在 Microsoft 合規性中心設定敏感度標籤及其關聯原則之後[](/microsoft-365/compliance/go-to-the-securitycompliance-center)，這些標籤可以適用于貴組織的小組。
 
-使用 Teams Education SKUs 的客戶目前不支援敏感度標籤。 若要深入瞭解授權，請參閱 Microsoft [Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
+使用 Teams Education SKUs 的客戶目前在課程團隊中不支援敏感度標籤。 若要深入瞭解授權，請參閱 Microsoft [Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>敏感度標籤和 Teams 分類標籤之間有什麼不同？
 
@@ -36,7 +36,7 @@ ms.locfileid: "51117191"
 
 使用敏感度標籤的好處，是透過 Microsoft 365 群組平臺、合規性中心和 Teams 服務的組合，自動強制執行其政策。 敏感度標籤提供強大的基礎結構支援，可保護組織的機密資料，並確保符合您的內部政策或法規。
 
-如果您目前使用分類標籤，請參閱下列檔以進一步瞭解如何將它們遷移到敏感度標籤的資訊和指示： [傳統 Azure AD 群組分類](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
+如果您目前使用分類標籤，請參閱下列檔以進一步瞭解如何將它們遷移到敏感度標籤： [傳統 Azure AD 群組分類](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>敏感度標籤的範例案例
 
@@ -59,8 +59,10 @@ ms.locfileid: "51117191"
 
 ![一般敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-general-example.png)
 
-建立團隊時，敏感度標籤會顯示在團隊頻道的右上角。 請注意，如果您使用階層式父子標籤 ，例如「機密\財務」，則只有父標籤會顯示在頻道標題中。
+建立團隊時，敏感度標籤會顯示在團隊頻道的右上角。 
 
+> [!NOTE]
+> 如果您使用的是階層式父子標籤 ，例如「機密\財務」，則只有父標籤會顯示在頻道標題中。
 
 ![小組頻道中敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-channel.png)
 
@@ -88,7 +90,7 @@ ms.locfileid: "51117191"
 
 - **Teams Graph API、PowerShell Cmdlet 和範本不支援敏感度標籤**
     
-    使用者將無法將敏感度標籤直接透過 Teams Graph API、Teams PowerShell Cmdlet 和 Teams 範本建立的團隊上。
+    使用者無法透過 Teams Graph API、Teams PowerShell Cmdlet 和 Teams 範本直接建立團隊時指定敏感度標籤。 不過，新式群組圖形 API 和 PowerShell Cmdlet 允許使用標籤建立群組。 因此，使用者可以先使用群組圖形 API 或 PowerShell Cmdlet 建立具有標籤的群組，然後將這些群組轉換成 Teams。
 
 - **支援私人頻道**
     
@@ -98,6 +100,6 @@ ms.locfileid: "51117191"
 
 ## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>如何建立及設定 Teams 的敏感度標籤
 
-使用 Microsoft 365 檔的指示為 Teams 建立和設定敏感度標籤： 
+使用 Microsoft 365 檔的指示建立和設定 Teams 的敏感度標籤： 
 
 - [使用敏感度標籤來保護 Microsoft Teams、Microsoft 365 群組和 SharePoint 網站中的內容](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。

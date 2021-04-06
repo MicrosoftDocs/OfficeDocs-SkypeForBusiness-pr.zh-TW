@@ -13,16 +13,16 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6679cd22800307ec95ac242c190d6483411413a9
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094153"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586542"
 ---
 # <a name="install-microsoft-teams-powershell"></a>安裝 Microsoft Teams PowerShell
 
-本文將說明如何使用 PowerShellGet 安裝 Microsoft Teams [PowerShell 模組](/powershell/scripting/gallery/installing-psget)。 這些指示可于 [Azure Cloud Shell、Linux、macOS](/azure/cloud-shell/overview)和 Windows 平臺上使用。
+本文說明如何使用 PowerShellGet 安裝 Microsoft Teams [PowerShell 模組](/powershell/scripting/gallery/installing-psget)。 這些指示可于 [Azure Cloud Shell、Linux、macOS](/azure/cloud-shell/overview)和 Windows 平臺上使用。
 
 ## <a name="requirements"></a>需求
 
@@ -55,46 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-回答 **是** 或 **全部是** 以繼續安裝。
-
-
-## <a name="install-teams-powershell-public-preview"></a>安裝 Teams PowerShell 公開預覽版
-
-> [!NOTE]
-> 如果您使用的是 Teams PowerShell 的公用預覽版，我們強烈建議您先卸載商務用 Skype Online Connector。
-
-在系統上為所有使用者安裝 Teams PowerShell 公用預覽模組時，需要提升許可權。 使用 Windows 中的系統管理員 **執行** PowerShell 會話，或使用 macOS 或 `sudo` Linux 上的命令。
-
-如果您使用的是 PowerShell 5.1，則必須事先更新 **PowerShellGet** 模組。 更新 **PowerShellGet** 之後，關閉並重新開啟提升的 PowerShell 會話，以確保載入最新的 **PowerShellGet。**
-
-```powershell
-Install-Module PowerShellGet -Force -AllowClobber
-```
-
-若要安裝 Teams PowerShell 公開預覽版，請執行下方的 PowerShell 命令。
-
-> [!NOTE]
-> 您可以在 PowerShell 圖庫或 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 中，使用「Find-Module MicrosoftTeams -AllowPrerelease -AllVersions」來尋找最新的預覽版本
-
-```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
-```
-
-## <a name="install-the-skype-for-business-online-connector"></a>安裝商務用 Skype Online 連接器
-
-> [!NOTE]
->
-> 商務用 Skype Online Connector 目前是 Teams PowerShell 最新模組的一部分。
-> 如果您使用的是最新的 [Teams PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，則不需要安裝商務用 Skype Online 連接器。
-
-
-```powershell
-  # When using Teams PowerShell Module
-
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-```
+若要 **繼續** 安裝 **，** 請回答是或全部是。
 
 ## <a name="sign-in"></a>登錄
 
@@ -141,8 +102,6 @@ Update-Module MicrosoftTeams
 
 ## <a name="uninstall-teams-powershell"></a>卸載 Teams PowerShell
 
-
-
 若要卸載 Teams PowerShell，請開啟新的提升的 PowerShell 命令提示，然後執行下列操作：
 
 ```powershell
@@ -150,6 +109,28 @@ Uninstall-Module MicrosoftTeams
 ```
 > [!WARNING]
 > 如果 Teams PowerShell 已導入您的 PowerShell 會話，卸載模組將會失敗。 關閉 PowerShell，然後重新開啟新的提升的 PowerShell 會話。
+
+## <a name="install-teams-powershell-public-preview"></a>安裝 Teams PowerShell 公開預覽版
+
+> [!NOTE]
+> 如果您使用的是 Teams PowerShell 的公用預覽版，我們強烈建議您先卸載商務用 Skype Online Connector。
+
+在系統上為所有使用者安裝 Teams PowerShell 公用預覽模組時，需要提升許可權。 使用 Windows 中的系統管理員 **執行** PowerShell 會話，或使用 macOS 或 `sudo` Linux 上的命令。
+
+如果您使用的是 PowerShell 5.1，則必須事先更新 **PowerShellGet** 模組。 更新 **PowerShellGet** 之後，關閉並重新開啟提升的 PowerShell 會話，以確保載入最新的 **PowerShellGet。**
+
+```powershell
+Install-Module PowerShellGet -Force -AllowClobber
+```
+
+若要安裝 Teams PowerShell 公開預覽版，請執行下方的 PowerShell 命令。
+
+> [!NOTE]
+> 您可以在 PowerShell 圖庫或 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 中，使用「Find-Module MicrosoftTeams -AllowPrerelease -AllVersions」來尋找最新的預覽版本
+
+```powershell
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
+```
 
 ## <a name="next-steps"></a>後續步驟
 

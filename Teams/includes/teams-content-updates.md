@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>2021 年 3 月 29 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 3/29/2021 | [Teams Android 裝置遠端置備及登錄](/MicrosoftTeams/devices/remote-provision-remote-login) | 添加 |
+| 3/29/2021 | [使用 Microsoft 端點群組原則管理員部署 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-scale) | 改 性 |
+| 3/29/2021 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 改 性 |
+| 3/29/2021 | 在 Microsoft Teams 中授權來賓存取 | 刪除 |
+| 3/29/2021 | [管理 Microsoft Teams 的保留政策](/MicrosoftTeams/retention-policies) | 改 性 |
+| 3/30/2021 | [設定 Microsoft Teams 的自動總機 - 小型企業教學課程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 改 性 |
+| 3/30/2021 | [在 Microsoft Teams 中建立通話佇列 - 小型企業教學課程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 改 性 |
+| 3/30/2021 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
+| 3/30/2021 | [會議通話的 Teams 策略型錄製簡介&簡介](/MicrosoftTeams/teams-recording-policy) | 改 性 |
+| 3/30/2021 | [在 Teams 中自訂 Microsoft 應用程式](/MicrosoftTeams/customize-apps) | 添加 |
+| 3/30/2021 | [在您的企業中設定 Microsoft Teams](/MicrosoftTeams/deploy-enterprise-setup) | 改 性 |
+| 3/30/2021 | [在 Microsoft Teams 系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 改 性 |
+| 3/30/2021 | [在 Teams 中自訂 Microsoft 應用程式](/MicrosoftTeams/customize-apps) | 改 性 |
+| 3/30/2021 | [Microsoft Teams 會議室](/MicrosoftTeams/rooms/index) | 改 性 |
+| 3/31/2021 | [設定 Microsoft Teams 的自動總機 - 小型企業教學課程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 改 性 |
+| 3/31/2021 | [在 Microsoft Teams 中建立通話佇列 - 小型企業教學課程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 改 性 |
+| 3/31/2021 | [Microsoft Teams 裝置使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 改 性 |
+| 3/31/2021 | [Microsoft Teams 分析和報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 改 性 |
+| 3/31/2021 | [Microsoft Teams 使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 改 性 |
+| 3/31/2021 | [Microsoft Teams 版本資訊](/MicrosoftTeams/release-notes/release-notes) | 改 性 |
+| 3/31/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
+| 4/1/2021 | [安裝 Power BI Connector 以使用 CQD 查詢範本](/MicrosoftTeams/cqd-power-bi-connector) | 改 性 |
+| 4/1/2021 | [Microsoft Teams 版本資訊](/MicrosoftTeams/release-notes/release-notes) | 改 性 |
+| 4/1/2021 | [使用受監督的聊天](/MicrosoftTeams/supervise-chats-edu) | 改 性 |
+| 4/1/2021 | [使用商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 改 性 |
+| 4/2/2021 | [設定 Microsoft Teams 的自動總機 - 小型企業教學課程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 改 性 |
+| 4/2/2021 | [在 Microsoft Teams 中建立通話佇列 - 小型企業教學課程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 改 性 |
+| 4/2/2021 | [在 Microsoft Teams 中建立自訂小組範本](/MicrosoftTeams/create-a-team-template) | 改 性 |
+| 4/2/2021 | [Teams 的裝置](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
+| 4/2/2021 | [管理貴組織的設定](/MicrosoftTeams/enable-features-office-365) | 改 性 |
+| 4/2/2021 | [管理 Teams 中的訊息傳遞原則](/MicrosoftTeams/messaging-policies-in-teams) | 改 性 |
+| 4/2/2021 | [什麼是 Microsoft Teams 即時活動？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 改 性 |
+| 4/2/2021 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
+| 4/2/2021 | [指派策略給使用者和群組](/MicrosoftTeams/assign-policies-users-and-groups) | 添加 |
+| 4/2/2021 | [指派策略套件給使用者和群組](/MicrosoftTeams/assign-policy-packages) | 添加 |
+| 4/2/2021 | [在 Teams 中指派策略](/MicrosoftTeams/policy-assignment-overview) | 添加 |
+| 4/2/2021 | [在 Teams 中自訂 Microsoft 應用程式](/MicrosoftTeams/customize-apps) | 改 性 |
+| 4/2/2021 | [在 Microsoft Teams 系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 改 性 |
+| 4/2/2021 | [比利時的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 改 性 |
+| 4/2/2021 | [在 Microsoft Teams 中管理原則套件](/MicrosoftTeams/manage-policy-packages) | 改 性 |
+| 4/2/2021 | [使用策略管理 Teams](/MicrosoftTeams/manage-teams-with-policies) | 改 性 |
+| 4/2/2021 | [使用 CQD 在 Microsoft Teams 中管理通話和會議品質](/MicrosoftTeams/quality-of-experience-review-guide) | 改 性 |
+| 4/2/2021 | [Microsoft Teams 版本資訊](/MicrosoftTeams/release-notes/release-notes) | 改 性 |
+| 4/2/2021 | [Teams 連絡人中心](/MicrosoftTeams/teams-contact-center) | 改 性 |
+
+
 ## <a name="week-of-march-22-2021"></a>2021 年 3 月 22 日周
 
 

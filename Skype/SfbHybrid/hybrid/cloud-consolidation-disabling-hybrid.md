@@ -21,31 +21,42 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包含針對團隊和商務用 Skype 進行雲整合時停用混合式的詳細步驟。
-ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120352"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593851"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>停用混合式，以完成將遷移至雲端：一覽
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>停用混合式設定，以完成將遷移至雲端的工作
 
-將所有使用者從內部部署移至雲端之後，您就可以解除內部部署的商務用 Skype。 除了移除任何硬體之外，重要的步驟是透過停用混合式，以邏輯方式將該內部部署與 Microsoft 365 或 Office 365 分開。 停用混合式包含三個步驟：
+本文說明如何在解除您的內部部署商務用 Skype 環境之前停用混合式設定。 這是下列步驟的步驟2，以解除委任您的內部部署環境：
 
-1. 更新 DNS 記錄，以指向 Microsoft 365 或 Office 365。
+- 步驟 1. [將所有需要的使用者和應用程式端點從內部部署移至線上](decommission-move-on-prem-users.md)。
 
-2. 停用共用 sip 位址空間 (也稱為「分割網域」 ) 在 Microsoft 365 或 Office 365 組織中。
+- **步驟2。停用您的混合式設定。**  (本文) 
 
-3. 停用內部部署中與 Microsoft 365 或 Office 365 通訊的功能。
+- 步驟 3. [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
-這些步驟會以邏輯方式分隔商務用 Skype Server 的內部部署與 Office 365，應一起做為一個單位。 本文提供每個步驟的詳細資料。 完成後，您可以使用下列兩種方法之一來解除委任您的內部部署商務用 Skype 部署。
+
+## <a name="overview"></a>概觀
+
+將所有使用者從商務用 Skype 內部部署升級至僅限 Microsoft 365 的團隊之後，即可解除委任內部部署商務用 Skype 部署。 在您解除委任內部部署商務用 Skype 部署和移除任何硬體之前，您必須以邏輯方式將內部部署與 Microsoft 365 分開，方法是停用混合式。 停用混合式包含下列三個步驟：
+
+1. 更新 DNS 記錄，使它指向 Microsoft 365。
+
+2. 停用在 Microsoft 365 組織中共用 sip 位址空間 (也稱為「分割網域」 ) 。
+
+3. 停用內部部署中與 Microsoft 365 通訊的功能。
+
+這些步驟會以邏輯方式將您的內部部署商務用 Skype Server 的內部部署與 Microsoft 365 分開，並且應該一起做為一個單位。 本文提供每個步驟的詳細資料。 完成後，您可以使用下列兩種方法之一來解除委任您的內部部署商務用 Skype 部署。
 
 > [!Important] 
->完成此邏輯分隔之後，來自內部部署 Active Directory 的 msRTCSIP 屬性仍然具有值，而且會繼續透過 Azure AD Connect 同步處理到 Azure AD。 如何解除委任內部部署環境取決於您想要將這些屬性保留在原處，還是先從您的內部部署 Active Directory 加以清除。 請注意，在您從內部部署遷移之後清除內部部署 msRTCSIP 屬性，可能會導致使用者的服務遺失！ 以下說明兩個解除委任方法的詳細資料和折衷。
+> 完成此邏輯分隔之後，來自內部部署 Active Directory 的 msRTCSIP 屬性仍然具有值，而且會繼續透過 Azure AD Connect 同步處理到 Azure AD。 如何解除委任內部部署環境取決於您想要將這些屬性保留在原處，還是先從您的內部部署 Active Directory 加以清除。 請注意，在您從內部部署遷移之後清除內部部署 msRTCSIP 屬性，可能會導致使用者的服務遺失！ 稍後會說明兩個解除委任方法的詳細資料和折衷。
 
-## <a name="disable-hybrid-to-complete-migration-to-the-cloud-detailed-steps"></a>停用混合式以完成將遷移至雲端：詳細步驟
+## <a name="detailed-steps"></a>詳細步驟
 
-1. *將 DNS 更新為指向 Microsoft 365 或 Office 365。* 組織的外部 DNS 必須更新內部部署組織，以便商務用 Skype 記錄指向 Microsoft 365 或 Office 365，而不是內部部署。 特別是：
+1. *將 DNS 更新為指向 Microsoft 365。* 組織的外部 DNS 必須更新內部部署組織，以便商務用 Skype 記錄指向 Microsoft 365，而不是內部部署。 特別是：
 
     |Record type (記錄類型)|名稱|TTL|Value (值)|
     |---|---|---|---|
@@ -57,7 +68,7 @@ ms.locfileid: "51120352"
     此外，如果存在) 可刪除，則為符合或撥入 (的 CNAME 記錄。 最後，您應該移除內部網路中商務用 Skype 的任何 DNS 記錄。
 
     > [!Note] 
-    > 在極少的情況下，將 DNS 從指向 Microsoft 365 或 Office 365 的內部部署變更為組織可能會造成其他一些組織的同盟停止運作，直到其他組織更新其同盟設定為止：
+    > 在極少的情況下，將 DNS 從指向 Microsoft 365 的內部部署變更為您的組織可能會造成其他一些組織的同盟停止運作，直到其他組織更新其同盟設定為止：
     >
     > - 任何使用舊版直接同盟模型的同盟組織 (又稱為允許的夥伴伺服器) ，都必須更新其組織的允許網域專案，以移除 proxy FQDN。 這種舊版同盟模型不是以 DNS SRV 記錄為基礎，因此當您的組織移至雲端時，此設定將會到期。
     > 
@@ -66,13 +77,13 @@ ms.locfileid: "51120352"
     > 如果您懷疑任何同盟協力廠商可能使用的是直接同盟或尚未與任何線上或混合組織同盟，我們建議您在準備完成對雲端的遷移時，向他們傳送此資訊的通訊。
 
 
-2.  *停用 Microsoft 365 或 Office 365 組織中的共用 sip 位址空間。* 以下的命令必須透過商務用 Skype Online PowerShell 視窗執行。
+2.  *停用 Microsoft 365 組織中的共用 sip 位址空間。* 以下的命令必須透過商務用 Skype Online PowerShell 視窗執行。
 
      ```PowerShell
      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
      ```
  
-3.  *停用內部部署中與 Microsoft 365 或 Office 365 通訊的功能。* 以下是必須從內部部署 PowerShell 視窗執行的命令：
+3.  *停用內部部署中與 Microsoft 365 通訊的功能。* 以下是必須從內部部署 PowerShell 視窗執行的命令：
 
      ```PowerShell
      Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
@@ -108,11 +119,14 @@ ms.locfileid: "51120352"
 
 此選項需要額外的工作量及適當的規劃，因為先前已從內部部署商務用 Skype Server 移至雲端的使用者需要重新布建。 這些使用者可以分為兩種不同的類別：沒有電話系統的使用者，以及具有電話系統的使用者。 在將電話號碼轉換成內部部署 Active Directory 至雲端時，具有電話系統服務的使用者將會經歷暫時遺失電話語音的一部分。 **建議您在開始大量使用者作業之前，先執行一些包含少量使用者和電話系統的試驗。** 對於大型部署，使用者可以在不同時間視窗的較小群組中處理。 
 
+> [!NOTE] 
+> 此程式最簡單的情況是具有相符 sip 位址及 UserPrincipalName 的使用者。 如果組織的使用者在這兩個屬性之間具有非符合性值，請特別注意，以順利進行轉換。
+
 > [!NOTE]
-> 若使用者具有比對的 sip 位址和 UserPrincipalName，程式就是最簡單的處理常式。 如果組織的使用者在這兩個屬性之間具有非符合性值，請特別注意，以順利進行轉換。 
+> 如果您已設定自動語音應答或通話佇列的內部部署混合應用程式端點，請務必在解除商務用 Skype Server 的使用之前，先將這些端點移至 Microsoft 365。
 
 
-1. 確認下列內部部署商務用 Skype PowerShell Cmdlet 會傳回空的結果。 空的結果表示沒有使用者位於內部部署，且已移動至 Office 365 或已停用：
+1. 確認下列內部部署商務用 Skype PowerShell Cmdlet 會傳回空的結果。 空的結果表示沒有使用者位於內部部署，且已移至 Microsoft 365 或已停用：
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
@@ -229,8 +243,11 @@ ms.locfileid: "51120352"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+12. 在方法2中完成所有步驟後，請參閱 [移除您的內部部署商務用 Skype 伺服器](decommission-remove-on-prem.md) 以取得其他步驟，以移除您的商務用 skype 伺服器內部部署。
 
 
 ## <a name="see-also"></a>另請參閱
 
-[小組和商務用 Skype 的雲端整合](cloud-consolidation.md)
+- [小組和商務用 Skype 的雲端整合](cloud-consolidation.md)
+
+- [解除委任您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
