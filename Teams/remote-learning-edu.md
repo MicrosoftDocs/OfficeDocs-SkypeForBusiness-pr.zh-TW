@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08444efa4a8fa96b64dd92d9be66b0f324010c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117651"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598572"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -189,20 +189,20 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 若要使用 SDS 方法開始使用，請前往[學校資料同步 (SDS)](/SchoolDataSync)，並連絡 [https://aka.ms/sdssupport](https://aka.ms/sdssupport) 部署協助。 
 
-若要使用 Graph API 方法，請參閱 [Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0) 和[建立班級團隊](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)。  
+若要使用 Graph API 方法，請參閱 [Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) 和[建立班級團隊](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)。  
 
 > [!NOTE]
 > 若要使用此方法搭配 SDS，您必須將 SDS 設定檔中的自動團隊切換關閉。 您也可以使用自動與由教育工作者引導的團隊建立組合，使用兩個 SDS 設定檔來建立必要和選用的班級團隊。
 
 #### <a name="powershell-script-using-graph-apis"></a>使用 Graph API 的 PowerShell 指令碼
 
-利用 PowerShell，您可以編寫指令碼來建立團隊、頻道並自動進行設定。 這需要系統管理員先建立群組、新增授課者和學生，然後建立團隊，如[此處](/graph/teams-create-group-and-team)所示。 您也可以使用 Microsoft Graph API 來建立、設定、複製及封存團隊。 如需詳細資訊，請參閱[使用 Microsoft Graph API 來搭配使用 Microsoft Teams](/graph/api/resources/teams-api-overview)、[Microsoft Teams PowerShell](/powershell/module/teams) 和[建立班級團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type)。 使用 Graph API 是獲得更多控制和彈性的絕佳方式，但它需要具備高階的技術專業知識，並且最初需要較多時間來設定。
+利用 PowerShell，您可以編寫指令碼來建立團隊、頻道並自動進行設定。 這需要系統管理員先建立群組、新增授課者和學生，然後建立團隊，如[此處](/graph/teams-create-group-and-team)所示。 您也可以使用 Microsoft Graph API 來建立、設定、複製及封存團隊。 如需詳細資訊，請參閱[使用 Microsoft Graph API 來搭配使用 Microsoft Teams](/graph/api/resources/teams-api-overview)、[Microsoft Teams PowerShell](/powershell/module/teams) 和[建立班級團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true)。 使用 Graph API 是獲得更多控制和彈性的絕佳方式，但它需要具備高階的技術專業知識，並且最初需要較多時間來設定。
 
 ##### <a name="benefits"></a>優點
 
 - 額外的彈性和控制。
 - 建立早期授課者存取團隊或立即讓學生存取團隊的選項。  
-- 如果您[從群組建立團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group)，則授課者會有優先存取權，並將學生成員資格的變更同步至 Azure AD 群組。
+- 如果您[從群組建立團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)，則授課者會有優先存取權，並將學生成員資格的變更同步至 Azure AD 群組。
 
 ##### <a name="considerations"></a>考量
 
@@ -211,7 +211,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 - 成員資格變更不會與 SIS 同步。 
 
 > [!NOTE]
-> 班級團隊需要隱藏的群組成員資格，所以只有班級內的授課者和學生可以看到該班級的所有成員。 若要建立 Office 365 班級團隊，請參閱[建立班級團隊](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)，以符合相同的隱私權需求。
+> 班級團隊需要隱藏的群組成員資格，所以只有班級內的授課者和學生可以看到該班級的所有成員。 若要建立 Office 365 班級團隊，請參閱[建立班級團隊](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)，以符合相同的隱私權需求。
 
 #### <a name="manual-team-creation"></a>手動建立團隊
 
@@ -241,15 +241,15 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>我該如何建立班級團隊，以允許授課者可以在學生加入前，搶先存取並設定團隊？
 
-從群組（透過 SDS、授課者引導的或 Graph API）建立的團隊會預設自動建立優先存取團隊。 若要使用 Graph API 建立您自己的優先存取團隊，您將會需要 [建立班級](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) 和 [從群組建議團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group)。
+從群組（透過 SDS、授課者引導的或 Graph API）建立的團隊會預設自動建立優先存取團隊。 若要使用 Graph API 建立您自己的優先存取團隊，您將會需要 [建立班級](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) 和 [從群組建議團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)。
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>我該如何檢查我的班級是否已啟用？
 
-在 [團隊資源類型](/graph/api/resources/team?view=graph-rest-beta)中，我們新增了一個[isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties)屬性，可以決定是否要啟用班級。 使用 [取得 Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta) 以查詢特定班級的```isMembershipLimitedToOwners```屬性。 若已啟用該團隊，查詢的回傳值為 false。  若團隊擁有者尚未啟用該團隊，查詢的回傳值則為 true。 
+在 [團隊資源類型](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true)中，我們新增了一個[isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true)屬性，可以決定是否要啟用班級。 使用 [取得 Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) 以查詢特定班級的```isMembershipLimitedToOwners```屬性。 若已啟用該團隊，查詢的回傳值為 false。  若團隊擁有者尚未啟用該團隊，查詢的回傳值則為 true。 
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>我該如何為授課者啟用班級？
 
-使用 [更新 Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta)並將屬性 ```isMembershipLimitedToOwners``` 設定為 false 以代表您的授課者啟用這個團隊。  請注意，啟用團隊之後，啟用狀態是無法還原的。
+使用 [更新 Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true)並將屬性 ```isMembershipLimitedToOwners``` 設定為 false 以代表您的授課者啟用這個團隊。  請注意，啟用團隊之後，啟用狀態是無法還原的。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>建立教職員團隊來進行教職員通訊和共同作業
 

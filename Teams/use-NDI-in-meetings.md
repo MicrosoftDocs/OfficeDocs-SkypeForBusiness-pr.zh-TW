@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中使用 NDI
+title: 在 Microsoft Teams 中使用 NDI
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中使用 NDI。
+description: 瞭解如何在 Microsoft Teams 中使用 NDI。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,51 +16,54 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: e26c6a7ad92353e083c67d0dad777e980a83fdfe
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337012"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598462"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>在 Microsoft 團隊中使用 NDI®技術
+# <a name="use-ndi-technology-in-microsoft-teams"></a>在 Microsoft Teams ®使用 NDI®技術
 
- NewTek NDI® (網路裝置介面) 技術是一種連線媒體裝置的新式方案， (例如畫室式相機和混音器) 。 NDI®技術不是使用物理連線，而是透過本機內部網路（包括本機電腦）來實現連線。
+ NewTek NDI® (網路裝置介面) 技術是連接媒體裝置的新解決方案， (例如工作室相機和混頻) 。 NDI 技術可®內部網路 ，包括本機電腦上，而非使用實體連接。
 
-NDI®技術已成為一個標準的工業方案，可為數據流製作即時內容，並在專業的廣播世界中取得重要的認識與採納。
+NDI®技術已成為為數據流製作即時內容的標準產業解決方案，並獲得了專業廣播業界的顯著認知和採用。
 
-Skype 先前已在2018中新增 NDI® out 功能至 Skype。 Microsoft 團隊使用這個功能來改善會議體驗。
+Skype 先前于 2018 ®新增 NDI 和 out 功能至 Skype。 Microsoft Teams 會使用這項功能來改善會議體驗。
 
-NDI®技術受限於局域網，且只能看作是生產工作流程的一部分，而不是廣播方案。
+NDI®僅限本地網路，只應視為生產工作流程的一部分，而非廣播解決方案。
 
 ## <a name="turn-on-ndi-technology"></a>開啟 NDI®技術
 
-NDI®技術需要為使用者開啟兩個步驟。
+NDI®使用者需要開啟兩個步驟。
 
-1. 租使用者管理員必須在 CsTeamsMeetingPolicy 中啟用 ' AllowNDIStreaming」屬性。
+1. 租使用者系統管理員必須在 CsTeamsMeetingPolicy 中啟用 'AllowNDIStreaming' 屬性。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. 此變更已填入之後，使用者必須從 [**設定**] 許可權開啟其特定用戶端的 NDI®技術  >  ** **。
+2. 完成此變更之後，使用者必須從設定許可權開啟其®用戶端的 NDI®****  >  **技術**。
 
-當使用者加入會議時，他們會看到一則訊息，通知他們正在廣播會議。 如果使用者不想納入廣播，他們將需要從會議中除去。
+當使用者加入會議時，會看到一則訊息，通知他們會議正在廣播中。 如果使用者不想包含在廣播中，則需要從會議刪除。
 
-下圖顯示使用者在團隊會議中看到的橫幅訊息。
+下圖顯示使用者在 Teams 會議看到的橫幅訊息。
 
-![他 NDI 在團隊會議中顯示的®技術橫幅。](media/NDI-disclosure.png)
+![he NDI® Teams 會議顯示的技術橫幅。](media/NDI-disclosure.png)
 
-橫幅有 [Microsoft 隱私權原則](https://aka.ms/teamsprivacy)的連結。
+橫幅有 Microsoft [隱私權政策的連結](https://aka.ms/teamsprivacy)。
 
-## <a name="supported-locales-and-user-types"></a>支援的區域設定和使用者類型
+> [!NOTE]
+> NDI®只會啟用每個會話。 下次登入時，使用者必須先啟用，才能使用 NDI®。
 
-NDI®技術在所有地區設定中都受到支援。 下列使用者包含在 NDI®技術資料流程中，但不是所有使用者都可以存取 NDI®技術資料流程：
+## <a name="supported-locales-and-user-types"></a>支援的地區設置和使用者類型
 
-- 受租使用者-完整支援，根據會議原則所控制的響鈴/tenantId/userId (傳送) 
-- 同盟-即使在) <sup>1</sup>上有 NDI®技術，也沒有資料流程存取 (
-- Premium-無資料流程存取
-- 匿名–無資料流程存取
-- 來賓–無資料流程存取  
+NDI®支援所有地區。 下列使用者包含在 NDI®技術流中，但並非所有使用者都可以存取 NDI®技術流：
 
-<sup>1</sup> 台裝置的 NDI®技術設定預設為開啟。 如果會議參與者使用的裝置的 NDI®技術關閉，他們必須開啟 NDI®技術。
+- 租使用者內 – 完全支援，根據 Ring/tenantId/userId (由會議策略) 
+- 聯合 – 即使<sup>1</sup> (有 NDI®，也) 存取
+- 進位版 - 沒有串流存取
+- 匿名 – 沒有串流存取
+- 來賓 – 沒有串流存取  
+
+<sup>1</sup> 裝置預設為® NDI®技術設定。 如果會議參與者使用具有 NDI ®關閉的裝置，他們必須開啟 NDI®技術。

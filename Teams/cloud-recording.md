@@ -18,12 +18,12 @@ description: 在 Teams 中部署雲端語音功能以錄製 Teams 會議和群�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9eb5ef4227a52bfad5a0f0b41becd2360e225754
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f4e3c8bcf40a17d8b03a51c471201554d33e0ce1
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102629"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598452"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -78,14 +78,14 @@ Microsoft Stream 是符合資格的 Microsoft 365 和 Office 365 訂閱的一部
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，以控制是否可以錄製使用者的會議。
 
-在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許雲端錄製] 設定。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](meeting-policies-in-teams.md#allow-cloud-recording)。
+在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許雲端錄製] 設定。 若要深入瞭解，請參閱 [音訊和視&設定](meeting-policies-audio-and-video.md#allow-cloud-recording)。
 
 您可以使用 PowerShell 來設定 TeamsMeetingPolicy 中的 AllowCloudRecording 設定。 若要深入瞭解，請參閱 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
 請注意，會議召集人和啟動錄製的人員都需要有錄製權限才能錄製會議。 除非您已指派自訂策略給使用者，否則使用者會取得全域原則，此策略預設已啟用 AllowCloudRecording。
 
 > [!NOTE]
-> 若要使用 Teams 角色來設定誰有權錄製會議，請參閱[Teams 會議的角色。](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)
+> 若要使用 Teams 角色來設定誰有權錄製會議，請參閱 [Teams 會議的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
 
 若要讓使用者回到 Global 原則，請使用下列 Cmdlet 來移除使用者的特定原則指派：
 
@@ -128,7 +128,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecor
 |如果您開啟會議錄製...|會議錄製內容會儲存在... |
 |---|---|
 |在您國內資料居住地區提供 Microsoft Stream 之前 |在最接近的 Microsoft Stream 地區|
-|在您國內資料居住地區提供 Microsoft Stream 之後 |您的國內資料居住地區|
+|在您國內資料居住地區提供 Microsoft Stream 之後 |在國內資料居住地區|
 
 針對尚未開啟會議錄製的新的和現有租用戶，在國內資料落地區域提供 Microsoft Stream 之後，新的錄製內容會儲存在國內。 不過，任何在 Microsoft Stream 于國內資料居住地地區提供 Microsoft Stream 之前啟用會議錄製的租使用者，都會繼續使用 Microsoft Stream 儲存空間進行現有和新的錄製，即使國內資料居住區域有提供 Microsoft Stream 也一樣。
 
@@ -145,7 +145,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecor
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 
-在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許謄寫] 設定。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](meeting-policies-in-teams.md#allow-transcription)。
+在 Microsoft Teams 系統管理中心，開啟或關閉會議原則中的 [允許謄寫] 設定。 若要深入瞭解，請參閱 [音訊和視&設定](meeting-policies-audio-and-video.md#allow-transcription)。
 
 您可以使用 PowerShell 來設定 TeamsMeetingPolicy 中的 AllowTranscription 設定。 若要深入瞭解，請參閱 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
@@ -187,7 +187,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>會議錄製的合規性與電子文件探索
 
-會議錄製會儲存在 Microsoft Stream 中，這是 Microsoft 365 和 Office 365 Tier-C 相容。 為了讓合規性系統管理員能透過電子探索要求尋找 Microsoft Streams 會議或通話錄製，錄製完成訊息可在 Microsoft Teams 的合規性內容搜尋功能中找到。 合規性系統管理員可以在合規性內容搜尋預覽中的項目主旨列尋找關鍵字「錄製」，並探索組織中的會議和通話錄製。 而讓他們能夠查看所有錄製的先決條件，是必須在 Microsoft Stream 中設定他們具有系統管理員存取權。 深入瞭解[在 Stream 中指派系統管理員權限](/stream/assign-administrator-user-role)。
+會議錄製內容會儲存在 Microsoft Stream 中，Microsoft 365 與 Office 365 Tier-C 相容。 為了讓合規性系統管理員能透過電子探索要求尋找 Microsoft Streams 會議或通話錄製，錄製完成訊息可在 Microsoft Teams 的合規性內容搜尋功能中找到。 合規性系統管理員可以在合規性內容搜尋預覽中的項目主旨列尋找關鍵字「錄製」，並探索組織中的會議和通話錄製。 而讓他們能夠查看所有錄製的先決條件，是必須在 Microsoft Stream 中設定他們具有系統管理員存取權。 深入瞭解[在 Stream 中指派系統管理員權限](/stream/assign-administrator-user-role)。
 
 ## <a name="related-topics"></a>相關主題
 

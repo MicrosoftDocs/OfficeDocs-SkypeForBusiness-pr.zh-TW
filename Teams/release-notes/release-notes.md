@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 系統管理功能版本資訊。
-ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574092"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598502"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 系統管理功能版本資訊
 
@@ -49,7 +49,7 @@ IT 系統管理員可以遠端撥備並登錄 Teams Android 裝置。 若要遠�
 
 ### <a name="enable-live-transcripts-in-teams"></a>在 Teams 中啟用即時文字記錄
 
-這是每個使用者原則，適用于會議期間。 此設定可控制使用者是否可以使用開啟即時字幕選項，並關閉使用者出席會議中即時字幕。 [深入了解](../meeting-policies-in-teams.md#enable-live-captions)。
+這是每個使用者原則，適用于會議期間。 此設定可控制使用者是否可以使用開啟即時字幕選項，並關閉使用者出席會議中即時字幕。 [深入了解](../meeting-policies-participants-and-guests.md#enable-live-captions)。
 
 ## <a name="march-23-2021"></a>2021 年 3 月 23 日
 
@@ -64,7 +64,7 @@ IT 系統管理員可以遠端撥備並登錄 Teams Android 裝置。 若要遠�
 
 ### <a name="create-a-phone-system-auto-attendant"></a>建立電話系統自動總機
 
-自動話務員可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 為貴組織建立自動助理。 [深入了解](../create-a-phone-system-auto-attendant.md)。
+自動電話機可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 為貴組織建立自動助理。 [深入了解](../create-a-phone-system-auto-attendant.md)。
 
 ## <a name="march-1-2021"></a>2021 年 3 月 1 日
 
@@ -116,7 +116,7 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主
 
 ## <a name="january-15-2021"></a>2021 年 1 月 15 日
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>設定 Google Workspace 的 Microsoft Teams 會議附加元件
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>為 Google Workspace 設定 Microsoft Teams 會議附加元件
 
 在租使用者使用者存取應用程式之前，Google Workspace 的 Microsoft Teams 會議附加元件必須由 Teams 系統管理員啟用。 [深入了解](../google-workspace-addon-teams.md)。
 
@@ -140,7 +140,7 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主
 
 ## <a name="december-9-2020"></a>2020 年 12 月 9 日
 
-### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Microsoft 365 學習路徑的 Teams 顧問
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>使用 Microsoft 365 學習路徑的 Teams 顧問
 
 Microsoft 365 學習路徑 是隨選學習解決方案，您可以自訂以訓練您的使用者，並提高您組織中對於 Teams 的使用及採用。 將學習路徑與 Advisor for Teams 搭配使用，以讓您的使用者快速設定並執行和推動採用。
 
@@ -180,7 +180,7 @@ Microsoft Teams 顯示器是一種一體式 Teams 專用裝置類別，其功能
 
 ### <a name="manage-shift-based-access-for-frontline-workers"></a>管理前線員工以班為基礎的存取權
 
-做為系統管理員，您可以設定 Teams，為貴組織的前線工作人員顯示一組以班為基礎的目前狀態，以指出他們何時上班和下班。 使用輪班式存取，您可以在前線工作人員上班時管理 Teams 的存取權。 例如，您可以將 Teams 設定為顯示一則訊息，要求前線工作人員在未排程班時，必須先確認才能使用 Teams。 [深入了解](../expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)。
+做為系統管理員，您可以設定 Teams，為貴組織的前線工作人員顯示一組以班為基礎的目前狀態，以指出他們何時上班和下班。 使用輪班式存取，您可以在前線工作人員上班時管理 Teams 的存取權。 例如，您可以將 Teams 設定為顯示一則訊息，要求前線工作人員必須確認，才能在未排程班時使用 Teams。 [深入了解](../expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)。
 
 ## <a name="october-15-2020"></a>2020 年 10 月 15 日
 
@@ -198,11 +198,11 @@ Microsoft Teams 顯示器是一種一體式 Teams 專用裝置類別，其功能
 
 ### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>使用商務用 OneDrive 和 SharePoint 進行會議錄製
 
-Microsoft Teams 有一種用於保存會議錄製的新方法。 這是從傳統 Microsoft Stream 轉換至新 Stream 的第一個階段，此方法會儲存 Microsoft 365 商務用 Microsoft OneDrive 和 SharePoint 上的錄製內容，並提供許多優點。 [深入了解](../tmr-meeting-recording-change.md)。
+Microsoft Teams 有一種保存會議錄製的新方法。 這是從傳統 Microsoft Stream 轉換至新 Stream 的第一個階段，此方法會將錄製內容儲存在 Microsoft 365 中的商務用 Microsoft OneDrive 和 SharePoint 上，並提供許多優點。 [深入了解](../tmr-meeting-recording-change.md)。
 
 ### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>適用于中小型企業的免費音訊會議
 
-如果您是一家擁有最多 300 名使用者的中小型企業，而且您目前沒有任何音訊會議授權，您可以免費使用音訊會議一年。 這項免費優惠于 2020 年 10 月 1 日起提供。 [深入了解](../audio-conferencing-smb.md)。
+如果您是一家擁有最多 300 位使用者的中小型企業，而且您目前沒有任何音訊會議授權，您可以免費使用音訊會議一年。 這項免費優惠于 2020 年 10 月 1 日起提供。 [深入了解](../audio-conferencing-smb.md)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心中查看應用程式許可權並授予系統管理員同意
 
@@ -216,7 +216,7 @@ Microsoft Teams 有一種用於保存會議錄製的新方法。 這是從傳統
 
 ### <a name="meeting-policy-settings"></a>會議策略設定
 
-在 Teams 會議策略中新增 IP 音訊和 IP 視訊的兩個策略設定：IP 音訊模式和 IP 視訊模式。 現在，您可以在 Teams 會議政策中設定傳入和外發 IP 音訊和 IP 視像。 [深入了解](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
+在 Teams 會議策略中新增 IP 音訊和 IP 視訊的兩個策略設定：IP 音訊模式和 IP 視訊模式。 現在，您可以在 Teams 會議政策中設定傳入和外發 IP 音訊和 IP 視像。 [深入了解](../meeting-policies-audio-and-video.md)。
 
 ## <a name="september-27-2020"></a>2020 年 9 月 27 日
 
@@ -262,7 +262,7 @@ Microsoft Teams 有一種用於保存會議錄製的新方法。 這是從傳統
 
 ## <a name="september-3-2020"></a>2020 年 9 月 3 日
 
-### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft Teams 中的自訂應用程式市
+### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft Teams 中的自訂應用程式存放區
 
 現在，您可以新增標誌、自訂背景和自訂文字色彩，以使用組織品牌來自訂 Teams Apps Store，使其更吸引使用者。 [深入了解](../customize-your-app-store.md)。
 
@@ -276,11 +276,11 @@ Microsoft Teams 有一種用於保存會議錄製的新方法。 這是從傳統
 
 ### <a name="group-chat-size-increase"></a>群組聊天大小增加
 
-我們新增了現在讓 250 位參與者參與群組聊天的能力。 [深入了解](../limits-specifications-teams.md)。
+我們新增了現在有 250 位參與者參與群組聊天的能力。 [深入了解](../limits-specifications-teams.md)。
 
 ### <a name="manage-the-praise-app"></a>管理稱讚應用程式
 
-Microsoft Teams 中的稱讚應用程式可協助使用者向組織或教室的成員表示感謝。 稱讚應用程式有一系列徽章供您選擇，並提供建立您自己的徽章的選項。 稱讚是專為協助認可 Teams 使用者從教育人員到前線員工所執行之各種工作所付出的投入所設計。 [深入了解](../manage-praise-app.md)。
+Microsoft Teams 中的稱讚應用程式可協助使用者向組織或教室的成員表示感謝。 稱讚應用程式有一系列徽章供您選擇，並提供建立您自己的徽章的選項。 稱讚是專為協助認可 Teams 使用者從教育者到前線員工所執行之各種工作所付出的投入所設計。 [深入了解](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft Teams 會議室和 Surface Hub 設定協調會議
 
@@ -294,7 +294,7 @@ Microsoft Teams 中的稱讚應用程式可協助使用者向組織或教室的�
 
 ### <a name="cortana-voice-skills-in-teams"></a>Teams 中的 Cortana 語音技能
 
-Teams 行動應用程式中的 Cortana 語音技能可協助使用者直接使用自然語言執行會議、通訊和共同作業。 使用者可以按一下 Teams 應用程式中的麥克風按鈕，向 Cortana 通話，並提出要求，例如「打電話給 Megan」或「傳送訊息到下一場會議」，如果他們需要與某人聯繫，同時處理家庭雜務或遛狗或一般在外走動。 使用者只要說「加入我的下一個會議」，或詢問「我早上有什麼」，就可以加入會議。 在會議或通話中，他們可以從會議階段中的溢出功能表叫用 Cortana，並執行典型的會議內工作，例如按名稱或號碼新增人員 ("將 Megan 新增到通話中") 、幻燈片組簡報 ("簡報每季評論組") 或流覽幻燈片 ("前往附件幻燈片") 。 此功能支援的其他專案包括尋找及共用檔案、搜尋和流覽 Teams 應用程式 (「開啟與 John 的聊天、前往未讀取的活動、前往我的提及等等) 。
+Teams 行動應用程式中的 Cortana 語音技能可協助使用者直接使用自然口語執行會議、通訊和共同作業。 使用者可以按一下 Teams App 中的麥克風按鈕，向 Cortana 通話，併發出要求，例如「打電話給 Megan」或「傳送訊息到下一場會議」，如果他們需要與某人聯繫，同時處理家庭雜務或遛狗或一般在外。 使用者只要說「加入我的下一個會議」，或詢問「我早上有什麼」，就可以加入會議。 在會議或通話中，他們可以從會議階段中的溢出功能表叫用 Cortana，並執行典型的會議內工作，例如按名稱或號碼新增人員 ("將 Megan 新增到通話中") 、幻燈片組簡報 ("簡報每季評論組") 或流覽幻燈片 ("前往附件幻燈片") 。 此功能支援的其他專案包括尋找及共用檔案、搜尋和流覽 Teams 應用程式 (「開啟與 John 的聊天、前往未讀取的活動、前往我的提及等等) 。
 
 Teams 中的 Cortana 符合與 Cortana 企業服務相同的企業級隱私權、安全性和合規性承諾，如線上服務條款 [ (OST ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)) 中反映。 [深入了解](../cortana-in-teams.md)。
 
@@ -332,7 +332,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="view-only-in-meetings"></a>會議中只有查看功能
 
-只有 View-only 可讓最多 20，000 位僅聆聽的參與者加入會議，而會議召集人擁有進一版通訊附加元件 SKU 的授權。1 這是預覽或早期發行功能。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
+只有 View-only 可讓最多 20，000 位僅聆聽的參與者加入會議，而會議召集人擁有進一版通訊附加元件 SKU 授權。1 這是預覽或早期發行功能。 [深入了解](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
 
 ## <a name="july-28-2020"></a>2020 年 7 月 28 日
 
@@ -362,7 +362,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="voicemail-support-in-call-queues"></a>通話佇列中的語音信箱支援
 
-我們新增了通話佇列使用共用語音信箱方塊的支援。 [深入了解](../create-a-phone-system-call-queue.md)。
+我們新增了通話佇列支援，以使用共用語音信箱方塊。 [深入了解](../create-a-phone-system-call-queue.md)。
 
 ## <a name="july-8-2020"></a>2020 年 7 月 8 日
 
@@ -384,7 +384,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="transferring-incoming-calls"></a>轉接來電
 
-我們新增了自動話務員和來電佇列來電可轉接至外部 PSTN 電話號碼的能力。 [深入了解](../business-voice/create-a-phone-system-auto-attendant-smb.md)。
+我們新增了自動話務員和通話佇列來電可轉接至外部 PSTN 電話號碼的能力。 [深入了解](../business-voice/create-a-phone-system-auto-attendant-smb.md)。
 
 ## <a name="june-30-2020"></a>2020 年 6 月 30 日
 
@@ -498,7 +498,7 @@ Teams 應用程式可免費安裝，有些應用程式可能需要購買服務�
 
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>Teams 通話和會議以策略為基礎的錄製
 
-此功能可讓透過 Microsoft 認證的軟體廠商自動錄製 Teams 通話和會議。
+此功能可透過 Microsoft 認證的軟體廠商，自動錄製 Teams 通話和會議以策略為基礎的錄製。
 
 ## <a name="march-25-2020"></a>2020 年 3 月 25 日
 

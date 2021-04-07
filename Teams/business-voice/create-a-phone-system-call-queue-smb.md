@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何使用 Microsoft 365 商務語音設定通話佇列。
-ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506640"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607555"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>建立通話佇列 - 小型企業教學課程
 
@@ -55,7 +55,7 @@ ms.locfileid: "51506640"
 
 # <a name="step-1brcreate-a-team"></a>[步驟 1 <br> 建立團隊](#tab/create-team)
 
-建立通話佇列時，您可以將個別使用者新增到佇列，或使用現有的安全性群組、Microsoft 365 群組或 Microsoft Teams 小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列的成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量。
+建立通話佇列時，您可以新增個別使用者至佇列，或使用現有的安全性群組、Microsoft 365 群組或 Microsoft Teams 小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列的成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量。
 
 建立團隊
 
@@ -88,17 +88,17 @@ ms.locfileid: "51506640"
 
 # <a name="step-2brresource-accounts"></a>[步驟 2 <br> 資源帳戶](#tab/resource-account)
 
-您建立的每個通話佇列都需要資源帳戶。 這類似于使用者帳戶，除了該帳戶與自動電話機或通話佇列相關聯，而不是與人員相關聯。 在此步驟中，我們會建立帳戶、指派 *Microsoft 365 電話系統 - 虛擬使用者* 授權，然後使用它開始建立通話佇列。
+您建立的每個通話佇列都需要資源帳戶。 這類似于使用者帳戶，除了該帳戶與自動通話或通話佇列相關聯，而不是與人員相關聯。 在此步驟中，我們將建立帳戶、指派 *Microsoft 365 電話系統 - 虛擬使用者* 授權，然後使用它開始建立通話佇列。
 
 ### <a name="create-a-resource-account"></a>建立資源帳戶
 
 您可以在 Teams 系統管理中心建立資源帳戶。
 
-1. 在 Teams 系統管理中心中，展開 **整個組織設定**，然後按一下 [ **資源帳戶**> 。
+1. 在 Teams 系統管理中心，展開 **整個組織設定**，然後按一下 [ **資源帳戶**。
 
 2. 按一下 [新增 **]**。
 
-3. 在新增 **資源帳戶窗格中**，填寫 **顯示名稱**、**使用者名稱**，然後選擇資源帳戶 **類型的通話佇列**。
+3. 在新增 **資源帳戶窗格中**，填寫 **顯示名稱**、**使用者名稱**，然後選擇資源帳戶 **類型的通話佇列**。 當代理人收到來自佇列的來電時，會顯示顯示名稱。
 
     ![新增資源帳戶使用者介面的螢幕擷取畫面](../media/resource-account-add-cq.png)
 
@@ -112,7 +112,7 @@ ms.locfileid: "51506640"
 
 您必須將 *Microsoft 365 Phone System - 虛擬使用者* 授權指派給資源帳戶。
 
-1. 在 Microsoft 365 系統管理中心，按一下要指派授權的資源帳戶。
+1. 在 Microsoft 365 系統管理中心中，按一下 [使用中使用者」 清單中的您想要指派授權的資源帳戶。
 
 2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 
@@ -126,7 +126,7 @@ ms.locfileid: "51506640"
 
 1. 在 Teams 系統管理中心，展開 **[語音**，按一下 **通話佇列**，然後按一下 [ **新增**。
 
-1. 輸入通話佇列的名稱。 當代理人收到來自佇列的來電時，會看到這個名稱。
+1. 輸入通話佇列的名稱。
 
 2. 按一下 **[新增帳戶**，搜尋要用於此通話佇列的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
 
@@ -140,7 +140,7 @@ ms.locfileid: "51506640"
 
 > [!NOTE]
 > 上傳的錄製不能大於 5 MB。
-> Teams 通話佇列中提供的預設音樂，不含貴組織支付的任何版稅。 
+> Teams 通話佇列中提供的預設音樂不含貴組織支付的任何版稅。 
 
 > [!div class="nextstepaction"]
 > [步驟 3 - 呼叫代理人>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
@@ -172,7 +172,7 @@ ms.locfileid: "51506640"
 
     - **話務員路由** 會同時響鈴佇列中的所有代理程式。 第一個接電話的代理人會接到電話。
 
-    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打給下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
+    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
 
     - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這可能是理想的選擇，以確保所有通話代理人之間享有同等的機會。
 
@@ -212,7 +212,7 @@ ms.locfileid: "51506640"
 
 選擇當通話在佇列中等候太久時要發生的專案。
 
-1. 設定 **通話超時：最長等待時間**。
+1. 設定 **最大等待時間**。
 
 2. 選擇當通話時間過長時要執行什麼工作。您可以中斷通話或重新導向。 我們建議您將通話重新導向下列其中一個目的地：
     - **組織中能夠接聽** 語音通話的人

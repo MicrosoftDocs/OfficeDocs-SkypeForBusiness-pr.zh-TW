@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112289"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586492"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -137,6 +137,9 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
 
 ### <a name="meeting-expiration"></a>會議到期
+
+> [!NOTE]
+> 會議 URL 一律不會無法運作。 到期只與任何 PSTN 撥入號碼及/或基礎會議原則及設定相關。
 
 |會議類型  |會議將在這些時間後到期  |每次您開始或更新會議，到期時間會延長這麼多時間  |
 |---------|---------|---------|

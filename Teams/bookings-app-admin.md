@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 使用 Bookings 應用程式進行 Microsoft Teams 和虛擬會面
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092781"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598602"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面
 
@@ -57,7 +57,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 ## <a name="recommended-meeting-policy-settings"></a>建議的會議原則設定
 
-如需為 Bookings 啟用最佳體驗，請建立人員會議原則，以自動准許 **您組織的中所有人**。 這可讓員工自動加入會面，並啟用外部出席者的大廳體驗。 您可以深入了解如何[自動准許人員參加會議](meeting-policies-in-teams.md#automatically-admit-people)。
+如需為 Bookings 啟用最佳體驗，請建立人員會議原則，以自動准許 **您組織的中所有人**。 這可讓員工自動加入會面，並啟用外部出席者的大廳體驗。 您可以深入了解如何[自動准許人員參加會議](meeting-policies-participants-and-guests.md#automatically-admit-people)。
 
 ### <a name="optional-staff-approvals-setting"></a>選擇性員工核准設定
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 680bfad9090899ecce1f6e2be7bd9a0a25f5099a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 015a0f079f5e95f43c4245ff48f2d88df0e1fa74
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112169"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598302"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>選擇從商務用 Skype 到 Teams 的升級歷程
 
@@ -46,7 +46,7 @@ ms.locfileid: "51112169"
 本文概述各種模式，可讓使用者管理哪些商務用 Skype 和 Teams 模式可供使用者使用。 和任何部署一樣，我們強烈建議您先與[](pilot-essentials.md)選取的使用者群組試驗您的預定計劃，再將貴組織升級至 Teams。 請記住，引進新技術會對使用者造成干擾。 在執行本文所述的任何模式之前，請花一些時間評估使用者的準備狀態，並實行通訊和訓練計畫。
 
 > [!TIP]
-> 與我們一起參與即時互動式研討會，我們將在這裡分享指導、最佳做法和資源，以啟動升級規劃與實作。
+> 與我們一起參與即時互動式研討會，我們將分享引導、最佳做法和資源，以開始進行升級規劃與實作。
 >
 >首先 [加入規劃升級](./upgrade-workshops-landing-page.yml) 會話以開始使用。
 
@@ -62,13 +62,13 @@ ms.locfileid: "51112169"
 
 已移入 Teams 的使用者，除了加入在商務用 Skype 中主持的會議之外，不會再使用商務用 Skype 用戶端。 無論寄件者是使用 Teams 或商務用 Skype，所有傳入的聊天和通話都會在使用者的 Teams 用戶端中登入。 升級使用者組織的任何新會議都會排程為 Teams 會議。 如果使用者嘗試使用商務用 Skype 用戶端，聊天和通話的起始時間會<sup>封鎖 1</sup>。 不過，使用者可以 (，) 商務用 Skype 用戶端加入受邀的會議。
 
-系統管理員會使用模式的概念管理其轉換至[](migration-interop-guidance-for-teams-with-skype.md)Teams ，這是[TeamsUpgradePolicy 的屬性](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)。 如上述所述，已移遷移到 Teams 的使用者為 「TeamsOnly」模式。 針對要移轉至 Teams 的組織，最終的目標是將所有使用者移至 TeamsOnly 模式。
+系統管理員會使用模式的概念管理其轉換至[](migration-interop-guidance-for-teams-with-skype.md)Teams ，這是[TeamsUpgradePolicy 的屬性](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)。 如上述所述，已移遷移到 Teams 的使用者為 「TeamsOnly」模式。 針對要移轉至 Teams 的組織，最終的目標是將所有使用者移至 TeamsOnly 模式。
 
 使用商務用 Skype 將現有組織移 (無論是線上或內部部署，) Teams：
 
-- **使用** (模式) 的重迭功能方法：現有商務用 Skype 組織的使用者會介紹至 Teams，以便他們在轉換階段期間同時使用這兩個用戶端。 在此期間，他們可以使用 Teams 的多數功能 ，但並非全部功能。 此配置的模式稱為群島，這是任何使用商務用 Skype 的現有組織的預設模式。 組織準備就緒後，系統管理員會將使用者移至 TeamsOnly 模式。
+- **使用** (模式) 的重迭功能方法：現有商務用 Skype 組織中的使用者會介紹至 Teams，以便他們在轉換階段期間同時使用這兩個用戶端。 在此期間，他們可以使用 Teams 的多數功能 ，但並非全部功能。 此配置的模式稱為群島，這是任何使用商務用 Skype 的現有組織的預設模式。 組織準備就緒後，系統管理員會將使用者移至 TeamsOnly 模式。
 
-- 選取功能 (使用一或多個商務用 Skype 模式) ：系統管理員會管理從商務用 Skype (轉換至 Teams) 的聊天、通話和會議排程功能。 這些函數分別可在商務用 Skype 或 Teams 中使用，但兩者均無法同時使用。 系統管理員使用 TeamsUpgradePolicy 控制何時將此功能移轉至 Teams 供其使用者使用。 尚未使用 TeamsOnly 模式的使用者繼續使用商務用 Skype 聊天和通話，這兩組使用者可以透過交互操作功能通訊。 系統管理員會逐步將更多使用者移轉至 TeamsOnly 模式來管理轉場。
+- 選取功能 (使用一或多個商務用 Skype 模式) ：系統管理員管理從商務用 Skype (轉換至 Teams) 的聊天、通話和會議排程功能。 這些函數分別可在商務用 Skype 或 Teams 中使用，但兩者均無法同時使用。 系統管理員使用 TeamsUpgradePolicy 控制何時將此功能移轉至 Teams 供其使用者使用。 尚未使用 TeamsOnly 模式的使用者繼續使用商務用 Skype 聊天和通話，這兩組使用者可以透過交互操作功能通訊。 系統管理員會逐步將更多使用者移轉至 TeamsOnly 模式來管理轉場。
 
 <sup>1</sup> 2017 之前出貨的舊版商務用 Skype 用戶端不尊重 TeamsUpgradePolicy。 請確定您使用的是 Office 頻道中提供的最新商務用 Skype 用戶端。
 
@@ -78,21 +78,21 @@ ms.locfileid: "51112169"
 
 ## <a name="overlapping-capabilities-method-using-islands-mode"></a>使用群島模式 (重迭功能) 
 
-使用重迭功能方法，使用者可以同時使用 Teams 和商務用 Skype 用戶端進行聊天、VoIP 通話和會議。 在這個方法中，Teams 中的聊天和 VOIP 通話是組織內部的焦點，而商務用 Skype 則支援與外部組織聊天和 VOIP/PSTN 通話 (如果已) 。 這兩種產品都可以排程和參加會議。
+使用重迭的功能方法，使用者可以同時使用 Teams 和商務用 Skype 用戶端進行聊天、VoIP 通話和會議。 在這個方法中，Teams 中的聊天和 VOIP 通話是組織內部的焦點，而商務用 Skype 則支援與外部組織聊天和 VOIP/PSTN 通話 (如果已) 。 這兩種產品都可以排程和參加會議。
 
-使用重迭功能方法時，商務用 Skype 和 Teams 的通訊流量會保持分開 (即使對同一個使用者) ，而且兩個不同的用戶端永遠不會與同一組織 (使用者彼此通訊) 。 使用者體驗是根據收件者的組組。 例如，假設收件者使用者 A 在群島模式中：
+使用重迭功能方法時，商務用 Skype 和 Teams 的通訊流量會保持分開 (即使對同一個使用者) ，而且兩個不同的用戶端永遠不會與同一組織 (使用者彼此通訊) 。 使用者體驗是根據收件者的組配置。 例如，假設收件者使用者 A 在群島模式中：
 
 - 從其他使用者的商務用 Skype 用戶端啟動的通訊一定會位於 User A 的商務用 Skype 用戶端。
 
-- 從同一組織中使用者從 Teams 用戶端啟動 *的通訊* 一定會在 User A 的 Teams 用戶端上。
+- 從同一組織中使用者從 Teams 用戶端啟動的 *通訊* 一定會在 User A 的 Teams 用戶端上。
 
-- 從外部組織使用者從 Teams 用戶端發起的 *通訊* ，一定會在 User A 的商務用 Skype 用戶端上。
+- 從外部組織使用者從 Teams 用戶端啟動的 *通訊* 一定會位於 User A 的商務用 Skype 用戶端。
 
 如果您已指派 Microsoft 365 或 Office 365 授權給使用者，這是貴組織的預設升級體驗。 當您指派 Microsoft 365 或 Office 365 授權時，系統預設會同時指派 Teams 和商務用 Skype Online 授權。<sup>2</sup>
 
-若要讓這個方法有效運作，所有使用者都必須同時執行這兩個用戶端。 從組織內傳入的聊天和在群島模式中撥打給使用者的通話，可以登入商務用 Skype 或 Teams 用戶端，而且這項功能不在收件者控制之下。 這取決於寄件者用來啟動通訊的用戶端。 如果寄件者和收件者位於不同的組織中，在群島模式中，來電和與使用者聊天一直位於商務用 Skype 用戶端。
+若要讓這個方法有效運作，所有使用者都必須同時執行這兩個用戶端。 在群島模式中，組織內部傳入的聊天和來電可以登入商務用 Skype 或 Teams 用戶端，而且這不在收件者控制之下。 這取決於寄件者用來啟動通訊的用戶端。 如果寄件者和收件者位於不同的組織中，在群島模式中，來電和與使用者聊天一直位於商務用 Skype 用戶端。
 
-例如，如果群島模式收件者已登錄商務用 Skype，但並未使用 Teams，而某人從 Teams 收到訊息，則群島模式收件者不會看到郵件 (但他們最終會收到一封電子郵件，指出他們錯過 Teams) 中的郵件。 同樣地，如果使用者執行的是 Teams，但並未執行商務用 Skype，以及某人從商務用 Skype 收到訊息，使用者將不會看到該聊天。 上述每一種情況的行為在通話時都類似。 如果使用者不同時執行這兩個用戶端，很容易造成挫折感。
+例如，如果群島模式收件者已登錄商務用 Skype 而非 Teams，而某人從 Teams 收到訊息，則群島模式收件者不會看到郵件 (但他們最終會收到一封電子郵件，指出他們錯過 Teams) 中的郵件。 同樣地，如果使用者執行的是 Teams，但並未執行商務用 Skype，以及某人從商務用 Skype 收到訊息，使用者將不會看到該聊天。 上述每一種情況的行為在通話時都類似。 如果使用者不同時執行這兩個用戶端，很容易造成挫折感。
 
 當您使用此升級方法時，目前狀態也會在 Teams 和商務用 Skype 之間獨立執行。 這表示其他使用者可能會看到使用者 A 不同的目前狀態，視他們使用的用戶端而不同。 有關詳細資料，請參閱目前 [狀態](teams-and-skypeforbusiness-coexistence-and-interoperability.md#presence)。
 
@@ -100,7 +100,7 @@ ms.locfileid: "51112169"
 
 - 其他使用者在使用商務用 Skype 時，將會根據商務用 Skype 中的使用者 A 活動，看到目前狀態。
 
-準備好將使用者升級至 TeamsOnly 模式後，您可以個別升級使用者，或者您可以使用整個租使用者政策<sup>3</sup>一次升級整個租使用者。 將使用者升級至 TeamsOnly 模式後，他們會收到 Teams 中所有傳入的聊天和通話。  (請注意，只有在將 TeamsUpgradePolicy 適用于個別使用者時，才能觸發將商務用 Skype 會議移至 Teams 會議，而不是個別租使用者。 請參閱 [會議移移](upgrade-to-teams-on-prem-tools.md#meeting-migration) 以) 
+準備好將使用者升級至 TeamsOnly 模式後，您可以個別升級使用者，或者您可以使用整個租使用者政策<sup>3</sup>一次升級整個租使用者。 將使用者升級至 TeamsOnly 模式後，他們會收到 Teams 中所有傳入的聊天和通話。  (請注意，只有在將 TeamsUpgradePolicy 適用于個別使用者時，才能觸發將商務用 Skype 會議移至 Teams 會議，而不是個別租使用者。 請參閱[會議移) ](upgrade-to-teams-on-prem-tools.md#meeting-migration)
 
 不過，在群島模式中未升級的收件者可能會繼續收到 TeamsOnly 使用者在商務用 Skype 或 Teams 用戶端的聊天和通話。 對於現有的交談，TeamsOnly 使用者將回復寄件者從用戶端啟動聊天或通話。 
 
@@ -113,7 +113,7 @@ ms.locfileid: "51112169"
 | 接收的傳入聊天和通話：|  Teams 或商務用 Skype | Teams |
 | 接收的 PSTN 通話： | 商務用 Skype <br> (群島模式不支援在 Teams 中使用 PSTN 功能。)      | Teams |   
  |目前狀態    | 商務用 Skype 和 Teams 中的目前狀態是獨立的。 使用者可能會看到同一個群島使用者的不同狀態，視他們使用的用戶端而不同。 | 目前狀態僅以使用者在 Teams 中的活動為基礎。 所有其他使用者 ，無論他們使用哪個用戶端，都會看到該目前狀態。 | 
- | 會議排程    | 使用者可以在 Teams 或商務用 Skype 中排程會議。 根據預設，他們會看到 Outlook 中的兩個附加元件。 您可以設定 Teams 會議策略，以控制使用者是否只能使用 Teams 會議附加元件，或同時使用 Teams 會議與商務用 Skype 會議附加元件。若要深入瞭解，請參閱 [在群島模式中為使用者設定會議提供者](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。 |     使用者只會在 Teams 中排程會議。 Outlook 中僅提供 Teams 附加元件。 | 
+ | 會議排程    | 使用者可以在 Teams 或商務用 Skype 中排程會議。 根據預設，他們將在 Outlook 中同時看到兩個附加元件。 您可以設定 Teams 會議策略，以控制使用者是否只能使用 Teams 會議附加元件，或同時使用 Teams 會議及商務用 Skype 會議附加元件。若要深入瞭解，請參閱 [在群島模式中為使用者設定會議提供者](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode)。 |     使用者只會在 Teams 中排程會議。 Outlook 中僅提供 Teams 附加元件。 | 
 
 下表摘要列出使用重迭功能方法將貴組織遷移到 Teams 的優缺點。
 
@@ -125,13 +125,13 @@ ms.locfileid: "51112169"
 |讓使用者能夠運用功能，加強商務用 Skype 中無法提供的團隊合作。| 在內部部署和 Teams 中使用商務用 Skype 的使用者將無法從 Teams 與在內部部署使用商務用 Skype 但沒有 Teams 的另一個使用者通訊。  |
 |  | 使用 Teams 時，在商務用 Skype Server 中擁有內部部署帳戶的使用者沒有交互操作或聯盟支援。  如果您混合使用群島使用者 ，其中一些使用者位於商務用 Skype Online，有些則位於商務用 Skype 內部部署中，這可能會導致混淆。   |
 
-<sup>2</sup> 即使使用者位於商務用 Skype Server 的內部部署，也一樣。 無論使用者位於內部部署或線上，請保持啟用商務用 Skype Online 授權，因為目前需要此功能才能使用完整的 Teams 功能。
+<sup>2</sup> 即使使用者位於商務用 Skype Server 的內部部署，也是如此。 無論使用者位於內部部署或線上，請保持啟用商務用 Skype Online 授權，因為目前需要此功能才能使用完整的 Teams 功能。
 
 <sup>3</sup> 請注意，只有在將 TeamsUpgradePolicy 適用于個別使用者時，才能觸發將商務用 Skype 會議移至 Teams 會議，而不是個別租使用者。 請參閱 [會議移移](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) 以瞭解詳細資料。
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>選取使用商務用 Skype (使用功能方法) 
 
-當組織從商務用 Skype 轉換至 Teams 時，有些組織可能會偏好為使用者提供更可預測的體驗。 在此模型中，IT 系統管理員在 TeamsUpgradePolicy 中使用其中一種商務用 Skype 模式，在移至 TeamsOnly 模式之前，明確指定哪些功能會保留在商務用 Skype 中。 當他們準備好將選取的功能移轉至 TeamsOnly 模式時，系統管理員會更新這些使用者的模式至 TeamsOnly。 在此轉換期間：
+當組織從商務用 Skype 轉換至 Teams 時，有些組織可能會偏好為使用者提供更可預測的體驗。 在此模型中，IT 系統管理員使用 TeamsUpgradePolicy 中的其中一種商務用 Skype 模式，在移至 TeamsOnly 模式之前，明確指定哪些功能會保留在商務用 Skype 中。 當他們準備好將選取的功能移轉至 TeamsOnly 模式時，系統管理員會更新這些使用者的模式至 TeamsOnly。 在此轉換期間：
 
 - 系統管理員有選項可讓使用者啟用特定 Teams 功能，同時在使用者移至 TeamsOnly 體驗之前，在商務用 Skype 中保留聊天和通話功能。 系統管理可以啟用 Teams 共同合作功能或 Teams 會議 + 共同合作功能。
 
@@ -139,7 +139,7 @@ ms.locfileid: "51112169"
 
 - TeamsOnly 模式中的使用者會接收 Teams 用戶端中所有傳入的聊天和通話，而目前狀態是由 Teams 提供，無論通訊來自何處：Teams、商務用 Skype 或任何聯盟使用者。
 
-與群島 (方法) 重迭功能不同，在選取功能方法中，使用商務用 Skype 的使用者可以與 TeamsOnly 中的使用者通訊。 商務用 Skype 使用者與 Teams 使用者之間的通訊[](teams-and-skypeforbusiness-coexistence-and-interoperability.md#interoperability)稱為互通性或「交互操作」。 商務用 Skype 中的使用者與 Teams 中的另一個使用者之間的聊天和通話，可以一對一進行交互操作通訊。 此外，受邀使用者可以一直加入商務用 Skype 或 Teams 會議，不過，他們必須使用對應到會議類型的用戶端。 詳細資訊，請參閱 [會議](teams-and-skypeforbusiness-coexistence-and-interoperability.md#meetings)。
+與群島 (方法) 重迭的功能不同，在選取功能方法中，使用商務用 Skype 的使用者可以與 TeamsOnly 中的使用者通訊。 商務用 Skype 使用者與 Teams 使用者之間的通訊[](teams-and-skypeforbusiness-coexistence-and-interoperability.md#interoperability)稱為互通性或「交交互操作」。 商務用 Skype 中的使用者與 Teams 中的另一個使用者之間的聊天和通話，可以一對一進行交互操作通訊。 此外，受邀使用者永遠可以加入商務用 Skype 或 Teams 會議，不過，他們必須使用對應到會議類型的用戶端。 詳細資訊，請參閱 [會議](teams-and-skypeforbusiness-coexistence-and-interoperability.md#meetings)。
 
 對於使用選取功能轉換方法的使用者，無論其他使用者使用哪一個用戶端，使用者的目前狀態都是一致的。 如果使用者是其中一種商務用 Skype 模式，則所有其他使用者都會看到該使用者在商務用 Skype 中的活動。 同樣地，如果使用者是在 TeamsOnly 模式中，則所有其他使用者會根據該使用者在 Teams 中的活動，看到目前狀態。 詳細資料請參閱目前 [狀態](teams-and-skypeforbusiness-coexistence-and-interoperability.md#presence)。
 
@@ -169,10 +169,10 @@ ms.locfileid: "51112169"
 | 專業版     |       缺點 |
 | :------------------ | :---------------- |
 | 使用者可預測的路由。 所有通話和聊天都位於商務用 Skype 或 Teams (，但無法同時) 管理員選擇。|交互操作交談不支援豐富的文字、檔案共用和螢幕共用。 您可以利用立即開會功能來啟動會議。 |
-|可能會減少使用者混淆，因為只有一個用戶端提供某一個功能。 | 在將使用者升級至 TeamsOnly 之前，他們無法存取 Teams 以在商務用 Skype 中執行一般活動，例如聊天和通話。 也就是說，沒有並排功能。|
+|可能會減少使用者混淆，因為只有一個用戶端提供某一個功能。 | 在將使用者升級至 TeamsOnly 之前，他們無法存取 Teams，無法存取在商務用 Skype 中執行的一般活動，例如聊天和通話。 也就是說，沒有並排功能。|
 |從商務用 Skype 轉換至 Teams 時，系統管理員可控制使用者可用的一組功能。 此控制項包含逐步引進 Teams 功能的功能。 | |
 | 允許組織使用 Teams 進行會議，即使尚未準備好完全移至 TeamsOnly 模式。||
-|無論使用者使用哪一個用戶端，其他人所查看的給定使用者目前狀態都是一樣的。||
+|無論其他使用者使用哪一個用戶端，其他人所查看的給定使用者目前狀態都是相同的。||
 
 ## <a name="summary-of-upgrade-methods"></a>升級方法摘要
 下表摘要列出升級方法：
@@ -180,7 +180,7 @@ ms.locfileid: "51112169"
 
 |使用群島模式 (功能重迭)   |已選取 (商務用 Skype 模式)   |
 |---------|---------|
-|升級至 TeamsOnly 之前，使用者必須同時執行這兩個用戶端，因為傳入的聊天和通話可能會進入任一用戶端。     | 根據收件者的模式，聊天和通話只會在一個用戶端上進行。 未升級的使用者可能會同時執行這兩個用戶端，但無法 (Teams) 。 系統管理員也可以控制使用者是否要在 Teams 或商務用 Skype 中排程會議。         |
+|升級至 TeamsOnly 之前，使用者必須同時執行這兩個用戶端，因為傳入的聊天和通話可能會進入任一用戶端。     | 根據收件者的模式，聊天和通話只會在一個用戶端中登陸。 未升級的使用者可能會同時執行這兩個用戶端，但無法 (Teams) 。 系統管理員也可以控制使用者是否要在 Teams 或商務用 Skype 中排程會議。         |
 |可讓系統管理員在商務用 Skype 和 Teams 中，將重迭功能 (聊天、會議、VOIP 通話) 引入使用者 (，以在 Teams 中提供並排功能) ，以及新功能 (Teams 和 Channel) 。     | 允許系統管理員將 Teams 的選取功能 (Teams 和頻道) ，而不供應商務用 Skype 中同樣存在的功能。        |
 |商務用 Skype 和 Teams 之間不存在交互操作，而兩個使用者都位於群島模式。 一旦部分使用者升級至 TeamsOnly 交互操作交談時，這些使用者與仍在群島模式中的其他使用者之間可能會發生。 不過，群島使用者可以選擇使用 Teams 並避免交互操作交談。      |商務用 Skype 和 Teams 使用者之間的通訊需要交互操作。         |
 
@@ -212,6 +212,6 @@ ms.locfileid: "51112169"
 
 [設定您的共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)
 
 [使用會議移 (MMS) ](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

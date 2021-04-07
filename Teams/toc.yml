@@ -550,9 +550,25 @@ items:
       - name: 會議
         items:
           - name: 管理會議原則
-            href: meeting-policies-in-teams.md
-          - name: 從使用者移除 RestrictedAnonymousAccess 會議原則
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: 概觀
+                href: meeting-policies-overview.md
+              - name: 一般原則
+                href: meeting-policies-in-teams-general.md
+              - name: 音訊及視訊原則
+                href: meeting-policies-audio-and-video.md
+              - name: 內容與螢幕共用原則
+                items:
+                  - name: 內容共用
+                    href: meeting-policies-content-sharing.md
+                  - name: 設定桌面共用
+                    href: configure-desktop-sharing.md
+              - name: 參與者、來賓和存取原則
+                items:
+                  - name: 參與者和來賓原則
+                    href: meeting-policies-participants-and-guests.md
+                  - name: 從使用者移除 RestrictedAnonymousAccess 會議原則
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: 管理會議設定
             href: meeting-settings-in-teams.md
           - name: 在使用者設定變更時傳送給他們的電子郵件

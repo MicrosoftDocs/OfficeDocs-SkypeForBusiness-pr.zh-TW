@@ -12,7 +12,7 @@ Teams 完全支援以下網際網路瀏覽器，但通話和會議例外。 此�
 |Firefox 最新版本加上兩個先前的版本     |不支援         |只在會議包含 PSTN 座標時，才支援會議。 若要在沒有 PSTN 座標的 Firefox 上出席會議，使用者必須下載 Teams 桌面用戶端。<br><br>視訊：不支援<br><br>共用：僅限傳入共用 (非傳出)     |
 |Safari 13 之前的版本     | 不支援        |只在會議包含 PSTN 座標時，才支援會議。 若要在沒有 PSTN 座標的 Safari 上出席會議，使用者必須下載 Teams 桌面用戶端。<br><br>視訊：不支援<br><br>共用：僅限傳入共用 (非傳出)<br><br>在預覽版的版本高於 11.1 時，Safari 就會啟用。 但是在預覽版中，Safari 的智慧型追蹤防護有[已知問題](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df)。      |
 
-<sup>1</sup> 若要[在共用期間提供和控制共用內容](../meeting-policies-in-teams.md#allow-a-participant-to-give-or-request-control)，雙方都必須使用 Teams 電腦版用戶端。 當任一方執行瀏覽器中的 Teams 時，則不支援控制。 這是我們正計畫修正的技術限制所造成。
+<sup>1</sup> 若要[在共用期間提供和控制共用內容](../meeting-policies-content-sharing.md#allow-a-participant-to-give-or-request-control)，雙方都必須使用 Teams 電腦版用戶端。 當任一方執行瀏覽器中的 Teams 時，則不支援控制。 這是我們正計畫修正的技術限制所造成。
 
 <sup>2</sup> 當您在瀏覽器中執行 Teams 時，無法模糊背景。 這項功能只適用於 Teams 傳統型用戶端。
 
