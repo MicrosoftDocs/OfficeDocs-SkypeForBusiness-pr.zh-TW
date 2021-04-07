@@ -20,8 +20,16 @@
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: 管理會議移轉
           href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
-    - name: 停用混合式以完成移轉至雲端
-      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: 解除您的內部部署商務用 Skype 環境
+      items:
+        - name: 概觀
+          href: ../hybrid/decommission-on-prem-overview.md
+        - name: 將使用者和端點移至雲端
+          href: ../hybrid/decommission-move-on-prem-users.md
+        - name: 停用混合式以完成移轉至雲端
+          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: 移除您的內部部署商務用 Skype 部署
+          href: ../hybrid/decommission-remove-on-prem.md
     - name: 部署資源樹系拓撲
       href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
     - name: Teams 和商務用 Skype 的雲端整合
