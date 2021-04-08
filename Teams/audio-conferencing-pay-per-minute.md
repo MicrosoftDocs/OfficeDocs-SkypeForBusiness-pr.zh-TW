@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付費選項。
-ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+description: 瞭解使用 Microsoft 大量授權的組織啟用音訊會議功能的每分鐘付費選項。
+ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607525"
+ms.locfileid: "51617785"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
@@ -70,19 +70,19 @@ ms.locfileid: "51607525"
 
 - 使用通訊信用額度控制及監控每分鐘付費。
 
-- 針對不需要訂閱所有使用者的客戶，在價格方面擁有更大的彈性。 
+- 針對不需要所有使用者訂閱的客戶，在價格方面擁有更大的彈性。 
 
 - 啟用音訊會議按分鐘付費，以及每月訂閱 E5 或獨立音訊會議訂閱，這兩項服務會繼續以相同方式工作。 變更對音訊會議或通訊信用額度的運作沒有影響。
   
 ## <a name="want-to-find-out-more-about-pricing"></a>想要進一瞭解價格嗎？
 
  **想要尋找價格嗎？** 請參閱下列專案：
-  
-- [音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [音訊會議的定價](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [電話系統的定價](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [電話系統的定價](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [通話方案價格](https://go.microsoft.com/fwlink/?linkid=799763)
+- [通話方案價格](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## <a name="related-topics"></a>相關主題
   

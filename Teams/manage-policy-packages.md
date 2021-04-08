@@ -20,17 +20,14 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中使用及管理原則套件，以簡化、簡化及協助在管理使用者群組之策略時提供一致性。
-ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 1b7e6e5c6311ebd51b0f00b86953291ed4ac63b3
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51583109"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51634234"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>在 Microsoft Teams 中管理原則套件
-
-> [!NOTE]
-> 本文探討的其中一項功能 ， [自訂策略套件](#custom-policy-packages)，目前為私人預覽版。
 
 Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的集合，您可以將之指派給組織中具有類似角色的使用者。 我們已建立策略套件，以簡化、簡化及協助在管理貴組織使用者群組之策略時提供一致性。  
 
@@ -56,7 +53,7 @@ Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的�
 
 Teams 目前包含下列策略套件。
 
-|**套件名稱**  |**描述** |
+| 套件名稱 | 描述 |
 |---------|---------|
 |教育 (高教學生)     |建立套用至高教學生的一組原則與原則設定。|
 |教育 (中學生)    |建立套用至主要學生的一組原則與原則設定。|
@@ -83,17 +80,22 @@ Teams 目前包含下列策略套件。
 
 ## <a name="custom-policy-packages"></a>自訂策略套件
 
-**這項功能在私人預覽中**
+**政府社群雲端和 GCC 系統尚未提供自訂 (套件)**
 
-自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增您所需的策略類型與策略，以建立您自己的策略套件。
+自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增所需的策略類型與策略，以建立您自己的策略套件。
 
 若要建立新的自訂策略套件：
 
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，選取 [ **政策套件**，然後按一下 [ **新增**。
+
     :::image type="content" source="media/policy-packages-add.png" alt-text="系統管理中心之策略套件頁面上的新增按鈕螢幕擷取畫面":::
+
 2. 輸入套件的名稱和描述。
+
     :::image type="content" source="media/policy-packages-add-custom.png" alt-text="新增自訂策略套件的螢幕擷取畫面":::
+
 3. 選取要納入套件中的策略類型和策略名稱。
+
 4. 按一下 [儲存]。
 
 ## <a name="how-to-use-policy-packages"></a>如何使用策略套件
@@ -118,6 +120,7 @@ Teams 目前包含下列策略套件。
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>在策略套件中查看策略設定
 
 1. 在 Microsoft Teams 系統管理中心的左側導航中，選取策略套件，然後按一下套件名稱左側以選取策略套件。
+
 2. 按一下您想要查看的政策。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自訂策略套件中的策略
@@ -127,48 +130,18 @@ Teams 目前包含下列策略套件。
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，執行下列其中一項操作：
     - 按一下 **[策略套件**，然後按一下套件名稱左側以選取該策略套件。
     - 按一下策略類型。  例如，按一下 **[訊息策略**> 。
+
 2. 選取您想要編輯的政策。 連結至策略套件的策略與策略套件的名稱相同。
+
 3. 進行您想要的變更，然後按一下 [ **儲存**。
 
 ### <a name="assign-a-policy-package"></a>指派策略套件
 
-#### <a name="assign-a-policy-package-to-one-user"></a>將策略套件指派給一個使用者
-
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]，然後按一下該使用者。
-2. 在使用者頁面上，按一下 **[政策**」，然後按一下 [政策套件的 **旁邊**， **編輯>**。
-3. 在 [ **指派策略套件>** 窗格中，選取您想要指派的套件，然後按一下 [ **儲存**。
-
-#### <a name="assign-a-policy-package-to-multiple-users"></a>指派策略套件給多個使用者
-
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往策略套件，然後按一下套件名稱左側，選取您想要指派的政策套件。
-2. 按一下 **[管理使用者**。
-3. 在 [管理使用者] 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]。 針對要新增的每一個使用者重複此步驟。
-4. 新增使用者完成後，請按一下 [**儲存。**
-
-#### <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
-
-透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。
-
-若要深入了解，請參閱 [將原則套件指派到群組](assign-policies.md#assign-a-policy-package-to-a-group)。
-
-#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>為一大組 (批) 使用者指派原則套件
-
-使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
-
-批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
-
-## <a name="troubleshooting"></a>疑難排解
-
-**當您指派策略套件時收到錯誤**
-
-如果套件中的一或多個原則未成功建立或套用，可能會發生此情況。 將策略套件重新指派給使用者。 重試作業通常會修正此問題。
+您可以將策略套件指派給個別使用者、群組或一批使用者。 若要瞭解如何指派策略套件，請參閱指派策略 [套件給使用者和群組](assign-policy-packages.md)。
 
 ## <a name="related-topics"></a>相關主題
 
-[指派策略套件](assign-policy-packages.md)
-
-[適用于 EDU 系統管理員的 Teams 策略套件](policy-packages-edu.md)
-
-[適用於醫療保健的 Teams 原則套件](policy-packages-healthcare.md)
-
-[政府用 Teams 政策套件](policy-packages-gov.md)
+- [指派策略套件](assign-policy-packages.md)
+- [適用于 EDU 系統管理員的 Teams 策略套件](policy-packages-edu.md)
+- [適用於醫療保健的 Teams 原則套件](policy-packages-healthcare.md)
+- [政府用 Teams 政策套件](policy-packages-gov.md)
