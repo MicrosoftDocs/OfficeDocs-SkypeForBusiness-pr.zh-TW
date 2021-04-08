@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098179"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598522"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
+
+> [!IMPORTANT]
+> Azure Sentinel 現在具有整合式連接器。 如需詳細資訊，請參閱[將 Office 365 記錄連線至 Azure Sentinel](/azure/sentinel/connect-office-365)。 這是收集這些記錄的建議路由，並取代下列所述的收集方法。
 
 Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色。 由於 Teams 服務涉及雲端中的許多基礎技術，因此在 *搜尋記錄* 和 *即時監控會議* 時，都可以從人工和自動化分析中受益。 Azure Sentinel 提供系統管理員以下解決方案。
 
@@ -44,13 +47,13 @@ Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色�
 
 本節包含三個部分：
 
-1. 在 **Microsoft 365** (M365) 中啟用審核記錄。
+1. 在 **Microsoft 365** 中啟用稽核記錄。
 2. 在 **Microsoft Azure** 中註冊應用程式，以允許記錄收集的驗證和授權。
-3. 註冊 API 訂閱，這將允許 **PowerShell**，透過 M365 API 收集記錄。
+3. 註冊 API 訂閱，這將允許 **PowerShell**，透過 Microsoft 365 API 收集記錄。
 
-### <a name="enable-audit-logs-in-m365"></a>啟用 M365 中的稽核記錄
+### <a name="enable-audit-logs-in-microsoft-365"></a>在 Microsoft 365 中啟用稽核記錄
 
-由於 Teams 會透過 M365 記錄活動，因此預設不會收集稽核記錄。 透過[以下步驟](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)開啟此功能。 Teams 資料會在 M365 稽核中的 *[Audit.General]* 下進行收集。
+因為 Teams 會透過 Microsoft 365 記錄活動，因此預設不會收集稽核記錄。 透過[以下步驟](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)開啟此功能。 Teams 資料會在 Microsoft 365 稽核中的 *[Audit.General]* 下進行收集。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>在 Microsoft Azure 中註冊應用程式以收集記錄
 
@@ -76,7 +79,7 @@ Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色�
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>使用 PowerShell 註冊 API 來收集 Teams 記錄
 
-設定的最後一個步驟是收集並註冊 API 訂閱，以便收集記錄資料。 這是透過 PowerShell REST 呼叫 M365 管理活動 API 來完成。
+設定的最後一個步驟是收集並註冊 API 訂閱，以便收集記錄資料。 這會透過 PowerShell REST 呼叫 Microsoft 365 管理活動 API 來完成。
 
 請在以下 PowerShell Cmdlet 中準備好提供 **[應用程式 (用戶端) 識別碼]**、新的 **[用戶端密碼]**、**[M365 的 URL 網域]** 和 **[目錄 (租用戶) 識別碼]** 的值。
 

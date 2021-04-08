@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593771"
+ms.locfileid: "51598382"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -115,7 +115,7 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 
 身為系統管理員，您可以設定 [Teams 會議原則] 設定，控制 *「處於離島模式的使用者」* 可使用的 Outlook 會議增益集。 您可以指定使用者只能使用 [Teams 會議] 增益集，或是可同時使用 [Teams 會議] 和 [商務用 Skype 會議] 增益集在 Outlook 中排程會議。
 
-您只能將此原則套用到處於離島模式的使用者，並在其 Teams 會議原則中將 **AllowOutlookAddIn** 參數設定為 **True**。 如需有關如何設定此原則的步驟，請參閱[在離島模式中設定使用者的會議提供者](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode) (部分機器翻譯)。
+您只能將此原則套用到處於離島模式的使用者，並在其 Teams 會議原則中將 **AllowOutlookAddIn** 參數設定為 **True**。 如需設定此原則的步驟，請參閱[會議原則設定 - 一般](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode)。
 
 ## <a name="other-considerations"></a>其他考量事項
 
@@ -142,7 +142,7 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 - Windows 7 使用者必須[在 Windows 上安裝通用 C 執行階段的更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 會議增益集才能正常運作。
 - 檢查使用者是否擁有可在 Teams 中排程會議的 Teams 升級原則。 如需詳細資訊，請參閱[從商務用 Skype 升級至 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) (部分機器翻譯)。
-- 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資訊，請參閱[在 Teams 中管理會議原則](./meeting-policies-in-teams.md#allow-the-outlook-add-in)。
+- 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資料，請參閱[會議原則設定 -一般](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)。
 - 確定使用者已安裝 Teams 桌面用戶端。 只使用 Teams 網頁用戶端時，不會安裝會議增益集。
 - 確定使用者已安裝 Outlook 2013 或更新版本。
 - 確定使用者擁有執行 regsvr32 的權限。
