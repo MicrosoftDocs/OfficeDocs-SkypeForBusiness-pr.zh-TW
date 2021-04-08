@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 瞭解如何在團隊中設定 [呼叫我] 功能，讓使用者可以透過電話在使用電腦音訊時加入音訊部分。
+description: 瞭解如何在 Teams 中設定呼叫我功能，讓使用者在使用電腦進行音訊時，使用電話加入音訊部分。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -17,60 +17,60 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b78edc01f68df19e850a85eb0ffa99163b9edae
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 04510a827e9343010c756b14590e9800354c71e9
+ms.sourcegitcommit: f979c491af5210e6ceb1d1c00e000767f1a8311d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821093"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51623128"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a><span data-ttu-id="27cd1-103">為您的使用者設定語音來電功能</span><span class="sxs-lookup"><span data-stu-id="27cd1-103">Set up the Call me feature for your users</span></span>
+# <a name="set-up-the-call-me-feature-for-your-users"></a><span data-ttu-id="77be8-103">為您的使用者設定語音來電功能</span><span class="sxs-lookup"><span data-stu-id="77be8-103">Set up the Call me feature for your users</span></span>
 
-<span data-ttu-id="27cd1-104">在 Microsoft 團隊中，[ **撥號給我** ] 功能可讓使用者透過電話加入會議的音訊部分。</span><span class="sxs-lookup"><span data-stu-id="27cd1-104">In Microsoft Teams, the **Call me** feature gives users a way to join the audio portion of a meeting by phone.</span></span> <span data-ttu-id="27cd1-105">這在使用音訊電腦的情況下可能很方便。</span><span class="sxs-lookup"><span data-stu-id="27cd1-105">This is handy in scenarios when using a computer for audio might not be possible.</span></span> <span data-ttu-id="27cd1-106">使用者透過其手機或土地線，以及會議的內容部分 &mdash; （例如當其他會議參與者分享其螢幕或透過其電腦播放影片），來取得會議的音訊部分 &mdash; 。</span><span class="sxs-lookup"><span data-stu-id="27cd1-106">Users get the audio portion of the meeting through their cell phone or land line and the content portion of the meeting&mdash;such as when another meeting participant shares their screen or plays a video&mdash;through their computer.</span></span>
+<span data-ttu-id="77be8-104">在 Microsoft Teams 中，呼叫 **我** 功能可讓使用者以電話加入會議的音訊部分。</span><span class="sxs-lookup"><span data-stu-id="77be8-104">In Microsoft Teams, the **Call me** feature gives users a way to join the audio portion of a meeting by phone.</span></span> <span data-ttu-id="77be8-105">在可能無法使用音訊電腦的情況下，這項功能非常實用。</span><span class="sxs-lookup"><span data-stu-id="77be8-105">This is handy in scenarios when using a computer for audio might not be possible.</span></span> <span data-ttu-id="77be8-106">使用者透過行動電話或陸上線路取得會議的音訊部分，以及會議的內容部分，例如當另一個會議參與者共用其螢幕或透過電腦播放 &mdash; &mdash; 影片時。</span><span class="sxs-lookup"><span data-stu-id="77be8-106">Users get the audio portion of the meeting through their cell phone or land line and the content portion of the meeting&mdash;such as when another meeting participant shares their screen or plays a video&mdash;through their computer.</span></span>
 
 > [!IMPORTANT]
 > 
-> <span data-ttu-id="27cd1-107">在會議密集的時段 (隨著 COVID-19 爆發以來，我們正在經歷的事)，建議使用者按一下 [加入 Teams 會議]<strong></strong> 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]<strong></strong> 來加入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-107">During periods of high meeting volume (which we've been experiencing in conjunction with the COVID-19 outbreak), we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>.</span></span> <span data-ttu-id="27cd1-108">這有助於在會議密集造成 PSTN 網路擁塞時確保音訊品質。</span><span class="sxs-lookup"><span data-stu-id="27cd1-108">This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.</span></span> 
+> <span data-ttu-id="77be8-107">在會議密集的時段 (隨著 COVID-19 爆發以來，我們正在經歷的事)，建議使用者按一下 [加入 Teams 會議]<strong></strong> 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]<strong></strong> 來加入會議。</span><span class="sxs-lookup"><span data-stu-id="77be8-107">During periods of high meeting volume (which we've been experiencing in conjunction with the COVID-19 outbreak), we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>.</span></span> <span data-ttu-id="77be8-108">這有助於在會議密集造成 PSTN 網路擁塞時確保音訊品質。</span><span class="sxs-lookup"><span data-stu-id="77be8-108">This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="27cd1-109">在 COVID-19 疫情爆發期間，我們建議使用者按一下 [加入 Teams 會議] 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]</strong> 來加入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-109">During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the **Join Teams Meeting** button rather than dialing in by using the PSTN conference numbers or by using **Call me at**</strong>.</span></span> <span data-ttu-id="27cd1-110">這主要是因為受到 COVID-19 影響的國家/地區電話語音架構擁塞。</span><span class="sxs-lookup"><span data-stu-id="27cd1-110">This is primarily because of congestion in the telephony infrastructures of countries impacted by COVID-19.</span></span> <span data-ttu-id="27cd1-111">藉由避免 PSTN 通話，您可能會體驗到更好的音質。</span><span class="sxs-lookup"><span data-stu-id="27cd1-111">By avoiding PSTN calls, you'll likely experience better audio quality.</span></span> 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="the-user-experience"></a><span data-ttu-id="27cd1-112">使用者體驗</span><span class="sxs-lookup"><span data-stu-id="27cd1-112">The user experience</span></span>
+## <a name="the-user-experience"></a><span data-ttu-id="77be8-109">使用者體驗</span><span class="sxs-lookup"><span data-stu-id="77be8-109">The user experience</span></span>
 
-### <a name="join-a-meeting-by-using-phone-for-audio"></a><span data-ttu-id="27cd1-113">使用電話進行音訊加入會議</span><span class="sxs-lookup"><span data-stu-id="27cd1-113">Join a meeting by using phone for audio</span></span>
+### <a name="join-a-meeting-by-using-phone-for-audio"></a><span data-ttu-id="77be8-110">使用電話進行音訊加入會議</span><span class="sxs-lookup"><span data-stu-id="77be8-110">Join a meeting by using phone for audio</span></span>
 
-<span data-ttu-id="27cd1-114">按一下 [**加入**] 以加入會議，然後按一下 [**選擇您的音訊和影片設定**] 畫面上的 [**電話語音**]。</span><span class="sxs-lookup"><span data-stu-id="27cd1-114">Click **Join** to join a meeting, and then click **Phone audio** on the  **Choose your audio and video settings** screen.</span></span> <span data-ttu-id="27cd1-115">使用者可以從這裡進行會議呼叫並加入會議，或將其手動撥入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-115">From here, users can have the meeting call and join them or dial in manually to the meeting.</span></span>
+<span data-ttu-id="77be8-111">按一下 **[** 加入以加入會議，**然後在**[選擇視音訊和音訊選項畫面上撥打電話音訊，然後按一下 [**立即加入**> 。</span><span class="sxs-lookup"><span data-stu-id="77be8-111">Click **Join** to join a meeting, then **Phone audio** on the **Choose your video and audio options** screen, and click **Join now**.</span></span> <span data-ttu-id="77be8-112">使用者可以在這裡進行會議通話並加入會議，或手動撥入會議。</span><span class="sxs-lookup"><span data-stu-id="77be8-112">From here, users can have the meeting call and join them or dial in manually to the meeting.</span></span>
 
-![[電話語音] 選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![電話音訊選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
-<span data-ttu-id="27cd1-117">**讓小組會議通話**</span><span class="sxs-lookup"><span data-stu-id="27cd1-117">**Let the Teams meeting call**</span></span>
+<span data-ttu-id="77be8-114">**讓 Teams 會議通話**</span><span class="sxs-lookup"><span data-stu-id="77be8-114">**Let the Teams meeting call**</span></span>
 
-<span data-ttu-id="27cd1-118">在 [ **使用電話語音通話** ] 畫面上，使用者輸入他們的電話號碼，然後按一下 [ **呼叫我**]。</span><span class="sxs-lookup"><span data-stu-id="27cd1-118">On the **Use phone for audio** screen, the user enters their phone number, and then clicks **Call me**.</span></span> <span data-ttu-id="27cd1-119">會議會呼叫使用者並將他們加入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-119">The meeting calls the user and joins them to the meeting.</span></span>
+<span data-ttu-id="77be8-115">在使用 **電話進行音訊** 畫面上，使用者輸入其電話號碼，然後按一下</span><span class="sxs-lookup"><span data-stu-id="77be8-115">On the **Use phone for audio** screen, the user enters their phone number, and then clicks **Call me**.</span></span> <span data-ttu-id="77be8-116">會議會打電話給使用者，並讓他們加入會議。</span><span class="sxs-lookup"><span data-stu-id="77be8-116">The meeting calls the user and joins them to the meeting.</span></span>
 
-![[使用電話語音] 畫面上的 [撥號給我] 選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+![在音訊畫面上使用電話的通話選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
-<span data-ttu-id="27cd1-121">**手動撥入**</span><span class="sxs-lookup"><span data-stu-id="27cd1-121">**Dial in manually**</span></span>
+<span data-ttu-id="77be8-118">**手動撥入**</span><span class="sxs-lookup"><span data-stu-id="77be8-118">**Dial in manually**</span></span>
 
-<span data-ttu-id="27cd1-122">加入的另一種方式是直接撥入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-122">Another way to join is to dial in directly to the meeting.</span></span> <span data-ttu-id="27cd1-123">在 [ **使用電話語音通話** ] 畫面上，按一下 [ **手動撥** 入]，取得電話號碼的清單，以供撥入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-123">On the **Use phone for audio** screen, click **Dial in manually** to get a list of phone numbers to use to dial in to the meeting.</span></span>
+<span data-ttu-id="77be8-119">另一個加入的方式是直接撥入會議。</span><span class="sxs-lookup"><span data-stu-id="77be8-119">Another way to join is to dial in directly to the meeting.</span></span> <span data-ttu-id="77be8-120">在 **[使用電話進行音訊** 播放的畫面上，按一下 [手動撥入以取得要撥入會議的電話號碼清單。</span><span class="sxs-lookup"><span data-stu-id="77be8-120">On the **Use phone for audio** screen, click **Dial in manually** to get a list of phone numbers to use to dial in to the meeting.</span></span>
 
-![[手動撥號] 選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+![手動撥入選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
-### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a><span data-ttu-id="27cd1-125">在會議期間音訊出現問題時，進行回撥</span><span class="sxs-lookup"><span data-stu-id="27cd1-125">Get a call back when something goes wrong with audio during a meeting</span></span>
+### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a><span data-ttu-id="77be8-122">會議期間音訊發生問題時，請回電</span><span class="sxs-lookup"><span data-stu-id="77be8-122">Get a call back when something goes wrong with audio during a meeting</span></span>
 
-<span data-ttu-id="27cd1-126">如果使用者在會議期間使用電腦時遇到音訊問題，使用者可以輕鬆地切換到使用電話進行音訊。</span><span class="sxs-lookup"><span data-stu-id="27cd1-126">If a user experiences audio issues when using their computer during a meeting, the user can easily switch to using their phone for audio.</span></span> <span data-ttu-id="27cd1-127">團隊會偵測到發生音訊或設備問題的時間，並將使用者重新導向以使用其手機，只要顯示 [ **呼叫給我** ] 選項即可。</span><span class="sxs-lookup"><span data-stu-id="27cd1-127">Teams detects when an audio or device issue occurs and redirects the user to use their phone by displaying a **Call me back** option.</span></span>
+<span data-ttu-id="77be8-123">如果使用者在會議期間使用電腦時遇到音訊問題，使用者可以輕鬆地切換到使用手機進行音訊。</span><span class="sxs-lookup"><span data-stu-id="77be8-123">If a user experiences audio issues when using their computer during a meeting, the user can easily switch to using their phone for audio.</span></span> <span data-ttu-id="77be8-124">Teams 會偵測音訊或裝置問題何時發生，並顯示回電選項，重新導向使用者以使用 **他們的電話。**</span><span class="sxs-lookup"><span data-stu-id="77be8-124">Teams detects when an audio or device issue occurs and redirects the user to use their phone by displaying a **Call me back** option.</span></span>
 
-<span data-ttu-id="27cd1-128">以下是當小組無法偵測到麥克風時，顯示的訊息和 [ **撥號給我** ] 選項的範例。</span><span class="sxs-lookup"><span data-stu-id="27cd1-128">Here's an example of the message and the **Call me back** option that's displayed when Teams doesn't detect a microphone.</span></span>
+<span data-ttu-id="77be8-125">以下是當 Teams 未偵測到麥克風時所顯示的訊息和回電選項範例。</span><span class="sxs-lookup"><span data-stu-id="77be8-125">Here's an example of the message and the **Call me back** option that's displayed when Teams doesn't detect a microphone.</span></span>
 
-![[向我回電] 選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![返回選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-<span data-ttu-id="27cd1-130">使用者按一下 [ **回電給我**]，這會顯示 [ **使用電話語音** 播放] 畫面。</span><span class="sxs-lookup"><span data-stu-id="27cd1-130">The user clicks **Call me back**, which brings up the **Use phone for audio** screen.</span></span> <span data-ttu-id="27cd1-131">您可以從這裡輸入他們的電話號碼，並讓團隊會議通話，然後將他們加入會議或手動撥入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-131">From here, they can enter their phone number and have the Teams meeting call and join them to the meeting or dial in manually to the meeting.</span></span>
+<span data-ttu-id="77be8-127">使用者按一下 **呼叫我，** 這可顯示使用 **電話進行音訊** 畫面。</span><span class="sxs-lookup"><span data-stu-id="77be8-127">The user clicks **Call me back**, which brings up the **Use phone for audio** screen.</span></span> <span data-ttu-id="77be8-128">在這裡，他們可以輸入其電話號碼，並撥打 Teams 會議電話，然後加入會議，或手動撥入會議。</span><span class="sxs-lookup"><span data-stu-id="77be8-128">From here, they can enter their phone number and have the Teams meeting call and join them to the meeting or dial in manually to the meeting.</span></span>
 
-## <a name="set-up-the-call-me-feature"></a><span data-ttu-id="27cd1-132">設定 [撥號給我] 功能</span><span class="sxs-lookup"><span data-stu-id="27cd1-132">Set up the Call me feature</span></span>
+## <a name="set-up-the-call-me-feature"></a><span data-ttu-id="77be8-129">設定呼叫我功能</span><span class="sxs-lookup"><span data-stu-id="77be8-129">Set up the Call me feature</span></span>
 
-<span data-ttu-id="27cd1-133">若要為貴組織中的使用者啟用 [撥號給我] 功能，必須進行下列設定：</span><span class="sxs-lookup"><span data-stu-id="27cd1-133">To enable the Call me feature for users in your organization, the following must be configured:</span></span>
+<span data-ttu-id="77be8-130">若要為貴組織的使用者啟用呼叫我功能，必須配置下列專案：</span><span class="sxs-lookup"><span data-stu-id="77be8-130">To enable the Call me feature for users in your organization, the following must be configured:</span></span>
 
-- <span data-ttu-id="27cd1-134">針對組織中排程會議 (會議召集人) 的使用者啟用音訊會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-134">Audio Conferencing is enabled for users in your organization who schedule meetings (meeting organizers).</span></span> <span data-ttu-id="27cd1-135">若要深入瞭解，請參閱在小組中 [設定音訊會議](set-up-audio-conferencing-in-teams.md) ，以及 [管理團隊使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="27cd1-135">To learn more, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md) and [Manage the Audio Conferencing settings for a user in Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).</span></span>
+- <span data-ttu-id="77be8-131">貴組織中排程會議的使用者會啟用音訊會議 (會議) 。</span><span class="sxs-lookup"><span data-stu-id="77be8-131">Audio Conferencing is enabled for users in your organization who schedule meetings (meeting organizers).</span></span> <span data-ttu-id="77be8-132">若要深入瞭解，請參閱 [設定 Teams](set-up-audio-conferencing-in-teams.md) 的音訊會議，以及管理 Teams 中的使用者的音訊會議 [設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="77be8-132">To learn more, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md) and [Manage the Audio Conferencing settings for a user in Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).</span></span>
 
-- <span data-ttu-id="27cd1-136">使用者可以從會議撥出。</span><span class="sxs-lookup"><span data-stu-id="27cd1-136">Users can dial out from meetings.</span></span> <span data-ttu-id="27cd1-137">若要深入瞭解，請參閱 [管理團隊使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="27cd1-137">To learn more, see [Manage the Audio Conferencing settings for a user in Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).</span></span>
+- <span data-ttu-id="77be8-133">會議召集人可以從會議撥出。</span><span class="sxs-lookup"><span data-stu-id="77be8-133">Meeting organizer can dial-out from meetings.</span></span> <span data-ttu-id="77be8-134">若要深入瞭解，請參閱 [在 Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)中管理使用者的音訊會議設定。</span><span class="sxs-lookup"><span data-stu-id="77be8-134">To learn more, see [Manage the Audio Conferencing settings for a user in Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).</span></span>
 
-<span data-ttu-id="27cd1-138">如果使用者沒有啟用 [從會議撥出]，則無法使用 [撥號 **給我** ] 選項，而且使用者將不會收到邀請加入會議的電話。</span><span class="sxs-lookup"><span data-stu-id="27cd1-138">If a user doesn't have dial out from meetings enabled, the **Call me** option isn't available and the user won't receive a call to join them to the meeting.</span></span> <span data-ttu-id="27cd1-139">相反地，使用者會在 [ **使用電話語音** ] 畫面上看到電話號碼清單，讓他們可以用來在手機上手動撥入會議。</span><span class="sxs-lookup"><span data-stu-id="27cd1-139">Instead, the user sees a list of phone numbers on the **Use phone for audio** screen that they can use to dial in manually to the meeting on their phone.</span></span>
+<span data-ttu-id="77be8-135">如果會議召集人未啟用會議撥出功能，則任何人都無法使用選擇視像和音訊選項畫面上的電話音訊選項，而且其他使用者無法接聽電話加入會議。</span><span class="sxs-lookup"><span data-stu-id="77be8-135">If the meeting organizer doesn't have dial-out from meetings enabled, the **Phone audio** option on the **Choose your video and audio options** screen isn't available to anyone, and other users can't receive a call to join them to the meeting.</span></span> <span data-ttu-id="77be8-136">對於已啟用撥出功能的使用者，一旦他們加入會議，就可以加入其他人，從顯示參與者圖示撥打 **他們的** 號碼。</span><span class="sxs-lookup"><span data-stu-id="77be8-136">For users with dial-out enabled, once they have joined the meeting, they can join others dialing their number from the **Show participants** icon.</span></span>
