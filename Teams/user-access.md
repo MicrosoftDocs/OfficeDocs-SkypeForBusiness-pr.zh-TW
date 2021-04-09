@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cf3f6816b3c1e0b00026b1ba4ad961a6a92aa6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093537"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637725"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 
@@ -36,7 +36,7 @@ ms.locfileid: "51093537"
 您可以在 Microsoft 365 系統管理中心或使用 PowerShell 管理 Teams 授權。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
 > [!NOTE]
-> 我們建議您為所有使用者啟用 Teams，以便針對專案和其他動態計畫，以組織方式組成團隊。 即使您進行試驗，讓所有使用者都保持 Teams 啟用可能仍然很有説明，但只會將通訊目標鎖定至試驗使用者群組。
+> 我們建議您為所有使用者啟用 Teams，以便針對專案和其他動態計畫，以組織方式組成團隊。 即使您進行試驗，讓所有使用者都保持 Teams 啟用可能仍然有説明，但只會將通訊目標鎖定至試驗使用者群組。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
@@ -57,6 +57,9 @@ Teams 使用者層級授權會透過 Microsoft 365 系統管理中心使用者�
 |![使用者已啟用 Teams 授權之螢幕擷取畫面](media/assign-teams-licenses-1.png)    | ![使用者已啟用 Teams 授權之螢幕擷取畫面](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>移除 Teams 授權
+
+> [!IMPORTANT]
+> 停用 Teams SKU 需要大約 24 小時才能生效。
 
 當您從使用者移除 Teams 授權時，該使用者的 Teams 會停用，而且他們不會再在應用程式啟動器或首頁中看到 Teams。 有關詳細步驟，請參閱 [取消使用者授權](/microsoft-365/admin/manage/remove-licenses-from-users)。
 
@@ -94,7 +97,7 @@ Teams 使用者層級授權會透過 Microsoft 365 系統管理中心使用者�
 Get-MsolAccountSku
 ```
 
-執行下列命令，即貴組織的名稱，以及您先前步驟中所提取之授權計畫的 \<CompanyName:License> 識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
+執行下列命令，即貴組織的名稱，以及您先前步驟所提取之授權計畫的 \<CompanyName:License> 識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
 
 ```powershell
 $acctSKU="<CompanyName:License>

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215328"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637865"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -37,12 +37,12 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主
 
 主要會議容量到達後加入的出席者將擁有僅供檢視體驗。
 
-出席者將能透過 Android 和 iOS 版桌上出版、Web 版和 Teams 行動 (加入) 。
+出席者將能透過 Android 和 iOS (桌面、Web 和 Teams 行動) 。
 
 > [!Note]
 > 「主要會議」或換句話說，「完全互動」使用者數目的目前限制為 WW 為 300，GCC、GCC High 和 DoD 為 250。
 
-## <a name="teams-view-only-experience-controls"></a>Teams 只能查看體驗控制項
+## <a name="teams-view-only-experience-controls"></a>Teams 僅查看體驗控制項
 
 您可以使用 PowerShell 啟用僅查看體驗。
 
@@ -65,7 +65,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 達到主要會議的容量限制後，如果下列任一情況成立，出席者將無法加入會議：
 
 - 系統管理員已停用召集人或整個租使用者的 Teams 僅查看體驗。
-- 只能觀看的出席者無法跳過大廳。 舉個例說，如果會議的召集人選擇只讓組織中的人員跳過大廳，而組織外部的出席者嘗試以僅以唯一的出席者加入，就會遭到拒絕。
+- 只能觀看的出席者無法跳過大廳。 舉個例說，如果會議召集人選擇只讓組織中的人員跳過大廳，而組織外部的出席者嘗試以僅以唯一的出席者加入，就會遭到拒絕。
 
 當達到主要會議的容量時，會議召集人和簡報者會看到橫幅，通知他們新的出席者會以僅觀看的出席者加入。
 
@@ -77,7 +77,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 如果有空間，使用者一律可以加入主要會議。 達到主要會議容量限制後，如果一或多位出席者離開主要會議，則主要會議會釋出容量可供加入。 加入 (或重新加入) 會議的出席者將加入主要會議，直到再次達到容量限制。 處於僅供檢視體驗的出席者無法自動升級到主要會議，且目前無法手動將他們升級到主要會議。
 
-如果簡報者與出席者角色已設定，且簡報者在主要會議達到容量後嘗試加入會議，他們將以僅觀看出席者的方式加入會議，而且與其他唯一的出席者有相同的限制。 支援確保所有簡報者加入主要會議，稍後推出。 主會議一定會保證召集人有空間。
+如果簡報者與出席者角色已設定，且簡報者在主要會議達到容量後嘗試加入會議，他們將以只觀看的出席者加入，且與其他僅查看出席者有相同的限制。 支援確保所有簡報者加入主要會議，稍後推出。 主會議一定會保證召集人有空間。
 
 ## <a name="impact-to-meeting-presenters"></a>對會議簡報者的影響
 
@@ -105,9 +105,6 @@ Teams 僅供檢視體驗可讓出席者：
 - 使用 Microsoft Teams Room 系統，或使用雲端視 (CVI) 聊天室。
 - 無法分享他們的音訊或視訊。
 - 無法查看或參與會議聊天。
-  - 前 1000 (或 300 視您的主要會議限制) 受邀加入會議的使用者將會新加入聊天。
-  - 雖然只有視視圖的使用者不會在會議看到聊天，但如果他們是第一個受邀的 350 人，他們仍然可以在主要 App 上聊天。
-  - 相反地，如果互動式使用者不是前 350 位受邀加入會議的使用者的一部分，他們無法存取主要 Teams App 和會議中的會議聊天。
 - 無法觀看會議參與者的視訊摘要，除非參與者是目前的主講人。
 - 請參閱使用 PowerPoint Live 功能共用的 PowerPoint 檔案或個別應用程式共用 (桌面或螢幕共用功能) 。
 - 在會議中舉手。

@@ -23,18 +23,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 通話共用和群組呼叫代答功能可讓使用者與同事共用來電，讓使用者可以在使用者無法使用時接聽來電。
-ms.openlocfilehash: 1ec3c389bf2eb69f30e13ebbba6c7d5d1d5fe38c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102789"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637825"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的通話共用和群組通話代答
 
 Microsoft Teams 的通話共用和群組呼叫代答功能可讓使用者與同事共用來電，讓同事可以接聽使用者無法使用時發生的通話。
 
-與其他通話共用形式 (例如呼叫轉轉或同時撥打) 相比，群組呼叫代答對收件者的干擾較小，因為使用者可以設定想要透過音訊和視覺通知、僅視覺或 Teams App) 橫幅收到來電通知的方式 (，而且他們可以決定是否要接聽。
+與其他通話共用形式 (例如呼叫轉轉或同時撥打) 相比，群組呼叫代答對收件者影響較小，因為使用者可以設定使用者想要透過音訊和視覺通知 (僅透過 Teams App) 中的視覺或橫幅收到來電通知的方式，而且他們可以決定是否要接聽。
 
 若要與其他人共用通話，使用者會建立通話群組，並新增想要共用通話的使用者。 接著，他們選擇同時響鈴或轉場設定。 詳細 [資料請參閱 Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) 中的呼叫轉轉和同時撥打。 請注意，行動裝置只有在設定為橫幅和鈴聲時，才能收到通知。
 
@@ -43,7 +43,7 @@ Microsoft Teams 的通話共用和群組呼叫代答功能可讓使用者與同�
 
 ## <a name="license-required"></a>需要授權
 
-使用者必須啟用企業語音，以設定並使用通話共用和群組呼叫代答。 有關授權模型的其他詳細資料，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
+使用者必須獲得 Microsoft Teams Phone System 授權，才能設定及使用通話共用和群組呼叫代答。 有關授權模型的其他詳細資料，請參閱以下說明您取得[手機系統功能。](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 ## <a name="configure-group-call-pickup"></a>設定群組通話代答
 
