@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d5c2ad8b737c8299eb04735d5df5dc2893c3568
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119152"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637855"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -164,7 +164,6 @@ ms.locfileid: "51119152"
 **這些國家/地區的資料位置 (支援)**
 
 - 澳洲
-- 巴西
 - 加拿大
 - 法國
 - 德國
@@ -178,6 +177,7 @@ ms.locfileid: "51119152"
 
 **不支援這些國家/地區和雲端**
 
+- 巴西
 - 挪威
 - 政府社群雲端 (GCC)-H
 - 美國國防部 (DOD)
