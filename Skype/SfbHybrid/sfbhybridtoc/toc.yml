@@ -24,10 +24,12 @@
       items:
         - name: 概觀
           href: ../hybrid/decommission-on-prem-overview.md
-        - name: 將使用者和端點移至雲端
+        - name: 將使用者移至雲端
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: 停用混合式以完成移轉至雲端
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: 將應用程式端點移至雲端
+          href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: 移除您的內部部署商務用 Skype 部署
           href: ../hybrid/decommission-remove-on-prem.md
     - name: 部署資源樹系拓撲
