@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式聯絡人中心服務概觀 (CCaaS) Microsoft Teams 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574122"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656749"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合
 
@@ -47,6 +47,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -56,7 +57,6 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -93,7 +93,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
   - 解決方案提供者使用 [<span class="underline">Microsoft 認證的會話邊界控制器 (SBC) </span>](./direct-routing-border-controllers.md) 
 
-### <a name="connect-and-extend"></a>連接和延伸
+### <a name="extend"></a>擴展
 
 此模型使用 Teams 用戶端平臺[、Microsoft Graph](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)中的 Teams Graph API 和雲端通訊[API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)與[Teams](/microsoftteams/platform/overview)用戶端整合，並使用 Teams 電話系統進行所有聯絡中心通話和通話控制體驗，以延伸聯絡中心人員和代理人的體驗。 在此模型中，聯絡中心解決方案提供者會和 Microsoft 365 一起做為電話電信業者。
 
@@ -121,7 +121,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
   - 在所有應用程式中保留 Teams 用戶端體驗的績效和品質  
 
-### <a name="extend-and-power"></a>延伸和電源
+### <a name="power"></a>權力
 
 此模型可讓解決方案提供者使用 Teams 通話基礎結構和用戶端平臺來建立原生 Azure 語音應用程式，為共同合作的客戶和代理人員連接提供現代化且智慧的解決方案。 延伸與 Power 的目標是激發開發人員的創造力，並提升客戶的生產力。
 

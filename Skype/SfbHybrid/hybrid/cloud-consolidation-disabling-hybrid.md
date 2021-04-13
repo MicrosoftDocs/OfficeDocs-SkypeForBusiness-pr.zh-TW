@@ -21,22 +21,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包含針對團隊和商務用 Skype 進行雲整合時停用混合式的詳細步驟。
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593851"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656699"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>停用混合式設定，以完成將遷移至雲端的工作
 
 本文說明如何在解除您的內部部署商務用 Skype 環境之前停用混合式設定。 這是下列步驟的步驟2，以解除委任您的內部部署環境：
 
-- 步驟 1. [將所有需要的使用者和應用程式端點從內部部署移至線上](decommission-move-on-prem-users.md)。
+- 步驟 1. [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。
 
 - **步驟2。停用您的混合式設定。**  (本文) 
 
-- 步驟 3. [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
+- 步驟 3. [將混合應用程式端點從內部部署移至線上](decommission-move-on-prem-endpoints.md)。
+
+- 步驟 4. [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
 
 ## <a name="overview"></a>概觀
@@ -243,11 +245,12 @@ ms.locfileid: "51593851"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. 在方法2中完成所有步驟後，請參閱 [移除您的內部部署商務用 Skype 伺服器](decommission-remove-on-prem.md) 以取得其他步驟，以移除您的商務用 skype 伺服器內部部署。
+12. 在方法2中完成所有步驟後，請參閱 [將混合應用程式端點從內部部署移至線上](decommission-move-on-prem-endpoints.md) ，並 [移除您的內部部署商務用 skype 伺服器](decommission-remove-on-prem.md) 以取得其他步驟，以移除您的商務用 skype 伺服器內部部署。
 
 
 ## <a name="see-also"></a>另請參閱
 
 - [小組和商務用 Skype 的雲端整合](cloud-consolidation.md)
 
-- [解除委任您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
+- [解除您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
+
