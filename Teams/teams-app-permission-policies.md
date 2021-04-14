@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aa11b21405079ab26bf1fa9572eb203560c4e461
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 73b583493a57141fef3c120fa2eb134cbaa8a500
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802493"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697738"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -40,19 +40,19 @@ ms.locfileid: "49802493"
 > [!NOTE]
 > 全組織應用程式設定會覆寫全域原則與您建立並指派給使用者的任何自訂原則。
 
-如果您的組織已採用 Teams，您在 Microsoft 365 系統管理中心的 [全租用戶設定 **]** 中所設定的應用程式設定，會反映在 [管理應用程式[]](manage-apps.md) 頁面的全組織設定。 如果您是 Teams 的新使用者，且是剛開始使用，依預設，會在全域原則中允許所有應用程式。 這包括由 Microsoft、第三方和您的組織所發佈的應用程式。
+如果您的組織已採用 Teams，您在 Microsoft 365 系統管理中心的 [全租用戶設定 **]** 中所設定的應用程式設定，會反映在 [管理應用程式 []](manage-apps.md) 頁面的全組織設定。 如果您是 Teams 的新使用者，且是剛開始使用，依預設，會在全域原則中允許所有應用程式。 這包括由 Microsoft、第三方和您的組織所發佈的應用程式。
 
 比方說，假設您想要針對組織中的人力資源小組，封鎖所有第三方應用程式並允許來自 Microsoft 的特定應用程式。 首先，您會移至 [管理應用程式[]](manage-apps.md) 頁面，並確認您想要針對人力資源小組允許的應用程式會於組織層級允許。 然後，建立名為「人力資源應用程式權限原則」的自訂原則，將它設定為封鎖並允許您需要的應用程式，然後將它指派給人力資源小組的使用者。
 
 > [!NOTE]
-> 如果您將 Teams 部署在 Microsoft 365 政府社群雲端 (GCC) 環境中，請參閱[管理 Microsoft 365 政府版的全組織設定](#manage-org-wide-app-settings-for-microsoft-365-government)，以深入了解 GCC 的獨特第三方應用程式設定。
+> 如果您在 Microsoft 365 政府社群雲端高 (GCCH) 和國防部 (DoD) 環境中部署 Teams，請參閱管理 [Microsoft 365](#manage-org-wide-app-settings-for-microsoft-365-government) 政府版全組織 App 設定，以深入瞭解 GCCH 和 DoD 特有的協力廠商應用程式設定。
 
 ## <a name="create-a-custom-app-permission-policy"></a>建立自訂應用程式權限原則
 
 如果您想要控制組織中不同使用者群組可用的應用程式，請建立並指派一或多個自訂應用程式權限原則。 您可以根據應用程式是否由 Microsoft、第三方或您的組織發佈，來建立並指派個別的自訂原則。 務必知道，建立自訂原則之後，如果已在全組織應用程式設定中停用第三方應用程式，就無法變更該自訂原則。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [Teams 應用程式 **]**  >  [權限原則 **]**。
-2. 按一下 [新增 **]**。 <br>
+2. 按一下 [新增 **]**。<br>
     ![新增應用程式權限原則的螢幕擷取畫面](media/app-permission-policies-new-policy.png)
 3. 輸入原則的名稱和描述。
 4. 在 [Microsoft 應用程式 **]**、[第三方應用程式 **]** 和 [自訂應用程式 **]** 下，選取下列其中一項：
@@ -86,11 +86,11 @@ ms.locfileid: "49802493"
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府版的全組織應用程式設定  
 
-在 Teams 的 Microsoft 365 政府版 - GCC 部署中，務必了解適用於 GCC 的第三方應用程式設定。
+在 Microsoft 365 政府版 - GCCH 和 Teams 的 DoD 部署中，瞭解協力廠商應用程式設定非常重要，這些設定是 GCCH 和 DoD 所特有的。
 
-在 GCC 中，所有第三方應用程式預設都會遭到封鎖。 此外，您會在 Microsoft Teams 系統管理中心的應用程式權限原則頁面上，看到以下關於管理第三方應用程式的說明。
+在 GCCH 和 DoD 中，所有協力廠商應用程式預設會封鎖。 此外，您會在 Microsoft Teams 系統管理中心的應用程式權限原則頁面上，看到以下關於管理第三方應用程式的說明。
 
-![GCC 中應用程式權限原則的螢幕擷取畫面](media/app-permission-policies-gcc.png)
+![GCCH 和 DoD 中的應用程式權限原則螢幕擷取畫面](media/app-permission-policies-gcc.png)
 
 使用全組織應用程式設定來控制使用者是否可以安裝第三方應用程式。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
 
@@ -100,10 +100,10 @@ ms.locfileid: "49802493"
     
 2. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：
 
-    - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在 Teams 的 Microsoft 365 政府版 - GCC 部署中，此設定預設為關閉。
+    - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在 Microsoft 365 政府 - GCCH 和 Teams DoD 部署中，此設定預設為關閉。
     - **預設允許發行到商店的任何新第三方應用程式**：這會控制發佈至 Teams 應用程式商店的新第三方應用程式是否會自動在 Teams 中提供使用。 您只能在允許第三方應用程式時設定此選項。
 
-3. 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在 Teams 的 Microsoft 365 政府版 - GCC 部署中，所有第三方應用程式預設會新增至此清單。 針對您想要在組織中允許的任何第三方應用程式，請從此封鎖的應用程式清單中移除該應用程式。 在全組織封鎖某個應用程式時，會自動為所有使用者封鎖該應用程式，而無論任何應用程式權限原則中是否允許該應用程式。
+3. 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在 Microsoft 365 政府版 - GCCH 和 Teams 的 DoD 部署中，所有協力廠商應用程式預設會新加到此清單。 針對您想要在組織中允許的任何第三方應用程式，請從此封鎖的應用程式清單中移除該應用程式。 在全組織封鎖某個應用程式時，會自動為所有使用者封鎖該應用程式，而無論任何應用程式權限原則中是否允許該應用程式。
 4. 按一下 [儲存 **]**，讓全組織應用程式設定生效。
 
 如稍早所提，若要允許第三方應用程式，您可以編輯並使用全域 (全組織預設值) 原則，或建立並指派自訂原則。

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397576"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697818"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 的資訊障礙
 
@@ -184,12 +184,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams 策略和 SharePoint 網站
 
-建立團隊時，SharePoint 網站會針對檔案體驗進行設定並與 Microsoft Teams 建立關聯。 根據預設，此 SharePoint 網站和檔案不會遵守IB 政策。 若要啟用IB 政策，系統管理員已經填寫表單，要求在 SharePoint 和 OneDrive 上啟用IB (請參閱資訊障礙中的 [先決條件) >[一節](/sharepoint/information-barriers#prerequisites)。 如果在 SharePoint 和 OneDrive 中開啟了 IB 政策，則當使用 Microsoft Teams 建立小組時，IBM 策略就會在 SharePoint 網站上使用。
-
-小組 **SharePoint** 網站上IB 政策範例：在 Contoso Bank Corporation 中，使用者的 Sesha@contosobank.onmicrosoft.com 屬於投資銀行區段，而使用者 'Nikita@contosobank.onmicrosoft.com' 屬於諮詢區段。 組織的IB 政策會阻止這兩個區段之間的通訊和共同合作。
-當使用者 Sesha 為 Investment Banking 區段建立團隊時，只有 Investment Banking 使用者才能使用支援該團隊的小組和 SharePoint 網站。 使用者 Nikita 即使擁有網站連結，也無法存取該網站。
-
-詳細資訊，請參閱在 [SharePoint 中使用資訊障礙](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
+建立團隊時，SharePoint 網站會針對檔案體驗進行設定並與 Microsoft Teams 建立關聯。 根據預設，此 SharePoint 網站和檔案上不會遵守資訊障礙政策。 若要在 SharePoint 和 OneDrive 中啟用資訊障礙，請遵循在 SharePoint 主題中使用資訊障礙 [中的指引和](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) 步驟。
 
 ## <a name="required-licenses-and-permissions"></a>必要的授權和許可權
 

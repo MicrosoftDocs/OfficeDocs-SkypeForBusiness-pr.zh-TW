@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: 疑難排解安裝和更新問題
                 href: troubleshoot-installation.md
-          - name: Teams 訓練
-            items:
-              - name: 概觀
-                href: training-microsoft-teams-landing-page.md
-              - name: Teams 的管理訓練
-                href: itadmin-readiness.md
-              - name: Ignite 2020 中的 Teams 工作階段
-                href: ignite-2020-landing-page.md
-              - name: Teams 即時訓練
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Teams 線上訓練
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Teams 訓練
+        items:
+          - name: 概觀
+            href: training-microsoft-teams-landing-page.md
+          - name: Teams 的管理訓練
+            href: itadmin-readiness.md
+          - name: Ignite 2020 中的 Teams 工作階段
+            href: ignite-2020-landing-page.md
+          - name: Teams 即時訓練
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Teams 線上訓練
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: 自商務用 Skype 升級
     items:
       - name: 快速入門
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: 在 Teams 中管理自訂應用程式原則和設定
             href: teams-custom-app-policies-and-settings.md
+          - name: 在 Teams 中自訂應用程式
+            href: customize-apps.md
   - name: 產業和政府指引
     items:
       - name: 概觀

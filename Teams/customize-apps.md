@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中自訂應用程式。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574152"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697788"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在 Microsoft Teams 中自訂應用程式
 
@@ -44,12 +44,14 @@ ms.locfileid: "51574152"
 
 請參閱 [Teams 清單架構](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) ，瞭解您可以自訂之欄位的詳細資訊。
 
+> [!注意：目前政府社群雲端 High (GCCH) 或美國 (DoD) 不支援自訂應用程式。
+
 ## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
 
 若要開始自訂應用程式，請完成下列步驟：
 
 1. 登入 Teams 系統管理中心。
-2. 展開 **Teams 應用程式** ，然後選取 **管理應用程式**。
+2. 展開 **Teams 應用程式，** 然後選取 **管理應用程式**。
 3. 檢查應用程式 **清單** 的可自訂欄，並按可自訂的應用程式排序。
 
    ![已排序的自訂欄](media/customize-column.png)
@@ -111,7 +113,7 @@ ms.locfileid: "51574152"
 > - 系統管理提供的自訂資料會儲存在最近的地區。
 > - 您負責確保使用條款或隱私權政策的連結有效。
 > - 如果應用程式發行者不再允許欄位可自訂，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更都會還原為原始值。
-> - 品牌變更最多可能需要 24 小時，使用者才能看到變更。
+> - 變更商標可能需要最多 24 小時，使用者才能看到變更。
 
 ## <a name="review-app-details"></a>查看應用程式詳細資料
 
@@ -135,7 +137,7 @@ ms.locfileid: "51574152"
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams 應用程式** ，然後選取 **管理應用程式**。
+2. 展開 **Teams 應用程式，** 然後選取 **管理應用程式**。
 
 3. 選取應用程式名稱。
 
@@ -155,7 +157,7 @@ ms.locfileid: "51574152"
 
 **自訂的應用程式會自動部署以取代租使用者中的目前自訂應用程式嗎？**
 
-否，租使用者系統管理員必須手動移除任何自訂應用程式，併發布自訂版本的應用程式。 如果您自訂應用程式並將其發佈為自訂應用程式，使用 App 自訂功能自訂的新應用程式無法取代目前的自訂應用程式。  
+否，租使用者系統管理員必須手動移除任何自訂應用程式，併發布自訂版本的應用程式。 如果您自訂應用程式並將其發佈為自訂應用程式，使用應用程式自訂功能自訂的新應用程式不會取代目前的自訂應用程式。  
 
 **應用程式使用方式報告也會顯示自訂的值 ，例如自訂的簡短名稱嗎？**
 

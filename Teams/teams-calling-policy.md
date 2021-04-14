@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162698"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51653937"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的通話政策
 ===================================
@@ -42,14 +42,14 @@ ms.locfileid: "51162698"
 2. 選取 [新增 **]**。
 3. 開啟或關閉您想要在通話政策中使用的功能。
 4. 若要控制使用者是否可以將輸入通話路由至語音信箱， **請選取** 啟用或 **使用者控制**。 若要防止路由至語音信箱，請選取 **已停用**。
-5. 選取 **儲存**。
+5. 選取 [儲存 **]**。
 
 ## <a name="edit-a-calling-policy"></a>編輯通話政策
 
 請遵循這些步驟來編輯現有的通話政策。
 
 1. 在 Microsoft Teams 系統管理中心的左側流覽中，選取 **語音**  >  **通話政策**。
-2. 按一下要修改之政策旁的 ，然後選取 [ **編輯**。
+2. 按一下您想要修改之政策旁邊的 ，然後選取 [ **編輯**。
 3. 進行您想要的變更，然後按一下 [ **儲存**。
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>指派自訂通話策略給使用者
@@ -68,7 +68,7 @@ ms.locfileid: "51162698"
 
 此設定可控制來電是否可以轉往其他使用者，或可以同時撥打給其他人。 
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>呼叫轉轉和同時撥打到外部電話號碼
+### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>呼叫轉譯和同時撥打到外部電話號碼
 
 此設定可控制來電是否可以轉往外部號碼，或是否可以同時撥打外部號碼。
 
@@ -76,13 +76,13 @@ ms.locfileid: "51162698"
 
 此設定可讓您將來電傳入語音信箱。 有效的選項為：
 
-- **已啟用** 語音信箱隨時可供輸入通話使用。
+- **已啟用** 語音信箱一直可用於輸入通話。
 - **已停用**  語音信箱不適用於來電。
 - **使用者控制** 使用者可以決定是否想要語音信箱可用。
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>可路由來電至通話群組 
 
-此設定會控制是否可以將來電轉往通話群組。
+此設定可控制是否可以將來電轉往通話群組。
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>允許委派傳入和外接通話
 
@@ -90,11 +90,11 @@ ms.locfileid: "51162698"
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止免付費，並透過 PSTN 傳送通話 
 
-將此選項設定為 **[開** 」 會透過 PSTN 傳送通話，並產生費用，而不是透過網路傳送電話並忽略付費。
+將此選項設定為 **[開** ） 會透過 PSTN 傳送通話，並產生費用，而不是透過網路傳送電話並忽略付費。
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>通話時可在忙碌中忙碌
+### <a name="busy-on-busy-is-available-while-in-a-call"></a>在通話時，可在忙碌中忙碌
 
-在忙碌 (忙碌選項) 是一個新的設定，可讓您設定當使用者已經在通話或會議或保留通話時如何處理來電。 新的或來電可能會以忙碌訊號拒絕。 您可以在租使用者層級或使用者層級啟用忙碌選項。 無論其忙碌選項的組組方式如何，通話或會議中的使用者或保留通話的使用者，都不得啟動新的通話或會議。 此設定預設為停用。
+在忙碌 (忙碌選項) 是一個新的設定，可讓您設定當使用者已經在通話或會議或保留通話時如何處理來電。 新的或來電可能會以忙碌訊號拒絕，也可以根據使用者的未接聽設定路由。 您可以在租使用者層級或使用者層級啟用忙碌選項。 無論其忙碌選項的組組方式如何，通話或會議中的使用者或保留通話的使用者，都不得啟動新的通話或會議。 此設定預設為停用。
 
 ### <a name="allow-web-pstn-calling"></a>允許 Web PSTN 通話
 
@@ -102,7 +102,7 @@ ms.locfileid: "51162698"
 
 ### <a name="allow-music-on-hold"></a>允許等候音樂
 
-這項設定可讓您在 PSTN 來電者處於保留狀態時開啟或關閉等候音樂。 預設為開啟。 此設定不適用於通話駐場和老闆代理人功能，目前僅能透過 PowerShell 使用。
+這項設定可讓您在 PSTN 來電者處於保留狀態時開啟或關閉等候音樂。 它預設為開啟。 此設定不適用於通話駐場和老闆代理人功能，目前僅能透過 PowerShell 使用。
 
 ## <a name="related-topics"></a>相關主題
 

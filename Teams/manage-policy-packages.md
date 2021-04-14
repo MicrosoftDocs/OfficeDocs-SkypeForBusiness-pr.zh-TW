@@ -20,18 +20,18 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中使用及管理原則套件，以簡化、簡化及協助在管理使用者群組之策略時提供一致性。
-ms.openlocfilehash: 1b7e6e5c6311ebd51b0f00b86953291ed4ac63b3
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 1173f5a626d6ea559dadd75149a0517f515d821b
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51634234"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51699327"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>在 Microsoft Teams 中管理原則套件
 
-Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的集合，您可以將之指派給組織中具有類似角色的使用者。 我們已建立策略套件，以簡化、簡化及協助在管理貴組織使用者群組之策略時提供一致性。  
+Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的集合，您可以將之指派給組織中具有類似角色的使用者。 我們建立了策略套件，以簡化、簡化，並有助於在管理貴組織使用者群組時提供一致性。  
 
-您可以使用 Teams[中包含的政策](#policy-packages-included-in-teams)套件，或在[](#custom-policy-packages)私人預覽版中 (自訂) 。
+您可以使用 Teams [中包含的策略](#policy-packages-included-in-teams) 套件， [或建立您自己的自訂策略套件](#custom-policy-packages)。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="系統管理中心中策略套件頁面的螢幕擷取畫面":::
 
@@ -59,7 +59,7 @@ Teams 目前包含下列策略套件。
 |教育 (中學生)    |建立套用至主要學生的一組原則與原則設定。|
 |教育 (中學生)     |建立套用至中學生的一組原則與原則設定。         |
 |教育 (教師)     |建立套用至教師的一組原則與原則設定。      |
-|使用 (遠端學習工具的小學教師)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
+|使用 (遠端學習的教師)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |使用 (遠端學習的中學生)     |建立適用於學生的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。 |
 |前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線員工。 |
@@ -68,7 +68,7 @@ Teams 目前包含下列策略套件。
 |醫療保健病房  |建立一組原則與原則設定，適用於貴醫療保健組織的病房。|
 |中小企業使用者 (商務語音)  |建立包含商務語音體驗應用程式的應用程式設定策略。|
 |中小企業使用者無需商務 (語音)  |建立適用于中小型企業的應用程式設定策略 Teams 使用者 (商務語音體驗) 。
-|公共安全專員   |建立一組套套用至貴組織的公安人員之原則與原則設定。|
+|公共安全專員   |建立一組套套用至貴組織的公開安全人員之原則與原則設定。|
 
 > [!NOTE]
 > 我們會在未來 Teams 版本中新增更多策略套件，因此請回來查看最新資訊。  
@@ -82,7 +82,7 @@ Teams 目前包含下列策略套件。
 
 **政府社群雲端和 GCC 系統尚未提供自訂 (套件)**
 
-自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增所需的策略類型與策略，以建立您自己的策略套件。
+自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增您所需的策略類型與策略，以建立您自己的策略套件。
 
 若要建立新的自訂策略套件：
 
@@ -104,7 +104,7 @@ Teams 目前包含下列策略套件。
 
 ![如何使用策略套件概觀](media/manage-policy-packages-overview.png)
 
-- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)**：在策略套件中查看策略。 接著，在指派套件之前，先查看套件中每個策略的設定。 請確定您瞭解每個設定。 根據貴組織的需求，決定預先定義的值是否適合貴組織，或是否需要將它們變更為較嚴格或寬鬆。
+- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)**：在策略套件中查看策略。 接著，在指派套件之前，先查看套件中每個策略的設定。 請確定您瞭解每個設定。 決定預先定義的值是否適合貴組織，或您是否需要根據貴組織的需求，將它們變更為較嚴格或寬鬆。
 
     如果刪除一個策略，您仍然可以查看設定，但無法變更任何設定。 當您指派策略套件時，會使用預先定義的設定重新建立已刪除的策略。
 
@@ -119,7 +119,7 @@ Teams 目前包含下列策略套件。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>在策略套件中查看策略設定
 
-1. 在 Microsoft Teams 系統管理中心的左側導航中，選取策略套件，然後按一下套件名稱左側以選取策略套件。
+1. 在 Microsoft Teams 系統管理中心的左側流覽中，選取策略套件，然後按一下套件名稱左側以選取策略套件。
 
 2. 按一下您想要查看的政策。
 
@@ -137,7 +137,7 @@ Teams 目前包含下列策略套件。
 
 ### <a name="assign-a-policy-package"></a>指派策略套件
 
-您可以將策略套件指派給個別使用者、群組或一批使用者。 若要瞭解如何指派策略套件，請參閱指派策略 [套件給使用者和群組](assign-policy-packages.md)。
+您可以將策略套件指派給個別使用者、群組或一批使用者。 若要瞭解如何指派策略套件，請參閱指派策略套件[給使用者和群組。](assign-policy-packages.md)
 
 ## <a name="related-topics"></a>相關主題
 
