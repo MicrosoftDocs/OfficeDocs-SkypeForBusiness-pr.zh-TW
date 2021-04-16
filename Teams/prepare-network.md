@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: 瞭解如何為 Microsoft Teams 準備貴組織的網路，包括網路需求、網路優化和頻寬需求。
-localization_priority: Normal
+description: 了解如何針對 Microsoft Teams 準備組織的網路，包括網路需求、網路最佳化和頻寬需求。
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,151 +19,151 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 1c84a753146899011fa34be56e0746cc0c600b31
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117751"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768382"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
 ## <a name="network-requirements"></a>網路需求
 
-如果您已經針對 [Microsoft 365 或 Office 365](/Office365/Enterprise/assessing-network-connectivity)優化您的網路，您可能已準備好使用 Microsoft Teams。 在任何情況下 ，尤其是當您將 Teams 快速推出為第一個 Microsoft 365 或 Office 365工作負載以支援遠端員工時，在開始推出 Teams 之前，請檢查下列事項：
+如果您已[針對 Microsoft 365 或 Office 365 最佳化您的網路](/Office365/Enterprise/assessing-network-connectivity)，則可能已準備好使用 Microsoft Teams。 在任何情況下，尤其是如果您要快速推出 Teams 做為第一個 Microsoft 365 或 Office 365 工作負載以支援 **遠端工作者** - 請在開始推出 Teams 之前，檢查下列項目：
 
-1.  您的所有位置是否都有網際網路 (，以便他們連接到 Microsoft 365 或 Office 365) ？ 除了一般 Web 流量之外，請至少針對 Teams 中的媒體，針對所有位置開啟下列專案：
+1.  您的所有位置是否都有網際網路存取權 (以便它們可以連線到 Microsoft 365 或 Office 365)？ 除了一般網路流量之外，請確定您至少已針對 Teams 中的媒體，對所有位置開放下列項目：
 
     |  |  |
     |---------|---------|
-    |港口     |UDP 埠 <strong>3478</strong> 到 <strong>3481</strong>        |
-    |[IP 位址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18、52.112.0.0/14</strong>和<strong>52.120.0.0/14</strong> <strong></strong>         |
+    |連接埠     |UDP 連接埠 <strong>3478</strong> 到 <strong>3481</strong>        |
+    |[IP 位址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、<strong>52.112.0.0/14</strong> 和 <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > 如果您需要與商務用 Skype 進行內部部署或線上聯合，則需要設定一些額外的 DNS 記錄。
+    > 如果需要與商務用 Skype (內部部署或線上) 進行同盟，您必須設定一些額外的 DNS 記錄。
     >
-    >|CNAME 記錄 / 主機名稱  |Ttl  |指向位址或值  |
+    >|CNAME 記錄/主機名稱  |TTL  |指向位址或值  |
     >|---------|---------|---------|
-    >|Sip     |    3600     |    sipdir.online.lync.com     |
+    >|sip     |    3600     |    sipdir.online.lync.com     |
     >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
-2.  您是否有 Microsoft 365 或 Office 365 (驗證網域，例如 contoso.com) ？
+2.  您是否有 Microsoft 365 或 Office 365 的經驗證網域 (例如，contoso.com)？
     
-    - 如果貴組織尚未推出 Microsoft 365 或 Office 365，請參閱 [開始使用](/microsoft-365/admin/admin-overview/get-started-with-office-365)。
-    - 如果貴組織尚未新增或已針對 Microsoft 365 或 Office 365 新增或已驗證網域，請參閱 [網域常見問題](/microsoft-365/admin/setup/domains-faq)。
+    - 如果您的組織尚未推出 Microsoft 365 或 Office 365，請參閱[開始使用](/microsoft-365/admin/admin-overview/get-started-with-office-365)。
+    - 如果您的組織尚未為 Microsoft 365 或 Office 365 新增或設定經驗證的網域，請參閱[網域常見問題集](/microsoft-365/admin/setup/domains-faq)。
 
-3.  您的組織是否部署 Exchange Online 和 SharePoint Online？
+3.  您的組織是否已部署 Exchange Online 和 SharePoint Online？
     
-    - 如果貴組織沒有 Exchange Online，請參閱瞭解 Exchange 與 [Microsoft Teams 的互動方式](exchange-teams-interact.md)。
-    - 如果貴組織沒有 SharePoint Online，請參閱瞭解 [SharePoint Online](sharepoint-onedrive-interact.md)和商務用 OneDrive 如何與 Microsoft Teams 互動。
+    - 如果您的組織沒有 Exchange Online，請參閱[了解 Exchange 和 Microsoft Teams 如何互動](exchange-teams-interact.md)。
+    - 如果您的組織沒有 SharePoint Online，請參閱[了解 SharePoint Online 和商務用 OneDrive 如何與 Microsoft Teams 互動](sharepoint-onedrive-interact.md)。
 
-確認您符合這些網路需求之後，就可以開始 [推出 Teams 了](./deploy-overview.md)。 如果您是大型跨國企業，或如果您知道自己有一些網路限制，請繼續閱讀以瞭解如何評估及優化 Teams 的網路。
+一旦確認您符合這些網路需求，就可以開始[推出 Teams](./deploy-overview.md)。 如果您是大型的多國企業，或如果您知道有一些網路限制，請繼續閱讀以了解如何評估及最佳化 Teams 的網路。
 
 > [!IMPORTANT]
-> **適用于教育機構**：如果貴組織是教育機構，而且您使用學生資訊系統 (SIS) ，請部署學校資料同步處理，[](/schooldatasync/)然後再推出 Teams。
+> **適用於教育機構**：如果您的組織是教育機構，且您使用學生資訊系統 (SIS)，請在推出 Teams 之前[部署學校資料同步處理](/schooldatasync/)。
 >  
-> **執行內部部署商務用 Skype Server：** 如果貴組織執行的是內部部署商務用 Skype Server (或 Lync Server) ，您必須設定 [Azure AD Connect，](/skypeforbusiness/hybrid/configure-azure-ad-connect) 以同步處理您的內部部署目錄與 Microsoft 365 或 Office 365。
+> **執行內部部署商務用 Skype Server**：如果您的組織執行的是內部部署商務用 Skype Server (或 Lync Server)，您必須[設定 Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect)，以與 Microsoft 365 或 Office 365 同步處理您的內部部署目錄。
 
-### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監控您的網路 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監視您的網路 
 
-使用 [CQD (儀表板 ](turning-on-and-using-call-quality-dashboard.md)) 以深入瞭解 Teams 中的通話和會議品質。 CQD 可密切注意品質、可靠性及使用者體驗，協助優化您的網路。 CQD 會查看整個組織的匯總遙測，其中整體模式可能會變得明顯，這可讓您找出問題並規劃補救。 此外，CQD 還提供豐富的度量報表，可提供整體品質、可靠性及使用者體驗的深入見解。 
+使用[通話品質儀表板 (CQD)](turning-on-and-using-call-quality-dashboard.md) 以深入了解 Teams 中的通話和會議品質。 CQD 會透過持續注意品質、可靠性和使用者體驗，協助您最佳化您的網路。 CQD 會查看整個組織整體模式可能變得明顯處的彙總遙測，這可讓您識別問題並規劃補救。 此外，CQD 會提供豐富的計量報告，其提供整體品質、可靠性和使用者體驗的深入見解。 
 
-您將使用通話 [分析](set-up-call-analytics.md) 來調查個別使用者的通話和會議問題。
+您將使用[通話分析](set-up-call-analytics.md)來調查個別使用者的通話和會議問題。
 
-## <a name="network-optimization"></a>網路優化
+## <a name="network-optimization"></a>網路​​最佳化
 
-下列工作是選擇性的，且不需要用於推出 Teams，尤其是如果您是小型企業，而且已經推出 Microsoft 365 或 Office 365 時。 請使用本指南來優化您的網路和 Teams 績效，或者如果您知道自己有一些網路限制。
+下列工作是選用的，且並非推出 Teams 時的必要項目，特別是如果您是小型企業，而且已經推出 Microsoft 365 或 Office 365。 使用此指引來最佳化您的網路和 Teams 的效能，或如果您知道您有一些網路限制，也請參考此指引。
 
-如果：
+您可能會想要執行其他網路最佳化，前提是：
 
-  - 團隊執行速度緩慢 (可能您沒有足夠的頻寬) 
-  - 通話持續 (可能是防火牆或 Proxy 封鎖) 
-  - 通話具有靜態和中斷，或語音聽起來像機器人 (可能會抖動或封包遺失) 
+  - Teams 執行速度緩慢 (可能是您的頻寬不足)
+  - 通話持續斷線 (可能是防火牆或 Proxy 封鎖程式所導致)
+  - 通話有停滯和中斷，或聲音聽起來像機器人 (可能是抖動或封包遺失)
 
-請參閱 Microsoft [365 和 Office 365](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)網路連接原則，以深入瞭解網路優化，包括識別及修正網路障礙的指南。
+如需網路最佳化的深入討論，包括識別和修正網路減損的指引，請參閱 [Microsoft 365 和 Office 365 網路連線原則](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)。
 
 <table>
 <thead>
 <tr class="header">
-<th><strong>網路優化工作</strong></th>
+<th><strong>網路​​最佳化工作</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>網路規劃中心</td>
-<td><p>如要協助評估您的網路，包括整個組織實體位置的頻寬計算和網路需求，請查看 Teams 系統管理中心的網路規劃<a href="/microsoftteams/network-planner"></a><a href="https://admin.teams.microsoft.com">工具</a>。 當您提供您的網路詳細資料及 Teams 使用方式時，網路規劃工具會計算您在整個組織實體位置部署 Teams 和雲端語音的網路需求。</p>
-<p>針對範例案例，請參閱 <a href="/microsoftteams/tutorial-network-planner-example">使用網路規劃工具 - 範例案例</a>。</p></td>
+<td><p>如需評估您的網路 (包括組織實體位置的頻寬計算和網路需求) 的協助，請查看 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心</a>中的<a href="/microsoftteams/network-planner">網路規劃中心</a>工具。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。</p>
+<p>如需範例案例，請參閱<a href="/microsoftteams/tutorial-network-planner-example">網路規劃中心 - 範例案例</a>。</p></td>
 </tr>
 <tr class="even">
-<td>Teams 顧問</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">Teams 的顧問</a> 是 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心的一部分</a>。 在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。</td>
+<td>適用於 Teams 的建議程式</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">適用於 Teams 的建議程式</a>是 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心</a>的一部分。 在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。</td>
 </tr>
 <tr class="odd">
 <td>外部名稱解析</td>
-<td>請確定執行 Teams 用戶端的所有電腦都可以解決外部 DNS 查詢，以探索 Microsoft 365 或 Office 365 所提供的服務，而且您的防火牆並未阻止存取。 若要瞭解防火牆埠的組組資訊，請前往 <a href="/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365 和 Office 365 URL 和 IP 範圍</a>。</td>
+<td>請確定執行 Teams 用戶端的所有電腦都可以解析外部 DNS 查詢，以探索 Microsoft 365 或 Office 365 提供的服務，而且您的防火牆不會阻止存取。 如需設定防火牆連接埠的詳細資訊，請前往 <a href="/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365 和 Office 365 與 IP 範圍</a>。</td>
 </tr>
 <tr class="odd">
-<td>維持會話持續性</td>
-<td>請確定防火牆不會變更對應網路位址翻譯 (UDP) 位址或埠。</td>
+<td>維護工作階段持續性</td>
+<td>請確定您的防火牆不會變更對應的網路位址轉譯 (NAT) 位址或 UDP 的連接埠。</td>
 </tr><tr class="odd">
-<td>驗證 NAT 資料庫大小</td>
-<td>驗證網路位址翻譯 (NAT) 使用者連接所需的資料庫大小。 當多個使用者和裝置使用網路位址翻譯 (NAT) 或埠位址翻譯 <a href="/office365/enterprise/nat-support-with-office-365"> (PAT) </a>存取 Microsoft 365 或 Office 365 時，您必須確保隱藏在每個公開可路由 IP 位址後面的裝置不會超過支援的數量。 確保將適當的公用 IP 位址指派給 NAT 資料庫，以防止埠用盡。 埠用盡會導致內部使用者和裝置無法連接到 Microsoft 365 或 Office 365 服務。</td>
+<td>驗證 NAT 集區大小</td>
+<td>驗證使用者連線所需的網路位址轉譯 (NAT) 集區大小。 多個使用者和裝置使用<a href="/office365/enterprise/nat-support-with-office-365">網路位址轉譯 (NAT) 或連接埠位址轉譯 (PAT)</a> 存取 Microsoft 365 或 Office 365 時，您必須確保隱藏於每個可路由 IP 位址後方的裝置不超過支援的數量。 確保將充足的公用 IP 位址指派到 NAT 集區，以防止連接埠耗盡。 連接埠耗盡會導致內部使用者和裝置無法連線到 Microsoft 365 或 Office 365 服務。</td>
 </tr>
 <tr class="even">
 <td>路由至 Microsoft 資料中心</td>
-<td><a href="/office365/enterprise/client-connectivity">以最有效率的方式路由至 Microsoft 資料中心</a>。 找出可使用當地或地區出口點盡可能有效率地連接到 Microsoft 網路的位置。</td>
+<td><a href="/office365/enterprise/client-connectivity">對 Microsoft 資料中心實作最有效率的路由</a>。 盡可能有效率地識別可使用本機或區域出口點來連線至 Microsoft 網路的位置。</td>
 </tr>
 <tr class="odd">
-<td>入侵偵測與防護指南</td>
-<td>如果您的環境已部署入侵<a href="/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools"></a>偵測或防護系統 (IDS/IPS) ，為出站連接部署額外一層安全性，請務必允許所有 Microsoft 365 或 Office 365 URL。</td>
+<td>入侵偵測與預防指引</td>
+<td>如果您的環境已部署<a href="/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">入侵偵測</a>或預防系統 (IDS/IPS)，以針對輸出連線獲得額外一層的安全性，請務必允許所有 Microsoft 365 或 Office 365 URL。</td>
 </tr>
 <tr class="even">
-<td>設定分割線 VPN</td>
-<td><p>我們建議您為 Teams 流量提供替代路徑，以避開虛擬私人網路絡或 VPN (VPN) 通常稱為<a href="/windows/security/identity-protection/vpn/vpn-routing">分割式 VPN。</a> 分割管道表示 Microsoft 365 或 Office 365 的流量不會經過 VPN，而是直接進入 Microsoft 365 或 Office 365。 忽略您的 VPN 將會對 Teams 品質產生正面影響，而且會減少 VPN 裝置和組織網路的負載。 若要執行分割式 VPN，請與 VPN 廠商合作。</p>
-<p>建議忽略 VPN 的其他原因：
+<td>設定分割通道 VPN</td>
+<td><p>建議您為會略過虛擬私人網路 (VPN) 的 Teams 流量提供替代路徑，通常稱為<a href="/windows/security/identity-protection/vpn/vpn-routing">分割通道 VPN</a>。 分割通道表示 Microsoft 365 或 Office 365 的流量不會通過 VPN，而是直接進入 Microsoft 365 或 Office 365。 略過 VPN 會對 Teams 品質產生正面影響，並減少來自 VPN 裝置和組織網路的負載。 若要實作分割通道 VPN，請與 VPN 廠商合作。</p>
+<p>我們建議略過 VPN 的其他原因：
 <ul>
-<li><p>VPN 通常未設計或配置為支援即時媒體。</p></li> 
-<li><p>某些 VPN 可能也不支援 Teams (所需的 UDP) 。</p></li> 
+<li><p>VPN 通常不會設計或設定為支援即時媒體。</p></li> 
+<li><p>某些 VPN 可能也不支援 UDP (這是 Teams 所需)。</p></li> 
 <li><p>VPN 也會在已加密的媒體流量上引入額外的加密層。</p></li> 
-<li><p>透過 VPN 裝置將流量釘在一起，因此與 Teams 的連接可能沒有效率。</p></li></td>
+<li><p>由於透過 VPN 裝置切換流量，與 Teams 的連線可能會沒有效率。</p></li></td>
 </tr>
 <tr class="odd">
-<td>實現 QoS</td>
-<td><a href="/microsoftteams/qos-in-teams">使用 QoS (服務品質) </a> 設定封包優先順序。 這將改善 Teams 中的通話品質，並説明您監控和疑難排解通話品質。 QoS 應在受管理網路的所有區段上執行。 即使網路已充分配置頻寬，QoS 在發生非意外的網路事件時，也能夠降低風險。 使用 QoS 時，語音流量會優先處理，這樣這些非意外的事件不會對品質造成負面影響。</td>
+<td>實作 QoS</td>
+<td><a href="/microsoftteams/qos-in-teams">使用服務品質 (QoS)</a> 來設定封包優先順序。 這將改善 Teams 中的通話品質，並協助您監控和疑難排解通話品質。 QoS 應該在受管理網路的所有區段上實作。 即使在網路已佈建足夠頻寬時，在發生未預期的網路事件時，QoS 也可提供風險緩解。 使用 QoS 時，會優先處理語音流量，使得這些非預期的事件不會對品質造成負面影響。</td>
 </tr>
 <tr class="even">
-<td>優化 WiFi</td>
-<td><p>與 VPN 類似，WiFi 網路不一定要經過設計或配置，以支援即時媒體。 規劃或優化支援 Teams 的 WiFi 網路是高品質部署的重要考慮。 請考慮以下因素：</p>
+<td>最佳化 WiFi</td>
+<td><p>類似於 VPN，WiFi 網路不一定需要設計或設定為支援即時媒體。 規劃或最佳化 WiFi 網路以支援 Teams，是實現高品質部署的重要考慮事項。 考慮下列因素：</p>
 <ul>
-<li><p>在 WMM 中 (QoS 或 WiFi 多媒體) ，以確保媒體流量在 WiFi 網路上獲得適當的優先順序。</p></li>
-<li><p>規劃並優化 WiFi 頻帶和存取點位置。 2.4 GHz 範圍可能會根據訪問點位置提供適當的體驗，但訪問點通常會受到該範圍內運作的其他消費者裝置影響。 5 GHz 範圍較適合即時媒體，因為範圍較廣，但需要更多存取點才能獲得足夠的覆蓋。 端點也需要支援該範圍，並據此進行配置以運用這些頻帶。</p></li>
-<li><p>如果您使用的是雙頻 WiFi 網路，請考慮使用帶式轉向。 <em>頻帶轉向</em> 是 WiFi 廠商所執行的一項技術，可影響雙頻用戶端使用 5 GHz 範圍。</p></li>
-<li><p>當同一個通道的存取點太接近時，可能會導致訊號重迭，以及不小心相互競爭，給使用者造成不良的體驗。 請確保彼此旁邊的訪問點位於不重迭的頻道上。</p></li>
+<li><p>實作 QoS 或 WiFi 多媒體 (WMM) 以確保透過 WiFi 網路的媒體流量有適當的優先順序。</p></li>
+<li><p>規劃和最佳化 WiFi 頻帶與存取點放置方式。 根據存取點放置方式，2.4 GHz 範圍可能會提供足夠的體驗，但存取點往往會受到該範圍中運作的其他消費者裝置影響。 5 GHz 範圍因其密度範圍較適合即時媒體，但需要更多存取點以取得足夠的覆蓋範圍。 端點也需要支援該範圍並經過設定，才能據以運用這些頻帶。</p></li>
+<li><p>如果您使用的是雙頻 WiFi 網路，請考慮實作頻帶操縱。 <em>頻帶操縱</em>是 WiFi 廠商所實作的技術，可影響雙頻用戶端以使用 5 GHz 範圍。</p></li>
+<li><p>當相同頻道的存取點太接近時，可能會導致信號重疊且無意間的競爭，導致使用者體驗不佳。 確保頻道上相鄰的存取點沒有重疊。</p></li>
 </ul>
-<p>每個無線廠商都有自己的無線解決方案部署建議。 請查閱您的 WiFi 廠商以尋求特定指引。</p></td>
+<p>每個無線廠商都有其部署無線解決方案的建議。 請洽詢您的 WiFi 廠商以了解特定指引。</p></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="bandwidth-requirements"></a>頻寬需求
 
-無論您的網路條件如何，Teams 都能提供最佳的音訊、視像和內容共用體驗。 也就是說，當頻寬不足時，Teams 會優先處理音訊品質與視音訊品質。
+無論您的網路狀況如何，Teams 的設計都可提供最佳的音訊、視訊和內容共用體驗。 也就是說，當頻寬不足時，Teams 會優先處理音訊品質，之後才是視訊品質。
 
-在頻寬沒有限制的地方，Teams 會優化媒體質量，包括高達 1080p 影片解析度、最多 30fps 視音訊和 15fps 內容，以及高逼真度音訊。 
+在頻寬 *未* 受限的情況下，Teams 會最佳化媒體品質，包括最高 1080p 的視訊解析度、最高 30fps 的視訊和 15fps 的內容，以及高逼真度音訊。 
 
 [!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
 
 
 ## <a name="related-topics"></a>相關主題
 
-[Microsoft 365 和 Office 365 網路連接原則](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
+[Microsoft 365 和 Office 365 網路連線原則](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
 [全球端點：商務用 Skype Online 和 Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 
 [Teams 的 Proxy 伺服器](proxy-servers-for-skype-for-business-online.md)
 
-[Teams 中的媒體：為什麼會議簡單](https://aka.ms/teams-media)
+[Teams 中的媒體：為什麼會議很簡單](https://aka.ms/teams-media)
 
 [Teams 中的媒體：深入探討媒體流程](https://aka.ms/teams-media-flows)
 
