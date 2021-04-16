@@ -18,12 +18,12 @@ description: 瞭解如何設定 Microsoft 通話方案與電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2531add2b43b7061b81a23676c54fbc557929c0f
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122327"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858006"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -51,7 +51,7 @@ Teams 用戶端包含位置資料做為緊急通話的一部分。 然後，緊�
 
 3. 當 Teams 用戶端撥打緊急電話時，緊急位置會傳送至 PSTN 網路。
 
-   對於直接路由，系統管理員必須設定 SBC 以將緊急電話傳送給 ERS 提供者，或設定 SBC ELIN 應用程式。
+   對於直接路由，系統管理員必須將 SBC 設定為傳送緊急電話給 ERS 提供者，或設定 SBC ELIN 應用程式。
 
 本文包含下列各節。
 
@@ -91,7 +91,7 @@ PSAP (PSAP) 自動路由的能力會因 Teams 使用者的使用國家/地區而
 
 您可以將緊急位址指派給通話方案使用者，以及動態取得位置所需的網路識別碼。  (子網和 WiFi AP 支援。 Windows 8.1 及更新版本目前支援乙太網路交換/埠) 。
 
-若要支援在美國境內自動路由緊急電話，您必須確保指派給網路識別碼的緊急位置包含相關聯的地理代碼。  (沒有地理代碼的緊急位址無法指派給動態位置所需的網路識別碼。) 
+若要支援美國境內緊急電話的自動路由，您必須確保指派給網路識別碼的緊急位置包含相關聯的地理代碼。  (沒有地理代碼的緊急位址無法指派給動態位置所需的網路識別碼。) 
 
 Azure 地圖用於位置型服務。  當您使用 Microsoft Teams 系統管理中心輸入緊急位址時，Teams 會檢查 Azure 地圖的位址：
 
@@ -114,7 +114,7 @@ Azure 地圖用於位置型服務。  當您使用 Microsoft Teams 系統管理�
 
 請記住下列定義。 詳細資訊，請參閱 [雲端語音功能的網路設定](cloud-voice-network-settings.md)。
 
-- 信任的 IP 位址包含商業網路的網際網路外部 IP 位址集合，並用來判斷使用者的端點是否位於公司網路內。 只有在使用者的外部 IP 位址符合信任的 IP 位址中的 IP 位址時，才能嘗試取得動態策略或位置。 您可以根據 IPv4 或 IPv6 IP 位址進行比對，並視要送至網路設定之 IP 封包的格式而定。   (如果公用 IP 位址同時有 IPv4 和 IPv6，您必須同時將兩者新增為信任的 IP 位址。) 
+- 信任的 IP 位址包含商業網路的網際網路外部 IP 位址集合，並用來判斷使用者的端點是否位於公司網路內。 只有在使用者的外部 IP 位址符合信任的 IP 位址中的 IP 位址時，才能嘗試取得動態策略或位置。 您可以根據 IPv4 或 IPv6 IP 位址進行比對，並視要送往網路設定之 IP 封包的格式而定。   (如果公用 IP 位址同時有 IPv4 和 IPv6，您必須同時將兩者新增為信任的 IP 位址。) 
 
 - 網路區域包含網路網站的集合。 
 
@@ -157,7 +157,7 @@ Teams 用戶端會從與不同網路識別碼相關聯的位置取得緊急位�
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-使用下列 Cmdlet 將埠、開關、子網和 WAP 新加到 LIS。
+使用下列 Cmdlet 在 LIS 中新增埠、切換、子網和 WAP。
 
 - [取得](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [設定](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [移除](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
 - [取得](/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [設定](/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [移除](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
@@ -186,7 +186,7 @@ Teams 用戶端會從與不同網路識別碼相關聯的位置取得緊急位�
 
 以下是一些 PowerShell 範例。
 
-若要啟用特定使用者的安全性電話台通知，請使用下列命令：
+若要啟用特定使用者的安全性桌面通知，請使用下列命令：
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
@@ -226,9 +226,9 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 | 雲 | 可用 性 |
 | :------------|:-------|
-| 全球多重租使用者 | 完全可用 |
-| Gcc | 可在 Teams IP 電話以外的所有用戶端使用 |
-| GCCH | 等待 |
+| 全球多重租使用者 | 可在所有 Teams 用戶端上使用 |
+| Gcc | 可在所有 Teams 用戶端上使用 |
+| GCCH | 可在 Teams 桌上出版上使用 |
 | 國防部 | 等待 |
 
  ## <a name="related-topics"></a>相關主題

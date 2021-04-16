@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft Teams 會議室管理服務。
 f1keywords: ''
-ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768432"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858016"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 會議室管理服務
 
@@ -40,7 +40,7 @@ Microsoft Teams 會議室管理服務建立在 Microsoft 具備軟體功能的�
 |---------|---------|
 |**會議室規劃與推出**   |會議室規劃功能，讓您瞭解會議室設備庫存，並針對新會議室部署的設備標準做出決策。         |
 |**監控和疑難排解**  |會議室健康情況監控可偵測會議室系統及周邊設備的問題，並提供由 Microsoft 所導向的主動式事件管理回應。         |
-|**更新管理**    |Microsoft 針對會議室系統及其周邊設備執行的應用程式與固件更新管理和傳遞。         |
+|**更新管理**    |Microsoft 針對會議室系統及其周邊設備執行的應用程式與固件更新的管理與傳遞。         |
 |**深入見解與建議**     |深入瞭解客戶健康情況、使用方式、使用方式及設備可靠性。         |
 |**合規性與認證**   |符合 Microsoft Online Services 的所有適用標準。         |
 |**客戶支援**   |透過專屬 Microsoft Teams 會議室管理服務營運中心與 SOC (提供 24x7x365 票證支援) 。 如果適用，代表您向其他主要廠商升級。 若要深入瞭解，請參閱 [客戶支援](#customer-support)。|
@@ -55,18 +55,18 @@ Microsoft Teams 會議室管理服務建立在 Microsoft 具備軟體功能的�
 |功能  |描述  |
 |---------|---------|
 |**庫存管理**   |使用大量匯出選項追蹤會議室庫存，其中列出會議室裝置、周邊裝置、製造和模型。         |
-|**會議室註冊**   |使用會議室裝置自行註冊 Microsoft Teams Room 管理服務，輕鬆上機。          |
-|**會議室管理**     |客戶入口網站，提供受管理的服務功能、深入見解、系統管理設定，以及會議室群組管理。         |
+|**會議室註冊**   |使用會議室裝置自我註冊至 Microsoft Teams Room 管理服務，輕鬆上機。          |
+|**會議室管理**     |客戶入口網站，提供受管理的服務功能、深入資訊、系統管理設定，以及會議室群組管理。         |
 |**監視**    |應用程式、作業系統、周邊和固件健康情況監控。 針對因周邊健康情況等問題而影響會議體驗的問題，自動偵測事件。 透過 Microsoft Teams Room 管理的服務入口網站，瞭解整個會議室不動產和事件的健康情況概觀。|
 |**疑難排解和補救**     |自動診斷和自動修復功能 ，如適用。 針對非自動化案例，Microsoft Teams 會議室管理的服務 SOC 輔助事件補救。 事件協調的現在服務整合。         |
-|**更新管理**   |根據客戶可配置的部署圈自動會議應用程式和固件更新編排         |
+|**更新管理**   |根據客戶可配置的部署環，自動會議應用程式和固件更新編排         |
 |**深入見解與建議**   |使用方式、事件、健康情況及整體報告 (歷史)          |
 
 ## <a name="service-prerequisites"></a>服務先決條件
 
 若要讓 Microsoft Teams 會議室管理服務維持服務品質，註冊的會議室必須是 [Microsoft Teams 會議室](requirements.md#hardware-requirements)支援的裝置，而且您必須使用會議室裝置完全允許且可取得之所有 [所需的 Office 365](/office365/enterprise/urls-and-ip-address-ranges) URL 和 IP 位址範圍來準備您的環境。 若要深入瞭解，請參閱 [在](rooms-prep.md) Microsoft Teams 會議室檔中準備您的環境。
 
-Microsoft 是受管理服務的提供者，需要與貴組織中負責的會議室專案關係人合作，讓會議室保持健康，並復原問題。 您必須負責在會議室、協力廠商或自訂軟體中使用的未認證裝置，以及您選擇在會議室裝置中部署的未認證裝置，並負責變更 Microsoft 建議的管理作法。
+Microsoft 是受管理服務的提供者，需要與貴組織負責的會議室關係人合作，讓會議室保持健康，並復原問題。 您必須負責在會議室、協力廠商或自訂軟體中使用的未認證裝置，以及您選擇在會議室裝置中部署的未認證裝置，並負責變更 Microsoft 建議的管理作法。
 
 貴組織或貴組織所合約的合作夥伴必須準備好補救服務偵測到的最後一英里問題。
 
@@ -76,14 +76,14 @@ Microsoft Teams 會議室管理服務是透過專用的 Microsoft Teams 會議�
 
 |  |  |
 |---------|---------|
-|**範圍**   |與會議室應用程式、會議室裝置和周邊設備相關的事件會包含在 Microsoft Teams 會議室管理的服務支援中。|
+|**範圍**   |與會議室應用程式、會議室裝置和周邊設備相關的事件會包含在 Microsoft Teams 會議室管理服務支援中。|
 |**觀眾**  |僅 IT 營運         |
 |**支援的語言**    |英語         |
 |**透過入口網站支援可用性**   | 24X7      |
 |**Microsoft Teams 會議室管理服務 SOC 的初始回應時間**   |  4 小時       |
 |**客戶不活動時自動關閉票證**    |客戶發起的票證：3 個工作天<br>系統啟動票證：15 個工作天</li>   </ul>      |
 |**重新導向至更廣泛的 Microsoft 支援服務**   |與 Microsoft Teams 會議室管理服務範圍外的另一個 Microsoft 產品相關的問題會導向至適當的支援小組。         |
-|**重新導向原始設備製造商 (OEM) 支援**    |Microsoft Teams 會議室管理服務 SOC 可協助瞭解問題，並視情況協助與 OEM 協調支援。 在某些情況下，您可能必須負責直接與 OEM 互動。         |
+|**重新導向原始設備製造商 (OEM) 支援**    |Microsoft Teams 會議室管理服務 SOC 可協助瞭解問題，並視情況協助與 OEM 協調支援。 在某些情況下，您可能負責直接與 OEM 互動。         |
 
 此外，請記住，Microsoft Teams 會議室管理的服務 SOC 會協助貴組織的 IT 營運，而且無法取代使用者的技術支援中心服務。
 
@@ -91,7 +91,7 @@ Microsoft Teams 會議室管理服務是透過專用的 Microsoft Teams 會議�
 
 ## <a name="supported-regions"></a>支援的地區
 
-Microsoft Teams 會議室管理服務可在所有提供 Microsoft 365 的國家和地區使用。 有關國家和地區的完整清單，請參閱 [Microsoft 365 國際可用性](https://www.microsoft.com/microsoft-365/business/international-availability)。
+Microsoft Teams 會議室進位版授權可在所有提供 Microsoft 365 的國家和地區使用。 有關國家和地區的完整清單，請參閱 [Microsoft 365 國際可用性](https://www.microsoft.com/microsoft-365/business/international-availability)。
 
 ## <a name="support-inclusions-and-exclusions"></a>支援包含和排除專案
 
@@ -111,13 +111,13 @@ Microsoft Teams 會議室管理服務可在所有提供 Microsoft 365 的國家�
 |**會議體驗**   |         |         |
 |Microsoft Teams 會議室應用程式的會議設定內調查問題，並視要求提供正確設定裝置上服務品質的指引。      |通話品質問題或網路相關問題的根本原因分析或調查會排除在此範圍內。         |Microsoft 主流支援         |
 |**補救、上機和進行中**     |         |         |
-|客戶會收到指引，將會議室帶至 Microsoft Teams 會議室管理服務在上機時建議的標準    |有關內部自訂軟體影像或不符合 Microsoft Teams 會議室管理服務建議之軟體版本指南之調查不在範圍內。          |         |
+|客戶會收到指引，將會議室帶至 Microsoft Teams 會議室管理服務在上機時建議的標準    |與內部自訂軟體影像有關或不符合 Microsoft Teams 會議室管理服務建議之軟體版本指南之調查不在範圍內。          |         |
 
 ## <a name="data-collection"></a>資料收集
 
 Microsoft Teams 會議室管理的服務會監控裝置、收集裝置資料，並允許 Microsoft 遠端存取和管理會議室裝置。 Microsoft Teams 會議室管理服務無法存取會議即時內容。
 
-收集的資料是聊天室帳戶所特有的，而非個別使用者。 在裝置使用期間，個別使用者的附帶參照可能會存在於活動記錄中。 收集的資料是由 Microsoft 依照 Microsoft 隱私權聲明 [處理](https://aka.ms/privacy)。  
+收集的資料是聊天室帳戶所特有的，而非個別使用者。 在裝置使用期間，個別使用者的參考資料可能會存在於活動記錄中。 收集的資料是由 Microsoft 依照 Microsoft 隱私權聲明 [處理](https://aka.ms/privacy)。  
 
 ## <a name="related-topics"></a>相關主題
 
