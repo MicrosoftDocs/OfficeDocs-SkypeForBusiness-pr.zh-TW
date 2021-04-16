@@ -13,16 +13,16 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094113"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768352"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 概觀
 
-Microsoft Teams PowerShell 是一組 Cmdlet，可直接從 PowerShell 命令列管理 Teams。 Teams PowerShell 以 .NET Standard 撰寫，適用于 Windows 版 PowerShell 5.1、PowerShell 6.x 及更新版本，適用于所有平臺 ，包括 Azure Cloud Shell。
+Microsoft Teams PowerShell 是一組 Cmdlet，可直接從 PowerShell 命令列管理 Teams。 Teams PowerShell 以 .NET Standard 撰寫，適用于 Windows、PowerShell 6.x 及更高版本的 PowerShell 5.1，適用于所有平臺 ，包括 Azure Cloud Shell。
 
 開始使用 PowerShell 之前，您必須 [安裝它](teams-powershell-install.md)。 
 
@@ -48,7 +48,7 @@ Teams PowerShell 可在 [PowerShell 圖庫中提供](https://www.powershellgalle
 - [Microsoft Teams PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)：Teams PowerShell 模組包含用於管理團隊、聊天和頻道的 Cmdlet。
 
 > [!NOTE]
-> [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公開發行版本 1.1.6 或更新版本已與商務用 Skype Online Connector 整合，為 Teams PowerShell 管理提供單一模組。
+> [Teams PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本 2.0 或更新版本包括所有商務用 Skype Online Connector Cmdlet，為 Teams PowerShell 管理提供單一模組。
 
 - [商務用 Skype PowerShell 連接器](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)：商務用 Skype PowerShell 連接器現在是 Teams PowerShell 模組的一部分。
 

@@ -13,23 +13,23 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6679cd22800307ec95ac242c190d6483411413a9
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 002f2bc8408536d79274c5e9b001f5e2a5eb55b3
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586542"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768335"
 ---
 # <a name="install-microsoft-teams-powershell"></a>安裝 Microsoft Teams PowerShell
 
-本文說明如何使用 PowerShellGet 安裝 Microsoft Teams [PowerShell 模組](/powershell/scripting/gallery/installing-psget)。 這些指示可于 [Azure Cloud Shell、Linux、macOS](/azure/cloud-shell/overview)和 Windows 平臺上使用。
+本文將說明如何使用 PowerShellGet 安裝 Microsoft Teams [PowerShell 模組](/powershell/scripting/gallery/installing-psget)。 這些指示可于 [Azure Cloud Shell、Linux、macOS](/azure/cloud-shell/overview)和 Windows 平臺上使用。
 
 ## <a name="requirements"></a>需求
 
 Teams PowerShell 需要在所有平臺上使用 PowerShell 5.1 或更高版本。 安裝[適用于您作業系統的最新版本的 PowerShell。](/powershell/scripting/install/installing-powershell)
 
-> [!WARNING]
-> PowerShell 7 和 Teams PowerShell 有已知問題。 為了獲得最佳體驗，建議您使用 PowerShell 5.1。
+> [!NOTE]
+> 為了獲得最佳體驗，建議您使用 PowerShell 5.1。
 
 ## <a name="install-the-teams-powershell-module"></a>安裝 Teams PowerShell 模組
 
@@ -69,10 +69,6 @@ $credential = Get-Credential
 
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -Credential $credential
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credential $credential
-Import-PsSession $session
 ```
 
 ## <a name="sign-in-using-mfa-and-modern-authentication"></a>使用 MFA 和新式驗證來登錄
@@ -82,10 +78,6 @@ Import-PsSession $session
 ```powershell
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -AccountId <UPN>
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession
-Import-PsSession $session
 ```
 
 ## <a name="update-teams-powershell"></a>更新 Teams PowerShell

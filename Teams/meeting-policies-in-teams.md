@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理會議原則設定。 使用原則設定來控制可供使用者排程的會議的會議參與者使用的功能。
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617866"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712775"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理會議原則
 
@@ -451,6 +451,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 - [讓匿名人員開始會議](#let-anonymous-people-start-a-meeting)
 - [自動准許人員](#automatically-admit-people)
 - [允許撥入使用者無需先在大廳等候](#allow-dial-in-users-to-bypass-the-lobby)
+- [允許小組成員無需在大廳等候](#allow-team-members-to-bypass-the-lobby)
 - [啟用即時輔助字幕](#enable-live-captions)
 - [允許在會議中聊天](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 |設定值  |加入行為 |
 |---------|---------|
 |**每個人**   |所有會議參與者會直接加入會議，而不需在大廳等候。 這包括已驗證的使用者、來自信任組織 (同盟) 的外部使用者、來賓和匿名使用者。     |
-|**您組織與同盟組織中的每個人**     |組織內已驗證的使用者 (包括來賓使用者和來自信任組織的使用者) 可直接加入會議，而不需在大廳等候。  匿名使用者在大廳中等候。   |
-|**您組織中的每個人**    |來自組織內已驗證的使用者 (包括來賓使用者) 會直接加入會議，而不需在大廳等候。  來自信任組織的使用者和匿名使用者會在大廳等候。 這是預設設定。           |
+|**組織中的人員、信任的組織和來賓**     |組織內已驗證的使用者 (包括來賓使用者和來自信任組織的使用者) 可直接加入會議，而不需在大廳等候。 匿名使用者在大廳中等候。   |
+|**組織中的人員和來賓**    |來自組織內已驗證的使用者 (包括來賓使用者) 會直接加入會議，而不需在大廳等候。 來自信任組織的使用者和匿名使用者會在大廳等候。 這是預設設定。           |
 |**僅限召集人**    |只有會議召集人可直接加入會議，而不需在大廳等候。 其他每個人 (包括組織內已驗證的使用者、來賓使用者、來自信任組織的使用者和匿名使用者) 都必須在大廳等候。           |
+|**組織中的人員**  |來自組織內已驗證的使用者 (排除來賓使用者) 會直接加入會議，而不需在大廳等候。 來自信任組織的來賓和使用者與匿名使用者會在大廳等候。|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允許撥入使用者無需先在大廳等候
 
@@ -488,6 +490,10 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 > [!NOTE]
 > 如果撥入使用者在組織使用者加入會議之前加入會議，他們將會停留在大廳，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入會議為止。 如果您變更任何使用者的預設設定，它將會套用至該使用者召集的所有新會議，以及使用者未修改會議選項的任何先前會議。
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>允許小組成員無需在大廳等候
+
+會議原則有一個設定，可讓小組成員無需在大廳等候。 我們為組織內部人員新增了 EveryoneInCompanyExcludingGuests 選項，使其不需在大廳等候，但讓來賓使用者必須在大廳等候。
 
 ### <a name="enable-live-captions"></a>啟用即時輔助字幕
 
@@ -516,7 +522,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 
-若要指定 Teams 中 [誰可以簡報?**]** 設定的預設值，請將 **DesignatedPresenterRoleMode** 參數設定為下列其中一項：
+若要指定 Teams 中 [誰可以簡報?**]** 設定的預設值，請將 **DesignatedPresenterRoleMode** 參數設定為下列設定的其中一項：
 
 - **EveryoneUserOverride**：所有會議參與者都可以是簡報者。 這是預設值。 此參數會與 Teams 中的 [每個人 **]** 設定對應。
 - **EveryoneInCompanyUserOverride**：組織中已驗證的使用者 (包括來賓使用者) 可以是簡報者。 此參數會與 Teams 中的 [我組織中的人員 **]** 設定對應。
@@ -572,7 +578,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 > Teams 不會篩選由使用者上傳的影像。 使用 **AllFilters** 設定時，您應該有內部組織原則，以防止使用者上傳冒犯性或不適當的影像，或組織無權用於 Teams 會議背景的影像。
 
 > [!NOTE]
-> 並非所有 Teams 用戶端都提供這些功能。 如需詳細資訊，請參閱 _會議與即時活動_ 中的[視訊和背景](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)主題。
+> 並非所有 Teams 用戶端都提供這些功能。 如需詳細資訊，請參閱 _會議與即時活動_ 中的 [視訊和背景](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)主題。
 
 ## <a name="meeting-policy-settings---meeting-reactions"></a>會議原則設定 - 會議反應
 

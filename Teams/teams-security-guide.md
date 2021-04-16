@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: edfa29dd1c2c3f5197b175f49d8d045967fc79f1
+ms.sourcegitcommit: d3c67eadf7cab167340d35b76401ff49fc7eb728
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093993"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749481"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
@@ -261,7 +261,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
     b. *遠端使用者*：這些使用者是從公司網路外部加入會議的。 這些人包括在家、在外工作的員工和其他人 (例如受信任供應商的員工)，且必須已獲得可在服務期間使用的企業認證。 遠端使用者可以建立和加入會議並擔任簡報者。
 .
 2. **不屬於租用戶的使用者**：這些使用者在 Azure AD 中沒有租用戶的認證。
-    a. *同盟使用者*：同盟使用者擁有對同盟合作夥伴有效的認證，因此可視為已由 Teams 驗證，但其對會議召集人租用戶來說仍屬匿名。 同盟使用者可加入會議，並在加入會議後提升為簡報者，但他們無法在所同盟的企業中建立會議。
+    a. *同盟使用者*：同盟使用者擁有對同盟合作夥伴有效的認證，因此可視為已由 Teams 驗證，但其對會議召集人租用戶來說仍屬外部。 同盟使用者可加入會議，並在加入會議後提升為簡報者，但他們無法在所同盟的企業中建立會議。
     b. *匿名使用者*：匿名使用者沒有 Active Directory 身分識別，且未與租用戶同盟。
 
 許多會議都涉及外部使用者。 這些相同的客戶也想要再次確保外部使用者的身分識別，然後才允許這些使用者加入會議。 下一節將說明 Teams 如何將會議存取權限制在已明確允許的使用者類型上，並要求所有使用者類型在進入會議時出示適當的 *「認證」*。

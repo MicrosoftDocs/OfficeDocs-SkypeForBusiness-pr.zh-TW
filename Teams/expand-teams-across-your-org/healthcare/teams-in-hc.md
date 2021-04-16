@@ -26,12 +26,12 @@ description: 瞭解 Microsoft Teams 遠距健康、電子健康記錄 (EHR) 整�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092681"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760596"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -140,7 +140,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助追蹤資訊和整理工作
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>使用工作應用程式追蹤和監控工作
 
-在 Teams 中使用 [工作](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) 以追蹤整個健康小組的 To Do 項目。 您的健康小組隨時都可以在執行 Teams 的任何裝置上建立、指派及排程工作、分類工作及更新狀態。
+在 Teams 中使用 [工作](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) 以追蹤整個健康小組的 To Do 項目。 您的健康小組隨時都可以在執行 Teams 的任何裝置上建立、指派及排程工作、分類工作及更新狀態。 IT 專業人員和系統管理員也可以發佈工作給貴組織的特定小組。 例如，您可以發佈一組新安全通訊協定或新進給步驟的工作，以在整個醫院使用。
 
 若要深入了解，請參閱 [在 Microsoft Teams 中管理貴組織的 [工作] 應用程式](../../manage-tasks-app.md)
 
