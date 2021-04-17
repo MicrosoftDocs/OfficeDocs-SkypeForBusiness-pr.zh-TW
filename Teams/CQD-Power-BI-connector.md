@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI Connector 以使用通話品質儀表板 (CQD) 查詢範本
-ms.openlocfilehash: 51b989601b7ccec035bda84cc0177aca8f198d1f
-ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
+ms.openlocfilehash: 15e02ed85720cf96babc470e021df1a960d4b608
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495765"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874479"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安裝 Power BI Connector 以使用 CQD 查詢範本
 
@@ -49,7 +49,7 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
 
 若要建立報表並執行查詢，您首先必須連接到 CQD 資料來源。 請遵循下列步驟進行連結：
 
-1. 在 Power BI 桌面的 [主版」 選項卡中，按一下 [ *取得資料*> 。
+1. 在 Power BI Desktop 的 [主版」 選項卡中，按一下 [ *取得資料*> 。
 
     ![螢幕擷取畫面：Power BI Connector](media/CQD-power-bi-connector1-resize.png)
 
@@ -80,13 +80,13 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
     ![螢幕擷取畫面：Power BI Connector](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
-    > 通話品質儀表板需要執行任何查詢的量值。 若無法將量值新增到查詢，則會導致該查詢失敗。
+    > 通話品質儀表板需要量值，以執行任何查詢。 若無法將量值新增到查詢，則會導致該查詢失敗。
 
-3. 接下來，選取您想要篩選的任何維度，並將這些維度拖曳到篩選窗格此視覺欄位 *上的篩選。* CQD Power BI Connector 目前支援基本篩選 (從可能維度值清單中選取值) 、進位篩選 *(* 手動指定要篩選的值和操作 *數，類似* Advanced CQD) ，以及僅適用于結束時間和開始時間維度) 的相對日期篩選 (。    CQD 不支援根據 *前 N* 個篩選。
+3. 接下來，選取您想要篩選的任何維度，並將這些維度拖曳到篩選窗格此視覺欄位 *上的篩選。* CQD Power BI Connector 目前支援基本篩選 (從可能維度值清單中選取值) 、進位 *篩選 (* 手動指定要篩選的值和操作 *數，類似* Advanced CQD) ，以及僅適用于結束時間和開始時間維度) 的相對日期篩選 (。    CQD 不支援根據 *前 N* 個篩選。
 
     ![螢幕擷取畫面：Power BI Connector](media/CQD-power-bi-connector5-resize.png)
 
-4. 最後，選取視覺效果 *窗格中* 的格式索引鍵，以為查詢設置樣式和格式。
+4. 最後，選取視覺效果 *窗格中* 的格式 *索引* 點，以樣式和格式化查詢。
 
     > [!NOTE]
     > CQD 查詢至少需要一個量值才能執行。 如果您的查詢未載入，請仔細檢查您是否在查詢中包含量值。
@@ -97,7 +97,7 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
 
 1. 為焦點報表建立另一個頁面，然後將查詢新增到該頁面。
 
-2. Select the dimension you want to use as a drillthrough filter and drag them onto the *Drillthrough* field under on the *Visualizations* pane.
+2. 選取您想要做為鑽取篩選的維度，然後將它拖曳到視覺效果窗格下的 *<Drillthrough* *欄位* 。
 
     ![螢幕擷取畫面：Power BI Connector](media/CQD-power-bi-connector6-resize.png)
 
@@ -109,13 +109,13 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
 
 ### <a name="best-practice"></a>最佳做法
 
-通話品質連接器查詢在設計時，應牢記鑽取功能。 與其嘗試一次載入所有資料，然後使用篩選進行切分，請從更廣泛的低基數查詢開始，然後向下切至高基數查詢。 例如，當您嘗試診斷哪些子網對品質問題影響最大時，先找出造成問題的區域及國家/地區，然後向下向下切入到該區域或國家/地區的子網會很有説明。 通話品質連接器範本是採用這種方式設計，以做為範例。
+通話品質連接器查詢在設計時，應牢記鑽取功能。 與其嘗試一次載入所有資料，然後以篩選向下切開，請從更廣泛的低基數查詢開始，然後向下切至高基數查詢。 例如，當您嘗試診斷哪些子網對品質問題影響最大時，先找出造成問題的區域及國家/地區，然後向下向下切入到該區域或國家/地區的子網會很有説明。 通話品質連接器範本是採用這種方式設計，以做為範例。
 
 ## <a name="limitations"></a>限制
 
-雖然已使用 Power BI，但並非所有 Power BI 功能都受到 CQD Connector 的支援，無論是因為 CQD 資料模型或 DirectQuery 連接器的一般限制。 下列清單會說明連接器的一些較值得注意的限制，但這份清單不應視為詳盡無遺：
+雖然使用 Power BI，但並非所有 Power BI 功能都受到 CQD Connector 的支援，無論是因為 CQD 資料模型或 DirectQuery 連接器的一般限制。 下列清單會說明連接器的一些較值得注意的限制，但這份清單不應視為詳盡無遺：
 
-1. **計算欄 –** DirectQuery 連接器一般對 Power BI 中計算結果欄的支援有限。 雖然某些計算結果欄可能用於連接器，但應視為例外。 根據一般規則，計算結果欄不會運作。
+1. **計算欄 –** DirectQuery 連接器一般對 Power BI 中計算結果欄的支援有限。 雖然某些計算結果欄可能與連接器一起使用，但應視為例外。 根據一般規則，計算結果欄無法運作。
 
 2. **匯總 –** CQD 資料模型是建在 Cube 模型上，這表示以度量形式已支援匯總。 嘗試手動將匯總新增到不同的維度或變更度量的匯總類型，無法與連接器一同使用，而且通常會導致錯誤。
 
@@ -125,23 +125,23 @@ Power BI 檔詳述安裝自訂連接器及調整安全性以啟用連接器使�
 
 5. **相對資料篩選 –** CQD Connector 支援，但僅支援 *開始時間和**結束時間* 維度。 雖然 *日期維度* 可能是相對日期篩選的明顯選擇，但 *日期* 不會儲存為日期時間物件，因此不支援 Power BI 中的相對日期篩選。
 
-6. **政府社群雲端 (GCC) 支援 –** 對於 GCC 環境中的客戶，使用 Power BI Desktop 時，CQD Power BI Connector 將無法工作。 CQD Power BI 連接器目前與 GCC 客戶的 Power BI 服務不相容。
+6. **政府社群雲端 (GCC) 支援 –** 對於 GCC 環境中的客戶，CQD Power BI Connector 將在使用 Power BI Desktop 時使用。 CQD Power BI 連接器目前與 GCC 客戶的 Power BI 服務不相容。
 
-這些問題大部分是 Power BI 中 DirectQuery 連接器設計的限制，或是 CQD 資料模型設計的基本問題。
+這些問題大部分是 Power BI 中 DirectQuery 連接器設計的限制，或是 CQD 資料模型設計的基礎。
 
 ## <a name="troubleshooting"></a>疑難排解
 
-### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>我嘗試使用日期欄做為日期分割器。 一旦將此欄的資料類型轉換成日期，就會收到此錯誤
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>我嘗試使用日期欄做為日期分割器。 一旦將此欄的資料類型轉換為日期，就會收到此錯誤
 
 > **無法載入此** 視覺效果的資料：OLE DB 或 ODBC 錯誤：[Expression.Error] 無法將運算式折至資料來源。 請嘗試更簡單的運算式。
 
 Power BI Connector 不支援日期分割器。 若要指定日期範圍，請對報表使用兩種篩選，指定小於及大於日期。
 
-或者，如果您想要查看的日期是最近的日期，請申請相對日期篩選，只顯示過去 N 天/周/月的資料。
+或者，如果您想要查看的日期是最近的日期，請申請相對日期篩選，只顯示最後 N 天/周/月的資料。
 
 ## <a name="error-codes"></a>錯誤碼
 
-由於 CQD Power BI Connector 在可建構的查詢類型方面，比瀏覽器應用程式限制較少，因此在建立查詢時，您偶爾可能會遇到許多錯誤。 萬一您收到「CQDError」類型的錯誤訊息。 RunQuery – 查詢執行錯誤」，請參照下列清單，提供 ErrorType 號碼，以疑難排解查詢可能的問題。 以下是您可能會遇到的 CQD Power BI Connector 最常見的錯誤類型代碼：
+由於 CQD Power BI Connector 在可建構的查詢類型方面，比瀏覽器應用程式限制較少，因此在建立查詢時，您偶爾可能會遇到一些錯誤。 萬一您收到「CQDError」類型的錯誤訊息。 RunQuery – 查詢執行錯誤」，請參照下列清單，提供 ErrorType 號碼，以疑難排解查詢可能的問題。 以下是您可能會遇到的 CQD Power BI Connector 最常見的錯誤類型代碼：
 
 - **ErrorType 1 - 查詢結構錯誤：** 查詢結構錯誤通常是由連接器無法建立正確格式的查詢所導致。 使用不支援的功能時，通常會發生此情況，如上述限制所指定。 請仔細檢查您並未針對該查詢使用任何計算結果欄或自訂視覺效果。
 
@@ -165,7 +165,7 @@ Power BI Connector 不支援日期分割器。 若要指定日期範圍，請對
 
 雖然有 Beta 標記，但 Power BI 的通話品質連接器是連接器的發行版本本，且已由 Power BI 小組正式簽署安全性，以反映這一點。 移除該 Beta 標記的認證程式非常廣泛，而且需要 Power BI 小組承諾提供連接器的直接支援。 由於時間限制，Power BI 小組目前無法提供該支援及更廣泛的認證，但仍準備證明 Microsoft 通話品質連接器的安全性、真實性和一般功能。
 
-### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>為什麼與瀏覽器中的 Advanced CQD 相比，連接器看起來比較慢？ 我可以做些什麼來改善績效
+### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>為什麼與瀏覽器中的 Advanced CQD 比較，連接器看起來比較慢？ 我可以做些什麼來改善績效
 
 在瀏覽器和連接器中，各種範本的查詢績效實際上是相同的。  就像任何其他獨立應用程式一樣，Power BI 會將驗證和呈現時間加到我們的績效中。 此外，差異在於同時執行查詢的數量。 由於瀏覽器內版本的 CQD 有較不周全且資訊密度較濃的視覺效果選項，因此我們的大部分報告一次只能載入 2-3 個查詢。 另一方面，連接器範本通常會顯示 20 多個並行查詢。 如果您想要建立與舊版報表一樣回應的報表，請嘗試建立每個索引點不超過 2-3 個查詢的報表。
 
@@ -178,7 +178,7 @@ Power BI Connector 不支援日期分割器。 若要指定日期範圍，請對
 
 10，000 列的限制實際上是在 API 端指定，其設計可協助大幅提升績效，並降低因記憶體不足而造成查詢執行錯誤的風險。
 
-與其嘗試增加結果列數，最好根據連接器最佳做法來重新組織報表。 我們包含的範本是專為示範這些最佳做法所設計。 如果可能的話，首先使用較寬、基數較低的維度來查看 KPI，例如月、年、日期、地區、國家/地區等。您可以在那裡向下向下切入到愈高基數維度。 說明台和Location-Enhanced報表都提供此向下切入工作流程的範例。
+與其嘗試增加結果列數，最好根據連接器最佳做法來重新組織報表。 我們包含的範本是專為示範這些最佳做法所設計。 如果可能的話，首先請用較寬、較低基數維度來查看 KPI，例如月、年、日期、地區、國家/地區等。您可以在那裡向下向下切入到愈高基數維度。 說明台和Location-Enhanced報表都提供此向下切入工作流程的範例。
 
 
 

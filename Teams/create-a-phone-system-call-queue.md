@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何使用 Microsoft Teams 設定電話佇列的電話系統，提供問候訊息、等候音樂、重新導向通話及其他功能。
-ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760586"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874449"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -69,7 +69,7 @@ ms.locfileid: "51760586"
 > 上傳的錄製不能大於 5 MB。
 > Teams 通話佇列中提供的預設音樂，不含貴組織支付的任何版稅。 
 
-## <a name="call-agents"></a>通話代理程式
+## <a name="call-agents"></a>通話代理人
 
 檢查 [將代理人新加入通話佇列的先決條件](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -81,13 +81,18 @@ ms.locfileid: "51760586"
 
 如果您想要使用 Teams 頻道 [來管理](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)佇列，請選取 [選擇團隊 **選項** ，然後按一下 [ **新增頻道**> 。 搜尋您想要使用的團隊，選取該團隊，然後按一下 [ **新增**。 選取您想要使用的頻道，然後按一下 **[Apply.**
 
+使用 Teams 頻道進行通話佇列時，支援下列用戶端： 
+
+  - Microsoft Teams Windows 用戶端
+  - Microsoft Teams Mac 用戶端
+
 ##### <a name="users-and-groups"></a>使用者和群組
 
-您可以個別新增最多 20 個代理程式，並透過群組最多新增 200 個代理程式。
+您可以個別新增最多 20 個代理程式，並透過群組新增最多 200 個代理程式。
 
-如果您想要新增個別使用者或群組至佇列，請選取選擇 **使用者和群組** 選項。 
+如果您想要將個別使用者或群組新排入佇列，請選取選擇 **使用者和群組** 選項。 
 
-若要將使用者新增到佇列，請按一下 [ **新增** 使用者、搜尋使用者、按一下 [ **新增**」，然後按一下 [ **新增**。
+若要將使用者新增到佇列，請按一下 **[新增** 使用者，搜尋使用者，按一下 [ **新增**，然後按一下 **[新增**> 。
 
 若要將群組新增到佇列，請按一下 [ **新增** 群組、搜尋群組、按一下 [ **新增**」，然後按一下 [ **新增**。 您可以使用通訊群組清單、安全性群組和 Microsoft 365 群組或 Microsoft Teams 團隊。
 
@@ -112,7 +117,7 @@ ms.locfileid: "51760586"
 
 - **話務員路由** 會同時響鈴佇列中的所有代理程式。 第一個接電話的代理人會接到電話。
 
-- **連續路由** 會以呼叫代理程式清單中指定的順序，一個接一個地撥打所有 **呼叫** 代理程式。 如果客服人員關閉或不接電話，來電會撥打給下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
+- **連續路由** 會以呼叫代理程式清單中指定的順序，一個接一個地撥打所有 **呼叫** 代理程式。 如果客服人員關閉或不接電話，來電會撥打下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
 
 - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這一點可能相當理想，以確保所有通話代理人之間享有同等的機會。
 
@@ -135,7 +140,7 @@ ms.locfileid: "51760586"
 建議使用下列設定：
 
 - **會議模式** 至 **自動**
-- **將路由方法** 路由至 **Round robin** 或 **最長閒置時間**
+- **將路由方法****路由到 Round robin** 或 **最長閒置時間**
 - **目前狀態路由至** **On**
 - **代理人警示時間：****至 20 秒**
 
@@ -151,7 +156,7 @@ ms.locfileid: "51760586"
 您可以選擇中斷通話，或重新導向到任何通話路由目的地。 例如，您可能讓來電者為佇列中的代理人留下語音信箱。 如需外部傳輸，請參閱先決條件和外部[](plan-auto-attendant-call-queue.md#prerequisites)電話號碼傳輸[- 數位](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技術詳細資料。
 
 > [!NOTE]
-> 如果通話數上限設為 0，則問候語訊息將不會播放。
+> 如果通話次數上限設為 0，則問候語訊息將不會播放。
 
 ## <a name="call-timeout-handling"></a>通話超時處理
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7972febeab134f0ec075418e351c35ef7e273fcf
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: d5721f13a569ee240c33f2bf4262eb84966065d6
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439668"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874459"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>會議通話的 Teams &簡介
 
@@ -55,7 +55,7 @@ Microsoft 365 A3/A5/E3/E5/Business Premium 和 Office 365 A3/A5/E3/E5 使用者�
 | 類型                   | 方便 (一般 Teams 錄製)  | 組織 - 受規範 (合規性錄製)  |
 | ---------------------- | ------------------ | --------------- |
 | 引發              | 使用者               | 系統 (系統)   |
-| 目標                 | 每通話/會議 | 每個使用者        |
+| 目標                 | 每通話/會議 | 每一使用者        |
 | 儲存空間擁有者          | 使用者               | 合規性      |
 | 需要通知嗎？ | 是                | 是             |
 | Access 擁有者           | 使用者               | 合規性      |
@@ -83,7 +83,7 @@ Teams 提供各種功能，方便 [<span class="underline">且</span>](./cloud-r
 <tr class="even">
 <td>通訊系統管理員</td>
 <td><ul>
-<li><p>瞭解為什麼以及如何將錄製原則適用于 Teams 使用者/端點。</p></li>
+<li><p>瞭解將錄製原則適用于 Teams 使用者/端點的原因及方法。</p></li>
 <li><p>為組織設定及維護 Teams 錄製政策。</p></li>
 <li><p>監控和疑難排解 Teams 通話和會議錄製相關問題。</p></li>
 <li><p>使用使用方式、品質和可靠性的營運分析，支援內部合規性人員。</p></li>
@@ -92,7 +92,7 @@ Teams 提供各種功能，方便 [<span class="underline">且</span>](./cloud-r
 <tr class="odd">
 <td>合規性專員</td>
 <td><ul>
-<li><p>收集所有 Teams 通訊的方式，以在適當的地區邊界符合合規性義務的方式。</p></li>
+<li><p>收集所有 Teams 通訊的方式，以滿足適當地區邊界的合規性義務。</p></li>
 <li><p>根據與通訊相關的中繼資料或互動內容搜尋互動。 常見的範例包括：</p>
 <ul>
 <li><p><strong>中繼資料</strong> - 參與者、時間、方向、撥號號碼、起始號碼、自訂商務資料</p></li>
@@ -113,11 +113,11 @@ Teams 提供各種功能，方便 [<span class="underline">且</span>](./cloud-r
 
 ## <a name="recorder"></a>答錄機
 
-合規性錄製解決方案的核心元件是答錄機。
+合規性錄製解決方案的核心元件是錄製器。
 錄製器是建立為可縮放的 Azure 服務， (機器人) 利用 [<span class="underline">Microsoft</span>](/graph/cloud-communications-concept-overview) 的通訊平臺，並註冊為 Microsoft Graph 的應用程式。 錄製器提供與 Teams 通話和會議通訊平臺 [<span class="underline">API</span>](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 的直接互動，並提供媒體使用端點。
 
 提供 [<span class="underline">範例合規性記錄器應用程式</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) ，顯示如何設定 Bot、建立應用程式實例及指派合規性政策。 範例中也有用於錄製特定互動的 API 使用方式範例，例如處理[<span class="underline"></span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)來電路由、變更[<span class="underline"></span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)錄製狀態，以及移除正在錄製[<span class="underline">的使用者</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)。
-您可以在這裡找到特定 API 上的圖形檔，以用於[<span class="underline">updateRecordingStatus 和</span>](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) [<span class="underline">incomingCoNtext。</span>](/graph/api/resources/incomingcontext?view=graph-rest-1.0)
+您可以在這裡找到特定 API 上的圖形檔，以用於 [<span class="underline">updateRecordingStatus 和</span>](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) [<span class="underline">incomingCoNtext</span>](/graph/api/resources/incomingcontext?view=graph-rest-1.0)。
 
 錄製器服務的確切實現會因合作夥伴而異，但必須設計成支援多個答錄機，才能達到部署的高可用性和地理分佈，以降低 Teams 到錄製器的延遲。 此外，預計錄製器本身在設計時，會考慮復原和重複。
 
@@ -133,7 +133,7 @@ Azure 和 Windows VM 需求僅適用于 Teams Bot 元件，這表示合作夥伴
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合規性錄製策略指派和置備
 
-IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [<span class="underline">Microsoft PowerShell</span>](./teams-powershell-overview.md) 管理，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關 Microsoft Docs [<span class="underline">會議政策</span>](./meeting-policies-in-teams.md)、通話 [<span class="underline">策略</span>](./teams-calling-policy.md) 和  [<span class="underline">群群組原則的更多資訊</span>](./assign-policies.md#assign-a-policy-to-a-group)。
+IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [<span class="underline">Microsoft PowerShell 管理</span>](./teams-powershell-overview.md) ，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關 Microsoft Docs 會議 [<span class="underline">政策</span>](./meeting-policies-in-teams.md)、 [<span class="underline">通話策略</span>](./teams-calling-policy.md) 和  [<span class="underline">群群組原則的更多資訊</span>](./assign-policies.md#assign-a-policy-to-a-group)。
 
 1. 在租使用者中建立應用程式實例。
 
@@ -206,7 +206,7 @@ IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製�
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Teams 認證計畫合規性錄製
 
-除了發佈公開可用的 API，讓合作夥伴能夠開發 CCaaS 解決方案並整合 Teams 之外，我們開發 Microsoft Teams 認證計畫的合規性記錄，為客戶提供保證，確保每個參與合作夥伴的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。  
+除了發佈公開可用的 API，讓合作夥伴能夠開發和整合 CCaaS 解決方案與 Teams 之外，我們還為 Microsoft Teams 認證計畫開發合規性記錄，為客戶提供保證，確保每個參與合作夥伴的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。  
 
 下列合作夥伴已認證其 Microsoft Teams 解決方案。
 
@@ -216,7 +216,7 @@ IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製�
 |音訊代碼 |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
 |配音器 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |好 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
-
+|Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 
 下列合作夥伴正在認證其 Microsoft Teams 解決方案。
 
@@ -225,7 +225,6 @@ IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製�
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |奧克創新 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |紅色方塊 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
