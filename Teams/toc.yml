@@ -1470,14 +1470,6 @@ items:
     items:
       - name: Teams 的限制和規格
         href: limits-specifications-teams.md
-      - name: 從 Kaizala 移至 Microsoft Teams
-        items:
-          - name: Kaizala 和 Microsoft Teams
-            items:
-              - name: 您的 Teams 路徑
-                href: prepare-for-teams.md
-                items:
-                  - name: 瀏覽 Teams 功能
       - name: 授權
         items:
           - name: 管理 Teams 的使用者存取
