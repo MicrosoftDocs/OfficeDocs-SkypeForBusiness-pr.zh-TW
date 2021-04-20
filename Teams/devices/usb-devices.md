@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊 (裝置，例如耳機、喇叭、網路網路) Microsoft Teams 認證。
-ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 83249166b725deab7ec0231b9dae761e5aa8a4a4
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399150"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886702"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 認證的 USB 音訊和視音訊裝置
 
@@ -74,12 +74,17 @@ ms.locfileid: "51399150"
 
 ## <a name="certified-devices"></a>認證裝置
 
-*表格更新日期：2021 年 3 月*
+*表格更新日期：2021 年 4 月*
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|微軟            |新式 USB-C 喇叭                                       |4/15/2021       |Microsoft Teams 認證                           |
+|微軟            |新式 USB 耳機                                         |4/15/2021       |Microsoft Teams 認證                           |
+|Yealink              |UVC20 網路相機                                               |3/30/2021       |Microsoft Teams 認證                           |
+|微軟            |新式網路相機                                              |3/24/2021       |Microsoft Teams 認證                           |
 |EPOS/Sennheiser      |調整 200 系列耳機                                  |3/19/2021       |Microsoft Teams 認證                           |
 |Jabra                |Evolve2 30 耳機                                         |3/1/2021        |Microsoft Teams 認證                           |
+|微軟            |Surface Headphones 2+                                      |2/26/2021       |Microsoft Teams 認證                           |
 |聚                 |Studio P15 影片欄                                       |2/1/2021        |Microsoft Teams 認證                           |
 |聚                 |同步 40 部喇叭                                       |1/19/2021       |Microsoft Teams 認證                           |
 |聚                 |使用 Poly BT600 USB 加密狗同步處理 40+ 部喇叭           |1/19/2021       |Microsoft Teams 認證                           |

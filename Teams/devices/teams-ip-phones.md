@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以獲得最佳結果。
-ms.openlocfilehash: 758907a284afc7ab4ec4f172eee10c82ce456d61
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768442"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886712"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認證裝置
 
 Microsoft Teams 認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在 Teams 手機的相同硬體上，為商務用 Skype 服務提供支援。 Microsoft Teams 認證裝置的好處包括：
+Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以符合此較高的列，且符合認證要求的裝置。 我們的部分合作夥伴也正在努力在 Teams 電話的相同硬體上，為商務用 Skype 服務提供支援。 Microsoft Teams 認證裝置的好處包括：
 
 - 使用硬體按鈕整合和 LED 通知的 Native Teams 體驗
 - 日曆整合和一鍵式會議加入
@@ -44,8 +44,9 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 |裝置模型                         | 固件版本                                                                                                                                                                                                                           | 發行日期
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| 音訊代碼 C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
-| 音訊代碼 C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
+| AudioCodes C435HD                      | 1.12.33                                                  | 2021 年 4 月                 |
+| AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
+| AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | 音訊代碼 C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 |Cresron UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
 | Cresron M100                          | 此產品已停用。 如要詳細資訊，請流覽[Crsron網站上Crsron M100。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 已于 2020 (5/11)  |
@@ -137,19 +138,18 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 | Yealink VP59        | 91.15.0.54         | 2020 更新#7           |
 | Yealink CP960       | 73.15.0.115      | 2020 更新#7           |
 
-請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能。
+請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能相關資訊。
 
 請參閱 [Microsoft Teams 顯示](teams-displays.md)。
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 會議室的產品發行資訊
 
-以下是 Android 應用程式的最新 Teams 會議室和固件版本。
+以下是 Android App 上的最新 Teams 會議室和固件版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
 | 產品發行| 發行日期 | Microsoft Teams 應用程式版本 | 公司入口網站版本 | 系統管理代理程式版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 2021 更新#1  |2021 年 4 月 7 日  |1449/1.0.96.2021020902 (Yealink VC210)   |5.0.4927.0     |1.0.0.202010121132.product 版本代碼：223 |
 | 2021 更新#1  |2021 年 4 月 5 日  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product 版本代碼：223 |
 | 2020 更新#3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product 版本代碼：216 |
 | 2020 更新#2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product 版本代碼：212|
@@ -191,7 +191,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能。
+請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能相關資訊。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
