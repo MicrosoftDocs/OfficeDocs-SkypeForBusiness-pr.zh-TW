@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 04e9507595ef721ced5d47eb58646559601c5cab
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697778"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899124"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 通訊協定
 
@@ -56,7 +56,7 @@ ms.locfileid: "51697778"
 | Request-URI | 邀請 sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | 透過標題 | Via：SIP/2.0/TLS sbc1.adatum.biz：5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards頁標題 | Max-Forwards：68 |
-| 從頁眉 | 從頁<：7168712781@sbc1 <.adatum.biz;transport=udp;tag=1c747237679 |
+| 從頁頭 | 從頁<：7168712781@sbc1 <.adatum.biz;transport=udp;tag=1c747237679 |
 | 至頁標題 | 至：sip:+183338006777@sbc1.adatum.biz | 
 | CSeq 標頭 | CSeq：1 INVITE | 
 | 連絡人標題 | 連絡人：<sip：68712781@sbc1.adatum.biz：5058;transport=tls> | 
@@ -69,7 +69,7 @@ ms.locfileid: "51697778"
 
    - 選項 2. 在連絡人標題 (例如 FQDN 名稱 adatum.biz 中呈現的 FQDN 名稱的網域部分 sbc1.adatum.biz) 必須與 Common Name/Subject 替換名稱 (例如 *.adatum.biz) 中的萬用字元值相符。
 
-2. 嘗試使用連絡人標題中顯示的完整 FQDN 名稱尋找租使用者。  
+2. 嘗試使用連絡人標題中顯示的完整 FQDN 名稱來尋找租使用者。  
 
    檢查連絡人標題中的 FQDN 名稱 (sbc1.adatum.biz) 在任何 Microsoft 365 或 Office 365 組織中註冊為 DNS 名稱。 如果找到，使用者的尋找是在已註冊為功能變數名稱的 SBC FQDN 的租使用者中執行。 如果找不到，則適用步驟 3。   
 
@@ -81,7 +81,7 @@ ms.locfileid: "51697778"
 
 5. 使用主幹設定。 尋找租使用者系統管理員為此 SBC 所設定的參數。
 
-   Microsoft 不支援在 Microsoft SIP Proxy 與配對 SBC 之間擁有協力廠商 SIP Proxy 或使用者代理伺服器，這可能會修改配對 SBC 所建立的要求 URI。
+   Microsoft 不支援在 Microsoft SIP Proxy 與配對 SBC 之間建立協力廠商 SIP Proxy 或使用者代理伺服器，這可能會修改配對 SBC 所建立的要求 URI。
 
    本文稍後將 (SBC 與許多租使用者 (電信企業案例) 進行互連時所需的步驟 2 和) 3) 。
 
@@ -93,7 +93,7 @@ ms.locfileid: "51697778"
 
 語法：連絡人：<sip：phone 或 sip address@FQDN sBC;transport=tls> 
 
-根據 [RFC 3261，第 11.1](https://tools.ietf.org/html/rfc3261#section-11.1)節，連絡人標題欄位可能會存在於 OPTIONS 訊息中。 在直接路由中，連絡人標題為必填專案。 針對上述格式的 INVITE 郵件，針對 OPTIONS 郵件，使用者可以從 SIP URI 移除使用者資訊，且只有 FQDN 會以以下格式送出：
+根據 [RFC 3261，第 11.1](https://tools.ietf.org/html/rfc3261#section-11.1)節，連絡人標題欄位可能會存在於 OPTIONS 訊息中。 在直接路由中，連絡人標題為必填專案。 針對上述格式的 INVITE 郵件，對於 OPTIONS 郵件，使用者資訊可以從 SIP URI 中移除，且只能以以下格式送出 FQDN：
 
 語法：Contact：<sip：SBC 的 FQDN;transport=tls>
 
@@ -101,7 +101,7 @@ FQDN (名稱) 也必須在所提交憑證的 (或) 名稱欄位。 Microsoft 支
 
 RFC [2818 第 3.1](https://tools.ietf.org/html/rfc2818#section-3.1)節說明萬用字元的支援。 特別：
 
-*「名稱可能包含萬用字元，視為符合任何 \* 單一功能變數名稱元件或元件片段。例如 \* ，.a.com 符合 foo.a.com，bar.foo.a.com f .com foo.com \* 而非 bar.com」。*
+*「名稱可能包含萬用字元，視為符合任何 \* 單一功能變數名稱元件或元件片段。例如 \* ，.a.com 符合 foo.a.com，bar.foo.a.com. f .com foo.com \* 不 bar.com」。*
 
 如果 SBC 會送出 SIP 郵件中呈現的連絡人標題中的多個值，則只會使用連絡人標題第一個值的 FQDN 部分。
 
@@ -121,7 +121,7 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 SIP Proxy 需要計算新對話方塊用戶端交易的下一躍點 FQDN (例如 Bye 或重新邀請) ，以及回復 SIP 選項時。 使用連絡人Record-Route或連絡人。 
 
-根據 [RFC 3261 第 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)節，任何可能導致新對話方塊的要求都需要連絡人標題。 只有Record-Route Proxy 想要在對話方塊中繼續處理未來要求的路徑時，才需要執行此要求。 如果 Proxy SBC 與直接路由的 Local [Media 優化](./direct-routing-media-optimization.md)一起使用，則需要將記錄路由進行配置，因為 Proxy SBC 必須留在路由中。 
+根據 [RFC 3261 第 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)節，任何可能導致新對話方塊的要求都需要連絡人標題。 只有Record-Route Proxy 想要在對話方塊中維持未來要求的路徑時，才需要執行此要求。 如果 Proxy SBC 與直接路由的 Local [Media 優化](./direct-routing-media-optimization.md)一起使用，則需要將記錄路由進行配置，因為 Proxy SBC 必須留在路由中。 
 
 若未使用 Proxy SBC，Microsoft 建議只使用連絡人標題：
 
@@ -158,20 +158,23 @@ SIP Proxy 需要計算新對話方塊用戶端交易的下一躍點 FQDN (例如
 
 ###  <a name="non-media-bypass-flow"></a>非媒體旁路流程
 
-Teams 使用者可能同時有多個端點。 例如，Windows 版 Teams 用戶端、iPhone 版 Teams 用戶端和 Teams Phone (Teams Android 用戶端) 。 每個端點可能會發出 HTTP 的休息訊號，如下所示：
+Teams 使用者可能同時有多個端點。 例如，Windows 版 Teams 用戶端、iPhone 版 Teams 用戶端和 Teams Phone (Android 用戶端) 。 每個端點可能會發出 HTTP 的休息訊號，如下所示：
 
 -   通話進度 - 由 SIP Proxy 轉換成 SIP 訊息 180。 收到訊息 180 時，SBC 必須產生本地響鈴。
 
--   媒體答案 - 由 SIP Proxy 轉換成訊息 183，在會話描述通訊協定或 SDP (中) 。 在收到郵件 183 時，SBC 預期會連接到 SDP 訊息中收到的媒體候選者。 
+-   媒體答案 - 由 SIP Proxy 轉換成訊息 183，在會話描述通訊協定或 SDP (媒體) 。 在收到郵件 183 時，SBC 預期會連接到 SDP 訊息中收到的媒體候選者。 
 
     > [!NOTE]
-    > 在某些情況下，可能無法產生媒體答案，而結束點可能會以「已接受通話」訊息來回答。
+    > 在某些情況下，媒體答案可能不會產生，而結尾可能會以「已接受通話」訊息來回答。
 
--   已接受通話 - 由 SIP Proxy 轉換成 SIP 訊息 200 與 SDP。 收到郵件 200 時，SBC 預期會傳送和接收來自提供的 SDP 候選人的媒體。
+-   已接受通話 - 由 SIP Proxy 轉換成 SIP 訊息 200 與 SDP。 收到訊息 200 時，SBC 預期會傳送和接收來自提供的 SDP 候選人的媒體。
+
+    > [!NOTE]
+    > 直接路由不支援沒有 SDP (延遲優惠邀請) 。
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>多個端點以暫發性答案響鈴
 
-1.  從 SBC 接收第一個邀請時，SIP Proxy 會傳送「SIP/2.0 100 嘗試」訊息，並通知所有使用者端點有關來電。 
+1.  在收到 SBC 的第一個邀請時，SIP Proxy 會傳送「SIP/2.0 100 嘗試」訊息，並通知所有使用者端點有關來電。 
 
 2.  通知後，每個端點都會開始響鈴，並傳送「通話進度」訊息至 SIP Proxy。 因為 Teams 使用者可以有多個終點，SIP Proxy 可能會收到多個通話進度訊息。
 
@@ -186,11 +189,11 @@ Teams 使用者可能同時有多個端點。 例如，Windows 版 Teams 用戶�
 
 #### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>多個端點在響鈴時沒有暫時的答案
 
-1.  從 SBC 接收第一個邀請時，SIP Proxy 會傳送「SIP/2.0 100 嘗試」訊息，並通知所有使用者端點有關來電。 
+1.  在收到 SBC 的第一個邀請時，SIP Proxy 會傳送「SIP/2.0 100 嘗試」訊息，並通知所有使用者端點有關來電。 
 
 2.  通知後，每個端點都會開始響鈴，並傳送「通話進度」訊息至 SIP Proxy。 因為 Teams 使用者可以有多個終點，SIP Proxy 可能會收到多個通話進度訊息。
 
-3.  針對從用戶端收到的每一則通話進度訊息，SIP Proxy 會將通話進度訊息轉換為 SIP 訊息「SIP/2.0 180 嘗試」。  傳送郵件的間隔是由從呼叫控制器接收郵件的間隔所定義。 下圖顯示 SIP Proxy 產生的兩則 180 則訊息，這表示使用者登入三個 Teams 用戶端，而每個用戶端會傳送通話進度。 每封郵件都會是一個獨立的會話， ("To" 欄位中的參數 "tag" 與) 
+3.  針對從用戶端收到的每一則通話進度訊息，SIP Proxy 會將通話進度訊息轉換為 SIP 訊息「SIP/2.0 180 嘗試」。  傳送郵件的間隔是由從呼叫控制器接收郵件的間隔所定義。 下圖顯示 SIP Proxy 產生的兩則 180 則訊息，這表示使用者登入三個 Teams 用戶端，而每個用戶端會傳送通話進度。 每封郵件都會是個別的會話， ("To" 欄位中的參數"標記"與) 
 
 4.  電話接受訊息會與接受通話之端點的最終候選者一起送出。 通話接受訊息會轉換成 SIP 訊息 200。 
 
@@ -265,9 +268,9 @@ RFC 5589 的第 6 節說明標準。 相關的 RFC 為：
 
 - [SIP 中的會話初始 (「) 取代」標頭](https://tools.ietf.org/html/rfc3891)
 
-- [SIP 的會話初始 (「) 」機制](https://tools.ietf.org/html/rfc3892)
+- [SIP 的會話初始 (協定) 「引用者」機制](https://tools.ietf.org/html/rfc3892)
 
-此選項假設 SIP Proxy 會做為傳輸器，並傳送一則參考訊息給 SBC。 SBC 會做為受讓人，並處理參照以產生新的移轉優惠。 有兩種可能的情況：
+此選項會假設 SIP Proxy 會做為傳輸者，並將參考訊息傳送給 SBC。 SBC 會做為受讓人，並處理參照以產生新的移轉優惠。 有兩種可能的情況：
 
 - 通話會轉接給外部 PSTN 參與者。 
 - 通話會透過 SBC 從一個 Teams 使用者轉接至同一租使用者中的另一個 Teams 使用者。 
@@ -282,14 +285,14 @@ SIP Proxy 會以 SIP URI 的形式形成 REFER-TO，包含主機名稱中的 SIP
 
 - 分別編碼完整傳輸目標 MRI 和租使用者識別碼的 x-m 和 x-t 參數 
 
-REFERRED-BY 標頭是 SIP URI，其內編碼為傳輸器 MRI，以及傳輸器租使用者識別碼和其他傳輸上下文參數，如下表所示：
+REFERRED-BY 標頭是 SIP URI，其內編碼為傳輸器或 MRI，以及傳輸器租使用者識別碼和其他傳輸上下文參數，如下表所示：
 
 | 參數 | 值 | 描述 |  
 |:---------------------  |:---------------------- |:---------------------- |
 | x-m | Mri | 由 CC 填上之傳輸器/傳輸目標的完整 MRI |
 | x-t | 租用戶識別碼 | X-t 租使用者識別碼 選擇性租使用者識別碼，以 CC 填上 |
 | x-ti | 傳輸器關聯識別碼 | 來電轉接者的相關識別碼 |
-| x-tt | 轉接目標通話 URI | 編碼呼叫取代 URI |
+| x-tt | 傳輸目標通話 URI | 編碼呼叫取代 URI |
 
 在這種情況下，參考頁眉的大小最多隻能是 400 個符號。 SBC 必須支援處理大小最多 400 個符號的參考郵件。
 
@@ -361,8 +364,8 @@ SBC 必須支援 [RFC 5245 章節 9.1.1.1 中所述](https://tools.ietf.org/html
 
 直接路由中的重新開機會根據 RFC 的下列段落進行：
 
-*若要重新開機 ICE，代理人必須同時變更優惠中媒體流的冰-pwd 和 ice-ufrag。 請注意，在一個優惠中允許使用工作階段層級屬性，但提供與後續優惠中媒體層級屬性相同的 ice-pwd 或 ice-ufrag。 這不是密碼的變更，只是其表示方式的變更，而且不會造成 ICE 重新開機。*
+*若要重新開機 ICE，代理人必須同時變更優惠中媒體流的冰層和冰-ufrag。 請注意，在一個優惠中允許使用工作階段層級屬性，但提供與後續優惠中媒體層級屬性相同的 ice-pwd 或 ice-ufrag。 這不是密碼的變更，只是其表示方式的變更，而且不會造成 ICE 重新開機。*
 
-*代理程式會設定此媒體流 SDP 中其餘的欄位，就像初次提供此媒體流時一樣 (請參閱第 4.3 節) 。 因此，一組候選者可能包括該串流的部分、無或所有先前的候選者，而 MAY 則包含第 4.1.1 節所述收集的一組全新的候選者。*
+*代理程式會設定此媒體流 SDP 中其餘的欄位，就像初次提供此媒體流時一樣 (請參閱第 4.3 節) 。 因此，一組候選者可能包含該串流的部分、無或所有先前的候選者，而 MAY 則包含第 4.1.1 節所述收集的一組全新的候選者。*
 
 如果通話最初是使用媒體旁路建立，而通話已轉接至商務用 Skype 用戶端，則直接路由需要插入媒體處理器，這是因為直接路由無法與具有媒體旁路的商務用 Skype 用戶端一起使用。 直接路由會變更 ice-pwd 和 ice-ufrag，並再次提供新的媒體候選項目，以啟動 ICE 重新開機程式。

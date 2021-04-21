@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697798"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899114"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -31,7 +31,7 @@ ms.locfileid: "51697798"
 > [!Note]
 > 如果您的會議或網路研討會達到容量限制，Teams 將會無縫調整，以容納 10,000 人僅供檢視廣播體驗。 此外，在遠端工作數量增加的這段時間裡，到今年年底，請利用 20,000 人的更大廣播容量。
 
-Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到主要會議容量之後 (300 個使用者進入會議) 其他出席者會以僅查看體驗加入會議。
+Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主要會議容量之後 (300 個使用者進入會議) 其他出席者會以僅以視點功能加入會議。
 
 第一次加入會議的出席者，最多可取得主要會議的容量，並取得完整的 Teams 會議體驗。 他們可以分享音訊和視訊、查看分享的視訊以及參與會議聊天。
 
@@ -40,9 +40,9 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到
 出席者將能透過 Android 和 iOS 版桌上出版、Web 版和 Teams 行動 (加入) 。
 
 > [!Note]
-> 「主要會議」或換句話說，「完全互動」使用者數目的目前限制為 WW 為 300，GCC、GCC High 和 DoD 為 250。
+> 「主要會議」或換句話說，完全互動使用者數目的目前限制為 300。
 
-## <a name="teams-view-only-experience-controls"></a>Teams 只能查看體驗控制項
+## <a name="teams-view-only-experience-controls"></a>Teams 僅查看體驗控制項
 
 您可以使用 PowerShell 啟用僅查看體驗。
 
@@ -113,7 +113,7 @@ Teams 僅供檢視體驗可讓出席者：
 
 ## <a name="view-only-feature-limitations"></a>僅供檢視功能限制
 
-- 僅能觀看的出席者只能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
+- 只有只能觀看的出席者才能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
 - 串流技術將支援僅供檢視出席者。
 - 出席報告中不會包含僅供檢視出席者。
 - 僅供檢視出席者將擁有單一視訊體驗。 他們可以看到目前主講人或正在共用的內容，但不能同時看到兩者。

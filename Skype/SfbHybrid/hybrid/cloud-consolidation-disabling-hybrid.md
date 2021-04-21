@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包含針對團隊和商務用 Skype 進行雲整合時停用混合式的詳細步驟。
-ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656699"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899104"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>停用混合式設定，以完成將遷移至雲端的工作
 
@@ -106,7 +106,10 @@ ms.locfileid: "51656699"
 
 管理員可以管理先前已從內部部署商務用 Skype Server 移至雲端的使用者，即使已解除內部部署的部署。 若要變更使用者的 sip 位址或使用者的電話號碼 (而且 sip 位址或電話號碼在內部部署 Active Directory) 中已有值，您必須在內部部署 Active Directory 中執行這項作業，並讓) 流向 Azure AD 的值 (s。 這不需要內部部署商務用 Skype Server。 相反地，您可以使用 Active Directory 使用者和電腦 MMC 嵌入式管理單元來直接修改內部部署 Active Directory 中的這些屬性 (，如) 所示，或是使用 PowerShell。 如果您使用的是 MMC 嵌入式管理單元，請開啟使用者的 [屬性] 頁面，按一下 [屬性編輯器] 索引標籤，然後尋找適當的屬性進行修改：
 
-- 若要修改使用者的 sip 位址，請修改 `msRTCSIP-PrimaryUserAddress` 。 請注意，如果 `ProxyAddresses` 屬性包含 sip 位址，也會將此值更新為最佳作法。 雖然所填入的 sip 位址 `ProxyAddresses` 已在 O365 中忽略，但 `msRTCSIP-PrimaryUserAddress` 其他內部部署元件也可以使用它。
+- 若要修改使用者的 sip 位址，請修改 `msRTCSIP-PrimaryUserAddress` 。
+
+    > [!NOTE]
+    > 如果 `ProxyAddresses` 屬性包含 sip 位址，也會將此值更新為最佳作法。 雖然所填入的 sip 位址 `ProxyAddresses` 已在 O365 中忽略，但 `msRTCSIP-PrimaryUserAddress` 其他內部部署元件也可以使用它。
 
 - 若要修改使用者的電話號碼，請修改 `msRTCSIP-Line` *是否已有值*。
 
@@ -172,7 +175,7 @@ ms.locfileid: "51656699"
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. 執行下列內部部署商務用 Skype PowerShell Cmdlet，將 sip 位址值新增回內部部署 Active Directory proxyAddresses。 這會防止依賴此屬性的互通性問題。 
+5. 執行下列內部部署 Active Directory Module for Windows PowerShell Cmdlet，將 sip 位址值新增回內部部署 Active Directory proxyAddresses。 這會防止依賴此屬性的互通性問題。 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"

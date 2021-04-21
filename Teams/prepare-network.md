@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768382"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899084"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -40,12 +40,11 @@ ms.locfileid: "51768382"
     |[IP 位址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、<strong>52.112.0.0/14</strong> 和 <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > 如果需要與商務用 Skype (內部部署或線上) 進行同盟，您必須設定一些額外的 DNS 記錄。
+    > 如果需要與商務用 Skype (內部部署或線上) 進行同盟，您必須設定額外的 DNS 記錄。
     >
-    >|CNAME 記錄/主機名稱  |TTL  |指向位址或值  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|DNS 記錄  |服務  |Protocol (通訊協定)  |Priority (優先順序)  |Weight (權數)  |Port (連接埠)  |Target (目標)  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  您是否有 Microsoft 365 或 Office 365 的經驗證網域 (例如，contoso.com)？
     
@@ -60,9 +59,9 @@ ms.locfileid: "51768382"
 一旦確認您符合這些網路需求，就可以開始[推出 Teams](./deploy-overview.md)。 如果您是大型的多國企業，或如果您知道有一些網路限制，請繼續閱讀以了解如何評估及最佳化 Teams 的網路。
 
 > [!IMPORTANT]
-> **適用於教育機構**：如果您的組織是教育機構，且您使用學生資訊系統 (SIS)，請在推出 Teams 之前[部署學校資料同步處理](/schooldatasync/)。
+> **適用於教育機構**：如果您的組織是教育機構，且您使用學生資訊系統 (SIS)，請在推出 Teams 之前 [部署學校資料同步處理](/schooldatasync/)。
 >  
-> **執行內部部署商務用 Skype Server**：如果您的組織執行的是內部部署商務用 Skype Server (或 Lync Server)，您必須[設定 Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect)，以與 Microsoft 365 或 Office 365 同步處理您的內部部署目錄。
+> **執行內部部署商務用 Skype Server**：如果您的組織執行的是內部部署商務用 Skype Server (或 Lync Server)，您必須 [設定 Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect)，以與 Microsoft 365 或 Office 365 同步處理您的內部部署目錄。
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監視您的網路 
 
@@ -85,8 +84,8 @@ ms.locfileid: "51768382"
 <table>
 <thead>
 <tr class="header">
-<th><strong>網路​​最佳化工作</strong></th>
-<th><strong>詳細資料</strong></th>
+<th>網路​​最佳化工作</th>
+<th>詳細資料</th>
 </tr>
 </thead>
 <tbody>

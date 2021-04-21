@@ -2,7 +2,7 @@
 title: Teams 中的核准應用程式可用性
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103009"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902567"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -40,6 +40,9 @@ ms.locfileid: "51103009"
 
 本文章說明核准應用程式的需求和角色。
 
+> [!NOTE]
+> 這項功能尚未發行給政府社群雲端 (GCC) 、政府社群雲端高 (GCCH) ，以及美國 (DOD) 使用者。
+
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
 若要使用核准應用程式，您需要下列項目的權限：
@@ -54,7 +57,7 @@ ms.locfileid: "51103009"
 
 ## <a name="storage-with-cds"></a>CDS 的儲存空間
 
-Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它包含一組由 Microsoft 和我們的合作夥伴所發佈的標準化、可延伸資料架構，可跨應用程式和商務程序實現資料的一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
+Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它由 Microsoft 和我們的合作夥伴所發佈的一組標準化、可擴展的資料架構所組成，可讓資料在應用程式和商務程式間保持一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
 
 深入了解[核准工作流程](/power-automate/modern-approvals)。
 
