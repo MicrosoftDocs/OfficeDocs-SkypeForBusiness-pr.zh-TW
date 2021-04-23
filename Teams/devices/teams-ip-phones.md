@@ -21,24 +21,24 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以獲得最佳結果。
-ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
-ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
+ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51886712"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948649"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認證裝置
 
 Microsoft Teams 認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以符合此較高的列，且符合認證要求的裝置。 我們的部分合作夥伴也正在努力在 Teams 電話的相同硬體上，為商務用 Skype 服務提供支援。 Microsoft Teams 認證裝置的好處包括：
+Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在 Teams 電話的相同硬體上，為商務用 Skype 服務提供支援。 Microsoft Teams 認證裝置的好處包括：
 
 - 使用硬體按鈕整合和 LED 通知的 Native Teams 體驗
 - 日曆整合和一鍵式會議加入
 - 透過 Teams 系統管理中心與 Intune 整合進行部署和管理
 
-## <a name="currently-certified-teams-phones"></a>目前通過認證的 Teams 電話
+## <a name="currently-certified-teams-phones"></a>目前通過 Teams 電話的認證
 
 下列裝置在 Microsoft Teams 電話認證計畫下通過認證：
 
@@ -72,6 +72,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 | 裝置模型 | 固件版本 | 發行日期  | 會議室大小                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021 年 4 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  |
 | Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 中型會議室 (4.5m x 6m)  |
 | Yealink CTP18 觸控主控台  | 137.15.0.28    | 2021 年 3 月 | 與 Yealink MeetingBar A20 和 Yealink MeetingBar A30 相容 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  |
@@ -138,7 +139,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 | Yealink VP59        | 91.15.0.54         | 2020 更新#7           |
 | Yealink CP960       | 73.15.0.115      | 2020 更新#7           |
 
-請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能相關資訊。
+請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能。
 
 請參閱 [Microsoft Teams 顯示](teams-displays.md)。
 
@@ -157,7 +158,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以決定對應的 Microsoft Teams 應用程式、公司入口網站和系統管理代理程式，在包含的產品發行欄中尋找產品發行，以判斷 **已安裝的版本。** 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以決定對應的 Microsoft Teams 應用程式、公司入口網站和系統管理代理程式，在包含的產品發行欄中尋找產品版本，以判斷 **已安裝的版本。** 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
@@ -182,7 +183,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以決定對應的 Microsoft Teams 應用程式、公司入口網站和系統管理代理程式，在包含的產品發行欄中尋找產品發行，以判斷 **已安裝的版本。** 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以決定對應的 Microsoft Teams 應用程式、公司入口網站和系統管理代理程式，在包含的產品發行欄中尋找產品版本，以判斷 **已安裝的版本。** 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -191,7 +192,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能相關資訊。
+請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 

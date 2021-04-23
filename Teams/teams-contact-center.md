@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式聯絡人中心服務概觀 (CCaaS) Microsoft Teams 解決方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 14d83255644d3f748fdc81144b944ec4b62f5fbd
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656749"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948689"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合
 
@@ -26,13 +26,13 @@ ms.locfileid: "51656749"
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合是什麼？
 
-現今的聯絡中心提供的支援遠非支援，它們可成為互動的主要工具之一，並針對客戶與品牌的體驗提供未經篩選的意見回饋。 由於現今客戶偏好跨電話、電子郵件、文字、社交等多種頻道互動，以及與目前購買程式相關的觸控點數量擴大，許多組織已發現兩個額外的事實：
+現今的聯絡中心提供的支援遠非支援，它們可成為互動的主要工具之一，並針對客戶與品牌的體驗提供未經篩選的意見回饋。 由於現今客戶偏好跨電話、電子郵件、文字、社交等多種頻道互動，以及與現今購買程式相關的觸控點數量擴大，許多組織已發現兩個額外的事實：
 
 1. 組織的每一個成員都有可能直接與客戶互動，因此必須配備適當的工具。
 
-2. 這種擴大的客戶互動範圍需要工具，有助於推動一致性、持續改善和縮放。
+2. 這種客戶互動的擴大範圍需要工具，有助於推動一致性、持續改善和縮放。
 
-Microsoft Teams 可在其通訊模式中，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中心，支援客戶互動的資料流程。 針對部分公司，Microsoft Teams[的雲端](./cloud-voice-landing-page.md)語音功能[](./what-are-phone-system-auto-attendants.md)，包括自動語音語音和通話[佇列](./create-a-phone-system-call-queue.md)，提供功能和組態，以滿足其需求。
+Microsoft Teams 可在其通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中心，支援客戶互動的資料流程。 針對部分公司，Microsoft Teams[的雲端](./cloud-voice-landing-page.md)語音功能[](./what-are-phone-system-auto-attendants.md)，包括自動語音語音和通話[佇列](./create-a-phone-system-call-queue.md)，提供功能和組態，以滿足其需求。
 
 對於想要整合商務工具和工作流程的解決方案以推動客戶歷程的其他人，Microsoft Teams 也會與業界一些頂尖的連絡人中心整合為服務 (CCaaS) 解決方案提供者。
 
@@ -65,6 +65,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 隨著更多解決方案提供者加入並符合認證準則，這份清單將會更新。
@@ -75,7 +76,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 使用 Connect 模型內建之解決方案的代理人可以收集資訊&深入見解，並視需要直接將電話轉接給主題專家，使用中小型企業在 Teams 中的目前狀態，確保他們的可用性。
 
-組織可以設定自動化虛擬助理和以技能為基礎的路由佇列，確保呼叫路由到最佳代理人。
+組織可以設定自動化虛擬助理和技能型路由佇列，確保呼叫路由到最佳代理人。
 
 **功能重點：**
 
@@ -105,7 +106,7 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 雖然下列不是此整合模型的功能全面清單，但它確實會強調主要焦點區域：
 
-  - 與 Teams 整合的 Teams Graph API 和雲端通訊 API 
+  - Teams Graph API 和雲端通訊 API，可與 Teams 整合 
 
   - 適用于代理人體驗的 Teams 型應用程式 
 
@@ -123,9 +124,9 @@ API 允許解決方案提供者開發並整合 Teams 的 CCaaS 解決方案。 �
 
 ### <a name="power"></a>權力
 
-此模型可讓解決方案提供者使用 Teams 通話基礎結構和用戶端平臺來建立原生 Azure 語音應用程式，為共同合作的客戶和代理人員連接提供現代化且智慧的解決方案。 延伸與 Power 的目標是激發開發人員的創造力，並提升客戶的生產力。
+此模型可讓解決方案提供者使用 Teams 通話基礎結構和用戶端平臺來建立原生 Azure 語音應用程式，以提供現代化智慧型解決方案，以用於共同操作的客戶和代理人員連接。 延伸與 Power 的目標是激發開發人員的創造力，並提升客戶的生產力。
 
-直接在 Azure 上建立，解決方案提供者可以跨所有 Teams 地區和地理位置快速部署和部署其解決方案，受益于我們的共用全域通訊網路，同時利用 Azure 的儲存空間、計算、分析&認知服務。
+直接在 Azure 上建立，解決方案提供者可以跨所有 Teams 地區和地理位置快速部署和部署其解決方案，從我們共用的全域通訊網路獲益，同時利用 Azure 的儲存空間、計算、分析&認知服務。
 
 使用擴充和 Power 整合模型，解決方案提供者可以提供連絡人中心代理提供全通道通訊體驗，同時整合人工智慧，以自訂參與者或其他服務參與在 Microsoft Graph 中運用雲端 [通訊 API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的通話方式和時間。
 

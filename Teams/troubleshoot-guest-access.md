@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afa30ad1b264088294f775bd69d52e29c5bb423d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0468d0d3d1cc7a8d1c17699e28c1449e1f7800c8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116541"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948679"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>針對 Microsoft Teams 中的來賓存取問題進行疑難排解
 
@@ -32,12 +32,14 @@ ms.locfileid: "51116541"
 - 瞭解 [Teams 藍圖](https://aka.ms/teamsroadmap)中近期新增或更新的來賓存取功能。
 - 在 [Teams UserVoice](https://aka.ms/TeamsUserVoice)中告訴我們您想要的內容。
 
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 ## <a name="if-your-guests-are-seeing-license-errors"></a>如果您的來賓看到授權錯誤
 
 Teams 中的來賓存取使用 Azure Active Directory (Azure AD) 企業對企業 (B2B) 及其授權模型。 來賓存取隨附於所有 Microsoft 365 商務標準版、Office 365 企業版和 Office 365 教育版訂閱。 您不需要額外的 Microsoft 365 或 Office 365 授權。
 
 > [!NOTE]
-> 必須在來賓的家用租使用者上啟用 Teams，來賓才能在租使用者的另一個資源上以來賓 (Teams) 使用 Teams。
+> 來賓的家用租使用者必須啟用 Teams，來賓才能在另一個資源或租使用者上以來賓 (Teams) 使用。
 
 如果您看到授權錯誤，請務必閱讀 [Azure AD 外部](/azure/active-directory/external-identities/external-identities-pricing) 身分標識的帳單模型，以判斷授權需求，以滿足貴組織中來賓存取的需求。
 

@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 尋找 Microsoft StaffHub 的停用以及 Microsoft Teams 中轉換至 Shifts App 的常見問題解答。
+description: 尋找 Microsoft StaffHub 的停用以及 Microsoft Teams 中移轉至 Shifts App 的常見問題解答。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64416c08c7fa43883bfab060d63c7a7598ea3218
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092439"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948699"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
@@ -45,7 +45,7 @@ Microsoft StaffHub 已經停用，自 2020 年 6 月 30 日生效。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Teams 會提供 StaffHub 目前提供的所有功能嗎？
 
-在 2019 年 1 月，Teams 開始提供先前在 Microsoft StaffHub 中提供的班次。 此功能可讓主管規劃及發佈班次排程，讓小組成員有機會從他們的行動裝置來審查排程，以及提出排程變更要求。 若要深入瞭解，請參閱在 Teams 中管理貴組織的 [Shifts 應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)。
+在 2019 年 1 月，Teams 開始提供先前在 Microsoft StaffHub 中提供的班次。 此功能可讓主管規劃及發佈班次排程，讓小組成員有機會從行動裝置上查看排程，以及提出排程變更要求。 若要深入瞭解，請參閱在 Teams 中管理 [貴組織的 Shifts 應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
 我們承諾提供一流的使用者體驗，將 StaffHub 的獨特功能帶到 Teams。
 
@@ -81,7 +81,7 @@ Teams 中的 Shifts 應用程式是一種排程管理工具，可保持前線員
 
 針對管理員，桌面和 Web 應用程式已優化以建立團隊、新增成員、建立和發佈排程，以及與小組共用內容。 管理員通常會使用行動應用程式來核准要求、傳送快速訊息給小組、打電話給團隊成員，以及隨時隨地共同合作。 
 
-針對小組成員，行動應用程式已優化以查看他們的排程、查看他們每天與誰一起工作、上班打卡和下班打卡、設定可用性、要求請假、調班或提供班和開啟班。 在桌面和 Web App 中，使用者可以執行與行動應用程式不同的操作。 我們正在處理功能奇偶性。
+針對小組成員，行動應用程式已優化以查看他們的排程、查看他們每天與誰合作、上班打卡、設定可用性、要求假、調班或提供班和開啟班。 在桌面和 Web App 中，使用者可以執行與行動應用程式不同的操作。 我們正在處理功能奇偶性。
 
 #### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Shifts iOS App 與 Android 應用程式之間是否有差異？
 
@@ -92,7 +92,7 @@ Teams 中的 Shifts 應用程式是一種排程管理工具，可保持前線員
 Shifts 適用于 Teams 支援的所有瀏覽器，包括最新版的 Microsoft Edge、Internet Explorer、Google Chrome 和 Mozilla Firefox。 詳細資訊，請參閱取得 [Teams 的用戶端](../../get-clients.md)。
 
 > [!Note]
-> 自 2021 年 8 月 17 日起，Microsoft 365 應用程式和服務不支援 Internet Explorer 11 (Microsoft Teams 將不支援 Internet Explorer 11，從 2020 年 11 月 30 日) 。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是 Windows 作業系統的[](/lifecycle/faq/internet-explorer-microsoft-edge)一個元件，並遵循安裝該作業系統之產品的生命週期政策。 
+> 自 2021 年 8 月 17 日起，Microsoft 365 應用程式和服務不支援 Internet Explorer 11 (Microsoft Teams 將不支援 Internet Explorer 11，從 2020 年 11 月 30 日) 。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是 Windows 作業系統的[](/lifecycle/faq/internet-explorer-microsoft-edge)一個元件，並遵循其安裝之產品的生命週期政策。 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts 支援哪些語言？
 
@@ -130,7 +130,7 @@ Teams 支援與商務用 Skype 共存。 詳細資訊請參閱瞭解 Teams 和�
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>我可以從 Shifts 匯出班次排程嗎？
   
-您可以將班次排程資訊從 Shifts 桌面和 Web 應用程式匯出至 Excel 檔案。 然後，您可以將這項資訊導入貴組織的系統與工具。
+您可以將班次排程資訊從 Shifts 桌面和 Web App 匯出至 Excel 檔案。 接著，您可以將這項資訊導入貴組織的系統與工具。
 
 #### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>如果我不小心刪除團隊，如何復原排程？
 
@@ -138,7 +138,7 @@ Teams 支援與商務用 Skype 共存。 詳細資訊請參閱瞭解 Teams 和�
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>Teams 中的檔案共用功能具有哪些功能？ 檔案儲存在哪裡？
 
-檔案共用功能是管理員將檔案發佈給小組成員的功能，由 SharePoint Online 在後端提供。 建立團隊時，系統會自動在背景中為該團隊配置 Microsoft 365 群組。
+檔案共用功能是管理員將檔案發佈給小組成員的功能，由 SharePoint Online 在後端提供電源。 建立團隊時，系統會自動在背景中為該團隊配置 Microsoft 365 群組。
 
 若要深入瞭解，請參閱 [SharePoint Online](../../SharePoint-OneDrive-interact.md)和商務用 OneDrive 如何與 Teams 互動。
  
@@ -148,7 +148,7 @@ Teams 支援與商務用 Skype 共存。 詳細資訊請參閱瞭解 Teams 和�
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>哪些系統管理控制項可管理組織中使用者是否可以使用 Shifts？  
   
-您可以為組織中的所有使用者開啟或關閉全組織的 Shifts。 在 Microsoft Teams 系統管理中心，您也可以使用前線員工應用程式設定政策，自訂適用于前線員工團隊的 Teams。 此策略已與活動、班次、聊天和通話應用程式一起配置。 指派策略將這些應用程式釘釘到 Teams 中的應用程式欄，以便使用者快速且輕鬆地存取。 
+您可以為組織中的所有使用者開啟或關閉全組織的 Shifts。 在 Microsoft Teams 系統管理中心，您也可以使用前線員工應用程式設定政策，為前線員工自訂 Teams。 此策略已與活動、班次、聊天和通話應用程式一起配置。 指派策略將這些應用程式釘釘到 Teams 中的應用程式欄，以便使用者快速且輕鬆地存取。 
 
 若要深入瞭解，請參閱在 Teams 中管理貴組織的 [Shifts 應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
@@ -158,10 +158,13 @@ Teams 支援與商務用 Skype 共存。 詳細資訊請參閱瞭解 Teams 和�
 
 如果這是您感興趣的專案，請透過 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)上的 Teams 意見回應入口網站傳送要求給我們。
 
+
+[!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
+
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>報告是否可用於查看整個組織的班次使用方式？
 
 由於 Shifts 是 Teams 中的應用程式，因此您可以透過 Teams 報表來查看使用方式。 詳細資訊，請參閱 Microsoft [Teams 系統](../../teams-analytics-and-reports/teams-reporting-reference.md) 管理中心中的 Teams 報告，以及 [Microsoft 365](../../teams-activity-reports.md)系統管理中心的 Teams 活動報告。
 
 #### <a name="where-can-i-provide-feedback"></a>我可以在哪裡提供意見回饋？
   
-在行動應用程式中 **，點一** 下畫面左上方的更多專案、前往設定  >  **傳送** 意見或 **報告問題**。 同樣地，在桌面和 Web 應用程式中，在畫面左下角，前往協助  >  **分享** 想法或 **報告問題**。
+在行動應用程式中 **，點一** 下畫面左上角的更多專案，前往設定  >  **傳送** 意見或 **報告問題**。 同樣地，在桌面和 Web 應用程式中，在畫面左下角，前往協助  >  **分享** 想法或 **報告問題**。

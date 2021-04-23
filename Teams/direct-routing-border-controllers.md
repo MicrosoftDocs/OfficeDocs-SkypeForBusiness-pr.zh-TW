@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 系統管理員可以瞭解哪些會話邊界控制器 (SBC) 直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 99684ef9e3a86fed267d57a2d5482f45dabfe176
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697698"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948669"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -73,11 +73,11 @@ Microsoft 會與每個廠商合作，以：
 |                                                                                                                    |      Vme           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支援 3.20 (建議 4.0)         |  <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |  &#10004;   |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [思科](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) 1000 系列整合式服務路由器        |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
+|                     [思科](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 系列整合式服務路由器 (CUBE) 整合的 Cisco Unified Border 元素        |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
 |                                   |     Cisco Unified Border Element (CUBE) 4000 系列整合式服務路由器        |     &#10004;   | &#10004; |   支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |   <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     1000V 系列雲端服務路由器 (CUBE) 的 Cisco Unified Border 元素       |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
-|                                 |     1000 系列匯總服務路由器 (CUBE) 整合 Border 元素      |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
-|                                 |     Cisco Unified Border Element (CUBE) 的1000 Edge 平臺      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                                 |     適用于 1000 系列匯總服務路由器 (CUBE) 整合 Border 元素      |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                                 |     Cisco Unified Border Element (CUBE) 11000 Edge 平臺      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    企業版 Avaya 會話邊界控制器 ( ASBCE)     |     &#10004;     |       &#10004;     |       第 8.1.1 (8.1.2 版媒體旁路)       |     |    | 
 |                     [諾基亞](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 會話邊界控制器    |     &#10004;     |           |       1908 (19.5)        |     |    | 
 |                     |    Nokia 會話邊界控制器    |     &#10004;     |           |       20.8       |      <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (內緊急路由服務) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[內部緊急閘道 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
@@ -109,5 +109,9 @@ Microsoft 會與每個廠商合作，以：
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  使用 Grandstream GXW42xx (V1.0.7.10)  |     &#10004;     |
   | [思科](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 多平臺類比電話配接器 |     &#10004;     |
   
-若要提供 Teams 的產品意見，例如新功能的想法，請參閱 [Uservoice](https://microsoftteams.uservoice.com)。
+若要提供有關 Teams 的產品意見，例如新功能的想法，請參閱 [Uservoice](https://microsoftteams.uservoice.com)。
+
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 請注意授予主要版本的認證。 這表示支援主要版本之後 SBC 中任何號碼的固件。

@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b69b156e5cea0ff63925e91f5e3c077c794b3425
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2d063cae8b87ffcacd63676da17fc000384c432c
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117031"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948621"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和商務用 OneDrive 如何與 Microsoft Teams 互動
 
 > [!Tip]
 > 觀看以下工作階段以了解 Teams 如何與 Azure Active Directory (AAD)、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive 進行互動：[Microsoft Teams 的基礎](https://aka.ms/teams-foundations)
 
-Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個小組網站，而團隊中的每個標準頻道會獲得預設小組網站文件庫中的資料夾。 在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。 若要在 SharePoint 中查看變更網站位址的影響，請閱讀 [變更網站位址](/sharepoint/change-site-address)。
+Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個小組網站，團隊中的每個標準頻道會獲得預設小組網站文件庫中的資料夾。 在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。 若要在 SharePoint 中查看變更網站位址的影響，請閱讀 [變更網站位址](/sharepoint/change-site-address)。
 
 > [!NOTE]
 > 本文僅適用于標準頻道。 私人頻道的架構與標準通道不同。 每個私人頻道都有自己的 SharePoint 網站集合，與父小組網站分開。 若要深入瞭解，請參閱 [Microsoft Teams 中的私人頻道](private-channels.md)。
@@ -53,6 +53,8 @@ Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個小組網
 > [!NOTE]
 > 目前無法將預設的 SharePoint 網站和文件庫取代為另一個網站和文件庫。 我們聽到您要求，我們正在考慮。 查看 [Teams 藍圖](https://aka.ms/teamsroadmap) 或 [Teams UserVoice，](https://aka.ms/TeamsUserVoice) 以隨時瞭解即將推出的功能。
 
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 > [!TIP]
 > 若要新增連結至現有 SharePoint 網站頁面或現有 SharePoint 文件庫的小組的 Tab：
 > 1. 選取定位停駐點旁的加號。
@@ -71,7 +73,7 @@ Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個小組網
 
 Teams **中的** 檔案選項卡與 SharePoint 檔視圖非常類似。 在檔案 **選項卡** 上，使用者可以：
 
-- 在新增檔案功能表中查看 **其他** 選項。
+- 請參閱新增檔案功能表中 **的其他** 選項。
 - 將檔案同步處理至其本地磁碟機。
 - 在所有 **檔功能表** 上，從清單視圖切換到 **壓縮清單** 至 **磚** 視圖。
 - 識別需要注意或具有惡意攻擊的檔案。
