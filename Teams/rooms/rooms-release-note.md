@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft Teams 會議室的發行資訊，其中列出 Microsoft Teams 會議室的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768364"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995291"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -29,6 +29,7 @@ ms.locfileid: "51768364"
 
 |釋放 |發佈至 <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -72,6 +73,15 @@ ms.locfileid: "51768364"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 會議室功能簡介和問題解決
 
+### <a name="48250-04222021"></a>2021/04/22 (4.8.25.0) 
+
+此更新仲介紹：
+- 修正 Teams 會議室主機上的會議室資訊無法顯示全域通訊錄和 GAL (帳戶) 
+
+> [!NOTE]
+> GCCH 客戶可以從手動更新 Microsoft Teams 會議室裝置下載 [升級套件](manual-update.md)
+
+
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021) 
 
 此更新仲介紹：
@@ -111,7 +121,7 @@ ms.locfileid: "51768364"
 
 - 在會議室顯示器前面看到更多 3x3 影片庫的影片  
 - 從國電啟動當地即時隱藏式字幕
-- 使用直接來賓加入的 Teams 會議室加入縮放會議 (預覽) 
+- 從 Teams 會議室加入具有直接來賓加入的縮放會議 (預覽) 
 
 > [!NOTE]
 > 3x3 影片庫和本地即時隱藏式字幕會透過 Microsoft Teams 服務提供。 這些功能適用于應用程式版本 4.5.37.0 及更新版本的所有 Teams 會議室裝置。
@@ -128,7 +138,7 @@ ms.locfileid: "51768364"
 此更新仲介紹：
 
 - 直接加入來賓，從 Teams 會議室加入 Cisco WebEx 會議
-- Teams 系統管理中心的啟用和自動註冊
+- Teams 系統管理中心啟用和自動註冊
 - Windows 10 1909 版本支援
 - 切換至影片庫版面配置，即使內容存在時
 - 虛擬舉手支援出席者及簡報者的控制項
@@ -201,7 +211,7 @@ ms.locfileid: "51768364"
 此更新仲介紹：
 
 - 新的內容攝影機功能，讓使用者智慧地將傳統白板納入 Teams 會議
-- 主控台 UI 的其他改良功能，以減少雜亂，將設定移至新的側邊欄，該側邊欄可透過主控台上的更多功能存取
+- 主控台 UI 的其他改良功能，以減少雜亂，將設定移至新的側邊欄，該側邊欄可透過主控台上的其他功能存取
 - 如果未連接本地內容纜線或內容相機未連接，則停用的共用區按鈕
 - 修正了觸控式鍵盤在重新開機後第一次出現觸控式鍵盤失敗的問題
 - 品質和可靠性修正
@@ -213,8 +223,8 @@ ms.locfileid: "51768364"
 - Skype 會議室系統商店應用程式重新商標為「Microsoft Teams 會議室」
 - 已重新對齊 Microsoft Teams 的 Microsoft Teams 會議室主控台使用者介面
 - 主題更新：只在會議室顯示器前保留自訂背景影像，同時將主機背景成為中性色彩，以確保主機 UI 控制項符合色彩對比 — 協助工具需求
-- Teams 通話/會議的會議內通話控制項通用欄，提供 Microsoft Teams PC/Web/Mobile 用戶端一致的體驗<sup>1</sup>
-- Teams 通話/會議後的通話品質意見回饋<sup>評等 1</sup>
+- Teams 通話/會議會議內通話控制項的通用欄，提供 Microsoft Teams PC/Web/Mobile 用戶端的一致體驗<sup>1</sup>
+- Teams 通話/會議後通話品質意見評<sup>等 1</sup>
 - 從 PC/Web/Mobile Teams 用戶端<sup>1 2</sup><sup></sup>共用時，在會議室顯示器前方的 Microsoft Teams 會議室中接收/呈現 Microsoft Whiteboard
 - 由於 Microsoft Teams 會議室用戶端的相容性問題，已移除 Windows 10 版本 1809 升級的支援。 Windows 10 版本 19H1 支援將會在未來版本中新增
 
@@ -227,7 +237,7 @@ ms.locfileid: "51768364"
 此更新仲介紹：
 
 - 修正「提供意見回饋」功能的問題
-- 準備即將推出的 Microsoft Teams 會議室裝置升級至 Windows 10 版本 1809 的優化
+- 準備即將升級至 Windows 10 版本 1809 的 Microsoft Teams 會議室裝置優化
 
 ### <a name="40780-03142019"></a>2019/03/14 (4.0.78.0) 
 
@@ -242,10 +252,10 @@ ms.locfileid: "51768364"
 - 適用于 Microsoft Teams P2P 會議和 PSTN 通話的 DTMF 鍵盤。 若要將 Microsoft Teams 設為預設通話用戶端，系統管理員必須將 IsTeamsDefaultClient 設為 true
 - 將遠端參與者的傳入視音訊釘到會議室顯示器前方的全螢幕。 使用主機上參與者名冊上的 「釘釘」命令
 - 大廳通知的改良功能，以及會議室前方通知的新增功能
-- 當 Microsoft Teams 會議室裝置上未啟用藍牙標誌時，會議室顯示投射圖示的前方已移除
+- Microsoft Teams 會議室裝置上未啟用藍牙標誌時，會議室顯示投射圖示的前方已移除
 - 修正 Teams 會議中的大量控制問題
 
-### <a name="40640-12142018"></a>2018 年 12 月 14 (4.0.64.0) 
+### <a name="40640-12142018"></a>2018/12/14 (4.0.64.0) 
 
 此更新仲介紹：
 
@@ -277,7 +287,7 @@ ms.locfileid: "51768364"
 
 此更新仲介紹：
 
-- 無法啟動的Cresron應用程式的 Hotfix 通常會在按下Crsron SR 裝置上的應用程式按鈕時便於使用。 安裝 4.0.19.0 之後，Microsoft Teams 會議室應用程式必須重新開機。
+- 無法啟動的Crsron應用程式的 Hotfix，當按下Crsron SR 裝置上的應用程式按鈕時，通常便於使用。 安裝 4.0.19.0 之後，Microsoft Teams 會議室應用程式必須重新開機。
 
 ### <a name="40180-08272018"></a>2018/08/27 (4.0.18.0) 
 
@@ -301,7 +311,7 @@ ms.locfileid: "51768364"
 
 - 修正在應用程式啟動期間在某些系統上觀察到的錯誤。
 
-### <a name="311130-06132018"></a>2018/06/13 (3.1.113.0) 
+### <a name="311130-06132018"></a>2018 年 06 月 13 (3.1.113.0) 
 
 此更新仲介紹：
 
@@ -319,7 +329,7 @@ ms.locfileid: "51768364"
 
 此更新仲介紹：
 
-- 修正在 Windows 10 版本 1709 (中改善螢幕) 鍵盤的行為
+- 修正在 Windows 10 (1709) 中改善 OSK 鍵盤和螢幕小鍵盤的行為
 - 準備未來作業系統更新的改良功能
 
 ### <a name="311000-03162018"></a>2018/03/16 (3.1.100.0) 
@@ -342,13 +352,13 @@ ms.locfileid: "51768364"
 - 錯誤/當機修正以改善穩定性
 - 支援可變大小的主機
 - 外部音訊處理卸載 (媒體允許清單) 
-- 可讓 IT 專業人員使用 Windows 10 版本 1709 1709 年 1 月更新及更新版本來建立自己動手的映射的優化。
+- 可讓 IT 專業人員使用 Windows 10 版本 1709 年 1 月更新及更新版本建立自己動手的映射的優化。
 
 ### <a name="30160-11272017"></a>2017/11/27 (3.0.16.0) 
 
 此更新仲介紹：
 
-- 修正「提供意見回饋」功能的問題。
+- 修正了「提供意見回饋」功能的問題。
 
 ### <a name="30150-1032017"></a>2017 年 10 月 3 (3.0.15.0) 
 
@@ -356,7 +366,7 @@ ms.locfileid: "51768364"
 
 - 支援 [Polycom MSR 系列](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 固定式硬體
 - 支援 [Logitech Brio](https://www.logitech.com/product/brio)
-- 解決當會議室沒有 (時，) 主機和會議室前顯示器無法進入睡眠模式的問題
+- 解決在聊天室中 (主機和會議室) 無法進入睡眠模式的問題
 
 ### <a name="30120-912017"></a>2017/9/1 (3.0.12.0) 
 
@@ -369,7 +379,7 @@ ms.locfileid: "51768364"
 
 自 Microsoft Teams 會議室版本 3.0.12.0 (更新 3) 起，不再支援 64 位版本的 Windows 10 企業紀念版 (英文版本 1607) 。
 
-### <a name="3080-842017"></a>2017 年 8 月 4 (3.0.8.0) 
+### <a name="3080-842017"></a>2017/8/4 (3.0.8.0) 
 
 此更新仲介紹：
 
@@ -402,8 +412,8 @@ ms.locfileid: "51768364"
 - Skype 會議的一鍵式加入
 - 針對螢幕填滿 HD 影片和 HD 寬頻音訊的會議室優化 Skype 會議體驗
 - 所有參與者無論身在何處，都可以使用他們所選擇的裝置連接到 Skype 會議
-- 從目錄中邀請人員，您可以立即看到他們的可用性，或透過電話通話
-- 支援商務用 Skype PSTN 會議與 PSTN 通話以取代會議室中的獨立會議電話
+- 從目錄中邀請人員，您可以立即看到他們的可用性，或透過電話
+- 支援商務用 Skype PSTN 會議和 PSTN 通話以取代會議室中的獨立會議電話
 
  **轉換任何會議室**
 
@@ -416,9 +426,9 @@ ms.locfileid: "51768364"
  **易於部署、易於管理**
 
 - 當裝置偵測到會議室中的人員時，會自動喚醒顯示器的永遠啟動裝置
-- 在 Skype 會議 App 中輕鬆部署及更新 UWP (Windows 平臺) 應用程式
-- Windows AppLocker 將裝置鎖定至 Skype 會議應用程式
-- 透過 Intune 和 Configuration Manager 以 Windows 10 企業 (MDM) 
+- 在 Skype 會議應用程式中輕鬆部署及更新 UWP (Windows 平臺) 應用程式
+- Windows AppLocker 會鎖定裝置至 Skype 會議應用程式
+- 透過 Intune 和 Configuration Manager 以 Windows 10 企業版裝置的方式監控 (MDM) 
 - 企業級可靠性
 - 由於熟悉的 Skype 使用者介面，使用者的訓練投入不足
 - 在 Surface Pro 4 平板電腦執行

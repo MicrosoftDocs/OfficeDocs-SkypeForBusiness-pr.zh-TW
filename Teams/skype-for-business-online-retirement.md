@@ -18,20 +18,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eac7d39835abdb05ee86be47504c3f9fecc7022
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5b8973034f9d0b65a5b6bdc11069a1e81efc477
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117011"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995151"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
-2019 年 7 月，我們宣佈商務用 Skype Online 將于 **2021** 年 7 月 31 日停用，讓我們的客戶有兩年時間規劃其轉換至 Microsoft 365 團隊合作中心 Microsoft Teams 的計畫。 在剩下不到一年的時間，我們想要確保客戶擁有規劃及成功升級 Teams 所需的資訊和資源。
+2019 年 7 月，我們宣佈商務用 Skype Online 將于 **2021** 年 7 月 31 日停用，給予客戶兩年時間，以規劃他們向 Microsoft 365 團隊合作中心 Microsoft Teams 的轉換。 在剩下不到一年的時間，我們想要確保客戶擁有規劃及成功升級 Teams 所需的資訊和資源。
  
 ## <a name="why-is-skype-for-business-online-retiring"></a>為什麼商務用 Skype Online 即將停用？
 
-自推出以來，商務用 Skype Online 已成為全球數百萬人的寶貴工具。 商務用 Skype Online 將立即訊息、通話和視訊合併成一個應用程式，為商務通訊建立了新的可能性。 Microsoft Teams 是該願景的下一個章節。
+自推出以來，商務用 Skype Online 一直是全球數百萬人的寶貴工具。 商務用 Skype Online 將立即訊息、通話和視訊合併成一個應用程式，為商務通訊提供了新的可能性。 Microsoft Teams 是該願景的下一個章節。
 
 Microsoft Teams 的功能已超出商務用 Skype Online 的功能。 Teams 將聊天、視訊、通話、檔共同合作和應用程式整合合併成單一體驗，讓 Teams 完全採用全新的工作方式。 持續平臺創新與開發意味著 Teams 使用者受益于更豐富的性能、功能、彈性和安全性。
 
@@ -42,9 +42,9 @@ Teams 不只是商務用 Skype Online 的升級，也是一項功能強大的工
 
 商務用 Skype Online 于 2021 年 7 月 31 日停用後，即無法再使用這項服務。 在那之前，目前的商務用 Skype Online 客戶不會在服務上發生任何變更，並能夠根據需要新增使用者。 自 2019 年 9 月 1 日起，所有新的 Microsoft 365 客戶已直接在 Teams 上機，進行聊天、會議和通話。
 
-完全轉換至 Teams 所需時間會根據組織的獨特特性而不同，包括使用者數目、技術複雜度和內部可變更的適適性。 因此，我們建議您立即規劃升級至 Teams，不僅為了確保有充足時間從商務用 Skype 順利轉換，而且更快速地瞭解 Teams 的好處。
+完全轉換至 Teams 所需時間會根據組織的獨特特性而不同，包括使用者數目、技術複雜度，以及內部可變更的適適性。 因此，我們建議您立即規劃升級至 Teams，不僅為了確保有充足時間從商務用 Skype 順利轉換，而且更快速地瞭解 Teams 的好處。
 
-大部分 Microsoft 365 商務版和企業版方案都提供 Teams，而您現有的授權投資會轉用於 Teams。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 例如，如果您獨立購買音訊會議，或作為商務用 Skype E5 的一部分，音訊會議就會在 Teams 中啟用。
+大部分 Microsoft 365 商務版和企業版方案都提供 Teams，而您現有的授權投資會轉用於 Teams。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 例如，如果您獨立購買音訊會議，或是使用商務用 Skype 購買 E5，則 Teams 中將會啟用音訊會議。
 
 Skype 消費者服務和商務用 Skype Server 不受商務用 Skype Online 的停用影響。
 
@@ -52,7 +52,7 @@ Skype 消費者服務和商務用 Skype Server 不受商務用 Skype Online 的�
 
 ## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>Microsoft 正在協助客戶轉換至 Teams 嗎？
 
-利用各種可用資源，協助規劃 Teams 部署及從商務用 Skype 升級：
+利用各種可用資源，協助規劃您的 Teams 部署及從商務用 Skype 升級：
 
 - [Teams 部署和升級檔](upgrade-start-here.md) - 適用于 IT 系統管理員的免費技術指南。
 
@@ -64,7 +64,7 @@ Skype 消費者服務和商務用 Skype Server 不受商務用 Skype Online 的�
 
 - [Teams 升級規劃研討會](./upgrade-workshops-landing-page.yml) – 免費的互動式升級規劃研討會，您將在這裡獲得可協助規劃及實作升級至 Teams 的指引、最佳做法和資源。
 
-- [Microsoft 合作夥伴](https://www.microsoft.com/solution-providers/home) - Microsoft 解決方案提供者可協助您充分利用 Teams。
+- [Microsoft 合作夥伴](https://www.microsoft.com/solution-providers/home) – Microsoft 解決方案提供者可協助您充分利用 Teams。
 
 - [Microsoft Teams 部落格](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) - 取得 Teams 的最新新聞，涵蓋新功能、採用和使用資源、Teams 裝置，以及與其他商務生產力應用程式的整合。
 
@@ -96,7 +96,7 @@ Skype 消費者服務和商務用 Skype Server 不受商務用 Skype Online 的�
 **Microsoft 是否會規劃排定的升級？**<br>
 目前我們未對企業客戶規劃排程升級。 因為 Teams 對於客戶的組織而言有其意義，所以客戶可以選擇在商務用 Skype Online 於 2021 年 7 月 31 日的停用日期之前，移至 Teams。 我們將為系統管理員和使用者提供工具與指導，協助轉換至 Teams。
 
-為了支援可能沒有專屬 IT 資源的較小客戶，Microsoft 正在協助從商務用 Skype Online 自動升級至 Teams。 符合資格的客戶可透過電子郵件和訊息中心通知，收到升級的通知。 通訊中提供更多詳細資料。 如需詳細資訊，請參閱[從商務用 Skype Online 到 Microsoft Teams 的自動升級](./upgrade-automated.md)。
+為了支援可能沒有專屬 IT 資源的較小客戶，Microsoft 正在協助從商務用 Skype Online 自動升級至 Teams。 符合資格的客戶可透過電子郵件和訊息中心通知，收到升級的通知。 通訊中提供更多詳細資料。 如需詳細資訊，請參閱[從商務用 Skype Online 到 Microsoft Teams 的自動升級](./upgrade-assisted.md)。
 
 **商務用 Skype Online 停用宣告會如何影響使用混合式組態 (商務用 Skype Online 和商務用 Skype Server) 的組織？**<br>
 使用線上和內部部署組態的混合式客戶，需要在 2021 年 7 月 31 日的停用日期之前，將使用者從商務用 Skype Online 轉換至 Microsoft Teams。 在停用商務用 Skype Online 之後，針對共存和互通性原則所建置的混合式組態升級路徑將會保留。 如需詳細資訊，請參閱[與商務用Skype 共存](coexistence-chat-calls-presence.md)和[了解 Microsoft Teams 和商務用 Skype 的共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。

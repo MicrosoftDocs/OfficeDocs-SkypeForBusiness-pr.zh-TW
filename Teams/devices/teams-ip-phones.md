@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以獲得最佳結果。
-ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948649"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995161"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認證裝置
 
@@ -38,7 +38,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 - 日曆整合和一鍵式會議加入
 - 透過 Teams 系統管理中心與 Intune 整合進行部署和管理
 
-## <a name="currently-certified-teams-phones"></a>目前通過 Teams 電話的認證
+## <a name="currently-certified-teams-phones"></a>目前通過認證的 Teams 電話
 
 下列裝置在 Microsoft Teams 電話認證計畫下通過認證：
 
@@ -47,7 +47,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 | AudioCodes C435HD                      | 1.12.33                                                  | 2021 年 4 月                 |
 | AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
-| 音訊代碼 C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
+| AudioCodes C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 |Cresron UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
 | Cresron M100                          | 此產品已停用。 如要詳細資訊，請流覽[Crsron網站上Crsron M100。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 已于 2020 (5/11)  |
 | Cresron Flex UC-P100-T & UC-P110-T    | 此產品已停用。 如要詳細資訊 [，請流覽](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) Crsron網站上 UC Phone。                  | 已于 2020 (5/11)  |
@@ -139,13 +139,13 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 | Yealink VP59        | 91.15.0.54         | 2020 更新#7           |
 | Yealink CP960       | 73.15.0.115      | 2020 更新#7           |
 
-請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能。
+請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) ，以瞭解這些裝置支援的功能相關資訊。
 
 請參閱 [Microsoft Teams 顯示](teams-displays.md)。
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 會議室的產品發行資訊
 
-以下是 Android App 上的最新 Teams 會議室和固件版本。
+以下是 Android 應用程式的最新 Teams 會議室和固件版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -158,10 +158,13 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以決定對應的 Microsoft Teams 應用程式、公司入口網站和系統管理代理程式，在包含的產品發行欄中尋找產品版本，以判斷 **已安裝的版本。** 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以決定對應的 Microsoft Teams 應用程式、公司入口網站和系統管理代理程式，在包含的產品發行欄中尋找產品發行，以判斷 **已安裝的版本。** 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.3.2.286154          | 2021 更新#1    |
+| Poly Studio X50 | 3.3.2.286154          | 2021 更新#1    |
+| Poly TC8 | 3.3.2.286154                 | 2021 更新#1    |
 | Yealink VC210 |118.15.0.47     | 2021 更新#1    |
 | Yealink MeetingBar A20 | 133.15.0.54     | 2021 更新#1    |
 | Yealink MeetingBar A30 | 133.15.0.54     | 2021 更新#1    |
@@ -196,7 +199,7 @@ Microsoft Teams 認證計畫可確保品質較高的橫條圖，具有更高的�
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
-Microsoft Teams 授權可以購買為 [Microsoft 365 或 Office 365 訂閱](/office365/servicedescriptions/teams-service-description)的一部分。 若要深入瞭解在手機上使用 Microsoft Teams 所需的授權，請參閱可用的 [電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams 授權可購買為 [Microsoft 365 或 Office 365 訂閱的一部分](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用 Microsoft Teams 所需的授權，請參閱可用的 [電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 若要取得 Teams 詳細資訊，請參閱如何 [取得 Microsoft Teams 的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
