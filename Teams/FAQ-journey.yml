@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6ba7e86d6abd9cca8fa6745549eb85f064bdc9d1
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: 7ae2f78db68a84106b25329f374ac93f616fba31
+  ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51094841"
+  ms.lasthandoff: 04/24/2021
+  ms.locfileid: "51995271"
 title: 常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 summary: ''
 sections:
@@ -84,7 +84,7 @@ sections:
       目前我們未對企業客戶規劃排程升級。 因為 Teams 對於客戶的組織而言有其意義，所以客戶可以選擇在商務用 Skype Online 於 2021 年 7 月 31 日的停用日期之前，移至 Teams。 我們將為系統管理員和使用者提供工具與指導，協助轉換至 Teams。
 
 
-      為了支援可能沒有專屬 IT 資源的小型客戶，Microsoft 會協助從商務用 Skype Online 到 Teams 的自動升級。 符合資格的客戶可透過電子郵件和訊息中心通知，收到升級的通知。 通訊中提供更多詳細資料。 如需詳細資訊，請參閱[從商務用 Skype Online 到 Microsoft Teams 的自動升級](upgrade-automated.md)。
+      為了支援可能沒有專屬 IT 資源的小型客戶，Microsoft 會協助從商務用 Skype Online 到 Teams 的自動升級。 符合資格的客戶可透過電子郵件和訊息中心通知，收到升級的通知。 通訊中提供更多詳細資料。 如需詳細資訊，請參閱[從商務用 Skype Online 到 Microsoft Teams 的自動升級](upgrade-assisted.md)。
   - question: Teams 的後端基礎結構有哪些優點？
     answer: >
       Teams 是針對雲端，在可高度調整的微服務架構上建置的，讓頻寬的使用更有效率，提供更強固的遙測，並且在中斷程度最小的情況下進行維護和升級程序。 因此，使用者會看到更快的會議加入時間，並且有更佳的瀏覽器體驗，而不需要下載外掛程式。這種新式基礎結構可以輕鬆地進入 Microsoft 認知服務 (其中包括抄寫、翻譯、語音辨識和機器學習功能)，而且能夠讓通訊和共同作業更簡單、更有效率。
@@ -121,4 +121,4 @@ sections:
     answer: >
       [會議室裝置](https://products.office.com/microsoft-teams/across-devices)對於我們目前現代化工作場所的願景而言至關重要。 [雲端視頻互通性服務](./cloud-video-interop.md)可以使用可透過我們的合作夥伴 Pexip、Polycom 及 Blue Jeans 取得的現有 VTC 系統，支援 Teams 會議。
   - question: 最新一代的 Skype 會議室系統 v2 是否支援在 Teams 中舉行會議？
-    answer: 我們將 Skype 會議室系統重新建立為 Microsoft Teams 會議室，完全支援 Microsoft Teams 會議，只要在裝置上啟用 Teams，就可以輕鬆從商務用 Skype 移至 Teams。 除了讓使用者使用鄰近偵測功能識別附近的 Microsoft Teams 會議室之外，Teams 會議還可以加入單鍵、雙螢幕支援 Microsoft Whiteboard，並繼續提供創新功能，例如具有智慧捕獲的內容相機。
+    answer: 我們將 Skype 會議室系統重新建立為 Microsoft Teams 會議室，完全支援 Microsoft Teams 會議，只要啟用裝置上的 Teams，就可以輕鬆從商務用 Skype 移至 Teams。 除了讓使用者使用鄰近偵測功能識別附近的 Microsoft Teams 會議室之外，Teams 會議還可以加入單鍵、雙螢幕支援 Microsoft Whiteboard，並繼續提供創新功能，例如具有智慧捕獲的內容相機。
