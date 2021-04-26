@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: 淘汰商務用 Skype Online
         href: skype-for-business-online-retirement.md
+      - name: 商務用 Skype Online 協助升級
+        href: upgrade-assisted.md
       - name: 常見問題集
         href: FAQ-journey.yml
       - name: 參考資料
@@ -1422,8 +1424,6 @@ items:
       - name: 適用於零售業的 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 在系統管理中心中開始使用適用於零售業的 Teams 範本
-            href: retail-teams-templates-in-the-admin-console.md
           - name: 開始使用適用於零售業的 Teams 範本
             href: get-started-with-retail-teams-templates.md
       - name: 適用於政府機關的 Teams
