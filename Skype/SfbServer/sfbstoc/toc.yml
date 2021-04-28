@@ -13,7 +13,7 @@
         - name: 伺服器更新
           href: ../sfb-server-updates.md
     - name: Microsoft 電話語音解決方案
-      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      href: /MicrosoftTeams/cloud-voice-landing-page.md
       items:
         - name: 在商務用 Skype Server 中規劃含有內部部署 PSTN 連線功能的電話系統
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
