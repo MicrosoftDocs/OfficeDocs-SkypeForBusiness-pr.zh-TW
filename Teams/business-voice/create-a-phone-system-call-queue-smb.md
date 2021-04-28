@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何使用 Microsoft 365 商務語音設定通話佇列。
-ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030123"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064819"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>建立通話佇列 - 小型企業教學課程
 
@@ -42,6 +42,12 @@ ms.locfileid: "52030123"
 - 呼叫路由 - 在 *FIFO (* 中，) 呼叫路由 - 給代理人。
 
 - 處理佇列溢出和超時的選項。
+
+#### <a name="video-demonstration"></a>影片示範
+
+這段影片示範如何在 Teams 中建立通話佇列。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>開始之前
 

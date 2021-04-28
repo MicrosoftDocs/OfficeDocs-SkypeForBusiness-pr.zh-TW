@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 尋找適用于商務用 Skype 雲端連接器 Edition 的資訊，一組封裝式虛擬機器 (Vm) ，以 (雲端 PBX) 執行內部部署 PSTN 連線。
-ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75abeba6c97b59b4795fc3399ff6a983db57bbff
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113709"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064709"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype Cloud Connector Edition
 
@@ -34,7 +34,7 @@ ms.locfileid: "51113709"
 
 尋找適用于商務用 Skype 雲端連接器 Edition 的資訊，一組封裝式虛擬機器 (Vm) ，以 (雲端 PBX) 執行內部部署 PSTN 連線。
 
-如果您沒有現有的 Lync Server 或商務用 Skype Server 部署，雲端連接器 Edition 可能是貴組織的正確解決方案。 如果您仍在調查哪一個電話系統解決方案適合您的企業，請參閱 [Microsoft 電話語音解決方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)。
+如果您沒有現有的 Lync Server 或商務用 Skype Server 部署，雲端連接器 Edition 可能是貴組織的正確解決方案。 如果您仍在調查哪一個電話系統解決方案適合您的企業，請參閱 [Microsoft 電話語音解決方案](/microsoftteams/cloud-voice-landing-page)。
 
 這份檔描述 Cloud Connector Edition 需求和支援的拓撲，並協助您規劃雲端連接器 Edition 部署。 在設定雲端連接器環境之前，請務必閱讀本主題。 當您準備好部署及設定 Cloud Connector Edition 時，請參閱 [configure and Manage 商務用 Skype Cloud Connector edition](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -61,7 +61,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 - 雲端連接器不需要完整的內部部署商務用 Skype Server 部署。
 
-    目前，Cloud Connector 無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移至 Microsoft 365，並持續為使用者提供內部部署電話語音，請考慮使用現有的商務用 Skype 伺服器部署，使用具有內部部署連線的電話系統。 如需詳細資訊，請參閱[在商務用 Skype Server 中](plan-phone-system-with-on-premises-pstn-connectivity.md)[規劃您的電話系統 (雲端 PBX) 解決方案](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)及規劃使用內部部署 PSTN 連線的電話系統。
+    目前，Cloud Connector 無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移至 Microsoft 365，並持續為使用者提供內部部署電話語音，請考慮使用現有的商務用 Skype 伺服器部署，使用具有內部部署連線的電話系統。 如需詳細資訊，請參閱[在商務用 Skype Server 中](plan-phone-system-with-on-premises-pstn-connectivity.md)[規劃您的電話系統 (雲端 PBX) 解決方案](/microsoftteams/cloud-voice-landing-page.md)及規劃使用內部部署 PSTN 連線的電話系統。
 
 - 如果您有舊版商務用 Skype 或 Lync Server 部署，而且您已擴充架構，只要您已從環境中移除所有商務用 Skype 或 Lync Server 元件，便不需要清除雲端連接器部署的架構。
 
@@ -428,7 +428,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |出境  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> | (CRL) 的憑證吊銷清單  <br/> |
 |出境  <br/> |雲端 Connectorr 主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> |雲端連接器更新  <br/> 商務用 Skype Online  <br/> 系統管理員 PowerShell  <br/> Windows Update  <br/> |
 
-如果需要更嚴格的規則，請參閱下列 whitelisting URLs：
+如果需要更嚴格的規則，請參閱下列 allowlist URLs：
 
 - [URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中 URLs 365 的[憑證吊銷清單](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
@@ -711,7 +711,7 @@ Cloud Connector 2.1 和更新版本支援使用 Operations Management Suite (OMS
 
 如需詳細資訊，請參閱下列各主題：
 
-- [Microsoft 電話語音解決方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Microsoft 電話語音解決方案](/microsoftteams/cloud-voice-landing-page)
 
 - [設定及管理商務用 Skype 雲端連接器 Edition](configure-skype-for-business-cloud-connector-edition.md)
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215318"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064849"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -133,6 +133,7 @@ Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可�
 | **檔案** |   上傳、下載、存取、修改、註解及共用檔案 (不包括檔案內容)。|
 | **OneNote 課程筆記本** |  編輯筆記本中的頁面或章節 (不包括頁面內容)。|
 | **會議** |    出席 (不包括會議內容)。|
+| **[反映](reflect.md)** |   簽入 (包括值)。|
 
 > [!NOTE]
 > 收集的資料多數會在幾分鐘內出現在 Insights 中。 班級會議 (與其中一個班級頻道相關聯的會議) 中的出席資訊，會在會議結束後顯示幾小時 (通常最多為 24 小時)。

@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 深入瞭解使用內部部署 PSTN 連線的電話系統 (雲端 PBX) 規劃考慮。
-ms.openlocfilehash: e0caed5560e7b7609adbfccf79e4ef63ee4eae09
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afa97a00b474017e6aed5e92802e7ba13483f7af
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110539"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064699"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃含有內部部署 PSTN 連線功能的電話系統
 
@@ -34,7 +34,7 @@ ms.locfileid: "51110539"
 
 深入瞭解使用內部部署 PSTN 連線的電話系統 (雲端 PBX) 規劃考慮。
 
-如果您已在內部部署中部署商務用 Skype Server 或 Lync Server 2013，則此內容是相關的。 如需其他案例，請參閱 [Microsoft 電話語音解決方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)。
+如果您已在內部部署中部署商務用 Skype Server 或 Lync Server 2013，則此內容是相關的。 如需其他案例，請參閱 [Microsoft 電話語音解決方案](/microsoftteams/cloud-voice-landing-page)。
 
  使用內部部署 PSTN 連線的電話系統可讓您為使用者利用電話系統 (雲端 PBX) 功能。 這可協助您進行下列案例：
 

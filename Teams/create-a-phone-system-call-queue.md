@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何使用 Microsoft Teams 設定電話佇列的電話系統，提供問候訊息、等候音樂、重新導向通話及其他功能。
-ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995281"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064799"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -49,6 +49,12 @@ ms.locfileid: "51995281"
 
 若要設定通話佇列，請在 Teams 系統管理中心展開 [**語音** 與通話佇列>，然後按一下 [**新增**。
 
+## <a name="video-demonstration"></a>影片示範
+
+這段影片顯示如何在 Teams 中建立通話佇列的基本範例。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
+
 ## <a name="resource-account-and-language"></a>資源帳戶和語言
 
 ![資源帳戶和語言設定螢幕擷取畫面](media/call-queue-name-language.png)
@@ -57,7 +63,7 @@ ms.locfileid: "51995281"
 
 2. 按一下 **[新增帳戶**，搜尋要用於此通話佇列的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。  (代理人收到來電時，會看到資源帳戶名稱。) 
 
-3. 選擇支援 [的語言](create-a-phone-system-call-queue-languages.md)。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (會) 。
+3. 選擇支援 [的語言](create-a-phone-system-call-queue-languages.md)。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (語音信箱) 。
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>佇列中保留的問候語和音樂
 
@@ -67,7 +73,7 @@ ms.locfileid: "51995281"
 
 > [!NOTE]
 > 上傳的錄製不能大於 5 MB。
-> Teams 通話佇列中提供的預設音樂，不含貴組織支付的任何版稅。 
+> Teams 通話佇列中提供的預設音樂不含貴組織支付的任何版稅。 
 
 ## <a name="call-agents"></a>通話代理人
 
@@ -90,20 +96,20 @@ ms.locfileid: "51995281"
 
 您可以個別新增最多 20 個代理程式，並透過群組最多新增 200 個代理程式。
 
-如果您想要新增個別使用者或群組至佇列，請選取選擇 **使用者和群組** 選項。 
+如果您想要將個別使用者或群組新排入佇列，請選取選擇 **使用者和群組** 選項。 
 
 若要將使用者新增到佇列，請按一下 **[新增** 使用者，搜尋使用者，按一下 [ **新增**，然後按一下 **[新增**> 。
 
 若要將群組新增到佇列，請按一下 [ **新增** 群組、搜尋群組、按一下 [ **新增**」，然後按一下 [ **新增**。 您可以使用通訊群組清單、安全性群組和 Microsoft 365 群組或 Microsoft Teams 團隊。
 
 > [!NOTE]
-> 新加入群組的使用者最多可能需要八小時，才能第一次通話到達。
+> 新使用者新加入群組最多可能需要八小時，才能第一次通話到達。
 
 ## <a name="call-routing"></a>通話路由
 
 ![會議模式和路由方法設定螢幕擷取畫面](media/call-queue-conference-mode-routing-method.png)
 
-**會議模式** 可大幅縮短在代理人接受通話後，來電者與代理人進行連接所花的時間。 若要讓會議模式運作，通話佇列中的代理人必須使用下列其中一個用戶端：
+**會議模式** 可大幅縮短在代理人接受通話後，來電者與代理人連上的時間量。 若要讓會議模式運作，通話佇列中的代理人必須使用下列其中一個用戶端：
 
   - 最新版的 Microsoft Teams 桌面用戶端、Android App 或 iOS 應用程式
   - Microsoft Teams 手機版本 1449/1.0.94.2020051601 或更新版本
@@ -121,7 +127,7 @@ ms.locfileid: "51995281"
 
 - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這一點可能相當理想，以確保所有通話代理人之間享有同等的機會。
 
-- **最長空閒** 時間會路由每個通話給閒置時間最長的代理人。 如果代理的目前狀態為可用，或其目前狀態為離開狀態少於 10 分鐘，則視為閒置狀態。 目前狀態超過 10 分鐘的代理人不會被視為閒置狀態，且在將目前狀態變更為可用之前，將不符合接聽通話資格。 
+- **最長空閒** 時間會路由每個通話給閒置時間最長的代理人。 如果代理的目前狀態為可用，或其目前狀態為離開狀態少於 10 分鐘，則視為閒置狀態。 目前狀態超過 10 分鐘的代理人不會被視為閒置狀態，且在將目前狀態變更為可用之前，將不符合接聽電話資格。 
 
 ![路由、退出宣告和通知時間設定螢幕擷取畫面](media/call-queue-presence-agents-time.png)
 
@@ -139,8 +145,8 @@ ms.locfileid: "51995281"
 
 建議使用下列設定：
 
-- **會議模式** 至 **自動**
-- **將路由方法** 路由至 **Round robin** 或 **最長閒置時間**
+- **會議模式** 為 **自動**
+- **將路由方法****路由到 Round robin** 或 **最長閒置時間**
 - **目前狀態路由至** **On**
 - **代理人警示時間：****至 20 秒**
 
@@ -156,7 +162,7 @@ ms.locfileid: "51995281"
 您可以選擇中斷通話，或重新導向到任何通話路由目的地。 例如，您可能讓來電者為佇列中的代理人留下語音信箱。 如需外部傳輸，請參閱先決條件和外部[](plan-auto-attendant-call-queue.md#prerequisites)電話號碼傳輸[- 數位](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技術詳細資料。
 
 > [!NOTE]
-> 如果通話數上限設為 0，則問候語訊息將不會播放。
+> 如果通話次數上限設為 0，則問候語訊息將不會播放。
 
 ## <a name="call-timeout-handling"></a>通話超時處理
 
@@ -185,7 +191,7 @@ ms.locfileid: "51995281"
   - iPad 商務用 Skype 用戶端 (版本 6.16.0 及更新版本) 
   - Microsoft Teams Windows 用戶端 (32 位和 64 位版本) 
   - Microsoft Teams Mac 用戶端
-  - Windows 虛擬桌面基礎結構上的 Microsoft [Teams (](/microsoftteams/teams-for-vdi) Windows 虛擬桌面、Citrix 和 VSoft) 
+  - Windows 虛擬桌面基礎結構上的 Microsoft [Teams](/microsoftteams/teams-for-vdi) (Windows 虛擬桌面、Citrix 和 VSoft) 
   - Microsoft Teams iPhone 應用程式
   - Microsoft Teams Android 應用程式
 

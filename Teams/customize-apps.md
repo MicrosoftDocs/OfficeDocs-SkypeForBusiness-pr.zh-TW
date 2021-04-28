@@ -3,7 +3,7 @@ title: 在 Teams 中自訂 Microsoft 應用程式
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: vaagarw
+ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,17 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中自訂應用程式。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030137"
+ms.locfileid: "52059177"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在 Microsoft Teams 中自訂應用程式
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
  Microsoft Teams 提供 App 自訂功能，以增強 Teams 體驗。 有些應用程式開發人員允許 Teams 系統管理員自訂應用程式。管理員可以使用 Teams 系統管理中心管理應用程式頁面，根據組織需求自訂或重新建立應用程式 **屬性** 的品牌。 您可以自訂的詳細資訊有：
 
