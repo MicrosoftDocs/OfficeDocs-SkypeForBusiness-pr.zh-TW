@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2594b39fed7d7194aabacd5df1a977a9d1262d70
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
+ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064860"
+ms.locfileid: "52070649"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>在 Microsoft Teams 中 Reflect 的 IT 系統管理員指南
 
-本文件提供與 [Reflect](https://aka.ms/reflect) 有關的資訊 ，這是 [Microsoft Teams 教育版 Insights](class-insights.md) 不可或缺的一部分。 Reflect 提供定期分享和聆聽的機會，協助學生辨識並瀏覽他們的心得。 Reflect 可協助拓展學習者的情緒詞彙，並加強對同儕的同理心，同時也為了健康的課堂社群，向教育人員提供寶貴的意見反應。
+本文件提供與 [Reflect](https://aka.ms/reflect) 有關的資訊 ，這是 [Microsoft Teams 教育版 Insights](class-insights.md) 不可或缺的一部分。 Reflect 提供定期分享和聆聽的機會，協助學生辨識並瀏覽他們的心得。 Reflect 可協助拓展學習者的情緒詞彙，並加強對同儕的同理心，同時也為了健康的課堂社群，向授課者提供寶貴的意見反應。
 
-此簽入應用程式使用表情圖示和有研究支持的情緒細微度，來支援教育人員在已經忙碌的例行工作中新增社交和情緒學習。
+此簽入應用程式使用表情圖示和有研究支持的情緒細微度，來支援授課者在已經忙碌的例行工作中新增社交和情緒學習。
 
 
 ## <a name="privacy-and-security"></a>隱私權和安全性
@@ -54,23 +54,25 @@ Reflect 遵循與教育版 Insights 相同的隱私權和安全性標準，以�
 
 若要讓使用者安裝並與任何應用程式互動，您必須在 **[管理應用程式]** 頁面上允許組織層級的應用程式，以及指派給使用者的 **應用程式權限原則**。
 
-如果您先前已定義每個應用程式都需要允許，請前往 [管理應用程式] 頁面並「允許」Reflect。 **當您封鎖應用程式時，該應用程式不會在 Teams 中對貴組織的任何使用者顯示。**
+如果您先前已定義每個應用程式都需要允許，請前往 [管理應用程式] 頁面並「允許」Reflect。 **當您封鎖某個應用程式時，該應用程式不會在 Teams 中對組織的任何使用者顯示。**
+
+> [!NOTE]
+> 若要存取 Reflect 應用程式，您需要 Microsoft 365 的 A1、A3 或 A5 授權。
 
 > [!TIP]
-> 有關其他詳細資料，請參閱 [如何允許應用程式，或將其新增到班級團隊](manage-apps.md#allow-and-block-apps)。
+> 如需詳細資料，請參閱[如何允許應用程式或將其新增到班級團隊](manage-apps.md#allow-and-block-apps)。
 
-
-## <a name="where-do-educators-find-reflect"></a>教育人員在哪裡找到 Reflect？
-一旦啟用 Reflect 之後，教育人員會前往班級，然後選取 **[新增交談]**。 然後，他們會選取「**...**」來顯示傳訊擴充功能，然後在搜尋列輸入 **Reflect**。 對話方塊會引導他們定義問題，以及誰可以看到問題。
+## <a name="where-do-educators-find-reflect"></a>授課者可以在哪裡找到 Reflect？
+啟用 Reflect 之後，授課者可以前往班級，然後選取 [新增交談 **]**。 然後，他們會選取「**...**」來顯示傳訊擴充功能，然後在搜尋列輸入 **Reflect**。 對話方塊會引導他們定義問題，以及誰可以看到問題。
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="將 Reflect 新增到班級團隊":::
 
-他們可以用滑鼠右鍵按一下 [Reflect] 圖示 ，然後選取 **[釘選]** 以輕鬆存取。
+他們可以用滑鼠右鍵按一下 Reflect 圖示，然後選取 [釘選 **]** 以輕鬆存取。
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="釘選 Insights 應用程式":::
-
-> [!TIP]
-> 您也可以透過以下連結找到 Reflect 應用程式：[https://aka.ms/getReflect](https://aka.ms/getReflect)
+:::image type="content" source="media/reflect-pin-app.png" alt-text="釘選 Reflect 應用程式":::
 
 > [!TIP]
-> 有關其他詳細資料，請瀏覽 [Reflect 支援頁面](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)。 此頁面提供教育人員和學生的指導方針，以及有助於建立他們的第一個 Reflect 簽入的方式。
+> 您也可以透過此連結找到 Reflect 應用程式：[https://aka.ms/getReflect](https://aka.ms/getReflect)
+
+> [!TIP]
+> 有關其他詳細資料，請瀏覽 [Reflect 支援頁面](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)。 此頁面提供授課者和學生的指導方針，以及有助於建立他們的第一個 Reflect 簽入的方式。
