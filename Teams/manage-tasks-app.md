@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101149"
@@ -121,7 +121,7 @@ Contoso 總部和中級經理可以查看報告，以瞭解每個商店和商店
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate 和圖形 API
 
-[工作] 可支援待辦事項的 Power Automate 以及 Planner 的圖形 API。 若要深入了解，請參閱：
+[工作] 可支援待辦事項的 Power Automate 以及 Planner 的圖形 API。如需深入了解，請參閱：
 
 - [Planner 工作和計畫 API 概觀](/graph/planner-concept-overview)
 - [透過 Power Automate 使用 Microsoft To Do](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

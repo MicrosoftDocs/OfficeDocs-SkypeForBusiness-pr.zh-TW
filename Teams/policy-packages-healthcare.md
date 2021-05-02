@@ -23,7 +23,7 @@ searchScope:
 description: 瞭解如何使用和管理適用于貴醫療保健組織的 Teams 原則套件。
 ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117761"
@@ -84,7 +84,7 @@ Teams 目前包含下列醫療保健原則套件。
 
 ### <a name="assign"></a>指派
 
-將原則套件指派給使用者。 如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
+將原則套件指派給使用者。如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>將原則套件指派給一或多個使用者
 

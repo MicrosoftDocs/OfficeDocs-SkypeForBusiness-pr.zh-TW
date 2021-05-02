@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: 使用 Microsoft Teams 設定您的虛擬就診系統
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096277"
@@ -66,7 +66,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 - Epic 客戶分析師
 
 > [!Note]
-> 請 [與Epic-Microsoft Teams 技術專員一起，查看Epic-Microsoft Teams Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) 整合指南。 確認所有先決條件都已完成。 
+> 請與您的 Epic 技術專家檢視 [Epic-Microsoft Teams 遠距健康整合指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。 確定所有先決條件都已完成。 
 
 ## <a name="connector-setup"></a>連接器設定
 
@@ -144,7 +144,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 - 提供者第一次加入虛擬就診時，必須使用其 Microsoft 365 帳戶進行一次性登入。
 
-- 一次性登入之後，提供者將直接進入 Microsoft Teams 中的虛擬約會。 (提供者必須已登入 Microsoft Teams)。
+- 一次性登入之後，提供者將直接進入 Microsoft Teams 中的虛擬約會。(提供者必須已登入 Microsoft Teams)。
 
 - 提供者可以看到指定約會的參與者連線和中斷連線即時更新。 提供者可以看到病患何時連線到虛擬就診。
 

@@ -24,7 +24,7 @@ appliesto:
 ms.custom: ''
 ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092251"
@@ -81,7 +81,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 使用者可使用 [清單] 獲得桌上型電腦、Web 和行動裝置的體驗。 請務必瞭解，使用者無法使用 Teams 行動用戶端的 [清單] 建立新清單，或釘選現有清單。 若要在 Teams 行動用戶端查看或編輯清單，必須先使用 Teams 桌面版或 Web 用戶端上的清單建立或新增清單。
 
-訪客無法建立或刪除清單。 他們可以將清單項目新增至現有清單、開始新的清單項目交談，以及回覆有關清單項目的現有交談。
+訪客無法建立或刪除清單。他們可以將清單項目新增至現有清單、開始新的清單項目交談，以及回覆有關清單項目的現有交談。
 
 ### <a name="lists-and-the-sharepoint-app"></a>[清單] 和 SharePoint 應用程式
 
