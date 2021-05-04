@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的來賓體驗
+title: 來賓在 Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: 本文將說明來賓可用的 Microsoft Teams 功能。
-ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 本文將說明來賓Microsoft Teams使用的功能。
+ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092081"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129722"
 ---
-# <a name="guest-experience-in-teams"></a>Teams 中的來賓體驗
+# <a name="guest-experience-in-teams"></a>來賓在 Teams
 
-當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先在電子郵件訊息中選取 **開啟 Microsoft Teams，** 才能存取團隊及其頻道，才能接受邀請。
+當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先選取電子郵件訊息中的開啟 **Microsoft Teams，才能** 存取團隊及其頻道。
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面](media/guest-experience-image1.png)
     
@@ -36,31 +36,31 @@ ms.locfileid: "51092081"
 
 ![顯示標記的螢幕擷取畫面，指出團隊中的來賓人數](media/guest-experience-image2.png)
 
-請查看這些 Teams 中來賓體驗的影片：
+請觀看以下影片，瞭解以下Teams：
 - [以來賓的名次加入團隊](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [加入與來賓的 Teams 會議](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [與來賓Teams會議](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>比較團隊成員和來賓功能
 
-下表比較組織小組成員及其來賓可用的 Teams 功能。 Teams 系統管理員會控制來賓可用的功能。
+下表比較Teams小組成員及其來賓可用的功能。 Teams系統管理員控制來賓可用的功能。
 
-| Teams 中的功能 | 組織中 Teams 使用者 | 客人 |
+| 在 Teams | Teams組織中的使用者 | 客人 |
 |:-----|:-----|:-----|
-|建立頻道  <br/>  *團隊擁有者可控制此設定。*  <br/> |&#x2713;|&#x2713;|
+|建立頻道  <br/>  *團隊擁有者控制此設定。*  <br/> |&#x2713;|&#x2713;|
 |參與私人聊天  <br/> |&#x2713;|&#x2713;|
 |參與頻道交談  <br/> |&#x2713;|&#x2713;|
 |張貼、刪除及編輯郵件  <br/> |&#x2713;|&#x2713;|
 |共用頻道檔案  <br/> |&#x2713;|&#x2713;|
-|Access SharePoint 檔案<br/> |&#x2713;|&#x2713;|
-|附加檔案<br/> |&#x2713;|僅團隊聊天|
+|存取SharePoint檔案<br/> |&#x2713;|&#x2713;|
+|附加檔案<br/> |&#x2713;|僅頻道文章|
 |下載私人聊天檔案<br/> |&#x2713;|&#x2713;|
 |在檔案中搜尋<br/> |&#x2713;||
 |共用聊天檔案  <br/> |&#x2713;||
 |新增應用程式 (、Bot 或連接器)   <br/> |&#x2713;||
 |建立會議或存取排程  <br/> |&#x2713;||
-|存取商務用 OneDrive 儲存空間  <br/> |&#x2713;||
+|存取商務用 OneDrive儲存空間  <br/> |&#x2713;||
 |建立全租使用者和團隊/頻道來賓存取政策  <br/> |&#x2713;||
-|邀請 Microsoft 365 或 Office 365 組織網域以外的使用者 <br/>  *團隊擁有者可控制此設定。*  <br/> <br/> |&#x2713;||
+|邀請組織網域Microsoft 365外部Office 365使用者 <br/>  *團隊擁有者控制此設定。*  <br/> <br/> |&#x2713;||
 |建立團隊  <br/> |&#x2713;||
 |探索並加入公用小組  <br/> |&#x2713;||
 |查看組織結構  <br/> |&#x2713;||
@@ -69,7 +69,7 @@ ms.locfileid: "51092081"
 
 下表顯示與其他類型的使用者比較，來賓可以使用的通話和會議功能。
 
-| 通話功能 | 客人 | E1 和 E3 使用者 | E5 和企業語音使用者 |
+| 通話功能 | 客人 | E1 和 E3 使用者 | E5 和 企業語音使用者 |
 | --------------- | ----- | -------------- | -------------- |
 | VOIP 通話 | 是 | 是 | 是 |
 | 群組通話 | 是 | 是 | 是 |
@@ -100,7 +100,7 @@ ms.locfileid: "51092081"
 <sup>1</sup> 這項功能即將推出。
 
 > [!NOTE]
-> Azure Active Directory 中的來賓 **使用者** 存取限制 (Azure AD) 決定目錄中來賓的許可權。 有三個原則選項。
+> Azure **AD 中來賓使用者** 存取限制Azure Active Directory (決定) 目錄中來賓的許可權。 有三個原則選項。
 >  - **[來賓使用者的存取權和成員相同 (最包容)]** 設定表示來賓擁有的目錄資料存取權，與目錄中的一般使用者相同。
 >  - **[來賓使用者對目錄物件的屬性和成員資格擁有有限的存取權]** 設定表示來賓沒有特定目錄工作的權限，例如列舉使用者、群組，或使用 Microsoft Graph 的其他目錄資源。
 >  - **[來賓使用者存取權受限於其自身目錄物件的屬性和成員資格 (最受限制)]** 設定表示來賓只能存取自己的目錄物件。

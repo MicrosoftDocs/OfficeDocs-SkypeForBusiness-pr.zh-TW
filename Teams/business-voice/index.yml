@@ -8,80 +8,74 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51102949"
 productDirectory:
   items:
-  - title: 探索
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
-    links:
-    - url: whats-business-voice.md
-      text: 什麼是 Business Voice
-    - url: https://www.microsoft.com/microsoft-365/business-voice
-      text: Microsoft 365 Business Voice
-    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-      text: 服務描述
-  - title: 設定
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
-    links:
-    - url: ./what-to-buy.md
-      text: 如何取得 Business Voice
-    - url: get-ready-internet.md
-      text: 檢查您的網際網路連線
-    - url: prepare-users.md
-      text: 讓您的使用者準備就緒
-    - url: use-getting-started-wizard.md
-      text: 執行快速入門精靈
-  - title: 自訂您的設定
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
-    links:
-    - url: port-phone-numbers.md
-      text: 移植現有的電話號碼
-    - url: ./create-a-phone-system-auto-attendant-smb.md
-      text: 設定自動語音應答
-    - url: set-up-policies.md
-      text: 設定原則
-    - url: ./create-a-phone-system-call-queue-smb.md
-      text: 設定通話佇列
-  - title: 用途
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    links:
-    - url: create-users.md
-      text: 建立更多使用者
-    - url: manage-devices.md
-      text: 管理您的裝置
-    - url: monitor-quality.md
-      text: 監控通話品質
-    - url: analytics-dashboard.md
-      text: 通話分析品質儀表板
-  - title: 合作夥伴的資源
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
-    links:
-    - url: /partner-center/
-      text: 從合作夥伴中心取得 Microsoft 365 商務版
-    - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
-      text: 適用於合作夥伴的 Microsoft 365 Business Voice
-    - url: partner-resources.md
-      text: Microsoft 365 Business Voice 合作夥伴支援資源
-  - title: 需要協助嗎？
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    links:
-    - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
-      text: 連絡 Microsoft 365 或 Office 365 客戶支援
-    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
-      text: 中小型企業技術社群
-  - title: 說明文件
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    links:
-    - url: ../cloud-voice-landing-page.md
-      text: Microsoft Teams 系統管理文件
-    - url: https://microsoftteams.uservoice.com/
-      text: Microsoft Teams UserVoice 意見反應
-    - url: https://support.office.com/teams
-      text: Microsoft Teams 用戶端文件
-    - url: /office365/admin/
-      text: Microsoft 365 和 Office 365 系統管理文件
+    - title: 探索
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
+      links:
+        - url: whats-business-voice.md
+          text: 什麼是 Business Voice
+        - url: 'https://www.microsoft.com/microsoft-365/business-voice'
+          text: Microsoft 365 Business Voice
+        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
+          text: 服務描述
+    - title: 設定
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
+      links:
+        - url: ./what-to-buy.md
+          text: 如何取得 Business Voice
+        - url: get-ready-internet.md
+          text: 檢查您的網際網路連線
+        - url: prepare-users.md
+          text: 讓您的使用者準備就緒
+        - url: set-up-overview.md
+          text: 設定商務語音
+    - title: 自訂您的設定
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
+      links:
+        - url: port-phone-numbers.md
+          text: 移植現有的電話號碼
+        - url: ./create-a-phone-system-auto-attendant-smb.md
+          text: 設定自動語音應答
+        - url: set-up-policies.md
+          text: 設定原則
+        - url: ./create-a-phone-system-call-queue-smb.md
+          text: 設定通話佇列
+    - title: 用途
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      links:
+        - url: create-users.md
+          text: 建立更多使用者
+        - url: manage-devices.md
+          text: 管理您的裝置
+        - url: monitor-quality.md
+          text: 監控通話品質
+        - url: analytics-dashboard.md
+          text: 通話分析品質儀表板
+    - title: 合作夥伴的資源
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/success-blue.svg'
+      links:
+        - url: /partner-center/
+          text: 從合作夥伴中心取得 Microsoft 365 商務版
+        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
+          text: 適用於合作夥伴的 Microsoft 365 Business Voice
+        - url: partner-resources.md
+          text: Microsoft 365 Business Voice 合作夥伴支援資源
+    - title: 需要協助嗎？
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      links:
+        - url: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
+          text: 連絡 Microsoft 365 或 Office 365 客戶支援
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          text: 中小型企業技術社群
+    - title: 說明文件
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      links:
+        - url: ../cloud-voice-landing-page.md
+          text: Microsoft Teams 系統管理文件
+        - url: 'https://microsoftteams.uservoice.com/'
+          text: Microsoft Teams UserVoice 意見反應
+        - url: 'https://support.office.com/teams'
+          text: Microsoft Teams 用戶端文件
+        - url: /office365/admin/
+          text: Microsoft 365 和 Office 365 系統管理文件
