@@ -1045,20 +1045,40 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: 加拿大的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: 捷克的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
               - name: 丹麥的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: 芬蘭的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: 法國的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
               - name: 德國的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: 匈牙利的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
               - name: 愛爾蘭的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
               - name: 義大利的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: 日本的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: 盧森堡的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: 紐西蘭的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+              - name: 挪威的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+              - name: 波蘭的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
               - name: 葡萄牙的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: 羅馬尼亞的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+              - name: 新加坡的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+              - name: 斯洛伐克的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: 西班牙的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: 荷蘭的電話號碼管理
@@ -1231,8 +1251,24 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 讓您的使用者準備就緒
             href: business-voice/prepare-users.md
-      - name: 執行快速入門精靈
-        href: business-voice/use-getting-started-wizard.md
+      - name: 設定商務語音
+        items:
+          - name: 概觀
+            href: business-voice/set-up-overview.md
+          - name: 步驟 1：設定緊急位置
+            href: business-voice/set-up-emergency-locations.md
+          - name: 步驟 2：設定電話號碼
+            href: business-voice/set-up-phone-numbers.md
+          - name: 步驟 3：指派授權
+            href: business-voice/set-up-licenses.md
+          - name: 步驟 4：設定資源帳戶
+            href: business-voice/set-up-resource-account.md
+          - name: 步驟 5：將電話號碼指派給使用者
+            href: business-voice/set-up-assign-numbers.md
+          - name: 步驟 6：設定自動語音應答
+            href: business-voice/set-up-auto-attendant.md
+          - name: 安裝後資源
+            href: business-voice/set-up-finish.md
       - name: 自訂您的設定
         items:
           - name: 自訂選項
@@ -1387,6 +1423,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Teams 教育版原則精靈
             href: easy-policy-setup-edu.md
+          - name: Microsoft Teams 教育版中的職涯教練應用程式
+            href: career-coach.md
           - name: 監督 Teams 中的聊天
             href: supervise-chats-edu.md
           - name: 教育深入解析
