@@ -15,7 +15,7 @@ MS.collection:
 - Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: ''
+description: 瞭解您需要購買哪些授權和其他增益集，以設定 Microsoft 365 商務語音。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102819"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129862"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>使用 Microsoft 365 商務語音需要購買哪些項目？
 
@@ -38,7 +38,7 @@ ms.locfileid: "51102819"
 
 若要在 Microsoft Teams 中撥打或接聽 *外部* 電話號碼的電話，使用者需要 Microsoft 365 商務語音授權。 該授權提供使用者存取撥打或接聽電話、主持音訊會議等所需的所有功能。
 
-不需要撥打或接聽外部電話號碼電話的使用者只需要 Teams。 不需要 Microsoft 365 商務語音授權。
+不需要撥打或接聽外部電話號碼電話的使用者只需要 Teams。而不需要 Microsoft 365 商務語音授權。
 
 例如，您可能有 10 位工廠員工和 5 位辦公室員工。 工廠員工只需要在公司內撥打電話給其他員工。 辦公室員工需要撥打電話給其他員工，而且也需要撥打和接聽供應商、合作夥伴和客戶的電話。 在此情況下，只有那 5 位辦公室員工需要 Microsoft 365 商務語音授權。
 
@@ -46,7 +46,7 @@ ms.locfileid: "51102819"
 
 有兩種商務語音授權類型：商務語音 **附帶** 通話方案和商務語音 **不附帶** 通話方案。 您可以使用的商務語音授權類型取決於您的 Microsoft 365 租用戶的位置。 授權類型決定您是否可以從管理您的電話號碼的 Microsoft 合作夥伴或轉銷商取得協助，來自行設定商務語音等等。
 
-- **商務語音附帶通話方案** 您可以從 Microsoft 購買商務語音，使用 [快速入門精靈] 設定商務語音，然後將現有的電話號碼設定或轉移到 Microsoft。 本文[使用 [快速入門精靈] 設定商務語音](use-getting-started-wizard.md)說明如何為您的租用戶設定商務用語音。
+- **商務語音附帶通話方案** 您可以從 Microsoft 購買商務語音，自行設定，然後將現有的電話號碼設定或轉移到 Microsoft。 本文[設定 [Microsoft 365 商務語音]](set-up-overview.md)說明如何為您的租用戶設定商務用語音。
 
   如需購買商務語音附帶通話方案授權的詳細資訊，請參閱本文稍後的[商務語音附帶通話方案](#business-voice-with-calling-plan)。
 - **商務語音不附帶通話方案** 您需要從 Microsoft 合作夥伴或轉銷商購買商務語音，他們將協助您設定商務用語音。 您現有的電話號碼會保留在您目前的第三方電話提供者。 本文[從 Microsoft 轉銷商或合作夥伴取得協助](reseller-partner-support.md)，提供在您的租用戶中設定商務語音所需程序的概觀。
@@ -96,7 +96,7 @@ ms.locfileid: "51102819"
 
 ### <a name="communications-credits"></a>通訊點數
 
-通訊點數就像是一種數位錢包，可以用來支付撥打或接聽電話系統外部電話號碼的通話。 通訊點數可以在以下幾種情況下使用。
+通訊點數就像是一種數位錢包，可以用來支付撥打或接聽電話系統外部電話號碼的通話。通訊點數可以在以下幾種情況下使用。
 
 - **使用者用完國內通話方案或國際通話方案中的分鐘數：** 若使用者沒有國際通話方案，商務語音會自動開始使用通訊點數餘額分鐘數。
 - **沒有國際通話方案的使用者撥打國際通話：** 商務語音會自動開始使用通訊點數餘額分鐘數。

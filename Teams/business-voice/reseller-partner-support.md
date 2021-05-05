@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 瞭解如何從 Microsoft 轉銷商或合作夥伴取得支援，以協助在不使用通話方案下，設定 Microsoft 365 商務語音。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,19 +24,19 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4dd06a36fca100dd74cb49e1920cd2e3d2a31ca2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096903"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129732"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>從 Microsoft 轉銷商或合作夥伴取得協助
 
 > [!IMPORTANT]
-> 本文中的資訊僅適用於**不含**通話方案的 Business Voice。 閱讀本文之前，請參閱 [Business Voice 的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的 Business Voice。
+> 本文中的資訊僅適用於 **不含** 通話方案的 Business Voice。 閱讀本文之前，請參閱 [Business Voice 的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的 Business Voice。
 >
-> 如果您的租用戶位於支援含通話方案的 Business Voice 的國家或地區，請參閱[使用 [快速入門精靈] 設定商務語音](use-getting-started-wizard.md)。
+> 如果您的租用戶位於支援含通話方案的 Business Voice 的國家或地區，請參閱[設定 Microsoft 365 商務語音](set-up-overview.md)。
 
 設定不含通話方案的 Business Voice 需要設定電話系統直接路由。 直接路由可讓內部部署電話硬體、Microsoft 電話系統 (Business Voice 的核心功能) 和協力廠商公用交換電話網路 (PSTN) 供應商之間進行交互操作。 由於直接路由需要深入了解 Microsoft 電話系統、PSTN 連線、網路及其他技術技能，我們建議您由 Microsoft 合作夥伴或轉銷商來設定。 此外，不含通話方案授權的 Business Voice 只能從 Microsoft 合作夥伴和轉銷商取得。
 
@@ -56,4 +56,3 @@ Microsoft 合作夥伴或轉銷商可以：
 - 您的網際網路連線
 - 貴組織的獨特設計考量，例如支援話務中心的需求、電話系統通話功能表 (例如，按 1 轉接到銷售部門、按 2 取得技術支援)、會議室、電話亭等。
 - 現有的電話系統支援多少位置，以及這些位置之間的連線方式
-

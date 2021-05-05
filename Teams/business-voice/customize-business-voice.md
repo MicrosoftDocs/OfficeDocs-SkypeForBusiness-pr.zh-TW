@@ -14,19 +14,19 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 瞭解如何自訂 Microsoft 365 商務語音，以滿足組織的特定需求。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116001"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130222"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>自訂 Microsoft 365 商務語音
 
-[快速入門] 精靈會使用基本選項來設定商務語音，讓您能立即使用。 如果您是剛草創的小型企業，或是在大型組織中執行試驗，這些選項可能已經足夠。 您可以了解新電話號碼和通話功能表的基本概念。 
+[[商務語音設定指南]](set-up-overview.md) 會使用基本選項來設定商務語音，讓您能立即使用。 如果您是剛草創的小型企業，或是在大型組織中執行試驗，這些選項可能已經足夠。 您可以了解新電話號碼和通話功能表的基本概念。
 
 但您可能會想要自訂商務語音，以更符合您的業務需求。 例如，您可能會想將現有的電話號碼移至商務語音 (稱為號碼移植)。
 
