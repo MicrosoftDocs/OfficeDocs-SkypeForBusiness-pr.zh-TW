@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 127fc2831e58e7ddea152c7754015a9126390ecc
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129792"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212166"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -55,11 +55,20 @@ ms.locfileid: "52129792"
 
 - [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的授權。
 
+- 使用者需要 Microsoft Forms 授權才能設定新的核准範本。
+
 ## <a name="storage-with-cds"></a>CDS 的儲存空間
 
 Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它包含一組由 Microsoft 和我們的合作夥伴所發佈的標準化、可延伸資料架構，可跨應用程式和商務程序實現資料的一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
 
 深入了解[核准工作流程](/power-automate/modern-approvals)。
+
+從範本建立核准時，資料仍然會儲存在 CDS 中，例如標題、詳細資料、範本識別碼等。 在核准要求上提交的回復會儲存在 Forms 中。 深入瞭解 Microsoft  [Forms 的資料儲存空間](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
+
+>[!Note]
+>如果您在 Microsoft Forms 網站上刪除表單範本，將會中斷您的核准範本，而使用者將無法啟動要求。 使用者嘗試開啟 Microsoft Forms 上已刪除的核准範本時，收到「CDB TableNotFound」錯誤。
+
+核准範本會儲存在 <底片資料儲存體 (SDS) ，這是一個僅于 Microsoft 內部使用的相容儲存平臺。 組織範圍的範本會儲存在 SDS 的「租使用者區」中，而小組範圍的範本則儲存在 SDS 的「群組分片」中。 這表示組織範圍的範本會共用租使用者相同的生命週期，而小組範圍的範本會共用團隊的相同生命週期。 因此，永久刪除小組會刪除相關的範本。
 
 ## <a name="approvals-teams-app-permissions"></a>核准 Teams 應用程式權限
 
@@ -84,6 +93,15 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 - 使用小組的資訊來連絡他們。
 
+核准範本許可權
+
+- 所有團隊擁有者都可以為他們擁有的團隊建立核准範本。
+
+- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員 ，包括全域和小組的服務系統管理員Teams建立新的 Teams 小組。 這些系統管理員會新增為團隊的擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為團隊擁有者，以便他們擁有管理全組織範本的相同許可權。
+
+> [!Note]
+> 如果系統管理員刪除小組，您可以在 AAD Azure Active Directory (入口網站) 一個月還原該團隊，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此小組，您將失去所有相關的資料。
+
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
 核准應用程式預設可供使用。 您可以在 Teams 系統管理中心停用該應用程式。
@@ -105,6 +123,12 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 ## <a name="retention-policy"></a>保留原則
 
 從核准應用程式建立的核准會儲存在預設 CDS 環境中，該選項目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
+
+在小組擁有者從 Microsoft Forms Web App 的刪除表單選項卡中清除之前，不會刪除儲存在 Forms 中的資料。
+
+## <a name="data-limitations"></a>資料限制
+
+每個小組最多可以包含 400 個核准範本，而每個範本最多可以根據 Microsoft Forms 中的目前功能收集 50，000 個要求。
 
 ## <a name="auditing"></a>稽核
 
@@ -141,6 +165,14 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 - 已審查電子簽章要求
 
 - 已取消電子簽名要求
+
+- 建立新範本
+
+- 編輯現有的範本
+
+- 啟用/停用範本
+
+- 已查看範本
 
 若要存取流程內的更多稽核核准，請針對主要核准實體「核准」、「核准要求」和「核准回應」，在預設環境中啟用和設定稽核。 建立、更新和刪除作業是核准記錄的可稽核事件。 深入了解[安全性與合規性的稽核資料和使用者活動 - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
 

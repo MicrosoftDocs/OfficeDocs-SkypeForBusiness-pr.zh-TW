@@ -17,58 +17,58 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解 Microsoft 團隊中的自訂應用程式商店。
-ms.openlocfilehash: 9a7652550e34dc40e6e6d315f1c5c3b590067610
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+description: 瞭解在 Microsoft Teams 中自訂Microsoft Teams。
+ms.openlocfilehash: c3f034688170f73e0f41f284864d7b53937dea6d
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611828"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212178"
 ---
-# <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 團隊中的自訂應用程式商店
+# <a name="custom-apps-store-in-microsoft-teams"></a>自訂應用程式儲存在 Microsoft Teams
 
-現在，您可以新增您的標誌、自訂背景及自訂文字色彩，在小組中自訂貴組織的 app 與公司品牌，以讓使用者更容易地邀請使用者。
+現在，您可以新增標誌、自訂背景和自訂文字色彩Teams在 Teams 中自訂貴組織的應用程式存放區，使其更吸引使用者。
 
 > [!Note]
-> 署名變更將需要24小時才能生效。
+> 品牌變更需要 24 小時才能生效。
 
-您可以選取 [**團隊 app**  >  **自訂存放區**]，在系統管理中心存取 [自訂] 存放區。
+您可以選取自訂應用程式自訂市Teams **管理中心**  >  **中的自訂市場**。
 
-  ![醒目提示系統管理主控台的 [自訂貯存] 功能](media/customize-app-store.png)
+  ![系統管理主控台已強調自訂市集功能](media/customize-app-store.png)
 
-本文將說明自訂應用程式存放區的功能，以及如何使用它們。
+本文將說明自訂應用程式儲存功能，以及如何使用這些功能。
 
-## <a name="customize-your-organization-logo"></a>自訂您的組織標誌
+## <a name="customize-your-organization-logo"></a>自訂貴組織標誌
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您可以在這裡上傳您的組織標誌。 選取的標誌將會出現在 [   >  **針對您的租使用者建立的** 應用程式] 的 [團隊用戶端] 頁面。
+您可以在這裡上傳貴組織標誌。 選取的商標會出現在 **Teams租** 使用者版應用程式  >  **頁面的** 用戶端中。
 
-當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 標誌應該是240x60，否則將會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
+當您選取選擇 **圖片選項** 時，您可以上傳您所選擇的檔案。 標誌應為 240x60，否則會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
 
-- svg
+- .svg
 - .png
 - .jpg
 
-標誌會顯示在 [團隊] 商店的 [租使用者] 應用程式目錄右上角。
+標誌會顯示在市集的租使用者應用程式目錄的右上角Teams顯示。
 
-## <a name="customize-your-small-logo"></a>自訂小型標誌
+## <a name="customize-your-small-logo"></a>自訂您的小標誌
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您的組織 logomark 或小型標誌是代表您組織品牌的影像或符號，不會包含您的公司名稱。 Lovemark 可協助小組成員識別應用程式存放區。 選取的標誌會出現在 [應用程式] 頁面的 [團隊用戶端] 中。
+貴組織標誌或小型標誌是代表貴組織品牌且不包含公司名稱的影像或符號。 愛心標記可協助小組成員識別 App Store。 選取的標誌會出現在應用程式頁面的 Teams用戶端中。
 
-當您選取 [ **選擇圖片** ] 選項時，您可以上傳您所選擇的檔案。 Logomark 應該是32x32 圖元，否則將會調整成該大小。 它不應大於 5 MB。 支援的格式為：
+當您選取選擇 **圖片選項** 時，您可以上傳您所選擇的檔案。 標誌標記應為 32x32 圖元，否則會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
 
-- svg
+- .svg
 - .png
 - .jpg
 
-[小組商店] 登陸頁面中的 [ **建立給租** 使用者] 區段標題旁邊會顯示小型標誌。
+小型標誌會顯示在市/市登陸 **頁面的** Teams租使用者區段標題旁邊。
 
 ## <a name="customize-the-background-color"></a>自訂背景色彩
 
@@ -76,18 +76,18 @@ ms.locfileid: "49611828"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-請確定背景的對比度與文字有足夠的對比，讓使用者可以清楚地閱讀文字。 該背景會出現在團隊用戶端中，位於  >  **針對您租使用者標頭建立的** 應用程式中。
+請確定背景與文字有足夠的對比，讓使用者能清楚閱讀文字。 背景會出現在租使用者Teams的 **App**  >  **中**。
 
 您的選擇包括︰
 
-- 使用團隊用戶端預設背景主題
-- 選擇一張圖片。 當您選取背景圖片時，您可以上傳您所選擇的檔案。 背景應該是1212x100 圖元，否則將會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
-  - svg
+- 使用Teams用戶端預設背景主題
+- 選擇圖片。 當您選取背景圖片時，您可以上傳您所選擇的檔案。 背景應為 1212x100 圖元，否則會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
+  - .svg
   - .png
   - .jpg
-- 選擇自訂背景。 當您選取 **[選擇自訂色彩**] 時，會開啟色彩選擇器。 調整色彩選擇器的縮放比例，以選取您要的色彩。
+- 選擇自訂背景。 當您選取選擇 **自訂色彩時**，色彩選擇器隨即開啟。 調整色彩選擇器縮放比例，以選取您想要的色彩。
 
-背景圖像或色彩是用來做為 [團隊租使用者] 應用程式目錄中頂端橫幅的背景。
+背景影像或色彩會用來做為租使用者應用程式目錄中Teams橫幅的背景。
 
 ## <a name="customize-the-text-color-of-your-name"></a>自訂您名稱的文字色彩
 
@@ -95,21 +95,21 @@ ms.locfileid: "49611828"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-確定文字色彩與背景有足夠的對比，讓使用者可以清楚地閱讀貴組織的名稱。 文字將會出現在團隊用戶端中，位於  >  **針對您租使用者標頭建立的** 應用程式中。
+請確定文字色彩與背景有足夠的對比，讓使用者能清楚閱讀貴組織的名稱。 文字會顯示在適用于租使用者Teams的 **App**  >  **中的用戶端** 中。
 
-當您選取 **[選擇自訂色彩**] 時，會開啟色彩選擇器。 調整色彩選擇器的縮放比例，以選取您要的色彩。
+當您選取選擇 **自訂色彩時**，色彩選擇器隨即開啟。 調整色彩選擇器縮放比例，以選取您想要的色彩。
 
- ![色彩選擇器圖像](media/choose-a-custom-color.png)
+ ![色彩選擇器](media/choose-a-custom-color.png)
 
-## <a name="complete-the-customization-of-your-team-apps-store"></a>完成您的小組 app 商店的自訂
+## <a name="complete-the-customization-of-your-team-apps-store"></a>完成小組應用程式存放區自訂
 
-完成自訂應用程式商店之後，請務必選取 [ **儲存** ] 以儲存您的變更。
-若要預覽您的變更，請選取 [ **預覽 app store** ] 來查看您的自訂應用程式存放區的外觀。
+完成自訂應用程式存放區後，請務必 **選取儲存以** 儲存變更。
+若要預覽您的變更，請選取 **預覽應用程式存放** 區，以查看自訂 App Store 的呈現方式。
 
- ![[自訂 app] 存放區的預覽](media/app-store1.jpg)
+![自訂應用程式存放區預覽](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 這種方式可能會與自訂的應用程式存放區的最終版本不同，因為有些預設色彩是以使用者的團隊用戶端版本為基礎。
+> 呈現方式可能會與自訂應用程式存放區的最終版本不同，因為某些預設色彩會根據您的使用者版本的 Teams用戶端。
 
 ## <a name="related-article"></a>相關文章
 
