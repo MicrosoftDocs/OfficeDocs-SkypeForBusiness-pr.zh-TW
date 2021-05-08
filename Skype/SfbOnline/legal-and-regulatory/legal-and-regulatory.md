@@ -19,12 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: '這是必須發佈的內容，以符合在華北進行商務用 Skype Online 的協助工具、合規性和法規要求。 '
-ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: '這是必須發佈的內容，以滿足法國 Online 商務用 Skype的協助工具、合規性商務用 Skype法規要求。 '
+ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693098"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238655"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="dbe2c-103">法律和法規</span><span class="sxs-lookup"><span data-stu-id="dbe2c-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="4db1c-103">法律和法規</span><span class="sxs-lookup"><span data-stu-id="4db1c-103">Legal and regulatory</span></span>
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
