@@ -1,5 +1,5 @@
 ---
-title: 根據您方案的授權選項
+title: 不同方案的授權選項
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,15 @@ f1.keywords:
 - NOCSH
 ms.custom: None
 description: 瞭解雲端語音信箱。
-ms.openlocfilehash: 8c5d5cf27a1cf944c8b837168aceae5da62a5495
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffee6d4dbde77c33acb24dfb969df40fed3e5c91
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692488"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237379"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="280a6-103">根據您方案的授權選項</span><span class="sxs-lookup"><span data-stu-id="280a6-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="bdd79-103">不同方案的授權選項</span><span class="sxs-lookup"><span data-stu-id="bdd79-103">License options based on your plan</span></span>
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
 
