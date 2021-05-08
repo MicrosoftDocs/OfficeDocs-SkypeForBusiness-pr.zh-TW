@@ -18,80 +18,82 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用商務用 Skype PSTN 分鐘池報告來查看在您組織中的當月期間消耗的分鐘數。
-ms.openlocfilehash: ac27e88b6e0f4945dde90f5e5f7bade31f20fe6a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 新的系統管理商務用 Skype報告區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用 PSTN 商務用 Skype分鐘數報告，查看貴組織內當月所耗用分鐘數。
+ms.openlocfilehash: d82f360c48b6e7478ef552826ee80ecaf508db0f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776248"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238177"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分鐘集區報告
 
->[!NOTE]
->此報告僅供預覽客戶使用。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-新的商務用 Skype 系統管理中心**報告**區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用商務用**SKYPE PSTN 分鐘池**報告來查看在您組織中的當月期間消耗的分鐘數。
+>[!NOTE]
+>此報表僅適用于預覽客戶。
+
+新的系統管理商務用 Skype **報告** 區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用 **PSTN** 商務用 Skype分鐘數庫報表，查看貴組織內當月所耗用分鐘數。
   
-查看[報表總覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以取得更多可用報表。
+請查看報告 [概觀以](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 查看更多可用的報告。
   
-此報告以及其他商務用 Skype 報告，提供您組織中活動的詳細資料。 這些詳細資料在調查、規劃及針對組織進行其他業務決策時非常有用，以及設定[通訊點數](/microsoftteams/what-are-communications-credits)
+此報告與其他報表商務用 Skype一起，提供您整個組織活動的詳細資訊。 這些詳細資料在調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時非常 [實用](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 當您以系統管理員身分登入 Microsoft 365 系統管理中心時，您可以看到所有商務用 Skype 報告。 
+> 當您以系統管理員商務用 Skype登入系統管理中心時，Microsoft 365報告。 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何取得商務用 Skype PSTN 分鐘池報告
+## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何取得 PSTN 商務用 Skype分鐘數報表
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-- 移至系統管理中心 > 系統**管理中心** > **商務用 Skype 系統管理中心** > **報告** > **PSTN 分鐘池**。
+- 請前往系統管理中心>**系統管理** 商務用 Skype  >    >  **報告**  >  **PSTN 分鐘數庫**。
     
 > [!NOTE]
-> 視您所擁有的 Microsoft 365 或 Office 365 訂閱而定，您可能不會在這裡看到所有相同的詳細資料。 
+> 視您Microsoft 365訂閱Office 365，您可能不會在這裡看到所有相同的詳細資料。 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>解讀商務用 Skype PSTN 分鐘池報告
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>解譯商務用 Skype PSTN 分鐘數庫報告
 
-您可以查看每個顯示的欄，以取得使用者的商務用 Skype 分鐘池。
+您可以查看顯示的每一欄，商務用 Skype查看使用者的分鐘數。
   
-這就是報表看起來的樣子。
+這就是報表的外觀。
   
 ## 
 
-![商務用 Skype PSTN 分鐘池報告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![商務用 SkypePSTN 分鐘數庫報告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![數位1](../images/sfbcallout1.png)<br/>下表顯示的是依據授權（功能）和使用位置來細分分鐘數。 
-*    **功能**是用於通話的授權/服務方案。 您可能會在此報告中看到的授權/服務方案包括：
-     * MCOPSTN1-國內通話方案（3000-每分鐘美國/1200-1 分鐘歐盟方案
-     * MCOPSTN2-國內 & 國際通話方案，您可以在此查看國內的泳池（3000-minute/加拿大/PR，1200-minute 歐洲國家/地區）和國際泳池（600-分鐘）。 只要在行事曆月份內達到國內或國際 cap，就會達到分鐘帽。 
-     * MCOPSTN5-國內通話方案（120分鐘通話方案）
-     * MCOPSTN6-國內通話方案（240分鐘通話方案）
-     * MCOMEETADD-音訊會議
-*    [**功能描述**] 是通話使用之授權類型的描述。
-*    [**國家/分鐘] 池**是共用分鐘池之使用者的授權使用位置。 
-*    [已**使用的分鐘**數] 是每個月所使用的分鐘數。
-*    [**總分鐘**數] 是指月份中可用的總分鐘數。 
-*    [已**使用百分比**] 是該月份所用的分鐘數百分比。 
+![數位 1](../images/sfbcallout1.png)<br/>下表顯示授權和使用位置 (分鐘) 明細。 
+*    **功能** 是通話所使用的授權/服務方案。 您可能會在此報告中看到授權/服務方案包括：
+     * MCOPSTN1 - 國內通話方案 (3000 分鐘美國/1200 分鐘的歐盟方案
+     * MCOPSTN2 - 國內 & (國際通話方案，您可從該計畫看到 3000 分鐘的美國/加拿大/PR、1200 分鐘的歐洲國家/地區) 以及 600 分鐘的 (國際電話) 。 每當在日曆月份內達到國內 -OR- 國際上限時，即會達到分鐘數上限。 
+     * MCOPSTN5 - 國內通話方案 (120 分鐘的通話方案) 
+     * MCOPSTN6 - 國內通話方案 (240 分鐘的通話方案) 
+     * MCOMEETADD - 音訊會議
+*    **功能描述** 是通話所使用之授權類型的描述。
+*    **國家/地區分鐘** 數庫是共用分鐘 () 使用者之授權使用位置。 
+*    **使用分鐘** 數是每個月使用的分鐘數。
+*    **總分鐘** 數是月份的總可用分鐘數。 
+*    **使用百分比** 是當月使用的分鐘數百分比。 
 ***
-![數位2](../images/sfbcallout2.png)<br/>按一下以將欄拖曳至依據特定欄進行分組，如果您想要建立一個將一或多個欄中的所有資料組成群組的視圖 **，請在這裡拖曳欄標題**。 
+![數位 2](../images/sfbcallout2.png)<br/>若要將欄拖曳到按特定欄分組，如果您想要建立將一或多個資料行中所有資料組成群組的視圖，請在這裡拖放欄標題。 
 ***
-![數位3](../images/sfbcallout3.png)<br/>您也可以按一下或敲擊 [**匯出至 excel** ] 按鈕，將報告資料匯出至 Excel .csv 檔案。 <br/><br/> 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 如果您的使用者少於2000個，您可以在報表本身的資料表中排序和篩選。 如果您有超過2000的使用者，若要篩選和排序，您必須匯出資料。
+![數位 3](../images/sfbcallout3.png)<br/>您也可以按一下或點選 Excel .csv匯出至 **Excel檔案。** <br/><br/> 這會匯出所有使用者的資料，並可讓您執行簡單的排序和篩選，以便進一步分析。 如果您的使用者少於 2000 人，您可以在報表本身的表格內排序和篩選。 如果您有超過 2000 個使用者，若要篩選和排序，您必須匯出資料。
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype 報表嗎？
+## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype報表？
 
-- [商務用 Skype 活動報告](activity-report.md)您可以查看使用者使用對等、組織的方式，以及參與會議會話的數量。
+- [商務用 Skype活動報告](activity-report.md)您可以瞭解使用者使用對等、組織及參與會議會話的多少。
     
-- [商務用 Skype 裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括已安裝商務用 Skype 應用程式的 Windows 作業系統和行動裝置，以及用於 IM 和會議的行動裝置。
+- [商務用 Skype裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括Windows型作業系統，以及已安裝應用程式商務用 Skype且用於 IM 和會議的行動裝置。
     
-- [商務用 Skype 會議召集人活動報告](conference-organizer-activity-report.md)您可以查看您的使用者使用 IM、音訊/視頻、應用程式共用、Web、/dial out-協力廠商及/dial 的方式來組織會議的數量。
+- [商務用 Skype會議召集人活動報告](conference-organizer-activity-report.md)您可以查看使用者組織使用 IM、音訊/視像、應用程式共用、Web、/dial out - 協力廠商和 /dial out - Microsoft 的會議。
     
-- [商務用 Skype 會議參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視頻、應用程式共用、網頁和撥出音訊會議都在參與。
+- [商務用 Skype會議參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視音訊、應用程式共用、Web 和撥出音訊會議參與。
     
-- [商務用 Skype 對等活動報告](peer-to-peer-activity-report.md)您可以查看您的使用者使用 IM、音訊/視頻、應用程式共用和傳送檔案的數量。
+- [商務用 Skype對等活動報表](peer-to-peer-activity-report.md)您可以瞭解使用者正在使用 IM、音訊/視像、應用程式共用和傳輸檔案。
     
-- [商務用 Skype 使用者封鎖報告](users-blocked-report.md)您可以看到貴組織中已封鎖進行 PSTN 通話的使用者。
+- [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中遭到封鎖的使用者，無法撥打 PSTN 通話。
 
-- [商務用 Skype 會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗的詳細資料。
+- [商務用 Skype會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗詳細資料。
     
 ## <a name="related-topics"></a>相關主題
 [系統管理中心的活動報告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

@@ -20,62 +20,64 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '瞭解附加元件授權、功能，以及如何購買 Microsoft 365 商務標準方案。 '
-ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: '瞭解附加元件授權、功能，以及如何購買Microsoft 365 商務標準版方案。 '
+ms.openlocfilehash: e7a63c210264109eab0df1e89cf214de3cc5d827
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777408"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238481"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 商務標準版
 
-如果您有[Microsoft 365 商務標準版](https://products.office.com/en/business/office-365-business-premium)，您可以使用商務用 Skype 撥打訂閱中的其他人員。 例如，如果您的公司有10人，您可以使用商務用 Skype 呼叫和傳送 IM 給對方。
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
- **若要撥打及接聽公司外部人員的來電，您有兩個選項**：
+如果您有[Microsoft 365 商務標準版，](https://products.office.com/en/business/office-365-business-premium)您可以使用 商務用 Skype電話給您訂閱中的公司其他人員。 例如，如果您的公司有 10 個人，您可以使用電話和 IM 彼此商務用 Skype。
 
-- **選項1。使用免費的[Skype app](https://www.skype.com/)**。 如果您的公司非常小（例如，1-2 人），使用 Skype app 就是更好的做法。 在國內和國際通話中使用的成本較低。 您仍可召開會議通話、進行視頻通話，以及分享簡報的桌面。 [查看工資率與付款選項](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
+ **若要撥打和接聽來自公司外部人員的電話，有兩個選項**：
 
-    請注意，Skype app 不是 Office 365 套件的一部分，因此它不會與商務用 Skype 是由 Outlook 2016 整合。 這表示您在 Outlook 2016 中的連絡人不會顯示在 Skype 中;您必須將您的連絡人新增至 Skype。
+- **選項 1.使用免費的 Skype [應用程式](https://www.skype.com/)**。 如果您擁有非常小型企業 (例如 1-2) ，使用 Skype 應用程式是更好的方法。 國內及國際通話費用較低。 您仍然可以進行電話會議、進行視音訊通話，以及共用桌面進行簡報。 [查看費率和付款選項](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
 
-    我們建議您從 Skype app 開始，看看是否符合您的需求。 如果沒有，請考慮下一個選項，以升級您的方案。
+    請注意，Skype應用程式不是 Office 365套件的一部分，因此不會與Outlook 2016方式商務用 Skype整合。 這表示您Outlook 2016中的連絡人不會顯示在 Skype;您必須將連絡人新增到 Skype。
+
+    我們建議您從 Skype應用程式開始，看看它是否符合您的需求。 如果沒有，請考慮下一個選項，升級您的方案。
 
     > [!IMPORTANT]
-    > 您必須設定切換按鈕，才能讓您的員工使用商務用 Skype 來搜尋 Skype 使用者。 請參閱[讓商務用 Skype 使用者新增 Skype 連絡人](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
+    > 您必須設定切換開關，讓員工使用商務用 Skype來搜尋Skype使用者。 請參閱[讓使用者商務用 Skype新增Skype連絡人](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
 
 
-- **選項2。升級您的方案，並購買電話系統、國內或國內及國際通話方案**。
+- **選項 2.升級您的方案，並購買電話系統國內或國內及國際通話方案**。
 
     > [!Important]
-    > 雖然商務用 Skype Online 方案2隨附于 Office Business Premium 訂閱，否則**您無法新增雲端語音通話功能**。 所以，我們建議您評估企業版 E5 （或企業版 E3）方案，以查看是否有更經濟的效率。
+    > 雖然 商務用 Skype方案 2 包含在商務Office訂閱進階版，但無法新增 **雲端語音通話功能**。 因此，建議您評估 E5 Enterprise或 (Enterprise E3) 方案，看看其是否更具成本效益。
 
-1. [切換到其他商務用 Office 365 方案](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 我們建議您評估企業版 E5 方案，以查看其成本是否更有效率。
+1. [切換到不同的商務Office 365方案](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 我們建議您評估 E5 Enterprise方案，看看其是否更具成本效益。
 
-2. 購買 [**電話系統**] 附加元件。
+2. 購買 **電話系統** 附加元件。
     
-3. 購買[Office 365 通話方案](/MicrosoftTeams/calling-plans-for-office-365)：您只能在購買**手機系統**附加元件後購買此方案。
+3. 購買通話 [方案Office 365：](/MicrosoftTeams/calling-plans-for-office-365)只有在購買附加元件之後，才能 **電話系統方案。**
     
-    第二個選項適用于有數人撥打及接聽外部電話的公司。
+    這個第二個選項非常適合撥打和接聽外部電話的企業。
 
-## <a name="how-to-see-prices-and-buy"></a>如何查看價格與購買
+## <a name="how-to-see-prices-and-buy"></a>如何查看價格和購買
 <a name="bkmk_buypremium"> </a>
 
- **若要取得語音會議與通訊點數：**
+ **若要取得音訊會議與通訊信用額度：**
 
 1. 登入系統管理中心。
 
-2. 移至 [**帳單** > **訂閱** > ]**載入項** > **購買附加**元件。
+2. 前往 **計費**  >  **訂閱**  >  **附加元件**  >  **購買附加元件**。
 
-   ![若要購買附加元件授權，請選擇 [購買附加元件]。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![若要購買附加元件授權，請選擇購買附加元件。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
-3. 您現在會看到 [價格與選項] 可用於購買音訊會議，以及設定通訊點數。
+3. 您現在會看到購買音訊會議，以及設定通訊信用額度的價格和選項。
 
-**若要取得電話系統和通話方案：**
+**若要取得電話系統通話方案：**
 
 1. 切換到 E1 或 E3 方案。
 
-2. 移至 [系統管理中心] >**帳單** > **訂閱**。
+2. 請前往系統管理中心>****  >  **帳單訂閱**。
 
-3. 選擇 [**附加**元件]。 您現在會看到 [電話系統] 的價格，以及購買的選項。
+3. 選擇 **附加元件**。 您現在會看到該電話系統價格，以及購買選項。
 
-4. 購買**電話系統**授權之後，您會看到購買通話方案的價格和選項。
+4. 購買 **授權電話系統，** 您就會看到購買通話方案的價格和選項。

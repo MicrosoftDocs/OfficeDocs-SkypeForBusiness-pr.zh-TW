@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Online 外部通訊
+title: 線上商務用 Skype通訊影片
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,19 +18,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '瞭解如何為您的使用者設定商務用 Skype Online 外部通訊，以便與外部 Skype 連絡人進行通訊。 '
-ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: '瞭解如何設定商務用 Skype線上外部通訊，以便使用者與外部連絡人Skype通訊。 '
+ms.openlocfilehash: 4ac480ff162b61db7bff4d71f9915f059838c65d
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164482"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238979"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>視訊：商務用 Skype Online 外部通訊
 
-設定商務用 Skype Online 外部通訊，讓您的使用者可以與外部商務用 Skype、Lync 與 Skype 連絡人進行通訊。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
- **物件：** Microsoft 365 和 Office 365 系統管理員
+設定 商務用 Skype線上外部通訊，讓使用者與外部連絡人商務用 Skype Lync Skype通訊。
+
+ **物件：Microsoft 365 Office 365** 管理員
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
@@ -38,7 +40,7 @@ ms.locfileid: "44164482"
 ***
   
 ## <a name="related-topics"></a>相關主題
-[設定商務用 Skype Online 外部通訊](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications)（逐步引導的逐步解說）
+[設定 商務用 Skype Online 外部通訊 (](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications)引導式) 
 
 [允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md)
 

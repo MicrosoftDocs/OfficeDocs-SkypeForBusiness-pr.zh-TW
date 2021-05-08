@@ -1,5 +1,5 @@
 ---
-title: 從商務用 Skype 會議撥出，讓其他人可以加入
+title: 從會議撥出商務用 Skype其他人可以加入會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,45 +20,47 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 瞭解您需要的專案，以及會議召集人可以使用商務用 Skype 撥出給其他人的方式。
-ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 瞭解您需要什麼，以及會議召集人如何使用會議商務用 Skype。
+ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164282"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238498"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從商務用 Skype 會議撥出，讓其他人可以加入
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從會議撥出商務用 Skype其他人可以加入會議
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
-> 如果您正在尋找從團隊會議撥出的相關資訊，請參閱[從團隊會議撥出，讓其他人可以加入會議](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
+> 如果您要尋找從會議撥出Teams的資訊，請參閱從會議撥出Teams其他人可以[加入會議](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
 
-就像會議召集人一樣，您可以使用商務用 Skype 應用程式撥出，讓其他人可以使用電話加入相同的會議。 雖然不是必要的，但是當您向某人撥出時，建議您撥打完整號碼，包括國家/地區碼。 若要撥出即可使用：
+作為會議召集人，您可以使用 商務用 Skype App 撥出，讓其他人使用他們的電話加入同一個會議。 雖然不需要，但當您撥出給某人時，建議您撥打完整號碼，包括國家/地區代碼。 若要使用撥出功能：
   
-- 只有在您使用商務用 Skype app 加入會議時，才能撥出。
+- 只有在使用應用程式加入會議時，才能撥出商務用 Skype電話。
     
-- 您在會議召集人已啟用音訊會議。
+- 您作為會議召集人已啟用音訊會議功能。
 
-若要透過撥出到貴組織的會議來新增其他參與者，必須在會議中至少有一個經過驗證的使用者（您的組織），才能允許透過撥出來新增其他參與者。 
+若要透過撥出功能將其他參與者新增到貴組織的會議，您組織 () 必須至少有一位來自同一組織的已驗證使用者加入會議，才能允許透過撥出新增其他參與者。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- **步驟1：** 在 [邀請會議] 中，使用 [**邀請其他人**] 選項撥出電話號碼。
+ **步驟 1：** 在邀請會議中，使用邀請 **其他人** 選項撥出電話號碼。
   
-![使用商務用 Skype 撥出。](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![使用 商務用 Skype 撥出。](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- **步驟2：** 在方塊中輸入完整的電話號碼，包括國家/地區碼。
+ **步驟 2：** 在方塊中輸入完整的電話號碼，包括國家/地區代碼。
   
-![商務用 Skype 中的撥出電話號碼](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![在 商務用 Skype](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a>支援的國家和地區
+## <a name="supported-countries-and-regions"></a>支援的國家/地區
 
-撥出功能只適用于部分國家/地區。 如需完整清單，請參閱[音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
+撥出功能僅適用于部分國家/地區。 有關完整清單，請參閱音訊會議與通話方案的國家 [/地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>想要深入瞭解音訊會議嗎？
+## <a name="want-to-know-more-about-audio-conferencing"></a>想要進一瞭解音訊會議嗎？
 
-[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[嘗試或購買音訊會議Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [商務用 Skype 附加元件授權](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

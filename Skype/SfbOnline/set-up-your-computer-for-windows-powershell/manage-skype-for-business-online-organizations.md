@@ -1,5 +1,5 @@
 ---
-title: 管理商務用 Skype Online 組織
+title: 管理商務用 Skype線上組織
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,23 +18,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 使用 Windows PowerShell 和 Get-CsTenant Get-CsTenantLicensingConfiguration Cmdlet 取得商務用 Skype Online 租使用者相關資訊。
-ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 使用 Windows PowerShell 和 Get-CsTenant Get-CsTenantLicensingConfiguration Cmdlet 來取得您的線上租使用者商務用 Skype相關資訊。
+ms.openlocfilehash: 2fa95bf8997dd0aff7271b1383c69d9b27c4f4a9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113179"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238783"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a>管理商務用 Skype Online 組織
+# <a name="manage-skype-for-business-online-organizations"></a>管理商務用 Skype線上組織
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
-> 最新的 [Teams PowerShell 公開預覽](https://www.powershellgallery.com/packages/MicrosoftTeams/) 版已與商務用 Skype Online Connector 整合，為 Teams PowerShell 管理提供單一模組。
+> 最新版[powerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)預覽版已與 商務用 Skype Online Connector 整合，提供單一模組Teams PowerShell 管理。
 
-您可以使用 **Get-CsTenant 和** **Get-CsTenantLicensingConfiguration** Cmdlet 來尋找商務用 Skype Online 租使用者相關資訊。
+您可以使用 **Get-CsTenant** 商務用 Skype **Get-CsTenantLicensingConfiguration** Cmdlet 來尋找您的線上租使用者相關資訊。
   
-## <a name="manage-skype-for-business-online-tenants"></a>管理商務用 Skype Online 租使用者
+## <a name="manage-skype-for-business-online-tenants"></a>管理 商務用 Skype Online 租使用者
 
-若要返回商務用 Skype Online 租使用者相關資訊，請撥打 [Get-CsTenant](/powershell/module/skype/Get-CsTenant) Cmdlet，而不提供任何其他參數。
+若要返回您的線上租使用者商務用 Skype相關資訊，請撥打[Get-CsTenant](/powershell/module/skype/Get-CsTenant) Cmdlet，而不使用任何其他參數。
   
 ```PowerShell
 Get-CsTenant
@@ -48,9 +50,9 @@ Get-CsTenant | Select-Object Name, TenantID
 
 執行  _Cmdlet_ 時，需要 TenantID 參數的值，例如 [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) 和 [Set-CsTenantFederationConfiguration](/powershell/module/skype/Set-CsTenantFederationConfiguration)。
   
-若要尋找指定租使用者的授權資訊是否可在商務用 Skype Online 系統管理中心取得，請使用 [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) Cmdlet。
+若要在 商務用 Skype Online 系統管理中心尋找指定租使用者的授權資訊，請使用[Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) Cmdlet。
   
 ## <a name="related-topics"></a>相關主題
-[使用 Windows PowerShell 設定商務用 Skype 線上管理的電腦](set-up-your-computer-for-windows-powershell.md)
+[使用電腦設定商務用 skype 線上管理Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

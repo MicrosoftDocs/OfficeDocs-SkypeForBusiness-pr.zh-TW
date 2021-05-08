@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解商務用 Skype Online 登入錯誤的常見原因，並對這些問題進行疑難排解。 '
-ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103839"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239401"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>系統管理員適用的商務用 Skype 登入錯誤問題疑難排解
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 若要針對商務用 Skype Online 登入錯誤進行疑難排解，請從消除登入困難的最常見原因開始。 如有需要，您可以根據錯誤類型執行特定的解決步驟。 如果使用者仍無法登入，請收集其他資訊，然後尋求其他協助。
 
@@ -144,7 +146,7 @@ ms.locfileid: "51103839"
 
 此程序為下列錯誤訊息的可能修正方式：**取得登入所需的個人憑證時發生錯誤**。
 
-若要消除可能的憑證或認證問題，請先在 Windows 憑證管理員中更新使用者的憑證。 若要這樣做，請執行下列步驟：
+若要消除可能的憑證或認證問題，請先在 Windows 憑證管理員中更新使用者的憑證。若要這麼做，請按照下列步驟進行：
 
 1. 開啟 Windows 憑證管理員。 若要執行此動作，請依序按一下 **[開始]** 及 **[執行]**，並輸入 **certmgr.msc**，然後按一下 **[確定]**。
 
@@ -154,7 +156,7 @@ ms.locfileid: "51103839"
 
 4. 以滑鼠右鍵按一下憑證，然後按一下 **[刪除]**。
 
-接下來，如果使用者執行的是 Windows 7，請在 Windows 認證管理器中移除其儲存的認證。 若要這樣做，請執行下列步驟：
+接下來，如果使用者執行的是 Windows 7，請在 Windows 認證管理員中移除其儲存的認證。若要這麼做，請按照下列步驟進行：
 
 1. 依序按一下 **[開始]**、**[控制台]** 然後按一下 **[認證管理員]**。
 
@@ -206,7 +208,7 @@ ms.locfileid: "51103839"
 ## <a name="collect-more-information-and-seek-additional-help"></a>收集更多資訊並尋求其他協助
 <a name="collect-more-information"> </a>
 
-如果您已按照上述指示進行，但仍無法解決您的登入問題，則必須收集其他資訊並與技術支援人員連絡。 若要這樣做，請執行下列步驟：
+如果您已按照上述指示進行，但仍無法解決您的登入問題，則必須收集其他資訊並與技術支援人員連絡。若要這麼做，請按照下列步驟進行：
 
 1. 從使用者的電腦取得記錄檔和 Windows 事件記錄詳細資料。 如需逐步指示，請參閱使用者說明主題[開啟 Lync 的錯誤記錄](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)。
 

@@ -1,5 +1,5 @@
 ---
-title: 使用者的商務用 Skype Online 服務方案無效
+title: 使用者的線上服務商務用 Skype方案無效
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,19 +20,21 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: '在商務用 Skype Online 服務方案不是有效錯誤之後，請參閱在何處將有效的服務方案指派給使用者。 '
-ms.openlocfilehash: a3f7ac1a0816845b24d8580f63165b73ea9c99e9
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '查看在線上服務方案無效後，商務用 Skype為使用者指派有效的服務方案。 '
+ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769576"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239465"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>使用者的商務用 Skype Online 服務方案無效
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>使用者的線上服務商務用 Skype方案無效
 
-很抱歉，指派給此使用者的商務用 Skype Online 服務方案無法辨識或無效。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+很抱歉，商務用 Skype指派給此使用者的線上服務方案無法識別，或無效。
   
-移至*Microsoft 365 系統管理中心** > 作用中的**使用者**，並將有效的服務方案指派給此使用者。
+請前往 Microsoft 365系統管理 *中心** >**活動使用者，** 並指派有效的服務方案給此使用者。
 
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

@@ -1,5 +1,5 @@
 ---
-title: 針對特定商務用 Skype Online 使用者停用免付費電話號碼
+title: 停用特定線上使用者的免付費商務用 Skype號碼
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,51 +19,53 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 系統管理員可以控制召集人如何在會議中使用免付費電話號碼。
-ms.openlocfilehash: 42323afd397612c3cdc0549bdcc33b16cfdae9ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 系統管理員可以控制召集人如何為會議使用免付費號碼。
+ms.openlocfilehash: 4fae54e3ed140ab876e6fadef10907e40f59057e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695678"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238508"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>針對特定商務用 Skype Online 使用者停用免付費電話號碼
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>停用特定線上使用者的免付費商務用 Skype號碼
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
  
 > [!Note]
-> 如需針對團隊使用者停用免工具號碼的相關資訊，請參閱針對[特定團隊使用者停用免費電話號碼](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)。
+> 有關停用使用者免Teams號碼的資訊，請參閱停用特定使用者的免付費[Teams號碼](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)。
 
-如果您的組織在其 Microsoft 音訊會議橋中有免付費電話號碼，您可以在特定召集人的會議中允許或避免使用。  
+如果貴組織在其 Microsoft 音訊會議橋接器中擁有免付費號碼，您可以允許或禁止在特定的召集人會議中使用。  
 
-根據預設，貴組織中的所有使用者都可以使用免付費電話號碼，這表示這些號碼（如果有的話）可供參與者加入其會議。 如果這不是貴組織中的部分使用者所需的行為，您可以透過免付費號碼啟用控制，限制特定使用者在會議中使用這些號碼。 
+根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話， 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。 
 
-針對指定的召集人停用免付費電話號碼時： 
- - 免付費電話號碼將不再包含在他或她的會議邀請中。 
- - 免付費電話號碼將不再列在他或她的會議邀請中所參照的 [尋找當地電話號碼] 頁面上。 
- - 如果您的召集人撥打任何免付費電話號碼，參與者將無法加入指定召集人的會議。 
- - 召集人的所有會議都會自動重新安排，且免付費電話號碼將會從他們中移除。  
+當為給定的召集人停用免付費號碼時： 
+ - 免付費號碼將不再包含在其會議邀請中。 
+ - 免付費號碼將不再列在其會議邀請中參照的「尋找當地號碼」頁面上。 
+ - 如果參與者撥打組織的任何免付費號碼，他們將無法加入該召集人的會議。 
+ - 召集人的所有會議都會自動重新排期，免付費號碼也會從這些會議中移除。  
 
     > [!IMPORTANT]
-    > 這會將召集人的所有電子郵件邀請重新傳送給這些會議的所有參與者。 
+    > 這會將召集人的所有電子郵件邀請重新發回給所有會議參與者。 
 
- - 參與者可以使用電話號碼繼續加入召集人的會議。 
+ - 參與者可以使用付費號碼繼續加入召集人的會議。 
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>停用特定使用者的免付費電話號碼 
 
-從**Microsoft [團隊管理中心**]：
+從 Microsoft Teams **系統管理中心**：
 
-1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
 
-2. 按一下 [**音訊會議**] 旁的 [**編輯**]。
+2. 在 [ **音訊會議」 旁**，按一下 [ **編輯>**。
 
-3. [設定] 會將**此使用者的會議邀請中的免付費電話號碼**設為 [**關閉**]。 
+3. 將 **此使用者的會議要求包含** 免付費號碼設為 **關閉**。 
 
-4. 按一下 [**儲存]。** 
+4. 按一下 **[儲存。** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **使用 PowerShell**  
 
-您可以使用 Get-csonlinedialinconferencinguser Cmdlet 的 AllowTollFreeDialIn 參數來啟用或停用此控制項。 例如： 
+您可以使用 Cmdlet 的 AllowTollFreeDialIn 參數Set-CsOnlineDialInConferencingUser啟用或停用此控制項。 例如： 
 
-- Set-Get-csonlinedialinconferencinguser user@contoso.com – AllowTollFreeDialIn $false
+- Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
