@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 365 或 Office 365 中試用或購買商務用 Skype Online 的音訊會議
+title: 在線上或線上Microsoft 365或Office 365商務用 Skype音訊會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,79 +20,81 @@ f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
-description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 149f72bbd5924c17ba8566875be5a54009cfb1d1
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: '瞭解如何嘗試或購買 PSTN (音訊會議) 授權Office 365以設定人員可以撥入的電話會議。 '
+ms.openlocfilehash: 4c4cc3773ff7b601cfce1ef8bf1610c93a161a6b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163882"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237579"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>在 Microsoft 365 或 Office 365 中試用或購買商務用 Skype Online 的音訊會議
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>在線上或線上Microsoft 365或Office 365商務用 Skype音訊會議
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如需 Microsoft 團隊中音訊會議的相關資訊，請參閱[試用或購買 Microsoft 團隊版 Skype 的 microsoft 365 或 Office 365 中的音訊會議](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。
+> 有關音訊會議在 Microsoft Teams 中的資訊，請參閱在 Microsoft 365 或 Office 365 中試用或購買音訊Skype [Microsoft Teams。](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)
 
 
-貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype 包括音訊會議功能，只適用于這種情況！ 使用者可以使用電話撥入商務用 Skype 會議，而不是在行動裝置或電腦上使用商務用 Skype 應用程式。
+貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用 商務用 Skype應用程式。
 
-您只需要為規劃排程或領導會議的人員設定音訊會議。 在會議中呼叫會議的出席者不需要獲指派任何授權，也不需要其他設定。
+您只需要為計畫排程或引導會議的人設定音訊會議。 來電到會議的會議出席者不需要指派任何授權給他們，也不需要進行其他設定。
 
 如需定價資訊，請參閱[音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步驟1：購買並指派音訊會議授權
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步驟 1：購買及指派音訊會議授權
 
-您必須是系統管理員，才能執行這些步驟。 如需詳細資訊，請參閱[關於系統管理員角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+您必須是系統管理員才能執行這些步驟。 請參閱 [關於系統管理員角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 以瞭解更多資訊。
 
-### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>若要購買並指派使用者音訊會議授權：
+### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>若要購買及指派使用者音訊會議授權：
 
-1. 瞭解您的國家/地區是否提供**音訊會議**。 [音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+1. 瞭解您的 **國家/地區** 是否提供音訊會議。 [音訊會議與](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)通話方案的國家/地區可用性 。 
     
-2. 取得您的**音訊會議**授權。 如果您想要：
+2. 取得 **音訊會議** 授權。 如果您想要：
 
-   - 在購買前先**試試**，您可以註冊 Office 365 企業版 E5 免費試用版，包括音訊會議。 請參閱[Office 365 企業版 E5 試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
+   - **在購買** 前試用，您可以註冊包含音訊會議Office 365 企業版 E5 免費試用版。 請參閱[Office 365 企業版 E5 試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **購買**，請參閱[商務用 Skype 和 Microsoft 團隊附加元件授權](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+   - **購買，**[請參閱商務用 Skype Microsoft Teams附加元件授權](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
-3. [指派或移除](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)您購買至組織中要排程或領導會議之人員的商務用 Microsoft 365 app 的授權。
+3. [將您購買Microsoft 365 Apps 商務版](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)指派或移除授權給組織中要排程或主導會議的人。
 
-4. 如果您購買的是 [音訊會議附加元件授權] 和 [通訊點數] 授權，也請指派它們。 如需相關指示，請參閱[指派商務用 Skype 和 Microsoft 團隊授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+4. 如果您購買音訊會議附加元件授權及通訊信用額度授權，請同時指派這些授權。 有關指示，請參閱[指派商務用 Skype及Microsoft Teams授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>若要購買並指派每分鐘付費的音訊會議授權：
 
-如果您是大量和授權的客戶，您可以取得每分鐘付費的音訊會議授權。 如需每分鐘付費音訊會議授權的詳細資訊，請參閱[音訊會議每分鐘支付](/microsoftteams/audio-conferencing-pay-per-minute)。 
+如果您是大量和授權客戶，您可以取得每分鐘付費的音訊會議授權。 有關每分鐘付費音訊會議授權的其他資訊，請參閱音訊 [會議每分鐘付費](/microsoftteams/audio-conferencing-pay-per-minute)。 
   
-1. 瞭解您的國家/地區是否提供**音訊會議**。 [[國家/地區] 與 [音訊會議] 和 [通話方案] 的可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 
+1. 瞭解您的 **國家/地區** 是否提供音訊會議。 [音訊會議與](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)通話方案的國家/地區可用性 。 
     
-2. 取得您的**音訊會議**授權。 若要取得每分鐘付費授權，請與您的帳戶代表聯繫。
+2. 取得 **音訊會議** 授權。 若要取得每分鐘付費授權，請聯絡您的帳戶代表。
     
-3. 為您的組織[設定通訊點數](/microsoftteams/set-up-communications-credits-for-your-organization)。 若要設定通訊點數，請參閱[什麼是通訊信用？](/microsoftteams/what-are-communications-credits)
+3. [為貴組織](/microsoftteams/set-up-communications-credits-for-your-organization) 設定組織的通訊信用額度。 若要設定通訊信用額度，請參閱 [什麼是通訊信用額度？](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
-    > 如果通訊點數尚未設定，音訊會議將無法針對每分鐘付費授權的使用者使用。 此外，如果您有音訊會議每分鐘付費授權，您就不需要為每位使用者分別指派通訊信用額度授權，但您可能仍需要指派給其他服務。
+    > 如果尚未設定通訊信用額度，音訊會議將無法適用于任何擁有每分鐘付費授權的使用者。 此外，如果您有音訊會議按分鐘付費授權，則不必將通訊信用額度授權個別指派給每個使用者，專門用於音訊會議使用方式，但您可能還需要指派其他服務。
 
-4. [指派或移除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)您購買至組織中要排程或領導會議之人員的商務用 Microsoft 365 app 的授權。
+4. [將您購買Microsoft 365 Apps 商務版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)指派或移除授權給組織中要排程或主導會議的人。
 
 
-## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟2：為領導或排程會議的人員設定音訊會議提供者
+## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟 2：設定引導或排程會議之人員的音訊會議提供者
 
-當您將**音訊會議**授權指派給組織中負責召開或排程會議的人員時，他們就全都完成設定並準備好了！ （您不需要設定其音訊會議提供者）。
+當您將音訊 **會議** 授權指派給組織中負責領導或排程會議的人時，這些人員已全部設定好並準備就緒！  (您不需要設定其音訊會議提供者。) 
 
-## <a name="step-3-other-admin-tasks"></a>步驟3：其他系統管理工作
+## <a name="step-3-other-admin-tasks"></a>步驟 3：其他系統管理員工作
 
-下列步驟是**選擇性**的，但許多管理員都要執行這些步驟：
+下列步驟是 **選擇性的**，但許多系統管理員喜歡執行這些步驟：
 
-1. [自訂會議邀請](../set-up-skype-for-business-online/customize-meeting-invitations.md)。 為使用者設定的撥入號碼會自動新增至傳送給出席者的會議邀請中。 不過，您可以新增自己的說明與法律連結、文字訊息及小型公司圖形。
+1. [自訂會議邀請](../set-up-skype-for-business-online/customize-meeting-invitations.md)。 為使用者所設定撥入號碼會自動新加到會議邀請中，併發送給出席者。 不過，您可以新增自己的說明和法律連結、文字訊息和小型公司圖形。
 
-2. [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。 這是將顯示在由使用者排程之會議中的電話號碼。
+2. [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。 這是使用者排程的會議會顯示的電話號碼。
 
-3. [針對音訊會議設定自動語音](set-auto-attendant-languages-for-audio-conferencing.md)應答的語言，當電話撥入音訊會議電話號碼時，音訊會議自動語音應答會用來向來電者。 此步驟僅適用于您使用 Microsoft 作為音訊會議提供者的情況。
+3. [設定音訊會議自動](set-auto-attendant-languages-for-audio-conferencing.md) 語音回應的自動語音服務語言，當來電者撥入音訊會議電話號碼時，該語言會用來問候來電者。 只有當您使用 Microsoft 做為音訊會議提供者時，才能執行此步驟。
 
-4. [為音訊會議會議設定 PIN 長度](set-the-pin-length-for-audio-conferencing-meetings.md)。
+4. [設定音訊會議 PIN 的長度](set-the-pin-length-for-audio-conferencing-meetings.md)。
 
 
 > [!NOTE]
-> 使用中國由世紀運營的 Microsoft 365 或 Office 365 的客戶尚不提供此功能。 若要深入瞭解，請參閱[瞭解由世紀運營的 Microsoft 365 或 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
+> 使用由中國 21Vianet Microsoft 365或Office 365的客戶提供這項功能。 若要深入瞭解，請參閱[瞭解由 21Vianet Microsoft 365或Office 365的或由 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)所操作之專案。
 
 ## <a name="related-topics"></a>相關主題
 

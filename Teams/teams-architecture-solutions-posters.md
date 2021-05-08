@@ -15,13 +15,13 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: 摘要：了解使用 Microsoft Teams 領導，Microsoft 365 中生產力服務的邏輯架構。 同時了解 Teams 的語音解決方案。
-ms.openlocfilehash: ad67895e734b2fa9e9d0cdfd5ba2343d5caeb8d8
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+description: 摘要：了解使用 Microsoft Teams 領導，Microsoft 365 中生產力服務的邏輯架構。同時了解 Teams 的語音解決方案。
+ms.openlocfilehash: b124a32cc2b0285f364d1211ea8d23eb2d6e64c2
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858028"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212156"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 結構與語音解決方案海報
 
@@ -31,7 +31,7 @@ Teams 是 Microsoft 365 生產力服務的邏輯架構核心，其中包含資�
 
 這系列的圖例可為企業架構設計人員提供生產力服務邏輯架構使用 Teams 引導的檢視。
 
-[![Teams 邏輯架構海報的縮圖影像](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf)  <br/>[PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) | [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
+[![Teams 邏輯架構海報的縮圖影像](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
 
 
 ## <a name="groups-in-microsoft-365"></a>Microsoft 365 中的群組
@@ -42,7 +42,7 @@ Teams 是 Microsoft 365 生產力服務的邏輯架構核心，其中包含資�
 
 ## <a name="microsoft-voice-solutions"></a>Microsoft 語音解決方案
 
-當您開始加入 Microsoft 雲端中的 Teams，Microsoft 支援數個選項。 此海報協助您決定哪個 Microsoft 語音解決方案 (雲端的電話系統或內部部署的 Enterprise Voice) 適合您組織中的使用者，以及您的組織如何連線至公用交換電話網路 (PSTN)。
+當您開始加入 Microsoft 雲端中的 Teams，Microsoft 支援數個選項。此海報協助您決定哪個 Microsoft 電話語音解決方案 (雲端的電話系統或內部部署的 Enterprise Voice) 適合您組織中的使用者，以及您的組織如何連線至公用交換電話網路 (PSTN)。
 
 [![Microsoft 語音解決方案海報的縮圖](media/microsoft-telephony-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/>
 [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) | [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
