@@ -1269,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: 步驟 6：設定自動語音應答
             href: business-voice/set-up-auto-attendant.md
+          - name: 步驟 7：連接埠電話號碼 (選用)
+            href: business-voice/port-phone-numbers.md
           - name: 安裝後資源
             href: business-voice/set-up-finish.md
       - name: 自訂您的設定
         items:
           - name: 自訂選項
             href: business-voice/customize-business-voice.md
-          - name: 移植電話號碼
-            href: business-voice/port-phone-numbers.md
           - name: 設定通話原則
             href: business-voice/set-up-policies.md
           - name: 管理原則套件

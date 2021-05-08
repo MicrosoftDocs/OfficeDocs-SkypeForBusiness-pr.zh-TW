@@ -1,5 +1,5 @@
 ---
-title: 在組織中設定原則
+title: 在組織中設定策略
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,20 +18,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376556"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240018"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="02aa7-102">在組織中設定原則</span><span class="sxs-lookup"><span data-stu-id="02aa7-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="9a76e-102">在組織中設定策略</span><span class="sxs-lookup"><span data-stu-id="9a76e-102">Set up policies in your organization</span></span>
 
-<span data-ttu-id="02aa7-103">原則可協助您判斷供使用者使用之商務用 Skype Online 的功能。</span><span class="sxs-lookup"><span data-stu-id="02aa7-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="02aa7-104">請參閱下列文章，以取得完整的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="02aa7-104">See the following articles for complete details.</span></span>
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-- [<span data-ttu-id="02aa7-105">封鎖點對端檔案傳輸</span><span class="sxs-lookup"><span data-stu-id="02aa7-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="02aa7-106">建立自訂外部存取原則</span><span class="sxs-lookup"><span data-stu-id="02aa7-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="02aa7-107">保留附加於會議的大型檔案</span><span class="sxs-lookup"><span data-stu-id="02aa7-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="02aa7-108">設定組織的會議原則</span><span class="sxs-lookup"><span data-stu-id="02aa7-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="02aa7-109">設定組織的行動原則</span><span class="sxs-lookup"><span data-stu-id="02aa7-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="02aa7-110">設定組織的用戶端原則</span><span class="sxs-lookup"><span data-stu-id="02aa7-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+<span data-ttu-id="9a76e-103">政策可協助判斷商務用 Skype線上的可用功能。</span><span class="sxs-lookup"><span data-stu-id="9a76e-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="9a76e-104">請參閱下列文章以瞭解完整詳細資料。</span><span class="sxs-lookup"><span data-stu-id="9a76e-104">See the following articles for complete details.</span></span>
+
+- [<span data-ttu-id="9a76e-105">封鎖點到點檔案傳輸</span><span class="sxs-lookup"><span data-stu-id="9a76e-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="9a76e-106">建立自訂外部存取原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="9a76e-107">保留附加於會議的大型檔案</span><span class="sxs-lookup"><span data-stu-id="9a76e-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="9a76e-108">設定組織的會議原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="9a76e-109">設定組織的行動原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="9a76e-110">設定組織的用戶端原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
