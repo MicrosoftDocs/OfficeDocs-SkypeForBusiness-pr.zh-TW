@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Online 中管理使用者的音訊會議設定
+title: 在線上管理使用者的音訊會議商務用 Skype設定
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,45 +20,47 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '做為 Microsoft 365 或 Office 365 系統管理員，您可以針對組織中的個別使用者編輯商務用 Skype Online 音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
-ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+description: '作為 Microsoft 365 或 Office 365 系統管理員，您可以為貴組織的個別使用者編輯 商務用 Skype Online 音訊會議設定 ，例如提供者、預設付費或免付費號碼、會議 ID 或 PIN。 '
+ms.openlocfilehash: f31648c9b2d50f595dc113b65318f9c6f9204e24
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943846"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237299"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中管理使用者的音訊會議設定
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在線上管理使用者的音訊會議商務用 Skype設定
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果您想要在 Microsoft 團隊中管理使用者設定，請參閱[在 Microsoft 團隊中管理使用者的音訊會議設定](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
+> 如果您想要在 Microsoft Teams 管理使用者設定，請參閱在 Microsoft Teams 中管理[使用者的音訊會議Microsoft Teams。](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
 
-做為 Microsoft 365 或 Office 365 系統管理員，您可以針對組織中的個別使用者編輯音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 如果您想要編輯貴組織的設定，請參閱[管理組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)。
+做為Microsoft 365或Office 365系統管理員，您可以編輯貴組織中個別使用者的音訊會議設定 ，例如提供者、預設付費或免付費號碼、會議 ID 或 PIN。 如果您想要編輯貴組織的設定，請參閱管理組織的音訊 [會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)。
 
  
-1. 使用您的公司或學校帳戶登入。
+1. 使用公司或學校帳戶來登錄。
     
-2. 選擇系統**管理中心**  >  **的商務用 Skype**。
+2. 選擇 **系統管理中心**  >  **商務用 Skype。**
     
-3. 在商務用 Skype 系統管理中心中，選擇 [**使用者**]。
+3. 在系統管理商務用 Skype，**選擇使用者**。
     
-4. 選取您要管理其設定的使用者，然後在 [動作] 窗格中，按一下 [**編輯**] 以 ![ 顯示 [編輯] 圖示 ](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png) 。
+4. 選取您想要管理設定的使用者，然後在 [動作窗格> 中，按一下 **[編輯** ![ 顯示編輯圖示> ](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png) 。
     
-5. 在左側導覽中選擇 [**音訊會議**]，然後在使用者的 [**屬性**] 頁面上，修改下列任何一項：
+5. 選擇 **左側流覽** 中的音訊會議，然後在使用者的屬性頁面上修改下列任何一項：
     
 |**設定**|**描述**|
 |:-----|:-----|
-|**提供者名稱** <br/> |從清單中選擇您的提供者。  <br/><br/> **注意：** 此表格中的其餘設定只有在您選取 [Microsoft] 做為音訊會議提供者時才適用。           |
-|**預設的付費電話號碼**（必要） <br/> |對於協力廠商提供者，這些電話號碼是您從音訊會議提供者接收到的電話號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，則會是在音訊會議橋接器上設定的號碼。 將數位格式化為想要在商務用 Skype 和 Microsoft 團隊會議邀請中顯示的數位。  <br/> |
-|**預設免付費電話號碼** <br/> |對於協力廠商提供者，這些電話號碼是您從音訊會議提供者接收到的電話號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，則會是在音訊會議橋接器上設定的號碼。 將數位格式化為想要在商務用 Skype 和 Microsoft 團隊會議邀請中顯示的數位。  <br/> |
-|**允許在貴組織的 Microsoft 橋接器中使用免付費電話號碼來加入此使用者的會議** <br/> |如果您想要允許沒有付費電話號碼的使用者加入會議，請選取此選項。  <br/> |
-|**透過電子郵件傳送會議資訊** <br/> |如果您想要立即將電子郵件傳送給使用者，並加入其會議 ID 和電話號碼，請按一下 [此連結]。 （此電子郵件不包含 PIN）。請參閱[使用音訊會議資訊傳送電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。  <br/> |
-|**會議 ID** <br/> |如果您需要重設使用者的會議 ID，請選取 [**重設**]。 如需詳細資訊，請參閱[重設使用者的會議 ID](reset-a-conference-id-for-a-user.md)。  <br/> |
-|**PIN** <br/> |如果您需要重設使用者的 PIN，請選取 [**重設**]。 如需詳細資訊，請參閱[重設音訊會議 PIN](reset-the-audio-conferencing-pin.md)。  <br/> |
-|**允許未驗證的呼叫者成為會議中的第一位人員** <br/> |選取此選項可讓未驗證的呼叫者成為第一個加入會議的人。  <br/> |
-|**來自此使用者之會議的撥號限制** <br/> |如果您想要限制僅限國內撥出，或者您想要防止所有撥出會議，請選取此清單中的選項。  <br/> |
+|**提供者名稱** <br/> |從清單中選擇您的提供者。  <br/><br/> **注意：** 只有在您選取 Microsoft 做為音訊會議提供者時，此表格中其餘的設定才適用。           |
+|**需要的預設 (** 號碼)  <br/> |對於協力廠商提供者，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
+|**預設免付費號碼** <br/> |對於協力廠商提供者，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
+|**在貴組織的 Microsoft 橋接器中允許使用免付費號碼加入此使用者的會議** <br/> |如果您想要允許免付費號碼的使用者加入會議，請選取此選項。  <br/> |
+|**透過電子郵件傳送會議資訊** <br/> |只有在您想要立即傳送包含其會議 ID 和電話號碼的電子郵件給使用者時，才能按一下此連結。  (此電子郵件不包含 PIN。) 請參閱傳送電子郵件給使用者及其 [音訊會議資訊](send-an-email-to-a-user-with-their-dial-in-information.md)。  <br/> |
+|**會議 ID** <br/> |如果您需要 **重** 設使用者的會議 ID，請選取重設。 詳細資訊，請參閱重[設使用者的會議 ID。](reset-a-conference-id-for-a-user.md)  <br/> |
+|**針** <br/> |如果您需要 **重** 設使用者的 PIN，請選取重設。 詳細資訊，請參閱重設[音訊會議 PIN。](reset-the-audio-conferencing-pin.md)  <br/> |
+|**允許未經驗證的來電者成為會議的第一位人員** <br/> |選取此選項，讓未經驗證的來電者成為第一個加入會議的人。  <br/> |
+|**此使用者會議撥出的限制** <br/> |如果您想要將撥出功能限制為國內電話撥入，或您想要防止會議出現所有撥出，請在此清單中選取一個選項。  <br/> |
   
-![顯示使用者的 [音訊會議屬性] 頁面](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
+![顯示使用者的音訊會議內容頁面](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

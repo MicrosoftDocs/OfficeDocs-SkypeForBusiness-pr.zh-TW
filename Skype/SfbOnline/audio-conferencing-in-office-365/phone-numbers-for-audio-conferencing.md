@@ -21,23 +21,25 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: 瞭解哪些國家/地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
-ms.openlocfilehash: 6badaf3234b174f4261d93f82239045f0d49bcff
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
+ms.openlocfilehash: 0e5d38f604e7236d8e924b8799c5c4ec0dd01b42
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114219"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237209"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>商務用 Skype Online 中音訊會議的電話號碼
 
-> [!NOTE]
-> 有關 Microsoft Teams 中電話號碼的資訊，請參閱 [Microsoft Teams 的音訊會議電話號碼](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-當您 **設定商務用** Skype 的音訊會議時，撥入電話號碼會自動指派給貴組織。 您可以到商務用 **Skype** 系統管理中心音訊會議 Microsoft 橋接器，查看指派給音訊會議橋接器  >    >  **的電話號碼**。 請參閱 [查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers.md)。
+> [!NOTE]
+> 有關電話號碼的資訊，請參閱 Microsoft Teams 中電話[音訊會議Microsoft Teams。](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)
+
+當您為 **會議設定音訊** 會議商務用 Skype，撥入電話號碼會自動指派給貴組織。 您可以到系統管理中心音訊會議 Microsoft 橋接器，商務用 Skype指派給音訊會議橋接器  >    >  **的電話號碼**。 請參閱 [查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers.md)。
   
 > [!NOTE]
-> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用商務用 **Skype** 系統管理中心語音電話號碼，按一下 [新增，然後按一下 [新增  >    >  ******服務號碼**> 。  使用 [國家/地區]、[州/地區] 和 [城市] 的清單來篩選搜尋。 此外，如果您要尋找免付費服務號碼， **請從州** /地區清單中選取免 **付費** 。
+> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用 **商務用 Skype** 系統管理中心的 Voice 電話 號碼，按一下 [新增，然後按一下 [新增  >    >  ******服務號碼**> 。  使用 [國家/地區]、[州/地區] 和 [城市] 的清單來篩選搜尋。 此外，如果您要尋找免付費服務號碼， **請從州** /地區清單中選取免 **付費** 。
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議涵蓋範圍和價格
 
@@ -45,7 +47,7 @@ ms.locfileid: "51114219"
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>會議邀請中的撥入電話號碼
 
-當商務用 Skype Online 使用者在 Outlook 或 Outlook Web App 中排程會議時，為該使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多個使用者選取不同的預設號碼，您可以到 **商務** 用 Skype 系統管理中心音訊  >  會議使用者來  >  **變更該號碼**。 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
+當 商務用 Skype Online 使用者排程 Outlook 或 Outlook Web App 中的會議時，為使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多個使用者選取不同的預設號碼，您可以到系統管理中心音訊會議使用者商務用 Skype變更  >    >  **。** 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
   
 按一下會議邀請中的尋找當地號碼連結，即可看到其他撥入號碼。
   
@@ -55,7 +57,7 @@ ms.locfileid: "51114219"
   
  **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
- **共用電話號碼** 是可與其他 Microsoft 365 或 Office 365 帳戶共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
+ **共用電話號碼** 是可與其他帳戶或帳戶Microsoft 365 Office 365電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
 雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼] 連結，來取得可用來加入會議的電話號碼清單。
   
@@ -64,12 +66,12 @@ ms.locfileid: "51114219"
 組織若已啟用音訊會議功能，系統便會自動將共用的音訊會議電話號碼指派給組織。 指派電話號碼時，系統會將電話號碼指派為會議橋接器的預設電話號碼。 指派為橋接器預設號碼的電話號碼，將會是來自組織的國家/地區的電話號碼。
   
 > [!NOTE]
-> 您可以登錄 Microsoft 365 系統管理中心，並查看組織設定檔下的 ，找到貴組織的國家/地區 **位置**。 
+> 您可以登錄系統管理中心，並查看組織設定檔Microsoft 365找到貴組織的國家/地區 **位置**。 
   
 > [!CAUTION]
 > 由於在委內瑞拉、印尼、越南 和阿拉伯聯合大公國 (EMIRATE) 的付費電話號碼有限，來自這些國家/地區的組織不會自動指派音訊會議付費號碼給他們。 來自這些位置的免付費電話號碼是否可供使用，視可用庫存而定。 
   
-專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用商務用 Skype 系統管理中心找到 **服務號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用系統管理中心找到商務用 Skype **號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 若要查看已自動指派電話號碼給組織之國家/地區的清單，請參閱[音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
   
@@ -89,4 +91,4 @@ ms.locfileid: "51114219"
    
 ## <a name="related-topics"></a>相關主題
 
-[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[嘗試或購買音訊會議Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
