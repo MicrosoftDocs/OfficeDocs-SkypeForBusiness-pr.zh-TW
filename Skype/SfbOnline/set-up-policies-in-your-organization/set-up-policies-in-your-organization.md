@@ -1,5 +1,5 @@
 ---
-title: 在組織中設定原則
+title: 在組織中設定策略
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,18 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376556"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240018"
 ---
-# <a name="set-up-policies-in-your-organization"></a>在組織中設定原則
+# <a name="set-up-policies-in-your-organization"></a>在組織中設定策略
 
-原則可協助您判斷供使用者使用之商務用 Skype Online 的功能。 請參閱下列文章，以取得完整的詳細資料。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-- [封鎖點對端檔案傳輸](block-point-to-point-file-transfers.md)
+政策可協助判斷商務用 Skype線上的可用功能。 請參閱下列文章以瞭解完整詳細資料。
+
+- [封鎖點到點檔案傳輸](block-point-to-point-file-transfers.md)
 - [建立自訂外部存取原則](create-custom-external-access-policies.md)
 - [保留附加於會議的大型檔案](retaining-large-files-attached-to-a-meeting.md)
 - [設定組織的會議原則](set-up-conferencing-policies-for-your-organization.md)

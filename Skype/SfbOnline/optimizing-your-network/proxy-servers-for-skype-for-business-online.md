@@ -1,5 +1,5 @@
 ---
-title: Teams 或商務用 Skype Online 的 Proxy 伺服器
+title: 適用於 Microsoft Teams 或商務用 Skype® 2015 Online 的 Proxy 伺服器
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,45 +19,47 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 本文提供在商務用 Skype 中使用 proxy 伺服器的相關資訊。
-ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: 本文提供有關在用戶端使用 proxy 伺服器商務用 Skype。
+ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863746"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240412"
 ---
-# <a name="proxy-servers-for-skype-for-business-online"></a>商務用 Skype Online 的 Proxy 伺服器
+# <a name="proxy-servers-for-skype-for-business-online"></a>適用于 商務用 Skype Online 的 Proxy 伺服器
 
-本文提供有關在商務用 Skype 中使用 proxy 伺服器的指導方針。
-  
-## <a name="not-using-a-proxy-server-is-recommended"></a>建議您不要使用 proxy 伺服器
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-如果是來自 proxy 的商務用 Skype 流量，Microsoft 建議您回避 proxy。 Proxy 不會讓商務用 Skype 更加安全，因為通訊已加密。
+本文提供有關在用戶端使用 proxy 伺服器商務用 Skype。
   
-而且擁有 proxy 可能會造成問題。 效能相關問題可透過延遲與資料包遺失來引進環境。 這類問題將導致在這些團隊或商務用 Skype 案例中使用音訊和影片的負面體驗，因為即時資料流非常重要。
-  
-## <a name="if-you-need-to-use-a-proxy-server"></a>如果您需要使用 proxy 伺服器
+## <a name="not-using-a-proxy-server-is-recommended"></a>建議您不要使用 Proxy 伺服器
 
-有些組織沒有任何選項可讓商務用 Skype 流量略過 proxy。 如果是這種情況，上述問題必須牢記在前面。
+當涉及代理商務用 Skype流量時，Microsoft 建議忽略代理。 由於流量已加密商務用 Skype代理不會讓資料更安全。
   
-Microsoft 也強烈建議：
+而擁有 Proxy 可能會導致問題。 透過延遲和封包遺失，可能會將與績效相關的問題引入環境。 這類問題會導致音訊和視Teams或商務用 Skype等情況下的負面體驗，而即時資料流是不可或缺的。
+  
+## <a name="if-you-need-to-use-a-proxy-server"></a>如果您需要使用 Proxy 伺服器
+
+有些組織無法針對流量忽略 proxy商務用 Skype。 如果是這種情況，您必須記住上述問題。
+  
+Microsoft 也強烈建議您：
   
 - 使用外部 DNS 解析
     
-- 使用直接的以 UDP 為基礎的路由
+- 使用直接 UDP 路由
     
 - 允許 UDP 流量
     
 - 遵循我們的網路指導方針中的其他建議：
     
-  - [商務用 Skype Online 中的媒體質量和網路連線效能](media-quality-and-network-connectivity-performance.md)
+  - [線上媒體質量與網路連線商務用 Skype](media-quality-and-network-connectivity-performance.md)
     
-  - [針對商務用 Skype Online 優化您的網路](optimizing-your-network.md)
+  - [優化您的網路以商務用 Skype Online](optimizing-your-network.md)
     
-遵循此指導方針應該將潛在問題降至最低。
+遵循此指引應能將潛在問題降到最低。
   
 ## <a name="related-topics"></a>相關主題
 
-[針對商務用 Skype Online 優化您的網路](optimizing-your-network.md)
+[優化您的網路以商務用 Skype Online](optimizing-your-network.md)
  

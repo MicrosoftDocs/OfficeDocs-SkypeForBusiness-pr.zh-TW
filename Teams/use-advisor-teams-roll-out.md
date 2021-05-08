@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093763"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240548"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
-Advisor for Teams 會引導您完成 Microsoft Teams 的推廣。 它能評估您的Microsoft Office 365 組織環境，並指出您在成功推行 Microsoft Teams前可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 服務系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
+Advisor for Teams 會引導您完成 Microsoft Teams 的推廣。 它能評估您的Microsoft Office 365 組織環境，並指出您在成功推行 Microsoft Teams前可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推行階段的負責人，包括專案經理、Teams 系統管理員、支援人員，以及您的採用與使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
 
 Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Microsoft 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或者前往 **規劃** > **Teams 建議程式**。
 
@@ -41,7 +41,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 ## <a name="using-advisor-for-teams"></a>使用 Advisor for Teams
 
-**Teams、Forms 和 Planner 授權是使用適用於 Teams 的建議程式所需的授權。** 不過，若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您必須是 Teams 系統管理員、Teams 服務管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。
+**Teams、Forms 和 Planner 授權是使用適用於 Teams 的建議程式所需的授權。** 不過，若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您「必須」是 Teams 系統管理員、Teams 管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。
 
 > [!IMPORTANT]
 > 如果小組系統管理中心的 [規劃] 中遺漏 **Teams 建議程式**，表示該使用者未取得 Teams 的授權。
@@ -136,7 +136,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 >
 
 > [!IMPORTANT]
-> Advisor for Teams Bot 只能用來傳遞歡迎訊息給部署團隊。 不會收集額外的資料。
+> 適用於 Teams 的建議程式機器人只能用來傳遞歡迎訊息給您的部署團隊。不會收集額外的資料。
 
 > [!IMPORTANT]
 > Advisor for Teams Bot 依預設為開啟。 如果您使用或計劃使用 Advisor for Teams，則請勿關閉此功能。
@@ -206,7 +206,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 在您自訂您的網站並將您的學習方案放在一起之後，請考量您將如何促進使用者的認知，以鼓勵他們針對持續學習來使用學習路徑。
 
-使用您的通訊頻道以推廣網站及引起關注。 例如，在與您的使用者溝通中加入標準的標語，像是「查看我們的訓練及支援網站，瞭解如何透過 Teams 提高生產力」。
+使用您的通訊頻道以推廣網站及引起關注。例如，在與您的使用者溝通中加入標準的標語，像是「查看我們的訓練及支援網站，了解如何透過 Teams 提高生產力」。
 
 透過將使用者可在 Teams 中共同作業的方式醒目提示，給予他們鼓勵，然後將他們導向至學習路徑網站以瞭解使用方式。
 
@@ -252,7 +252,7 @@ Advisor for Teams 會尋求您的同意才收集非 EUII (使用者識別資訊)
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>我可以使用 Advisor for Teams 搭配 FastTrack 嗎
 
-可以，FastTrack 會針對所有希望部署 Teams 的客戶運用 Advisor for Teams。 他們可以使用 Advisor for Teams 協助您部署團隊的初始設定 (如有需要)，也可以在 Teams 推出期間針對特定主題提供所需的支援。
+可以，FastTrack 會針對所有希望部署 Teams 的客戶運用 Advisor for Teams。他們可以使用 Advisor for Teams 協助您部署團隊的初始設定 (如有需要)，也可以在 Teams 推出期間針對特定主題提供所需的支援。
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>我可以與合作夥伴一起使用 Advisor for Teams 嗎？
 

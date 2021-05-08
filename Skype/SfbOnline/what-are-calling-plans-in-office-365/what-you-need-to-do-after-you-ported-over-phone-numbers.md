@@ -1,5 +1,5 @@
 ---
-title: 在將電話號碼進行移植之後，您需要執行什麼工作？
+title: 在行動電話號碼之後，您需要執行哪些工作？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,15 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: 查看將電話號碼移植到商務用 Skype 後，接下來需要執行哪些工作。
-ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 查看將電話號碼移植到新號碼之後，接下來商務用 Skype。
+ms.openlocfilehash: d49fea9315e44f7d126021ec8733143916f5e366
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101859"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237939"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在將電話號碼進行移植之後，您需要執行什麼工作？
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在行動電話號碼之後，您需要執行哪些工作？
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 提交您的埠訂單之後，我們會與您的電信公司聯繫，並找出詳細資料給他們。 當最終移轉日期設定完成時，我們會透過電子郵件通知您。 不過，在等待您的電信公司接受訂單時，請繼續建立您需要的緊急位址，以便與這些數位一起使用。
   
@@ -52,6 +54,6 @@ ms.locfileid: "51101859"
 
 [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[商務用 Skype線上：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   

@@ -1,5 +1,5 @@
 ---
-title: 提交本機號碼移植服務要求
+title: 提交當地號碼移植的服務要求
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,31 +21,33 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelO365Support
-description: '如果您要將超過999的電話號碼轉接到商務用 Skype，請瞭解如何提交一個埠訂單服務要求，以讓他們移動。 '
-ms.openlocfilehash: a8260308d5072478dba4ff054bb54e841bacfdda
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '如果您有超過 999 個電話號碼要轉接到 商務用 Skype，請瞭解如何提交移轉訂單服務要求，以將它們移動。 '
+ms.openlocfilehash: e7b3b5b5a0ffdfa57fd1c61284b52dfda17b0204
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769306"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237989"
 ---
-# <a name="submitting-a-service-request-for-local-number-porting"></a>提交本機號碼移植服務要求
+# <a name="submitting-a-service-request-for-local-number-porting"></a>提交當地號碼移植的服務要求
 
-如果您需要將999電話號碼（適用于使用者，或服務號碼（包括付費或免付費）傳送到商務用 Skype Online，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+如果您需要將超過 999 個電話號碼 (或包括付費或免付費) 在內的服務號碼轉接到 商務用 Skype Online，請參閱管理貴組織[的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="related-topics"></a>相關主題
 [移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話方案所用的不同類型的電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[用於通話方案的各種電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
 [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[商務用 Skype線上：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
   
  

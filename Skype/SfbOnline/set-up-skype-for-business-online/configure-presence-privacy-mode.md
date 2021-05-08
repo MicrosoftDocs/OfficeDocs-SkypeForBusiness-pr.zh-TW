@@ -20,31 +20,33 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: '瞭解如何為使用者設定隱私權模式，以便他們更好控制人員看到其可用性的方式。 '
-ms.openlocfilehash: 0b708c86d2693228ad7a613755a181fff5b3743d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f8589dfb648693f0c0c4331a1a16119a3d7fe748
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093467"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239950"
 ---
 # <a name="configure-presence-privacy-mode"></a>設定目前狀態隱私權模式
 
-> [!IMPORTANT]
-> Microsoft Teams 系統管理中心已取代商務用 Skype 系統管理中心 (舊版) 。 管理商務用 Skype 的所有設定現在都位於 Teams 系統管理中心。 您必須被指派全域系統管理員或商務用 Skype 系統管理員的 Azure [AD](/azure/active-directory/roles/permissions-reference) 系統管理員角色，才能在 Teams 系統管理中心管理商務用 Skype 功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-商務用 Skype Online 目前狀態設定可給予人員更多控制權，讓使用者可以在會議或辦公室外查看他們是否可用。 有關商務用 Skype 目前狀態和隱私權設定的詳細資訊，請參閱 [設定商務用 Skype Online 中的目前狀態](configure-presence-in-skype-for-business-online.md)。 
+> [!IMPORTANT]
+> 系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員角色商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+
+商務用 Skype線上目前狀態設定，讓人員能更控制誰可以看到他們是否可以在會議或辦公室外使用。 有關目前狀態商務用 Skype隱私權設定的詳細資訊，請參閱在 商務用 Skype [Online 中設定目前狀態](configure-presence-in-skype-for-business-online.md)。 
   
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>為貴組織中每個人選擇預設的線上目前狀態設定
 <a name="__top"> </a>
 
-1. 請前往商務用 Skype Online 系統管理中心> **組織>一般**。
+1. 請前往組織商務用 Skype管理中心>**一>中心**。
     
 2. 在 **[目前狀態隱私權模式**> 下，選擇設定，然後按一下 [ **儲存**。
     
-|**設定**|**誰可以查看使用者目前狀態**|
+|**設定**|**神秘查看使用者目前狀態**|
 |:-----|:-----|
-|**自動顯示目前狀態資訊** <br/> |任何不屬於外部或封鎖隱私權群組的商務用 **Skype** 使用者。 <br/> |
-|**只向使用者的連絡人顯示目前狀態資訊** <br/> |使用者連絡人清單中不屬於外部或封鎖隱私權群組 **的任何人。**  <br/> 個別使用者可以在商務用 Skype 選項對話方塊中 **變更** 此設定。 <br/> |
+|**自動顯示目前狀態資訊** <br/> |任何商務用 Skype外部或封鎖隱私權群組的使用者。   <br/> |
+|**只向使用者的連絡人顯示目前狀態資訊** <br/> |使用者連絡人清單中不屬於外部或封鎖隱私權群組 **的任何人。**  <br/> 個別使用者可以在 [選項商務用 Skype **變更** 此設定。 <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

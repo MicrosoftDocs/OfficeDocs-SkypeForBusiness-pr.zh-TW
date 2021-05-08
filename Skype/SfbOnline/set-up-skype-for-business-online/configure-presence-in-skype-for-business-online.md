@@ -20,42 +20,44 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: '瞭解如何設定商務用 Skype，以便查看同事的可用性。 '
-ms.openlocfilehash: 807b2dd15b3bdbe1fac42192ed9052b26bf1f256
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5eec57f295dbb45649fea6590147798881297a1b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093487"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239963"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>設定商務用 Skype Online 的顯示狀態
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!IMPORTANT]
-> Microsoft Teams 系統管理中心已取代商務用 Skype 系統管理中心 (舊版) 。 管理商務用 Skype 的所有設定現在都位於 Teams 系統管理中心。 您必須被指派全域系統管理員或商務用 Skype 系統管理員的 Azure [AD](/azure/active-directory/roles/permissions-reference) 系統管理員角色，才能在 Teams 系統管理中心管理商務用 Skype 功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> 系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員角色商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-根據預設，任何可以使用商務用 Skype 與您組織中其中一個人通訊的人，也可以查看該人員是否在線上。 商務用 Skype 會顯示人員是否可在線上、會議、離線或其他指示器中使用。
+根據預設，任何能使用網路通訊功能與貴組織其中一商務用 Skype也可以查看該人員是否線上。 商務用 Skype顯示人員是否可以在線上、會議、離線或其他標記中使用。
 
-![商務用 Skype 中的人員線上狀態範例。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
+![某人在 商務用 Skype 中的線上商務用 Skype。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-做 **[為商務](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 用 Skype 的系統管理員，您可以選擇誰可以看到他們在商務用 Skype 中的線上形象。
+做 **[為公司](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 中每個人的系統管理員，您可以選擇誰在 商務用 Skype。
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1. 請前往系統管理中心>**系統管理中心**  >  **商務用 Skype。**
+1. 請前往系統管理中心>**系統管理**  >  **商務用 Skype。**
 
-2. 在商務 **用 Skype 系統管理中心****，選擇組織**。
+2. 在系統 **管理商務用 Skype，****選擇組織**。
 
 3. 在 **目前狀態隱私權模式中**，選取下列其中一個設定， **然後選擇儲存**。
 
-|**設定**|**誰可以查看使用者目前狀態**|
+|**設定**|**神秘查看使用者目前狀態**|
 |:-----|:-----|
-|**自動顯示目前狀態資訊** <br/> |任何商務用 Skype 使用者，如果尚未新增到某人的外部或封鎖清單，將能看到該人員的線上狀態。 <br/> |
-|**只向使用者的連絡人顯示目前狀態資訊** <br/> |人員連絡人清單中尚未新增到其外部或封鎖清單中的 **任何人**。  <br/> 個人可以在商務用 Skype App 中重寫您的預設設定：**設定**  >  **工具**  >  **選項**。 <br/> |
+|**自動顯示目前狀態資訊** <br/> |任何商務用 Skype尚未新增到人員的外部或封鎖清單的使用者，都能看到該人員的線上狀態。   <br/> |
+|**只向使用者的連絡人顯示目前狀態資訊** <br/> |人員連絡人清單中尚未新增到其外部或封鎖清單中的 **任何人**。  <br/> 個人可以在他們的應用程式上商務用 Skype預設設定 **：設定**  >  **工具**  >  **選項**。 <br/> |
 
-有關使用者在商務用 Skype 中可變更內容的資訊，請參閱以下文章：
+有關使用者可以在其中變更哪些內容商務用 Skype，請參閱以下文章：
 
-- [控制在商務用 Skype 中存取您的目前狀態資訊](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [控制您目前狀態資訊的存取商務用 Skype](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [在商務用 Skype 中設定狀態選項](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [在中設定狀態商務用 Skype](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>相關主題
 

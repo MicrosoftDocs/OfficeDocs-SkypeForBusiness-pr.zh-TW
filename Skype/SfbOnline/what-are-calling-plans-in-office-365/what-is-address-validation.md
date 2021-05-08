@@ -19,32 +19,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
-description: '瞭解什麼是位址驗證、重要的原因，以及它與緊急位址及服務的關聯方式。 '
-ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: '瞭解位址驗證是什麼、為何重要，以及它與緊急位址和服務之間的關聯。 '
+ms.openlocfilehash: dfd582236289e7a7891b52d34c758f78a95a89f7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220693"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237949"
 ---
 # <a name="what-is-address-validation"></a>什麼是位址驗證？
 
-當您設定通話方案時，您必須將電話號碼和緊急位址指派給每一個使用者。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+當您設定通話方案時，您必須為每個使用者指派電話號碼和緊急位址。
   
-驗證街道或市政位址涉及確定它是否正確且格式正確。 部分正確的緊急位址（例如，城市名稱錯誤）可能仍會通過驗證。 驗證程式會使用指定位址的所有部分來判斷它是否包含足夠的資訊，以將呼叫路由至適當的緊急服務中心。 如果是，它會以驗證方式傳回，然後才能指派給電話號碼。
+驗證街道或市民位址時，必須確認位址正確且格式正確。 部分正確的緊急位址 ，例如輸入錯誤的城市名稱，可能仍可能通過驗證。 驗證程式會使用指定位址的所有部分來判斷該位址是否包含足夠的資訊，以將通話路由至適當的緊急服務中心。 若是如此，它會以驗證結果退回，然後可以指派給電話號碼。
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>相關主題
-[什麼是緊急位置、位址及呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+[什麼是緊急位置、位址和通話路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
 [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[商務用 Skype線上：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

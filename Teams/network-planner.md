@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 團隊的網路 planner
+title: 使用網路規劃工具Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: 系統管理員可以瞭解如何使用網路 Planner 來判斷 Microsoft 團隊的網路需求。
+description: 系統管理員可以瞭解如何使用網路規劃器來判斷網路Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -22,70 +22,70 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9351c37c96e4bc11f0e5f93041f7e024158d7564
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 1f05be30158cf934459f26965d7cef2dafbc708f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611797"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240476"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 團隊的網路 planner
+# <a name="use-the-network-planner-for-microsoft-teams"></a>使用網路規劃工具Microsoft Teams
 
-網路 Planner 是團隊系統管理中心提供的新工具。 您可以前往 **規劃**  >  **網路 planner** 找到它。 網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。
+網路規劃工具是可在系統管理中心Teams工具。 您可以到規劃網路規劃工具  >  **找到它**。 在幾個步驟中，網路規劃工具可協助您判斷及組織連接Microsoft Teams使用者的網路需求。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。
 
-![網路 planner 的螢幕擷取畫面](media/network-planner.png)
+![網路規劃工具的螢幕擷取畫面](media/network-planner.png)
 
-網路 planner 可讓您：
+網路規劃工具可讓您：
 
-- 使用網站和 Microsoft 建議角色，為您的組織建立代表， (office 工人、遠端工作者及團隊聊天室系統) 。
+- 使用網站和 Microsoft 建議角色建立貴組織的 (辦公室工作人員、遠端工作人員，Teams會議室) 。
 
     > [!NOTE]
-    > 根據來自團隊最佳使用案例的資料，以及一般使用模式所開發的建議角色。 不過，除了三個建議的角色之外，您還可以建立最多三個自訂角色。
+    > 建議的人物角色是根據最佳使用Teams和一般使用模式的資料所開發。 不過，除了三個建議角色之外，您最多可以建立三個自訂角色。
 
-- 產生報告並計算團隊使用量的頻寬需求。
+- 產生報告並計算使用量Teams頻寬需求。
 
-若要使用網路 planner，您必須是全域系統管理員、團隊服務系統管理員或團隊通訊系統管理員。
+若要使用網路規劃工具，您必須是全域系統管理員、Teams管理員，或Teams管理員。
 
 ## <a name="create-a-custom-persona"></a>建立自訂角色
 
-請依照下列步驟來建立自訂角色：
+請遵循下列步驟建立自訂角色：
 
-1. 移至 Microsoft 團隊系統管理中心的 [網路 planner]。
+1. 請前往系統管理中心Microsoft Teams規劃工具。
 
-2. 在 [ **角色** ] 索引標籤上，按一下 [ **+ 自訂角色**]。 
+2. 在 [**角色」 選項卡** 上，按一下 **[ + 自訂角色。** 
 
-3. 在 [ **新增自訂角色** ] 窗格中，為新的角色新增名稱和描述。
+3. 在新增 **自訂角色窗格中** ，新增新角色的名稱和描述。
 
-4. 選取此角色將在組織中使用的許可權。
+4. 選取此角色在組織中使用的許可權。
 
 5. 按一下 [儲存]。
 
 ## <a name="build-your-plan"></a>建立您的計畫
 
-請依照下列步驟開始建立您的網路方案：
+請遵循下列步驟開始建立您的網路計畫：
 
-1. 移至 Microsoft 團隊系統管理中心的 [網路 planner]。
+1. 請前往系統管理中心Microsoft Teams規劃工具。
 
-2. 在 [ **網路方案** ] 索引標籤上，按一下 [ **新增網路方案**]。
+2. 在 [ **網路計畫」** 選項卡上，按一下 **[新增網路方案**> 。
 
-3. 輸入您的網路方案的名稱和描述。 網路方案會出現在可用方案清單中。
+3. 輸入您的網路方案名稱和描述。 網路方案會顯示在可用方案清單中。
 
-4. 按一下方案名稱以選取新方案。
+4. 按一下計畫名稱以選取新計畫。
 
-5. 新增網站以建立貴組織網路設定的表示。
+5. 新增網站以建立貴組織的網路設定表示。
 
-    視貴組織的網路而定，您可能會想要使用網站來代表組建、辦公室位置或其他內容。 網站可能是由 WAN 連線來允許共用網際網路和/或 PSTN 連線。 為了獲得最佳結果，請先建立擁有本機連線的網站，然後再建立可遠端連線至網際網路或 PSTN 的網站。
+    視貴組織的網路，您可能會想要使用網站來代表建築物、辦公室位置或其他專案。 網站可能由 WAN 連結，以允許共用網際網路和/或 PSTN 連接。 為了獲得最佳結果，在建立遠端連線到網際網路或 PSTN 的網站之前，先建立具有本地連結的網站。
 
     若要建立網站：
 
     1. 為您的網站新增名稱和描述。
 
-    2. 在 [ **網路設定**] 底下，將該網站的網路使用者數量加上 (必要) 。
+    2. 在 **網路設定** 下，將該網站的網路使用者數目 () 。
 
-    3. 新增網路詳細資料： WAN 啟用、WAN 容量、網際網路出口 (**本機** 或 **遠端**) ，以及 PSTN 出口 (無、本機或遠端) 。
+    3. 新增網路詳細資料：啟用 WAN、WAN 容量、網際網路出口 (本地或遠端 **) ，** 以及 PSTN 出口 (無、本地或遠端) 。
 
       > [!NOTE]
-      > 您必須新增 WAN 和網際網路容量數位，才能查看您產生報告時的特定頻寬建議。
+      > 您必須新增 WAN 和網際網路容量號碼，以在產生報表時查看特定的頻寬建議。
 
     4. 按一下 [儲存]。
 
@@ -93,18 +93,18 @@ ms.locfileid: "49611797"
 
 新增所有網站之後，您可以建立報表，如下所示。
 
-1. 在 [ **報表** ] 索引標籤上，按一下 [ **啟動報表**]。
+1. 在 [ **報表>** 選項卡上，按一下 **[開始報表>**。
 
-2. 針對您建立的每個網站，散佈各個可用角色的使用者數目。 如果您使用 Microsoft 建議的角色，該數位會自動散佈 (80% office worker 和20% 的遠端工作) 。
+2. 針對您建立的每個網站，將使用者人數分散到可用的角色。 如果您使用 Microsoft 建議的人物角色，系統會自動 (80% 的 office 員工和 20% 的遠端) 。
 
-3. 完成發佈之後，按一下 [ **產生報表**]。
+3. 完成發佈後，按一下 [ **產生報表**> 。
 
-    產生的報告將會顯示幾個不同視圖的頻寬需求，讓您可以清楚地瞭解輸出：
-    - 含個別計算的表格將會顯示每個允許活動的頻寬需求。
-    - [其他] 視圖會以建議顯示整體頻寬需求。
+    產生的報表會以數種不同的視圖顯示頻寬需求，以便清楚瞭解輸出：
+    - 包含個別計算的表格會顯示每個允許活動的頻寬需求。
+    - 另一個視圖會顯示整體頻寬需求與建議。
 
-4. 按一下 [儲存]。 您可以在報表清單中使用您的報表，以供日後查看。
+4. 按一下 [儲存]。 您的報表會列于報表清單上，以便日後檢視。
 
 ## <a name="example-scenario"></a>範例案例
 
-如需如何使用網路 planner 設定網路方案並使用這些步驟產生報告的範例，請下載 [網路 planner How-To PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) 投影片組 (英文版]) 。
+若要瞭解如何使用網路規劃工具設定網路計畫，並使用這些步驟產生報表的範例，請下載網路規劃工具How-To PowerPoint組 (英文[](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)) 。

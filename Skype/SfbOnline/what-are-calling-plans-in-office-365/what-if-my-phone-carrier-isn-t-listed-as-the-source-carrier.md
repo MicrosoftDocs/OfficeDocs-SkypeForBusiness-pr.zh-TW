@@ -1,5 +1,5 @@
 ---
-title: 如果我的電話載波未列為來源載體，該怎麼辦？
+title: 如果我的電話電信公司未列為來源電信公司，該做什麼？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,26 +21,28 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
-description: '瞭解如果您的運營商未列在商務用 Skype 中，該怎麼辦？ '
-ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '瞭解如果您的電信公司未列在商務用 Skype。 '
+ms.openlocfilehash: 4354cb05aa28b09931f8f2524de2f01c6ef57f3f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769286"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237969"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的電話載波未列為來源載體，該怎麼辦？
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的電話電信公司未列為來源電信公司，該做什麼？
 
-當您看到未列出您的運營商名稱時，很容易混淆。 在大多數情況下，如果服務提供者或載波不一樣，可能是您要轉移的電話號碼是由不同的服務提供者或載波所擁有。 在目前的服務提供者可能與協力廠商服務提供者合作的情況下，可能會有所列的服務提供者或載波與目前服務提供者不一樣的情況。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+當您看到您的電信公司名稱未列出時，這有點令人困惑。 在大多數的情況下，如果服務提供者或電信業者不同，您傳輸的電話號碼可能由不同的服務提供者或電信業者所擁有。 有時候列出的服務提供者或電信服務提供者可能會與目前的服務提供者不同，因為您目前的服務提供者可能正與協力廠商服務提供者合作。 
   
 範例：
   
-- 如果您是從商務用 Skype 移植號碼做為您的運營商，您可能會看到 [3 列]。
+- 如果您是將號碼從 商務用 Skype作為您的電信公司，您可能會看到列出第 3 層。
     
-  **如需完整的逐步指示，請參閱[將電話號碼轉移至團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。**
+  **有關完整的逐步指示，請參閱 [將電話號碼轉接到 Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
-    > 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+    > 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>相關主題
@@ -48,7 +50,7 @@ ms.locfileid: "41769286"
 
 [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[商務用 Skype線上：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
