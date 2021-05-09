@@ -17,21 +17,23 @@ search.appverid: MET150
 description: 瞭解如何將現有的電話號碼從目前的服務提供者移至 Microsoft 365 商務語音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e950e9e3bf18664a6a877c31e253ce66753a6076
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 26f686197963f53f20477ccd9a16935c86a16d9f
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130262"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282610"
 ---
-# <a name="move-port-phone-numbers-to-business-voice"></a>移動 (移植) 電話號碼至商務語音
+# <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>步驟 7. 移植電話號碼至商務語音 (選用)
 
 > [!IMPORTANT]
 > 本文中的資訊僅適用於 **含** 通話方案的商務語音。 含通話方案的商務語音只有在選取的國家和地區才能使用。 閱讀本文之前，請參閱[商務語音的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的商務語音。
 >
 > 如果您的租用戶所在國家或地區不支援含通話方案的商務語音，請參閱[從 Microsoft 轉銷商或合作夥伴取得協助](reseller-partner-support.md)。
 
-當您初次設定商務語音時，您將為主要公司線路以及任何您指派商務語音授權的使用者取得電話號碼。 如果您已經有想要在移至商務語音時保留的電話號碼，您可以使用稱為電話號碼移轉的程序，將電話號碼帶至商務語音。 在您將電話號碼移轉至商務語音後，您可以將電話號碼指派給使用者和服務。 舊號碼會取代您設定商務語音時所取得的暫時性號碼。
+在本設定指南的前面章節中，您已經為主要公司線路和任何已指派商務語音授權的使用者取得了電話號碼。 **如果您的商務剛起步，沒有任何現有電話號碼以移植至商業語音，則可以跳過這一步。**
+
+如果您已經有想要在移至商務語音時保留的電話號碼，您可以使用稱為電話號碼移轉的程序，將電話號碼帶至商務語音。 在您將電話號碼移轉至商務語音後，您可以將電話號碼指派給使用者和服務。 舊號碼將取代您在本設定指南前面章節得得的臨時號碼。
 
 在您將號碼移至商務語音前，請參閱[移轉電話號碼的常見問題](../phone-number-calling-plans/port-order-overview.md)。 本文章包含問題的解答，包括：支援哪些國家和地區、可以和無法移轉的號碼，以及您需要的資訊。
 
@@ -49,3 +51,6 @@ ms.locfileid: "52130262"
 如需有關加拿大和美國電話號碼的說明，請傳送您的要求至 [ptn@microsoft.com](mailto:ptn@microsoft.com)。
 
 如需歐洲電話號碼的說明，請將您的要求傳送至 [ptneu@microsoft.com](mailto:ptneu@microsoft.com)。
+
+> [!div class="nextstepaction"]
+> [下一步：完成商務語音設定](set-up-finish.md)
