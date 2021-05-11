@@ -1,5 +1,5 @@
 ---
-title: 適用于 IT 系統管理員的升級策略
+title: IT 系統管理員的升級策略
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,14 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d01dc44b626cc2c09a92dabff7649a5e9fddc3c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282500"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306037"
 ---
-# <a name="upgrade-strategies-for-it-administrators"></a>適用于 IT 系統管理員的升級策略
+# <a name="upgrade-strategies-for-it-administrators"></a>IT 系統管理員的升級策略
 
 ![升級歷程的階段，強調部署與執行階段](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 
@@ -44,7 +44,7 @@ ms.locfileid: "52282500"
 - [尚未開始使用新版Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [針對已在群島模式中使用Teams的選取功能更新](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
-如果您需要有關選項的詳細資訊，請確定您已經閱讀選擇從 商務用 Skype[到 Teams 升級Teams。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+如果您需要有關選項的詳細資訊，請確定您已經閱讀過選擇從 商務用 Skype[到 Teams 的升級Teams。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## <a name="overlapping-capabilities-upgrade-using-islands-mode"></a>使用群島模式 (功能更新) 
 
@@ -52,7 +52,7 @@ ms.locfileid: "52282500"
 
 - 如果您能針對整個組織執行快速升級，請考慮使用此選項。  由於執行這兩個用戶端的使用者有可能會混淆，因此最好能將使用者必須同時執行這兩個用戶端的時段降到最低。 您應該確保您的使用者知道要執行這兩個用戶端。
 
-- 此選項是開箱即用模型，不需要系統管理員動作，Teams指派授權Microsoft 365 Office 365授權。 如果您的使用者已經有線上商務用 Skype，您可能已經在這個模型中。
+- 此選項是開箱即用模型，不需要系統管理員動作，Teams指派授權或Microsoft 365 Office 365授權。 如果您的使用者已經有 商務用 Skype Online，您可能已經在這個模型中。
 
 - 若要擺脫重迭的功能模式，並移往 TeamsOnly，可能會非常困難。 因為升級的使用者只會透過Teams通訊，因此組織中與該使用者通訊的其他使用者必須使用Teams。  如果您的使用者尚未開始使用Teams，他們將會暴露在遺失的郵件中。 此外，他們也不會在 商務用 Skype 中看到 TeamsOnly 商務用 Skype。 有些組織選擇使用租使用者全域原則執行整個租使用者升級，以避免這種情況，不過這需要預先規劃，並等到所有使用者準備好升級。
 
@@ -89,7 +89,11 @@ ms.locfileid: "52282500"
 - `Move-CsUser` 是內部部署工具中的 Cmdlet。 此 `MoveToTeams` 切換需要在 2019 商務用 Skype Server 2015 或 2015 商務用 Skype Server CU8 或更高版本。 如果您使用的是先前版本，您可以先將使用者移至 商務用 Skype，然後將 TeamsOnly 模式授予該使用者。
 - 根據預設，商務用 Skype升級至 TeamsOnly 模式Teams或指派 SfbWithTeamsCollabAndMeetings 模式時，會議會移至其他會議。  
 
-下圖顯示組織中未事先使用特定功能之組織之選取功能更新的概念Teams。 長條的高度代表使用者數目。 在升級的任何階段，所有使用者都可以彼此通訊。  商務用 Skype使用 Interop 與 TeamsOnly 使用者通訊，反之亦然。 在群島模式中的使用者必須確定要同時執行這兩個用戶端。
+> [!NOTE]
+> 為了準備即將商務用 Skype Online，Microsoft 將會簡化組織在近期內Teams如何移至新版。 將使用者從內部部署移至Teams，很快就會不再需要指定移入，將使用者直接從內部部署移至 `-MoveToTeams` `Move-CsUser` TeamsOnly。 目前如果未指定此切換，使用者會從內部部署中的商務用 Skype Server切換到 商務用 Skype Online，其模式會維持不變。 停用之後，將使用者從內部部署移動到雲端時，系統會自動將使用者指派 TeamsOnly 模式，而他們的會議從內部部署自動轉換成 Teams 會議，就像無論實際指定切換是否一樣。 `Move-CsUser` `-MoveToTeams switch had been specified` 我們預期在 2021 年 7 月 31 日實際停用之前發行此功能。
+
+
+下圖顯示組織中未事先使用特定功能之組織之選取功能更新的概念Teams。 長條的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype使用 Interop 與 TeamsOnly 使用者通訊，反之亦然。 在群島模式中的使用者必須確定要同時執行這兩個用戶端。
 
 ![顯示選取功能更新的圖表，無需事先Teams](media/teams-upgrade-1.png)
 
@@ -118,7 +122,7 @@ ms.locfileid: "52282500"
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
-4. 將選取的使用者升級至 TeamsOnly 模式。 您可以選擇在群島模式或 SfbWithTeamsCollab 模式中升級使用者，不過您可能想要先優先在群島模式中升級使用者，以將使用者進入群島模式時可能導致的混淆降到最低。   
+4. 將選取的使用者升級至 TeamsOnly 模式。 您可以選擇在群島模式或 SfbWithTeamsCollab 模式中升級使用者，不過您可能想要先優先在群島模式中升級使用者，以將使用者進入群島模式時可能會出現的混淆降到最低。   
 
    適用于在 商務用 Skype Online 中商務用 Skype的使用者：  
 
@@ -132,7 +136,7 @@ ms.locfileid: "52282500"
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
-下圖顯示選取功能轉換的概念階段，其中一開始有使用中的群島使用者。 長條的高度代表使用者數目。 在升級的任何階段，所有使用者都可以彼此通訊。  商務用 Skype使用交互操作與 TeamsOnly 使用者通訊，反之亦然。 
+下圖顯示選取功能轉換的概念階段，其中一開始有使用中的群島使用者。 長條的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype使用交互操作與 TeamsOnly 使用者通訊，反之亦然。 
 
 
 ![顯示在群島模式中與使用中使用者進行選取功能更新的圖表](media/teams-upgrade-2.png)

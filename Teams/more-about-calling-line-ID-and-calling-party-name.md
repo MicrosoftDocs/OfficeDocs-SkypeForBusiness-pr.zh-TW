@@ -1,43 +1,45 @@
 ---
 title: 深入了解通話線路識別碼和來電方名稱
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: roykuntz, jenstr
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
+- Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 瞭解為何您需要新增在您使用 [新的當地號碼埠順序] 嚮導時可以變更帳戶的授權人員。
-ms.openlocfilehash: db64a5d1a7e7a5969f66d67d6b056ec6947d44bb
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.service: msteams
+description: 瞭解通話線路識別碼和通話方名稱。
+ms.openlocfilehash: dd68327c8fb3f63bf17e0736f9d41b727efc1ff8
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255396"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308312"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>深入了解通話線路識別碼和來電方名稱
 
-CallerID （如通常所說的話），實際上是由兩個面向使用者的可識別區塊所組成：
-    - 電話號碼 (通常稱為 CLID 或呼叫線路識別碼)  
-    - 呼叫參與方名稱 (通常稱為 CNAM) ，最多可以長達15個字元。 
+本機號碼包含兩個使用者面對的資訊：
 
-撥打電話時，會將 CLID (電話號碼) 路由到目的地的載波 (也稱為 [端接載波) ]。 通話的 CNAM 資訊可以與通話路由，也可能不會與電話進行路由，因為這會因國家/地區如何實現 CNAM (（如果所有) 都一樣）。 CNAM 傳送與通話的可靠性，會根據將呼叫作為中間和/或終止載波來處理通話的國家和運營商而有所不同。 
+- 電話號碼 (稱為 CLID 或電話線識別碼) 。
 
-CLID & CNAM 傳輸是終止載波的責任，因為端接運營商必須支援 CLID & CNAM 功能，以及提供這兩個值的最新記錄。 Microsoft 可靠地在起源撥打電話時提供 CLID 值，但這些值在經過中間載波或終止載波後可能不會保持不變。 遺憾的是，如果 CLID 值已變更、由中間或終止載波省略或截斷，Microsoft 幾乎無法 recourse 在公用電話網絡中修正這些問題。
+- 通話方 (通常稱為 CNAM) 。 
 
-CNAM 中的不一致可能是由於中間或終止載波的延遲，在授權資料庫中重新整理 CNAM 資訊，就像在美國的情況下。 在沒有 CNAM 授權資料庫的國家/地區中，個別的運營商做法也可能會造成 CNAM 資訊與通話不完整的問題。 Microsoft 目前不支援美國以外的國家/地區的來源 CNAM 資訊。」
+進行通話時，CLID (電話號碼) 會路由至目的地的電信 (也稱為終止電信) 。 通話的 CNAM 資訊可能會或可能不會隨著通話路由，因為此資訊取決於國家/地區如何執行 CNAM (如果完全) 。 CNAM 與通話的傳遞可靠性會因國家/地區以及處理電話的電信業者而不同 ，無論是作為仲介者或終止電信業者。 
+
+CLID & CNAM 傳輸是終止電信者的責任。 終止電信公司必須支援 CLID & CNAM 功能，並為這兩個值提供最新記錄。 當原始通話時，Microsoft 會可靠地提供 CLID 值，但這些值一旦通過中間電信業者或終止電信業者時，可能不會保持原狀。 如果中間商或終止電信業者變更、省略或截斷 CLID 值，Microsoft 在修正公用電話網絡中這類問題方面幾乎無追索權。
+
+當中間端或終止電信公司延遲重新更新授權資料庫中的 CNAM 資訊時 ，CNAM 中的不一致可能會造成 ，就像美國的情況一樣。 在還沒有 CNAM 授權資料庫的國家/地區，個別電信業者的做法也會造成 CNAM 資訊在通話中完整無缺的問題。 Microsoft 目前不支援美國外的國家/地區的原始 CNAM 資訊。
 
 ## <a name="related-topics"></a>相關主題
 

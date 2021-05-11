@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45770258d452c3f84c707a51812d2e336ce48ee
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282170"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306047"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>從內部商務用 Skype升級至Teams
 
@@ -43,14 +43,14 @@ ms.locfileid: "52282170"
 
 如果您已經部署 商務用 Skype Server Microsoft Lync 內部部署，而貴組織想要升級至 Teams，請遵循本文中的指引。 您必須設定與貴組織或組織Microsoft 365 Office 365的混合式連接，並判斷在階段將使用者移Teams共存需求。
 
-在您開始之前，IT 專業人員和系統管理員應在本文稍後的文章中，商務用 Skype Server[內部部署組織](#important-considerations-for-organizations-with-skype-for-business-server-on-premises)的重要考慮。
+在開始之前，IT 專業人員和系統管理員應于本文稍後的文章中，商務用 Skype Server[內部部署組織](#important-considerations-for-organizations-with-skype-for-business-server-on-premises)的重要考慮。
 
 > [!IMPORTANT]
 > 商務用 Skype Online 將於 2021 年 7 月 31 日淘汰，之後將無法再存取也不再受支援。 為了最大化效益的實現，並確保貴組織有適當的時間實做升級，我們鼓勵您立即開始Microsoft Teams旅程。 請記住，成功的升級會對齊技術和使用者準備狀態，因此請務必在流覽至 Microsoft Teams 時運用本文Microsoft Teams。
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>步驟 1：設定混合式連接 
 
-將內部部署使用者升級至 Teams的關鍵先決條件是設定內部部署商務用 Skype Server混合式連接。 
+將內部部署使用者升級至 Teams的關鍵先決條件是為內部部署商務用 Skype Server混合式連接。 
 
 首先閱讀 [規劃混合式連接，](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json) 然後遵循設定混合式連接 [中概述的工作](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)。
 
@@ -63,9 +63,9 @@ ms.locfileid: "52282170"
 
 在使用者到達 TeamsOnly 模式之前，組織可以選擇使用任何 商務用 Skype 共存模式，以確保在 TeamsOnly 模式中的使用者與尚未使用的使用者之間可以預測的通訊。  商務用 Skype 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的目的是在組織從 商務用 Skype 轉換到 Teams 時，為使用者提供簡單且可預測的體驗。 
 
-當使用者在任一模式商務用 Skype，所有傳入的聊天和通話會路由至使用者的商務用 Skype用戶端。 若要避免使用者混淆並確保正確的路由，當使用者處於任一模式時Teams用戶端中的通話和聊天功能會商務用 Skype停用。 同樣地，當使用者處於 SfBOnly 或 SfBWithTeamsCollab 模式時，Teams 中的會議排程會明確停用，且當使用者處於 SfBWithTeamsCollabAndMeetings 模式時，明確啟用。
+當使用者在任一模式商務用 Skype，所有傳入的聊天和通話會路由至使用者的商務用 Skype用戶端。 為了避免使用者混淆，並確保適當的路由，當使用者處於任一模式時Teams用戶端中的通話和聊天功能會商務用 Skype停用。 同樣地，當使用者處於 SfBOnly 或 SfBWithTeamsCollab 模式時，Teams 中的會議排程會明確停用，且當使用者處於 SfBWithTeamsCollabAndMeetings 模式時明確啟用。
 
-視您的需求，您可以根據貴組織所選擇的升級路徑，指派適當的共存模式。 有關詳細資訊，請參閱[將](migration-interop-guidance-for-teams-with-skype.md)應用程式與Teams一起使用商務用 Skype及設定共存與升級設定的組織移移及互通性[指南](./setting-your-coexistence-and-upgrade-settings.md)。
+視您的需求，您可以根據貴組織所選擇的升級路徑，指派適當的共存模式。 有關詳細資訊，請參閱[將](migration-interop-guidance-for-teams-with-skype.md)應用程式與Teams一起使用商務用 Skype及設定共存和升級設定的組織移移和互通性[指南](./setting-your-coexistence-and-upgrade-settings.md)。
 
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>步驟 3：將使用者從內部商務用 Skype移至Teams
@@ -81,7 +81,7 @@ ms.locfileid: "52282170"
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>電話系統 PSTN 連接選項
 
-電話系統在Teams TeamsOnly 模式後，支援使用 Teams。  (如果使用者在群島模式中，電話系統僅支援 商務用 Skype.)  
+電話系統在Teams TeamsOnly 模式後，支援使用 Teams。  (如果使用者位於群島模式，電話系統僅支援 商務用 Skype.)  
 
 ### <a name="pstn-connectivity-options"></a>PSTN 連接選項
 
@@ -99,19 +99,19 @@ ms.locfileid: "52282170"
     - [共存模式 - 參照](migration-interop-guidance-for-teams-with-skype.md)
     - [Teams 用戶端體驗和遵從共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-- 設定混合商務用 Skype是遷移到 TeamsOnly 模式的先決條件。 雖然可以在不使用混合式Teams模式使用 Teams，但除非使用[Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)) 將使用者從 商務用 Skype 內部部署移至 商務用 Skype Online (，才能轉換至 TeamsOnly 模式。 詳細資訊，請參閱設定 [混合式連接](/skypeforbusiness/hybrid/configure-hybrid-connectivity)。
+- 設定混合商務用 Skype是遷移到 TeamsOnly 模式的先決條件。 雖然內部部署 商務用 Skype Server 使用者可以在不使用混合式的情況下在群島模式中使用 Teams，但若要轉換到 TeamsOnly 模式，必須使用[Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)將使用者移至雲端 ，而混合式連接是需要的。 詳細資訊，請參閱設定 [混合式連接](/skypeforbusiness/hybrid/configure-hybrid-connectivity)。 此外，即將商務用 Skype Online 不會變更此需求。 若要讓組織從商務用 Skype Server移至Teams，他們仍然必須使用相同的工具集來設定和設定混合式，就像在停用之前 *一樣*。
 
-- 如果貴組織有 商務用 Skype Server，但您尚未進行混合式連接，但您仍想要使用 Teams 來管理 Teams 功能，您必須使用具有 .onmicrosoft.com 網域的管理帳戶。 
+- 若要將內部部署使用者移至雲端，請使用 `Move-CsUser` 內部部署管理工具。 目前，如果未指定此切換，使用者會從 商務用 Skype Server 內部部署中的首頁切換到 商務用 Skype Online，其模式會維持不變，而他們以 商務用 Skype Server 組織的會議會移轉至 商務用 Skype Online。 由於即將停用 商務用 Skype Online，我們很快就會不再需要指定將使用者從內部部署直接移至 `-MoveToTeams` `Move-CsUser` TeamsOnly 的切換。  停用之後，將使用者從內部部署移動到雲端時，系統會自動將使用者指派 TeamsOnly 模式，而他們的會議從內部部署會自動轉換成 Teams 會議，就像無論實際指定切換是否一樣。 `Move-CsUser` `-MoveToTeams switch had been specified` 我們預期在 2021 年 7 月 31 日實際停用之前發行此功能。
 
-- Teams擁有 商務用 Skype 帳戶內部部署 (，也就是說，他們尚未使用 Move-CsUser) 移至雲端的使用者無法與任何 商務用 Skype 使用者進行交互操作，也無法與外部使用者進行聯盟。 只有在使用者移至雲端或位於 (模式，或 TeamsOnly 使用者移至雲端時，才能) 。 
+- 如果貴組織有 商務用 Skype Server，但您尚未進行混合式連接，但仍想要使用 Teams，則您必須使用具有 .onmicrosoft.com 網域的管理帳戶來管理 Teams 功能。 沒有混合式連接，管理工具無法識別您的內部部署網域。 
 
-- 如果您有任何擁有內部部署帳戶商務用 Skype，您無法在租使用者層級指派 TeamsOnly 模式。 您必須先使用內部部署帳戶商務用 Skype所有使用者移至雲端，然後停用混合式以 `Move-CsUser` [完成移轉至雲端](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`如果偵測到 Lyncdiscover DNS 記錄指向其他位置，在租使用者層級Office 365。
+- Teams擁有 商務用 Skype 帳戶內部部署 (即尚未使用 Move-CsUser) 移至雲端的使用者，無法與任何 商務用 Skype 使用者進行交互操作，也無法與外部使用者進行聯盟。 只有當使用者移至雲端且是 TeamsOnly 使用者時，才能使用這項功能。 
 
-- 您必須確保您的使用者正確同步處理到 Azure AD，並擁有正確的商務用 Skype屬性。 這些屬性都是 "msRTCSIP-" 的首碼。 如果使用者未正確同步處理至 Azure AD，Teams管理工具將無法管理這些使用者。  (例如，除非您正確地同步處理這些屬性，否則無法指派 Teams 策略給內部部署使用者。) 若要詳細資訊，請參閱為 Teams 和 商務用 Skype 設定[Azure AD](/SkypeForBusiness/hybrid/configure-azure-ad-connect)連線。
+- 如果您擁有內部商務用 Skype帳戶的任何使用者，或您仍擁有內部部署 lyncdiscover DNS 記錄，您無法在租使用者層級指派 TeamsOnly 模式。 您必須先使用內部部署 商務用 Skype 帳戶將所有使用者移至雲端，然後按照停用混合式中所述的步驟完成移轉至雲端，包括移除 `Move-CsUser` DNS 專案。 [](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`如果偵測到 Lyncdiscover DNS 記錄指向非 Office 365。
+
+- 您必須確保您的使用者正確同步處理至 Azure AD，並擁有正確的商務用 Skype屬性。 這些屬性都是"msRTCSIP-"的首碼。 如果使用者未正確同步處理到 Azure AD，Teams管理工具將無法管理這些使用者。  (例如，除非您正確地同步處理這些屬性，否則無法指派 Teams 策略給內部部署使用者。) 若要詳細資訊，請參閱為 Teams 和 商務用 Skype 設定[Azure AD](/SkypeForBusiness/hybrid/configure-azure-ad-connect)連線。
 
 - 若要在混合式組織中建立新的 TeamsOnly 或 商務用 Skype Online 使用者，您必須先在 *商務用 Skype Server* 內部部署中啟用使用者，然後使用 Move-CsUser 將使用者從內部部署移至雲端。  先在內部部署中建立使用者，可確保任何其他內部部署商務用 Skype使用者能夠路由至新建立的使用者。 一旦所有使用者都移至線上，就不再需要先在內部部署中啟用使用者。
-
-- 當使用者從內部部署移至雲端時，該使用者組織的會議會移轉至 商務用 Skype Online 或 Teams -視是否指定 -MoveToTeams 切換。
 
 - 如果您想要在內部部署商務用 Skype用戶端中顯示通知，您必須在內部部署工具集使用 TeamsUpgradePolicy。 只有 NotifySfbUsers 參數與內部部署使用者相關。  內部部署使用者會從 TeamsUpgradePolicy 的線上實例接收其模式。 請參閱 [Grant-CsTeamsUpgradePolicy 中的筆記](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)。 
 
