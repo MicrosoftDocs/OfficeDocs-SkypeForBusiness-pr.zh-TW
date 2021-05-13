@@ -1,5 +1,5 @@
 ---
-title: 從商務用 Skype Online 連接器移至 Teams PowerShell 模組
+title: 從線上連接器商務用 Skype移Teams PowerShell 模組
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
@@ -9,47 +9,83 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 瞭解如何從商務用 Skype Online Connector 移至 Teams PowerShell 模組來管理 Teams。
+description: 瞭解如何從線上連接器商務用 Skype到 powerShell 模組Teams以管理Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a2b502edc84c853a0a140a11f8c028b7c78aca6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e788fc8cd31bd6e8754e410132e02829eaa2cad8
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094124"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469715"
 ---
-# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>從商務用 Skype Online 連接器移至 Teams PowerShell 模組
+# <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>從線上連接器商務用 Skype移Teams PowerShell 模組
 
-若要從使用商務用 Skype Online Connector 移至 Teams PowerShell 模組來管理 Teams，您必須更新現有的 PowerShell 腳本。 本文將說明如何執行此工作。
+TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell 命令列管理資料。 系統管理員不需要Skype商務用 Online 連接器進行Teams管理。
 
-1. 安裝最新的 Teams PowerShell 模組。 有關步驟，請參閱 [安裝 Microsoft Teams Powershell](teams-powershell-install.md)。
-2. 卸載商務用 Skype Online 連接器。 若要這麼做，請在控制台中，前往程式和功能，選取商務用 **Skype Online、Windows PowerShell 模組**，然後 **選取卸載**。 
-3. 在 PowerShell 腳本中，將參照的模組名稱變更為 ```Import-Module``` 或 ```SkypeOnlineConnector``` ```LyncOnlineConnector``` ```MicrosoftTeams``` 。
+> [!NOTE]
+> Teams已于 2021 年 3 月 16 (MC244740 郵件中心張貼公告通知系統管理員;MC250940 于 2021 年 4 月 16 日) 此變更。
+>
+> TeamsPowerShell 模組使用新式驗證，但必須Windows遠端系統管理 (WinRM) 用戶端以允許基本驗證。 請參閱[下載並安裝Windows PowerShell，](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)以取得如何啟用 WinRM for Basic 驗證的指示。
 
-    例如，變更 ```Import-Module -Name SkypeOnlineConnector``` 為 ```Import-Module -Name MicrosoftTeams``` 。
-4. 使用 Teams PowerShell 模組 2.0 或更高版本時，請將 New-csOnlineSession 變更為 Connect-MicrosoftTeams。 
+> [!WARNING]
+> 商務用 Skype線上連接器連線將于 2021 年 5 月 17 日拒絕。 如需移至 PowerShell 模組的協助和支援，Teams Microsoft 支援服務。
 
-```powershell
-  # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $credential
-   Import-PSSession $sfbSession
-   
-   # When using Teams PowerShell Module 2.0 or later
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-```
+## <a name="how-to-migrate"></a>如何遷移
+
+從使用線上連接器商務用 Skype移Teams PowerShell 模組非常簡單。 下列步驟說明如何執行此操作。
+
+1. 安裝最新的 PowerShell Teams模組。 有關步驟，請參閱[在 Powershell Microsoft Teams安裝](teams-powershell-install.md)。
+2. 卸載Skype商務用 Online 連接器。 若要這麼做，請在控制台中，前往程式和功能，選取 商務用 Skype **線上，Windows PowerShell模組**，**然後選取卸載**。
+3. 在 PowerShell 腳本中，變更從 ```Import-Module```
+
+    `SkypeOnlineConnector` 或 `LyncOnlineConnector` `MicrosoftTeams` to 。
+
+    例如，變更 `Import-Module -Name SkypeOnlineConnector` 為 `Import-Module -Name MicrosoftTeams` 。
+
+4. 使用 Teams PowerShell 模組 2.0 或更新版本時，請更新您參照的 `New-CsOnlineSession` 腳本 `Connect-MicrosoftTeams` 。 `Import-PsSession`不再需要建立線上遠端 PowerShell 會話商務用 Skype，因為使用 時隱含完成 `Connect-MicrosoftTeams` 。
+
+    ```powershell
+       # When using the Skype for Business online connector
+         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         $credential = Get-Credential
+         $SkypeSession = New-CsOnlineSession -Credential $credential
+         Import-Session $SkypeSession
+    
+       # Example getting tenant details
+         Get-csTenant
+    
+       # When using Teams PowerShell Module 2.0 or later
+         Import-Module MicrosoftTeams
+         $credential = Get-Credential
+         Connect-MicrosoftTeams -Credential $credential
+       
+       # Example getting tenant details
+         Get-csTenant
+    
+       # Closing the Session when using the Skype for Business online connector
+         Get-PsSession $SkypeSession | Remove-PsSession
+    
+       # Disconnecting from Teams PowerShell Module 
+         Disconnect-MicrosoftTeams
+    ```
+
+## <a name="online-support"></a>線上支援
+
+線上啟動服務要求以節省時間。 我們會協助您尋找解決方案，或將您連至技術支援。
+1.  請前往 系統管理中心 [https://admin.microsoft.com](https://admin.microsoft.com) 。 如果您收到一則訊息，指出您沒有存取此頁面或執行此動作的許可權，表示您不是系統管理員。神秘擁有我企業中的系統管理員許可權？
+2.  選取需要 **協助嗎**？按鈕。
+3.  在需要 **協助**？窗格，告訴我們您需要哪些協助，然後按 Enter。
+4.  如果結果沒有説明，請選取 連絡人 **支援**。
+5.  輸入問題的描述、確認您的連絡人號碼和電子郵件地址、選取您偏好的連絡人方法，然後選取 **連絡人給我**。 預期等候時間會以需要協助？窗 格。
 
 ## <a name="related-topics"></a>相關主題
 
 [安裝 Microsoft Teams Powershell](teams-powershell-install.md)
 
-[使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
+[使用 powerShell Teams管理Teams資料](teams-powershell-managing-teams.md)
 
-[Teams PowerShell 版本資訊](teams-powershell-release-notes.md)
+[TeamsPowerShell 版本資訊](teams-powershell-release-notes.md)
 
 [Microsoft Teams Cmdlet 參照](/powershell/teams/?view=teams-ps)
 

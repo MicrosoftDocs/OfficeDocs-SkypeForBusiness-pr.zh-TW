@@ -16,32 +16,40 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 - seo-marvel-mar2020
-description: 針對系統管理員提供如何規劃、部署及執行 Microsoft Teams 的訓練影片、PowerPoint 幻燈片組、教學課程及其他資源。
+description: 針對系統管理員PowerPoint、部署及執行這些訓練影片、幻燈片組、教學課程及其他資源Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617796"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469565"
 ---
-# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 系統管理訓練入門
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用系統管理訓練Microsoft Teams
 
-使用訓練資源來教育自己 Teams、教導其他人或舉辦研討會。 請經常返回這裡查看新內容。
+使用訓練資源來教育自己瞭解Teams、教導其他人或舉辦研討會。 請經常返回這裡查看新內容。
 
-|               |               |               |               |
+|       圖示        | 描述               |    圖示           |描述               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![描繪手和向上箭號的圖示](/office/media/icons/get-started-teams.png) | [使用幾個團隊和頻道快速入門](./get-started-with-teams-quick-start.md) | ![描述兩個使用者的圖示](/office/media/icons/users-people.png) | [取得使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![描述核取方塊的圖示](/office/media/icons/success-teams.png) | [在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![工作剪貼簿符號](/office/media/icons/task-checklist-planning-teams.png) | [Teams 粉筆交談：瞭解熱門 Teams 案例的最佳作法和實用指南](./chalk-talks-landing-page.yml) |
+| [在這裡開始推出](./get-started-with-teams-quick-start.md) | [根據Teams來查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
+| [在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams粉筆交談：瞭解熱門案例的最佳作法Teams指南](./chalk-talks-landing-page.yml) |
+
+<h2>主要訓練課程和課程</h2>
+
+|   圖示            | 描述              |  圖示             |    描述           |
+| :------------ | :------------ | :------------ | :------------ |
+| [支援使用 Microsoft Teams 的遠端工作者](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams IT 的基本功能](https://aka.ms/MicrosoftTeamsforIT) | [管理 IT 團隊共同合作](/learn/paths/m365-manage-team-collaboration) | [服務採用專家認證](/learn/paths/m365-service-adoption) |
+| [Microsoft 365 團隊合作簡介](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 認證：團隊合作管理員關聯](/learning/m365-teamwork-administrator.aspx) |
+
 
 <h2>技術訓練</h2>
 
-| 模組 | 影片 | PowerPoint 卡片組  |
+| 模組 | 影片 | PowerPoint卡片組  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft 技術 - IT YouTube 頻道的 Teams 基本功能](https://aka.ms/MicrosoftTeamsforIT) | [影片：IT 團隊](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 基本版 (10：13 分鐘) <br>[影片：部署&](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) Teams - 簡介 (8：22 分鐘)   <br>[影片：安全性與合規性](https://youtu.be/91lHNKVVvQ4) (12：42 分鐘) <br>[影片：在](https://www.youtube.com/watch?v=Km4T4hMM__k) 10：54 分鐘 (Teams 安全性和合規性控制) ||
+| [Microsoft 技術 - Teams It YouTube 頻道的基本功能](https://aka.ms/MicrosoftTeamsforIT) | [影片：Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 10：13 (IT 基本功能) <br>[影片：部署&設定Teams -](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8：22)   <br>[影片：安全性與合規性](https://youtu.be/91lHNKVVvQ4) (12：42 分鐘) <br>[影片：Teams](https://www.youtube.com/watch?v=Km4T4hMM__k) 10：54 分鐘 (安全性與合規性控制) ||
 | 基礎 - 核心元件 | [影片](https://aka.ms/teams-foundations) | [甲板](https://aka.ms/teams-foundations-deck) |
-| Windows 桌面用戶端 | [影片](https://aka.ms/teams-clients) | [甲板](https://aka.ms/teams-clients-deck) |
+| Windows桌面用戶端 | [影片](https://aka.ms/teams-clients) | [甲板](https://aka.ms/teams-clients-deck) |
 | 管理、管理和生命週期 | [影片](https://aka.ms/teams-governance) | [甲板](https://aka.ms/teams-governance-deck) |
 | 安全性&合規性 | [影片](https://aka.ms/teams-security-compliance) | [甲板](https://aka.ms/teams-security-compliance-deck) |
 | 通話品質概觀 | [影片](https://aka.ms/teams-quality) | [甲板](https://aka.ms/teams-quality-deck) |
@@ -51,56 +59,52 @@ ms.locfileid: "51617796"
 | 動態緊急電話 | [影片](https://aka.ms/teams-dec) |  [甲板](https://aka.ms/teams-dec-deck) |
 | 即時活動 | [影片](https://aka.ms/teams-live-events-session) | [甲板](https://aka.ms/teams-live-events-deck) |
 | 電話系統簡介 | [影片](https://aka.ms/teams-phone-system) | [甲板](https://aka.ms/teams-phone-system-deck) |
-| 直接路由 | [影片 1：在 Teams 中規劃直接路由](https://aka.ms/teams-dr-plan)<br>[影片 2：在 Teams 中建立及管理直接路由](https://aka.ms/teams-dr-config)<br>[影片 3：在 Teams 中移至直接路由](https://aka.ms/teams-dr-migrate)  | [甲板](https://aka.ms/teams-direct-routing-deck) |
+| 直接路由 | [影片 1：規劃直接路由Teams](https://aka.ms/teams-dr-plan)<br>[影片 2：在 Teams](https://aka.ms/teams-dr-config)<br>[影片 3：在 Teams](https://aka.ms/teams-dr-migrate)  | [甲板](https://aka.ms/teams-direct-routing-deck) |
 | 從商務用 Skype 升級至 Teams | [影片 1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片 2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片 3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片 4：系統管理員體驗](https://aka.ms/teams-upgrade-admin) | [甲板](https://aka.ms/teams-upgrade-deck)|
 
-<h2>IT 版 Teams 會議室基礎& AV 專業人員</h2>
+<h2>Teams 會議室IT 與 AV 專業人員&基礎</h2>
 
-<p>下表包含全面影片訓練的連結，以及隨附的 PowerPoint (在 Microsoft Teams 會議室) PDF 格式。  
+<p>下表包含全面影片訓練的連結，以及隨附的PowerPoint套 (PDF 格式) ，Microsoft Teams 會議室。  
 
-| 模組 | 影片 | PowerPoint (PDF)   |
+| 模組 | 影片 | PowerPoint套 (PDF)   |
 | ------------ | -------------------- | -------------------- |
-| 單元 1：Microsoft Teams 會議室簡介 (18：29)  | [影片](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| 單元 2：Microsoft Teams 網路 (34：10 分鐘)  | [影片](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| 單元 1：Microsoft Teams 會議室 (18：29)  | [影片](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| 單元 2：Microsoft Teams網路 (34：10 分鐘)  | [影片](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
 | 單元 3：在 18：45 (選擇適合空間的裝置)  | [影片](https://www.youtube.com/watch?v=jUac7mT7xP4) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| 單元 4：部署 Microsoft Teams 會議室 (56：36 分鐘)  | [影片](https://www.youtube.com/watch?v=IJZPczMAsEM) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| 單元 5：在 32：27 (開始 Microsoft Teams 會議室)  | [影片](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| 單元 6：管理 Microsoft Teams 會議室，第 1 (18：31 分鐘)  | [影片](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| 單元 7：管理 Microsoft Teams 會議室，第 2 部分 (41：06 分鐘)  | [影片](https://www.youtube.com/watch?v=vDCYM5sKylc) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| 單元 8：Microsoft Teams 會議室 -- 秘訣、訣竅和疑難排解 (18：14) |[影片](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 單元 4：部署Microsoft Teams 會議室 (56：36)  | [影片](https://www.youtube.com/watch?v=IJZPczMAsEM) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| 單元 5：在 32：27 Microsoft Teams 會議室 (32：27 開始)  | [影片](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| 單元 6：管理Microsoft Teams 會議室，第 1 (18：31 分鐘)  | [影片](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| 單元 7：管理Microsoft Teams 會議室，第 2 部分 (41：06 分鐘)  | [影片](https://www.youtube.com/watch?v=vDCYM5sKylc) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| 單元 8：Microsoft Teams 會議室--提示 18：14 (、技巧和疑難排解) |[影片](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | 單鍵連接指示 |  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>互動式指南</h2>
 
 | 標題                                                                       | 抽象                                                                                                                                                                                                               |  連結至指南                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 身分識別、Access 管理& Teams 的威脅防護                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取和身分識別政策，以及啟用 Teams 的 Office 365 進位威脅防護                                                            | [Teams 安全性指南](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Teams 的資料外 (DLP) 策略                     | 瞭解如何將 Microsoft Teams 新增到現有的 DLP 策略，以及建立新策略，無論是根據範本或完全自訂的組織的資料保護需求。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
-| 在 Teams 中管理合規性                                                | 使用 Microsoft 365 安全性、Microsoft 365 合規性和 Microsoft Teams 系統管理中心，以及 Windows PowerShell 來管理和設定 Office 365 組織的 Microsoft Teams 策略和設定。 | [在 Teams 指南中管理合規性](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams 顧問：在 Microsoft Teams 中部署聊天、團隊、頻道和應用程式 | 瞭解如何運用 Teams 顧問來評估您的環境，並建立部署聊天、團隊、頻道和應用程式的計畫。                                                                                         |  [Teams 顧問指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
-| 使用 PowerShell 和動態群組簡化 Teams 系統管理        | 將 Office 365 群組從靜態成員資格轉換為動態，並使用 Windows PowerShell 將新的 App 權限原則指派給所有成員。                                                                         |  [簡化 Teams 系統管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
-| 在 Microsoft Teams 系統管理中心管理 Teams 和來賓存取         | 瞭解如何為貴組織設定及管理 Microsoft Teams 和來賓存取權。                                                                                                                              | [管理 Teams 和來賓存取指南](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| 設定 Teams 電話系統：自動&通話佇列                   | 逐步完成使用 Microsoft Teams 系統管理中心在 Microsoft Teams 通話中建立及部署通話佇列和自動助理的流程。                                                          |  [設定 Teams 電話系統指南](https://aka.ms/TeamsPhoneInteractiveGuide)             |
-| 設定直接路由：連接 SBC 和語音路由                 | 使用 Microsoft Teams Phone System Direct Routing 與您的現有電話基礎結構整合。                                                                                                              | [設定直接路由指南](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| 在 Microsoft Teams 中設定管理                                     | 瞭解如何為貴組織建立 Teams 訊息保留政策，以及如何存檔、刪除及還原個別的 Teams                                                                                   |  [在 Microsoft Teams 指南中設定管理](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
-| 建立及部署 Microsoft Teams 會議                          | 逐步完成 Microsoft Teams 會議工作負載的部署程式。                                                                                                                                       |  [Microsoft Teams 會議指南的建立與部署](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| 設定 Microsoft Teams 的音訊會議                            | 探索 Teams 中的音訊會議功能，並瞭解如何指派會議橋接器和撥入電話號碼。                                                                                          |  [Microsoft Teams 音訊會議指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 為第一線員工組組 Microsoft Teams                           | 瞭解如何為第一線員工設定及部署正確的 Microsoft Teams 環境。                                                                                                                  | [第一線員工用 Microsoft Teams 的組組指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
-| 前線員工身分識別：授權 IT、主管和前線員工                    | 瞭解如何將 Microsoft Teams 與現有 HR 系統整合、設定輕量委派身分識別管理，以及為使用共用裝置的人設定簡化的登錄和順暢的轉換。                                                                                                                  | [前線員工身分識別指南](https://aka.ms/FLWIdentityIG)              |
-| 部署 Microsoft Teams 會議室                           | 瞭解如何建立和設定帳戶以用於 Microsoft Teams 會議室，以及如何在 Microsoft Teams 系統管理中心管理裝置。                                                                                                                  | [部署 Microsoft Teams 會議室](https://aka.ms/teamsroomslab)              |
+| 身分識別、Access 管理&威脅防護Teams                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取和身分識別政策，以及Office 365進一Teams                                                            | [Teams安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
+| 資料外 (DLP) 策略Microsoft Teams                     | 瞭解如何新增新Microsoft Teams至現有的 DLP 策略，以及如何建立新策略 ，無論是根據範本或完全自訂的組織的資料保護需求。                        | [TeamsDLP 指南](https://aka.ms/teamsdlpguide)         |
+| 在 Teams                                                | 使用 Microsoft 365、Microsoft 365合規性和 Microsoft Teams 系統管理中心，以及 Windows PowerShell 來管理和設定 Office 365 組織的 Microsoft Teams 策略和設定。 | [管理指南中的合規性Teams規範](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Teams顧問：在 Microsoft Teams | 瞭解如何使用顧問Teams評估您的環境，並建立部署聊天、團隊、頻道和應用程式的計畫。                                                                                         |  [Teams顧問指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| 使用 PowerShell Teams動態群組簡化系統管理        | 將Office 365群組從靜態成員資格轉換為動態Windows PowerShell，並使用新應用程式權限原則指派給所有成員。                                                                         |  [簡化Teams管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
+| 在 Teams管理中心管理 Microsoft Teams和來賓存取         | 瞭解如何為貴組織設定Microsoft Teams及來賓存取權。                                                                                                                              | [管理Teams和來賓存取指南](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
+| 設定Teams 電話系統：自動&通話佇列                   | 逐步完成使用系統管理中心建立及部署通話佇列和自動Microsoft Teams通話Microsoft Teams程式。                                                          |  [設定Teams電話系統指南](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| 設定直接路由：連接 SBC 和語音路由                 | 使用 Microsoft Teams 電話系統直接路由與您的現有電話基礎結構整合。                                                                                                              | [設定直接路由指南](https://aka.ms/DirectRoutingInteractiveGuide)          |
+| 在 Microsoft Teams                                     | 瞭解如何為貴組織Teams郵件保留政策，以及如何將個別郵件歸檔、刪除及還原Teams                                                                                   |  [在指南中Microsoft Teams管理](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| 在會議中Microsoft Teams部署                          | 逐步完成部署會議工作負載的流程，Microsoft Teams。                                                                                                                                       |  [在會議指南中Microsoft Teams及部署](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
+| 設定音訊會議Microsoft Teams                            | 探索音訊會議在 Teams 的功能，並瞭解如何指派會議橋接器和撥入電話號碼。                                                                                          |  [為指南Microsoft Teams音訊會議](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| 為第一Microsoft Teams工作人員進行配置                           | 瞭解如何為第一線員工Microsoft Teams及部署正確的環境。                                                                                                                  | [第一Microsoft Teams工作人員指南的組組](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 前線員工身分識別：授權 IT、主管和前線員工                    | 瞭解如何與現有人力資源Microsoft Teams整合、設定輕量委派身分識別管理，以及為使用共用裝置的人設定簡化的登錄和順暢的轉換。                                                                                                                  | [前線員工身分識別指南](https://aka.ms/FLWIdentityIG)              |
+| 部署Microsoft Teams 會議室                           | 瞭解如何在系統管理中心建立及設定帳戶Microsoft Teams 會議室管理Microsoft Teams裝置。                                                                                                                  | [部署Microsoft Teams 會議室](https://aka.ms/teamsroomslab)              |
 
 <h2>快速入門手冊</h2>
 
-- [快速入門：教育用 Teams 系統管理員](teams-quick-start-edu.yml)
-- [快速入門：在 Teams 中配置通話方案](configuring-teams-calling-quickstartguide.md)
+- [快速入門：Teams教育系統管理員](teams-quick-start-edu.yml)
+- [快速入門：在 Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>教程</h2>
 
 - [教學課程：Teams 中的會議](tutorial-meetings-in-teams.yml)
 - [教學課程：Teams 的音訊會議](tutorial-audio-conferencing.yml)
-- [教學課程：瞭解 Teams 中的通話](tutorial-calling-in-teams.yml)
+- [教學課程：瞭解通話Teams](tutorial-calling-in-teams.yml)
 
-<h2>課程</h2>
-
-- [使用 Microsoft Teams 啟用團隊合作](/learn/paths/m365-manage-team-collaboration)
-- [Microsoft 服務採用專家](/learn/paths/m365-service-adoption/)

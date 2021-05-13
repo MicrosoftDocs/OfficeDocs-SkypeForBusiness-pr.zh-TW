@@ -1,10 +1,10 @@
 ---
 title: 使用記錄檔案疑難排解Microsoft Teams
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,26 +13,29 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可以在哪裡找到記錄，以及這些記錄如何協助進行疑難排解。
+description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可以在哪裡找到記錄，以及這些記錄如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264873"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337740"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>使用記錄檔案疑難排解Microsoft Teams
-=================================================
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案來監控和疑難排解Microsoft Teams
 
-用戶端自動產生的記錄檔案類型有三種，可運用這些記錄Microsoft Teams：
+用戶端自動產生的記錄檔案有三種類型，可運用這些記錄檔案以協助監控和疑難排解Teams：
 
--   調試記錄
+-   [調試記錄](#debug-logs)
 
--   媒體記錄
+-   [媒體記錄](#media-logs)
 
--   桌面記錄
+-   [桌面記錄](#desktop-logs)
+
+本文將說明三個記錄及其使用方式。 
+
+有關疑難排解特定問題的資訊，請參閱：Teams[疑難排解](/MicrosoftTeams/troubleshoot/teams)。 如需如何與支援人員聯繫的資訊，請參閱 [取得支援](/microsoft-365/business-video/get-help-support)。
 
 使用 Microsoft 支援服務建立支援要求時，支援工程師需要調試記錄。 建立支援要求之前，先將調試記錄放在手邊，Microsoft 就會快速開始疑難排解問題。 **媒體** 或 **桌面** 記錄只有在 Microsoft 要求時才能使用。
 
@@ -53,8 +56,7 @@ ms.locfileid: "52264873"
 
 有關支援的作業系統和瀏覽器的完整清單，請參閱取得[用戶端Microsoft Teams。](get-clients.md)
 
-<a name="debug-logs"></a>調試記錄
----------------------------
+## <a name="debug-logs"></a>調試記錄
 
 這些是最常見的記錄，且所有 Microsoft 支援案例都需要這些記錄。 調試記錄是由 Windows Mac 桌面用戶端，以及瀏覽器型用戶端所產生。 記錄是以文字為基礎，由下而上讀取。 您可以使用任何文字型編輯器來讀取，登入用戶端時會建立新記錄。
 
@@ -88,10 +90,9 @@ ms.locfileid: "52264873"
 
 -   Linux：~/Downloads
 
--   瀏覽器：系統會提示您將調試記錄儲存到預設儲存位置
+-   瀏覽器：系統會提示您儲存調試記錄至預設儲存位置
 
-<a name="media-logs"></a>媒體記錄
----------------------------
+## <a name="media-logs"></a>媒體記錄
 
 媒體記錄包含會議中音訊、視像和螢幕Teams資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
 
@@ -116,11 +117,10 @@ ms.locfileid: "52264873"
 |Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼器及編碼器，以及接收和接收的畫面數量，以及視 (VBSS) 會話狀態。         |
 |rtmcontrol.msrtc-0-2415069487.blog      |記錄與遠端控制動作相關的資訊，例如提供控制項時時間戳記，以及滑鼠指標資訊。          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |記錄媒體堆疊追蹤事件。         |
-|Debug-0-s2790420889.blog    | 包含與媒體代理程式有關的資訊，包括呈現品質。          |
+|Debug-0-s2790420889.blog    | 包含媒體代理程式相關資訊，包括呈現品質。          |
 |tscalling-0-2061129496.blog   |在 ts-calling API 中記錄事件。       |
 
-<a name="desktop-logs"></a>桌面記錄
----------------------
+## <a name="desktop-logs"></a>桌面記錄
 
 桌面記錄 ，也稱為 bootstrapper 記錄，包含桌面用戶端與瀏覽器之間發生的記錄資料。 與媒體記錄一樣，這些記錄只有在 Microsoft 要求時才能使用。 記錄是以文字為基礎，而且可以使用由上而下格式的任何文字型編輯器來讀取。
 
@@ -143,14 +143,13 @@ Linux：
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-<a name="browser-trace"></a>瀏覽器追蹤
----------------------------
+## <a name="browser-trace"></a>瀏覽器追蹤
 
-針對某些錯誤類別，Microsoft 支援服務可能會要求您收集瀏覽器追蹤。 這項資訊可提供發生錯誤時Teams用戶端狀態的重要詳細資料。
+針對某些類別的錯誤，Microsoft 支援服務可能會要求您收集瀏覽器追蹤。 這項資訊可提供發生錯誤時Teams用戶端狀態的重要詳細資料。
 
-開始瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
+在啟動瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
 
-在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後按照提供的步驟進行。 
+在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後遵循所提供的步驟。 
 
 -   [Chrome & Edge (Chromium) ](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
 
