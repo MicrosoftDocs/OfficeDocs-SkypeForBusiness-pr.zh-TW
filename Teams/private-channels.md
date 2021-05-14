@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 77ebc7abc73163bfdc9804d22efa12ade510d925
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959480"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469615"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -36,7 +36,7 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 - 小組中的一群人希望能有個專屬空間能共同作業，而不需建立個別小組。
 - 小組中的一小群人希望使用私人頻道來討論機密資訊，例如預算、資源、戰略定位等。
 
-鎖定圖示表示私人頻道。 只有私人頻道的成員才能查看以及參與他們所加入的私人頻道。
+鎖定圖示表示私人頻道。只有私人頻道的成員才能查看以及參與他們所加入的私人頻道。
 
 私人頻道建立之後，會連結到父系小組，且不能移至其他小組。 此外，私人頻道不能轉換成標準頻道，反之亦然。
 
@@ -120,6 +120,8 @@ Teams 會管理私人頻道網站的生命週期。 如果在 Teams 以外刪除
 當您從現有小組建立小組時，不會複製現有小組中任何的私人頻道。
 
 目前未接的活動電子郵件中不會包含來自私人頻道的通知。
+
+私人頻道中的訊息不支援保留原則。
 
 ## <a name="related-topics"></a>相關主題
 
