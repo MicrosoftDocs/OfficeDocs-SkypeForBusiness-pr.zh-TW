@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Teams 訓練
         items:
-          - name: 概觀
-            href: training-microsoft-teams-landing-page.md
           - name: Teams 的管理訓練
             href: itadmin-readiness.md
-          - name: Ignite 2020 中的 Teams 工作階段
+          - name: Ignite 中的 Teams 工作階段
             href: ignite-2020-landing-page.md
-          - name: Teams 即時訓練
+          - name: Teams 的終端使用者訓練
             href: instructor-led-training-teams-landing-page.yml
-          - name: Teams 線上訓練
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: 自商務用 Skype 升級
     items:
       - name: 快速入門
@@ -357,7 +353,7 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: 來賓體驗
                 href: guest-experience.md
-              - name: 開啟或關閉來賓存取
+              - name: 開啟來賓存取或關閉
                 href: set-up-guests.md
               - name: 將來賓新增至團隊
                 href: view-guests.md
@@ -545,7 +541,7 @@ items:
                 href: guest-experience.md
               - name: 授權來賓存取
                 href: teams-dependencies.md
-              - name: 開啟或關閉來賓存取
+              - name: 開啟來賓存取或關閉
                 href: set-up-guests.md
               - name: 將來賓新增至團隊
                 href: add-guests.md
@@ -1289,7 +1285,7 @@ items:
             href: business-voice/set-up-policies.md
           - name: 管理原則套件
             href: business-voice/policy-packages.md
-          - name: 建立其他使用者
+          - name: 建立更多使用者
             href: business-voice/create-users.md
           - name: 設定通話佇列
             href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: 適用於政府的 Teams 原則套件
             href: policy-packages-gov.md
-  - name: 疑難排解
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: 疑難排解安裝和更新問題
-        href: troubleshoot-installation.md
-      - name: 疑難排解 Teams 用戶端的連線問題
-        href: connectivity-issues.md
-      - name: 在舊系統上接收訊息和通話的問題
-        href: legacy-login-issues.md
-      - name: 疑難排解 Teams 的問題時使用記錄檔
-        href: log-files.md
-      - name: 驗證 Teams 的服務健康情況
-        href: service-health.md
-      - name: 連絡商務產品的客戶支援 - 系統管理說明
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: 如何查閱您的支援 PIN
-        href: support-pin.md
   - name: 參考
     items:
       - name: Teams 的限制和規格

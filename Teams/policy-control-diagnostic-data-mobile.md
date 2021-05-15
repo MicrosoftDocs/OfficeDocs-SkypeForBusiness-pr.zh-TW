@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909147"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469645"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -57,7 +57,7 @@ ms.locfileid: "49909147"
   - **[活動]** 索引標籤已顯示。
   - 小組會擷取 **[事件]** 索引標籤事件。
 - **activityTypeDropdown** -擷取活動篩選使用情況，以在 **[我的活動]** 和 **[摘要]** 之間進行切換。
-- **addChannel** - 新增頻道。 這個專案提供成功建立頻道的成功資料。
+- **addChannel** - 新增頻道。此項目提供成功建立頻道的成功資料。
 - **addMember** - 已觸發選取 **[更多]** 功能表中的 **[邀請人員]** 按鈕。
 - **addMembers** - 新增成員至小組或私人頻道。
 - **addToCalendar** - 針對私人行事曆中遺失的行事曆事件，選取 **新增至行事曆** 按鈕。
@@ -121,7 +121,7 @@ ms.locfileid: "49909147"
 - **BYOELiveEventJoin** - BYOE (廣播您自己的事件) 使用者加入即時事件。
 - **calendarLiveChatClicked** - 從 **排程** 索引標籤上的即時會議進行聊天。
 - **calendarMeetingJoin** -  從行事曆選取的 **[會議加入]** 按鈕。
-- **calendarTab** - 在底部導軌中選取 **[會議]** 索引標籤。 對瞭解行事曆使用狀況，並比較底部導軌上的其他應用程式，或判斷在從底部列選取之後，在呈現行事曆文章時是否有問題上很有幫助。
+- **calendarTab** - 在底部導軌中選取 **[會議]** 索引標籤。對瞭解行事曆使用狀況，並比較底部導軌上的其他應用程式，或判斷在從底部列選取之後，在呈現行事曆文章時是否有問題上很有幫助。
 - **calendarTabClicked** - 在下列情況中，這會顯示行事曆使用狀況，並允許您與底部導軌上的其他導航應用程式進行比較。 這可供您在下列情況下用以判斷是否有問題：
   - **[排程]** 索引標籤已顯示。
   - 底部導軌中的 **[會議]** 索引標籤已選取。
@@ -222,7 +222,7 @@ ms.locfileid: "49909147"
   - 關閉視訊。
   - 在即時會議或通話中，已選取 [視訊] 按鈕。
 - **callPark** - 觸發時機：
-  - 已在 **[...]** 中選取 **[駐留通話]**。 功能表。
+  - 已在 **[...]** 功能表中選取 **[駐留通話]**。
   - **[擷取]** 按鈕已選取。
   - 已在 [擷取] 對話方塊中選取 **[選取]**。
   - 已在 [擷取] 對話方塊中選取 **[取消]**。
@@ -359,6 +359,7 @@ ms.locfileid: "49909147"
 - **composeParticipantAdded** - 當新增參與者至 [班次] 應用程式時。
 - **composeSearchResult** - 訊息擴充結果選取，這對瞭解應用程式搜尋結果相關性很有幫助。 也增強了使用應用程式資料遙測傳送郵件功能。
 - **composeSelectExtension** - 點選 [ME] 應用程式。
+- **composeSendSmartReply** - 已點擊智慧回覆項目。
 - **composeSendMessage** 增強使用應用程式資料遙測傳送郵件功能。
 - **confirmAudioOn** - 使用者確認想開啟音訊。
 - **confirmFileShare** -  已在 [確認] 對話方塊中選取 **[共用]**。
@@ -399,7 +400,7 @@ ms.locfileid: "49909147"
 - **createPlannerTask** - 檢查撥打給 Planner 服務的通話。 確認已在共用工作清單中成功建立工作。
 - **createShiftClicked** - 當主管選取 **[建立班次]** 時。
 - **createShiftOrTimeOffClicked** - 如果您選取 **[建立班次]** 或 **[休假]**，則會觸發。
-- **createTask** - 用於當建立動作失敗時，Planner 服務的檢查通話。 確認工作建立作業失敗。
+- **createTask** - 用於當建立動作失敗時，Planner 服務的檢查通話。確認工作建立作業失敗。
 - **createTaskList** - 當使用者從 [常用] 檢視瀏覽至建立方案檢視時。
 - **createTeam** - 在下列情況下，針對新團隊建立，提供成功建立或捨棄動作所需的成功資料：
   - 已選取 **[建立團隊]** 頁面上的 **[完成]** 按鈕。
@@ -489,6 +490,7 @@ ms.locfileid: "49909147"
 - **editNavigation** -  已在 **[更多]** 功能表中選取 **[重新排序]**，以編輯末列應用程式順序。
 - **editRsvpMeetingOptions** - 選取 **[盡快回覆]**，以變更先前的選取。
 - **editShiftClicked** -編輯班次。
+- **editSmartReply** - 已編輯智慧回覆項目。
 - **editTeam** - 使用者可以點選按鈕來編輯他們所擁有或管理的團隊。
 - **editTeam、editChannel** - 與團隊成員成功新增相關，且在下列情況下成功建立現有團隊：
   - 已選取 **[新增成員]** 頁面中的 **[取消]** 按鈕(現有團隊或頻道)。
@@ -522,7 +524,7 @@ ms.locfileid: "49909147"
 - **展開/摺疊** - 裝置連絡人或公司連絡人區段。
 - **expandCollapseSection** - 點選區段標題來展開或摺疊區段。
 - **預期： atMention-Android： chatSendMessage-iOS： sendMsg** -@提及 撰寫方塊中的機器人。
-- **預期： botClickCardAction-Android： showCard-iOS：遺失** - 點選卡片按鈕。 卡片是重要的平臺構造，且需度量其使用方式和模式才能瞭解平臺使用狀況，並持續瞭解用戶端的潛在問題。
+- **Expected: botClickCardAction - Android: showCard - iOS: 遺失** - 點選卡片按鈕。卡片是重要的平臺構造，且需度量其使用方式和模式才能瞭解平臺使用狀況，並持續瞭解用戶端的潛在問題。
 - **預期： chatSendMessage-iOS： composeSendMessage** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
 - **預期： composeSendMessage - Android： replyChannel -iOS：遺失** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
 - **預期： messageLike-Android： reactLike_CM** ，例如機器人訊息。
@@ -560,13 +562,13 @@ ms.locfileid: "49909147"
 - **galleryImage** - 影像上傳 - 圖庫。
 - **get_directions_clicked** -已選取 **[取得方向]** 按鈕。
 - **goToNotificationSettings** - 從 **[我們已更新 通知設定]** 對話方塊，移至 [通知設定] 頁面。
-- **GPSPromptClicked** - 已在 OS 提示中選取 **[允許]** 或 **[不允許]**。 允許 GPS 或不允許。
+- **GPSPromptClicked** - 已在 OS 提示中選取 **[允許]** 或 **[不允許]**。允許 GPS 或不允許。
 - **group_map_closed** - 使用者會從聊天中開啟地圖檢視。
 - **group_map_open** - 使用者關閉地圖檢視。
 - **groupCallJoin** - 使用者加入 [群組通話]。
 - **groupClicked** - 當使用者選取班次群組時，進行追蹤。
 - **guideMe** - 使用者會選取橫幅，通知他們 3P 的應用程式封鎖通知，並提供疑難排解指導方針。
-- **hamburgerMenu** - 瀏覽至漢堡選單。 漢堡選單包含重要動作，例如帳戶切換、通知設定、資料設定和設定檔設定。
+- **hamburgerMenu** - 瀏覽至漢堡功能表。漢堡功能表包含重要動作，例如帳戶切換、通知設定、資料設定和設定檔設定。
 - **handoffComplete** - 已移交此裝置上的會議或通話。
 - **handoffJoin** 在操作列表上選取 [會議移交] 選項。
 - **hardwareAudioOff** -透過硬體按鈕關閉音訊。
@@ -635,7 +637,7 @@ ms.locfileid: "49909147"
 - **location_family_sync** -顯示在 MSA 系列應用程式中建立的 [家庭] 群組成員。 確認顯示出所有可授與授權的家庭成員。
 - **location_group_map_sync** - 已開啟地圖檢視。
 - **location_map_load** -地圖檢視載入。
-- **location_map_markers_load** -地圖檢視載入。 確認所有主動共用的使用者的位置標記都能在地圖檢視中正確顯示。
+- **location_map_markers_load** - 地圖檢視載入。確認所有主動共用的使用者位置標記都能在地圖檢視中正確顯示。
 - **location_message_send** -使用者發起位置共用工作模式。
 - **location_data_use_privacy_denied** -使用者在彈出通知上關閉或選取 **[現在不要]**，以 TFL 解釋位置資料之使用。
 - **location_data_use_privacy_granted** -使用者在彈出通知上選取 **[允許]**，以 TFL 解釋位置資料之使用。
@@ -645,6 +647,7 @@ ms.locfileid: "49909147"
 - **loginFailed** -使用者無法登入。
 - **loginSuccess** - 使用者可以登入。
 - **manageBlockedNumbers** - 透過 [設定] 存取已封鎖的號碼。
+- **manualSendMessage** - 已手動傳送郵件。
 - **mapAppPicker** -當使用者在位置卡上點選時，選取要使用的地圖應用程式。
 - **markAsRead** -標示為已讀取。
 - **markAsUnread** -標示為未讀取。
@@ -712,7 +715,7 @@ ms.locfileid: "49909147"
 - **muteParticipant** - 將參與者設為靜音 (移至操作列表)。
 - **my_location_button_clicked** 使用者選取 **[我的位置]** 按鈕，將地圖放在其位置。
 - **my_location_clicked** 使用者選取地圖上的 **藍色點點**，將地圖放在其位置。
-- **myShiftPickerClicked** - 僅限登入的要求為 [切換] 或 [提出]。 **我的班次** 選擇器已選取。
+- **myShiftPickerClicked** - 僅限登入的要求為 [切換] 或 [提出]。已選取 **我的班次** 選擇器。
 - **nameGroupChat** -名稱群組聊天。
 - **nativeTimeClockBreak** -上班的休息時間。
 - **nativeChatLink** - 已選取本機交談的連結。
@@ -1003,7 +1006,7 @@ ms.locfileid: "49909147"
 - **shiftDetailsTodaysCoworkers** - 在螢幕上的時鐘中，已選取 **[開始]** 或 **[結束休息]** 按鈕。
 - **shortCircuitContactCount** -[通訊錄] 與 [連絡人] 獲取的短巡迴連絡人相符的數量。
 - **showBanner** - **WiFi 已連結、沒有網際網路** 橫幅出現的次數。
-- **showCard** - 點選卡片按鈕。 卡片是重要的平臺構造，且需度量其使用方式和模式才能瞭解平臺使用狀況，並持續瞭解用戶端的潛在問題。
+- **showCard** - 點選卡片按鈕。卡片是重要的平臺構造，且需度量其使用方式和模式才能瞭解平臺使用狀況，並持續瞭解用戶端的潛在問題。
 - **shownReadReceiptNotice** - 使用者顯示的功能注意事項 (含設定選項)。
 - **signIn** - 已在歡迎頁面上選取 **[登入]**，或已點選 **[登入]** 按鈕。
 - **signUp** -  已選取 **[建立免費帳戶]** 或 **[免費註冊]**。
@@ -1011,6 +1014,7 @@ ms.locfileid: "49909147"
   - 已設定同時通話轉接目標。
   - 已啟用同時通話轉接 (已啟用 [找我的來電] 且也已設定振鈴)。
 - **skipVerificationForLink** - 使用者選擇略過驗證。
+- **smartReply** - 已按下智慧回覆切換按鈕切換按鈕。
 - **SMSSendMessage** - 使用者傳送 SMS 訊息。
 - **sortChanged** - 當使用者在檢視工作清單下，變更排序次序時觸發。
 - **startEditing** - **[編輯]** 按鈕已選取。
@@ -1044,9 +1048,9 @@ ms.locfileid: "49909147"
 - **switchTeamsDialogTriggered** - 使用者檢視 **[班次]** 索引標籤。
 - **tabActionCopyLink** - 使用者如何探索並使用行動裝置上的索引標籤複製連結。
 - **tabActionMoreOptions** - 瞭解索引標籤中的省略號 (**[...]**) 的使用情況。
-- **tabActionOpenInBrowser** - 在瀏覽器中開啟的使用情況。 若使用者想要在 Teams 外開啟索引標籤，請務必瞭解此內容。
+- **tabActionOpenInBrowser** - 在瀏覽器中開啟的使用情況。若使用者想要在 Teams 外開啟索引標籤，請務必瞭解此內容。
 - **tabActionOpenInBrowserFromTab** - 瞭解 [索引標籤] 中的 [在瀏覽器開啟] 的使用情況，以獲得更多選項 (探索性和使用情況)。
-- **tabActionOpenInTeams** - 開啟的使用情況。 這是瞭解索引標籤是否可以在 Teams 中預設設為 [開啟] 的關鍵所在。
+- **tabActionOpenInTeams** - 開啟的使用情況。這是瞭解索引標籤是否可以在 Teams 中預設設為 [開啟] 的關鍵所在。
 - **tabActionRemove** - 瞭解 [刪除] 選項的可探索性和功能的使用情況。
 - **tabActionRename** - 瞭解 [重新命名] 的可探索性和功能的使用情況。
 - **tabActionSetting、Android-修正** -使用者如何探索並使用行動裝置上的索引標籤。
@@ -1065,15 +1069,15 @@ ms.locfileid: "49909147"
 - **tasksAppLaunchDashboardSeeAll** -[工作] 應用程式會從儀表板上的儀表板 **[查看全部]** 按鈕開啟，請透過 MT 服務檢查應用程式啟動。
 - **tasksAppLaunchDefault** -[工作] 應用程式會從按鈕選單開啟，請透過 MT 服務檢查應用程式啟動。
 - **tabCalendarClicked** - 使用者已從小組選擇器中選擇小組。
-- **teamChannelChanged** - 當使用者選取並瀏覽至 [方案] 清單中的方案時觸發。 只傳送到 appInsights，而不是 Aria。
+- **teamChannelChanged** - 當使用者選取並瀏覽至 [方案] 清單中的方案時觸發。僅傳送至 appInsights，而不是 Aria。
 - **teamCreate** - 使用者選擇建立新小組的選項。
 - **teamEdit** - 使用者編輯其所擁有或管理之小組的某些面向。
 - **teamNav** 小組的 [檢視] 功能表選項。
 - **teamsDeviceCallResumed** - 藍芽連接到外圍設備的使用者 (行動電話塢站) 會重新啟動保留的通話。
 - **teamSelectedClicked** - 當使用者為時程表選取 **[已選取的小組]**。
 - **teamShiftPickerClicked** - 當使用者新增新休息項目。 一旦使用者儲存變更，就會記錄事件。
-- **tenantSwitch** - 開啟切換租使用者。 MTMA (多個租使用者和多個帳戶) 功能的成功度量，可協助主動識別並修正問題，並提供流暢的切換體驗。
-- **tenantSwitchUnsupportedError** - 租使用者不支援錯誤 (當使用者看到錯誤時)。 MTMA (多個租使用者和多個帳戶) 功能的成功度量，針對帳戶或租使用者切換錯誤提供遙測，所以能主動識別並修正問題，並提供流暢的切換體驗。
+- M **tenantSwitch** - 開啟 [切換租使用者]。TMA (多個租使用者和多個帳戶) 功能的成功度量，可協助主動識別並修正問題，並提供流暢的切換體驗。
+- **tenantSwitchUnsupportedError** - 租用戶不支援錯誤 (當使用者看到錯誤時)。MTMA (多個租用戶和多個帳戶) 功能的成功度量，針對帳戶或租使用者切換錯誤提供遙測，所以能主動識別並修正問題，並提供流暢的切換體驗。
 - **timeClockClicked** - 使用者可選取 [我的班次] 索引標籤上的 **[上班打卡]** 按鈕。
 - **timeOffReasonClicked** - 判斷是否提及休假的原因。
 - **timesheetAddClicked** - 當使用者在其休息編輯中新增注意事項時。 一旦使用者儲存變更，就會記錄事件。
@@ -1109,8 +1113,7 @@ ms.locfileid: "49909147"
 - **updatePersonalTask** - 確認已成功更新個人工作。
 - **updatePlaybackSpeedVoicemail** -語音信箱回放速度值已變更。
 - **updateTask** - 確認更新工作動作失敗。
-- **updateTaskState** - 確認工作狀態已更新。
-動作。
+- **updateTaskState** - 確認工作狀態已更新。動作。
 - **更新** - 選取 **[更多]** 功能表中的 **[更新]** 按鈕。
 - **uploadFile** - 使用者選取 **[從裝置上傳]**。
 - **uploadSelectedFile** - 在下列情況下觸發：
@@ -1186,6 +1189,9 @@ ms.locfileid: "49909147"
 - **load_smart_task_list** - 確認工作清單檢視的智慧工作清單之工作已成功取得。
 - **rename_personal_plan** - 確認已成功重新命名個人工作清單。
 - **rename_planner_plan** - 確認已成功重新命名共用工作清單。
+- **smart_reply_enabled** - 確認已為目前使用者啟用智慧回覆。
+- **smart_reply_received** - 確認已收到智慧回覆建議。
+- **smart_reply_banned** - 確認無法為目前使用者顯示智慧回覆。
 - **update_planner_task_and_nav_to_view** - 確認已成功更新共用工作專案，以及在動作之後使用者導向結果檢視所需的時間。
 - **update_personal_task_and_nav_to_view** -確認已成功更新個人工作專案，以及之後，使用者導向導向結果檢視所需的時間 - **updatePlannerTask** - 確認使用者已成功在共用工作清單中更新工作。
 
@@ -1193,7 +1199,7 @@ ms.locfileid: "49909147"
 
 ### <a name="properties-sent-with-all-events"></a>隨著所有事件傳送的屬性
 
-| 屬性名稱                    | 說明                                                          |
+| 屬性名稱                    | 描述                                                          |
 |----------------------------------|----------------------------------------------------------------------|
 | EventInfo_Time                   | 事件產生時間                                                |
 | EventInfo_Name                   | 事件名稱 - 用來區分事件類型               |
@@ -1233,7 +1239,7 @@ ms.locfileid: "49909147"
 
 ### <a name="properties-sent-with-panelaction-events"></a>隨著面板動作事件傳送的屬性
 
-| 屬性名稱         | 說明                                                        |
+| 屬性名稱         | 描述                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Action_DestinationUri | 透過使用者動作存取之資源的 URI                  |
 | Panel_Uri             | 傳送給使用者的面板的 URI                             |
@@ -1275,7 +1281,7 @@ ms.locfileid: "49909147"
 
 ### <a name="properties-sent-with-scenario-events"></a>隨著案例事件傳送的屬性
 
-| 屬性名稱        | 說明 |
+| 屬性名稱        | 描述 |
 |----------------------|-------------|
 | Scenario_Status      | 案例狀態 - 放棄/確定/錯誤 |
 | Scenario_Step        | 當案例包含多個具有不同失敗點的步驟時，此屬性會擷取該步驟的詳細資料 |
