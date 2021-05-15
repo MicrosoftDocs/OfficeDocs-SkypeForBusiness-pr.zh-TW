@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定適用于Microsoft 電話系統。 '
-ms.openlocfilehash: eba13d07c41af8b449d0164542c4d241b1b54f66
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: 2d4f4bada45242ddd5a3aa48308d2acaad495a23
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486357"
+ms.locfileid: "52491773"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>以下是可透過電話系統獲得的功能
 
@@ -52,7 +52,7 @@ ms.locfileid: "52486357"
 |按名稱和號碼 (接聽/啟動)   <br/> |讓使用者以觸控功能接聽來電，並撥打完整電話號碼或按一下用戶端中的名稱來撥打撥出電話。  <br/> |
 |[呼叫轉譯選項和同時撥打](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |讓使用者設定轉轉規則，讓通話可以隨處進行，或將通話轉轉到同事或語音信箱。  <br/> |
 |[群組呼叫代答和轉往群組](call-sharing-and-group-call-pickup.md) <br/> | 讓使用者與同事共用來電，讓同事可以接聽使用者無法使用時發生的通話。 與其他通話共用方式相比 (例如呼叫轉轉或同時撥打) 對收件者的干擾較小，因為使用者可以設定接收來電通知的方式。 |
-|[轉接通話和諮詢轉移](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |允許使用者將通話轉接給其他人。 或者，如果他們需要離開辦公室，但想要繼續交談，可以將電話從電腦或 IP 電話轉接到行動電話。  <br/> 請注意， *使用者必須* 啟用語音功能，以接收其他使用者轉接的通話。 |
+|[轉接通話和諮詢轉移](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |允許使用者將通話轉接給其他人。 或者，如果他們需要離開辦公室，但想要繼續交談，可以將電話從電腦或 IP 電話轉接到行動電話。  <br/> 請注意， *使用者不需要* 啟用語音功能，就不需要從其他使用者接聽轉接的通話。 |
 |[轉接至語音信箱通話*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 讓使用者在通話期間轉接至語音信箱。 |
 |[通話駐留和擷取](call-park-and-retrieve.md)  <br/> | 讓使用者在雲端的 Teams中保留通話。 當通話被停駐時，服務會產生唯一的通話取回程序代碼。 之後，將通話停駐的使用者或其他人就可以使用該程式碼和支援的應用程式或裝置來取回通話。 <br/> |
 |從搜尋撥打電話號碼  <br/> | 讓使用者使用 /call 命令，並指定名稱或號碼，從搜尋方塊進行通話。 <br/> |
