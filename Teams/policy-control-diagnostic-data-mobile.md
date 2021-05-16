@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469645"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498768"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -385,6 +385,20 @@ ms.locfileid: "52469645"
 - **copyLink** - 複製頻道文章的連結。
 - **contactActivity** - 已選取 [從連絡人卡片查看使用者活動] 的按鈕時。
 - **[交談]** - 當使用者瀏覽至 **[聊天]** 或 **[貼文]** 索引標籤時。
+- **cortanaClose** - 當使用者手動關閉 Cortana 畫布時。
+- **cortanaEduCategorySelect** - 當使用者按一下教育提示類別項目時。
+- **cortanaEduOpen** - 當 Cortana 畫布上顯示教育頁面時。
+- **cortanaInvoke** - 當 Cortana 開始聆聽時。
+- **cortanaKWSSwitchToggle** - 當使用者點選 Cortana 設定頁面中的 KWS 開關時。
+- **cortanaMicPermissionDialogButtonClick** - 當使用者在 Cortana 畫布上授予或拒絕麥克風權限時。
+- **cortanaOpen** - 當使用者開啟 Cortana 畫布時。
+- **cortanaOptionsOpen** - 當使用者點選 Cortana 畫布上的選項按鈕時。
+- **cortanaSafetyFirstActions** - 當使用者接受安全第一的宣告時。
+- **cortanaSafetyFirstLaunch** - 當使用者在 FRE 完成後第一次開啟 Cortana 時。
+- **cortanaSettingsOpen** - 當使用者透過按一下 Cortana 畫布上的 Cortana 設定按鈕開啟 Cortana 設定頁面時。
+- **cortanaStopResponding** - 當使用者按一下 Cortana 畫布上的取消按鈕時。
+- **cortanaUserSettingsLaunch** - 當使用者在 Teams 設定中開啟 Cortana 設定時。
+- **cortanaVoiceSelect** - 當使用者在 Cortana 設定頁面中選取 Cortana 語音字型時。
 - **createChannel** - 在下列情況下，針對新頻道建立，提供成功建立或捨棄動作所需的成功資料：
   - 已選取 **[建立頻道]** 頁面上的 **[完成]** 按鈕。
   - 已選取 **[建立頻道]** 頁面上的 **[取消]** 按鈕。
@@ -655,6 +669,9 @@ ms.locfileid: "52469645"
 - **messageBookmarkMessage** - 連接器卡儲存。 在應用程式特定資料中使用現有的遙測。 或儲存機器人訊息。
 - **markAsLastUnread** - 連接器卡快顯功能表。
 - **maskCallerId** -使用者啟用或停用通話設定以遮罩來電者識別碼。
+- **meetingAttachmentFileClick** - 按一下會議附件項目。
+- **meetingAttachmentFileOptions** - 按一下會議附件項目選項。
+- **meetingAttachmentSeeMoreClick** - 按一下會議附件查看更多按鈕。
 - **meetingDetailCalendarList** - 已從 calendarList 中選取 [會議詳細資料] 頁面，或選取 [會議詳細資料] 頁面上的 **[詳細資料]** 索引標籤。
 - **meetingDetailChatWithParticipants** -從 [會議詳細資料] 頁面與參與者聊天。
 - **meetingDetailDeleteMeetingforSelf** - 為某人從 [會議詳細資料] 頁面刪除 [會議]。
@@ -662,6 +679,10 @@ ms.locfileid: "52469645"
 - **meetingDetailParticipants** - 從 [會議詳細資料] 頁面上查看所有參與者。
 - **meetingDetailScheduledMeeting** - 已從 [排定的會議物件] (**[...]**) 中選取 [會議詳細資料] 頁面，或選取已排定會議的 **[詳細資料]** 索引標籤。
 - **meetingDetailSearchParticipants** -已選取 **[搜尋]** 會議排程中的會議參與者。
+- **meetingInsightFileClick** - 按一下會議相關的檔案項目。
+- **meetingInsightFileLocatorClick** - 按一下會議相關內容定位器提示按鈕。
+- **meetingInsightFileOptions** - 按一下會議相關的檔案項目選項。
+- **meetingInsightSeeMoreClick** - 按一下會議相關內容的查看更多按鈕。
 - **meetingJoinLeave** - 保持點選 -> 在點選 **[加入]** 按鈕之後，點選 **[x]**。
 - **meetingJoinNow** - **[立即加入 VOIP]** 已選取。
 - **meetingJoinNowWithCallMe** -使用者使用 **[與我通話]** 加入會議。
@@ -1172,6 +1193,24 @@ ms.locfileid: "52469645"
 > [!NOTE]
 > 如需 PanelAction 事件屬性的詳細資訊，請參閱[隨著案例事件傳送的屬性](#properties-sent-with-scenario-events)。
 
+- **cortanaError** 監視 Cortana 錯誤發生。
+- **cortanaView** - 監視 Cortana 畫布顯示。
+- **cortanaRestart** 監視 Cortana 重新啟動。
+- **cortanaSetNewConversation** 監視 Cortana 設定新的交談。
+- **cortanaSpeechRecognization** 監視 Cortana 語音辨識延遲。
+- **cortanaStart** 監視 Cortana 後端啟動。
+- **cortanaStartListening** 監視 Cortana 開始聆聽。
+- **cortanaStopListening** 監視 Cortana 停止聆聽。
+- **cortanaThinking** 監視 Cortana 狀態變更為思考 (等待服務的回應)。
+- **cortanaTokenRefresh** 監視前景中的 Cortana 權杖重新整理。
+- **cortanaWarmingUp** 監視 Cortana 暖機開始 (Cortana 已開啟，但權杖仍在擷取中)。
+- **cortana_admin_policy_refresh** - 監視 Cortana 系統管理原則重新整理。
+- **cortana_background_token_refresh** - 監視 Cortana 權杖重新整理。
+- **cortana_initialization** - 監視 Cortana 初始化步驟。
+- **cortana_sdk_events** - 監視 Cortana 相關事件。
+- **cortana_skill_action_execution** - 監視 Cortana 動作執行。
+- **cortana_skill_action_delay** - 確認延遲動作的開始。
+- **cortana_watchdog** - 監視 Cortana 看門狗復原程式。
 - **create_default_plan_and_nav_to_view** - 確認已成功建立預設的共用工作清單，以及在動作之後使用者導向結果所需的時間。
 - **create_personal_plan_and_nav_to_view** - 確認已成功建立個人工作清單，以及在動作之後使用者導向結果所需的時間。
 - **create_personal_task** - 確認已成功建立個人工作專案。
@@ -1187,6 +1226,11 @@ ms.locfileid: "52469645"
 - **load_personal_task_list** - 確認工作清單檢視的個人工作清單之工作已成功取得。
 - **load_shared_task_list** - 確認工作清單檢視的共用工作清單之工作已成功取得。
 - **load_smart_task_list** - 確認工作清單檢視的智慧工作清單之工作已成功取得。
+- **meetingAttachmentRender** - 確認會議附件的呈現。
+- **meetingInsightFetch** - 確認會議相關內容的擷取。
+- **meetingInsightLocatorRender** - 確認會議相關內容定位器提示的呈現。
+- **meetingInsightRender** - 確認會議相關內容的呈現。
+- **meetingInsightVisible** - 確認會議相關內容的能見度。
 - **rename_personal_plan** - 確認已成功重新命名個人工作清單。
 - **rename_planner_plan** - 確認已成功重新命名共用工作清單。
 - **smart_reply_enabled** - 確認已為目前使用者啟用智慧回覆。
@@ -1199,7 +1243,7 @@ ms.locfileid: "52469645"
 
 ### <a name="properties-sent-with-all-events"></a>隨著所有事件傳送的屬性
 
-| 屬性名稱                    | 描述                                                          |
+| 屬性名稱                    | 說明                                                          |
 |----------------------------------|----------------------------------------------------------------------|
 | EventInfo_Time                   | 事件產生時間                                                |
 | EventInfo_Name                   | 事件名稱 - 用來區分事件類型               |
@@ -1239,7 +1283,7 @@ ms.locfileid: "52469645"
 
 ### <a name="properties-sent-with-panelaction-events"></a>隨著面板動作事件傳送的屬性
 
-| 屬性名稱         | 描述                                                        |
+| 屬性名稱         | 說明                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Action_DestinationUri | 透過使用者動作存取之資源的 URI                  |
 | Panel_Uri             | 傳送給使用者的面板的 URI                             |
@@ -1281,7 +1325,7 @@ ms.locfileid: "52469645"
 
 ### <a name="properties-sent-with-scenario-events"></a>隨著案例事件傳送的屬性
 
-| 屬性名稱        | 描述 |
+| 屬性名稱        | 說明 |
 |----------------------|-------------|
 | Scenario_Status      | 案例狀態 - 放棄/確定/錯誤 |
 | Scenario_Step        | 當案例包含多個具有不同失敗點的步驟時，此屬性會擷取該步驟的詳細資料 |
