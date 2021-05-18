@@ -21,26 +21,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba99e49aa546a57d412492737cae8f6520a9eb84
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: df8a0f5b33bbea100b0303d224d7ba50946c6e5b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308362"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513876"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>會議Teams通話以策略為基礎的錄製&簡介
 
-以策略為基礎的錄製可讓採用 Microsoft Teams 進行通話和會議的組織使用系統管理政策，自動錄製和捕獲通話和線上會議，以按照相關公司或法規政策的要求進行後續處理和保留。
+以策略為基礎的錄製可讓採用 Microsoft Teams 進行通話和會議的組織，使用系統管理政策，自動錄製和捕獲通話和線上會議，以按照相關公司或法規政策的要求進行後續處理和保留。
 
 Teams功能已增強，可支援整合協力廠商錄製解決方案，包括平臺功能、使用者體驗，以及提供端對端解決方案所需的系統管理介面，以用於配置、管理、錄製、儲存及分析 Teams 通訊。 增強功能包括通訊平臺 API 和錄製事件，提供：
 
 - 跨裝置及所有支援的音訊、視像、螢幕分享和聊天端點，順暢、高品質的媒體捕獲。
 
-- 支援使用者與支援Teams、 (Teams、Teams、PSTN 商務用 Skype通話端點之間的) 
+- 支援使用者與支援Teams、行動 (Teams、Teams、PSTN 商務用 Skype通話端點之間的) 
 
 - 合規性錄製的新系統管理政策，包括與現有的Teams系統管理通話和會議工具與政策整合
 
-您可以在 Microsoft 365 A3/A5/E3/E5/Business 進階版 和 Office 365 A3/A5/E3/E5 使用者上啟用合規性錄製。 
+合規性錄製可在 Microsoft 365 A3/A5/E3/E5/Business 進階版 和 Office 365 A3/A5/E3/E5 使用者啟用。 
 
 合規性錄製解決方案整合功能也于 Ignite 2019 的合規性錄製與Microsoft Teams[審查](https://myignite.microsoft.com/archives/IG19-VCE40)。
 
@@ -62,7 +62,7 @@ Teams功能已增強，可支援整合協力廠商錄製解決方案，包括平
 | Access 擁有者           | 使用者               | 合規性      |
 | 保留政策？      | 選用           | 是             |
 
-Teams提供各種功能，方便會議和即時活動[](./cloud-recording.md)進行功能錄製。 組織錄製是指讓採用 Teams 通話和會議的組織，以系統管理政策的方式，自動錄製和捕獲通話和線上會議，以便根據相關公司或法規政策的要求，進行後續處理和保留。 根據此政策的使用者會發現，正在錄製與 Teams 的數位互動，但無法停用錄製，且一旦互動完成，將無法存取錄製。 錄製成為適用于 eDiscovery、法律保留及其他公司保留用途之合規性和法務人員所使用之組織檔案的一部分。
+Teams提供各種功能，方便會議和即時活動[](./cloud-recording.md)進行功能錄製。 組織錄製是指讓採用 Teams 通話和會議的組織，以系統管理政策的方式，自動錄製和捕獲通話和線上會議，以便根據相關公司或法規政策的要求，進行後續處理和保留。 根據此政策的使用者會發現，正在錄製與 Teams 的數位互動，但無法停用錄製，且一旦互動完成，將無法存取錄製。 錄製成為適用于 eDiscovery、法律保留及其他公司保留用途之合規性和法務人員使用之組織檔案的一部分。
 
 ## <a name="example-user-needs"></a>範例使用者需求
 
@@ -84,7 +84,7 @@ Teams提供各種功能，方便會議和即時活動[](./cloud-recording.md)進
 <tr class="even">
 <td>通訊系統管理員</td>
 <td><ul>
-<li><p>瞭解為何以及如何將錄製原則Teams使用者/端點。</p></li>
+<li><p>瞭解為什麼及如何將錄製原則Teams使用者/端點。</p></li>
 <li><p>為組織設定Teams記錄策略。</p></li>
 <li><p>監控和疑難排解通話和Teams錄製相關問題。</p></li>
 <li><p>使用使用方式、品質和可靠性的營運分析，支援內部合規性人員。</p></li>
@@ -108,22 +108,22 @@ Teams提供各種功能，方便會議和即時活動[](./cloud-recording.md)進
 
 ## <a name="solution-architecture-overview"></a>解決方案架構概觀
 
-合規性錄製解決方案會與Teams整合，如下圖所示：
+合規性錄製解決方案已與Teams整合，如下圖所示：
 
 > [!div class="mx-imgBorder"]
-> ![顯示小組自訂應用程式設定之螢幕擷取畫面](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "影像顯示當會議或Teams或來電時流程。")
+> ![顯示小組自訂應用程式設定之螢幕擷取畫面](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "影像顯示會議或通話Teams或來電時流程。")
 
 ## <a name="recorder"></a>答錄機
 
 合規性錄製解決方案的核心元件是答錄機。
-錄製器是建立為可縮放的 Azure (bot) 利用[Microsoft](/graph/cloud-communications-concept-overview)的通訊平臺，並註冊為 Microsoft Graph。 錄製器提供與通話和Teams通訊平臺[API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的直接互動，並提供媒體使用端點。
+錄製器是建立為可縮放的 Azure (bot) ，可運用[Microsoft](/graph/cloud-communications-concept-overview)的通訊平臺，並註冊為 Microsoft Graph。 錄製器提供與通話和Teams通訊平臺[API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的直接互動，並提供媒體使用端點。
 
 提供 [範例合規性記錄器應用程式](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) ，顯示如何設定 Bot、建立應用程式實例及指派合規性政策。 範例中也有用於錄製特定互動的 API 使用方式範例，例如處理[](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)來電路由、變更[](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)錄製狀態，以及移除正在錄製[的使用者](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)。
-Graph特定 API 的檔，請參閱此處以更新[RecordingStatus 和](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) [incomingCoNtext](/graph/api/resources/incomingcontext?view=graph-rest-1.0)。
+Graph特定 API 的檔，請參閱此處以更新[RecordingStatus 和](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) [incomingCoNtext。](/graph/api/resources/incomingcontext?view=graph-rest-1.0)
 
 錄製器服務的確切實現會因合作夥伴而異，但必須設計成支援多個答錄機，才能達到部署高可用性和地理分佈，以降低從 Teams 到錄製器的延遲。 此外，預計錄製器本身在設計時會考慮復原和重複。
 
-合作夥伴在提交認證解決方案之前，必須先確認 Microsoft Graph 通訊 API 和 SDK 的最低發行版本本，以確保支援合規性錄製整合的所有需求。
+合作夥伴必須確認 Microsoft Graph 通訊 API 和 SDK 的最低發行版本本，才能提交其認證解決方案，以確保所有合規性錄製整合需求都受到支援。
 
 合規性錄製案例的兩項基本需求為：
 
@@ -135,7 +135,7 @@ Azure 和 Windows VM 需求僅適用于 Teams Bot 元件，這表示合作夥伴
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合規性錄製策略指派和置備
 
-IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [Microsoft PowerShell](./teams-powershell-overview.md) 管理，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關 Microsoft Docs [會議政策](./meeting-policies-in-teams.md)、通話 [策略](./teams-calling-policy.md) 和  [群群組原則的更多資訊](./assign-policies.md#assign-a-policy-to-a-group)。
+IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [Microsoft PowerShell 管理](./teams-powershell-overview.md) ，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關 Microsoft Docs [會議政策](./meeting-policies-in-teams.md)、通話 [策略](./teams-calling-policy.md) 和  [群群組原則的更多資訊](./assign-policies.md#assign-a-policy-to-a-group)。
 
 1. 在租使用者中建立應用程式實例。
 
@@ -174,7 +174,7 @@ IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製�
 
    請參閱 [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)。
 
-3. 指派合規性錄製策略給使用者。
+3. 將合規性錄製政策指派給使用者。
 
    ```powershell
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
@@ -216,18 +216,19 @@ IT 系統管理員可以建立及指派合規性錄製政策，決定要錄製�
 |:--|:--|
 |ASC 技術 |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |音訊代碼 |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
+|CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |配音器 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |好 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
-|Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
-|CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
+|Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 <br/>
 下列合作夥伴正在認證其解決方案Microsoft Teams。<br/><br/>
 
 |夥伴|解決方案網站 |
 |:--|:--|
+|深入技術 |[http://www.insightfultechnology.com/what-we-do/fixed-line-voice-recording/](http://www.insightfultechnology.com/what-we-do/fixed-line-voice-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |奧克創新 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |

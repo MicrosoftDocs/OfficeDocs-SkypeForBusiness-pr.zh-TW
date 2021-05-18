@@ -17,16 +17,16 @@ description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
-ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
+ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51383967"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513846"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的即時活動錄製政策
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>即時活動錄製Microsoft Teams
 
-您有幾個選項可以錄製 Microsoft Teams 即時活動。 錄製選項是使用錄製策略來設定。 本文將說明各種設定。
+您有幾個錄製即時活動Microsoft Teams選項。 錄製選項是使用錄製策略來設定。 本文將說明各種設定。
 
 錄製選項是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 來設定](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)。
 
@@ -52,17 +52,13 @@ ms.locfileid: "51383967"
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | 永遠錄製               | 已停用並選取                                | 已啟用並選取         |
 | 召集人可以錄製或無法錄製 | 預設為啟用和選取                  | 預設為啟用和選取   |
-| 永不錄製               | 已停用且未選取                            | 已啟用且未選取      |
+| 永不錄製               | 已停用且未選取                            | 已停用且未選取      |
 
-當策略設定為永遠記錄 **時，** 該策略頁面具有下列選取選項：
-
-![即時事件策略設定](../media/live-event-recording-policy.png "Microsoft Teams 系統管理中心即時活動原則設定的螢幕擷取畫面")
-
-## <a name="storage-and-persistence-behavior"></a>儲存空間和持續性行為
+## <a name="storage-and-persistence-behavior"></a>儲存體和持續性行為
 
 | 選項                                       | 狀態   | Dvr                                                   | Vod                                                     | 錄製                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| 錄製者與簡報者可以使用錄製 | 選擇     | DVR 可供使用，而 AZURE Media Services (AMS) 資產會儲存 180 天 | 出席者可以存取並觀看活動                     |                              |
+| 錄製者與簡報者可以使用錄製 | 選擇     | DVR 可供使用，AZURE 媒體服務 (AMS) 資產儲存 180 天 | 出席者可以存取並觀看活動                     |                              |
 |                                                  | 未選取 | DVR 可供使用，且 AMS 資產儲存 180 天 | 活動結束後，出席者無法存取活動 |                              |
 ||已停用 (未選取) |DVR 可供使用，事件之後會刪除 AMS 資產|活動結束後，出席者無法存取活動||
 | 錄製者與簡報者可以使用錄製 | 選擇     |                                                           |                                                             | 已建立並儲存 MP4 |
@@ -73,4 +69,4 @@ ms.locfileid: "51383967"
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [Teams 即時活動的方案](plan-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)
-- [Teams 雲端會議錄製](../cloud-recording.md)
+- [Teams雲端會議錄製](../cloud-recording.md)
