@@ -19,28 +19,30 @@ ms.custom:
 description: 針對系統管理員PowerPoint、部署及執行這些訓練影片、幻燈片組、教學課程及其他資源Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498718"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526666"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用系統管理訓練Microsoft Teams
 
 使用訓練資源來教育自己瞭解Teams、教導其他人或舉辦研討會。 請經常返回這裡查看新內容。
 
-|       圖示        | 說明               |    圖示           |說明               |
-| :------------ | :------------ | :------------ | :------------ |
-| [在這裡開始推出](./get-started-with-teams-quick-start.md) | [根據Teams來查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams粉筆交談：瞭解熱門案例的最佳作法Teams指南](./chalk-talks-landing-page.yml) |
+
+|  |  |
+|---------|---------|
+|[在這裡開始推出](./get-started-with-teams-quick-start.md)     |[根據Teams來查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|[在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams粉筆交談：瞭解熱門案例的最佳作法Teams指南](./chalk-talks-landing-page.yml)         |
+
 
 <h2>主要訓練課程和課程</h2>
 
-|   圖示            | 說明              |  圖示             |    說明           |
-| :------------ | :------------ | :------------ | :------------ |
-| [支援使用 Microsoft Teams 的遠端工作者](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams IT 的基本功能](https://aka.ms/MicrosoftTeamsforIT) | [管理 IT 團隊共同合作](/learn/paths/m365-manage-team-collaboration) | [服務採用專家認證](/learn/paths/m365-service-adoption) |
-| [Microsoft 365 團隊合作簡介](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 認證：團隊合作管理員關聯](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)的基本功能 - MicrosoftMicrosoft Teams it" 影片系列將說明您 – 系統管理員 – 如何推出、設定及管理Teams。     |[**支援使用遠端Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 取得您需要的指引 ，包括訓練連結，以支援在家工作的使用者。         |[**管理 IT 團隊共同合作**](/learn/paths/m365-manage-team-collaboration)- 瞭解如何使用Teams，促進組織內部跨應用程式和裝置之間的團隊合作與溝通。         |
+|[**服務採用專家認證**](/learn/paths/m365-service-adoption)- Microsoft 服務採用專家認證課程提供Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。     |[**Microsoft 服務採用專家Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index)簡介 - Microsoft 服務採用專家認證課程Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。        |[**Microsoft 365**](/learning/m365-teamwork-administrator.aspx)認證：團隊合作系統管理員關聯 - Microsoft 365 團隊合作系統管理員設定、部署及管理 Microsoft 365 或 Office 365 工作負載，例如 SharePoint (線上、內部部署和混合式) 、OneDrive 和 Teams。        |
 
 
 <h2>技術訓練</h2>
@@ -80,7 +82,7 @@ ms.locfileid: "52498718"
 
 <h2>TeamsAndroid 裝置</h2>
 
-<p>下表包含全面影片訓練的連結，以及隨附的 PowerPoint 幻燈片組 (pdf 格式) 、Microsoft Teams Android 裝置上包含 Teams 顯示器、Teams 手機、android 版 Teams 會議室 和 Teams 面板。  
+<p>下表包含全面影片訓練的連結，隨附 PowerPoint 套用 PDF 格式 () 、包含 Teams 顯示器、Teams 手機、Android 版 Teams 會議室 和 Teams 面板的 Microsoft Teams Android 裝置。  
 
 | 模組 | 影片 | PowerPoint套 (PDF)   |
 | ------------ | -------------------- | -------------------- |

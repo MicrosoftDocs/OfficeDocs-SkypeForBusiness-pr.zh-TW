@@ -17,16 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先移動 hyrid 應用程式端點。
-ms.openlocfilehash: af8b521eaaf4a1e86027936f3d4d3600ab4bfa7b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656875"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526716"
 ---
-# <a name="move-hyrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前，移動 hyrid 應用程式端點
+# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前，移動混合應用程式端點
 
-本文說明如何在解除委任您的內部部署商務用 Skype 環境之前，將所需的混合應用程式端點移至 Microsoft 雲端。 這是將您的內部部署環境解除委任之下列步驟的步驟3：
+本文說明如何在解除您的內部部署商務用 Skype 環境之前，將所需的混合應用程式端點移至 Microsoft 雲端。 這是將您的內部部署環境解除委任之下列步驟的步驟3：
 
 - 步驟 1. [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)
 
@@ -46,7 +46,7 @@ ms.locfileid: "51656875"
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. 在 Microsoft 365 中建立並授權新的 [資源帳戶](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) ，以取代現有的內部部署混合應用程式端點。
+2. 在 Microsoft 365 中建立並授權新的[資源帳戶](https://docs.microsoft.com/microsoftteams/manage-resource-accounts)，以取代現有的內部部署混合應用程式端點。
 
 3. 將新的資源帳戶與現有的混合式應用程式端點產生關聯。
 
@@ -55,7 +55,7 @@ ms.locfileid: "51656875"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. 因為這些帳戶的電話號碼可能是在 Microsoft 365 而非內部部署中管理，所以請在商務用 Skype Online 中執行下列命令 PowerShell:
+5. 因為這些帳戶的電話號碼可能是在 Microsoft 365 而非內部部署中管理，所以請在商務用 Skype 線上中執行下列命令 PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -77,7 +77,7 @@ ms.locfileid: "51656875"
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-您現在已準備好 [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
+您現在已準備好[移除內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
 ## <a name="see-also"></a>另請參閱
 
