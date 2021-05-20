@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117671"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517736"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
@@ -34,9 +34,9 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。請使用此文�
 > [!Note]
 > 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
- - Teams 的 **會議** 包括音訊、視訊，且畫面可共用人數最多可達 300 人。這些是在 Teams 中共同作業的重要方法之一。而且，您不一定要是組織的成員 (或甚至不需要 Teams 帳戶！)，也可以加入 Teams 會議，只要查看邀請中有關撥入會議的指示即可。
+ - Teams 的 **會議** 包括音訊、視訊，且畫面可共用人數最多可達 1000 人。這些是在 Teams 中共同作業的重要方法之一。而且，您不一定要是組織的成員 (或甚至不需要 Teams 帳戶！)，也可以加入 Teams 會議，只要查看邀請中有關撥入會議的指示即可。
 
- - **即時活動** 是 Teams 會議的延伸，可讓您排程並產生活動，向大量線上對象串流播放，最多可讓 10,000 人參與。如果您的會議需要超過 300 人參與，請使用即時活動。
+ - **即時活動** 是 Teams 會議的延伸，可讓您排程並產生活動，向大量線上對象串流播放，最多可讓 10,000 人參與。如果您的會議需要超過 1000 人參與，請使用即時活動。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>取得會議和即時活動的授權
 
