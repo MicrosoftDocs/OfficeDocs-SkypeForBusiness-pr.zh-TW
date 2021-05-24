@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498768"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569231"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -45,7 +45,7 @@ ms.locfileid: "52498768"
 - **active_session_banner_dismissed** - 已關閉共用作用中提醒的位置。
 - **activityChatClicked** - 當系統選取 **[活動]** 索引標籤中的 [非即時聊天]，或顯示出分割視圖時，進行觸發。
 - **activityCoNtextMenu** - 活動摘要中的溢出動作。
-- **activityFeedClick** - 已點選活動摘要專案，並導至聊天機器人。
+- **activityFeedClick** - 已點選活動摘要專案，並瀏覽至聊天機器人。
 - **activityFeedLongPress** - 在摘要專案上擷取長按手勢。
 - **activityFeedSwipe** - 在摘要專案上擷取滑動手勢。
 - **activityFilterClick** - 擷取活動篩選使用量。
@@ -1188,11 +1188,43 @@ ms.locfileid: "52498768"
 - **whiteboardUsed** - 使用者在白板上解釋 (網頁視圖上的任何動作)。
 - **wiki - 不做為已指派** - Wiki 使用情況遙測。
 
+### <a name="panelview"></a>PanelView
+
+> [!NOTE]
+> 如需 PanelView 事件屬性的詳細資訊，請參閱[隨著 panelview 事件傳送的屬性](#properties-sent-with-panelview-events)。
+
+- **fileDeleteFailed** - 檔案刪除作業失敗時觸發。
+- **fileDeleteSuccess** - 檔案刪除作業成功時觸發。
+- **filePreview** - 在下列情況下觸發：
+  - 在檔案預覽畫面中點選共用選項時。
+  - 在檔案預覽畫面中點選複製選項時。
+  - 在檔案預覽畫面中點選下載選項時。
+  - 成功載入檔案預覽時。
+- **file** - 在下列情況下觸發：
+  - 在 Teams 應用程式內預覽檔案時。
+  - 在 OneDrive 檔案畫面中點選檔案上傳選項時。
+  - 在檔案預覽畫面中點選 [複製連結] 選項時。
+  - 關閉檔案共用畫面時。
+  - 開啟檔案選項功能表時，或點選該功能表中的其中一個選項時。
+  - 開啟「通話中」檔案畫面時。
+  - 點選檔案以開啟時。
+- **filesChannel** - 開啟頻道檔案畫面時觸發。
+- **fileSources** - 開啟檔案選項功能表或點選該功能表中的其中一個選項時觸發。
+- **filesPersonal** - 在 OneDrive 或最近使用的檔案畫面中載入一批檔案時觸發。
+- **fileUploadDeleteTriggered** - 當檔案附件從訊息區域刪除或分離時觸發。
+- **fileUploadFailed** - 檔案上傳作業失敗時觸發。
+- **fileUploadIndividualNotification** - 當檔案上傳通知的內容變更或與通知互動時觸發。 互動可能包括手勢，例如滑動以關閉通知或點選通知等。
+- **fileUploadSuccess** - 檔案上傳作業成功時觸發。
+- **fileUploadSummaryNotification** - 當檔案上傳摘要通知的內容變更或與通知互動時觸發。 互動可能包括手勢，例如滑動以關閉通知或點選通知等。
+- **meetingFiles** - 開啟會議檔案畫面時觸發。
+- **navPersonalFiles** - 執行瀏覽至檔案畫面時觸發。
+
 ### <a name="scenario"></a>案例
 
 > [!NOTE]
 > 如需 PanelAction 事件屬性的詳細資訊，請參閱[隨著案例事件傳送的屬性](#properties-sent-with-scenario-events)。
 
+- **chat_add_giphy** - 確認 Giphy GIF 呈現動作成功或失敗。
 - **cortanaError** 監視 Cortana 錯誤發生。
 - **cortanaView** - 監視 Cortana 畫布顯示。
 - **cortanaRestart** 監視 Cortana 重新啟動。
@@ -1216,6 +1248,7 @@ ms.locfileid: "52498768"
 - **create_personal_task** - 確認已成功建立個人工作專案。
 - **create_planner_plan_and_nav_to_view** - 確認已成功建立共用工作清單，以及在動作之後使用者導向結果所需的時間。
 - **create_planner_task** - 確認已成功建立共用工作專案。
+- **forwardExistingAmsObject** 確認媒體轉送動作成功或失敗。
 - **delete_personal_plan** - 確認已成功刪除個人工作清單。
 - **delete_personal_task** - 確認已成功刪除個人工作專案。
 - **delete_planner_plan** - 確認已成功刪除共用工作清單。
@@ -1231,13 +1264,20 @@ ms.locfileid: "52498768"
 - **meetingInsightLocatorRender** - 確認會議相關內容定位器提示的呈現。
 - **meetingInsightRender** - 確認會議相關內容的呈現。
 - **meetingInsightVisible** - 確認會議相關內容的能見度。
+- **open_image** 確認全螢幕影像呈現成功或失敗。
 - **rename_personal_plan** - 確認已成功重新命名個人工作清單。
 - **rename_planner_plan** - 確認已成功重新命名共用工作清單。
+- **save_image** 確認影像儲存動作成功或失敗。
+- **share_image** 確認影像共用動作成功或失敗。
 - **smart_reply_enabled** - 確認已為目前使用者啟用智慧回覆。
 - **smart_reply_received** - 確認已收到智慧回覆建議。
 - **smart_reply_banned** - 確認無法為目前使用者顯示智慧回覆。
 - **update_planner_task_and_nav_to_view** - 確認已成功更新共用工作專案，以及在動作之後使用者導向結果檢視所需的時間。
-- **update_personal_task_and_nav_to_view** -確認已成功更新個人工作專案，以及之後，使用者導向導向結果檢視所需的時間 - **updatePlannerTask** - 確認使用者已成功在共用工作清單中更新工作。
+- **update_personal_task_and_nav_to_view** - 確認已成功更新個人工作項目，以及在動作之後使用者導向結果檢視所需的時間 
+- **updatePlannerTask** - 確認使用者已成功更新共用工作清單中的工作。
+- **upload_images** 確認影像上傳動作成功或失敗。
+- **upload_voice_messages** 確認語音訊息上傳動作成功或失敗。
+- **voiceMessageUpload** 確認語音訊息上傳動作成功或失敗。
 
 ## <a name="property-lists"></a>屬性清單
 

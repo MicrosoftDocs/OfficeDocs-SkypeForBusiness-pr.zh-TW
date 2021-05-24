@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員PowerPoint、部署及執行這些訓練影片、幻燈片組、教學課程及其他資源Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526666"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589187"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用系統管理訓練Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "52526666"
 | | |  |
 |---------|---------|---------|
 |[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)的基本功能 - MicrosoftMicrosoft Teams it" 影片系列將說明您 – 系統管理員 – 如何推出、設定及管理Teams。     |[**支援使用遠端Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 取得您需要的指引 ，包括訓練連結，以支援在家工作的使用者。         |[**管理 IT 團隊共同合作**](/learn/paths/m365-manage-team-collaboration)- 瞭解如何使用Teams，促進組織內部跨應用程式和裝置之間的團隊合作與溝通。         |
-|[**服務採用專家認證**](/learn/paths/m365-service-adoption)- Microsoft 服務採用專家認證課程提供Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。     |[**Microsoft 服務採用專家Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index)簡介 - Microsoft 服務採用專家認證課程Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。        |[**Microsoft 365**](/learning/m365-teamwork-administrator.aspx)認證：團隊合作系統管理員關聯 - Microsoft 365 團隊合作系統管理員設定、部署及管理 Microsoft 365 或 Office 365 工作負載，例如 SharePoint (線上、內部部署和混合式) 、OneDrive 和 Teams。        |
+|[**服務採用專家認證**](/learn/paths/m365-service-adoption)- Microsoft 服務採用專家認證課程提供Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。     |[**Microsoft 服務採用專家Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index)簡介 - Microsoft 服務採用專家認證課程Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。        |[**Microsoft 365**](/learn/certifications/m365-teamwork-administrator)認證：團隊合作系統管理員關聯 - Microsoft 365 團隊合作系統管理員設定、部署及管理 Microsoft 365 或 Office 365 工作負載，例如 SharePoint (線上、內部部署和混合式) 、OneDrive 和 Teams。        |
 
 
 <h2>技術訓練</h2>
