@@ -20,16 +20,16 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 瞭解如何設定和測試自動Microsoft 365 商務語音。
-ms.openlocfilehash: 54815aa5e7b9740a9bc8028f211edd0d456462b0
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+description: 瞭解如何在 Microsoft 365 商務語音 中設定和測試小型企業的自動Microsoft 365 商務語音。
+ms.openlocfilehash: 7dbd9e471b80e2f930b330ad826147b92b1afef8
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130234"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628972"
 ---
-# <a name="set-up-an-auto-attendant---small-business-tutorial"></a><span data-ttu-id="e77ed-103">設定自動助理 - 小型企業教學課程</span><span class="sxs-lookup"><span data-stu-id="e77ed-103">Set up an auto attendant - small business tutorial</span></span>
+# <a name="set-up-an-auto-attendant---small-business-tutorial"></a><span data-ttu-id="36a41-103">設定自動助理 - 小型企業教學課程</span><span class="sxs-lookup"><span data-stu-id="36a41-103">Set up an auto attendant - small business tutorial</span></span>
 
-<span data-ttu-id="e77ed-104">自動話務員可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。</span><span class="sxs-lookup"><span data-stu-id="e77ed-104">Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator.</span></span> <span data-ttu-id="e77ed-105">您可以使用系統管理中心為貴組織建立Microsoft Teams機。</span><span class="sxs-lookup"><span data-stu-id="e77ed-105">You can create auto attendants for your organization with the Microsoft Teams admin center.</span></span>
+<span data-ttu-id="36a41-104">自動電話機可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。</span><span class="sxs-lookup"><span data-stu-id="36a41-104">Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator.</span></span> <span data-ttu-id="36a41-105">您可以使用系統管理中心為貴組織建立Microsoft Teams機。</span><span class="sxs-lookup"><span data-stu-id="36a41-105">You can create auto attendants for your organization with the Microsoft Teams admin center.</span></span>
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
