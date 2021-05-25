@@ -19,23 +19,22 @@ ms.custom:
 description: 針對系統管理員PowerPoint、部署及執行這些訓練影片、幻燈片組、教學課程及其他資源Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589187"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628782"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用系統管理訓練Microsoft Teams
 
 使用訓練資源來教育自己瞭解Teams、教導其他人或舉辦研討會。 請經常返回這裡查看新內容。
 
-
-|  |  |
-|---------|---------|
-|[在這裡開始推出](./get-started-with-teams-quick-start.md)     |[根據Teams來查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|[在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams粉筆交談：瞭解熱門案例的最佳作法Teams指南](./chalk-talks-landing-page.yml)         |
-
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+|![一隻手和一個向上箭](/office/media/icons/get-started-teams.png) |[在這裡開始推出](./get-started-with-teams-quick-start.md)     |![包含清單的檔](/office/media/icons/document-teams.png)|[根據Teams來查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![影片播放按鈕](/office/media/icons/video-play.png) |[在 YouTube 的雲端頻道中，在咖啡中查看最佳做法和操作方法影片](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![具有扳手的人](/office/media/icons/administrator.png) |[Teams粉筆交談：瞭解熱門案例的最佳作法Teams指南](./chalk-talks-landing-page.yml)         |
+|  |  | |
 
 <h2>主要訓練課程和課程</h2>
 
@@ -84,15 +83,17 @@ ms.locfileid: "52589187"
 
 <p>下表包含全面影片訓練的連結，隨附 PowerPoint 套用 PDF 格式 () 、包含 Teams 顯示器、Teams 手機、Android 版 Teams 會議室 和 Teams 面板的 Microsoft Teams Android 裝置。  
 
-| 模組 | 影片 | PowerPoint套 (PDF)   |
-| ------------ | -------------------- | -------------------- |
-| 單元 1：Android Microsoft Teams簡介  | |[甲板](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| 單元 2：規劃 Android Microsoft Teams裝置|| [甲板](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 模組 | PowerPoint套 (PDF)   |
+| ------------| -------------------- |
+| 單元 1：Android Microsoft Teams簡介  |[甲板](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 單元 2：規劃 Android Microsoft Teams裝置|[甲板](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+|單元 3：Microsoft Teams Android 裝置的功能 |[甲板](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+
 <h2>互動式指南</h2>
 
 | 標題                                                                       | 抽象                                                                                                                                                                                                               |  連結至指南                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 身分識別、Access 管理&威脅防護Teams                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取和身分識別政策，Office 365進一Teams                                                            | [Teams安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
+| 身分識別、Access 管理&威脅防護Teams                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取和身分識別政策，以及Office 365進一Teams                                                            | [Teams安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
 | 資料外 (DLP) 策略Microsoft Teams                     | 瞭解如何新增新Microsoft Teams至現有的 DLP 策略，以及如何建立新策略 ，無論是根據範本或完全自訂的組織的資料保護需求。                        | [TeamsDLP 指南](https://aka.ms/teamsdlpguide)         |
 | 在 Teams                                                | 使用 Microsoft 365、Microsoft 365合規性和 Microsoft Teams 系統管理中心，以及 Windows PowerShell 來管理和設定 Office 365 組織的 Microsoft Teams 策略和設定。 | [管理指南中的合規性Teams規範](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams顧問：在 Microsoft Teams | 瞭解如何使用Teams顧問來評估您的環境，並建立部署聊天、團隊、頻道和應用程式的計畫。                                                                                         |  [Teams顧問指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |

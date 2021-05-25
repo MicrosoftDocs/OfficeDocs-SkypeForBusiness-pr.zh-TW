@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者 (是否要 Microsoft Teams 或在其退休) 之前商務用 Skype 線上。
-ms.openlocfilehash: 8fce1799ba3e10f2e96b8beab0fbde7805c7c229
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305953"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642083"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
@@ -40,7 +40,7 @@ ms.locfileid: "52305953"
 
 - 組織必須正確設定 Azure AD 連線，並依照[Configure AZURE ad 連線](configure-azure-ad-connect.md)中所述，同步處理使用者的所有相關屬性。
 - 必須設定商務用 Skype 混合式，如[Configure 商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)式中所述。
-- 使用者必須已獲指派授權 Teams 和商務用 Skype 線上 (方案 2) 。 商務用 Skype 線上退休後，仍然需要商務用 Skype Online licese。  此外：
+- 使用者必須已獲指派授權 Teams 和商務用 Skype 線上 (方案 2) 。 商務用 Skype 線上撤銷後，仍然需要商務用 Skype 線上授權。  此外：
     - 如果使用者已在內部部署中啟用電話撥入式會議，依預設，使用者在線上移動使用者之前，還必須在 Teams 中指派音訊會議授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [音訊會議]。 若由於某些原因您想要將使用者移至雲端，但未使用音訊會議功能，您可以在中指定參數，以覆寫此檢查 `BypassAudioConferencingCheck` `Move-CsUser` 。
     - 如果使用者已在內部部署中啟用企業語音，使用者在線上移動使用者之前，必須先在 Teams 中指派電話系統授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [電話系統]。 若由於某些原因您想要將使用者移至雲端，但未使用電話系統功能，您可以在中指定參數，以覆寫此檢查 `BypassEnterpriseVoiceCheck` `Move-CsUser` 。
 
@@ -68,10 +68,10 @@ ms.locfileid: "52305953"
 
 若要在內部部署與雲端之間移動使用者，您必須在內部部署商務用 Skype Server 環境和 Teams 組織中使用具有足夠許可權的帳戶。 您可以使用一個具有所有必要許可權的帳戶，也可以使用兩個帳戶，在這種情況下，您可以使用內部部署認證來存取內部部署工具，然後在這些工具中，您會為 Teams 系統管理帳戶提供額外的認證。  
 
-- 在內部部署環境中，執行移動的使用者必須具備商務用 Skype Server 中的 CSServerAdminstrator 角色。
+- 在內部部署環境中，執行移動的使用者必須具有商務用 Skype Server 中的 CSServerAdministrator 角色。
 - 在 Teams 中，執行移動的使用者必須符合下列其中一個條件：
   - 使用者是全域系統管理員角色的成員。
-  - 使用者是 Teams 系統管理員角色和使用者管理員角色的成員。
+  - 使用者是 Teams 管理員和使用者管理員角色的成員。
   - 使用者是商務用 Skype 管理員和使用者管理員角色的成員。  
 
     > [!Important]
@@ -97,7 +97,7 @@ ms.locfileid: "52305953"
 
 內部部署和線上環境中的原則 (例如，控制訊息、會議、通話行為) 互不相干。 您可以考慮在環境中設定任何原則，並將其指派給使用者，然後再將該使用者從內部部署移至雲端，使其在遷移到線上時立即具備正確的設定。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>也請參閱
 
 [將使用者從內部部署移動至 Teams](move-users-from-on-premises-to-teams.md)
 

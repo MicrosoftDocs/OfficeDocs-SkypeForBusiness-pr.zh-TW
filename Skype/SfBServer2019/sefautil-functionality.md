@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 摘要：瞭解如何在安裝累積更新1後，使用 PowerShell 以取得商務用 Skype Server 2019 中的 SEFAUtil 功能。
-ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解在安裝累積更新1之後，如何使用 PowerShell 以取得商務用 Skype Server 2019 的 SEFAUtil 功能。
+ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120504"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629002"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在商務用 Skype Server 2019 中使用 SEFAUtil 功能 PowerShell
 
-SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype 伺服器管理員和支援人員的代理商，以商務用 Skype Server 使用者設定代理人震鈴、來電轉接和群組呼叫收取設定。 這個工具也可讓系統管理員查詢針對特定使用者所發佈的呼叫路由設定。 在您安裝商務用 Skype Server 2019 年7月累計更新後，下列目前只能透過 SEFAUtil 進行管理的功能也會透過 PowerShell: 進行管理。
+SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype Server 系統管理員和支援人員代理程式代表商務用 Skype Server 使用者設定代理人震鈴、來電轉接和群組呼叫收取設定。 這個工具也可讓系統管理員查詢針對特定使用者所發佈的呼叫路由設定。 在您商務用 Skype Server 安裝2019年7月累積更新後，目前只能透過 SEFAUtil 進行管理的下列功能將可透過 PowerShell: 進行管理。
 
 - [來電轉接設定](#call-forwarding-settings)
 - [委派設定](#delegation-settings)
@@ -52,7 +52,7 @@ SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype 伺服器管理員和�
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-此 Cmdlet 會再次修改 SimulRing 設定 (，其中有兩個參數範例，一個用於無人接聽語音信箱，第二個則是在其他) 中回復。
+此 Cmdlet 會同時修改同時振鈴設定 (，其中有兩個參數範例，一個用於無人接聽語音信箱，第二個則是不應答其他) 。
 
 ## <a name="delegation-settings"></a>委派設定
 
@@ -64,7 +64,7 @@ SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype 伺服器管理員和�
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-此 Cmdlet 會修改指定使用者的委派設定，傳回代理人清單的物件，並顯示代理人清單，以防成功。 如果失敗，就會顯示適當的錯誤訊息。 
+此 Cmdlet 會修改指定使用者的委派設定、傳回代理人清單的物件，以及顯示代理人的清單，以防成功。 如果失敗，就會顯示適當的錯誤訊息。 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
@@ -102,8 +102,8 @@ SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype 伺服器管理員和�
 - CsVoiceAdministrator-取得及設定所有 Cmdlet
 - 所有 Cmdlet 的 CsHelpDesk-取得
 
-如需這些系統管理員角色的詳細資訊，請參閱 [建立商務用 Skype Server 控制台系統管理員](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。 管理員可以直接或遠端登入伺服器電腦，存取這些 Cmdlet。
-若為混合式部署，商務用 Skype 管理員應該可以為所有 Cmdlet 呼叫 Get 及 Set。 如需完整角色清單的詳細資訊，請參閱 [關於系統管理員角色](/microsoft-365/admin/add-users/about-admin-roles)。
+如需這些系統管理員角色的詳細資訊，請參閱[Create 商務用 Skype Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。 管理員可以直接或遠端登入伺服器電腦，存取這些 Cmdlet。
+在混合式部署中，商務用 Skype 管理員應該能夠為所有 Cmdlet 呼叫 Get 及 Set。 如需完整角色清單的詳細資訊，請參閱 [關於系統管理員角色](/microsoft-365/admin/add-users/about-admin-roles)。
 
 > [!NOTE]
 > 必須啟用伺服器自動探索。 不會引入其他授權需求，以供使用 Cmdlet 使用。

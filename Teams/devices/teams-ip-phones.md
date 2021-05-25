@@ -21,22 +21,22 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 140c823fcbb1e8bd227e68eee7c5e5e2b66f854c
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: bbc596f0e0e3d973b170b6631941020437bdb778
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513856"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629022"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
 這些Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在與手機商務用 Skype相同的硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
+Microsoft Teams認證程式可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在與手機商務用 Skype相同的硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
 
 - 硬體Teams整合和 LED 通知的原生體驗
 - 日曆整合和一鍵式會議加入
-- 透過系統管理中心與 intune Teams部署和管理
+- 透過整合 Intune Teams系統管理中心部署及管理
 
 ## <a name="currently-certified-teams-phones"></a>目前已Teams手機
 
@@ -156,6 +156,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 | 產品發行| 發行日期 | Microsoft Teams應用程式版本 | 公司入口網站版本 | 系統管理代理程式版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 更新#1A  |2021 年 5 月 12 日  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product 版本代碼：223 |
 | 2021 更新#1  |2021 年 4 月 5 日  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product 版本代碼：223 |
 | 2020 更新#3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product 版本代碼：216 |
 | 2020 更新#2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product 版本代碼：212|
@@ -180,7 +181,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 ### <a name="product-release-information-for-teams-displays"></a>顯示器的產品Teams資訊
 
-以下是顯示 app 和Microsoft Teams版本的最新版本。
+以下是顯示應用程式與Microsoft Teams的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 

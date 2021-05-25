@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于加拿大的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
-ms.openlocfilehash: 12b16d75b793c3d406aae8c510400f07dfce2cec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是加拿大Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118262"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629012"
 ---
 # <a name="availability-in-canada"></a>加拿大的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于加拿大的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是加拿大Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
 
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -77,8 +77,8 @@ ms.locfileid: "51118262"
 
  如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。
 
-> [!Note] 
-> 當通話方案 (國內或國內及國際) 美國使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國號碼時的情況。
+> [!Note]
+> 當美國國內 (國內或國際電話) 美國使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策將使用者撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者也將無法撥打美國使用者。
 
 ## <a name="communications-credits"></a>通訊點數
 

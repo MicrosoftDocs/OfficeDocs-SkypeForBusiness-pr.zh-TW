@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中建立通話佇列 - 小型企業教學課程
+title: 在小型企業教學課程Microsoft Teams通話佇列
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: 瞭解如何使用 Microsoft 365 商務語音設定通話佇列。
-ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: 瞭解如何在 Microsoft 365 商務語音 中為小型企業設定Microsoft 365 商務語音。
+ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064819"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629052"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>建立通話佇列 - 小型企業教學課程
 
@@ -45,15 +45,15 @@ ms.locfileid: "52064819"
 
 #### <a name="video-demonstration"></a>影片示範
 
-這段影片示範如何在 Teams 中建立通話佇列。
+這段影片示範如何在 Teams 中建立Teams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>開始之前
 
-取得一 [些電話系統 - 如果您](../teams-add-on-licensing/virtual-user.md) 還沒有虛擬使用者授權。 針對您打算設定的每一個通話佇列和自動電話機，取得一個。 這些授權是免費的，因此我們建議您額外取得一些授權，以防您決定日後變更您的設定。
+取得一[電話系統 - 如果您](../teams-add-on-licensing/virtual-user.md)還沒有虛擬使用者授權。 針對您打算設定的每一個通話佇列和自動電話機，取得一個。 這些授權是免費的，因此我們建議您額外取得一些授權，以防您決定日後變更您的設定。
 
-由於通話佇列中的代理人可能會撥出以傳回客戶電話，請考慮將呼叫代理的本機號碼設定為主電話號碼或適當的自動語音機號碼。 請參閱 [在 Microsoft Teams 中管理來電](../caller-id-policies.md) 顯示政策以瞭解更多資訊。
+由於通話佇列中的代理人可能會撥出以傳回客戶電話，請考慮將呼叫代理的本機號碼設定為主電話號碼或適當的自動語音機號碼。 請參閱[在 Microsoft Teams](../caller-id-policies.md)管理本機號碼政策以瞭解更多資訊。
 
 <a name="steps"></a>
 
@@ -61,11 +61,11 @@ ms.locfileid: "52064819"
 
 # <a name="step-1brcreate-a-team"></a>[步驟 1 <br> 建立團隊](#tab/create-team)
 
-建立通話佇列時，您可以將個別使用者新增到佇列，或使用現有的安全性群組、Microsoft 365 群組或 Microsoft Teams 小組。 我們建議您 [使用小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列的成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量時留言。
+建立通話佇列時，您可以新增個別使用者至佇列，或使用現有的安全性群組、Microsoft 365群組，或Microsoft Teams小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列的成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量時留言。
 
 建立團隊
 
-1. 首先，按一下 **應用程式** 左側的 [團隊>，然後按一下 [加入或建立團隊清單底部的團隊>。
+1. 首先 **，Teams應用程式** 左側的 [加入或建立團隊>，然後在團隊清單底部按一下 [加入或建立團隊>。
 
 2. 然後按一下 [ **建立團隊** (第一張卡片，左上角) 。
 
@@ -85,7 +85,7 @@ ms.locfileid: "52064819"
 
 新增頻道
 
-1. 在 Teams 中，尋找您剛剛建立的團隊，按一下 [更多選項 (...) ，然後按一下 [**新增頻道**> 。
+1. 在 Teams中，尋找您剛剛建立的團隊，按一下[更多選項 (...) ，然後按一下 [**新增頻道**> 。
 
 2. 輸入頻道的名稱和描述，然後按一下 [ **新增**。
 
@@ -94,13 +94,13 @@ ms.locfileid: "52064819"
 
 # <a name="step-2brresource-accounts"></a>[步驟 2 <br> 資源帳戶](#tab/resource-account)
 
-您建立的每個通話佇列都需要資源帳戶。 這類似于使用者帳戶，除了該帳戶與自動通話或通話佇列相關聯，而不是與人員相關聯。 在此步驟中，我們會建立帳戶、指派 *Microsoft 365 電話系統 - 虛擬使用者* 授權，然後使用它開始建立通話佇列。
+您建立的每個通話佇列都需要資源帳戶。 這類似于使用者帳戶，除了該帳戶與自動電話機或通話佇列相關聯，而不是與人員相關聯。 在此步驟中，我們將建立帳戶、指派帳戶Microsoft 365 電話系統 *虛擬* 使用者授權，然後使用它開始建立通話佇列。
 
 ### <a name="create-a-resource-account"></a>建立資源帳戶
 
-您可以在 Teams 系統管理中心建立資源帳戶。
+您可以在系統管理中心建立Teams帳戶。
 
-1. 在 Teams 系統管理中心，展開 **整個組織設定**，然後按一下 [ **資源帳戶**。
+1. 在 Teams系統管理中心中，展開 **整個組織設定**，然後按一下 [**資源帳戶**。
 
 2. 按一下 [新增 **]**。
 
@@ -116,37 +116,37 @@ ms.locfileid: "52064819"
 
 ### <a name="assign-a-license"></a>指派授權
 
-您必須將 *Microsoft 365 Phone System - 虛擬使用者* 授權指派給資源帳戶。
+您必須指派一個 *Microsoft 365 電話系統 - 虛擬使用者* 授權給資源帳戶。
 
-1. 在 Microsoft 365 系統管理中心中，按一下 [使用中使用者」 清單中的您想要指派授權的資源帳戶。
+1. 在 Microsoft 365系統管理中心，按一下 [使用中使用者」 清單中的您想要指派授權的資源帳戶。
 
-2. 在授權 **與應用程式標籤** 的 **<授權**> 下，選取 Microsoft **365 電話系統 - 虛擬使用者**。
+2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 
 3. 按一下 **[儲存變更**。
 
-    ![Microsoft 365 系統管理中心指派授權使用者介面的螢幕擷取畫面](../media/resource-account-assign-virtual-user-license.png)
+    ![系統管理中心指派授權使用者介面的螢幕擷取畫面Microsoft 365螢幕擷取畫面](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>建立通話佇列
 
 接下來，我們將開始建立新的通話佇列並指派資源帳戶。
 
-1. 在 Teams 系統管理中心中，展開 **[語音**，按一下 **[通話佇列**，然後按一下 **[新增**> 。
+1. 在系統管理Teams，展開 **[語音** 和通話佇列，然後按一下 [**新增**。
 
 1. 輸入通話佇列的名稱。
 
 2. 按一下 **[新增帳戶**，搜尋要用於此通話佇列的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
 
-3. 選擇語言。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (語音信箱) 。
+3. 選擇語言。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (會) 。
 
     ![資源帳戶和語言設定螢幕擷取畫面](../media/call-queue-name-language.png)
 
 4. 指定當來電者抵達佇列時，是否要播放問候語。 您必須上傳包含您想要播放的問候語的 MP3、WAV 或 WMA 檔案。
 
-5. 當來電者在佇列中保留時，Teams 會提供預設音樂。 如果您想要播放特定的音訊檔案，請選擇播放音訊檔案並上傳 MP3、WAV 或 WMA 檔案。
+5. Teams在佇列中保留來電者時，提供預設音樂。 如果您想要播放特定的音訊檔案，請選擇播放音訊檔案並上傳 MP3、WAV 或 WMA 檔案。
 
    > [!NOTE]
    > 上傳的錄製不能大於 5 MB。
-   > Teams 通話佇列中提供的預設音樂不含貴組織支付的任何版稅。 
+   > 在通話佇列Teams中提供的預設音樂，不含貴組織支付的任何版稅。 
 
 > [!div class="nextstepaction"]
 > [步驟 3 - 呼叫代理人>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
@@ -178,7 +178,7 @@ ms.locfileid: "52064819"
 
     - **話務員路由** 會同時響鈴佇列中的所有代理程式。 第一個接電話的代理人會接到電話。
 
-    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打給下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
+    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
 
     - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這一點可能相當理想，以確保所有通話代理人之間享有同等的機會。
 
@@ -218,7 +218,7 @@ ms.locfileid: "52064819"
 
 選擇當通話在佇列中等候太久時要發生的專案。
 
-1. 設定 **最長等待時間**。
+1. 設定 **最大等待時間**。
 
 2. 選擇當通話時間過時您想要執行什麼工作。您可以中斷通話或重新導向。 我們建議您將通話重新導向下列其中一個目的地：
     - **組織中能夠** 接聽語音通話的人
