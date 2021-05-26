@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解系統Microsoft 電話路由如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 系統Microsoft 電話系統。
-ms.openlocfilehash: 90ed1fe51c3b6e3ee6c498fd586e54a05ab533e3
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130282"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656066"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -245,7 +245,10 @@ FQNS -sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com sip3.pstnhub.micros
 您必須在防火牆中開啟所有這些 IP 位址的埠，以允許接收和傳出流量到與來自接收信令的位址。  如果您的防火牆支援 DNS 名稱，FQDN **sip-all.pstnhub.microsoft.com** 解析為所有這些 IP 位址。 
 
 > [!IMPORTANT]
->  作為直接路由Teams和服務改進的一部分，我們已在澳大利亞部署直接路由基礎結構的新實例。 這反映在兩個額外的 IP 位址 (52.114.16.74 和 52.114.20.29) 之後，將針對澳洲客戶解決 FQNS - sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 您必須將這兩個 IP 位址 (52.114.16.74 和 52.114.20.29) 新加到您的 IP 存取控制清單 (ACL) ，並開啟防火牆中所有這些 IP 位址的埠，以便接收和傳出流量，以便接收和從位址發出通知。
+> 作為直接路由Teams和服務改進的一部分，我們已在 2020 年 11 月在澳大利亞部署直接路由基礎結構的新實例。 這反映在兩個額外的 IP 位址 (52.114.16.74 和 52.114.20.29) 將針對澳洲客戶解決下列 FQNS - sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 您必須將這兩個 IP 位址 (52.114.16.74 和 52.114.20.29) 新加到您的 IP 存取控制清單 (ACL) ，並開啟防火牆中所有這些 IP 位址的埠，以允許傳入和傳出流量，以及從這些位址接收和傳出流量來接收和接收訊號。
+
+> [!IMPORTANT]
+> 作為直接路由Teams和服務改進的一部分，我們已于 2021 年 5 月在日本部署直接路由基礎結構的新實例。 這反映在兩個額外的 IP 位址 (52.114.36.156 和 52.114.32.169) 針對日本客戶解決下列 FQNS - sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 您需要將這兩個 IP 位址 (52.114.36.156 和 52.114.32.169) 新加到您的 IP 存取控制清單 (ACL) ，並開啟防火牆中所有這些 IP 位址的埠，以允許傳入和傳出流量到和來自信令的位址。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365GCCH 和 DoD 環境
 
@@ -341,13 +344,8 @@ SIP Proxy 和媒體處理器元件部署的位置：
 - 美國 (美國西部和東部資料中心有兩個) 
 - 位於 (和伯林達的歐洲資料中心) 
 - 亞洲 (新加坡和香港資料中心) 
-
-只有媒體處理器部署在 SIP (經由上述最近的資料中心) ：
 - 日本 (JP East 和 West 資料中心) 
 - 澳大利亞 (東部和東南亞資料中心) 
-
-
-
 
 ## <a name="media-traffic-codecs"></a>媒體流量：編解碼器
 

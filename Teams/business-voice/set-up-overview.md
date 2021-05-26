@@ -17,14 +17,20 @@ search.appverid: MET150
 description: 瞭解如何在中小型企業或Microsoft 365 商務語音中設定目標。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534005df5161a69fd64ac94c444046508b9d7fd1
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130358"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656036"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>設定Microsoft 365 商務語音
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
+
+</br>
 
 Business Voice 是一套完整的電話系統，可取代現有的電話提供者。 無論您是第一次設定電話號碼的新企業，或是從舊版內部部署電話提供者移走的已建立企業，這些文章中的步驟都可以説明您使用 Business Voice 快速上手。 當您完成設定 Business Voice 時：
 

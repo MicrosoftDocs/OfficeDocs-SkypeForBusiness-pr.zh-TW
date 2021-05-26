@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c27a73928e0740eb325c269fd5ac625fa4c43086
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628922"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656026"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams非標準使用者的應用程式行為
 
@@ -67,8 +67,10 @@ Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來�
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部使用者的使用行為與政策
 
-- 外部使用者無法在任何應用程式Teams，當外部使用者新增到與原生使用者之間的內容時，所有原生和外部使用者都無法再使用 App。
-- 外部使用者不會受到應用程式政策的影響，因為他們無法Teams應用程式。
+- 來自其他組織的人會遵循主機組織的預設使用者許可權原則及整個組織的設定。
+- 託管組織的使用者可以在與其他組織人員的會議聊天中新增應用程式。 來自其他組織的人無法在會議聊天中新增應用程式，但一旦新增到聊天中，就可以與 Bot 和定位停駐點互動。
+- 在聊天中安裝 Bot 之後，它就可以主動與來自該聊天中其他組織的人通訊，而且這些人員可以與 Bot 通訊。
+- 會採用託管組織的資料原則，以及該使用者組織共用之任何協力廠商應用程式的資料共用作法。
 
 ## <a name="anonymous-users"></a>匿名使用者
 

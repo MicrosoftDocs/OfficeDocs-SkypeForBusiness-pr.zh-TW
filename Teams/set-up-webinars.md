@@ -18,13 +18,13 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: 瞭解如何管理會議的網路研討會Teams策略。
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+description: 瞭解如何管理網路研討會Teams會議。
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275515"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656046"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>設定誰可以註冊網路研討會
 
-您可以只將註冊限制為貴組織的使用者，或將註冊開放給租使用者內外的每個人。 根據預設 **，WhoCanRegister** 會啟用並設定為 **所有人**。 如果您想要關閉會議註冊，請設定 **WhoCanRegister 為** **False**。
+您可以只將註冊限制為貴組織的使用者，或將註冊開放給租使用者內外的每個人。 根據預設 **，WhoCanRegister** 會啟用並設定為 **所有人**。 如果您想要關閉會議註冊，請設定 **AllowMeetingRegistration** 為 **False**。
 
 > [!IMPORTANT]
-> 請記住 **，AllowPrivateMeetingScheduling** 必須設為 **True，WhoCanRegister** 可以工作。  此外，Microsoft 清單必須設定在 SharePoint。 若要深入瞭解，請參閱 Microsoft [清單的控制項設定](/sharepoint/control-lists)。
+> 請記住 **，AllowPrivateMeetingScheduling** 必須設為 **True，AllowMeetingRegistration** 可以工作。  此外，Microsoft 清單必須設定在 SharePoint。 若要深入瞭解，請參閱控制 [Microsoft 清單的設定](/sharepoint/control-lists)。
 
 **若要只允許 *貴* 組織的使用者註冊網路研討會，請執行：**
 
@@ -100,7 +100,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 ### <a name="configure-webinar-settings"></a>設定網路研討會設定
 
-啟用網路研討會環境之後，就不需要進一步系統管理員管理。 該政策會控制網路研討會召集人會顯示哪些選項。
+啟用網路研討會環境之後，就不需要進一步系統管理員管理。 該政策會控制網路研討會召集人顯示的選項。
 
 ## <a name="related-topics"></a>相關主題
 
