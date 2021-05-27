@@ -13,140 +13,134 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: dca85173b5241e7e4e6c586a4d1970ef28947872
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
-  ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120654"
 highlightedContent:
   items:
-  - title: 使用 Teams 支援遠端工作者
-    itemType: overview
-    url: /microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
-  - title: 從商務用 Skype 升級至 Teams
-    itemType: how-to-guide
-    url: ./upgrade-skype-teams.yml
-  - title: 使用 Teams 的建議程式協助您推出 Teams
-    itemType: get-started
-    url: ./use-advisor-teams-roll-out.md
+    - title: 使用 Teams 支援遠端工作者
+      itemType: overview
+      url: /microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
+    - title: 從商務用 Skype 升級至 Teams
+      itemType: how-to-guide
+      url: ./upgrade-skype-teams.yml
+    - title: 使用 Teams 的建議程式協助您推出 Teams
+      itemType: get-started
+      url: ./use-advisor-teams-roll-out.md
 productDirectory:
   title: IT 專業人員 – 開始使用 Microsoft Teams
   items:
-  - title: 試驗
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: 規劃您的推出並試驗您的解決方案，以讓您享有順暢的體驗。
-    url: ./get-started-with-teams-quick-start.md
-  - title: 準備進行終端使用者採用 
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    summary: 讓使用者加入，並分享成功案例。
-    url: ./adopt-microsoft-teams-landing-page.md
-  - title: 規劃企業部署
-    imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
-    summary: 讓您的環境和基礎結構準備好進行部署。
-    url: ./deploy-enterprise-overview.md
-  - title: 部署
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
-    summary: 在整個組織部署 Microsoft Teams。
-    url: ./deploy-overview.md
-  - title: 安全
-    imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
-    summary: 遵循這些最佳做法，以保護您在 Microsoft Teams 中的資料、檔案和身分。
-    url: ./security-compliance-overview.md
-  - title: 管理
-    imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
-    summary: 執行 Microsoft Teams 的每天管理工作。
-    url: ./manage-teams-overview.md
+    - title: 試驗
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/list-123-teams.svg'
+      summary: 規劃您的推出並試驗您的解決方案，以讓您享有順暢的體驗。
+      url: ./get-started-with-teams-quick-start.md
+    - title: "準備進行終端使用者採用\_"
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      summary: 讓使用者加入，並分享成功案例。
+      url: ./adopt-microsoft-teams-landing-page.md
+    - title: 規劃企業部署
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg'
+      summary: 讓您的環境和基礎結構準備好進行部署。
+      url: ./deploy-enterprise-overview.md
+    - title: 部署
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-teams.svg'
+      summary: 在整個組織部署 Microsoft Teams。
+      url: ./deploy-overview.md
+    - title: 安全
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/security-teams.svg'
+      summary: 遵循這些最佳做法，以保護您在 Microsoft Teams 中的資料、檔案和身分。
+      url: ./security-compliance-overview.md
+    - title: 管理
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/settings-teams.svg'
+      summary: 執行 Microsoft Teams 的每天管理工作。
+      url: ./manage-teams-overview.md
 tools:
   title: 適用於所有對象的資源
   items:
-  - title: 為 IT 專業人員和系統管理學習
-    imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
-    url: /learn/teams/
-  - title: Microsoft Teams 和 Microsoft 365 開發人員平台
-    imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-    url: ./deploy-apps-microsoft-teams-landing-page.md
-  - title: 終端使用者說明和學習
-    imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
-    url: https://support.office.com/Teams
-  - title: Teams 部落格與技術社群
-    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
-    url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-  - title: Teams 產品意見反應
-    imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
-    url: https://microsoftteams.uservoice.com/
-  - title: 下載 Microsoft Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
-    url: https://www.microsoft.com/microsoft-teams/download-app
+    - title: 為 IT 專業人員和系統管理學習
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/administrator.svg'
+      url: /learn/teams/
+    - title: Microsoft Teams 和 Microsoft 365 開發人員平台
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/developer-teams.svg'
+      url: /microsoftteams/platform/
+    - title: 終端使用者說明和學習
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/help.svg'
+      url: 'https://support.office.com/Teams'
+    - title: Teams 部落格與技術社群
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
+      url: 'https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams'
+    - title: Teams 產品意見反應
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/user.svg'
+      url: 'https://microsoftteams.uservoice.com/'
+    - title: 下載 Microsoft Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/download-teams.svg'
+      url: 'https://www.microsoft.com/microsoft-teams/download-app'
 additionalContent:
   sections:
-  - title: 關鍵解決方案
-    items:
-    - title: 聊天、團隊和頻道
-      links:
-      - text: 聊天、團隊、頻道和 App
-        url: ./deploy-chat-teams-channels-microsoft-teams-landing-page.md
-      - text: 團隊和頻道概觀
-        url: ./teams-channels-overview.md
-      - text: 與其他組織的使用者通話和聊天（來賓/外部存取）
-        url: ./communicate-with-users-from-other-organizations.md
-      - text: 什麼是共同作業控管？
-        url: /microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
-      - text: 使用三層檔案共用安全性設定 Teams
-        url: /microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
-    - title: 會議和研討會
-      links:
-      - text: 會議和研討會概觀
-        url: ./deploy-meetings-microsoft-teams-landing-page.md
-      - text: 什麼是 Microsoft Teams 實況活動？
-        url: ./teams-live-events/what-are-teams-live-events.md
-      - text: 部署音訊研討會
-        url: ./deploy-audio-conferencing-teams-landing-page.md
-      - text: Microsoft Teams 會議室
-        url: ./rooms/index.md
-    - title: 語音通話
-      links:
-      - text: 規劃您的 Teams 語音解決方案
-        url: ./cloud-voice-landing-page.md
-      - text: 什麼是 Microsoft 365 商務語音
-        url: ./business-voice/whats-business-voice.md
-      - text: 設定電話系統
-        url: ./setting-up-your-phone-system.md
-      - text: Contoso 案例研究：Teams 語音移轉
-        url: ./voice-case-study-overview.md
-    - title: 擴充 Teams 功能
-      links:
-      - text: Microsoft Teams 中的應用程式、Bot 和連接器
-        url: ./deploy-apps-microsoft-teams-landing-page.md
-      - text: 打造適用於 Microsoft Teams 的 App
-        url: /MicrosoftTeams/platform/overview
-      - text: 與 Microsoft Power Platform 整合
-        url: ./teams-power-platfom-integration.md
-      - text: Microsoft Teams App 安全性與合規性
-        url: /microsoft-365-app-certification/teams/teams-apps
-      - text: Microsoft Viva - 員工體驗及參與
-        url: https://www.microsoft.com/microsoft-viva/
-    - title: 教育與產業
-      links:
-      - text: 讓學生在使用 Teams 遠距學習的時候保持安全
-        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Microsoft Teams 教育版
-        url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
-      - text: 醫療保健
-        url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
-      - text: 前線員工
-        url: ./flw-quickstart.yml
-      - text: 零售業
-        url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
-    - title: 政府機關
-      links:
-      - text: 適用於政府機關的 Teams
-        url: ./expand-teams-across-your-org/teams-for-government-landing-page.md
-      - text: 政府 - GCC 部署
-        url: ./plan-for-government-gcc.md
-      - text: 政府 - GCC High 部署
-        url: ./plan-for-government-gcc-high.md
-      - text: 政府 - DoD 部署
-        url: ./plan-for-government-dod.md
-      - text: 適用於政府的原則套件
-        url: ./policy-packages-gov.md
+    - title: 關鍵解決方案
+      items:
+        - title: 聊天、團隊和頻道
+          links:
+            - text: 聊天、團隊、頻道和 App
+              url: ./deploy-chat-teams-channels-microsoft-teams-landing-page.md
+            - text: 團隊和頻道概觀
+              url: ./teams-channels-overview.md
+            - text: 與其他組織的使用者通話和聊天（來賓/外部存取）
+              url: ./communicate-with-users-from-other-organizations.md
+            - text: 什麼是共同作業控管？
+              url: /microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+            - text: 使用三層檔案共用安全性設定 Teams
+              url: /microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
+        - title: 會議和研討會
+          links:
+            - text: 會議和研討會概觀
+              url: ./deploy-meetings-microsoft-teams-landing-page.md
+            - text: 什麼是 Microsoft Teams 實況活動？
+              url: ./teams-live-events/what-are-teams-live-events.md
+            - text: 部署音訊研討會
+              url: ./deploy-audio-conferencing-teams-landing-page.md
+            - text: Microsoft Teams 會議室
+              url: ./rooms/index.md
+        - title: 語音通話
+          links:
+            - text: 規劃您的 Teams 語音解決方案
+              url: ./cloud-voice-landing-page.md
+            - text: 什麼是 Microsoft 365 商務語音
+              url: ./business-voice/whats-business-voice.md
+            - text: 設定電話系統
+              url: ./setting-up-your-phone-system.md
+            - text: Contoso 案例研究：Teams 語音移轉
+              url: ./voice-case-study-overview.md
+        - title: 擴充 Teams 功能
+          links:
+            - text: Microsoft Teams 中的應用程式、Bot 和連接器
+              url: ./deploy-apps-microsoft-teams-landing-page.md
+            - text: 打造適用於 Microsoft Teams 的 App
+              url: /MicrosoftTeams/platform/overview
+            - text: 與 Microsoft Power Platform 整合
+              url: ./teams-power-platfom-integration.md
+            - text: Microsoft Teams App 安全性與合規性
+              url: /microsoft-365-app-certification/teams/teams-apps
+            - text: Microsoft Viva - 員工體驗及參與
+              url: 'https://www.microsoft.com/microsoft-viva/'
+        - title: 教育與產業
+          links:
+            - text: 讓學生在使用 Teams 遠距學習的時候保持安全
+              url: 'https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8'
+            - text: Microsoft Teams 教育版
+              url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
+            - text: 醫療保健
+              url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
+            - text: 前線員工
+              url: ./flw-quickstart.yml
+            - text: 零售業
+              url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
+        - title: 政府機關
+          links:
+            - text: 適用於政府機關的 Teams
+              url: ./expand-teams-across-your-org/teams-for-government-landing-page.md
+            - text: 政府 - GCC 部署
+              url: ./plan-for-government-gcc.md
+            - text: 政府 - GCC High 部署
+              url: ./plan-for-government-gcc-high.md
+            - text: 政府 - DoD 部署
+              url: ./plan-for-government-dod.md
+            - text: 適用於政府的原則套件
+              url: ./policy-packages-gov.md
