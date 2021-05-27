@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328505"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628882"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -53,9 +53,9 @@ ms.locfileid: "52328505"
 
 <sup>2</sup> 此限制包含已封存的小組。 
 
-<sup>3</sup> 若要進一步增加小組數目，您必須與 Microsoft 支援服務連絡，並要求進一步增加您的租用戶中 Azure Active Directory 物件的數量。 只有實際生產案例才會增加。
+<sup>3</sup> 若要進一步增加小組數目，您必須與 Microsoft 支援服務連絡，並要求進一步增加您的租用戶中 Azure Active Directory 物件的數量。增加只能針對實際生產案例執行。
 
-<sup>4</sup> 已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道或 30 個私人頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，且該頻道不再會計入每個小組頻道的限制。
+<sup>4</sup> 已刪除的頻道可以在 30 天內還原。在這 30 天內，已刪除的頻道會持續計入每個小組 200 個頻道或 30 個私人頻道的限制。30 天後，已刪除的頻道及其內容會永久刪除，且該頻道不再會計入每個小組頻道的限制。
 
 <sup>5</sup> 28 KB 是大約限制，因為其包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
 
@@ -78,7 +78,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 
 <sup>1</sup> 如果一個聊天超過 20 個人，以下的聊天功能會關閉：Outlook 自動回覆和 Teams 狀態訊息；輸入指示器；視訊和音訊通話；共用；讀取回條。當私人群組聊天包含超過 20 個成員時，也會移除 [設定傳遞選項] 按鈕 (!)。
 
-<sup>2</sup> 每次只能將 200 名成員新增至群組聊天。 [如需詳細資訊，請參閱這篇文章](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)。
+<sup>2</sup> 每次只能將 200 名成員新增至群組聊天。[如需詳細資訊，請參閱此文章。](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)
 
 <sup>3</sup> 如果附件數量超過此限制，您會看見錯誤訊息。
 
@@ -131,7 +131,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 
 |功能     | 最大限制 |
 |------------|---------------|
-|一場會議中的人數 (可以交談和通話)  | 1000 位，包含 GCC 但尚不適用 GCCH 或 DoD。 **僅檢視** 會允許高達 20,000 名僅限聆聽參與者加入會議，其中的召集人擁有 E3/E5/A3/A5 SKU 以及政府用 (GCC、GCC High、DoD) 的授權。 深入了解[僅檢視體驗](view-only-meeting-experience.md)。|
+|一場會議中的人數 (可以交談和通話)  | 1000 位，包含 GCC 但尚不適用 GCCH、DoD 或 A1 (300)。 **僅檢視** 會允許高達 20,000 名僅限聆聽參與者加入會議，其中的召集人擁有 E3/E5/A3/A5 SKU 以及政府用 (GCC、GCC High、DoD) 的授權。 深入了解[僅檢視體驗](view-only-meeting-experience.md)。|
 |交談視訊或音訊通話中的人員數目 | 20 |
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |

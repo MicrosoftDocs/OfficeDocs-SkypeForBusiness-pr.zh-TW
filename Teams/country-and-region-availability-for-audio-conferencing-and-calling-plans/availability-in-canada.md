@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是加拿大Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629012"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669215"
 ---
 # <a name="availability-in-canada"></a>加拿大的可用性
 
@@ -65,6 +65,9 @@ ms.locfileid: "52629012"
 | 可以向外撥打電話嗎？  <br/>                 | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/>                                                                                                                                                                  |
 
 > [!Note]
+> 當美國國內 (國內或國際電話) 美國使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策將使用者撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者也將無法撥打美國使用者。
+
+> [!Note]
 > 美國電話會視為國內通話。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
@@ -76,9 +79,6 @@ ms.locfileid: "52629012"
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
 
  如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。
-
-> [!Note]
-> 當美國國內 (國內或國際電話) 美國使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策將使用者撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者也將無法撥打美國使用者。
 
 ## <a name="communications-credits"></a>通訊點數
 
