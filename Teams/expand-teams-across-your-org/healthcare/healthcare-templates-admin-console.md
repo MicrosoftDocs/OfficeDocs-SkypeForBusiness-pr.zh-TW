@@ -1,5 +1,5 @@
 ---
-title: 使用 Teams 醫療保健範本建立團隊
+title: 使用醫療保健範本建立團隊
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,31 +20,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 在系統管理中心或 Microsoft Graph 使用 Microsoft Teams 範本，提供預先定義的設定、頻道和應用程式範本，以快速且輕鬆地建立團隊。
+description: 在系統管理中心或 Microsoft Graph使用小組範本，提供預先定義的設定、頻道和應用程式範本，以快速且輕鬆地建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117871"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684350"
 ---
-# <a name="create-a-team-using-teams-healthcare-templates"></a>使用 Teams 醫療保健範本建立團隊
+# <a name="use-a-healthcare-team-templates"></a>使用醫療保健小組範本
 
-Microsoft Teams 範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
+範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-對醫療保健組織來說，範本特別強大，因為它們提供結構，讓使用者以如何有效地使用 Teams 為導向。 範本也可讓系統管理員在組織中部署一致的小組。 如果您負責規劃、部署和管理整個醫療保健組織的多個團隊，本文適合您。
+對醫療保健組織來說，範本可能特別強大，因為它們提供結構，讓使用者以如何有效使用Microsoft Teams。 範本也可讓系統管理員在組織中部署一致的小組。 如果您負責規劃、部署和管理整個醫療保健組織的多個團隊，本文適合您。
 
-選擇使用 Teams 醫療保健範本建立團隊的方法：
+選擇使用團隊醫療保健範本建立團隊的方法：
 
 | 誰 | 使用方法： |
 | ---- | --------- |
-| 系統管理員和 IT 專業人員 | [使用 Teams 系統管理中心](#use-the-teams-templates-in-the-teams-admin-center)根據醫療保健 Teams 範本建立團隊。|
-| 開發人員和系統整合者 | [使用 Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) 根據醫療保健 Teams 範本建立團隊。 |
+| 系統管理員和 IT 專業人員 | [使用 Teams管理中心](#use-the-team-templates-in-the-admin-center)，根據醫療保健小組範本建立團隊。|
+| 開發人員和系統整合者 | [使用 Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph)根據醫療保健小組範本建立團隊。 |
 
-## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>使用 Teams 系統管理中心的 Teams 範本
+## <a name="use-the-team-templates-in-the-admin-center"></a>在系統管理中心使用小組範本
 
-Microsoft Teams 系統管理員可以使用 Teams 系統管理中心，並透過 Teams 範本建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入了解一般小組範本，請參閱[管理中心網站中的 Teams 範本入門](../../get-started-with-teams-templates-in-the-admin-console.md)。
+Microsoft Teams管理員可以使用 Teams系統管理中心，使用小組範本建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱在系統管理中心開始使用 [小組範本](../../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ### <a name="collaborate-on-patient-care"></a>在病患照護上共同作業
 
@@ -65,9 +65,9 @@ Microsoft Teams 系統管理員可以使用 Teams 系統管理中心，並透過
 ||||
 
 
-## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>使用 Teams 範本與 Microsoft Graph
+## <a name="use-the-team-templates-with-the-microsoft-graph"></a>使用小組範本與 Microsoft Graph
 
-開發人員可以使用 Microsoft Graph 搭配 Teams 範本建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 如需深入了解一般小組範本，請參閱 [Teams 範本入門](../../get-started-with-teams-templates.md)。 而有關 Teams 範本和 Microsoft Graph 的資訊，請參閱 [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0) 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+開發人員可以使用 Microsoft Graph小組範本來建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱 [開始使用小組範本](../../get-started-with-teams-templates.md)。 有關小組範本和 Microsoft 範本Graph，請參閱MICROSOFT TEAMS API[概觀和](/graph/teams-concept-overview?view=graph-rest-1.0) [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 ### <a name="ward-template"></a>Word 範本
 
@@ -93,7 +93,7 @@ Microsoft Teams 系統管理員可以使用 Teams 系統管理中心，並透過
 
 ### <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 
-若要使用這些範本，只需將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  如需了解如何部署 Teams 範本，請參閱 Microsoft Graph 文章，以了解如何[建立團隊](/graph/api/team-post?view=graph-rest-beta)。
+若要使用這些範本，只需將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  若要瞭解如何部署小組範本，請參閱 Microsoft Graph如何[建立小組一](/graph/api/team-post?view=graph-rest-beta)文。
 
 > [!NOTE]
 > 範本中的頻道會自動在 [一般] 索引標籤下建立。
@@ -202,6 +202,6 @@ Microsoft Teams 系統管理員可以使用 Teams 系統管理中心，並透過
 
 ### <a name="related-topics"></a>相關主題
 
-[開始使用 Teams 範本](../../get-started-with-teams-templates.md)
+[開始使用小組範本](../../get-started-with-teams-templates.md)
 
-[開始使用適用於醫療保健組織的 Teams](teams-in-hc.md)
+[開始使用醫療保健組織小組](teams-in-hc.md)

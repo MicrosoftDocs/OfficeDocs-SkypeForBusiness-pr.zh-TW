@@ -1,5 +1,5 @@
 ---
-title: 在系統管理中心管理 Teams 範本
+title: 在系統管理中心管理小組範本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在系統管理中心管理 Teams 範本
-ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解如何在系統管理中心管理小組範本
+ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093923"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684580"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>在系統管理中心管理 Teams 範本
+# <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
-在系統管理中心建立範本政策，管理使用者看到的 Teams 範本。 在每個範本策略中，您可以指定顯示或隱藏哪些範本。
-將不同的使用者指派給不同的範本策略，讓使用者只查看指定的 Teams 範本子集。
+在系統管理中心建立範本政策，管理使用者看到的團隊範本。 在每個範本策略中，您可以指定顯示或隱藏哪些範本。
+將不同的使用者指派給不同的範本策略，這樣您的使用者只會查看指定的小組範本子集。
 
 請觀看這段短片，瞭解如何管理範本策略。
 
@@ -44,7 +44,7 @@ ms.locfileid: "51093923"
 
     ![已選取範本策略，且已強調新增](media/template-policies-1.png)
 
-1. 在範本 **策略設定區** 段，完成下欄欄位：
+1. 在範本 **策略設定** 區段，完成下欄欄位：
 
     - 範本策略名稱
 
@@ -58,18 +58,18 @@ ms.locfileid: "51093923"
 
 1. 若要取消隱藏特定範本，請卷起至隱藏 **範本** 資料表。
 
-2. 選取要取消隱藏的範本， **然後選取** 顯示 。
+2. 選取要取消隱藏的範本，然後選取 **顯示**。
 
    ![未隱藏的所選範本](media/template-policies-3.png)
 
    選取的範本會顯示在可查看 **的範本資料** 表中。
-3. 選取 **儲存**。
+3. 選取 [儲存 **]**。
 
    您的新範本策略會顯示在範本 **策略清單中** 。
 
 ## <a name="assign-users-to-the-template-policies"></a>將使用者指派給範本策略
 
-指派給策略的使用者只能查看該策略內的可查看範本。
+指派給策略的使用者只能查看該政策內的可查看範本。
 
 1. 從 **範本政策** 中，選取一個策略，然後選取管理 **使用者**。
 
@@ -104,22 +104,22 @@ ms.locfileid: "51093923"
 
 答：任何已刪除的範本將不再存在於任何範本政策中。
 
-**問：我可以在 Teams 系統管理中心將多個使用者指派給範本策略嗎？**
+**問：我可以將多個使用者指派給系統管理中心的範本Teams嗎？**
 
 答：是。
 
 1. 在系統管理中心，前往 **使用者**。
-1. 在使用者清單表格中，選取要指派給特定範本策略的使用者。
+1. 在使用者清單表格中，選取您想要指派給特定範本策略的使用者。
 1. 選取編輯設定，然後變更範本政策欄位。
 1. 選取 Apply。
-   深入瞭解 [在 Microsoft Teams - Microsoft Teams \| Microsoft Docs 中指派策略給使用者](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
+   深入瞭解[在 Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users)中指派Microsoft Teams使用者Microsoft Teams。
 
 **問：如何查看指派給特定策略的所有使用者？**
 
 答：在系統管理中心：
 
 1. 前往 **使用者區** 段。
-2. 在使用者清單資料表中選取篩選，然後針對團隊範本策略進行篩選。
+2. 在使用者清單資料表中選取篩選，然後針對小組範本策略進行篩選。
 3. 選取 **Apply**。
 
 ![選取的範本策略和查看使用者](media/template-policies-5.png)
@@ -142,6 +142,6 @@ ms.locfileid: "51093923"
 
 - [從現有的小組範本建立小組範本](./create-template-from-existing-template.md)
 
-- [在 Microsoft Teams 中指派策略給使用者 - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [在 Microsoft Docs Microsoft Teams指派Microsoft Teams \| 使用者](./assign-policies.md)
 
 - [將使用者批次指派給策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

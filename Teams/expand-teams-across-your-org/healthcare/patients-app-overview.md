@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: 了解適用於 Teams 系統管理員的病患應用程式
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803501"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697840"
 ---
 # <a name="patients-app-overview"></a>病患應用程式概觀
 
@@ -45,7 +45,7 @@ ms.locfileid: "48803501"
 
 ## <a name="configure-patients-app"></a>設定病患應用程式
 
-如需如何準備環境以使用 EMR 模式病患應用程式的詳細資訊，請參閱[將電子醫療保健記錄整合至 Microsoft Teams](patients-app.md)。 您也需要參閱[在 Microsoft Teams 中管理應用程式設定原則](../../teams-app-setup-policies.md)，才能為您的組織啟用病患應用程式。
+請參閱[管理應用程式中的應用程式Microsoft Teams，](../../teams-app-setup-policies.md)為貴組織啟用病患應用程式。
 
 如需使用者如何存取及安裝病患應用程式至他們擁有或管理的小組的詳細資訊，請參閱[開始使用 Microsoft Teams 病患服務](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)。
 
@@ -74,6 +74,3 @@ ms.locfileid: "48803501"
 
 是，有稽核。 Microsoft Teams 使用者在病患應用程式上執行的每一個 UI 動作都會進行稽核，並可在安全性與合規性中心使用。 詳細資料會在[病患應用程式的稽核記錄](patients-audit.md)中說明。
 
-## <a name="related-topics"></a>相關主題
-
-[將電子醫療保健記錄整合至 Microsoft Teams](patients-app.md)

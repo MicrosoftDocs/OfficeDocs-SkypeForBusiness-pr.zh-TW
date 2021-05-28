@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 PowerShell 中Teams變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f319e95b4b68c7b9a20c8c6fff238f70878e7a32
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: 986aebf2ae86e463976f4480fbd2f7dde440f0a1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491800"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684370"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft TeamsPowerShell 版本資訊
 
@@ -31,7 +31,7 @@ ms.locfileid: "52491800"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 5 月 | [3.0.0] |<li>AccessToken 登入的更新Connect-MicrosoftTeams - 統一權杖陣列，而非資源特定的存取權杖參數</li><li>移除所有 AADGraph 參照，因為 AADGraph 即將結束生命週期</li>|
+| 2021 年 5 月 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>支援 AccessToken 使用 連線 -MicrosoftTeams 登入。 已新增 -AccessTokens 參數，接受權杖陣列。 使用 AccessTokens Teams時，需要 MSGraph 和 Teams資源權杖。</li><li>已移除 AadAccessToken 和 MsAccessToken 參數。</li>|
 | 2021 年 5 月 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>從 更新。NETCore 2.1 到 3.1</li><li>新增 Cmdlet 以取得使用者和群組的多地理位置區域</li><li>整合式 Windows 驗證的修正程式，以使用 -AccountId Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy Cmdlet 現已提供</li><li>許多命令的輸入參數和輸出格式更新</li><li>修正重處理命令時的大型延遲問題</li><li>GA 自訂套件功能</li>|
 | 2021 年 4 月 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>整合式驗證Windows -AccountId 與 microsoftTeams 連線的修正。</li><li>新增 Cmdlet 以取得可發送給使用者的變更通知事件總數詳細資料。</li><li>新增 Cmdlet 以取得使用者和群組的多地理位置區域。</li><li>處理傳遞到 TeamsEnvironment 名稱的值時，會區分大小寫。 這個問題已經修正。</li><li>模組內遠端會話管理的主要要素，以協助進行單次測試。 租使用者系統管理員不應有功能變更。</li>|
 | 2021 年 4 月 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>已修正現有 Cmdlet (例如 Get-CsTeamsNetworkRoamingPolicy、Get-CsTeamsMeetingPolicy、Get-CsTeamsMesagingPolicy 等) 的格式。</li><li>已更新策略管理 Cmdlet 的參數清單。</li>|

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先移動 hyrid 應用程式端點。
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526716"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684380"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前，移動混合應用程式端點
 
@@ -46,7 +46,7 @@ ms.locfileid: "52526716"
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. 在 Microsoft 365 中建立並授權新的[資源帳戶](https://docs.microsoft.com/microsoftteams/manage-resource-accounts)，以取代現有的內部部署混合應用程式端點。
+2. 在 Microsoft 365 中建立並授權新的[資源帳戶](/microsoftteams/manage-resource-accounts)，以取代現有的內部部署混合應用程式端點。
 
 3. 將新的資源帳戶與現有的混合式應用程式端點產生關聯。
 
@@ -70,7 +70,7 @@ ms.locfileid: "52526716"
    }
    ```
 
-6. 將電話號碼指派給在步驟2中建立的新資源帳戶。 如需如何將電話號碼指派給資源帳戶的詳細資訊，請參閱下列文章： [指派服務號碼](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)。
+6. 將電話號碼指派給在步驟2中建立的新資源帳戶。 如需如何將電話號碼指派給資源帳戶的詳細資訊，請參閱下列文章： [指派服務號碼](/microsoftteams/manage-resource-accounts#assign-a-service-number)。
 
 7. 執行下列內部部署商務用 Skype Server PowerShell 命令，以刪除內部部署端點：
 

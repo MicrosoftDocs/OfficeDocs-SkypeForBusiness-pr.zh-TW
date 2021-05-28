@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628902"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684570"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>購買、設定及啟用適用于Microsoft Teams
 
@@ -69,7 +69,7 @@ ms.locfileid: "52628902"
 
 ### <a name="assign-app-licenses-to-users"></a>指派應用程式授權給使用者
 
-有關逐步指示，請參閱指派 [授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ### <a name="turn-on-linkedin-account-connections"></a>開啟LinkedIn帳戶連結
 
@@ -226,7 +226,7 @@ ms.locfileid: "52628902"
 
 學習領域與主要興趣領域、學術專業和學位是同義字。 學生開始使用應用程式並開始設定個人化設定檔時，會參照這些標題。
 
-新增所有學生可用的學習欄位，例如工程、英文、商務等等。 欄位清單可讓學生探索可能感興趣的學習欄位，並新增其焦點區域至個人檔案。
+新增所有學生可用的學習欄位，例如工程、英文、商務等等。 欄位清單可讓學生探索可能感興趣的學習欄位，並新增其焦點區域至其設定檔。
 
 > [!NOTE]
 > 從研究 [檔的範例欄位](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) 開始。
@@ -266,7 +266,7 @@ ms.locfileid: "52628902"
 
 1. 請Teams **系統管理中心**。
 
-1. 選取 **Teams App** 管理 &gt; **App** Career &gt; **Coach**。
+1. 選取 **Teams** &gt; **應用程式 管理應用程式** &gt; **職業教練**。
 
 2. 將狀態切換 **開關移至** 允許 。  
 
@@ -303,7 +303,7 @@ ms.locfileid: "52628902"
 > [!NOTE]
 > 學生會收到有關Microsoft Teams教練已釘釘的通知。
 
-請參閱 [在 Microsoft 中管理應用程式設定](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) 政策以瞭解其他詳細資料。
+請參閱 [在 Microsoft 中管理應用程式設定](/microsoftteams/teams-app-setup-policies) 政策以瞭解其他詳細資料。
 
 ## <a name="resources"></a>資源
 

@@ -1,5 +1,5 @@
 ---
-title: 'Teams IT 和合規性系統管理員的稽核病患應用程式 '
+title: '針對 IT 和合規性系統管理員Teams病患應用程式 '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: 瞭解如何稽核 Teams 系統管理員的病患應用程式
+description: 瞭解為系統管理員稽核病患Teams應用程式
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3cf850b8ae7312fa6c43f879baefb617f48d30b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096187"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697830"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
@@ -34,10 +34,10 @@ ms.locfileid: "51096187"
 
 ## <a name="meet-hipaa-requirements"></a>符合 HIPAA 需求
 
-根據 HIPAA 指導方針，醫療保健提供者必須保留所有 PHI 存取的記錄，以便對變更進行稽核。 Microsoft 致力於使用 Microsoft Teams 的企業客戶，並致力於協助他們符合 HIPAA 需求和控制措施。 透過病患 App 存取 PHI 會完全追蹤，且記錄可在 Microsoft 365 合規性中心取得，如稽核記錄搜尋功能一文 [所述](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 。
+根據 HIPAA 指導方針，醫療保健提供者必須保留所有 PHI 存取的記錄，以便對變更進行稽核。 Microsoft 承諾使用 Microsoft Teams企業客戶，並協助他們符合 HIPAA 需求和控制措施。 透過病患 App 存取 PHI 的功能會完全追蹤，Microsoft 365合規性中心提供記錄，如稽核記錄搜尋功能一文[所述](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 > [!IMPORTANT]
-> 根據法律，維護病患隱私權的重任是由醫療保健提供者承擔。 法律賦予病患隱私權，並規定 IT 系統管理員或 HIPAA 控制者可以輕鬆地判斷哪些護士、醫師或社會工作人員存取或變更病患記錄。 違反 PHI 存取權最常見的範例之一是存取至VIP 病患。 需要稽核記錄功能，才能針對任何 PHI 存取違規進行調查，並符合 HIPAA 需求。
+> 根據法律，維護病患隱私權的重任是由醫療保健提供者承擔。 法律賦予病患隱私權，並規定 IT 系統管理員或 HIPAA 控制者可以輕鬆地判斷哪些護士、醫師或社會工作人員存取或變更病患記錄。 違反 PHI 存取權最常見的範例之一是存取VIP 病患。 需要稽核記錄功能，才能針對任何 PHI 存取違規進行調查，並符合 HIPAA 需求。
 
 <!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
@@ -45,8 +45,8 @@ ms.locfileid: "51096187"
 
 稽核取決於幾個先前的配置：
 
-1. 系統管理員必須和 FHIR 服務提供者合作，以病患 App 所使用的格式使用 EMR。 請參閱 [將電子醫療保健記錄整合至 Microsoft Teams](patients-app.md)。
-2. 醫療保健提供者系統管理員必須啟用 Teams 系統管理中心中的病患應用程式。 請參閱 [在 Microsoft Teams 中管理應用程式](../../teams-app-setup-policies.md) 設定政策和相關文章以瞭解更多資訊。
+1. 系統管理員必須和 FHIR 服務提供者合作，以病患 App 所使用的格式使用 EMR。 
+2. 醫療保健提供者系統管理員必須啟用系統管理中心Teams App。 請參閱[管理應用程式設定Microsoft Teams](../../teams-app-setup-policies.md)相關文章以瞭解更多資訊。
 3. 系統管理員必須啟用活動稽核，就像啟用任何活動記錄稽核的方式一樣，如您開始之前和開啟[](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)或關閉稽核記錄[搜尋](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)中所述。 如果稽核記錄已經啟動，則病患應用程式不需要任何特殊功能。 每次醫療保健提供者在小組中安裝及執行應用程式時，稽核記錄會記錄其 PHI 活動。
 4. 然後系統管理員必須宣佈病患應用程式的可用性，而醫療保健工作者必須開始產生活動，才能納入稽核。
 
@@ -60,14 +60,14 @@ ms.locfileid: "51096187"
 
 病患應用程式擁有自己的記錄活動，如下表所列：
 
-|好用的名稱 |操作|說明|
+|好用名稱 | 操作 | 說明|
 |:---|:---|:---|
 | 已查看病患清單 | PatientListView | 使用者已查看病患清單。|
 | 已刪除的病患清單 | PatientListDelete | 使用者刪除了病患清單。|
-| 新增病患到清單 | PatientListAddPatient | 病患已新加入病患清單。 |
+| 新增病患到清單 | PatientListAddPatient | 一位病患已新加入病患清單。 |
 | 新增病患記事 | PatientNoteAdd | 已新增記事至病患記錄。 |
 | 建立病患架構 | PatientSchemaCreate | 已建立一組用於病患記錄的欄。 |
-| 使用者啟動匯出 | ExportInitiation | 病患資料從病患應用程式匯出至 Excel 檔案。 檔案會儲存于小組 sharepoint 網站。 |
+| 使用者啟動匯出 | ExportInitiation | 病患資料從病患應用程式匯出至Excel檔案。 檔案會儲存于小組 sharepoint 網站。 |
 | 已建立病患清單 | PatientListCreate | 使用者建立了病患清單。|
 | 設定預設病患清單| PatientListDefaultSet| 使用者將特定清單設定為預設清單。|
 | 從清單中移除病患| PatientListRemovePatient | 一位病患已從病患清單中移除。 |
@@ -78,14 +78,11 @@ ms.locfileid: "51096187"
 | 已查看病患詳細資料 | PatientView | 使用者已查看病患記錄。|
 | 已編輯病患詳細資料 | PatientDetailsEdit | 已編輯病患記錄的詳細資料。 |
 | 設定 EHR 連接 | EHRConnectionSet | 設定用來連接到 EHR FHIR 服務連接的 URL。 範例<span>：HTTPs:// api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
-||||
 
 您可以自訂您的稽核，以搜尋或篩選任何這些記錄的活動。
 
-Microsoft Teams 記錄的活動一般在 [Microsoft Teams 活動中描述](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
+一般而言，Microsoft Teams記錄的活動會以Microsoft Teams[描述](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
 
 ## <a name="related-topics"></a>相關主題
 
 [搜尋稽核記錄](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
-
-[將電子醫療保健記錄整合至 Microsoft Teams](patients-app.md)

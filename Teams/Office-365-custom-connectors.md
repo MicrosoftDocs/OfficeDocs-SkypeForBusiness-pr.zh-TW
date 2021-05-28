@@ -17,12 +17,12 @@ description: 連接器透過將您經常使用的服務中的內容和更新直�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669145"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684240"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用自訂連接器Microsoft Teams
 
@@ -32,7 +32,8 @@ ms.locfileid: "52669145"
 
 Microsoft 365連接器可同時用於Microsoft Teams Microsoft 365群組，讓所有成員更容易保持同步，並快速接收相關資訊。 兩Microsoft Teams Exchange都使用相同的連接器模型，這可讓您在兩個平臺上使用相同的連接器。 不過，值得注意的是，停用小組所依存之 Microsoft 365 群組的連接器也會停用該團隊建立連接器的能力。
 
-> [附注]根據預設，在政府雲端和環境中，連接器Community (GCC) 停用。 如果您需要啟用，請設定 ConnectorsEnabled 或 ConnectorsEnabledForTeams 參數，$true [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Cmdlet 設定。 您先前需要連接到[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> [!NOTE]
+> 根據預設，在政府雲端和環境中，連接器Community (GCC) 停用。 如果您需要啟用，請設定 ConnectorsEnabled 或 ConnectorsEnabledForTeams 參數，$true [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Cmdlet 設定。 您先前需要連接到[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 
 ## <a name="add-a-connector-to-a-channel"></a>新增連接器至頻道
 

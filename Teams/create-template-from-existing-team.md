@@ -1,5 +1,5 @@
 ---
-title: 從 Microsoft 團隊中的現有小組建立範本
+title: 從現有的小組在 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何使用現有的小組在 Microsoft 團隊中建立新的範本。
+description: 瞭解如何使用現有小組在 Microsoft Teams。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,58 +16,58 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96d1d2192335367023544b7a30bc36bf69c02a19
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: da234258f3326c03b3a49cbb408f4ab9c5bd7c9f
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308116"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684390"
 ---
-# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>從 Microsoft 團隊中的現有小組建立範本
+# <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>從現有的小組在 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **EDU 客戶尚不支援自訂範本。**
 
-Microsoft 團隊可讓您從現有的小組建立範本，以符合您特定組織的需求。
+Microsoft Teams可讓您從現有的小組建立範本，該範本可以儲存及修改，以滿足您特定的組織需求。
 
-1. 登入團隊系統管理中心。
+1. 登入 Teams 系統管理中心。
 
-2. 在左側導覽中，展開 [**團隊**  >  **小組範本**]。
+2. 在左側流覽中，展開 **Teams**  >  **範本**。
 
-3. 選取 [ **新增**]。
+3. 選取 [新增 **]**。
 
-4. 選取 [ **使用現有的團隊做為範本**]，然後選取 **[下一步]**。
+4. 選取 **使用現有的團隊做為範本**，然後選取 下 **一步**。
 
- ![小組範本起點畫面的圖像，使用現有的團隊做為醒目提示的範本。](media/team-existing-team-as-template.png)
+ ![小組範本起點畫面的影像，其中以現有團隊做為範本為強調顯示。](media/team-existing-team-as-template.png)
 
-5. 選取團隊名稱旁的，然後選取 **[下一步]**，以選取要做為起點的團隊。
+5. 選取團隊名稱旁的以做為起點的小組，然後選取下一 **步**。
 
-![已醒目提示一個團隊之小組清單的影像。](media/team-existing-team-selection.png)
+![一個團隊清單的影像，其中一個團隊已突顯出來。](media/team-existing-team-selection.png)
 
-6. 在 [ **範本設定** ] 區段中，完成下欄欄位，然後選取 **[下一步]**：
+6. 在範本 **設定區** 段，完成下欄欄位，然後選取下 **一步**：
     - 範本名稱
-    - 範本簡要與詳細描述
-    - 地區可視性  
+    - 範本簡短和長描述
+    - 地區設置可見度  
   
-7. 在 [ **頻道]、[索引標籤] 和 [應用程式]** 區段中，新增您團隊所需的任何通道和 app。
+7. 在 **頻道、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
 
-    1. 在 [ **頻道** ] 區段中，選取 [ **新增**]。
-    2. 在 [ **新增** ] 對話方塊中，命名頻道。
+    1. 在頻道 **區** 段 **，選取** 新增 。
+    2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
-    4. 決定是否要依預設顯示頻道。
-    5. 搜尋您要新增至頻道的 app 名稱。
-    6. 選取 **[** 完成後套用]。
+    4. 決定是否應該預設顯示頻道。
+    5. 搜尋要新加入頻道的應用程式名稱。
+    6. 完成 **時選取 Apply。**
 
-8. 選取 [ **提交** ]，儲存您所做的變更。
+8. 選取 **提交** 以儲存您的變更。
 
-您的新範本會顯示在 [ **團隊範本** ] 清單中。 範本可用於在團隊中建立團隊。
+您的新範本會顯示在小組 **範本** 清單中。 範本可用來在 Teams 中建立Teams。
 
 > [!Note]
-> 團隊使用者可能需要長達24小時的時間，才能看到圖庫中的自訂範本。
+> 團隊使用者最多可能需要 24 小時，才能在圖庫中查看自訂範本。
 
 ## <a name="related-articles"></a>相關文章
 
-- [在系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)
+- [在系統管理中心開始使用小組範本](get-started-with-teams-templates-in-the-admin-console.md)
 - [從現有的小組範本建立範本](create-template-from-existing-template.md)
 - [建立小組範本](create-a-team-template.md)

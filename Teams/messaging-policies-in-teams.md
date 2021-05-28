@@ -1,5 +1,5 @@
 ---
-title: 管理 Teams 中的訊息傳遞原則
+title: 在 Teams 中管理訊息原則
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -19,29 +19,29 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
-description: 瞭解傳訊政策，以及如何在 Teams 中控制聊天訊息。
-ms.openlocfilehash: 800bc37ee25c073d0702c519196620faa1faf92e
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+description: 瞭解傳訊政策，以及如何在聊天訊息中控制聊天Teams。
+ms.openlocfilehash: 5b202d0a1895c3fd9b4279d6a7db072cd18f72ad
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574162"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689781"
 ---
-# <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息傳遞原則
+# <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理訊息原則
 
 <!--- Add zone marker here--->
 
-訊息策略是用來控制哪些聊天和頻道訊息功能可供 Microsoft Teams ([](assign-roles-permissions.md)擁有者) 成員使用。 您可以使用自動建立 (全組織的預設) ，或建立及指派自訂訊息策略。
+傳訊政策是用來控制哪些聊天和頻道訊息功能可供使用者 (擁有者和成員[) 使用](assign-roles-permissions.md)Microsoft Teams。 您可以使用自動建立 (全組織的預設) ，或建立及指派自訂訊息策略。
 
 除非您建立並指派自訂策略，否則貴組織中使用者會自動取得全域原則。 編輯全域原則中的設定，或建立並指派一或多個自訂策略來開啟或關閉您想要的功能。
 
 ## <a name="create-a-custom-messaging-policy"></a>建立自訂訊息策略
 
-1. 在 Microsoft Teams 系統管理中心的左側導訊中，前往 **訊息策略**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **訊息策略**。
 2. 選取 [新增 **]**。
 3. 輸入原則的名稱和描述。
 4. 選擇您想要的設定。
-5. 選取 **儲存**。
+5. 選取 [儲存 **]**。
 
 例如，您想要確認未刪除或變更已送出的郵件。 建立名為「保留已寄郵件」的新自訂策略，並關閉下列設定：
 
@@ -53,12 +53,12 @@ ms.locfileid: "51574162"
 
 ## <a name="edit-a-messaging-policy"></a>編輯訊息策略
 
-您可以編輯全域原則和您建立的任何自訂策略。
+您可以編輯全域原則和您建立的任何自訂原則。
 
-1. 在 Microsoft Teams 系統管理中心的左側導訊中，前往 **訊息策略**。
-2. 按一下策略名稱的左側以選取該策略， **然後選取** 編輯 。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **訊息策略**。
+2. 按一下原則名稱左側來選取原則，然後選取 [編輯 **]**。
 3. 從此處，進行您需要的變更。
-4. 選取 **儲存**。
+4. 選取 [儲存 **]**。
 
 ## <a name="assign-a-custom-messaging-policy-to-users"></a>指派自訂訊息策略給使用者
 
@@ -67,7 +67,7 @@ ms.locfileid: "51574162"
 一次只能指派一個訊息策略給使用者。
 
 > [!NOTE]
-> 如果使用者已指派給使用者，則無法刪除該策略。 您必須先指派不同的策略給所有受影響的使用者，然後您可以刪除原始策略。
+> 如果已將原則指派給使用者，就無法刪除該原則。 您必須先為所有受影響的使用者指派不同的原則，之後才可以刪除原始原則。
 
 <!--- End zone marker here--->
 
@@ -84,17 +84,17 @@ ms.locfileid: "51574162"
     - **針對所有人關閉** 這表示此功能已停用，而且租使用者中沒有人已讀取回條，也無法開啟。
 <a name="bkchat"> </a>
 
-- **聊天**  如果您希望貴組織的使用者能夠使用 Teams 應用程式與其他人員聊天，請開啟此設定。
+- **聊天** 如果您希望貴組織的使用者能夠使用 Teams應用程式與其他人員聊天，請開啟此設定。
 - **在交談中使用 Giphys**  如果您開啟 Giphys，使用者可以在與他人的聊天交談中納入 Giphys。 Giphy 是線上資料庫和搜尋引擎，允許使用者搜尋和共用 GIF 動畫檔案。 每個 Giphy 都有內容分級。 除了開啟此設定之外，您還需要啟用選擇性連線 [體驗](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) ，才能在交談中允許 Giphys。
-- **Gipsy 內容分級**
+- **Giphy 內容分級**
     - **沒有限制** 這表示無論內容分級如何，您的使用者都能在聊天中插入任何 Giphy。
     - **中等**  這表示您的使用者將能夠在聊天中插入 Giphys，但會受到成人內容的中等限制。
     - **嚴格**  這表示您的使用者將能夠在聊天中插入 Giphys，但會嚴格限制成人內容。
 - **在交談中使用 Meme** 如果您開啟 Memes，使用者可以在與他人的聊天交談中納入 Memes。
-- **在交談中使用貼圖。 如果您開啟此選項，使用者可以在與他人的聊天交談中納入貼圖。
+- **在交談中使用貼圖** 如果您開啟此選項，使用者可以在與他人的聊天交談中納入貼圖。
 - **允許 URL 預覽** 使用此設定可開啟或關閉郵件中的自動 URL 預覽。
-- **允許使用者翻譯郵件** 開啟此設定，讓使用者自動將 Teams 郵件翻譯成其 Microsoft 365 或 Office 365 個人語言設定所指定的語言。
-- **允許沉浸式閱讀程式檢視郵件** 開啟此設定，讓使用者在 Microsoft Immersive Reader 中查看郵件。 沉浸式閱讀程式是一種學習工具，可提供全螢幕閱讀體驗，提高文字的可讀性。
+- **允許使用者翻譯郵件** 開啟此設定，讓使用者自動將Teams訊息翻譯成其個人語言設定所指定的語言，Microsoft 365或Office 365。
+- **允許沉浸式閱讀程式檢視郵件** 開啟此設定，讓使用者在 Microsoft 沈浸式閱讀程式。 沈浸式閱讀程式是一種學習工具，可提供全螢幕閱讀體驗，提高文字的可讀性。
 - **使用優先順序通知傳送緊急郵件** 如果您開啟此選項，使用者可以使用優先順序通知 [傳送郵件](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 優先順序通知會每隔 2 分鐘通知使用者 20 分鐘，或直到收件者選取並讀取標示為緊急的郵件。 這項功能會增加郵件及時處理的可能性。
 - **音訊訊息建立**
   > [!Important]
@@ -105,12 +105,12 @@ ms.locfileid: "51574162"
 - **在行動裝置上，顯示最近聊天上方的最愛頻道** 啟用此設定，將最愛的頻道移至行動裝置畫面的頂端，讓使用者不需要捲動來尋找它們。
 - **允許使用者從群組聊天移除使用者** 開啟此設定，讓使用者從群組聊天移除其他使用者。 這項功能可讓您繼續與較小的一群人員聊天，而不會失去聊天記錄。
 - **啟用建議的回復**  開啟此設定以啟用聊天訊息的建議回復。
-- **聊天許可權角色** 使用此設定可定義使用者的監督聊天角色。  深入瞭解監督 [聊天](supervise-chats-edu.md)。
+- **聊天許可權角色** 使用此設定可定義使用者的監督聊天角色。  深入了解[監督的聊天](supervise-chats-edu.md)。
 
 > [!NOTE]
 > 其中一些設定 ，例如使用 Giphys，也可以由團隊擁有者在團隊層級設定，而私人頻道擁有者也可以設定在私人頻道層級。
 
 ### <a name="related-topics"></a>相關主題
 
-- [在 Teams 中指派策略給使用者和群組](assign-policies-users-and-groups.md)
+- [為使用者和群組指派Teams](assign-policies-users-and-groups.md)
 - [在 Microsoft Teams 中指派 Teams 擁有者和成員](assign-roles-permissions.md)
