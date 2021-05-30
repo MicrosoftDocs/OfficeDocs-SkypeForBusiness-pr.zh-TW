@@ -307,6 +307,8 @@ items:
             href: policy-control-diagnostic-data-desktop.md
           - name: 選擇性連線體驗
             href: teams-privacy-oce-overview.md
+          - name: 電信業者連線資料傳輸
+            href: operator-connect-data-transfer.md
   - name: 管理及監視 Teams
     items:
       - name: 概觀
@@ -957,6 +959,12 @@ items:
                 href: manage-voice-routing-policies.md
               - name: 直接路由 Survivable Branch Appliance
                 href: direct-routing-survivable-branch-appliance.md
+      - name: 電信業者連線
+        items:
+          - name: 電信業者連線計劃
+            href: operator-connect-plan.md
+          - name: 設定電信業者連線
+            href: operator-connect-configure.md
       - name: 電話號碼
         items:
           - name: 管理組織的電話號碼
