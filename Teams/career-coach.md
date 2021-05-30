@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684570"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699354"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>購買、設定及啟用適用于Microsoft Teams
 
-職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。 Career Coach 為教育機構提供一個統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將他們的網路全部建在一個地方。
+職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。 Career Coach 為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
 
 深入瞭解職業 [教練](https://aka.ms/career-coach)。
 
@@ -73,7 +73,7 @@ ms.locfileid: "52684570"
 
 ### <a name="turn-on-linkedin-account-connections"></a>開啟LinkedIn帳戶連結
 
-職稱 **教練** 要求教育機構的使用者能夠將其帳戶Microsoft 365到他們在LinkedIn教練中協助使用的帳戶
+職稱 **教練** 要求教育機構的使用者能夠將他們的 Microsoft 365 帳戶連接到LinkedIn教練內協助使用的帳戶
 
 1. 使用 Azure [AD](https://aad.portal.azure.com/) 組織的全域系統管理員帳戶來登錄 Azure AD 系統管理中心。
 
@@ -85,11 +85,11 @@ ms.locfileid: "52684570"
 
    - 選取 **是** ，為教育機構的所有使用者啟用服務
 
-   - 選取 **選取的** 群組，只為教育機構中一群選取的使用者啟用服務
+   - 選取 **選取的** 群組，只針對教育機構中一群選取的使用者啟用服務
 
    - 選取 **No** 以撤銷教育機構中所有使用者的同意
 
-瞭解如何在 LinkedIn[中整合帳戶Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
+瞭解如何在 LinkedIn[中整合Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
 
 ## <a name="configure-career-coach-in-the-teams-admin-center"></a>在系統管理中心設定Teams教練
 
@@ -104,13 +104,13 @@ ms.locfileid: "52684570"
 2. 在左側流覽中，選取 **Teams**  >  **應用程式管理應用程式**。  
 
     > [!NOTE]
-    > 您必須是全域系統管理員Teams服務系統管理員才能存取頁面。
+    > 您必須是全域系統管理員或Teams系統管理員才能存取頁面。
 
 3. 搜尋或流覽 **職業教練**。  
 
 4. 選取 **生涯教練**，然後選取 **設定。**  
 
-    ![顯示已選取的職設定應用程式，其中顯示](media/app-settings.png)
+    ![顯示已選取的職設定應用程式，設定選項](media/app-settings.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>設定職業教練應用程式設定
 
@@ -160,7 +160,7 @@ ms.locfileid: "52684570"
 
 ##### <a name="add-and-confirm-the-linkedin-page"></a>新增並確認LinkedIn頁面
 
-決定教育機構的LinkedIn頁面。 在 LinkedIn搜尋或LinkedIn職員工成員，以判斷要使用的正確頁面，以尋找該頁面。  
+決定教育機構的LinkedIn頁面。 若要尋找LinkedIn頁面，請搜尋LinkedIn或連至職業服務教職員成員，以判斷要使用的正確頁面。  
   
 1. 請Teams **系統管理中心**。
 
@@ -180,12 +180,9 @@ ms.locfileid: "52684570"
 
 - 課程會作為學習資源的一部分退回。  
 
-- 課程和課程中繼資料 ，例如描述，可用來協助學生上傳文字記錄時識別其技能。  
+- 課程和課程中繼資料 ，例如描述，可用來協助學生在上傳文字記錄時識別其技能。  
 
 若要建立課程目錄，請彙集教育機構所傳授的所有課程清單，並上傳為 CSV 檔案。 應用程式會從課程目錄繪製，以從學生的成績記錄中找出其技能，並建議要參加的課程。 
-
-> [!NOTE]
-> 請參閱[資料在 Teams](location-of-data-in-teams.md) [安全性與合規性](security-compliance-overview.md)中的位置，以瞭解保護學生資訊的資訊。 
 
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>課程目錄檔案格式和架構
 
@@ -317,13 +314,9 @@ ms.locfileid: "52684570"
 
 - [在系統管理中心Microsoft Teams應用程式](manage-apps.md)
 
-- [安全性、隱私權和合規性Microsoft Teams](security-compliance-overview.md)
-
 - [線上虛擬方向套件](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [頻道的限制Teams規格](limits-specifications-teams.md)
-
-- [Microsoft Teams 中的資料位置](location-of-data-in-teams.md)
 
 - [開始使用系統管理訓練Microsoft Teams](ITAdmin-readiness.md)
 

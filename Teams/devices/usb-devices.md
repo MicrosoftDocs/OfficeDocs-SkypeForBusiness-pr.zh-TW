@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊 (裝置，例如耳機、喇叭、網路) 和Microsoft Teams。
-ms.openlocfilehash: 5aef6dd4179724c6964efeacbd03b9ec4c1b4456
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 6ff7a0678f7b68796f5236b44760ba92d2612a37
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569219"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705227"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 音訊和視Microsoft Teams
 
@@ -78,6 +78,7 @@ ms.locfileid: "52569219"
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Nec                  |WD551 Windows共同顯示                        |5/21/2021       |已Microsoft Teams                           |
 |羅技             |C920e 網路相機                                               |4/22/2021       |已Microsoft Teams                           |
 |聚                 |Studio P5 網路相機                                           |4/22/2021       |已Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |商務用 Skype升級至 Microsoft Teams      |

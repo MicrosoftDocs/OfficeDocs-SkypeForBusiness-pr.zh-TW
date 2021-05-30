@@ -21,23 +21,23 @@ ms.collection:
 - m365solution-scenario
 appliesto:
 - Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: ansantam
 description: 使用 Microsoft Teams 設定您的虛擬就診系統
-ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 9c002a90cd91014ca4887386ca5834a4b5b41266
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096277"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705247"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>使用 Teams 虛擬就診 - 整合至 EHR
 
-Microsoft Teams 電子健康記錄 (EHR) 連接器讓臨床醫生可以直接從 EHR 系統，在 Teams 中啟動虛擬病患就診或諮詢。 Microsoft Teams 建立在 Microsoft 365 雲端上，可在支援符合 HIPAA、HITECH 認證等法規的單一中樞中，使用聊天、影片、語音和醫療保健工具進行簡單、安全的共同作業和通訊。
-Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統的雜亂，可以將時間花費在提供最佳的照護上。 Microsoft Teams 電子健康記錄 (EHR) 連接器可以：
+Microsoft TeamsEHR (EHR) 連接器的電子健康記錄功能，讓臨床醫師可以直接從 EHR 系統啟動虛擬病患Teams或諮詢其他提供者。 Microsoft Teams 建立在 Microsoft 365 雲端上，可在支援符合 HIPAA、HITECH 認證等法規的單一中樞中，使用聊天、影片、語音和醫療保健工具進行簡單、安全的共同作業和通訊。
+Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統的雜亂，可以將時間花費在提供最佳的照護上。 Microsoft TeamsEHR (電子健康) 連接器可以：
 
-- 從提供者和病患入口網站啟動 Teams 虛擬就診。
-- 在連線和中斷連線事件時寫回 EHR 中繼資料，以啟用自動稽核和記錄保留。
-- 整合至現有的臨床醫生和病患工作流程，同時允許他們使用 Microsoft Teams。
+- 從Teams EHR 系統，以整合的臨床工作流程啟動虛擬訪問。
+- 讓病患從Teams入口網站加入虛擬訪問。
+- 將中繼資料寫回 EHR 系統，Teams出席者連接和中斷連接時進行虛擬訪問記錄，並啟用自動稽核和記錄保留功能。
 
   觀看如何從 EHR 入口網站管理虛擬就診的影片。
 
@@ -49,7 +49,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 - 在 [Epic 的 App Orchard 市集](https://apporchard.epic.com/Gallery?id=6153)中存取以使用 Microsoft Teams 應用程式。
 
-- 適用於醫療保健的 Microsoft Cloud 作用中訂閱或 Microsoft Teams EHR 連接器獨立供應項目訂閱 (僅在生產測試期間強制執行)。
+- 適用于醫療保健的 Microsoft Cloud 使用中訂閱或Microsoft Teams EHR 連接器獨立版方案 (僅在生產測試期間強制執行) 。
 
 - 使用者必須擁有包含 Microsoft Teams 會議的適當 Microsoft 365 或 Office 365 授權。
 
@@ -72,14 +72,14 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 連接器設定需要您：
 
-- [啟動 EHR 連接器組態入口網站](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
+- [啟動 EHR 連接器組式入口網站](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
 - [組態資訊](ehr-admin.md#configuration-information)
 - [核准或檢視組態](ehr-admin.md#approve-or-view-configuration)
 - [檢閱並完成組態](ehr-admin.md#review-and-finish-the-configuration)
 
-### <a name="launch-the-ehr-connector-configuration-portal"></a>[啟動 EHR 連接器組態入口網站](#launch-the-ehr-connector-configuration-portal)
+### <a name="launch-the-ehr-connector-configuration-portal"></a>[啟動 EHR 連接器組式入口網站](#launch-the-ehr-connector-configuration-portal)
 
-若要設定您的醫療保健組織使用 Microsoft Teams 來啟動虛擬就診，請從啟動 EHR 連接器組態入口網站開始。 您可以設定單一或多個組織來測試整合。 在組態入口網站中設定測試與生產 URL。 在移至生產環境之前，先從 Epic 的測試環境測試整合。
+啟動 EHR 連接器組Microsoft Teams開始將醫療保健組織配置為使用虛擬Microsoft Teams啟動虛擬訪問。 您可以設定單一或多個組織來測試整合。 在組態入口網站中設定測試與生產 URL。 在移至生產環境之前，先從 Epic 的測試環境測試整合。
   
 - EHR 連接器組態 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -99,7 +99,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 ### <a name="approve-or-view-configuration"></a>[核准或檢視組態](#approve-or-view-configuration)
 
-您的醫療保健組織的 Epic 客戶分析師已新增為核准者，現在必須使用上一個步驟中的相同 EHR 連接器 URL，才能使用其 Microsoft 365 認證來登入。 成功驗證之後，系統會要求核准者使用他們的 Epic 認證來驗證 Epic 組織。
+已新增為核准者之醫療保健組織的重要客戶分析師現在必須使用上一個步驟中的相同 EHR 連接器 URL，才能使用其 Microsoft 365 認證進行登錄。 成功驗證之後，系統會要求核准者使用他們的 Epic 認證來驗證 Epic 組織。
 
 > [!Note]
 > 貴組織的 Microsoft 365 系統管理員和 Epic 客戶分析師可以是相同的人員。 在這種情況下，將您自己的使用者名稱新增為核准者。 您仍然需要登入 Epic 以驗證您的存取權。 Epic 登入僅用於驗證您的 FHIR 基底 URL。 Microsoft 不會透過這個登入來儲存認證或存取 EHR 資料。
@@ -126,7 +126,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 ## <a name="launch-teams-virtual-visits"></a>啟動 Teams 虛擬就診
 
-完成 EHR 連接器步驟和 Epic 組態之後，您的組織已準備好支援使用 Microsoft Teams 進行視訊就診。
+完成 EHR 連接器步驟和長篇大說之後，貴組織就可以使用 Microsoft Teams 支援視Microsoft Teams。
 
 ### <a name="virtual-visit-prerequisites"></a>虛擬就診必要條件
 
@@ -175,4 +175,8 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 Teams 與 EHR 系統的整合，可最佳化整合和虛擬就診流程期間所使用和儲存的資料量。 解決方案遵循 Teams 隱私權中概述的整體 Teams 隱私權和資料管理原則和指導方針。
 
-Microsoft Teams EHR 連接器不會儲存或傳輸任何可識別個人資料，也不會從 EHR 系統傳輸任何病患或醫療保健提供者的健康記錄。 EHR 連接器儲存的唯一資料是 EHR 使用者的唯一識別碼，在 Teams 會議設定期間使用。 EHR 使用者的唯一識別碼儲存在 [Microsoft 365 客戶資料儲存位置](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)的三個地理區域其中之一。 會議參與者在 Teams 中輸入的所有聊天、錄音及其他資料，都是根據現有的儲存原則來儲存。 如果您想要深入了解 Microsoft Teams 中資料的位置，請參閱 [Teams 中資料的位置](../../location-of-data-in-teams.md)。
+Microsoft Teams EHR 連接器不會儲存或傳輸任何可識別個人資料，也不會從 EHR 系統傳輸任何病患或醫療保健提供者的健康記錄。 EHR 連接器儲存的唯一資料是 EHR 使用者的唯一識別碼，在 Teams 會議設定期間使用。 EHR 使用者的唯一識別碼儲存在 [Microsoft 365 客戶資料儲存位置](/microsoft-365/enterprise/o365-data-locations)的三個地理區域其中之一。 會議參與者在 Teams 中輸入的所有聊天、錄音及其他資料，都是根據現有的儲存原則來儲存。 如果您想要深入了解 Microsoft Teams 中資料的位置，請參閱 [Teams 中資料的位置](../../location-of-data-in-teams.md)。
+
+## <a name="related-topics"></a>相關主題
+
+[Teams虛擬訪問](ehr-admin-reports.md)
